@@ -1,12 +1,12 @@
 ---
-title: "Record 7b9452647d · Astronomy-centered-relativity-and-its-immediate-applications"
+title: "Record 7b9452647d · Astronomy-centered-relativity-and-its-immediate-app"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.717011+00:00
+updated_at: 2026-09-13T00:56:37.562481+00:00
 tags: [record, real-data]
 ---
 
-# Record 7b9452647d · Astronomy-centered-relativity-and-its-immediate-applications
+# Record 7b9452647d · Astronomy-centered-relativity-and-its-immediate-app
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.22018922)
 

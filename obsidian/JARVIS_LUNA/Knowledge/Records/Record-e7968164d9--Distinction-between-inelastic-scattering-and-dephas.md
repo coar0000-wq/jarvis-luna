@@ -1,12 +1,12 @@
 ---
-title: "Record e7968164d9 · Distinction-between-inelastic-scattering-and-dephasing-exponents-by-cu"
+title: "Record e7968164d9 · Distinction-between-inelastic-scattering-and-dephas"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.588279+00:00
+updated_at: 2026-09-13T00:56:37.451885+00:00
 tags: [record, real-data]
 ---
 
-# Record e7968164d9 · Distinction-between-inelastic-scattering-and-dephasing-exponents-by-cu
+# Record e7968164d9 · Distinction-between-inelastic-scattering-and-dephas
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.carbon.2026.121956)
 

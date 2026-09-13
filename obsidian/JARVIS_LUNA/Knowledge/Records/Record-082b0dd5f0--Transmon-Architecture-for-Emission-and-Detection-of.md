@@ -1,12 +1,12 @@
 ---
-title: "Record 082b0dd5f0 · Transmon-Architecture-for-Emission-and-Detection-of-Single-Microwave-P"
+title: "Record 082b0dd5f0 · Transmon-Architecture-for-Emission-and-Detection-of"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.020157+00:00
+updated_at: 2026-09-13T00:56:37.845087+00:00
 tags: [record, real-data]
 ---
 
-# Record 082b0dd5f0 · Transmon-Architecture-for-Emission-and-Detection-of-Single-Microwave-P
+# Record 082b0dd5f0 · Transmon-Architecture-for-Emission-and-Detection-of
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7124818268)
 

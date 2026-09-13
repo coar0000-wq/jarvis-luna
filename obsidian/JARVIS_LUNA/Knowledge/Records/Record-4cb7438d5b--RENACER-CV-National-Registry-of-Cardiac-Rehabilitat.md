@@ -1,12 +1,12 @@
 ---
-title: "Record 4cb7438d5b · RENACER-CV-National-Registry-of-Cardiac-Rehabilitation-Centers-in-Arge"
+title: "Record 4cb7438d5b · RENACER-CV-National-Registry-of-Cardiac-Rehabilitat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.738427+00:00
+updated_at: 2026-09-13T00:56:37.582110+00:00
 tags: [record, real-data]
 ---
 
-# Record 4cb7438d5b · RENACER-CV-National-Registry-of-Cardiac-Rehabilitation-Centers-in-Arge
+# Record 4cb7438d5b · RENACER-CV-National-Registry-of-Cardiac-Rehabilitat
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.7775/rac.v94.i2.20991)
 

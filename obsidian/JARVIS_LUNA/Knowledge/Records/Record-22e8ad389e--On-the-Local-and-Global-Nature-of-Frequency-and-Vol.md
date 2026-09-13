@@ -1,12 +1,12 @@
 ---
-title: "Record 22e8ad389e · On-the-Local-and-Global-Nature-of-Frequency-and-Voltage-Dynamics"
+title: "Record 22e8ad389e · On-the-Local-and-Global-Nature-of-Frequency-and-Vol"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.515727+00:00
+updated_at: 2026-09-13T00:56:37.380910+00:00
 tags: [record, real-data]
 ---
 
-# Record 22e8ad389e · On-the-Local-and-Global-Nature-of-Frequency-and-Voltage-Dynamics
+# Record 22e8ad389e · On-the-Local-and-Global-Nature-of-Frequency-and-Vol
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.08405v1)
 

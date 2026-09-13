@@ -1,12 +1,12 @@
 ---
-title: "Record d3f1478e33 · Belgrade-lets-take-eCommerce-further---CJEC-Belgrade-2026"
+title: "Record d3f1478e33 · Belgrade-lets-take-eCommerce-further---CJEC-Belgrad"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.208741+00:00
+updated_at: 2026-09-13T00:56:38.011626+00:00
 tags: [record, real-data]
 ---
 
-# Record d3f1478e33 · Belgrade-lets-take-eCommerce-further---CJEC-Belgrade-2026
+# Record d3f1478e33 · Belgrade-lets-take-eCommerce-further---CJEC-Belgrad
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/watch?v=0AGABvB89no)
 

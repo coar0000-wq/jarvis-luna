@@ -1,12 +1,12 @@
 ---
-title: "Record 43410fb116 · Why-Global-Bond-Yields-Are-Expected-To-Stay-Elevated"
+title: "Record 43410fb116 · Why-Global-Bond-Yields-Are-Expected-To-Stay-Elevate"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.130316+00:00
+updated_at: 2026-09-13T00:56:37.945755+00:00
 tags: [record, real-data]
 ---
 
-# Record 43410fb116 · Why-Global-Bond-Yields-Are-Expected-To-Stay-Elevated
+# Record 43410fb116 · Why-Global-Bond-Yields-Are-Expected-To-Stay-Elevate
 
 > 실제 수집 레코드입니다. 원문: [www.goldmansachs.com](https://www.goldmansachs.com/insights/articles/why-global-bond-yields-are-expected-to-stay-elevated)
 

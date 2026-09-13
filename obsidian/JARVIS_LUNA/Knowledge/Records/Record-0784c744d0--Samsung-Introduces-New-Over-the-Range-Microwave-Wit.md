@@ -1,12 +1,12 @@
 ---
-title: "Record 0784c744d0 · Samsung-Introduces-New-Over-the-Range-Microwave-With-DualVent-Technolo"
+title: "Record 0784c744d0 · Samsung-Introduces-New-Over-the-Range-Microwave-Wit"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.997588+00:00
+updated_at: 2026-09-13T00:56:37.824476+00:00
 tags: [record, real-data]
 ---
 
-# Record 0784c744d0 · Samsung-Introduces-New-Over-the-Range-Microwave-With-DualVent-Technolo
+# Record 0784c744d0 · Samsung-Introduces-New-Over-the-Range-Microwave-Wit
 
 > 실제 수집 레코드입니다. 원문: [news.samsung.com](https://news.samsung.com/global/samsung-introduces-new-over-the-range-microwave-with-dualvent-technology)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 748ca433f3 · AI-Chatbot-for-Shopify-Tools-Compared-2026---Shopify-New-Zealand---Sho"
+title: "Record 748ca433f3 · AI-Chatbot-for-Shopify-Tools-Compared-2026---Shopif"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.791057+00:00
+updated_at: 2026-09-13T00:56:37.630988+00:00
 tags: [record, real-data]
 ---
 
-# Record 748ca433f3 · AI-Chatbot-for-Shopify-Tools-Compared-2026---Shopify-New-Zealand---Sho
+# Record 748ca433f3 · AI-Chatbot-for-Shopify-Tools-Compared-2026---Shopif
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiVEFVX3lxTFBYWG12UFI0bkVWWkVsWkhDQk5aMk1vbjlfd1RuX19sRE11aERydW9MOHZORWJvMk5iLTMtZGlNYTVDa2NkODU3N045Vnk0UDZ0azh0Yg?oc=5)
 

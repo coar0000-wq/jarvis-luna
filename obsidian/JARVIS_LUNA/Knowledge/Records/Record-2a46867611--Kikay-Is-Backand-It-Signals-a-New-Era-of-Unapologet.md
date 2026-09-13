@@ -1,12 +1,12 @@
 ---
-title: "Record 2a46867611 · Kikay-Is-Backand-It-Signals-a-New-Era-of-Unapologetic-Girlhood---previ"
+title: "Record 2a46867611 · Kikay-Is-Backand-It-Signals-a-New-Era-of-Unapologet"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.895598+00:00
+updated_at: 2026-09-13T00:56:37.730786+00:00
 tags: [record, real-data]
 ---
 
-# Record 2a46867611 · Kikay-Is-Backand-It-Signals-a-New-Era-of-Unapologetic-Girlhood---previ
+# Record 2a46867611 · Kikay-Is-Backand-It-Signals-a-New-Era-of-Unapologet
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMihAFBVV95cUxPaVNfOXM4S0dzT0Z5dnJZLXZwZHR4bHM0MlFuUnBLdEJfU21ta0xScWRoeE01bmNjSVljNlpWZnVlZUw1Ykt2YVJGeHZTYTdXRWJnc2ZXUVRzWGNwQW42blpjbkEtYTdQNkRhaDVoWGtNYzUydUt5WVI0WEt1UUhkWjJ0YlM?oc=5)
 

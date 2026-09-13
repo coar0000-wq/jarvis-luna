@@ -1,12 +1,12 @@
 ---
-title: "Record d927bad6a2 · New-Ecommerce-Tools-May-20-2026---Practical-Ecommerce"
+title: "Record d927bad6a2 · New-Ecommerce-Tools-May-20-2026---Practical-Ecommer"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.857743+00:00
+updated_at: 2026-09-13T00:56:37.694686+00:00
 tags: [record, real-data]
 ---
 
-# Record d927bad6a2 · New-Ecommerce-Tools-May-20-2026---Practical-Ecommerce
+# Record d927bad6a2 · New-Ecommerce-Tools-May-20-2026---Practical-Ecommer
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMidEFVX3lxTE5xNWhhUjBtQXNzQVc2UjJjMV9XOTZaT1VMNng3ME9EeHZGRGxKWjZicEo3clVfYmtRUmRlOUItMVBkaGRFeEgxajhWSzFoT2pxbzg0dWtjT2kwV0loN3BNRlFLTTVXNU1ZXzVISVRfNElrLWtG?oc=5)
 

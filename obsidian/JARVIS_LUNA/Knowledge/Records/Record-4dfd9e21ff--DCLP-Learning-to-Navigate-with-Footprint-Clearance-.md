@@ -1,12 +1,12 @@
 ---
-title: "Record 4dfd9e21ff · DCLP-Learning-to-Navigate-with-Footprint-Clearance-and-Relative-Motion"
+title: "Record 4dfd9e21ff · DCLP-Learning-to-Navigate-with-Footprint-Clearance-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.518067+00:00
+updated_at: 2026-09-13T00:56:37.383156+00:00
 tags: [record, real-data]
 ---
 
-# Record 4dfd9e21ff · DCLP-Learning-to-Navigate-with-Footprint-Clearance-and-Relative-Motion
+# Record 4dfd9e21ff · DCLP-Learning-to-Navigate-with-Footprint-Clearance-
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.08711v1)
 

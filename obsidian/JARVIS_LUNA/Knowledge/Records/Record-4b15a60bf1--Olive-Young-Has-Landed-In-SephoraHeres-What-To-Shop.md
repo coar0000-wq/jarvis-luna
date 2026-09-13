@@ -1,12 +1,12 @@
 ---
-title: "Record 4b15a60bf1 · Olive-Young-Has-Landed-In-SephoraHeres-What-To-Shop-According-To-Your-"
+title: "Record 4b15a60bf1 · Olive-Young-Has-Landed-In-SephoraHeres-What-To-Shop"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.945076+00:00
+updated_at: 2026-09-13T00:56:37.776320+00:00
 tags: [record, real-data]
 ---
 
-# Record 4b15a60bf1 · Olive-Young-Has-Landed-In-SephoraHeres-What-To-Shop-According-To-Your-
+# Record 4b15a60bf1 · Olive-Young-Has-Landed-In-SephoraHeres-What-To-Shop
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMingFBVV95cUxNVEZyOUdtMkhXc2oxRl9IM0Q2OU9DYVBIY0VqS1R0VXVKRnI3M3hmT1RUeVZTNnc5UDVOZ0VwWHo1aXZ3dm5nSDNmWXZabnBmVF9Hclg2cjljcTd1WEJwdVhYVUpIZFZ3bXVuRDd2WjNPSXZLRTNTazRKMHExSlNQd05MNmJCZWxZcGpJb1V3RDl0X0FrMjhPM3h0T0xnQQ?oc=5)
 

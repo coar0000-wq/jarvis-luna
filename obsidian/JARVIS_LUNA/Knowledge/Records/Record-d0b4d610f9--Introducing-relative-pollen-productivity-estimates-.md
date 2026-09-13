@@ -1,12 +1,12 @@
 ---
-title: "Record d0b4d610f9 · Introducing-relative-pollen-productivity-estimates-for-Iberian-taxa-me"
+title: "Record d0b4d610f9 · Introducing-relative-pollen-productivity-estimates-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.703096+00:00
+updated_at: 2026-09-13T00:56:37.551259+00:00
 tags: [record, real-data]
 ---
 
-# Record d0b4d610f9 · Introducing-relative-pollen-productivity-estimates-for-Iberian-taxa-me
+# Record d0b4d610f9 · Introducing-relative-pollen-productivity-estimates-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5194/bg-23-6119-2026)
 

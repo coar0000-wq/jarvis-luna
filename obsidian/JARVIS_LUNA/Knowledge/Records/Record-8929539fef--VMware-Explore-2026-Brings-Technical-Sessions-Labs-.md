@@ -1,12 +1,12 @@
 ---
-title: "Record 8929539fef · VMware-Explore-2026-Brings-Technical-Sessions-Labs-and-Certs-to-IT-Pra"
+title: "Record 8929539fef · VMware-Explore-2026-Brings-Technical-Sessions-Labs-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.753518+00:00
+updated_at: 2026-09-13T00:56:37.595948+00:00
 tags: [record, real-data]
 ---
 
-# Record 8929539fef · VMware-Explore-2026-Brings-Technical-Sessions-Labs-and-Certs-to-IT-Pra
+# Record 8929539fef · VMware-Explore-2026-Brings-Technical-Sessions-Labs-
 
 > 실제 수집 레코드입니다. 원문: [investors.broadcom.com](https://investors.broadcom.com/news-releases/news-release-details/vmware-explore-2026-brings-technical-sessions-labs-and-certs-it)
 

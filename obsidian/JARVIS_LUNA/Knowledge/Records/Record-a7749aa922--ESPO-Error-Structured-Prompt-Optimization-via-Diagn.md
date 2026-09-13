@@ -1,12 +1,12 @@
 ---
-title: "Record a7749aa922 · ESPO-Error-Structured-Prompt-Optimization-via-Diagnose-Diversify-and-S"
+title: "Record a7749aa922 · ESPO-Error-Structured-Prompt-Optimization-via-Diagn"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.492540+00:00
+updated_at: 2026-09-13T00:56:37.359828+00:00
 tags: [record, real-data]
 ---
 
-# Record a7749aa922 · ESPO-Error-Structured-Prompt-Optimization-via-Diagnose-Diversify-and-S
+# Record a7749aa922 · ESPO-Error-Structured-Prompt-Optimization-via-Diagn
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.04197v1)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 3d5d9c606b · Artistry-Youth-Xtend-Lifting-Smoothing-Foundation-Shade-Chiffon-L2C1"
+title: "Record 3d5d9c606b · Artistry-Youth-Xtend-Lifting-Smoothing-Foundation-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.461308+00:00
+updated_at: 2026-09-13T00:56:37.331606+00:00
 tags: [record, real-data]
 ---
 
-# Record 3d5d9c606b · Artistry-Youth-Xtend-Lifting-Smoothing-Foundation-Shade-Chiffon-L2C1
+# Record 3d5d9c606b · Artistry-Youth-Xtend-Lifting-Smoothing-Foundation-S
 
 > 실제 수집 레코드입니다. 원문: [api.fda.gov](https://api.fda.gov/drug/label.json?search=id:085b50a9-68d7-d6e6-e063-6394a90a09be)
 

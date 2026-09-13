@@ -1,12 +1,12 @@
 ---
-title: "Record 2896846880 · Moo-Deng-Makeup-Why-Fans-Of-The-Viral-Baby-Hippo-Want-Her-Look---Forbe"
+title: "Record 2896846880 · Moo-Deng-Makeup-Why-Fans-Of-The-Viral-Baby-Hippo-Wa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.965485+00:00
+updated_at: 2026-09-13T00:56:37.795021+00:00
 tags: [record, real-data]
 ---
 
-# Record 2896846880 · Moo-Deng-Makeup-Why-Fans-Of-The-Viral-Baby-Hippo-Want-Her-Look---Forbe
+# Record 2896846880 · Moo-Deng-Makeup-Why-Fans-Of-The-Viral-Baby-Hippo-Wa
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMirAFBVV95cUxNclVSWXljT2lObGJWa2VENjJYdmt3QmlMY19mdjc0SXV2WHd0b28zYlVLQzQ2d1ZsWGRzSHNsXzBwUFpUSWZTaGVfbk1uUVdGSmhKYzJlRjlKdk9WQXo4UnEyeUVoREpiOWJ3M0JtTWRoRVlqaUllZDZBakV0ZFh3cXdFWmRTeFVFMXRESVpoXzY2cWhfS1Y5UGlOMkQ0c0hwN055SkdITFpmWHRl?oc=5)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 05037cf678 · UniMPA-A-Unified-Memory-Prediction-Action-Model-via-Action-Grounded-Tr"
+title: "Record 05037cf678 · UniMPA-A-Unified-Memory-Prediction-Action-Model-via"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.558531+00:00
+updated_at: 2026-09-13T00:56:37.421558+00:00
 tags: [record, real-data]
 ---
 
-# Record 05037cf678 · UniMPA-A-Unified-Memory-Prediction-Action-Model-via-Action-Grounded-Tr
+# Record 05037cf678 · UniMPA-A-Unified-Memory-Prediction-Action-Model-via
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.11875v1)
 

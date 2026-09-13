@@ -1,12 +1,12 @@
 ---
-title: "Record 287b43296e · Broadening-access-to-Skala-creates-a-faster-path-to-predictive-DFT"
+title: "Record 287b43296e · Broadening-access-to-Skala-creates-a-faster-path-to"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.146015+00:00
+updated_at: 2026-09-13T00:56:37.958353+00:00
 tags: [record, real-data]
 ---
 
-# Record 287b43296e · Broadening-access-to-Skala-creates-a-faster-path-to-predictive-DFT
+# Record 287b43296e · Broadening-access-to-Skala-creates-a-faster-path-to
 
 > 실제 수집 레코드입니다. 원문: [www.microsoft.com](https://www.microsoft.com/en-us/research/blog/broadening-access-to-skala-creates-a-faster-path-to-predictive-dft/)
 

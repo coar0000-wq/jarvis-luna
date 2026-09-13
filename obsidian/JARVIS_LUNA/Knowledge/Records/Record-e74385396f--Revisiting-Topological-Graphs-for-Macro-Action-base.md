@@ -1,12 +1,12 @@
 ---
-title: "Record e74385396f · Revisiting-Topological-Graphs-for-Macro-Action-based-Closed-loop-Reinf"
+title: "Record e74385396f · Revisiting-Topological-Graphs-for-Macro-Action-base"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.486539+00:00
+updated_at: 2026-09-13T00:56:37.354418+00:00
 tags: [record, real-data]
 ---
 
-# Record e74385396f · Revisiting-Topological-Graphs-for-Macro-Action-based-Closed-loop-Reinf
+# Record e74385396f · Revisiting-Topological-Graphs-for-Macro-Action-base
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.03906v1)
 

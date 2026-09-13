@@ -1,12 +1,12 @@
 ---
-title: "Record dffe0e5e29 · TikTok-Skin-Care-Routines-Are-Harmful-and-Expensive-Researchers-Say---"
+title: "Record dffe0e5e29 · TikTok-Skin-Care-Routines-Are-Harmful-and-Expensive"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.944589+00:00
+updated_at: 2026-09-13T00:56:37.775909+00:00
 tags: [record, real-data]
 ---
 
-# Record dffe0e5e29 · TikTok-Skin-Care-Routines-Are-Harmful-and-Expensive-Researchers-Say---
+# Record dffe0e5e29 · TikTok-Skin-Care-Routines-Are-Harmful-and-Expensive
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMingFBVV95cUxNMU13YXkwQmowSnJEallzSkpfSjFGU2lDWkU4a0t1U0hBTjNKNThpelhhZy1XVW8xdWp4WF9aWXlVdW9QT3dBSW9NQllKa2g1MnZaX2s5OTc1M3V2VHNDVWtkYUNxNGo1N3I2ZkV4RkNMWF96MnRISlROdTVxTjE0dEhtY2ljQ09Ja01MY1FuWHYxbm45Y1h0Yk9qWlUwUQ?oc=5)
 

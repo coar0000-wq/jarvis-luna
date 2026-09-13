@@ -1,12 +1,12 @@
 ---
-title: "Record f0199af3ff · Ecommerce-Website-Cost-Full-Guide-for-2026---Shopify"
+title: "Record f0199af3ff · Ecommerce-Website-Cost-Full-Guide-for-2026---Shopif"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.808506+00:00
+updated_at: 2026-09-13T00:56:37.646752+00:00
 tags: [record, real-data]
 ---
 
-# Record f0199af3ff · Ecommerce-Website-Cost-Full-Guide-for-2026---Shopify
+# Record f0199af3ff · Ecommerce-Website-Cost-Full-Guide-for-2026---Shopif
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiYEFVX3lxTFA1akxvMm1lZzQzbm5EWVB5UFZWcHphUkNPTzJmRUhEZ2lWU2djRzR5ZXNza3VId2EtOXZzSkROMW9ScUJEc1hWdjE3WjlLeEVCbTBuLXBRWWJRR0xZN1VFYw?oc=5)
 

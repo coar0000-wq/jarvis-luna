@@ -1,12 +1,12 @@
 ---
-title: "Record 49f9694274 · Microporous-diffractive-filter-for-infrared-rejection-in-high-harmonic"
+title: "Record 49f9694274 · Microporous-diffractive-filter-for-infrared-rejecti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.661619+00:00
+updated_at: 2026-09-13T00:56:37.517550+00:00
 tags: [record, real-data]
 ---
 
-# Record 49f9694274 · Microporous-diffractive-filter-for-infrared-rejection-in-high-harmonic
+# Record 49f9694274 · Microporous-diffractive-filter-for-infrared-rejecti
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1364/oe.608226)
 

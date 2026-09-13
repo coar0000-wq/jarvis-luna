@@ -1,12 +1,12 @@
 ---
-title: "Record b5356293f8 · Can-One-Person-Run-a-Billion-Dollar-Store---Practical-Ecommerce"
+title: "Record b5356293f8 · Can-One-Person-Run-a-Billion-Dollar-Store---Practic"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.888485+00:00
+updated_at: 2026-09-13T00:56:37.724205+00:00
 tags: [record, real-data]
 ---
 
-# Record b5356293f8 · Can-One-Person-Run-a-Billion-Dollar-Store---Practical-Ecommerce
+# Record b5356293f8 · Can-One-Person-Run-a-Billion-Dollar-Store---Practic
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiggFBVV95cUxPSDRkUFRYRVd2ZmtmWG0weEUyS2NEMkxCMEFFQUJ0SmR5bTNOUGVQcDgtcFpvV2laRkVvR3ZPdXg4bjRCNy1iU0VHQkQtOFE3T3hLck1VVmI0ODNaUm1sZTloQjNQc3RkYWlJQ0g2aVI1cWstQWJvR3MzcG51N0lrWmpn?oc=5)
 

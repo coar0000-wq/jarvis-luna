@@ -1,12 +1,12 @@
 ---
-title: "Record d75083f7b7 · Dime-Beauty-Co-Skin-Care-ProductsAllure-Beauty-Box-Member-Choice-Revie"
+title: "Record d75083f7b7 · Dime-Beauty-Co-Skin-Care-ProductsAllure-Beauty-Box-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.079642+00:00
+updated_at: 2026-09-13T00:56:37.898809+00:00
 tags: [record, real-data]
 ---
 
-# Record d75083f7b7 · Dime-Beauty-Co-Skin-Care-ProductsAllure-Beauty-Box-Member-Choice-Revie
+# Record d75083f7b7 · Dime-Beauty-Co-Skin-Care-ProductsAllure-Beauty-Box-
 
 > 실제 수집 레코드입니다. 원문: [www.allure.com](https://www.allure.com/review/dime-beauty-member-choice-review-2026)
 

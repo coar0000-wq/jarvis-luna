@@ -1,12 +1,12 @@
 ---
-title: "Record 5dfe5fce25 · Detecting-and-Controlling-Sycophancy-with-Cascading-Linear-Features"
+title: "Record 5dfe5fce25 · Detecting-and-Controlling-Sycophancy-with-Cascading"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.033782+00:00
+updated_at: 2026-09-13T00:56:37.857750+00:00
 tags: [record, real-data]
 ---
 
-# Record 5dfe5fce25 · Detecting-and-Controlling-Sycophancy-with-Cascading-Linear-Features
+# Record 5dfe5fce25 · Detecting-and-Controlling-Sycophancy-with-Cascading
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7166400338)
 

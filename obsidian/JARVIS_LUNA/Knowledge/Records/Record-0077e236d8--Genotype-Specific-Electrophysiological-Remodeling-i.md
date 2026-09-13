@@ -1,12 +1,12 @@
 ---
-title: "Record 0077e236d8 · Genotype-Specific-Electrophysiological-Remodeling-in-PLN-R14del-Cardio"
+title: "Record 0077e236d8 · Genotype-Specific-Electrophysiological-Remodeling-i"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.654064+00:00
+updated_at: 2026-09-13T00:56:37.511297+00:00
 tags: [record, real-data]
 ---
 
-# Record 0077e236d8 · Genotype-Specific-Electrophysiological-Remodeling-in-PLN-R14del-Cardio
+# Record 0077e236d8 · Genotype-Specific-Electrophysiological-Remodeling-i
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1161/circep.125.014684)
 

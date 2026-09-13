@@ -1,12 +1,12 @@
 ---
-title: "Record 5ccb1575d5 · Impact-of-Source-Contact-Segmentation-on-the-Electrical-Characteristic"
+title: "Record 5ccb1575d5 · Impact-of-Source-Contact-Segmentation-on-the-Electr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.578405+00:00
+updated_at: 2026-09-13T00:56:37.442500+00:00
 tags: [record, real-data]
 ---
 
-# Record 5ccb1575d5 · Impact-of-Source-Contact-Segmentation-on-the-Electrical-Characteristic
+# Record 5ccb1575d5 · Impact-of-Source-Contact-Segmentation-on-the-Electr
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1002/pssa.70498)
 

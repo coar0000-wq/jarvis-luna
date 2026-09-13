@@ -1,12 +1,12 @@
 ---
-title: "Record 306abeff48 · How-is-TikTok-reshaping-beauty-sales-in-the-Asia-Pacific-region---Reta"
+title: "Record 306abeff48 · How-is-TikTok-reshaping-beauty-sales-in-the-Asia-Pa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.938252+00:00
+updated_at: 2026-09-13T00:56:37.770026+00:00
 tags: [record, real-data]
 ---
 
-# Record 306abeff48 · How-is-TikTok-reshaping-beauty-sales-in-the-Asia-Pacific-region---Reta
+# Record 306abeff48 · How-is-TikTok-reshaping-beauty-sales-in-the-Asia-Pa
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMimgFBVV95cUxPbEF3Z01tdGppc2QzUVlFNXk2Q3U1WWtGMU5sa3FYeWdkNHhzLTNINjI0aWdKLVFJLV9YQjVtbUpqT181cjVDXzdmZjY2a2FMRkNjVTRtMEFlQUhZNk1ZcGs1RzFPUEkxQU1lRWt1NTBZVEx5Zl9VY045SHotWHUxeUVyWUlZNDNOYk5IdWx4dzViMXhCMEZna3Rn?oc=5)
 

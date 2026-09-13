@@ -1,12 +1,12 @@
 ---
-title: "Record 2905e9ba3c · Metas-AI-Push-Threatens-Shopifys-Core-Business-Analyst-Warns---Barrons"
+title: "Record 2905e9ba3c · Metas-AI-Push-Threatens-Shopifys-Core-Business-Anal"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.848869+00:00
+updated_at: 2026-09-13T00:56:37.685339+00:00
 tags: [record, real-data]
 ---
 
-# Record 2905e9ba3c · Metas-AI-Push-Threatens-Shopifys-Core-Business-Analyst-Warns---Barrons
+# Record 2905e9ba3c · Metas-AI-Push-Threatens-Shopifys-Core-Business-Anal
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMicEFVX3lxTE51cG82LVRNMFBMdlM3dEoxb1hxY2JUM1hfTHZudERyZmpaeHgxLXV4SGFBaXBkTzdCc0t3R3RpQ2RScGl6MkdDdzh5UU9vRF9ndFhHMXFpdldBZ1dVdG4wdE13QThuM2NNLUhIbUZRNVQ?oc=5)
 

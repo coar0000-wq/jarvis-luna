@@ -1,12 +1,12 @@
 ---
-title: "Record 503e9c2326 · How-GPT-56-Sol-helps-run-quantum-computing-experiments"
+title: "Record 503e9c2326 · How-GPT-56-Sol-helps-run-quantum-computing-experime"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.008882+00:00
+updated_at: 2026-09-13T00:56:37.834647+00:00
 tags: [record, real-data]
 ---
 
-# Record 503e9c2326 · How-GPT-56-Sol-helps-run-quantum-computing-experiments
+# Record 503e9c2326 · How-GPT-56-Sol-helps-run-quantum-computing-experime
 
 > 실제 수집 레코드입니다. 원문: [openai.com](https://openai.com/index/codex-quantum-computing-experiments)
 

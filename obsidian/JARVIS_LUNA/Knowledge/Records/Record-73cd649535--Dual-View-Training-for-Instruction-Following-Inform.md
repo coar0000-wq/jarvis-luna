@@ -1,12 +1,12 @@
 ---
-title: "Record 73cd649535 · Dual-View-Training-for-Instruction-Following-Information-Retrieval"
+title: "Record 73cd649535 · Dual-View-Training-for-Instruction-Following-Inform"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.022842+00:00
+updated_at: 2026-09-13T00:56:37.847709+00:00
 tags: [record, real-data]
 ---
 
-# Record 73cd649535 · Dual-View-Training-for-Instruction-Following-Information-Retrieval
+# Record 73cd649535 · Dual-View-Training-for-Instruction-Following-Inform
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7155451866)
 

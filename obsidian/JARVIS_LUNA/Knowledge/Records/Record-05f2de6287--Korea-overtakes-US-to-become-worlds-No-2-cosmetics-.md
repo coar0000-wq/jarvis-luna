@@ -1,12 +1,12 @@
 ---
-title: "Record 05f2de6287 · Korea-overtakes-US-to-become-worlds-No-2-cosmetics-exporter---Korea-Bi"
+title: "Record 05f2de6287 · Korea-overtakes-US-to-become-worlds-No-2-cosmetics-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.843081+00:00
+updated_at: 2026-09-13T00:56:37.679425+00:00
 tags: [record, real-data]
 ---
 
-# Record 05f2de6287 · Korea-overtakes-US-to-become-worlds-No-2-cosmetics-exporter---Korea-Bi
+# Record 05f2de6287 · Korea-overtakes-US-to-become-worlds-No-2-cosmetics-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMibkFVX3lxTE91a1IzWkJ4c1JtM3BxMVJkZzdJaVhMak41M2lIU0xmUmxtWlBVNWxobTBrNWZTVFlwVGZ0dFRrUkRoTGhtMnZOSzZacHZ1ejlmbVJzUjg2UjZNMjlLdXRWR3ktS21KaGJXWUliZ3RB0gFyQVVfeXFMT2NnellPM2QwNzhJMjl3R1ZRbDVqb1ZUQkdvTHZGZ0RleldHQ3JuNjBNRFdmdWZYNjF3aWNKMEJDRGo4VUx5NG56ZHk4UExJaUl1RmMxLTlmWW9WN0VxSUd4ckpHYUVObWhWaXQtemxCU3J3?oc=5)
 

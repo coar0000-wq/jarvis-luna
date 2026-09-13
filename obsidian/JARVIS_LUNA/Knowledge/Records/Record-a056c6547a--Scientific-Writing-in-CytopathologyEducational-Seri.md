@@ -1,12 +1,12 @@
 ---
-title: "Record a056c6547a · Scientific-Writing-in-CytopathologyEducational-Series-A-Practical-Guid"
+title: "Record a056c6547a · Scientific-Writing-in-CytopathologyEducational-Seri"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.644052+00:00
+updated_at: 2026-09-13T00:56:37.502859+00:00
 tags: [record, real-data]
 ---
 
-# Record a056c6547a · Scientific-Writing-in-CytopathologyEducational-Series-A-Practical-Guid
+# Record a056c6547a · Scientific-Writing-in-CytopathologyEducational-Seri
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1111/cyt.70111)
 

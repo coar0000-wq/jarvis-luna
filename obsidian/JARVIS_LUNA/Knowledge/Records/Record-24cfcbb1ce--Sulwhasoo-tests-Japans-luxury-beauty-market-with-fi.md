@@ -1,12 +1,12 @@
 ---
-title: "Record 24cfcbb1ce · Sulwhasoo-tests-Japans-luxury-beauty-market-with-first-Tokyo-pop-up---"
+title: "Record 24cfcbb1ce · Sulwhasoo-tests-Japans-luxury-beauty-market-with-fi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.982233+00:00
+updated_at: 2026-09-13T00:56:37.810317+00:00
 tags: [record, real-data]
 ---
 
-# Record 24cfcbb1ce · Sulwhasoo-tests-Japans-luxury-beauty-market-with-first-Tokyo-pop-up---
+# Record 24cfcbb1ce · Sulwhasoo-tests-Japans-luxury-beauty-market-with-fi
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiuwFBVV95cUxPLVFjc3hJVkl0Z3ZVbC1PRUlicUE3Y3B2QUFPT1EzYXdJOTJKSUZUaWVldzdqalNvcE1iODhXVlpzakROZHB4d3dmSHZDYkwzWDMzaGVRaGRGeHhHa3pxZFpPOENWb2ZiOGNob0swMDFaVkNmZkllTHFxb2ZNc2J4TWFINGd5T0xfbHVKUFdWd2tRSVpqX0R6S0ZBRVlqY3huY1FYVmE2QzA4LWtwcHg1V3JvTVduU3ZwdTJ3?oc=5)
 

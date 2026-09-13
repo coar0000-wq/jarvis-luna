@@ -1,12 +1,12 @@
 ---
-title: "Record e9fcc231ea · Visual-Storytelling-An-Embodied-Companion-Arts-and-Robotics"
+title: "Record e9fcc231ea · Visual-Storytelling-An-Embodied-Companion-Arts-and-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.640548+00:00
+updated_at: 2026-09-13T00:56:37.499635+00:00
 tags: [record, real-data]
 ---
 
-# Record e9fcc231ea · Visual-Storytelling-An-Embodied-Companion-Arts-and-Robotics
+# Record e9fcc231ea · Visual-Storytelling-An-Embodied-Companion-Arts-and-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1109/mra.2026.3714296)
 

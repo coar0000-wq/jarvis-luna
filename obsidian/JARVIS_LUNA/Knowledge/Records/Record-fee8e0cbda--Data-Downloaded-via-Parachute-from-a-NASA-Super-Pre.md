@@ -1,12 +1,12 @@
 ---
-title: "Record fee8e0cbda · Data-Downloaded-via-Parachute-from-a-NASA-Super-Pressure-Balloon"
+title: "Record fee8e0cbda · Data-Downloaded-via-Parachute-from-a-NASA-Super-Pre"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.686782+00:00
+updated_at: 2026-09-13T00:56:37.538122+00:00
 tags: [record, real-data]
 ---
 
-# Record fee8e0cbda · Data-Downloaded-via-Parachute-from-a-NASA-Super-Pressure-Balloon
+# Record fee8e0cbda · Data-Downloaded-via-Parachute-from-a-NASA-Super-Pre
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.3390/aerospace10110960)
 

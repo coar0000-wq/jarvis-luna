@@ -1,12 +1,12 @@
 ---
-title: "Record 3452e19cdf · NLM-CD-a-regime-conditional-neighbourhood-linkage-method-for-central-c"
+title: "Record 3452e19cdf · NLM-CD-a-regime-conditional-neighbourhood-linkage-m"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.633271+00:00
+updated_at: 2026-09-13T00:56:37.492867+00:00
 tags: [record, real-data]
 ---
 
-# Record 3452e19cdf · NLM-CD-a-regime-conditional-neighbourhood-linkage-method-for-central-c
+# Record 3452e19cdf · NLM-CD-a-regime-conditional-neighbourhood-linkage-m
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1108/jdqs-03-2026-0024)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record f5aa1bdd7b · I-tried-the-rubber-band-TikTok-beauty-trend-and-this-is-what-I-found--"
+title: "Record f5aa1bdd7b · I-tried-the-rubber-band-TikTok-beauty-trend-and-thi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.910375+00:00
+updated_at: 2026-09-13T00:56:37.744527+00:00
 tags: [record, real-data]
 ---
 
-# Record f5aa1bdd7b · I-tried-the-rubber-band-TikTok-beauty-trend-and-this-is-what-I-found--
+# Record f5aa1bdd7b · I-tried-the-rubber-band-TikTok-beauty-trend-and-thi
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTkY4aExoQjhuaS1sZWZwQ1AzZUpJU1phd3dURDMwQlpFTi1DWXgzTndpaWRyUnVCbGd6amtVeUZ3dEk3eGdXaTNzX1I5NldRX1pwR3J2TkFLNTQxMFJjc2lIS0ZsTTB4ZHJGWUVJVVpudVZQdmxpQ0pKOXNXWFYzeU9tMTVfcDNJQ05F?oc=5)
 

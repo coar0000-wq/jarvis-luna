@@ -1,12 +1,12 @@
 ---
-title: "Record c3777c107d · Quantum-dynamics-of-a-fully-blockaded-Rydberg-atom-ensemble"
+title: "Record c3777c107d · Quantum-dynamics-of-a-fully-blockaded-Rydberg-atom-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.700912+00:00
+updated_at: 2026-09-13T00:56:37.549599+00:00
 tags: [record, real-data]
 ---
 
-# Record c3777c107d · Quantum-dynamics-of-a-fully-blockaded-Rydberg-atom-ensemble
+# Record c3777c107d · Quantum-dynamics-of-a-fully-blockaded-Rydberg-atom-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.48550/arxiv.2311.18616)
 

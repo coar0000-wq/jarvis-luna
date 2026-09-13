@@ -1,12 +1,12 @@
 ---
-title: "Record 13f77bbb5c · Empowering-Indias-next-generation-of-innovators-with-ATL-Saathi"
+title: "Record 13f77bbb5c · Empowering-Indias-next-generation-of-innovators-wit"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.566348+00:00
+updated_at: 2026-09-13T00:56:37.429813+00:00
 tags: [record, real-data]
 ---
 
-# Record 13f77bbb5c · Empowering-Indias-next-generation-of-innovators-with-ATL-Saathi
+# Record 13f77bbb5c · Empowering-Indias-next-generation-of-innovators-wit
 
 > 실제 수집 레코드입니다. 원문: [deepmind.google](https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/)
 

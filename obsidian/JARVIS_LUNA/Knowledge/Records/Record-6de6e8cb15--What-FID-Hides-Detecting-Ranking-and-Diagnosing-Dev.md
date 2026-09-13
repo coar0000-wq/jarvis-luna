@@ -1,12 +1,12 @@
 ---
-title: "Record 6de6e8cb15 · What-FID-Hides-Detecting-Ranking-and-Diagnosing-Deviations-in-Generati"
+title: "Record 6de6e8cb15 · What-FID-Hides-Detecting-Ranking-and-Diagnosing-Dev"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.265867+00:00
+updated_at: 2026-09-13T00:56:38.060764+00:00
 tags: [record, real-data]
 ---
 
-# Record 6de6e8cb15 · What-FID-Hides-Detecting-Ranking-and-Diagnosing-Deviations-in-Generati
+# Record 6de6e8cb15 · What-FID-Hides-Detecting-Ranking-and-Diagnosing-Dev
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.24881v1)
 

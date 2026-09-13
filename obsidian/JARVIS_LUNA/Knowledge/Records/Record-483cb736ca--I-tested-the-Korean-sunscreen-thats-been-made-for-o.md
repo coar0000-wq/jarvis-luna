@@ -1,12 +1,12 @@
 ---
-title: "Record 483cb736ca · I-tested-the-Korean-sunscreen-thats-been-made-for-oily-skin---AOLcom"
+title: "Record 483cb736ca · I-tested-the-Korean-sunscreen-thats-been-made-for-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.891870+00:00
+updated_at: 2026-09-13T00:56:37.727281+00:00
 tags: [record, real-data]
 ---
 
-# Record 483cb736ca · I-tested-the-Korean-sunscreen-thats-been-made-for-oily-skin---AOLcom
+# Record 483cb736ca · I-tested-the-Korean-sunscreen-thats-been-made-for-o
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMigwFBVV95cUxOVkVwMkZ5VjhQOG94aFU0X1J2MnJubWoyd2RpYW9KTjNvSWwxU05CMGRSNWpPRlFFczNQRjdWcWliYlhiWHRYdC1IQ0dxR1JOaGxTZjFGQS0xUjlIdnhrUy1WdFVfOVg1S3MwQWpuTWdPWHVMbDJLcUphSlJLcW11R3FVbw?oc=5)
 

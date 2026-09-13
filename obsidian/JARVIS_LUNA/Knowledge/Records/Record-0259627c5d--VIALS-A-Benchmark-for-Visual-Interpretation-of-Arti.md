@@ -1,12 +1,12 @@
 ---
-title: "Record 0259627c5d · VIALS-A-Benchmark-for-Visual-Interpretation-of-Artifacts-in-the-Life-S"
+title: "Record 0259627c5d · VIALS-A-Benchmark-for-Visual-Interpretation-of-Arti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.254715+00:00
+updated_at: 2026-09-13T00:56:38.050253+00:00
 tags: [record, real-data]
 ---
 
-# Record 0259627c5d · VIALS-A-Benchmark-for-Visual-Interpretation-of-Artifacts-in-the-Life-S
+# Record 0259627c5d · VIALS-A-Benchmark-for-Visual-Interpretation-of-Arti
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.21357v1)
 

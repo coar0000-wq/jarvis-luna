@@ -1,12 +1,12 @@
 ---
-title: "Record bd093eee1f · ASML-begins-construction-of-new-Eindhoven-campus-strengthening-its-pre"
+title: "Record bd093eee1f · ASML-begins-construction-of-new-Eindhoven-campus-st"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.114038+00:00
+updated_at: 2026-09-13T00:56:37.931195+00:00
 tags: [record, real-data]
 ---
 
-# Record bd093eee1f · ASML-begins-construction-of-new-Eindhoven-campus-strengthening-its-pre
+# Record bd093eee1f · ASML-begins-construction-of-new-Eindhoven-campus-st
 
 > 실제 수집 레코드입니다. 원문: [www.asml.com](https://www.asml.com/en/news/press-releases/2026/asml-begins-construction-of-new-eindhoven-campus)
 

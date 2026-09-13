@@ -1,12 +1,12 @@
 ---
-title: "Record e06f1992e6 · How-K-Beauty-Advances-Skin-Care-Through-Next-Generation-Delivery-Syste"
+title: "Record e06f1992e6 · How-K-Beauty-Advances-Skin-Care-Through-Next-Genera"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.974834+00:00
+updated_at: 2026-09-13T00:56:37.803562+00:00
 tags: [record, real-data]
 ---
 
-# Record e06f1992e6 · How-K-Beauty-Advances-Skin-Care-Through-Next-Generation-Delivery-Syste
+# Record e06f1992e6 · How-K-Beauty-Advances-Skin-Care-Through-Next-Genera
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMisgJBVV95cUxQWFFvRmNfWEV6UkpiaDBYRHF5d1VZcld0aUF2QWs0Vk9lVzRkTnFjNndDN3RSZVhfNGNPZmNLR0xHSk1Sd0NlWXljNE1xSGRkQlduTDhDWGtvWFlqZWE1NllZOWZTOTJDTEFWekhzV2lja3pvRlEzM0Vna09RVUFablNrOWI2d0Q0X0M4YjZRUGR0YUg2ajBtQXFKTVVWMEM5QmVrdFpjblNtTFBLdFl0TlBteHJoaWxfV1dLRXQzNlVFWDd4MzdZOGZnNkg3QVRoWWpTSDJMZWVnaXFzQjFuaXZOTVVCc1hqdlMxOEJpY0VlT1I0emt5Qi1DU3lpN2JBX2ZzRXRGR04xemtmLUhvRGpxdjJ4STlCTGg5dU1iYk9NQllJQU91RndZOTgtM05VVHc?oc=5)
 

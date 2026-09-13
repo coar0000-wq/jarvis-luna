@@ -1,12 +1,12 @@
 ---
-title: "Record 1f4964c098 · Economic-Evaluation-of-V2G-Enabled-Fast-Charging-Stations-Under-Endoge"
+title: "Record 1f4964c098 · Economic-Evaluation-of-V2G-Enabled-Fast-Charging-St"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.538811+00:00
+updated_at: 2026-09-13T00:56:37.401879+00:00
 tags: [record, real-data]
 ---
 
-# Record 1f4964c098 · Economic-Evaluation-of-V2G-Enabled-Fast-Charging-Stations-Under-Endoge
+# Record 1f4964c098 · Economic-Evaluation-of-V2G-Enabled-Fast-Charging-St
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.10388v1)
 

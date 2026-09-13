@@ -1,12 +1,12 @@
 ---
-title: "Record 2077833499 · Cherry-Blossom-Blush-Is-The-Romantic-Makeup-Trend-Taking-Over-TikTok--"
+title: "Record 2077833499 · Cherry-Blossom-Blush-Is-The-Romantic-Makeup-Trend-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.811693+00:00
+updated_at: 2026-09-13T00:56:37.649893+00:00
 tags: [record, real-data]
 ---
 
-# Record 2077833499 · Cherry-Blossom-Blush-Is-The-Romantic-Makeup-Trend-Taking-Over-TikTok--
+# Record 2077833499 · Cherry-Blossom-Blush-Is-The-Romantic-Makeup-Trend-T
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5aanRxOVlCQURaOW9qOXQwNEVLU1pJa0EtLWJjaU1wcXZhaGo4RHFsdXc3LVlvWjI5TTBaS0IxcjBfblBYX0FFeEpRRkN3ZV9ocWVlMW5fZjNieEYzWkhRZzhOXzFTWGc?oc=5)
 

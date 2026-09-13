@@ -1,12 +1,12 @@
 ---
-title: "Record 83b8d7ab21 · MulDP-Multimodal-Diffusion-Policy-for-Autonomous-Quadruped-Parkour-Nav"
+title: "Record 83b8d7ab21 · MulDP-Multimodal-Diffusion-Policy-for-Autonomous-Qu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.488043+00:00
+updated_at: 2026-09-13T00:56:37.355787+00:00
 tags: [record, real-data]
 ---
 
-# Record 83b8d7ab21 · MulDP-Multimodal-Diffusion-Policy-for-Autonomous-Quadruped-Parkour-Nav
+# Record 83b8d7ab21 · MulDP-Multimodal-Diffusion-Policy-for-Autonomous-Qu
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.03984v1)
 

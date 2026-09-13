@@ -1,12 +1,12 @@
 ---
-title: "Record ca1c794cdc · Skip-the-12-Step-Spiral-Here-are-11-K-Beauty-Trends--Products-Youll-Ac"
+title: "Record ca1c794cdc · Skip-the-12-Step-Spiral-Here-are-11-K-Beauty-Trends"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.782155+00:00
+updated_at: 2026-09-13T00:56:37.622712+00:00
 tags: [record, real-data]
 ---
 
-# Record ca1c794cdc · Skip-the-12-Step-Spiral-Here-are-11-K-Beauty-Trends--Products-Youll-Ac
+# Record ca1c794cdc · Skip-the-12-Step-Spiral-Here-are-11-K-Beauty-Trends
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiT0FVX3lxTE5Va0o2akdOZXMzQzZ0S0huWDh1VzA3OXdXYV9Lc3hTV1RZc1U3ZGYxeEtRVDNNU0pmMXgxVHdXSzdhY2I4RmdSTWFCcU14OFU?oc=5)
 

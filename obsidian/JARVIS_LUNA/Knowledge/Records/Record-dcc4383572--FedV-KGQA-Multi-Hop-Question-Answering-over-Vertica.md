@@ -1,12 +1,12 @@
 ---
-title: "Record dcc4383572 · FedV-KGQA-Multi-Hop-Question-Answering-over-Vertically-Partitioned-Kno"
+title: "Record dcc4383572 · FedV-KGQA-Multi-Hop-Question-Answering-over-Vertica"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.262694+00:00
+updated_at: 2026-09-13T00:56:38.057740+00:00
 tags: [record, real-data]
 ---
 
-# Record dcc4383572 · FedV-KGQA-Multi-Hop-Question-Answering-over-Vertically-Partitioned-Kno
+# Record dcc4383572 · FedV-KGQA-Multi-Hop-Question-Answering-over-Vertica
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.24846v1)
 

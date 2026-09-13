@@ -1,12 +1,12 @@
 ---
-title: "Record 12a78559ee · FORTALECIMENTO-DA-UNIVERSIDADE-EMPREENDEDORA-POR-MEIO-DE-PROGRAMAS-INS"
+title: "Record 12a78559ee · FORTALECIMENTO-DA-UNIVERSIDADE-EMPREENDEDORA-POR-ME"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.735464+00:00
+updated_at: 2026-09-13T00:56:37.579300+00:00
 tags: [record, real-data]
 ---
 
-# Record 12a78559ee · FORTALECIMENTO-DA-UNIVERSIDADE-EMPREENDEDORA-POR-MEIO-DE-PROGRAMAS-INS
+# Record 12a78559ee · FORTALECIMENTO-DA-UNIVERSIDADE-EMPREENDEDORA-POR-ME
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.70773/revistatopicos/786386679)
 

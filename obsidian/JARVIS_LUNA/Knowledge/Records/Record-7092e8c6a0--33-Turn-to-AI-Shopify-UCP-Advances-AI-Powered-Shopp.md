@@ -1,12 +1,12 @@
 ---
-title: "Record 7092e8c6a0 · 33-Turn-to-AI-Shopify-UCP-Advances-AI-Powered-Shopping---DesignRush"
+title: "Record 7092e8c6a0 · 33-Turn-to-AI-Shopify-UCP-Advances-AI-Powered-Shopp"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.880920+00:00
+updated_at: 2026-09-13T00:56:37.717425+00:00
 tags: [record, real-data]
 ---
 
-# Record 7092e8c6a0 · 33-Turn-to-AI-Shopify-UCP-Advances-AI-Powered-Shopping---DesignRush
+# Record 7092e8c6a0 · 33-Turn-to-AI-Shopify-UCP-Advances-AI-Powered-Shopp
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMifEFVX3lxTFBoS3VKMmFrUVd4am9BMDN6NU9jcDN3RzdVUkl1SHBVc0RHQW9kTHhmNVpZSV9GcXB6UGpqT1c5RjAwblVTZ3FxX2x1bF9KLU5BVlJCekxUVTFEb3EyNThRNUlDV25oeUdCYk5hWFJQMUxWNkwxc1Y2LWZ4aUQ?oc=5)
 

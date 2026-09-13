@@ -1,12 +1,12 @@
 ---
-title: "Record 03e443ab99 · Kolmar-Korea-puts-cosmetics-RD-on-display-at-Seoul-Beauty-Week---Korea"
+title: "Record 03e443ab99 · Kolmar-Korea-puts-cosmetics-RD-on-display-at-Seoul-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.843765+00:00
+updated_at: 2026-09-13T00:56:37.680154+00:00
 tags: [record, real-data]
 ---
 
-# Record 03e443ab99 · Kolmar-Korea-puts-cosmetics-RD-on-display-at-Seoul-Beauty-Week---Korea
+# Record 03e443ab99 · Kolmar-Korea-puts-cosmetics-RD-on-display-at-Seoul-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMibkFVX3lxTFBSVW1nUDdjaS1RbkxjWE8xYUpoN2NYQXlqbk5ndW5FOTNDck4wNVNDXzlaYTdhOFVVSm1fRzV2eVpKQ0JqS0VCRzJnZHBTRnlZaHdUMlExUkpnZFd2SWhLN1VyemdyOTNmbVNwS2Vn0gFyQVVfeXFMT0ROZUdwbGpsX3JjWXlGMExXZElnX2kxT3VNa3lrMlBYMVNfcmFPa29WUTN6bHMwcG50THJTMnViM0c2TzFTdTRFbjduWE56cTFWcnROX2tHOEpnRnVEdGlMcEZrOGdMQ0RPT01IdDdWX0Vn?oc=5)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record c21b23b6ab · This-Graduate-Student-Equips-NASAs-Robots-With-Assembly-Skills"
+title: "Record c21b23b6ab · This-Graduate-Student-Equips-NASAs-Robots-With-Asse"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.048928+00:00
+updated_at: 2026-09-13T00:56:37.872349+00:00
 tags: [record, real-data]
 ---
 
-# Record c21b23b6ab · This-Graduate-Student-Equips-NASAs-Robots-With-Assembly-Skills
+# Record c21b23b6ab · This-Graduate-Student-Equips-NASAs-Robots-With-Asse
 
 > 실제 수집 레코드입니다. 원문: [spectrum.ieee.org](https://spectrum.ieee.org/graduate-student-nasas-robots-assembly)
 

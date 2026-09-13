@@ -1,12 +1,12 @@
 ---
-title: "Record 69c65a93f6 · Engineering-AgCo-interfacial-sites-for-selective-catalytic-reduction-o"
+title: "Record 69c65a93f6 · Engineering-AgCo-interfacial-sites-for-selective-ca"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.588517+00:00
+updated_at: 2026-09-13T00:56:37.452099+00:00
 tags: [record, real-data]
 ---
 
-# Record 69c65a93f6 · Engineering-AgCo-interfacial-sites-for-selective-catalytic-reduction-o
+# Record 69c65a93f6 · Engineering-AgCo-interfacial-sites-for-selective-ca
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.cej.2026.181205)
 

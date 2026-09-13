@@ -1,12 +1,12 @@
 ---
-title: "Record 03db295819 · Generalized-specific-entropy-on-Wiener-space-with-application-to-Marti"
+title: "Record 03db295819 · Generalized-specific-entropy-on-Wiener-space-with-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.027050+00:00
+updated_at: 2026-09-13T00:56:37.851620+00:00
 tags: [record, real-data]
 ---
 
-# Record 03db295819 · Generalized-specific-entropy-on-Wiener-space-with-application-to-Marti
+# Record 03db295819 · Generalized-specific-entropy-on-Wiener-space-with-a
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7162218552)
 

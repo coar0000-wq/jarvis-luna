@@ -1,12 +1,12 @@
 ---
-title: "Record 242eb96172 · Enabling-Zero-Downtime-Maintenance-And-Dynamic-Load-Balancing-Through-"
+title: "Record 242eb96172 · Enabling-Zero-Downtime-Maintenance-And-Dynamic-Load"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.706419+00:00
+updated_at: 2026-09-13T00:56:37.553848+00:00
 tags: [record, real-data]
 ---
 
-# Record 242eb96172 · Enabling-Zero-Downtime-Maintenance-And-Dynamic-Load-Balancing-Through-
+# Record 242eb96172 · Enabling-Zero-Downtime-Maintenance-And-Dynamic-Load
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.19074097)
 

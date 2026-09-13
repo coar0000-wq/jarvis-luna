@@ -1,12 +1,12 @@
 ---
-title: "Record a515fbb0ca · Characterization-of-Multi-Model-Agentic-AI-Systems-on-General-Tasks-vi"
+title: "Record a515fbb0ca · Characterization-of-Multi-Model-Agentic-AI-Systems-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.028194+00:00
+updated_at: 2026-09-13T00:56:37.852689+00:00
 tags: [record, real-data]
 ---
 
-# Record a515fbb0ca · Characterization-of-Multi-Model-Agentic-AI-Systems-on-General-Tasks-vi
+# Record a515fbb0ca · Characterization-of-Multi-Model-Agentic-AI-Systems-
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7163594953)
 

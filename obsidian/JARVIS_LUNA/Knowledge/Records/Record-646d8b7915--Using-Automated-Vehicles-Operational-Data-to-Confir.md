@@ -1,12 +1,12 @@
 ---
-title: "Record 646d8b7915 · Using-Automated-Vehicles-Operational-Data-to-Confirm-Safety-and-Antici"
+title: "Record 646d8b7915 · Using-Automated-Vehicles-Operational-Data-to-Confir"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.551126+00:00
+updated_at: 2026-09-13T00:56:37.414053+00:00
 tags: [record, real-data]
 ---
 
-# Record 646d8b7915 · Using-Automated-Vehicles-Operational-Data-to-Confirm-Safety-and-Antici
+# Record 646d8b7915 · Using-Automated-Vehicles-Operational-Data-to-Confir
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.11549v1)
 

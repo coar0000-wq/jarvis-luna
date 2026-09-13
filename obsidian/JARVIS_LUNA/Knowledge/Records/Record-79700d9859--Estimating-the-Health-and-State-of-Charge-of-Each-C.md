@@ -1,12 +1,12 @@
 ---
-title: "Record 79700d9859 · Estimating-the-Health-and-State-of-Charge-of-Each-Cell-in-a-Second-Lif"
+title: "Record 79700d9859 · Estimating-the-Health-and-State-of-Charge-of-Each-C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.493602+00:00
+updated_at: 2026-09-13T00:56:37.360784+00:00
 tags: [record, real-data]
 ---
 
-# Record 79700d9859 · Estimating-the-Health-and-State-of-Charge-of-Each-Cell-in-a-Second-Lif
+# Record 79700d9859 · Estimating-the-Health-and-State-of-Charge-of-Each-C
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.04487v1)
 

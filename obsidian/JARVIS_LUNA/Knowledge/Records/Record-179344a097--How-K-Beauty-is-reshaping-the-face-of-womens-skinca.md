@@ -1,12 +1,12 @@
 ---
-title: "Record 179344a097 · How-K-Beauty-is-reshaping-the-face-of-womens-skincare---Fresno-State-T"
+title: "Record 179344a097 · How-K-Beauty-is-reshaping-the-face-of-womens-skinca"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.911321+00:00
+updated_at: 2026-09-13T00:56:37.745357+00:00
 tags: [record, real-data]
 ---
 
-# Record 179344a097 · How-K-Beauty-is-reshaping-the-face-of-womens-skincare---Fresno-State-T
+# Record 179344a097 · How-K-Beauty-is-reshaping-the-face-of-womens-skinca
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMijAFBVV95cUxNakJKMTZURDQ4VE4wV3A5ZE5CeFo2YW9hZy1QVld1c24yc3NVQmtsMlVvaGVNWHVGNVdOb2RTVGQ0a0JldzF3N3VQNzdrV2RmeFJWcnQyaElsdVpOWkNjakxFVXdQUGRzbENxY0NEYmwxQjlhdUlhbDNNUlUxWU1fbTVJUGZfdXQ2d0lYSg?oc=5)
 

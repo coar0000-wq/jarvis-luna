@@ -1,12 +1,12 @@
 ---
-title: "Record 3e981fe52f · Keauti-brings-K-beauty-to-Queen-City---Springfield-Business-Journal"
+title: "Record 3e981fe52f · Keauti-brings-K-beauty-to-Queen-City---Springfield-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.860858+00:00
+updated_at: 2026-09-13T00:56:37.697958+00:00
 tags: [record, real-data]
 ---
 
-# Record 3e981fe52f · Keauti-brings-K-beauty-to-Queen-City---Springfield-Business-Journal
+# Record 3e981fe52f · Keauti-brings-K-beauty-to-Queen-City---Springfield-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMidkFVX3lxTE9rZVhLTzJCdjNtajVENC16TEVSempfaks3T0Nmc1FJcExOdGlpSFpxSk9pb2drUHAtQ1cyc0c1amRsLUZQWmlFXzM5cW5DczVsRExKMENRbDdqOGNEVUFCaDdfNXNsRGxnOWU5d2xxcHVxYWd3Tnc?oc=5)
 

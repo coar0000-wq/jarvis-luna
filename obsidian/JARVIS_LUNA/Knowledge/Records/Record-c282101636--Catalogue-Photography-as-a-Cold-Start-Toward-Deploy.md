@@ -1,12 +1,12 @@
 ---
-title: "Record c282101636 · Catalogue-Photography-as-a-Cold-Start-Toward-Deployable-Carbide-Burr-R"
+title: "Record c282101636 · Catalogue-Photography-as-a-Cold-Start-Toward-Deploy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.488344+00:00
+updated_at: 2026-09-13T00:56:37.356050+00:00
 tags: [record, real-data]
 ---
 
-# Record c282101636 · Catalogue-Photography-as-a-Cold-Start-Toward-Deployable-Carbide-Burr-R
+# Record c282101636 · Catalogue-Photography-as-a-Cold-Start-Toward-Deploy
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.03995v1)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record c54dce1844 · 3UTR-directed-kinase-proximal-mRNA-decay-inhibits-CEBPβ-phosphorylatio"
+title: "Record c54dce1844 · 3UTR-directed-kinase-proximal-mRNA-decay-inhibits-C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.593991+00:00
+updated_at: 2026-09-13T00:56:37.456955+00:00
 tags: [record, real-data]
 ---
 
-# Record c54dce1844 · 3UTR-directed-kinase-proximal-mRNA-decay-inhibits-CEBPβ-phosphorylatio
+# Record c54dce1844 · 3UTR-directed-kinase-proximal-mRNA-decay-inhibits-C
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.isci.2026.117039)
 

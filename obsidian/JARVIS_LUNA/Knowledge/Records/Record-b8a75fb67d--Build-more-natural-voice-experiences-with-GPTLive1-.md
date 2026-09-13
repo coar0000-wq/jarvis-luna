@@ -1,12 +1,12 @@
 ---
-title: "Record b8a75fb67d · Build-more-natural-voice-experiences-with-GPTLive1-in-the-API"
+title: "Record b8a75fb67d · Build-more-natural-voice-experiences-with-GPTLive1-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.012699+00:00
+updated_at: 2026-09-13T00:56:37.838200+00:00
 tags: [record, real-data]
 ---
 
-# Record b8a75fb67d · Build-more-natural-voice-experiences-with-GPTLive1-in-the-API
+# Record b8a75fb67d · Build-more-natural-voice-experiences-with-GPTLive1-
 
 > 실제 수집 레코드입니다. 원문: [openai.com](https://openai.com/index/introducing-gpt-live-1-in-the-api)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 753214c584 · Urea-Is-an-Under-the-Radar-Ingredient-That-Softens-Skin-from-Head-to-T"
+title: "Record 753214c584 · Urea-Is-an-Under-the-Radar-Ingredient-That-Softens-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.083066+00:00
+updated_at: 2026-09-13T00:56:37.901527+00:00
 tags: [record, real-data]
 ---
 
-# Record 753214c584 · Urea-Is-an-Under-the-Radar-Ingredient-That-Softens-Skin-from-Head-to-T
+# Record 753214c584 · Urea-Is-an-Under-the-Radar-Ingredient-That-Softens-
 
 > 실제 수집 레코드입니다. 원문: [www.allure.com](https://www.allure.com/story/best-urea-moisturizer)
 

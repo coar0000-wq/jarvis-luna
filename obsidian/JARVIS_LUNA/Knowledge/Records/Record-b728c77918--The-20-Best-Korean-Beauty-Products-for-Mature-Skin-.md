@@ -1,12 +1,12 @@
 ---
-title: "Record b728c77918 · The-20-Best-Korean-Beauty-Products-for-Mature-Skin-According-to-a-K-Be"
+title: "Record b728c77918 · The-20-Best-Korean-Beauty-Products-for-Mature-Skin-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.947404+00:00
+updated_at: 2026-09-13T00:56:37.778411+00:00
 tags: [record, real-data]
 ---
 
-# Record b728c77918 · The-20-Best-Korean-Beauty-Products-for-Mature-Skin-According-to-a-K-Be
+# Record b728c77918 · The-20-Best-Korean-Beauty-Products-for-Mature-Skin-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMingFBVV95cUxQVThUVVFZMUZqTTd4dFdqbFU1Vm1tSnBXd00zMkNGV1B1WHlBSnVsdmdmRUNHR3dic3hZNE9qRi1KVlI1TXNtZ2U1dm5LR1ZDdUV4QksxdERwV29aNk9pY1FXN3VLTFRNdVV0djFYSUVIbEk1ZkVzdzB3cVpFUXpfaE5yMFFHamRNNVVVYzZYQWxjaEdqczdCSE44UGVodw?oc=5)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 08d858b763 · These-K-Beauty-Picks-for-Oily-Skin-Give-You-Glass-Glow-Not-Grease---Al"
+title: "Record 08d858b763 · These-K-Beauty-Picks-for-Oily-Skin-Give-You-Glass-G"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.822251+00:00
+updated_at: 2026-09-13T00:56:37.659493+00:00
 tags: [record, real-data]
 ---
 
-# Record 08d858b763 · These-K-Beauty-Picks-for-Oily-Skin-Give-You-Glass-Glow-Not-Grease---Al
+# Record 08d858b763 · These-K-Beauty-Picks-for-Oily-Skin-Give-You-Glass-G
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMia0FVX3lxTE13cUdNVEw1LXVyXzdta0JUZVI5azVxSVkxcWxqWDBJWjlLYjFUSzVkVWZVRGx3NGEySkR2elZ2LXB4TllIWm9hTS1xb1o2b0dNZUFFX2xDamRvUjNjZUtjZ25lcEZ0VDRCRUVj?oc=5)
 

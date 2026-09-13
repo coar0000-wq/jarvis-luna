@@ -1,12 +1,12 @@
 ---
-title: "Record 906edd63a5 · A-Deep-Generative-Model-for-Synthesizing-Labeled-Wireless-Signals"
+title: "Record 906edd63a5 · A-Deep-Generative-Model-for-Synthesizing-Labeled-Wi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.508291+00:00
+updated_at: 2026-09-13T00:56:37.373989+00:00
 tags: [record, real-data]
 ---
 
-# Record 906edd63a5 · A-Deep-Generative-Model-for-Synthesizing-Labeled-Wireless-Signals
+# Record 906edd63a5 · A-Deep-Generative-Model-for-Synthesizing-Labeled-Wi
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.05396v1)
 

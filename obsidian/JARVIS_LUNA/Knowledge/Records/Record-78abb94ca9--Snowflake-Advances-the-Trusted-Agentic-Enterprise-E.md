@@ -1,12 +1,12 @@
 ---
-title: "Record 78abb94ca9 · Snowflake-Advances-the-Trusted-Agentic-Enterprise-Era-with-Unified-Mon"
+title: "Record 78abb94ca9 · Snowflake-Advances-the-Trusted-Agentic-Enterprise-E"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.758076+00:00
+updated_at: 2026-09-13T00:56:37.600077+00:00
 tags: [record, real-data]
 ---
 
-# Record 78abb94ca9 · Snowflake-Advances-the-Trusted-Agentic-Enterprise-Era-with-Unified-Mon
+# Record 78abb94ca9 · Snowflake-Advances-the-Trusted-Agentic-Enterprise-E
 
 > 실제 수집 레코드입니다. 원문: [investors.snowflake.com](https://investors.snowflake.com/news/news-details/2026/Snowflake-Advances-the-Trusted-Agentic-Enterprise-Era-with-Unified-Monitoring-and-Cost-Management/default.aspx)
 

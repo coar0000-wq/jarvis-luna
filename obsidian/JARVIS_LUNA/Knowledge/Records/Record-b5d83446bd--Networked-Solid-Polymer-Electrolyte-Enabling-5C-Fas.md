@@ -1,12 +1,12 @@
 ---
-title: "Record b5d83446bd · Networked-Solid-Polymer-Electrolyte-Enabling-5C-Fast-Cycling-and-Enhan"
+title: "Record b5d83446bd · Networked-Solid-Polymer-Electrolyte-Enabling-5C-Fas"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.579721+00:00
+updated_at: 2026-09-13T00:56:37.443865+00:00
 tags: [record, real-data]
 ---
 
-# Record b5d83446bd · Networked-Solid-Polymer-Electrolyte-Enabling-5C-Fast-Cycling-and-Enhan
+# Record b5d83446bd · Networked-Solid-Polymer-Electrolyte-Enabling-5C-Fas
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1002/smtd.70910)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record b89b06d077 · Project-Pan-Is-The-Anti-Haul-Beauty-Trend-Everyones-Trying-This-Year--"
+title: "Record b89b06d077 · Project-Pan-Is-The-Anti-Haul-Beauty-Trend-Everyones"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.863337+00:00
+updated_at: 2026-09-13T00:56:37.700515+00:00
 tags: [record, real-data]
 ---
 
-# Record b89b06d077 · Project-Pan-Is-The-Anti-Haul-Beauty-Trend-Everyones-Trying-This-Year--
+# Record b89b06d077 · Project-Pan-Is-The-Anti-Haul-Beauty-Trend-Everyones
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMie0FVX3lxTE9feE5KaHM3eHhGMEl6OG52UU54QU5tWkdSdjhQQTdMX2EtbGlmMFMxdlpDbkVnSVFnYWZScXhwNFN5N0E1cmF4clVEMUtNUWpNRW1vZm40X1FzcEE2NE4zVV8ta3htcVQxbUlXUXRYbHpLdzM4dnRIcXM3aw?oc=5)
 

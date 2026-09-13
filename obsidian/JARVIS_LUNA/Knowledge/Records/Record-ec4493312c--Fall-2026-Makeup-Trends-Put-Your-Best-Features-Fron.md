@@ -1,12 +1,12 @@
 ---
-title: "Record ec4493312c · Fall-2026-Makeup-Trends-Put-Your-Best-Features-Front-and-Center--See-P"
+title: "Record ec4493312c · Fall-2026-Makeup-Trends-Put-Your-Best-Features-Fron"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.084929+00:00
+updated_at: 2026-09-13T00:56:37.903089+00:00
 tags: [record, real-data]
 ---
 
-# Record ec4493312c · Fall-2026-Makeup-Trends-Put-Your-Best-Features-Front-and-Center--See-P
+# Record ec4493312c · Fall-2026-Makeup-Trends-Put-Your-Best-Features-Fron
 
 > 실제 수집 레코드입니다. 원문: [www.allure.com](https://www.allure.com/story/fall-makeup-trends-2026)
 

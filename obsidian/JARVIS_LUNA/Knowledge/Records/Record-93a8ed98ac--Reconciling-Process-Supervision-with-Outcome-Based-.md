@@ -1,12 +1,12 @@
 ---
-title: "Record 93a8ed98ac · Reconciling-Process-Supervision-with-Outcome-Based-Credit-in-Agentic-P"
+title: "Record 93a8ed98ac · Reconciling-Process-Supervision-with-Outcome-Based-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.469627+00:00
+updated_at: 2026-09-13T00:56:37.339411+00:00
 tags: [record, real-data]
 ---
 
-# Record 93a8ed98ac · Reconciling-Process-Supervision-with-Outcome-Based-Credit-in-Agentic-P
+# Record 93a8ed98ac · Reconciling-Process-Supervision-with-Outcome-Based-
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.31077v1)
 

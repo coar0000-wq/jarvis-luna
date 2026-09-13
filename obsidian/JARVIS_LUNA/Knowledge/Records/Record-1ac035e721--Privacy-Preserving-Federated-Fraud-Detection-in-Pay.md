@@ -1,12 +1,12 @@
 ---
-title: "Record 1ac035e721 · Privacy-Preserving-Federated-Fraud-Detection-in-Payment-Transactions-w"
+title: "Record 1ac035e721 · Privacy-Preserving-Federated-Fraud-Detection-in-Pay"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.021049+00:00
+updated_at: 2026-09-13T00:56:37.845939+00:00
 tags: [record, real-data]
 ---
 
-# Record 1ac035e721 · Privacy-Preserving-Federated-Fraud-Detection-in-Payment-Transactions-w
+# Record 1ac035e721 · Privacy-Preserving-Federated-Fraud-Detection-in-Pay
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7139146272)
 

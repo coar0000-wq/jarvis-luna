@@ -1,12 +1,12 @@
 ---
-title: "Record be7e035bc6 · The-Outlook-For-Data-Center-Power-Demand-As-Ai-Token-Use-Grows---Trans"
+title: "Record be7e035bc6 · The-Outlook-For-Data-Center-Power-Demand-As-Ai-Toke"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.134274+00:00
+updated_at: 2026-09-13T00:56:37.948908+00:00
 tags: [record, real-data]
 ---
 
-# Record be7e035bc6 · The-Outlook-For-Data-Center-Power-Demand-As-Ai-Token-Use-Grows---Trans
+# Record be7e035bc6 · The-Outlook-For-Data-Center-Power-Demand-As-Ai-Toke
 
 > 실제 수집 레코드입니다. 원문: [www.goldmansachs.com](https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/the-outlook-for-data-center-power-demand-as-ai-token-use-grows/transcript.pdf)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 1233152e7a · Comparing-classical-and-quantum-machine-learning-approaches-for-crop-a"
+title: "Record 1233152e7a · Comparing-classical-and-quantum-machine-learning-ap"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.625006+00:00
+updated_at: 2026-09-13T00:56:37.485284+00:00
 tags: [record, real-data]
 ---
 
-# Record 1233152e7a · Comparing-classical-and-quantum-machine-learning-approaches-for-crop-a
+# Record 1233152e7a · Comparing-classical-and-quantum-machine-learning-ap
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1088/2631-8695/ae98fa)
 

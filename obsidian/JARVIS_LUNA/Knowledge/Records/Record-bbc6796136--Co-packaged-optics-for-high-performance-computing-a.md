@@ -1,12 +1,12 @@
 ---
-title: "Record bbc6796136 · Co-packaged-optics-for-high-performance-computing-and-artificial-intel"
+title: "Record bbc6796136 · Co-packaged-optics-for-high-performance-computing-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.616972+00:00
+updated_at: 2026-09-13T00:56:37.477764+00:00
 tags: [record, real-data]
 ---
 
-# Record bbc6796136 · Co-packaged-optics-for-high-performance-computing-and-artificial-intel
+# Record bbc6796136 · Co-packaged-optics-for-high-performance-computing-a
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1038/s41928-026-01681-6)
 

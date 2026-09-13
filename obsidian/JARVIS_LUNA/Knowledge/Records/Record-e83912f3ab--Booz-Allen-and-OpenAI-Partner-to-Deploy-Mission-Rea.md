@@ -1,12 +1,12 @@
 ---
-title: "Record e83912f3ab · Booz-Allen-and-OpenAI-Partner-to-Deploy-Mission-Ready-AI"
+title: "Record e83912f3ab · Booz-Allen-and-OpenAI-Partner-to-Deploy-Mission-Rea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.747432+00:00
+updated_at: 2026-09-13T00:56:37.590419+00:00
 tags: [record, real-data]
 ---
 
-# Record e83912f3ab · Booz-Allen-and-OpenAI-Partner-to-Deploy-Mission-Ready-AI
+# Record e83912f3ab · Booz-Allen-and-OpenAI-Partner-to-Deploy-Mission-Rea
 
 > 실제 수집 레코드입니다. 원문: [investors.boozallen.com](https://investors.boozallen.com/news-releases/news-release-details/booz-allen-and-openai-partner-deploy-mission-ready-ai)
 

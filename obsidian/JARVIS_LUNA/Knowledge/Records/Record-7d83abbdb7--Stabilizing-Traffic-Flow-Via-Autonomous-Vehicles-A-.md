@@ -1,12 +1,12 @@
 ---
-title: "Record 7d83abbdb7 · Stabilizing-Traffic-Flow-Via-Autonomous-Vehicles-A-Less-Conservative-A"
+title: "Record 7d83abbdb7 · Stabilizing-Traffic-Flow-Via-Autonomous-Vehicles-A-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.515450+00:00
+updated_at: 2026-09-13T00:56:37.380651+00:00
 tags: [record, real-data]
 ---
 
-# Record 7d83abbdb7 · Stabilizing-Traffic-Flow-Via-Autonomous-Vehicles-A-Less-Conservative-A
+# Record 7d83abbdb7 · Stabilizing-Traffic-Flow-Via-Autonomous-Vehicles-A-
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.08218v1)
 

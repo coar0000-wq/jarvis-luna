@@ -1,12 +1,12 @@
 ---
-title: "Record c0524c0c50 · Comparative-Study-on-the-Growth-of-Solanum-Melongena-and-Capsicum-Annu"
+title: "Record c0524c0c50 · Comparative-Study-on-the-Growth-of-Solanum-Melongen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.723981+00:00
+updated_at: 2026-09-13T00:56:37.568566+00:00
 tags: [record, real-data]
 ---
 
-# Record c0524c0c50 · Comparative-Study-on-the-Growth-of-Solanum-Melongena-and-Capsicum-Annu
+# Record c0524c0c50 · Comparative-Study-on-the-Growth-of-Solanum-Melongen
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.54536/ijsa.v4i1.7844)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 5ef78b7005 · New-Ecommerce-Tools-May-6-2026---Practical-Ecommerce"
+title: "Record 5ef78b7005 · New-Ecommerce-Tools-May-6-2026---Practical-Ecommerc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.845461+00:00
+updated_at: 2026-09-13T00:56:37.681825+00:00
 tags: [record, real-data]
 ---
 
-# Record 5ef78b7005 · New-Ecommerce-Tools-May-6-2026---Practical-Ecommerce
+# Record 5ef78b7005 · New-Ecommerce-Tools-May-6-2026---Practical-Ecommerc
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMic0FVX3lxTE1YdVZ1UEcwQWd0NDZ2UklfNlNjS2NQWlMzdmlnWXRhQVFvRnB5ZjViTFdnQzNVMU5RUXN5S0FNUmszZVI5V09sWGo1LU9IeXZWNXJDd0Y4MWpUNmxpRk1rcUNoUXhkRmg0dGFtSF9DcEhiV2s?oc=5)
 

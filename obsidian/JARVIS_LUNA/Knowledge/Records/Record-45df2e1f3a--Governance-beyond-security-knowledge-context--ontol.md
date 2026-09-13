@@ -1,12 +1,12 @@
 ---
-title: "Record 45df2e1f3a · Governance-beyond-security-knowledge-context--ontology-on-the-lakehous"
+title: "Record 45df2e1f3a · Governance-beyond-security-knowledge-context--ontol"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.125885+00:00
+updated_at: 2026-09-13T00:56:37.941842+00:00
 tags: [record, real-data]
 ---
 
-# Record 45df2e1f3a · Governance-beyond-security-knowledge-context--ontology-on-the-lakehous
+# Record 45df2e1f3a · Governance-beyond-security-knowledge-context--ontol
 
 > 실제 수집 레코드입니다. 원문: [www.databricks.com](https://www.databricks.com/blog/governance-beyond-security-knowledge-context-ontology-lakehouse)
 

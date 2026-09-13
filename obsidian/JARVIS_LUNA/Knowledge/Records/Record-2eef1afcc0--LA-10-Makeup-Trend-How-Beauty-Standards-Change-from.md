@@ -1,18 +1,18 @@
 ---
-title: "Record 2eef1afcc0 · LA-10-Makeup-Trend-How-Beauty-Standards-Change-from-LA-to-London---nss"
+title: "Record 2eef1afcc0 · LA-10-Makeup-Trend-How-Beauty-Standards-Change-from"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.873937+00:00
+updated_at: 2026-09-13T00:56:37.711004+00:00
 tags: [record, real-data]
 ---
 
-# Record 2eef1afcc0 · LA-10-Makeup-Trend-How-Beauty-Standards-Change-from-LA-to-London---nss
+# Record 2eef1afcc0 · LA-10-Makeup-Trend-How-Beauty-Standards-Change-from
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMif0FVX3lxTE04QUJkT2RxZ3ozeThGRURKelpoY2cyZk5MaU5OR3dYWGJVclZsNnVubU5EZ09SRzlWbXplYy10QzI0T2hveDBWME1Cc1FOZ3JMdHliSmNCSzRmUjZEVi0zS3puYkJMWDFoSV9nUmdUSVRWajF1NkxvN1k4bGFaRjg?oc=5)
 
-**제목:** LA 10 Makeup Trend: How Beauty Standards Change from LA to London - nssgclub.com
+**제목:** LA 10 Makeup Trend: How Beauty Standards Change from LA to London - nss G-Club
 
-LA 10 Makeup Trend: How Beauty Standards Change from LA to London - nssgclub.com
+LA 10 Makeup Trend: How Beauty Standards Change from LA to London - nss G-Club
 
 **출처:** Source · Google Search
 

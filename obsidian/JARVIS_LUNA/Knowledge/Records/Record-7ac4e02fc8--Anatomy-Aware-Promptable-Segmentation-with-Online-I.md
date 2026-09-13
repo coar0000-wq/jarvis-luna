@@ -1,12 +1,12 @@
 ---
-title: "Record 7ac4e02fc8 · Anatomy-Aware-Promptable-Segmentation-with-Online-Interactive-Training"
+title: "Record 7ac4e02fc8 · Anatomy-Aware-Promptable-Segmentation-with-Online-I"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.466558+00:00
+updated_at: 2026-09-13T00:56:37.336598+00:00
 tags: [record, real-data]
 ---
 
-# Record 7ac4e02fc8 · Anatomy-Aware-Promptable-Segmentation-with-Online-Interactive-Training
+# Record 7ac4e02fc8 · Anatomy-Aware-Promptable-Segmentation-with-Online-I
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.28461v1)
 

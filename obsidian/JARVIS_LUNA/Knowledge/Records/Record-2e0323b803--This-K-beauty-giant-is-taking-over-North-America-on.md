@@ -1,12 +1,12 @@
 ---
-title: "Record 2e0323b803 · This-K-beauty-giant-is-taking-over-North-America-one-brand-at-a-time--"
+title: "Record 2e0323b803 · This-K-beauty-giant-is-taking-over-North-America-on"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.959120+00:00
+updated_at: 2026-09-13T00:56:37.789221+00:00
 tags: [record, real-data]
 ---
 
-# Record 2e0323b803 · This-K-beauty-giant-is-taking-over-North-America-one-brand-at-a-time--
+# Record 2e0323b803 · This-K-beauty-giant-is-taking-over-North-America-on
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMipgFBVV95cUxQdUx2bHhJb3BKQkM1RlNubnRVZHVxM0dJM1VSSWJGSHYxanZ0WjB6OFNfbnh6SE9Uc2xnX3lFa3k0STdwazZDbkJ1U1dmQklPMDI3dnB1UXBXdVpuUkNqdklKX0t2Mml5dTJSV3M5WmFEbTEtVXY5ZWN2X1BjZk5aSnVfdHNBMmdqakNRRWdOMjVhMHhaeWZPdzdpSm10S1NPMjIza3NR?oc=5)
 

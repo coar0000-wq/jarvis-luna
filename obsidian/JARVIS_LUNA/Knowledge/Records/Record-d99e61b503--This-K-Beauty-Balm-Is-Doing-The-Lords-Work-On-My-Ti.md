@@ -1,12 +1,12 @@
 ---
-title: "Record d99e61b503 · This-K-Beauty-Balm-Is-Doing-The-Lords-Work-On-My-Tired-Under-Eyes--And"
+title: "Record d99e61b503 · This-K-Beauty-Balm-Is-Doing-The-Lords-Work-On-My-Ti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.928754+00:00
+updated_at: 2026-09-13T00:56:37.761310+00:00
 tags: [record, real-data]
 ---
 
-# Record d99e61b503 · This-K-Beauty-Balm-Is-Doing-The-Lords-Work-On-My-Tired-Under-Eyes--And
+# Record d99e61b503 · This-K-Beauty-Balm-Is-Doing-The-Lords-Work-On-My-Ti
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMilgFBVV95cUxNRWFnM1h1cklpOXA1b2JSb0FqYjcwaEVRclo4NmFaYUJVRWJWQi1hb2xGQ1RlaTl4TnJfZlM0aU1xMmtCZmtsX3lUN3hPYlN1YUdOZ19GczBBcWJLSm1tMHFWc0picjNUbjdobmtZRTZvWVU3NnVmc2R4bWZIbWF5NENndE9Ic2l5ZG5CVlJxam96Y3pocmc?oc=5)
 

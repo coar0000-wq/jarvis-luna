@@ -1,12 +1,12 @@
 ---
-title: "Record 3b6898efb7 · eBays-Chief-AI-Officer-How-AI-Will-Change-E-Commerce---Business-Inside"
+title: "Record 3b6898efb7 · eBays-Chief-AI-Officer-How-AI-Will-Change-E-Commerc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.917102+00:00
+updated_at: 2026-09-13T00:56:37.750634+00:00
 tags: [record, real-data]
 ---
 
-# Record 3b6898efb7 · eBays-Chief-AI-Officer-How-AI-Will-Change-E-Commerce---Business-Inside
+# Record 3b6898efb7 · eBays-Chief-AI-Officer-How-AI-Will-Change-E-Commerc
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMijwFBVV95cUxOb19HMDB4eWkycE5FUE95WlFLYWhZSmdpLUR3cjZxTGg3MVI2Y3JHTTM3NDVhRElhWFdBcmVsd1pTb1ZDSUQwaGFTaTBVdnJjcDN4YUhleEh1WVp3a3JXb2RaZjV4dE1KRTRJQ0ZwcjF3b3FncE56NmoyRFF1azBtb1BkdVJBbGt4bXV5dEZlaw?oc=5)
 

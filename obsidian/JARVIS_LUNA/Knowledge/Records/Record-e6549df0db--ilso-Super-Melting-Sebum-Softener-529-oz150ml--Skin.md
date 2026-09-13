@@ -1,12 +1,12 @@
 ---
-title: "Record e6549df0db · ilso-Super-Melting-Sebum-Softener-529-oz150ml--Skin-Fit-Wrap-Pad-40ct"
+title: "Record e6549df0db · ilso-Super-Melting-Sebum-Softener-529-oz150ml--Skin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.058148+00:00
+updated_at: 2026-09-13T00:56:37.880702+00:00
 tags: [record, real-data]
 ---
 
-# Record e6549df0db · ilso-Super-Melting-Sebum-Softener-529-oz150ml--Skin-Fit-Wrap-Pad-40ct
+# Record e6549df0db · ilso-Super-Melting-Sebum-Softener-529-oz150ml--Skin
 
 > 실제 수집 레코드입니다. 원문: [us.oliveyoung.com](https://us.oliveyoung.com/products/UA18541700)
 

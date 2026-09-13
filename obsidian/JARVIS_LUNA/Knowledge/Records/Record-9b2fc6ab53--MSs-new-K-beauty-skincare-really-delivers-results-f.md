@@ -1,12 +1,12 @@
 ---
-title: "Record 9b2fc6ab53 · MSs-new-K-beauty-skincare-really-delivers-results-for-women-over-50---"
+title: "Record 9b2fc6ab53 · MSs-new-K-beauty-skincare-really-delivers-results-f"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.948153+00:00
+updated_at: 2026-09-13T00:56:37.779077+00:00
 tags: [record, real-data]
 ---
 
-# Record 9b2fc6ab53 · MSs-new-K-beauty-skincare-really-delivers-results-for-women-over-50---
+# Record 9b2fc6ab53 · MSs-new-K-beauty-skincare-really-delivers-results-f
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMinwFBVV95cUxNLXJmWm9EUlZ3LVZmMlV0a2JORFBlYmhqMUg4dHlNNWt6TE1sTk9KLVNOUDYzUWIwd0hHYTdqT05DdjlsZ1J4b0lpMWZJZEJRdXJEdFJtVmFYRXk3eTFwSFhadTNMc0hDY3pldDFqZmI1LU1LSVhYYXo0TkpuSVYwT0pONkpGSk5uM3NoNnl1OV9xS25jNWpwdGxaQTdpMFE?oc=5)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record a80ea59dac · Inside-Korean-Beauty-Retail-Giant-Olive-Youngs-First-US-Store---fashio"
+title: "Record a80ea59dac · Inside-Korean-Beauty-Retail-Giant-Olive-Youngs-Firs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.936867+00:00
+updated_at: 2026-09-13T00:56:37.768762+00:00
 tags: [record, real-data]
 ---
 
-# Record a80ea59dac · Inside-Korean-Beauty-Retail-Giant-Olive-Youngs-First-US-Store---fashio
+# Record a80ea59dac · Inside-Korean-Beauty-Retail-Giant-Olive-Youngs-Firs
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMimgFBVV95cUxOSU16Q2stSlV5amdTcDJ6dE11NGxQQVNPd2FjY2RMU0oyckVZMmV4ZGFJcnNPUjVFcEN6bllQWWYzdHhySnBpLVVmMWQyUnFnTDFEY3pwX2tIR2ZJamNiU3U2R1JQRjhlMG5McWdmMVZqLUVSWURMQ1hlY3BmOVNUaU5vdTZqV0htdjJkX3hMWGMyVm9pdmRHTkhR?oc=5)
 

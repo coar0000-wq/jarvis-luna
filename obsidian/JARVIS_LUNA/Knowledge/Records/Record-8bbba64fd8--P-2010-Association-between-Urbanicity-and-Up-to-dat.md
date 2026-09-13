@@ -1,12 +1,12 @@
 ---
-title: "Record 8bbba64fd8 · P-2010-Association-between-Urbanicity-and-Up-to-date-COVID-19-Vaccinat"
+title: "Record 8bbba64fd8 · P-2010-Association-between-Urbanicity-and-Up-to-dat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.628139+00:00
+updated_at: 2026-09-13T00:56:37.488173+00:00
 tags: [record, real-data]
 ---
 
-# Record 8bbba64fd8 · P-2010-Association-between-Urbanicity-and-Up-to-date-COVID-19-Vaccinat
+# Record 8bbba64fd8 · P-2010-Association-between-Urbanicity-and-Up-to-dat
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1093/ofid/ofae631.2167)
 

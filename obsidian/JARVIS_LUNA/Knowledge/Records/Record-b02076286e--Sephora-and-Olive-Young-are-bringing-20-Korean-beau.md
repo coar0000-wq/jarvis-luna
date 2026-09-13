@@ -1,12 +1,12 @@
 ---
-title: "Record b02076286e · Sephora-and-Olive-Young-are-bringing-20-Korean-beauty-brands-to-Southe"
+title: "Record b02076286e · Sephora-and-Olive-Young-are-bringing-20-Korean-beau"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.925876+00:00
+updated_at: 2026-09-13T00:56:37.758692+00:00
 tags: [record, real-data]
 ---
 
-# Record b02076286e · Sephora-and-Olive-Young-are-bringing-20-Korean-beauty-brands-to-Southe
+# Record b02076286e · Sephora-and-Olive-Young-are-bringing-20-Korean-beau
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMilAFBVV95cUxNbmVxZVdhXzZVVVZoRmhVQ1E5TjhJWF9xMW5PTlZVOFBmaTRLWEp2THlKX2VHemFXdExHU2hGNUxtU0NYdmpQdnRuTkpmX25Tb1ZVUEk5U1R0TjJqcUhDeVJSd1dTUHRMWVMtRGtncTdkMjlmTU9Bbm1jOWNtVlFodzZNekV6VHJHWkd3LUpITTJ0dUxX?oc=5)
 

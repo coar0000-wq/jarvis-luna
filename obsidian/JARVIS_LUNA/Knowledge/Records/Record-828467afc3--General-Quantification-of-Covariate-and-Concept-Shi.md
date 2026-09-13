@@ -1,12 +1,12 @@
 ---
-title: "Record 828467afc3 · General-Quantification-of-Covariate-and-Concept-Shifts"
+title: "Record 828467afc3 · General-Quantification-of-Covariate-and-Concept-Shi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.560252+00:00
+updated_at: 2026-09-13T00:56:37.423353+00:00
 tags: [record, real-data]
 ---
 
-# Record 828467afc3 · General-Quantification-of-Covariate-and-Concept-Shifts
+# Record 828467afc3 · General-Quantification-of-Covariate-and-Concept-Shi
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.11918v1)
 

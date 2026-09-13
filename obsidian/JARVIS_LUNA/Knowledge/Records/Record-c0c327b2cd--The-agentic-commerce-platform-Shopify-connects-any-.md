@@ -1,12 +1,12 @@
 ---
-title: "Record c0c327b2cd · The-agentic-commerce-platform-Shopify-connects-any-merchant-to-every-A"
+title: "Record c0c327b2cd · The-agentic-commerce-platform-Shopify-connects-any-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.802845+00:00
+updated_at: 2026-09-13T00:56:37.641600+00:00
 tags: [record, real-data]
 ---
 
-# Record c0c327b2cd · The-agentic-commerce-platform-Shopify-connects-any-merchant-to-every-A
+# Record c0c327b2cd · The-agentic-commerce-platform-Shopify-connects-any-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiXkFVX3lxTE1MaHA5dXZRekNkZHpaTW9KNmpzMGt6bjQ2aHF3TEtvWjFvLWRJSWxBNHBGRDl0RzNMQ0dYdDQxUmZEV1VhYzJ5YUxDUzBFYWR3MjdOcW9YZmpEOW12Wmc?oc=5)
 

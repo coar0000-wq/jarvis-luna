@@ -1,12 +1,12 @@
 ---
-title: "Record a61a6d8a68 · Move-over-K-beauty-P-beauty-has-arrived-and-Careline-cosmetics-is-abou"
+title: "Record a61a6d8a68 · Move-over-K-beauty-P-beauty-has-arrived-and-Carelin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.777078+00:00
+updated_at: 2026-09-13T00:56:37.618001+00:00
 tags: [record, real-data]
 ---
 
-# Record a61a6d8a68 · Move-over-K-beauty-P-beauty-has-arrived-and-Careline-cosmetics-is-abou
+# Record a61a6d8a68 · Move-over-K-beauty-P-beauty-has-arrived-and-Carelin
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMi4gFBVV95cUxNLWQ5MFlwVUtkMUhPMmRHM2RGaC1HRnZ4bHIzNXQxOTdaWFFyekw3WmpMLUNzWDV0VGVZQTFZelZVQVIwbW9OdFpjcWpTSEZnV2ZMNGdKaXQwX3FFOTNiSU9JRlc0MWZmWlpOeFh3YjVFY2VydVQ3M1FIZEFzMWx6bUJFOEdXNlpHQmVHT2pfOWVDaXk0emZ6UnZKUElEMUs2X2pDLWRKZmJFY18xUFdDUjVyUjVrS1ZLeEhMMUdEV2pzTjJBWVhZenRmcWNJQTlmZWNkZ1R5YUJQVW5RU3VSQWF3?oc=5)
 

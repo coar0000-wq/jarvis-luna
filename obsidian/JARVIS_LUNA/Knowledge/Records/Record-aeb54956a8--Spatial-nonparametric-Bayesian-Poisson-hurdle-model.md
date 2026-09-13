@@ -1,12 +1,12 @@
 ---
-title: "Record aeb54956a8 · Spatial-nonparametric-Bayesian-Poisson-hurdle-model-for-analyzing-zero"
+title: "Record aeb54956a8 · Spatial-nonparametric-Bayesian-Poisson-hurdle-model"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.585851+00:00
+updated_at: 2026-09-13T00:56:37.449709+00:00
 tags: [record, real-data]
 ---
 
-# Record aeb54956a8 · Spatial-nonparametric-Bayesian-Poisson-hurdle-model-for-analyzing-zero
+# Record aeb54956a8 · Spatial-nonparametric-Bayesian-Poisson-hurdle-model
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1007/s42952-026-00390-2)
 

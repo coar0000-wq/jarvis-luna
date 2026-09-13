@@ -1,12 +1,12 @@
 ---
-title: "Record 5938f988f9 · Analysis-and-Design-of-mm-Wave-CMOS-Power-Amplifier-Using-Stacked-Para"
+title: "Record 5938f988f9 · Analysis-and-Design-of-mm-Wave-CMOS-Power-Amplifier"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.642820+00:00
+updated_at: 2026-09-13T00:56:37.501740+00:00
 tags: [record, real-data]
 ---
 
-# Record 5938f988f9 · Analysis-and-Design-of-mm-Wave-CMOS-Power-Amplifier-Using-Stacked-Para
+# Record 5938f988f9 · Analysis-and-Design-of-mm-Wave-CMOS-Power-Amplifier
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1109/tmtt.2026.3684474)
 

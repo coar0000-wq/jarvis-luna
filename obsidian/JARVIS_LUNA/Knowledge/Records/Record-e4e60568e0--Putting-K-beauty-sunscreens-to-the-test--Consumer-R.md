@@ -1,12 +1,12 @@
 ---
-title: "Record e4e60568e0 · Putting-K-beauty-sunscreens-to-the-test--Consumer-Reports---WESH"
+title: "Record e4e60568e0 · Putting-K-beauty-sunscreens-to-the-test--Consumer-R"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.874396+00:00
+updated_at: 2026-09-13T00:56:37.711434+00:00
 tags: [record, real-data]
 ---
 
-# Record e4e60568e0 · Putting-K-beauty-sunscreens-to-the-test--Consumer-Reports---WESH
+# Record e4e60568e0 · Putting-K-beauty-sunscreens-to-the-test--Consumer-R
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMif0FVX3lxTE1RTlRWa1NTaGFteVh6ZDZFM2x3dmc3T09NZTY0c2VZWUdISGdQZmZWY1FQall2bVJLdlJnSFdteVVlaVhmNVZlNDl3aWtWTUswTVU4dXJiQjJENjRxam4xOGhUWm4zNlc5YkdwLU95ampCcDFQd2Rheng2aUVTVk0?oc=5)
 

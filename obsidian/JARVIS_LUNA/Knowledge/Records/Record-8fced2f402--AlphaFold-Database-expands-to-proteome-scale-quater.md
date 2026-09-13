@@ -1,12 +1,12 @@
 ---
-title: "Record 8fced2f402 · AlphaFold-Database-expands-to-proteome-scale-quaternary-structures"
+title: "Record 8fced2f402 · AlphaFold-Database-expands-to-proteome-scale-quater"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.671885+00:00
+updated_at: 2026-09-13T00:56:37.525864+00:00
 tags: [record, real-data]
 ---
 
-# Record 8fced2f402 · AlphaFold-Database-expands-to-proteome-scale-quaternary-structures
+# Record 8fced2f402 · AlphaFold-Database-expands-to-proteome-scale-quater
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.21203/rs.3.rs-9890026/v1)
 

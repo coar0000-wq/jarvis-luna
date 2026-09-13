@@ -1,12 +1,12 @@
 ---
-title: "Record f9c8445d13 · Fortunate-Recall-Ontology-Driven-Memory-Lifecycle-Management-for-Persi"
+title: "Record f9c8445d13 · Fortunate-Recall-Ontology-Driven-Memory-Lifecycle-M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.539874+00:00
+updated_at: 2026-09-13T00:56:37.402841+00:00
 tags: [record, real-data]
 ---
 
-# Record f9c8445d13 · Fortunate-Recall-Ontology-Driven-Memory-Lifecycle-Management-for-Persi
+# Record f9c8445d13 · Fortunate-Recall-Ontology-Driven-Memory-Lifecycle-M
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.10413v1)
 

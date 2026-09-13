@@ -1,12 +1,12 @@
 ---
-title: "Record 861dc7ddf9 · OLIVE-YOUNG-Brings-Signature-K-Beauty-Festival-to-the-US-with-OLIVE-YO"
+title: "Record 861dc7ddf9 · OLIVE-YOUNG-Brings-Signature-K-Beauty-Festival-to-t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.776299+00:00
+updated_at: 2026-09-13T00:56:37.617258+00:00
 tags: [record, real-data]
 ---
 
-# Record 861dc7ddf9 · OLIVE-YOUNG-Brings-Signature-K-Beauty-Festival-to-the-US-with-OLIVE-YO
+# Record 861dc7ddf9 · OLIVE-YOUNG-Brings-Signature-K-Beauty-Festival-to-t
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMi2wFBVV95cUxOYy1xaTlhMm10N1hMMGQ2cERwdExGMWVxQ3RDNVZoUFBFU01iTlFqbVNEdEdOTnFHVXhDX2YxN0Q1eWpUdFZJdXZyS2k4anhrTVdhR1Q2dUpfdEIySDhFSm9CTHlsODNyTkZqOVFxRmpLWjF6S1hCVkxPVkhPZGl0RXhndzBFYzZLa25DOHl2RVgxSmRUb3NXSmF5alI2LTdSaFZtUmViRGFqeTZKY2tWODJ5VlZ6R05NVFc1d1A2azNOVWRJR2JsaC1nTklMVzlhOEh3TjJNN2ZwOXc?oc=5)
 

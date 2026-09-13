@@ -1,12 +1,12 @@
 ---
-title: "Record 51f296de12 · Near-field-treatment-to-maintain-supercooling-and-improve-beef-quality"
+title: "Record 51f296de12 · Near-field-treatment-to-maintain-supercooling-and-i"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.592676+00:00
+updated_at: 2026-09-13T00:56:37.455777+00:00
 tags: [record, real-data]
 ---
 
-# Record 51f296de12 · Near-field-treatment-to-maintain-supercooling-and-improve-beef-quality
+# Record 51f296de12 · Near-field-treatment-to-maintain-supercooling-and-i
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.ifset.2026.104776)
 

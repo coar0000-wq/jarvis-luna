@@ -1,12 +1,12 @@
 ---
-title: "Record f4a9947413 · NAVIGATING-BUSINESS-INTELLIGENCE-TOOLS-STRATEGIES-TO-DRIVE-BUSINESS-GR"
+title: "Record f4a9947413 · NAVIGATING-BUSINESS-INTELLIGENCE-TOOLS-STRATEGIES-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.694192+00:00
+updated_at: 2026-09-13T00:56:37.544204+00:00
 tags: [record, real-data]
 ---
 
-# Record f4a9947413 · NAVIGATING-BUSINESS-INTELLIGENCE-TOOLS-STRATEGIES-TO-DRIVE-BUSINESS-GR
+# Record f4a9947413 · NAVIGATING-BUSINESS-INTELLIGENCE-TOOLS-STRATEGIES-T
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.37547/tajet/volume06issue10-14a)
 

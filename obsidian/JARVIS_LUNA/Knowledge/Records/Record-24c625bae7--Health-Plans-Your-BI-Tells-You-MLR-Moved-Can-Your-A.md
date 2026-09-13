@@ -1,12 +1,12 @@
 ---
-title: "Record 24c625bae7 · Health-Plans-Your-BI-Tells-You-MLR-Moved-Can-Your-AI-Tell-You-Why"
+title: "Record 24c625bae7 · Health-Plans-Your-BI-Tells-You-MLR-Moved-Can-Your-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.126145+00:00
+updated_at: 2026-09-13T00:56:37.942055+00:00
 tags: [record, real-data]
 ---
 
-# Record 24c625bae7 · Health-Plans-Your-BI-Tells-You-MLR-Moved-Can-Your-AI-Tell-You-Why
+# Record 24c625bae7 · Health-Plans-Your-BI-Tells-You-MLR-Moved-Can-Your-A
 
 > 실제 수집 레코드입니다. 원문: [www.databricks.com](https://www.databricks.com/blog/health-plans-your-bi-tells-you-mlr-moved-can-your-ai-tell-you-why)
 

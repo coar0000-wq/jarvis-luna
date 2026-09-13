@@ -1,12 +1,12 @@
 ---
-title: "Record b6ed6cd88e · Leidos-selected-to-provide-flight-proven-infrared-sensors-to-Sierra-Sp"
+title: "Record b6ed6cd88e · Leidos-selected-to-provide-flight-proven-infrared-s"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.756323+00:00
+updated_at: 2026-09-13T00:56:37.598518+00:00
 tags: [record, real-data]
 ---
 
-# Record b6ed6cd88e · Leidos-selected-to-provide-flight-proven-infrared-sensors-to-Sierra-Sp
+# Record b6ed6cd88e · Leidos-selected-to-provide-flight-proven-infrared-s
 
 > 실제 수집 레코드입니다. 원문: [investors.leidos.com](https://investors.leidos.com/news-releases/news-release-details/leidos-selected-provide-flight-proven-infrared-sensors-sierra)
 

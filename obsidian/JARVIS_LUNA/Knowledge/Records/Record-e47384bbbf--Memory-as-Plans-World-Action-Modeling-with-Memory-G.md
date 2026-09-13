@@ -1,12 +1,12 @@
 ---
-title: "Record e47384bbbf · Memory-as-Plans-World-Action-Modeling-with-Memory-Grounded-Planning"
+title: "Record e47384bbbf · Memory-as-Plans-World-Action-Modeling-with-Memory-G"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.551714+00:00
+updated_at: 2026-09-13T00:56:37.414674+00:00
 tags: [record, real-data]
 ---
 
-# Record e47384bbbf · Memory-as-Plans-World-Action-Modeling-with-Memory-Grounded-Planning
+# Record e47384bbbf · Memory-as-Plans-World-Action-Modeling-with-Memory-G
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.11561v1)
 

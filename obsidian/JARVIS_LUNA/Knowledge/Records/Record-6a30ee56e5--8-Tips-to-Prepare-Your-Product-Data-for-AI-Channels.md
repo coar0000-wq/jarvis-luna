@@ -1,12 +1,12 @@
 ---
-title: "Record 6a30ee56e5 · 8-Tips-to-Prepare-Your-Product-Data-for-AI-Channels-2026---Shopify"
+title: "Record 6a30ee56e5 · 8-Tips-to-Prepare-Your-Product-Data-for-AI-Channels"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.866046+00:00
+updated_at: 2026-09-13T00:56:37.703295+00:00
 tags: [record, real-data]
 ---
 
-# Record 6a30ee56e5 · 8-Tips-to-Prepare-Your-Product-Data-for-AI-Channels-2026---Shopify
+# Record 6a30ee56e5 · 8-Tips-to-Prepare-Your-Product-Data-for-AI-Channels
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMieEFVX3lxTE54NzNDMGxaY2hTUE10eW45Y3ZtREFiOTIxaG1PWExvRXZwTXlnelJWUW1OQll4c2JHb0NhQUhDSjRNYU1sMXFBeXRyblBTU2M3ZkpWN283b3pBQnpKUWZ3THVlcWZZV2Y2d1M0QWtqZXJTUno1dVhNTQ?oc=5)
 

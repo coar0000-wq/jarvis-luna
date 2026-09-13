@@ -1,12 +1,12 @@
 ---
-title: "Record f34cf6ec9a · Scale-Cant-Overcome-Pragmatics-The-Impact-of-Reporting-Bias-on-Vision-"
+title: "Record f34cf6ec9a · Scale-Cant-Overcome-Pragmatics-The-Impact-of-Report"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.654610+00:00
+updated_at: 2026-09-13T00:56:37.511778+00:00
 tags: [record, real-data]
 ---
 
-# Record f34cf6ec9a · Scale-Cant-Overcome-Pragmatics-The-Impact-of-Reporting-Bias-on-Vision-
+# Record f34cf6ec9a · Scale-Cant-Overcome-Pragmatics-The-Impact-of-Report
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1162/tacl.a.690)
 

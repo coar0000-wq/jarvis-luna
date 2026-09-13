@@ -1,12 +1,12 @@
 ---
-title: "Record 5425e6f9ad · Reinforcement-learning-control-of-quantum-error-correction"
+title: "Record 5425e6f9ad · Reinforcement-learning-control-of-quantum-error-cor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.613885+00:00
+updated_at: 2026-09-13T00:56:37.474947+00:00
 tags: [record, real-data]
 ---
 
-# Record 5425e6f9ad · Reinforcement-learning-control-of-quantum-error-correction
+# Record 5425e6f9ad · Reinforcement-learning-control-of-quantum-error-cor
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1038/s41586-026-10759-2)
 

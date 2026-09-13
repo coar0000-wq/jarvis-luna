@@ -1,12 +1,12 @@
 ---
-title: "Record 04844ef21d · Olive-Young-Is-Bringing-Its-K-Beauty-Favorites-to-SephoraHeres-What-to"
+title: "Record 04844ef21d · Olive-Young-Is-Bringing-Its-K-Beauty-Favorites-to-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.839568+00:00
+updated_at: 2026-09-13T00:56:37.675758+00:00
 tags: [record, real-data]
 ---
 
-# Record 04844ef21d · Olive-Young-Is-Bringing-Its-K-Beauty-Favorites-to-SephoraHeres-What-to
+# Record 04844ef21d · Olive-Young-Is-Bringing-Its-K-Beauty-Favorites-to-S
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMibEFVX3lxTFBrY09pU19jMGI3NVRZZTNXekxSa1VWNXBSc19vZjhaVWNnNWo0UUJwRzdSVE5MODdVdG9ZRmg5emFsMjVjRXF6SUVkc3Q5cGZOeGdnVmhFa2tuelM1UFQtUlJfb3VpcUFFTkpmTw?oc=5)
 

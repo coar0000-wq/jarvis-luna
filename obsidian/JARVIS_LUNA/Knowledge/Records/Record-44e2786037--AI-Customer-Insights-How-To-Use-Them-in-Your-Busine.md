@@ -1,12 +1,12 @@
 ---
-title: "Record 44e2786037 · AI-Customer-Insights-How-To-Use-Them-in-Your-Business---Shopify"
+title: "Record 44e2786037 · AI-Customer-Insights-How-To-Use-Them-in-Your-Busine"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.809968+00:00
+updated_at: 2026-09-13T00:56:37.648274+00:00
 tags: [record, real-data]
 ---
 
-# Record 44e2786037 · AI-Customer-Insights-How-To-Use-Them-in-Your-Business---Shopify
+# Record 44e2786037 · AI-Customer-Insights-How-To-Use-Them-in-Your-Busine
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiYkFVX3lxTFAwY05pUUpFNGlqTDRIYmRNVVNUV1kyUTl0bEg3NW5SQUlEUG8wRU9sUEhJMmdnWWUySXBpdnMzOFllOFREWnI0YVZLaUI3c09ZbzM3Ymdic3hqaldoUXFHRkVR?oc=5)
 

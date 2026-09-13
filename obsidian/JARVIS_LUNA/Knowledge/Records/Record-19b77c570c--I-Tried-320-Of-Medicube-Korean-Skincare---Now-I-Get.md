@@ -1,12 +1,12 @@
 ---
-title: "Record 19b77c570c · I-Tried-320-Of-Medicube-Korean-Skincare---Now-I-Get-The-Hype---Refiner"
+title: "Record 19b77c570c · I-Tried-320-Of-Medicube-Korean-Skincare---Now-I-Get"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.852761+00:00
+updated_at: 2026-09-13T00:56:37.689373+00:00
 tags: [record, real-data]
 ---
 
-# Record 19b77c570c · I-Tried-320-Of-Medicube-Korean-Skincare---Now-I-Get-The-Hype---Refiner
+# Record 19b77c570c · I-Tried-320-Of-Medicube-Korean-Skincare---Now-I-Get
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMickFVX3lxTE9tdUplWUZvMDNFZEZmNncwclZJWXFSdVZuUTd6MG9rbmhVVldXcnYweDFDcjVDUVA5Q3ZEazhFNV81S0s5Ulp1R1NlcTMtWWJ6UDZESWJfcTlNaUZkbzlGdnlFX0Q4VUpzYWp3bHpySjVtUQ?oc=5)
 

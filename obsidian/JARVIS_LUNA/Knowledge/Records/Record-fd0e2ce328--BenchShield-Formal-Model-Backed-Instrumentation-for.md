@@ -1,12 +1,12 @@
 ---
-title: "Record fd0e2ce328 · BenchShield-Formal-Model-Backed-Instrumentation-for-Reward-Integrity-i"
+title: "Record fd0e2ce328 · BenchShield-Formal-Model-Backed-Instrumentation-for"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.544775+00:00
+updated_at: 2026-09-13T00:56:37.407717+00:00
 tags: [record, real-data]
 ---
 
-# Record fd0e2ce328 · BenchShield-Formal-Model-Backed-Instrumentation-for-Reward-Integrity-i
+# Record fd0e2ce328 · BenchShield-Formal-Model-Backed-Instrumentation-for
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.11028v1)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 1c51b610a2 · The-Impact-of-Security-Orchestration-Automation-and-Response-SOAR-on-S"
+title: "Record 1c51b610a2 · The-Impact-of-Security-Orchestration-Automation-and"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.728576+00:00
+updated_at: 2026-09-13T00:56:37.572818+00:00
 tags: [record, real-data]
 ---
 
-# Record 1c51b610a2 · The-Impact-of-Security-Orchestration-Automation-and-Response-SOAR-on-S
+# Record 1c51b610a2 · The-Impact-of-Security-Orchestration-Automation-and
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.61841/turcomat.v10i3.14323)
 

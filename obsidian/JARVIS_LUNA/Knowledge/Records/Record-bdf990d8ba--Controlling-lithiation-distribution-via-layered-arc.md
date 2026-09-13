@@ -1,12 +1,12 @@
 ---
-title: "Record bdf990d8ba · Controlling-lithiation-distribution-via-layered-architecture-for-high-"
+title: "Record bdf990d8ba · Controlling-lithiation-distribution-via-layered-arc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.591769+00:00
+updated_at: 2026-09-13T00:56:37.454965+00:00
 tags: [record, real-data]
 ---
 
-# Record bdf990d8ba · Controlling-lithiation-distribution-via-layered-architecture-for-high-
+# Record bdf990d8ba · Controlling-lithiation-distribution-via-layered-arc
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.est.2026.124242)
 

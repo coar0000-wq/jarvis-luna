@@ -1,12 +1,12 @@
 ---
-title: "Record 7e4462faf0 · Compression-of-3D-Gaussian-Splatting-Data-Using-GPU-friendly-Graphics-"
+title: "Record 7e4462faf0 · Compression-of-3D-Gaussian-Splatting-Data-Using-GPU"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.039510+00:00
+updated_at: 2026-09-13T00:56:37.863930+00:00
 tags: [record, real-data]
 ---
 
-# Record 7e4462faf0 · Compression-of-3D-Gaussian-Splatting-Data-Using-GPU-friendly-Graphics-
+# Record 7e4462faf0 · Compression-of-3D-Gaussian-Splatting-Data-Using-GPU
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7169689229)
 

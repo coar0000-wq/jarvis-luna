@@ -1,12 +1,12 @@
 ---
-title: "Record aed148d62b · Estimating-heatwave-induced-excess-mortality-in-Indias-districts"
+title: "Record aed148d62b · Estimating-heatwave-induced-excess-mortality-in-Ind"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.684106+00:00
+updated_at: 2026-09-13T00:56:37.535937+00:00
 tags: [record, real-data]
 ---
 
-# Record aed148d62b · Estimating-heatwave-induced-excess-mortality-in-Indias-districts
+# Record aed148d62b · Estimating-heatwave-induced-excess-mortality-in-Ind
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.3389/fenvh.2026.1789071)
 

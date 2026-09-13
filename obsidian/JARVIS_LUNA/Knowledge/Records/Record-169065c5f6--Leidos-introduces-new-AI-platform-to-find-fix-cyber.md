@@ -1,12 +1,12 @@
 ---
-title: "Record 169065c5f6 · Leidos-introduces-new-AI-platform-to-find-fix-cybersecurity-vulnerabil"
+title: "Record 169065c5f6 · Leidos-introduces-new-AI-platform-to-find-fix-cyber"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.755685+00:00
+updated_at: 2026-09-13T00:56:37.597941+00:00
 tags: [record, real-data]
 ---
 
-# Record 169065c5f6 · Leidos-introduces-new-AI-platform-to-find-fix-cybersecurity-vulnerabil
+# Record 169065c5f6 · Leidos-introduces-new-AI-platform-to-find-fix-cyber
 
 > 실제 수집 레코드입니다. 원문: [investors.leidos.com](https://investors.leidos.com/news-releases/news-release-details/leidos-introduces-new-ai-platform-find-fix-cybersecurity)
 

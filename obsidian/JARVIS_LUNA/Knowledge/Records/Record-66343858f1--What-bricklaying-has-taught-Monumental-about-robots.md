@@ -1,12 +1,12 @@
 ---
-title: "Record 66343858f1 · What-bricklaying-has-taught-Monumental-about-robots-in-construction"
+title: "Record 66343858f1 · What-bricklaying-has-taught-Monumental-about-robots"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.182929+00:00
+updated_at: 2026-09-13T00:56:37.987930+00:00
 tags: [record, real-data]
 ---
 
-# Record 66343858f1 · What-bricklaying-has-taught-Monumental-about-robots-in-construction
+# Record 66343858f1 · What-bricklaying-has-taught-Monumental-about-robots
 
 > 실제 수집 레코드입니다. 원문: [www.therobotreport.com](https://www.therobotreport.com/what-bricklaying-has-taught-monumental-about-robots-construction/)
 

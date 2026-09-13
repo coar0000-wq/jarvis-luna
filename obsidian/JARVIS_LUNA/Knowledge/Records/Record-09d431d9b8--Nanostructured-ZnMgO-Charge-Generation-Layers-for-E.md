@@ -1,12 +1,12 @@
 ---
-title: "Record 09d431d9b8 · Nanostructured-ZnMgO-Charge-Generation-Layers-for-Enhanced-Tandem-Quan"
+title: "Record 09d431d9b8 · Nanostructured-ZnMgO-Charge-Generation-Layers-for-E"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.584229+00:00
+updated_at: 2026-09-13T00:56:37.448199+00:00
 tags: [record, real-data]
 ---
 
-# Record 09d431d9b8 · Nanostructured-ZnMgO-Charge-Generation-Layers-for-Enhanced-Tandem-Quan
+# Record 09d431d9b8 · Nanostructured-ZnMgO-Charge-Generation-Layers-for-E
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1007/s13391-026-00667-y)
 

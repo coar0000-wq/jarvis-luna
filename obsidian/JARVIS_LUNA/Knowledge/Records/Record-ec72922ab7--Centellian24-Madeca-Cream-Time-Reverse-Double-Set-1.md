@@ -1,12 +1,12 @@
 ---
-title: "Record ec72922ab7 · Centellian24-Madeca-Cream-Time-Reverse-Double-Set-169-fl-oz50ml-x-2ea-"
+title: "Record ec72922ab7 · Centellian24-Madeca-Cream-Time-Reverse-Double-Set-1"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.062343+00:00
+updated_at: 2026-09-13T00:56:37.884517+00:00
 tags: [record, real-data]
 ---
 
-# Record ec72922ab7 · Centellian24-Madeca-Cream-Time-Reverse-Double-Set-169-fl-oz50ml-x-2ea-
+# Record ec72922ab7 · Centellian24-Madeca-Cream-Time-Reverse-Double-Set-1
 
 > 실제 수집 레코드입니다. 원문: [us.oliveyoung.com](https://us.oliveyoung.com/products/UA39839880)
 

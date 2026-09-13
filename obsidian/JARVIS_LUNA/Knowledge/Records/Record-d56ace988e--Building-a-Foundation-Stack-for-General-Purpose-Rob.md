@@ -1,12 +1,12 @@
 ---
-title: "Record d56ace988e · Building-a-Foundation-Stack-for-General-Purpose-Robots"
+title: "Record d56ace988e · Building-a-Foundation-Stack-for-General-Purpose-Rob"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.055696+00:00
+updated_at: 2026-09-13T00:56:37.878524+00:00
 tags: [record, real-data]
 ---
 
-# Record d56ace988e · Building-a-Foundation-Stack-for-General-Purpose-Robots
+# Record d56ace988e · Building-a-Foundation-Stack-for-General-Purpose-Rob
 
 > 실제 수집 레코드입니다. 원문: [spectrum.ieee.org](https://spectrum.ieee.org/x-square-robot-embodied-ai-stack)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record fb45188475 · Whats-in-this-k-beauty-box-Your-1st-Korean-sauna-experience-that-you-d"
+title: "Record fb45188475 · Whats-in-this-k-beauty-box-Your-1st-Korean-sauna-ex"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.190577+00:00
+updated_at: 2026-09-13T00:56:37.994168+00:00
 tags: [record, real-data]
 ---
 
-# Record fb45188475 · Whats-in-this-k-beauty-box-Your-1st-Korean-sauna-experience-that-you-d
+# Record fb45188475 · Whats-in-this-k-beauty-box-Your-1st-Korean-sauna-ex
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/shorts/Aty0xiQjBmg)
 

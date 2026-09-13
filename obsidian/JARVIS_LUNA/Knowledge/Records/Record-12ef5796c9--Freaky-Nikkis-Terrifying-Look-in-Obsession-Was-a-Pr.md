@@ -1,12 +1,12 @@
 ---
-title: "Record 12ef5796c9 · Freaky-Nikkis-Terrifying-Look-in-Obsession-Was-a-Practical-Effect-Insp"
+title: "Record 12ef5796c9 · Freaky-Nikkis-Terrifying-Look-in-Obsession-Was-a-Pr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.774674+00:00
+updated_at: 2026-09-13T00:56:37.615777+00:00
 tags: [record, real-data]
 ---
 
-# Record 12ef5796c9 · Freaky-Nikkis-Terrifying-Look-in-Obsession-Was-a-Practical-Effect-Insp
+# Record 12ef5796c9 · Freaky-Nikkis-Terrifying-Look-in-Obsession-Was-a-Pr
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMi0wFBVV95cUxNc2tQY3FUSHhhcm5kWnFVdElmcmd6ZXc1NUN1UnVoRDJQNHFZaGhQcTctLXhZZ0pSZXlnNVJKQnNpR0NQTmFZXzI0aHZ1cjJSQ1RlbDEzakdkY2tIWm1BU3pmSURmQWJoWk44dlBiUHZCRHJRYTJCbzRJSFpMRmlqcnpQQ3F1VE9la0kzM2lUTE1iQ1FkZ2ZuZDItNEZkVWlacHRtOTdWcDdBeTBxbGxzeWdQQmd2RS04QU9xQzlRRVBaQVp5V3YxWW1ybXA1UG83Ymtn?oc=5)
 

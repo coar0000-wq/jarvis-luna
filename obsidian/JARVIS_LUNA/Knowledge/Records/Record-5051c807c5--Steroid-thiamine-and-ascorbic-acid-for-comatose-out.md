@@ -1,12 +1,12 @@
 ---
-title: "Record 5051c807c5 · Steroid-thiamine-and-ascorbic-acid-for-comatose-out-of-hospital-cardia"
+title: "Record 5051c807c5 · Steroid-thiamine-and-ascorbic-acid-for-comatose-out"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.590529+00:00
+updated_at: 2026-09-13T00:56:37.453877+00:00
 tags: [record, real-data]
 ---
 
-# Record 5051c807c5 · Steroid-thiamine-and-ascorbic-acid-for-comatose-out-of-hospital-cardia
+# Record 5051c807c5 · Steroid-thiamine-and-ascorbic-acid-for-comatose-out
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.eclinm.2026.104191)
 

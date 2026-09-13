@@ -1,12 +1,12 @@
 ---
-title: "Record c0bf92fe5d · Samsung-Galaxy-Buds4-Pro-Superior-Hi-Fi-Sound-Recognized-by-Audio-Expe"
+title: "Record c0bf92fe5d · Samsung-Galaxy-Buds4-Pro-Superior-Hi-Fi-Sound-Recog"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.996210+00:00
+updated_at: 2026-09-13T00:56:37.823220+00:00
 tags: [record, real-data]
 ---
 
-# Record c0bf92fe5d · Samsung-Galaxy-Buds4-Pro-Superior-Hi-Fi-Sound-Recognized-by-Audio-Expe
+# Record c0bf92fe5d · Samsung-Galaxy-Buds4-Pro-Superior-Hi-Fi-Sound-Recog
 
 > 실제 수집 레코드입니다. 원문: [news.samsung.com](https://news.samsung.com/global/samsung-galaxy-buds4-pro-superior-hi-fi-sound-recognized-by-audio-experts)
 

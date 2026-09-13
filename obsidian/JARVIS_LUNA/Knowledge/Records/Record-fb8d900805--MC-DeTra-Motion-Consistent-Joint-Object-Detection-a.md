@@ -1,12 +1,12 @@
 ---
-title: "Record fb8d900805 · MC-DeTra-Motion-Consistent-Joint-Object-Detection-and-Socially-Aware-T"
+title: "Record fb8d900805 · MC-DeTra-Motion-Consistent-Joint-Object-Detection-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.554734+00:00
+updated_at: 2026-09-13T00:56:37.417706+00:00
 tags: [record, real-data]
 ---
 
-# Record fb8d900805 · MC-DeTra-Motion-Consistent-Joint-Object-Detection-and-Socially-Aware-T
+# Record fb8d900805 · MC-DeTra-Motion-Consistent-Joint-Object-Detection-a
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.11717v1)
 

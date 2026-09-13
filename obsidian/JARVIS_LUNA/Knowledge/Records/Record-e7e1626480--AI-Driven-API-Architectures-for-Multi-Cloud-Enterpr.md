@@ -1,12 +1,12 @@
 ---
-title: "Record e7e1626480 · AI-Driven-API-Architectures-for-Multi-Cloud-Enterprises-A-Comparative-"
+title: "Record e7e1626480 · AI-Driven-API-Architectures-for-Multi-Cloud-Enterpr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.729892+00:00
+updated_at: 2026-09-13T00:56:37.574116+00:00
 tags: [record, real-data]
 ---
 
-# Record e7e1626480 · AI-Driven-API-Architectures-for-Multi-Cloud-Enterprises-A-Comparative-
+# Record e7e1626480 · AI-Driven-API-Architectures-for-Multi-Cloud-Enterpr
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.64137/31079458/ijcsei-v2i1p108)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 1525383766 · 2026-Midterm-Elections-Market-Impact-Investor-Outlook"
+title: "Record 1525383766 · 2026-Midterm-Elections-Market-Impact-Investor-Outlo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.161608+00:00
+updated_at: 2026-09-13T00:56:37.971248+00:00
 tags: [record, real-data]
 ---
 
-# Record 1525383766 · 2026-Midterm-Elections-Market-Impact-Investor-Outlook
+# Record 1525383766 · 2026-Midterm-Elections-Market-Impact-Investor-Outlo
 
 > 실제 수집 레코드입니다. 원문: [www.morganstanley.com](https://www.morganstanley.com/insights/articles/2026-midterm-elections-market-impact-investor-outlook)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 6aa4c03cc1 · 19-New-K-Beauty-Brands-Are-Coming-to-Sephora-Heres-What-to-Buy---Yahoo"
+title: "Record 6aa4c03cc1 · 19-New-K-Beauty-Brands-Are-Coming-to-Sephora-Heres-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.933633+00:00
+updated_at: 2026-09-13T00:56:37.765762+00:00
 tags: [record, real-data]
 ---
 
-# Record 6aa4c03cc1 · 19-New-K-Beauty-Brands-Are-Coming-to-Sephora-Heres-What-to-Buy---Yahoo
+# Record 6aa4c03cc1 · 19-New-K-Beauty-Brands-Are-Coming-to-Sephora-Heres-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMilwFBVV95cUxPdU96bWtLQjBydnhYalkzd2h4SmJBbUNZdjZvdzJ5T2VDcl91OEdVWkk0SnZyd29kSGxpUjU0N21rREthcDlPWHNQQVNVTE5vTDN4MWZ6RmZDZW8wVFJhQnI2SmJkREJPd3RUbUxBWWZzVkFGY2Z2MVY2aDZCR1VVbnhtUnN1RXhJWElMTXBUSEVuekpKb3lz?oc=5)
 

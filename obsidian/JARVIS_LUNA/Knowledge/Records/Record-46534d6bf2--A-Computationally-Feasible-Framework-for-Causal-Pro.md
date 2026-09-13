@@ -1,12 +1,12 @@
 ---
-title: "Record 46534d6bf2 · A-Computationally-Feasible-Framework-for-Causal-Probabilistic-Explanat"
+title: "Record 46534d6bf2 · A-Computationally-Feasible-Framework-for-Causal-Pro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.491337+00:00
+updated_at: 2026-09-13T00:56:37.358734+00:00
 tags: [record, real-data]
 ---
 
-# Record 46534d6bf2 · A-Computationally-Feasible-Framework-for-Causal-Probabilistic-Explanat
+# Record 46534d6bf2 · A-Computationally-Feasible-Framework-for-Causal-Pro
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.04177v1)
 

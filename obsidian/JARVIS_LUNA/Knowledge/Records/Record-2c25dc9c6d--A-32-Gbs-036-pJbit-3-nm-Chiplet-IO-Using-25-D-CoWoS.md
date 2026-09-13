@@ -1,12 +1,12 @@
 ---
-title: "Record 2c25dc9c6d · A-32-Gbs-036-pJbit-3-nm-Chiplet-IO-Using-25-D-CoWoS-Package-With-Real-"
+title: "Record 2c25dc9c6d · A-32-Gbs-036-pJbit-3-nm-Chiplet-IO-Using-25-D-CoWoS"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.636032+00:00
+updated_at: 2026-09-13T00:56:37.495434+00:00
 tags: [record, real-data]
 ---
 
-# Record 2c25dc9c6d · A-32-Gbs-036-pJbit-3-nm-Chiplet-IO-Using-25-D-CoWoS-Package-With-Real-
+# Record 2c25dc9c6d · A-32-Gbs-036-pJbit-3-nm-Chiplet-IO-Using-25-D-CoWoS
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1109/jssc.2025.3545483)
 

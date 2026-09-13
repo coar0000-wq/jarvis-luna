@@ -1,12 +1,12 @@
 ---
-title: "Record 5e1d5804cb · GenArchBench-A-genomics-benchmark-suite-for-arm-HPC-processors"
+title: "Record 5e1d5804cb · GenArchBench-A-genomics-benchmark-suite-for-arm-HPC"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.592009+00:00
+updated_at: 2026-09-13T00:56:37.455157+00:00
 tags: [record, real-data]
 ---
 
-# Record 5e1d5804cb · GenArchBench-A-genomics-benchmark-suite-for-arm-HPC-processors
+# Record 5e1d5804cb · GenArchBench-A-genomics-benchmark-suite-for-arm-HPC
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.future.2024.03.050)
 

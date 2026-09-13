@@ -1,12 +1,12 @@
 ---
-title: "Record 97b26c6990 · Revisiting-the-generalized-first-order-reset-element-with-shaping-filt"
+title: "Record 97b26c6990 · Revisiting-the-generalized-first-order-reset-elemen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.031995+00:00
+updated_at: 2026-09-13T00:56:37.856133+00:00
 tags: [record, real-data]
 ---
 
-# Record 97b26c6990 · Revisiting-the-generalized-first-order-reset-element-with-shaping-filt
+# Record 97b26c6990 · Revisiting-the-generalized-first-order-reset-elemen
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7165817381)
 

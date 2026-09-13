@@ -1,12 +1,12 @@
 ---
-title: "Record 5b283062bc · University-students-AI-attitudes-an-experiential-transformation"
+title: "Record 5b283062bc · University-students-AI-attitudes-an-experiential-tr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.678025+00:00
+updated_at: 2026-09-13T00:56:37.530944+00:00
 tags: [record, real-data]
 ---
 
-# Record 5b283062bc · University-students-AI-attitudes-an-experiential-transformation
+# Record 5b283062bc · University-students-AI-attitudes-an-experiential-tr
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.23900/ra.v24i116.1520)
 

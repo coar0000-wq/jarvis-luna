@@ -1,12 +1,12 @@
 ---
-title: "Record 105cbbd741 · Neutrogena-Mineral-Invisible-Daily-Defense-Face-Sunscreen-Broad-Spectr"
+title: "Record 105cbbd741 · Neutrogena-Mineral-Invisible-Daily-Defense-Face-Sun"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.462552+00:00
+updated_at: 2026-09-13T00:56:37.332859+00:00
 tags: [record, real-data]
 ---
 
-# Record 105cbbd741 · Neutrogena-Mineral-Invisible-Daily-Defense-Face-Sunscreen-Broad-Spectr
+# Record 105cbbd741 · Neutrogena-Mineral-Invisible-Daily-Defense-Face-Sun
 
 > 실제 수집 레코드입니다. 원문: [api.fda.gov](https://api.fda.gov/drug/label.json?search=id:3afd4f97-ceb8-c70f-e063-6394a90afeb4)
 

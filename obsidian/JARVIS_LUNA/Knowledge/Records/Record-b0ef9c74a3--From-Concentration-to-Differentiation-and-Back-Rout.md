@@ -1,12 +1,12 @@
 ---
-title: "Record b0ef9c74a3 · From-Concentration-to-Differentiation-and-Back-Routing-Effective-Rank-"
+title: "Record b0ef9c74a3 · From-Concentration-to-Differentiation-and-Back-Rout"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.510093+00:00
+updated_at: 2026-09-13T00:56:37.375697+00:00
 tags: [record, real-data]
 ---
 
-# Record b0ef9c74a3 · From-Concentration-to-Differentiation-and-Back-Routing-Effective-Rank-
+# Record b0ef9c74a3 · From-Concentration-to-Differentiation-and-Back-Rout
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.06403v1)
 

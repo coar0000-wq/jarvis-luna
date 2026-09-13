@@ -1,12 +1,12 @@
 ---
-title: "Record 19134c9939 · High-Contrast-TikToks-New-Beauty-Trend---highxtarcom"
+title: "Record 19134c9939 · High-Contrast-TikToks-New-Beauty-Trend---highxtarco"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.848430+00:00
+updated_at: 2026-09-13T00:56:37.684879+00:00
 tags: [record, real-data]
 ---
 
-# Record 19134c9939 · High-Contrast-TikToks-New-Beauty-Trend---highxtarcom
+# Record 19134c9939 · High-Contrast-TikToks-New-Beauty-Trend---highxtarco
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMicEFVX3lxTE1rZ1lGSjhVU09qWkZXRGZhRDN5Y3JGUFNWeHRqQXducUtmc2kwNnJrZkJZdFNSSTg0dXZFanE1X1JabndtZjdzRG1MdTBXUURzTHRZeUtGZHhFVnR3OW84cU9TRUl3dnF0b003RjNLNi0?oc=5)
 

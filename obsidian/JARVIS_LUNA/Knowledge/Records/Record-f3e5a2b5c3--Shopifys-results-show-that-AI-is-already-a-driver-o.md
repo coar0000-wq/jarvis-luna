@@ -1,12 +1,12 @@
 ---
-title: "Record f3e5a2b5c3 · Shopifys-results-show-that-AI-is-already-a-driver-of-eCommerce-growth-"
+title: "Record f3e5a2b5c3 · Shopifys-results-show-that-AI-is-already-a-driver-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.968644+00:00
+updated_at: 2026-09-13T00:56:37.797911+00:00
 tags: [record, real-data]
 ---
 
-# Record f3e5a2b5c3 · Shopifys-results-show-that-AI-is-already-a-driver-of-eCommerce-growth-
+# Record f3e5a2b5c3 · Shopifys-results-show-that-AI-is-already-a-driver-o
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMirgFBVV95cUxPLWxOVHM5ZXdvNFg0SzI1NlNxSXlieUpFMGpkdkJON1kyQ2h4SzdyXzdaOHJvV2VxcEF6UFFVNTV2SGY1Y1BnY3JYOTd6R2tDMlgxU3I2UlNrUlowTEtmSVdXV1dzT1ctSGFSNEU3cTg1UU1uUmk1aldyb3d4TW13bUIySzdoT0N6N1RMN1MxQWZHVkNHMjlMMUR3T0x5MThYcmFQYnlIQVpUVV9fSlE?oc=5)
 

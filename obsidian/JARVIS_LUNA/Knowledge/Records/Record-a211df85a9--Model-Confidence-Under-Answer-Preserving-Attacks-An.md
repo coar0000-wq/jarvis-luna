@@ -1,12 +1,12 @@
 ---
-title: "Record a211df85a9 · Model-Confidence-Under-Answer-Preserving-Attacks-An-Informativeness-Ma"
+title: "Record a211df85a9 · Model-Confidence-Under-Answer-Preserving-Attacks-An"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.046422+00:00
+updated_at: 2026-09-13T00:56:37.870088+00:00
 tags: [record, real-data]
 ---
 
-# Record a211df85a9 · Model-Confidence-Under-Answer-Preserving-Attacks-An-Informativeness-Ma
+# Record a211df85a9 · Model-Confidence-Under-Answer-Preserving-Attacks-An
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7202230809)
 

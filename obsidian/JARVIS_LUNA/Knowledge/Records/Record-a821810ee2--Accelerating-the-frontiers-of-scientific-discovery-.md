@@ -1,12 +1,12 @@
 ---
-title: "Record a821810ee2 · Accelerating-the-frontiers-of-scientific-discovery-Googles-40M-commitm"
+title: "Record a821810ee2 · Accelerating-the-frontiers-of-scientific-discovery-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.565607+00:00
+updated_at: 2026-09-13T00:56:37.429013+00:00
 tags: [record, real-data]
 ---
 
-# Record a821810ee2 · Accelerating-the-frontiers-of-scientific-discovery-Googles-40M-commitm
+# Record a821810ee2 · Accelerating-the-frontiers-of-scientific-discovery-
 
 > 실제 수집 레코드입니다. 원문: [deepmind.google](https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/)
 

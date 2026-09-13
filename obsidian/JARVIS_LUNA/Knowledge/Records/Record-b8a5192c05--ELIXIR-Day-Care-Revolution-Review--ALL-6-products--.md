@@ -1,12 +1,12 @@
 ---
-title: "Record b8a5192c05 · ELIXIR-Day-Care-Revolution-Review--ALL-6-products---including-new-Tone"
+title: "Record b8a5192c05 · ELIXIR-Day-Care-Revolution-Review--ALL-6-products--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.227641+00:00
+updated_at: 2026-09-13T00:56:38.027359+00:00
 tags: [record, real-data]
 ---
 
-# Record b8a5192c05 · ELIXIR-Day-Care-Revolution-Review--ALL-6-products---including-new-Tone
+# Record b8a5192c05 · ELIXIR-Day-Care-Revolution-Review--ALL-6-products--
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/watch?v=mO2Im_GCQnM)
 

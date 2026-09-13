@@ -1,12 +1,12 @@
 ---
-title: "Record 5ec7668317 · Kylie-Jenner-Goes-Makeup-Free-as-She-Embraces-a-Viral-Beauty-Trend-as-"
+title: "Record 5ec7668317 · Kylie-Jenner-Goes-Makeup-Free-as-She-Embraces-a-Vir"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.928300+00:00
+updated_at: 2026-09-13T00:56:37.760891+00:00
 tags: [record, real-data]
 ---
 
-# Record 5ec7668317 · Kylie-Jenner-Goes-Makeup-Free-as-She-Embraces-a-Viral-Beauty-Trend-as-
+# Record 5ec7668317 · Kylie-Jenner-Goes-Makeup-Free-as-She-Embraces-a-Vir
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMilAFBVV95cUxQTDljSHhoWnNZd05jUTQ0WVloaUpZeDUwR0l4UjNObkZUT3AtQXFrQ2gtS2djUkZSTmQ3MHFmTDdUeVdIQ3dtNDgzZ1JlUWxlNHNpS3lqUFIyZV84SWRZelBBUHFRQnhvN3VvMjVMWFpVZnhTSGhnUnNSUE1TbmZSbDFxeDFiYi1zaWduTlU4RkNtTUlZ?oc=5)
 

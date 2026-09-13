@@ -1,12 +1,12 @@
 ---
-title: "Record de3e906a43 · Amorepacific-expands-K-beauty-portfolio-in-India-with-Mamonde-launch--"
+title: "Record de3e906a43 · Amorepacific-expands-K-beauty-portfolio-in-India-wi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.962261+00:00
+updated_at: 2026-09-13T00:56:37.792095+00:00
 tags: [record, real-data]
 ---
 
-# Record de3e906a43 · Amorepacific-expands-K-beauty-portfolio-in-India-with-Mamonde-launch--
+# Record de3e906a43 · Amorepacific-expands-K-beauty-portfolio-in-India-wi
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiqAFBVV95cUxQb20tUzdlQy1lek5xeERWV2I3cGp1bjJpazh2bnFXcDF1RUdLazEzSVprM3lodTRLTjdIVGtkT2hUczJaaU5vczNfSkxOUHdZZ2dxRElNTjdJMzRMNS1EYndSUlJpQV9acVFlazZCVmMzZkszTlFTUWVTX0JnQUFTREpaeTEyWXdxeW1nVmJHdmZpNnpydGR2OXdpeTNMQnRPNGJfcE1wUGI?oc=5)
 

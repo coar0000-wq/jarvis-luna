@@ -1,12 +1,12 @@
 ---
-title: "Record 0ff23034d7 · Antiviral-and-anti-inflammatory-effects-of-Tabamide-A-derivative-TA25-"
+title: "Record 0ff23034d7 · Antiviral-and-anti-inflammatory-effects-of-Tabamide"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.615740+00:00
+updated_at: 2026-09-13T00:56:37.476629+00:00
 tags: [record, real-data]
 ---
 
-# Record 0ff23034d7 · Antiviral-and-anti-inflammatory-effects-of-Tabamide-A-derivative-TA25-
+# Record 0ff23034d7 · Antiviral-and-anti-inflammatory-effects-of-Tabamide
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1038/s41598-026-48854-z)
 

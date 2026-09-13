@@ -1,12 +1,12 @@
 ---
-title: "Record fe7e220b46 · Ecommerce-Website-Cost-Full-Guide-for-2026---Shopify"
+title: "Record fe7e220b46 · Ecommerce-Website-Cost-Full-Guide-for-2026---Shopif"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.816346+00:00
+updated_at: 2026-09-13T00:56:37.654056+00:00
 tags: [record, real-data]
 ---
 
-# Record fe7e220b46 · Ecommerce-Website-Cost-Full-Guide-for-2026---Shopify
+# Record fe7e220b46 · Ecommerce-Website-Cost-Full-Guide-for-2026---Shopif
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ha1FVVlJnTngta2h1WnN0X19qLUpmcXlwYTFKblZhYkRxTGdLcXlZSENZTEdLV2lFV1pDRW5jRFJfYmhGZmFBSHZ2Nmstd3JPWWJpTWN0MHVkZTFJQ3BIMVhMbHo?oc=5)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 3f7bfa7679 · gMAGNUS-Fast-SpGEMM-on-GPUs-for-Irregular-Matrices-via-Hierarchical-Mu"
+title: "Record 3f7bfa7679 · gMAGNUS-Fast-SpGEMM-on-GPUs-for-Irregular-Matrices-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.041709+00:00
+updated_at: 2026-09-13T00:56:37.865920+00:00
 tags: [record, real-data]
 ---
 
-# Record 3f7bfa7679 · gMAGNUS-Fast-SpGEMM-on-GPUs-for-Irregular-Matrices-via-Hierarchical-Mu
+# Record 3f7bfa7679 · gMAGNUS-Fast-SpGEMM-on-GPUs-for-Irregular-Matrices-
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7171902981)
 

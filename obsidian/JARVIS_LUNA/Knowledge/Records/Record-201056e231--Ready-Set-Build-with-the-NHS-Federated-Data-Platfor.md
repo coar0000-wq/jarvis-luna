@@ -1,12 +1,12 @@
 ---
-title: "Record 201056e231 · Ready-Set-Build-with-the-NHS-Federated-Data-Platform"
+title: "Record 201056e231 · Ready-Set-Build-with-the-NHS-Federated-Data-Platfor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.562773+00:00
+updated_at: 2026-09-13T00:56:37.426054+00:00
 tags: [record, real-data]
 ---
 
-# Record 201056e231 · Ready-Set-Build-with-the-NHS-Federated-Data-Platform
+# Record 201056e231 · Ready-Set-Build-with-the-NHS-Federated-Data-Platfor
 
 > 실제 수집 레코드입니다. 원문: [blog.palantir.com](https://blog.palantir.com/ready-set-build-with-the-nhs-federated-data-platform-41405fa4c226?source=rss----3c87dc14372f---4)
 

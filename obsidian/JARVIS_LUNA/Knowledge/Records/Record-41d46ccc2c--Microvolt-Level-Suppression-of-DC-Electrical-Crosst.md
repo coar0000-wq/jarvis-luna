@@ -1,12 +1,12 @@
 ---
-title: "Record 41d46ccc2c · Microvolt-Level-Suppression-of-DC-Electrical-Crosstalk-Between-InP-Ele"
+title: "Record 41d46ccc2c · Microvolt-Level-Suppression-of-DC-Electrical-Crosst"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.637859+00:00
+updated_at: 2026-09-13T00:56:37.497096+00:00
 tags: [record, real-data]
 ---
 
-# Record 41d46ccc2c · Microvolt-Level-Suppression-of-DC-Electrical-Crosstalk-Between-InP-Ele
+# Record 41d46ccc2c · Microvolt-Level-Suppression-of-DC-Electrical-Crosst
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1109/lpt.2026.3691970)
 

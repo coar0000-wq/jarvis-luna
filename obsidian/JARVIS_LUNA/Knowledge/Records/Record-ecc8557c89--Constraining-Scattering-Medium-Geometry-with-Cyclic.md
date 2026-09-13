@@ -1,12 +1,12 @@
 ---
-title: "Record ecc8557c89 · Constraining-Scattering-Medium-Geometry-with-Cyclic-Spectroscopy"
+title: "Record ecc8557c89 · Constraining-Scattering-Medium-Geometry-with-Cyclic"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.694705+00:00
+updated_at: 2026-09-13T00:56:37.544623+00:00
 tags: [record, real-data]
 ---
 
-# Record ecc8557c89 · Constraining-Scattering-Medium-Geometry-with-Cyclic-Spectroscopy
+# Record ecc8557c89 · Constraining-Scattering-Medium-Geometry-with-Cyclic
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.3847/2041-8213/ae9c3e)
 

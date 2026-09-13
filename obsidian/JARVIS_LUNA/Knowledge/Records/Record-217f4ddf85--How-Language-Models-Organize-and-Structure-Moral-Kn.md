@@ -1,12 +1,12 @@
 ---
-title: "Record 217f4ddf85 · How-Language-Models-Organize-and-Structure-Moral-Knowledge"
+title: "Record 217f4ddf85 · How-Language-Models-Organize-and-Structure-Moral-Kn"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.464719+00:00
+updated_at: 2026-09-13T00:56:37.334905+00:00
 tags: [record, real-data]
 ---
 
-# Record 217f4ddf85 · How-Language-Models-Organize-and-Structure-Moral-Knowledge
+# Record 217f4ddf85 · How-Language-Models-Organize-and-Structure-Moral-Kn
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.27402v1)
 

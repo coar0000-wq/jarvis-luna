@@ -1,12 +1,12 @@
 ---
-title: "Record 5e4f3faae2 · Morphology-Aware-Human-Motion-Retargeting-for-Wheeled-Humanoid-Loco-Ma"
+title: "Record 5e4f3faae2 · Morphology-Aware-Human-Motion-Retargeting-for-Wheel"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.548118+00:00
+updated_at: 2026-09-13T00:56:37.411015+00:00
 tags: [record, real-data]
 ---
 
-# Record 5e4f3faae2 · Morphology-Aware-Human-Motion-Retargeting-for-Wheeled-Humanoid-Loco-Ma
+# Record 5e4f3faae2 · Morphology-Aware-Human-Motion-Retargeting-for-Wheel
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.11357v1)
 

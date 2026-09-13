@@ -1,12 +1,12 @@
 ---
-title: "Record 7251f64e32 · Porting-hypre-to-heterogeneous-computer-architectures-Strategies-and-e"
+title: "Record 7251f64e32 · Porting-hypre-to-heterogeneous-computer-architectur"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.598699+00:00
+updated_at: 2026-09-13T00:56:37.461143+00:00
 tags: [record, real-data]
 ---
 
-# Record 7251f64e32 · Porting-hypre-to-heterogeneous-computer-architectures-Strategies-and-e
+# Record 7251f64e32 · Porting-hypre-to-heterogeneous-computer-architectur
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.parco.2021.102840)
 

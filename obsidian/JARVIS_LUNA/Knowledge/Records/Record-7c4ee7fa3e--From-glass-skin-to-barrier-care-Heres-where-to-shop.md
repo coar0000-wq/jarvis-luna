@@ -1,12 +1,12 @@
 ---
-title: "Record 7c4ee7fa3e · From-glass-skin-to-barrier-care-Heres-where-to-shop-K-beauty-products-"
+title: "Record 7c4ee7fa3e · From-glass-skin-to-barrier-care-Heres-where-to-shop"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.891178+00:00
+updated_at: 2026-09-13T00:56:37.726650+00:00
 tags: [record, real-data]
 ---
 
-# Record 7c4ee7fa3e · From-glass-skin-to-barrier-care-Heres-where-to-shop-K-beauty-products-
+# Record 7c4ee7fa3e · From-glass-skin-to-barrier-care-Heres-where-to-shop
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiggFBVV95cUxQd3hPbmhLakhWblU4LTZZc1RtckdBUUxyM0FkSTMxcUdsLUpuTXR2N2pqZ2lnMEdUbnRWNUp6UlJuaWNkMVJlOU93ZURXTlR4LWlTb2Z5Ukd4OWR0Nk8xdTg1WEM3aGNndzhxeEM2b1ROWnpBckxhUnMxV0xfR0RBbFBn?oc=5)
 

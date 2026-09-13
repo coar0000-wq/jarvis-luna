@@ -1,12 +1,12 @@
 ---
-title: "Record d0085c2c59 · FIRE3D-Feed-forward-Interactive-3D-Scene-Reconstruction-Within-A-Minut"
+title: "Record d0085c2c59 · FIRE3D-Feed-forward-Interactive-3D-Scene-Reconstruc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.520662+00:00
+updated_at: 2026-09-13T00:56:37.385576+00:00
 tags: [record, real-data]
 ---
 
-# Record d0085c2c59 · FIRE3D-Feed-forward-Interactive-3D-Scene-Reconstruction-Within-A-Minut
+# Record d0085c2c59 · FIRE3D-Feed-forward-Interactive-3D-Scene-Reconstruc
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.08848v1)
 

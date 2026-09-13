@@ -1,12 +1,12 @@
 ---
-title: "Record ab9aed2e62 · SwarmWorld-Stigmergic-technological-evolution-in-societies-of-language"
+title: "Record ab9aed2e62 · SwarmWorld-Stigmergic-technological-evolution-in-so"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.266981+00:00
+updated_at: 2026-09-13T00:56:38.061831+00:00
 tags: [record, real-data]
 ---
 
-# Record ab9aed2e62 · SwarmWorld-Stigmergic-technological-evolution-in-societies-of-language
+# Record ab9aed2e62 · SwarmWorld-Stigmergic-technological-evolution-in-so
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.26081v1)
 

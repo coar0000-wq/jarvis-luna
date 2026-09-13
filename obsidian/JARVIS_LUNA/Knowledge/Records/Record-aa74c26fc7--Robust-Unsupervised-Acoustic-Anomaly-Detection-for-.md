@@ -1,12 +1,12 @@
 ---
-title: "Record aa74c26fc7 · Robust-Unsupervised-Acoustic-Anomaly-Detection-for-Turbo-Molecular-Pum"
+title: "Record aa74c26fc7 · Robust-Unsupervised-Acoustic-Anomaly-Detection-for-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.688664+00:00
+updated_at: 2026-09-13T00:56:37.539694+00:00
 tags: [record, real-data]
 ---
 
-# Record aa74c26fc7 · Robust-Unsupervised-Acoustic-Anomaly-Detection-for-Turbo-Molecular-Pum
+# Record aa74c26fc7 · Robust-Unsupervised-Acoustic-Anomaly-Detection-for-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.3390/electronics15153363)
 

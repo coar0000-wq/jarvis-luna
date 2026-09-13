@@ -1,12 +1,12 @@
 ---
-title: "Record 330fba6455 · How-law-firm-Gilbert--Tobin-governs-and-scales-AI-with-OpenAI"
+title: "Record 330fba6455 · How-law-firm-Gilbert--Tobin-governs-and-scales-AI-w"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.010693+00:00
+updated_at: 2026-09-13T00:56:37.836308+00:00
 tags: [record, real-data]
 ---
 
-# Record 330fba6455 · How-law-firm-Gilbert--Tobin-governs-and-scales-AI-with-OpenAI
+# Record 330fba6455 · How-law-firm-Gilbert--Tobin-governs-and-scales-AI-w
 
 > 실제 수집 레코드입니다. 원문: [openai.com](https://openai.com/index/gilbert-tobin)
 

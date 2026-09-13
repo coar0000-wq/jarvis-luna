@@ -1,12 +1,12 @@
 ---
-title: "Record 22f76c56c8 · What-is-MCP-in-a-Regulated-Workflow-Four-Governance-Breakpoints"
+title: "Record 22f76c56c8 · What-is-MCP-in-a-Regulated-Workflow-Four-Governance"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.564866+00:00
+updated_at: 2026-09-13T00:56:37.428246+00:00
 tags: [record, real-data]
 ---
 
-# Record 22f76c56c8 · What-is-MCP-in-a-Regulated-Workflow-Four-Governance-Breakpoints
+# Record 22f76c56c8 · What-is-MCP-in-a-Regulated-Workflow-Four-Governance
 
 > 실제 수집 레코드입니다. 원문: [datawalk.com](https://datawalk.com/what-is-mcp-in-a-regulated-workflow/)
 

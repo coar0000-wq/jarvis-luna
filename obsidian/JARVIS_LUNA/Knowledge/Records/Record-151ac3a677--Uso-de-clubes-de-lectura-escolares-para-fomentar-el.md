@@ -1,12 +1,12 @@
 ---
-title: "Record 151ac3a677 · Uso-de-clubes-de-lectura-escolares-para-fomentar-el-hábito-lector-en-a"
+title: "Record 151ac3a677 · Uso-de-clubes-de-lectura-escolares-para-fomentar-el"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.726480+00:00
+updated_at: 2026-09-13T00:56:37.570868+00:00
 tags: [record, real-data]
 ---
 
-# Record 151ac3a677 · Uso-de-clubes-de-lectura-escolares-para-fomentar-el-hábito-lector-en-a
+# Record 151ac3a677 · Uso-de-clubes-de-lectura-escolares-para-fomentar-el
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.59155/is.v9i1.358)
 

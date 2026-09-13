@@ -1,12 +1,12 @@
 ---
-title: "Record dce76fabcd · One-Diffusion-Model-Two-Roles-Guided-Trajectory-Planning-and-Safety-Cr"
+title: "Record dce76fabcd · One-Diffusion-Model-Two-Roles-Guided-Trajectory-Pla"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.497188+00:00
+updated_at: 2026-09-13T00:56:37.363998+00:00
 tags: [record, real-data]
 ---
 
-# Record dce76fabcd · One-Diffusion-Model-Two-Roles-Guided-Trajectory-Planning-and-Safety-Cr
+# Record dce76fabcd · One-Diffusion-Model-Two-Roles-Guided-Trajectory-Pla
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.04921v1)
 

@@ -1,18 +1,18 @@
 ---
-title: "Record 3a587d97cf · Skin-care-in-a-can-The-fishy-beauty-hack-once-again-taking-over-TikTok"
+title: "Record 3a587d97cf · Skin-care-in-a-can-The-fishy-beauty-hack-once-again"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.926618+00:00
+updated_at: 2026-09-13T00:56:37.759349+00:00
 tags: [record, real-data]
 ---
 
-# Record 3a587d97cf · Skin-care-in-a-can-The-fishy-beauty-hack-once-again-taking-over-TikTok
+# Record 3a587d97cf · Skin-care-in-a-can-The-fishy-beauty-hack-once-again
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMilAFBVV95cUxPMDc4djZpV1ZjSDdLcXFaVUd2OEZ5N3NFU09DVWFJRUU1N2g2MFcxdjEyY1BFaTFFQXV4bkRjNko4ZlZHZnZEc0dhb0M1YWJtc3NiM1VPUWxMbGpvMXRVZDA4TzRTYVRyUWp3NHVkVndEbU5BN2JmbnE1b1FuZmx2cmg2ekVZb2otR0l1VEJMY3hVZ2xs?oc=5)
 
-**제목:** 'Skin care in a can': The fishy beauty hack once again taking over TikTok - NBC News
+**제목:** 'Skin care in a can': The fishy beauty hack once again taking over TikTok - nbcnews.com
 
-'Skin care in a can': The fishy beauty hack once again taking over TikTok - NBC News
+'Skin care in a can': The fishy beauty hack once again taking over TikTok - nbcnews.com
 
 **출처:** Source · Google Search
 

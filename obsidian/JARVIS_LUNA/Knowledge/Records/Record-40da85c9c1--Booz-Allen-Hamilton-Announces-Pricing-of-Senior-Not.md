@@ -1,12 +1,12 @@
 ---
-title: "Record 40da85c9c1 · Booz-Allen-Hamilton-Announces-Pricing-of-Senior-Notes-Offering"
+title: "Record 40da85c9c1 · Booz-Allen-Hamilton-Announces-Pricing-of-Senior-Not"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.749013+00:00
+updated_at: 2026-09-13T00:56:37.591873+00:00
 tags: [record, real-data]
 ---
 
-# Record 40da85c9c1 · Booz-Allen-Hamilton-Announces-Pricing-of-Senior-Notes-Offering
+# Record 40da85c9c1 · Booz-Allen-Hamilton-Announces-Pricing-of-Senior-Not
 
 > 실제 수집 레코드입니다. 원문: [investors.boozallen.com](https://investors.boozallen.com/news-releases/news-release-details/booz-allen-hamilton-announces-pricing-senior-notes-offering-2)
 

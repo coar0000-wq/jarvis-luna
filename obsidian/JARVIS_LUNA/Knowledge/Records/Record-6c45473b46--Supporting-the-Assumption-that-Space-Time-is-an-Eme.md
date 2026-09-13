@@ -1,12 +1,12 @@
 ---
-title: "Record 6c45473b46 · Supporting-the-Assumption-that-Space-Time-is-an-Emergent-Entity-via-a-"
+title: "Record 6c45473b46 · Supporting-the-Assumption-that-Space-Time-is-an-Eme"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.718266+00:00
+updated_at: 2026-09-13T00:56:37.563465+00:00
 tags: [record, real-data]
 ---
 
-# Record 6c45473b46 · Supporting-the-Assumption-that-Space-Time-is-an-Emergent-Entity-via-a-
+# Record 6c45473b46 · Supporting-the-Assumption-that-Space-Time-is-an-Eme
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.22068082)
 

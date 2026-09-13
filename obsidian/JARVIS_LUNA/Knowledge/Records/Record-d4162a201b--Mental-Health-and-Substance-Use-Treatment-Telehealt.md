@@ -1,12 +1,12 @@
 ---
-title: "Record d4162a201b · Mental-Health-and-Substance-Use-Treatment-Telehealth-Shifts-During-COV"
+title: "Record d4162a201b · Mental-Health-and-Substance-Use-Treatment-Telehealt"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.657215+00:00
+updated_at: 2026-09-13T00:56:37.513888+00:00
 tags: [record, real-data]
 ---
 
-# Record d4162a201b · Mental-Health-and-Substance-Use-Treatment-Telehealth-Shifts-During-COV
+# Record d4162a201b · Mental-Health-and-Substance-Use-Treatment-Telehealt
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1177/15305627261428644)
 

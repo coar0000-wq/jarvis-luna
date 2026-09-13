@@ -1,12 +1,12 @@
 ---
-title: "Record 829d4f3cce · Why-K-Beauty-is-taking-over-the-skincare-world---Yahoo"
+title: "Record 829d4f3cce · Why-K-Beauty-is-taking-over-the-skincare-world---Ya"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.882822+00:00
+updated_at: 2026-09-13T00:56:37.719053+00:00
 tags: [record, real-data]
 ---
 
-# Record 829d4f3cce · Why-K-Beauty-is-taking-over-the-skincare-world---Yahoo
+# Record 829d4f3cce · Why-K-Beauty-is-taking-over-the-skincare-world---Ya
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMifkFVX3lxTE5FSi1uVDZIUUw2Z21IbVEtRW5WanVWdFhNZ0F4NmNhTlJuYWQwcjlraEJpN0FhaEY0b2x3dVlWZjlfMXZzNG16VjYwUmtKLVBXNTc0aHNrbzZJdHlNeG9XaWdLQm9CNkYwbF9KR0FUUjVySC1lanZRTlh0NnVtQQ?oc=5)
 

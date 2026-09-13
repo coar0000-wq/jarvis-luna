@@ -1,12 +1,12 @@
 ---
-title: "Record eb397e6585 · Im-41-but-I-Look-a-Decade-Younger-Thanks-to-5-Firming-and-Plumping-K-B"
+title: "Record eb397e6585 · Im-41-but-I-Look-a-Decade-Younger-Thanks-to-5-Firmi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.876686+00:00
+updated_at: 2026-09-13T00:56:37.713518+00:00
 tags: [record, real-data]
 ---
 
-# Record eb397e6585 · Im-41-but-I-Look-a-Decade-Younger-Thanks-to-5-Firming-and-Plumping-K-B
+# Record eb397e6585 · Im-41-but-I-Look-a-Decade-Younger-Thanks-to-5-Firmi
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMif0FVX3lxTE9WX18zUjYxQkhxbGY2WmdWSXAxSEh2R3lPOWtqQjU0a1QtaVlpWndSamZMZHlBNzhhWlVfZ09uR3lxSmpzVGx2YWR0WFFaQS1GMVVibnRSaE1JV0lGMUY4OFFOZDhQSkdpYjQ5S2dMZVVaVkRZb1NEVG5mczRXRlk?oc=5)
 

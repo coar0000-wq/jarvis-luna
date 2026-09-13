@@ -1,12 +1,12 @@
 ---
-title: "Record 0f9b9318c1 · Everyone-With-Glass-Skin-Swears-by-This-Under-the-Radar-K-Beauty-Brand"
+title: "Record 0f9b9318c1 · Everyone-With-Glass-Skin-Swears-by-This-Under-the-R"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.849108+00:00
+updated_at: 2026-09-13T00:56:37.685589+00:00
 tags: [record, real-data]
 ---
 
-# Record 0f9b9318c1 · Everyone-With-Glass-Skin-Swears-by-This-Under-the-Radar-K-Beauty-Brand
+# Record 0f9b9318c1 · Everyone-With-Glass-Skin-Swears-by-This-Under-the-R
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMicEFVX3lxTE5IdU02YkgwdDdmUWd3a29HVG9ZZUJDY0NBaV9lSnFmXzdwZE1PdXQ5X1lWa1ZyS0F3MXZKQUJKc3ZhM25VLUFoMEctSzB3WGtQa3JYdEJRbWVldG5uVHczcHhrYzVXSmctTm5NTFBqQTg?oc=5)
 

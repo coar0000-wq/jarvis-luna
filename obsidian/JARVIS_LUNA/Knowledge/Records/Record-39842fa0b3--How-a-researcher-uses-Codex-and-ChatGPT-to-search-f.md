@@ -1,12 +1,12 @@
 ---
-title: "Record 39842fa0b3 · How-a-researcher-uses-Codex-and-ChatGPT-to-search-for-new-antimicrobia"
+title: "Record 39842fa0b3 · How-a-researcher-uses-Codex-and-ChatGPT-to-search-f"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.018763+00:00
+updated_at: 2026-09-13T00:56:37.843831+00:00
 tags: [record, real-data]
 ---
 
-# Record 39842fa0b3 · How-a-researcher-uses-Codex-and-ChatGPT-to-search-for-new-antimicrobia
+# Record 39842fa0b3 · How-a-researcher-uses-Codex-and-ChatGPT-to-search-f
 
 > 실제 수집 레코드입니다. 원문: [openai.com](https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials)
 

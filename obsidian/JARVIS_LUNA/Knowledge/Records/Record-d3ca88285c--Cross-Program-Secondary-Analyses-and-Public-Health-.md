@@ -1,12 +1,12 @@
 ---
-title: "Record d3ca88285c · Cross-Program-Secondary-Analyses-and-Public-Health-Innovation-The-RADx"
+title: "Record d3ca88285c · Cross-Program-Secondary-Analyses-and-Public-Health-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.631839+00:00
+updated_at: 2026-09-13T00:56:37.491600+00:00
 tags: [record, real-data]
 ---
 
-# Record d3ca88285c · Cross-Program-Secondary-Analyses-and-Public-Health-Innovation-The-RADx
+# Record d3ca88285c · Cross-Program-Secondary-Analyses-and-Public-Health-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1101/2025.11.26.25341110)
 

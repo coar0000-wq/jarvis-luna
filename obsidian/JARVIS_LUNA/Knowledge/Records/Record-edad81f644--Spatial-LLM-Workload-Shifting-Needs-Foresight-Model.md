@@ -1,12 +1,12 @@
 ---
-title: "Record edad81f644 · Spatial-LLM-Workload-Shifting-Needs-Foresight-Model-Commitment-for-AI-"
+title: "Record edad81f644 · Spatial-LLM-Workload-Shifting-Needs-Foresight-Model"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.528652+00:00
+updated_at: 2026-09-13T00:56:37.392799+00:00
 tags: [record, real-data]
 ---
 
-# Record edad81f644 · Spatial-LLM-Workload-Shifting-Needs-Foresight-Model-Commitment-for-AI-
+# Record edad81f644 · Spatial-LLM-Workload-Shifting-Needs-Foresight-Model
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.09787v1)
 

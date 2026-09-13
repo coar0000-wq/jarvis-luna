@@ -1,12 +1,12 @@
 ---
-title: "Record 6695066001 · Legacy-at-Risk-Weighing-and-Responding-to-Concentrated-Equitys-Vulnera"
+title: "Record 6695066001 · Legacy-at-Risk-Weighing-and-Responding-to-Concentra"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.696246+00:00
+updated_at: 2026-09-13T00:56:37.545829+00:00
 tags: [record, real-data]
 ---
 
-# Record 6695066001 · Legacy-at-Risk-Weighing-and-Responding-to-Concentrated-Equitys-Vulnera
+# Record 6695066001 · Legacy-at-Risk-Weighing-and-Responding-to-Concentra
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.3905/jwm.2026.014)
 

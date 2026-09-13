@@ -1,12 +1,12 @@
 ---
-title: "Record be521f206c · Recursive-Experiential-Working-Memory-Evolution-for-Long-Horizon-Agent"
+title: "Record be521f206c · Recursive-Experiential-Working-Memory-Evolution-for"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.265318+00:00
+updated_at: 2026-09-13T00:56:38.060224+00:00
 tags: [record, real-data]
 ---
 
-# Record be521f206c · Recursive-Experiential-Working-Memory-Evolution-for-Long-Horizon-Agent
+# Record be521f206c · Recursive-Experiential-Working-Memory-Evolution-for
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.24876v1)
 

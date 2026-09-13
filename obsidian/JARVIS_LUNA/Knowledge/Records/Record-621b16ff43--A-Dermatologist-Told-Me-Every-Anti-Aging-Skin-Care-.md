@@ -1,12 +1,12 @@
 ---
-title: "Record 621b16ff43 · A-Dermatologist-Told-Me-Every-Anti-Aging-Skin-Care-Routine-Needs-This-"
+title: "Record 621b16ff43 · A-Dermatologist-Told-Me-Every-Anti-Aging-Skin-Care-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.893310+00:00
+updated_at: 2026-09-13T00:56:37.728631+00:00
 tags: [record, real-data]
 ---
 
-# Record 621b16ff43 · A-Dermatologist-Told-Me-Every-Anti-Aging-Skin-Care-Routine-Needs-This-
+# Record 621b16ff43 · A-Dermatologist-Told-Me-Every-Anti-Aging-Skin-Care-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMigwFBVV95cUxPTl9hVjVBRjQ0Nm81S2w4eWppS1ZybFp3M3lUeWJfUFFaYnpOQmhpVzRQQ3BPNTNjZFo3UXBSVFE2X0tqNjN2LVowTUlmU1R3MjRRQnBTWEU2eVhIdUJZMlM1ODFxS1VYY3BWdko3TlB4LUxFTHp6aTJGLUlOOW90SXNxZw?oc=5)
 

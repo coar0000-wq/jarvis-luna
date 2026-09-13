@@ -1,12 +1,12 @@
 ---
-title: "Record 31736a88c6 · Nonmonotonic-Li-Content-Evolution-and-Size-Dependent-Lithium-Accessibi"
+title: "Record 31736a88c6 · Nonmonotonic-Li-Content-Evolution-and-Size-Dependen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.607185+00:00
+updated_at: 2026-09-13T00:56:37.468836+00:00
 tags: [record, real-data]
 ---
 
-# Record 31736a88c6 · Nonmonotonic-Li-Content-Evolution-and-Size-Dependent-Lithium-Accessibi
+# Record 31736a88c6 · Nonmonotonic-Li-Content-Evolution-and-Size-Dependen
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1021/acsenergylett.6c01660)
 

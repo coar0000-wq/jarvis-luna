@@ -1,12 +1,12 @@
 ---
-title: "Record 1ef15ea06c · These-are-my-favourite-K-beauty-products---The-Times"
+title: "Record 1ef15ea06c · These-are-my-favourite-K-beauty-products---The-Time"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.909709+00:00
+updated_at: 2026-09-13T00:56:37.743924+00:00
 tags: [record, real-data]
 ---
 
-# Record 1ef15ea06c · These-are-my-favourite-K-beauty-products---The-Times
+# Record 1ef15ea06c · These-are-my-favourite-K-beauty-products---The-Time
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiiwFBVV95cUxOT3V2UHNDa0xHSE5HZFE5ay1DRkFyeDg4bVFaN2MzMFkzcTRvRDVUOUJlajFESGlKUUpTdzAtaTM4ZFNiRjRXeVNhWnkwczFaUF93d1ZucnZ5UVNwc1IxQk5tRy1NeXRCUWc3cDlzbVJib0dTTjFxaUVLVUpHa0diWHVNRl9Lb29WbU5R?oc=5)
 

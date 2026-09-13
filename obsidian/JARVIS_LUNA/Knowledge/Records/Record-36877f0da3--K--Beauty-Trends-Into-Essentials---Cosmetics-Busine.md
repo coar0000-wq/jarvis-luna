@@ -1,12 +1,12 @@
 ---
-title: "Record 36877f0da3 · K--Beauty-Trends-Into-Essentials---Cosmetics-Business"
+title: "Record 36877f0da3 · K--Beauty-Trends-Into-Essentials---Cosmetics-Busine"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.840941+00:00
+updated_at: 2026-09-13T00:56:37.677223+00:00
 tags: [record, real-data]
 ---
 
-# Record 36877f0da3 · K--Beauty-Trends-Into-Essentials---Cosmetics-Business
+# Record 36877f0da3 · K--Beauty-Trends-Into-Essentials---Cosmetics-Busine
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMibkFVX3lxTE1oTjlHSVU4ZDNwM3ZENjdIbmNBaFpfeUZJRkQ3NHpFdnUtT2JIdDBFLXA0Z1VmNENtcEd3VjZoVVo3V1NWUkxiLWdTT2pHemhoY3JiTEZvU0V1SVZabmFPcGV2RXltQ0U1c2hJSmVR?oc=5)
 

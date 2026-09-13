@@ -1,12 +1,12 @@
 ---
-title: "Record 049fcaeb9e · Duty-Free-Global-Beauty-builds-K-beauty-portfolio-for-global-travel-re"
+title: "Record 049fcaeb9e · Duty-Free-Global-Beauty-builds-K-beauty-portfolio-f"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.979623+00:00
+updated_at: 2026-09-13T00:56:37.807942+00:00
 tags: [record, real-data]
 ---
 
-# Record 049fcaeb9e · Duty-Free-Global-Beauty-builds-K-beauty-portfolio-for-global-travel-re
+# Record 049fcaeb9e · Duty-Free-Global-Beauty-builds-K-beauty-portfolio-f
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMitwFBVV95cUxQTmxBZXQxZXNEcDA1LVYxN3l1c2lpSXdlcDhja1hhUnRJSExBbFRBd1l0dW5RVldOcmFSQnhWMHdoZnZSazhwWnVGTVg3Rm8wSG1XdzNnZEFNM1cwZHE1SHUtc1NEaDctSDljSFBuTG5LMnJjNlM0VmphVlJmdF9SYjVvTU8yNW9nMlJxdDNsUU5qT0llTUpSZmtkLWxvZTFyTmcxUi1QM2VFYnFUWUYyWXFuVzlfXzA?oc=5)
 

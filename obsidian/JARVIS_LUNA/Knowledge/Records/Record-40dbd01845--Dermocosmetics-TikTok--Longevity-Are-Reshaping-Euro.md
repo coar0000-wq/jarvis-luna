@@ -1,12 +1,12 @@
 ---
-title: "Record 40dbd01845 · Dermocosmetics-TikTok--Longevity-Are-Reshaping-Europes-Beauty-Market--"
+title: "Record 40dbd01845 · Dermocosmetics-TikTok--Longevity-Are-Reshaping-Euro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.927090+00:00
+updated_at: 2026-09-13T00:56:37.759797+00:00
 tags: [record, real-data]
 ---
 
-# Record 40dbd01845 · Dermocosmetics-TikTok--Longevity-Are-Reshaping-Europes-Beauty-Market--
+# Record 40dbd01845 · Dermocosmetics-TikTok--Longevity-Are-Reshaping-Euro
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMilAFBVV95cUxPZXgxRkZadjJsT3lMWFhEZ0ZOb1VlNC12UFVlRnJwNUFHMVpGYnRvUzlkSmxQenpWT2JEYjJFdlliWUhDYnVYQXNQVTdzN21HSHQtOVNkRnhDaW9DYldiaGlwOXYtMldPeU9QU0xWT0VKMUxKb2VRUmsxZWZKSXY5QkFKTjFac2hsdGVRcGM4ZFlsWWot?oc=5)
 

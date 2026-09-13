@@ -1,12 +1,12 @@
 ---
-title: "Record 1afe2a34e5 · Structural-Compatibility-and-Uniform-Stability-of-Temporally-Degenerat"
+title: "Record 1afe2a34e5 · Structural-Compatibility-and-Uniform-Stability-of-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.478127+00:00
+updated_at: 2026-09-13T00:56:37.346765+00:00
 tags: [record, real-data]
 ---
 
-# Record 1afe2a34e5 · Structural-Compatibility-and-Uniform-Stability-of-Temporally-Degenerat
+# Record 1afe2a34e5 · Structural-Compatibility-and-Uniform-Stability-of-T
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.03136v1)
 

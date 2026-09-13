@@ -1,12 +1,12 @@
 ---
-title: "Record 72f92115c8 · Barclays-Strengthens-Japan-Cash-Equities-Franchise-With-Senior-S"
+title: "Record 72f92115c8 · Barclays-Strengthens-Japan-Cash-Equities-Franchise-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.122116+00:00
+updated_at: 2026-09-13T00:56:37.938407+00:00
 tags: [record, real-data]
 ---
 
-# Record 72f92115c8 · Barclays-Strengthens-Japan-Cash-Equities-Franchise-With-Senior-S
+# Record 72f92115c8 · Barclays-Strengthens-Japan-Cash-Equities-Franchise-
 
 > 실제 수집 레코드입니다. 원문: [www.barclayscorporate.com](https://www.barclayscorporate.com/news/press-releases/20260/090/barclays-strengthens-japan-cash-equities-franchise-with-senior-s/)
 

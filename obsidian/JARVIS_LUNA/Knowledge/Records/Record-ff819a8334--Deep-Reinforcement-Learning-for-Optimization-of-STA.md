@@ -1,12 +1,12 @@
 ---
-title: "Record ff819a8334 · Deep-Reinforcement-Learning-for-Optimization-of-STAR-RIS-Phase-and-Ene"
+title: "Record ff819a8334 · Deep-Reinforcement-Learning-for-Optimization-of-STA"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.493914+00:00
+updated_at: 2026-09-13T00:56:37.361071+00:00
 tags: [record, real-data]
 ---
 
-# Record ff819a8334 · Deep-Reinforcement-Learning-for-Optimization-of-STAR-RIS-Phase-and-Ene
+# Record ff819a8334 · Deep-Reinforcement-Learning-for-Optimization-of-STA
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.04536v1)
 

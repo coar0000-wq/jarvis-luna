@@ -1,12 +1,12 @@
 ---
-title: "Record 2005cbd964 · Video-Friday-Drones-Go-Heavy-in-DARPA-Lift-Challenge"
+title: "Record 2005cbd964 · Video-Friday-Drones-Go-Heavy-in-DARPA-Lift-Challeng"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.053469+00:00
+updated_at: 2026-09-13T00:56:37.876494+00:00
 tags: [record, real-data]
 ---
 
-# Record 2005cbd964 · Video-Friday-Drones-Go-Heavy-in-DARPA-Lift-Challenge
+# Record 2005cbd964 · Video-Friday-Drones-Go-Heavy-in-DARPA-Lift-Challeng
 
 > 실제 수집 레코드입니다. 원문: [spectrum.ieee.org](https://spectrum.ieee.org/video-friday-heavy-lift-drone)
 

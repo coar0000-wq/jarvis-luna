@@ -1,12 +1,12 @@
 ---
-title: "Record 5125e7064c · Sustainable-Funds-Outperform-Traditional-First-Half-2026"
+title: "Record 5125e7064c · Sustainable-Funds-Outperform-Traditional-First-Half"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.163530+00:00
+updated_at: 2026-09-13T00:56:37.972772+00:00
 tags: [record, real-data]
 ---
 
-# Record 5125e7064c · Sustainable-Funds-Outperform-Traditional-First-Half-2026
+# Record 5125e7064c · Sustainable-Funds-Outperform-Traditional-First-Half
 
 > 실제 수집 레코드입니다. 원문: [www.morganstanley.com](https://www.morganstanley.com/insights/articles/sustainable-funds-outperform-traditional-first-half-2026)
 

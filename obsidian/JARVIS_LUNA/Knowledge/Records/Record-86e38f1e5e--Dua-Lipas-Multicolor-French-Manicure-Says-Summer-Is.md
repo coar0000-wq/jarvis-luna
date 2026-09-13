@@ -1,12 +1,12 @@
 ---
-title: "Record 86e38f1e5e · Dua-Lipas-Multicolor-French-Manicure-Says-Summer-Isnt-Over-YetSee-the-"
+title: "Record 86e38f1e5e · Dua-Lipas-Multicolor-French-Manicure-Says-Summer-Is"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.083896+00:00
+updated_at: 2026-09-13T00:56:37.902204+00:00
 tags: [record, real-data]
 ---
 
-# Record 86e38f1e5e · Dua-Lipas-Multicolor-French-Manicure-Says-Summer-Isnt-Over-YetSee-the-
+# Record 86e38f1e5e · Dua-Lipas-Multicolor-French-Manicure-Says-Summer-Is
 
 > 실제 수집 레코드입니다. 원문: [www.allure.com](https://www.allure.com/story/dua-lipa-colorful-french-manicure)
 

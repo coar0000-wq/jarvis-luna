@@ -2,7 +2,7 @@
 title: "Record 41dc5b8e37 · Verifiable-Random-Sampling"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.042681+00:00
+updated_at: 2026-09-13T00:56:37.866735+00:00
 tags: [record, real-data]
 ---
 

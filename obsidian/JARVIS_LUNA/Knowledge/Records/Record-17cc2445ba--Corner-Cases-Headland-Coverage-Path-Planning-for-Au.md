@@ -1,12 +1,12 @@
 ---
-title: "Record 17cc2445ba · Corner-Cases-Headland-Coverage-Path-Planning-for-Autonomous-Driving-in"
+title: "Record 17cc2445ba · Corner-Cases-Headland-Coverage-Path-Planning-for-Au"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.489824+00:00
+updated_at: 2026-09-13T00:56:37.357383+00:00
 tags: [record, real-data]
 ---
 
-# Record 17cc2445ba · Corner-Cases-Headland-Coverage-Path-Planning-for-Autonomous-Driving-in
+# Record 17cc2445ba · Corner-Cases-Headland-Coverage-Path-Planning-for-Au
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.04103v1)
 

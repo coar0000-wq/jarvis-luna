@@ -1,12 +1,12 @@
 ---
-title: "Record 820b92b44f · Measuring-the-effects-of-urban-heat-island-mitigation-techniques-in-th"
+title: "Record 820b92b44f · Measuring-the-effects-of-urban-heat-island-mitigati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.602994+00:00
+updated_at: 2026-09-13T00:56:37.465028+00:00
 tags: [record, real-data]
 ---
 
-# Record 820b92b44f · Measuring-the-effects-of-urban-heat-island-mitigation-techniques-in-th
+# Record 820b92b44f · Measuring-the-effects-of-urban-heat-island-mitigati
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.uclim.2016.02.003)
 

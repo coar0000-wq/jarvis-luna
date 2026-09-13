@@ -1,12 +1,12 @@
 ---
-title: "Record 5b4fa30810 · Retrofitting-Linear-Attention-into-Diffusion-Language-Models"
+title: "Record 5b4fa30810 · Retrofitting-Linear-Attention-into-Diffusion-Langua"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.045907+00:00
+updated_at: 2026-09-13T00:56:37.869669+00:00
 tags: [record, real-data]
 ---
 
-# Record 5b4fa30810 · Retrofitting-Linear-Attention-into-Diffusion-Language-Models
+# Record 5b4fa30810 · Retrofitting-Linear-Attention-into-Diffusion-Langua
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7202230636)
 

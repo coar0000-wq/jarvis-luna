@@ -1,12 +1,12 @@
 ---
-title: "Record 0933c2ba2e · CMOS-compatible-ferroelectric-tunnel-junctions-integrate-stochastic-sa"
+title: "Record 0933c2ba2e · CMOS-compatible-ferroelectric-tunnel-junctions-inte"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.611566+00:00
+updated_at: 2026-09-13T00:56:37.472838+00:00
 tags: [record, real-data]
 ---
 
-# Record 0933c2ba2e · CMOS-compatible-ferroelectric-tunnel-junctions-integrate-stochastic-sa
+# Record 0933c2ba2e · CMOS-compatible-ferroelectric-tunnel-junctions-inte
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1038/s41467-026-72969-6)
 

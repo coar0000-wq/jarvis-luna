@@ -1,12 +1,12 @@
 ---
-title: "Record 0ec9fef83a · The-latest-fleeting-TikTok-beauty-trend-Looking-tired---Ninecomau"
+title: "Record 0ec9fef83a · The-latest-fleeting-TikTok-beauty-trend-Looking-tir"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.986330+00:00
+updated_at: 2026-09-13T00:56:37.814133+00:00
 tags: [record, real-data]
 ---
 
-# Record 0ec9fef83a · The-latest-fleeting-TikTok-beauty-trend-Looking-tired---Ninecomau
+# Record 0ec9fef83a · The-latest-fleeting-TikTok-beauty-trend-Looking-tir
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiwwFBVV95cUxPejNpRDEzdDMwS0hLc19HSlItOW44dm5uZW5WMmdyT0xBR21wMTJKdGhmMGdmd3psSE1XLTJ2N2lLRTNmMFVOdDlBNlJ0RUdvSzdIZEVIOUgwYUFmRk9PblV6Q3VrVHhZMTdxX3JrazRHajEycEwwemxPMnNjMUFfaXRpeFJOUGZfLUt4WXBFSnBzbV9UaGZEWGw0SXpDOTJzRzY3ODljaEtaTHhvaVA0ZjFEUThCTnB3X2JtSUduNUJGYVU?oc=5)
 

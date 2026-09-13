@@ -1,12 +1,12 @@
 ---
-title: "Record 509310e963 · Im-A-K-Beauty-Expert-Living-In-Seoul--These-9-Products-Are-About-To-Be"
+title: "Record 509310e963 · Im-A-K-Beauty-Expert-Living-In-Seoul--These-9-Produ"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.904723+00:00
+updated_at: 2026-09-13T00:56:37.739267+00:00
 tags: [record, real-data]
 ---
 
-# Record 509310e963 · Im-A-K-Beauty-Expert-Living-In-Seoul--These-9-Products-Are-About-To-Be
+# Record 509310e963 · Im-A-K-Beauty-Expert-Living-In-Seoul--These-9-Produ
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiiAFBVV95cUxQV2dmX3J3N3JEVFJ6cm4tNVgxbXJiUzhYbExaR3lGRUExLTk1M1dBQWJtRks4WDdJNFZkSXYxdU56OWxiMWxOelRYRTNpOGpoZ1A5Q3RpaXpMUVU3bE0wQ2lYdEQ3djU1U3MxZXNxWVR3UHpXeXBXT0FtdlN3T2xMZ29pWlRXbmI4?oc=5)
 

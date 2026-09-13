@@ -1,12 +1,12 @@
 ---
-title: "Record 6a4479b95d · Grounding-Robot-Generalization-in-Training-Data-via-Retrieval-Augmente"
+title: "Record 6a4479b95d · Grounding-Robot-Generalization-in-Training-Data-via"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.638100+00:00
+updated_at: 2026-09-13T00:56:37.497294+00:00
 tags: [record, real-data]
 ---
 
-# Record 6a4479b95d · Grounding-Robot-Generalization-in-Training-Data-via-Retrieval-Augmente
+# Record 6a4479b95d · Grounding-Robot-Generalization-in-Training-Data-via
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1109/lra.2026.3726331)
 

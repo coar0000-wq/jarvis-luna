@@ -1,12 +1,12 @@
 ---
-title: "Record 8fd6f65124 · Samsung-Introduces-New-Odyssey-Lineup-for-Fast-Paced-Gaming-at-Gamesco"
+title: "Record 8fd6f65124 · Samsung-Introduces-New-Odyssey-Lineup-for-Fast-Pace"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.997256+00:00
+updated_at: 2026-09-13T00:56:37.824142+00:00
 tags: [record, real-data]
 ---
 
-# Record 8fd6f65124 · Samsung-Introduces-New-Odyssey-Lineup-for-Fast-Paced-Gaming-at-Gamesco
+# Record 8fd6f65124 · Samsung-Introduces-New-Odyssey-Lineup-for-Fast-Pace
 
 > 실제 수집 레코드입니다. 원문: [news.samsung.com](https://news.samsung.com/global/samsung-introduces-new-odyssey-lineup-for-fast-paced-gaming-at-gamescom-2026)
 

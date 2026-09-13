@@ -1,18 +1,18 @@
 ---
-title: "Record 27126709a8 · Theres-A-Version-Of-Blythe-Doll-Makeup-For-Every-Skin-Hair--Eye-Color-"
+title: "Record 27126709a8 · Theres-A-Version-Of-Blythe-Doll-Makeup-For-Every-Sk"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.839780+00:00
+updated_at: 2026-09-13T00:56:37.675985+00:00
 tags: [record, real-data]
 ---
 
-# Record 27126709a8 · Theres-A-Version-Of-Blythe-Doll-Makeup-For-Every-Skin-Hair--Eye-Color-
+# Record 27126709a8 · Theres-A-Version-Of-Blythe-Doll-Makeup-For-Every-Sk
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMibkFVX3lxTE0zZG1ZeEIwbDJxSUR3TVpGelJZSmFrVjUxRy1RMVNsSkpNS0d3Zml5RHpLWkI5S0ZZUEJ5YWNIel93VEJGQWYtNUtZYmNVVzFZczkydDE5OUJHMW5nM0hDVk9MY202aXhqZDdnb29B?oc=5)
 
-**제목:** There's A Version Of "Blythe Doll Makeup" For Every Skin, Hair, & Eye Color - Bustle
+**제목:** There's A Version Of "Blythe Doll Makeup" For Every Skin, Hair, & Eye Color - bustle.com
 
-There's A Version Of "Blythe Doll Makeup" For Every Skin, Hair, & Eye Color - Bustle
+There's A Version Of "Blythe Doll Makeup" For Every Skin, Hair, & Eye Color - bustle.com
 
 **출처:** Source · Google Search
 

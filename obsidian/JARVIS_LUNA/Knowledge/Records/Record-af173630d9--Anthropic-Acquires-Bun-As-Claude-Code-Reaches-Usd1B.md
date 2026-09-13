@@ -1,12 +1,12 @@
 ---
-title: "Record af173630d9 · Anthropic-Acquires-Bun-As-Claude-Code-Reaches-Usd1B-Milestone"
+title: "Record af173630d9 · Anthropic-Acquires-Bun-As-Claude-Code-Reaches-Usd1B"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.093429+00:00
+updated_at: 2026-09-13T00:56:37.909957+00:00
 tags: [record, real-data]
 ---
 
-# Record af173630d9 · Anthropic-Acquires-Bun-As-Claude-Code-Reaches-Usd1B-Milestone
+# Record af173630d9 · Anthropic-Acquires-Bun-As-Claude-Code-Reaches-Usd1B
 
 > 실제 수집 레코드입니다. 원문: [www.anthropic.com](https://www.anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone)
 

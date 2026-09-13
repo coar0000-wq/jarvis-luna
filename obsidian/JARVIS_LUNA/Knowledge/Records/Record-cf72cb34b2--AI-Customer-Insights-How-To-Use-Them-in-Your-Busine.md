@@ -1,12 +1,12 @@
 ---
-title: "Record cf72cb34b2 · AI-Customer-Insights-How-To-Use-Them-in-Your-Business---Shopify"
+title: "Record cf72cb34b2 · AI-Customer-Insights-How-To-Use-Them-in-Your-Busine"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.810441+00:00
+updated_at: 2026-09-13T00:56:37.648741+00:00
 tags: [record, real-data]
 ---
 
-# Record cf72cb34b2 · AI-Customer-Insights-How-To-Use-Them-in-Your-Business---Shopify
+# Record cf72cb34b2 · AI-Customer-Insights-How-To-Use-Them-in-Your-Busine
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiYkFVX3lxTFBpZGZlamJwR3MydUZMTEwzVFFpWDRKQ0VlYTNaeU83dXYyUHF5V2JUYkEwd1p0UWlnR2pVLU9pejRTc2p2RjZrWUN0SmRXUHdLZVpyeGZmdlJ5M0NVN3RWRkNR?oc=5)
 

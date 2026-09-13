@@ -1,12 +1,12 @@
 ---
-title: "Record f0e31c3153 · Quantifying-the-Reality-Gap-for-RL-Based-UAV-Placement-at-mmWave-and-S"
+title: "Record f0e31c3153 · Quantifying-the-Reality-Gap-for-RL-Based-UAV-Placem"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.545700+00:00
+updated_at: 2026-09-13T00:56:37.408606+00:00
 tags: [record, real-data]
 ---
 
-# Record f0e31c3153 · Quantifying-the-Reality-Gap-for-RL-Based-UAV-Placement-at-mmWave-and-S
+# Record f0e31c3153 · Quantifying-the-Reality-Gap-for-RL-Based-UAV-Placem
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.11121v1)
 

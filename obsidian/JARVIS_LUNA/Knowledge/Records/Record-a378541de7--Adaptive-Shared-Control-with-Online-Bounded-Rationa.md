@@ -1,12 +1,12 @@
 ---
-title: "Record a378541de7 · Adaptive-Shared-Control-with-Online-Bounded-Rational-Human-Behavior-Es"
+title: "Record a378541de7 · Adaptive-Shared-Control-with-Online-Bounded-Rationa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.534867+00:00
+updated_at: 2026-09-13T00:56:37.398423+00:00
 tags: [record, real-data]
 ---
 
-# Record a378541de7 · Adaptive-Shared-Control-with-Online-Bounded-Rational-Human-Behavior-Es
+# Record a378541de7 · Adaptive-Shared-Control-with-Online-Bounded-Rationa
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.10215v1)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 8822a96a20 · K-beauty-giant-Cosmax-moves-a-gentler-retinol-into-stick-form---Korea-"
+title: "Record 8822a96a20 · K-beauty-giant-Cosmax-moves-a-gentler-retinol-into-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.844288+00:00
+updated_at: 2026-09-13T00:56:37.680626+00:00
 tags: [record, real-data]
 ---
 
-# Record 8822a96a20 · K-beauty-giant-Cosmax-moves-a-gentler-retinol-into-stick-form---Korea-
+# Record 8822a96a20 · K-beauty-giant-Cosmax-moves-a-gentler-retinol-into-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMibkFVX3lxTFBUdDdvR2d2OVFOalFSSmtja1NjWlY0R3FVUUI3THBYR1c1YXo0SEh5WkVYZHJWQWdsdjI3eWRFNi1ZZ0l1MF9XOWtTNlFsUHczczFpNWo0SVR6bU14b1RidEkwSU10TnVKbkdEMU5n0gFyQVVfeXFMT1AxUmtWUF9xczdQd0hNbkxXdTE2OC1LSm11Y00tVUQyVEpjYnlGazJqd09FODQwc1RheV9haVJzOHBWZXhra0ZhX09UREJHUlhfdXE1b19UZWdtOUpHNXlNWHNkdlVybFJER1pKZ0JKYktR?oc=5)
 

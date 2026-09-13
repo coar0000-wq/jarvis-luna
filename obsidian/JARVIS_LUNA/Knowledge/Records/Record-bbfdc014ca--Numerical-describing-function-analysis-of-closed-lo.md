@@ -1,12 +1,12 @@
 ---
-title: "Record bbfdc014ca · Numerical-describing-function-analysis-of-closed-loop-discrete-time-re"
+title: "Record bbfdc014ca · Numerical-describing-function-analysis-of-closed-lo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.597260+00:00
+updated_at: 2026-09-13T00:56:37.459838+00:00
 tags: [record, real-data]
 ---
 
-# Record bbfdc014ca · Numerical-describing-function-analysis-of-closed-loop-discrete-time-re
+# Record bbfdc014ca · Numerical-describing-function-analysis-of-closed-lo
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.mechatronics.2026.103531)
 

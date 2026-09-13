@@ -1,12 +1,12 @@
 ---
-title: "Record fbecc61381 · Cosmax-LOreal-expand-partnership-on-next-generation-cosmetics---The-Ko"
+title: "Record fbecc61381 · Cosmax-LOreal-expand-partnership-on-next-generation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.788462+00:00
+updated_at: 2026-09-13T00:56:37.628622+00:00
 tags: [record, real-data]
 ---
 
-# Record fbecc61381 · Cosmax-LOreal-expand-partnership-on-next-generation-cosmetics---The-Ko
+# Record fbecc61381 · Cosmax-LOreal-expand-partnership-on-next-generation
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiV0FVX3lxTE9oMmM5MHJDemVfd1NMbzhlTWh1VzZPN1hXN2d5MFBlanItRnhTcWp2cnpmZkt4WVlOb1A1d0EwQUd4VjNJMHNUTXQ1RkItVTNjcjRzcUo3SQ?oc=5)
 

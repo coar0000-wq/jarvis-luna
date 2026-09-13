@@ -1,12 +1,12 @@
 ---
-title: "Record cac79907d6 · AI-Trends-in-2026-What-Businesses-Need-to-Know---Shopify"
+title: "Record cac79907d6 · AI-Trends-in-2026-What-Businesses-Need-to-Know---Sh"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.783639+00:00
+updated_at: 2026-09-13T00:56:37.624087+00:00
 tags: [record, real-data]
 ---
 
-# Record cac79907d6 · AI-Trends-in-2026-What-Businesses-Need-to-Know---Shopify
+# Record cac79907d6 · AI-Trends-in-2026-What-Businesses-Need-to-Know---Sh
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiU0FVX3lxTE82ZVNSZHgxOGh4c2pickFsWWw5Nk1YU2tyMTJjYWJGS3A0UjNIMjJNVDVuODJkeS1MTXJnUmhrQUFfWG1iYXJGRmJYV2E3MjhCeU5v?oc=5)
 

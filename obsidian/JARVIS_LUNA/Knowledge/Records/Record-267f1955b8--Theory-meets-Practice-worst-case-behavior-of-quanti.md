@@ -1,12 +1,12 @@
 ---
-title: "Record 267f1955b8 · Theory-meets-Practice-worst-case-behavior-of-quantile-algorithms"
+title: "Record 267f1955b8 · Theory-meets-Practice-worst-case-behavior-of-quanti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.019679+00:00
+updated_at: 2026-09-13T00:56:37.844683+00:00
 tags: [record, real-data]
 ---
 
-# Record 267f1955b8 · Theory-meets-Practice-worst-case-behavior-of-quantile-algorithms
+# Record 267f1955b8 · Theory-meets-Practice-worst-case-behavior-of-quanti
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W3130356934)
 

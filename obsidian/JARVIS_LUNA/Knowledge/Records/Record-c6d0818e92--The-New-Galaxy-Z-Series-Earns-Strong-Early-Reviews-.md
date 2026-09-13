@@ -1,12 +1,12 @@
 ---
-title: "Record c6d0818e92 · The-New-Galaxy-Z-Series-Earns-Strong-Early-Reviews-From-European-Consu"
+title: "Record c6d0818e92 · The-New-Galaxy-Z-Series-Earns-Strong-Early-Reviews-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.000569+00:00
+updated_at: 2026-09-13T00:56:37.827202+00:00
 tags: [record, real-data]
 ---
 
-# Record c6d0818e92 · The-New-Galaxy-Z-Series-Earns-Strong-Early-Reviews-From-European-Consu
+# Record c6d0818e92 · The-New-Galaxy-Z-Series-Earns-Strong-Early-Reviews-
 
 > 실제 수집 레코드입니다. 원문: [news.samsung.com](https://news.samsung.com/global/the-new-galaxy-z-series-earns-strong-early-reviews-from-european-consumers)
 

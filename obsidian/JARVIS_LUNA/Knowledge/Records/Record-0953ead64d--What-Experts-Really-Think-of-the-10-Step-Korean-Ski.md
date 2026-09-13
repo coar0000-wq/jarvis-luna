@@ -1,12 +1,12 @@
 ---
-title: "Record 0953ead64d · What-Experts-Really-Think-of-the-10-Step-Korean-Skin-Care-Routine---Vo"
+title: "Record 0953ead64d · What-Experts-Really-Think-of-the-10-Step-Korean-Ski"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.817369+00:00
+updated_at: 2026-09-13T00:56:37.655004+00:00
 tags: [record, real-data]
 ---
 
-# Record 0953ead64d · What-Experts-Really-Think-of-the-10-Step-Korean-Skin-Care-Routine---Vo
+# Record 0953ead64d · What-Experts-Really-Think-of-the-10-Step-Korean-Ski
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PRFNXUzgyWXZFeGJsckYzVlEtUnZaY2F3LXYwbVNfb0VUYmJSWUF6bEVMVUloSUdydndiSGRva1pheEJ5dkpnakZkZktBYmRrbkxTQ0RUdnR1NjR5Zlc0c2w0TDA?oc=5)
 

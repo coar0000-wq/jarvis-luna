@@ -1,12 +1,12 @@
 ---
-title: "Record 5955c30909 · AlphaWiSE-Adaptive-Weight-Interpolation-for-Continual-Multimodal-Repre"
+title: "Record 5955c30909 · AlphaWiSE-Adaptive-Weight-Interpolation-for-Continu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.039067+00:00
+updated_at: 2026-09-13T00:56:37.863527+00:00
 tags: [record, real-data]
 ---
 
-# Record 5955c30909 · AlphaWiSE-Adaptive-Weight-Interpolation-for-Continual-Multimodal-Repre
+# Record 5955c30909 · AlphaWiSE-Adaptive-Weight-Interpolation-for-Continu
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7169688845)
 

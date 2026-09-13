@@ -1,12 +1,12 @@
 ---
-title: "Record 66d7b68544 · From-Reweighting-to-Rewriting-Unlocking-the-Intervention-Effects-of-In"
+title: "Record 66d7b68544 · From-Reweighting-to-Rewriting-Unlocking-the-Interve"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.474561+00:00
+updated_at: 2026-09-13T00:56:37.343460+00:00
 tags: [record, real-data]
 ---
 
-# Record 66d7b68544 · From-Reweighting-to-Rewriting-Unlocking-the-Intervention-Effects-of-In
+# Record 66d7b68544 · From-Reweighting-to-Rewriting-Unlocking-the-Interve
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.02771v1)
 

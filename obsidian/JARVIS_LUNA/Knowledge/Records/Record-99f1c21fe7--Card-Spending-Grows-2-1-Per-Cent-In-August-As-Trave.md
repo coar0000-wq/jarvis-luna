@@ -1,12 +1,12 @@
 ---
-title: "Record 99f1c21fe7 · Card-Spending-Grows-2-1-Per-Cent-In-August-As-Travel-Rebounds-A"
+title: "Record 99f1c21fe7 · Card-Spending-Grows-2-1-Per-Cent-In-August-As-Trave"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.122345+00:00
+updated_at: 2026-09-13T00:56:37.938607+00:00
 tags: [record, real-data]
 ---
 
-# Record 99f1c21fe7 · Card-Spending-Grows-2-1-Per-Cent-In-August-As-Travel-Rebounds-A
+# Record 99f1c21fe7 · Card-Spending-Grows-2-1-Per-Cent-In-August-As-Trave
 
 > 실제 수집 레코드입니다. 원문: [www.barclayscorporate.com](https://www.barclayscorporate.com/news/press-releases/20260/090/card-spending-grows-2-1-per-cent-in-august--as-travel-rebounds-a/)
 

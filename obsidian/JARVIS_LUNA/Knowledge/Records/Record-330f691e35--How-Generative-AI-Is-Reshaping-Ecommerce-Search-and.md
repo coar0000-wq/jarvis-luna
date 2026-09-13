@@ -1,12 +1,12 @@
 ---
-title: "Record 330f691e35 · How-Generative-AI-Is-Reshaping-Ecommerce-Search-and-Product-Discovery-"
+title: "Record 330f691e35 · How-Generative-AI-Is-Reshaping-Ecommerce-Search-and"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.967057+00:00
+updated_at: 2026-09-13T00:56:37.796449+00:00
 tags: [record, real-data]
 ---
 
-# Record 330f691e35 · How-Generative-AI-Is-Reshaping-Ecommerce-Search-and-Product-Discovery-
+# Record 330f691e35 · How-Generative-AI-Is-Reshaping-Ecommerce-Search-and
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMirAFBVV95cUxQTlhickxjakJSeHNMZWVRLXlrcjhaRzdaM3lEV183eTZVM1EwZEQ1SjR3VFlwNkdvOVZ0TVdfa192cERxRWF0dFVKN2FRb0N0aFNHblo0OERET0RMTnFmdURUcC1vY18wNTRFdFlCZUhQQjA0MlFobEkyeDFKYkpHV25abmlhS2o5OXd4S0NvUkRienRHVHV4eFhJX3NGa2NVUjdOTDJ0VjdxcGFu?oc=5)
 

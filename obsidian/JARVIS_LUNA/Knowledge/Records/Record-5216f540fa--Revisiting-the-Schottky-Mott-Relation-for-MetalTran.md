@@ -1,12 +1,12 @@
 ---
-title: "Record 5216f540fa · Revisiting-the-Schottky-Mott-Relation-for-MetalTransition-Metal-Dichal"
+title: "Record 5216f540fa · Revisiting-the-Schottky-Mott-Relation-for-MetalTran"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.607428+00:00
+updated_at: 2026-09-13T00:56:37.469056+00:00
 tags: [record, real-data]
 ---
 
-# Record 5216f540fa · Revisiting-the-Schottky-Mott-Relation-for-MetalTransition-Metal-Dichal
+# Record 5216f540fa · Revisiting-the-Schottky-Mott-Relation-for-MetalTran
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1021/acsnano.6c02189)
 

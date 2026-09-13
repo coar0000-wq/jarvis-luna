@@ -1,12 +1,12 @@
 ---
-title: "Record 40f3d8e8ad · Information-on-trajectories-martingales-and-random-times"
+title: "Record 40f3d8e8ad · Information-on-trajectories-martingales-and-random-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.242871+00:00
+updated_at: 2026-09-13T00:56:38.040369+00:00
 tags: [record, real-data]
 ---
 
-# Record 40f3d8e8ad · Information-on-trajectories-martingales-and-random-times
+# Record 40f3d8e8ad · Information-on-trajectories-martingales-and-random-
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.20337v1)
 

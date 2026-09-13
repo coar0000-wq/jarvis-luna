@@ -1,12 +1,12 @@
 ---
-title: "Record 28591db108 · Ecommerce-Content-Strategy-Enterprise-Guide-2026---Shopify"
+title: "Record 28591db108 · Ecommerce-Content-Strategy-Enterprise-Guide-2026---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.867860+00:00
+updated_at: 2026-09-13T00:56:37.705170+00:00
 tags: [record, real-data]
 ---
 
-# Record 28591db108 · Ecommerce-Content-Strategy-Enterprise-Guide-2026---Shopify
+# Record 28591db108 · Ecommerce-Content-Strategy-Enterprise-Guide-2026---
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMieEFVX3lxTE9CdHJTbThLRjZ3ckc5Uk0wdEtVTVo0clZPLXBGcVZtaldLR1JaTkI3OE9fMXBPUVZvbzlDZHBpcE1ZdjlYTE5Kc2lpYVExLTgzdEhVODdPRS16S0ZqSXJDUi1ZMmtvcWRqdmxMNExpNGZ5OHQwWFl4OA?oc=5)
 

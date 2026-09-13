@@ -1,12 +1,12 @@
 ---
-title: "Record ef3af3e18c · Multimodal-alignment-improves-generalizability-of-genomic-biomarker-pr"
+title: "Record ef3af3e18c · Multimodal-alignment-improves-generalizability-of-g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.589764+00:00
+updated_at: 2026-09-13T00:56:37.453192+00:00
 tags: [record, real-data]
 ---
 
-# Record ef3af3e18c · Multimodal-alignment-improves-generalizability-of-genomic-biomarker-pr
+# Record ef3af3e18c · Multimodal-alignment-improves-generalizability-of-g
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.crmeth.2026.101578)
 

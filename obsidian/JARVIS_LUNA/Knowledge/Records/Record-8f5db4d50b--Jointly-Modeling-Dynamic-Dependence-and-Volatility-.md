@@ -1,12 +1,12 @@
 ---
-title: "Record 8f5db4d50b · Jointly-Modeling-Dynamic-Dependence-and-Volatility-in-Natural-Resource"
+title: "Record 8f5db4d50b · Jointly-Modeling-Dynamic-Dependence-and-Volatility-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.585604+00:00
+updated_at: 2026-09-13T00:56:37.449498+00:00
 tags: [record, real-data]
 ---
 
-# Record 8f5db4d50b · Jointly-Modeling-Dynamic-Dependence-and-Volatility-in-Natural-Resource
+# Record 8f5db4d50b · Jointly-Modeling-Dynamic-Dependence-and-Volatility-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1007/s42519-026-00631-x)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 9bdfe39458 · Simulating-Unified-Tensor-Resharding-in-heterogeneous-AI-systems"
+title: "Record 9bdfe39458 · Simulating-Unified-Tensor-Resharding-in-heterogeneo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.033344+00:00
+updated_at: 2026-09-13T00:56:37.857334+00:00
 tags: [record, real-data]
 ---
 
-# Record 9bdfe39458 · Simulating-Unified-Tensor-Resharding-in-heterogeneous-AI-systems
+# Record 9bdfe39458 · Simulating-Unified-Tensor-Resharding-in-heterogeneo
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7166399755)
 

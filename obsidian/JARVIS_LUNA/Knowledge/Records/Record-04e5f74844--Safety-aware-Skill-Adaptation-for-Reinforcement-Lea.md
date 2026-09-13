@@ -1,12 +1,12 @@
 ---
-title: "Record 04e5f74844 · Safety-aware-Skill-Adaptation-for-Reinforcement-Learning-in-Dynamic-En"
+title: "Record 04e5f74844 · Safety-aware-Skill-Adaptation-for-Reinforcement-Lea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.549607+00:00
+updated_at: 2026-09-13T00:56:37.412553+00:00
 tags: [record, real-data]
 ---
 
-# Record 04e5f74844 · Safety-aware-Skill-Adaptation-for-Reinforcement-Learning-in-Dynamic-En
+# Record 04e5f74844 · Safety-aware-Skill-Adaptation-for-Reinforcement-Lea
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.11433v1)
 

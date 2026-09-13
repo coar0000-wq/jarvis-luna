@@ -1,12 +1,12 @@
 ---
-title: "Record 7b8d766481 · ICON-Decomposition-Multivariate-Concept-Level-Explanations-of-Deep-Rep"
+title: "Record 7b8d766481 · ICON-Decomposition-Multivariate-Concept-Level-Expla"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.267419+00:00
+updated_at: 2026-09-13T00:56:38.062229+00:00
 tags: [record, real-data]
 ---
 
-# Record 7b8d766481 · ICON-Decomposition-Multivariate-Concept-Level-Explanations-of-Deep-Rep
+# Record 7b8d766481 · ICON-Decomposition-Multivariate-Concept-Level-Expla
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.26083v1)
 

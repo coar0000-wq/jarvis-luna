@@ -1,12 +1,12 @@
 ---
-title: "Record 5c81d42b8c · Asml-Reports-Transactions-Under-Its-Current-Share-Buyback-Program-25"
+title: "Record 5c81d42b8c · Asml-Reports-Transactions-Under-Its-Current-Share-B"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.116412+00:00
+updated_at: 2026-09-13T00:56:37.933346+00:00
 tags: [record, real-data]
 ---
 
-# Record 5c81d42b8c · Asml-Reports-Transactions-Under-Its-Current-Share-Buyback-Program-25
+# Record 5c81d42b8c · Asml-Reports-Transactions-Under-Its-Current-Share-B
 
 > 실제 수집 레코드입니다. 원문: [www.asml.com](https://www.asml.com/en/news/share-buyback/2026/asml-reports-transactions-under-its-current-share-buyback-program-25)
 

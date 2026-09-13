@@ -1,12 +1,12 @@
 ---
-title: "Record 4952d335bf · The-5-Best-Sunscreens-2026-Expert-Approved---Fortune"
+title: "Record 4952d335bf · The-5-Best-Sunscreens-2026-Expert-Approved---Fortun"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.785579+00:00
+updated_at: 2026-09-13T00:56:37.625959+00:00
 tags: [record, real-data]
 ---
 
-# Record 4952d335bf · The-5-Best-Sunscreens-2026-Expert-Approved---Fortune
+# Record 4952d335bf · The-5-Best-Sunscreens-2026-Expert-Approved---Fortun
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiV0FVX3lxTE04NldmdnZiVzNNZEg4ekdkM0FVMlV6aXhHVVpSV21GRTE0TE0tOVBTX203dHZQQ0xEejlHVTVNQ0ZXNmZ0Wi1kQzVQZUt0V1N3Nk1kTUM4QQ?oc=5)
 

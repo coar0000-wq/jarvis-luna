@@ -1,12 +1,12 @@
 ---
-title: "Record bf0568cd44 · Explainable-AI-in-Supply-Chain-Management-Opportunities-and-Research-C"
+title: "Record bf0568cd44 · Explainable-AI-in-Supply-Chain-Management-Opportuni"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.724799+00:00
+updated_at: 2026-09-13T00:56:37.569332+00:00
 tags: [record, real-data]
 ---
 
-# Record bf0568cd44 · Explainable-AI-in-Supply-Chain-Management-Opportunities-and-Research-C
+# Record bf0568cd44 · Explainable-AI-in-Supply-Chain-Management-Opportuni
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.55041/ijcope.v2i8.305)
 

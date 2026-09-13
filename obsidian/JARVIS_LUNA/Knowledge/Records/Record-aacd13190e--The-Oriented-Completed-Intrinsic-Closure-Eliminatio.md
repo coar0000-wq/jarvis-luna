@@ -1,12 +1,12 @@
 ---
-title: "Record aacd13190e · The-Oriented-Completed-Intrinsic-Closure-Elimination-as-a-Candidate-In"
+title: "Record aacd13190e · The-Oriented-Completed-Intrinsic-Closure-Eliminatio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.712398+00:00
+updated_at: 2026-09-13T00:56:37.558699+00:00
 tags: [record, real-data]
 ---
 
-# Record aacd13190e · The-Oriented-Completed-Intrinsic-Closure-Elimination-as-a-Candidate-In
+# Record aacd13190e · The-Oriented-Completed-Intrinsic-Closure-Eliminatio
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.21478941)
 

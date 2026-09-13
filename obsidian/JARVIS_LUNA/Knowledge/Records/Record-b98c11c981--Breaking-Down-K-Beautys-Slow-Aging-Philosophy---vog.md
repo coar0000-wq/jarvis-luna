@@ -1,18 +1,18 @@
 ---
-title: "Record b98c11c981 · Breaking-Down-K-Beautys-Slow-Aging-Philosophy---voguecom"
+title: "Record b98c11c981 · Breaking-Down-K-Beautys-Slow-Aging-Philosophy---vog"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.830486+00:00
+updated_at: 2026-09-13T00:56:37.666983+00:00
 tags: [record, real-data]
 ---
 
-# Record b98c11c981 · Breaking-Down-K-Beautys-Slow-Aging-Philosophy---voguecom
+# Record b98c11c981 · Breaking-Down-K-Beautys-Slow-Aging-Philosophy---vog
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiakFVX3lxTE5hdHRjZWI3QWR4eGZIQVlTQ2laeWNjazRnWmtINGFRcDZ6bVFvczJtSkh2U3JZQllmbGhmeG9NcGVyOFJmWXBqamJXN2w3MXAwRVVuNmJoVEt1OG81V1ZCbmdsODVJTWpSd2c?oc=5)
 
-**제목:** Breaking Down K-Beauty’s Slow-Aging Philosophy - vogue.com
+**제목:** Breaking Down K-Beauty’s Slow-Aging Philosophy - Vogue
 
-Breaking Down K-Beauty’s Slow-Aging Philosophy - vogue.com
+Breaking Down K-Beauty’s Slow-Aging Philosophy - Vogue
 
 **출처:** Source · Google Search
 

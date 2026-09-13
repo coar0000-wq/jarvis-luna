@@ -1,12 +1,12 @@
 ---
-title: "Record c1e2b11cbf · In-region-inference-open-models-and-new-European-infrastructure-for-so"
+title: "Record c1e2b11cbf · In-region-inference-open-models-and-new-European-in"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.770925+00:00
+updated_at: 2026-09-13T00:56:37.612123+00:00
 tags: [record, real-data]
 ---
 
-# Record c1e2b11cbf · In-region-inference-open-models-and-new-European-infrastructure-for-so
+# Record c1e2b11cbf · In-region-inference-open-models-and-new-European-in
 
 > 실제 수집 레코드입니다. 원문: [mistral.ai](https://mistral.ai/news/regional-inference-open-models-new-compute/)
 

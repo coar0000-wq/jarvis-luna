@@ -1,12 +1,12 @@
 ---
-title: "Record a1083b006f · Samsung-To-Showcase-Wide-Ranging-Gaming-Solutions-With-Immersive-Exhib"
+title: "Record a1083b006f · Samsung-To-Showcase-Wide-Ranging-Gaming-Solutions-W"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.999604+00:00
+updated_at: 2026-09-13T00:56:37.826283+00:00
 tags: [record, real-data]
 ---
 
-# Record a1083b006f · Samsung-To-Showcase-Wide-Ranging-Gaming-Solutions-With-Immersive-Exhib
+# Record a1083b006f · Samsung-To-Showcase-Wide-Ranging-Gaming-Solutions-W
 
 > 실제 수집 레코드입니다. 원문: [news.samsung.com](https://news.samsung.com/global/samsung-to-showcase-wide-ranging-gaming-solutions-with-immersive-exhibition-at-gamescom-2026)
 

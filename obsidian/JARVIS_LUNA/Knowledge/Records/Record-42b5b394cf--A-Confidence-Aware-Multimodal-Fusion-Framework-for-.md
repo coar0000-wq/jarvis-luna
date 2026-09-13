@@ -1,12 +1,12 @@
 ---
-title: "Record 42b5b394cf · A-Confidence-Aware-Multimodal-Fusion-Framework-for-Industrial-Human-Ro"
+title: "Record 42b5b394cf · A-Confidence-Aware-Multimodal-Fusion-Framework-for-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.537584+00:00
+updated_at: 2026-09-13T00:56:37.400828+00:00
 tags: [record, real-data]
 ---
 
-# Record 42b5b394cf · A-Confidence-Aware-Multimodal-Fusion-Framework-for-Industrial-Human-Ro
+# Record 42b5b394cf · A-Confidence-Aware-Multimodal-Fusion-Framework-for-
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.10339v1)
 

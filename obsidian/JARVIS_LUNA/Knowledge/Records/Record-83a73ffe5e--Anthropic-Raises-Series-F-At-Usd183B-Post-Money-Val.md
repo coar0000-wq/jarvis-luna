@@ -1,12 +1,12 @@
 ---
-title: "Record 83a73ffe5e · Anthropic-Raises-Series-F-At-Usd183B-Post-Money-Valuation"
+title: "Record 83a73ffe5e · Anthropic-Raises-Series-F-At-Usd183B-Post-Money-Val"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.098339+00:00
+updated_at: 2026-09-13T00:56:37.913834+00:00
 tags: [record, real-data]
 ---
 
-# Record 83a73ffe5e · Anthropic-Raises-Series-F-At-Usd183B-Post-Money-Valuation
+# Record 83a73ffe5e · Anthropic-Raises-Series-F-At-Usd183B-Post-Money-Val
 
 > 실제 수집 레코드입니다. 원문: [www.anthropic.com](https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation)
 

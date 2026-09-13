@@ -1,12 +1,12 @@
 ---
-title: "Record 5c8d75ef9c · Better-answers-broader-thinking-What-students-gain-from-ChatGPT-and-cr"
+title: "Record 5c8d75ef9c · Better-answers-broader-thinking-What-students-gain-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.019040+00:00
+updated_at: 2026-09-13T00:56:37.844068+00:00
 tags: [record, real-data]
 ---
 
-# Record 5c8d75ef9c · Better-answers-broader-thinking-What-students-gain-from-ChatGPT-and-cr
+# Record 5c8d75ef9c · Better-answers-broader-thinking-What-students-gain-
 
 > 실제 수집 레코드입니다. 원문: [openai.com](https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training)
 

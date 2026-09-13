@@ -1,12 +1,12 @@
 ---
-title: "Record 12923ae830 · Rapid-detection-and-quantification-of-glyphosate-in-water-using-a-hand"
+title: "Record 12923ae830 · Rapid-detection-and-quantification-of-glyphosate-in"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.615495+00:00
+updated_at: 2026-09-13T00:56:37.476383+00:00
 tags: [record, real-data]
 ---
 
-# Record 12923ae830 · Rapid-detection-and-quantification-of-glyphosate-in-water-using-a-hand
+# Record 12923ae830 · Rapid-detection-and-quantification-of-glyphosate-in
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1038/s41598-026-44827-4)
 

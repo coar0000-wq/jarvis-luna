@@ -1,12 +1,12 @@
 ---
-title: "Record ed5060a2ca · CAST-Alternating-State-Value-Targets-and-Expanded-Policy-Gradients-for"
+title: "Record ed5060a2ca · CAST-Alternating-State-Value-Targets-and-Expanded-P"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.520969+00:00
+updated_at: 2026-09-13T00:56:37.385849+00:00
 tags: [record, real-data]
 ---
 
-# Record ed5060a2ca · CAST-Alternating-State-Value-Targets-and-Expanded-Policy-Gradients-for
+# Record ed5060a2ca · CAST-Alternating-State-Value-Targets-and-Expanded-P
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.08853v1)
 

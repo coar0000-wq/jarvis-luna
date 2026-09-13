@@ -1,12 +1,12 @@
 ---
-title: "Record d8935c5d19 · Look-out-K-Beauty-T-Beauty-is-winning-over-Southeast-Asian-consumers-n"
+title: "Record d8935c5d19 · Look-out-K-Beauty-T-Beauty-is-winning-over-Southeas"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.948798+00:00
+updated_at: 2026-09-13T00:56:37.779785+00:00
 tags: [record, real-data]
 ---
 
-# Record d8935c5d19 · Look-out-K-Beauty-T-Beauty-is-winning-over-Southeast-Asian-consumers-n
+# Record d8935c5d19 · Look-out-K-Beauty-T-Beauty-is-winning-over-Southeas
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMinwFBVV95cUxNZ0VaNlRWbDI5bGZTOVJEc3pwUE82RHBIX2MtWHhEVmRHT3NhVWM2OFRTOEJWUjNVb1NDdlczNVlCVnRkS1piU1RlZkt4RlFXbklhUk5mWjd2OFJYOGppdXI3ZW9XT1doa1A3SXFtTVBzUzU3aHNGaDRkVDRxcmp4QUlSNHVoMGJLNXlGakVqTzNncW9tMTR0aHpBSW9EaVE?oc=5)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record cfa3417c31 · Waves-on-the-Walls-Empirical-Characterization-of-mmWave-Lateral-Waves-"
+title: "Record cfa3417c31 · Waves-on-the-Walls-Empirical-Characterization-of-mm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.493309+00:00
+updated_at: 2026-09-13T00:56:37.360513+00:00
 tags: [record, real-data]
 ---
 
-# Record cfa3417c31 · Waves-on-the-Walls-Empirical-Characterization-of-mmWave-Lateral-Waves-
+# Record cfa3417c31 · Waves-on-the-Walls-Empirical-Characterization-of-mm
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.04429v1)
 

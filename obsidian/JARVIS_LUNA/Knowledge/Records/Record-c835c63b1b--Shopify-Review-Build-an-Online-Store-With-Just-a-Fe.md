@@ -1,12 +1,12 @@
 ---
-title: "Record c835c63b1b · Shopify-Review-Build-an-Online-Store-With-Just-a-Few-Words---techco"
+title: "Record c835c63b1b · Shopify-Review-Build-an-Online-Store-With-Just-a-Fe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.792244+00:00
+updated_at: 2026-09-13T00:56:37.632091+00:00
 tags: [record, real-data]
 ---
 
-# Record c835c63b1b · Shopify-Review-Build-an-Online-Store-With-Just-a-Few-Words---techco
+# Record c835c63b1b · Shopify-Review-Build-an-Online-Store-With-Just-a-Fe
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiW0FVX3lxTE1CSmo3V2xrUkp2WGVpUHRoT3I0RUVTVW1RcDRBbUprNVE5VUlQeUNSRW0wM0J5TmFMMXdkYUZkU2JjSFVMRGxLVHJHWEk1NGFqUzUxUDlmTWwxcGs?oc=5)
 

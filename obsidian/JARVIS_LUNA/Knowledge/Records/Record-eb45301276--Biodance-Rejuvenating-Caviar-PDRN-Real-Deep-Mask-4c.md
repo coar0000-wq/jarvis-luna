@@ -1,12 +1,12 @@
 ---
-title: "Record eb45301276 · Biodance-Rejuvenating-Caviar-PDRN-Real-Deep-Mask-4ct-119-oz34g"
+title: "Record eb45301276 · Biodance-Rejuvenating-Caviar-PDRN-Real-Deep-Mask-4c"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.070008+00:00
+updated_at: 2026-09-13T00:56:37.891094+00:00
 tags: [record, real-data]
 ---
 
-# Record eb45301276 · Biodance-Rejuvenating-Caviar-PDRN-Real-Deep-Mask-4ct-119-oz34g
+# Record eb45301276 · Biodance-Rejuvenating-Caviar-PDRN-Real-Deep-Mask-4c
 
 > 실제 수집 레코드입니다. 원문: [us.oliveyoung.com](https://us.oliveyoung.com/products/UA89221713)
 

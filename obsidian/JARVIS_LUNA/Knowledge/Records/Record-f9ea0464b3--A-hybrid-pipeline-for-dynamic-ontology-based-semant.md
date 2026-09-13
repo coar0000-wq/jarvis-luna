@@ -1,12 +1,12 @@
 ---
-title: "Record f9ea0464b3 · A-hybrid-pipeline-for-dynamic-ontology-based-semantic-mapping"
+title: "Record f9ea0464b3 · A-hybrid-pipeline-for-dynamic-ontology-based-semant"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.485912+00:00
+updated_at: 2026-09-13T00:56:37.353854+00:00
 tags: [record, real-data]
 ---
 
-# Record f9ea0464b3 · A-hybrid-pipeline-for-dynamic-ontology-based-semantic-mapping
+# Record f9ea0464b3 · A-hybrid-pipeline-for-dynamic-ontology-based-semant
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.03891v1)
 

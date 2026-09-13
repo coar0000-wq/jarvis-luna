@@ -1,12 +1,12 @@
 ---
-title: "Record 410f5b0595 · Found-a-product-you-want-to-sell-but-cant-find-it-on-CJ"
+title: "Record 410f5b0595 · Found-a-product-you-want-to-sell-but-cant-find-it-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.199995+00:00
+updated_at: 2026-09-13T00:56:38.001802+00:00
 tags: [record, real-data]
 ---
 
-# Record 410f5b0595 · Found-a-product-you-want-to-sell-but-cant-find-it-on-CJ
+# Record 410f5b0595 · Found-a-product-you-want-to-sell-but-cant-find-it-o
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/shorts/bldqxE1CBL0)
 

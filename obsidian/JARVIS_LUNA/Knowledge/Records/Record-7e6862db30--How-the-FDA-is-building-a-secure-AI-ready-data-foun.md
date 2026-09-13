@@ -1,12 +1,12 @@
 ---
-title: "Record 7e6862db30 · How-the-FDA-is-building-a-secure-AI-ready-data-foundation-on-Databrick"
+title: "Record 7e6862db30 · How-the-FDA-is-building-a-secure-AI-ready-data-foun"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.126391+00:00
+updated_at: 2026-09-13T00:56:37.942280+00:00
 tags: [record, real-data]
 ---
 
-# Record 7e6862db30 · How-the-FDA-is-building-a-secure-AI-ready-data-foundation-on-Databrick
+# Record 7e6862db30 · How-the-FDA-is-building-a-secure-AI-ready-data-foun
 
 > 실제 수집 레코드입니다. 원문: [www.databricks.com](https://www.databricks.com/blog/how-fda-building-secure-ai-ready-data-foundation-databricks-government)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record bafaca63fc · Discussing-a-Framework-for-the-Responsible-Use-of-Facial-Recognition-T"
+title: "Record bafaca63fc · Discussing-a-Framework-for-the-Responsible-Use-of-F"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.672993+00:00
+updated_at: 2026-09-13T00:56:37.526764+00:00
 tags: [record, real-data]
 ---
 
-# Record bafaca63fc · Discussing-a-Framework-for-the-Responsible-Use-of-Facial-Recognition-T
+# Record bafaca63fc · Discussing-a-Framework-for-the-Responsible-Use-of-F
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.2139/ssrn.5149595)
 

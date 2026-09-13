@@ -1,12 +1,12 @@
 ---
-title: "Record ac8ab7f14c · Reviewers-Say-This-18-K-Beauty-Cream-Softened-Crepey-Neck-Skin-In-Just"
+title: "Record ac8ab7f14c · Reviewers-Say-This-18-K-Beauty-Cream-Softened-Crepe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.936210+00:00
+updated_at: 2026-09-13T00:56:37.768131+00:00
 tags: [record, real-data]
 ---
 
-# Record ac8ab7f14c · Reviewers-Say-This-18-K-Beauty-Cream-Softened-Crepey-Neck-Skin-In-Just
+# Record ac8ab7f14c · Reviewers-Say-This-18-K-Beauty-Cream-Softened-Crepe
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMimgFBVV95cUxNN2otN3RvRmcyMHdaWWJ6SEp6ZHlrODlpOFk0cG1TRU85eWQwVzB0M0k0YndPLXNETl8zM2s0X0EzMEt6bGhCSGRBaU1lUkpVQzlPX3RzUnEwdkE2Y2JBV3lMdXQwR1BmbDJsREFIbFVHcm1UYmFyTHdSbS1oa0NYTUZVZGtwYkdzbUk1akZBdUtCUWpoOHV0Mlln?oc=5)
 

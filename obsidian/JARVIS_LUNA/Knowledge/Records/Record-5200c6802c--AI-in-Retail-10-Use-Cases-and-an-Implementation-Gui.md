@@ -1,12 +1,12 @@
 ---
-title: "Record 5200c6802c · AI-in-Retail-10-Use-Cases-and-an-Implementation-Guide-2026---Shopify"
+title: "Record 5200c6802c · AI-in-Retail-10-Use-Cases-and-an-Implementation-Gui"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.819924+00:00
+updated_at: 2026-09-13T00:56:37.657342+00:00
 tags: [record, real-data]
 ---
 
-# Record 5200c6802c · AI-in-Retail-10-Use-Cases-and-an-Implementation-Guide-2026---Shopify
+# Record 5200c6802c · AI-in-Retail-10-Use-Cases-and-an-Implementation-Gui
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiZkFVX3lxTE45V1g4ZmNjR01GNmZ6UnVZT0lXc2lqQUxKMlFOZ1ZSUmNTZ0w2Q1l0UGphaG9jUW9jU0JnNXEtaWlBYl9aaDN5TEdyX2xDbVlJSkFQQVVrTXNvelNubVh5WmctRHhodw?oc=5)
 

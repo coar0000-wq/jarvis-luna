@@ -1,12 +1,12 @@
 ---
-title: "Record a2ccec5e10 · Unlimitail-Chooses-Snowflake-to-Power-Privacy-Preserving-Retail-Media-"
+title: "Record a2ccec5e10 · Unlimitail-Chooses-Snowflake-to-Power-Privacy-Prese"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.759851+00:00
+updated_at: 2026-09-13T00:56:37.601716+00:00
 tags: [record, real-data]
 ---
 
-# Record a2ccec5e10 · Unlimitail-Chooses-Snowflake-to-Power-Privacy-Preserving-Retail-Media-
+# Record a2ccec5e10 · Unlimitail-Chooses-Snowflake-to-Power-Privacy-Prese
 
 > 실제 수집 레코드입니다. 원문: [investors.snowflake.com](https://investors.snowflake.com/news/news-details/2026/Unlimitail-Chooses-Snowflake-to-Power-Privacy-Preserving-Retail-Media-Across-Europe-and-Latin-America/default.aspx)
 

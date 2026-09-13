@@ -1,12 +1,12 @@
 ---
-title: "Record fce071e50d · Entropy-informed-Decoding-Adaptive-Information-Driven-Branching"
+title: "Record fce071e50d · Entropy-informed-Decoding-Adaptive-Information-Driv"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.025679+00:00
+updated_at: 2026-09-13T00:56:37.850347+00:00
 tags: [record, real-data]
 ---
 
-# Record fce071e50d · Entropy-informed-Decoding-Adaptive-Information-Driven-Branching
+# Record fce071e50d · Entropy-informed-Decoding-Adaptive-Information-Driv
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7161089913)
 

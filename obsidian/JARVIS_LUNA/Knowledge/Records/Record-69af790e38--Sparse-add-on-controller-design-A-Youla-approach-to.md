@@ -1,12 +1,12 @@
 ---
-title: "Record 69af790e38 · Sparse-add-on-controller-design-A-Youla-approach-to-system-level-perfo"
+title: "Record 69af790e38 · Sparse-add-on-controller-design-A-Youla-approach-to"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.031318+00:00
+updated_at: 2026-09-13T00:56:37.855536+00:00
 tags: [record, real-data]
 ---
 
-# Record 69af790e38 · Sparse-add-on-controller-design-A-Youla-approach-to-system-level-perfo
+# Record 69af790e38 · Sparse-add-on-controller-design-A-Youla-approach-to
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7165424259)
 

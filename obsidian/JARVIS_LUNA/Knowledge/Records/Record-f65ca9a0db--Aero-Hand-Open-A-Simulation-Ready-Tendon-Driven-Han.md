@@ -1,12 +1,12 @@
 ---
-title: "Record f65ca9a0db · Aero-Hand-Open-A-Simulation-Ready-Tendon-Driven-Hand-for-Dexterous-Man"
+title: "Record f65ca9a0db · Aero-Hand-Open-A-Simulation-Ready-Tendon-Driven-Han"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.469179+00:00
+updated_at: 2026-09-13T00:56:37.338997+00:00
 tags: [record, real-data]
 ---
 
-# Record f65ca9a0db · Aero-Hand-Open-A-Simulation-Ready-Tendon-Driven-Hand-for-Dexterous-Man
+# Record f65ca9a0db · Aero-Hand-Open-A-Simulation-Ready-Tendon-Driven-Han
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.28578v1)
 

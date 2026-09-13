@@ -1,12 +1,12 @@
 ---
-title: "Record 9dba62cbb9 · Adaptive-Instructed-Retriever-Frontier-Quality-Search-at-2x-Lower-Late"
+title: "Record 9dba62cbb9 · Adaptive-Instructed-Retriever-Frontier-Quality-Sear"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.123509+00:00
+updated_at: 2026-09-13T00:56:37.939680+00:00
 tags: [record, real-data]
 ---
 
-# Record 9dba62cbb9 · Adaptive-Instructed-Retriever-Frontier-Quality-Search-at-2x-Lower-Late
+# Record 9dba62cbb9 · Adaptive-Instructed-Retriever-Frontier-Quality-Sear
 
 > 실제 수집 레코드입니다. 원문: [www.databricks.com](https://www.databricks.com/blog/adaptive-instructed-retriever-frontier-quality-search-2x-lower-latency)
 

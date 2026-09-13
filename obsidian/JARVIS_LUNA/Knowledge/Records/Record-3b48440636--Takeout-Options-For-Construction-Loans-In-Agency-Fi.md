@@ -1,12 +1,12 @@
 ---
-title: "Record 3b48440636 · Takeout-Options-For-Construction-Loans-In-Agency-Financing"
+title: "Record 3b48440636 · Takeout-Options-For-Construction-Loans-In-Agency-Fi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.142696+00:00
+updated_at: 2026-09-13T00:56:37.955639+00:00
 tags: [record, real-data]
 ---
 
-# Record 3b48440636 · Takeout-Options-For-Construction-Loans-In-Agency-Financing
+# Record 3b48440636 · Takeout-Options-For-Construction-Loans-In-Agency-Fi
 
 > 실제 수집 레코드입니다. 원문: [www.jpmorgan.com](https://www.jpmorgan.com/insights/real-estate/agency-lending/takeout-options-for-construction-loans-in-agency-financing)
 

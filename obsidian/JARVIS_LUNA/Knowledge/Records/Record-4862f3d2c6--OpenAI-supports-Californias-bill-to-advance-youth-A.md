@@ -1,12 +1,12 @@
 ---
-title: "Record 4862f3d2c6 · OpenAI-supports-Californias-bill-to-advance-youth-AI-safety"
+title: "Record 4862f3d2c6 · OpenAI-supports-Californias-bill-to-advance-youth-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.016978+00:00
+updated_at: 2026-09-13T00:56:37.842116+00:00
 tags: [record, real-data]
 ---
 
-# Record 4862f3d2c6 · OpenAI-supports-Californias-bill-to-advance-youth-AI-safety
+# Record 4862f3d2c6 · OpenAI-supports-Californias-bill-to-advance-youth-A
 
 > 실제 수집 레코드입니다. 원문: [openai.com](https://openai.com/index/supporting-california-bill-advance-ai-youth-safety)
 

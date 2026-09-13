@@ -1,12 +1,12 @@
 ---
-title: "Record 1438e49966 · Benefits-of-AI-for-Ecommerce-13-Ways-To-Grow-in-2026---Shopify"
+title: "Record 1438e49966 · Benefits-of-AI-for-Ecommerce-13-Ways-To-Grow-in-202"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.791770+00:00
+updated_at: 2026-09-13T00:56:37.631658+00:00
 tags: [record, real-data]
 ---
 
-# Record 1438e49966 · Benefits-of-AI-for-Ecommerce-13-Ways-To-Grow-in-2026---Shopify
+# Record 1438e49966 · Benefits-of-AI-for-Ecommerce-13-Ways-To-Grow-in-202
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiVkFVX3lxTFBMQUFFUy1WMFdQOWhwUUh5aHljYmdvN1pvVk1IdjNOcUtaRzliR1hBWDVpNmlGYTB4a1VDSGtTVXhYajJxcGp0VURRLTBvWXpZR1VTY253?oc=5)
 

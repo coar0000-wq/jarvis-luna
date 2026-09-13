@@ -1,12 +1,12 @@
 ---
-title: "Record 4eb52a51fe · Economic-Index-AIs-role-in-the-US-and-global-economy"
+title: "Record 4eb52a51fe · Economic-Index-AIs-role-in-the-US-and-global-econom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.109591+00:00
+updated_at: 2026-09-13T00:56:37.927096+00:00
 tags: [record, real-data]
 ---
 
-# Record 4eb52a51fe · Economic-Index-AIs-role-in-the-US-and-global-economy
+# Record 4eb52a51fe · Economic-Index-AIs-role-in-the-US-and-global-econom
 
 > 실제 수집 레코드입니다. 원문: [www.anthropic.com](https://www.anthropic.com/research/economic-index-geography)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 7e82d5ff25 · Is-Changing-Your-Eye-Color-Worth-Going-Blind---Hypebae"
+title: "Record 7e82d5ff25 · Is-Changing-Your-Eye-Color-Worth-Going-Blind---Hype"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.934324+00:00
+updated_at: 2026-09-13T00:56:37.766377+00:00
 tags: [record, real-data]
 ---
 
-# Record 7e82d5ff25 · Is-Changing-Your-Eye-Color-Worth-Going-Blind---Hypebae
+# Record 7e82d5ff25 · Is-Changing-Your-Eye-Color-Worth-Going-Blind---Hype
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMilwFBVV95cUxQUkhkdGZ2WFgyaVpELW5DWGF4WDl1S1VvbjM1LWZ6RjUtaFI3OFUtbEhFRmthMGxqVE1NQnZTWnJ6TUk4alBrTlVONmV5eF8yT29jLVdYMEwyNURDWkZhbDE1YVIyNGcySkZOc3FPZzcxTXdTcnh2anZ2Y1lOVGJXUV9yTkxYeC1VeEtNeVdUMGxYUF9xbmZV?oc=5)
 

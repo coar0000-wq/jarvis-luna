@@ -1,12 +1,12 @@
 ---
-title: "Record 43d60a7a0a · We-tested-more-than-a-dozen-viral-Medicube-products--these-are-the-one"
+title: "Record 43d60a7a0a · We-tested-more-than-a-dozen-viral-Medicube-products"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.880711+00:00
+updated_at: 2026-09-13T00:56:37.717217+00:00
 tags: [record, real-data]
 ---
 
-# Record 43d60a7a0a · We-tested-more-than-a-dozen-viral-Medicube-products--these-are-the-one
+# Record 43d60a7a0a · We-tested-more-than-a-dozen-viral-Medicube-products
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMifEFVX3lxTFBkT1NralB4YzNQSklyUVNfcVdBMDRCMG1FdXJQWERnaXpxRDlyZUlTYlVDSTNDS05HWFlad3ZVR1d3RFYzdXF0TXgxQkNNOU5XOEwwbUk3ZDBLSzRBTGI1NjlVXzBBTEdLdGY4dWxndkdla2hacGM4akQ0X0c?oc=5)
 

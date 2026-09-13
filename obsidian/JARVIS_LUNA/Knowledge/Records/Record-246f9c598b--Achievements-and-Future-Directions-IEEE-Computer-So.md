@@ -1,12 +1,12 @@
 ---
-title: "Record 246f9c598b · Achievements-and-Future-Directions-IEEE-Computer-Society-2025-Reflecti"
+title: "Record 246f9c598b · Achievements-and-Future-Directions-IEEE-Computer-So"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.639028+00:00
+updated_at: 2026-09-13T00:56:37.498157+00:00
 tags: [record, real-data]
 ---
 
-# Record 246f9c598b · Achievements-and-Future-Directions-IEEE-Computer-Society-2025-Reflecti
+# Record 246f9c598b · Achievements-and-Future-Directions-IEEE-Computer-So
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1109/mc.2025.3619683)
 

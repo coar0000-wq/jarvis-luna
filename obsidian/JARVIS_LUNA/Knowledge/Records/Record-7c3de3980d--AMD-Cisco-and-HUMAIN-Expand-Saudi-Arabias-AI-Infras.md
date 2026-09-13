@@ -1,12 +1,12 @@
 ---
-title: "Record 7c3de3980d · AMD-Cisco-and-HUMAIN-Expand-Saudi-Arabias-AI-Infrastructure-as-AMD-Ins"
+title: "Record 7c3de3980d · AMD-Cisco-and-HUMAIN-Expand-Saudi-Arabias-AI-Infras"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.762426+00:00
+updated_at: 2026-09-13T00:56:37.604060+00:00
 tags: [record, real-data]
 ---
 
-# Record 7c3de3980d · AMD-Cisco-and-HUMAIN-Expand-Saudi-Arabias-AI-Infrastructure-as-AMD-Ins
+# Record 7c3de3980d · AMD-Cisco-and-HUMAIN-Expand-Saudi-Arabias-AI-Infras
 
 > 실제 수집 레코드입니다. 원문: [ir.amd.com](https://ir.amd.com/news-events/press-releases/detail/1298/amd-cisco-and-humain-expand-saudi-arabias-ai-infrastructure-as-amd-instinct-systems-go-live)
 

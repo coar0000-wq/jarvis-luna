@@ -1,12 +1,12 @@
 ---
-title: "Record bd647c68a1 · Anthropic-Economic-Index-Insights-from-Claude-37-Sonnet"
+title: "Record bd647c68a1 · Anthropic-Economic-Index-Insights-from-Claude-37-So"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.108652+00:00
+updated_at: 2026-09-13T00:56:37.926247+00:00
 tags: [record, real-data]
 ---
 
-# Record bd647c68a1 · Anthropic-Economic-Index-Insights-from-Claude-37-Sonnet
+# Record bd647c68a1 · Anthropic-Economic-Index-Insights-from-Claude-37-So
 
 > 실제 수집 레코드입니다. 원문: [www.anthropic.com](https://www.anthropic.com/research/anthropic-economic-index-insights-from-claude-sonnet-3-7)
 

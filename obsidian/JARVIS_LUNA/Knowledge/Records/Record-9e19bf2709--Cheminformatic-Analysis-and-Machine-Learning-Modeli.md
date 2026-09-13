@@ -1,12 +1,12 @@
 ---
-title: "Record 9e19bf2709 · Cheminformatic-Analysis-and-Machine-Learning-Modeling-to-Investigate-A"
+title: "Record 9e19bf2709 · Cheminformatic-Analysis-and-Machine-Learning-Modeli"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.607897+00:00
+updated_at: 2026-09-13T00:56:37.469503+00:00
 tags: [record, real-data]
 ---
 
-# Record 9e19bf2709 · Cheminformatic-Analysis-and-Machine-Learning-Modeling-to-Investigate-A
+# Record 9e19bf2709 · Cheminformatic-Analysis-and-Machine-Learning-Modeli
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1021/acsomega.2c07346)
 

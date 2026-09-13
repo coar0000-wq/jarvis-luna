@@ -1,12 +1,12 @@
 ---
-title: "Record 86aebace17 · Effects-of-one-time-application-of-controlled-release-compound-fertili"
+title: "Record 86aebace17 · Effects-of-one-time-application-of-controlled-relea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.686273+00:00
+updated_at: 2026-09-13T00:56:37.537714+00:00
 tags: [record, real-data]
 ---
 
-# Record 86aebace17 · Effects-of-one-time-application-of-controlled-release-compound-fertili
+# Record 86aebace17 · Effects-of-one-time-application-of-controlled-relea
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.3389/fsoil.2026.1899806)
 

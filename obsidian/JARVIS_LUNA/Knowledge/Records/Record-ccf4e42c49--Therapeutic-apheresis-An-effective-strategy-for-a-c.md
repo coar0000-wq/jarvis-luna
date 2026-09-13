@@ -1,12 +1,12 @@
 ---
-title: "Record ccf4e42c49 · Therapeutic-apheresis-An-effective-strategy-for-a-combined-targeting-o"
+title: "Record ccf4e42c49 · Therapeutic-apheresis-An-effective-strategy-for-a-c"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.728301+00:00
+updated_at: 2026-09-13T00:56:37.572560+00:00
 tags: [record, real-data]
 ---
 
-# Record ccf4e42c49 · Therapeutic-apheresis-An-effective-strategy-for-a-combined-targeting-o
+# Record ccf4e42c49 · Therapeutic-apheresis-An-effective-strategy-for-a-c
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.61373/bh026a.0024)
 

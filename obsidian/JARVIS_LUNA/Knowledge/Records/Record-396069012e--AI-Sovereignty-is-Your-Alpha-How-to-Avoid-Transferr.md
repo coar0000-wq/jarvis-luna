@@ -1,12 +1,12 @@
 ---
-title: "Record 396069012e · AI-Sovereignty-is-Your-Alpha-How-to-Avoid-Transferring-Your-Alpha-to-a"
+title: "Record 396069012e · AI-Sovereignty-is-Your-Alpha-How-to-Avoid-Transferr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.561012+00:00
+updated_at: 2026-09-13T00:56:37.424176+00:00
 tags: [record, real-data]
 ---
 
-# Record 396069012e · AI-Sovereignty-is-Your-Alpha-How-to-Avoid-Transferring-Your-Alpha-to-a
+# Record 396069012e · AI-Sovereignty-is-Your-Alpha-How-to-Avoid-Transferr
 
 > 실제 수집 레코드입니다. 원문: [blog.palantir.com](https://blog.palantir.com/ai-sovereignty-is-your-alpha-how-to-avoid-transferring-your-alpha-to-a-hosted-model-provider-774a1b35bf98?source=rss----3c87dc14372f---4)
 

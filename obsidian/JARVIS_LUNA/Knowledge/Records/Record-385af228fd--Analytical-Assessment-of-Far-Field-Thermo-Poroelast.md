@@ -1,12 +1,12 @@
 ---
-title: "Record 385af228fd · Analytical-Assessment-of-Far-Field-Thermo-Poroelastic-Response-and-The"
+title: "Record 385af228fd · Analytical-Assessment-of-Far-Field-Thermo-Poroelast"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.580702+00:00
+updated_at: 2026-09-13T00:56:37.444871+00:00
 tags: [record, real-data]
 ---
 
-# Record 385af228fd · Analytical-Assessment-of-Far-Field-Thermo-Poroelastic-Response-and-The
+# Record 385af228fd · Analytical-Assessment-of-Far-Field-Thermo-Poroelast
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1007/s00603-026-05872-7)
 

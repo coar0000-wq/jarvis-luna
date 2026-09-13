@@ -1,12 +1,12 @@
 ---
-title: "Record 4db5ad1bca · How-South-Koreas-K-beauty-trend-boosts-soft-power---DWcom"
+title: "Record 4db5ad1bca · How-South-Koreas-K-beauty-trend-boosts-soft-power--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.905398+00:00
+updated_at: 2026-09-13T00:56:37.739947+00:00
 tags: [record, real-data]
 ---
 
-# Record 4db5ad1bca · How-South-Koreas-K-beauty-trend-boosts-soft-power---DWcom
+# Record 4db5ad1bca · How-South-Koreas-K-beauty-trend-boosts-soft-power--
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiigFBVV95cUxNNGtmUmZKaC0wRDVWRXlxR3Z0QXNNWXhUV3lMVXRVVDNCYk45ZUpDOU0wTWhfeGFXcVpmcmp1bVpoVUFIZHBKWFBLZng4eDJISm9uN3BQTTFPaXdWV21CUjlJbURHQTh4cU1uQ3RlR1VSdHZZLVNsUnZjZVptblVlMFREVlozeDlSVHfSAYoBQVVfeXFMT3YxS0pERVhCVlBKRVhRMUs2YW54OVlnZVlNNEVzLWtRa2owWExPU3d3M0VQR3RLWnpfQjIwN25fczFVT1NyZDN0d0xBb3c3RFRjaHc3ZEdCbWxZS1JSUEV4RHNzY0ZXRnFXODVGc2duUFZKSkVXNnZfOElTMlpkU1JIWFg4MlVIOGVR?oc=5)
 

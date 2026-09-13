@@ -1,12 +1,12 @@
 ---
-title: "Record 669cf40a3f · Shopify-has-been-on-a-tear-in-2025-Can-AI-give-the-e-commerce-stock-an"
+title: "Record 669cf40a3f · Shopify-has-been-on-a-tear-in-2025-Can-AI-give-the-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.981523+00:00
+updated_at: 2026-09-13T00:56:37.809677+00:00
 tags: [record, real-data]
 ---
 
-# Record 669cf40a3f · Shopify-has-been-on-a-tear-in-2025-Can-AI-give-the-e-commerce-stock-an
+# Record 669cf40a3f · Shopify-has-been-on-a-tear-in-2025-Can-AI-give-the-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiugFBVV95cUxOYU5hLUV0VUxuYWd0cFdzOTlVZXlhNGVudGVZZlpuRnJ1OG9BSEFfSGtwcGRGNklnY2VoZzUyM05kY2FUVVpJRG9pNUZycWVxRGR4TEU3YU5INnBnbEFvTFN2Ry0zX2RzN2ItSWF6TjFGVXpLdTh4emVjSmMzcENYZEJYVlREQ01UNGp3OTdKWTM3MnkyNGZkTXdnR0xKZ2RzZTA5NXVoQUw3ZHk1Z0V5T185dXpQUUVXUWc?oc=5)
 

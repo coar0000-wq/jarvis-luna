@@ -1,12 +1,12 @@
 ---
-title: "Record 62003111f3 · Disrupting-a-new-covert-influence-campaign-from-Russia"
+title: "Record 62003111f3 · Disrupting-a-new-covert-influence-campaign-from-Rus"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.009678+00:00
+updated_at: 2026-09-13T00:56:37.835353+00:00
 tags: [record, real-data]
 ---
 
-# Record 62003111f3 · Disrupting-a-new-covert-influence-campaign-from-Russia
+# Record 62003111f3 · Disrupting-a-new-covert-influence-campaign-from-Rus
 
 > 실제 수집 레코드입니다. 원문: [openai.com](https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia)
 

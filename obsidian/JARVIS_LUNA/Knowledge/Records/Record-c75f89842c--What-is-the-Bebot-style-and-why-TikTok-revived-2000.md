@@ -1,12 +1,12 @@
 ---
-title: "Record c75f89842c · What-is-the-Bebot-style-and-why-TikTok-revived-2000s-makeup-find-out-h"
+title: "Record c75f89842c · What-is-the-Bebot-style-and-why-TikTok-revived-2000"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.840262+00:00
+updated_at: 2026-09-13T00:56:37.676495+00:00
 tags: [record, real-data]
 ---
 
-# Record c75f89842c · What-is-the-Bebot-style-and-why-TikTok-revived-2000s-makeup-find-out-h
+# Record c75f89842c · What-is-the-Bebot-style-and-why-TikTok-revived-2000
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMibkFVX3lxTE1NYXZiREJaaFBaSmpidl9TczNRY0NLUnpvcEVpczdIcWtKRkI0cDhLb2VJVWZxa2ktU2VmWHZYY3NJQUlaZ0JFeVdvN3dyMVlVOTV3bTcybnluNU85WU5PSUY0X191VThLUDR0YjBR?oc=5)
 

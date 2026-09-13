@@ -1,12 +1,12 @@
 ---
-title: "Record c97d121fe9 · Economic-Growth-Strong-Inflation-Fight-Not-Over-2023"
+title: "Record c97d121fe9 · Economic-Growth-Strong-Inflation-Fight-Not-Over-202"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.149112+00:00
+updated_at: 2026-09-13T00:56:37.961093+00:00
 tags: [record, real-data]
 ---
 
-# Record c97d121fe9 · Economic-Growth-Strong-Inflation-Fight-Not-Over-2023
+# Record c97d121fe9 · Economic-Growth-Strong-Inflation-Fight-Not-Over-202
 
 > 실제 수집 레코드입니다. 원문: [www.morganstanley.com](https://www.morganstanley.com/ideas/economic-growth-strong-inflation-fight-not-over-2023)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 061e2b2ff3 · SafeEvolve-Harness-Policy-Co-Evolution-from-Agent-Experience-for-Safet"
+title: "Record 061e2b2ff3 · SafeEvolve-Harness-Policy-Co-Evolution-from-Agent-E"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.474773+00:00
+updated_at: 2026-09-13T00:56:37.343660+00:00
 tags: [record, real-data]
 ---
 
-# Record 061e2b2ff3 · SafeEvolve-Harness-Policy-Co-Evolution-from-Agent-Experience-for-Safet
+# Record 061e2b2ff3 · SafeEvolve-Harness-Policy-Co-Evolution-from-Agent-E
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.02786v1)
 

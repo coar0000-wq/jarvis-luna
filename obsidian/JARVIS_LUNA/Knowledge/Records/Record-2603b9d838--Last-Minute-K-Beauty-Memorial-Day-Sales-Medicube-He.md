@@ -1,12 +1,12 @@
 ---
-title: "Record 2603b9d838 · Last-Minute-K-Beauty-Memorial-Day-Sales-Medicube-Hero-Cosmetics-Beauty"
+title: "Record 2603b9d838 · Last-Minute-K-Beauty-Memorial-Day-Sales-Medicube-He"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.935975+00:00
+updated_at: 2026-09-13T00:56:37.767913+00:00
 tags: [record, real-data]
 ---
 
-# Record 2603b9d838 · Last-Minute-K-Beauty-Memorial-Day-Sales-Medicube-Hero-Cosmetics-Beauty
+# Record 2603b9d838 · Last-Minute-K-Beauty-Memorial-Day-Sales-Medicube-He
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMimAFBVV95cUxQWGVxSFpSdUtyMDBFdDEzWDgzUEtsZUFHODRLZUI2RThRVUZoenlMcHNmZGFjOEtidHc5MTVBaklPbHFjaUd2eUVWRDE0V25yVnM5UGlVR0JOV21fNzYwRVdIcmRRSzM2dDEyNHgydWM3bzVlYzBsS05meTNxVk45TWI5VDc2MHI3bDZhN0c5QnFTZUI2WEdXVg?oc=5)
 

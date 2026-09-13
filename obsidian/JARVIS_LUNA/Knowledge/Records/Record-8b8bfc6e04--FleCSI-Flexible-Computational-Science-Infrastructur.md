@@ -1,12 +1,12 @@
 ---
-title: "Record 8b8bfc6e04 · FleCSI-Flexible-Computational-Science-Infrastructure"
+title: "Record 8b8bfc6e04 · FleCSI-Flexible-Computational-Science-Infrastructur"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.667526+00:00
+updated_at: 2026-09-13T00:56:37.522271+00:00
 tags: [record, real-data]
 ---
 
-# Record 8b8bfc6e04 · FleCSI-Flexible-Computational-Science-Infrastructure
+# Record 8b8bfc6e04 · FleCSI-Flexible-Computational-Science-Infrastructur
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.21105/joss.09333)
 

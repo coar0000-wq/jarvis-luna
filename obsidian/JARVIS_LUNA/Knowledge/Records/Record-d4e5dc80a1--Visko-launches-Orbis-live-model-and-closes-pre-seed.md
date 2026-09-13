@@ -1,12 +1,12 @@
 ---
-title: "Record d4e5dc80a1 · Visko-launches-Orbis-live-model-and-closes-pre-seed-funding-round"
+title: "Record d4e5dc80a1 · Visko-launches-Orbis-live-model-and-closes-pre-seed"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.182624+00:00
+updated_at: 2026-09-13T00:56:37.987683+00:00
 tags: [record, real-data]
 ---
 
-# Record d4e5dc80a1 · Visko-launches-Orbis-live-model-and-closes-pre-seed-funding-round
+# Record d4e5dc80a1 · Visko-launches-Orbis-live-model-and-closes-pre-seed
 
 > 실제 수집 레코드입니다. 원문: [www.therobotreport.com](https://www.therobotreport.com/visko-launches-orbis-live-model-closes-pre-seed-funding-round/)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 8750041f9b · High-contrast-EUV-imaging-enabled-by-topological-quasi-phase-only-mask"
+title: "Record 8750041f9b · High-contrast-EUV-imaging-enabled-by-topological-qu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.661363+00:00
+updated_at: 2026-09-13T00:56:37.517327+00:00
 tags: [record, real-data]
 ---
 
-# Record 8750041f9b · High-contrast-EUV-imaging-enabled-by-topological-quasi-phase-only-mask
+# Record 8750041f9b · High-contrast-EUV-imaging-enabled-by-topological-qu
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1364/oe.607043)
 

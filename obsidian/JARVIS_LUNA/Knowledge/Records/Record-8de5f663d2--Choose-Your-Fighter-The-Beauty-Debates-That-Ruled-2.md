@@ -1,12 +1,12 @@
 ---
-title: "Record 8de5f663d2 · Choose-Your-Fighter-The-Beauty-Debates-That-Ruled-2025---Bustle"
+title: "Record 8de5f663d2 · Choose-Your-Fighter-The-Beauty-Debates-That-Ruled-2"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.851149+00:00
+updated_at: 2026-09-13T00:56:37.687708+00:00
 tags: [record, real-data]
 ---
 
-# Record 8de5f663d2 · Choose-Your-Fighter-The-Beauty-Debates-That-Ruled-2025---Bustle
+# Record 8de5f663d2 · Choose-Your-Fighter-The-Beauty-Debates-That-Ruled-2
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMickFVX3lxTE5SOUFyQWtjdi1OSnhCTUc5cS1iaWhKNzNrbmdfX3JkN0I4anZSVmVfNmJMcG5JVzRfLXVFOGdFbTNrcmd6TXotelBhSDQzb3BDM3BVazJiV2VMVDdjWlFxMjFfd29rdWZYM1lXMHZ0MUNNQQ?oc=5)
 

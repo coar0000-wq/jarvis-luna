@@ -1,12 +1,12 @@
 ---
-title: "Record 334cabed9c · Unlocking-UK-house-building-with-AI-accelerated-planning"
+title: "Record 334cabed9c · Unlocking-UK-house-building-with-AI-accelerated-pla"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.570978+00:00
+updated_at: 2026-09-13T00:56:37.434660+00:00
 tags: [record, real-data]
 ---
 
-# Record 334cabed9c · Unlocking-UK-house-building-with-AI-accelerated-planning
+# Record 334cabed9c · Unlocking-UK-house-building-with-AI-accelerated-pla
 
 > 실제 수집 레코드입니다. 원문: [deepmind.google](https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/)
 

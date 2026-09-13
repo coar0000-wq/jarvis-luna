@@ -1,12 +1,12 @@
 ---
-title: "Record 4d5a62b38f · Role-of-bioactive-layer-on-membrane-surface-for-urea-removal-in-A2O-MB"
+title: "Record 4d5a62b38f · Role-of-bioactive-layer-on-membrane-surface-for-ure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.590263+00:00
+updated_at: 2026-09-13T00:56:37.453652+00:00
 tags: [record, real-data]
 ---
 
-# Record 4d5a62b38f · Role-of-bioactive-layer-on-membrane-surface-for-urea-removal-in-A2O-MB
+# Record 4d5a62b38f · Role-of-bioactive-layer-on-membrane-surface-for-ure
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.desal.2026.120627)
 

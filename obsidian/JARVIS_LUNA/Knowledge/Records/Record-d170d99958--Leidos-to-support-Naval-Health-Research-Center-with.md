@@ -1,12 +1,12 @@
 ---
-title: "Record d170d99958 · Leidos-to-support-Naval-Health-Research-Center-with-studies-to-improve"
+title: "Record d170d99958 · Leidos-to-support-Naval-Health-Research-Center-with"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.756923+00:00
+updated_at: 2026-09-13T00:56:37.599080+00:00
 tags: [record, real-data]
 ---
 
-# Record d170d99958 · Leidos-to-support-Naval-Health-Research-Center-with-studies-to-improve
+# Record d170d99958 · Leidos-to-support-Naval-Health-Research-Center-with
 
 > 실제 수집 레코드입니다. 원문: [investors.leidos.com](https://investors.leidos.com/news-releases/news-release-details/leidos-support-naval-health-research-center-studies-improve)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record b41f827def · Integration-of-AI-and-Machine-Learning-in-Semiconductor-Manufacturing-"
+title: "Record b41f827def · Integration-of-AI-and-Machine-Learning-in-Semicondu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.728009+00:00
+updated_at: 2026-09-13T00:56:37.572277+00:00
 tags: [record, real-data]
 ---
 
-# Record b41f827def · Integration-of-AI-and-Machine-Learning-in-Semiconductor-Manufacturing-
+# Record b41f827def · Integration-of-AI-and-Machine-Learning-in-Semicondu
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.60087/jaigs.v3i1.191)
 

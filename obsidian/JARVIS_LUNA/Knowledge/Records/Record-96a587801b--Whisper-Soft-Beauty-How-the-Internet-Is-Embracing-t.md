@@ -1,12 +1,12 @@
 ---
-title: "Record 96a587801b · Whisper-Soft-Beauty-How-the-Internet-Is-Embracing-the-Demure-Beauty-Tr"
+title: "Record 96a587801b · Whisper-Soft-Beauty-How-the-Internet-Is-Embracing-t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.891394+00:00
+updated_at: 2026-09-13T00:56:37.726847+00:00
 tags: [record, real-data]
 ---
 
-# Record 96a587801b · Whisper-Soft-Beauty-How-the-Internet-Is-Embracing-the-Demure-Beauty-Tr
+# Record 96a587801b · Whisper-Soft-Beauty-How-the-Internet-Is-Embracing-t
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiggFBVV95cUxQdU5RUkFCN1NtUWJLdkpRMW43dWJfUTFfNlQwSFJuZmtkTHBWT0lILWNqMENRSnJEXzhXcUxYdjNsalRvNTJwMG5HZnZVUTUzZTBGVk9VT1VVV3dCbE5NQTExR2Jsd2RQMFdXM0phLU1MamN6VGRsRk9DUjdFQXg5Z3B3?oc=5)
 

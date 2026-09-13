@@ -1,12 +1,12 @@
 ---
-title: "Record c73e5bbca7 · Systematic-Integration-of-genomics-with-transcriptomics-for-the-Study-"
+title: "Record c73e5bbca7 · Systematic-Integration-of-genomics-with-transcripto"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.732350+00:00
+updated_at: 2026-09-13T00:56:37.576388+00:00
 tags: [record, real-data]
 ---
 
-# Record c73e5bbca7 · Systematic-Integration-of-genomics-with-transcriptomics-for-the-Study-
+# Record c73e5bbca7 · Systematic-Integration-of-genomics-with-transcripto
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.64898/2026.07.31.26357396)
 

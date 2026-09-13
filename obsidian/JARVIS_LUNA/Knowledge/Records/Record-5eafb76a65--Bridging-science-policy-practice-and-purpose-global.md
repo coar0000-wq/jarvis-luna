@@ -1,12 +1,12 @@
 ---
-title: "Record 5eafb76a65 · Bridging-science-policy-practice-and-purpose-global-insights-from-sust"
+title: "Record 5eafb76a65 · Bridging-science-policy-practice-and-purpose-global"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.682268+00:00
+updated_at: 2026-09-13T00:56:37.534435+00:00
 tags: [record, real-data]
 ---
 
-# Record 5eafb76a65 · Bridging-science-policy-practice-and-purpose-global-insights-from-sust
+# Record 5eafb76a65 · Bridging-science-policy-practice-and-purpose-global
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.31223/x5t20j)
 

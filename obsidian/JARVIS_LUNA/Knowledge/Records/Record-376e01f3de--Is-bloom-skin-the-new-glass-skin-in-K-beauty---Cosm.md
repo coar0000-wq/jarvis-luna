@@ -1,12 +1,12 @@
 ---
-title: "Record 376e01f3de · Is-bloom-skin-the-new-glass-skin-in-K-beauty---Cosmetics-Business"
+title: "Record 376e01f3de · Is-bloom-skin-the-new-glass-skin-in-K-beauty---Cosm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.845933+00:00
+updated_at: 2026-09-13T00:56:37.682319+00:00
 tags: [record, real-data]
 ---
 
-# Record 376e01f3de · Is-bloom-skin-the-new-glass-skin-in-K-beauty---Cosmetics-Business
+# Record 376e01f3de · Is-bloom-skin-the-new-glass-skin-in-K-beauty---Cosm
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMic0FVX3lxTE1mOTlqeDVjaFZ0VVlkUVVpVHh4SXp5dXdqajJwNXNseGUyenVwUU1mUV8tNUpsU1N4bEpUQjhyZ2hWQnhVWVRKZU05ci12emRUcDc3dmRBT00zM25kSjVMSy1Gbm1CRTVMblFMT0ZCTFhyTjg?oc=5)
 

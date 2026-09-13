@@ -1,12 +1,12 @@
 ---
-title: "Record d910730844 · LAION-BVD-A-10-Million-Hour-Open-Video-Dataset-for-Multimodal-Pre-trai"
+title: "Record d910730844 · LAION-BVD-A-10-Million-Hour-Open-Video-Dataset-for-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.262241+00:00
+updated_at: 2026-09-13T00:56:38.057315+00:00
 tags: [record, real-data]
 ---
 
-# Record d910730844 · LAION-BVD-A-10-Million-Hour-Open-Video-Dataset-for-Multimodal-Pre-trai
+# Record d910730844 · LAION-BVD-A-10-Million-Hour-Open-Video-Dataset-for-
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.24845v1)
 

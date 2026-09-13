@@ -1,12 +1,12 @@
 ---
-title: "Record da9541f7d9 · Asoka-makeup-trend-on-TikTok-inspired-by-2000s-Bollywood-movie---NBC-N"
+title: "Record da9541f7d9 · Asoka-makeup-trend-on-TikTok-inspired-by-2000s-Boll"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.954327+00:00
+updated_at: 2026-09-13T00:56:37.784846+00:00
 tags: [record, real-data]
 ---
 
-# Record da9541f7d9 · Asoka-makeup-trend-on-TikTok-inspired-by-2000s-Bollywood-movie---NBC-N
+# Record da9541f7d9 · Asoka-makeup-trend-on-TikTok-inspired-by-2000s-Boll
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiowFBVV95cUxOdkU0WlhNWWZaTV9rX3lQTWJkc1J2eVgtZlp3Xzkwc0FwVGRtQWlXMFlZWFdJRm5KTVFwZ1R1MldUcFlTMC02cVFaeVhvQ1NabXJ1bTZVVGZodXNSNXJVdWZtLVpwZzMwbGJmc1hQQkM4dzdmQUtNcGRYLVBuX1FLX2dvcVhCMWpNUmVtQXVMa3h0ZHl5bUNLT1JKZ2hfNENzV1A4?oc=5)
 

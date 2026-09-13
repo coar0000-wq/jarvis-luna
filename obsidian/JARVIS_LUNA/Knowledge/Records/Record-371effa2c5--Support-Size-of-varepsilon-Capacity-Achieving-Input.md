@@ -1,12 +1,12 @@
 ---
-title: "Record 371effa2c5 · Support-Size-of-varepsilon-Capacity-Achieving-Inputs-for-the-Amplitude"
+title: "Record 371effa2c5 · Support-Size-of-varepsilon-Capacity-Achieving-Input"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.022412+00:00
+updated_at: 2026-09-13T00:56:37.847240+00:00
 tags: [record, real-data]
 ---
 
-# Record 371effa2c5 · Support-Size-of-varepsilon-Capacity-Achieving-Inputs-for-the-Amplitude
+# Record 371effa2c5 · Support-Size-of-varepsilon-Capacity-Achieving-Input
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7154865307)
 

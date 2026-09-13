@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-13T00:32:35.114104+00:00",
+  "generated_at": "2026-09-13T00:54:45.349182+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "total": 7,
   "ready": 0,
@@ -281,7 +281,7 @@
       },
       "price": {
         "price_usd": 24.99,
-        "margin_pct": 32.4,
+        "margin_pct": 32.5,
         "register_blocked": false
       },
       "legal": {

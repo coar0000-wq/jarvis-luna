@@ -1,12 +1,12 @@
 ---
-title: "Record 825f9a547f · From-photons-to-electrons-making-electron-microscopy-a-local-discovery"
+title: "Record 825f9a547f · From-photons-to-electrons-making-electron-microscop"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.679860+00:00
+updated_at: 2026-09-13T00:56:37.532475+00:00
 tags: [record, real-data]
 ---
 
-# Record 825f9a547f · From-photons-to-electrons-making-electron-microscopy-a-local-discovery
+# Record 825f9a547f · From-photons-to-electrons-making-electron-microscop
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.26434/chemrxiv.15006831/v2)
 

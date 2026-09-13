@@ -1,12 +1,12 @@
 ---
-title: "Record f9090478af · Capital-Spending-Ai-Political-Pushback-Michael-Zezas-Ariana-Salvatore"
+title: "Record f9090478af · Capital-Spending-Ai-Political-Pushback-Michael-Zeza"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.165008+00:00
+updated_at: 2026-09-13T00:56:37.973903+00:00
 tags: [record, real-data]
 ---
 
-# Record f9090478af · Capital-Spending-Ai-Political-Pushback-Michael-Zezas-Ariana-Salvatore
+# Record f9090478af · Capital-Spending-Ai-Political-Pushback-Michael-Zeza
 
 > 실제 수집 레코드입니다. 원문: [www.morganstanley.com](https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/capital-spending-ai-political-pushback-michael-zezas-ariana-salvatore)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record a489308c81 · Post-Training-Language-Models-for-Gold-Medal-Performance-in-Coding-Com"
+title: "Record a489308c81 · Post-Training-Language-Models-for-Gold-Medal-Perfor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.475891+00:00
+updated_at: 2026-09-13T00:56:37.344723+00:00
 tags: [record, real-data]
 ---
 
-# Record a489308c81 · Post-Training-Language-Models-for-Gold-Medal-Performance-in-Coding-Com
+# Record a489308c81 · Post-Training-Language-Models-for-Gold-Medal-Perfor
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.02849v1)
 

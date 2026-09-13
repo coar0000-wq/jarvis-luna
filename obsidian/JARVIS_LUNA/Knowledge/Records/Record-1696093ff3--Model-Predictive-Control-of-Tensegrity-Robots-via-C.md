@@ -1,12 +1,12 @@
 ---
-title: "Record 1696093ff3 · Model-Predictive-Control-of-Tensegrity-Robots-via-Contact-Aware-Graph-"
+title: "Record 1696093ff3 · Model-Predictive-Control-of-Tensegrity-Robots-via-C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.522695+00:00
+updated_at: 2026-09-13T00:56:37.387414+00:00
 tags: [record, real-data]
 ---
 
-# Record 1696093ff3 · Model-Predictive-Control-of-Tensegrity-Robots-via-Contact-Aware-Graph-
+# Record 1696093ff3 · Model-Predictive-Control-of-Tensegrity-Robots-via-C
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.08958v1)
 

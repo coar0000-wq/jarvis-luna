@@ -1,12 +1,12 @@
 ---
-title: "Record 6c10fdf127 · Adaptation-Needs-in-Robotic-Systems-Assessing-Behavior-Trees-and-Their"
+title: "Record 6c10fdf127 · Adaptation-Needs-in-Robotic-Systems-Assessing-Behav"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.504892+00:00
+updated_at: 2026-09-13T00:56:37.370783+00:00
 tags: [record, real-data]
 ---
 
-# Record 6c10fdf127 · Adaptation-Needs-in-Robotic-Systems-Assessing-Behavior-Trees-and-Their
+# Record 6c10fdf127 · Adaptation-Needs-in-Robotic-Systems-Assessing-Behav
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.05331v1)
 

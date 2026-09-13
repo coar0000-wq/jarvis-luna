@@ -1,12 +1,12 @@
 ---
-title: "Record 683fc9e066 · Why-Korean-Beauty-Products-Are-Appearing-in-More-Mainstream-US-Stores-"
+title: "Record 683fc9e066 · Why-Korean-Beauty-Products-Are-Appearing-in-More-Ma"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.966173+00:00
+updated_at: 2026-09-13T00:56:37.795640+00:00
 tags: [record, real-data]
 ---
 
-# Record 683fc9e066 · Why-Korean-Beauty-Products-Are-Appearing-in-More-Mainstream-US-Stores-
+# Record 683fc9e066 · Why-Korean-Beauty-Products-Are-Appearing-in-More-Ma
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMirAFBVV95cUxObk9pR1JvZ1I2Q0tPQXVvUHRGU1djM3laSGlMNUc0eldHLVRlYjgwS0dFdllib2l5bFNPWU95Yk56eW0tMDFpZ3hiYVF4RFZnZWlQUUhpZ09mTjFEeVkzaEkzcEZJTVcyYURGQnNtTTZzU1otNWMyOTJHUjVjVlRsSzJMLUt2UG5xXzBpcjB4TTJlUm8waFFwVVNCaGwwU1pnbW5oWkp0WWhRaG9a?oc=5)
 

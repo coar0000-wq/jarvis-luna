@@ -1,12 +1,12 @@
 ---
-title: "Record 4fbff73bb2 · Unveiling-Hidden-Threats-with-ML-Powered-User-and-Entity-Behavior-Anal"
+title: "Record 4fbff73bb2 · Unveiling-Hidden-Threats-with-ML-Powered-User-and-E"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.728823+00:00
+updated_at: 2026-09-13T00:56:37.573050+00:00
 tags: [record, real-data]
 ---
 
-# Record 4fbff73bb2 · Unveiling-Hidden-Threats-with-ML-Powered-User-and-Entity-Behavior-Anal
+# Record 4fbff73bb2 · Unveiling-Hidden-Threats-with-ML-Powered-User-and-E
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.61841/turcomat.v15i1.14394)
 

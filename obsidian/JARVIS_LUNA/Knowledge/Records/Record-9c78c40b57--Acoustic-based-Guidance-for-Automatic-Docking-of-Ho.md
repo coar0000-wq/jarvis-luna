@@ -1,12 +1,12 @@
 ---
-title: "Record 9c78c40b57 · Acoustic-based-Guidance-for-Automatic-Docking-of-Holonomic-AUVs"
+title: "Record 9c78c40b57 · Acoustic-based-Guidance-for-Automatic-Docking-of-Ho"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.557425+00:00
+updated_at: 2026-09-13T00:56:37.420441+00:00
 tags: [record, real-data]
 ---
 
-# Record 9c78c40b57 · Acoustic-based-Guidance-for-Automatic-Docking-of-Holonomic-AUVs
+# Record 9c78c40b57 · Acoustic-based-Guidance-for-Automatic-Docking-of-Ho
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.11821v1)
 

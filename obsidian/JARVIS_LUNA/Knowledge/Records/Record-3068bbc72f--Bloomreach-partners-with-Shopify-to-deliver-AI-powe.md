@@ -1,12 +1,12 @@
 ---
-title: "Record 3068bbc72f · Bloomreach-partners-with-Shopify-to-deliver-AI-powered-personalization"
+title: "Record 3068bbc72f · Bloomreach-partners-with-Shopify-to-deliver-AI-powe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.800418+00:00
+updated_at: 2026-09-13T00:56:37.639333+00:00
 tags: [record, real-data]
 ---
 
-# Record 3068bbc72f · Bloomreach-partners-with-Shopify-to-deliver-AI-powered-personalization
+# Record 3068bbc72f · Bloomreach-partners-with-Shopify-to-deliver-AI-powe
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiXEFVX3lxTE1wNElIbTlsQ0xDM25IRjA4aldrU3d0YWEyY09HY1VNWVFmUmJxZWV5VEVLNldYX3NPU3o2WGxIampRaTRUaUowZ2dmQTUwZ0w5UGRvaTVQM2NQWmMt?oc=5)
 

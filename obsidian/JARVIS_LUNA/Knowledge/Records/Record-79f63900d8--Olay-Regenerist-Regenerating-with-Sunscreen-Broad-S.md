@@ -1,12 +1,12 @@
 ---
-title: "Record 79f63900d8 · Olay-Regenerist-Regenerating-with-Sunscreen-Broad-Spectrum-SPF-15"
+title: "Record 79f63900d8 · Olay-Regenerist-Regenerating-with-Sunscreen-Broad-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.463242+00:00
+updated_at: 2026-09-13T00:56:37.333514+00:00
 tags: [record, real-data]
 ---
 
-# Record 79f63900d8 · Olay-Regenerist-Regenerating-with-Sunscreen-Broad-Spectrum-SPF-15
+# Record 79f63900d8 · Olay-Regenerist-Regenerating-with-Sunscreen-Broad-S
 
 > 실제 수집 레코드입니다. 원문: [api.fda.gov](https://api.fda.gov/drug/label.json?search=id:46425877-3cf0-6496-e063-6294a90acf37)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 53ea3ef212 · Is-Shipyard-Welding-the-Right-First-Job-for-Humanoid-Robots"
+title: "Record 53ea3ef212 · Is-Shipyard-Welding-the-Right-First-Job-for-Humanoi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.051241+00:00
+updated_at: 2026-09-13T00:56:37.874416+00:00
 tags: [record, real-data]
 ---
 
-# Record 53ea3ef212 · Is-Shipyard-Welding-the-Right-First-Job-for-Humanoid-Robots
+# Record 53ea3ef212 · Is-Shipyard-Welding-the-Right-First-Job-for-Humanoi
 
 > 실제 수집 레코드입니다. 원문: [spectrum.ieee.org](https://spectrum.ieee.org/persona-ai-humanoid-robot-welding)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record b1b4ad0d4a · GigaPath-Flash-and-GigaTIME-Flash-Toward-population-scale-discovery-wi"
+title: "Record b1b4ad0d4a · GigaPath-Flash-and-GigaTIME-Flash-Toward-population"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.147269+00:00
+updated_at: 2026-09-13T00:56:37.959428+00:00
 tags: [record, real-data]
 ---
 
-# Record b1b4ad0d4a · GigaPath-Flash-and-GigaTIME-Flash-Toward-population-scale-discovery-wi
+# Record b1b4ad0d4a · GigaPath-Flash-and-GigaTIME-Flash-Toward-population
 
 > 실제 수집 레코드입니다. 원문: [www.microsoft.com](https://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models/)
 

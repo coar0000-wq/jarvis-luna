@@ -1,12 +1,12 @@
 ---
-title: "Record eea1bb7eca · AI-Influencers-What-They-Are-and-How-They-Work-2025---Shopify"
+title: "Record eea1bb7eca · AI-Influencers-What-They-Are-and-How-They-Work-2025"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.795178+00:00
+updated_at: 2026-09-13T00:56:37.634822+00:00
 tags: [record, real-data]
 ---
 
-# Record eea1bb7eca · AI-Influencers-What-They-Are-and-How-They-Work-2025---Shopify
+# Record eea1bb7eca · AI-Influencers-What-They-Are-and-How-They-Work-2025
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiWEFVX3lxTE9zOUxCMWF4VW96V0JRY01fcjBUTGNwYUcxcTd1Z0Nxa2ZYMmk5OXEwbVNCenJNTEJMME1Xb2FyU21LT0VtRmQ0aXUwUWU2Q0MzbWEzYUxEZjc?oc=5)
 

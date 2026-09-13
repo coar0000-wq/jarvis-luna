@@ -1,12 +1,12 @@
 ---
-title: "Record ee75cf09bd · I-hope-we-dont-do-to-trust-what-advertising-has-done-to-love"
+title: "Record ee75cf09bd · I-hope-we-dont-do-to-trust-what-advertising-has-don"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.023930+00:00
+updated_at: 2026-09-13T00:56:37.848734+00:00
 tags: [record, real-data]
 ---
 
-# Record ee75cf09bd · I-hope-we-dont-do-to-trust-what-advertising-has-done-to-love
+# Record ee75cf09bd · I-hope-we-dont-do-to-trust-what-advertising-has-don
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7159891488)
 

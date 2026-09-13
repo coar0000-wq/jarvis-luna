@@ -1,12 +1,12 @@
 ---
-title: "Record 36d89b6d62 · Osler-Weber-Rendu-Disease-Hereditary-Hemorrhagic-Telangiectasia-Type-2"
+title: "Record 36d89b6d62 · Osler-Weber-Rendu-Disease-Hereditary-Hemorrhagic-Te"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.577193+00:00
+updated_at: 2026-09-13T00:56:37.441228+00:00
 tags: [record, real-data]
 ---
 
-# Record 36d89b6d62 · Osler-Weber-Rendu-Disease-Hereditary-Hemorrhagic-Telangiectasia-Type-2
+# Record 36d89b6d62 · Osler-Weber-Rendu-Disease-Hereditary-Hemorrhagic-Te
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1002/mdc3.70806)
 

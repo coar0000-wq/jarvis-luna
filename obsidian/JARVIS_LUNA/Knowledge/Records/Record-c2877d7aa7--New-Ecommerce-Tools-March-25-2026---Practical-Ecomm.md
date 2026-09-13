@@ -1,12 +1,12 @@
 ---
-title: "Record c2877d7aa7 · New-Ecommerce-Tools-March-25-2026---Practical-Ecommerce"
+title: "Record c2877d7aa7 · New-Ecommerce-Tools-March-25-2026---Practical-Ecomm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.855552+00:00
+updated_at: 2026-09-13T00:56:37.692366+00:00
 tags: [record, real-data]
 ---
 
-# Record c2877d7aa7 · New-Ecommerce-Tools-March-25-2026---Practical-Ecommerce
+# Record c2877d7aa7 · New-Ecommerce-Tools-March-25-2026---Practical-Ecomm
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMid0FVX3lxTFB5TnV1aGRHUmpsejYtUlBoOTdfckZWSjV6U3ZVTWZ6bkE2T3NieWpaa1htQXM3eFVPWXVtMHFOXzEzTEozU3NpR2U5LTZNQUVldDZJQm1sSWNLdW1WWVhCNTlOMDZvSGIwa2h4VlBieGc4SDU2bndJ?oc=5)
 

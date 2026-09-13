@@ -1,12 +1,12 @@
 ---
-title: "Record 3569d31951 · Immaculate-Engineering-Meets-Artistic-Imagination-Highlights-From-Desi"
+title: "Record 3569d31951 · Immaculate-Engineering-Meets-Artistic-Imagination-H"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.992502+00:00
+updated_at: 2026-09-13T00:56:37.819832+00:00
 tags: [record, real-data]
 ---
 
-# Record 3569d31951 · Immaculate-Engineering-Meets-Artistic-Imagination-Highlights-From-Desi
+# Record 3569d31951 · Immaculate-Engineering-Meets-Artistic-Imagination-H
 
 > 실제 수집 레코드입니다. 원문: [news.samsung.com](https://news.samsung.com/global/immaculate-engineering-meets-artistic-imagination-highlights-from-design-miami-seoul-2026)
 

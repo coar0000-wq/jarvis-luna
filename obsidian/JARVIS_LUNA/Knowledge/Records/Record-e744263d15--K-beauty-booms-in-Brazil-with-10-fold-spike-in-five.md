@@ -1,12 +1,12 @@
 ---
-title: "Record e744263d15 · K-beauty-booms-in-Brazil-with-10-fold-spike-in-five-years---Korea-Joon"
+title: "Record e744263d15 · K-beauty-booms-in-Brazil-with-10-fold-spike-in-five"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.965917+00:00
+updated_at: 2026-09-13T00:56:37.795427+00:00
 tags: [record, real-data]
 ---
 
-# Record e744263d15 · K-beauty-booms-in-Brazil-with-10-fold-spike-in-five-years---Korea-Joon
+# Record e744263d15 · K-beauty-booms-in-Brazil-with-10-fold-spike-in-five
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMirAFBVV95cUxOTlVrRmVkSjd5ek8xYTlmRWo0dzVRYkdqRjU4NUR0YllGUUtkd1VoelpnLVc1NHFQdjd2WHZ6S2ljRkR5dzZSRmJoRmtkUGdMVU1XdHBENzFDSS1OemRmeGJyX3hTYnVaTHlQczRPN0VmYm5LaVB2c2Q1eVAtR2pEZ0cwSE94THZUQ0JSd2hWVkFIWUlMOGN5LW5qaklYNHpVdXZBelFJdVdmdngt?oc=5)
 

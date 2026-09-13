@@ -1,12 +1,12 @@
 ---
-title: "Record 14f706564a · What-Is-The-Outlook-For-Diesel-And-Gasoline-Supplies---Transcript"
+title: "Record 14f706564a · What-Is-The-Outlook-For-Diesel-And-Gasoline-Supplie"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.134519+00:00
+updated_at: 2026-09-13T00:56:37.949103+00:00
 tags: [record, real-data]
 ---
 
-# Record 14f706564a · What-Is-The-Outlook-For-Diesel-And-Gasoline-Supplies---Transcript
+# Record 14f706564a · What-Is-The-Outlook-For-Diesel-And-Gasoline-Supplie
 
 > 실제 수집 레코드입니다. 원문: [www.goldmansachs.com](https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/what-is-the-outlook-for-diesel-and-gasoline-supplies/transcript.pdf)
 

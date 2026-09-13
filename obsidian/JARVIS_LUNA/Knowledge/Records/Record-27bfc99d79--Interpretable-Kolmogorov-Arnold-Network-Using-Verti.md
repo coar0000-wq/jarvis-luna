@@ -1,12 +1,12 @@
 ---
-title: "Record 27bfc99d79 · Interpretable-Kolmogorov-Arnold-Network-Using-Vertical-NAND-Flash-Memo"
+title: "Record 27bfc99d79 · Interpretable-Kolmogorov-Arnold-Network-Using-Verti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.668337+00:00
+updated_at: 2026-09-13T00:56:37.522943+00:00
 tags: [record, real-data]
 ---
 
-# Record 27bfc99d79 · Interpretable-Kolmogorov-Arnold-Network-Using-Vertical-NAND-Flash-Memo
+# Record 27bfc99d79 · Interpretable-Kolmogorov-Arnold-Network-Using-Verti
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.21203/rs.3.rs-10109396/v1)
 

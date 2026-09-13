@@ -1,12 +1,12 @@
 ---
-title: "Record 0180f71744 · A-Two-Stage-Model-Based-Reinforcement-Learning-Approach-for-Active-Flo"
+title: "Record 0180f71744 · A-Two-Stage-Model-Based-Reinforcement-Learning-Appr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.516029+00:00
+updated_at: 2026-09-13T00:56:37.381177+00:00
 tags: [record, real-data]
 ---
 
-# Record 0180f71744 · A-Two-Stage-Model-Based-Reinforcement-Learning-Approach-for-Active-Flo
+# Record 0180f71744 · A-Two-Stage-Model-Based-Reinforcement-Learning-Appr
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.08436v1)
 

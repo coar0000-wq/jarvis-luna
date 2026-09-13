@@ -1,12 +1,12 @@
 ---
-title: "Record b9aab524ab · Bellman-Calibration-for-Marginalized-Importance-Weighting-in-Offline-R"
+title: "Record b9aab524ab · Bellman-Calibration-for-Marginalized-Importance-Wei"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.263262+00:00
+updated_at: 2026-09-13T00:56:38.058283+00:00
 tags: [record, real-data]
 ---
 
-# Record b9aab524ab · Bellman-Calibration-for-Marginalized-Importance-Weighting-in-Offline-R
+# Record b9aab524ab · Bellman-Calibration-for-Marginalized-Importance-Wei
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.24858v1)
 

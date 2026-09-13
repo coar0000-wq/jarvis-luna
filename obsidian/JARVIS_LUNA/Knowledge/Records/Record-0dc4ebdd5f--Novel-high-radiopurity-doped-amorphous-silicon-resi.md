@@ -1,12 +1,12 @@
 ---
-title: "Record 0dc4ebdd5f · Novel-high-radiopurity-doped-amorphous-silicon-resistors-for-low-backg"
+title: "Record 0dc4ebdd5f · Novel-high-radiopurity-doped-amorphous-silicon-resi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.598206+00:00
+updated_at: 2026-09-13T00:56:37.460697+00:00
 tags: [record, real-data]
 ---
 
-# Record 0dc4ebdd5f · Novel-high-radiopurity-doped-amorphous-silicon-resistors-for-low-backg
+# Record 0dc4ebdd5f · Novel-high-radiopurity-doped-amorphous-silicon-resi
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.nima.2026.171547)
 

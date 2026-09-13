@@ -1,12 +1,12 @@
 ---
-title: "Record 3802aa15c4 · Expanding-AI-access-and-cyber-defense-for-federal-state-local-and-trib"
+title: "Record 3802aa15c4 · Expanding-AI-access-and-cyber-defense-for-federal-s"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.010190+00:00
+updated_at: 2026-09-13T00:56:37.835838+00:00
 tags: [record, real-data]
 ---
 
-# Record 3802aa15c4 · Expanding-AI-access-and-cyber-defense-for-federal-state-local-and-trib
+# Record 3802aa15c4 · Expanding-AI-access-and-cyber-defense-for-federal-s
 
 > 실제 수집 레코드입니다. 원문: [openai.com](https://openai.com/index/expanding-ai-access-us-government)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 9f1a8e1694 · Britain-Is-More-Yimby-Than-Nimby-As-Social-Housing-Tops-Consume"
+title: "Record 9f1a8e1694 · Britain-Is-More-Yimby-Than-Nimby-As-Social-Housing-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.743448+00:00
+updated_at: 2026-09-13T00:56:37.586789+00:00
 tags: [record, real-data]
 ---
 
-# Record 9f1a8e1694 · Britain-Is-More-Yimby-Than-Nimby-As-Social-Housing-Tops-Consume
+# Record 9f1a8e1694 · Britain-Is-More-Yimby-Than-Nimby-As-Social-Housing-
 
 > 실제 수집 레코드입니다. 원문: [home.barclays](https://home.barclays/news/press-releases/20260/080/britain-is-more-yimby-than-nimby--as-social-housing-tops-consume/)
 

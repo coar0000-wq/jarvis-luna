@@ -1,12 +1,12 @@
 ---
-title: "Record 70d25b8614 · How-much-does-an-AI-answer-change-on-its-own-A-small-sample-measuremen"
+title: "Record 70d25b8614 · How-much-does-an-AI-answer-change-on-its-own-A-smal"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.714986+00:00
+updated_at: 2026-09-13T00:56:37.560867+00:00
 tags: [record, real-data]
 ---
 
-# Record 70d25b8614 · How-much-does-an-AI-answer-change-on-its-own-A-small-sample-measuremen
+# Record 70d25b8614 · How-much-does-an-AI-answer-change-on-its-own-A-smal
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.21606840)
 

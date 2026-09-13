@@ -1,12 +1,12 @@
 ---
-title: "Record 7cec6dcbd5 · NexCOBOT-discusses-physical-AI-market-hurdles-and-acceleration"
+title: "Record 7cec6dcbd5 · NexCOBOT-discusses-physical-AI-market-hurdles-and-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.178308+00:00
+updated_at: 2026-09-13T00:56:37.984155+00:00
 tags: [record, real-data]
 ---
 
-# Record 7cec6dcbd5 · NexCOBOT-discusses-physical-AI-market-hurdles-and-acceleration
+# Record 7cec6dcbd5 · NexCOBOT-discusses-physical-AI-market-hurdles-and-a
 
 > 실제 수집 레코드입니다. 원문: [www.therobotreport.com](https://www.therobotreport.com/nexcobot-discusses-physical-ai-market-hurdles-and-acceleration/)
 

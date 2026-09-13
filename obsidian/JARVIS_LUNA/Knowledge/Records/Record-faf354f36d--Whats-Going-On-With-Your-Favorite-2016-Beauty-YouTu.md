@@ -1,12 +1,12 @@
 ---
-title: "Record faf354f36d · Whats-Going-On-With-Your-Favorite-2016-Beauty-YouTubers"
+title: "Record faf354f36d · Whats-Going-On-With-Your-Favorite-2016-Beauty-YouTu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.080404+00:00
+updated_at: 2026-09-13T00:56:37.899420+00:00
 tags: [record, real-data]
 ---
 
-# Record faf354f36d · Whats-Going-On-With-Your-Favorite-2016-Beauty-YouTubers
+# Record faf354f36d · Whats-Going-On-With-Your-Favorite-2016-Beauty-YouTu
 
 > 실제 수집 레코드입니다. 원문: [www.allure.com](https://www.allure.com/story/2016-beauty-youtubers-interview)
 

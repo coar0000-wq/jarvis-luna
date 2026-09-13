@@ -1,12 +1,12 @@
 ---
-title: "Record 1f228f9f6b · Donated-Human-Skin-Treatments-Propel-K-Beauty-Stock-Rally---Briefs-Fin"
+title: "Record 1f228f9f6b · Donated-Human-Skin-Treatments-Propel-K-Beauty-Stock"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.914140+00:00
+updated_at: 2026-09-13T00:56:37.747927+00:00
 tags: [record, real-data]
 ---
 
-# Record 1f228f9f6b · Donated-Human-Skin-Treatments-Propel-K-Beauty-Stock-Rally---Briefs-Fin
+# Record 1f228f9f6b · Donated-Human-Skin-Treatments-Propel-K-Beauty-Stock
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMijgFBVV95cUxNakdNM2pXRHpIZ2JDb2loZUpYRS1mOW41alZscXVUalpPYkVUUkQzX0hvSjZHeEdhMm5rUkJMM2g4WG9ZZkpFcGVuaGZNZjUwVDF3U0tFMXlzMENFdWhQOUpTTVlPelhzb1BEVDkyWGp0VURQOFpXY0tPeFhmdDdnckVjbXVncE0xM2pGNkln?oc=5)
 

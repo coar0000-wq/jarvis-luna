@@ -1,12 +1,12 @@
 ---
-title: "Record 0d88967656 · Truthful-Calibration-Measures-for-Sequential-Prediction"
+title: "Record 0d88967656 · Truthful-Calibration-Measures-for-Sequential-Predic"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.253334+00:00
+updated_at: 2026-09-13T00:56:38.048993+00:00
 tags: [record, real-data]
 ---
 
-# Record 0d88967656 · Truthful-Calibration-Measures-for-Sequential-Prediction
+# Record 0d88967656 · Truthful-Calibration-Measures-for-Sequential-Predic
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.21348v1)
 

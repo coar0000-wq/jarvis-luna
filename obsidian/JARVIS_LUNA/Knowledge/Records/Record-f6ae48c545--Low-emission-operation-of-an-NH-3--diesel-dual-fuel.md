@@ -1,12 +1,12 @@
 ---
-title: "Record f6ae48c545 · Low-emission-operation-of-an-NH-3--diesel-dual-fuel-4-stroke-engine-ta"
+title: "Record f6ae48c545 · Low-emission-operation-of-an-NH-3--diesel-dual-fuel"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.656964+00:00
+updated_at: 2026-09-13T00:56:37.513673+00:00
 tags: [record, real-data]
 ---
 
-# Record f6ae48c545 · Low-emission-operation-of-an-NH-3--diesel-dual-fuel-4-stroke-engine-ta
+# Record f6ae48c545 · Low-emission-operation-of-an-NH-3--diesel-dual-fuel
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1177/14680874261460191)
 

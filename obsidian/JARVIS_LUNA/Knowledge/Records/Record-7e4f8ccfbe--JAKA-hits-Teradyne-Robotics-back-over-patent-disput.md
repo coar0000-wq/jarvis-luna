@@ -1,12 +1,12 @@
 ---
-title: "Record 7e4f8ccfbe · JAKA-hits-Teradyne-Robotics-back-over-patent-dispute"
+title: "Record 7e4f8ccfbe · JAKA-hits-Teradyne-Robotics-back-over-patent-disput"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.176119+00:00
+updated_at: 2026-09-13T00:56:37.982321+00:00
 tags: [record, real-data]
 ---
 
-# Record 7e4f8ccfbe · JAKA-hits-Teradyne-Robotics-back-over-patent-dispute
+# Record 7e4f8ccfbe · JAKA-hits-Teradyne-Robotics-back-over-patent-disput
 
 > 실제 수집 레코드입니다. 원문: [www.therobotreport.com](https://www.therobotreport.com/jaka-hits-teradyne-robotics-back-over-patent-dispute/)
 

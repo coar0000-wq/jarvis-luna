@@ -1,12 +1,12 @@
 ---
-title: "Record 49af5a6e2d · A-Low-Cost-Open-Platform-for-End-to-End-Autonomous-Driving-on-a-Miniat"
+title: "Record 49af5a6e2d · A-Low-Cost-Open-Platform-for-End-to-End-Autonomous-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.490142+00:00
+updated_at: 2026-09-13T00:56:37.357673+00:00
 tags: [record, real-data]
 ---
 
-# Record 49af5a6e2d · A-Low-Cost-Open-Platform-for-End-to-End-Autonomous-Driving-on-a-Miniat
+# Record 49af5a6e2d · A-Low-Cost-Open-Platform-for-End-to-End-Autonomous-
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.04147v1)
 

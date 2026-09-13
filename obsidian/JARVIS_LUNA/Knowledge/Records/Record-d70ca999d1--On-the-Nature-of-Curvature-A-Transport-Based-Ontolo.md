@@ -1,12 +1,12 @@
 ---
-title: "Record d70ca999d1 · On-the-Nature-of-Curvature-A-Transport-Based-Ontology-for-Closure-Theo"
+title: "Record d70ca999d1 · On-the-Nature-of-Curvature-A-Transport-Based-Ontolo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.710245+00:00
+updated_at: 2026-09-13T00:56:37.556987+00:00
 tags: [record, real-data]
 ---
 
-# Record d70ca999d1 · On-the-Nature-of-Curvature-A-Transport-Based-Ontology-for-Closure-Theo
+# Record d70ca999d1 · On-the-Nature-of-Curvature-A-Transport-Based-Ontolo
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.21400052)
 

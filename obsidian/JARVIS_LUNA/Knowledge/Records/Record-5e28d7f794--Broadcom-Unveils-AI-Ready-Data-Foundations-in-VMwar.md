@@ -1,12 +1,12 @@
 ---
-title: "Record 5e28d7f794 · Broadcom-Unveils-AI-Ready-Data-Foundations-in-VMware-Tanzu-Platform-to"
+title: "Record 5e28d7f794 · Broadcom-Unveils-AI-Ready-Data-Foundations-in-VMwar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.752880+00:00
+updated_at: 2026-09-13T00:56:37.595403+00:00
 tags: [record, real-data]
 ---
 
-# Record 5e28d7f794 · Broadcom-Unveils-AI-Ready-Data-Foundations-in-VMware-Tanzu-Platform-to
+# Record 5e28d7f794 · Broadcom-Unveils-AI-Ready-Data-Foundations-in-VMwar
 
 > 실제 수집 레코드입니다. 원문: [investors.broadcom.com](https://investors.broadcom.com/news-releases/news-release-details/broadcom-unveils-ai-ready-data-foundations-vmware-tanzu-platform)
 

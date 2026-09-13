@@ -1,12 +1,12 @@
 ---
-title: "Record d371e78261 · Rapid-Learning-of-Dexterous-In-Hand-Pen-Writing-through-Real-Time-Jaco"
+title: "Record d371e78261 · Rapid-Learning-of-Dexterous-In-Hand-Pen-Writing-thr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.556513+00:00
+updated_at: 2026-09-13T00:56:37.419519+00:00
 tags: [record, real-data]
 ---
 
-# Record d371e78261 · Rapid-Learning-of-Dexterous-In-Hand-Pen-Writing-through-Real-Time-Jaco
+# Record d371e78261 · Rapid-Learning-of-Dexterous-In-Hand-Pen-Writing-thr
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.11775v1)
 

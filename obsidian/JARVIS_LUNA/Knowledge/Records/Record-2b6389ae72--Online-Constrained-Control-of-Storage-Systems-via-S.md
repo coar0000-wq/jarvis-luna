@@ -1,12 +1,12 @@
 ---
-title: "Record 2b6389ae72 · Online-Constrained-Control-of-Storage-Systems-via-Simplex-Disturbance-"
+title: "Record 2b6389ae72 · Online-Constrained-Control-of-Storage-Systems-via-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.513046+00:00
+updated_at: 2026-09-13T00:56:37.378352+00:00
 tags: [record, real-data]
 ---
 
-# Record 2b6389ae72 · Online-Constrained-Control-of-Storage-Systems-via-Simplex-Disturbance-
+# Record 2b6389ae72 · Online-Constrained-Control-of-Storage-Systems-via-S
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.07690v1)
 

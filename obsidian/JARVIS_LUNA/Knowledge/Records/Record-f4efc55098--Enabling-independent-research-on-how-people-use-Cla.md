@@ -1,12 +1,12 @@
 ---
-title: "Record f4efc55098 · Enabling-independent-research-on-how-people-use-Claude"
+title: "Record f4efc55098 · Enabling-independent-research-on-how-people-use-Cla"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.110334+00:00
+updated_at: 2026-09-13T00:56:37.927815+00:00
 tags: [record, real-data]
 ---
 
-# Record f4efc55098 · Enabling-independent-research-on-how-people-use-Claude
+# Record f4efc55098 · Enabling-independent-research-on-how-people-use-Cla
 
 > 실제 수집 레코드입니다. 원문: [www.anthropic.com](https://www.anthropic.com/research/enabling-independent-research)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record a9a26e9bba · Self-Regulated-Learning-Strategies-and-Reading-and-Writing-Skills-of-S"
+title: "Record a9a26e9bba · Self-Regulated-Learning-Strategies-and-Reading-and-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.713921+00:00
+updated_at: 2026-09-13T00:56:37.559993+00:00
 tags: [record, real-data]
 ---
 
-# Record a9a26e9bba · Self-Regulated-Learning-Strategies-and-Reading-and-Writing-Skills-of-S
+# Record a9a26e9bba · Self-Regulated-Learning-Strategies-and-Reading-and-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.21493244)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 5d85a58a2d · Lessons-learned-from-ongoing-coordination-between-NRAOGBO-and-LEO-NGSO"
+title: "Record 5d85a58a2d · Lessons-learned-from-ongoing-coordination-between-N"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.037869+00:00
+updated_at: 2026-09-13T00:56:37.862488+00:00
 tags: [record, real-data]
 ---
 
-# Record 5d85a58a2d · Lessons-learned-from-ongoing-coordination-between-NRAOGBO-and-LEO-NGSO
+# Record 5d85a58a2d · Lessons-learned-from-ongoing-coordination-between-N
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7168329054)
 

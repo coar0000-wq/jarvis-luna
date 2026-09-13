@@ -1,12 +1,12 @@
 ---
-title: "Record 56fa4ad922 · MidTool-Mid-training-Data-Synthesis-for-Agentic-Tool-Use"
+title: "Record 56fa4ad922 · MidTool-Mid-training-Data-Synthesis-for-Agentic-Too"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.237908+00:00
+updated_at: 2026-09-13T00:56:38.035595+00:00
 tags: [record, real-data]
 ---
 
-# Record 56fa4ad922 · MidTool-Mid-training-Data-Synthesis-for-Agentic-Tool-Use
+# Record 56fa4ad922 · MidTool-Mid-training-Data-Synthesis-for-Agentic-Too
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.20314v1)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 06622fa0f7 · Effectiveness-of-Vaginal-Misoprostol-Compared-to-Oral-Misoprostol-in-t"
+title: "Record 06622fa0f7 · Effectiveness-of-Vaginal-Misoprostol-Compared-to-Or"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.693433+00:00
+updated_at: 2026-09-13T00:56:37.543586+00:00
 tags: [record, real-data]
 ---
 
-# Record 06622fa0f7 · Effectiveness-of-Vaginal-Misoprostol-Compared-to-Oral-Misoprostol-in-t
+# Record 06622fa0f7 · Effectiveness-of-Vaginal-Misoprostol-Compared-to-Or
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.36348/sijog.2026.v09i08.001)
 

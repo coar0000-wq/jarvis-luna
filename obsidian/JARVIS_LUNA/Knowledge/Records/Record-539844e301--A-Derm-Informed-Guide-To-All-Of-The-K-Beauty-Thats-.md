@@ -1,12 +1,12 @@
 ---
-title: "Record 539844e301 · A-Derm-Informed-Guide-To-All-Of-The-K-Beauty-Thats-Showing-Up-In-Your-"
+title: "Record 539844e301 · A-Derm-Informed-Guide-To-All-Of-The-K-Beauty-Thats-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.930371+00:00
+updated_at: 2026-09-13T00:56:37.762790+00:00
 tags: [record, real-data]
 ---
 
-# Record 539844e301 · A-Derm-Informed-Guide-To-All-Of-The-K-Beauty-Thats-Showing-Up-In-Your-
+# Record 539844e301 · A-Derm-Informed-Guide-To-All-Of-The-K-Beauty-Thats-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMilgFBVV95cUxQWEJNWlEwVUtMdnkxdWlkcm91RUw3bjRUYmtESEpjZW5TaDN4ajFrdlBvMVNfREJLUHNscUMwbVRMQjdQUEF0N1dicVp4X3RTRFFnT0JpOGc0LUs5X2dVaUduRC1POFlkOWY1QVAxazM4TW5aVjdqb0t4bUlWTm00NE94cXQzeXdIdjhSMThMZmh5X2lEaFE?oc=5)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 7a49a6ee12 · Prompt-Caching-on-Flash-Achieving-Memory-Class-Latency-for-LLM-Inferen"
+title: "Record 7a49a6ee12 · Prompt-Caching-on-Flash-Achieving-Memory-Class-Late"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.637149+00:00
+updated_at: 2026-09-13T00:56:37.496447+00:00
 tags: [record, real-data]
 ---
 
-# Record 7a49a6ee12 · Prompt-Caching-on-Flash-Achieving-Memory-Class-Latency-for-LLM-Inferen
+# Record 7a49a6ee12 · Prompt-Caching-on-Flash-Achieving-Memory-Class-Late
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1109/lca.2026.3711675)
 

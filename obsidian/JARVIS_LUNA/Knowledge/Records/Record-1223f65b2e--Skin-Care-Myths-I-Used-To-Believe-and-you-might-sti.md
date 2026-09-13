@@ -1,12 +1,12 @@
 ---
-title: "Record 1223f65b2e · Skin-Care-Myths-I-Used-To-Believe-and-you-might-still-too"
+title: "Record 1223f65b2e · Skin-Care-Myths-I-Used-To-Believe-and-you-might-sti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.209012+00:00
+updated_at: 2026-09-13T00:56:38.011873+00:00
 tags: [record, real-data]
 ---
 
-# Record 1223f65b2e · Skin-Care-Myths-I-Used-To-Believe-and-you-might-still-too
+# Record 1223f65b2e · Skin-Care-Myths-I-Used-To-Believe-and-you-might-sti
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/watch?v=1_v0eddr1Jo)
 

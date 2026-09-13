@@ -1,12 +1,12 @@
 ---
-title: "Record 511f8ab52c · Should-K-beauty-products-have-to-come-from-South-Korea---BBC"
+title: "Record 511f8ab52c · Should-K-beauty-products-have-to-come-from-South-Ko"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.796395+00:00
+updated_at: 2026-09-13T00:56:37.635913+00:00
 tags: [record, real-data]
 ---
 
-# Record 511f8ab52c · Should-K-beauty-products-have-to-come-from-South-Korea---BBC
+# Record 511f8ab52c · Should-K-beauty-products-have-to-come-from-South-Ko
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiWkFVX3lxTE9mOVZtSWJxMVFkN2NXcGYxaFBCV0RKVmJ4MnNMZFdfaDBad1pObzFvd0hqOHlmSm9SLWRkV3NTV05zM3NlX2xFTmExbzFRMEdMaU9JNVMwREhHdw?oc=5)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 468b97089b · Decoupling-the-Impact-of-Surface-Functionalization-over-Pt-at-the-Cath"
+title: "Record 468b97089b · Decoupling-the-Impact-of-Surface-Functionalization-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.609148+00:00
+updated_at: 2026-09-13T00:56:37.470627+00:00
 tags: [record, real-data]
 ---
 
-# Record 468b97089b · Decoupling-the-Impact-of-Surface-Functionalization-over-Pt-at-the-Cath
+# Record 468b97089b · Decoupling-the-Impact-of-Surface-Functionalization-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1021/jacs.6c11994)
 

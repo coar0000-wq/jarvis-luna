@@ -1,12 +1,12 @@
 ---
-title: "Record 57c077f038 · The-Hudson-Williams-Effect-K-Beauty-Brand-SKIN1004-Sells-Out-as-Actor-"
+title: "Record 57c077f038 · The-Hudson-Williams-Effect-K-Beauty-Brand-SKIN1004-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.903115+00:00
+updated_at: 2026-09-13T00:56:37.737786+00:00
 tags: [record, real-data]
 ---
 
-# Record 57c077f038 · The-Hudson-Williams-Effect-K-Beauty-Brand-SKIN1004-Sells-Out-as-Actor-
+# Record 57c077f038 · The-Hudson-Williams-Effect-K-Beauty-Brand-SKIN1004-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiiAFBVV95cUxNc0YwTWI5YW9UUU9OQmwwbDFwX19ieF9pWFFIT3RKN2pJZUhWRC1JYXdLRmhPYlcxR3o5TExOWlFPNFBKM2xJNVRlWmFFUzhXbWxJbUU1ZEszbWJZNmVVdGlhb0RXc0RkamlHUDltQ0R5QmpDbHdpVWpMZXhwSGpiTHZfanlncWh3?oc=5)
 

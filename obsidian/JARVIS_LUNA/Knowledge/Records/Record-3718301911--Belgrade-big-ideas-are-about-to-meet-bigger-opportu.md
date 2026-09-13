@@ -1,12 +1,12 @@
 ---
-title: "Record 3718301911 · Belgrade-big-ideas-are-about-to-meet-bigger-opportunities---CJEC-Belgr"
+title: "Record 3718301911 · Belgrade-big-ideas-are-about-to-meet-bigger-opportu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.205060+00:00
+updated_at: 2026-09-13T00:56:38.007502+00:00
 tags: [record, real-data]
 ---
 
-# Record 3718301911 · Belgrade-big-ideas-are-about-to-meet-bigger-opportunities---CJEC-Belgr
+# Record 3718301911 · Belgrade-big-ideas-are-about-to-meet-bigger-opportu
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/shorts/nSmqANOH2yQ)
 

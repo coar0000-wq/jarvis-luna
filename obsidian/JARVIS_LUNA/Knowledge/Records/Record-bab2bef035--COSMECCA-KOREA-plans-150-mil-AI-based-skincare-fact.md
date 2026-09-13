@@ -1,18 +1,18 @@
 ---
-title: "Record bab2bef035 · COSMECCA-KOREA-plans-150-mil-AI-based-skincare-factory-in-Korea---kore"
+title: "Record bab2bef035 · COSMECCA-KOREA-plans-150-mil-AI-based-skincare-fact"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.842125+00:00
+updated_at: 2026-09-13T00:56:37.678430+00:00
 tags: [record, real-data]
 ---
 
-# Record bab2bef035 · COSMECCA-KOREA-plans-150-mil-AI-based-skincare-factory-in-Korea---kore
+# Record bab2bef035 · COSMECCA-KOREA-plans-150-mil-AI-based-skincare-fact
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMibkFVX3lxTE5JOHRFeGJMRElFbVVDVkNFMXdWZTVvVWF1Sy1nckZmdHU2dVNuVlRyYktZZ0RnTTU1aWUwT3Z0LVJxeGxrRnVpaHV6RHNjaHVrQVJNNDVkVlQ1SXZTNFluWFBiWGZ4bURabzZIZUJ30gFyQVVfeXFMUHJVc2QwM0dFXzMyM1Jjek50c3A0LVp4NXo5MVhIb0haZ1JILVdWYUpTV0NVNUtXaExVdUw2Q1YxOVpfU3NMalBJMWZ4b0tJS1gxSnJacEpuQnRkSE1YdUd4dzVJMnRVQktqNnl2Rnk4Ymp3?oc=5)
 
-**제목:** COSMECCA KOREA plans $150 mil. AI-based skincare factory in Korea - koreabiomed.com
+**제목:** COSMECCA KOREA plans $150 mil. AI-based skincare factory in Korea - Korea Biomedical Review
 
-COSMECCA KOREA plans $150 mil. AI-based skincare factory in Korea - koreabiomed.com
+COSMECCA KOREA plans $150 mil. AI-based skincare factory in Korea - Korea Biomedical Review
 
 **출처:** Source · Google Search
 

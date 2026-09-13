@@ -1,12 +1,12 @@
 ---
-title: "Record 1c78123f4b · Scientific-computing-in-the-age-of-agentic-AI-an-exploratory-field-rep"
+title: "Record 1c78123f4b · Scientific-computing-in-the-age-of-agentic-AI-an-ex"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.732069+00:00
+updated_at: 2026-09-13T00:56:37.576143+00:00
 tags: [record, real-data]
 ---
 
-# Record 1c78123f4b · Scientific-computing-in-the-age-of-agentic-AI-an-exploratory-field-rep
+# Record 1c78123f4b · Scientific-computing-in-the-age-of-agentic-AI-an-ex
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.64898/2026.07.29.741496)
 

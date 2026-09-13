@@ -1,12 +1,12 @@
 ---
-title: "Record a8acad9320 · Characteristics-of-Butt-Fusion-Welding-Conditions-for-Ethylene-Chlorot"
+title: "Record a8acad9320 · Characteristics-of-Butt-Fusion-Welding-Conditions-f"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.726189+00:00
+updated_at: 2026-09-13T00:56:37.570609+00:00
 tags: [record, real-data]
 ---
 
-# Record a8acad9320 · Characteristics-of-Butt-Fusion-Welding-Conditions-for-Ethylene-Chlorot
+# Record a8acad9320 · Characteristics-of-Butt-Fusion-Welding-Conditions-f
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5781/jwj.2026.44.4.11)
 

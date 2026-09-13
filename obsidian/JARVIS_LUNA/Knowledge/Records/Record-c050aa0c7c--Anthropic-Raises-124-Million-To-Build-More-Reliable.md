@@ -1,12 +1,12 @@
 ---
-title: "Record c050aa0c7c · Anthropic-Raises-124-Million-To-Build-More-Reliable-General-Ai-Systems"
+title: "Record c050aa0c7c · Anthropic-Raises-124-Million-To-Build-More-Reliable"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.097593+00:00
+updated_at: 2026-09-13T00:56:37.913241+00:00
 tags: [record, real-data]
 ---
 
-# Record c050aa0c7c · Anthropic-Raises-124-Million-To-Build-More-Reliable-General-Ai-Systems
+# Record c050aa0c7c · Anthropic-Raises-124-Million-To-Build-More-Reliable
 
 > 실제 수집 레코드입니다. 원문: [www.anthropic.com](https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems)
 

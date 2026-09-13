@@ -1,12 +1,12 @@
 ---
-title: "Record 40325ee191 · Distributed-ToA-Localization-of-Acoustic-Sources-with-Unknown-Time-of-"
+title: "Record 40325ee191 · Distributed-ToA-Localization-of-Acoustic-Sources-wi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.533939+00:00
+updated_at: 2026-09-13T00:56:37.397595+00:00
 tags: [record, real-data]
 ---
 
-# Record 40325ee191 · Distributed-ToA-Localization-of-Acoustic-Sources-with-Unknown-Time-of-
+# Record 40325ee191 · Distributed-ToA-Localization-of-Acoustic-Sources-wi
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.10182v1)
 

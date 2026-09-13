@@ -1,12 +1,12 @@
 ---
-title: "Record 41ba51dd2f · 10-Applications-of-AI-in-Business-2026-Guide---Shopify"
+title: "Record 41ba51dd2f · 10-Applications-of-AI-in-Business-2026-Guide---Shop"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.835994+00:00
+updated_at: 2026-09-13T00:56:37.672061+00:00
 tags: [record, real-data]
 ---
 
-# Record 41ba51dd2f · 10-Applications-of-AI-in-Business-2026-Guide---Shopify
+# Record 41ba51dd2f · 10-Applications-of-AI-in-Business-2026-Guide---Shop
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMib0FVX3lxTFBDUzN4b20yNVBHSUY5OUQ2SlYwRndKVG1iV1M2SEFYb1k4T0ljTXhoejNKc2tsZmo3UnJSQ1hzYVFBWEtOTHV5QWNPVktBVVc1ZGVoalBSNHZLaHozV24tcVZjcWxEZ0Rjaml4d3hXYw?oc=5)
 

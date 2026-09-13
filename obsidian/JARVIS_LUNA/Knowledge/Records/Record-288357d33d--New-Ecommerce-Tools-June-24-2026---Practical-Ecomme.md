@@ -1,12 +1,12 @@
 ---
-title: "Record 288357d33d · New-Ecommerce-Tools-June-24-2026---Practical-Ecommerce"
+title: "Record 288357d33d · New-Ecommerce-Tools-June-24-2026---Practical-Ecomme"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.859967+00:00
+updated_at: 2026-09-13T00:56:37.697010+00:00
 tags: [record, real-data]
 ---
 
-# Record 288357d33d · New-Ecommerce-Tools-June-24-2026---Practical-Ecommerce
+# Record 288357d33d · New-Ecommerce-Tools-June-24-2026---Practical-Ecomme
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMidkFVX3lxTE1YR0lkbDUtblJOajFhYkVreGlscDlCRnFtS2dBdy0xendNOVlZSmhidUlTUGJXcjVOb3JzNEk4eTRTaDhrX1V0Q1dmYzRSZkxXMjlNY0t0NkhZRV9FdUlLZS1YYzYwRVNIeHFXTmk4VUxBa2dIOGc?oc=5)
 

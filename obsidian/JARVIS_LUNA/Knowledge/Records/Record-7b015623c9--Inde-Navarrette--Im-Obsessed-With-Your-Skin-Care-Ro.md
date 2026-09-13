@@ -1,12 +1,12 @@
 ---
-title: "Record 7b015623c9 · Inde-Navarrette--Im-Obsessed-With-Your-Skin-Care-Routine"
+title: "Record 7b015623c9 · Inde-Navarrette--Im-Obsessed-With-Your-Skin-Care-Ro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.214174+00:00
+updated_at: 2026-09-13T00:56:38.016522+00:00
 tags: [record, real-data]
 ---
 
-# Record 7b015623c9 · Inde-Navarrette--Im-Obsessed-With-Your-Skin-Care-Routine
+# Record 7b015623c9 · Inde-Navarrette--Im-Obsessed-With-Your-Skin-Care-Ro
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/watch?v=HTVhnahxInY)
 

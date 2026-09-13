@@ -1,12 +1,12 @@
 ---
-title: "Record 14f4c8cb6a · TikTok-launches-Beauty-Fest-2026-with-Own-Your-Beautiful-The-Glow-Up-M"
+title: "Record 14f4c8cb6a · TikTok-launches-Beauty-Fest-2026-with-Own-Your-Beau"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.776530+00:00
+updated_at: 2026-09-13T00:56:37.617515+00:00
 tags: [record, real-data]
 ---
 
-# Record 14f4c8cb6a · TikTok-launches-Beauty-Fest-2026-with-Own-Your-Beautiful-The-Glow-Up-M
+# Record 14f4c8cb6a · TikTok-launches-Beauty-Fest-2026-with-Own-Your-Beau
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMi3gFBVV95cUxOb0tvZ3pOTlNCZkFfSWxSMXhydU9FWXFsTFhTeFU4dzkwS0RVM2RBNnh6Y2lNT0Vvc2czaUZxOVJvVUJndUN5em5fZzgyX2xXeWdFMV9CYkZxZTFUMklGelE4Q21tTzV5VVY4cEQtUDRGcC1Rc2ZyV3ZSZHpHRGdzRWpncWQyT1BNekpqM19ISXNETWRrdWozYmo5WURYb3hndXFJRk5reTZnTDY1WXNvbVV5WFVSb0s3c0tFakJua1ladjlFMVZnZDV5WFJtN1YzZmlpTmpKTlBXa09fWkE?oc=5)
 

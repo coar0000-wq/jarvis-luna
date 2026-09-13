@@ -1,12 +1,12 @@
 ---
-title: "Record 7250c4d3ee · Frontend-Engineering-at-Palantir-Engineering-Multilingual-Collaboratio"
+title: "Record 7250c4d3ee · Frontend-Engineering-at-Palantir-Engineering-Multil"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.561883+00:00
+updated_at: 2026-09-13T00:56:37.425111+00:00
 tags: [record, real-data]
 ---
 
-# Record 7250c4d3ee · Frontend-Engineering-at-Palantir-Engineering-Multilingual-Collaboratio
+# Record 7250c4d3ee · Frontend-Engineering-at-Palantir-Engineering-Multil
 
 > 실제 수집 레코드입니다. 원문: [blog.palantir.com](https://blog.palantir.com/frontend-engineering-at-palantir-engineering-multilingual-collaboration-58217e196bed?source=rss----3c87dc14372f---4)
 

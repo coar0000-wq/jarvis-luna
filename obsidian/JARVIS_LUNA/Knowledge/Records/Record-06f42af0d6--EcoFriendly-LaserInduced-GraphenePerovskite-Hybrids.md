@@ -1,12 +1,12 @@
 ---
-title: "Record 06f42af0d6 · EcoFriendly-LaserInduced-GraphenePerovskite-Hybrids-for-EcoFriendly-Ph"
+title: "Record 06f42af0d6 · EcoFriendly-LaserInduced-GraphenePerovskite-Hybrids"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.574710+00:00
+updated_at: 2026-09-13T00:56:37.438518+00:00
 tags: [record, real-data]
 ---
 
-# Record 06f42af0d6 · EcoFriendly-LaserInduced-GraphenePerovskite-Hybrids-for-EcoFriendly-Ph
+# Record 06f42af0d6 · EcoFriendly-LaserInduced-GraphenePerovskite-Hybrids
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1002/aelm.70522)
 

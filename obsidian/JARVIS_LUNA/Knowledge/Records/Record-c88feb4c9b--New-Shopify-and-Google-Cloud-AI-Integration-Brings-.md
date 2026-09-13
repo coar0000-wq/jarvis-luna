@@ -1,12 +1,12 @@
 ---
-title: "Record c88feb4c9b · New-Shopify-and-Google-Cloud-AI-Integration-Brings-Advanced-Ecommerce-"
+title: "Record c88feb4c9b · New-Shopify-and-Google-Cloud-AI-Integration-Brings-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.822015+00:00
+updated_at: 2026-09-13T00:56:37.659249+00:00
 tags: [record, real-data]
 ---
 
-# Record c88feb4c9b · New-Shopify-and-Google-Cloud-AI-Integration-Brings-Advanced-Ecommerce-
+# Record c88feb4c9b · New-Shopify-and-Google-Cloud-AI-Integration-Brings-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMi_gFBVV95cUxPR0djX0xaNVM3c0dSbXJUT0JkOGlTQ3RvV2x3YlR3ZVlrdThBSkVDRjlobENDdENUQjBUZWhlRHNFZHczYzRZRWNvb19rLXhRRmQwSE1xLWNUSk5VVmpRVWdIMFhsR3JDZWJsZXI3a1FOc01lcVh4TEF0MFhwWjlRdm9wT2lqcmhuNWhCYXB1R2FsbnNEZzlrY0hBUE1hZW1ZVzZ1M0s0b2xqUXJCOWZDUzNteDgyak5nMi1nQXhCbTR5OGJZV09YYzd3dzNGMW9YWFl4aWJ3LWJnWkZlRVJwWFp3bk0xblp0dnNkOFIzMGx2bmN0UDdTck8tMVJpZw?oc=5)
 

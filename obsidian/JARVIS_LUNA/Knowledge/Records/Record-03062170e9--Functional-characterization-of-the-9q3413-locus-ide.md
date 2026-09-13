@@ -1,12 +1,12 @@
 ---
-title: "Record 03062170e9 · Functional-characterization-of-the-9q3413-locus-identifies-RAPGEF1-as-"
+title: "Record 03062170e9 · Functional-characterization-of-the-9q3413-locus-ide"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.586593+00:00
+updated_at: 2026-09-13T00:56:37.450367+00:00
 tags: [record, real-data]
 ---
 
-# Record 03062170e9 · Functional-characterization-of-the-9q3413-locus-identifies-RAPGEF1-as-
+# Record 03062170e9 · Functional-characterization-of-the-9q3413-locus-ide
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.ajhg.2026.08.014)
 

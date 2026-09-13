@@ -1,12 +1,12 @@
 ---
-title: "Record 2caad961d9 · Evaluating-the-Fourier-Approximation-in-Pulsar-Timing-Array-Analysis"
+title: "Record 2caad961d9 · Evaluating-the-Fourier-Approximation-in-Pulsar-Timi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.034020+00:00
+updated_at: 2026-09-13T00:56:37.857944+00:00
 tags: [record, real-data]
 ---
 
-# Record 2caad961d9 · Evaluating-the-Fourier-Approximation-in-Pulsar-Timing-Array-Analysis
+# Record 2caad961d9 · Evaluating-the-Fourier-Approximation-in-Pulsar-Timi
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7166900032)
 

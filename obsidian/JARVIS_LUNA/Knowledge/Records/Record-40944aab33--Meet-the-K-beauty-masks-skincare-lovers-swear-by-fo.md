@@ -1,12 +1,12 @@
 ---
-title: "Record 40944aab33 · Meet-the-K-beauty-masks-skincare-lovers-swear-by-for-achieving-a-true-"
+title: "Record 40944aab33 · Meet-the-K-beauty-masks-skincare-lovers-swear-by-fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.847097+00:00
+updated_at: 2026-09-13T00:56:37.683476+00:00
 tags: [record, real-data]
 ---
 
-# Record 40944aab33 · Meet-the-K-beauty-masks-skincare-lovers-swear-by-for-achieving-a-true-
+# Record 40944aab33 · Meet-the-K-beauty-masks-skincare-lovers-swear-by-fo
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMic0FVX3lxTFAzRUhWam1YWHZYXzlFQlVlMFcwRDBYX003QTZqSzM0WURnYnNudkZveEs3RHJCczBzSUpvMklOeXR3elA4ZVdIc2lDd2RNeEJLeE9RdGNEbVFrTjVhcnFPaUJSNEpNeXpWLWRpcGhQb0ozdU3SAXNBVV95cUxPV1Qwc05zNHBGQmhLclBFVzhrQjQ1bjBZWWFKa25fVllZRXRobkhXZGZpeUplUVFYTjJ4dEpBTDZ1TXVlc3FGT3FOOUl2VFBqdzhYcHRFeEtJV2ExN29TUTVQVVdVTmNwWW9YVHZHSkZ0TDZN?oc=5)
 

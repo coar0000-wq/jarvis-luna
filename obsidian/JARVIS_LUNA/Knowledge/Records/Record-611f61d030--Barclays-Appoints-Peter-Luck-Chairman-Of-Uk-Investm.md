@@ -1,12 +1,12 @@
 ---
-title: "Record 611f61d030 · Barclays-Appoints-Peter-Luck-Chairman-Of-Uk-Investment-Banking"
+title: "Record 611f61d030 · Barclays-Appoints-Peter-Luck-Chairman-Of-Uk-Investm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.740935+00:00
+updated_at: 2026-09-13T00:56:37.584447+00:00
 tags: [record, real-data]
 ---
 
-# Record 611f61d030 · Barclays-Appoints-Peter-Luck-Chairman-Of-Uk-Investment-Banking
+# Record 611f61d030 · Barclays-Appoints-Peter-Luck-Chairman-Of-Uk-Investm
 
 > 실제 수집 레코드입니다. 원문: [home.barclays](https://home.barclays/news/press-releases/20260/070/barclays-appoints-peter-luck-chairman-of-uk-investment-banking/)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 0fd9157cbb · NEXUS-Speeding-Up-the-Next-Wave-of-AI-Workloads-GNN-and-SSM-Optimizati"
+title: "Record 0fd9157cbb · NEXUS-Speeding-Up-the-Next-Wave-of-AI-Workloads-GNN"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.653276+00:00
+updated_at: 2026-09-13T00:56:37.510689+00:00
 tags: [record, real-data]
 ---
 
-# Record 0fd9157cbb · NEXUS-Speeding-Up-the-Next-Wave-of-AI-Workloads-GNN-and-SSM-Optimizati
+# Record 0fd9157cbb · NEXUS-Speeding-Up-the-Next-Wave-of-AI-Workloads-GNN
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1145/3846378)
 

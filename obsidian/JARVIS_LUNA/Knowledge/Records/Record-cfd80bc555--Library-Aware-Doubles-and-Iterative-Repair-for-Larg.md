@@ -1,12 +1,12 @@
 ---
-title: "Record cfd80bc555 · Library-Aware-Doubles-and-Iterative-Repair-for-Large-Language-Model-Ge"
+title: "Record cfd80bc555 · Library-Aware-Doubles-and-Iterative-Repair-for-Larg"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.030860+00:00
+updated_at: 2026-09-13T00:56:37.855124+00:00
 tags: [record, real-data]
 ---
 
-# Record cfd80bc555 · Library-Aware-Doubles-and-Iterative-Repair-for-Large-Language-Model-Ge
+# Record cfd80bc555 · Library-Aware-Doubles-and-Iterative-Repair-for-Larg
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7165424144)
 

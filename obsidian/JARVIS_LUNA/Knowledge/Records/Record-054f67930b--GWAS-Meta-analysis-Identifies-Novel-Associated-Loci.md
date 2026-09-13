@@ -1,12 +1,12 @@
 ---
-title: "Record 054f67930b · GWAS-Meta-analysis-Identifies-Novel-Associated-Loci-and-Points-to-Caus"
+title: "Record 054f67930b · GWAS-Meta-analysis-Identifies-Novel-Associated-Loci"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.731010+00:00
+updated_at: 2026-09-13T00:56:37.575146+00:00
 tags: [record, real-data]
 ---
 
-# Record 054f67930b · GWAS-Meta-analysis-Identifies-Novel-Associated-Loci-and-Points-to-Caus
+# Record 054f67930b · GWAS-Meta-analysis-Identifies-Novel-Associated-Loci
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.64898/2026.05.20.26353693)
 

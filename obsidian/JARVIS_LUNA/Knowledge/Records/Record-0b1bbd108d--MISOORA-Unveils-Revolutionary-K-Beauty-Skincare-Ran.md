@@ -1,12 +1,12 @@
 ---
-title: "Record 0b1bbd108d · MISOORA-Unveils-Revolutionary-K-Beauty-Skincare-Range-Emphasizing-Long"
+title: "Record 0b1bbd108d · MISOORA-Unveils-Revolutionary-K-Beauty-Skincare-Ran"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.964306+00:00
+updated_at: 2026-09-13T00:56:37.793936+00:00
 tags: [record, real-data]
 ---
 
-# Record 0b1bbd108d · MISOORA-Unveils-Revolutionary-K-Beauty-Skincare-Range-Emphasizing-Long
+# Record 0b1bbd108d · MISOORA-Unveils-Revolutionary-K-Beauty-Skincare-Ran
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVE9fT0g2cjNUMlVTdFN0V3daUlpVZm9nWGp3TmxQeGh5LWQ5bl9YeE81eWNHVV9Ga1ExSDlyOFRvM2JrcEZaN01lcDlEOGozZUczX1EzalpaNXpLaGtHcXd4cUhOaGdQRHVXWVB1NkJ2YU1zYkdZVDZQSFRSV1BCYmhTUDAwM1otRXk4Zk0zYzdSR3NOSzJkbk1udUdkNjNkY0JCdTl4QlBoblE?oc=5)
 

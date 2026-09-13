@@ -1,12 +1,12 @@
 ---
-title: "Record 8b0404025e · Filipinos-rebelling-against-extreme-TikTok-beauty-trends--doctor---Dai"
+title: "Record 8b0404025e · Filipinos-rebelling-against-extreme-TikTok-beauty-t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.947879+00:00
+updated_at: 2026-09-13T00:56:37.778846+00:00
 tags: [record, real-data]
 ---
 
-# Record 8b0404025e · Filipinos-rebelling-against-extreme-TikTok-beauty-trends--doctor---Dai
+# Record 8b0404025e · Filipinos-rebelling-against-extreme-TikTok-beauty-t
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMingFBVV95cUxQdTBmMFFFRG9JVkdQNDc1U2hGV2RleTBNZTh6MUtGcDludDFxYmtUNUJPLURVb2FTQjdxTnhhSGhVMW5KTzRndDdnRzVCdHVHVzVuX2kwWXltaWk4bW1CNl9LbnhGOHhibXc3NVprMEtlekI1S1FQQVRERDRrY1M4ZUNtcUZiMkQybDBuWGNXM2V1Z2NHLVhSY2tkQThsZw?oc=5)
 

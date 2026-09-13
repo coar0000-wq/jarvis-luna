@@ -1,12 +1,12 @@
 ---
-title: "Record d33abc6d69 · Your-Guide-to-the-Perfumes-That-Last-All-Day-and-Night"
+title: "Record d33abc6d69 · Your-Guide-to-the-Perfumes-That-Last-All-Day-and-Ni"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.087088+00:00
+updated_at: 2026-09-13T00:56:37.904801+00:00
 tags: [record, real-data]
 ---
 
-# Record d33abc6d69 · Your-Guide-to-the-Perfumes-That-Last-All-Day-and-Night
+# Record d33abc6d69 · Your-Guide-to-the-Perfumes-That-Last-All-Day-and-Ni
 
 > 실제 수집 레코드입니다. 원문: [www.allure.com](https://www.allure.com/story/longest-lasting-perfumes)
 

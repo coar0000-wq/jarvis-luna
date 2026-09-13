@@ -1,12 +1,12 @@
 ---
-title: "Record 2432594827 · Mixed-integer-optimization-for-multi-year-military-aircraft-fleet-mana"
+title: "Record 2432594827 · Mixed-integer-optimization-for-multi-year-military-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.554433+00:00
+updated_at: 2026-09-13T00:56:37.417383+00:00
 tags: [record, real-data]
 ---
 
-# Record 2432594827 · Mixed-integer-optimization-for-multi-year-military-aircraft-fleet-mana
+# Record 2432594827 · Mixed-integer-optimization-for-multi-year-military-
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.11710v1)
 

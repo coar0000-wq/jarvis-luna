@@ -1,12 +1,12 @@
 ---
-title: "Record 3dd0bc98b4 · Building-Intuition-in-Amplifier-Design-Using-Load-Pull-Based-Multi-Obj"
+title: "Record 3dd0bc98b4 · Building-Intuition-in-Amplifier-Design-Using-Load-P"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.635555+00:00
+updated_at: 2026-09-13T00:56:37.494986+00:00
 tags: [record, real-data]
 ---
 
-# Record 3dd0bc98b4 · Building-Intuition-in-Amplifier-Design-Using-Load-Pull-Based-Multi-Obj
+# Record 3dd0bc98b4 · Building-Intuition-in-Amplifier-Design-Using-Load-P
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1109/jmw.2026.3669005)
 

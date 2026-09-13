@@ -1,12 +1,12 @@
 ---
-title: "Record 4eb22a4a3c · Self-Regulated-Learning-Strategies-and-Reading-and-Writing-Skills-of-S"
+title: "Record 4eb22a4a3c · Self-Regulated-Learning-Strategies-and-Reading-and-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.713686+00:00
+updated_at: 2026-09-13T00:56:37.559802+00:00
 tags: [record, real-data]
 ---
 
-# Record 4eb22a4a3c · Self-Regulated-Learning-Strategies-and-Reading-and-Writing-Skills-of-S
+# Record 4eb22a4a3c · Self-Regulated-Learning-Strategies-and-Reading-and-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.21493243)
 

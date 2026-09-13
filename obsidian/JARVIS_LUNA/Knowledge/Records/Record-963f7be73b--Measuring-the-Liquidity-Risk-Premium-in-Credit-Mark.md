@@ -1,12 +1,12 @@
 ---
-title: "Record 963f7be73b · Measuring-the-Liquidity-Risk-Premium-in-Credit-Markets"
+title: "Record 963f7be73b · Measuring-the-Liquidity-Risk-Premium-in-Credit-Mark"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.694980+00:00
+updated_at: 2026-09-13T00:56:37.544811+00:00
 tags: [record, real-data]
 ---
 
-# Record 963f7be73b · Measuring-the-Liquidity-Risk-Premium-in-Credit-Markets
+# Record 963f7be73b · Measuring-the-Liquidity-Risk-Premium-in-Credit-Mark
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.3905/jfi.2026.002)
 

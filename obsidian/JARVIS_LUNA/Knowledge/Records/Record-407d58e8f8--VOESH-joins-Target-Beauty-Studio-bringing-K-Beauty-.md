@@ -1,12 +1,12 @@
 ---
-title: "Record 407d58e8f8 · VOESH-joins-Target-Beauty-Studio-bringing-K-Beauty-body-care-to-Target"
+title: "Record 407d58e8f8 · VOESH-joins-Target-Beauty-Studio-bringing-K-Beauty-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.778139+00:00
+updated_at: 2026-09-13T00:56:37.618980+00:00
 tags: [record, real-data]
 ---
 
-# Record 407d58e8f8 · VOESH-joins-Target-Beauty-Studio-bringing-K-Beauty-body-care-to-Target
+# Record 407d58e8f8 · VOESH-joins-Target-Beauty-Studio-bringing-K-Beauty-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZmVtajhORWR0aVZ3UW5BMVhJN3lvOHQ1RDE3ZlZfelp5dDRScVBnM0JyMm5vVGxBWktCY3JKMXJvZEpNYklQWkFQYUdpM2U5QUJESlItQUFfeGZ5UWJyZ3l6RE1pamFSanM2RnJFaDRyMDR2VWJVNlU0TmJnbkVkQnVzV3Jkd1dzRWF0dEo3U3hVQzBEME56VG1jbzVxRUNnWlU4YWNNanJoUXZsaV90M0NXQ2xLSGhBM0J6UGRuRWxrYU5nOEJFQjdCZnZJTlJici0tY2VWeDhoMHpWM1hrY3JfZmE?oc=5)
 

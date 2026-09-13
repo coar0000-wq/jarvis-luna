@@ -1,12 +1,12 @@
 ---
-title: "Record 2771bbdcb5 · We-Asked-Dermatologists-If-the-Viral-Sardine-Skin-Trend-Is-Actually-th"
+title: "Record 2771bbdcb5 · We-Asked-Dermatologists-If-the-Viral-Sardine-Skin-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.946019+00:00
+updated_at: 2026-09-13T00:56:37.777191+00:00
 tags: [record, real-data]
 ---
 
-# Record 2771bbdcb5 · We-Asked-Dermatologists-If-the-Viral-Sardine-Skin-Trend-Is-Actually-th
+# Record 2771bbdcb5 · We-Asked-Dermatologists-If-the-Viral-Sardine-Skin-T
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMingFBVV95cUxPRkdPZlBpYnljY1hpcEs3aVZsbVpad2FjM2pRSnpFT25feTljOFhyR1huVW1QczcxQmdIWG5ydkJRU0xjZmlrS09kLVgwT0VoU1kwSUFpM3V5SWlhMGFmOGtTQXE4R3FlMXBDbnI0WTlCQ2lYbktWNjk0UEhPa2MtSENwVDZwSVRWY0RmeDM4TG00WUdlUDFHbUFFMUl3dw?oc=5)
 

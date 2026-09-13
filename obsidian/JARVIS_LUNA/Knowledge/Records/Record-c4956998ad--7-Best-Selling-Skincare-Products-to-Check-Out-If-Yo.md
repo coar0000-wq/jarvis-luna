@@ -1,12 +1,12 @@
 ---
-title: "Record c4956998ad · 7-Best-Selling-Skincare-Products-to-Check-Out-If-Youre-New-to-K-Beauty"
+title: "Record c4956998ad · 7-Best-Selling-Skincare-Products-to-Check-Out-If-Yo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.847321+00:00
+updated_at: 2026-09-13T00:56:37.683723+00:00
 tags: [record, real-data]
 ---
 
-# Record c4956998ad · 7-Best-Selling-Skincare-Products-to-Check-Out-If-Youre-New-to-K-Beauty
+# Record c4956998ad · 7-Best-Selling-Skincare-Products-to-Check-Out-If-Yo
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMic0FVX3lxTFBORmhFbHRmai1RdnlLV1l0S1NPN3FNa3MtSmZYYUdwczZOcXNoTE15QURuMlBlUE1SbUpSWVBYMlF4S01EdG9qZWJ5em1sZkRMMWdjOENsdVB6ODlDR1RraFd6OEg5alFDQ0JWcjVtdnN6Xzg?oc=5)
 

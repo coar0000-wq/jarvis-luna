@@ -1,12 +1,12 @@
 ---
-title: "Record 87cdc82b56 · The-Top-Trends-That-Will-Define-Beauty-in-2026---The-Business-of-Fashi"
+title: "Record 87cdc82b56 · The-Top-Trends-That-Will-Define-Beauty-in-2026---Th"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.924548+00:00
+updated_at: 2026-09-13T00:56:37.757483+00:00
 tags: [record, real-data]
 ---
 
-# Record 87cdc82b56 · The-Top-Trends-That-Will-Define-Beauty-in-2026---The-Business-of-Fashi
+# Record 87cdc82b56 · The-Top-Trends-That-Will-Define-Beauty-in-2026---Th
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMikwFBVV95cUxORnZkQ2hmazl2clNmRWhpT29BSzhuSGp5UXduRzZpU3NFdWFrdWdvRFdDZF9BeXEwaVR1MkdwR1U3WVRoNDNNN2VLRHpKZks0VGJ5ZnRUa2tYZVJPZ0tWYy1lZHlER2dlN2FTQnRKNTRoMDByQVpzSTNnLXpJQlBZWXhqMzVxYTFJRHpwaUlpZWRuSlE?oc=5)
 

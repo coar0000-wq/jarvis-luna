@@ -1,12 +1,12 @@
 ---
-title: "Record 907c3c15f3 · Curecode-Lets-New-Yorkers-See-Whats-Inside-Their-Beauty-Products---EIN"
+title: "Record 907c3c15f3 · Curecode-Lets-New-Yorkers-See-Whats-Inside-Their-Be"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.965016+00:00
+updated_at: 2026-09-13T00:56:37.794584+00:00
 tags: [record, real-data]
 ---
 
-# Record 907c3c15f3 · Curecode-Lets-New-Yorkers-See-Whats-Inside-Their-Beauty-Products---EIN
+# Record 907c3c15f3 · Curecode-Lets-New-Yorkers-See-Whats-Inside-Their-Be
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiqwFBVV95cUxQekJfZ1R4UmRRYlozRklXdDNkR0p1MUNrNmdhMFNnTzgzUzROZHZBWXNnM2dWQ09hdU1RTG16QVZsWm54RFhyc3FpRXJ4MGlIN05zLVFQcTdrZEFlalFRdnpPcXFSRTNiRkY2TzF1S3NDcXhEZGV6bjQ0WUNmWl9paWNsOTM5QWE1SUFkMW5zZ2tPNDc1bTZWX1Nvc0E1QUstaS1kRjJIcDVMM3c?oc=5)
 

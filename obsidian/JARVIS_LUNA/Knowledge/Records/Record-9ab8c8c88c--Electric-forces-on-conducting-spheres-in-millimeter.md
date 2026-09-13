@@ -1,12 +1,12 @@
 ---
-title: "Record 9ab8c8c88c · Electric-forces-on-conducting-spheres-in-millimeter-sized-high-voltage"
+title: "Record 9ab8c8c88c · Electric-forces-on-conducting-spheres-in-millimeter"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.591034+00:00
+updated_at: 2026-09-13T00:56:37.454290+00:00
 tags: [record, real-data]
 ---
 
-# Record 9ab8c8c88c · Electric-forces-on-conducting-spheres-in-millimeter-sized-high-voltage
+# Record 9ab8c8c88c · Electric-forces-on-conducting-spheres-in-millimeter
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.elstat.2026.104344)
 

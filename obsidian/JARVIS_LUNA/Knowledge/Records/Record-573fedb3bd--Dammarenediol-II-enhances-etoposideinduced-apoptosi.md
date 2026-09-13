@@ -1,12 +1,12 @@
 ---
-title: "Record 573fedb3bd · Dammarenediol-II-enhances-etoposideinduced-apoptosis-by-targeting-O--G"
+title: "Record 573fedb3bd · Dammarenediol-II-enhances-etoposideinduced-apoptosi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.572447+00:00
+updated_at: 2026-09-13T00:56:37.436171+00:00
 tags: [record, real-data]
 ---
 
-# Record 573fedb3bd · Dammarenediol-II-enhances-etoposideinduced-apoptosis-by-targeting-O--G
+# Record 573fedb3bd · Dammarenediol-II-enhances-etoposideinduced-apoptosi
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1002/1878-0261.70199)
 

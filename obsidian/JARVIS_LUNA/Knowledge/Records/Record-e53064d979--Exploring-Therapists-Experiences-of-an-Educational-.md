@@ -1,12 +1,12 @@
 ---
-title: "Record e53064d979 · Exploring-Therapists-Experiences-of-an-Educational-Website-to-Support-"
+title: "Record e53064d979 · Exploring-Therapists-Experiences-of-an-Educational-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.689476+00:00
+updated_at: 2026-09-13T00:56:37.540349+00:00
 tags: [record, real-data]
 ---
 
-# Record e53064d979 · Exploring-Therapists-Experiences-of-an-Educational-Website-to-Support-
+# Record e53064d979 · Exploring-Therapists-Experiences-of-an-Educational-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.3390/healthcare13020159)
 

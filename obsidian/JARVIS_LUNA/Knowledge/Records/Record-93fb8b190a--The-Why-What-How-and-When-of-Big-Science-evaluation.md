@@ -1,12 +1,12 @@
 ---
-title: "Record 93fb8b190a · The-Why-What-How-and-When-of-Big-Science-evaluation-Perspectives-on-so"
+title: "Record 93fb8b190a · The-Why-What-How-and-When-of-Big-Science-evaluation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.669934+00:00
+updated_at: 2026-09-13T00:56:37.524242+00:00
 tags: [record, real-data]
 ---
 
-# Record 93fb8b190a · The-Why-What-How-and-When-of-Big-Science-evaluation-Perspectives-on-so
+# Record 93fb8b190a · The-Why-What-How-and-When-of-Big-Science-evaluation
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.21203/rs.3.rs-10787602/v1)
 

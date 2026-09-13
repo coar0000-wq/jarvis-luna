@@ -1,12 +1,12 @@
 ---
-title: "Record 3d76c58cc4 · A-Multi-Sensor-Multi-Movement-Exploratory-Study-of-Motion-Tape-Strain-"
+title: "Record 3d76c58cc4 · A-Multi-Sensor-Multi-Movement-Exploratory-Study-of-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.692099+00:00
+updated_at: 2026-09-13T00:56:37.542499+00:00
 tags: [record, real-data]
 ---
 
-# Record 3d76c58cc4 · A-Multi-Sensor-Multi-Movement-Exploratory-Study-of-Motion-Tape-Strain-
+# Record 3d76c58cc4 · A-Multi-Sensor-Multi-Movement-Exploratory-Study-of-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.3390/s26134187)
 

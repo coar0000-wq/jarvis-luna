@@ -1,12 +1,12 @@
 ---
-title: "Record e3eb0b6740 · Lifestyle-transitions-and-healthier-biological-aging-in-middle-aged-an"
+title: "Record e3eb0b6740 · Lifestyle-transitions-and-healthier-biological-agin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.658839+00:00
+updated_at: 2026-09-13T00:56:37.515281+00:00
 tags: [record, real-data]
 ---
 
-# Record e3eb0b6740 · Lifestyle-transitions-and-healthier-biological-aging-in-middle-aged-an
+# Record e3eb0b6740 · Lifestyle-transitions-and-healthier-biological-agin
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1186/s13148-026-02240-8)
 

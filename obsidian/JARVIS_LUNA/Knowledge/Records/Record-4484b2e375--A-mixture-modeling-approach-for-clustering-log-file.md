@@ -1,12 +1,12 @@
 ---
-title: "Record 4484b2e375 · A-mixture-modeling-approach-for-clustering-log-files-with-coreset-and-"
+title: "Record 4484b2e375 · A-mixture-modeling-approach-for-clustering-log-file"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.598927+00:00
+updated_at: 2026-09-13T00:56:37.461349+00:00
 tags: [record, real-data]
 ---
 
-# Record 4484b2e375 · A-mixture-modeling-approach-for-clustering-log-files-with-coreset-and-
+# Record 4484b2e375 · A-mixture-modeling-approach-for-clustering-log-file
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.patrec.2022.01.027)
 

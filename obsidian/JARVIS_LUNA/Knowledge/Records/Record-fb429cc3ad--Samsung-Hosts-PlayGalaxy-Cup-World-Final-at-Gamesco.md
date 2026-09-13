@@ -1,12 +1,12 @@
 ---
-title: "Record fb429cc3ad · Samsung-Hosts-PlayGalaxy-Cup-World-Final-at-Gamescom-2026"
+title: "Record fb429cc3ad · Samsung-Hosts-PlayGalaxy-Cup-World-Final-at-Gamesco"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.996895+00:00
+updated_at: 2026-09-13T00:56:37.823820+00:00
 tags: [record, real-data]
 ---
 
-# Record fb429cc3ad · Samsung-Hosts-PlayGalaxy-Cup-World-Final-at-Gamescom-2026
+# Record fb429cc3ad · Samsung-Hosts-PlayGalaxy-Cup-World-Final-at-Gamesco
 
 > 실제 수집 레코드입니다. 원문: [news.samsung.com](https://news.samsung.com/global/samsung-hosts-playgalaxy-cup-world-final-at-gamescom-2026)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 21cbd67724 · Whats-in-a-name-Less-than-shoppers-might-think-as-counterfeiters-cash-"
+title: "Record 21cbd67724 · Whats-in-a-name-Less-than-shoppers-might-think-as-c"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.778995+00:00
+updated_at: 2026-09-13T00:56:37.619786+00:00
 tags: [record, real-data]
 ---
 
-# Record 21cbd67724 · Whats-in-a-name-Less-than-shoppers-might-think-as-counterfeiters-cash-
+# Record 21cbd67724 · Whats-in-a-name-Less-than-shoppers-might-think-as-c
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMi5wFBVV95cUxPT05vX1dsNmQwNFJ2bGVxakxZV1EtLWduLWpHNkp0U1oyMUhpanRtZzZmUVhNN2U5MG9qNDhIWkdDdTFvcENQam5Zd3JvUlZjbGlUVVNNSTIxRTRTcXpDZ05sa1lyMFZaOS1QUzdBdHQ1MkZQYzRaaWN6N05nTWxXeW9xWXBZUUp2cHBNZmNnWDlTSDhhR0FOcHJiNm1SXzg2T0VyNFM1T1pwVG5OWFBiazlXREsydXRKaEFoMkl5RWhXY0lTXzM4eC15SmMzTkVfOXZIdmwzTEJ6cXlucm9ySDRDeFZ6MUU?oc=5)
 

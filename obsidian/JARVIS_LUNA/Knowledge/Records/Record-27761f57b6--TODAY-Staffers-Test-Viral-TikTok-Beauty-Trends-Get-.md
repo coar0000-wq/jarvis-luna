@@ -1,12 +1,12 @@
 ---
-title: "Record 27761f57b6 · TODAY-Staffers-Test-Viral-TikTok-Beauty-Trends-Get-It-or-Forget-It---T"
+title: "Record 27761f57b6 · TODAY-Staffers-Test-Viral-TikTok-Beauty-Trends-Get-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.949491+00:00
+updated_at: 2026-09-13T00:56:37.780412+00:00
 tags: [record, real-data]
 ---
 
-# Record 27761f57b6 · TODAY-Staffers-Test-Viral-TikTok-Beauty-Trends-Get-It-or-Forget-It---T
+# Record 27761f57b6 · TODAY-Staffers-Test-Viral-TikTok-Beauty-Trends-Get-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMinwFBVV95cUxPRk95bGV1b0pnM042RHU1Wm5OXzhxYjNiZXZESTNEd05OZllnNWxOeHozYU9sYUQ1UGxyR2VGbnl6NUZmMzg1M3FsckpiUGY1YXVkRG8xc0ZMMjliNzNzZTBaVVpicElva1FVbXY0ejhHUlZlMHRJNmZIVEhvcng2TG9pTHFmNUdMSlZmY1liN3h5NEpDSDRZRk9PYllucWM?oc=5)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 4df154bbaa · Intercom-Wants-to-End-the-Support-to-Sales-Handoff-Problem---CX-Today"
+title: "Record 4df154bbaa · Intercom-Wants-to-End-the-Support-to-Sales-Handoff-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.894690+00:00
+updated_at: 2026-09-13T00:56:37.729885+00:00
 tags: [record, real-data]
 ---
 
-# Record 4df154bbaa · Intercom-Wants-to-End-the-Support-to-Sales-Handoff-Problem---CX-Today
+# Record 4df154bbaa · Intercom-Wants-to-End-the-Support-to-Sales-Handoff-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMihAFBVV95cUxOWFYyU1R5eGloYy1mTTlKOVE1aGRxV3pWOTMzeTBRUHVUS3cxd01ZdTRtcEQteTNYdWZaMmZFN0dTbjRudGFxLVVGblh1R3lCTmU4WHd2Q0R0T1FlbDUxeERVbEt0Q2dreWlYYkZua2pjM3pPUVZpRmVmYU9OUTFUeEVYYWs?oc=5)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 90d0311a10 · ORCH-Organizational-Principles-Enable-Collective-Intelligence-in-Embod"
+title: "Record 90d0311a10 · ORCH-Organizational-Principles-Enable-Collective-In"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.555332+00:00
+updated_at: 2026-09-13T00:56:37.418294+00:00
 tags: [record, real-data]
 ---
 
-# Record 90d0311a10 · ORCH-Organizational-Principles-Enable-Collective-Intelligence-in-Embod
+# Record 90d0311a10 · ORCH-Organizational-Principles-Enable-Collective-In
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.11737v1)
 

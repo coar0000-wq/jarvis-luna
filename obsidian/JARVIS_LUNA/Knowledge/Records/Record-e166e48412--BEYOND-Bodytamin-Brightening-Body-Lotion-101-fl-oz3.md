@@ -1,12 +1,12 @@
 ---
-title: "Record e166e48412 · BEYOND-Bodytamin-Brightening-Body-Lotion-101-fl-oz300ml"
+title: "Record e166e48412 · BEYOND-Bodytamin-Brightening-Body-Lotion-101-fl-oz3"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.058621+00:00
+updated_at: 2026-09-13T00:56:37.881125+00:00
 tags: [record, real-data]
 ---
 
-# Record e166e48412 · BEYOND-Bodytamin-Brightening-Body-Lotion-101-fl-oz300ml
+# Record e166e48412 · BEYOND-Bodytamin-Brightening-Body-Lotion-101-fl-oz3
 
 > 실제 수집 레코드입니다. 원문: [us.oliveyoung.com](https://us.oliveyoung.com/products/UA22326812)
 

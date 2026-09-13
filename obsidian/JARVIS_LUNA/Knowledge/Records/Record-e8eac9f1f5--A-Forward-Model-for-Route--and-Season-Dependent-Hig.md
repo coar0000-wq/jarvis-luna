@@ -1,12 +1,12 @@
 ---
-title: "Record e8eac9f1f5 · A-Forward-Model-for-Route--and-Season-Dependent-High-Pressure-Compress"
+title: "Record e8eac9f1f5 · A-Forward-Model-for-Route--and-Season-Dependent-Hig"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.498407+00:00
+updated_at: 2026-09-13T00:56:37.365095+00:00
 tags: [record, real-data]
 ---
 
-# Record e8eac9f1f5 · A-Forward-Model-for-Route--and-Season-Dependent-High-Pressure-Compress
+# Record e8eac9f1f5 · A-Forward-Model-for-Route--and-Season-Dependent-Hig
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.05029v1)
 

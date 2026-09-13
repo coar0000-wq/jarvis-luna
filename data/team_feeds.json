@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T23:45:23.044339+00:00",
+  "generated_at": "2026-09-13T00:49:43.659056+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
@@ -13,7 +13,7 @@
     },
     "market": {
       "total": 446,
-      "recent": 40
+      "recent": 39
     },
     "listing": {
       "total": 13,
@@ -41,7 +41,7 @@
     },
     "institutions": {
       "total": 1061,
-      "recent": 284
+      "recent": 280
     }
   },
   "fda_failures": [],

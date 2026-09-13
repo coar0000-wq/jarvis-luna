@@ -1,12 +1,12 @@
 ---
-title: "Record 24d2164039 · What-is-a-bebot-girl-The-TikTok-beauty-transformation-trend-explained-"
+title: "Record 24d2164039 · What-is-a-bebot-girl-The-TikTok-beauty-transformati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.962037+00:00
+updated_at: 2026-09-13T00:56:37.791898+00:00
 tags: [record, real-data]
 ---
 
-# Record 24d2164039 · What-is-a-bebot-girl-The-TikTok-beauty-transformation-trend-explained-
+# Record 24d2164039 · What-is-a-bebot-girl-The-TikTok-beauty-transformati
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiqAFBVV95cUxPeWc3ZldjSEdUQUZCYjlXOWtBR2E0dmtabGZSOGRYWjVzRVlmbnRxYTNnaXNZOEFJb0tnMGppRU5NalVQVmFYeGIwcmNVbkI4QzF5WHdpVV9uXzQ4ZmgxNl85a3B4QUlTaG93aEdMV3hscDVMUVFTWEtfNHJjaDdrSFY2SkgzaTl3UHZ4WEtLbXBQeTlSbnEya1pOckhyZDRIYnd3ckExYUk?oc=5)
 

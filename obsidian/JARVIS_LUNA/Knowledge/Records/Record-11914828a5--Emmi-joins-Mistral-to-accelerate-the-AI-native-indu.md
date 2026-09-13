@@ -1,12 +1,12 @@
 ---
-title: "Record 11914828a5 · Emmi-joins-Mistral-to-accelerate-the-AI-native-industry"
+title: "Record 11914828a5 · Emmi-joins-Mistral-to-accelerate-the-AI-native-indu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.766163+00:00
+updated_at: 2026-09-13T00:56:37.607482+00:00
 tags: [record, real-data]
 ---
 
-# Record 11914828a5 · Emmi-joins-Mistral-to-accelerate-the-AI-native-industry
+# Record 11914828a5 · Emmi-joins-Mistral-to-accelerate-the-AI-native-indu
 
 > 실제 수집 레코드입니다. 원문: [mistral.ai](https://mistral.ai/news/accelerate-ai-native-industry/)
 

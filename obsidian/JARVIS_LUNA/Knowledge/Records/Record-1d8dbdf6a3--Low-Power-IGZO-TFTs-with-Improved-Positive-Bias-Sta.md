@@ -1,12 +1,12 @@
 ---
-title: "Record 1d8dbdf6a3 · Low-Power-IGZO-TFTs-with-Improved-Positive-Bias-Stability-via-Atomic-L"
+title: "Record 1d8dbdf6a3 · Low-Power-IGZO-TFTs-with-Improved-Positive-Bias-Sta"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.690246+00:00
+updated_at: 2026-09-13T00:56:37.541011+00:00
 tags: [record, real-data]
 ---
 
-# Record 1d8dbdf6a3 · Low-Power-IGZO-TFTs-with-Improved-Positive-Bias-Stability-via-Atomic-L
+# Record 1d8dbdf6a3 · Low-Power-IGZO-TFTs-with-Improved-Positive-Bias-Sta
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.3390/jlpea16030031)
 

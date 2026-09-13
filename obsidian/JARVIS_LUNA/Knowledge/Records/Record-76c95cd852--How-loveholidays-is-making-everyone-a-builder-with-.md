@@ -1,12 +1,12 @@
 ---
-title: "Record 76c95cd852 · How-loveholidays-is-making-everyone-a-builder-with-Codex"
+title: "Record 76c95cd852 · How-loveholidays-is-making-everyone-a-builder-with-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.014004+00:00
+updated_at: 2026-09-13T00:56:37.839413+00:00
 tags: [record, real-data]
 ---
 
-# Record 76c95cd852 · How-loveholidays-is-making-everyone-a-builder-with-Codex
+# Record 76c95cd852 · How-loveholidays-is-making-everyone-a-builder-with-
 
 > 실제 수집 레코드입니다. 원문: [openai.com](https://openai.com/index/loveholidays)
 

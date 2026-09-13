@@ -1,12 +1,12 @@
 ---
-title: "Record 025b0cab3b · Contact-Aware-Incremental-Model-Predictive-Control-for-an-Underactuate"
+title: "Record 025b0cab3b · Contact-Aware-Incremental-Model-Predictive-Control-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.553513+00:00
+updated_at: 2026-09-13T00:56:37.416494+00:00
 tags: [record, real-data]
 ---
 
-# Record 025b0cab3b · Contact-Aware-Incremental-Model-Predictive-Control-for-an-Underactuate
+# Record 025b0cab3b · Contact-Aware-Incremental-Model-Predictive-Control-
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.11661v1)
 

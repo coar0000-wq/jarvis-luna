@@ -1,12 +1,12 @@
 ---
-title: "Record 3400164120 · K-Beautys-Best-Masks-Are-Helping-Skincare-Fans-Achieve-a-True-Glass-Sk"
+title: "Record 3400164120 · K-Beautys-Best-Masks-Are-Helping-Skincare-Fans-Achi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.965259+00:00
+updated_at: 2026-09-13T00:56:37.794812+00:00
 tags: [record, real-data]
 ---
 
-# Record 3400164120 · K-Beautys-Best-Masks-Are-Helping-Skincare-Fans-Achieve-a-True-Glass-Sk
+# Record 3400164120 · K-Beautys-Best-Masks-Are-Helping-Skincare-Fans-Achi
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMirAFBVV95cUxNUnl3OWQ1ajExWS1HQzBKQ08wb2pBSXJBNnMyZmRodkc5R2pfMDdDMGppY0NMWVFEMFRoZzFYamdveGp6azZhLVZaeURFMkpCMkRGR1lNc3pubWV1VHNYcWJldmNSLWR5UktmQ08wV0RDMEVuQjF6b0paeTVWbnNMcEx5X1dKdlRRdE1Jb3Y3dnYzMXBma21PSzR0NkNneWcxT2otSW10b3Y0bzhu?oc=5)
 

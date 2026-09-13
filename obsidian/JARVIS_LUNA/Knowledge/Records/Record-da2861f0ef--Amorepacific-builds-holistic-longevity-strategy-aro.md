@@ -1,12 +1,12 @@
 ---
-title: "Record da2861f0ef · Amorepacific-builds-holistic-longevity-strategy-around-biotech-AI---KE"
+title: "Record da2861f0ef · Amorepacific-builds-holistic-longevity-strategy-aro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.860640+00:00
+updated_at: 2026-09-13T00:56:37.697726+00:00
 tags: [record, real-data]
 ---
 
-# Record da2861f0ef · Amorepacific-builds-holistic-longevity-strategy-around-biotech-AI---KE
+# Record da2861f0ef · Amorepacific-builds-holistic-longevity-strategy-aro
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMidkFVX3lxTE9EQVlfZ19Bdm5NbnpYdzl0VTMwYzlHWmdFYmZTRERiZTZCWHczS3NBN2gyRWNBLUY4eWFEVFM5U0VSVVhxSnNSZTR4c1ZoczVOdktiMzJwZGxVQ00yYXZCdTFBWXRESWJwYVNJcFhWNmhFQUhoRlE?oc=5)
 

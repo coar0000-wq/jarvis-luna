@@ -1,12 +1,12 @@
 ---
-title: "Record 17c6863e72 · Examining-the-role-of-extrachromosomal-DNA-in-lung-cancer"
+title: "Record 17c6863e72 · Examining-the-role-of-extrachromosomal-DNA-in-lung-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.626895+00:00
+updated_at: 2026-09-13T00:56:37.487048+00:00
 tags: [record, real-data]
 ---
 
-# Record 17c6863e72 · Examining-the-role-of-extrachromosomal-DNA-in-lung-cancer
+# Record 17c6863e72 · Examining-the-role-of-extrachromosomal-DNA-in-lung-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1093/jnci/djag273)
 

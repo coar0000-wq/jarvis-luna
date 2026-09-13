@@ -1,12 +1,12 @@
 ---
-title: "Record 6b14e28b02 · Bebot-or-Kikay-Looking-into-tiktoks-latest-makeup-transition-trend---S"
+title: "Record 6b14e28b02 · Bebot-or-Kikay-Looking-into-tiktoks-latest-makeup-t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.950210+00:00
+updated_at: 2026-09-13T00:56:37.781072+00:00
 tags: [record, real-data]
 ---
 
-# Record 6b14e28b02 · Bebot-or-Kikay-Looking-into-tiktoks-latest-makeup-transition-trend---S
+# Record 6b14e28b02 · Bebot-or-Kikay-Looking-into-tiktoks-latest-makeup-t
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMinwFBVV95cUxPaDZuY3JPMktrYnRhRlAtSHJfU19qR0xhTjNZamVYYzZyZWp3V2hBRU1MX2s2eGNkMzRDdjhHVEF2RFRNb28wUlRyZUhOQUJEUUIzN29nV0c1RjhxRXpyV1lsc292dVlrNVU0Y3U0a18td1RHSmNGdVZUNjJyS3JUdmZzN1REbjFhXy0xMWhzNG1tUmV4OGk3MFRQUjNDdFnSAawBQVVfeXFMTk5IYjVxQkhROTN2bHJCZVVDTmJUazN6RG9FQ29aaVB5TWhYSjBrVnBPWjJoOEdMcnY2cFVWUlY4RFp5QVNDT3pSTVpsTFF2UEQtbE8wYVZOWnk2M3NhQW41ejhVT1VZMFY4bGQ5RDlNOThPRWltYU5RSHlobnVBcnN3N2FsbzFiWTNwc244S3dFRlhONEVldTVzUlFpLXppdHptVGd0ck5ySE00Uw?oc=5)
 

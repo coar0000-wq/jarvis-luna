@@ -1,12 +1,12 @@
 ---
-title: "Record 5cdc927c52 · Anthropic-Economic-Index-AIs-impact-on-software-development"
+title: "Record 5cdc927c52 · Anthropic-Economic-Index-AIs-impact-on-software-dev"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.110786+00:00
+updated_at: 2026-09-13T00:56:37.928226+00:00
 tags: [record, real-data]
 ---
 
-# Record 5cdc927c52 · Anthropic-Economic-Index-AIs-impact-on-software-development
+# Record 5cdc927c52 · Anthropic-Economic-Index-AIs-impact-on-software-dev
 
 > 실제 수집 레코드입니다. 원문: [www.anthropic.com](https://www.anthropic.com/research/impact-software-development)
 

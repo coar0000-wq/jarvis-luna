@@ -1,12 +1,12 @@
 ---
-title: "Record 4231c98739 · Building-Ai-Systems-For-Capital-Markets---Transcript"
+title: "Record 4231c98739 · Building-Ai-Systems-For-Capital-Markets---Transcrip"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.133519+00:00
+updated_at: 2026-09-13T00:56:37.948297+00:00
 tags: [record, real-data]
 ---
 
-# Record 4231c98739 · Building-Ai-Systems-For-Capital-Markets---Transcript
+# Record 4231c98739 · Building-Ai-Systems-For-Capital-Markets---Transcrip
 
 > 실제 수집 레코드입니다. 원문: [www.goldmansachs.com](https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/building-ai-systems-for-capital-markets/transcript.pdf)
 

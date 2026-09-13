@@ -1,12 +1,12 @@
 ---
-title: "Record dee7a6e011 · A-MemristorBased-InMemory-Computing-SystemonChip-with-Efficient-Depthw"
+title: "Record dee7a6e011 · A-MemristorBased-InMemory-Computing-SystemonChip-wi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.575441+00:00
+updated_at: 2026-09-13T00:56:37.439379+00:00
 tags: [record, real-data]
 ---
 
-# Record dee7a6e011 · A-MemristorBased-InMemory-Computing-SystemonChip-with-Efficient-Depthw
+# Record dee7a6e011 · A-MemristorBased-InMemory-Computing-SystemonChip-wi
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1002/aisy.202501225)
 

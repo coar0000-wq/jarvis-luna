@@ -1,12 +1,12 @@
 ---
-title: "Record df140d9383 · Breaking-the-Chain-HIV-1-Transmission-Clusters-among-People-who-Inject"
+title: "Record df140d9383 · Breaking-the-Chain-HIV-1-Transmission-Clusters-amon"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.630646+00:00
+updated_at: 2026-09-13T00:56:37.490494+00:00
 tags: [record, real-data]
 ---
 
-# Record df140d9383 · Breaking-the-Chain-HIV-1-Transmission-Clusters-among-People-who-Inject
+# Record df140d9383 · Breaking-the-Chain-HIV-1-Transmission-Clusters-amon
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1097/qai.0000000000003955)
 

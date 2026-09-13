@@ -1,12 +1,12 @@
 ---
-title: "Record 10c311e167 · Scaling-Near-Optimal-SFT-RL-Annotation-Budget-Allocation-from-Small-to"
+title: "Record 10c311e167 · Scaling-Near-Optimal-SFT-RL-Annotation-Budget-Alloc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.472295+00:00
+updated_at: 2026-09-13T00:56:37.341859+00:00
 tags: [record, real-data]
 ---
 
-# Record 10c311e167 · Scaling-Near-Optimal-SFT-RL-Annotation-Budget-Allocation-from-Small-to
+# Record 10c311e167 · Scaling-Near-Optimal-SFT-RL-Annotation-Budget-Alloc
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.01573v1)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 0fec19ebf7 · Harnessing-Multiteam-Systems-in-the-Development-of-a-Multifaceted-Data"
+title: "Record 0fec19ebf7 · Harnessing-Multiteam-Systems-in-the-Development-of-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.630413+00:00
+updated_at: 2026-09-13T00:56:37.490266+00:00
 tags: [record, real-data]
 ---
 
-# Record 0fec19ebf7 · Harnessing-Multiteam-Systems-in-the-Development-of-a-Multifaceted-Data
+# Record 0fec19ebf7 · Harnessing-Multiteam-Systems-in-the-Development-of-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1097/phh.0000000000002417)
 

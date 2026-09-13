@@ -1,12 +1,12 @@
 ---
-title: "Record 9500ae452f · Deep-Learning-Based-Detection-of-Electrical-Faults-and-Power-Quality-D"
+title: "Record 9500ae452f · Deep-Learning-Based-Detection-of-Electrical-Faults-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.542798+00:00
+updated_at: 2026-09-13T00:56:37.405593+00:00
 tags: [record, real-data]
 ---
 
-# Record 9500ae452f · Deep-Learning-Based-Detection-of-Electrical-Faults-and-Power-Quality-D
+# Record 9500ae452f · Deep-Learning-Based-Detection-of-Electrical-Faults-
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.10479v1)
 

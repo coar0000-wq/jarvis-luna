@@ -1,12 +1,12 @@
 ---
-title: "Record d910b58542 · TikTok-Thinks-You-Should-Recreate-Glam-From-the-Year-Your-Mom-Was-Born"
+title: "Record d910b58542 · TikTok-Thinks-You-Should-Recreate-Glam-From-the-Yea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.896705+00:00
+updated_at: 2026-09-13T00:56:37.731909+00:00
 tags: [record, real-data]
 ---
 
-# Record d910b58542 · TikTok-Thinks-You-Should-Recreate-Glam-From-the-Year-Your-Mom-Was-Born
+# Record d910b58542 · TikTok-Thinks-You-Should-Recreate-Glam-From-the-Yea
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMihgFBVV95cUxNSGQwdGc2c212OFFLbzZLSHh0MEZTLVJmVzNwQ0t0dGpvRng4aU5TR0daaU5NT0JLUElYeFFCa0dPUmlVX3FkYzJNMVNXTFUxNDBLbTk5dVl2WlBoaDUtZlRBY0dOTHN0N0VOdlc3Ri1KbUdSTzNIbVUxVl9sNTlLaUtjZ2Rldw?oc=5)
 

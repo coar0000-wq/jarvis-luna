@@ -1,12 +1,12 @@
 ---
-title: "Record 1ae07495fa · Frontend-Engineering-at-Palantir-Polar-Scaled-Tiles-in-Zodiac"
+title: "Record 1ae07495fa · Frontend-Engineering-at-Palantir-Polar-Scaled-Tiles"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.562333+00:00
+updated_at: 2026-09-13T00:56:37.425584+00:00
 tags: [record, real-data]
 ---
 
-# Record 1ae07495fa · Frontend-Engineering-at-Palantir-Polar-Scaled-Tiles-in-Zodiac
+# Record 1ae07495fa · Frontend-Engineering-at-Palantir-Polar-Scaled-Tiles
 
 > 실제 수집 레코드입니다. 원문: [blog.palantir.com](https://blog.palantir.com/frontend-engineering-at-palantir-polar-scaled-tiles-in-zodiac-6cebb5948a1a?source=rss----3c87dc14372f---4)
 

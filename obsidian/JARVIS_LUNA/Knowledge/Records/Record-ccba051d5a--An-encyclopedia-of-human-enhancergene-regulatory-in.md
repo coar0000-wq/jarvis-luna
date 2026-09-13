@@ -1,12 +1,12 @@
 ---
-title: "Record ccba051d5a · An-encyclopedia-of-human-enhancergene-regulatory-interactions"
+title: "Record ccba051d5a · An-encyclopedia-of-human-enhancergene-regulatory-in"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.614148+00:00
+updated_at: 2026-09-13T00:56:37.475166+00:00
 tags: [record, real-data]
 ---
 
-# Record ccba051d5a · An-encyclopedia-of-human-enhancergene-regulatory-interactions
+# Record ccba051d5a · An-encyclopedia-of-human-enhancergene-regulatory-in
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1038/s41586-026-10781-4)
 

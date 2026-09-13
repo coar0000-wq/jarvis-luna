@@ -1,12 +1,12 @@
 ---
-title: "Record 035f8106ba · TraceML-An-Empirical-Analysis-of-Human-Agent-Planning-in-Machine-Learn"
+title: "Record 035f8106ba · TraceML-An-Empirical-Analysis-of-Human-Agent-Planni"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.267923+00:00
+updated_at: 2026-09-13T00:56:38.062722+00:00
 tags: [record, real-data]
 ---
 
-# Record 035f8106ba · TraceML-An-Empirical-Analysis-of-Human-Agent-Planning-in-Machine-Learn
+# Record 035f8106ba · TraceML-An-Empirical-Analysis-of-Human-Agent-Planni
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.26086v1)
 

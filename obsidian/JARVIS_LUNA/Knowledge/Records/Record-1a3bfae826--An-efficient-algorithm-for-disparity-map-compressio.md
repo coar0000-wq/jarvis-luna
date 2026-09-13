@@ -1,12 +1,12 @@
 ---
-title: "Record 1a3bfae826 · An-efficient-algorithm-for-disparity-map-compression-based-on-spatial-"
+title: "Record 1a3bfae826 · An-efficient-algorithm-for-disparity-map-compressio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.603470+00:00
+updated_at: 2026-09-13T00:56:37.465473+00:00
 tags: [record, real-data]
 ---
 
-# Record 1a3bfae826 · An-efficient-algorithm-for-disparity-map-compression-based-on-spatial-
+# Record 1a3bfae826 · An-efficient-algorithm-for-disparity-map-compressio
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.vlsi.2023.102069)
 

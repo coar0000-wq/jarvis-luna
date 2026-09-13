@@ -1,12 +1,12 @@
 ---
-title: "Record 32e3d7d067 · Can-Edge-Deployable-Vision-Language-Models-Identify-Species"
+title: "Record 32e3d7d067 · Can-Edge-Deployable-Vision-Language-Models-Identify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.560044+00:00
+updated_at: 2026-09-13T00:56:37.423133+00:00
 tags: [record, real-data]
 ---
 
-# Record 32e3d7d067 · Can-Edge-Deployable-Vision-Language-Models-Identify-Species
+# Record 32e3d7d067 · Can-Edge-Deployable-Vision-Language-Models-Identify
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.11916v1)
 

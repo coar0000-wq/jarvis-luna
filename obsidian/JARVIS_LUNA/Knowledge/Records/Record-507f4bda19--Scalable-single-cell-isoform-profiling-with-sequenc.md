@@ -1,12 +1,12 @@
 ---
-title: "Record 507f4bda19 · Scalable-single-cell-isoform-profiling-with-sequencing-by-expansion"
+title: "Record 507f4bda19 · Scalable-single-cell-isoform-profiling-with-sequenc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.731253+00:00
+updated_at: 2026-09-13T00:56:37.575377+00:00
 tags: [record, real-data]
 ---
 
-# Record 507f4bda19 · Scalable-single-cell-isoform-profiling-with-sequencing-by-expansion
+# Record 507f4bda19 · Scalable-single-cell-isoform-profiling-with-sequenc
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.64898/2026.07.15.738809)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 6694fe483d · Cosmetics-Business-reveals-the-top-5-TikTok-beauty-trends-of-2024-in-n"
+title: "Record 6694fe483d · Cosmetics-Business-reveals-the-top-5-TikTok-beauty-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.900544+00:00
+updated_at: 2026-09-13T00:56:37.735469+00:00
 tags: [record, real-data]
 ---
 
-# Record 6694fe483d · Cosmetics-Business-reveals-the-top-5-TikTok-beauty-trends-of-2024-in-n
+# Record 6694fe483d · Cosmetics-Business-reveals-the-top-5-TikTok-beauty-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMihwFBVV95cUxPNV9XQXRzRy1LbmZjTkxmMWZUbU81d05DbXRjQVEyZXNUZ3ZlcDdWUFE0MzhuQ0NQZjhQY1FZT1J5SkVJTVNXU195YkR3MXAzWDJQTXFQMzRhS1lobFRBOFdQWXp1aERSQmFWbmpJTnZ1S18tZmZicE5CYnFqUmlGamh3T1lmWjg?oc=5)
 

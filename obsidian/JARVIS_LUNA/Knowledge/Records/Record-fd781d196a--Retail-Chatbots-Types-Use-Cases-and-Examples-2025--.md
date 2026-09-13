@@ -1,12 +1,12 @@
 ---
-title: "Record fd781d196a · Retail-Chatbots-Types-Use-Cases-and-Examples-2025---Shopify"
+title: "Record fd781d196a · Retail-Chatbots-Types-Use-Cases-and-Examples-2025--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.824214+00:00
+updated_at: 2026-09-13T00:56:37.661269+00:00
 tags: [record, real-data]
 ---
 
-# Record fd781d196a · Retail-Chatbots-Types-Use-Cases-and-Examples-2025---Shopify
+# Record fd781d196a · Retail-Chatbots-Types-Use-Cases-and-Examples-2025--
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMia0FVX3lxTE8zZFN6UnZic0Y4S2FsbDVfRjJCRkYzZlJsX093SHRMU1VydnY2MzBWbEtpSkNqZUk4dC0wczZtTExqYk1TX2I2TkNRcXVNYzJld09feEc0SVpLLWlfVXpqaEd6TzZyRER5azVn?oc=5)
 

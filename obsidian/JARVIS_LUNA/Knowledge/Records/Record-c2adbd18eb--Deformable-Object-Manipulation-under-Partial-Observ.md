@@ -1,12 +1,12 @@
 ---
-title: "Record c2adbd18eb · Deformable-Object-Manipulation-under-Partial-Observability-via-Real-Ti"
+title: "Record c2adbd18eb · Deformable-Object-Manipulation-under-Partial-Observ"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.536983+00:00
+updated_at: 2026-09-13T00:56:37.400290+00:00
 tags: [record, real-data]
 ---
 
-# Record c2adbd18eb · Deformable-Object-Manipulation-under-Partial-Observability-via-Real-Ti
+# Record c2adbd18eb · Deformable-Object-Manipulation-under-Partial-Observ
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.10308v1)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 88c6d14cbc · LifeSciBench-Evaluating-Language-Models-on-Realistic-Expert-Level-Task"
+title: "Record 88c6d14cbc · LifeSciBench-Evaluating-Language-Models-on-Realisti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.733394+00:00
+updated_at: 2026-09-13T00:56:37.577371+00:00
 tags: [record, real-data]
 ---
 
-# Record 88c6d14cbc · LifeSciBench-Evaluating-Language-Models-on-Realistic-Expert-Level-Task
+# Record 88c6d14cbc · LifeSciBench-Evaluating-Language-Models-on-Realisti
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.64898/2026.08.13.744657)
 

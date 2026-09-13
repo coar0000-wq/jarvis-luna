@@ -1,12 +1,12 @@
 ---
-title: "Record 7de6566b87 · The-Python-simulations-of-chemistry-framework-10-years-of-an-open-sour"
+title: "Record 7de6566b87 · The-Python-simulations-of-chemistry-framework-10-ye"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.618844+00:00
+updated_at: 2026-09-13T00:56:37.479511+00:00
 tags: [record, real-data]
 ---
 
-# Record 7de6566b87 · The-Python-simulations-of-chemistry-framework-10-years-of-an-open-sour
+# Record 7de6566b87 · The-Python-simulations-of-chemistry-framework-10-ye
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1063/5.0337441)
 

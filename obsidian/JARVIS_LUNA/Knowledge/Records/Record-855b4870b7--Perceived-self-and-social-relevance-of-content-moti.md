@@ -1,12 +1,12 @@
 ---
-title: "Record 855b4870b7 · Perceived-self-and-social-relevance-of-content-motivates-news-sharing-"
+title: "Record 855b4870b7 · Perceived-self-and-social-relevance-of-content-moti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.629674+00:00
+updated_at: 2026-09-13T00:56:37.489600+00:00
 tags: [record, real-data]
 ---
 
-# Record 855b4870b7 · Perceived-self-and-social-relevance-of-content-motivates-news-sharing-
+# Record 855b4870b7 · Perceived-self-and-social-relevance-of-content-moti
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1093/pnasnexus/pgaf019)
 

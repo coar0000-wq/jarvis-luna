@@ -1,12 +1,12 @@
 ---
-title: "Record 9f6777cc83 · ETV5-reduces-androgen-receptor-expression-and-induces-neural-stemlike-"
+title: "Record 9f6777cc83 · ETV5-reduces-androgen-receptor-expression-and-induc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.619829+00:00
+updated_at: 2026-09-13T00:56:37.480469+00:00
 tags: [record, real-data]
 ---
 
-# Record 9f6777cc83 · ETV5-reduces-androgen-receptor-expression-and-induces-neural-stemlike-
+# Record 9f6777cc83 · ETV5-reduces-androgen-receptor-expression-and-induc
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1073/pnas.2420313122)
 

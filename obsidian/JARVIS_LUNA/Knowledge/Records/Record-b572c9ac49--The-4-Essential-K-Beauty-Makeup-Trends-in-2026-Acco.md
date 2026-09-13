@@ -1,12 +1,12 @@
 ---
-title: "Record b572c9ac49 · The-4-Essential-K-Beauty-Makeup-Trends-in-2026-According-to-Experts---"
+title: "Record b572c9ac49 · The-4-Essential-K-Beauty-Makeup-Trends-in-2026-Acco"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.809235+00:00
+updated_at: 2026-09-13T00:56:37.647632+00:00
 tags: [record, real-data]
 ---
 
-# Record b572c9ac49 · The-4-Essential-K-Beauty-Makeup-Trends-in-2026-According-to-Experts---
+# Record b572c9ac49 · The-4-Essential-K-Beauty-Makeup-Trends-in-2026-Acco
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiYkFVX3lxTE5pTUNPb1lXUmJXalJNeE5FNFNWYjB5WmFIUjFNUERJLVVkSzZNN0VZWmYtbWw1SDJqSWRtVU82bVJyd0FuMHFqUmJ0Y3lqeV9lVFlRcGJJZklEUlA0TzhoelBR?oc=5)
 

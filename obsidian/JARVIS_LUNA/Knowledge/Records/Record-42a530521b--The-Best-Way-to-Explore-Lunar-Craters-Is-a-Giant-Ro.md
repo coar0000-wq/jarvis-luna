@@ -1,12 +1,12 @@
 ---
-title: "Record 42a530521b · The-Best-Way-to-Explore-Lunar-Craters-Is-a-Giant-Robot-Ball"
+title: "Record 42a530521b · The-Best-Way-to-Explore-Lunar-Craters-Is-a-Giant-Ro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.050661+00:00
+updated_at: 2026-09-13T00:56:37.873904+00:00
 tags: [record, real-data]
 ---
 
-# Record 42a530521b · The-Best-Way-to-Explore-Lunar-Craters-Is-a-Giant-Robot-Ball
+# Record 42a530521b · The-Best-Way-to-Explore-Lunar-Craters-Is-a-Giant-Ro
 
 > 실제 수집 레코드입니다. 원문: [spectrum.ieee.org](https://spectrum.ieee.org/moon-ball-robot)
 

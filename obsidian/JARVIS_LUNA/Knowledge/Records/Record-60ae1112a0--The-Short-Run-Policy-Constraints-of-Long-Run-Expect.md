@@ -1,12 +1,12 @@
 ---
-title: "Record 60ae1112a0 · The-Short-Run-Policy-Constraints-of-Long-Run-Expectations"
+title: "Record 60ae1112a0 · The-Short-Run-Policy-Constraints-of-Long-Run-Expect"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.624555+00:00
+updated_at: 2026-09-13T00:56:37.484779+00:00
 tags: [record, real-data]
 ---
 
-# Record 60ae1112a0 · The-Short-Run-Policy-Constraints-of-Long-Run-Expectations
+# Record 60ae1112a0 · The-Short-Run-Policy-Constraints-of-Long-Run-Expect
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1086/738335)
 

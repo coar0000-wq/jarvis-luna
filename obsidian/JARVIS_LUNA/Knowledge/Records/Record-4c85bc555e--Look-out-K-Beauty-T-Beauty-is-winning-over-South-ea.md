@@ -1,12 +1,12 @@
 ---
-title: "Record 4c85bc555e · Look-out-K-Beauty-T-Beauty-is-winning-over-South-east-Asian-consumers-"
+title: "Record 4c85bc555e · Look-out-K-Beauty-T-Beauty-is-winning-over-South-ea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.982003+00:00
+updated_at: 2026-09-13T00:56:37.810102+00:00
 tags: [record, real-data]
 ---
 
-# Record 4c85bc555e · Look-out-K-Beauty-T-Beauty-is-winning-over-South-east-Asian-consumers-
+# Record 4c85bc555e · Look-out-K-Beauty-T-Beauty-is-winning-over-South-ea
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiuwFBVV95cUxNenhvUzFjT19OenFLSXV4dFhIUGFqWExWMXFKMFI4OGkzdm5POTlmdngzdW5fcjRNcVJfZWdRcXZvWElyZDZMbnc2dkoxR0lXeW95SFlxRGlXeTBZYzRuemNMREF4RWp6R1IzS0lUcVJuNmZSOUdETy16MTMyRHpuNEROMWxtd2VDN1BkenZWQll1ajcxSF8xWEFFcGxac0t2N2h5TkpoVXlKTVBwbFVIMEZHTmthb1dvajkw?oc=5)
 

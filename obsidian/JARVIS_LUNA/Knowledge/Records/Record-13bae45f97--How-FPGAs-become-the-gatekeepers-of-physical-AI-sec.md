@@ -1,12 +1,12 @@
 ---
-title: "Record 13bae45f97 · How-FPGAs-become-the-gatekeepers-of-physical-AI-security"
+title: "Record 13bae45f97 · How-FPGAs-become-the-gatekeepers-of-physical-AI-sec"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.174468+00:00
+updated_at: 2026-09-13T00:56:37.980928+00:00
 tags: [record, real-data]
 ---
 
-# Record 13bae45f97 · How-FPGAs-become-the-gatekeepers-of-physical-AI-security
+# Record 13bae45f97 · How-FPGAs-become-the-gatekeepers-of-physical-AI-sec
 
 > 실제 수집 레코드입니다. 원문: [www.therobotreport.com](https://www.therobotreport.com/how-fpgas-become-the-gatekeepers-of-physical-ai-security/)
 

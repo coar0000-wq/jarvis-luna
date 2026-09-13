@@ -1,12 +1,12 @@
 ---
-title: "Record 04b7b817f1 · This-is-why-you-need-to-be-using-Vitamin-C-in-your-skincare-routine"
+title: "Record 04b7b817f1 · This-is-why-you-need-to-be-using-Vitamin-C-in-your-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.201411+00:00
+updated_at: 2026-09-13T00:56:38.002955+00:00
 tags: [record, real-data]
 ---
 
-# Record 04b7b817f1 · This-is-why-you-need-to-be-using-Vitamin-C-in-your-skincare-routine
+# Record 04b7b817f1 · This-is-why-you-need-to-be-using-Vitamin-C-in-your-
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/shorts/f60sSXFgWEg)
 

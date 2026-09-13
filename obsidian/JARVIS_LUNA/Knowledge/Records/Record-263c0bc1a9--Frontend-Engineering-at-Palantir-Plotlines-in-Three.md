@@ -1,12 +1,12 @@
 ---
-title: "Record 263c0bc1a9 · Frontend-Engineering-at-Palantir-Plotlines-in-Threejs"
+title: "Record 263c0bc1a9 · Frontend-Engineering-at-Palantir-Plotlines-in-Three"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.562119+00:00
+updated_at: 2026-09-13T00:56:37.425338+00:00
 tags: [record, real-data]
 ---
 
-# Record 263c0bc1a9 · Frontend-Engineering-at-Palantir-Plotlines-in-Threejs
+# Record 263c0bc1a9 · Frontend-Engineering-at-Palantir-Plotlines-in-Three
 
 > 실제 수집 레코드입니다. 원문: [blog.palantir.com](https://blog.palantir.com/frontend-engineering-at-palantir-plotlines-in-three-js-c0c47f310715?source=rss----3c87dc14372f---4)
 

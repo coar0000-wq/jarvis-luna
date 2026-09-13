@@ -1,12 +1,12 @@
 ---
-title: "Record 03fe5aab91 · Samsung-Presents-Design-Is-an-Act-of-Love-at-Design-Miami-Seoul-2026"
+title: "Record 03fe5aab91 · Samsung-Presents-Design-Is-an-Act-of-Love-at-Design"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.998282+00:00
+updated_at: 2026-09-13T00:56:37.825074+00:00
 tags: [record, real-data]
 ---
 
-# Record 03fe5aab91 · Samsung-Presents-Design-Is-an-Act-of-Love-at-Design-Miami-Seoul-2026
+# Record 03fe5aab91 · Samsung-Presents-Design-Is-an-Act-of-Love-at-Design
 
 > 실제 수집 레코드입니다. 원문: [news.samsung.com](https://news.samsung.com/global/samsung-presents-design-is-an-act-of-love-at-design-miami-seoul-2026)
 

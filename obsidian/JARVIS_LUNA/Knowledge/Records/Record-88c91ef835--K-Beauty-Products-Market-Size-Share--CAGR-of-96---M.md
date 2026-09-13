@@ -1,12 +1,12 @@
 ---
-title: "Record 88c91ef835 · K-Beauty-Products-Market-Size-Share--CAGR-of-96---Marketus"
+title: "Record 88c91ef835 · K-Beauty-Products-Market-Size-Share--CAGR-of-96---M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.797589+00:00
+updated_at: 2026-09-13T00:56:37.637023+00:00
 tags: [record, real-data]
 ---
 
-# Record 88c91ef835 · K-Beauty-Products-Market-Size-Share--CAGR-of-96---Marketus
+# Record 88c91ef835 · K-Beauty-Products-Market-Size-Share--CAGR-of-96---M
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiX0FVX3lxTE1xcmVLallyY0c1RnpaOGJjRGxEaU1hd1d0TDgtX3JhSUc0b3laUERIbWRtVjQwVUZlWmZrNTFmSFo3dDliYzF3dHRNeHowSHE1cjZxVEJkSmhnbjNZUDdV?oc=5)
 

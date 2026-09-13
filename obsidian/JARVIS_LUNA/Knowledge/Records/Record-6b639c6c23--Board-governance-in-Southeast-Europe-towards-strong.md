@@ -1,12 +1,12 @@
 ---
-title: "Record 6b639c6c23 · Board-governance-in-Southeast-Europe-towards-stronger-training-and-qua"
+title: "Record 6b639c6c23 · Board-governance-in-Southeast-Europe-towards-strong"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.677203+00:00
+updated_at: 2026-09-13T00:56:37.530258+00:00
 tags: [record, real-data]
 ---
 
-# Record 6b639c6c23 · Board-governance-in-Southeast-Europe-towards-stronger-training-and-qua
+# Record 6b639c6c23 · Board-governance-in-Southeast-Europe-towards-strong
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.22598/zefzg.2026.1.143)
 

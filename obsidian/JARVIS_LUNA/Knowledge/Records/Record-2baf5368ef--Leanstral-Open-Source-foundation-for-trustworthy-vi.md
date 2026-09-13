@@ -1,12 +1,12 @@
 ---
-title: "Record 2baf5368ef · Leanstral-Open-Source-foundation-for-trustworthy-vibe-coding"
+title: "Record 2baf5368ef · Leanstral-Open-Source-foundation-for-trustworthy-vi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.768024+00:00
+updated_at: 2026-09-13T00:56:37.609155+00:00
 tags: [record, real-data]
 ---
 
-# Record 2baf5368ef · Leanstral-Open-Source-foundation-for-trustworthy-vibe-coding
+# Record 2baf5368ef · Leanstral-Open-Source-foundation-for-trustworthy-vi
 
 > 실제 수집 레코드입니다. 원문: [mistral.ai](https://mistral.ai/news/leanstral/)
 

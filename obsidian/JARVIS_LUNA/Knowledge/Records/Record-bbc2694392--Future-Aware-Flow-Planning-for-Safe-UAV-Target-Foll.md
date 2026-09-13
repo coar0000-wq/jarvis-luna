@@ -1,12 +1,12 @@
 ---
-title: "Record bbc2694392 · Future-Aware-Flow-Planning-for-Safe-UAV-Target-Following"
+title: "Record bbc2694392 · Future-Aware-Flow-Planning-for-Safe-UAV-Target-Foll"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.533067+00:00
+updated_at: 2026-09-13T00:56:37.396802+00:00
 tags: [record, real-data]
 ---
 
-# Record bbc2694392 · Future-Aware-Flow-Planning-for-Safe-UAV-Target-Following
+# Record bbc2694392 · Future-Aware-Flow-Planning-for-Safe-UAV-Target-Foll
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.10166v1)
 

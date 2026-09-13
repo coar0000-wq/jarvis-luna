@@ -1,12 +1,12 @@
 ---
-title: "Record bac9dfb114 · Data-Repetition-Beats-Data-Scaling-in-Long-CoT-Supervised-Fine-Tuning"
+title: "Record bac9dfb114 · Data-Repetition-Beats-Data-Scaling-in-Long-CoT-Supe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.020384+00:00
+updated_at: 2026-09-13T00:56:37.845291+00:00
 tags: [record, real-data]
 ---
 
-# Record bac9dfb114 · Data-Repetition-Beats-Data-Scaling-in-Long-CoT-Supervised-Fine-Tuning
+# Record bac9dfb114 · Data-Repetition-Beats-Data-Scaling-in-Long-CoT-Supe
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7128745336)
 

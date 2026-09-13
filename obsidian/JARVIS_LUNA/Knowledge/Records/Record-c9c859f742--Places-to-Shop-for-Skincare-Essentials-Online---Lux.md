@@ -1,12 +1,12 @@
 ---
-title: "Record c9c859f742 · Places-to-Shop-for-Skincare-Essentials-Online---Luxury-Travel-Magazine"
+title: "Record c9c859f742 · Places-to-Shop-for-Skincare-Essentials-Online---Lux"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.943255+00:00
+updated_at: 2026-09-13T00:56:37.774686+00:00
 tags: [record, real-data]
 ---
 
-# Record c9c859f742 · Places-to-Shop-for-Skincare-Essentials-Online---Luxury-Travel-Magazine
+# Record c9c859f742 · Places-to-Shop-for-Skincare-Essentials-Online---Lux
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMinAFBVV95cUxOdkJ6UmNGWGMxcDM5bXh6OFNJR0FvT3dFQ1FSckVzN2xHeUlSdWVHeG0yMVlBU09nT0NtbzRrb0hRZ25jX3lnRVY0SXI4LVVVZERlRkRwTjJfYkVLUklUWWJWWnhOUkh4RXlFOFJYWkxoUkdIcF80cXFsZ2ROTDN5bkR5eW04Qm81MEQ4REpLNEt4eWxhV19KYUVTc0g?oc=5)
 

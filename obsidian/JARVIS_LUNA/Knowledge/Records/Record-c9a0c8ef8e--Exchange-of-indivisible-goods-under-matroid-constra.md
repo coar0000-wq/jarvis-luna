@@ -1,12 +1,12 @@
 ---
-title: "Record c9a0c8ef8e · Exchange-of-indivisible-goods-under-matroid-constraints"
+title: "Record c9a0c8ef8e · Exchange-of-indivisible-goods-under-matroid-constra"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.592448+00:00
+updated_at: 2026-09-13T00:56:37.455567+00:00
 tags: [record, real-data]
 ---
 
-# Record c9a0c8ef8e · Exchange-of-indivisible-goods-under-matroid-constraints
+# Record c9a0c8ef8e · Exchange-of-indivisible-goods-under-matroid-constra
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.ic.2023.105110)
 

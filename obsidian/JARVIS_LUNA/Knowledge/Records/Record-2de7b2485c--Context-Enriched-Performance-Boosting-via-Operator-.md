@@ -1,12 +1,12 @@
 ---
-title: "Record 2de7b2485c · Context-Enriched-Performance-Boosting-via-Operator-Decomposition"
+title: "Record 2de7b2485c · Context-Enriched-Performance-Boosting-via-Operator-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.500216+00:00
+updated_at: 2026-09-13T00:56:37.366737+00:00
 tags: [record, real-data]
 ---
 
-# Record 2de7b2485c · Context-Enriched-Performance-Boosting-via-Operator-Decomposition
+# Record 2de7b2485c · Context-Enriched-Performance-Boosting-via-Operator-
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.05158v1)
 

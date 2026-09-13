@@ -1,12 +1,12 @@
 ---
-title: "Record 72c87a5bb9 · The-NANOGrav-15-yr-Data-Set-Impacts-of-Customized-Chromatic-Noise-Mode"
+title: "Record 72c87a5bb9 · The-NANOGrav-15-yr-Data-Set-Impacts-of-Customized-C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.034247+00:00
+updated_at: 2026-09-13T00:56:37.858149+00:00
 tags: [record, real-data]
 ---
 
-# Record 72c87a5bb9 · The-NANOGrav-15-yr-Data-Set-Impacts-of-Customized-Chromatic-Noise-Mode
+# Record 72c87a5bb9 · The-NANOGrav-15-yr-Data-Set-Impacts-of-Customized-C
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7166900059)
 

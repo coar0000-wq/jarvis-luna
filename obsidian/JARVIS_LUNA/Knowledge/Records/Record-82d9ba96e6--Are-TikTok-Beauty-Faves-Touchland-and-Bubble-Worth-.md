@@ -1,12 +1,12 @@
 ---
-title: "Record 82d9ba96e6 · Are-TikTok-Beauty-Faves-Touchland-and-Bubble-Worth-It---thekitca"
+title: "Record 82d9ba96e6 · Are-TikTok-Beauty-Faves-Touchland-and-Bubble-Worth-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.833699+00:00
+updated_at: 2026-09-13T00:56:37.669973+00:00
 tags: [record, real-data]
 ---
 
-# Record 82d9ba96e6 · Are-TikTok-Beauty-Faves-Touchland-and-Bubble-Worth-It---thekitca
+# Record 82d9ba96e6 · Are-TikTok-Beauty-Faves-Touchland-and-Bubble-Worth-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMib0FVX3lxTE5UTFI4RU9JMloycUtjbWR3Um1vU2NOUGVObVdOZUl5UERwd3ZQaTA4NFlUWUpZZUl4TzZ0NTMwQ0dfdDZsc1I2MGNWNWk1QU80dm1BbWZnSFB5SkxFaWtzeGFIZDFTdTRpOEk0ellJZ9IBdEFVX3lxTE55X2pqT2NMRkhPMGNxb1YtRjVhendRc2I3SHJFWUZ1aDRyOTQ0eDdBcXBMSEZQcW5wcUpUN2FKRFoyX3kxekttUjZEVU1tclVqVVF4T1pyV1U1NzR0bjlPaG9fRE1IeHFBTS10bjRDTnVNdVBQ?oc=5)
 

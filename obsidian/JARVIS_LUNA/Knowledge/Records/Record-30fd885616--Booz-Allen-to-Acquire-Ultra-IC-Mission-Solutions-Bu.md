@@ -1,12 +1,12 @@
 ---
-title: "Record 30fd885616 · Booz-Allen-to-Acquire-Ultra-IC-Mission-Solutions-Business-Further-Stre"
+title: "Record 30fd885616 · Booz-Allen-to-Acquire-Ultra-IC-Mission-Solutions-Bu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.747122+00:00
+updated_at: 2026-09-13T00:56:37.590134+00:00
 tags: [record, real-data]
 ---
 
-# Record 30fd885616 · Booz-Allen-to-Acquire-Ultra-IC-Mission-Solutions-Business-Further-Stre
+# Record 30fd885616 · Booz-Allen-to-Acquire-Ultra-IC-Mission-Solutions-Bu
 
 > 실제 수집 레코드입니다. 원문: [investors.boozallen.com](https://investors.boozallen.com/news-releases/news-release-details/booz-allen-acquire-ultra-ic-mission-solutions-business-further)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 5b628cf00f · CMB-Net-A-Clinically-Modulated-Boundary-Aware-Network-for-Anatomical-S"
+title: "Record 5b628cf00f · CMB-Net-A-Clinically-Modulated-Boundary-Aware-Netwo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.581633+00:00
+updated_at: 2026-09-13T00:56:37.445833+00:00
 tags: [record, real-data]
 ---
 
-# Record 5b628cf00f · CMB-Net-A-Clinically-Modulated-Boundary-Aware-Network-for-Anatomical-S
+# Record 5b628cf00f · CMB-Net-A-Clinically-Modulated-Boundary-Aware-Netwo
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1007/s10278-026-02155-z)
 

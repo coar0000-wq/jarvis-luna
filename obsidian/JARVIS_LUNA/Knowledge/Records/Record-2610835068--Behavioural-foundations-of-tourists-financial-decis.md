@@ -1,12 +1,12 @@
 ---
-title: "Record 2610835068 · Behavioural-foundations-of-tourists-financial-decision-making-a-Stimul"
+title: "Record 2610835068 · Behavioural-foundations-of-tourists-financial-decis"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.623871+00:00
+updated_at: 2026-09-13T00:56:37.484168+00:00
 tags: [record, real-data]
 ---
 
-# Record 2610835068 · Behavioural-foundations-of-tourists-financial-decision-making-a-Stimul
+# Record 2610835068 · Behavioural-foundations-of-tourists-financial-decis
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1080/20565607.2026.2643423)
 

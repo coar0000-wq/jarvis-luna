@@ -1,12 +1,12 @@
 ---
-title: "Record e5540b9f6f · One-Word-Different-Action-A-Real-Robot-Benchmark-for-Language-Conditio"
+title: "Record e5540b9f6f · One-Word-Different-Action-A-Real-Robot-Benchmark-fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.502273+00:00
+updated_at: 2026-09-13T00:56:37.368594+00:00
 tags: [record, real-data]
 ---
 
-# Record e5540b9f6f · One-Word-Different-Action-A-Real-Robot-Benchmark-for-Language-Conditio
+# Record e5540b9f6f · One-Word-Different-Action-A-Real-Robot-Benchmark-fo
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.05260v1)
 

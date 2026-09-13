@@ -1,12 +1,12 @@
 ---
-title: "Record 604ea75354 · Latest-TikTok-fad-touting-miracle-oil-to-remove-hair-is-flawed--Opinio"
+title: "Record 604ea75354 · Latest-TikTok-fad-touting-miracle-oil-to-remove-hai"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.861786+00:00
+updated_at: 2026-09-13T00:56:37.698907+00:00
 tags: [record, real-data]
 ---
 
-# Record 604ea75354 · Latest-TikTok-fad-touting-miracle-oil-to-remove-hair-is-flawed--Opinio
+# Record 604ea75354 · Latest-TikTok-fad-touting-miracle-oil-to-remove-hai
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMie0FVX3lxTE1FT0JqZk8tT1NWU2hYNWVfTjZNQXlCVUtMZ3VZOWRzRHZGSEFVZXZzYVVMTkNHSVI3cXdtbTJVZlB2dTE3RDhLY3lJaVA1SEFNQWhlVTZmbUh2VGVKaUF3WjVwVjdBNXhfWU5lUE1KY0hNM3dVcGJsNnpDWQ?oc=5)
 

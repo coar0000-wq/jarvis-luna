@@ -1,12 +1,12 @@
 ---
-title: "Record 7c58d25fd4 · FULLY-Enters-Sephora-US-via-OLIVE-YOUNG-K-Beauty-Edit---CHOSUNBIZ---Ch"
+title: "Record 7c58d25fd4 · FULLY-Enters-Sephora-US-via-OLIVE-YOUNG-K-Beauty-Ed"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.852107+00:00
+updated_at: 2026-09-13T00:56:37.688692+00:00
 tags: [record, real-data]
 ---
 
-# Record 7c58d25fd4 · FULLY-Enters-Sephora-US-via-OLIVE-YOUNG-K-Beauty-Edit---CHOSUNBIZ---Ch
+# Record 7c58d25fd4 · FULLY-Enters-Sephora-US-via-OLIVE-YOUNG-K-Beauty-Ed
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMickFVX3lxTE92akszSkVlRmtraHhWWFhMZmd3ZEZ2OXJYaE45b2VsZ3hzbG1aQkNCQWV2Y2JOTzdZNUNOWmM4aEpGdWdxcXJfOTBCWlBQMXZ5WFNmR2xESzdaQzJ3RGhiYnFpSF9ORVJxUnk5d1dxTm41UdIBhgFBVV95cUxOQlNWQkhUeXR1cG9rTWwyZjJsVXZVSTFZUnpJTTJ2LTdUWmNhM3EtTXFRUm04U0FQSmVHOVFmWmVIaFMxYmdqdE1UcU5OcmoyeFJ2RlMyZ3R3ZVI5MkNLY2hqeWtWZXhGU1o3bURScTZaWmpGYXBudnMyUGVPZnFGblBhX2RCUQ?oc=5)
 

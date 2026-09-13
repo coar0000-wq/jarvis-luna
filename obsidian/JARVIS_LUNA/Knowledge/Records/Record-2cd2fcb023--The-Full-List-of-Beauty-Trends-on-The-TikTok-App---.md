@@ -1,12 +1,12 @@
 ---
-title: "Record 2cd2fcb023 · The-Full-List-of-Beauty-Trends-on-The-TikTok-App---The-Villanovan"
+title: "Record 2cd2fcb023 · The-Full-List-of-Beauty-Trends-on-The-TikTok-App---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.911528+00:00
+updated_at: 2026-09-13T00:56:37.745567+00:00
 tags: [record, real-data]
 ---
 
-# Record 2cd2fcb023 · The-Full-List-of-Beauty-Trends-on-The-TikTok-App---The-Villanovan
+# Record 2cd2fcb023 · The-Full-List-of-Beauty-Trends-on-The-TikTok-App---
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMijAFBVV95cUxNekgzdXJKTm54aDlKUWp0VDhySFFjQjdfb2xBcXpwUm42RERZS1EzZUhGc2N5LUF4emlZSFUyRHRvTnNsNEtPNVQ5V0FaaThKTnk2cnhSOEQ2bFRQd1VlNGhnY1oyeHRoNWJ3VzdjX3NXVjA0RTFjdEVsVkRRVUNoTGZOTWEtcUl6MGNOcA?oc=5)
 

@@ -1,18 +1,18 @@
 ---
-title: "Record c5d8ec814c · 2026s-hottest-makeup-trend-Euphoria-inspired-blue-eyeshadow--shop-our-"
+title: "Record c5d8ec814c · 2026s-hottest-makeup-trend-Euphoria-inspired-blue-e"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.933161+00:00
+updated_at: 2026-09-13T00:56:37.765305+00:00
 tags: [record, real-data]
 ---
 
-# Record c5d8ec814c · 2026s-hottest-makeup-trend-Euphoria-inspired-blue-eyeshadow--shop-our-
+# Record c5d8ec814c · 2026s-hottest-makeup-trend-Euphoria-inspired-blue-e
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMilwFBVV95cUxPSFNWNkhRcDJlOURyamNDNlU4SWxVVXF4R3psUFMwanFZbTlDVzgwWGdiNU50YVB6QnZ4QTB0VDk1R01DUVF5UXNhWjF2Q2cxVUp0Q3F4MmlDaC1XZkFzblYyd0xqRTN5dVR5dDV6YmFkektkenRHQURhQzN4c05KU3lBWEtTYkVvRThaSHdfR1RhR1hDVVBJ?oc=5)
 
-**제목:** 2026’s hottest makeup trend? Euphoria-inspired blue eyeshadow – shop our favourite palettes - HELLO! Magazine
+**제목:** 2026’s hottest makeup trend? Euphoria-inspired blue eyeshadow – shop our favourite palettes - hellomagazine.com
 
-2026’s hottest makeup trend? Euphoria-inspired blue eyeshadow – shop our favourite palettes - HELLO! Magazine
+2026’s hottest makeup trend? Euphoria-inspired blue eyeshadow – shop our favourite palettes - hellomagazine.com
 
 **출처:** Source · Google Search
 

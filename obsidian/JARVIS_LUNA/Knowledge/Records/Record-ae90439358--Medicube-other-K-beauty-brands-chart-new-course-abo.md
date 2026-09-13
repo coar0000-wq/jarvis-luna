@@ -1,12 +1,12 @@
 ---
-title: "Record ae90439358 · Medicube-other-K-beauty-brands-chart-new-course-aboard-cruise-ships-in"
+title: "Record ae90439358 · Medicube-other-K-beauty-brands-chart-new-course-abo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.861105+00:00
+updated_at: 2026-09-13T00:56:37.698186+00:00
 tags: [record, real-data]
 ---
 
-# Record ae90439358 · Medicube-other-K-beauty-brands-chart-new-course-aboard-cruise-ships-in
+# Record ae90439358 · Medicube-other-K-beauty-brands-chart-new-course-abo
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMidkFVX3lxTFA3ZU9yYWdlM1JUZGlkem45TFVrY1Z1ZzVCZEJ2V29RX3FaZ043TG9PamFJdjBHUWxWOG1IbzktajdOZzRKLUxkZF8xaHJ4R2NMaDNDQy0yOGItRHVobEd2bk9IVmh1S2FSM0g0cEtRY0xFTFpWQUE?oc=5)
 

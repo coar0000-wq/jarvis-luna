@@ -1,12 +1,12 @@
 ---
-title: "Record 5bd710727c · 3-Canadian-Beauty-Experts-Share-Their-Favourite-K-Beauty-Products---FA"
+title: "Record 5bd710727c · 3-Canadian-Beauty-Experts-Share-Their-Favourite-K-B"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.907196+00:00
+updated_at: 2026-09-13T00:56:37.741620+00:00
 tags: [record, real-data]
 ---
 
-# Record 5bd710727c · 3-Canadian-Beauty-Experts-Share-Their-Favourite-K-Beauty-Products---FA
+# Record 5bd710727c · 3-Canadian-Beauty-Experts-Share-Their-Favourite-K-B
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiigFBVV95cUxOcDlxLVVDczhWTUtPRF9GNmlZTHozMG9nU1kwdVJZbDhJUnFjcXRibkY1akhqTlFDc0xUZHBseGlMamExQ1RIVzNWY2hzUnYtdjVLTG9aaUpuQU51SVA5aTg3QlNYVVVXSWI3UHpnc19BQUJQZkQ4cFlHU3FBdTNsMlRqQlhQeXJ0R0E?oc=5)
 

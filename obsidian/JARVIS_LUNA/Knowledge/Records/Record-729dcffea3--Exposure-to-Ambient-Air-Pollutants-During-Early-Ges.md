@@ -1,12 +1,12 @@
 ---
-title: "Record 729dcffea3 · Exposure-to-Ambient-Air-Pollutants-During-Early-Gestation-and-Phenotyp"
+title: "Record 729dcffea3 · Exposure-to-Ambient-Air-Pollutants-During-Early-Ges"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.587811+00:00
+updated_at: 2026-09-13T00:56:37.451480+00:00
 tags: [record, real-data]
 ---
 
-# Record 729dcffea3 · Exposure-to-Ambient-Air-Pollutants-During-Early-Gestation-and-Phenotyp
+# Record 729dcffea3 · Exposure-to-Ambient-Air-Pollutants-During-Early-Ges
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.bjps.2026.09.003)
 

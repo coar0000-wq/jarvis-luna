@@ -1,12 +1,12 @@
 ---
-title: "Record c030acdb3f · Mitigating-Degradation-Attacks-in-Cooperative-Autonomous-Driving-via-I"
+title: "Record c030acdb3f · Mitigating-Degradation-Attacks-in-Cooperative-Auton"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.535490+00:00
+updated_at: 2026-09-13T00:56:37.398982+00:00
 tags: [record, real-data]
 ---
 
-# Record c030acdb3f · Mitigating-Degradation-Attacks-in-Cooperative-Autonomous-Driving-via-I
+# Record c030acdb3f · Mitigating-Degradation-Attacks-in-Cooperative-Auton
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.10232v1)
 

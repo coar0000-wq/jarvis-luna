@@ -1,12 +1,12 @@
 ---
-title: "Record 30c654111e · Plasma-double-layer-development-during-high-power-EUV-exposure"
+title: "Record 30c654111e · Plasma-double-layer-development-during-high-power-E"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.035148+00:00
+updated_at: 2026-09-13T00:56:37.859977+00:00
 tags: [record, real-data]
 ---
 
-# Record 30c654111e · Plasma-double-layer-development-during-high-power-EUV-exposure
+# Record 30c654111e · Plasma-double-layer-development-during-high-power-E
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7167154077)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 11d9d296ae · Robot-Aware-Computational-Design-of-Object-Specific-Passive-Grippers-f"
+title: "Record 11d9d296ae · Robot-Aware-Computational-Design-of-Object-Specific"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.484428+00:00
+updated_at: 2026-09-13T00:56:37.352516+00:00
 tags: [record, real-data]
 ---
 
-# Record 11d9d296ae · Robot-Aware-Computational-Design-of-Object-Specific-Passive-Grippers-f
+# Record 11d9d296ae · Robot-Aware-Computational-Design-of-Object-Specific
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.03761v1)
 

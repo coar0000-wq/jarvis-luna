@@ -1,12 +1,12 @@
 ---
-title: "Record 33e8c65357 · I-Test-Korean-Skin-Care-Products-for-a-LivingThese-Are-My-10-Favorites"
+title: "Record 33e8c65357 · I-Test-Korean-Skin-Care-Products-for-a-LivingThese-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.836677+00:00
+updated_at: 2026-09-13T00:56:37.672758+00:00
 tags: [record, real-data]
 ---
 
-# Record 33e8c65357 · I-Test-Korean-Skin-Care-Products-for-a-LivingThese-Are-My-10-Favorites
+# Record 33e8c65357 · I-Test-Korean-Skin-Care-Products-for-a-LivingThese-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMibEFVX3lxTE1mV053TUFuLWQ5YWhUV2g3WDZvYmlQRk5Bc0Fpb0VRQUw2UERlbGc1bVE5T3M0a0JlbUxkQ0t1ZV9nOTlVZmoxdElFMFdWdlNQdU40YVdVaFVFMHFPdV9QZUxvMUNEQmU5bVliUQ?oc=5)
 

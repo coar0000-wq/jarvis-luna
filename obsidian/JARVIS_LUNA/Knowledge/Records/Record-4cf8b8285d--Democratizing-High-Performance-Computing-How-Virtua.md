@@ -1,12 +1,12 @@
 ---
-title: "Record 4cf8b8285d · Democratizing-High-Performance-Computing-How-Virtualization-and-Worklo"
+title: "Record 4cf8b8285d · Democratizing-High-Performance-Computing-How-Virtua"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.705606+00:00
+updated_at: 2026-09-13T00:56:37.553228+00:00
 tags: [record, real-data]
 ---
 
-# Record 4cf8b8285d · Democratizing-High-Performance-Computing-How-Virtualization-and-Worklo
+# Record 4cf8b8285d · Democratizing-High-Performance-Computing-How-Virtua
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.18813141)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record e0148fec13 · Digital-payments-under-uncertainty-a-stimulusorganismresponse-perspect"
+title: "Record e0148fec13 · Digital-payments-under-uncertainty-a-stimulusorgani"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.621970+00:00
+updated_at: 2026-09-13T00:56:37.482426+00:00
 tags: [record, real-data]
 ---
 
-# Record e0148fec13 · Digital-payments-under-uncertainty-a-stimulusorganismresponse-perspect
+# Record e0148fec13 · Digital-payments-under-uncertainty-a-stimulusorgani
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1080/10371656.2026.2680752)
 

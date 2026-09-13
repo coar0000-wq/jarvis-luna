@@ -1,12 +1,12 @@
 ---
-title: "Record 5c61a46039 · Immersive-Virtual-Reality-in-Foreign-Language-Learning-A-Bibliometric-"
+title: "Record 5c61a46039 · Immersive-Virtual-Reality-in-Foreign-Language-Learn"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.583986+00:00
+updated_at: 2026-09-13T00:56:37.447989+00:00
 tags: [record, real-data]
 ---
 
-# Record 5c61a46039 · Immersive-Virtual-Reality-in-Foreign-Language-Learning-A-Bibliometric-
+# Record 5c61a46039 · Immersive-Virtual-Reality-in-Foreign-Language-Learn
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1007/s11528-026-01212-2)
 

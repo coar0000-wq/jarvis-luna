@@ -1,12 +1,12 @@
 ---
-title: "Record b0fbd7a01f · Multi-Step-Tool-Calling-over-Korean-Open-Public-APIs-A-Benchmark-and-a"
+title: "Record b0fbd7a01f · Multi-Step-Tool-Calling-over-Korean-Open-Public-API"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.508081+00:00
+updated_at: 2026-09-13T00:56:37.373798+00:00
 tags: [record, real-data]
 ---
 
-# Record b0fbd7a01f · Multi-Step-Tool-Calling-over-Korean-Open-Public-APIs-A-Benchmark-and-a
+# Record b0fbd7a01f · Multi-Step-Tool-Calling-over-Korean-Open-Public-API
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.05395v1)
 

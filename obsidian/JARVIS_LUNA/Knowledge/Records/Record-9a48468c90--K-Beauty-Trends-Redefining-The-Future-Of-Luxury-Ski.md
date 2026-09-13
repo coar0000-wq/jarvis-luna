@@ -1,12 +1,12 @@
 ---
-title: "Record 9a48468c90 · K-Beauty-Trends-Redefining-The-Future-Of-Luxury-Skincare---Yahoo"
+title: "Record 9a48468c90 · K-Beauty-Trends-Redefining-The-Future-Of-Luxury-Ski"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.952981+00:00
+updated_at: 2026-09-13T00:56:37.783631+00:00
 tags: [record, real-data]
 ---
 
-# Record 9a48468c90 · K-Beauty-Trends-Redefining-The-Future-Of-Luxury-Skincare---Yahoo
+# Record 9a48468c90 · K-Beauty-Trends-Redefining-The-Future-Of-Luxury-Ski
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiogFBVV95cUxPcThhZmVfLW5nWDAtZmtiM0FvdDE0ckZsNlBJVWVvSDY1WTN5UzNwMFJ0aVZSSzFxTXV3cG1abm90QkdpRzVsaGJ5dFJUcnRhcEVqZTNDX1FBRldITTFxRTZCNnRtWHhrU1hBVlBfbVVtQ0NKTF9KM29CZlduMTZ6NmEwZHlHT25aS21DZzAwOVhSbnB1bWowZkNfS0c3bDVQenc?oc=5)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 71a67e1bd9 · Single-crystalline-CoSi-semimetals-with-high-conductivity-and-reliabil"
+title: "Record 71a67e1bd9 · Single-crystalline-CoSi-semimetals-with-high-conduc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.613217+00:00
+updated_at: 2026-09-13T00:56:37.474328+00:00
 tags: [record, real-data]
 ---
 
-# Record 71a67e1bd9 · Single-crystalline-CoSi-semimetals-with-high-conductivity-and-reliabil
+# Record 71a67e1bd9 · Single-crystalline-CoSi-semimetals-with-high-conduc
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1038/s41563-026-02740-1)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 41550a74cf · Some-linear-feedback-laws-for-stabilisation-of-sterile-insect-techniqu"
+title: "Record 41550a74cf · Some-linear-feedback-laws-for-stabilisation-of-ster"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.701737+00:00
+updated_at: 2026-09-13T00:56:37.550208+00:00
 tags: [record, real-data]
 ---
 
-# Record 41550a74cf · Some-linear-feedback-laws-for-stabilisation-of-sterile-insect-techniqu
+# Record 41550a74cf · Some-linear-feedback-laws-for-stabilisation-of-ster
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.48550/arxiv.2503.12986)
 

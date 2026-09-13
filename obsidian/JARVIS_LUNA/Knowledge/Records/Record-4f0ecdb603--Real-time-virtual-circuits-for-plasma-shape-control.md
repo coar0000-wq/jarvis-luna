@@ -1,12 +1,12 @@
 ---
-title: "Record 4f0ecdb603 · Real-time-virtual-circuits-for-plasma-shape-control-via-neural-network"
+title: "Record 4f0ecdb603 · Real-time-virtual-circuits-for-plasma-shape-control"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.466789+00:00
+updated_at: 2026-09-13T00:56:37.336825+00:00
 tags: [record, real-data]
 ---
 
-# Record 4f0ecdb603 · Real-time-virtual-circuits-for-plasma-shape-control-via-neural-network
+# Record 4f0ecdb603 · Real-time-virtual-circuits-for-plasma-shape-control
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.28468v1)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 74935ac878 · Ecommerce-Fraud-Management-in-the-AI-Era-A-2026-Guide---Shopify"
+title: "Record 74935ac878 · Ecommerce-Fraud-Management-in-the-AI-Era-A-2026-Gui"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.856649+00:00
+updated_at: 2026-09-13T00:56:37.693540+00:00
 tags: [record, real-data]
 ---
 
-# Record 74935ac878 · Ecommerce-Fraud-Management-in-the-AI-Era-A-2026-Guide---Shopify
+# Record 74935ac878 · Ecommerce-Fraud-Management-in-the-AI-Era-A-2026-Gui
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMidEFVX3lxTE1TWmo4d1VlYV9RVVdHeDA0NTdpZGVRNU5KYld1RUsxcU5yRG1hUXZ0T1pjOV84anZ0b1dTLU8tUHdqellvODc2OTZZRVRqMTJmYzFiSkFNRnJPbVlyV29xVXRmd3h6ek5feGZyTnkzdmU5THRK?oc=5)
 

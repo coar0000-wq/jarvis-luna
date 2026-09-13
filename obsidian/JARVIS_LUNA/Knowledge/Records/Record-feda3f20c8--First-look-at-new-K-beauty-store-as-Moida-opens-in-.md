@@ -1,12 +1,12 @@
 ---
-title: "Record feda3f20c8 · First-look-at-new-K-beauty-store-as-Moida-opens-in-Leeds---Yorkshire-E"
+title: "Record feda3f20c8 · First-look-at-new-K-beauty-store-as-Moida-opens-in-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.973858+00:00
+updated_at: 2026-09-13T00:56:37.802672+00:00
 tags: [record, real-data]
 ---
 
-# Record feda3f20c8 · First-look-at-new-K-beauty-store-as-Moida-opens-in-Leeds---Yorkshire-E
+# Record feda3f20c8 · First-look-at-new-K-beauty-store-as-Moida-opens-in-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMisgFBVV95cUxPTzYwQVpoUWVBdjlGbGNvMkVEVFhYaU1FVTd5Umt1SGVocTUwUGhvZ2x5Rld5YnJEOF9ZVVFvN3FIVTdycEp0UjRDQUQ2MFlpeUVhZUdneGl1eWRBTXhRRVhRS1htTlByUkhsWl92bF9MeGFZelJ3ME03SWEzeDZPc3ZkSE1PUlhNTVJfQlRPTWlTZHc2bFpTMDl6RFN6akhjcDhiWk9iSVVvUkl4M3A1aXNn?oc=5)
 

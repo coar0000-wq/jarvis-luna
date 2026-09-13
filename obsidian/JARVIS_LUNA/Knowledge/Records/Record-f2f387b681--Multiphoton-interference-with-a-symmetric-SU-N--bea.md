@@ -1,12 +1,12 @@
 ---
-title: "Record f2f387b681 · Multiphoton-interference-with-a-symmetric-SU-N--beam-splitter-and-the-"
+title: "Record f2f387b681 · Multiphoton-interference-with-a-symmetric-SU-N--bea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.632094+00:00
+updated_at: 2026-09-13T00:56:37.491816+00:00
 tags: [record, real-data]
 ---
 
-# Record f2f387b681 · Multiphoton-interference-with-a-symmetric-SU-N--beam-splitter-and-the-
+# Record f2f387b681 · Multiphoton-interference-with-a-symmetric-SU-N--bea
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1103/bnzx-znhf)
 

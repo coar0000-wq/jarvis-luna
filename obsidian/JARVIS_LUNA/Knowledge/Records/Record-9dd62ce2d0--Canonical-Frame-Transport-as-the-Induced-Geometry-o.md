@@ -1,12 +1,12 @@
 ---
-title: "Record 9dd62ce2d0 · Canonical-Frame-Transport-as-the-Induced-Geometry-of-the-Canonical-Tra"
+title: "Record 9dd62ce2d0 · Canonical-Frame-Transport-as-the-Induced-Geometry-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.710503+00:00
+updated_at: 2026-09-13T00:56:37.557191+00:00
 tags: [record, real-data]
 ---
 
-# Record 9dd62ce2d0 · Canonical-Frame-Transport-as-the-Induced-Geometry-of-the-Canonical-Tra
+# Record 9dd62ce2d0 · Canonical-Frame-Transport-as-the-Induced-Geometry-o
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.21477824)
 

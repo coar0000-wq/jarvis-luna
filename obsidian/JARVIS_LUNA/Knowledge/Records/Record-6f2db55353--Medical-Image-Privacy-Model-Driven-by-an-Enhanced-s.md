@@ -1,12 +1,12 @@
 ---
-title: "Record 6f2db55353 · Medical-Image-Privacy-Model-Driven-by-an-Enhanced-secp256k1-Pseudo-Ran"
+title: "Record 6f2db55353 · Medical-Image-Privacy-Model-Driven-by-an-Enhanced-s"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.679089+00:00
+updated_at: 2026-09-13T00:56:37.531836+00:00
 tags: [record, real-data]
 ---
 
-# Record 6f2db55353 · Medical-Image-Privacy-Model-Driven-by-an-Enhanced-secp256k1-Pseudo-Ran
+# Record 6f2db55353 · Medical-Image-Privacy-Model-Driven-by-an-Enhanced-s
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.25258/ijddt.16.65s.171)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 990bc5d2f7 · C3-AI-and-Shell-Expand-Collaboration-Scaling-Reliability-AI-Deployment"
+title: "Record 990bc5d2f7 · C3-AI-and-Shell-Expand-Collaboration-Scaling-Reliab"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.762768+00:00
+updated_at: 2026-09-13T00:56:37.604376+00:00
 tags: [record, real-data]
 ---
 
-# Record 990bc5d2f7 · C3-AI-and-Shell-Expand-Collaboration-Scaling-Reliability-AI-Deployment
+# Record 990bc5d2f7 · C3-AI-and-Shell-Expand-Collaboration-Scaling-Reliab
 
 > 실제 수집 레코드입니다. 원문: [ir.c3.ai](https://ir.c3.ai/news-releases/news-release-details/c3-ai-and-shell-expand-collaboration-scaling-reliability-ai)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 2508388bd7 · Instant-Checkout-OpenAI-Bringing-E-Commerce-to-ChatGPT---AI-Magazine"
+title: "Record 2508388bd7 · Instant-Checkout-OpenAI-Bringing-E-Commerce-to-Chat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.906464+00:00
+updated_at: 2026-09-13T00:56:37.740948+00:00
 tags: [record, real-data]
 ---
 
-# Record 2508388bd7 · Instant-Checkout-OpenAI-Bringing-E-Commerce-to-ChatGPT---AI-Magazine
+# Record 2508388bd7 · Instant-Checkout-OpenAI-Bringing-E-Commerce-to-Chat
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiigFBVV95cUxNdGVhTWtrNjZWdGNpUnQyLXA1aHhJSll1S21rWlFhWEdCR2F1bFB6TGVNWFRydW44bllOVVQ2MVp1Q0c1UGUxMHJzSXZ3R0Zub2Q1Zmo2azE5VXNOWDV5OHJKTkd4R1JPUS1Zb012ZXZDalRTMkpOX2J4UUNBaV9BOEU2blFxZWFIZmc?oc=5)
 

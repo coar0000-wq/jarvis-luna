@@ -1,12 +1,12 @@
 ---
-title: "Record 564bccc62c · Generative-Intelligence-Keeping-Up-With-the-Pace-of-Applied-Intelligen"
+title: "Record 564bccc62c · Generative-Intelligence-Keeping-Up-With-the-Pace-of"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.681728+00:00
+updated_at: 2026-09-13T00:56:37.534001+00:00
 tags: [record, real-data]
 ---
 
-# Record 564bccc62c · Generative-Intelligence-Keeping-Up-With-the-Pace-of-Applied-Intelligen
+# Record 564bccc62c · Generative-Intelligence-Keeping-Up-With-the-Pace-of
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.30953/thmt.v9.505)
 

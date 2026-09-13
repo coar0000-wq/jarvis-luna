@@ -1,12 +1,12 @@
 ---
-title: "Record a711ac99b3 · Boston-Dynamics-veteran-launches-Dynamic-Creatures-to-bring-characters"
+title: "Record a711ac99b3 · Boston-Dynamics-veteran-launches-Dynamic-Creatures-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.171545+00:00
+updated_at: 2026-09-13T00:56:37.979148+00:00
 tags: [record, real-data]
 ---
 
-# Record a711ac99b3 · Boston-Dynamics-veteran-launches-Dynamic-Creatures-to-bring-characters
+# Record a711ac99b3 · Boston-Dynamics-veteran-launches-Dynamic-Creatures-
 
 > 실제 수집 레코드입니다. 원문: [www.therobotreport.com](https://www.therobotreport.com/boston-dynamics-veterans-launch-dynamic-creatures-to-bring-characters-to-life-with-robotics/)
 

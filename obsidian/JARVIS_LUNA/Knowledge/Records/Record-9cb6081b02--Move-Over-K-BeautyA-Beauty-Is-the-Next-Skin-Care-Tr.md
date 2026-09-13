@@ -1,12 +1,12 @@
 ---
-title: "Record 9cb6081b02 · Move-Over-K-BeautyA-Beauty-Is-the-Next-Skin-Care-Trend-to-Know---Real-"
+title: "Record 9cb6081b02 · Move-Over-K-BeautyA-Beauty-Is-the-Next-Skin-Care-Tr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.877799+00:00
+updated_at: 2026-09-13T00:56:37.714530+00:00
 tags: [record, real-data]
 ---
 
-# Record 9cb6081b02 · Move-Over-K-BeautyA-Beauty-Is-the-Next-Skin-Care-Trend-to-Know---Real-
+# Record 9cb6081b02 · Move-Over-K-BeautyA-Beauty-Is-the-Next-Skin-Care-Tr
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMifEFVX3lxTE01MmNCNHhlclNaVzA1dWtKQTZ6S3d3Z3FOSE4xT1Y0TFE2M1dvb2xnaklHMVZfdWtDS3M3R2RWYm5nZVNlalVqck4xRzZJTHh2R1VEWV9KdU1HZ0htWWlCb0xzU08xWDQ3enk0TTAwWFRKTXc5VmFiMmZ3Vkc?oc=5)
 

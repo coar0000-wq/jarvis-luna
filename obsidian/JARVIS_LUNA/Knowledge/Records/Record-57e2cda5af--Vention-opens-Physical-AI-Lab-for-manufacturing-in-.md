@@ -1,12 +1,12 @@
 ---
-title: "Record 57e2cda5af · Vention-opens-Physical-AI-Lab-for-manufacturing-in-Montreal"
+title: "Record 57e2cda5af · Vention-opens-Physical-AI-Lab-for-manufacturing-in-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.182287+00:00
+updated_at: 2026-09-13T00:56:37.987428+00:00
 tags: [record, real-data]
 ---
 
-# Record 57e2cda5af · Vention-opens-Physical-AI-Lab-for-manufacturing-in-Montreal
+# Record 57e2cda5af · Vention-opens-Physical-AI-Lab-for-manufacturing-in-
 
 > 실제 수집 레코드입니다. 원문: [www.therobotreport.com](https://www.therobotreport.com/vention-opens-physical-ai-lab-manufacturing-montreal/)
 

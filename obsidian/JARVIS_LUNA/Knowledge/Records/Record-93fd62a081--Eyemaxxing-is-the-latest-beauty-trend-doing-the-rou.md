@@ -1,12 +1,12 @@
 ---
-title: "Record 93fd62a081 · Eyemaxxing-is-the-latest-beauty-trend-doing-the-rounds-So-is-it-legit-"
+title: "Record 93fd62a081 · Eyemaxxing-is-the-latest-beauty-trend-doing-the-rou"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.773593+00:00
+updated_at: 2026-09-13T00:56:37.614736+00:00
 tags: [record, real-data]
 ---
 
-# Record 93fd62a081 · Eyemaxxing-is-the-latest-beauty-trend-doing-the-rounds-So-is-it-legit-
+# Record 93fd62a081 · Eyemaxxing-is-the-latest-beauty-trend-doing-the-rou
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNHR1Y3hFSXJEdlNfY1hhQWhMbGU2Yk5XNGtvaFYzcTNNQWgyaldRdExTSTgzY0hvOXpPVV9MUlJkOWIyMGZMM0EwY192bFduQzJTTXM1MGtsYnUtM3hoOG83NHBiRlBielZqOTJ5LTNuU29ueG5ZS0NPZUhybGRFTEt4dzFHeEtSa05sWGZCeVRCcDdGeUdhb0dmSU9BcUJ2SWdwa2s1ak9VZTY0ZC15RmtXTVRKWlhmeHVxbDA5VHBNVzZBRVVnSmZ2d0wtZ1hP?oc=5)
 

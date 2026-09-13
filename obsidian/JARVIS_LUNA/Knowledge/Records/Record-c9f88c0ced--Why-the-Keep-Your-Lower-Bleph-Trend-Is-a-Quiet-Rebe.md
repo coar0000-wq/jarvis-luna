@@ -1,12 +1,12 @@
 ---
-title: "Record c9f88c0ced · Why-the-Keep-Your-Lower-Bleph-Trend-Is-a-Quiet-Rebellion-Against-Perfe"
+title: "Record c9f88c0ced · Why-the-Keep-Your-Lower-Bleph-Trend-Is-a-Quiet-Rebe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.891623+00:00
+updated_at: 2026-09-13T00:56:37.727056+00:00
 tags: [record, real-data]
 ---
 
-# Record c9f88c0ced · Why-the-Keep-Your-Lower-Bleph-Trend-Is-a-Quiet-Rebellion-Against-Perfe
+# Record c9f88c0ced · Why-the-Keep-Your-Lower-Bleph-Trend-Is-a-Quiet-Rebe
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMigwFBVV95cUxOTmpoeEFyajdBNkM0S1BKNlhXYUNneDR5d21ES0xLTUFfVHllV2VYTUpTRmJROTNrcEpuRnVWNG1jdzFBc1lGcDVNS1AwY0YyNUxLNjYtN3dkR0lfZ1d1NkZfQXNvOXVSUVYtUFVGZnRidnFWYmZ5LTI2bVU0ME5ybl9rbw?oc=5)
 

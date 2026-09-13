@@ -1,12 +1,12 @@
 ---
-title: "Record ab74133c0f · Frequency-Conditioned-Flow-Matching-for-Vision-Language-Action-Models"
+title: "Record ab74133c0f · Frequency-Conditioned-Flow-Matching-for-Vision-Lang"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.539423+00:00
+updated_at: 2026-09-13T00:56:37.402419+00:00
 tags: [record, real-data]
 ---
 
-# Record ab74133c0f · Frequency-Conditioned-Flow-Matching-for-Vision-Language-Action-Models
+# Record ab74133c0f · Frequency-Conditioned-Flow-Matching-for-Vision-Lang
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.10405v1)
 

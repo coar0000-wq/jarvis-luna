@@ -1,12 +1,12 @@
 ---
-title: "Record 7300871340 · Lady-Gaga-is-the-latest-star-to-use-this-19-K-beauty-face-mask---Page-"
+title: "Record 7300871340 · Lady-Gaga-is-the-latest-star-to-use-this-19-K-beaut"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.936628+00:00
+updated_at: 2026-09-13T00:56:37.768540+00:00
 tags: [record, real-data]
 ---
 
-# Record 7300871340 · Lady-Gaga-is-the-latest-star-to-use-this-19-K-beauty-face-mask---Page-
+# Record 7300871340 · Lady-Gaga-is-the-latest-star-to-use-this-19-K-beaut
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMimgFBVV95cUxOS1FkTXk5MzRSc1FJMnBOU3drbkctblZKaVJlUHUxWTZGaHVQNVdNam9KaDhHSi1hNVV5eDB3U2FQVmh3M01NVEEyMldtQnRKTWRhb1k4ZUhoTFNYUF9UZXpiMW0wb2hIaXlyMU1hLVJTTmhOZWM1RmUxY3dPdWwtaEZQV2c2UWRkdFNuSGg0czNTRHdjckVFYWt3?oc=5)
 

@@ -1,18 +1,18 @@
 ---
-title: "Record 2eb61d9df5 · Shopify-Merchants-to-Pay-4-Fee-on-ChatGPT-Checkout-Sales---pymntscom"
+title: "Record 2eb61d9df5 · Shopify-Merchants-to-Pay-4-Fee-on-ChatGPT-Checkout-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.984976+00:00
+updated_at: 2026-09-13T00:56:37.812899+00:00
 tags: [record, real-data]
 ---
 
-# Record 2eb61d9df5 · Shopify-Merchants-to-Pay-4-Fee-on-ChatGPT-Checkout-Sales---pymntscom
+# Record 2eb61d9df5 · Shopify-Merchants-to-Pay-4-Fee-on-ChatGPT-Checkout-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdzdjaUtabUxBNmxpNi1UdmZrY2pEZEV6SGZkaGlHMjRBZjBOY1VuSWJCM2RqcFMtMUp6SGF1aDB1VGRJUE1XSEZFUGdTOTFla09WTnpFVXhQcWQ1blUtbTRBeXkwTkJaeFQ1WjZlSkI1cG9STXloSlNHWDNXNGtGVVhJeHV6NmdobDAtR0ZZei1JZzBlRnlqeS13RmNkWG1jQnRkNHhIWFl0bnRGVVAweEJ3SlJfdmZ5QkRndjFwem9EUQ?oc=5)
 
-**제목:** Shopify Merchants to Pay 4% Fee on ChatGPT Checkout Sales - pymnts.com
+**제목:** Shopify Merchants to Pay 4% Fee on ChatGPT Checkout Sales - PYMNTS.com
 
-Shopify Merchants to Pay 4% Fee on ChatGPT Checkout Sales - pymnts.com
+Shopify Merchants to Pay 4% Fee on ChatGPT Checkout Sales - PYMNTS.com
 
 **출처:** Source · Google Search
 

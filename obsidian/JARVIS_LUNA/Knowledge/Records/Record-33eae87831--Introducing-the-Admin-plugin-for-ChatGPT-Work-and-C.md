@@ -1,12 +1,12 @@
 ---
-title: "Record 33eae87831 · Introducing-the-Admin-plugin-for-ChatGPT-Work-and-Codex"
+title: "Record 33eae87831 · Introducing-the-Admin-plugin-for-ChatGPT-Work-and-C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.011976+00:00
+updated_at: 2026-09-13T00:56:37.837534+00:00
 tags: [record, real-data]
 ---
 
-# Record 33eae87831 · Introducing-the-Admin-plugin-for-ChatGPT-Work-and-Codex
+# Record 33eae87831 · Introducing-the-Admin-plugin-for-ChatGPT-Work-and-C
 
 > 실제 수집 레코드입니다. 원문: [openai.com](https://openai.com/index/introducing-admin-plugin)
 

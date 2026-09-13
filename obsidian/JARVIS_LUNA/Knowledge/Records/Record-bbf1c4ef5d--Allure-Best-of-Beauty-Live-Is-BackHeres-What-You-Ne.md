@@ -1,12 +1,12 @@
 ---
-title: "Record bbf1c4ef5d · Allure-Best-of-Beauty-Live-Is-BackHeres-What-You-Need-to-Know"
+title: "Record bbf1c4ef5d · Allure-Best-of-Beauty-Live-Is-BackHeres-What-You-Ne"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.089200+00:00
+updated_at: 2026-09-13T00:56:37.906521+00:00
 tags: [record, real-data]
 ---
 
-# Record bbf1c4ef5d · Allure-Best-of-Beauty-Live-Is-BackHeres-What-You-Need-to-Know
+# Record bbf1c4ef5d · Allure-Best-of-Beauty-Live-Is-BackHeres-What-You-Ne
 
 > 실제 수집 레코드입니다. 원문: [www.allure.com](https://www.allure.com/story/story/best-of-beauty-live-event-2026)
 

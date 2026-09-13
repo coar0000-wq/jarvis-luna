@@ -1,12 +1,12 @@
 ---
-title: "Record ad09ba800b · Broadcom-Introduces-VMware-Private-AI-Cloud-Enabling-Enterprises-to-Sc"
+title: "Record ad09ba800b · Broadcom-Introduces-VMware-Private-AI-Cloud-Enablin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.751964+00:00
+updated_at: 2026-09-13T00:56:37.594530+00:00
 tags: [record, real-data]
 ---
 
-# Record ad09ba800b · Broadcom-Introduces-VMware-Private-AI-Cloud-Enabling-Enterprises-to-Sc
+# Record ad09ba800b · Broadcom-Introduces-VMware-Private-AI-Cloud-Enablin
 
 > 실제 수집 레코드입니다. 원문: [investors.broadcom.com](https://investors.broadcom.com/news-releases/news-release-details/broadcom-introduces-vmware-private-ai-cloud-enabling-enterprises)
 

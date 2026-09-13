@@ -1,12 +1,12 @@
 ---
-title: "Record 6ecf61806d · Virtual-Reality-Simulation-for-Assessment-of-Hemorrhage-Control-and-SA"
+title: "Record 6ecf61806d · Virtual-Reality-Simulation-for-Assessment-of-Hemorr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.603980+00:00
+updated_at: 2026-09-13T00:56:37.465924+00:00
 tags: [record, real-data]
 ---
 
-# Record 6ecf61806d · Virtual-Reality-Simulation-for-Assessment-of-Hemorrhage-Control-and-SA
+# Record 6ecf61806d · Virtual-Reality-Simulation-for-Assessment-of-Hemorr
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1017/s1049023x25101349)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 311e6b8946 · VISLIX-An-XAI-Framework-for-Validating-Vision-Models-with-Slice-Discov"
+title: "Record 311e6b8946 · VISLIX-An-XAI-Framework-for-Validating-Vision-Model"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.643784+00:00
+updated_at: 2026-09-13T00:56:37.502610+00:00
 tags: [record, real-data]
 ---
 
-# Record 311e6b8946 · VISLIX-An-XAI-Framework-for-Validating-Vision-Models-with-Slice-Discov
+# Record 311e6b8946 · VISLIX-An-XAI-Framework-for-Validating-Vision-Model
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1111/cgf.70125)
 

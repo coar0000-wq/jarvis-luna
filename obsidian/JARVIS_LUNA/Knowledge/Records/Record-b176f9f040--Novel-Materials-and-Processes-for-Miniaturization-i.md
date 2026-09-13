@@ -1,12 +1,12 @@
 ---
-title: "Record b176f9f040 · Novel-Materials-and-Processes-for-Miniaturization-in-Semiconductor-Pac"
+title: "Record b176f9f040 · Novel-Materials-and-Processes-for-Miniaturization-i"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.727725+00:00
+updated_at: 2026-09-13T00:56:37.572036+00:00
 tags: [record, real-data]
 ---
 
-# Record b176f9f040 · Novel-Materials-and-Processes-for-Miniaturization-in-Semiconductor-Pac
+# Record b176f9f040 · Novel-Materials-and-Processes-for-Miniaturization-i
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.60087/jaigs.v2i1.p247)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record da96059e41 · Are-Compounded-Peptide-Creams-Any-Better-Than-Over-the-Counter-Options"
+title: "Record da96059e41 · Are-Compounded-Peptide-Creams-Any-Better-Than-Over-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.085750+00:00
+updated_at: 2026-09-13T00:56:37.903736+00:00
 tags: [record, real-data]
 ---
 
-# Record da96059e41 · Are-Compounded-Peptide-Creams-Any-Better-Than-Over-the-Counter-Options
+# Record da96059e41 · Are-Compounded-Peptide-Creams-Any-Better-Than-Over-
 
 > 실제 수집 레코드입니다. 원문: [www.allure.com](https://www.allure.com/story/ghkcu-copper-peptide-skin-care-cream-compound)
 

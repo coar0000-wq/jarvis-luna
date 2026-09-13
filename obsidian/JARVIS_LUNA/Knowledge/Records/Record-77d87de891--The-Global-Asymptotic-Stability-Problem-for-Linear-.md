@@ -1,12 +1,12 @@
 ---
-title: "Record 77d87de891 · The-Global-Asymptotic-Stability-Problem-for-Linear-MPC-Is-Undecidable"
+title: "Record 77d87de891 · The-Global-Asymptotic-Stability-Problem-for-Linear-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.530143+00:00
+updated_at: 2026-09-13T00:56:37.394142+00:00
 tags: [record, real-data]
 ---
 
-# Record 77d87de891 · The-Global-Asymptotic-Stability-Problem-for-Linear-MPC-Is-Undecidable
+# Record 77d87de891 · The-Global-Asymptotic-Stability-Problem-for-Linear-
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.09930v1)
 

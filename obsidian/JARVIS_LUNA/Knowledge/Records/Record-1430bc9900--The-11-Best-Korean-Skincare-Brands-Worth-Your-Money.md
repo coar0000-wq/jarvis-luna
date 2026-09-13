@@ -1,12 +1,12 @@
 ---
-title: "Record 1430bc9900 · The-11-Best-Korean-Skincare-Brands-Worth-Your-Money-According-to-a-Kor"
+title: "Record 1430bc9900 · The-11-Best-Korean-Skincare-Brands-Worth-Your-Money"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.829979+00:00
+updated_at: 2026-09-13T00:56:37.666531+00:00
 tags: [record, real-data]
 ---
 
-# Record 1430bc9900 · The-11-Best-Korean-Skincare-Brands-Worth-Your-Money-According-to-a-Kor
+# Record 1430bc9900 · The-11-Best-Korean-Skincare-Brands-Worth-Your-Money
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiakFVX3lxTE1uUnB6N25PeXVHcEk4US1vOXpMZXFaR2lTdlk1WHhBZ3Z6RHB1OFVNaUt0SFpnZmt2VjZDS3NWTTg4N191NGZETXVqcE5mcFBSZUZhUlJvNTcwVmFJMXZNd2ZlajMwcHlycXc?oc=5)
 

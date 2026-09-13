@@ -1,12 +1,12 @@
 ---
-title: "Record 11e75437c2 · Integrating-Agentic-Artificial-Intelligence-with-High-Performance-Comp"
+title: "Record 11e75437c2 · Integrating-Agentic-Artificial-Intelligence-with-Hi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.494237+00:00
+updated_at: 2026-09-13T00:56:37.361332+00:00
 tags: [record, real-data]
 ---
 
-# Record 11e75437c2 · Integrating-Agentic-Artificial-Intelligence-with-High-Performance-Comp
+# Record 11e75437c2 · Integrating-Agentic-Artificial-Intelligence-with-Hi
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.04544v1)
 

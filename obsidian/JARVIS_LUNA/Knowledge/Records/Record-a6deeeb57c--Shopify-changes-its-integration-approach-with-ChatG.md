@@ -1,12 +1,12 @@
 ---
-title: "Record a6deeeb57c · Shopify-changes-its-integration-approach-with-ChatGPT---Digital-Commer"
+title: "Record a6deeeb57c · Shopify-changes-its-integration-approach-with-ChatG"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.918225+00:00
+updated_at: 2026-09-13T00:56:37.751670+00:00
 tags: [record, real-data]
 ---
 
-# Record a6deeeb57c · Shopify-changes-its-integration-approach-with-ChatGPT---Digital-Commer
+# Record a6deeeb57c · Shopify-changes-its-integration-approach-with-ChatG
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMikAFBVV95cUxOMmFYZ0ZRemxwVk5hQ19VLVBBd0IxWXBMTnhJX1dlZ3JzcXdOZkJZcUltYUJHWlg1MmVLXzJzektzcElFLTVrQWJfMzloNC04aFkzbnR6eWNhcGswQ2pldlNIeEZpd291OXYzbk0zVk9xY1BlVWM5WHlEUGZZMFh4c1RyS1BOdE1rX00tQXNrcUHSAZYBQVVfeXFMT1ZVY3dEcW1hanI1T25EbEFCRkNtUDhNSmg3ZkhxSEcxaTBLek1LdDJheGRHc1Nic1h1SkdKSmlSRWpPcWI4VVFiLUoyTjZ5bGxad1ZBdjFvQWxKa1FSVnB3UWlPM3l0ZXh1cGdFLWJHeTNPU0xnWHVIZFZEWWlrcWFOMmFHN2tPb3FWLXBRSElUaXBLeEpn?oc=5)
 

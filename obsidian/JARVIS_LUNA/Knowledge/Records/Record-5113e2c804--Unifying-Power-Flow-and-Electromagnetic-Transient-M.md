@@ -1,12 +1,12 @@
 ---
-title: "Record 5113e2c804 · Unifying-Power-Flow-and-Electromagnetic-Transient-Modeling"
+title: "Record 5113e2c804 · Unifying-Power-Flow-and-Electromagnetic-Transient-M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.522416+00:00
+updated_at: 2026-09-13T00:56:37.387144+00:00
 tags: [record, real-data]
 ---
 
-# Record 5113e2c804 · Unifying-Power-Flow-and-Electromagnetic-Transient-Modeling
+# Record 5113e2c804 · Unifying-Power-Flow-and-Electromagnetic-Transient-M
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.08933v1)
 

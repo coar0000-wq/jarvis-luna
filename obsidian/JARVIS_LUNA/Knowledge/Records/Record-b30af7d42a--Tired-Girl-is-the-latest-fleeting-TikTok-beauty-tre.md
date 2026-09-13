@@ -1,12 +1,12 @@
 ---
-title: "Record b30af7d42a · Tired-Girl-is-the-latest-fleeting-TikTok-beauty-trend---CTV-News"
+title: "Record b30af7d42a · Tired-Girl-is-the-latest-fleeting-TikTok-beauty-tre"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.942136+00:00
+updated_at: 2026-09-13T00:56:37.773647+00:00
 tags: [record, real-data]
 ---
 
-# Record b30af7d42a · Tired-Girl-is-the-latest-fleeting-TikTok-beauty-trend---CTV-News
+# Record b30af7d42a · Tired-Girl-is-the-latest-fleeting-TikTok-beauty-tre
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMimwFBVV95cUxQb3NfeE9aTFpmMXZkelBsLTREa0cxRVpQNHoxUlFxYVprRWszcHlaQ0taTzc2cFhqMWlSeVkxdU1Wd0RhbXlObVZFbTVBSWsyR19zSEtxcWlhS05peTBUdmEtMkRkTnNtTzFXeThtTVhBUkhtT2pETS1KbGF1QVdrRjJBR1FqMVdJNzJqTDRnZXMwQTU1NjJRc01WZw?oc=5)
 

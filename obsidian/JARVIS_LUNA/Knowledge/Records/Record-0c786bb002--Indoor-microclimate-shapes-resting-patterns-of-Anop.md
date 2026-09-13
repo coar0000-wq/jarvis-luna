@@ -1,12 +1,12 @@
 ---
-title: "Record 0c786bb002 · Indoor-microclimate-shapes-resting-patterns-of-Anopheles-funestus-in-s"
+title: "Record 0c786bb002 · Indoor-microclimate-shapes-resting-patterns-of-Anop"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.669404+00:00
+updated_at: 2026-09-13T00:56:37.523817+00:00
 tags: [record, real-data]
 ---
 
-# Record 0c786bb002 · Indoor-microclimate-shapes-resting-patterns-of-Anopheles-funestus-in-s
+# Record 0c786bb002 · Indoor-microclimate-shapes-resting-patterns-of-Anop
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.21203/rs.3.rs-10776175/v1)
 

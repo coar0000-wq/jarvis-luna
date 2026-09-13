@@ -1,12 +1,12 @@
 ---
-title: "Record 429c672917 · LLM-Prompt-Interfaces-as-Execution-Contracts-Reducing-Unsafe-Tool-Invo"
+title: "Record 429c672917 · LLM-Prompt-Interfaces-as-Execution-Contracts-Reduci"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.736021+00:00
+updated_at: 2026-09-13T00:56:37.579814+00:00
 tags: [record, real-data]
 ---
 
-# Record 429c672917 · LLM-Prompt-Interfaces-as-Execution-Contracts-Reducing-Unsafe-Tool-Invo
+# Record 429c672917 · LLM-Prompt-Interfaces-as-Execution-Contracts-Reduci
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.70917/ijcisim-2026-5217)
 

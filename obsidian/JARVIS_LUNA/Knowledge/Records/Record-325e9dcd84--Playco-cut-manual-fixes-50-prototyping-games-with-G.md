@@ -1,12 +1,12 @@
 ---
-title: "Record 325e9dcd84 · Playco-cut-manual-fixes-50-prototyping-games-with-GPT-6-Astra"
+title: "Record 325e9dcd84 · Playco-cut-manual-fixes-50-prototyping-games-with-G"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.015484+00:00
+updated_at: 2026-09-13T00:56:37.840779+00:00
 tags: [record, real-data]
 ---
 
-# Record 325e9dcd84 · Playco-cut-manual-fixes-50-prototyping-games-with-GPT-6-Astra
+# Record 325e9dcd84 · Playco-cut-manual-fixes-50-prototyping-games-with-G
 
 > 실제 수집 레코드입니다. 원문: [openai.com](https://openai.com/index/playco-game-prototyping-with-astra)
 

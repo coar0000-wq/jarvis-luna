@@ -1,12 +1,12 @@
 ---
-title: "Record 6cc8144c96 · Advancements-in-Physics-Informed-Neural-Networks-PINNs-for-Real-Time-P"
+title: "Record 6cc8144c96 · Advancements-in-Physics-Informed-Neural-Networks-PI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.729615+00:00
+updated_at: 2026-09-13T00:56:37.573861+00:00
 tags: [record, real-data]
 ---
 
-# Record 6cc8144c96 · Advancements-in-Physics-Informed-Neural-Networks-PINNs-for-Real-Time-P
+# Record 6cc8144c96 · Advancements-in-Physics-Informed-Neural-Networks-PI
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.63412/5beg8z46)
 

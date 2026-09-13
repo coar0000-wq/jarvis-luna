@@ -1,12 +1,12 @@
 ---
-title: "Record fb53987759 · Shopifys-New-AI-Tools-Empower-Merchants---Practical-Ecommerce"
+title: "Record fb53987759 · Shopifys-New-AI-Tools-Empower-Merchants---Practical"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.874854+00:00
+updated_at: 2026-09-13T00:56:37.711851+00:00
 tags: [record, real-data]
 ---
 
-# Record fb53987759 · Shopifys-New-AI-Tools-Empower-Merchants---Practical-Ecommerce
+# Record fb53987759 · Shopifys-New-AI-Tools-Empower-Merchants---Practical
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMif0FVX3lxTE44ZTA1VHU0MFE3QzBlS0JSVzdvay16TGI2M1NSQWlIXzRMcjM4dVZ0bnRzZVNEN1hmZjM4b1REZVFna0poSmNicWpKcDE0Q2l0ZUdXdFRFSW9LTnhPUnJRQ0VCdHpyOE5MWE1iT2JUd2RQWFI3U3J4eEl3NE1sX1E?oc=5)
 

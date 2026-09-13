@@ -1,12 +1,12 @@
 ---
-title: "Record 84ad7bd42e · Learn-why-food-is-physical-AIs-hardest-problem-at-RoboBusiness"
+title: "Record 84ad7bd42e · Learn-why-food-is-physical-AIs-hardest-problem-at-R"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.177084+00:00
+updated_at: 2026-09-13T00:56:37.983132+00:00
 tags: [record, real-data]
 ---
 
-# Record 84ad7bd42e · Learn-why-food-is-physical-AIs-hardest-problem-at-RoboBusiness
+# Record 84ad7bd42e · Learn-why-food-is-physical-AIs-hardest-problem-at-R
 
 > 실제 수집 레코드입니다. 원문: [www.therobotreport.com](https://www.therobotreport.com/learn-why-food-is-physical-ai-hardest-problem-chef-robotics-robobusiness/)
 

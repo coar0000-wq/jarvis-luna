@@ -1,12 +1,12 @@
 ---
-title: "Record de2b314f73 · MMTC-Net-Multimodal-Temporal-Cervical-Network-for-HSIL-Recognition-in-"
+title: "Record de2b314f73 · MMTC-Net-Multimodal-Temporal-Cervical-Network-for-H"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.581396+00:00
+updated_at: 2026-09-13T00:56:37.445602+00:00
 tags: [record, real-data]
 ---
 
-# Record de2b314f73 · MMTC-Net-Multimodal-Temporal-Cervical-Network-for-HSIL-Recognition-in-
+# Record de2b314f73 · MMTC-Net-Multimodal-Temporal-Cervical-Network-for-H
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1007/s10278-026-02004-z)
 

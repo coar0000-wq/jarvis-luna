@@ -1,12 +1,12 @@
 ---
-title: "Record 20e0c82357 · Agentic-Commerce-on-Shopify-How-It-Works-2026---Shopify"
+title: "Record 20e0c82357 · Agentic-Commerce-on-Shopify-How-It-Works-2026---Sho"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.819679+00:00
+updated_at: 2026-09-13T00:56:37.657114+00:00
 tags: [record, real-data]
 ---
 
-# Record 20e0c82357 · Agentic-Commerce-on-Shopify-How-It-Works-2026---Shopify
+# Record 20e0c82357 · Agentic-Commerce-on-Shopify-How-It-Works-2026---Sho
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiZkFVX3lxTE1xRGg2YjlxbHgySXF6ZXRBV3RUSFlVZVBNSDVyUWRrMDRQUjdnUzh6WnhCUmVPeWRVMXVpOEpYUklWRnV5UzROMTBjSmRub1JGNjlqWEs2SFpFQThVWHJmM1NBNXhoZw?oc=5)
 

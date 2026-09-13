@@ -1,12 +1,12 @@
 ---
-title: "Record e20256f25c · Coupled-Control-and-Wireless-World-Models-for-Resilient-Remote-Robotic"
+title: "Record e20256f25c · Coupled-Control-and-Wireless-World-Models-for-Resil"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.496302+00:00
+updated_at: 2026-09-13T00:56:37.363197+00:00
 tags: [record, real-data]
 ---
 
-# Record e20256f25c · Coupled-Control-and-Wireless-World-Models-for-Resilient-Remote-Robotic
+# Record e20256f25c · Coupled-Control-and-Wireless-World-Models-for-Resil
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.04851v1)
 

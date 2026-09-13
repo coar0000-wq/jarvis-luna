@@ -1,12 +1,12 @@
 ---
-title: "Record fbab4f9201 · Agility-Robotics-reports-18M-revenue-ahead-of-humanoid-SPAC"
+title: "Record fbab4f9201 · Agility-Robotics-reports-18M-revenue-ahead-of-human"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.170220+00:00
+updated_at: 2026-09-13T00:56:37.978044+00:00
 tags: [record, real-data]
 ---
 
-# Record fbab4f9201 · Agility-Robotics-reports-18M-revenue-ahead-of-humanoid-SPAC
+# Record fbab4f9201 · Agility-Robotics-reports-18M-revenue-ahead-of-human
 
 > 실제 수집 레코드입니다. 원문: [www.therobotreport.com](https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/)
 

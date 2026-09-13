@@ -1,12 +1,12 @@
 ---
-title: "Record 3288969409 · Robotcom-partners-with-Sodexo-to-roll-out-more-sidewalk-delivery-robot"
+title: "Record 3288969409 · Robotcom-partners-with-Sodexo-to-roll-out-more-side"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.179856+00:00
+updated_at: 2026-09-13T00:56:37.985421+00:00
 tags: [record, real-data]
 ---
 
-# Record 3288969409 · Robotcom-partners-with-Sodexo-to-roll-out-more-sidewalk-delivery-robot
+# Record 3288969409 · Robotcom-partners-with-Sodexo-to-roll-out-more-side
 
 > 실제 수집 레코드입니다. 원문: [www.therobotreport.com](https://www.therobotreport.com/robot-com-partners-sodexo-rolls-out-more-sidewalk-delivery-robots/)
 

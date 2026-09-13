@@ -1,12 +1,12 @@
 ---
-title: "Record c8194a3a80 · You-can-build-an-eCommerce-business-from-anywhere-But-some-connections"
+title: "Record c8194a3a80 · You-can-build-an-eCommerce-business-from-anywhere-B"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.198510+00:00
+updated_at: 2026-09-13T00:56:38.000623+00:00
 tags: [record, real-data]
 ---
 
-# Record c8194a3a80 · You-can-build-an-eCommerce-business-from-anywhere-But-some-connections
+# Record c8194a3a80 · You-can-build-an-eCommerce-business-from-anywhere-B
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/shorts/Z-Jlkhs_uI8)
 

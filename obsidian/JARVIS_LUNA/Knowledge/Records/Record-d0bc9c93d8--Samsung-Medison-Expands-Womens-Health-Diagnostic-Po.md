@@ -1,12 +1,12 @@
 ---
-title: "Record d0bc9c93d8 · Samsung-Medison-Expands-Womens-Health-Diagnostic-Portfolio-With-Launch"
+title: "Record d0bc9c93d8 · Samsung-Medison-Expands-Womens-Health-Diagnostic-Po"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.997925+00:00
+updated_at: 2026-09-13T00:56:37.824788+00:00
 tags: [record, real-data]
 ---
 
-# Record d0bc9c93d8 · Samsung-Medison-Expands-Womens-Health-Diagnostic-Portfolio-With-Launch
+# Record d0bc9c93d8 · Samsung-Medison-Expands-Womens-Health-Diagnostic-Po
 
 > 실제 수집 레코드입니다. 원문: [news.samsung.com](https://news.samsung.com/global/samsung-medison-expands-womens-health-diagnostic-portfolio-with-launch-of-premium-ultrasound-hera-z10)
 

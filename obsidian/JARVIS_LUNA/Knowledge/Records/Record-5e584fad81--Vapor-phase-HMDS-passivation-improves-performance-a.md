@@ -1,12 +1,12 @@
 ---
-title: "Record 5e584fad81 · Vapor-phase-HMDS-passivation-improves-performance-and-ambient-stabilit"
+title: "Record 5e584fad81 · Vapor-phase-HMDS-passivation-improves-performance-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.619098+00:00
+updated_at: 2026-09-13T00:56:37.479729+00:00
 tags: [record, real-data]
 ---
 
-# Record 5e584fad81 · Vapor-phase-HMDS-passivation-improves-performance-and-ambient-stabilit
+# Record 5e584fad81 · Vapor-phase-HMDS-passivation-improves-performance-a
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1063/5.0341196)
 

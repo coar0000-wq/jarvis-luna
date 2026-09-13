@@ -1,12 +1,12 @@
 ---
-title: "Record 77263749e3 · Multimodal-Deep-Learning-for-Early-Detection-of-Lung-Breast-and-Skin-C"
+title: "Record 77263749e3 · Multimodal-Deep-Learning-for-Early-Detection-of-Lun"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.734929+00:00
+updated_at: 2026-09-13T00:56:37.578822+00:00
 tags: [record, real-data]
 ---
 
-# Record 77263749e3 · Multimodal-Deep-Learning-for-Early-Detection-of-Lung-Breast-and-Skin-C
+# Record 77263749e3 · Multimodal-Deep-Learning-for-Early-Detection-of-Lun
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.65718/inspirehealth.2026.2003)
 

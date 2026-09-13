@@ -1,12 +1,12 @@
 ---
-title: "Record 9029e0ad30 · From-Product-Drops-to-TikTok-Trends-How-Beauty-Brands-Scale-with-Lemon"
+title: "Record 9029e0ad30 · From-Product-Drops-to-TikTok-Trends-How-Beauty-Bran"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.887564+00:00
+updated_at: 2026-09-13T00:56:37.723356+00:00
 tags: [record, real-data]
 ---
 
-# Record 9029e0ad30 · From-Product-Drops-to-TikTok-Trends-How-Beauty-Brands-Scale-with-Lemon
+# Record 9029e0ad30 · From-Product-Drops-to-TikTok-Trends-How-Beauty-Bran
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiggFBVV95cUxNbEp0LU5UcWUyV2g4TnE2cGRaeVNrNVRqOUN5Nl94UzhFSElFd21DOUhWSm52LVFVUE9UMGRETFdsdExZUVBnRmo1RlFVNlhkNFo3TUJaT2F5dFMyQUlOWmUwSW1OZHlPRWxZYm5NLWFsSTVOT3pGd01PQXIwQ3d1dWtR?oc=5)
 

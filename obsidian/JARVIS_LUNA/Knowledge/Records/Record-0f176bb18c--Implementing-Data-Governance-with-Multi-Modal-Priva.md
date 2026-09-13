@@ -1,12 +1,12 @@
 ---
-title: "Record 0f176bb18c · Implementing-Data-Governance-with-Multi-Modal-Privacy-Preserving-Recor"
+title: "Record 0f176bb18c · Implementing-Data-Governance-with-Multi-Modal-Priva"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.677745+00:00
+updated_at: 2026-09-13T00:56:37.530724+00:00
 tags: [record, real-data]
 ---
 
-# Record 0f176bb18c · Implementing-Data-Governance-with-Multi-Modal-Privacy-Preserving-Recor
+# Record 0f176bb18c · Implementing-Data-Governance-with-Multi-Modal-Priva
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.23889/ijpds.v9i5.2898)
 

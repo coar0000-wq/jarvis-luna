@@ -1,12 +1,12 @@
 ---
-title: "Record f006f6df64 · Serum-Tumor-Markers-and-Outcomes-in-Patients-With-Appendiceal-Adenocar"
+title: "Record f006f6df64 · Serum-Tumor-Markers-and-Outcomes-in-Patients-With-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.571916+00:00
+updated_at: 2026-09-13T00:56:37.435646+00:00
 tags: [record, real-data]
 ---
 
-# Record f006f6df64 · Serum-Tumor-Markers-and-Outcomes-in-Patients-With-Appendiceal-Adenocar
+# Record f006f6df64 · Serum-Tumor-Markers-and-Outcomes-in-Patients-With-A
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1001/jamanetworkopen.2024.0260)
 

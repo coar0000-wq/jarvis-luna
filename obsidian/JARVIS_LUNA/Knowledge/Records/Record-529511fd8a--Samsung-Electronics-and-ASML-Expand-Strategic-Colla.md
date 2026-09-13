@@ -1,12 +1,12 @@
 ---
-title: "Record 529511fd8a · Samsung-Electronics-and-ASML-Expand-Strategic-Collaboration-for-Next-G"
+title: "Record 529511fd8a · Samsung-Electronics-and-ASML-Expand-Strategic-Colla"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.994457+00:00
+updated_at: 2026-09-13T00:56:37.821647+00:00
 tags: [record, real-data]
 ---
 
-# Record 529511fd8a · Samsung-Electronics-and-ASML-Expand-Strategic-Collaboration-for-Next-G
+# Record 529511fd8a · Samsung-Electronics-and-ASML-Expand-Strategic-Colla
 
 > 실제 수집 레코드입니다. 원문: [news.samsung.com](https://news.samsung.com/global/samsung-electronics-and-asml-expand-strategic-collaboration-for-next-generation-semiconductor-manufacturing)
 

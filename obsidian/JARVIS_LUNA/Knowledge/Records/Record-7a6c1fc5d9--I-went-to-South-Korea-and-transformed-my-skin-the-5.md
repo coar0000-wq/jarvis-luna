@@ -1,12 +1,12 @@
 ---
-title: "Record 7a6c1fc5d9 · I-went-to-South-Korea-and-transformed-my-skin-the-5-affordable-product"
+title: "Record 7a6c1fc5d9 · I-went-to-South-Korea-and-transformed-my-skin-the-5"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.969535+00:00
+updated_at: 2026-09-13T00:56:37.798725+00:00
 tags: [record, real-data]
 ---
 
-# Record 7a6c1fc5d9 · I-went-to-South-Korea-and-transformed-my-skin-the-5-affordable-product
+# Record 7a6c1fc5d9 · I-went-to-South-Korea-and-transformed-my-skin-the-5
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMirgFBVV95cUxPeHhUVGZkYnMxVlVZZmJlZkhMRGRfNHlaZDFfSFh6NFBJejV2N0FMRHYyVC1Rbi1HMk92VFQta1ZBaFZ0aEQ3bWNnVWxZSjFxYmZSSG5ZV2xJYjEyMFVFRGtMVW9BQm9fN24zOGtCSi1CdkVZd2lnOWtCbXN5YzBZME5HazZ1WVZaVzZnbjVaR2ZVdnFkaU5ha2tCdWdnUFhVLXU3Mkc1QWE2ZExSanc?oc=5)
 

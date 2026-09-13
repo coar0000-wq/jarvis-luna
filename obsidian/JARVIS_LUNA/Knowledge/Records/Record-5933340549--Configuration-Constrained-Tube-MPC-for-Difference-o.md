@@ -1,12 +1,12 @@
 ---
-title: "Record 5933340549 · Configuration-Constrained-Tube-MPC-for-Difference-of-Convex-Nonlinear-"
+title: "Record 5933340549 · Configuration-Constrained-Tube-MPC-for-Difference-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.513942+00:00
+updated_at: 2026-09-13T00:56:37.379233+00:00
 tags: [record, real-data]
 ---
 
-# Record 5933340549 · Configuration-Constrained-Tube-MPC-for-Difference-of-Convex-Nonlinear-
+# Record 5933340549 · Configuration-Constrained-Tube-MPC-for-Difference-o
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.07809v1)
 

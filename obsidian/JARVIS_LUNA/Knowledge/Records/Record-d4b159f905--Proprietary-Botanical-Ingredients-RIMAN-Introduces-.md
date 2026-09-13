@@ -1,12 +1,12 @@
 ---
-title: "Record d4b159f905 · Proprietary-Botanical-Ingredients-RIMAN-Introduces-Araliadiol-from-Its"
+title: "Record d4b159f905 · Proprietary-Botanical-Ingredients-RIMAN-Introduces-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.853726+00:00
+updated_at: 2026-09-13T00:56:37.690373+00:00
 tags: [record, real-data]
 ---
 
-# Record d4b159f905 · Proprietary-Botanical-Ingredients-RIMAN-Introduces-Araliadiol-from-Its
+# Record d4b159f905 · Proprietary-Botanical-Ingredients-RIMAN-Introduces-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMid0FVX3lxTE1BdkFfUmJPRVhPd0lmVl9CWHRqSlBPdm94LTI4UE1DdVpQdGNmSFJXN1ZwbkR2T2RXU3dWamFMTFhBVDFQYmxxUEZMY0dZMDFsU1psNFJmcV9wZ19LTVVKN3VVZWZoX3hkRU5EV1dsVTRqVF91Q0xB?oc=5)
 

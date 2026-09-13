@@ -1,12 +1,12 @@
 ---
-title: "Record 0a2998d4cf · A-Case-Study-on-Emergent-Cheating-and-Whistleblowing-in-Autonomous-Res"
+title: "Record 0a2998d4cf · A-Case-Study-on-Emergent-Cheating-and-Whistleblowin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.490858+00:00
+updated_at: 2026-09-13T00:56:37.358319+00:00
 tags: [record, real-data]
 ---
 
-# Record 0a2998d4cf · A-Case-Study-on-Emergent-Cheating-and-Whistleblowing-in-Autonomous-Res
+# Record 0a2998d4cf · A-Case-Study-on-Emergent-Cheating-and-Whistleblowin
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.04170v1)
 

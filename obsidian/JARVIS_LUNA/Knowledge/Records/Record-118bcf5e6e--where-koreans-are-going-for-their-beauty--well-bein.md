@@ -1,12 +1,12 @@
 ---
-title: "Record 118bcf5e6e · where-koreans-are-going-for-their-beauty--well-being-routine-sauna-in-"
+title: "Record 118bcf5e6e · where-koreans-are-going-for-their-beauty--well-bein"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.194331+00:00
+updated_at: 2026-09-13T00:56:37.997199+00:00
 tags: [record, real-data]
 ---
 
-# Record 118bcf5e6e · where-koreans-are-going-for-their-beauty--well-being-routine-sauna-in-
+# Record 118bcf5e6e · where-koreans-are-going-for-their-beauty--well-bein
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/shorts/Nu53l3Fnobk)
 

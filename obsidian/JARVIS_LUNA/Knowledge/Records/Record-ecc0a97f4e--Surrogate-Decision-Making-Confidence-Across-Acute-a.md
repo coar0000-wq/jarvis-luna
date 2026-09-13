@@ -1,12 +1,12 @@
 ---
-title: "Record ecc0a97f4e · Surrogate-Decision-Making-Confidence-Across-Acute-and-General-Scenario"
+title: "Record ecc0a97f4e · Surrogate-Decision-Making-Confidence-Across-Acute-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.672439+00:00
+updated_at: 2026-09-13T00:56:37.526299+00:00
 tags: [record, real-data]
 ---
 
-# Record ecc0a97f4e · Surrogate-Decision-Making-Confidence-Across-Acute-and-General-Scenario
+# Record ecc0a97f4e · Surrogate-Decision-Making-Confidence-Across-Acute-a
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.21203/rs.3.rs-9973826/v1)
 

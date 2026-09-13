@@ -1,12 +1,12 @@
 ---
-title: "Record 64871c3457 · NELSSA-A-GPU-PNM-Heterogeneous-System-for-Mixed-Length-LLM-Serving-via"
+title: "Record 64871c3457 · NELSSA-A-GPU-PNM-Heterogeneous-System-for-Mixed-Len"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.043151+00:00
+updated_at: 2026-09-13T00:56:37.867124+00:00
 tags: [record, real-data]
 ---
 
-# Record 64871c3457 · NELSSA-A-GPU-PNM-Heterogeneous-System-for-Mixed-Length-LLM-Serving-via
+# Record 64871c3457 · NELSSA-A-GPU-PNM-Heterogeneous-System-for-Mixed-Len
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7172068543)
 

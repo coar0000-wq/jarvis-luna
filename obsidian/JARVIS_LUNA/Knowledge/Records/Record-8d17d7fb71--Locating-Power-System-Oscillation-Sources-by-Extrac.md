@@ -1,12 +1,12 @@
 ---
-title: "Record 8d17d7fb71 · Locating-Power-System-Oscillation-Sources-by-Extracting-Interharmonics"
+title: "Record 8d17d7fb71 · Locating-Power-System-Oscillation-Sources-by-Extrac"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.479028+00:00
+updated_at: 2026-09-13T00:56:37.347589+00:00
 tags: [record, real-data]
 ---
 
-# Record 8d17d7fb71 · Locating-Power-System-Oscillation-Sources-by-Extracting-Interharmonics
+# Record 8d17d7fb71 · Locating-Power-System-Oscillation-Sources-by-Extrac
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.03228v1)
 

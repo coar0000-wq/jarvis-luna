@@ -1,12 +1,12 @@
 ---
-title: "Record 50155f7d1a · Reducing-Ileostomy-Postoperative-Complications-Due-to-Dehydration"
+title: "Record 50155f7d1a · Reducing-Ileostomy-Postoperative-Complications-Due-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.630862+00:00
+updated_at: 2026-09-13T00:56:37.490697+00:00
 tags: [record, real-data]
 ---
 
-# Record 50155f7d1a · Reducing-Ileostomy-Postoperative-Complications-Due-to-Dehydration
+# Record 50155f7d1a · Reducing-Ileostomy-Postoperative-Complications-Due-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1097/won.0000000000001281)
 

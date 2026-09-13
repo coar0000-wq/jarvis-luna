@@ -1,12 +1,12 @@
 ---
-title: "Record 03dfa38e5c · The-Best-Beauty-Products-of-2026-So-Far-According-to-Vogues-Beauty-Tea"
+title: "Record 03dfa38e5c · The-Best-Beauty-Products-of-2026-So-Far-According-t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.804088+00:00
+updated_at: 2026-09-13T00:56:37.642749+00:00
 tags: [record, real-data]
 ---
 
-# Record 03dfa38e5c · The-Best-Beauty-Products-of-2026-So-Far-According-to-Vogues-Beauty-Tea
+# Record 03dfa38e5c · The-Best-Beauty-Products-of-2026-So-Far-According-t
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiXkFVX3lxTE5zZG91NDhGN29HeXlYMzlOUy0xSDYtSXFVbjJnSWRJOWlYNzM4UWVSeVZ1bHBDc2czOTVaWVViLTFBeFVsUTlTdll1VERlVE5Rc25ObXVZdUl5RThLOUE?oc=5)
 

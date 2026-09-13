@@ -1,12 +1,12 @@
 ---
-title: "Record 91a7419337 · GenAI-personalization-antecedents-outcomes-mediators-and-moderators"
+title: "Record 91a7419337 · GenAI-personalization-antecedents-outcomes-mediator"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.632788+00:00
+updated_at: 2026-09-13T00:56:37.492430+00:00
 tags: [record, real-data]
 ---
 
-# Record 91a7419337 · GenAI-personalization-antecedents-outcomes-mediators-and-moderators
+# Record 91a7419337 · GenAI-personalization-antecedents-outcomes-mediator
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1108/ijchm-07-2025-1056)
 

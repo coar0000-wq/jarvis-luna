@@ -1,12 +1,12 @@
 ---
-title: "Record c84e8e3e86 · Equity-Inspired-Credit-Risk-Factors-Complement-Traditional-Ones"
+title: "Record c84e8e3e86 · Equity-Inspired-Credit-Risk-Factors-Complement-Trad"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.695963+00:00
+updated_at: 2026-09-13T00:56:37.545602+00:00
 tags: [record, real-data]
 ---
 
-# Record c84e8e3e86 · Equity-Inspired-Credit-Risk-Factors-Complement-Traditional-Ones
+# Record c84e8e3e86 · Equity-Inspired-Credit-Risk-Factors-Complement-Trad
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.3905/jpm.2026.1.830)
 

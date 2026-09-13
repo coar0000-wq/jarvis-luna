@@ -1,12 +1,12 @@
 ---
-title: "Record 905efe226b · Do-skincare-drinks-really-work-TikToks-latest-beauty-trend-explained--"
+title: "Record 905efe226b · Do-skincare-drinks-really-work-TikToks-latest-beaut"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.880017+00:00
+updated_at: 2026-09-13T00:56:37.716559+00:00
 tags: [record, real-data]
 ---
 
-# Record 905efe226b · Do-skincare-drinks-really-work-TikToks-latest-beauty-trend-explained--
+# Record 905efe226b · Do-skincare-drinks-really-work-TikToks-latest-beaut
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMifEFVX3lxTE9TU1FRakpvTmRnUzhqQnJOaFF5eGVhRW5UR0Fqd1VWZXpkTlV5TXY0Q1p3QjBfODAwbm9JVExjNEFjcmJYUXdOUWFaYU12cEFkcTZWYngzVVRyV0hNWFlSSERab19hanYxLWp4cjU5eEx0YjRDb0Jlbi1hSDY?oc=5)
 

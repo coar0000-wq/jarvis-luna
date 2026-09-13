@@ -1,12 +1,12 @@
 ---
-title: "Record 16d664462b · Beyond-embedding-How-to-secure-AIBI-Dashboards-for-every-viewer"
+title: "Record 16d664462b · Beyond-embedding-How-to-secure-AIBI-Dashboards-for-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.123990+00:00
+updated_at: 2026-09-13T00:56:37.940097+00:00
 tags: [record, real-data]
 ---
 
-# Record 16d664462b · Beyond-embedding-How-to-secure-AIBI-Dashboards-for-every-viewer
+# Record 16d664462b · Beyond-embedding-How-to-secure-AIBI-Dashboards-for-
 
 > 실제 수집 레코드입니다. 원문: [www.databricks.com](https://www.databricks.com/blog/beyond-embedding-how-secure-aibi-dashboards-every-viewer)
 

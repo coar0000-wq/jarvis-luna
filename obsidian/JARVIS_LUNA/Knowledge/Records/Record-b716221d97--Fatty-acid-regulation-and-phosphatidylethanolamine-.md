@@ -1,12 +1,12 @@
 ---
-title: "Record b716221d97 · Fatty-acid-regulation-and-phosphatidylethanolamine-biosynthesis-are-im"
+title: "Record b716221d97 · Fatty-acid-regulation-and-phosphatidylethanolamine-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.620082+00:00
+updated_at: 2026-09-13T00:56:37.480700+00:00
 tags: [record, real-data]
 ---
 
-# Record b716221d97 · Fatty-acid-regulation-and-phosphatidylethanolamine-biosynthesis-are-im
+# Record b716221d97 · Fatty-acid-regulation-and-phosphatidylethanolamine-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1073/pnas.2614150123)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 872b53ba85 · Temperature-responsive-thermal-composites-enabled-by-liquid-metal-impr"
+title: "Record 872b53ba85 · Temperature-responsive-thermal-composites-enabled-b"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.593226+00:00
+updated_at: 2026-09-13T00:56:37.456262+00:00
 tags: [record, real-data]
 ---
 
-# Record 872b53ba85 · Temperature-responsive-thermal-composites-enabled-by-liquid-metal-impr
+# Record 872b53ba85 · Temperature-responsive-thermal-composites-enabled-b
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.indcrop.2026.124276)
 

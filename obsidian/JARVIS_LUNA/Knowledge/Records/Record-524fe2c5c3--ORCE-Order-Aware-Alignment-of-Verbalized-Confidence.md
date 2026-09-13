@@ -1,12 +1,12 @@
 ---
-title: "Record 524fe2c5c3 · ORCE-Order-Aware-Alignment-of-Verbalized-Confidence-in-Large-Language-"
+title: "Record 524fe2c5c3 · ORCE-Order-Aware-Alignment-of-Verbalized-Confidence"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.025908+00:00
+updated_at: 2026-09-13T00:56:37.850561+00:00
 tags: [record, real-data]
 ---
 
-# Record 524fe2c5c3 · ORCE-Order-Aware-Alignment-of-Verbalized-Confidence-in-Large-Language-
+# Record 524fe2c5c3 · ORCE-Order-Aware-Alignment-of-Verbalized-Confidence
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7161203717)
 

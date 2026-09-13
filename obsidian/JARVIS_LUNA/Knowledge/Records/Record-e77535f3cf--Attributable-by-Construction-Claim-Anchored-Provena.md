@@ -1,12 +1,12 @@
 ---
-title: "Record e77535f3cf · Attributable-by-Construction-Claim-Anchored-Provenance-for-Multi-Docum"
+title: "Record e77535f3cf · Attributable-by-Construction-Claim-Anchored-Provena"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.032672+00:00
+updated_at: 2026-09-13T00:56:37.856742+00:00
 tags: [record, real-data]
 ---
 
-# Record e77535f3cf · Attributable-by-Construction-Claim-Anchored-Provenance-for-Multi-Docum
+# Record e77535f3cf · Attributable-by-Construction-Claim-Anchored-Provena
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7165972836)
 

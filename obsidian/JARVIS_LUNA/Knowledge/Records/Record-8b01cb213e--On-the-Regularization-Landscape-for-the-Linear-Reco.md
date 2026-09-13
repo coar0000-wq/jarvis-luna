@@ -1,12 +1,12 @@
 ---
-title: "Record 8b01cb213e · On-the-Regularization-Landscape-for-the-Linear-Recommendation-Models"
+title: "Record 8b01cb213e · On-the-Regularization-Landscape-for-the-Linear-Reco"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.558743+00:00
+updated_at: 2026-09-13T00:56:37.421790+00:00
 tags: [record, real-data]
 ---
 
-# Record 8b01cb213e · On-the-Regularization-Landscape-for-the-Linear-Recommendation-Models
+# Record 8b01cb213e · On-the-Regularization-Landscape-for-the-Linear-Reco
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.11876v1)
 

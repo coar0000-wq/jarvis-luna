@@ -1,12 +1,12 @@
 ---
-title: "Record 3f7042a8bf · Samsungs-Human-Centered-Design-Wins-IDEA-and-Red-Dot-Design-Award-2026"
+title: "Record 3f7042a8bf · Samsungs-Human-Centered-Design-Wins-IDEA-and-Red-Do"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.000256+00:00
+updated_at: 2026-09-13T00:56:37.826899+00:00
 tags: [record, real-data]
 ---
 
-# Record 3f7042a8bf · Samsungs-Human-Centered-Design-Wins-IDEA-and-Red-Dot-Design-Award-2026
+# Record 3f7042a8bf · Samsungs-Human-Centered-Design-Wins-IDEA-and-Red-Do
 
 > 실제 수집 레코드입니다. 원문: [news.samsung.com](https://news.samsung.com/global/samsungs-human-centered-design-wins-idea-and-red-dot-design-award-2026)
 

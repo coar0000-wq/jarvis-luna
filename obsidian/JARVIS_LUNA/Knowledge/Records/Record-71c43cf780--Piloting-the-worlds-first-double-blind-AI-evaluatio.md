@@ -1,12 +1,12 @@
 ---
-title: "Record 71c43cf780 · Piloting-the-worlds-first-double-blind-AI-evaluations"
+title: "Record 71c43cf780 · Piloting-the-worlds-first-double-blind-AI-evaluatio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.569791+00:00
+updated_at: 2026-09-13T00:56:37.433440+00:00
 tags: [record, real-data]
 ---
 
-# Record 71c43cf780 · Piloting-the-worlds-first-double-blind-AI-evaluations
+# Record 71c43cf780 · Piloting-the-worlds-first-double-blind-AI-evaluatio
 
 > 실제 수집 레코드입니다. 원문: [deepmind.google](https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/)
 

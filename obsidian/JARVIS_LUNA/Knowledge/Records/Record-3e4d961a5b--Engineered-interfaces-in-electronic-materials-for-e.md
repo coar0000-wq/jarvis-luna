@@ -1,12 +1,12 @@
 ---
-title: "Record 3e4d961a5b · Engineered-interfaces-in-electronic-materials-for-energy-efficient-com"
+title: "Record 3e4d961a5b · Engineered-interfaces-in-electronic-materials-for-e"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.613439+00:00
+updated_at: 2026-09-13T00:56:37.474550+00:00
 tags: [record, real-data]
 ---
 
-# Record 3e4d961a5b · Engineered-interfaces-in-electronic-materials-for-energy-efficient-com
+# Record 3e4d961a5b · Engineered-interfaces-in-electronic-materials-for-e
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1038/s41578-026-00949-9)
 

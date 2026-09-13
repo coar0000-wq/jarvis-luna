@@ -1,12 +1,12 @@
 ---
-title: "Record 2f2d21cd7e · Best-K-beauty-skincare-on-amazonae-2026-Five-routine-heroes-worth-know"
+title: "Record 2f2d21cd7e · Best-K-beauty-skincare-on-amazonae-2026-Five-routin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.988405+00:00
+updated_at: 2026-09-13T00:56:37.816044+00:00
 tags: [record, real-data]
 ---
 
-# Record 2f2d21cd7e · Best-K-beauty-skincare-on-amazonae-2026-Five-routine-heroes-worth-know
+# Record 2f2d21cd7e · Best-K-beauty-skincare-on-amazonae-2026-Five-routin
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMixwFBVV95cUxOYXhOXy13UzBNSk03am8zZkpBUVZwSE50MndKanV4emx2ZzhwRERxeS1LcGJ5eFJnQVNteXRvUXVXZU1KLTExVWN5VnktNUhEVnlqZy1Yc0FDTXhua19aZ0JaOWJ4eWlWalFkbWhHbkpTRXJVXzhUVElraGpLWW9vMjNLWmNBWC1ldUVRelJMRzRtOUlZWmF4RkwxMjFlZmI4eWxpb1NkTGUza1dqQ0VtSXp2UUlPQkJwV2xfLXpIOU83bDJwMGZB0gHHAUFVX3lxTE5heE5fLXdTME1KTTdqbzNmSkFRVnBITnQyd0pqdXh6bHZnOHBERHF5LUtwYnl4UmdBU215dG9RdVdlTUotMTFVY3lWeS01SERWeWpnLVhzQUNNeG5rX1pnQlo5Ynh5aVZqUWRtaEduSlNFclVfOFRUSWtoaktZb28yM0taY0FYLWV1RVF6UkxHNG05SVlaYXhGTDEyMWVmYjh5bGlvU2RMZTNrV2pDRW1JenZRSU9CQnBXbF8tekg5TzdsMnAwZkE?oc=5)
 

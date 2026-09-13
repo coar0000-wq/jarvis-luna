@@ -1,12 +1,12 @@
 ---
-title: "Record df26bd70c1 · Aurora-15-Extending-open-foundation-models-for-weather-and-Earth-syste"
+title: "Record df26bd70c1 · Aurora-15-Extending-open-foundation-models-for-weat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.145689+00:00
+updated_at: 2026-09-13T00:56:37.958094+00:00
 tags: [record, real-data]
 ---
 
-# Record df26bd70c1 · Aurora-15-Extending-open-foundation-models-for-weather-and-Earth-syste
+# Record df26bd70c1 · Aurora-15-Extending-open-foundation-models-for-weat
 
 > 실제 수집 레코드입니다. 원문: [www.microsoft.com](https://www.microsoft.com/en-us/research/blog/aurora-1-5-extending-open-foundation-models-for-weather-and-earth-system-applications/)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 28287d4b63 · Consumer-Confidence-Stabilises-And-Spending-Grows-1-9-Per-Cent-I"
+title: "Record 28287d4b63 · Consumer-Confidence-Stabilises-And-Spending-Grows-1"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.741430+00:00
+updated_at: 2026-09-13T00:56:37.584893+00:00
 tags: [record, real-data]
 ---
 
-# Record 28287d4b63 · Consumer-Confidence-Stabilises-And-Spending-Grows-1-9-Per-Cent-I
+# Record 28287d4b63 · Consumer-Confidence-Stabilises-And-Spending-Grows-1
 
 > 실제 수집 레코드입니다. 원문: [home.barclays](https://home.barclays/news/press-releases/20260/070/consumer-confidence-stabilises-and-spending-grows-1-9-per-cent-i/)
 

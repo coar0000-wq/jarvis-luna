@@ -1,12 +1,12 @@
 ---
-title: "Record 0688acbcd3 · Leidos-Holdings-Inc-declares-quarterly-cash-dividend-share-repurchase-"
+title: "Record 0688acbcd3 · Leidos-Holdings-Inc-declares-quarterly-cash-dividen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.755347+00:00
+updated_at: 2026-09-13T00:56:37.597616+00:00
 tags: [record, real-data]
 ---
 
-# Record 0688acbcd3 · Leidos-Holdings-Inc-declares-quarterly-cash-dividend-share-repurchase-
+# Record 0688acbcd3 · Leidos-Holdings-Inc-declares-quarterly-cash-dividen
 
 > 실제 수집 레코드입니다. 원문: [investors.leidos.com](https://investors.leidos.com/news-releases/news-release-details/leidos-holdings-inc-declares-quarterly-cash-dividend-share)
 

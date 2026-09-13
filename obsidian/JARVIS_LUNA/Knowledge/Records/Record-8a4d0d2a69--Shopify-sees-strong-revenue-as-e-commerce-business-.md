@@ -1,12 +1,12 @@
 ---
-title: "Record 8a4d0d2a69 · Shopify-sees-strong-revenue-as-e-commerce-business-grows-despite-tarif"
+title: "Record 8a4d0d2a69 · Shopify-sees-strong-revenue-as-e-commerce-business-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.981302+00:00
+updated_at: 2026-09-13T00:56:37.809469+00:00
 tags: [record, real-data]
 ---
 
-# Record 8a4d0d2a69 · Shopify-sees-strong-revenue-as-e-commerce-business-grows-despite-tarif
+# Record 8a4d0d2a69 · Shopify-sees-strong-revenue-as-e-commerce-business-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUERsXzJfMWd0N1FpbkNkQjFuNnRIX192aFdMOVFlVWJTT1dzMEJYZFB3bzNRdHJnTlZjNXdmc2xkSWxRNWpHMHZTYjVLT3lmME1mRktoSXZCYzJyZkYxa0FyS2I3ZUx4d29hNnh4bG5fUS1vb3kzNWVXZWdPVWJKNnY4SXVhTlBybmJjYlZKaXBYbFpXLWwyWmU2ay1Zb1M2RkhlcjNMZkhJdTJ0NUZsY09kN2tya0dZ?oc=5)
 

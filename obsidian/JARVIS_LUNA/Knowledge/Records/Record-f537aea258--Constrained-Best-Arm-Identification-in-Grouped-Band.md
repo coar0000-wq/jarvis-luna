@@ -1,12 +1,12 @@
 ---
-title: "Record f537aea258 · Constrained-Best-Arm-Identification-in-Grouped-Bandits"
+title: "Record f537aea258 · Constrained-Best-Arm-Identification-in-Grouped-Band"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.634852+00:00
+updated_at: 2026-09-13T00:56:37.494340+00:00
 tags: [record, real-data]
 ---
 
-# Record f537aea258 · Constrained-Best-Arm-Identification-in-Grouped-Bandits
+# Record f537aea258 · Constrained-Best-Arm-Identification-in-Grouped-Band
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1109/access.2026.3728394)
 

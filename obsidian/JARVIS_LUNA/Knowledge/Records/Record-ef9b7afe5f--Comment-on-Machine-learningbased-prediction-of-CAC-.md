@@ -1,12 +1,12 @@
 ---
-title: "Record ef9b7afe5f · Comment-on-Machine-learningbased-prediction-of-CAC-defined-cardiovascu"
+title: "Record ef9b7afe5f · Comment-on-Machine-learningbased-prediction-of-CAC-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.595007+00:00
+updated_at: 2026-09-13T00:56:37.457859+00:00
 tags: [record, real-data]
 ---
 
-# Record ef9b7afe5f · Comment-on-Machine-learningbased-prediction-of-CAC-defined-cardiovascu
+# Record ef9b7afe5f · Comment-on-Machine-learningbased-prediction-of-CAC-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.jfma.2026.04.089)
 

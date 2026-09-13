@@ -1,12 +1,12 @@
 ---
-title: "Record 94a4407f11 · Biology-in-the-loop-Amortized-Adaptive-Hit-Discovery-in-CRISPR-Screens"
+title: "Record 94a4407f11 · Biology-in-the-loop-Amortized-Adaptive-Hit-Discover"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.558973+00:00
+updated_at: 2026-09-13T00:56:37.422013+00:00
 tags: [record, real-data]
 ---
 
-# Record 94a4407f11 · Biology-in-the-loop-Amortized-Adaptive-Hit-Discovery-in-CRISPR-Screens
+# Record 94a4407f11 · Biology-in-the-loop-Amortized-Adaptive-Hit-Discover
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.11877v1)
 

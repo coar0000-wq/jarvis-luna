@@ -1,12 +1,12 @@
 ---
-title: "Record 60644868c0 · Risk-Factors-for-Noninitiation-and-Dropout-in-Blended-Therapy-in-Inpat"
+title: "Record 60644868c0 · Risk-Factors-for-Noninitiation-and-Dropout-in-Blend"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.676639+00:00
+updated_at: 2026-09-13T00:56:37.529820+00:00
 tags: [record, real-data]
 ---
 
-# Record 60644868c0 · Risk-Factors-for-Noninitiation-and-Dropout-in-Blended-Therapy-in-Inpat
+# Record 60644868c0 · Risk-Factors-for-Noninitiation-and-Dropout-in-Blend
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.2196/85816)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record ea27b217d0 · The-Second-Coming-of-K-Beauty-Korean-Skincares-US-Comeback---Circana"
+title: "Record ea27b217d0 · The-Second-Coming-of-K-Beauty-Korean-Skincares-US-C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.831691+00:00
+updated_at: 2026-09-13T00:56:37.668110+00:00
 tags: [record, real-data]
 ---
 
-# Record ea27b217d0 · The-Second-Coming-of-K-Beauty-Korean-Skincares-US-Comeback---Circana
+# Record ea27b217d0 · The-Second-Coming-of-K-Beauty-Korean-Skincares-US-C
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiakFVX3lxTFBDR2cyQzNoU2dKaWlmYVNGUVZwMkhtanNjZFR1T196TzdlNWllQXZubEdmNk9GdkhIZ2xFUFBpU1ktMDI3WU9fdGRnaldRUWZqVllpN0VTcGRyams4R3p6YlowMnpCaXNmMUE?oc=5)
 

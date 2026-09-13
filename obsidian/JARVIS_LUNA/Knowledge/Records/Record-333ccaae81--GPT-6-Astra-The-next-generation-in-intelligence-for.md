@@ -1,12 +1,12 @@
 ---
-title: "Record 333ccaae81 · GPT-6-Astra-The-next-generation-in-intelligence-for-work"
+title: "Record 333ccaae81 · GPT-6-Astra-The-next-generation-in-intelligence-for"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.011464+00:00
+updated_at: 2026-09-13T00:56:37.837062+00:00
 tags: [record, real-data]
 ---
 
-# Record 333ccaae81 · GPT-6-Astra-The-next-generation-in-intelligence-for-work
+# Record 333ccaae81 · GPT-6-Astra-The-next-generation-in-intelligence-for
 
 > 실제 수집 레코드입니다. 원문: [openai.com](https://openai.com/index/gpt-6-astra-next-generation-work)
 

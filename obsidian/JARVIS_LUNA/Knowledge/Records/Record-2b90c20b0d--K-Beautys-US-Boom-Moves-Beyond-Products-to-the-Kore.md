@@ -1,12 +1,12 @@
 ---
-title: "Record 2b90c20b0d · K-Beautys-US-Boom-Moves-Beyond-Products-to-the-Korean-Skin-Care-Routin"
+title: "Record 2b90c20b0d · K-Beautys-US-Boom-Moves-Beyond-Products-to-the-Kore"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.956666+00:00
+updated_at: 2026-09-13T00:56:37.786995+00:00
 tags: [record, real-data]
 ---
 
-# Record 2b90c20b0d · K-Beautys-US-Boom-Moves-Beyond-Products-to-the-Korean-Skin-Care-Routin
+# Record 2b90c20b0d · K-Beautys-US-Boom-Moves-Beyond-Products-to-the-Kore
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMipgFBVV95cUxNZzRiVVB2N3VsYnZFdFgtZnZJNlJqRjFsekQxVEZNVTVmUTFyWldCQUcyclJqOVk2V04zRGxKRUJvVUVVNTdVSmZBTndOX2gxTHY1M2wtNWdPTmltUW9DUXRIaWhmemxGcEFvRkVmYzRBTEtTRTh3bDhqNFcxV2tLUjJLSjd6S2tGNGU3RXdveG8yenhVRmVtQ1JUSWdJYVlITEJMcEJ3?oc=5)
 

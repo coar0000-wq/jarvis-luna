@@ -1,12 +1,12 @@
 ---
-title: "Record e5eea88f42 · CJ-Olive-Young-targets-US-K-beauty-growth-with-12-trillion-sales-goal-"
+title: "Record e5eea88f42 · CJ-Olive-Young-targets-US-K-beauty-growth-with-12-t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.907872+00:00
+updated_at: 2026-09-13T00:56:37.742232+00:00
 tags: [record, real-data]
 ---
 
-# Record e5eea88f42 · CJ-Olive-Young-targets-US-K-beauty-growth-with-12-trillion-sales-goal-
+# Record e5eea88f42 · CJ-Olive-Young-targets-US-K-beauty-growth-with-12-t
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiigFBVV95cUxPc2RxSFM4QUtZYlI3dmJFRWxFQ0pqYmRhdENPb2kyaDRtWVZhTTZkU0E0T1Jlb0VDb1ZCdW5TbWJ5ZHdGNDZBLWlSczlRel94TXJxQlNMallTcGJYdEQ4WTY5Q1BzZlhIZzhoUm10Uk81UFZOUlhmbnV0NDNRbXhQRGJrb0lWYUpxSGc?oc=5)
 

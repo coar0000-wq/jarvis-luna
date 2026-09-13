@@ -1,12 +1,12 @@
 ---
-title: "Record 2442bcbd9f · Why-is-this-type-of-Korean-mask-used-at-Korean-Skincare-Clinic-after-t"
+title: "Record 2442bcbd9f · Why-is-this-type-of-Korean-mask-used-at-Korean-Skin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.187118+00:00
+updated_at: 2026-09-13T00:56:37.991323+00:00
 tags: [record, real-data]
 ---
 
-# Record 2442bcbd9f · Why-is-this-type-of-Korean-mask-used-at-Korean-Skincare-Clinic-after-t
+# Record 2442bcbd9f · Why-is-this-type-of-Korean-mask-used-at-Korean-Skin
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/shorts/3cj4qZJNxGs)
 

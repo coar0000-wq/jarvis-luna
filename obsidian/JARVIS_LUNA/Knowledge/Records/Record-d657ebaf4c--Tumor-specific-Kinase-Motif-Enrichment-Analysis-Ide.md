@@ -1,12 +1,12 @@
 ---
-title: "Record d657ebaf4c · Tumor-specific-Kinase-Motif-Enrichment-Analysis-Identifies-Personalize"
+title: "Record d657ebaf4c · Tumor-specific-Kinase-Motif-Enrichment-Analysis-Ide"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.732599+00:00
+updated_at: 2026-09-13T00:56:37.576644+00:00
 tags: [record, real-data]
 ---
 
-# Record d657ebaf4c · Tumor-specific-Kinase-Motif-Enrichment-Analysis-Identifies-Personalize
+# Record d657ebaf4c · Tumor-specific-Kinase-Motif-Enrichment-Analysis-Ide
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.64898/2026.07.31.742097)
 

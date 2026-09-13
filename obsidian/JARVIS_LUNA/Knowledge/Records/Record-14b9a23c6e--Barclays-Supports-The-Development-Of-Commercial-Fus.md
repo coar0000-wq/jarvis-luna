@@ -1,12 +1,12 @@
 ---
-title: "Record 14b9a23c6e · Barclays-Supports-The-Development-Of-Commercial-Fusion-Power-In"
+title: "Record 14b9a23c6e · Barclays-Supports-The-Development-Of-Commercial-Fus"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.118759+00:00
+updated_at: 2026-09-13T00:56:37.935461+00:00
 tags: [record, real-data]
 ---
 
-# Record 14b9a23c6e · Barclays-Supports-The-Development-Of-Commercial-Fusion-Power-In
+# Record 14b9a23c6e · Barclays-Supports-The-Development-Of-Commercial-Fus
 
 > 실제 수집 레코드입니다. 원문: [www.barclayscorporate.com](https://www.barclayscorporate.com/news/press-releases/20260/070/barclays-supports-the-development-of-commercial-fusion-power-in-/)
 

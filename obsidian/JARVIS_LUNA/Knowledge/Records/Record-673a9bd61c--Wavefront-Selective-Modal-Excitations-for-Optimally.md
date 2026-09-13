@@ -1,12 +1,12 @@
 ---
-title: "Record 673a9bd61c · Wavefront-Selective-Modal-Excitations-for-Optimally-Informative-Sensin"
+title: "Record 673a9bd61c · Wavefront-Selective-Modal-Excitations-for-Optimally"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.577672+00:00
+updated_at: 2026-09-13T00:56:37.441749+00:00
 tags: [record, real-data]
 ---
 
-# Record 673a9bd61c · Wavefront-Selective-Modal-Excitations-for-Optimally-Informative-Sensin
+# Record 673a9bd61c · Wavefront-Selective-Modal-Excitations-for-Optimally
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1002/nap2.70119)
 

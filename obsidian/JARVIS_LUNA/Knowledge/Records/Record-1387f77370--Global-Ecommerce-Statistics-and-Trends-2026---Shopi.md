@@ -1,12 +1,12 @@
 ---
-title: "Record 1387f77370 · Global-Ecommerce-Statistics-and-Trends-2026---Shopify"
+title: "Record 1387f77370 · Global-Ecommerce-Statistics-and-Trends-2026---Shopi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.860408+00:00
+updated_at: 2026-09-13T00:56:37.697480+00:00
 tags: [record, real-data]
 ---
 
-# Record 1387f77370 · Global-Ecommerce-Statistics-and-Trends-2026---Shopify
+# Record 1387f77370 · Global-Ecommerce-Statistics-and-Trends-2026---Shopi
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMidkFVX3lxTE9BUWY1STFQRE1qTVdCb1BsaVpFOWc1TktIVHdqRkRXS3Fqdm00Y3J3aHg1SWdiQTVmWkNseWJmQUNNdmlMdXJ6dS1xTDNoR1RIdGtsNHRiY2E0aTV3Z25DOWg2U255Q1lnUXBiTDBZN2RwVlFacnc?oc=5)
 

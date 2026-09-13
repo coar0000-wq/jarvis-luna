@@ -1,12 +1,12 @@
 ---
-title: "Record c9e43cc256 · Efficacy-and-toxicity-of-hypofractionated-radiation-therapy-for-patien"
+title: "Record c9e43cc256 · Efficacy-and-toxicity-of-hypofractionated-radiation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.599686+00:00
+updated_at: 2026-09-13T00:56:37.462036+00:00
 tags: [record, real-data]
 ---
 
-# Record c9e43cc256 · Efficacy-and-toxicity-of-hypofractionated-radiation-therapy-for-patien
+# Record c9e43cc256 · Efficacy-and-toxicity-of-hypofractionated-radiation
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.radonc.2025.111200)
 

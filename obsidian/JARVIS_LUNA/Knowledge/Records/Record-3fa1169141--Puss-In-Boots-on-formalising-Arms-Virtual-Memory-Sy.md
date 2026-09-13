@@ -1,12 +1,12 @@
 ---
-title: "Record 3fa1169141 · Puss-In-Boots-on-formalising-Arms-Virtual-Memory-System-Architecture-e"
+title: "Record 3fa1169141 · Puss-In-Boots-on-formalising-Arms-Virtual-Memory-Sy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.019909+00:00
+updated_at: 2026-09-13T00:56:37.844887+00:00
 tags: [record, real-data]
 ---
 
-# Record 3fa1169141 · Puss-In-Boots-on-formalising-Arms-Virtual-Memory-System-Architecture-e
+# Record 3fa1169141 · Puss-In-Boots-on-formalising-Arms-Virtual-Memory-Sy
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W4396820127)
 

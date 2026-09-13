@@ -1,12 +1,12 @@
 ---
-title: "Record c2b3824a20 · Faster-shipping-can-make-a-big-difference-for-your-eCommerce-business"
+title: "Record c2b3824a20 · Faster-shipping-can-make-a-big-difference-for-your-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.187399+00:00
+updated_at: 2026-09-13T00:56:37.991555+00:00
 tags: [record, real-data]
 ---
 
-# Record c2b3824a20 · Faster-shipping-can-make-a-big-difference-for-your-eCommerce-business
+# Record c2b3824a20 · Faster-shipping-can-make-a-big-difference-for-your-
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/shorts/3gaZeiqPzxM)
 

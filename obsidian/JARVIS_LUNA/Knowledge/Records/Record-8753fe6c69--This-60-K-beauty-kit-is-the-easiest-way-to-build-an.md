@@ -1,12 +1,12 @@
 ---
-title: "Record 8753fe6c69 · This-60-K-beauty-kit-is-the-easiest-way-to-build-an-entire-8-step-skin"
+title: "Record 8753fe6c69 · This-60-K-beauty-kit-is-the-easiest-way-to-build-an"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.893537+00:00
+updated_at: 2026-09-13T00:56:37.728842+00:00
 tags: [record, real-data]
 ---
 
-# Record 8753fe6c69 · This-60-K-beauty-kit-is-the-easiest-way-to-build-an-entire-8-step-skin
+# Record 8753fe6c69 · This-60-K-beauty-kit-is-the-easiest-way-to-build-an
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMihAFBVV95cUxNVEFxUTExeGlubm5Ic3F4c0dzMWVTVHNSOW1EWXpQTWMzbG8ybnEyRFEtaUFMVkMwVEtIWGpaT0pHY3BxRUx6WnBKS1k4blNvSHRQX2xkb1MybzFtXzc1dzVrekpJclZ6SHJZUnFQM0ZHMngtTG9iZGlJMmNfQlB5ckdQdTA?oc=5)
 

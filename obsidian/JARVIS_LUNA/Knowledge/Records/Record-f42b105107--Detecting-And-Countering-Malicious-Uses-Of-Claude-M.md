@@ -1,12 +1,12 @@
 ---
-title: "Record f42b105107 · Detecting-And-Countering-Malicious-Uses-Of-Claude-March-2025"
+title: "Record f42b105107 · Detecting-And-Countering-Malicious-Uses-Of-Claude-M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.102855+00:00
+updated_at: 2026-09-13T00:56:37.921085+00:00
 tags: [record, real-data]
 ---
 
-# Record f42b105107 · Detecting-And-Countering-Malicious-Uses-Of-Claude-March-2025
+# Record f42b105107 · Detecting-And-Countering-Malicious-Uses-Of-Claude-M
 
 > 실제 수집 레코드입니다. 원문: [www.anthropic.com](https://www.anthropic.com/news/detecting-and-countering-malicious-uses-of-claude-march-2025)
 

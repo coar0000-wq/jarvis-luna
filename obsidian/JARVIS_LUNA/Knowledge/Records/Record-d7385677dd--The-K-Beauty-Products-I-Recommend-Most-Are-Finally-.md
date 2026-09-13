@@ -1,12 +1,12 @@
 ---
-title: "Record d7385677dd · The-K-Beauty-Products-I-Recommend-Most-Are-Finally-on-Sale-for-Prime-D"
+title: "Record d7385677dd · The-K-Beauty-Products-I-Recommend-Most-Are-Finally-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.928514+00:00
+updated_at: 2026-09-13T00:56:37.761084+00:00
 tags: [record, real-data]
 ---
 
-# Record d7385677dd · The-K-Beauty-Products-I-Recommend-Most-Are-Finally-on-Sale-for-Prime-D
+# Record d7385677dd · The-K-Beauty-Products-I-Recommend-Most-Are-Finally-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMilgFBVV95cUxNMURzQjJKNGs4eUl6dGxwQkxkTUttanM4ZW1COUJlWmZrUEoxTWJWRDcyRUhGS19nZmNRV1pxV0ZOT3BnMEU5X1BlNmNGM2ZNdnhlQThScjA1dnFSUEZtcjJCQU9oaGhVdzNZekVadE0tNGtQWG1Sd255VU5Sb3lQVXZ1Vi1GenV6TjBQaDJScE9NUkMzLXc?oc=5)
 

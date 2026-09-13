@@ -1,12 +1,12 @@
 ---
-title: "Record 274edfc5a7 · MINERVA-How-Small-Can-a-Manipulation-Policy-Be-and-Still-Solve-LIBERO"
+title: "Record 274edfc5a7 · MINERVA-How-Small-Can-a-Manipulation-Policy-Be-and-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.483240+00:00
+updated_at: 2026-09-13T00:56:37.351429+00:00
 tags: [record, real-data]
 ---
 
-# Record 274edfc5a7 · MINERVA-How-Small-Can-a-Manipulation-Policy-Be-and-Still-Solve-LIBERO
+# Record 274edfc5a7 · MINERVA-How-Small-Can-a-Manipulation-Policy-Be-and-
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.03715v1)
 

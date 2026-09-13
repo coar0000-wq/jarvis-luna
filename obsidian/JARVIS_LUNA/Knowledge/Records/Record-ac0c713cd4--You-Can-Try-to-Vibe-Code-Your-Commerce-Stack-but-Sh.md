@@ -1,12 +1,12 @@
 ---
-title: "Record ac0c713cd4 · You-Can-Try-to-Vibe-Code-Your-Commerce-Stack-but-Should-You---Shopify"
+title: "Record ac0c713cd4 · You-Can-Try-to-Vibe-Code-Your-Commerce-Stack-but-Sh"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.879108+00:00
+updated_at: 2026-09-13T00:56:37.715713+00:00
 tags: [record, real-data]
 ---
 
-# Record ac0c713cd4 · You-Can-Try-to-Vibe-Code-Your-Commerce-Stack-but-Should-You---Shopify
+# Record ac0c713cd4 · You-Can-Try-to-Vibe-Code-Your-Commerce-Stack-but-Sh
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMifEFVX3lxTE5NU0dBckNrZnlJM2RwUUh1cTBQeHJhdFh5dW5mWXc2WVQ0VG02WEZzLUxFTG9XRnZRQXl3a25lNkJEYzR2TkN5SThxYXBaUmFVeWk0WHZRZVVkTVloVXNoaWNvUHc3VFlTSll3UmswVE10VWNkMHVrNWFPQ0g?oc=5)
 

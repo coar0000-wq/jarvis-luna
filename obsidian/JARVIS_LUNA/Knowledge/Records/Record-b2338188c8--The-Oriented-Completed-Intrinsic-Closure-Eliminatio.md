@@ -1,12 +1,12 @@
 ---
-title: "Record b2338188c8 · The-Oriented-Completed-Intrinsic-Closure-Elimination-as-a-Candidate-In"
+title: "Record b2338188c8 · The-Oriented-Completed-Intrinsic-Closure-Eliminatio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.712147+00:00
+updated_at: 2026-09-13T00:56:37.558504+00:00
 tags: [record, real-data]
 ---
 
-# Record b2338188c8 · The-Oriented-Completed-Intrinsic-Closure-Elimination-as-a-Candidate-In
+# Record b2338188c8 · The-Oriented-Completed-Intrinsic-Closure-Eliminatio
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.21478940)
 

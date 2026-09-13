@@ -1,12 +1,12 @@
 ---
-title: "Record f2694bfa96 · Path-to-Astra-critical-capabilities-and-frontier-safeguards"
+title: "Record f2694bfa96 · Path-to-Astra-critical-capabilities-and-frontier-sa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.014741+00:00
+updated_at: 2026-09-13T00:56:37.840097+00:00
 tags: [record, real-data]
 ---
 
-# Record f2694bfa96 · Path-to-Astra-critical-capabilities-and-frontier-safeguards
+# Record f2694bfa96 · Path-to-Astra-critical-capabilities-and-frontier-sa
 
 > 실제 수집 레코드입니다. 원문: [openai.com](https://openai.com/index/path-to-astra)
 

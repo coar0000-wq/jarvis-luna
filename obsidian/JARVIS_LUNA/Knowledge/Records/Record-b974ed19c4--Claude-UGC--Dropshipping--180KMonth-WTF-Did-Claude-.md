@@ -1,12 +1,12 @@
 ---
-title: "Record b974ed19c4 · Claude-UGC--Dropshipping--180KMonth-WTF-Did-Claude-Just-Make"
+title: "Record b974ed19c4 · Claude-UGC--Dropshipping--180KMonth-WTF-Did-Claude-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.216895+00:00
+updated_at: 2026-09-13T00:56:38.018743+00:00
 tags: [record, real-data]
 ---
 
-# Record b974ed19c4 · Claude-UGC--Dropshipping--180KMonth-WTF-Did-Claude-Just-Make
+# Record b974ed19c4 · Claude-UGC--Dropshipping--180KMonth-WTF-Did-Claude-
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/watch?v=P0WPruXYyio)
 

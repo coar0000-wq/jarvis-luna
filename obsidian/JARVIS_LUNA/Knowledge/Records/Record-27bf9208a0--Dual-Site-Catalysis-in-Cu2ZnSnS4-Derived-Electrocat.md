@@ -1,12 +1,12 @@
 ---
-title: "Record 27bf9208a0 · Dual-Site-Catalysis-in-Cu2ZnSnS4-Derived-Electrocatalysts-for-Selectiv"
+title: "Record 27bf9208a0 · Dual-Site-Catalysis-in-Cu2ZnSnS4-Derived-Electrocat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.590792+00:00
+updated_at: 2026-09-13T00:56:37.454093+00:00
 tags: [record, real-data]
 ---
 
-# Record 27bf9208a0 · Dual-Site-Catalysis-in-Cu2ZnSnS4-Derived-Electrocatalysts-for-Selectiv
+# Record 27bf9208a0 · Dual-Site-Catalysis-in-Cu2ZnSnS4-Derived-Electrocat
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.electacta.2026.149938)
 

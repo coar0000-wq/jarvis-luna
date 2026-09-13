@@ -1,12 +1,12 @@
 ---
-title: "Record 0e90d59cbf · THE-OPENING-OF-new-applicationsstable-European-payment-methods-cjdrops"
+title: "Record 0e90d59cbf · THE-OPENING-OF-new-applicationsstable-European-paym"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.193812+00:00
+updated_at: 2026-09-13T00:56:37.996802+00:00
 tags: [record, real-data]
 ---
 
-# Record 0e90d59cbf · THE-OPENING-OF-new-applicationsstable-European-payment-methods-cjdrops
+# Record 0e90d59cbf · THE-OPENING-OF-new-applicationsstable-European-paym
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/shorts/LlXUuXJutVg)
 

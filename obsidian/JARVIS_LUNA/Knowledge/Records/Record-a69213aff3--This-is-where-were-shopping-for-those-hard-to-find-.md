@@ -1,12 +1,12 @@
 ---
-title: "Record a69213aff3 · This-is-where-were-shopping-for-those-hard-to-find-K-beauty-buys---EVO"
+title: "Record a69213aff3 · This-is-where-were-shopping-for-those-hard-to-find-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.873512+00:00
+updated_at: 2026-09-13T00:56:37.710612+00:00
 tags: [record, real-data]
 ---
 
-# Record a69213aff3 · This-is-where-were-shopping-for-those-hard-to-find-K-beauty-buys---EVO
+# Record a69213aff3 · This-is-where-were-shopping-for-those-hard-to-find-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiekFVX3lxTFBvZVJLTGhTTTlYek85RTF1Z0I2eGNYVkRES0ZBR241ZFFneHhYejVhTjN1WFdQQWZlWnR2bE1XYjRUTzd2YTc3US1CZEFtT3RJUWpteEVCTVZnRzcyX1JTSFJPWkpERkxPSjNqMTh0bkE3UVVsMHJFM1lB?oc=5)
 

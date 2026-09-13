@@ -1,12 +1,12 @@
 ---
-title: "Record 8b88ae927f · The-National-Artificial-Intelligence-Advisory-Committee-NAIAC--Recomme"
+title: "Record 8b88ae927f · The-National-Artificial-Intelligence-Advisory-Commi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.673290+00:00
+updated_at: 2026-09-13T00:56:37.526999+00:00
 tags: [record, real-data]
 ---
 
-# Record 8b88ae927f · The-National-Artificial-Intelligence-Advisory-Committee-NAIAC--Recomme
+# Record 8b88ae927f · The-National-Artificial-Intelligence-Advisory-Commi
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.2139/ssrn.5149601)
 

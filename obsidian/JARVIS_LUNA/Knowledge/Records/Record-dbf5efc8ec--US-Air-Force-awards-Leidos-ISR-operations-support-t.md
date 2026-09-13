@@ -1,12 +1,12 @@
 ---
-title: "Record dbf5efc8ec · US-Air-Force-awards-Leidos-ISR-operations-support-task-order-worth-up-"
+title: "Record dbf5efc8ec · US-Air-Force-awards-Leidos-ISR-operations-support-t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.757240+00:00
+updated_at: 2026-09-13T00:56:37.599356+00:00
 tags: [record, real-data]
 ---
 
-# Record dbf5efc8ec · US-Air-Force-awards-Leidos-ISR-operations-support-task-order-worth-up-
+# Record dbf5efc8ec · US-Air-Force-awards-Leidos-ISR-operations-support-t
 
 > 실제 수집 레코드입니다. 원문: [investors.leidos.com](https://investors.leidos.com/news-releases/news-release-details/us-air-force-awards-leidos-isr-operations-support-task-order)
 

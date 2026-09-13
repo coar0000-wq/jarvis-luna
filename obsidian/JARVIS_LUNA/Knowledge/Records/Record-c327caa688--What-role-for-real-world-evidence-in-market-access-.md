@@ -1,12 +1,12 @@
 ---
-title: "Record c327caa688 · What-role-for-real-world-evidence-in-market-access-of-biosimilars"
+title: "Record c327caa688 · What-role-for-real-world-evidence-in-market-access-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.684925+00:00
+updated_at: 2026-09-13T00:56:37.536632+00:00
 tags: [record, real-data]
 ---
 
-# Record c327caa688 · What-role-for-real-world-evidence-in-market-access-of-biosimilars
+# Record c327caa688 · What-role-for-real-world-evidence-in-market-access-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.3389/fphar.2025.1538866)
 

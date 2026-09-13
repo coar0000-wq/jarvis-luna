@@ -1,12 +1,12 @@
 ---
-title: "Record 5eac4dcdad · Quantifying-the-Unintentional-Islanding-Risk-A-Comparative-Study-on-Ac"
+title: "Record 5eac4dcdad · Quantifying-the-Unintentional-Islanding-Risk-A-Comp"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.549014+00:00
+updated_at: 2026-09-13T00:56:37.411938+00:00
 tags: [record, real-data]
 ---
 
-# Record 5eac4dcdad · Quantifying-the-Unintentional-Islanding-Risk-A-Comparative-Study-on-Ac
+# Record 5eac4dcdad · Quantifying-the-Unintentional-Islanding-Risk-A-Comp
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.11400v1)
 

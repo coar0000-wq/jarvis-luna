@@ -1,12 +1,12 @@
 ---
-title: "Record fa829885c6 · Treatment-dose-and-reliable-change-in-trauma-focused-therapy-for-comor"
+title: "Record fa829885c6 · Treatment-dose-and-reliable-change-in-trauma-focuse"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.622193+00:00
+updated_at: 2026-09-13T00:56:37.482632+00:00
 tags: [record, real-data]
 ---
 
-# Record fa829885c6 · Treatment-dose-and-reliable-change-in-trauma-focused-therapy-for-comor
+# Record fa829885c6 · Treatment-dose-and-reliable-change-in-trauma-focuse
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1080/10503307.2026.2724950)
 

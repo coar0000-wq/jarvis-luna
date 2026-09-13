@@ -1,12 +1,12 @@
 ---
-title: "Record 08fea56a30 · RoughSense-Lightweight-Terrain-Induced-Rover-Vibration-Prediction-Usin"
+title: "Record 08fea56a30 · RoughSense-Lightweight-Terrain-Induced-Rover-Vibrat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.483541+00:00
+updated_at: 2026-09-13T00:56:37.351704+00:00
 tags: [record, real-data]
 ---
 
-# Record 08fea56a30 · RoughSense-Lightweight-Terrain-Induced-Rover-Vibration-Prediction-Usin
+# Record 08fea56a30 · RoughSense-Lightweight-Terrain-Induced-Rover-Vibrat
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.03720v1)
 

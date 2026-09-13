@@ -1,12 +1,12 @@
 ---
-title: "Record 2c4550ccb9 · Latte-Makeup-Is-TikToks-Latest-Beauty-Trend-Heres-How-To-Get-The-Look-"
+title: "Record 2c4550ccb9 · Latte-Makeup-Is-TikToks-Latest-Beauty-Trend-Heres-H"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.963374+00:00
+updated_at: 2026-09-13T00:56:37.793102+00:00
 tags: [record, real-data]
 ---
 
-# Record 2c4550ccb9 · Latte-Makeup-Is-TikToks-Latest-Beauty-Trend-Heres-How-To-Get-The-Look-
+# Record 2c4550ccb9 · Latte-Makeup-Is-TikToks-Latest-Beauty-Trend-Heres-H
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxQU0s2czdWcVFQRzhpQjYxc2VrVjY4TEVqTmVhaHp6OTYxX3FPbkdMRUp4Q0hzbnQ5bWUyWER0d2pSUGxscExmaVJJaDdCNE1YSk50V0lqS25lTGdHZEhRMkxveV8ta0ZDb3ROSGpvbWVhMjZVMElIS2Q0MGY2Z1ZpREZ1MDJ6MmhJZVdPV3l4cXc1ZTNETXlXMEQ0TFgyM3VEbkdFWGxHUm9yUQ?oc=5)
 

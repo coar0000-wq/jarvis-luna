@@ -1,12 +1,12 @@
 ---
-title: "Record 97fe9a3513 · AIR-to-use-Elmo-Motion-Control-technology-in-uncrewed-cargo-aircraft"
+title: "Record 97fe9a3513 · AIR-to-use-Elmo-Motion-Control-technology-in-uncrew"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.170857+00:00
+updated_at: 2026-09-13T00:56:37.978625+00:00
 tags: [record, real-data]
 ---
 
-# Record 97fe9a3513 · AIR-to-use-Elmo-Motion-Control-technology-in-uncrewed-cargo-aircraft
+# Record 97fe9a3513 · AIR-to-use-Elmo-Motion-Control-technology-in-uncrew
 
 > 실제 수집 레코드입니다. 원문: [www.therobotreport.com](https://www.therobotreport.com/air-uses-elmo-motion-control-technology-in-uncrewed-cargo-aircraft/)
 

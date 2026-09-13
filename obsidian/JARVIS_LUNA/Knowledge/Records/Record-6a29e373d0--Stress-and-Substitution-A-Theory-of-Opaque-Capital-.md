@@ -1,12 +1,12 @@
 ---
-title: "Record 6a29e373d0 · Stress-and-Substitution-A-Theory-of-Opaque-Capital-Allocation-under-Ma"
+title: "Record 6a29e373d0 · Stress-and-Substitution-A-Theory-of-Opaque-Capital-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.671637+00:00
+updated_at: 2026-09-13T00:56:37.525664+00:00
 tags: [record, real-data]
 ---
 
-# Record 6a29e373d0 · Stress-and-Substitution-A-Theory-of-Opaque-Capital-Allocation-under-Ma
+# Record 6a29e373d0 · Stress-and-Substitution-A-Theory-of-Opaque-Capital-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.21203/rs.3.rs-9294634/v1)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 49b30158b0 · AI-Tools-for-Business-Best-Ecommerce-Picks---Shopify"
+title: "Record 49b30158b0 · AI-Tools-for-Business-Best-Ecommerce-Picks---Shopif"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.806065+00:00
+updated_at: 2026-09-13T00:56:37.644519+00:00
 tags: [record, real-data]
 ---
 
-# Record 49b30158b0 · AI-Tools-for-Business-Best-Ecommerce-Picks---Shopify
+# Record 49b30158b0 · AI-Tools-for-Business-Best-Ecommerce-Picks---Shopif
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiY0FVX3lxTE1hQU1qR0NKNE1zZ296elR3aVItQjhiRkh5MDlIbEFBMUJQZWFFcHdlRTdYX3ktQzh5aE1DY3ltRWE0NzV2S1lUUmVfS1NJMWJLN0MxV1ZvUEhYNS11TDlhcHgyNA?oc=5)
 

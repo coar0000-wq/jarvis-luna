@@ -1,12 +1,12 @@
 ---
-title: "Record 4455df9d4b · Microsoft-to-Deploy-Next-Gen-AMD-Instinct-and-AMD-EPYC-Processors-as-t"
+title: "Record 4455df9d4b · Microsoft-to-Deploy-Next-Gen-AMD-Instinct-and-AMD-E"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.760624+00:00
+updated_at: 2026-09-13T00:56:37.602425+00:00
 tags: [record, real-data]
 ---
 
-# Record 4455df9d4b · Microsoft-to-Deploy-Next-Gen-AMD-Instinct-and-AMD-EPYC-Processors-as-t
+# Record 4455df9d4b · Microsoft-to-Deploy-Next-Gen-AMD-Instinct-and-AMD-E
 
 > 실제 수집 레코드입니다. 원문: [ir.amd.com](https://ir.amd.com/news-events/press-releases/detail/1291/microsoft-to-deploy-next-gen-amd-instinct-and-amd-epyc-processors-as-the-companies-expand-their-long-term-strategic-partnership)
 

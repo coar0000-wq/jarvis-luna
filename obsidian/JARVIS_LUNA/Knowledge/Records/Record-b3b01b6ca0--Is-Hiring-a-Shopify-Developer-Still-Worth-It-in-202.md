@@ -1,12 +1,12 @@
 ---
-title: "Record b3b01b6ca0 · Is-Hiring-a-Shopify-Developer-Still-Worth-It-in-2026-or-Can-AI-Store-B"
+title: "Record b3b01b6ca0 · Is-Hiring-a-Shopify-Developer-Still-Worth-It-in-202"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.975941+00:00
+updated_at: 2026-09-13T00:56:37.804588+00:00
 tags: [record, real-data]
 ---
 
-# Record b3b01b6ca0 · Is-Hiring-a-Shopify-Developer-Still-Worth-It-in-2026-or-Can-AI-Store-B
+# Record b3b01b6ca0 · Is-Hiring-a-Shopify-Developer-Still-Worth-It-in-202
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiswFBVV95cUxQdlllbkJIMFJrZ1F2NDd3TGJpMmk4Z3pjdTVPQ0UzSll5alNQblozYXRpTFZES2V1dHdiZUtXNXpzanljemJWVk1taG4tSWtPRVJBRE56QkdxUGtHakVKNldRMkhiZ1RFT1lIUXNBcjhwdGtETTVNRmN2ekNzamlCWE1SeVJlNEhqUGhKMWJuRkFkX19SM241MUgwUXFoNmU1OEs2cklsaG80RTFlS2NDVVR0VQ?oc=5)
 

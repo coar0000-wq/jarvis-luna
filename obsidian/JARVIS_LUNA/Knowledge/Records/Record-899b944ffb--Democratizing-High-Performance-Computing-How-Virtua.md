@@ -1,12 +1,12 @@
 ---
-title: "Record 899b944ffb · Democratizing-High-Performance-Computing-How-Virtualization-and-Worklo"
+title: "Record 899b944ffb · Democratizing-High-Performance-Computing-How-Virtua"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.705874+00:00
+updated_at: 2026-09-13T00:56:37.553435+00:00
 tags: [record, real-data]
 ---
 
-# Record 899b944ffb · Democratizing-High-Performance-Computing-How-Virtualization-and-Worklo
+# Record 899b944ffb · Democratizing-High-Performance-Computing-How-Virtua
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.18813142)
 

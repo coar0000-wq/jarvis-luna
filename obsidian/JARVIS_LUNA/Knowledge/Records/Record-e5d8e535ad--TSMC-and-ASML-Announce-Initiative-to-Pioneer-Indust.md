@@ -1,12 +1,12 @@
 ---
-title: "Record e5d8e535ad · TSMC-and-ASML-Announce-Initiative-to-Pioneer-Industry-Transition-to-La"
+title: "Record e5d8e535ad · TSMC-and-ASML-Announce-Initiative-to-Pioneer-Indust"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.115549+00:00
+updated_at: 2026-09-13T00:56:37.932591+00:00
 tags: [record, real-data]
 ---
 
-# Record e5d8e535ad · TSMC-and-ASML-Announce-Initiative-to-Pioneer-Industry-Transition-to-La
+# Record e5d8e535ad · TSMC-and-ASML-Announce-Initiative-to-Pioneer-Indust
 
 > 실제 수집 레코드입니다. 원문: [www.asml.com](https://www.asml.com/en/news/press-releases/2026/tsmc-and-asml-announce-industry-transition-to-large-format-photomasks-for-high-na-euv)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 0104de077d · The-no-makeup-makeup-trend-is-bigger-than-ever-for-summer-2026-What-to"
+title: "Record 0104de077d · The-no-makeup-makeup-trend-is-bigger-than-ever-for-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.884196+00:00
+updated_at: 2026-09-13T00:56:37.720287+00:00
 tags: [record, real-data]
 ---
 
-# Record 0104de077d · The-no-makeup-makeup-trend-is-bigger-than-ever-for-summer-2026-What-to
+# Record 0104de077d · The-no-makeup-makeup-trend-is-bigger-than-ever-for-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMifkFVX3lxTFBQU0dyLXR0ZGNlaDlOZXQ1djdfa3paNUdvLW44UmduVjFuLWYzMG12NjBwZjg2Z1Q4N25BUXpVQ29qRmJ3dXRVSjEyQmdhNnFPSWt1bnNzZVZoZW1OMVB4RFBOX1JZcEllMkFIcmo0UnZSVERITmFPZEJyWDRyUQ?oc=5)
 

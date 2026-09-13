@@ -1,12 +1,12 @@
 ---
-title: "Record b2ddbbaa54 · Introducing-physics-AI-at-Mistral-the-foundation-for-engineering-accel"
+title: "Record b2ddbbaa54 · Introducing-physics-AI-at-Mistral-the-foundation-fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.767527+00:00
+updated_at: 2026-09-13T00:56:37.608719+00:00
 tags: [record, real-data]
 ---
 
-# Record b2ddbbaa54 · Introducing-physics-AI-at-Mistral-the-foundation-for-engineering-accel
+# Record b2ddbbaa54 · Introducing-physics-AI-at-Mistral-the-foundation-fo
 
 > 실제 수집 레코드입니다. 원문: [mistral.ai](https://mistral.ai/news/introducing-physics-ai-at-mistral/)
 

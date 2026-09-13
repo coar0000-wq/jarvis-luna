@@ -1,12 +1,12 @@
 ---
-title: "Record 303c98b553 · A-Randomized-Placebo-Controlled-Trial-to-Evaluate-the-Safety-and-Effic"
+title: "Record 303c98b553 · A-Randomized-Placebo-Controlled-Trial-to-Evaluate-t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.631130+00:00
+updated_at: 2026-09-13T00:56:37.490921+00:00
 tags: [record, real-data]
 ---
 
-# Record 303c98b553 · A-Randomized-Placebo-Controlled-Trial-to-Evaluate-the-Safety-and-Effic
+# Record 303c98b553 · A-Randomized-Placebo-Controlled-Trial-to-Evaluate-t
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1101/2024.04.03.24305209)
 

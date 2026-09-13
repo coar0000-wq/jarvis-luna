@@ -1,12 +1,12 @@
 ---
-title: "Record ef32a44a1e · K-beauty-market-set-to-double-by-2032-data-reveals---TheIndustrybeauty"
+title: "Record ef32a44a1e · K-beauty-market-set-to-double-by-2032-data-reveals-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.896282+00:00
+updated_at: 2026-09-13T00:56:37.731493+00:00
 tags: [record, real-data]
 ---
 
-# Record ef32a44a1e · K-beauty-market-set-to-double-by-2032-data-reveals---TheIndustrybeauty
+# Record ef32a44a1e · K-beauty-market-set-to-double-by-2032-data-reveals-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMihAFBVV95cUxQblBuNlM4TnVXUmJ4eHdNYWtZMXhzbjNhck5Sbm55ZjVGZ01oai1LLWlSOG5tMUp3ME00YU5nXzJETWxpXzl4OHYtTzIxVkRBVjhiTVlfVjhpQ0tVdkN6Yk9GOG93RTNGTU9PYjJseGlURXExNTFfMmJ5QXdvV1VIaGh5NHY?oc=5)
 

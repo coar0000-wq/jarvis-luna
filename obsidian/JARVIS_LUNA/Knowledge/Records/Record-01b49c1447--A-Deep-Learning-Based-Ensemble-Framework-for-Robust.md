@@ -1,12 +1,12 @@
 ---
-title: "Record 01b49c1447 · A-Deep-Learning-Based-Ensemble-Framework-for-Robust-Android-Malware-De"
+title: "Record 01b49c1447 · A-Deep-Learning-Based-Ensemble-Framework-for-Robust"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.634646+00:00
+updated_at: 2026-09-13T00:56:37.494140+00:00
 tags: [record, real-data]
 ---
 
-# Record 01b49c1447 · A-Deep-Learning-Based-Ensemble-Framework-for-Robust-Android-Malware-De
+# Record 01b49c1447 · A-Deep-Learning-Based-Ensemble-Framework-for-Robust
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1109/access.2025.3551152)
 

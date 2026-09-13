@@ -1,12 +1,12 @@
 ---
-title: "Record dca1999f60 · Shopify-shares-surge-on-strong-second-quarter-profit-as-AI-helps-drive"
+title: "Record dca1999f60 · Shopify-shares-surge-on-strong-second-quarter-profi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.919808+00:00
+updated_at: 2026-09-13T00:56:37.753222+00:00
 tags: [record, real-data]
 ---
 
-# Record dca1999f60 · Shopify-shares-surge-on-strong-second-quarter-profit-as-AI-helps-drive
+# Record dca1999f60 · Shopify-shares-surge-on-strong-second-quarter-profi
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMikgFBVV95cUxNS245WHkxVlF2R3JnYW80SkcwdG43NWR3cWREeDFLYTVhN1JiQXNfZ1lISXRpamNsOVVpc1BVQy1jdjhwUUxiX3d3bHFOYm9oMjl0UTdHSmxlWFpLOHJVR3JsUEVzeXU4SUt6TGZHQzJ5REVZQUlxcWxoQ3lqVmFZSHdEZ3g3WTdXN1F4ZDFyRWszQQ?oc=5)
 

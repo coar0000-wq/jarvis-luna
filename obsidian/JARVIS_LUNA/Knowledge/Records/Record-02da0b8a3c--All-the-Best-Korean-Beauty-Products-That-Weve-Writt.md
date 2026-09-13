@@ -1,12 +1,12 @@
 ---
-title: "Record 02da0b8a3c · All-the-Best-Korean-Beauty-Products-That-Weve-Written-About-on-the-Str"
+title: "Record 02da0b8a3c · All-the-Best-Korean-Beauty-Products-That-Weve-Writt"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.868129+00:00
+updated_at: 2026-09-13T00:56:37.705440+00:00
 tags: [record, real-data]
 ---
 
-# Record 02da0b8a3c · All-the-Best-Korean-Beauty-Products-That-Weve-Written-About-on-the-Str
+# Record 02da0b8a3c · All-the-Best-Korean-Beauty-Products-That-Weve-Writt
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMieEFVX3lxTE9RU2ZJT2ppSjJFYjJyWWhfcmkyaDVramtIS2RDajhkd0w2ejFFYTJhUWdxYTg4Z3hhSWdrR19GSUNKU1BYRWdneWp3U2wzeVVwdHF0RDVpZXk3cnp5aV9ENVF1YXNmNGNvYUJjU3lBUnhPOU1ZWXM3LQ?oc=5)
 

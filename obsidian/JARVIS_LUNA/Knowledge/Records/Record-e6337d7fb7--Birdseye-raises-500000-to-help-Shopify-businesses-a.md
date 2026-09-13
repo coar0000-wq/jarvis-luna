@@ -1,12 +1,12 @@
 ---
-title: "Record e6337d7fb7 · Birdseye-raises-500000-to-help-Shopify-businesses-automate-marketing-s"
+title: "Record e6337d7fb7 · Birdseye-raises-500000-to-help-Shopify-businesses-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.969750+00:00
+updated_at: 2026-09-13T00:56:37.798927+00:00
 tags: [record, real-data]
 ---
 
-# Record e6337d7fb7 · Birdseye-raises-500000-to-help-Shopify-businesses-automate-marketing-s
+# Record e6337d7fb7 · Birdseye-raises-500000-to-help-Shopify-businesses-a
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMirgFBVV95cUxQeVQ4ZmFfQ0wzLUp1TnhBcVJ0YTdNN1JpSUpqZ1NSWkxkMUt2VVFjRnROQ1BWQzV6cUN3S1VLcV90cTV0aWw1dWs1T1UtT0x0ZUdzbng0UHZ1M3F1VU0xQWNxUUQxWXl4anY3UW9PbURHaVRoZE9vdEdScElwTE9EZFRYZmJxd2JfM3VUc01FRnhBWUlERUVreXZfWXRwZkRwMXRLb2d5SHhTSzFQZVE?oc=5)
 

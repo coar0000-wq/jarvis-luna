@@ -1,12 +1,12 @@
 ---
-title: "Record 40f31a221d · 7-Korean-beauty-ingredients-that-will-make-your-skin-glow-according-to"
+title: "Record 40f31a221d · 7-Korean-beauty-ingredients-that-will-make-your-ski"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.883505+00:00
+updated_at: 2026-09-13T00:56:37.719667+00:00
 tags: [record, real-data]
 ---
 
-# Record 40f31a221d · 7-Korean-beauty-ingredients-that-will-make-your-skin-glow-according-to
+# Record 40f31a221d · 7-Korean-beauty-ingredients-that-will-make-your-ski
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMifkFVX3lxTE9QSjEtay14Nms3Y0xKSDVUUnEwZUJ0LXFXNUo5dWpjQXNUX2dPaVkwNG1KN0ZLd0cxYnFkVEh0V3R5Mjh6a1VEb19YTldKZV9lSnBuSlk5STdQMFhrUVRJeDJjZVhPS0Q2NHVyMGtwWU9MMTlOMWFtR3djQzJNZw?oc=5)
 

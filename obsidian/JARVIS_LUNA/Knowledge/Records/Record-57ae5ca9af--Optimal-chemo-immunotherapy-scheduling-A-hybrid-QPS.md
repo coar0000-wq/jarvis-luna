@@ -1,12 +1,12 @@
 ---
-title: "Record 57ae5ca9af · Optimal-chemo-immunotherapy-scheduling-A-hybrid-QPSO-SQP-approach-with"
+title: "Record 57ae5ca9af · Optimal-chemo-immunotherapy-scheduling-A-hybrid-QPS"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.546895+00:00
+updated_at: 2026-09-13T00:56:37.409814+00:00
 tags: [record, real-data]
 ---
 
-# Record 57ae5ca9af · Optimal-chemo-immunotherapy-scheduling-A-hybrid-QPSO-SQP-approach-with
+# Record 57ae5ca9af · Optimal-chemo-immunotherapy-scheduling-A-hybrid-QPS
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.11213v1)
 

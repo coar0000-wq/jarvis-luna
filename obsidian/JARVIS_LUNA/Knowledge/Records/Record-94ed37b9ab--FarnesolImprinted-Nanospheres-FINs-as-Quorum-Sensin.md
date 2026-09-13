@@ -1,12 +1,12 @@
 ---
-title: "Record 94ed37b9ab · FarnesolImprinted-Nanospheres-FINs-as-Quorum-Sensing-Modulators-of-Can"
+title: "Record 94ed37b9ab · FarnesolImprinted-Nanospheres-FINs-as-Quorum-Sensin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.578893+00:00
+updated_at: 2026-09-13T00:56:37.443001+00:00
 tags: [record, real-data]
 ---
 
-# Record 94ed37b9ab · FarnesolImprinted-Nanospheres-FINs-as-Quorum-Sensing-Modulators-of-Can
+# Record 94ed37b9ab · FarnesolImprinted-Nanospheres-FINs-as-Quorum-Sensin
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1002/slct.202401195)
 

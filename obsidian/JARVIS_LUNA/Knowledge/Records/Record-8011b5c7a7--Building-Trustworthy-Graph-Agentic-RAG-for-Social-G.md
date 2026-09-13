@@ -1,12 +1,12 @@
 ---
-title: "Record 8011b5c7a7 · Building-Trustworthy-Graph-Agentic-RAG-for-Social-Good-Architectures-F"
+title: "Record 8011b5c7a7 · Building-Trustworthy-Graph-Agentic-RAG-for-Social-G"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.509851+00:00
+updated_at: 2026-09-13T00:56:37.375488+00:00
 tags: [record, real-data]
 ---
 
-# Record 8011b5c7a7 · Building-Trustworthy-Graph-Agentic-RAG-for-Social-Good-Architectures-F
+# Record 8011b5c7a7 · Building-Trustworthy-Graph-Agentic-RAG-for-Social-G
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.06391v1)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 14c435c700 · Frontend-Engineering-at-Palantir-Building-a-Backend-less-Cross-Applica"
+title: "Record 14c435c700 · Frontend-Engineering-at-Palantir-Building-a-Backend"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.561666+00:00
+updated_at: 2026-09-13T00:56:37.424880+00:00
 tags: [record, real-data]
 ---
 
-# Record 14c435c700 · Frontend-Engineering-at-Palantir-Building-a-Backend-less-Cross-Applica
+# Record 14c435c700 · Frontend-Engineering-at-Palantir-Building-a-Backend
 
 > 실제 수집 레코드입니다. 원문: [blog.palantir.com](https://blog.palantir.com/frontend-engineering-at-palantir-building-a-backend-less-cross-application-api-a40be7874ee5?source=rss----3c87dc14372f---4)
 

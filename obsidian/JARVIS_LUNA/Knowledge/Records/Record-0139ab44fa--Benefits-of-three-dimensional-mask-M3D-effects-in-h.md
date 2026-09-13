@@ -1,12 +1,12 @@
 ---
-title: "Record 0139ab44fa · Benefits-of-three-dimensional-mask-M3D-effects-in-high-NA-and-hyper-NA"
+title: "Record 0139ab44fa · Benefits-of-three-dimensional-mask-M3D-effects-in-h"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.645702+00:00
+updated_at: 2026-09-13T00:56:37.504360+00:00
 tags: [record, real-data]
 ---
 
-# Record 0139ab44fa · Benefits-of-three-dimensional-mask-M3D-effects-in-high-NA-and-hyper-NA
+# Record 0139ab44fa · Benefits-of-three-dimensional-mask-M3D-effects-in-h
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1117/1.jmm.25.3.031607)
 

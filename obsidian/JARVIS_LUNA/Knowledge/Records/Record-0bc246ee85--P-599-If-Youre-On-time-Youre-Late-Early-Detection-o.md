@@ -1,12 +1,12 @@
 ---
-title: "Record 0bc246ee85 · P-599-If-Youre-On-time-Youre-Late-Early-Detection-of-Common-Respirator"
+title: "Record 0bc246ee85 · P-599-If-Youre-On-time-Youre-Late-Early-Detection-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.628929+00:00
+updated_at: 2026-09-13T00:56:37.488914+00:00
 tags: [record, real-data]
 ---
 
-# Record 0bc246ee85 · P-599-If-Youre-On-time-Youre-Late-Early-Detection-of-Common-Respirator
+# Record 0bc246ee85 · P-599-If-Youre-On-time-Youre-Late-Early-Detection-o
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1093/ofid/ofaf695.812)
 

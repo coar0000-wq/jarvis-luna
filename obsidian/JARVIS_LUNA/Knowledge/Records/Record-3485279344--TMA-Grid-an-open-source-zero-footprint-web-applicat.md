@@ -1,12 +1,12 @@
 ---
-title: "Record 3485279344 · TMA-Grid-an-open-source-zero-footprint-web-application-for-FAIR-tissue"
+title: "Record 3485279344 · TMA-Grid-an-open-source-zero-footprint-web-applicat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.657717+00:00
+updated_at: 2026-09-13T00:56:37.514358+00:00
 tags: [record, real-data]
 ---
 
-# Record 3485279344 · TMA-Grid-an-open-source-zero-footprint-web-application-for-FAIR-tissue
+# Record 3485279344 · TMA-Grid-an-open-source-zero-footprint-web-applicat
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1186/s12859-026-06638-2)
 

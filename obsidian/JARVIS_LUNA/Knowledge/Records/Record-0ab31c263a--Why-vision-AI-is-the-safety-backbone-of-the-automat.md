@@ -1,12 +1,12 @@
 ---
-title: "Record 0ab31c263a · Why-vision-AI-is-the-safety-backbone-of-the-automated-job-site"
+title: "Record 0ab31c263a · Why-vision-AI-is-the-safety-backbone-of-the-automat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.183231+00:00
+updated_at: 2026-09-13T00:56:37.988171+00:00
 tags: [record, real-data]
 ---
 
-# Record 0ab31c263a · Why-vision-AI-is-the-safety-backbone-of-the-automated-job-site
+# Record 0ab31c263a · Why-vision-AI-is-the-safety-backbone-of-the-automat
 
 > 실제 수집 레코드입니다. 원문: [www.therobotreport.com](https://www.therobotreport.com/why-vision-ai-is-safety-backbone-of-automated-job-site/)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 4fcf0c6117 · Its-Been-a-Minute-Since-Ive-Rated-TikTok-Viral-Beauty-Products10-That-"
+title: "Record 4fcf0c6117 · Its-Been-a-Minute-Since-Ive-Rated-TikTok-Viral-Beau"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.854216+00:00
+updated_at: 2026-09-13T00:56:37.690892+00:00
 tags: [record, real-data]
 ---
 
-# Record 4fcf0c6117 · Its-Been-a-Minute-Since-Ive-Rated-TikTok-Viral-Beauty-Products10-That-
+# Record 4fcf0c6117 · Its-Been-a-Minute-Since-Ive-Rated-TikTok-Viral-Beau
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMid0FVX3lxTE5CMTI5a3pQcUp1TUpxajFmU3dMRk9pcUd0aEhMeGszb3gzdVNIUGJqVmFQemIyVzhZRDFqODdRbHZUYUthMW1GU2JZS2FDb05Zd3RsUDM0NktTV1VVTlJrRDJ2ek5DV3pUR1NVUkJUZS1nb0M4U2VV?oc=5)
 

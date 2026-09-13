@@ -1,12 +1,12 @@
 ---
-title: "Record f12e2634b5 · I-applied-my-faux-freckles-with-a-piece-of-broccoli-and-the-results-we"
+title: "Record f12e2634b5 · I-applied-my-faux-freckles-with-a-piece-of-broccoli"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.970694+00:00
+updated_at: 2026-09-13T00:56:37.799795+00:00
 tags: [record, real-data]
 ---
 
-# Record f12e2634b5 · I-applied-my-faux-freckles-with-a-piece-of-broccoli-and-the-results-we
+# Record f12e2634b5 · I-applied-my-faux-freckles-with-a-piece-of-broccoli
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMirwFBVV95cUxPYWhmRHNyTUQ3TVBkNHNrbEFRNWdydU5GU2tRa3lmdXU2VndfZWxpVXpEdVg1Z3J1dzF6NFNkOE10Z3lSbkJKMGlwLUxpYkN5RTZYMEVndWF4a0wwbzNMNl9NOUd0LVN3Yk93VS1zdWVPMjg4bU92UVNxVHFEWFROM3NzMk82MFd6VUdzRXdvXzNBVWNUY2NiWE5RUFF5MEpUWmcySTJSZTB5UFVfekdv?oc=5)
 

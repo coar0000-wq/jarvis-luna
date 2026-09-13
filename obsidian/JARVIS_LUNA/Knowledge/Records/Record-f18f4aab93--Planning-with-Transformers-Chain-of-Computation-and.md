@@ -1,12 +1,12 @@
 ---
-title: "Record f18f4aab93 · Planning-with-Transformers-Chain-of-Computation-and-Structured-Context"
+title: "Record f18f4aab93 · Planning-with-Transformers-Chain-of-Computation-and"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.039964+00:00
+updated_at: 2026-09-13T00:56:37.864318+00:00
 tags: [record, real-data]
 ---
 
-# Record f18f4aab93 · Planning-with-Transformers-Chain-of-Computation-and-Structured-Context
+# Record f18f4aab93 · Planning-with-Transformers-Chain-of-Computation-and
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7170111931)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record f674ff035d · K-Beautys-Rise-in-the-US-Ingredients-Philosophy-and-The-Shift-to-Layer"
+title: "Record f674ff035d · K-Beautys-Rise-in-the-US-Ingredients-Philosophy-and"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.978261+00:00
+updated_at: 2026-09-13T00:56:37.806708+00:00
 tags: [record, real-data]
 ---
 
-# Record f674ff035d · K-Beautys-Rise-in-the-US-Ingredients-Philosophy-and-The-Shift-to-Layer
+# Record f674ff035d · K-Beautys-Rise-in-the-US-Ingredients-Philosophy-and
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMitgFBVV95cUxQM0JmYVZvV2tEM2FtaldydnNlN0tCUWc3TkVmYkdfV09YY2ItcU5mdERNVEQzamUtWmZOeGhkcFpWT25LNXV6NVlqTjlsbHlVQ0NrdDNJYktWTmg2ZVVsMHhlZWpua3ZPR0RlVFRoR0kxQ3VuWU9relg5YUZPZU0wUUVaaVFpTzNnbnFURkVleWNhTEpST3NYYnVFZkQtVGM1OG5ZWERpdmxVN3RVSV94dUs0ZFFpQQ?oc=5)
 

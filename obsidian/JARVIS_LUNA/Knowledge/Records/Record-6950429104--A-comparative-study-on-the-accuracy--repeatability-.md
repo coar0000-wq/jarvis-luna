@@ -1,12 +1,12 @@
 ---
-title: "Record 6950429104 · A-comparative-study-on-the-accuracy--repeatability-of-mobile-robotic-p"
+title: "Record 6950429104 · A-comparative-study-on-the-accuracy--repeatability-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.485043+00:00
+updated_at: 2026-09-13T00:56:37.353052+00:00
 tags: [record, real-data]
 ---
 
-# Record 6950429104 · A-comparative-study-on-the-accuracy--repeatability-of-mobile-robotic-p
+# Record 6950429104 · A-comparative-study-on-the-accuracy--repeatability-
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.03794v1)
 

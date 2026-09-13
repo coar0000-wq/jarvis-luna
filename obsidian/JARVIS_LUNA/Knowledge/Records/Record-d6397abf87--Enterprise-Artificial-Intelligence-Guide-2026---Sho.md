@@ -1,12 +1,12 @@
 ---
-title: "Record d6397abf87 · Enterprise-Artificial-Intelligence-Guide-2026---Shopify"
+title: "Record d6397abf87 · Enterprise-Artificial-Intelligence-Guide-2026---Sho"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.877565+00:00
+updated_at: 2026-09-13T00:56:37.714302+00:00
 tags: [record, real-data]
 ---
 
-# Record d6397abf87 · Enterprise-Artificial-Intelligence-Guide-2026---Shopify
+# Record d6397abf87 · Enterprise-Artificial-Intelligence-Guide-2026---Sho
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMif0FVX3lxTFBtNFNpQ05Sd28yczBwRm5ibGVNZm8tU2ViQ3ZIOXhwU0UwLTB0bVV2SXJYMVoyVDBpNWg0aTFlRWlCQWNXS05iZWRJVHpxa2xYQnJjamdpSXFySWFMUWdxX0FrdW5RZ3U2RWp3aWM3VmJuNmNvaVNCTFZRRmdleFU?oc=5)
 

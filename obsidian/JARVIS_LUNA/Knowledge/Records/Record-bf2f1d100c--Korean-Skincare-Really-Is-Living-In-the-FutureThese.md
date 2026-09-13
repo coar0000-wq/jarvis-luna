@@ -1,12 +1,12 @@
 ---
-title: "Record bf2f1d100c · Korean-Skincare-Really-Is-Living-In-the-FutureThese-9-Products-Are-Pro"
+title: "Record bf2f1d100c · Korean-Skincare-Really-Is-Living-In-the-FutureThese"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.895377+00:00
+updated_at: 2026-09-13T00:56:37.730529+00:00
 tags: [record, real-data]
 ---
 
-# Record bf2f1d100c · Korean-Skincare-Really-Is-Living-In-the-FutureThese-9-Products-Are-Pro
+# Record bf2f1d100c · Korean-Skincare-Really-Is-Living-In-the-FutureThese
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMihAFBVV95cUxPZngzOVM1NVd0V0NhUEFpbDU1SFN0Vk9sWm1vY200S3pCRHhVWWJ1MmNNSDl0VXN0amQ3OHNRaWIzOTBueTZ2RDlUQl9tX0VQcFpZaUdTQ3Q2MjRMTU9aNGN0Nkd4UlRuQ1BIanE4ZXVYRmh4RmZsaEtIb2Q0RkNUMjU5ZFA?oc=5)
 

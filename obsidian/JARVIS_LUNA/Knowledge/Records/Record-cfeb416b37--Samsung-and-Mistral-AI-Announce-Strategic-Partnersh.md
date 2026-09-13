@@ -1,12 +1,12 @@
 ---
-title: "Record cfeb416b37 · Samsung-and-Mistral-AI-Announce-Strategic-Partnership-for-Intelligence"
+title: "Record cfeb416b37 · Samsung-and-Mistral-AI-Announce-Strategic-Partnersh"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.994152+00:00
+updated_at: 2026-09-13T00:56:37.821351+00:00
 tags: [record, real-data]
 ---
 
-# Record cfeb416b37 · Samsung-and-Mistral-AI-Announce-Strategic-Partnership-for-Intelligence
+# Record cfeb416b37 · Samsung-and-Mistral-AI-Announce-Strategic-Partnersh
 
 > 실제 수집 레코드입니다. 원문: [news.samsung.com](https://news.samsung.com/global/samsung-and-mistral-ai-announce-strategic-partnership-for-intelligence-driven-semiconductor-infrastructure)
 

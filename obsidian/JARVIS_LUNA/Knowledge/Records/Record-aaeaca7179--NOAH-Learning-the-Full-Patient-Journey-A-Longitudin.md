@@ -1,12 +1,12 @@
 ---
-title: "Record aaeaca7179 · NOAH-Learning-the-Full-Patient-Journey-A-Longitudinal-Multimodal-Time-"
+title: "Record aaeaca7179 · NOAH-Learning-the-Full-Patient-Journey-A-Longitudin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.527257+00:00
+updated_at: 2026-09-13T00:56:37.391536+00:00
 tags: [record, real-data]
 ---
 
-# Record aaeaca7179 · NOAH-Learning-the-Full-Patient-Journey-A-Longitudinal-Multimodal-Time-
+# Record aaeaca7179 · NOAH-Learning-the-Full-Patient-Journey-A-Longitudin
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.09140v1)
 

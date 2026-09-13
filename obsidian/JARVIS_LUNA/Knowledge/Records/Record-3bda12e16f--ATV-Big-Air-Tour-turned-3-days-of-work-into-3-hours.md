@@ -1,12 +1,12 @@
 ---
-title: "Record 3bda12e16f · ATV-Big-Air-Tour-turned-3-days-of-work-into-3-hours-with-ChatGPT"
+title: "Record 3bda12e16f · ATV-Big-Air-Tour-turned-3-days-of-work-into-3-hours"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.008090+00:00
+updated_at: 2026-09-13T00:56:37.833971+00:00
 tags: [record, real-data]
 ---
 
-# Record 3bda12e16f · ATV-Big-Air-Tour-turned-3-days-of-work-into-3-hours-with-ChatGPT
+# Record 3bda12e16f · ATV-Big-Air-Tour-turned-3-days-of-work-into-3-hours
 
 > 실제 수집 레코드입니다. 원문: [openai.com](https://openai.com/index/atv-big-air-tour)
 

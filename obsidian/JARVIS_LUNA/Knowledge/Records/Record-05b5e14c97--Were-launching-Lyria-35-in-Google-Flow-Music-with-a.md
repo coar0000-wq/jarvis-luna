@@ -1,12 +1,12 @@
 ---
-title: "Record 05b5e14c97 · Were-launching-Lyria-35-in-Google-Flow-Music-with-advances-across-musi"
+title: "Record 05b5e14c97 · Were-launching-Lyria-35-in-Google-Flow-Music-with-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.571456+00:00
+updated_at: 2026-09-13T00:56:37.435154+00:00
 tags: [record, real-data]
 ---
 
-# Record 05b5e14c97 · Were-launching-Lyria-35-in-Google-Flow-Music-with-advances-across-musi
+# Record 05b5e14c97 · Were-launching-Lyria-35-in-Google-Flow-Music-with-a
 
 > 실제 수집 레코드입니다. 원문: [deepmind.google](https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/)
 

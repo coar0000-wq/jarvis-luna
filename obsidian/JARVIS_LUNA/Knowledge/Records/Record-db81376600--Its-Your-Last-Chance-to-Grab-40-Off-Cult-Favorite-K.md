@@ -1,12 +1,12 @@
 ---
-title: "Record db81376600 · Its-Your-Last-Chance-to-Grab-40-Off-Cult-Favorite-K-Beauty-Products---"
+title: "Record db81376600 · Its-Your-Last-Chance-to-Grab-40-Off-Cult-Favorite-K"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.870106+00:00
+updated_at: 2026-09-13T00:56:37.707474+00:00
 tags: [record, real-data]
 ---
 
-# Record db81376600 · Its-Your-Last-Chance-to-Grab-40-Off-Cult-Favorite-K-Beauty-Products---
+# Record db81376600 · Its-Your-Last-Chance-to-Grab-40-Off-Cult-Favorite-K
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiekFVX3lxTE1ZWXNIMHRXbXdibF8zQzJHbVFfSHEyLUdpR18tdHVhRVVOM1ZDWWxnSXFLXzZ2SXFXVzF0VmNaRUprdzlaNGt5cC15bGZFblJ5U1d2N292UVBxQlVhbGJxNHJfVW5VS2lacWZPaDZHd1BTSTJMMHJNeXhB?oc=5)
 

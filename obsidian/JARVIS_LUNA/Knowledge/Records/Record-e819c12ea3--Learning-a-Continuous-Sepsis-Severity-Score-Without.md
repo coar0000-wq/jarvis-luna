@@ -1,12 +1,12 @@
 ---
-title: "Record e819c12ea3 · Learning-a-Continuous-Sepsis-Severity-Score-Without-Hour-by-Hour-Super"
+title: "Record e819c12ea3 · Learning-a-Continuous-Sepsis-Severity-Score-Without"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.272269+00:00
+updated_at: 2026-09-13T00:56:38.066759+00:00
 tags: [record, real-data]
 ---
 
-# Record e819c12ea3 · Learning-a-Continuous-Sepsis-Severity-Score-Without-Hour-by-Hour-Super
+# Record e819c12ea3 · Learning-a-Continuous-Sepsis-Severity-Score-Without
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.27421v1)
 

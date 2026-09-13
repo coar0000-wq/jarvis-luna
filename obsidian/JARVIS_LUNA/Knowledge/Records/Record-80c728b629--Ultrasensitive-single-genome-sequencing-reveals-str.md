@@ -1,12 +1,12 @@
 ---
-title: "Record 80c728b629 · Ultrasensitive-single-genome-sequencing-reveals-strong-purifying-selec"
+title: "Record 80c728b629 · Ultrasensitive-single-genome-sequencing-reveals-str"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.733903+00:00
+updated_at: 2026-09-13T00:56:37.577863+00:00
 tags: [record, real-data]
 ---
 
-# Record 80c728b629 · Ultrasensitive-single-genome-sequencing-reveals-strong-purifying-selec
+# Record 80c728b629 · Ultrasensitive-single-genome-sequencing-reveals-str
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.64898/2026.08.21.746200)
 

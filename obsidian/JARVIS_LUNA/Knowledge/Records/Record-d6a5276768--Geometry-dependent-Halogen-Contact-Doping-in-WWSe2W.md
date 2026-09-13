@@ -1,12 +1,12 @@
 ---
-title: "Record d6a5276768 · Geometry-dependent-Halogen-Contact-Doping-in-WWSe2W-Field-Effect-Trans"
+title: "Record d6a5276768 · Geometry-dependent-Halogen-Contact-Doping-in-WWSe2W"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.606682+00:00
+updated_at: 2026-09-13T00:56:37.468385+00:00
 tags: [record, real-data]
 ---
 
-# Record d6a5276768 · Geometry-dependent-Halogen-Contact-Doping-in-WWSe2W-Field-Effect-Trans
+# Record d6a5276768 · Geometry-dependent-Halogen-Contact-Doping-in-WWSe2W
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1021/acsanm.6c02033)
 

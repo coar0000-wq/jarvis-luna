@@ -1,12 +1,12 @@
 ---
-title: "Record eaf54094e7 · Git-Assistant-Planning-Based-Support-for-Updating-Git-Repositories"
+title: "Record eaf54094e7 · Git-Assistant-Planning-Based-Support-for-Updating-G"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.037416+00:00
+updated_at: 2026-09-13T00:56:37.862067+00:00
 tags: [record, real-data]
 ---
 
-# Record eaf54094e7 · Git-Assistant-Planning-Based-Support-for-Updating-Git-Repositories
+# Record eaf54094e7 · Git-Assistant-Planning-Based-Support-for-Updating-G
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7168328521)
 

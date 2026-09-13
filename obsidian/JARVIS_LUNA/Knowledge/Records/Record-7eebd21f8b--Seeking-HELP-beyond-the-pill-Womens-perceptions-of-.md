@@ -1,12 +1,12 @@
 ---
-title: "Record 7eebd21f8b · Seeking-HELP-beyond-the-pill-Womens-perceptions-of-informed-consent-fo"
+title: "Record 7eebd21f8b · Seeking-HELP-beyond-the-pill-Womens-perceptions-of-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.663245+00:00
+updated_at: 2026-09-13T00:56:37.518875+00:00
 tags: [record, real-data]
 ---
 
-# Record 7eebd21f8b · Seeking-HELP-beyond-the-pill-Womens-perceptions-of-informed-consent-fo
+# Record 7eebd21f8b · Seeking-HELP-beyond-the-pill-Womens-perceptions-of-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1371/journal.pone.0349065)
 

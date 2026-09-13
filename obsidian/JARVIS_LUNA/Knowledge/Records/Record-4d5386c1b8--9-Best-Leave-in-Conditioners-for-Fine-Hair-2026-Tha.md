@@ -1,12 +1,12 @@
 ---
-title: "Record 4d5386c1b8 · 9-Best-Leave-in-Conditioners-for-Fine-Hair-2026-That-Wont-Nix-Volume"
+title: "Record 4d5386c1b8 · 9-Best-Leave-in-Conditioners-for-Fine-Hair-2026-Tha"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.086818+00:00
+updated_at: 2026-09-13T00:56:37.904607+00:00
 tags: [record, real-data]
 ---
 
-# Record 4d5386c1b8 · 9-Best-Leave-in-Conditioners-for-Fine-Hair-2026-That-Wont-Nix-Volume
+# Record 4d5386c1b8 · 9-Best-Leave-in-Conditioners-for-Fine-Hair-2026-Tha
 
 > 실제 수집 레코드입니다. 원문: [www.allure.com](https://www.allure.com/story/leave-in-conditioners-for-fine-hair)
 

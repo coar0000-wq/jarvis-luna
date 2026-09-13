@@ -1,12 +1,12 @@
 ---
-title: "Record 49eabb0eb0 · I-Tried-TikToks-MOST-VIRAL-Beauty-Trends-Peoples-Postcode-Lottery-ZiKO"
+title: "Record 49eabb0eb0 · I-Tried-TikToks-MOST-VIRAL-Beauty-Trends-Peoples-Po"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.792508+00:00
+updated_at: 2026-09-13T00:56:37.632338+00:00
 tags: [record, real-data]
 ---
 
-# Record 49eabb0eb0 · I-Tried-TikToks-MOST-VIRAL-Beauty-Trends-Peoples-Postcode-Lottery-ZiKO
+# Record 49eabb0eb0 · I-Tried-TikToks-MOST-VIRAL-Beauty-Trends-Peoples-Po
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiW0FVX3lxTE50THp2dEVaTGVPVGY0TzhRUHkyYmZKXzJSS2pnZGI2dkxNa2g2T2VrZkluS19TRHZ2WE5leElrUVE4UVJpblJHUmxaQW10SHNlQ3RkWkhqT2RaT3c?oc=5)
 

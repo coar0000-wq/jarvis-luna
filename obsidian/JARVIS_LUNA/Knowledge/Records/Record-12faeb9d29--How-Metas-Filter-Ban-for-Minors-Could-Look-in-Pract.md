@@ -1,12 +1,12 @@
 ---
-title: "Record 12faeb9d29 · How-Metas-Filter-Ban-for-Minors-Could-Look-in-Practice"
+title: "Record 12faeb9d29 · How-Metas-Filter-Ban-for-Minors-Could-Look-in-Pract"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.088113+00:00
+updated_at: 2026-09-13T00:56:37.905644+00:00
 tags: [record, real-data]
 ---
 
-# Record 12faeb9d29 · How-Metas-Filter-Ban-for-Minors-Could-Look-in-Practice
+# Record 12faeb9d29 · How-Metas-Filter-Ban-for-Minors-Could-Look-in-Pract
 
 > 실제 수집 레코드입니다. 원문: [www.allure.com](https://www.allure.com/story/meta-beauty-filter-ban-teens)
 

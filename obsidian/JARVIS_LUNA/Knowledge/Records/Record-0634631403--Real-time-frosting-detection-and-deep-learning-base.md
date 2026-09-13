@@ -1,12 +1,12 @@
 ---
-title: "Record 0634631403 · Real-time-frosting-detection-and-deep-learning-based-defrosting-contro"
+title: "Record 0634631403 · Real-time-frosting-detection-and-deep-learning-base"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.586836+00:00
+updated_at: 2026-09-13T00:56:37.450607+00:00
 tags: [record, real-data]
 ---
 
-# Record 0634631403 · Real-time-frosting-detection-and-deep-learning-based-defrosting-contro
+# Record 0634631403 · Real-time-frosting-detection-and-deep-learning-base
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.applthermaleng.2026.133010)
 

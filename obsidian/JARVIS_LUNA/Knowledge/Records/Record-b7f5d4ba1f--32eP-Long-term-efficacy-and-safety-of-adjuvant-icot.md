@@ -1,12 +1,12 @@
 ---
-title: "Record b7f5d4ba1f · 32eP-Long-term-efficacy-and-safety-of-adjuvant-icotinib-with-or-withou"
+title: "Record b7f5d4ba1f · 32eP-Long-term-efficacy-and-safety-of-adjuvant-icot"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.591536+00:00
+updated_at: 2026-09-13T00:56:37.454754+00:00
 tags: [record, real-data]
 ---
 
-# Record b7f5d4ba1f · 32eP-Long-term-efficacy-and-safety-of-adjuvant-icotinib-with-or-withou
+# Record b7f5d4ba1f · 32eP-Long-term-efficacy-and-safety-of-adjuvant-icot
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.esmoop.2026.106339)
 

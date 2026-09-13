@@ -1,12 +1,12 @@
 ---
-title: "Record 81880c68a4 · NMRhub-An-NMR-Data-Ecosystem-Spanning-the-Complete-Data-Lifecycle"
+title: "Record 81880c68a4 · NMRhub-An-NMR-Data-Ecosystem-Spanning-the-Complete-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.595235+00:00
+updated_at: 2026-09-13T00:56:37.458063+00:00
 tags: [record, real-data]
 ---
 
-# Record 81880c68a4 · NMRhub-An-NMR-Data-Ecosystem-Spanning-the-Complete-Data-Lifecycle
+# Record 81880c68a4 · NMRhub-An-NMR-Data-Ecosystem-Spanning-the-Complete-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.jmb.2026.169769)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 3d74e3a1d9 · Pamela-Anderson-Brought-Classic-Movie-Star-Hair-to-VeniceSee-the-Photo"
+title: "Record 3d74e3a1d9 · Pamela-Anderson-Brought-Classic-Movie-Star-Hair-to-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.088373+00:00
+updated_at: 2026-09-13T00:56:37.905868+00:00
 tags: [record, real-data]
 ---
 
-# Record 3d74e3a1d9 · Pamela-Anderson-Brought-Classic-Movie-Star-Hair-to-VeniceSee-the-Photo
+# Record 3d74e3a1d9 · Pamela-Anderson-Brought-Classic-Movie-Star-Hair-to-
 
 > 실제 수집 레코드입니다. 원문: [www.allure.com](https://www.allure.com/story/pamela-anderson-venice-film-festival-hairstyles)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 124f92c03b · Taylor-Informed-Indirect-Adaptive-Predictive-Control-Using-Jacobian-Fr"
+title: "Record 124f92c03b · Taylor-Informed-Indirect-Adaptive-Predictive-Contro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.481135+00:00
+updated_at: 2026-09-13T00:56:37.349530+00:00
 tags: [record, real-data]
 ---
 
-# Record 124f92c03b · Taylor-Informed-Indirect-Adaptive-Predictive-Control-Using-Jacobian-Fr
+# Record 124f92c03b · Taylor-Informed-Indirect-Adaptive-Predictive-Contro
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.03348v1)
 

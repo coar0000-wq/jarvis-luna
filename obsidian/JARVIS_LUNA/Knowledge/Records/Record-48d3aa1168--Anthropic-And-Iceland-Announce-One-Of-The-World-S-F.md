@@ -1,12 +1,12 @@
 ---
-title: "Record 48d3aa1168 · Anthropic-And-Iceland-Announce-One-Of-The-World-S-First-National-Ai-Ed"
+title: "Record 48d3aa1168 · Anthropic-And-Iceland-Announce-One-Of-The-World-S-F"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.094423+00:00
+updated_at: 2026-09-13T00:56:37.910734+00:00
 tags: [record, real-data]
 ---
 
-# Record 48d3aa1168 · Anthropic-And-Iceland-Announce-One-Of-The-World-S-First-National-Ai-Ed
+# Record 48d3aa1168 · Anthropic-And-Iceland-Announce-One-Of-The-World-S-F
 
 > 실제 수집 레코드입니다. 원문: [www.anthropic.com](https://www.anthropic.com/news/anthropic-and-iceland-announce-one-of-the-world-s-first-national-ai-education-pilots)
 

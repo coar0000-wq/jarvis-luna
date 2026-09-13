@@ -1,12 +1,12 @@
 ---
-title: "Record 762a365a63 · Mahina-Tottle--skin-care-with-a-cool-touch-of-moonlight---Cosmetics-Bu"
+title: "Record 762a365a63 · Mahina-Tottle--skin-care-with-a-cool-touch-of-moonl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.846192+00:00
+updated_at: 2026-09-13T00:56:37.682579+00:00
 tags: [record, real-data]
 ---
 
-# Record 762a365a63 · Mahina-Tottle--skin-care-with-a-cool-touch-of-moonlight---Cosmetics-Bu
+# Record 762a365a63 · Mahina-Tottle--skin-care-with-a-cool-touch-of-moonl
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMic0FVX3lxTE43SlF6VXRWR1dKajRlYWFWVy14S2VMNjkzR05KLUszR2ZZNVV6czdXOTlmZGFFbWxnbk5nWC1aX0RuOG53Zk1Uakh6M3VyRGRKbFJUalV6ekZRUFRTN0xQR3p4aHR4NXJCSXptaE9hNC1EY2s?oc=5)
 

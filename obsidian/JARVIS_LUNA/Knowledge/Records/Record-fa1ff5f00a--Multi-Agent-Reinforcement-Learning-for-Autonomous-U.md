@@ -1,12 +1,12 @@
 ---
-title: "Record fa1ff5f00a · Multi-Agent-Reinforcement-Learning-for-Autonomous-UAV-Exploration-in-W"
+title: "Record fa1ff5f00a · Multi-Agent-Reinforcement-Learning-for-Autonomous-U"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.540709+00:00
+updated_at: 2026-09-13T00:56:37.403579+00:00
 tags: [record, real-data]
 ---
 
-# Record fa1ff5f00a · Multi-Agent-Reinforcement-Learning-for-Autonomous-UAV-Exploration-in-W
+# Record fa1ff5f00a · Multi-Agent-Reinforcement-Learning-for-Autonomous-U
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.10433v1)
 

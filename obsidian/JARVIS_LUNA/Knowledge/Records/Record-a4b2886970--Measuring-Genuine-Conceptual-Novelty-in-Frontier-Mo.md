@@ -1,12 +1,12 @@
 ---
-title: "Record a4b2886970 · Measuring-Genuine-Conceptual-Novelty-in-Frontier-Models"
+title: "Record a4b2886970 · Measuring-Genuine-Conceptual-Novelty-in-Frontier-Mo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.717992+00:00
+updated_at: 2026-09-13T00:56:37.563243+00:00
 tags: [record, real-data]
 ---
 
-# Record a4b2886970 · Measuring-Genuine-Conceptual-Novelty-in-Frontier-Models
+# Record a4b2886970 · Measuring-Genuine-Conceptual-Novelty-in-Frontier-Mo
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.22051546)
 

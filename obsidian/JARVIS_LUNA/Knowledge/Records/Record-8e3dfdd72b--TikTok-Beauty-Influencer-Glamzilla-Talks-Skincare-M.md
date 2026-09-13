@@ -1,12 +1,12 @@
 ---
-title: "Record 8e3dfdd72b · TikTok-Beauty-Influencer-Glamzilla-Talks-Skincare-Makeup--Wellness-Tre"
+title: "Record 8e3dfdd72b · TikTok-Beauty-Influencer-Glamzilla-Talks-Skincare-M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.978489+00:00
+updated_at: 2026-09-13T00:56:37.806916+00:00
 tags: [record, real-data]
 ---
 
-# Record 8e3dfdd72b · TikTok-Beauty-Influencer-Glamzilla-Talks-Skincare-Makeup--Wellness-Tre
+# Record 8e3dfdd72b · TikTok-Beauty-Influencer-Glamzilla-Talks-Skincare-M
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMitgFBVV95cUxQdllGLW1WdkVheWJrbjlFdnEwcDBLYzRjMU5qX256cnNQcnFxclhLcm9lX1o4SU9hN0FMcVB5QXh2TGRNNmhDTW1mZG83VnAxX09FMlU0cU5VS3ZOMXJsQXhqck5mQTY1T3NhVlgxTGk2b2Rtd3hVY29hVVZiX2dnMVNCMDd1RTlTY3ViSmdReEFOMmNtRDBIUHY1T2pSUl9FbnlkTTF6Z2I5Y24zb0VTcnA3dFVQUQ?oc=5)
 

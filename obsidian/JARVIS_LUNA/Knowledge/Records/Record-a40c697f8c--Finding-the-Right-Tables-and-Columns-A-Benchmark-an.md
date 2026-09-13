@@ -1,12 +1,12 @@
 ---
-title: "Record a40c697f8c · Finding-the-Right-Tables-and-Columns-A-Benchmark-and-Corpus-Adaptive-E"
+title: "Record a40c697f8c · Finding-the-Right-Tables-and-Columns-A-Benchmark-an"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.038565+00:00
+updated_at: 2026-09-13T00:56:37.863090+00:00
 tags: [record, real-data]
 ---
 
-# Record a40c697f8c · Finding-the-Right-Tables-and-Columns-A-Benchmark-and-Corpus-Adaptive-E
+# Record a40c697f8c · Finding-the-Right-Tables-and-Columns-A-Benchmark-an
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7169633292)
 

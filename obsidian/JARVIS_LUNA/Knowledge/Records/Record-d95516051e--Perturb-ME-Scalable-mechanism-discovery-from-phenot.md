@@ -1,12 +1,12 @@
 ---
-title: "Record d95516051e · Perturb-ME-Scalable-mechanism-discovery-from-phenotype-enriched-genome"
+title: "Record d95516051e · Perturb-ME-Scalable-mechanism-discovery-from-phenot"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.733652+00:00
+updated_at: 2026-09-13T00:56:37.577628+00:00
 tags: [record, real-data]
 ---
 
-# Record d95516051e · Perturb-ME-Scalable-mechanism-discovery-from-phenotype-enriched-genome
+# Record d95516051e · Perturb-ME-Scalable-mechanism-discovery-from-phenot
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.64898/2026.08.17.745330)
 

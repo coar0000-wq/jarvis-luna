@@ -1,12 +1,12 @@
 ---
-title: "Record b0129e4688 · Olive-Young-Opens-In-Los-Angeles-With-New-K-Beauty-Stores---Forbes"
+title: "Record b0129e4688 · Olive-Young-Opens-In-Los-Angeles-With-New-K-Beauty-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.975722+00:00
+updated_at: 2026-09-13T00:56:37.804364+00:00
 tags: [record, real-data]
 ---
 
-# Record b0129e4688 · Olive-Young-Opens-In-Los-Angeles-With-New-K-Beauty-Stores---Forbes
+# Record b0129e4688 · Olive-Young-Opens-In-Los-Angeles-With-New-K-Beauty-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiswFBVV95cUxPdEhBQ1VvY2M1TTU1ZnBsb1diTlNGMnhwUzVuT09EVjlWM1pTTGJLWFQ5R0kxeHVxRnA2TWwtY1UydGN3NEVkbFpOcU1ySldZSk45OXFHeUY3V1dpMEZKem42RmtUcFNKbUhBZUU3QlJwY3hTWlU4Mi1NV3c3bU9xRnFJZ2xoVHIyRXMtTUpNTDV6elNUYnc1Q1VLb19RanFHR3BpQVlEYWpRYWVLajFFbTV5VQ?oc=5)
 

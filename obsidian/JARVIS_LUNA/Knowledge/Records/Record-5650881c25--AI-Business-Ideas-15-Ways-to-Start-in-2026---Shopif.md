@@ -1,12 +1,12 @@
 ---
-title: "Record 5650881c25 · AI-Business-Ideas-15-Ways-to-Start-in-2026---Shopify"
+title: "Record 5650881c25 · AI-Business-Ideas-15-Ways-to-Start-in-2026---Shopif"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.795881+00:00
+updated_at: 2026-09-13T00:56:37.635476+00:00
 tags: [record, real-data]
 ---
 
-# Record 5650881c25 · AI-Business-Ideas-15-Ways-to-Start-in-2026---Shopify
+# Record 5650881c25 · AI-Business-Ideas-15-Ways-to-Start-in-2026---Shopif
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiWkFVX3lxTE5lSWZmcDR2dzJZbG1zSkxkWFlGRWxlSjJGZ2MyNWxkYTI4NHRSTmNOLUlOd1h1cGlpODdNZTlMOXk3d3B5cHZUcjdRVWswNkh2cjdQVjk5LWxoUQ?oc=5)
 

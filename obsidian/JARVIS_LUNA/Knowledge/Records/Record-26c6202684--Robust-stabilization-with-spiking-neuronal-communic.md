@@ -1,12 +1,12 @@
 ---
-title: "Record 26c6202684 · Robust-stabilization-with-spiking-neuronal-communication"
+title: "Record 26c6202684 · Robust-stabilization-with-spiking-neuronal-communic"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.498689+00:00
+updated_at: 2026-09-13T00:56:37.365346+00:00
 tags: [record, real-data]
 ---
 
-# Record 26c6202684 · Robust-stabilization-with-spiking-neuronal-communication
+# Record 26c6202684 · Robust-stabilization-with-spiking-neuronal-communic
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.05054v1)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record e0dee6c8c5 · Multi-Robot-Scanner-for-Automated-Full-Body-Dermoscopic-Imaging"
+title: "Record e0dee6c8c5 · Multi-Robot-Scanner-for-Automated-Full-Body-Dermosc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.533344+00:00
+updated_at: 2026-09-13T00:56:37.397049+00:00
 tags: [record, real-data]
 ---
 
-# Record e0dee6c8c5 · Multi-Robot-Scanner-for-Automated-Full-Body-Dermoscopic-Imaging
+# Record e0dee6c8c5 · Multi-Robot-Scanner-for-Automated-Full-Body-Dermosc
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.10169v1)
 

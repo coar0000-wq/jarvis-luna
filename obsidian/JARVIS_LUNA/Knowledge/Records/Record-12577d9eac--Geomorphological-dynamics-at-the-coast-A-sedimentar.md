@@ -1,12 +1,12 @@
 ---
-title: "Record 12577d9eac · Geomorphological-dynamics-at-the-coast-A-sedimentary-stratigraphy-for-"
+title: "Record 12577d9eac · Geomorphological-dynamics-at-the-coast-A-sedimentar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.599213+00:00
+updated_at: 2026-09-13T00:56:37.461603+00:00
 tags: [record, real-data]
 ---
 
-# Record 12577d9eac · Geomorphological-dynamics-at-the-coast-A-sedimentary-stratigraphy-for-
+# Record 12577d9eac · Geomorphological-dynamics-at-the-coast-A-sedimentar
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.quaint.2026.110434)
 

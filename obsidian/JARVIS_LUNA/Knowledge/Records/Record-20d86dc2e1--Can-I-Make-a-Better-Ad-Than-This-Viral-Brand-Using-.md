@@ -1,12 +1,12 @@
 ---
-title: "Record 20d86dc2e1 · Can-I-Make-a-Better-Ad-Than-This-Viral-Brand-Using-AI"
+title: "Record 20d86dc2e1 · Can-I-Make-a-Better-Ad-Than-This-Viral-Brand-Using-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.200917+00:00
+updated_at: 2026-09-13T00:56:38.002569+00:00
 tags: [record, real-data]
 ---
 
-# Record 20d86dc2e1 · Can-I-Make-a-Better-Ad-Than-This-Viral-Brand-Using-AI
+# Record 20d86dc2e1 · Can-I-Make-a-Better-Ad-Than-This-Viral-Brand-Using-
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/shorts/dB4ufNwn1kE)
 

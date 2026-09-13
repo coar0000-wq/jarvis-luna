@@ -1,12 +1,12 @@
 ---
-title: "Record ee0357f26d · Anne-Hathaways-Matchy-Matchy-Red-Lips-and-Nails-Are-Falls-Most-Glamoro"
+title: "Record ee0357f26d · Anne-Hathaways-Matchy-Matchy-Red-Lips-and-Nails-Are"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.080707+00:00
+updated_at: 2026-09-13T00:56:37.899672+00:00
 tags: [record, real-data]
 ---
 
-# Record ee0357f26d · Anne-Hathaways-Matchy-Matchy-Red-Lips-and-Nails-Are-Falls-Most-Glamoro
+# Record ee0357f26d · Anne-Hathaways-Matchy-Matchy-Red-Lips-and-Nails-Are
 
 > 실제 수집 레코드입니다. 원문: [www.allure.com](https://www.allure.com/story/anne-hathaway-red-lipstick-red-nails)
 

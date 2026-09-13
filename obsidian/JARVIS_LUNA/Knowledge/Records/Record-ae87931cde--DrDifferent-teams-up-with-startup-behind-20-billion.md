@@ -1,12 +1,12 @@
 ---
-title: "Record ae87931cde · DrDifferent-teams-up-with-startup-behind-20-billion-won-deal-to-break-"
+title: "Record ae87931cde · DrDifferent-teams-up-with-startup-behind-20-billion"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.789804+00:00
+updated_at: 2026-09-13T00:56:37.629834+00:00
 tags: [record, real-data]
 ---
 
-# Record ae87931cde · DrDifferent-teams-up-with-startup-behind-20-billion-won-deal-to-break-
+# Record ae87931cde · DrDifferent-teams-up-with-startup-behind-20-billion
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiVEFVX3lxTE0xOVVoZV9tRDVjQUlyWmRJb1VMUzNLeExRb0prX3QteFJ6anA2bGFFb3NGUFB2VXlaX0UxVndQREMtX1RrWS1jcVdzOVVHQmZ6ejZxVw?oc=5)
 

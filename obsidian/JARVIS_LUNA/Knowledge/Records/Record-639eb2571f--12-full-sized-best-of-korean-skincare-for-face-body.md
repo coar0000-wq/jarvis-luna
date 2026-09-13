@@ -1,12 +1,12 @@
 ---
-title: "Record 639eb2571f · 12-full-sized-best-of-korean-skincare-for-face-body-hair-with-63-disco"
+title: "Record 639eb2571f · 12-full-sized-best-of-korean-skincare-for-face-body"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.225555+00:00
+updated_at: 2026-09-13T00:56:38.025637+00:00
 tags: [record, real-data]
 ---
 
-# Record 639eb2571f · 12-full-sized-best-of-korean-skincare-for-face-body-hair-with-63-disco
+# Record 639eb2571f · 12-full-sized-best-of-korean-skincare-for-face-body
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/watch?v=hEVrSm-Also)
 

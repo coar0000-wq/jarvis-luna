@@ -1,12 +1,12 @@
 ---
-title: "Record 79afe0743b · Shopify-Wants-To-Be-Merchants-Built-in-AI-Agency---ADWEEK"
+title: "Record 79afe0743b · Shopify-Wants-To-Be-Merchants-Built-in-AI-Agency---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.904934+00:00
+updated_at: 2026-09-13T00:56:37.739524+00:00
 tags: [record, real-data]
 ---
 
-# Record 79afe0743b · Shopify-Wants-To-Be-Merchants-Built-in-AI-Agency---ADWEEK
+# Record 79afe0743b · Shopify-Wants-To-Be-Merchants-Built-in-AI-Agency---
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVjFvRFlHS3ZPelZFemxCSEQ5bnplUWFBN0JEV25mQmR2SkNZSWxGVHlScmxJbjFka0NjOFZXSXNfQlEzQmtZS1U2aXZIWFVXdDhEUmhiR0VVNEZsd0E4Y3BYQ19oQTZfeXVxLVNOWGoxdHNaUjU2Z01jbENtanVXVUV3MFFBdHJr?oc=5)
 

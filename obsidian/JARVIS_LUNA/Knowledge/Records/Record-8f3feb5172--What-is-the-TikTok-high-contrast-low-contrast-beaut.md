@@ -1,12 +1,12 @@
 ---
-title: "Record 8f3feb5172 · What-is-the-TikTok-high-contrast-low-contrast-beauty-trend-A-makeup-ar"
+title: "Record 8f3feb5172 · What-is-the-TikTok-high-contrast-low-contrast-beaut"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.954550+00:00
+updated_at: 2026-09-13T00:56:37.785045+00:00
 tags: [record, real-data]
 ---
 
-# Record 8f3feb5172 · What-is-the-TikTok-high-contrast-low-contrast-beauty-trend-A-makeup-ar
+# Record 8f3feb5172 · What-is-the-TikTok-high-contrast-low-contrast-beaut
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiowFBVV95cUxPMHhCZDluNGFNZFhYOHoxZWhGTHZ6a25pZFVQMmJYdmw2dUctRTctdmZWLTJFSnhqM2M4bmdDTjEwMlVTdTBmcTZlcFhHVHFFQlYtQ0JqVFBQTHZnVnpnWENIektwYTMzcGlucEZTOWpOckFxNGYyejlldm56MjR5OVBlZUkzRXh3NmJ3NURBN2RtV2tVejlEOXd1aVhZd2pvSU1R?oc=5)
 

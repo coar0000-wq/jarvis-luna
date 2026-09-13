@@ -1,12 +1,12 @@
 ---
-title: "Record 7db995c30f · Mistral-raises-3B-to-make-sovereign-open-weight-AI-the-technology-fron"
+title: "Record 7db995c30f · Mistral-raises-3B-to-make-sovereign-open-weight-AI-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.769112+00:00
+updated_at: 2026-09-13T00:56:37.610185+00:00
 tags: [record, real-data]
 ---
 
-# Record 7db995c30f · Mistral-raises-3B-to-make-sovereign-open-weight-AI-the-technology-fron
+# Record 7db995c30f · Mistral-raises-3B-to-make-sovereign-open-weight-AI-
 
 > 실제 수집 레코드입니다. 원문: [mistral.ai](https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 9a355102d7 · Pomegranate-Makeup-Is-The-Must-Try-TikTok-Beauty-Trend-This-Summer---L"
+title: "Record 9a355102d7 · Pomegranate-Makeup-Is-The-Must-Try-TikTok-Beauty-Tr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.983350+00:00
+updated_at: 2026-09-13T00:56:37.811335+00:00
 tags: [record, real-data]
 ---
 
-# Record 9a355102d7 · Pomegranate-Makeup-Is-The-Must-Try-TikTok-Beauty-Trend-This-Summer---L
+# Record 9a355102d7 · Pomegranate-Makeup-Is-The-Must-Try-TikTok-Beauty-Tr
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMivwFBVV95cUxPVk45dUdSR3o1d3JVamF4Z1Z2eW5fbXN2dF84RnlSM2N2X0NieVFjdDhGRWxoalktLS02UkpIRl9LTmU0NTRtVm1xOTNLNk9uUDBKblJ3aGxpQlo2MUl0cnc0aE5iNjI0Y0FfUXV4cUdRVkttcjl3Xy1uWHJVdS1CSUhybVI3RDNxUWpUaXlLT2xWbzRJcmNGbmo0bkRVR2NhczVhVVBJbWc0WlFZUlNZaWxOQ1lyUkpzbV9NcVNCRQ?oc=5)
 

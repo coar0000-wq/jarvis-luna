@@ -1,12 +1,12 @@
 ---
-title: "Record 048eae158e · Sephora-is-at-the-center-of-TikTok-beauty-trendsand-the-CEO-says-its-n"
+title: "Record 048eae158e · Sephora-is-at-the-center-of-TikTok-beauty-trendsand"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.901094+00:00
+updated_at: 2026-09-13T00:56:37.735958+00:00
 tags: [record, real-data]
 ---
 
-# Record 048eae158e · Sephora-is-at-the-center-of-TikTok-beauty-trendsand-the-CEO-says-its-n
+# Record 048eae158e · Sephora-is-at-the-center-of-TikTok-beauty-trendsand
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMihwFBVV95cUxPTFJKUnRTOGFieXpyYnBOQ0FFRVNBMzBQSXR0NDhPWGR5SUxqX0JQQjljTFNJMjdVeEt2bk9mSHpBVGYtTGJLWWczeDZRYlBIeHE4OGNEU1c2VzhnSlFCbkxJZEtsSDNheTh5V0d6Mi1STE5CUW4wMmZuZDRtSXdib294Z0VuWU0?oc=5)
 

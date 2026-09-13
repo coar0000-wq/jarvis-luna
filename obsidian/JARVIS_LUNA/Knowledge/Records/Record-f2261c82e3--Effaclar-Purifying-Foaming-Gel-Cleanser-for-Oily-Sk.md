@@ -1,12 +1,12 @@
 ---
-title: "Record f2261c82e3 · Effaclar-Purifying-Foaming-Gel-Cleanser-for-Oily-Skin"
+title: "Record f2261c82e3 · Effaclar-Purifying-Foaming-Gel-Cleanser-for-Oily-Sk"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.073029+00:00
+updated_at: 2026-09-13T00:56:37.893528+00:00
 tags: [record, real-data]
 ---
 
-# Record f2261c82e3 · Effaclar-Purifying-Foaming-Gel-Cleanser-for-Oily-Skin
+# Record f2261c82e3 · Effaclar-Purifying-Foaming-Gel-Cleanser-for-Oily-Sk
 
 > 실제 수집 레코드입니다. 원문: [world.openbeautyfacts.org](https://world.openbeautyfacts.org/product/3337872411083)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record c7ff73165c · Wtf-is-Bimbo-Stoicism-Unpacking-the-internets-wildest-new-beauty-trend"
+title: "Record c7ff73165c · Wtf-is-Bimbo-Stoicism-Unpacking-the-internets-wilde"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.990032+00:00
+updated_at: 2026-09-13T00:56:37.817550+00:00
 tags: [record, real-data]
 ---
 
-# Record c7ff73165c · Wtf-is-Bimbo-Stoicism-Unpacking-the-internets-wildest-new-beauty-trend
+# Record c7ff73165c · Wtf-is-Bimbo-Stoicism-Unpacking-the-internets-wilde
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiywFBVV95cUxObWJveW8xUlFtX1c5bC1fbjUwZEVqdDRGN0NJUHE4cWJZYUVVcmxzMkRldTlwZ2lKQnRlUzM5MFNPeGZVVE9oSGpyZXUtbmtUUkhYU0JPdzFYTmpqZmJVOHMzYTgzT3VyOTZzTVpqQlF5c0tNTm4zTHpwM0xPT3ZCdUhreHFUZkNfWEJ0ZE5kV3dEZmVwblloWmN1WEd4UXI0R0F5eWNFeDJMR2ZIZVYtMXNrTXR1VzRHeTc3LWtsMUdyM2pOWmJpc2xkVQ?oc=5)
 

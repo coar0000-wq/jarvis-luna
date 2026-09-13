@@ -1,12 +1,12 @@
 ---
-title: "Record 7cdcfd65a4 · A-verified-durable-transactional-mutex-lock-for-persistent-x86-TSO"
+title: "Record 7cdcfd65a4 · A-verified-durable-transactional-mutex-lock-for-per"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.582317+00:00
+updated_at: 2026-09-13T00:56:37.446453+00:00
 tags: [record, real-data]
 ---
 
-# Record 7cdcfd65a4 · A-verified-durable-transactional-mutex-lock-for-persistent-x86-TSO
+# Record 7cdcfd65a4 · A-verified-durable-transactional-mutex-lock-for-per
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1007/s10703-024-00462-1)
 

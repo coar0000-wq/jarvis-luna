@@ -1,12 +1,12 @@
 ---
-title: "Record d62379e05e · Enabling-ImageNet-Scale-Deep-Learning-on-MCUs-for-Accurate-and-Efficie"
+title: "Record d62379e05e · Enabling-ImageNet-Scale-Deep-Learning-on-MCUs-for-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.635097+00:00
+updated_at: 2026-09-13T00:56:37.494571+00:00
 tags: [record, real-data]
 ---
 
-# Record d62379e05e · Enabling-ImageNet-Scale-Deep-Learning-on-MCUs-for-Accurate-and-Efficie
+# Record d62379e05e · Enabling-ImageNet-Scale-Deep-Learning-on-MCUs-for-A
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1109/jiot.2023.3331654)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 815db2ca99 · Parameterized-Complexity-of-L_p-Lipschitz-Constants-for-Input-Convex-N"
+title: "Record 815db2ca99 · Parameterized-Complexity-of-L_p-Lipschitz-Constants"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.264401+00:00
+updated_at: 2026-09-13T00:56:38.059406+00:00
 tags: [record, real-data]
 ---
 
-# Record 815db2ca99 · Parameterized-Complexity-of-L_p-Lipschitz-Constants-for-Input-Convex-N
+# Record 815db2ca99 · Parameterized-Complexity-of-L_p-Lipschitz-Constants
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.24865v1)
 

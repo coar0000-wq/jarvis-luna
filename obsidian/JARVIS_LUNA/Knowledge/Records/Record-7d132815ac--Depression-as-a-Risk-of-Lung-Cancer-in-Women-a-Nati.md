@@ -1,12 +1,12 @@
 ---
-title: "Record 7d132815ac · Depression-as-a-Risk-of-Lung-Cancer-in-Women-a-Nationwide-Cohort-Study"
+title: "Record 7d132815ac · Depression-as-a-Risk-of-Lung-Cancer-in-Women-a-Nati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.697017+00:00
+updated_at: 2026-09-13T00:56:37.546472+00:00
 tags: [record, real-data]
 ---
 
-# Record 7d132815ac · Depression-as-a-Risk-of-Lung-Cancer-in-Women-a-Nationwide-Cohort-Study
+# Record 7d132815ac · Depression-as-a-Risk-of-Lung-Cancer-in-Women-a-Nati
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.4046/trd.2026.0108)
 

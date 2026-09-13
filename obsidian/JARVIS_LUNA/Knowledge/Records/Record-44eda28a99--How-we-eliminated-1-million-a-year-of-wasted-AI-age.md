@@ -1,12 +1,12 @@
 ---
-title: "Record 44eda28a99 · How-we-eliminated-1-million-a-year-of-wasted-AI-agent-spend-in-one-hou"
+title: "Record 44eda28a99 · How-we-eliminated-1-million-a-year-of-wasted-AI-age"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.126623+00:00
+updated_at: 2026-09-13T00:56:37.942515+00:00
 tags: [record, real-data]
 ---
 
-# Record 44eda28a99 · How-we-eliminated-1-million-a-year-of-wasted-AI-agent-spend-in-one-hou
+# Record 44eda28a99 · How-we-eliminated-1-million-a-year-of-wasted-AI-age
 
 > 실제 수집 레코드입니다. 원문: [www.databricks.com](https://www.databricks.com/blog/how-we-eliminated-1-million-year-wasted-ai-agent-spend-one-hour)
 

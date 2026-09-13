@@ -1,12 +1,12 @@
 ---
-title: "Record 2f6f02b98f · Spectroscopy-of-the-Hyperfine-Structure-of-HD-in-Rotationally-Excited-"
+title: "Record 2f6f02b98f · Spectroscopy-of-the-Hyperfine-Structure-of-HD-in-Ro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.043825+00:00
+updated_at: 2026-09-13T00:56:37.867781+00:00
 tags: [record, real-data]
 ---
 
-# Record 2f6f02b98f · Spectroscopy-of-the-Hyperfine-Structure-of-HD-in-Rotationally-Excited-
+# Record 2f6f02b98f · Spectroscopy-of-the-Hyperfine-Structure-of-HD-in-Ro
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7172557097)
 

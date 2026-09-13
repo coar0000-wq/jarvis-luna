@@ -1,12 +1,12 @@
 ---
-title: "Record 677c480a9f · Automation-and-Orchestration-in-NVMe-over-Fibre-Channel-Environments-A"
+title: "Record 677c480a9f · Automation-and-Orchestration-in-NVMe-over-Fibre-Cha"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.681211+00:00
+updated_at: 2026-09-13T00:56:37.533574+00:00
 tags: [record, real-data]
 ---
 
-# Record 677c480a9f · Automation-and-Orchestration-in-NVMe-over-Fibre-Channel-Environments-A
+# Record 677c480a9f · Automation-and-Orchestration-in-NVMe-over-Fibre-Cha
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.30574/wjaets.2025.15.3.1096)
 

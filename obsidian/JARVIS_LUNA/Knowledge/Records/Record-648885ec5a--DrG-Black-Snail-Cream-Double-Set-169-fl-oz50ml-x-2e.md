@@ -1,12 +1,12 @@
 ---
-title: "Record 648885ec5a · DrG-Black-Snail-Cream-Double-Set-169-fl-oz50ml-x-2ea--051-fl-oz15ml"
+title: "Record 648885ec5a · DrG-Black-Snail-Cream-Double-Set-169-fl-oz50ml-x-2e"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.058865+00:00
+updated_at: 2026-09-13T00:56:37.881346+00:00
 tags: [record, real-data]
 ---
 
-# Record 648885ec5a · DrG-Black-Snail-Cream-Double-Set-169-fl-oz50ml-x-2ea--051-fl-oz15ml
+# Record 648885ec5a · DrG-Black-Snail-Cream-Double-Set-169-fl-oz50ml-x-2e
 
 > 실제 수집 레코드입니다. 원문: [us.oliveyoung.com](https://us.oliveyoung.com/products/UA23034032)
 

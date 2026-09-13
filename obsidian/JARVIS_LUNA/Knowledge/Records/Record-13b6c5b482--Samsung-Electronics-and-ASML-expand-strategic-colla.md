@@ -1,12 +1,12 @@
 ---
-title: "Record 13b6c5b482 · Samsung-Electronics-and-ASML-expand-strategic-collaboration-for-next-g"
+title: "Record 13b6c5b482 · Samsung-Electronics-and-ASML-expand-strategic-colla"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.115314+00:00
+updated_at: 2026-09-13T00:56:37.932355+00:00
 tags: [record, real-data]
 ---
 
-# Record 13b6c5b482 · Samsung-Electronics-and-ASML-expand-strategic-collaboration-for-next-g
+# Record 13b6c5b482 · Samsung-Electronics-and-ASML-expand-strategic-colla
 
 > 실제 수집 레코드입니다. 원문: [www.asml.com](https://www.asml.com/en/news/press-releases/2026/samsung-electronics-and-asml-expand-collaboration-on-next-generation-semiconductor-manufacturing)
 

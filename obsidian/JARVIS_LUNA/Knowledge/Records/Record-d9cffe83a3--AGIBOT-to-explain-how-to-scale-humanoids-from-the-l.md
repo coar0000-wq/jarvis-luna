@@ -1,12 +1,12 @@
 ---
-title: "Record d9cffe83a3 · AGIBOT-to-explain-how-to-scale-humanoids-from-the-lab-to-the-real-worl"
+title: "Record d9cffe83a3 · AGIBOT-to-explain-how-to-scale-humanoids-from-the-l"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.169859+00:00
+updated_at: 2026-09-13T00:56:37.977751+00:00
 tags: [record, real-data]
 ---
 
-# Record d9cffe83a3 · AGIBOT-to-explain-how-to-scale-humanoids-from-the-lab-to-the-real-worl
+# Record d9cffe83a3 · AGIBOT-to-explain-how-to-scale-humanoids-from-the-l
 
 > 실제 수집 레코드입니다. 원문: [www.therobotreport.com](https://www.therobotreport.com/agibot-share-plans-scale-humanoids-from-lab-to-real-world-at-robobusiness/)
 

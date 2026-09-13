@@ -1,12 +1,12 @@
 ---
-title: "Record 82c38bdced · The-Biggest-Threat-to-Amazons-E-Commerce-Business---Brownstone-Researc"
+title: "Record 82c38bdced · The-Biggest-Threat-to-Amazons-E-Commerce-Business--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.950674+00:00
+updated_at: 2026-09-13T00:56:37.781523+00:00
 tags: [record, real-data]
 ---
 
-# Record 82c38bdced · The-Biggest-Threat-to-Amazons-E-Commerce-Business---Brownstone-Researc
+# Record 82c38bdced · The-Biggest-Threat-to-Amazons-E-Commerce-Business--
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMioAFBVV95cUxOamZLaGI0U0FRSlFQbmlVVFJzSUI0YkhoV0pocGE0bXMxRWU5ck1jb01LVlhXQmY1TWctSlpoMkhfNUxjN0FRN3kyWF9IY1AzNlBrck9yUmpfZHpldW9Od0JjUkpMaV9XaWdDeHVQR240VXJ3bldJYV9tcUk5eEdZbS1mMkl1RXljenMtcEkwLVozVmltYkF6ZHlFelllbkdp?oc=5)
 

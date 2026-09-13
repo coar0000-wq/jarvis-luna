@@ -1,12 +1,12 @@
 ---
-title: "Record fb84422475 · OracleZoom-On-Policy-Self-Distillation-Inspired-Reference-Constrained-"
+title: "Record fb84422475 · OracleZoom-On-Policy-Self-Distillation-Inspired-Ref"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.511624+00:00
+updated_at: 2026-09-13T00:56:37.377083+00:00
 tags: [record, real-data]
 ---
 
-# Record fb84422475 · OracleZoom-On-Policy-Self-Distillation-Inspired-Reference-Constrained-
+# Record fb84422475 · OracleZoom-On-Policy-Self-Distillation-Inspired-Ref
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.06490v1)
 

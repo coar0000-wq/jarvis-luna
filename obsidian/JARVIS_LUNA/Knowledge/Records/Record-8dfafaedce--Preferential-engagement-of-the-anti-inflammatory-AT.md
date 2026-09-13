@@ -1,12 +1,12 @@
 ---
-title: "Record 8dfafaedce · Preferential-engagement-of-the-anti-inflammatory-ATPadenosine-axis-by-"
+title: "Record 8dfafaedce · Preferential-engagement-of-the-anti-inflammatory-AT"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.603712+00:00
+updated_at: 2026-09-13T00:56:37.465696+00:00
 tags: [record, real-data]
 ---
 
-# Record 8dfafaedce · Preferential-engagement-of-the-anti-inflammatory-ATPadenosine-axis-by-
+# Record 8dfafaedce · Preferential-engagement-of-the-anti-inflammatory-AT
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.xcrm.2026.103022)
 

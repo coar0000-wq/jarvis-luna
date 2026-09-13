@@ -1,12 +1,12 @@
 ---
-title: "Record 94bdde7d63 · Perplexity-Shopping-How-to-Optimize-Your-Store-for-AI---Shopify"
+title: "Record 94bdde7d63 · Perplexity-Shopping-How-to-Optimize-Your-Store-for-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.808293+00:00
+updated_at: 2026-09-13T00:56:37.646537+00:00
 tags: [record, real-data]
 ---
 
-# Record 94bdde7d63 · Perplexity-Shopping-How-to-Optimize-Your-Store-for-AI---Shopify
+# Record 94bdde7d63 · Perplexity-Shopping-How-to-Optimize-Your-Store-for-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ickZVV0lscHJOVGJFbVVjVWxFUFIzZ2xvTjdXWXNJcDdPTlRZbWtsNVpkMnNxTEt2bkpGdlRNeW5mSTNjQURRWUJmUEVQSVhuWTMyYi0wX0hLVUwxX2RxMA?oc=5)
 

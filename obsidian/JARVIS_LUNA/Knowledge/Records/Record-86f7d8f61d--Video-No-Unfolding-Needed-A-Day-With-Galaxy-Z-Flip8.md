@@ -1,12 +1,12 @@
 ---
-title: "Record 86f7d8f61d · Video-No-Unfolding-Needed-A-Day-With-Galaxy-Z-Flip8s-FlexWindow"
+title: "Record 86f7d8f61d · Video-No-Unfolding-Needed-A-Day-With-Galaxy-Z-Flip8"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.001224+00:00
+updated_at: 2026-09-13T00:56:37.827806+00:00
 tags: [record, real-data]
 ---
 
-# Record 86f7d8f61d · Video-No-Unfolding-Needed-A-Day-With-Galaxy-Z-Flip8s-FlexWindow
+# Record 86f7d8f61d · Video-No-Unfolding-Needed-A-Day-With-Galaxy-Z-Flip8
 
 > 실제 수집 레코드입니다. 원문: [news.samsung.com](https://news.samsung.com/global/video-no-unfolding-needed-a-day-with-galaxy-z-flip8s-flexwindow)
 

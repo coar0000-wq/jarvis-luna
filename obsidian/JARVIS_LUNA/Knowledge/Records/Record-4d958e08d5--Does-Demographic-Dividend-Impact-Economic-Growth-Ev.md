@@ -1,12 +1,12 @@
 ---
-title: "Record 4d958e08d5 · Does-Demographic-Dividend-Impact-Economic-Growth-Evidence-from-G-20-Co"
+title: "Record 4d958e08d5 · Does-Demographic-Dividend-Impact-Economic-Growth-Ev"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.654857+00:00
+updated_at: 2026-09-13T00:56:37.511983+00:00
 tags: [record, real-data]
 ---
 
-# Record 4d958e08d5 · Does-Demographic-Dividend-Impact-Economic-Growth-Evidence-from-G-20-Co
+# Record 4d958e08d5 · Does-Demographic-Dividend-Impact-Economic-Growth-Ev
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1177/00194662261457512)
 

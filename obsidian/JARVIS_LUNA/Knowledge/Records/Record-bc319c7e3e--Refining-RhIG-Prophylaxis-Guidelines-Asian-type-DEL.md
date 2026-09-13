@@ -1,12 +1,12 @@
 ---
-title: "Record bc319c7e3e · Refining-RhIG-Prophylaxis-Guidelines-Asian-type-DEL-as-RhD-Positive-an"
+title: "Record bc319c7e3e · Refining-RhIG-Prophylaxis-Guidelines-Asian-type-DEL"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.683066+00:00
+updated_at: 2026-09-13T00:56:37.535090+00:00
 tags: [record, real-data]
 ---
 
-# Record bc319c7e3e · Refining-RhIG-Prophylaxis-Guidelines-Asian-type-DEL-as-RhD-Positive-an
+# Record bc319c7e3e · Refining-RhIG-Prophylaxis-Guidelines-Asian-type-DEL
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.3343/alm.2026.0264)
 

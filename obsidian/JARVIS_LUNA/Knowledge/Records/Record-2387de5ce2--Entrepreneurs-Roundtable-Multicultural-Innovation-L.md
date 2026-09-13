@@ -1,12 +1,12 @@
 ---
-title: "Record 2387de5ce2 · Entrepreneurs-Roundtable-Multicultural-Innovation-Lab-2018"
+title: "Record 2387de5ce2 · Entrepreneurs-Roundtable-Multicultural-Innovation-L"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.150322+00:00
+updated_at: 2026-09-13T00:56:37.962219+00:00
 tags: [record, real-data]
 ---
 
-# Record 2387de5ce2 · Entrepreneurs-Roundtable-Multicultural-Innovation-Lab-2018
+# Record 2387de5ce2 · Entrepreneurs-Roundtable-Multicultural-Innovation-L
 
 > 실제 수집 레코드입니다. 원문: [www.morganstanley.com](https://www.morganstanley.com/ideas/entrepreneurs-roundtable-multicultural-innovation-lab-2018)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 78bd078031 · Inbolt-to-discuss-physical-AIs-deployment-problem-at-RoboBusiness"
+title: "Record 78bd078031 · Inbolt-to-discuss-physical-AIs-deployment-problem-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.175797+00:00
+updated_at: 2026-09-13T00:56:37.982065+00:00
 tags: [record, real-data]
 ---
 
-# Record 78bd078031 · Inbolt-to-discuss-physical-AIs-deployment-problem-at-RoboBusiness
+# Record 78bd078031 · Inbolt-to-discuss-physical-AIs-deployment-problem-a
 
 > 실제 수집 레코드입니다. 원문: [www.therobotreport.com](https://www.therobotreport.com/inbolt-ceo-to-discuss-physical-ais-deployment-problem-at-robobusiness/)
 

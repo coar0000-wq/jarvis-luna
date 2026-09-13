@@ -1,12 +1,12 @@
 ---
-title: "Record 0972f8ace5 · JetSenseai-Launches-TextChat-The-Only-Ecommerce-Sales-Tool-That-Turns-"
+title: "Record 0972f8ace5 · JetSenseai-Launches-TextChat-The-Only-Ecommerce-Sal"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.777588+00:00
+updated_at: 2026-09-13T00:56:37.618492+00:00
 tags: [record, real-data]
 ---
 
-# Record 0972f8ace5 · JetSenseai-Launches-TextChat-The-Only-Ecommerce-Sales-Tool-That-Turns-
+# Record 0972f8ace5 · JetSenseai-Launches-TextChat-The-Only-Ecommerce-Sal
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMi4wFBVV95cUxPbmNjUVN2SW55WHplbURsVmlTbDlhU2NQY2lUSWIyRHRVVWlkeW1KU3hacDQ2VVN1N0IxWTRUUFROd2M2bW5YcFNhTkxheUdNTU1LRGtSb2IxUEF6MkdvQ2JkSkRtY0FTbWw5ZHZub2FnUmkzR3F0UnN4ZXIybmpRcER4a1VCUklYMUU3WFprQVZSQVFpWHc3RjBNcFRvQU9yNGVvelJ3NWgwWTVxem1JSDdmVktfSEtoYWt3WTVtbEE4OFdHT1F5aERWSnBFODNaZ1k2OVI2Nk94VHRwUTNWc2pjNA?oc=5)
 

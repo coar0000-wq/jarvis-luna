@@ -1,12 +1,12 @@
 ---
-title: "Record b9785eb3e0 · An-Inductive-Load-Modulated-Multiband-Phase-Shifter-With-038012-dB-RMS"
+title: "Record b9785eb3e0 · An-Inductive-Load-Modulated-Multiband-Phase-Shifter"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.638568+00:00
+updated_at: 2026-09-13T00:56:37.497746+00:00
 tags: [record, real-data]
 ---
 
-# Record b9785eb3e0 · An-Inductive-Load-Modulated-Multiband-Phase-Shifter-With-038012-dB-RMS
+# Record b9785eb3e0 · An-Inductive-Load-Modulated-Multiband-Phase-Shifter
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1109/lssc.2026.3694867)
 

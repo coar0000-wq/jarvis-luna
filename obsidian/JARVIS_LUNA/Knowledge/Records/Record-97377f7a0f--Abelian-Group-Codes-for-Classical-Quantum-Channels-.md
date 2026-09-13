@@ -1,12 +1,12 @@
 ---
-title: "Record 97377f7a0f · Abelian-Group-Codes-for-Classical-Quantum-Channels-One-Shot-and-Asympt"
+title: "Record 97377f7a0f · Abelian-Group-Codes-for-Classical-Quantum-Channels-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.642390+00:00
+updated_at: 2026-09-13T00:56:37.501304+00:00
 tags: [record, real-data]
 ---
 
-# Record 97377f7a0f · Abelian-Group-Codes-for-Classical-Quantum-Channels-One-Shot-and-Asympt
+# Record 97377f7a0f · Abelian-Group-Codes-for-Classical-Quantum-Channels-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1109/tit.2026.3687161)
 

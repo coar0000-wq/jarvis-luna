@@ -1,12 +1,12 @@
 ---
-title: "Record 69d83e3e19 · Multi-Agent-Tourism-Support-Systems-MATSS-a-SOR-CLT-perspective-on-tra"
+title: "Record 69d83e3e19 · Multi-Agent-Tourism-Support-Systems-MATSS-a-SOR-CLT"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.622870+00:00
+updated_at: 2026-09-13T00:56:37.483248+00:00
 tags: [record, real-data]
 ---
 
-# Record 69d83e3e19 · Multi-Agent-Tourism-Support-Systems-MATSS-a-SOR-CLT-perspective-on-tra
+# Record 69d83e3e19 · Multi-Agent-Tourism-Support-Systems-MATSS-a-SOR-CLT
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1080/13683500.2026.2729832)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record c3be40277b · Clean-Engineering-Unstable-Measurement-A-Preregistered-Reliability-Fai"
+title: "Record c3be40277b · Clean-Engineering-Unstable-Measurement-A-Preregiste"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.492769+00:00
+updated_at: 2026-09-13T00:56:37.360037+00:00
 tags: [record, real-data]
 ---
 
-# Record c3be40277b · Clean-Engineering-Unstable-Measurement-A-Preregistered-Reliability-Fai
+# Record c3be40277b · Clean-Engineering-Unstable-Measurement-A-Preregiste
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.04198v1)
 

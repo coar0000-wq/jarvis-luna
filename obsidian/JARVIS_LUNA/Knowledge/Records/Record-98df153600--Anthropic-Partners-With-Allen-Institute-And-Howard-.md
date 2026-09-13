@@ -1,12 +1,12 @@
 ---
-title: "Record 98df153600 · Anthropic-Partners-With-Allen-Institute-And-Howard-Hughes-Medical-Inst"
+title: "Record 98df153600 · Anthropic-Partners-With-Allen-Institute-And-Howard-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.097106+00:00
+updated_at: 2026-09-13T00:56:37.912854+00:00
 tags: [record, real-data]
 ---
 
-# Record 98df153600 · Anthropic-Partners-With-Allen-Institute-And-Howard-Hughes-Medical-Inst
+# Record 98df153600 · Anthropic-Partners-With-Allen-Institute-And-Howard-
 
 > 실제 수집 레코드입니다. 원문: [www.anthropic.com](https://www.anthropic.com/news/anthropic-partners-with-allen-institute-and-howard-hughes-medical-institute)
 

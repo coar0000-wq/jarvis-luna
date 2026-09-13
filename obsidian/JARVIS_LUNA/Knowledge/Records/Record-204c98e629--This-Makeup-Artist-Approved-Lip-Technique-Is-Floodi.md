@@ -1,12 +1,12 @@
 ---
-title: "Record 204c98e629 · This-Makeup-Artist-Approved-Lip-Technique-Is-Flooding-Our-TikTok-Feeds"
+title: "Record 204c98e629 · This-Makeup-Artist-Approved-Lip-Technique-Is-Floodi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.962901+00:00
+updated_at: 2026-09-13T00:56:37.792699+00:00
 tags: [record, real-data]
 ---
 
-# Record 204c98e629 · This-Makeup-Artist-Approved-Lip-Technique-Is-Flooding-Our-TikTok-Feeds
+# Record 204c98e629 · This-Makeup-Artist-Approved-Lip-Technique-Is-Floodi
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYWVSMlQtUFRVak5EVDR2TGkxSWJnYVdFX1hZc1NEcmp5T2RXY2I3SmRrRUk0TUlaa0lodE0tSS1FRl96cGdoRzMteERaQ3FROElycXFEM2gxVDdFb2pSeWxSbkh3dVRfMG42N3dVVjU1Z2ZZdUNnRnM0TTE1LW1NQjFaVmZ0ME8tSmkxd3duclBKeVhIdWNPalNUSXhwUFgwVHhpZWRERmdCZw?oc=5)
 

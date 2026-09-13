@@ -1,12 +1,12 @@
 ---
-title: "Record ff1d5955c4 · ICE-arrests-20152026-Variation-in-targeting-method-and-geography"
+title: "Record ff1d5955c4 · ICE-arrests-20152026-Variation-in-targeting-method-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.620326+00:00
+updated_at: 2026-09-13T00:56:37.480922+00:00
 tags: [record, real-data]
 ---
 
-# Record ff1d5955c4 · ICE-arrests-20152026-Variation-in-targeting-method-and-geography
+# Record ff1d5955c4 · ICE-arrests-20152026-Variation-in-targeting-method-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1073/pnas.2618096123)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 0d56f95c6a · AI-Trends-in-2026-What-Businesses-Need-to-Know---Shopify"
+title: "Record 0d56f95c6a · AI-Trends-in-2026-What-Businesses-Need-to-Know---Sh"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.783134+00:00
+updated_at: 2026-09-13T00:56:37.623613+00:00
 tags: [record, real-data]
 ---
 
-# Record 0d56f95c6a · AI-Trends-in-2026-What-Businesses-Need-to-Know---Shopify
+# Record 0d56f95c6a · AI-Trends-in-2026-What-Businesses-Need-to-Know---Sh
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiU0FVX3lxTE1jVDJEWEk5cnN0cGVYcVhTaHFQNDFyR0FSNk5abFFUWGhld1hFclNOMG0tc2dRQk9lNGJqU01oWXQ3ZDRMNHIzaDJBY3A0NFliYnFr?oc=5)
 

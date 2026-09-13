@@ -1,12 +1,12 @@
 ---
-title: "Record 0b5a688ac4 · Polimill-builds-Japans-next-generation-public-AI-infrastructure"
+title: "Record 0b5a688ac4 · Polimill-builds-Japans-next-generation-public-AI-in"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.015721+00:00
+updated_at: 2026-09-13T00:56:37.840998+00:00
 tags: [record, real-data]
 ---
 
-# Record 0b5a688ac4 · Polimill-builds-Japans-next-generation-public-AI-infrastructure
+# Record 0b5a688ac4 · Polimill-builds-Japans-next-generation-public-AI-in
 
 > 실제 수집 레코드입니다. 원문: [openai.com](https://openai.com/index/polimill)
 

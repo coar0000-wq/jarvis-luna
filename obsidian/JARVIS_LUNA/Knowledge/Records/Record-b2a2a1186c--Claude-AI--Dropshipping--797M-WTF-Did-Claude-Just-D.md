@@ -1,12 +1,12 @@
 ---
-title: "Record b2a2a1186c · Claude-AI--Dropshipping--797M-WTF-Did-Claude-Just-Do"
+title: "Record b2a2a1186c · Claude-AI--Dropshipping--797M-WTF-Did-Claude-Just-D"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.227880+00:00
+updated_at: 2026-09-13T00:56:38.027564+00:00
 tags: [record, real-data]
 ---
 
-# Record b2a2a1186c · Claude-AI--Dropshipping--797M-WTF-Did-Claude-Just-Do
+# Record b2a2a1186c · Claude-AI--Dropshipping--797M-WTF-Did-Claude-Just-D
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/watch?v=mYv9qkjXRRo)
 

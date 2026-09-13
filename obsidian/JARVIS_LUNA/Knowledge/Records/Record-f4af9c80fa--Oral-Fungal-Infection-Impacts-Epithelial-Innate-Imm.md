@@ -1,12 +1,12 @@
 ---
-title: "Record f4af9c80fa · Oral-Fungal-Infection-Impacts-Epithelial-Innate-Immunity-to-Promote-Lo"
+title: "Record f4af9c80fa · Oral-Fungal-Infection-Impacts-Epithelial-Innate-Imm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.653778+00:00
+updated_at: 2026-09-13T00:56:37.511080+00:00
 tags: [record, real-data]
 ---
 
-# Record f4af9c80fa · Oral-Fungal-Infection-Impacts-Epithelial-Innate-Immunity-to-Promote-Lo
+# Record f4af9c80fa · Oral-Fungal-Infection-Impacts-Epithelial-Innate-Imm
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1158/0008-5472.can-26-0070)
 

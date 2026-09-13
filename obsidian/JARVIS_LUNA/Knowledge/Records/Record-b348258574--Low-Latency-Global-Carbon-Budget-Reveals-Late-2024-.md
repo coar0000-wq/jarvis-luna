@@ -1,12 +1,12 @@
 ---
-title: "Record b348258574 · Low-Latency-Global-Carbon-Budget-Reveals-Late-2024-Carbon-Losses-and-C"
+title: "Record b348258574 · Low-Latency-Global-Carbon-Budget-Reveals-Late-2024-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.573940+00:00
+updated_at: 2026-09-13T00:56:37.437735+00:00
 tags: [record, real-data]
 ---
 
-# Record b348258574 · Low-Latency-Global-Carbon-Budget-Reveals-Late-2024-Carbon-Losses-and-C
+# Record b348258574 · Low-Latency-Global-Carbon-Budget-Reveals-Late-2024-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1002/advs.77369)
 

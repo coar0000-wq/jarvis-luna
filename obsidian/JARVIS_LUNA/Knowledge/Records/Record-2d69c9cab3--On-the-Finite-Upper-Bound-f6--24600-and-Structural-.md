@@ -1,12 +1,12 @@
 ---
-title: "Record 2d69c9cab3 · On-the-Finite-Upper-Bound-f6--24600-and-Structural-Barriers-to-Counter"
+title: "Record 2d69c9cab3 · On-the-Finite-Upper-Bound-f6--24600-and-Structural-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.723163+00:00
+updated_at: 2026-09-13T00:56:37.567815+00:00
 tags: [record, real-data]
 ---
 
-# Record 2d69c9cab3 · On-the-Finite-Upper-Bound-f6--24600-and-Structural-Barriers-to-Counter
+# Record 2d69c9cab3 · On-the-Finite-Upper-Bound-f6--24600-and-Structural-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.22697825)
 

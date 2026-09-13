@@ -1,12 +1,12 @@
 ---
-title: "Record 58f28182fa · Trajectory-Based-Co-Optimization-of-Arrival-Scheduling-and-Descent-Pat"
+title: "Record 58f28182fa · Trajectory-Based-Co-Optimization-of-Arrival-Schedul"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.479332+00:00
+updated_at: 2026-09-13T00:56:37.347870+00:00
 tags: [record, real-data]
 ---
 
-# Record 58f28182fa · Trajectory-Based-Co-Optimization-of-Arrival-Scheduling-and-Descent-Pat
+# Record 58f28182fa · Trajectory-Based-Co-Optimization-of-Arrival-Schedul
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.03234v1)
 

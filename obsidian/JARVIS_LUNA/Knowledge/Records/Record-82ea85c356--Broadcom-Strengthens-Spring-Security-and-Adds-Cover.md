@@ -1,12 +1,12 @@
 ---
-title: "Record 82ea85c356 · Broadcom-Strengthens-Spring-Security-and-Adds-Coverage-of-Java-Python-"
+title: "Record 82ea85c356 · Broadcom-Strengthens-Spring-Security-and-Adds-Cover"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.752286+00:00
+updated_at: 2026-09-13T00:56:37.594828+00:00
 tags: [record, real-data]
 ---
 
-# Record 82ea85c356 · Broadcom-Strengthens-Spring-Security-and-Adds-Coverage-of-Java-Python-
+# Record 82ea85c356 · Broadcom-Strengthens-Spring-Security-and-Adds-Cover
 
 > 실제 수집 레코드입니다. 원문: [investors.broadcom.com](https://investors.broadcom.com/news-releases/news-release-details/broadcom-strengthens-spring-security-and-adds-coverage-java)
 

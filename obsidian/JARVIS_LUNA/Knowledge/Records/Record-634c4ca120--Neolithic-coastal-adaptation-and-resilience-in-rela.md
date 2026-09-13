@@ -1,12 +1,12 @@
 ---
-title: "Record 634c4ca120 · Neolithic-coastal-adaptation-and-resilience-in-relation-to-environment"
+title: "Record 634c4ca120 · Neolithic-coastal-adaptation-and-resilience-in-rela"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.683862+00:00
+updated_at: 2026-09-13T00:56:37.535740+00:00
 tags: [record, real-data]
 ---
 
-# Record 634c4ca120 · Neolithic-coastal-adaptation-and-resilience-in-relation-to-environment
+# Record 634c4ca120 · Neolithic-coastal-adaptation-and-resilience-in-rela
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.3389/fearc.2026.1775646)
 

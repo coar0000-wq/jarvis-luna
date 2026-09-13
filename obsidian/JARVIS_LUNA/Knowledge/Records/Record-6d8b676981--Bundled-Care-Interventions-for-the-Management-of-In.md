@@ -1,12 +1,12 @@
 ---
-title: "Record 6d8b676981 · Bundled-Care-Interventions-for-the-Management-of-Intracerebral-Hemorrh"
+title: "Record 6d8b676981 · Bundled-Care-Interventions-for-the-Management-of-In"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.696768+00:00
+updated_at: 2026-09-13T00:56:37.546255+00:00
 tags: [record, real-data]
 ---
 
-# Record 6d8b676981 · Bundled-Care-Interventions-for-the-Management-of-Intracerebral-Hemorrh
+# Record 6d8b676981 · Bundled-Care-Interventions-for-the-Management-of-In
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.4037/ccn2026556)
 

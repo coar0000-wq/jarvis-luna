@@ -1,12 +1,12 @@
 ---
-title: "Record bda4f72def · Barclays-Private-Bank-Launches-Singapore-Booking-Centre-To-Serv"
+title: "Record bda4f72def · Barclays-Private-Bank-Launches-Singapore-Booking-Ce"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.121877+00:00
+updated_at: 2026-09-13T00:56:37.938200+00:00
 tags: [record, real-data]
 ---
 
-# Record bda4f72def · Barclays-Private-Bank-Launches-Singapore-Booking-Centre-To-Serv
+# Record bda4f72def · Barclays-Private-Bank-Launches-Singapore-Booking-Ce
 
 > 실제 수집 레코드입니다. 원문: [www.barclayscorporate.com](https://www.barclayscorporate.com/news/press-releases/20260/090/barclays-private-bank-launches-singapore--booking-centre-to-serv/)
 

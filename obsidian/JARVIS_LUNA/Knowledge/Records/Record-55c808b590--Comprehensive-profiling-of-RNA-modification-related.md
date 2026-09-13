@@ -1,12 +1,12 @@
 ---
-title: "Record 55c808b590 · Comprehensive-profiling-of-RNA-modification-related-genes-identifies-R"
+title: "Record 55c808b590 · Comprehensive-profiling-of-RNA-modification-related"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.610141+00:00
+updated_at: 2026-09-13T00:56:37.471539+00:00
 tags: [record, real-data]
 ---
 
-# Record 55c808b590 · Comprehensive-profiling-of-RNA-modification-related-genes-identifies-R
+# Record 55c808b590 · Comprehensive-profiling-of-RNA-modification-related
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1038/s12276-025-01531-z)
 

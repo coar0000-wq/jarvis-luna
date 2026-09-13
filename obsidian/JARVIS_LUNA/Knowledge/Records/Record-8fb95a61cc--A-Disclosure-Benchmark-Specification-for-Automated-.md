@@ -1,12 +1,12 @@
 ---
-title: "Record 8fb95a61cc · A-Disclosure-Benchmark-Specification-for-Automated-Alignment-Research-"
+title: "Record 8fb95a61cc · A-Disclosure-Benchmark-Specification-for-Automated-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.722576+00:00
+updated_at: 2026-09-13T00:56:37.567291+00:00
 tags: [record, real-data]
 ---
 
-# Record 8fb95a61cc · A-Disclosure-Benchmark-Specification-for-Automated-Alignment-Research-
+# Record 8fb95a61cc · A-Disclosure-Benchmark-Specification-for-Automated-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.22650960)
 

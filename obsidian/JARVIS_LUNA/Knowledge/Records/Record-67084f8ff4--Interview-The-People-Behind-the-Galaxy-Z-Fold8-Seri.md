@@ -1,12 +1,12 @@
 ---
-title: "Record 67084f8ff4 · Interview-The-People-Behind-the-Galaxy-Z-Fold8-Series-Camera-Innovatio"
+title: "Record 67084f8ff4 · Interview-The-People-Behind-the-Galaxy-Z-Fold8-Seri"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.992847+00:00
+updated_at: 2026-09-13T00:56:37.820155+00:00
 tags: [record, real-data]
 ---
 
-# Record 67084f8ff4 · Interview-The-People-Behind-the-Galaxy-Z-Fold8-Series-Camera-Innovatio
+# Record 67084f8ff4 · Interview-The-People-Behind-the-Galaxy-Z-Fold8-Seri
 
 > 실제 수집 레코드입니다. 원문: [news.samsung.com](https://news.samsung.com/global/interview-the-people-behind-the-galaxy-z-fold8-series-camera-innovations-%e2%91%a0-how-my-fancam-keeps-favorite-people-in-focus)
 

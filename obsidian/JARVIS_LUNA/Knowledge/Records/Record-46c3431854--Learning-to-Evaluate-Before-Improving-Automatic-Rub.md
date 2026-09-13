@@ -1,12 +1,12 @@
 ---
-title: "Record 46c3431854 · Learning-to-Evaluate-Before-Improving-Automatic-Rubric-Induction-for-A"
+title: "Record 46c3431854 · Learning-to-Evaluate-Before-Improving-Automatic-Rub"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.469412+00:00
+updated_at: 2026-09-13T00:56:37.339201+00:00
 tags: [record, real-data]
 ---
 
-# Record 46c3431854 · Learning-to-Evaluate-Before-Improving-Automatic-Rubric-Induction-for-A
+# Record 46c3431854 · Learning-to-Evaluate-Before-Improving-Automatic-Rub
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.31076v1)
 

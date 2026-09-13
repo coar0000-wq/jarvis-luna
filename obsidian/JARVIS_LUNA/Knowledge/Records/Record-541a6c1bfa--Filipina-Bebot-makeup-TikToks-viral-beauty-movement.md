@@ -1,12 +1,12 @@
 ---
-title: "Record 541a6c1bfa · Filipina-Bebot-makeup-TikToks-viral-beauty-movement---Her-World-Singap"
+title: "Record 541a6c1bfa · Filipina-Bebot-makeup-TikToks-viral-beauty-movement"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.923838+00:00
+updated_at: 2026-09-13T00:56:37.756882+00:00
 tags: [record, real-data]
 ---
 
-# Record 541a6c1bfa · Filipina-Bebot-makeup-TikToks-viral-beauty-movement---Her-World-Singap
+# Record 541a6c1bfa · Filipina-Bebot-makeup-TikToks-viral-beauty-movement
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMikwFBVV95cUxNOC1Hc3JmS0lZM2dZcHBDQjI5b1JXSUtFRG5Ca0hLREJRcld5QWtCQ1dQSFhZWXFSRXZjNUJ2akpOUTk3dHdhalRPU0dYczFjSXplem1VYzgyVGpTbk5tVG0tOEMyTDBYYmVZU05pMVdWQU81MGN4eDN0a3JlMENmeW9RaG1vUHNtczlXdC1oRlJhY0k?oc=5)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record ffdee49045 · Scheduling-of-Graph-Queries-Controlling-Intra--and-Inter-queryn-Parall"
+title: "Record ffdee49045 · Scheduling-of-Graph-Queries-Controlling-Intra--and-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.700172+00:00
+updated_at: 2026-09-13T00:56:37.548974+00:00
 tags: [record, real-data]
 ---
 
-# Record ffdee49045 · Scheduling-of-Graph-Queries-Controlling-Intra--and-Inter-queryn-Parall
+# Record ffdee49045 · Scheduling-of-Graph-Queries-Controlling-Intra--and-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.48550/arxiv.2110.10797)
 

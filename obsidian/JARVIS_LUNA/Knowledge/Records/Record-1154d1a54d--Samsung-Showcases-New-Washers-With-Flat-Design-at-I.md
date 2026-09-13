@@ -1,12 +1,12 @@
 ---
-title: "Record 1154d1a54d · Samsung-Showcases-New-Washers-With-Flat-Design-at-IFA-2026"
+title: "Record 1154d1a54d · Samsung-Showcases-New-Washers-With-Flat-Design-at-I"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.998925+00:00
+updated_at: 2026-09-13T00:56:37.825684+00:00
 tags: [record, real-data]
 ---
 
-# Record 1154d1a54d · Samsung-Showcases-New-Washers-With-Flat-Design-at-IFA-2026
+# Record 1154d1a54d · Samsung-Showcases-New-Washers-With-Flat-Design-at-I
 
 > 실제 수집 레코드입니다. 원문: [news.samsung.com](https://news.samsung.com/global/samsung-showcases-new-washers-with-flat-design-at-ifa-2026)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 9564b1f81a · Comau-automates-picking-handling-and-palletizing-for-Decathlon"
+title: "Record 9564b1f81a · Comau-automates-picking-handling-and-palletizing-fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.172173+00:00
+updated_at: 2026-09-13T00:56:37.979685+00:00
 tags: [record, real-data]
 ---
 
-# Record 9564b1f81a · Comau-automates-picking-handling-and-palletizing-for-Decathlon
+# Record 9564b1f81a · Comau-automates-picking-handling-and-palletizing-fo
 
 > 실제 수집 레코드입니다. 원문: [www.therobotreport.com](https://www.therobotreport.com/comau-automates-picking-handling-and-palletizing-for-decathlon/)
 

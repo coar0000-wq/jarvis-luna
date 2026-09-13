@@ -1,12 +1,12 @@
 ---
-title: "Record 0bd96d4e1d · Power-Mean-Estimation-in-Stochastic-Continuous-Monte-Carlo-Tree-Search"
+title: "Record 0bd96d4e1d · Power-Mean-Estimation-in-Stochastic-Continuous-Mont"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.511405+00:00
+updated_at: 2026-09-13T00:56:37.376882+00:00
 tags: [record, real-data]
 ---
 
-# Record 0bd96d4e1d · Power-Mean-Estimation-in-Stochastic-Continuous-Monte-Carlo-Tree-Search
+# Record 0bd96d4e1d · Power-Mean-Estimation-in-Stochastic-Continuous-Mont
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.06489v1)
 

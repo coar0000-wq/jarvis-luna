@@ -1,12 +1,12 @@
 ---
-title: "Record fa2791fbc9 · Bringing-ChatGPT-for-Teachers-to-more-US-school-districts"
+title: "Record fa2791fbc9 · Bringing-ChatGPT-for-Teachers-to-more-US-school-dis"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.008396+00:00
+updated_at: 2026-09-13T00:56:37.834188+00:00
 tags: [record, real-data]
 ---
 
-# Record fa2791fbc9 · Bringing-ChatGPT-for-Teachers-to-more-US-school-districts
+# Record fa2791fbc9 · Bringing-ChatGPT-for-Teachers-to-more-US-school-dis
 
 > 실제 수집 레코드입니다. 원문: [openai.com](https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 97e22cad0b · How-To-Lead-AI-Transformation-Ecommerce-Guide-2026---Shopify"
+title: "Record 97e22cad0b · How-To-Lead-AI-Transformation-Ecommerce-Guide-2026-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.839125+00:00
+updated_at: 2026-09-13T00:56:37.675279+00:00
 tags: [record, real-data]
 ---
 
-# Record 97e22cad0b · How-To-Lead-AI-Transformation-Ecommerce-Guide-2026---Shopify
+# Record 97e22cad0b · How-To-Lead-AI-Transformation-Ecommerce-Guide-2026-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMibEFVX3lxTE9rQTZaQjhQbThYaDZGQlI5cGprSzlQVTlrUzI1VV9zNWNaOVR2R29CbmE0OGs1b1p6LTFsazAwZU00OVRFSXlCNE5YZ1huTlJxUFY0ZW5SQ2ZoalhsT3lkOWRmNjk4QWpBRFlMdQ?oc=5)
 

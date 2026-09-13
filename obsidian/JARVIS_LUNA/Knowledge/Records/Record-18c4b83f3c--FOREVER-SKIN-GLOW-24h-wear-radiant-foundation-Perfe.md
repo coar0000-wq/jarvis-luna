@@ -1,12 +1,12 @@
 ---
-title: "Record 18c4b83f3c · FOREVER-SKIN-GLOW-24h-wear-radiant-foundation-Perfection-and-hydration"
+title: "Record 18c4b83f3c · FOREVER-SKIN-GLOW-24h-wear-radiant-foundation-Perfe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.461587+00:00
+updated_at: 2026-09-13T00:56:37.331892+00:00
 tags: [record, real-data]
 ---
 
-# Record 18c4b83f3c · FOREVER-SKIN-GLOW-24h-wear-radiant-foundation-Perfection-and-hydration
+# Record 18c4b83f3c · FOREVER-SKIN-GLOW-24h-wear-radiant-foundation-Perfe
 
 > 실제 수집 레코드입니다. 원문: [api.fda.gov](https://api.fda.gov/drug/label.json?search=id:1f013e61-f171-2ae2-e063-6294a90adcf1)
 

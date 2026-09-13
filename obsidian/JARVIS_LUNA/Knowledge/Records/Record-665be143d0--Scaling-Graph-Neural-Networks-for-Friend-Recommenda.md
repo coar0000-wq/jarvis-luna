@@ -1,12 +1,12 @@
 ---
-title: "Record 665be143d0 · Scaling-Graph-Neural-Networks-for-Friend-Recommendation-Multi-Hash-Use"
+title: "Record 665be143d0 · Scaling-Graph-Neural-Networks-for-Friend-Recommenda"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.272009+00:00
+updated_at: 2026-09-13T00:56:38.066545+00:00
 tags: [record, real-data]
 ---
 
-# Record 665be143d0 · Scaling-Graph-Neural-Networks-for-Friend-Recommendation-Multi-Hash-Use
+# Record 665be143d0 · Scaling-Graph-Neural-Networks-for-Friend-Recommenda
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.27413v1)
 

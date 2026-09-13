@@ -1,12 +1,12 @@
 ---
-title: "Record dc716caf33 · A-Distributed-Consensus-Particle-Filter-for-Target-Tracking-using-Auto"
+title: "Record dc716caf33 · A-Distributed-Consensus-Particle-Filter-for-Target-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.524795+00:00
+updated_at: 2026-09-13T00:56:37.389309+00:00
 tags: [record, real-data]
 ---
 
-# Record dc716caf33 · A-Distributed-Consensus-Particle-Filter-for-Target-Tracking-using-Auto
+# Record dc716caf33 · A-Distributed-Consensus-Particle-Filter-for-Target-
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.09066v1)
 

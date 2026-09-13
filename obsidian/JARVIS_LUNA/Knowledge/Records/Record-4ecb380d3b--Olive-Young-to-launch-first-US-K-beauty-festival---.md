@@ -1,12 +1,12 @@
 ---
-title: "Record 4ecb380d3b · Olive-Young-to-launch-first-US-K-beauty-festival---FashionNetwork---Th"
+title: "Record 4ecb380d3b · Olive-Young-to-launch-first-US-K-beauty-festival---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.944162+00:00
+updated_at: 2026-09-13T00:56:37.775520+00:00
 tags: [record, real-data]
 ---
 
-# Record 4ecb380d3b · Olive-Young-to-launch-first-US-K-beauty-festival---FashionNetwork---Th
+# Record 4ecb380d3b · Olive-Young-to-launch-first-US-K-beauty-festival---
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMinAFBVV95cUxQdzVoRDBNNUt3R2k4QVBsWXVhOWJYLTBnRWhtbngxZEJieHlqMU96OWp1ZWZYTl9lQ19pTEtDaWF2TVEwRmprN3dHUExsVEN5UGU4ZHRaV3hsTDJIaldDbGFpbEE3aFd2eW9SeGhNeHo3WDRpRHNhZ3ZXbEVuazBtdy1Pa2tWNzJqVWd4UlVyNS1DcEhQZ1JBdHhKbWg?oc=5)
 

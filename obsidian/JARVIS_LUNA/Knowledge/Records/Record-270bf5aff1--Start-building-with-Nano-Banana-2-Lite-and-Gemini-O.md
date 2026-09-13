@@ -1,12 +1,12 @@
 ---
-title: "Record 270bf5aff1 · Start-building-with-Nano-Banana-2-Lite-and-Gemini-Omni-Flash"
+title: "Record 270bf5aff1 · Start-building-with-Nano-Banana-2-Lite-and-Gemini-O"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.570722+00:00
+updated_at: 2026-09-13T00:56:37.434415+00:00
 tags: [record, real-data]
 ---
 
-# Record 270bf5aff1 · Start-building-with-Nano-Banana-2-Lite-and-Gemini-Omni-Flash
+# Record 270bf5aff1 · Start-building-with-Nano-Banana-2-Lite-and-Gemini-O
 
 > 실제 수집 레코드입니다. 원문: [deepmind.google](https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/)
 

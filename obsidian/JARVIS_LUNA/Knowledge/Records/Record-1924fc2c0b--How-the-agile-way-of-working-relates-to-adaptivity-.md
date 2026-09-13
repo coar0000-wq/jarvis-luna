@@ -1,12 +1,12 @@
 ---
-title: "Record 1924fc2c0b · How-the-agile-way-of-working-relates-to-adaptivity-and-work-engagement"
+title: "Record 1924fc2c0b · How-the-agile-way-of-working-relates-to-adaptivity-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.591279+00:00
+updated_at: 2026-09-13T00:56:37.454519+00:00
 tags: [record, real-data]
 ---
 
-# Record 1924fc2c0b · How-the-agile-way-of-working-relates-to-adaptivity-and-work-engagement
+# Record 1924fc2c0b · How-the-agile-way-of-working-relates-to-adaptivity-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.emj.2026.06.006)
 

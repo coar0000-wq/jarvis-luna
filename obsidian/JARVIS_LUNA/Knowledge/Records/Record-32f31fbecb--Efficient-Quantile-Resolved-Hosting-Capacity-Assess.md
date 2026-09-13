@@ -1,12 +1,12 @@
 ---
-title: "Record 32f31fbecb · Efficient-Quantile-Resolved-Hosting-Capacity-Assessment-on-Nodal-Level"
+title: "Record 32f31fbecb · Efficient-Quantile-Resolved-Hosting-Capacity-Assess"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.524493+00:00
+updated_at: 2026-09-13T00:56:37.389034+00:00
 tags: [record, real-data]
 ---
 
-# Record 32f31fbecb · Efficient-Quantile-Resolved-Hosting-Capacity-Assessment-on-Nodal-Level
+# Record 32f31fbecb · Efficient-Quantile-Resolved-Hosting-Capacity-Assess
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.09060v1)
 

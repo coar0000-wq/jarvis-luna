@@ -1,12 +1,12 @@
 ---
-title: "Record 7256625e22 · 12-Korean-Beauty-Brands-Endorsed-by-K-Pop-Stars-and-Skincare-Junkies-A"
+title: "Record 7256625e22 · 12-Korean-Beauty-Brands-Endorsed-by-K-Pop-Stars-and"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.922928+00:00
+updated_at: 2026-09-13T00:56:37.756046+00:00
 tags: [record, real-data]
 ---
 
-# Record 7256625e22 · 12-Korean-Beauty-Brands-Endorsed-by-K-Pop-Stars-and-Skincare-Junkies-A
+# Record 7256625e22 · 12-Korean-Beauty-Brands-Endorsed-by-K-Pop-Stars-and
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMikgFBVV95cUxQZFN3d0lzbHAxWURPOWt1d1lnS3J4MWYzcXJZcDR3UmlJbGdKQkc1RVJsOGQ0c0xYMk5KS014N19WRy1iNFM2NmozMG4xSm1FWVhYNVdEQ011dXJrMF9SR3RVYlNQWUxMR2pSNVo5cGxCdjZYTXdySjQ4SnRPLVVmcVpyRjJGRVV4eDI3cnlBdWhiUQ?oc=5)
 

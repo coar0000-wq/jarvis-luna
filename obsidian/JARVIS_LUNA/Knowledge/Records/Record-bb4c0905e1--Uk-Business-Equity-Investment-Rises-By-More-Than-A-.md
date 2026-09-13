@@ -1,12 +1,12 @@
 ---
-title: "Record bb4c0905e1 · Uk-Business-Equity-Investment-Rises-By-More-Than-A-Quarter-In-H"
+title: "Record bb4c0905e1 · Uk-Business-Equity-Investment-Rises-By-More-Than-A-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.118329+00:00
+updated_at: 2026-09-13T00:56:37.935047+00:00
 tags: [record, real-data]
 ---
 
-# Record bb4c0905e1 · Uk-Business-Equity-Investment-Rises-By-More-Than-A-Quarter-In-H
+# Record bb4c0905e1 · Uk-Business-Equity-Investment-Rises-By-More-Than-A-
 
 > 실제 수집 레코드입니다. 원문: [www.barclayscorporate.com](https://www.barclayscorporate.com/news/press-releases/20260/070/-uk-business-equity-investment-rises-by-more-than-a-quarter-in-h/)
 

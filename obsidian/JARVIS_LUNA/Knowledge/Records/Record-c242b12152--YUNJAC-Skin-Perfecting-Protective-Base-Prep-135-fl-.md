@@ -1,12 +1,12 @@
 ---
-title: "Record c242b12152 · YUNJAC-Skin-Perfecting-Protective-Base-Prep-135-fl-oz40ml"
+title: "Record c242b12152 · YUNJAC-Skin-Perfecting-Protective-Base-Prep-135-fl-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.063089+00:00
+updated_at: 2026-09-13T00:56:37.885191+00:00
 tags: [record, real-data]
 ---
 
-# Record c242b12152 · YUNJAC-Skin-Perfecting-Protective-Base-Prep-135-fl-oz40ml
+# Record c242b12152 · YUNJAC-Skin-Perfecting-Protective-Base-Prep-135-fl-
 
 > 실제 수집 레코드입니다. 원문: [us.oliveyoung.com](https://us.oliveyoung.com/products/UA43803100)
 

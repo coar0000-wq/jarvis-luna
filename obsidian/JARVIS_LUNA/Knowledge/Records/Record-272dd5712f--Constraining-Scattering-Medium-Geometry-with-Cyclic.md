@@ -1,12 +1,12 @@
 ---
-title: "Record 272dd5712f · Constraining-Scattering-Medium-Geometry-with-Cyclic-Spectroscopy"
+title: "Record 272dd5712f · Constraining-Scattering-Medium-Geometry-with-Cyclic"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.027939+00:00
+updated_at: 2026-09-13T00:56:37.852475+00:00
 tags: [record, real-data]
 ---
 
-# Record 272dd5712f · Constraining-Scattering-Medium-Geometry-with-Cyclic-Spectroscopy
+# Record 272dd5712f · Constraining-Scattering-Medium-Geometry-with-Cyclic
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7162700466)
 

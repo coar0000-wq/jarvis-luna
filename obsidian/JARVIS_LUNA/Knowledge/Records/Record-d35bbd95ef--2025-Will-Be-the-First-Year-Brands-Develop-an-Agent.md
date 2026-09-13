@@ -1,12 +1,12 @@
 ---
-title: "Record d35bbd95ef · 2025-Will-Be-the-First-Year-Brands-Develop-an-Agentic-AI-Holiday-Strat"
+title: "Record d35bbd95ef · 2025-Will-Be-the-First-Year-Brands-Develop-an-Agent"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.890282+00:00
+updated_at: 2026-09-13T00:56:37.725835+00:00
 tags: [record, real-data]
 ---
 
-# Record d35bbd95ef · 2025-Will-Be-the-First-Year-Brands-Develop-an-Agentic-AI-Holiday-Strat
+# Record d35bbd95ef · 2025-Will-Be-the-First-Year-Brands-Develop-an-Agent
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiggFBVV95cUxQa3pkRGp4QnVaTGV5OHItTnh4ZUNObFBBZUYyRVJjX2VYeEg0QVgyY3haREdyUUZPME1YeVVoS2NSNzJMYWROZ1NBZFF0RDZPSkVHUWpCTFpMd0NRZ29tTVlhT3ZCbFpUa2xPelAyUkQwTUtkZnZwNGRiOFUwdVU4aDhB?oc=5)
 

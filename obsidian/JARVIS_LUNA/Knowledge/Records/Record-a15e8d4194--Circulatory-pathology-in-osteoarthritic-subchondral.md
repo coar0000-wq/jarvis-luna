@@ -1,12 +1,12 @@
 ---
-title: "Record a15e8d4194 · Circulatory-pathology-in-osteoarthritic-subchondral-bone"
+title: "Record a15e8d4194 · Circulatory-pathology-in-osteoarthritic-subchondral"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.595754+00:00
+updated_at: 2026-09-13T00:56:37.458481+00:00
 tags: [record, real-data]
 ---
 
-# Record a15e8d4194 · Circulatory-pathology-in-osteoarthritic-subchondral-bone
+# Record a15e8d4194 · Circulatory-pathology-in-osteoarthritic-subchondral
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.joca.2026.08.004)
 

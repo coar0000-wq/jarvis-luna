@@ -1,12 +1,12 @@
 ---
-title: "Record f5e676a79a · The-Scales-Have-Tipped-US-Marine-Corps-Boot-Camp-Increases-Muscle-Mass"
+title: "Record f5e676a79a · The-Scales-Have-Tipped-US-Marine-Corps-Boot-Camp-In"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.627613+00:00
+updated_at: 2026-09-13T00:56:37.487698+00:00
 tags: [record, real-data]
 ---
 
-# Record f5e676a79a · The-Scales-Have-Tipped-US-Marine-Corps-Boot-Camp-Increases-Muscle-Mass
+# Record f5e676a79a · The-Scales-Have-Tipped-US-Marine-Corps-Boot-Camp-In
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1093/milmed/usag405)
 

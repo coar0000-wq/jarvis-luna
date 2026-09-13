@@ -1,12 +1,12 @@
 ---
-title: "Record 801fb59240 · When-Does-Bigger-Help-A-Controlled-Study-of-LLM-Scale-for-Ontology-Lea"
+title: "Record 801fb59240 · When-Does-Bigger-Help-A-Controlled-Study-of-LLM-Sca"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.470744+00:00
+updated_at: 2026-09-13T00:56:37.340432+00:00
 tags: [record, real-data]
 ---
 
-# Record 801fb59240 · When-Does-Bigger-Help-A-Controlled-Study-of-LLM-Scale-for-Ontology-Lea
+# Record 801fb59240 · When-Does-Bigger-Help-A-Controlled-Study-of-LLM-Sca
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.31118v1)
 

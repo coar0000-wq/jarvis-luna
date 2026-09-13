@@ -1,12 +1,12 @@
 ---
-title: "Record 627052ed34 · Korean-Beauty-Is-Booming-My-Korean-Beauty-Brand-Is-Closing---Allure"
+title: "Record 627052ed34 · Korean-Beauty-Is-Booming-My-Korean-Beauty-Brand-Is-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.876214+00:00
+updated_at: 2026-09-13T00:56:37.713084+00:00
 tags: [record, real-data]
 ---
 
-# Record 627052ed34 · Korean-Beauty-Is-Booming-My-Korean-Beauty-Brand-Is-Closing---Allure
+# Record 627052ed34 · Korean-Beauty-Is-Booming-My-Korean-Beauty-Brand-Is-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMif0FVX3lxTE8wWG1xTnJJQkpOXy1UZ2NVc0tCZVFhdV9xZ0ZkamV3LVpUOEllTlZ6RXVrRjJkbVdhZVE5a3FzbDMyNENjLW5hQkZYZUN1R21Pbl9WSWV4c3BQeWlpZmpSTm1fUWJhYXJzT2U0YTJQVDJETC1tVTEyWEt0TU9JaGc?oc=5)
 

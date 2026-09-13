@@ -1,12 +1,12 @@
 ---
-title: "Record 3035372992 · In-Conversation-with-Charlotte-Cho-on-K-Beauty-Right-Now---The-Chalkbo"
+title: "Record 3035372992 · In-Conversation-with-Charlotte-Cho-on-K-Beauty-Righ"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.846859+00:00
+updated_at: 2026-09-13T00:56:37.683260+00:00
 tags: [record, real-data]
 ---
 
-# Record 3035372992 · In-Conversation-with-Charlotte-Cho-on-K-Beauty-Right-Now---The-Chalkbo
+# Record 3035372992 · In-Conversation-with-Charlotte-Cho-on-K-Beauty-Righ
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMic0FVX3lxTE9RTnJsaW5WRDN6MUgyV1NFSGl4SW42UXY5RkR6S2dqNHhTZjlSdXc5MG5kZVZncUVMMW5JY1NBdVNZNVlJdy1YM3pTUHAwNTB3VGY1eHBMNWlvSkxONEk0ZFN5Q25uT3JSdHc2Z2VDSUk1ZkE?oc=5)
 

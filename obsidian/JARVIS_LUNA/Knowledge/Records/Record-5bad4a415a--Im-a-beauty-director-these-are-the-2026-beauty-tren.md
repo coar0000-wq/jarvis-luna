@@ -1,12 +1,12 @@
 ---
-title: "Record 5bad4a415a · Im-a-beauty-director-these-are-the-2026-beauty-trends-Ive-tried-and-lo"
+title: "Record 5bad4a415a · Im-a-beauty-director-these-are-the-2026-beauty-tren"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.816887+00:00
+updated_at: 2026-09-13T00:56:37.654565+00:00
 tags: [record, real-data]
 ---
 
-# Record 5bad4a415a · Im-a-beauty-director-these-are-the-2026-beauty-trends-Ive-tried-and-lo
+# Record 5bad4a415a · Im-a-beauty-director-these-are-the-2026-beauty-tren
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiZEFVX3lxTE5uVHZ4NG1tN1k2NVJ4aldOSkdGNndPSGxMT2oyWnZ1M0NOOTJZSVpiUUQ5VlIyalQ4bjliR2NLUXdPTEFmR0dxeXpxMFVzeWdVWkFZRmQ0LWxKaFZEUDVSMkRLbUw?oc=5)
 

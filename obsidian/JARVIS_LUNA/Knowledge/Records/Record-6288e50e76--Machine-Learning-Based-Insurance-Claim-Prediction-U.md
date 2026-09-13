@@ -1,12 +1,12 @@
 ---
-title: "Record 6288e50e76 · Machine-Learning-Based-Insurance-Claim-Prediction-Using-Customer-Behav"
+title: "Record 6288e50e76 · Machine-Learning-Based-Insurance-Claim-Prediction-U"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.724548+00:00
+updated_at: 2026-09-13T00:56:37.569091+00:00
 tags: [record, real-data]
 ---
 
-# Record 6288e50e76 · Machine-Learning-Based-Insurance-Claim-Prediction-Using-Customer-Behav
+# Record 6288e50e76 · Machine-Learning-Based-Insurance-Claim-Prediction-U
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.55041/ijcope.v2i8.304)
 

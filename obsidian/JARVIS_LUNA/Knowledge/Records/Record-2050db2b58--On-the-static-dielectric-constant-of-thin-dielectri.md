@@ -1,12 +1,12 @@
 ---
-title: "Record 2050db2b58 · On-the-static-dielectric-constant-of-thin-dielectrics-in-extremely-sca"
+title: "Record 2050db2b58 · On-the-static-dielectric-constant-of-thin-dielectri"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.042008+00:00
+updated_at: 2026-09-13T00:56:37.866126+00:00
 tags: [record, real-data]
 ---
 
-# Record 2050db2b58 · On-the-static-dielectric-constant-of-thin-dielectrics-in-extremely-sca
+# Record 2050db2b58 · On-the-static-dielectric-constant-of-thin-dielectri
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7172067869)
 

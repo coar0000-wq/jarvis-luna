@@ -1,12 +1,12 @@
 ---
-title: "Record 1a4350f63b · Samsung-Electronics-To-Establish-HVAC-Production-Line-in-Korea"
+title: "Record 1a4350f63b · Samsung-Electronics-To-Establish-HVAC-Production-Li"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.994795+00:00
+updated_at: 2026-09-13T00:56:37.821967+00:00
 tags: [record, real-data]
 ---
 
-# Record 1a4350f63b · Samsung-Electronics-To-Establish-HVAC-Production-Line-in-Korea
+# Record 1a4350f63b · Samsung-Electronics-To-Establish-HVAC-Production-Li
 
 > 실제 수집 레코드입니다. 원문: [news.samsung.com](https://news.samsung.com/global/samsung-electronics-to-establish-hvac-production-line-in-korea)
 

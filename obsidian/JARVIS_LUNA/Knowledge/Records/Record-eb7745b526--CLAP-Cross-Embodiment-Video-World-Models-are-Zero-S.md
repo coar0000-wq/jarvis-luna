@@ -1,12 +1,12 @@
 ---
-title: "Record eb7745b526 · CLAP-Cross-Embodiment-Video-World-Models-are-Zero-Shot-Physical-Simula"
+title: "Record eb7745b526 · CLAP-Cross-Embodiment-Video-World-Models-are-Zero-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.271430+00:00
+updated_at: 2026-09-13T00:56:38.065992+00:00
 tags: [record, real-data]
 ---
 
-# Record eb7745b526 · CLAP-Cross-Embodiment-Video-World-Models-are-Zero-Shot-Physical-Simula
+# Record eb7745b526 · CLAP-Cross-Embodiment-Video-World-Models-are-Zero-S
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.27406v1)
 

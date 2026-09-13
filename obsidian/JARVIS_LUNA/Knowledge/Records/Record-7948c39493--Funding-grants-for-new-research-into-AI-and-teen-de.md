@@ -1,12 +1,12 @@
 ---
-title: "Record 7948c39493 · Funding-grants-for-new-research-into-AI-and-teen-development"
+title: "Record 7948c39493 · Funding-grants-for-new-research-into-AI-and-teen-de"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.018010+00:00
+updated_at: 2026-09-13T00:56:37.843068+00:00
 tags: [record, real-data]
 ---
 
-# Record 7948c39493 · Funding-grants-for-new-research-into-AI-and-teen-development
+# Record 7948c39493 · Funding-grants-for-new-research-into-AI-and-teen-de
 
 > 실제 수집 레코드입니다. 원문: [openai.com](https://openai.com/index/teen-development-research-grants)
 

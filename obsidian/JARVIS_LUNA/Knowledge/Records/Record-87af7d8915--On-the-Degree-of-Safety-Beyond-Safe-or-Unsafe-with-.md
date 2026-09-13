@@ -1,12 +1,12 @@
 ---
-title: "Record 87af7d8915 · On-the-Degree-of-Safety-Beyond-Safe-or-Unsafe-with-Control-Barrier-Fun"
+title: "Record 87af7d8915 · On-the-Degree-of-Safety-Beyond-Safe-or-Unsafe-with-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.480542+00:00
+updated_at: 2026-09-13T00:56:37.348975+00:00
 tags: [record, real-data]
 ---
 
-# Record 87af7d8915 · On-the-Degree-of-Safety-Beyond-Safe-or-Unsafe-with-Control-Barrier-Fun
+# Record 87af7d8915 · On-the-Degree-of-Safety-Beyond-Safe-or-Unsafe-with-
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.03319v1)
 

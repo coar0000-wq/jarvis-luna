@@ -1,12 +1,12 @@
 ---
-title: "Record e49452070c · Certain-Investigations-on-Advanced-Signal-Processing-and-K--Medoid-Clu"
+title: "Record e49452070c · Certain-Investigations-on-Advanced-Signal-Processin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.649877+00:00
+updated_at: 2026-09-13T00:56:37.507921+00:00
 tags: [record, real-data]
 ---
 
-# Record e49452070c · Certain-Investigations-on-Advanced-Signal-Processing-and-K--Medoid-Clu
+# Record e49452070c · Certain-Investigations-on-Advanced-Signal-Processin
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1142/s0219877026400080)
 

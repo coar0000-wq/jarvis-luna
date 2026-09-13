@@ -1,12 +1,12 @@
 ---
-title: "Record 43cec2882f · Adaptive-and-Robust-Query-Execution-for-Lakehouses-at-Scale"
+title: "Record 43cec2882f · Adaptive-and-Robust-Query-Execution-for-Lakehouses-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.665471+00:00
+updated_at: 2026-09-13T00:56:37.520615+00:00
 tags: [record, real-data]
 ---
 
-# Record 43cec2882f · Adaptive-and-Robust-Query-Execution-for-Lakehouses-at-Scale
+# Record 43cec2882f · Adaptive-and-Robust-Query-Execution-for-Lakehouses-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.14778/3685800.3685818)
 

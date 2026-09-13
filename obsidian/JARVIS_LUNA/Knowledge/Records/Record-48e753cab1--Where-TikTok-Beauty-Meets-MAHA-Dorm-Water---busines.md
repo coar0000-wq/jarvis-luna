@@ -1,12 +1,12 @@
 ---
-title: "Record 48e753cab1 · Where-TikTok-Beauty-Meets-MAHA-Dorm-Water---businessoffashioncom"
+title: "Record 48e753cab1 · Where-TikTok-Beauty-Meets-MAHA-Dorm-Water---busines"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.919351+00:00
+updated_at: 2026-09-13T00:56:37.752714+00:00
 tags: [record, real-data]
 ---
 
-# Record 48e753cab1 · Where-TikTok-Beauty-Meets-MAHA-Dorm-Water---businessoffashioncom
+# Record 48e753cab1 · Where-TikTok-Beauty-Meets-MAHA-Dorm-Water---busines
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMikAFBVV95cUxQS0tzbHR2aTk0MjFhRFFJQ3B2YWlVTWRPM3hxUmsxQUF4cTY0d2hRWDdlWlVEUEFxVUkyTGFaSjF4TWRLaEZZUG53T2VMSVd5TkpTTGtMWUxDNS05eGZOM2hrdnFpbEtaeDVvZy1vN3BaLTFLbDRHM2cxOUlrV1R1TzF6THRNcnlCaEhBZkduRkQ?oc=5)
 

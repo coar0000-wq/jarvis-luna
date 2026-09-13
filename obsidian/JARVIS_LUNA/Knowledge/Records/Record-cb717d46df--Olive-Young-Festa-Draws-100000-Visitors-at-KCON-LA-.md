@@ -1,12 +1,12 @@
 ---
-title: "Record cb717d46df · Olive-Young-Festa-Draws-100000-Visitors-at-KCON-LA-2026-Expanding-K-Be"
+title: "Record cb717d46df · Olive-Young-Festa-Draws-100000-Visitors-at-KCON-LA-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.865816+00:00
+updated_at: 2026-09-13T00:56:37.703078+00:00
 tags: [record, real-data]
 ---
 
-# Record cb717d46df · Olive-Young-Festa-Draws-100000-Visitors-at-KCON-LA-2026-Expanding-K-Be
+# Record cb717d46df · Olive-Young-Festa-Draws-100000-Visitors-at-KCON-LA-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMieEFVX3lxTE53cFVqbnF1cjdjNktMV0JEeHhNT1kwVzFoTFdRRDBQU2pXTEVYaFM0MDMxeHRGelRlVUlTUDlQNUZJSWtFZW9jdUp4U3kzQWJTX1luT0xTWkwzVGpGY0F6OVgzb0M1ekxqbnNxQlNuV05TSWlZTjBYMg?oc=5)
 

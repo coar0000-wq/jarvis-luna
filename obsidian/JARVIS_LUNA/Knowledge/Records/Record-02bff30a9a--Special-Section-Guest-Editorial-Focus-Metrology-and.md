@@ -1,12 +1,12 @@
 ---
-title: "Record 02bff30a9a · Special-Section-Guest-Editorial-Focus-Metrology-and-Control-for-High-N"
+title: "Record 02bff30a9a · Special-Section-Guest-Editorial-Focus-Metrology-and"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.645480+00:00
+updated_at: 2026-09-13T00:56:37.504148+00:00
 tags: [record, real-data]
 ---
 
-# Record 02bff30a9a · Special-Section-Guest-Editorial-Focus-Metrology-and-Control-for-High-N
+# Record 02bff30a9a · Special-Section-Guest-Editorial-Focus-Metrology-and
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1117/1.jmm.25.2.021201)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 86346ab53d · TRIM21-Neutralizes-Hazara-Virus-Using-a-Dual-Mechanism-of-Nucleoprotei"
+title: "Record 86346ab53d · TRIM21-Neutralizes-Hazara-Virus-Using-a-Dual-Mechan"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.692347+00:00
+updated_at: 2026-09-13T00:56:37.542710+00:00
 tags: [record, real-data]
 ---
 
-# Record 86346ab53d · TRIM21-Neutralizes-Hazara-Virus-Using-a-Dual-Mechanism-of-Nucleoprotei
+# Record 86346ab53d · TRIM21-Neutralizes-Hazara-Virus-Using-a-Dual-Mechan
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.3390/v18090974)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record d15f733ad9 · Atomic-Layer-Deposition-of-High-Density-GeSe-Films-for-Stable-Vertical"
+title: "Record d15f733ad9 · Atomic-Layer-Deposition-of-High-Density-GeSe-Films-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.604224+00:00
+updated_at: 2026-09-13T00:56:37.466138+00:00
 tags: [record, real-data]
 ---
 
-# Record d15f733ad9 · Atomic-Layer-Deposition-of-High-Density-GeSe-Films-for-Stable-Vertical
+# Record d15f733ad9 · Atomic-Layer-Deposition-of-High-Density-GeSe-Films-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1021/acs.chemmater.6c01199)
 

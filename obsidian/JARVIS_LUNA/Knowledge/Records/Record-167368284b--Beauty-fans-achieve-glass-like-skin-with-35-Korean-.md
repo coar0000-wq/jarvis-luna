@@ -1,12 +1,12 @@
 ---
-title: "Record 167368284b · Beauty-fans-achieve-glass-like-skin-with-35-Korean-and-Japanese-Boots-"
+title: "Record 167368284b · Beauty-fans-achieve-glass-like-skin-with-35-Korean-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.918009+00:00
+updated_at: 2026-09-13T00:56:37.751471+00:00
 tags: [record, real-data]
 ---
 
-# Record 167368284b · Beauty-fans-achieve-glass-like-skin-with-35-Korean-and-Japanese-Boots-
+# Record 167368284b · Beauty-fans-achieve-glass-like-skin-with-35-Korean-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMikAFBVV95cUxNcTZGVm5jdnFobWxqRGZmRmFFVEZmMDR5RWRpOC05bUx3NE84UWYxOFVsUFJ2X2ZwNGtGaHRYOG54emlkdGJfalExQ1pvelJaVkR5Y1gzdjhVbkJOQ0lZeU5tSW5TQlBqb2JvdHFzdF9xMFV6eWlNbFFCQVhxaFo2MDAydzVacWpHcjZJY0tCcDPSAZYBQVVfeXFMTWEwdXRDd0RKZ3dsMzh5ZUVzSGVFY2lSdTROV1dJMHlUMFJORXBPeHZYVUdtRjFNUXFwYk9mWGpNdFh0SlBIOUhoTWJlZnJfNDN4RkpGN09rcGJuSXN5eGFlN1FfUEg5V2J4Q09takctNktsa2ZxR3JaV1ktbnFPdVpnSnlUTFhPcElYbVh1aERwVkZ5V2FR?oc=5)
 

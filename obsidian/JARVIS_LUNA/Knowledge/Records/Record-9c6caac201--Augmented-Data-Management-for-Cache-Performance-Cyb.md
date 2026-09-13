@@ -1,12 +1,12 @@
 ---
-title: "Record 9c6caac201 · Augmented-Data-Management-for-Cache-Performance-Cybersecurity-and-Mobi"
+title: "Record 9c6caac201 · Augmented-Data-Management-for-Cache-Performance-Cyb"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.725886+00:00
+updated_at: 2026-09-13T00:56:37.570331+00:00
 tags: [record, real-data]
 ---
 
-# Record 9c6caac201 · Augmented-Data-Management-for-Cache-Performance-Cybersecurity-and-Mobi
+# Record 9c6caac201 · Augmented-Data-Management-for-Cache-Performance-Cyb
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.57159/jcmm.5.3.26691)
 

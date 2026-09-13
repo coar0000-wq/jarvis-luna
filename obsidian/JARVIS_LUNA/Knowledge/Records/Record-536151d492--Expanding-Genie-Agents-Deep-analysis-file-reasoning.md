@@ -1,12 +1,12 @@
 ---
-title: "Record 536151d492 · Expanding-Genie-Agents-Deep-analysis-file-reasoning-and-more"
+title: "Record 536151d492 · Expanding-Genie-Agents-Deep-analysis-file-reasoning"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.125170+00:00
+updated_at: 2026-09-13T00:56:37.941166+00:00
 tags: [record, real-data]
 ---
 
-# Record 536151d492 · Expanding-Genie-Agents-Deep-analysis-file-reasoning-and-more
+# Record 536151d492 · Expanding-Genie-Agents-Deep-analysis-file-reasoning
 
 > 실제 수집 레코드입니다. 원문: [www.databricks.com](https://www.databricks.com/blog/expanding-genie-agents-deep-analysis-file-reasoning-and-more)
 

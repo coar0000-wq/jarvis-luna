@@ -1,12 +1,12 @@
 ---
-title: "Record 8048475738 · Operational-risks-of-financial-innovation-Evidence-from-large-US-BHCs"
+title: "Record 8048475738 · Operational-risks-of-financial-innovation-Evidence-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.594684+00:00
+updated_at: 2026-09-13T00:56:37.457582+00:00
 tags: [record, real-data]
 ---
 
-# Record 8048475738 · Operational-risks-of-financial-innovation-Evidence-from-large-US-BHCs
+# Record 8048475738 · Operational-risks-of-financial-innovation-Evidence-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.jfi.2026.101219)
 

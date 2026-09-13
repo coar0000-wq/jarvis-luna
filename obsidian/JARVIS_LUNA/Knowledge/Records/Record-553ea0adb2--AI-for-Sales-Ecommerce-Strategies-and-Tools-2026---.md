@@ -1,12 +1,12 @@
 ---
-title: "Record 553ea0adb2 · AI-for-Sales-Ecommerce-Strategies-and-Tools-2026---Shopify"
+title: "Record 553ea0adb2 · AI-for-Sales-Ecommerce-Strategies-and-Tools-2026---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.787201+00:00
+updated_at: 2026-09-13T00:56:37.627460+00:00
 tags: [record, real-data]
 ---
 
-# Record 553ea0adb2 · AI-for-Sales-Ecommerce-Strategies-and-Tools-2026---Shopify
+# Record 553ea0adb2 · AI-for-Sales-Ecommerce-Strategies-and-Tools-2026---
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiV0FVX3lxTE5WQ0pDZUZqb3o5Y0NXc3NMWmNqaDlEdWhGMDA2Ti1WLU83Y2wzZWlLa3E4TWNMZkZuNFF6dGFlaEtRLWVYbzVnSTlIdXp6dmc1YUthdUxUbw?oc=5)
 

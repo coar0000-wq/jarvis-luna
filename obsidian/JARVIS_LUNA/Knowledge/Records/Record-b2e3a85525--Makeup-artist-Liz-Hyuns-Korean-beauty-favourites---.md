@@ -1,12 +1,12 @@
 ---
-title: "Record b2e3a85525 · Makeup-artist-Liz-Hyuns-Korean-beauty-favourites---Fashion-Journal"
+title: "Record b2e3a85525 · Makeup-artist-Liz-Hyuns-Korean-beauty-favourites---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.812996+00:00
+updated_at: 2026-09-13T00:56:37.651029+00:00
 tags: [record, real-data]
 ---
 
-# Record b2e3a85525 · Makeup-artist-Liz-Hyuns-Korean-beauty-favourites---Fashion-Journal
+# Record b2e3a85525 · Makeup-artist-Liz-Hyuns-Korean-beauty-favourites---
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9CVjJ5aDhRQVVFcWJWUTJTZE5JM0VPTzFVRFpvWHZHTmZXalplU0RKTVA3V0NXVm1pWkI0STZGSkdtQWNCSHJ0MTNsc2tHcHNDZjlsTkU2N2RyT2lpeTNLMVE3YjdSUEk?oc=5)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 73ae84c09e · Booz-Allen-Expands-Mission-Grade-Cyber-Defense-Product-Suite"
+title: "Record 73ae84c09e · Booz-Allen-Expands-Mission-Grade-Cyber-Defense-Prod"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.748374+00:00
+updated_at: 2026-09-13T00:56:37.591277+00:00
 tags: [record, real-data]
 ---
 
-# Record 73ae84c09e · Booz-Allen-Expands-Mission-Grade-Cyber-Defense-Product-Suite
+# Record 73ae84c09e · Booz-Allen-Expands-Mission-Grade-Cyber-Defense-Prod
 
 > 실제 수집 레코드입니다. 원문: [investors.boozallen.com](https://investors.boozallen.com/news-releases/news-release-details/booz-allen-expands-mission-grade-cyber-defense-product-suite)
 

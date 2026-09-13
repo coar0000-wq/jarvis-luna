@@ -1,12 +1,12 @@
 ---
-title: "Record eac6c4d283 · The-US-Interconnection-Queue-System-Cascading-Vulnerability-Analysis-a"
+title: "Record eac6c4d283 · The-US-Interconnection-Queue-System-Cascading-Vulne"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.542008+00:00
+updated_at: 2026-09-13T00:56:37.404759+00:00
 tags: [record, real-data]
 ---
 
-# Record eac6c4d283 · The-US-Interconnection-Queue-System-Cascading-Vulnerability-Analysis-a
+# Record eac6c4d283 · The-US-Interconnection-Queue-System-Cascading-Vulne
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.10455v1)
 

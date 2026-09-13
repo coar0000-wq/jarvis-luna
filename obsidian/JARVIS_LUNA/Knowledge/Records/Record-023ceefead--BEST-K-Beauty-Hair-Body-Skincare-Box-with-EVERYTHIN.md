@@ -1,12 +1,12 @@
 ---
-title: "Record 023ceefead · BEST-K-Beauty-Hair-Body-Skincare-Box-with-EVERYTHING-U-NEED"
+title: "Record 023ceefead · BEST-K-Beauty-Hair-Body-Skincare-Box-with-EVERYTHIN"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.201901+00:00
+updated_at: 2026-09-13T00:56:38.003357+00:00
 tags: [record, real-data]
 ---
 
-# Record 023ceefead · BEST-K-Beauty-Hair-Body-Skincare-Box-with-EVERYTHING-U-NEED
+# Record 023ceefead · BEST-K-Beauty-Hair-Body-Skincare-Box-with-EVERYTHIN
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/shorts/fcqharWxxDo)
 

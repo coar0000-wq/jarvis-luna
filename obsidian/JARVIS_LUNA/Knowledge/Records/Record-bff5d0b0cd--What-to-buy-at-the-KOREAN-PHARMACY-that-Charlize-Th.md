@@ -1,12 +1,12 @@
 ---
-title: "Record bff5d0b0cd · What-to-buy-at-the-KOREAN-PHARMACY-that-Charlize-Theron-visited"
+title: "Record bff5d0b0cd · What-to-buy-at-the-KOREAN-PHARMACY-that-Charlize-Th"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.203828+00:00
+updated_at: 2026-09-13T00:56:38.006033+00:00
 tags: [record, real-data]
 ---
 
-# Record bff5d0b0cd · What-to-buy-at-the-KOREAN-PHARMACY-that-Charlize-Theron-visited
+# Record bff5d0b0cd · What-to-buy-at-the-KOREAN-PHARMACY-that-Charlize-Th
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/shorts/kLP780UL-vU)
 

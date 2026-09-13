@@ -1,12 +1,12 @@
 ---
-title: "Record b96ec50fc8 · How-AI-Is-Making-Ecommerce-Migration-Faster-More-Predictable-2026---Sh"
+title: "Record b96ec50fc8 · How-AI-Is-Making-Ecommerce-Migration-Faster-More-Pr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.834467+00:00
+updated_at: 2026-09-13T00:56:37.670688+00:00
 tags: [record, real-data]
 ---
 
-# Record b96ec50fc8 · How-AI-Is-Making-Ecommerce-Migration-Faster-More-Predictable-2026---Sh
+# Record b96ec50fc8 · How-AI-Is-Making-Ecommerce-Migration-Faster-More-Pr
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMib0FVX3lxTE80blNvdVBSeEVZV296dTFRel9TUF8wX3lhc3AzaGQydVpfMjBrYzVwNnBpY0NTX05Dc0twUEM0ekVyaWJiSUtFd1kxczVrM0tTRk9lcGM0VjVGQzRRQlJHS3RSUUpjbVgxUjV3bGtiUQ?oc=5)
 

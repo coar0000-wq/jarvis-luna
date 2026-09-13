@@ -1,12 +1,12 @@
 ---
-title: "Record 65aaa77c15 · The-latest-fleeting-TikTok-beauty-trend-Looking-tired---CNN"
+title: "Record 65aaa77c15 · The-latest-fleeting-TikTok-beauty-trend-Looking-tir"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.901310+00:00
+updated_at: 2026-09-13T00:56:37.736149+00:00
 tags: [record, real-data]
 ---
 
-# Record 65aaa77c15 · The-latest-fleeting-TikTok-beauty-trend-Looking-tired---CNN
+# Record 65aaa77c15 · The-latest-fleeting-TikTok-beauty-trend-Looking-tir
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMihwFBVV95cUxPYlYzODItQm9reDc0MGs5OXZZU1NxN1Jvb0RsbnpfNi12a1lIQ0dQU2RXaWZHUmlWWlBMYXE0a0lSa2sxSXlCVWkzZzIzNFNyTHVUUjF5TTU0cURtaHcxNVRTMkNST2ZrV1B1NTFBVHQ2UTZ0a3M0WEt4bi1vNVpySlVfQmJVU2c?oc=5)
 

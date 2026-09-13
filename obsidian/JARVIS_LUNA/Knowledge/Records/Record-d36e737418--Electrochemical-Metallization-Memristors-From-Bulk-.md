@@ -1,12 +1,12 @@
 ---
-title: "Record d36e737418 · Electrochemical-Metallization-Memristors-From-Bulk-to-2D-Materials"
+title: "Record d36e737418 · Electrochemical-Metallization-Memristors-From-Bulk-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.572670+00:00
+updated_at: 2026-09-13T00:56:37.436414+00:00
 tags: [record, real-data]
 ---
 
-# Record d36e737418 · Electrochemical-Metallization-Memristors-From-Bulk-to-2D-Materials
+# Record d36e737418 · Electrochemical-Metallization-Memristors-From-Bulk-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1002/adfm.76117)
 

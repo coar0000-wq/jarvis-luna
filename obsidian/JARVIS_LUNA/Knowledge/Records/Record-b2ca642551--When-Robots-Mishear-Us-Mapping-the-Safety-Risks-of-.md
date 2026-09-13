@@ -1,12 +1,12 @@
 ---
-title: "Record b2ca642551 · When-Robots-Mishear-Us-Mapping-the-Safety-Risks-of-Voice-Controlled-Em"
+title: "Record b2ca642551 · When-Robots-Mishear-Us-Mapping-the-Safety-Risks-of-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.467450+00:00
+updated_at: 2026-09-13T00:56:37.337437+00:00
 tags: [record, real-data]
 ---
 
-# Record b2ca642551 · When-Robots-Mishear-Us-Mapping-the-Safety-Risks-of-Voice-Controlled-Em
+# Record b2ca642551 · When-Robots-Mishear-Us-Mapping-the-Safety-Risks-of-
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.28518v1)
 

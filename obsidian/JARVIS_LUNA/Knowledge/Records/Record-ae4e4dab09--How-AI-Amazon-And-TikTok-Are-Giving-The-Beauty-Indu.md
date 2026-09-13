@@ -1,12 +1,12 @@
 ---
-title: "Record ae4e4dab09 · How-AI-Amazon-And-TikTok-Are-Giving-The-Beauty-Industry-A-Makeover---F"
+title: "Record ae4e4dab09 · How-AI-Amazon-And-TikTok-Are-Giving-The-Beauty-Indu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.986118+00:00
+updated_at: 2026-09-13T00:56:37.813940+00:00
 tags: [record, real-data]
 ---
 
-# Record ae4e4dab09 · How-AI-Amazon-And-TikTok-Are-Giving-The-Beauty-Industry-A-Makeover---F
+# Record ae4e4dab09 · How-AI-Amazon-And-TikTok-Are-Giving-The-Beauty-Indu
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZEhXd2Z3LUJpc1FqNnM5VHF4WllfLTRjVGZqV2lTVGVHcHVTbnBHd3lvNHlmdTROR01IRkZNc25WVnRHTlZvM21MaDdwOGpEbDh5ZzB4OE9ORHZrVzZtNmk1a05qVWU1UEdNVk1mYUNibHFwTGVpV0llamFOMy1EemJIUHJibnk3ai1RbDFaazRoN21YZThVU3B3M2ljZThsV2hJZzNhNXpFQW1XY0UtZlhsMnVmRVgyeUUtZHA3WmRJeXM?oc=5)
 

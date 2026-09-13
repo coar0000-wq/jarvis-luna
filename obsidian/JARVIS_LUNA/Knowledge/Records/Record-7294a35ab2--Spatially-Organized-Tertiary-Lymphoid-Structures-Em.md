@@ -1,12 +1,12 @@
 ---
-title: "Record 7294a35ab2 · Spatially-Organized-Tertiary-Lymphoid-Structures-Emerge-in-Small-Cell-"
+title: "Record 7294a35ab2 · Spatially-Organized-Tertiary-Lymphoid-Structures-Em"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.733132+00:00
+updated_at: 2026-09-13T00:56:37.577131+00:00
 tags: [record, real-data]
 ---
 
-# Record 7294a35ab2 · Spatially-Organized-Tertiary-Lymphoid-Structures-Emerge-in-Small-Cell-
+# Record 7294a35ab2 · Spatially-Organized-Tertiary-Lymphoid-Structures-Em
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.64898/2026.08.08.743663)
 

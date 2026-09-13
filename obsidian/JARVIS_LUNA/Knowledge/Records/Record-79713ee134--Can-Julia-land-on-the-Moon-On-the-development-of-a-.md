@@ -1,12 +1,12 @@
 ---
-title: "Record 79713ee134 · Can-Julia-land-on-the-Moon-On-the-development-of-a-GNC-simulation-fram"
+title: "Record 79713ee134 · Can-Julia-land-on-the-Moon-On-the-development-of-a-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.485345+00:00
+updated_at: 2026-09-13T00:56:37.353325+00:00
 tags: [record, real-data]
 ---
 
-# Record 79713ee134 · Can-Julia-land-on-the-Moon-On-the-development-of-a-GNC-simulation-fram
+# Record 79713ee134 · Can-Julia-land-on-the-Moon-On-the-development-of-a-
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.03843v1)
 

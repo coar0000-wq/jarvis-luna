@@ -1,12 +1,12 @@
 ---
-title: "Record 262a816690 · AI-Enabled-Emergency-Communication-Networks-Transforming-Crisis-Respon"
+title: "Record 262a816690 · AI-Enabled-Emergency-Communication-Networks-Transfo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.726997+00:00
+updated_at: 2026-09-13T00:56:37.571335+00:00
 tags: [record, real-data]
 ---
 
-# Record 262a816690 · AI-Enabled-Emergency-Communication-Networks-Transforming-Crisis-Respon
+# Record 262a816690 · AI-Enabled-Emergency-Communication-Networks-Transfo
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.59573/emsj.9(4).2025.20)
 

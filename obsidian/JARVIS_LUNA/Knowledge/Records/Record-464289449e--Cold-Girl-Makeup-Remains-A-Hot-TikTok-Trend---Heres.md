@@ -1,12 +1,12 @@
 ---
-title: "Record 464289449e · Cold-Girl-Makeup-Remains-A-Hot-TikTok-Trend---Heres-How-To-Pull-It-Off"
+title: "Record 464289449e · Cold-Girl-Makeup-Remains-A-Hot-TikTok-Trend---Heres"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.883274+00:00
+updated_at: 2026-09-13T00:56:37.719456+00:00
 tags: [record, real-data]
 ---
 
-# Record 464289449e · Cold-Girl-Makeup-Remains-A-Hot-TikTok-Trend---Heres-How-To-Pull-It-Off
+# Record 464289449e · Cold-Girl-Makeup-Remains-A-Hot-TikTok-Trend---Heres
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMifkFVX3lxTE5tR0dyWGllWUpwVjg0cmJ6Vl90bnJIOERIVlk1RXlZLUR1LUhHUEtkUDY4N1Z1ekRrUWFTMFZFMnR5WG1tZ0Flb1lDU2NGTDZ0YlhEU1MtaDM0c3JqOUpfdjAyQXFpNTZKdE4tOFp3RjZhaFNsMDliWExORmQyUQ?oc=5)
 

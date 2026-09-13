@@ -1,12 +1,12 @@
 ---
-title: "Record 96900feeaa · From-Grid-to-Chip-Power-Architecture-Stability-and-Flexibility-of-AI-D"
+title: "Record 96900feeaa · From-Grid-to-Chip-Power-Architecture-Stability-and-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.552904+00:00
+updated_at: 2026-09-13T00:56:37.415865+00:00
 tags: [record, real-data]
 ---
 
-# Record 96900feeaa · From-Grid-to-Chip-Power-Architecture-Stability-and-Flexibility-of-AI-D
+# Record 96900feeaa · From-Grid-to-Chip-Power-Architecture-Stability-and-
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.11649v1)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record ae2922e3a2 · Improving-the-performance-of-radiology-report-de-identification-with-l"
+title: "Record ae2922e3a2 · Improving-the-performance-of-radiology-report-de-id"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.658306+00:00
+updated_at: 2026-09-13T00:56:37.514849+00:00
 tags: [record, real-data]
 ---
 
-# Record ae2922e3a2 · Improving-the-performance-of-radiology-report-de-identification-with-l
+# Record ae2922e3a2 · Improving-the-performance-of-radiology-report-de-id
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1186/s12911-026-03744-2)
 

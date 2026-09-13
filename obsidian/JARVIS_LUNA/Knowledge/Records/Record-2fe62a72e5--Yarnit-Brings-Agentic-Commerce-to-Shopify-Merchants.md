@@ -1,12 +1,12 @@
 ---
-title: "Record 2fe62a72e5 · Yarnit-Brings-Agentic-Commerce-to-Shopify-Merchants-with-CatalogIQ-and"
+title: "Record 2fe62a72e5 · Yarnit-Brings-Agentic-Commerce-to-Shopify-Merchants"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.990931+00:00
+updated_at: 2026-09-13T00:56:37.818376+00:00
 tags: [record, real-data]
 ---
 
-# Record 2fe62a72e5 · Yarnit-Brings-Agentic-Commerce-to-Shopify-Merchants-with-CatalogIQ-and
+# Record 2fe62a72e5 · Yarnit-Brings-Agentic-Commerce-to-Shopify-Merchants
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMizgFBVV95cUxQdld0aFZWRnFIUUtrYmh6REt4REJtTXF4a3AzcnZWYkJMNHQ0bGhTbVNYbXNQWXZiemlwM1E2R3JDYjlSMHZkWHZMcEh3TkVIWVVRbTdRM09XUkdpaDZjTlQ5UlpfMkFWZGR2Mnc1Mkl4Wlk5T0Exd3JjZUxiSWx6U1hzRF82Y3BFa0hJUDJteE5FSWZGMXNTTDFZVWxwcmJqdngwUEVMTkF4c0s2OU0zX0xYb0pwWnhHY2p5SDZKdWhfc1E0OWdHUmx0TC02QQ?oc=5)
 

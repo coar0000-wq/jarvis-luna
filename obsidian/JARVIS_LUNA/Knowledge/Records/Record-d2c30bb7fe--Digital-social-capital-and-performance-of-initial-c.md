@@ -1,12 +1,12 @@
 ---
-title: "Record d2c30bb7fe · Digital-social-capital-and-performance-of-initial-coin-offerings"
+title: "Record d2c30bb7fe · Digital-social-capital-and-performance-of-initial-c"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.601767+00:00
+updated_at: 2026-09-13T00:56:37.463929+00:00
 tags: [record, real-data]
 ---
 
-# Record d2c30bb7fe · Digital-social-capital-and-performance-of-initial-coin-offerings
+# Record d2c30bb7fe · Digital-social-capital-and-performance-of-initial-c
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.techfore.2019.119888)
 

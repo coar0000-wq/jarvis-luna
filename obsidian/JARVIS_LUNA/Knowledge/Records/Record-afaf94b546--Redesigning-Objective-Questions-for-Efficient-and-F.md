@@ -1,12 +1,12 @@
 ---
-title: "Record afaf94b546 · Redesigning-Objective-Questions-for-Efficient-and-Fair-Assessment-in-T"
+title: "Record afaf94b546 · Redesigning-Objective-Questions-for-Efficient-and-F"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.641933+00:00
+updated_at: 2026-09-13T00:56:37.500910+00:00
 tags: [record, real-data]
 ---
 
-# Record afaf94b546 · Redesigning-Objective-Questions-for-Efficient-and-Fair-Assessment-in-T
+# Record afaf94b546 · Redesigning-Objective-Questions-for-Efficient-and-F
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1109/te.2026.3693554)
 

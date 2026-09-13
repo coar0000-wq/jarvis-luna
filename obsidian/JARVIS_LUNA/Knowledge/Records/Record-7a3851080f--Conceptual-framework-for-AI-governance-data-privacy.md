@@ -1,12 +1,12 @@
 ---
-title: "Record 7a3851080f · Conceptual-framework-for-AI-governance-data-privacy-compliance-and-fin"
+title: "Record 7a3851080f · Conceptual-framework-for-AI-governance-data-privacy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.702793+00:00
+updated_at: 2026-09-13T00:56:37.551030+00:00
 tags: [record, real-data]
 ---
 
-# Record 7a3851080f · Conceptual-framework-for-AI-governance-data-privacy-compliance-and-fin
+# Record 7a3851080f · Conceptual-framework-for-AI-governance-data-privacy
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.51594/csitrj.v7i4.2246)
 

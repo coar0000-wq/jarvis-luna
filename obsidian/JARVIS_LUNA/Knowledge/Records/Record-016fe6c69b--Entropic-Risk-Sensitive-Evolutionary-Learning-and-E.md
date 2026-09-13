@@ -1,12 +1,12 @@
 ---
-title: "Record 016fe6c69b · Entropic-Risk-Sensitive-Evolutionary-Learning-and-Equilibrium-Selectio"
+title: "Record 016fe6c69b · Entropic-Risk-Sensitive-Evolutionary-Learning-and-E"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.517170+00:00
+updated_at: 2026-09-13T00:56:37.382267+00:00
 tags: [record, real-data]
 ---
 
-# Record 016fe6c69b · Entropic-Risk-Sensitive-Evolutionary-Learning-and-Equilibrium-Selectio
+# Record 016fe6c69b · Entropic-Risk-Sensitive-Evolutionary-Learning-and-E
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.08677v1)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 9bd2a6124b · ARM-Institute-gets-90M-for-10-projects-to-modernize-military-manufactu"
+title: "Record 9bd2a6124b · ARM-Institute-gets-90M-for-10-projects-to-modernize"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.171211+00:00
+updated_at: 2026-09-13T00:56:37.978887+00:00
 tags: [record, real-data]
 ---
 
-# Record 9bd2a6124b · ARM-Institute-gets-90M-for-10-projects-to-modernize-military-manufactu
+# Record 9bd2a6124b · ARM-Institute-gets-90M-for-10-projects-to-modernize
 
 > 실제 수집 레코드입니다. 원문: [www.therobotreport.com](https://www.therobotreport.com/arm-institute-gets-90m-for-10-projects-to-modernize-military-manufacturing/)
 

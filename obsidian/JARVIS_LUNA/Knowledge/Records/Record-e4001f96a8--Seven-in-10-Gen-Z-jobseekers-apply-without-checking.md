@@ -1,12 +1,12 @@
 ---
-title: "Record e4001f96a8 · Seven-in-10-Gen-Z-jobseekers-apply-without-checking-whether-roles-are-"
+title: "Record e4001f96a8 · Seven-in-10-Gen-Z-jobseekers-apply-without-checking"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.746798+00:00
+updated_at: 2026-09-13T00:56:37.589853+00:00
 tags: [record, real-data]
 ---
 
-# Record e4001f96a8 · Seven-in-10-Gen-Z-jobseekers-apply-without-checking-whether-roles-are-
+# Record e4001f96a8 · Seven-in-10-Gen-Z-jobseekers-apply-without-checking
 
 > 실제 수집 레코드입니다. 원문: [home.barclays](https://home.barclays/news/press-releases/20260/090/seven-in-10-gen-z-jobseekers-apply-without-checking-whether-role/)
 

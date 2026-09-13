@@ -1,12 +1,12 @@
 ---
-title: "Record e8ca7c943f · Leveraging-von-Mises-Message-Passing-for-Massive-MIMO-Detection"
+title: "Record e8ca7c943f · Leveraging-von-Mises-Message-Passing-for-Massive-MI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.039723+00:00
+updated_at: 2026-09-13T00:56:37.864121+00:00
 tags: [record, real-data]
 ---
 
-# Record e8ca7c943f · Leveraging-von-Mises-Message-Passing-for-Massive-MIMO-Detection
+# Record e8ca7c943f · Leveraging-von-Mises-Message-Passing-for-Massive-MI
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7170111744)
 

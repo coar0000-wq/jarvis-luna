@@ -1,12 +1,12 @@
 ---
-title: "Record 75f22c1ef3 · Expanding-Healthcare-Access-With-Nmtc-Equity-Investment"
+title: "Record 75f22c1ef3 · Expanding-Healthcare-Access-With-Nmtc-Equity-Invest"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.142939+00:00
+updated_at: 2026-09-13T00:56:37.955831+00:00
 tags: [record, real-data]
 ---
 
-# Record 75f22c1ef3 · Expanding-Healthcare-Access-With-Nmtc-Equity-Investment
+# Record 75f22c1ef3 · Expanding-Healthcare-Access-With-Nmtc-Equity-Invest
 
 > 실제 수집 레코드입니다. 원문: [www.jpmorgan.com](https://www.jpmorgan.com/insights/real-estate/community-development-banking/expanding-healthcare-access-with-nmtc-equity-investment)
 

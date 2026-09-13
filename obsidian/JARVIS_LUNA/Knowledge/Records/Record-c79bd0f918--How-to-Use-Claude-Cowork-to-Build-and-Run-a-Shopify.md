@@ -1,12 +1,12 @@
 ---
-title: "Record c79bd0f918 · How-to-Use-Claude-Cowork-to-Build-and-Run-a-Shopify-Store"
+title: "Record c79bd0f918 · How-to-Use-Claude-Cowork-to-Build-and-Run-a-Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.214635+00:00
+updated_at: 2026-09-13T00:56:38.016909+00:00
 tags: [record, real-data]
 ---
 
-# Record c79bd0f918 · How-to-Use-Claude-Cowork-to-Build-and-Run-a-Shopify-Store
+# Record c79bd0f918 · How-to-Use-Claude-Cowork-to-Build-and-Run-a-Shopify
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/watch?v=IQDtl0Dacjo)
 

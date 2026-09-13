@@ -1,12 +1,12 @@
 ---
-title: "Record 7c2fd9e210 · Glowcations-Are-Trending-on-TikTok--I-Put-it-to-the-Test-at-Coachella-"
+title: "Record 7c2fd9e210 · Glowcations-Are-Trending-on-TikTok--I-Put-it-to-the"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.877360+00:00
+updated_at: 2026-09-13T00:56:37.714113+00:00
 tags: [record, real-data]
 ---
 
-# Record 7c2fd9e210 · Glowcations-Are-Trending-on-TikTok--I-Put-it-to-the-Test-at-Coachella-
+# Record 7c2fd9e210 · Glowcations-Are-Trending-on-TikTok--I-Put-it-to-the
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMif0FVX3lxTFBINEcxQ2VXdjRLVWliaFVHeTFTZmQ3d2EtZW83MzA0aHlIN1JHaGdSd3RXSTVvNE5USkpPRXU3WnBQZkY0WUZfZzdrRngxVUJmWHZIYVBEVW9ybS1JcWExRmREZl9tYWtaZnNNX00weS12MEtzaDJzblpZQ04xaUE?oc=5)
 

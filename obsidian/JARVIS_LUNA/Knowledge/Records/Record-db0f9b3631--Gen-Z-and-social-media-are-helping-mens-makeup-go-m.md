@@ -1,12 +1,12 @@
 ---
-title: "Record db0f9b3631 · Gen-Z-and-social-media-are-helping-mens-makeup-go-mainstream-The-beaut"
+title: "Record db0f9b3631 · Gen-Z-and-social-media-are-helping-mens-makeup-go-m"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.911776+00:00
+updated_at: 2026-09-13T00:56:37.745798+00:00
 tags: [record, real-data]
 ---
 
-# Record db0f9b3631 · Gen-Z-and-social-media-are-helping-mens-makeup-go-mainstream-The-beaut
+# Record db0f9b3631 · Gen-Z-and-social-media-are-helping-mens-makeup-go-m
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMijAFBVV95cUxOLU1ZbW9HSWFaSXlBT0JHQTlvRks1aUFMV0FKbjR4Q1hSekp1UE1pVkFwZmNvZkMyM29YZUk1YnpqZzVWVFd1OExuODA4bFFnYkdrQlBKd0s3QzNKTkZxTERWV3dmQ3E3VWpEQ3lkaTJfOV9tdDB2U0JZWFRZS0ZUTzdxZlltVXgzWFFUd9IBkgFBVV95cUxOM0NtN3FDUWpMNjc3OHFfSXhpWXNEclJuUjZLUmRWUk5KVlNKSWwtQ0p4UF85Wko1WHNDSC0wZ3FoekFNZUJFa3BRWGtfR2c1RTc1SjRPbHpxN3llRWtDbjNRMHB5WVVsMm9GaENWWmYyVC15ektiZE85NFl2WElTM1dLZmNYOUNDdTV2YUV4WHdVZw?oc=5)
 

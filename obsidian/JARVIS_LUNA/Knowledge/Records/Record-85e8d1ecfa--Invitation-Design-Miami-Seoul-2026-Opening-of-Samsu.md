@@ -1,12 +1,12 @@
 ---
-title: "Record 85e8d1ecfa · Invitation-Design-Miami-Seoul-2026-Opening-of-Samsungs-Design-Is-an-Ac"
+title: "Record 85e8d1ecfa · Invitation-Design-Miami-Seoul-2026-Opening-of-Samsu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.993198+00:00
+updated_at: 2026-09-13T00:56:37.820484+00:00
 tags: [record, real-data]
 ---
 
-# Record 85e8d1ecfa · Invitation-Design-Miami-Seoul-2026-Opening-of-Samsungs-Design-Is-an-Ac
+# Record 85e8d1ecfa · Invitation-Design-Miami-Seoul-2026-Opening-of-Samsu
 
 > 실제 수집 레코드입니다. 원문: [news.samsung.com](https://news.samsung.com/global/invitation-design-miami-seoul-2026-opening-of-samsungs-design-is-an-act-of-love-exhibition)
 

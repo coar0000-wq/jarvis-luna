@@ -1,12 +1,12 @@
 ---
-title: "Record 69039c8ab1 · Biodance-Hydro-Cera-nol-Real-Deep-Mask-4ct-119-oz34g"
+title: "Record 69039c8ab1 · Biodance-Hydro-Cera-nol-Real-Deep-Mask-4ct-119-oz34"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.064523+00:00
+updated_at: 2026-09-13T00:56:37.886497+00:00
 tags: [record, real-data]
 ---
 
-# Record 69039c8ab1 · Biodance-Hydro-Cera-nol-Real-Deep-Mask-4ct-119-oz34g
+# Record 69039c8ab1 · Biodance-Hydro-Cera-nol-Real-Deep-Mask-4ct-119-oz34
 
 > 실제 수집 레코드입니다. 원문: [us.oliveyoung.com](https://us.oliveyoung.com/products/UA49579943)
 

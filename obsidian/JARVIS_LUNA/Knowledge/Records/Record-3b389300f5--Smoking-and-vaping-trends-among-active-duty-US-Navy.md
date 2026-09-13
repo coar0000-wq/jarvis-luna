@@ -1,12 +1,12 @@
 ---
-title: "Record 3b389300f5 · Smoking-and-vaping-trends-among-active-duty-US-Navy-and-Marine-Corps-p"
+title: "Record 3b389300f5 · Smoking-and-vaping-trends-among-active-duty-US-Navy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.627852+00:00
+updated_at: 2026-09-13T00:56:37.487924+00:00
 tags: [record, real-data]
 ---
 
-# Record 3b389300f5 · Smoking-and-vaping-trends-among-active-duty-US-Navy-and-Marine-Corps-p
+# Record 3b389300f5 · Smoking-and-vaping-trends-among-active-duty-US-Navy
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1093/ntr/ntag188)
 

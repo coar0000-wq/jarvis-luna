@@ -1,12 +1,12 @@
 ---
-title: "Record 4b698cda85 · Advances-in-gate-stack-development-for-p-type-2D-channel-FETs-through-"
+title: "Record 4b698cda85 · Advances-in-gate-stack-development-for-p-type-2D-ch"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.616498+00:00
+updated_at: 2026-09-13T00:56:37.477327+00:00
 tags: [record, real-data]
 ---
 
-# Record 4b698cda85 · Advances-in-gate-stack-development-for-p-type-2D-channel-FETs-through-
+# Record 4b698cda85 · Advances-in-gate-stack-development-for-p-type-2D-ch
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1038/s41699-026-00728-8)
 

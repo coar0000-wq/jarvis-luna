@@ -1,12 +1,12 @@
 ---
-title: "Record 113450b939 · Task-Automation-for-Ecommerce-How-to-Save-Time-and-Scale-2025---Shopif"
+title: "Record 113450b939 · Task-Automation-for-Ecommerce-How-to-Save-Time-and-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.820466+00:00
+updated_at: 2026-09-13T00:56:37.657830+00:00
 tags: [record, real-data]
 ---
 
-# Record 113450b939 · Task-Automation-for-Ecommerce-How-to-Save-Time-and-Scale-2025---Shopif
+# Record 113450b939 · Task-Automation-for-Ecommerce-How-to-Save-Time-and-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiZkFVX3lxTE5EeFFGbC0wU2x5MjkzUEgzdzFwNHhNRUh3TUVvMFhVZEthRzJLbkptYTZoenJzc0VxQUxyMlp4amhPRVBoQzQ3UWxaZjhOUEhLdkZGNG83UGh3ZFpsYjNwRlF0dUk1QQ?oc=5)
 

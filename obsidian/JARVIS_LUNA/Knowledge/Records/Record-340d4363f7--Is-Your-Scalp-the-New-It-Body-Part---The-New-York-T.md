@@ -1,12 +1,12 @@
 ---
-title: "Record 340d4363f7 · Is-Your-Scalp-the-New-It-Body-Part---The-New-York-Times"
+title: "Record 340d4363f7 · Is-Your-Scalp-the-New-It-Body-Part---The-New-York-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.885988+00:00
+updated_at: 2026-09-13T00:56:37.721925+00:00
 tags: [record, real-data]
 ---
 
-# Record 340d4363f7 · Is-Your-Scalp-the-New-It-Body-Part---The-New-York-Times
+# Record 340d4363f7 · Is-Your-Scalp-the-New-It-Body-Part---The-New-York-T
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMigAFBVV95cUxPa2dnTUcwVFpScWtqaUNITjFsNDVsR1NFSHpINW1xZ0J6Q3ZoVG12MDF6Y210VHJaQkFKZTBzaWFWUm1RTGRlZDFyWlRra2ZxOE1GMldzdFN1MnJiTktIWUw3QjVRQndZMEZMQ3VabFk2Uk1qdk14VTcwMEw3OFU1Vw?oc=5)
 

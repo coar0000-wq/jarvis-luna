@@ -1,12 +1,12 @@
 ---
-title: "Record 02a155e436 · Real-Time-Talent-Liquidity-Dashboards-for-Adaptive-Workforce-Allocatio"
+title: "Record 02a155e436 · Real-Time-Talent-Liquidity-Dashboards-for-Adaptive-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.737892+00:00
+updated_at: 2026-09-13T00:56:37.581608+00:00
 tags: [record, real-data]
 ---
 
-# Record 02a155e436 · Real-Time-Talent-Liquidity-Dashboards-for-Adaptive-Workforce-Allocatio
+# Record 02a155e436 · Real-Time-Talent-Liquidity-Dashboards-for-Adaptive-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.7759/s44389-026-00180-1)
 

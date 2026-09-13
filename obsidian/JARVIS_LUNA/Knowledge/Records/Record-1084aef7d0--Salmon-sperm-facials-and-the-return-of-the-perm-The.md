@@ -1,12 +1,12 @@
 ---
-title: "Record 1084aef7d0 · Salmon-sperm-facials-and-the-return-of-the-perm-The-best-wildest-and-w"
+title: "Record 1084aef7d0 · Salmon-sperm-facials-and-the-return-of-the-perm-The"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.780847+00:00
+updated_at: 2026-09-13T00:56:37.621531+00:00
 tags: [record, real-data]
 ---
 
-# Record 1084aef7d0 · Salmon-sperm-facials-and-the-return-of-the-perm-The-best-wildest-and-w
+# Record 1084aef7d0 · Salmon-sperm-facials-and-the-return-of-the-perm-The
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMi8gFBVV95cUxNdjlyM1Q3MktraU9ZcWV4N1NGcXZtZ1FmU1RQdE8xcWxsMk5xUVAwU1lBZTBEYUJ4M2pBY2JJblRRYXEyUHViWjI3NTdrZi05TE1WMzhpd2tmLXlFMUQ2TmV6VEJJV1ZLTWtQNVdxQXVFUUNCaFdLLUVYX2liM2NpeWlOZVBuaHZHZ0d2WTlaUTBQS2RnTnBTeTFPd2oybU1qdmRtSmFmTmNQUzYxbGZJLVp0THdNSUJkLUlKX1RZNTdoT1F0TTc3cWFHNkoxbUw1c1ZmMGVEYk42N3Z1QzRLbW56c1pIcXNxUXVrMUtOZHVOdw?oc=5)
 

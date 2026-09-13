@@ -1,12 +1,12 @@
 ---
-title: "Record f67542c704 · Finding-and-using-interpretable-latents-in-a-neutrino-foundation-model"
+title: "Record f67542c704 · Finding-and-using-interpretable-latents-in-a-neutri"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.268994+00:00
+updated_at: 2026-09-13T00:56:38.063706+00:00
 tags: [record, real-data]
 ---
 
-# Record f67542c704 · Finding-and-using-interpretable-latents-in-a-neutrino-foundation-model
+# Record f67542c704 · Finding-and-using-interpretable-latents-in-a-neutri
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.26090v1)
 

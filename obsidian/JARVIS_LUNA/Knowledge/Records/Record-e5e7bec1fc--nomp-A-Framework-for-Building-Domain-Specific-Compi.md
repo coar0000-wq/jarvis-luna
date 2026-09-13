@@ -1,12 +1,12 @@
 ---
-title: "Record e5e7bec1fc · nomp-A-Framework-for-Building-Domain-Specific-Compilers"
+title: "Record e5e7bec1fc · nomp-A-Framework-for-Building-Domain-Specific-Compi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.030211+00:00
+updated_at: 2026-09-13T00:56:37.854521+00:00
 tags: [record, real-data]
 ---
 
-# Record e5e7bec1fc · nomp-A-Framework-for-Building-Domain-Specific-Compilers
+# Record e5e7bec1fc · nomp-A-Framework-for-Building-Domain-Specific-Compi
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7164700538)
 

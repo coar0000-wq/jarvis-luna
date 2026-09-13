@@ -1,12 +1,12 @@
 ---
-title: "Record 573d10d06a · UNOVE-Damage-Repair-Hydrating-Conditioner-Tender-Bloom-98-fl-oz290ml"
+title: "Record 573d10d06a · UNOVE-Damage-Repair-Hydrating-Conditioner-Tender-Bl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.057397+00:00
+updated_at: 2026-09-13T00:56:37.880027+00:00
 tags: [record, real-data]
 ---
 
-# Record 573d10d06a · UNOVE-Damage-Repair-Hydrating-Conditioner-Tender-Bloom-98-fl-oz290ml
+# Record 573d10d06a · UNOVE-Damage-Repair-Hydrating-Conditioner-Tender-Bl
 
 > 실제 수집 레코드입니다. 원문: [us.oliveyoung.com](https://us.oliveyoung.com/products/UA15525477)
 

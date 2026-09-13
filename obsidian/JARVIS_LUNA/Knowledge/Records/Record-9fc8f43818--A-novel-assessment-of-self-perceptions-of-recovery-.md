@@ -1,12 +1,12 @@
 ---
-title: "Record 9fc8f43818 · A-novel-assessment-of-self-perceptions-of-recovery-from-illness-and-in"
+title: "Record 9fc8f43818 · A-novel-assessment-of-self-perceptions-of-recovery-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.685721+00:00
+updated_at: 2026-09-13T00:56:37.537261+00:00
 tags: [record, real-data]
 ---
 
-# Record 9fc8f43818 · A-novel-assessment-of-self-perceptions-of-recovery-from-illness-and-in
+# Record 9fc8f43818 · A-novel-assessment-of-self-perceptions-of-recovery-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.3389/fresc.2026.1846239)
 

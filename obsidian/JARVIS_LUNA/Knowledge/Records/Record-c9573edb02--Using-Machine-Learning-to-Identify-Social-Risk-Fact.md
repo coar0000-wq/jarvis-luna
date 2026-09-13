@@ -1,12 +1,12 @@
 ---
-title: "Record c9573edb02 · Using-Machine-Learning-to-Identify-Social-Risk-Factors-of-Hypertension"
+title: "Record c9573edb02 · Using-Machine-Learning-to-Identify-Social-Risk-Fact"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.654339+00:00
+updated_at: 2026-09-13T00:56:37.511543+00:00
 tags: [record, real-data]
 ---
 
-# Record c9573edb02 · Using-Machine-Learning-to-Identify-Social-Risk-Factors-of-Hypertension
+# Record c9573edb02 · Using-Machine-Learning-to-Identify-Social-Risk-Fact
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1161/jaha.125.049029)
 

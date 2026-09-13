@@ -1,12 +1,12 @@
 ---
-title: "Record 474fc8bb05 · 15-Under-the-Radar-K-Beauty-Brands-You-Should-Know-About-In-2026---Mar"
+title: "Record 474fc8bb05 · 15-Under-the-Radar-K-Beauty-Brands-You-Should-Know-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.924992+00:00
+updated_at: 2026-09-13T00:56:37.757867+00:00
 tags: [record, real-data]
 ---
 
-# Record 474fc8bb05 · 15-Under-the-Radar-K-Beauty-Brands-You-Should-Know-About-In-2026---Mar
+# Record 474fc8bb05 · 15-Under-the-Radar-K-Beauty-Brands-You-Should-Know-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMikwFBVV95cUxOc1VyMC11Zzd0YmlIc1RELWhqLUNjdVJuamF3NVdzTGRmQ1JuR2tYaEdEVEV4d2p6ZGxYODl3ZHQtZEg4aTlrZ1VxTlpvcURXVEFVaHdUSWJpUVdEVEVKM0c0b3RZc2NPbHE4dE9xOEFZQjRFWlUyTkNZSWtzM0xSWC1mMXF0OUg2MWdMM3NDV29ZeEk?oc=5)
 

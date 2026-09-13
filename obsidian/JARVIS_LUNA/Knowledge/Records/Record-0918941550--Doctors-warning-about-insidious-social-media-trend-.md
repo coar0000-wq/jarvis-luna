@@ -1,12 +1,12 @@
 ---
-title: "Record 0918941550 · Doctors-warning-about-insidious-social-media-trend-damaging-teen-girls"
+title: "Record 0918941550 · Doctors-warning-about-insidious-social-media-trend-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.942601+00:00
+updated_at: 2026-09-13T00:56:37.774086+00:00
 tags: [record, real-data]
 ---
 
-# Record 0918941550 · Doctors-warning-about-insidious-social-media-trend-damaging-teen-girls
+# Record 0918941550 · Doctors-warning-about-insidious-social-media-trend-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMinAFBVV95cUxNMVRHbE1VX3pQOWR1Rnk5bzV1QXdTVHpKRkJUUlBQUTlNdFE0ZEdWb3RGc01nZjZTLTVpZG1TMkFWYnhmLWl1bXNQajB1U0FhTUxBc3A0UEZSWm1NSnZxd2hZR1FzOFFSUlF0eS1SUkgyaGI3cGV6QmxTaVNpTlk3SDh4U0k2QUluWl9ZVDRzazZqLTItbHRFdVRVNlM?oc=5)
 

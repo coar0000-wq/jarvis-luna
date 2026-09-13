@@ -1,12 +1,12 @@
 ---
-title: "Record 344cefa309 · Trust-treat-culture-and-TikTok-Shop-The-beauty-trends-to-watch-for-thi"
+title: "Record 344cefa309 · Trust-treat-culture-and-TikTok-Shop-The-beauty-tren"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.986784+00:00
+updated_at: 2026-09-13T00:56:37.814574+00:00
 tags: [record, real-data]
 ---
 
-# Record 344cefa309 · Trust-treat-culture-and-TikTok-Shop-The-beauty-trends-to-watch-for-thi
+# Record 344cefa309 · Trust-treat-culture-and-TikTok-Shop-The-beauty-tren
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiwwFBVV95cUxQT2F4cDd5T25jRGI1eXEyWGxQUk14X0dRcmt6YV9jU2h3OTUwazZ4alg1YXgxVlNXZms3VDBMZEVZYzlPNFpqd01vbkpicjNSdkU5YjdxWjY4RlRPN1BoZUxiNmhQaWJSOW5VRUhkUHN5UFhjYUhYNFVJLTlzTmgtQjQzNFJ3ak5NdE82YVBBZmU0ZndqS19YamRGVDFNVmhrdF9aaUtja1lfY2FxRFAta19vNW1Rb1ktd1RmeWRxVGxESnc?oc=5)
 

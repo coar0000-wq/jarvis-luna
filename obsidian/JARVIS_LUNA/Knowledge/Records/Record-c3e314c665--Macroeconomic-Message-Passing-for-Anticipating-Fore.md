@@ -1,12 +1,12 @@
 ---
-title: "Record c3e314c665 · Macroeconomic-Message-Passing-for-Anticipating-Foreign-Exchange-Regime"
+title: "Record c3e314c665 · Macroeconomic-Message-Passing-for-Anticipating-Fore"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.036757+00:00
+updated_at: 2026-09-13T00:56:37.861472+00:00
 tags: [record, real-data]
 ---
 
-# Record c3e314c665 · Macroeconomic-Message-Passing-for-Anticipating-Foreign-Exchange-Regime
+# Record c3e314c665 · Macroeconomic-Message-Passing-for-Anticipating-Fore
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7167981313)
 

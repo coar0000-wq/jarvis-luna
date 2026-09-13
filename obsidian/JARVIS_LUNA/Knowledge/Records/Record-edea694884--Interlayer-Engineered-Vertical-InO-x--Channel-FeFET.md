@@ -1,12 +1,12 @@
 ---
-title: "Record edea694884 · Interlayer-Engineered-Vertical-InO-x--Channel-FeFETs-With-Two-Step-Ann"
+title: "Record edea694884 · Interlayer-Engineered-Vertical-InO-x--Channel-FeFET"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.637393+00:00
+updated_at: 2026-09-13T00:56:37.496665+00:00
 tags: [record, real-data]
 ---
 
-# Record edea694884 · Interlayer-Engineered-Vertical-InO-x--Channel-FeFETs-With-Two-Step-Ann
+# Record edea694884 · Interlayer-Engineered-Vertical-InO-x--Channel-FeFET
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1109/led.2026.3712510)
 

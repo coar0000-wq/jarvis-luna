@@ -1,12 +1,12 @@
 ---
-title: "Record 3560184cf0 · People-Are-Sharing-Their-Most-Unhinged-Beauty-Hacks-on-TikTokHere-Are-"
+title: "Record 3560184cf0 · People-Are-Sharing-Their-Most-Unhinged-Beauty-Hacks"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.851403+00:00
+updated_at: 2026-09-13T00:56:37.687957+00:00
 tags: [record, real-data]
 ---
 
-# Record 3560184cf0 · People-Are-Sharing-Their-Most-Unhinged-Beauty-Hacks-on-TikTokHere-Are-
+# Record 3560184cf0 · People-Are-Sharing-Their-Most-Unhinged-Beauty-Hacks
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMickFVX3lxTE5UMVJqa2RMT2VieklvSTJkbkdxMkRuSDU1YXBqaHBMMVEyYTFRTnl6RWhlWEtFckp0YnhMSlc5MWVpeVhjbzFTTmd5bkZJNzhsZGlXS0ttRWVWYkZPQkVNamx1amotTjlPUDZ5SVZXdzItZw?oc=5)
 

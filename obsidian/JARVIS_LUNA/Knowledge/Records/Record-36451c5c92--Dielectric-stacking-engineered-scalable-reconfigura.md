@@ -1,12 +1,12 @@
 ---
-title: "Record 36451c5c92 · Dielectric-stacking-engineered-scalable-reconfigurable-transistor-plat"
+title: "Record 36451c5c92 · Dielectric-stacking-engineered-scalable-reconfigura"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.611799+00:00
+updated_at: 2026-09-13T00:56:37.473051+00:00
 tags: [record, real-data]
 ---
 
-# Record 36451c5c92 · Dielectric-stacking-engineered-scalable-reconfigurable-transistor-plat
+# Record 36451c5c92 · Dielectric-stacking-engineered-scalable-reconfigura
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1038/s41467-026-75864-2)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record b926f89114 · An-Improved-Lower-Bound-on-Cardinality-of-Support-of-the-Amplitude-Con"
+title: "Record b926f89114 · An-Improved-Lower-Bound-on-Cardinality-of-Support-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.642603+00:00
+updated_at: 2026-09-13T00:56:37.501529+00:00
 tags: [record, real-data]
 ---
 
-# Record b926f89114 · An-Improved-Lower-Bound-on-Cardinality-of-Support-of-the-Amplitude-Con
+# Record b926f89114 · An-Improved-Lower-Bound-on-Cardinality-of-Support-o
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1109/tit.2026.3697668)
 

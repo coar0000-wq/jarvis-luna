@@ -1,12 +1,12 @@
 ---
-title: "Record 697f9e2812 · Korean-Skin-Experts-Reveal-Which-2026-K-Beauty-Trends-Are-Actually-Wor"
+title: "Record 697f9e2812 · Korean-Skin-Experts-Reveal-Which-2026-K-Beauty-Tren"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.779284+00:00
+updated_at: 2026-09-13T00:56:37.620053+00:00
 tags: [record, real-data]
 ---
 
-# Record 697f9e2812 · Korean-Skin-Experts-Reveal-Which-2026-K-Beauty-Trends-Are-Actually-Wor
+# Record 697f9e2812 · Korean-Skin-Experts-Reveal-Which-2026-K-Beauty-Tren
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMi6AFBVV95cUxQVXVRNER0ZHJjS3pFb2ZXMnpWekJSLWZPVEM2WjF3U3pYUk9LeWtTQVNsendsVG9abVRudk1xRUl3blhPZkZkWGQ5Uk9BZHFab2ROUHROaGNLcnpBc1ViSFYyR3BwYkRBM0JSa3M5TWt4Zk1SWmN1RTlETXBYeU9GWHVmTG5MUUVjNWs5RzlsTFF6MHZETlJFSmI0NEhKbk5hXzIwVWMzUUhMaVFUa1k5NVBLcGlIUWhZLUxrUFdwNi1scTRjSjJBLV9QRldGUkpsWHRnZk1jMFlnaEEwQnBHUTR0NkFnLW9Z?oc=5)
 

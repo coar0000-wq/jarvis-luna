@@ -1,12 +1,12 @@
 ---
-title: "Record 28e0e3468d · What-is-the-Asoka-makeup-trend-and-how-can-you-take-part-in-this-TikTo"
+title: "Record 28e0e3468d · What-is-the-Asoka-makeup-trend-and-how-can-you-take"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.974594+00:00
+updated_at: 2026-09-13T00:56:37.803321+00:00
 tags: [record, real-data]
 ---
 
-# Record 28e0e3468d · What-is-the-Asoka-makeup-trend-and-how-can-you-take-part-in-this-TikTo
+# Record 28e0e3468d · What-is-the-Asoka-makeup-trend-and-how-can-you-take
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMisgFBVV95cUxQdklxN3ppSWJCQXF6MlA5Z1d5M3l4TElXMUtrS0lMaWgtMDJIR2FMM3VGb2hjZ1hQWFJTeEExeFFfdEhoWkhVdS11OElHVzkwbm1fWF9UVDVIMlVsM2FEZWRHQzcxU3NlaFlNcTVMeEF5V0JVZGo0czZlbDZHNXY5by1yWHdHUER6Y2c2T0NJdnhSM3dPZERjM09qdjZ6NkNpRHFhdnNacW96eDVRTG4yRnJ30gG3AUFVX3lxTE9yS0ZRTDV4alI1NHNBUklFWkxwcjVDVUc0ektFMHItRmc5UVZEX3FHMWhLWmZMckIxMzl1YzNtVkZNNnhteTlaMVpidDRXcF93ZWJ1Tm1OLTVaVjlpYnk5TFAzNVVZQkkyWkNjTkRfUFh5c0xzek5BVS1McW80bnNhQWRyZWIxbktDbm9LeWlNQTlBNUJDeXZscTVQV1VyTmtIV2ZKM3pQZWpzX25LZ05xdFVJMUkySQ?oc=5)
 

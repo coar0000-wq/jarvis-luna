@@ -1,12 +1,12 @@
 ---
-title: "Record 6f3073f0a4 · Video-Galaxy-Unpacked-July-2026-Samsung-Health-Envisions-Simpler-More-"
+title: "Record 6f3073f0a4 · Video-Galaxy-Unpacked-July-2026-Samsung-Health-Envi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.000882+00:00
+updated_at: 2026-09-13T00:56:37.827510+00:00
 tags: [record, real-data]
 ---
 
-# Record 6f3073f0a4 · Video-Galaxy-Unpacked-July-2026-Samsung-Health-Envisions-Simpler-More-
+# Record 6f3073f0a4 · Video-Galaxy-Unpacked-July-2026-Samsung-Health-Envi
 
 > 실제 수집 레코드입니다. 원문: [news.samsung.com](https://news.samsung.com/global/video-galaxy-unpacked-july-2026-samsung-health-envisions-simpler-more-connected-care-with-ai)
 

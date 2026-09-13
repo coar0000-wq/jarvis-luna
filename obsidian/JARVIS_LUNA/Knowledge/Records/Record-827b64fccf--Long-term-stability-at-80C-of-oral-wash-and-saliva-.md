@@ -1,12 +1,12 @@
 ---
-title: "Record 827b64fccf · Long-term-stability-at-80C-of-oral-wash-and-saliva-samples-for-microbi"
+title: "Record 827b64fccf · Long-term-stability-at-80C-of-oral-wash-and-saliva-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.648782+00:00
+updated_at: 2026-09-13T00:56:37.507019+00:00
 tags: [record, real-data]
 ---
 
-# Record 827b64fccf · Long-term-stability-at-80C-of-oral-wash-and-saliva-samples-for-microbi
+# Record 827b64fccf · Long-term-stability-at-80C-of-oral-wash-and-saliva-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1128/spectrum.00573-26)
 

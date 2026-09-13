@@ -1,12 +1,12 @@
 ---
-title: "Record 9b54e1eefb · These-Korean-Skin-Care-Essentials-Are-on-Sale-Right-Now---Teen-Vogue"
+title: "Record 9b54e1eefb · These-Korean-Skin-Care-Essentials-Are-on-Sale-Right"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.836228+00:00
+updated_at: 2026-09-13T00:56:37.672283+00:00
 tags: [record, real-data]
 ---
 
-# Record 9b54e1eefb · These-Korean-Skin-Care-Essentials-Are-on-Sale-Right-Now---Teen-Vogue
+# Record 9b54e1eefb · These-Korean-Skin-Care-Essentials-Are-on-Sale-Right
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMib0FVX3lxTFBYVGluRU5NVTlXb1FWemxVbHo2Y0pMWlJ0RUVOSzhMZEZLTWpwWkkyYnJpem1ZUkJjRXFleHhsTC1CdHhhUndTU0FncUdkbGZleFJoZHBseFJhaUxaWEZaYm5Ca29nRHo2TnoycGxXRQ?oc=5)
 

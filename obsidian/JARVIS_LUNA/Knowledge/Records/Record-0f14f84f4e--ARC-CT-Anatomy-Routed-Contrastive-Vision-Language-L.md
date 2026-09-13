@@ -1,12 +1,12 @@
 ---
-title: "Record 0f14f84f4e · ARC-CT-Anatomy-Routed-Contrastive-Vision-Language-Learning-for-3D-Ches"
+title: "Record 0f14f84f4e · ARC-CT-Anatomy-Routed-Contrastive-Vision-Language-L"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.466337+00:00
+updated_at: 2026-09-13T00:56:37.336344+00:00
 tags: [record, real-data]
 ---
 
-# Record 0f14f84f4e · ARC-CT-Anatomy-Routed-Contrastive-Vision-Language-Learning-for-3D-Ches
+# Record 0f14f84f4e · ARC-CT-Anatomy-Routed-Contrastive-Vision-Language-L
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.28455v1)
 

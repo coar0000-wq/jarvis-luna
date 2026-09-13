@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-12T23:46:00.641511+00:00",
+  "collected_at": "2026-09-13T00:50:25.019153+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -44,11 +44,7 @@
   ],
   "hot_keywords": [
     {
-      "keyword": "september",
-      "score": 4
-    },
-    {
-      "keyword": "2026",
+      "keyword": "skin",
       "score": 4
     },
     {
@@ -56,15 +52,27 @@
       "score": 4
     },
     {
+      "keyword": "september",
+      "score": 3
+    },
+    {
+      "keyword": "2026",
+      "score": 3
+    },
+    {
       "keyword": "review",
       "score": 3
     },
     {
-      "keyword": "anything",
-      "score": 3
+      "keyword": "sunscreen",
+      "score": 2
     },
     {
-      "keyword": "sunscreen",
+      "keyword": "acne",
+      "score": 2
+    },
+    {
+      "keyword": "dry",
       "score": 2
     },
     {
@@ -76,7 +84,7 @@
       "score": 2
     },
     {
-      "keyword": "goes",
+      "keyword": "anything",
       "score": 2
     },
     {
@@ -101,10 +109,6 @@
     },
     {
       "keyword": "korean",
-      "score": 2
-    },
-    {
-      "keyword": "skin",
       "score": 2
     },
     {
@@ -180,31 +184,31 @@
       "score": 1
     },
     {
+      "keyword": "current",
+      "score": 1
+    },
+    {
+      "keyword": "faves",
+      "score": 1
+    },
+    {
+      "keyword": "sensitive",
+      "score": 1
+    },
+    {
+      "keyword": "prone",
+      "score": 1
+    },
+    {
       "keyword": "numbuzin",
-      "score": 1
-    },
-    {
-      "keyword": "total",
-      "score": 1
-    },
-    {
-      "keyword": "reformulation",
-      "score": 1
-    },
-    {
-      "keyword": "elegance",
-      "score": 1
-    },
-    {
-      "keyword": "paris",
-      "score": 1
-    },
-    {
-      "keyword": "gravityless",
       "score": 1
     }
   ],
   "beauty_keywords": [
+    {
+      "keyword": "skin",
+      "score": 4
+    },
     {
       "keyword": "toner",
       "score": 4
@@ -235,10 +239,6 @@
     },
     {
       "keyword": "korean",
-      "score": 2
-    },
-    {
-      "keyword": "skin",
       "score": 2
     },
     {
@@ -280,6 +280,13 @@
       "feed": "hot"
     },
     {
+      "title": "My current faves for sensitive acne prone dry skin",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wesht8/my_current_faves_for_sensitive_acne_prone_dry_skin/",
+      "published": "2026-09-13T00:09:00+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Numbuzin 3 Toner Total Reformulation!",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wehyxu/numbuzin_3_toner_total_reformulation/",
       "published": "2026-09-12T17:04:15+00:00",
@@ -294,9 +301,9 @@
       "feed": "hot"
     },
     {
-      "title": "Favourite in shower haircare for dry textured hair?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wepfs9/favourite_in_shower_haircare_for_dry_textured_hair/",
-      "published": "2026-09-12T21:54:22+00:00",
+      "title": "Beauty of joseam green plum toner smells",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1were73/beauty_of_joseam_green_plum_toner_smells/",
+      "published": "2026-09-12T23:19:12+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -308,9 +315,16 @@
       "feed": "hot"
     },
     {
-      "title": "Beauty of joseam green plum toner smells",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1were73/beauty_of_joseam_green_plum_toner_smells/",
-      "published": "2026-09-12T23:19:12+00:00",
+      "title": "Favourite in shower haircare for dry textured hair?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wepfs9/favourite_in_shower_haircare_for_dry_textured_hair/",
+      "published": "2026-09-12T21:54:22+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Douyin-style (inspired?) makeup",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1weta6s/douyinstyle_inspired_makeup/",
+      "published": "2026-09-13T00:46:28+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -343,6 +357,13 @@
       "feed": "hot"
     },
     {
+      "title": "What are your favorite C-beauty brands?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1we05st/what_are_your_favorite_cbeauty_brands/",
+      "published": "2026-09-12T02:26:51+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "30 days using SKIN1004 Madagascar Centella Ampoule",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1we0p7d/30_days_using_skin1004_madagascar_centella_ampoule/",
       "published": "2026-09-12T02:53:22+00:00",
@@ -353,13 +374,6 @@
       "title": "Calling all Missha Perfect Cover BB Cream lovers! Have you found anything better that feels like a true \"next level\"?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wdc7hm/calling_all_missha_perfect_cover_bb_cream_lovers/",
       "published": "2026-09-11T10:19:05+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "What are your favorite C-beauty brands?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1we05st/what_are_your_favorite_cbeauty_brands/",
-      "published": "2026-09-12T02:26:51+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -409,20 +423,6 @@
       "title": "Severe reaction to Some by mi Yuja Niacin serum",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wdgk8l/severe_reaction_to_some_by_mi_yuja_niacin_serum/",
       "published": "2026-09-11T13:37:49+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "gorgeous lancome lippie only sold in asia",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wcyx6x/gorgeous_lancome_lippie_only_sold_in_asia/",
-      "published": "2026-09-10T23:07:57+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Anything Goes Friday: September 11, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wds2po/anything_goes_friday_september_11_2026/",
-      "published": "2026-09-11T20:39:25+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

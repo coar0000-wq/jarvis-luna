@@ -1,12 +1,12 @@
 ---
-title: "Record 806ccb84d9 · Gluai-unveils-AI-discoverability-tool-for-ecommerce-brands---Mi-3comau"
+title: "Record 806ccb84d9 · Gluai-unveils-AI-discoverability-tool-for-ecommerce"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.921382+00:00
+updated_at: 2026-09-13T00:56:37.754625+00:00
 tags: [record, real-data]
 ---
 
-# Record 806ccb84d9 · Gluai-unveils-AI-discoverability-tool-for-ecommerce-brands---Mi-3comau
+# Record 806ccb84d9 · Gluai-unveils-AI-discoverability-tool-for-ecommerce
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMikgFBVV95cUxOUmtBZVZGN0o0bkxNSUozYWNHX3doOFIzYTJmZEw0dGs2Sm1KY09NWjBqNmJNWVN0Vlp6dmtuZUJ1Y1dtNVZ4WDlpb0M5MnRIOVVIdm1ZN2w3RDRoQjBRU1Myc2lfMnRFNmFFMFlmWkpuTjVpRDNOeFYxVDFET05hejNOWWM2WldHVHIxOWxnZ3R4dw?oc=5)
 

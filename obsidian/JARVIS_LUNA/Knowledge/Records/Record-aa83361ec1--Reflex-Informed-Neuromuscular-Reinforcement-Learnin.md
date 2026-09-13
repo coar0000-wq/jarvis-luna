@@ -1,12 +1,12 @@
 ---
-title: "Record aa83361ec1 · Reflex-Informed-Neuromuscular-Reinforcement-Learning-for-Muscle-Driven"
+title: "Record aa83361ec1 · Reflex-Informed-Neuromuscular-Reinforcement-Learnin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.555044+00:00
+updated_at: 2026-09-13T00:56:37.417995+00:00
 tags: [record, real-data]
 ---
 
-# Record aa83361ec1 · Reflex-Informed-Neuromuscular-Reinforcement-Learning-for-Muscle-Driven
+# Record aa83361ec1 · Reflex-Informed-Neuromuscular-Reinforcement-Learnin
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.11733v1)
 

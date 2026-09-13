@@ -1,12 +1,12 @@
 ---
-title: "Record 6e4a8c5d0c · Ultrasound-offers-a-scalable-path-to-tactile-intelligence-for-physical"
+title: "Record 6e4a8c5d0c · Ultrasound-offers-a-scalable-path-to-tactile-intell"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.181702+00:00
+updated_at: 2026-09-13T00:56:37.986936+00:00
 tags: [record, real-data]
 ---
 
-# Record 6e4a8c5d0c · Ultrasound-offers-a-scalable-path-to-tactile-intelligence-for-physical
+# Record 6e4a8c5d0c · Ultrasound-offers-a-scalable-path-to-tactile-intell
 
 > 실제 수집 레코드입니다. 원문: [www.therobotreport.com](https://www.therobotreport.com/ultrasound-offers-scalable-path-tactile-intelligence-physical-ai/)
 

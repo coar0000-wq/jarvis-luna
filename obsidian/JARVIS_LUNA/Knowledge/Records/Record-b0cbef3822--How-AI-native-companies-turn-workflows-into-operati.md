@@ -1,12 +1,12 @@
 ---
-title: "Record b0cbef3822 · How-AI-native-companies-turn-workflows-into-operating-capability"
+title: "Record b0cbef3822 · How-AI-native-companies-turn-workflows-into-operati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.007381+00:00
+updated_at: 2026-09-13T00:56:37.833314+00:00
 tags: [record, real-data]
 ---
 
-# Record b0cbef3822 · How-AI-native-companies-turn-workflows-into-operating-capability
+# Record b0cbef3822 · How-AI-native-companies-turn-workflows-into-operati
 
 > 실제 수집 레코드입니다. 원문: [openai.com](https://openai.com/index/ai-native-company-workflows)
 

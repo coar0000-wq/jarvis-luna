@@ -1,12 +1,12 @@
 ---
-title: "Record f4737cf99f · Evaluating-the-inclusion-of-data-literacy-in-undergraduate-economics-c"
+title: "Record f4737cf99f · Evaluating-the-inclusion-of-data-literacy-in-underg"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.621688+00:00
+updated_at: 2026-09-13T00:56:37.482168+00:00
 tags: [record, real-data]
 ---
 
-# Record f4737cf99f · Evaluating-the-inclusion-of-data-literacy-in-undergraduate-economics-c
+# Record f4737cf99f · Evaluating-the-inclusion-of-data-literacy-in-underg
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1080/08832323.2024.2417285)
 

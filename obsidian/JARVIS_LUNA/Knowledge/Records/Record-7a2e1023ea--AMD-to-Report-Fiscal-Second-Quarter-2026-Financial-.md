@@ -1,12 +1,12 @@
 ---
-title: "Record 7a2e1023ea · AMD-to-Report-Fiscal-Second-Quarter-2026-Financial-Results"
+title: "Record 7a2e1023ea · AMD-to-Report-Fiscal-Second-Quarter-2026-Financial-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.760115+00:00
+updated_at: 2026-09-13T00:56:37.601950+00:00
 tags: [record, real-data]
 ---
 
-# Record 7a2e1023ea · AMD-to-Report-Fiscal-Second-Quarter-2026-Financial-Results
+# Record 7a2e1023ea · AMD-to-Report-Fiscal-Second-Quarter-2026-Financial-
 
 > 실제 수집 레코드입니다. 원문: [ir.amd.com](https://ir.amd.com/news-events/press-releases/detail/1289/amd-to-report-fiscal-second-quarter-2026-financial-results)
 

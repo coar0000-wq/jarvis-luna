@@ -1,12 +1,12 @@
 ---
-title: "Record 0dc4b29ddc · VCAM-1Ezrin-axis-antagonizes-myocardial-damage-in-ischemia-reperfusion"
+title: "Record 0dc4b29ddc · VCAM-1Ezrin-axis-antagonizes-myocardial-damage-in-i"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.611083+00:00
+updated_at: 2026-09-13T00:56:37.472379+00:00
 tags: [record, real-data]
 ---
 
-# Record 0dc4b29ddc · VCAM-1Ezrin-axis-antagonizes-myocardial-damage-in-ischemia-reperfusion
+# Record 0dc4b29ddc · VCAM-1Ezrin-axis-antagonizes-myocardial-damage-in-i
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1038/s41418-025-01621-5)
 

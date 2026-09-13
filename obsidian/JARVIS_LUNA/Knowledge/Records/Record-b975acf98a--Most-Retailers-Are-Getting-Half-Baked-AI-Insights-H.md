@@ -1,12 +1,12 @@
 ---
-title: "Record b975acf98a · Most-Retailers-Are-Getting-Half-Baked-AI-Insights-Heres-the-Fix---Shop"
+title: "Record b975acf98a · Most-Retailers-Are-Getting-Half-Baked-AI-Insights-H"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.889379+00:00
+updated_at: 2026-09-13T00:56:37.725011+00:00
 tags: [record, real-data]
 ---
 
-# Record b975acf98a · Most-Retailers-Are-Getting-Half-Baked-AI-Insights-Heres-the-Fix---Shop
+# Record b975acf98a · Most-Retailers-Are-Getting-Half-Baked-AI-Insights-H
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiggFBVV95cUxPckhGRWpNc1Vpa0luNUJ5UGcyWGNJVU00OURyTVFMZTZEOWQyYXk1UlhMVUJDZWQ3cW5VZldLeGlJb2VvV0RJci14eXdWR0FHRU45NXFVVlFBQ3VxZ00zZF8zTE5EazkwcG9adk5SRFVfNmZfdUxlbnRub0pEbHhVeWhR?oc=5)
 

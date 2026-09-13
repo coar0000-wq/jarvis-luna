@@ -1,12 +1,12 @@
 ---
-title: "Record 182a45f12b · K-Beautys-global-boom-Sales-up-131-in-two-years-says-NIQ---Premium-Bea"
+title: "Record 182a45f12b · K-Beautys-global-boom-Sales-up-131-in-two-years-say"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.875764+00:00
+updated_at: 2026-09-13T00:56:37.712699+00:00
 tags: [record, real-data]
 ---
 
-# Record 182a45f12b · K-Beautys-global-boom-Sales-up-131-in-two-years-says-NIQ---Premium-Bea
+# Record 182a45f12b · K-Beautys-global-boom-Sales-up-131-in-two-years-say
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMif0FVX3lxTE5STUlMbFI5dVU3OWJFVS1jTlhrVXN4Y1hpN1ZHay1hMWo2Tnc0b3hRR2hwVGw2a2JuMUNnRVNCMmxuWEZjaldLanFOdGo2QnVObUZGMmtVRGVZX2JCUHBucDQxZGRtSnBHVTRlbDFPeDJSV1BhSmgya0J3emtxY3c?oc=5)
 

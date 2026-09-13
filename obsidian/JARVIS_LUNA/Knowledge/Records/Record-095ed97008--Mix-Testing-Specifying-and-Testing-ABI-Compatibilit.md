@@ -1,12 +1,12 @@
 ---
-title: "Record 095ed97008 · Mix-Testing-Specifying-and-Testing-ABI-Compatibility-of-CC-Atomics-Imp"
+title: "Record 095ed97008 · Mix-Testing-Specifying-and-Testing-ABI-Compatibilit"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.651781+00:00
+updated_at: 2026-09-13T00:56:37.509469+00:00
 tags: [record, real-data]
 ---
 
-# Record 095ed97008 · Mix-Testing-Specifying-and-Testing-ABI-Compatibility-of-CC-Atomics-Imp
+# Record 095ed97008 · Mix-Testing-Specifying-and-Testing-ABI-Compatibilit
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1145/3689727)
 

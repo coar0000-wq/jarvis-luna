@@ -1,12 +1,12 @@
 ---
-title: "Record a4b24662c9 · Kiss-New-York-launches-1st-Korean-skincare-line---Mass-Market-Retailer"
+title: "Record a4b24662c9 · Kiss-New-York-launches-1st-Korean-skincare-line---M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.901522+00:00
+updated_at: 2026-09-13T00:56:37.736343+00:00
 tags: [record, real-data]
 ---
 
-# Record a4b24662c9 · Kiss-New-York-launches-1st-Korean-skincare-line---Mass-Market-Retailer
+# Record a4b24662c9 · Kiss-New-York-launches-1st-Korean-skincare-line---M
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMihwFBVV95cUxQNHNsQ0pST0M2ZTAxYThLZGlKTnItaHNiTnhxWkFOVC1TN0hoTHBBYllCeHg1cDMtb3pRRUkwOWt1NGdhYzVGVF9GZHEwbm5Sb0xWcFN4cEZGTVhveE00UHo2WmVDbEZ0emJuMTEyclJBc0VJWE43WFdad3FvM21fTDRadnJjbWs?oc=5)
 

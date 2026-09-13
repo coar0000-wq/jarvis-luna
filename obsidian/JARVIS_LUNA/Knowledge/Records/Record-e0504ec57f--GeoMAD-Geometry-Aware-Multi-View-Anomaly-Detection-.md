@@ -1,12 +1,12 @@
 ---
-title: "Record e0504ec57f · GeoMAD-Geometry-Aware-Multi-View-Anomaly-Detection-via-Deformable-Fusi"
+title: "Record e0504ec57f · GeoMAD-Geometry-Aware-Multi-View-Anomaly-Detection-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.047123+00:00
+updated_at: 2026-09-13T00:56:37.870724+00:00
 tags: [record, real-data]
 ---
 
-# Record e0504ec57f · GeoMAD-Geometry-Aware-Multi-View-Anomaly-Detection-via-Deformable-Fusi
+# Record e0504ec57f · GeoMAD-Geometry-Aware-Multi-View-Anomaly-Detection-
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7204671257)
 

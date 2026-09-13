@@ -1,12 +1,12 @@
 ---
-title: "Record 005c7d5796 · TikToks-viral-tanning-injection-Beauty-trend-or-health-risk---TheHealt"
+title: "Record 005c7d5796 · TikToks-viral-tanning-injection-Beauty-trend-or-hea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.961568+00:00
+updated_at: 2026-09-13T00:56:37.791474+00:00
 tags: [record, real-data]
 ---
 
-# Record 005c7d5796 · TikToks-viral-tanning-injection-Beauty-trend-or-health-risk---TheHealt
+# Record 005c7d5796 · TikToks-viral-tanning-injection-Beauty-trend-or-hea
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYVNlcFhmQ1RkbXBjZXFwOXk4U1R4clFJX0FOLUtybU5SeGVnQ3AyN3B6UVlNQzJVeUt3RGZ3cnVqR210X3M1a3JNU05rLTdHdnVvU04tdmxMTnBnQXJNZkVKckoyNGpYZm51dVF4eTlaaFkzVkN6X2lxdGZCT2ZqZmRpN1Q1OVppN1p6cUtMVkEzT0ZCVS01OUFWV2x5VHBCX3dGeUxwMkPSAa4BQVVfeXFMTUlvcTRwRHNIU3VDT0FhUzFNcTNTcTRtZ1l3clMyMW82Y2g0RV9Wd0lDRDNFTjNoMnU1RkE2RzY3Znp6RjVrNXh6a3dlYU5YZURPUmg5a1lXTFBnRUtOcnR6UEVxRGl2VW9SVjdCa3ZDNzk4U1JqNG1NVXAyX2lDTEY0X0szcDhQemNwNWNIbXZ4SEZSOElPR1NSLTV4YWpac1ZTUkdJNnFQOHdEYXhR?oc=5)
 

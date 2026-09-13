@@ -1,12 +1,12 @@
 ---
-title: "Record 9054896033 · Dispersion-Contrasting-Dual-Layer-Metalens-for-Hybrid-Chromatic-Aberra"
+title: "Record 9054896033 · Dispersion-Contrasting-Dual-Layer-Metalens-for-Hybr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.605165+00:00
+updated_at: 2026-09-13T00:56:37.467003+00:00
 tags: [record, real-data]
 ---
 
-# Record 9054896033 · Dispersion-Contrasting-Dual-Layer-Metalens-for-Hybrid-Chromatic-Aberra
+# Record 9054896033 · Dispersion-Contrasting-Dual-Layer-Metalens-for-Hybr
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1021/acs.nanolett.6c02688)
 

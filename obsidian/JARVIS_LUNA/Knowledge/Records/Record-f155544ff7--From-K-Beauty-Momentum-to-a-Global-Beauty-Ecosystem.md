@@ -1,12 +1,12 @@
 ---
-title: "Record f155544ff7 · From-K-Beauty-Momentum-to-a-Global-Beauty-Ecosystem---The-Worldfolio"
+title: "Record f155544ff7 · From-K-Beauty-Momentum-to-a-Global-Beauty-Ecosystem"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.940750+00:00
+updated_at: 2026-09-13T00:56:37.772329+00:00
 tags: [record, real-data]
 ---
 
-# Record f155544ff7 · From-K-Beauty-Momentum-to-a-Global-Beauty-Ecosystem---The-Worldfolio
+# Record f155544ff7 · From-K-Beauty-Momentum-to-a-Global-Beauty-Ecosystem
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMimwFBVV95cUxNeUZTQ093OUdMWkMxWWRGTkQxRWMybzM3Ui1yR0lldk5XalJua1VsM05Sc0ZnZUdNZDJqbXMzZ0JYZ0c5SnUya3ZFWkNvNXNCa1VEQ3ZzUV9FQ2FTc2F0TDBYY0VTbGdNem51YzFVeVM2dmZtcWZBNmtMUkJONnZGX0xienhjOXhrSEtwRnhNZ0JfRkFIekZ1Mnhmdw?oc=5)
 

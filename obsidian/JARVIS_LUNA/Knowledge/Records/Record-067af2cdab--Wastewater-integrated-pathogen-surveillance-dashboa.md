@@ -1,12 +1,12 @@
 ---
-title: "Record 067af2cdab · Wastewater-integrated-pathogen-surveillance-dashboards-enable-real-tim"
+title: "Record 067af2cdab · Wastewater-integrated-pathogen-surveillance-dashboa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.631601+00:00
+updated_at: 2026-09-13T00:56:37.491354+00:00
 tags: [record, real-data]
 ---
 
-# Record 067af2cdab · Wastewater-integrated-pathogen-surveillance-dashboards-enable-real-tim
+# Record 067af2cdab · Wastewater-integrated-pathogen-surveillance-dashboa
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1101/2025.01.22.25320865)
 

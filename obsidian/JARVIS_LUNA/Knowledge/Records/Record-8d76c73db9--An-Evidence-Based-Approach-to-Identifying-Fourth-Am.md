@@ -1,12 +1,12 @@
 ---
-title: "Record 8d76c73db9 · An-Evidence-Based-Approach-to-Identifying-Fourth-Amendment-Values"
+title: "Record 8d76c73db9 · An-Evidence-Based-Approach-to-Identifying-Fourth-Am"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.672671+00:00
+updated_at: 2026-09-13T00:56:37.526514+00:00
 tags: [record, real-data]
 ---
 
-# Record 8d76c73db9 · An-Evidence-Based-Approach-to-Identifying-Fourth-Amendment-Values
+# Record 8d76c73db9 · An-Evidence-Based-Approach-to-Identifying-Fourth-Am
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.2139/ssrn.4867896)
 

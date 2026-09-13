@@ -1,12 +1,12 @@
 ---
-title: "Record f743256053 · The-Emperor-Has-No-Cash-Flows-Integrating-Cash-Flow-Dynamics-into-Tota"
+title: "Record f743256053 · The-Emperor-Has-No-Cash-Flows-Integrating-Cash-Flow"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.675114+00:00
+updated_at: 2026-09-13T00:56:37.528579+00:00
 tags: [record, real-data]
 ---
 
-# Record f743256053 · The-Emperor-Has-No-Cash-Flows-Integrating-Cash-Flow-Dynamics-into-Tota
+# Record f743256053 · The-Emperor-Has-No-Cash-Flows-Integrating-Cash-Flow
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.2139/ssrn.6300380)
 

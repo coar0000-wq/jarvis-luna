@@ -1,12 +1,12 @@
 ---
-title: "Record dfa8d44a99 · Why-Us-Equity-Returns-Are-Broadening-Beyond-Ai-Stocks---Transcript"
+title: "Record dfa8d44a99 · Why-Us-Equity-Returns-Are-Broadening-Beyond-Ai-Stoc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.135747+00:00
+updated_at: 2026-09-13T00:56:37.950049+00:00
 tags: [record, real-data]
 ---
 
-# Record dfa8d44a99 · Why-Us-Equity-Returns-Are-Broadening-Beyond-Ai-Stocks---Transcript
+# Record dfa8d44a99 · Why-Us-Equity-Returns-Are-Broadening-Beyond-Ai-Stoc
 
 > 실제 수집 레코드입니다. 원문: [www.goldmansachs.com](https://www.goldmansachs.com/pdfs/insights/the-markets/why-us-equity-returns-are-broadening-beyond-ai-stocks/transcript.pdf)
 

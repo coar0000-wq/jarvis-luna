@@ -1,12 +1,12 @@
 ---
-title: "Record d3239e7a79 · Therapeutic-NAMPT-inhibition-reveals-a-targetable-metabolic-vulnerabil"
+title: "Record d3239e7a79 · Therapeutic-NAMPT-inhibition-reveals-a-targetable-m"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.658555+00:00
+updated_at: 2026-09-13T00:56:37.515062+00:00
 tags: [record, real-data]
 ---
 
-# Record d3239e7a79 · Therapeutic-NAMPT-inhibition-reveals-a-targetable-metabolic-vulnerabil
+# Record d3239e7a79 · Therapeutic-NAMPT-inhibition-reveals-a-targetable-m
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1186/s13046-026-03793-5)
 

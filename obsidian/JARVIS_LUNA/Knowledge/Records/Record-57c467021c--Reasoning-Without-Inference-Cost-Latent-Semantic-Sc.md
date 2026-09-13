@@ -1,12 +1,12 @@
 ---
-title: "Record 57c467021c · Reasoning-Without-Inference-Cost-Latent-Semantic-Scaffolding-for-Robot"
+title: "Record 57c467021c · Reasoning-Without-Inference-Cost-Latent-Semantic-Sc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.496582+00:00
+updated_at: 2026-09-13T00:56:37.363465+00:00
 tags: [record, real-data]
 ---
 
-# Record 57c467021c · Reasoning-Without-Inference-Cost-Latent-Semantic-Scaffolding-for-Robot
+# Record 57c467021c · Reasoning-Without-Inference-Cost-Latent-Semantic-Sc
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.04893v1)
 

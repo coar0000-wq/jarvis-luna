@@ -1,12 +1,12 @@
 ---
-title: "Record 0027655752 · Introducing-CARE-X-Towards-Clinically-Useful-Radiology-VLMs-with-Auxil"
+title: "Record 0027655752 · Introducing-CARE-X-Towards-Clinically-Useful-Radiol"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.147585+00:00
+updated_at: 2026-09-13T00:56:37.959735+00:00
 tags: [record, real-data]
 ---
 
-# Record 0027655752 · Introducing-CARE-X-Towards-Clinically-Useful-Radiology-VLMs-with-Auxil
+# Record 0027655752 · Introducing-CARE-X-Towards-Clinically-Useful-Radiol
 
 > 실제 수집 레코드입니다. 원문: [www.microsoft.com](https://www.microsoft.com/en-us/research/blog/introducing-care-x-towards-clinically-useful-radiology-vlms-with-auxiliary-supervision-reward-aligned-learning-and-tool-augmented-measurement/)
 

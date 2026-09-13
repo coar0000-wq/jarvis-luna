@@ -1,12 +1,12 @@
 ---
-title: "Record c59912a6e4 · Interpreting-transformer-representations-under-positional-inductive-bi"
+title: "Record c59912a6e4 · Interpreting-transformer-representations-under-posi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.589523+00:00
+updated_at: 2026-09-13T00:56:37.452979+00:00
 tags: [record, real-data]
 ---
 
-# Record c59912a6e4 · Interpreting-transformer-representations-under-positional-inductive-bi
+# Record c59912a6e4 · Interpreting-transformer-representations-under-posi
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.commatsci.2026.115035)
 

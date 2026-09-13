@@ -1,12 +1,12 @@
 ---
-title: "Record 9b79f7dff5 · VMware-Cloud-Foundation-Brings-Leading-AI-Models-to-the-Private-AI-Clo"
+title: "Record 9b79f7dff5 · VMware-Cloud-Foundation-Brings-Leading-AI-Models-to"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.753203+00:00
+updated_at: 2026-09-13T00:56:37.595671+00:00
 tags: [record, real-data]
 ---
 
-# Record 9b79f7dff5 · VMware-Cloud-Foundation-Brings-Leading-AI-Models-to-the-Private-AI-Clo
+# Record 9b79f7dff5 · VMware-Cloud-Foundation-Brings-Leading-AI-Models-to
 
 > 실제 수집 레코드입니다. 원문: [investors.broadcom.com](https://investors.broadcom.com/news-releases/news-release-details/vmware-cloud-foundation-brings-leading-ai-models-private-ai)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 9a34bd9bba · Mapping-the-combinatorial-coding-between-olfactory-receptors-and-perce"
+title: "Record 9a34bd9bba · Mapping-the-combinatorial-coding-between-olfactory-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.588745+00:00
+updated_at: 2026-09-13T00:56:37.452302+00:00
 tags: [record, real-data]
 ---
 
-# Record 9a34bd9bba · Mapping-the-combinatorial-coding-between-olfactory-receptors-and-perce
+# Record 9a34bd9bba · Mapping-the-combinatorial-coding-between-olfactory-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.cels.2026.101711)
 

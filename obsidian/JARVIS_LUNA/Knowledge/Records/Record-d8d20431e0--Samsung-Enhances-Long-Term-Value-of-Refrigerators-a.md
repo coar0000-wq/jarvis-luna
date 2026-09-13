@@ -1,12 +1,12 @@
 ---
-title: "Record d8d20431e0 · Samsung-Enhances-Long-Term-Value-of-Refrigerators-and-Laundry-Applianc"
+title: "Record d8d20431e0 · Samsung-Enhances-Long-Term-Value-of-Refrigerators-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.995523+00:00
+updated_at: 2026-09-13T00:56:37.822623+00:00
 tags: [record, real-data]
 ---
 
-# Record d8d20431e0 · Samsung-Enhances-Long-Term-Value-of-Refrigerators-and-Laundry-Applianc
+# Record d8d20431e0 · Samsung-Enhances-Long-Term-Value-of-Refrigerators-a
 
 > 실제 수집 레코드입니다. 원문: [news.samsung.com](https://news.samsung.com/global/samsung-enhances-long-term-value-of-refrigerators-and-laundry-appliances-with-ai-focused-software-updates)
 

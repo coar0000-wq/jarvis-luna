@@ -1,12 +1,12 @@
 ---
-title: "Record d5b3d63a98 · Measuring-Share-of-Model-A-Reproducible-Protocol-for-Quantifying-Brand"
+title: "Record d5b3d63a98 · Measuring-Share-of-Model-A-Reproducible-Protocol-fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.715231+00:00
+updated_at: 2026-09-13T00:56:37.561074+00:00
 tags: [record, real-data]
 ---
 
-# Record d5b3d63a98 · Measuring-Share-of-Model-A-Reproducible-Protocol-for-Quantifying-Brand
+# Record d5b3d63a98 · Measuring-Share-of-Model-A-Reproducible-Protocol-fo
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.21614890)
 

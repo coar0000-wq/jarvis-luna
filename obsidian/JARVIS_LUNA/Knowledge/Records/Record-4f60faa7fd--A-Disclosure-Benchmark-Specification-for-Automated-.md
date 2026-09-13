@@ -1,12 +1,12 @@
 ---
-title: "Record 4f60faa7fd · A-Disclosure-Benchmark-Specification-for-Automated-Alignment-Research"
+title: "Record 4f60faa7fd · A-Disclosure-Benchmark-Specification-for-Automated-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.720045+00:00
+updated_at: 2026-09-13T00:56:37.564965+00:00
 tags: [record, real-data]
 ---
 
-# Record 4f60faa7fd · A-Disclosure-Benchmark-Specification-for-Automated-Alignment-Research
+# Record 4f60faa7fd · A-Disclosure-Benchmark-Specification-for-Automated-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.22179466)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record e735506a1b · One-brick-at-a-time-How-Monumental-uses-robotics-to-build-walls"
+title: "Record e735506a1b · One-brick-at-a-time-How-Monumental-uses-robotics-to"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.178929+00:00
+updated_at: 2026-09-13T00:56:37.984666+00:00
 tags: [record, real-data]
 ---
 
-# Record e735506a1b · One-brick-at-a-time-How-Monumental-uses-robotics-to-build-walls
+# Record e735506a1b · One-brick-at-a-time-How-Monumental-uses-robotics-to
 
 > 실제 수집 레코드입니다. 원문: [www.therobotreport.com](https://www.therobotreport.com/one-brick-at-a-time-how-monumental-uses-robotics-to-build-walls/)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 5199256c7d · Novel-highisolation-circuit-for-multiple-antennas-integrated-in-small-"
+title: "Record 5199256c7d · Novel-highisolation-circuit-for-multiple-antennas-i"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.697546+00:00
+updated_at: 2026-09-13T00:56:37.546907+00:00
 tags: [record, real-data]
 ---
 
-# Record 5199256c7d · Novel-highisolation-circuit-for-multiple-antennas-integrated-in-small-
+# Record 5199256c7d · Novel-highisolation-circuit-for-multiple-antennas-i
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.4218/etrij.2025-0530)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 3ee07a431c · Residential-Price-Forecasting-in-Shaoxing-using-Gaussian-Process-Regre"
+title: "Record 3ee07a431c · Residential-Price-Forecasting-in-Shaoxing-using-Gau"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.645009+00:00
+updated_at: 2026-09-13T00:56:37.503733+00:00
 tags: [record, real-data]
 ---
 
-# Record 3ee07a431c · Residential-Price-Forecasting-in-Shaoxing-using-Gaussian-Process-Regre
+# Record 3ee07a431c · Residential-Price-Forecasting-in-Shaoxing-using-Gau
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.11113/intrest.v20n1.436)
 

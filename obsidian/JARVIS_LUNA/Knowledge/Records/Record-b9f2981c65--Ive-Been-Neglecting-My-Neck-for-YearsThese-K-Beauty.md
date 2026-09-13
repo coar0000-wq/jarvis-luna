@@ -1,12 +1,12 @@
 ---
-title: "Record b9f2981c65 · Ive-Been-Neglecting-My-Neck-for-YearsThese-K-Beauty-Products-Are-Chang"
+title: "Record b9f2981c65 · Ive-Been-Neglecting-My-Neck-for-YearsThese-K-Beauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.864048+00:00
+updated_at: 2026-09-13T00:56:37.701238+00:00
 tags: [record, real-data]
 ---
 
-# Record b9f2981c65 · Ive-Been-Neglecting-My-Neck-for-YearsThese-K-Beauty-Products-Are-Chang
+# Record b9f2981c65 · Ive-Been-Neglecting-My-Neck-for-YearsThese-K-Beauty
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMie0FVX3lxTFBES2gyOW9BdDg2ODdPcFptaWQ0OHI5N1Jmd3B2Y0VJRnpadmVqWmZmMkFkOXpXYmlnT3F0aDhfUEIwbjZQNF80ejdkSmNYN3V5Wjh6bTlDVE5BVE84anQ4UjBlU1NVR0I3RERXd3VsTGVJNUNvWExTRWVTVQ?oc=5)
 

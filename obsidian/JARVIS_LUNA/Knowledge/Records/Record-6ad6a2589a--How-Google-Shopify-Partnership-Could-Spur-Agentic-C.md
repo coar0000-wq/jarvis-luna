@@ -1,12 +1,12 @@
 ---
-title: "Record 6ad6a2589a · How-Google-Shopify-Partnership-Could-Spur-Agentic-Commerce-Boom---Inve"
+title: "Record 6ad6a2589a · How-Google-Shopify-Partnership-Could-Spur-Agentic-C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.916182+00:00
+updated_at: 2026-09-13T00:56:37.749792+00:00
 tags: [record, real-data]
 ---
 
-# Record 6ad6a2589a · How-Google-Shopify-Partnership-Could-Spur-Agentic-Commerce-Boom---Inve
+# Record 6ad6a2589a · How-Google-Shopify-Partnership-Could-Spur-Agentic-C
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMijgFBVV95cUxQN0ttNE5GZEdqQTAzNXBWYUZQeXo2TVIydk9vSXFQeWJzMElZLUFuYlFyUTJWb2h2S2xOQkxWYUNvbm9VZHdjakNrSWZISHFNeTF0eGVPSGw2Vnc5ZWRpczhNUWpxeGpvTFBDODVLbjlEX1VLY3pZTGlWb0Jxa3A0eHdieWdWQmdmbkwtaHVn?oc=5)
 

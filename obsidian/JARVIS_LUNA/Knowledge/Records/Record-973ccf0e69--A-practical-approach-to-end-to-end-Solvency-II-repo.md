@@ -1,12 +1,12 @@
 ---
-title: "Record 973ccf0e69 · A-practical-approach-to-end-to-end-Solvency-II-reporting-in-Databricks"
+title: "Record 973ccf0e69 · A-practical-approach-to-end-to-end-Solvency-II-repo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.127584+00:00
+updated_at: 2026-09-13T00:56:37.943387+00:00
 tags: [record, real-data]
 ---
 
-# Record 973ccf0e69 · A-practical-approach-to-end-to-end-Solvency-II-reporting-in-Databricks
+# Record 973ccf0e69 · A-practical-approach-to-end-to-end-Solvency-II-repo
 
 > 실제 수집 레코드입니다. 원문: [www.databricks.com](https://www.databricks.com/blog/practical-approach-end-end-solvency-ii-reporting-databricks)
 

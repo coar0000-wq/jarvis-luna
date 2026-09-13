@@ -1,12 +1,12 @@
 ---
-title: "Record 9cf44fee3e · CLEAR-an-auditable-foundation-model-for-radiology-grounded-in-clinical"
+title: "Record 9cf44fee3e · CLEAR-an-auditable-foundation-model-for-radiology-g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.612993+00:00
+updated_at: 2026-09-13T00:56:37.474121+00:00
 tags: [record, real-data]
 ---
 
-# Record 9cf44fee3e · CLEAR-an-auditable-foundation-model-for-radiology-grounded-in-clinical
+# Record 9cf44fee3e · CLEAR-an-auditable-foundation-model-for-radiology-g
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1038/s41551-026-01741-4)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record a385e70a72 · REJURAN-COSMETICS-Launches-at-Sephora-Singapore-Following-Strong-Local"
+title: "Record a385e70a72 · REJURAN-COSMETICS-Launches-at-Sephora-Singapore-Fol"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.982669+00:00
+updated_at: 2026-09-13T00:56:37.810740+00:00
 tags: [record, real-data]
 ---
 
-# Record a385e70a72 · REJURAN-COSMETICS-Launches-at-Sephora-Singapore-Following-Strong-Local
+# Record a385e70a72 · REJURAN-COSMETICS-Launches-at-Sephora-Singapore-Fol
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMivgFBVV95cUxOUWJjU2lpS0U5TFZieGlLenQwLXllQlpZRVBTSWFPYUxBRGRvZm5hYV9BcXc2S0plaHhfNHFEX2ZYc09DVlVGdlotcl9Md3ZhcW1NT3ZXOF9UZzZUd3lIcFpQcloxSTJqVlpNdGZNaDUzbW9LUWtzVnZQWXlBdGdvQV9EdkZVSzZOWjdiTjd0T1BuU0JtX1U0VWc0eXI1c2l6ZHZSajRxT0dhb0ZFeEs4QXQxYzhfTkhhU2UydnFB?oc=5)
 

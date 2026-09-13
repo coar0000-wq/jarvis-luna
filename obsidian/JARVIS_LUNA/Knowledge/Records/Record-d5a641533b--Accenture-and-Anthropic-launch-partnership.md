@@ -2,7 +2,7 @@
 title: "Record d5a641533b · Accenture-and-Anthropic-launch-partnership"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-11T11:23:50.033884+00:00
+updated_at: 2026-09-13T00:56:37.909764+00:00
 tags: [record, real-data]
 ---
 
@@ -10,13 +10,12 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [www.anthropic.com](https://www.anthropic.com/news/anthropic-accenture-partnership)
 
-**제목:** Accenture and Anthropic launch partnership
+**제목:** Anthropic Accenture Partnership
 
-Accenture and Anthropic launch partnership
-A multi-year partnership creates the Accenture Anthropic Business Group, with 30,000 professionals trained on Claude to move enterprises to production.
+Anthropic Accenture Partnership
 
 **출처:** Source · institutions
 
 ## Connected nodes
 
-[[Source--institutions]] [[경영전략]] [[LLM언어모델]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

@@ -1,12 +1,12 @@
 ---
-title: "Record 1a60ecbf71 · I-tried-the-10-step-Korean-skin-care-routineheres-what-happened---Moth"
+title: "Record 1a60ecbf71 · I-tried-the-10-step-Korean-skin-care-routineheres-w"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.859742+00:00
+updated_at: 2026-09-13T00:56:37.696784+00:00
 tags: [record, real-data]
 ---
 
-# Record 1a60ecbf71 · I-tried-the-10-step-Korean-skin-care-routineheres-what-happened---Moth
+# Record 1a60ecbf71 · I-tried-the-10-step-Korean-skin-care-routineheres-w
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMidkFVX3lxTE1XYmtjWTUyUWpvNzdsNmk2YjZTQlR6Y2NJazJvamlPMjZNem84SERtVy1wTEdnOXNSdFlKSnVKVWgtUUJZVmpjRFE1blFpbVp1T1kycW9wb3otRkl5R19EMUpZYUVJblRDZXg5Sk9rbjZKNUxEWGc?oc=5)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 535cd9db73 · Social-Shopping-Spree-The-Future-of-Ecommerce-With-Shopify---ADWEEK"
+title: "Record 535cd9db73 · Social-Shopping-Spree-The-Future-of-Ecommerce-With-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.929913+00:00
+updated_at: 2026-09-13T00:56:37.762371+00:00
 tags: [record, real-data]
 ---
 
-# Record 535cd9db73 · Social-Shopping-Spree-The-Future-of-Ecommerce-With-Shopify---ADWEEK
+# Record 535cd9db73 · Social-Shopping-Spree-The-Future-of-Ecommerce-With-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMilgFBVV95cUxPV2dlR0Y0N3IyV19zQXZiQlJWUC1OYllzeFR2SDE3amp0LWtOX2ZQcksxUDVhaGhsVXNHVUQxZURwUWlhUVFlWlpuU1NCQV94dzE0ZFdpN3JTYzZJcmpvbGR6VnN4eDJsN0h6c0NFcnpkbng0cjk1bjc0dTRDYzFBdmlseUhuTWtORmU2Q0I3ZGFkTC1WVHc?oc=5)
 

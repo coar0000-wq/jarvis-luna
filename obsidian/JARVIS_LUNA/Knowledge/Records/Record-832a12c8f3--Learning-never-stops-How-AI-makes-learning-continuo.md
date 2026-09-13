@@ -1,12 +1,12 @@
 ---
-title: "Record 832a12c8f3 · Learning-never-stops-How-AI-makes-learning-continuous"
+title: "Record 832a12c8f3 · Learning-never-stops-How-AI-makes-learning-continuo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.013504+00:00
+updated_at: 2026-09-13T00:56:37.838954+00:00
 tags: [record, real-data]
 ---
 
-# Record 832a12c8f3 · Learning-never-stops-How-AI-makes-learning-continuous
+# Record 832a12c8f3 · Learning-never-stops-How-AI-makes-learning-continuo
 
 > 실제 수집 레코드입니다. 원문: [openai.com](https://openai.com/index/learning-never-stops)
 

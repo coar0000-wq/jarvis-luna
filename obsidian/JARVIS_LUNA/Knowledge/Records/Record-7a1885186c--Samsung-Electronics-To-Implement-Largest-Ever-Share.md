@@ -1,12 +1,12 @@
 ---
-title: "Record 7a1885186c · Samsung-Electronics-To-Implement-Largest-Ever-Shareholder-Return-in-20"
+title: "Record 7a1885186c · Samsung-Electronics-To-Implement-Largest-Ever-Share"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.995180+00:00
+updated_at: 2026-09-13T00:56:37.822282+00:00
 tags: [record, real-data]
 ---
 
-# Record 7a1885186c · Samsung-Electronics-To-Implement-Largest-Ever-Shareholder-Return-in-20
+# Record 7a1885186c · Samsung-Electronics-To-Implement-Largest-Ever-Share
 
 > 실제 수집 레코드입니다. 원문: [news.samsung.com](https://news.samsung.com/global/samsung-electronics-to-implement-largest-ever-shareholder-return-in-2026-estimated-at-krw-90-to-110-trillion)
 

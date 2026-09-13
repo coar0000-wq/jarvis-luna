@@ -1,12 +1,12 @@
 ---
-title: "Record 630ed63d3a · A-New-Report-on-Plastic-Surgery-Trends-Shows-Americans-Over-66-Want-to"
+title: "Record 630ed63d3a · A-New-Report-on-Plastic-Surgery-Trends-Shows-Americ"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.080984+00:00
+updated_at: 2026-09-13T00:56:37.899881+00:00
 tags: [record, real-data]
 ---
 
-# Record 630ed63d3a · A-New-Report-on-Plastic-Surgery-Trends-Shows-Americans-Over-66-Want-to
+# Record 630ed63d3a · A-New-Report-on-Plastic-Surgery-Trends-Shows-Americ
 
 > 실제 수집 레코드입니다. 원문: [www.allure.com](https://www.allure.com/story/asps-plastic-surgery-trends-2025)
 

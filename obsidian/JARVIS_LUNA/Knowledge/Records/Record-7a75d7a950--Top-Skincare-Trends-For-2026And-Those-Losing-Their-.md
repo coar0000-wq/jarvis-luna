@@ -1,12 +1,12 @@
 ---
-title: "Record 7a75d7a950 · Top-Skincare-Trends-For-2026And-Those-Losing-Their-Sizzle---Beauty-Ind"
+title: "Record 7a75d7a950 · Top-Skincare-Trends-For-2026And-Those-Losing-Their-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.898713+00:00
+updated_at: 2026-09-13T00:56:37.733797+00:00
 tags: [record, real-data]
 ---
 
-# Record 7a75d7a950 · Top-Skincare-Trends-For-2026And-Those-Losing-Their-Sizzle---Beauty-Ind
+# Record 7a75d7a950 · Top-Skincare-Trends-For-2026And-Those-Losing-Their-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMihgFBVV95cUxPX2t2bjhzejd5NTF6YlNORURCb3ZnSWk0Q1FxczZQZ3NYYmdTY0NhYW9LWHZQdTlrRjhxRmRmLTgxS1VkZXRXU3lsZnNMX1pFTE5OWDdXeWEzandjY3JpWk9WYXhaZ3lNbmtIZ0lkM2QtcnpxWE9KblV2NDNJakg4NjJjTnQxdw?oc=5)
 

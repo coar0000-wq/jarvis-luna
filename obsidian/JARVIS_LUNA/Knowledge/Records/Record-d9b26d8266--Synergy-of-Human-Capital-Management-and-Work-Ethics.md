@@ -1,12 +1,12 @@
 ---
-title: "Record d9b26d8266 · Synergy-of-Human-Capital-Management-and-Work-Ethics-in-Driving-OCB-and"
+title: "Record d9b26d8266 · Synergy-of-Human-Capital-Management-and-Work-Ethics"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.719263+00:00
+updated_at: 2026-09-13T00:56:37.564247+00:00
 tags: [record, real-data]
 ---
 
-# Record d9b26d8266 · Synergy-of-Human-Capital-Management-and-Work-Ethics-in-Driving-OCB-and
+# Record d9b26d8266 · Synergy-of-Human-Capital-Management-and-Work-Ethics
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.22122576)
 

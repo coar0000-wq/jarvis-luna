@@ -1,12 +1,12 @@
 ---
-title: "Record f486dd53e2 · BIO-HEAL-BOH-colorgram-Fillimilli-and-Delight-Project-Showcase-K-Beaut"
+title: "Record f486dd53e2 · BIO-HEAL-BOH-colorgram-Fillimilli-and-Delight-Proje"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.955032+00:00
+updated_at: 2026-09-13T00:56:37.785485+00:00
 tags: [record, real-data]
 ---
 
-# Record f486dd53e2 · BIO-HEAL-BOH-colorgram-Fillimilli-and-Delight-Project-Showcase-K-Beaut
+# Record f486dd53e2 · BIO-HEAL-BOH-colorgram-Fillimilli-and-Delight-Proje
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiowFBVV95cUxPTnRwRXI3OENHQXY0ZjNpYzBfZkFRT0lhc3hRZHZnVm5tR3JIaWdrOHhsNzJjY2k3Uk1oZTAyS3Y0Wi1WV3BtN1NSaU1jeGpRRWNUTEx1clM3SkZqSUtrWS1Xb3ZwaHhfc0hMWG1DRVA1dVdza0ptVVJJQUtuOG9zTVBPa0FoNFJzckVtd3hsbTFndTdFRmVkdkNOMmF2ZzUzQXlR?oc=5)
 

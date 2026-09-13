@@ -1,12 +1,12 @@
 ---
-title: "Record 6c72dced7a · Medtronic-invests-700M-in-surgical-partner-Cornerstone-Robotics"
+title: "Record 6c72dced7a · Medtronic-invests-700M-in-surgical-partner-Cornerst"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.178023+00:00
+updated_at: 2026-09-13T00:56:37.983907+00:00
 tags: [record, real-data]
 ---
 
-# Record 6c72dced7a · Medtronic-invests-700M-in-surgical-partner-Cornerstone-Robotics
+# Record 6c72dced7a · Medtronic-invests-700M-in-surgical-partner-Cornerst
 
 > 실제 수집 레코드입니다. 원문: [www.therobotreport.com](https://www.therobotreport.com/medtronic-invests-700m-in-surgical-partner-cornerstone-robotics/)
 

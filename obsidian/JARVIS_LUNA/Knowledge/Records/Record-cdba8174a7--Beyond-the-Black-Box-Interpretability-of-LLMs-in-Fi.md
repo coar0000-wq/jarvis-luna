@@ -1,12 +1,12 @@
 ---
-title: "Record cdba8174a7 · Beyond-the-Black-Box-Interpretability-of-LLMs-in-Finance"
+title: "Record cdba8174a7 · Beyond-the-Black-Box-Interpretability-of-LLMs-in-Fi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.702004+00:00
+updated_at: 2026-09-13T00:56:37.550414+00:00
 tags: [record, real-data]
 ---
 
-# Record cdba8174a7 · Beyond-the-Black-Box-Interpretability-of-LLMs-in-Finance
+# Record cdba8174a7 · Beyond-the-Black-Box-Interpretability-of-LLMs-in-Fi
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.48550/arxiv.2505.24650)
 

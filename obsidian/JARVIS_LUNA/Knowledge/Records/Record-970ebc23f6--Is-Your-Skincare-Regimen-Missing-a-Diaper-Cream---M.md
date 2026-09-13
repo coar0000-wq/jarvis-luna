@@ -1,12 +1,12 @@
 ---
-title: "Record 970ebc23f6 · Is-Your-Skincare-Regimen-Missing-a-Diaper-Cream---Marie-Claire"
+title: "Record 970ebc23f6 · Is-Your-Skincare-Regimen-Missing-a-Diaper-Cream---M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.885298+00:00
+updated_at: 2026-09-13T00:56:37.721293+00:00
 tags: [record, real-data]
 ---
 
-# Record 970ebc23f6 · Is-Your-Skincare-Regimen-Missing-a-Diaper-Cream---Marie-Claire
+# Record 970ebc23f6 · Is-Your-Skincare-Regimen-Missing-a-Diaper-Cream---M
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMigAFBVV95cUxOVTNwOHdocWFjZDJUalJzUFFQZlBSOGVLRWtscF9DM2U5SkNRM2t0RDU4RXZWZ1hNX1JISWtYYUpWbE95aFJGZXpVVHFSaXdISE5wMnFQUjFmZXhHMlVRb0VuTnZGT3IyT0NRa0FCYmcybGpTdnZjeU9rZVR5bS1BeA?oc=5)
 

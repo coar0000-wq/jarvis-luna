@@ -1,12 +1,12 @@
 ---
-title: "Record 6d301217bd · An-Antenna-to-Bits-F-Band-120-Gbps-CMOS-RF-64QAM-Receiver"
+title: "Record 6d301217bd · An-Antenna-to-Bits-F-Band-120-Gbps-CMOS-RF-64QAM-Re"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.636470+00:00
+updated_at: 2026-09-13T00:56:37.495845+00:00
 tags: [record, real-data]
 ---
 
-# Record 6d301217bd · An-Antenna-to-Bits-F-Band-120-Gbps-CMOS-RF-64QAM-Receiver
+# Record 6d301217bd · An-Antenna-to-Bits-F-Band-120-Gbps-CMOS-RF-64QAM-Re
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1109/jssc.2025.3648748)
 

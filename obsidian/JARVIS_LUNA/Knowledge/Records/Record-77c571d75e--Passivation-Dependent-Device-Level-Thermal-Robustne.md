@@ -1,12 +1,12 @@
 ---
-title: "Record 77c571d75e · Passivation-Dependent-Device-Level-Thermal-Robustness-of-Indium-Galliu"
+title: "Record 77c571d75e · Passivation-Dependent-Device-Level-Thermal-Robustne"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.605921+00:00
+updated_at: 2026-09-13T00:56:37.467718+00:00
 tags: [record, real-data]
 ---
 
-# Record 77c571d75e · Passivation-Dependent-Device-Level-Thermal-Robustness-of-Indium-Galliu
+# Record 77c571d75e · Passivation-Dependent-Device-Level-Thermal-Robustne
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1021/acsami.6c10253)
 

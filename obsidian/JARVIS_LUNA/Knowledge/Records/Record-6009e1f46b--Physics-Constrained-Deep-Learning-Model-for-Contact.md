@@ -1,12 +1,12 @@
 ---
-title: "Record 6009e1f46b · Physics-Constrained-Deep-Learning-Model-for-Contactless-Blood-Pressure"
+title: "Record 6009e1f46b · Physics-Constrained-Deep-Learning-Model-for-Contact"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.258581+00:00
+updated_at: 2026-09-13T00:56:38.053848+00:00
 tags: [record, real-data]
 ---
 
-# Record 6009e1f46b · Physics-Constrained-Deep-Learning-Model-for-Contactless-Blood-Pressure
+# Record 6009e1f46b · Physics-Constrained-Deep-Learning-Model-for-Contact
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.23562v1)
 

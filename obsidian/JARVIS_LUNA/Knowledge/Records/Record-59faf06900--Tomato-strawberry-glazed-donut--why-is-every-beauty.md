@@ -1,12 +1,12 @@
 ---
-title: "Record 59faf06900 · Tomato-strawberry-glazed-donut--why-is-every-beauty-trend-named-after-"
+title: "Record 59faf06900 · Tomato-strawberry-glazed-donut--why-is-every-beauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.925426+00:00
+updated_at: 2026-09-13T00:56:37.758269+00:00
 tags: [record, real-data]
 ---
 
-# Record 59faf06900 · Tomato-strawberry-glazed-donut--why-is-every-beauty-trend-named-after-
+# Record 59faf06900 · Tomato-strawberry-glazed-donut--why-is-every-beauty
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMikwFBVV95cUxQRDA4Z1VXRzVEOGUwck9aQWNQT1Q0TG1mLUVaTmxWblFwMTBfOGlXY0NONDVyelFpdzBMNUtXVTBfR0pvYW5NZFQzaG5SUWxFdEd5akcxVl8xUENQQkhLaWVmVjgtREVCc0paMFFYN0lSeEFkTGJhSGR3a21pbklkeDRlWGN3VVlmVjVPNWNqNzhOc2s?oc=5)
 

@@ -2,7 +2,7 @@
 title: "Record ba2781520a · The-Vogue-Business-TikTok-Trend-Tracker---Vogue"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T20:16:50.087752+00:00
+updated_at: 2026-09-13T00:56:37.706107+00:00
 tags: [record, real-data]
 ---
 

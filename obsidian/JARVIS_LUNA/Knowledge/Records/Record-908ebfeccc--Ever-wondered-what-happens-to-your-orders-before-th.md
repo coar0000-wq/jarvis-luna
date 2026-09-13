@@ -1,12 +1,12 @@
 ---
-title: "Record 908ebfeccc · Ever-wondered-what-happens-to-your-orders-before-they-leave-a-CJ-wareh"
+title: "Record 908ebfeccc · Ever-wondered-what-happens-to-your-orders-before-th"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.207282+00:00
+updated_at: 2026-09-13T00:56:38.010346+00:00
 tags: [record, real-data]
 ---
 
-# Record 908ebfeccc · Ever-wondered-what-happens-to-your-orders-before-they-leave-a-CJ-wareh
+# Record 908ebfeccc · Ever-wondered-what-happens-to-your-orders-before-th
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/shorts/ua-UKmpBRKA)
 

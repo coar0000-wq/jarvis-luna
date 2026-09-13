@@ -1,12 +1,12 @@
 ---
-title: "Record 77d08f9b8f · K-beautys-Top-Antiaging-Brand-Is-Landing-Stateside---WWD"
+title: "Record 77d08f9b8f · K-beautys-Top-Antiaging-Brand-Is-Landing-Stateside-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.956431+00:00
+updated_at: 2026-09-13T00:56:37.786777+00:00
 tags: [record, real-data]
 ---
 
-# Record 77d08f9b8f · K-beautys-Top-Antiaging-Brand-Is-Landing-Stateside---WWD
+# Record 77d08f9b8f · K-beautys-Top-Antiaging-Brand-Is-Landing-Stateside-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMipAFBVV95cUxQR0FidndBZVN1aUVsdmZ4VHhMV2FRMmc0R3FlUnVVb0ZCbVFiVDZ5TXNVWHhHSlVyTmhyYUlzelVlcXJ1SWN4TDNkM2tTc3V0dHRCSDRZdWYtYUFrcHA2RGVCQVYwdld1eDZYYlJENHBwRVFVOHpSdHk1S09RYmFSbmZXcXNQRXVDcFRnTFdBaWM3T2M0NV9QSHRCYVo4VldiYmhEaA?oc=5)
 

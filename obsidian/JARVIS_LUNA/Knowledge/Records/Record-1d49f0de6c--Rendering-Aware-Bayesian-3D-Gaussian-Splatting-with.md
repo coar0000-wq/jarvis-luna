@@ -1,12 +1,12 @@
 ---
-title: "Record 1d49f0de6c · Rendering-Aware-Bayesian-3D-Gaussian-Splatting-with-Native-Uncertainty"
+title: "Record 1d49f0de6c · Rendering-Aware-Bayesian-3D-Gaussian-Splatting-with"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.036519+00:00
+updated_at: 2026-09-13T00:56:37.861239+00:00
 tags: [record, real-data]
 ---
 
-# Record 1d49f0de6c · Rendering-Aware-Bayesian-3D-Gaussian-Splatting-with-Native-Uncertainty
+# Record 1d49f0de6c · Rendering-Aware-Bayesian-3D-Gaussian-Splatting-with
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7167855784)
 

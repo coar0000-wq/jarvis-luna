@@ -1,12 +1,12 @@
 ---
-title: "Record 6b364b98a8 · Driven-by-TikTok-trends-new-beauty-brands-target-children---FashionNet"
+title: "Record 6b364b98a8 · Driven-by-TikTok-trends-new-beauty-brands-target-ch"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.960875+00:00
+updated_at: 2026-09-13T00:56:37.790849+00:00
 tags: [record, real-data]
 ---
 
-# Record 6b364b98a8 · Driven-by-TikTok-trends-new-beauty-brands-target-children---FashionNet
+# Record 6b364b98a8 · Driven-by-TikTok-trends-new-beauty-brands-target-ch
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiqAFBVV95cUxNLXkzWGhXdjBqbnRXTWdYRDkya051ZXYwdlJ0RXBGYWw3eVVSWWg1STJUUEVpQm9PWWRDdm1EZnNhM29UbUtIZmdGOFpkWDJRWTlJSmJmUnAyRC1LN3FWOHFFRHRjZ2JuaE5RUFh2d1EwdkVuWTk2TllJdEgxMnJ1WTIzSUg5OUxQYlhUNGZuSmpEeWx1Rjg0dk9ZbzFYaEtPdDlQYnpoaGY?oc=5)
 

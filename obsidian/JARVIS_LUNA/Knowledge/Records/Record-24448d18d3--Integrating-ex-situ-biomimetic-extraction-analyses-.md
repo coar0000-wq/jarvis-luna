@@ -1,12 +1,12 @@
 ---
-title: "Record 24448d18d3 · Integrating-ex-situ-biomimetic-extraction-analyses-into-contaminated-s"
+title: "Record 24448d18d3 · Integrating-ex-situ-biomimetic-extraction-analyses-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.626455+00:00
+updated_at: 2026-09-13T00:56:37.486646+00:00
 tags: [record, real-data]
 ---
 
-# Record 24448d18d3 · Integrating-ex-situ-biomimetic-extraction-analyses-into-contaminated-s
+# Record 24448d18d3 · Integrating-ex-situ-biomimetic-extraction-analyses-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1093/inteam/vjae008)
 

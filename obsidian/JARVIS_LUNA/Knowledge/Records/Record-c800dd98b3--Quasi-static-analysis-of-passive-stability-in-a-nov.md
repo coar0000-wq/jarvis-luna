@@ -1,12 +1,12 @@
 ---
-title: "Record c800dd98b3 · Quasi-static-analysis-of-passive-stability-in-a-novel-underactuated-mu"
+title: "Record c800dd98b3 · Quasi-static-analysis-of-passive-stability-in-a-nov"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.552320+00:00
+updated_at: 2026-09-13T00:56:37.415268+00:00
 tags: [record, real-data]
 ---
 
-# Record c800dd98b3 · Quasi-static-analysis-of-passive-stability-in-a-novel-underactuated-mu
+# Record c800dd98b3 · Quasi-static-analysis-of-passive-stability-in-a-nov
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.11579v1)
 

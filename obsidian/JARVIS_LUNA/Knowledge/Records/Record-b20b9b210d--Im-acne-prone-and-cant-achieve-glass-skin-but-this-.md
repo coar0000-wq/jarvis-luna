@@ -1,12 +1,12 @@
 ---
-title: "Record b20b9b210d · Im-acne-prone-and-cant-achieve-glass-skin-but-this-new-K-beauty-trend-"
+title: "Record b20b9b210d · Im-acne-prone-and-cant-achieve-glass-skin-but-this-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.865382+00:00
+updated_at: 2026-09-13T00:56:37.702620+00:00
 tags: [record, real-data]
 ---
 
-# Record b20b9b210d · Im-acne-prone-and-cant-achieve-glass-skin-but-this-new-K-beauty-trend-
+# Record b20b9b210d · Im-acne-prone-and-cant-achieve-glass-skin-but-this-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMieEFVX3lxTE1zZVAyLVM5a0d6TE9sZ1lMczU4cGVpOHhmVzkyazRjUHl1dUIteXJJam9yUkR5aFNRbVo1dnV2MjYtNFVUMUZ3QnVVWTlNMUR0RG5UNVhxWk9YM01hMUwyVW05dF9TaG1meTh2TGFFTGJIU29KTXZtdw?oc=5)
 

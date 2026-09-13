@@ -1,12 +1,12 @@
 ---
-title: "Record d9229aadcc · Muted-Blush-Is-the-Soft-Girl-Blush-Trend-Taking-Over-TikTok---NewBeaut"
+title: "Record d9229aadcc · Muted-Blush-Is-the-Soft-Girl-Blush-Trend-Taking-Ove"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.831454+00:00
+updated_at: 2026-09-13T00:56:37.667887+00:00
 tags: [record, real-data]
 ---
 
-# Record d9229aadcc · Muted-Blush-Is-the-Soft-Girl-Blush-Trend-Taking-Over-TikTok---NewBeaut
+# Record d9229aadcc · Muted-Blush-Is-the-Soft-Girl-Blush-Trend-Taking-Ove
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiakFVX3lxTFBBSGRGSzBYSk1KRTJXTXhOWEkyNzM1NGtSMnpZek9oU2FnTWhtSERjLTJNcTY4N3BJdjd5NktLSWR3MjhJTC1JeFkzN0dWbDZtZV9tdUpWSmdBMDhpakpPRXR4YmtyNWp1a2c?oc=5)
 

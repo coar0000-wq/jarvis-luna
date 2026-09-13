@@ -1,12 +1,12 @@
 ---
-title: "Record 9f6251f88c · Hot-beauty-trends-on-TikTok-From-Jelly-Makeup-to-Broccoli-Freckles---H"
+title: "Record 9f6251f88c · Hot-beauty-trends-on-TikTok-From-Jelly-Makeup-to-Br"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.951368+00:00
+updated_at: 2026-09-13T00:56:37.782142+00:00
 tags: [record, real-data]
 ---
 
-# Record 9f6251f88c · Hot-beauty-trends-on-TikTok-From-Jelly-Makeup-to-Broccoli-Freckles---H
+# Record 9f6251f88c · Hot-beauty-trends-on-TikTok-From-Jelly-Makeup-to-Br
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMioAFBVV95cUxQeFVlNnNZUFVPdkYxMGNFOXRISE1Bc3dHdGNHdE0yWjVzanpoZXJaT2MxTldHSXlwUmIwcl9KeDVRNUVHTE9sbktkd3U5OUpLOFdRalhwaDlHem5nN2hNUW53SWl3Vmtpdm9wVlU0Nkl1VWx4SkljTk9fdW0zc2h0c0hZSnNvVzlsSVV6bWpQUVdXdkhQZUxpWV9GbXZRekM5?oc=5)
 

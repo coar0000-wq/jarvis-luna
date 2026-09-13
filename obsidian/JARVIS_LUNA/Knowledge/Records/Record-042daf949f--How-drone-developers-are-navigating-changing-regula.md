@@ -1,12 +1,12 @@
 ---
-title: "Record 042daf949f · How-drone-developers-are-navigating-changing-regulatory-landscapes-to-"
+title: "Record 042daf949f · How-drone-developers-are-navigating-changing-regula"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.174801+00:00
+updated_at: 2026-09-13T00:56:37.981223+00:00
 tags: [record, real-data]
 ---
 
-# Record 042daf949f · How-drone-developers-are-navigating-changing-regulatory-landscapes-to-
+# Record 042daf949f · How-drone-developers-are-navigating-changing-regula
 
 > 실제 수집 레코드입니다. 원문: [www.therobotreport.com](https://www.therobotreport.com/how-hylio-drone-developers-navigate-changing-regulatory-landscape-help-farmers/)
 

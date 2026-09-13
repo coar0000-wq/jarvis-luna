@@ -1,12 +1,12 @@
 ---
-title: "Record 50f388d119 · 7-Best-Ecommerce-Analytics-Platforms-for-DTC-Brands-Features-Pricing-a"
+title: "Record 50f388d119 · 7-Best-Ecommerce-Analytics-Platforms-for-DTC-Brands"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.813809+00:00
+updated_at: 2026-09-13T00:56:37.651727+00:00
 tags: [record, real-data]
 ---
 
-# Record 50f388d119 · 7-Best-Ecommerce-Analytics-Platforms-for-DTC-Brands-Features-Pricing-a
+# Record 50f388d119 · 7-Best-Ecommerce-Analytics-Platforms-for-DTC-Brands
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9rZktSWEpid3RqbWs0cmc4Q0pULWZNdGh6cVpxZVdFOHVMOXB5N3dNT0dqN0NlWlNyOEtUWm0yeFZMLTF6LW53TzFJVVRCVkFQUHNycldlX2JzY0hLZElkOTVmZXpyTVE?oc=5)
 

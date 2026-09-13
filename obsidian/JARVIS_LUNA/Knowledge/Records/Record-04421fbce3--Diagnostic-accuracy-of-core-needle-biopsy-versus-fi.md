@@ -1,12 +1,12 @@
 ---
-title: "Record 04421fbce3 · Diagnostic-accuracy-of-core-needle-biopsy-versus-fine-needle-aspiratio"
+title: "Record 04421fbce3 · Diagnostic-accuracy-of-core-needle-biopsy-versus-fi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.667302+00:00
+updated_at: 2026-09-13T00:56:37.522077+00:00
 tags: [record, real-data]
 ---
 
-# Record 04421fbce3 · Diagnostic-accuracy-of-core-needle-biopsy-versus-fine-needle-aspiratio
+# Record 04421fbce3 · Diagnostic-accuracy-of-core-needle-biopsy-versus-fi
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.21053/ceo.2026-00178)
 

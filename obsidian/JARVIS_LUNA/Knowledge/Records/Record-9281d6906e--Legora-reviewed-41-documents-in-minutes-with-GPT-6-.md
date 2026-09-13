@@ -1,12 +1,12 @@
 ---
-title: "Record 9281d6906e · Legora-reviewed-41-documents-in-minutes-with-GPT-6-Astra"
+title: "Record 9281d6906e · Legora-reviewed-41-documents-in-minutes-with-GPT-6-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.013748+00:00
+updated_at: 2026-09-13T00:56:37.839178+00:00
 tags: [record, real-data]
 ---
 
-# Record 9281d6906e · Legora-reviewed-41-documents-in-minutes-with-GPT-6-Astra
+# Record 9281d6906e · Legora-reviewed-41-documents-in-minutes-with-GPT-6-
 
 > 실제 수집 레코드입니다. 원문: [openai.com](https://openai.com/index/legora-financial-statement-review-with-astra)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 797dd20043 · ReWorld-An-Interactive-World-Model-with-Long-Horizon-Memory"
+title: "Record 797dd20043 · ReWorld-An-Interactive-World-Model-with-Long-Horizo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.260292+00:00
+updated_at: 2026-09-13T00:56:38.055523+00:00
 tags: [record, real-data]
 ---
 
-# Record 797dd20043 · ReWorld-An-Interactive-World-Model-with-Long-Horizon-Memory
+# Record 797dd20043 · ReWorld-An-Interactive-World-Model-with-Long-Horizo
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.23565v1)
 

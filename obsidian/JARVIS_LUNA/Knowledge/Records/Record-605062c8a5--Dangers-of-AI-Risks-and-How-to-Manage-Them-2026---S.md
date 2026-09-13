@@ -1,12 +1,12 @@
 ---
-title: "Record 605062c8a5 · Dangers-of-AI-Risks-and-How-to-Manage-Them-2026---Shopify"
+title: "Record 605062c8a5 · Dangers-of-AI-Risks-and-How-to-Manage-Them-2026---S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.795417+00:00
+updated_at: 2026-09-13T00:56:37.635035+00:00
 tags: [record, real-data]
 ---
 
-# Record 605062c8a5 · Dangers-of-AI-Risks-and-How-to-Manage-Them-2026---Shopify
+# Record 605062c8a5 · Dangers-of-AI-Risks-and-How-to-Manage-Them-2026---S
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiWEFVX3lxTFB5VkdsTUxpcXZIcUZxd3ROV2JMM2dobVBqRFFlRkVvZ2Fib3gtaWFrNnkzMkZBWk83RklhMkJUdzdKVENNODVaZ0lKeDlNUGZoNGxLblhvTHo?oc=5)
 

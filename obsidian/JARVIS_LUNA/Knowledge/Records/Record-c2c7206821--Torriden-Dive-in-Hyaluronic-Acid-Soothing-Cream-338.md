@@ -1,12 +1,12 @@
 ---
-title: "Record c2c7206821 · Torriden-Dive-in-Hyaluronic-Acid-Soothing-Cream-338-fl-oz100ml"
+title: "Record c2c7206821 · Torriden-Dive-in-Hyaluronic-Acid-Soothing-Cream-338"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.069723+00:00
+updated_at: 2026-09-13T00:56:37.890893+00:00
 tags: [record, real-data]
 ---
 
-# Record c2c7206821 · Torriden-Dive-in-Hyaluronic-Acid-Soothing-Cream-338-fl-oz100ml
+# Record c2c7206821 · Torriden-Dive-in-Hyaluronic-Acid-Soothing-Cream-338
 
 > 실제 수집 레코드입니다. 원문: [us.oliveyoung.com](https://us.oliveyoung.com/products/UA88631233)
 

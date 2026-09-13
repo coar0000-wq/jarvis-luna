@@ -1,12 +1,12 @@
 ---
-title: "Record 332a0af40f · Successor-selection-and-strategic-performance-in-family-businesses-the"
+title: "Record 332a0af40f · Successor-selection-and-strategic-performance-in-fa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.633729+00:00
+updated_at: 2026-09-13T00:56:37.493283+00:00
 tags: [record, real-data]
 ---
 
-# Record 332a0af40f · Successor-selection-and-strategic-performance-in-family-businesses-the
+# Record 332a0af40f · Successor-selection-and-strategic-performance-in-fa
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1108/jsma-02-2025-0057)
 

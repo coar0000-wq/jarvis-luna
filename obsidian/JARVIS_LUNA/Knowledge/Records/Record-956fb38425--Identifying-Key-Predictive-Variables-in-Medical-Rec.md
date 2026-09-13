@@ -1,12 +1,12 @@
 ---
-title: "Record 956fb38425 · Identifying-Key-Predictive-Variables-in-Medical-Records-Using-a-Large-"
+title: "Record 956fb38425 · Identifying-Key-Predictive-Variables-in-Medical-Rec"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.670194+00:00
+updated_at: 2026-09-13T00:56:37.524464+00:00
 tags: [record, real-data]
 ---
 
-# Record 956fb38425 · Identifying-Key-Predictive-Variables-in-Medical-Records-Using-a-Large-
+# Record 956fb38425 · Identifying-Key-Predictive-Variables-in-Medical-Rec
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.21203/rs.3.rs-4957517/v1)
 

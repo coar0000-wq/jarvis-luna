@@ -1,12 +1,12 @@
 ---
-title: "Record 9799ea8006 · Chiisanogenin-enhances-glucose-uptake-and-lowers-blood-glucose-via-ins"
+title: "Record 9799ea8006 · Chiisanogenin-enhances-glucose-uptake-and-lowers-bl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.587327+00:00
+updated_at: 2026-09-13T00:56:37.451031+00:00
 tags: [record, real-data]
 ---
 
-# Record 9799ea8006 · Chiisanogenin-enhances-glucose-uptake-and-lowers-blood-glucose-via-ins
+# Record 9799ea8006 · Chiisanogenin-enhances-glucose-uptake-and-lowers-bl
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.biopha.2025.118281)
 

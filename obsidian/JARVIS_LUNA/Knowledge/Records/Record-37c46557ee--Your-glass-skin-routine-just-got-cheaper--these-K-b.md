@@ -1,12 +1,12 @@
 ---
-title: "Record 37c46557ee · Your-glass-skin-routine-just-got-cheaper--these-K-beauty-faves-from-La"
+title: "Record 37c46557ee · Your-glass-skin-routine-just-got-cheaper--these-K-b"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.955282+00:00
+updated_at: 2026-09-13T00:56:37.785719+00:00
 tags: [record, real-data]
 ---
 
-# Record 37c46557ee · Your-glass-skin-routine-just-got-cheaper--these-K-beauty-faves-from-La
+# Record 37c46557ee · Your-glass-skin-routine-just-got-cheaper--these-K-b
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiowFBVV95cUxQRUxpNG1yU21xcUw3eTYycF9ZTHlBODRmaU9tb3E4NnBDU3o3cXNkbUdEM3lFV2JBS3NaSUNWWUQ3LTBIdVB4RXJYdHZTYXdwSUNUQXU4OGxWbGpTZUQtbVpXX0t3eG9BU1lOQWNJY25JelFGLWJUTXpmck1oQURuNXlhenptX2ZDYjlnRHp1V09LeTlQSUo0eVA5THJEQkVGRzJ3?oc=5)
 

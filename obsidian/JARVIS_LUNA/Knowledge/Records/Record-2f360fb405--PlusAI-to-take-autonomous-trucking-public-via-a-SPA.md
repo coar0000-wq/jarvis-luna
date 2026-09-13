@@ -1,12 +1,12 @@
 ---
-title: "Record 2f360fb405 · PlusAI-to-take-autonomous-trucking-public-via-a-SPAC-deal"
+title: "Record 2f360fb405 · PlusAI-to-take-autonomous-trucking-public-via-a-SPA"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.179253+00:00
+updated_at: 2026-09-13T00:56:37.984907+00:00
 tags: [record, real-data]
 ---
 
-# Record 2f360fb405 · PlusAI-to-take-autonomous-trucking-public-via-a-SPAC-deal
+# Record 2f360fb405 · PlusAI-to-take-autonomous-trucking-public-via-a-SPA
 
 > 실제 수집 레코드입니다. 원문: [www.therobotreport.com](https://www.therobotreport.com/plusai-takes-autonomous-trucking-public-via-spac-deal/)
 

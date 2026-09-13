@@ -1,12 +1,12 @@
 ---
-title: "Record f9b02761dc · Sub-Gaussian-Concentration-and-Entropic-Normality-of-the-Maximum-Likel"
+title: "Record f9b02761dc · Sub-Gaussian-Concentration-and-Entropic-Normality-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.025474+00:00
+updated_at: 2026-09-13T00:56:37.850155+00:00
 tags: [record, real-data]
 ---
 
-# Record f9b02761dc · Sub-Gaussian-Concentration-and-Entropic-Normality-of-the-Maximum-Likel
+# Record f9b02761dc · Sub-Gaussian-Concentration-and-Entropic-Normality-o
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7160969316)
 

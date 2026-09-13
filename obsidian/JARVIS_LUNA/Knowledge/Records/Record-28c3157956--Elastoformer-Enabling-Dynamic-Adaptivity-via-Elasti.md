@@ -1,12 +1,12 @@
 ---
-title: "Record 28c3157956 · Elastoformer-Enabling-Dynamic-Adaptivity-via-Elastic-Model-Transformat"
+title: "Record 28c3157956 · Elastoformer-Enabling-Dynamic-Adaptivity-via-Elasti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.530704+00:00
+updated_at: 2026-09-13T00:56:37.394680+00:00
 tags: [record, real-data]
 ---
 
-# Record 28c3157956 · Elastoformer-Enabling-Dynamic-Adaptivity-via-Elastic-Model-Transformat
+# Record 28c3157956 · Elastoformer-Enabling-Dynamic-Adaptivity-via-Elasti
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.10018v1)
 

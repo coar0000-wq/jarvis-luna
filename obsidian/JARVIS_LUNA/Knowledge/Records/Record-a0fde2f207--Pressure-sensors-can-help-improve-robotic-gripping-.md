@@ -1,12 +1,12 @@
 ---
-title: "Record a0fde2f207 · Pressure-sensors-can-help-improve-robotic-gripping-accuracy"
+title: "Record a0fde2f207 · Pressure-sensors-can-help-improve-robotic-gripping-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.179558+00:00
+updated_at: 2026-09-13T00:56:37.985160+00:00
 tags: [record, real-data]
 ---
 
-# Record a0fde2f207 · Pressure-sensors-can-help-improve-robotic-gripping-accuracy
+# Record a0fde2f207 · Pressure-sensors-can-help-improve-robotic-gripping-
 
 > 실제 수집 레코드입니다. 원문: [www.therobotreport.com](https://www.therobotreport.com/pressure-sensors-can-help-improve-robotic-gripping-accuracy/)
 

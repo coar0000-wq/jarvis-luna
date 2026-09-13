@@ -1,12 +1,12 @@
 ---
-title: "Record 8ecf960380 · Sustainable-Community-Wide-Model-to-Enhance-Cancer-Data-Usage-and-Util"
+title: "Record 8ecf960380 · Sustainable-Community-Wide-Model-to-Enhance-Cancer-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.659348+00:00
+updated_at: 2026-09-13T00:56:37.515720+00:00
 tags: [record, real-data]
 ---
 
-# Record 8ecf960380 · Sustainable-Community-Wide-Model-to-Enhance-Cancer-Data-Usage-and-Util
+# Record 8ecf960380 · Sustainable-Community-Wide-Model-to-Enhance-Cancer-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1200/cci-26-00123)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record d3a4f45c99 · HRAS-promotes-mutant-NRASdriven-transformation-with-codon-and-allele-s"
+title: "Record d3a4f45c99 · HRAS-promotes-mutant-NRASdriven-transformation-with"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.648219+00:00
+updated_at: 2026-09-13T00:56:37.506540+00:00
 tags: [record, real-data]
 ---
 
-# Record d3a4f45c99 · HRAS-promotes-mutant-NRASdriven-transformation-with-codon-and-allele-s
+# Record d3a4f45c99 · HRAS-promotes-mutant-NRASdriven-transformation-with
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1126/scisignal.aej6209)
 

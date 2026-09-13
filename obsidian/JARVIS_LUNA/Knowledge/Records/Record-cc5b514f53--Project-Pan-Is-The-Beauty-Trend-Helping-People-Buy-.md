@@ -1,12 +1,12 @@
 ---
-title: "Record cc5b514f53 · Project-Pan-Is-The-Beauty-Trend-Helping-People-Buy-Less-In-2026---Bust"
+title: "Record cc5b514f53 · Project-Pan-Is-The-Beauty-Trend-Helping-People-Buy-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.816106+00:00
+updated_at: 2026-09-13T00:56:37.653841+00:00
 tags: [record, real-data]
 ---
 
-# Record cc5b514f53 · Project-Pan-Is-The-Beauty-Trend-Helping-People-Buy-Less-In-2026---Bust
+# Record cc5b514f53 · Project-Pan-Is-The-Beauty-Trend-Helping-People-Buy-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiZEFVX3lxTE5XcW0zNlZXM2VNS0RfVHI2WFhNTXNvYU9nbHdzZ1FLYS1uQUxZZ2txWE9ySHFPYWY1YVdPZnU3YVVodHU3ejRpd3diYmQxaldZbG8yTlh2S2Y4ZGRrQmVialdoYS0?oc=5)
 

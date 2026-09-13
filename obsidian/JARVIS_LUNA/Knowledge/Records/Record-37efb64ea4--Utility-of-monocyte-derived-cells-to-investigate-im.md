@@ -1,12 +1,12 @@
 ---
-title: "Record 37efb64ea4 · Utility-of-monocyte-derived-cells-to-investigate-immune-mediated-drug-"
+title: "Record 37efb64ea4 · Utility-of-monocyte-derived-cells-to-investigate-im"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.602245+00:00
+updated_at: 2026-09-13T00:56:37.464339+00:00
 tags: [record, real-data]
 ---
 
-# Record 37efb64ea4 · Utility-of-monocyte-derived-cells-to-investigate-immune-mediated-drug-
+# Record 37efb64ea4 · Utility-of-monocyte-derived-cells-to-investigate-im
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.toxlet.2026.113176)
 

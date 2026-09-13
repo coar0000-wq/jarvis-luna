@@ -1,12 +1,12 @@
 ---
-title: "Record f0e27f432f · AlphaGenome-Atlas-A-predictive-map-of-every-possible-DNA-letter-change"
+title: "Record f0e27f432f · AlphaGenome-Atlas-A-predictive-map-of-every-possibl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.565852+00:00
+updated_at: 2026-09-13T00:56:37.429292+00:00
 tags: [record, real-data]
 ---
 
-# Record f0e27f432f · AlphaGenome-Atlas-A-predictive-map-of-every-possible-DNA-letter-change
+# Record f0e27f432f · AlphaGenome-Atlas-A-predictive-map-of-every-possibl
 
 > 실제 수집 레코드입니다. 원문: [deepmind.google](https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/)
 

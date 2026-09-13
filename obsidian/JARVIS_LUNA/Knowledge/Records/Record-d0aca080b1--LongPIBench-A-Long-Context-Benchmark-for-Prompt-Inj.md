@@ -1,12 +1,12 @@
 ---
-title: "Record d0aca080b1 · LongPIBench-A-Long-Context-Benchmark-for-Prompt-Injection"
+title: "Record d0aca080b1 · LongPIBench-A-Long-Context-Benchmark-for-Prompt-Inj"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.464929+00:00
+updated_at: 2026-09-13T00:56:37.335105+00:00
 tags: [record, real-data]
 ---
 
-# Record d0aca080b1 · LongPIBench-A-Long-Context-Benchmark-for-Prompt-Injection
+# Record d0aca080b1 · LongPIBench-A-Long-Context-Benchmark-for-Prompt-Inj
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.28411v1)
 

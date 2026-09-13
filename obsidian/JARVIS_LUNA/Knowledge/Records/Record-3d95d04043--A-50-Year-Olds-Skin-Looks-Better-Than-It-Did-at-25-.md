@@ -1,12 +1,12 @@
 ---
-title: "Record 3d95d04043 · A-50-Year-Olds-Skin-Looks-Better-Than-It-Did-at-25-Thanks-to-This-15-K"
+title: "Record 3d95d04043 · A-50-Year-Olds-Skin-Looks-Better-Than-It-Did-at-25-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.850022+00:00
+updated_at: 2026-09-13T00:56:37.686531+00:00
 tags: [record, real-data]
 ---
 
-# Record 3d95d04043 · A-50-Year-Olds-Skin-Looks-Better-Than-It-Did-at-25-Thanks-to-This-15-K
+# Record 3d95d04043 · A-50-Year-Olds-Skin-Looks-Better-Than-It-Did-at-25-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMicEFVX3lxTE9EMl9lVE1wWldiUkRfLTV4N1FON1daNWo0Mk9jbWd0UFdKdG1sZHhCZ1ZmWlEyVTlvYmE1LU1QckYzNWVPV0t1NnN0VGJWb1FZVFlrTWVLXzlNc0c0UjB4S3RwTk5JZlBHakxlQjIwNTk?oc=5)
 

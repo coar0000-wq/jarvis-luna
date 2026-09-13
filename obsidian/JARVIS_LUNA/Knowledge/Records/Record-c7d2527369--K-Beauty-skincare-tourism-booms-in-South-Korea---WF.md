@@ -1,18 +1,18 @@
 ---
-title: "Record c7d2527369 · K-Beauty-skincare-tourism-booms-in-South-Korea---WFSB"
+title: "Record c7d2527369 · K-Beauty-skincare-tourism-booms-in-South-Korea---WF"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.906253+00:00
+updated_at: 2026-09-13T00:56:37.740743+00:00
 tags: [record, real-data]
 ---
 
-# Record c7d2527369 · K-Beauty-skincare-tourism-booms-in-South-Korea---WFSB
+# Record c7d2527369 · K-Beauty-skincare-tourism-booms-in-South-Korea---WF
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiigFBVV95cUxNSzRNcEtPS1BKWWpfaW12TW5vam1IZjBrazNpS0ZzU2pTMjdmYzNQZ2tiYkNCTzMzRzNjbkthLXo3X18zbDRmOU5zMXdYYTlaUTZkSk9vY1h1bjg0QWh1d2JvaF9aclRTU0liMUhYZ00zNEFOd2tpbGtXSjN5OHlZOUhzQ2NENmtEdHc?oc=5)
 
-**제목:** K-Beauty skincare tourism booms in South Korea - WFSB
+**제목:** K-Beauty skincare tourism booms in South Korea - wfsb.com
 
-K-Beauty skincare tourism booms in South Korea - WFSB
+K-Beauty skincare tourism booms in South Korea - wfsb.com
 
 **출처:** Source · Google Search
 

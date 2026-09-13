@@ -1,12 +1,12 @@
 ---
-title: "Record 45e2bd417e · On-BatchNorm-Forward-Modes-in-Value-Based-Reinforcement-Learning"
+title: "Record 45e2bd417e · On-BatchNorm-Forward-Modes-in-Value-Based-Reinforce"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.510301+00:00
+updated_at: 2026-09-13T00:56:37.375886+00:00
 tags: [record, real-data]
 ---
 
-# Record 45e2bd417e · On-BatchNorm-Forward-Modes-in-Value-Based-Reinforcement-Learning
+# Record 45e2bd417e · On-BatchNorm-Forward-Modes-in-Value-Based-Reinforce
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.06421v1)
 

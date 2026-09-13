@@ -1,12 +1,12 @@
 ---
-title: "Record 7f025a697b · Korean-Skincare-Isnt-Just-for-Your-FaceThese-High-Performance-Bodycare"
+title: "Record 7f025a697b · Korean-Skincare-Isnt-Just-for-Your-FaceThese-High-P"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.842378+00:00
+updated_at: 2026-09-13T00:56:37.678694+00:00
 tags: [record, real-data]
 ---
 
-# Record 7f025a697b · Korean-Skincare-Isnt-Just-for-Your-FaceThese-High-Performance-Bodycare
+# Record 7f025a697b · Korean-Skincare-Isnt-Just-for-Your-FaceThese-High-P
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMibkFVX3lxTE5URWZMQlc3Z0NHU2ZIRnNYdWJldWlxZnl6VTJmc0dpOS1oRWtBaVMyYjEyTW4tbTRRSkNkWjdMTDQxU0pGa1BkVEJqZmVaTnQ5UFNCU3NrN0NzaDBSUjRkY2t6TmhMWUwzYXVZdDFn?oc=5)
 

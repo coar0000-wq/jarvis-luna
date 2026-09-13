@@ -1,12 +1,12 @@
 ---
-title: "Record 8e88fe610e · EG-ARSA-An-Expert-Grounded-Open-Model-for-Visual-Road-Safety-Auditing-"
+title: "Record 8e88fe610e · EG-ARSA-An-Expert-Grounded-Open-Model-for-Visual-Ro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.259143+00:00
+updated_at: 2026-09-13T00:56:38.054377+00:00
 tags: [record, real-data]
 ---
 
-# Record 8e88fe610e · EG-ARSA-An-Expert-Grounded-Open-Model-for-Visual-Road-Safety-Auditing-
+# Record 8e88fe610e · EG-ARSA-An-Expert-Grounded-Open-Model-for-Visual-Ro
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.23563v1)
 

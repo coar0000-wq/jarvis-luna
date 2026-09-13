@@ -1,12 +1,12 @@
 ---
-title: "Record a06e8ac5a1 · TikTok-reveals-top-beauty-trends-and-brands-to-watch---TheIndustrybeau"
+title: "Record a06e8ac5a1 · TikTok-reveals-top-beauty-trends-and-brands-to-watc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.956210+00:00
+updated_at: 2026-09-13T00:56:37.786568+00:00
 tags: [record, real-data]
 ---
 
-# Record a06e8ac5a1 · TikTok-reveals-top-beauty-trends-and-brands-to-watch---TheIndustrybeau
+# Record a06e8ac5a1 · TikTok-reveals-top-beauty-trends-and-brands-to-watc
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMipAFBVV95cUxQMFlvT2wxX0xqbExscE1PaEpoUkpNcFZiN3IxVk1CakM5bW55YUdmUVZKeTdOVjNxX1Z4RGM3dml6YVZ0LV95NkVBS1R1MkF2clI3TkpJZVRrMWloOWd4R3BYWVB4YmptTmdIc2tVYUxvelBPYUd3cTh6bTBKaUJsWmlkRlZmSlN4VGIxSWl0V3FpMXl4eWUyeFFBUnZ2cmlKVkVyeQ?oc=5)
 

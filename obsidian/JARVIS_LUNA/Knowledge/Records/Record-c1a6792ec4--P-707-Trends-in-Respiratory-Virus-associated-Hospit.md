@@ -1,12 +1,12 @@
 ---
-title: "Record c1a6792ec4 · P-707-Trends-in-Respiratory-Virus-associated-Hospitalizations--Nationa"
+title: "Record c1a6792ec4 · P-707-Trends-in-Respiratory-Virus-associated-Hospit"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.629221+00:00
+updated_at: 2026-09-13T00:56:37.489159+00:00
 tags: [record, real-data]
 ---
 
-# Record c1a6792ec4 · P-707-Trends-in-Respiratory-Virus-associated-Hospitalizations--Nationa
+# Record c1a6792ec4 · P-707-Trends-in-Respiratory-Virus-associated-Hospit
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1093/ofid/ofaf695.919)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 2ddf9b092b · Eqqualberry-packs-booth-at-Olive-Youngs-US-festival---The-Korea-Herald"
+title: "Record 2ddf9b092b · Eqqualberry-packs-booth-at-Olive-Youngs-US-festival"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.788705+00:00
+updated_at: 2026-09-13T00:56:37.628844+00:00
 tags: [record, real-data]
 ---
 
-# Record 2ddf9b092b · Eqqualberry-packs-booth-at-Olive-Youngs-US-festival---The-Korea-Herald
+# Record 2ddf9b092b · Eqqualberry-packs-booth-at-Olive-Youngs-US-festival
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiV0FVX3lxTFB1Vk4yOXVtM1N4YzdiUFZPYldkeG5kR2FhUWExd3ZkZjd2MFo1YW9KSjlfUkZ2anNUSnhYME9IUGxjNHZhNk1XdlVFSERiVWVwUURPa0E4TQ?oc=5)
 

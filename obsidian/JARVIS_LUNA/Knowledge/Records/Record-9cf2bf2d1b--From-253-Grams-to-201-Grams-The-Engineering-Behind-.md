@@ -1,12 +1,12 @@
 ---
-title: "Record 9cf2bf2d1b · From-253-Grams-to-201-Grams-The-Engineering-Behind-the-Worlds-Lightest"
+title: "Record 9cf2bf2d1b · From-253-Grams-to-201-Grams-The-Engineering-Behind-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.991812+00:00
+updated_at: 2026-09-13T00:56:37.819185+00:00
 tags: [record, real-data]
 ---
 
-# Record 9cf2bf2d1b · From-253-Grams-to-201-Grams-The-Engineering-Behind-the-Worlds-Lightest
+# Record 9cf2bf2d1b · From-253-Grams-to-201-Grams-The-Engineering-Behind-
 
 > 실제 수집 레코드입니다. 원문: [news.samsung.com](https://news.samsung.com/global/from-253-grams-to-201-grams-the-engineering-behind-the-worlds-lightest-fold)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record f978edb4bb · TikToks-Latest-Hair-Botox-Trend-and-Why-You-Should-Get-It---LOFFICIEL-"
+title: "Record f978edb4bb · TikToks-Latest-Hair-Botox-Trend-and-Why-You-Should-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.838689+00:00
+updated_at: 2026-09-13T00:56:37.674854+00:00
 tags: [record, real-data]
 ---
 
-# Record f978edb4bb · TikToks-Latest-Hair-Botox-Trend-and-Why-You-Should-Get-It---LOFFICIEL-
+# Record f978edb4bb · TikToks-Latest-Hair-Botox-Trend-and-Why-You-Should-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMibEFVX3lxTE9JbjdDZ01WMkNjWlpYaWxnTW8zUEZNUEZpUm9NUE83b2pYeUZYUEdHVEtnVm54MXNBTXJaclJHS04tTEhCeFhBWGpoZFYxdk1oNTZvMC1EbjlIUFpBb1NLQVRSNWhESFlWVXZLUw?oc=5)
 

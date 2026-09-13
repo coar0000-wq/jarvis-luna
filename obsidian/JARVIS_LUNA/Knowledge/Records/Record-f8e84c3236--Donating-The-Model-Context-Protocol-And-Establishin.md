@@ -1,12 +1,12 @@
 ---
-title: "Record f8e84c3236 · Donating-The-Model-Context-Protocol-And-Establishing-Of-The-Agentic-Ai"
+title: "Record f8e84c3236 · Donating-The-Model-Context-Protocol-And-Establishin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.104128+00:00
+updated_at: 2026-09-13T00:56:37.922106+00:00
 tags: [record, real-data]
 ---
 
-# Record f8e84c3236 · Donating-The-Model-Context-Protocol-And-Establishing-Of-The-Agentic-Ai
+# Record f8e84c3236 · Donating-The-Model-Context-Protocol-And-Establishin
 
 > 실제 수집 레코드입니다. 원문: [www.anthropic.com](https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation)
 

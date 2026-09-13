@@ -1,12 +1,12 @@
 ---
-title: "Record 08938b3aaa · This-ONE-simple-step-is-keeping-u-away-from-that-GLASS-SKIN"
+title: "Record 08938b3aaa · This-ONE-simple-step-is-keeping-u-away-from-that-GL"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.208268+00:00
+updated_at: 2026-09-13T00:56:38.011140+00:00
 tags: [record, real-data]
 ---
 
-# Record 08938b3aaa · This-ONE-simple-step-is-keeping-u-away-from-that-GLASS-SKIN
+# Record 08938b3aaa · This-ONE-simple-step-is-keeping-u-away-from-that-GL
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/shorts/z9nD0PcM238)
 

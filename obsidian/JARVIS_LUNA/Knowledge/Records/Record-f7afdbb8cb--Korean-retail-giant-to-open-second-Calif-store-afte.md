@@ -1,12 +1,12 @@
 ---
-title: "Record f7afdbb8cb · Korean-retail-giant-to-open-second-Calif-store-after-blockbuster-launc"
+title: "Record f7afdbb8cb · Korean-retail-giant-to-open-second-Calif-store-afte"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.859067+00:00
+updated_at: 2026-09-13T00:56:37.696057+00:00
 tags: [record, real-data]
 ---
 
-# Record f7afdbb8cb · Korean-retail-giant-to-open-second-Calif-store-after-blockbuster-launc
+# Record f7afdbb8cb · Korean-retail-giant-to-open-second-Calif-store-afte
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMidEFVX3lxTFBFenk5bE41YzhNVG9KaHVKSjY2UnQ2YlZjUXJjR1VBUlI3NWE4TjljUFUtQ3hidG5lNTNvODV5ZDNnTVAzMnFoNlpOaWFUdF9pUzBMdUZsVnZ0eXJJeUZsc1dJbFZwTzZmT1ZzbjBtZno4UWJV?oc=5)
 

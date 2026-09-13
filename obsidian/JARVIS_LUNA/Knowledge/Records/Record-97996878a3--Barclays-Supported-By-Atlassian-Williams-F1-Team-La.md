@@ -1,12 +1,12 @@
 ---
-title: "Record 97996878a3 · Barclays-Supported-By-Atlassian-Williams-F1-Team-Launches-Nati"
+title: "Record 97996878a3 · Barclays-Supported-By-Atlassian-Williams-F1-Team-La"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.119842+00:00
+updated_at: 2026-09-13T00:56:37.936444+00:00
 tags: [record, real-data]
 ---
 
-# Record 97996878a3 · Barclays-Supported-By-Atlassian-Williams-F1-Team-Launches-Nati
+# Record 97996878a3 · Barclays-Supported-By-Atlassian-Williams-F1-Team-La
 
 > 실제 수집 레코드입니다. 원문: [www.barclayscorporate.com](https://www.barclayscorporate.com/news/press-releases/20260/080/barclays--supported-by-atlassian-williams-f1-team--launches-nati/)
 

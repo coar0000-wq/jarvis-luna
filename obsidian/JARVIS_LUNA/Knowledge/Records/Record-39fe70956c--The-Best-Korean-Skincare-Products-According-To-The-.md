@@ -1,12 +1,12 @@
 ---
-title: "Record 39fe70956c · The-Best-Korean-Skincare-Products-According-To-The-Experts---British-V"
+title: "Record 39fe70956c · The-Best-Korean-Skincare-Products-According-To-The-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.842822+00:00
+updated_at: 2026-09-13T00:56:37.679157+00:00
 tags: [record, real-data]
 ---
 
-# Record 39fe70956c · The-Best-Korean-Skincare-Products-According-To-The-Experts---British-V
+# Record 39fe70956c · The-Best-Korean-Skincare-Products-According-To-The-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMibkFVX3lxTE5nbEFCdlNKMXNxclNnazVZQnZ1Q3Y1dzVDME5sVjhWMTdTMkdnTno0TXVLS2ZHa1FvQmZGOE9SUWtYbVpnRkpwZjFQX3NvYldDc2loZld5aGRCWGNKcjFNMnpjRHhLNUkyVTdrdkFB?oc=5)
 

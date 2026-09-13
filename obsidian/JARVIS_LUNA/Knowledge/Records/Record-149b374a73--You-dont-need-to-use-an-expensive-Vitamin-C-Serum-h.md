@@ -1,12 +1,12 @@
 ---
-title: "Record 149b374a73 · You-dont-need-to-use-an-expensive-Vitamin-C-Serum-heres-why"
+title: "Record 149b374a73 · You-dont-need-to-use-an-expensive-Vitamin-C-Serum-h"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.198994+00:00
+updated_at: 2026-09-13T00:56:38.001004+00:00
 tags: [record, real-data]
 ---
 
-# Record 149b374a73 · You-dont-need-to-use-an-expensive-Vitamin-C-Serum-heres-why
+# Record 149b374a73 · You-dont-need-to-use-an-expensive-Vitamin-C-Serum-h
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/shorts/aCqYLzd-AlQ)
 

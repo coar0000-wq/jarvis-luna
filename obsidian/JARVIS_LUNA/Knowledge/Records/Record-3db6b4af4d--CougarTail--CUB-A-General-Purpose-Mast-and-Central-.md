@@ -1,12 +1,12 @@
 ---
-title: "Record 3db6b4af4d · CougarTail--CUB-A-General-Purpose-Mast-and-Central-Utility-Board-for-C"
+title: "Record 3db6b4af4d · CougarTail--CUB-A-General-Purpose-Mast-and-Central-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.535190+00:00
+updated_at: 2026-09-13T00:56:37.398698+00:00
 tags: [record, real-data]
 ---
 
-# Record 3db6b4af4d · CougarTail--CUB-A-General-Purpose-Mast-and-Central-Utility-Board-for-C
+# Record 3db6b4af4d · CougarTail--CUB-A-General-Purpose-Mast-and-Central-
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.10230v1)
 

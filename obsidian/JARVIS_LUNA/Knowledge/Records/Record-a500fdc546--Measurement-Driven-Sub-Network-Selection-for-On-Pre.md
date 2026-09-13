@@ -1,12 +1,12 @@
 ---
-title: "Record a500fdc546 · Measurement-Driven-Sub-Network-Selection-for-On-Premise-Retrieval-Augm"
+title: "Record a500fdc546 · Measurement-Driven-Sub-Network-Selection-for-On-Pre"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.474331+00:00
+updated_at: 2026-09-13T00:56:37.343234+00:00
 tags: [record, real-data]
 ---
 
-# Record a500fdc546 · Measurement-Driven-Sub-Network-Selection-for-On-Premise-Retrieval-Augm
+# Record a500fdc546 · Measurement-Driven-Sub-Network-Selection-for-On-Pre
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.02760v1)
 

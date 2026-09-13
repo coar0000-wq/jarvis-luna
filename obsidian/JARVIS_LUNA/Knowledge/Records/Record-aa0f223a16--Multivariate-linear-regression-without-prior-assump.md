@@ -1,12 +1,12 @@
 ---
-title: "Record aa0f223a16 · Multivariate-linear-regression-without-prior-assumptions"
+title: "Record aa0f223a16 · Multivariate-linear-regression-without-prior-assump"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.542501+00:00
+updated_at: 2026-09-13T00:56:37.405238+00:00
 tags: [record, real-data]
 ---
 
-# Record aa0f223a16 · Multivariate-linear-regression-without-prior-assumptions
+# Record aa0f223a16 · Multivariate-linear-regression-without-prior-assump
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.10477v1)
 

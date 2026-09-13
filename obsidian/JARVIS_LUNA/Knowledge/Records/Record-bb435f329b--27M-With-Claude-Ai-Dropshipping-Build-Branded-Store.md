@@ -1,12 +1,12 @@
 ---
-title: "Record bb435f329b · 27M-With-Claude-Ai-Dropshipping-Build-Branded-Stores-for-FREE"
+title: "Record bb435f329b · 27M-With-Claude-Ai-Dropshipping-Build-Branded-Store"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.222558+00:00
+updated_at: 2026-09-13T00:56:38.023270+00:00
 tags: [record, real-data]
 ---
 
-# Record bb435f329b · 27M-With-Claude-Ai-Dropshipping-Build-Branded-Stores-for-FREE
+# Record bb435f329b · 27M-With-Claude-Ai-Dropshipping-Build-Branded-Store
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/watch?v=bETBkG5fidk)
 

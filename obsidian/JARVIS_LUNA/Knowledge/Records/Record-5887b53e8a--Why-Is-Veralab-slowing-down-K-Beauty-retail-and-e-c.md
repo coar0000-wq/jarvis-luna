@@ -1,12 +1,12 @@
 ---
-title: "Record 5887b53e8a · Why-Is-Veralab-slowing-down-K-Beauty-retail-and-e-commerce-shift---nss"
+title: "Record 5887b53e8a · Why-Is-Veralab-slowing-down-K-Beauty-retail-and-e-c"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.948368+00:00
+updated_at: 2026-09-13T00:56:37.779287+00:00
 tags: [record, real-data]
 ---
 
-# Record 5887b53e8a · Why-Is-Veralab-slowing-down-K-Beauty-retail-and-e-commerce-shift---nss
+# Record 5887b53e8a · Why-Is-Veralab-slowing-down-K-Beauty-retail-and-e-c
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMinwFBVV95cUxNTVhUY0dZNFl1ZG93dkhucWJJZzNReUNyQ0NnSFlfOGt2WW1OMkpsOW9UTEhYOUxPVUxxSWNTQnItLTVmMjBILWFZcVpLaDlkMmt6ajd0T2tBbnY4QUJrNUV6aDA0MTJxNUNobjVDcmJCN1lpZmExRzNsc0FLbWhpRzVucG9fYXZ6OFBUanl4WUd6akEyOHNkSlduaUY3Umc?oc=5)
 

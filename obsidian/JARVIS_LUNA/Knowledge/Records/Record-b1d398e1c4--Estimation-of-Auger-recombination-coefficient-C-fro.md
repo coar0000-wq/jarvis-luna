@@ -1,12 +1,12 @@
 ---
-title: "Record b1d398e1c4 · Estimation-of-Auger-recombination-coefficient-C-from-DC-measurements-i"
+title: "Record b1d398e1c4 · Estimation-of-Auger-recombination-coefficient-C-fro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.646171+00:00
+updated_at: 2026-09-13T00:56:37.504799+00:00
 tags: [record, real-data]
 ---
 
-# Record b1d398e1c4 · Estimation-of-Auger-recombination-coefficient-C-from-DC-measurements-i
+# Record b1d398e1c4 · Estimation-of-Auger-recombination-coefficient-C-fro
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1117/1.oe.65.7.077106)
 

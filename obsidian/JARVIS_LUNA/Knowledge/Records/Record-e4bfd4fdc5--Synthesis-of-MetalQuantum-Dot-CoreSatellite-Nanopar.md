@@ -1,12 +1,12 @@
 ---
-title: "Record e4bfd4fdc5 · Synthesis-of-MetalQuantum-Dot-CoreSatellite-Nanoparticles-and-Plasmoni"
+title: "Record e4bfd4fdc5 · Synthesis-of-MetalQuantum-Dot-CoreSatellite-Nanopar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.609423+00:00
+updated_at: 2026-09-13T00:56:37.470885+00:00
 tags: [record, real-data]
 ---
 
-# Record e4bfd4fdc5 · Synthesis-of-MetalQuantum-Dot-CoreSatellite-Nanoparticles-and-Plasmoni
+# Record e4bfd4fdc5 · Synthesis-of-MetalQuantum-Dot-CoreSatellite-Nanopar
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1021/jacs.6c13023)
 

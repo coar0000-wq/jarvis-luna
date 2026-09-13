@@ -1,12 +1,12 @@
 ---
-title: "Record 000cbeb2f3 · Tranexamic-Acid-Cream-Retinal-Serums-Lead-K-Beauty-Skincare-Trends---H"
+title: "Record 000cbeb2f3 · Tranexamic-Acid-Cream-Retinal-Serums-Lead-K-Beauty-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.958673+00:00
+updated_at: 2026-09-13T00:56:37.788838+00:00
 tags: [record, real-data]
 ---
 
-# Record 000cbeb2f3 · Tranexamic-Acid-Cream-Retinal-Serums-Lead-K-Beauty-Skincare-Trends---H
+# Record 000cbeb2f3 · Tranexamic-Acid-Cream-Retinal-Serums-Lead-K-Beauty-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMipgFBVV95cUxQZzM1U1R3bU1NMGoyS1JCN0xXbGU5dFZJSHZzUENUNWRUVUtOY1lJYS1QRTlzUV9QQ0tSY0pZUGZ5bDNZSllFREZqMVRaa1NFZV9RejhlRnU5SVF5dF81SUVIQV8zZmZWd2huTEltaDBWNjhGU25TRGdRR1FVT2RRWXo1Z3NEV2FuMlV3X2liaDZnRkVYckJIaWtiMkhWUkJmMTRISWx3?oc=5)
 

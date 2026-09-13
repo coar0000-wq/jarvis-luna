@@ -1,12 +1,12 @@
 ---
-title: "Record 63e2c51559 · Leidos-to-participate-in-the-Jefferies-2026-Global-Industrials-Confere"
+title: "Record 63e2c51559 · Leidos-to-participate-in-the-Jefferies-2026-Global-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.755995+00:00
+updated_at: 2026-09-13T00:56:37.598208+00:00
 tags: [record, real-data]
 ---
 
-# Record 63e2c51559 · Leidos-to-participate-in-the-Jefferies-2026-Global-Industrials-Confere
+# Record 63e2c51559 · Leidos-to-participate-in-the-Jefferies-2026-Global-
 
 > 실제 수집 레코드입니다. 원문: [investors.leidos.com](https://investors.leidos.com/news-releases/news-release-details/leidos-participate-jefferies-2026-global-industrials-conference)
 

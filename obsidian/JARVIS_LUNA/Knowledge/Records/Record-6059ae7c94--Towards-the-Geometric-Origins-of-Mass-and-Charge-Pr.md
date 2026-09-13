@@ -1,12 +1,12 @@
 ---
-title: "Record 6059ae7c94 · Towards-the-Geometric-Origins-of-Mass-and-Charge-Projection-Geodesics-"
+title: "Record 6059ae7c94 · Towards-the-Geometric-Origins-of-Mass-and-Charge-Pr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.712642+00:00
+updated_at: 2026-09-13T00:56:37.558911+00:00
 tags: [record, real-data]
 ---
 
-# Record 6059ae7c94 · Towards-the-Geometric-Origins-of-Mass-and-Charge-Projection-Geodesics-
+# Record 6059ae7c94 · Towards-the-Geometric-Origins-of-Mass-and-Charge-Pr
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.21478990)
 

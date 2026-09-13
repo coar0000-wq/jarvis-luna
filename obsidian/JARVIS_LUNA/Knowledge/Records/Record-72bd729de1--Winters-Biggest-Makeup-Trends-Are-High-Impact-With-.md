@@ -1,12 +1,12 @@
 ---
-title: "Record 72bd729de1 · Winters-Biggest-Makeup-Trends-Are-High-Impact-With-Minimal-Effort---Al"
+title: "Record 72bd729de1 · Winters-Biggest-Makeup-Trends-Are-High-Impact-With-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.818186+00:00
+updated_at: 2026-09-13T00:56:37.655737+00:00
 tags: [record, real-data]
 ---
 
-# Record 72bd729de1 · Winters-Biggest-Makeup-Trends-Are-High-Impact-With-Minimal-Effort---Al
+# Record 72bd729de1 · Winters-Biggest-Makeup-Trends-Are-High-Impact-With-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiZEFVX3lxTE9sQWFiWUxyaGpIYVdHNVFvTzJqSTB4WGRCR0E2YVowRGVpQjBrN0I1eUYwcEVndWpjV0ZKTWprbS05MEZ6azBCWUFOUHRCRzZvQzdPcmZhbE84MVg1MnlHQTZVTWo?oc=5)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record a350924f57 · 2AM-Grounding-Agent-Side-Memory-as-Guidance-for-Steerable-Action-Model"
+title: "Record a350924f57 · 2AM-Grounding-Agent-Side-Memory-as-Guidance-for-Ste"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.547209+00:00
+updated_at: 2026-09-13T00:56:37.410106+00:00
 tags: [record, real-data]
 ---
 
-# Record a350924f57 · 2AM-Grounding-Agent-Side-Memory-as-Guidance-for-Steerable-Action-Model
+# Record a350924f57 · 2AM-Grounding-Agent-Side-Memory-as-Guidance-for-Ste
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.11308v1)
 

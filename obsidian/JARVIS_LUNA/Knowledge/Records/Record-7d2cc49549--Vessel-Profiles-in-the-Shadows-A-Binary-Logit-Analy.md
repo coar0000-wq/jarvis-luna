@@ -1,12 +1,12 @@
 ---
-title: "Record 7d2cc49549 · Vessel-Profiles-in-the-Shadows-A-Binary-Logit-Analysis-of-Technical-an"
+title: "Record 7d2cc49549 · Vessel-Profiles-in-the-Shadows-A-Binary-Logit-Analy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.671366+00:00
+updated_at: 2026-09-13T00:56:37.525437+00:00
 tags: [record, real-data]
 ---
 
-# Record 7d2cc49549 · Vessel-Profiles-in-the-Shadows-A-Binary-Logit-Analysis-of-Technical-an
+# Record 7d2cc49549 · Vessel-Profiles-in-the-Shadows-A-Binary-Logit-Analy
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.21203/rs.3.rs-9098405/v1)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record a73cfb95aa · Manifold-Agentic-Reasoning-Extending-Agentic-POMDPs-and-Post-Training-"
+title: "Record a73cfb95aa · Manifold-Agentic-Reasoning-Extending-Agentic-POMDPs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.731522+00:00
+updated_at: 2026-09-13T00:56:37.575643+00:00
 tags: [record, real-data]
 ---
 
-# Record a73cfb95aa · Manifold-Agentic-Reasoning-Extending-Agentic-POMDPs-and-Post-Training-
+# Record a73cfb95aa · Manifold-Agentic-Reasoning-Extending-Agentic-POMDPs
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.64898/2026.07.26.740848)
 

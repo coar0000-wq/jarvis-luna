@@ -1,12 +1,12 @@
 ---
-title: "Record 938a867aa8 · The-Transformation-of-Ecommerce-Shopifys-SHOP-AI-Powered-Strategy-for-"
+title: "Record 938a867aa8 · The-Transformation-of-Ecommerce-Shopifys-SHOP-AI-Po"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.979872+00:00
+updated_at: 2026-09-13T00:56:37.808173+00:00
 tags: [record, real-data]
 ---
 
-# Record 938a867aa8 · The-Transformation-of-Ecommerce-Shopifys-SHOP-AI-Powered-Strategy-for-
+# Record 938a867aa8 · The-Transformation-of-Ecommerce-Shopifys-SHOP-AI-Po
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMitwFBVV95cUxQWEFPYU5TdmtxaTJYamxIVEI5YlVsci1QTE5KN0hRVmFkcWk0T2hfQm5sWlFCYmFDdDE2bmZZRC1KUGhzSUJHRDhERzdxZmNhRE5YcldjcmpRcGotQXZRUk9LX0l4VHNIVE9URENlMUMyX2lmaGEyUExPQW9PVWFtYzJ2dWFDc1dESGo4aGJYRFlDUkJnSi1tQ19XTzZNWXNUaU5IR1Y2bzJMUVdZcE9qMUd2c1RMYmM?oc=5)
 

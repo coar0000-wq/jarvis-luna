@@ -1,12 +1,12 @@
 ---
-title: "Record 9d1693e002 · Predefined-Time-Leaderless-Consensus-Under-Denial-of-Service-Attacks"
+title: "Record 9d1693e002 · Predefined-Time-Leaderless-Consensus-Under-Denial-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.556800+00:00
+updated_at: 2026-09-13T00:56:37.419807+00:00
 tags: [record, real-data]
 ---
 
-# Record 9d1693e002 · Predefined-Time-Leaderless-Consensus-Under-Denial-of-Service-Attacks
+# Record 9d1693e002 · Predefined-Time-Leaderless-Consensus-Under-Denial-o
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.11781v1)
 

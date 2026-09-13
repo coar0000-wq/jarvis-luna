@@ -1,12 +1,12 @@
 ---
-title: "Record aa96c7adad · Turkish-Delight-Makeup-Is-TikToks-Delicious-New-Trend---NewBeauty"
+title: "Record aa96c7adad · Turkish-Delight-Makeup-Is-TikToks-Delicious-New-Tre"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.824477+00:00
+updated_at: 2026-09-13T00:56:37.661517+00:00
 tags: [record, real-data]
 ---
 
-# Record aa96c7adad · Turkish-Delight-Makeup-Is-TikToks-Delicious-New-Trend---NewBeauty
+# Record aa96c7adad · Turkish-Delight-Makeup-Is-TikToks-Delicious-New-Tre
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMia0FVX3lxTE9uTmZ5Wm12WUUwc2xlcjJyOWlMT1VLVkxvM2VVekEtWmtvNDkwNnpLbTU2TF95S24wSkZNUlBqS2JBdUFGNnpyS240cnlYQmM5bHFleURIdDdSTG9qQk94R1RmazlpTWFNOEJV?oc=5)
 

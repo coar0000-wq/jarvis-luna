@@ -1,12 +1,12 @@
 ---
-title: "Record 99828da4a3 · As-K-beauty-continues-to-grow-by-expanding-its-export-market-to-the-US"
+title: "Record 99828da4a3 · As-K-beauty-continues-to-grow-by-expanding-its-expo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.783419+00:00
+updated_at: 2026-09-13T00:56:37.623876+00:00
 tags: [record, real-data]
 ---
 
-# Record 99828da4a3 · As-K-beauty-continues-to-grow-by-expanding-its-export-market-to-the-US
+# Record 99828da4a3 · As-K-beauty-continues-to-grow-by-expanding-its-expo
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiU0FVX3lxTE5nV254bll1NUcweTJEOWwxNUZpVzdnZnVmeU9OTy1fbWIzUDdpMklDSHBnSzlNaHpRb2hUU2hrc1Mya0xHRUFINlJrbmNiSVBxb1ZN?oc=5)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 01e2bb0bda · Sound-Compilation-of-Weighted-Event-Signal-Temporal-Logic-to-Timeless-"
+title: "Record 01e2bb0bda · Sound-Compilation-of-Weighted-Event-Signal-Temporal"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.514264+00:00
+updated_at: 2026-09-13T00:56:37.379527+00:00
 tags: [record, real-data]
 ---
 
-# Record 01e2bb0bda · Sound-Compilation-of-Weighted-Event-Signal-Temporal-Logic-to-Timeless-
+# Record 01e2bb0bda · Sound-Compilation-of-Weighted-Event-Signal-Temporal
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.07900v1)
 

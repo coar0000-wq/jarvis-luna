@@ -1,12 +1,12 @@
 ---
-title: "Record a405c7689a · InSitu-Transmission-Electron-Microscope-Investigation-of-the-Calcinati"
+title: "Record a405c7689a · InSitu-Transmission-Electron-Microscope-Investigati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.579200+00:00
+updated_at: 2026-09-13T00:56:37.443293+00:00
 tags: [record, real-data]
 ---
 
-# Record a405c7689a · InSitu-Transmission-Electron-Microscope-Investigation-of-the-Calcinati
+# Record a405c7689a · InSitu-Transmission-Electron-Microscope-Investigati
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1002/smll.74761)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 196378c5dc · AI-Agents-For-Retail-How-Retail-AI-Agents-Work---Shopify"
+title: "Record 196378c5dc · AI-Agents-For-Retail-How-Retail-AI-Agents-Work---Sh"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.800655+00:00
+updated_at: 2026-09-13T00:56:37.639573+00:00
 tags: [record, real-data]
 ---
 
-# Record 196378c5dc · AI-Agents-For-Retail-How-Retail-AI-Agents-Work---Shopify
+# Record 196378c5dc · AI-Agents-For-Retail-How-Retail-AI-Agents-Work---Sh
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5DQWkxMFN2Y3U1eGdLa3UxWjRLMjFrRWVRMTkzSWxESHVlemxFZW0xWEtvUzV6bGVVbG9BeUk5SzJhalEwRFdZMmZnT2RwckFPSXZ6WDFWSkg2dzV0?oc=5)
 

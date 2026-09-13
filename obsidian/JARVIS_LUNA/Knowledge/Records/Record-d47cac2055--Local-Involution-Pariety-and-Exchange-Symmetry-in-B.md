@@ -1,12 +1,12 @@
 ---
-title: "Record d47cac2055 · Local-Involution-Pariety-and-Exchange-Symmetry-in-Bipartite-Quantum-Sy"
+title: "Record d47cac2055 · Local-Involution-Pariety-and-Exchange-Symmetry-in-B"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.716271+00:00
+updated_at: 2026-09-13T00:56:37.561878+00:00
 tags: [record, real-data]
 ---
 
-# Record d47cac2055 · Local-Involution-Pariety-and-Exchange-Symmetry-in-Bipartite-Quantum-Sy
+# Record d47cac2055 · Local-Involution-Pariety-and-Exchange-Symmetry-in-B
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.21960683)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record a4a0380e4e · Impact-of-NH-Emission-on-Determining-the-Rotational-Temperature-From-t"
+title: "Record a4a0380e4e · Impact-of-NH-Emission-on-Determining-the-Rotational"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.577904+00:00
+updated_at: 2026-09-13T00:56:37.441988+00:00
 tags: [record, real-data]
 ---
 
-# Record a4a0380e4e · Impact-of-NH-Emission-on-Determining-the-Rotational-Temperature-From-t
+# Record a4a0380e4e · Impact-of-NH-Emission-on-Determining-the-Rotational
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1002/ppap.70190)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 02dddd9299 · What-to-Remove-What-to-Preserve-Dual-Ambiguity-Rectification-for-All-i"
+title: "Record 02dddd9299 · What-to-Remove-What-to-Preserve-Dual-Ambiguity-Rect"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.702259+00:00
+updated_at: 2026-09-13T00:56:37.550626+00:00
 tags: [record, real-data]
 ---
 
-# Record 02dddd9299 · What-to-Remove-What-to-Preserve-Dual-Ambiguity-Rectification-for-All-i
+# Record 02dddd9299 · What-to-Remove-What-to-Preserve-Dual-Ambiguity-Rect
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.48550/arxiv.2607.28526)
 

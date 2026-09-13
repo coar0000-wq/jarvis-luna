@@ -1,12 +1,12 @@
 ---
-title: "Record b4140ed1cc · ASML-reports-transactions-under-its-current-share-buyback-program"
+title: "Record b4140ed1cc · ASML-reports-transactions-under-its-current-share-b"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.117474+00:00
+updated_at: 2026-09-13T00:56:37.934278+00:00
 tags: [record, real-data]
 ---
 
-# Record b4140ed1cc · ASML-reports-transactions-under-its-current-share-buyback-program
+# Record b4140ed1cc · ASML-reports-transactions-under-its-current-share-b
 
 > 실제 수집 레코드입니다. 원문: [www.asml.com](https://www.asml.com/en/news/share-buyback/2026/asml-reports-transactions-under-its-current-share-buyback-program-30)
 

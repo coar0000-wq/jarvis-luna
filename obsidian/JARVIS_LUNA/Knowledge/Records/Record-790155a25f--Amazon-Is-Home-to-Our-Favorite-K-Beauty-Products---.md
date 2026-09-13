@@ -1,12 +1,12 @@
 ---
-title: "Record 790155a25f · Amazon-Is-Home-to-Our-Favorite-K-Beauty-Products---Allure"
+title: "Record 790155a25f · Amazon-Is-Home-to-Our-Favorite-K-Beauty-Products---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.839336+00:00
+updated_at: 2026-09-13T00:56:37.675510+00:00
 tags: [record, real-data]
 ---
 
-# Record 790155a25f · Amazon-Is-Home-to-Our-Favorite-K-Beauty-Products---Allure
+# Record 790155a25f · Amazon-Is-Home-to-Our-Favorite-K-Beauty-Products---
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMibEFVX3lxTFBKVGtYN1RLbnJJRzhIOUVFRGs4ZHZuM0VHY2JCRTBCNXN2UVVEaDhVOWhBNXNVRFpYZkowcUpCOXBqeFpDeWhUOTZYTzd0M3NZNnVNeFJEbkx3RGJHc3BvTHZHOHNYYnJiVk9lTQ?oc=5)
 

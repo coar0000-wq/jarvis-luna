@@ -1,12 +1,12 @@
 ---
-title: "Record 3780858886 · K-Beauty-boom-Korean-skincare-sales-surge-as-glass-skin-trend-takes-ov"
+title: "Record 3780858886 · K-Beauty-boom-Korean-skincare-sales-surge-as-glass-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.970234+00:00
+updated_at: 2026-09-13T00:56:37.799357+00:00
 tags: [record, real-data]
 ---
 
-# Record 3780858886 · K-Beauty-boom-Korean-skincare-sales-surge-as-glass-skin-trend-takes-ov
+# Record 3780858886 · K-Beauty-boom-Korean-skincare-sales-surge-as-glass-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMirwFBVV95cUxOd25vUHFJN1h3UnJhaDJRVHdiRGJMTXZJNXFLUTh6bHh1ZkFWR3BJZVJKMDZSNkFUUEcyUXpSeUYzaFBiZGdPNmpfcWc4TlV3Y0pZbDF1T0R1SGdiZDA4ajdmaWMtNzR2eHFfcURILUwxekNzdEF2TWdSN3RqTEI4b1EwdW9FcFl3MFI1SmRQd29zM1FQVXZXZmExeWl6SlR5bjlVZlY5dHNzcU11RlZn?oc=5)
 

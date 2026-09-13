@@ -1,12 +1,12 @@
 ---
-title: "Record c24765508c · How-Corsets-and-Bras-Have-Helped-Reinforce-Beauty-Standards-Throughout"
+title: "Record c24765508c · How-Corsets-and-Bras-Have-Helped-Reinforce-Beauty-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.086300+00:00
+updated_at: 2026-09-13T00:56:37.904174+00:00
 tags: [record, real-data]
 ---
 
-# Record c24765508c · How-Corsets-and-Bras-Have-Helped-Reinforce-Beauty-Standards-Throughout
+# Record c24765508c · How-Corsets-and-Bras-Have-Helped-Reinforce-Beauty-S
 
 > 실제 수집 레코드입니다. 원문: [www.allure.com](https://www.allure.com/story/history-bras-corsets-perspectives-podcast)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 200856fee4 · Shopify-acquires-the-team-from-Peel-Insights-an-AI-driven-analytics-st"
+title: "Record 200856fee4 · Shopify-acquires-the-team-from-Peel-Insights-an-AI-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.955758+00:00
+updated_at: 2026-09-13T00:56:37.786155+00:00
 tags: [record, real-data]
 ---
 
-# Record 200856fee4 · Shopify-acquires-the-team-from-Peel-Insights-an-AI-driven-analytics-st
+# Record 200856fee4 · Shopify-acquires-the-team-from-Peel-Insights-an-AI-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMipAFBVV95cUxNY25WWkdKZXhuUWRXTHhaQnFMUUlzRVpvNlpYVVJ5Q1I5M2hFU1NZakV1MGM4aFN5T1A5d3B1UDNpZlV3LV9XbC1nYndZZ0tJZzJ6NVpoamMxSEMta2ZDUmxPcllyNERBM0ZHUWw0UWI0cUpxdVV0dEFKRm9PNklfNTJfUnFEZXdPTzFWTUZva2RIUHUtSzdONzF0UnVFT1dvZW85WQ?oc=5)
 

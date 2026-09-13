@@ -1,12 +1,12 @@
 ---
-title: "Record 15fa7d38bd · Hybrid-Model--Data-Fault-Diagnosis-for-Wafer-Handler-Robots-Tilt-and-B"
+title: "Record 15fa7d38bd · Hybrid-Model--Data-Fault-Diagnosis-for-Wafer-Handle"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.641707+00:00
+updated_at: 2026-09-13T00:56:37.500702+00:00
 tags: [record, real-data]
 ---
 
-# Record 15fa7d38bd · Hybrid-Model--Data-Fault-Diagnosis-for-Wafer-Handler-Robots-Tilt-and-B
+# Record 15fa7d38bd · Hybrid-Model--Data-Fault-Diagnosis-for-Wafer-Handle
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1109/tcst.2026.3693758)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 6292a0714a · Reconfigurable-interferometric-form-and-mid-spatial-frequency-metrolog"
+title: "Record 6292a0714a · Reconfigurable-interferometric-form-and-mid-spatial"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.661120+00:00
+updated_at: 2026-09-13T00:56:37.517130+00:00
 tags: [record, real-data]
 ---
 
-# Record 6292a0714a · Reconfigurable-interferometric-form-and-mid-spatial-frequency-metrolog
+# Record 6292a0714a · Reconfigurable-interferometric-form-and-mid-spatial
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1364/oe.605857)
 

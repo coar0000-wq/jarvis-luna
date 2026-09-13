@@ -1,12 +1,12 @@
 ---
-title: "Record 73868f37de · Fused-FP8-Many-Terms-Dot-Product-With-Scaling-and-FP32-Accumulation"
+title: "Record 73868f37de · Fused-FP8-Many-Terms-Dot-Product-With-Scaling-and-F"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.641263+00:00
+updated_at: 2026-09-13T00:56:37.500275+00:00
 tags: [record, real-data]
 ---
 
-# Record 73868f37de · Fused-FP8-Many-Terms-Dot-Product-With-Scaling-and-FP32-Accumulation
+# Record 73868f37de · Fused-FP8-Many-Terms-Dot-Product-With-Scaling-and-F
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1109/tc.2025.3648544)
 

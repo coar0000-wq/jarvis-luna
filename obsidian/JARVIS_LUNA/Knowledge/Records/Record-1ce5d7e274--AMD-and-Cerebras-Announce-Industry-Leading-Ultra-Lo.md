@@ -1,12 +1,12 @@
 ---
-title: "Record 1ce5d7e274 · AMD-and-Cerebras-Announce-Industry-Leading-Ultra-Low-Latency-and-High-"
+title: "Record 1ce5d7e274 · AMD-and-Cerebras-Announce-Industry-Leading-Ultra-Lo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.761148+00:00
+updated_at: 2026-09-13T00:56:37.602904+00:00
 tags: [record, real-data]
 ---
 
-# Record 1ce5d7e274 · AMD-and-Cerebras-Announce-Industry-Leading-Ultra-Low-Latency-and-High-
+# Record 1ce5d7e274 · AMD-and-Cerebras-Announce-Industry-Leading-Ultra-Lo
 
 > 실제 수집 레코드입니다. 원문: [ir.amd.com](https://ir.amd.com/news-events/press-releases/detail/1293/amd-and-cerebras-announce-industry-leading-ultra-low-latency-and-high-throughput-ai-inference-solution)
 

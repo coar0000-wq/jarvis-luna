@@ -1,12 +1,12 @@
 ---
-title: "Record eb7060c2b0 · CoLMIN-LLM-based-Multi-Decision-Path-Negotiation-for-Cooperative-Auton"
+title: "Record eb7060c2b0 · CoLMIN-LLM-based-Multi-Decision-Path-Negotiation-fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.495684+00:00
+updated_at: 2026-09-13T00:56:37.362668+00:00
 tags: [record, real-data]
 ---
 
-# Record eb7060c2b0 · CoLMIN-LLM-based-Multi-Decision-Path-Negotiation-for-Cooperative-Auton
+# Record eb7060c2b0 · CoLMIN-LLM-based-Multi-Decision-Path-Negotiation-fo
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.04807v1)
 

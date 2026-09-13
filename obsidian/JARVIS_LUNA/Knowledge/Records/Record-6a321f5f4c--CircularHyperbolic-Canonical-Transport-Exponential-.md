@@ -1,12 +1,12 @@
 ---
-title: "Record 6a321f5f4c · CircularHyperbolic-Canonical-Transport-Exponential-Structure-Frame-Rot"
+title: "Record 6a321f5f4c · CircularHyperbolic-Canonical-Transport-Exponential-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.711077+00:00
+updated_at: 2026-09-13T00:56:37.557643+00:00
 tags: [record, real-data]
 ---
 
-# Record 6a321f5f4c · CircularHyperbolic-Canonical-Transport-Exponential-Structure-Frame-Rot
+# Record 6a321f5f4c · CircularHyperbolic-Canonical-Transport-Exponential-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.21477917)
 

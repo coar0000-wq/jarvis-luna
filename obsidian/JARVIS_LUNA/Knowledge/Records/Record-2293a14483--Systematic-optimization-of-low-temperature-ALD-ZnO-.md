@@ -1,12 +1,12 @@
 ---
-title: "Record 2293a14483 · Systematic-optimization-of-low-temperature-ALD-ZnO-thin-film-transisto"
+title: "Record 2293a14483 · Systematic-optimization-of-low-temperature-ALD-ZnO-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.587099+00:00
+updated_at: 2026-09-13T00:56:37.450825+00:00
 tags: [record, real-data]
 ---
 
-# Record 2293a14483 · Systematic-optimization-of-low-temperature-ALD-ZnO-thin-film-transisto
+# Record 2293a14483 · Systematic-optimization-of-low-temperature-ALD-ZnO-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.apsusc.2026.168190)
 

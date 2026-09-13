@@ -1,12 +1,12 @@
 ---
-title: "Record ec8aa51f20 · Chai-Latte-Makeup-Is-The-Warm--Spicy-Beauty-Trend-Taking-Over-TikTok--"
+title: "Record ec8aa51f20 · Chai-Latte-Makeup-Is-The-Warm--Spicy-Beauty-Trend-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.806546+00:00
+updated_at: 2026-09-13T00:56:37.644959+00:00
 tags: [record, real-data]
 ---
 
-# Record ec8aa51f20 · Chai-Latte-Makeup-Is-The-Warm--Spicy-Beauty-Trend-Taking-Over-TikTok--
+# Record ec8aa51f20 · Chai-Latte-Makeup-Is-The-Warm--Spicy-Beauty-Trend-T
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiY0FVX3lxTFBnRUlXdnZ6V3J5bWlReWVQa3NxOFVQamtxcFc0QnhnNFNjT1RiZXRncUpjMUVMUWpKZ0UyckM1djNscXJfUndhejBDcUdHczNneXU5aHdhMVRaTTJPb29KVWVnRQ?oc=5)
 

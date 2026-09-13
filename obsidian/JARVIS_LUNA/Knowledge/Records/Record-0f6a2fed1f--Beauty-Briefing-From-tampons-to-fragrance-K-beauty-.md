@@ -1,12 +1,12 @@
 ---
-title: "Record 0f6a2fed1f · Beauty-Briefing-From-tampons-to-fragrance-K-beauty-is-everywhere---glo"
+title: "Record 0f6a2fed1f · Beauty-Briefing-From-tampons-to-fragrance-K-beauty-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.939634+00:00
+updated_at: 2026-09-13T00:56:37.771287+00:00
 tags: [record, real-data]
 ---
 
-# Record 0f6a2fed1f · Beauty-Briefing-From-tampons-to-fragrance-K-beauty-is-everywhere---glo
+# Record 0f6a2fed1f · Beauty-Briefing-From-tampons-to-fragrance-K-beauty-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMimgFBVV95cUxQcmtYNjNzN2ZGZ29ULUhTaDhkSm1xWG13QkFubHJYMzFaR3VxckxTeGFOMDE2TG1ZeFpyNm1HZm9MZjdYYUw0U2RkemplNjVfUUVvZkRQWjcxcWN4SUs4Zk80OERoSzFNMkpUejhFYkhfQk5iR2FKN3lTeWpYVEh5c2Z6U2t4aTluc29FTlpoc1BaUnZTdC1Wb0VR?oc=5)
 

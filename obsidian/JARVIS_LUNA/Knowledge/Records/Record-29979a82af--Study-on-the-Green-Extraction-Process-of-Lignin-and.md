@@ -1,12 +1,12 @@
 ---
-title: "Record 29979a82af · Study-on-the-Green-Extraction-Process-of-Lignin-and-the-Effect-of-its-"
+title: "Record 29979a82af · Study-on-the-Green-Extraction-Process-of-Lignin-and"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.608426+00:00
+updated_at: 2026-09-13T00:56:37.469976+00:00
 tags: [record, real-data]
 ---
 
-# Record 29979a82af · Study-on-the-Green-Extraction-Process-of-Lignin-and-the-Effect-of-its-
+# Record 29979a82af · Study-on-the-Green-Extraction-Process-of-Lignin-and
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1021/acsomega.5c11967)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 7e9a79a087 · Democratizing-High-Performance-Computing-How-Virtualization-and-Worklo"
+title: "Record 7e9a79a087 · Democratizing-High-Performance-Computing-How-Virtua"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.676908+00:00
+updated_at: 2026-09-13T00:56:37.530036+00:00
 tags: [record, real-data]
 ---
 
-# Record 7e9a79a087 · Democratizing-High-Performance-Computing-How-Virtualization-and-Worklo
+# Record 7e9a79a087 · Democratizing-High-Performance-Computing-How-Virtua
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.22399/ijcesen.4980)
 

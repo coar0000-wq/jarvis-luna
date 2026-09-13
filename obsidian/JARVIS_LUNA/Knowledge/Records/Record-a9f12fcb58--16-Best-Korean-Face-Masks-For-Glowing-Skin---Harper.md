@@ -1,12 +1,12 @@
 ---
-title: "Record a9f12fcb58 · 16-Best-Korean-Face-Masks-For-Glowing-Skin---Harpers-Bazaar-Singapore"
+title: "Record a9f12fcb58 · 16-Best-Korean-Face-Masks-For-Glowing-Skin---Harper"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.862682+00:00
+updated_at: 2026-09-13T00:56:37.699835+00:00
 tags: [record, real-data]
 ---
 
-# Record a9f12fcb58 · 16-Best-Korean-Face-Masks-For-Glowing-Skin---Harpers-Bazaar-Singapore
+# Record a9f12fcb58 · 16-Best-Korean-Face-Masks-For-Glowing-Skin---Harper
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMie0FVX3lxTE5QTEVndDFVdXNkYWtrcDRqUjZOQTZwZ2V5WU12anBNejI2SEJ5OG9NV2ZhSl9QLWx5Tk84eE1GXzFaOG5zdHR2QlFkM3FLeW5RNkJ0eVM2U2J4akxIQ21jWUJvUjdfNENqV3pfY21UeDNIYjBlS3hKU0RLYw?oc=5)
 

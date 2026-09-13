@@ -1,12 +1,12 @@
 ---
-title: "Record 10edb50bc4 · Polymicrobial-Meningoencephalitis-Complicated-by-Severe-Thrombocytopen"
+title: "Record 10edb50bc4 · Polymicrobial-Meningoencephalitis-Complicated-by-Se"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.697293+00:00
+updated_at: 2026-09-13T00:56:37.546686+00:00
 tags: [record, real-data]
 ---
 
-# Record 10edb50bc4 · Polymicrobial-Meningoencephalitis-Complicated-by-Severe-Thrombocytopen
+# Record 10edb50bc4 · Polymicrobial-Meningoencephalitis-Complicated-by-Se
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.4103/aian.aian_372_26)
 

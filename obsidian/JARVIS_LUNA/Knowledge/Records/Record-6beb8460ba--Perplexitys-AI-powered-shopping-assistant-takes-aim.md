@@ -1,12 +1,12 @@
 ---
-title: "Record 6beb8460ba · Perplexitys-AI-powered-shopping-assistant-takes-aim-at-Amazon-and-Goog"
+title: "Record 6beb8460ba · Perplexitys-AI-powered-shopping-assistant-takes-aim"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.980365+00:00
+updated_at: 2026-09-13T00:56:37.808619+00:00
 tags: [record, real-data]
 ---
 
-# Record 6beb8460ba · Perplexitys-AI-powered-shopping-assistant-takes-aim-at-Amazon-and-Goog
+# Record 6beb8460ba · Perplexitys-AI-powered-shopping-assistant-takes-aim
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiuAFBVV95cUxNb0xYUzN1ZXFyQXRodFo0MVNPU1NkRF8tUEgtRTkySW1sSnlFWWw4em1wWlNkQW9rWURpdGhwYWY0cVQySGxNSHhTR3hQWWZZRzdwRGRTMzY4c1c3Q01KbzViNVppM2JZWHVZeXNIRjFFUmlWWDNFVF9NZjl5RG5ocWp5dFppeTBBU0ViZ0NSejAybXNuZ1hiN0dtY09waGtUdm9kLXpyQjlIUUl3T3FtSUZoZXgtWnYw?oc=5)
 

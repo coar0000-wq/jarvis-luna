@@ -1,12 +1,12 @@
 ---
-title: "Record 7133a6be64 · PSA-These-K-Beauty-Products-Are-Perfect-for-Dry-Skin---allurecom"
+title: "Record 7133a6be64 · PSA-These-K-Beauty-Products-Are-Perfect-for-Dry-Ski"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.850237+00:00
+updated_at: 2026-09-13T00:56:37.686751+00:00
 tags: [record, real-data]
 ---
 
-# Record 7133a6be64 · PSA-These-K-Beauty-Products-Are-Perfect-for-Dry-Skin---allurecom
+# Record 7133a6be64 · PSA-These-K-Beauty-Products-Are-Perfect-for-Dry-Ski
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMicEFVX3lxTFBDRGk1R0xCS3V6OV9lV04tMkRRRnBCVkZIUHF6U2ZZLW5rRVVKbGpWcU84bElBTS1wZmNsd0o4UVVCd3R3ZHZ6ZWxqcU54QldmbU5nTnYydUttMUtUZllyaHJVNU9lZ3AzcGdQQkgxYnI?oc=5)
 

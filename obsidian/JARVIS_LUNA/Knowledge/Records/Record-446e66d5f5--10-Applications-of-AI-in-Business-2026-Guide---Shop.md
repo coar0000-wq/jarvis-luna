@@ -1,12 +1,12 @@
 ---
-title: "Record 446e66d5f5 · 10-Applications-of-AI-in-Business-2026-Guide---Shopify"
+title: "Record 446e66d5f5 · 10-Applications-of-AI-in-Business-2026-Guide---Shop"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.832890+00:00
+updated_at: 2026-09-13T00:56:37.669220+00:00
 tags: [record, real-data]
 ---
 
-# Record 446e66d5f5 · 10-Applications-of-AI-in-Business-2026-Guide---Shopify
+# Record 446e66d5f5 · 10-Applications-of-AI-in-Business-2026-Guide---Shop
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMib0FVX3lxTE1pQkVTUXQwZm54Wlk5YV8takYtbTBvY2tIeTlYLWc5c0ZxS3VtdUIwaHhxZE9IVVBTUnhjVzR3cUkzZXpaR3otdzFoTHhnTXJXU3RpQkdiYk9oNHc1TElqbTRoMXlvR28wNkl2bGtRcw?oc=5)
 

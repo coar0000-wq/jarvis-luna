@@ -1,12 +1,12 @@
 ---
-title: "Record 65816732a9 · Guava-Girl-Summer-is-this-seasons-mood-boosting-beauty-trend---CBC"
+title: "Record 65816732a9 · Guava-Girl-Summer-is-this-seasons-mood-boosting-bea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.872788+00:00
+updated_at: 2026-09-13T00:56:37.709959+00:00
 tags: [record, real-data]
 ---
 
-# Record 65816732a9 · Guava-Girl-Summer-is-this-seasons-mood-boosting-beauty-trend---CBC
+# Record 65816732a9 · Guava-Girl-Summer-is-this-seasons-mood-boosting-bea
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiekFVX3lxTFA2YjBTblJDY1ppTkRkU2NvckVDbzBBbTJDbUtfdjN2eS02ZU5IS01QbmFzZV9UUmdTNkotejhqb0xjOWd1cTJRZlp5RFdlRUVZZFA1aU1KeFhSd2NpX0Y0ckduNGNqd3pvQWcyT0p5RmxTN1BaVWNvOHVB?oc=5)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 2379fee7ab · Meet-the-Generation17-Young-Leaders-The-Story-of-Soumya-Dabriwal"
+title: "Record 2379fee7ab · Meet-the-Generation17-Young-Leaders-The-Story-of-So"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.993786+00:00
+updated_at: 2026-09-13T00:56:37.821030+00:00
 tags: [record, real-data]
 ---
 
-# Record 2379fee7ab · Meet-the-Generation17-Young-Leaders-The-Story-of-Soumya-Dabriwal
+# Record 2379fee7ab · Meet-the-Generation17-Young-Leaders-The-Story-of-So
 
 > 실제 수집 레코드입니다. 원문: [news.samsung.com](https://news.samsung.com/global/meet-the-generation17-young-leaders-the-story-of-soumya-dabriwal)
 

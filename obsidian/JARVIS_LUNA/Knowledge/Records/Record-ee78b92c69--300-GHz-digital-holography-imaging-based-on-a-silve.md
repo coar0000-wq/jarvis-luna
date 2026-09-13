@@ -1,12 +1,12 @@
 ---
-title: "Record ee78b92c69 · 300-GHz-digital-holography-imaging-based-on-a-silverpolypropylene-holl"
+title: "Record ee78b92c69 · 300-GHz-digital-holography-imaging-based-on-a-silve"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.685462+00:00
+updated_at: 2026-09-13T00:56:37.537053+00:00
 tags: [record, real-data]
 ---
 
-# Record ee78b92c69 · 300-GHz-digital-holography-imaging-based-on-a-silverpolypropylene-holl
+# Record ee78b92c69 · 300-GHz-digital-holography-imaging-based-on-a-silve
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.3389/fphy.2026.1884610)
 

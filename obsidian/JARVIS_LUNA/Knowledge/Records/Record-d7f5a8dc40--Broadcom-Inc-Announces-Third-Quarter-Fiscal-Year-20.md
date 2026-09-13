@@ -1,12 +1,12 @@
 ---
-title: "Record d7f5a8dc40 · Broadcom-Inc-Announces-Third-Quarter-Fiscal-Year-2026-Financial-Result"
+title: "Record d7f5a8dc40 · Broadcom-Inc-Announces-Third-Quarter-Fiscal-Year-20"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.751611+00:00
+updated_at: 2026-09-13T00:56:37.594227+00:00
 tags: [record, real-data]
 ---
 
-# Record d7f5a8dc40 · Broadcom-Inc-Announces-Third-Quarter-Fiscal-Year-2026-Financial-Result
+# Record d7f5a8dc40 · Broadcom-Inc-Announces-Third-Quarter-Fiscal-Year-20
 
 > 실제 수집 레코드입니다. 원문: [investors.broadcom.com](https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial)
 

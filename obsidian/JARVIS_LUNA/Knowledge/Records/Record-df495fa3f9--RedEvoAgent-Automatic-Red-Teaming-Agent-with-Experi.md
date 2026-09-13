@@ -1,12 +1,12 @@
 ---
-title: "Record df495fa3f9 · RedEvoAgent-Automatic-Red-Teaming-Agent-with-Experience-Driven-Skill-E"
+title: "Record df495fa3f9 · RedEvoAgent-Automatic-Red-Teaming-Agent-with-Experi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.273302+00:00
+updated_at: 2026-09-13T00:56:38.067582+00:00
 tags: [record, real-data]
 ---
 
-# Record df495fa3f9 · RedEvoAgent-Automatic-Red-Teaming-Agent-with-Experience-Driven-Skill-E
+# Record df495fa3f9 · RedEvoAgent-Automatic-Red-Teaming-Agent-with-Experi
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.27439v1)
 

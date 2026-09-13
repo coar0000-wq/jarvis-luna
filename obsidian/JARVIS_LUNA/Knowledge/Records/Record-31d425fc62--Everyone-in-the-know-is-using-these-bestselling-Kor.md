@@ -1,12 +1,12 @@
 ---
-title: "Record 31d425fc62 · Everyone-in-the-know-is-using-these-bestselling-Korean-skincare-buys--"
+title: "Record 31d425fc62 · Everyone-in-the-know-is-using-these-bestselling-Kor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.894042+00:00
+updated_at: 2026-09-13T00:56:37.729282+00:00
 tags: [record, real-data]
 ---
 
-# Record 31d425fc62 · Everyone-in-the-know-is-using-these-bestselling-Korean-skincare-buys--
+# Record 31d425fc62 · Everyone-in-the-know-is-using-these-bestselling-Kor
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMihAFBVV95cUxONFBrOW02V25yVzJPcV85TFhRWHZ3WHN0eGcxTmdwWjBmbFNmcHUzdGRZZE15bnBMUUNqZFl0TFlZd1BGNXBJeWVwR3ZSRktiakVyUno2VFZGSG1wY3Fuai1xc1JaLTJiZllxdHB5U2Q5emp5ZnRIa3FBeS1zbWUxcWtiTjE?oc=5)
 

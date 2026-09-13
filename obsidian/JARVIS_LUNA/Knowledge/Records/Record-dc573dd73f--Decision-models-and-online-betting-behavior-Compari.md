@@ -1,12 +1,12 @@
 ---
-title: "Record dc573dd73f · Decision-models-and-online-betting-behavior-Comparing-mean-variance-ex"
+title: "Record dc573dd73f · Decision-models-and-online-betting-behavior-Compari"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.594466+00:00
+updated_at: 2026-09-13T00:56:37.457365+00:00
 tags: [record, real-data]
 ---
 
-# Record dc573dd73f · Decision-models-and-online-betting-behavior-Comparing-mean-variance-ex
+# Record dc573dd73f · Decision-models-and-online-betting-behavior-Compari
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.jebo.2026.107563)
 

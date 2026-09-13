@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-13T09:43:51.490416+09:00",
+  "generated_at": "2026-09-13T10:02:51.919652+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
       "id": "sourcing",
       "name": "상품 소싱팀",
-      "when": "2026-09-12T23:50:10.696817+00:00",
+      "when": "2026-09-13T00:54:45.126604+00:00",
       "summary": "222개 상품 · 등급 S 7 / A 34 / B 28 / C 153 · 새 자료 223건",
       "action": "직전 실행에서 5건 시도 중 5건 실패 (성공 0건) · 상품 상세 HTML이 다이소몰 기본 페이지로 반환됨 5",
       "status": "ok",
@@ -18,8 +18,8 @@
     {
       "id": "institutions",
       "name": "기관 수집팀",
-      "when": "2026-09-12T23:44:53.504720+00:00",
-      "summary": "35곳 1,061건 · 미수집 12건 사유 기록 · 새 자료 284건",
+      "when": "2026-09-13T00:49:12.877697+00:00",
+      "summary": "35곳 1,061건 · 미수집 12건 사유 기록 · 새 자료 280건",
       "action": null,
       "status": "ok",
       "phase": "now",
@@ -30,8 +30,8 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-09-13T09:42:41.990490+09:00",
-      "summary": "S등급 7개 · 고시표 입력 대기 3건 · 새 자료 40건",
+      "when": "2026-09-13T09:56:48.075171+09:00",
+      "summary": "S등급 7개 · 고시표 입력 대기 3건 · 새 자료 39건",
       "action": "다이소 상세페이지 고시 표 3건 캡처 필요",
       "status": "ok",
       "phase": "always",
@@ -42,7 +42,7 @@
     {
       "id": "listing",
       "name": "리스팅 제작팀",
-      "when": "2026-09-13T00:32:35.114104+00:00",
+      "when": "2026-09-13T00:54:45.349182+00:00",
       "summary": "등록 가능 0/7 · 카피 7 · 고시 4 · 가격 7 · 법률 6",
       "action": "고시 3건, us_label 7건, 법률 1건 이 막고 있음",
       "status": "ok",
@@ -54,8 +54,8 @@
     {
       "id": "pricing",
       "name": "가격 정책팀",
-      "when": "2026-09-12T23:50:10.822121+00:00",
-      "summary": "개당 배송비 $6.26~$10.76 · 무게 64~520g (이름추정 7) · DDU/DDP 4개 · 새 자료 6건",
+      "when": "2026-09-13T00:54:45.245174+00:00",
+      "summary": "개당 배송비 $6.26~$10.75 · 무게 64~520g (이름추정 3 / 고시용량 4) · DDU/DDP 4개 · 새 자료 6건",
       "action": null,
       "status": "ok",
       "phase": "ready",
@@ -66,7 +66,7 @@
     {
       "id": "legal",
       "name": "법률·규제팀",
-      "when": "2026-09-13T00:32:35.068151+00:00",
+      "when": "2026-09-13T00:54:45.297872+00:00",
       "summary": "자동 점검 14건 · 통과 0 · 등록 차단 7 · 참고 주의 14 · 수출서류 HS 14건 · 라벨 1/6항목 자동 · 새 자료 17건",
       "action": "차단 7건: 비프루브 마린 무기자차 마일드(자동 점검 미통과: otc), 드롭비 잡티 말끔 앰플 40 (자동 점검 미통과: lab) — 라벨 갖추기 전엔 못 올림",
       "status": "ok",
@@ -78,7 +78,7 @@
     {
       "id": "robotics",
       "name": "로보틱스 수집",
-      "when": "2026-09-12T23:43:36.692157+00:00",
+      "when": "2026-09-13T00:47:59.562974+00:00",
       "summary": "40건 · arxiv 0 / rss 40 · 새 자료 76건",
       "action": null,
       "status": "ok",
@@ -90,7 +90,7 @@
     {
       "id": "design",
       "name": "디자인팀",
-      "when": "2026-09-12T23:45:02.104714+00:00",
+      "when": "2026-09-13T00:49:21.865563+00:00",
       "summary": "스토어 2/12단계 · 레퍼런스 85건 · 폰트 1946개(한글 38) · 팔레트 13색조 · 디자인 기사 60건 · 영상 33건 · 새 자료 99건",
       "action": "다음 단계: Shopify 스토어 개설 및 기본 설정",
       "status": "ok",
@@ -102,7 +102,7 @@
     {
       "id": "channels",
       "name": "채널 운영팀",
-      "when": "2026-09-12T23:50:27.135229+00:00",
+      "when": "2026-09-13T00:55:07.167707+00:00",
       "summary": "가동 7/12채널 · 낡음 4건 · 수동 입력 32건 · 후보 7건 검사, 미연동 0건",
       "action": null,
       "status": "ok",
@@ -114,7 +114,7 @@
     {
       "id": "knowledge",
       "name": "지식 수집팀",
-      "when": "2026-09-12T20:34:54.515156+00:00",
+      "when": "2026-09-13T00:49:43.741638+00:00",
       "summary": "470건 · arXiv 10 / 유기농스킨 30 / Google 300 / US뷰티 130",
       "action": null,
       "status": "ok",
@@ -126,8 +126,8 @@
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-09-13T09:42:43.813913+09:00",
-      "summary": "81,091노트 · 320,849링크 · 끊어진 링크 110건 · 개인 노트 16건 별도 · 경고 통과(임계 300)",
+      "when": "2026-09-13T10:02:47.613011+09:00",
+      "summary": "81,092노트 · 320,853링크 · 끊어진 링크 110건 · 개인 노트 16건 별도 · 경고 통과(임계 300)",
       "action": null,
       "status": "ok",
       "phase": "now",
@@ -165,7 +165,7 @@
     }
   },
   "errors": {
-    "generated_at": "2026-09-12T23:51:39.995546+00:00",
+    "generated_at": "2026-09-13T00:56:02.177161+00:00",
     "total": 43,
     "counts": {
       "고장": 5,
@@ -265,7 +265,7 @@
     ]
   },
   "team_summary": {
-    "corpus_records": 3204,
+    "corpus_records": 3205,
     "pipeline_done": 5,
     "pipeline_total": 5
   },
@@ -274,13 +274,13 @@
       "id": "collect",
       "title": "실제 데이터 수집",
       "status": "completed",
-      "detail": "3204개 코퍼스 레코드"
+      "detail": "3205개 코퍼스 레코드"
     },
     {
       "id": "graph",
       "title": "Obsidian 그래프 반영·검증",
       "status": "completed",
-      "detail": "81091개 노트 · 320849개 링크 · 끊어진 링크 110개 · 개인 노트 16개 별도"
+      "detail": "81092개 노트 · 320853개 링크 · 끊어진 링크 110개 · 개인 노트 16개 별도"
     },
     {
       "id": "dashboard",
@@ -292,7 +292,7 @@
       "id": "train",
       "title": "실제 데이터 MoE 학습",
       "status": "completed",
-      "detail": "3204건 · 3 experts · 정확도 88.08%"
+      "detail": "3205건 · 3 experts · 정확도 88.05%"
     },
     {
       "id": "publish",
@@ -303,47 +303,47 @@
   ],
   "sources": {
     "status": "completed",
-    "record_count": 3204,
+    "record_count": 3205,
     "source_counts": {},
-    "updated_at": "2026-09-13T09:42:41.983908+09:00"
+    "updated_at": "2026-09-13T09:56:47.557160+09:00"
   },
   "graph": {
-    "notes": 81091,
-    "links": 320849,
+    "notes": 81092,
+    "links": 320853,
     "dangling_links": 110,
     "dangling_personal": 16,
     "dangling_personal_note": "사용자가 직접 넣은 Personal 노트의 내부 링크. 원본 볼트에서 일부만 가져와 대상 노트가 없는 것으로, 파이프라인 오류가 아니다.",
     "dangling_warn_threshold": 300,
-    "records": 80252,
+    "records": 80253,
     "sources": 7,
     "topics": 28,
     "orgs": 35,
     "audit": "passed",
-    "last_generated": "2026-09-13T09:42:43.813913+09:00"
+    "last_generated": "2026-09-13T10:02:47.613011+09:00"
   },
   "training": {
     "status": "completed",
     "training_performed": true,
     "weights_updated": true,
-    "records": 3204,
+    "records": 3205,
     "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
     "experts": 3,
-    "accuracy": 0.8807740324594258,
+    "accuracy": 0.8804992199687988,
     "validation_accuracy": 0.8874172185430463,
-    "final_loss": 0.40560098993650384,
-    "gate_load_std": 0.14968297120641225,
+    "final_loss": 0.40593456148393825,
+    "gate_load_std": 0.15185267455784351,
     "tuning_promoted": true,
     "tuning_steps": 500,
-    "updated_at": "2026-09-12T23:49:39.584868+00:00"
+    "updated_at": "2026-09-13T00:54:14.210805+00:00"
   },
   "cumulative": {
     "totals": {
-      "records": 3204,
+      "records": 3205,
       "notes": 81231,
       "links": 328907
     },
     "prior_totals": {
-      "records": 3204,
+      "records": 3205,
       "notes": 81231,
       "links": 328907
     },
@@ -353,9 +353,9 @@
       "links": 0
     },
     "current_snapshot": {
-      "records": 3204,
-      "notes": 81091,
-      "links": 320849
+      "records": 3205,
+      "notes": 81092,
+      "links": 320853
     },
     "since": "2026-08-23T05:21:53.378147+00:00",
     "runs_recorded": 90
@@ -693,32 +693,11 @@
         "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5"
       },
       {
-        "keyword": "Foreign Tourists' Pharmacy Payments Surge Tenfold for K-Beauty, Supplements - 조선일보",
-        "product": "Foreign Tourists' Pharmacy Payments Surge Tenfold for K-Beauty, Supplements - 조선일보",
-        "sub": "K-beauty",
-        "badge": "news",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcHdRVGVDU1owRjc2NjNQcUdzS05iTnJkXzYyRTBlcWVaNkEtVkJQZEp5SnRidUN2YXBsQk9mcXUwYmoyX3JTeVB4YUNqME9FaWJuUUwtcWdTM09nNVhqRE1RWDBJVFFSakJqQUVJTmZ5UWFjdHJxZEttZzJTT1dPSU1Jdkd2c0Ry?oc=5"
-      },
-      {
         "keyword": "9 K-Beauty Brands We’re Obsessed with for Fall 2026 - Celeb Secrets",
         "product": "9 K-Beauty Brands We’re Obsessed with for Fall 2026 - Celeb Secrets",
         "sub": "K-beauty",
         "badge": "news",
         "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRWlTTVg4ZkQ1N1Rfemtmamx1WXdDemF4b1JIaUIxWVdJeUJKQlh5QjRCbXFmTWxnT3JMWlh0TmwwaVpfVnZNR1B1N0prR0p6dlhJTHhVQU9fN3VNdDlDZHN3dWswdTcydjVvMmo2RXVrN09vcUgweHotU0dQZjFIb2V3?oc=5"
-      },
-      {
-        "keyword": "K-Beauty Trends 2026: Korean Skincare Trends Shaping Luxury Beauty - Forbes",
-        "product": "K-Beauty Trends 2026: Korean Skincare Trends Shaping Luxury Beauty - Forbes",
-        "sub": "K-beauty",
-        "badge": "news",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMXkzOEhOM0k2RV9QV1hUbWlZSDhQZ2dGbWVZNHp6XzM3dWtvVTU5OTlJa3NROGF6R0ZjUlg0eHp5WTFUUmUzdElxSE9iX1JVTDV1cUdHeHBrVTVFLXRyTWVGWGVLWVdaOWQwMjVKSVVPbmxBRlhDOFp2cmRnd3JITUFibWR6UF8xSFo5aFlqem5hR2phaU5qdmx0SXJtdjJzZFA2ZmNFbTV0R0g0ZmNqMGYzZnI?oc=5"
-      },
-      {
-        "keyword": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC",
-        "product": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC",
-        "sub": "K-beauty",
-        "badge": "news",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1pdE5qU2I0OUVRX1ZkOFg1bTdkX0tndjJrVmV6SHk4WWVBT2FDMXBnMjI1SkRFVmR4V1ktMXZoY29NdG1XcWptblhmSW8zc25ZWUxpN1hVTkNZUXJGUTZYZHR2aEl4R211UVFnVU5vUVFyV1VKMldyUE12U1VFd9IBgwFBVV95cUxQXzNCdi0xNzQ1ejZ3RW5zNy03WkZZdFQ5MHhoYWxwMXZENXFzTUJTN0JBU0F2bjVDMHNBU1Q0VjhFMndFS0x4TVBVQVJwbVVsOXFkR2hRMlp0bFRpem5RMHhiWWhVU1hFUVNnNy1UTGt6ZVVUYjhOa2k4SDA0ZVEwQzJURQ?oc=5"
       },
       {
         "keyword": "US and UK retailers bet on K-beauty, dermacosmetics and premium care. - Personal Care Insights",
@@ -728,22 +707,43 @@
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA5N2ZIdEFwRWx5ZzJ0aHhib3ZvMHQ5c1o0Z1J5Nm14ZW5wUmpHZ0xKcGhnaVBTVVRFYU81WVFrbUZkQnhNTmxHeGMzQ3dHWHhtc0xxQzVoRkhqNFFWVjR4WGNoT0lhYXktTGhHZ001VHJ1Z282RWpRdGFabG43Zw?oc=5"
       },
       {
-        "keyword": "Cecily Strong’s morning must-haves include a ‘great’ Korean sunscreen and the lip balm she buys in bulk - pagesix.com",
-        "product": "Cecily Strong’s morning must-haves include a ‘great’ Korean sunscreen and the lip balm she buys in bulk - pagesix.com",
+        "keyword": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC",
+        "product": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC",
+        "sub": "K-beauty",
+        "badge": "news",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1pdE5qU2I0OUVRX1ZkOFg1bTdkX0tndjJrVmV6SHk4WWVBT2FDMXBnMjI1SkRFVmR4V1ktMXZoY29NdG1XcWptblhmSW8zc25ZWUxpN1hVTkNZUXJGUTZYZHR2aEl4R211UVFnVU5vUVFyV1VKMldyUE12U1VFd9IBgwFBVV95cUxQXzNCdi0xNzQ1ejZ3RW5zNy03WkZZdFQ5MHhoYWxwMXZENXFzTUJTN0JBU0F2bjVDMHNBU1Q0VjhFMndFS0x4TVBVQVJwbVVsOXFkR2hRMlp0bFRpem5RMHhiWWhVU1hFUVNnNy1UTGt6ZVVUYjhOa2k4SDA0ZVEwQzJURQ?oc=5"
+      },
+      {
+        "keyword": "VOESH joins Target Beauty Studio, bringing K-Beauty body care to Target guests nationwide with Target-Exclusive Collection - Chain Drug Review",
+        "product": "VOESH joins Target Beauty Studio, bringing K-Beauty body care to Target guests nationwide with Target-Exclusive Collection - Chain Drug Review",
+        "sub": "K-beauty",
+        "badge": "news",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZmVtajhORWR0aVZ3UW5BMVhJN3lvOHQ1RDE3ZlZfelp5dDRScVBnM0JyMm5vVGxBWktCY3JKMXJvZEpNYklQWkFQYUdpM2U5QUJESlItQUFfeGZ5UWJyZ3l6RE1pamFSanM2RnJFaDRyMDR2VWJVNlU0TmJnbkVkQnVzV3Jkd1dzRWF0dEo3U3hVQzBEME56VG1jbzVxRUNnWlU4YWNNanJoUXZsaV90M0NXQ2xLSGhBM0J6UGRuRWxrYU5nOEJFQjdCZnZJTlJici0tY2VWeDhoMHpWM1hrY3JfZmE?oc=5"
+      },
+      {
+        "keyword": "You’ve been buying K-beauty. Is it time to try Korean treatments? - The Times",
+        "product": "You’ve been buying K-beauty. Is it time to try Korean treatments? - The Times",
+        "sub": "K-beauty",
+        "badge": "news",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSFlyd3hfU3ozdUtzS0d1MU5Hbmx6MHlWZTFicUdJT2NrSWlaLWJTS2lzQ21tZGhrQTRRei1FeDJnQk1OU0dvM1R5cUlnYnZFM05SM0syVjhnYXlnTmV5LVlHRmNpTmVBamFQMVFHVWJEQW9JVm1uTGxWLW84dTZCYTZ1RU1QVjhYTGhaaEp2NHNkQ2k3T1hsZElFcw?oc=5"
+      },
+      {
+        "keyword": "Cecily Strong’s morning must-haves include a ‘great’ Korean sunscreen and the lip balm she buys in bulk - Page Six",
+        "product": "Cecily Strong’s morning must-haves include a ‘great’ Korean sunscreen and the lip balm she buys in bulk - Page Six",
         "sub": "Korean sunscreen",
         "badge": "news",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZGtUdkEtYWNZaFVvSFFvcUlXQzNRWS1zcXUtVUctWkx2b3V4d3JWNk42dmtPYjFweUxTX2IxUHNqamdCRWY0T2lxUWtyN3RkYnA4Z0dORHJNR05HaWpvX3lJT190RVFtVXhNVk10YnNuNjdqZ1NBdFNRUU94cG9nYmJ1Uld1c2hmS1YyXzF5VmRMMTRo?oc=5"
       },
       {
-        "keyword": "Yes, Korean Sunscreens Are Better. But Dermatologists Warn You Shouldn’t Buy Them Online—Here’s Why. - womenshealthmag.com",
-        "product": "Yes, Korean Sunscreens Are Better. But Dermatologists Warn You Shouldn’t Buy Them Online—Here’s Why. - womenshealthmag.com",
+        "keyword": "Yes, Korean Sunscreens Are Better. But Dermatologists Warn You Shouldn’t Buy Them Online—Here’s Why. - Women's Health",
+        "product": "Yes, Korean Sunscreens Are Better. But Dermatologists Warn You Shouldn’t Buy Them Online—Here’s Why. - Women's Health",
         "sub": "Korean sunscreen",
         "badge": "news",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZHBXQzBDZ2dGRHdEeXdtSXk5NkpMbW5vZzYzdGVWWVk1RllId3RCaUtPVnRIUVVEME84QmUzYTRBcGt5SE9rd3VpU0NZcWhBak1tMjVNR2lPd050RUdwaUJQbHB6TU81UDVmejBkVElrcnFKdnY1UHZ6SjVOMmtCNjNod3AtYm5Qb3c?oc=5"
       },
       {
-        "keyword": "US and Korean sunscreens are not created equal, study says - wtop.com",
-        "product": "US and Korean sunscreens are not created equal, study says - wtop.com",
+        "keyword": "US and Korean sunscreens are not created equal, study says - WTOP News",
+        "product": "US and Korean sunscreens are not created equal, study says - WTOP News",
         "sub": "Korean sunscreen",
         "badge": "news",
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMnpvNUR0bm0tV2E0M183TDZLUVUwal9NRHduZ21ULUtPZFl2SnFoVS1WVFVZTjJtZjFfX1R5Um1Lajk0TXZzbnVpbkdpMXdMbno4dHo0Y3g4R3lYbV9rRkcyY0VsSjRVSFFPWVV5cTNNWG0tVC0zZ0tER251cDRCM3A0ZEJnNTBjWjBrYnp2dHRHSXd2UkNMckJqQ1JmUmFkX1RCeElDdmtzMGJ4X3V6SjJYbTQyUlNvazMycGw4b2k4aG44YkdN?oc=5"
@@ -1418,7 +1418,7 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 9,
       "trust": "manual",
-      "age_hours": 288.7,
+      "age_hours": 289.0,
       "stale": true
     },
     "walmart_beauty": {
@@ -1428,60 +1428,60 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 5,
       "trust": "manual",
-      "age_hours": 288.7,
+      "age_hours": 289.0,
       "stale": true
     },
     "oliveyoung_us": {
       "status": "ok",
       "source": "us.oliveyoung.com/best-sellers 실수집",
       "reason": "",
-      "collected_at": "2026-09-12T23:45:46.843422+00:00",
+      "collected_at": "2026-09-13T00:50:11.116419+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 1.0,
+      "age_hours": 0.2,
       "stale": false
     },
     "google_trends_us": {
       "status": "ok",
       "source": "google news rss (beauty queries) + trends daily filtered",
       "reason": "",
-      "collected_at": "2026-09-12T23:46:26.224454+00:00",
+      "collected_at": "2026-09-13T00:50:52.983935+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 1.0,
+      "age_hours": 0.2,
       "stale": false
     },
     "wikipedia_interest": {
       "status": "ok",
       "source": "wikimedia.org REST pageviews API (공식)",
       "reason": "",
-      "collected_at": "2026-09-12T20:15:01.522006+00:00",
+      "collected_at": "2026-09-12T23:50:10.078915+00:00",
       "count": 8,
       "trust": "verified",
       "note": "2026-08-12 ~ 2026-09-10 일별 조회수. 후반 15일 대비 전반 15일 증감률",
-      "age_hours": 4.5,
+      "age_hours": 1.2,
       "stale": false
     },
     "allure_media": {
       "status": "ok",
       "source": "allure.com/feed/rss",
       "reason": "",
-      "collected_at": "2026-09-12T20:15:01.522006+00:00",
+      "collected_at": "2026-09-12T23:50:10.078915+00:00",
       "count": 15,
       "trust": "verified",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
-      "age_hours": 4.5,
+      "age_hours": 1.2,
       "stale": false
     },
     "openfda_sunscreen": {
       "status": "ok",
       "source": "api.fda.gov/drug/label (openFDA 공식)",
       "reason": "",
-      "collected_at": "2026-09-12T20:15:01.522006+00:00",
+      "collected_at": "2026-09-12T23:50:10.078915+00:00",
       "count": 15,
       "trust": "verified",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다.",
-      "age_hours": 4.5,
+      "age_hours": 1.2,
       "stale": false
     },
     "shopify_demand_matching": {
@@ -1507,7 +1507,7 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 8,
       "trust": "manual",
-      "age_hours": 288.7,
+      "age_hours": 289.0,
       "stale": true
     },
     "sephora": {
@@ -1517,25 +1517,25 @@
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 10,
       "trust": "manual",
-      "age_hours": 288.7,
+      "age_hours": 289.0,
       "stale": true
     },
     "open_beauty_facts": {
       "status": "ok",
       "source": "world.openbeautyfacts.org /api/v2 (오픈데이터)",
       "reason": "",
-      "collected_at": "2026-09-12T23:45:46.000011+00:00",
+      "collected_at": "2026-09-13T00:50:10.304780+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 1.0,
+      "age_hours": 0.2,
       "stale": false
     }
   },
   "exchange_rate": {
-    "rate": 1342.53,
-    "as_of": "2026-09-12",
+    "rate": 1343.03,
+    "as_of": "2026-09-13",
     "source": "https://open.er-api.com/v6/latest/USD",
     "updated_at": "2026-09-13"
   },
-  "last_synced": "09. 13. 오전 08:49 KST"
+  "last_synced": "09. 13. 오전 09:54 KST"
 }

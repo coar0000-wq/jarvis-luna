@@ -1,12 +1,12 @@
 ---
-title: "Record 2cd6a90c5c · How-to-select-the-right-rack-and-pinion-system-for-high-precision-line"
+title: "Record 2cd6a90c5c · How-to-select-the-right-rack-and-pinion-system-for-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.175136+00:00
+updated_at: 2026-09-13T00:56:37.981503+00:00
 tags: [record, real-data]
 ---
 
-# Record 2cd6a90c5c · How-to-select-the-right-rack-and-pinion-system-for-high-precision-line
+# Record 2cd6a90c5c · How-to-select-the-right-rack-and-pinion-system-for-
 
 > 실제 수집 레코드입니다. 원문: [www.therobotreport.com](https://www.therobotreport.com/how-to-select-the-right-rack-and-pinion-system-for-high-precision-linear-motion/)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 34a392f2ea · 3-K-Beauty-Brands-About-to-Be-Americas-Next-Obsessions---NewBeauty"
+title: "Record 34a392f2ea · 3-K-Beauty-Brands-About-to-Be-Americas-Next-Obsessi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.814597+00:00
+updated_at: 2026-09-13T00:56:37.652441+00:00
 tags: [record, real-data]
 ---
 
-# Record 34a392f2ea · 3-K-Beauty-Brands-About-to-Be-Americas-Next-Obsessions---NewBeauty
+# Record 34a392f2ea · 3-K-Beauty-Brands-About-to-Be-Americas-Next-Obsessi
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBLYW52dnlOTEp6MU04S1Y0WFJBVXNqNFNuTTBBZ1R0Q0RJRF9RbWtxR0NYelczclRMd09wcFV0SWNZVUNPTVBSTkFCdGxqdG5sUDRPMmZBYzZ0M0xITk80Q2xoTkFhZ1k?oc=5)
 

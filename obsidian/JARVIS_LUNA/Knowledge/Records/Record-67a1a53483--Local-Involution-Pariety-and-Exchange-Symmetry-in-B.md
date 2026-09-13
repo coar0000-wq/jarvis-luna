@@ -1,12 +1,12 @@
 ---
-title: "Record 67a1a53483 · Local-Involution-Pariety-and-Exchange-Symmetry-in-Bipartite-Quantum-Sy"
+title: "Record 67a1a53483 · Local-Involution-Pariety-and-Exchange-Symmetry-in-B"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.716492+00:00
+updated_at: 2026-09-13T00:56:37.562063+00:00
 tags: [record, real-data]
 ---
 
-# Record 67a1a53483 · Local-Involution-Pariety-and-Exchange-Symmetry-in-Bipartite-Quantum-Sy
+# Record 67a1a53483 · Local-Involution-Pariety-and-Exchange-Symmetry-in-B
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.21960684)
 

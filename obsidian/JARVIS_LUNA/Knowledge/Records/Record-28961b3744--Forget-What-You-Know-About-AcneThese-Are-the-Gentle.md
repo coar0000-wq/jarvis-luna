@@ -1,12 +1,12 @@
 ---
-title: "Record 28961b3744 · Forget-What-You-Know-About-AcneThese-Are-the-Gentle-Formulas-You-Shoul"
+title: "Record 28961b3744 · Forget-What-You-Know-About-AcneThese-Are-the-Gentle"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.853480+00:00
+updated_at: 2026-09-13T00:56:37.690115+00:00
 tags: [record, real-data]
 ---
 
-# Record 28961b3744 · Forget-What-You-Know-About-AcneThese-Are-the-Gentle-Formulas-You-Shoul
+# Record 28961b3744 · Forget-What-You-Know-About-AcneThese-Are-the-Gentle
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMid0FVX3lxTE12YWx5TFJUTGEzdjRWUVdWeXRQbEpNUkVvNDlzMzQ0NzFrUDdlTVFtT1BUVXBYVjJwTW1CaklGYU9PYVkwdl9WWGhUa3BRZHRyX3VIZVNfQmkwQi1hLWx5ZnJaNFFzQWpKV2pBQTBZMXdTdkpZOVI0?oc=5)
 

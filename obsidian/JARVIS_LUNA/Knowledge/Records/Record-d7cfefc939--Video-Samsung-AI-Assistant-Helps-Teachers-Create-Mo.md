@@ -1,12 +1,12 @@
 ---
-title: "Record d7cfefc939 · Video-Samsung-AI-Assistant-Helps-Teachers-Create-More-Engaging-and-Acc"
+title: "Record d7cfefc939 · Video-Samsung-AI-Assistant-Helps-Teachers-Create-Mo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.001566+00:00
+updated_at: 2026-09-13T00:56:37.828129+00:00
 tags: [record, real-data]
 ---
 
-# Record d7cfefc939 · Video-Samsung-AI-Assistant-Helps-Teachers-Create-More-Engaging-and-Acc
+# Record d7cfefc939 · Video-Samsung-AI-Assistant-Helps-Teachers-Create-Mo
 
 > 실제 수집 레코드입니다. 원문: [news.samsung.com](https://news.samsung.com/global/video-samsung-ai-assistant-helps-teachers-create-more-engaging-and-accessible-lessons)
 

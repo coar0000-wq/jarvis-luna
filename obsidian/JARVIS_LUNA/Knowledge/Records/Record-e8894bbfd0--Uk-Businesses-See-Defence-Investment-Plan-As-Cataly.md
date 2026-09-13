@@ -1,12 +1,12 @@
 ---
-title: "Record e8894bbfd0 · Uk-Businesses-See-Defence-Investment-Plan-As-Catalyst-For-Growth"
+title: "Record e8894bbfd0 · Uk-Businesses-See-Defence-Investment-Plan-As-Cataly"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.742650+00:00
+updated_at: 2026-09-13T00:56:37.586015+00:00
 tags: [record, real-data]
 ---
 
-# Record e8894bbfd0 · Uk-Businesses-See-Defence-Investment-Plan-As-Catalyst-For-Growth
+# Record e8894bbfd0 · Uk-Businesses-See-Defence-Investment-Plan-As-Cataly
 
 > 실제 수집 레코드입니다. 원문: [home.barclays](https://home.barclays/news/press-releases/20260/070/uk-businesses-see-defence-investment-plan-as-catalyst-for-growth/)
 

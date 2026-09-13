@@ -1,12 +1,12 @@
 ---
-title: "Record ff4b3cf82d · Instagram-Changed-Everything-Again-New-Updates-You-Need-to-Know-in-202"
+title: "Record ff4b3cf82d · Instagram-Changed-Everything-Again-New-Updates-You-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.255373+00:00
+updated_at: 2026-09-13T00:56:38.050838+00:00
 tags: [record, real-data]
 ---
 
-# Record ff4b3cf82d · Instagram-Changed-Everything-Again-New-Updates-You-Need-to-Know-in-202
+# Record ff4b3cf82d · Instagram-Changed-Everything-Again-New-Updates-You-
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/watch?v=dU_U1Pmmu5c)
 

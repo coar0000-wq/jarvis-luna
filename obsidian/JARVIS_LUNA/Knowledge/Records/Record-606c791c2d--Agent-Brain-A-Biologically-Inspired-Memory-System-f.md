@@ -1,12 +1,12 @@
 ---
-title: "Record 606c791c2d · Agent-Brain-A-Biologically-Inspired-Memory-System-for-Autonomous-AI-Ag"
+title: "Record 606c791c2d · Agent-Brain-A-Biologically-Inspired-Memory-System-f"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.707269+00:00
+updated_at: 2026-09-13T00:56:37.554554+00:00
 tags: [record, real-data]
 ---
 
-# Record 606c791c2d · Agent-Brain-A-Biologically-Inspired-Memory-System-for-Autonomous-AI-Ag
+# Record 606c791c2d · Agent-Brain-A-Biologically-Inspired-Memory-System-f
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.19673331)
 

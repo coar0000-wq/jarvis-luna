@@ -1,12 +1,12 @@
 ---
-title: "Record a4ef018d01 · Odometer-Agnostic-Drift-Correction-Using-OpenStreetMap-Lane-Geometry"
+title: "Record a4ef018d01 · Odometer-Agnostic-Drift-Correction-Using-OpenStreet"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.537296+00:00
+updated_at: 2026-09-13T00:56:37.400566+00:00
 tags: [record, real-data]
 ---
 
-# Record a4ef018d01 · Odometer-Agnostic-Drift-Correction-Using-OpenStreetMap-Lane-Geometry
+# Record a4ef018d01 · Odometer-Agnostic-Drift-Correction-Using-OpenStreet
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.10336v1)
 

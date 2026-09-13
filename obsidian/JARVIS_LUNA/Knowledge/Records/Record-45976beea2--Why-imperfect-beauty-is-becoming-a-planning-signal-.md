@@ -1,12 +1,12 @@
 ---
-title: "Record 45976beea2 · Why-imperfect-beauty-is-becoming-a-planning-signal-for-MUAs-and-brand-"
+title: "Record 45976beea2 · Why-imperfect-beauty-is-becoming-a-planning-signal-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.810962+00:00
+updated_at: 2026-09-13T00:56:37.649192+00:00
 tags: [record, real-data]
 ---
 
-# Record 45976beea2 · Why-imperfect-beauty-is-becoming-a-planning-signal-for-MUAs-and-brand-
+# Record 45976beea2 · Why-imperfect-beauty-is-becoming-a-planning-signal-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0zWnZabHoxVi1rT1RIcXZRRTQxa2FOU3BqZE9BZS1XQUxsX3hTVmNzVGs3alRlWDl2OXBzZ3JmTzN5X09PRWtFWFRYQmVmaUwzbEd1STd5Qk1QU2RXWVFEVG5VQTlMWlnSAWdBVV95cUxNM1p2Wmx6MVYta09USHF2UUU0MWthTlNwamRPQWUtV0FMbF94U1Zjc1RrN2pUZVg5djlwc2dyZk8zeV9PT0VrRVhUWEJlZmlMM2xHdUk3eUJNUFNkV1lRRFRuVUE5TFpZ?oc=5)
 

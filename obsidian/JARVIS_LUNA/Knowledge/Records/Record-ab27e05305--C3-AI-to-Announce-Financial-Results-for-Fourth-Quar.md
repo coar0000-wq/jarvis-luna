@@ -1,12 +1,12 @@
 ---
-title: "Record ab27e05305 · C3-AI-to-Announce-Financial-Results-for-Fourth-Quarter-and-Fiscal-Year"
+title: "Record ab27e05305 · C3-AI-to-Announce-Financial-Results-for-Fourth-Quar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.763379+00:00
+updated_at: 2026-09-13T00:56:37.604939+00:00
 tags: [record, real-data]
 ---
 
-# Record ab27e05305 · C3-AI-to-Announce-Financial-Results-for-Fourth-Quarter-and-Fiscal-Year
+# Record ab27e05305 · C3-AI-to-Announce-Financial-Results-for-Fourth-Quar
 
 > 실제 수집 레코드입니다. 원문: [ir.c3.ai](https://ir.c3.ai/news-releases/news-release-details/c3-ai-announce-financial-results-fourth-quarter-and-fiscal-1)
 

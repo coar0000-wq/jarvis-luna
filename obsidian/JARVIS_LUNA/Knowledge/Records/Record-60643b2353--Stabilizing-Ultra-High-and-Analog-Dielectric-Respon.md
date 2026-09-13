@@ -1,12 +1,12 @@
 ---
-title: "Record 60643b2353 · Stabilizing-Ultra-High-and-Analog-Dielectric-Response-in-HZOZrO-2-Film"
+title: "Record 60643b2353 · Stabilizing-Ultra-High-and-Analog-Dielectric-Respon"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.637633+00:00
+updated_at: 2026-09-13T00:56:37.496884+00:00
 tags: [record, real-data]
 ---
 
-# Record 60643b2353 · Stabilizing-Ultra-High-and-Analog-Dielectric-Response-in-HZOZrO-2-Film
+# Record 60643b2353 · Stabilizing-Ultra-High-and-Analog-Dielectric-Respon
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1109/led.2026.3717766)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 49bd56de98 · Your-Agent-is-More-Brittle-Than-You-Think-Uncovering-Indirect-Injectio"
+title: "Record 49bd56de98 · Your-Agent-is-More-Brittle-Than-You-Think-Uncoverin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.021916+00:00
+updated_at: 2026-09-13T00:56:37.846800+00:00
 tags: [record, real-data]
 ---
 
-# Record 49bd56de98 · Your-Agent-is-More-Brittle-Than-You-Think-Uncovering-Indirect-Injectio
+# Record 49bd56de98 · Your-Agent-is-More-Brittle-Than-You-Think-Uncoverin
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7152331654)
 

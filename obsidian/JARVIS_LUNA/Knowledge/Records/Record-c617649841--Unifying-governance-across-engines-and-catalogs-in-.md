@@ -1,12 +1,12 @@
 ---
-title: "Record c617649841 · Unifying-governance-across-engines-and-catalogs-in-the-Open-Lakehouse"
+title: "Record c617649841 · Unifying-governance-across-engines-and-catalogs-in-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.128547+00:00
+updated_at: 2026-09-13T00:56:37.944273+00:00
 tags: [record, real-data]
 ---
 
-# Record c617649841 · Unifying-governance-across-engines-and-catalogs-in-the-Open-Lakehouse
+# Record c617649841 · Unifying-governance-across-engines-and-catalogs-in-
 
 > 실제 수집 레코드입니다. 원문: [www.databricks.com](https://www.databricks.com/blog/unifying-governance-across-engines-and-catalogs-open-lakehouse)
 

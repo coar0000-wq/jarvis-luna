@@ -1,12 +1,12 @@
 ---
-title: "Record a4aeacfcdc · Say-Goodbye-Bronzing-Drops--Hello-Bronze-Water-Tints-Why-the-Victoria-"
+title: "Record a4aeacfcdc · Say-Goodbye-Bronzing-Drops--Hello-Bronze-Water-Tint"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.950903+00:00
+updated_at: 2026-09-13T00:56:37.781740+00:00
 tags: [record, real-data]
 ---
 
-# Record a4aeacfcdc · Say-Goodbye-Bronzing-Drops--Hello-Bronze-Water-Tints-Why-the-Victoria-
+# Record a4aeacfcdc · Say-Goodbye-Bronzing-Drops--Hello-Bronze-Water-Tint
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMioAFBVV95cUxPUlNoajRRRC1NQ1VuZHBUbVpFQmU4QWV3SkRPb1gyWWZONW5sRURQT0hZS3hfUjFpSnlwdmZhTDZTMnp3SHp5Uk9IV0hsU2lsTXdEQldMM3FwTzZsYVhLWDFLV3BwZlN6UXNhT213QmxKQktHN20wNnZNV1Y3ZzgwclVKQl9Uc1VBaGhNeXlVQ3Y3dHZ4R1MwOXpGUVNPR0hy?oc=5)
 

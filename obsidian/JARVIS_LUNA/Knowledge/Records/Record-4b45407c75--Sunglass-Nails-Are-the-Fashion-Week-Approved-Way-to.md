@@ -1,12 +1,12 @@
 ---
-title: "Record 4b45407c75 · Sunglass-Nails-Are-the-Fashion-Week-Approved-Way-to-Go-SheerSee-the-Ph"
+title: "Record 4b45407c75 · Sunglass-Nails-Are-the-Fashion-Week-Approved-Way-to"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.084175+00:00
+updated_at: 2026-09-13T00:56:37.902451+00:00
 tags: [record, real-data]
 ---
 
-# Record 4b45407c75 · Sunglass-Nails-Are-the-Fashion-Week-Approved-Way-to-Go-SheerSee-the-Ph
+# Record 4b45407c75 · Sunglass-Nails-Are-the-Fashion-Week-Approved-Way-to
 
 > 실제 수집 레코드입니다. 원문: [www.allure.com](https://www.allure.com/story/dvf-nyfw-sunglass-nails)
 

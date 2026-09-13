@@ -1,12 +1,12 @@
 ---
-title: "Record 3e7174be76 · The-Korean-skincare-secrets-a-dermatologist-says-are-actually-worth-tr"
+title: "Record 3e7174be76 · The-Korean-skincare-secrets-a-dermatologist-says-ar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.773849+00:00
+updated_at: 2026-09-13T00:56:37.614979+00:00
 tags: [record, real-data]
 ---
 
-# Record 3e7174be76 · The-Korean-skincare-secrets-a-dermatologist-says-are-actually-worth-tr
+# Record 3e7174be76 · The-Korean-skincare-secrets-a-dermatologist-says-ar
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZmhzdFJrZzRtaVloZ1Q0RU11ZGV6WU9BR1djNnpxcWNjQUlFQm9XWlZRampjYkNNcFI0NHNJVkhsOEJKNmVkaGJFY0djbWdsT1NxN21fR0RZb1N0VzYxVmN6R0ptUjFKUXVCSmZybno5ZmNfVDFVZEZnQVVYaktaWVJadFpYTENiYmQ0RXNhRlRGSHJRZ1VCdWNuRUN6MW05dVJlaFZMVUlvZTk1N3cwdFhfZ25YZEk4cm93b3NaRy0xaXNsMG0xeDNQZ0hPTVFV0gHYAUFVX3lxTFBfSnBxQnYyRG9hTXpld2hlOWR3c1g3VXd4MWNxWVBVekFKU3hWVm1UcVdHUDN4SnpfWG5TWXZoaDhNVVdKQ0NHbUphREI0N196cGNaX1pfcjhMQnF4c3BZZHBrRWpPbGdOanpBLU93YjdlV0lsWHdkd2QxYTJWbkt0TTFlR1ZkWVROYV8wbG1OVUVUVGlNMWwzdmlTT2xGUXVrcnJ1M3lRcHl4TzAwOTlFRUptQndraUlFRXlfcmhEU1QwMzZvRHJxRUNuOEF3TlZJOFhGY3o1cA?oc=5)
 

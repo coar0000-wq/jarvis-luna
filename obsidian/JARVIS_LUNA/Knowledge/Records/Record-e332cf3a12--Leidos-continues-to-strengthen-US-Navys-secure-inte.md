@@ -1,12 +1,12 @@
 ---
-title: "Record e332cf3a12 · Leidos-continues-to-strengthen-US-Navys-secure-intelligence-operations"
+title: "Record e332cf3a12 · Leidos-continues-to-strengthen-US-Navys-secure-inte"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.754446+00:00
+updated_at: 2026-09-13T00:56:37.596783+00:00
 tags: [record, real-data]
 ---
 
-# Record e332cf3a12 · Leidos-continues-to-strengthen-US-Navys-secure-intelligence-operations
+# Record e332cf3a12 · Leidos-continues-to-strengthen-US-Navys-secure-inte
 
 > 실제 수집 레코드입니다. 원문: [investors.leidos.com](https://investors.leidos.com/news-releases/news-release-details/leidos-continues-strengthen-us-navys-secure-intelligence)
 

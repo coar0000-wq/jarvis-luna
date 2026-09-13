@@ -1,12 +1,12 @@
 ---
-title: "Record a54bab90fe · Shopify-says-AI-traffic-is-up-7x-since-January-AI-driven-orders-are-up"
+title: "Record a54bab90fe · Shopify-says-AI-traffic-is-up-7x-since-January-AI-d"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.969311+00:00
+updated_at: 2026-09-13T00:56:37.798517+00:00
 tags: [record, real-data]
 ---
 
-# Record a54bab90fe · Shopify-says-AI-traffic-is-up-7x-since-January-AI-driven-orders-are-up
+# Record a54bab90fe · Shopify-says-AI-traffic-is-up-7x-since-January-AI-d
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMirgFBVV95cUxPcUV2Q3lMR2NhdmJyRF9jUGNxWi1NcVdpck11RmVTbXQ3THhDTnB3Z3diYUplazRFQUpkbDFXMkg1U29yNGFoQUFHOEg3cF9BeDJfQVotTm02Njc1VkNRZUVucDNYR3dxRGRWa0RPV1BsSlpxdGN4RWNudjB2cWdZZy02SFBRN2NlQ1dEUkp4RTJRVHJodzVGNWtraVVrMWlSUEZZdjJmM3BJWTVTN1E?oc=5)
 

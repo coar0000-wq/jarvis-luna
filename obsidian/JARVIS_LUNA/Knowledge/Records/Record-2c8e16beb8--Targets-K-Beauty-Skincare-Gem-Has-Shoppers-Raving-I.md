@@ -1,12 +1,12 @@
 ---
-title: "Record 2c8e16beb8 · Targets-K-Beauty-Skincare-Gem-Has-Shoppers-Raving-I-Noticed-a-Differen"
+title: "Record 2c8e16beb8 · Targets-K-Beauty-Skincare-Gem-Has-Shoppers-Raving-I"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.881170+00:00
+updated_at: 2026-09-13T00:56:37.717638+00:00
 tags: [record, real-data]
 ---
 
-# Record 2c8e16beb8 · Targets-K-Beauty-Skincare-Gem-Has-Shoppers-Raving-I-Noticed-a-Differen
+# Record 2c8e16beb8 · Targets-K-Beauty-Skincare-Gem-Has-Shoppers-Raving-I
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMifkFVX3lxTE11SW9Qem5PV3dkZEFGVTVfRE1JVTNqbGFRX0QxTkMyNkZBeTFsNnhQWUpwYmlRQVVlVENiNUpjZTNvU1JZZXhjMGVNYzM0ZmdMSWthdjNqdGJLTnBaZnJaRTJmcXc5X3FZbkEyaG1HR0FxRnpJQmdzaGktcnBUZw?oc=5)
 

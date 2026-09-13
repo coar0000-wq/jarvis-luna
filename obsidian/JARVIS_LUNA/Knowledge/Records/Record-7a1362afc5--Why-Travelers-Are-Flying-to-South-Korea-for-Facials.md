@@ -1,12 +1,12 @@
 ---
-title: "Record 7a1362afc5 · Why-Travelers-Are-Flying-to-South-Korea-for-Facials-Lasers-and-Glass-S"
+title: "Record 7a1362afc5 · Why-Travelers-Are-Flying-to-South-Korea-for-Facials"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.869018+00:00
+updated_at: 2026-09-13T00:56:37.706341+00:00
 tags: [record, real-data]
 ---
 
-# Record 7a1362afc5 · Why-Travelers-Are-Flying-to-South-Korea-for-Facials-Lasers-and-Glass-S
+# Record 7a1362afc5 · Why-Travelers-Are-Flying-to-South-Korea-for-Facials
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMieEFVX3lxTFA5MGMwUVc0MmE0aFZtZHVJT2IwTVJBVTJYTU5UZ2dsMEpyVG1PNERiLVhQeFNzbVZ2eGlLTTgyNl9tZElyOWNKbWFKUTF5UXNwMkJ3dDcxZGhkZC0yaXN0c0htbWtXTHZtbnhUcTAtZFhWeU1PdGxOONIBeEFVX3lxTE96X3JQSXplTUkxNnBNUjhMU1N3cnhqcldJbGhLWWs0VmhkUXVFa0pma3QweWk5b1F0T1pNTzRpWVJSOGtEQlU0NmZqSVFzem1Zd2JwTjgxTmpPXy04RHpidVVBRlpsN252cktGYkFVNHZsTEE3MUs4bA?oc=5)
 

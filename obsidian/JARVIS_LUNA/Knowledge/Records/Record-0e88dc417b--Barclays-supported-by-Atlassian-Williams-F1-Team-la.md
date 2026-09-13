@@ -1,12 +1,12 @@
 ---
-title: "Record 0e88dc417b · Barclays-supported-by-Atlassian-Williams-F1-Team-launches-national-com"
+title: "Record 0e88dc417b · Barclays-supported-by-Atlassian-Williams-F1-Team-la"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.742976+00:00
+updated_at: 2026-09-13T00:56:37.586307+00:00
 tags: [record, real-data]
 ---
 
-# Record 0e88dc417b · Barclays-supported-by-Atlassian-Williams-F1-Team-launches-national-com
+# Record 0e88dc417b · Barclays-supported-by-Atlassian-Williams-F1-Team-la
 
 > 실제 수집 레코드입니다. 원문: [home.barclays](https://home.barclays/news/press-releases/20260/080/barclays--supported-by-atlassian-williams-f1-team--launches-nati/)
 

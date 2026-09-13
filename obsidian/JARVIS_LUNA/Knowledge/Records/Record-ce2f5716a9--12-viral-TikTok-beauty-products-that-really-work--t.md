@@ -1,12 +1,12 @@
 ---
-title: "Record ce2f5716a9 · 12-viral-TikTok-beauty-products-that-really-work--tried-and-tested---t"
+title: "Record ce2f5716a9 · 12-viral-TikTok-beauty-products-that-really-work--t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.933861+00:00
+updated_at: 2026-09-13T00:56:37.765973+00:00
 tags: [record, real-data]
 ---
 
-# Record ce2f5716a9 · 12-viral-TikTok-beauty-products-that-really-work--tried-and-tested---t
+# Record ce2f5716a9 · 12-viral-TikTok-beauty-products-that-really-work--t
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMilwFBVV95cUxQQjEtZ3BIMDc3NEc4elNSWnVpdWwyc1lpeHNyRjl6OXc3ZkJrWndVOVJjRDMyQ1VvbzdoaFVwM25NS1F3RXlOZEdKNG00SW5kamNJaDBTMk5nQlZNanNIQXY5bVdNbUdKWnRkVVlqNldjeWlrMGp2ajVjNE9TZ01INXA4NDhCRnNaem5wbzFhbmxBbEExbFBF?oc=5)
 

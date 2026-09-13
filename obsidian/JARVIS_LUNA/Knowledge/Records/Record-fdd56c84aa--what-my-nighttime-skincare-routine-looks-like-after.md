@@ -1,12 +1,12 @@
 ---
-title: "Record fdd56c84aa · what-my-nighttime-skincare-routine-looks-like-after-having-twins-newmo"
+title: "Record fdd56c84aa · what-my-nighttime-skincare-routine-looks-like-after"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.192780+00:00
+updated_at: 2026-09-13T00:56:37.995963+00:00
 tags: [record, real-data]
 ---
 
-# Record fdd56c84aa · what-my-nighttime-skincare-routine-looks-like-after-having-twins-newmo
+# Record fdd56c84aa · what-my-nighttime-skincare-routine-looks-like-after
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/shorts/J2AAU7q3X0w)
 

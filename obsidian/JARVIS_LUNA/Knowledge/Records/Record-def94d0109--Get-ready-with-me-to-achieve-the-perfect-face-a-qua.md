@@ -1,12 +1,12 @@
 ---
-title: "Record def94d0109 · Get-ready-with-me-to-achieve-the-perfect-face-a-qualitative-study-into"
+title: "Record def94d0109 · Get-ready-with-me-to-achieve-the-perfect-face-a-qua"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.798358+00:00
+updated_at: 2026-09-13T00:56:37.637730+00:00
 tags: [record, real-data]
 ---
 
-# Record def94d0109 · Get-ready-with-me-to-achieve-the-perfect-face-a-qualitative-study-into
+# Record def94d0109 · Get-ready-with-me-to-achieve-the-perfect-face-a-qua
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiX0FVX3lxTE5pMWJ4U1NSZzIzSk9aUzVvWnoxSE14S3hVZnRTSldfLXhTQWdXc0hOWlpLa1RaQlk2WkJtSnZPS3RfZHg1VUgzRlc0Yi1rY2RCSXlJVFVyWm5DMHBxMGxv?oc=5)
 

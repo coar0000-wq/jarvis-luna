@@ -1,12 +1,12 @@
 ---
-title: "Record 431b1d49fb · An-Advanced-Regulatory-Technology-Framework-for-Improving-Financial-Tr"
+title: "Record 431b1d49fb · An-Advanced-Regulatory-Technology-Framework-for-Imp"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.729104+00:00
+updated_at: 2026-09-13T00:56:37.573357+00:00
 tags: [record, real-data]
 ---
 
-# Record 431b1d49fb · An-Advanced-Regulatory-Technology-Framework-for-Improving-Financial-Tr
+# Record 431b1d49fb · An-Advanced-Regulatory-Technology-Framework-for-Imp
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.62225/2583049x.2025.5.6.5676)
 

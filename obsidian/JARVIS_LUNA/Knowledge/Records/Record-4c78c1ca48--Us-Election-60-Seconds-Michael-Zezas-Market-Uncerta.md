@@ -1,12 +1,12 @@
 ---
-title: "Record 4c78c1ca48 · Us-Election-60-Seconds-Michael-Zezas-Market-Uncertainty"
+title: "Record 4c78c1ca48 · Us-Election-60-Seconds-Michael-Zezas-Market-Uncerta"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.159497+00:00
+updated_at: 2026-09-13T00:56:37.969593+00:00
 tags: [record, real-data]
 ---
 
-# Record 4c78c1ca48 · Us-Election-60-Seconds-Michael-Zezas-Market-Uncertainty
+# Record 4c78c1ca48 · Us-Election-60-Seconds-Michael-Zezas-Market-Uncerta
 
 > 실제 수집 레코드입니다. 원문: [www.morganstanley.com](https://www.morganstanley.com/ideas/us-election-60-seconds-michael-zezas-market-uncertainty)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 0a54e0037b · Provably-adaptive-sampling-with-uniform-and-remasking-discrete-diffusi"
+title: "Record 0a54e0037b · Provably-adaptive-sampling-with-uniform-and-remaski"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.258065+00:00
+updated_at: 2026-09-13T00:56:38.053332+00:00
 tags: [record, real-data]
 ---
 
-# Record 0a54e0037b · Provably-adaptive-sampling-with-uniform-and-remasking-discrete-diffusi
+# Record 0a54e0037b · Provably-adaptive-sampling-with-uniform-and-remaski
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.23554v1)
 

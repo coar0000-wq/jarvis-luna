@@ -1,12 +1,12 @@
 ---
-title: "Record 1c1ce99e45 · Unified-Workload-Management-Through-Kubernetes-Native-APIs"
+title: "Record 1c1ce99e45 · Unified-Workload-Management-Through-Kubernetes-Nati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.704809+00:00
+updated_at: 2026-09-13T00:56:37.552625+00:00
 tags: [record, real-data]
 ---
 
-# Record 1c1ce99e45 · Unified-Workload-Management-Through-Kubernetes-Native-APIs
+# Record 1c1ce99e45 · Unified-Workload-Management-Through-Kubernetes-Nati
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.18433800)
 

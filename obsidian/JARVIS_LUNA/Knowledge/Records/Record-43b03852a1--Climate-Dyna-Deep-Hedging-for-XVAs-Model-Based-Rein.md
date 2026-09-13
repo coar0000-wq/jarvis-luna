@@ -1,12 +1,12 @@
 ---
-title: "Record 43b03852a1 · Climate-Dyna-Deep-Hedging-for-XVAs-Model-Based-Reinforcement-Learning-"
+title: "Record 43b03852a1 · Climate-Dyna-Deep-Hedging-for-XVAs-Model-Based-Rein"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.044086+00:00
+updated_at: 2026-09-13T00:56:37.867993+00:00
 tags: [record, real-data]
 ---
 
-# Record 43b03852a1 · Climate-Dyna-Deep-Hedging-for-XVAs-Model-Based-Reinforcement-Learning-
+# Record 43b03852a1 · Climate-Dyna-Deep-Hedging-for-XVAs-Model-Based-Rein
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7172557191)
 

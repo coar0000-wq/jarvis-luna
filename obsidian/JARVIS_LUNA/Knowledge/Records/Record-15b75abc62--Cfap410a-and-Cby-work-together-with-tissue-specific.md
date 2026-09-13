@@ -1,12 +1,12 @@
 ---
-title: "Record 15b75abc62 · Cfap410a-and-Cby-work-together-with-tissue-specific-requirements-to-bu"
+title: "Record 15b75abc62 · Cfap410a-and-Cby-work-together-with-tissue-specific"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.734423+00:00
+updated_at: 2026-09-13T00:56:37.578337+00:00
 tags: [record, real-data]
 ---
 
-# Record 15b75abc62 · Cfap410a-and-Cby-work-together-with-tissue-specific-requirements-to-bu
+# Record 15b75abc62 · Cfap410a-and-Cby-work-together-with-tissue-specific
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.64898/2026.09.08.749861)
 

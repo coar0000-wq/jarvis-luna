@@ -1,12 +1,12 @@
 ---
-title: "Record 8c62af78a8 · Claude-AI--Digital-Products--218974-LOL-It-Actually-Worked"
+title: "Record 8c62af78a8 · Claude-AI--Digital-Products--218974-LOL-It-Actually"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.228392+00:00
+updated_at: 2026-09-13T00:56:38.027955+00:00
 tags: [record, real-data]
 ---
 
-# Record 8c62af78a8 · Claude-AI--Digital-Products--218974-LOL-It-Actually-Worked
+# Record 8c62af78a8 · Claude-AI--Digital-Products--218974-LOL-It-Actually
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/watch?v=oN9LcIA_rt8)
 

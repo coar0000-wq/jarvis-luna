@@ -1,12 +1,12 @@
 ---
-title: "Record b894bf8062 · AI-and-organic-search-are-doing-different-jobs-What-Shopifys-data-show"
+title: "Record b894bf8062 · AI-and-organic-search-are-doing-different-jobs-What"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.859506+00:00
+updated_at: 2026-09-13T00:56:37.696534+00:00
 tags: [record, real-data]
 ---
 
-# Record b894bf8062 · AI-and-organic-search-are-doing-different-jobs-What-Shopifys-data-show
+# Record b894bf8062 · AI-and-organic-search-are-doing-different-jobs-What
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMidkFVX3lxTE1UWlJqUjhBT0RudnhqRjAxY1ByN1BfbmJpakpkUGxXY2M4TGZ3U0loNUJkZ2diM2dqdk9tM2VYNG9aSEdnQ0lyc1ZKSWZaMlZVaWtiem9fTEluajJia2lwd3NvWG9SR1ZmekZXakVTX3V6dExzcXc?oc=5)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record f8a4461dd5 · Korean-Hair-Products-Are-Here-This-is-Why-You-Absolutely-Need-to-Try-T"
+title: "Record f8a4461dd5 · Korean-Hair-Products-Are-Here-This-is-Why-You-Absol"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.896500+00:00
+updated_at: 2026-09-13T00:56:37.731712+00:00
 tags: [record, real-data]
 ---
 
-# Record f8a4461dd5 · Korean-Hair-Products-Are-Here-This-is-Why-You-Absolutely-Need-to-Try-T
+# Record f8a4461dd5 · Korean-Hair-Products-Are-Here-This-is-Why-You-Absol
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMihgFBVV95cUxNOEh6R2M4VmNWR0FtR2loaEpLX002R2F3dkRFRldjSmZUdkxjekVzb2NXYzhZMUFiZzM5cXRQVHk1RmQ0NTkxcU5MZTVMX1RsQVBNcEw5NkM3ZGJ5Q19KajNpTkdoZE93MFR5cnExZTNHTHZad0s0aGpaS2xUMG1LMFE0VUxKUQ?oc=5)
 

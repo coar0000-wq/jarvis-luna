@@ -1,12 +1,12 @@
 ---
-title: "Record 056ae43ebf · In-the-AI-era-is-Shopify-the-new-WordPress---TechRadar"
+title: "Record 056ae43ebf · In-the-AI-era-is-Shopify-the-new-WordPress---TechRa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.878454+00:00
+updated_at: 2026-09-13T00:56:37.715103+00:00
 tags: [record, real-data]
 ---
 
-# Record 056ae43ebf · In-the-AI-era-is-Shopify-the-new-WordPress---TechRadar
+# Record 056ae43ebf · In-the-AI-era-is-Shopify-the-new-WordPress---TechRa
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMifEFVX3lxTE1YekdrNENob0dOTEd5UERjMTBXYWVEWDZQTWtzOGNXc0tyN0s0ejdDT3JQRUdhdExCel9pTUNKRmV5M1FaMlM5TWRrdHAydU1nenZOWVl0Rlo1VGxDM1ZJeGJzR09ncDZnQVRVZVBFTExGUXFaNXppVF9aN2E?oc=5)
 

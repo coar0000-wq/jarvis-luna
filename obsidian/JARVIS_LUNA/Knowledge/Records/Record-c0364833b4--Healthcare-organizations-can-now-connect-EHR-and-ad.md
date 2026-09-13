@@ -1,12 +1,12 @@
 ---
-title: "Record c0364833b4 · Healthcare-organizations-can-now-connect-EHR-and-additional-industry-d"
+title: "Record c0364833b4 · Healthcare-organizations-can-now-connect-EHR-and-ad"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.008648+00:00
+updated_at: 2026-09-13T00:56:37.834426+00:00
 tags: [record, real-data]
 ---
 
-# Record c0364833b4 · Healthcare-organizations-can-now-connect-EHR-and-additional-industry-d
+# Record c0364833b4 · Healthcare-organizations-can-now-connect-EHR-and-ad
 
 > 실제 수집 레코드입니다. 원문: [openai.com](https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources)
 

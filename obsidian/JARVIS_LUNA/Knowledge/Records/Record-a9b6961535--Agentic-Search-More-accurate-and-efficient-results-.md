@@ -1,12 +1,12 @@
 ---
-title: "Record a9b6961535 · Agentic-Search-More-accurate-and-efficient-results-from-your-AI-system"
+title: "Record a9b6961535 · Agentic-Search-More-accurate-and-efficient-results-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.766446+00:00
+updated_at: 2026-09-13T00:56:37.607731+00:00
 tags: [record, real-data]
 ---
 
-# Record a9b6961535 · Agentic-Search-More-accurate-and-efficient-results-from-your-AI-system
+# Record a9b6961535 · Agentic-Search-More-accurate-and-efficient-results-
 
 > 실제 수집 레코드입니다. 원문: [mistral.ai](https://mistral.ai/news/agentic-search/)
 

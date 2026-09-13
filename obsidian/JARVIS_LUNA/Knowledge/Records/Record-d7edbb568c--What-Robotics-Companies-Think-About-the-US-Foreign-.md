@@ -1,12 +1,12 @@
 ---
-title: "Record d7edbb568c · What-Robotics-Companies-Think-About-the-US-Foreign-Robot-Ban"
+title: "Record d7edbb568c · What-Robotics-Companies-Think-About-the-US-Foreign-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.048612+00:00
+updated_at: 2026-09-13T00:56:37.872058+00:00
 tags: [record, real-data]
 ---
 
-# Record d7edbb568c · What-Robotics-Companies-Think-About-the-US-Foreign-Robot-Ban
+# Record d7edbb568c · What-Robotics-Companies-Think-About-the-US-Foreign-
 
 > 실제 수집 레코드입니다. 원문: [spectrum.ieee.org](https://spectrum.ieee.org/fcc-covered-list-mobile-robots)
 

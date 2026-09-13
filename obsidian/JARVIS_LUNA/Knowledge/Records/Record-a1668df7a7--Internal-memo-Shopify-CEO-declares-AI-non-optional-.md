@@ -1,12 +1,12 @@
 ---
-title: "Record a1668df7a7 · Internal-memo-Shopify-CEO-declares-AI-non-optional---Digital-Commerce-"
+title: "Record a1668df7a7 · Internal-memo-Shopify-CEO-declares-AI-non-optional-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.947641+00:00
+updated_at: 2026-09-13T00:56:37.778635+00:00
 tags: [record, real-data]
 ---
 
-# Record a1668df7a7 · Internal-memo-Shopify-CEO-declares-AI-non-optional---Digital-Commerce-
+# Record a1668df7a7 · Internal-memo-Shopify-CEO-declares-AI-non-optional-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMingFBVV95cUxQb2JWT2Vvb19YdWhHRnlvUTFUbWVwcnAtamNjdzlyUHhkUGpualJZZDdiRFQ2aUpOMGg2WlY3NDBYckZzTzJkMHhpdVNpQVpkQ2NXQjhhc2s5c2ZrN3dzODNNT1NjZTBJRjRMa3RITWVFMDkzb1JJM1pQY3c2WUt0VUxONkpNZVRZTjM4X1JVOXhzN08wOXo4amNHUGxKQdIBowFBVV95cUxNTV9tNmR3dDdpSEZ3U3M1UmdPVV9RQXVPeUFIc04zaWVSbDJFcDV2eTNGWmNiWVFmMzFybEZkbDc5clVFR1RtMHNVUEpxMVhFdzdJdkUzeDQtS0VtSWh3Y1lhT2tQYnlzQnpKV3l1enhvZFRxbm8za0FqYmZlU295UHZldzNubnNCRXBxVEtLclB5a0FNT3ZKYVF1Ny1LRWpvWnln?oc=5)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 2ab6081fb9 · Reverse-scheduling-on-a-single-machine-with-adjustable-release-and-pro"
+title: "Record 2ab6081fb9 · Reverse-scheduling-on-a-single-machine-with-adjusta"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.621003+00:00
+updated_at: 2026-09-13T00:56:37.481550+00:00
 tags: [record, real-data]
 ---
 
-# Record 2ab6081fb9 · Reverse-scheduling-on-a-single-machine-with-adjustable-release-and-pro
+# Record 2ab6081fb9 · Reverse-scheduling-on-a-single-machine-with-adjusta
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1080/01605682.2026.2724047)
 

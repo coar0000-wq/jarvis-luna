@@ -1,12 +1,12 @@
 ---
-title: "Record 42a1992e4b · Gemini-Robotics-2-brings-whole-body-intelligence-to-robots"
+title: "Record 42a1992e4b · Gemini-Robotics-2-brings-whole-body-intelligence-to"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.567021+00:00
+updated_at: 2026-09-13T00:56:37.430537+00:00
 tags: [record, real-data]
 ---
 
-# Record 42a1992e4b · Gemini-Robotics-2-brings-whole-body-intelligence-to-robots
+# Record 42a1992e4b · Gemini-Robotics-2-brings-whole-body-intelligence-to
 
 > 실제 수집 레코드입니다. 원문: [deepmind.google](https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/)
 

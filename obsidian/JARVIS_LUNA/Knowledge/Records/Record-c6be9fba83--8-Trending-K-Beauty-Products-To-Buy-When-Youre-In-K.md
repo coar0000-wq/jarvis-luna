@@ -1,12 +1,12 @@
 ---
-title: "Record c6be9fba83 · 8-Trending-K-Beauty-Products-To-Buy-When-Youre-In-Korea-According-To-A"
+title: "Record c6be9fba83 · 8-Trending-K-Beauty-Products-To-Buy-When-Youre-In-K"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.928065+00:00
+updated_at: 2026-09-13T00:56:37.760685+00:00
 tags: [record, real-data]
 ---
 
-# Record c6be9fba83 · 8-Trending-K-Beauty-Products-To-Buy-When-Youre-In-Korea-According-To-A
+# Record c6be9fba83 · 8-Trending-K-Beauty-Products-To-Buy-When-Youre-In-K
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMilAFBVV95cUxQOWlYS0M5WnAxTU02UFljUlNndTlMVWNkY0NoNllFVU8tTXlwVWdHd21rQTl0ZlQ5NVo3a3ZXYUVsZmxEaVBYUG5EeVFRMDR3T29jZTdmeHB4NnBSYklBc2RucDVIUnZZRlJockZSZzZTTmFqWlRLRTNoSEFLVnJsOGRXdXRkUnBoY1c5c1VXQmYtcnlq?oc=5)
 

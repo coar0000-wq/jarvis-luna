@@ -1,12 +1,12 @@
 ---
-title: "Record 1d7d566208 · Intel-Foundry-and-ASML-Collaborate-to-Accelerate-Industry-Readiness-fo"
+title: "Record 1d7d566208 · Intel-Foundry-and-ASML-Collaborate-to-Accelerate-In"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.114470+00:00
+updated_at: 2026-09-13T00:56:37.931615+00:00
 tags: [record, real-data]
 ---
 
-# Record 1d7d566208 · Intel-Foundry-and-ASML-Collaborate-to-Accelerate-Industry-Readiness-fo
+# Record 1d7d566208 · Intel-Foundry-and-ASML-Collaborate-to-Accelerate-In
 
 > 실제 수집 레코드입니다. 원문: [www.asml.com](https://www.asml.com/en/news/press-releases/2026/intel-foundry-and-asml-collaborate-to-accelerate-industry-readiness-for-high-na-euv)
 

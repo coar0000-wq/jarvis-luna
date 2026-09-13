@@ -1,12 +1,12 @@
 ---
-title: "Record 07b269baf2 · Employing-artificial-intelligence-in-Galileo-orbital-error-prediction-"
+title: "Record 07b269baf2 · Employing-artificial-intelligence-in-Galileo-orbita"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.581867+00:00
+updated_at: 2026-09-13T00:56:37.446047+00:00
 tags: [record, real-data]
 ---
 
-# Record 07b269baf2 · Employing-artificial-intelligence-in-Galileo-orbital-error-prediction-
+# Record 07b269baf2 · Employing-artificial-intelligence-in-Galileo-orbita
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1007/s10291-025-01890-0)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record bc7b4e1f4a · Thomson-Reuters-Powers-Trusted-Enterprise-AI-at-Scale-on-Snowflake"
+title: "Record bc7b4e1f4a · Thomson-Reuters-Powers-Trusted-Enterprise-AI-at-Sca"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.759587+00:00
+updated_at: 2026-09-13T00:56:37.601476+00:00
 tags: [record, real-data]
 ---
 
-# Record bc7b4e1f4a · Thomson-Reuters-Powers-Trusted-Enterprise-AI-at-Scale-on-Snowflake
+# Record bc7b4e1f4a · Thomson-Reuters-Powers-Trusted-Enterprise-AI-at-Sca
 
 > 실제 수집 레코드입니다. 원문: [investors.snowflake.com](https://investors.snowflake.com/news/news-details/2026/Thomson-Reuters-Powers-Trusted-Enterprise-AI-at-Scale-on-Snowflake/default.aspx)
 

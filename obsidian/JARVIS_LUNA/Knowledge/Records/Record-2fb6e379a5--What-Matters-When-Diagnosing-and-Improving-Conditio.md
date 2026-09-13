@@ -1,12 +1,12 @@
 ---
-title: "Record 2fb6e379a5 · What-Matters-When-Diagnosing-and-Improving-Conditional-Visual-Groundin"
+title: "Record 2fb6e379a5 · What-Matters-When-Diagnosing-and-Improving-Conditio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.506860+00:00
+updated_at: 2026-09-13T00:56:37.372641+00:00
 tags: [record, real-data]
 ---
 
-# Record 2fb6e379a5 · What-Matters-When-Diagnosing-and-Improving-Conditional-Visual-Groundin
+# Record 2fb6e379a5 · What-Matters-When-Diagnosing-and-Improving-Conditio
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.05376v1)
 

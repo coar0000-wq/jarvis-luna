@@ -1,12 +1,12 @@
 ---
-title: "Record 99bf13d1ff · 8-Tips-to-Prepare-Your-Product-Data-for-AI-Channels---Shopify"
+title: "Record 99bf13d1ff · 8-Tips-to-Prepare-Your-Product-Data-for-AI-Channels"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.878027+00:00
+updated_at: 2026-09-13T00:56:37.714725+00:00
 tags: [record, real-data]
 ---
 
-# Record 99bf13d1ff · 8-Tips-to-Prepare-Your-Product-Data-for-AI-Channels---Shopify
+# Record 99bf13d1ff · 8-Tips-to-Prepare-Your-Product-Data-for-AI-Channels
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMifEFVX3lxTE1GSmJjV0tjSmljWElWZWR2NGtNVEFrTFh5YnVERlRaeDhCUFlpeTN5d1ZvVG5iTEFYaEpBTEp4QmdtRjNTLVR0YkdYbXFuX1NzZjlhM3pMb2NCR0hPZVNMcUFrZEZ6WVdMYjBiUFA3bnhoTjBvaTJVdFRZSjk?oc=5)
 

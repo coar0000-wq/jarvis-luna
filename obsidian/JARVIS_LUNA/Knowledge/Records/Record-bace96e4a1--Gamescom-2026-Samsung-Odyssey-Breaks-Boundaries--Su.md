@@ -1,12 +1,12 @@
 ---
-title: "Record bace96e4a1 · Gamescom-2026-Samsung-Odyssey-Breaks-Boundaries--Supporting-Every-Way-"
+title: "Record bace96e4a1 · Gamescom-2026-Samsung-Odyssey-Breaks-Boundaries--Su"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.992173+00:00
+updated_at: 2026-09-13T00:56:37.819517+00:00
 tags: [record, real-data]
 ---
 
-# Record bace96e4a1 · Gamescom-2026-Samsung-Odyssey-Breaks-Boundaries--Supporting-Every-Way-
+# Record bace96e4a1 · Gamescom-2026-Samsung-Odyssey-Breaks-Boundaries--Su
 
 > 실제 수집 레코드입니다. 원문: [news.samsung.com](https://news.samsung.com/global/gamescom-2026-samsung-odyssey-breaks-boundaries-supporting-every-way-you-play)
 

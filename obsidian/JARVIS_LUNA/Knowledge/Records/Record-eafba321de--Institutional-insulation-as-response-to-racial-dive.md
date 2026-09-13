@@ -1,12 +1,12 @@
 ---
-title: "Record eafba321de · Institutional-insulation-as-response-to-racial-diversity-evidence-from"
+title: "Record eafba321de · Institutional-insulation-as-response-to-racial-dive"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.633495+00:00
+updated_at: 2026-09-13T00:56:37.493068+00:00
 tags: [record, real-data]
 ---
 
-# Record eafba321de · Institutional-insulation-as-response-to-racial-diversity-evidence-from
+# Record eafba321de · Institutional-insulation-as-response-to-racial-dive
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1108/jhpe-01-2026-0001)
 

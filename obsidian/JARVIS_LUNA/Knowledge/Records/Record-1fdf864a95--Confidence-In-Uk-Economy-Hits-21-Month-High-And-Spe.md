@@ -1,12 +1,12 @@
 ---
-title: "Record 1fdf864a95 · Confidence-In-Uk-Economy-Hits-21-Month-High-And-Spending-Climbs"
+title: "Record 1fdf864a95 · Confidence-In-Uk-Economy-Hits-21-Month-High-And-Spe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.743699+00:00
+updated_at: 2026-09-13T00:56:37.587009+00:00
 tags: [record, real-data]
 ---
 
-# Record 1fdf864a95 · Confidence-In-Uk-Economy-Hits-21-Month-High-And-Spending-Climbs
+# Record 1fdf864a95 · Confidence-In-Uk-Economy-Hits-21-Month-High-And-Spe
 
 > 실제 수집 레코드입니다. 원문: [home.barclays](https://home.barclays/news/press-releases/20260/080/confidence-in-uk-economy-hits-21-month-high-and-spending-climbs-/)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 7a84181b07 · High-transconductance-molybdenum-disulfide-top-gate-transistors-using-"
+title: "Record 7a84181b07 · High-transconductance-molybdenum-disulfide-top-gate"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.616726+00:00
+updated_at: 2026-09-13T00:56:37.477559+00:00
 tags: [record, real-data]
 ---
 
-# Record 7a84181b07 · High-transconductance-molybdenum-disulfide-top-gate-transistors-using-
+# Record 7a84181b07 · High-transconductance-molybdenum-disulfide-top-gate
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1038/s41928-026-01672-7)
 

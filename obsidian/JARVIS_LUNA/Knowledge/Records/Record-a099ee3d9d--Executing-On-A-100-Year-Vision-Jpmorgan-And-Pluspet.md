@@ -1,12 +1,12 @@
 ---
-title: "Record a099ee3d9d · Executing-On-A-100-Year-Vision-Jpmorgan-And-Pluspetrol"
+title: "Record a099ee3d9d · Executing-On-A-100-Year-Vision-Jpmorgan-And-Pluspet"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.137884+00:00
+updated_at: 2026-09-13T00:56:37.951747+00:00
 tags: [record, real-data]
 ---
 
-# Record a099ee3d9d · Executing-On-A-100-Year-Vision-Jpmorgan-And-Pluspetrol
+# Record a099ee3d9d · Executing-On-A-100-Year-Vision-Jpmorgan-And-Pluspet
 
 > 실제 수집 레코드입니다. 원문: [www.jpmorgan.com](https://www.jpmorgan.com/insights/banking/executing-on-a-100-year-vision-jpmorgan-and-pluspetrol)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record c1c8b2626a · Analog-optical-computer-for-AI-inference-and-combinatorial-optimizatio"
+title: "Record c1c8b2626a · Analog-optical-computer-for-AI-inference-and-combin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.613661+00:00
+updated_at: 2026-09-13T00:56:37.474751+00:00
 tags: [record, real-data]
 ---
 
-# Record c1c8b2626a · Analog-optical-computer-for-AI-inference-and-combinatorial-optimizatio
+# Record c1c8b2626a · Analog-optical-computer-for-AI-inference-and-combin
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1038/s41586-025-09430-z)
 

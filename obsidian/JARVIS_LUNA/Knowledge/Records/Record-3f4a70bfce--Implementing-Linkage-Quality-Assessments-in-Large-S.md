@@ -1,12 +1,12 @@
 ---
-title: "Record 3f4a70bfce · Implementing-Linkage-Quality-Assessments-in-Large-Scale-Privacy-Preser"
+title: "Record 3f4a70bfce · Implementing-Linkage-Quality-Assessments-in-Large-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.677480+00:00
+updated_at: 2026-09-13T00:56:37.530498+00:00
 tags: [record, real-data]
 ---
 
-# Record 3f4a70bfce · Implementing-Linkage-Quality-Assessments-in-Large-Scale-Privacy-Preser
+# Record 3f4a70bfce · Implementing-Linkage-Quality-Assessments-in-Large-S
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.23889/ijpds.v9i5.2892)
 

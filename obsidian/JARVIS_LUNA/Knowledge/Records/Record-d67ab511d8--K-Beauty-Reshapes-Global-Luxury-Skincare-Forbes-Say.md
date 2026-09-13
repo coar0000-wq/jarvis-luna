@@ -1,12 +1,12 @@
 ---
-title: "Record d67ab511d8 · K-Beauty-Reshapes-Global-Luxury-Skincare-Forbes-Says---Seoul-Economic-"
+title: "Record d67ab511d8 · K-Beauty-Reshapes-Global-Luxury-Skincare-Forbes-Say"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.951582+00:00
+updated_at: 2026-09-13T00:56:37.782338+00:00
 tags: [record, real-data]
 ---
 
-# Record d67ab511d8 · K-Beauty-Reshapes-Global-Luxury-Skincare-Forbes-Says---Seoul-Economic-
+# Record d67ab511d8 · K-Beauty-Reshapes-Global-Luxury-Skincare-Forbes-Say
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiogFBVV95cUxNV28zZXZYam9BWGk2a0p4MTlCYkI4U3lKVFdRVEhiOHk1NTFTZzFGclpCSm5PT2xDN1gxSWZFV1NnWFVaeXFNaWFUUk56SThTZmUyUTFYRl9rN0JqTEZsNjIweXdyWV9fWlNsNk5kcE9rR3J2eGtnbnU1dkZkVTRyZWdfWmFxeHdFZjI1aDhwWHBiTTlYdHRxN2FOSW1GazJMSVE?oc=5)
 

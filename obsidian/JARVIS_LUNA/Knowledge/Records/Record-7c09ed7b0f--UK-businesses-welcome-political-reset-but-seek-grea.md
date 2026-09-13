@@ -1,12 +1,12 @@
 ---
-title: "Record 7c09ed7b0f · UK-businesses-welcome-political-reset-but-seek-greater-policy-certaint"
+title: "Record 7c09ed7b0f · UK-businesses-welcome-political-reset-but-seek-grea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.744773+00:00
+updated_at: 2026-09-13T00:56:37.587985+00:00
 tags: [record, real-data]
 ---
 
-# Record 7c09ed7b0f · UK-businesses-welcome-political-reset-but-seek-greater-policy-certaint
+# Record 7c09ed7b0f · UK-businesses-welcome-political-reset-but-seek-grea
 
 > 실제 수집 레코드입니다. 원문: [home.barclays](https://home.barclays/news/press-releases/20260/080/uk-businesses-welcome-political-reset-but-seek-greater-policy-ce/)
 

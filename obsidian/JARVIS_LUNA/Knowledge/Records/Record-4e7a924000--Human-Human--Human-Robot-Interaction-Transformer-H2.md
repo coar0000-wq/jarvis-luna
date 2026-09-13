@@ -1,12 +1,12 @@
 ---
-title: "Record 4e7a924000 · Human-Human--Human-Robot-Interaction-Transformer-H2INT-for-Robot-Navig"
+title: "Record 4e7a924000 · Human-Human--Human-Robot-Interaction-Transformer-H2"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.503176+00:00
+updated_at: 2026-09-13T00:56:37.369425+00:00
 tags: [record, real-data]
 ---
 
-# Record 4e7a924000 · Human-Human--Human-Robot-Interaction-Transformer-H2INT-for-Robot-Navig
+# Record 4e7a924000 · Human-Human--Human-Robot-Interaction-Transformer-H2
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.05300v1)
 

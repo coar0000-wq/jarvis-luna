@@ -1,12 +1,12 @@
 ---
-title: "Record b7947af22b · Shopifys-Magic-AI-image-editor-can-make-any-product-pics-look-professi"
+title: "Record b7947af22b · Shopifys-Magic-AI-image-editor-can-make-any-product"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.888719+00:00
+updated_at: 2026-09-13T00:56:37.724435+00:00
 tags: [record, real-data]
 ---
 
-# Record b7947af22b · Shopifys-Magic-AI-image-editor-can-make-any-product-pics-look-professi
+# Record b7947af22b · Shopifys-Magic-AI-image-editor-can-make-any-product
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiggFBVV95cUxPVENRc1gxblpKd1lmSzcySnJpWEZaMUd1UDlzQnRmdDQ0YlgzZkJVSDJuOG5KTHpEbWg2MzN6bDF2VEpuT2c1TU9yVUs2VFBkU1c5Z3V2czNxbnlwQ1JhX0cweDYtbzdSbmE2VzlLdGFsckhkLUdWRDh6aEdCWk90U05n?oc=5)
 

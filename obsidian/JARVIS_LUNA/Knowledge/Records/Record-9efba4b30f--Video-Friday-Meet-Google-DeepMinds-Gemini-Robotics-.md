@@ -1,12 +1,12 @@
 ---
-title: "Record 9efba4b30f · Video-Friday-Meet-Google-DeepMinds-Gemini-Robotics-2"
+title: "Record 9efba4b30f · Video-Friday-Meet-Google-DeepMinds-Gemini-Robotics-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.055426+00:00
+updated_at: 2026-09-13T00:56:37.878262+00:00
 tags: [record, real-data]
 ---
 
-# Record 9efba4b30f · Video-Friday-Meet-Google-DeepMinds-Gemini-Robotics-2
+# Record 9efba4b30f · Video-Friday-Meet-Google-DeepMinds-Gemini-Robotics-
 
 > 실제 수집 레코드입니다. 원문: [spectrum.ieee.org](https://spectrum.ieee.org/video-robot-gemini2-ai-robot)
 

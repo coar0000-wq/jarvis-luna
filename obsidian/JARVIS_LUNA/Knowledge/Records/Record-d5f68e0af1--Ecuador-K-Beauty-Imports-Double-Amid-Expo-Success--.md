@@ -1,12 +1,12 @@
 ---
-title: "Record d5f68e0af1 · Ecuador-K-Beauty-Imports-Double-Amid-Expo-Success---Businesskorea"
+title: "Record d5f68e0af1 · Ecuador-K-Beauty-Imports-Double-Amid-Expo-Success--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.857323+00:00
+updated_at: 2026-09-13T00:56:37.694227+00:00
 tags: [record, real-data]
 ---
 
-# Record d5f68e0af1 · Ecuador-K-Beauty-Imports-Double-Amid-Expo-Success---Businesskorea
+# Record d5f68e0af1 · Ecuador-K-Beauty-Imports-Double-Amid-Expo-Success--
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMidEFVX3lxTE5ablRCa2dSR3ZqV0d1bmpXWHF2RGw1QXh4blJGdF9pWEVMWG5LWi1FaHJoYk1KVHFUazEyOE5aY3J6R05FWVNPODRlcmFJSUJPby1jdkI5aWJsc1hGdEhGOGFNaHNZZjl4VTJyTjBxWkprT1NG?oc=5)
 

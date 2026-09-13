@@ -1,12 +1,12 @@
 ---
-title: "Record 2974bbfb7b · K-Beauty-Is-Booming--And-Us-Brits-Are-Loving-It---Country-and-Town-Hou"
+title: "Record 2974bbfb7b · K-Beauty-Is-Booming--And-Us-Brits-Are-Loving-It---C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.893762+00:00
+updated_at: 2026-09-13T00:56:37.729051+00:00
 tags: [record, real-data]
 ---
 
-# Record 2974bbfb7b · K-Beauty-Is-Booming--And-Us-Brits-Are-Loving-It---Country-and-Town-Hou
+# Record 2974bbfb7b · K-Beauty-Is-Booming--And-Us-Brits-Are-Loving-It---C
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMihAFBVV95cUxNeU5ma1UzWlFGRU03QTJrbzRxVkttanhONThlb3phdHBSQlFpNWhxVUhpVW4wcEV1Sm90UXpfd3lfU01JcW15ZFVkNlhEbzVwNVdOZmNwa2JYMGUwR0J4Nms1cUU3MWZzaFIwRU1Jd1B1X2V3ZDN4NVdXVnRKVVFPV1dqMlY?oc=5)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 2f5a4f8aaf · Locational-Marginal-Pricing-for-Adaptive-Robust-Look-Ahead-Dispatch-wi"
+title: "Record 2f5a4f8aaf · Locational-Marginal-Pricing-for-Adaptive-Robust-Loo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.499911+00:00
+updated_at: 2026-09-13T00:56:37.366477+00:00
 tags: [record, real-data]
 ---
 
-# Record 2f5a4f8aaf · Locational-Marginal-Pricing-for-Adaptive-Robust-Look-Ahead-Dispatch-wi
+# Record 2f5a4f8aaf · Locational-Marginal-Pricing-for-Adaptive-Robust-Loo
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.05156v1)
 

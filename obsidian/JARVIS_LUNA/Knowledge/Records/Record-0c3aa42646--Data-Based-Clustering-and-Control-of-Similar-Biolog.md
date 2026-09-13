@@ -1,12 +1,12 @@
 ---
-title: "Record 0c3aa42646 · Data-Based-Clustering-and-Control-of-Similar-Biological-Systems"
+title: "Record 0c3aa42646 · Data-Based-Clustering-and-Control-of-Similar-Biolog"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.486829+00:00
+updated_at: 2026-09-13T00:56:37.354697+00:00
 tags: [record, real-data]
 ---
 
-# Record 0c3aa42646 · Data-Based-Clustering-and-Control-of-Similar-Biological-Systems
+# Record 0c3aa42646 · Data-Based-Clustering-and-Control-of-Similar-Biolog
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.03921v1)
 

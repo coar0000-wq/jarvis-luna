@@ -1,12 +1,12 @@
 ---
-title: "Record 6c642e74ae · The-National-Artificial-Intelligence-Advisory-Committee-NAIAC--Recomme"
+title: "Record 6c642e74ae · The-National-Artificial-Intelligence-Advisory-Commi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.673786+00:00
+updated_at: 2026-09-13T00:56:37.527435+00:00
 tags: [record, real-data]
 ---
 
-# Record 6c642e74ae · The-National-Artificial-Intelligence-Advisory-Committee-NAIAC--Recomme
+# Record 6c642e74ae · The-National-Artificial-Intelligence-Advisory-Commi
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.2139/ssrn.5236908)
 

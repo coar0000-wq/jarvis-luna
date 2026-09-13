@@ -1,12 +1,12 @@
 ---
-title: "Record b32667fec3 · Shop-Quiz-With-K-Beauty-and-colored-contacts-shop-Hapa-Kristin---inReg"
+title: "Record b32667fec3 · Shop-Quiz-With-K-Beauty-and-colored-contacts-shop-H"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.870321+00:00
+updated_at: 2026-09-13T00:56:37.707685+00:00
 tags: [record, real-data]
 ---
 
-# Record b32667fec3 · Shop-Quiz-With-K-Beauty-and-colored-contacts-shop-Hapa-Kristin---inReg
+# Record b32667fec3 · Shop-Quiz-With-K-Beauty-and-colored-contacts-shop-H
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiekFVX3lxTE4xMzJBLW5FelJDZlpPcjY1ZFZSR2MyZG50Sy12UGtjQmV5YUZwLTk2djlZendUd0ppVlVQalhsREdlWjI1SGR0R3BkeWY4Nks3R2x0Wmw2b1VqVEotS01XQkkyT0dKa0tscTF5ZnliVFNkZFRtVlpEOFJ3?oc=5)
 

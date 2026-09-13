@@ -1,12 +1,12 @@
 ---
-title: "Record 314a0d7a5d · Recursive-Learning-of-Feedforward-and-Compliance-Compensation-Paramete"
+title: "Record 314a0d7a5d · Recursive-Learning-of-Feedforward-and-Compliance-Co"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.028866+00:00
+updated_at: 2026-09-13T00:56:37.853290+00:00
 tags: [record, real-data]
 ---
 
-# Record 314a0d7a5d · Recursive-Learning-of-Feedforward-and-Compliance-Compensation-Paramete
+# Record 314a0d7a5d · Recursive-Learning-of-Feedforward-and-Compliance-Co
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7163598155)
 

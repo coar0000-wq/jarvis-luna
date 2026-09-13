@@ -1,12 +1,12 @@
 ---
-title: "Record 6359ceb130 · AI-referred-shoppers-convert-better-and-spend-more-2026---Shopify-Indi"
+title: "Record 6359ceb130 · AI-referred-shoppers-convert-better-and-spend-more-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.843305+00:00
+updated_at: 2026-09-13T00:56:37.679654+00:00
 tags: [record, real-data]
 ---
 
-# Record 6359ceb130 · AI-referred-shoppers-convert-better-and-spend-more-2026---Shopify-Indi
+# Record 6359ceb130 · AI-referred-shoppers-convert-better-and-spend-more-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMibkFVX3lxTE9xSk1JNUNtNjJPZWJrX0F6ZzhnQVVSQ1ZNU28ycnNsd0ZPN1l2R2tNRm9JcUpmN1RNdUdoUG9zWi1VakNfZkZzU0tpWU5qcUJvNjVxMF9TUWJqYldzbEh4OGtPSVhqRl9VNk5Sa2x3?oc=5)
 

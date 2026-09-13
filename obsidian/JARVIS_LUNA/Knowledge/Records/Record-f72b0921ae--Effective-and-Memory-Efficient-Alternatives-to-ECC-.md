@@ -1,12 +1,12 @@
 ---
-title: "Record f72b0921ae · Effective-and-Memory-Efficient-Alternatives-to-ECC-for-Reliable-Large-"
+title: "Record f72b0921ae · Effective-and-Memory-Efficient-Alternatives-to-ECC-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.025052+00:00
+updated_at: 2026-09-13T00:56:37.849766+00:00
 tags: [record, real-data]
 ---
 
-# Record f72b0921ae · Effective-and-Memory-Efficient-Alternatives-to-ECC-for-Reliable-Large-
+# Record f72b0921ae · Effective-and-Memory-Efficient-Alternatives-to-ECC-
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7160968156)
 

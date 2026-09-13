@@ -1,12 +1,12 @@
 ---
-title: "Record 81977e484d · Bridging-language-and-action-A-survey-of-language-conditioned-robot-ma"
+title: "Record 81977e484d · Bridging-language-and-action-A-survey-of-language-c"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.655137+00:00
+updated_at: 2026-09-13T00:56:37.512184+00:00
 tags: [record, real-data]
 ---
 
-# Record 81977e484d · Bridging-language-and-action-A-survey-of-language-conditioned-robot-ma
+# Record 81977e484d · Bridging-language-and-action-A-survey-of-language-c
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1177/02783649261468360)
 

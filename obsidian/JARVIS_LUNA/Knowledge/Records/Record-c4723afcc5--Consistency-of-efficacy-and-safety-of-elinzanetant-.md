@@ -1,12 +1,12 @@
 ---
-title: "Record c4723afcc5 · Consistency-of-efficacy-and-safety-of-elinzanetant-for-vasomotor-sympt"
+title: "Record c4723afcc5 · Consistency-of-efficacy-and-safety-of-elinzanetant-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.597028+00:00
+updated_at: 2026-09-13T00:56:37.459627+00:00
 tags: [record, real-data]
 ---
 
-# Record c4723afcc5 · Consistency-of-efficacy-and-safety-of-elinzanetant-for-vasomotor-sympt
+# Record c4723afcc5 · Consistency-of-efficacy-and-safety-of-elinzanetant-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.maturitas.2026.109075)
 

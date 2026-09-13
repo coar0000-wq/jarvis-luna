@@ -1,12 +1,12 @@
 ---
-title: "Record 00a48e2bfe · Why-Gold-Is-Expected-To-Rise-To-Record-Highs---Transcript"
+title: "Record 00a48e2bfe · Why-Gold-Is-Expected-To-Rise-To-Record-Highs---Tran"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.135485+00:00
+updated_at: 2026-09-13T00:56:37.949862+00:00
 tags: [record, real-data]
 ---
 
-# Record 00a48e2bfe · Why-Gold-Is-Expected-To-Rise-To-Record-Highs---Transcript
+# Record 00a48e2bfe · Why-Gold-Is-Expected-To-Rise-To-Record-Highs---Tran
 
 > 실제 수집 레코드입니다. 원문: [www.goldmansachs.com](https://www.goldmansachs.com/pdfs/insights/the-markets/why-gold-is-expected-to-rise-to-record-highs/transcript.pdf)
 

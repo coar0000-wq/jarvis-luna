@@ -1,12 +1,12 @@
 ---
-title: "Record d836e8160b · Introducing-Consort-Test-driven-development-on-a-branching-database"
+title: "Record d836e8160b · Introducing-Consort-Test-driven-development-on-a-br"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.127127+00:00
+updated_at: 2026-09-13T00:56:37.942971+00:00
 tags: [record, real-data]
 ---
 
-# Record d836e8160b · Introducing-Consort-Test-driven-development-on-a-branching-database
+# Record d836e8160b · Introducing-Consort-Test-driven-development-on-a-br
 
 > 실제 수집 레코드입니다. 원문: [www.databricks.com](https://www.databricks.com/blog/introducing-consort-test-driven-development-branching-database)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record f70fe4988b · Transition-Metal-Modified-Zinc-Oxide-ZnO-Nanostructures-for-Photocatal"
+title: "Record f70fe4988b · Transition-Metal-Modified-Zinc-Oxide-ZnO-Nanostruct"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.680186+00:00
+updated_at: 2026-09-13T00:56:37.532738+00:00
 tags: [record, real-data]
 ---
 
-# Record f70fe4988b · Transition-Metal-Modified-Zinc-Oxide-ZnO-Nanostructures-for-Photocatal
+# Record f70fe4988b · Transition-Metal-Modified-Zinc-Oxide-ZnO-Nanostruct
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.26434/chemrxiv.15007951/v1)
 

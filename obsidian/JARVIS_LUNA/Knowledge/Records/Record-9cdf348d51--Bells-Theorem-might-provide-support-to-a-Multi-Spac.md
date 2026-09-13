@@ -1,12 +1,12 @@
 ---
-title: "Record 9cdf348d51 · Bells-Theorem-might-provide-support-to-a-Multi-Space-Times-model-of-th"
+title: "Record 9cdf348d51 · Bells-Theorem-might-provide-support-to-a-Multi-Spac"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.709993+00:00
+updated_at: 2026-09-13T00:56:37.556788+00:00
 tags: [record, real-data]
 ---
 
-# Record 9cdf348d51 · Bells-Theorem-might-provide-support-to-a-Multi-Space-Times-model-of-th
+# Record 9cdf348d51 · Bells-Theorem-might-provide-support-to-a-Multi-Spac
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.20759277)
 

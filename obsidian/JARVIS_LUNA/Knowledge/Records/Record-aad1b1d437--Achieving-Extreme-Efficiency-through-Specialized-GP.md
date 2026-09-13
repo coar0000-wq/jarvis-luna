@@ -1,12 +1,12 @@
 ---
-title: "Record aad1b1d437 · Achieving-Extreme-Efficiency-through-Specialized-GPU-Kernel-Generation"
+title: "Record aad1b1d437 · Achieving-Extreme-Efficiency-through-Specialized-GP"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.123271+00:00
+updated_at: 2026-09-13T00:56:37.939459+00:00
 tags: [record, real-data]
 ---
 
-# Record aad1b1d437 · Achieving-Extreme-Efficiency-through-Specialized-GPU-Kernel-Generation
+# Record aad1b1d437 · Achieving-Extreme-Efficiency-through-Specialized-GP
 
 > 실제 수집 레코드입니다. 원문: [www.databricks.com](https://www.databricks.com/blog/achieving-extreme-efficiency-through-specialized-gpu-kernel-generation)
 

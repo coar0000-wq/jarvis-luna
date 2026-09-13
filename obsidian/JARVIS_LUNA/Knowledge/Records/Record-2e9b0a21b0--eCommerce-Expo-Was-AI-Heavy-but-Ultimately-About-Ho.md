@@ -1,12 +1,12 @@
 ---
-title: "Record 2e9b0a21b0 · eCommerce-Expo-Was-AI-Heavy-but-Ultimately-About-How-We-Keep-Shopping-"
+title: "Record 2e9b0a21b0 · eCommerce-Expo-Was-AI-Heavy-but-Ultimately-About-Ho"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.832416+00:00
+updated_at: 2026-09-13T00:56:37.668784+00:00
 tags: [record, real-data]
 ---
 
-# Record 2e9b0a21b0 · eCommerce-Expo-Was-AI-Heavy-but-Ultimately-About-How-We-Keep-Shopping-
+# Record 2e9b0a21b0 · eCommerce-Expo-Was-AI-Heavy-but-Ultimately-About-Ho
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMib0FVX3lxTE1ZQTVTVTVjeTdhcnkzbEpnaUJMbHlhWjM5OE1rcHUwR0dxUG1rcVVtclBlRWRCY2VvNEIyWlVnUXNOek5xR0FwQzEzVUxUMGVyVDdYTzItQ2w1a0NiWWVnU296ZXl1cXpUWkVDOFozcw?oc=5)
 

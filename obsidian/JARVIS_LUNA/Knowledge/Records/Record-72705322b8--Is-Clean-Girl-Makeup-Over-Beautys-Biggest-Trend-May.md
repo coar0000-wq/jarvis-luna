@@ -1,12 +1,12 @@
 ---
-title: "Record 72705322b8 · Is-Clean-Girl-Makeup-Over-Beautys-Biggest-Trend-May-Be-Shifting---ELLE"
+title: "Record 72705322b8 · Is-Clean-Girl-Makeup-Over-Beautys-Biggest-Trend-May"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.932414+00:00
+updated_at: 2026-09-13T00:56:37.764635+00:00
 tags: [record, real-data]
 ---
 
-# Record 72705322b8 · Is-Clean-Girl-Makeup-Over-Beautys-Biggest-Trend-May-Be-Shifting---ELLE
+# Record 72705322b8 · Is-Clean-Girl-Makeup-Over-Beautys-Biggest-Trend-May
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMilwFBVV95cUxOZUtEaHdqNTZJQi1rSy16b2gwbVBJamVpQUNoWnRTcEZnSVpDNkk0dVBfbjVQNk4yS2dMd0Y4Q0lhQWduZHFqakZ4Q2VBeVdDYXpNMlVkaGpVUmh5RFdIbHFUWXhvZXJyUlRndE56WXd4Y0tZU0p6dVk3N251RU1feHlmeklCall3T3hHakhmTl81UnprWllN?oc=5)
 

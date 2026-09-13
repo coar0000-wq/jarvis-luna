@@ -1,12 +1,12 @@
 ---
-title: "Record a6c381d212 · A-semi-transparent-strategy-for-sustainable-radiative-cooling"
+title: "Record a6c381d212 · A-semi-transparent-strategy-for-sustainable-radiati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.597978+00:00
+updated_at: 2026-09-13T00:56:37.460491+00:00
 tags: [record, real-data]
 ---
 
-# Record a6c381d212 · A-semi-transparent-strategy-for-sustainable-radiative-cooling
+# Record a6c381d212 · A-semi-transparent-strategy-for-sustainable-radiati
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.nanoen.2026.112064)
 

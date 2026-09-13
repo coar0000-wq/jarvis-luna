@@ -1,12 +1,12 @@
 ---
-title: "Record 061ec14fa9 · LLM-Post-Training-as-Brownfield-Maintenance-An-Industrial-Perspective-"
+title: "Record 061ec14fa9 · LLM-Post-Training-as-Brownfield-Maintenance-An-Indu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.470315+00:00
+updated_at: 2026-09-13T00:56:37.340012+00:00
 tags: [record, real-data]
 ---
 
-# Record 061ec14fa9 · LLM-Post-Training-as-Brownfield-Maintenance-An-Industrial-Perspective-
+# Record 061ec14fa9 · LLM-Post-Training-as-Brownfield-Maintenance-An-Indu
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.31102v1)
 

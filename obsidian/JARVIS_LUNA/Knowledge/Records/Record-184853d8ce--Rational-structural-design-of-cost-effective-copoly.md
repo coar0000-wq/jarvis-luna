@@ -1,12 +1,12 @@
 ---
-title: "Record 184853d8ce · Rational-structural-design-of-cost-effective-copolyimide-membranes-for"
+title: "Record 184853d8ce · Rational-structural-design-of-cost-effective-copoly"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.600164+00:00
+updated_at: 2026-09-13T00:56:37.462468+00:00
 tags: [record, real-data]
 ---
 
-# Record 184853d8ce · Rational-structural-design-of-cost-effective-copolyimide-membranes-for
+# Record 184853d8ce · Rational-structural-design-of-cost-effective-copoly
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.seppur.2026.139869)
 

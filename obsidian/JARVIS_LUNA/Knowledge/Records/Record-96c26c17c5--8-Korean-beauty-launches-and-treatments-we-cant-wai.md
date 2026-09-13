@@ -1,12 +1,12 @@
 ---
-title: "Record 96c26c17c5 · 8-Korean-beauty-launches-and-treatments-we-cant-wait-to-try-silkier-ha"
+title: "Record 96c26c17c5 · 8-Korean-beauty-launches-and-treatments-we-cant-wai"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.913223+00:00
+updated_at: 2026-09-13T00:56:37.747105+00:00
 tags: [record, real-data]
 ---
 
-# Record 96c26c17c5 · 8-Korean-beauty-launches-and-treatments-we-cant-wait-to-try-silkier-ha
+# Record 96c26c17c5 · 8-Korean-beauty-launches-and-treatments-we-cant-wai
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMijAFBVV95cUxQT1pjZGJhYkFhRGhVODJSeFdITFQzYTQyVE9Ed2QwTDlfdTFHbElNc0M1M1ZFTXpSRTE4VFRNTHZRdVpjZURSQldtVm9aMFJ3TFVDUVdrUWoyVUR6ZF9qaVc3c01vbGJPZnVTUEd5SF9ydmxLc2NkMHM0WmRPVHRuRXIyc2J1SWVPclpoRA?oc=5)
 

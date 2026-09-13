@@ -1,12 +1,12 @@
 ---
-title: "Record 50e756d483 · Towards-Neuro-Symbolic-Procedural-Reasoning-for-Long-Horizon-Vision-La"
+title: "Record 50e756d483 · Towards-Neuro-Symbolic-Procedural-Reasoning-for-Lon"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.506115+00:00
+updated_at: 2026-09-13T00:56:37.371957+00:00
 tags: [record, real-data]
 ---
 
-# Record 50e756d483 · Towards-Neuro-Symbolic-Procedural-Reasoning-for-Long-Horizon-Vision-La
+# Record 50e756d483 · Towards-Neuro-Symbolic-Procedural-Reasoning-for-Lon
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.05369v1)
 

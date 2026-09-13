@@ -1,12 +1,12 @@
 ---
-title: "Record df6dfe7414 · Olive-Youngs-US-Launch-Is-Mega-Fuel-for-My-K-Beauty-Obsession---mariec"
+title: "Record df6dfe7414 · Olive-Youngs-US-Launch-Is-Mega-Fuel-for-My-K-Beauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.913671+00:00
+updated_at: 2026-09-13T00:56:37.747536+00:00
 tags: [record, real-data]
 ---
 
-# Record df6dfe7414 · Olive-Youngs-US-Launch-Is-Mega-Fuel-for-My-K-Beauty-Obsession---mariec
+# Record df6dfe7414 · Olive-Youngs-US-Launch-Is-Mega-Fuel-for-My-K-Beauty
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMijAFBVV95cUxQbjlOMmNqTi0yZlhEb0NuUEtwckxCX09FLUx2anVTV2x5TktLOFlqejRuTjJPQ1JLTlBNUFVnV0Y0WFlIQ01fNUdDcWIxZ0cwVndMdW4wRzU2Tk4wc0FKMU40WlRaSnBnSjZfYUdpcXhVZlJYYW5nMVNrci1EQ0Y5dWJfRUdiV2l3akk4Vg?oc=5)
 

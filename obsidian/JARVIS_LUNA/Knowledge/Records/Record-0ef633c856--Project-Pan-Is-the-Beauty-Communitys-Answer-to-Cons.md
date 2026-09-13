@@ -1,12 +1,12 @@
 ---
-title: "Record 0ef633c856 · Project-Pan-Is-the-Beauty-Communitys-Answer-to-Consumption-Overload---"
+title: "Record 0ef633c856 · Project-Pan-Is-the-Beauty-Communitys-Answer-to-Cons"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.952062+00:00
+updated_at: 2026-09-13T00:56:37.782785+00:00
 tags: [record, real-data]
 ---
 
-# Record 0ef633c856 · Project-Pan-Is-the-Beauty-Communitys-Answer-to-Consumption-Overload---
+# Record 0ef633c856 · Project-Pan-Is-the-Beauty-Communitys-Answer-to-Cons
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiogFBVV95cUxOUU5na1hINzdSNGhaQnR1bUlzVU1uNC05RDVTWkhpM2hVWXIyUmJSdmd4dF9wNWhNam1nVUxsNkJuR2xjYlpjMFRYRjJvSG02SU1DbmhQVG1VOExMV0JMWGQ0QkFMTWx4aWF0WllhUkJnd2dMenpfRF80SnFpSXgyaVdxcThTYXpydXBsMk5wb3V4SGZyVjhxMkVVUDAtV0VaX0E?oc=5)
 

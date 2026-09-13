@@ -1,12 +1,12 @@
 ---
-title: "Record 5ef0d63a97 · Jelly-Beauty-And-Jelly-Skincare-Are-Taking-Over-Heres-How-To-Master-Th"
+title: "Record 5ef0d63a97 · Jelly-Beauty-And-Jelly-Skincare-Are-Taking-Over-Her"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.837175+00:00
+updated_at: 2026-09-13T00:56:37.673240+00:00
 tags: [record, real-data]
 ---
 
-# Record 5ef0d63a97 · Jelly-Beauty-And-Jelly-Skincare-Are-Taking-Over-Heres-How-To-Master-Th
+# Record 5ef0d63a97 · Jelly-Beauty-And-Jelly-Skincare-Are-Taking-Over-Her
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMibEFVX3lxTE45NmpYbk50Ry1jOFdkUXdCanJCaEhlN08ySndiZG93eDJVM0lwbTVjdU9kblA1U21oekZ5aThJcHB1ZlUtcmhYWGpxRzFsV28zakJIQWtlak5OTzVjUjV3ekhxN0k3ZTQ5YVdaNg?oc=5)
 

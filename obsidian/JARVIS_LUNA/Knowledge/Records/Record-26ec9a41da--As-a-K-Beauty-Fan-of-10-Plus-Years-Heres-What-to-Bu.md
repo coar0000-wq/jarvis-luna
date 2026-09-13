@@ -1,12 +1,12 @@
 ---
-title: "Record 26ec9a41da · As-a-K-Beauty-Fan-of-10-Plus-Years-Heres-What-to-Buy-on-Sale-During-Pr"
+title: "Record 26ec9a41da · As-a-K-Beauty-Fan-of-10-Plus-Years-Heres-What-to-Bu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.980822+00:00
+updated_at: 2026-09-13T00:56:37.809034+00:00
 tags: [record, real-data]
 ---
 
-# Record 26ec9a41da · As-a-K-Beauty-Fan-of-10-Plus-Years-Heres-What-to-Buy-on-Sale-During-Pr
+# Record 26ec9a41da · As-a-K-Beauty-Fan-of-10-Plus-Years-Heres-What-to-Bu
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVFhyc1BSLVNnMi1FeHd5QXAtQng5VUlxWFY1dzJva1hvQnl5YWsxNl8tX2VCdFJXODljcW90MkhHZ1lEN3pjZHgtWXBkSzlJdmVza2pVQ0JRSGZNTTQyRzNjaDlBNGJIdEJqOF9xQVVqc2EyYWRMdTBMdE11MGdCd204ODRCdi1YbkNoR3RKY3J3VFRxbXp5a0xpYkZQX3ZGRGx3ay1uQTc1a1ZjOWdmMjA4clNSZjlD?oc=5)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record deae328a29 · K-beauty-is-booming-Heres-how-the-trend-is-taking-root-in-the-DC-area-"
+title: "Record deae328a29 · K-beauty-is-booming-Heres-how-the-trend-is-taking-r"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.954783+00:00
+updated_at: 2026-09-13T00:56:37.785259+00:00
 tags: [record, real-data]
 ---
 
-# Record deae328a29 · K-beauty-is-booming-Heres-how-the-trend-is-taking-root-in-the-DC-area-
+# Record deae328a29 · K-beauty-is-booming-Heres-how-the-trend-is-taking-r
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiowFBVV95cUxPMVlMY25hYmtCZDMtSUdGVHhJQTFhOEo2V0JKQU9tQWd3bklqc0o4UUlkTTViaUhNYWxLRG9DYVdVOGZhaWlUR1VUSWFPbkp5LUFybGZMQUFWQjJCMUZCT2kxTDJiOHU3Z0ZkYXpkTHhjMFBCWF96enBRdXBIR0JFdDRxYTEyZzl1eVg3ZEFZN3pRTzBWdzNUSkF4YWtxZXR6ZUtn?oc=5)
 

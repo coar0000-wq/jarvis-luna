@@ -1,12 +1,12 @@
 ---
-title: "Record 5545bb5bb1 · From-Predictive-Analytics-to-AI-Augmented-Decision-Support-A-Framework"
+title: "Record 5545bb5bb1 · From-Predictive-Analytics-to-AI-Augmented-Decision-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.735731+00:00
+updated_at: 2026-09-13T00:56:37.579564+00:00
 tags: [record, real-data]
 ---
 
-# Record 5545bb5bb1 · From-Predictive-Analytics-to-AI-Augmented-Decision-Support-A-Framework
+# Record 5545bb5bb1 · From-Predictive-Analytics-to-AI-Augmented-Decision-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.70917/ijcisim-2026-3688)
 

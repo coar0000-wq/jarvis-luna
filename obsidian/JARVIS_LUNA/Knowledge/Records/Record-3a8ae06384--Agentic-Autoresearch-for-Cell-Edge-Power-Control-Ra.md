@@ -1,12 +1,12 @@
 ---
-title: "Record 3a8ae06384 · Agentic-Autoresearch-for-Cell-Edge-Power-Control-Radically-Redefining-"
+title: "Record 3a8ae06384 · Agentic-Autoresearch-for-Cell-Edge-Power-Control-Ra"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.269522+00:00
+updated_at: 2026-09-13T00:56:38.064207+00:00
 tags: [record, real-data]
 ---
 
-# Record 3a8ae06384 · Agentic-Autoresearch-for-Cell-Edge-Power-Control-Radically-Redefining-
+# Record 3a8ae06384 · Agentic-Autoresearch-for-Cell-Edge-Power-Control-Ra
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.26093v1)
 

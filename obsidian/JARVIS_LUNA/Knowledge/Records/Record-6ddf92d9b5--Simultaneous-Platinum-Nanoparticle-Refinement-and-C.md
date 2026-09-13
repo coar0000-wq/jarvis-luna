@@ -1,12 +1,12 @@
 ---
-title: "Record 6ddf92d9b5 · Simultaneous-Platinum-Nanoparticle-Refinement-and-Carbon-Support-Struc"
+title: "Record 6ddf92d9b5 · Simultaneous-Platinum-Nanoparticle-Refinement-and-C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.692634+00:00
+updated_at: 2026-09-13T00:56:37.542935+00:00
 tags: [record, real-data]
 ---
 
-# Record 6ddf92d9b5 · Simultaneous-Platinum-Nanoparticle-Refinement-and-Carbon-Support-Struc
+# Record 6ddf92d9b5 · Simultaneous-Platinum-Nanoparticle-Refinement-and-C
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.33961/jecst.2026.00192)
 

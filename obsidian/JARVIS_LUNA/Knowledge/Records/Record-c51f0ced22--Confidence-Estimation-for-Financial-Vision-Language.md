@@ -1,12 +1,12 @@
 ---
-title: "Record c51f0ced22 · Confidence-Estimation-for-Financial-Vision-Language-Models-in-Chart-an"
+title: "Record c51f0ced22 · Confidence-Estimation-for-Financial-Vision-Language"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.046188+00:00
+updated_at: 2026-09-13T00:56:37.869876+00:00
 tags: [record, real-data]
 ---
 
-# Record c51f0ced22 · Confidence-Estimation-for-Financial-Vision-Language-Models-in-Chart-an
+# Record c51f0ced22 · Confidence-Estimation-for-Financial-Vision-Language
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7202230724)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 3e27ac58bd · Carbonzugglieder-unter-statischer-und-nicht-ruhender-Beanspruchung"
+title: "Record 3e27ac58bd · Carbonzugglieder-unter-statischer-und-nicht-ruhende"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.575863+00:00
+updated_at: 2026-09-13T00:56:37.439851+00:00
 tags: [record, real-data]
 ---
 
-# Record 3e27ac58bd · Carbonzugglieder-unter-statischer-und-nicht-ruhender-Beanspruchung
+# Record 3e27ac58bd · Carbonzugglieder-unter-statischer-und-nicht-ruhende
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1002/bate.70066)
 

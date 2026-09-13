@@ -1,12 +1,12 @@
 ---
-title: "Record f80e35ed9e · Sorry-But-You-Havent-Experienced-Peak-Korean-Skincare-Until-Youve-Trie"
+title: "Record f80e35ed9e · Sorry-But-You-Havent-Experienced-Peak-Korean-Skinca"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.832661+00:00
+updated_at: 2026-09-13T00:56:37.669010+00:00
 tags: [record, real-data]
 ---
 
-# Record f80e35ed9e · Sorry-But-You-Havent-Experienced-Peak-Korean-Skincare-Until-Youve-Trie
+# Record f80e35ed9e · Sorry-But-You-Havent-Experienced-Peak-Korean-Skinca
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMib0FVX3lxTE1iYU0zaEUyWk5EdHNQeXJta0dSUG5La0RUaG5rNkt4ZzQ1Mld0VWsxLU5HckwzWjU4bGpDMWV6ZnZxSDd3emNRMEhrblRpajRfODlzVmJ3dlV0S3JzRnNMVDVMNEdta1kwQi0wWTVnNA?oc=5)
 

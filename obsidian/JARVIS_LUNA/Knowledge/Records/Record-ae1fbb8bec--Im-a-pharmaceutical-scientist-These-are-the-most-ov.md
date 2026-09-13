@@ -1,12 +1,12 @@
 ---
-title: "Record ae1fbb8bec · Im-a-pharmaceutical-scientist-These-are-the-most-overhyped-skincare-tr"
+title: "Record ae1fbb8bec · Im-a-pharmaceutical-scientist-These-are-the-most-ov"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.836905+00:00
+updated_at: 2026-09-13T00:56:37.672990+00:00
 tags: [record, real-data]
 ---
 
-# Record ae1fbb8bec · Im-a-pharmaceutical-scientist-These-are-the-most-overhyped-skincare-tr
+# Record ae1fbb8bec · Im-a-pharmaceutical-scientist-These-are-the-most-ov
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMibEFVX3lxTE44ajctZjNBYnZBbjNudndjbUFIRlQ0R3VYZjNCSlA5QnQ3WVpsZFhhRzdrUUk4QlVxYWtpX3d5X2VySlVaSzdSc0l1cUJPYXk5czNOR3MyUUlyNjduRWZNQ1FvYXYxUXQ3di1hNw?oc=5)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 795b7fc750 · Does-Becoming-Exceptional-at-One-Domain-Reduce-Transfer-Elsewhere"
+title: "Record 795b7fc750 · Does-Becoming-Exceptional-at-One-Domain-Reduce-Tran"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.720977+00:00
+updated_at: 2026-09-13T00:56:37.565840+00:00
 tags: [record, real-data]
 ---
 
-# Record 795b7fc750 · Does-Becoming-Exceptional-at-One-Domain-Reduce-Transfer-Elsewhere
+# Record 795b7fc750 · Does-Becoming-Exceptional-at-One-Domain-Reduce-Tran
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.22216473)
 

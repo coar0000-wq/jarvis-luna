@@ -1,12 +1,12 @@
 ---
-title: "Record cf6c5472bd · K-beauty-top-10-innovative-launches-spotted-at-Cosmobeauty-Seoul-2026-"
+title: "Record cf6c5472bd · K-beauty-top-10-innovative-launches-spotted-at-Cosm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.865158+00:00
+updated_at: 2026-09-13T00:56:37.702370+00:00
 tags: [record, real-data]
 ---
 
-# Record cf6c5472bd · K-beauty-top-10-innovative-launches-spotted-at-Cosmobeauty-Seoul-2026-
+# Record cf6c5472bd · K-beauty-top-10-innovative-launches-spotted-at-Cosm
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMieEFVX3lxTE1na3Q5UzFpZk02M1lSWWF3NmZyWWxiaXRudHc3blhnR0tCVGRicWlxQmtsbWJOVmtqSTdkVHZlejV3clZpeXk0bDJZNzdEc3dZMHdsN2NZQWVkVTNqOURiSEFsN2dPZ21SNktjaFpCQmMtN0RrdE51Sg?oc=5)
 

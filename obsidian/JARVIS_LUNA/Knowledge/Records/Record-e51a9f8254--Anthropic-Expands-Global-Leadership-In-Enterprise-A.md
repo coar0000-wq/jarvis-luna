@@ -1,12 +1,12 @@
 ---
-title: "Record e51a9f8254 · Anthropic-Expands-Global-Leadership-In-Enterprise-Ai-Naming-Chris-Ciau"
+title: "Record e51a9f8254 · Anthropic-Expands-Global-Leadership-In-Enterprise-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.095664+00:00
+updated_at: 2026-09-13T00:56:37.911737+00:00
 tags: [record, real-data]
 ---
 
-# Record e51a9f8254 · Anthropic-Expands-Global-Leadership-In-Enterprise-Ai-Naming-Chris-Ciau
+# Record e51a9f8254 · Anthropic-Expands-Global-Leadership-In-Enterprise-A
 
 > 실제 수집 레코드입니다. 원문: [www.anthropic.com](https://www.anthropic.com/news/anthropic-expands-global-leadership-in-enterprise-ai-naming-chris-ciauri-as-managing-director-of)
 

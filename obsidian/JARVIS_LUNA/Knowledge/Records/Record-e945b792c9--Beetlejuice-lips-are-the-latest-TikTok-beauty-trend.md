@@ -1,12 +1,12 @@
 ---
-title: "Record e945b792c9 · Beetlejuice-lips-are-the-latest-TikTok-beauty-trend-urging-Gen-Z-to-em"
+title: "Record e945b792c9 · Beetlejuice-lips-are-the-latest-TikTok-beauty-trend"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.912718+00:00
+updated_at: 2026-09-13T00:56:37.746668+00:00
 tags: [record, real-data]
 ---
 
-# Record e945b792c9 · Beetlejuice-lips-are-the-latest-TikTok-beauty-trend-urging-Gen-Z-to-em
+# Record e945b792c9 · Beetlejuice-lips-are-the-latest-TikTok-beauty-trend
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMijAFBVV95cUxPUlB3RlJGZEduVnB6ODBCWEVVcVpYa1RuOE9xR1QwMFNEaGYzUFVUYnQwZE14RV93akRrLTdUU1NtTVZKc0NBOXZYTDZURW1iNVlKTXQ0VS1KajBMZHU2VjNVd1VLbmRQd0NhRURHaF9paWNTZThha0hRdTM3VXJ6OEZqQlRsbFJ0ajlLTQ?oc=5)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 386a851d8c · Molecular-dynamics-study-of-ferroelectric-switching-mechanisms-in-mono"
+title: "Record 386a851d8c · Molecular-dynamics-study-of-ferroelectric-switching"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.619343+00:00
+updated_at: 2026-09-13T00:56:37.479954+00:00
 tags: [record, real-data]
 ---
 
-# Record 386a851d8c · Molecular-dynamics-study-of-ferroelectric-switching-mechanisms-in-mono
+# Record 386a851d8c · Molecular-dynamics-study-of-ferroelectric-switching
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1063/5.0341581)
 

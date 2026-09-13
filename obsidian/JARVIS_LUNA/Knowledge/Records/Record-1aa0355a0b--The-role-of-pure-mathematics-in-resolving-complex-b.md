@@ -1,12 +1,12 @@
 ---
-title: "Record 1aa0355a0b · The-role-of-pure-mathematics-in-resolving-complex-biological-problems-"
+title: "Record 1aa0355a0b · The-role-of-pure-mathematics-in-resolving-complex-b"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.587577+00:00
+updated_at: 2026-09-13T00:56:37.451252+00:00
 tags: [record, real-data]
 ---
 
-# Record 1aa0355a0b · The-role-of-pure-mathematics-in-resolving-complex-biological-problems-
+# Record 1aa0355a0b · The-role-of-pure-mathematics-in-resolving-complex-b
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.biosystems.2025.105575)
 

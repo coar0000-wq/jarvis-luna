@@ -1,12 +1,12 @@
 ---
-title: "Record 94dc38b2d1 · 12-Best-The-Ordinary-Products-for-an-Affordable-Beauty-Routine"
+title: "Record 94dc38b2d1 · 12-Best-The-Ordinary-Products-for-an-Affordable-Bea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.079363+00:00
+updated_at: 2026-09-13T00:56:37.898566+00:00
 tags: [record, real-data]
 ---
 
-# Record 94dc38b2d1 · 12-Best-The-Ordinary-Products-for-an-Affordable-Beauty-Routine
+# Record 94dc38b2d1 · 12-Best-The-Ordinary-Products-for-an-Affordable-Bea
 
 > 실제 수집 레코드입니다. 원문: [www.allure.com](https://www.allure.com/gallery/best-the-ordinary-products)
 

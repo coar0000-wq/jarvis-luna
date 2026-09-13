@@ -1,12 +1,12 @@
 ---
-title: "Record c0538cfd1b · Development-and-Preliminary-Validation-of-an-Automatic-and-Intelligent"
+title: "Record c0538cfd1b · Development-and-Preliminary-Validation-of-an-Automa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.623608+00:00
+updated_at: 2026-09-13T00:56:37.483919+00:00
 tags: [record, real-data]
 ---
 
-# Record c0538cfd1b · Development-and-Preliminary-Validation-of-an-Automatic-and-Intelligent
+# Record c0538cfd1b · Development-and-Preliminary-Validation-of-an-Automa
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1080/15440478.2026.2708477)
 

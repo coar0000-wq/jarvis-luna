@@ -1,12 +1,12 @@
 ---
-title: "Record 48ec7de986 · What-your-skin-needs-at-every-age-with-K-pharmacy-skincare-brand-DrRej"
+title: "Record 48ec7de986 · What-your-skin-needs-at-every-age-with-K-pharmacy-s"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.968861+00:00
+updated_at: 2026-09-13T00:56:37.798108+00:00
 tags: [record, real-data]
 ---
 
-# Record 48ec7de986 · What-your-skin-needs-at-every-age-with-K-pharmacy-skincare-brand-DrRej
+# Record 48ec7de986 · What-your-skin-needs-at-every-age-with-K-pharmacy-s
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMirgFBVV95cUxPaXR4bThja0xyUEg0b2I0aGJqVlFxMzItM2lydzc1R0FjcmhIVmVVQ2o0ZzFDVnJjSHhiWnFuZXROYzhRZ2NtSW81R1hLZFRDSWg3OFRHblUtMTEzSVBDSDB5SUVya1VQVWV4YnBwTXM4Y0tNVmpSWkpvY01aLVhKTzV6bkd6N0xHSG8wWmhPWlBHaEtCQnBnX3MwclkwTlNvakZudGktMS1fRnRzb1E?oc=5)
 

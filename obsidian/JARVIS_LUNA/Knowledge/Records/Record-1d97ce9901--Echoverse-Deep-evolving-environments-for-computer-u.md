@@ -1,12 +1,12 @@
 ---
-title: "Record 1d97ce9901 · Echoverse-Deep-evolving-environments-for-computer-use-agents"
+title: "Record 1d97ce9901 · Echoverse-Deep-evolving-environments-for-computer-u"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.146345+00:00
+updated_at: 2026-09-13T00:56:37.958631+00:00
 tags: [record, real-data]
 ---
 
-# Record 1d97ce9901 · Echoverse-Deep-evolving-environments-for-computer-use-agents
+# Record 1d97ce9901 · Echoverse-Deep-evolving-environments-for-computer-u
 
 > 실제 수집 레코드입니다. 원문: [www.microsoft.com](https://www.microsoft.com/en-us/research/blog/echoverse-deep-evolving-environments-for-computer-use-agents/)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 2075777ec9 · K-beautys-Next-Chapter-Amorepacific-CEO-Sean-Kim-on-Building-Lasting-B"
+title: "Record 2075777ec9 · K-beautys-Next-Chapter-Amorepacific-CEO-Sean-Kim-on"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.955536+00:00
+updated_at: 2026-09-13T00:56:37.785953+00:00
 tags: [record, real-data]
 ---
 
-# Record 2075777ec9 · K-beautys-Next-Chapter-Amorepacific-CEO-Sean-Kim-on-Building-Lasting-B
+# Record 2075777ec9 · K-beautys-Next-Chapter-Amorepacific-CEO-Sean-Kim-on
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiowFBVV95cUxQaEpaNFMxajlrSDR4UGdCV1d4am13OUdpTGJfM3ZCbTJjaEtIRk5Dcm9vS21vWnl0S2t1cllxWThkZ2ZFMDdGTnluLWlqTnEySnc3WVhtRGhEdEN6WnA0RG5RNzd1SmVHMlRtTHpTcGFyT0kzeEwwVk5SM0ozSFNYYWlBZnEzYnI1WVVrelgxczAzRHdGWUM0dzl1dkVKaGp0Uklj?oc=5)
 

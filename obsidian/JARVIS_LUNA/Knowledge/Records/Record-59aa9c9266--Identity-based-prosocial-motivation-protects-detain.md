@@ -1,12 +1,12 @@
 ---
-title: "Record 59aa9c9266 · Identity-based-prosocial-motivation-protects-detained-youth-against-in"
+title: "Record 59aa9c9266 · Identity-based-prosocial-motivation-protects-detain"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.609655+00:00
+updated_at: 2026-09-13T00:56:37.471101+00:00
 tags: [record, real-data]
 ---
 
-# Record 59aa9c9266 · Identity-based-prosocial-motivation-protects-detained-youth-against-in
+# Record 59aa9c9266 · Identity-based-prosocial-motivation-protects-detain
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1037/lhb0000662)
 

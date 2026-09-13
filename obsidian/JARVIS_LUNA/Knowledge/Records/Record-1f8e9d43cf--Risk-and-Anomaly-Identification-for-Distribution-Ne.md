@@ -1,12 +1,12 @@
 ---
-title: "Record 1f8e9d43cf · Risk-and-Anomaly-Identification-for-Distribution-Network-Optimal-Opera"
+title: "Record 1f8e9d43cf · Risk-and-Anomaly-Identification-for-Distribution-Ne"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.480252+00:00
+updated_at: 2026-09-13T00:56:37.348713+00:00
 tags: [record, real-data]
 ---
 
-# Record 1f8e9d43cf · Risk-and-Anomaly-Identification-for-Distribution-Network-Optimal-Opera
+# Record 1f8e9d43cf · Risk-and-Anomaly-Identification-for-Distribution-Ne
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.03308v1)
 

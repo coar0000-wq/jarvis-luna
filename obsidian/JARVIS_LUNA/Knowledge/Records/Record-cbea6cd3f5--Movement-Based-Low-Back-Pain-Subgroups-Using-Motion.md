@@ -1,12 +1,12 @@
 ---
-title: "Record cbea6cd3f5 · Movement-Based-Low-Back-Pain-Subgroups-Using-Motion-Tape-Strain-Data-w"
+title: "Record cbea6cd3f5 · Movement-Based-Low-Back-Pain-Subgroups-Using-Motion"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.691803+00:00
+updated_at: 2026-09-13T00:56:37.542274+00:00
 tags: [record, real-data]
 ---
 
-# Record cbea6cd3f5 · Movement-Based-Low-Back-Pain-Subgroups-Using-Motion-Tape-Strain-Data-w
+# Record cbea6cd3f5 · Movement-Based-Low-Back-Pain-Subgroups-Using-Motion
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.3390/s26123800)
 

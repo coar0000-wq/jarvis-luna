@@ -1,12 +1,12 @@
 ---
-title: "Record 9253ef909a · These-Korean-Essences-Are-the-Step-Your-Glass-Skin-Routine-Is-Missing-"
+title: "Record 9253ef909a · These-Korean-Essences-Are-the-Step-Your-Glass-Skin-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.804591+00:00
+updated_at: 2026-09-13T00:56:37.643181+00:00
 tags: [record, real-data]
 ---
 
-# Record 9253ef909a · These-Korean-Essences-Are-the-Step-Your-Glass-Skin-Routine-Is-Missing-
+# Record 9253ef909a · These-Korean-Essences-Are-the-Step-Your-Glass-Skin-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiXkFVX3lxTFA2dm5kOW9pUXBkREUzT2FtRDEwZGU4ODBKcTQzc0F6U0J1RU5YeVJKclYzR29yUzdsUUg1VHplUlVibTMxTy1zbkU3WjVXRGdKN3NUV3A0WFZzcUl6NVE?oc=5)
 

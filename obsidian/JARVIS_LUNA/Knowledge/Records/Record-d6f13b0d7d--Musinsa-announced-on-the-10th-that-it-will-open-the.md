@@ -1,12 +1,12 @@
 ---
-title: "Record d6f13b0d7d · Musinsa-announced-on-the-10th-that-it-will-open-the-first-store-of-Mus"
+title: "Record d6f13b0d7d · Musinsa-announced-on-the-10th-that-it-will-open-the"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.784381+00:00
+updated_at: 2026-09-13T00:56:37.624773+00:00
 tags: [record, real-data]
 ---
 
-# Record d6f13b0d7d · Musinsa-announced-on-the-10th-that-it-will-open-the-first-store-of-Mus
+# Record d6f13b0d7d · Musinsa-announced-on-the-10th-that-it-will-open-the
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiU0FVX3lxTFB6NXBjbTl6aE1Wb0Q3TU1wZVMzQWl4dVQ2Mnk0bjlEWXpUT2VCaUk0RXJ6RzNLUkVralkyb1puNW54MXV3dV9Nby1qYzB3SEV1VUJB?oc=5)
 

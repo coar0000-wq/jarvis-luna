@@ -1,12 +1,12 @@
 ---
-title: "Record 37d8fd338b · TikToks-Latest-Beauty-Obsession-May-Be-the-Most-Dangerous-Yet-Skin-Exp"
+title: "Record 37d8fd338b · TikToks-Latest-Beauty-Obsession-May-Be-the-Most-Dan"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.949034+00:00
+updated_at: 2026-09-13T00:56:37.779983+00:00
 tags: [record, real-data]
 ---
 
-# Record 37d8fd338b · TikToks-Latest-Beauty-Obsession-May-Be-the-Most-Dangerous-Yet-Skin-Exp
+# Record 37d8fd338b · TikToks-Latest-Beauty-Obsession-May-Be-the-Most-Dan
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMinwFBVV95cUxOS2h3bW9fMW1BdF9NcUlLRHRuZzNPSDcwQzFkVHlnQmF4V3VtRkJUdDNwVG02Q19YTHJleVQzNHliZmpuaG45aWtrMlhDdEh5OWYyUHFTbUFMemdGLVNqc2pqcHBnNkt3WFBrTUhKdzNVUDAxWEYxOVhjVlJaUmFfMTBuXzhIVndzS2xqaThSb3luTndhX0ZQNm0yV01YNkk?oc=5)
 

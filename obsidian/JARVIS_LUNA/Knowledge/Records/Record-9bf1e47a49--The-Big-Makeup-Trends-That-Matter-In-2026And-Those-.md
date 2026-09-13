@@ -1,12 +1,12 @@
 ---
-title: "Record 9bf1e47a49 · The-Big-Makeup-Trends-That-Matter-In-2026And-Those-That-Dont---Beauty-"
+title: "Record 9bf1e47a49 · The-Big-Makeup-Trends-That-Matter-In-2026And-Those-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.902453+00:00
+updated_at: 2026-09-13T00:56:37.737183+00:00
 tags: [record, real-data]
 ---
 
-# Record 9bf1e47a49 · The-Big-Makeup-Trends-That-Matter-In-2026And-Those-That-Dont---Beauty-
+# Record 9bf1e47a49 · The-Big-Makeup-Trends-That-Matter-In-2026And-Those-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMihwFBVV95cUxQbGhoVC1BLVZCV2huakJIMDRCZ0FfWXhyem1HNnczMVhvcWtCZm4tV1Y5WU9VVnVTQUJQVHY2UDlHdHVxcmtKS0s0TXV2eHE0d01EYnlzYnB4NjI0N1ZFam8xRkZ3YWE4alBvdGVQNG9NRlBlQ19vT1dqa0ZvV2Y5SnM1NVVHZTQ?oc=5)
 

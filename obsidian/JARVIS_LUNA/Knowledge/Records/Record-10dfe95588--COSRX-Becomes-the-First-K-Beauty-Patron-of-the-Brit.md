@@ -1,12 +1,12 @@
 ---
-title: "Record 10dfe95588 · COSRX-Becomes-the-First-K-Beauty-Patron-of-the-British-Beauty-Council-"
+title: "Record 10dfe95588 · COSRX-Becomes-the-First-K-Beauty-Patron-of-the-Brit"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.943468+00:00
+updated_at: 2026-09-13T00:56:37.774881+00:00
 tags: [record, real-data]
 ---
 
-# Record 10dfe95588 · COSRX-Becomes-the-First-K-Beauty-Patron-of-the-British-Beauty-Council-
+# Record 10dfe95588 · COSRX-Becomes-the-First-K-Beauty-Patron-of-the-Brit
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMinAFBVV95cUxPajlrWm9BSFcyN1FwVjI0cXhQWGRKbEd4WDA0cTViWnFaTmZuTTlsMlRGVm1kRkRzY0FoNDE3LVhOV3g2Sy1HZmRyakZlcndqaVNkY19SYmZPTGQ3UVBCa2M5X3pqTHlrUF9jX0hiR2FzYk5qQnVaMGVqQ3YtWkMtVTRkQVF3dVh6VW1ISkJmempvaTZsRGhjUGZaa3k?oc=5)
 

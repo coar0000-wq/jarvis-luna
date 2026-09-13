@@ -1,12 +1,12 @@
 ---
-title: "Record ea52e4fde3 · New-Booz-Allen-Analysis-Reveals-Risks-in-Using-Chinese-AI-Models-for-A"
+title: "Record ea52e4fde3 · New-Booz-Allen-Analysis-Reveals-Risks-in-Using-Chin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.749928+00:00
+updated_at: 2026-09-13T00:56:37.592730+00:00
 tags: [record, real-data]
 ---
 
-# Record ea52e4fde3 · New-Booz-Allen-Analysis-Reveals-Risks-in-Using-Chinese-AI-Models-for-A
+# Record ea52e4fde3 · New-Booz-Allen-Analysis-Reveals-Risks-in-Using-Chin
 
 > 실제 수집 레코드입니다. 원문: [investors.boozallen.com](https://investors.boozallen.com/news-releases/news-release-details/new-booz-allen-analysis-reveals-risks-using-chinese-ai-models)
 

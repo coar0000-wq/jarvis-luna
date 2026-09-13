@@ -1,12 +1,12 @@
 ---
-title: "Record 3193aa8719 · Learning-Terrain-Adaptive-Humanoid-Locomotion-on-Granular-Terrain"
+title: "Record 3193aa8719 · Learning-Terrain-Adaptive-Humanoid-Locomotion-on-Gr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.536643+00:00
+updated_at: 2026-09-13T00:56:37.400026+00:00
 tags: [record, real-data]
 ---
 
-# Record 3193aa8719 · Learning-Terrain-Adaptive-Humanoid-Locomotion-on-Granular-Terrain
+# Record 3193aa8719 · Learning-Terrain-Adaptive-Humanoid-Locomotion-on-Gr
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.10286v1)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 80b4183339 · AI-Personalization-Marketing-Winning-Strategies-for-2026---Shopify"
+title: "Record 80b4183339 · AI-Personalization-Marketing-Winning-Strategies-for"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.826622+00:00
+updated_at: 2026-09-13T00:56:37.663497+00:00
 tags: [record, real-data]
 ---
 
-# Record 80b4183339 · AI-Personalization-Marketing-Winning-Strategies-for-2026---Shopify
+# Record 80b4183339 · AI-Personalization-Marketing-Winning-Strategies-for
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiaEFVX3lxTE4tTGJOcDhMUVpWdGpuRTJIdVE5N3RWU1dtRG96SmRLanhKdVVQUWpYUEpJb2s1NU9HVFJXLU5lSUJmZDFPTXU5RWZXRlFlZDIzUkRMV09Ta3kzdXQyUVJ3andrTnBSaFBq?oc=5)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record b4beb968e8 · Our-Favorite-Korean-Skin-Care-Is-Up-to-45-Off-During-Amazons-Big-Sprin"
+title: "Record b4beb968e8 · Our-Favorite-Korean-Skin-Care-Is-Up-to-45-Off-Durin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.872146+00:00
+updated_at: 2026-09-13T00:56:37.709358+00:00
 tags: [record, real-data]
 ---
 
-# Record b4beb968e8 · Our-Favorite-Korean-Skin-Care-Is-Up-to-45-Off-During-Amazons-Big-Sprin
+# Record b4beb968e8 · Our-Favorite-Korean-Skin-Care-Is-Up-to-45-Off-Durin
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiekFVX3lxTE9KSC12Q3NLMU9YTkdiR2JpUnRXWDdrd2Nfajd0c3JVcE40SWJnUnVaLUhnMDU1ajJ1WGk5VjlvX0JnblNYbmJad2pWd244TGE2S2dZN2NYY0RRODRTaU5NeFNKU25PSWc4NjdsckRCa2R5aTBWQWI5Rjh3?oc=5)
 

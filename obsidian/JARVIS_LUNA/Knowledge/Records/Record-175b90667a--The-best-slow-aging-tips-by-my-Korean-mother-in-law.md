@@ -1,12 +1,12 @@
 ---
-title: "Record 175b90667a · The-best-slow-aging-tips-by-my-Korean-mother-in-law-with-glass-skin-an"
+title: "Record 175b90667a · The-best-slow-aging-tips-by-my-Korean-mother-in-law"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.216390+00:00
+updated_at: 2026-09-13T00:56:38.018314+00:00
 tags: [record, real-data]
 ---
 
-# Record 175b90667a · The-best-slow-aging-tips-by-my-Korean-mother-in-law-with-glass-skin-an
+# Record 175b90667a · The-best-slow-aging-tips-by-my-Korean-mother-in-law
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/watch?v=OBYnTaeDda4)
 

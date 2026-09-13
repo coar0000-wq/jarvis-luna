@@ -1,12 +1,12 @@
 ---
-title: "Record b17d54b256 · Learning-to-Coordinate-Symbolic-Tools-LLM-Agents-for-Verified-Sum-of-S"
+title: "Record b17d54b256 · Learning-to-Coordinate-Symbolic-Tools-LLM-Agents-fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.044758+00:00
+updated_at: 2026-09-13T00:56:37.868614+00:00
 tags: [record, real-data]
 ---
 
-# Record b17d54b256 · Learning-to-Coordinate-Symbolic-Tools-LLM-Agents-for-Verified-Sum-of-S
+# Record b17d54b256 · Learning-to-Coordinate-Symbolic-Tools-LLM-Agents-fo
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7172559358)
 

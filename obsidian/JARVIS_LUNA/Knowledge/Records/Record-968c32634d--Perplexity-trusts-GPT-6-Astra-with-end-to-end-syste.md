@@ -1,12 +1,12 @@
 ---
-title: "Record 968c32634d · Perplexity-trusts-GPT-6-Astra-with-end-to-end-systems"
+title: "Record 968c32634d · Perplexity-trusts-GPT-6-Astra-with-end-to-end-syste"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.015243+00:00
+updated_at: 2026-09-13T00:56:37.840553+00:00
 tags: [record, real-data]
 ---
 
-# Record 968c32634d · Perplexity-trusts-GPT-6-Astra-with-end-to-end-systems
+# Record 968c32634d · Perplexity-trusts-GPT-6-Astra-with-end-to-end-syste
 
 > 실제 수집 레코드입니다. 원문: [openai.com](https://openai.com/index/perplexity-improving-accuracy-with-astra)
 

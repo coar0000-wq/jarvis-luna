@@ -1,12 +1,12 @@
 ---
-title: "Record b82e8a1e8f · Fear-of-the-new-a-predatory-invader-provokes-stronger-non-consumptive-"
+title: "Record b82e8a1e8f · Fear-of-the-new-a-predatory-invader-provokes-strong"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.672170+00:00
+updated_at: 2026-09-13T00:56:37.526080+00:00
 tags: [record, real-data]
 ---
 
-# Record b82e8a1e8f · Fear-of-the-new-a-predatory-invader-provokes-stronger-non-consumptive-
+# Record b82e8a1e8f · Fear-of-the-new-a-predatory-invader-provokes-strong
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.21203/rs.3.rs-9891519/v1)
 

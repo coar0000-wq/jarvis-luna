@@ -1,12 +1,12 @@
 ---
-title: "Record ac3a2465de · Feature-selection-and-classification-over-the-network-with-missing-nod"
+title: "Record ac3a2465de · Feature-selection-and-classification-over-the-netwo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.578639+00:00
+updated_at: 2026-09-13T00:56:37.442740+00:00
 tags: [record, real-data]
 ---
 
-# Record ac3a2465de · Feature-selection-and-classification-over-the-network-with-missing-nod
+# Record ac3a2465de · Feature-selection-and-classification-over-the-netwo
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1002/sim.9267)
 

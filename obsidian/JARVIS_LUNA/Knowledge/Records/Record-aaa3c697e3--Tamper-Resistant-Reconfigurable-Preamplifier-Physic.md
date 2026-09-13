@@ -1,12 +1,12 @@
 ---
-title: "Record aaa3c697e3 · Tamper-Resistant-Reconfigurable-Preamplifier-Physical-Unclonable-Funct"
+title: "Record aaa3c697e3 · Tamper-Resistant-Reconfigurable-Preamplifier-Physic"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.641487+00:00
+updated_at: 2026-09-13T00:56:37.500497+00:00
 tags: [record, real-data]
 ---
 
-# Record aaa3c697e3 · Tamper-Resistant-Reconfigurable-Preamplifier-Physical-Unclonable-Funct
+# Record aaa3c697e3 · Tamper-Resistant-Reconfigurable-Preamplifier-Physic
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1109/tcad.2024.3367818)
 

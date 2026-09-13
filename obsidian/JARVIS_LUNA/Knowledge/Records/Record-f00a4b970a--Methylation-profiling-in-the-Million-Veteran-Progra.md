@@ -1,12 +1,12 @@
 ---
-title: "Record f00a4b970a · Methylation-profiling-in-the-Million-Veteran-Program-design-quality-co"
+title: "Record f00a4b970a · Methylation-profiling-in-the-Million-Veteran-Progra"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.730456+00:00
+updated_at: 2026-09-13T00:56:37.574666+00:00
 tags: [record, real-data]
 ---
 
-# Record f00a4b970a · Methylation-profiling-in-the-Million-Veteran-Program-design-quality-co
+# Record f00a4b970a · Methylation-profiling-in-the-Million-Veteran-Progra
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.64898/2026.04.22.26351491)
 

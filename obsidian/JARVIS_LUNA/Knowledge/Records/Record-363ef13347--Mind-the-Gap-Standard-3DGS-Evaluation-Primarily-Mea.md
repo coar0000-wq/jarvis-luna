@@ -1,12 +1,12 @@
 ---
-title: "Record 363ef13347 · Mind-the-Gap-Standard-3DGS-Evaluation-Primarily-Measures-Near-Trajecto"
+title: "Record 363ef13347 · Mind-the-Gap-Standard-3DGS-Evaluation-Primarily-Mea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.035826+00:00
+updated_at: 2026-09-13T00:56:37.860624+00:00
 tags: [record, real-data]
 ---
 
-# Record 363ef13347 · Mind-the-Gap-Standard-3DGS-Evaluation-Primarily-Measures-Near-Trajecto
+# Record 363ef13347 · Mind-the-Gap-Standard-3DGS-Evaluation-Primarily-Mea
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7167380375)
 

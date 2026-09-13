@@ -1,12 +1,12 @@
 ---
-title: "Record 043b95fb14 · These-9-K-beauty-products-reveal-why-Korean-skin-care-is-all-anyone-ca"
+title: "Record 043b95fb14 · These-9-K-beauty-products-reveal-why-Korean-skin-ca"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.873727+00:00
+updated_at: 2026-09-13T00:56:37.710813+00:00
 tags: [record, real-data]
 ---
 
-# Record 043b95fb14 · These-9-K-beauty-products-reveal-why-Korean-skin-care-is-all-anyone-ca
+# Record 043b95fb14 · These-9-K-beauty-products-reveal-why-Korean-skin-ca
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiekFVX3lxTFBwY1M2Rzlxcm1YVHZuV1FpV183RFhfb21ySkhsR3FaYm5GS2FITTdhSE5nVVhqUllkcGpwLVBxM1BxLUFCNEtWcW9JS2lCMmxTQ1l2em01cUZtR0xNN1BnaElZUUFOekVVUU11WjZxNEFCWHZqNFk2SEFB?oc=5)
 

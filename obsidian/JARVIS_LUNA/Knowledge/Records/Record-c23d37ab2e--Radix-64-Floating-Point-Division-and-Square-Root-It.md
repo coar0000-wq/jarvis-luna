@@ -1,12 +1,12 @@
 ---
-title: "Record c23d37ab2e · Radix-64-Floating-Point-Division-and-Square-Root-Iterative-and-Pipelin"
+title: "Record c23d37ab2e · Radix-64-Floating-Point-Division-and-Square-Root-It"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.641040+00:00
+updated_at: 2026-09-13T00:56:37.500073+00:00
 tags: [record, real-data]
 ---
 
-# Record c23d37ab2e · Radix-64-Floating-Point-Division-and-Square-Root-Iterative-and-Pipelin
+# Record c23d37ab2e · Radix-64-Floating-Point-Division-and-Square-Root-It
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1109/tc.2023.3280136)
 

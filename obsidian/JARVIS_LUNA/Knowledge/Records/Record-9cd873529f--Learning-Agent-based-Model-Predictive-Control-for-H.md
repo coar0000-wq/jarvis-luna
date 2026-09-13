@@ -1,12 +1,12 @@
 ---
-title: "Record 9cd873529f · Learning-Agent-based-Model-Predictive-Control-for-Holistic-Vehicle-Per"
+title: "Record 9cd873529f · Learning-Agent-based-Model-Predictive-Control-for-H"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.558017+00:00
+updated_at: 2026-09-13T00:56:37.421026+00:00
 tags: [record, real-data]
 ---
 
-# Record 9cd873529f · Learning-Agent-based-Model-Predictive-Control-for-Holistic-Vehicle-Per
+# Record 9cd873529f · Learning-Agent-based-Model-Predictive-Control-for-H
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.11871v1)
 

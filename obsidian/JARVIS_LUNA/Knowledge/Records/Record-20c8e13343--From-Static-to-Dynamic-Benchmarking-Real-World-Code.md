@@ -1,12 +1,12 @@
 ---
-title: "Record 20c8e13343 · From-Static-to-Dynamic-Benchmarking-Real-World-Code-Review-with-MCR-Be"
+title: "Record 20c8e13343 · From-Static-to-Dynamic-Benchmarking-Real-World-Code"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.273543+00:00
+updated_at: 2026-09-13T00:56:38.067773+00:00
 tags: [record, real-data]
 ---
 
-# Record 20c8e13343 · From-Static-to-Dynamic-Benchmarking-Real-World-Code-Review-with-MCR-Be
+# Record 20c8e13343 · From-Static-to-Dynamic-Benchmarking-Real-World-Code
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.27442v1)
 

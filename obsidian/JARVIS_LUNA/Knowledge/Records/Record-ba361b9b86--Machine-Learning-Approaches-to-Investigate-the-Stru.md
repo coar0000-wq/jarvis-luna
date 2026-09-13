@@ -1,12 +1,12 @@
 ---
-title: "Record ba361b9b86 · Machine-Learning-Approaches-to-Investigate-the-StructureActivity-Relat"
+title: "Record ba361b9b86 · Machine-Learning-Approaches-to-Investigate-the-Stru"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.608188+00:00
+updated_at: 2026-09-13T00:56:37.469759+00:00
 tags: [record, real-data]
 ---
 
-# Record ba361b9b86 · Machine-Learning-Approaches-to-Investigate-the-StructureActivity-Relat
+# Record ba361b9b86 · Machine-Learning-Approaches-to-Investigate-the-Stru
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1021/acsomega.3c03225)
 

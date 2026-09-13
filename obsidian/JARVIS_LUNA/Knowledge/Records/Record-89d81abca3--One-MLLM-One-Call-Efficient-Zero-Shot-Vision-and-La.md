@@ -1,12 +1,12 @@
 ---
-title: "Record 89d81abca3 · One-MLLM-One-Call-Efficient-Zero-Shot-Vision-and-Language-Navigation-v"
+title: "Record 89d81abca3 · One-MLLM-One-Call-Efficient-Zero-Shot-Vision-and-La"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.510975+00:00
+updated_at: 2026-09-13T00:56:37.376493+00:00
 tags: [record, real-data]
 ---
 
-# Record 89d81abca3 · One-MLLM-One-Call-Efficient-Zero-Shot-Vision-and-Language-Navigation-v
+# Record 89d81abca3 · One-MLLM-One-Call-Efficient-Zero-Shot-Vision-and-La
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.06476v1)
 

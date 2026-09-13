@@ -1,12 +1,12 @@
 ---
-title: "Record 5438b8e911 · Tracking-microplastics-across-urban-drainage-systems-and-highway-runof"
+title: "Record 5438b8e911 · Tracking-microplastics-across-urban-drainage-system"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.676369+00:00
+updated_at: 2026-09-13T00:56:37.529604+00:00
 tags: [record, real-data]
 ---
 
-# Record 5438b8e911 · Tracking-microplastics-across-urban-drainage-systems-and-highway-runof
+# Record 5438b8e911 · Tracking-microplastics-across-urban-drainage-system
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.2166/wqrj.2026.054)
 

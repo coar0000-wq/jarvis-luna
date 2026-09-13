@@ -1,12 +1,12 @@
 ---
-title: "Record 0c954728f0 · This-Filler-In-A-Bottle-Serum-Is-A-Top-K-Beauty-Find-That-No-One-Knows"
+title: "Record 0c954728f0 · This-Filler-In-A-Bottle-Serum-Is-A-Top-K-Beauty-Fin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.931483+00:00
+updated_at: 2026-09-13T00:56:37.763801+00:00
 tags: [record, real-data]
 ---
 
-# Record 0c954728f0 · This-Filler-In-A-Bottle-Serum-Is-A-Top-K-Beauty-Find-That-No-One-Knows
+# Record 0c954728f0 · This-Filler-In-A-Bottle-Serum-Is-A-Top-K-Beauty-Fin
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMilwFBVV95cUxNbmJhM0d0R2d6SUpmZ0h0OGc1RVYxeUpURzJSVXRNWWllY2d3MWRBbGViYUlnZ0x3QnVROE55bW5ONFVQSTdCeUNWWUNIQnFNaTRJdTNFYmlpWTVDaVIwTFYxUGxGV09jWnBraXd6TzZ4ZTJrbW9UUGJhUGx0a1dVVkNLWkkzV3FRcE5QRTAxUkdrNU5NM2xR?oc=5)
 

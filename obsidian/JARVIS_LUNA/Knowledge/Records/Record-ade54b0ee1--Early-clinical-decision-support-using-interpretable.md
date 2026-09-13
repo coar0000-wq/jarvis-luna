@@ -1,12 +1,12 @@
 ---
-title: "Record ade54b0ee1 · Early-clinical-decision-support-using-interpretable-artificial-intelli"
+title: "Record ade54b0ee1 · Early-clinical-decision-support-using-interpretable"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.592925+00:00
+updated_at: 2026-09-13T00:56:37.456004+00:00
 tags: [record, real-data]
 ---
 
-# Record ade54b0ee1 · Early-clinical-decision-support-using-interpretable-artificial-intelli
+# Record ade54b0ee1 · Early-clinical-decision-support-using-interpretable
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.ijmedinf.2026.106629)
 

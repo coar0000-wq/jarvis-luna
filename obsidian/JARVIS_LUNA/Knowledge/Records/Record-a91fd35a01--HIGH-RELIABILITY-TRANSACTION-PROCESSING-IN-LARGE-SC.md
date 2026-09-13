@@ -1,12 +1,12 @@
 ---
-title: "Record a91fd35a01 · HIGH-RELIABILITY-TRANSACTION-PROCESSING-IN-LARGE-SCALE-RETAIL-SYSTEMS-"
+title: "Record a91fd35a01 · HIGH-RELIABILITY-TRANSACTION-PROCESSING-IN-LARGE-SC"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.692896+00:00
+updated_at: 2026-09-13T00:56:37.543147+00:00
 tags: [record, real-data]
 ---
 
-# Record a91fd35a01 · HIGH-RELIABILITY-TRANSACTION-PROCESSING-IN-LARGE-SCALE-RETAIL-SYSTEMS-
+# Record a91fd35a01 · HIGH-RELIABILITY-TRANSACTION-PROCESSING-IN-LARGE-SC
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.34218/ijdsrd_05_01_002)
 

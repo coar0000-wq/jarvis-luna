@@ -1,12 +1,12 @@
 ---
-title: "Record 1a14c17416 · Gastric-Mucosa-Cancer-Risk-The-Operative-Link-on-Gastritis-Assessment-"
+title: "Record 1a14c17416 · Gastric-Mucosa-Cancer-Risk-The-Operative-Link-on-Ga"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.736788+00:00
+updated_at: 2026-09-13T00:56:37.580591+00:00
 tags: [record, real-data]
 ---
 
-# Record 1a14c17416 · Gastric-Mucosa-Cancer-Risk-The-Operative-Link-on-Gastritis-Assessment-
+# Record 1a14c17416 · Gastric-Mucosa-Cancer-Risk-The-Operative-Link-on-Ga
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.7704/kjhugr.2026.0027)
 

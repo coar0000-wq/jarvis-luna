@@ -1,12 +1,12 @@
 ---
-title: "Record 5e32fb7506 · K-Beauty-Expert-Brings-Industry-Experience-to-Auburn-Through-Sejong-Cu"
+title: "Record 5e32fb7506 · K-Beauty-Expert-Brings-Industry-Experience-to-Aubur"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.778664+00:00
+updated_at: 2026-09-13T00:56:37.619481+00:00
 tags: [record, real-data]
 ---
 
-# Record 5e32fb7506 · K-Beauty-Expert-Brings-Industry-Experience-to-Auburn-Through-Sejong-Cu
+# Record 5e32fb7506 · K-Beauty-Expert-Brings-Industry-Experience-to-Aubur
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMi5gFBVV95cUxQWFo5eXpyZ1JXdWRmc2p0dEJUd011UXVyWW5XOVFJZlVUQ0I4MUxNZXlHelBnUVo2aHhMT0MzMDI0NzI1MEROMmVmSlJ6VHYzbDFqYkRpbDdycFFKVEN0ZUEycXg4azZnMVd3VVFzbGR4WUw5eXBWaTJEWlBGVmpXY05pUFVxUW1HMG5JWXI3c3JHaF9qSlVOSXRIdHVMWk5DdC1Iem5pRmo5MEFzWXl6ZTVtaEpsTll3dzJLTmpWTkZlakM4YXlOaFo3X3NpVUlLa3pIMzhkcG1ibGNXUG93c0tmc2lydw?oc=5)
 

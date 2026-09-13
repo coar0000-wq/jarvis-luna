@@ -1,12 +1,12 @@
 ---
-title: "Record b66967fb02 · G-CARL-Grounded-Checklist-Aligned-Reward-Learning-for-Patient-Oriented"
+title: "Record b66967fb02 · G-CARL-Grounded-Checklist-Aligned-Reward-Learning-f"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.242417+00:00
+updated_at: 2026-09-13T00:56:38.039957+00:00
 tags: [record, real-data]
 ---
 
-# Record b66967fb02 · G-CARL-Grounded-Checklist-Aligned-Reward-Learning-for-Patient-Oriented
+# Record b66967fb02 · G-CARL-Grounded-Checklist-Aligned-Reward-Learning-f
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.20331v1)
 

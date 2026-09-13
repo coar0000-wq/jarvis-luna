@@ -1,12 +1,12 @@
 ---
-title: "Record 0ab08d9fe4 · Three-Non-Executive-Directors-Join-Barclays-Uk-Board"
+title: "Record 0ab08d9fe4 · Three-Non-Executive-Directors-Join-Barclays-Uk-Boar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.121234+00:00
+updated_at: 2026-09-13T00:56:37.937622+00:00
 tags: [record, real-data]
 ---
 
-# Record 0ab08d9fe4 · Three-Non-Executive-Directors-Join-Barclays-Uk-Board
+# Record 0ab08d9fe4 · Three-Non-Executive-Directors-Join-Barclays-Uk-Boar
 
 > 실제 수집 레코드입니다. 원문: [www.barclayscorporate.com](https://www.barclayscorporate.com/news/press-releases/20260/080/three-non-executive-directors-join-barclays-uk-board/)
 

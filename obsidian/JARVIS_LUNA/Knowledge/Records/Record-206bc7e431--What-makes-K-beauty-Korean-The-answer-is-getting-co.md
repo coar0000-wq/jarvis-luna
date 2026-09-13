@@ -1,12 +1,12 @@
 ---
-title: "Record 206bc7e431 · What-makes-K-beauty-Korean-The-answer-is-getting-complicated---Korea-J"
+title: "Record 206bc7e431 · What-makes-K-beauty-Korean-The-answer-is-getting-co"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.973434+00:00
+updated_at: 2026-09-13T00:56:37.802264+00:00
 tags: [record, real-data]
 ---
 
-# Record 206bc7e431 · What-makes-K-beauty-Korean-The-answer-is-getting-complicated---Korea-J
+# Record 206bc7e431 · What-makes-K-beauty-Korean-The-answer-is-getting-co
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMisgFBVV95cUxNTHduVDgyX3Fsb1owRDBvLVd4bDEzQjZlZk1UcGY5aE5oS1NGR0VrVV9scXFNNG9xdGZTcUZQX3A0NEM4LUxJdUt6TWhORGxJVnE5NnM5VVdYWUthOXZWX2xNV0VoUTFsM3lVUl9MR3o5cHF1eXBjSl9feEtwYWtNY1A4RGNRZUItREFtRU8xZ0hzVmVhZ3Bwdmx3X3B6eVNkY3BPb3dGaThJaENSVEJGVWxn?oc=5)
 

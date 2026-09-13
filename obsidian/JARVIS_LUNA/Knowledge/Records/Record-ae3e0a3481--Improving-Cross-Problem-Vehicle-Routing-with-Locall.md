@@ -1,12 +1,12 @@
 ---
-title: "Record ae3e0a3481 · Improving-Cross-Problem-Vehicle-Routing-with-Locally-Augmented-Prefere"
+title: "Record ae3e0a3481 · Improving-Cross-Problem-Vehicle-Routing-with-Locall"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.263837+00:00
+updated_at: 2026-09-13T00:56:38.058862+00:00
 tags: [record, real-data]
 ---
 
-# Record ae3e0a3481 · Improving-Cross-Problem-Vehicle-Routing-with-Locally-Augmented-Prefere
+# Record ae3e0a3481 · Improving-Cross-Problem-Vehicle-Routing-with-Locall
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.24859v1)
 

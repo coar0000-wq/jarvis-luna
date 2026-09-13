@@ -1,12 +1,12 @@
 ---
-title: "Record fda953c1be · Leidos-to-strengthen-cyber-defenses-across-Department-of-War-networks"
+title: "Record fda953c1be · Leidos-to-strengthen-cyber-defenses-across-Departme"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.756597+00:00
+updated_at: 2026-09-13T00:56:37.598791+00:00
 tags: [record, real-data]
 ---
 
-# Record fda953c1be · Leidos-to-strengthen-cyber-defenses-across-Department-of-War-networks
+# Record fda953c1be · Leidos-to-strengthen-cyber-defenses-across-Departme
 
 > 실제 수집 레코드입니다. 원문: [investors.leidos.com](https://investors.leidos.com/news-releases/news-release-details/leidos-strengthen-cyber-defenses-across-department-war-networks)
 

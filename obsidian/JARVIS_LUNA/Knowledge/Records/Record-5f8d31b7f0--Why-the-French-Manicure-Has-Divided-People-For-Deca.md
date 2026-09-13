@@ -1,12 +1,12 @@
 ---
-title: "Record 5f8d31b7f0 · Why-the-French-Manicure-Has-Divided-People-For-Decades"
+title: "Record 5f8d31b7f0 · Why-the-French-Manicure-Has-Divided-People-For-Deca"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.085468+00:00
+updated_at: 2026-09-13T00:56:37.903529+00:00
 tags: [record, real-data]
 ---
 
-# Record 5f8d31b7f0 · Why-the-French-Manicure-Has-Divided-People-For-Decades
+# Record 5f8d31b7f0 · Why-the-French-Manicure-Has-Divided-People-For-Deca
 
 > 실제 수집 레코드입니다. 원문: [www.allure.com](https://www.allure.com/story/french-manicure-history-50th-anniversary-jeff-pink)
 

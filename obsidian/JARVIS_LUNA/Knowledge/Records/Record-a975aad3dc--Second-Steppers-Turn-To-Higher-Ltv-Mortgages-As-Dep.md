@@ -1,12 +1,12 @@
 ---
-title: "Record a975aad3dc · Second-Steppers-Turn-To-Higher-Ltv-Mortgages-As-Deposits-Fall"
+title: "Record a975aad3dc · Second-Steppers-Turn-To-Higher-Ltv-Mortgages-As-Dep"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.119418+00:00
+updated_at: 2026-09-13T00:56:37.936044+00:00
 tags: [record, real-data]
 ---
 
-# Record a975aad3dc · Second-Steppers-Turn-To-Higher-Ltv-Mortgages-As-Deposits-Fall
+# Record a975aad3dc · Second-Steppers-Turn-To-Higher-Ltv-Mortgages-As-Dep
 
 > 실제 수집 레코드입니다. 원문: [www.barclayscorporate.com](https://www.barclayscorporate.com/news/press-releases/20260/070/second-steppers-turn-to-higher-ltv-mortgages-as-deposits-fall/)
 

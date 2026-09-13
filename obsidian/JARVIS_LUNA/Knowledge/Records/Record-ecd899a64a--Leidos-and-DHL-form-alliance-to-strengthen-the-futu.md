@@ -1,12 +1,12 @@
 ---
-title: "Record ecd899a64a · Leidos-and-DHL-form-alliance-to-strengthen-the-future-of-UK-Defence-lo"
+title: "Record ecd899a64a · Leidos-and-DHL-form-alliance-to-strengthen-the-futu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.753821+00:00
+updated_at: 2026-09-13T00:56:37.596223+00:00
 tags: [record, real-data]
 ---
 
-# Record ecd899a64a · Leidos-and-DHL-form-alliance-to-strengthen-the-future-of-UK-Defence-lo
+# Record ecd899a64a · Leidos-and-DHL-form-alliance-to-strengthen-the-futu
 
 > 실제 수집 레코드입니다. 원문: [investors.leidos.com](https://investors.leidos.com/news-releases/news-release-details/leidos-and-dhl-form-alliance-strengthen-future-uk-defence)
 

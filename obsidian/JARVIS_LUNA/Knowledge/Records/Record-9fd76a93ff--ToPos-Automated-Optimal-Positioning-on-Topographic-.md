@@ -1,12 +1,12 @@
 ---
-title: "Record 9fd76a93ff · ToPos-Automated-Optimal-Positioning-on-Topographic-Manifolds-using-Con"
+title: "Record 9fd76a93ff · ToPos-Automated-Optimal-Positioning-on-Topographic-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.499012+00:00
+updated_at: 2026-09-13T00:56:37.365645+00:00
 tags: [record, real-data]
 ---
 
-# Record 9fd76a93ff · ToPos-Automated-Optimal-Positioning-on-Topographic-Manifolds-using-Con
+# Record 9fd76a93ff · ToPos-Automated-Optimal-Positioning-on-Topographic-
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.05084v1)
 

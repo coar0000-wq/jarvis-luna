@@ -1,12 +1,12 @@
 ---
-title: "Record eeeeb651f1 · Shopify-TSXSHOP-Can-Agentic-AI-Redefine-Online-Shopping---Kalkine-Medi"
+title: "Record eeeeb651f1 · Shopify-TSXSHOP-Can-Agentic-AI-Redefine-Online-Shop"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.976407+00:00
+updated_at: 2026-09-13T00:56:37.804983+00:00
 tags: [record, real-data]
 ---
 
-# Record eeeeb651f1 · Shopify-TSXSHOP-Can-Agentic-AI-Redefine-Online-Shopping---Kalkine-Medi
+# Record eeeeb651f1 · Shopify-TSXSHOP-Can-Agentic-AI-Redefine-Online-Shop
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMitAFBVV95cUxNSkN3TUZzWW1YeVc3bFBabmdVeGVGa2c5VzlxSGhTRExmM3RmakxNWVMyNF9vMGRDLTEyUnhXcGdjakU3VlVnYWh5WXlEYXBKRWpaMDdXNG90TE0zTTBNZ2dRYU1Da2dIeU1pYlJnbDJCQURMejhZaGp1aUZrNjQ2aHJCY1ZnV0VPVTNaeVJadnIzWUx3dDQ2SG5tTHROQlhMUEo2UUF1S1dqcUZCMjlsMmVTc2Q?oc=5)
 

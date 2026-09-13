@@ -1,12 +1,12 @@
 ---
-title: "Record b53d1503d7 · I-tried-the-viral-K-beauty-serum-with-salmon-DNA-Heres-my-honest-revie"
+title: "Record b53d1503d7 · I-tried-the-viral-K-beauty-serum-with-salmon-DNA-He"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.815593+00:00
+updated_at: 2026-09-13T00:56:37.653383+00:00
 tags: [record, real-data]
 ---
 
-# Record b53d1503d7 · I-tried-the-viral-K-beauty-serum-with-salmon-DNA-Heres-my-honest-revie
+# Record b53d1503d7 · I-tried-the-viral-K-beauty-serum-with-salmon-DNA-He
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiZEFVX3lxTE4zY01OUFZfeTdsQUw0YzlNSmJXc2dKanp6dm1JOXVzZUs5NVBmTEdqS2tYbTFyMXBEemRvT3B1c0pycVNsc0I2ZXlXWDRqU2g2NkpvYUJ6TE5YWG1oM0J5alpRMzY?oc=5)
 

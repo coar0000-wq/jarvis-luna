@@ -1,12 +1,12 @@
 ---
-title: "Record c705761661 · AutoNeRF-Training-Implicit-Scene-Representations-with-Autonomous-Agent"
+title: "Record c705761661 · AutoNeRF-Training-Implicit-Scene-Representations-wi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.700656+00:00
+updated_at: 2026-09-13T00:56:37.549377+00:00
 tags: [record, real-data]
 ---
 
-# Record c705761661 · AutoNeRF-Training-Implicit-Scene-Representations-with-Autonomous-Agent
+# Record c705761661 · AutoNeRF-Training-Implicit-Scene-Representations-wi
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.48550/arxiv.2304.11241)
 

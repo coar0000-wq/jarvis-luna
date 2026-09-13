@@ -1,12 +1,12 @@
 ---
-title: "Record 3100940168 · Progress-in-Formalizing-Sphere-Packing-in-Dimension-8"
+title: "Record 3100940168 · Progress-in-Formalizing-Sphere-Packing-in-Dimension"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.023517+00:00
+updated_at: 2026-09-13T00:56:37.848318+00:00
 tags: [record, real-data]
 ---
 
-# Record 3100940168 · Progress-in-Formalizing-Sphere-Packing-in-Dimension-8
+# Record 3100940168 · Progress-in-Formalizing-Sphere-Packing-in-Dimension
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7159546869)
 

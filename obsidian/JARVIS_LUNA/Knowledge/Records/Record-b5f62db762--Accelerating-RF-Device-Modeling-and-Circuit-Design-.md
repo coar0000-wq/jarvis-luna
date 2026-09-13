@@ -1,12 +1,12 @@
 ---
-title: "Record b5f62db762 · Accelerating-RF-Device-Modeling-and-Circuit-Design-via-Derivative-Free"
+title: "Record b5f62db762 · Accelerating-RF-Device-Modeling-and-Circuit-Design-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.640331+00:00
+updated_at: 2026-09-13T00:56:37.499433+00:00
 tags: [record, real-data]
 ---
 
-# Record b5f62db762 · Accelerating-RF-Device-Modeling-and-Circuit-Design-via-Derivative-Free
+# Record b5f62db762 · Accelerating-RF-Device-Modeling-and-Circuit-Design-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1109/mmm.2026.3713927)
 

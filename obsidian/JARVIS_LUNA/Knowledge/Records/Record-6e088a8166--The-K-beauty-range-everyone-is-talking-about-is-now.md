@@ -1,12 +1,12 @@
 ---
-title: "Record 6e088a8166 · The-K-beauty-range-everyone-is-talking-about-is-now-in-Echuca---Riveri"
+title: "Record 6e088a8166 · The-K-beauty-range-everyone-is-talking-about-is-now"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.968410+00:00
+updated_at: 2026-09-13T00:56:37.797691+00:00
 tags: [record, real-data]
 ---
 
-# Record 6e088a8166 · The-K-beauty-range-everyone-is-talking-about-is-now-in-Echuca---Riveri
+# Record 6e088a8166 · The-K-beauty-range-everyone-is-talking-about-is-now
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMirgFBVV95cUxOdDNqMXZNX2Q5bEhvMWtaaTdWSFNTajZ0cWN6QzA3ZnNpRTJaVV9PQzM1aDR6TXRxaTFMZ0pPSVl1YzNSVlYteWlLZEZ4bDY4MGxOX0FLSVVBbDU0RnNjWHNZVEJLR0FoM1ZxVlViVUFuM08tUldWUUdQZW5LWnp2VHV0Wm1OYy1id0xGMFF0cHo5eUZONWxTay1oY3RBR0FmQ2JmRmQ2LXl4emNGZGc?oc=5)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record b776d89ac7 · I-tested-the-Korean-sunscreen-thats-been-made-for-oily-skin---The-Inde"
+title: "Record b776d89ac7 · I-tested-the-Korean-sunscreen-thats-been-made-for-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.989330+00:00
+updated_at: 2026-09-13T00:56:37.816892+00:00
 tags: [record, real-data]
 ---
 
-# Record b776d89ac7 · I-tested-the-Korean-sunscreen-thats-been-made-for-oily-skin---The-Inde
+# Record b776d89ac7 · I-tested-the-Korean-sunscreen-thats-been-made-for-o
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiyAFBVV95cUxPb0lOdHZNZlhpMGRsWTN1Q3FtUjlpREItRmxRQVRET1RoT2VhOW1naEE5c2RfWXBWUEVmaEo4ZXFqSVhJbXd2Tk8xQ1VPTUxpYVktc0dUMEVEUFpJU0JHR3YtbzNBcUJqTlpnaEs0aGhUblZNMGNHeVZVeHE5eEZsZW9ralNEYTVBY0MyWE9vY2FxZnJyR3JqS0RRekxoUGM1ZUc3Y01RcWIybG9BbFE0aGV4d3l6ZHdYYXY0OVRDZXBSRmxzNFd2bA?oc=5)
 

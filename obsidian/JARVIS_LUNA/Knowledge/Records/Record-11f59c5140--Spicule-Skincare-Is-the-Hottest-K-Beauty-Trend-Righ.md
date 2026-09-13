@@ -1,12 +1,12 @@
 ---
-title: "Record 11f59c5140 · Spicule-Skincare-Is-the-Hottest-K-Beauty-Trend-Right-Now-but-Dermatolo"
+title: "Record 11f59c5140 · Spicule-Skincare-Is-the-Hottest-K-Beauty-Trend-Righ"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.777339+00:00
+updated_at: 2026-09-13T00:56:37.618240+00:00
 tags: [record, real-data]
 ---
 
-# Record 11f59c5140 · Spicule-Skincare-Is-the-Hottest-K-Beauty-Trend-Right-Now-but-Dermatolo
+# Record 11f59c5140 · Spicule-Skincare-Is-the-Hottest-K-Beauty-Trend-Righ
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMi4gFBVV95cUxQcS1LR3Y4NFV6Z1dCNlJWaHBvMW1mdVYtMGZWZDN4ajJab2I5QVNJNmM2bGU5NFRTNE5vSVRVNndRZXpDcjhHelBkU2QydWYtVHhPTlFnOHBlMVVUbmhJcXM1Vmg0ZGJ6YUVjWS1uWi1uN1Q2YVVUZzl3UzFJaEF1TnR0TVM5STdIeDJMVmRiOTBhQzZnRVIyRTF1eGZxLXpSLU5ueXo3SUhPbkdwMnY4LW9TQmUwMUt6R0otby1ZX0NtaGlkYTZaVm1sQkU4OEhUeFVFNHNWNlFla2VWeURDdlh3?oc=5)
 

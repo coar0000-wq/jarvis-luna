@@ -1,12 +1,12 @@
 ---
-title: "Record 56c47d32b2 · Formal-Specification-and-Verification-of-Architecturally-Defined-Attes"
+title: "Record 56c47d32b2 · Formal-Specification-and-Verification-of-Architectu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.633990+00:00
+updated_at: 2026-09-13T00:56:37.493522+00:00
 tags: [record, real-data]
 ---
 
-# Record 56c47d32b2 · Formal-Specification-and-Verification-of-Architecturally-Defined-Attes
+# Record 56c47d32b2 · Formal-Specification-and-Verification-of-Architectu
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1109/access.2023.3346501)
 

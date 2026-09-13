@@ -1,12 +1,12 @@
 ---
-title: "Record 34609e1142 · AI-Infrastructure-Insight-Why-faster-GPUs-alone-cant-deliver-AI-perfor"
+title: "Record 34609e1142 · AI-Infrastructure-Insight-Why-faster-GPUs-alone-can"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.003919+00:00
+updated_at: 2026-09-13T00:56:37.830266+00:00
 tags: [record, real-data]
 ---
 
-# Record 34609e1142 · AI-Infrastructure-Insight-Why-faster-GPUs-alone-cant-deliver-AI-perfor
+# Record 34609e1142 · AI-Infrastructure-Insight-Why-faster-GPUs-alone-can
 
 > 실제 수집 레코드입니다. 원문: [news.skhynix.com](https://news.skhynix.com/en/ai-infrastructure-insight-ep2-3/)
 

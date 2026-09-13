@@ -1,12 +1,12 @@
 ---
-title: "Record 0e98cd30bf · Analytical-Valuation-of-Vulnerable-Derivative-Claims-with-Bilateral-Ca"
+title: "Record 0e98cd30bf · Analytical-Valuation-of-Vulnerable-Derivative-Claim"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.622633+00:00
+updated_at: 2026-09-13T00:56:37.483030+00:00
 tags: [record, real-data]
 ---
 
-# Record 0e98cd30bf · Analytical-Valuation-of-Vulnerable-Derivative-Claims-with-Bilateral-Ca
+# Record 0e98cd30bf · Analytical-Valuation-of-Vulnerable-Derivative-Claim
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1080/1350486x.2026.2713436)
 

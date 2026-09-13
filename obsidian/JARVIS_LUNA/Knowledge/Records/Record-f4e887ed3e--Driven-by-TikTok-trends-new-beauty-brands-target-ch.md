@@ -1,12 +1,12 @@
 ---
-title: "Record f4e887ed3e · Driven-by-TikTok-trends-new-beauty-brands-target-children---FashionNet"
+title: "Record f4e887ed3e · Driven-by-TikTok-trends-new-beauty-brands-target-ch"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.961783+00:00
+updated_at: 2026-09-13T00:56:37.791681+00:00
 tags: [record, real-data]
 ---
 
-# Record f4e887ed3e · Driven-by-TikTok-trends-new-beauty-brands-target-children---FashionNet
+# Record f4e887ed3e · Driven-by-TikTok-trends-new-beauty-brands-target-ch
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiqAFBVV95cUxPeFNSQ0R1UEZ5SjctZF9nd1V0TGVaVmM4STRHOWU5NUpVOXpBOWNzcWZxdk1Rb1hjYnY3NlhIaXFTVVVPWklpWTdFRHlMcy1fLWJlem9NdGVTZHZUclI5TmxRUnB3ZFNyYXZwWFRiekNlekNmbVQzRzBheVlvd0RpbzR2a01VX1d5WmZmQzdtcEdkRTgyYUp2THhDd1R4c0FTV2FXTzRvVWo?oc=5)
 

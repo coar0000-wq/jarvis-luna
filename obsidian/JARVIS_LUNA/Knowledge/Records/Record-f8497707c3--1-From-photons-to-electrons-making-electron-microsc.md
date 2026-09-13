@@ -1,12 +1,12 @@
 ---
-title: "Record f8497707c3 · 1-From-photons-to-electrons-making-electron-microscopy-a-local-discove"
+title: "Record f8497707c3 · 1-From-photons-to-electrons-making-electron-microsc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.679611+00:00
+updated_at: 2026-09-13T00:56:37.532255+00:00
 tags: [record, real-data]
 ---
 
-# Record f8497707c3 · 1-From-photons-to-electrons-making-electron-microscopy-a-local-discove
+# Record f8497707c3 · 1-From-photons-to-electrons-making-electron-microsc
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.26434/chemrxiv.15006831/v1)
 

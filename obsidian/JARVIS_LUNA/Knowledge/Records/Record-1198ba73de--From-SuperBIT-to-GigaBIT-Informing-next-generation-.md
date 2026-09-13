@@ -1,12 +1,12 @@
 ---
-title: "Record 1198ba73de · From-SuperBIT-to-GigaBIT-Informing-next-generation-balloon-borne-teles"
+title: "Record 1198ba73de · From-SuperBIT-to-GigaBIT-Informing-next-generation-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.701487+00:00
+updated_at: 2026-09-13T00:56:37.550006+00:00
 tags: [record, real-data]
 ---
 
-# Record 1198ba73de · From-SuperBIT-to-GigaBIT-Informing-next-generation-balloon-borne-teles
+# Record 1198ba73de · From-SuperBIT-to-GigaBIT-Informing-next-generation-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.48550/arxiv.2407.10103)
 

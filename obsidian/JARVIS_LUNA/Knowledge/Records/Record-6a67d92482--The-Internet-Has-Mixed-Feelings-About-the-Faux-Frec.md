@@ -1,12 +1,12 @@
 ---
-title: "Record 6a67d92482 · The-Internet-Has-Mixed-Feelings-About-the-Faux-Freckle-Trend---Hypebae"
+title: "Record 6a67d92482 · The-Internet-Has-Mixed-Feelings-About-the-Faux-Frec"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.907422+00:00
+updated_at: 2026-09-13T00:56:37.741814+00:00
 tags: [record, real-data]
 ---
 
-# Record 6a67d92482 · The-Internet-Has-Mixed-Feelings-About-the-Faux-Freckle-Trend---Hypebae
+# Record 6a67d92482 · The-Internet-Has-Mixed-Feelings-About-the-Faux-Frec
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiigFBVV95cUxPN0xvNXA2cVRlUGNucHJVajY3M0ZkQmNkc0phRDRidDlIcy1WUVRLYS1lamhPNHNnQjUxaGxIcHV2Yk9iNTRCdEpZakNPSjNmaVNCdGpOQUw1TEp6bGdudUkzVEJwcWVNTUJMU0lGVVdoQ2FJTnJsNmRDNTFSUWxiWWhWTE82TGlMTmc?oc=5)
 

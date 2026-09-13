@@ -1,12 +1,12 @@
 ---
-title: "Record 146d8657e3 · South-Koreas-largest-beauty-retailer-opens-first-US-store-in-Pasadena-"
+title: "Record 146d8657e3 · South-Koreas-largest-beauty-retailer-opens-first-US"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.952305+00:00
+updated_at: 2026-09-13T00:56:37.783008+00:00
 tags: [record, real-data]
 ---
 
-# Record 146d8657e3 · South-Koreas-largest-beauty-retailer-opens-first-US-store-in-Pasadena-
+# Record 146d8657e3 · South-Koreas-largest-beauty-retailer-opens-first-US
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiogFBVV95cUxOZkdMb1lSbGNET3NYOHptRE52UVhzUnMtU25fYkZRQkFaZEtBcWE4UG56RXRmWFBDQWY3a2V1V3doVjBDUGwta2RBWmRyZ0ZKSUx2SFlmN0ZNMlZqRWxzcVJZLW9fUEc1bjh0MnRZXzVZNTVYQUhjSnBnZkhTX2g1a2Z6WXBjZnFGaGlKTDNLZ3NpRVhHRXBsNHdmWm9zQVl6X2fSAacBQVVfeXFMUHFvV0ppTEVxWWl0Nld0SkRGTkZOZ0otN2R6bWNRWWptVlBsSlpIZ3NleWQ0Q2pBVjRPT0xnTXk0Y2NrRVJ2TTloVnE0Y1VYenhUajdEazRrS0dOMTVPQ21PeEx2MF8xUWw4OEtJU1JvRWx1SldVd1dmLURaR05OQUFuTEVYeGRkaXZUUWo1ellLaU52bzhrRDFpbkdFb25RVnUwVDNNWFE?oc=5)
 

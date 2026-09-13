@@ -1,12 +1,12 @@
 ---
-title: "Record 59794be13c · Untargeted-semi-quantitative-analysis-of-fungal-secondary-metabolites-"
+title: "Record 59794be13c · Untargeted-semi-quantitative-analysis-of-fungal-sec"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.584891+00:00
+updated_at: 2026-09-13T00:56:37.448845+00:00
 tags: [record, real-data]
 ---
 
-# Record 59794be13c · Untargeted-semi-quantitative-analysis-of-fungal-secondary-metabolites-
+# Record 59794be13c · Untargeted-semi-quantitative-analysis-of-fungal-sec
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1007/s41348-026-01349-5)
 

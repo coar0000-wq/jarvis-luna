@@ -1,12 +1,12 @@
 ---
-title: "Record d0812d12f0 · SKIN1004-Madagascar-Centella-Hyalu-cica-Water-fit-Sun-Serum-UV-169-fl-"
+title: "Record d0812d12f0 · SKIN1004-Madagascar-Centella-Hyalu-cica-Water-fit-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.060798+00:00
+updated_at: 2026-09-13T00:56:37.883091+00:00
 tags: [record, real-data]
 ---
 
-# Record d0812d12f0 · SKIN1004-Madagascar-Centella-Hyalu-cica-Water-fit-Sun-Serum-UV-169-fl-
+# Record d0812d12f0 · SKIN1004-Madagascar-Centella-Hyalu-cica-Water-fit-S
 
 > 실제 수집 레코드입니다. 원문: [us.oliveyoung.com](https://us.oliveyoung.com/products/UA36240979)
 

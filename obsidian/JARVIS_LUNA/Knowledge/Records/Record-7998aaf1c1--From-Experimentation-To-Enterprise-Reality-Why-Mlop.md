@@ -1,12 +1,12 @@
 ---
-title: "Record 7998aaf1c1 · From-Experimentation-To-Enterprise-Reality-Why-Mlops-Is-The-Backbone-O"
+title: "Record 7998aaf1c1 · From-Experimentation-To-Enterprise-Reality-Why-Mlop"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.703837+00:00
+updated_at: 2026-09-13T00:56:37.551858+00:00
 tags: [record, real-data]
 ---
 
-# Record 7998aaf1c1 · From-Experimentation-To-Enterprise-Reality-Why-Mlops-Is-The-Backbone-O
+# Record 7998aaf1c1 · From-Experimentation-To-Enterprise-Reality-Why-Mlop
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.18194146)
 

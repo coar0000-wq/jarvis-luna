@@ -1,12 +1,12 @@
 ---
-title: "Record e49fc2d01e · Second-Order-Smooth-Planning-with-Optimal-Transport-Bellman-Smoothing"
+title: "Record e49fc2d01e · Second-Order-Smooth-Planning-with-Optimal-Transport"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.511195+00:00
+updated_at: 2026-09-13T00:56:37.376689+00:00
 tags: [record, real-data]
 ---
 
-# Record e49fc2d01e · Second-Order-Smooth-Planning-with-Optimal-Transport-Bellman-Smoothing
+# Record e49fc2d01e · Second-Order-Smooth-Planning-with-Optimal-Transport
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.06484v1)
 

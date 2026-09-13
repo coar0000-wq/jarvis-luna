@@ -1,12 +1,12 @@
 ---
-title: "Record e2fea2c86a · Viral-to-Retail-K-Beauty-nooni-Brings-Its-Viral-Lip-Oil-to-Target-in-E"
+title: "Record e2fea2c86a · Viral-to-Retail-K-Beauty-nooni-Brings-Its-Viral-Lip"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.811219+00:00
+updated_at: 2026-09-13T00:56:37.649438+00:00
 tags: [record, real-data]
 ---
 
-# Record e2fea2c86a · Viral-to-Retail-K-Beauty-nooni-Brings-Its-Viral-Lip-Oil-to-Target-in-E
+# Record e2fea2c86a · Viral-to-Retail-K-Beauty-nooni-Brings-Its-Viral-Lip
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1TU2k5bU9DMWFraFREU29nU1o0ZnlVQ201YjVsTW56TkhvZlBMRUtEWVczd1Y0R2MwQXk4NkliSTZQOVpqT19lYl9GYllvM3VsNmtvNW42Yy1ZTzREUXJ4WVhNRzJjTFk?oc=5)
 

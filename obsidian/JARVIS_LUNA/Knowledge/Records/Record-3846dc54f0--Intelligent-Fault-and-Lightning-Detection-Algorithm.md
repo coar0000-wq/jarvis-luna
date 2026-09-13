@@ -1,12 +1,12 @@
 ---
-title: "Record 3846dc54f0 · Intelligent-Fault-and-Lightning-Detection-Algorithm-for-VSC-MTDC-grids"
+title: "Record 3846dc54f0 · Intelligent-Fault-and-Lightning-Detection-Algorithm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.523322+00:00
+updated_at: 2026-09-13T00:56:37.387964+00:00
 tags: [record, real-data]
 ---
 
-# Record 3846dc54f0 · Intelligent-Fault-and-Lightning-Detection-Algorithm-for-VSC-MTDC-grids
+# Record 3846dc54f0 · Intelligent-Fault-and-Lightning-Detection-Algorithm
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.09000v1)
 

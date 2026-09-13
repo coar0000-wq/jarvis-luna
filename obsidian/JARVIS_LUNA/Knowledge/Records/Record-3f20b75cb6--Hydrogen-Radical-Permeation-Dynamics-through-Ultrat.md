@@ -1,12 +1,12 @@
 ---
-title: "Record 3f20b75cb6 · Hydrogen-Radical-Permeation-Dynamics-through-Ultrathin-ALD-Al-2-O-3-La"
+title: "Record 3f20b75cb6 · Hydrogen-Radical-Permeation-Dynamics-through-Ultrat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.604912+00:00
+updated_at: 2026-09-13T00:56:37.466789+00:00
 tags: [record, real-data]
 ---
 
-# Record 3f20b75cb6 · Hydrogen-Radical-Permeation-Dynamics-through-Ultrathin-ALD-Al-2-O-3-La
+# Record 3f20b75cb6 · Hydrogen-Radical-Permeation-Dynamics-through-Ultrat
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1021/acs.jpcc.6c00522)
 

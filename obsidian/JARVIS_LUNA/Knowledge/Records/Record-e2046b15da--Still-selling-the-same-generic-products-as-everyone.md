@@ -1,12 +1,12 @@
 ---
-title: "Record e2046b15da · Still-selling-the-same-generic-products-as-everyone-else---CJ-ODM"
+title: "Record e2046b15da · Still-selling-the-same-generic-products-as-everyone"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.193067+00:00
+updated_at: 2026-09-13T00:56:37.996178+00:00
 tags: [record, real-data]
 ---
 
-# Record e2046b15da · Still-selling-the-same-generic-products-as-everyone-else---CJ-ODM
+# Record e2046b15da · Still-selling-the-same-generic-products-as-everyone
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/shorts/K1g_B3espJc)
 

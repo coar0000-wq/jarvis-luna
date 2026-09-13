@@ -1,12 +1,12 @@
 ---
-title: "Record 58a08daf7c · Optimal-Control-for-Cancer-Chemotherapy-Using-Hybrid-Quantum-Particle-"
+title: "Record 58a08daf7c · Optimal-Control-for-Cancer-Chemotherapy-Using-Hybri"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.546595+00:00
+updated_at: 2026-09-13T00:56:37.409509+00:00
 tags: [record, real-data]
 ---
 
-# Record 58a08daf7c · Optimal-Control-for-Cancer-Chemotherapy-Using-Hybrid-Quantum-Particle-
+# Record 58a08daf7c · Optimal-Control-for-Cancer-Chemotherapy-Using-Hybri
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.11197v1)
 

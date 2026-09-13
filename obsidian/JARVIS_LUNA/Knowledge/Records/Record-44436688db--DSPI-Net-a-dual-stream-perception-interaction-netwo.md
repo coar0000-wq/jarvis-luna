@@ -1,12 +1,12 @@
 ---
-title: "Record 44436688db · DSPI-Net-a-dual-stream-perception-interaction-network-for-lightweight-"
+title: "Record 44436688db · DSPI-Net-a-dual-stream-perception-interaction-netwo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.625240+00:00
+updated_at: 2026-09-13T00:56:37.485515+00:00
 tags: [record, real-data]
 ---
 
-# Record 44436688db · DSPI-Net-a-dual-stream-perception-interaction-network-for-lightweight-
+# Record 44436688db · DSPI-Net-a-dual-stream-perception-interaction-netwo
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1088/2631-8695/aea1de)
 

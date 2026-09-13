@@ -1,12 +1,12 @@
 ---
-title: "Record e48fb1bc2e · Fostering-cultural-change-in-research-through-innovative-knowledge-sha"
+title: "Record e48fb1bc2e · Fostering-cultural-change-in-research-through-innov"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.612747+00:00
+updated_at: 2026-09-13T00:56:37.473917+00:00
 tags: [record, real-data]
 ---
 
-# Record e48fb1bc2e · Fostering-cultural-change-in-research-through-innovative-knowledge-sha
+# Record e48fb1bc2e · Fostering-cultural-change-in-research-through-innov
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1038/s41539-026-00449-z)
 

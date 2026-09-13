@@ -1,12 +1,12 @@
 ---
-title: "Record e6911096fd · The-40-year-old-database-rule-agents-just-broke-How-LTAP-unifies-OLTP-"
+title: "Record e6911096fd · The-40-year-old-database-rule-agents-just-broke-How"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.123033+00:00
+updated_at: 2026-09-13T00:56:37.939222+00:00
 tags: [record, real-data]
 ---
 
-# Record e6911096fd · The-40-year-old-database-rule-agents-just-broke-How-LTAP-unifies-OLTP-
+# Record e6911096fd · The-40-year-old-database-rule-agents-just-broke-How
 
 > 실제 수집 레코드입니다. 원문: [www.databricks.com](https://www.databricks.com/blog/40-year-old-database-rule-agents-just-broke-how-ltap-unifies-oltp-and-olap-workloads)
 

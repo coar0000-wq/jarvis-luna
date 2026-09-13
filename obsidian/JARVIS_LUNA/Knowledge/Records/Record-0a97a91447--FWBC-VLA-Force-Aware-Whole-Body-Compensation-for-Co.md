@@ -1,12 +1,12 @@
 ---
-title: "Record 0a97a91447 · FWBC-VLA-Force-Aware-Whole-Body-Compensation-for-Contact-Rich-Loco-Man"
+title: "Record 0a97a91447 · FWBC-VLA-Force-Aware-Whole-Body-Compensation-for-Co"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.485630+00:00
+updated_at: 2026-09-13T00:56:37.353599+00:00
 tags: [record, real-data]
 ---
 
-# Record 0a97a91447 · FWBC-VLA-Force-Aware-Whole-Body-Compensation-for-Contact-Rich-Loco-Man
+# Record 0a97a91447 · FWBC-VLA-Force-Aware-Whole-Body-Compensation-for-Co
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.03889v1)
 

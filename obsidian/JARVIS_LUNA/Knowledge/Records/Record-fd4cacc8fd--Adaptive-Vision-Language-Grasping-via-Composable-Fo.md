@@ -1,12 +1,12 @@
 ---
-title: "Record fd4cacc8fd · Adaptive-Vision-Language-Grasping-via-Composable-Foundation-Priors-and"
+title: "Record fd4cacc8fd · Adaptive-Vision-Language-Grasping-via-Composable-Fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.489530+00:00
+updated_at: 2026-09-13T00:56:37.357117+00:00
 tags: [record, real-data]
 ---
 
-# Record fd4cacc8fd · Adaptive-Vision-Language-Grasping-via-Composable-Foundation-Priors-and
+# Record fd4cacc8fd · Adaptive-Vision-Language-Grasping-via-Composable-Fo
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.04096v1)
 

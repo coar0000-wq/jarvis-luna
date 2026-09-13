@@ -1,12 +1,12 @@
 ---
-title: "Record b137ac7539 · A-11-pJbLane-18-Tbs-Chiplet-Using-113-Gbs-PAM-4-Transceiver-With-Equal"
+title: "Record b137ac7539 · A-11-pJbLane-18-Tbs-Chiplet-Using-113-Gbs-PAM-4-Tra"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.638343+00:00
+updated_at: 2026-09-13T00:56:37.497533+00:00
 tags: [record, real-data]
 ---
 
-# Record b137ac7539 · A-11-pJbLane-18-Tbs-Chiplet-Using-113-Gbs-PAM-4-Transceiver-With-Equal
+# Record b137ac7539 · A-11-pJbLane-18-Tbs-Chiplet-Using-113-Gbs-PAM-4-Tra
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1109/lssc.2025.3526877)
 

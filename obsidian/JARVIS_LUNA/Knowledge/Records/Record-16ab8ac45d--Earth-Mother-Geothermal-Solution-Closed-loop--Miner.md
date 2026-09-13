@@ -1,12 +1,12 @@
 ---
-title: "Record 16ab8ac45d · Earth-Mother-Geothermal-Solution-Closed-loop--Mineralization-Architect"
+title: "Record 16ab8ac45d · Earth-Mother-Geothermal-Solution-Closed-loop--Miner"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.722306+00:00
+updated_at: 2026-09-13T00:56:37.567046+00:00
 tags: [record, real-data]
 ---
 
-# Record 16ab8ac45d · Earth-Mother-Geothermal-Solution-Closed-loop--Mineralization-Architect
+# Record 16ab8ac45d · Earth-Mother-Geothermal-Solution-Closed-loop--Miner
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.22646578)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 775f2af90a · From-PDRN-to-Peptides-These-10-K-Beauty-Ingredients-Are-Defining-2026-"
+title: "Record 775f2af90a · From-PDRN-to-Peptides-These-10-K-Beauty-Ingredients"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.853964+00:00
+updated_at: 2026-09-13T00:56:37.690621+00:00
 tags: [record, real-data]
 ---
 
-# Record 775f2af90a · From-PDRN-to-Peptides-These-10-K-Beauty-Ingredients-Are-Defining-2026-
+# Record 775f2af90a · From-PDRN-to-Peptides-These-10-K-Beauty-Ingredients
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMid0FVX3lxTE1rRV90MzF0VmdiQjJKYU1lMFFXQzZiZ1h0WXBuQWJhUFdBbmpjM1R2N25yVGFtRmowZE5RblNQQlBZQnJKTXJGU3ZvQlRDaWRYekNaMTBLUFJqdlBmajlxZVEzT2E5SUdwOHVRQTZwXzFsUVhqbTk0?oc=5)
 

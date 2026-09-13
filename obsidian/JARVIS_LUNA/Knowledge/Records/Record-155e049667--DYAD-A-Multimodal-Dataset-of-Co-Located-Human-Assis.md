@@ -1,12 +1,12 @@
 ---
-title: "Record 155e049667 · DYAD-A-Multimodal-Dataset-of-Co-Located-Human-Assistance"
+title: "Record 155e049667 · DYAD-A-Multimodal-Dataset-of-Co-Located-Human-Assis"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.523888+00:00
+updated_at: 2026-09-13T00:56:37.388498+00:00
 tags: [record, real-data]
 ---
 
-# Record 155e049667 · DYAD-A-Multimodal-Dataset-of-Co-Located-Human-Assistance
+# Record 155e049667 · DYAD-A-Multimodal-Dataset-of-Co-Located-Human-Assis
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.09023v1)
 

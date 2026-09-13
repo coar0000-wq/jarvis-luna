@@ -1,12 +1,12 @@
 ---
-title: "Record 5fa6a8d02c · Resolution-Enhanced-Vat-Photopolymerization-of-Emulsion-Templated-Foam"
+title: "Record 5fa6a8d02c · Resolution-Enhanced-Vat-Photopolymerization-of-Emul"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.605417+00:00
+updated_at: 2026-09-13T00:56:37.467247+00:00
 tags: [record, real-data]
 ---
 
-# Record 5fa6a8d02c · Resolution-Enhanced-Vat-Photopolymerization-of-Emulsion-Templated-Foam
+# Record 5fa6a8d02c · Resolution-Enhanced-Vat-Photopolymerization-of-Emul
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1021/acsaenm.6c00705)
 

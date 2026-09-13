@@ -1,12 +1,12 @@
 ---
-title: "Record 94e9f3bb3c · The-Influence-of-TikTok-Trends-on-Beauty-Category-Sales---breakingacco"
+title: "Record 94e9f3bb3c · The-Influence-of-TikTok-Trends-on-Beauty-Category-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.943675+00:00
+updated_at: 2026-09-13T00:56:37.775076+00:00
 tags: [record, real-data]
 ---
 
-# Record 94e9f3bb3c · The-Influence-of-TikTok-Trends-on-Beauty-Category-Sales---breakingacco
+# Record 94e9f3bb3c · The-Influence-of-TikTok-Trends-on-Beauty-Category-S
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMinAFBVV95cUxQTll4UnVyeHYtcDJPUW56OFk0YTVVZ0IwbVJFVmhlcW5ON0YtLWwyaEc4QnBuMFo1Q3N3T3pNVkFYRGNRRTAtSElmNW5nb1BBa1lxYWRWemFvdG5vWXg2aGRUSlk3VlNFR3BZYVJFQmV3SGN2elZqMVZsZlZ3ektUT2lERGNkR2lWUzgxbzFBMkZLa3AwaFNPYzZ2NUQ?oc=5)
 

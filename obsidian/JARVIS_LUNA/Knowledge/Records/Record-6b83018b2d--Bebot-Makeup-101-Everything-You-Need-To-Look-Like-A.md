@@ -1,12 +1,12 @@
 ---
-title: "Record 6b83018b2d · Bebot-Makeup-101-Everything-You-Need-To-Look-Like-A-Filipina-Y2K-Baddi"
+title: "Record 6b83018b2d · Bebot-Makeup-101-Everything-You-Need-To-Look-Like-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.879325+00:00
+updated_at: 2026-09-13T00:56:37.715906+00:00
 tags: [record, real-data]
 ---
 
-# Record 6b83018b2d · Bebot-Makeup-101-Everything-You-Need-To-Look-Like-A-Filipina-Y2K-Baddi
+# Record 6b83018b2d · Bebot-Makeup-101-Everything-You-Need-To-Look-Like-A
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMifEFVX3lxTE93YlpyYlhrYkJrVzFNMElscldFTUdNbFVZWXhZTlVTN0Y5ellyRVdjRzVodDNJcGxPem1aRDVGa0VXalRqaXVvWWJ3eDEyaHNOQ1EwV0NXQThfUkpWWGN6dWJaRWlkN0tZZVRzVlhiRXR5WUlFQWlxMkU1MEo?oc=5)
 

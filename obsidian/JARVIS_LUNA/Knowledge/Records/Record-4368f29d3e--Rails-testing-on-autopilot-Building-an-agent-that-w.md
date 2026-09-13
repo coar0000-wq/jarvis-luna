@@ -1,12 +1,12 @@
 ---
-title: "Record 4368f29d3e · Rails-testing-on-autopilot-Building-an-agent-that-writes-what-develope"
+title: "Record 4368f29d3e · Rails-testing-on-autopilot-Building-an-agent-that-w"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.770675+00:00
+updated_at: 2026-09-13T00:56:37.611863+00:00
 tags: [record, real-data]
 ---
 
-# Record 4368f29d3e · Rails-testing-on-autopilot-Building-an-agent-that-writes-what-develope
+# Record 4368f29d3e · Rails-testing-on-autopilot-Building-an-agent-that-w
 
 > 실제 수집 레코드입니다. 원문: [mistral.ai](https://mistral.ai/news/rails-testing-on-autopilot-building-an-agent-that-writes-what-developers-wont/)
 

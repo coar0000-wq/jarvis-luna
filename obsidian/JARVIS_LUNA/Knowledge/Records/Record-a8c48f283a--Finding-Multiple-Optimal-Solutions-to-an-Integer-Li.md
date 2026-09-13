@@ -1,12 +1,12 @@
 ---
-title: "Record a8c48f283a · Finding-Multiple-Optimal-Solutions-to-an-Integer-Linear-Program-by-Ran"
+title: "Record a8c48f283a · Finding-Multiple-Optimal-Solutions-to-an-Integer-Li"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.686530+00:00
+updated_at: 2026-09-13T00:56:37.537924+00:00
 tags: [record, real-data]
 ---
 
-# Record a8c48f283a · Finding-Multiple-Optimal-Solutions-to-an-Integer-Linear-Program-by-Ran
+# Record a8c48f283a · Finding-Multiple-Optimal-Solutions-to-an-Integer-Li
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.3390/a18030140)
 

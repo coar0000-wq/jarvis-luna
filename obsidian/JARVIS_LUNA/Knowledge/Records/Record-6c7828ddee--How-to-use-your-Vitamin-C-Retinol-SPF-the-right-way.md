@@ -1,12 +1,12 @@
 ---
-title: "Record 6c7828ddee · How-to-use-your-Vitamin-C-Retinol-SPF-the-right-way-for-the-best-way-t"
+title: "Record 6c7828ddee · How-to-use-your-Vitamin-C-Retinol-SPF-the-right-way"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.195359+00:00
+updated_at: 2026-09-13T00:56:37.998048+00:00
 tags: [record, real-data]
 ---
 
-# Record 6c7828ddee · How-to-use-your-Vitamin-C-Retinol-SPF-the-right-way-for-the-best-way-t
+# Record 6c7828ddee · How-to-use-your-Vitamin-C-Retinol-SPF-the-right-way
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/shorts/PaHbgC888qQ)
 

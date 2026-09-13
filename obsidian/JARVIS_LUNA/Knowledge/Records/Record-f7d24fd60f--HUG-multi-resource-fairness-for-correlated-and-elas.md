@@ -1,12 +1,12 @@
 ---
-title: "Record f7d24fd60f · HUG-multi-resource-fairness-for-correlated-and-elastic-demands"
+title: "Record f7d24fd60f · HUG-multi-resource-fairness-for-correlated-and-elas"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.019262+00:00
+updated_at: 2026-09-13T00:56:37.844271+00:00
 tags: [record, real-data]
 ---
 
-# Record f7d24fd60f · HUG-multi-resource-fairness-for-correlated-and-elastic-demands
+# Record f7d24fd60f · HUG-multi-resource-fairness-for-correlated-and-elas
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W2339906866)
 

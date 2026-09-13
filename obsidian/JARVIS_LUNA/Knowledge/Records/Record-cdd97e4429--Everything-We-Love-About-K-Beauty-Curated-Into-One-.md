@@ -1,12 +1,12 @@
 ---
-title: "Record cdd97e4429 · Everything-We-Love-About-K-Beauty-Curated-Into-One-Box---Allure"
+title: "Record cdd97e4429 · Everything-We-Love-About-K-Beauty-Curated-Into-One-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.835464+00:00
+updated_at: 2026-09-13T00:56:37.671605+00:00
 tags: [record, real-data]
 ---
 
-# Record cdd97e4429 · Everything-We-Love-About-K-Beauty-Curated-Into-One-Box---Allure
+# Record cdd97e4429 · Everything-We-Love-About-K-Beauty-Curated-Into-One-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMib0FVX3lxTE9iM0lLc091SHB4dzBKTGt6SFRtRWRnT2g4YWhKRkRoMmFPRnZrc0lzUXNTOGU5aUZoakVaZ0NHSW1iN2J3SXR1bkZJVDRTQ2xfMG12Mno3NWtUV29GSkVRYktFbUFFUnp4ZHVpUEsxcw?oc=5)
 

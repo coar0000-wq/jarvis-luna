@@ -1,12 +1,12 @@
 ---
-title: "Record 58f7aea126 · Integration-of-GWAS-and-single-cell-analysis-for-psoriasis-identifies-"
+title: "Record 58f7aea126 · Integration-of-GWAS-and-single-cell-analysis-for-ps"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.612510+00:00
+updated_at: 2026-09-13T00:56:37.473699+00:00
 tags: [record, real-data]
 ---
 
-# Record 58f7aea126 · Integration-of-GWAS-and-single-cell-analysis-for-psoriasis-identifies-
+# Record 58f7aea126 · Integration-of-GWAS-and-single-cell-analysis-for-ps
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1038/s41467-026-77309-2)
 

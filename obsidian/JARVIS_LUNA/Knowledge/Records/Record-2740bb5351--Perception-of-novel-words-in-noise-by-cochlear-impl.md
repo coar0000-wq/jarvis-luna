@@ -1,12 +1,12 @@
 ---
-title: "Record 2740bb5351 · Perception-of-novel-words-in-noise-by-cochlear-implant-users"
+title: "Record 2740bb5351 · Perception-of-novel-words-in-noise-by-cochlear-impl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.646603+00:00
+updated_at: 2026-09-13T00:56:37.505209+00:00
 tags: [record, real-data]
 ---
 
-# Record 2740bb5351 · Perception-of-novel-words-in-noise-by-cochlear-implant-users
+# Record 2740bb5351 · Perception-of-novel-words-in-noise-by-cochlear-impl
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1121/10.0045379)
 

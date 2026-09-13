@@ -1,12 +1,12 @@
 ---
-title: "Record 80607c6dd9 · AMD-and-Anthropic-Announce-Strategic-Partnership-to-Deploy-Up-to-2-Gig"
+title: "Record 80607c6dd9 · AMD-and-Anthropic-Announce-Strategic-Partnership-to"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.760862+00:00
+updated_at: 2026-09-13T00:56:37.602665+00:00
 tags: [record, real-data]
 ---
 
-# Record 80607c6dd9 · AMD-and-Anthropic-Announce-Strategic-Partnership-to-Deploy-Up-to-2-Gig
+# Record 80607c6dd9 · AMD-and-Anthropic-Announce-Strategic-Partnership-to
 
 > 실제 수집 레코드입니다. 원문: [ir.amd.com](https://ir.amd.com/news-events/press-releases/detail/1292/amd-and-anthropic-announce-strategic-partnership-to-deploy-up-to-2-gigawatts-of-amd-instinct-mi450-series-gpus)
 

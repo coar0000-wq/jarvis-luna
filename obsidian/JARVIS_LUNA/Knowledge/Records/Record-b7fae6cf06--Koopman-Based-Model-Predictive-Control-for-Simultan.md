@@ -1,12 +1,12 @@
 ---
-title: "Record b7fae6cf06 · Koopman-Based-Model-Predictive-Control-for-Simultaneous-State-of-Charg"
+title: "Record b7fae6cf06 · Koopman-Based-Model-Predictive-Control-for-Simultan"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.514858+00:00
+updated_at: 2026-09-13T00:56:37.380085+00:00
 tags: [record, real-data]
 ---
 
-# Record b7fae6cf06 · Koopman-Based-Model-Predictive-Control-for-Simultaneous-State-of-Charg
+# Record b7fae6cf06 · Koopman-Based-Model-Predictive-Control-for-Simultan
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.08008v1)
 

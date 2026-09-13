@@ -1,12 +1,12 @@
 ---
-title: "Record 347a86b1fe · Meet-The-French-Makeup-Trend-Taking-Over-TikTok---NewBeauty"
+title: "Record 347a86b1fe · Meet-The-French-Makeup-Trend-Taking-Over-TikTok---N"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.824707+00:00
+updated_at: 2026-09-13T00:56:37.661732+00:00
 tags: [record, real-data]
 ---
 
-# Record 347a86b1fe · Meet-The-French-Makeup-Trend-Taking-Over-TikTok---NewBeauty
+# Record 347a86b1fe · Meet-The-French-Makeup-Trend-Taking-Over-TikTok---N
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMia0FVX3lxTFBCMTVDZm00TWp5dG90emZrQm5mN0VZVnJ5bkNvbnJNQ1JKYV9IenBKTjBnZGlZMGN4Uy02VmNLeFRFcC1EWUxGNjN4RldtQlJRQ0xuUFBmM1FrUU5fdW5XRWFMQjItNVdCdm9F?oc=5)
 

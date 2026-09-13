@@ -1,12 +1,12 @@
 ---
-title: "Record cd0bf2e5a7 · Assessing-bioaccumulation-with-biomagnification-factors-from-dietary-b"
+title: "Record cd0bf2e5a7 · Assessing-bioaccumulation-with-biomagnification-fac"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.626683+00:00
+updated_at: 2026-09-13T00:56:37.486854+00:00
 tags: [record, real-data]
 ---
 
-# Record cd0bf2e5a7 · Assessing-bioaccumulation-with-biomagnification-factors-from-dietary-b
+# Record cd0bf2e5a7 · Assessing-bioaccumulation-with-biomagnification-fac
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1093/inteam/vjae046)
 

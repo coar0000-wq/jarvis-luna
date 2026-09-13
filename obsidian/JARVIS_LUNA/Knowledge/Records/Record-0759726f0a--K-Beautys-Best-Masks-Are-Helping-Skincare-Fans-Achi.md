@@ -1,12 +1,12 @@
 ---
-title: "Record 0759726f0a · K-Beautys-Best-Masks-Are-Helping-Skincare-Fans-Achieve-a-True-Glass-Sk"
+title: "Record 0759726f0a · K-Beautys-Best-Masks-Are-Helping-Skincare-Fans-Achi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.937777+00:00
+updated_at: 2026-09-13T00:56:37.769611+00:00
 tags: [record, real-data]
 ---
 
-# Record 0759726f0a · K-Beautys-Best-Masks-Are-Helping-Skincare-Fans-Achieve-a-True-Glass-Sk
+# Record 0759726f0a · K-Beautys-Best-Masks-Are-Helping-Skincare-Fans-Achi
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMimgFBVV95cUxPUTUzUEwwYzIteVlTcng5Zl9GT3hfTElLcWRGTGVXN09lT01icWhVamUwS1BlREI0YmJCTmdDaW9iRVlKQ0hVOGZ2TTFHY2RhdTFaS3UwelgtT3gxeXY3RnBrTE9RTXRySjFDa3BFWVdMSXo4bTRhdFA2QjB4T2EzNUZuRlBUVFJqQjhtS3RLTko5WGJBbmJseEh3?oc=5)
 

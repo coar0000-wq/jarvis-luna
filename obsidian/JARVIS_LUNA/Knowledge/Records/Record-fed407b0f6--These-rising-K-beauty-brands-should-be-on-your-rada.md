@@ -1,12 +1,12 @@
 ---
-title: "Record fed407b0f6 · These-rising-K-beauty-brands-should-be-on-your-radar---Page-Six"
+title: "Record fed407b0f6 · These-rising-K-beauty-brands-should-be-on-your-rada"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.904030+00:00
+updated_at: 2026-09-13T00:56:37.738642+00:00
 tags: [record, real-data]
 ---
 
-# Record fed407b0f6 · These-rising-K-beauty-brands-should-be-on-your-radar---Page-Six
+# Record fed407b0f6 · These-rising-K-beauty-brands-should-be-on-your-rada
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdFB5OTE3UUgzbGlLaDBncTh2Q05NZUlwWnFoZTZPOWFGU0lMQTVoSXphUHJSOGVDZXZ2U1dQaWg1Qi11TlFfeUpqVWthNjBOUUgxTkw0UXhRc2hKLWF6dGxKRE05SEwyUDZaVnNvZkZtM0FCcGhLN01oQjJZd193SDcwMjZYZDZr?oc=5)
 

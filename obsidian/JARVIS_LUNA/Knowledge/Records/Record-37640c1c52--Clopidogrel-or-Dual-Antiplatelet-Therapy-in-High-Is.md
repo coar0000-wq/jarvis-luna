@@ -1,12 +1,12 @@
 ---
-title: "Record 37640c1c52 · Clopidogrel-or-Dual-Antiplatelet-Therapy-in-High-Ischemic-Risk-Patient"
+title: "Record 37640c1c52 · Clopidogrel-or-Dual-Antiplatelet-Therapy-in-High-Is"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.617880+00:00
+updated_at: 2026-09-13T00:56:37.478613+00:00
 tags: [record, real-data]
 ---
 
-# Record 37640c1c52 · Clopidogrel-or-Dual-Antiplatelet-Therapy-in-High-Ischemic-Risk-Patient
+# Record 37640c1c52 · Clopidogrel-or-Dual-Antiplatelet-Therapy-in-High-Is
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1056/nejmoa2608533)
 

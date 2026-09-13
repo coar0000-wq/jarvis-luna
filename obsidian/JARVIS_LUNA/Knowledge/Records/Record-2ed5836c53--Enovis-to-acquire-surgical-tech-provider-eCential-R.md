@@ -1,12 +1,12 @@
 ---
-title: "Record 2ed5836c53 · Enovis-to-acquire-surgical-tech-provider-eCential-Robotics-for-180M"
+title: "Record 2ed5836c53 · Enovis-to-acquire-surgical-tech-provider-eCential-R"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.172471+00:00
+updated_at: 2026-09-13T00:56:37.979936+00:00
 tags: [record, real-data]
 ---
 
-# Record 2ed5836c53 · Enovis-to-acquire-surgical-tech-provider-eCential-Robotics-for-180M
+# Record 2ed5836c53 · Enovis-to-acquire-surgical-tech-provider-eCential-R
 
 > 실제 수집 레코드입니다. 원문: [www.therobotreport.com](https://www.therobotreport.com/enovis-to-acquire-ecential-robotics-for-180m/)
 

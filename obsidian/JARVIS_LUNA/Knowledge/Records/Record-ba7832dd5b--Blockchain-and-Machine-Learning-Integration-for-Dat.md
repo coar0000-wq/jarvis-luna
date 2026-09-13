@@ -1,12 +1,12 @@
 ---
-title: "Record ba7832dd5b · Blockchain-and-Machine-Learning-Integration-for-Data-Privacy-and-Secur"
+title: "Record ba7832dd5b · Blockchain-and-Machine-Learning-Integration-for-Dat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.698368+00:00
+updated_at: 2026-09-13T00:56:37.547524+00:00
 tags: [record, real-data]
 ---
 
-# Record ba7832dd5b · Blockchain-and-Machine-Learning-Integration-for-Data-Privacy-and-Secur
+# Record ba7832dd5b · Blockchain-and-Machine-Learning-Integration-for-Dat
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.47672/ejt.2006)
 

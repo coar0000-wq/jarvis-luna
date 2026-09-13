@@ -1,12 +1,12 @@
 ---
-title: "Record f2790277b4 · 6-Best-At-Home-Teeth-Whitening-Kits-for-a-Brighter-Smile"
+title: "Record f2790277b4 · 6-Best-At-Home-Teeth-Whitening-Kits-for-a-Brighter-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.081226+00:00
+updated_at: 2026-09-13T00:56:37.900073+00:00
 tags: [record, real-data]
 ---
 
-# Record f2790277b4 · 6-Best-At-Home-Teeth-Whitening-Kits-for-a-Brighter-Smile
+# Record f2790277b4 · 6-Best-At-Home-Teeth-Whitening-Kits-for-a-Brighter-
 
 > 실제 수집 레코드입니다. 원문: [www.allure.com](https://www.allure.com/story/best-at-home-teeth-whitening-kit)
 

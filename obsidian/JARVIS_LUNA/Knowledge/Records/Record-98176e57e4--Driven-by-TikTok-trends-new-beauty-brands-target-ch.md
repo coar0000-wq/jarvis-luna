@@ -1,12 +1,12 @@
 ---
-title: "Record 98176e57e4 · Driven-by-TikTok-trends-new-beauty-brands-target-children---The-Jakart"
+title: "Record 98176e57e4 · Driven-by-TikTok-trends-new-beauty-brands-target-ch"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.964521+00:00
+updated_at: 2026-09-13T00:56:37.794127+00:00
 tags: [record, real-data]
 ---
 
-# Record 98176e57e4 · Driven-by-TikTok-trends-new-beauty-brands-target-children---The-Jakart
+# Record 98176e57e4 · Driven-by-TikTok-trends-new-beauty-brands-target-ch
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeGlSSGw2T09DbmwyRURTcFlHWmxWN2pNaUtwM2UwQ2NPdjdsdU5rbHRKemdGMl83RC03Mm1BRmh1VkJHREVfV21kdDFhZUdUMjNjeFJRU0xwT2FPT0NUdXA2YjBSLWxJWThJUzU0aHYxTF9DWnluUzM1MUYwcUZ0Z2N1YXF2aVpubXlSWDZBZ1BBVzFobk5TZ3VsWmFWQjByWUlydWFuMjFTVXc?oc=5)
 

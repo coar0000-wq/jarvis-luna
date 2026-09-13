@@ -1,12 +1,12 @@
 ---
-title: "Record d72b739583 · Same-Trajectory-Contradictory-Rewards-ROBORMBENCH-Paraphrase-Fragility"
+title: "Record d72b739583 · Same-Trajectory-Contradictory-Rewards-ROBORMBENCH-P"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.508874+00:00
+updated_at: 2026-09-13T00:56:37.374569+00:00
 tags: [record, real-data]
 ---
 
-# Record d72b739583 · Same-Trajectory-Contradictory-Rewards-ROBORMBENCH-Paraphrase-Fragility
+# Record d72b739583 · Same-Trajectory-Contradictory-Rewards-ROBORMBENCH-P
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.05401v1)
 

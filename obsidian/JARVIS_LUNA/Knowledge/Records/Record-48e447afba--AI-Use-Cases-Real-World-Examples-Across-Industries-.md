@@ -1,12 +1,12 @@
 ---
-title: "Record 48e447afba · AI-Use-Cases-Real-World-Examples-Across-Industries-2025---Shopify"
+title: "Record 48e447afba · AI-Use-Cases-Real-World-Examples-Across-Industries-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.789234+00:00
+updated_at: 2026-09-13T00:56:37.629290+00:00
 tags: [record, real-data]
 ---
 
-# Record 48e447afba · AI-Use-Cases-Real-World-Examples-Across-Industries-2025---Shopify
+# Record 48e447afba · AI-Use-Cases-Real-World-Examples-Across-Industries-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiV0FVX3lxTFBCM0tLTkJ5RjM5ZEhJOXVZeGRJQkJPMXJxSHpHQjBNVHZCR085RzVrU3N5NWt3RGplZDV6OE5qY2dHSHgtUTRCZ25mc1IyVDRUNzlFazB3dw?oc=5)
 

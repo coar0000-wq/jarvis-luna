@@ -1,12 +1,12 @@
 ---
-title: "Record 2f34f2da09 · Predicting-the-status-of-35-sustainable-development-goal-indicators-in"
+title: "Record 2f34f2da09 · Predicting-the-status-of-35-sustainable-development"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.596740+00:00
+updated_at: 2026-09-13T00:56:37.459368+00:00
 tags: [record, real-data]
 ---
 
-# Record 2f34f2da09 · Predicting-the-status-of-35-sustainable-development-goal-indicators-in
+# Record 2f34f2da09 · Predicting-the-status-of-35-sustainable-development
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.lansea.2026.100852)
 

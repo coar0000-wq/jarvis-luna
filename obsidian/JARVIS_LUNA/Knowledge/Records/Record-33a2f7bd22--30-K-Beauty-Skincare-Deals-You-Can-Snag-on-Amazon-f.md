@@ -1,12 +1,12 @@
 ---
-title: "Record 33a2f7bd22 · 30-K-Beauty-Skincare-Deals-You-Can-Snag-on-Amazon-for-Up-to-50-Off-Rig"
+title: "Record 33a2f7bd22 · 30-K-Beauty-Skincare-Deals-You-Can-Snag-on-Amazon-f"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.908113+00:00
+updated_at: 2026-09-13T00:56:37.742446+00:00
 tags: [record, real-data]
 ---
 
-# Record 33a2f7bd22 · 30-K-Beauty-Skincare-Deals-You-Can-Snag-on-Amazon-for-Up-to-50-Off-Rig
+# Record 33a2f7bd22 · 30-K-Beauty-Skincare-Deals-You-Can-Snag-on-Amazon-f
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiigFBVV95cUxPeFg4RnI5cHE5dEVIaDhnSEVvTmFmTUZRNjh3ZG9qMGxvcDB5NzN0WFA0aGhGQlNrX195WHQ5V1Q0S21YeE1mQjJwSmtsM3lrVG1ZMndOOGpESXo2MVZ2dl85YlhUVEgxQkZEODJ2by15d2ZOM0dXN0d6OXI5UlBqd2FaUWkyb2hYVkE?oc=5)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record debf58003c · Booz-Allen-Hamilton-Announces-First-Quarter-Fiscal-Year-2027-Results"
+title: "Record debf58003c · Booz-Allen-Hamilton-Announces-First-Quarter-Fiscal-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.748666+00:00
+updated_at: 2026-09-13T00:56:37.591564+00:00
 tags: [record, real-data]
 ---
 
-# Record debf58003c · Booz-Allen-Hamilton-Announces-First-Quarter-Fiscal-Year-2027-Results
+# Record debf58003c · Booz-Allen-Hamilton-Announces-First-Quarter-Fiscal-
 
 > 실제 수집 레코드입니다. 원문: [investors.boozallen.com](https://investors.boozallen.com/news-releases/news-release-details/booz-allen-hamilton-announces-first-quarter-fiscal-year-2027)
 

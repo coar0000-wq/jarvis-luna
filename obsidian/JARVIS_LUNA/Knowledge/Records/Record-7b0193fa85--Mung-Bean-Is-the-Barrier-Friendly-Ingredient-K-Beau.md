@@ -1,12 +1,12 @@
 ---
-title: "Record 7b0193fa85 · Mung-Bean-Is-the-Barrier-Friendly-Ingredient-K-Beauty-Has-Loved-for-Ce"
+title: "Record 7b0193fa85 · Mung-Bean-Is-the-Barrier-Friendly-Ingredient-K-Beau"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.798100+00:00
+updated_at: 2026-09-13T00:56:37.637477+00:00
 tags: [record, real-data]
 ---
 
-# Record 7b0193fa85 · Mung-Bean-Is-the-Barrier-Friendly-Ingredient-K-Beauty-Has-Loved-for-Ce
+# Record 7b0193fa85 · Mung-Bean-Is-the-Barrier-Friendly-Ingredient-K-Beau
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiX0FVX3lxTE5iYjExb1dGVG04MkV1bUVOem9EMEd0M2ZGdGdMVlNDN2xkcjNIUXY2MTNmNEZBRFVlNU1SN3ZUNEdtWFVrUVN6dGdhX1h0aFNNUXcwSzE4OXZVcGtFT1k0?oc=5)
 

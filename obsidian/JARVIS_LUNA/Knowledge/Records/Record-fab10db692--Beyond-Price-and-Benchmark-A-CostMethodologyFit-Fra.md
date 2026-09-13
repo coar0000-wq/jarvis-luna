@@ -1,12 +1,12 @@
 ---
-title: "Record fab10db692 · Beyond-Price-and-Benchmark-A-CostMethodologyFit-Framework-for-Selectin"
+title: "Record fab10db692 · Beyond-Price-and-Benchmark-A-CostMethodologyFit-Fra"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.730210+00:00
+updated_at: 2026-09-13T00:56:37.574414+00:00
 tags: [record, real-data]
 ---
 
-# Record fab10db692 · Beyond-Price-and-Benchmark-A-CostMethodologyFit-Framework-for-Selectin
+# Record fab10db692 · Beyond-Price-and-Benchmark-A-CostMethodologyFit-Fra
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.64823/ijcsa.2601002)
 

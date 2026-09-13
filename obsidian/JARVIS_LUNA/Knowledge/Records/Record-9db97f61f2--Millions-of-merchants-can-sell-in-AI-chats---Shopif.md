@@ -1,12 +1,12 @@
 ---
-title: "Record 9db97f61f2 · Millions-of-merchants-can-sell-in-AI-chats---Shopify"
+title: "Record 9db97f61f2 · Millions-of-merchants-can-sell-in-AI-chats---Shopif"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.818410+00:00
+updated_at: 2026-09-13T00:56:37.655954+00:00
 tags: [record, real-data]
 ---
 
-# Record 9db97f61f2 · Millions-of-merchants-can-sell-in-AI-chats---Shopify
+# Record 9db97f61f2 · Millions-of-merchants-can-sell-in-AI-chats---Shopif
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiZEFVX3lxTFB6QTdDN09XcmtrM3hqenZCcnN5Mml5aWdDSWUweE5qMWRSOVBBRWNFMzdLNDFfcml4RUFrMjJpSkFpMDA4cUUwSXNUZ013Zm9jUFpZMmlWdHE5OVdUYlBPR042N2w?oc=5)
 

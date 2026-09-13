@@ -1,12 +1,12 @@
 ---
-title: "Record 86511f91c0 · K-Beauty-Travel-Is-Booming-Why-Everyone-Is-Booking-Beauty-Trips-to-Sou"
+title: "Record 86511f91c0 · K-Beauty-Travel-Is-Booming-Why-Everyone-Is-Booking-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.880470+00:00
+updated_at: 2026-09-13T00:56:37.716986+00:00
 tags: [record, real-data]
 ---
 
-# Record 86511f91c0 · K-Beauty-Travel-Is-Booming-Why-Everyone-Is-Booking-Beauty-Trips-to-Sou
+# Record 86511f91c0 · K-Beauty-Travel-Is-Booming-Why-Everyone-Is-Booking-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMifEFVX3lxTFB5d010RE5pV2xVaGRqenQ2d081Y0cyUGZLUFFya3Y0R3V0S285LVdyNFR3eDc5djlxWi1iNUFqUGhDam9xSGpLdzZrSUtNRnl6Rl9ERGthUU5hMWZTZ1J4azhYcFRtRlphS045VF9EXzdVX2lrQ3l4dWRKdmnSAXxBVV95cUxPbW9kcnp0TEZPOTN0ZEpWYTFtMmsybEszSHhuSmF2QnUya3Y1QTA4elFFSVdZZFV2V3pwZS1zWDRCOWRUWFdqMnJ2TjNtTVRqcHQwdEpIOUMzMGUyN0k2T2tZS3VOOEpfbGtteXhJMjRONFJLemhDT3J4M3Yx?oc=5)
 

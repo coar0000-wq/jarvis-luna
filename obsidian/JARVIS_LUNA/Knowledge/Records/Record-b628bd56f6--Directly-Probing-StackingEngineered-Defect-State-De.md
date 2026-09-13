@@ -1,12 +1,12 @@
 ---
-title: "Record b628bd56f6 · Directly-Probing-StackingEngineered-Defect-State-Delocalization-in-Mar"
+title: "Record b628bd56f6 · Directly-Probing-StackingEngineered-Defect-State-De"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.579450+00:00
+updated_at: 2026-09-13T00:56:37.443574+00:00
 tags: [record, real-data]
 ---
 
-# Record b628bd56f6 · Directly-Probing-StackingEngineered-Defect-State-Delocalization-in-Mar
+# Record b628bd56f6 · Directly-Probing-StackingEngineered-Defect-State-De
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1002/smll.75065)
 

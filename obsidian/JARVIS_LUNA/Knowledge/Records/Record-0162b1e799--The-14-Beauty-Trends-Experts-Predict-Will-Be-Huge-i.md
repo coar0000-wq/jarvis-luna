@@ -1,12 +1,12 @@
 ---
-title: "Record 0162b1e799 · The-14-Beauty-Trends-Experts-Predict-Will-Be-Huge-in-2026---Good-House"
+title: "Record 0162b1e799 · The-14-Beauty-Trends-Experts-Predict-Will-Be-Huge-i"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.864911+00:00
+updated_at: 2026-09-13T00:56:37.702145+00:00
 tags: [record, real-data]
 ---
 
-# Record 0162b1e799 · The-14-Beauty-Trends-Experts-Predict-Will-Be-Huge-in-2026---Good-House
+# Record 0162b1e799 · The-14-Beauty-Trends-Experts-Predict-Will-Be-Huge-i
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMieEFVX3lxTE05MFRGbXowa0NQMTBkT3dCOWFjNG5FN2JOMHZ6dVVqUDhYWjFlT3lpMWdBalM4WEtKRFI0SFlVZzZ2YkRwY0VqaGo5QkVfa3RTcGxPdjdwR19CR1k1Mk15MUhzUGN1aHJJdEY0a3ppSTkwNlhnQl9lUg?oc=5)
 

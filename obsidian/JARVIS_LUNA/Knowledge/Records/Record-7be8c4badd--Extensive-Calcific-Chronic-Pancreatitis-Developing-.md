@@ -1,12 +1,12 @@
 ---
-title: "Record 7be8c4badd · Extensive-Calcific-Chronic-Pancreatitis-Developing-Within-Three-Years-"
+title: "Record 7be8c4badd · Extensive-Calcific-Chronic-Pancreatitis-Developing-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.737343+00:00
+updated_at: 2026-09-13T00:56:37.581098+00:00
 tags: [record, real-data]
 ---
 
-# Record 7be8c4badd · Extensive-Calcific-Chronic-Pancreatitis-Developing-Within-Three-Years-
+# Record 7be8c4badd · Extensive-Calcific-Chronic-Pancreatitis-Developing-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.7759/cureus.113323)
 

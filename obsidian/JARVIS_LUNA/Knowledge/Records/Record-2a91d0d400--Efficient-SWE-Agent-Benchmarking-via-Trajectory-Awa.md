@@ -1,12 +1,12 @@
 ---
-title: "Record 2a91d0d400 · Efficient-SWE-Agent-Benchmarking-via-Trajectory-Aware-Evaluation"
+title: "Record 2a91d0d400 · Efficient-SWE-Agent-Benchmarking-via-Trajectory-Awa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.474084+00:00
+updated_at: 2026-09-13T00:56:37.343033+00:00
 tags: [record, real-data]
 ---
 
-# Record 2a91d0d400 · Efficient-SWE-Agent-Benchmarking-via-Trajectory-Aware-Evaluation
+# Record 2a91d0d400 · Efficient-SWE-Agent-Benchmarking-via-Trajectory-Awa
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.01603v1)
 

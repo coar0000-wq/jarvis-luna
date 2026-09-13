@@ -1,12 +1,12 @@
 ---
-title: "Record f13e114d63 · The-consequences-of-high-SMR-operating-costs-in-electricity-markets"
+title: "Record f13e114d63 · The-consequences-of-high-SMR-operating-costs-in-ele"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.522135+00:00
+updated_at: 2026-09-13T00:56:37.386890+00:00
 tags: [record, real-data]
 ---
 
-# Record f13e114d63 · The-consequences-of-high-SMR-operating-costs-in-electricity-markets
+# Record f13e114d63 · The-consequences-of-high-SMR-operating-costs-in-ele
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.08929v1)
 

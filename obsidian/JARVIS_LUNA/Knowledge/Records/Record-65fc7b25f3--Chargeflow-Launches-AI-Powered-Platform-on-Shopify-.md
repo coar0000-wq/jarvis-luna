@@ -1,12 +1,12 @@
 ---
-title: "Record 65fc7b25f3 · Chargeflow-Launches-AI-Powered-Platform-on-Shopify-to-Help-E-Commerce-"
+title: "Record 65fc7b25f3 · Chargeflow-Launches-AI-Powered-Platform-on-Shopify-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.967521+00:00
+updated_at: 2026-09-13T00:56:37.796879+00:00
 tags: [record, real-data]
 ---
 
-# Record 65fc7b25f3 · Chargeflow-Launches-AI-Powered-Platform-on-Shopify-to-Help-E-Commerce-
+# Record 65fc7b25f3 · Chargeflow-Launches-AI-Powered-Platform-on-Shopify-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMirAFBVV95cUxQd1ZjZzBFbVk1bmJqNDJjbXctaUxjSG92MHExN2FXNzBxU245TEphVEd1Q1hHLTNMLWlEbUVVMUk2ZmNJaE1UZmhSMWhkbkVTSlJQcGNSOV9ENmxoYmhVdWo5QVlMLUxTa0dMZXM3MVRrVU1HV2VySVlPOE02Ny1hemIyNGhWVGdmOG53WHdkZTJiM2RJUGk5V2FTaDdsREFLUllYZUNya29zOU9N?oc=5)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record c7fdd7cb83 · ExecCritic-Learn-to-Test-Test-to-Improve-for-Coding-Agents"
+title: "Record c7fdd7cb83 · ExecCritic-Learn-to-Test-Test-to-Improve-for-Coding"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.526560+00:00
+updated_at: 2026-09-13T00:56:37.390912+00:00
 tags: [record, real-data]
 ---
 
-# Record c7fdd7cb83 · ExecCritic-Learn-to-Test-Test-to-Improve-for-Coding-Agents
+# Record c7fdd7cb83 · ExecCritic-Learn-to-Test-Test-to-Improve-for-Coding
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.09133v1)
 

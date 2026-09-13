@@ -1,12 +1,12 @@
 ---
-title: "Record 052e055fd8 · Analysis-of-the-dynamics-and-current-state-of-innovative-activity-in-t"
+title: "Record 052e055fd8 · Analysis-of-the-dynamics-and-current-state-of-innov"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.679349+00:00
+updated_at: 2026-09-13T00:56:37.532050+00:00
 tags: [record, real-data]
 ---
 
-# Record 052e055fd8 · Analysis-of-the-dynamics-and-current-state-of-innovative-activity-in-t
+# Record 052e055fd8 · Analysis-of-the-dynamics-and-current-state-of-innov
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.26118/2782-4586.2024.77.22.024)
 

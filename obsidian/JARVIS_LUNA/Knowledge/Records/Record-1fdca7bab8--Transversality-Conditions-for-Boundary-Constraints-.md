@@ -1,12 +1,12 @@
 ---
-title: "Record 1fdca7bab8 · Transversality-Conditions-for-Boundary-Constraints-Defined-by-Differen"
+title: "Record 1fdca7bab8 · Transversality-Conditions-for-Boundary-Constraints-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.489241+00:00
+updated_at: 2026-09-13T00:56:37.356860+00:00
 tags: [record, real-data]
 ---
 
-# Record 1fdca7bab8 · Transversality-Conditions-for-Boundary-Constraints-Defined-by-Differen
+# Record 1fdca7bab8 · Transversality-Conditions-for-Boundary-Constraints-
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.04084v1)
 

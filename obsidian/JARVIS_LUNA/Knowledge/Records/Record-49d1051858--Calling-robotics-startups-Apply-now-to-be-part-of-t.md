@@ -1,12 +1,12 @@
 ---
-title: "Record 49d1051858 · Calling-robotics-startups-Apply-now-to-be-part-of-the-2026-Robotics-St"
+title: "Record 49d1051858 · Calling-robotics-startups-Apply-now-to-be-part-of-t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.171830+00:00
+updated_at: 2026-09-13T00:56:37.979429+00:00
 tags: [record, real-data]
 ---
 
-# Record 49d1051858 · Calling-robotics-startups-Apply-now-to-be-part-of-the-2026-Robotics-St
+# Record 49d1051858 · Calling-robotics-startups-Apply-now-to-be-part-of-t
 
 > 실제 수집 레코드입니다. 원문: [www.therobotreport.com](https://www.therobotreport.com/calling-all-robotics-startups-apply-now-2026-robotics-startup-radar/)
 

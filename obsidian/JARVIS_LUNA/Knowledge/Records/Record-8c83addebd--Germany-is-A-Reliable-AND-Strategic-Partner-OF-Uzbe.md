@@ -1,12 +1,12 @@
 ---
-title: "Record 8c83addebd · Germany-is-A-Reliable-AND-Strategic-Partner-OF-Uzbekistan"
+title: "Record 8c83addebd · Germany-is-A-Reliable-AND-Strategic-Partner-OF-Uzbe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.026370+00:00
+updated_at: 2026-09-13T00:56:37.850960+00:00
 tags: [record, real-data]
 ---
 
-# Record 8c83addebd · Germany-is-A-Reliable-AND-Strategic-Partner-OF-Uzbekistan
+# Record 8c83addebd · Germany-is-A-Reliable-AND-Strategic-Partner-OF-Uzbe
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7161656822)
 

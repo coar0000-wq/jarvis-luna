@@ -1,12 +1,12 @@
 ---
-title: "Record 07bf942b61 · Customer-Service-Statistics-33-Key-Stats-for-2026---Shopify"
+title: "Record 07bf942b61 · Customer-Service-Statistics-33-Key-Stats-for-2026--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.813555+00:00
+updated_at: 2026-09-13T00:56:37.651494+00:00
 tags: [record, real-data]
 ---
 
-# Record 07bf942b61 · Customer-Service-Statistics-33-Key-Stats-for-2026---Shopify
+# Record 07bf942b61 · Customer-Service-Statistics-33-Key-Stats-for-2026--
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VanowRktiRTJZN0pEM2lTbjVKWjY2R29ac1VFdk1KQ0NSQmNXN1BubjZGckstZlh0Z2ZMYXN2VTJCVzFQbWdsQXY5dTJxRk1UeGc1ZGh5emIzVHZhS3FFMEl5elc4eTA?oc=5)
 

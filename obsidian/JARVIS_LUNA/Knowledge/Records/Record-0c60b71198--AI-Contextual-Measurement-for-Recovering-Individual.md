@@ -1,12 +1,12 @@
 ---
-title: "Record 0c60b71198 · AI-Contextual-Measurement-for-Recovering-Individual-and-Group-Level-Ef"
+title: "Record 0c60b71198 · AI-Contextual-Measurement-for-Recovering-Individual"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.475680+00:00
+updated_at: 2026-09-13T00:56:37.344512+00:00
 tags: [record, real-data]
 ---
 
-# Record 0c60b71198 · AI-Contextual-Measurement-for-Recovering-Individual-and-Group-Level-Ef
+# Record 0c60b71198 · AI-Contextual-Measurement-for-Recovering-Individual
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.02821v1)
 

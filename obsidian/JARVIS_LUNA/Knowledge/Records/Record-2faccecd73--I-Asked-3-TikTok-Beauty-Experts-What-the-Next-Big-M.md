@@ -1,12 +1,12 @@
 ---
-title: "Record 2faccecd73 · I-Asked-3-TikTok-Beauty-Experts-What-the-Next-Big-Makeup-Trends-Will-B"
+title: "Record 2faccecd73 · I-Asked-3-TikTok-Beauty-Experts-What-the-Next-Big-M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.807313+00:00
+updated_at: 2026-09-13T00:56:37.645651+00:00
 tags: [record, real-data]
 ---
 
-# Record 2faccecd73 · I-Asked-3-TikTok-Beauty-Experts-What-the-Next-Big-Makeup-Trends-Will-B
+# Record 2faccecd73 · I-Asked-3-TikTok-Beauty-Experts-What-the-Next-Big-M
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiYEFVX3lxTE5YdlBtX0RVdlVIRVNFaHRXdExGSG5ZbnU1QVItbm9YTjZ6bHphQW8tNFlYMkFGY2NyaWtqZU9SQjJub0ZrdXNJSmNHakJrdlNBSVdBQUhpY1VoQ1JqRFlsWQ?oc=5)
 

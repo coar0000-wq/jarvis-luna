@@ -1,12 +1,12 @@
 ---
-title: "Record 11fd853a96 · Harnessing-Reaction-Driven-Structural-Evolution-of-Zeolite-Supported-G"
+title: "Record 11fd853a96 · Harnessing-Reaction-Driven-Structural-Evolution-of-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.608893+00:00
+updated_at: 2026-09-13T00:56:37.470411+00:00
 tags: [record, real-data]
 ---
 
-# Record 11fd853a96 · Harnessing-Reaction-Driven-Structural-Evolution-of-Zeolite-Supported-G
+# Record 11fd853a96 · Harnessing-Reaction-Driven-Structural-Evolution-of-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1021/jacs.6c08430)
 

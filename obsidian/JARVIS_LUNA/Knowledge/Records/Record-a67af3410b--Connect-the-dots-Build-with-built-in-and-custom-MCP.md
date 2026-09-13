@@ -1,12 +1,12 @@
 ---
-title: "Record a67af3410b · Connect-the-dots-Build-with-built-in-and-custom-MCPs-in-Studio"
+title: "Record a67af3410b · Connect-the-dots-Build-with-built-in-and-custom-MCP"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.766979+00:00
+updated_at: 2026-09-13T00:56:37.608210+00:00
 tags: [record, real-data]
 ---
 
-# Record a67af3410b · Connect-the-dots-Build-with-built-in-and-custom-MCPs-in-Studio
+# Record a67af3410b · Connect-the-dots-Build-with-built-in-and-custom-MCP
 
 > 실제 수집 레코드입니다. 원문: [mistral.ai](https://mistral.ai/news/connectors/)
 

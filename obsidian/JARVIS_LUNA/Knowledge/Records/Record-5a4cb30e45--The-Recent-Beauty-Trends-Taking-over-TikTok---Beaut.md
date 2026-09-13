@@ -1,12 +1,12 @@
 ---
-title: "Record 5a4cb30e45 · The-Recent-Beauty-Trends-Taking-over-TikTok---BeautyMatter"
+title: "Record 5a4cb30e45 · The-Recent-Beauty-Trends-Taking-over-TikTok---Beaut"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.894476+00:00
+updated_at: 2026-09-13T00:56:37.729690+00:00
 tags: [record, real-data]
 ---
 
-# Record 5a4cb30e45 · The-Recent-Beauty-Trends-Taking-over-TikTok---BeautyMatter
+# Record 5a4cb30e45 · The-Recent-Beauty-Trends-Taking-over-TikTok---Beaut
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMihAFBVV95cUxOTFc4Zzc0QmZXODVDS3ZTbUFKaVZsSHNQeGM2VVpHbzJjRTZRODdXZVVfeTBJdEo4RXJ4UjhiOHkxc21BZEJ2Z2VNdG1hVS11dzlzWXY3NHczaVN2UDBJZWdxems2ZERBQkJrVmM2U3VWbjM5SG1fQjEyU3RTZXhPZGhhT3A?oc=5)
 

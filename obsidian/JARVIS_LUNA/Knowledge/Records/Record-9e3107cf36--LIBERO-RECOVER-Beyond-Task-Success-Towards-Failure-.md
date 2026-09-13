@@ -1,12 +1,12 @@
 ---
-title: "Record 9e3107cf36 · LIBERO-RECOVER-Beyond-Task-Success-Towards-Failure-Recovery-in-Robotic"
+title: "Record 9e3107cf36 · LIBERO-RECOVER-Beyond-Task-Success-Towards-Failure-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.501111+00:00
+updated_at: 2026-09-13T00:56:37.367544+00:00
 tags: [record, real-data]
 ---
 
-# Record 9e3107cf36 · LIBERO-RECOVER-Beyond-Task-Success-Towards-Failure-Recovery-in-Robotic
+# Record 9e3107cf36 · LIBERO-RECOVER-Beyond-Task-Success-Towards-Failure-
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.05178v1)
 

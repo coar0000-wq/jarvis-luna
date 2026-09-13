@@ -1,12 +1,12 @@
 ---
-title: "Record be5a0e37a2 · K-Beautys-Expanding-Influence-on-Global-Beauty-Trends---Beauty-Packagi"
+title: "Record be5a0e37a2 · K-Beautys-Expanding-Influence-on-Global-Beauty-Tren"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.945321+00:00
+updated_at: 2026-09-13T00:56:37.776565+00:00
 tags: [record, real-data]
 ---
 
-# Record be5a0e37a2 · K-Beautys-Expanding-Influence-on-Global-Beauty-Trends---Beauty-Packagi
+# Record be5a0e37a2 · K-Beautys-Expanding-Influence-on-Global-Beauty-Tren
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMingFBVV95cUxNd0Uya3ZtVk5MdkdiNjN1aFZ1MVN2M3NaUHhhQnhMQl9SYXJzZUtaeHlFSlRZRENwWmEyX3h2d2szZ2ZJVWpNUkZBTDBuenJ0TWZCR21ONFROcjdLZlZRMkFkTWszOUJ5SUxFSUNKN2JSR1RkcDg4amI1Z0VsbVhYMTViTDFhMFQxVnZqQU5rNXFiNzVla1FXbFpsRENDZw?oc=5)
 

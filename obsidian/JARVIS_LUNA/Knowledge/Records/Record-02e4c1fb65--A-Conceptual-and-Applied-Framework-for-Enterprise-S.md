@@ -1,12 +1,12 @@
 ---
-title: "Record 02e4c1fb65 · A-Conceptual-and-Applied-Framework-for-Enterprise-ServiceNow-Program-D"
+title: "Record 02e4c1fb65 · A-Conceptual-and-Applied-Framework-for-Enterprise-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.725625+00:00
+updated_at: 2026-09-13T00:56:37.570095+00:00
 tags: [record, real-data]
 ---
 
-# Record 02e4c1fb65 · A-Conceptual-and-Applied-Framework-for-Enterprise-ServiceNow-Program-D
+# Record 02e4c1fb65 · A-Conceptual-and-Applied-Framework-for-Enterprise-S
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.56201/ijssmr.vol.12no2.2026.pg124.143)
 

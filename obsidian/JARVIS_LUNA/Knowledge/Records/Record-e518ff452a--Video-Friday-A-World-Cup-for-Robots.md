@@ -2,7 +2,7 @@
 title: "Record e518ff452a · Video-Friday-A-World-Cup-for-Robots"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.054553+00:00
+updated_at: 2026-09-13T00:56:37.877476+00:00
 tags: [record, real-data]
 ---
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 6f6ce6ae43 · Toasty-Makeup-Has-Been-Signed-Off-By-TikTok-As-This-Summers-Top-Beauty"
+title: "Record 6f6ce6ae43 · Toasty-Makeup-Has-Been-Signed-Off-By-TikTok-As-This"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.819434+00:00
+updated_at: 2026-09-13T00:56:37.656895+00:00
 tags: [record, real-data]
 ---
 
-# Record 6f6ce6ae43 · Toasty-Makeup-Has-Been-Signed-Off-By-TikTok-As-This-Summers-Top-Beauty
+# Record 6f6ce6ae43 · Toasty-Makeup-Has-Been-Signed-Off-By-TikTok-As-This
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiZkFVX3lxTE1kcDJjZFpJSlN4dk9URzBsR1VxclhxNUdwS0UwNGRmQWpZNnJXdXBDREw5Wnk0NWJNamhwanloSUZyckp0Q1RnNU16SW5HNE1CTUNlOWVPTElIVkUxTE5qYU9UdnlxZw?oc=5)
 

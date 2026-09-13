@@ -1,12 +1,12 @@
 ---
-title: "Record 357485e7d4 · European-Stocks-Defy-Global-Shocks-With-Strong-Earnings-Growth"
+title: "Record 357485e7d4 · European-Stocks-Defy-Global-Shocks-With-Strong-Earn"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.129310+00:00
+updated_at: 2026-09-13T00:56:37.944889+00:00
 tags: [record, real-data]
 ---
 
-# Record 357485e7d4 · European-Stocks-Defy-Global-Shocks-With-Strong-Earnings-Growth
+# Record 357485e7d4 · European-Stocks-Defy-Global-Shocks-With-Strong-Earn
 
 > 실제 수집 레코드입니다. 원문: [www.goldmansachs.com](https://www.goldmansachs.com/insights/articles/european-stocks-defy-global-shocks-with-strong-earnings-growth)
 

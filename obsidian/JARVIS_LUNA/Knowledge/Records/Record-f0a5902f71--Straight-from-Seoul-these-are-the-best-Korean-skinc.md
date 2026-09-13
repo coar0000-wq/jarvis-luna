@@ -1,12 +1,12 @@
 ---
-title: "Record f0a5902f71 · Straight-from-Seoul-these-are-the-best-Korean-skincare-products-worth-"
+title: "Record f0a5902f71 · Straight-from-Seoul-these-are-the-best-Korean-skinc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.854449+00:00
+updated_at: 2026-09-13T00:56:37.691124+00:00
 tags: [record, real-data]
 ---
 
-# Record f0a5902f71 · Straight-from-Seoul-these-are-the-best-Korean-skincare-products-worth-
+# Record f0a5902f71 · Straight-from-Seoul-these-are-the-best-Korean-skinc
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMid0FVX3lxTE5VSXBtZUQ1VW5vZnhFTFdkR1NRcGZKWFhvN19ac0ljLXdhUUlXaHBSOXAybVpobUZLU2JST1N2bmxzdEk4OXpIcDZOMU1MZk96WXRNMDQ5cE5BbWFOVXczMHNHWldaN3A2czI5d3lwRlNKODdNb09J?oc=5)
 

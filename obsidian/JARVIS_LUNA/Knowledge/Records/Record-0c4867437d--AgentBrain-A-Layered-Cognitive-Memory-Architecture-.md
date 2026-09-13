@@ -1,12 +1,12 @@
 ---
-title: "Record 0c4867437d · AgentBrain-A-Layered-Cognitive-Memory-Architecture-for-Long-Lived-AI-A"
+title: "Record 0c4867437d · AgentBrain-A-Layered-Cognitive-Memory-Architecture-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.708647+00:00
+updated_at: 2026-09-13T00:56:37.555714+00:00
 tags: [record, real-data]
 ---
 
-# Record 0c4867437d · AgentBrain-A-Layered-Cognitive-Memory-Architecture-for-Long-Lived-AI-A
+# Record 0c4867437d · AgentBrain-A-Layered-Cognitive-Memory-Architecture-
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.20371134)
 

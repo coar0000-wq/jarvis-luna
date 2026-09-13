@@ -1,12 +1,12 @@
 ---
-title: "Record d66d27ca3c · Celah-Regulasi-atau-Dilema-Pro-Investasi-Kasus-Impor-Truk-CBU-Tiongkok"
+title: "Record d66d27ca3c · Celah-Regulasi-atau-Dilema-Pro-Investasi-Kasus-Impo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.680448+00:00
+updated_at: 2026-09-13T00:56:37.532939+00:00
 tags: [record, real-data]
 ---
 
-# Record d66d27ca3c · Celah-Regulasi-atau-Dilema-Pro-Investasi-Kasus-Impor-Truk-CBU-Tiongkok
+# Record d66d27ca3c · Celah-Regulasi-atau-Dilema-Pro-Investasi-Kasus-Impo
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.26740/mitrans.v4n2.p515-525)
 

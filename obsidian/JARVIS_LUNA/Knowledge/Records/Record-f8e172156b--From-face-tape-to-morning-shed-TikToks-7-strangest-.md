@@ -1,12 +1,12 @@
 ---
-title: "Record f8e172156b · From-face-tape-to-morning-shed-TikToks-7-strangest-beauty-fads--and-wh"
+title: "Record f8e172156b · From-face-tape-to-morning-shed-TikToks-7-strangest-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.943917+00:00
+updated_at: 2026-09-13T00:56:37.775302+00:00
 tags: [record, real-data]
 ---
 
-# Record f8e172156b · From-face-tape-to-morning-shed-TikToks-7-strangest-beauty-fads--and-wh
+# Record f8e172156b · From-face-tape-to-morning-shed-TikToks-7-strangest-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMinAFBVV95cUxQamNkWVd6QVQ1YWRiZG9Kd3V0U25WdV8wYU1OeU96T3RPUGJRWnZOdXEyZWoxVVozaG9wdTVqa1pfQTdIeDNfNkp4SHFDbWZEZlExVWtXLXpZLWlzV2NuV0tpUVlmeVJpak1QdkFYVzZwbDMwYUM2NVNWMkIxRmNxRDB3MWdHZUlHcTRaU0VTMEZBWElJbkpEZmJpV0w?oc=5)
 

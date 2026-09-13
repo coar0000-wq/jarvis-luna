@@ -1,12 +1,12 @@
 ---
-title: "Record 6a5e41b951 · AAI-2026-AMD-Delivers-Full-Stack-Compute-for-the-Agentic-AI-Era"
+title: "Record 6a5e41b951 · AAI-2026-AMD-Delivers-Full-Stack-Compute-for-the-Ag"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.761397+00:00
+updated_at: 2026-09-13T00:56:37.603124+00:00
 tags: [record, real-data]
 ---
 
-# Record 6a5e41b951 · AAI-2026-AMD-Delivers-Full-Stack-Compute-for-the-Agentic-AI-Era
+# Record 6a5e41b951 · AAI-2026-AMD-Delivers-Full-Stack-Compute-for-the-Ag
 
 > 실제 수집 레코드입니다. 원문: [ir.amd.com](https://ir.amd.com/news-events/press-releases/detail/1294/aai-2026-amd-delivers-full-stack-compute-for-the-agentic-ai-era)
 

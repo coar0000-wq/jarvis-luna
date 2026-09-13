@@ -1,12 +1,12 @@
 ---
-title: "Record f2f40912eb · MedMamba-Recasting-Mamba-for-Medical-Time-Series-Classification"
+title: "Record f2f40912eb · MedMamba-Recasting-Mamba-for-Medical-Time-Series-Cl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.024816+00:00
+updated_at: 2026-09-13T00:56:37.849563+00:00
 tags: [record, real-data]
 ---
 
-# Record f2f40912eb · MedMamba-Recasting-Mamba-for-Medical-Time-Series-Classification
+# Record f2f40912eb · MedMamba-Recasting-Mamba-for-Medical-Time-Series-Cl
 
 > 실제 수집 레코드입니다. 원문: [openalex.org](https://openalex.org/W7160727558)
 

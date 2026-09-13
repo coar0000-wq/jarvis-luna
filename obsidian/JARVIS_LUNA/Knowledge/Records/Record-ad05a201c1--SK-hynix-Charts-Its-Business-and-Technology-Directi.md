@@ -1,12 +1,12 @@
 ---
-title: "Record ad05a201c1 · SK-hynix-Charts-Its-Business-and-Technology-Direction-at-the-2026-Futu"
+title: "Record ad05a201c1 · SK-hynix-Charts-Its-Business-and-Technology-Directi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.006094+00:00
+updated_at: 2026-09-13T00:56:37.832178+00:00
 tags: [record, real-data]
 ---
 
-# Record ad05a201c1 · SK-hynix-Charts-Its-Business-and-Technology-Direction-at-the-2026-Futu
+# Record ad05a201c1 · SK-hynix-Charts-Its-Business-and-Technology-Directi
 
 > 실제 수집 레코드입니다. 원문: [news.skhynix.com](https://news.skhynix.com/en/future-forum-2026-6/)
 

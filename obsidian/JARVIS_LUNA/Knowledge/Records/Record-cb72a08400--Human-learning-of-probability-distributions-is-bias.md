@@ -1,12 +1,12 @@
 ---
-title: "Record cb72a08400 · Human-learning-of-probability-distributions-is-biased-toward-moderate-"
+title: "Record cb72a08400 · Human-learning-of-probability-distributions-is-bias"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.612046+00:00
+updated_at: 2026-09-13T00:56:37.473261+00:00
 tags: [record, real-data]
 ---
 
-# Record cb72a08400 · Human-learning-of-probability-distributions-is-biased-toward-moderate-
+# Record cb72a08400 · Human-learning-of-probability-distributions-is-bias
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1038/s41467-026-76247-3)
 

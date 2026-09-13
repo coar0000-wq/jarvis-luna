@@ -1,12 +1,12 @@
 ---
-title: "Record 9be0875f63 · What-Is-The-Outlook-For-Diesel-And-Gasoline-Supplies"
+title: "Record 9be0875f63 · What-Is-The-Outlook-For-Diesel-And-Gasoline-Supplie"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.132284+00:00
+updated_at: 2026-09-13T00:56:37.947349+00:00
 tags: [record, real-data]
 ---
 
-# Record 9be0875f63 · What-Is-The-Outlook-For-Diesel-And-Gasoline-Supplies
+# Record 9be0875f63 · What-Is-The-Outlook-For-Diesel-And-Gasoline-Supplie
 
 > 실제 수집 레코드입니다. 원문: [www.goldmansachs.com](https://www.goldmansachs.com/insights/the-markets/what-is-the-outlook-for-diesel-and-gasoline-supplies)
 

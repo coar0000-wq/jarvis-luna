@@ -1,12 +1,12 @@
 ---
-title: "Record b860b971cc · Health-CareAssociated-Infections-in-US-Hospitals-2023-versus-2015"
+title: "Record b860b971cc · Health-CareAssociated-Infections-in-US-Hospitals-20"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.617658+00:00
+updated_at: 2026-09-13T00:56:37.478407+00:00
 tags: [record, real-data]
 ---
 
-# Record b860b971cc · Health-CareAssociated-Infections-in-US-Hospitals-2023-versus-2015
+# Record b860b971cc · Health-CareAssociated-Infections-in-US-Hospitals-20
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1056/nejmoa2510881)
 

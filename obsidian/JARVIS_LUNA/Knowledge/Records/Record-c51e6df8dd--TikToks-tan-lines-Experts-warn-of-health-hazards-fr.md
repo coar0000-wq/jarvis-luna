@@ -1,12 +1,12 @@
 ---
-title: "Record c51e6df8dd · TikToks-tan-lines-Experts-warn-of-health-hazards-from-viral-skin-care-"
+title: "Record c51e6df8dd · TikToks-tan-lines-Experts-warn-of-health-hazards-fr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.892595+00:00
+updated_at: 2026-09-13T00:56:37.727951+00:00
 tags: [record, real-data]
 ---
 
-# Record c51e6df8dd · TikToks-tan-lines-Experts-warn-of-health-hazards-from-viral-skin-care-
+# Record c51e6df8dd · TikToks-tan-lines-Experts-warn-of-health-hazards-fr
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMigwFBVV95cUxPM1ZmUkxtYVlFWUFYWlZXQ0R6X2lZWFM3Z3lYQjBYQkpCeGt2OHdRbXdJX2JmYnkzazIwVDU1d25xNDBqRzRjdUVvOE9ob3RZengycEtVVk5qOW5RSjRwT3I3dFRockI5cWpwMTdIY1dtRnpXNkhyNFNwaVlPWUsxaTZaaw?oc=5)
 

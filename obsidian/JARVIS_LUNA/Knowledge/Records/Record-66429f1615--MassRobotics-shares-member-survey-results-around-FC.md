@@ -1,12 +1,12 @@
 ---
-title: "Record 66429f1615 · MassRobotics-shares-member-survey-results-around-FCC-restrictions"
+title: "Record 66429f1615 · MassRobotics-shares-member-survey-results-around-FC"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.177701+00:00
+updated_at: 2026-09-13T00:56:37.983659+00:00
 tags: [record, real-data]
 ---
 
-# Record 66429f1615 · MassRobotics-shares-member-survey-results-around-FCC-restrictions
+# Record 66429f1615 · MassRobotics-shares-member-survey-results-around-FC
 
 > 실제 수집 레코드입니다. 원문: [www.therobotreport.com](https://www.therobotreport.com/massrobotics-shares-member-survey-results-around-fcc-restrictions/)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 770c19b93c · Cross-Regional-Grapevine-Cold-Hardiness-Prediction-via-Learned-Multimo"
+title: "Record 770c19b93c · Cross-Regional-Grapevine-Cold-Hardiness-Prediction-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.470088+00:00
+updated_at: 2026-09-13T00:56:37.339818+00:00
 tags: [record, real-data]
 ---
 
-# Record 770c19b93c · Cross-Regional-Grapevine-Cold-Hardiness-Prediction-via-Learned-Multimo
+# Record 770c19b93c · Cross-Regional-Grapevine-Cold-Hardiness-Prediction-
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.31097v1)
 

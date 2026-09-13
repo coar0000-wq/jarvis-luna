@@ -1,12 +1,12 @@
 ---
-title: "Record 21536500ec · Day-In-The-Life-Of-A-Multi-Millionaire-In-Buenos-Aires"
+title: "Record 21536500ec · Day-In-The-Life-Of-A-Multi-Millionaire-In-Buenos-Ai"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:56.227405+00:00
+updated_at: 2026-09-13T00:56:38.027166+00:00
 tags: [record, real-data]
 ---
 
-# Record 21536500ec · Day-In-The-Life-Of-A-Multi-Millionaire-In-Buenos-Aires
+# Record 21536500ec · Day-In-The-Life-Of-A-Multi-Millionaire-In-Buenos-Ai
 
 > 실제 수집 레코드입니다. 원문: [www.youtube.com](https://www.youtube.com/watch?v=klmEkOZB9Uw)
 

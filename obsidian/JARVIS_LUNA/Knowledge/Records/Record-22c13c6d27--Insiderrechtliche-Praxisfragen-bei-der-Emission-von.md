@@ -1,12 +1,12 @@
 ---
-title: "Record 22c13c6d27 · Insiderrechtliche-Praxisfragen-bei-der-Emission-von-Anleihen"
+title: "Record 22c13c6d27 · Insiderrechtliche-Praxisfragen-bei-der-Emission-von"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.676103+00:00
+updated_at: 2026-09-13T00:56:37.529372+00:00
 tags: [record, real-data]
 ---
 
-# Record 22c13c6d27 · Insiderrechtliche-Praxisfragen-bei-der-Emission-von-Anleihen
+# Record 22c13c6d27 · Insiderrechtliche-Praxisfragen-bei-der-Emission-von
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.2139/ssrn.6651858)
 

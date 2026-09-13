@@ -1,12 +1,12 @@
 ---
-title: "Record ae37449c45 · Context-operations-to-architecture-modelling-output-from-large-languag"
+title: "Record ae37449c45 · Context-operations-to-architecture-modelling-output"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.532502+00:00
+updated_at: 2026-09-13T00:56:37.396288+00:00
 tags: [record, real-data]
 ---
 
-# Record ae37449c45 · Context-operations-to-architecture-modelling-output-from-large-languag
+# Record ae37449c45 · Context-operations-to-architecture-modelling-output
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2609.10132v1)
 

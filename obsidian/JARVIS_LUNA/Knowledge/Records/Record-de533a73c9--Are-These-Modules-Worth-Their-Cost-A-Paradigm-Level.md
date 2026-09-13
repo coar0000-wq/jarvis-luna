@@ -1,12 +1,12 @@
 ---
-title: "Record de533a73c9 · Are-These-Modules-Worth-Their-Cost-A-Paradigm-Level-Accuracy-Cost-Anal"
+title: "Record de533a73c9 · Are-These-Modules-Worth-Their-Cost-A-Paradigm-Level"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.465439+00:00
+updated_at: 2026-09-13T00:56:37.335544+00:00
 tags: [record, real-data]
 ---
 
-# Record de533a73c9 · Are-These-Modules-Worth-Their-Cost-A-Paradigm-Level-Accuracy-Cost-Anal
+# Record de533a73c9 · Are-These-Modules-Worth-Their-Cost-A-Paradigm-Level
 
 > 실제 수집 레코드입니다. 원문: [arxiv.org](https://arxiv.org/abs/2608.28432v1)
 

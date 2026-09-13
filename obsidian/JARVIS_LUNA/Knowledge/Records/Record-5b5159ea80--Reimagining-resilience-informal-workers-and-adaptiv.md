@@ -1,12 +1,12 @@
 ---
-title: "Record 5b5159ea80 · Reimagining-resilience-informal-workers-and-adaptive-strategies-for-po"
+title: "Record 5b5159ea80 · Reimagining-resilience-informal-workers-and-adaptiv"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.633043+00:00
+updated_at: 2026-09-13T00:56:37.492657+00:00
 tags: [record, real-data]
 ---
 
-# Record 5b5159ea80 · Reimagining-resilience-informal-workers-and-adaptive-strategies-for-po
+# Record 5b5159ea80 · Reimagining-resilience-informal-workers-and-adaptiv
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1108/ijssp-01-2026-0051)
 

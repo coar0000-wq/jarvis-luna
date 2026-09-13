@@ -1,12 +1,12 @@
 ---
-title: "Record 007bd291ac · Shopify-Debuts-AI-Powered-Store-Builder-for-Merchants---pymntscom"
+title: "Record 007bd291ac · Shopify-Debuts-AI-Powered-Store-Builder-for-Merchan"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-12T23:46:55.972526+00:00
+updated_at: 2026-09-13T00:56:37.801453+00:00
 tags: [record, real-data]
 ---
 
-# Record 007bd291ac · Shopify-Debuts-AI-Powered-Store-Builder-for-Merchants---pymntscom
+# Record 007bd291ac · Shopify-Debuts-AI-Powered-Store-Builder-for-Merchan
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMisAFBVV95cUxPYVliRVE1Z1piVE1wQ0lJX0JXVFEwSGd2M3ZMXzRCc2wzeWYwSnd3d01lYmNXV1RCWnF4RFF5Sl9SMVZQVGpjWWJXRkFLeU9JU2JwYlFKeDZyVXFxQ3JsUEhkLXhCZDBxX09QVmprNjRvLVhubWx5YkFiOF85aERsUUlLQ3RZT0RrWm1oZkVpbkw0a1Y2LTZVWHd0LU0zc1Naa0RNQ2dSaTdSQnVxbUgzUg?oc=5)
 
