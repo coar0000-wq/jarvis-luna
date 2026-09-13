@@ -2,7 +2,7 @@
 title: "Record fb8d900805 · MC-DeTra-Motion-Consistent-Joint-Object-Detection-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T18:40:57.048413+00:00
+updated_at: 2026-09-13T22:37:37.624583+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record ed5060a2ca · CAST-Alternating-State-Value-Targets-and-Expanded-P"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T18:40:57.011551+00:00
+updated_at: 2026-09-13T22:37:37.590896+00:00
 tags: [record, real-data]
 ---
 

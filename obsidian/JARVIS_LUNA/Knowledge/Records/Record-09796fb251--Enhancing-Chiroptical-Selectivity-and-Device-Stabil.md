@@ -2,7 +2,7 @@
 title: "Record 09796fb251 · Enhancing-Chiroptical-Selectivity-and-Device-Stabil"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T18:40:57.077091+00:00
+updated_at: 2026-09-13T22:37:37.650537+00:00
 tags: [record, real-data]
 ---
 

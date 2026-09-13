@@ -2,7 +2,7 @@
 title: "Record 3f7bfa7679 · gMAGNUS-Fast-SpGEMM-on-GPUs-for-Irregular-Matrices-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T18:40:57.586248+00:00
+updated_at: 2026-09-13T22:37:38.110435+00:00
 tags: [record, real-data]
 ---
 

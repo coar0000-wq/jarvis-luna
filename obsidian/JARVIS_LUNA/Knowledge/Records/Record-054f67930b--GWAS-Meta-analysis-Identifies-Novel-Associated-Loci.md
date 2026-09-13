@@ -2,7 +2,7 @@
 title: "Record 054f67930b · GWAS-Meta-analysis-Identifies-Novel-Associated-Loci"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T18:40:57.242846+00:00
+updated_at: 2026-09-13T22:37:37.797441+00:00
 tags: [record, real-data]
 ---
 

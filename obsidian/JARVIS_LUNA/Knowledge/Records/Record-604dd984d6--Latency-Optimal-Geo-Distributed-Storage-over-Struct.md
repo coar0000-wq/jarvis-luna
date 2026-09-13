@@ -2,7 +2,7 @@
 title: "Record 604dd984d6 · Latency-Optimal-Geo-Distributed-Storage-over-Struct"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T18:40:56.990654+00:00
+updated_at: 2026-09-13T22:37:37.571698+00:00
 tags: [record, real-data]
 ---
 

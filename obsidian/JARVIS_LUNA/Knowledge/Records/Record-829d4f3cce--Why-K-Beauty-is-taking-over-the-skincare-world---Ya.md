@@ -2,7 +2,7 @@
 title: "Record 829d4f3cce · Why-K-Beauty-is-taking-over-the-skincare-world---Ya"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T18:40:57.404745+00:00
+updated_at: 2026-09-13T22:37:37.942137+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record d254f7d94f · Anua-Azelaic-Acid-10-Hyaluron-Redness-Soothing-Seru"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T18:40:57.614976+00:00
+updated_at: 2026-09-13T22:37:38.136990+00:00
 tags: [record, real-data]
 ---
 

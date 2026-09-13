@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-13T18:34:17.910225+00:00",
+  "collected_at": "2026-09-13T22:30:50.076571+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -44,31 +44,39 @@
   ],
   "hot_keywords": [
     {
-      "keyword": "toner",
+      "keyword": "september",
       "score": 4
     },
     {
-      "keyword": "september",
-      "score": 3
-    },
-    {
       "keyword": "2026",
-      "score": 3
-    },
-    {
-      "keyword": "dry",
-      "score": 3
-    },
-    {
-      "keyword": "product",
-      "score": 2
+      "score": 4
     },
     {
       "keyword": "cream",
+      "score": 3
+    },
+    {
+      "keyword": "anything",
+      "score": 3
+    },
+    {
+      "keyword": "products",
       "score": 2
     },
     {
       "keyword": "sunscreen",
+      "score": 2
+    },
+    {
+      "keyword": "review",
+      "score": 2
+    },
+    {
+      "keyword": "glass",
+      "score": 2
+    },
+    {
+      "keyword": "dry",
       "score": 2
     },
     {
@@ -80,19 +88,11 @@
       "score": 2
     },
     {
-      "keyword": "products",
-      "score": 2
-    },
-    {
-      "keyword": "glass",
+      "keyword": "goes",
       "score": 2
     },
     {
       "keyword": "best",
-      "score": 2
-    },
-    {
-      "keyword": "skincare",
       "score": 2
     },
     {
@@ -108,7 +108,19 @@
       "score": 2
     },
     {
+      "keyword": "missha",
+      "score": 2
+    },
+    {
       "keyword": "essence",
+      "score": 2
+    },
+    {
+      "keyword": "toner",
+      "score": 2
+    },
+    {
+      "keyword": "skincare",
       "score": 2
     },
     {
@@ -129,6 +141,10 @@
     },
     {
       "keyword": "questions",
+      "score": 1
+    },
+    {
+      "keyword": "product",
       "score": 1
     },
     {
@@ -176,45 +192,21 @@
       "score": 1
     },
     {
-      "keyword": "review",
+      "keyword": "retinoid",
       "score": 1
     },
     {
-      "keyword": "order",
-      "score": 1
-    },
-    {
-      "keyword": "eotd",
+      "keyword": "spicules",
       "score": 1
     },
     {
       "keyword": "teso",
       "score": 1
-    },
-    {
-      "keyword": "life",
-      "score": 1
-    },
-    {
-      "keyword": "opening",
-      "score": 1
-    },
-    {
-      "keyword": "60+",
-      "score": 1
     }
   ],
   "beauty_keywords": [
     {
-      "keyword": "toner",
-      "score": 4
-    },
-    {
       "keyword": "sunscreen",
-      "score": 2
-    },
-    {
-      "keyword": "skin",
       "score": 2
     },
     {
@@ -222,7 +214,7 @@
       "score": 2
     },
     {
-      "keyword": "skincare",
+      "keyword": "skin",
       "score": 2
     },
     {
@@ -231,6 +223,14 @@
     },
     {
       "keyword": "essence",
+      "score": 2
+    },
+    {
+      "keyword": "toner",
+      "score": 2
+    },
+    {
+      "keyword": "skincare",
       "score": 2
     }
   ],
@@ -264,6 +264,13 @@
       "feed": "hot"
     },
     {
+      "title": "retinoid products with no spicules",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfio8j/retinoid_products_with_no_spicules/",
+      "published": "2026-09-13T20:24:43+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Sunscreen review",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wer6is/sunscreen_review/",
       "published": "2026-09-12T23:09:45+00:00",
@@ -271,16 +278,16 @@
       "feed": "hot"
     },
     {
-      "title": "do NOT order from EOTD",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfc8je/do_not_order_from_eotd/",
-      "published": "2026-09-13T16:25:47+00:00",
+      "title": "Teso Life opening 60+ new stores across the US soon",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wehvva/teso_life_opening_60_new_stores_across_the_us_soon/",
+      "published": "2026-09-12T17:01:10+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Teso Life opening 60+ new stores across the US soon",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wehvva/teso_life_opening_60_new_stores_across_the_us_soon/",
-      "published": "2026-09-12T17:01:10+00:00",
+      "title": "Colorgram Fruity Glass Gloss",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wflfcl/colorgram_fruity_glass_gloss/",
+      "published": "2026-09-13T22:15:11+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -299,23 +306,9 @@
       "feed": "hot"
     },
     {
-      "title": "Japanese shampoo for dry scalp",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wff3v7/japanese_shampoo_for_dry_scalp/",
-      "published": "2026-09-13T18:12:35+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Colorgram Fruity Glass Gloss",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wf7r1i/colorgram_fruity_glass_gloss/",
-      "published": "2026-09-13T13:30:29+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "How is this product?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfcc2n/how_is_this_product/",
-      "published": "2026-09-13T16:29:34+00:00",
+      "title": "Anything Goes Sunday: September 13, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfj1lv/anything_goes_sunday_september_13_2026/",
+      "published": "2026-09-13T20:39:07+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -327,20 +320,6 @@
       "feed": "hot"
     },
     {
-      "title": "Recommended skincare products in Japan - Irish gal",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wf6v80/recommended_skincare_products_in_japan_irish_gal/",
-      "published": "2026-09-13T12:51:23+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "UV Index 0–1 & visible light: Can ambient daylight trigger hyperpigmentation",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wf2loa/uv_index_01_visible_light_can_ambient_daylight/",
-      "published": "2026-09-13T09:02:34+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
       "title": "Best of kbeauty haircare?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wey2us/best_of_kbeauty_haircare/",
       "published": "2026-09-13T04:44:29+00:00",
@@ -348,9 +327,9 @@
       "feed": "hot"
     },
     {
-      "title": "Numbuzin 3 Toner Total Reformulation!",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wehyxu/numbuzin_3_toner_total_reformulation/",
-      "published": "2026-09-12T17:04:15+00:00",
+      "title": "UV Index 0–1 & visible light: Can ambient daylight trigger hyperpigmentation",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wf2loa/uv_index_01_visible_light_can_ambient_daylight/",
+      "published": "2026-09-13T09:02:34+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -365,6 +344,13 @@
       "title": "20 years with YesStyle",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1we20xz/20_years_with_yesstyle/",
       "published": "2026-09-12T03:58:47+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Missha BB Cream No. 29",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wetehy/missha_bb_cream_no_29/",
+      "published": "2026-09-13T00:52:18+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -390,13 +376,6 @@
       "feed": "hot"
     },
     {
-      "title": "Missha BB Cream No. 29",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wetehy/missha_bb_cream_no_29/",
-      "published": "2026-09-13T00:52:18+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
       "title": "Anything Goes Saturday: September 12, 2026",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wenlfj/anything_goes_saturday_september_12_2026/",
       "published": "2026-09-12T20:39:13+00:00",
@@ -407,6 +386,27 @@
       "title": "What are your favorite C-beauty brands?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1we05st/what_are_your_favorite_cbeauty_brands/",
       "published": "2026-09-12T02:26:51+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Cow Brand Moist Milk – a little review :)",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1we3mhb/cow_brand_moist_milk_a_little_review/",
+      "published": "2026-09-12T05:21:27+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Skincare recommendations in TW",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1weepn6/skincare_recommendations_in_tw/",
+      "published": "2026-09-12T14:54:55+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Calling all Missha Perfect Cover BB Cream lovers! Have you found anything better that feels like a true \"next level\"?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wdc7hm/calling_all_missha_perfect_cover_bb_cream_lovers/",
+      "published": "2026-09-11T10:19:05+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

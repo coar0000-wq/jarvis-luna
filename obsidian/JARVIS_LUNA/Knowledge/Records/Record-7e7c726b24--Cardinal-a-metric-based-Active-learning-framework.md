@@ -2,7 +2,7 @@
 title: "Record 7e7c726b24 · Cardinal-a-metric-based-Active-learning-framework"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T18:40:57.101316+00:00
+updated_at: 2026-09-13T22:37:37.671739+00:00
 tags: [record, real-data]
 ---
 

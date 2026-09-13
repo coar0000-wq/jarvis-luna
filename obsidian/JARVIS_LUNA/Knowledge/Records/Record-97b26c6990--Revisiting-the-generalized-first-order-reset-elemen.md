@@ -2,7 +2,7 @@
 title: "Record 97b26c6990 · Revisiting-the-generalized-first-order-reset-elemen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T18:40:57.574493+00:00
+updated_at: 2026-09-13T22:37:38.099235+00:00
 tags: [record, real-data]
 ---
 

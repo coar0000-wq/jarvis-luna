@@ -2,7 +2,7 @@
 title: "Record 9bd2a6124b · ARM-Institute-gets-90M-for-10-projects-to-modernize"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T18:40:57.725158+00:00
+updated_at: 2026-09-13T22:37:38.239081+00:00
 tags: [record, real-data]
 ---
 

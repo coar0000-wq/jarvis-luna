@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T18:33:08.984900+00:00",
+  "generated_at": "2026-09-13T22:30:01.023385+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
@@ -1568,7 +1568,7 @@
         "by_hand": true
       },
       {
-        "title": "These UI/UX Design Mistakes Scream You're a Junior Designer",
+        "title": "The UI/UX Tips and Tricks Behind Apps People Love Using",
         "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
         "pool": "youtube_channel",
         "date": "",

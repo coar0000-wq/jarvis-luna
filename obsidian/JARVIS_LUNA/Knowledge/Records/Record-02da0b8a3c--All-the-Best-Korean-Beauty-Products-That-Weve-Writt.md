@@ -2,7 +2,7 @@
 title: "Record 02da0b8a3c · All-the-Best-Korean-Beauty-Products-That-Weve-Writt"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T18:40:57.388302+00:00
+updated_at: 2026-09-13T22:37:37.926987+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 96c26c17c5 · 8-Korean-beauty-launches-and-treatments-we-cant-wai"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T18:40:57.439475+00:00
+updated_at: 2026-09-13T22:37:37.973786+00:00
 tags: [record, real-data]
 ---
 

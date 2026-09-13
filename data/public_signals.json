@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T18:38:49.209819+00:00",
+  "generated_at": "2026-09-13T22:35:31.806644+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "us open",
-          "approx_traffic": "50000+",
-          "traffic_num": 50000,
-          "published": "Sun, 13 Sep 2026 11:20:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=us%20open"
+          "keyword": "trinity rodman",
+          "approx_traffic": "20000+",
+          "traffic_num": 20000,
+          "published": "Sun, 13 Sep 2026 15:00:00 -0700",
+          "source_name": "USA Today",
+          "url": "https://trends.google.com/trending?geo=US&q=trinity%20rodman"
         },
         {
-          "keyword": "cam skattebo",
+          "keyword": "harrison smith",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Sun, 13 Sep 2026 11:20:00 -0700",
-          "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=cam%20skattebo"
+          "published": "Sun, 13 Sep 2026 15:20:00 -0700",
+          "source_name": "Star Tribune",
+          "url": "https://trends.google.com/trending?geo=US&q=harrison%20smith"
         },
         {
-          "keyword": "zay flowers injury",
+          "keyword": "jannik sinner",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Sun, 13 Sep 2026 11:20:00 -0700",
-          "source_name": "Baltimore Ravens",
-          "url": "https://trends.google.com/trending?geo=US&q=zay%20flowers%20injury"
+          "published": "Sun, 13 Sep 2026 15:20:00 -0700",
+          "source_name": "La Gazzetta dello Sport",
+          "url": "https://trends.google.com/trending?geo=US&q=jannik%20sinner"
         },
         {
-          "keyword": "tom brady",
+          "keyword": "jim courier",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Sun, 13 Sep 2026 11:20:00 -0700",
-          "source_name": "MARCA",
-          "url": "https://trends.google.com/trending?geo=US&q=tom%20brady"
+          "published": "Sun, 13 Sep 2026 15:00:00 -0700",
+          "source_name": "Defector",
+          "url": "https://trends.google.com/trending?geo=US&q=jim%20courier"
         },
         {
-          "keyword": "pierce brosnan",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Sun, 13 Sep 2026 11:20:00 -0700",
-          "source_name": "People.com",
-          "url": "https://trends.google.com/trending?geo=US&q=pierce%20brosnan"
-        },
-        {
-          "keyword": "ben rice",
+          "keyword": "jennifer garner",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sun, 13 Sep 2026 11:20:00 -0700",
-          "source_name": "CBS Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=ben%20rice"
+          "published": "Sun, 13 Sep 2026 15:20:00 -0700",
+          "source_name": "Yahoo",
+          "url": "https://trends.google.com/trending?geo=US&q=jennifer%20garner"
         },
         {
-          "keyword": "etienne",
+          "keyword": "michael taaffe",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sun, 13 Sep 2026 11:20:00 -0700",
-          "source_name": "EVECT.fr",
-          "url": "https://trends.google.com/trending?geo=US&q=etienne"
+          "published": "Sun, 13 Sep 2026 15:10:00 -0700",
+          "source_name": "NFL.com",
+          "url": "https://trends.google.com/trending?geo=US&q=michael%20taaffe"
         },
         {
-          "keyword": "jimmy horn jr",
+          "keyword": "latest trump news cnn",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sun, 13 Sep 2026 11:20:00 -0700",
-          "source_name": "Carolina Panthers",
-          "url": "https://trends.google.com/trending?geo=US&q=jimmy%20horn%20jr"
+          "published": "Sun, 13 Sep 2026 15:10:00 -0700",
+          "source_name": "CNN",
+          "url": "https://trends.google.com/trending?geo=US&q=latest%20trump%20news%20cnn"
         },
         {
-          "keyword": "bo french",
+          "keyword": "tiny orange kitten parmesan",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sun, 13 Sep 2026 11:20:00 -0700",
-          "source_name": "The Texas Tribune",
-          "url": "https://trends.google.com/trending?geo=US&q=bo%20french"
+          "published": "Sun, 13 Sep 2026 15:10:00 -0700",
+          "source_name": "Yahoo",
+          "url": "https://trends.google.com/trending?geo=US&q=tiny%20orange%20kitten%20parmesan"
         },
         {
-          "keyword": "brenton strange",
+          "keyword": "zverev controversy",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sun, 13 Sep 2026 11:20:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=brenton%20strange"
+          "published": "Sun, 13 Sep 2026 15:10:00 -0700",
+          "source_name": "BBC",
+          "url": "https://trends.google.com/trending?geo=US&q=zverev%20controversy"
+        },
+        {
+          "keyword": "sinner",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Sun, 13 Sep 2026 15:10:00 -0700",
+          "source_name": "Puntodebreak",
+          "url": "https://trends.google.com/trending?geo=US&q=sinner"
         }
       ]
     },

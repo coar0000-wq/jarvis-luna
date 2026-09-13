@@ -2,7 +2,7 @@
 title: "Record 4c78c1ca48 · Us-Election-60-Seconds-Michael-Zezas-Market-Uncerta"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T18:40:57.713459+00:00
+updated_at: 2026-09-13T22:37:38.228447+00:00
 tags: [record, real-data]
 ---
 
