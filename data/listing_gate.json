@@ -1,19 +1,19 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-13T00:54:45.349182+00:00",
+  "generated_at": "2026-09-13T05:27:44.316230+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "total": 7,
-  "ready": 0,
+  "ready": 1,
   "counts": {
     "copy": 7,
     "gosi": 4,
-    "us_label": 0,
+    "us_label": 1,
     "price": 7,
     "legal": 6
   },
   "blockers": {
     "gosi": 3,
-    "us_label": 7,
+    "us_label": 6,
     "legal": 1
   },
   "count": 7,
@@ -54,10 +54,10 @@
       },
       "us_label": {
         "net_contents": "40 ml",
-        "manufacturer": "실제 포장에 기재된 제조사",
+        "manufacturer": "주식회사 씨엔에프 / (주)더샘인터내셔날",
         "country_of_origin": "Korea",
-        "ingredients_inci": "실제 제품 포장에 기재된 전체 INCI 성분",
-        "us_label_ok": false
+        "ingredients_inci": "Water, Glycerin, Propanediol, Butylene Glycol, Betaine, Isopentyldiol, Niacinamide, 1,2-Hexanediol, Tuber Magnatum Extract, Centella Asiatica Leaf Extract, Acetyl Hexapeptide-8, Hexapeptide-9, Nonapeptide-1, Palmitoyl Pentapeptide-4, Palmitoyl Tripeptide-1, Palmitoyl Tetrapeptide-7, Punica Granatum Extract, Adenosine, Butyrospermum Parkii (Shea) Butter, Caprylic/Capric Triglyceride, Olea Europaea (Olive) Fruit Oil, Hydrogenated Lecithin, Squalane, Disodium EDTA, Panthenol, Fragrance, Polyglyceryl-10 Laurate, Carbomer, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Arginine, Diethoxyethyl Succinate, Ethylhexylglycerin, Xanthan Gum, Sorbitan Isostearate, Ceramide NP, Cholesterol, Phytosphingosine",
+        "us_label_ok": true
       },
       "price": {
         "price_usd": 24.99,
@@ -69,67 +69,11 @@
         "hard_block": false,
         "hard_block_reason": ""
       },
-      "ready": false,
-      "blocked_by": [
-        "us_label"
-      ]
+      "ready": true,
+      "blocked_by": []
     },
     {
       "rank": 2,
-      "pd_no": "1062781",
-      "product_id": "1062781",
-      "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
-      "category": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 91,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062781",
-      "copy": {
-        "title": "Cell Fusion C Derma Block PDRN Collagen Cream 50ml",
-        "description_html": "<p>Discover the nourishing benefits of Cell Fusion C Derma Block PDRN Collagen Cream, formulated with PDRN and collagen.</p><p>This 50ml facial cream helps moisturize and support a smoother-looking, radiant complexion for daily skincare routines.</p>",
-        "seo_title": "Cell Fusion C Derma Block PDRN Collagen Cream 50ml",
-        "seo_description": "Shop Cell Fusion C Derma Block PDRN Collagen Cream 50ml. A hydrating facial cream formulated with PDRN and collagen for a smooth, radiant complexion.",
-        "tags": [
-          "cell-fusion-c",
-          "pdrn-cream",
-          "collagen-cream",
-          "korean-skincare",
-          "face-cream",
-          "moisturizing-cream"
-        ],
-        "product_type": "Face Cream"
-      },
-      "copy_status": "ok",
-      "gosi": {
-        "volume": "50ml (1.69 fl.oz)",
-        "maker": "화장품제조업자: 코스맥스(주) / 화장품책임판매업자: (주)씨엠에스랩",
-        "origin": "한국",
-        "ingredients": "정제수, 글리세린, 다이프로필렌글라이콜, 부틸렌글라이콜, 옥틸도데칸올, 네오펜틸글라이콜다이카프레이트, 나이아신아마이드, 1,2-헥산다이올, 진흙버섯추출물, 하이드롤라이즈드하이알루로닉애씨드, 하이드롤라이즈드콜라겐, 마",
-        "gosi_ok": true
-      },
-      "us_label": {
-        "net_contents": "실제 확인값",
-        "manufacturer": "실제 확인한 제조사",
-        "country_of_origin": "실제 확인한 원산지",
-        "ingredients_inci": "실제 확인한 전체 INCI 성분",
-        "us_label_ok": false
-      },
-      "price": {
-        "price_usd": 24.99,
-        "margin_pct": 47.4,
-        "register_blocked": false
-      },
-      "legal": {
-        "status": "auto_checked",
-        "hard_block": false,
-        "hard_block_reason": ""
-      },
-      "ready": false,
-      "blocked_by": [
-        "us_label"
-      ]
-    },
-    {
-      "rank": 3,
       "pd_no": "1041749",
       "product_id": "1041749",
       "name": "식물원 병풀 클리어 앰플 30 ml",
@@ -185,6 +129,60 @@
       ]
     },
     {
+      "rank": 3,
+      "pd_no": "1062781",
+      "product_id": "1062781",
+      "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+      "category": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 91,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062781",
+      "copy": {
+        "title": "Cell Fusion C Derma Block PDRN Collagen Cream 50ml",
+        "description_html": "<p>Discover the nourishing benefits of Cell Fusion C Derma Block PDRN Collagen Cream, formulated with PDRN and collagen.</p><p>This 50ml facial cream helps moisturize and support a smoother-looking, radiant complexion for daily skincare routines.</p>",
+        "seo_title": "Cell Fusion C Derma Block PDRN Collagen Cream 50ml",
+        "seo_description": "Shop Cell Fusion C Derma Block PDRN Collagen Cream 50ml. A hydrating facial cream formulated with PDRN and collagen for a smooth, radiant complexion.",
+        "tags": [
+          "cell-fusion-c",
+          "pdrn-cream",
+          "collagen-cream",
+          "korean-skincare",
+          "face-cream",
+          "moisturizing-cream"
+        ],
+        "product_type": "Face Cream"
+      },
+      "copy_status": "ok",
+      "gosi": {
+        "volume": "50ml (1.69 fl.oz)",
+        "maker": "화장품제조업자: 코스맥스(주) / 화장품책임판매업자: (주)씨엠에스랩",
+        "origin": "한국",
+        "ingredients": "정제수, 글리세린, 다이프로필렌글라이콜, 부틸렌글라이콜, 옥틸도데칸올, 네오펜틸글라이콜다이카프레이트, 나이아신아마이드, 1,2-헥산다이올, 진흙버섯추출물, 하이드롤라이즈드하이알루로닉애씨드, 하이드롤라이즈드콜라겐, 마",
+        "gosi_ok": true
+      },
+      "us_label": {
+        "net_contents": "50ml (1.69 fl.oz)",
+        "manufacturer": "화장품제조업자: 코스맥스(주) / 화장품책임판매업자: (주)씨엠에스랩",
+        "country_of_origin": "Korea",
+        "ingredients_inci": "실제 확인한 전체 INCI 성분",
+        "us_label_ok": false
+      },
+      "price": {
+        "price_usd": 24.99,
+        "margin_pct": 47.4,
+        "register_blocked": false
+      },
+      "legal": {
+        "status": "auto_checked",
+        "hard_block": false,
+        "hard_block_reason": ""
+      },
+      "ready": false,
+      "blocked_by": [
+        "us_label"
+      ]
+    },
+    {
       "rank": 4,
       "pd_no": "1059834",
       "product_id": "1059834",
@@ -218,9 +216,9 @@
         "gosi_ok": true
       },
       "us_label": {
-        "net_contents": "실제 확인값",
-        "manufacturer": "실제 확인한 제조사",
-        "country_of_origin": "실제 확인한 원산지",
+        "net_contents": "28 g",
+        "manufacturer": "(주)제닉 / 충청남도 논산시 성동면 산업단지로5길 5",
+        "country_of_origin": "Korea",
         "ingredients_inci": "실제 확인한 전체 INCI 성분",
         "us_label_ok": false
       },
@@ -273,15 +271,15 @@
         "gosi_ok": true
       },
       "us_label": {
-        "net_contents": "실제 확인값",
-        "manufacturer": "실제 확인한 제조사",
-        "country_of_origin": "실제 확인한 원산지",
+        "net_contents": "10.14 fl. oz. / 300 mL",
+        "manufacturer": "화장품제조업자: (주)에스테르\n화장품책임판매업자: (주)브이티코스메틱",
+        "country_of_origin": "Korea",
         "ingredients_inci": "실제 확인한 전체 INCI 성분",
         "us_label_ok": false
       },
       "price": {
         "price_usd": 24.99,
-        "margin_pct": 32.5,
+        "margin_pct": 32.4,
         "register_blocked": false
       },
       "legal": {
@@ -339,9 +337,9 @@
         "register_blocked": false
       },
       "legal": {
-        "status": "missing",
-        "hard_block": false,
-        "hard_block_reason": ""
+        "status": "auto_checked",
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields"
       },
       "ready": false,
       "blocked_by": [
