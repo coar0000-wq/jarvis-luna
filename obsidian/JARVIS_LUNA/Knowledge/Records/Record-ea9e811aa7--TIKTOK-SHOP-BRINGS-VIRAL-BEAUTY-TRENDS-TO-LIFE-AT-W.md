@@ -2,7 +2,7 @@
 title: "Record ea9e811aa7 · TIKTOK-SHOP-BRINGS-VIRAL-BEAUTY-TRENDS-TO-LIFE-AT-W"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T08:53:48.825474+00:00
+updated_at: 2026-09-13T14:14:12.776940+00:00
 tags: [record, real-data]
 ---
 

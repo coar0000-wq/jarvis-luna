@@ -2,7 +2,7 @@
 title: "Record 8a4d0d2a69 · Shopify-sees-strong-revenue-as-e-commerce-business-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T08:53:48.842083+00:00
+updated_at: 2026-09-13T14:14:12.799703+00:00
 tags: [record, real-data]
 ---
 

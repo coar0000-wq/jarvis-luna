@@ -2,7 +2,7 @@
 title: "Record 201056e231 · Ready-Set-Build-with-the-NHS-Federated-Data-Platfor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T08:53:48.531384+00:00
+updated_at: 2026-09-13T14:14:12.352739+00:00
 tags: [record, real-data]
 ---
 

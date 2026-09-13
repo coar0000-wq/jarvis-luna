@@ -2,7 +2,7 @@
 title: "Record d625a0c9e5 · Optimal-buprenorphine-exposure-to-treat-patients-wi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T08:53:48.618155+00:00
+updated_at: 2026-09-13T14:14:12.477919+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record e7a312916c · InstructMesh-Selective-Refinement-of-Generative-3D-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T08:53:48.462258+00:00
+updated_at: 2026-09-13T14:14:12.256813+00:00
 tags: [record, real-data]
 ---
 

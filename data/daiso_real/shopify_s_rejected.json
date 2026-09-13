@@ -1,17 +1,8 @@
 {
-  "generated_at": "2026-09-13T08:51:51.315807+00:00",
+  "generated_at": "2026-09-13T14:11:55.122898+00:00",
   "note": "점수는 높았으나 S에서 탈락한 후보. 등록하지 말 것.",
-  "count": 20,
+  "count": 21,
   "items": [
-    {
-      "pd_no": "1048581",
-      "name": "드롭비 잡티 말끔 앰플 40 ml",
-      "bucket": "스킨케어",
-      "shopify_score": 96,
-      "s_rule": "match_too_weak",
-      "downgrade_reason": null,
-      "recommend_reason": "글로벌 'lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)' (oliveyoung_us) 유사 37% · 토큰 ampoule · S제외:match_too_weak"
-    },
     {
       "pd_no": "1064419",
       "name": "닥터오라클 큐어소나 리쥬코드 캡슐 세럼 30 ml",
@@ -20,6 +11,15 @@
       "s_rule": "weak_solo_token",
       "downgrade_reason": null,
       "recommend_reason": "글로벌 '베터 스크린 UV 세럼 SPF 50+' (sephora) 유사 29% · 토큰 serum · S제외:weak_solo_token"
+    },
+    {
+      "pd_no": "1048581",
+      "name": "드롭비 잡티 말끔 앰플 40 ml",
+      "bucket": "스킨케어",
+      "shopify_score": 95,
+      "s_rule": "match_too_weak",
+      "downgrade_reason": null,
+      "recommend_reason": "글로벌 '턴오버 앰플 c-PDRN 0.5%' (sephora) 유사 50% · 토큰 ampoule · S제외:match_too_weak"
     },
     {
       "pd_no": "1075857",
@@ -76,15 +76,6 @@
       "recommend_reason": "헤어케어 카테고리 · 평점 4.8 · 리뷰 737건 (글로벌 시그널 약함)"
     },
     {
-      "pd_no": "1053482",
-      "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
-      "bucket": "스킨케어",
-      "shopify_score": 86,
-      "s_rule": "form_cap",
-      "downgrade_reason": "동일 제형(토너) 상위 2개에 밀림",
-      "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 60% · 토큰 calming, toner"
-    },
-    {
       "pd_no": "1060494",
       "name": "정직한실험실 트루랩 엔젤링 오일 에센스 60 ml",
       "bucket": "스킨케어",
@@ -103,6 +94,15 @@
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 838건 (글로벌 시그널 약함)"
     },
     {
+      "pd_no": "1060487",
+      "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
+      "bucket": "마스크팩",
+      "shopify_score": 85,
+      "s_rule": "match_too_weak",
+      "downgrade_reason": null,
+      "recommend_reason": "글로벌 'Medicube Zero Pore Pad' (tiktok_shop_us) 유사 43% · 토큰 pore · S제외:match_too_weak"
+    },
+    {
       "pd_no": "1074979",
       "name": "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
       "bucket": "스킨케어",
@@ -110,6 +110,15 @@
       "s_rule": "weak_solo_token",
       "downgrade_reason": null,
       "recommend_reason": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token"
+    },
+    {
+      "pd_no": "1053482",
+      "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
+      "bucket": "스킨케어",
+      "shopify_score": 84,
+      "s_rule": "form_cap",
+      "downgrade_reason": "동일 제형(토너) 상위 2개에 밀림",
+      "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 60% · 토큰 calming, toner"
     },
     {
       "pd_no": "1049295",
@@ -121,13 +130,13 @@
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 42% · 토큰 centella · S제외:match_too_weak"
     },
     {
-      "pd_no": "1068733",
-      "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
-      "bucket": "스킨케어",
+      "pd_no": "1060489",
+      "name": "메디필 시카 쿨링 진정 랩핑 마스크 4 ml 4개입",
+      "bucket": "마스크팩",
       "shopify_score": 84,
       "s_rule": "match_too_weak",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 '턴오버 앰플 c-PDRN 0.5%' (sephora) 유사 40% · 토큰 ampoule · S제외:match_too_weak"
+      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 42% · 토큰 centella · S제외:match_too_weak"
     },
     {
       "pd_no": "1046083",
@@ -139,13 +148,13 @@
       "recommend_reason": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token"
     },
     {
-      "pd_no": "1060489",
-      "name": "메디필 시카 쿨링 진정 랩핑 마스크 4 ml 4개입",
-      "bucket": "마스크팩",
+      "pd_no": "1068733",
+      "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
+      "bucket": "스킨케어",
       "shopify_score": 83,
       "s_rule": "match_too_weak",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 42% · 토큰 centella · S제외:match_too_weak"
+      "recommend_reason": "글로벌 '턴오버 앰플 c-PDRN 0.5%' (sephora) 유사 40% · 토큰 ampoule · S제외:match_too_weak"
     },
     {
       "pd_no": "58600",

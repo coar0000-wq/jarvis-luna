@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-13T08:52:28.280840+00:00",
+  "generated_at": "2026-09-13T14:12:41.939666+00:00",
   "discovery_mode": "seed_catalog_plus_health_probe",
   "candidate_count": 18,
   "verified_count": 9,
@@ -18,7 +18,7 @@
       "content_length": 14492,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-13T08:52:09.879153+00:00"
+      "checked_at": "2026-09-13T14:12:21.710040+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -30,10 +30,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://www.google.com/shopping",
-      "content_length": 113484,
+      "content_length": 114388,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-13T08:52:28.113863+00:00"
+      "checked_at": "2026-09-13T14:12:41.660919+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -48,7 +48,7 @@
       "content_length": 172023,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-13T08:52:10.504578+00:00"
+      "checked_at": "2026-09-13T14:12:22.459072+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -63,7 +63,7 @@
       "content_length": 375,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-13T08:52:11.826712+00:00"
+      "checked_at": "2026-09-13T14:12:24.477436+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -75,10 +75,10 @@
       "reachable": false,
       "status_code": 403,
       "final_url": "https://www.bls.gov/data/",
-      "content_length": 1325,
+      "content_length": 1323,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-13T08:52:09.707275+00:00"
+      "checked_at": "2026-09-13T14:12:13.651474+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -90,10 +90,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://www.census.gov/data.html",
-      "content_length": 512963,
+      "content_length": 513015,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-13T08:52:09.648963+00:00"
+      "checked_at": "2026-09-13T14:12:13.559824+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -105,10 +105,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://data.un.org/",
-      "content_length": 88697,
+      "content_length": 88500,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-13T08:52:11.541163+00:00"
+      "checked_at": "2026-09-13T14:12:23.617193+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -123,7 +123,7 @@
       "content_length": 72037,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-13T08:52:11.151753+00:00"
+      "checked_at": "2026-09-13T14:12:23.146897+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -138,7 +138,7 @@
       "content_length": 191823,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-13T08:52:10.010706+00:00"
+      "checked_at": "2026-09-13T14:12:21.941063+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -153,7 +153,7 @@
       "content_length": 1832,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-13T08:52:11.603081+00:00"
+      "checked_at": "2026-09-13T14:12:24.297038+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -168,7 +168,7 @@
       "content_length": 776,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-13T08:52:11.744068+00:00"
+      "checked_at": "2026-09-13T14:12:24.361503+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -183,7 +183,7 @@
       "content_length": 190240,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-13T08:52:28.280812+00:00"
+      "checked_at": "2026-09-13T14:12:41.939638+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -195,10 +195,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://trends.google.com/trends/",
-      "content_length": 771689,
+      "content_length": 771696,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-13T08:52:28.232384+00:00"
+      "checked_at": "2026-09-13T14:12:41.893404+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -210,10 +210,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://www.instacart.com/",
-      "content_length": 329099,
+      "content_length": 988885,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-13T08:52:27.977003+00:00"
+      "checked_at": "2026-09-13T14:12:41.419194+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -226,7 +226,7 @@
       "status_code": null,
       "error": "ReadTimeout: HTTPSConnectionPool(host='www.kroger.com', port=443): Read timed out. (read timeout=15)",
       "status": "unverified",
-      "checked_at": "2026-09-13T08:52:27.543357+00:00"
+      "checked_at": "2026-09-13T14:12:40.391113+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -241,7 +241,7 @@
       "content_length": 9901,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-13T08:52:12.378331+00:00"
+      "checked_at": "2026-09-13T14:12:25.161041+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -253,10 +253,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://www.nordstrom.com/browse/beauty",
-      "content_length": 254737,
+      "content_length": 251810,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-13T08:52:12.098556+00:00"
+      "checked_at": "2026-09-13T14:12:24.993976+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -271,7 +271,7 @@
       "content_length": 782,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-13T08:52:11.967541+00:00"
+      "checked_at": "2026-09-13T14:12:24.633132+00:00"
     }
   ],
   "next_expansion_queries": [

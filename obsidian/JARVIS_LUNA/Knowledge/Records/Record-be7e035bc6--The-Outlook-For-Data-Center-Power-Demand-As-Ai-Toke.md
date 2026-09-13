@@ -2,7 +2,7 @@
 title: "Record be7e035bc6 · The-Outlook-For-Data-Center-Power-Demand-As-Ai-Toke"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T08:53:48.958107+00:00
+updated_at: 2026-09-13T14:14:12.953380+00:00
 tags: [record, real-data]
 ---
 

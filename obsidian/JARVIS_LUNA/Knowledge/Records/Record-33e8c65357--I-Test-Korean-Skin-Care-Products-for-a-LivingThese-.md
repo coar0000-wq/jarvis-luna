@@ -2,7 +2,7 @@
 title: "Record 33e8c65357 · I-Test-Korean-Skin-Care-Products-for-a-LivingThese-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T08:53:48.723832+00:00
+updated_at: 2026-09-13T14:14:12.632138+00:00
 tags: [record, real-data]
 ---
 

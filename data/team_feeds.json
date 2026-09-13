@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-13T08:47:21.326186+00:00",
+  "generated_at": "2026-09-13T14:05:55.452293+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
-  "pool_size": 2034,
+  "pool_size": 2032,
   "제목없어_버림": 38,
   "unrouted": 9,
   "summary": {
     "sourcing": {
-      "total": 214,
-      "recent": 213
+      "total": 212,
+      "recent": 211
     },
     "market": {
-      "total": 444,
-      "recent": 39
+      "total": 445,
+      "recent": 35
     },
     "listing": {
-      "total": 13,
+      "total": 14,
       "recent": 9
     },
     "pricing": {
@@ -28,7 +28,7 @@
       "recent": 15
     },
     "design": {
-      "total": 339,
+      "total": 338,
       "recent": 78
     },
     "robotics": {
@@ -312,13 +312,6 @@
         "by_hand": true
       },
       {
-        "title": "케라시스 어드밴스드 리페어 헤어 팩 150 ml",
-        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1032881",
-        "pool": "daiso",
-        "date": "2026-09-13",
-        "by_hand": true
-      },
-      {
         "title": "쿤달 콜라겐 데미지 케어 트리트먼트 150 ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060208",
         "pool": "daiso",
@@ -471,6 +464,13 @@
         "pool": "daiso",
         "date": "2026-09-13",
         "by_hand": true
+      },
+      {
+        "title": "와플 라운지웨어 하의 M 아이보리",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067772",
+        "pool": "daiso",
+        "date": "2026-09-13",
+        "by_hand": true
       }
     ],
     "market": [
@@ -580,22 +580,22 @@
         "by_hand": true
       },
       {
-        "title": "Mia Korean Skincare Highlights Growing Interest in K-Beauty in Milan - Issuewire",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUGkzV1p3dHozWEE5LWlTdmRreHlfYWhfQUluLUVoRHpDM04yQ0lFMnRzQnJOR1lxemM1TWh2WEYzLU5nWnlkTURmZ3c3N2hYaGs5aFJ1UmNFckQyV1lkOWNIdUxVUHVEY3ByR0tkd09jb0dQYlkyQ0paOW9NRzlldExQSnMwdEZtaDBvTnFPNVFFTktDSzNoVkJwYWlJb1RzZkFDalFVS1pDcGdKMzA2bw?oc=5",
+        "title": "Kippun Haru opens at Oriocenter: a new hub for K‑beauty - inItaly",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWWdfUDZDZWxFMmowYV85N2V0U0lpbEZQTGJGWjNrVEVpM1VfRm9GYkJ2RE01TGtQNXk0YUxkZTJzZmlwRHdwSVJzVEtnMC02dGt1TXJqNFBUWVh0TWpzcldvMldVREY2cnRza2ZNeGw5bURybFhMNjJyeHcya212VUZuNkswano3V25IMk5ZZGhLNEh5R0UtRWxvbHRiMnZ3T1E?oc=5",
         "pool": "google",
-        "date": "2026-09-12",
+        "date": "2026-09-13",
+        "by_hand": false
+      },
+      {
+        "title": "'I swapped my favourite $139 toner for this $48 one, and I'm never going back.' - Mamamia",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8zM1Z4OHNITEtKR1lOU0tFT2FEV2VuTUY2TUcteUJsOENmU3QtVV8wRGc0by1DTFBHaWluYUloc0htY0JDNHY0VXVrQUpCT3R6OWZiX19SNWhKNjJud0FoeXRSMGRvSlJMOGhUVHF5TUFYaUo4eDRiZ1dnWGk4QQ?oc=5",
+        "pool": "google",
+        "date": "2026-09-13",
         "by_hand": false
       },
       {
         "title": "K-Beauty’s U.S. Boom Is Making ‘Korean’ Less of a Differentiator - KoreaTechDesk",
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1HZ0dkQmFkU3ppdGRTcnRJQXV3TjEyaUNKQ2JqbXVldHpDM1k5UlEyTXAtS2c5NnRYcXhXZ0hWeFlMRkNXX3Bpc200dXI0eUZjUHJFTHMtVUZvb2R2T3VDODk0Qjl6SU9CQzZQbUREM0ZDeFBuc3F4ODhVNm5yZw?oc=5",
-        "pool": "google",
-        "date": "2026-09-12",
-        "by_hand": false
-      },
-      {
-        "title": "Boots shoppers race to buy £140 Korean and Japanese skincare box for just £35 - Manchester Evening News",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVTlEUGJraXVPZ244SFRDNHZ5WG40VDJhb0NxZnNFOFJxa0FUVnNtMUVnV3hTclBfRHZPSno4Nk9uVzVCYnQtWHJIb2t0MEZkV3R4UkthaURQaFNhUGpBc1l3NmFaRExLMDJjcDhMMlBleDRMV2lyS0Jic1M0NVY4UzBRdldrQ05ib0toUDBUQkM4YkxZWWZyamRB0gGfAUFVX3lxTE1sNW1hOWVramVDaEJCdl94RTE4WmZBeVBmcnM0eDZZY29uM3VhVVgxbEJ4TVhCYkh5X0RWWjVhS2xGMXQ0OEg2RnlRQlUydUtKb2xEV0dvWGwxUHBrTVdZRXkydXlDWk5zNFZDbUZxLWw5TmlYcFlvb2x6MmNySG11UHQzcVhtaFFFUFdBYU9pUmw3ZmVUakV3Sm8zd0o3MA?oc=5",
         "pool": "google",
         "date": "2026-09-12",
         "by_hand": false
@@ -622,7 +622,7 @@
         "by_hand": false
       },
       {
-        "title": "COSMECCA KOREA plans $150 mil. AI-based skincare factory in Korea - Korea Biomedical Review",
+        "title": "COSMECCA KOREA plans $150 mil. AI-based skincare factory in Korea - koreabiomed.com",
         "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5JOHRFeGJMRElFbVVDVkNFMXdWZTVvVWF1Sy1nckZmdHU2dVNuVlRyYktZZ0RnTTU1aWUwT3Z0LVJxeGxrRnVpaHV6RHNjaHVrQVJNNDVkVlQ1SXZTNFluWFBiWGZ4bURabzZIZUJ30gFyQVVfeXFMUHJVc2QwM0dFXzMyM1Jjek50c3A0LVp4NXo5MVhIb0haZ1JILVdWYUpTV0NVNUtXaExVdUw2Q1YxOVpfU3NMalBJMWZ4b0tJS1gxSnJacEpuQnRkSE1YdUd4dzVJMnRVQktqNnl2Rnk4Ymp3?oc=5",
         "pool": "google",
         "date": "2026-09-10",
@@ -631,13 +631,6 @@
       {
         "title": "9 K-Beauty Brands We’re Obsessed with for Fall 2026 - Celeb Secrets",
         "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRWlTTVg4ZkQ1N1Rfemtmamx1WXdDemF4b1JIaUIxWVdJeUJKQlh5QjRCbXFmTWxnT3JMWlh0TmwwaVpfVnZNR1B1N0prR0p6dlhJTHhVQU9fN3VNdDlDZHN3dWswdTcydjVvMmo2RXVrN09vcUgweHotU0dQZjFIb2V3?oc=5",
-        "pool": "google",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "The K-Beauty ingredient dethroning hyaluronic acid in 2026: meet PDRN - Paris Select Book",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPakItUi1WWm9Bd0NSOV9sUTNVZTNCSW4xWTA1RnV6M2l5a0VKT1NWUVppdk9sM1h3SVFieTFfTVpqdGJCMkZXd1pJbFBCRFFrdlV5YTNQNXQ0TGFjTFJrdDZUeURNZ2NWZ21sNWZfbTN2WnB1bldHTTdaVG1GVFVlRG5R?oc=5",
         "pool": "google",
         "date": "2026-09-10",
         "by_hand": false
@@ -664,13 +657,6 @@
         "by_hand": false
       },
       {
-        "title": "Why Mikayla Nogueira Chose Skin Prep Over Skincare And Sephora For POV - Forbes",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTEFReVYycEt0SVlVejR4R0w1UEdoT3V1dVBpN2NXZXFYdDNqeUZLQ21HdnQ5ekVPeHFiYXFUbWM5dFpqdWs3TE8xblE3RWRaTm94el9fTjVvQkhpQnN3eloxLWVQalM1dEtOaHYtN2Y1OTJCV1k0RTFZeFVWOUd4RTFLLWt1SW1tZVlBa19WckZDUmJUeHJrVmtLemZaMkRmTVhLeXRxZjZJTzhxek5KVmYySE5BWi1QSV9hUUQzVWgzNGM?oc=5",
-        "pool": "google",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
         "title": "How Generative AI Is Reshaping Ecommerce Search and Product Discovery - Technology Org",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTlhickxjakJSeHNMZWVRLXlrcjhaRzdaM3lEV183eTZVM1EwZEQ1SjR3VFlwNkdvOVZ0TVdfa192cERxRWF0dFVKN2FRb0N0aFNHblo0OERET0RMTnFmdURUcC1vY18wNTRFdFlCZUhQQjA0MlFobEkyeDFKYkpHV25abmlhS2o5OXd4S0NvUkRienRHVHV4eFhJX3NGa2NVUjdOTDJ0VjdxcGFu?oc=5",
         "pool": "google",
@@ -685,7 +671,7 @@
         "by_hand": false
       },
       {
-        "title": "We Tested Dozens of the Best Korean Skincare Products—These 17 Gave Us Radiant Skin - Byrdie",
+        "title": "We Tested Dozens of the Best Korean Skincare Products—These 17 Gave Us Radiant Skin - byrdie.com",
         "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1sc1dUR0l3QkxvbDVjMnk4bzBxd0RKMW13ZVFBZlRLQmFwM3gtdjR1Sk5vZkp3c2xFNUc5Tm9ycThJWGc3TnVZekNOWHNYVHppZEhWWkZ6NjFwQzlZakk2VERaNzlNRVVxaGk1a0ZUWQ?oc=5",
         "pool": "google",
         "date": "2026-09-08",
@@ -708,20 +694,6 @@
       {
         "title": "K-Beauty Isn’t Just For Gen Z. These Korean Skin Care Picks Are Made For Mature Skin - HuffPost",
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRURKYS1ZekRkbWVwN2g1TTFWd3VkUmtReXFsVFFlbEFlR0cxTXFXd2k5Zkw5WGM0TmRWc0tSS21fWjROdHZMYVI2S3pqOF90QnJNQ242blFzLTNFd0V1NlhQQ1h5UkFYZS1qQ21RQnN0bW5oenpibURlTi1XVmE2R255Mm5Ga0NEUEwyVEhhUzk1LVhKeEVXbm14NNIBoAFBVV95cUxOWVE3UVVwRWxaYWpnVDgxUHdiWUF1YzVsMkJZVFpJZGlOOEpCdXNxX1hjWGJfY0MtelJjZkREVzhMX2VZdkVDd1hJVWdYcHRHenU2Ylh5Z25kN2lGWm5WZTJTeWthWldFbndJTjNYODdlV0FqaFpnYXVFQ0hlU1NSSjhONXZtQmloUndlT3FrVW1tSEV4b3FPNHEycWI3VjZj?oc=5",
-        "pool": "google",
-        "date": "2026-09-08",
-        "by_hand": false
-      },
-      {
-        "title": "mixsoon Joins Target Beauty Studio, Bringing pure ingredients skincare philosophy to Target Guests Nationwide - PR Newswire",
-        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOcVVwbEh2aWc5U0p4MU0xQmgzTUJNY1dYd3AyQ3F6TEtCR3d4Y2d3Yk5DWm90YnYtaVRmUDNSeEw2b25ySFFiejJMWm4zODJBTDNWU2tpamFHX25kRWRSOTBNSFp0VWFRLUMzdnZIdzRldXo0NVNRNEdOZE5QelpJcTUyemdQaE5XR083YUwxVDNKR3VvSm85ZFg1WEswaTRyeldXVUpLTG5iVlNvUUVmdWVPZkVnNnB3TlZScm5lb29aZThpOXJEQTZqNjZ1Z0xBMGVjVXBDUXM1Q0RhNzd0M19XeFhnZDl4SVFjRmUyTUFhZUoyc0c4?oc=5",
-        "pool": "google",
-        "date": "2026-09-08",
-        "by_hand": false
-      },
-      {
-        "title": "I'd Pay Double For This K-Beauty Product That's Working Wonders On My Neck Lines - HuffPost",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQM3VWZjc2RlRMajZ5MlJUdXp0NjlXb2tpUXdqcklNRzdyWlpXdmZObjFzWGNZVEtGekdtM05mcGxHM19KczUtN00yU0x4NlRMVzhYWWRVLXowR2I4dDgxZXlIWFpNNXVlRjFPWlI1ODUxVXlSUEdYT1ZTeWVWNzd4SlhxdkdHYzdwVHB4N3BLSzRMYUtk0gGaAUFVX3lxTFB2eGlDdHI1bG92Qkc1cUNleVo0SG16OFdtenVLY3o5b1ZldzY3aFY4czdhNVNEOU9NQWFQcFdqajF5U2lockQycm8yNGtjLVZxTm9hYjFBcjdodVlldGRLQ2hYamFXXzh1bnBxdnVfOTVwamYwMTFILUozU1VRcmR3QUpGS0NORkdKVEJVbXM0NTVpTkp2OGF6SlE?oc=5",
         "pool": "google",
         "date": "2026-09-08",
         "by_hand": false
@@ -832,7 +804,7 @@
         "by_hand": false
       },
       {
-        "title": "K-Beauty Is Everywhere Now: How Korean Skincare Became a Mainstream U.S. Beauty Staple - womansworld.com",
+        "title": "K-Beauty Is Everywhere Now: How Korean Skincare Became a Mainstream U.S. Beauty Staple - Woman's World",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPR0hPOFV3NTlQQ2h0LWNDUHBoUTNRZHNDbjllRTNFOHdlQzd5Y20zWmgwWEloVjkwdlpoTEIxcE9YMUwtX1lDazd0LXJUckRBMDhjS1JIV1o0T0l2Y3daZEZiSVBFZElES3lKLWFYVmw4WVlHQ0dKd18xeW1wX3NFN0lJQUxMZjhwbUpPTm9ZclZwZw?oc=5",
         "pool": "google",
         "date": "2026-08-29",
@@ -846,7 +818,7 @@
         "by_hand": false
       },
       {
-        "title": "SHOP vs. ADBE: Which Stock Has the Edge in AI-Driven Ecommerce? - easternprogress.com",
+        "title": "SHOP vs. ADBE: Which Stock Has the Edge in AI-Driven Ecommerce? - Eastern Progress",
         "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPOVkyMlJwUEdQeGlvdlhURGpYdXJyY1hoWmVWai16TFFhckI2MmR1OFdBd1BCOXNPM1lOYTFmT0J2UExSRGFmbklVRUtsazJhajZZUHh2eTZyNG5mTUc1US16WF9oYzZfWjB5Y3ZIR0UtazJjcXFHb21XdFJ3ZjJUQ2VBWDVoTHE5SkYwUW9raVA5ZHBhcmF0cmNtOENtRXNsR09aYmhuVTU5NHBRdnd0c2pSX1ZndDR0YUE0Q0RTUTAyRllwQzhwZXlLZFRrOHNEclN1MjV0NEdrQQ?oc=5",
         "pool": "google",
         "date": "2026-08-28",
@@ -860,7 +832,7 @@
         "by_hand": false
       },
       {
-        "title": "Meet the K-beauty products that beauty lovers consistently rank as their absolute skincare favorites - Fort Worth Star-Telegram",
+        "title": "Meet the K-beauty products that beauty lovers consistently rank as their absolute skincare favorites - star-telegram.com",
         "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA3Y2ZRR0YyT1RTSXFnT2R1M2R4RGdBMzdXSEFGcDg3V2dKX3dnS3dOdXNNUXZzakhkSDFsZllvTXlsOXVQdWROSEFNUDdpYlA1SDc4RmFaVWFLVzgzUGtXMnkyYUxEWEV5a0NqNE90cENyMTJ4dVFLSWlKRGjSAXxBVV95cUxPcUJTSmtsZDhHR0FvUlNpVDl1bkZPcHJiaFJIN0xCNnRCaWZLUGZIWVpzY2llSVdkQnhPMzA5Yk1tWGtJN3k1LW14dkF4NTExeFk2T0JuMVQ3ZWVEbjl5NklwMTd1cVZoenBJUmJVVWFnbTZQSzc3VFY1Vm9S?oc=5",
         "pool": "google",
         "date": "2026-08-27",
@@ -891,6 +863,34 @@
         "title": "The New Galaxy Z Series Earns Strong Early Reviews From European Consumers",
         "url": "https://news.samsung.com/global/the-new-galaxy-z-series-earns-strong-early-reviews-from-european-consumers",
         "pool": "institutions",
+        "date": "2026-08-26",
+        "by_hand": false
+      },
+      {
+        "title": "Smoking and vaping trends among active-duty U.S. Navy and Marine Corps personnel: results from the Annual Periodic Health Assessment, 2017-2021",
+        "url": "https://doi.org/10.1093/ntr/ntag188",
+        "pool": "institutions",
+        "date": "2026-08-26",
+        "by_hand": false
+      },
+      {
+        "title": "I’ve Been Neglecting My Neck for Years—These K-Beauty Products Are Changing That - ELLE",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBES2gyOW9BdDg2ODdPcFptaWQ0OHI5N1Jmd3B2Y0VJRnpadmVqWmZmMkFkOXpXYmlnT3F0aDhfUEIwbjZQNF80ejdkSmNYN3V5Wjh6bTlDVE5BVE84anQ4UjBlU1NVR0I3RERXd3VsTGVJNUNvWExTRWVTVQ?oc=5",
+        "pool": "google",
+        "date": "2026-08-26",
+        "by_hand": false
+      },
+      {
+        "title": "Ecommerce Content Strategy: Enterprise Guide (2026) - Shopify",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE03RUZ3UkJFbTlsV1JFSEJyOEZlWUY5TlFQd2RBU2FIS1hYbHhHc3VaUnB0dmItVmlPSTNaNDNZQ1o1c1ozNWFoYWxFX29vaFJ3cXpfQTJ5d3A2MU90TDhMMVpabGpxVWctWWxLTHI1d1JFVUhY?oc=5",
+        "pool": "google",
+        "date": "2026-08-26",
+        "by_hand": false
+      },
+      {
+        "title": "Shopify Payments in the United Arab Emirates now available on the Advanced plan",
+        "url": "https://changelog.shopify.com/posts/shopify-payments-in-the-united-arab-emirates-available-on-shopify-advanced-plan",
+        "pool": "design_refs",
         "date": "2026-08-26",
         "by_hand": false
       }
@@ -978,6 +978,13 @@
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1na3Q5UzFpZk02M1lSWWF3NmZyWWxiaXRudHc3blhnR0tCVGRicWlxQmtsbWJOVmtqSTdkVHZlejV3clZpeXk0bDJZNzdEc3dZMHdsN2NZQWVkVTNqOURiSEFsN2dPZ21SNktjaFpCQmMtN0RrdE51Sg?oc=5",
         "pool": "google",
         "date": "2026-06-06",
+        "by_hand": false
+      },
+      {
+        "title": "Coupang Pilots Brand Hotline to Fight Counterfeit K-Beauty - Seoul Economic Daily",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOExFbWtQVnpnVHVuSEJrVzdpYmpmZi1jc1BZWWhBeFl2SzFHTFdEUnlfZ0N1cWNSMDlJOEZDOE9fOEplU2V0UEpVcDdTV2ZwRzZMX04wTmcwSE9WVnhWQmxRdXN6QUk4ZGdDZlRGdllTNjNDSzFMZ3QyOGw0LTBpRTNKOU8tTmRja2hYSDlMRFZvbVNPWUtfTzNrSnZJVFlKNVE?oc=5",
+        "pool": "us_beauty",
+        "date": "",
         "by_hand": false
       },
       {
@@ -1561,7 +1568,7 @@
         "by_hand": true
       },
       {
-        "title": "These UI/UX Design Mistakes Scream You're a Junior Designer",
+        "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
         "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
         "pool": "youtube_channel",
         "date": "",

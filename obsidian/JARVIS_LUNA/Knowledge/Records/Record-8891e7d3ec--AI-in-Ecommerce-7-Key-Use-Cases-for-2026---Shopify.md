@@ -2,7 +2,7 @@
 title: "Record 8891e7d3ec · AI-in-Ecommerce-7-Key-Use-Cases-for-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T08:53:48.687609+00:00
+updated_at: 2026-09-13T14:14:12.581308+00:00
 tags: [record, real-data]
 ---
 

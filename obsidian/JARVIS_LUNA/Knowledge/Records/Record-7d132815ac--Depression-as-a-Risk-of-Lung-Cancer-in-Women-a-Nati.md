@@ -2,7 +2,7 @@
 title: "Record 7d132815ac · Depression-as-a-Risk-of-Lung-Cancer-in-Women-a-Nati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T08:53:48.626017+00:00
+updated_at: 2026-09-13T14:14:12.490138+00:00
 tags: [record, real-data]
 ---
 

@@ -1,7 +1,7 @@
 {
   "agent": "Chief-of-Staff",
   "role": "전체 JARVIS 운영상태를 종합하여 우선순위와 Safe Auto-Fix 실행 여부를 결정",
-  "generated_at": "2026-09-13T08:53:30.174309+00:00",
+  "generated_at": "2026-09-13T14:13:46.996333+00:00",
   "risk": "high",
   "overall_priority": "P1",
   "overall_action": "SAFE_BLACKLIST_SYNC",
@@ -157,7 +157,7 @@
       "status": "ok",
       "priority": "P4",
       "evidence": {
-        "s_grade_count": 7,
+        "s_grade_count": 6,
         "recommendation_source": "data/daiso_real/shopify_s_recommendations.json"
       },
       "recommended_action": "MONITOR",
@@ -213,7 +213,7 @@
       "status": "ok",
       "priority": "P4",
       "evidence": {
-        "s_grade_count": 7,
+        "s_grade_count": 6,
         "recommendation_source": "data/daiso_real/shopify_s_recommendations.json"
       },
       "recommended_action": "MONITOR",
@@ -392,7 +392,7 @@
       }
     },
     "shopify": {
-      "s_count": 7
+      "s_count": 6
     },
     "queue": {
       "blacklist_count": 0

@@ -2,7 +2,7 @@
 title: "Record 7076b79ac9 · Youve-been-buying-K-beauty-Is-it-time-to-try-Korean"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T08:53:48.807866+00:00
+updated_at: 2026-09-13T14:14:12.752968+00:00
 tags: [record, real-data]
 ---
 

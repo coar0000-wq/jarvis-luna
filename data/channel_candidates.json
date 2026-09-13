@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T08:52:09.378512+00:00",
+  "generated_at": "2026-09-13T14:12:13.176311+00:00",
   "generator": "scripts/discover_channels.py",
   "정책": "후보를 자동으로 등록하지 않는다. robots.txt 를 확인하고 실제로 호출해 본 뒤 진짜 데이터가 나오는 것만 제안한다. 붙일지 말지는 대화로 지시하면 자비스가 수집기를 만들어 연동한다. 이미 가동 중인 소스는 already_live 로 표시한다.",
   "판정기준": [
@@ -65,12 +65,12 @@
       "url": "https://www.allure.com/feed/rss",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 25836,
+      "bytes": 25709,
       "items": 30,
       "samples": [
+        "9 Best Sleep Masks of 2026 for Light-Sensitive Sleepers",
         "8 Best Guerlain Products 2026 to Add Luxury to Your Routine",
-        "14 Best Gourmand Perfumes 2026 to Delight Your Senses",
-        "12 Best Beauty Advent Calendars 2026 to Delight Everyone on Your List"
+        "14 Best Gourmand Perfumes 2026 to Delight Your Senses"
       ],
       "verdict": "가능",
       "reason": "30건 파싱 성공, 값이 서로 다름",
@@ -97,15 +97,15 @@
       "url": "https://trends.google.com/trending/rss?geo=US",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 19698,
-      "items": 37,
+      "bytes": 21473,
+      "items": 40,
       "samples": [
-        "cycling",
-        "Vuelta a Espana 2026: Mikel Landa wins stage 20 as Enric Mas moves to brink of victory",
-        "No final twist after all for Primož Roglič as GC winner-elect Enric Mas and Movistar thrive among the chaos of an epic, breathless Vuelta a España queen stage – Analysis"
+        "barcelona schedule",
+        "Levante vs. Barcelona: Preview, Predictions and Lineups",
+        "The squad for Levante v Barça"
       ],
       "verdict": "가능",
-      "reason": "37건 파싱 성공, 값이 서로 다름",
+      "reason": "40건 파싱 성공, 값이 서로 다름",
       "already_live": true,
       "live_channel": "google_trends_us"
     },

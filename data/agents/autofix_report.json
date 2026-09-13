@@ -1,6 +1,6 @@
 {
   "agent": "Safe-Auto-Fix",
-  "generated_at": "2026-09-13T08:53:30.174880+00:00",
+  "generated_at": "2026-09-13T14:13:46.997005+00:00",
   "status": "success",
   "enabled": true,
   "chief_of_staff": {
@@ -135,7 +135,7 @@
       }
     },
     "shopify": {
-      "s_count": 7
+      "s_count": 6
     },
     "queue": {
       "blacklist_count": 0
@@ -267,7 +267,7 @@
       }
     },
     "shopify": {
-      "s_count": 7
+      "s_count": 6
     },
     "queue": {
       "blacklist_count": 0
@@ -282,8 +282,8 @@
     "graph_links_after": 322757,
     "parse_failed_before": 5,
     "parse_failed_after": 5,
-    "s_count_before": 7,
-    "s_count_after": 7,
+    "s_count_before": 6,
+    "s_count_after": 6,
     "channels_live_before": 11,
     "channels_live_after": 11,
     "obsidian_truth_before": {
@@ -486,7 +486,7 @@
   "changes": [
     {
       "action": "repair_daiso_queue",
-      "started_at": "2026-09-13T08:53:27.494370+00:00",
+      "started_at": "2026-09-13T14:13:43.293576+00:00",
       "enabled": true,
       "changed": false,
       "added_to_blacklist": [],
@@ -495,7 +495,7 @@
       "removed_from_urls": [],
       "candidate_count": 0,
       "reason": "safe_blacklist_candidate=0",
-      "finished_at": "2026-09-13T08:53:27.494386+00:00"
+      "finished_at": "2026-09-13T14:13:43.293598+00:00"
     },
     {
       "action": "normalize_obsidian_links",
@@ -512,7 +512,7 @@
   ],
   "queue": {
     "action": "repair_daiso_queue",
-    "started_at": "2026-09-13T08:53:27.494370+00:00",
+    "started_at": "2026-09-13T14:13:43.293576+00:00",
     "enabled": true,
     "changed": false,
     "added_to_blacklist": [],
@@ -521,7 +521,7 @@
     "removed_from_urls": [],
     "candidate_count": 0,
     "reason": "safe_blacklist_candidate=0",
-    "finished_at": "2026-09-13T08:53:27.494386+00:00"
+    "finished_at": "2026-09-13T14:13:43.293598+00:00"
   },
   "queue_validation": {
     "queue_is_dict": true,

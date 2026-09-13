@@ -2,7 +2,7 @@
 title: "Record 46c10f7b10 · Shopify-President-Says-Agents-Will-Act-as-Personal-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T08:53:48.771963+00:00
+updated_at: 2026-09-13T14:14:12.699780+00:00
 tags: [record, real-data]
 ---
 
