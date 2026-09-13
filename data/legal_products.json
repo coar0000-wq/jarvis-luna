@@ -77,43 +77,10 @@
       "note": "",
       "auto_blockers": [],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-13T00:54:45.297588+00:00",
+      "auto_checked_at": "2026-09-13T04:42:48.974290+00:00",
       "hard_block": false,
       "hard_block_reason": "",
       "hs_basis": "버킷 '스킨케어'",
-      "hs_source": "hts.usitc.gov/reststop (미국 공식)"
-    },
-    "1045146": {
-      "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
-      "status": "auto_checked",
-      "auto_checks": {
-        "banned_claim": {
-          "ok": true,
-          "detail": "없음"
-        },
-        "otc_sunscreen": {
-          "ok": false,
-          "detail": "SPF/선스크린 제품 - 미국 OTC 의약품 검토 필요"
-        },
-        "label_fields": {
-          "ok": false,
-          "detail": "미확보: ingredients_inci"
-        }
-      },
-      "hs_code": "3304.99",
-      "regulator": "",
-      "reviewer": "",
-      "reviewed_at": "",
-      "note": "",
-      "auto_blockers": [
-        "otc_sunscreen",
-        "label_fields"
-      ],
-      "needs_attention": true,
-      "auto_checked_at": "2026-09-13T00:54:45.297427+00:00",
-      "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: otc_sunscreen, label_fields",
-      "hs_basis": "버킷 ''",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     },
     "1049271": {
@@ -140,107 +107,10 @@
       "note": "",
       "auto_blockers": [],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-13T00:54:45.297649+00:00",
+      "auto_checked_at": "2026-09-13T04:42:48.974368+00:00",
       "hard_block": false,
       "hard_block_reason": "",
       "hs_basis": "버킷 '스킨케어'",
-      "hs_source": "hts.usitc.gov/reststop (미국 공식)"
-    },
-    "1048581": {
-      "name": "드롭비 잡티 말끔 앰플 40 ml",
-      "status": "auto_checked",
-      "auto_checks": {
-        "banned_claim": {
-          "ok": true,
-          "detail": "없음"
-        },
-        "otc_sunscreen": {
-          "ok": true,
-          "detail": "해당 없음"
-        },
-        "label_fields": {
-          "ok": false,
-          "detail": "미확보: ingredients_inci"
-        }
-      },
-      "hs_code": "3304.99",
-      "regulator": "",
-      "reviewer": "",
-      "reviewed_at": "",
-      "note": "",
-      "auto_blockers": [
-        "label_fields"
-      ],
-      "needs_attention": true,
-      "auto_checked_at": "2026-09-13T00:54:45.297514+00:00",
-      "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: label_fields",
-      "hs_basis": "버킷 '스킨케어'",
-      "hs_source": "hts.usitc.gov/reststop (미국 공식)"
-    },
-    "1075857": {
-      "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
-      "status": "auto_checked",
-      "auto_checks": {
-        "banned_claim": {
-          "ok": true,
-          "detail": "없음"
-        },
-        "otc_sunscreen": {
-          "ok": true,
-          "detail": "해당 없음"
-        },
-        "label_fields": {
-          "ok": false,
-          "detail": "미확보: ingredients_inci"
-        }
-      },
-      "hs_code": "3304.99",
-      "regulator": "",
-      "reviewer": "",
-      "reviewed_at": "",
-      "note": "",
-      "auto_blockers": [
-        "label_fields"
-      ],
-      "needs_attention": true,
-      "auto_checked_at": "2026-09-13T00:54:45.297865+00:00",
-      "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: label_fields",
-      "hs_basis": "버킷 '스킨케어'",
-      "hs_source": "hts.usitc.gov/reststop (미국 공식)"
-    },
-    "1068776": {
-      "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
-      "status": "auto_checked",
-      "auto_checks": {
-        "banned_claim": {
-          "ok": true,
-          "detail": "없음"
-        },
-        "otc_sunscreen": {
-          "ok": false,
-          "detail": "SPF/선스크린 제품 - 미국 OTC 의약품 검토 필요"
-        },
-        "label_fields": {
-          "ok": false,
-          "detail": "미확보: ingredients_inci"
-        }
-      },
-      "hs_code": "3304.99",
-      "regulator": "",
-      "reviewer": "",
-      "reviewed_at": "",
-      "note": "",
-      "auto_blockers": [
-        "otc_sunscreen",
-        "label_fields"
-      ],
-      "needs_attention": true,
-      "auto_checked_at": "2026-09-13T00:54:45.297837+00:00",
-      "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: otc_sunscreen, label_fields",
-      "hs_basis": "버킷 ''",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     },
     "1059834": {
@@ -267,40 +137,10 @@
       "note": "",
       "auto_blockers": [],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-13T00:54:45.297724+00:00",
+      "auto_checked_at": "2026-09-13T04:42:48.974494+00:00",
       "hard_block": false,
       "hard_block_reason": "",
       "hs_basis": "버킷 '마스크팩'",
-      "hs_source": "hts.usitc.gov/reststop (미국 공식)"
-    },
-    "1041403": {
-      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-      "status": "auto_checked",
-      "auto_checks": {
-        "banned_claim": {
-          "ok": true,
-          "detail": "없음"
-        },
-        "otc_sunscreen": {
-          "ok": true,
-          "detail": "해당 없음"
-        },
-        "label_fields": {
-          "ok": true,
-          "detail": "4항목 확보"
-        }
-      },
-      "hs_code": "3304.99",
-      "regulator": "",
-      "reviewer": "",
-      "reviewed_at": "",
-      "note": "",
-      "auto_blockers": [],
-      "needs_attention": false,
-      "auto_checked_at": "2026-09-13T00:54:45.297295+00:00",
-      "hard_block": false,
-      "hard_block_reason": "",
-      "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     },
     "1062781": {
@@ -327,106 +167,10 @@
       "note": "",
       "auto_blockers": [],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-13T00:54:45.297807+00:00",
+      "auto_checked_at": "2026-09-13T04:42:48.974538+00:00",
       "hard_block": false,
       "hard_block_reason": "",
       "hs_basis": "버킷 '스킨케어'",
-      "hs_source": "hts.usitc.gov/reststop (미국 공식)"
-    },
-    "1060487": {
-      "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
-      "status": "auto_checked",
-      "auto_checks": {
-        "banned_claim": {
-          "ok": true,
-          "detail": "없음"
-        },
-        "otc_sunscreen": {
-          "ok": true,
-          "detail": "해당 없음"
-        },
-        "label_fields": {
-          "ok": false,
-          "detail": "미확보: ingredients_inci"
-        }
-      },
-      "hs_code": "3304.99",
-      "regulator": "",
-      "reviewer": "",
-      "reviewed_at": "",
-      "note": "",
-      "auto_blockers": [
-        "label_fields"
-      ],
-      "needs_attention": true,
-      "auto_checked_at": "2026-09-13T00:54:45.297743+00:00",
-      "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: label_fields",
-      "hs_basis": "버킷 '마스크팩'",
-      "hs_source": "hts.usitc.gov/reststop (미국 공식)"
-    },
-    "1070006": {
-      "name": "리노이아 퍼퓸헤어 세럼미스트 아쿠아씨솔트 80 ml",
-      "status": "auto_checked",
-      "auto_checks": {
-        "banned_claim": {
-          "ok": true,
-          "detail": "없음"
-        },
-        "otc_sunscreen": {
-          "ok": true,
-          "detail": "해당 없음"
-        },
-        "label_fields": {
-          "ok": false,
-          "detail": "미확보: ingredients_inci"
-        }
-      },
-      "hs_code": "3305",
-      "regulator": "",
-      "reviewer": "",
-      "reviewed_at": "",
-      "note": "",
-      "auto_blockers": [
-        "label_fields"
-      ],
-      "needs_attention": true,
-      "auto_checked_at": "2026-09-13T00:54:45.297851+00:00",
-      "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: label_fields",
-      "hs_basis": "버킷 '헤어케어'",
-      "hs_source": "hts.usitc.gov/reststop (미국 공식)"
-    },
-    "1067024": {
-      "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
-      "status": "auto_checked",
-      "auto_checks": {
-        "banned_claim": {
-          "ok": true,
-          "detail": "없음"
-        },
-        "otc_sunscreen": {
-          "ok": true,
-          "detail": "해당 없음"
-        },
-        "label_fields": {
-          "ok": false,
-          "detail": "미확보: ingredients_inci"
-        }
-      },
-      "hs_code": "3304.99",
-      "regulator": "",
-      "reviewer": "",
-      "reviewed_at": "",
-      "note": "",
-      "auto_blockers": [
-        "label_fields"
-      ],
-      "needs_attention": true,
-      "auto_checked_at": "2026-09-13T00:54:45.297822+00:00",
-      "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: label_fields",
-      "hs_basis": "버킷 '클렌징'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     },
     "1041749": {
@@ -450,7 +194,7 @@
       "needs_attention": false,
       "hard_block": false,
       "hard_block_reason": "",
-      "auto_checked_at": "2026-09-13T00:54:45.297387+00:00",
+      "auto_checked_at": "2026-09-13T04:42:48.974104+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
@@ -476,17 +220,350 @@
       "needs_attention": false,
       "hard_block": false,
       "hard_block_reason": "",
-      "auto_checked_at": "2026-09-13T00:54:45.297494+00:00",
+      "auto_checked_at": "2026-09-13T04:42:48.974200+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
+    },
+    "1053482": {
+      "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
+      "status": "auto_checked",
+      "auto_checks": {
+        "banned_claim": {
+          "ok": true,
+          "detail": "없음"
+        },
+        "otc_sunscreen": {
+          "ok": true,
+          "detail": "해당 없음"
+        },
+        "label_fields": {
+          "ok": false,
+          "detail": "미확보: ingredients_inci, net_contents, manufacturer, country_of_origin"
+        }
+      },
+      "auto_blockers": [
+        "label_fields"
+      ],
+      "needs_attention": true,
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields",
+      "auto_checked_at": "2026-09-13T04:42:48.974446+00:00"
     }
   },
   "auto_summary": {
-    "checked": 14,
+    "checked": 7,
     "clean": 0,
-    "needs_attention": 14,
-    "pass": 0
+    "needs_attention": 7,
+    "pass": 0,
+    "out_of_scope": 8
   },
-  "auto_checked_at": "2026-09-13T00:54:45.297872+00:00"
+  "auto_checked_at": "2026-09-13T04:42:48.974551+00:00",
+  "out_of_scope": {
+    "1045146": {
+      "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
+      "왜_뺐나": "지금 S등급이 아니다. 팔 계획이 없으므로 점검하지 않는다.",
+      "뺀_시각": "2026-09-13T04:33:37.622232+00:00",
+      "마지막_판정": "자동 점검 미통과: otc_sunscreen, label_fields",
+      "row": {
+        "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
+        "status": "auto_checked",
+        "auto_checks": {
+          "banned_claim": {
+            "ok": true,
+            "detail": "없음"
+          },
+          "otc_sunscreen": {
+            "ok": false,
+            "detail": "SPF/선스크린 제품 - 미국 OTC 의약품 검토 필요"
+          },
+          "label_fields": {
+            "ok": false,
+            "detail": "미확보: ingredients_inci, net_contents, manufacturer, country_of_origin"
+          }
+        },
+        "hs_code": "3304.99",
+        "regulator": "",
+        "reviewer": "",
+        "reviewed_at": "",
+        "note": "",
+        "auto_blockers": [
+          "otc_sunscreen",
+          "label_fields"
+        ],
+        "needs_attention": true,
+        "auto_checked_at": "2026-09-12T22:46:01.189201+00:00",
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: otc_sunscreen, label_fields",
+        "hs_basis": "버킷 ''",
+        "hs_source": "hts.usitc.gov/reststop (미국 공식)"
+      }
+    },
+    "1048581": {
+      "name": "드롭비 잡티 말끔 앰플 40 ml",
+      "왜_뺐나": "지금 S등급이 아니다. 팔 계획이 없으므로 점검하지 않는다.",
+      "뺀_시각": "2026-09-13T04:33:37.622251+00:00",
+      "마지막_판정": "자동 점검 미통과: label_fields",
+      "row": {
+        "name": "드롭비 잡티 말끔 앰플 40 ml",
+        "status": "auto_checked",
+        "auto_checks": {
+          "banned_claim": {
+            "ok": true,
+            "detail": "없음"
+          },
+          "otc_sunscreen": {
+            "ok": true,
+            "detail": "해당 없음"
+          },
+          "label_fields": {
+            "ok": false,
+            "detail": "미확보: ingredients_inci, net_contents, manufacturer, country_of_origin"
+          }
+        },
+        "hs_code": "3304.99",
+        "regulator": "",
+        "reviewer": "",
+        "reviewed_at": "",
+        "note": "",
+        "auto_blockers": [
+          "label_fields"
+        ],
+        "needs_attention": true,
+        "auto_checked_at": "2026-09-12T22:46:01.189272+00:00",
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields",
+        "hs_basis": "버킷 '스킨케어'",
+        "hs_source": "hts.usitc.gov/reststop (미국 공식)"
+      }
+    },
+    "1075857": {
+      "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
+      "왜_뺐나": "지금 S등급이 아니다. 팔 계획이 없으므로 점검하지 않는다.",
+      "뺀_시각": "2026-09-13T04:33:37.622257+00:00",
+      "마지막_판정": "자동 점검 미통과: label_fields",
+      "row": {
+        "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
+        "status": "auto_checked",
+        "auto_checks": {
+          "banned_claim": {
+            "ok": true,
+            "detail": "없음"
+          },
+          "otc_sunscreen": {
+            "ok": true,
+            "detail": "해당 없음"
+          },
+          "label_fields": {
+            "ok": false,
+            "detail": "미확보: ingredients_inci, net_contents, manufacturer, country_of_origin"
+          }
+        },
+        "hs_code": "3304.99",
+        "regulator": "",
+        "reviewer": "",
+        "reviewed_at": "",
+        "note": "",
+        "auto_blockers": [
+          "label_fields"
+        ],
+        "needs_attention": true,
+        "auto_checked_at": "2026-09-12T22:46:01.189540+00:00",
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields",
+        "hs_basis": "버킷 '스킨케어'",
+        "hs_source": "hts.usitc.gov/reststop (미국 공식)"
+      }
+    },
+    "1068776": {
+      "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
+      "왜_뺐나": "지금 S등급이 아니다. 팔 계획이 없으므로 점검하지 않는다.",
+      "뺀_시각": "2026-09-13T04:33:37.622260+00:00",
+      "마지막_판정": "자동 점검 미통과: otc_sunscreen, label_fields",
+      "row": {
+        "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
+        "status": "auto_checked",
+        "auto_checks": {
+          "banned_claim": {
+            "ok": true,
+            "detail": "없음"
+          },
+          "otc_sunscreen": {
+            "ok": false,
+            "detail": "SPF/선스크린 제품 - 미국 OTC 의약품 검토 필요"
+          },
+          "label_fields": {
+            "ok": false,
+            "detail": "미확보: ingredients_inci, net_contents, manufacturer, country_of_origin"
+          }
+        },
+        "hs_code": "3304.99",
+        "regulator": "",
+        "reviewer": "",
+        "reviewed_at": "",
+        "note": "",
+        "auto_blockers": [
+          "otc_sunscreen",
+          "label_fields"
+        ],
+        "needs_attention": true,
+        "auto_checked_at": "2026-09-12T22:46:01.189521+00:00",
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: otc_sunscreen, label_fields",
+        "hs_basis": "버킷 ''",
+        "hs_source": "hts.usitc.gov/reststop (미국 공식)"
+      }
+    },
+    "1041403": {
+      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+      "왜_뺐나": "지금 S등급이 아니다. 팔 계획이 없으므로 점검하지 않는다.",
+      "뺀_시각": "2026-09-13T04:33:37.622263+00:00",
+      "마지막_판정": "auto_checked",
+      "row": {
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "status": "auto_checked",
+        "auto_checks": {
+          "banned_claim": {
+            "ok": true,
+            "detail": "없음"
+          },
+          "otc_sunscreen": {
+            "ok": true,
+            "detail": "해당 없음"
+          },
+          "label_fields": {
+            "ok": true,
+            "detail": "4항목 확보"
+          }
+        },
+        "hs_code": "3304.99",
+        "regulator": "",
+        "reviewer": "",
+        "reviewed_at": "",
+        "note": "",
+        "auto_blockers": [],
+        "needs_attention": false,
+        "auto_checked_at": "2026-09-12T22:46:01.189095+00:00",
+        "hard_block": false,
+        "hard_block_reason": "",
+        "hs_basis": "버킷 '스킨케어'",
+        "hs_source": "hts.usitc.gov/reststop (미국 공식)"
+      }
+    },
+    "1060487": {
+      "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
+      "왜_뺐나": "지금 S등급이 아니다. 팔 계획이 없으므로 점검하지 않는다.",
+      "뺀_시각": "2026-09-13T04:33:37.622266+00:00",
+      "마지막_판정": "자동 점검 미통과: label_fields",
+      "row": {
+        "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
+        "status": "auto_checked",
+        "auto_checks": {
+          "banned_claim": {
+            "ok": true,
+            "detail": "없음"
+          },
+          "otc_sunscreen": {
+            "ok": true,
+            "detail": "해당 없음"
+          },
+          "label_fields": {
+            "ok": false,
+            "detail": "미확보: ingredients_inci, net_contents, manufacturer, country_of_origin"
+          }
+        },
+        "hs_code": "3304.99",
+        "regulator": "",
+        "reviewer": "",
+        "reviewed_at": "",
+        "note": "",
+        "auto_blockers": [
+          "label_fields"
+        ],
+        "needs_attention": true,
+        "auto_checked_at": "2026-09-12T22:46:01.189454+00:00",
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields",
+        "hs_basis": "버킷 '마스크팩'",
+        "hs_source": "hts.usitc.gov/reststop (미국 공식)"
+      }
+    },
+    "1070006": {
+      "name": "리노이아 퍼퓸헤어 세럼미스트 아쿠아씨솔트 80 ml",
+      "왜_뺐나": "지금 S등급이 아니다. 팔 계획이 없으므로 점검하지 않는다.",
+      "뺀_시각": "2026-09-13T04:33:37.622269+00:00",
+      "마지막_판정": "자동 점검 미통과: label_fields",
+      "row": {
+        "name": "리노이아 퍼퓸헤어 세럼미스트 아쿠아씨솔트 80 ml",
+        "status": "auto_checked",
+        "auto_checks": {
+          "banned_claim": {
+            "ok": true,
+            "detail": "없음"
+          },
+          "otc_sunscreen": {
+            "ok": true,
+            "detail": "해당 없음"
+          },
+          "label_fields": {
+            "ok": false,
+            "detail": "미확보: ingredients_inci, net_contents, manufacturer, country_of_origin"
+          }
+        },
+        "hs_code": "3305",
+        "regulator": "",
+        "reviewer": "",
+        "reviewed_at": "",
+        "note": "",
+        "auto_blockers": [
+          "label_fields"
+        ],
+        "needs_attention": true,
+        "auto_checked_at": "2026-09-12T22:46:01.189531+00:00",
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields",
+        "hs_basis": "버킷 '헤어케어'",
+        "hs_source": "hts.usitc.gov/reststop (미국 공식)"
+      }
+    },
+    "1067024": {
+      "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
+      "왜_뺐나": "지금 S등급이 아니다. 팔 계획이 없으므로 점검하지 않는다.",
+      "뺀_시각": "2026-09-13T04:33:37.622271+00:00",
+      "마지막_판정": "자동 점검 미통과: label_fields",
+      "row": {
+        "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
+        "status": "auto_checked",
+        "auto_checks": {
+          "banned_claim": {
+            "ok": true,
+            "detail": "없음"
+          },
+          "otc_sunscreen": {
+            "ok": true,
+            "detail": "해당 없음"
+          },
+          "label_fields": {
+            "ok": false,
+            "detail": "미확보: ingredients_inci, net_contents, manufacturer, country_of_origin"
+          }
+        },
+        "hs_code": "3304.99",
+        "regulator": "",
+        "reviewer": "",
+        "reviewed_at": "",
+        "note": "",
+        "auto_blockers": [
+          "label_fields"
+        ],
+        "needs_attention": true,
+        "auto_checked_at": "2026-09-12T22:46:01.189511+00:00",
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields",
+        "hs_basis": "버킷 '클렌징'",
+        "hs_source": "hts.usitc.gov/reststop (미국 공식)"
+      }
+    }
+  },
+  "_범위": "지금 S등급 7건만 점검한다. 출처는 shopify_demand_score.json 의 all_scored 중 grade S. S등급에서 빠진 상품은 out_of_scope 로 옮기고 점검·집계에서 뺀다. 지우지는 않으므로 다시 S등급이 되면 그때까지의 판정이 살아난다. 예전에는 한 번 들어온 상품을 영원히 보존해서, 팔 계획도 없는 상품 때문에 고칠 수 없는 차단 경고가 계속 떴다."
 }

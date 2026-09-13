@@ -720,14 +720,28 @@ function renderTeams(d){
 const list=$('team-list'); if(!list) return;
 const teams=Array.isArray(d.teams)?d.teams:[];
 
-// 비서실장은 런타임 teams 데이터와 무관하게 항상 최상단에 표시한다.
+// 비서실장은 teams 배열에 없고 d.secretary 로 따로 온다. 항상 최상단이다.
 // 이미지 파일은 images/teams/secretary.png 를 우선 사용하고, 없으면 JARVIS 기본 아이콘으로 대체한다.
+//
+// 예전에는 이 칸이 통째로 여기 박혀 있었다. 문구도 시각도 고정이라
+// 30분마다 돌든 사흘째 죽어 있든 화면이 똑같았다. 다른 팀은 실제 시각이
+// 뜨는데 비서실장만 "상시" 였고, 그래서 일을 하는지 알 방법이 없었다.
+// 이제 generate_dashboard_runtime.py 의 secretary_card() 가 산출물이
+// 언제 바뀌었는지 재서 넣어준다. 값이 없으면 옛 문구로 되돌아간다.
+const sec = d.secretary || null;
+const secWhen = (sec && sec.when && teamWhen(sec.when)) || '상시';
+const secSummary = (sec && sec.summary) ||
+  'JARVIS 전체 팀·자동화·우선순위·예외상황을 총괄하고, 각 팀의 결과를 연결해 다음 실행 과제를 조정합니다.';
+const secBadge = (sec && sec.status==='failed')
+  ? '<span class="team-badge fail">멈춤</span>' : '';
+const secAct = (sec && sec.action)
+  ? '<div><span class="team-action">← 조치 · '+esc(sec.action)+'</span></div>' : '';
 const secretary = '<li class="team-row secretary-row">'+
   '<div class="team-icon"><img src="images/teams/secretary.png" alt="비서실장" loading="lazy" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\';" style="border-radius:11px;" />'+
   '<div class="team-icon-fb secretary-fallback" style="display:none;background:#2a2a2a;"><svg viewBox="0 0 24 24">'+TEAM_GLYPH.robot+'</svg></div></div>'+
   '<div class="team-body">'+
-  '<div class="team-name">비서실장<span class="team-badge secretary-badge">총괄</span><span class="team-when">상시</span></div>'+
-  '<div class="team-summary">JARVIS 전체 팀·자동화·우선순위·예외상황을 총괄하고, 각 팀의 결과를 연결해 다음 실행 과제를 조정합니다.</div>'+
+  '<div class="team-name">비서실장<span class="team-badge secretary-badge">총괄</span>'+secBadge+'<span class="team-when">'+esc(secWhen)+'</span></div>'+
+  '<div class="team-summary">'+esc(secSummary)+'</div>'+secAct+
   '</div></li>' ;
 
 if(!teams.length){ list.innerHTML=secretary+'<li class="team-row"><div class="team-body"><div class="team-summary">팀 데이터가 아직 생성되지 않았습니다.</div></div></li>'; return; }
@@ -747,7 +761,9 @@ return '<li class="team-row">'
 +'<div class="team-summary">'+esc(t.summary||'')+'</div>'+act
 +'</div></li>';
 }).join('');
-const act=teams.filter(t=>t.action).length;
+// 비서실장 조치도 센다. 안 세면 비서실장이 멈췄을 때 위 숫자가 0 이 되어
+// 다 잘 돌고 있는 것처럼 보인다.
+const act=teams.filter(t=>t.action).length + ((sec && sec.action) ? 1 : 0);
 const el=$('team-updated');
 if(el) el.textContent = act ? ('조치 필요 '+act+'건') : '조치 필요 없음';
 }

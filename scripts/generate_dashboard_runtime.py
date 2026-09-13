@@ -410,6 +410,127 @@ def _error_summary() -> dict:
     }
 
 
+def secretary_card() -> dict:
+    """비서실장이 실제로 무엇을 했는지 실측해서 돌려준다.
+
+    왜 만들었나 (2026-09-13)
+
+      화면의 비서실장 칸이 index.html 에 통째로 박혀 있었다.
+      문구도 "JARVIS 전체 팀·자동화·우선순위·예외상황을 총괄하고..." 고정,
+      시각도 "상시" 고정이었다. 다른 팀은 09:54 처럼 실제 시각이 뜨는데
+      비서실장만 아니었다.
+
+      그래서 30분마다 돌든 사흘째 죽어 있든 화면이 똑같았다.
+      "비서실장이 일을 똑바로 하고 있나" 를 화면에서 알 방법이 없었다.
+
+    무엇을 보나
+
+      chief_of_staff.yml 이 30분마다 부르는 스크립트 일곱 개의 산출물을 본다.
+      스크립트가 돌았다는 말을 믿지 않고 결과 파일이 언제 바뀌었는지를 본다.
+      파일이 안 바뀌었으면 안 돈 것이다.
+
+    주의
+
+      chief_of_staff.py 라는 파일이 저장소에 있지만 어느 워크플로도
+      부르지 않는다. 고아 파일이다. 비서실장 일은 워크플로가 직접 한다.
+      그래서 그 파일의 로그를 근거로 쓰지 않는다.
+    """
+    D = ROOT / "data"
+
+    # (보이는 이름, 결과 파일, 그 파일에서 읽을 시각 칸)
+    STEPS = [
+        ("고시 수집", D / "gosi.json", "updated_at"),
+        ("고시 비전 추출", D / "gosi.json", "vision_checked_at"),
+        ("US 라벨 동기화", D / "daiso_real" / "daiso_us_labels.json",
+         "generated_at"),
+        ("리스팅 카피", D / "shopify_listing_copy.json", "generated_at"),
+        ("등록 게이트", D / "listing_gate.json", "generated_at"),
+        ("법률 점검", D / "legal_products.json", "auto_checked_at"),
+    ]
+
+    def when_of(path: Path, key: str) -> str | None:
+        doc = load_json(path, None)
+        if isinstance(doc, dict) and doc.get(key):
+            return str(doc[key])
+        return iso_mtime(path)
+
+    def hours_since(iso: str | None) -> float | None:
+        if not iso:
+            return None
+        try:
+            t = datetime.fromisoformat(str(iso).replace("Z", "+00:00"))
+        except ValueError:
+            return None
+        if t.tzinfo is None:
+            t = t.replace(tzinfo=KST)
+        return (datetime.now(KST) - t).total_seconds() / 3600.0
+
+    steps = []
+    newest = None
+    stale = []
+    for label, path, key in STEPS:
+        w = when_of(path, key)
+        h = hours_since(w)
+        steps.append({"단계": label, "산출물": path.name, "갱신": w,
+                      "몇시간전": round(h, 1) if h is not None else None})
+        if w and (newest is None or str(w) > str(newest)):
+            newest = w
+        # 30분 주기인데 2시간 넘게 안 바뀌었으면 그 단계는 멈춘 것으로 본다.
+        if h is None or h > 2:
+            stale.append(label)
+
+    # 이번에 무엇을 했는지. 건수는 전부 산출 파일에서 읽은 실측값이다.
+    gosi = (load_json(D / "gosi.json", None) or {}).get("items") or {}
+    labels = load_json(D / "daiso_real" / "daiso_us_labels.json", None) or {}
+    if isinstance(labels, dict) and "items" in labels:
+        labels = labels["items"]
+    # 이 저장소의 산출물은 같은 이름이 dict 일 때도 list 일 때도 있다.
+    # listing_gate 의 items 가 list 인 걸 모르고 .values() 를 불렀다가
+    # 대시보드 생성이 통째로 죽었다. 그래서 개수만 세고 형태는 안 따진다.
+    n_labels = len(labels) if isinstance(labels, (dict, list)) else 0
+    copies = (load_json(D / "shopify_listing_copy.json", None) or {}).get("items") or []
+    gate = load_json(D / "listing_gate.json", None) or {}
+    legal = load_json(D / "legal_products.json", None) or {}
+    l_items = legal.get("items") or {}
+    hard = sum(1 for v in l_items.values()
+               if isinstance(v, dict) and v.get("hard_block"))
+    # listing_gate.json 의 items 는 dict 가 아니라 list 다.
+    # 처음에 .values() 를 불렀다가 AttributeError 로 대시보드 생성이 통째로
+    # 죽었다. 최상위에 ready 라는 칸이 이미 있으므로 그것을 먼저 쓴다.
+    ready = gate.get("ready")
+    if ready is None:
+        rows = gate.get("items")
+        if isinstance(rows, dict):
+            rows = list(rows.values())
+        ready = sum(1 for v in (rows or [])
+                    if isinstance(v, dict) and v.get("ready"))
+
+    summary = (f"30분 주기 · 고시 {len(gosi)}건 · US라벨 {n_labels}건 · "
+               f"카피 {len(copies)}건 · 등록 가능 {ready}건 · "
+               f"법률 차단 {hard}건")
+
+    action = None
+    if stale:
+        action = ("멈춘 단계 " + ", ".join(stale[:3])
+                  + (f" 외 {len(stale) - 3}개" if len(stale) > 3 else "")
+                  + " — 2시간 넘게 산출물이 안 바뀌었다")
+
+    return {
+        "id": "secretary",
+        "name": "비서실장",
+        "badge": "총괄",
+        "when": newest,
+        "summary": summary,
+        "action": action,
+        "status": "failed" if stale else "ok",
+        "steps": steps,
+        "_근거": ("chief_of_staff.yml 이 30분마다 부르는 스크립트들의 산출물 "
+                "갱신 시각을 읽는다. 돌았다는 말이 아니라 결과가 바뀌었는지를 "
+                "본다. chief_of_staff.py 파일은 어느 워크플로도 부르지 않는 "
+                "고아라서 근거로 쓰지 않는다."),
+    }
+
+
 def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
     """팀별 한 줄 현황. 숫자는 산출 파일 실측값만 쓴다."""
     cards: list[dict] = []
@@ -422,6 +543,8 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
         s = feeds.get(team_id) or {}
         n = s.get("recent") or 0
         return f" · 새 자료 {n}건" if n else ""
+
+    # (비서실장 카드는 secretary_card() 가 따로 만든다)
 
     # 상품 소싱팀 --------------------------------------------------------
     # 사업의 출발점이라 맨 앞에 둔다. 수집이 멈추면 여기서 먼저 드러나야 한다.
@@ -791,6 +914,7 @@ def main() -> None:
     prev_gcs = age_channel_status(prev_gcs)
 
     teams = team_cards(graph, prev_gcs)
+    secretary = secretary_card()
 
     now = datetime.now(KST).isoformat()
 
@@ -821,6 +945,7 @@ def main() -> None:
             "실행 기록이 없는 작업은 진행중으로 표시하지 않음."
         ),
         "teams": teams,
+        "secretary": secretary,
         # 단계별 묶음. 화면이 팀을 순서대로 보여줄 수 있게 한다.
         "phases": {
             "now": {"label": "1단계 · 지금 돌면서 후보를 좁힌다",
