@@ -2118,7 +2118,9 @@ DEFAULT_BUCKETS = {
 }
 
 
-EXCLUDED_KEYWORDS = [
+# category_map.json 을 못 읽을 때만 쓰는 최소 목록.
+# 정본은 category_map.json 의 exclude 다. 아래 EXCLUDED_KEYWORDS 를 본다.
+FALLBACK_EXCLUDED = [
     "선케어",
     "선크림",
     "선스틱",
@@ -2129,6 +2131,48 @@ EXCLUDED_KEYWORDS = [
     "페디큐어",
     "nail",
 ]
+
+_EXCLUDED_CACHE: list[str] | None = None
+
+
+def excluded_keywords() -> list[str]:
+    """제외 키워드를 category_map.json 한 곳에서 읽는다.
+
+    전에는 이 파일에 목록이 박혀 있었고 category_map.json 에도 따로 있었다.
+    두 곳이 이미 어긋나 있었다. 이 파일에는 9개뿐인데 사전에는
+    자외선·자차·spf·pa+·톤업선·아세톤 같은 것이 더 있었다.
+    그래서 큐는 거르는데 수집기는 안 거르는 일이 생긴다.
+
+    이제 사전 한 곳만 본다. 사전을 못 읽으면 최소 목록으로 버틴다.
+    """
+    global _EXCLUDED_CACHE
+
+    if _EXCLUDED_CACHE is not None:
+        return _EXCLUDED_CACHE
+
+    words: list[str] = []
+
+    catmap = load_category_map()
+
+    for label, spec in (catmap.get("exclude") or {}).items():
+        # "_note" 같은 설명 칸은 값이 dict 가 아니다. 그대로 .get 을 부르면
+        # AttributeError 로 죽는다. build_beauty_queue.py 에서 실제로 죽었다.
+        if str(label).startswith("_") or not isinstance(spec, dict):
+            continue
+        for kw in spec.get("keywords") or []:
+            kw = str(kw).strip()
+            if kw:
+                words.append(kw)
+
+    if not words:
+        print(
+            "category_map.json 의 exclude 를 못 읽었다. "
+            "최소 목록으로 버틴다."
+        )
+        words = list(FALLBACK_EXCLUDED)
+
+    _EXCLUDED_CACHE = words
+    return words
 
 
 def load_category_map() -> dict:
@@ -2156,7 +2200,7 @@ def is_excluded(
         f"{item.get('name') or ''}"
     ).lower()
 
-    for keyword in EXCLUDED_KEYWORDS:
+    for keyword in excluded_keywords():
 
         if keyword.lower() in hay:
             return keyword
