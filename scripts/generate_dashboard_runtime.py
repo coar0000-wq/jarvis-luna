@@ -439,19 +439,50 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
         # skipped_not_beauty 는 뷰티관이 아니라 일부러 건너뛴 것이다.
         # 이걸 분모에 넣으면 실패율이 실제보다 크게 보인다.
         tried = ok + fail + sold
-        # 왜 실패했는지 함께 보여준다. 예전에는 "15건 파싱 실패" 라고만
-        # 적어서 원인을 짚을 수 없었다.
+
+        # 그런데 분모에서 뺐더니 반대로 들인 품이 안 보였다 (2026-09-13).
+        #
+        #   화면       "직전 실행에서 5건 시도 중 5건 실패"
+        #   실제로는   110건을 받았고 그중 105건이 뷰티가 아니라 버렸다
+        #              robots.txt Crawl-delay 30 이라 105 × 30초 = 52분이다
+        #
+        # 5건만 시도한 것처럼 보이니 한 시간이 사라진 것을 아무도 모른다.
+        # 실패율과 들인 품은 다른 값이다. 하나로 합치지 말고 둘 다 적는다.
+        notb = run.get("skipped_not_beauty") or 0
+        seen = run.get("skipped_already_visited") or 0
+        fetched = run.get("visited") or (tried + notb)
+        src = str(run.get("url_source") or "")
+        qsize = run.get("queue_size") or 0
+
         why = run.get("parse_fail_reasons") or {}
         why_txt = (" · " + ", ".join(f"{k} {v}" for k, v in
                                     sorted(why.items(), key=lambda x: -x[1])[:3])) if why else ""
         sold_txt = f" · 품절·판매종료 {sold}건" if sold else ""
+        # 받아 놓고 버린 것. 이 값이 크면 후보를 잘못 고르고 있다는 뜻이다.
+        notb_txt = f" · 받아보고 뷰티 아니라 버림 {notb}건" if notb else ""
+        # 아예 안 받고 건너뛴 것. 이 값이 커지는 것은 정상이다.
+        seen_txt = f" · 이미 판정해서 안 받음 {seen}건" if seen else ""
+        src_txt = ((f" · 후보 출처 {src}" + (f", 큐 {qsize}건" if qsize else ""))
+                   if src else "")
+
+        if fail:
+            act = (f'직전 실행에서 {fetched}건 받아 {tried}건 판정 · '
+                   f'{fail}건 실패 (성공 {ok}건)'
+                   + why_txt + sold_txt + notb_txt + seen_txt + src_txt)
+        elif ok == 0:
+            act = (f'직전 실행 성공 0건 · {fetched}건 받음'
+                   + notb_txt + seen_txt + src_txt)
+        elif sold or notb:
+            act = (f'직전 실행 {fetched}건 받아 성공 {ok}건'
+                   + sold_txt + notb_txt + seen_txt + src_txt)
+        else:
+            act = None
+
         cards.append(_team(
             "sourcing", "상품 소싱팀",
             (score or {}).get("generated_at") or (prod or {}).get("updated_at"),
             (f'{n}개 상품 · 등급 {grade}' if grade else f'{n}개 상품') + feed_tail("sourcing"),
-            (f'직전 실행에서 {tried}건 시도 중 {fail}건 실패 (성공 {ok}건)'
-             + why_txt + sold_txt) if fail else (
-                f'직전 실행 {tried}건 시도 · 성공 {ok}건{sold_txt}' if sold else None),
+            act,
             "ok" if n else "failed"))
     else:
         cards.append(_team("sourcing", "상품 소싱팀", None,
