@@ -67,6 +67,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "data" / "daiso_real" / "beauty_queue.json"
+CATMAP = Path(__file__).with_name("category_map.json")
 
 API = "https://fapi.daisomall.co.kr"
 HUB = "https://www.daisomall.co.kr/ds/diy2/C245"
@@ -162,7 +163,65 @@ def to_int(v) -> int:
         return 0
 
 
+# ============================================================
+# 받기 전에 거른다
+#
+# 2026-09-12 실행에서 110건을 받아 105건을 버렸다. Crawl-delay 30 이라
+# 52분이다. 받아 보고 버리는 것이 문제다. 받기 전에 걸러야 한다.
+#
+# 목록 API 가 상품 이름을 준다. 그 이름으로 category_map.json 의
+# 규칙을 그대로 돌린다. collect_daiso.py 의 classify_bucket 과 같은
+# 사전을 쓰므로 두 곳의 판단이 갈리지 않는다.
+#
+# 선케어와 네일은 아예 뺀다. 사유는 category_map 에 적혀 있다.
+#   선케어  미국에서 선크림은 OTC 의약품이다. Drug Facts 라벨이 따로 필요하다.
+#   네일    매니큐어는 인화성 액체라 항공 배송에 제약이 있다.
+# 받아서 버릴 것을 미리 뺀다. 30초씩 아낀다.
+#
+# 주의: 이름만 보는 것이라 놓치는 것이 있다. 상세 페이지를 받은 뒤
+# collect_daiso 가 다시 판정한다. 여기는 그물의 첫 칸일 뿐이고
+# 최종 판정이 아니다. 그래서 '예상' 이라고 적는다.
+# ============================================================
+
+
+def load_catmap() -> dict:
+    try:
+        return json.loads(CATMAP.read_text(encoding="utf-8"))
+    except (OSError, ValueError) as e:
+        print(f"category_map.json 을 못 읽었다: {e}")
+        print("이름 기준 사전 거르기를 건너뛴다. 상세에서 걸러진다.")
+        return {}
+
+
+def excluded_by_name(name: str, catmap: dict) -> str:
+    low = name.lower()
+    for label, spec in (catmap.get("exclude") or {}).items():
+        # category_map 의 exclude 에는 "_note" 처럼 밑줄로 시작하는 설명 칸이
+        # 섞여 있고 그 값은 dict 가 아니라 문자열이다. 그대로 .get 을 부르면
+        # AttributeError 로 죽는다. 실제로 죽어서 큐 생성이 멈췄다.
+        if label.startswith("_") or not isinstance(spec, dict):
+            continue
+        for kw in spec.get("keywords") or []:
+            if kw.lower() in low:
+                return label
+    return ""
+
+
+def bucket_by_name(name: str, catmap: dict) -> str:
+    low = name.lower()
+    # category_map 의 순서를 지킨다. 스킨케어가 크림·로션을 다 갖고 있어
+    # 앞에 두면 바디로션까지 삼킨다. 그래서 사전에 적힌 순서대로 본다.
+    for bucket, words in (catmap.get("buckets") or {}).items():
+        if bucket.startswith("_") or not isinstance(words, list):
+            continue
+        for w in words:
+            if w.lower() in low:
+                return bucket
+    return ""
+
+
 def main() -> int:
+    catmap = load_catmap()
     picked: dict[str, dict] = {}
     per_source = []
     errors = []
@@ -204,6 +263,14 @@ def main() -> int:
                 skipped[why] = skipped.get(why, 0) + 1
                 continue
 
+            name = str(row.get("pdNm") or "").strip()
+
+            drop = excluded_by_name(name, catmap)
+            if drop:
+                skipped[f"제외 대상 {drop}"] = (
+                    skipped.get(f"제외 대상 {drop}", 0) + 1)
+                continue
+
             if pd_no in picked:
                 if label not in picked[pd_no]["출처"]:
                     picked[pd_no]["출처"].append(label)
@@ -213,7 +280,10 @@ def main() -> int:
                 "pdNo": pd_no,
                 "url": PRODUCT.format(pd_no),
                 "출처": [label],
-                "이름_list": str(row.get("pdNm") or "").strip(),
+                # 이름으로 미리 본 버킷. 최종 판정은 상세를 받은 뒤
+                # collect_daiso 의 classify_bucket 이 한다.
+                "예상버킷": bucket_by_name(name, catmap),
+                "이름_list": name,
                 "가격_list": to_int(row.get("pdPrc")),
                 "리뷰수": to_int(row.get("revwCnt")),
                 "평점": row.get("avgStscVal"),
@@ -248,6 +318,11 @@ def main() -> int:
     if MAX_ITEMS > 0:
         items = items[:MAX_ITEMS]
 
+    bucket_dist: dict[str, int] = {}
+    for x in items:
+        key = x["예상버킷"] or "(이름으로 못 가림)"
+        bucket_dist[key] = bucket_dist.get(key, 0) + 1
+
     payload = {
         "generated_at": now(),
         "generator": "scripts/daiso/build_beauty_queue.py",
@@ -271,6 +346,7 @@ def main() -> int:
         "호출_간격_초": DELAY,
         "출처별": per_source,
         "제외": skipped,
+        "예상버킷_분포": bucket_dist,
         "관측된_판매상태": status_seen,
         "판매상태_주의": (
             "모르는 코드를 막지 않는다. 전에 sleStsCd 를 10 이나 SS001 로 "

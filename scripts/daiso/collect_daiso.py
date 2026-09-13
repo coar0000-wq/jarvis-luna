@@ -156,6 +156,20 @@ RETRY_FAILED = (
     not in {"0", "false", "no"}
 )
 
+# 큐가 비었을 때 사이트맵 전체를 훑을지. 기본은 끈다.
+# 사이트맵은 쇼핑몰 전체 19,739건이라 뷰티 적중률이 낮다.
+# 2026-09-12 에 110건을 받아 105건을 버렸고 Crawl-delay 30 이라 52분이다.
+# 받아 보고 버리는 문을 기본으로 열어 두지 않는다.
+ALLOW_SITEMAP = (
+    os.environ.get(
+        "DAISO_ALLOW_SITEMAP",
+        "0",
+    )
+    .strip()
+    .lower()
+    not in {"0", "false", "no", ""}
+)
+
 RETRY_UNAVAILABLE = (
     os.environ.get(
         "DAISO_RETRY_UNAVAILABLE",
@@ -2820,6 +2834,8 @@ def main() -> int:
         queue_ids
     )
 
+    queue_revisit: list[tuple[str, str]] = []
+
     if queue_ids:
 
         url_by_id = {
@@ -2829,60 +2845,109 @@ def main() -> int:
 
         queued_items = []
 
+        # 큐에 있는데 이미 본 것. 큐를 다 돌았을 때 다시 받을 대상이다.
+        # 사이트맵 쪽 revisit_items 를 쓰면 안 된다. 거기에는 뷰티가
+        # 아니라고 판정한 것들이 섞여 있어서 다시 받으면 또 버린다.
+        queue_revisit = []
+
         for pid in queue_ids:
 
+            item = (
+                pid,
+                url_by_id.get(
+                    pid
+                )
+                or product_url(
+                    pid
+                ),
+            )
+
             if pid in visited_set:
+                queue_revisit.append(
+                    item
+                )
                 continue
 
             queued_items.append(
-                (
-                    pid,
-                    url_by_id.get(
-                        pid
-                    )
-                    or product_url(
-                        pid
-                    ),
-                )
+                item
             )
 
-        if queued_items:
-
-            already = {
-                x[0]
-                for x in queued_items
-            }
-
-            ordered_items = (
-                queued_items
-                + [
-                    x
-                    for x in ordered_items
-                    if x[0] not in already
-                ]
-            )
-
-            url_source = "queue+sitemap"
-
-        else:
-            url_source = "sitemap"
+        # 큐가 있으면 큐만 쓴다. 뒤에 사이트맵을 붙이지 않는다.
+        #
+        # 처음에는 큐 뒤에 사이트맵을 이어 붙였다. 큐가 3,572건이라
+        # 한 회차 110건이면 사이트맵까지 갈 일이 없다고 봤다.
+        # 그런데 큐가 줄면 그 순간 사이트맵이 새어 들어온다.
+        # 그러면 다시 받아 보고 버리는 일이 생긴다.
+        #
+        # 받아 보고 버리는 것이 문제의 전부였다. 110건 중 105건,
+        # Crawl-delay 30 으로 52분이다. 그 문을 열어 두지 않는다.
+        #
+        # queued_items 가 비어도 url_source 는 queue 로 둔다.
+        # '큐가 비었다' 와 '큐를 다 봤다' 는 다른 상태다.
+        # 전에 이 둘을 같이 다뤄서, 큐를 다 본 경우에 재방문을 못 하고
+        # 사이트맵 안내문만 찍고 0건으로 끝났다. 시험 4번이 그걸 잡았다.
+        ordered_items = queued_items
+        url_source = "queue"
 
     else:
         url_source = "sitemap"
 
     # --------------------------------------------------------
-    # 안 본 것이 하나도 없으면 굶지 않는다
+    # 큐가 비었을 때 사이트맵으로 되돌아가지 않는다
     #
-    # 사이트맵을 다 돌면 fresh_items 가 빈다. 그때 아무것도 안 하면
-    # 수집기가 조용히 0건을 내놓는다. 고장과 구분이 안 된다.
-    # 그래서 이미 본 것 중 오래된 것부터 다시 본다.
+    # 사용자가 정확히 이것을 지적했다.
+    #   "뷰티 아니라 버림 105건 << 수집 자체를 하면 안되는건데
+    #    시간낭비잖아 이미지 카테고리 저것만 해달라고 했는데"
+    #
+    # 맞는 말이다. 뷰티관 밖 상품은 받을 이유가 없다.
+    # 그런데 큐가 비면 예전처럼 사이트맵 19,739건을 앞에서부터 훑는다.
+    # 그 순간 다시 뷰티 아닌 것을 받아 보고 버린다.
+    #
+    # 그래서 큐가 비면 사이트맵으로 안 간다. 아무것도 안 받고 멈춘다.
+    # 조용히 0건을 내는 것이 아니라 왜 0건인지 적고 멈춘다.
+    # 큐를 고치라는 신호다. 낭비하며 버티는 것보다 낫다.
+    #
+    # 정말 사이트맵이 필요하면 DAISO_ALLOW_SITEMAP=1 로 켠다.
+    # 기본은 꺼져 있다.
     # --------------------------------------------------------
 
-    exhausted = not ordered_items
+    if url_source == "sitemap" and not ALLOW_SITEMAP:
+
+        print(
+            "큐가 비어 있다. 사이트맵으로 되돌아가지 않는다.\n"
+            "  사이트맵은 쇼핑몰 전체 19,739건이라 뷰티 적중률이 낮다.\n"
+            "  2026-09-12 에 110건을 받아 105건을 버렸다. "
+            "Crawl-delay 30 이라 52분이다.\n"
+            "  scripts/daiso/build_beauty_queue.py 를 먼저 돌려 큐를 채운다.\n"
+            "  그래도 사이트맵을 쓰려면 DAISO_ALLOW_SITEMAP=1 로 켠다."
+        )
+
+        ordered_items = []
+
+    # --------------------------------------------------------
+    # 안 본 것이 하나도 없으면 굶지 않는다
+    #
+    # 큐를 다 돌면 fresh 가 빈다. 그때 아무것도 안 하면
+    # 수집기가 조용히 0건을 내놓는다. 고장과 구분이 안 된다.
+    # 그래서 이미 본 것 중에서 다시 본다. 이것은 전부 뷰티관 상품이라
+    # 받아 보고 버리는 낭비가 아니다. 가격과 재고를 새로 받는 것이다.
+    # --------------------------------------------------------
+
+    exhausted = (
+        not ordered_items
+        and url_source != "sitemap"
+    )
 
     if exhausted:
 
-        ordered_items = revisit_items
+        # 큐를 쓰는 중이면 큐 안에서만 다시 받는다.
+        # 사이트맵 쪽 revisit_items 에는 뷰티가 아니라고 판정한 것이
+        # 섞여 있다. 그것을 다시 받으면 또 버린다. 같은 낭비다.
+        ordered_items = (
+            queue_revisit
+            if url_source.startswith("queue")
+            else revisit_items
+        )
 
         url_source = (
             url_source
@@ -2890,8 +2955,8 @@ def main() -> int:
         )
 
         print(
-            "사이트맵에 안 본 상품이 없다. "
-            "이미 본 것부터 다시 받는다."
+            f"큐에 안 본 상품이 없다. "
+            f"이미 본 것 {len(ordered_items)}건 중에서 다시 받는다."
         )
 
     # --------------------------------------------------------
