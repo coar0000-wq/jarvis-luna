@@ -4,7 +4,7 @@
   "쓰는 곳": "scripts/sync_gosi_to_us_labels.py",
   "늘리는 법": "한국어 성분명을 키로, 미국 INCI 표기를 값으로 넣는다. 동기화를 돌리면 사전에 없는 성분이 못_옮긴_성분 에 쌓인다. 그 목록을 보고 채운다.",
   "주의": "INCI 는 국제 표준 표기다. 지어내면 안 된다. 모르면 비워 두고 못_옮긴_성분 에 남긴다. 틀린 성분표는 미국에서 라벨 위반이다.",
-  "count": 113,
+  "count": 178,
   "kr_to_inci": {
     "1,2-헥산다이올": "1,2-Hexanediol",
     "C12-14알케스-12": "C12-14 Alketh-12",
@@ -118,6 +118,5 @@
     "홀리바질잎추출물": "Ocimum Sanctum Leaf Extract",
     "황련뿌리추출물": "Coptis Japonica Root Extract",
     "흰버드나무껍질추출물": "Salix Alba (Willow) Bark Extract",
-    "흰서양송로추출물": "Tuber Magnatum Extract"
-  }
-}
+    "흰서양송로추출물": "Tuber Magnatum Extract",
+    "
