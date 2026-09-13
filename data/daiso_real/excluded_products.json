@@ -1,0 +1,219 @@
+{
+  "generated_at": "2026-09-13T06:33:08.863123+00:00",
+  "generator": "scripts/daiso/prune_excluded_products.py",
+  "왜_남기나": "규칙이 다시 바뀌어 되살려야 할 때 근거가 필요하다. 지우면 왜 뺐는지도 같이 사라진다.",
+  "규칙_출처": "scripts/daiso/category_map.json 의 exclude",
+  "count": 10,
+  "items": {
+    "1044428": {
+      "name": "2080 닥터크리닉 잇몸 치약 120 g",
+      "뺀_규칙": "불소치약·구강",
+      "걸린_낱말": "치약",
+      "왜": "FDA 가 '불소가 든 치약에 구취 제거·세정 효능을 같이 내세우면 화장품이면서 의약품' 이라고 직접 예로 든다. 성분 자체가 널리 알려진 치료 용도라 의약품이 된다고 명시한다. 한국 치약은 대부분 불소가 들어 있고 우리는 성분을 받기 전에는 모른다. 그래서 통째로 뺀다.",
+      "뺀_시각": "2026-09-13T06:33:08.863082+00:00",
+      "row": {
+        "pd_no": "1044428",
+        "name": "2080 닥터크리닉 잇몸 치약 120 g",
+        "brand": "다이소",
+        "site_category": "치약",
+        "price_krw": 2000,
+        "rating": 4.7,
+        "review_count": 1163,
+        "image_url": "https://cdn.daisomall.co.kr/file/PD/20260129/vX7n8sygrxXVnpGHZf0n1044428_00_01vX7n8sygrxXVnpGHZf0n.jpg",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1044428",
+        "collected_at": "2026-08-24T20:13:45.486135+00:00",
+        "source": "daisomall.co.kr 상품 상세 페이지",
+        "bucket": "구강용품"
+      }
+    },
+    "1044430": {
+      "name": "2080 파워쉴드 플러스 치약 130 gX3개입",
+      "뺀_규칙": "불소치약·구강",
+      "걸린_낱말": "치약",
+      "왜": "FDA 가 '불소가 든 치약에 구취 제거·세정 효능을 같이 내세우면 화장품이면서 의약품' 이라고 직접 예로 든다. 성분 자체가 널리 알려진 치료 용도라 의약품이 된다고 명시한다. 한국 치약은 대부분 불소가 들어 있고 우리는 성분을 받기 전에는 모른다. 그래서 통째로 뺀다.",
+      "뺀_시각": "2026-09-13T06:33:08.863097+00:00",
+      "row": {
+        "pd_no": "1044430",
+        "name": "2080 파워쉴드 플러스 치약 130 gX3개입",
+        "brand": "다이소",
+        "site_category": "치약",
+        "price_krw": 5000,
+        "rating": 4.9,
+        "review_count": 350,
+        "image_url": "https://cdn.daisomall.co.kr/file/PD/20231205/J3r4Ie9sdPUHmMX7mfCZ1044430_00_00J3r4Ie9sdPUHmMX7mfCZ.jpg",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1044430",
+        "collected_at": "2026-08-26T22:18:43.987095+00:00",
+        "source": "daisomall.co.kr 상품 상세 페이지",
+        "bucket": "구강용품"
+      }
+    },
+    "1051565": {
+      "name": "스테인리스 칫솔 치약 스탠드",
+      "뺀_규칙": "불소치약·구강",
+      "걸린_낱말": "치약",
+      "왜": "FDA 가 '불소가 든 치약에 구취 제거·세정 효능을 같이 내세우면 화장품이면서 의약품' 이라고 직접 예로 든다. 성분 자체가 널리 알려진 치료 용도라 의약품이 된다고 명시한다. 한국 치약은 대부분 불소가 들어 있고 우리는 성분을 받기 전에는 모른다. 그래서 통째로 뺀다.",
+      "뺀_시각": "2026-09-13T06:33:08.863101+00:00",
+      "row": {
+        "pd_no": "1051565",
+        "name": "스테인리스 칫솔 치약 스탠드",
+        "brand": "다이소",
+        "site_category": "칫솔걸이/꽂이",
+        "price_krw": 2000,
+        "rating": 4.8,
+        "review_count": 1225,
+        "image_url": "https://cdn.daisomall.co.kr/file/PD/20241121/sVFIfmm0npjUw0wqdShY1051565_00_00sVFIfmm0npjUw0wqdShY.jpg",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1051565",
+        "collected_at": "2026-08-24T20:25:27.132212+00:00",
+        "source": "daisomall.co.kr 상품 상세 페이지",
+        "bucket": "구강용품"
+      }
+    },
+    "1031990": {
+      "name": "페리오 토탈7 메디컬 허브 바질",
+      "뺀_규칙": "불소치약·구강",
+      "걸린_낱말": "치약",
+      "왜": "FDA 가 '불소가 든 치약에 구취 제거·세정 효능을 같이 내세우면 화장품이면서 의약품' 이라고 직접 예로 든다. 성분 자체가 널리 알려진 치료 용도라 의약품이 된다고 명시한다. 한국 치약은 대부분 불소가 들어 있고 우리는 성분을 받기 전에는 모른다. 그래서 통째로 뺀다.",
+      "뺀_시각": "2026-09-13T06:33:08.863104+00:00",
+      "row": {
+        "pd_no": "1031990",
+        "name": "페리오 토탈7 메디컬 허브 바질",
+        "brand": "다이소",
+        "site_category": "치약",
+        "price_krw": 2000,
+        "rating": 4.8,
+        "review_count": 332,
+        "image_url": "https://cdn.daisomall.co.kr/file/PD/20240223/kKhWRiRM6X6TaEkyYis51031990_00_00kKhWRiRM6X6TaEkyYis5.jpg",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1031990",
+        "collected_at": "2026-09-04T21:52:32.540325+00:00",
+        "source": "daisomall.co.kr 상품 상세 페이지",
+        "bucket": "구강용품"
+      }
+    },
+    "1010376": {
+      "name": "페리오 펌핑치약 쿨민트 285 g",
+      "뺀_규칙": "불소치약·구강",
+      "걸린_낱말": "치약",
+      "왜": "FDA 가 '불소가 든 치약에 구취 제거·세정 효능을 같이 내세우면 화장품이면서 의약품' 이라고 직접 예로 든다. 성분 자체가 널리 알려진 치료 용도라 의약품이 된다고 명시한다. 한국 치약은 대부분 불소가 들어 있고 우리는 성분을 받기 전에는 모른다. 그래서 통째로 뺀다.",
+      "뺀_시각": "2026-09-13T06:33:08.863107+00:00",
+      "row": {
+        "pd_no": "1010376",
+        "name": "페리오 펌핑치약 쿨민트 285 g",
+        "brand": "다이소",
+        "site_category": "치약",
+        "price_krw": 5000,
+        "rating": 4.8,
+        "review_count": 163,
+        "image_url": "https://cdn.daisomall.co.kr/file/PD/20231127/jGiVU6qYSnkZDlEzeO7N1010376_00_00jGiVU6qYSnkZDlEzeO7N.jpg",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1010376",
+        "collected_at": "2026-08-26T22:56:32.826013+00:00",
+        "source": "daisomall.co.kr 상품 상세 페이지",
+        "bucket": "구강용품"
+      }
+    },
+    "60729": {
+      "name": "페리오46CM 구강스프레이 6.2ml (쿨민트)",
+      "뺀_규칙": "불소치약·구강",
+      "걸린_낱말": "구강청결",
+      "왜": "FDA 가 '불소가 든 치약에 구취 제거·세정 효능을 같이 내세우면 화장품이면서 의약품' 이라고 직접 예로 든다. 성분 자체가 널리 알려진 치료 용도라 의약품이 된다고 명시한다. 한국 치약은 대부분 불소가 들어 있고 우리는 성분을 받기 전에는 모른다. 그래서 통째로 뺀다.",
+      "뺀_시각": "2026-09-13T06:33:08.863109+00:00",
+      "row": {
+        "pd_no": "60729",
+        "name": "페리오46CM 구강스프레이 6.2ml (쿨민트)",
+        "brand": "다이소",
+        "site_category": "구강청결제",
+        "price_krw": 3000,
+        "rating": 4.8,
+        "review_count": 710,
+        "image_url": "https://cdn.daisomall.co.kr/file/PD/20231201/4htbI49mYSK0npXBsVth60729_00_004htbI49mYSK0npXBsVth.jpg",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=60729",
+        "collected_at": "2026-09-05T21:47:50.276874+00:00",
+        "source": "daisomall.co.kr 상품 상세 페이지",
+        "bucket": "구강용품"
+      }
+    },
+    "1029256": {
+      "name": "항균 입체 마스크 중형",
+      "뺀_규칙": "항균세정",
+      "걸린_낱말": "항균",
+      "왜": "FDA 가 '세정 목적 외에 질병을 치료·예방하려는 것이면 의약품이다. 예를 들어 antibacterial cleanser' 라고 든다. 항균을 내세운 핸드워시·풋샴푸가 여기 걸린다.",
+      "뺀_시각": "2026-09-13T06:33:08.863112+00:00",
+      "row": {
+        "pd_no": "1029256",
+        "name": "항균 입체 마스크 중형",
+        "brand": "다이소",
+        "site_category": "다회용마스크",
+        "price_krw": 1000,
+        "rating": 4.6,
+        "review_count": 191,
+        "image_url": "https://cdn.daisomall.co.kr/file/PD/20260402/k1rLCJYhXSD14EdJNJTJ1029256_00_00k1rLCJYhXSD14EdJNJTJ.jpg",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1029256",
+        "collected_at": "2026-09-09T21:57:12.221737+00:00",
+        "source": "daisomall.co.kr 상품 상세 페이지",
+        "bucket": "마스크팩"
+      }
+    },
+    "1069430": {
+      "name": "46cm 체취솔루션 데오드란트 바디워시 리프레싱 허벌향 225 ml",
+      "뺀_규칙": "땀억제데오",
+      "걸린_낱말": "데오드란트",
+      "왜": "FDA 가 'antiperspirant 를 겸한 데오드란트는 화장품이면서 의약품' 이라고 든다. 냄새만 덮는 데오드란트는 화장품이고 땀을 줄이는 antiperspirant 는 의약품이다.",
+      "뺀_시각": "2026-09-13T06:33:08.863116+00:00",
+      "row": {
+        "pd_no": "1069430",
+        "name": "46cm 체취솔루션 데오드란트 바디워시 리프레싱 허벌향 225 ml",
+        "brand": "다이소",
+        "site_category": "샤워/입욕",
+        "price_krw": 5000,
+        "rating": 4.8,
+        "review_count": 422,
+        "image_url": "https://cdn.daisomall.co.kr/file/PD/20250805/5OChvqfwQIB4JhwG6Tzv1069430_00_015OChvqfwQIB4JhwG6Tzv.jpg",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1069430",
+        "collected_at": "2026-09-08T21:58:56.636359+00:00",
+        "source": "daisomall.co.kr 상품 상세 페이지",
+        "bucket": "바디케어"
+      }
+    },
+    "1039707": {
+      "name": "쿨링 퍼퓸 데오 티슈 15매 비누향",
+      "뺀_규칙": "땀억제데오",
+      "걸린_낱말": "데오드란트",
+      "왜": "FDA 가 'antiperspirant 를 겸한 데오드란트는 화장품이면서 의약품' 이라고 든다. 냄새만 덮는 데오드란트는 화장품이고 땀을 줄이는 antiperspirant 는 의약품이다.",
+      "뺀_시각": "2026-09-13T06:33:08.863118+00:00",
+      "row": {
+        "pd_no": "1039707",
+        "name": "쿨링 퍼퓸 데오 티슈 15매 비누향",
+        "brand": "다이소",
+        "site_category": "데오드란트",
+        "price_krw": 1000,
+        "rating": 4.8,
+        "review_count": 3384,
+        "image_url": "https://cdn.daisomall.co.kr/file/PD/20260724/T2geKz8xXGzE0WKM2Sk01039707_00_00T2geKz8xXGzE0WKM2Sk0.jpg",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1039707",
+        "collected_at": "2026-08-26T23:05:34.226964+00:00",
+        "source": "daisomall.co.kr 상품 상세 페이지",
+        "bucket": "향수"
+      }
+    },
+    "1035069": {
+      "name": "더마앤모어 AHA 쿨링 비듬케어 샴푸 60ml",
+      "뺀_규칙": "비듬·탈모",
+      "걸린_낱말": "비듬",
+      "왜": "FDA 가 OTC 모노그래프 범주로 'treatments for dandruff, seborrheic dermatitis, and psoriasis' 를 나열한다. 탈모는 따로다. 미국에서 모발 성장을 내세우면 구조·기능 주장이라 의약품이 된다. FDA 가 '머리가 다시 자라게 한다' 를 의약품이 되는 주장의 예로 든다.",
+      "뺀_시각": "2026-09-13T06:33:08.863121+00:00",
+      "row": {
+        "pd_no": "1035069",
+        "name": "더마앤모어 AHA 쿨링 비듬케어 샴푸 60ml",
+        "brand": "더마앤모어",
+        "site_category": "샴푸/린스",
+        "price_krw": 1000,
+        "rating": 4.7,
+        "review_count": 143,
+        "image_url": "https://cdn.daisomall.co.kr/file/PD/20231130/7MVVgIubXyUincctQr451035069_00_007MVVgIubXyUincctQr45.jpg",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1035069",
+        "collected_at": "2026-09-02T22:17:05.223608+00:00",
+        "source": "daisomall.co.kr 상품 상세 페이지",
+        "bucket": "헤어케어"
+      }
+    }
+  }
+}
