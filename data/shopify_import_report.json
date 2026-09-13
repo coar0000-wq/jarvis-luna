@@ -1,60 +1,60 @@
 {
-  "generated_at": "2026-09-12T05:14:28.934196+00:00",
+  "generated_at": "2026-09-13T06:40:26.799479+00:00",
   "csv": "data/shopify_import.csv",
   "rows": 0,
-  "listing_gate": "listing_gate.json 2026-09-11T22:41:46 기준 등록 가능 5/7",
+  "listing_gate": "listing_gate.json 2026-09-13T06:33:09 기준 등록 가능 1/7",
   "skipped": [
     {
       "pd_no": "1048583",
       "name_ko": "드롭비 탄탄 광채 앰플 40 ml",
-      "reason": "원가 모델에 해당 상품이 없어 가격 산출 불가"
-    },
-    {
-      "pd_no": "1062781",
-      "name_ko": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
-      "reason": "원가 모델에 해당 상품이 없어 가격 산출 불가"
+      "reason": "등록 게이트 미통과 -  미완료"
     },
     {
       "pd_no": "1041749",
       "name_ko": "식물원 병풀 클리어 앰플 30 ml",
-      "reason": "등록 게이트 미통과 - 카피, 법률 검토 미완료"
+      "reason": "등록 게이트 미통과 - 고시, us_label 미완료"
+    },
+    {
+      "pd_no": "1062781",
+      "name_ko": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+      "reason": "등록 게이트 미통과 - us_label 미완료"
     },
     {
       "pd_no": "1059834",
       "name_ko": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-      "reason": "원가 모델에 해당 상품이 없어 가격 산출 불가"
+      "reason": "등록 게이트 미통과 - us_label 미완료"
     },
     {
       "pd_no": "1049271",
       "name_ko": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
-      "reason": "원가 모델에 해당 상품이 없어 가격 산출 불가"
+      "reason": "등록 게이트 미통과 - us_label 미완료"
     },
     {
-      "pd_no": "1041403",
-      "name_ko": "채비공간 어성초 추출물 비건 토너 150 ml",
-      "reason": "원가 모델에 해당 상품이 없어 가격 산출 불가"
+      "pd_no": "1053482",
+      "name_ko": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
+      "reason": "등록 게이트 미통과 - 고시, us_label, 법률 검토 미완료"
     },
     {
       "pd_no": "1045421",
       "name_ko": "태그 듀이 스킨 쿠션 15g 누드 라이트",
-      "reason": "등록 게이트 미통과 - 카피, 고시, 법률 검토 미완료"
+      "reason": "등록 게이트 미통과 - 고시, us_label 미완료"
     }
   ],
-  "exchange_rate": "1342.53 KRW/USD (2026-09-12) https://open.er-api.com/v6/latest/USD",
+  "exchange_rate": "1343.03 KRW/USD (2026-09-13) https://open.er-api.com/v6/latest/USD",
   "pricing_model": "5개_묶음배송 기준 · 관세 15% - 미국 화장품 HTS 3304 한국산 상호관세 · 우체국 국제통상 소형포장물 미국행 요금표 (ems.epost.go.kr, 2026-08-31 조회)",
   "bundle_assumption": "5개_묶음배송",
-  "sell_price_usd": 20.0,
-  "compare_at_usd": 24.7,
+  "sell_price_usd": 19.99,
+  "compare_at_usd": 23.99,
   "market_benchmark": {
-    "min": 7.84,
-    "p25": 20.0,
-    "median": 24.7,
+    "min": 7.5,
+    "p25": 19.99,
+    "median": 23.99,
     "max": 279.0,
     "n": 100,
-    "source": "us.oliveyoung.com/best-sellers 실수집 100건 (2026-09-12)"
+    "source": "us.oliveyoung.com/best-sellers 실수집 100건 (2026-09-13)"
   },
   "vendor": "MD family",
-  "가격_근거": "Cost per item 은 다이소 원가에 국제배송비와 관세 15% 를 더한 착지원가다. 배송비는 5개_묶음배송 을 전제로 분담한 값이라, 낱개로 팔리면 실제 원가가 더 높다. 판매가 $20.00 는 미국 시장 하위 25% 값이며 Compare-at $24.70 는 시장 중앙값이다.",
+  "가격_근거": "Cost per item 은 다이소 원가에 국제배송비와 관세 15% 를 더한 착지원가다. 배송비는 5개_묶음배송 을 전제로 분담한 값이라, 낱개로 팔리면 실제 원가가 더 높다. 판매가 $19.99 는 미국 시장 하위 25% 값이며 Compare-at $23.99 는 시장 중앙값이다.",
   "게시전_확인사항": [
     "판매가가 5개_묶음배송 전제다. 2개 이상 묶음 구매를 유도하지 못하면 배송비 분담이 깨져 적자가 난다. 무료배송 최소 주문금액을 걸어야 한다.",
     "광고비(CAC)가 계산에 없다. 뷰티 신규 스토어 CAC 를 감안하면 객단가를 올리지 못할 경우 마진이 남지 않는다.",

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-13T00:54:45.245174+00:00",
+  "generated_at": "2026-09-13T06:39:58.727398+00:00",
   "exchange_rate": {
     "usd_to_krw": 1343.03,
     "as_of": "2026-09-13",
-    "source": "ExchangeRate-API"
+    "source": "https://open.er-api.com/v6/latest/USD"
   },
   "cost_basis": {
     "shipping": "우체국 국제통상 소형포장물 미국행 요금표 (ems.epost.go.kr, 2026-08-31 조회)",
@@ -21,9 +21,9 @@
     ]
   },
   "market_benchmark": {
-    "min": 4.99,
-    "p25": 20.7,
-    "median": 24.7,
+    "min": 7.5,
+    "p25": 19.99,
+    "median": 23.99,
     "max": 279.0,
     "n": 100,
     "source": "us.oliveyoung.com/best-sellers 실수집 100건 (2026-09-13)"
@@ -35,28 +35,13 @@
         "pd_no": "1048583",
         "name": "드롭비 탄탄 광채 앰플 40 ml",
         "qty": 1,
-        "price_usd": 24.99,
-        "unit_price_usd": 24.99,
+        "price_usd": 23.99,
+        "unit_price_usd": 23.99,
         "landed_cost_total_usd": 11.3,
-        "fee_usd": 1.85,
-        "net_profit_usd": 11.84,
-        "margin_pct": 47.4,
-        "market_median_usd": 24.7,
-        "market_price_source": "oliveyoung_us_benchmark",
-        "register_blocked": false,
-        "block_reason": ""
-      },
-      {
-        "pd_no": "1062781",
-        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
-        "qty": 1,
-        "price_usd": 24.99,
-        "unit_price_usd": 24.99,
-        "landed_cost_total_usd": 11.3,
-        "fee_usd": 1.85,
-        "net_profit_usd": 11.84,
-        "margin_pct": 47.4,
-        "market_median_usd": 24.7,
+        "fee_usd": 1.78,
+        "net_profit_usd": 10.91,
+        "margin_pct": 45.5,
+        "market_median_usd": 23.99,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -65,13 +50,28 @@
         "pd_no": "1041749",
         "name": "식물원 병풀 클리어 앰플 30 ml",
         "qty": 1,
-        "price_usd": 24.99,
-        "unit_price_usd": 24.99,
+        "price_usd": 23.99,
+        "unit_price_usd": 23.99,
         "landed_cost_total_usd": 10.54,
-        "fee_usd": 1.85,
-        "net_profit_usd": 12.6,
-        "margin_pct": 50.4,
-        "market_median_usd": 24.7,
+        "fee_usd": 1.78,
+        "net_profit_usd": 11.67,
+        "margin_pct": 48.7,
+        "market_median_usd": 23.99,
+        "market_price_source": "oliveyoung_us_benchmark",
+        "register_blocked": false,
+        "block_reason": ""
+      },
+      {
+        "pd_no": "1062781",
+        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+        "qty": 1,
+        "price_usd": 23.99,
+        "unit_price_usd": 23.99,
+        "landed_cost_total_usd": 11.3,
+        "fee_usd": 1.78,
+        "net_profit_usd": 10.91,
+        "margin_pct": 45.5,
+        "market_median_usd": 23.99,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -80,13 +80,13 @@
         "pd_no": "1059834",
         "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
         "qty": 1,
-        "price_usd": 24.99,
-        "unit_price_usd": 24.99,
+        "price_usd": 23.99,
+        "unit_price_usd": 23.99,
         "landed_cost_total_usd": 7.97,
-        "fee_usd": 1.85,
-        "net_profit_usd": 15.17,
-        "margin_pct": 60.7,
-        "market_median_usd": 24.7,
+        "fee_usd": 1.78,
+        "net_profit_usd": 14.24,
+        "margin_pct": 59.4,
+        "market_median_usd": 23.99,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -95,13 +95,13 @@
         "pd_no": "1049271",
         "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
         "qty": 1,
-        "price_usd": 24.99,
-        "unit_price_usd": 24.99,
+        "price_usd": 23.99,
+        "unit_price_usd": 23.99,
         "landed_cost_total_usd": 15.03,
-        "fee_usd": 1.85,
-        "net_profit_usd": 8.11,
-        "margin_pct": 32.5,
-        "market_median_usd": 24.7,
+        "fee_usd": 1.78,
+        "net_profit_usd": 7.18,
+        "margin_pct": 29.9,
+        "market_median_usd": 23.99,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -110,13 +110,13 @@
         "pd_no": "1053482",
         "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
         "qty": 1,
-        "price_usd": 24.99,
-        "unit_price_usd": 24.99,
+        "price_usd": 23.99,
+        "unit_price_usd": 23.99,
         "landed_cost_total_usd": 12.8,
-        "fee_usd": 1.85,
-        "net_profit_usd": 10.34,
-        "margin_pct": 41.4,
-        "market_median_usd": 24.7,
+        "fee_usd": 1.78,
+        "net_profit_usd": 9.41,
+        "margin_pct": 39.2,
+        "market_median_usd": 23.99,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -125,13 +125,13 @@
         "pd_no": "1045421",
         "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
         "qty": 1,
-        "price_usd": 24.99,
-        "unit_price_usd": 24.99,
+        "price_usd": 23.99,
+        "unit_price_usd": 23.99,
         "landed_cost_total_usd": 10.54,
-        "fee_usd": 1.85,
-        "net_profit_usd": 12.6,
-        "margin_pct": 50.4,
-        "market_median_usd": 24.7,
+        "fee_usd": 1.78,
+        "net_profit_usd": 11.67,
+        "margin_pct": 48.7,
+        "market_median_usd": 23.99,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -142,28 +142,13 @@
         "pd_no": "1048583",
         "name": "드롭비 탄탄 광채 앰플 40 ml",
         "qty": 2,
-        "price_usd": 41.99,
-        "unit_price_usd": 21.0,
+        "price_usd": 40.99,
+        "unit_price_usd": 20.5,
         "landed_cost_total_usd": 16.32,
-        "fee_usd": 3.11,
-        "net_profit_usd": 22.56,
-        "margin_pct": 53.7,
-        "market_median_usd": 24.7,
-        "market_price_source": "oliveyoung_us_benchmark",
-        "register_blocked": false,
-        "block_reason": ""
-      },
-      {
-        "pd_no": "1062781",
-        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
-        "qty": 2,
-        "price_usd": 41.99,
-        "unit_price_usd": 21.0,
-        "landed_cost_total_usd": 16.32,
-        "fee_usd": 3.11,
-        "net_profit_usd": 22.56,
-        "margin_pct": 53.7,
-        "market_median_usd": 24.7,
+        "fee_usd": 3.03,
+        "net_profit_usd": 21.64,
+        "margin_pct": 52.8,
+        "market_median_usd": 23.99,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -172,13 +157,28 @@
         "pd_no": "1041749",
         "name": "식물원 병풀 클리어 앰플 30 ml",
         "qty": 2,
-        "price_usd": 41.99,
-        "unit_price_usd": 21.0,
+        "price_usd": 40.99,
+        "unit_price_usd": 20.5,
         "landed_cost_total_usd": 15.58,
-        "fee_usd": 3.11,
-        "net_profit_usd": 23.3,
-        "margin_pct": 55.5,
-        "market_median_usd": 24.7,
+        "fee_usd": 3.03,
+        "net_profit_usd": 22.38,
+        "margin_pct": 54.6,
+        "market_median_usd": 23.99,
+        "market_price_source": "oliveyoung_us_benchmark",
+        "register_blocked": false,
+        "block_reason": ""
+      },
+      {
+        "pd_no": "1062781",
+        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+        "qty": 2,
+        "price_usd": 40.99,
+        "unit_price_usd": 20.5,
+        "landed_cost_total_usd": 16.32,
+        "fee_usd": 3.03,
+        "net_profit_usd": 21.64,
+        "margin_pct": 52.8,
+        "market_median_usd": 23.99,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -187,13 +187,13 @@
         "pd_no": "1059834",
         "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
         "qty": 2,
-        "price_usd": 41.99,
-        "unit_price_usd": 21.0,
+        "price_usd": 40.99,
+        "unit_price_usd": 20.5,
         "landed_cost_total_usd": 10.44,
-        "fee_usd": 3.11,
-        "net_profit_usd": 28.44,
-        "margin_pct": 67.7,
-        "market_median_usd": 24.7,
+        "fee_usd": 3.03,
+        "net_profit_usd": 27.52,
+        "margin_pct": 67.1,
+        "market_median_usd": 23.99,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -202,13 +202,13 @@
         "pd_no": "1049271",
         "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
         "qty": 2,
-        "price_usd": 41.99,
-        "unit_price_usd": 21.0,
+        "price_usd": 40.99,
+        "unit_price_usd": 20.5,
         "landed_cost_total_usd": 23.56,
-        "fee_usd": 3.11,
-        "net_profit_usd": 15.32,
-        "margin_pct": 36.5,
-        "market_median_usd": 24.7,
+        "fee_usd": 3.03,
+        "net_profit_usd": 14.4,
+        "margin_pct": 35.1,
+        "market_median_usd": 23.99,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -217,13 +217,13 @@
         "pd_no": "1053482",
         "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
         "qty": 2,
-        "price_usd": 41.99,
-        "unit_price_usd": 21.0,
+        "price_usd": 40.99,
+        "unit_price_usd": 20.5,
         "landed_cost_total_usd": 20.72,
-        "fee_usd": 3.11,
-        "net_profit_usd": 18.16,
-        "margin_pct": 43.3,
-        "market_median_usd": 24.7,
+        "fee_usd": 3.03,
+        "net_profit_usd": 17.24,
+        "margin_pct": 42.1,
+        "market_median_usd": 23.99,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -232,13 +232,13 @@
         "pd_no": "1045421",
         "name": "태그 듀이 스킨 쿠션 15g 누드 라이트",
         "qty": 2,
-        "price_usd": 41.99,
-        "unit_price_usd": 21.0,
+        "price_usd": 40.99,
+        "unit_price_usd": 20.5,
         "landed_cost_total_usd": 15.58,
-        "fee_usd": 3.11,
-        "net_profit_usd": 23.3,
-        "margin_pct": 55.5,
-        "market_median_usd": 24.7,
+        "fee_usd": 3.03,
+        "net_profit_usd": 22.38,
+        "margin_pct": 54.6,
+        "market_median_usd": 23.99,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -262,37 +262,37 @@
     "single": {
       "qty": 1,
       "discount_pct": 0,
-      "price_usd": 24.99,
-      "unit_price_usd": 24.99,
+      "price_usd": 23.99,
+      "unit_price_usd": 23.99,
       "landed_cost_total_usd": 11.35,
       "shipping_in_cost_usd": 7.44,
-      "fee_usd": 1.85,
-      "net_profit_usd": 11.79,
-      "margin_pct": 47.2,
+      "fee_usd": 1.78,
+      "net_profit_usd": 10.86,
+      "margin_pct": 45.3,
       "free_shipping": false,
-      "orders_for_500usd": 42,
+      "orders_for_500usd": 46,
       "price_basis": "상품별 권장가의 중앙값",
       "price_range_usd": [
-        24.99,
-        24.99
+        23.99,
+        23.99
       ]
     },
     "bundle": {
       "qty": 2,
       "discount_pct": 15,
-      "price_usd": 41.99,
-      "unit_price_usd": 21.0,
+      "price_usd": 40.99,
+      "unit_price_usd": 20.5,
       "landed_cost_total_usd": 16.93,
       "shipping_in_cost_usd": 9.1,
-      "fee_usd": 3.11,
-      "net_profit_usd": 21.95,
-      "margin_pct": 52.3,
+      "fee_usd": 3.03,
+      "net_profit_usd": 21.03,
+      "margin_pct": 51.3,
       "free_shipping": true,
-      "orders_for_500usd": 23,
+      "orders_for_500usd": 24,
       "price_basis": "상품별 권장가의 중앙값",
       "price_range_usd": [
-        41.99,
-        41.99
+        40.99,
+        40.99
       ]
     },
     "free_shipping_min_qty": 2,
@@ -329,62 +329,19 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 7.87,
-          "margin_pct": 38.0
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 7.22,
+          "margin_pct": 36.1
         },
         "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 11.58,
-          "margin_pct": 46.9
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 10.92,
+          "margin_pct": 45.5
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1062781",
-        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
-        "bucket": "스킨케어",
-        "shopify_score": 91,
-        "price_krw": 5000,
-        "weight_g_est": 120,
-        "weight_note": "고시 용량 50ml (1.69 fl.oz) x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.72,
-        "shipping_unit_usd": 7.01,
-        "shipping_order_usd": 7.01,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 11.3,
-        "landed_cost_ddu_usd": 11.3,
-        "landed_cost_ddp_usd": 10.74,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 12.2,
-        "at_2_2x": {
-          "sell": 8.19,
-          "fee": 0.61,
-          "profit": -3.71,
-          "margin_pct": -45.3
-        },
-        "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 7.87,
-          "margin_pct": 38.0
-        },
-        "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 11.58,
-          "margin_pct": 46.9
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
+        "market_median_usd": 23.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -415,19 +372,62 @@
           "margin_pct": -36.1
         },
         "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 8.62,
-          "margin_pct": 41.7
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 7.97,
+          "margin_pct": 39.9
         },
         "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 12.33,
-          "margin_pct": 49.9
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 11.67,
+          "margin_pct": 48.7
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
+        "market_median_usd": 23.99,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1062781",
+        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+        "bucket": "스킨케어",
+        "shopify_score": 91,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "고시 용량 50ml (1.69 fl.oz) x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.72,
+        "shipping_unit_usd": 7.01,
+        "shipping_order_usd": 7.01,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 11.3,
+        "landed_cost_ddu_usd": 11.3,
+        "landed_cost_ddp_usd": 10.74,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 12.2,
+        "at_2_2x": {
+          "sell": 8.19,
+          "fee": 0.61,
+          "profit": -3.71,
+          "margin_pct": -45.3
+        },
+        "at_market_p25": {
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 7.22,
+          "margin_pct": 36.1
+        },
+        "at_market_median": {
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 10.92,
+          "margin_pct": 45.5
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 23.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -458,19 +458,19 @@
           "margin_pct": -150.8
         },
         "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 11.19,
-          "margin_pct": 54.1
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 10.54,
+          "margin_pct": 52.7
         },
         "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 14.9,
-          "margin_pct": 60.3
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 14.24,
+          "margin_pct": 59.4
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
+        "market_median_usd": 23.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -501,19 +501,19 @@
           "margin_pct": -90.9
         },
         "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 4.14,
-          "margin_pct": 20.0
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 3.48,
+          "margin_pct": 17.4
         },
         "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 7.84,
-          "margin_pct": 31.7
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 7.18,
+          "margin_pct": 29.9
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
+        "market_median_usd": 23.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -544,19 +544,19 @@
           "margin_pct": -63.7
         },
         "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 6.37,
-          "margin_pct": 30.8
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 5.71,
+          "margin_pct": 28.6
         },
         "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 10.07,
-          "margin_pct": 40.8
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 9.42,
+          "margin_pct": 39.2
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
+        "market_median_usd": 23.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -587,19 +587,19 @@
           "margin_pct": -36.1
         },
         "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 8.62,
-          "margin_pct": 41.7
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 7.97,
+          "margin_pct": 39.9
         },
         "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 12.33,
-          "margin_pct": 49.9
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 11.67,
+          "margin_pct": 48.7
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
+        "market_median_usd": 23.99,
         "market_sample_n": 100,
         "at_product_market": null
       }
@@ -632,62 +632,19 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 11.0,
-          "margin_pct": 53.2
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 10.35,
+          "margin_pct": 51.8
         },
         "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 14.71,
-          "margin_pct": 59.5
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 14.05,
+          "margin_pct": 58.6
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1062781",
-        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
-        "bucket": "스킨케어",
-        "shopify_score": 91,
-        "price_krw": 5000,
-        "weight_g_est": 120,
-        "weight_note": "고시 용량 50ml (1.69 fl.oz) x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.72,
-        "shipping_unit_usd": 3.88,
-        "shipping_order_usd": 7.77,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 8.16,
-        "landed_cost_ddu_usd": 8.16,
-        "landed_cost_ddp_usd": 7.61,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.82,
-        "at_2_2x": {
-          "sell": 8.19,
-          "fee": 0.61,
-          "profit": -0.58,
-          "margin_pct": -7.1
-        },
-        "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 11.0,
-          "margin_pct": 53.2
-        },
-        "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 14.71,
-          "margin_pct": 59.5
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
+        "market_median_usd": 23.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -718,19 +675,62 @@
           "margin_pct": -2.5
         },
         "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 11.38,
-          "margin_pct": 55.0
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 10.72,
+          "margin_pct": 53.6
         },
         "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 15.08,
-          "margin_pct": 61.1
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 14.43,
+          "margin_pct": 60.1
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
+        "market_median_usd": 23.99,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1062781",
+        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+        "bucket": "스킨케어",
+        "shopify_score": 91,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "고시 용량 50ml (1.69 fl.oz) x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.72,
+        "shipping_unit_usd": 3.88,
+        "shipping_order_usd": 7.77,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 8.16,
+        "landed_cost_ddu_usd": 8.16,
+        "landed_cost_ddp_usd": 7.61,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 8.82,
+        "at_2_2x": {
+          "sell": 8.19,
+          "fee": 0.61,
+          "profit": -0.58,
+          "margin_pct": -7.1
+        },
+        "at_market_p25": {
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 10.35,
+          "margin_pct": 51.8
+        },
+        "at_market_median": {
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 14.05,
+          "margin_pct": 58.6
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 23.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -761,19 +761,19 @@
           "margin_pct": -66.7
         },
         "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 13.95,
-          "margin_pct": 67.4
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 13.29,
+          "margin_pct": 66.5
         },
         "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 17.65,
-          "margin_pct": 71.5
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 17.0,
+          "margin_pct": 70.8
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
+        "market_median_usd": 23.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -804,19 +804,19 @@
           "margin_pct": -51.2
         },
         "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 7.39,
-          "margin_pct": 35.7
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 6.74,
+          "margin_pct": 33.7
         },
         "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 11.1,
-          "margin_pct": 44.9
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 10.44,
+          "margin_pct": 43.5
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
+        "market_median_usd": 23.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -847,19 +847,19 @@
           "margin_pct": -33.9
         },
         "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 8.8,
-          "margin_pct": 42.5
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 8.15,
+          "margin_pct": 40.8
         },
         "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 12.51,
-          "margin_pct": 50.6
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 11.85,
+          "margin_pct": 49.4
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
+        "market_median_usd": 23.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -890,19 +890,19 @@
           "margin_pct": -2.5
         },
         "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 11.38,
-          "margin_pct": 55.0
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 10.72,
+          "margin_pct": 53.6
         },
         "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 15.08,
-          "margin_pct": 61.1
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 14.43,
+          "margin_pct": 60.1
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
+        "market_median_usd": 23.99,
         "market_sample_n": 100,
         "at_product_market": null
       }
@@ -937,62 +937,19 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 7.87,
-          "margin_pct": 38.0
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 7.22,
+          "margin_pct": 36.1
         },
         "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 11.58,
-          "margin_pct": 46.9
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 10.92,
+          "margin_pct": 45.5
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1062781",
-        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
-        "bucket": "스킨케어",
-        "shopify_score": 91,
-        "price_krw": 5000,
-        "weight_g_est": 120,
-        "weight_note": "고시 용량 50ml (1.69 fl.oz) x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.72,
-        "shipping_unit_usd": 7.01,
-        "shipping_order_usd": 7.01,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 11.3,
-        "landed_cost_ddu_usd": 11.3,
-        "landed_cost_ddp_usd": 10.74,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 12.2,
-        "at_2_2x": {
-          "sell": 8.19,
-          "fee": 0.61,
-          "profit": -3.71,
-          "margin_pct": -45.3
-        },
-        "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 7.87,
-          "margin_pct": 38.0
-        },
-        "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 11.58,
-          "margin_pct": 46.9
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
+        "market_median_usd": 23.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1023,19 +980,62 @@
           "margin_pct": -36.1
         },
         "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 8.62,
-          "margin_pct": 41.7
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 7.97,
+          "margin_pct": 39.9
         },
         "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 12.33,
-          "margin_pct": 49.9
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 11.67,
+          "margin_pct": 48.7
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
+        "market_median_usd": 23.99,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1062781",
+        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+        "bucket": "스킨케어",
+        "shopify_score": 91,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "고시 용량 50ml (1.69 fl.oz) x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.72,
+        "shipping_unit_usd": 7.01,
+        "shipping_order_usd": 7.01,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 11.3,
+        "landed_cost_ddu_usd": 11.3,
+        "landed_cost_ddp_usd": 10.74,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 12.2,
+        "at_2_2x": {
+          "sell": 8.19,
+          "fee": 0.61,
+          "profit": -3.71,
+          "margin_pct": -45.3
+        },
+        "at_market_p25": {
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 7.22,
+          "margin_pct": 36.1
+        },
+        "at_market_median": {
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 10.92,
+          "margin_pct": 45.5
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 23.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1066,19 +1066,19 @@
           "margin_pct": -150.8
         },
         "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 11.19,
-          "margin_pct": 54.1
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 10.54,
+          "margin_pct": 52.7
         },
         "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 14.9,
-          "margin_pct": 60.3
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 14.24,
+          "margin_pct": 59.4
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
+        "market_median_usd": 23.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1109,19 +1109,19 @@
           "margin_pct": -90.9
         },
         "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 4.14,
-          "margin_pct": 20.0
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 3.48,
+          "margin_pct": 17.4
         },
         "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 7.84,
-          "margin_pct": 31.7
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 7.18,
+          "margin_pct": 29.9
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
+        "market_median_usd": 23.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1152,19 +1152,19 @@
           "margin_pct": -63.7
         },
         "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 6.37,
-          "margin_pct": 30.8
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 5.71,
+          "margin_pct": 28.6
         },
         "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 10.07,
-          "margin_pct": 40.8
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 9.42,
+          "margin_pct": 39.2
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
+        "market_median_usd": 23.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1195,19 +1195,19 @@
           "margin_pct": -36.1
         },
         "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 8.62,
-          "margin_pct": 41.7
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 7.97,
+          "margin_pct": 39.9
         },
         "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 12.33,
-          "margin_pct": 49.9
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 11.67,
+          "margin_pct": 48.7
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
+        "market_median_usd": 23.99,
         "market_sample_n": 100,
         "at_product_market": null
       }
@@ -1240,62 +1240,19 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 11.0,
-          "margin_pct": 53.2
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 10.35,
+          "margin_pct": 51.8
         },
         "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 14.71,
-          "margin_pct": 59.5
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 14.05,
+          "margin_pct": 58.6
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1062781",
-        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
-        "bucket": "스킨케어",
-        "shopify_score": 91,
-        "price_krw": 5000,
-        "weight_g_est": 120,
-        "weight_note": "고시 용량 50ml (1.69 fl.oz) x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.72,
-        "shipping_unit_usd": 3.88,
-        "shipping_order_usd": 7.77,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 8.16,
-        "landed_cost_ddu_usd": 8.16,
-        "landed_cost_ddp_usd": 7.61,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.82,
-        "at_2_2x": {
-          "sell": 8.19,
-          "fee": 0.61,
-          "profit": -0.58,
-          "margin_pct": -7.1
-        },
-        "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 11.0,
-          "margin_pct": 53.2
-        },
-        "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 14.71,
-          "margin_pct": 59.5
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
+        "market_median_usd": 23.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1326,19 +1283,62 @@
           "margin_pct": -2.5
         },
         "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 11.38,
-          "margin_pct": 55.0
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 10.72,
+          "margin_pct": 53.6
         },
         "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 15.08,
-          "margin_pct": 61.1
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 14.43,
+          "margin_pct": 60.1
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
+        "market_median_usd": 23.99,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1062781",
+        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+        "bucket": "스킨케어",
+        "shopify_score": 91,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "고시 용량 50ml (1.69 fl.oz) x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.72,
+        "shipping_unit_usd": 3.88,
+        "shipping_order_usd": 7.77,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 8.16,
+        "landed_cost_ddu_usd": 8.16,
+        "landed_cost_ddp_usd": 7.61,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 8.82,
+        "at_2_2x": {
+          "sell": 8.19,
+          "fee": 0.61,
+          "profit": -0.58,
+          "margin_pct": -7.1
+        },
+        "at_market_p25": {
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 10.35,
+          "margin_pct": 51.8
+        },
+        "at_market_median": {
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 14.05,
+          "margin_pct": 58.6
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 23.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1369,19 +1369,19 @@
           "margin_pct": -66.7
         },
         "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 13.95,
-          "margin_pct": 67.4
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 13.29,
+          "margin_pct": 66.5
         },
         "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 17.65,
-          "margin_pct": 71.5
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 17.0,
+          "margin_pct": 70.8
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
+        "market_median_usd": 23.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1412,19 +1412,19 @@
           "margin_pct": -51.2
         },
         "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 7.39,
-          "margin_pct": 35.7
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 6.74,
+          "margin_pct": 33.7
         },
         "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 11.1,
-          "margin_pct": 44.9
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 10.44,
+          "margin_pct": 43.5
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
+        "market_median_usd": 23.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1455,19 +1455,19 @@
           "margin_pct": -33.9
         },
         "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 8.8,
-          "margin_pct": 42.5
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 8.15,
+          "margin_pct": 40.8
         },
         "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 12.51,
-          "margin_pct": 50.6
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 11.85,
+          "margin_pct": 49.4
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
+        "market_median_usd": 23.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1498,19 +1498,19 @@
           "margin_pct": -2.5
         },
         "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 11.38,
-          "margin_pct": 55.0
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 10.72,
+          "margin_pct": 53.6
         },
         "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 15.08,
-          "margin_pct": 61.1
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 14.43,
+          "margin_pct": 60.1
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
+        "market_median_usd": 23.99,
         "market_sample_n": 100,
         "at_product_market": null
       }
@@ -1543,62 +1543,19 @@
           "margin_pct": -38.5
         },
         "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 8.43,
-          "margin_pct": 40.7
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 7.77,
+          "margin_pct": 38.9
         },
         "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 12.14,
-          "margin_pct": 49.1
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 11.48,
+          "margin_pct": 47.8
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1062781",
-        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
-        "bucket": "스킨케어",
-        "shopify_score": 91,
-        "price_krw": 5000,
-        "weight_g_est": 120,
-        "weight_note": "고시 용량 50ml (1.69 fl.oz) x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.72,
-        "shipping_unit_usd": 7.01,
-        "shipping_order_usd": 7.01,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 10.74,
-        "landed_cost_ddu_usd": 11.3,
-        "landed_cost_ddp_usd": 10.74,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 11.59,
-        "at_2_2x": {
-          "sell": 8.19,
-          "fee": 0.61,
-          "profit": -3.15,
-          "margin_pct": -38.5
-        },
-        "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 8.43,
-          "margin_pct": 40.7
-        },
-        "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 12.14,
-          "margin_pct": 49.1
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
+        "market_median_usd": 23.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1629,19 +1586,62 @@
           "margin_pct": -29.3
         },
         "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 9.18,
-          "margin_pct": 44.4
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 8.53,
+          "margin_pct": 42.7
         },
         "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 12.89,
-          "margin_pct": 52.2
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 12.23,
+          "margin_pct": 51.0
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
+        "market_median_usd": 23.99,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1062781",
+        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+        "bucket": "스킨케어",
+        "shopify_score": 91,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "고시 용량 50ml (1.69 fl.oz) x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.72,
+        "shipping_unit_usd": 7.01,
+        "shipping_order_usd": 7.01,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 10.74,
+        "landed_cost_ddu_usd": 11.3,
+        "landed_cost_ddp_usd": 10.74,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 11.59,
+        "at_2_2x": {
+          "sell": 8.19,
+          "fee": 0.61,
+          "profit": -3.15,
+          "margin_pct": -38.5
+        },
+        "at_market_p25": {
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 7.77,
+          "margin_pct": 38.9
+        },
+        "at_market_median": {
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 11.48,
+          "margin_pct": 47.8
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 23.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1672,19 +1672,19 @@
           "margin_pct": -144.0
         },
         "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 11.42,
-          "margin_pct": 55.2
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 10.76,
+          "margin_pct": 53.8
         },
         "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 15.12,
-          "margin_pct": 61.2
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 14.46,
+          "margin_pct": 60.3
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
+        "market_median_usd": 23.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1715,19 +1715,19 @@
           "margin_pct": -84.1
         },
         "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 4.69,
-          "margin_pct": 22.7
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 4.04,
+          "margin_pct": 20.2
         },
         "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 8.4,
-          "margin_pct": 34.0
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 7.74,
+          "margin_pct": 32.3
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
+        "market_median_usd": 23.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1758,19 +1758,19 @@
           "margin_pct": -56.9
         },
         "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 6.93,
-          "margin_pct": 33.5
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 6.27,
+          "margin_pct": 31.4
         },
         "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 10.63,
-          "margin_pct": 43.0
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 9.97,
+          "margin_pct": 41.6
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
+        "market_median_usd": 23.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1801,19 +1801,19 @@
           "margin_pct": -29.3
         },
         "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 9.18,
-          "margin_pct": 44.4
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 8.53,
+          "margin_pct": 42.7
         },
         "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 12.89,
-          "margin_pct": 52.2
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 12.23,
+          "margin_pct": 51.0
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
+        "market_median_usd": 23.99,
         "market_sample_n": 100,
         "at_product_market": null
       }
@@ -1846,62 +1846,19 @@
           "margin_pct": -0.3
         },
         "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 11.56,
-          "margin_pct": 55.9
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 10.9,
+          "margin_pct": 54.6
         },
         "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 15.27,
-          "margin_pct": 61.8
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 14.61,
+          "margin_pct": 60.9
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1062781",
-        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
-        "bucket": "스킨케어",
-        "shopify_score": 91,
-        "price_krw": 5000,
-        "weight_g_est": 120,
-        "weight_note": "고시 용량 50ml (1.69 fl.oz) x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.72,
-        "shipping_unit_usd": 3.88,
-        "shipping_order_usd": 7.77,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 7.61,
-        "landed_cost_ddu_usd": 8.16,
-        "landed_cost_ddp_usd": 7.61,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 8.21,
-        "at_2_2x": {
-          "sell": 8.19,
-          "fee": 0.61,
-          "profit": -0.02,
-          "margin_pct": -0.3
-        },
-        "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 11.56,
-          "margin_pct": 55.9
-        },
-        "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 15.27,
-          "margin_pct": 61.8
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
+        "market_median_usd": 23.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1932,19 +1889,62 @@
           "margin_pct": 4.3
         },
         "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 11.94,
-          "margin_pct": 57.7
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 11.28,
+          "margin_pct": 56.4
         },
         "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 15.64,
-          "margin_pct": 63.3
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 14.98,
+          "margin_pct": 62.5
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
+        "market_median_usd": 23.99,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1062781",
+        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+        "bucket": "스킨케어",
+        "shopify_score": 91,
+        "price_krw": 5000,
+        "weight_g_est": 120,
+        "weight_note": "고시 용량 50ml (1.69 fl.oz) x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.72,
+        "shipping_unit_usd": 3.88,
+        "shipping_order_usd": 7.77,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 7.61,
+        "landed_cost_ddu_usd": 8.16,
+        "landed_cost_ddp_usd": 7.61,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 8.21,
+        "at_2_2x": {
+          "sell": 8.19,
+          "fee": 0.61,
+          "profit": -0.02,
+          "margin_pct": -0.3
+        },
+        "at_market_p25": {
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 10.9,
+          "margin_pct": 54.6
+        },
+        "at_market_median": {
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 14.61,
+          "margin_pct": 60.9
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 23.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1975,19 +1975,19 @@
           "margin_pct": -59.9
         },
         "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 14.17,
-          "margin_pct": 68.5
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 13.51,
+          "margin_pct": 67.6
         },
         "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 17.88,
-          "margin_pct": 72.4
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 17.22,
+          "margin_pct": 71.8
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
+        "market_median_usd": 23.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2018,19 +2018,19 @@
           "margin_pct": -44.4
         },
         "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 7.95,
-          "margin_pct": 38.4
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 7.29,
+          "margin_pct": 36.5
         },
         "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 11.66,
-          "margin_pct": 47.2
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 11.0,
+          "margin_pct": 45.8
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
+        "market_median_usd": 23.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2061,19 +2061,19 @@
           "margin_pct": -27.1
         },
         "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 9.36,
-          "margin_pct": 45.2
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 8.7,
+          "margin_pct": 43.5
         },
         "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 13.07,
-          "margin_pct": 52.9
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 12.41,
+          "margin_pct": 51.7
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
+        "market_median_usd": 23.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2104,19 +2104,19 @@
           "margin_pct": 4.3
         },
         "at_market_p25": {
-          "sell": 20.7,
-          "fee": 1.53,
-          "profit": 11.94,
-          "margin_pct": 57.7
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 11.28,
+          "margin_pct": 56.4
         },
         "at_market_median": {
-          "sell": 24.7,
-          "fee": 1.83,
-          "profit": 15.64,
-          "margin_pct": 63.3
+          "sell": 23.99,
+          "fee": 1.78,
+          "profit": 14.98,
+          "margin_pct": 62.5
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.7,
+        "market_median_usd": 23.99,
         "market_sample_n": 100,
         "at_product_market": null
       }

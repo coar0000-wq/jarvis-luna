@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-13T10:02:51.919652+09:00",
+  "generated_at": "2026-09-13T15:40:32.697546+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
       "id": "sourcing",
       "name": "상품 소싱팀",
-      "when": "2026-09-13T00:54:45.126604+00:00",
-      "summary": "222개 상품 · 등급 S 7 / A 34 / B 28 / C 153 · 새 자료 223건",
-      "action": "직전 실행에서 5건 시도 중 5건 실패 (성공 0건) · 상품 상세 HTML이 다이소몰 기본 페이지로 반환됨 5",
+      "when": "2026-09-13T06:33:09.005495+00:00",
+      "summary": "212개 상품 · 등급 S 7 / A 34 / B 27 / C 144 · 새 자료 223건",
+      "action": "직전 실행에서 110건 받아 5건 판정 · 5건 실패 (성공 0건) · 상품 상세 HTML이 다이소몰 기본 페이지로 반환됨 5 · 받아보고 뷰티 아니라 버림 105건 · 후보 출처 sitemap",
       "status": "ok",
       "phase": "now",
       "phase_label": "1단계 · 후보 선정",
@@ -30,9 +30,9 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-09-13T09:56:48.075171+09:00",
+      "when": "2026-09-13T15:39:52.443246+09:00",
       "summary": "S등급 7개 · 고시표 입력 대기 3건 · 새 자료 39건",
-      "action": "다이소 상세페이지 고시 표 3건 캡처 필요",
+      "action": "고시 표 3건 필요 — 1041749 식물원 병풀 클리어 앰플 30 m https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041749 / 1053482 메디필 엑스트라 슈퍼 9 플러스  https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1053482 / 1045421 태그 듀이 스킨 쿠션 15g 누드 https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045421",
       "status": "ok",
       "phase": "always",
       "phase_label": "상시 · 시장 감시",
@@ -42,9 +42,9 @@
     {
       "id": "listing",
       "name": "리스팅 제작팀",
-      "when": "2026-09-13T00:54:45.349182+00:00",
-      "summary": "등록 가능 0/7 · 카피 7 · 고시 4 · 가격 7 · 법률 6",
-      "action": "고시 3건, us_label 7건, 법률 1건 이 막고 있음",
+      "when": "2026-09-13T06:33:09.218471+00:00",
+      "summary": "등록 가능 1/7 · 카피 7 · 고시 4 · 가격 7 · 법률 6",
+      "action": "고시 3건, us_label 6건, 법률 1건 이 막고 있음",
       "status": "ok",
       "phase": "ready",
       "phase_label": "2단계 · 가입 후 등록",
@@ -54,7 +54,7 @@
     {
       "id": "pricing",
       "name": "가격 정책팀",
-      "when": "2026-09-13T00:54:45.245174+00:00",
+      "when": "2026-09-13T06:39:58.727398+00:00",
       "summary": "개당 배송비 $6.26~$10.75 · 무게 64~520g (이름추정 3 / 고시용량 4) · DDU/DDP 4개 · 새 자료 6건",
       "action": null,
       "status": "ok",
@@ -66,9 +66,9 @@
     {
       "id": "legal",
       "name": "법률·규제팀",
-      "when": "2026-09-13T00:54:45.297872+00:00",
-      "summary": "자동 점검 14건 · 통과 0 · 등록 차단 7 · 참고 주의 14 · 수출서류 HS 14건 · 라벨 1/6항목 자동 · 새 자료 17건",
-      "action": "차단 7건: 비프루브 마린 무기자차 마일드(자동 점검 미통과: otc), 드롭비 잡티 말끔 앰플 40 (자동 점검 미통과: lab) — 라벨 갖추기 전엔 못 올림",
+      "when": "2026-09-13T06:33:09.128438+00:00",
+      "summary": "자동 점검 7건 · 통과 0 · 등록 차단 1 · 참고 주의 7 · 수출서류 HS 14건 · 라벨 1/6항목 자동 · 새 자료 17건",
+      "action": "차단 1건: 메디필 엑스트라 슈퍼 9 플러(자동 점검 미통과: lab) — 라벨 갖추기 전엔 못 올림",
       "status": "ok",
       "phase": "ready",
       "phase_label": "2단계 · 가입 후 등록",
@@ -126,7 +126,7 @@
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-09-13T10:02:47.613011+09:00",
+      "when": "2026-09-13T15:39:55.610616+09:00",
       "summary": "81,092노트 · 320,853링크 · 끊어진 링크 110건 · 개인 노트 16건 별도 · 경고 통과(임계 300)",
       "action": null,
       "status": "ok",
@@ -136,6 +136,54 @@
       "glyph": "graph"
     }
   ],
+  "secretary": {
+    "id": "secretary",
+    "name": "비서실장",
+    "badge": "총괄",
+    "when": "2026-09-13T15:39:52.429199+09:00",
+    "summary": "30분 주기 · 고시 14건 · US라벨 16건 · 카피 7건 · 등록 가능 1건 · 법률 차단 1건",
+    "action": null,
+    "status": "ok",
+    "steps": [
+      {
+        "단계": "고시 수집",
+        "산출물": "gosi.json",
+        "갱신": "2026-09-13T15:39:52.429199+09:00",
+        "몇시간전": 0.0
+      },
+      {
+        "단계": "고시 비전 추출",
+        "산출물": "gosi.json",
+        "갱신": "2026-09-13T15:39:52.429199+09:00",
+        "몇시간전": 0.0
+      },
+      {
+        "단계": "US 라벨 동기화",
+        "산출물": "daiso_us_labels.json",
+        "갱신": "2026-09-13T15:39:52.060199+09:00",
+        "몇시간전": 0.0
+      },
+      {
+        "단계": "리스팅 카피",
+        "산출물": "shopify_listing_copy.json",
+        "갱신": "2026-09-13T06:40:26.712752+00:00",
+        "몇시간전": 0.0
+      },
+      {
+        "단계": "등록 게이트",
+        "산출물": "listing_gate.json",
+        "갱신": "2026-09-13T06:33:09.218471+00:00",
+        "몇시간전": 0.1
+      },
+      {
+        "단계": "법률 점검",
+        "산출물": "legal_products.json",
+        "갱신": "2026-09-13T06:33:09.128438+00:00",
+        "몇시간전": 0.1
+      }
+    ],
+    "_근거": "chief_of_staff.yml 이 30분마다 부르는 스크립트들의 산출물 갱신 시각을 읽는다. 돌았다는 말이 아니라 결과가 바뀌었는지를 본다. chief_of_staff.py 파일은 어느 워크플로도 부르지 않는 고아라서 근거로 쓰지 않는다."
+  },
   "phases": {
     "now": {
       "label": "1단계 · 지금 돌면서 후보를 좁힌다",
@@ -305,7 +353,7 @@
     "status": "completed",
     "record_count": 3205,
     "source_counts": {},
-    "updated_at": "2026-09-13T09:56:47.557160+09:00"
+    "updated_at": "2026-09-13T15:39:52.437199+09:00"
   },
   "graph": {
     "notes": 81092,
@@ -319,7 +367,7 @@
     "topics": 28,
     "orgs": 35,
     "audit": "passed",
-    "last_generated": "2026-09-13T10:02:47.613011+09:00"
+    "last_generated": "2026-09-13T15:39:55.610616+09:00"
   },
   "training": {
     "status": "completed",
@@ -1414,21 +1462,21 @@
     "amazon_best_sellers": {
       "status": "stale",
       "source": "사람이 직접 확인 (sephora_2026-09-01.json)",
-      "reason": "2026-09-01 이후 갱신 없음 (12.0일). 출처 URL 미기재",
+      "reason": "2026-09-01 이후 갱신 없음 (12.3일). 출처 URL 미기재",
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 9,
       "trust": "manual",
-      "age_hours": 289.0,
+      "age_hours": 294.7,
       "stale": true
     },
     "walmart_beauty": {
       "status": "stale",
       "source": "사람이 직접 확인 (sephora_2026-09-01.json)",
-      "reason": "2026-09-01 이후 갱신 없음 (12.0일). 출처 URL 미기재",
+      "reason": "2026-09-01 이후 갱신 없음 (12.3일). 출처 URL 미기재",
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 5,
       "trust": "manual",
-      "age_hours": 289.0,
+      "age_hours": 294.7,
       "stale": true
     },
     "oliveyoung_us": {
@@ -1438,7 +1486,7 @@
       "collected_at": "2026-09-13T00:50:11.116419+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 0.2,
+      "age_hours": 5.8,
       "stale": false
     },
     "google_trends_us": {
@@ -1448,7 +1496,7 @@
       "collected_at": "2026-09-13T00:50:52.983935+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 0.2,
+      "age_hours": 5.8,
       "stale": false
     },
     "wikipedia_interest": {
@@ -1459,7 +1507,7 @@
       "count": 8,
       "trust": "verified",
       "note": "2026-08-12 ~ 2026-09-10 일별 조회수. 후반 15일 대비 전반 15일 증감률",
-      "age_hours": 1.2,
+      "age_hours": 6.8,
       "stale": false
     },
     "allure_media": {
@@ -1470,7 +1518,7 @@
       "count": 15,
       "trust": "verified",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
-      "age_hours": 1.2,
+      "age_hours": 6.8,
       "stale": false
     },
     "openfda_sunscreen": {
@@ -1481,7 +1529,7 @@
       "count": 15,
       "trust": "verified",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다.",
-      "age_hours": 1.2,
+      "age_hours": 6.8,
       "stale": false
     },
     "shopify_demand_matching": {
@@ -1503,21 +1551,21 @@
     "ulta_beauty": {
       "status": "stale",
       "source": "사람이 직접 확인 (sephora_2026-09-01.json)",
-      "reason": "2026-09-01 이후 갱신 없음 (12.0일). 출처 URL 미기재",
+      "reason": "2026-09-01 이후 갱신 없음 (12.3일). 출처 URL 미기재",
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 8,
       "trust": "manual",
-      "age_hours": 289.0,
+      "age_hours": 294.7,
       "stale": true
     },
     "sephora": {
       "status": "stale",
       "source": "사람이 직접 확인 (sephora_2026-09-01.json)",
-      "reason": "2026-09-01 이후 갱신 없음 (12.0일). 출처 URL 미기재",
+      "reason": "2026-09-01 이후 갱신 없음 (12.3일). 출처 URL 미기재",
       "collected_at": "2026-09-01T00:00:00+00:00",
       "count": 10,
       "trust": "manual",
-      "age_hours": 289.0,
+      "age_hours": 294.7,
       "stale": true
     },
     "open_beauty_facts": {
@@ -1527,7 +1575,7 @@
       "collected_at": "2026-09-13T00:50:10.304780+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 0.2,
+      "age_hours": 5.8,
       "stale": false
     }
   },
