@@ -41,6 +41,37 @@ jobs:
           git reset --hard origin/main
           git clean -fd
 
+      # 규칙을 바꿨으면 이미 쌓인 자료도 그 규칙으로 맞춘다 (2026-09-13)
+      #
+      # 2026-09-13 에 FDA 의약품 네 갈래를 category_map.json 의 exclude 에
+      # 넣었다. 불소치약·구강, 항균세정, 비듬·탈모, 땀억제데오 다.
+      # 큐는 그 규칙으로 걸렀는데 이미 수집된 products.json 222건은 그대로 뒀다.
+      #
+      # 그래서 푸시 직전 감사가 막았다.
+      #   FAIL 제외 대상이 상품 목록에 10건 남아 있다
+      #   Error: 원격 main에는 아직 푸시하지 않는다
+      # 워크플로 네 개가 전부 그 관문에서 멈췄다.
+      #
+      # 규칙 바꾸는 사람과 자료 쌓는 기계가 따로 놀면 같은 일이 또 난다.
+      # 그래서 매 회차에 사전으로 한 번 훑는다.
+      #
+      # 지울 목록을 여기 적지 않는다. category_map.json 을 읽어 거른다.
+      # 사전을 고치면 이 단계가 알아서 따라간다.
+      # 걸리는 것이 없으면 파일을 건드리지 않으므로 빈 커밋이 안 생긴다.
+      - name: 제외 규칙으로 상품 목록 정리
+        shell: bash
+        run: |
+          python -u scripts/daiso/prune_excluded_products.py --apply
+
+          # 목록이 실제로 바뀌었을 때만 점수를 다시 낸다.
+          # 매번 다시 내면 generated_at 만 바뀐 커밋이 30분마다 쌓인다.
+          if ! git diff --quiet -- data/daiso_real/products.json; then
+            echo "상품 목록이 바뀌었다. 점수를 다시 계산한다."
+            python -u scripts/daiso/score_shopify_demand.py
+          else
+            echo "걸린 상품이 없다. 점수는 그대로 둔다."
+          fi
+
       - name: 등록 게이트 1차 재계산
         shell: bash
         run: |
@@ -224,8 +255,13 @@ jobs:
             data/shopify_listing_copy.json
             data/gosi.json
             data/daiso_real/daiso_us_labels.json
+            data/daiso_real/us_label_sync_report.json
             data/legal_products.json
             data/daiso_real/gosi_img
+            data/daiso_real/products.json
+            data/daiso_real/excluded_products.json
+            data/daiso_real/shopify_demand_score.json
+            data/daiso_real/shopify_s_recommendations.json
           message: 참모장 · 고시 라벨과 등록 게이트 갱신
 
       - name: 최종 요약
