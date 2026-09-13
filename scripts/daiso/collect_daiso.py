@@ -2491,6 +2491,62 @@ def previous_failed_ids(
 
 
 # ============================================================
+# BEAUTY QUEUE
+# ============================================================
+
+
+def load_queue_ids() -> list[str]:
+    """뷰티 큐에 담긴 pdNo 를 순서대로 돌려준다.
+
+    큐는 build_beauty_queue.py 가 뷰티관 안에서 고른 URL 목록이다.
+    사이트맵은 쇼핑몰 전체(19,739건)라 뷰티 적중률이 낮은데
+    큐는 뷰티관에서 골라 온 것이라 훨씬 높다.
+
+    그런데 QUEUE 상수가 102줄에 정의만 돼 있고 어디서도 읽히지 않았다.
+    큐를 만들어 둬도 수집기가 쓰지 않았다는 뜻이다. 그래서 이 함수를 넣는다.
+
+    큐에는 URL 만 담는다. 이름과 가격은 collect_daiso.py 가 직접 받는다.
+    LLM 이 옮긴 숫자를 실측값으로 쓰지 않는다. 큐 파일의 '신뢰' 칸과 같은 약속이다.
+    """
+
+    payload = load_json(
+        QUEUE,
+        {},
+    )
+
+    if not isinstance(
+        payload,
+        dict,
+    ):
+        return []
+
+    out = []
+
+    seen = set()
+
+    for url in payload.get(
+        "urls"
+    ) or []:
+
+        pd_no = pd_no_from_url(
+            str(url)
+        )
+
+        if not pd_no or pd_no in seen:
+            continue
+
+        seen.add(
+            pd_no
+        )
+
+        out.append(
+            pd_no
+        )
+
+    return out
+
+
+# ============================================================
 # COLLECTION STATS
 # ============================================================
 
@@ -2645,7 +2701,73 @@ def main() -> int:
         )
 
     # --------------------------------------------------------
+    # 이미 판정이 끝난 상품은 다시 받지 않는다 (2026-09-13)
+    #
+    # 왜 넣었나. 2026-09-12 21:29 실행을 실측한 결과다.
+    #
+    #   요청 110건  성공 0건
+    #   뷰티 아님으로 버린 것 105건
+    #   실패 5건 (전부 구매 불가)
+    #   걸린 시간 60분
+    #
+    # 다이소 사이트맵은 19,739건이고 쇼핑몰 전체다. 뷰티관만 있는 게 아니다.
+    # 그런데 후보를 그 앞에서 110개 잘라 왔다. 뷰티일 확률이 낮다.
+    #
+    # 더 나쁜 것은 이것이다. 뷰티인지 아닌지는 상세 페이지를 받아 봐야 안다.
+    # robots.txt 의 Crawl-delay 가 30초다. 그래서 뷰티가 아닌 105건에
+    # 30초씩, 52분을 썼다. 받아서 버리려고 쓴 시간이다.
+    #
+    # crawl_state.json 에 visited 가 1,535건 쌓여 있었다.
+    # 이미 한 번 받아 보고 판정한 것들이다. 그런데 후보를 고를 때
+    # 그 목록을 보지 않았다. 그래서 같은 자리를 계속 받았다.
+    #
+    # 이제 본다. 아직 안 본 것부터 준다.
+    # 기존 상품의 가격·재고 갱신은 이 경로가 아니라
+    # scripts/daiso/recheck_stock.py 가 맡는다. 역할을 섞지 않는다.
+    # --------------------------------------------------------
+
+    visited_before = state.get(
+        "visited"
+    )
+
+    if not isinstance(
+        visited_before,
+        list,
+    ):
+        visited_before = []
+
+    visited_set = {
+        normalize_pd_no(
+            str(x)
+        )
+        for x in visited_before
+    }
+
+    fresh_items = []
+
+    revisit_items = []
+
+    for item in known_ids:
+
+        if item[0] in visited_set:
+            revisit_items.append(
+                item
+            )
+        else:
+            fresh_items.append(
+                item
+            )
+
+    skipped_already_visited = len(
+        revisit_items
+    )
+
+    # --------------------------------------------------------
     # 이전 가격 실패 상품 우선 재시도
+    #
+    # previous_failed_ids 는 '가격 없음' 과 '구매 불가' 만 돌려준다.
+    # '기본 페이지로 반환됨' 은 안 돌려준다. 그건 다이소가 내린 상품이라
+    # 몇 번을 더 받아도 같은 답이 온다.
     # --------------------------------------------------------
 
     failed_ids = previous_failed_ids(
@@ -2660,7 +2782,7 @@ def main() -> int:
         failed_ids
     )
 
-    for item in known_ids:
+    for item in fresh_items:
 
         if item[0] in failed_id_set:
             priority_items.append(
@@ -2671,10 +2793,106 @@ def main() -> int:
                 item
             )
 
+    # 재시도 대상은 이미 본 쪽에도 있을 수 있다. 그것만 되살린다.
+    retry_seen = [
+        item
+        for item in revisit_items
+        if item[0] in failed_id_set
+    ]
+
     ordered_items = (
-        priority_items
+        retry_seen
+        + priority_items
         + normal_items
     )
+
+    # --------------------------------------------------------
+    # 뷰티 큐가 차 있으면 그것부터 본다
+    #
+    # QUEUE 는 102줄에 정의만 돼 있고 아무 데서도 읽지 않았다.
+    # build_beauty_queue.py 가 만들어 둬도 쓰이지 않았다는 뜻이다.
+    # 큐는 뷰티관 안에서 고른 URL 이라 적중률이 사이트맵보다 훨씬 높다.
+    # --------------------------------------------------------
+
+    queue_ids = load_queue_ids()
+
+    queue_size = len(
+        queue_ids
+    )
+
+    if queue_ids:
+
+        url_by_id = {
+            pid: url
+            for pid, url in known_ids
+        }
+
+        queued_items = []
+
+        for pid in queue_ids:
+
+            if pid in visited_set:
+                continue
+
+            queued_items.append(
+                (
+                    pid,
+                    url_by_id.get(
+                        pid
+                    )
+                    or product_url(
+                        pid
+                    ),
+                )
+            )
+
+        if queued_items:
+
+            already = {
+                x[0]
+                for x in queued_items
+            }
+
+            ordered_items = (
+                queued_items
+                + [
+                    x
+                    for x in ordered_items
+                    if x[0] not in already
+                ]
+            )
+
+            url_source = "queue+sitemap"
+
+        else:
+            url_source = "sitemap"
+
+    else:
+        url_source = "sitemap"
+
+    # --------------------------------------------------------
+    # 안 본 것이 하나도 없으면 굶지 않는다
+    #
+    # 사이트맵을 다 돌면 fresh_items 가 빈다. 그때 아무것도 안 하면
+    # 수집기가 조용히 0건을 내놓는다. 고장과 구분이 안 된다.
+    # 그래서 이미 본 것 중 오래된 것부터 다시 본다.
+    # --------------------------------------------------------
+
+    exhausted = not ordered_items
+
+    if exhausted:
+
+        ordered_items = revisit_items
+
+        url_source = (
+            url_source
+            + "+재방문"
+        )
+
+        print(
+            "사이트맵에 안 본 상품이 없다. "
+            "이미 본 것부터 다시 받는다."
+        )
 
     # --------------------------------------------------------
     # MAX_ITEMS
@@ -2683,6 +2901,14 @@ def main() -> int:
     candidates = ordered_items[
         :MAX_ITEMS
     ]
+
+    print(
+        f"후보 선정: 사이트맵 {len(known_ids)}건 중 "
+        f"이미 판정한 {skipped_already_visited}건 제외, "
+        f"큐 {queue_size}건, "
+        f"이번에 받을 것 {len(candidates)}건 "
+        f"(출처 {url_source})"
+    )
 
     requested = len(
         candidates
@@ -3179,6 +3405,35 @@ def main() -> int:
     # STATE
     # ========================================================
 
+    # 이번에 받아 본 pd_no 를 visited 에 더한다 (2026-09-13)
+    #
+    # crawl_state.json 에 visited 목록이 1,535건 있었는데
+    # 이 스크립트는 그것을 읽지도 쓰지도 않았다. visited 라는 이름의
+    # 지역 변수는 그냥 이번 회차 건수를 세는 정수였다. 이름만 같았다.
+    #
+    # 그래서 판정 결과가 다음 회차로 넘어가지 않았다.
+    # 어제 뷰티가 아니라고 버린 105건을 오늘 또 30초씩 받는다.
+    # 이제 더해 둔다. 위 후보 선정이 이것을 보고 거른다.
+
+    visited_after = list(
+        visited_set
+    )
+
+    for pd_no, _url in candidates:
+        if pd_no not in visited_set:
+            visited_set.add(
+                pd_no
+            )
+            visited_after.append(
+                pd_no
+            )
+
+    state[
+        "visited"
+    ] = sorted(
+        visited_after
+    )
+
     state[
         "updated_at"
     ] = now_iso()
@@ -3190,6 +3445,12 @@ def main() -> int:
         "finished_at": now_iso(),
         "requested": requested,
         "visited": visited,
+        "skipped_already_visited": skipped_already_visited,
+        "visited_total": len(
+            visited_after
+        ),
+        "queue_size": queue_size,
+        "url_source": url_source,
         "ok": ok_count,
         "parse_failed": parse_failed,
         "http_error": http_error,
@@ -3331,8 +3592,14 @@ def main() -> int:
         "skipped_bucket_full": skipped_bucket_full,
         "skipped_excluded": skipped_excluded,
         "pruned_existing": {},
-        "queue_size": 0,
-        "url_source": "sitemap",
+        # 2026-09-13 이전에는 이 두 칸이 0 과 "sitemap" 로 박혀 있었다.
+        # 실행이 무엇을 썼는지와 상관없이 늘 같은 값을 적었다.
+        # 큐를 붙여도 보고가 그대로라 붙었는지 알 수 없었다. 실측으로 바꾼다.
+        "queue_size": queue_size,
+        "url_source": url_source,
+        # 사이트맵에 있지만 이미 판정이 끝나 이번에 안 받은 것.
+        # 이 값이 커지는 것이 정상이다. 같은 자리를 다시 안 판다는 뜻이다.
+        "skipped_already_visited": skipped_already_visited,
         "scope": (
             "다이소몰 뷰티관(C245) "
             "10개 카테고리 "
