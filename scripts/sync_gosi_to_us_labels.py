@@ -119,14 +119,26 @@ def split_ingredients(raw: str) -> list[str]:
     s = text(raw)
     if not s:
         return []
+
+    # 고시 원문에는 성분이 아닌 것이 섞여 들어온다 (2026-09-13).
+    # 이런 것들을 성분 이름으로 알고 사전을 뒤지다 못 찾아서 상품이 막혔다.
+    #   "베타-글루칸\n\n구) 정제수"
+    #   "향료\n* 제품 리뉴얼로 전성분이 일부 변경되었습니다"
+    # 사전에 없는 성분이 아니라 내 파서가 덜 다듬은 것이었다.
+    s = "\n".join(l for l in s.split("\n")
+                  if not l.strip().startswith(("*", "※")))
+
     # 숫자,숫자 형태의 쉼표는 성분 이름 안의 것이다
     s = re.sub(r"(\d),(\d)", r"\1\2", s)
     parts = []
-    for chunk in re.split(r"[,·]", s):
+    # 줄바꿈도 성분 구분이다. 쉼표만 보면 두 성분이 한 덩이로 붙는다.
+    for chunk in re.split(r"[,·\n]", s):
         c = chunk.replace("", ",").strip()
         # 괄호 안 비율 표기는 INCI 에 넣지 않는다
         c = re.sub(r"\([^)]*\)", "", c).strip()
-        c = c.strip(" .;")
+        # 구) 신) 같은 개정 표기가 앞에 붙는다
+        c = re.sub(r"^[구신]\s*\)\s*", "", c).strip()
+        c = c.strip(" .;·")
         if c:
             parts.append(c)
     return parts

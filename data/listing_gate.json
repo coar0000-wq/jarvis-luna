@@ -1,20 +1,20 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-13T07:01:34.965698+00:00",
+  "generated_at": "2026-09-13T07:44:56.832148+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "total": 7,
-  "ready": 1,
+  "ready": 4,
   "counts": {
     "copy": 6,
     "gosi": 5,
-    "us_label": 1,
+    "us_label": 5,
     "price": 7,
     "legal": 7
   },
   "blockers": {
     "copy": 1,
     "gosi": 2,
-    "us_label": 6
+    "us_label": 2
   },
   "count": 7,
   "note": "gosi=한국 고시 4항목, us_label=영문 라벨(플레이스홀더 제외), legal=MoCRA 등 하드블록. ready는 5개 조건 모두 통과한 건수.",
@@ -108,8 +108,8 @@
         "net_contents": "50ml (1.69 fl.oz)",
         "manufacturer": "화장품제조업자: 코스맥스(주) / 화장품책임판매업자: (주)씨엠에스랩",
         "country_of_origin": "Korea",
-        "ingredients_inci": "실제 확인한 전체 INCI 성분",
-        "us_label_ok": false
+        "ingredients_inci": "Water, Glycerin, Dipropylene Glycol, Butylene Glycol, Octyldodecanol, Neopentyl Glycol Dicaprate, Niacinamide, 1,2-Hexanediol, Phellinus Linteus Extract, Hydrolyzed Hyaluronic Acid, Hydrolyzed Collagen, Allium Sativum (Garlic) Bulb Extract, Avena Sativa (Oat) Kernel Extract, Bertholletia Excelsa Seed Extract, Brassica Oleracea Italica (Broccoli) Extract, Camellia Sinensis Seed Extract, Salmon Egg Extract, Solanum Lycopersicum (Tomato) Fruit Extract, Spinacia Oleracea (Spinach) Leaf Extract, Vaccinium Angustifolium (Blueberry) Fruit Extract, Vitis Vinifera (Grape) Fruit Extract, Diglycerin, Pentylene Glycol, Panthenol, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Cetearyl Olivate, Glyceryl Stearate, Palmitic Acid, Stearic Acid, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, C12-20 Alkyl Glucoside, Caprylyl Glycol, Sorbitan Olivate, Tromethamine, Ethylhexylglycerin, Glyceryl Acrylate/Acrylic Acid Copolymer, Adenosine, Sorbitan Isostearate, Sodium Phytate, Cyanocobalamin, Tocopherol, Acetyl Hexapeptide-8, Ascorbic Acid Polypeptide, Sodium DNA, Acetyl Octapeptide-3, Acetyl Tetrapeptide-2, Acetyl Tetrapeptide-3, Acetyl Tetrapeptide-5, Acetyl Tetrapeptide-9, Carnosine, Copper Tripeptide-1, Nonapeptide-1, Palmitoyl Pentapeptide-4, Palmitoyl Tripeptide-1, Palmitoyl Tripeptide-5, C14-22 Alcohols, Xanthan Gum, Carbomer, Fragrance",
+        "us_label_ok": true
       },
       "price": {
         "price_usd": 23.99,
@@ -121,10 +121,8 @@
         "hard_block": false,
         "hard_block_reason": ""
       },
-      "ready": false,
-      "blocked_by": [
-        "us_label"
-      ]
+      "ready": true,
+      "blocked_by": []
     },
     {
       "rank": 3,
@@ -219,8 +217,8 @@
         "net_contents": "28 g",
         "manufacturer": "(주)제닉 / 충청남도 논산시 성동면 산업단지로5길 5",
         "country_of_origin": "Korea",
-        "ingredients_inci": "실제 확인한 전체 INCI 성분",
-        "us_label_ok": false
+        "ingredients_inci": "Water, Glycerin, Cetyl Ethylhexanoate, Butyrospermum Parkii (Shea) Butter, Acrylates Copolymer, Chondrus Crispus Extract, Ceratonia Siliqua Gum, Dipropylene Glycol, Betaine, Potassium Chloride, Hydroxyacetophenone, Sucrose, Cetyl Hydroxyethylcellulose, Caprylyl Glycol, Allantoin, Ethylhexylglycerin, Polyglyceryl-6 Caprylate, Polyglyceryl-4 Caprate, Adenosine, Hydrolyzed Vegetable Protein, 1,2-Hexanediol, Disodium EDTA, Fragrance, Ultramarines, Hydrated Silica, Disodium Phosphate, Silica Dimethyl Silylate, Dipotassium Glycyrrhizate, Butylene Glycol, Sodium Phosphate, Vigna Radiata Sprout Extract, Brassica Oleracea Italica (Broccoli) Sprout Extract, Brassica Campestris (Rapeseed) Sprout Extract, CI 17200, Tocopherol",
+        "us_label_ok": true
       },
       "price": {
         "price_usd": 23.99,
@@ -232,10 +230,8 @@
         "hard_block": false,
         "hard_block_reason": ""
       },
-      "ready": false,
-      "blocked_by": [
-        "us_label"
-      ]
+      "ready": true,
+      "blocked_by": []
     },
     {
       "rank": 5,
@@ -273,8 +269,8 @@
         "net_contents": "10.14 fl. oz. / 300 mL",
         "manufacturer": "화장품제조업자: (주)에스테르\n화장품책임판매업자: (주)브이티코스메틱",
         "country_of_origin": "Korea",
-        "ingredients_inci": "실제 확인한 전체 INCI 성분",
-        "us_label_ok": false
+        "ingredients_inci": "Water, Glycerin, 1,2-Hexanediol, Butylene Glycol, Glycereth-26, C12-14 Alketh-12, Disodium EDTA, Ethylhexylglycerin, Arginine, Carbomer, Coptis Japonica Root Extract, Xanthan Gum, Fragrance, Maltodextrin, Gardenia Florida Fruit Extract, Gluconolactone, Panthenol, Centella Asiatica Extract, Sodium Hyaluronate, Beta-Glucan",
+        "us_label_ok": true
       },
       "price": {
         "price_usd": 23.99,
@@ -286,10 +282,8 @@
         "hard_block": false,
         "hard_block_reason": ""
       },
-      "ready": false,
-      "blocked_by": [
-        "us_label"
-      ]
+      "ready": true,
+      "blocked_by": []
     },
     {
       "rank": 6,
@@ -313,8 +307,8 @@
         "net_contents": "150ml",
         "manufacturer": "(주)뉴앤뉴 / (주)브랜뉴이",
         "country_of_origin": "Korea",
-        "ingredients_inci": "실제 확인한 전체 INCI 성분",
-        "us_label_ok": false
+        "ingredients_inci": "Houttuynia Cordata Extract, 1,2-Hexanediol, Water, Houttuynia Cordata Extract",
+        "us_label_ok": true
       },
       "price": {
         "price_usd": 23.99,
@@ -328,8 +322,7 @@
       },
       "ready": false,
       "blocked_by": [
-        "copy",
-        "us_label"
+        "copy"
       ]
     },
     {
