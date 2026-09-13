@@ -1,6 +1,6 @@
 {
   "agent": "Ops-Prioritizer",
-  "generated_at": "2026-09-13T08:20:15.181127+00:00",
+  "generated_at": "2026-09-13T14:44:57.978869+00:00",
   "risk": "high",
   "task_count": 5,
   "tasks": [
@@ -25,7 +25,7 @@
     },
     {
       "priority": 3,
-      "title": "S등급 7건 Shopify draft 등록",
+      "title": "S등급 6건 Shopify draft 등록",
       "detail": "CSV Import · legal 차단 SKU 제외 · Variant Price는 원가 모델 후 입력",
       "refs": [
         "data/daiso_real/shopify_s_products_import.csv",
@@ -44,8 +44,8 @@
     },
     {
       "priority": 4,
-      "title": "팀 조치 · 마케팅 조사팀",
-      "detail": "고시 표 2건 필요 — 1041749 식물원 병풀 클리어 앰플 30 m https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041749 / 1045421 태그 듀이 스킨 쿠션 15g 누드 https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pd",
+      "title": "팀 조치 · 디자인팀",
+      "detail": "다음 단계: Shopify 스토어 개설 및 기본 설정",
       "refs": [
         "data/dashboard_runtime.json"
       ],
@@ -66,7 +66,7 @@
       },
       {
         "n": 3,
-        "text": "S등급 7건 Shopify draft 등록 — CSV Import · legal 차단 SKU 제외 · Variant Price는 원가 모델 후 입력"
+        "text": "S등급 6건 Shopify draft 등록 — CSV Import · legal 차단 SKU 제외 · Variant Price는 원가 모델 후 입력"
       },
       {
         "n": 4,
@@ -74,7 +74,7 @@
       },
       {
         "n": 5,
-        "text": "팀 조치 · 마케팅 조사팀 — 고시 표 2건 필요 — 1041749 식물원 병풀 클리어 앰플 30 m https://www.daisomall.co.kr/pd/pdr/SCR_P"
+        "text": "팀 조치 · 디자인팀 — 다음 단계: Shopify 스토어 개설 및 기본 설정"
       }
     ]
   }
