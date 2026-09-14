@@ -2,7 +2,7 @@
 title: "Record abc632ed28 · Assembling-Two-Parts-in-One-Hand"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T12:50:41.149280+00:00
+updated_at: 2026-09-14T16:17:23.434882+00:00
 tags: [record, real-data]
 ---
 

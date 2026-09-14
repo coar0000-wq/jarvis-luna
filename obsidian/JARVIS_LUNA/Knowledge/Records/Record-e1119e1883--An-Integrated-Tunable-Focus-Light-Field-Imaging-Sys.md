@@ -2,7 +2,7 @@
 title: "Record e1119e1883 · An-Integrated-Tunable-Focus-Light-Field-Imaging-Sys"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T12:50:41.305469+00:00
+updated_at: 2026-09-14T16:17:23.586397+00:00
 tags: [record, real-data]
 ---
 

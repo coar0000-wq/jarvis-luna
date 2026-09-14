@@ -2,7 +2,7 @@
 title: "Record 31306ee0ff · A-Dual-Dimensional-LLM-Framework-for-Automated-Item"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T12:50:41.856005+00:00
+updated_at: 2026-09-14T16:17:24.125460+00:00
 tags: [record, real-data]
 ---
 

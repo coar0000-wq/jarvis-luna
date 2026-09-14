@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-14T11:07:27.950096+00:00",
+  "collected_at": "2026-09-14T16:11:01.223287+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -68,19 +68,15 @@
       "score": 2
     },
     {
-      "keyword": "cream",
-      "score": 2
-    },
-    {
-      "keyword": "skincare",
-      "score": 2
-    },
-    {
-      "keyword": "products",
+      "keyword": "masks",
       "score": 2
     },
     {
       "keyword": "line",
+      "score": 2
+    },
+    {
+      "keyword": "products",
       "score": 2
     },
     {
@@ -132,6 +128,26 @@
       "score": 1
     },
     {
+      "keyword": "flower",
+      "score": 1
+    },
+    {
+      "keyword": "knows",
+      "score": 1
+    },
+    {
+      "keyword": "collection",
+      "score": 1
+    },
+    {
+      "keyword": "snow",
+      "score": 1
+    },
+    {
+      "keyword": "ballet",
+      "score": 1
+    },
+    {
       "keyword": "stylevana",
       "score": 1
     },
@@ -152,23 +168,15 @@
       "score": 1
     },
     {
-      "keyword": "flower",
+      "keyword": "favourite",
       "score": 1
     },
     {
-      "keyword": "knows",
+      "keyword": "mist",
       "score": 1
     },
     {
-      "keyword": "collection",
-      "score": 1
-    },
-    {
-      "keyword": "snow",
-      "score": 1
-    },
-    {
-      "keyword": "ballet",
+      "keyword": "over",
       "score": 1
     },
     {
@@ -194,14 +202,6 @@
     {
       "keyword": "happy",
       "score": 1
-    },
-    {
-      "keyword": "discover",
-      "score": 1
-    },
-    {
-      "keyword": "brands",
-      "score": 1
     }
   ],
   "beauty_keywords": [
@@ -210,7 +210,7 @@
       "score": 4
     },
     {
-      "keyword": "skincare",
+      "keyword": "masks",
       "score": 2
     },
     {
@@ -232,9 +232,9 @@
   ],
   "posts": [
     {
-      "title": "HAVE A QUESTION? ASK HERE! Alter-Daily Help and Questions: September 12, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wef2lj/have_a_question_ask_here_alterdaily_help_and/",
-      "published": "2026-09-12T15:09:06+00:00",
+      "title": "HAVE A QUESTION? ASK HERE! Alter-Daily Help and Questions: September 14, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wg62eb/have_a_question_ask_here_alterdaily_help_and/",
+      "published": "2026-09-14T15:09:08+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -246,6 +246,13 @@
       "feed": "hot"
     },
     {
+      "title": "new flower knows collection: ❄️🦢🩰 SNOW BALLET 🩰🦢❄️",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wg0bbe/new_flower_knows_collection_snow_ballet/",
+      "published": "2026-09-14T11:04:35+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Stylevana - no point of insurance with lost parcels (UK)",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfwzo2/stylevana_no_point_of_insurance_with_lost_parcels/",
       "published": "2026-09-14T07:48:55+00:00",
@@ -253,9 +260,9 @@
       "feed": "hot"
     },
     {
-      "title": "new flower knows collection: ❄️🦢🩰 SNOW BALLET 🩰🦢❄️",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wg0bbe/new_flower_knows_collection_snow_ballet/",
-      "published": "2026-09-14T11:04:35+00:00",
+      "title": "Favourite mist over makeup",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wg4071/favourite_mist_over_makeup/",
+      "published": "2026-09-14T13:50:27+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -274,9 +281,16 @@
       "feed": "hot"
     },
     {
-      "title": "Recommendations for Thai skincare and makeup",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfzg57/recommendations_for_thai_skincare_and_makeup/",
-      "published": "2026-09-14T10:17:38+00:00",
+      "title": "Are overnight wrapping masks actually worth it?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wg23of/are_overnight_wrapping_masks_actually_worth_it/",
+      "published": "2026-09-14T12:31:31+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Rip Costco Next :( Roundlab Mugwort Line?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfvdqz/rip_costco_next_roundlab_mugwort_line/",
+      "published": "2026-09-14T06:13:57+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -298,13 +312,6 @@
       "title": "Douyin-style (inspired?) makeup",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1weta6s/douyinstyle_inspired_makeup/",
       "published": "2026-09-13T00:46:28+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Rip Costco Next :( Roundlab Mugwort Line?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfvdqz/rip_costco_next_roundlab_mugwort_line/",
-      "published": "2026-09-14T06:13:57+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -386,13 +393,6 @@
       "feed": "hot"
     },
     {
-      "title": "20 years with YesStyle",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1we20xz/20_years_with_yesstyle/",
-      "published": "2026-09-12T03:58:47+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
       "title": "Isntree AHA 8% essence from Chestnut Line Discontinued?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1weh8co/isntree_aha_8_essence_from_chestnut_line/",
       "published": "2026-09-12T16:35:52+00:00",
@@ -400,9 +400,9 @@
       "feed": "hot"
     },
     {
-      "title": "Missha BB Cream No. 29",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wetehy/missha_bb_cream_no_29/",
-      "published": "2026-09-13T00:52:18+00:00",
+      "title": "20 years with YesStyle",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1we20xz/20_years_with_yesstyle/",
+      "published": "2026-09-12T03:58:47+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

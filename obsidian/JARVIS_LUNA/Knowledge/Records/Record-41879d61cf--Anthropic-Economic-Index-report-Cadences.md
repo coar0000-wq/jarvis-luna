@@ -2,7 +2,7 @@
 title: "Record 41879d61cf · Anthropic-Economic-Index-report-Cadences"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T12:50:41.714569+00:00
+updated_at: 2026-09-14T16:17:23.996740+00:00
 tags: [record, real-data]
 ---
 
@@ -10,13 +10,12 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [www.anthropic.com](https://www.anthropic.com/research/economic-index-june-2026-report)
 
-**제목:** Anthropic Economic Index report: Cadences
+**제목:** Economic Index June 2026 Report
 
-Anthropic Economic Index report: Cadences
-The latest Economic Index report looks at when people come to Claude, what they produce with it, and how they perceive AI's impact on their work.
+Economic Index June 2026 Report
 
 **출처:** Source · institutions
 
 ## Connected nodes
 
-[[Source--institutions]] [[LLM언어모델]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

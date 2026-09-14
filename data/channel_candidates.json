@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T11:12:36.438933+00:00",
+  "generated_at": "2026-09-14T16:15:58.409111+00:00",
   "generator": "scripts/discover_channels.py",
   "정책": "후보를 자동으로 등록하지 않는다. robots.txt 를 확인하고 실제로 호출해 본 뒤 진짜 데이터가 나오는 것만 제안한다. 붙일지 말지는 대화로 지시하면 자비스가 수집기를 만들어 연동한다. 이미 가동 중인 소스는 already_live 로 표시한다.",
   "판정기준": [
@@ -65,12 +65,12 @@
       "url": "https://www.allure.com/feed/rss",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 25709,
+      "bytes": 25640,
       "items": 30,
       "samples": [
+        "Hailey Bieber's Cashmere Taupe Nails Are the Mani Equivalent of Your Favorite Sweater—See the Photos",
         "9 Best Sleep Masks of 2026 for Light-Sensitive Sleepers",
-        "8 Best Guerlain Products 2026 to Add Luxury to Your Routine",
-        "14 Best Gourmand Perfumes 2026 to Delight Your Senses"
+        "8 Best Guerlain Products 2026 to Add Luxury to Your Routine"
       ],
       "verdict": "가능",
       "reason": "30건 파싱 성공, 값이 서로 다름",
@@ -97,12 +97,12 @@
       "url": "https://trends.google.com/trending/rss?geo=US",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 21348,
+      "bytes": 21529,
       "items": 40,
       "samples": [
-        "michael j fox",
-        "Michael J. Fox Says His Parkinson’s Has ‘Gotten Harder Over the Years,’ But ‘We’re Getting Close’ to a Cure (Exclusive)",
-        "10 celebrities who have been candid about living with Parkinson’s"
+        "sophie cunningham michael jordan nascar",
+        "Eyewitness Captures Sophie Cunningham With Michael Jordan as Fever Star Gains Spotlight Away From WNBA",
+        "Sophie Cunningham meets Michael Jordan, Jeff Gordon at NASCAR race during WNBA break"
       ],
       "verdict": "가능",
       "reason": "40건 파싱 성공, 값이 서로 다름",

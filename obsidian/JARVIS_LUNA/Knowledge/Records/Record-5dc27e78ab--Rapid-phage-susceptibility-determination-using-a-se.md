@@ -2,7 +2,7 @@
 title: "Record 5dc27e78ab · Rapid-phage-susceptibility-determination-using-a-se"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T12:50:41.266854+00:00
+updated_at: 2026-09-14T16:17:23.550490+00:00
 tags: [record, real-data]
 ---
 

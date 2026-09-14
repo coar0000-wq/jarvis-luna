@@ -2,7 +2,7 @@
 title: "Record 7e3aad13c5 · ASML-reports-transactions-under-its-current-share-b"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T12:50:41.721746+00:00
+updated_at: 2026-09-14T16:17:24.003320+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [www.asml.com](https://www.asml.com/en/news/share-buyback/2026/asml-reports-transactions-under-its-current-share-buyback-program-28)
 
-**제목:** ASML reports transactions under its current share buyback program
+**제목:** Asml Reports Transactions Under Its Current Share Buyback Program 28
 
-ASML reports transactions under its current share buyback program
+Asml Reports Transactions Under Its Current Share Buyback Program 28
 
 **출처:** Source · institutions
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T11:04:46.584956+00:00",
+  "generated_at": "2026-09-14T16:08:46.862883+00:00",
   "generator": "scripts/collect_robotics.py",
   "목적": "옵시디언 주제 '로보틱스' 가 3건뿐이던 문제를 해결한다. 분류기는 정상이었고 수집원에 로봇 자료가 없었던 것이 원인이다.",
   "접근_정책": "arXiv 은 프로그램 접근용 export.arxiv.org 를 제공하며 그 주소만 사용하고 요청 간 3초를 둔다. RSS 두 곳은 robots.txt 허용을 확인했다.",
@@ -218,6 +218,14 @@
           "source": "rss"
         },
         {
+          "title": "Universal Robots launches its seventh generation robot platform at IMTS",
+          "summary": "<p>Universal Robots has released three new robot arms, a rebuilt core controller, a new AI-ready tool flange, and more. </p> <p>The post <a href=\"https://www.therobotreport.com/universal-robots-launches-its-seventh-generation-robot-platform-at-imts/\">Universal Robots launches its seventh generation robot platform at IMTS</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Repo",
+          "published": "Mon, 14 Sep 2026 13:25:40 +0000",
+          "url": "https://www.therobotreport.com/universal-robots-launches-its-seventh-generation-robot-platform-at-imts/",
+          "feed": "The Robot Report",
+          "source": "rss"
+        },
+        {
           "title": "How autonomous fleets are changing what’s possible in American agriculture",
           "summary": "<p>Autonomous tractors can help American agriculture, as exemplified in ASI's collaboration with U.S. Sugar and Everglades Equipment.</p> <p>The post <a href=\"https://www.therobotreport.com/how-autonomous-fleets-are-changing-whats-possible-american-agriculture/\">How autonomous fleets are changing what&#8217;s possible in American agriculture</a> appeared first on <a href=\"https://www.therobotrepor",
           "published": "Sun, 13 Sep 2026 12:45:12 +0000",
@@ -326,14 +334,6 @@
           "summary": "<p>Dynamic Creatures plants to create its own line of characters, and to re-create characters for specific brands and environments.</p> <p>The post <a href=\"https://www.therobotreport.com/boston-dynamics-veterans-launch-dynamic-creatures-to-bring-characters-to-life-with-robotics/\">Boston Dynamics veteran launches Dynamic Creatures to bring characters to life with robotics</a> appeared first on <a ",
           "published": "Tue, 08 Sep 2026 20:39:51 +0000",
           "url": "https://www.therobotreport.com/boston-dynamics-veterans-launch-dynamic-creatures-to-bring-characters-to-life-with-robotics/",
-          "feed": "The Robot Report",
-          "source": "rss"
-        },
-        {
-          "title": "AI can’t outrun a humanoid’s hardware",
-          "summary": "<p>The remarkable progress in AI has brought robotics closer to machines capable of determining what they should do. The next major advance may depend on whether their physical systems can execute those decisions efficiently, precisely and safely.</p> <p>The post <a href=\"https://www.therobotreport.com/ai-cant-outrun-a-humanoids-hardware/\">AI can’t outrun a humanoid&#8217;s hardware</a> appeared f",
-          "published": "Tue, 08 Sep 2026 19:03:09 +0000",
-          "url": "https://www.therobotreport.com/ai-cant-outrun-a-humanoids-hardware/",
           "feed": "The Robot Report",
           "source": "rss"
         }

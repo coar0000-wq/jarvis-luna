@@ -2,7 +2,7 @@
 title: "Record 83830f2880 · Werkraum-Zeit-Artefakte-als-temporale-Forderungsstr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T12:50:41.321353+00:00
+updated_at: 2026-09-14T16:17:23.601028+00:00
 tags: [record, real-data]
 ---
 

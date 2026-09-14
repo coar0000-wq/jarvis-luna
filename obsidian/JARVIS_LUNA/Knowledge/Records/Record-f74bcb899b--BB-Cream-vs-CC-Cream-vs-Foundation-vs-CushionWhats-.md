@@ -2,7 +2,7 @@
 title: "Record f74bcb899b · BB-Cream-vs-CC-Cream-vs-Foundation-vs-CushionWhats-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T12:50:41.800833+00:00
+updated_at: 2026-09-14T16:17:24.075987+00:00
 tags: [record, real-data]
 ---
 

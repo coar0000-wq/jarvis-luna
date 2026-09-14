@@ -1,6 +1,6 @@
 {
   "team": "디자인팀",
-  "generated_at": "2026-09-14T11:06:18.572001+00:00",
+  "generated_at": "2026-09-14T16:10:04.627012+00:00",
   "scope": "Shopify 스토어 디자인 사양 관리 + 디자인 레퍼런스 수집",
   "checklist": {
     "total": 12,
@@ -293,6 +293,13 @@
         "feed": "Shopify Dev Changelog"
       },
       {
+        "title": "New paymentInstrumentSendAddEmail mutation emails customers a link to add a payment method for a subscription, order, or draft order",
+        "url": "https://shopify.dev/changelog/new-paymentinstrumentsendaddemail-mutation",
+        "date": "2026-09-03",
+        "summary": "You can now use the paymentInstrumentSendAddEmail mutation in the GraphQL Admin API to email a customer a link for adding a payment method to a specific resource (for example, a subscription contract). This lets you collect payment details directly from the customer rather than needing them up front",
+        "feed": "Shopify Dev Changelog"
+      },
+      {
         "title": "Polaris CDN 1.1 release candidate",
         "url": "https://shopify.dev/changelog/polaris-cdn-1-1-release-candidate",
         "date": "2026-08-31",
@@ -346,13 +353,6 @@
         "url": "https://shopify.dev/changelog/oxygen-is-now-available-on-trial-plan-stores",
         "date": "2026-08-25",
         "summary": "You can now deploy Hydrogen storefronts to Oxygen from trial plan stores . Previously, Oxygen hosting required a paid plan. Note that trial plan stores don't include public environments, so deployment URLs always require a store login. Learn more about supported plans .",
-        "feed": "Shopify Dev Changelog"
-      },
-      {
-        "title": "Script tags are deprecated and will stop running on March 1, 2027",
-        "url": "https://shopify.dev/changelog/online-store-script-tags-deprecation",
-        "date": "2026-08-24",
-        "summary": "Starting October 1, 2026, the scriptTagCreate and scriptTagUpdate mutations will return an user error, and the ScriptTag REST Admin API resource will reject POST and PUT . The deprecation applies to all API versions, including older ones, so pinning won't defer it. On March 1, 2027, Shopify will sto",
         "feed": "Shopify Dev Changelog"
       },
       {

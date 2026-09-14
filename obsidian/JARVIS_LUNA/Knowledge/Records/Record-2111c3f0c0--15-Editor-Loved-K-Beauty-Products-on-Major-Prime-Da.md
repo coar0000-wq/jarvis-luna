@@ -2,7 +2,7 @@
 title: "Record 2111c3f0c0 · 15-Editor-Loved-K-Beauty-Products-on-Major-Prime-Da"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T12:50:41.537290+00:00
+updated_at: 2026-09-14T16:17:23.819384+00:00
 tags: [record, real-data]
 ---
 

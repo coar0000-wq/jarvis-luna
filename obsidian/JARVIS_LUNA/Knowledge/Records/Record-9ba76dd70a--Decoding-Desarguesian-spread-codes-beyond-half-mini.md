@@ -2,7 +2,7 @@
 title: "Record 9ba76dd70a · Decoding-Desarguesian-spread-codes-beyond-half-mini"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T12:50:41.648930+00:00
+updated_at: 2026-09-14T16:17:23.932890+00:00
 tags: [record, real-data]
 ---
 

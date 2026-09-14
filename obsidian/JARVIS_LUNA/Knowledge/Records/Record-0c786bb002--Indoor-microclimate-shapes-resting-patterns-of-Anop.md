@@ -2,7 +2,7 @@
 title: "Record 0c786bb002 · Indoor-microclimate-shapes-resting-patterns-of-Anop"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T12:50:41.285115+00:00
+updated_at: 2026-09-14T16:17:23.567622+00:00
 tags: [record, real-data]
 ---
 

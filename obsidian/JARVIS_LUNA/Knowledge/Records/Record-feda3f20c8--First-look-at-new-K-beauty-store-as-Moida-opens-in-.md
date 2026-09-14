@@ -2,7 +2,7 @@
 title: "Record feda3f20c8 · First-look-at-new-K-beauty-store-as-Moida-opens-in-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T12:50:41.581301+00:00
+updated_at: 2026-09-14T16:17:23.865637+00:00
 tags: [record, real-data]
 ---
 

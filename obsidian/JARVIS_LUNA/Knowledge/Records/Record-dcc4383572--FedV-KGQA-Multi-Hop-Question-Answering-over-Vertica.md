@@ -2,7 +2,7 @@
 title: "Record dcc4383572 · FedV-KGQA-Multi-Hop-Question-Answering-over-Vertica"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T12:50:41.857310+00:00
+updated_at: 2026-09-14T16:17:24.126809+00:00
 tags: [record, real-data]
 ---
 

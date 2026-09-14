@@ -2,7 +2,7 @@
 title: "Record e0cf5db5b3 · WikiSkill-Compiling-Agent-Experience-into-Persisten"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T12:50:41.868056+00:00
+updated_at: 2026-09-14T16:17:24.137697+00:00
 tags: [record, real-data]
 ---
 

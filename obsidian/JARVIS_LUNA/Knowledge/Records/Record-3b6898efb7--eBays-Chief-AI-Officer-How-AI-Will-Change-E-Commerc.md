@@ -2,7 +2,7 @@
 title: "Record 3b6898efb7 · eBays-Chief-AI-Officer-How-AI-Will-Change-E-Commerc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T12:50:41.522823+00:00
+updated_at: 2026-09-14T16:17:23.804193+00:00
 tags: [record, real-data]
 ---
 

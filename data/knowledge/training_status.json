@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-14T12:51:55.971517+00:00",
-  "real_records": 3253,
+  "updated_at": "2026-09-14T16:15:01.508469+00:00",
+  "real_records": 3258,
   "source_labels": {
     "ai-image": 111,
-    "ai-research": 2866,
+    "ai-research": 2871,
     "shopify-commerce-image": 276
   },
-  "corpus_sha256": "4359db03f255845880442700e03caec14b0ec0dac62289988cb538ea9ac07994",
+  "corpus_sha256": "ff73f510608569768a69f8ed52f72b45cfe6b1da0b1010dc5fc29c81dca609d8",
   "training_performed": true,
   "weights_updated": true,
   "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
@@ -14,17 +14,29 @@
   "top_k_inference": 2,
   "model_file": "data/knowledge/real_knowledge_moe.npz",
   "compatibility_model_file": "data/knowledge/real_knowledge_router.npz",
-  "training_accuracy_on_corpus": 0.8810328927144174,
+  "training_accuracy_on_corpus": 0.8812154696132597,
   "mean_gate_load": [
     0.278223,
     0.322413,
     0.399364
   ],
-  "note": "This is a text knowledge-routing MoE, not an image foundation model.",
-  "trained_corpus_sha256": "4359db03f255845880442700e03caec14b0ec0dac62289988cb538ea9ac07994",
+  "note": "실제 수집 데이터 누적 코퍼스. URL 기준 중복 제거하며 기존 레코드는 보존한다. 가중치 갱신은 학습기가 별도로 수행한다.",
+  "trained_corpus_sha256": "ff73f510608569768a69f8ed52f72b45cfe6b1da0b1010dc5fc29c81dca609d8",
   "tuning_promoted": true,
   "tuning_steps": 500,
-  "tuning_validation_accuracy": 0.8872549019607843,
-  "tuning_final_loss": 0.4051795261349019,
-  "tuning_gate_load_std": 0.14820689663858064
+  "tuning_validation_accuracy": 0.8874388254486134,
+  "tuning_final_loss": 0.40486292920902095,
+  "tuning_gate_load_std": 0.14755764631075655,
+  "records_before": 3253,
+  "records_added": 5,
+  "source_status": {
+    "arxiv": "skipped",
+    "robotics": "ok",
+    "institutions": "ok",
+    "organic_skincare": "ok",
+    "google": "ok",
+    "us_beauty": "ok"
+  },
+  "corpus": "data/knowledge/training_corpus.jsonl",
+  "말뭉치": "바뀌었다. 지금 가중치는 이 말뭉치로 학습한 것이 아니다. 학습기가 돌아야 다시 참이 된다."
 }

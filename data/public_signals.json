@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T11:12:16.897271+00:00",
+  "generated_at": "2026-09-14T16:15:38.609384+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "clarity act",
+          "keyword": "sophie cunningham michael jordan nascar",
+          "approx_traffic": "20000+",
+          "traffic_num": 20000,
+          "published": "Mon, 14 Sep 2026 09:00:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=sophie%20cunningham%20michael%20jordan%20nascar"
+        },
+        {
+          "keyword": "torino - roma",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Mon, 14 Sep 2026 09:00:00 -0700",
+          "source_name": "Fantacalcio",
+          "url": "https://trends.google.com/trending?geo=US&q=torino%20-%20roma"
+        },
+        {
+          "keyword": "macklemore",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Mon, 14 Sep 2026 08:10:00 -0700",
+          "source_name": "Rolling Stone",
+          "url": "https://trends.google.com/trending?geo=US&q=macklemore"
+        },
+        {
+          "keyword": "como vs parma",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Mon, 14 Sep 2026 03:20:00 -0700",
-          "source_name": "CNBC",
-          "url": "https://trends.google.com/trending?geo=US&q=clarity%20act"
-        },
-        {
-          "keyword": "goog stock",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Mon, 14 Sep 2026 03:50:00 -0700",
-          "source_name": "Pluang",
-          "url": "https://trends.google.com/trending?geo=US&q=goog%20stock"
-        },
-        {
-          "keyword": "dave franco",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Mon, 14 Sep 2026 03:50:00 -0700",
-          "source_name": "LADbible",
-          "url": "https://trends.google.com/trending?geo=US&q=dave%20franco"
-        },
-        {
-          "keyword": "todd blanche joe digenova call",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Mon, 14 Sep 2026 03:40:00 -0700",
-          "source_name": "CNN",
-          "url": "https://trends.google.com/trending?geo=US&q=todd%20blanche%20joe%20digenova%20call"
-        },
-        {
-          "keyword": "tropical storm weather forecast",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Mon, 14 Sep 2026 03:40:00 -0700",
-          "source_name": "FOX Weather",
-          "url": "https://trends.google.com/trending?geo=US&q=tropical%20storm%20weather%20forecast"
-        },
-        {
-          "keyword": "nvda",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Mon, 14 Sep 2026 03:40:00 -0700",
-          "source_name": "Yahoo Finance",
-          "url": "https://trends.google.com/trending?geo=US&q=nvda"
-        },
-        {
-          "keyword": "xrp price",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Mon, 14 Sep 2026 03:30:00 -0700",
-          "source_name": "Yahoo Finance",
-          "url": "https://trends.google.com/trending?geo=US&q=xrp%20price"
-        },
-        {
-          "keyword": "temperature",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Mon, 14 Sep 2026 03:20:00 -0700",
-          "source_name": "ScienceAlert",
-          "url": "https://trends.google.com/trending?geo=US&q=temperature"
-        },
-        {
-          "keyword": "aaron gordon",
-          "approx_traffic": "100+",
-          "traffic_num": 100,
-          "published": "Mon, 14 Sep 2026 03:50:00 -0700",
+          "published": "Mon, 14 Sep 2026 08:50:00 -0700",
           "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=aaron%20gordon"
+          "url": "https://trends.google.com/trending?geo=US&q=como%20vs%20parma"
         },
         {
-          "keyword": "omaha weather",
-          "approx_traffic": "100+",
-          "traffic_num": 100,
-          "published": "Mon, 14 Sep 2026 03:30:00 -0700",
-          "source_name": "KETV",
-          "url": "https://trends.google.com/trending?geo=US&q=omaha%20weather"
+          "keyword": "bob mackie",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Mon, 14 Sep 2026 08:30:00 -0700",
+          "source_name": "People.com",
+          "url": "https://trends.google.com/trending?geo=US&q=bob%20mackie"
+        },
+        {
+          "keyword": "al-shamal vs al-ittihad",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Mon, 14 Sep 2026 08:30:00 -0700",
+          "source_name": "Toowoomba Chronicle",
+          "url": "https://trends.google.com/trending?geo=US&q=al-shamal%20vs%20al-ittihad"
+        },
+        {
+          "keyword": "ronaldo",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Mon, 14 Sep 2026 08:50:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=ronaldo"
+        },
+        {
+          "keyword": "stagecoach 2027",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Mon, 14 Sep 2026 08:40:00 -0700",
+          "source_name": "Rolling Stone",
+          "url": "https://trends.google.com/trending?geo=US&q=stagecoach%202027"
+        },
+        {
+          "keyword": "devin carter",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Mon, 14 Sep 2026 08:30:00 -0700",
+          "source_name": "MassLive",
+          "url": "https://trends.google.com/trending?geo=US&q=devin%20carter"
+        },
+        {
+          "keyword": "kody brown",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Mon, 14 Sep 2026 08:30:00 -0700",
+          "source_name": "People.com",
+          "url": "https://trends.google.com/trending?geo=US&q=kody%20brown"
         }
       ]
     },
@@ -187,6 +187,11 @@
       "source": "allure.com/feed/rss",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
       "items": [
+        {
+          "title": "Hailey Bieber's Cashmere Taupe Nails Are the Mani Equivalent of Your Favorite Sweater—See the Photos",
+          "published": "Mon, 14 Sep 2026 13:01:44 +0000",
+          "url": "https://www.allure.com/story/hailey-bieber-cashmere-taupe-nails"
+        },
         {
           "title": "9 Best Sleep Masks of 2026 for Light-Sensitive Sleepers",
           "published": "Sun, 13 Sep 2026 12:00:00 +0000",
@@ -331,11 +336,6 @@
           "title": "Say Hello to Bouncier Waves with These Texture-Enhancing Shampoos",
           "published": "Sat, 05 Sep 2026 12:00:00 +0000",
           "url": "https://www.allure.com/story/best-shampoos-for-wavy-hair"
-        },
-        {
-          "title": "Is the Dyson Toothbrush Worth $499? We Asked 4 Dentists.",
-          "published": "Fri, 04 Sep 2026 19:30:34 +0000",
-          "url": "https://www.allure.com/story/dyson-camerajet-electric-toothbrush-dentists-weigh-in"
         }
       ]
     },

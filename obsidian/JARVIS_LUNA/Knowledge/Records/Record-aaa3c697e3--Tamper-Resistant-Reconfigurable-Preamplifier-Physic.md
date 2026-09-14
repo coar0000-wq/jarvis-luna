@@ -2,7 +2,7 @@
 title: "Record aaa3c697e3 · Tamper-Resistant-Reconfigurable-Preamplifier-Physic"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T12:50:41.259279+00:00
+updated_at: 2026-09-14T16:17:23.543552+00:00
 tags: [record, real-data]
 ---
 

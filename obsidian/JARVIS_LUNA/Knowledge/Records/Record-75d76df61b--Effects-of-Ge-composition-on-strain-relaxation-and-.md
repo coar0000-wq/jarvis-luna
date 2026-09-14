@@ -2,7 +2,7 @@
 title: "Record 75d76df61b · Effects-of-Ge-composition-on-strain-relaxation-and-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T12:50:41.215396+00:00
+updated_at: 2026-09-14T16:17:23.499146+00:00
 tags: [record, real-data]
 ---
 
