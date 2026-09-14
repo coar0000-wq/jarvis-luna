@@ -2,7 +2,7 @@
 title: "Record 7c02bd6bd2 · Glass-Skin-Treatments-A-Top-Korean-Aesthetic-Doctor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T09:42:53.618939+00:00
+updated_at: 2026-09-14T11:14:07.126770+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 58f628ccb8 · Aerosol-and-vapor-detection-via-infrared-laser-refl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T09:42:53.310829+00:00
+updated_at: 2026-09-14T11:14:06.830894+00:00
 tags: [record, real-data]
 ---
 

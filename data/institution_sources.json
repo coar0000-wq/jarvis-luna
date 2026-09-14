@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-14T09:33:28.446746+00:00",
+  "collected_at": "2026-09-14T11:06:03.603551+00:00",
   "total": 1061,
   "organizations": 35,
   "by_org": {
@@ -54,19 +54,19 @@
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-09-14T09:32:21.511935+00:00"
+      "collected_at": "2026-09-14T11:04:59.392457+00:00"
     },
     "sitemap": {
       "status": "ok",
       "count": 140,
       "failures": [],
-      "collected_at": "2026-09-14T09:32:57.474206+00:00"
+      "collected_at": "2026-09-14T11:05:36.989408+00:00"
     },
     "openalex": {
       "status": "ok",
       "count": 711,
       "failures": [],
-      "collected_at": "2026-09-14T09:33:28.445555+00:00"
+      "collected_at": "2026-09-14T11:06:03.602450+00:00"
     }
   },
   "not_collected": {
@@ -176,11 +176,11 @@
       "title_source": "feed"
     },
     {
-      "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
-      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "title": "Introducing the Agents API",
+      "url": "https://openai.com/index/introducing-the-agents-api",
       "date": "2026-09-10",
       "date_raw": "Thu, 10 Sep 2026 00:00:00 GMT",
-      "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -189,11 +189,11 @@
       "title_source": "feed"
     },
     {
-      "title": "Introducing the Agents API",
-      "url": "https://openai.com/index/introducing-the-agents-api",
+      "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
       "date": "2026-09-10",
       "date_raw": "Thu, 10 Sep 2026 00:00:00 GMT",
-      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+      "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -4375,11 +4375,11 @@
       "feed": "https://www.jpmorgan.com/sitemap.xml"
     },
     {
-      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/k-shaped-economy-widening-heather-berger-sarah-wolfe",
+      "url": "https://www.morganstanley.com/insights/themes/global-healthcare-conference",
       "date": "2026-09-11",
-      "date_raw": "2026-09-11T20:50:06Z",
+      "date_raw": "2026-09-11T16:48:30Z",
       "title_source": "url-slug",
-      "title": "K Shaped Economy Widening Heather Berger Sarah Wolfe",
+      "title": "Global Healthcare Conference",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4388,11 +4388,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/singing-in-holiday-giving",
+      "url": "https://www.morganstanley.com/insights",
       "date": "2026-09-11",
-      "date_raw": "2026-09-11T14:45:28Z",
+      "date_raw": "2026-09-11T16:38:53Z",
       "title_source": "url-slug",
-      "title": "Singing In Holiday Giving",
+      "title": "Insights",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4414,37 +4414,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/insights/themes/global-healthcare-conference",
+      "url": "https://www.morganstanley.com/ideas/singing-in-holiday-giving",
       "date": "2026-09-11",
-      "date_raw": "2026-09-11T16:48:30Z",
+      "date_raw": "2026-09-11T14:45:28Z",
       "title_source": "url-slug",
-      "title": "Global Healthcare Conference",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
-      "url": "https://www.morganstanley.com/insights",
-      "date": "2026-09-11",
-      "date_raw": "2026-09-11T19:11:45Z",
-      "title_source": "url-slug",
-      "title": "Insights",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
-      "url": "https://www.morganstanley.com/insights/articles/sustainable-funds-outperform-traditional-first-half-2026",
-      "date": "2026-09-10",
-      "date_raw": "2026-09-10T13:58:13Z",
-      "title_source": "url-slug",
-      "title": "Sustainable Funds Outperform Traditional First Half 2026",
+      "title": "Singing In Holiday Giving",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4466,37 +4440,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/fed-policy-and-markets",
-      "date": "2026-09-09",
-      "date_raw": "2026-09-09T10:04:06Z",
+      "url": "https://www.morganstanley.com/insights/articles/sustainable-funds-outperform-traditional-first-half-2026",
+      "date": "2026-09-10",
+      "date_raw": "2026-09-10T13:58:13Z",
       "title_source": "url-slug",
-      "title": "Fed Policy And Markets",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
-      "url": "https://www.morganstanley.com/ideas/power-moves-detroit",
-      "date": "2026-09-09",
-      "date_raw": "2026-09-09T10:12:05Z",
-      "title_source": "url-slug",
-      "title": "Power Moves Detroit",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
-      "url": "https://www.morganstanley.com/ideas/m-a-outlook-election-policy-2024",
-      "date": "2026-09-09",
-      "date_raw": "2026-09-09T16:07:11Z",
-      "title_source": "url-slug",
-      "title": "M A Outlook Election Policy 2024",
+      "title": "Sustainable Funds Outperform Traditional First Half 2026",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4518,11 +4466,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/insights/articles/trump-tariff-delay-ongoing-outlook-uncertainty",
+      "url": "https://www.morganstanley.com/insights/articles/ai-monetization-race-to-roi-tmt",
       "date": "2026-09-09",
-      "date_raw": "2026-09-09T10:45:28Z",
+      "date_raw": "2026-09-09T10:33:14Z",
       "title_source": "url-slug",
-      "title": "Trump Tariff Delay Ongoing Outlook Uncertainty",
+      "title": "Ai Monetization Race To Roi Tmt",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4531,11 +4479,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/insights/themes/global-tariffs",
+      "url": "https://www.morganstanley.com/ideas/m-a-outlook-election-policy-2024",
       "date": "2026-09-09",
-      "date_raw": "2026-09-09T10:51:01Z",
+      "date_raw": "2026-09-09T16:07:11Z",
       "title_source": "url-slug",
-      "title": "Global Tariffs",
+      "title": "M A Outlook Election Policy 2024",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4544,11 +4492,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/us-election-60-seconds-michael-zezas-market-uncertainty",
+      "url": "https://www.morganstanley.com/ideas/fed-policy-and-markets",
       "date": "2026-09-09",
-      "date_raw": "2026-09-09T16:18:40Z",
+      "date_raw": "2026-09-09T10:04:06Z",
       "title_source": "url-slug",
-      "title": "Us Election 60 Seconds Michael Zezas Market Uncertainty",
+      "title": "Fed Policy And Markets",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4570,11 +4518,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/insights/articles/deepseek-ai-watershed-moment",
+      "url": "https://www.morganstanley.com/insights/themes/global-tariffs",
       "date": "2026-09-09",
-      "date_raw": "2026-09-09T10:35:15Z",
+      "date_raw": "2026-09-09T10:51:01Z",
       "title_source": "url-slug",
-      "title": "Deepseek Ai Watershed Moment",
+      "title": "Global Tariffs",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4583,11 +4531,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/tech-startups-insiders-lessons-for-growth",
+      "url": "https://www.morganstanley.com/insights/articles/trump-tariff-delay-ongoing-outlook-uncertainty",
       "date": "2026-09-09",
-      "date_raw": "2026-09-09T10:15:22Z",
+      "date_raw": "2026-09-09T10:45:28Z",
       "title_source": "url-slug",
-      "title": "Tech Startups Insiders Lessons For Growth",
+      "title": "Trump Tariff Delay Ongoing Outlook Uncertainty",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4596,11 +4544,50 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/insights/articles/ai-monetization-race-to-roi-tmt",
+      "url": "https://www.morganstanley.com/ideas/us-tariffs-research-roundtable",
       "date": "2026-09-09",
-      "date_raw": "2026-09-09T10:33:14Z",
+      "date_raw": "2026-09-09T10:30:10Z",
       "title_source": "url-slug",
-      "title": "Ai Monetization Race To Roi Tmt",
+      "title": "Us Tariffs Research Roundtable",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
+      "url": "https://www.morganstanley.com/ideas/election-2024-convention-wisdom",
+      "date": "2026-09-09",
+      "date_raw": "2026-09-09T16:05:22Z",
+      "title_source": "url-slug",
+      "title": "Election 2024 Convention Wisdom",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
+      "url": "https://www.morganstanley.com/insights/themes/digital-assets",
+      "date": "2026-09-09",
+      "date_raw": "2026-09-09T10:48:34Z",
+      "title_source": "url-slug",
+      "title": "Digital Assets",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
+      "url": "https://www.morganstanley.com/ideas/future-plastics-ideas-podcast",
+      "date": "2026-09-09",
+      "date_raw": "2026-09-09T10:06:40Z",
+      "title_source": "url-slug",
+      "title": "Future Plastics Ideas Podcast",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4614,6 +4601,19 @@
       "date_raw": "2026-09-09T16:19:56Z",
       "title_source": "url-slug",
       "title": "Us Election 60 Seconds Michael Zezas Two Investor Takeaways",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/ai-spending-boom-pay-off-brian-nowak",
+      "date": "2026-09-09",
+      "date_raw": "2026-09-09T21:01:05Z",
+      "title_source": "url-slug",
+      "title": "Ai Spending Boom Pay Off Brian Nowak",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",

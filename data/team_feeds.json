@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-14T09:33:57.320255+00:00",
+  "generated_at": "2026-09-14T11:06:33.969147+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
-  "pool_size": 2032,
+  "pool_size": 2035,
   "제목없어_버림": 38,
   "unrouted": 9,
   "summary": {
     "sourcing": {
-      "total": 212,
-      "recent": 211
+      "total": 215,
+      "recent": 214
     },
     "market": {
       "total": 445,
@@ -56,420 +56,420 @@
         "title": "A 초미세모 칫솔 2개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1030674",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "더블 라인 치실 50개입 420D",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1047504",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "디즈니 칫솔 캡",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1022934",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "원터치 케이스 치실 100P",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=98800",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "일본제 타나베 장인 칫솔 미세모 2개입 핑크그린",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=10530041",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "작은 헤드 미세모 칫솔 4개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042265",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "토끼모양 어린이 칫솔 3개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1030673",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "SNP 프렙 팔자 주름패치 12개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072420",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
+        "by_hand": true
+      },
+      {
+        "title": "VT PDRN 광채시트마스크 1매 25 g",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604016029&recmYn=N",
+        "pool": "daiso",
+        "date": "2026-09-14",
+        "by_hand": true
+      },
+      {
+        "title": "[수분충전]VT PDRN 광채 시트 마스크 1매 25 g",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067499",
+        "pool": "daiso",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "[영양광채버블]VT 프로그로스 버블 스파클링 부스터 10 g 4개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049294",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "[진정수분버블]VT 시카 버블 스파클링 부스터 10 g 4개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049295",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "[펫] 퍼팩트 미니 비트 50g",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=69525",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "깔창형 핫팩 2개입 260~280 mm",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059674",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "돌림형 스마트폰 방수팩",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1063312",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "랩잇 by 닥터지 포어 젤리 마스크 50 ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061917",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "랩잇 by 닥터지 포어 코팩",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1051736",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "리노이아 워터 트리트먼트 200 ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061927",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060487",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "메디필 시카 쿨링 진정 랩핑 마스크 4 ml 4개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060489",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "본셉 비타씨 젤리 마스크 1매 23 g",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061922",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "셀더마데일리 트랜스포밍 아줄렌카밍 마스크 28 g",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059832",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "손가락 씌우개 30매입 중형",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1058854",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "스마트폰 방수팩 화이트",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068269",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "스팀베이스 데일리 아이워머 카모마일 향",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060015",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "식물원 병풀 클리어 마스크 시트",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1038603",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "안내표지 (마스크를 착용하세요)",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1030736",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "에센셜 마스크시트 그린티",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1004153",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "에코팩 유리 저장 용기 230ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027208",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "여행용 간편 롤업 압축팩 25 X 35 cm 2개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=65686",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "이불용 밸브 압축팩 130x100cm",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1009201",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "이불용 밸브 압축팩 90x110cm",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1009199",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "일본제 콤팩트 이중 미세모 칫솔 2개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=913192170",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "정직한실험실 트루랩 엔젤링 워터 트리트먼트 210 ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060496",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "제이엠솔루션 B5 히아 모이스처라이징 마스크 30 ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1038593",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "제일 파프 쿨 5매입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1051797",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "참조은 덴탈 마스크 컬러 대형 10매입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1038192",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "캐릭터 팩트형 누드 쌍꺼풀 테이프 슬림 156개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1065375",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "쿤달 콜라겐 데미지 케어 트리트먼트 150 ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060208",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "프리모팩토리 헤어 블리치(2개입/80ml)",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1039235",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "핫팩아이마스크1P",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=61773",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "3중날 일체형 면도기 2개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042526",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "[프레시시트러스]데일리콤마 오드 퍼퓸 30 ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1043653",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "기모조거팬츠(L)(블랙)",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072195",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "남성 구두끈 4개입 브라운",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=99572122",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "남성용 배색 스트라이프 단목 양말",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=55256",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "데일리 조거 팬츠 XL 그레이",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072259",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "도루코 EVE 모이스처 6중날 휴대용 면도기",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061706",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "도루코윈4 시스템 면도기 SET",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1033694",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "디즈니 미키마우스 아동용 내복 상의 레드 M",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1047755",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "라두스 가로선 남성 스니커즈",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=41771",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "면 혼방 파자마 상의 M 핑크",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067763",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "몬풋 남성 넓은 골지 장목 양말 와인",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059044",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "몬풋 남성 보온 골지 장목 양말 화이트",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1056719",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "몬풋 남성 아치밴딩 단목 양말 화이트",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1056708",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "바디면도기 1개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=12753",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "숫자 스포츠 양말 남성용",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=54005",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "쉬크 익스트림 3중날 면도기 4개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1017957",
         "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       },
       {
         "title": "엘라스틴 맨인매트 클레이 왁스 80 g",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1023846",
         "pool": "daiso",
-        "date": "2026-09-13",
-        "by_hand": true
-      },
-      {
-        "title": "여름 반바지 M 블루",
-        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1073756",
-        "pool": "daiso",
-        "date": "2026-09-13",
-        "by_hand": true
-      },
-      {
-        "title": "와플 라운지웨어 하의 M 아이보리",
-        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067772",
-        "pool": "daiso",
-        "date": "2026-09-13",
+        "date": "2026-09-14",
         "by_hand": true
       }
     ],
@@ -1568,7 +1568,7 @@
         "by_hand": true
       },
       {
-        "title": "The UI/UX Tips and Tricks Behind Apps People Love Using",
+        "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
         "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
         "pool": "youtube_channel",
         "date": "",

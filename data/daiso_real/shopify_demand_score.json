@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-14T09:40:44.031550+00:00",
-  "total_products": 210,
+  "generated_at": "2026-09-14T11:12:17.950342+00:00",
+  "total_products": 213,
   "grade_summary": {
     "S": 6,
     "A": 32,
     "B": 29,
-    "C": 143
+    "C": 146
   },
   "category_avg_score": {
     "클렌징": 72.6,
-    "스킨케어": 64.6,
+    "스킨케어": 63.7,
     "바디케어": 60.7,
-    "마스크팩": 50.8,
+    "마스크팩": 50.9,
     "헤어케어": 50.6,
     "메이크업": 50.1,
     "향수": 39.6,
@@ -28,7 +28,7 @@
     "walmart_beauty"
   ],
   "global_demand_signals": 77,
-  "products_with_global_match": 39,
+  "products_with_global_match": 41,
   "canonical": "shopify_s_recommendations.json",
   "priority_note": "S등급만 Shopify 1차 등록. 펫/노이즈/약한 단일토큰 제외.",
   "scoring_model": {
@@ -5285,6 +5285,80 @@
       "recommend_reason": "메이크업 카테고리 · 평점 4.8 · 리뷰 163건 (글로벌 시그널 약함)"
     },
     {
+      "pd_no": "1067499",
+      "name": "[수분충전]VT PDRN 광채 시트 마스크 1매 25 g",
+      "bucket": "마스크팩",
+      "rebucketed": false,
+      "price_krw": 1000,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067499",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250929/VaaKV3bgiDTNm72FbhfR1067499_00_01VaaKV3bgiDTNm72FbhfR.jpg",
+      "shopify_score": 55,
+      "grade": "C",
+      "s_rule": "score_below_82",
+      "us_market_hits": 19,
+      "us_median_price_usd": 25.0,
+      "score_breakdown": {
+        "category": 22.6,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 7.0,
+        "keyword": 3,
+        "us_market_fit": 22.5,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 9,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "ulta_beauty",
+        "global_product": "PDRN 핑크 콜라겐 볼륨 멀티밤",
+        "similarity": 0.52,
+        "demand_weight": 0.68,
+        "matched_tokens": [
+          "pdrn"
+        ],
+        "match_score": 0.354
+      },
+      "global_matches": [
+        {
+          "channel": "ulta_beauty",
+          "global_product": "PDRN 핑크 콜라겐 볼륨 멀티밤",
+          "similarity": 0.52,
+          "demand_weight": 0.68,
+          "matched_tokens": [
+            "pdrn"
+          ],
+          "match_score": 0.354
+        },
+        {
+          "channel": "sephora",
+          "global_product": "턴오버 앰플 c-PDRN 0.5%",
+          "similarity": 0.52,
+          "demand_weight": 0.63,
+          "matched_tokens": [
+            "pdrn"
+          ],
+          "match_score": 0.328
+        },
+        {
+          "channel": "ulta_beauty",
+          "global_product": "PDRN 히알루론산 캡슐 세럼",
+          "similarity": 0.42,
+          "demand_weight": 0.765,
+          "matched_tokens": [
+            "pdrn"
+          ],
+          "match_score": 0.321
+        }
+      ],
+      "recommend_reason": "글로벌 'PDRN 핑크 콜라겐 볼륨 멀티밤' (ulta_beauty) 유사 52% · 토큰 pdrn · S제외:score_below_82"
+    },
+    {
       "pd_no": "1068300",
       "name": "퍼굿 신발 탈취 스프레이 200 ml 베이비파우더 향",
       "bucket": "메이크업",
@@ -5963,6 +6037,80 @@
       "best_global_match": null,
       "global_matches": [],
       "recommend_reason": "메이크업 카테고리 · 평점 4.6 · 리뷰 177건 (글로벌 시그널 약함)"
+    },
+    {
+      "pd_no": "B202604016029",
+      "name": "VT PDRN 광채시트마스크 1매 25 g",
+      "bucket": "마스크팩",
+      "rebucketed": false,
+      "price_krw": 15000,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604016029&recmYn=N",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250929/VaaKV3bgiDTNm72FbhfR1067499_00_01VaaKV3bgiDTNm72FbhfR.jpg",
+      "shopify_score": 52,
+      "grade": "C",
+      "s_rule": "score_below_82",
+      "us_market_hits": 11,
+      "us_median_price_usd": 28.0,
+      "score_breakdown": {
+        "category": 22.6,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 1.0,
+        "keyword": 3,
+        "us_market_fit": 25.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 11,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "ulta_beauty",
+        "global_product": "PDRN 핑크 콜라겐 볼륨 멀티밤",
+        "similarity": 0.62,
+        "demand_weight": 0.68,
+        "matched_tokens": [
+          "pdrn"
+        ],
+        "match_score": 0.422
+      },
+      "global_matches": [
+        {
+          "channel": "ulta_beauty",
+          "global_product": "PDRN 핑크 콜라겐 볼륨 멀티밤",
+          "similarity": 0.62,
+          "demand_weight": 0.68,
+          "matched_tokens": [
+            "pdrn"
+          ],
+          "match_score": 0.422
+        },
+        {
+          "channel": "ulta_beauty",
+          "global_product": "PDRN 히알루론산 캡슐 세럼",
+          "similarity": 0.52,
+          "demand_weight": 0.765,
+          "matched_tokens": [
+            "pdrn"
+          ],
+          "match_score": 0.398
+        },
+        {
+          "channel": "sephora",
+          "global_product": "턴오버 앰플 c-PDRN 0.5%",
+          "similarity": 0.62,
+          "demand_weight": 0.63,
+          "matched_tokens": [
+            "pdrn"
+          ],
+          "match_score": 0.391
+        }
+      ],
+      "recommend_reason": "글로벌 'PDRN 핑크 콜라겐 볼륨 멀티밤' (ulta_beauty) 유사 62% · 토큰 pdrn · S제외:score_below_82"
     },
     {
       "pd_no": "1060532",
@@ -7281,6 +7429,40 @@
       "best_global_match": null,
       "global_matches": [],
       "recommend_reason": "맨즈케어 카테고리 (글로벌 시그널 약함)"
+    },
+    {
+      "pd_no": "B202604016059",
+      "name": "마미케어 바다포도 스킨팩 80매",
+      "bucket": "스킨케어",
+      "rebucketed": false,
+      "price_krw": 60000,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604016059&recmYn=N",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260630/ezhncI7eCcYarb0K3DJr1075034_00_01ezhncI7eCcYarb0K3DJr.png",
+      "shopify_score": 26,
+      "grade": "C",
+      "s_rule": "score_below_82",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 1.0,
+        "keyword": 0,
+        "us_market_fit": 0.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "스킨케어 카테고리 (글로벌 시그널 약함)"
     },
     {
       "pd_no": "1025659",

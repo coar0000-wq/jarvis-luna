@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-14T09:40:07.775980+00:00",
-  "real_records": 3210,
+  "updated_at": "2026-09-14T11:11:39.772267+00:00",
+  "real_records": 3248,
   "source_labels": {
-    "ai-image": 109,
-    "ai-research": 2827,
-    "shopify-commerce-image": 274
+    "ai-image": 111,
+    "ai-research": 2862,
+    "shopify-commerce-image": 275
   },
-  "corpus_sha256": "927bc3cd07647932a143be989c573ac885f97873da5666913e8e4d86b14e1472",
+  "corpus_sha256": "f9db2bf18360e18bfa2388bf7af8eb840c0055fc86d336831865b58d4e6f406a",
   "training_performed": true,
   "weights_updated": true,
   "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
@@ -14,23 +14,23 @@
   "top_k_inference": 2,
   "model_file": "data/knowledge/real_knowledge_moe.npz",
   "compatibility_model_file": "data/knowledge/real_knowledge_router.npz",
-  "training_accuracy_on_corpus": 0.8806853582554517,
+  "training_accuracy_on_corpus": 0.8811576354679803,
   "mean_gate_load": [
     0.278021,
     0.322335,
     0.399644
   ],
   "note": "실제 수집 데이터 누적 코퍼스. URL 기준 중복 제거하며 기존 레코드는 보존한다. 가중치 갱신은 학습기가 별도로 수행한다.",
-  "trained_corpus_sha256": "927bc3cd07647932a143be989c573ac885f97873da5666913e8e4d86b14e1472",
+  "trained_corpus_sha256": "f9db2bf18360e18bfa2388bf7af8eb840c0055fc86d336831865b58d4e6f406a",
   "tuning_promoted": true,
   "tuning_steps": 500,
-  "tuning_validation_accuracy": 0.8874172185430463,
-  "tuning_final_loss": 0.40549026487792184,
-  "tuning_gate_load_std": 0.1512901726843048,
+  "tuning_validation_accuracy": 0.8883415435139573,
+  "tuning_final_loss": 0.4054274858544648,
+  "tuning_gate_load_std": 0.14803562852265992,
   "records_before": 3210,
-  "records_added": 0,
+  "records_added": 38,
   "source_status": {
-    "arxiv": "ok",
+    "arxiv": "skipped",
     "robotics": "ok",
     "institutions": "ok",
     "organic_skincare": "ok",
@@ -38,5 +38,5 @@
     "us_beauty": "ok"
   },
   "corpus": "data/knowledge/training_corpus.jsonl",
-  "말뭉치": "변화 없음. 기존 가중치가 이 말뭉치 기준이라 학습 상태를 유지한다."
+  "말뭉치": "바뀌었다. 지금 가중치는 이 말뭉치로 학습한 것이 아니다. 학습기가 돌아야 다시 참이 된다."
 }

@@ -2,7 +2,7 @@
 title: "Record 1cf7b79774 · Equate-Beauty-Vitamin-C-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T09:42:53.851322+00:00
+updated_at: 2026-09-14T11:14:07.347762+00:00
 tags: [record, real-data]
 ---
 

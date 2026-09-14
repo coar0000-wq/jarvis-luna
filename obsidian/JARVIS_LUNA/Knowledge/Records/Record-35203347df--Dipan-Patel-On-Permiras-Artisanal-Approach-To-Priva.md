@@ -2,7 +2,7 @@
 title: "Record 35203347df · Dipan-Patel-On-Permiras-Artisanal-Approach-To-Priva"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T09:42:53.800349+00:00
+updated_at: 2026-09-14T11:14:07.299779+00:00
 tags: [record, real-data]
 ---
 

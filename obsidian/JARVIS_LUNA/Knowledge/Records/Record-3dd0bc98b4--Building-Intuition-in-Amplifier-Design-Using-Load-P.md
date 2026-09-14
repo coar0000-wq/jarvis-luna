@@ -2,7 +2,7 @@
 title: "Record 3dd0bc98b4 · Building-Intuition-in-Amplifier-Design-Using-Load-P"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T09:42:53.285219+00:00
+updated_at: 2026-09-14T11:14:06.806535+00:00
 tags: [record, real-data]
 ---
 

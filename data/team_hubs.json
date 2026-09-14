@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T09:42:54.229625+00:00",
+  "generated_at": "2026-09-14T11:14:07.728881+00:00",
   "generator": "scripts/build_team_hubs.py",
   "왜": "Records 가 볼트의 98.6% 라 그래프뷰가 허브 몇 개에 점 수만 개가 매달린 모습이었다. Record -> Topic -> 팀 으로 층을 하나 넣는다.",
   "방식": "Record 파일 3만 7천 개는 건드리지 않는다. Topic 노트에 팀 링크를 한 줄 더하는 것으로 층이 생긴다. 파일을 3만 개 고쳐 쓰면 커밋이 터진다.",
@@ -10,12 +10,12 @@
     "orgs": 35
   },
   "corpus_by_source": {
-    "us_beauty": 220,
+    "us_beauty": 226,
     "arxiv": 167,
-    "robotics": 311,
-    "institutions": 1388,
+    "robotics": 312,
+    "institutions": 1412,
     "organic_skincare": 15,
-    "google": 882,
+    "google": 889,
     "youtube": 227
   },
   "teams": 10,
@@ -32,7 +32,7 @@
         "반도체하드웨어",
         "경영전략"
       ],
-      "corpus_now": 1388,
+      "corpus_now": 1412,
       "sources": [
         "institutions"
       ],
@@ -57,7 +57,7 @@
         "인프라클라우드",
         "과학수학"
       ],
-      "corpus_now": 1276,
+      "corpus_now": 1283,
       "sources": [
         "arxiv",
         "google",
@@ -74,7 +74,7 @@
         "이커머스Shopify",
         "Shopify-Commerce"
       ],
-      "corpus_now": 1102,
+      "corpus_now": 1115,
       "sources": [
         "google",
         "us_beauty"
@@ -86,7 +86,7 @@
       "topics": [
         "로보틱스"
       ],
-      "corpus_now": 311,
+      "corpus_now": 312,
       "sources": [
         "robotics"
       ],
@@ -109,7 +109,7 @@
       "topics": [
         "뷰티스킨케어"
       ],
-      "corpus_now": 220,
+      "corpus_now": 226,
       "sources": [
         "us_beauty"
       ],

@@ -2,7 +2,7 @@
 title: "Record b30af7d42a · Tired-Girl-is-the-latest-fleeting-TikTok-beauty-tre"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T09:42:53.596441+00:00
+updated_at: 2026-09-14T11:14:07.105273+00:00
 tags: [record, real-data]
 ---
 

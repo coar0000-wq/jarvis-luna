@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-14T09:35:36.778667+00:00",
+  "collected_at": "2026-09-14T11:07:27.950096+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -56,19 +56,23 @@
       "score": 4
     },
     {
-      "keyword": "beauty",
+      "keyword": "makeup",
       "score": 3
     },
     {
-      "keyword": "makeup",
-      "score": 2
+      "keyword": "new",
+      "score": 3
     },
     {
-      "keyword": "new",
+      "keyword": "beauty",
       "score": 2
     },
     {
       "keyword": "cream",
+      "score": 2
+    },
+    {
+      "keyword": "skincare",
       "score": 2
     },
     {
@@ -84,10 +88,6 @@
       "score": 2
     },
     {
-      "keyword": "dry",
-      "score": 2
-    },
-    {
       "keyword": "skin",
       "score": 2
     },
@@ -100,19 +100,11 @@
       "score": 2
     },
     {
-      "keyword": "haircare",
-      "score": 2
-    },
-    {
       "keyword": "mascara",
       "score": 2
     },
     {
       "keyword": "essence",
-      "score": 2
-    },
-    {
-      "keyword": "toner",
       "score": 2
     },
     {
@@ -160,6 +152,26 @@
       "score": 1
     },
     {
+      "keyword": "flower",
+      "score": 1
+    },
+    {
+      "keyword": "knows",
+      "score": 1
+    },
+    {
+      "keyword": "collection",
+      "score": 1
+    },
+    {
+      "keyword": "snow",
+      "score": 1
+    },
+    {
+      "keyword": "ballet",
+      "score": 1
+    },
+    {
       "keyword": "anime",
       "score": 1
     },
@@ -190,24 +202,16 @@
     {
       "keyword": "brands",
       "score": 1
-    },
-    {
-      "keyword": "hyntoor",
-      "score": 1
-    },
-    {
-      "keyword": "blush",
-      "score": 1
-    },
-    {
-      "keyword": "does",
-      "score": 1
     }
   ],
   "beauty_keywords": [
     {
       "keyword": "glass",
       "score": 4
+    },
+    {
+      "keyword": "skincare",
+      "score": 2
     },
     {
       "keyword": "sunscreen",
@@ -223,10 +227,6 @@
     },
     {
       "keyword": "essence",
-      "score": 2
-    },
-    {
-      "keyword": "toner",
       "score": 2
     }
   ],
@@ -253,6 +253,13 @@
       "feed": "hot"
     },
     {
+      "title": "new flower knows collection: ❄️🦢🩰 SNOW BALLET 🩰🦢❄️",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wg0bbe/new_flower_knows_collection_snow_ballet/",
+      "published": "2026-09-14T11:04:35+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Anime Impulse Beauty Booth Sample Reviews! (+ Happy to Discover Some New Brands)",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfpfpw/anime_impulse_beauty_booth_sample_reviews_happy/",
       "published": "2026-09-14T01:15:32+00:00",
@@ -263,6 +270,13 @@
       "title": "Hyntoor cream blush - does anyone have any tips on how to use this?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfagaw/hyntoor_cream_blush_does_anyone_have_any_tips_on/",
       "published": "2026-09-13T15:17:45+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Recommendations for Thai skincare and makeup",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfzg57/recommendations_for_thai_skincare_and_makeup/",
+      "published": "2026-09-14T10:17:38+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -389,20 +403,6 @@
       "title": "Missha BB Cream No. 29",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wetehy/missha_bb_cream_no_29/",
       "published": "2026-09-13T00:52:18+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Beauty of joseam green plum toner smells",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1were73/beauty_of_joseam_green_plum_toner_smells/",
-      "published": "2026-09-12T23:19:12+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Favourite in shower haircare for dry textured hair?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wepfs9/favourite_in_shower_haircare_for_dry_textured_hair/",
-      "published": "2026-09-12T21:54:22+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

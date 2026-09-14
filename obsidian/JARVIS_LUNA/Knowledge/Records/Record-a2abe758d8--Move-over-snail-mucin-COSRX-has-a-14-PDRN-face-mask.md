@@ -2,7 +2,7 @@
 title: "Record a2abe758d8 · Move-over-snail-mucin-COSRX-has-a-14-PDRN-face-mask"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T09:42:53.560654+00:00
+updated_at: 2026-09-14T11:14:07.071191+00:00
 tags: [record, real-data]
 ---
 

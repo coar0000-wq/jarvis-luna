@@ -2,7 +2,7 @@
 title: "Record 7b541b16c6 · Eric-Sivertson-discusses-FPGAs-and-robot-security"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T09:42:53.841213+00:00
+updated_at: 2026-09-14T11:14:07.337858+00:00
 tags: [record, real-data]
 ---
 

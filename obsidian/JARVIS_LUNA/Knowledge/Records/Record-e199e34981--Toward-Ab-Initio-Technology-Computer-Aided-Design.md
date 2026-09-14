@@ -2,7 +2,7 @@
 title: "Record e199e34981 · Toward-Ab-Initio-Technology-Computer-Aided-Design"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T09:42:53.233813+00:00
+updated_at: 2026-09-14T11:14:06.758184+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.cap.2026.09.002)
 
-**제목:** Toward Ab Initio Technology Computer-Aided Design
+**제목:** Toward ab initio technology computer-aided design
 
-Toward Ab Initio Technology Computer-Aided Design
+Toward ab initio technology computer-aided design
 
 **출처:** Source · institutions
 
