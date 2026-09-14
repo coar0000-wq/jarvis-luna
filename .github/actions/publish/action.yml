@@ -97,6 +97,35 @@ runs:
         echo "기준 커밋 확인: $BASE"
 
         # ------------------------------------------------------------
+        # 2.5 발행 경로 밖에 남은 변경을 먼저 버린다
+        #
+        # 2026-09-14 다이소 수집 #31 이 여기서 죽었다.
+        # 57분 수집하고 모든 검사를 통과한 뒤 마지막 한 줄에서 막혔다.
+        #
+        #   error: Your local changes to the following files would be
+        #          overwritten by checkout:
+        #            data/knowledge/cumulative_history.json
+        #   Aborting
+        #
+        # 왜 그런가. 위 1번에서 git add 를 발행 경로로만 한다.
+        # 그게 이 액션의 약속이다. 요청한 경로만 올린다.
+        # 그런데 대시보드 생성기가 경로 밖 파일도 같이 고친다.
+        # 그 파일이 커밋 안 된 채 남아 있으니 checkout 이 거부한다.
+        #
+        # 이번 실행이 만든 것은 이미 $MINE 커밋에 안전하게 들어 있다.
+        # 그러니 경로 밖에 남은 것은 버려도 잃을 것이 없다.
+        # 발행 경로가 넓은 워크플로(data obsidian)는 애초에 여기 걸릴 것이 없다.
+        # ------------------------------------------------------------
+
+        LEFTOVER=$(git status --porcelain -uno | wc -l | tr -d ' ')
+
+        if [ "$LEFTOVER" != "0" ]; then
+          echo "발행 경로 밖에 남은 변경 ${LEFTOVER}개를 버린다"
+          git status --porcelain -uno | head -20
+          git checkout -q -- . 2>/dev/null || true
+        fi
+
+        # ------------------------------------------------------------
         # 3. 최신 origin/main 위에 이번 실행의 변경 파일만 적용
         # ------------------------------------------------------------
 
@@ -108,7 +137,11 @@ runs:
 
           git fetch -q origin main
 
-          git checkout -q -B publish origin/main
+          # -f 를 붙인다. 위에서 한 번 치웠지만 재시도 사이에
+          # 또 뭔가 남을 수 있다. 이번 실행 결과는 $MINE 에 있으니
+          # 작업 폴더를 강제로 맞춰도 잃는 것이 없다.
+          # 이것이 없어서 5번 시도가 전부 같은 자리에서 죽었다.
+          git checkout -q -f -B publish origin/main
           git reset -q --hard origin/main
 
           CHANGED=$(git diff --name-only "$BASE" "$MINE" -- $IN_PATHS)
