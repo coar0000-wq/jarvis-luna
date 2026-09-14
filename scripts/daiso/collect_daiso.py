@@ -3752,6 +3752,9 @@ def main() -> int:
         # 사이트맵에 있지만 이미 판정이 끝나 이번에 안 받은 것.
         # 이 값이 커지는 것이 정상이다. 같은 자리를 다시 안 판다는 뜻이다.
         "skipped_already_visited": skipped_already_visited,
+        # 팔지 않기로 정해 후보에서 뺀 것. status 를 쓰는 곳이 두 군데인데
+        # 한쪽에만 넣었다가 보고에 None 으로 나왔다. 2026-09-14 실측으로 잡았다.
+        "skipped_parked": skipped_parked,
         "scope": (
             "다이소몰 뷰티관(C245) "
             "10개 카테고리 "

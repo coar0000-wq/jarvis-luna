@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-13T09:39:42.395608+00:00",
+  "updated_at": "2026-09-14T10:40:33.313440+00:00",
   "source": "Daiso Korea",
-  "count": 210,
+  "count": 213,
   "products": [
     {
       "pd_no": "1030674",
@@ -114,6 +114,44 @@
       "collected_at": "2026-09-09T22:33:22.879663+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
       "bucket": "마스크팩"
+    },
+    {
+      "pd_no": "B202604016029",
+      "name": "VT PDRN 광채시트마스크 1매 25 g",
+      "brand": "다이소",
+      "site_category": "시트팩",
+      "price_krw": 15000,
+      "price_source": "json:price",
+      "sold_out": false,
+      "stock_note": "판매 중",
+      "stock_checked_at": "2026-09-14T10:38:23.896712+00:00",
+      "rating": null,
+      "review_count": null,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250929/VaaKV3bgiDTNm72FbhfR1067499_00_01VaaKV3bgiDTNm72FbhfR.jpg",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604016029&recmYn=N",
+      "collected_at": "2026-09-14T10:38:23.896721+00:00",
+      "source": "daisomall.co.kr 상품 상세 페이지",
+      "bucket": "마스크팩",
+      "detailed_http_status": 200
+    },
+    {
+      "pd_no": "1067499",
+      "name": "[수분충전]VT PDRN 광채 시트 마스크 1매 25 g",
+      "brand": "VT",
+      "site_category": "시트팩",
+      "price_krw": 1000,
+      "price_source": "json:price",
+      "sold_out": false,
+      "stock_note": "판매 중",
+      "stock_checked_at": "2026-09-14T10:40:01.867380+00:00",
+      "rating": null,
+      "review_count": null,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250929/VaaKV3bgiDTNm72FbhfR1067499_00_01VaaKV3bgiDTNm72FbhfR.jpg",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067499",
+      "collected_at": "2026-09-14T10:40:01.867390+00:00",
+      "source": "daisomall.co.kr 상품 상세 페이지",
+      "bucket": "마스크팩",
+      "detailed_http_status": 200
     },
     {
       "pd_no": "1049294",
@@ -2286,6 +2324,25 @@
       "bucket": "스킨케어"
     },
     {
+      "pd_no": "B202604016059",
+      "name": "마미케어 바다포도 스킨팩 80매",
+      "brand": "마미케어",
+      "site_category": "패드",
+      "price_krw": 60000,
+      "price_source": "json:price",
+      "sold_out": false,
+      "stock_note": "판매 중",
+      "stock_checked_at": "2026-09-14T10:40:33.313073+00:00",
+      "rating": null,
+      "review_count": null,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260630/ezhncI7eCcYarb0K3DJr1075034_00_01ezhncI7eCcYarb0K3DJr.png",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604016059&recmYn=N",
+      "collected_at": "2026-09-14T10:40:33.313082+00:00",
+      "source": "daisomall.co.kr 상품 상세 페이지",
+      "bucket": "스킨케어",
+      "detailed_http_status": 200
+    },
+    {
       "pd_no": "1053482",
       "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
       "brand": "메디필",
@@ -2962,18 +3019,5 @@
       "bucket": "헤어케어",
       "detailed_http_status": 200
     }
-  ],
-  "제외_정리": {
-    "ran_at": "2026-09-13T09:39:42.395616+00:00",
-    "전": 212,
-    "후": 210,
-    "뺀_건수": 2,
-    "갈래별": {
-      "비듬·탈모": 1,
-      "선케어": 1
-    },
-    "규칙": "scripts/daiso/category_map.json 의 exclude",
-    "보관": "data/daiso_real/excluded_products.json",
-    "왜": "FDA 가 의약품으로 보는 갈래와 배송 제약 갈래는 못 판다. 못 파는 것이 상품 목록에 남아 있으면 점수와 팀 보고가 그것을 세고, 푸시 직전 감사가 막는다."
-  }
+  ]
 }

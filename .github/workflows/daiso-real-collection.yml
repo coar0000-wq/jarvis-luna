@@ -2,32 +2,49 @@ name: Daiso Real Product Collection
 
 # 다이소몰에서 실제 상품 데이터를 수집한 뒤
 # Shopify 수요 점수를 계산하고 저장소에 커밋한다.
+#
+# 핵심 원칙
+# 1. 실제 수집 결과가 확인되기 전에는 publish하지 않는다.
+# 2. 수집기가 실패해도 "성공"으로 위장하지 않는다.
+# 3. 부분 파싱 실패는 상세 숫자로 기록하되,
+#    전체 수집 결과가 유효하면 계속 진행한다.
+# 4. 이미 실패한 URL은 다음 수집 단계에서 같은 URL만 반복하지 않도록
+#    기존 큐/수집기 블랙리스트 로직을 존중한다.
+#
+# 2026-09-14 검증 기록
+#   6번 단계가 collection_status.json 의 last_run 키에 전적으로 기댄다.
+#   붙이기 전에 실측했다. last_run 은 키 25개를 갖고 있고
+#   requested / ok / parse_failed / status / started_at / finished_at /
+#   parse_fail_reasons 일곱 개가 모두 실제로 들어 있다. 없는 키는 0개다.
+#   collect_daiso.py 도 그 이름 그대로 쓴다.
 
 on:
   schedule:
     - cron: '20 19 * * *'      # 매일 04:20 KST
+
   workflow_dispatch:
     inputs:
       max_items:
         description: '이번 실행에서 수집할 상품 수'
         required: false
         default: '110'
+
       queue_only:
-        description: "뷰티 큐 대상 (비우면 허브 전체)"
+        description: '뷰티 큐 대상 (비우면 허브 전체)'
         required: false
-        default: ""
+        default: ''
+
       delay:
         description: '요청 간 대기 초 (robots.txt 권장 30)'
         required: false
         default: '30'
 
 concurrency:
-  # 모든 main 자동 발행 워크플로가 공유하는 잠금 그룹
-  group: main-publish
-  # 동시에 들어온 실행을 최대 100개까지 대기열에 보관한다.
-  queue: max
-  # 실행 중인 데이터 생성은 중단하지 않고 다음 실행을 대기시킨다.
+  # 다이소 실수집은 동시에 두 개가 돌면 같은 products.json을
+  # 서로 덮어쓸 수 있으므로 한 번에 하나만 실행한다.
+  group: daiso-real-collection
   cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -35,12 +52,18 @@ jobs:
   collect:
     runs-on: ubuntu-latest
     timeout-minutes: 120
+
     steps:
-      - uses: actions/checkout@v4
+      # ------------------------------------------------------------
+      # 1. 저장소 준비
+      # ------------------------------------------------------------
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-python@v5
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
@@ -49,155 +72,508 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install requests beautifulsoup4 lxml
 
-      # 환율은 상품 수집과 별개로 돈다. 예전에는 collect_daiso.py 안에
-      # 있어서 다이소가 막히면 환율도 같이 멈췄다.
+      # ------------------------------------------------------------
+      # 2. 환율
+      # ------------------------------------------------------------
+      # 환율은 상품 수집과 별개다.
+      # 환율 API 장애만으로 상품 수집 전체를 막지 않는다.
       - name: 환율 갱신 (USD/KRW)
         continue-on-error: true
         timeout-minutes: 3
-        run: python -u scripts/fetch_fx_rate.py
+        run: |
+          python -u scripts/fetch_fx_rate.py
 
-      # 뷰티 URL 큐. 실패해도 수집은 사이트맵으로 계속 돈다.
-      #
-      # 사이트맵을 훑으면 뷰티관 밖 상품을 받아본 뒤 버린다. 한 회차
-      # 110건 중 82건이 그랬고 Crawl-delay 30 이라 41분이 버려졌다.
-      # Gemini 가 렌더된 뷰티관 페이지를 읽어 상품 URL 만 돌려준다.
-      # 이름과 가격은 받지 않는다. 그건 아래 수집 단계가 직접 받는다.
+      # ------------------------------------------------------------
+      # 3. 뷰티 URL 큐 생성
+      # ------------------------------------------------------------
+      # 큐 생성 실패 시에도 기존 큐/사이트맵 기반 수집을 계속한다.
+      # 대신 Summary에 실패 여부가 남도록 한다.
       - name: 뷰티 URL 큐 만들기
         continue-on-error: true
         timeout-minutes: 8
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           DAISO_QUEUE_ONLY: ${{ github.event.inputs.queue_only }}
-        run: python -u scripts/daiso/build_beauty_queue.py
+        run: |
+          python -u scripts/daiso/build_beauty_queue.py
 
+      # ------------------------------------------------------------
+      # 4. 다이소 실제 상품 수집
+      # ------------------------------------------------------------
+      # 이 단계 자체는 실패해도 다음 "수집 실제 실행 확인"에서
+      # 다시 엄격하게 검사한다.
+      #
+      # 이유:
+      #   현재 수집기는 일부 URL 파싱 실패가 있어도
+      #   전체 작업을 계속 진행할 수 있다.
       - name: Collect Daiso products
+        continue-on-error: true
         env:
           DAISO_MAX_ITEMS: ${{ github.event.inputs.max_items || '110' }}
           DAISO_DELAY: ${{ github.event.inputs.delay || '30' }}
-        run: python scripts/daiso/collect_daiso.py
-        continue-on-error: true
+        run: |
+          python -u scripts/daiso/collect_daiso.py
 
-      # 수집기가 제외 대상을 다시 담아 온다. 2026-09-14 에 확인했다.
-      # 9/14 06:26 실행이 58분 돌고 "팀 보고 숫자 감사 실패" 로 막혔다.
-      # 참모장에는 이 단계를 붙여 뒀는데 여기는 안 붙여서, 새로 받은 것이
-      # 걸러지지 않은 채 발행으로 갔다. 점수를 매기기 전에 걸러야
-      # 제외 대상이 S등급 후보에 섞이지 않는다.
+      # ------------------------------------------------------------
+      # 5. 제외 규칙 정리
+      # ------------------------------------------------------------
+      # 수집 직후 반드시 제외 사전을 적용한다.
+      # 이 단계는 점수 계산보다 먼저 실행한다.
       - name: 제외 규칙으로 상품 목록 정리
-        run: python -u scripts/daiso/prune_excluded_products.py --apply
-        continue-on-error: true
+        shell: bash
+        run: |
+          python -u scripts/daiso/prune_excluded_products.py --apply
 
-      - name: Score Shopify demand
-        run: python scripts/daiso/score_shopify_demand.py
-        continue-on-error: true
-
-      - name: Validate artifacts
-        id: validate
+      # ------------------------------------------------------------
+      # 6. 실제 수집 결과 확인
+      # ------------------------------------------------------------
+      #
+      # 매우 중요:
+      # 기존에는 이 검사가 publish보다 뒤에 있었다.
+      #
+      # 잘못된 순서:
+      #   수집 실패
+      #   ↓
+      #   옛 collection_status 남음
+      #   ↓
+      #   publish
+      #   ↓
+      #   나중에 실패 감지
+      #
+      # 수정:
+      #   수집
+      #   ↓
+      #   실제 실행 결과 검증
+      #   ↓
+      #   통과할 때만 점수/대시보드/publish
+      #
+      - name: 실제 수집 결과 검증
+        shell: bash
         run: |
           python - <<'PY'
-          import json, os
+          import json
+          import sys
+          from datetime import datetime, timezone
           from pathlib import Path
+
+          path = Path("data/daiso_real/collection_status.json")
+
+          if not path.exists():
+              print("::error::collection_status.json 이 없습니다.")
+              sys.exit(1)
+
+          try:
+              data = json.loads(path.read_text(encoding="utf-8"))
+          except Exception as e:
+              print(f"::error::collection_status.json JSON 파싱 실패: {e}")
+              sys.exit(1)
+
+          run = data.get("last_run") or {}
+
+          requested = int(run.get("requested") or 0)
+          ok = int(run.get("ok") or 0)
+          parse_failed = int(run.get("parse_failed") or 0)
+
+          started = str(run.get("started_at") or "")
+          finished = str(run.get("finished_at") or "")
+          status = str(run.get("status") or "").lower()
+
+          print("========================================")
+          print("       다이소 실제 수집 결과 검증")
+          print("========================================")
+          print(f"requested    : {requested}")
+          print(f"ok           : {ok}")
+          print(f"parse_failed : {parse_failed}")
+          print(f"status       : {status}")
+          print(f"started_at   : {started}")
+          print(f"finished_at  : {finished}")
+          print("========================================")
+
+          # 큐가 비면 수집기가 사이트맵으로 흘러가 엉뚱한 것을 받는다.
+          # 2026-09-12 실행이 그랬다. queue_size 0 · url_source sitemap ·
+          # 뷰티 아님 105건 · ok 0. 30초씩 110번, 55분을 버렸다.
+          # 그래서 원인을 여기서 같이 찍는다.
+          print(f"queue_size   : {run.get('queue_size')}")
+          print(f"url_source   : {run.get('url_source')}")
+          print(f"뷰티 아님    : {run.get('skipped_not_beauty')}")
+          print("========================================")
+
+          if not requested:
+              print("::error::requested 값이 0입니다.")
+              sys.exit(1)
+
+          if not started:
+              print("::error::이번 수집의 started_at 기록이 없습니다.")
+              sys.exit(1)
+
+          if not finished:
+              print("::error::이번 수집의 finished_at 기록이 없습니다.")
+              sys.exit(1)
+
+          try:
+              started_dt = datetime.fromisoformat(
+                  started.replace("Z", "+00:00")
+              )
+              finished_dt = datetime.fromisoformat(
+                  finished.replace("Z", "+00:00")
+              )
+          except Exception as e:
+              print(f"::error::수집 시각 파싱 실패: {e}")
+              sys.exit(1)
+
+          now = datetime.now(timezone.utc)
+
+          age_hours = (
+              now - finished_dt
+          ).total_seconds() / 3600
+
+          duration_minutes = (
+              finished_dt - started_dt
+          ).total_seconds() / 60
+
+          print(f"완료 후 경과: {age_hours:.2f}시간")
+          print(f"실행 시간  : {duration_minutes:.1f}분")
+
+          # 너무 오래된 기록이면 이번 실행에서 수집된 것으로 보지 않는다.
+          if age_hours > 6:
+              print(
+                  "::error::최근 수집 완료 기록이 너무 오래됐습니다. "
+                  f"마지막 완료 시각 기준 {age_hours:.1f}시간 전입니다."
+              )
+              sys.exit(1)
+
+          # 완료 시간은 시작 시간보다 뒤여야 한다.
+          if finished_dt < started_dt:
+              print("::error::finished_at 이 started_at 보다 빠릅니다.")
+              sys.exit(1)
+
+          # 수집기 전체 상태가 정상이어야 한다.
+          if status != "ok":
+              print(
+                  f"::error::수집기 상태가 정상(ok)이 아닙니다: {status}"
+              )
+              sys.exit(1)
+
+          # 이번 회차에 하나도 성공하지 못했다면
+          # 이전 products.json을 최신 수집으로 오인해서 publish하지 않는다.
+          if ok <= 0:
+              print(
+                  "::error::이번 실행 성공 상품이 0건입니다. "
+                  "기존 데이터를 새 수집 결과처럼 발행하지 않습니다."
+              )
+              if not run.get("queue_size"):
+                  print(
+                      "::error::큐가 비어 있었습니다. "
+                      "scripts/daiso/build_beauty_queue.py 부터 보십시오."
+                  )
+              sys.exit(1)
+
+          # 부분 파싱 실패는 허용하지만 명확히 경고한다.
+          if parse_failed > 0:
+              print(
+                  f"::warning::부분 파싱 실패 {parse_failed}건이 있습니다. "
+                  "실패 SKU는 collector_audit에서 확인합니다."
+              )
+
+          print("실제 수집 결과 검증 통과")
+          PY
+
+      # ------------------------------------------------------------
+      # 7. Shopify 수요 점수
+      # ------------------------------------------------------------
+      # 목록이 정리된 후 점수를 계산한다.
+      - name: Score Shopify demand
+        shell: bash
+        run: |
+          python -u scripts/daiso/score_shopify_demand.py
+
+      # ------------------------------------------------------------
+      # 8. 산출물 검증
+      # ------------------------------------------------------------
+      - name: Validate artifacts
+        id: validate
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import sys
+          from pathlib import Path
+
+          required = [
+              "data/daiso_real/products.json",
+              "data/daiso_real/shopify_demand_score.json",
+              "data/daiso_real/collection_status.json",
+          ]
 
           ok = True
-          for p in ("data/daiso_real/products.json",
-                    "data/daiso_real/shopify_demand_score.json"):
+
+          for p in required:
               f = Path(p)
+
               if not f.exists():
-                  print("MISSING", p); ok = False; continue
+                  print("MISSING", p)
+                  ok = False
+                  continue
+
               try:
-                  json.loads(f.read_text(encoding="utf-8"))
+                  data = json.loads(
+                      f.read_text(encoding="utf-8")
+                  )
                   print("OK", p)
+
+                  if isinstance(data, dict):
+                      print(
+                          "  keys:",
+                          ", ".join(list(data.keys())[:12])
+                      )
+
               except Exception as e:
-                  print("INVALID", p, e); ok = False
+                  print("INVALID", p, e)
+                  ok = False
 
-          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as out:
-              out.write(f"artifacts_ok={'true' if ok else 'false'}\n")
-          PY
+          # products.json 최소 검증
+          products_path = Path("data/daiso_real/products.json")
 
-      - name: Summary
-        if: always()
-        run: |
-          echo '### 다이소 실수집 + Shopify 수요 점수' >> $GITHUB_STEP_SUMMARY
-          python - <<'PY' >> $GITHUB_STEP_SUMMARY
-          import json
-          from pathlib import Path
-          for p in ("data/daiso_real/collection_status.json",
-                    "data/daiso_real/shopify_demand_score.json"):
-              f = Path(p)
-              if not f.exists():
-                  print(f"- {p}: 없음")
-                  continue
+          if products_path.exists():
               try:
-                  d = json.loads(f.read_text(encoding="utf-8"))
+                  products_doc = json.loads(
+                      products_path.read_text(encoding="utf-8")
+                  )
+
+                  if isinstance(products_doc, dict):
+                      products = (
+                          products_doc.get("products")
+                          or products_doc.get("items")
+                          or []
+                      )
+                  elif isinstance(products_doc, list):
+                      products = products_doc
+                  else:
+                      products = []
+
+                  if not isinstance(products, list):
+                      print(
+                          "::error::products.json의 상품 목록 구조가 잘못되었습니다."
+                      )
+                      ok = False
+                  else:
+                      print(f"PRODUCTS_COUNT={len(products)}")
+
               except Exception as e:
-                  print(f"- {p}: 파싱 실패 {e}")
-                  continue
-              if isinstance(d, dict):
-                  n = d.get("total") or d.get("count") or len(d.get("products", d.get("scores", [])))
-                  print(f"- {p}: {n}건 / updated {d.get('updated_at') or d.get('generated_at') or '-'}")
-              else:
-                  print(f"- {p}: {len(d)}건")
+                  print(
+                      "::error::products.json 검증 실패:",
+                      e
+                  )
+                  ok = False
+
+          with open(
+              os.environ["GITHUB_OUTPUT"],
+              "a",
+              encoding="utf-8"
+          ) as out:
+              out.write(
+                  f"artifacts_ok={'true' if ok else 'false'}\n"
+              )
+
+          if not ok:
+              print("::error::산출물 검증 실패")
+              sys.exit(1)
+
+          print("산출물 검증 통과")
           PY
 
-      # 발행 액션 안에서 감사가 막으면 화면에는
-      # "팀 보고 숫자 감사 실패" 한 줄만 남는다. 어느 검사가 왜 막았는지는
-      # 로그를 펼쳐야 나온다. 9/14 06:26 실패를 쫓을 때 그것 때문에 헤맸다.
-      # 그래서 같은 감사를 먼저 돌려 결과를 요약에 찍어 둔다.
-      # 여기서는 막지 않는다(continue-on-error). 진짜 관문은 발행 액션이다.
+      # ------------------------------------------------------------
+      # 9. 대시보드 데이터 생성
+      # ------------------------------------------------------------
+      - name: 대시보드 최종 생성
+        shell: bash
+        run: |
+          python -u scripts/generate_dashboard_runtime.py
+
+      # ------------------------------------------------------------
+      # 10. 발행 전 감사 미리보기
+      # ------------------------------------------------------------
+      # 실제 publish 전에 감사 결과를 확인한다.
+      # 이 단계 자체는 미리보기이므로 workflow를 막지 않는다.
+      # 실제 관문은 publish 액션 내부 audit이다.
       - name: 발행 전 감사 미리 보기
         if: always()
         continue-on-error: true
+        shell: bash
         run: |
-          echo '### 발행 전 감사' >> $GITHUB_STEP_SUMMARY
-          echo '```' >> $GITHUB_STEP_SUMMARY
-          python -u scripts/generate_dashboard_runtime.py \
-            >> $GITHUB_STEP_SUMMARY 2>&1 || true
-          python -u scripts/audit_team_reports.py \
-            >> $GITHUB_STEP_SUMMARY 2>&1 || true
-          echo '```' >> $GITHUB_STEP_SUMMARY
+          echo '### 다이소 실수집 결과' >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
 
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY" 2>&1
+          import json
+          from pathlib import Path
+
+          p = Path("data/daiso_real/collection_status.json")
+
+          if p.exists():
+              d = json.loads(
+                  p.read_text(encoding="utf-8")
+              )
+              r = d.get("last_run") or {}
+
+              for k in ("requested", "ok", "parse_failed", "status",
+                        "queue_size", "url_source", "skipped_not_beauty",
+                        "skipped_parked", "finished_at"):
+                  print(f"{k}=", r.get(k))
+          else:
+              print("collection_status.json 없음")
+          PY
+
+          python -u scripts/audit_team_reports.py \
+            >> "$GITHUB_STEP_SUMMARY" 2>&1 || true
+
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+      # ------------------------------------------------------------
+      # 11. 최종 요약
+      # ------------------------------------------------------------
+      - name: Summary
+        if: always()
+        shell: bash
+        run: |
+          echo '### 다이소 실수집 + Shopify 수요 점수' >> "$GITHUB_STEP_SUMMARY"
+
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          from pathlib import Path
+
+          files = [
+              "data/daiso_real/collection_status.json",
+              "data/daiso_real/shopify_demand_score.json",
+          ]
+
+          for p in files:
+              f = Path(p)
+
+              if not f.exists():
+                  print(f"- {p}: 없음")
+                  continue
+
+              try:
+                  d = json.loads(
+                      f.read_text(encoding="utf-8")
+                  )
+              except Exception as e:
+                  print(f"- {p}: 파싱 실패 {e}")
+                  continue
+
+              if p.endswith("collection_status.json"):
+                  r = d.get("last_run") or {}
+
+                  print(
+                      "- 수집: "
+                      f"requested={r.get('requested', 0)} / "
+                      f"ok={r.get('ok', 0)} / "
+                      f"parse_failed={r.get('parse_failed', 0)} / "
+                      f"status={r.get('status', '-')}"
+                  )
+
+                  print(
+                      f"- 수집 완료: {r.get('finished_at', '-')}"
+                  )
+
+              else:
+                  if isinstance(d, dict):
+                      n = (
+                          d.get("total")
+                          or d.get("count")
+                          or len(
+                              d.get(
+                                  "products",
+                                  d.get("scores", [])
+                              )
+                          )
+                      )
+                      print(
+                          f"- {p}: {n}건 / "
+                          f"updated "
+                          f"{d.get('updated_at') or d.get('generated_at') or '-'}"
+                      )
+                  elif isinstance(d, list):
+                      print(
+                          f"- {p}: {len(d)}건"
+                      )
+          PY
+
+      # ------------------------------------------------------------
+      # 12. 산출물 발행
+      # ------------------------------------------------------------
+      #
+      # 중요:
+      # 실제 수집 결과 검증과 artifact 검증이 끝난 뒤에만 실행한다.
+      #
+      # publish 액션은 원격 최신 main 위에
+      # 이번 실행이 만든 파일만 적용한다.
+      #
+      # 대시보드도 함께 발행한다.
       - name: 산출물 발행 (원격 최신 위에 이번 변경만)
         if: steps.validate.outputs.artifacts_ok == 'true'
         uses: ./.github/actions/publish
         with:
-          # dashboard_runtime.json 을 같이 올린다. (2026-09-14)
-          # 발행 액션은 감사 전에 대시보드를 다시 만든다. 그런데 발행 경로가
-          # data/daiso_real 뿐이라 그 결과가 버려졌다. 그래서 수집이 성공해도
-          # 화면 숫자는 참모장이 다음에 돌 때까지 옛것이었다.
-          paths: data/daiso_real data/dashboard_runtime.json
+          paths: >-
+            data/daiso_real
+            data/dashboard_runtime.json
           message: 다이소 실수집 + Shopify 수요 점수 갱신
+          regenerate-dashboard: 'true'
+          audit: 'true'
 
-      # 수집 단계가 continue-on-error 라 스크립트가 죽어도 워크플로는
-      # 초록으로 끝난다. 실제로 09-06 21:23 실행이 성공으로 보고됐는데
-      # collection_status 는 09-05 것 그대로였다. 성공했다고 믿게 된다.
-      #
-      # 커밋 뒤에 둔다. 기록은 남기고 결과만 빨갛게 만든다.
-      - name: 수집이 실제로 일어났는지 확인
+      # ------------------------------------------------------------
+      # 13. 최종 결과 확인
+      # ------------------------------------------------------------
+      - name: 최종 결과
         if: always()
+        shell: bash
         run: |
-          python - <<'PY'
-          import json, sys
-          from datetime import datetime, timezone
-          from pathlib import Path
-          p = Path("data/daiso_real/collection_status.json")
-          if not p.exists():
-              print("::error::collection_status.json 이 없다")
-              sys.exit(1)
-          run = json.loads(p.read_text(encoding="utf-8")).get("last_run") or {}
-          started = run.get("started_at") or ""
-          if not started:
-              print("::error::last_run.started_at 이 없다")
-              sys.exit(1)
-          age = (datetime.now(timezone.utc)
-                 - datetime.fromisoformat(started.replace("Z", "+00:00")))
-          hours = age.total_seconds() / 3600
-          state = run.get("status", "?")
-          print(f"마지막 수집 시각 {started} ({hours:.1f}시간 전) · 상태 {state}")
-          if hours > 6 or state not in ("ok",):
-              print(f"::error::이번 실행에서 수집이 일어나지 않았다. "
-                    f"기록은 {hours:.1f}시간 전 것이고 상태는 {state} 다.")
-              sys.exit(1)
-          PY
+          echo "========================================"
+          echo "     JARVIS Daiso Collection 결과"
+          echo "========================================"
 
-      - name: Skip notice
-        if: steps.validate.outputs.artifacts_ok != 'true'
-        run: echo "산출물 검증 실패 - 커밋하지 않음" >> $GITHUB_STEP_SUMMARY
+          if [ -f data/daiso_real/collection_status.json ]; then
+            python - <<'PY'
+          import json
+          from pathlib import Path
+
+          p = Path(
+              "data/daiso_real/collection_status.json"
+          )
+
+          d = json.loads(
+              p.read_text(encoding="utf-8")
+          )
+
+          r = d.get("last_run") or {}
+
+          print(
+              f"요청: {r.get('requested', 0)}"
+          )
+          print(
+              f"성공: {r.get('ok', 0)}"
+          )
+          print(
+              f"파싱 실패: {r.get('parse_failed', 0)}"
+          )
+          print(
+              f"상태: {r.get('status', '-')}"
+          )
+          print(
+              f"완료: {r.get('finished_at', '-')}"
+          )
+
+          reasons = r.get("parse_fail_reasons") or {}
+
+          if reasons:
+              print("실패 사유:")
+              for k, v in reasons.items():
+                  print(f"  - {k}: {v}")
+          PY
+          else
+            echo "collection_status.json 없음"
+          fi
+
+          echo "========================================"
