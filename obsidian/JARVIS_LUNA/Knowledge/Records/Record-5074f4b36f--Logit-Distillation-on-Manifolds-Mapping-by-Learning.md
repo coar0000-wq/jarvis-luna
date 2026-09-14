@@ -2,7 +2,7 @@
 title: "Record 5074f4b36f · Logit-Distillation-on-Manifolds-Mapping-by-Learning"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T22:37:38.095519+00:00
+updated_at: 2026-09-14T03:16:23.047194+00:00
 tags: [record, real-data]
 ---
 

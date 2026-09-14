@@ -2,7 +2,7 @@
 title: "Record 464289449e · Cold-Girl-Makeup-Remains-A-Hot-TikTok-Trend---Heres"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T22:37:37.942549+00:00
+updated_at: 2026-09-14T03:16:22.877116+00:00
 tags: [record, real-data]
 ---
 

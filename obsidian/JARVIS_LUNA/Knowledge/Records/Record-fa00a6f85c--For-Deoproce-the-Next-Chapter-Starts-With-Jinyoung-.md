@@ -2,7 +2,7 @@
 title: "Record fa00a6f85c · For-Deoproce-the-Next-Chapter-Starts-With-Jinyoung-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T22:37:37.976202+00:00
+updated_at: 2026-09-14T03:16:22.914955+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 789caf3cbd · beplain-Mung-Bean-pH-Balanced-Cleansing-Foam-541-fl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T22:37:38.129631+00:00
+updated_at: 2026-09-14T03:16:23.082633+00:00
 tags: [record, real-data]
 ---
 

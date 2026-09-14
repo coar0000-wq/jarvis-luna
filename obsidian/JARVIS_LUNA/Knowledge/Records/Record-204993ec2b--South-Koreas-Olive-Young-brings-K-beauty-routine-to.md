@@ -2,7 +2,7 @@
 title: "Record 204993ec2b · South-Koreas-Olive-Young-brings-K-beauty-routine-to"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T22:37:38.004215+00:00
+updated_at: 2026-09-14T03:16:22.944108+00:00
 tags: [record, real-data]
 ---
 

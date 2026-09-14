@@ -2,7 +2,7 @@
 title: "Record f186ea1cf0 · How-to-Make-an-Invisible-Drone"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T22:37:38.119194+00:00
+updated_at: 2026-09-14T03:16:23.072205+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 77d87de891 · The-Global-Asymptotic-Stability-Problem-for-Linear-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T22:37:37.600080+00:00
+updated_at: 2026-09-14T03:16:22.509781+00:00
 tags: [record, real-data]
 ---
 

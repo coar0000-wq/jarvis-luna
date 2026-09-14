@@ -2,7 +2,7 @@
 title: "Record 1c7023b4f6 · This-French-moisturizer-is-a-bestselling-skincare-s"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T22:37:37.995591+00:00
+updated_at: 2026-09-14T03:16:22.934255+00:00
 tags: [record, real-data]
 ---
 

@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-13T22:30:50.076571+00:00",
+  "collected_at": "2026-09-14T03:09:01.198756+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -52,12 +52,24 @@
       "score": 4
     },
     {
+      "keyword": "skin",
+      "score": 4
+    },
+    {
       "keyword": "cream",
       "score": 3
     },
     {
-      "keyword": "anything",
+      "keyword": "beauty",
       "score": 3
+    },
+    {
+      "keyword": "new",
+      "score": 2
+    },
+    {
+      "keyword": "brands",
+      "score": 2
     },
     {
       "keyword": "products",
@@ -68,7 +80,11 @@
       "score": 2
     },
     {
-      "keyword": "review",
+      "keyword": "asking",
+      "score": 2
+    },
+    {
+      "keyword": "missha",
       "score": 2
     },
     {
@@ -80,11 +96,7 @@
       "score": 2
     },
     {
-      "keyword": "skin",
-      "score": 2
-    },
-    {
-      "keyword": "beauty",
+      "keyword": "anything",
       "score": 2
     },
     {
@@ -108,19 +120,11 @@
       "score": 2
     },
     {
-      "keyword": "missha",
-      "score": 2
-    },
-    {
       "keyword": "essence",
       "score": 2
     },
     {
       "keyword": "toner",
-      "score": 2
-    },
-    {
-      "keyword": "skincare",
       "score": 2
     },
     {
@@ -180,41 +184,41 @@
       "score": 1
     },
     {
-      "keyword": "douyin-style",
+      "keyword": "anime",
       "score": 1
     },
     {
-      "keyword": "inspired",
+      "keyword": "impulse",
       "score": 1
     },
     {
-      "keyword": "makeup",
+      "keyword": "booth",
       "score": 1
     },
     {
-      "keyword": "retinoid",
+      "keyword": "sample",
       "score": 1
     },
     {
-      "keyword": "spicules",
-      "score": 1
-    },
-    {
-      "keyword": "teso",
+      "keyword": "reviews",
       "score": 1
     }
   ],
   "beauty_keywords": [
     {
+      "keyword": "skin",
+      "score": 4
+    },
+    {
       "keyword": "sunscreen",
       "score": 2
     },
     {
-      "keyword": "glass",
+      "keyword": "asking",
       "score": 2
     },
     {
-      "keyword": "skin",
+      "keyword": "glass",
       "score": 2
     },
     {
@@ -227,10 +231,6 @@
     },
     {
       "keyword": "toner",
-      "score": 2
-    },
-    {
-      "keyword": "skincare",
       "score": 2
     }
   ],
@@ -257,6 +257,13 @@
       "feed": "hot"
     },
     {
+      "title": "Anime Impulse Beauty Booth Sample Reviews! (+ Happy to Discover Some New Brands)",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfpfpw/anime_impulse_beauty_booth_sample_reviews_happy/",
+      "published": "2026-09-14T01:15:32+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Douyin-style (inspired?) makeup",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1weta6s/douyinstyle_inspired_makeup/",
       "published": "2026-09-13T00:46:28+00:00",
@@ -274,6 +281,20 @@
       "title": "Sunscreen review",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wer6is/sunscreen_review/",
       "published": "2026-09-12T23:09:45+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "How to lighten tan for even skin tone (not asking about bleaching)",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfrjpq/how_to_lighten_tan_for_even_skin_tone_not_asking/",
+      "published": "2026-09-14T02:55:34+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Missha BB cream vs TFIT Radiance Fit?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfpxs4/missha_bb_cream_vs_tfit_radiance_fit/",
+      "published": "2026-09-14T01:39:27+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -386,27 +407,6 @@
       "title": "What are your favorite C-beauty brands?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1we05st/what_are_your_favorite_cbeauty_brands/",
       "published": "2026-09-12T02:26:51+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Cow Brand Moist Milk – a little review :)",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1we3mhb/cow_brand_moist_milk_a_little_review/",
-      "published": "2026-09-12T05:21:27+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Skincare recommendations in TW",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1weepn6/skincare_recommendations_in_tw/",
-      "published": "2026-09-12T14:54:55+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Calling all Missha Perfect Cover BB Cream lovers! Have you found anything better that feels like a true \"next level\"?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wdc7hm/calling_all_missha_perfect_cover_bb_cream_lovers/",
-      "published": "2026-09-11T10:19:05+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

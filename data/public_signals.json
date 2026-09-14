@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T22:35:31.806644+00:00",
+  "generated_at": "2026-09-14T03:14:17.377177+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "trinity rodman",
-          "approx_traffic": "20000+",
-          "traffic_num": 20000,
-          "published": "Sun, 13 Sep 2026 15:00:00 -0700",
-          "source_name": "USA Today",
-          "url": "https://trends.google.com/trending?geo=US&q=trinity%20rodman"
+          "keyword": "jerry jones",
+          "approx_traffic": "5000+",
+          "traffic_num": 5000,
+          "published": "Sun, 13 Sep 2026 19:20:00 -0700",
+          "source_name": "Dallas Cowboys",
+          "url": "https://trends.google.com/trending?geo=US&q=jerry%20jones"
         },
         {
-          "keyword": "harrison smith",
+          "keyword": "three's company",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Sun, 13 Sep 2026 15:20:00 -0700",
-          "source_name": "Star Tribune",
-          "url": "https://trends.google.com/trending?geo=US&q=harrison%20smith"
+          "published": "Sun, 13 Sep 2026 19:10:00 -0700",
+          "source_name": "Parade Magazine",
+          "url": "https://trends.google.com/trending?geo=US&q=three%27s%20company"
         },
         {
-          "keyword": "jannik sinner",
+          "keyword": "nicole kidman and faith margaret",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Sun, 13 Sep 2026 19:10:00 -0700",
+          "source_name": "Yahoo",
+          "url": "https://trends.google.com/trending?geo=US&q=nicole%20kidman%20and%20faith%20margaret"
+        },
+        {
+          "keyword": "cavan sullivan",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Sun, 13 Sep 2026 15:20:00 -0700",
-          "source_name": "La Gazzetta dello Sport",
-          "url": "https://trends.google.com/trending?geo=US&q=jannik%20sinner"
+          "published": "Sun, 13 Sep 2026 19:20:00 -0700",
+          "source_name": "MLSsoccer.com",
+          "url": "https://trends.google.com/trending?geo=US&q=cavan%20sullivan"
         },
         {
-          "keyword": "jim courier",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Sun, 13 Sep 2026 15:00:00 -0700",
-          "source_name": "Defector",
-          "url": "https://trends.google.com/trending?geo=US&q=jim%20courier"
-        },
-        {
-          "keyword": "jennifer garner",
+          "keyword": "caitlin clark angel reese friendship",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sun, 13 Sep 2026 15:20:00 -0700",
-          "source_name": "Yahoo",
-          "url": "https://trends.google.com/trending?geo=US&q=jennifer%20garner"
+          "published": "Sun, 13 Sep 2026 19:50:00 -0700",
+          "source_name": "The Guardian",
+          "url": "https://trends.google.com/trending?geo=US&q=caitlin%20clark%20angel%20reese%20friendship"
         },
         {
-          "keyword": "michael taaffe",
+          "keyword": "inundación",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sun, 13 Sep 2026 15:10:00 -0700",
-          "source_name": "NFL.com",
-          "url": "https://trends.google.com/trending?geo=US&q=michael%20taaffe"
+          "published": "Sun, 13 Sep 2026 19:50:00 -0700",
+          "source_name": "N+",
+          "url": "https://trends.google.com/trending?geo=US&q=inundaci%C3%B3n"
         },
         {
-          "keyword": "latest trump news cnn",
+          "keyword": "the last photograph",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sun, 13 Sep 2026 15:10:00 -0700",
-          "source_name": "CNN",
-          "url": "https://trends.google.com/trending?geo=US&q=latest%20trump%20news%20cnn"
+          "published": "Sun, 13 Sep 2026 19:30:00 -0700",
+          "source_name": "The Hollywood Reporter",
+          "url": "https://trends.google.com/trending?geo=US&q=the%20last%20photograph"
         },
         {
-          "keyword": "tiny orange kitten parmesan",
+          "keyword": "fdny",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sun, 13 Sep 2026 15:10:00 -0700",
-          "source_name": "Yahoo",
-          "url": "https://trends.google.com/trending?geo=US&q=tiny%20orange%20kitten%20parmesan"
+          "published": "Sun, 13 Sep 2026 19:30:00 -0700",
+          "source_name": "WKYC",
+          "url": "https://trends.google.com/trending?geo=US&q=fdny"
         },
         {
-          "keyword": "zverev controversy",
+          "keyword": "frontier flight stranded overnight knoxville",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sun, 13 Sep 2026 15:10:00 -0700",
-          "source_name": "BBC",
-          "url": "https://trends.google.com/trending?geo=US&q=zverev%20controversy"
+          "published": "Sun, 13 Sep 2026 19:30:00 -0700",
+          "source_name": "WBIR",
+          "url": "https://trends.google.com/trending?geo=US&q=frontier%20flight%20stranded%20overnight%20knoxville"
         },
         {
-          "keyword": "sinner",
+          "keyword": "skip bayless",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sun, 13 Sep 2026 15:10:00 -0700",
-          "source_name": "Puntodebreak",
-          "url": "https://trends.google.com/trending?geo=US&q=sinner"
+          "published": "Sun, 13 Sep 2026 19:10:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=skip%20bayless"
         }
       ]
     },
@@ -96,87 +96,87 @@
       "status": "ok",
       "reason": "",
       "source": "wikimedia.org REST pageviews API (공식)",
-      "note": "2026-08-13 ~ 2026-09-11 일별 조회수. 후반 15일 대비 전반 15일 증감률",
+      "note": "2026-08-14 ~ 2026-09-12 일별 조회수. 후반 15일 대비 전반 15일 증감률",
       "errors": [],
       "items": [
         {
           "topic": "Snail slime",
           "days": 30,
-          "total_views": 2181,
+          "total_views": 2177,
           "avg_daily": 73,
-          "recent_avg": 79,
-          "prev_avg": 66,
-          "change_pct": 19.6,
+          "recent_avg": 78,
+          "prev_avg": 67,
+          "change_pct": 16.2,
           "url": "https://en.wikipedia.org/wiki/Snail_slime"
         },
         {
           "topic": "Hyaluronic acid",
           "days": 30,
-          "total_views": 17792,
-          "avg_daily": 593,
-          "recent_avg": 619,
-          "prev_avg": 567,
-          "change_pct": 9.3,
+          "total_views": 17572,
+          "avg_daily": 586,
+          "recent_avg": 613,
+          "prev_avg": 558,
+          "change_pct": 9.9,
           "url": "https://en.wikipedia.org/wiki/Hyaluronic_acid"
         },
         {
           "topic": "Retinol",
           "days": 30,
-          "total_views": 11507,
-          "avg_daily": 384,
-          "recent_avg": 393,
-          "prev_avg": 374,
-          "change_pct": 4.9,
+          "total_views": 11558,
+          "avg_daily": 385,
+          "recent_avg": 392,
+          "prev_avg": 378,
+          "change_pct": 3.7,
           "url": "https://en.wikipedia.org/wiki/Retinol"
+        },
+        {
+          "topic": "Cosmetics",
+          "days": 30,
+          "total_views": 20980,
+          "avg_daily": 699,
+          "recent_avg": 701,
+          "prev_avg": 697,
+          "change_pct": 0.6,
+          "url": "https://en.wikipedia.org/wiki/Cosmetics"
         },
         {
           "topic": "Centella asiatica",
           "days": 30,
-          "total_views": 14757,
-          "avg_daily": 492,
-          "recent_avg": 496,
-          "prev_avg": 488,
-          "change_pct": 1.5,
+          "total_views": 14789,
+          "avg_daily": 493,
+          "recent_avg": 491,
+          "prev_avg": 495,
+          "change_pct": -0.6,
           "url": "https://en.wikipedia.org/wiki/Centella_asiatica"
         },
         {
           "topic": "Sunscreen",
           "days": 30,
-          "total_views": 16536,
-          "avg_daily": 551,
-          "recent_avg": 532,
-          "prev_avg": 570,
-          "change_pct": -6.7,
+          "total_views": 16021,
+          "avg_daily": 534,
+          "recent_avg": 531,
+          "prev_avg": 537,
+          "change_pct": -1.0,
           "url": "https://en.wikipedia.org/wiki/Sunscreen"
-        },
-        {
-          "topic": "Cosmetics",
-          "days": 30,
-          "total_views": 21835,
-          "avg_daily": 728,
-          "recent_avg": 698,
-          "prev_avg": 758,
-          "change_pct": -7.9,
-          "url": "https://en.wikipedia.org/wiki/Cosmetics"
         },
         {
           "topic": "K-beauty",
           "days": 30,
-          "total_views": 3955,
-          "avg_daily": 132,
-          "recent_avg": 120,
-          "prev_avg": 143,
-          "change_pct": -15.9,
+          "total_views": 3923,
+          "avg_daily": 131,
+          "recent_avg": 118,
+          "prev_avg": 144,
+          "change_pct": -17.8,
           "url": "https://en.wikipedia.org/wiki/K-beauty"
         },
         {
           "topic": "Niacinamide",
           "days": 30,
-          "total_views": 1325,
-          "avg_daily": 44,
+          "total_views": 1349,
+          "avg_daily": 45,
           "recent_avg": 40,
-          "prev_avg": 48,
-          "change_pct": -16.0,
+          "prev_avg": 50,
+          "change_pct": -19.2,
           "url": "https://en.wikipedia.org/wiki/Niacinamide"
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T22:29:56.167513+00:00",
+  "generated_at": "2026-09-14T03:08:20.751782+00:00",
   "generator": "scripts/ingest_youtube_channels.py",
   "입력": "data/manual/youtube_channels.txt",
   "robots": "youtube.com/robots.txt 의 Disallow 목록에 /@ 와 /channel/ 은 없다. 막힌 것은 /feeds/videos.xml, /results, /youtubei/ 등이다. 지정된 채널만 하나씩 본다. 2026-09-06 확인.",
@@ -116,10 +116,10 @@
     },
     {
       "video_id": "GGg61sdEjeI",
-      "title": "The UI/UX Tips and Tricks Behind Apps People Love Using",
-      "views_text": "214K views",
+      "title": "These UI/UX Design Mistakes Scream You're a Junior Designer",
+      "views_text": "217K views",
       "published_text": "2 weeks ago",
-      "views": 214000,
+      "views": 217000,
       "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
       "channel": "uxpeak",
       "teams": [
@@ -202,7 +202,7 @@
   "items": [
     {
       "stale": false,
-      "last_ok_at": "2026-09-13T22:29:45.814975+00:00",
+      "last_ok_at": "2026-09-14T03:08:10.334712+00:00",
       "url": "https://www.youtube.com/@uxpeak",
       "note": "UX/UI 리디자인·전환율 (사용자 지정)",
       "team_hint": "design",
@@ -211,14 +211,14 @@
       "subscribers": "123K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-13T22:29:45.815001+00:00",
+      "checked_at": "2026-09-14T03:08:10.334735+00:00",
       "videos": [
         {
           "video_id": "GGg61sdEjeI",
-          "title": "The UI/UX Tips and Tricks Behind Apps People Love Using",
-          "views_text": "214K views",
+          "title": "These UI/UX Design Mistakes Scream You're a Junior Designer",
+          "views_text": "217K views",
           "published_text": "2 weeks ago",
-          "views": 214000,
+          "views": 217000,
           "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
           "channel": "uxpeak",
           "teams": [
@@ -469,7 +469,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-13T22:29:51.167291+00:00",
+      "last_ok_at": "2026-09-14T03:08:15.751568+00:00",
       "url": "https://www.youtube.com/@%EB%95%A1%ED%81%90%EC%B1%84%EB%84%90",
       "note": "땡스큐레이터 - 스몰 브랜드 브랜딩·수출·견적. 팀은 영상마다 자동 분류",
       "team_hint": "",
@@ -478,14 +478,14 @@
       "subscribers": "18.4K",
       "video_count": 20,
       "error": "",
-      "checked_at": "2026-09-13T22:29:51.167310+00:00",
+      "checked_at": "2026-09-14T03:08:15.751583+00:00",
       "videos": [
         {
           "video_id": "CSr4DYGUPOM",
           "title": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
-          "views_text": "71K views",
+          "views_text": "72K views",
           "published_text": "10 days ago",
-          "views": 71000,
+          "views": 72000,
           "url": "https://www.youtube.com/watch?v=CSr4DYGUPOM",
           "channel": "땡스큐레이터",
           "teams": [

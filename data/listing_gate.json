@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-14T00:33:48.895383+00:00",
+  "generated_at": "2026-09-14T03:14:18.066013+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "total": 6,
   "ready": 6,
@@ -22,7 +22,7 @@
       "name": "드롭비 탄탄 광채 앰플 40 ml",
       "category": "스킨케어",
       "price_krw": 5000,
-      "shopify_score": 96,
+      "shopify_score": 97,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048583",
       "copy": {
         "title": "Drop B Firming Glow Ampoule 40 ml",
@@ -56,8 +56,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 23.99,
-        "margin_pct": 45.5,
+        "price_usd": 24.99,
+        "margin_pct": 47.4,
         "register_blocked": false
       },
       "legal": {
@@ -70,6 +70,162 @@
     },
     {
       "rank": 2,
+      "pd_no": "1062781",
+      "product_id": "1062781",
+      "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+      "category": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 93,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062781",
+      "copy": {
+        "title": "Cell Fusion C Derma Block PDRN Collagen Cream 50ml",
+        "description_html": "<p>Discover the nourishing benefits of Cell Fusion C Derma Block PDRN Collagen Cream, conveniently sized at 50 ml for your daily skincare routine. This facial cream is formulated to help smooth the look of fine lines and support a firmer-looking complexion.</p><p>Incorporate this rich cream into your morning and evening skincare steps to help maintain skin hydration and promote a radiant, glowing finish.</p>",
+        "seo_title": "Cell Fusion C Derma Block PDRN Collagen Cream 50ml",
+        "seo_description": "Shop Cell Fusion C Derma Block PDRN Collagen Cream 50ml for a hydrated, radiant-looking complexion. Perfect addition to your daily K-beauty skincare routine.",
+        "tags": [
+          "cell-fusion-c",
+          "pdrn-cream",
+          "collagen-cream",
+          "korean-skincare",
+          "face-cream",
+          "hydrating-cream"
+        ],
+        "product_type": "Face Cream"
+      },
+      "copy_status": "ok",
+      "gosi": {
+        "volume": "50ml (1.69 fl.oz)",
+        "maker": "화장품제조업자: 코스맥스(주) / 화장품책임판매업자: (주)씨엠에스랩",
+        "origin": "한국",
+        "ingredients": "정제수, 글리세린, 다이프로필렌글라이콜, 부틸렌글라이콜, 옥틸도데칸올, 네오펜틸글라이콜다이카프레이트, 나이아신아마이드, 1,2-헥산다이올, 진흙버섯추출물, 하이드롤라이즈드하이알루로닉애씨드, 하이드롤라이즈드콜라겐, 마",
+        "gosi_ok": true
+      },
+      "us_label": {
+        "net_contents": "50ml (1.69 fl.oz)",
+        "manufacturer": "화장품제조업자: 코스맥스(주) / 화장품책임판매업자: (주)씨엠에스랩",
+        "country_of_origin": "Korea",
+        "ingredients_inci": "Water, Glycerin, Dipropylene Glycol, Butylene Glycol, Octyldodecanol, Neopentyl Glycol Dicaprate, Niacinamide, 1,2-Hexanediol, Phellinus Linteus Extract, Hydrolyzed Hyaluronic Acid, Hydrolyzed Collagen, Allium Sativum (Garlic) Bulb Extract, Avena Sativa (Oat) Kernel Extract, Bertholletia Excelsa Seed Extract, Brassica Oleracea Italica (Broccoli) Extract, Camellia Sinensis Seed Extract, Salmon Egg Extract, Solanum Lycopersicum (Tomato) Fruit Extract, Spinacia Oleracea (Spinach) Leaf Extract, Vaccinium Angustifolium (Blueberry) Fruit Extract, Vitis Vinifera (Grape) Fruit Extract, Diglycerin, Pentylene Glycol, Panthenol, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Cetearyl Olivate, Glyceryl Stearate, Palmitic Acid, Stearic Acid, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, C12-20 Alkyl Glucoside, Caprylyl Glycol, Sorbitan Olivate, Tromethamine, Ethylhexylglycerin, Glyceryl Acrylate/Acrylic Acid Copolymer, Adenosine, Sorbitan Isostearate, Sodium Phytate, Cyanocobalamin, Tocopherol, Acetyl Hexapeptide-8, Ascorbic Acid Polypeptide, Sodium DNA, Acetyl Octapeptide-3, Acetyl Tetrapeptide-2, Acetyl Tetrapeptide-3, Acetyl Tetrapeptide-5, Acetyl Tetrapeptide-9, Carnosine, Copper Tripeptide-1, Nonapeptide-1, Palmitoyl Pentapeptide-4, Palmitoyl Tripeptide-1, Palmitoyl Tripeptide-5, C14-22 Alcohols, Xanthan Gum, Carbomer, Fragrance",
+        "us_label_ok": true
+      },
+      "price": {
+        "price_usd": 24.99,
+        "margin_pct": 47.4,
+        "register_blocked": false
+      },
+      "legal": {
+        "status": "auto_checked",
+        "hard_block": false,
+        "hard_block_reason": ""
+      },
+      "ready": true,
+      "blocked_by": []
+    },
+    {
+      "rank": 3,
+      "pd_no": "1041403",
+      "product_id": "1041403",
+      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+      "category": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 91,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
+      "copy": {
+        "title": "Chaebi Gongan Houttuynia Cordata Extract Vegan Toner 150 ml",
+        "description_html": "<p>Discover the refreshing hydration of Chaebi Gongan Houttuynia Cordata Extract Vegan Toner, featuring 150 ml of soothing care for your daily skincare routine.</p><p>This gentle vegan toner helps balance and refresh your complexion, leaving your skin feeling soft, comfortable, and prepared for the next steps of your routine.</p>",
+        "seo_title": "Chaebi Gongan Houttuynia Cordata Extract Vegan Toner 150 ml",
+        "seo_description": "Refresh and hydrate your skin with Chaebi Gongan Houttuynia Cordata Extract Vegan Toner 150 ml. A gentle, vegan-friendly formula for a balanced complexion.",
+        "tags": [
+          "vegan-toner",
+          "k-beauty",
+          "houttuynia-cordata",
+          "face-toner",
+          "hydrating-toner",
+          "korean-skincare"
+        ],
+        "product_type": "Face Toner"
+      },
+      "copy_status": "ok",
+      "gosi": {
+        "volume": "150ml",
+        "maker": "(주)뉴앤뉴 / (주)브랜뉴이",
+        "origin": "한국",
+        "ingredients": "약모밀꽃/잎/줄기추출물(95%), 1,2-헥산다이올, 정제수, 약모밀추출물(1%)",
+        "gosi_ok": true
+      },
+      "us_label": {
+        "net_contents": "150ml",
+        "manufacturer": "(주)뉴앤뉴 / (주)브랜뉴이",
+        "country_of_origin": "Korea",
+        "ingredients_inci": "Houttuynia Cordata Extract, 1,2-Hexanediol, Water, Houttuynia Cordata Extract",
+        "us_label_ok": true
+      },
+      "price": {
+        "price_usd": 24.99,
+        "margin_pct": 44.4,
+        "register_blocked": false
+      },
+      "legal": {
+        "status": "auto_checked",
+        "hard_block": false,
+        "hard_block_reason": ""
+      },
+      "ready": true,
+      "blocked_by": []
+    },
+    {
+      "rank": 4,
+      "pd_no": "1041749",
+      "product_id": "1041749",
+      "name": "식물원 병풀 클리어 앰플 30 ml",
+      "category": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 91,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041749",
+      "copy": {
+        "title": "Sikmulnara Centella Clear Ampoule 30ml",
+        "description_html": "<p>Discover the Sikmulnara Centella Clear Ampoule in a convenient 30 ml size, designed to fit seamlessly into your daily skincare routine.</p><p>This lightweight formula helps hydrate and soothe the skin for a fresh, balanced complexion.</p>",
+        "seo_title": "Sikmulnara Centella Clear Ampoule 30ml",
+        "seo_description": "Shop the Sikmulnara Centella Clear Ampoule 30ml for a soothing and hydrating addition to your daily skincare routine.",
+        "tags": [
+          "k-beauty",
+          "sikmulnara",
+          "centella-ampoule",
+          "face-serum",
+          "skincare",
+          "korean-skincare"
+        ],
+        "product_type": "Face Serum"
+      },
+      "copy_status": "ok",
+      "gosi": {
+        "volume": "30 ml",
+        "maker": "코스맥스(주) / (주)네이처리퍼블릭",
+        "origin": "대한민국",
+        "ingredients": "정제수, 부틸렌글라이콜, 글리세린, 1,2-헥산다이올, 프로판다이올, 흰버드나무껍질추출물, 병풀추출물(100.1 ppm), 병풀잎추출물(100ppm), 병풀뿌리추출물(100 ppm), 티트리잎오일, C12-14알케스",
+        "gosi_ok": true
+      },
+      "us_label": {
+        "net_contents": "30 ml",
+        "manufacturer": "코스맥스(주) / (주)네이처리퍼블릭",
+        "country_of_origin": "Korea",
+        "ingredients_inci": "Water, Butylene Glycol, Glycerin, 1,2-Hexanediol, Propanediol, Salix Alba (Willow) Bark Extract, Centella Asiatica Extract, Centella Asiatica Leaf Extract, Centella Asiatica Root Extract, Melaleuca Alternifolia (Tea Tree) Leaf Oil, C12-14 Alketh-12, Sodium Polyacryloyldimethyl Taurate, Sodium Citrate, Ethylhexylglycerin, Citric Acid, Tocopherol, Epigallocatechin Gallate, Salicylic Acid, Glycolic Acid, Caprylic/Capric Triglyceride, Pistacia Lentiscus (Mastic) Gum, Hydrogenated Lecithin, Xanthan Gum, Phenethyl Alcohol",
+        "us_label_ok": true
+      },
+      "price": {
+        "price_usd": 24.99,
+        "margin_pct": 50.4,
+        "register_blocked": false
+      },
+      "legal": {
+        "status": "auto_checked",
+        "hard_block": false,
+        "hard_block_reason": ""
+      },
+      "ready": true,
+      "blocked_by": []
+    },
+    {
+      "rank": 5,
       "pd_no": "1059834",
       "product_id": "1059834",
       "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
@@ -109,8 +265,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 23.99,
-        "margin_pct": 59.4,
+        "price_usd": 24.99,
+        "margin_pct": 60.7,
         "register_blocked": false
       },
       "legal": {
@@ -122,111 +278,7 @@
       "blocked_by": []
     },
     {
-      "rank": 3,
-      "pd_no": "1062781",
-      "product_id": "1062781",
-      "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
-      "category": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 90,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062781",
-      "copy": {
-        "title": "Cell Fusion C Derma Block PDRN Collagen Cream 50ml",
-        "description_html": "<p>Discover the nourishing benefits of Cell Fusion C Derma Block PDRN Collagen Cream, conveniently sized at 50 ml for your daily skincare routine. This facial cream is formulated to help smooth the look of fine lines and support a firmer-looking complexion.</p><p>Incorporate this rich cream into your morning and evening skincare steps to help maintain skin hydration and promote a radiant, glowing finish.</p>",
-        "seo_title": "Cell Fusion C Derma Block PDRN Collagen Cream 50ml",
-        "seo_description": "Shop Cell Fusion C Derma Block PDRN Collagen Cream 50ml for a hydrated, radiant-looking complexion. Perfect addition to your daily K-beauty skincare routine.",
-        "tags": [
-          "cell-fusion-c",
-          "pdrn-cream",
-          "collagen-cream",
-          "korean-skincare",
-          "face-cream",
-          "hydrating-cream"
-        ],
-        "product_type": "Face Cream"
-      },
-      "copy_status": "ok",
-      "gosi": {
-        "volume": "50ml (1.69 fl.oz)",
-        "maker": "화장품제조업자: 코스맥스(주) / 화장품책임판매업자: (주)씨엠에스랩",
-        "origin": "한국",
-        "ingredients": "정제수, 글리세린, 다이프로필렌글라이콜, 부틸렌글라이콜, 옥틸도데칸올, 네오펜틸글라이콜다이카프레이트, 나이아신아마이드, 1,2-헥산다이올, 진흙버섯추출물, 하이드롤라이즈드하이알루로닉애씨드, 하이드롤라이즈드콜라겐, 마",
-        "gosi_ok": true
-      },
-      "us_label": {
-        "net_contents": "50ml (1.69 fl.oz)",
-        "manufacturer": "화장품제조업자: 코스맥스(주) / 화장품책임판매업자: (주)씨엠에스랩",
-        "country_of_origin": "Korea",
-        "ingredients_inci": "Water, Glycerin, Dipropylene Glycol, Butylene Glycol, Octyldodecanol, Neopentyl Glycol Dicaprate, Niacinamide, 1,2-Hexanediol, Phellinus Linteus Extract, Hydrolyzed Hyaluronic Acid, Hydrolyzed Collagen, Allium Sativum (Garlic) Bulb Extract, Avena Sativa (Oat) Kernel Extract, Bertholletia Excelsa Seed Extract, Brassica Oleracea Italica (Broccoli) Extract, Camellia Sinensis Seed Extract, Salmon Egg Extract, Solanum Lycopersicum (Tomato) Fruit Extract, Spinacia Oleracea (Spinach) Leaf Extract, Vaccinium Angustifolium (Blueberry) Fruit Extract, Vitis Vinifera (Grape) Fruit Extract, Diglycerin, Pentylene Glycol, Panthenol, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Cetearyl Olivate, Glyceryl Stearate, Palmitic Acid, Stearic Acid, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, C12-20 Alkyl Glucoside, Caprylyl Glycol, Sorbitan Olivate, Tromethamine, Ethylhexylglycerin, Glyceryl Acrylate/Acrylic Acid Copolymer, Adenosine, Sorbitan Isostearate, Sodium Phytate, Cyanocobalamin, Tocopherol, Acetyl Hexapeptide-8, Ascorbic Acid Polypeptide, Sodium DNA, Acetyl Octapeptide-3, Acetyl Tetrapeptide-2, Acetyl Tetrapeptide-3, Acetyl Tetrapeptide-5, Acetyl Tetrapeptide-9, Carnosine, Copper Tripeptide-1, Nonapeptide-1, Palmitoyl Pentapeptide-4, Palmitoyl Tripeptide-1, Palmitoyl Tripeptide-5, C14-22 Alcohols, Xanthan Gum, Carbomer, Fragrance",
-        "us_label_ok": true
-      },
-      "price": {
-        "price_usd": 23.99,
-        "margin_pct": 45.5,
-        "register_blocked": false
-      },
-      "legal": {
-        "status": "auto_checked",
-        "hard_block": false,
-        "hard_block_reason": ""
-      },
-      "ready": true,
-      "blocked_by": []
-    },
-    {
-      "rank": 4,
-      "pd_no": "1041749",
-      "product_id": "1041749",
-      "name": "식물원 병풀 클리어 앰플 30 ml",
-      "category": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 90,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041749",
-      "copy": {
-        "title": "Sikmulnara Centella Clear Ampoule 30ml",
-        "description_html": "<p>Discover the Sikmulnara Centella Clear Ampoule in a convenient 30 ml size, designed to fit seamlessly into your daily skincare routine.</p><p>This lightweight formula helps hydrate and soothe the skin for a fresh, balanced complexion.</p>",
-        "seo_title": "Sikmulnara Centella Clear Ampoule 30ml",
-        "seo_description": "Shop the Sikmulnara Centella Clear Ampoule 30ml for a soothing and hydrating addition to your daily skincare routine.",
-        "tags": [
-          "k-beauty",
-          "sikmulnara",
-          "centella-ampoule",
-          "face-serum",
-          "skincare",
-          "korean-skincare"
-        ],
-        "product_type": "Face Serum"
-      },
-      "copy_status": "ok",
-      "gosi": {
-        "volume": "30 ml",
-        "maker": "코스맥스(주) / (주)네이처리퍼블릭",
-        "origin": "대한민국",
-        "ingredients": "정제수, 부틸렌글라이콜, 글리세린, 1,2-헥산다이올, 프로판다이올, 흰버드나무껍질추출물, 병풀추출물(100.1 ppm), 병풀잎추출물(100ppm), 병풀뿌리추출물(100 ppm), 티트리잎오일, C12-14알케스",
-        "gosi_ok": true
-      },
-      "us_label": {
-        "net_contents": "30 ml",
-        "manufacturer": "코스맥스(주) / (주)네이처리퍼블릭",
-        "country_of_origin": "Korea",
-        "ingredients_inci": "Water, Butylene Glycol, Glycerin, 1,2-Hexanediol, Propanediol, Salix Alba (Willow) Bark Extract, Centella Asiatica Extract, Centella Asiatica Leaf Extract, Centella Asiatica Root Extract, Melaleuca Alternifolia (Tea Tree) Leaf Oil, C12-14 Alketh-12, Sodium Polyacryloyldimethyl Taurate, Sodium Citrate, Ethylhexylglycerin, Citric Acid, Tocopherol, Epigallocatechin Gallate, Salicylic Acid, Glycolic Acid, Caprylic/Capric Triglyceride, Pistacia Lentiscus (Mastic) Gum, Hydrogenated Lecithin, Xanthan Gum, Phenethyl Alcohol",
-        "us_label_ok": true
-      },
-      "price": {
-        "price_usd": 23.99,
-        "margin_pct": 48.7,
-        "register_blocked": false
-      },
-      "legal": {
-        "status": "auto_checked",
-        "hard_block": false,
-        "hard_block_reason": ""
-      },
-      "ready": true,
-      "blocked_by": []
-    },
-    {
-      "rank": 5,
+      "rank": 6,
       "pd_no": "1049271",
       "product_id": "1049271",
       "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
@@ -265,60 +317,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 23.99,
-        "margin_pct": 29.9,
-        "register_blocked": false
-      },
-      "legal": {
-        "status": "auto_checked",
-        "hard_block": false,
-        "hard_block_reason": ""
-      },
-      "ready": true,
-      "blocked_by": []
-    },
-    {
-      "rank": 6,
-      "pd_no": "1041403",
-      "product_id": "1041403",
-      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-      "category": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 86,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
-      "copy": {
-        "title": "Chaebi Gongan Houttuynia Cordata Extract Vegan Toner 150 ml",
-        "description_html": "<p>Discover the refreshing hydration of Chaebi Gongan Houttuynia Cordata Extract Vegan Toner, featuring 150 ml of soothing care for your daily skincare routine.</p><p>This gentle vegan toner helps balance and refresh your complexion, leaving your skin feeling soft, comfortable, and prepared for the next steps of your routine.</p>",
-        "seo_title": "Chaebi Gongan Houttuynia Cordata Extract Vegan Toner 150 ml",
-        "seo_description": "Refresh and hydrate your skin with Chaebi Gongan Houttuynia Cordata Extract Vegan Toner 150 ml. A gentle, vegan-friendly formula for a balanced complexion.",
-        "tags": [
-          "vegan-toner",
-          "k-beauty",
-          "houttuynia-cordata",
-          "face-toner",
-          "hydrating-toner",
-          "korean-skincare"
-        ],
-        "product_type": "Face Toner"
-      },
-      "copy_status": "ok",
-      "gosi": {
-        "volume": "150ml",
-        "maker": "(주)뉴앤뉴 / (주)브랜뉴이",
-        "origin": "한국",
-        "ingredients": "약모밀꽃/잎/줄기추출물(95%), 1,2-헥산다이올, 정제수, 약모밀추출물(1%)",
-        "gosi_ok": true
-      },
-      "us_label": {
-        "net_contents": "150ml",
-        "manufacturer": "(주)뉴앤뉴 / (주)브랜뉴이",
-        "country_of_origin": "Korea",
-        "ingredients_inci": "Houttuynia Cordata Extract, 1,2-Hexanediol, Water, Houttuynia Cordata Extract",
-        "us_label_ok": true
-      },
-      "price": {
-        "price_usd": 23.99,
-        "margin_pct": 42.4,
+        "price_usd": 24.99,
+        "margin_pct": 32.4,
         "register_blocked": false
       },
       "legal": {

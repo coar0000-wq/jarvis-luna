@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T22:30:01.023385+00:00",
+  "generated_at": "2026-09-14T03:08:24.740422+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
@@ -13,7 +13,7 @@
     },
     "market": {
       "total": 445,
-      "recent": 35
+      "recent": 34
     },
     "listing": {
       "total": 14,
@@ -25,7 +25,7 @@
     },
     "legal": {
       "total": 113,
-      "recent": 15
+      "recent": 16
     },
     "design": {
       "total": 338,
@@ -37,11 +37,11 @@
     },
     "knowledge": {
       "total": 143,
-      "recent": 40
+      "recent": 39
     },
     "institutions": {
       "total": 1061,
-      "recent": 280
+      "recent": 278
     }
   },
   "fda_failures": [],
@@ -1104,6 +1104,13 @@
         "by_hand": false
       },
       {
+        "title": "Centric Compounding Issues Nationwide Recall of Glutathione, Myer’s Cocktail, and Tri-Immune Boost Due to Elevated Endotoxin Levels",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/centric-compounding-issues-nationwide-recall-glutathione-myers-cocktail-and-tri-immune-boost-due",
+        "pool": "fda",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
         "title": "Evergreen Fresh Sprouts LLC Recalls Broccoli Sprouts Because of Possible Health Risk",
         "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/evergreen-fresh-sprouts-llc-recalls-broccoli-sprouts-because-possible-health-risk",
         "pool": "fda",
@@ -1239,13 +1246,6 @@
       {
         "title": "Baxter Issues Voluntary Nationwide Recall for One Lot of Anticoagulant Sodium Citrate Solution Due to Potential Presence of Particulate Matter",
         "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/baxter-issues-voluntary-nationwide-recall-one-lot-anticoagulant-sodium-citrate-solution-due",
-        "pool": "fda",
-        "date": "2026-08-25",
-        "by_hand": false
-      },
-      {
-        "title": "Baxter Issues Voluntary Nationwide Recall for One Lot of 70% Dextrose Injection Due to Potential Presence of Particulate Matter",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/baxter-issues-voluntary-nationwide-recall-one-lot-70-dextrose-injection-due-potential-presence",
         "pool": "fda",
         "date": "2026-08-25",
         "by_hand": false
@@ -1568,7 +1568,7 @@
         "by_hand": true
       },
       {
-        "title": "The UI/UX Tips and Tricks Behind Apps People Love Using",
+        "title": "These UI/UX Design Mistakes Scream You're a Junior Designer",
         "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
         "pool": "youtube_channel",
         "date": "",

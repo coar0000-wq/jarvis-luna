@@ -2,7 +2,7 @@
 title: "Record 1bdd1d1f2b · Sephora-Expands-K-Beauty-Assortment-With-Sustainabl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T22:37:38.018058+00:00
+updated_at: 2026-09-14T03:16:22.959791+00:00
 tags: [record, real-data]
 ---
 

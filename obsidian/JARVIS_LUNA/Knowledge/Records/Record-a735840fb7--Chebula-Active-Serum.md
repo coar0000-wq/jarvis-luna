@@ -2,7 +2,7 @@
 title: "Record a735840fb7 · Chebula-Active-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T22:37:38.125091+00:00
+updated_at: 2026-09-14T03:16:23.078130+00:00
 tags: [record, real-data]
 ---
 

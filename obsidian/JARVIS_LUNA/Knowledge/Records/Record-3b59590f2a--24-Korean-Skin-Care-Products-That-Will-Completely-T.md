@@ -2,7 +2,7 @@
 title: "Record 3b59590f2a · 24-Korean-Skin-Care-Products-That-Will-Completely-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-13T22:37:37.872456+00:00
+updated_at: 2026-09-14T03:16:22.797440+00:00
 tags: [record, real-data]
 ---
 
