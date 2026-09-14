@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-14T05:36:18.429733+00:00",
+  "generated_at": "2026-09-14T09:40:44.267030+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "total": 6,
   "ready": 6,
@@ -122,6 +122,58 @@
     },
     {
       "rank": 3,
+      "pd_no": "1041749",
+      "product_id": "1041749",
+      "name": "식물원 병풀 클리어 앰플 30 ml",
+      "category": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 92,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041749",
+      "copy": {
+        "title": "Sikmulnara Centella Clear Ampoule 30ml",
+        "description_html": "<p>Discover the Sikmulnara Centella Clear Ampoule in a convenient 30 ml size, designed to fit seamlessly into your daily skincare routine.</p><p>This lightweight formula helps hydrate and soothe the skin for a fresh, balanced complexion.</p>",
+        "seo_title": "Sikmulnara Centella Clear Ampoule 30ml",
+        "seo_description": "Shop the Sikmulnara Centella Clear Ampoule 30ml for a soothing and hydrating addition to your daily skincare routine.",
+        "tags": [
+          "k-beauty",
+          "sikmulnara",
+          "centella-ampoule",
+          "face-serum",
+          "skincare",
+          "korean-skincare"
+        ],
+        "product_type": "Face Serum"
+      },
+      "copy_status": "ok",
+      "gosi": {
+        "volume": "30 ml",
+        "maker": "코스맥스(주) / (주)네이처리퍼블릭",
+        "origin": "대한민국",
+        "ingredients": "정제수, 부틸렌글라이콜, 글리세린, 1,2-헥산다이올, 프로판다이올, 흰버드나무껍질추출물, 병풀추출물(100.1 ppm), 병풀잎추출물(100ppm), 병풀뿌리추출물(100 ppm), 티트리잎오일, C12-14알케스",
+        "gosi_ok": true
+      },
+      "us_label": {
+        "net_contents": "30 ml",
+        "manufacturer": "코스맥스(주) / (주)네이처리퍼블릭",
+        "country_of_origin": "Korea",
+        "ingredients_inci": "Water, Butylene Glycol, Glycerin, 1,2-Hexanediol, Propanediol, Salix Alba (Willow) Bark Extract, Centella Asiatica Extract, Centella Asiatica Leaf Extract, Centella Asiatica Root Extract, Melaleuca Alternifolia (Tea Tree) Leaf Oil, C12-14 Alketh-12, Sodium Polyacryloyldimethyl Taurate, Sodium Citrate, Ethylhexylglycerin, Citric Acid, Tocopherol, Epigallocatechin Gallate, Salicylic Acid, Glycolic Acid, Caprylic/Capric Triglyceride, Pistacia Lentiscus (Mastic) Gum, Hydrogenated Lecithin, Xanthan Gum, Phenethyl Alcohol",
+        "us_label_ok": true
+      },
+      "price": {
+        "price_usd": 24.99,
+        "margin_pct": 50.4,
+        "register_blocked": false
+      },
+      "legal": {
+        "status": "auto_checked",
+        "hard_block": false,
+        "hard_block_reason": ""
+      },
+      "ready": true,
+      "blocked_by": []
+    },
+    {
+      "rank": 4,
       "pd_no": "1041403",
       "product_id": "1041403",
       "name": "채비공간 어성초 추출물 비건 토너 150 ml",
@@ -162,58 +214,6 @@
       "price": {
         "price_usd": 24.99,
         "margin_pct": 44.4,
-        "register_blocked": false
-      },
-      "legal": {
-        "status": "auto_checked",
-        "hard_block": false,
-        "hard_block_reason": ""
-      },
-      "ready": true,
-      "blocked_by": []
-    },
-    {
-      "rank": 4,
-      "pd_no": "1041749",
-      "product_id": "1041749",
-      "name": "식물원 병풀 클리어 앰플 30 ml",
-      "category": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 91,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041749",
-      "copy": {
-        "title": "Sikmulnara Centella Clear Ampoule 30ml",
-        "description_html": "<p>Discover the Sikmulnara Centella Clear Ampoule in a convenient 30 ml size, designed to fit seamlessly into your daily skincare routine.</p><p>This lightweight formula helps hydrate and soothe the skin for a fresh, balanced complexion.</p>",
-        "seo_title": "Sikmulnara Centella Clear Ampoule 30ml",
-        "seo_description": "Shop the Sikmulnara Centella Clear Ampoule 30ml for a soothing and hydrating addition to your daily skincare routine.",
-        "tags": [
-          "k-beauty",
-          "sikmulnara",
-          "centella-ampoule",
-          "face-serum",
-          "skincare",
-          "korean-skincare"
-        ],
-        "product_type": "Face Serum"
-      },
-      "copy_status": "ok",
-      "gosi": {
-        "volume": "30 ml",
-        "maker": "코스맥스(주) / (주)네이처리퍼블릭",
-        "origin": "대한민국",
-        "ingredients": "정제수, 부틸렌글라이콜, 글리세린, 1,2-헥산다이올, 프로판다이올, 흰버드나무껍질추출물, 병풀추출물(100.1 ppm), 병풀잎추출물(100ppm), 병풀뿌리추출물(100 ppm), 티트리잎오일, C12-14알케스",
-        "gosi_ok": true
-      },
-      "us_label": {
-        "net_contents": "30 ml",
-        "manufacturer": "코스맥스(주) / (주)네이처리퍼블릭",
-        "country_of_origin": "Korea",
-        "ingredients_inci": "Water, Butylene Glycol, Glycerin, 1,2-Hexanediol, Propanediol, Salix Alba (Willow) Bark Extract, Centella Asiatica Extract, Centella Asiatica Leaf Extract, Centella Asiatica Root Extract, Melaleuca Alternifolia (Tea Tree) Leaf Oil, C12-14 Alketh-12, Sodium Polyacryloyldimethyl Taurate, Sodium Citrate, Ethylhexylglycerin, Citric Acid, Tocopherol, Epigallocatechin Gallate, Salicylic Acid, Glycolic Acid, Caprylic/Capric Triglyceride, Pistacia Lentiscus (Mastic) Gum, Hydrogenated Lecithin, Xanthan Gum, Phenethyl Alcohol",
-        "us_label_ok": true
-      },
-      "price": {
-        "price_usd": 24.99,
-        "margin_pct": 50.4,
         "register_blocked": false
       },
       "legal": {

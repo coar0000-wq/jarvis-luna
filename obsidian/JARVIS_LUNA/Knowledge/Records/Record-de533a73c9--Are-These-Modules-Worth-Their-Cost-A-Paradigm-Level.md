@@ -2,7 +2,7 @@
 title: "Record de533a73c9 · Are-These-Modules-Worth-Their-Cost-A-Paradigm-Level"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T03:16:22.443600+00:00
+updated_at: 2026-09-14T09:42:53.102323+00:00
 tags: [record, real-data]
 ---
 

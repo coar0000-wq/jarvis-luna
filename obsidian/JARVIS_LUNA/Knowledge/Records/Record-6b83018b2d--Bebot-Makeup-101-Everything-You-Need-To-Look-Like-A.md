@@ -2,7 +2,7 @@
 title: "Record 6b83018b2d · Bebot-Makeup-101-Everything-You-Need-To-Look-Like-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T03:16:22.872593+00:00
+updated_at: 2026-09-14T09:42:53.527749+00:00
 tags: [record, real-data]
 ---
 

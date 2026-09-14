@@ -2,7 +2,7 @@
 title: "Record f0da1c026e · Wall-Street-chases-K-beauty-with-first-dedicated-ET"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T03:16:22.863628+00:00
+updated_at: 2026-09-14T09:42:53.519492+00:00
 tags: [record, real-data]
 ---
 

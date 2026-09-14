@@ -2,7 +2,7 @@
 title: "Record c242b12152 · YUNJAC-Skin-Perfecting-Protective-Base-Prep-135-fl-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T03:16:23.085585+00:00
+updated_at: 2026-09-14T09:42:53.728454+00:00
 tags: [record, real-data]
 ---
 

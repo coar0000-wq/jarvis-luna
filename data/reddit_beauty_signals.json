@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-14T03:09:01.198756+00:00",
+  "collected_at": "2026-09-14T09:35:36.778667+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -52,23 +52,23 @@
       "score": 4
     },
     {
-      "keyword": "skin",
+      "keyword": "glass",
       "score": 4
-    },
-    {
-      "keyword": "cream",
-      "score": 3
     },
     {
       "keyword": "beauty",
       "score": 3
     },
     {
+      "keyword": "makeup",
+      "score": 2
+    },
+    {
       "keyword": "new",
       "score": 2
     },
     {
-      "keyword": "brands",
+      "keyword": "cream",
       "score": 2
     },
     {
@@ -76,19 +76,11 @@
       "score": 2
     },
     {
+      "keyword": "line",
+      "score": 2
+    },
+    {
       "keyword": "sunscreen",
-      "score": 2
-    },
-    {
-      "keyword": "asking",
-      "score": 2
-    },
-    {
-      "keyword": "missha",
-      "score": 2
-    },
-    {
-      "keyword": "glass",
       "score": 2
     },
     {
@@ -96,11 +88,7 @@
       "score": 2
     },
     {
-      "keyword": "anything",
-      "score": 2
-    },
-    {
-      "keyword": "goes",
+      "keyword": "skin",
       "score": 2
     },
     {
@@ -148,39 +136,27 @@
       "score": 1
     },
     {
-      "keyword": "product",
+      "keyword": "monday",
       "score": 1
     },
     {
-      "keyword": "authenticity",
+      "keyword": "stylevana",
       "score": 1
     },
     {
-      "keyword": "thursday",
+      "keyword": "point",
       "score": 1
     },
     {
-      "keyword": "hyntoor",
+      "keyword": "insurance",
       "score": 1
     },
     {
-      "keyword": "blush",
+      "keyword": "lost",
       "score": 1
     },
     {
-      "keyword": "does",
-      "score": 1
-    },
-    {
-      "keyword": "anyone",
-      "score": 1
-    },
-    {
-      "keyword": "tips",
-      "score": 1
-    },
-    {
-      "keyword": "use",
+      "keyword": "parcels",
       "score": 1
     },
     {
@@ -202,11 +178,35 @@
     {
       "keyword": "reviews",
       "score": 1
+    },
+    {
+      "keyword": "happy",
+      "score": 1
+    },
+    {
+      "keyword": "discover",
+      "score": 1
+    },
+    {
+      "keyword": "brands",
+      "score": 1
+    },
+    {
+      "keyword": "hyntoor",
+      "score": 1
+    },
+    {
+      "keyword": "blush",
+      "score": 1
+    },
+    {
+      "keyword": "does",
+      "score": 1
     }
   ],
   "beauty_keywords": [
     {
-      "keyword": "skin",
+      "keyword": "glass",
       "score": 4
     },
     {
@@ -214,11 +214,7 @@
       "score": 2
     },
     {
-      "keyword": "asking",
-      "score": 2
-    },
-    {
-      "keyword": "glass",
+      "keyword": "skin",
       "score": 2
     },
     {
@@ -243,16 +239,16 @@
       "feed": "hot"
     },
     {
-      "title": "Product Authenticity Thursday September 10, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wceshh/product_authenticity_thursday_september_10_2026/",
-      "published": "2026-09-10T10:01:02+00:00",
+      "title": "Makeup Monday September 14, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfsum9/makeup_monday_september_14_2026/",
+      "published": "2026-09-14T04:00:21+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Hyntoor cream blush - does anyone have any tips on how to use this?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfagaw/hyntoor_cream_blush_does_anyone_have_any_tips_on/",
-      "published": "2026-09-13T15:17:45+00:00",
+      "title": "Stylevana - no point of insurance with lost parcels (UK)",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfwzo2/stylevana_no_point_of_insurance_with_lost_parcels/",
+      "published": "2026-09-14T07:48:55+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -264,9 +260,16 @@
       "feed": "hot"
     },
     {
-      "title": "Douyin-style (inspired?) makeup",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1weta6s/douyinstyle_inspired_makeup/",
-      "published": "2026-09-13T00:46:28+00:00",
+      "title": "Hyntoor cream blush - does anyone have any tips on how to use this?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfagaw/hyntoor_cream_blush_does_anyone_have_any_tips_on/",
+      "published": "2026-09-13T15:17:45+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Talk Me Into/Out of It September 14, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfy5nn/talk_me_intoout_of_it_september_14_2026/",
+      "published": "2026-09-14T09:00:48+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -278,6 +281,20 @@
       "feed": "hot"
     },
     {
+      "title": "Douyin-style (inspired?) makeup",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1weta6s/douyinstyle_inspired_makeup/",
+      "published": "2026-09-13T00:46:28+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Rip Costco Next :( Roundlab Mugwort Line?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfvdqz/rip_costco_next_roundlab_mugwort_line/",
+      "published": "2026-09-14T06:13:57+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Sunscreen review",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wer6is/sunscreen_review/",
       "published": "2026-09-12T23:09:45+00:00",
@@ -285,23 +302,9 @@
       "feed": "hot"
     },
     {
-      "title": "How to lighten tan for even skin tone (not asking about bleaching)",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfrjpq/how_to_lighten_tan_for_even_skin_tone_not_asking/",
-      "published": "2026-09-14T02:55:34+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Missha BB cream vs TFIT Radiance Fit?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfpxs4/missha_bb_cream_vs_tfit_radiance_fit/",
-      "published": "2026-09-14T01:39:27+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Teso Life opening 60+ new stores across the US soon",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wehvva/teso_life_opening_60_new_stores_across_the_us_soon/",
-      "published": "2026-09-12T17:01:10+00:00",
+      "title": "Anything Goes Sunday: September 13, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfj1lv/anything_goes_sunday_september_13_2026/",
+      "published": "2026-09-13T20:39:07+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -313,9 +316,16 @@
       "feed": "hot"
     },
     {
-      "title": "My current faves for sensitive acne prone dry skin",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wesht8/my_current_faves_for_sensitive_acne_prone_dry_skin/",
-      "published": "2026-09-13T00:09:00+00:00",
+      "title": "Teso Life opening 60+ new stores across the US soon",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wehvva/teso_life_opening_60_new_stores_across_the_us_soon/",
+      "published": "2026-09-12T17:01:10+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "peripera glass heart oos??",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfnwsy/peripera_glass_heart_oos/",
+      "published": "2026-09-14T00:04:50+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -327,9 +337,9 @@
       "feed": "hot"
     },
     {
-      "title": "Anything Goes Sunday: September 13, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfj1lv/anything_goes_sunday_september_13_2026/",
-      "published": "2026-09-13T20:39:07+00:00",
+      "title": "My current faves for sensitive acne prone dry skin",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wesht8/my_current_faves_for_sensitive_acne_prone_dry_skin/",
+      "published": "2026-09-13T00:09:00+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -369,16 +379,16 @@
       "feed": "hot"
     },
     {
-      "title": "Missha BB Cream No. 29",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wetehy/missha_bb_cream_no_29/",
-      "published": "2026-09-13T00:52:18+00:00",
+      "title": "Isntree AHA 8% essence from Chestnut Line Discontinued?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1weh8co/isntree_aha_8_essence_from_chestnut_line/",
+      "published": "2026-09-12T16:35:52+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Isntree AHA 8% essence from Chestnut Line Discontinued?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1weh8co/isntree_aha_8_essence_from_chestnut_line/",
-      "published": "2026-09-12T16:35:52+00:00",
+      "title": "Missha BB Cream No. 29",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wetehy/missha_bb_cream_no_29/",
+      "published": "2026-09-13T00:52:18+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -393,20 +403,6 @@
       "title": "Favourite in shower haircare for dry textured hair?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wepfs9/favourite_in_shower_haircare_for_dry_textured_hair/",
       "published": "2026-09-12T21:54:22+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Anything Goes Saturday: September 12, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wenlfj/anything_goes_saturday_september_12_2026/",
-      "published": "2026-09-12T20:39:13+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "What are your favorite C-beauty brands?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1we05st/what_are_your_favorite_cbeauty_brands/",
-      "published": "2026-09-12T02:26:51+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

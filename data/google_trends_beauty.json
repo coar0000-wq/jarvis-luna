@@ -1,17 +1,44 @@
 {
   "source": "google news rss (beauty queries) + trends daily filtered",
-  "collected_at": "2026-09-14T03:09:32.542910+00:00",
+  "collected_at": "2026-09-14T09:36:25.715314+00:00",
   "status": "ok",
   "note": "뷰티 키워드만. 채점 MATCH_CHANNELS 에는 넣지 않음. 대시보드 키워드 보드용.",
   "query_count": 12,
-  "count": 91,
+  "count": 92,
   "items": [
+    {
+      "keyword": "If there’s one sector in K-Beauty that is growing in leaps and bound, it’s oral care - Vogue Singapore",
+      "product": "If there’s one sector in K-Beauty that is growing in leaps and bound, it’s oral care - Vogue Singapore",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5RUFZ6NndTUEpPYk1JLXBfek91ZHhQVFF6XzBmWnpXOEwxWVBHQ2JTdU1saXY0SWdWNUFMM1RoVjhuVFVoZ1BEQnlKZkVIUmxIMmlz?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "From Musinsa to Daiso, K-beauty is rewriting Korea’s retail playbook - The Korea Herald",
+      "product": "From Musinsa to Daiso, K-beauty is rewriting Korea’s retail playbook - The Korea Herald",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5SY082WGxWOEt4ZDNISVVtSTJpNEJhMjNPMnFhOW1uNWEwY19EYTl6RDhxVkFzT0VMU180VkJRaE1QTV96OXRDdE1DcVhaTkVwUHpxU1BjRQ?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
     {
       "keyword": "You Know K-Beauty, J-Beauty, Now Get Ready for A-Beauty!! - KTLA",
       "product": "You Know K-Beauty, J-Beauty, Now Get Ready for A-Beauty!! - KTLA",
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUFNVenlfcmNtZUg4bk9BVnFwVmlFOTNQQlJVdVdhSlNNNlNoX3BvYzFpbHRaN0J0NTRDeEJTTFpVU1ZwUlREM0hCRnl5bVpRODJDR0Zydklabng4QlJYMXk3amEwc2FXcDNuemprSUlYOHlNSy1RbzgyM3hIT3F5ZV9ZMWtaa0pISDktYzBWaw?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Hanjin Runs UK Fulfillment Center Amid K-Beauty Surge - Businesskorea",
+      "product": "Hanjin Runs UK Fulfillment Center Amid K-Beauty Surge - Businesskorea",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE81UmRfWmQxNTRBZzBPWnBjODlaNC14UDJnZ3VTWGpQeWFsVmRtLWpmSE0xNlZnVEcyaGtvc2VKVUVQdFJLR1R5TXFYWGRVZ1BsVnpOdkU4dmsxUmNGMk0xemo5UWZMT2gxaE1VbU8wNmJmQXI4?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -25,11 +52,20 @@
       "beauty": true
     },
     {
-      "keyword": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
-      "product": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
+      "keyword": "K-Beauty Dominates AI Base Makeup Recommendations - 조선일보",
+      "product": "K-Beauty Dominates AI Base Makeup Recommendations - 조선일보",
       "sub": "K-beauty",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeXhNVXR2WTVXRGlJY0F3S0dYR2xKSUlCSnZtdDVMM3dQMXFkVUg2V0N4Z1JoM2JVTVRmTmdfSWU4dDR0bTNmOFBwX2c3cy1sYlcyVjZzVmJ1TkhGTkhwaXRldFN1ZDJFTmJZdUJPNHJiZ1gyNFBGajVtWDdObkVIUzlpRVptRllS?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Would You Go on a Glowcation? K-Beauty Is Betting So - Vogue",
+      "product": "Would You Go on a Glowcation? K-Beauty Is Betting So - Vogue",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ01YZ2lKV0VUQzJROHZVVnJZbWM1dkw1TFRGLXFMcUx0dWhaZDJheTIwdE9yaElIUFpmYlJVSXg2UnQ0aDhCOVd3MVZvakhvVWxDWi1wM2hfbGVKbjFaSHJLWjJHYU02M3lwdGRXQVNfSXJGdWVTN0h4V0tvaU9iLUIzbGFmZkFU?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -43,38 +79,11 @@
       "beauty": true
     },
     {
-      "keyword": "Hanjin Ramps Up U.K. Fulfillment Center for K-Beauty Demand - Seoul Economic Daily",
-      "product": "Hanjin Ramps Up U.K. Fulfillment Center for K-Beauty Demand - Seoul Economic Daily",
-      "sub": "K-beauty",
+      "keyword": "Yes, Korean Sunscreens Are Better. But Dermatologists Warn You Shouldn’t Buy Them Online—Here’s Why. - Women's Health",
+      "product": "Yes, Korean Sunscreens Are Better. But Dermatologists Warn You Shouldn’t Buy Them Online—Here’s Why. - Women's Health",
+      "sub": "Korean sunscreen",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSFUtUzF1QVEya1MxaUJVMmd0UTVrekxsZUZoSnRKUERidGo2b3o3cEwxaEVtMXIyWng3WWY0YW1xdWFjM3dzclI3aUw4V09xRE1FSDFVc2dlN1FTYzR6MXp0djlEUUQ2SnY3VUxfNVRmZWtwZEUtQ2ViWmtzNW1NOVlWXzR6bmJCYjFKMnh2QTdoYnNFeVAxRE9iQzFEbUgy?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "You’ve been buying K-beauty. Is it time to try Korean treatments? - thetimes.com",
-      "product": "You’ve been buying K-beauty. Is it time to try Korean treatments? - thetimes.com",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSFlyd3hfU3ozdUtzS0d1MU5Hbmx6MHlWZTFicUdJT2NrSWlaLWJTS2lzQ21tZGhrQTRRei1FeDJnQk1OU0dvM1R5cUlnYnZFM05SM0syVjhnYXlnTmV5LVlHRmNpTmVBamFQMVFHVWJEQW9JVm1uTGxWLW84dTZCYTZ1RU1QVjhYTGhaaEp2NHNkQ2k3T1hsZElFcw?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "K-Beauty Trends 2026: Korean Skincare Trends Shaping Luxury Beauty - Forbes",
-      "product": "K-Beauty Trends 2026: Korean Skincare Trends Shaping Luxury Beauty - Forbes",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMXkzOEhOM0k2RV9QV1hUbWlZSDhQZ2dGbWVZNHp6XzM3dWtvVTU5OTlJa3NROGF6R0ZjUlg0eHp5WTFUUmUzdElxSE9iX1JVTDV1cUdHeHBrVTVFLXRyTWVGWGVLWVdaOWQwMjVKSVVPbmxBRlhDOFp2cmRnd3JITUFibWR6UF8xSFo5aFlqem5hR2phaU5qdmx0SXJtdjJzZFA2ZmNFbTV0R0g0ZmNqMGYzZnI?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "Lady Gaga Considers This Viral K-Beauty Gel Mask Part of Her ‘Holy Trinity’ - Yahoo",
-      "product": "Lady Gaga Considers This Viral K-Beauty Gel Mask Part of Her ‘Holy Trinity’ - Yahoo",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZjBpT3d2VktNTXpudllfNWZETzN3SmlsVjkzaS1SX2dQUzgxcGtPeF9hdWcxd1pQMUdFUFJtT3d3TnFMNGN3QjYydkZmWmRkX0ozX254VlRTX0cyOGNiREVoUlY5SDRXd2p2RHJuZU9zOXQzVG5OLWxPR0NzVDVpUGlWWEJsZm1ydjJReUpoMEJOaDdHdVdHWGh3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZHBXQzBDZ2dGRHdEeXdtSXk5NkpMbW5vZzYzdGVWWVk1RllId3RCaUtPVnRIUVVEME84QmUzYTRBcGt5SE9rd3VpU0NZcWhBak1tMjVNR2lPd050RUdwaUJQbHB6TU81UDVmejBkVElrcnFKdnY1UHZ6SjVOMmtCNjNod3AtYm5Qb3c?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -84,15 +93,6 @@
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZGtUdkEtYWNZaFVvSFFvcUlXQzNRWS1zcXUtVUctWkx2b3V4d3JWNk42dmtPYjFweUxTX2IxUHNqamdCRWY0T2lxUWtyN3RkYnA4Z0dORHJNR05HaWpvX3lJT190RVFtVXhNVk10YnNuNjdqZ1NBdFNRUU94cG9nYmJ1Uld1c2hmS1YyXzF5VmRMMTRo?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "Yes, Korean Sunscreens Are Better. But Dermatologists Warn You Shouldn’t Buy Them Online—Here’s Why. - Women's Health",
-      "product": "Yes, Korean Sunscreens Are Better. But Dermatologists Warn You Shouldn’t Buy Them Online—Here’s Why. - Women's Health",
-      "sub": "Korean sunscreen",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZHBXQzBDZ2dGRHdEeXdtSXk5NkpMbW5vZzYzdGVWWVk1RllId3RCaUtPVnRIUVVEME84QmUzYTRBcGt5SE9rd3VpU0NZcWhBak1tMjVNR2lPd050RUdwaUJQbHB6TU81UDVmejBkVElrcnFKdnY1UHZ6SjVOMmtCNjNod3AtYm5Qb3c?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -124,8 +124,8 @@
       "beauty": true
     },
     {
-      "keyword": "Is Korean sunscreen worth the hype? - wafb.com",
-      "product": "Is Korean sunscreen worth the hype? - wafb.com",
+      "keyword": "Is Korean sunscreen worth the hype? - WAFB",
+      "product": "Is Korean sunscreen worth the hype? - WAFB",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBjenlzd2RLQUd1RWtfc0V4dlZIeldiM3FfOTJ4S08wdmplNUdTVUZrUXhrU25oOVpTeVFPSGgxYXpBNWpIbTVQSlRHQlV6MW4wVkNHTzhSQlYtSmJrQmQ1bkRCc3dMOUF0OUpyZlRNQnhvMXdmMFprTQ?oc=5",
@@ -151,8 +151,8 @@
       "beauty": true
     },
     {
-      "keyword": "What to Know About Snail Mucin for Healthier, Glowing Skin - health.com",
-      "product": "What to Know About Snail Mucin for Healthier, Glowing Skin - health.com",
+      "keyword": "What to Know About Snail Mucin for Healthier, Glowing Skin - Health.com",
+      "product": "What to Know About Snail Mucin for Healthier, Glowing Skin - Health.com",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FajN1UnhmQjViQ0dWVW45QVF1blJPRnBKZUltUWRyRjVDcHFVVTBiVUpkQTZlZHNYbEFmSUFtVTRWT0Q2X3o4R3R0YXhyYUJhbHV6dVln?oc=5",
@@ -223,6 +223,15 @@
       "beauty": true
     },
     {
+      "keyword": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
+      "product": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
+      "sub": "heartleaf toner",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
       "keyword": "Anua Heartleaf 77% Soothing Toner - Mamabella",
       "product": "Anua Heartleaf 77% Soothing Toner - Mamabella",
       "sub": "heartleaf toner",
@@ -232,8 +241,8 @@
       "beauty": true
     },
     {
-      "keyword": "I Have Acne-Prone Skin—My Favorite Anua Products Are On Sale for Prime Day - glamour.com",
-      "product": "I Have Acne-Prone Skin—My Favorite Anua Products Are On Sale for Prime Day - glamour.com",
+      "keyword": "I Have Acne-Prone Skin—My Favorite Anua Products Are On Sale for Prime Day - Glamour",
+      "product": "I Have Acne-Prone Skin—My Favorite Anua Products Are On Sale for Prime Day - Glamour",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1oZGM1N3RlWUlCajA1ODhQU1N3SWY1bElkbGVzV3l6Ul9qRHk5WG1LSHExQ0dLSk1WLW81dUdBT1ZRNHJpZjZjeFktYUJkU2RQUjJpZzN1TmVNTXgtbFFKRzNVZnRTRWUtNi15Vw?oc=5",
@@ -286,8 +295,8 @@
       "beauty": true
     },
     {
-      "keyword": "Should You Use Centella Asiatica? 5 Benefits - health.com",
-      "product": "Should You Use Centella Asiatica? 5 Benefits - health.com",
+      "keyword": "Should You Use Centella Asiatica? 5 Benefits - Health.com",
+      "product": "Should You Use Centella Asiatica? 5 Benefits - Health.com",
       "sub": "centella serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPV1FGamp5TUY2bzdhcXhiTkpLQmwyZHIxOE9ITnZNcnFWemt2TzdXU09taVV0RmFReUZCUFE2YjNNa2RlVXVMR1E5SEh2eTV6Wk5HalUyaVdfN2JQQXZKZmV4alpHSVNXTXhRMFptYVM5amd3X3pRdThCYlROa18tWjRMTQ?oc=5",
@@ -304,8 +313,8 @@
       "beauty": true
     },
     {
-      "keyword": "This ‘amazing’ $16 serum belongs in your skincare routine, per Amazon shoppers - nypost.com",
-      "product": "This ‘amazing’ $16 serum belongs in your skincare routine, per Amazon shoppers - nypost.com",
+      "keyword": "This ‘amazing’ $16 serum belongs in your skincare routine, per Amazon shoppers - New York Post",
+      "product": "This ‘amazing’ $16 serum belongs in your skincare routine, per Amazon shoppers - New York Post",
       "sub": "centella serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOekJ6VmM5bmlnVjZSUzZGa3FoVWc3ZnpyVUQzRXZ2MzB6SmpkRi1FcDhVWXBsS0pqaWgwYlRreEpQV21wbExVMVlJTDA0QjRRSUpVSzRMbGlCZ0NHRzc0RDFRdE9vSjBUbl91ZHZsU2dDZnppLWFrOTBKNWVOd1k1R0o3NkQ0X2JGSVYzNFgyc20xMmd4ZVRaeENoa1Fnam8xNTVBSlRpWQ?oc=5",
@@ -331,8 +340,8 @@
       "beauty": true
     },
     {
-      "keyword": "Scientists develop plant-based serum that regrows hair within weeks - The Times of India",
-      "product": "Scientists develop plant-based serum that regrows hair within weeks - The Times of India",
+      "keyword": "Scientists develop plant-based serum that regrows hair within weeks - timesofindia.indiatimes.com",
+      "product": "Scientists develop plant-based serum that regrows hair within weeks - timesofindia.indiatimes.com",
       "sub": "centella serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQS3NBQ0pya1FORlNaLXJBT216ejlHem55MnVkSFE1MThZWWtvdTBVek8zU2JxYVIzdlREWDhWcUU1b2NkOUpjM3hIaWk3akFxNndzMm9GRkVGaDJZQ2Jrb1MyWXBkSnB2cnJ0SHNnWmx3TExmeTctVnpnQWl1YWFYTHhnZUloWGVzT2NOZENreGFjdlVzVzJabmVOdHlpZEJKV0p3ZThieE1Gd0RaWEVONzI3bTlMeGM0YnZyM1p0aXk5UTREdnVvWkxKQ2lNdWRjRzR30gHYAUFVX3lxTFBLVlRaRExMTVdsY0wtQk5Zb3hTQUxMT1hmSlhTZ3gtblBzaFNKY1RqMDJsVER5bThnN2xZYlhvNWJxOXJCRmtpdFhRcGhaT2tlanRwQ2VxZnlCVHVsZlNfb1hyQkR2VUQwUUVudFlWTWF3YXVtYTZ2WWtpaDNFQ0tnQzJnMmIxZG5MSF9qMjZMZklrcTh4TF8zWlBPNWJ2S1cwYUNiTFBsWTctTElTMEduV1o4QXZTR3pWT1lPeHRTc3lHaTlJZm5pazFmWlBZS0RHdzlNVUJ2cQ?oc=5",
@@ -354,15 +363,6 @@
       "sub": "centella serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxObUdOa2N6MW1YenBZM1FmNEVQd2ZLSm5fekRobE1SMjlfQ2EtVi1icENJaFZZaVdHajhJQmJYQzlPa3UyNkVKMXlRTUhadXZudU5iQXhrYU4xb1loemJVMHJHWHN1SkQ0OUFON1ZzTmhyME5KYVduWDF1TlkzT2paRG5xc2FOVGVPS1F4RlFUUXhBTEZVaFQwRDdDNjB4aFRydFR6dnVhaVplZHZwa1Jmd3V4U25LZUJsMXdZT0FodjgtMVJTZjVzZlpUOWkzQmprc2xhdXVISFd4NFFoV0hHQkRmRUY4a05McHRST1d1WkdmaTdl0gH6AUFVX3lxTE9iZHNpQjY0V1luUTdlZDlhaFRHT1ZvOWRxejV6c0RZaE9kcjMzSk43YVdsNWRoOVFTUjZRaHFDamtCU09TN0RQbFlpVTVnMXRpX2ZSSTMzM0tHNmtNb3NfLVlncWlWbUNuMThzU2JjUUNVeE92ai1SV1Y0aG12X3VOM2ptQkV0a2FTOVFvTi1YT1drUmMxdkpFRF9JQ3N1UEZ2MXJoR1B1Mk1wWkpRM3d0RnNWdW52OS00akw0S3RCeGZ0Qm9nclIzc2VZdUhvak5xNzI1aV8zb3k2YjUtdGdlVzZkaXl2UDhKNkMxTGlVV3o1MnM4SDAyZWc?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "Experts Say the Niacinamide Inside This $6 ‘Holy Grail’ Serum Helps Nearly Every Complaint With Aging Skin - realsimple.com",
-      "product": "Experts Say the Niacinamide Inside This $6 ‘Holy Grail’ Serum Helps Nearly Every Complaint With Aging Skin - realsimple.com",
-      "sub": "niacinamide serum",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTlpDWDM1WVl1OUxvNFJjVGFROXM2TFE0YWNOMUk1aEgtM3g0QWFsb1VVU3RValNGTTlIRTdVWVhZUmNZbm9OZGlKVUZLb3o4NkVpcG40VWtkdUd1UWVCT3lUekFPX2RlUVQzRy1GLUNHQkNnSzFTX3pkU3FrUUNfckVzSXAtSjhEWnpzMThUX2dlQQ?oc=5",
       "kind": "news",
       "beauty": true
     }

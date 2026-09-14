@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T12:14:22.445031+09:00",
+  "generated_at": "2026-09-14T18:40:48.581239+09:00",
   "role": "coaching",
   "principle": "AI는 체크리스트·A/B 초안만. 등록·광고 집행은 사람 승인.",
   "source": "scripts/build_coaching_loop.py",
@@ -12,7 +12,7 @@
     "reddit_signal": {
       "status": "ok",
       "post_count": 25,
-      "collected_at": "2026-09-14T03:09:01.198756+00:00",
+      "collected_at": "2026-09-14T09:35:36.778667+00:00",
       "keyword_pool": 40
     }
   },
@@ -78,14 +78,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['asking', 'beauty', 'glass', 'kbeauty', 'skin']",
+          "evidence": "matched=['beauty', 'glass', 'kbeauty', 'skin']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Drop B Firming Glow Ampoule 40 ml — asking · K-beauty",
+          "primary_text": "Drop B Firming Glow Ampoule 40 ml — beauty · K-beauty",
           "headline": "Drop B Firming Glow Ampoule 40 ml",
           "description": "Experience the Drop B Firming Glow Ampoule, designed to give your skin a radiant and luminous appearance. This lightweight formula helps enhance your natural glow with every application. Simply apply ",
           "cta": "Shop now"
@@ -102,14 +102,12 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "asking",
           "beauty",
           "glass",
           "kbeauty",
           "skin"
         ],
         "reddit_keywords_used": [
-          "asking",
           "beauty",
           "glass",
           "kbeauty",
@@ -120,15 +118,14 @@
       },
       "reddit_match": {
         "matched": [
-          "asking",
           "beauty",
           "glass",
           "kbeauty",
           "skin"
         ],
-        "score": 5,
+        "score": 4,
         "status": "pass",
-        "evidence": "matched=['asking', 'beauty', 'glass', 'kbeauty', 'skin']",
+        "evidence": "matched=['beauty', 'glass', 'kbeauty', 'skin']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -199,14 +196,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['asking', 'beauty', 'cream', 'glass', 'kbeauty', 'skin']",
+          "evidence": "matched=['beauty', 'cream', 'glass', 'kbeauty', 'skin']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Cell Fusion C Derma Block PDRN Collagen Cream 50ml — asking · K-beauty",
+          "primary_text": "Cell Fusion C Derma Block PDRN Collagen Cream 50ml — beauty · K-beauty",
           "headline": "Cell Fusion C Derma Block PDRN Collagen ",
           "description": "Discover the nourishing benefits of Cell Fusion C Derma Block PDRN Collagen Cream, conveniently sized at 50 ml for your daily skincare routine. This facial cream is formulated to help smooth the look ",
           "cta": "Shop now"
@@ -225,33 +222,151 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "asking",
           "beauty",
           "glass",
-          "kbeauty"
+          "kbeauty",
+          "skin"
         ],
         "reddit_keywords_used": [
-          "asking",
-          "beauty",
-          "cream",
-          "glass",
-          "kbeauty"
-        ],
-        "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
-        "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
-      },
-      "reddit_match": {
-        "matched": [
-          "asking",
           "beauty",
           "cream",
           "glass",
           "kbeauty",
           "skin"
         ],
-        "score": 6,
+        "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
+        "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
+      },
+      "reddit_match": {
+        "matched": [
+          "beauty",
+          "cream",
+          "glass",
+          "kbeauty",
+          "skin"
+        ],
+        "score": 5,
         "status": "pass",
-        "evidence": "matched=['asking', 'beauty', 'cream', 'glass', 'kbeauty', 'skin']",
+        "evidence": "matched=['beauty', 'cream', 'glass', 'kbeauty', 'skin']",
+        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+      },
+      "coach_summary": {
+        "pass": 5,
+        "warn": 3,
+        "fail": 0,
+        "next_action": "경고 항목 보완 후 등록"
+      }
+    },
+    {
+      "pd_no": "1041749",
+      "name": "식물원 병풀 클리어 앰플 30 ml",
+      "bucket": "스킨케어",
+      "shopify_score": 92,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041749",
+      "readiness": "ready_with_notes",
+      "checklist": [
+        {
+          "id": "grade_s",
+          "label": "S등급 유지",
+          "status": "pass",
+          "evidence": "grade=S, score=92",
+          "tip": "S가 아니면 1차 등록 보류"
+        },
+        {
+          "id": "margin",
+          "label": "마진 확인",
+          "status": "warn",
+          "evidence": "pricing 미연결",
+          "tip": "pricing_model 재실행"
+        },
+        {
+          "id": "price_band",
+          "label": "권장가",
+          "status": "warn",
+          "evidence": "suggested_price 없음",
+          "tip": "pricing_model 확인"
+        },
+        {
+          "id": "listing_copy",
+          "label": "영문 리스팅 카피",
+          "status": "pass",
+          "evidence": "Gemini 카피 있음",
+          "tip": "shopify-listing-copy 워크플로 실행"
+        },
+        {
+          "id": "listing_ready_flag",
+          "label": "등록 준비 플래그",
+          "status": "warn",
+          "evidence": "listing_ready=False",
+          "tip": "카피·이미지 준비되면 true"
+        },
+        {
+          "id": "global_signal",
+          "label": "글로벌 수요 시그널",
+          "status": "pass",
+          "evidence": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 92% · 토큰 ampoule, centella",
+          "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
+        },
+        {
+          "id": "social_proof",
+          "label": "국내 리뷰(대리지표)",
+          "status": "pass",
+          "evidence": "review_count=461",
+          "tip": "리뷰 적으면 첫 광고 예산을 더 보수적으로"
+        },
+        {
+          "id": "reddit_community",
+          "label": "Reddit 뷰티 커뮤니티 키워드",
+          "status": "pass",
+          "evidence": "matched=['beauty', 'glass', 'kbeauty', 'skin']",
+          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+        }
+      ],
+      "ad_copy_ab": {
+        "variant_a": {
+          "label": "A · 성분/커뮤니티 후킹",
+          "primary_text": "Sikmulnara Centella Clear Ampoule 30ml — beauty · K-beauty",
+          "headline": "Sikmulnara Centella Clear Ampoule 30ml",
+          "description": "Discover the Sikmulnara Centella Clear Ampoule in a convenient 30 ml size, designed to fit seamlessly into your daily skincare routine. This lightweight formula helps hydrate and soothe the skin for a",
+          "cta": "Shop now"
+        },
+        "variant_b": {
+          "label": "B · 가성비/가격 후킹",
+          "primary_text": "Ampoule Centella — Daiso Find — Affordable hydrating pick",
+          "headline": "Ampoule Centella — Daiso Find",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
+          "cta": "See price"
+        },
+        "suggested_keywords": [
+          "ampoule",
+          "centella",
+          "K-beauty",
+          "glass skin",
+          "hydrating",
+          "beauty",
+          "glass",
+          "kbeauty",
+          "skin"
+        ],
+        "reddit_keywords_used": [
+          "beauty",
+          "glass",
+          "kbeauty",
+          "skin"
+        ],
+        "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
+        "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
+      },
+      "reddit_match": {
+        "matched": [
+          "beauty",
+          "glass",
+          "kbeauty",
+          "skin"
+        ],
+        "score": 4,
+        "status": "pass",
+        "evidence": "matched=['beauty', 'glass', 'kbeauty', 'skin']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -322,14 +437,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['asking', 'beauty', 'glass', 'kbeauty', 'skin', 'toner']",
+          "evidence": "matched=['beauty', 'glass', 'kbeauty', 'skin', 'toner']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Chaebi Gongan Houttuynia Cordata Extract Vegan Toner 150 ml — asking · K-beauty",
+          "primary_text": "Chaebi Gongan Houttuynia Cordata Extract Vegan Toner 150 ml — beauty · K-beauty",
           "headline": "Chaebi Gongan Houttuynia Cordata Extract",
           "description": "Discover the refreshing hydration of Chaebi Gongan Houttuynia Cordata Extract Vegan Toner, featuring 150 ml of soothing care for your daily skincare routine. This gentle vegan toner helps balance and ",
           "cta": "Shop now"
@@ -347,156 +462,32 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "asking",
           "beauty",
           "glass",
           "kbeauty",
           "skin"
         ],
         "reddit_keywords_used": [
-          "asking",
-          "beauty",
-          "glass",
-          "kbeauty",
-          "skin"
-        ],
-        "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
-        "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
-      },
-      "reddit_match": {
-        "matched": [
-          "asking",
           "beauty",
           "glass",
           "kbeauty",
           "skin",
           "toner"
         ],
-        "score": 6,
-        "status": "pass",
-        "evidence": "matched=['asking', 'beauty', 'glass', 'kbeauty', 'skin', 'toner']",
-        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
-      },
-      "coach_summary": {
-        "pass": 5,
-        "warn": 3,
-        "fail": 0,
-        "next_action": "경고 항목 보완 후 등록"
-      }
-    },
-    {
-      "pd_no": "1041749",
-      "name": "식물원 병풀 클리어 앰플 30 ml",
-      "bucket": "스킨케어",
-      "shopify_score": 91,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041749",
-      "readiness": "ready_with_notes",
-      "checklist": [
-        {
-          "id": "grade_s",
-          "label": "S등급 유지",
-          "status": "pass",
-          "evidence": "grade=S, score=91",
-          "tip": "S가 아니면 1차 등록 보류"
-        },
-        {
-          "id": "margin",
-          "label": "마진 확인",
-          "status": "warn",
-          "evidence": "pricing 미연결",
-          "tip": "pricing_model 재실행"
-        },
-        {
-          "id": "price_band",
-          "label": "권장가",
-          "status": "warn",
-          "evidence": "suggested_price 없음",
-          "tip": "pricing_model 확인"
-        },
-        {
-          "id": "listing_copy",
-          "label": "영문 리스팅 카피",
-          "status": "pass",
-          "evidence": "Gemini 카피 있음",
-          "tip": "shopify-listing-copy 워크플로 실행"
-        },
-        {
-          "id": "listing_ready_flag",
-          "label": "등록 준비 플래그",
-          "status": "warn",
-          "evidence": "listing_ready=False",
-          "tip": "카피·이미지 준비되면 true"
-        },
-        {
-          "id": "global_signal",
-          "label": "글로벌 수요 시그널",
-          "status": "pass",
-          "evidence": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 92% · 토큰 ampoule, centella",
-          "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
-        },
-        {
-          "id": "social_proof",
-          "label": "국내 리뷰(대리지표)",
-          "status": "pass",
-          "evidence": "review_count=461",
-          "tip": "리뷰 적으면 첫 광고 예산을 더 보수적으로"
-        },
-        {
-          "id": "reddit_community",
-          "label": "Reddit 뷰티 커뮤니티 키워드",
-          "status": "pass",
-          "evidence": "matched=['asking', 'beauty', 'glass', 'kbeauty', 'skin']",
-          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
-        }
-      ],
-      "ad_copy_ab": {
-        "variant_a": {
-          "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Sikmulnara Centella Clear Ampoule 30ml — asking · K-beauty",
-          "headline": "Sikmulnara Centella Clear Ampoule 30ml",
-          "description": "Discover the Sikmulnara Centella Clear Ampoule in a convenient 30 ml size, designed to fit seamlessly into your daily skincare routine. This lightweight formula helps hydrate and soothe the skin for a",
-          "cta": "Shop now"
-        },
-        "variant_b": {
-          "label": "B · 가성비/가격 후킹",
-          "primary_text": "Ampoule Centella — Daiso Find — Affordable hydrating pick",
-          "headline": "Ampoule Centella — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
-          "cta": "See price"
-        },
-        "suggested_keywords": [
-          "ampoule",
-          "centella",
-          "K-beauty",
-          "glass skin",
-          "hydrating",
-          "asking",
-          "beauty",
-          "glass",
-          "kbeauty",
-          "skin"
-        ],
-        "reddit_keywords_used": [
-          "asking",
-          "beauty",
-          "glass",
-          "kbeauty",
-          "skin"
-        ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "asking",
           "beauty",
           "glass",
           "kbeauty",
-          "skin"
+          "skin",
+          "toner"
         ],
         "score": 5,
         "status": "pass",
-        "evidence": "matched=['asking', 'beauty', 'glass', 'kbeauty', 'skin']",
+        "evidence": "matched=['beauty', 'glass', 'kbeauty', 'skin', 'toner']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -677,14 +668,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['asking', 'beauty', 'glass', 'kbeauty', 'skin', 'toner']",
+          "evidence": "matched=['beauty', 'glass', 'kbeauty', 'skin', 'toner']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "VT Cica Calming Toner 300 ml — asking · K-beauty",
+          "primary_text": "VT Cica Calming Toner 300 ml — beauty · K-beauty",
           "headline": "VT Cica Calming Toner 300 ml",
           "description": "Discover the refreshing hydration of VT Cica Calming Toner, formulated with cica to help soothe and comfort the look of your skin. This generous 300 ml bottle provides ample hydration for your daily s",
           "cta": "Shop now"
@@ -701,34 +692,32 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "asking",
           "beauty",
           "glass",
           "kbeauty",
           "skin"
         ],
         "reddit_keywords_used": [
-          "asking",
-          "beauty",
-          "glass",
-          "kbeauty",
-          "skin"
-        ],
-        "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
-        "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
-      },
-      "reddit_match": {
-        "matched": [
-          "asking",
           "beauty",
           "glass",
           "kbeauty",
           "skin",
           "toner"
         ],
-        "score": 6,
+        "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
+        "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
+      },
+      "reddit_match": {
+        "matched": [
+          "beauty",
+          "glass",
+          "kbeauty",
+          "skin",
+          "toner"
+        ],
+        "score": 5,
         "status": "pass",
-        "evidence": "matched=['asking', 'beauty', 'glass', 'kbeauty', 'skin', 'toner']",
+        "evidence": "matched=['beauty', 'glass', 'kbeauty', 'skin', 'toner']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {

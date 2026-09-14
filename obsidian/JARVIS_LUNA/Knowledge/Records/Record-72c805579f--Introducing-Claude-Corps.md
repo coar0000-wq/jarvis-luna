@@ -2,7 +2,7 @@
 title: "Record 72c805579f · Introducing-Claude-Corps"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T03:16:23.124153+00:00
+updated_at: 2026-09-14T09:42:53.767325+00:00
 tags: [record, real-data]
 ---
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T03:14:17.377177+00:00",
+  "generated_at": "2026-09-14T09:40:43.549169+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "jerry jones",
+          "keyword": "stock market today",
           "approx_traffic": "5000+",
           "traffic_num": 5000,
-          "published": "Sun, 13 Sep 2026 19:20:00 -0700",
-          "source_name": "Dallas Cowboys",
-          "url": "https://trends.google.com/trending?geo=US&q=jerry%20jones"
+          "published": "Mon, 14 Sep 2026 01:20:00 -0700",
+          "source_name": "CNBC",
+          "url": "https://trends.google.com/trending?geo=US&q=stock%20market%20today"
         },
         {
-          "keyword": "three's company",
+          "keyword": "tom aspinall",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Sun, 13 Sep 2026 19:10:00 -0700",
-          "source_name": "Parade Magazine",
-          "url": "https://trends.google.com/trending?geo=US&q=three%27s%20company"
+          "published": "Mon, 14 Sep 2026 01:30:00 -0700",
+          "source_name": "BBC",
+          "url": "https://trends.google.com/trending?geo=US&q=tom%20aspinall"
         },
         {
-          "keyword": "nicole kidman and faith margaret",
+          "keyword": "latest news",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Sun, 13 Sep 2026 19:10:00 -0700",
-          "source_name": "Yahoo",
-          "url": "https://trends.google.com/trending?geo=US&q=nicole%20kidman%20and%20faith%20margaret"
+          "published": "Mon, 14 Sep 2026 01:10:00 -0700",
+          "source_name": "CNN",
+          "url": "https://trends.google.com/trending?geo=US&q=latest%20news"
         },
         {
-          "keyword": "cavan sullivan",
+          "keyword": "technology news",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Sun, 13 Sep 2026 19:20:00 -0700",
-          "source_name": "MLSsoccer.com",
-          "url": "https://trends.google.com/trending?geo=US&q=cavan%20sullivan"
+          "published": "Mon, 14 Sep 2026 01:20:00 -0700",
+          "source_name": "eciks.org",
+          "url": "https://trends.google.com/trending?geo=US&q=technology%20news"
         },
         {
-          "keyword": "caitlin clark angel reese friendship",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Sun, 13 Sep 2026 19:50:00 -0700",
-          "source_name": "The Guardian",
-          "url": "https://trends.google.com/trending?geo=US&q=caitlin%20clark%20angel%20reese%20friendship"
+          "keyword": "cryptocurrency trading",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Sun, 13 Sep 2026 23:30:00 -0700",
+          "source_name": "Tom's Hardware",
+          "url": "https://trends.google.com/trending?geo=US&q=cryptocurrency%20trading"
         },
         {
-          "keyword": "inundación",
+          "keyword": "the walking dead: dead city",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sun, 13 Sep 2026 19:50:00 -0700",
-          "source_name": "N+",
-          "url": "https://trends.google.com/trending?geo=US&q=inundaci%C3%B3n"
+          "published": "Mon, 14 Sep 2026 01:50:00 -0700",
+          "source_name": "TVLine",
+          "url": "https://trends.google.com/trending?geo=US&q=the%20walking%20dead%3A%20dead%20city"
         },
         {
-          "keyword": "the last photograph",
+          "keyword": "latest iphone rumors",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sun, 13 Sep 2026 19:30:00 -0700",
-          "source_name": "The Hollywood Reporter",
-          "url": "https://trends.google.com/trending?geo=US&q=the%20last%20photograph"
+          "published": "Sun, 13 Sep 2026 23:30:00 -0700",
+          "source_name": "Mashable",
+          "url": "https://trends.google.com/trending?geo=US&q=latest%20iphone%20rumors"
         },
         {
-          "keyword": "fdny",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Sun, 13 Sep 2026 19:30:00 -0700",
-          "source_name": "WKYC",
-          "url": "https://trends.google.com/trending?geo=US&q=fdny"
+          "keyword": "sharon horgan",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Mon, 14 Sep 2026 02:00:00 -0700",
+          "source_name": "The Irish Times",
+          "url": "https://trends.google.com/trending?geo=US&q=sharon%20horgan"
         },
         {
-          "keyword": "frontier flight stranded overnight knoxville",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Sun, 13 Sep 2026 19:30:00 -0700",
-          "source_name": "WBIR",
-          "url": "https://trends.google.com/trending?geo=US&q=frontier%20flight%20stranded%20overnight%20knoxville"
+          "keyword": "wardogs servers",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Mon, 14 Sep 2026 01:40:00 -0700",
+          "source_name": "Eurogamer.net",
+          "url": "https://trends.google.com/trending?geo=US&q=wardogs%20servers"
         },
         {
-          "keyword": "skip bayless",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Sun, 13 Sep 2026 19:10:00 -0700",
-          "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=skip%20bayless"
+          "keyword": "costco rationing oil",
+          "approx_traffic": "100+",
+          "traffic_num": 100,
+          "published": "Mon, 14 Sep 2026 02:20:00 -0700",
+          "source_name": "Yahoo",
+          "url": "https://trends.google.com/trending?geo=US&q=costco%20rationing%20oil"
         }
       ]
     },

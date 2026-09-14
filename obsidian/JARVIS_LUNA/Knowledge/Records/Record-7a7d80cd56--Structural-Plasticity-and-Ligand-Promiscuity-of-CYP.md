@@ -2,7 +2,7 @@
 title: "Record 7a7d80cd56 · Structural-Plasticity-and-Ligand-Promiscuity-of-CYP"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T03:16:22.715177+00:00
+updated_at: 2026-09-14T09:42:53.381913+00:00
 tags: [record, real-data]
 ---
 

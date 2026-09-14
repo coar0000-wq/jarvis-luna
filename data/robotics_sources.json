@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-14T03:06:10.146108+00:00",
+  "generated_at": "2026-09-14T09:32:10.905572+00:00",
   "generator": "scripts/collect_robotics.py",
   "목적": "옵시디언 주제 '로보틱스' 가 3건뿐이던 문제를 해결한다. 분류기는 정상이었고 수집원에 로봇 자료가 없었던 것이 원인이다.",
   "접근_정책": "arXiv 은 프로그램 접근용 export.arxiv.org 를 제공하며 그 주소만 사용하고 요청 간 3초를 둔다. RSS 두 곳은 robots.txt 허용을 확인했다.",
-  "total": 40,
+  "total": 65,
   "sources": {
     "arxiv": {
-      "status": "failed",
-      "reason": "전 카테고리 수집 실패",
+      "status": "ok",
+      "reason": "",
       "source": "export.arxiv.org (프로그램 접근 전용 주소)",
       "categories": [
         "cs.RO",
@@ -16,14 +16,261 @@
       "errors": [
         {
           "category": "cs.RO",
-          "error": "TimeoutError: The read operation timed out"
-        },
-        {
-          "category": "eess.SY",
           "error": "HTTP 429"
         }
       ],
-      "items": []
+      "items": [
+        {
+          "title": "An Equivariant Filter for Spacecraft Nonlinear Relative Navigation with Range and Bearing Measurements",
+          "summary": "Relative navigation is a fundamental task in space proximity operations and autonomous rendezvous. The nonlinear relative orbital dynamics are equivariant and admit a semidirect product Lie group symmetry. This property is used to design an Equivariant Filter (EqF). The filter estimates the relative position and velocity between a chaser spacecraft and a target by lifting the filter dynamics to th",
+          "published": "2026-09-11T17:29:09Z",
+          "primary_category": "eess.SY",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.13094v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Global Path Planner with Multi-Model Switching",
+          "summary": "This work enhances global path planning via a pure-pursuit controller with multi-model kinematic switching that sustains plan fidelity across diverse terrains. The system includes a traversability graph for terrain analysis, a Heading-Aware A* algorithm for generating feasible paths, and a multi-model Pure Pursuit controller for dynamic tracking. A core innovation is adaptive kinematic modeling, e",
+          "published": "2026-09-11T16:12:53Z",
+          "primary_category": "cs.RO",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.13015v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "An Adaptive Multi-Parameter ADMM Algorithm for Embedded MPC",
+          "summary": "We introduce an adaptive multi-parameter variant of ADMM and prove that it exhibits local superlinear convergence once the set of active constraints has been identified. In simulations, the proposed algorithm consistently outperforms OSQP, a standard ADMM solver, in terms of iteration count. We then implement an MPC solver based on our method and compare its runtime against a broader selection of ",
+          "published": "2026-09-11T15:54:39Z",
+          "primary_category": "eess.SY",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.12992v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Safe Stabilising Full-Order Affine Control Barrier Functions for Linear Systems (Extended)",
+          "summary": "Control barrier function safety filters enforce constraints by modifying a nominal input, but the resulting switching can destabilise the closed loop even when the nominal and filtered modes are individually stable. This paper presents a design framework for safe and globally exponentially stabilising controllers for linear systems with a single full-relative-degree affine constraint. We show that",
+          "published": "2026-09-11T15:54:08Z",
+          "primary_category": "eess.SY",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.12990v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Tuning ROS 2 for Energy-Efficient Navigation: Empirical Insights from Costmap 2D Configurations",
+          "summary": "Robots are increasingly used in diverse application areas, where autonomous navigation plays a central role. As these systems become more widespread, improving their energy efficiency is critical to extending operational time and reducing environmental impact. The Robot Operating System (ROS) is a widely adopted middleware for robotics, offering a rich set of configurable packages. However, this f",
+          "published": "2026-09-11T15:34:01Z",
+          "primary_category": "cs.RO",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.12971v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "End-to-End Battery Dispatch with Exact Rainflow Degradation via Mixed-Integer Differentiable Predictive Control",
+          "summary": "Optimal dispatch of battery energy storage systems requires balancing energy arbitrage against cycle-induced degradation, which is accurately quantified through rainflow cycle counting. However, rainflow's combinatorial, nondifferentiable algorithm is incompatible with both convex optimization and gradient-based neural network training. We present a self-supervised mixed-integer differentiable pre",
+          "published": "2026-09-11T15:31:18Z",
+          "primary_category": "eess.SY",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.12968v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Aerial Non-Stop Trajectories Preserving the Equilibrium of Loads Suspended by Variable-Length Cables",
+          "summary": "This work studies equilibrium-preserving non-stop trajectories of aerial carriers connected to rigid loads by variable-length cables. Internal-force motions vary the cable directions without changing the load wrench, while cable-length actuation shapes the radial realization of the carrier trajectories. We derive an explicit cable-length law for realizing prescribed carrier-position profiles along",
+          "published": "2026-09-11T14:48:26Z",
+          "primary_category": "eess.SY",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.12922v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Very Exciting: Zero-Shot Model Predictive Control of Buildings via Excitation-Based Generalized Transfer Learning Models",
+          "summary": "The widespread adoption of data-driven, energy-efficient model predictive control (MPC) in buildings remains hindered by substantial effort to collect data and train models for individual buildings. Transfer learning (TL) has consequently gained increasing attention for target building modeling, as it reduces data requirements and modeling effort by reusing pretrained source models. However, these",
+          "published": "2026-09-11T13:42:45Z",
+          "primary_category": "eess.SY",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.12853v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "VertexCBF: Improving Neural Control Barrier Functions via Vertex-Restricted Control Search",
+          "summary": "As the number of autonomous robots continues to grow, safety becomes increasingly important. Control barrier functions (CBFs) provide a theoretically grounded framework for ensuring safety, but existing design methods often face limitations in effectiveness, scalability, or interpretability, and may result in overly conservative safe sets. In this paper, we propose \\emph{VertexCBF}, a framework fo",
+          "published": "2026-09-11T13:24:45Z",
+          "primary_category": "cs.RO",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.12831v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "High-Fidelity Multi-Body Simulator for Autonomous Racing",
+          "summary": "We present a custom high-fidelity vehicle dynamics simulation environment for testing and validation of Autonomous Racing software. The digital twin of the autonomous vehicle is developed in Dymola, using racecar dynamics modeling libraries to build a complete multi-body model. A 3D road surface, including elevation profiles and curbs, is implemented using the Curved Regular Grid (CRG) standard. T",
+          "published": "2026-09-11T12:56:08Z",
+          "primary_category": "cs.RO",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.12795v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Transducer Placement and the Limits of a Four-State Reduced Model in Post-Flutter Piezoelectric Energy Harvesting from a Pitch-Plunge-Flap Aerofoil",
+          "summary": "Aeroelastic ?utter is normally a failure mode to be designed against, yet the limit-cycle oscillations (LCOs) that follow it convert flow energy into sustained structural motion that a piezoelectric transducer can turn into electrical power. A transducer is embedded in a three-degree-of-freedom pitch-plunge aerofoil with a finite-mass trailing-edge flap and unsteady strip-theory aerodynamics, givi",
+          "published": "2026-09-11T12:49:36Z",
+          "primary_category": "cs.CE",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.12788v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Infinite Horizon Mean-Field Terminal Value Problem",
+          "summary": "We introduce a class of finite- and infinite-horizon discrete-time control problems for studying macroscale systems in discrete time, which we refer to as mean-field terminal value problems (MFTVPs). An MFTVP takes a terminal \\(Q\\)-function as input and, starting from this terminal \\(Q\\)-function, seeks an indefinite backward evolution of optimal policies and state measures, as required for an inf",
+          "published": "2026-09-11T12:19:51Z",
+          "primary_category": "math.OC",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.12768v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "High-Probability Convergence of SGD via Batched Updates",
+          "summary": "Stochastic gradient descent (SGD) is the primary workhorse for large-scale optimization. While the average behavior of its iterates, typically characterized by mean-squared error bounds, is well-understood, obtaining high-probability guarantees for the last iterate remains challenging. Prior approaches to this problem have either imposed restrictive assumptions (such as bounded domains or gradient",
+          "published": "2026-09-11T12:17:18Z",
+          "primary_category": "math.OC",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.12765v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Supermartingale Certificates for Parametric MDPs",
+          "summary": "We consider the problems of formal verification and synthesis in parametric Markov decision processes (MDPs) with general measurable state and action spaces. The heart of our approach is a parameter flattening transformation, which allows us to transform parametric MDPs into semantically equivalent non-parametric MDPs. Building on this transformation, we introduce the novel notion of parametric su",
+          "published": "2026-09-11T11:10:49Z",
+          "primary_category": "cs.LO",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.12715v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Perturbational Validity for Foundation Models of Brain Dynamics: A Controlled Proof-of-Principle Simulation",
+          "summary": "Foundation models for human brain recordings are usually evaluated by signal reconstruction, future-state prediction, and transfer to downstream tasks. However, these benchmarks do not establish whether a transferred model remains valid when the system is actively perturbed. We define perturbational validity as the preservation, after limited system-specific adaptation, of the conditional distribu",
+          "published": "2026-09-11T11:05:48Z",
+          "primary_category": "q-bio.QM",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.12710v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Personalized and Trust-Aware Health Recommendation Policies for a Construction Workplace",
+          "summary": "Construction workers face workplace risks such as fatigue, heat stress, and other physically demanding conditions that can negatively affect their health and safety. Although monitoring these risks is important, timely and personalized health interventions are also needed to help prevent negative impacts on workers' well-being and productivity. To this end, in this paper, we propose a model to cap",
+          "published": "2026-09-11T10:24:56Z",
+          "primary_category": "cs.IR",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.12679v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Driving Context-guided Model Predictive Planning and Control for Autonomous Car Racing at the Limit and Beyond",
+          "summary": "This paper presents a Model Predictive Control-based motion planning and control pipeline for autonomous car racing capable of adapting to different driving contexts, such as overtaking, nominal driving, and countersteering. A Cost Blending state machine manages the identification of different driving contexts and the selection of their predefined weights to be applied to the Model Predictive Plan",
+          "published": "2026-09-11T10:06:11Z",
+          "primary_category": "cs.RO",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.12660v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Autonomous Precision Milling of Biological Structures via Generic Anatomical Priors and Active Boundary Perception",
+          "summary": "Autonomous precision milling of biological structures is challenged by incomplete knowledge of target geometry, local material thickness, and critical internal boundaries. Subject-specific preoperative models can address geometric and thickness variations, but static models cannot determine boundary status encountered during execution, while repeated target-specific imaging limits scalability. Thi",
+          "published": "2026-09-11T07:38:30Z",
+          "primary_category": "cs.RO",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.12530v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Computing at Sea: Floating and Offshore Data Centres as a Pathway to Sustainable AI Infrastructure",
+          "summary": "The rapid expansion of artificial intelligence is transforming data centres into one of the world's fastest-growing sources of electricity demand. As AI systems scale in size and capability, the physical infrastructure supporting computation is approaching critical limits in energy availability, cooling capacity, land use, freshwater consumption, and carbon management. Conventional land-based data",
+          "published": "2026-09-11T07:15:21Z",
+          "primary_category": "eess.SY",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.12511v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "LettuceVisSim: A Simulator That Generates Lettuce Image Time-series for Vision-Based Reinforcement Learning",
+          "summary": "Vision-based reinforcement learning holds strong potential for decision-making in controlled environment agriculture (CEA). However, its development is hindered by the scarcity of labelled crop images. To address this gap, LettuceVisSim, a lettuce growth simulator that generates labelled time series of crop images, was developed and validated. The simulator contains a process-based model (PBM) for",
+          "published": "2026-09-11T07:08:59Z",
+          "primary_category": "cs.CV",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.12505v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Adaptive Agent Design",
+          "summary": "We consider an agent acting against a general non-Markovian environment. The agent maintains its agent states, but is free to choose a transition kernel across those states and optimize its state-feedback control policies. We study the bi-level agent design problem that optimizes the transition kernel and the policy it induces, given said kernel with offline data of observations and actions obtain",
+          "published": "2026-09-11T06:32:40Z",
+          "primary_category": "eess.SY",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.12486v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Linear Exponential Quadratic Gaussian Covariance Steering",
+          "summary": "We formulate and analyze the linear exponential quadratic Gaussian (LEQG) covariance steering problem in continuous time over a given deadline (finite time horizon). The solution for this problem can be seen as a risk-sensitive Schrödinger bridge between Gaussian endpoints in the linear quadratic setting. Unlike the risk-neutral case, the LEQG covariance steering controller--still a linear state f",
+          "published": "2026-09-11T05:54:35Z",
+          "primary_category": "math.OC",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.12463v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "HeatCache: Thermal-aware Energy-efficient LLM Inference Scheduling for Chassis-level Liquid Cooling in Sustainable Edge Server Rooms",
+          "summary": "LLM inference is increasingly deployed at institution-scale edges to meet service requirements. However, multi-GPU inference consumes a large amount of electricity and produces substantial heat. To improve sustainability, operators and regulations often demand raising the ambient setpoint to reduce cooling electricity. This can increase thermal throttling and hardware aging, leading to Service-Lev",
+          "published": "2026-09-11T05:14:57Z",
+          "primary_category": "cs.DC",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.12449v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "e-Traceroute: Physically traceable electricity routing for carbon-free energy utilization",
+          "summary": "Maximizing the self-consumption of residential photovoltaic generation is a promising pathway to meet urgent decarbonization targets for 2030 (and even for 2035). A viable solution is to create a sharing economy for idle battery capacity within a community. To achieve this, utilizing shared physical assets necessitates complete physical traceability of power flows---the capability to strictly trac",
+          "published": "2026-09-11T02:13:57Z",
+          "primary_category": "eess.SY",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.12348v1",
+          "source": "arxiv"
+        },
+        {
+          "title": "Controlled Islanding and Reconnection with Stability Guarantees via Submodular Optimization",
+          "summary": "In large-scale networked dynamical systems, local faults or disturbances may propagate through the interconnections and compromise the stability of the entire network. Partitioning the network into disjoint subsystems, or islands, limits this propagation by isolating unstable portions of the network from those that remain stable. This paper studies a two-stage controlled islanding and reconnection",
+          "published": "2026-09-11T01:33:09Z",
+          "primary_category": "eess.SY",
+          "query_category": "eess.SY",
+          "category_label": "시스템·제어",
+          "url": "https://arxiv.org/abs/2609.12335v1",
+          "source": "arxiv"
+        }
+      ]
     },
     "rss": {
       "status": "ok",
@@ -33,7 +280,7 @@
       "items": [
         {
           "title": "Video Friday: Humanoid Robot Takes On Monkey Bars",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-moves-across-scaffolding-rigged-as-playground-monkey-bars-in-a-lab-while-trying-to-keep-its-balance.gif?id=67756707&width=1200&height=800&coordinates=0%2C67%2C0%2C68\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-moves-across-scaffolding-rigged-as-playground-monkey-bars-in-a-lab-while-trying-to-keep-its-balance.gif?id=67756707&width=1245&height=700&coordinates=0%2C105%2C0%2C106\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We al",
           "published": "Fri, 11 Sep 2026 15:30:04 +0000",
           "url": "https://spectrum.ieee.org/video-friday-disaster-response-robots",
           "feed": "IEEE Spectrum Robotics",
@@ -49,7 +296,7 @@
         },
         {
           "title": "This Robot Will Draw Your Blood Now",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/an-older-silver-haired-woman-seated-at-automated-medical-device-with-a-robotic-arm-drawing-blood.jpg?id=67726417&width=1200&height=800&coordinates=0%2C83%2C0%2C84\"/><br/><br/><p>You sit down and put your arm in the cradle. You press a button. The machine takes it from there.</p><p>A <a href=\"https://spectrum.ieee.org/tag/near-infrared-light\" target",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/an-older-silver-haired-woman-seated-at-automated-medical-device-with-a-robotic-arm-drawing-blood.jpg?id=67726417&width=1245&height=700&coordinates=0%2C187%2C0%2C188\"/><br/><br/><p>You sit down and put your arm in the cradle. You press a button. The machine takes it from there.</p><p>A <a href=\"https://spectrum.ieee.org/tag/near-infrared-light\" targ",
           "published": "Mon, 07 Sep 2026 13:00:01 +0000",
           "url": "https://spectrum.ieee.org/blood-draw-robot-vitestro-aletta",
           "feed": "IEEE Spectrum Robotics",
@@ -57,7 +304,7 @@
         },
         {
           "title": "Cyborg Roaches Can Stab You With Needles",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/large-brown-cockroach-fitted-with-an-electronic-device-and-wires-on-its-back.jpg?id=67724302&width=1200&height=800&coordinates=62%2C0%2C63%2C0\"/><br/><br/><p>Imagine you are trapped under rubble after an earthquake and you see an electronics-covered cockroach with a spring-loaded needle on its back scuttling toward you. Although the sight might be ",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/large-brown-cockroach-fitted-with-an-electronic-device-and-wires-on-its-back.jpg?id=67724302&width=1245&height=700&coordinates=0%2C62%2C0%2C63\"/><br/><br/><p>Imagine you are trapped under rubble after an earthquake and you see an electronics-covered cockroach with a spring-loaded needle on its back scuttling toward you. Although the sight might be ",
           "published": "Sat, 05 Sep 2026 13:00:04 +0000",
           "url": "https://spectrum.ieee.org/cyborg-rescue-roach",
           "feed": "IEEE Spectrum Robotics",
@@ -65,7 +312,7 @@
         },
         {
           "title": "Video Friday: Digit Redecorates",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-tidies-an-orange-couch-while-a-person-watches-in-a-modern-living-room.gif?id=67725697&width=1200&height=800&coordinates=62%2C0%2C63%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upc",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-tidies-an-orange-couch-while-a-person-watches-in-a-modern-living-room.gif?id=67725697&width=1245&height=700&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcom",
           "published": "Fri, 04 Sep 2026 16:00:05 +0000",
           "url": "https://spectrum.ieee.org/video-friday-agility-robotics-digit",
           "feed": "IEEE Spectrum Robotics",
@@ -73,7 +320,7 @@
         },
         {
           "title": "Protecting Dynamic Industrial Robot Cable Carriers",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/industrial-robotic-arm-with-cable-management-system-and-flexible-energy-chains.jpg?id=67633840&width=1200&height=800&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><em>This article is brought to you by <a href=\"https://tsubaki-kabelschlepp.com/\" target=\"_blank\">Tsubaki KabelSchlepp</a>.</em></p><p>In modern automated manufacturing, six-axis articulated r",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/industrial-robotic-arm-with-cable-management-system-and-flexible-energy-chains.jpg?id=67633840&width=1245&height=700&coordinates=0%2C104%2C0%2C104\"/><br/><br/><p><em>This article is brought to you by <a href=\"https://tsubaki-kabelschlepp.com/\" target=\"_blank\">Tsubaki KabelSchlepp</a>.</em></p><p>In modern automated manufacturing, six-axis articulat",
           "published": "Thu, 03 Sep 2026 12:18:21 +0000",
           "url": "https://spectrum.ieee.org/industrial-robot-cable-carrier-protection",
           "feed": "IEEE Spectrum Robotics",
@@ -81,7 +328,7 @@
         },
         {
           "title": "The Best Way to Explore Lunar Craters Is a Giant Robot Ball",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/a-gif-of-a-spherical-robot-rolling-over-a-bumpy-path.gif?id=67701776&width=1200&height=800&coordinates=62%2C0%2C63%2C0\"/><br/><br/><p>On a good day, the rock quarry in central Texas is about 370,000 kilometers (230,000 miles) from the moon. But last February, when Rishi Jangale watched his 1.8-meter-wide, 150-kilogram inflatable robot roll effortle",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/a-gif-of-a-spherical-robot-rolling-over-a-bumpy-path.gif?id=67701776&width=1245&height=700&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p>On a good day, the rock quarry in central Texas is about 370,000 kilometers (230,000 miles) from the moon. But last February, when Rishi Jangale watched his 1.8-meter-wide, 150-kilogram inflatable robot roll effortless",
           "published": "Thu, 03 Sep 2026 12:00:01 +0000",
           "url": "https://spectrum.ieee.org/moon-ball-robot",
           "feed": "IEEE Spectrum Robotics",
@@ -89,7 +336,7 @@
         },
         {
           "title": "Video Friday: Meet Microduck",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/colorful-desk-robots-posed-among-books-beside-an-open-laptop-in-an-office.png?id=67687638&width=1200&height=800&coordinates=241%2C0%2C242%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming rob",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/colorful-desk-robots-posed-among-books-beside-an-open-laptop-in-an-office.png?id=67687638&width=1245&height=700&coordinates=101%2C0%2C101%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming rob",
           "published": "Fri, 28 Aug 2026 16:00:03 +0000",
           "url": "https://spectrum.ieee.org/video-friday-microduck-robot",
           "feed": "IEEE Spectrum Robotics",
@@ -97,7 +344,7 @@
         },
         {
           "title": "AI Companion Robots Are Closing the Human Connection in Modern Homes",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/cute-home-robot-on-carpet-in-cozy-living-room-with-beige-sofa-and-warm-lighting.jpg?id=67154308&width=1200&height=800&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><em>This article is brought to you by <a href=\"https://ollobot.com/\" target=\"_blank\">Ollobot</a>.</em></p><p>From about 2017, individuals began to truly connect with the initial wave of compa",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/cute-home-robot-on-carpet-in-cozy-living-room-with-beige-sofa-and-warm-lighting.jpg?id=67154308&width=1245&height=700&coordinates=0%2C260%2C0%2C261\"/><br/><br/><p><em>This article is brought to you by <a href=\"https://ollobot.com/\" target=\"_blank\">Ollobot</a>.</em></p><p>From about 2017, individuals began to truly connect with the initial wave of c",
           "published": "Tue, 25 Aug 2026 10:00:03 +0000",
           "url": "https://spectrum.ieee.org/ollobot-ai-companion-robot",
           "feed": "IEEE Spectrum Robotics",
@@ -105,7 +352,7 @@
         },
         {
           "title": "Video Friday: Do We Need Superhuman Humanoid Robots?",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-leaps-over-200-centimeter-height-board-beside-person-in-warehouse.png?id=67655329&width=1200&height=800&coordinates=150%2C0%2C150%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcom",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-leaps-over-200-centimeter-height-board-beside-person-in-warehouse.png?id=67655329&width=1245&height=700&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming ",
           "published": "Fri, 21 Aug 2026 16:00:01 +0000",
           "url": "https://spectrum.ieee.org/video-friday-unitree-superhuman",
           "feed": "IEEE Spectrum Robotics",
@@ -113,7 +360,7 @@
         },
         {
           "title": "Drones With Claws Perch on Arctic Icebergs",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/a-drone-firmly-planted-on-the-steep-slope-of-an-iceberg-after-a-successful-landing.jpg?id=67573301&width=1200&height=800&coordinates=0%2C83%2C0%2C84\"/><br/><br/><p><em><em>This article is part of our exclusive </em></em><a href=\"https://spectrum.ieee.org/collections/journal-watch/\" target=\"_self\"><em><em>IEEE Journal Watch series</em></em></a><em><",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/a-drone-firmly-planted-on-the-steep-slope-of-an-iceberg-after-a-successful-landing.jpg?id=67573301&width=1245&height=700&coordinates=0%2C187%2C0%2C188\"/><br/><br/><p><em><em>This article is part of our exclusive </em></em><a href=\"https://spectrum.ieee.org/collections/journal-watch/\" target=\"_self\"><em><em>IEEE Journal Watch series</em></em></a><em",
           "published": "Tue, 18 Aug 2026 13:00:01 +0000",
           "url": "https://spectrum.ieee.org/arctic-iceberg-drones",
           "feed": "IEEE Spectrum Robotics",
@@ -121,7 +368,7 @@
         },
         {
           "title": "Is Shipyard Welding the Right First Job for Humanoid Robots?",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/two-men-supervise-a-humanoid-robot-as-it-completes-a-welding-task-in-an-industrial-warehouse.jpg?id=67626093&width=1200&height=800&coordinates=0%2C83%2C0%2C84\"/><br/><br/><p>Humanoids desperately need to stop making YouTube videos and get a job already, and <a href=\"https://persona.ai/\" rel=\"noopener noreferrer\" target=\"_blank\">Persona AI</a> is on",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/two-men-supervise-a-humanoid-robot-as-it-completes-a-welding-task-in-an-industrial-warehouse.jpg?id=67626093&width=1245&height=700&coordinates=0%2C187%2C0%2C188\"/><br/><br/><p>Humanoids desperately need to stop making YouTube videos and get a job already, and <a href=\"https://persona.ai/\" rel=\"noopener noreferrer\" target=\"_blank\">Persona AI</a> is ",
           "published": "Mon, 17 Aug 2026 15:33:42 +0000",
           "url": "https://spectrum.ieee.org/persona-ai-humanoid-robot-welding",
           "feed": "IEEE Spectrum Robotics",
@@ -129,7 +376,7 @@
         },
         {
           "title": "Video Friday: Lift Happens",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/drone-crash-on-grassland-engulfed-in-flames-with-thick-black-smoke-rising.png?id=67615846&width=1200&height=800&coordinates=156%2C0%2C156%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming rob",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/drone-crash-on-grassland-engulfed-in-flames-with-thick-black-smoke-rising.png?id=67615846&width=1245&height=700&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming robotic",
           "published": "Fri, 14 Aug 2026 17:00:01 +0000",
           "url": "https://spectrum.ieee.org/video-friday-darpa-heavy-lift-challenge",
           "feed": "IEEE Spectrum Robotics",
@@ -137,7 +384,7 @@
         },
         {
           "title": "Robot Recycler Salvages Parts From Broken Machines",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/two-large-industrial-robotic-arms-in-a-university-laboratory.jpg?id=67561939&width=1200&height=800&coordinates=156%2C0%2C156%2C0\"/><br/><br/><p>Objects constructed by robots are ubiquitous. If you’ve used a car, household appliance, or smartphone today, you’ve used an object constructed at least in part by robots. The more products that manufacture",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/two-large-industrial-robotic-arms-in-a-university-laboratory.jpg?id=67561939&width=1245&height=700&coordinates=0%2C156%2C0%2C157\"/><br/><br/><p>Objects constructed by robots are ubiquitous. If you’ve used a car, household appliance, or smartphone today, you’ve used an object constructed at least in part by robots. The more products that manufacture",
           "published": "Mon, 10 Aug 2026 18:01:25 +0000",
           "url": "https://spectrum.ieee.org/recycling-robot",
           "feed": "IEEE Spectrum Robotics",
@@ -145,7 +392,7 @@
         },
         {
           "title": "Video Friday: Drones Go Heavy in DARPA Lift Challenge",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/engineers-watch-a-slender-experimental-drone-fly-near-a-large-hangar.jpg?id=67585216&width=1200&height=800&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming robotics eve",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/engineers-watch-a-slender-experimental-drone-fly-near-a-large-hangar.jpg?id=67585216&width=1245&height=700&coordinates=0%2C104%2C0%2C104\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming robotics",
           "published": "Fri, 07 Aug 2026 16:00:01 +0000",
           "url": "https://spectrum.ieee.org/video-friday-heavy-lift-drone",
           "feed": "IEEE Spectrum Robotics",
@@ -153,7 +400,7 @@
         },
         {
           "title": "What Robotics Companies Think About the U.S. Foreign Robot Ban",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/photo-collage-of-humanoid-quadruped-and-unmanned-ground-vehicle-robots.jpg?id=67563239&width=1200&height=800&coordinates=0%2C208%2C0%2C209\"/><br/><br/><p>The U.S. Federal Communications Commission (FCC) “Covered List,” originally published in 2021, identifies communications equipment and services that it says pose a threat to national security. <sp",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/photo-collage-of-humanoid-quadruped-and-unmanned-ground-vehicle-robots.jpg?id=67563239&width=1245&height=700&coordinates=0%2C469%2C0%2C469\"/><br/><br/><p>The U.S. Federal Communications Commission (FCC) “Covered List,” originally published in 2021, identifies communications equipment and services that it says pose a threat to national security. <sp",
           "published": "Tue, 04 Aug 2026 11:00:01 +0000",
           "url": "https://spectrum.ieee.org/fcc-covered-list-mobile-robots",
           "feed": "IEEE Spectrum Robotics",
@@ -161,7 +408,7 @@
         },
         {
           "title": "Walden Robotics Partners With Toyota on Practical Humanoids",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-orange-and-white-robot-using-two-finger-gripper-hands-to-work-with-metal-tool-components.jpg?id=67568024&width=1200&height=800&coordinates=62%2C0%2C63%2C0\"/><br/><br/><p>For a while there, it seemed as though robotics as a whole was stuck in a <a href=\"https://spectrum.ieee.org/top-robotics-stories-2024\" target=\"_self\">mad rush</a> towards",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-orange-and-white-robot-using-two-finger-gripper-hands-to-work-with-metal-tool-components.jpg?id=67568024&width=1245&height=700&coordinates=0%2C62%2C0%2C63\"/><br/><br/><p>For a while there, it seemed as though robotics as a whole was stuck in a <a href=\"https://spectrum.ieee.org/top-robotics-stories-2024\" target=\"_self\">mad rush</a> towards",
           "published": "Mon, 03 Aug 2026 16:05:39 +0000",
           "url": "https://spectrum.ieee.org/humanoid-robots-walden-robotics-toyota",
           "feed": "IEEE Spectrum Robotics",
@@ -169,7 +416,7 @@
         },
         {
           "title": "Video Friday: Meet Google DeepMind’s Gemini Robotics 2",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-and-robotic-arm-labeled-gemini-robotics-er-2-in-a-workshop-setting.webp?id=67560022&width=1200&height=800&coordinates=125%2C0%2C125%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upc",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-and-robotic-arm-labeled-gemini-robotics-er-2-in-a-workshop-setting.webp?id=67560022&width=1245&height=700&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcomin",
           "published": "Fri, 31 Jul 2026 16:00:03 +0000",
           "url": "https://spectrum.ieee.org/video-robot-gemini2-ai-robot",
           "feed": "IEEE Spectrum Robotics",
@@ -177,7 +424,7 @@
         },
         {
           "title": "Robot Finger Feels in Color",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/close-up-of-a-sensor-for-a-robotic-fingertip-and-raised-relief-images-of-a-leaf-and-a-u-s-penny.jpg?id=67542077&width=1200&height=800&coordinates=0%2C83%2C0%2C84\"/><br/><br/><p><span>Imagine running your fingertip over the surface of a U.S. penny. You would feel the ridges of the raised letters and numbers, Abe Lincoln’s bearded side profile, and, ",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/close-up-of-a-sensor-for-a-robotic-fingertip-and-raised-relief-images-of-a-leaf-and-a-u-s-penny.jpg?id=67542077&width=1245&height=700&coordinates=0%2C187%2C0%2C188\"/><br/><br/><p><span>Imagine running your fingertip over the surface of a U.S. penny. You would feel the ridges of the raised letters and numbers, Abe Lincoln’s bearded side profile, and",
           "published": "Tue, 28 Jul 2026 15:00:03 +0000",
           "url": "https://spectrum.ieee.org/robot-finger",
           "feed": "IEEE Spectrum Robotics",
@@ -185,7 +432,7 @@
         },
         {
           "title": "Optical Tech Would Update a Robot’s AI on the Fly",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/an-asian-man-positions-the-lens-of-an-optical-receiver-a-meter-away-from-a-beam-of-led-light-in-a-lab.jpg?id=67530602&width=1200&height=800&coordinates=0%2C209%2C0%2C209\"/><br/><br/><p>Atop a lab bench, <a href=\"https://tech.cornell.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">Cornell Tech</a> postdoctoral researcher <a href=\"https://www.linkedi",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/an-asian-man-positions-the-lens-of-an-optical-receiver-a-meter-away-from-a-beam-of-led-light-in-a-lab.jpg?id=67530602&width=1245&height=700&coordinates=0%2C469%2C0%2C470\"/><br/><br/><p>Atop a lab bench, <a href=\"https://tech.cornell.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">Cornell Tech</a> postdoctoral researcher <a href=\"https://www.linkedi",
           "published": "Sun, 26 Jul 2026 13:00:01 +0000",
           "url": "https://spectrum.ieee.org/ai-in-robotics",
           "feed": "IEEE Spectrum Robotics",
@@ -193,7 +440,7 @@
         },
         {
           "title": "Video Friday: An Italian Humanoid Comes to Life",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-with-red-armor-and-glowing-lights-stands-against-a-dark-background.png?id=67531350&width=1200&height=800&coordinates=150%2C0%2C150%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upco",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-with-red-armor-and-glowing-lights-stands-against-a-dark-background.png?id=67531350&width=1245&height=700&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming",
           "published": "Fri, 24 Jul 2026 15:30:01 +0000",
           "url": "https://spectrum.ieee.org/video-friday-physical-ai-robotics",
           "feed": "IEEE Spectrum Robotics",
@@ -201,7 +448,7 @@
         },
         {
           "title": "This Graduate Student Equips NASA’s Robots With Assembly Skills",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/a-young-woman-with-blonde-hair-softly-smiling-next-to-a-pair-of-collaborative-robot-arms.jpg?id=67499761&width=1200&height=800&coordinates=156%2C0%2C156%2C0\"/><br/><br/><p>Like many engineers, <a href=\"https://www.linkedin.com/in/sarahdownsprofile\" rel=\"noopener noreferrer\" target=\"_blank\">Sarah Downs</a> says she knew she wanted to pursue a STEM c",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/a-young-woman-with-blonde-hair-softly-smiling-next-to-a-pair-of-collaborative-robot-arms.jpg?id=67499761&width=1245&height=700&coordinates=0%2C156%2C0%2C157\"/><br/><br/><p>Like many engineers, <a href=\"https://www.linkedin.com/in/sarahdownsprofile\" rel=\"noopener noreferrer\" target=\"_blank\">Sarah Downs</a> says she knew she wanted to pursue a STEM c",
           "published": "Fri, 17 Jul 2026 18:00:01 +0000",
           "url": "https://spectrum.ieee.org/graduate-student-nasas-robots-assembly",
           "feed": "IEEE Spectrum Robotics",
@@ -209,7 +456,7 @@
         },
         {
           "title": "Video Friday: Your Robot Surgeon Will See You Now",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/two-humanoid-robots-perform-a-surgical-procedure-on-a-patient-in-a-dark-lab.png?id=67494478&width=1200&height=800&coordinates=150%2C0%2C150%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming r",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/two-humanoid-robots-perform-a-surgical-procedure-on-a-patient-in-a-dark-lab.png?id=67494478&width=1245&height=700&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming robot",
           "published": "Fri, 17 Jul 2026 16:00:01 +0000",
           "url": "https://spectrum.ieee.org/video-friday-robotic-surgery",
           "feed": "IEEE Spectrum Robotics",
@@ -217,7 +464,7 @@
         },
         {
           "title": "How to Make an Invisible Drone",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/low-visibility-drone-flying-in-front-of-an-office-plant.jpg?id=67480624&width=1200&height=800&coordinates=62%2C0%2C63%2C0\"/><br/><br/><p><span>There are many words that I would never, ever use to describe a drone. Stealthy. Subtle. Whatever the opposite of obnoxious is. Much of this is because of the giant angry bee sound that drones tend to make, ",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/low-visibility-drone-flying-in-front-of-an-office-plant.jpg?id=67480624&width=1245&height=700&coordinates=0%2C62%2C0%2C63\"/><br/><br/><p><span>There are many words that I would never, ever use to describe a drone. Stealthy. Subtle. Whatever the opposite of obnoxious is. Much of this is because of the giant angry bee sound that drones tend to make, ",
           "published": "Thu, 16 Jul 2026 16:09:21 +0000",
           "url": "https://spectrum.ieee.org/invisible-spinning-drone",
           "feed": "IEEE Spectrum Robotics",
@@ -225,7 +472,7 @@
         },
         {
           "title": "Building a Foundation Stack for General-Purpose Robots",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-folding-laundry-on-a-neatly-made-bed-in-a-sunlit-bedroom.png?id=67111698&width=1200&height=800&coordinates=115%2C0%2C115%2C0\"/><br/><br/><p><em>This article is brought to you by <a href=\"https://x2robot.com/\" target=\"_blank\">X Square Robot</a>.</em></p><p>Large language models gave artificial intelligence a working recipe. Pretrain a",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-folding-laundry-on-a-neatly-made-bed-in-a-sunlit-bedroom.png?id=67111698&width=1245&height=700&coordinates=4%2C0%2C4%2C0\"/><br/><br/><p><em>This article is brought to you by <a href=\"https://x2robot.com/\" target=\"_blank\">X Square Robot</a>.</em></p><p>Large language models gave artificial intelligence a working recipe. Pretrain a lar",
           "published": "Mon, 13 Jul 2026 10:19:51 +0000",
           "url": "https://spectrum.ieee.org/x-square-robot-embodied-ai-stack",
           "feed": "IEEE Spectrum Robotics",

@@ -2,7 +2,7 @@
 title: "Record 1442510a27 · Efficient-Analytic-Uncertainty-Quantification-for-M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T03:16:23.052420+00:00
+updated_at: 2026-09-14T09:42:53.694893+00:00
 tags: [record, real-data]
 ---
 

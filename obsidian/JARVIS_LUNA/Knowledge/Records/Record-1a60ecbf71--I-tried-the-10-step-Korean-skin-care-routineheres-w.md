@@ -2,7 +2,7 @@
 title: "Record 1a60ecbf71 · I-tried-the-10-step-Korean-skin-care-routineheres-w"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T03:16:22.849320+00:00
+updated_at: 2026-09-14T09:42:53.506228+00:00
 tags: [record, real-data]
 ---
 

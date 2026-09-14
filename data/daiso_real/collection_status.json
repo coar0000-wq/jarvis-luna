@@ -180,7 +180,7 @@
     "as_of": "2026-09-14",
     "source": "ExchangeRate-API",
     "api_url": "https://open.er-api.com/v6/latest/USD",
-    "fetched_at": "2026-09-14T03:14:17.702941+00:00",
+    "fetched_at": "2026-09-14T09:40:43.953047+00:00",
     "ok": true,
     "대조": [
       "exchangerate-api 1,342.63(2026-09-14)",

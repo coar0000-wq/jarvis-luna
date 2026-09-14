@@ -2,7 +2,7 @@
 title: "Record 5051c807c5 · Steroid-thiamine-and-ascorbic-acid-for-comatose-out"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T03:16:22.572496+00:00
+updated_at: 2026-09-14T09:42:53.236471+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 7e8c10d6ca · FOODOLOGY-Coleology-Cutting-Jelly-088-oz25g-x-10ea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T03:16:23.087919+00:00
+updated_at: 2026-09-14T09:42:53.730786+00:00
 tags: [record, real-data]
 ---
 

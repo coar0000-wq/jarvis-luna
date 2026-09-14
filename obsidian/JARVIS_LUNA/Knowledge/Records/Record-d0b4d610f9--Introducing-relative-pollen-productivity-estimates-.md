@@ -2,7 +2,7 @@
 title: "Record d0b4d610f9 · Introducing-relative-pollen-productivity-estimates-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T03:16:22.683021+00:00
+updated_at: 2026-09-14T09:42:53.351880+00:00
 tags: [record, real-data]
 ---
 
