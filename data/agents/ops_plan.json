@@ -1,19 +1,9 @@
 {
   "agent": "Ops-Prioritizer",
-  "generated_at": "2026-09-14T09:51:52.018728+00:00",
-  "risk": "high",
-  "task_count": 5,
+  "generated_at": "2026-09-14T11:22:40.149597+00:00",
+  "risk": "medium",
+  "task_count": 4,
   "tasks": [
-    {
-      "priority": 1,
-      "title": "수집 파싱실패 5건 처리",
-      "detail": "블랙리스트 유지 · 대체 카테고리 우선 · 실패 pd_no 재시도 금지",
-      "refs": [
-        "data/agents/collector_audit.json",
-        "data/daiso_real/collection_status.json"
-      ],
-      "approve": "사람: beauty_queue/수집 범위 확인 후 다음 daiso-real-collection"
-    },
     {
       "priority": 2,
       "title": "채널 시그널 점검 (11/12 라이브)",
@@ -35,8 +25,8 @@
     },
     {
       "priority": 4,
-      "title": "팀 조치 · 상품 소싱팀",
-      "detail": "직전 실행에서 110건 받아 5건 판정 · 5건 실패 (성공 0건) · 상품 상세 HTML이 다이소몰 기본 페이지로 반환됨 5 · 받아보고 뷰티 아니라 버림 105건 · 후보 출처 sitemap",
+      "title": "팀 조치 · 디자인팀",
+      "detail": "다음 단계: Shopify 스토어 개설 및 기본 설정",
       "refs": [
         "data/dashboard_runtime.json"
       ],
@@ -44,8 +34,8 @@
     },
     {
       "priority": 4,
-      "title": "팀 조치 · 디자인팀",
-      "detail": "다음 단계: Shopify 스토어 개설 및 기본 설정",
+      "title": "팀 조치 · 지식 수집팀",
+      "detail": "수집 실패: arXiv(export.arxiv.org/robots.txt 가 Disallow: / 다. robots 를 지키기로 해서 받지 않는다.)",
       "refs": [
         "data/dashboard_runtime.json"
       ],
@@ -58,23 +48,19 @@
     "items": [
       {
         "n": 1,
-        "text": "수집 파싱실패 5건 처리 — 블랙리스트 유지 · 대체 카테고리 우선 · 실패 pd_no 재시도 금지"
-      },
-      {
-        "n": 2,
         "text": "채널 시그널 점검 (11/12 라이브) — empty/수동·낡은 채널 갱신"
       },
       {
-        "n": 3,
+        "n": 2,
         "text": "S등급 6건 Shopify draft 등록 — CSV Import · legal 차단 SKU 제외 · Variant Price는 원가 모델 후 입력"
       },
       {
-        "n": 4,
-        "text": "팀 조치 · 상품 소싱팀 — 직전 실행에서 110건 받아 5건 판정 · 5건 실패 (성공 0건) · 상품 상세 HTML이 다이소몰 기본 페이지로 반환됨 5 · 받아보고 뷰티"
+        "n": 3,
+        "text": "팀 조치 · 디자인팀 — 다음 단계: Shopify 스토어 개설 및 기본 설정"
       },
       {
-        "n": 5,
-        "text": "팀 조치 · 디자인팀 — 다음 단계: Shopify 스토어 개설 및 기본 설정"
+        "n": 4,
+        "text": "팀 조치 · 지식 수집팀 — 수집 실패: arXiv(export.arxiv.org/robots.txt 가 Disallow: / 다. robots 를 지키기로 해서 받지 않는"
       }
     ]
   }

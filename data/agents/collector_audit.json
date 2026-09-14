@@ -1,65 +1,16 @@
 {
   "agent": "Collector-Audit",
-  "generated_at": "2026-09-14T09:51:52.018617+00:00",
+  "generated_at": "2026-09-14T11:22:40.149517+00:00",
   "last_run": {
-    "requested": 110,
-    "ok": 0,
-    "parse_failed": 5,
-    "reasons": {
-      "상품 상세 HTML이 다이소몰 기본 페이지로 반환됨": 5
-    },
-    "finished_at": "2026-09-12T22:30:20.658862+00:00"
+    "requested": 2,
+    "ok": 2,
+    "parse_failed": 0,
+    "reasons": {},
+    "finished_at": "2026-09-14T10:40:33.325169+00:00"
   },
-  "failure_types": [
-    {
-      "pd_no": "1037532",
-      "type": "parse_other",
-      "reason": "상품 상세 HTML이 다이소몰 기본 페이지로 반환됨",
-      "og_title": "다이소몰"
-    },
-    {
-      "pd_no": "1037533",
-      "type": "parse_other",
-      "reason": "상품 상세 HTML이 다이소몰 기본 페이지로 반환됨",
-      "og_title": "다이소몰"
-    },
-    {
-      "pd_no": "1068835",
-      "type": "parse_other",
-      "reason": "상품 상세 HTML이 다이소몰 기본 페이지로 반환됨",
-      "og_title": "다이소몰"
-    },
-    {
-      "pd_no": "048025191",
-      "type": "parse_other",
-      "reason": "상품 상세 HTML이 다이소몰 기본 페이지로 반환됨",
-      "og_title": "다이소몰"
-    },
-    {
-      "pd_no": "1056006",
-      "type": "parse_other",
-      "reason": "상품 상세 HTML이 다이소몰 기본 페이지로 반환됨",
-      "og_title": "다이소몰"
-    }
-  ],
-  "products_total": 222,
+  "failure_types": [],
+  "products_total": 213,
   "blacklist_hint": [],
-  "suggestions": [
-    {
-      "action": "keep_blacklist_and_prefer_category",
-      "detail": "가격없음/og_title만 잡히는 pd_no는 beauty_queue 블랙리스트 유지. 로션/오일/미스트 등 대체 카테고리 URL 우선.",
-      "category_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01114"
-    },
-    {
-      "action": "do_not_retry_failed_pd_nos",
-      "pd_nos": [
-        "1037532",
-        "1037533",
-        "1068835",
-        "048025191",
-        "1056006"
-      ]
-    }
-  ],
-  "severity": true
+  "suggestions": [],
+  "severity": false
 }
