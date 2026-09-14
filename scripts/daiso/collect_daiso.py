@@ -2801,11 +2801,47 @@ def main() -> int:
         for x in visited_before
     }
 
+    # 팔지 않기로 이미 정한 것은 아예 받지 않는다. (2026-09-14)
+    #
+    # excluded_products.json 에 사유와 함께 보관해 둔 pdNo 들이다.
+    # FDA 기준으로 미국에서 OTC 의약품이 되는 것들이라 다시 받아도 버린다.
+    # visited 에 있으면 어차피 안 받지만, visited 가 비워지거나
+    # 다른 경로로 후보에 들어오면 또 30초씩 쓴다. 그래서 따로 막는다.
+    parked_ids: set[str] = set()
+    try:
+        parked_doc = json.loads(
+            (OUT_DIR / "excluded_products.json").read_text(
+                encoding="utf-8-sig"
+            )
+        )
+        parked_items = parked_doc.get("items") or {}
+        if isinstance(parked_items, dict):
+            parked_ids = {
+                normalize_pd_no(str(k)) for k in parked_items
+            }
+        else:
+            parked_ids = {
+                normalize_pd_no(str(
+                    r.get("pdNo") or r.get("pd_no") or ""
+                ))
+                for r in parked_items
+                if isinstance(r, dict)
+            }
+        parked_ids.discard("")
+    except (OSError, ValueError, AttributeError):
+        parked_ids = set()
+
     fresh_items = []
 
     revisit_items = []
 
+    skipped_parked = 0
+
     for item in known_ids:
+
+        if item[0] in parked_ids:
+            skipped_parked += 1
+            continue
 
         if item[0] in visited_set:
             revisit_items.append(
@@ -2815,6 +2851,12 @@ def main() -> int:
             fresh_items.append(
                 item
             )
+
+    if parked_ids:
+        print(
+            f"  제외 보관 {len(parked_ids)}건 중 "
+            f"{skipped_parked}건을 후보에서 뺐다"
+        )
 
     skipped_already_visited = len(
         revisit_items
@@ -3554,6 +3596,7 @@ def main() -> int:
         "finished_at": now_iso(),
         "requested": requested,
         "visited": visited,
+        "skipped_parked": skipped_parked,
         "skipped_already_visited": skipped_already_visited,
         "visited_total": len(
             visited_after
