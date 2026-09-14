@@ -40,7 +40,26 @@ def clean(txt):
 # arXiv
 # -----------------------------
 def collect_arxiv():
+    """2026-09-14 부터 받지 않는다.
 
+    export.arxiv.org/robots.txt 는 User-agent: * 에 Disallow: / 다.
+    arXiv 이 프로그램 접근용으로 안내하는 주소인 것은 맞지만, 그 호스트의
+    robots 가 전부 막고 있다. 우리 규칙은 robots 를 지키는 것이다.
+    그래서 요청 자체를 없앤다. 헤더를 바꿔서 피해 가지 않는다.
+
+    지우지 않고 껍데기를 남기는 이유는, 이 자리를 다시 파는 사람이
+    "왜 arXiv 이 없지" 하고 되살리지 않게 하기 위해서다.
+    """
+    return {
+        "status": "skipped",
+        "source": "arXiv",
+        "reason": ("export.arxiv.org/robots.txt 가 Disallow: / 다. "
+                   "robots 를 지키기로 해서 받지 않는다."),
+        "items": [],
+    }
+
+
+def _collect_arxiv_disabled():
     url = (
         "https://export.arxiv.org/api/query?"
         + urllib.parse.urlencode({
@@ -386,16 +405,41 @@ def main():
 
     DATA_DIR.mkdir(parents=True, exist_ok=True)
 
+    # 수집기 하나가 던지면 여기서 통째로 죽었다. 2026-09-14 에 확인했다.
+    # 그러면 뒤 단계(코퍼스·옵시디언·라우터·대시보드·발행)가 전부 0초로 건너뛴다.
+    # Actions 에서 이 워크플로가 매 실행 실패한 이유가 그것이다.
+    # 이제 하나씩 따로 잡는다. 실패한 것은 실패했다고 적고 나머지는 살린다.
+    sources = {}
+    failed = []
+    for key, fn in (
+        ("arxiv", collect_arxiv),
+        ("robotics", collect_robotics),
+        ("institutions", collect_institutions),
+        ("organic_skincare", collect_organic_skincare),
+        ("google", collect_google),
+        ("us_beauty", collect_us_beauty),
+    ):
+        try:
+            sources[key] = fn()
+        except Exception as e:                      # noqa: BLE001
+            failed.append(key)
+            sources[key] = {
+                "status": "failed",
+                "source": key,
+                "reason": f"{type(e).__name__}: {e}"[:300],
+                "items": [],
+            }
+            print(f"  [실패] {key} — {type(e).__name__}: {e}"[:200])
+
+    ok = [k for k, v in sources.items()
+          if isinstance(v, dict) and v.get("status") not in ("failed",)]
+    print(f"수집기 {len(sources)}개 중 살아난 것 {len(ok)}개"
+          + (f" · 실패 {failed}" if failed else ""))
+
     data = {
         "updated": datetime.now(timezone.utc).isoformat(),
-        "sources": {
-            "arxiv": collect_arxiv(),
-            "robotics": collect_robotics(),
-            "institutions": collect_institutions(),
-            "organic_skincare": collect_organic_skincare(),
-            "google": collect_google(),
-            "us_beauty": collect_us_beauty()
-        }
+        "collector_failures": failed,
+        "sources": sources,
     }
 
     out = DATA_DIR / "real_sources.json"
@@ -410,8 +454,15 @@ def main():
     )
 
     print("Saved:", out)
-    print("US Beauty Sources:", len(data["sources"]["us_beauty"]["items"]))
+    print("US Beauty Sources:",
+          len((sources.get("us_beauty") or {}).get("items") or []))
+
+    # 전부 실패했으면 그건 진짜 고장이다. 그때만 0 이 아닌 값으로 끝낸다.
+    if len(failed) == len(sources):
+        print("수집기가 전부 실패했다.")
+        return 1
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

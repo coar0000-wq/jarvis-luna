@@ -57,8 +57,9 @@ SOURCES = [
     ("디자인팀", "Smashing Magazine", "rss", "https://www.smashingmagazine.com/feed/"),
     ("디자인팀", "A List Apart", "rss", "https://alistapart.com/main/feed/"),
 
-    ("지식 수집팀", "arXiv cs.AI", "rss",
-     "https://export.arxiv.org/api/query?search_query=cat:cs.AI&max_results=5"),
+    # arXiv cs.AI 는 뺐다. (2026-09-14)
+    # export.arxiv.org/robots.txt 가 User-agent: * 에 Disallow: / 다.
+    # 건강 점검이라도 요청은 요청이다. 2시간마다 두드리고 있었다.
     ("지식 수집팀", "Google News K-beauty", "rss",
      "https://news.google.com/rss/search?q=%22K-beauty%22+skincare&hl=en-US&gl=US&ceid=US:en"),
 

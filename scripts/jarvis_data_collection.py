@@ -64,8 +64,13 @@ class JARVISDataCollector:
                 ]
 
                 papers = []
+                # arXiv 은 받지 않는다. (2026-09-14)
+                # export.arxiv.org/robots.txt 가 User-agent: * 에 Disallow: / 다.
+                # 지금 이 파일은 어떤 워크플로에도 안 물려 있지만, 되살리는 순간
+                # robots 를 어기게 되므로 지금 끊어 둔다.
+                categories = []
                 for category in categories:
-                    url = f"http://export.arxiv.org/api/query?search_query=cat:{category}&start=0&max_results=10&sortBy=submittedDate"
+                    url = ""
                     try:
                         async with session.get(url, timeout=10) as resp:
                             content = await resp.text()

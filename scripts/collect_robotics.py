@@ -71,6 +71,26 @@ def clean(s: str | None) -> str:
 
 
 def collect_arxiv() -> dict:
+    """2026-09-14 부터 받지 않는다.
+
+    이 파일 18행에 "arXiv 은 프로그램 접근용 export.arxiv.org 를 제공하며
+    이 주소를 쓰라고 안내한다" 고 적어 두고 받아 왔다. 안내는 사실이다.
+    그런데 그 호스트의 robots.txt 는 User-agent: * 에 Disallow: / 다.
+    안내 문서와 robots 가 어긋날 때 우리는 robots 를 따르기로 했다.
+
+    RSS 쪽(IEEE Spectrum, Robot Report)은 그대로 받는다. 거기는 막지 않는다.
+    로보틱스 수집이 통째로 죽는 것이 아니라 arXiv 몫만 빈다.
+    """
+    return {
+        "status": "skipped",
+        "reason": ("export.arxiv.org/robots.txt 가 Disallow: / 다. "
+                   "robots 를 지키기로 해서 받지 않는다."),
+        "items": [],
+        "errors": [],
+    }
+
+
+def _collect_arxiv_disabled() -> dict:
     rows, errs = [], []
     for cat, label in ARXIV_CATS:
         url = "https://export.arxiv.org/api/query?" + urllib.parse.urlencode({
