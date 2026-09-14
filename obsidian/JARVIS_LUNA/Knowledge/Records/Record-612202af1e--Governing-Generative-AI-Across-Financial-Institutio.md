@@ -2,7 +2,7 @@
 title: "Record 612202af1e · Governing-Generative-AI-Across-Financial-Institutio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T11:14:07.203141+00:00
+updated_at: 2026-09-14T12:50:41.644834+00:00
 tags: [record, real-data]
 ---
 

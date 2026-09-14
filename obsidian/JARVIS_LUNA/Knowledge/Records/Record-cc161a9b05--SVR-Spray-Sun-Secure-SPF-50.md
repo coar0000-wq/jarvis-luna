@@ -2,7 +2,7 @@
 title: "Record cc161a9b05 · SVR-Spray-Sun-Secure-SPF-50"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T11:14:07.243293+00:00
+updated_at: 2026-09-14T12:50:41.683908+00:00
 tags: [record, real-data]
 ---
 

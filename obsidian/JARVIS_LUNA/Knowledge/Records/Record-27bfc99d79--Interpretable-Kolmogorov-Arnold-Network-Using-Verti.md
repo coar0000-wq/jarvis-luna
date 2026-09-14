@@ -2,7 +2,7 @@
 title: "Record 27bfc99d79 · Interpretable-Kolmogorov-Arnold-Network-Using-Verti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T11:14:06.837833+00:00
+updated_at: 2026-09-14T12:50:41.284168+00:00
 tags: [record, real-data]
 ---
 

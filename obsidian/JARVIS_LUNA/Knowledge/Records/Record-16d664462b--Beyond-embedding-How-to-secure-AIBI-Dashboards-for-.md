@@ -2,7 +2,7 @@
 title: "Record 16d664462b · Beyond-embedding-How-to-secure-AIBI-Dashboards-for-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T11:14:07.292809+00:00
+updated_at: 2026-09-14T12:50:41.728522+00:00
 tags: [record, real-data]
 ---
 

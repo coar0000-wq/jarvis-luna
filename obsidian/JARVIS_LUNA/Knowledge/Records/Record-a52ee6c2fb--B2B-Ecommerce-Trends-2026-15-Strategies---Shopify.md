@@ -2,7 +2,7 @@
 title: "Record a52ee6c2fb · B2B-Ecommerce-Trends-2026-15-Strategies---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T11:14:07.023056+00:00
+updated_at: 2026-09-14T12:50:41.468137+00:00
 tags: [record, real-data]
 ---
 

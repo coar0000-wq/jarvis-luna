@@ -2,7 +2,7 @@
 title: "Record d6f13b0d7d · Musinsa-announced-on-the-10th-that-it-will-open-the"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T11:14:06.947396+00:00
+updated_at: 2026-09-14T12:50:41.393245+00:00
 tags: [record, real-data]
 ---
 

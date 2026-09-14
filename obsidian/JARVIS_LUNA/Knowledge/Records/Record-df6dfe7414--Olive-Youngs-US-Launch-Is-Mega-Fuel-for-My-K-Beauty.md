@@ -2,7 +2,7 @@
 title: "Record df6dfe7414 · Olive-Youngs-US-Launch-Is-Mega-Fuel-for-My-K-Beauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T11:14:07.075541+00:00
+updated_at: 2026-09-14T12:50:41.519392+00:00
 tags: [record, real-data]
 ---
 

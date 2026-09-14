@@ -2,7 +2,7 @@
 title: "Record a6c381d212 · A-semi-transparent-strategy-for-sustainable-radiati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T11:14:06.768239+00:00
+updated_at: 2026-09-14T12:50:41.215936+00:00
 tags: [record, real-data]
 ---
 

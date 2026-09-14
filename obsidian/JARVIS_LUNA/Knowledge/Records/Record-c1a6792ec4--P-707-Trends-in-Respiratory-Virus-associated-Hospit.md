@@ -2,7 +2,7 @@
 title: "Record c1a6792ec4 · P-707-Trends-in-Respiratory-Virus-associated-Hospit"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T11:14:06.800070+00:00
+updated_at: 2026-09-14T12:50:41.246920+00:00
 tags: [record, real-data]
 ---
 

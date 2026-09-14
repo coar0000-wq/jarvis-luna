@@ -2,7 +2,7 @@
 title: "Record 588ded0b9c · Shopify-Stock-Draws-Bullish-Wall-Street-As-AI-Story"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T11:14:07.015833+00:00
+updated_at: 2026-09-14T12:50:41.461156+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMidEFVX3lxTE1VWGlYYTRvTHo0Zm9RSGQwSzV5dHBHTUNWZm5PbFYtWlg3Z1RYb1VuZExDTWhtV1BPV1d4LVFaRDIzbXZuN0hYdGhxYjByMWZ2RllMd3I2T3J3S19iOTh0THFraUQ1VnFDTXZLamRuS2hSemtN?oc=5)
 
-**제목:** Shopify Stock Draws Bullish Wall Street As AI Story Accelerates - StocksToTrade
+**제목:** Shopify Stock Draws Bullish Wall Street As AI Story Accelerates - stockstotrade.com
 
-Shopify Stock Draws Bullish Wall Street As AI Story Accelerates - StocksToTrade
+Shopify Stock Draws Bullish Wall Street As AI Story Accelerates - stockstotrade.com
 
 **출처:** Source · Google Search
 

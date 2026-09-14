@@ -2,7 +2,7 @@
 title: "Record 2caad961d9 · Evaluating-the-Fourier-Approximation-in-Pulsar-Timi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T11:14:07.200819+00:00
+updated_at: 2026-09-14T12:50:41.642509+00:00
 tags: [record, real-data]
 ---
 

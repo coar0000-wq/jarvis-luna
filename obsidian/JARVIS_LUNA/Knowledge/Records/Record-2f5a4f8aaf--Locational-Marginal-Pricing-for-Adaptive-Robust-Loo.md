@@ -2,7 +2,7 @@
 title: "Record 2f5a4f8aaf · Locational-Marginal-Pricing-for-Adaptive-Robust-Loo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T11:14:06.663824+00:00
+updated_at: 2026-09-14T12:50:41.116292+00:00
 tags: [record, real-data]
 ---
 

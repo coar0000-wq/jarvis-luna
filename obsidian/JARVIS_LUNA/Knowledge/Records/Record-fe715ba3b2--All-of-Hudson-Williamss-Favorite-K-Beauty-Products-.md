@@ -2,7 +2,7 @@
 title: "Record fe715ba3b2 · All-of-Hudson-Williamss-Favorite-K-Beauty-Products-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T11:14:07.059536+00:00
+updated_at: 2026-09-14T12:50:41.503734+00:00
 tags: [record, real-data]
 ---
 

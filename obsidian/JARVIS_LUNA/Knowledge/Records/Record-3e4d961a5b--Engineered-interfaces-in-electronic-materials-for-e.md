@@ -2,7 +2,7 @@
 title: "Record 3e4d961a5b · Engineered-interfaces-in-electronic-materials-for-e"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T11:14:06.783800+00:00
+updated_at: 2026-09-14T12:50:41.231187+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 5bad4a415a · Im-a-beauty-director-these-are-the-2026-beauty-tren"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T11:14:06.977029+00:00
+updated_at: 2026-09-14T12:50:41.422884+00:00
 tags: [record, real-data]
 ---
 

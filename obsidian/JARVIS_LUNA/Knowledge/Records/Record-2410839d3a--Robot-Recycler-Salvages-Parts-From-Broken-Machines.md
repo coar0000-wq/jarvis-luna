@@ -2,7 +2,7 @@
 title: "Record 2410839d3a · Robot-Recycler-Salvages-Parts-From-Broken-Machines"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T11:14:07.218772+00:00
+updated_at: 2026-09-14T12:50:41.660132+00:00
 tags: [record, real-data]
 ---
 
