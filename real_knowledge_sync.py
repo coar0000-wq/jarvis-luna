@@ -431,9 +431,16 @@ def main():
             }
             print(f"  [실패] {key} — {type(e).__name__}: {e}"[:200])
 
-    ok = [k for k, v in sources.items()
-          if isinstance(v, dict) and v.get("status") not in ("failed",)]
-    print(f"수집기 {len(sources)}개 중 살아난 것 {len(ok)}개"
+    # arxiv 는 robots 때문에 애초에 안 부른다. 건너뛴 것이지 실패한 게 아니다.
+    # 그것을 분모에 넣으면 "전부 실패" 가 영원히 성립하지 않는다.
+    # 그러면 진짜 망가져도 초록으로 끝난다. 그건 거짓말이다. 분모에서 뺀다.
+    attempted = [k for k, v in sources.items()
+                 if not (isinstance(v, dict) and v.get("status") == "skipped")]
+    ok = [k for k in attempted
+          if sources[k].get("status") != "failed"]
+    skipped = [k for k in sources if k not in attempted]
+    print(f"수집기 {len(sources)}개 · 건너뜀 {len(skipped)}개 "
+          f"· 시도 {len(attempted)}개 중 살아난 것 {len(ok)}개"
           + (f" · 실패 {failed}" if failed else ""))
 
     data = {
@@ -457,9 +464,11 @@ def main():
     print("US Beauty Sources:",
           len((sources.get("us_beauty") or {}).get("items") or []))
 
-    # 전부 실패했으면 그건 진짜 고장이다. 그때만 0 이 아닌 값으로 끝낸다.
-    if len(failed) == len(sources):
-        print("수집기가 전부 실패했다.")
+    # 시도한 것이 전부 실패했으면 그건 진짜 고장이다. 그때만 1 로 끝낸다.
+    # 하나라도 살았으면 초록으로 둔다. 뒤 단계가 그 하나로 할 일이 있다.
+    if attempted and not ok:
+        print("::error::시도한 수집기가 전부 실패했다. "
+              f"실패 {failed}")
         return 1
     return 0
 
