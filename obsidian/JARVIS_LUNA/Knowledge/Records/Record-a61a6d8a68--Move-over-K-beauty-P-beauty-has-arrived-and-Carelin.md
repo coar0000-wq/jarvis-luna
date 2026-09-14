@@ -2,7 +2,7 @@
 title: "Record a61a6d8a68 · Move-over-K-beauty-P-beauty-has-arrived-and-Carelin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T21:32:36.459143+00:00
+updated_at: 2026-09-14T21:51:30.689148+00:00
 tags: [record, real-data]
 ---
 

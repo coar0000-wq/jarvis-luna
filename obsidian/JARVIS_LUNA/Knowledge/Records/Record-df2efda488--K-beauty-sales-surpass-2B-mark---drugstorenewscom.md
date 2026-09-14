@@ -2,7 +2,7 @@
 title: "Record df2efda488 · K-beauty-sales-surpass-2B-mark---drugstorenewscom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T21:32:36.496661+00:00
+updated_at: 2026-09-14T21:51:30.706306+00:00
 tags: [record, real-data]
 ---
 

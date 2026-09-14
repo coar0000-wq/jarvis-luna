@@ -2,7 +2,7 @@
 title: "Record 492c9e0e67 · Video-Friday-Humanoid-Robot-Takes-On-Monkey-Bars"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T21:32:36.745104+00:00
+updated_at: 2026-09-14T21:51:30.853747+00:00
 tags: [record, real-data]
 ---
 

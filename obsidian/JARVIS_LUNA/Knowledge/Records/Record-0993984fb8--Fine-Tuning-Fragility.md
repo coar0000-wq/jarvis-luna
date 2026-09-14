@@ -2,7 +2,7 @@
 title: "Record 0993984fb8 · Fine-Tuning-Fragility"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T21:32:36.398383+00:00
+updated_at: 2026-09-14T21:51:30.660446+00:00
 tags: [record, real-data]
 ---
 

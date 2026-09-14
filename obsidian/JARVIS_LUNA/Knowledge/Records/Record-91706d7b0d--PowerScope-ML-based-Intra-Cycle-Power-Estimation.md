@@ -2,7 +2,7 @@
 title: "Record 91706d7b0d · PowerScope-ML-based-Intra-Cycle-Power-Estimation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T21:32:36.733775+00:00
+updated_at: 2026-09-14T21:51:30.849450+00:00
 tags: [record, real-data]
 ---
 

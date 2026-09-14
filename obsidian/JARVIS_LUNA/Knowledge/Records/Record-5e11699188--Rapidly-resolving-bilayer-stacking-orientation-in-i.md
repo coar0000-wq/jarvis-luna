@@ -2,7 +2,7 @@
 title: "Record 5e11699188 · Rapidly-resolving-bilayer-stacking-orientation-in-i"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T21:32:36.310861+00:00
+updated_at: 2026-09-14T21:51:30.611398+00:00
 tags: [record, real-data]
 ---
 

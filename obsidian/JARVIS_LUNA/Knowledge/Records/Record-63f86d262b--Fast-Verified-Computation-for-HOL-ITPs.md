@@ -2,7 +2,7 @@
 title: "Record 63f86d262b · Fast-Verified-Computation-for-HOL-ITPs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T21:32:36.275058+00:00
+updated_at: 2026-09-14T21:51:30.591700+00:00
 tags: [record, real-data]
 ---
 

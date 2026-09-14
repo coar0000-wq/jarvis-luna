@@ -2,7 +2,7 @@
 title: "Record cbc06e84c2 · Whats-NEW-with-Shopify-Sidekick"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T21:32:36.883553+00:00
+updated_at: 2026-09-14T21:51:30.972237+00:00
 tags: [record, real-data]
 ---
 

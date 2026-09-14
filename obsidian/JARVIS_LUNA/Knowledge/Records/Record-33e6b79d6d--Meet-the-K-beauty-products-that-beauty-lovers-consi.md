@@ -2,7 +2,7 @@
 title: "Record 33e6b79d6d · Meet-the-K-beauty-products-that-beauty-lovers-consi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T21:32:36.551806+00:00
+updated_at: 2026-09-14T21:51:30.738177+00:00
 tags: [record, real-data]
 ---
 
