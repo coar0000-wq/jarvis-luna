@@ -2,7 +2,7 @@
 title: "Record dbe42569b9 · How-Claudes-values-vary-by-model-and-language"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T16:17:23.996319+00:00
+updated_at: 2026-09-14T21:32:36.798308+00:00
 tags: [record, real-data]
 ---
 

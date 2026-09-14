@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-14T16:09:51.112127+00:00",
+  "collected_at": "2026-09-14T21:24:46.801582+00:00",
   "total": 1061,
   "organizations": 35,
   "by_org": {
@@ -54,19 +54,19 @@
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-09-14T16:08:57.239075+00:00"
+      "collected_at": "2026-09-14T21:23:45.130775+00:00"
     },
     "sitemap": {
       "status": "ok",
       "count": 140,
       "failures": [],
-      "collected_at": "2026-09-14T16:09:31.496284+00:00"
+      "collected_at": "2026-09-14T21:24:22.279757+00:00"
     },
     "openalex": {
       "status": "ok",
       "count": 711,
       "failures": [],
-      "collected_at": "2026-09-14T16:09:51.111062+00:00"
+      "collected_at": "2026-09-14T21:24:46.800680+00:00"
     }
   },
   "not_collected": {
@@ -84,6 +84,19 @@
     "SEC EDGAR 공시": "샌드박스에서 검증 불가하여 미등록"
   },
   "items": [
+    {
+      "title": "How Fyxer built an AI executive assistant people trust",
+      "url": "https://openai.com/index/fyxer",
+      "date": "2026-09-14",
+      "date_raw": "Mon, 14 Sep 2026 12:00:00 GMT",
+      "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+      "org": "OpenAI",
+      "category": "AI연구소",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://openai.com/news/rss.xml",
+      "title_source": "feed"
+    },
     {
       "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
       "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
@@ -176,11 +189,11 @@
       "title_source": "feed"
     },
     {
-      "title": "Introducing the Agents API",
-      "url": "https://openai.com/index/introducing-the-agents-api",
+      "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
       "date": "2026-09-10",
       "date_raw": "Thu, 10 Sep 2026 00:00:00 GMT",
-      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+      "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -189,11 +202,11 @@
       "title_source": "feed"
     },
     {
-      "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
-      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "title": "Introducing the Agents API",
+      "url": "https://openai.com/index/introducing-the-agents-api",
       "date": "2026-09-10",
       "date_raw": "Thu, 10 Sep 2026 00:00:00 GMT",
-      "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -376,19 +389,6 @@
       "date": "2026-09-03",
       "date_raw": "Thu, 03 Sep 2026 13:15:00 GMT",
       "summary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
-      "org": "OpenAI",
-      "category": "AI연구소",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://openai.com/news/rss.xml",
-      "title_source": "feed"
-    },
-    {
-      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "date": "2026-09-03",
-      "date_raw": "Thu, 03 Sep 2026 12:00:00 GMT",
-      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -2425,6 +2425,19 @@
       "title_source": "feed"
     },
     {
+      "title": "Leidos to keep 650,000 Navy and Marine Corps personnel securely connected worldwide",
+      "url": "https://investors.leidos.com/news-releases/news-release-details/leidos-keep-650000-navy-and-marine-corps-personnel-securely",
+      "date": "2026-09-14",
+      "date_raw": "Mon, 14 Sep 2026 16:30:00 -0400",
+      "summary": "Department of Navy awards $875 million for second option year on contract to secure and maintain critical networks worldwide RESTON, Va., Sept. 14, 2026 /PRNewswire/ -- Leidos &nbsp;(NYSE: LDOS)&nbsp;will continue helping keep more than 650,000 U.S. Navy and Marine Corps personnel securely connected by",
+      "org": "Leidos",
+      "category": "데이터분석",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://investors.leidos.com/rss/news-releases.xml",
+      "title_source": "feed"
+    },
+    {
       "title": "Leidos to participate in the Jefferies 2026 Global Industrials Conference",
       "url": "https://investors.leidos.com/news-releases/news-release-details/leidos-participate-jefferies-2026-global-industrials-conference",
       "date": "2026-09-09",
@@ -2534,19 +2547,6 @@
       "date": "2026-07-29",
       "date_raw": "Wed, 29 Jul 2026 08:00:00 -0400",
       "summary": "RESTON, Va., July 29, 2026 /PRNewswire/ -- Government and commercial organizations could soon thwart potential cybersecurity threats by deploying Parcata ™, a proprietary platform Leidos &nbsp;(NYSE: LDOS) has developed to autonomously find and fix software vulnerabilities.",
-      "org": "Leidos",
-      "category": "데이터분석",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://investors.leidos.com/rss/news-releases.xml",
-      "title_source": "feed"
-    },
-    {
-      "title": "US Air Force awards Leidos ISR operations support task order worth up to $717 million",
-      "url": "https://investors.leidos.com/news-releases/news-release-details/us-air-force-awards-leidos-isr-operations-support-task-order",
-      "date": "2026-07-28",
-      "date_raw": "Tue, 28 Jul 2026 14:00:00 -0400",
-      "summary": "RESTON, Va., July 28, 2026 /PRNewswire/ -- As global threats become more complex, contested and fast-moving, U.S. airmen need timely intelligence that is trusted and operationally relevant. Leidos &nbsp;(NYSE: LDOS) has been awarded a new task order by the U.S.",
       "org": "Leidos",
       "category": "데이터분석",
       "kind": "발표물",
@@ -2896,9 +2896,9 @@
       "url": "https://www.anthropic.com/research/economic-index-june-2026-report",
       "date": "2026-09-11",
       "date_raw": "2026-09-11T11:57:10.000Z",
-      "title_source": "url-slug",
-      "title": "Economic Index June 2026 Report",
-      "summary": "",
+      "title_source": "page",
+      "title": "Anthropic Economic Index report: Cadences",
+      "summary": "The latest Economic Index report looks at when people come to Claude, what they produce with it, and how they perceive AI's impact on their work.",
       "org": "Anthropic",
       "category": "AI연구소",
       "kind": "발표물",
@@ -3855,6 +3855,19 @@
       "feed": "https://home.barclays/sitemap.xml"
     },
     {
+      "url": "https://www.goldmansachs.com/what-we-do/ayco/insights/summer-review-fall-preview-market-insights",
+      "date": "2026-09-14",
+      "date_raw": "2026-09-14T20:50:37.000Z",
+      "title_source": "url-slug",
+      "title": "Summer Review Fall Preview Market Insights",
+      "summary": "",
+      "org": "Goldman Sachs",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.goldmansachs.com/sitemap.xml"
+    },
+    {
       "url": "https://www.goldmansachs.com/insights/articles/how-automation-impacts-the-lives-and-careers-of-displaced-workers",
       "date": "2026-09-11",
       "date_raw": "2026-09-11T18:56:42.000Z",
@@ -4094,19 +4107,6 @@
       "date_raw": "2026-08-28T15:56:18.000Z",
       "title_source": "url-slug",
       "title": "Gold Is Forecast To Climb As Central Banks Buy The Precious Metal",
-      "summary": "",
-      "org": "Goldman Sachs",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.goldmansachs.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.goldmansachs.com/insights/the-markets/what-is-the-outlook-for-diesel-and-gasoline-supplies",
-      "date": "2026-08-28",
-      "date_raw": "2026-08-28T13:35:15.000Z",
-      "title_source": "url-slug",
-      "title": "What Is The Outlook For Diesel And Gasoline Supplies",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -4375,11 +4375,11 @@
       "feed": "https://www.jpmorgan.com/sitemap.xml"
     },
     {
-      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/k-shaped-economy-widening-heather-berger-sarah-wolfe",
+      "url": "https://www.morganstanley.com/insights/themes/global-healthcare-conference",
       "date": "2026-09-11",
-      "date_raw": "2026-09-11T20:50:06Z",
+      "date_raw": "2026-09-11T16:48:30Z",
       "title_source": "url-slug",
-      "title": "K Shaped Economy Widening Heather Berger Sarah Wolfe",
+      "title": "Global Healthcare Conference",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4401,6 +4401,19 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
+      "url": "https://www.morganstanley.com/insights",
+      "date": "2026-09-11",
+      "date_raw": "2026-09-11T19:11:45Z",
+      "title_source": "url-slug",
+      "title": "Insights",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market",
       "date": "2026-09-11",
       "date_raw": "2026-09-11T13:56:51Z",
@@ -4414,24 +4427,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/insights/themes/global-healthcare-conference",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/k-shaped-economy-widening-heather-berger-sarah-wolfe",
       "date": "2026-09-11",
-      "date_raw": "2026-09-11T16:48:30Z",
+      "date_raw": "2026-09-11T20:50:06Z",
       "title_source": "url-slug",
-      "title": "Global Healthcare Conference",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
-      "url": "https://www.morganstanley.com/insights",
-      "date": "2026-09-11",
-      "date_raw": "2026-09-11T19:11:45Z",
-      "title_source": "url-slug",
-      "title": "Insights",
+      "title": "K Shaped Economy Widening Heather Berger Sarah Wolfe",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4466,71 +4466,6 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/fed-policy-and-markets",
-      "date": "2026-09-09",
-      "date_raw": "2026-09-09T10:04:06Z",
-      "title_source": "url-slug",
-      "title": "Fed Policy And Markets",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
-      "url": "https://www.morganstanley.com/ideas/power-moves-detroit",
-      "date": "2026-09-09",
-      "date_raw": "2026-09-09T10:12:05Z",
-      "title_source": "url-slug",
-      "title": "Power Moves Detroit",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
-      "url": "https://www.morganstanley.com/ideas/m-a-outlook-election-policy-2024",
-      "date": "2026-09-09",
-      "date_raw": "2026-09-09T16:07:11Z",
-      "title_source": "url-slug",
-      "title": "M A Outlook Election Policy 2024",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
-      "url": "https://www.morganstanley.com/ideas/startup-seed-money-tips-for-multicultural-and-women-founders",
-      "date": "2026-09-09",
-      "date_raw": "2026-09-09T10:16:50Z",
-      "title_source": "url-slug",
-      "title": "Startup Seed Money Tips For Multicultural And Women Founders",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
-      "url": "https://www.morganstanley.com/insights/articles/trump-tariff-delay-ongoing-outlook-uncertainty",
-      "date": "2026-09-09",
-      "date_raw": "2026-09-09T10:45:28Z",
-      "title_source": "url-slug",
-      "title": "Trump Tariff Delay Ongoing Outlook Uncertainty",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
       "url": "https://www.morganstanley.com/insights/themes/global-tariffs",
       "date": "2026-09-09",
       "date_raw": "2026-09-09T10:51:01Z",
@@ -4544,11 +4479,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/us-election-60-seconds-michael-zezas-market-uncertainty",
+      "url": "https://www.morganstanley.com/ideas/future-plastics-ideas-podcast",
       "date": "2026-09-09",
-      "date_raw": "2026-09-09T16:18:40Z",
+      "date_raw": "2026-09-09T10:06:40Z",
       "title_source": "url-slug",
-      "title": "Us Election 60 Seconds Michael Zezas Market Uncertainty",
+      "title": "Future Plastics Ideas Podcast",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4557,11 +4492,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/insights/articles/what-is-a-financial-plan",
+      "url": "https://www.morganstanley.com/ideas/entrepreneurs-roundtable-multicultural-innovation-lab-2018",
       "date": "2026-09-09",
-      "date_raw": "2026-09-09T16:31:35Z",
+      "date_raw": "2026-09-09T10:01:15Z",
       "title_source": "url-slug",
-      "title": "What Is A Financial Plan",
+      "title": "Entrepreneurs Roundtable Multicultural Innovation Lab 2018",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4570,24 +4505,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/insights/articles/deepseek-ai-watershed-moment",
+      "url": "https://www.morganstanley.com/ideas/us-tariffs-research-roundtable",
       "date": "2026-09-09",
-      "date_raw": "2026-09-09T10:35:15Z",
+      "date_raw": "2026-09-09T10:30:10Z",
       "title_source": "url-slug",
-      "title": "Deepseek Ai Watershed Moment",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
-      "url": "https://www.morganstanley.com/ideas/tech-startups-insiders-lessons-for-growth",
-      "date": "2026-09-09",
-      "date_raw": "2026-09-09T10:15:22Z",
-      "title_source": "url-slug",
-      "title": "Tech Startups Insiders Lessons For Growth",
+      "title": "Us Tariffs Research Roundtable",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4609,11 +4531,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/us-election-60-seconds-michael-zezas-two-investor-takeaways",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/ai-spending-boom-pay-off-brian-nowak",
       "date": "2026-09-09",
-      "date_raw": "2026-09-09T16:19:56Z",
+      "date_raw": "2026-09-09T21:01:05Z",
       "title_source": "url-slug",
-      "title": "Us Election 60 Seconds Michael Zezas Two Investor Takeaways",
+      "title": "Ai Spending Boom Pay Off Brian Nowak",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4622,11 +4544,89 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/tmt-barcelona-2015",
+      "url": "https://www.morganstanley.com/ideas/kelly-street-garden",
       "date": "2026-09-09",
-      "date_raw": "2026-09-09T10:24:01Z",
+      "date_raw": "2026-09-09T10:09:24Z",
       "title_source": "url-slug",
-      "title": "Tmt Barcelona 2015",
+      "title": "Kelly Street Garden",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
+      "url": "https://www.morganstanley.com/ideas/m-a-outlook-election-policy-2024",
+      "date": "2026-09-09",
+      "date_raw": "2026-09-09T16:07:11Z",
+      "title_source": "url-slug",
+      "title": "M A Outlook Election Policy 2024",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
+      "url": "https://www.morganstanley.com/insights/articles/deepseek-ai-watershed-moment",
+      "date": "2026-09-09",
+      "date_raw": "2026-09-09T10:35:15Z",
+      "title_source": "url-slug",
+      "title": "Deepseek Ai Watershed Moment",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
+      "url": "https://www.morganstanley.com/insights/articles/genai-revenue-growth-and-profitability",
+      "date": "2026-09-09",
+      "date_raw": "2026-09-09T10:41:34Z",
+      "title_source": "url-slug",
+      "title": "Genai Revenue Growth And Profitability",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
+      "url": "https://www.morganstanley.com/ideas/tech-startups-insiders-lessons-for-growth",
+      "date": "2026-09-09",
+      "date_raw": "2026-09-09T10:15:22Z",
+      "title_source": "url-slug",
+      "title": "Tech Startups Insiders Lessons For Growth",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
+      "url": "https://www.morganstanley.com/ideas/startup-seed-money-tips-for-multicultural-and-women-founders",
+      "date": "2026-09-09",
+      "date_raw": "2026-09-09T10:16:50Z",
+      "title_source": "url-slug",
+      "title": "Startup Seed Money Tips For Multicultural And Women Founders",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
+      "url": "https://www.morganstanley.com/ideas/power-moves-detroit",
+      "date": "2026-09-09",
+      "date_raw": "2026-09-09T10:12:05Z",
+      "title_source": "url-slug",
+      "title": "Power Moves Detroit",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",

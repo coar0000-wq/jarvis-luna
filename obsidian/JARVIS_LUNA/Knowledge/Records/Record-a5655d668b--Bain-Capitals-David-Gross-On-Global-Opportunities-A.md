@@ -2,7 +2,7 @@
 title: "Record a5655d668b · Bain-Capitals-David-Gross-On-Global-Opportunities-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T16:17:24.015757+00:00
+updated_at: 2026-09-14T21:32:36.818888+00:00
 tags: [record, real-data]
 ---
 

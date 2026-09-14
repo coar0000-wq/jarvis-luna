@@ -2,7 +2,7 @@
 title: "Record 88c91ef835 · K-Beauty-Products-Market-Size-Share--CAGR-of-96---M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T16:17:23.681853+00:00
+updated_at: 2026-09-14T21:32:36.480822+00:00
 tags: [record, real-data]
 ---
 

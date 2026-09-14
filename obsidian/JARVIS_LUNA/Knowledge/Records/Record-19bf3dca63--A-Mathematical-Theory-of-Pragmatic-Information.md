@@ -2,7 +2,7 @@
 title: "Record 19bf3dca63 · A-Mathematical-Theory-of-Pragmatic-Information"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T16:17:23.445134+00:00
+updated_at: 2026-09-14T21:32:36.235359+00:00
 tags: [record, real-data]
 ---
 

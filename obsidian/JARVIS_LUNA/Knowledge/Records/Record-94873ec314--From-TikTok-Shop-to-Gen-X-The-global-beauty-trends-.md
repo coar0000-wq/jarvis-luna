@@ -2,7 +2,7 @@
 title: "Record 94873ec314 · From-TikTok-Shop-to-Gen-X-The-global-beauty-trends-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T16:17:23.803005+00:00
+updated_at: 2026-09-14T21:32:36.592529+00:00
 tags: [record, real-data]
 ---
 

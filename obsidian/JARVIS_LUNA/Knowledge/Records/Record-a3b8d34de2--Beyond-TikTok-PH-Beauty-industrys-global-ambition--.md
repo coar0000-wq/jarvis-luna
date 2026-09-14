@@ -2,7 +2,7 @@
 title: "Record a3b8d34de2 · Beyond-TikTok-PH-Beauty-industrys-global-ambition--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T16:17:23.848328+00:00
+updated_at: 2026-09-14T21:32:36.645416+00:00
 tags: [record, real-data]
 ---
 

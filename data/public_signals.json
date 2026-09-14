@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T16:15:38.609384+00:00",
+  "generated_at": "2026-09-14T21:30:55.384905+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "sophie cunningham michael jordan nascar",
-          "approx_traffic": "20000+",
-          "traffic_num": 20000,
-          "published": "Mon, 14 Sep 2026 09:00:00 -0700",
-          "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=sophie%20cunningham%20michael%20jordan%20nascar"
+          "keyword": "royal family",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Mon, 14 Sep 2026 14:10:00 -0700",
+          "source_name": "CNN",
+          "url": "https://trends.google.com/trending?geo=US&q=royal%20family"
         },
         {
-          "keyword": "torino - roma",
+          "keyword": "retail",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Mon, 14 Sep 2026 14:00:00 -0700",
+          "source_name": "Fox Business",
+          "url": "https://trends.google.com/trending?geo=US&q=retail"
+        },
+        {
+          "keyword": "republican party",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Mon, 14 Sep 2026 09:00:00 -0700",
-          "source_name": "Fantacalcio",
-          "url": "https://trends.google.com/trending?geo=US&q=torino%20-%20roma"
+          "published": "Mon, 14 Sep 2026 13:50:00 -0700",
+          "source_name": "Reuters",
+          "url": "https://trends.google.com/trending?geo=US&q=republican%20party"
         },
         {
-          "keyword": "macklemore",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Mon, 14 Sep 2026 08:10:00 -0700",
-          "source_name": "Rolling Stone",
-          "url": "https://trends.google.com/trending?geo=US&q=macklemore"
-        },
-        {
-          "keyword": "como vs parma",
+          "keyword": "villarreal cf vs real betis standings",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Mon, 14 Sep 2026 08:50:00 -0700",
-          "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=como%20vs%20parma"
+          "published": "Mon, 14 Sep 2026 14:00:00 -0700",
+          "source_name": "BBC",
+          "url": "https://trends.google.com/trending?geo=US&q=villarreal%20cf%20vs%20real%20betis%20standings"
         },
         {
-          "keyword": "bob mackie",
+          "keyword": "arapaho",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Mon, 14 Sep 2026 08:30:00 -0700",
+          "published": "Mon, 14 Sep 2026 14:00:00 -0700",
+          "source_name": "AP News",
+          "url": "https://trends.google.com/trending?geo=US&q=arapaho"
+        },
+        {
+          "keyword": "braga fc",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Mon, 14 Sep 2026 14:00:00 -0700",
+          "source_name": "boca.com.br",
+          "url": "https://trends.google.com/trending?geo=US&q=braga%20fc"
+        },
+        {
+          "keyword": "chris gallant",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Mon, 14 Sep 2026 14:00:00 -0700",
+          "source_name": "Newsday",
+          "url": "https://trends.google.com/trending?geo=US&q=chris%20gallant"
+        },
+        {
+          "keyword": "gervonta davis",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Mon, 14 Sep 2026 14:00:00 -0700",
+          "source_name": "talkSPORT",
+          "url": "https://trends.google.com/trending?geo=US&q=gervonta%20davis"
+        },
+        {
+          "keyword": "rj harvey",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Mon, 14 Sep 2026 14:00:00 -0700",
+          "source_name": "NFL.com",
+          "url": "https://trends.google.com/trending?geo=US&q=rj%20harvey"
+        },
+        {
+          "keyword": "john krasinski",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Mon, 14 Sep 2026 13:50:00 -0700",
           "source_name": "People.com",
-          "url": "https://trends.google.com/trending?geo=US&q=bob%20mackie"
-        },
-        {
-          "keyword": "al-shamal vs al-ittihad",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Mon, 14 Sep 2026 08:30:00 -0700",
-          "source_name": "Toowoomba Chronicle",
-          "url": "https://trends.google.com/trending?geo=US&q=al-shamal%20vs%20al-ittihad"
-        },
-        {
-          "keyword": "ronaldo",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Mon, 14 Sep 2026 08:50:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=ronaldo"
-        },
-        {
-          "keyword": "stagecoach 2027",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Mon, 14 Sep 2026 08:40:00 -0700",
-          "source_name": "Rolling Stone",
-          "url": "https://trends.google.com/trending?geo=US&q=stagecoach%202027"
-        },
-        {
-          "keyword": "devin carter",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Mon, 14 Sep 2026 08:30:00 -0700",
-          "source_name": "MassLive",
-          "url": "https://trends.google.com/trending?geo=US&q=devin%20carter"
-        },
-        {
-          "keyword": "kody brown",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Mon, 14 Sep 2026 08:30:00 -0700",
-          "source_name": "People.com",
-          "url": "https://trends.google.com/trending?geo=US&q=kody%20brown"
+          "url": "https://trends.google.com/trending?geo=US&q=john%20krasinski"
         }
       ]
     },
@@ -187,6 +187,21 @@
       "source": "allure.com/feed/rss",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
       "items": [
+        {
+          "title": "The \"Practical Magic 2\" Ageism \"Controversy\" Misses the Point",
+          "published": "Mon, 14 Sep 2026 21:07:47 +0000",
+          "url": "https://www.allure.com/story/nicole-kidman-sandra-bullock-practical-magic"
+        },
+        {
+          "title": "11 Best Wrinkle Creams 2026 for Smoother, Firmer Skin",
+          "published": "Mon, 14 Sep 2026 20:47:19 +0000",
+          "url": "https://www.allure.com/gallery/best-wrinkle-cream"
+        },
+        {
+          "title": "Arizona’s Attorney General Alleges L’Oréal Downplayed Cancer Risks in New Lawsuit",
+          "published": "Mon, 14 Sep 2026 20:36:24 +0000",
+          "url": "https://www.allure.com/story/hair-relaxers-cancer-risk-loreal-lawsuit"
+        },
         {
           "title": "Hailey Bieber's Cashmere Taupe Nails Are the Mani Equivalent of Your Favorite Sweater—See the Photos",
           "published": "Mon, 14 Sep 2026 13:01:44 +0000",
@@ -321,21 +336,6 @@
           "title": "Emma Stone's Hair Is Suddenly So Long — See Photos",
           "published": "Mon, 07 Sep 2026 14:50:54 +0000",
           "url": "https://www.allure.com/story/emma-stone-long-wavy-hair-2026"
-        },
-        {
-          "title": "Pamela Anderson Brought Classic Movie Star Hair to Venice—See the Photos",
-          "published": "Mon, 07 Sep 2026 13:48:18 +0000",
-          "url": "https://www.allure.com/story/pamela-anderson-venice-film-festival-hairstyles"
-        },
-        {
-          "title": "12 Best The Ordinary Products for an Affordable Beauty Routine",
-          "published": "Sun, 06 Sep 2026 12:00:00 +0000",
-          "url": "https://www.allure.com/gallery/best-the-ordinary-products"
-        },
-        {
-          "title": "Say Hello to Bouncier Waves with These Texture-Enhancing Shampoos",
-          "published": "Sat, 05 Sep 2026 12:00:00 +0000",
-          "url": "https://www.allure.com/story/best-shampoos-for-wavy-hair"
         }
       ]
     },

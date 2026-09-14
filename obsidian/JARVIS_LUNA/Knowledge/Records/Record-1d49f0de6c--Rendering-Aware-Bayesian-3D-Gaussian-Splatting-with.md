@@ -2,7 +2,7 @@
 title: "Record 1d49f0de6c · Rendering-Aware-Bayesian-3D-Gaussian-Splatting-with"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T16:17:23.929285+00:00
+updated_at: 2026-09-14T21:32:36.727426+00:00
 tags: [record, real-data]
 ---
 

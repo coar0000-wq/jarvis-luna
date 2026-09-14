@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-14T16:11:01.223287+00:00",
+  "collected_at": "2026-09-14T21:25:59.028924+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -45,11 +45,11 @@
   "hot_keywords": [
     {
       "keyword": "september",
-      "score": 4
+      "score": 5
     },
     {
       "keyword": "2026",
-      "score": 4
+      "score": 5
     },
     {
       "keyword": "glass",
@@ -64,7 +64,15 @@
       "score": 3
     },
     {
-      "keyword": "beauty",
+      "keyword": "monday",
+      "score": 2
+    },
+    {
+      "keyword": "anything",
+      "score": 2
+    },
+    {
+      "keyword": "goes",
       "score": 2
     },
     {
@@ -72,7 +80,7 @@
       "score": 2
     },
     {
-      "keyword": "line",
+      "keyword": "beauty",
       "score": 2
     },
     {
@@ -96,14 +104,6 @@
       "score": 2
     },
     {
-      "keyword": "mascara",
-      "score": 2
-    },
-    {
-      "keyword": "essence",
-      "score": 2
-    },
-    {
       "keyword": "question",
       "score": 1
     },
@@ -121,10 +121,6 @@
     },
     {
       "keyword": "questions",
-      "score": 1
-    },
-    {
-      "keyword": "monday",
       "score": 1
     },
     {
@@ -148,6 +144,10 @@
       "score": 1
     },
     {
+      "keyword": "skill",
+      "score": 1
+    },
+    {
       "keyword": "stylevana",
       "score": 1
     },
@@ -168,39 +168,39 @@
       "score": 1
     },
     {
-      "keyword": "favourite",
+      "keyword": "horizontal",
       "score": 1
     },
     {
-      "keyword": "mist",
+      "keyword": "fine",
       "score": 1
     },
     {
-      "keyword": "over",
+      "keyword": "lines",
       "score": 1
     },
     {
-      "keyword": "anime",
+      "keyword": "only",
       "score": 1
     },
     {
-      "keyword": "impulse",
+      "keyword": "space",
       "score": 1
     },
     {
-      "keyword": "booth",
+      "keyword": "between",
       "score": 1
     },
     {
-      "keyword": "sample",
+      "keyword": "eyes",
       "score": 1
     },
     {
-      "keyword": "reviews",
+      "keyword": "those",
       "score": 1
     },
     {
-      "keyword": "happy",
+      "keyword": "who",
       "score": 1
     }
   ],
@@ -223,10 +223,6 @@
     },
     {
       "keyword": "kbeauty",
-      "score": 2
-    },
-    {
-      "keyword": "essence",
       "score": 2
     }
   ],
@@ -253,6 +249,20 @@
       "feed": "hot"
     },
     {
+      "title": "How's my skill?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wgemql/hows_my_skill/",
+      "published": "2026-09-14T20:11:05+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Anything Goes Monday: September 14, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wgfeqp/anything_goes_monday_september_14_2026/",
+      "published": "2026-09-14T20:39:14+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Stylevana - no point of insurance with lost parcels (UK)",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfwzo2/stylevana_no_point_of_insurance_with_lost_parcels/",
       "published": "2026-09-14T07:48:55+00:00",
@@ -260,9 +270,30 @@
       "feed": "hot"
     },
     {
+      "title": "Horizontal fine lines only at the space between eyes",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wg834b/horizontal_fine_lines_only_at_the_space_between/",
+      "published": "2026-09-14T16:22:31+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "For those who wear slightly enlarging lenses how big of a difference do you think it makes on your face overall?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wge57e/for_those_who_wear_slightly_enlarging_lenses_how/",
+      "published": "2026-09-14T19:53:46+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Favourite mist over makeup",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wg4071/favourite_mist_over_makeup/",
       "published": "2026-09-14T13:50:27+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Are overnight wrapping masks actually worth it?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wg23of/are_overnight_wrapping_masks_actually_worth_it/",
+      "published": "2026-09-14T12:31:31+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -281,13 +312,6 @@
       "feed": "hot"
     },
     {
-      "title": "Are overnight wrapping masks actually worth it?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wg23of/are_overnight_wrapping_masks_actually_worth_it/",
-      "published": "2026-09-14T12:31:31+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
       "title": "Rip Costco Next :( Roundlab Mugwort Line?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfvdqz/rip_costco_next_roundlab_mugwort_line/",
       "published": "2026-09-14T06:13:57+00:00",
@@ -295,16 +319,16 @@
       "feed": "hot"
     },
     {
-      "title": "Talk Me Into/Out of It September 14, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfy5nn/talk_me_intoout_of_it_september_14_2026/",
-      "published": "2026-09-14T09:00:48+00:00",
+      "title": "retinoid products with no spicules",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfio8j/retinoid_products_with_no_spicules/",
+      "published": "2026-09-13T20:24:43+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "retinoid products with no spicules",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfio8j/retinoid_products_with_no_spicules/",
-      "published": "2026-09-13T20:24:43+00:00",
+      "title": "Talk Me Into/Out of It September 14, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfy5nn/talk_me_intoout_of_it_september_14_2026/",
+      "published": "2026-09-14T09:00:48+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -375,34 +399,6 @@
       "title": "Best of kbeauty haircare?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wey2us/best_of_kbeauty_haircare/",
       "published": "2026-09-13T04:44:29+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "UV Index 0–1 & visible light: Can ambient daylight trigger hyperpigmentation",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wf2loa/uv_index_01_visible_light_can_ambient_daylight/",
-      "published": "2026-09-13T09:02:34+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Elegance paris gravityless mascara (worst mascara ive ever used)",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1we8o8n/elegance_paris_gravityless_mascara_worst_mascara/",
-      "published": "2026-09-12T10:08:33+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Isntree AHA 8% essence from Chestnut Line Discontinued?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1weh8co/isntree_aha_8_essence_from_chestnut_line/",
-      "published": "2026-09-12T16:35:52+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "20 years with YesStyle",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1we20xz/20_years_with_yesstyle/",
-      "published": "2026-09-12T03:58:47+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T16:15:39.348637+00:00",
+  "generated_at": "2026-09-14T21:30:56.270283+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
@@ -22,11 +22,11 @@
         "channel": "oliveyoung_us",
         "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
         "similarity": 0.733,
-        "demand_weight": 0.833,
+        "demand_weight": 0.882,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.611
+        "match_score": 0.647
       },
       "registerable": true
     },
@@ -57,6 +57,31 @@
     },
     {
       "rank": 3,
+      "pd_no": "1041749",
+      "name": "식물원 병풀 클리어 앰플 30 ml",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 91,
+      "grade": "S",
+      "s_rule": "ingredient+form",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041749",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231201/ymPUxMwICZXjc3irnJAl1041749_00_00ymPUxMwICZXjc3irnJAl.jpg",
+      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 92% · 토큰 ampoule, centella",
+      "matched_global": {
+        "channel": "tiktok_shop_us",
+        "global_product": "Skin1004 Madagascar Centella Ampoule",
+        "similarity": 0.92,
+        "demand_weight": 0.75,
+        "matched_tokens": [
+          "ampoule",
+          "centella"
+        ],
+        "match_score": 0.69
+      },
+      "registerable": true
+    },
+    {
+      "rank": 4,
       "pd_no": "1059834",
       "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
       "bucket": "마스크팩",
@@ -77,31 +102,6 @@
           "mask"
         ],
         "match_score": 0.585
-      },
-      "registerable": true
-    },
-    {
-      "rank": 4,
-      "pd_no": "1041749",
-      "name": "식물원 병풀 클리어 앰플 30 ml",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 90,
-      "grade": "S",
-      "s_rule": "ingredient+form",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041749",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231201/ymPUxMwICZXjc3irnJAl1041749_00_00ymPUxMwICZXjc3irnJAl.jpg",
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 92% · 토큰 ampoule, centella",
-      "matched_global": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Skin1004 Madagascar Centella Ampoule",
-        "similarity": 0.92,
-        "demand_weight": 0.75,
-        "matched_tokens": [
-          "ampoule",
-          "centella"
-        ],
-        "match_score": 0.69
       },
       "registerable": true
     },
@@ -136,7 +136,7 @@
       "name": "채비공간 어성초 추출물 비건 토너 150 ml",
       "bucket": "스킨케어",
       "price_krw": 5000,
-      "shopify_score": 89,
+      "shopify_score": 86,
       "grade": "S",
       "s_rule": "ingredient+form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",

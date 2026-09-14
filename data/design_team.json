@@ -1,6 +1,6 @@
 {
   "team": "디자인팀",
-  "generated_at": "2026-09-14T16:10:04.627012+00:00",
+  "generated_at": "2026-09-14T21:25:01.894843+00:00",
   "scope": "Shopify 스토어 디자인 사양 관리 + 디자인 레퍼런스 수집",
   "checklist": {
     "total": 12,
@@ -146,6 +146,13 @@
     "failures": [],
     "items": [
       {
+        "title": "Keep the cart in view on mobile POS",
+        "url": "https://changelog.shopify.com/posts/keep-the-cart-in-view-on-mobile-pos",
+        "date": "2026-09-14",
+        "summary": "Shopify POS v11.15 introduces a persistent cart button on phones that keeps key details about the active cart visible as staff move through POS. The cart button shows recently added items, item count, and running total, so staff can confirm what’s in the cart without leaving the screen they’re worki",
+        "feed": "Shopify Changelog"
+      },
+      {
         "title": "Multi-currency payouts now available in Australia and France",
         "url": "https://changelog.shopify.com/posts/multi-currency-payouts-now-available-in-australia-and-france",
         "date": "2026-09-11",
@@ -241,13 +248,6 @@
         "url": "https://changelog.shopify.com/posts/recommended-changes-to-checkout-field-settings-are-now-available",
         "date": "2026-08-13",
         "summary": "Eligible stores can now get personalized recommendations for customer information settings from the Checkout settings page in Shopify admin. These recommendations help you collect more complete customer details at checkout so you can reconnect with past shoppers more effectively and personalize your",
-        "feed": "Shopify Changelog"
-      },
-      {
-        "title": "Taxes now recalculate when you change an order's shipping address",
-        "url": "https://changelog.shopify.com/posts/taxes-now-recalculate-automatically-when-you-change-an-order-s-shipping-address",
-        "date": "2026-08-13",
-        "summary": "Update : Tax rates vary by destination. Previously, the original destination tax stayed on the order even after you updated the shipping address, so your financials and tax reporting could drift out of sync. Now the order reflects the taxes for where it's actually shipping, which keeps your records ",
         "feed": "Shopify Changelog"
       },
       {

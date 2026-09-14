@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T16:10:20.412100+00:00",
+  "generated_at": "2026-09-14T21:25:17.322536+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
@@ -12,7 +12,7 @@
       "recent": 215
     },
     "market": {
-      "total": 446,
+      "total": 448,
       "recent": 42
     },
     "listing": {
@@ -20,16 +20,16 @@
       "recent": 9
     },
     "pricing": {
-      "total": 13,
-      "recent": 5
+      "total": 12,
+      "recent": 4
     },
     "legal": {
       "total": 114,
       "recent": 16
     },
     "design": {
-      "total": 335,
-      "recent": 77
+      "total": 336,
+      "recent": 78
     },
     "robotics": {
       "total": 60,
@@ -41,7 +41,7 @@
     },
     "institutions": {
       "total": 1061,
-      "recent": 293
+      "recent": 295
     }
   },
   "fda_failures": [],
@@ -587,8 +587,8 @@
         "by_hand": false
       },
       {
-        "title": "From Musinsa to Daiso, K-beauty is rewriting Korea’s retail playbook - The Korea Herald",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5SY082WGxWOEt4ZDNISVVtSTJpNEJhMjNPMnFhOW1uNWEwY19EYTl6RDhxVkFzT0VMU180VkJRaE1QTV96OXRDdE1DcVhaTkVwUHpxU1BjRQ?oc=5",
+        "title": "REJURAN® COSMETICS Brings K-Beauty to LAFC Korean Heritage Night as Proud Skincare Partner - The Manila Times",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPTUZaX2pZVE9sZkk1Mm9zWFoyM05qT05tdkVrOVdjSUJuWGx4SmxDWE1XMVVrZ05aZTZZT0pjenZwWTBaczVjN3JfYzFWNmNCUks4VndFUHdnaHdKV2xzcGc1QXlWS0x1SllKYk5Ea0Y0dnB5bXJ4b3FzemdzMWNjUUdNdmViVFhrbjBNT2FzcTVzZ0tzbWs5eEFOR0k0bHprczFSVFlDZHAtTXVjdmJsQVZLZWNXNWZ0TWtCYXl0ZkRjTlJkUHFWeTY3OXhsMUowTzVGOXJxaUl1M09ETEhycmtGUENwTEZvRU9veUVkZWs1LTjSAfgBQVVfeXFMUE1WRXRDbEo3WDdLbHllSDBLbjR6WHFGSEhsNzI2MUxvRkZvOC1SRVVJQWZWSE5tLUFzb3lhaU8yc19iaE05amhfdUtYekl1TmFxX29HRzFGcHZ5U3RRbVZEdERabFk4OWNPc3Btd1FrUnYxUlpMYVczX0F0a20zb2Jsekw3Zkk0eGY2Q0xiSWh0dzBjZ2F5Zmcyc0x3VUp1bFZUcDUwZnREUXF1akFISkxqRDQtcXptc3UyMEt6TUFaYldZYVBwSF9WTmtmQ2ZlbWM0a0JCQmxnM2x4bnNWZzM3M00tQ09idlFQaFNQS0ZWdzhzc2tyT2k?oc=5",
         "pool": "google",
         "date": "2026-09-14",
         "by_hand": false
@@ -601,15 +601,8 @@
         "by_hand": false
       },
       {
-        "title": "K-Beauty Dominates AI Base Makeup Recommendations - 조선일보",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeXhNVXR2WTVXRGlJY0F3S0dYR2xKSUlCSnZtdDVMM3dQMXFkVUg2V0N4Z1JoM2JVTVRmTmdfSWU4dDR0bTNmOFBwX2c3cy1sYlcyVjZzVmJ1TkhGTkhwaXRldFN1ZDJFTmJZdUJPNHJiZ1gyNFBGajVtWDdObkVIUzlpRVptRllS?oc=5",
-        "pool": "google",
-        "date": "2026-09-14",
-        "by_hand": false
-      },
-      {
-        "title": "K-BEAUTY IS LANDING AT COLES AS SUPERMARKET SKINCARE GETS A GLOW-UP - newshub.medianet.com.au",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUUJLMjdrZERCTmItNHFTU1R2cHJ5ZmtZdkJGNzBKN2ZrX2ZWZE0wRy1ZMDVHbnhsYmpKdDQyakM3R3c3N2paN1UwdDY3VjhKUVV6cWlfUHB4a3lpMnhZSTBwTTZIX0gtdUhBaTdHVTJOWlRhVmFxLUZwcTNldllZVEl1VFEyUXF1MlZNNk1LN1VuRlVyQjI3OUJCRTZ1QkVXUzFHbnBRRXRZN0lMTmZqQ2Z0Zm1hZw?oc=5",
+        "title": "From Musinsa to Daiso, K-beauty is rewriting Korea’s retail playbook - The Korea Herald",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5SY082WGxWOEt4ZDNISVVtSTJpNEJhMjNPMnFhOW1uNWEwY19EYTl6RDhxVkFzT0VMU180VkJRaE1QTV96OXRDdE1DcVhaTkVwUHpxU1BjRQ?oc=5",
         "pool": "google",
         "date": "2026-09-14",
         "by_hand": false
@@ -624,6 +617,13 @@
       {
         "title": "K-Beauty powerhouses launch at Coles - newsreel.com.au",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTTI1NWdMdER4Z1AxUXlpMDJyOF8xb0dabVVCUTRwSDhLYlhDY05ubTFNb0VfTmlUV0tmbDdSVWlIS29VeWJoQm8xcVZyLXdCX0FqdkxsYWVwcmxySnJSU1pWMndhelNHX19Dd1hUbC1KVGhoMzh4Tk43YTN1WkxXSktCQTM?oc=5",
+        "pool": "google",
+        "date": "2026-09-14",
+        "by_hand": false
+      },
+      {
+        "title": "K-BEAUTY IS LANDING AT COLES AS SUPERMARKET SKINCARE GETS A GLOW-UP - Medianet News Hub",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUUJLMjdrZERCTmItNHFTU1R2cHJ5ZmtZdkJGNzBKN2ZrX2ZWZE0wRy1ZMDVHbnhsYmpKdDQyakM3R3c3N2paN1UwdDY3VjhKUVV6cWlfUHB4a3lpMnhZSTBwTTZIX0gtdUhBaTdHVTJOWlRhVmFxLUZwcTNldllZVEl1VFEyUXF1MlZNNk1LN1VuRlVyQjI3OUJCRTZ1QkVXUzFHbnBRRXRZN0lMTmZqQ2Z0Zm1hZw?oc=5",
         "pool": "google",
         "date": "2026-09-14",
         "by_hand": false
@@ -664,14 +664,14 @@
         "by_hand": false
       },
       {
-        "title": "The Vogue Business Beauty Trend Tracker - Vogue",
+        "title": "The Vogue Business Beauty Trend Tracker - vogue.com",
         "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96eFRtR1g5NG15VmJxdk9GX3B1V1FJdWRDdkJPb1pHMWk3d2pwMV81WFBURlJxaHRadVZTWUFKR1VSc21KX1lyVTUxa2NSa05nRmxUU1FRb1hFVWNvc2hDZ25YYUQ0Y09jMzNhLTZuWGk?oc=5",
         "pool": "google",
         "date": "2026-09-11",
         "by_hand": false
       },
       {
-        "title": "The Vogue Business TikTok Trend Tracker - Vogue",
+        "title": "The Vogue Business TikTok Trend Tracker - vogue.com",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9nc2ktNnQxVzlMTjl1MjR5MFYwSkMtVjI1Z0VhZlBLU0JqVlBjdHUyejJCVDV3OE9xYmF3ckhxR2VXLTk1Y3ZScXZfN0VPSU1ManFXYmFUWWxKTDN6cjFXTzk2OGxSVWxDOHIyeXZmRG9jUktfd2FIMg?oc=5",
         "pool": "google",
         "date": "2026-09-11",
@@ -713,7 +713,7 @@
         "by_hand": false
       },
       {
-        "title": "How Generative AI Is Reshaping Ecommerce Search and Product Discovery - technology.org",
+        "title": "How Generative AI Is Reshaping Ecommerce Search and Product Discovery - Technology Org",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTlhickxjakJSeHNMZWVRLXlrcjhaRzdaM3lEV183eTZVM1EwZEQ1SjR3VFlwNkdvOVZ0TVdfa192cERxRWF0dFVKN2FRb0N0aFNHblo0OERET0RMTnFmdURUcC1vY18wNTRFdFlCZUhQQjA0MlFobEkyeDFKYkpHV25abmlhS2o5OXd4S0NvUkRienRHVHV4eFhJX3NGa2NVUjdOTDJ0VjdxcGFu?oc=5",
         "pool": "google",
         "date": "2026-09-09",
@@ -734,14 +734,14 @@
         "by_hand": false
       },
       {
-        "title": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
+        "title": "6 Steps to Glass Skin, According to K-Beauty Experts - vogue.com",
         "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5",
         "pool": "google",
         "date": "2026-09-08",
         "by_hand": false
       },
       {
-        "title": "From medicine cabinet to makeup bag: Drugmakers turn medical research into skincare - koreajoongangdaily.com",
+        "title": "From medicine cabinet to makeup bag: Drugmakers turn medical research into skincare - Korea JoongAng Daily",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNDhGOE5GQWVncngtaGZBcVkzT0pGcjB4V3dHLUNMMjNoMGJVcjIzWDRjWDJGS3JWWjZ1N1dkN2dfSWpabktCMzd0bXEyNU9TYmtUMUk0VDZlVktNMjh6aER3cTZmdDFnWS1EN1RvOUJDMlNlY0huVlROa0tCUF9RMXNOaGZ5R0NvNEd0UWFjRVhsSmpXZ053WEpfN01zaUNOZExHMm5zLU5OckVKUEktMm5UUTBwT2VyV2dKZUJWNmUtT2xBSklwTHFwN1pzcXVj?oc=5",
         "pool": "google",
         "date": "2026-09-08",
@@ -762,7 +762,7 @@
         "by_hand": false
       },
       {
-        "title": "Would You Go on a Glowcation? K-Beauty Is Betting So - Vogue",
+        "title": "Would You Go on a Glowcation? K-Beauty Is Betting So - vogue.com",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ01YZ2lKV0VUQzJROHZVVnJZbWM1dkw1TFRGLXFMcUx0dWhaZDJheTIwdE9yaElIUFpmYlJVSXg2UnQ0aDhCOVd3MVZvakhvVWxDWi1wM2hfbGVKbjFaSHJLWjJHYU02M3lwdGRXQVNfSXJGdWVTN0h4V0tvaU9iLUIzbGFmZkFU?oc=5",
         "pool": "google",
         "date": "2026-09-04",
@@ -790,14 +790,14 @@
         "by_hand": false
       },
       {
-        "title": "What makes K-beauty Korean? The answer is getting complicated. - koreajoongangdaily.com",
+        "title": "What makes K-beauty Korean? The answer is getting complicated. - Korea JoongAng Daily",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTHduVDgyX3Fsb1owRDBvLVd4bDEzQjZlZk1UcGY5aE5oS1NGR0VrVV9scXFNNG9xdGZTcUZQX3A0NEM4LUxJdUt6TWhORGxJVnE5NnM5VVdYWUthOXZWX2xNV0VoUTFsM3lVUl9MR3o5cHF1eXBjSl9feEtwYWtNY1A4RGNRZUItREFtRU8xZ0hzVmVhZ3Bwdmx3X3B6eVNkY3BPb3dGaThJaENSVEJGVWxn?oc=5",
         "pool": "google",
         "date": "2026-09-03",
         "by_hand": false
       },
       {
-        "title": "10 Best AI-Powered Analytics Tools for Ecommerce in 2026: Chat Interfaces, Autonomous Analysts and Vertical Tools Compared - ask-luca.com",
+        "title": "10 Best AI-Powered Analytics Tools for Ecommerce in 2026: Chat Interfaces, Autonomous Analysts and Vertical Tools Compared - Ask Luca",
         "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1aYVpPVndBZV9leHQ1N2NObW9TbUNZTVEtT2prTFpocXB2N0ktVGRoSWs0dXdJa1Jid05lNGI0LU91UGN0R1ppYUo2Zm1JdGwxUVR2ZTBoUThfaTNkR2puLUFNdw?oc=5",
         "pool": "google",
         "date": "2026-09-03",
@@ -839,14 +839,14 @@
         "by_hand": false
       },
       {
-        "title": "Why imperfect beauty is becoming a planning signal for MUAs and brand buyers beyond 2026 - Miami Herald",
+        "title": "Why imperfect beauty is becoming a planning signal for MUAs and brand buyers beyond 2026 - miamiherald.com",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBxUk1UYUJPcXhnWjlFczJhckZRMjlLM0ZFX1hnclN5cjk0d1prbVNWNWZqVWFMX0M1N2VSY08tNzNteDE0NDNsdWN4SmpTUkpzSDVkMFFhdndkRVBXNGZWRjhuUXpqTWvSAWdBVV95cUxNM1p2Wmx6MVYta09USHF2UUU0MWthTlNwamRPQWUtV0FMbF94U1Zjc1RrN2pUZVg5djlwc2dyZk8zeV9PT0VrRVhUWEJlZmlMM2xHdUk3eUJNUFNkV1lRRFRuVUE5TFpZ?oc=5",
         "pool": "google",
         "date": "2026-08-31",
         "by_hand": false
       },
       {
-        "title": "12 Makeup Trends to Experiment With in Fall 2026: Feathery Eyebrows, Barely-There Mascara, & More - teenvogue.com",
+        "title": "12 Makeup Trends to Experiment With in Fall 2026: Feathery Eyebrows, Barely-There Mascara, & More - Teen Vogue",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9OdzQ0OXlSbWVrOW1FUXdtSURIcjVsZnJhNEFleWtxZnRjcDdESjdFZlBXUVR0eEM0Tzg2NDN2M2tqU0pEaXd6TTZBOE5yRkVZR2ZBQU1DNWp1RTlxN2V6UHNHUUFJb28?oc=5",
         "pool": "google",
         "date": "2026-08-31",
@@ -867,7 +867,7 @@
         "by_hand": false
       },
       {
-        "title": "Game over, new routine: Laid-off Xbox manager built her Korean skincare startup before cuts hit - GeekWire",
+        "title": "Game over, new routine: Laid-off Xbox manager built her Korean skincare startup before cuts hit - geekwire.com",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSmd3bV80NzFvZlZtOUNnSUF4eTRlQ0VoamFoUlY5aEQ2Q000MmlBVmVTQ3ZuWV9wTmhzWXROSWNyaDNuQ0JrTFdEczljM0JlbTBtdFBZbnhtakNaWHBTZTBGWDFzbDJURU1ESi1mano4T21KMHV0ZEQwOFI3aWI3Q2lTbzhPSmw5dEp6cGZVXzhadW5GNTRNaVhhMEhIdjY0czMwTmN4aUlpVWNYTmV5ZnNxWkdlcUZFUUhoNEdId3gxZw?oc=5",
         "pool": "google",
         "date": "2026-08-28",
@@ -1018,13 +1018,6 @@
         "by_hand": false
       },
       {
-        "title": "Global Tariffs",
-        "url": "https://www.morganstanley.com/insights/themes/global-tariffs",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
         "title": "Trump Tariff Delay Ongoing Outlook Uncertainty",
         "url": "https://www.morganstanley.com/insights/articles/trump-tariff-delay-ongoing-outlook-uncertainty",
         "pool": "institutions",
@@ -1032,8 +1025,8 @@
         "by_hand": false
       },
       {
-        "title": "Us Tariffs Research Roundtable",
-        "url": "https://www.morganstanley.com/ideas/us-tariffs-research-roundtable",
+        "title": "Global Tariffs",
+        "url": "https://www.morganstanley.com/insights/themes/global-tariffs",
         "pool": "institutions",
         "date": "2026-09-09",
         "by_hand": false
@@ -1736,9 +1729,23 @@
         "by_hand": true
       },
       {
+        "title": "Universal Robots launches its seventh generation robot platform at IMTS",
+        "url": "https://www.therobotreport.com/universal-robots-launches-its-seventh-generation-robot-platform-at-imts/",
+        "pool": "robotics",
+        "date": "2026-09-14",
+        "by_hand": false
+      },
+      {
         "title": "Beyond glass skin to serious business: Can K-beauty build a lasting business in India? - SME Futures",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb2haV3BsTHVMcURjanhTVmNpNDRNVjZNZ3U1c3Z6clR3alpqTnNaYl85eWhvaVUwVUluNVpGb1kzaDBUVWRvMFVHRXVwYlBUeFdoT1NqbTdqUmtvdFJ2R2VlOGJpdDFmdDZETU1IMEduZ0FOd09INDdIUHhKek1YMG5semcyYi1tR1pxWFB5NE14M2tSWXVEeElOeGw3RV9rTV9IWVlsLWwtWFFF?oc=5",
         "pool": "google",
+        "date": "2026-09-14",
+        "by_hand": false
+      },
+      {
+        "title": "Keep the cart in view on mobile POS",
+        "url": "https://changelog.shopify.com/posts/keep-the-cart-in-view-on-mobile-pos",
+        "pool": "design_refs",
         "date": "2026-09-14",
         "by_hand": false
       },
@@ -1909,23 +1916,16 @@
         "pool": "robotics",
         "date": "2026-09-09",
         "by_hand": false
-      },
-      {
-        "title": "The AI policy window is open. We need to act.",
-        "url": "https://openai.com/index/ai-policy-window",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "SK hynix Charts Its Business and Technology Direction at the 2026 Future Forum—”Now Is the Golden Time to Leap Forward”",
-        "url": "https://news.skhynix.com/en/future-forum-2026-5/",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
       }
     ],
     "robotics": [
+      {
+        "title": "Universal Robots launches its seventh generation robot platform at IMTS",
+        "url": "https://www.therobotreport.com/universal-robots-launches-its-seventh-generation-robot-platform-at-imts/",
+        "pool": "robotics",
+        "date": "2026-09-14",
+        "by_hand": false
+      },
       {
         "title": "How autonomous fleets are changing what’s possible in American agriculture",
         "url": "https://www.therobotreport.com/how-autonomous-fleets-are-changing-whats-possible-american-agriculture/",
@@ -2039,13 +2039,6 @@
         "by_hand": false
       },
       {
-        "title": "AI can’t outrun a humanoid’s hardware",
-        "url": "https://www.therobotreport.com/ai-cant-outrun-a-humanoids-hardware/",
-        "pool": "robotics",
-        "date": "2026-09-08",
-        "by_hand": false
-      },
-      {
         "title": "How GPT-5.6 Sol helps run quantum computing experiments",
         "url": "https://openai.com/index/codex-quantum-computing-experiments",
         "pool": "institutions",
@@ -2088,7 +2081,7 @@
         "by_hand": false
       },
       {
-        "title": "10 Best AI-Powered Analytics Tools for Ecommerce in 2026: Chat Interfaces, Autonomous Analysts and Vertical Tools Compared - ask-luca.com",
+        "title": "10 Best AI-Powered Analytics Tools for Ecommerce in 2026: Chat Interfaces, Autonomous Analysts and Vertical Tools Compared - Ask Luca",
         "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1aYVpPVndBZV9leHQ1N2NObW9TbUNZTVEtT2prTFpocXB2N0ktVGRoSWs0dXdJa1Jid05lNGI0LU91UGN0R1ppYUo2Zm1JdGwxUVR2ZTBoUThfaTNkR2puLUFNdw?oc=5",
         "pool": "google",
         "date": "2026-09-03",
@@ -2785,6 +2778,20 @@
         "by_hand": false
       },
       {
+        "title": "Samsung and Verizon Complete Successful ISAC Trial Over Virtualized Network at Global Sports Event",
+        "url": "https://news.samsung.com/global/samsung-and-verizon-complete-successful-isac-trial-over-virtualized-network-at-global-sports-event",
+        "pool": "institutions",
+        "date": "2026-09-14",
+        "by_hand": false
+      },
+      {
+        "title": "ASML reports transactions under its current share buyback program",
+        "url": "https://www.asml.com/en/news/share-buyback/2026/asml-reports-transactions-under-its-current-share-buyback-program-33",
+        "pool": "institutions",
+        "date": "2026-09-14",
+        "by_hand": false
+      },
+      {
         "title": "Physics‐Informed Agent‐Analytics Framework With Causal Validation for Crease Prediction in Multilayer Flexible Cover Stacks",
         "url": "https://doi.org/10.1002/jsid.70101",
         "pool": "institutions",
@@ -2897,7 +2904,7 @@
         "by_hand": false
       },
       {
-        "title": "Anthropic Economic Index report: Cadences",
+        "title": "Economic Index June 2026 Report",
         "url": "https://www.anthropic.com/research/economic-index-june-2026-report",
         "pool": "institutions",
         "date": "2026-09-11",
@@ -2960,13 +2967,6 @@
         "by_hand": false
       },
       {
-        "title": "Bain Capitals David Gross On Global Opportunities And Private Equitys Evolution",
-        "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/bain-capitals-david-gross-on-global-opportunities-and-private-equitys-evolution",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
         "title": "How Automation Impacts The Lives And Careers Of Displaced Workers",
         "url": "https://www.goldmansachs.com/insights/articles/how-automation-impacts-the-lives-and-careers-of-displaced-workers",
         "pool": "institutions",
@@ -2983,6 +2983,13 @@
       {
         "title": "What A Fed Rate Hike Could Mean For Us Stocks",
         "url": "https://www.goldmansachs.com/insights/the-markets/what-a-fed-rate-hike-could-mean-for-us-stocks",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
+        "title": "Bain Capitals David Gross On Global Opportunities And Private Equitys Evolution",
+        "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/bain-capitals-david-gross-on-global-opportunities-and-private-equitys-evolution",
         "pool": "institutions",
         "date": "2026-09-11",
         "by_hand": false
@@ -3065,15 +3072,15 @@
         "by_hand": false
       },
       {
-        "title": "Global Healthcare Conference",
-        "url": "https://www.morganstanley.com/insights/themes/global-healthcare-conference",
+        "title": "K Shaped Economy Widening Heather Berger Sarah Wolfe",
+        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/k-shaped-economy-widening-heather-berger-sarah-wolfe",
         "pool": "institutions",
         "date": "2026-09-11",
         "by_hand": false
       },
       {
-        "title": "Insights",
-        "url": "https://www.morganstanley.com/insights",
+        "title": "Singing In Holiday Giving",
+        "url": "https://www.morganstanley.com/ideas/singing-in-holiday-giving",
         "pool": "institutions",
         "date": "2026-09-11",
         "by_hand": false
@@ -3086,8 +3093,15 @@
         "by_hand": false
       },
       {
-        "title": "Singing In Holiday Giving",
-        "url": "https://www.morganstanley.com/ideas/singing-in-holiday-giving",
+        "title": "Global Healthcare Conference",
+        "url": "https://www.morganstanley.com/insights/themes/global-healthcare-conference",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
+        "title": "Insights",
+        "url": "https://www.morganstanley.com/insights",
         "pool": "institutions",
         "date": "2026-09-11",
         "by_hand": false
@@ -3165,27 +3179,6 @@
       {
         "title": "Cloudera and Mistral Partner to Bring Specialized, Sovereign Intelligence to Enterprise Data",
         "url": "https://mistral.ai/news/mistral-x-cloudera/",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Unifying governance across engines and catalogs in the Open Lakehouse",
-        "url": "https://www.databricks.com/blog/unifying-governance-across-engines-and-catalogs-open-lakehouse",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Improving Lakebase Postgres compute cache",
-        "url": "https://www.databricks.com/blog/improving-lakebase-postgres-compute-cache",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Advancing Claude For Financial Services",
-        "url": "https://www.anthropic.com/news/advancing-claude-for-financial-services",
         "pool": "institutions",
         "date": "2026-09-10",
         "by_hand": false

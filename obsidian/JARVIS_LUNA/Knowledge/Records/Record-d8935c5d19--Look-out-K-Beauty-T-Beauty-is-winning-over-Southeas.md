@@ -2,7 +2,7 @@
 title: "Record d8935c5d19 · Look-out-K-Beauty-T-Beauty-is-winning-over-Southeas"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T16:17:23.838098+00:00
+updated_at: 2026-09-14T21:32:36.632650+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record ed682542ee · Want-Glowing-Skin-Experts-Agree-These-Are-the-Korea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T16:17:23.803720+00:00
+updated_at: 2026-09-14T21:32:36.593040+00:00
 tags: [record, real-data]
 ---
 
