@@ -523,31 +523,23 @@ Product Discovery
 </div>
 <div class="pd-menu">⋯</div>
 </div>
-<ul class="pd-list">
-<li class="pd-item">
-<div class="pd-thumb">💧</div>
-<div class="pd-info">
-<div class="pd-name">Hydrating Serum</div>
-<div class="pd-desc">Rising demand</div>
-</div>
-<div class="pd-change">↑ 24%</div>
-</li>
-<li class="pd-item">
-<div class="pd-thumb">🧴</div>
-<div class="pd-info">
-<div class="pd-name">Ceramide Moisturizer</div>
-<div class="pd-desc">High intent</div>
-</div>
-<div class="pd-change">↑ 18%</div>
-</li>
-<li class="pd-item">
-<div class="pd-thumb">☀️</div>
-<div class="pd-info">
-<div class="pd-name">Daily SPF 50</div>
-<div class="pd-desc">Seasonal momentum</div>
-</div>
-<div class="pd-change">↑ 12%</div>
-</li>
+<!--
+  2026-09-15 여기는 손으로 박은 가짜 목록이었다.
+    Hydrating Serum ↑ 24%
+    Ceramide Moisturizer ↑ 18%
+    Daily SPF 50 ↑ 12%
+
+  세 개 다 수치까지 지어낸 것이어서 수집 결과와 아무 관계가 없다.
+  더구나 Daily SPF 50 은 팔 수 있는 물건이 아니다.
+  미국에서 선크림은 화장품이 아니라 OTC 의약품이고,
+  category_map.json 의 [선케어] 규칙이 이미 수집 단계에서 걷어낸다.
+  시스템이 막은 물건을 대시보드가 추천하고 있었다.
+
+  제외 규칙과 법률 하드블록을 이미 통과한 S등급 실물로 바꾼다.
+  근거: data/market_team.json 의 s_grade_priority
+-->
+<ul class="pd-list" id="pd-list">
+<li class="pd-item"><div class="pd-info"><div class="pd-desc">불러오는 중...</div></div></li>
 </ul>
 </div>
 
@@ -636,6 +628,55 @@ Product Discovery
 
 <script>
 const esc = s => String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+
+// 미국에서 못 파는 갈래는 화면에도 올리지 않는다.
+//
+// 정본은 scripts/daiso/category_map.json 의 exclude 이고
+// 수집 단계에서 이미 걸러진다. 여기 있는 것은 두 번째 그물이다.
+// 어딘가 한 곳이 뚫려도 팔 수 없는 물건이 추천으로 뜨면 안 된다.
+//
+// 특히 선케어: 미국에서 선크림은 화장품이 아니라 OTC 의약품이다.
+// Drug Facts 라벨과 활성성분 표기, 시설 등록이 따로 필요하다.
+const BLOCKED_RE = /spf|pa\+|선크림|선케어|선스틱|선쿠션|선블록|선밤|톤업선|자차|자외선|sunscreen|sun cream|치약|불소|가글|구강청결|치아미백|치석|항균|살균|소독|antibacterial|비듬|탈모|dandruff|지루성|발모|데오드란트|antiperspirant|발한|네일|매니큐어|젤네일|페디|아세톤/i;
+
+function isSellable(row){
+  const blob = [row && row.name, row && row.name_en, row && row.bucket].join(' ');
+  return !BLOCKED_RE.test(blob);
+}
+
+// 갈래별 아이콘. 못 찾으면 기본값.
+const PD_ICON = {'스킨케어':'💧','클렌징':'🧼','마스크팩':'🎭','헤어':'💇','바디':'🧴','메이크업':'💄','뷰티소품':'🪮'};
+
+function renderProductDiscovery(mt){
+  const ul = $('pd-list');
+  if(!ul) return;
+
+  const rows = ((mt && mt.s_grade_priority) || []).filter(isSellable);
+
+  if(!rows.length){
+    ul.innerHTML = '<li class="pd-item"><div class="pd-info">'
+      + '<div class="pd-desc">등록 가능한 S등급 상품이 없습니다</div></div></li>';
+    return;
+  }
+
+  ul.innerHTML = rows.slice(0,3).map(p=>{
+    const icon = PD_ICON[p.bucket] || '🧪';
+    const name = p.name_en || p.name || '';
+    // 점수는 실제 산출값이다. 추세 퍼센트를 지어내지 않는다.
+    const score = (p.score != null) ? ('점수 ' + p.score) : '점수 없음';
+    const sub = [p.bucket, score].filter(Boolean).join(' · ');
+    const price = (p.suggested_price_usd != null)
+      ? ('$' + Number(p.suggested_price_usd).toFixed(2)) : '–';
+    return '<li class="pd-item">'
+      + '<div class="pd-thumb">' + icon + '</div>'
+      + '<div class="pd-info">'
+      + '<div class="pd-name">' + esc(name) + '</div>'
+      + '<div class="pd-desc">' + esc(sub) + '</div>'
+      + '</div>'
+      + '<div class="pd-change">' + esc(price) + '</div>'
+      + '</li>';
+  }).join('');
+}
 const $ = id => document.getElementById(id);
 const set = (id,v) => { const el=$(id); if(el) el.textContent=v; };
 
@@ -1186,6 +1227,9 @@ function renderMarketTeam(mt){
       '</li>';
     }).join('') : '<li class="ch-empty"><span class="ch-badge">S등급 없음</span></li>';
   }
+
+  // 상품 발굴 (Product Discovery)
+  renderProductDiscovery(mt);
 
   // 키워드 보드
   if(kw){
