@@ -1,6 +1,6 @@
 {
   "agent": "Ops-Prioritizer",
-  "generated_at": "2026-09-15T08:15:42.290234+00:00",
+  "generated_at": "2026-09-15T13:44:05.663210+00:00",
   "risk": "medium",
   "task_count": 5,
   "tasks": [
@@ -25,6 +25,15 @@
     },
     {
       "priority": 4,
+      "title": "팀 조치 · 상품 소싱팀",
+      "detail": "직전 실행 8건 받아 성공 5건 · 받아보고 뷰티 아니라 버림 3건 · 이미 판정해서 안 받음 1523건 · 후보 출처 queue, 큐 3213건",
+      "refs": [
+        "data/dashboard_runtime.json"
+      ],
+      "approve": "사람: 팀 카드 조치 확인"
+    },
+    {
+      "priority": 4,
       "title": "팀 조치 · 리스팅 제작팀",
       "detail": "가격 1건 이 막고 있음",
       "refs": [
@@ -36,15 +45,6 @@
       "priority": 4,
       "title": "팀 조치 · 가격 정책팀",
       "detail": "1건이 시장가로 손익분기 미달",
-      "refs": [
-        "data/dashboard_runtime.json"
-      ],
-      "approve": "사람: 팀 카드 조치 확인"
-    },
-    {
-      "priority": 4,
-      "title": "팀 조치 · 디자인팀",
-      "detail": "다음 단계: Shopify 스토어 개설 및 기본 설정",
       "refs": [
         "data/dashboard_runtime.json"
       ],
@@ -65,15 +65,15 @@
       },
       {
         "n": 3,
-        "text": "팀 조치 · 리스팅 제작팀 — 가격 1건 이 막고 있음"
+        "text": "팀 조치 · 상품 소싱팀 — 직전 실행 8건 받아 성공 5건 · 받아보고 뷰티 아니라 버림 3건 · 이미 판정해서 안 받음 1523건 · 후보 출처 queue, 큐 3213"
       },
       {
         "n": 4,
-        "text": "팀 조치 · 가격 정책팀 — 1건이 시장가로 손익분기 미달"
+        "text": "팀 조치 · 리스팅 제작팀 — 가격 1건 이 막고 있음"
       },
       {
         "n": 5,
-        "text": "팀 조치 · 디자인팀 — 다음 단계: Shopify 스토어 개설 및 기본 설정"
+        "text": "팀 조치 · 가격 정책팀 — 1건이 시장가로 손익분기 미달"
       }
     ]
   }
