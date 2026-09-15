@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-09-16T03:10:49.876526+09:00",
+    "updated_at": "2026-09-16T05:43:45.262140+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -400,10 +400,10 @@
       "us_example_count": 2,
       "gemini_tags": [
         "collagen mask",
-        "face mask",
+        "facial mask",
         "firming mask",
-        "korean beauty",
-        "sheet mask"
+        "korean skincare",
+        "pdrn mask"
       ],
       "linked_s_products": [
         "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
@@ -446,9 +446,8 @@
       "us_example_count": 3,
       "gemini_tags": [
         "centella ampoule",
-        "facial ampoule",
+        "face ampoule",
         "glow ampoule",
-        "hydrating ampoule",
         "korean skincare"
       ],
       "linked_s_products": [
@@ -534,7 +533,8 @@
       ],
       "us_example_count": 3,
       "gemini_tags": [
-        "pdrn cream"
+        "pdrn cream",
+        "pdrn mask"
       ],
       "linked_s_products": [
         "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
@@ -609,7 +609,7 @@
         "cica toner",
         "facial toner",
         "heartleaf toner",
-        "korean toner"
+        "hydrating toner"
       ],
       "linked_s_products": [
         "[퀵시카진정]VT 시카 카밍 토너 300 ml",
@@ -691,7 +691,7 @@
       "rank": 1,
       "pd_no": "1048583",
       "name": "드롭비 탄탄 광채 앰플 40 ml",
-      "name_en": "Drop B Firming Glow Ampoule 40ml",
+      "name_en": "Drop Be Firming Glow Ampoule 40 ml",
       "bucket": "스킨케어",
       "score": 97,
       "rating": 4.8,
@@ -706,9 +706,9 @@
         "k-beauty",
         "face-serum",
         "glow-ampoule",
-        "korean-skincare",
-        "drop-b",
-        "hydrating-serum"
+        "skincare",
+        "drop-be",
+        "brightening-serum"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "listing_ready": true,
@@ -718,7 +718,7 @@
       "rank": 2,
       "pd_no": "1075857",
       "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
-      "name_en": null,
+      "name_en": "Celderma Daily PDRN Radiance Cream Wrapping Mask 1ea",
       "bucket": "스킨케어",
       "score": 94,
       "rating": 4.8,
@@ -729,16 +729,23 @@
       "suggested_price_usd": 17.09,
       "margin_pct": null,
       "shopify_action": "1차 등록",
-      "ad_keywords": [],
-      "ad_keywords_source": "카피 미생성",
-      "listing_ready": false,
+      "ad_keywords": [
+        "celderma",
+        "pdrn-mask",
+        "sheet-mask",
+        "korean-skincare",
+        "radiance-mask",
+        "facial-mask"
+      ],
+      "ad_keywords_source": "Gemini 영문 카피 태그",
+      "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1075857"
     },
     {
       "rank": 3,
       "pd_no": "1041749",
       "name": "식물원 병풀 클리어 앰플 30 ml",
-      "name_en": "Sikmulnara Centella Clear Ampoule 30ml",
+      "name_en": "Sikmulnara Centella Clear Ampoule 30 ml",
       "bucket": "스킨케어",
       "score": 91,
       "rating": 4.8,
@@ -750,12 +757,12 @@
       "margin_pct": null,
       "shopify_action": "1차 등록",
       "ad_keywords": [
-        "k-beauty",
-        "facial-ampoule",
+        "sikmulnara",
         "centella-ampoule",
         "korean-skincare",
-        "sikmulnara",
-        "hydrating-ampoule"
+        "face-ampoule",
+        "hydrating-serum",
+        "k-beauty"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "listing_ready": true,
@@ -765,7 +772,7 @@
       "rank": 4,
       "pd_no": "1062781",
       "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
-      "name_en": "Cell Fusion C Derma Block PDRN Collagen Cream 50ml",
+      "name_en": "Cell Fusion C Derma Block PDRN Collagen Cream 50 ml",
       "bucket": "스킨케어",
       "score": 91,
       "rating": 4.8,
@@ -780,9 +787,9 @@
         "cell-fusion-c",
         "pdrn-cream",
         "collagen-cream",
-        "korean-skincare",
+        "k-beauty",
         "face-cream",
-        "moisturizer"
+        "korean-skincare"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "listing_ready": true,
@@ -792,7 +799,7 @@
       "rank": 5,
       "pd_no": "1060487",
       "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
-      "name_en": null,
+      "name_en": "Medi-Peel Lacto Pore Lifting Wrapping Mask 4ml 4pk",
       "bucket": "마스크팩",
       "score": 90,
       "rating": 4.8,
@@ -803,9 +810,16 @@
       "suggested_price_usd": 17.09,
       "margin_pct": null,
       "shopify_action": "1차 등록",
-      "ad_keywords": [],
-      "ad_keywords_source": "카피 미생성",
-      "listing_ready": false,
+      "ad_keywords": [
+        "medi-peel",
+        "pore-mask",
+        "wrapping-mask",
+        "k-beauty",
+        "facial-mask",
+        "korean-skincare"
+      ],
+      "ad_keywords_source": "Gemini 영문 카피 태그",
+      "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060487"
     },
     {
@@ -827,9 +841,9 @@
         "vt-cica",
         "cica-toner",
         "calming-toner",
-        "korean-toner",
+        "korean-skincare",
         "facial-toner",
-        "k-beauty"
+        "hydrating-toner"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "listing_ready": true,
@@ -853,10 +867,10 @@
       "ad_keywords": [
         "vegan-toner",
         "heartleaf-toner",
-        "korean-toner",
         "k-beauty",
+        "korean-skincare",
         "facial-toner",
-        "skincare"
+        "hydrating-toner"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "listing_ready": true,
@@ -881,8 +895,8 @@
         "celderma",
         "collagen-mask",
         "sheet-mask",
-        "korean-beauty",
-        "face-mask",
+        "k-beauty",
+        "facial-mask",
         "firming-mask"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
@@ -965,8 +979,7 @@
     }
   ],
   "weekly_actions": [
-    "영문 카피가 준비된 6건 중 상위 5건을 Shopify 초안으로 등록",
-    "카피 미생성 2건에 대해 shopify-listing-copy 워크플로 재실행",
+    "영문 카피가 준비된 8건 중 상위 5건을 Shopify 초안으로 등록",
     "시장 가격대 100건 기준 중앙값 $23.0 주 1회 확인",
     "묶음 구매 유도용 무료배송 최소 주문금액 설정 (낱개 배송 시 적자 구조라 필수)"
   ],
@@ -990,7 +1003,7 @@
       "open_beauty_facts"
     ],
     "s_count": 8,
-    "listing_ready_count": 6,
+    "listing_ready_count": 8,
     "last_score_run": "2026-09-15",
     "last_pricing_run": "2026-09-15",
     "exchange_rate": 1359.15
