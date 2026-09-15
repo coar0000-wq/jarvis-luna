@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-09-16T08:15:23.174622+09:00",
+    "updated_at": "2026-09-16T08:23:12.190986+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -406,10 +406,10 @@
       "us_example_count": 3,
       "gemini_tags": [
         "collagen mask",
+        "face mask",
         "facial mask",
         "firming mask",
-        "korean skincare",
-        "pdrn mask"
+        "gel mask"
       ],
       "linked_s_products": [
         "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
@@ -451,7 +451,12 @@
         }
       ],
       "us_example_count": 3,
-      "gemini_tags": [],
+      "gemini_tags": [
+        "boosting ampoule",
+        "face ampoule",
+        "facial ampoule",
+        "korean skincare"
+      ],
       "linked_s_products": [
         "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
         "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입"
@@ -491,7 +496,11 @@
       ],
       "us_example_count": 3,
       "gemini_tags": [
-        "korean skincare"
+        "face mask",
+        "glow cream",
+        "hydrating cream",
+        "korean skincare",
+        "pdrn cream"
       ],
       "linked_s_products": [
         "[영양광채]VT PDRN 광채 크림 50 ml",
@@ -532,6 +541,7 @@
       ],
       "us_example_count": 3,
       "gemini_tags": [
+        "pdrn cream",
         "pdrn mask"
       ],
       "linked_s_products": [
@@ -616,9 +626,9 @@
       "gemini_tags": [
         "calming toner",
         "cica toner",
+        "face toner",
         "facial toner",
-        "heartleaf toner",
-        "hydrating toner"
+        "heartleaf toner"
       ],
       "linked_s_products": [
         "[퀵시카진정]VT 시카 카밍 토너 300 ml",
@@ -658,7 +668,11 @@
         }
       ],
       "us_example_count": 3,
-      "gemini_tags": [],
+      "gemini_tags": [
+        "face serum",
+        "korean skincare",
+        "retinol serum"
+      ],
       "linked_s_products": [
         "본셉 레티놀 500 IU 세럼 30 ml"
       ],
@@ -742,7 +756,7 @@
       "rank": 1,
       "pd_no": "1049276",
       "name": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
-      "name_en": null,
+      "name_en": "VT Reedle Shot 300 Facial Boosting First Ampoule 2ml x 6",
       "bucket": "스킨케어",
       "score": 100,
       "rating": 4.9,
@@ -753,16 +767,23 @@
       "suggested_price_usd": 19.99,
       "margin_pct": null,
       "shopify_action": "1차 등록",
-      "ad_keywords": [],
-      "ad_keywords_source": "카피 미생성",
-      "listing_ready": false,
+      "ad_keywords": [
+        "vt-cosmetics",
+        "reedle-shot",
+        "facial-ampoule",
+        "korean-skincare",
+        "boosting-ampoule",
+        "skincare-set"
+      ],
+      "ad_keywords_source": "Gemini 영문 카피 태그",
+      "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049276"
     },
     {
       "rank": 2,
       "pd_no": "1055167",
       "name": "본셉 레티놀 500 IU 세럼 30 ml",
-      "name_en": null,
+      "name_en": "VONSEP Retinol 500 IU Serum 30 ml",
       "bucket": "스킨케어",
       "score": 98,
       "rating": 4.8,
@@ -773,16 +794,23 @@
       "suggested_price_usd": 19.99,
       "margin_pct": null,
       "shopify_action": "1차 등록",
-      "ad_keywords": [],
-      "ad_keywords_source": "카피 미생성",
-      "listing_ready": false,
+      "ad_keywords": [
+        "vonsep",
+        "retinol-serum",
+        "k-beauty",
+        "face-serum",
+        "korean-skincare",
+        "retinol-500-iu"
+      ],
+      "ad_keywords_source": "Gemini 영문 카피 태그",
+      "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055167"
     },
     {
       "rank": 3,
       "pd_no": "1049275",
       "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
-      "name_en": null,
+      "name_en": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6ea",
       "bucket": "스킨케어",
       "score": 98,
       "rating": 4.8,
@@ -793,16 +821,23 @@
       "suggested_price_usd": 19.99,
       "margin_pct": null,
       "shopify_action": "1차 등록",
-      "ad_keywords": [],
-      "ad_keywords_source": "카피 미생성",
-      "listing_ready": false,
+      "ad_keywords": [
+        "vt-cosmetics",
+        "reedle-shot",
+        "face-ampoule",
+        "korean-skincare",
+        "facial-boosting",
+        "skin-texture"
+      ],
+      "ad_keywords_source": "Gemini 영문 카피 태그",
+      "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049275"
     },
     {
       "rank": 4,
       "pd_no": "1067498",
       "name": "[영양광채]VT PDRN 광채 크림 50 ml",
-      "name_en": null,
+      "name_en": "VT PDRN Glow Cream 50 ml",
       "bucket": "스킨케어",
       "score": 96,
       "rating": 4.8,
@@ -813,9 +848,16 @@
       "suggested_price_usd": 19.99,
       "margin_pct": null,
       "shopify_action": "1차 등록",
-      "ad_keywords": [],
-      "ad_keywords_source": "카피 미생성",
-      "listing_ready": false,
+      "ad_keywords": [
+        "vt-cosmetics",
+        "pdrn-cream",
+        "glow-cream",
+        "korean-skincare",
+        "facial-moisturizer",
+        "hydrating-cream"
+      ],
+      "ad_keywords_source": "Gemini 영문 카피 태그",
+      "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067498"
     },
     {
@@ -836,10 +878,10 @@
       "ad_keywords": [
         "celderma",
         "pdrn-mask",
-        "sheet-mask",
         "korean-skincare",
+        "sheet-mask",
         "radiance-mask",
-        "facial-mask"
+        "face-mask"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "listing_ready": true,
@@ -893,7 +935,7 @@
         "wrapping-mask",
         "k-beauty",
         "facial-mask",
-        "korean-skincare"
+        "skincare"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "listing_ready": true,
@@ -918,8 +960,8 @@
         "vt-cica",
         "cica-toner",
         "calming-toner",
-        "korean-skincare",
         "facial-toner",
+        "korean-skincare",
         "hydrating-toner"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
@@ -942,11 +984,11 @@
       "margin_pct": null,
       "shopify_action": "2차 검토",
       "ad_keywords": [
+        "k-beauty",
         "vegan-toner",
         "heartleaf-toner",
-        "k-beauty",
+        "face-toner",
         "korean-skincare",
-        "facial-toner",
         "hydrating-toner"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
@@ -957,7 +999,7 @@
       "rank": 10,
       "pd_no": "1042619",
       "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
-      "name_en": null,
+      "name_en": "Celderma Daily Collagen Essence Gel Mask 29g",
       "bucket": "마스크팩",
       "score": 88,
       "rating": 4.7,
@@ -968,9 +1010,16 @@
       "suggested_price_usd": 19.99,
       "margin_pct": null,
       "shopify_action": "2차 검토",
-      "ad_keywords": [],
-      "ad_keywords_source": "카피 미생성",
-      "listing_ready": false,
+      "ad_keywords": [
+        "celderma",
+        "collagen-mask",
+        "gel-mask",
+        "sheet-mask",
+        "k-beauty",
+        "facial-mask"
+      ],
+      "ad_keywords_source": "Gemini 영문 카피 태그",
+      "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619"
     }
   ],
@@ -1049,8 +1098,7 @@
     }
   ],
   "weekly_actions": [
-    "영문 카피가 준비된 5건 중 상위 5건을 Shopify 초안으로 등록",
-    "카피 미생성 5건에 대해 shopify-listing-copy 워크플로 재실행",
+    "영문 카피가 준비된 10건 중 상위 5건을 Shopify 초안으로 등록",
     "시장 가격대 100건 기준 중앙값 $23.4 주 1회 확인",
     "묶음 구매 유도용 무료배송 최소 주문금액 설정 (낱개 배송 시 적자 구조라 필수)"
   ],
@@ -1074,7 +1122,7 @@
       "open_beauty_facts"
     ],
     "s_count": 10,
-    "listing_ready_count": 5,
+    "listing_ready_count": 10,
     "last_score_run": "2026-09-15",
     "last_pricing_run": "2026-09-15",
     "exchange_rate": 1359.15
