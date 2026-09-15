@@ -540,8 +540,17 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
     feeds = (load_json(D / "team_feeds.json", None) or {}).get("summary") or {}
 
     def feed_tail(team_id: str) -> str:
+        # '새 자료' 는 읽을거리 수다. 크롤러가 긁어온 상품 행은 뺀다.
+        #
+        # 소싱팀 카드가 "215개 상품 ... 새 자료 217건" 이라고 적고 있었다.
+        # 같은 상품을 두 번 센 것이라 진짜 새로 들어온 자료가 몇 건인지
+        # 알 수 없었다. material_recent 는 상품 행을 뺀 수다.
+        #
+        # 예전 team_feeds.json 에는 그 키가 없다. 그때는 recent 를 쓴다.
         s = feeds.get(team_id) or {}
-        n = s.get("recent") or 0
+        n = s.get("material_recent")
+        if n is None:
+            n = s.get("recent") or 0
         return f" · 새 자료 {n}건" if n else ""
 
     # (비서실장 카드는 secretary_card() 가 따로 만든다)

@@ -190,7 +190,24 @@ MONTHS = {m: f"{i:02d}" for i, m in enumerate(
      "jul", "aug", "sep", "oct", "nov", "dec"), 1)}
 
 # 사람이 골라 넣은 자료의 출처. 목록에서 위에 둔다.
-BY_HAND = ("papers", "youtube_manual", "youtube_channel", "daiso")
+# 사람이 골라 넣은 풀. 이것만 위로 올린다.
+#
+# 2026-09-15 까지 여기에 "daiso" 가 같이 들어 있었다. 그래서 크롤러가
+# 긁어온 상품 행 217개가 사람이 고른 영상과 같은 우선순위를 먹었다.
+# 날짜까지 같은 날이면 순위가 갈리지 않아 상품이 먼저 쌓인 순서대로
+# 상위 60칸을 다 차지했고, 그날 소싱팀에 공유한 영상은 목록 밖으로
+# 밀려 아예 보이지 않았다.
+#
+# 다이소 상품은 사람이 넣은 것이 아니라 수집기가 긁어온 것이다.
+# by_hand 의 뜻 그대로 빼둔다. 상품은 아래 PRODUCT_POOLS 로 따로 센다.
+BY_HAND = ("papers", "youtube_manual", "youtube_channel")
+
+# 읽을거리가 아니라 상품 행인 풀.
+#
+# 소싱팀 카드가 "215개 상품 ... 새 자료 217건" 이라고 적고 있었다.
+# 같은 상품을 두 번 센 것이라 새로 들어온 자료가 얼마인지 알 수 없었다.
+# 상품과 자료를 갈라서 센다.
+PRODUCT_POOLS = ("daiso",)
 
 
 def iso_date(raw: str) -> str:
@@ -346,8 +363,20 @@ def main() -> int:
         uniq.sort(key=lambda r: (bool(r.get("by_hand")), str(r.get("date") or "")),
                   reverse=True)
         recent = [r for r in uniq if str(r.get("date") or "")[:10] >= cutoff]
+
+        # 상품 행을 뺀 것이 그 팀이 실제로 읽을 자료다.
+        mat = [r for r in uniq if r.get("pool") not in PRODUCT_POOLS]
+        mat_recent = [r for r in recent if r.get("pool") not in PRODUCT_POOLS]
+
         teams[t] = uniq[:60]
-        summary[t] = {"total": len(uniq), "recent": len(recent)}
+        summary[t] = {
+            "total": len(uniq),
+            "recent": len(recent),
+            # 상품 행 제외. 대시보드의 '새 자료' 는 이 숫자를 쓴다.
+            "material": len(mat),
+            "material_recent": len(mat_recent),
+            "products": len(uniq) - len(mat),
+        }
 
     payload = {
         "generated_at": now(),
@@ -367,7 +396,9 @@ def main() -> int:
     print(f"\n전체 풀 {len(pools)}건 · 미배정 {unrouted}건"
           + (f" · 제목 없어 버림 {dropped}건" if dropped else ""))
     for t, s in summary.items():
-        print(f"  {t:10s} 총 {s['total']:4d}  최근 {RECENT_DAYS}일 {s['recent']:3d}")
+        tail = f"  (상품 {s['products']}건 뺀 자료 {s['material_recent']}건)" \
+            if s["products"] else ""
+        print(f"  {t:10s} 총 {s['total']:4d}  최근 {RECENT_DAYS}일 {s['recent']:3d}{tail}")
     return 0
 
 
