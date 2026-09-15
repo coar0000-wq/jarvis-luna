@@ -2,7 +2,7 @@
 title: "Record 2b2e5c085b · From-spreadsheets-to-AI-Deere-gives-farmers-new-fea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T00:21:51.098916+00:00
+updated_at: 2026-09-15T04:57:12.635624+00:00
 tags: [record, real-data]
 ---
 

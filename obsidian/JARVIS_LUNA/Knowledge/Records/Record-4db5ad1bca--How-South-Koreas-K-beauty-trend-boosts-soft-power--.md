@@ -2,7 +2,7 @@
 title: "Record 4db5ad1bca · How-South-Koreas-K-beauty-trend-boosts-soft-power--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T00:21:50.842193+00:00
+updated_at: 2026-09-15T04:57:12.497360+00:00
 tags: [record, real-data]
 ---
 

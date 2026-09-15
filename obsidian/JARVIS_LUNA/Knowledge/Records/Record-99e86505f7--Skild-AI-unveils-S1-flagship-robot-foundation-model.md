@@ -2,7 +2,7 @@
 title: "Record 99e86505f7 · Skild-AI-unveils-S1-flagship-robot-foundation-model"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T00:21:51.105380+00:00
+updated_at: 2026-09-15T04:57:12.639390+00:00
 tags: [record, real-data]
 ---
 

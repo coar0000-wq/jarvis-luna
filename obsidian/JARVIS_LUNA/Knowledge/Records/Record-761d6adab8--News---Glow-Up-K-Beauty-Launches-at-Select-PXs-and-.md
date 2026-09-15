@@ -2,7 +2,7 @@
 title: "Record 761d6adab8 · News---Glow-Up-K-Beauty-Launches-at-Select-PXs-and-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T00:21:50.840543+00:00
+updated_at: 2026-09-15T04:57:12.496293+00:00
 tags: [record, real-data]
 ---
 

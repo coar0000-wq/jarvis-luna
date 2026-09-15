@@ -2,7 +2,7 @@
 title: "Record 2e0e03865e · AEO-for-Ecommerce-Drive-Traffic-From-AI-Search-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T00:21:50.752504+00:00
+updated_at: 2026-09-15T04:57:12.445539+00:00
 tags: [record, real-data]
 ---
 

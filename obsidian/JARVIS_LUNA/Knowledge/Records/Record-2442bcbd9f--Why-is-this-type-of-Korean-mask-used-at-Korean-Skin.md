@@ -2,7 +2,7 @@
 title: "Record 2442bcbd9f · Why-is-this-type-of-Korean-mask-used-at-Korean-Skin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T00:21:51.112380+00:00
+updated_at: 2026-09-15T04:57:12.643105+00:00
 tags: [record, real-data]
 ---
 

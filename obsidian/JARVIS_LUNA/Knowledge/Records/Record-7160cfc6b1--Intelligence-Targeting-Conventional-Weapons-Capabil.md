@@ -2,7 +2,7 @@
 title: "Record 7160cfc6b1 · Intelligence-Targeting-Conventional-Weapons-Capabil"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T00:21:51.038299+00:00
+updated_at: 2026-09-15T04:57:12.605044+00:00
 tags: [record, real-data]
 ---
 

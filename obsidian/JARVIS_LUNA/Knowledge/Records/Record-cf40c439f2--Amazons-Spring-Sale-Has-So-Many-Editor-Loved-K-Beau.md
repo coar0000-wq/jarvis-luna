@@ -2,7 +2,7 @@
 title: "Record cf40c439f2 · Amazons-Spring-Sale-Has-So-Many-Editor-Loved-K-Beau"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T00:21:50.903312+00:00
+updated_at: 2026-09-15T04:57:12.532848+00:00
 tags: [record, real-data]
 ---
 

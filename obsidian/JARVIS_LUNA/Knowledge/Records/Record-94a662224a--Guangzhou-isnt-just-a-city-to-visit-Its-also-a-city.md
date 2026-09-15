@@ -2,7 +2,7 @@
 title: "Record 94a662224a · Guangzhou-isnt-just-a-city-to-visit-Its-also-a-city"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T00:21:51.139169+00:00
+updated_at: 2026-09-15T04:57:12.658656+00:00
 tags: [record, real-data]
 ---
 

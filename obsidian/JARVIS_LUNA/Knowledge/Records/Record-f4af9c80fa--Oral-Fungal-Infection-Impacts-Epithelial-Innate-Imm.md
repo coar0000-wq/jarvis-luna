@@ -2,7 +2,7 @@
 title: "Record f4af9c80fa · Oral-Fungal-Infection-Impacts-Epithelial-Innate-Imm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T00:21:50.625718+00:00
+updated_at: 2026-09-15T04:57:12.372850+00:00
 tags: [record, real-data]
 ---
 

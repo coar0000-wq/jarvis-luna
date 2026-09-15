@@ -2,7 +2,7 @@
 title: "Record b7c187c43b · Bringing-more-control-over-your-connectors"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T00:21:50.722660+00:00
+updated_at: 2026-09-15T04:57:12.428889+00:00
 tags: [record, real-data]
 ---
 
