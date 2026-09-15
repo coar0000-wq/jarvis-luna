@@ -53,36 +53,6 @@
   "완료판정": "status 가 pass 인 상품만 legal_ok = true",
   "면책": "이 파일은 법률 자문이 아니다. 판단 근거를 모아 둔 것이다.",
   "items": {
-    "1048583": {
-      "name": "드롭비 탄탄 광채 앰플 40 ml",
-      "status": "auto_checked",
-      "auto_checks": {
-        "banned_claim": {
-          "ok": true,
-          "detail": "없음"
-        },
-        "otc_sunscreen": {
-          "ok": true,
-          "detail": "해당 없음"
-        },
-        "label_fields": {
-          "ok": true,
-          "detail": "4항목 확보"
-        }
-      },
-      "hs_code": "3304.99",
-      "regulator": "",
-      "reviewer": "",
-      "reviewed_at": "",
-      "note": "",
-      "auto_blockers": [],
-      "needs_attention": false,
-      "auto_checked_at": "2026-09-15T23:10:09.780920+00:00",
-      "hard_block": false,
-      "hard_block_reason": "",
-      "hs_basis": "버킷 '스킨케어'",
-      "hs_source": "hts.usitc.gov/reststop (미국 공식)"
-    },
     "1049271": {
       "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
       "status": "auto_checked",
@@ -107,7 +77,7 @@
       "note": "",
       "auto_blockers": [],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-15T23:10:09.780969+00:00",
+      "auto_checked_at": "2026-09-15T23:15:23.063845+00:00",
       "hard_block": false,
       "hard_block_reason": "",
       "hs_basis": "버킷 '스킨케어'",
@@ -137,66 +107,10 @@
       "note": "",
       "auto_blockers": [],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-15T23:10:09.781013+00:00",
+      "auto_checked_at": "2026-09-15T23:15:23.063961+00:00",
       "hard_block": false,
       "hard_block_reason": "",
       "hs_basis": "버킷 '마스크팩'",
-      "hs_source": "hts.usitc.gov/reststop (미국 공식)"
-    },
-    "1062781": {
-      "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
-      "status": "auto_checked",
-      "auto_checks": {
-        "banned_claim": {
-          "ok": true,
-          "detail": "없음"
-        },
-        "otc_sunscreen": {
-          "ok": true,
-          "detail": "해당 없음"
-        },
-        "label_fields": {
-          "ok": true,
-          "detail": "4항목 확보"
-        }
-      },
-      "hs_code": "3304.99",
-      "regulator": "",
-      "reviewer": "",
-      "reviewed_at": "",
-      "note": "",
-      "auto_blockers": [],
-      "needs_attention": false,
-      "auto_checked_at": "2026-09-15T23:10:09.781099+00:00",
-      "hard_block": false,
-      "hard_block_reason": "",
-      "hs_basis": "버킷 '스킨케어'",
-      "hs_source": "hts.usitc.gov/reststop (미국 공식)"
-    },
-    "1041749": {
-      "name": "식물원 병풀 클리어 앰플 30 ml",
-      "status": "auto_checked",
-      "auto_checks": {
-        "banned_claim": {
-          "ok": true,
-          "detail": "없음"
-        },
-        "otc_sunscreen": {
-          "ok": true,
-          "detail": "해당 없음"
-        },
-        "label_fields": {
-          "ok": true,
-          "detail": "4항목 확보"
-        }
-      },
-      "auto_blockers": [],
-      "needs_attention": false,
-      "hard_block": false,
-      "hard_block_reason": "",
-      "auto_checked_at": "2026-09-15T23:10:09.780874+00:00",
-      "hs_code": "3304.99",
-      "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     },
     "1041403": {
@@ -223,7 +137,7 @@
       "note": "",
       "auto_blockers": [],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-15T23:10:09.780811+00:00",
+      "auto_checked_at": "2026-09-15T23:15:23.063730+00:00",
       "hard_block": false,
       "hard_block_reason": "",
       "hs_basis": "버킷 '스킨케어'",
@@ -253,7 +167,7 @@
       "note": "",
       "auto_blockers": [],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-15T23:10:09.781146+00:00",
+      "auto_checked_at": "2026-09-15T23:15:23.064107+00:00",
       "hard_block": false,
       "hard_block_reason": "",
       "hs_basis": "버킷 '스킨케어'",
@@ -285,21 +199,146 @@
         "label_fields"
       ],
       "needs_attention": true,
-      "auto_checked_at": "2026-09-15T23:10:09.781055+00:00",
+      "auto_checked_at": "2026-09-15T23:15:23.064021+00:00",
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields",
       "hs_basis": "버킷 '마스크팩'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
+    },
+    "1042619": {
+      "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
+      "status": "auto_checked",
+      "auto_checks": {
+        "banned_claim": {
+          "ok": true,
+          "detail": "없음"
+        },
+        "otc_sunscreen": {
+          "ok": true,
+          "detail": "해당 없음"
+        },
+        "label_fields": {
+          "ok": false,
+          "detail": "미확보: ingredients_inci, net_contents, manufacturer, country_of_origin"
+        }
+      },
+      "auto_blockers": [
+        "label_fields"
+      ],
+      "needs_attention": true,
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields",
+      "auto_checked_at": "2026-09-15T23:15:23.063767+00:00"
+    },
+    "1049275": {
+      "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
+      "status": "auto_checked",
+      "auto_checks": {
+        "banned_claim": {
+          "ok": true,
+          "detail": "없음"
+        },
+        "otc_sunscreen": {
+          "ok": true,
+          "detail": "해당 없음"
+        },
+        "label_fields": {
+          "ok": false,
+          "detail": "미확보: ingredients_inci, net_contents, manufacturer, country_of_origin"
+        }
+      },
+      "auto_blockers": [
+        "label_fields"
+      ],
+      "needs_attention": true,
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields",
+      "auto_checked_at": "2026-09-15T23:15:23.063865+00:00"
+    },
+    "1049276": {
+      "name": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
+      "status": "auto_checked",
+      "auto_checks": {
+        "banned_claim": {
+          "ok": true,
+          "detail": "없음"
+        },
+        "otc_sunscreen": {
+          "ok": true,
+          "detail": "해당 없음"
+        },
+        "label_fields": {
+          "ok": false,
+          "detail": "미확보: ingredients_inci, net_contents, manufacturer, country_of_origin"
+        }
+      },
+      "auto_blockers": [
+        "label_fields"
+      ],
+      "needs_attention": true,
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields",
+      "auto_checked_at": "2026-09-15T23:15:23.063883+00:00"
+    },
+    "1055167": {
+      "name": "본셉 레티놀 500 IU 세럼 30 ml",
+      "status": "auto_checked",
+      "auto_checks": {
+        "banned_claim": {
+          "ok": true,
+          "detail": "없음"
+        },
+        "otc_sunscreen": {
+          "ok": true,
+          "detail": "해당 없음"
+        },
+        "label_fields": {
+          "ok": false,
+          "detail": "미확보: ingredients_inci, net_contents, manufacturer, country_of_origin"
+        }
+      },
+      "auto_blockers": [
+        "label_fields"
+      ],
+      "needs_attention": true,
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields",
+      "auto_checked_at": "2026-09-15T23:15:23.063898+00:00"
+    },
+    "1067498": {
+      "name": "[영양광채]VT PDRN 광채 크림 50 ml",
+      "status": "auto_checked",
+      "auto_checks": {
+        "banned_claim": {
+          "ok": true,
+          "detail": "없음"
+        },
+        "otc_sunscreen": {
+          "ok": true,
+          "detail": "해당 없음"
+        },
+        "label_fields": {
+          "ok": false,
+          "detail": "미확보: ingredients_inci, net_contents, manufacturer, country_of_origin"
+        }
+      },
+      "auto_blockers": [
+        "label_fields"
+      ],
+      "needs_attention": true,
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields",
+      "auto_checked_at": "2026-09-15T23:15:23.064036+00:00"
     }
   },
   "auto_summary": {
-    "checked": 8,
+    "checked": 10,
     "clean": 0,
-    "needs_attention": 8,
+    "needs_attention": 10,
     "pass": 0,
-    "out_of_scope": 7
+    "out_of_scope": 10
   },
-  "auto_checked_at": "2026-09-15T23:10:09.781153+00:00",
+  "auto_checked_at": "2026-09-15T23:15:23.064115+00:00",
   "out_of_scope": {
     "1045146": {
       "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
@@ -555,7 +594,111 @@
         "hs_basis": "버킷 '스킨케어'",
         "hs_source": "hts.usitc.gov/reststop (미국 공식)"
       }
+    },
+    "1048583": {
+      "name": "드롭비 탄탄 광채 앰플 40 ml",
+      "왜_뺐나": "지금 S등급이 아니다. 팔 계획이 없으므로 점검하지 않는다.",
+      "뺀_시각": "2026-09-15T23:15:15.480524+00:00",
+      "마지막_판정": "auto_checked",
+      "row": {
+        "name": "드롭비 탄탄 광채 앰플 40 ml",
+        "status": "auto_checked",
+        "auto_checks": {
+          "banned_claim": {
+            "ok": true,
+            "detail": "없음"
+          },
+          "otc_sunscreen": {
+            "ok": true,
+            "detail": "해당 없음"
+          },
+          "label_fields": {
+            "ok": true,
+            "detail": "4항목 확보"
+          }
+        },
+        "hs_code": "3304.99",
+        "regulator": "",
+        "reviewer": "",
+        "reviewed_at": "",
+        "note": "",
+        "auto_blockers": [],
+        "needs_attention": false,
+        "auto_checked_at": "2026-09-15T22:01:25.511888+00:00",
+        "hard_block": false,
+        "hard_block_reason": "",
+        "hs_basis": "버킷 '스킨케어'",
+        "hs_source": "hts.usitc.gov/reststop (미국 공식)"
+      }
+    },
+    "1062781": {
+      "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+      "왜_뺐나": "지금 S등급이 아니다. 팔 계획이 없으므로 점검하지 않는다.",
+      "뺀_시각": "2026-09-15T23:15:15.480544+00:00",
+      "마지막_판정": "auto_checked",
+      "row": {
+        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+        "status": "auto_checked",
+        "auto_checks": {
+          "banned_claim": {
+            "ok": true,
+            "detail": "없음"
+          },
+          "otc_sunscreen": {
+            "ok": true,
+            "detail": "해당 없음"
+          },
+          "label_fields": {
+            "ok": true,
+            "detail": "4항목 확보"
+          }
+        },
+        "hs_code": "3304.99",
+        "regulator": "",
+        "reviewer": "",
+        "reviewed_at": "",
+        "note": "",
+        "auto_blockers": [],
+        "needs_attention": false,
+        "auto_checked_at": "2026-09-15T22:01:25.512142+00:00",
+        "hard_block": false,
+        "hard_block_reason": "",
+        "hs_basis": "버킷 '스킨케어'",
+        "hs_source": "hts.usitc.gov/reststop (미국 공식)"
+      }
+    },
+    "1041749": {
+      "name": "식물원 병풀 클리어 앰플 30 ml",
+      "왜_뺐나": "지금 S등급이 아니다. 팔 계획이 없으므로 점검하지 않는다.",
+      "뺀_시각": "2026-09-15T23:15:15.480549+00:00",
+      "마지막_판정": "auto_checked",
+      "row": {
+        "name": "식물원 병풀 클리어 앰플 30 ml",
+        "status": "auto_checked",
+        "auto_checks": {
+          "banned_claim": {
+            "ok": true,
+            "detail": "없음"
+          },
+          "otc_sunscreen": {
+            "ok": true,
+            "detail": "해당 없음"
+          },
+          "label_fields": {
+            "ok": true,
+            "detail": "4항목 확보"
+          }
+        },
+        "auto_blockers": [],
+        "needs_attention": false,
+        "hard_block": false,
+        "hard_block_reason": "",
+        "auto_checked_at": "2026-09-15T22:01:25.511830+00:00",
+        "hs_code": "3304.99",
+        "hs_basis": "버킷 '스킨케어'",
+        "hs_source": "hts.usitc.gov/reststop (미국 공식)"
+      }
     }
   },
-  "_범위": "지금 S등급 8건만 점검한다. 출처는 shopify_demand_score.json 의 all_scored 중 grade S. S등급에서 빠진 상품은 out_of_scope 로 옮기고 점검·집계에서 뺀다. 지우지는 않으므로 다시 S등급이 되면 그때까지의 판정이 살아난다. 예전에는 한 번 들어온 상품을 영원히 보존해서, 팔 계획도 없는 상품 때문에 고칠 수 없는 차단 경고가 계속 떴다."
+  "_범위": "지금 S등급 10건만 점검한다. 출처는 shopify_demand_score.json 의 all_scored 중 grade S. S등급에서 빠진 상품은 out_of_scope 로 옮기고 점검·집계에서 뺀다. 지우지는 않으므로 다시 S등급이 되면 그때까지의 판정이 살아난다. 예전에는 한 번 들어온 상품을 영원히 보존해서, 팔 계획도 없는 상품 때문에 고칠 수 없는 차단 경고가 계속 떴다."
 }

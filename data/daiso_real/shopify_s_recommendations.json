@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-15T20:57:00.166784+00:00",
+  "generated_at": "2026-09-15T23:15:15.410192+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
-  "count": 8,
+  "count": 10,
   "priority_note": "Shopify 1차 등록 후보. 이 파일만 정본으로 사용.",
   "recommendations": [
     {
       "rank": 1,
-      "pd_no": "1048583",
-      "name": "드롭비 탄탄 광채 앰플 40 ml",
+      "pd_no": "1049276",
+      "name": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
       "bucket": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 97,
+      "price_krw": 3000,
+      "shopify_score": 100,
       "grade": "S",
       "s_rule": "strong_form",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048583",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251002/GuN4uykABHahtwRmVfHO1048583_00_00GuN4uykABHahtwRmVfHO.png",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049276",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/biuEYxzjCmX6JMJEi1e01049276_00_01biuEYxzjCmX6JMJEi1e0.jpg",
       "recommend_reason": "글로벌 'REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 70% · 토큰 ampoule",
       "matched_global": {
         "channel": "oliveyoung_us",
@@ -32,6 +32,80 @@
     },
     {
       "rank": 2,
+      "pd_no": "1055167",
+      "name": "본셉 레티놀 500 IU 세럼 30 ml",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 98,
+      "grade": "S",
+      "s_rule": "ingredient+form",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055167",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251216/0lOXklS1nx5HxNuMya731055167_00_000lOXklS1nx5HxNuMya73.jpg",
+      "recommend_reason": "글로벌 'Some By Mi Retinol Intense Reactivating Serum' (tiktok_shop_us) 유사 88% · 토큰 retinol, serum",
+      "matched_global": {
+        "channel": "tiktok_shop_us",
+        "global_product": "Some By Mi Retinol Intense Reactivating Serum",
+        "similarity": 0.88,
+        "demand_weight": 0.5,
+        "matched_tokens": [
+          "retinol",
+          "serum"
+        ],
+        "match_score": 0.44
+      },
+      "registerable": true
+    },
+    {
+      "rank": 3,
+      "pd_no": "1049275",
+      "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
+      "bucket": "스킨케어",
+      "price_krw": 3000,
+      "shopify_score": 98,
+      "grade": "S",
+      "s_rule": "strong_form",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049275",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/0XsdymYj3PJyHpuxNOsm1049275_00_010XsdymYj3PJyHpuxNOsm.jpg",
+      "recommend_reason": "글로벌 'REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 70% · 토큰 ampoule",
+      "matched_global": {
+        "channel": "oliveyoung_us",
+        "global_product": "REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)",
+        "similarity": 0.7,
+        "demand_weight": 0.931,
+        "matched_tokens": [
+          "ampoule"
+        ],
+        "match_score": 0.652
+      },
+      "registerable": true
+    },
+    {
+      "rank": 4,
+      "pd_no": "1067498",
+      "name": "[영양광채]VT PDRN 광채 크림 50 ml",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 96,
+      "grade": "S",
+      "s_rule": "ingredient+form",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067498",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/wj1JQs4g8q0tBuz4c7jF1067498_00_01wj1JQs4g8q0tBuz4c7jF.jpg",
+      "recommend_reason": "글로벌 'VT PDRN Reedle Shot Firming Eye Cream 0.50 fl. oz.(15ml) Refill Set (+ Eye Cream Refill 0.50 fl. oz.(15ml))' (oliveyoung_us) 유사 85% · 토큰 cream, pdrn",
+      "matched_global": {
+        "channel": "oliveyoung_us",
+        "global_product": "VT PDRN Reedle Shot Firming Eye Cream 0.50 fl. oz.(15ml) Refill Set (+ Eye Cream Refill 0.50 fl. oz.(15ml))",
+        "similarity": 0.853,
+        "demand_weight": 0.49,
+        "matched_tokens": [
+          "cream",
+          "pdrn"
+        ],
+        "match_score": 0.418
+      },
+      "registerable": true
+    },
+    {
+      "rank": 5,
       "pd_no": "1075857",
       "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
       "bucket": "스킨케어",
@@ -56,57 +130,7 @@
       "registerable": true
     },
     {
-      "rank": 3,
-      "pd_no": "1062781",
-      "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 93,
-      "grade": "S",
-      "s_rule": "ingredient+form",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062781",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250404/6HrSkUDbK4Z2Mx8SUSMH1062781_00_016HrSkUDbK4Z2Mx8SUSMH.jpg",
-      "recommend_reason": "글로벌 'VT PDRN Reedle Shot Firming Eye Cream 0.50 fl. oz.(15ml) Refill Set (+ Eye Cream Refill 0.50 fl. oz.(15ml))' (oliveyoung_us) 유사 65% · 토큰 cream, pdrn",
-      "matched_global": {
-        "channel": "oliveyoung_us",
-        "global_product": "VT PDRN Reedle Shot Firming Eye Cream 0.50 fl. oz.(15ml) Refill Set (+ Eye Cream Refill 0.50 fl. oz.(15ml))",
-        "similarity": 0.653,
-        "demand_weight": 0.49,
-        "matched_tokens": [
-          "cream",
-          "pdrn"
-        ],
-        "match_score": 0.32
-      },
-      "registerable": true
-    },
-    {
-      "rank": 4,
-      "pd_no": "1041749",
-      "name": "식물원 병풀 클리어 앰플 30 ml",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 92,
-      "grade": "S",
-      "s_rule": "ingredient+form",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041749",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231201/ymPUxMwICZXjc3irnJAl1041749_00_00ymPUxMwICZXjc3irnJAl.jpg",
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 92% · 토큰 ampoule, centella",
-      "matched_global": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Skin1004 Madagascar Centella Ampoule",
-        "similarity": 0.92,
-        "demand_weight": 0.75,
-        "matched_tokens": [
-          "ampoule",
-          "centella"
-        ],
-        "match_score": 0.69
-      },
-      "registerable": true
-    },
-    {
-      "rank": 5,
+      "rank": 6,
       "pd_no": "1059834",
       "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
       "bucket": "마스크팩",
@@ -131,7 +155,7 @@
       "registerable": true
     },
     {
-      "rank": 6,
+      "rank": 7,
       "pd_no": "1060487",
       "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
       "bucket": "마스크팩",
@@ -156,7 +180,7 @@
       "registerable": true
     },
     {
-      "rank": 7,
+      "rank": 8,
       "pd_no": "1049271",
       "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
       "bucket": "스킨케어",
@@ -181,7 +205,7 @@
       "registerable": true
     },
     {
-      "rank": 8,
+      "rank": 9,
       "pd_no": "1041403",
       "name": "채비공간 어성초 추출물 비건 토너 150 ml",
       "bucket": "스킨케어",
@@ -202,6 +226,31 @@
           "toner"
         ],
         "match_score": 0.874
+      },
+      "registerable": true
+    },
+    {
+      "rank": 10,
+      "pd_no": "1042619",
+      "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
+      "bucket": "마스크팩",
+      "price_krw": 1000,
+      "shopify_score": 88,
+      "grade": "S",
+      "s_rule": "ingredient+form",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240109/8IB1YBxg81UqZXiKzXFM1042619_00_008IB1YBxg81UqZXiKzXFM.jpg",
+      "recommend_reason": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 68% · 토큰 collagen, mask",
+      "matched_global": {
+        "channel": "tiktok_shop_us",
+        "global_product": "Biodance Bio-Collagen Real Deep Mask",
+        "similarity": 0.68,
+        "demand_weight": 0.6,
+        "matched_tokens": [
+          "collagen",
+          "mask"
+        ],
+        "match_score": 0.408
       },
       "registerable": true
     }

@@ -1,79 +1,204 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-15T23:10:10.120788+00:00",
+  "generated_at": "2026-09-15T23:15:23.331607+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
-  "total": 8,
-  "ready": 6,
+  "total": 10,
+  "ready": 3,
   "counts": {
-    "copy": 8,
-    "gosi": 8,
-    "us_label": 7,
-    "price": 7,
-    "legal": 7
+    "copy": 5,
+    "gosi": 5,
+    "us_label": 4,
+    "price": 4,
+    "legal": 4
   },
   "blockers": {
-    "us_label": 1,
-    "price": 1,
-    "legal": 1
+    "copy": 5,
+    "gosi": 5,
+    "us_label": 6,
+    "price": 6,
+    "legal": 6
   },
-  "count": 8,
+  "count": 10,
   "note": "gosi=한국 고시 4항목, us_label=영문 라벨(플레이스홀더 제외), legal=MoCRA 등 하드블록. ready는 5개 조건 모두 통과한 건수.",
   "items": [
     {
       "rank": 1,
-      "pd_no": "1048583",
-      "product_id": "1048583",
-      "name": "드롭비 탄탄 광채 앰플 40 ml",
+      "pd_no": "1049276",
+      "product_id": "1049276",
+      "name": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
       "category": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 97,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048583",
-      "copy": {
-        "title": "Drop Be Firming Glow Ampoule 40 ml",
-        "description_html": "<p>Discover the Drop Be Firming Glow Ampoule, designed to help enhance your daily skincare routine. This 40 ml facial serum brings a radiant and glowing look to your complexion.</p><p>Smooth onto clean skin as part of your regular routine to enjoy a refreshed and luminous appearance every day.</p>",
-        "seo_title": "Drop Be Firming Glow Ampoule 40 ml",
-        "seo_description": "Shop the Drop Be Firming Glow Ampoule 40 ml for a radiant and glowing complexion. Add this Korean skincare ampoule to your daily routine for a luminous look.",
-        "tags": [
-          "k-beauty",
-          "face-serum",
-          "glow-ampoule",
-          "skincare",
-          "drop-be",
-          "brightening-serum",
-          "hydrating-ampoule"
-        ],
-        "product_type": "Face Serum"
-      },
-      "copy_status": "ok",
+      "price_krw": 3000,
+      "shopify_score": 100,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049276",
+      "copy": {},
+      "copy_status": "missing",
       "gosi": {
-        "volume": "40 ml",
-        "maker": "주식회사 씨엔에프 / (주)더샘인터내셔날",
-        "origin": "한국",
-        "ingredients": "정제수, 글리세린, 프로판다이올, 부틸렌글라이콜, 베타인, 아이소펜틸다이올, 나이아신아마이드, 1,2-헥산다이올, 흰서양송로추출물, 병풀잎추출물, 아세틸헥사펩타이드-8, 헥사펩타이드-9, 노나펩타이드-1, 팔미토일펜",
-        "gosi_ok": true
+        "volume": "",
+        "maker": "",
+        "origin": "",
+        "ingredients": "",
+        "gosi_ok": false
       },
       "us_label": {
-        "net_contents": "40 ml",
-        "manufacturer": "주식회사 씨엔에프 / (주)더샘인터내셔날",
-        "country_of_origin": "Korea",
-        "ingredients_inci": "Water, Glycerin, Propanediol, Butylene Glycol, Betaine, Isopentyldiol, Niacinamide, 1,2-Hexanediol, Tuber Magnatum Extract, Centella Asiatica Leaf Extract, Acetyl Hexapeptide-8, Hexapeptide-9, Nonapeptide-1, Palmitoyl Pentapeptide-4, Palmitoyl Tripeptide-1, Palmitoyl Tetrapeptide-7, Punica Granatum Extract, Adenosine, Butyrospermum Parkii (Shea) Butter, Caprylic/Capric Triglyceride, Olea Europaea (Olive) Fruit Oil, Hydrogenated Lecithin, Squalane, Disodium EDTA, Panthenol, Fragrance, Polyglyceryl-10 Laurate, Carbomer, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Arginine, Diethoxyethyl Succinate, Ethylhexylglycerin, Xanthan Gum, Sorbitan Isostearate, Ceramide NP, Cholesterol, Phytosphingosine",
-        "us_label_ok": true
+        "net_contents": "",
+        "manufacturer": "",
+        "country_of_origin": "",
+        "ingredients_inci": "",
+        "us_label_ok": false
       },
       "price": {
-        "price_usd": 17.99,
-        "margin_pct": 30.6,
+        "price_usd": null,
+        "margin_pct": null,
         "register_blocked": false
       },
       "legal": {
         "status": "auto_checked",
-        "hard_block": false,
-        "hard_block_reason": ""
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields"
       },
-      "ready": true,
-      "blocked_by": []
+      "ready": false,
+      "blocked_by": [
+        "copy",
+        "gosi",
+        "us_label",
+        "price",
+        "legal"
+      ]
     },
     {
       "rank": 2,
+      "pd_no": "1055167",
+      "product_id": "1055167",
+      "name": "본셉 레티놀 500 IU 세럼 30 ml",
+      "category": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 98,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055167",
+      "copy": {},
+      "copy_status": "missing",
+      "gosi": {
+        "volume": "",
+        "maker": "",
+        "origin": "",
+        "ingredients": "",
+        "gosi_ok": false
+      },
+      "us_label": {
+        "net_contents": "",
+        "manufacturer": "",
+        "country_of_origin": "",
+        "ingredients_inci": "",
+        "us_label_ok": false
+      },
+      "price": {
+        "price_usd": null,
+        "margin_pct": null,
+        "register_blocked": false
+      },
+      "legal": {
+        "status": "auto_checked",
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields"
+      },
+      "ready": false,
+      "blocked_by": [
+        "copy",
+        "gosi",
+        "us_label",
+        "price",
+        "legal"
+      ]
+    },
+    {
+      "rank": 3,
+      "pd_no": "1049275",
+      "product_id": "1049275",
+      "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
+      "category": "스킨케어",
+      "price_krw": 3000,
+      "shopify_score": 98,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049275",
+      "copy": {},
+      "copy_status": "missing",
+      "gosi": {
+        "volume": "",
+        "maker": "",
+        "origin": "",
+        "ingredients": "",
+        "gosi_ok": false
+      },
+      "us_label": {
+        "net_contents": "",
+        "manufacturer": "",
+        "country_of_origin": "",
+        "ingredients_inci": "",
+        "us_label_ok": false
+      },
+      "price": {
+        "price_usd": null,
+        "margin_pct": null,
+        "register_blocked": false
+      },
+      "legal": {
+        "status": "auto_checked",
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields"
+      },
+      "ready": false,
+      "blocked_by": [
+        "copy",
+        "gosi",
+        "us_label",
+        "price",
+        "legal"
+      ]
+    },
+    {
+      "rank": 4,
+      "pd_no": "1067498",
+      "product_id": "1067498",
+      "name": "[영양광채]VT PDRN 광채 크림 50 ml",
+      "category": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 96,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067498",
+      "copy": {},
+      "copy_status": "missing",
+      "gosi": {
+        "volume": "",
+        "maker": "",
+        "origin": "",
+        "ingredients": "",
+        "gosi_ok": false
+      },
+      "us_label": {
+        "net_contents": "",
+        "manufacturer": "",
+        "country_of_origin": "",
+        "ingredients_inci": "",
+        "us_label_ok": false
+      },
+      "price": {
+        "price_usd": null,
+        "margin_pct": null,
+        "register_blocked": false
+      },
+      "legal": {
+        "status": "auto_checked",
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields"
+      },
+      "ready": false,
+      "blocked_by": [
+        "copy",
+        "gosi",
+        "us_label",
+        "price",
+        "legal"
+      ]
+    },
+    {
+      "rank": 5,
       "pd_no": "1075857",
       "product_id": "1075857",
       "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
@@ -126,113 +251,7 @@
       "blocked_by": []
     },
     {
-      "rank": 3,
-      "pd_no": "1062781",
-      "product_id": "1062781",
-      "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
-      "category": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 93,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062781",
-      "copy": {
-        "title": "Cell Fusion C Derma Block PDRN Collagen Cream 50 ml",
-        "description_html": "<p>Discover the Cell Fusion C Derma Block PDRN Collagen Cream in a convenient 50 ml size, formulated to help hydrate and care for your skin.</p><p>Incorporating PDRN and collagen, this facial cream supports a smooth and balanced look for your daily skincare routine.</p>",
-        "seo_title": "Cell Fusion C Derma Block PDRN Collagen Cream 50 ml",
-        "seo_description": "Shop the Cell Fusion C Derma Block PDRN Collagen Cream 50 ml for daily facial hydration and a smoother-looking complexion. Perfect for your skincare routine.",
-        "tags": [
-          "cell-fusion-c",
-          "pdrn-cream",
-          "collagen-cream",
-          "k-beauty",
-          "face-cream",
-          "korean-skincare",
-          "moisturizer"
-        ],
-        "product_type": "Face Cream"
-      },
-      "copy_status": "ok",
-      "gosi": {
-        "volume": "50ml (1.69 fl.oz)",
-        "maker": "화장품제조업자: 코스맥스(주) / 화장품책임판매업자: (주)씨엠에스랩",
-        "origin": "한국",
-        "ingredients": "정제수, 글리세린, 다이프로필렌글라이콜, 부틸렌글라이콜, 옥틸도데칸올, 네오펜틸글라이콜다이카프레이트, 나이아신아마이드, 1,2-헥산다이올, 진흙버섯추출물, 하이드롤라이즈드하이알루로닉애씨드, 하이드롤라이즈드콜라겐, 마",
-        "gosi_ok": true
-      },
-      "us_label": {
-        "net_contents": "50ml (1.69 fl.oz)",
-        "manufacturer": "화장품제조업자: 코스맥스(주) / 화장품책임판매업자: (주)씨엠에스랩",
-        "country_of_origin": "Korea",
-        "ingredients_inci": "Water, Glycerin, Dipropylene Glycol, Butylene Glycol, Octyldodecanol, Neopentyl Glycol Dicaprate, Niacinamide, 1,2-Hexanediol, Phellinus Linteus Extract, Hydrolyzed Hyaluronic Acid, Hydrolyzed Collagen, Allium Sativum (Garlic) Bulb Extract, Avena Sativa (Oat) Kernel Extract, Bertholletia Excelsa Seed Extract, Brassica Oleracea Italica (Broccoli) Extract, Camellia Sinensis Seed Extract, Salmon Egg Extract, Solanum Lycopersicum (Tomato) Fruit Extract, Spinacia Oleracea (Spinach) Leaf Extract, Vaccinium Angustifolium (Blueberry) Fruit Extract, Vitis Vinifera (Grape) Fruit Extract, Diglycerin, Pentylene Glycol, Panthenol, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Cetearyl Olivate, Glyceryl Stearate, Palmitic Acid, Stearic Acid, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, C12-20 Alkyl Glucoside, Caprylyl Glycol, Sorbitan Olivate, Tromethamine, Ethylhexylglycerin, Glyceryl Acrylate/Acrylic Acid Copolymer, Adenosine, Sorbitan Isostearate, Sodium Phytate, Cyanocobalamin, Tocopherol, Acetyl Hexapeptide-8, Ascorbic Acid Polypeptide, Sodium DNA, Acetyl Octapeptide-3, Acetyl Tetrapeptide-2, Acetyl Tetrapeptide-3, Acetyl Tetrapeptide-5, Acetyl Tetrapeptide-9, Carnosine, Copper Tripeptide-1, Nonapeptide-1, Palmitoyl Pentapeptide-4, Palmitoyl Tripeptide-1, Palmitoyl Tripeptide-5, C14-22 Alcohols, Xanthan Gum, Carbomer, Fragrance",
-        "us_label_ok": true
-      },
-      "price": {
-        "price_usd": 23.99,
-        "margin_pct": 46.1,
-        "register_blocked": false
-      },
-      "legal": {
-        "status": "auto_checked",
-        "hard_block": false,
-        "hard_block_reason": ""
-      },
-      "ready": true,
-      "blocked_by": []
-    },
-    {
-      "rank": 4,
-      "pd_no": "1041749",
-      "product_id": "1041749",
-      "name": "식물원 병풀 클리어 앰플 30 ml",
-      "category": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 92,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041749",
-      "copy": {
-        "title": "Sikmulnara Centella Clear Ampoule 30 ml",
-        "description_html": "<p>Discover the Sikmulnara Centella Clear Ampoule, featuring a 30 ml formula designed to care for your skin. This ampoule helps soothe and hydrate, leaving your complexion feeling refreshed and balanced.</p><p>Incorporate this lightweight formula into your daily routine for a clearer-looking appearance and a smooth, hydrated finish.</p>",
-        "seo_title": "Sikmulnara Centella Clear Ampoule 30 ml",
-        "seo_description": "Shop the Sikmulnara Centella Clear Ampoule 30 ml. A soothing facial ampoule designed to hydrate and refresh your skin for a balanced complexion.",
-        "tags": [
-          "sikmulnara",
-          "centella-ampoule",
-          "korean-skincare",
-          "face-ampoule",
-          "hydrating-serum",
-          "k-beauty",
-          "soothing-ampoule"
-        ],
-        "product_type": "Face Serum"
-      },
-      "copy_status": "ok",
-      "gosi": {
-        "volume": "30 ml",
-        "maker": "코스맥스(주) / (주)네이처리퍼블릭",
-        "origin": "대한민국",
-        "ingredients": "정제수, 부틸렌글라이콜, 글리세린, 1,2-헥산다이올, 프로판다이올, 흰버드나무껍질추출물, 병풀추출물(100.1 ppm), 병풀잎추출물(100ppm), 병풀뿌리추출물(100 ppm), 티트리잎오일, C12-14알케스",
-        "gosi_ok": true
-      },
-      "us_label": {
-        "net_contents": "30 ml",
-        "manufacturer": "코스맥스(주) / (주)네이처리퍼블릭",
-        "country_of_origin": "Korea",
-        "ingredients_inci": "Water, Butylene Glycol, Glycerin, 1,2-Hexanediol, Propanediol, Salix Alba (Willow) Bark Extract, Centella Asiatica Extract, Centella Asiatica Leaf Extract, Centella Asiatica Root Extract, Melaleuca Alternifolia (Tea Tree) Leaf Oil, C12-14 Alketh-12, Sodium Polyacryloyldimethyl Taurate, Sodium Citrate, Ethylhexylglycerin, Citric Acid, Tocopherol, Epigallocatechin Gallate, Salicylic Acid, Glycolic Acid, Caprylic/Capric Triglyceride, Pistacia Lentiscus (Mastic) Gum, Hydrogenated Lecithin, Xanthan Gum, Phenethyl Alcohol",
-        "us_label_ok": true
-      },
-      "price": {
-        "price_usd": 17.99,
-        "margin_pct": 34.7,
-        "register_blocked": false
-      },
-      "legal": {
-        "status": "auto_checked",
-        "hard_block": false,
-        "hard_block_reason": ""
-      },
-      "ready": true,
-      "blocked_by": []
-    },
-    {
-      "rank": 5,
+      "rank": 6,
       "pd_no": "1059834",
       "product_id": "1059834",
       "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
@@ -285,7 +304,7 @@
       "blocked_by": []
     },
     {
-      "rank": 6,
+      "rank": 7,
       "pd_no": "1060487",
       "product_id": "1060487",
       "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
@@ -340,7 +359,7 @@
       ]
     },
     {
-      "rank": 7,
+      "rank": 8,
       "pd_no": "1049271",
       "product_id": "1049271",
       "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
@@ -394,7 +413,7 @@
       ]
     },
     {
-      "rank": 8,
+      "rank": 9,
       "pd_no": "1041403",
       "product_id": "1041403",
       "name": "채비공간 어성초 추출물 비건 토너 150 ml",
@@ -445,6 +464,50 @@
       },
       "ready": true,
       "blocked_by": []
+    },
+    {
+      "rank": 10,
+      "pd_no": "1042619",
+      "product_id": "1042619",
+      "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
+      "category": "마스크팩",
+      "price_krw": 1000,
+      "shopify_score": 88,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
+      "copy": {},
+      "copy_status": "missing",
+      "gosi": {
+        "volume": "",
+        "maker": "",
+        "origin": "",
+        "ingredients": "",
+        "gosi_ok": false
+      },
+      "us_label": {
+        "net_contents": "",
+        "manufacturer": "",
+        "country_of_origin": "",
+        "ingredients_inci": "",
+        "us_label_ok": false
+      },
+      "price": {
+        "price_usd": null,
+        "margin_pct": null,
+        "register_blocked": false
+      },
+      "legal": {
+        "status": "auto_checked",
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields"
+      },
+      "ready": false,
+      "blocked_by": [
+        "copy",
+        "gosi",
+        "us_label",
+        "price",
+        "legal"
+      ]
     }
   ]
 }
