@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-16T07:01:29.663235+09:00",
+  "generated_at": "2026-09-16T08:10:12.536635+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
@@ -30,7 +30,7 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-09-16T07:01:25.663631+09:00",
+      "when": "2026-09-16T08:10:09.872537+09:00",
       "summary": "S등급 8개 · 고시표 입력 대기 0건 · 새 자료 41건",
       "action": null,
       "status": "ok",
@@ -42,7 +42,7 @@
     {
       "id": "listing",
       "name": "리스팅 제작팀",
-      "when": "2026-09-15T22:01:26.080301+00:00",
+      "when": "2026-09-15T23:10:10.120788+00:00",
       "summary": "등록 가능 6/8 · 카피 8 · 고시 8 · 가격 7 · 법률 7",
       "action": "us_label 1건, 가격 1건, 법률 1건 이 막고 있음",
       "status": "ok",
@@ -66,7 +66,7 @@
     {
       "id": "legal",
       "name": "법률·규제팀",
-      "when": "2026-09-15T22:01:25.512216+00:00",
+      "when": "2026-09-15T23:10:09.781153+00:00",
       "summary": "자동 점검 8건 · 통과 0 · 등록 차단 1 · 참고 주의 8 · 수출서류 HS 8건 · 라벨 5/6항목 자동 · 새 자료 15건",
       "action": "차단 1건: 메디필 락토 모공 리프팅 랩핑(자동 점검 미통과: lab) — 라벨 갖추기 전엔 못 올림",
       "status": "ok",
@@ -126,7 +126,7 @@
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-09-16T07:00:01.445647+09:00",
+      "when": "2026-09-16T08:08:45.871317+09:00",
       "summary": "81,302노트 · 322,233링크 · 끊어진 링크 112건 · 개인 노트 16건 별도 · 경고 통과(임계 300)",
       "action": null,
       "status": "ok",
@@ -140,45 +140,45 @@
     "id": "secretary",
     "name": "비서실장",
     "badge": "총괄",
-    "when": "2026-09-16T06:59:59.824870+09:00",
+    "when": "2026-09-16T08:08:43.995724+09:00",
     "summary": "30분 주기 · 고시 16건 · US라벨 16건 · 카피 8건 · 등록 가능 6건 · 법률 차단 1건",
-    "action": "멈춘 단계 고시 수집 — 2시간 넘게 산출물이 안 바뀌었다",
+    "action": "멈춘 단계 고시 수집, 리스팅 카피 — 2시간 넘게 산출물이 안 바뀌었다",
     "status": "failed",
     "steps": [
       {
         "단계": "고시 수집",
         "산출물": "gosi.json",
         "갱신": "2026-09-13T07:50:40.431569+00:00",
-        "몇시간전": 62.2
+        "몇시간전": 63.3
       },
       {
         "단계": "고시 비전 추출",
         "산출물": "gosi.json",
-        "갱신": "2026-09-16T06:59:59.824870+09:00",
+        "갱신": "2026-09-16T08:08:43.995724+09:00",
         "몇시간전": 0.0
       },
       {
         "단계": "US 라벨 동기화",
         "산출물": "daiso_us_labels.json",
-        "갱신": "2026-09-16T06:59:59.396872+09:00",
+        "갱신": "2026-09-16T08:08:43.569727+09:00",
         "몇시간전": 0.0
       },
       {
         "단계": "리스팅 카피",
         "산출물": "shopify_listing_copy.json",
         "갱신": "2026-09-15T20:43:38.044057+00:00",
-        "몇시간전": 1.3
+        "몇시간전": 2.4
       },
       {
         "단계": "등록 게이트",
         "산출물": "listing_gate.json",
-        "갱신": "2026-09-15T22:01:26.080301+00:00",
+        "갱신": "2026-09-15T23:10:10.120788+00:00",
         "몇시간전": 0.0
       },
       {
         "단계": "법률 점검",
         "산출물": "legal_products.json",
-        "갱신": "2026-09-15T22:01:25.512216+00:00",
+        "갱신": "2026-09-15T23:10:09.781153+00:00",
         "몇시간전": 0.0
       }
     ],
@@ -328,7 +328,7 @@
     "status": "completed",
     "record_count": 3417,
     "source_counts": {},
-    "updated_at": "2026-09-16T06:59:59.833870+09:00"
+    "updated_at": "2026-09-16T08:08:44.003724+09:00"
   },
   "graph": {
     "notes": 81302,
@@ -342,7 +342,7 @@
     "topics": 28,
     "orgs": 35,
     "audit": "passed",
-    "last_generated": "2026-09-16T07:00:01.445647+09:00"
+    "last_generated": "2026-09-16T08:08:45.871317+09:00"
   },
   "training": {
     "status": "completed",
@@ -392,9 +392,9 @@
         "badge": "$18.90",
         "price": 18.9,
         "rating": 4.6,
-        "review_count": 32166,
+        "review_count": 32170,
         "rank": 1,
-        "url": "https://www.amazon.com/Medicube-Zero-Pore-Pads-Dual-Textured/dp/B09V7Z4TJG/ref=zg_bs_g_beauty_d_sccl_1/134-4860327-2688437",
+        "url": "https://www.amazon.com/Medicube-Zero-Pore-Pads-Dual-Textured/dp/B09V7Z4TJG/ref=zg_bs_g_beauty_d_sccl_1/135-3792106-8502307",
         "extraction_method": "catalog_file"
       },
       {
@@ -404,9 +404,9 @@
         "badge": "$9.97",
         "price": 9.97,
         "rating": 4.7,
-        "review_count": 76029,
+        "review_count": 76036,
         "rank": 2,
-        "url": "https://www.amazon.com/eos-Cashmere-Moisture-Lightweight-Non-Greasy/dp/B08KT2Z93D/ref=zg_bs_g_beauty_d_sccl_2/134-4860327-2688437",
+        "url": "https://www.amazon.com/eos-Cashmere-Moisture-Lightweight-Non-Greasy/dp/B08KT2Z93D/ref=zg_bs_g_beauty_d_sccl_2/135-3792106-8502307",
         "extraction_method": "catalog_file"
       },
       {
@@ -418,7 +418,7 @@
         "rating": 4.7,
         "review_count": 81347,
         "rank": 3,
-        "url": "https://www.amazon.com/Amazon-Basics-Cotton-Swabs-500ct/dp/B09541P9WH/ref=zg_bs_g_beauty_d_sccl_3/134-4860327-2688437",
+        "url": "https://www.amazon.com/Amazon-Basics-Cotton-Swabs-500ct/dp/B09541P9WH/ref=zg_bs_g_beauty_d_sccl_3/135-3792106-8502307",
         "extraction_method": "catalog_file"
       },
       {
@@ -430,7 +430,7 @@
         "rating": 4.8,
         "review_count": 43039,
         "rank": 4,
-        "url": "https://www.amazon.com/Clean-Skin-Club-Disposable-Sensitive/dp/B07PBXXNCY/ref=zg_bs_g_beauty_d_sccl_4/134-4860327-2688437",
+        "url": "https://www.amazon.com/Clean-Skin-Club-Disposable-Sensitive/dp/B07PBXXNCY/ref=zg_bs_g_beauty_d_sccl_4/135-3792106-8502307",
         "extraction_method": "catalog_file"
       },
       {
@@ -440,9 +440,9 @@
         "badge": "$12.99",
         "price": 12.99,
         "rating": 4.6,
-        "review_count": 185147,
+        "review_count": 185149,
         "rank": 5,
-        "url": "https://www.amazon.com/Mighty-Patch-Hydrocolloid-Absorbing-count/dp/B074PVTPBW/ref=zg_bs_g_beauty_d_sccl_5/134-4860327-2688437",
+        "url": "https://www.amazon.com/Mighty-Patch-Hydrocolloid-Absorbing-count/dp/B074PVTPBW/ref=zg_bs_g_beauty_d_sccl_5/135-3792106-8502307",
         "extraction_method": "catalog_file"
       },
       {
@@ -452,9 +452,9 @@
         "badge": "$2.96",
         "price": 2.96,
         "rating": 4.7,
-        "review_count": 54029,
+        "review_count": 54030,
         "rank": 6,
-        "url": "https://www.amazon.com/Amazon-Basics-Cotton-Rounds-Count/dp/B09542G9ZN/ref=zg_bs_g_beauty_d_sccl_6/134-4860327-2688437",
+        "url": "https://www.amazon.com/Amazon-Basics-Cotton-Rounds-Count/dp/B09542G9ZN/ref=zg_bs_g_beauty_d_sccl_6/135-3792106-8502307",
         "extraction_method": "catalog_file"
       },
       {
@@ -466,7 +466,7 @@
         "rating": 4.8,
         "review_count": 121712,
         "rank": 7,
-        "url": "https://www.amazon.com/Neutrogena-Makeup-Remover-Micellar-Wipes/dp/B00U2VQZDS/ref=zg_bs_g_beauty_d_sccl_7/134-4860327-2688437",
+        "url": "https://www.amazon.com/Neutrogena-Makeup-Remover-Micellar-Wipes/dp/B00U2VQZDS/ref=zg_bs_g_beauty_d_sccl_7/135-3792106-8502307",
         "extraction_method": "catalog_file"
       },
       {
@@ -476,21 +476,9 @@
         "badge": "$13.50",
         "price": 13.5,
         "rating": 4.7,
-        "review_count": 63974,
+        "review_count": 63976,
         "rank": 8,
-        "url": "https://www.amazon.com/Ordinary-Exfoliating-Brightening-Smoothing-Even-Looking/dp/B071914GGL/ref=zg_bs_g_beauty_d_sccl_8/134-4860327-2688437",
-        "extraction_method": "catalog_file"
-      },
-      {
-        "product": "BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Plumping, Travel Essentials & Self Care Gifts for Women, Korean Skin Care | 1.19oz(34g) x 4ea",
-        "brand": "",
-        "sub": "",
-        "badge": "$19.00",
-        "price": 19,
-        "rating": 4.5,
-        "review_count": 47719,
-        "rank": 9,
-        "url": "https://www.amazon.com/Biodance-Bio-Collagen-Tightening-Hydrating-Molecular/dp/B0B2RM68G2/ref=zg_bs_g_beauty_d_sccl_9/134-4860327-2688437",
+        "url": "https://www.amazon.com/Ordinary-Exfoliating-Brightening-Smoothing-Even-Looking/dp/B071914GGL/ref=zg_bs_g_beauty_d_sccl_8/135-3792106-8502307",
         "extraction_method": "catalog_file"
       },
       {
@@ -500,9 +488,21 @@
         "badge": "$10.82",
         "price": 10.82,
         "rating": 4.5,
-        "review_count": 189103,
+        "review_count": 189105,
+        "rank": 9,
+        "url": "https://www.amazon.com/Maybelline-Volumizing-Buildable-Lengthening-Multiplying/dp/B08H3JPH74/ref=zg_bs_g_beauty_d_sccl_9/135-3792106-8502307",
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Plumping, Travel Essentials & Self Care Gifts for Women, Korean Skin Care | 1.19oz(34g) x 4ea",
+        "brand": "",
+        "sub": "",
+        "badge": "$19.00",
+        "price": 19,
+        "rating": 4.5,
+        "review_count": 47724,
         "rank": 10,
-        "url": "https://www.amazon.com/Maybelline-Volumizing-Buildable-Lengthening-Multiplying/dp/B08H3JPH74/ref=zg_bs_g_beauty_d_sccl_10/134-4860327-2688437",
+        "url": "https://www.amazon.com/Biodance-Bio-Collagen-Tightening-Hydrating-Molecular/dp/B0B2RM68G2/ref=zg_bs_g_beauty_d_sccl_10/135-3792106-8502307",
         "extraction_method": "catalog_file"
       },
       {
@@ -514,7 +514,7 @@
         "rating": 4.6,
         "review_count": 83290,
         "rank": 11,
-        "url": "https://www.amazon.com/PanOxyl-Foaming-Peroxide-Strength-Antimicrobial/dp/B081KL2QYJ/ref=zg_bs_g_beauty_d_sccl_11/134-4860327-2688437",
+        "url": "https://www.amazon.com/PanOxyl-Foaming-Peroxide-Strength-Antimicrobial/dp/B081KL2QYJ/ref=zg_bs_g_beauty_d_sccl_11/135-3792106-8502307",
         "extraction_method": "catalog_file"
       },
       {
@@ -526,19 +526,7 @@
         "rating": 4.6,
         "review_count": 51662,
         "rank": 12,
-        "url": "https://www.amazon.com/Roche-Posay-Toleriane-Double-Repair-Moisturizer/dp/B01N9SPQHQ/ref=zg_bs_g_beauty_d_sccl_12/134-4860327-2688437",
-        "extraction_method": "catalog_file"
-      },
-      {
-        "product": "eos Cashmere Body Wash- Vanilla Cashmere, Creamy Gel with Shea Butter, 16 fl oz",
-        "brand": "",
-        "sub": "",
-        "badge": "$9.98",
-        "price": 9.98,
-        "rating": 4.8,
-        "review_count": 23888,
-        "rank": 13,
-        "url": "https://www.amazon.com/eos-Moisturizing-Nourishing-Phthalate-Sensitive/dp/B0DPHQRLJC/ref=zg_bs_g_beauty_d_sccl_13/134-4860327-2688437",
+        "url": "https://www.amazon.com/Roche-Posay-Toleriane-Double-Repair-Moisturizer/dp/B01N9SPQHQ/ref=zg_bs_g_beauty_d_sccl_12/135-3792106-8502307",
         "extraction_method": "catalog_file"
       },
       {
@@ -548,9 +536,21 @@
         "badge": "$7.61",
         "price": 7.61,
         "rating": 4.7,
-        "review_count": 54849,
+        "review_count": 54851,
+        "rank": 13,
+        "url": "https://www.amazon.com/Mrs-Meyers-Clean-Refill-Verbena/dp/B00F1U0YB4/ref=zg_bs_g_beauty_d_sccl_13/135-3792106-8502307",
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "eos Cashmere Body Wash- Vanilla Cashmere, Creamy Gel with Shea Butter, 16 fl oz",
+        "brand": "",
+        "sub": "",
+        "badge": "$9.98",
+        "price": 9.98,
+        "rating": 4.7,
+        "review_count": 23889,
         "rank": 14,
-        "url": "https://www.amazon.com/Mrs-Meyers-Clean-Refill-Verbena/dp/B00F1U0YB4/ref=zg_bs_g_beauty_d_sccl_14/134-4860327-2688437",
+        "url": "https://www.amazon.com/eos-Moisturizing-Nourishing-Phthalate-Sensitive/dp/B0DPHQRLJC/ref=zg_bs_g_beauty_d_sccl_14/135-3792106-8502307",
         "extraction_method": "catalog_file"
       },
       {
@@ -560,9 +560,9 @@
         "badge": "$21.60",
         "price": 21.6,
         "rating": 4.6,
-        "review_count": 5568,
+        "review_count": 5571,
         "rank": 15,
-        "url": "https://www.amazon.com/ANUA-Hyaluronic-Moisturizing-Lightweight-Moisturizer/dp/B0DWFLY18Y/ref=zg_bs_g_beauty_d_sccl_15/134-4860327-2688437",
+        "url": "https://www.amazon.com/ANUA-Hyaluronic-Moisturizing-Lightweight-Moisturizer/dp/B0DWFLY18Y/ref=zg_bs_g_beauty_d_sccl_15/135-3792106-8502307",
         "extraction_method": "catalog_file"
       }
     ],
@@ -1052,13 +1052,19 @@
     ],
     "allure_media": [
       {
+        "product": "Selena Gomez's Sunset Frost Nails Capture Golden Hour in a Manicure — See Photos",
+        "sub": "Tue, 15 Sep 2026",
+        "badge": "15 Sep",
+        "url": "https://www.allure.com/story/selena-gomez-emmys-2026-sunset-frost-nails"
+      },
+      {
         "product": "8 Best Wrinkle Serums for Fine Lines, Texture, and Firmness",
         "sub": "Tue, 15 Sep 2026",
         "badge": "15 Sep",
         "url": "https://www.allure.com/story/best-wrinkle-serum"
       },
       {
-        "product": "How GLP-1 Weight Loss Drugs Moved Beyond the Doctor’s Office",
+        "product": "How GLP-1 Weight Loss Drugs Left the Doctor’s Office",
         "sub": "Tue, 15 Sep 2026",
         "badge": "15 Sep",
         "url": "https://www.allure.com/story/glp-1-gray-market-telehealth-med-spas-compounding-pharmacies"
@@ -1134,12 +1140,6 @@
         "sub": "Sun, 13 Sep 2026",
         "badge": "13 Sep",
         "url": "https://www.allure.com/gallery/best-sleep-mask"
-      },
-      {
-        "product": "8 Best Guerlain Products 2026 to Add Luxury to Your Routine",
-        "sub": "Sat, 12 Sep 2026",
-        "badge": "12 Sep",
-        "url": "https://www.allure.com/story/best-guerlain-products"
       }
     ],
     "openfda_sunscreen": [
@@ -1617,20 +1617,20 @@
       "status": "ok",
       "source": "amazon.com/gp/bestsellers/beauty (실수집)",
       "reason": "",
-      "collected_at": "2026-09-15T14:18:02.423553+00:00",
+      "collected_at": "2026-09-15T23:10:07.126967+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 7.7,
+      "age_hours": 0.0,
       "stale": false
     },
     "walmart_beauty": {
       "status": "ok",
       "source": "walmart.com/browse/beauty/1085666 (실수집)",
       "reason": "",
-      "collected_at": "2026-09-15T14:18:02.424757+00:00",
+      "collected_at": "2026-09-15T23:10:07.127537+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 7.7,
+      "age_hours": 0.0,
       "stale": false
     },
     "oliveyoung_us": {
@@ -1640,7 +1640,7 @@
       "collected_at": "2026-09-15T20:51:49.854538+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 1.2,
+      "age_hours": 2.3,
       "stale": false
     },
     "google_trends_us": {
@@ -1650,40 +1650,40 @@
       "collected_at": "2026-09-15T20:52:34.623104+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 1.1,
+      "age_hours": 2.3,
       "stale": false
     },
     "wikipedia_interest": {
       "status": "ok",
       "source": "wikimedia.org REST pageviews API (공식)",
       "reason": "",
-      "collected_at": "2026-09-15T18:03:31.661865+00:00",
+      "collected_at": "2026-09-15T20:56:59.341102+00:00",
       "count": 8,
       "trust": "verified",
       "note": "2026-08-15 ~ 2026-09-13 일별 조회수. 후반 15일 대비 전반 15일 증감률",
-      "age_hours": 4.0,
+      "age_hours": 2.2,
       "stale": false
     },
     "allure_media": {
       "status": "ok",
       "source": "allure.com/feed/rss",
       "reason": "",
-      "collected_at": "2026-09-15T18:03:31.661865+00:00",
+      "collected_at": "2026-09-15T20:56:59.341102+00:00",
       "count": 15,
       "trust": "verified",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
-      "age_hours": 4.0,
+      "age_hours": 2.2,
       "stale": false
     },
     "openfda_sunscreen": {
       "status": "ok",
       "source": "api.fda.gov/drug/label (openFDA 공식)",
       "reason": "",
-      "collected_at": "2026-09-15T18:03:31.661865+00:00",
+      "collected_at": "2026-09-15T20:56:59.341102+00:00",
       "count": 15,
       "trust": "verified",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다.",
-      "age_hours": 4.0,
+      "age_hours": 2.2,
       "stale": false
     },
     "shopify_demand_matching": {
@@ -1706,20 +1706,20 @@
       "status": "ok",
       "source": "공개 페이지 직접 파싱",
       "reason": "",
-      "collected_at": "2026-09-15T14:18:02.425557+00:00",
+      "collected_at": "2026-09-15T23:10:07.127941+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 7.7,
+      "age_hours": 0.0,
       "stale": false
     },
     "sephora": {
       "status": "ok",
       "source": "공개 페이지 직접 파싱",
       "reason": "",
-      "collected_at": "2026-09-15T14:18:02.425557+00:00",
+      "collected_at": "2026-09-15T23:10:07.127941+00:00",
       "count": 14,
       "trust": "verified",
-      "age_hours": 7.7,
+      "age_hours": 0.0,
       "stale": false
     },
     "open_beauty_facts": {
@@ -1729,7 +1729,7 @@
       "collected_at": "2026-09-15T20:51:49.146463+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 1.2,
+      "age_hours": 2.3,
       "stale": false
     }
   },
@@ -1739,5 +1739,5 @@
     "source": "https://open.er-api.com/v6/latest/USD",
     "updated_at": "2026-09-16"
   },
-  "last_synced": "09. 16. 오전 05:56 KST"
+  "last_synced": "09. 16. 오전 08:10 KST"
 }
