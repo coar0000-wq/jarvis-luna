@@ -217,6 +217,31 @@ runs:
 
           if [ "$IN_REGEN" = "true" ]; then
 
+            # 2026-09-15 순서 한 칸이 더 빠져 있었다.
+            # 산출물 의존 그래프 가드가 찾았다.
+            #
+            # build_listing_gate.py 는 legal_products.json 을 읽는다.
+            # 그 legal_products.json 은 check_legal_products.py 가
+            # shopify_demand_score.json 의 S등급 목록으로 만든다.
+            #
+            # 점수가 바뀌면 S 목록이 바뀜다.
+            # 법률 점검을 다시 안 하면 게이트가 예전 S 목록
+            # 기준의 legal_ok 를 그대로 써버린다.
+            # audit 이 legal_products 와 listing_gate 를 대조하니
+            # 이것도 #33 과 같은 모양으로 터질 수 있다.
+            #
+            # 순서: 법률 -> market_team -> listing_gate -> 대시보드
+            if [ -f scripts/check_legal_products.py ] &&
+               [ -f data/daiso_real/shopify_demand_score.json ]; then
+
+              echo "법률 점검 갱신 (점수 -> legal_products)..."
+
+              python3 -u scripts/check_legal_products.py
+
+              git add -A -- data/legal_products.json 2>/dev/null || true
+
+            fi
+
             if [ -f scripts/build_market_team.py ] &&
                [ -f data/daiso_real/shopify_demand_score.json ]; then
 

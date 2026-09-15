@@ -300,9 +300,12 @@ jobs:
       # 여기서 돌리는 것은 아래 감사 미리보기를
       # 실제 발행 결과와 같게 만들기 위해서다.
       # ------------------------------------------------------------
-      - name: 점수 파생 보드 재생성 (market_team / listing_gate)
+      - name: 점수 파생 보드 재생성 (legal / market_team / listing_gate)
         shell: bash
         run: |
+          # 법률 점검이 먼저다.
+          # build_listing_gate.py 가 legal_products.json 을 읽기 때문이다.
+          python -u scripts/check_legal_products.py
           python -u scripts/build_market_team.py
           python -u scripts/build_listing_gate.py
 
@@ -545,6 +548,7 @@ jobs:
           # 다음 발행이 또 audit 에서 막힌다. (수집 #33)
           paths: >-
             data/daiso_real
+            data/legal_products.json
             data/market_team.json
             data/listing_gate.json
             data/dashboard_runtime.json

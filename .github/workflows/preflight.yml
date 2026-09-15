@@ -29,15 +29,35 @@ jobs:
         run: |
           python scripts/preflight.py | tee /tmp/pf.txt
           echo "rc=${PIPESTATUS[0]}" >> $GITHUB_OUTPUT
+      # ----------------------------------------------------------
+      # 산출물 재생성 순서 가드
+      #
+      # audit_team_reports.py 는 "숫자가 안 맞는다"를 발행 직전에 잡는다.
+      # 그때는 이미 수집이 끝난 뒤다. #33 은 59분을 태우고 막혔다.
+      #
+      # 이 단계는 코드만 읽어서 "순서가 빠졌다"를 미리 잡는다.
+      # 수집을 한 번도 돌리지 않으므로 10초면 끝난다.
+      # ----------------------------------------------------------
+      - name: 산출물 재생성 순서 검사
+        id: graph
+        continue-on-error: true
+        run: |
+          python scripts/build_artifact_graph.py --check | tee /tmp/graph.txt
+          echo "rc=${PIPESTATUS[0]}" >> $GITHUB_OUTPUT
+
       - name: 결과 요약
         if: always()
         run: |
+          echo '### 산출물 재생성 순서' >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          cat /tmp/graph.txt >> $GITHUB_STEP_SUMMARY 2>/dev/null || echo '실행 실패' >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
           echo '### 배포 전 검증' >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
           cat /tmp/pf.txt >> $GITHUB_STEP_SUMMARY 2>/dev/null || echo '실행 실패' >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
       - name: 실패 시 종료
-        if: steps.pf.outputs.rc == '1'
+        if: steps.pf.outputs.rc == '1' || steps.graph.outputs.rc == '1'
         run: |
           echo "FAIL 항목이 있습니다. 위 요약을 확인하세요."
           exit 1
