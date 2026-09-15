@@ -288,6 +288,25 @@ jobs:
           python -u scripts/daiso/score_shopify_demand.py
 
       # ------------------------------------------------------------
+      # 7-2. 점수에서 파생되는 보드를 같이 다시 만든다
+      #
+      # 점수만 새로 계산하고 파생 보드를 내버려두면
+      # 팀 카드는 지난번 S등급 갯수를 그대로 보여준다.
+      # 그 불일치로 발행 audit 이 막힌다. (수집 #33)
+      #
+      # 순서: 점수 -> market_team -> listing_gate -> 대시보드
+      #
+      # 발행 직전에 publish 액션이 한 번 더 돌린다.
+      # 여기서 돌리는 것은 아래 감사 미리보기를
+      # 실제 발행 결과와 같게 만들기 위해서다.
+      # ------------------------------------------------------------
+      - name: 점수 파생 보드 재생성 (market_team / listing_gate)
+        shell: bash
+        run: |
+          python -u scripts/build_market_team.py
+          python -u scripts/build_listing_gate.py
+
+      # ------------------------------------------------------------
       # 8. 산출물 검증
       # ------------------------------------------------------------
       - name: Validate artifacts
@@ -519,8 +538,15 @@ jobs:
           # cumulative_history.json 도 넣는다. (2026-09-14)
           # 대시보드 생성기가 이 파일도 같이 고친다. 경로에 없으면
           # 이번 실행이 쌓은 이력이 버려진다. #31 이 그것 때문에 막혔다.
+          # market_team.json / listing_gate.json 도 넣는다. (2026-09-15)
+          # 이번 실행이 점수를 바꾸면 이 두 파일도 바뀜다.
+          # 경로에 없으면 같이 발행되지 않아
+          # 원거 main 이 다시 불일치 상태로 돌아가고
+          # 다음 발행이 또 audit 에서 막힌다. (수집 #33)
           paths: >-
             data/daiso_real
+            data/market_team.json
+            data/listing_gate.json
             data/dashboard_runtime.json
             data/knowledge/cumulative_history.json
           message: 다이소 실수집 + Shopify 수요 점수 갱신
