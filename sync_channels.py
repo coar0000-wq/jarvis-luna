@@ -544,14 +544,20 @@ def build_global_channels():
 
     # Ulta/Sephora 는 봇 차단으로 직접 파싱이 안 된다.
     # Gemini url_context 결과가 있으면 쓰되 신뢰 등급을 낮게 표시한다.
+    #
+    # 2026-09-15: scripts/collect_us_retail.py 를 붙였다. 실제 브라우저로
+    # 네 곳을 받아 us_beauty_products.json / amazon_products.json /
+    # walmart_products.json 에 쓴다. 그래서 이 경로들이 살아난다.
     _, _, _, gmodel = from_gemini_web("ulta_beauty")
 
+    # 라벨을 비워 둔다. from_catalog_file 이 파일 안의 source 를 쓴다.
+    # 전에는 "amazon_products.json 실명 카탈로그" 라고 적어 두었는데
+    # 그 파일이 하드코딩이던 시절의 이름이라 지금은 맞지 않는다.
+    # 파일이 스스로 어디서 받았는지 적게 두는 편이 덜 틀린다.
     am_rows, am_at, am_src = from_catalog_file(
-        "amazon_products.json", "https://www.amazon.com",
-        "amazon_products.json 실명 카탈로그")
+        "amazon_products.json", "https://www.amazon.com")
     wm_rows, wm_at, wm_src = from_catalog_file(
-        "walmart_products.json", "https://www.walmart.com",
-        "walmart_products.json 실명 카탈로그")
+        "walmart_products.json", "https://www.walmart.com")
     gt_rows, gt_at, gt_src = from_google_trends_beauty()
 
     return {

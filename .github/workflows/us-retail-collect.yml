@@ -1,0 +1,130 @@
+name: 미국 리테일 베스트셀러 수집 (브라우저)
+
+# Amazon / Ulta / Walmart / Sephora 베스트셀러를 실제 브라우저로 받는다.
+#
+# 왜 브라우저인가
+#   네 곳 다 HTTP 요청으로는 상품이 안 나온다. 예전 us_beauty_products.json
+#   첫 항목 title 이 "Join / Sign in" 이었다. 봇 차단 페이지의 네비게이션
+#   텍스트를 긁어 놓은 것이었다.
+#
+# 무엇이 되고 무엇이 안 되나 (2026-09-15 실측)
+#   amazon   CI 의 chromium 으로 통과. 46건.
+#   ulta     CI 의 chromium 으로 통과. 47건.
+#   walmart  "Robot or human?" HUMAN 챌린지. headless / headful 둘 다 막힘.
+#   sephora  "Access Denied".
+#
+#   막히는 둘은 data/manual/us_retail_assist.json 으로 채운다. 사람이
+#   실제 프로필 Chrome 으로 받아 넣는 파일이다. 수집기는 브라우저가
+#   0건으로 끝난 자리에만 그것을 쓴다. 직접 받은 곳은 덮지 않는다.
+#
+#   그래서 이 워크플로가 혼자 돌면 amazon·ulta 는 매번 새로 받고,
+#   walmart·sephora 는 보강 파일 시점 그대로 유지된다. 그 상태는
+#   is_stale / stale_from 에 적히므로 숨겨지지 않는다.
+
+on:
+  schedule:
+    # 미국 리테일 진열이 바뀐 뒤를 노린다. 매일 05:40 KST
+    - cron: '40 20 * * *'
+
+  workflow_dispatch:
+
+concurrency:
+  # 같은 파일 세 개를 쓰므로 동시에 두 개가 돌면 안 된다.
+  group: us-retail-collect
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 브라우저 설치
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright
+          playwright install --with-deps chromium
+
+      - name: 미국 리테일 4곳 수집
+        id: collect
+        shell: bash
+        run: |
+          # 네 곳 중 한 곳이라도 받으면 0 을 준다.
+          # 전부 실패면 수집기가 1 을 주고 여기서 멈춘다.
+          python -u scripts/collect_us_retail.py
+
+      - name: 채널 상태 갱신
+        shell: bash
+        run: |
+          if [ -f sync_channels.py ]; then
+            python -u sync_channels.py
+          else
+            echo "::error::sync_channels.py 가 없다."
+            exit 1
+          fi
+
+      - name: 수집 결과 확인
+        if: always()
+        shell: bash
+        run: |
+          echo '### 미국 리테일 수집' >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY" 2>&1
+          import json
+          from pathlib import Path
+
+          for f in ("amazon_products.json", "walmart_products.json",
+                    "us_beauty_products.json"):
+              p = Path("data") / f
+              if not p.exists():
+                  print(f"{f}: 없음")
+                  continue
+              d = json.loads(p.read_text(encoding="utf-8-sig"))
+              mark = " [보강]" if d.get("assisted") else ""
+              stale = f" · 낡음({d.get('stale_from', '')[:10]})" if d.get("is_stale") else ""
+              print(f"{f}: {d.get('count', 0)}건{mark}{stale}")
+              if d.get("reason"):
+                  print(f"    사유: {d['reason'][:140]}")
+              s = d.get("price_stats") or {}
+              if s:
+                  print(f"    가격 n={s.get('n')} 하위25%=${s.get('p25')} "
+                        f"중앙값=${s.get('median')}")
+
+          rt = Path("data/dashboard_runtime.json")
+          if rt.exists():
+              g = json.loads(rt.read_text(encoding="utf-8-sig")).get(
+                  "global_channels_status") or {}
+              live = sum(1 for v in g.values() if (v or {}).get("status") == "ok")
+              print(f"\n채널 가동 {live}/{len(g)}")
+          PY
+
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: 산출물 발행 (원격 최신 위에 이번 변경만)
+        uses: ./.github/actions/publish
+        with:
+          # 수집기가 쓰는 세 파일과, sync_channels 가 건드리는 런타임.
+          # 대시보드는 publish 액션이 최종 트리에서 다시 만든다.
+          paths: >-
+            data/amazon_products.json
+            data/walmart_products.json
+            data/us_beauty_products.json
+            data/dashboard_runtime.json
+            data/market_team.json
+            data/listing_gate.json
+            data/knowledge/cumulative_history.json
+          message: 미국 리테일 베스트셀러 수집 (Amazon / Ulta / Walmart / Sephora)
+          regenerate-dashboard: 'true'
+          audit: 'true'

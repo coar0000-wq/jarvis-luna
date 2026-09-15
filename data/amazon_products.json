@@ -1,246 +1,438 @@
 {
-  "updated_at": "2026-08-31T07:43:46.833602+00:00",
-  "source": "amazon real-name catalog (no fake placeholders)",
-  "count": 21,
+  "source": "amazon.com/gp/bestsellers/beauty (실수집)",
+  "generator": "scripts/collect_us_retail.py",
+  "method": "Playwright chromium · 베스트셀러 그리드 파싱",
+  "assisted": false,
+  "assist_at": "",
+  "source_url": "https://www.amazon.com/gp/bestsellers/beauty/",
+  "robots_note": "/gp/bestsellers/ 관련 Disallow 없음 (2026-09-15 확인)",
+  "collected_at": "2026-09-15T14:05:03.581097+00:00",
+  "count": 46,
+  "reason": "",
+  "is_stale": false,
+  "stale_from": "",
+  "skipped_sponsored": 0,
+  "price_stats": {
+    "n": 29,
+    "min": 2,
+    "p25": 6,
+    "median": 9.97,
+    "max": 45
+  },
   "products": [
     {
       "rank": 1,
-      "name": "COSRX Advanced Snail 96 Mucin Essence",
-      "price_usd": 19.99,
-      "trend": "상승"
+      "name": "medicube Toner Pads Zero Pore Pad 2.0 for Exfoliation and Pore Care | Dual-Textured Facial Pad with 4.5% AHA Lactic Acid, 0.45% BHA Salicylic Acid - For All, Korean Skin Care, 70 Pads, 1 Pack",
+      "asin": "B09V7Z4TJG",
+      "price_usd": 20.97,
+      "rating": 4.6,
+      "review_count": 32166,
+      "url": "https://www.amazon.com/Medicube-Zero-Pore-Pads-Dual-Textured/dp/B09V7Z4TJG/ref=zg_bs_g_beauty_d_sccl_1/144-3900231-0588501"
     },
     {
       "rank": 2,
-      "name": "Mighty Patch Original",
-      "price_usd": 12.99,
-      "trend": "상승"
+      "name": "eos Shea Better Body Lotion- Vanilla Cashmere, 24-Hour Moisture, 16 fl oz",
+      "asin": "B08KT2Z93D",
+      "price_usd": 9.97,
+      "rating": 4.7,
+      "review_count": 76029,
+      "url": "https://www.amazon.com/eos-Cashmere-Moisture-Lightweight-Non-Greasy/dp/B08KT2Z93D/ref=zg_bs_g_beauty_d_sccl_2/144-3900231-0588501"
     },
     {
       "rank": 3,
-      "name": "CeraVe Foaming Facial Cleanser",
-      "price_usd": 15.49,
-      "trend": "유지"
+      "name": "Amazon Basics Double-Tipped Cotton Swabs for Personal Hygiene and Baby Care, Cotton, Versatile, Baby Safe, 500 Count",
+      "asin": "B09541P9WH",
+      "price_usd": 2.67,
+      "rating": 4.7,
+      "review_count": 81347,
+      "url": "https://www.amazon.com/Amazon-Basics-Cotton-Swabs-500ct/dp/B09541P9WH/ref=zg_bs_g_beauty_d_sccl_3/144-3900231-0588501"
     },
     {
       "rank": 4,
-      "name": "The Ordinary Niacinamide 10% + Zinc 1%",
-      "price_usd": 8.9,
-      "trend": "상승"
+      "name": "Clean Skin Club Clean Towels XL®, 100% USDA Biobased Face Towel, Disposable Face Towelette, Eczema Association Accepted, Makeup Remover Dry Wipes, Ultra Soft, 1 Pack, 50 Ct",
+      "asin": "B07PBXXNCY",
+      "price_usd": 17.95,
+      "rating": 4.8,
+      "review_count": 43039,
+      "url": "https://www.amazon.com/Clean-Skin-Club-Disposable-Sensitive/dp/B07PBXXNCY/ref=zg_bs_g_beauty_d_sccl_4/144-3900231-0588501"
     },
     {
       "rank": 5,
-      "name": "La Roche-Posay Double Repair Moisturizer",
-      "price_usd": 21.99,
-      "trend": "유지"
+      "name": "Mighty Patch Hero Cosmetics Original Nighttime Acne Pimple Patches, 36 Ct | #1 Hydrocolloid Acne Patches, Shrinking Zits & Whiteheads in 1 Use, Spot Treatment, Pimple Stickers for Face",
+      "asin": "B074PVTPBW",
+      "price_usd": null,
+      "rating": 4.6,
+      "review_count": 185147,
+      "url": "https://www.amazon.com/Mighty-Patch-Hydrocolloid-Absorbing-count/dp/B074PVTPBW/ref=zg_bs_g_beauty_d_sccl_5/144-3900231-0588501"
     },
     {
       "rank": 6,
-      "name": "Paula's Choice 2% BHA Liquid Exfoliant",
-      "price_usd": 34.0,
-      "trend": "상승"
+      "name": "Amazon Essentials 100% Cotton Rounds, 100 Count (Previously Amazon Basics)",
+      "asin": "B09542G9ZN",
+      "price_usd": 2.96,
+      "rating": 4.7,
+      "review_count": 54029,
+      "url": "https://www.amazon.com/Amazon-Basics-Cotton-Rounds-Count/dp/B09542G9ZN/ref=zg_bs_g_beauty_d_sccl_6/144-3900231-0588501"
     },
     {
       "rank": 7,
-      "name": "Laneige Lip Sleeping Mask",
-      "price_usd": 24.0,
-      "trend": "유지"
+      "name": "Neutrogena Makeup Remover Micellar Wipes, 2 Pack of 25 Ct | Plant-Based Micellar Water Cleansing Cloths, Gently Removes Oil, Dirt & Waterproof Makeup, No Heavy Residue, Alcohol-Free",
+      "asin": "B00U2VQZDS",
+      "price_usd": 9.97,
+      "rating": 4.8,
+      "review_count": 121712,
+      "url": "https://www.amazon.com/Neutrogena-Makeup-Remover-Micellar-Wipes/dp/B00U2VQZDS/ref=zg_bs_g_beauty_d_sccl_7/144-3900231-0588501"
     },
     {
       "rank": 8,
-      "name": "Skin1004 Madagascar Centella Ampoule",
-      "price_usd": 18.99,
-      "trend": "상승"
+      "name": "The Ordinary Glycolic Acid 7% Exfoliating Toner, Brightening and Smoothing Daily Toner for More Even-Looking Skin Tone",
+      "asin": "B071914GGL",
+      "price_usd": null,
+      "rating": 4.7,
+      "review_count": 63974,
+      "url": "https://www.amazon.com/Ordinary-Exfoliating-Brightening-Smoothing-Even-Looking/dp/B071914GGL/ref=zg_bs_g_beauty_d_sccl_8/144-3900231-0588501"
     },
     {
       "rank": 9,
-      "name": "Mighty Patch Original Hydrocolloid",
-      "price_usd": 12.99,
-      "trend": "유지",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "Amazon beauty",
-        "Amazon skincare",
-        "K-beauty"
-      ],
-      "discovered_at": "2026-08-30T04:20:03.820519+00:00",
-      "source": "amazon_catalog_real_names"
+      "name": "BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Plumping, Travel Essentials & Self Care Gifts for Women, Korean Skin Care | 1.19oz(34g) x 4ea",
+      "asin": "B0B2RM68G2",
+      "price_usd": 19,
+      "rating": 4.5,
+      "review_count": 47719,
+      "url": "https://www.amazon.com/Biodance-Bio-Collagen-Tightening-Hydrating-Molecular/dp/B0B2RM68G2/ref=zg_bs_g_beauty_d_sccl_9/144-3900231-0588501"
     },
     {
       "rank": 10,
-      "name": "Beauty of Joseon Relief Sun SPF50+",
-      "price_usd": 16.0,
-      "trend": "상승",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "Amazon beauty",
-        "Amazon skincare",
-        "K-beauty"
-      ],
-      "discovered_at": "2026-08-30T04:20:03.820519+00:00",
-      "source": "amazon_catalog_real_names"
+      "name": "Maybelline Lash Sensational Sky High Washable Mascara Makeup, Volumizing, Lengthening, Defining, Curling, Multiplying, Buildable Formula, Blackest Black, 1 Count",
+      "asin": "B08H3JPH74",
+      "price_usd": 10.82,
+      "rating": 4.5,
+      "review_count": 189103,
+      "url": "https://www.amazon.com/Maybelline-Volumizing-Buildable-Lengthening-Multiplying/dp/B08H3JPH74/ref=zg_bs_g_beauty_d_sccl_10/144-3900231-0588501"
     },
     {
       "rank": 11,
-      "name": "ANUA Heartleaf 77 Soothing Toner",
-      "price_usd": 20.0,
-      "trend": "상승",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "Amazon beauty",
-        "Amazon skincare",
-        "K-beauty"
-      ],
-      "discovered_at": "2026-08-30T04:20:03.820519+00:00",
-      "source": "amazon_catalog_real_names"
+      "name": "PanOxyl 10% Benzoyl Peroxide Acne Foaming Wash, Maximum Strength, Daily Acne-Fighting Face and Body Cleanser, Face Wash to Clear, Treat and Prevent Acne Pimples and Stubborn Breakouts, 5.5 Oz Tube",
+      "asin": "B081KL2QYJ",
+      "price_usd": null,
+      "rating": 4.6,
+      "review_count": 83290,
+      "url": "https://www.amazon.com/PanOxyl-Foaming-Peroxide-Strength-Antimicrobial/dp/B081KL2QYJ/ref=zg_bs_g_beauty_d_sccl_11/144-3900231-0588501"
     },
     {
       "rank": 12,
-      "name": "CeraVe Moisturizing Cream",
-      "price_usd": 18.99,
-      "trend": "유지",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "Amazon beauty",
-        "Amazon skincare",
-        "K-beauty"
-      ],
-      "discovered_at": "2026-08-30T04:20:03.820519+00:00",
-      "source": "amazon_catalog_real_names"
+      "name": "La Roche-Posay Toleriane Double Repair Face Moisturizer",
+      "asin": "B01N9SPQHQ",
+      "price_usd": 24.99,
+      "rating": 4.6,
+      "review_count": 51662,
+      "url": "https://www.amazon.com/Roche-Posay-Toleriane-Double-Repair-Moisturizer/dp/B01N9SPQHQ/ref=zg_bs_g_beauty_d_sccl_12/144-3900231-0588501"
     },
     {
       "rank": 13,
-      "name": "Neutrogena Hydro Boost Water Gel",
-      "price_usd": 15.99,
-      "trend": "유지",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "Amazon beauty",
-        "Amazon skincare",
-        "K-beauty"
-      ],
-      "discovered_at": "2026-08-30T04:20:03.820519+00:00",
-      "source": "amazon_catalog_real_names"
+      "name": "eos Cashmere Body Wash- Vanilla Cashmere, Creamy Gel with Shea Butter, 16 fl oz",
+      "asin": "B0DPHQRLJC",
+      "price_usd": 9.98,
+      "rating": 4.8,
+      "review_count": 23888,
+      "url": "https://www.amazon.com/eos-Moisturizing-Nourishing-Phthalate-Sensitive/dp/B0DPHQRLJC/ref=zg_bs_g_beauty_d_sccl_13/144-3900231-0588501"
     },
     {
       "rank": 14,
-      "name": "The Ordinary Hyaluronic Acid 2% + B5",
-      "price_usd": 8.9,
-      "trend": "유지",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "Amazon beauty",
-        "Amazon skincare",
-        "K-beauty"
-      ],
-      "discovered_at": "2026-08-30T04:20:03.820519+00:00",
-      "source": "amazon_catalog_real_names"
+      "name": "Mrs. Meyer's Clean Day, Hand Soap Refill, Lemon Verbena Scent, 33 Fl Oz",
+      "asin": "B00F1U0YB4",
+      "price_usd": 7.61,
+      "rating": 4.7,
+      "review_count": 54849,
+      "url": "https://www.amazon.com/Mrs-Meyers-Clean-Refill-Verbena/dp/B00F1U0YB4/ref=zg_bs_g_beauty_d_sccl_14/144-3900231-0588501"
     },
     {
       "rank": 15,
-      "name": "Goodal Green Tangerine Vita C Serum",
-      "price_usd": 19.0,
-      "trend": "상승",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "Amazon beauty",
-        "Amazon skincare",
-        "K-beauty"
-      ],
-      "discovered_at": "2026-08-30T04:20:03.820519+00:00",
-      "source": "amazon_catalog_real_names"
+      "name": "ANUA PDRN Hyaluronic Acid 100 Moisturizing Cream, 2.02 fl oz | Lightweight, Non-Greasy Hydrating Face Moisturizer with Salmon DNA for Glass Skin, Korean Skincare",
+      "asin": "B0DWFLY18Y",
+      "price_usd": null,
+      "rating": 4.6,
+      "review_count": 5568,
+      "url": "https://www.amazon.com/ANUA-Hyaluronic-Moisturizing-Lightweight-Moisturizer/dp/B0DWFLY18Y/ref=zg_bs_g_beauty_d_sccl_15/144-3900231-0588501"
     },
     {
       "rank": 16,
-      "name": "Round Lab Dokdo Toner",
-      "price_usd": 17.0,
-      "trend": "유지",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "Amazon beauty",
-        "Amazon skincare",
-        "K-beauty"
-      ],
-      "discovered_at": "2026-08-30T04:20:03.820519+00:00",
-      "source": "amazon_catalog_real_names"
+      "name": "Nizoral Anti-Dandruff Shampoo with 1% Ketoconazole, Fresh Scent, 7 Fl Oz | Anti-Fungal Shampoo, Dandruff Shampoo for Dandruff Relief, Ketoconazole Shampoo, Dandruff Treatment, 1% Ketoconazole",
+      "asin": "B00AINMFAC",
+      "price_usd": null,
+      "rating": 4.6,
+      "review_count": 112813,
+      "url": "https://www.amazon.com/Nizoral-Anti-Dandruff-Shampoo-Ketoconazole-Dandruff/dp/B00AINMFAC/ref=zg_bs_g_beauty_d_sccl_16/144-3900231-0588501"
     },
     {
       "rank": 17,
-      "name": "Isntree Hyaluronic Acid Watery Sun Gel",
-      "price_usd": 19.0,
-      "trend": "상승",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "Amazon beauty",
-        "Amazon skincare",
-        "K-beauty"
-      ],
-      "discovered_at": "2026-08-30T04:20:03.820519+00:00",
-      "source": "amazon_catalog_real_names"
+      "name": "Vanicream Daily Facial Moisturizer, Lightweight, Non-Greasy, 3 Fl Oz | Formulated Without Common Irritants for Sensitive Skin, Moisturizing Face Cream with 5 Key Cermides and Hyaluronic Acid",
+      "asin": "B08BW46XXK",
+      "price_usd": 13.97,
+      "rating": 4.6,
+      "review_count": 25788,
+      "url": "https://www.amazon.com/Vanicream-Moisturizer-Hyaluronic-pH-Balanced-Dermatologist/dp/B08BW46XXK/ref=zg_bs_g_beauty_d_sccl_17/144-3900231-0588501"
     },
     {
       "rank": 18,
-      "name": "COSRX Snail 92 All In One Cream",
-      "price_usd": 21.0,
-      "trend": "유지",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "Amazon beauty",
-        "Amazon skincare",
-        "K-beauty"
-      ],
-      "discovered_at": "2026-08-30T04:20:03.820519+00:00",
-      "source": "amazon_catalog_real_names"
+      "name": "essence Lash Princess False Lash Effect Mascara, Black (Pack of 1) | Volumizing & Lengthening, Clump-Free Fiber Brush, Defines and Separates; Vegan, Cruelty Free, Paraben Free, Oil Free",
+      "asin": "B00T0C9XRK",
+      "price_usd": null,
+      "rating": 4.3,
+      "review_count": 417889,
+      "url": "https://www.amazon.com/essence-Princess-Effect-Mascara-Cruelty/dp/B00T0C9XRK/ref=zg_bs_g_beauty_d_sccl_18/144-3900231-0588501"
     },
     {
       "rank": 19,
-      "name": "Mediheal N.M.F Aquaring Ampoule Mask",
-      "price_usd": 14.0,
-      "trend": "유지",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "Amazon beauty",
-        "Amazon skincare",
-        "K-beauty"
-      ],
-      "discovered_at": "2026-08-30T04:20:03.820519+00:00",
-      "source": "amazon_catalog_real_names"
+      "name": "Amazon Basics Gentle & Mild Clear Liquid Hand Soap Refill, Triclosan-Free, Dermatologist-Tested, pH Balanced, Cruelty-Free, 50 Fluid Ounces, 1-Pack (Previously Solimo)",
+      "asin": "B09HHDHXWX",
+      "price_usd": 5.19,
+      "rating": 4.6,
+      "review_count": 46148,
+      "url": "https://www.amazon.com/Amazon-Basics-Gentle-Liquid-Triclosan-free/dp/B09HHDHXWX/ref=zg_bs_g_beauty_d_sccl_19/144-3900231-0588501"
     },
     {
       "rank": 20,
-      "name": "TIRTIR Mask Fit Red Cushion",
-      "price_usd": 28.0,
-      "trend": "상승",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "Amazon beauty",
-        "Amazon skincare",
-        "K-beauty"
-      ],
-      "discovered_at": "2026-08-30T04:20:03.820519+00:00",
-      "source": "amazon_catalog_real_names"
+      "name": "Native Deodorant Contains Naturally Derived Ingredients, 72 Hour Odor Control, Deodorant for Women and Men, Aluminum Free, Coconut & Vanilla 2.65oz",
+      "asin": "B07GB3NVN1",
+      "price_usd": 13.97,
+      "rating": 4.4,
+      "review_count": 116750,
+      "url": "https://www.amazon.com/Native-Deodorant-without-Aluminum-Parabens/dp/B07GB3NVN1/ref=zg_bs_g_beauty_d_sccl_20/144-3900231-0588501"
     },
     {
       "rank": 21,
-      "name": "Illiyoon Ceramide Ato Concentrate Cream",
-      "price_usd": 18.0,
-      "trend": "상승",
-      "category": "다이소 뷰티 & 스킨케어",
-      "focus_keywords": [
-        "Amazon beauty",
-        "Amazon skincare",
-        "K-beauty"
-      ],
-      "discovered_at": "2026-08-30T04:20:03.820519+00:00",
-      "source": "amazon_catalog_real_names"
+      "name": "e.l.f. Cream Glide Lip Liner, Highly-Pigmented Pencil For Shaping & Sculpting Lips, Semi-Matte Finish, Vegan & Cruelty-Free",
+      "asin": "B0CMYR1CNK",
+      "price_usd": 2,
+      "rating": 4.6,
+      "review_count": 20282,
+      "url": "https://www.amazon.com/l-f-Highly-Pigmented-Sculpting-Semi-Matte-Cruelty-Free/dp/B0CMYR1CNK/ref=zg_bs_g_beauty_d_sccl_21/144-3900231-0588501"
+    },
+    {
+      "rank": 22,
+      "name": "The Ordinary Niacinamide 10% + Zinc 1%, Smoothing Serum for Blemish-Prone Skin",
+      "asin": "B01MDTVZTZ",
+      "price_usd": null,
+      "rating": 4.7,
+      "review_count": 66342,
+      "url": "https://www.amazon.com/Ordinary-Niacinamide-10-Zinc-30ml/dp/B01MDTVZTZ/ref=zg_bs_g_beauty_d_sccl_22/144-3900231-0588501"
+    },
+    {
+      "rank": 23,
+      "name": "CeraVe Hydrating Cleanser with Hyaluronic Acid, Face Wash for Dry Skin,16oz | Skin Care For Men and Women, Daily Cleanser & Makeup Remover with Glycerin & Ceramides, National Eczema Association Certified",
+      "asin": "B01MSSDEPK",
+      "price_usd": 15.97,
+      "rating": 4.7,
+      "review_count": 133135,
+      "url": "https://www.amazon.com/CeraVe-Hydrating-Facial-Cleanser-Fragrance/dp/B01MSSDEPK/ref=zg_bs_g_beauty_d_sccl_23/144-3900231-0588501"
+    },
+    {
+      "rank": 24,
+      "name": "The Ordinary Hyaluronic Acid 2% + B5 (with Ceramides), Multi-Depth Hydration Serum for Plumper, Smoother Skin",
+      "asin": "B01MYEZPC8",
+      "price_usd": null,
+      "rating": 4.7,
+      "review_count": 41018,
+      "url": "https://www.amazon.com/Ordinary-Hyaluronic-Acid-2-30ml/dp/B01MYEZPC8/ref=zg_bs_g_beauty_d_sccl_24/144-3900231-0588501"
+    },
+    {
+      "rank": 25,
+      "name": "Q-tips Cotton Swabs For Hygiene and Beauty Care Original Cotton Swab Made With 100% Cotton 750 Count",
+      "asin": "B00J4YYFYA",
+      "price_usd": 4.73,
+      "rating": 4.9,
+      "review_count": 19905,
+      "url": "https://www.amazon.com/Q-tips-Cotton-Hygiene-Beauty-Original/dp/B00J4YYFYA/ref=zg_bs_g_beauty_d_sccl_25/144-3900231-0588501"
+    },
+    {
+      "rank": 26,
+      "name": "Softsoap Antibacterial Hand Soap Refill, White Tea & Berry Scent, 50 fl oz | Liquid, Paraben-Free, Phthalate-Free, Washes Away Germs, for Bathroom & Kitchen, Daily Handwashing, Gentle on Hands",
+      "asin": "B081FFRGZB",
+      "price_usd": 5.97,
+      "rating": 4.6,
+      "review_count": 23651,
+      "url": "https://www.amazon.com/Softsoap-Antibacterial-Liquid-Refill-White/dp/B081FFRGZB/ref=zg_bs_g_beauty_d_sccl_26/144-3900231-0588501"
+    },
+    {
+      "rank": 27,
+      "name": "EltaMD UV Clear Face Sunscreen with Zinc Oxide, Oil-Free, SPF 46 and SPF 50 | Calms and Protects Acne-Prone Skin and Rosacea, No White Cast, Dermatologist Recommended, Available in Three Tints and Sizes",
+      "asin": "B002MSN3QQ",
+      "price_usd": 45,
+      "rating": 4.5,
+      "review_count": 70806,
+      "url": "https://www.amazon.com/EltaMD-Clear-Untinted-Sunscreen-Oxide/dp/B002MSN3QQ/ref=zg_bs_g_beauty_d_sccl_27/144-3900231-0588501"
+    },
+    {
+      "rank": 28,
+      "name": "Dove Deep Moisture Body Wash, 30.6 oz Pump, Sulfate Free | Dove Deep Moisture Body Wash hydrates dry skin for 24 hours with a sulfate-free formula and MicroMoisture technology.",
+      "asin": "B00MEDOY2G",
+      "price_usd": 11.69,
+      "rating": 4.8,
+      "review_count": 86405,
+      "url": "https://www.amazon.com/Dove-24hr-Lotion-Body-Moisture/dp/B00MEDOY2G/ref=zg_bs_g_beauty_d_sccl_28/144-3900231-0588501"
+    },
+    {
+      "rank": 29,
+      "name": "CeraVe Foaming Facial Cleanser, Face Wash for Oily Skin, 16fl oz | Skin Care with Hyaluronic Acid & Niacinamide, Makeup Remover, Daily Face Wash For Men & Women, Fragrance Free, Oil Control",
+      "asin": "B01N1LL62W",
+      "price_usd": 16.19,
+      "rating": 4.8,
+      "review_count": 104630,
+      "url": "https://www.amazon.com/CeraVe-Foaming-Facial-Cleanser-Face/dp/B01N1LL62W/ref=zg_bs_g_beauty_d_sccl_29/144-3900231-0588501"
+    },
+    {
+      "rank": 30,
+      "name": "Revlon ColorStay Pencil Waterproof Eyeliner, 201 Black, 2 pack | Waterproof pencil eyeliner with built-in sharpener. Smudge-proof, long-lasting, intense matte color.",
+      "asin": "B01J1A3TFW",
+      "price_usd": 11.38,
+      "rating": 4.4,
+      "review_count": 54902,
+      "url": "https://www.amazon.com/ColorStay-Waterproof-Smudgeproof-Longwearing-Ultra-Fine/dp/B01J1A3TFW/ref=zg_bs_g_beauty_d_sccl_30/144-3900231-0588501"
+    },
+    {
+      "rank": 31,
+      "name": "Naturium The Glow Getter Multi-Oil Body Wash, 16.9 fl oz | Nourishing Gentle Cleanser, Dissolves Impurities, Hydrating Base Protects Essential Moisture, for All Skin Types",
+      "asin": "B0B1PDDLGZ",
+      "price_usd": null,
+      "rating": 4.6,
+      "review_count": 7631,
+      "url": "https://www.amazon.com/Getter-Multi-Oil-Hydrating-Naturium-Cleanser/dp/B0B1PDDLGZ/ref=zg_bs_g_beauty_d_sccl_31/144-3900231-0588501"
+    },
+    {
+      "rank": 32,
+      "name": "Differin Acne Retinoid Treatment Gel, 0.1% Adapalene, 45g Pump | 90-Day Supply Pump, Over-The-Counter Retinoid, Clears Breakouts, Gentle For Sensitive Skin, Dermatologist Recommended",
+      "asin": "B07ZTN5N1V",
+      "price_usd": null,
+      "rating": 4.6,
+      "review_count": 19316,
+      "url": "https://www.amazon.com/Differin-Adapalene-prescription-strength-treatment/dp/B07ZTN5N1V/ref=zg_bs_g_beauty_d_sccl_32/144-3900231-0588501"
+    },
+    {
+      "rank": 33,
+      "name": "L'Oreal Paris Infallible 3-Second Setting Spray Mist, Microfine Mist for up to 36HR Wear, Clear, 1.76 oz",
+      "asin": "B0CZF2T7CK",
+      "price_usd": null,
+      "rating": 4.5,
+      "review_count": 14190,
+      "url": "https://www.amazon.com/Paris-Infallible-3-Second-Setting-Microfine/dp/B0CZF2T7CK/ref=zg_bs_g_beauty_d_sccl_33/144-3900231-0588501"
+    },
+    {
+      "rank": 34,
+      "name": "La Roche-Posay Toleriane Purifying Foaming Facial Cleanser with Niacinamide | Oil free face wash for sensitive skin with niacinamide and ceramides. Pore cleanser that won’t dry out skin and is soap free.",
+      "asin": "B01N34XW93",
+      "price_usd": null,
+      "rating": 4.7,
+      "review_count": 46016,
+      "url": "https://www.amazon.com/Roche-Posay-Toleriane-Purifying-Sensitive-Niacinamide/dp/B01N34XW93/ref=zg_bs_g_beauty_d_sccl_34/144-3900231-0588501"
+    },
+    {
+      "rank": 35,
+      "name": "Nutrafol Women's Balance Hair Growth Supplements, Age 45+",
+      "asin": "B07QZ5CTTF",
+      "price_usd": null,
+      "rating": 4.1,
+      "review_count": 15686,
+      "url": "https://www.amazon.com/Nutrafol-Supplements-Clinically-Dermatologist-Recommended/dp/B07QZ5CTTF/ref=zg_bs_g_beauty_d_sccl_35/144-3900231-0588501"
+    },
+    {
+      "rank": 36,
+      "name": "Neutrogena Makeup Remover Towelettes, Daily Single Face Towelettes, 20 Ct | Makeup Remover, Makeup Removing Cleansing Wipes, Suitable for Dirt & Oil Removal, Alcohol-Free",
+      "asin": "B07GKVBQDG",
+      "price_usd": 7.49,
+      "rating": 4.8,
+      "review_count": 74973,
+      "url": "https://www.amazon.com/Neutrogena-Remover-Towelettes-Micellar-Alcohol-Free/dp/B07GKVBQDG/ref=zg_bs_g_beauty_d_sccl_36/144-3900231-0588501"
+    },
+    {
+      "rank": 37,
+      "name": "CeraVe Moisturizing Cream, Face & Body Moisturizer for Dry Skin, 19oz | Skin Care with Hyaluronic Acid, Skin Barrier Repair, Ceramide Moisturizer, Fragrance Free, Non-Comedogenic, Daily Use",
+      "asin": "B00TTD9BRC",
+      "price_usd": null,
+      "rating": 4.7,
+      "review_count": 148312,
+      "url": "https://www.amazon.com/CeraVe-Moisturizing-Cream-Daily-Moisturizer/dp/B00TTD9BRC/ref=zg_bs_g_beauty_d_sccl_37/144-3900231-0588501"
+    },
+    {
+      "rank": 38,
+      "name": "e.l.f. Instant Lift Brow Pencil, Dual-Sided, Blonde | Retractable Precision-Tip Brow Pencil with Grooming Spoolie for Buildable Natural-Looking Color, Vegan & Cruelty-Free",
+      "asin": "B07PBQZ3KF",
+      "price_usd": 4,
+      "rating": 4.6,
+      "review_count": 76805,
+      "url": "https://www.amazon.com/Instant-Dual-Sided-Precise-Defines-Contours/dp/B07PBQZ3KF/ref=zg_bs_g_beauty_d_sccl_38/144-3900231-0588501"
+    },
+    {
+      "rank": 39,
+      "name": "Salt & Stone Aluminum-Free Deodorant, Women & Men Santal & Vetiver 2.6 oz | Extra Strength 48 Hour Protection, Gender Neutral Scent, Made with Niacinamide, Spirulina, Magnesium & Antioxidants",
+      "asin": "B08WYXNVQ7",
+      "price_usd": null,
+      "rating": 4.1,
+      "review_count": 18740,
+      "url": "https://www.amazon.com/Salt-Stone-Deodorant-Aluminum-protection/dp/B08WYXNVQ7/ref=zg_bs_g_beauty_d_sccl_39/144-3900231-0588501"
+    },
+    {
+      "rank": 40,
+      "name": "Degree Men UltraClear Antiperspirant Black+White Sweat & 2 Count 2.6 | 72-Hour Sweat & Odor Protection for Men with MotionSense Technology",
+      "asin": "B075JRT85B",
+      "price_usd": 7.98,
+      "rating": 4.7,
+      "review_count": 42970,
+      "url": "https://www.amazon.com/Degree-Men-UltraClear-Antiperspirant-Deodorant/dp/B075JRT85B/ref=zg_bs_g_beauty_d_sccl_40/144-3900231-0588501"
+    },
+    {
+      "rank": 41,
+      "name": "BIODANCE Hydrogel Eye Patches for Under Eye - Collagen Peptide, Anti Wrinkle & Fine Lines (60 Count)",
+      "asin": "B0GD6R7CFJ",
+      "price_usd": 23,
+      "rating": 4.5,
+      "review_count": 4211,
+      "url": "https://www.amazon.com/BIODANCE-Collagen-Peptide-Patches-Essentials/dp/B0GD6R7CFJ/ref=zg_bs_g_beauty_d_sccl_41/144-3900231-0588501"
+    },
+    {
+      "rank": 42,
+      "name": "Anua Azelaic Acid 10 Hyaluron Redness Soothing Serum, 1.01 fl oz | Facial Serum for Blemish-Prone & Oily-Prone Skin, Lightweight & Hydrating Blemish Care, Hyaluronic Acid, Korean Skincare",
+      "asin": "B0DG1DQ2S7",
+      "price_usd": null,
+      "rating": 4.5,
+      "review_count": 6595,
+      "url": "https://www.amazon.com/Azelaic-Hyaluron-Redness-Soothing-Serum/dp/B0DG1DQ2S7/ref=zg_bs_g_beauty_d_sccl_42/144-3900231-0588501"
+    },
+    {
+      "rank": 43,
+      "name": "Kitsch Dermaplane Razor for Women Face – Terracotta, 12 pcs | Face Razors for Women & Men, Eyebrow Razor & Face Shaver – Exfoliating Facial Razor & Dermaplaner as Tool for Smoother Skin",
+      "asin": "B08V3JGB1F",
+      "price_usd": 8.99,
+      "rating": 4.3,
+      "review_count": 38112,
+      "url": "https://www.amazon.com/Kitsch-Dermaplaning-Tool-Eyebrow-Dermaplane/dp/B08V3JGB1F/ref=zg_bs_g_beauty_d_sccl_43/144-3900231-0588501"
+    },
+    {
+      "rank": 44,
+      "name": "Garnier Micellar Water, Hydrating Facial Cleanser & Makeup Remover, Suitable for Sensitive Skin, Vegan, Cruelty Free, 13.5 Fl Oz (400mL), 1 Count",
+      "asin": "B017PCGABI",
+      "price_usd": 8.82,
+      "rating": 4.7,
+      "review_count": 74955,
+      "url": "https://www.amazon.com/Garnier-SkinActive-Micellar-Cleansing-Water/dp/B017PCGABI/ref=zg_bs_g_beauty_d_sccl_44/144-3900231-0588501"
+    },
+    {
+      "rank": 45,
+      "name": "CeraVe Daily Moisturizing Lotion, Face and Body Lotion, Skin care, 19oz | Hyaluronic Acid, Lotion For Dry Skin, Skin Barrier Repair, Ceramide Moisturizer, For Men and Women, Fragrance Free, Oil-Free",
+      "asin": "B07RK4HST7",
+      "price_usd": null,
+      "rating": 4.7,
+      "review_count": 150840,
+      "url": "https://www.amazon.com/CeraVe-Moisturizing-Lotion-Hyaluronic-Fragrance/dp/B07RK4HST7/ref=zg_bs_g_beauty_d_sccl_45/144-3900231-0588501"
+    },
+    {
+      "rank": 46,
+      "name": "e.l.f. Sheer For It Blush Tint, Maple Latte | Multi-Use, Long-Lasting Lip & Cheek Makeup, Creates A Natural Flush Finish, Vegan & Cruelty-Free",
+      "asin": "B0GVG4S4X9",
+      "price_usd": 6,
+      "rating": 4.4,
+      "review_count": 10825,
+      "url": "https://www.amazon.com/l-f-Sheer-Blush-Maple-Latte/dp/B0GVG4S4X9/ref=zg_bs_g_beauty_d_sccl_46/144-3900231-0588501"
     }
-  ],
-  "target_category": "다이소 뷰티 & 스킨케어",
-  "focus_keywords": [
-    "Amazon beauty",
-    "Amazon skincare",
-    "K-beauty"
-  ],
-  "last_updated": "2026-08-31T07:43:46.833602+00:00",
-  "total_count": 21,
-  "added_this_run": 0
+  ]
 }
