@@ -2,7 +2,7 @@
 title: "Record 429c672917 · LLM-Prompt-Interfaces-as-Execution-Contracts-Reduci"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T13:15:48.681023+00:00
+updated_at: 2026-09-15T17:01:22.192688+00:00
 tags: [record, real-data]
 ---
 

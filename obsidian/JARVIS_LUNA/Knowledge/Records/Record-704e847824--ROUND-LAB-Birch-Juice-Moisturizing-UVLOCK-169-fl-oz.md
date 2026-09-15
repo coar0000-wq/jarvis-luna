@@ -2,7 +2,7 @@
 title: "Record 704e847824 · ROUND-LAB-Birch-Juice-Moisturizing-UVLOCK-169-fl-oz"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T13:15:48.958833+00:00
+updated_at: 2026-09-15T17:01:22.413401+00:00
 tags: [record, real-data]
 ---
 

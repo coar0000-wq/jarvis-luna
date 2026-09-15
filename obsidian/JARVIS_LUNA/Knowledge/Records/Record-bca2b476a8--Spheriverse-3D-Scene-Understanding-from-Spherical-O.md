@@ -2,7 +2,7 @@
 title: "Record bca2b476a8 · Spheriverse-3D-Scene-Understanding-from-Spherical-O"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T13:15:48.511794+00:00
+updated_at: 2026-09-15T17:01:22.080798+00:00
 tags: [record, real-data]
 ---
 

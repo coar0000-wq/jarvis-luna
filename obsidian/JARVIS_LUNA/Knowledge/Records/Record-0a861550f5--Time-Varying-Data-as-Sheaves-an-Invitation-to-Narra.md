@@ -2,7 +2,7 @@
 title: "Record 0a861550f5 · Time-Varying-Data-as-Sheaves-an-Invitation-to-Narra"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T13:15:48.512251+00:00
+updated_at: 2026-09-15T17:01:22.081201+00:00
 tags: [record, real-data]
 ---
 

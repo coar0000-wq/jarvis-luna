@@ -2,7 +2,7 @@
 title: "Record 1c9180a280 · Arencia-Vitamin-C-Booster-Shot-101-fl-oz30ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T13:15:48.957219+00:00
+updated_at: 2026-09-15T17:01:22.412220+00:00
 tags: [record, real-data]
 ---
 

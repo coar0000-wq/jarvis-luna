@@ -2,7 +2,7 @@
 title: "Record f006f6df64 · Serum-Tumor-Markers-and-Outcomes-in-Patients-With-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T13:15:48.550273+00:00
+updated_at: 2026-09-15T17:01:22.108366+00:00
 tags: [record, real-data]
 ---
 

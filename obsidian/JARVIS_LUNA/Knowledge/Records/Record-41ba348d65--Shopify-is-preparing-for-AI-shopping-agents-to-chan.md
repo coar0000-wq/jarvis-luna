@@ -2,7 +2,7 @@
 title: "Record 41ba348d65 · Shopify-is-preparing-for-AI-shopping-agents-to-chan"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T13:15:48.852786+00:00
+updated_at: 2026-09-15T17:01:22.361826+00:00
 tags: [record, real-data]
 ---
 

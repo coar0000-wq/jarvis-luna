@@ -2,7 +2,7 @@
 title: "Record b03ce8e4dd · Optimal-Dispatch-of-a-Hydrogen-Colocated-Renewable-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T13:15:48.516798+00:00
+updated_at: 2026-09-15T17:01:22.084641+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 9068bbd7de · Is-Vitamin-C-REALLY-Worth-the-HYPE-GOOD-yet-afforda"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T13:15:49.056010+00:00
+updated_at: 2026-09-15T17:01:22.665422+00:00
 tags: [record, real-data]
 ---
 

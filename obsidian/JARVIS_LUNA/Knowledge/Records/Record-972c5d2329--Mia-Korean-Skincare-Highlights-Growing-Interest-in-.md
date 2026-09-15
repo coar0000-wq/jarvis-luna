@@ -2,7 +2,7 @@
 title: "Record 972c5d2329 · Mia-Korean-Skincare-Highlights-Growing-Interest-in-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T13:15:48.855772+00:00
+updated_at: 2026-09-15T17:01:22.364113+00:00
 tags: [record, real-data]
 ---
 

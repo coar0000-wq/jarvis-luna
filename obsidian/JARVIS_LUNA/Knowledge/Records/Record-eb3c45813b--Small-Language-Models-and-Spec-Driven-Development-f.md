@@ -2,7 +2,7 @@
 title: "Record eb3c45813b · Small-Language-Models-and-Spec-Driven-Development-f"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T13:15:48.633901+00:00
+updated_at: 2026-09-15T17:01:22.161990+00:00
 tags: [record, real-data]
 ---
 

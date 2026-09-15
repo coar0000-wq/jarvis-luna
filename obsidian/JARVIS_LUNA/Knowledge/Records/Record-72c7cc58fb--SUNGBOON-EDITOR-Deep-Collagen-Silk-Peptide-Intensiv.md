@@ -1,0 +1,22 @@
+---
+title: "Record 72c7cc58fb · SUNGBOON-EDITOR-Deep-Collagen-Silk-Peptide-Intensive-Ampoule-135-fl-oz"
+type: knowledge-graph
+status: generated-from-real-data
+updated_at: 2026-09-15T17:01:22.415199+00:00
+tags: [record, real-data]
+---
+
+# Record 72c7cc58fb · SUNGBOON-EDITOR-Deep-Collagen-Silk-Peptide-Intensive-Ampoule-135-fl-oz
+
+> 실제 수집 레코드입니다. 원문: [us.oliveyoung.com](https://us.oliveyoung.com/products/UA49608676)
+
+**제목:** SUNGBOON EDITOR Deep Collagen Silk Peptide Intensive Ampoule 1.35 fl. oz.(40ml)
+
+SUNGBOON EDITOR Deep Collagen Silk Peptide Intensive Ampoule 1.35 fl. oz.(40ml)
+SUNGBOON EDITOR Deep Collagen Silk Peptide Intensive Ampoule 1.35 fl. oz.(40ml)
+
+**출처:** Source · us_beauty
+
+## Connected nodes
+
+[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

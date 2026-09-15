@@ -2,7 +2,7 @@
 title: "Record 77d08f9b8f · K-beautys-Top-Antiaging-Brand-Is-Landing-Stateside-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T13:15:48.843787+00:00
+updated_at: 2026-09-15T17:01:22.355224+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record c79def1f61 · ChatGPT-Prompts-for-Ecommerce-Tips-and-Examples---S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T13:15:48.723898+00:00
+updated_at: 2026-09-15T17:01:22.221141+00:00
 tags: [record, real-data]
 ---
 

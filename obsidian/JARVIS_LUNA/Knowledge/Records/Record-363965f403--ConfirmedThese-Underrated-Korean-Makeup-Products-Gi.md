@@ -2,7 +2,7 @@
 title: "Record 363965f403 · ConfirmedThese-Underrated-Korean-Makeup-Products-Gi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T13:15:48.774991+00:00
+updated_at: 2026-09-15T17:01:22.255161+00:00
 tags: [record, real-data]
 ---
 

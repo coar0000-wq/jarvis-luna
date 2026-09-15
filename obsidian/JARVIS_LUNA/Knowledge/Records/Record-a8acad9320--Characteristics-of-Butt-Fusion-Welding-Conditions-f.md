@@ -2,7 +2,7 @@
 title: "Record a8acad9320 · Characteristics-of-Butt-Fusion-Welding-Conditions-f"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T13:15:48.673265+00:00
+updated_at: 2026-09-15T17:01:22.187764+00:00
 tags: [record, real-data]
 ---
 

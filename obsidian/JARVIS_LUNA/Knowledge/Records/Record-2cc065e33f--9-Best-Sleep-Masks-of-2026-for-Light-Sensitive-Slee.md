@@ -2,7 +2,7 @@
 title: "Record 2cc065e33f · 9-Best-Sleep-Masks-of-2026-for-Light-Sensitive-Sleepers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T13:15:48.973843+00:00
+updated_at: 2026-09-15T17:01:22.423070+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record f8e84c3236 · Donating-The-Model-Context-Protocol-And-Establishin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T13:15:48.991010+00:00
+updated_at: 2026-09-15T17:01:22.437491+00:00
 tags: [record, real-data]
 ---
 

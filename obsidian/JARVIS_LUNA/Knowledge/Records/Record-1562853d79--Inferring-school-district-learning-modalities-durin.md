@@ -2,7 +2,7 @@
 title: "Record 1562853d79 · Inferring-school-district-learning-modalities-durin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T13:15:48.624778+00:00
+updated_at: 2026-09-15T17:01:22.156062+00:00
 tags: [record, real-data]
 ---
 

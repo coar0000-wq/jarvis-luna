@@ -2,7 +2,7 @@
 title: "Record c2d2cba88e · The-Clock-Is-Ticking-on-These-K-Beauty-Prime-Day-De"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T13:15:48.804063+00:00
+updated_at: 2026-09-15T17:01:22.327188+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSHIwZEVqNlV1N0paengwM2Znc3dlNk1nX1FSb2RuRmNaQlFOajZpdDdJSVQ2Wmc0SWp4TTNUZ3FpY1ZKQkhtckZmVUtBT1RoQlZRRHFxOC13MXJVQXlsbFZzVC1rZWhqMWNWanQ3TUJCSGtZa2p0eHh3a0FBVVJMckJ6dDAyTzFB?oc=5)
 
-**제목:** The Clock Is Ticking on These K-Beauty Prime Day Deals - allure.com
+**제목:** The Clock Is Ticking on These K-Beauty Prime Day Deals - Allure
 
-The Clock Is Ticking on These K-Beauty Prime Day Deals - allure.com
+The Clock Is Ticking on These K-Beauty Prime Day Deals - Allure
 
 **출처:** Source · Google Search
 

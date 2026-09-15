@@ -2,7 +2,7 @@
 title: "Record 43821dbfa6 · Shopify-Launches-Agentic-Storefronts-What-it-Means-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T13:15:48.826261+00:00
+updated_at: 2026-09-15T17:01:22.342900+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 8341e9fa93 · Emerging-Markets-Growth-2018"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T13:15:49.023893+00:00
+updated_at: 2026-09-15T17:01:22.461885+00:00
 tags: [record, real-data]
 ---
 

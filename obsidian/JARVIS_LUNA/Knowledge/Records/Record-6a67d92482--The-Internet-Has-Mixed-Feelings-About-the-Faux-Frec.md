@@ -2,7 +2,7 @@
 title: "Record 6a67d92482 · The-Internet-Has-Mixed-Feelings-About-the-Faux-Frec"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T13:15:48.806302+00:00
+updated_at: 2026-09-15T17:01:22.328818+00:00
 tags: [record, real-data]
 ---
 

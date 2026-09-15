@@ -2,7 +2,7 @@
 title: "Record 656cee9132 · From-tourists-to-temporary-locals-Busan-bets-on-lon"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T13:15:48.721446+00:00
+updated_at: 2026-09-15T17:01:22.219562+00:00
 tags: [record, real-data]
 ---
 

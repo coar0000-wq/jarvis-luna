@@ -2,7 +2,7 @@
 title: "Record 12a78559ee · FORTALECIMENTO-DA-UNIVERSIDADE-EMPREENDEDORA-POR-ME"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T13:15:48.680625+00:00
+updated_at: 2026-09-15T17:01:22.192419+00:00
 tags: [record, real-data]
 ---
 

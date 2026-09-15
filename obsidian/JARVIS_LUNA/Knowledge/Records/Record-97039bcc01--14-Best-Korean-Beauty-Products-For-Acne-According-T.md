@@ -2,7 +2,7 @@
 title: "Record 97039bcc01 · 14-Best-Korean-Beauty-Products-For-Acne-According-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T13:15:48.746937+00:00
+updated_at: 2026-09-15T17:01:22.236233+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiaEFVX3lxTE9OV2s5SXhSM1NiZ0JYcm5PVm11clFHYzNsOFFaVG1kNlA0cUNmRjNqY3lScm1CR1pYR1pLcFBia2pzbEVZTkppbGRQanJSbWVLWHNFaUt2WjJaa2ptclhaLVZzb2NZVHRU?oc=5)
 
-**제목:** 14 Best Korean Beauty Products For Acne, According To K-Beauty Experts - Coveteur
+**제목:** 14 Best Korean Beauty Products For Acne, According To K-Beauty Experts - coveteur.com
 
-14 Best Korean Beauty Products For Acne, According To K-Beauty Experts - Coveteur
+14 Best Korean Beauty Products For Acne, According To K-Beauty Experts - coveteur.com
 
 **출처:** Source · Google Search
 
