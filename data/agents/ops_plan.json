@@ -1,8 +1,8 @@
 {
   "agent": "Ops-Prioritizer",
-  "generated_at": "2026-09-14T23:38:45.330808+00:00",
+  "generated_at": "2026-09-15T02:45:50.512524+00:00",
   "risk": "medium",
-  "task_count": 4,
+  "task_count": 5,
   "tasks": [
     {
       "priority": 2,
@@ -25,8 +25,8 @@
     },
     {
       "priority": 4,
-      "title": "팀 조치 · 디자인팀",
-      "detail": "다음 단계: Shopify 스토어 개설 및 기본 설정",
+      "title": "팀 조치 · 리스팅 제작팀",
+      "detail": "가격 1건 이 막고 있음",
       "refs": [
         "data/dashboard_runtime.json"
       ],
@@ -34,8 +34,17 @@
     },
     {
       "priority": 4,
-      "title": "팀 조치 · 지식 수집팀",
-      "detail": "수집 실패: arXiv(export.arxiv.org/robots.txt 가 Disallow: / 다. robots 를 지키기로 해서 받지 않는다.)",
+      "title": "팀 조치 · 가격 정책팀",
+      "detail": "1건이 시장가로 손익분기 미달",
+      "refs": [
+        "data/dashboard_runtime.json"
+      ],
+      "approve": "사람: 팀 카드 조치 확인"
+    },
+    {
+      "priority": 4,
+      "title": "팀 조치 · 디자인팀",
+      "detail": "다음 단계: Shopify 스토어 개설 및 기본 설정",
       "refs": [
         "data/dashboard_runtime.json"
       ],
@@ -56,11 +65,15 @@
       },
       {
         "n": 3,
-        "text": "팀 조치 · 디자인팀 — 다음 단계: Shopify 스토어 개설 및 기본 설정"
+        "text": "팀 조치 · 리스팅 제작팀 — 가격 1건 이 막고 있음"
       },
       {
         "n": 4,
-        "text": "팀 조치 · 지식 수집팀 — 수집 실패: arXiv(export.arxiv.org/robots.txt 가 Disallow: / 다. robots 를 지키기로 해서 받지 않는"
+        "text": "팀 조치 · 가격 정책팀 — 1건이 시장가로 손익분기 미달"
+      },
+      {
+        "n": 5,
+        "text": "팀 조치 · 디자인팀 — 다음 단계: Shopify 스토어 개설 및 기본 설정"
       }
     ]
   }
