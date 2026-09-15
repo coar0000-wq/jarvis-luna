@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-15T17:58:13.344491+00:00",
+  "generated_at": "2026-09-15T20:51:26.732705+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
   "pool_size": 2057,
   "제목없어_버림": 38,
-  "unrouted": 6,
+  "unrouted": 7,
   "summary": {
     "sourcing": {
       "total": 219,
@@ -15,10 +15,10 @@
       "products": 215
     },
     "market": {
-      "total": 477,
-      "recent": 43,
-      "material": 477,
-      "material_recent": 43,
+      "total": 476,
+      "recent": 41,
+      "material": 476,
+      "material_recent": 41,
       "products": 0
     },
     "listing": {
@@ -29,45 +29,45 @@
       "products": 0
     },
     "pricing": {
-      "total": 14,
-      "recent": 5,
-      "material": 14,
-      "material_recent": 5,
+      "total": 13,
+      "recent": 4,
+      "material": 13,
+      "material_recent": 4,
       "products": 0
     },
     "legal": {
       "total": 111,
-      "recent": 14,
+      "recent": 15,
       "material": 111,
-      "material_recent": 14,
+      "material_recent": 15,
       "products": 0
     },
     "design": {
-      "total": 334,
+      "total": 332,
       "recent": 74,
-      "material": 334,
+      "material": 332,
       "material_recent": 74,
       "products": 0
     },
     "robotics": {
       "total": 60,
-      "recent": 26,
+      "recent": 27,
       "material": 60,
-      "material_recent": 26,
+      "material_recent": 27,
       "products": 0
     },
     "knowledge": {
-      "total": 129,
+      "total": 127,
       "recent": 25,
-      "material": 129,
+      "material": 127,
       "material_recent": 25,
       "products": 0
     },
     "institutions": {
       "total": 1062,
-      "recent": 286,
+      "recent": 288,
       "material": 1062,
-      "material_recent": 286,
+      "material_recent": 288,
       "products": 0
     }
   },
@@ -621,7 +621,7 @@
         "by_hand": false
       },
       {
-        "title": "Hero’s Ju Rhyu Mainstreamed Pimple Patches. Can She Do It Again With K-Beauty-Inspired Sunscreen? - beautyindependent.com",
+        "title": "Hero’s Ju Rhyu Mainstreamed Pimple Patches. Can She Do It Again With K-Beauty-Inspired Sunscreen? - Beauty Independent",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQUZsazhJcC1GYU5menhiYmFiMS1NZWVwZGZUYlB0LWtQMFBOcUZNRGhWN3RlamVlbG5lUkxSV2JvM1hYS2NLam1qRmgxY3YxTWJfaXFHT3BNOU0tb2lkalNCM1VGSEFlX01VMGxmb0dya21ySHp6VlRLYjZ3a2UzYndNa0x2eW8?oc=5",
         "pool": "google",
         "date": "2026-09-15",
@@ -642,20 +642,6 @@
         "by_hand": false
       },
       {
-        "title": "Numbuzin Targets Makeup-Ready Skin with NCT WISH, Expanding Its Lineup with a No. 3 Lotion - 스포츠조선",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNT3p4VXJYNTg2VDBSSURza09wZUUtNndVRk41SHhvNWZTRF9Cb2xtT3FudVdKQnpXX1BpSGgzX3Z4SEp2ZFcwOXVqUldHVmJyNnFRMEIwMDQ4TV9hem9ZZWJ6QmlXQ0ZSQWFkMElxYy05NWFMbC1LZURJS1c3VnBwYVpR?oc=5",
-        "pool": "google",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Summer Review Fall Preview Market Insights",
-        "url": "https://www.goldmansachs.com/what-we-do/ayco/insights/summer-review-fall-preview-market-insights",
-        "pool": "institutions",
-        "date": "2026-09-14",
-        "by_hand": false
-      },
-      {
         "title": "Biotech Industry Trends Reshaping Healthcare Market",
         "url": "https://www.morganstanley.com/insights/articles/biotech-industry-trends-reshaping-healthcare-market",
         "pool": "institutions",
@@ -663,7 +649,7 @@
         "by_hand": false
       },
       {
-        "title": "From Skin Patches to Haircare, These Are the K-Beauty Products That Are Actually Popular in Korea - WWD",
+        "title": "From Skin Patches to Haircare, These Are the K-Beauty Products That Are Actually Popular in Korea - wwd.com",
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTWhmVlpqOU5iUWRfT2x1V0Y0cmVlMVNQZElYaFQyUEpHQmRDZUJNdkNFMy03WUptY0ZfMXJubWJramM4dUFSZXl1SDR5QUl2UE0xeVNqbHl5X3RQUXZfV3Q1am1QcDN6UFRVbkdYN2dEUHo0Z3pKT3dMZ0tFNlNaUXE5TzZjTjJfNnlJTnVBUjdvTlBkNmRHTVFyanZZa2YwcDhEdQ?oc=5",
         "pool": "google",
         "date": "2026-09-14",
@@ -831,7 +817,7 @@
         "by_hand": false
       },
       {
-        "title": "AI in Ecommerce: 7 Key Use Cases for 2026 - Shopify",
+        "title": "AI in Ecommerce: 7 Key Use Cases for 2026 - shopify.com",
         "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1NSTR6RXEtWU80RVVGR2xRNGc4OGYyR0pzUzR1OXV4Y2pnVERwTFBjZHQzenF6WEtaSV9mUzNwcFZJNnVpYkUzLU5nN0Z2WFpzY1FmR0hRYw?oc=5",
         "pool": "google",
         "date": "2026-09-04",
@@ -915,10 +901,24 @@
         "by_hand": false
       },
       {
-        "title": "K-Beauty Is Everywhere Now: How Korean Skincare Became a Mainstream U.S. Beauty Staple - Woman's World",
+        "title": "K-Beauty Is Everywhere Now: How Korean Skincare Became a Mainstream U.S. Beauty Staple - womansworld.com",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPR0hPOFV3NTlQQ2h0LWNDUHBoUTNRZHNDbjllRTNFOHdlQzd5Y20zWmgwWEloVjkwdlpoTEIxcE9YMUwtX1lDazd0LXJUckRBMDhjS1JIV1o0T0l2Y3daZEZiSVBFZElES3lKLWFYVmw4WVlHQ0dKd18xeW1wX3NFN0lJQUxMZjhwbUpPTm9ZclZwZw?oc=5",
         "pool": "google",
         "date": "2026-08-29",
+        "by_hand": false
+      },
+      {
+        "title": "Game over, new routine: Laid-off Xbox manager built her Korean skincare startup before cuts hit - GeekWire",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSmd3bV80NzFvZlZtOUNnSUF4eTRlQ0VoamFoUlY5aEQ2Q000MmlBVmVTQ3ZuWV9wTmhzWXROSWNyaDNuQ0JrTFdEczljM0JlbTBtdFBZbnhtakNaWHBTZTBGWDFzbDJURU1ESi1mano4T21KMHV0ZEQwOFI3aWI3Q2lTbzhPSmw5dEp6cGZVXzhadW5GNTRNaVhhMEhIdjY0czMwTmN4aUlpVWNYTmV5ZnNxWkdlcUZFUUhoNEdId3gxZw?oc=5",
+        "pool": "google",
+        "date": "2026-08-28",
+        "by_hand": false
+      },
+      {
+        "title": "SHOP vs. ADBE: Which Stock Has the Edge in AI-Driven Ecommerce? - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPczlRZTVPTlpYTHNGbFFVaGQzbXRLSF83VDZWemlkbE1DOUpUNlpKLUUzLTFJSTRTaEdhRXZ5X21xeExTdlM1ZXhIUXNNNHczRld2Q2pOZVNuMXZoS3hEbDVUM1BfQ3I0UEJSS21iMGxzVzZ0UU40cjlFOXBoMFBvTTZVa2NYSlNkSWF3bVBYZ28wZw?oc=5",
+        "pool": "google",
+        "date": "2026-08-28",
         "by_hand": false
       }
     ],
@@ -1059,22 +1059,15 @@
         "by_hand": true
       },
       {
+        "title": "Thoughts On The Market Carpenter Housing Prices Update",
+        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-carpenter-housing-prices-update",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
         "title": "Current Events   Us Tariffs",
         "url": "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Global Tariffs",
-        "url": "https://www.morganstanley.com/insights/themes/global-tariffs",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Us Tariffs Research Roundtable",
-        "url": "https://www.morganstanley.com/ideas/us-tariffs-research-roundtable",
         "pool": "institutions",
         "date": "2026-09-09",
         "by_hand": false
@@ -1136,6 +1129,13 @@
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
+      },
+      {
+        "title": "A&P Creations LLC Issues Nationwide Recall of X10 Natural Enhancement Supplement Due to Undeclared Sildenafil and Tadalafil",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ap-creations-llc-issues-nationwide-recall-x10-natural-enhancement-supplement-due-undeclared",
+        "pool": "fda",
+        "date": "2026-09-14",
+        "by_hand": false
       },
       {
         "title": "Whole Foods Market Issues Allergy Alert on Undeclared Egg in Cabricharme Cheese",
@@ -1282,13 +1282,6 @@
         "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/revival-animal-health-llc-voluntarily-recalls-feline-milk-replacers-due-inconsistent-levels-vitamins",
         "pool": "fda",
         "date": "2026-08-26",
-        "by_hand": false
-      },
-      {
-        "title": "Baxter Issues Voluntary Nationwide Recall for One Lot of Anticoagulant Sodium Citrate Solution Due to Potential Presence of Particulate Matter",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/baxter-issues-voluntary-nationwide-recall-one-lot-anticoagulant-sodium-citrate-solution-due",
-        "pool": "fda",
-        "date": "2026-08-25",
         "by_hand": false
       },
       {
@@ -1791,6 +1784,13 @@
         "by_hand": true
       },
       {
+        "title": "Thoughts On The Market Asia Equities Us Election View",
+        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-asia-equities-us-election-view",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
         "title": "A new look for the Shopify admin",
         "url": "https://changelog.shopify.com/posts/see-the-shopify-admin-s-new-look",
         "pool": "design_refs",
@@ -1964,16 +1964,23 @@
         "pool": "institutions",
         "date": "2026-09-10",
         "by_hand": false
-      },
-      {
-        "title": "Anthropic Acquires Bun As Claude Code Reaches Usd1B Milestone",
-        "url": "https://www.anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
       }
     ],
     "robotics": [
+      {
+        "title": "Digit 5 May Be the First Humanoid Robot Worker That’s Truly Safe",
+        "url": "https://spectrum.ieee.org/humanoid-robot-safety",
+        "pool": "robotics",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "InOrbit.AI releases OpenRobOps ISO 21423 reference implementation",
+        "url": "https://www.therobotreport.com/inorbit-ai-releases-openrobops-iso-21423-reference-implementation/",
+        "pool": "robotics",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
       {
         "title": "Agility’s Digit 5 humanoid has new legs, batteries and safety upgrades",
         "url": "https://www.therobotreport.com/agilitys-digit-5-humanoid-has-new-legs-batteries-safety-upgrades/",
@@ -2084,13 +2091,6 @@
         "url": "https://www.therobotreport.com/comau-automates-picking-handling-and-palletizing-for-decathlon/",
         "pool": "robotics",
         "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "What bricklaying has taught Monumental about robots in construction",
-        "url": "https://www.therobotreport.com/what-bricklaying-has-taught-monumental-about-robots-construction/",
-        "pool": "robotics",
-        "date": "2026-09-09",
         "by_hand": false
       },
       {
@@ -2336,13 +2336,6 @@
         "url": "https://spectrum.ieee.org/invisible-spinning-drone",
         "pool": "robotics",
         "date": "2026-07-16",
-        "by_hand": false
-      },
-      {
-        "title": "Building a Foundation Stack for General-Purpose Robots",
-        "url": "https://spectrum.ieee.org/x-square-robot-embodied-ai-stack",
-        "pool": "robotics",
-        "date": "2026-07-13",
         "by_hand": false
       },
       {
@@ -2826,6 +2819,118 @@
         "by_hand": false
       },
       {
+        "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+        "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "How energy teams turn theft detection into governed action with Genie and AI business processes",
+        "url": "https://www.databricks.com/blog/how-energy-teams-turn-theft-detection-governed-action-genie-and-ai-business-processes",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "How Databricks’ marketers use data 3x more with Genie, an AI analytics assistant",
+        "url": "https://www.databricks.com/blog/databricks-marketers-use-data-3x-genie-ai-analytics-assistant",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Why Gold Is Expected To Rise To Record Highs",
+        "url": "https://www.goldmansachs.com/insights/the-markets/why-gold-is-expected-to-rise-to-record-highs",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Can The S And P 500 Rally As Treasury Yields Rise",
+        "url": "https://www.goldmansachs.com/insights/articles/can-the-s-and-p-500-rally-as-treasury-yields-rise",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Why Global Bond Yields Are Surging",
+        "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/why-global-bond-yields-are-surging",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Thoughts On The Market Carpenter Housing Prices Update",
+        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-carpenter-housing-prices-update",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Thoughts On The Market Ai Market Disruption Tirupattur",
+        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-ai-market-disruption-tirupattur",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Thoughts On The Market Asia Equities Us Election View",
+        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-asia-equities-us-election-view",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Thoughts On The Market Consumer Spending Us Election 2024",
+        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-consumer-spending-us-election-2024",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Thoughts On The Market Asia Technology",
+        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-asia-technology",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Thoughts On The Market Cross Asset Strategy",
+        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-cross-asset-strategy",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Thoughts On The Market Carpenter French Us Elections 2024",
+        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-carpenter-french-us-elections-2024",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Thoughts On The Market",
+        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Thoughts On The Market Credit Outlook",
+        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-credit-outlook",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Thoughts On The Market Byrd Chan Nuclear Power Renaissance",
+        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-byrd-chan-nuclear-power-renaissance",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
         "title": "How Fyxer built an AI executive assistant people trust",
         "url": "https://openai.com/index/fyxer",
         "pool": "institutions",
@@ -2875,13 +2980,6 @@
         "by_hand": false
       },
       {
-        "title": "Summer Review Fall Preview Market Insights",
-        "url": "https://www.goldmansachs.com/what-we-do/ayco/insights/summer-review-fall-preview-market-insights",
-        "pool": "institutions",
-        "date": "2026-09-14",
-        "by_hand": false
-      },
-      {
         "title": "Future Of Superannuation Report",
         "url": "https://www.jpmorgan.com/insights/securities-services/future-of-superannuation-report",
         "pool": "institutions",
@@ -2910,22 +3008,22 @@
         "by_hand": false
       },
       {
-        "title": "Direct Indexing",
-        "url": "https://www.morganstanley.com/insights/articles/direct-indexing",
-        "pool": "institutions",
-        "date": "2026-09-14",
-        "by_hand": false
-      },
-      {
-        "title": "Morgan Stanley Inclusive Sustainable Ventures Cohort 2026",
-        "url": "https://www.morganstanley.com/insights/articles/morgan-stanley-inclusive-sustainable-ventures-cohort-2026",
-        "pool": "institutions",
-        "date": "2026-09-14",
-        "by_hand": false
-      },
-      {
         "title": "Zero Hunger Mission",
         "url": "https://www.morganstanley.com/ideas/zero-hunger-mission",
+        "pool": "institutions",
+        "date": "2026-09-14",
+        "by_hand": false
+      },
+      {
+        "title": "Consumer Driven Healthcare Direct To Consumer Biopharma Erin Wright Terence Flynn",
+        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/consumer-driven-healthcare-direct-to-consumer-biopharma-erin-wright-terence-flynn",
+        "pool": "institutions",
+        "date": "2026-09-14",
+        "by_hand": false
+      },
+      {
+        "title": "Biotech Industry Trends Reshaping Healthcare Market",
+        "url": "https://www.morganstanley.com/insights/articles/biotech-industry-trends-reshaping-healthcare-market",
         "pool": "institutions",
         "date": "2026-09-14",
         "by_hand": false
@@ -2938,8 +3036,15 @@
         "by_hand": false
       },
       {
-        "title": "Biotech Industry Trends Reshaping Healthcare Market",
-        "url": "https://www.morganstanley.com/insights/articles/biotech-industry-trends-reshaping-healthcare-market",
+        "title": "Direct Indexing",
+        "url": "https://www.morganstanley.com/insights/articles/direct-indexing",
+        "pool": "institutions",
+        "date": "2026-09-14",
+        "by_hand": false
+      },
+      {
+        "title": "Morgan Stanley Inclusive Sustainable Ventures Cohort 2026",
+        "url": "https://www.morganstanley.com/insights/articles/morgan-stanley-inclusive-sustainable-ventures-cohort-2026",
         "pool": "institutions",
         "date": "2026-09-14",
         "by_hand": false
@@ -3078,7 +3183,7 @@
         "by_hand": false
       },
       {
-        "title": "Claude Values Models Languages",
+        "title": "How Claude's values vary by model and language",
         "url": "https://www.anthropic.com/research/claude-values-models-languages",
         "pool": "institutions",
         "date": "2026-09-11",
@@ -3122,118 +3227,6 @@
       {
         "title": "Intelligence Targeting Conventional Weapons Capabilities",
         "url": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "Many Shot Jailbreaking",
-        "url": "https://www.anthropic.com/research/many-shot-jailbreaking",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "Mapping Mind Language Model",
-        "url": "https://www.anthropic.com/research/mapping-mind-language-model",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "The Anthropic Economic Index",
-        "url": "https://www.anthropic.com/research/the-anthropic-economic-index",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "Barclays continues strategic investment in Equity Capital Markets team",
-        "url": "https://home.barclays/news/press-releases/20260/090/barclays-continues-strategic-investment-in-equity-capital-market/",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "Bain Capitals David Gross On Global Opportunities And Private Equitys Evolution",
-        "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/bain-capitals-david-gross-on-global-opportunities-and-private-equitys-evolution",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "How Automation Impacts The Lives And Careers Of Displaced Workers",
-        "url": "https://www.goldmansachs.com/insights/articles/how-automation-impacts-the-lives-and-careers-of-displaced-workers",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "Why Global Bond Yields Are Expected To Stay Elevated",
-        "url": "https://www.goldmansachs.com/insights/articles/why-global-bond-yields-are-expected-to-stay-elevated",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "What A Fed Rate Hike Could Mean For Us Stocks",
-        "url": "https://www.goldmansachs.com/insights/the-markets/what-a-fed-rate-hike-could-mean-for-us-stocks",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "What A Fed Rate Hike Could Mean For Us Stocks   Transcript",
-        "url": "https://www.goldmansachs.com/pdfs/insights/the-markets/what-a-fed-rate-hike-could-mean-for-us-stocks/transcript.pdf",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "Takeout Options For Construction Loans In Agency Financing",
-        "url": "https://www.jpmorgan.com/insights/real-estate/agency-lending/takeout-options-for-construction-loans-in-agency-financing",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "Private Credit Machine Learning Moment",
-        "url": "https://www.jpmorgan.com/markets/insights/private-credit-machine-learning-moment",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "The Trading Desk Rewired",
-        "url": "https://www.jpmorgan.com/markets/insights/the-trading-desk-rewired",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "New Routes To Liquidity",
-        "url": "https://www.jpmorgan.com/markets/insights/new-routes-to-liquidity",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "Commodities In The New Geopolitical Age",
-        "url": "https://www.jpmorgan.com/markets/insights/commodities-in-the-new-geopolitical-age",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "Ai Blockchain And The New Market Reality",
-        "url": "https://www.jpmorgan.com/markets/insights/ai-blockchain-and-the-new-market-reality",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "Volatility Is No Longer The Exception",
-        "url": "https://www.jpmorgan.com/markets/insights/volatility-is-no-longer-the-exception",
         "pool": "institutions",
         "date": "2026-09-11",
         "by_hand": false

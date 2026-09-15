@@ -2,7 +2,7 @@
 title: "Record b1e573f4b8 · Social-trills-of-the-pipistrelle-bat--Pipistrellus-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T18:05:06.838578+00:00
+updated_at: 2026-09-15T20:58:47.789240+00:00
 tags: [record, real-data]
 ---
 

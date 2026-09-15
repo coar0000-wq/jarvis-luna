@@ -2,7 +2,7 @@
 title: "Record f2172e9b76 · Anti-Blush-Is-The-Moody-Yet-Wearable-Makeup-Trend-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T18:05:06.968374+00:00
+updated_at: 2026-09-15T20:58:47.989875+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record f79ab3d1dc · I-Live-in-KoreaHere-Are-the-Best-K-Beauty-Products-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T18:05:07.079856+00:00
+updated_at: 2026-09-15T20:58:48.159189+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMisgFBVV95cUxQTXhuZmdpTVJ3TmUwLW5TRFRLUDFxZXRaX0pPaWJEN19fZlBBUzZVZjRoV1h0N19Wb0Rzbk5EMzBzNjJ6N1FJb3VROUpaY21HU20tWmZQSWZVWGJjWmZ4SHJyTndwTjFhVE5mMkdLZHdfLWxPd1E3cHVtckIxWlllWWJCeEdUcURObXdENlNuTnBnYmtGYnlLQXYzU0k3S0wwQXp4UUlSU01VVXJGZl90TlRR?oc=5)
 
-**제목:** I Live in Korea—Here Are the Best K-Beauty Products I’ve Ever Tried - Harper's BAZAAR
+**제목:** I Live in Korea—Here Are the Best K-Beauty Products I’ve Ever Tried - harpersbazaar.com
 
-I Live in Korea—Here Are the Best K-Beauty Products I’ve Ever Tried - Harper's BAZAAR
+I Live in Korea—Here Are the Best K-Beauty Products I’ve Ever Tried - harpersbazaar.com
 
 **출처:** Source · Google Search
 

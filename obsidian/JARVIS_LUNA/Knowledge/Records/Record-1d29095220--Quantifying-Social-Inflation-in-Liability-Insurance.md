@@ -2,7 +2,7 @@
 title: "Record 1d29095220 · Quantifying-Social-Inflation-in-Liability-Insurance"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T18:05:07.127936+00:00
+updated_at: 2026-09-15T20:58:48.221905+00:00
 tags: [record, real-data]
 ---
 

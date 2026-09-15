@@ -2,7 +2,7 @@
 title: "Record 778294cb80 · PTSD-is-Associated-with-Advanced-Epigenetic-Age-in-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T18:05:06.898792+00:00
+updated_at: 2026-09-15T20:58:47.882344+00:00
 tags: [record, real-data]
 ---
 

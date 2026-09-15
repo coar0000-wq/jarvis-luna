@@ -1,14 +1,14 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-15T17:58:51.895356+00:00",
+  "collected_at": "2026-09-15T20:52:04.567057+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
     "SkincareAddiction",
     "AsianBeautyAdvice"
   ],
-  "post_count": 25,
+  "post_count": 33,
   "per_subreddit": [
     {
       "subreddit": "AsianBeauty",
@@ -35,21 +35,32 @@
     },
     {
       "subreddit": "AsianBeautyAdvice",
-      "post_count": 0,
+      "post_count": 25,
       "errors": [
-        "hot: HTTPError: HTTP Error 429: Too Many Requests",
         "top_week: HTTPError: HTTP Error 429: Too Many Requests"
       ]
     }
   ],
   "hot_keywords": [
     {
+      "keyword": "random",
+      "score": 13
+    },
+    {
+      "keyword": "thoughts",
+      "score": 13
+    },
+    {
       "keyword": "2026",
-      "score": 7
+      "score": 6
+    },
+    {
+      "keyword": "know",
+      "score": 6
     },
     {
       "keyword": "september",
-      "score": 6
+      "score": 5
     },
     {
       "keyword": "new",
@@ -68,7 +79,7 @@
       "score": 3
     },
     {
-      "keyword": "makeup",
+      "keyword": "products",
       "score": 3
     },
     {
@@ -76,7 +87,15 @@
       "score": 2
     },
     {
+      "keyword": "skin",
+      "score": 2
+    },
+    {
       "keyword": "kbeauty",
+      "score": 2
+    },
+    {
+      "keyword": "favourite",
       "score": 2
     },
     {
@@ -88,11 +107,11 @@
       "score": 2
     },
     {
-      "keyword": "skin",
+      "keyword": "anything",
       "score": 2
     },
     {
-      "keyword": "products",
+      "keyword": "goes",
       "score": 2
     },
     {
@@ -104,11 +123,35 @@
       "score": 2
     },
     {
-      "keyword": "monday",
+      "keyword": "who",
+      "score": 2
+    },
+    {
+      "keyword": "review",
+      "score": 2
+    },
+    {
+      "keyword": "actually",
       "score": 2
     },
     {
       "keyword": "blush",
+      "score": 2
+    },
+    {
+      "keyword": "use",
+      "score": 2
+    },
+    {
+      "keyword": "routine",
+      "score": 2
+    },
+    {
+      "keyword": "sunscreens",
+      "score": 2
+    },
+    {
+      "keyword": "k-beauty",
       "score": 2
     },
     {
@@ -158,50 +201,6 @@
     {
       "keyword": "tint",
       "score": 1
-    },
-    {
-      "keyword": "hypochlorous",
-      "score": 1
-    },
-    {
-      "keyword": "acid",
-      "score": 1
-    },
-    {
-      "keyword": "spray",
-      "score": 1
-    },
-    {
-      "keyword": "months",
-      "score": 1
-    },
-    {
-      "keyword": "which",
-      "score": 1
-    },
-    {
-      "keyword": "body",
-      "score": 1
-    },
-    {
-      "keyword": "pretty",
-      "score": 1
-    },
-    {
-      "keyword": "packaging",
-      "score": 1
-    },
-    {
-      "keyword": "amazing",
-      "score": 1
-    },
-    {
-      "keyword": "job",
-      "score": 1
-    },
-    {
-      "keyword": "flower",
-      "score": 1
     }
   ],
   "beauty_keywords": [
@@ -210,15 +209,27 @@
       "score": 4
     },
     {
-      "keyword": "kbeauty",
-      "score": 2
-    },
-    {
       "keyword": "skin",
       "score": 2
     },
     {
+      "keyword": "kbeauty",
+      "score": 2
+    },
+    {
       "keyword": "sunscreen",
+      "score": 2
+    },
+    {
+      "keyword": "routine",
+      "score": 2
+    },
+    {
+      "keyword": "sunscreens",
+      "score": 2
+    },
+    {
+      "keyword": "k-beauty",
       "score": 2
     }
   ],
@@ -245,16 +256,9 @@
       "feed": "hot"
     },
     {
-      "title": "KBeauty hypochlorous acid spray",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wguvvd/kbeauty_hypochlorous_acid_spray/",
-      "published": "2026-09-15T08:54:15+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "this months face masks reviews",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wgsj35/this_months_face_masks_reviews/",
-      "published": "2026-09-15T06:32:50+00:00",
+      "title": "99 Ranch, HMart and Uwajimaya",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wha6w2/99_ranch_hmart_and_uwajimaya/",
+      "published": "2026-09-15T19:25:58+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -266,9 +270,37 @@
       "feed": "hot"
     },
     {
+      "title": "KBeauty hypochlorous acid spray",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wguvvd/kbeauty_hypochlorous_acid_spray/",
+      "published": "2026-09-15T08:54:15+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Favourite hydrating and long lasting matte lippie?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wh9uql/favourite_hydrating_and_long_lasting_matte_lippie/",
+      "published": "2026-09-15T19:13:49+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "this months face masks reviews",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wgsj35/this_months_face_masks_reviews/",
+      "published": "2026-09-15T06:32:50+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "new flower knows collection: ❄️🦢🩰 SNOW BALLET 🩰🦢❄️",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wg0bbe/new_flower_knows_collection_snow_ballet/",
       "published": "2026-09-14T11:04:35+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Anything Goes Tuesday: September 15, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whc742/anything_goes_tuesday_september_15_2026/",
+      "published": "2026-09-15T20:39:10+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -315,16 +347,16 @@
       "feed": "hot"
     },
     {
-      "title": "Anything Goes Monday: September 14, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wgfeqp/anything_goes_monday_september_14_2026/",
-      "published": "2026-09-14T20:39:14+00:00",
+      "title": "Favourite mist over makeup",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wg4071/favourite_mist_over_makeup/",
+      "published": "2026-09-14T13:50:27+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Favourite mist over makeup",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wg4071/favourite_mist_over_makeup/",
-      "published": "2026-09-14T13:50:27+00:00",
+      "title": "Anything Goes Monday: September 14, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wgfeqp/anything_goes_monday_september_14_2026/",
+      "published": "2026-09-14T20:39:14+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -350,16 +382,16 @@
       "feed": "hot"
     },
     {
-      "title": "Anime Impulse Beauty Booth Sample Reviews! (+ Happy to Discover Some New Brands)",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfpfpw/anime_impulse_beauty_booth_sample_reviews_happy/",
-      "published": "2026-09-14T01:15:32+00:00",
+      "title": "Hyntoor cream blush - does anyone have any tips on how to use this?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfagaw/hyntoor_cream_blush_does_anyone_have_any_tips_on/",
+      "published": "2026-09-13T15:17:45+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Hyntoor cream blush - does anyone have any tips on how to use this?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfagaw/hyntoor_cream_blush_does_anyone_have_any_tips_on/",
-      "published": "2026-09-13T15:17:45+00:00",
+      "title": "Anime Impulse Beauty Booth Sample Reviews! (+ Happy to Discover Some New Brands)",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfpfpw/anime_impulse_beauty_booth_sample_reviews_happy/",
+      "published": "2026-09-14T01:15:32+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -378,24 +410,59 @@
       "feed": "hot"
     },
     {
-      "title": "Talk Me Into/Out of It September 14, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfy5nn/talk_me_intoout_of_it_september_14_2026/",
-      "published": "2026-09-14T09:00:48+00:00",
-      "subreddit": "AsianBeauty",
+      "title": "Revamping ABA",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/10dpkk9/revamping_aba/",
+      "published": "2023-01-16T19:53:22+00:00",
+      "subreddit": "AsianBeautyAdvice",
       "feed": "hot"
     },
     {
-      "title": "Makeup Monday September 14, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfsum9/makeup_monday_september_14_2026/",
-      "published": "2026-09-14T04:00:21+00:00",
-      "subreddit": "AsianBeauty",
+      "title": "Random AB thoughts",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1wec0xc/random_ab_thoughts/",
+      "published": "2026-09-12T13:00:11+00:00",
+      "subreddit": "AsianBeautyAdvice",
       "feed": "hot"
     },
     {
-      "title": "Douyin-style (inspired?) makeup",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1weta6s/douyinstyle_inspired_makeup/",
-      "published": "2026-09-13T00:46:28+00:00",
-      "subreddit": "AsianBeauty",
+      "title": "[GUIDE] help on the products",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1wcv8dp/guide_help_on_the_products/",
+      "published": "2026-09-10T20:42:30+00:00",
+      "subreddit": "AsianBeautyAdvice",
+      "feed": "hot"
+    },
+    {
+      "title": "I know it’s not AB, but...",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1w59ohe/i_know_its_not_ab_but/",
+      "published": "2026-09-02T13:00:24+00:00",
+      "subreddit": "AsianBeautyAdvice",
+      "feed": "hot"
+    },
+    {
+      "title": "Routine Journal",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1w3d44t/routine_journal/",
+      "published": "2026-08-31T13:00:10+00:00",
+      "subreddit": "AsianBeautyAdvice",
+      "feed": "hot"
+    },
+    {
+      "title": "[Review] Japanese sunscreens",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1vzze8m/review_japanese_sunscreens/",
+      "published": "2026-08-27T16:49:56+00:00",
+      "subreddit": "AsianBeautyAdvice",
+      "feed": "hot"
+    },
+    {
+      "title": "[Q&A] Can I still use it after the expiry date?",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1vvhx8l/qa_can_i_still_use_it_after_the_expiry_date/",
+      "published": "2026-08-22T17:09:57+00:00",
+      "subreddit": "AsianBeautyAdvice",
+      "feed": "hot"
+    },
+    {
+      "title": "[Q&A] Who’s the most honest K-beauty YouTuber you actually trust?",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1un7xgb/qa_whos_the_most_honest_kbeauty_youtuber_you/",
+      "published": "2026-07-04T12:32:43+00:00",
+      "subreddit": "AsianBeautyAdvice",
       "feed": "hot"
     }
   ],

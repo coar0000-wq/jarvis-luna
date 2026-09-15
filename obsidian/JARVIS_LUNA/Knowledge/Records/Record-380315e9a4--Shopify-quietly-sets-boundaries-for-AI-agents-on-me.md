@@ -2,7 +2,7 @@
 title: "Record 380315e9a4 · Shopify-quietly-sets-boundaries-for-AI-agents-on-me"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T18:05:07.083095+00:00
+updated_at: 2026-09-15T20:58:48.163418+00:00
 tags: [record, real-data]
 ---
 

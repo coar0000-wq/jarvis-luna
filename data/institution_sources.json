@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-15T17:57:43.100857+00:00",
+  "collected_at": "2026-09-15T20:50:55.994845+00:00",
   "total": 1063,
   "organizations": 35,
   "by_org": {
@@ -54,19 +54,19 @@
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-09-15T17:56:39.273836+00:00"
+      "collected_at": "2026-09-15T20:49:54.995755+00:00"
     },
     "sitemap": {
       "status": "ok",
       "count": 140,
       "failures": [],
-      "collected_at": "2026-09-15T17:57:16.476260+00:00"
+      "collected_at": "2026-09-15T20:50:32.171197+00:00"
     },
     "openalex": {
       "status": "ok",
       "count": 713,
       "failures": [],
-      "collected_at": "2026-09-15T17:57:43.099947+00:00"
+      "collected_at": "2026-09-15T20:50:55.993812+00:00"
     }
   },
   "not_collected": {
@@ -3855,6 +3855,19 @@
       "feed": "https://home.barclays/sitemap.xml"
     },
     {
+      "url": "https://www.goldmansachs.com/insights/articles/can-the-s-and-p-500-rally-as-treasury-yields-rise",
+      "date": "2026-09-15",
+      "date_raw": "2026-09-15T18:23:51.000Z",
+      "title_source": "url-slug",
+      "title": "Can The S And P 500 Rally As Treasury Yields Rise",
+      "summary": "",
+      "org": "Goldman Sachs",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.goldmansachs.com/sitemap.xml"
+    },
+    {
       "url": "https://www.goldmansachs.com/insights/the-markets/why-gold-is-expected-to-rise-to-record-highs",
       "date": "2026-09-15",
       "date_raw": "2026-09-15T13:48:46.000Z",
@@ -3868,11 +3881,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/articles/can-the-s-and-p-500-rally-as-treasury-yields-rise",
+      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/why-global-bond-yields-are-surging",
       "date": "2026-09-15",
-      "date_raw": "2026-09-15T16:17:28.000Z",
+      "date_raw": "2026-09-15T16:30:12.000Z",
       "title_source": "url-slug",
-      "title": "Can The S And P 500 Rally As Treasury Yields Rise",
+      "title": "Why Global Bond Yields Are Surging",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -3881,11 +3894,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/why-global-bond-yields-are-surging",
+      "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/why-global-bond-yields-are-surging/transcript.pdf",
       "date": "2026-09-15",
-      "date_raw": "2026-09-15T16:30:12.000Z",
+      "date_raw": "2026-09-15T16:16:04.000Z",
       "title_source": "url-slug",
-      "title": "Why Global Bond Yields Are Surging",
+      "title": "Why Global Bond Yields Are Surging   Transcript",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -4094,19 +4107,6 @@
       "date_raw": "2026-09-02T20:18:47.000Z",
       "title_source": "url-slug",
       "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity   Transcript",
-      "summary": "",
-      "org": "Goldman Sachs",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.goldmansachs.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.goldmansachs.com/what-we-do/investment-banking/insights/articles/powering-the-ai-era",
-      "date": "2026-08-31",
-      "date_raw": "2026-08-31T20:33:36.000Z",
-      "title_source": "url-slug",
-      "title": "Powering The Ai Era",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",

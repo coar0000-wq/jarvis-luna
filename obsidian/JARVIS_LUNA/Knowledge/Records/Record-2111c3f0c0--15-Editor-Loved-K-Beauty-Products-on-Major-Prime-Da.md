@@ -2,7 +2,7 @@
 title: "Record 2111c3f0c0 · 15-Editor-Loved-K-Beauty-Products-on-Major-Prime-Da"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T18:05:07.042117+00:00
+updated_at: 2026-09-15T20:58:48.105874+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMilwFBVV95cUxNOGhJcjFob1ZlZEc5LUNvaFlqbXBvVzZkVV84NmJ6SS1UMnhSRHBNYkVkVkRFbEt5SEhTenQteFY0M1hpSWZkRGpyWHpRV3FLWjg4T0x6NjlIa2Vrdnl6SzVkTDAzWm1EeE5UYXA0VF9ZY29pTG9DZ2tHb1M2YW1namJudGhmLWd5cnNReW9pajJMbUxzSTdz?oc=5)
 
-**제목:** 15 Editor-Loved K-Beauty Products on Major Prime Day Sale - Harper's BAZAAR
+**제목:** 15 Editor-Loved K-Beauty Products on Major Prime Day Sale - harpersbazaar.com
 
-15 Editor-Loved K-Beauty Products on Major Prime Day Sale - Harper's BAZAAR
+15 Editor-Loved K-Beauty Products on Major Prime Day Sale - harpersbazaar.com
 
 **출처:** Source · Google Search
 

@@ -2,7 +2,7 @@
 title: "Record d836e8160b · Introducing-Consort-Test-driven-development-on-a-br"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T18:05:07.209449+00:00
+updated_at: 2026-09-15T20:58:48.336787+00:00
 tags: [record, real-data]
 ---
 

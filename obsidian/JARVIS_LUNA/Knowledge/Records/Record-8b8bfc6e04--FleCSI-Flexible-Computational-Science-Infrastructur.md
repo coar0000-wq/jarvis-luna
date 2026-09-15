@@ -2,7 +2,7 @@
 title: "Record 8b8bfc6e04 · FleCSI-Flexible-Computational-Science-Infrastructur"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T18:05:06.853685+00:00
+updated_at: 2026-09-15T20:58:47.812710+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 196378c5dc · AI-Agents-For-Retail-How-Retail-AI-Agents-Work---Sh"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T18:05:06.945578+00:00
+updated_at: 2026-09-15T20:58:47.953272+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5DQWkxMFN2Y3U1eGdLa3UxWjRLMjFrRWVRMTkzSWxESHVlemxFZW0xWEtvUzV6bGVVbG9BeUk5SzJhalEwRFdZMmZnT2RwckFPSXZ6WDFWSkg2dzV0?oc=5)
 
-**제목:** AI Agents For Retail: How Retail AI Agents Work - shopify.com
+**제목:** AI Agents For Retail: How Retail AI Agents Work - Shopify
 
-AI Agents For Retail: How Retail AI Agents Work - shopify.com
+AI Agents For Retail: How Retail AI Agents Work - Shopify
 
 **출처:** Source · Google Search
 

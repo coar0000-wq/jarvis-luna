@@ -2,7 +2,7 @@
 title: "Record 1c51b610a2 · The-Impact-of-Security-Orchestration-Automation-and"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T18:05:06.895962+00:00
+updated_at: 2026-09-15T20:58:47.878161+00:00
 tags: [record, real-data]
 ---
 

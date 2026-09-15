@@ -2,7 +2,7 @@
 title: "Record cc5b514f53 · Project-Pan-Is-The-Beauty-Trend-Helping-People-Buy-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T18:05:06.955949+00:00
+updated_at: 2026-09-15T20:58:47.969963+00:00
 tags: [record, real-data]
 ---
 

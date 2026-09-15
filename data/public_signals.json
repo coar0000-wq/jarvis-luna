@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T18:03:31.661865+00:00",
+  "generated_at": "2026-09-15T20:56:59.341102+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "rayo vallecano - rcd espanyol",
+          "keyword": "finneas",
           "approx_traffic": "10000+",
           "traffic_num": 10000,
-          "published": "Tue, 15 Sep 2026 09:10:00 -0700",
-          "source_name": "Diario AS",
-          "url": "https://trends.google.com/trending?geo=US&q=rayo%20vallecano%20-%20rcd%20espanyol"
-        },
-        {
-          "keyword": "mike lafleur",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Tue, 15 Sep 2026 10:20:00 -0700",
+          "published": "Tue, 15 Sep 2026 12:50:00 -0700",
           "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=mike%20lafleur"
+          "url": "https://trends.google.com/trending?geo=US&q=finneas"
         },
         {
-          "keyword": "alavés vs valencia",
+          "keyword": "prince harry meghan markle uk move",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Tue, 15 Sep 2026 10:10:00 -0700",
+          "published": "Tue, 15 Sep 2026 13:40:00 -0700",
+          "source_name": "Yahoo Creators",
+          "url": "https://trends.google.com/trending?geo=US&q=prince%20harry%20meghan%20markle%20uk%20move"
+        },
+        {
+          "keyword": "jimmy horn jr",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Tue, 15 Sep 2026 13:10:00 -0700",
+          "source_name": "Carolina Panthers",
+          "url": "https://trends.google.com/trending?geo=US&q=jimmy%20horn%20jr"
+        },
+        {
+          "keyword": "uju anya",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Tue, 15 Sep 2026 13:10:00 -0700",
+          "source_name": "USA Today",
+          "url": "https://trends.google.com/trending?geo=US&q=uju%20anya"
+        },
+        {
+          "keyword": "yuval abraham rachel szor naza documentary",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Tue, 15 Sep 2026 12:40:00 -0700",
           "source_name": "The New York Times",
-          "url": "https://trends.google.com/trending?geo=US&q=alav%C3%A9s%20vs%20valencia"
+          "url": "https://trends.google.com/trending?geo=US&q=yuval%20abraham%20rachel%20szor%20naza%20documentary"
         },
         {
-          "keyword": "eng vs sl",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Tue, 15 Sep 2026 09:40:00 -0700",
-          "source_name": "The Guardian",
-          "url": "https://trends.google.com/trending?geo=US&q=eng%20vs%20sl"
-        },
-        {
-          "keyword": "west ham vs fulham",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Tue, 15 Sep 2026 10:50:00 -0700",
-          "source_name": "BBC",
-          "url": "https://trends.google.com/trending?geo=US&q=west%20ham%20vs%20fulham"
-        },
-        {
-          "keyword": "macklemore controversy",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Tue, 15 Sep 2026 10:50:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=macklemore%20controversy"
-        },
-        {
-          "keyword": "alavés - valencia c. f.",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Tue, 15 Sep 2026 10:10:00 -0700",
-          "source_name": "Yahoo",
-          "url": "https://trends.google.com/trending?geo=US&q=alav%C3%A9s%20-%20valencia%20c.%20f."
-        },
-        {
-          "keyword": "al-hilal vs al-gharafa",
+          "keyword": "yan diomandé",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Tue, 15 Sep 2026 10:50:00 -0700",
-          "source_name": "Robinhood",
-          "url": "https://trends.google.com/trending?geo=US&q=al-hilal%20vs%20al-gharafa"
+          "published": "Tue, 15 Sep 2026 13:20:00 -0700",
+          "source_name": "Eurosport",
+          "url": "https://trends.google.com/trending?geo=US&q=yan%20diomand%C3%A9"
         },
         {
-          "keyword": "ohio state highway patrol",
+          "keyword": "arda güler",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Tue, 15 Sep 2026 09:40:00 -0700",
-          "source_name": "NBC4 WCMH-TV",
-          "url": "https://trends.google.com/trending?geo=US&q=ohio%20state%20highway%20patrol"
+          "published": "Tue, 15 Sep 2026 13:10:00 -0700",
+          "source_name": "Vietnam.vn",
+          "url": "https://trends.google.com/trending?geo=US&q=arda%20g%C3%BCler"
         },
         {
-          "keyword": "goog",
+          "keyword": "venezuela",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Tue, 15 Sep 2026 13:00:00 -0700",
+          "source_name": "CNN en Español",
+          "url": "https://trends.google.com/trending?geo=US&q=venezuela"
+        },
+        {
+          "keyword": "paris hilton",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Tue, 15 Sep 2026 12:50:00 -0700",
+          "source_name": "People.com",
+          "url": "https://trends.google.com/trending?geo=US&q=paris%20hilton"
+        },
+        {
+          "keyword": "arsenal f.c",
           "approx_traffic": "100+",
           "traffic_num": 100,
-          "published": "Tue, 15 Sep 2026 09:10:00 -0700",
-          "source_name": "The Economist",
-          "url": "https://trends.google.com/trending?geo=US&q=goog"
+          "published": "Tue, 15 Sep 2026 12:50:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=arsenal%20f.c"
         }
       ]
     },
@@ -188,12 +188,17 @@
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
       "items": [
         {
+          "title": "Selena Gomez's Sunset Frost Nails Capture Golden Hour in a Manicure — See Photos",
+          "published": "Tue, 15 Sep 2026 19:29:01 +0000",
+          "url": "https://www.allure.com/story/selena-gomez-emmys-2026-sunset-frost-nails"
+        },
+        {
           "title": "8 Best Wrinkle Serums for Fine Lines, Texture, and Firmness",
           "published": "Tue, 15 Sep 2026 16:59:25 +0000",
           "url": "https://www.allure.com/story/best-wrinkle-serum"
         },
         {
-          "title": "How GLP-1 Weight Loss Drugs Moved Beyond the Doctor’s Office",
+          "title": "How GLP-1 Weight Loss Drugs Left the Doctor’s Office",
           "published": "Tue, 15 Sep 2026 16:05:19 +0000",
           "url": "https://www.allure.com/story/glp-1-gray-market-telehealth-med-spas-compounding-pharmacies"
         },
@@ -331,11 +336,6 @@
           "title": "Allure Best of Beauty: Live Is Back—Here's What You Need to Know",
           "published": "Thu, 10 Sep 2026 13:00:00 +0000",
           "url": "https://www.allure.com/story/story/best-of-beauty-live-event-2026"
-        },
-        {
-          "title": "Why Nicole Kidman’s \"Practical Magic 2\" Wig Had to Be So Different From the Original",
-          "published": "Thu, 10 Sep 2026 10:00:00 +0000",
-          "url": "https://www.allure.com/story/practical-magic-2-sandra-bullock-nicole-kidman-beauty-looks"
         }
       ]
     },

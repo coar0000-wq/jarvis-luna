@@ -2,7 +2,7 @@
 title: "Record ab9aed2e62 · SwarmWorld-Stigmergic-technological-evolution-in-so"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T18:05:07.326375+00:00
+updated_at: 2026-09-15T20:58:48.495995+00:00
 tags: [record, real-data]
 ---
 

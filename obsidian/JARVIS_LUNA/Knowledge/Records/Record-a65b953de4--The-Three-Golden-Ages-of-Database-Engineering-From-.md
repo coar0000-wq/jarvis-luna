@@ -2,7 +2,7 @@
 title: "Record a65b953de4 · The-Three-Golden-Ages-of-Database-Engineering-From-SIGMOD85-to-the-Age"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T18:05:06.852485+00:00
+updated_at: 2026-09-15T20:58:47.810850+00:00
 tags: [record, real-data]
 ---
 

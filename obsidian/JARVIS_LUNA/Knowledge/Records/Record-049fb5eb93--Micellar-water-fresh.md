@@ -2,7 +2,7 @@
 title: "Record 049fb5eb93 · Micellar-water-fresh"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T18:05:07.165110+00:00
+updated_at: 2026-09-15T20:58:48.272236+00:00
 tags: [record, real-data]
 ---
 
