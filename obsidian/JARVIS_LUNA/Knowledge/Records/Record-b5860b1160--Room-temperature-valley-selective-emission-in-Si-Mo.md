@@ -2,7 +2,7 @@
 title: "Record b5860b1160 · Room-temperature-valley-selective-emission-in-Si-Mo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T07:17:11.496759+00:00
+updated_at: 2026-09-15T11:46:21.243721+00:00
 tags: [record, real-data]
 ---
 

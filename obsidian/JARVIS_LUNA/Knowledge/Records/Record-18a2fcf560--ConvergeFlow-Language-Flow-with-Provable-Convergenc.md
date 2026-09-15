@@ -2,7 +2,7 @@
 title: "Record 18a2fcf560 · ConvergeFlow-Language-Flow-with-Provable-Convergenc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T07:17:12.193657+00:00
+updated_at: 2026-09-15T11:46:21.878033+00:00
 tags: [record, real-data]
 ---
 

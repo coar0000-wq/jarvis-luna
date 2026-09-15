@@ -2,7 +2,7 @@
 title: "Record 62165ff0b6 · I-Tried-the-Viral-K-Beauty-Cream-After-a-Laser-Facial--And-it-Healed-M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T07:17:11.840143+00:00
+updated_at: 2026-09-15T11:46:21.562487+00:00
 tags: [record, real-data]
 ---
 
@@ -13,9 +13,10 @@ tags: [record, real-data]
 **제목:** I Tried the Viral K-Beauty Cream After a Laser Facial — And it Healed My Skin in Half the Time - Yahoo
 
 I Tried the Viral K-Beauty Cream After a Laser Facial — And it Healed My Skin in Half the Time - Yahoo
+I Tried the Viral K-Beauty Cream After a Laser Facial — And it Healed My Skin in Half the Time - Yahoo
 
-**출처:** Source · Google Search
+**출처:** Source · us_beauty
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[마케팅광고]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[마케팅광고]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

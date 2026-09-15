@@ -2,7 +2,7 @@
 title: "Record c0d483a361 · Human-Skin-Is-the-Newest-Ingredient-in-the-K-Beauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T07:17:11.880818+00:00
+updated_at: 2026-09-15T11:46:21.596318+00:00
 tags: [record, real-data]
 ---
 

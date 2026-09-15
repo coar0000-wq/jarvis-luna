@@ -2,7 +2,7 @@
 title: "Record 5ef09e0ca1 · Risk-Aware-Optimal-Control-with-Rulebooks"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T07:17:11.373757+00:00
+updated_at: 2026-09-15T11:46:21.130949+00:00
 tags: [record, real-data]
 ---
 

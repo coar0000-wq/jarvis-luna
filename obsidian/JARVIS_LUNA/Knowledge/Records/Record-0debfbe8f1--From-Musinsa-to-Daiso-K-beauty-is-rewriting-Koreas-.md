@@ -2,7 +2,7 @@
 title: "Record 0debfbe8f1 · From-Musinsa-to-Daiso-K-beauty-is-rewriting-Koreas-retail-playbook---T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T07:17:11.675368+00:00
+updated_at: 2026-09-15T11:46:21.413604+00:00
 tags: [record, real-data]
 ---
 
@@ -13,10 +13,9 @@ tags: [record, real-data]
 **제목:** From Musinsa to Daiso, K-beauty is rewriting Korea’s retail playbook - The Korea Herald
 
 From Musinsa to Daiso, K-beauty is rewriting Korea’s retail playbook - The Korea Herald
-From Musinsa to Daiso, K-beauty is rewriting Korea’s retail playbook - The Korea Herald
 
-**출처:** Source · us_beauty
+**출처:** Source · Google Search
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

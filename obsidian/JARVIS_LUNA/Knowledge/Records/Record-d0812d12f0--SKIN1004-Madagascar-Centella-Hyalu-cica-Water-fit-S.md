@@ -2,7 +2,7 @@
 title: "Record d0812d12f0 · SKIN1004-Madagascar-Centella-Hyalu-cica-Water-fit-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T07:17:11.988811+00:00
+updated_at: 2026-09-15T11:46:21.691731+00:00
 tags: [record, real-data]
 ---
 

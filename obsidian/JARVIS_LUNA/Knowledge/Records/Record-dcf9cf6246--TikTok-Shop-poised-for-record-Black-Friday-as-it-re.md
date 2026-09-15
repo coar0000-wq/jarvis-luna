@@ -2,7 +2,7 @@
 title: "Record dcf9cf6246 · TikTok-Shop-poised-for-record-Black-Friday-as-it-re"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T07:17:11.899067+00:00
+updated_at: 2026-09-15T11:46:21.611712+00:00
 tags: [record, real-data]
 ---
 

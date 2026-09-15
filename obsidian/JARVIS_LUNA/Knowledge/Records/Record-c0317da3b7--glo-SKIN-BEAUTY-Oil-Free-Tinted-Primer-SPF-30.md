@@ -2,7 +2,7 @@
 title: "Record c0317da3b7 · glo-SKIN-BEAUTY-Oil-Free-Tinted-Primer-SPF-30"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T07:17:11.328966+00:00
+updated_at: 2026-09-15T11:46:21.093298+00:00
 tags: [record, real-data]
 ---
 

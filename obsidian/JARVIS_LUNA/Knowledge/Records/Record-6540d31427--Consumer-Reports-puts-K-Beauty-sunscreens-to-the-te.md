@@ -2,7 +2,7 @@
 title: "Record 6540d31427 · Consumer-Reports-puts-K-Beauty-sunscreens-to-the-te"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T07:17:11.814713+00:00
+updated_at: 2026-09-15T11:46:21.540317+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,10 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMijgFBVV95cUxPMHhPYk45c2xzWEw3Mmx2akplQWJZS1F1SnJSbnZJV3RmV0hLTktMUnl4cDBQak5jdDQ0LWlUWWtGODZSbkFfU0Q3MDZ0S0FtVFNDSjUyaldtU0l6WjhiZXpjN1MxVjdRNGVXeEUyZkNqY29aeXBqckFYYWxTYkF4TkpFVUFsZjFRMk9EU1N3?oc=5)
 
-**제목:** Consumer Reports puts K-Beauty sunscreens to the test - WRAL
+**제목:** Consumer Reports puts K-Beauty sunscreens to the test - wral.com
 
-Consumer Reports puts K-Beauty sunscreens to the test - WRAL
-Consumer Reports puts K-Beauty sunscreens to the test - WRAL
+Consumer Reports puts K-Beauty sunscreens to the test - wral.com
+Consumer Reports puts K-Beauty sunscreens to the test - wral.com
 
 **출처:** Source · us_beauty
 

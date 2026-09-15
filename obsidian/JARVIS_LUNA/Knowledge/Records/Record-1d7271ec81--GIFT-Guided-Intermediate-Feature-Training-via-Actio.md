@@ -2,7 +2,7 @@
 title: "Record 1d7271ec81 · GIFT-Guided-Intermediate-Feature-Training-via-Actio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T07:17:11.363292+00:00
+updated_at: 2026-09-15T11:46:21.122165+00:00
 tags: [record, real-data]
 ---
 
