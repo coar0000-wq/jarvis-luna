@@ -2,7 +2,7 @@
 title: "Record 3c0cf4e939 · Humanoid-Robot-Market-5-Trillion-By-2050"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T04:57:12.630696+00:00
+updated_at: 2026-09-15T07:17:12.096776+00:00
 tags: [record, real-data]
 ---
 

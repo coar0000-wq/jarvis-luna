@@ -2,7 +2,7 @@
 title: "Record 35bf9da074 · Explainable-and-Resource-Efficient-Spatial-Reasonin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T04:57:12.572775+00:00
+updated_at: 2026-09-15T07:17:11.969604+00:00
 tags: [record, real-data]
 ---
 

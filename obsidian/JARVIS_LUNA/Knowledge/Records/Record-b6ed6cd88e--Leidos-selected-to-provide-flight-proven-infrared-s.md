@@ -2,7 +2,7 @@
 title: "Record b6ed6cd88e · Leidos-selected-to-provide-flight-proven-infrared-s"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T04:57:12.422239+00:00
+updated_at: 2026-09-15T07:17:11.644111+00:00
 tags: [record, real-data]
 ---
 

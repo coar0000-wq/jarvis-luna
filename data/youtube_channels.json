@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T00:14:56.084424+00:00",
+  "generated_at": "2026-09-15T07:09:49.753443+00:00",
   "generator": "scripts/ingest_youtube_channels.py",
   "입력": "data/manual/youtube_channels.txt",
   "robots": "youtube.com/robots.txt 의 Disallow 목록에 /@ 와 /channel/ 은 없다. 막힌 것은 /feeds/videos.xml, /results, /youtubei/ 등이다. 지정된 채널만 하나씩 본다. 2026-09-06 확인.",
@@ -43,6 +43,18 @@
       ]
     },
     {
+      "video_id": "2TlIg3VokY8",
+      "title": "The UX Psychology Behind Apps People Can’t Stop Using",
+      "views_text": "492K views",
+      "published_text": "2 months ago",
+      "views": 492000,
+      "url": "https://www.youtube.com/watch?v=2TlIg3VokY8",
+      "channel": "uxpeak",
+      "teams": [
+        "design"
+      ]
+    },
+    {
       "video_id": "IKQg1JCx5uY",
       "title": "캐리어 구매 체크리스트👍 ! 이것만 알면 된다!😍 여행용✈ 캐리어👜 브랜드 Top3 추천👍! 리모와라고 다 좋은게 아니다?!",
       "views_text": "492K views",
@@ -52,18 +64,6 @@
       "channel": "땡스큐레이터",
       "teams": [
         "market"
-      ]
-    },
-    {
-      "video_id": "2TlIg3VokY8",
-      "title": "The UX Psychology Behind Apps People Can’t Stop Using",
-      "views_text": "491K views",
-      "published_text": "2 months ago",
-      "views": 491000,
-      "url": "https://www.youtube.com/watch?v=2TlIg3VokY8",
-      "channel": "uxpeak",
-      "teams": [
-        "design"
       ]
     },
     {
@@ -117,9 +117,9 @@
     {
       "video_id": "GGg61sdEjeI",
       "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
-      "views_text": "227K views",
+      "views_text": "230K views",
       "published_text": "2 weeks ago",
-      "views": 227000,
+      "views": 230000,
       "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
       "channel": "uxpeak",
       "teams": [
@@ -141,9 +141,9 @@
     {
       "video_id": "wLJ40GV2XEc",
       "title": "Top UI/UX Design Tips - How to Design a Great Bottom Mobile Navigation Bar",
-      "views_text": "205K views",
+      "views_text": "206K views",
       "published_text": "1 year ago",
-      "views": 205000,
+      "views": 206000,
       "url": "https://www.youtube.com/watch?v=wLJ40GV2XEc",
       "channel": "uxpeak",
       "teams": [
@@ -202,7 +202,7 @@
   "items": [
     {
       "stale": false,
-      "last_ok_at": "2026-09-15T00:14:45.764844+00:00",
+      "last_ok_at": "2026-09-15T07:09:39.518042+00:00",
       "url": "https://www.youtube.com/@uxpeak",
       "note": "UX/UI 리디자인·전환율 (사용자 지정)",
       "team_hint": "design",
@@ -211,14 +211,14 @@
       "subscribers": "123K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-15T00:14:45.764866+00:00",
+      "checked_at": "2026-09-15T07:09:39.518062+00:00",
       "videos": [
         {
           "video_id": "GGg61sdEjeI",
           "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
-          "views_text": "227K views",
+          "views_text": "230K views",
           "published_text": "2 weeks ago",
-          "views": 227000,
+          "views": 230000,
           "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
           "channel": "uxpeak",
           "teams": [
@@ -228,9 +228,9 @@
         {
           "video_id": "2TlIg3VokY8",
           "title": "The UX Psychology Behind Apps People Can’t Stop Using",
-          "views_text": "491K views",
+          "views_text": "492K views",
           "published_text": "2 months ago",
-          "views": 491000,
+          "views": 492000,
           "url": "https://www.youtube.com/watch?v=2TlIg3VokY8",
           "channel": "uxpeak",
           "teams": [
@@ -252,9 +252,9 @@
         {
           "video_id": "oYskl2ZBoBc",
           "title": "Ecommerce Page Redesign: UX/UI Tips to 3.5x Conversion",
-          "views_text": "64K views",
+          "views_text": "65K views",
           "published_text": "4 months ago",
-          "views": 64000,
+          "views": 65000,
           "url": "https://www.youtube.com/watch?v=oYskl2ZBoBc",
           "channel": "uxpeak",
           "teams": [
@@ -288,9 +288,9 @@
         {
           "video_id": "wLJ40GV2XEc",
           "title": "Top UI/UX Design Tips - How to Design a Great Bottom Mobile Navigation Bar",
-          "views_text": "205K views",
+          "views_text": "206K views",
           "published_text": "1 year ago",
-          "views": 205000,
+          "views": 206000,
           "url": "https://www.youtube.com/watch?v=wLJ40GV2XEc",
           "channel": "uxpeak",
           "teams": [
@@ -469,7 +469,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-15T00:14:51.084175+00:00",
+      "last_ok_at": "2026-09-15T07:09:44.753226+00:00",
       "url": "https://www.youtube.com/@%EB%95%A1%ED%81%90%EC%B1%84%EB%84%90",
       "note": "땡스큐레이터 - 스몰 브랜드 브랜딩·수출·견적. 팀은 영상마다 자동 분류",
       "team_hint": "",
@@ -478,14 +478,14 @@
       "subscribers": "18.5K",
       "video_count": 20,
       "error": "",
-      "checked_at": "2026-09-15T00:14:51.084191+00:00",
+      "checked_at": "2026-09-15T07:09:44.753241+00:00",
       "videos": [
         {
           "video_id": "CSr4DYGUPOM",
           "title": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
-          "views_text": "73K views",
+          "views_text": "74K views",
           "published_text": "11 days ago",
-          "views": 73000,
+          "views": 74000,
           "url": "https://www.youtube.com/watch?v=CSr4DYGUPOM",
           "channel": "땡스큐레이터",
           "teams": [
@@ -644,9 +644,9 @@
         {
           "video_id": "4ru4xgZfDPA",
           "title": "VLOG 직장인 브이로그ㅣ 연남동 퇴근길😍 콤콤오락실,달링스푼,스튜디오그림비,오월상점,소이연남,동백양과점,소품샵,카페투어ㅣ퇴근길 브이로그❤️",
-          "views_text": "573 views",
+          "views_text": "574 views",
           "published_text": "6 years ago",
-          "views": 573,
+          "views": 574,
           "url": "https://www.youtube.com/watch?v=4ru4xgZfDPA",
           "channel": "땡스큐레이터",
           "teams": [
@@ -680,9 +680,9 @@
         {
           "video_id": "Tu8Ziv_y_Cc",
           "title": "마케팅에 속지않는 화장품 구매팁! 👌 ❌화장품 마케팅 싫어 🔥땡큐한 화장품 추천 ✔️ 솔직리뷰! 마케팅 썰 대방출 / 천연 화장품 /유기농 화장품 / 더마 화장품 [땡큐]",
-          "views_text": "988 views",
+          "views_text": "989 views",
           "published_text": "6 years ago",
-          "views": 988,
+          "views": 989,
           "url": "https://www.youtube.com/watch?v=Tu8Ziv_y_Cc",
           "channel": "땡스큐레이터",
           "teams": [
@@ -704,9 +704,9 @@
         {
           "video_id": "aIG5u5xJs6g",
           "title": "해외구매 아이폰 장점 / 아이폰 11 Pro 512GB 미드나잇 그린ㅣ굳이 미국에서 구매한 K의 하울!  영롱한 자태. 실물 감상 [땡큐]",
-          "views_text": "669 views",
+          "views_text": "670 views",
           "published_text": "6 years ago",
-          "views": 669,
+          "views": 670,
           "url": "https://www.youtube.com/watch?v=aIG5u5xJs6g",
           "channel": "땡스큐레이터",
           "teams": [

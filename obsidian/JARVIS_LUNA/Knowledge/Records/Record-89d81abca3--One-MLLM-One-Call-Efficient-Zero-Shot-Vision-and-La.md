@@ -2,7 +2,7 @@
 title: "Record 89d81abca3 · One-MLLM-One-Call-Efficient-Zero-Shot-Vision-and-La"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T04:57:12.272074+00:00
+updated_at: 2026-09-15T07:17:11.384713+00:00
 tags: [record, real-data]
 ---
 

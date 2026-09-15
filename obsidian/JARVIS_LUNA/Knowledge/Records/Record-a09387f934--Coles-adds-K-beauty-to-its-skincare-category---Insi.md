@@ -1,12 +1,12 @@
 ---
-title: "Record a09387f934 · Coles-adds-K-beauty-to-its-skincare-category---Inside-FMCG"
+title: "Record a09387f934 · Coles-adds-K-beauty-to-its-skincare-category---Insi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T04:57:12.498464+00:00
+updated_at: 2026-09-15T07:17:11.805166+00:00
 tags: [record, real-data]
 ---
 
-# Record a09387f934 · Coles-adds-K-beauty-to-its-skincare-category---Inside-FMCG
+# Record a09387f934 · Coles-adds-K-beauty-to-its-skincare-category---Insi
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiigFBVV95cUxPVnZ1RjFDQnhXZFRrUkZpMDFVakljX0xZbUtlYUhMTWs0WFR3dktIUG12QWVrNHhlaS1MMTZqaGZYRWhINU5Qa21SSmQwc0UycTVkcVlLdUxxNjBXZTc0cTFZMDlOeTdFSlNhTnBvRnVsTFlGemhSQWNzZDRHd0k1YklFVkZyZjNxVnc?oc=5)
 

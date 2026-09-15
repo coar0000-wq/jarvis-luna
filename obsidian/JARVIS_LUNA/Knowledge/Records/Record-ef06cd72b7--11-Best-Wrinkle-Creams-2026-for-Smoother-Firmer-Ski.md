@@ -1,12 +1,12 @@
 ---
-title: "Record ef06cd72b7 · 11-Best-Wrinkle-Creams-2026-for-Smoother-Firmer-Skin"
+title: "Record ef06cd72b7 · 11-Best-Wrinkle-Creams-2026-for-Smoother-Firmer-Ski"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T04:57:12.591119+00:00
+updated_at: 2026-09-15T07:17:12.007578+00:00
 tags: [record, real-data]
 ---
 
-# Record ef06cd72b7 · 11-Best-Wrinkle-Creams-2026-for-Smoother-Firmer-Skin
+# Record ef06cd72b7 · 11-Best-Wrinkle-Creams-2026-for-Smoother-Firmer-Ski
 
 > 실제 수집 레코드입니다. 원문: [www.allure.com](https://www.allure.com/gallery/best-wrinkle-cream)
 

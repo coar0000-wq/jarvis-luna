@@ -1,12 +1,12 @@
 ---
-title: "Record be40ac6f94 · I-Tried-the-Viral-K-Beauty-Cream-After-a-Laser-Facial--And-it-Healed-M"
+title: "Record be40ac6f94 · I-Tried-the-Viral-K-Beauty-Cream-After-a-Laser-Faci"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T04:57:12.479676+00:00
+updated_at: 2026-09-15T07:17:11.763180+00:00
 tags: [record, real-data]
 ---
 
-# Record be40ac6f94 · I-Tried-the-Viral-K-Beauty-Cream-After-a-Laser-Facial--And-it-Healed-M
+# Record be40ac6f94 · I-Tried-the-Viral-K-Beauty-Cream-After-a-Laser-Faci
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiekFVX3lxTFAtLWxIWTR0Ukk4Y3hhYnRPSlZkel9SZFRjWmNYZGRBZ3FKdG53ZEFnMEt0TFhPRjdHYm5tS0pCM0JzWUJTWlo2OXk5a0hHMDFNVHBySm92ejRPeGcxcUMtc25QcUJhdm54N2tFNHhkbVNDZ1Z3aTN0V3J3?oc=5)
 

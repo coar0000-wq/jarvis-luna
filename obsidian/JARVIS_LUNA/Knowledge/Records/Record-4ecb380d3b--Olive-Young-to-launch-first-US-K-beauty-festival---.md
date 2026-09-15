@@ -2,7 +2,7 @@
 title: "Record 4ecb380d3b · Olive-Young-to-launch-first-US-K-beauty-festival---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T04:57:12.518311+00:00
+updated_at: 2026-09-15T07:17:11.850684+00:00
 tags: [record, real-data]
 ---
 

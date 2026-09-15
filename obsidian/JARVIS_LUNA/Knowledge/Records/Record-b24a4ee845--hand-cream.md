@@ -2,7 +2,7 @@
 title: "Record b24a4ee845 · hand-cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T04:57:12.588925+00:00
+updated_at: 2026-09-15T07:17:12.002658+00:00
 tags: [record, real-data]
 ---
 

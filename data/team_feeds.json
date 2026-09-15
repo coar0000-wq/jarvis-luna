@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-09-15T00:15:01.841280+00:00",
+  "generated_at": "2026-09-15T07:09:55.192620+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
   "pool_size": 2025,
   "제목없어_버림": 38,
-  "unrouted": 8,
+  "unrouted": 7,
   "summary": {
     "sourcing": {
       "total": 216,
       "recent": 214
     },
     "market": {
-      "total": 446,
-      "recent": 33
+      "total": 448,
+      "recent": 39
     },
     "listing": {
-      "total": 15,
+      "total": 14,
       "recent": 9
     },
     "pricing": {
-      "total": 12,
+      "total": 13,
       "recent": 4
     },
     "legal": {
@@ -28,19 +28,19 @@
       "recent": 14
     },
     "design": {
-      "total": 333,
-      "recent": 74
+      "total": 335,
+      "recent": 71
     },
     "robotics": {
       "total": 60,
       "recent": 26
     },
     "knowledge": {
-      "total": 132,
-      "recent": 27
+      "total": 130,
+      "recent": 26
     },
     "institutions": {
-      "total": 1061,
+      "total": 1060,
       "recent": 281
     }
   },
@@ -580,6 +580,27 @@
         "by_hand": true
       },
       {
+        "title": "K-Beauty Arrives at Coles in Skincare Glow-Up - Mirage News",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOc191U2pxYjIya1gyLTFFa3k5b3BuSEs1cVdNbHhVaGMyZ3BxUlY2dWxnajVkbmQ5ejEzQ1FqSS10Vnlid29OM3hWMGdEVVhQUFQ0OFZtQW45UWY0UGRKYm0wVm9aMm9tUGdQYXB1WnlyeGNSYVBkZjJDVVBKamRLb1h4VjFSTkNH?oc=5",
+        "pool": "google",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Coles adds K-beauty to its skincare category - Inside FMCG",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVnZ1RjFDQnhXZFRrUkZpMDFVakljX0xZbUtlYUhMTWs0WFR3dktIUG12QWVrNHhlaS1MMTZqaGZYRWhINU5Qa21SSmQwc0UycTVkcVlLdUxxNjBXZTc0cTFZMDlOeTdFSlNhTnBvRnVsTFlGemhSQWNzZDRHd0k1YklFVkZyZjNxVnc?oc=5",
+        "pool": "google",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Numbuzin Targets Makeup-Ready Skin with NCT WISH, Expanding Its Lineup with a No. 3 Lotion - sportschosun.com",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNT3p4VXJYNTg2VDBSSURza09wZUUtNndVRk41SHhvNWZTRF9Cb2xtT3FudVdKQnpXX1BpSGgzX3Z4SEp2ZFcwOXVqUldHVmJyNnFRMEIwMDQ4TV9hem9ZZWJ6QmlXQ0ZSQWFkMElxYy05NWFMbC1LZURJS1c3VnBwYVpR?oc=5",
+        "pool": "google",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
         "title": "Summer Review Fall Preview Market Insights",
         "url": "https://www.goldmansachs.com/what-we-do/ayco/insights/summer-review-fall-preview-market-insights",
         "pool": "institutions",
@@ -610,6 +631,13 @@
       {
         "title": "Korean Beauty ODM Shift: Top Three Manufacturers Ramp Up Capacity to Capture Global Skincare Market - finance.biggo.com",
         "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9ZY2ZIWXZGVW8yRzE5TXFDdFZrd3Z0SGtLRm83Ul8wVGYzVEJ2U1hSazBpTENNczNqT2ZJNU8ya0NKaUg5NlBJbm9xa2dmbG5aWS0zVklUY242TUxPOERiWlphZ3JXWUwzVVh1ZUl4YndSODFZMHc?oc=5",
+        "pool": "google",
+        "date": "2026-09-14",
+        "by_hand": false
+      },
+      {
+        "title": "SUNGBOON EDITOR And Milk Touch Bring Next-Generation K-Beauty To Target Beauty Studio - PR Newswire",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVnFIcTVoMDE4cHNFWG9BVm1GeEp4T2NMc2ZwY1VhbmhzYzBoWjMxOTdfSWlVVWRaS0xyZ096RnAyN1B1QkxCZkY2OGZEblRMRm1hX0JqVGYwTURPZkhuTG4zVU5zdnQzeDR3U1liWTRiWDNEa25RUU1mU2x0VUVXUUZUVG1kazN6NXlwUC1EVldEYWRFZlp1NnlseG53Yy04a2cxNTJiQ2FQMDdES3NpUUNpTHhPQ2NyTEcyTE84Zlo0M0VtalYzVmhyX2RLYVZqQTFuQWZsUW8?oc=5",
         "pool": "google",
         "date": "2026-09-14",
         "by_hand": false
@@ -664,13 +692,6 @@
         "by_hand": false
       },
       {
-        "title": "Want Glowing Skin? Experts Agree These Are the Korean Beauty Essentials for Every Skin Type - Oprah Daily",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaTZSWTRqb1czcGk1R0RnZ2pBZVBmRFhBSGU3YlRISUhrMklDUHpaVmlmc0ZmaWNuMVNTeS1FTzRhekVJMW5kdHFOR3ROMUlUb2JBeHJ6TzBKdUJYOU5ubnFJNllyMFhScUZ2SERJS1lvTVpEZHl1dTlFdFFfVG9QUEhfVDRHVy1XUFZ6bkdRUQ?oc=5",
-        "pool": "google",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
         "title": "VOESH Joins Target Beauty Studio, Bringing K-Beauty Body Care to Target Guests Nationwide with Target-Exclusive Collection - PR Newswire",
         "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQekZyU2tfY0w2UDhDcmhqZS05Y1Q1MEgxdndCU0xZa0YzcUZDN2JsUllLaTV2NFdONFZVdmJOdDdXM1JaVm9iNGpWQldJcnl0Slo5MTA5dXptZ2szR25hbl9DdExTTzdBT0F1SW9LTHZQb2NTWlUxRHhWVWlHQjRyM0gzaWUweWtSM1Atdk5Idjk3d0pCTGVEMW00VVdzY3hjTHMyYldiREt0WXU1V0E4YnJ6WWdUQXlndGNxaXd3UXA1V1FYbXFSLVZiWlZHQkxKVUQ1T0xCdENxVGtSdHk0bFctVnRjTnEtekVfZ1BVSUJGWEZGN2NoS2ZiZXJ6aG1MYTQ5Nld0VVE?oc=5",
         "pool": "google",
@@ -720,15 +741,22 @@
         "by_hand": false
       },
       {
-        "title": "We Tested Dozens of the Best Korean Skincare Products—These 17 Gave Us Radiant Skin - byrdie.com",
+        "title": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5",
+        "pool": "google",
+        "date": "2026-09-08",
+        "by_hand": false
+      },
+      {
+        "title": "We Tested Dozens of the Best Korean Skincare Products—These 17 Gave Us Radiant Skin - Byrdie",
         "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1sc1dUR0l3QkxvbDVjMnk4bzBxd0RKMW13ZVFBZlRLQmFwM3gtdjR1Sk5vZkp3c2xFNUc5Tm9ycThJWGc3TnVZekNOWHNYVHppZEhWWkZ6NjFwQzlZakk2VERaNzlNRVVxaGk1a0ZUWQ?oc=5",
         "pool": "google",
         "date": "2026-09-08",
         "by_hand": false
       },
       {
-        "title": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5",
+        "title": "From medicine cabinet to makeup bag: Drugmakers turn medical research into skincare - Korea JoongAng Daily",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNDhGOE5GQWVncngtaGZBcVkzT0pGcjB4V3dHLUNMMjNoMGJVcjIzWDRjWDJGS3JWWjZ1N1dkN2dfSWpabktCMzd0bXEyNU9TYmtUMUk0VDZlVktNMjh6aER3cTZmdDFnWS1EN1RvOUJDMlNlY0huVlROa0tCUF9RMXNOaGZ5R0NvNEd0UWFjRVhsSmpXZ053WEpfN01zaUNOZExHMm5zLU5OckVKUEktMm5UUTBwT2VyV2dKZUJWNmUtT2xBSklwTHFwN1pzcXVj?oc=5",
         "pool": "google",
         "date": "2026-09-08",
         "by_hand": false
@@ -738,6 +766,13 @@
         "url": "https://news.samsung.com/global/samsung-medison-expands-womens-health-diagnostic-portfolio-with-launch-of-premium-ultrasound-hera-z10",
         "pool": "institutions",
         "date": "2026-09-07",
+        "by_hand": false
+      },
+      {
+        "title": "Would You Go on a Glowcation? K-Beauty Is Betting So - Vogue",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ01YZ2lKV0VUQzJROHZVVnJZbWM1dkw1TFRGLXFMcUx0dWhaZDJheTIwdE9yaElIUFpmYlJVSXg2UnQ0aDhCOVd3MVZvakhvVWxDWi1wM2hfbGVKbjFaSHJLWjJHYU02M3lwdGRXQVNfSXJGdWVTN0h4V0tvaU9iLUIzbGFmZkFU?oc=5",
+        "pool": "google",
+        "date": "2026-09-04",
         "by_hand": false
       },
       {
@@ -762,15 +797,15 @@
         "by_hand": false
       },
       {
-        "title": "10 Best AI-Powered Analytics Tools for Ecommerce in 2026: Chat Interfaces, Autonomous Analysts and Vertical Tools Compared - Ask Luca",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1aYVpPVndBZV9leHQ1N2NObW9TbUNZTVEtT2prTFpocXB2N0ktVGRoSWs0dXdJa1Jid05lNGI0LU91UGN0R1ppYUo2Zm1JdGwxUVR2ZTBoUThfaTNkR2puLUFNdw?oc=5",
+        "title": "What makes K-beauty Korean? The answer is getting complicated. - Korea JoongAng Daily",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTHduVDgyX3Fsb1owRDBvLVd4bDEzQjZlZk1UcGY5aE5oS1NGR0VrVV9scXFNNG9xdGZTcUZQX3A0NEM4LUxJdUt6TWhORGxJVnE5NnM5VVdYWUthOXZWX2xNV0VoUTFsM3lVUl9MR3o5cHF1eXBjSl9feEtwYWtNY1A4RGNRZUItREFtRU8xZ0hzVmVhZ3Bwdmx3X3B6eVNkY3BPb3dGaThJaENSVEJGVWxn?oc=5",
         "pool": "google",
         "date": "2026-09-03",
         "by_hand": false
       },
       {
-        "title": "Anti-Blush Is The Moody Yet Wearable Makeup Trend To Try Now - Harper's Bazaar Singapore",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9HeW5JcWxfLU1RS2RYYzMxYTAzbGFVQTBvWktyOExud0JYc3dDZFFpQ0NobzMzUnhxR3BjOXVYQnFZaVh5RjZKM1F3QUp5TlZmZTl3OUNCQy1fYzREQmlvUmdTOHZ1X1JXM05HZVJ5MA?oc=5",
+        "title": "10 Best AI-Powered Analytics Tools for Ecommerce in 2026: Chat Interfaces, Autonomous Analysts and Vertical Tools Compared - Ask Luca",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1aYVpPVndBZV9leHQ1N2NObW9TbUNZTVEtT2prTFpocXB2N0ktVGRoSWs0dXdJa1Jid05lNGI0LU91UGN0R1ppYUo2Zm1JdGwxUVR2ZTBoUThfaTNkR2puLUFNdw?oc=5",
         "pool": "google",
         "date": "2026-09-03",
         "by_hand": false
@@ -783,10 +818,24 @@
         "by_hand": false
       },
       {
-        "title": "Ecommerce Evolution: Shopify’s (SHOP) AI-Driven Approach to Retail Success - Yahoo Finance",
+        "title": "K-Beauty’s Best Masks Are Helping Skincare Fans Achieve a True Glass-Skin Glow in Minutes - Yahoo",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUTUzUEwwYzIteVlTcng5Zl9GT3hfTElLcWRGTGVXN09lT01icWhVamUwS1BlREI0YmJCTmdDaW9iRVlKQ0hVOGZ2TTFHY2RhdTFaS3UwelgtT3gxeXY3RnBrTE9RTXRySjFDa3BFWVdMSXo4bTRhdFA2QjB4T2EzNUZuRlBUVFJqQjhtS3RLTko5WGJBbmJseEh3?oc=5",
+        "pool": "google",
+        "date": "2026-09-02",
+        "by_hand": false
+      },
+      {
+        "title": "Ecommerce Evolution: Shopify’s (SHOP) AI-Driven Approach to Retail Success - finance.yahoo.com",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQnNfUW9Pdjhhc2ZBejlUV0lWYmZXRW9KeWxSbjJWLWltODYyQnZGTkpzRE9QOVNUamxuTzFSc1VhcktzWGhSVU5xRnI3QlBTS1c1a0lzTHdEUklzYUw0RDdzNFE0X2FUS3VoX1dWSkRuUDQ2Z0NabkJheVZRUXJOSXhsR0hOajNmYTQ4TUtLUHNWSzlTZTRuYlpmc0FtWXAy?oc=5",
         "pool": "google",
         "date": "2026-09-02",
+        "by_hand": false
+      },
+      {
+        "title": "Meet the K-beauty masks skincare lovers swear by for achieving a true glass skin finish - Sacramento Bee",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAzRUhWam1YWHZYXzlFQlVlMFcwRDBYX003QTZqSzM0WURnYnNudkZveEs3RHJCczBzSUpvMklOeXR3elA4ZVdIc2lDd2RNeEJLeE9RdGNEbVFrTjVhcnFPaUJSNEpNeXpWLWRpcGhQb0ozdU3SAXNBVV95cUxPV1Qwc05zNHBGQmhLclBFVzhrQjQ1bjBZWWFKa25fVllZRXRobkhXZGZpeUplUVFYTjJ4dEpBTDZ1TXVlc3FGT3FOOUl2VFBqdzhYcHRFeEtJV2ExN29TUTVQVVdVTmNwWW9YVHZHSkZ0TDZN?oc=5",
+        "pool": "google",
+        "date": "2026-08-31",
         "by_hand": false
       },
       {
@@ -804,6 +853,13 @@
         "by_hand": false
       },
       {
+        "title": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1pdE5qU2I0OUVRX1ZkOFg1bTdkX0tndjJrVmV6SHk4WWVBT2FDMXBnMjI1SkRFVmR4V1ktMXZoY29NdG1XcWptblhmSW8zc25ZWUxpN1hVTkNZUXJGUTZYZHR2aEl4R211UVFnVU5vUVFyV1VKMldyUE12U1VFd9IBgwFBVV95cUxQXzNCdi0xNzQ1ejZ3RW5zNy03WkZZdFQ5MHhoYWxwMXZENXFzTUJTN0JBU0F2bjVDMHNBU1Q0VjhFMndFS0x4TVBVQVJwbVVsOXFkR2hRMlp0bFRpem5RMHhiWWhVU1hFUVNnNy1UTGt6ZVVUYjhOa2k4SDA0ZVEwQzJURQ?oc=5",
+        "pool": "google",
+        "date": "2026-08-30",
+        "by_hand": false
+      },
+      {
         "title": "K-Beauty Is Everywhere Now: How Korean Skincare Became a Mainstream U.S. Beauty Staple - Woman's World",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPR0hPOFV3NTlQQ2h0LWNDUHBoUTNRZHNDbjllRTNFOHdlQzd5Y20zWmgwWEloVjkwdlpoTEIxcE9YMUwtX1lDazd0LXJUckRBMDhjS1JIV1o0T0l2Y3daZEZiSVBFZElES3lKLWFYVmw4WVlHQ0dKd18xeW1wX3NFN0lJQUxMZjhwbUpPTm9ZclZwZw?oc=5",
         "pool": "google",
@@ -811,7 +867,14 @@
         "by_hand": false
       },
       {
-        "title": "SHOP vs. ADBE: Which Stock Has the Edge in AI-Driven Ecommerce? - Yahoo Finance",
+        "title": "Game over, new routine: Laid-off Xbox manager built her Korean skincare startup before cuts hit - GeekWire",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSmd3bV80NzFvZlZtOUNnSUF4eTRlQ0VoamFoUlY5aEQ2Q000MmlBVmVTQ3ZuWV9wTmhzWXROSWNyaDNuQ0JrTFdEczljM0JlbTBtdFBZbnhtakNaWHBTZTBGWDFzbDJURU1ESi1mano4T21KMHV0ZEQwOFI3aWI3Q2lTbzhPSmw5dEp6cGZVXzhadW5GNTRNaVhhMEhIdjY0czMwTmN4aUlpVWNYTmV5ZnNxWkdlcUZFUUhoNEdId3gxZw?oc=5",
+        "pool": "google",
+        "date": "2026-08-28",
+        "by_hand": false
+      },
+      {
+        "title": "SHOP vs. ADBE: Which Stock Has the Edge in AI-Driven Ecommerce? - finance.yahoo.com",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPczlRZTVPTlpYTHNGbFFVaGQzbXRLSF83VDZWemlkbE1DOUpUNlpKLUUzLTFJSTRTaEdhRXZ5X21xeExTdlM1ZXhIUXNNNHczRld2Q2pOZVNuMXZoS3hEbDVUM1BfQ3I0UEJSS21iMGxzVzZ0UU40cjlFOXBoMFBvTTZVa2NYSlNkSWF3bVBYZ28wZw?oc=5",
         "pool": "google",
         "date": "2026-08-28",
@@ -829,69 +892,6 @@
         "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA3Y2ZRR0YyT1RTSXFnT2R1M2R4RGdBMzdXSEFGcDg3V2dKX3dnS3dOdXNNUXZzakhkSDFsZllvTXlsOXVQdWROSEFNUDdpYlA1SDc4RmFaVWFLVzgzUGtXMnkyYUxEWEV5a0NqNE90cENyMTJ4dVFLSWlKRGjSAXxBVV95cUxPcUJTSmtsZDhHR0FvUlNpVDl1bkZPcHJiaFJIN0xCNnRCaWZLUGZIWVpzY2llSVdkQnhPMzA5Yk1tWGtJN3k1LW14dkF4NTExeFk2T0JuMVQ3ZWVEbjl5NklwMTd1cVZoenBJUmJVVWFnbTZQSzc3VFY1Vm9S?oc=5",
         "pool": "google",
         "date": "2026-08-27",
-        "by_hand": false
-      },
-      {
-        "title": "The New Galaxy Z Series Earns Strong Early Reviews From European Consumers",
-        "url": "https://news.samsung.com/global/the-new-galaxy-z-series-earns-strong-early-reviews-from-european-consumers",
-        "pool": "institutions",
-        "date": "2026-08-26",
-        "by_hand": false
-      },
-      {
-        "title": "Smoking and vaping trends among active-duty U.S. Navy and Marine Corps personnel: results from the Annual Periodic Health Assessment, 2017-2021",
-        "url": "https://doi.org/10.1093/ntr/ntag188",
-        "pool": "institutions",
-        "date": "2026-08-26",
-        "by_hand": false
-      },
-      {
-        "title": "Ecommerce Content Strategy: Enterprise Guide (2026) - Shopify",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE03RUZ3UkJFbTlsV1JFSEJyOEZlWUY5TlFQd2RBU2FIS1hYbHhHc3VaUnB0dmItVmlPSTNaNDNZQ1o1c1ozNWFoYWxFX29vaFJ3cXpfQTJ5d3A2MU90TDhMMVpabGpxVWctWWxLTHI1d1JFVUhY?oc=5",
-        "pool": "google",
-        "date": "2026-08-26",
-        "by_hand": false
-      },
-      {
-        "title": "Shopify Payments in the United Arab Emirates now available on the Advanced plan",
-        "url": "https://changelog.shopify.com/posts/shopify-payments-in-the-united-arab-emirates-available-on-shopify-advanced-plan",
-        "pool": "design_refs",
-        "date": "2026-08-26",
-        "by_hand": false
-      },
-      {
-        "title": "This £60 K-beauty kit is the easiest way to build an entire 8-step skincare routine from scratch - Woman & Home",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVEFxUTExeGlubm5Ic3F4c0dzMWVTVHNSOW1EWXpQTWMzbG8ybnEyRFEtaUFMVkMwVEtIWGpaT0pHY3BxRUx6WnBKS1k4blNvSHRQX2xkb1MybzFtXzc1dzVrekpJclZ6SHJZUnFQM0ZHMngtTG9iZGlJMmNfQlB5ckdQdTA?oc=5",
-        "pool": "google",
-        "date": "2026-08-25",
-        "by_hand": false
-      },
-      {
-        "title": "Review Shopify Payments balance activity with the new activity report",
-        "url": "https://changelog.shopify.com/posts/review-shopify-payments-balance-activity-with-the-new-activity-report",
-        "pool": "design_refs",
-        "date": "2026-08-22",
-        "by_hand": false
-      },
-      {
-        "title": "14 Best Korean Beauty Products For Acne, According To K-Beauty Experts - Coveteur",
-        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9OV2s5SXhSM1NiZ0JYcm5PVm11clFHYzNsOFFaVG1kNlA0cUNmRjNqY3lScm1CR1pYR1pLcFBia2pzbEVZTkppbGRQanJSbWVLWHNFaUt2WjJaa2ptclhaLVZzb2NZVHRU?oc=5",
-        "pool": "google",
-        "date": "2026-08-21",
-        "by_hand": false
-      },
-      {
-        "title": "12 best Korean skincare products, tested by a beauty writer - The Independent",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdFIwOHEtZzJHSVppZnlwN1ZjZk9SWC1ENWR6TmR6OEN2R3NfTHNicUJjY3dZZTduOHhRMzRKeHZKN0JBV256b2VFZnBJdm5BRV8xMWpDTno0X2d0dVVtSnFGZkJaTmVXcF9iSUVST3M2MWFwbm9FSkZpSkVEVVhERFBEOU8zNWJMUFNwTG4tdFlVMkFtNTF1aEctSHRpVWpLU3VmMmNHS3Q1OXlmZDluaTJEUQ?oc=5",
-        "pool": "google",
-        "date": "2026-08-21",
-        "by_hand": false
-      },
-      {
-        "title": "Best eCommerce Development Service Companies in USA - ClickPost",
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE51cHZ6NTJfMTQ0QllLb1Q3X2hod3llUmxsRWpDX01WRjVod25LbG44NW4ySE9qNnFwMzRLeFRycEJGTGlQS0VrVFJWQjhUSThGX2tjVGNocUdWUXdOUlFDYnJ0Z1dKUQ?oc=5",
-        "pool": "google",
-        "date": "2026-08-21",
         "by_hand": false
       }
     ],
@@ -974,17 +974,10 @@
         "by_hand": false
       },
       {
-        "title": "Straight from Seoul, these are the best Korean skincare products worth the hype - New York Post",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5VSXBtZUQ1VW5vZnhFTFdkR1NRcGZKWFhvN19ac0ljLXdhUUlXaHBSOXAybVpobUZLU2JST1N2bmxzdEk4OXpIcDZOMU1MZk96WXRNMDQ5cE5BbWFOVXczMHNHWldaN3A2czI5d3lwRlNKODdNb09J?oc=5",
+        "title": "K-beauty: top 10 innovative launches spotted at Cosmobeauty Seoul 2026 - Premium Beauty News",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1na3Q5UzFpZk02M1lSWWF3NmZyWWxiaXRudHc3blhnR0tCVGRicWlxQmtsbWJOVmtqSTdkVHZlejV3clZpeXk0bDJZNzdEc3dZMHdsN2NZQWVkVTNqOURiSEFsN2dPZ21SNktjaFpCQmMtN0RrdE51Sg?oc=5",
         "pool": "google",
-        "date": "2026-06-05",
-        "by_hand": false
-      },
-      {
-        "title": "Seoul Travel Haul: All the Beauty Products I Brought Home - The Daily Beast",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUWNydzdmSGpWZFFKVVZzaWxnejhoalhXQ2ZpTWhpSmk4Z1A0U1RxdUhjWl9tRkxnMV9HaFFYUTFxWGZJdE5FUDJMbFhPT2ZxNkQxLWtTUHFKSC1vZUhSMHBxY3JmcjRTZW9EdjZrdDdONDRQSEFMX2RkMnpra2doZkNxZnJvdWM?oc=5",
-        "pool": "google",
-        "date": "2026-03-26",
+        "date": "2026-06-06",
         "by_hand": false
       },
       {
@@ -1071,6 +1064,13 @@
         "url": "https://doi.org/10.11113/intrest.v20n1.436",
         "pool": "institutions",
         "date": "2026-06-30",
+        "by_hand": false
+      },
+      {
+        "title": "7 Best Ecommerce Analytics Platforms for DTC Brands: Features, Pricing, and ROI Compared (2026) - Ask Luca",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9rZktSWEpid3RqbWs0cmc4Q0pULWZNdGh6cVpxZVdFOHVMOXB5N3dNT0dqN0NlWlNyOEtUWm0yeFZMLTF6LW53TzFJVVRCVkFQUHNycldlX2JzY0hLZElkOTVmZXpyTVE?oc=5",
+        "pool": "google",
+        "date": "2026-02-27",
         "by_hand": false
       },
       {
@@ -1934,6 +1934,20 @@
     ],
     "robotics": [
       {
+        "title": "Why RaaS needs more than a subscription model",
+        "url": "https://www.therobotreport.com/why-raas-needs-more-than-a-subscription-model/",
+        "pool": "robotics",
+        "date": "2026-09-14",
+        "by_hand": false
+      },
+      {
+        "title": "Report covers advances in surgical robots, deploying warehouse automation in the real world",
+        "url": "https://www.therobotreport.com/report-covers-surgical-robot-advances-deploying-warehouse-automation-real-world/",
+        "pool": "robotics",
+        "date": "2026-09-14",
+        "by_hand": false
+      },
+      {
         "title": "Arm to discuss scaling physical AI at RoboBusiness",
         "url": "https://www.therobotreport.com/arm-to-discuss-scaling-physical-ai-at-robobusiness/",
         "pool": "robotics",
@@ -2034,20 +2048,6 @@
       {
         "title": "Unitree shares down 53% from IPO debut",
         "url": "https://www.therobotreport.com/unitree-shares-down-53-from-ipo-debut/",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "AGIBOT to explain how to scale humanoids from the lab to the real world at RoboBusiness",
-        "url": "https://www.therobotreport.com/agibot-share-plans-scale-humanoids-from-lab-to-real-world-at-robobusiness/",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Vention opens Physical AI Lab for manufacturing in Montreal",
-        "url": "https://www.therobotreport.com/vention-opens-physical-ai-lab-manufacturing-montreal/",
         "pool": "robotics",
         "date": "2026-09-09",
         "by_hand": false
@@ -2482,13 +2482,6 @@
         "by_hand": false
       },
       {
-        "title": "Evaluation-First AI Agents: How Zepto Scales Customer Support on Databricks and MLflow",
-        "url": "https://www.databricks.com/blog/evaluation-first-ai-agents-how-zepto-scales-customer-support-databricks-and-mlflow",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
         "title": "Create and delete dev stores in Shopify CLI",
         "url": "https://shopify.dev/changelog/create-and-delete-dev-stores-in-shopify-cli",
         "pool": "design_refs",
@@ -2774,6 +2767,13 @@
         "pool": "institutions",
         "date": "2026-07-31",
         "by_hand": false
+      },
+      {
+        "title": "Implementing LLMs in clinical practice from unstructured and semistructured electronic record data to analysis ready data sets in central nervous system tumors",
+        "url": "https://doi.org/10.1007/s44337-026-00631-7",
+        "pool": "institutions",
+        "date": "2026-07-31",
+        "by_hand": false
       }
     ],
     "institutions": [
@@ -2806,6 +2806,13 @@
         "by_hand": false
       },
       {
+        "title": "Announcing On-Demand State Repartitioning for Apache Spark™ Structured Streaming on Databricks",
+        "url": "https://www.databricks.com/blog/announcing-demand-state-repartitioning-apache-sparktm-structured-streaming-databricks",
+        "pool": "institutions",
+        "date": "2026-09-14",
+        "by_hand": false
+      },
+      {
         "title": "Leidos to keep 650,000 Navy and Marine Corps personnel securely connected worldwide",
         "url": "https://investors.leidos.com/news-releases/news-release-details/leidos-keep-650000-navy-and-marine-corps-personnel-securely",
         "pool": "institutions",
@@ -2822,6 +2829,27 @@
       {
         "title": "Summer Review Fall Preview Market Insights",
         "url": "https://www.goldmansachs.com/what-we-do/ayco/insights/summer-review-fall-preview-market-insights",
+        "pool": "institutions",
+        "date": "2026-09-14",
+        "by_hand": false
+      },
+      {
+        "title": "Future Of Superannuation Report",
+        "url": "https://www.jpmorgan.com/insights/securities-services/future-of-superannuation-report",
+        "pool": "institutions",
+        "date": "2026-09-14",
+        "by_hand": false
+      },
+      {
+        "title": "Ai Powered B2B Fraud Is Forcing Companies To Rethink Trust",
+        "url": "https://www.jpmorgan.com/insights/fraud/fraud-prevention/ai-powered-b2b-fraud-is-forcing-companies-to-rethink-trust",
+        "pool": "institutions",
+        "date": "2026-09-14",
+        "by_hand": false
+      },
+      {
+        "title": "Markets And Economy",
+        "url": "https://www.jpmorgan.com/insights/markets-and-economy",
         "pool": "institutions",
         "date": "2026-09-14",
         "by_hand": false
@@ -3002,6 +3030,13 @@
         "by_hand": false
       },
       {
+        "title": "Bain Capitals David Gross On Global Opportunities And Private Equitys Evolution",
+        "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/bain-capitals-david-gross-on-global-opportunities-and-private-equitys-evolution",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
         "title": "How Automation Impacts The Lives And Careers Of Displaced Workers",
         "url": "https://www.goldmansachs.com/insights/articles/how-automation-impacts-the-lives-and-careers-of-displaced-workers",
         "pool": "institutions",
@@ -3018,13 +3053,6 @@
       {
         "title": "What A Fed Rate Hike Could Mean For Us Stocks",
         "url": "https://www.goldmansachs.com/insights/the-markets/what-a-fed-rate-hike-could-mean-for-us-stocks",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "Bain Capitals David Gross On Global Opportunities And Private Equitys Evolution",
-        "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/bain-capitals-david-gross-on-global-opportunities-and-private-equitys-evolution",
         "pool": "institutions",
         "date": "2026-09-11",
         "by_hand": false
@@ -3107,6 +3135,13 @@
         "by_hand": false
       },
       {
+        "title": "Financing Resilience Energy Supply Disruption",
+        "url": "https://www.jpmorgan.com/insights/treasury/trade-working-capital/financing-resilience-energy-supply-disruption",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
         "title": "Global Healthcare Conference",
         "url": "https://www.morganstanley.com/insights/themes/global-healthcare-conference",
         "pool": "institutions",
@@ -3160,41 +3195,6 @@
         "url": "https://doi.org/10.1007/s12072-026-11142-z",
         "pool": "institutions",
         "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "In Response to: Mental Health Diagnosis Counts Need Care‐Pathway Measures in Pregnancy",
-        "url": "https://doi.org/10.1111/ppe.70202",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
-        "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Now everyone can put data to work",
-        "url": "https://openai.com/index/put-data-to-work",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Introducing ChatGPT for Financial Services",
-        "url": "https://openai.com/index/introducing-chatgpt-financial-services",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
-        "url": "https://openai.com/index/expanding-ai-access-us-government",
-        "pool": "institutions",
-        "date": "2026-09-10",
         "by_hand": false
       }
     ]

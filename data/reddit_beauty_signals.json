@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-15T00:15:36.569776+00:00",
+  "collected_at": "2026-09-15T07:10:48.291251+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -45,26 +45,30 @@
   "hot_keywords": [
     {
       "keyword": "september",
-      "score": 5
+      "score": 7
     },
     {
       "keyword": "2026",
-      "score": 5
+      "score": 7
     },
     {
-      "keyword": "glass",
+      "keyword": "new",
       "score": 4
+    },
+    {
+      "keyword": "masks",
+      "score": 4
+    },
+    {
+      "keyword": "cream",
+      "score": 3
     },
     {
       "keyword": "makeup",
       "score": 3
     },
     {
-      "keyword": "new",
-      "score": 3
-    },
-    {
-      "keyword": "monday",
+      "keyword": "monthly",
       "score": 2
     },
     {
@@ -72,7 +76,15 @@
       "score": 2
     },
     {
-      "keyword": "faves",
+      "keyword": "face",
+      "score": 2
+    },
+    {
+      "keyword": "reviews",
+      "score": 2
+    },
+    {
+      "keyword": "review",
       "score": 2
     },
     {
@@ -84,19 +96,7 @@
       "score": 2
     },
     {
-      "keyword": "cream",
-      "score": 2
-    },
-    {
-      "keyword": "review",
-      "score": 2
-    },
-    {
-      "keyword": "masks",
-      "score": 2
-    },
-    {
-      "keyword": "beauty",
+      "keyword": "monday",
       "score": 2
     },
     {
@@ -104,15 +104,11 @@
       "score": 2
     },
     {
-      "keyword": "products",
-      "score": 2
-    },
-    {
       "keyword": "sunscreen",
       "score": 2
     },
     {
-      "keyword": "skin",
+      "keyword": "glass",
       "score": 2
     },
     {
@@ -133,6 +129,10 @@
     },
     {
       "keyword": "questions",
+      "score": 1
+    },
+    {
+      "keyword": "anti-haul",
       "score": 1
     },
     {
@@ -172,53 +172,49 @@
       "score": 1
     },
     {
+      "keyword": "faves",
+      "score": 1
+    },
+    {
+      "keyword": "months",
+      "score": 1
+    },
+    {
+      "keyword": "missha",
+      "score": 1
+    },
+    {
+      "keyword": "spoiler",
+      "score": 1
+    },
+    {
+      "keyword": "alert",
+      "score": 1
+    },
+    {
+      "keyword": "looks",
+      "score": 1
+    },
+    {
+      "keyword": "terrible",
+      "score": 1
+    },
+    {
       "keyword": "those",
-      "score": 1
-    },
-    {
-      "keyword": "who",
-      "score": 1
-    },
-    {
-      "keyword": "wear",
-      "score": 1
-    },
-    {
-      "keyword": "slightly",
-      "score": 1
-    },
-    {
-      "keyword": "enlarging",
-      "score": 1
-    },
-    {
-      "keyword": "lenses",
-      "score": 1
-    },
-    {
-      "keyword": "big",
-      "score": 1
-    },
-    {
-      "keyword": "difference",
       "score": 1
     }
   ],
   "beauty_keywords": [
     {
-      "keyword": "glass",
-      "score": 4
-    },
-    {
       "keyword": "masks",
-      "score": 2
+      "score": 4
     },
     {
       "keyword": "sunscreen",
       "score": 2
     },
     {
-      "keyword": "skin",
+      "keyword": "glass",
       "score": 2
     }
   ],
@@ -231,9 +227,9 @@
       "feed": "hot"
     },
     {
-      "title": "Makeup Monday September 14, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfsum9/makeup_monday_september_14_2026/",
-      "published": "2026-09-14T04:00:21+00:00",
+      "title": "Anti-Haul Monthly September 15, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wgpkra/antihaul_monthly_september_15_2026/",
+      "published": "2026-09-15T04:00:10+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -252,9 +248,37 @@
       "feed": "hot"
     },
     {
+      "title": "this months face masks reviews",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wgsj35/this_months_face_masks_reviews/",
+      "published": "2026-09-15T06:32:50+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Missha bb cream review. Spoiler alert, it looks TERRIBLE on me.",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wg2xr4/missha_bb_cream_review_spoiler_alert_it_looks/",
+      "published": "2026-09-14T13:07:03+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "For those who wear slightly enlarging lenses how big of a difference do you think it makes on your face overall?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wge57e/for_those_who_wear_slightly_enlarging_lenses_how/",
       "published": "2026-09-14T19:53:46+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Histolab bb cream",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wgn59j/histolab_bb_cream/",
+      "published": "2026-09-15T02:04:19+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "New Brand Discovery Monthly September 15, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wgpkr4/new_brand_discovery_monthly_september_15_2026/",
+      "published": "2026-09-15T04:00:09+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -266,13 +290,6 @@
       "feed": "hot"
     },
     {
-      "title": "Stylevana - no point of insurance with lost parcels (UK)",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfwzo2/stylevana_no_point_of_insurance_with_lost_parcels/",
-      "published": "2026-09-14T07:48:55+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
       "title": "Favourite mist over makeup",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wg4071/favourite_mist_over_makeup/",
       "published": "2026-09-14T13:50:27+00:00",
@@ -280,9 +297,9 @@
       "feed": "hot"
     },
     {
-      "title": "Missha bb cream review. Spoiler alert, it looks TERRIBLE on me.",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wg2xr4/missha_bb_cream_review_spoiler_alert_it_looks/",
-      "published": "2026-09-14T13:07:03+00:00",
+      "title": "Stylevana - no point of insurance with lost parcels (UK)",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfwzo2/stylevana_no_point_of_insurance_with_lost_parcels/",
+      "published": "2026-09-14T07:48:55+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -336,6 +353,13 @@
       "feed": "hot"
     },
     {
+      "title": "Makeup Monday September 14, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfsum9/makeup_monday_september_14_2026/",
+      "published": "2026-09-14T04:00:21+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Douyin-style (inspired?) makeup",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1weta6s/douyinstyle_inspired_makeup/",
       "published": "2026-09-13T00:46:28+00:00",
@@ -367,34 +391,6 @@
       "title": "Teso Life opening 60+ new stores across the US soon",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wehvva/teso_life_opening_60_new_stores_across_the_us_soon/",
       "published": "2026-09-12T17:01:10+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "peripera glass heart oos??",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfnwsy/peripera_glass_heart_oos/",
-      "published": "2026-09-14T00:04:50+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Beauty products from each asian country",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wez3wl/beauty_products_from_each_asian_country/",
-      "published": "2026-09-13T05:40:07+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "My current faves for sensitive acne prone dry skin",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wesht8/my_current_faves_for_sensitive_acne_prone_dry_skin/",
-      "published": "2026-09-13T00:09:00+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Best way to fade recent sunspots?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wexstw/best_way_to_fade_recent_sunspots/",
-      "published": "2026-09-13T04:29:55+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

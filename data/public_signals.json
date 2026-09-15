@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T00:20:07.064479+00:00",
+  "generated_at": "2026-09-15T07:15:24.267931+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "law and order svu",
+          "keyword": "latest news",
+          "approx_traffic": "10000+",
+          "traffic_num": 10000,
+          "published": "Mon, 14 Sep 2026 23:20:00 -0700",
+          "source_name": "The New York Times",
+          "url": "https://trends.google.com/trending?geo=US&q=latest%20news"
+        },
+        {
+          "keyword": "stock market today",
           "approx_traffic": "5000+",
           "traffic_num": 5000,
-          "published": "Mon, 14 Sep 2026 17:00:00 -0700",
-          "source_name": "People.com",
-          "url": "https://trends.google.com/trending?geo=US&q=law%20and%20order%20svu"
+          "published": "Mon, 14 Sep 2026 23:50:00 -0700",
+          "source_name": "Yahoo Finance",
+          "url": "https://trends.google.com/trending?geo=US&q=stock%20market%20today"
         },
         {
-          "keyword": "dick wolf",
+          "keyword": "technology news",
+          "approx_traffic": "5000+",
+          "traffic_num": 5000,
+          "published": "Mon, 14 Sep 2026 23:30:00 -0700",
+          "source_name": "The New York Times",
+          "url": "https://trends.google.com/trending?geo=US&q=technology%20news"
+        },
+        {
+          "keyword": "what is a data breach",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Mon, 14 Sep 2026 17:00:00 -0700",
-          "source_name": "TVLine",
-          "url": "https://trends.google.com/trending?geo=US&q=dick%20wolf"
+          "published": "Mon, 14 Sep 2026 22:00:00 -0700",
+          "source_name": "Reuters",
+          "url": "https://trends.google.com/trending?geo=US&q=what%20is%20a%20data%20breach"
         },
         {
-          "keyword": "laura rutledge",
+          "keyword": "cryptocurrency trading",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Mon, 14 Sep 2026 17:00:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=laura%20rutledge"
+          "published": "Mon, 14 Sep 2026 22:00:00 -0700",
+          "source_name": "U.Today",
+          "url": "https://trends.google.com/trending?geo=US&q=cryptocurrency%20trading"
         },
         {
-          "keyword": "padres vs rockies",
+          "keyword": "artificial intelligence news",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Mon, 14 Sep 2026 16:50:00 -0700",
-          "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=padres%20vs%20rockies"
+          "published": "Mon, 14 Sep 2026 22:00:00 -0700",
+          "source_name": "NBC News",
+          "url": "https://trends.google.com/trending?geo=US&q=artificial%20intelligence%20news"
         },
         {
-          "keyword": "matthew rhys",
+          "keyword": "sports scores today",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Mon, 14 Sep 2026 16:50:00 -0700",
-          "source_name": "Vogue",
-          "url": "https://trends.google.com/trending?geo=US&q=matthew%20rhys"
-        },
-        {
-          "keyword": "sean payton",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Mon, 14 Sep 2026 17:00:00 -0700",
-          "source_name": "NFL Rumors - ProFootballRumors.com",
-          "url": "https://trends.google.com/trending?geo=US&q=sean%20payton"
-        },
-        {
-          "keyword": "amy poehler",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Mon, 14 Sep 2026 17:00:00 -0700",
-          "source_name": "Yahoo",
-          "url": "https://trends.google.com/trending?geo=US&q=amy%20poehler"
-        },
-        {
-          "keyword": "dave chappelle",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Mon, 14 Sep 2026 17:00:00 -0700",
-          "source_name": "WLKY",
-          "url": "https://trends.google.com/trending?geo=US&q=dave%20chappelle"
-        },
-        {
-          "keyword": "ludacris",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Mon, 14 Sep 2026 17:00:00 -0700",
-          "source_name": "Bergen Record",
-          "url": "https://trends.google.com/trending?geo=US&q=ludacris"
-        },
-        {
-          "keyword": "kahlil benson",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Mon, 14 Sep 2026 17:00:00 -0700",
+          "published": "Mon, 14 Sep 2026 23:20:00 -0700",
           "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=kahlil%20benson"
+          "url": "https://trends.google.com/trending?geo=US&q=sports%20scores%20today"
+        },
+        {
+          "keyword": "tennis scores today",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Mon, 14 Sep 2026 22:10:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=tennis%20scores%20today"
+        },
+        {
+          "keyword": "zim vs aus",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Mon, 14 Sep 2026 23:50:00 -0700",
+          "source_name": "Cricinfo",
+          "url": "https://trends.google.com/trending?geo=US&q=zim%20vs%20aus"
+        },
+        {
+          "keyword": "kurt warner",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Mon, 14 Sep 2026 22:20:00 -0700",
+          "source_name": "Washington Times",
+          "url": "https://trends.google.com/trending?geo=US&q=kurt%20warner"
         }
       ]
     },
@@ -187,6 +187,11 @@
       "source": "allure.com/feed/rss",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
       "items": [
+        {
+          "title": "Mariska Hargitay's 2026 Emmys Hair Was a Subtle Tribute to Her Mom—See the Photos",
+          "published": "Tue, 15 Sep 2026 01:16:39 +0000",
+          "url": "https://www.allure.com/story/mariska-hargitay-emmys-2026-hair"
+        },
         {
           "title": "Nicole Kidman's Curtain Bangs Swept the Emmys 2026 Red Carpet—See the Photos",
           "published": "Tue, 15 Sep 2026 00:00:25 +0000",
@@ -331,11 +336,6 @@
           "title": "What’s Going On With Your Favorite 2016 Beauty YouTubers?",
           "published": "Wed, 09 Sep 2026 12:00:00 +0000",
           "url": "https://www.allure.com/story/2016-beauty-youtubers-interview"
-        },
-        {
-          "title": "Florence Pugh Elevated the Messiest Bun With the Fanciest Scarf — See Photos",
-          "published": "Tue, 08 Sep 2026 18:05:43 +0000",
-          "url": "https://www.allure.com/story/florence-pugh-messy-bun-scarf"
         }
       ]
     },

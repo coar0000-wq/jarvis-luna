@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-15T04:58:29.619275+00:00",
-  "real_records": 3282,
+  "updated_at": "2026-09-15T07:14:48.077785+00:00",
+  "real_records": 3289,
   "source_labels": {
     "ai-image": 111,
-    "ai-research": 2895,
+    "ai-research": 2902,
     "shopify-commerce-image": 276
   },
-  "corpus_sha256": "616b6446c4e1c4a8f4b0185f40ebfc1fe0167a7e62b7c671b018fb790ea4da0f",
+  "corpus_sha256": "178fc89e90b59d4dd83ac59d7e2772da0a2796bbf1c59977f89c8210c3bb5549",
   "training_performed": true,
   "weights_updated": true,
   "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
@@ -14,17 +14,29 @@
   "top_k_inference": 2,
   "model_file": "data/knowledge/real_knowledge_moe.npz",
   "compatibility_model_file": "data/knowledge/real_knowledge_router.npz",
-  "training_accuracy_on_corpus": 0.8820840950639853,
+  "training_accuracy_on_corpus": 0.8823350562480997,
   "mean_gate_load": [
     0.278967,
     0.32271,
     0.398322
   ],
-  "note": "This is a text knowledge-routing MoE, not an image foundation model.",
-  "trained_corpus_sha256": "616b6446c4e1c4a8f4b0185f40ebfc1fe0167a7e62b7c671b018fb790ea4da0f",
+  "note": "실제 수집 데이터 누적 코퍼스. URL 기준 중복 제거하며 기존 레코드는 보존한다. 가중치 갱신은 학습기가 별도로 수행한다.",
+  "trained_corpus_sha256": "178fc89e90b59d4dd83ac59d7e2772da0a2796bbf1c59977f89c8210c3bb5549",
   "tuning_promoted": true,
   "tuning_steps": 500,
-  "tuning_validation_accuracy": 0.8881685575364667,
-  "tuning_final_loss": 0.4033136686366869,
-  "tuning_gate_load_std": 0.14436378935047178
+  "tuning_validation_accuracy": 0.8885298869143781,
+  "tuning_final_loss": 0.4024665544110021,
+  "tuning_gate_load_std": 0.1458452159213656,
+  "records_before": 3282,
+  "records_added": 7,
+  "source_status": {
+    "arxiv": "skipped",
+    "robotics": "ok",
+    "institutions": "ok",
+    "organic_skincare": "ok",
+    "google": "ok",
+    "us_beauty": "ok"
+  },
+  "corpus": "data/knowledge/training_corpus.jsonl",
+  "말뭉치": "바뀌었다. 지금 가중치는 이 말뭉치로 학습한 것이 아니다. 학습기가 돌아야 다시 참이 된다."
 }
