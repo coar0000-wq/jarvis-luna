@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-09-15T19:59:30.646061+09:00",
+    "updated_at": "2026-09-15T20:20:06.105560+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -406,6 +406,7 @@
       "us_example_count": 3,
       "gemini_tags": [
         "centella ampoule",
+        "facial ampoule",
         "glow ampoule",
         "hydrating ampoule",
         "korean skincare"
@@ -451,9 +452,9 @@
       "gemini_tags": [
         "calming toner",
         "cica toner",
-        "face toner",
         "facial toner",
-        "hydrating toner"
+        "heartleaf toner",
+        "korean toner"
       ],
       "linked_s_products": [
         "[퀵시카진정]VT 시카 카밍 토너 300 ml",
@@ -578,7 +579,6 @@
       "gemini_tags": [
         "collagen cream",
         "face cream",
-        "hydrating cream",
         "korean skincare",
         "pdrn cream"
       ],
@@ -657,6 +657,7 @@
         "collagen mask",
         "face mask",
         "firming mask",
+        "korean beauty",
         "sheet mask"
       ],
       "linked_s_products": [
@@ -696,7 +697,9 @@
         }
       ],
       "us_example_count": 3,
-      "gemini_tags": [],
+      "gemini_tags": [
+        "heartleaf toner"
+      ],
       "linked_s_products": [
         "채비공간 어성초 추출물 비건 토너 150 ml"
       ],
@@ -708,7 +711,7 @@
       "rank": 1,
       "pd_no": "1048583",
       "name": "드롭비 탄탄 광채 앰플 40 ml",
-      "name_en": "Drop B Firming Glow Ampoule 40 ml",
+      "name_en": "Drop B Firming Glow Ampoule 40ml",
       "bucket": "스킨케어",
       "score": 97,
       "rating": 4.8,
@@ -720,12 +723,12 @@
       "margin_pct": null,
       "shopify_action": "1차 등록",
       "ad_keywords": [
-        "drop-b",
-        "glow-ampoule",
-        "face-serum",
-        "korean-skincare",
         "k-beauty",
-        "hydrating-ampoule"
+        "face-serum",
+        "glow-ampoule",
+        "korean-skincare",
+        "drop-b",
+        "hydrating-serum"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "listing_ready": true,
@@ -747,12 +750,12 @@
       "margin_pct": null,
       "shopify_action": "1차 등록",
       "ad_keywords": [
-        "vt-cosmetics",
+        "vt-cica",
         "cica-toner",
         "calming-toner",
-        "korean-skincare",
+        "korean-toner",
         "facial-toner",
-        "hydrating-toner"
+        "k-beauty"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "listing_ready": true,
@@ -775,11 +778,11 @@
       "shopify_action": "1차 등록",
       "ad_keywords": [
         "k-beauty",
-        "sikmulnara",
+        "facial-ampoule",
         "centella-ampoule",
-        "face-serum",
-        "skincare",
-        "korean-skincare"
+        "korean-skincare",
+        "sikmulnara",
+        "hydrating-ampoule"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "listing_ready": true,
@@ -806,7 +809,7 @@
         "collagen-cream",
         "korean-skincare",
         "face-cream",
-        "hydrating-cream"
+        "moisturizer"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "listing_ready": true,
@@ -831,7 +834,7 @@
         "celderma",
         "collagen-mask",
         "sheet-mask",
-        "k-beauty",
+        "korean-beauty",
         "face-mask",
         "firming-mask"
       ],
@@ -843,7 +846,7 @@
       "rank": 6,
       "pd_no": "1041403",
       "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-      "name_en": "Chaebi Gongan Houttuynia Cordata Extract Vegan Toner 150 ml",
+      "name_en": "Chaebi Gongan Heartleaf Extract Vegan Toner 150ml",
       "bucket": "스킨케어",
       "score": 90,
       "rating": 4.8,
@@ -856,11 +859,11 @@
       "shopify_action": "2차 검토",
       "ad_keywords": [
         "vegan-toner",
+        "heartleaf-toner",
+        "korean-toner",
         "k-beauty",
-        "houttuynia-cordata",
-        "face-toner",
-        "hydrating-toner",
-        "korean-skincare"
+        "facial-toner",
+        "skincare"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "listing_ready": true,
@@ -868,42 +871,6 @@
     }
   ],
   "competitor_watch": [
-    {
-      "name": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
-      "brand": "Dr.Althea",
-      "price_usd": 27.0,
-      "rating": 4.8,
-      "review_count": 1635,
-      "us_rank": 3,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 3위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA73639757",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
-      "brand": "AESTURA",
-      "price_usd": 32.0,
-      "rating": 5,
-      "review_count": 2,
-      "us_rank": 4,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 4위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA71026007",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "[7types] MEDIHEAL Toner Pad 100+100ct Double Set",
-      "brand": "MEDIHEAL",
-      "price_usd": 39.99,
-      "rating": 4.8,
-      "review_count": 15873,
-      "us_rank": 5,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 5위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA32407466",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
     {
       "name": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
       "brand": "MEDIHEAL",
@@ -938,6 +905,42 @@
       "daiso_bucket": "마스크팩",
       "why": "us.oliveyoung.com/best-sellers 실수집 25위 · 마스크팩 동일 포지션",
       "url": "https://us.oliveyoung.com/products/UA84178713",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
+      "brand": "Dr.Althea",
+      "price_usd": 27.0,
+      "rating": 4.8,
+      "review_count": 1635,
+      "us_rank": 3,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 3위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA73639757",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+      "brand": "AESTURA",
+      "price_usd": 32.0,
+      "rating": 5,
+      "review_count": 2,
+      "us_rank": 4,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 4위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA71026007",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "[7types] MEDIHEAL Toner Pad 100+100ct Double Set",
+      "brand": "MEDIHEAL",
+      "price_usd": 39.99,
+      "rating": 4.8,
+      "review_count": 15873,
+      "us_rank": 5,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 5위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA32407466",
       "source": "us.oliveyoung.com/best-sellers 실수집"
     }
   ],
