@@ -2,7 +2,7 @@
 title: "Record 20c8e13343 · From-Static-to-Dynamic-Benchmarking-Real-World-Code"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T11:46:21.894480+00:00
+updated_at: 2026-09-15T13:15:49.108789+00:00
 tags: [record, real-data]
 ---
 

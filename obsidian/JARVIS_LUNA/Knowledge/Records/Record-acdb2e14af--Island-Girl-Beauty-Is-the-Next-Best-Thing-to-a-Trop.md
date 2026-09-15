@@ -2,7 +2,7 @@
 title: "Record acdb2e14af · Island-Girl-Beauty-Is-the-Next-Best-Thing-to-a-Trop"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T11:46:21.492224+00:00
+updated_at: 2026-09-15T13:15:48.777902+00:00
 tags: [record, real-data]
 ---
 

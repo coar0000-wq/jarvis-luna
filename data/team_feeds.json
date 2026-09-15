@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T10:52:24.371649+00:00",
+  "generated_at": "2026-09-15T13:09:26.107447+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
@@ -9,23 +9,23 @@
   "summary": {
     "sourcing": {
       "total": 219,
-      "recent": 217,
+      "recent": 218,
       "material": 4,
-      "material_recent": 2,
+      "material_recent": 3,
       "products": 215
     },
     "market": {
-      "total": 450,
+      "total": 451,
       "recent": 42,
-      "material": 450,
+      "material": 451,
       "material_recent": 42,
       "products": 0
     },
     "listing": {
       "total": 15,
-      "recent": 10,
+      "recent": 11,
       "material": 15,
-      "material_recent": 10,
+      "material_recent": 11,
       "products": 0
     },
     "pricing": {
@@ -36,17 +36,17 @@
       "products": 0
     },
     "legal": {
-      "total": 114,
+      "total": 113,
       "recent": 14,
-      "material": 114,
+      "material": 113,
       "material_recent": 14,
       "products": 0
     },
     "design": {
-      "total": 336,
-      "recent": 72,
-      "material": 336,
-      "material_recent": 72,
+      "total": 334,
+      "recent": 70,
+      "material": 334,
+      "material_recent": 70,
       "products": 0
     },
     "robotics": {
@@ -614,6 +614,13 @@
         "by_hand": true
       },
       {
+        "title": "The Legendary Korean Brand – Beauty of Joseon Is Now Exclusively Available at PSP - Georgia Today",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQY3lSbnNfNzlPRjZyd2tndlJqT3lCUEdnQlpkVGVhT1ZHX1VZY1NtNXBvTGZ4REh0dUJtSXlMRWVMWmRXT2VuakxFTUdXcjRQVEEwb3NLMW1BNGdzMlNaLU11QW5kQ1RoOFdtUTRpLU1oMVFBcVI3aGJQMHVDeGpHSFBXNmV1TFVMUk1QZGVtLTluOXlzNE04bjJyV29hOTA5dkdyN2lNRQ?oc=5",
+        "pool": "google",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
         "title": "K-Beauty Arrives at Coles in Skincare Glow-Up - Mirage News",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOc191U2pxYjIya1gyLTFFa3k5b3BuSEs1cVdNbHhVaGMyZ3BxUlY2dWxnajVkbmQ5ejEzQ1FqSS10Vnlid29OM3hWMGdEVVhQUFQ0OFZtQW45UWY0UGRKYm0wVm9aMm9tUGdQYXB1WnlyeGNSYVBkZjJDVVBKamRLb1h4VjFSTkNH?oc=5",
         "pool": "google",
@@ -670,8 +677,8 @@
         "by_hand": false
       },
       {
-        "title": "I Tried the Viral K-Beauty Cream After a Laser Facial — And it Healed My Skin in Half the Time - Yahoo",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSVV0WVVNV0lqaXlZeEhXMF93dTBvTFpUdDhOQlF2S2UwT0hHRWtrV3dERkFac0Zqa2RBWi1tYVJDODlFYXN3MjFXalRwNEhyZlk5SUFrMU9fVTFlOHhLNlJsT0VCTU1GRjhoY3NSTnQ2NEF2OG1KUzkwTS1JemFIQVotbmJBdThUbW5JQUdXSFNCR3FPazdMMQ?oc=5",
+        "title": "From Musinsa to Daiso, K-beauty is rewriting Korea’s retail playbook - The Korea Herald",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5SY082WGxWOEt4ZDNISVVtSTJpNEJhMjNPMnFhOW1uNWEwY19EYTl6RDhxVkFzT0VMU180VkJRaE1QTV96OXRDdE1DcVhaTkVwUHpxU1BjRQ?oc=5",
         "pool": "google",
         "date": "2026-09-14",
         "by_hand": false
@@ -684,22 +691,15 @@
         "by_hand": false
       },
       {
+        "title": "I Tried the Viral K-Beauty Cream After a Laser Facial — And it Healed My Skin in Half the Time - Yahoo",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSVV0WVVNV0lqaXlZeEhXMF93dTBvTFpUdDhOQlF2S2UwT0hHRWtrV3dERkFac0Zqa2RBWi1tYVJDODlFYXN3MjFXalRwNEhyZlk5SUFrMU9fVTFlOHhLNlJsT0VCTU1GRjhoY3NSTnQ2NEF2OG1KUzkwTS1JemFIQVotbmJBdThUbW5JQUdXSFNCR3FPazdMMQ?oc=5",
+        "pool": "google",
+        "date": "2026-09-14",
+        "by_hand": false
+      },
+      {
         "title": "Korean Beauty ODM Shift: Top Three Manufacturers Ramp Up Capacity to Capture Global Skincare Market - finance.biggo.com",
         "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9ZY2ZIWXZGVW8yRzE5TXFDdFZrd3Z0SGtLRm83Ul8wVGYzVEJ2U1hSazBpTENNczNqT2ZJNU8ya0NKaUg5NlBJbm9xa2dmbG5aWS0zVklUY242TUxPOERiWlphZ3JXWUwzVVh1ZUl4YndSODFZMHc?oc=5",
-        "pool": "google",
-        "date": "2026-09-14",
-        "by_hand": false
-      },
-      {
-        "title": "Bephor brings K-Beauty science to the Type 4 hair market - Bizcommunity",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcUlLbEtpSUxKZkFPY2l0ZVNtMER6bElnSjBNckRKdVNNNmJzLWhxTzBMcHpheXgyUHRUUzdERjRZby1HbXQ2ckNJM0FBS2RRZjNPeFpBcTloOF9yZmlEbExKczU4aXR6OUZlMktySy12Q21JdDJHSlhZRWxkYUtaNlhBOEVVeGg1cVJNY19aZEZ4a3pXVmgtVDBFcmdxeC1hSUZB?oc=5",
-        "pool": "google",
-        "date": "2026-09-14",
-        "by_hand": false
-      },
-      {
-        "title": "Beyond glass skin to serious business: Can K-beauty build a lasting business in India? - SME Futures",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb2haV3BsTHVMcURjanhTVmNpNDRNVjZNZ3U1c3Z6clR3alpqTnNaYl85eWhvaVUwVUluNVpGb1kzaDBUVWRvMFVHRXVwYlBUeFdoT1NqbTdqUmtvdFJ2R2VlOGJpdDFmdDZETU1IMEduZ0FOd09INDdIUHhKek1YMG5semcyYi1tR1pxWFB5NE14M2tSWXVEeElOeGw3RV9rTV9IWVlsLWwtWFFF?oc=5",
         "pool": "google",
         "date": "2026-09-14",
         "by_hand": false
@@ -709,6 +709,13 @@
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTTI1NWdMdER4Z1AxUXlpMDJyOF8xb0dabVVCUTRwSDhLYlhDY05ubTFNb0VfTmlUV0tmbDdSVWlIS29VeWJoQm8xcVZyLXdCX0FqdkxsYWVwcmxySnJSU1pWMndhelNHX19Dd1hUbC1KVGhoMzh4Tk43YTN1WkxXSktCQTM?oc=5",
         "pool": "google",
         "date": "2026-09-14",
+        "by_hand": false
+      },
+      {
+        "title": "Mia Korean Skincare Highlights Growing Interest in K-Beauty in Milan - Issuewire.com",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUGkzV1p3dHozWEE5LWlTdmRreHlfYWhfQUluLUVoRHpDM04yQ0lFMnRzQnJOR1lxemM1TWh2WEYzLU5nWnlkTURmZ3c3N2hYaGs5aFJ1UmNFckQyV1lkOWNIdUxVUHVEY3ByR0tkd09jb0dQYlkyQ0paOW9NRzlldExQSnMwdEZtaDBvTnFPNVFFTktDSzNoVkJwYWlJb1RzZkFDalFVS1pDcGdKMzA2bw?oc=5",
+        "pool": "google",
+        "date": "2026-09-12",
         "by_hand": false
       },
       {
@@ -761,7 +768,7 @@
         "by_hand": false
       },
       {
-        "title": "US and UK retailers bet on K-beauty, dermacosmetics and premium care. - personalcareinsights.com",
+        "title": "US and UK retailers bet on K-beauty, dermacosmetics and premium care. - Personal Care Insights",
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA5N2ZIdEFwRWx5ZzJ0aHhib3ZvMHQ5c1o0Z1J5Nm14ZW5wUmpHZ0xKcGhnaVBTVVRFYU81WVFrbUZkQnhNTmxHeGMzQ3dHWHhtc0xxQzVoRkhqNFFWVjR4WGNoT0lhYXktTGhHZ001VHJ1Z282RWpRdGFabG43Zw?oc=5",
         "pool": "google",
         "date": "2026-09-09",
@@ -873,14 +880,7 @@
         "by_hand": false
       },
       {
-        "title": "Ecommerce Evolution: Shopify’s (SHOP) AI-Driven Approach to Retail Success - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQnNfUW9Pdjhhc2ZBejlUV0lWYmZXRW9KeWxSbjJWLWltODYyQnZGTkpzRE9QOVNUamxuTzFSc1VhcktzWGhSVU5xRnI3QlBTS1c1a0lzTHdEUklzYUw0RDdzNFE0X2FUS3VoX1dWSkRuUDQ2Z0NabkJheVZRUXJOSXhsR0hOajNmYTQ4TUtLUHNWSzlTZTRuYlpmc0FtWXAy?oc=5",
-        "pool": "google",
-        "date": "2026-09-02",
-        "by_hand": false
-      },
-      {
-        "title": "Meet the K-beauty masks skincare lovers swear by for achieving a true glass skin finish - Sacramento Bee",
+        "title": "Meet the K-beauty masks skincare lovers swear by for achieving a true glass skin finish - sacbee.com",
         "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAzRUhWam1YWHZYXzlFQlVlMFcwRDBYX003QTZqSzM0WURnYnNudkZveEs3RHJCczBzSUpvMklOeXR3elA4ZVdIc2lDd2RNeEJLeE9RdGNEbVFrTjVhcnFPaUJSNEpNeXpWLWRpcGhQb0ozdU3SAXNBVV95cUxPV1Qwc05zNHBGQmhLclBFVzhrQjQ1bjBZWWFKa25fVllZRXRobkhXZGZpeUplUVFYTjJ4dEpBTDZ1TXVlc3FGT3FOOUl2VFBqdzhYcHRFeEtJV2ExN29TUTVQVVdVTmNwWW9YVHZHSkZ0TDZN?oc=5",
         "pool": "google",
         "date": "2026-08-31",
@@ -966,6 +966,13 @@
         "by_hand": true
       },
       {
+        "title": "The Legendary Korean Brand – Beauty of Joseon Is Now Exclusively Available at PSP - Georgia Today",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQY3lSbnNfNzlPRjZyd2tndlJqT3lCUEdnQlpkVGVhT1ZHX1VZY1NtNXBvTGZ4REh0dUJtSXlMRWVMWmRXT2VuakxFTUdXcjRQVEEwb3NLMW1BNGdzMlNaLU11QW5kQ1RoOFdtUTRpLU1oMVFBcVI3aGJQMHVDeGpHSFBXNmV1TFVMUk1QZGVtLTluOXlzNE04bjJyV29hOTA5dkdyN2lNRQ?oc=5",
+        "pool": "google",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
         "title": "Product variants now support multiple barcodes",
         "url": "https://changelog.shopify.com/posts/multiple-barcodes-in-variants",
         "pool": "design_refs",
@@ -1008,17 +1015,10 @@
         "by_hand": false
       },
       {
-        "title": "K-beauty: top 10 innovative launches spotted at Cosmobeauty Seoul 2026 - premiumbeautynews.com",
+        "title": "K-beauty: top 10 innovative launches spotted at Cosmobeauty Seoul 2026 - Premium Beauty News",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1na3Q5UzFpZk02M1lSWWF3NmZyWWxiaXRudHc3blhnR0tCVGRicWlxQmtsbWJOVmtqSTdkVHZlejV3clZpeXk0bDJZNzdEc3dZMHdsN2NZQWVkVTNqOURiSEFsN2dPZ21SNktjaFpCQmMtN0RrdE51Sg?oc=5",
         "pool": "google",
         "date": "2026-06-06",
-        "by_hand": false
-      },
-      {
-        "title": "The Legendary Korean Brand — Beauty of Joseon Is Now Exclusively Available at PSP - OC Media",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObC1leDhoVVFjNVZ5NmdPYW5zd3RRU1F0aWY1WVRpbUVQYklWb0dFV1l4NjFpWWo0RHpwa3JobWFXTmVaV3ZHWkJRaTFXRlFsaXJIbk9GLWR1MFVDa2lKUDVHekw2dTVtYjc1Wm5UUHk0a1FDVlI1bHpyeVZwbV80RGdtbjl1cXlLSXhwTnpKY2RFaHpwWjlyVTlackdiTHFGbHU0?oc=5",
-        "pool": "us_beauty",
-        "date": "",
         "by_hand": false
       },
       {
@@ -1530,13 +1530,6 @@
         "by_hand": false
       },
       {
-        "title": "Same brand, different SPF: Why Korean sunscreens outperform US versions - The Korea Times",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdXEyV1k2UDNvY01GVEFoVE01MldFRjlqaGlJY3kzRjliamkxcEV3aXFJeS1WRDJpbzI2OGVfTDFoTGR3Ny0tUkNRMXJ0RmJvRktpM2FDN0h4aE1uSHItVVNMWFNycnM1aDR4NW1TUVVQdjRhTmNIUXQxUmlVM253Z2NCNmIwbW9xVHJFLWd0R0tyZ2k4TWtqTzFoeDJUNDE5ZVpfeUZHNWtqNjVsOEhQRjUzSlZ0LTNN0gG-AUFVX3lxTE9teTR0RHBndWpfVGJ2OElRU1NCVDNSaVdZTjcwLWZpcU9ubEJma1FEeU9SbFRmc0hWd3hCTUhoUjlsb05Sek53VlI3RVF4dTI0MlFYRXpScmw4bFM1WVpjVEpnSFMtUllTWm9xYkxkbXVIM2RUaHQ3UlpXcGZJTHMxYkQ4aUlBdmFxQllQZF9YbG9yYVk5ay0yTUlVYTBjS3dZTnlkdzVLRzQxMGkzM0FzOERMOEo3d1RDOURmUnc?oc=5",
-        "pool": "us_beauty",
-        "date": "",
-        "by_hand": false
-      },
-      {
         "title": "FOREVER SKIN GLOW 24h wear radiant foundation Perfection and hydration Concentrated floral skincare with suncreen Broad spectrum SPF 15 00",
         "url": "https://api.fda.gov/drug/label.json?search=id:1f013e61-f171-2ae2-e063-6294a90adcf1",
         "pool": "us_beauty",
@@ -1546,6 +1539,13 @@
       {
         "title": "Olay Regenerist Regenerating with Sunscreen Broad Spectrum SPF 15",
         "url": "https://api.fda.gov/drug/label.json?search=id:46425877-3cf0-6496-e063-6294a90acf37",
+        "pool": "us_beauty",
+        "date": "",
+        "by_hand": false
+      },
+      {
+        "title": "Eminence Radiant Protection SPF Fluid",
+        "url": "https://api.fda.gov/drug/label.json?search=id:2737f1e2-08e3-0e06-e063-6394a90a8159",
         "pool": "us_beauty",
         "date": "",
         "by_hand": false
@@ -1805,13 +1805,6 @@
         "by_hand": false
       },
       {
-        "title": "Beyond glass skin to serious business: Can K-beauty build a lasting business in India? - SME Futures",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb2haV3BsTHVMcURjanhTVmNpNDRNVjZNZ3U1c3Z6clR3alpqTnNaYl85eWhvaVUwVUluNVpGb1kzaDBUVWRvMFVHRXVwYlBUeFdoT1NqbTdqUmtvdFJ2R2VlOGJpdDFmdDZETU1IMEduZ0FOd09INDdIUHhKek1YMG5semcyYi1tR1pxWFB5NE14M2tSWXVEeElOeGw3RV9rTV9IWVlsLWwtWFFF?oc=5",
-        "pool": "google",
-        "date": "2026-09-14",
-        "by_hand": false
-      },
-      {
         "title": "Keep the cart in view on mobile POS",
         "url": "https://changelog.shopify.com/posts/keep-the-cart-in-view-on-mobile-pos",
         "pool": "design_refs",
@@ -1968,6 +1961,13 @@
       {
         "title": "Migrating Shop app from React Native to native",
         "url": "https://shopify.engineering/shop-app-migration",
+        "pool": "design_refs",
+        "date": "2026-09-10",
+        "by_hand": false
+      },
+      {
+        "title": "Native is now the future of mobile at Shopify",
+        "url": "https://shopify.engineering/back-to-native",
         "pool": "design_refs",
         "date": "2026-09-10",
         "by_hand": false

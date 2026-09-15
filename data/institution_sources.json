@@ -1,6 +1,6 @@
 {
-  "collected_at": "2026-09-15T07:09:25.700075+00:00",
-  "total": 1061,
+  "collected_at": "2026-09-15T13:08:56.762480+00:00",
+  "total": 1063,
   "organizations": 35,
   "by_org": {
     "OpenAI": 50,
@@ -19,7 +19,7 @@
     "Booz Allen Hamilton": 35,
     "Mistral AI": 33,
     "Snowflake": 31,
-    "Databricks": 25,
+    "Databricks": 27,
     "Bank of America": 25,
     "Citigroup": 25,
     "UBS": 25,
@@ -42,31 +42,31 @@
   "by_category": {
     "AI연구소": 183,
     "반도체": 325,
-    "데이터분석": 273,
+    "데이터분석": 275,
     "투자은행": 280
   },
   "by_kind": {
     "발표물": 350,
-    "논문": 711
+    "논문": 713
   },
   "sources": {
     "rss": {
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-09-15T07:08:35.087091+00:00"
+      "collected_at": "2026-09-15T13:07:59.524341+00:00"
     },
     "sitemap": {
       "status": "ok",
       "count": 140,
       "failures": [],
-      "collected_at": "2026-09-15T07:09:07.287612+00:00"
+      "collected_at": "2026-09-15T13:08:32.171489+00:00"
     },
     "openalex": {
       "status": "ok",
-      "count": 711,
+      "count": 713,
       "failures": [],
-      "collected_at": "2026-09-15T07:09:25.699050+00:00"
+      "collected_at": "2026-09-15T13:08:56.761605+00:00"
     }
   },
   "not_collected": {
@@ -1632,11 +1632,11 @@
       "title_source": "feed"
     },
     {
-      "title": "[Interview] The People Behind the Galaxy Z Fold8 Series’ Camera Innovations ①: How My FanCam Keeps Favorite People in Focus",
-      "url": "https://news.samsung.com/global/interview-the-people-behind-the-galaxy-z-fold8-series-camera-innovations-%e2%91%a0-how-my-fancam-keeps-favorite-people-in-focus",
+      "title": "[Interview] The People Behind the Galaxy Z Series’ Camera Innovations ①: How My FanCam Keeps Favorite People in Focus",
+      "url": "https://news.samsung.com/global/interview-the-people-behind-the-galaxy-z-series-camera-innovations-%e2%91%a0-how-my-fancam-keeps-favorite-people-in-focus",
       "date": "2026-09-01",
       "date_raw": "Tue, 01 Sep 2026 09:00:00 +0000",
-      "summary": "Unveiled at Galaxy Unpacked July 2026, Samsung Electronics’ Galaxy Z Fold8 series introduces My FanCam — a new feature that lets users focus their edits on a person of their choice — as well as an enhanced Portrait Video that recreates the look of professional camera lenses. While the two features offer different camera experiences, both […]",
+      "summary": "Unveiled at Galaxy Unpacked July 2026, Samsung Electronics’ Galaxy Z series introduces My FanCam — a new feature that lets users focus their edits on a person of their choice — as well as an enhanced Portrait Video that recreates the look of professional camera lenses. While the two features offer different camera experiences, both draw […]",
       "org": "Samsung Electronics",
       "category": "반도체",
       "kind": "발표물",
@@ -2295,6 +2295,19 @@
       "title_source": "feed"
     },
     {
+      "title": "Managed Postgres: What Lakebase Actually Takes Off Your Plate",
+      "url": "https://www.databricks.com/blog/managed-postgres",
+      "date": "2026-09-14",
+      "date_raw": "Mon, 14 Sep 2026 23:36:59 GMT",
+      "summary": "Every Postgres vendor calls itself \"managed.\" Few of them agree on what that word...",
+      "org": "Databricks",
+      "category": "데이터분석",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://www.databricks.com/feed",
+      "title_source": "feed"
+    },
+    {
       "title": "Announcing On-Demand State Repartitioning for Apache Spark™ Structured Streaming on Databricks",
       "url": "https://www.databricks.com/blog/announcing-demand-state-repartitioning-apache-sparktm-structured-streaming-databricks",
       "date": "2026-09-14",
@@ -2404,19 +2417,6 @@
       "date": "2026-09-09",
       "date_raw": "Wed, 09 Sep 2026 13:41:25 GMT",
       "summary": "For 25 years I built software on the practices I grew up with: Kent Beck’s TDD, Martin...",
-      "org": "Databricks",
-      "category": "데이터분석",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://www.databricks.com/feed",
-      "title_source": "feed"
-    },
-    {
-      "title": "Adaptive Instructed-Retriever: Frontier-Quality Search at 2x Lower Latency",
-      "url": "https://www.databricks.com/blog/adaptive-instructed-retriever-frontier-quality-search-2x-lower-latency",
-      "date": "2026-09-09",
-      "date_raw": "Wed, 09 Sep 2026 13:30:00 GMT",
-      "summary": "Effective enterprise data agents require search that is both accurate and fast. Earlier...",
       "org": "Databricks",
       "category": "데이터분석",
       "kind": "발표물",
@@ -2870,9 +2870,9 @@
       "url": "https://www.anthropic.com/research/claude-values-models-languages",
       "date": "2026-09-11",
       "date_raw": "2026-09-11T16:58:57.000Z",
-      "title_source": "page",
-      "title": "How Claude's values vary by model and language",
-      "summary": "We analyzed 300,000 real conversations to measure the values Claude expresses across models and languages, compressed into four interpretable axes.",
+      "title_source": "url-slug",
+      "title": "Claude Values Models Languages",
+      "summary": "",
       "org": "Anthropic",
       "category": "AI연구소",
       "kind": "발표물",
@@ -3985,11 +3985,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity",
+      "url": "https://www.goldmansachs.com/insights/the-markets/why-gold-is-expected-to-rise-to-record-highs",
       "date": "2026-09-04",
-      "date_raw": "2026-09-04T13:29:35.000Z",
+      "date_raw": "2026-09-04T19:12:16.000Z",
       "title_source": "url-slug",
-      "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity",
+      "title": "Why Gold Is Expected To Rise To Record Highs",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -4011,11 +4011,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/the-markets/why-gold-is-expected-to-rise-to-record-highs",
+      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity",
       "date": "2026-09-04",
-      "date_raw": "2026-09-04T19:12:16.000Z",
+      "date_raw": "2026-09-04T13:29:35.000Z",
       "title_source": "url-slug",
-      "title": "Why Gold Is Expected To Rise To Record Highs",
+      "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -4063,11 +4063,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity/transcript.pdf",
+      "url": "https://www.goldmansachs.com/pdfs/insights/videos/david-solomon-cnbc-sep-2026/transcript.pdf",
       "date": "2026-09-02",
-      "date_raw": "2026-09-02T20:18:47.000Z",
+      "date_raw": "2026-09-02T16:13:53.000Z",
       "title_source": "url-slug",
-      "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity   Transcript",
+      "title": "David Solomon Cnbc Sep 2026   Transcript",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -4076,11 +4076,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/pdfs/insights/videos/david-solomon-cnbc-sep-2026/transcript.pdf",
+      "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity/transcript.pdf",
       "date": "2026-09-02",
-      "date_raw": "2026-09-02T16:13:53.000Z",
+      "date_raw": "2026-09-02T20:18:47.000Z",
       "title_source": "url-slug",
-      "title": "David Solomon Cnbc Sep 2026   Transcript",
+      "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity   Transcript",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -4167,19 +4167,6 @@
       "feed": "https://www.jpmorgan.com/sitemap.xml"
     },
     {
-      "url": "https://www.jpmorgan.com/markets/insights/ai-blockchain-and-the-new-market-reality",
-      "date": "2026-09-11",
-      "date_raw": "2026-09-11",
-      "title_source": "url-slug",
-      "title": "Ai Blockchain And The New Market Reality",
-      "summary": "",
-      "org": "JPMorgan Chase",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.jpmorgan.com/sitemap.xml"
-    },
-    {
       "url": "https://www.jpmorgan.com/markets/insights/private-credit-machine-learning-moment",
       "date": "2026-09-11",
       "date_raw": "2026-09-11",
@@ -4232,11 +4219,37 @@
       "feed": "https://www.jpmorgan.com/sitemap.xml"
     },
     {
+      "url": "https://www.jpmorgan.com/markets/insights/ai-blockchain-and-the-new-market-reality",
+      "date": "2026-09-11",
+      "date_raw": "2026-09-11",
+      "title_source": "url-slug",
+      "title": "Ai Blockchain And The New Market Reality",
+      "summary": "",
+      "org": "JPMorgan Chase",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.jpmorgan.com/sitemap.xml"
+    },
+    {
       "url": "https://www.jpmorgan.com/markets/insights/volatility-is-no-longer-the-exception",
       "date": "2026-09-11",
       "date_raw": "2026-09-11",
       "title_source": "url-slug",
       "title": "Volatility Is No Longer The Exception",
+      "summary": "",
+      "org": "JPMorgan Chase",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.jpmorgan.com/sitemap.xml"
+    },
+    {
+      "url": "https://www.jpmorgan.com/insights/real-estate/community-development-banking/expanding-healthcare-access-with-nmtc-equity-investment",
+      "date": "2026-09-11",
+      "date_raw": "2026-09-11",
+      "title_source": "url-slug",
+      "title": "Expanding Healthcare Access With Nmtc Equity Investment",
       "summary": "",
       "org": "JPMorgan Chase",
       "category": "투자은행",
@@ -4271,19 +4284,6 @@
       "feed": "https://www.jpmorgan.com/sitemap.xml"
     },
     {
-      "url": "https://www.jpmorgan.com/insights/real-estate/community-development-banking/expanding-healthcare-access-with-nmtc-equity-investment",
-      "date": "2026-09-11",
-      "date_raw": "2026-09-11",
-      "title_source": "url-slug",
-      "title": "Expanding Healthcare Access With Nmtc Equity Investment",
-      "summary": "",
-      "org": "JPMorgan Chase",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.jpmorgan.com/sitemap.xml"
-    },
-    {
       "url": "https://www.jpmorgan.com/insights/treasury/trade-working-capital/financing-resilience-energy-supply-disruption",
       "date": "2026-09-11",
       "date_raw": "2026-09-11",
@@ -4297,11 +4297,11 @@
       "feed": "https://www.jpmorgan.com/sitemap.xml"
     },
     {
-      "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/financial-sponsors-global-credit-markets",
+      "url": "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
       "date": "2026-09-09",
       "date_raw": "2026-09-09",
       "title_source": "url-slug",
-      "title": "Financial Sponsors Global Credit Markets",
+      "title": "Current Events   Us Tariffs",
       "summary": "",
       "org": "JPMorgan Chase",
       "category": "투자은행",
@@ -4310,11 +4310,11 @@
       "feed": "https://www.jpmorgan.com/sitemap.xml"
     },
     {
-      "url": "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
+      "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/financial-sponsors-global-credit-markets",
       "date": "2026-09-09",
       "date_raw": "2026-09-09",
       "title_source": "url-slug",
-      "title": "Current Events   Us Tariffs",
+      "title": "Financial Sponsors Global Credit Markets",
       "summary": "",
       "org": "JPMorgan Chase",
       "category": "투자은행",
@@ -5349,6 +5349,20 @@
       "cited_by": 0
     },
     {
+      "title": "The power of primary care to improve health",
+      "url": "https://doi.org/10.1097/ebp.0000000000002748",
+      "date": "2026-09-01",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Evidence-Based Practice",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "Effects of one-time application of controlled-release compound fertilizer on peanut yield and nitrogen loss in sloping farmland",
       "url": "https://doi.org/10.3389/fsoil.2026.1899806",
       "date": "2026-08-26",
@@ -5671,17 +5685,17 @@
       "cited_by": 12
     },
     {
-      "title": "The effect of data poisoning on counterfactual explanations",
-      "url": "https://doi.org/10.1016/j.inffus.2026.104237",
-      "date": "2026-02-14",
+      "title": "Digitalising Is Not Digitalising for Sustainability: Decomposing the Digital Transformation–ESG Relationship in African Listed Firms",
+      "url": "https://doi.org/10.21203/rs.3.rs-10732340/v1",
+      "date": "2026-09-14",
       "summary": "",
-      "org": "Morgan Stanley",
+      "org": "Bank of America",
       "category": "투자은행",
       "kind": "논문",
       "source": "openalex",
       "title_source": "openalex",
-      "venue": "Information Fusion",
-      "work_type": "article",
+      "venue": "Research Square",
+      "work_type": "preprint",
       "cited_by": 0
     },
     {
@@ -6004,7 +6018,7 @@
       "title_source": "openalex",
       "venue": "Journal of Molecular Biology",
       "work_type": "article",
-      "cited_by": 0
+      "cited_by": 1
     },
     {
       "title": "32eP Long term efficacy and safety of adjuvant icotinib with or without chemotherapy in EGFR-mutated non-small cell lung cancer: A systematic review and meta-analysis of latest evidence",
@@ -6018,20 +6032,6 @@
       "title_source": "openalex",
       "venue": "ESMO Open",
       "work_type": "review",
-      "cited_by": 0
-    },
-    {
-      "title": "Discovery of a millisecond pulsar with a CO white dwarf companion",
-      "url": "https://openalex.org/W7139147348",
-      "date": "2026-03-14",
-      "summary": "",
-      "org": "Bank of America",
-      "category": "투자은행",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "arXiv (Cornell University)",
-      "work_type": "preprint",
       "cited_by": 0
     },
     {
@@ -7785,6 +7785,20 @@
       "cited_by": 0
     },
     {
+      "title": "Co-design of a trustworthy AI-based prognostic tool for predicting patient outcome in acute stroke",
+      "url": "https://doi.org/10.1007/s43681-026-01337-3",
+      "date": "2026-09-14",
+      "summary": "",
+      "org": "Intel",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "AI and Ethics",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "NEXUS: Speeding Up the Next Wave of AI Workloads, GNN and SSM Optimization on NPUs",
       "url": "https://doi.org/10.1145/3846378",
       "date": "2026-09-07",
@@ -7981,6 +7995,20 @@
       "cited_by": 0
     },
     {
+      "title": "GraphSeqNet: Enhancing Student Performance Prediction with Graph Neural Networks and Sequential Modeling",
+      "url": "https://doi.org/10.1142/s0219877026400109",
+      "date": "2026-08-07",
+      "summary": "",
+      "org": "Intel",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "International Journal of Innovation and Technology Management",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "Certain Investigations on Advanced Signal Processing and K -Medoid Cluster for Faults Quality Analysis in Textile Industry",
       "url": "https://doi.org/10.1142/s0219877026400080",
       "date": "2026-08-07",
@@ -8104,34 +8132,6 @@
       "title_source": "openalex",
       "venue": "Maturitas",
       "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "University students’ AI attitudes: an experiential transformation",
-      "url": "https://doi.org/10.23900/ra.v24i116.1520",
-      "date": "2026-07-24",
-      "summary": "",
-      "org": "Intel",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Aposta",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "$g$MAGNUS: Fast SpGEMM on GPUs for Irregular Matrices via Hierarchical Multisplit",
-      "url": "https://openalex.org/W7171902981",
-      "date": "2026-07-24",
-      "summary": "",
-      "org": "Intel",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "arXiv (Cornell University)",
-      "work_type": "preprint",
       "cited_by": 0
     },
     {
@@ -8835,6 +8835,20 @@
       "cited_by": 9
     },
     {
+      "title": "Clock2Q+: A Simple and Efficient Replacement Algorithm for Metadata Cache in VMware vSAN",
+      "url": "https://doi.org/10.14778/3827998.3828002",
+      "date": "2026-08-01",
+      "summary": "",
+      "org": "Broadcom",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Proceedings of the VLDB Endowment",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "The Multipath Reliable Connection (MRC) Transport",
       "url": "https://openalex.org/W7165219839",
       "date": "2026-06-16",
@@ -9167,20 +9181,6 @@
       "source": "openalex",
       "title_source": "openalex",
       "venue": "World Journal of Advanced Engineering Technology and Sciences",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Fibre Channel Management Software: Benefits for Modern Enterprise Data Infrastructure",
-      "url": "https://doi.org/10.37745/ejcsit.2013/vol13n492231",
-      "date": "2025-06-15",
-      "summary": "",
-      "org": "Broadcom",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "European Journal of Computer Science and Information Technology",
       "work_type": "article",
       "cited_by": 0
     },
@@ -10711,20 +10711,6 @@
       "cited_by": 0
     },
     {
-      "title": "Structural Plasticity and Ligand Promiscuity of CYP3A4 Revealed by Cryo-EM",
-      "url": "https://doi.org/10.64898/2026.09.01.748687",
-      "date": "2026-09-02",
-      "summary": "",
-      "org": "OpenAI",
-      "category": "AI연구소",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "work_type": "preprint",
-      "cited_by": 0
-    },
-    {
       "title": "A Disclosure Benchmark Specification for Automated Alignment Research",
       "url": "https://doi.org/10.5281/zenodo.22179466",
       "date": "2026-08-30",
@@ -10923,6 +10909,20 @@
     {
       "title": "Towards the Geometric Origins of Mass and Charge: Projection, Geodesics and Relational Sign in Closure Theory",
       "url": "https://doi.org/10.5281/zenodo.21478990",
+      "date": "2026-07-21",
+      "summary": "",
+      "org": "OpenAI",
+      "category": "AI연구소",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "The Dynamical Domain of Closure Theory Information-Preserving Transformation of Completed Intrinsic Closures",
+      "url": "https://doi.org/10.5281/zenodo.21478024",
       "date": "2026-07-21",
       "summary": "",
       "org": "OpenAI",
@@ -11747,6 +11747,20 @@
       "cited_by": 0
     },
     {
+      "title": "Designing for use: Embedding data usability into Earth science mission conception, implementation, and evaluation to accelerate discovery",
+      "url": "https://doi.org/10.22541/essoar.15008768/v1",
+      "date": "2026-09-14",
+      "summary": "",
+      "org": "Booz Allen Hamilton",
+      "category": "데이터분석",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "",
+      "work_type": "preprint",
+      "cited_by": 0
+    },
+    {
       "title": "Vapor-phase HMDS passivation improves performance and ambient stability of niobium superconducting resonators",
       "url": "https://doi.org/10.1063/5.0341196",
       "date": "2026-09-07",
@@ -12083,16 +12097,30 @@
       "cited_by": 0
     },
     {
-      "title": "P-707. Trends in Respiratory Virus-associated Hospitalizations – National Healthcare Safety Network, United States, 2024 - 2025",
-      "url": "https://doi.org/10.1093/ofid/ofaf695.919",
-      "date": "2026-01-01",
+      "title": "Non-neutralizing antibody responses control acute Crimean-Congo hemorrhagic fever virus infection in naïve mice",
+      "url": "https://doi.org/10.1128/jvi.00987-26",
+      "date": "2026-09-14",
       "summary": "",
-      "org": "Booz Allen Hamilton",
+      "org": "Leidos",
       "category": "데이터분석",
       "kind": "논문",
       "source": "openalex",
       "title_source": "openalex",
-      "venue": "Open Forum Infectious Diseases",
+      "venue": "Journal of Virology",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "Longitudinal characterization of mixed-genotype SARS-CoV-2 infections in a military cohort reveals compartmentalized viral populations",
+      "url": "https://doi.org/10.1128/spectrum.01806-26",
+      "date": "2026-09-14",
+      "summary": "",
+      "org": "Leidos",
+      "category": "데이터분석",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Microbiology Spectrum",
       "work_type": "article",
       "cited_by": 0
     },
@@ -12293,7 +12321,7 @@
       "cited_by": 0
     },
     {
-      "title": "Smoking and vaping trends among active-duty U.S. Navy and Marine Corps personnel: results from the Annual Periodic Health Assessment, 2017-2021",
+      "title": "Smoking and vaping trends among active-duty US Navy and Marine Corps personnel: results from the Annual Periodic Health Assessment, 2017-2021",
       "url": "https://doi.org/10.1093/ntr/ntag188",
       "date": "2026-08-26",
       "summary": "",
@@ -12415,34 +12443,6 @@
       "source": "openalex",
       "title_source": "openalex",
       "venue": "ACS Applied Engineering Materials",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "First evaluation of wearable radiation protection for human deep space exploration, as flown on Artemis I",
-      "url": "https://doi.org/10.1126/sciadv.adz1892",
-      "date": "2026-08-12",
-      "summary": "",
-      "org": "Leidos",
-      "category": "데이터분석",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Science Advances",
-      "work_type": "article",
-      "cited_by": 1
-    },
-    {
-      "title": "Impact of United States Marine Corps Recruit Training on Stress Physiology and the Hypothalamic Pituitary Gonadal Axis in Male Marine Recruits",
-      "url": "https://doi.org/10.1093/milmed/usag398",
-      "date": "2026-08-11",
-      "summary": "",
-      "org": "Leidos",
-      "category": "데이터분석",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Military Medicine",
       "work_type": "article",
       "cited_by": 0
     },
@@ -13147,6 +13147,34 @@
       "cited_by": 34
     },
     {
+      "title": "A Decade of Apache Spark Structured Streaming: How We Evolved The Architecture To Meet Real-World Needs",
+      "url": "https://doi.org/10.14778/3827998.3828023",
+      "date": "2026-08-01",
+      "summary": "",
+      "org": "Databricks",
+      "category": "데이터분석",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Proceedings of the VLDB Endowment",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "The Three Golden Ages of Database Engineering: From SIGMOD'85 to the Agentic Era",
+      "url": "https://doi.org/10.14778/3827998.3838713",
+      "date": "2026-08-01",
+      "summary": "",
+      "org": "Databricks",
+      "category": "데이터분석",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Proceedings of the VLDB Endowment",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "More Skills, Worse Agents? Skill Shadowing Degrades Performance When Expanding Skill Libraries",
       "url": "https://openalex.org/W7162605904",
       "date": "2026-05-21",
@@ -13172,7 +13200,7 @@
       "title_source": "openalex",
       "venue": "Proceedings of the VLDB Endowment",
       "work_type": "article",
-      "cited_by": 0
+      "cited_by": 1
     },
     {
       "title": "Finding Multiple Optimal Solutions to an Integer Linear Program by Random Perturbations of Its Objective Function",
@@ -13228,7 +13256,7 @@
       "title_source": "openalex",
       "venue": "Proceedings of the VLDB Endowment",
       "work_type": "article",
-      "cited_by": 13
+      "cited_by": 14
     },
     {
       "title": "Exchange of indivisible goods under matroid constraints",
@@ -13270,7 +13298,7 @@
       "title_source": "openalex",
       "venue": "Proceedings of the VLDB Endowment",
       "work_type": "article",
-      "cited_by": 31
+      "cited_by": 33
     },
     {
       "title": "Incentive ratio: A game theoretical analysis of market equilibria",
@@ -13634,7 +13662,7 @@
       "title_source": "openalex",
       "venue": "Proceedings of the VLDB Endowment",
       "work_type": "article",
-      "cited_by": 41
+      "cited_by": 42
     },
     {
       "title": "Technical Perspective",

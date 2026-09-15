@@ -2,7 +2,7 @@
 title: "Record 6b14e28b02 · Bebot-or-Kikay-Looking-into-tiktoks-latest-makeup-t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T11:46:21.577188+00:00
+updated_at: 2026-09-15T13:15:48.838368+00:00
 tags: [record, real-data]
 ---
 

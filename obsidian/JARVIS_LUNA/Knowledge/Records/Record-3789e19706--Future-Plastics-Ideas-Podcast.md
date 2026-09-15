@@ -2,7 +2,7 @@
 title: "Record 3789e19706 · Future-Plastics-Ideas-Podcast"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T11:46:21.779367+00:00
+updated_at: 2026-09-15T13:15:49.024644+00:00
 tags: [record, real-data]
 ---
 

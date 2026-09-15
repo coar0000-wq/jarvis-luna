@@ -2,7 +2,7 @@
 title: "Record 7d3a84362d · EVERYTHING-I-bought-in-Japan-as-a-Japanese"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T11:46:21.847887+00:00
+updated_at: 2026-09-15T13:15:49.073598+00:00
 tags: [record, real-data]
 ---
 

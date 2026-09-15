@@ -2,7 +2,7 @@
 title: "Record f2323421e5 · Reviewing-The-Evidence-On-Worker-Retraining-Program"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T11:46:21.740545+00:00
+updated_at: 2026-09-15T13:15:48.996574+00:00
 tags: [record, real-data]
 ---
 

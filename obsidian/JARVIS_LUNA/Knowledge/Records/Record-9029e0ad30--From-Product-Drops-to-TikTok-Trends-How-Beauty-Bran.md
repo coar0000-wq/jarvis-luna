@@ -2,7 +2,7 @@
 title: "Record 9029e0ad30 · From-Product-Drops-to-TikTok-Trends-How-Beauty-Bran"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T11:46:21.509922+00:00
+updated_at: 2026-09-15T13:15:48.790935+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiggFBVV95cUxNbEp0LU5UcWUyV2g4TnE2cGRaeVNrNVRqOUN5Nl94UzhFSElFd21DOUhWSm52LVFVUE9UMGRETFdsdExZUVBnRmo1RlFVNlhkNFo3TUJaT2F5dFMyQUlOWmUwSW1OZHlPRWxZYm5NLWFsSTVOT3pGd01PQXIwQ3d1dWtR?oc=5)
 
-**제목:** From Product Drops to TikTok Trends: How Beauty Brands Scale with Lemonpath - Cosmetics Business
+**제목:** From Product Drops to TikTok Trends: How Beauty Brands Scale with Lemonpath - cosmeticsbusiness.com
 
-From Product Drops to TikTok Trends: How Beauty Brands Scale with Lemonpath - Cosmetics Business
+From Product Drops to TikTok Trends: How Beauty Brands Scale with Lemonpath - cosmeticsbusiness.com
 
 **출처:** Source · Google Search
 

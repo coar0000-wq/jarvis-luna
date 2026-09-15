@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T07:15:24.267931+00:00",
+  "generated_at": "2026-09-15T13:14:09.397064+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "latest news",
+          "keyword": "ticketmaster",
           "approx_traffic": "10000+",
           "traffic_num": 10000,
-          "published": "Mon, 14 Sep 2026 23:20:00 -0700",
-          "source_name": "The New York Times",
-          "url": "https://trends.google.com/trending?geo=US&q=latest%20news"
-        },
-        {
-          "keyword": "stock market today",
-          "approx_traffic": "5000+",
-          "traffic_num": 5000,
-          "published": "Mon, 14 Sep 2026 23:50:00 -0700",
-          "source_name": "Yahoo Finance",
-          "url": "https://trends.google.com/trending?geo=US&q=stock%20market%20today"
-        },
-        {
-          "keyword": "technology news",
-          "approx_traffic": "5000+",
-          "traffic_num": 5000,
-          "published": "Mon, 14 Sep 2026 23:30:00 -0700",
-          "source_name": "The New York Times",
-          "url": "https://trends.google.com/trending?geo=US&q=technology%20news"
-        },
-        {
-          "keyword": "what is a data breach",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Mon, 14 Sep 2026 22:00:00 -0700",
+          "published": "Tue, 15 Sep 2026 05:20:00 -0700",
           "source_name": "Reuters",
-          "url": "https://trends.google.com/trending?geo=US&q=what%20is%20a%20data%20breach"
+          "url": "https://trends.google.com/trending?geo=US&q=ticketmaster"
         },
         {
-          "keyword": "cryptocurrency trading",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Mon, 14 Sep 2026 22:00:00 -0700",
-          "source_name": "U.Today",
-          "url": "https://trends.google.com/trending?geo=US&q=cryptocurrency%20trading"
+          "keyword": "what time is dancing with the stars on",
+          "approx_traffic": "5000+",
+          "traffic_num": 5000,
+          "published": "Tue, 15 Sep 2026 04:50:00 -0700",
+          "source_name": "ABC News - Breaking News, Latest News and Videos",
+          "url": "https://trends.google.com/trending?geo=US&q=what%20time%20is%20dancing%20with%20the%20stars%20on"
         },
         {
-          "keyword": "artificial intelligence news",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Mon, 14 Sep 2026 22:00:00 -0700",
+          "keyword": "holly rowe",
+          "approx_traffic": "5000+",
+          "traffic_num": 5000,
+          "published": "Tue, 15 Sep 2026 04:40:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=holly%20rowe"
+        },
+        {
+          "keyword": "john brennan grand jury subpoena",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Tue, 15 Sep 2026 05:40:00 -0700",
           "source_name": "NBC News",
-          "url": "https://trends.google.com/trending?geo=US&q=artificial%20intelligence%20news"
+          "url": "https://trends.google.com/trending?geo=US&q=john%20brennan%20grand%20jury%20subpoena"
         },
         {
-          "keyword": "sports scores today",
+          "keyword": "scott speedman",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Mon, 14 Sep 2026 23:20:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=sports%20scores%20today"
+          "published": "Tue, 15 Sep 2026 05:30:00 -0700",
+          "source_name": "People.com",
+          "url": "https://trends.google.com/trending?geo=US&q=scott%20speedman"
         },
         {
-          "keyword": "tennis scores today",
+          "keyword": "kenny chesney tour",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Mon, 14 Sep 2026 22:10:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=tennis%20scores%20today"
+          "published": "Tue, 15 Sep 2026 05:10:00 -0700",
+          "source_name": "Buffalo Bills",
+          "url": "https://trends.google.com/trending?geo=US&q=kenny%20chesney%20tour"
         },
         {
-          "keyword": "zim vs aus",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Mon, 14 Sep 2026 23:50:00 -0700",
-          "source_name": "Cricinfo",
-          "url": "https://trends.google.com/trending?geo=US&q=zim%20vs%20aus"
+          "keyword": "national park service grand canyon discovery",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Tue, 15 Sep 2026 04:10:00 -0700",
+          "source_name": "KSL",
+          "url": "https://trends.google.com/trending?geo=US&q=national%20park%20service%20grand%20canyon%20discovery"
         },
         {
-          "keyword": "kurt warner",
+          "keyword": "harry styles amex presale",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Mon, 14 Sep 2026 22:20:00 -0700",
-          "source_name": "Washington Times",
-          "url": "https://trends.google.com/trending?geo=US&q=kurt%20warner"
+          "published": "Tue, 15 Sep 2026 05:50:00 -0700",
+          "source_name": "Ticketmaster Blog",
+          "url": "https://trends.google.com/trending?geo=US&q=harry%20styles%20amex%20presale"
+        },
+        {
+          "keyword": "lucy letby",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Tue, 15 Sep 2026 05:20:00 -0700",
+          "source_name": "The New York Times",
+          "url": "https://trends.google.com/trending?geo=US&q=lucy%20letby"
+        },
+        {
+          "keyword": "ernest harden jr",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Tue, 15 Sep 2026 04:20:00 -0700",
+          "source_name": "Deadline",
+          "url": "https://trends.google.com/trending?geo=US&q=ernest%20harden%20jr"
         }
       ]
     },

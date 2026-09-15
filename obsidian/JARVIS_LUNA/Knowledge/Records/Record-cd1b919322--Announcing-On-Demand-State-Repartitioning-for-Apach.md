@@ -2,7 +2,7 @@
 title: "Record cd1b919322 · Announcing-On-Demand-State-Repartitioning-for-Apache-Spark-Structured-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T11:46:21.752573+00:00
+updated_at: 2026-09-15T13:15:49.005411+00:00
 tags: [record, real-data]
 ---
 

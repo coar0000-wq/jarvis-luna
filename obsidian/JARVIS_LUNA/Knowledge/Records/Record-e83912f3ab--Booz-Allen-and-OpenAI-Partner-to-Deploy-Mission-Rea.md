@@ -2,7 +2,7 @@
 title: "Record e83912f3ab · Booz-Allen-and-OpenAI-Partner-to-Deploy-Mission-Rea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T11:46:21.376563+00:00
+updated_at: 2026-09-15T13:15:48.689411+00:00
 tags: [record, real-data]
 ---
 

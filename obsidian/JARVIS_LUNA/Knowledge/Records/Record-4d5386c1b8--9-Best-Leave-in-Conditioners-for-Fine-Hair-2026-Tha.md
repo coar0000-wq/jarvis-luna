@@ -2,7 +2,7 @@
 title: "Record 4d5386c1b8 · 9-Best-Leave-in-Conditioners-for-Fine-Hair-2026-Tha"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T11:46:21.717193+00:00
+updated_at: 2026-09-15T13:15:48.979452+00:00
 tags: [record, real-data]
 ---
 

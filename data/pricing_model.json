@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-15T11:19:35.147975+00:00",
+  "generated_at": "2026-09-15T13:14:10.118807+00:00",
   "exchange_rate": {
     "usd_to_krw": 1347.2,
     "as_of": "2026-09-15",
-    "source": "https://open.er-api.com/v6/latest/USD"
+    "source": "ExchangeRate-API"
   },
   "cost_basis": {
     "shipping": "우체국 국제통상 소형포장물 미국행 요금표 (ems.epost.go.kr, 2026-08-31 조회)",
@@ -22,7 +22,7 @@
   },
   "market_benchmark": {
     "min": 2.8,
-    "p25": 18.69,
+    "p25": 17.09,
     "median": 23.0,
     "max": 279.0,
     "n": 100,
@@ -47,19 +47,19 @@
         "block_reason": ""
       },
       {
-        "pd_no": "1049271",
-        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+        "pd_no": "1062781",
+        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
         "qty": 1,
-        "price_usd": 14.99,
-        "unit_price_usd": 14.99,
-        "landed_cost_total_usd": 14.99,
-        "fee_usd": 1.11,
-        "net_profit_usd": -1.11,
-        "margin_pct": -7.4,
-        "market_median_usd": 15.0,
-        "market_price_source": "serpapi_google_shopping",
-        "register_blocked": true,
-        "block_reason": "권장가 $14.99 가 손익분기 $16.18 이하"
+        "price_usd": 23.99,
+        "unit_price_usd": 23.99,
+        "landed_cost_total_usd": 11.26,
+        "fee_usd": 1.78,
+        "net_profit_usd": 10.95,
+        "margin_pct": 45.7,
+        "market_median_usd": 23.0,
+        "market_price_source": "oliveyoung_us_benchmark",
+        "register_blocked": false,
+        "block_reason": ""
       },
       {
         "pd_no": "1041749",
@@ -77,15 +77,30 @@
         "block_reason": ""
       },
       {
-        "pd_no": "1062781",
-        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+        "pd_no": "1049271",
+        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+        "qty": 1,
+        "price_usd": 14.99,
+        "unit_price_usd": 14.99,
+        "landed_cost_total_usd": 14.99,
+        "fee_usd": 1.11,
+        "net_profit_usd": -1.11,
+        "margin_pct": -7.4,
+        "market_median_usd": 15.0,
+        "market_price_source": "serpapi_google_shopping",
+        "register_blocked": true,
+        "block_reason": "권장가 $14.99 가 손익분기 $16.18 이하"
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
         "qty": 1,
         "price_usd": 23.99,
         "unit_price_usd": 23.99,
-        "landed_cost_total_usd": 11.26,
+        "landed_cost_total_usd": 12.01,
         "fee_usd": 1.78,
-        "net_profit_usd": 10.95,
-        "margin_pct": 45.7,
+        "net_profit_usd": 10.2,
+        "margin_pct": 42.5,
         "market_median_usd": 23.0,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
@@ -101,21 +116,6 @@
         "fee_usd": 1.78,
         "net_profit_usd": 14.26,
         "margin_pct": 59.5,
-        "market_median_usd": 23.0,
-        "market_price_source": "oliveyoung_us_benchmark",
-        "register_blocked": false,
-        "block_reason": ""
-      },
-      {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "qty": 1,
-        "price_usd": 23.99,
-        "unit_price_usd": 23.99,
-        "landed_cost_total_usd": 12.01,
-        "fee_usd": 1.78,
-        "net_profit_usd": 10.2,
-        "margin_pct": 42.5,
         "market_median_usd": 23.0,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
@@ -139,19 +139,19 @@
         "block_reason": ""
       },
       {
-        "pd_no": "1049271",
-        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+        "pd_no": "1062781",
+        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
         "qty": 2,
-        "price_usd": 24.99,
-        "unit_price_usd": 12.49,
-        "landed_cost_total_usd": 23.48,
-        "fee_usd": 1.85,
-        "net_profit_usd": -0.34,
-        "margin_pct": -1.4,
-        "market_median_usd": 15.0,
-        "market_price_source": "serpapi_google_shopping",
-        "register_blocked": true,
-        "block_reason": "권장가 $24.99 가 손익분기 $25.36 이하"
+        "price_usd": 39.99,
+        "unit_price_usd": 20.0,
+        "landed_cost_total_usd": 16.28,
+        "fee_usd": 2.96,
+        "net_profit_usd": 20.75,
+        "margin_pct": 51.9,
+        "market_median_usd": 23.0,
+        "market_price_source": "oliveyoung_us_benchmark",
+        "register_blocked": false,
+        "block_reason": ""
       },
       {
         "pd_no": "1041749",
@@ -169,15 +169,30 @@
         "block_reason": ""
       },
       {
-        "pd_no": "1062781",
-        "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+        "pd_no": "1049271",
+        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+        "qty": 2,
+        "price_usd": 24.99,
+        "unit_price_usd": 12.49,
+        "landed_cost_total_usd": 23.48,
+        "fee_usd": 1.85,
+        "net_profit_usd": -0.34,
+        "margin_pct": -1.4,
+        "market_median_usd": 15.0,
+        "market_price_source": "serpapi_google_shopping",
+        "register_blocked": true,
+        "block_reason": "권장가 $24.99 가 손익분기 $25.36 이하"
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
         "qty": 2,
         "price_usd": 39.99,
         "unit_price_usd": 20.0,
-        "landed_cost_total_usd": 16.28,
+        "landed_cost_total_usd": 19.26,
         "fee_usd": 2.96,
-        "net_profit_usd": 20.75,
-        "margin_pct": 51.9,
+        "net_profit_usd": 17.77,
+        "margin_pct": 44.4,
         "market_median_usd": 23.0,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
@@ -193,21 +208,6 @@
         "fee_usd": 2.96,
         "net_profit_usd": 26.63,
         "margin_pct": 66.6,
-        "market_median_usd": 23.0,
-        "market_price_source": "oliveyoung_us_benchmark",
-        "register_blocked": false,
-        "block_reason": ""
-      },
-      {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "qty": 2,
-        "price_usd": 39.99,
-        "unit_price_usd": 20.0,
-        "landed_cost_total_usd": 19.26,
-        "fee_usd": 2.96,
-        "net_profit_usd": 17.77,
-        "margin_pct": 44.4,
         "market_median_usd": 23.0,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
@@ -299,10 +299,10 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 18.69,
-          "fee": 1.38,
-          "profit": 6.05,
-          "margin_pct": 32.4
+          "sell": 17.09,
+          "fee": 1.26,
+          "profit": 4.56,
+          "margin_pct": 26.7
         },
         "at_market_median": {
           "sell": 23.0,
@@ -321,106 +321,10 @@
         }
       },
       {
-        "pd_no": "1049271",
-        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 95,
-        "price_krw": 5000,
-        "weight_g_est": 520,
-        "weight_note": "고시 용량 10.14 fl. oz. / 300 mL x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 10.72,
-        "shipping_order_usd": 10.72,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 14.99,
-        "landed_cost_ddu_usd": 14.99,
-        "landed_cost_ddp_usd": 14.43,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 16.18,
-        "at_2_2x": {
-          "sell": 8.17,
-          "fee": 0.6,
-          "profit": -7.43,
-          "margin_pct": -90.9
-        },
-        "at_market_p25": {
-          "sell": 18.69,
-          "fee": 1.38,
-          "profit": 2.32,
-          "margin_pct": 12.4
-        },
-        "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 6.31,
-          "margin_pct": 27.4
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 15.0,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 15.0,
-          "fee": 1.11,
-          "profit": -1.1,
-          "margin_pct": -7.3
-        }
-      },
-      {
-        "pd_no": "1041749",
-        "name": "식물원 병풀 클리어 앰플 30 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 94,
-        "price_krw": 5000,
-        "weight_g_est": 88,
-        "weight_note": "고시 용량 30 ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": true,
-        "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 6.24,
-        "shipping_order_usd": 6.24,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 10.51,
-        "landed_cost_ddu_usd": 10.51,
-        "landed_cost_ddp_usd": 9.95,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 11.35,
-        "at_2_2x": {
-          "sell": 8.17,
-          "fee": 0.6,
-          "profit": -2.95,
-          "margin_pct": -36.1
-        },
-        "at_market_p25": {
-          "sell": 18.69,
-          "fee": 1.38,
-          "profit": 6.8,
-          "margin_pct": 36.4
-        },
-        "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 10.79,
-          "margin_pct": 46.9
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.05,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 18.05,
-          "fee": 1.34,
-          "profit": 6.2,
-          "margin_pct": 34.4
-        }
-      },
-      {
         "pd_no": "1062781",
         "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
         "bucket": "스킨케어",
-        "shopify_score": 92,
+        "shopify_score": 91,
         "price_krw": 5000,
         "weight_g_est": 120,
         "weight_note": "고시 용량 50ml (1.69 fl.oz) x 1.6(용기) + 40g(포장)",
@@ -443,10 +347,10 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 18.69,
-          "fee": 1.38,
-          "profit": 6.05,
-          "margin_pct": 32.4
+          "sell": 17.09,
+          "fee": 1.26,
+          "profit": 4.56,
+          "margin_pct": 26.7
         },
         "at_market_median": {
           "sell": 23.0,
@@ -460,53 +364,106 @@
         "at_product_market": null
       },
       {
-        "pd_no": "1059834",
-        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-        "bucket": "마스크팩",
-        "shopify_score": 90,
-        "price_krw": 2000,
-        "weight_g_est": 85,
-        "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
+        "pd_no": "1041749",
+        "name": "식물원 병풀 클리어 앰플 30 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 91,
+        "price_krw": 5000,
+        "weight_g_est": 88,
+        "weight_note": "고시 용량 30 ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 1.48,
+        "unit_cost_usd": 3.71,
         "shipping_unit_usd": 6.24,
         "shipping_order_usd": 6.24,
-        "tariff_usd": 0.22,
+        "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 7.95,
-        "landed_cost_ddu_usd": 7.95,
-        "landed_cost_ddp_usd": 7.73,
+        "landed_cost_usd": 10.51,
+        "landed_cost_ddu_usd": 10.51,
+        "landed_cost_ddp_usd": 9.95,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.59,
+        "breakeven_usd": 11.35,
         "at_2_2x": {
-          "sell": 3.27,
-          "fee": 0.24,
-          "profit": -4.93,
-          "margin_pct": -150.8
+          "sell": 8.17,
+          "fee": 0.6,
+          "profit": -2.95,
+          "margin_pct": -36.1
         },
         "at_market_p25": {
-          "sell": 18.69,
-          "fee": 1.38,
-          "profit": 9.36,
-          "margin_pct": 50.1
+          "sell": 17.09,
+          "fee": 1.26,
+          "profit": 5.31,
+          "margin_pct": 31.1
         },
         "at_market_median": {
           "sell": 23.0,
           "fee": 1.7,
-          "profit": 13.35,
-          "margin_pct": 58.0
+          "profit": 10.79,
+          "margin_pct": 46.9
         },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.0,
-        "market_sample_n": 100,
-        "at_product_market": null
+        "market_price_source": "serpapi_google_shopping",
+        "market_median_usd": 18.05,
+        "market_sample_n": 20,
+        "at_product_market": {
+          "sell": 18.05,
+          "fee": 1.34,
+          "profit": 6.2,
+          "margin_pct": 34.4
+        }
+      },
+      {
+        "pd_no": "1049271",
+        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 90,
+        "price_krw": 5000,
+        "weight_g_est": 520,
+        "weight_note": "고시 용량 10.14 fl. oz. / 300 mL x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.71,
+        "shipping_unit_usd": 10.72,
+        "shipping_order_usd": 10.72,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 14.99,
+        "landed_cost_ddu_usd": 14.99,
+        "landed_cost_ddp_usd": 14.43,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 16.18,
+        "at_2_2x": {
+          "sell": 8.17,
+          "fee": 0.6,
+          "profit": -7.43,
+          "margin_pct": -90.9
+        },
+        "at_market_p25": {
+          "sell": 17.09,
+          "fee": 1.26,
+          "profit": 0.84,
+          "margin_pct": 4.9
+        },
+        "at_market_median": {
+          "sell": 23.0,
+          "fee": 1.7,
+          "profit": 6.31,
+          "margin_pct": 27.4
+        },
+        "market_price_source": "serpapi_google_shopping",
+        "market_median_usd": 15.0,
+        "market_sample_n": 20,
+        "at_product_market": {
+          "sell": 15.0,
+          "fee": 1.11,
+          "profit": -1.1,
+          "margin_pct": -7.3
+        }
       },
       {
         "pd_no": "1041403",
         "name": "채비공간 어성초 추출물 비건 토너 150 ml",
         "bucket": "스킨케어",
-        "shopify_score": 90,
+        "shopify_score": 86,
         "price_krw": 5000,
         "weight_g_est": 280,
         "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
@@ -529,16 +486,59 @@
           "margin_pct": -54.5
         },
         "at_market_p25": {
-          "sell": 18.69,
-          "fee": 1.38,
-          "profit": 5.3,
-          "margin_pct": 28.3
+          "sell": 17.09,
+          "fee": 1.26,
+          "profit": 3.82,
+          "margin_pct": 22.3
         },
         "at_market_median": {
           "sell": 23.0,
           "fee": 1.7,
           "profit": 9.29,
           "margin_pct": 40.4
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 23.0,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1059834",
+        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "bucket": "마스크팩",
+        "shopify_score": 83,
+        "price_krw": 2000,
+        "weight_g_est": 85,
+        "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": true,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 6.24,
+        "shipping_order_usd": 6.24,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 7.95,
+        "landed_cost_ddu_usd": 7.95,
+        "landed_cost_ddp_usd": 7.73,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 8.59,
+        "at_2_2x": {
+          "sell": 3.27,
+          "fee": 0.24,
+          "profit": -4.93,
+          "margin_pct": -150.8
+        },
+        "at_market_p25": {
+          "sell": 17.09,
+          "fee": 1.26,
+          "profit": 7.88,
+          "margin_pct": 46.1
+        },
+        "at_market_median": {
+          "sell": 23.0,
+          "fee": 1.7,
+          "profit": 13.35,
+          "margin_pct": 58.0
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 23.0,
@@ -574,10 +574,10 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 18.69,
-          "fee": 1.38,
-          "profit": 9.17,
-          "margin_pct": 49.1
+          "sell": 17.09,
+          "fee": 1.26,
+          "profit": 7.69,
+          "margin_pct": 45.0
         },
         "at_market_median": {
           "sell": 23.0,
@@ -596,106 +596,10 @@
         }
       },
       {
-        "pd_no": "1049271",
-        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 95,
-        "price_krw": 5000,
-        "weight_g_est": 520,
-        "weight_note": "고시 용량 10.14 fl. oz. / 300 mL x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 7.47,
-        "shipping_order_usd": 14.94,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 11.74,
-        "landed_cost_ddu_usd": 11.74,
-        "landed_cost_ddp_usd": 11.18,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 12.68,
-        "at_2_2x": {
-          "sell": 8.17,
-          "fee": 0.6,
-          "profit": -4.18,
-          "margin_pct": -51.2
-        },
-        "at_market_p25": {
-          "sell": 18.69,
-          "fee": 1.38,
-          "profit": 5.57,
-          "margin_pct": 29.8
-        },
-        "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 9.56,
-          "margin_pct": 41.6
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 15.0,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 15.0,
-          "fee": 1.11,
-          "profit": 2.15,
-          "margin_pct": 14.3
-        }
-      },
-      {
-        "pd_no": "1041749",
-        "name": "식물원 병풀 클리어 앰플 30 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 94,
-        "price_krw": 5000,
-        "weight_g_est": 88,
-        "weight_note": "고시 용량 30 ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": true,
-        "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 3.5,
-        "shipping_order_usd": 6.99,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 7.76,
-        "landed_cost_ddu_usd": 7.76,
-        "landed_cost_ddp_usd": 7.21,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.38,
-        "at_2_2x": {
-          "sell": 8.17,
-          "fee": 0.6,
-          "profit": -0.2,
-          "margin_pct": -2.5
-        },
-        "at_market_p25": {
-          "sell": 18.69,
-          "fee": 1.38,
-          "profit": 9.54,
-          "margin_pct": 51.1
-        },
-        "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 13.53,
-          "margin_pct": 58.8
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.05,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 18.05,
-          "fee": 1.34,
-          "profit": 8.95,
-          "margin_pct": 49.6
-        }
-      },
-      {
         "pd_no": "1062781",
         "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
         "bucket": "스킨케어",
-        "shopify_score": 92,
+        "shopify_score": 91,
         "price_krw": 5000,
         "weight_g_est": 120,
         "weight_note": "고시 용량 50ml (1.69 fl.oz) x 1.6(용기) + 40g(포장)",
@@ -718,10 +622,10 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 18.69,
-          "fee": 1.38,
-          "profit": 9.17,
-          "margin_pct": 49.1
+          "sell": 17.09,
+          "fee": 1.26,
+          "profit": 7.69,
+          "margin_pct": 45.0
         },
         "at_market_median": {
           "sell": 23.0,
@@ -735,53 +639,106 @@
         "at_product_market": null
       },
       {
-        "pd_no": "1059834",
-        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-        "bucket": "마스크팩",
-        "shopify_score": 90,
-        "price_krw": 2000,
-        "weight_g_est": 85,
-        "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
+        "pd_no": "1041749",
+        "name": "식물원 병풀 클리어 앰플 30 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 91,
+        "price_krw": 5000,
+        "weight_g_est": 88,
+        "weight_note": "고시 용량 30 ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 1.48,
+        "unit_cost_usd": 3.71,
         "shipping_unit_usd": 3.5,
         "shipping_order_usd": 6.99,
-        "tariff_usd": 0.22,
+        "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 5.2,
-        "landed_cost_ddu_usd": 5.2,
-        "landed_cost_ddp_usd": 4.98,
+        "landed_cost_usd": 7.76,
+        "landed_cost_ddu_usd": 7.76,
+        "landed_cost_ddp_usd": 7.21,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 5.62,
+        "breakeven_usd": 8.38,
         "at_2_2x": {
-          "sell": 3.27,
-          "fee": 0.24,
-          "profit": -2.18,
-          "margin_pct": -66.7
+          "sell": 8.17,
+          "fee": 0.6,
+          "profit": -0.2,
+          "margin_pct": -2.5
         },
         "at_market_p25": {
-          "sell": 18.69,
-          "fee": 1.38,
-          "profit": 12.1,
-          "margin_pct": 64.8
+          "sell": 17.09,
+          "fee": 1.26,
+          "profit": 8.06,
+          "margin_pct": 47.2
         },
         "at_market_median": {
           "sell": 23.0,
           "fee": 1.7,
-          "profit": 16.09,
-          "margin_pct": 70.0
+          "profit": 13.53,
+          "margin_pct": 58.8
         },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.0,
-        "market_sample_n": 100,
-        "at_product_market": null
+        "market_price_source": "serpapi_google_shopping",
+        "market_median_usd": 18.05,
+        "market_sample_n": 20,
+        "at_product_market": {
+          "sell": 18.05,
+          "fee": 1.34,
+          "profit": 8.95,
+          "margin_pct": 49.6
+        }
+      },
+      {
+        "pd_no": "1049271",
+        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 90,
+        "price_krw": 5000,
+        "weight_g_est": 520,
+        "weight_note": "고시 용량 10.14 fl. oz. / 300 mL x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.71,
+        "shipping_unit_usd": 7.47,
+        "shipping_order_usd": 14.94,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 11.74,
+        "landed_cost_ddu_usd": 11.74,
+        "landed_cost_ddp_usd": 11.18,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 12.68,
+        "at_2_2x": {
+          "sell": 8.17,
+          "fee": 0.6,
+          "profit": -4.18,
+          "margin_pct": -51.2
+        },
+        "at_market_p25": {
+          "sell": 17.09,
+          "fee": 1.26,
+          "profit": 4.09,
+          "margin_pct": 23.9
+        },
+        "at_market_median": {
+          "sell": 23.0,
+          "fee": 1.7,
+          "profit": 9.56,
+          "margin_pct": 41.6
+        },
+        "market_price_source": "serpapi_google_shopping",
+        "market_median_usd": 15.0,
+        "market_sample_n": 20,
+        "at_product_market": {
+          "sell": 15.0,
+          "fee": 1.11,
+          "profit": 2.15,
+          "margin_pct": 14.3
+        }
       },
       {
         "pd_no": "1041403",
         "name": "채비공간 어성초 추출물 비건 토너 150 ml",
         "bucket": "스킨케어",
-        "shopify_score": 90,
+        "shopify_score": 86,
         "price_krw": 5000,
         "weight_g_est": 280,
         "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
@@ -804,16 +761,59 @@
           "margin_pct": -25.3
         },
         "at_market_p25": {
-          "sell": 18.69,
-          "fee": 1.38,
-          "profit": 7.68,
-          "margin_pct": 41.1
+          "sell": 17.09,
+          "fee": 1.26,
+          "profit": 6.2,
+          "margin_pct": 36.3
         },
         "at_market_median": {
           "sell": 23.0,
           "fee": 1.7,
           "profit": 11.67,
           "margin_pct": 50.7
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 23.0,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1059834",
+        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "bucket": "마스크팩",
+        "shopify_score": 83,
+        "price_krw": 2000,
+        "weight_g_est": 85,
+        "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": true,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 3.5,
+        "shipping_order_usd": 6.99,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 5.2,
+        "landed_cost_ddu_usd": 5.2,
+        "landed_cost_ddp_usd": 4.98,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 5.62,
+        "at_2_2x": {
+          "sell": 3.27,
+          "fee": 0.24,
+          "profit": -2.18,
+          "margin_pct": -66.7
+        },
+        "at_market_p25": {
+          "sell": 17.09,
+          "fee": 1.26,
+          "profit": 10.62,
+          "margin_pct": 62.2
+        },
+        "at_market_median": {
+          "sell": 23.0,
+          "fee": 1.7,
+          "profit": 16.09,
+          "margin_pct": 70.0
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 23.0,
@@ -851,10 +851,10 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 18.69,
-          "fee": 1.38,
-          "profit": 6.05,
-          "margin_pct": 32.4
+          "sell": 17.09,
+          "fee": 1.26,
+          "profit": 4.56,
+          "margin_pct": 26.7
         },
         "at_market_median": {
           "sell": 23.0,
@@ -873,106 +873,10 @@
         }
       },
       {
-        "pd_no": "1049271",
-        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 95,
-        "price_krw": 5000,
-        "weight_g_est": 520,
-        "weight_note": "고시 용량 10.14 fl. oz. / 300 mL x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 10.72,
-        "shipping_order_usd": 10.72,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 14.99,
-        "landed_cost_ddu_usd": 14.99,
-        "landed_cost_ddp_usd": 14.43,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 16.18,
-        "at_2_2x": {
-          "sell": 8.17,
-          "fee": 0.6,
-          "profit": -7.43,
-          "margin_pct": -90.9
-        },
-        "at_market_p25": {
-          "sell": 18.69,
-          "fee": 1.38,
-          "profit": 2.32,
-          "margin_pct": 12.4
-        },
-        "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 6.31,
-          "margin_pct": 27.4
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 15.0,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 15.0,
-          "fee": 1.11,
-          "profit": -1.1,
-          "margin_pct": -7.3
-        }
-      },
-      {
-        "pd_no": "1041749",
-        "name": "식물원 병풀 클리어 앰플 30 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 94,
-        "price_krw": 5000,
-        "weight_g_est": 88,
-        "weight_note": "고시 용량 30 ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": true,
-        "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 6.24,
-        "shipping_order_usd": 6.24,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 10.51,
-        "landed_cost_ddu_usd": 10.51,
-        "landed_cost_ddp_usd": 9.95,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 11.35,
-        "at_2_2x": {
-          "sell": 8.17,
-          "fee": 0.6,
-          "profit": -2.95,
-          "margin_pct": -36.1
-        },
-        "at_market_p25": {
-          "sell": 18.69,
-          "fee": 1.38,
-          "profit": 6.8,
-          "margin_pct": 36.4
-        },
-        "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 10.79,
-          "margin_pct": 46.9
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.05,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 18.05,
-          "fee": 1.34,
-          "profit": 6.2,
-          "margin_pct": 34.4
-        }
-      },
-      {
         "pd_no": "1062781",
         "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
         "bucket": "스킨케어",
-        "shopify_score": 92,
+        "shopify_score": 91,
         "price_krw": 5000,
         "weight_g_est": 120,
         "weight_note": "고시 용량 50ml (1.69 fl.oz) x 1.6(용기) + 40g(포장)",
@@ -995,10 +899,10 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 18.69,
-          "fee": 1.38,
-          "profit": 6.05,
-          "margin_pct": 32.4
+          "sell": 17.09,
+          "fee": 1.26,
+          "profit": 4.56,
+          "margin_pct": 26.7
         },
         "at_market_median": {
           "sell": 23.0,
@@ -1012,53 +916,106 @@
         "at_product_market": null
       },
       {
-        "pd_no": "1059834",
-        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-        "bucket": "마스크팩",
-        "shopify_score": 90,
-        "price_krw": 2000,
-        "weight_g_est": 85,
-        "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
+        "pd_no": "1041749",
+        "name": "식물원 병풀 클리어 앰플 30 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 91,
+        "price_krw": 5000,
+        "weight_g_est": 88,
+        "weight_note": "고시 용량 30 ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 1.48,
+        "unit_cost_usd": 3.71,
         "shipping_unit_usd": 6.24,
         "shipping_order_usd": 6.24,
-        "tariff_usd": 0.22,
+        "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 7.95,
-        "landed_cost_ddu_usd": 7.95,
-        "landed_cost_ddp_usd": 7.73,
+        "landed_cost_usd": 10.51,
+        "landed_cost_ddu_usd": 10.51,
+        "landed_cost_ddp_usd": 9.95,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.59,
+        "breakeven_usd": 11.35,
         "at_2_2x": {
-          "sell": 3.27,
-          "fee": 0.24,
-          "profit": -4.93,
-          "margin_pct": -150.8
+          "sell": 8.17,
+          "fee": 0.6,
+          "profit": -2.95,
+          "margin_pct": -36.1
         },
         "at_market_p25": {
-          "sell": 18.69,
-          "fee": 1.38,
-          "profit": 9.36,
-          "margin_pct": 50.1
+          "sell": 17.09,
+          "fee": 1.26,
+          "profit": 5.31,
+          "margin_pct": 31.1
         },
         "at_market_median": {
           "sell": 23.0,
           "fee": 1.7,
-          "profit": 13.35,
-          "margin_pct": 58.0
+          "profit": 10.79,
+          "margin_pct": 46.9
         },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.0,
-        "market_sample_n": 100,
-        "at_product_market": null
+        "market_price_source": "serpapi_google_shopping",
+        "market_median_usd": 18.05,
+        "market_sample_n": 20,
+        "at_product_market": {
+          "sell": 18.05,
+          "fee": 1.34,
+          "profit": 6.2,
+          "margin_pct": 34.4
+        }
+      },
+      {
+        "pd_no": "1049271",
+        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 90,
+        "price_krw": 5000,
+        "weight_g_est": 520,
+        "weight_note": "고시 용량 10.14 fl. oz. / 300 mL x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.71,
+        "shipping_unit_usd": 10.72,
+        "shipping_order_usd": 10.72,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 14.99,
+        "landed_cost_ddu_usd": 14.99,
+        "landed_cost_ddp_usd": 14.43,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 16.18,
+        "at_2_2x": {
+          "sell": 8.17,
+          "fee": 0.6,
+          "profit": -7.43,
+          "margin_pct": -90.9
+        },
+        "at_market_p25": {
+          "sell": 17.09,
+          "fee": 1.26,
+          "profit": 0.84,
+          "margin_pct": 4.9
+        },
+        "at_market_median": {
+          "sell": 23.0,
+          "fee": 1.7,
+          "profit": 6.31,
+          "margin_pct": 27.4
+        },
+        "market_price_source": "serpapi_google_shopping",
+        "market_median_usd": 15.0,
+        "market_sample_n": 20,
+        "at_product_market": {
+          "sell": 15.0,
+          "fee": 1.11,
+          "profit": -1.1,
+          "margin_pct": -7.3
+        }
       },
       {
         "pd_no": "1041403",
         "name": "채비공간 어성초 추출물 비건 토너 150 ml",
         "bucket": "스킨케어",
-        "shopify_score": 90,
+        "shopify_score": 86,
         "price_krw": 5000,
         "weight_g_est": 280,
         "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
@@ -1081,16 +1038,59 @@
           "margin_pct": -54.5
         },
         "at_market_p25": {
-          "sell": 18.69,
-          "fee": 1.38,
-          "profit": 5.3,
-          "margin_pct": 28.3
+          "sell": 17.09,
+          "fee": 1.26,
+          "profit": 3.82,
+          "margin_pct": 22.3
         },
         "at_market_median": {
           "sell": 23.0,
           "fee": 1.7,
           "profit": 9.29,
           "margin_pct": 40.4
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 23.0,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1059834",
+        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "bucket": "마스크팩",
+        "shopify_score": 83,
+        "price_krw": 2000,
+        "weight_g_est": 85,
+        "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": true,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 6.24,
+        "shipping_order_usd": 6.24,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 7.95,
+        "landed_cost_ddu_usd": 7.95,
+        "landed_cost_ddp_usd": 7.73,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 8.59,
+        "at_2_2x": {
+          "sell": 3.27,
+          "fee": 0.24,
+          "profit": -4.93,
+          "margin_pct": -150.8
+        },
+        "at_market_p25": {
+          "sell": 17.09,
+          "fee": 1.26,
+          "profit": 7.88,
+          "margin_pct": 46.1
+        },
+        "at_market_median": {
+          "sell": 23.0,
+          "fee": 1.7,
+          "profit": 13.35,
+          "margin_pct": 58.0
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 23.0,
@@ -1126,10 +1126,10 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 18.69,
-          "fee": 1.38,
-          "profit": 9.17,
-          "margin_pct": 49.1
+          "sell": 17.09,
+          "fee": 1.26,
+          "profit": 7.69,
+          "margin_pct": 45.0
         },
         "at_market_median": {
           "sell": 23.0,
@@ -1148,106 +1148,10 @@
         }
       },
       {
-        "pd_no": "1049271",
-        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 95,
-        "price_krw": 5000,
-        "weight_g_est": 520,
-        "weight_note": "고시 용량 10.14 fl. oz. / 300 mL x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 7.47,
-        "shipping_order_usd": 14.94,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 11.74,
-        "landed_cost_ddu_usd": 11.74,
-        "landed_cost_ddp_usd": 11.18,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 12.68,
-        "at_2_2x": {
-          "sell": 8.17,
-          "fee": 0.6,
-          "profit": -4.18,
-          "margin_pct": -51.2
-        },
-        "at_market_p25": {
-          "sell": 18.69,
-          "fee": 1.38,
-          "profit": 5.57,
-          "margin_pct": 29.8
-        },
-        "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 9.56,
-          "margin_pct": 41.6
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 15.0,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 15.0,
-          "fee": 1.11,
-          "profit": 2.15,
-          "margin_pct": 14.3
-        }
-      },
-      {
-        "pd_no": "1041749",
-        "name": "식물원 병풀 클리어 앰플 30 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 94,
-        "price_krw": 5000,
-        "weight_g_est": 88,
-        "weight_note": "고시 용량 30 ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": true,
-        "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 3.5,
-        "shipping_order_usd": 6.99,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 7.76,
-        "landed_cost_ddu_usd": 7.76,
-        "landed_cost_ddp_usd": 7.21,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.38,
-        "at_2_2x": {
-          "sell": 8.17,
-          "fee": 0.6,
-          "profit": -0.2,
-          "margin_pct": -2.5
-        },
-        "at_market_p25": {
-          "sell": 18.69,
-          "fee": 1.38,
-          "profit": 9.54,
-          "margin_pct": 51.1
-        },
-        "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 13.53,
-          "margin_pct": 58.8
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.05,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 18.05,
-          "fee": 1.34,
-          "profit": 8.95,
-          "margin_pct": 49.6
-        }
-      },
-      {
         "pd_no": "1062781",
         "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
         "bucket": "스킨케어",
-        "shopify_score": 92,
+        "shopify_score": 91,
         "price_krw": 5000,
         "weight_g_est": 120,
         "weight_note": "고시 용량 50ml (1.69 fl.oz) x 1.6(용기) + 40g(포장)",
@@ -1270,10 +1174,10 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 18.69,
-          "fee": 1.38,
-          "profit": 9.17,
-          "margin_pct": 49.1
+          "sell": 17.09,
+          "fee": 1.26,
+          "profit": 7.69,
+          "margin_pct": 45.0
         },
         "at_market_median": {
           "sell": 23.0,
@@ -1287,53 +1191,106 @@
         "at_product_market": null
       },
       {
-        "pd_no": "1059834",
-        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-        "bucket": "마스크팩",
-        "shopify_score": 90,
-        "price_krw": 2000,
-        "weight_g_est": 85,
-        "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
+        "pd_no": "1041749",
+        "name": "식물원 병풀 클리어 앰플 30 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 91,
+        "price_krw": 5000,
+        "weight_g_est": 88,
+        "weight_note": "고시 용량 30 ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 1.48,
+        "unit_cost_usd": 3.71,
         "shipping_unit_usd": 3.5,
         "shipping_order_usd": 6.99,
-        "tariff_usd": 0.22,
+        "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 5.2,
-        "landed_cost_ddu_usd": 5.2,
-        "landed_cost_ddp_usd": 4.98,
+        "landed_cost_usd": 7.76,
+        "landed_cost_ddu_usd": 7.76,
+        "landed_cost_ddp_usd": 7.21,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 5.62,
+        "breakeven_usd": 8.38,
         "at_2_2x": {
-          "sell": 3.27,
-          "fee": 0.24,
-          "profit": -2.18,
-          "margin_pct": -66.7
+          "sell": 8.17,
+          "fee": 0.6,
+          "profit": -0.2,
+          "margin_pct": -2.5
         },
         "at_market_p25": {
-          "sell": 18.69,
-          "fee": 1.38,
-          "profit": 12.1,
-          "margin_pct": 64.8
+          "sell": 17.09,
+          "fee": 1.26,
+          "profit": 8.06,
+          "margin_pct": 47.2
         },
         "at_market_median": {
           "sell": 23.0,
           "fee": 1.7,
-          "profit": 16.09,
-          "margin_pct": 70.0
+          "profit": 13.53,
+          "margin_pct": 58.8
         },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.0,
-        "market_sample_n": 100,
-        "at_product_market": null
+        "market_price_source": "serpapi_google_shopping",
+        "market_median_usd": 18.05,
+        "market_sample_n": 20,
+        "at_product_market": {
+          "sell": 18.05,
+          "fee": 1.34,
+          "profit": 8.95,
+          "margin_pct": 49.6
+        }
+      },
+      {
+        "pd_no": "1049271",
+        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 90,
+        "price_krw": 5000,
+        "weight_g_est": 520,
+        "weight_note": "고시 용량 10.14 fl. oz. / 300 mL x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.71,
+        "shipping_unit_usd": 7.47,
+        "shipping_order_usd": 14.94,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 11.74,
+        "landed_cost_ddu_usd": 11.74,
+        "landed_cost_ddp_usd": 11.18,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 12.68,
+        "at_2_2x": {
+          "sell": 8.17,
+          "fee": 0.6,
+          "profit": -4.18,
+          "margin_pct": -51.2
+        },
+        "at_market_p25": {
+          "sell": 17.09,
+          "fee": 1.26,
+          "profit": 4.09,
+          "margin_pct": 23.9
+        },
+        "at_market_median": {
+          "sell": 23.0,
+          "fee": 1.7,
+          "profit": 9.56,
+          "margin_pct": 41.6
+        },
+        "market_price_source": "serpapi_google_shopping",
+        "market_median_usd": 15.0,
+        "market_sample_n": 20,
+        "at_product_market": {
+          "sell": 15.0,
+          "fee": 1.11,
+          "profit": 2.15,
+          "margin_pct": 14.3
+        }
       },
       {
         "pd_no": "1041403",
         "name": "채비공간 어성초 추출물 비건 토너 150 ml",
         "bucket": "스킨케어",
-        "shopify_score": 90,
+        "shopify_score": 86,
         "price_krw": 5000,
         "weight_g_est": 280,
         "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
@@ -1356,16 +1313,59 @@
           "margin_pct": -25.3
         },
         "at_market_p25": {
-          "sell": 18.69,
-          "fee": 1.38,
-          "profit": 7.68,
-          "margin_pct": 41.1
+          "sell": 17.09,
+          "fee": 1.26,
+          "profit": 6.2,
+          "margin_pct": 36.3
         },
         "at_market_median": {
           "sell": 23.0,
           "fee": 1.7,
           "profit": 11.67,
           "margin_pct": 50.7
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 23.0,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1059834",
+        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "bucket": "마스크팩",
+        "shopify_score": 83,
+        "price_krw": 2000,
+        "weight_g_est": 85,
+        "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": true,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 3.5,
+        "shipping_order_usd": 6.99,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 5.2,
+        "landed_cost_ddu_usd": 5.2,
+        "landed_cost_ddp_usd": 4.98,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 5.62,
+        "at_2_2x": {
+          "sell": 3.27,
+          "fee": 0.24,
+          "profit": -2.18,
+          "margin_pct": -66.7
+        },
+        "at_market_p25": {
+          "sell": 17.09,
+          "fee": 1.26,
+          "profit": 10.62,
+          "margin_pct": 62.2
+        },
+        "at_market_median": {
+          "sell": 23.0,
+          "fee": 1.7,
+          "profit": 16.09,
+          "margin_pct": 70.0
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 23.0,
@@ -1401,10 +1401,10 @@
           "margin_pct": -38.5
         },
         "at_market_p25": {
-          "sell": 18.69,
-          "fee": 1.38,
-          "profit": 6.6,
-          "margin_pct": 35.3
+          "sell": 17.09,
+          "fee": 1.26,
+          "profit": 5.12,
+          "margin_pct": 30.0
         },
         "at_market_median": {
           "sell": 23.0,
@@ -1423,106 +1423,10 @@
         }
       },
       {
-        "pd_no": "1049271",
-        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 95,
-        "price_krw": 5000,
-        "weight_g_est": 520,
-        "weight_note": "고시 용량 10.14 fl. oz. / 300 mL x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 10.72,
-        "shipping_order_usd": 10.72,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 14.43,
-        "landed_cost_ddu_usd": 14.99,
-        "landed_cost_ddp_usd": 14.43,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 15.58,
-        "at_2_2x": {
-          "sell": 8.17,
-          "fee": 0.6,
-          "profit": -6.87,
-          "margin_pct": -84.1
-        },
-        "at_market_p25": {
-          "sell": 18.69,
-          "fee": 1.38,
-          "profit": 2.88,
-          "margin_pct": 15.4
-        },
-        "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 6.87,
-          "margin_pct": 29.9
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 15.0,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 15.0,
-          "fee": 1.11,
-          "profit": -0.54,
-          "margin_pct": -3.6
-        }
-      },
-      {
-        "pd_no": "1041749",
-        "name": "식물원 병풀 클리어 앰플 30 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 94,
-        "price_krw": 5000,
-        "weight_g_est": 88,
-        "weight_note": "고시 용량 30 ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": true,
-        "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 6.24,
-        "shipping_order_usd": 6.24,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 9.95,
-        "landed_cost_ddu_usd": 10.51,
-        "landed_cost_ddp_usd": 9.95,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 10.75,
-        "at_2_2x": {
-          "sell": 8.17,
-          "fee": 0.6,
-          "profit": -2.39,
-          "margin_pct": -29.3
-        },
-        "at_market_p25": {
-          "sell": 18.69,
-          "fee": 1.38,
-          "profit": 7.35,
-          "margin_pct": 39.3
-        },
-        "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 11.34,
-          "margin_pct": 49.3
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.05,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 18.05,
-          "fee": 1.34,
-          "profit": 6.76,
-          "margin_pct": 37.5
-        }
-      },
-      {
         "pd_no": "1062781",
         "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
         "bucket": "스킨케어",
-        "shopify_score": 92,
+        "shopify_score": 91,
         "price_krw": 5000,
         "weight_g_est": 120,
         "weight_note": "고시 용량 50ml (1.69 fl.oz) x 1.6(용기) + 40g(포장)",
@@ -1545,10 +1449,10 @@
           "margin_pct": -38.5
         },
         "at_market_p25": {
-          "sell": 18.69,
-          "fee": 1.38,
-          "profit": 6.6,
-          "margin_pct": 35.3
+          "sell": 17.09,
+          "fee": 1.26,
+          "profit": 5.12,
+          "margin_pct": 30.0
         },
         "at_market_median": {
           "sell": 23.0,
@@ -1562,53 +1466,106 @@
         "at_product_market": null
       },
       {
-        "pd_no": "1059834",
-        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-        "bucket": "마스크팩",
-        "shopify_score": 90,
-        "price_krw": 2000,
-        "weight_g_est": 85,
-        "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
+        "pd_no": "1041749",
+        "name": "식물원 병풀 클리어 앰플 30 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 91,
+        "price_krw": 5000,
+        "weight_g_est": 88,
+        "weight_note": "고시 용량 30 ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 1.48,
+        "unit_cost_usd": 3.71,
         "shipping_unit_usd": 6.24,
         "shipping_order_usd": 6.24,
-        "tariff_usd": 0.22,
+        "tariff_usd": 0.56,
         "duty_mode": "ddp",
-        "landed_cost_usd": 7.73,
-        "landed_cost_ddu_usd": 7.95,
-        "landed_cost_ddp_usd": 7.73,
+        "landed_cost_usd": 9.95,
+        "landed_cost_ddu_usd": 10.51,
+        "landed_cost_ddp_usd": 9.95,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 8.34,
+        "breakeven_usd": 10.75,
         "at_2_2x": {
-          "sell": 3.27,
-          "fee": 0.24,
-          "profit": -4.7,
-          "margin_pct": -144.0
+          "sell": 8.17,
+          "fee": 0.6,
+          "profit": -2.39,
+          "margin_pct": -29.3
         },
         "at_market_p25": {
-          "sell": 18.69,
-          "fee": 1.38,
-          "profit": 9.58,
-          "margin_pct": 51.3
+          "sell": 17.09,
+          "fee": 1.26,
+          "profit": 5.87,
+          "margin_pct": 34.4
         },
         "at_market_median": {
           "sell": 23.0,
           "fee": 1.7,
-          "profit": 13.57,
-          "margin_pct": 59.0
+          "profit": 11.34,
+          "margin_pct": 49.3
         },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.0,
-        "market_sample_n": 100,
-        "at_product_market": null
+        "market_price_source": "serpapi_google_shopping",
+        "market_median_usd": 18.05,
+        "market_sample_n": 20,
+        "at_product_market": {
+          "sell": 18.05,
+          "fee": 1.34,
+          "profit": 6.76,
+          "margin_pct": 37.5
+        }
+      },
+      {
+        "pd_no": "1049271",
+        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 90,
+        "price_krw": 5000,
+        "weight_g_est": 520,
+        "weight_note": "고시 용량 10.14 fl. oz. / 300 mL x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.71,
+        "shipping_unit_usd": 10.72,
+        "shipping_order_usd": 10.72,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 14.43,
+        "landed_cost_ddu_usd": 14.99,
+        "landed_cost_ddp_usd": 14.43,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 15.58,
+        "at_2_2x": {
+          "sell": 8.17,
+          "fee": 0.6,
+          "profit": -6.87,
+          "margin_pct": -84.1
+        },
+        "at_market_p25": {
+          "sell": 17.09,
+          "fee": 1.26,
+          "profit": 1.4,
+          "margin_pct": 8.2
+        },
+        "at_market_median": {
+          "sell": 23.0,
+          "fee": 1.7,
+          "profit": 6.87,
+          "margin_pct": 29.9
+        },
+        "market_price_source": "serpapi_google_shopping",
+        "market_median_usd": 15.0,
+        "market_sample_n": 20,
+        "at_product_market": {
+          "sell": 15.0,
+          "fee": 1.11,
+          "profit": -0.54,
+          "margin_pct": -3.6
+        }
       },
       {
         "pd_no": "1041403",
         "name": "채비공간 어성초 추출물 비건 토너 150 ml",
         "bucket": "스킨케어",
-        "shopify_score": 90,
+        "shopify_score": 86,
         "price_krw": 5000,
         "weight_g_est": 280,
         "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
@@ -1631,16 +1588,59 @@
           "margin_pct": -47.7
         },
         "at_market_p25": {
-          "sell": 18.69,
-          "fee": 1.38,
-          "profit": 5.85,
-          "margin_pct": 31.3
+          "sell": 17.09,
+          "fee": 1.26,
+          "profit": 4.37,
+          "margin_pct": 25.6
         },
         "at_market_median": {
           "sell": 23.0,
           "fee": 1.7,
           "profit": 9.84,
           "margin_pct": 42.8
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 23.0,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1059834",
+        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "bucket": "마스크팩",
+        "shopify_score": 83,
+        "price_krw": 2000,
+        "weight_g_est": 85,
+        "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": true,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 6.24,
+        "shipping_order_usd": 6.24,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 7.73,
+        "landed_cost_ddu_usd": 7.95,
+        "landed_cost_ddp_usd": 7.73,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 8.34,
+        "at_2_2x": {
+          "sell": 3.27,
+          "fee": 0.24,
+          "profit": -4.7,
+          "margin_pct": -144.0
+        },
+        "at_market_p25": {
+          "sell": 17.09,
+          "fee": 1.26,
+          "profit": 8.1,
+          "margin_pct": 47.4
+        },
+        "at_market_median": {
+          "sell": 23.0,
+          "fee": 1.7,
+          "profit": 13.57,
+          "margin_pct": 59.0
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 23.0,
@@ -1676,10 +1676,10 @@
           "margin_pct": -0.3
         },
         "at_market_p25": {
-          "sell": 18.69,
-          "fee": 1.38,
-          "profit": 9.72,
-          "margin_pct": 52.0
+          "sell": 17.09,
+          "fee": 1.26,
+          "profit": 8.24,
+          "margin_pct": 48.2
         },
         "at_market_median": {
           "sell": 23.0,
@@ -1698,106 +1698,10 @@
         }
       },
       {
-        "pd_no": "1049271",
-        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 95,
-        "price_krw": 5000,
-        "weight_g_est": 520,
-        "weight_note": "고시 용량 10.14 fl. oz. / 300 mL x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 7.47,
-        "shipping_order_usd": 14.94,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 11.18,
-        "landed_cost_ddu_usd": 11.74,
-        "landed_cost_ddp_usd": 11.18,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 12.08,
-        "at_2_2x": {
-          "sell": 8.17,
-          "fee": 0.6,
-          "profit": -3.62,
-          "margin_pct": -44.4
-        },
-        "at_market_p25": {
-          "sell": 18.69,
-          "fee": 1.38,
-          "profit": 6.12,
-          "margin_pct": 32.8
-        },
-        "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 10.12,
-          "margin_pct": 44.0
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 15.0,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 15.0,
-          "fee": 1.11,
-          "profit": 2.71,
-          "margin_pct": 18.1
-        }
-      },
-      {
-        "pd_no": "1041749",
-        "name": "식물원 병풀 클리어 앰플 30 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 94,
-        "price_krw": 5000,
-        "weight_g_est": 88,
-        "weight_note": "고시 용량 30 ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": true,
-        "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 3.5,
-        "shipping_order_usd": 6.99,
-        "tariff_usd": 0.56,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 7.21,
-        "landed_cost_ddu_usd": 7.76,
-        "landed_cost_ddp_usd": 7.21,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 7.78,
-        "at_2_2x": {
-          "sell": 8.17,
-          "fee": 0.6,
-          "profit": 0.35,
-          "margin_pct": 4.3
-        },
-        "at_market_p25": {
-          "sell": 18.69,
-          "fee": 1.38,
-          "profit": 10.1,
-          "margin_pct": 54.0
-        },
-        "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 14.09,
-          "margin_pct": 61.3
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.05,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 18.05,
-          "fee": 1.34,
-          "profit": 9.51,
-          "margin_pct": 52.7
-        }
-      },
-      {
         "pd_no": "1062781",
         "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
         "bucket": "스킨케어",
-        "shopify_score": 92,
+        "shopify_score": 91,
         "price_krw": 5000,
         "weight_g_est": 120,
         "weight_note": "고시 용량 50ml (1.69 fl.oz) x 1.6(용기) + 40g(포장)",
@@ -1820,10 +1724,10 @@
           "margin_pct": -0.3
         },
         "at_market_p25": {
-          "sell": 18.69,
-          "fee": 1.38,
-          "profit": 9.72,
-          "margin_pct": 52.0
+          "sell": 17.09,
+          "fee": 1.26,
+          "profit": 8.24,
+          "margin_pct": 48.2
         },
         "at_market_median": {
           "sell": 23.0,
@@ -1837,53 +1741,106 @@
         "at_product_market": null
       },
       {
-        "pd_no": "1059834",
-        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-        "bucket": "마스크팩",
-        "shopify_score": 90,
-        "price_krw": 2000,
-        "weight_g_est": 85,
-        "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
+        "pd_no": "1041749",
+        "name": "식물원 병풀 클리어 앰플 30 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 91,
+        "price_krw": 5000,
+        "weight_g_est": 88,
+        "weight_note": "고시 용량 30 ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 1.48,
+        "unit_cost_usd": 3.71,
         "shipping_unit_usd": 3.5,
         "shipping_order_usd": 6.99,
-        "tariff_usd": 0.22,
+        "tariff_usd": 0.56,
         "duty_mode": "ddp",
-        "landed_cost_usd": 4.98,
-        "landed_cost_ddu_usd": 5.2,
-        "landed_cost_ddp_usd": 4.98,
+        "landed_cost_usd": 7.21,
+        "landed_cost_ddu_usd": 7.76,
+        "landed_cost_ddp_usd": 7.21,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 5.38,
+        "breakeven_usd": 7.78,
         "at_2_2x": {
-          "sell": 3.27,
-          "fee": 0.24,
-          "profit": -1.96,
-          "margin_pct": -59.9
+          "sell": 8.17,
+          "fee": 0.6,
+          "profit": 0.35,
+          "margin_pct": 4.3
         },
         "at_market_p25": {
-          "sell": 18.69,
-          "fee": 1.38,
-          "profit": 12.33,
-          "margin_pct": 66.0
+          "sell": 17.09,
+          "fee": 1.26,
+          "profit": 8.62,
+          "margin_pct": 50.4
         },
         "at_market_median": {
           "sell": 23.0,
           "fee": 1.7,
-          "profit": 16.32,
-          "margin_pct": 70.9
+          "profit": 14.09,
+          "margin_pct": 61.3
         },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.0,
-        "market_sample_n": 100,
-        "at_product_market": null
+        "market_price_source": "serpapi_google_shopping",
+        "market_median_usd": 18.05,
+        "market_sample_n": 20,
+        "at_product_market": {
+          "sell": 18.05,
+          "fee": 1.34,
+          "profit": 9.51,
+          "margin_pct": 52.7
+        }
+      },
+      {
+        "pd_no": "1049271",
+        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 90,
+        "price_krw": 5000,
+        "weight_g_est": 520,
+        "weight_note": "고시 용량 10.14 fl. oz. / 300 mL x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.71,
+        "shipping_unit_usd": 7.47,
+        "shipping_order_usd": 14.94,
+        "tariff_usd": 0.56,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 11.18,
+        "landed_cost_ddu_usd": 11.74,
+        "landed_cost_ddp_usd": 11.18,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 12.08,
+        "at_2_2x": {
+          "sell": 8.17,
+          "fee": 0.6,
+          "profit": -3.62,
+          "margin_pct": -44.4
+        },
+        "at_market_p25": {
+          "sell": 17.09,
+          "fee": 1.26,
+          "profit": 4.64,
+          "margin_pct": 27.2
+        },
+        "at_market_median": {
+          "sell": 23.0,
+          "fee": 1.7,
+          "profit": 10.12,
+          "margin_pct": 44.0
+        },
+        "market_price_source": "serpapi_google_shopping",
+        "market_median_usd": 15.0,
+        "market_sample_n": 20,
+        "at_product_market": {
+          "sell": 15.0,
+          "fee": 1.11,
+          "profit": 2.71,
+          "margin_pct": 18.1
+        }
       },
       {
         "pd_no": "1041403",
         "name": "채비공간 어성초 추출물 비건 토너 150 ml",
         "bucket": "스킨케어",
-        "shopify_score": 90,
+        "shopify_score": 86,
         "price_krw": 5000,
         "weight_g_est": 280,
         "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
@@ -1906,16 +1863,59 @@
           "margin_pct": -18.5
         },
         "at_market_p25": {
-          "sell": 18.69,
-          "fee": 1.38,
-          "profit": 8.24,
-          "margin_pct": 44.1
+          "sell": 17.09,
+          "fee": 1.26,
+          "profit": 6.75,
+          "margin_pct": 39.5
         },
         "at_market_median": {
           "sell": 23.0,
           "fee": 1.7,
           "profit": 12.23,
           "margin_pct": 53.2
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 23.0,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1059834",
+        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "bucket": "마스크팩",
+        "shopify_score": 83,
+        "price_krw": 2000,
+        "weight_g_est": 85,
+        "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": true,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 3.5,
+        "shipping_order_usd": 6.99,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 4.98,
+        "landed_cost_ddu_usd": 5.2,
+        "landed_cost_ddp_usd": 4.98,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 5.38,
+        "at_2_2x": {
+          "sell": 3.27,
+          "fee": 0.24,
+          "profit": -1.96,
+          "margin_pct": -59.9
+        },
+        "at_market_p25": {
+          "sell": 17.09,
+          "fee": 1.26,
+          "profit": 10.84,
+          "margin_pct": 63.5
+        },
+        "at_market_median": {
+          "sell": 23.0,
+          "fee": 1.7,
+          "profit": 16.32,
+          "margin_pct": 70.9
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 23.0,

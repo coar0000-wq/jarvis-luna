@@ -2,7 +2,7 @@
 title: "Record bf2f1d100c · Korean-Skincare-Really-Is-Living-In-the-FutureThese"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T11:46:21.517948+00:00
+updated_at: 2026-09-15T13:15:48.796908+00:00
 tags: [record, real-data]
 ---
 

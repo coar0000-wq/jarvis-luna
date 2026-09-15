@@ -1,12 +1,12 @@
 ---
-title: "Record 0d61c3eed2 · Nicole-Kidmans-Curtain-Bangs-Swept-the-Emmys-2026-Red-CarpetSee-the-Ph"
+title: "Record 0d61c3eed2 · Nicole-Kidmans-Curtain-Bangs-Swept-the-Emmys-2026-R"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T11:46:21.718547+00:00
+updated_at: 2026-09-15T13:15:48.980477+00:00
 tags: [record, real-data]
 ---
 
-# Record 0d61c3eed2 · Nicole-Kidmans-Curtain-Bangs-Swept-the-Emmys-2026-Red-CarpetSee-the-Ph
+# Record 0d61c3eed2 · Nicole-Kidmans-Curtain-Bangs-Swept-the-Emmys-2026-R
 
 > 실제 수집 레코드입니다. 원문: [www.allure.com](https://www.allure.com/story/nicole-kidman-curtain-bangs-emmys-2026)
 

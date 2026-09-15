@@ -2,7 +2,7 @@
 title: "Record 7a6c1fc5d9 · I-went-to-South-Korea-and-transformed-my-skin-the-5"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T11:46:21.598194+00:00
+updated_at: 2026-09-15T13:15:48.853772+00:00
 tags: [record, real-data]
 ---
 

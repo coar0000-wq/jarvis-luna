@@ -2,7 +2,7 @@
 title: "Record b3b01b6ca0 · Is-Hiring-a-Shopify-Developer-Still-Worth-It-in-202"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T11:46:21.604573+00:00
+updated_at: 2026-09-15T13:15:48.858399+00:00
 tags: [record, real-data]
 ---
 

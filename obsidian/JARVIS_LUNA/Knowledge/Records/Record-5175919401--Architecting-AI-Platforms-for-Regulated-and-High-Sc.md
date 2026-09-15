@@ -2,7 +2,7 @@
 title: "Record 5175919401 · Architecting-AI-Platforms-for-Regulated-and-High-Sc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T11:46:21.336187+00:00
+updated_at: 2026-09-15T13:15:48.655654+00:00
 tags: [record, real-data]
 ---
 

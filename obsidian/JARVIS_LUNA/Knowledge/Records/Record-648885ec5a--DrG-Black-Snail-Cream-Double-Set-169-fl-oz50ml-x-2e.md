@@ -2,7 +2,7 @@
 title: "Record 648885ec5a · DrG-Black-Snail-Cream-Double-Set-169-fl-oz50ml-x-2e"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T11:46:21.689556+00:00
+updated_at: 2026-09-15T13:15:48.956542+00:00
 tags: [record, real-data]
 ---
 

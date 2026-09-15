@@ -2,7 +2,7 @@
 title: "Record 2a74e812c2 · BottomUp-Engineering-of-a-Human-Neuromuscular-Syste"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T11:46:21.204648+00:00
+updated_at: 2026-09-15T13:15:48.551538+00:00
 tags: [record, real-data]
 ---
 

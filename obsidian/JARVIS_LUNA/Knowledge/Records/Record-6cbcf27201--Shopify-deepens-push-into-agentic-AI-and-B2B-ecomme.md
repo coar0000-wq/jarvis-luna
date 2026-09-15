@@ -2,7 +2,7 @@
 title: "Record 6cbcf27201 · Shopify-deepens-push-into-agentic-AI-and-B2B-ecomme"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T11:46:21.574196+00:00
+updated_at: 2026-09-15T13:15:48.836151+00:00
 tags: [record, real-data]
 ---
 

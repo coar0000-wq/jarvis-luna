@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T07:09:49.753443+00:00",
+  "generated_at": "2026-09-15T13:09:21.713637+00:00",
   "generator": "scripts/ingest_youtube_channels.py",
   "입력": "data/manual/youtube_channels.txt",
   "robots": "youtube.com/robots.txt 의 Disallow 목록에 /@ 와 /channel/ 은 없다. 막힌 것은 /feeds/videos.xml, /results, /youtubei/ 등이다. 지정된 채널만 하나씩 본다. 2026-09-06 확인.",
@@ -45,9 +45,9 @@
     {
       "video_id": "2TlIg3VokY8",
       "title": "The UX Psychology Behind Apps People Can’t Stop Using",
-      "views_text": "492K views",
+      "views_text": "493K views",
       "published_text": "2 months ago",
-      "views": 492000,
+      "views": 493000,
       "url": "https://www.youtube.com/watch?v=2TlIg3VokY8",
       "channel": "uxpeak",
       "teams": [
@@ -81,9 +81,9 @@
     {
       "video_id": "8pMUkEbAM7g",
       "title": "Top 5 UX/UI Design Tips and Tricks Every Designer Needs to Know About, part 1",
-      "views_text": "271K views",
+      "views_text": "272K views",
       "published_text": "2 years ago",
-      "views": 271000,
+      "views": 272000,
       "url": "https://www.youtube.com/watch?v=8pMUkEbAM7g",
       "channel": "uxpeak",
       "teams": [
@@ -93,9 +93,9 @@
     {
       "video_id": "YlN28RNChl0",
       "title": "This Video Will Take You From Junior to Senior UX/UI Designer",
-      "views_text": "252K views",
+      "views_text": "253K views",
       "published_text": "1 year ago",
-      "views": 252000,
+      "views": 253000,
       "url": "https://www.youtube.com/watch?v=YlN28RNChl0",
       "channel": "uxpeak",
       "teams": [
@@ -117,9 +117,9 @@
     {
       "video_id": "GGg61sdEjeI",
       "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
-      "views_text": "230K views",
+      "views_text": "234K views",
       "published_text": "2 weeks ago",
-      "views": 230000,
+      "views": 234000,
       "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
       "channel": "uxpeak",
       "teams": [
@@ -202,7 +202,7 @@
   "items": [
     {
       "stale": false,
-      "last_ok_at": "2026-09-15T07:09:39.518042+00:00",
+      "last_ok_at": "2026-09-15T13:09:11.384161+00:00",
       "url": "https://www.youtube.com/@uxpeak",
       "note": "UX/UI 리디자인·전환율 (사용자 지정)",
       "team_hint": "design",
@@ -211,14 +211,14 @@
       "subscribers": "123K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-15T07:09:39.518062+00:00",
+      "checked_at": "2026-09-15T13:09:11.384183+00:00",
       "videos": [
         {
           "video_id": "GGg61sdEjeI",
           "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
-          "views_text": "230K views",
+          "views_text": "234K views",
           "published_text": "2 weeks ago",
-          "views": 230000,
+          "views": 234000,
           "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
           "channel": "uxpeak",
           "teams": [
@@ -228,9 +228,9 @@
         {
           "video_id": "2TlIg3VokY8",
           "title": "The UX Psychology Behind Apps People Can’t Stop Using",
-          "views_text": "492K views",
+          "views_text": "493K views",
           "published_text": "2 months ago",
-          "views": 492000,
+          "views": 493000,
           "url": "https://www.youtube.com/watch?v=2TlIg3VokY8",
           "channel": "uxpeak",
           "teams": [
@@ -300,9 +300,9 @@
         {
           "video_id": "YlN28RNChl0",
           "title": "This Video Will Take You From Junior to Senior UX/UI Designer",
-          "views_text": "252K views",
+          "views_text": "253K views",
           "published_text": "1 year ago",
-          "views": 252000,
+          "views": 253000,
           "url": "https://www.youtube.com/watch?v=YlN28RNChl0",
           "channel": "uxpeak",
           "teams": [
@@ -336,9 +336,9 @@
         {
           "video_id": "8pMUkEbAM7g",
           "title": "Top 5 UX/UI Design Tips and Tricks Every Designer Needs to Know About, part 1",
-          "views_text": "271K views",
+          "views_text": "272K views",
           "published_text": "2 years ago",
-          "views": 271000,
+          "views": 272000,
           "url": "https://www.youtube.com/watch?v=8pMUkEbAM7g",
           "channel": "uxpeak",
           "teams": [
@@ -469,7 +469,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-15T07:09:44.753226+00:00",
+      "last_ok_at": "2026-09-15T13:09:16.713412+00:00",
       "url": "https://www.youtube.com/@%EB%95%A1%ED%81%90%EC%B1%84%EB%84%90",
       "note": "땡스큐레이터 - 스몰 브랜드 브랜딩·수출·견적. 팀은 영상마다 자동 분류",
       "team_hint": "",
@@ -478,13 +478,13 @@
       "subscribers": "18.5K",
       "video_count": 20,
       "error": "",
-      "checked_at": "2026-09-15T07:09:44.753241+00:00",
+      "checked_at": "2026-09-15T13:09:16.713430+00:00",
       "videos": [
         {
           "video_id": "CSr4DYGUPOM",
           "title": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
           "views_text": "74K views",
-          "published_text": "11 days ago",
+          "published_text": "12 days ago",
           "views": 74000,
           "url": "https://www.youtube.com/watch?v=CSr4DYGUPOM",
           "channel": "땡스큐레이터",
@@ -509,9 +509,9 @@
         {
           "video_id": "ctBFjJ0ujKs",
           "title": "🚨견적서가 너무 어려운 사장님들 주목! | 견적 책정 기준부터 세부 항목까지 자세하게 뜯어보기 👀",
-          "views_text": "4.1K views",
+          "views_text": "4.2K views",
           "published_text": "1 month ago",
-          "views": 4100,
+          "views": 4200,
           "url": "https://www.youtube.com/watch?v=ctBFjJ0ujKs",
           "channel": "땡스큐레이터",
           "teams": [
@@ -680,9 +680,9 @@
         {
           "video_id": "Tu8Ziv_y_Cc",
           "title": "마케팅에 속지않는 화장품 구매팁! 👌 ❌화장품 마케팅 싫어 🔥땡큐한 화장품 추천 ✔️ 솔직리뷰! 마케팅 썰 대방출 / 천연 화장품 /유기농 화장품 / 더마 화장품 [땡큐]",
-          "views_text": "989 views",
+          "views_text": "991 views",
           "published_text": "6 years ago",
-          "views": 989,
+          "views": 991,
           "url": "https://www.youtube.com/watch?v=Tu8Ziv_y_Cc",
           "channel": "땡스큐레이터",
           "teams": [

@@ -2,7 +2,7 @@
 title: "Record 0634631403 · Real-time-frosting-detection-and-deep-learning-base"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T11:46:21.219960+00:00
+updated_at: 2026-09-15T13:15:48.563800+00:00
 tags: [record, real-data]
 ---
 

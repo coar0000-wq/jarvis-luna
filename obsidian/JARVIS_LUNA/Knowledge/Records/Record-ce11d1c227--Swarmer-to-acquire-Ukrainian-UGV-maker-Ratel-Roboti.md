@@ -2,7 +2,7 @@
 title: "Record ce11d1c227 · Swarmer-to-acquire-Ukrainian-UGV-maker-Ratel-Roboti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T11:46:21.806421+00:00
+updated_at: 2026-09-15T13:15:49.045132+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record a91d4c96d7 · FerroelectricAssisted-van-der-Waals-ChargeDynamics-Reservoir-Arrays-fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T11:46:21.204938+00:00
+updated_at: 2026-09-15T13:15:48.551760+00:00
 tags: [record, real-data]
 ---
 

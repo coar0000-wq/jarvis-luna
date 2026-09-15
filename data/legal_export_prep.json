@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T07:15:26.799598+00:00",
+  "generated_at": "2026-09-15T13:14:11.961051+00:00",
   "generator": "scripts/prepare_legal_export.py",
   "왜": "법률팀이 '검토 0건, 5항목 대기' 였는데 그 다섯 중 넷은 이미 저장소에 있는 값으로 채울 수 있었다. 먼저 채우고 사람은 확인만 한다.",
   "hs_출처": "hts.usitc.gov/reststop/search (미국 국제무역위원회 공식)",
@@ -22,7 +22,7 @@
       "제조국": "한국",
       "내용량": "40 ml",
       "제조업자": "주식회사 씨엔에프 / (주)더샘인터내셔날",
-      "name_en": "Drop B Firming Glow Ampoule 40 ml",
+      "name_en": "Drop B Firming Glow Ampoule 40ml",
       "product_type_en": "Face Serum",
       "hs": {
         "code": "3304.99",
@@ -59,7 +59,7 @@
         "draft": {
           "product_identity": {
             "label": "제품 정체 표시",
-            "value": "Drop B Firming Glow Ampoule 40 ml",
+            "value": "Drop B Firming Glow Ampoule 40ml",
             "rule": "주표시면. 무엇인지 알 수 있는 이름이나 설명"
           },
           "net_quantity": {
@@ -108,7 +108,7 @@
       "내용량": "10.14 fl. oz. / 300 mL",
       "제조업자": "화장품제조업자: (주)에스테르\n화장품책임판매업자: (주)브이티코스메틱",
       "name_en": "VT Cica Calming Toner 300 ml",
-      "product_type_en": "Face Toner",
+      "product_type_en": "Facial Toner",
       "hs": {
         "code": "3304.99",
         "basis": "버킷 '스킨케어'",
@@ -447,7 +447,7 @@
       "제조국": "한국",
       "내용량": "150ml",
       "제조업자": "(주)뉴앤뉴 / (주)브랜뉴이",
-      "name_en": "Chaebi Gongan Houttuynia Cordata Extract Vegan Toner 150 ml",
+      "name_en": "Chaebi Gongan Heartleaf Extract Vegan Toner 150ml",
       "product_type_en": "Face Toner",
       "hs": {
         "code": "3304.99",
@@ -484,7 +484,7 @@
         "draft": {
           "product_identity": {
             "label": "제품 정체 표시",
-            "value": "Chaebi Gongan Houttuynia Cordata Extract Vegan Toner 150 ml",
+            "value": "Chaebi Gongan Heartleaf Extract Vegan Toner 150ml",
             "rule": "주표시면. 무엇인지 알 수 있는 이름이나 설명"
           },
           "net_quantity": {

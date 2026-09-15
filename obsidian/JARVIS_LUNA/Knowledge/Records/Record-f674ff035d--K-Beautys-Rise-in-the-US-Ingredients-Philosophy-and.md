@@ -2,7 +2,7 @@
 title: "Record f674ff035d · K-Beautys-Rise-in-the-US-Ingredients-Philosophy-and"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T11:46:21.607089+00:00
+updated_at: 2026-09-15T13:15:48.860218+00:00
 tags: [record, real-data]
 ---
 

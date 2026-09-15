@@ -1,12 +1,12 @@
 ---
-title: "Record 01c16f12dc · Zendaya-Debuted-Her-New-Pixie-Cut-at-the-2026-EmmysSee-the-Photos"
+title: "Record 01c16f12dc · Zendaya-Debuted-Her-New-Pixie-Cut-at-the-2026-Emmys"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T11:46:21.720662+00:00
+updated_at: 2026-09-15T13:15:48.982074+00:00
 tags: [record, real-data]
 ---
 
-# Record 01c16f12dc · Zendaya-Debuted-Her-New-Pixie-Cut-at-the-2026-EmmysSee-the-Photos
+# Record 01c16f12dc · Zendaya-Debuted-Her-New-Pixie-Cut-at-the-2026-Emmys
 
 > 실제 수집 레코드입니다. 원문: [www.allure.com](https://www.allure.com/story/zendaya-pixie-cut-2026-emmys)
 

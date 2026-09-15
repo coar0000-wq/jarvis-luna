@@ -2,7 +2,7 @@
 title: "Record 25dc2e1609 · Crimped-Hair-Got-a-Sleek-Makeover-at-New-York-Fashi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T11:46:21.713861+00:00
+updated_at: 2026-09-15T13:15:48.976943+00:00
 tags: [record, real-data]
 ---
 

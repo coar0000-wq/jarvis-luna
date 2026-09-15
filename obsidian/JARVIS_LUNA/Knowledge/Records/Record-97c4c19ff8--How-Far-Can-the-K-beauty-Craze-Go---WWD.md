@@ -2,7 +2,7 @@
 title: "Record 97c4c19ff8 · How-Far-Can-the-K-beauty-Craze-Go---WWD"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T11:46:21.563169+00:00
+updated_at: 2026-09-15T13:15:48.828145+00:00
 tags: [record, real-data]
 ---
 
