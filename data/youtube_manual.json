@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-15T07:09:49.831209+00:00",
+  "generated_at": "2026-09-15T10:40:24.849157+00:00",
   "generator": "scripts/ingest_youtube_links.py",
-  "입력": "data/manual/youtube_links.txt",
+  "입력": "data\\manual\\youtube_links.txt",
   "robots": "youtube.com/robots.txt 는 /feeds/videos.xml 을 막지만 /watch 는 막지 않는다. 목록을 긁는 게 아니라 사람이 지정한 것만 받는다.",
-  "total": 14,
-  "ok": 14,
+  "total": 15,
+  "ok": 15,
   "failed": 0,
-  "fetched_this_run": 0,
+  "fetched_this_run": 1,
   "bad_lines": [],
   "by_team": {
-    "listing": 5,
-    "pricing": 1,
-    "market": 3,
+    "listing": 6,
+    "pricing": 2,
+    "market": 4,
     "knowledge": 3,
-    "design": 8,
-    "sourcing": 1
+    "design": 9,
+    "sourcing": 2
   },
   "학습금지_표시": [
     {
@@ -319,6 +319,30 @@
       ],
       "team_source": "사람 지정",
       "collected_at": "2026-09-07T10:59:12.210632+00:00",
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
+    },
+    {
+      "video_id": "u36eK74YKv0",
+      "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
+      "note": "Matt Clark - AI로 대형 브랜드 이기기. 큰 시장 속 불만족 집단을 리뷰로 찾기 / 가격 경쟁 대신 AI 보너스로 가치 올리기 / 카피 3입력(제품 사실·리뷰 원문 표현·Ad Library 예시) / 메타 단일 캠페인에 주 10~20개 광고 / 리스티클 랜딩",
+      "title": "How to use AI to beat big brands on Shopify ($0 to $1M)",
+      "channel": "Matt Clark",
+      "views": 5552,
+      "length_sec": 1108,
+      "published": "",
+      "description": "Discover the exact marketing strategies, funnels, ads, principles, and frameworks I'm using to scale my businesses. Join thousands of founders receiving my newsletter, The Scaling Journal, for free: https://www.mattc.com/newsletter/\n\nOnly 10 months ago, big brands had all the advantages — more money, more people, more resources. Competing with them on Shopify felt impossible.\n\nThen one AI tool came out, and nearly every advantage they'd sat on for decades melted away.\n\nI've been building businesses for 17 years and have over $460 million in sales. \nOne business I own is doing $5 million a mont",
+      "error": "",
+      "ai_training_allowed": null,
+      "rights_marks": [],
+      "teams": [
+        "sourcing",
+        "market",
+        "pricing",
+        "listing",
+        "design"
+      ],
+      "team_source": "사람 지정",
+      "collected_at": "2026-09-15T10:40:21.848713+00:00",
       "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
     }
   ]
