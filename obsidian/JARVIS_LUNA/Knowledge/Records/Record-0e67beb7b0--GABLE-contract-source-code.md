@@ -2,7 +2,7 @@
 title: "Record 0e67beb7b0 · GABLE-contract-source-code"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T20:58:47.797644+00:00
+updated_at: 2026-09-15T21:23:19.996950+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record e6549df0db · ilso-Super-Melting-Sebum-Softener-529-oz150ml--Skin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T20:58:48.255660+00:00
+updated_at: 2026-09-15T21:23:20.399897+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 56a48d81f5 · Clean--Clear-Blackhead-Clearing-Daily-Scrub"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T20:58:48.274876+00:00
+updated_at: 2026-09-15T21:23:20.420088+00:00
 tags: [record, real-data]
 ---
 

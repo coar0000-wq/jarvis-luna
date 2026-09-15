@@ -2,7 +2,7 @@
 title: "Record 5199256c7d · Novel-highisolation-circuit-for-multiple-antennas-i"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T20:58:47.844597+00:00
+updated_at: 2026-09-15T21:23:20.036437+00:00
 tags: [record, real-data]
 ---
 

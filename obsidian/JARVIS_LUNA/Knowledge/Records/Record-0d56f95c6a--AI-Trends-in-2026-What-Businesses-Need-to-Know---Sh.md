@@ -2,7 +2,7 @@
 title: "Record 0d56f95c6a · AI-Trends-in-2026-What-Businesses-Need-to-Know---Sh"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T20:58:47.934020+00:00
+updated_at: 2026-09-15T21:23:20.114677+00:00
 tags: [record, real-data]
 ---
 

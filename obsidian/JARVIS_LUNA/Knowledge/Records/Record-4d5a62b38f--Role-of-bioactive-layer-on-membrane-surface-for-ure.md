@@ -2,7 +2,7 @@
 title: "Record 4d5a62b38f · Role-of-bioactive-layer-on-membrane-surface-for-ure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T20:58:47.723819+00:00
+updated_at: 2026-09-15T21:23:19.932142+00:00
 tags: [record, real-data]
 ---
 

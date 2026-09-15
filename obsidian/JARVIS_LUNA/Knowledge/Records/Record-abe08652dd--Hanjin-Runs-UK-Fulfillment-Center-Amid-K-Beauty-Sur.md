@@ -2,7 +2,7 @@
 title: "Record abe08652dd · Hanjin-Runs-UK-Fulfillment-Center-Amid-K-Beauty-Surge---Businesskorea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T20:58:48.016862+00:00
+updated_at: 2026-09-15T21:23:20.182375+00:00
 tags: [record, real-data]
 ---
 

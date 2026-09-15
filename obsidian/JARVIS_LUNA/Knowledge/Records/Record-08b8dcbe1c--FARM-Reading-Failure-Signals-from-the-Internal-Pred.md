@@ -2,7 +2,7 @@
 title: "Record 08b8dcbe1c · FARM-Reading-Failure-Signals-from-the-Internal-Pred"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T20:58:47.675467+00:00
+updated_at: 2026-09-15T21:23:19.888039+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 8df78320ba · Zero-Hunger-Mission"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T20:58:48.375207+00:00
+updated_at: 2026-09-15T21:23:20.519660+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 644bfd7586 · From-Snail-Mucin-to-PDRN-10-Ingredients-That-Define"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T20:58:47.984907+00:00
+updated_at: 2026-09-15T21:23:20.156308+00:00
 tags: [record, real-data]
 ---
 

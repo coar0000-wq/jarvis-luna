@@ -2,7 +2,7 @@
 title: "Record 620ca07606 · Fine-root-traits-coordinate-with-aboveground-strate"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T20:58:47.714922+00:00
+updated_at: 2026-09-15T21:23:19.923988+00:00
 tags: [record, real-data]
 ---
 

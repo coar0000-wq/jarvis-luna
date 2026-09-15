@@ -2,7 +2,7 @@
 title: "Record 7f6959c2fd · The-Best-Beauty-Looks-at-the-2026-Emmy-Awards-You-D"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T20:58:48.279653+00:00
+updated_at: 2026-09-15T21:23:20.424627+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,10 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [www.allure.com](https://www.allure.com/gallery/best-beauty-looks-2026-emmy-awards)
 
-**제목:** The Best Beauty Looks at the 2026 Emmy Awards? You Decide
+**제목:** The Best Beauty Looks From the 2026 Emmys
 
-The Best Beauty Looks at the 2026 Emmy Awards? You Decide
-The Best Beauty Looks at the 2026 Emmy Awards? You Decide
+The Best Beauty Looks From the 2026 Emmys
+The Best Beauty Looks From the 2026 Emmys
 
 **출처:** Source · us_beauty
 

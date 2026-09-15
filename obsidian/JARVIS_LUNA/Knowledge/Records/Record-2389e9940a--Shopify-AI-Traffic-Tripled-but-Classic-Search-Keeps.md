@@ -2,7 +2,7 @@
 title: "Record 2389e9940a · Shopify-AI-Traffic-Tripled-but-Classic-Search-Keeps"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T20:58:48.060763+00:00
+updated_at: 2026-09-15T21:23:20.220589+00:00
 tags: [record, real-data]
 ---
 

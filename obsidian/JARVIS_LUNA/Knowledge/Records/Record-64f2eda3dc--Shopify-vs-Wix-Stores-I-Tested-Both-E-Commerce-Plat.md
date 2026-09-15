@@ -2,7 +2,7 @@
 title: "Record 64f2eda3dc · Shopify-vs-Wix-Stores-I-Tested-Both-E-Commerce-Plat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T20:58:48.149788+00:00
+updated_at: 2026-09-15T21:23:20.302280+00:00
 tags: [record, real-data]
 ---
 
