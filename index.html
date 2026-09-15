@@ -170,6 +170,13 @@ box-shadow:inset 0 0 60px rgba(0,0,0,0.5),0 8px 32px rgba(0,0,0,0.3);}
 .pd-name{font-size:15px;font-weight:600;color:#e0e0e0;margin-bottom:3px;}
 .pd-desc{font-size:13px;color:#888;}
 .pd-change{font-size:14px;font-weight:600;color:#3fb950;white-space:nowrap;}
+.pd-slot{font-size:12px;font-weight:600;color:#d29922;background:rgba(210,153,34,.13);border:1px solid rgba(210,153,34,.26);border-radius:5px;padding:3px 9px;white-space:nowrap;}
+.pd-slot.full{color:#3fb950;background:rgba(63,185,80,.13);border-color:rgba(63,185,80,.26);}
+.pd-score{font-size:14px;font-weight:600;color:#58a6ff;white-space:nowrap;}
+.pd-why{font-size:11px;color:#6e7681;margin-top:3px;}
+.pd-foot{font-size:11px;color:#6e7681;margin-top:12px;padding-top:10px;border-top:1px solid #2a2a2a;line-height:1.5;}
+.pd-name a{color:inherit;text-decoration:none;}
+.pd-name a:hover{color:#58a6ff;text-decoration:underline;}
 
 /* Shopify Demand Score Card */
 .sd-card{padding:20px 22px!important;}
@@ -521,26 +528,29 @@ nav a{font-size:12px;}
 </svg>
 Product Discovery
 </div>
-<div class="pd-menu">⋯</div>
+<div class="pd-slot" id="pd-slot">–</div>
 </div>
 <!--
   2026-09-15 여기는 손으로 박은 가짜 목록이었다.
-    Hydrating Serum ↑ 24%
-    Ceramide Moisturizer ↑ 18%
-    Daily SPF 50 ↑ 12%
+    Hydrating Serum ↑ 24% / Ceramide Moisturizer ↑ 18% / Daily SPF 50 ↑ 12%
+  수치까지 지어낸 것이고, 그중 선크림은 애초에 팔 수 없는 물건이다.
+  (미국에선 OTC 의약품. category_map.json 의 [선케어] 규칙이 이미 막는다.)
 
-  세 개 다 수치까지 지어낸 것이어서 수집 결과와 아무 관계가 없다.
-  더구나 Daily SPF 50 은 팔 수 있는 물건이 아니다.
-  미국에서 선크림은 화장품이 아니라 OTC 의약품이고,
-  category_map.json 의 [선케어] 규칙이 이미 수집 단계에서 걷어낸다.
-  시스템이 막은 물건을 대시보드가 추천하고 있었다.
+  그 다음엔 S등급 상위 3건을 뿌렸는데, 그건 아래 "Shopify S등급"
+  카드가 이미 하는 일이라 중복이었다.
 
-  제외 규칙과 법률 하드블록을 이미 통과한 S등급 실물로 바꾼다.
-  근거: data/market_team.json 의 s_grade_priority
+  지금은 "다음에 뭔 추가할까"를 답한다.
+  등록 단계는 5/6 로 여유가 있고, 정작 막힌 곳은 카탈로그 크기다.
+  S 정원은 10인데 6개만 채워져 있고, A등급에 96점짜리가 남아 있다.
+  (현재 S 최저점은 90이다. 점수가 모자라서 빠진 게 아니다.)
+
+  근거: data/daiso_real/shopify_demand_score.json
+         all_scored · s_slot_limit · s_slot_open
 -->
 <ul class="pd-list" id="pd-list">
 <li class="pd-item"><div class="pd-info"><div class="pd-desc">불러오는 중...</div></div></li>
 </ul>
+<div class="pd-foot" id="pd-foot"></div>
 </div>
 
 <div class="dashboard-card">
@@ -647,35 +657,104 @@ function isSellable(row){
 // 갈래별 아이콘. 못 찾으면 기본값.
 const PD_ICON = {'스킨케어':'💧','클렌징':'🧼','마스크팩':'🎭','헤어':'💇','바디':'🧴','메이크업':'💄','뷰티소품':'🪮'};
 
-function renderProductDiscovery(mt){
+// S 등급을 못 달았던 이유를 사람 말로 바꿜다.
+// 정본은 score_shopify_demand.py 의 qualify_s() / assign_grades() 다.
+const S_RULE_KO = {
+  'match_too_weak'  : '미국 상품명 매칭이 약함',
+  'weak_solo_token' : '단일 키워드만 걸림',
+  'no_global_match' : '미국 유사품을 못 찾음',
+  'score_below_82'  : '점수 82 미만',
+  'form_cap'        : '같은 제형 상위 2개에 밀림',
+  'rank_cap'        : '정원 밖',
+  'claim_risk'      : '효능 표현 위험',
+  'no_us_listing'   : '미국 실판매 목록 없음',
+  'non_core'        : '핵심 카테고리 아님',
+  'non_core_bucket' : '핵심 카테고리 아님',
+  'sold_out'        : '품절'
+};
+
+// 다음에 뭔 추가할까.
+//
+// 현재 S 는 아래 "Shopify S등급" 카드가 이미 보여준다.
+// 여기는 그 다음 줄, 즉 카탈로그를 늘릴 후보를 보여준다.
+// 점수 높은 순으로 A등급을 올리고, S 를 못 간 이유를 같이 적는다.
+function renderProductDiscovery(sd){
   const ul = $('pd-list');
   if(!ul) return;
+  const slot = $('pd-slot');
+  const foot = $('pd-foot');
 
-  const rows = ((mt && mt.s_grade_priority) || []).filter(isSellable);
+  const all = (sd && sd.all_scored) || [];
+  const summary = (sd && sd.grade_summary) || {};
+  const sNow = summary.S || 0;
+  const limit = (sd && sd.s_slot_limit) != null ? sd.s_slot_limit : null;
+  const open = (sd && sd.s_slot_open) != null ? sd.s_slot_open : null;
 
-  if(!rows.length){
+  // 정원 배지
+  if(slot){
+    if(limit == null){
+      slot.textContent = 'S ' + sNow + '개';
+      slot.className = 'pd-slot';
+    }else if(open > 0){
+      slot.textContent = 'S ' + sNow + '/' + limit + ' · 빈자리 ' + open;
+      slot.className = 'pd-slot';
+    }else{
+      slot.textContent = 'S ' + sNow + '/' + limit + ' · 정원 차음';
+      slot.className = 'pd-slot full';
+    }
+  }
+
+  // 후보 = A등급 · 팔 수 있는 것만 · 점수 높은 순
+  const cands = all
+    .filter(r => (r.grade === 'A') && isSellable(r))
+    .sort((a,b) => (b.shopify_score||0) - (a.shopify_score||0));
+
+  if(!cands.length){
     ul.innerHTML = '<li class="pd-item"><div class="pd-info">'
-      + '<div class="pd-desc">등록 가능한 S등급 상품이 없습니다</div></div></li>';
+      + '<div class="pd-desc">승급 후보가 없습니다</div></div></li>';
+    if(foot) foot.textContent = '';
     return;
   }
 
-  ul.innerHTML = rows.slice(0,3).map(p=>{
+  // 현재 S 최저점. "후보가 이미 그보다 높다"를 보이려고 쓴다.
+  const sScores = all.filter(r => r.grade === 'S')
+                     .map(r => r.shopify_score || 0);
+  const sMin = sScores.length ? Math.min.apply(null, sScores) : null;
+
+  ul.innerHTML = cands.slice(0,3).map(p=>{
     const icon = PD_ICON[p.bucket] || '🧪';
-    const name = p.name_en || p.name || '';
-    // 점수는 실제 산출값이다. 추세 퍼센트를 지어내지 않는다.
-    const score = (p.score != null) ? ('점수 ' + p.score) : '점수 없음';
-    const sub = [p.bucket, score].filter(Boolean).join(' · ');
-    const price = (p.suggested_price_usd != null)
-      ? ('$' + Number(p.suggested_price_usd).toFixed(2)) : '–';
+    const why  = S_RULE_KO[p.s_rule] || p.downgrade_reason || p.s_rule || '';
+    const hits = p.us_market_hits || 0;
+    const sub  = [
+      p.bucket,
+      '리뷰 ' + Number(p.review_count||0).toLocaleString(),
+      '미국 매칭 ' + hits + '건'
+    ].join(' · ');
+    const nm = esc(p.name || '');
+    const nameHtml = p.url
+      ? '<a href="' + esc(p.url) + '" target="_blank" rel="noopener">' + nm + '</a>'
+      : nm;
     return '<li class="pd-item">'
       + '<div class="pd-thumb">' + icon + '</div>'
       + '<div class="pd-info">'
-      + '<div class="pd-name">' + esc(name) + '</div>'
+      + '<div class="pd-name">' + nameHtml + '</div>'
       + '<div class="pd-desc">' + esc(sub) + '</div>'
+      + '<div class="pd-why">S 보류: ' + esc(why) + '</div>'
       + '</div>'
-      + '<div class="pd-change">' + esc(price) + '</div>'
+      + '<div class="pd-score">' + (p.shopify_score != null ? p.shopify_score : '–') + '</div>'
       + '</li>';
   }).join('');
+
+  if(foot){
+    const top = cands[0] && cands[0].shopify_score;
+    let msg = 'A등급 ' + cands.length + '건 중 상위 3건. 점수는 수집 산출값이다.';
+    if(sMin != null && top != null && top > sMin){
+      msg = '최고 후보 ' + top + '점 > 현재 S 최저 ' + sMin + '점. '
+          + '점수가 모자라서가 아니라 매칭 규칙에 걸려 보류된 건이다. '
+          + (open > 0 ? ('사람이 확인하면 ' + open + '자리를 채울 수 있다.') : '');
+    }
+    foot.textContent = msg;
+  }
 }
 const $ = id => document.getElementById(id);
 const set = (id,v) => { const el=$(id); if(el) el.textContent=v; };
@@ -1228,8 +1307,6 @@ function renderMarketTeam(mt){
     }).join('') : '<li class="ch-empty"><span class="ch-badge">S등급 없음</span></li>';
   }
 
-  // 상품 발굴 (Product Discovery)
-  renderProductDiscovery(mt);
 
   // 키워드 보드
   if(kw){
@@ -1534,6 +1611,7 @@ window.__collStatus = daiso.status==='fulfilled'?daiso.value:null;
 renderAgentPlan(opsPlan.status==='fulfilled'?opsPlan.value:null);
 renderDaiso(daiso.status==='fulfilled'?daiso.value:null, window.__sRec);
 renderShopifyDemand(sd.status==='fulfilled'?sd.value:null, window.__sRec);
+renderProductDiscovery(sd.status==='fulfilled'?sd.value:null);
 renderMarketTeam(window.__marketTeam);
 if(window.__runtime) renderMarketingChannels(window.__runtime);
 // 로딩 실패 폴백: 빈 리스트가 "로딩중..."으로 남지 않게

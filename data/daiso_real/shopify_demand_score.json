@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T10:35:03.758157+00:00",
+  "generated_at": "2026-09-15T11:14:46.926489+00:00",
   "total_products": 215,
   "grade_summary": {
     "S": 6,
@@ -7,6 +7,8 @@
     "B": 27,
     "C": 148
   },
+  "s_slot_limit": 10,
+  "s_slot_open": 4,
   "category_avg_score": {
     "클렌징": 73.3,
     "스킨케어": 63.9,

@@ -610,6 +610,16 @@ def _form(name):
     return "기타"
 
 
+def s_slot_limit(rows, s_ratio=0.06):
+    """S 정원. assign_grades 와 같은 식을 한 군데서만 계산한다.
+
+    대시보드가 "몇 자리 남았나"를 보여주려면 이 숫자가 필요한데,
+    같은 식을 JS 에 또 적어두면 한쪽만 고친 날 조용히 엇갈린다.
+    산출물에 실어서 내보낸다.
+    """
+    return max(4, min(10, round(len(rows) * s_ratio)))
+
+
 def assign_grades(rows, s_ratio=0.06):
     cands = [r for r in rows if r.get("grade") == "S"]
     if not cands:
@@ -635,7 +645,7 @@ def assign_grades(rows, s_ratio=0.06):
             continue
         seen[f] = seen.get(f, 0) + 1
         kept.append(r)
-    limit = max(4, min(10, round(len(rows) * s_ratio)))
+    limit = s_slot_limit(rows, s_ratio)
     for r in kept[limit:]:
         r["grade"] = "A"
         r["downgrade_reason"] = "상위 %d위 밖" % limit
@@ -709,6 +719,9 @@ def main() -> int:
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "total_products": len(scored),
         "grade_summary": by_grade,
+        # S 정원과 빈자리. 대시보드가 카탈로그 여유를 보여주는 데 쓴다.
+        "s_slot_limit": s_slot_limit(scored),
+        "s_slot_open": max(0, s_slot_limit(scored) - by_grade["S"]),
         "category_avg_score": cat_avg,
         "global_channels_used": list(MATCH_CHANNELS),
         "global_demand_signals": len(signals),
