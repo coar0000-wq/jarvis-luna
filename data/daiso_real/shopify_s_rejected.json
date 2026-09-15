@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T07:15:24.845933+00:00",
+  "generated_at": "2026-09-15T10:35:03.758157+00:00",
   "note": "점수는 높았으나 S에서 탈락한 후보. 등록하지 말 것.",
   "count": 26,
   "items": [
@@ -10,7 +10,7 @@
       "shopify_score": 96,
       "s_rule": "match_too_weak",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 '턴오버 앰플 c-PDRN 0.5%' (sephora) 유사 50% · 토큰 ampoule · S제외:match_too_weak"
+      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 40% · 토큰 ampoule · S제외:match_too_weak"
     },
     {
       "pd_no": "1064419",
@@ -28,7 +28,7 @@
       "shopify_score": 94,
       "s_rule": "match_too_weak",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'PDRN 핑크 콜라겐 볼륨 멀티밤' (ulta_beauty) 유사 52% · 토큰 pdrn · S제외:match_too_weak"
+      "recommend_reason": "글로벌 'PDRN 핑크 콜라겐 볼륨 멀티밤' (ulta_beauty) 유사 45% · 토큰 pdrn · S제외:match_too_weak"
     },
     {
       "pd_no": "1044554",
@@ -121,13 +121,22 @@
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 52% · 토큰 centella · S제외:match_too_weak"
     },
     {
+      "pd_no": "1067024",
+      "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
+      "bucket": "클렌징",
+      "shopify_score": 85,
+      "s_rule": "weak_solo_token",
+      "downgrade_reason": null,
+      "recommend_reason": "글로벌 '메이크업 리무버 물티슈 (25매x2)' (amazon_best_sellers) 유사 40% · 토큰 cleanser · S제외:weak_solo_token"
+    },
+    {
       "pd_no": "1068733",
       "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
       "bucket": "스킨케어",
       "shopify_score": 85,
       "s_rule": "match_too_weak",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 '턴오버 앰플 c-PDRN 0.5%' (sephora) 유사 40% · 토큰 ampoule · S제외:match_too_weak"
+      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 30% · 토큰 ampoule · S제외:match_too_weak"
     },
     {
       "pd_no": "1074979",
@@ -145,16 +154,7 @@
       "shopify_score": 85,
       "s_rule": "weak_solo_token",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'COSRX Advanced Snail 96 Mucin Essence' (amazon_best_sellers) 유사 28% · 토큰 essence · S제외:weak_solo_token"
-    },
-    {
-      "pd_no": "1067024",
-      "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
-      "bucket": "클렌징",
-      "shopify_score": 85,
-      "s_rule": "no_global_match",
-      "downgrade_reason": null,
-      "recommend_reason": "클렌징 카테고리 · 평점 4.8 · 리뷰 1,078건 (글로벌 시그널 약함)"
+      "recommend_reason": "글로벌 'COSRX Advanced Snail 96 Mucin Essence' (tiktok_shop_us) 유사 28% · 토큰 essence · S제외:weak_solo_token"
     },
     {
       "pd_no": "1044967",
@@ -181,7 +181,7 @@
       "shopify_score": 83,
       "s_rule": "weak_solo_token",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'CeraVe Foaming Facial Cleanser' (amazon_best_sellers) 유사 28% · 토큰 cleanser · S제외:weak_solo_token"
+      "recommend_reason": "글로벌 '톨레리안 퓨리파잉 폼 클렌저' (walmart_beauty) 유사 40% · 토큰 cleanser · S제외:weak_solo_token"
     },
     {
       "pd_no": "58600",

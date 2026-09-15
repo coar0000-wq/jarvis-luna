@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-09-15T16:15:29.067168+09:00",
+    "updated_at": "2026-09-15T19:35:11.420723+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -367,7 +367,7 @@
     "sources": {
       "oliveyoung_us": "us.oliveyoung.com/best-sellers (실수집)",
       "open_beauty_facts": "world.openbeautyfacts.org /api/v2/search",
-      "competitor_pool_size": 146,
+      "competitor_pool_size": 132,
       "competitor_fallback": "oliveyoung_us primary"
     }
   },
@@ -949,7 +949,7 @@
   "health": {
     "signals_live": 11,
     "signals_total": 12,
-    "signals_verified": 9,
+    "signals_verified": 7,
     "trust_graded": true,
     "trust_note": "",
     "live_channels": [

@@ -256,6 +256,7 @@
     "1030153",
     "1030176",
     "10304401",
+    "1030480",
     "10304942",
     "10304961",
     "1030629",
@@ -298,6 +299,7 @@
     "10344161",
     "1034445",
     "10344552",
+    "1034517",
     "1034552",
     "10346312",
     "10346372",
@@ -1147,6 +1149,7 @@
     "1067401",
     "1067458",
     "1067482",
+    "1067499",
     "1067519",
     "1067577",
     "1067607",
@@ -1298,6 +1301,7 @@
     "1074824",
     "1074954",
     "1074979",
+    "1075034",
     "1075056",
     "1075088",
     "1075131",
@@ -1534,7 +1538,11 @@
     "99561532",
     "99572122",
     "99584893",
-    "99691852"
+    "99691852",
+    "B202604016029",
+    "B202604016059",
+    "B202604016079",
+    "B202604026622"
   ],
   "sitemap_cached_at": "2026-08-23T06:01:59.046838+00:00",
   "urls": [
@@ -21520,139 +21528,30 @@
       }
     }
   },
-  "updated_at": "2026-09-12T22:30:20.649240+00:00",
+  "updated_at": "2026-09-15T10:35:03.583115+00:00",
   "last_run": {
-    "started_at": "2026-09-12T21:29:56.010501+00:00",
-    "finished_at": "2026-09-12T22:30:20.649248+00:00",
-    "requested": 110,
-    "visited": 110,
-    "ok": 0,
-    "parse_failed": 5,
+    "started_at": "2026-09-15T10:31:13.793113+00:00",
+    "finished_at": "2026-09-15T10:35:03.583122+00:00",
+    "requested": 8,
+    "visited": 8,
+    "skipped_parked": 12,
+    "skipped_already_visited": 1523,
+    "visited_total": 1543,
+    "queue_size": 3213,
+    "url_source": "queue",
+    "ok": 5,
+    "parse_failed": 0,
     "http_error": 0,
     "sold_out": 0,
     "fallback_used": 0,
     "fallback_price_fixed": 0,
-    "parse_fail_reasons": {
-      "상품 상세 HTML이 다이소몰 기본 페이지로 반환됨": 5
-    },
-    "parse_fail_samples": [
-      {
-        "pd_no": "1037532",
-        "reason": "상품 상세 HTML이 다이소몰 기본 페이지로 반환됨",
-        "og_title": "다이소몰",
-        "sold_out": false,
-        "fallback_attempted": true
-      },
-      {
-        "pd_no": "1037533",
-        "reason": "상품 상세 HTML이 다이소몰 기본 페이지로 반환됨",
-        "og_title": "다이소몰",
-        "sold_out": false,
-        "fallback_attempted": true
-      },
-      {
-        "pd_no": "1068835",
-        "reason": "상품 상세 HTML이 다이소몰 기본 페이지로 반환됨",
-        "og_title": "다이소몰",
-        "sold_out": false,
-        "fallback_attempted": true
-      },
-      {
-        "pd_no": "048025191",
-        "reason": "상품 상세 HTML이 다이소몰 기본 페이지로 반환됨",
-        "og_title": "다이소몰",
-        "sold_out": false,
-        "fallback_attempted": true
-      },
-      {
-        "pd_no": "1056006",
-        "reason": "상품 상세 HTML이 다이소몰 기본 페이지로 반환됨",
-        "og_title": "다이소몰",
-        "sold_out": false,
-        "fallback_attempted": true
-      }
-    ],
-    "fallback_diagnostics": [
-      {
-        "pd_no": "1037532",
-        "detail_http_status": 200,
-        "detail_parse_failed": true,
-        "search": {
-          "pd_no": "1037532",
-          "attempted": true,
-          "endpoint": "https://www.daisomall.co.kr/ssn/search/SearchGoods",
-          "http_status": 200,
-          "found": true,
-          "price_found": false,
-          "response_length": 1031,
-          "reason": "상품 번호 매칭 실패"
-        }
-      },
-      {
-        "pd_no": "1037533",
-        "detail_http_status": 200,
-        "detail_parse_failed": true,
-        "search": {
-          "pd_no": "1037533",
-          "attempted": true,
-          "endpoint": "https://www.daisomall.co.kr/ssn/search/SearchGoods",
-          "http_status": 200,
-          "found": true,
-          "price_found": false,
-          "response_length": 1031,
-          "reason": "상품 번호 매칭 실패"
-        }
-      },
-      {
-        "pd_no": "1068835",
-        "detail_http_status": 200,
-        "detail_parse_failed": true,
-        "search": {
-          "pd_no": "1068835",
-          "attempted": true,
-          "endpoint": "https://www.daisomall.co.kr/ssn/search/SearchGoods",
-          "http_status": 200,
-          "found": true,
-          "price_found": false,
-          "response_length": 1031,
-          "reason": "상품 번호 매칭 실패"
-        }
-      },
-      {
-        "pd_no": "048025191",
-        "detail_http_status": 200,
-        "detail_parse_failed": true,
-        "search": {
-          "pd_no": "048025191",
-          "attempted": true,
-          "endpoint": "https://www.daisomall.co.kr/ssn/search/SearchGoods",
-          "http_status": 200,
-          "found": true,
-          "price_found": false,
-          "response_length": 1039,
-          "reason": "상품 번호 매칭 실패"
-        }
-      },
-      {
-        "pd_no": "1056006",
-        "detail_http_status": 200,
-        "detail_parse_failed": true,
-        "search": {
-          "pd_no": "1056006",
-          "attempted": true,
-          "endpoint": "https://www.daisomall.co.kr/ssn/search/SearchGoods",
-          "http_status": 200,
-          "found": true,
-          "price_found": false,
-          "response_length": 1031,
-          "reason": "상품 번호 매칭 실패"
-        }
-      }
-    ],
+    "parse_fail_reasons": {},
+    "parse_fail_samples": [],
+    "fallback_diagnostics": [],
     "sitemap_urls_known": 19739,
     "scope": "다이소몰 뷰티관(C245) 10개 카테고리 (선케어·네일 제외)",
     "delay_seconds": 30.0,
-    "max_items": 110,
+    "max_items": 8,
     "search_fallback": true,
     "user_agent": "JarvisLunaResearchBot/1.0 (+contact: coar0000@naver.com)",
     "robots_note": "robots.txt 기준 상품 경로 /pd/pdr/ Crawl-delay 30초",
