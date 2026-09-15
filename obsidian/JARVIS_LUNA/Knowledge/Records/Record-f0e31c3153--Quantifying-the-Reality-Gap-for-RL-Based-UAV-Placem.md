@@ -2,7 +2,7 @@
 title: "Record f0e31c3153 · Quantifying-the-Reality-Gap-for-RL-Based-UAV-Placem"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T17:01:22.093915+00:00
+updated_at: 2026-09-15T18:05:06.763073+00:00
 tags: [record, real-data]
 ---
 

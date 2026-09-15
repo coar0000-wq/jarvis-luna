@@ -1,6 +1,6 @@
 {
   "team": "디자인팀",
-  "generated_at": "2026-09-15T13:09:11.023844+00:00",
+  "generated_at": "2026-09-15T17:57:58.169607+00:00",
   "scope": "Shopify 스토어 디자인 사양 관리 + 디자인 레퍼런스 수집",
   "checklist": {
     "total": 12,
@@ -146,6 +146,13 @@
     "failures": [],
     "items": [
       {
+        "title": "A new look for the Shopify admin",
+        "url": "https://changelog.shopify.com/posts/see-the-shopify-admin-s-new-look",
+        "date": "2026-09-15",
+        "summary": "On September 15th, we began rolling out a new look for the Shopify admin: new color, type, spacing, and icons across every page, inside a new frame. Search, notifications, and the store picker have moved into the side navigation, which collapses for more room on the page. Sidekick has moved from a s",
+        "feed": "Shopify Changelog"
+      },
+      {
         "title": "Keep the cart in view on mobile POS",
         "url": "https://changelog.shopify.com/posts/keep-the-cart-in-view-on-mobile-pos",
         "date": "2026-09-14",
@@ -244,11 +251,32 @@
         "feed": "Shopify Changelog"
       },
       {
-        "title": "Recommended changes to checkout field settings are now available",
-        "url": "https://changelog.shopify.com/posts/recommended-changes-to-checkout-field-settings-are-now-available",
-        "date": "2026-08-13",
-        "summary": "Eligible stores can now get personalized recommendations for customer information settings from the Checkout settings page in Shopify admin. These recommendations help you collect more complete customer details at checkout so you can reconnect with past shoppers more effectively and personalize your",
-        "feed": "Shopify Changelog"
+        "title": "Dynamic complexity cost for `metafieldsSet` mutation",
+        "url": "https://shopify.dev/changelog/dynamic-complexity-cost-for-metafieldsset-mutation",
+        "date": "2026-09-15",
+        "summary": "The metafieldsSet mutation now uses dynamic complexity costing. Instead of a flat cost for every call, a request's cost reflects how many distinct resources metafields were changed. Most apps need no changes, as updating a single resource remains cheap. Apps setting many metafields across many diffe",
+        "feed": "Shopify Dev Changelog"
+      },
+      {
+        "title": "Prepare your app for the Shopify admin's new look",
+        "url": "https://shopify.dev/changelog/prepare-your-app-for-the-shopify-admins-new-look",
+        "date": "2026-09-15",
+        "summary": "Starting September 15, 2026, the Shopify admin has a new look, rolling out progressively to merchants. Apps that use Admin UI extensions and App Home UI extensions pick up the new styles automatically. Apps that render their own interface in App Home keep their current styles until you choose to mov",
+        "feed": "Shopify Dev Changelog"
+      },
+      {
+        "title": "family_name is optional for B2B orders in Payments Apps API requests",
+        "url": "https://shopify.dev/changelog/family_name-is-optional-for-b2b-orders-in-payments-apps-api-requests",
+        "date": "2026-09-15",
+        "summary": "B2B checkout treats the buyer’s surname as optional, so payment session requests for B2B orders can omit family_name in shipping_address and billing_address . This affects payments apps that handle B2B orders through the Payments Apps API and currently require family_name in these addresses. What ch",
+        "feed": "Shopify Dev Changelog"
+      },
+      {
+        "title": "Delivery options in Shopify Functions input now expose their metafields",
+        "url": "https://shopify.dev/changelog/delivery-options-in-shopify-functions-input-now-expose-their-metafields",
+        "date": "2026-09-15",
+        "summary": "Shopify Functions can now read metafields attached to delivery options in the cart. On API version 2026-10 , you can call metafield(namespace:, key:) on any option in cart.deliveryGroups.deliveryOptions . This affects apps that build Delivery Customization Functions and any other function whose inpu",
+        "feed": "Shopify Dev Changelog"
       },
       {
         "title": "Discounts Allocator Function API developer preview has ended",
@@ -325,34 +353,6 @@
         "url": "https://shopify.dev/changelog/password-protected-shop-dev-flows-on-shopify-theme-cli-v3-83-x-and-older-to-be-deprecated",
         "date": "2026-08-27",
         "summary": "Starting October 1, 2026, Theme commands on Shopify CLI for password protected storefronts will require version 3.84.0 or later . Versions 3.83.x and earlier will no longer be supported for theme development workflows on password protected storefronts. If you use Theme commands on Shopify CLI to dev",
-        "feed": "Shopify Dev Changelog"
-      },
-      {
-        "title": "Four additional topics are now available for Events",
-        "url": "https://shopify.dev/changelog/four-additional-topics-are-now-available-for-events",
-        "date": "2026-08-26",
-        "summary": "Apps can now subscribe to events for Metaobject , MetafieldDefinition , MetaobjectDefinition , and InventoryTransfer . Apps can also subscribe to targeted metafield changes on InventoryTransfer . By subscribing to these topics, your app can react directly to changes in custom content, custom data de",
-        "feed": "Shopify Dev Changelog"
-      },
-      {
-        "title": "Build Shopify apps in PHP and Python with new official packages",
-        "url": "https://shopify.dev/changelog/build-shopify-apps-in-php-and-python-with-new-official-packages",
-        "date": "2026-08-26",
-        "summary": "Shopify releases official PHP and Python app packages Shopify now publishes official, open-source packages for building apps in PHP and Python. shopify/shopify-app-php on Packagist and shopifyapp on PyPI have reached version 1.0 . They provide framework-agnostic primitives for request verification, ",
-        "feed": "Shopify Dev Changelog"
-      },
-      {
-        "title": "GitHub commits now name the last theme editor",
-        "url": "https://shopify.dev/changelog/github-commits-now-name-the-last-theme-editor",
-        "date": "2026-08-26",
-        "summary": "When you edit a theme in the Shopify admin, the commit Shopify pushes to your connected branch now includes the editor's name in the body: Update from Shopify for theme Dawn Committed from shop: Snowdevil Theme last edited by: Bob Bobsen The name is plain text in the commit body. The commit author i",
-        "feed": "Shopify Dev Changelog"
-      },
-      {
-        "title": "Oxygen is now available on trial plan stores",
-        "url": "https://shopify.dev/changelog/oxygen-is-now-available-on-trial-plan-stores",
-        "date": "2026-08-25",
-        "summary": "You can now deploy Hydrogen storefronts to Oxygen from trial plan stores . Previously, Oxygen hosting required a paid plan. Note that trial plan stores don't include public environments, so deployment URLs always require a store login. Learn more about supported plans .",
         "feed": "Shopify Dev Changelog"
       },
       {

@@ -1,14 +1,15 @@
 {
-  "generated_at": "2026-09-15T13:14:11.961051+00:00",
+  "generated_at": "2026-09-15T18:03:34.454854+00:00",
   "generator": "scripts/prepare_legal_export.py",
   "왜": "법률팀이 '검토 0건, 5항목 대기' 였는데 그 다섯 중 넷은 이미 저장소에 있는 값으로 채울 수 있었다. 먼저 채우고 사람은 확인만 한다.",
   "hs_출처": "hts.usitc.gov/reststop/search (미국 국제무역위원회 공식)",
   "hs_주의": "여기서 정하는 건 후보다. 세부 통계부호는 통관사가 확정해야 한다.",
   "label_기준": "FDA 21 CFR 701 Subpart A / FPLA",
-  "total": 6,
+  "total": 8,
   "hs_filled_this_run": 0,
   "label_complete": 0,
   "사람이_채워야_하는_칸": [
+    "제품 정체 표시",
     "책임자 이름·주소"
   ],
   "items": [
@@ -521,6 +522,178 @@
       },
       "hard_block": false,
       "hard_block_reason": ""
+    },
+    {
+      "pd_no": "1075857",
+      "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
+      "bucket": "스킨케어",
+      "grade": "S",
+      "용도": "스킨케어",
+      "성분": "정제수, 메틸프로판다이올, 글리세린, 카프릴릭/카프릭트라이글리세라이드, 나이아신아마이드, 폴리글리세릴-3다이스테아레이트, 세테아릴알코올, 하이드록시아세토페논, 알지닌, 카보머, 암모늄아크릴로일다이메틸타우레이트/브이피코폴리머, 글리세릴스테아레이트시트레이트, 알란토인, 잔탄검, 소듐디엔에이(100ppm), 아데노신, 다이소듐이디티에이, 글루코노락톤, 향료, 광",
+      "제조국": "한국",
+      "내용량": "18g",
+      "제조업자": "(주)제닉",
+      "name_en": "",
+      "product_type_en": "",
+      "hs": {
+        "code": "3304.99",
+        "basis": "버킷 '스킨케어'",
+        "label": "",
+        "official": [
+          {
+            "htsno": "3304",
+            "description": "Beauty or make-up preparations and preparations for the care of the skin (other than medicaments), including sunscreen o"
+          },
+          {
+            "htsno": "3304.10.00.00",
+            "description": "Lip make-up preparations"
+          },
+          {
+            "htsno": "3304.20.00.00",
+            "description": "Eye make-up preparations"
+          },
+          {
+            "htsno": "3304.30.00.00",
+            "description": "Manicure or pedicure preparations"
+          },
+          {
+            "htsno": "3305",
+            "description": "Preparations for use on the hair:"
+          },
+          {
+            "htsno": "3305.20.00.00",
+            "description": "Preparations for permanent waving or straightening"
+          }
+        ]
+      },
+      "label": {
+        "draft": {
+          "product_identity": {
+            "label": "제품 정체 표시",
+            "value": "",
+            "rule": "주표시면. 무엇인지 알 수 있는 이름이나 설명"
+          },
+          "net_quantity": {
+            "label": "내용량",
+            "value": "18g",
+            "rule": "주표시면 하단 30% 안. 미터법과 야드파운드법 병기"
+          },
+          "ingredients": {
+            "label": "전성분",
+            "value": "정제수, 메틸프로판다이올, 글리세린, 카프릴릭/카프릭트라이글리세라이드, 나이아신아마이드, 폴리글리세릴-3다이스테아레이트, 세테아릴알코올, 하이드록시아세토페논, 알지닌, 카보머, 암모늄아크릴로일다이메틸타우레이트/브이피코폴리머, 글리세릴스테아레이트시트레이트, 알란토인, 잔탄검, 소듐디엔에이(100ppm), 아데노신, 다이소듐이디티에이, 글루코노락톤, 향료, 광곽향오일",
+            "rule": "정보표시면. INCI 명칭, 함량 내림차순, 1% 미만은 순서 무관"
+          },
+          "responsible_party": {
+            "label": "책임자 이름·주소",
+            "value": "",
+            "rule": "제조자·포장자·유통자 중 하나. 도시·주·우편번호 포함"
+          },
+          "country_of_origin": {
+            "label": "원산지",
+            "value": "한국",
+            "rule": "수입품은 Made in Korea 등 표기"
+          },
+          "warnings": {
+            "label": "경고 문구",
+            "value": "If irritation occurs, discontinue use. Keep out of reach of children. For external use only.",
+            "rule": "해당 시. 사용 중 이상 발생 시 사용 중단 등"
+          }
+        },
+        "missing": [
+          "제품 정체 표시",
+          "책임자 이름·주소"
+        ],
+        "note": "전성분은 한글이다. 미국 라벨에는 INCI 영문명이 필요하다. 번역이 아니라 표준 명칭 대조라서 사람이 확인해야 한다.",
+        "inci_status": "korean_only"
+      },
+      "hard_block": false,
+      "hard_block_reason": ""
+    },
+    {
+      "pd_no": "1060487",
+      "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
+      "bucket": "마스크팩",
+      "grade": "S",
+      "용도": "마스크팩",
+      "성분": "정제수, 부틸렌글라이콜, 호호바씨오일, 폴리비닐알코올, 메틸프로판다이올, 1,2-헥산다이올, 알진, 폴리솔베이트80, 카프릴릭/카프릭트라이글리세라이드, 폴리글리세릴-10올리에이트, 풀루란, 하이드롤라이즈드콜라겐추출물, 감나무잎추출물, 포도추출물, 잇꽃꽃추출물, 커피콩추출물, 호장근뿌리추출물, 녹차추출물, 밤껍질추출물, 초피나무열매추출물, 달맞이꽃꽃추출물, ",
+      "제조국": "한국",
+      "내용량": "4 ml / 0.13 fl. oz. 4 ml x 4 EA",
+      "제조업자": "제품 내 별도 표기 / 주식회사 스킨이데아",
+      "name_en": "",
+      "product_type_en": "",
+      "hs": {
+        "code": "3304.99",
+        "basis": "버킷 '마스크팩'",
+        "label": "",
+        "official": [
+          {
+            "htsno": "3304",
+            "description": "Beauty or make-up preparations and preparations for the care of the skin (other than medicaments), including sunscreen o"
+          },
+          {
+            "htsno": "3304.10.00.00",
+            "description": "Lip make-up preparations"
+          },
+          {
+            "htsno": "3304.20.00.00",
+            "description": "Eye make-up preparations"
+          },
+          {
+            "htsno": "3304.30.00.00",
+            "description": "Manicure or pedicure preparations"
+          },
+          {
+            "htsno": "3305",
+            "description": "Preparations for use on the hair:"
+          },
+          {
+            "htsno": "3305.20.00.00",
+            "description": "Preparations for permanent waving or straightening"
+          }
+        ]
+      },
+      "label": {
+        "draft": {
+          "product_identity": {
+            "label": "제품 정체 표시",
+            "value": "",
+            "rule": "주표시면. 무엇인지 알 수 있는 이름이나 설명"
+          },
+          "net_quantity": {
+            "label": "내용량",
+            "value": "4 ml / 0.13 fl. oz. 4 ml x 4 EA",
+            "rule": "주표시면 하단 30% 안. 미터법과 야드파운드법 병기"
+          },
+          "ingredients": {
+            "label": "전성분",
+            "value": "정제수, 부틸렌글라이콜, 호호바씨오일, 폴리비닐알코올, 메틸프로판다이올, 1,2-헥산다이올, 알진, 폴리솔베이트80, 카프릴릭/카프릭트라이글리세라이드, 폴리글리세릴-10올리에이트, 풀루란, 하이드롤라이즈드콜라겐추출물, 감나무잎추출물, 포도추출물, 잇꽃꽃추출물, 커피콩추출물, 호장근뿌리추출물, 녹차추출물, 밤껍질추출물, 초피나무열매추출물, 달맞이꽃꽃추출물, 당느릅나무뿌리추출물, 대왕송나무잎추출물, 칡뿌리추출물, 소듐하이알루로네이트, 글리세릴스테아레이트, 피이지-100스테아레이트, 판테놀, 다이스타다이모늄헥토라이트, 소듐폴리스티렌설포네이트, 셀룰로오스검, 락토바실러스발효물(1,000 ppm), 토코페롤, 글라이신, 에틸헥실글리세린, 알란토인, 소듐파이테이트, 토코페롤, 글라이신, 세린, 글루타믹애씨드, 아스파틱애씨드, 류신, 알라닌, 라이신, 알지닌, 타이로신, 페닐알라닌, 발린, 트레오닌, 프롤린, 아이소류신, 히스티딘, 메티오닌, 시스테인, 하이드롤라이즈드하이알루로네이트, 소듐아세틸레이티드하이알루로네이트, 향료",
+            "rule": "정보표시면. INCI 명칭, 함량 내림차순, 1% 미만은 순서 무관"
+          },
+          "responsible_party": {
+            "label": "책임자 이름·주소",
+            "value": "",
+            "rule": "제조자·포장자·유통자 중 하나. 도시·주·우편번호 포함"
+          },
+          "country_of_origin": {
+            "label": "원산지",
+            "value": "한국",
+            "rule": "수입품은 Made in Korea 등 표기"
+          },
+          "warnings": {
+            "label": "경고 문구",
+            "value": "If irritation occurs, discontinue use. Keep out of reach of children. For external use only.",
+            "rule": "해당 시. 사용 중 이상 발생 시 사용 중단 등"
+          }
+        },
+        "missing": [
+          "제품 정체 표시",
+          "책임자 이름·주소"
+        ],
+        "note": "전성분은 한글이다. 미국 라벨에는 INCI 영문명이 필요하다. 번역이 아니라 표준 명칭 대조라서 사람이 확인해야 한다.",
+        "inci_status": "korean_only"
+      },
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields"
     }
   ]
 }

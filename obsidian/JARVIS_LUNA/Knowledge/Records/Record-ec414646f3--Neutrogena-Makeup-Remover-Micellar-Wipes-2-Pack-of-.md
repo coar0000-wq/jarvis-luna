@@ -1,12 +1,12 @@
 ---
-title: "Record ec414646f3 · Neutrogena-Makeup-Remover-Micellar-Wipes-2-Pack-of-25-Ct--Plant-Based-"
+title: "Record ec414646f3 · Neutrogena-Makeup-Remover-Micellar-Wipes-2-Pack-of-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T17:01:22.431080+00:00
+updated_at: 2026-09-15T18:05:07.182292+00:00
 tags: [record, real-data]
 ---
 
-# Record ec414646f3 · Neutrogena-Makeup-Remover-Micellar-Wipes-2-Pack-of-25-Ct--Plant-Based-
+# Record ec414646f3 · Neutrogena-Makeup-Remover-Micellar-Wipes-2-Pack-of-
 
 > 실제 수집 레코드입니다. 원문: [www.amazon.com](https://www.amazon.com/Neutrogena-Makeup-Remover-Micellar-Wipes/dp/B00U2VQZDS/ref=zg_bs_g_beauty_d_sccl_7/134-4860327-2688437)
 

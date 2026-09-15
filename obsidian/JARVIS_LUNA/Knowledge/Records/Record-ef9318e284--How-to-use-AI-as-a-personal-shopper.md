@@ -2,7 +2,7 @@
 title: "Record ef9318e284 · How-to-use-AI-as-a-personal-shopper"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T17:01:22.687677+00:00
+updated_at: 2026-09-15T18:05:07.299727+00:00
 tags: [record, real-data]
 ---
 

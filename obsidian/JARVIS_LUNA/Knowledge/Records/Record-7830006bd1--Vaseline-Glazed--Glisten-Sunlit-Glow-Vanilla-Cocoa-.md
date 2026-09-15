@@ -1,12 +1,12 @@
 ---
-title: "Record 7830006bd1 · Vaseline-Glazed--Glisten-Sunlit-Glow-Vanilla-Cocoa-Shimmering-Body-Gel"
+title: "Record 7830006bd1 · Vaseline-Glazed--Glisten-Sunlit-Glow-Vanilla-Cocoa-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T17:01:22.659918+00:00
+updated_at: 2026-09-15T18:05:07.258746+00:00
 tags: [record, real-data]
 ---
 
-# Record 7830006bd1 · Vaseline-Glazed--Glisten-Sunlit-Glow-Vanilla-Cocoa-Shimmering-Body-Gel
+# Record 7830006bd1 · Vaseline-Glazed--Glisten-Sunlit-Glow-Vanilla-Cocoa-
 
 > 실제 수집 레코드입니다. 원문: [www.walmart.com](https://www.walmart.com/ip/Vaseline-Lip-Therapy-Cocoa-Butter-0-25-oz/15620264700)
 

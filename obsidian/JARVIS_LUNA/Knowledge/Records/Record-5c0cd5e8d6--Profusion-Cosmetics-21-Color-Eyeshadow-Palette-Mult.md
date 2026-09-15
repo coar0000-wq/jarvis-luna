@@ -1,12 +1,12 @@
 ---
-title: "Record 5c0cd5e8d6 · Profusion-Cosmetics-21-Color-Eyeshadow-Palette-Multi-Finish-Blendable-"
+title: "Record 5c0cd5e8d6 · Profusion-Cosmetics-21-Color-Eyeshadow-Palette-Mult"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T17:01:22.658904+00:00
+updated_at: 2026-09-15T18:05:07.257394+00:00
 tags: [record, real-data]
 ---
 
-# Record 5c0cd5e8d6 · Profusion-Cosmetics-21-Color-Eyeshadow-Palette-Multi-Finish-Blendable-
+# Record 5c0cd5e8d6 · Profusion-Cosmetics-21-Color-Eyeshadow-Palette-Mult
 
 > 실제 수집 레코드입니다. 원문: [www.walmart.com](https://www.walmart.com/ip/Profusion-Cosmetics-Eye-Shadow-Pro-Pigment-21-Shade-Palette/777688187)
 

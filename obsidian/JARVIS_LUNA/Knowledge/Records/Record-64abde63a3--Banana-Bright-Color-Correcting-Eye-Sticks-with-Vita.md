@@ -1,12 +1,12 @@
 ---
-title: "Record 64abde63a3 · Banana-Bright-Color-Correcting-Eye-Sticks-with-Vitamin-C-for-Dark-Circ"
+title: "Record 64abde63a3 · Banana-Bright-Color-Correcting-Eye-Sticks-with-Vita"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T17:01:22.656459+00:00
+updated_at: 2026-09-15T18:05:07.253758+00:00
 tags: [record, real-data]
 ---
 
-# Record 64abde63a3 · Banana-Bright-Color-Correcting-Eye-Sticks-with-Vitamin-C-for-Dark-Circ
+# Record 64abde63a3 · Banana-Bright-Color-Correcting-Eye-Sticks-with-Vita
 
 > 실제 수집 레코드입니다. 원문: [www.ulta.com](https://www.ulta.com/p/banana-bright-color-correcting-eye-sticks-with-vitamin-c-dark-circles-pimprod2042305)
 

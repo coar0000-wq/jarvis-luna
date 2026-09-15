@@ -1,12 +1,12 @@
 ---
-title: "Record 7adc232399 · Mini-On-Til-Dawn-Mattifying-Waterproof-Setting-Spray"
+title: "Record 7adc232399 · Mini-On-Til-Dawn-Mattifying-Waterproof-Setting-Spra"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T17:01:22.646775+00:00
+updated_at: 2026-09-15T18:05:07.241399+00:00
 tags: [record, real-data]
 ---
 
-# Record 7adc232399 · Mini-On-Til-Dawn-Mattifying-Waterproof-Setting-Spray
+# Record 7adc232399 · Mini-On-Til-Dawn-Mattifying-Waterproof-Setting-Spra
 
 > 실제 수집 레코드입니다. 원문: [www.sephora.com](https://www.sephora.com/product/one-size-by-patrick-starrr-mini-on-til-dawn-setting-spray-P476718)
 

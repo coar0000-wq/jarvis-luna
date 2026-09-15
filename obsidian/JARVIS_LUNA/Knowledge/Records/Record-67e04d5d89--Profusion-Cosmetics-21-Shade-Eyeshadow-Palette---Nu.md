@@ -1,12 +1,12 @@
 ---
-title: "Record 67e04d5d89 · Profusion-Cosmetics-21-Shade-Eyeshadow-Palette---Nude-Bliss"
+title: "Record 67e04d5d89 · Profusion-Cosmetics-21-Shade-Eyeshadow-Palette---Nu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T17:01:22.658739+00:00
+updated_at: 2026-09-15T18:05:07.257180+00:00
 tags: [record, real-data]
 ---
 
-# Record 67e04d5d89 · Profusion-Cosmetics-21-Shade-Eyeshadow-Palette---Nude-Bliss
+# Record 67e04d5d89 · Profusion-Cosmetics-21-Shade-Eyeshadow-Palette---Nu
 
 > 실제 수집 레코드입니다. 원문: [www.walmart.com](https://www.walmart.com/ip/Profusion-Cosmetics-21-Shade-Eyeshadow-Palette-Nude-Bliss/9739766228)
 

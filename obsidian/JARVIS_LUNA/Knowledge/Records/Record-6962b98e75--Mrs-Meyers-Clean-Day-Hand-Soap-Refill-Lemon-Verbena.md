@@ -1,12 +1,12 @@
 ---
-title: "Record 6962b98e75 · Mrs-Meyers-Clean-Day-Hand-Soap-Refill-Lemon-Verbena-Scent-33-Fl-Oz"
+title: "Record 6962b98e75 · Mrs-Meyers-Clean-Day-Hand-Soap-Refill-Lemon-Verbena"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T17:01:22.430888+00:00
+updated_at: 2026-09-15T18:05:07.182072+00:00
 tags: [record, real-data]
 ---
 
-# Record 6962b98e75 · Mrs-Meyers-Clean-Day-Hand-Soap-Refill-Lemon-Verbena-Scent-33-Fl-Oz
+# Record 6962b98e75 · Mrs-Meyers-Clean-Day-Hand-Soap-Refill-Lemon-Verbena
 
 > 실제 수집 레코드입니다. 원문: [www.amazon.com](https://www.amazon.com/Mrs-Meyers-Clean-Refill-Verbena/dp/B00F1U0YB4/ref=zg_bs_g_beauty_d_sccl_14/134-4860327-2688437)
 

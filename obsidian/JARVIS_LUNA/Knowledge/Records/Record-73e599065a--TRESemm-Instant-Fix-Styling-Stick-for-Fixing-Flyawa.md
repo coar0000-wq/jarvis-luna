@@ -1,12 +1,12 @@
 ---
-title: "Record 73e599065a · TRESemm-Instant-Fix-Styling-Stick-for-Fixing-Flyaways--Control-Frizz-S"
+title: "Record 73e599065a · TRESemm-Instant-Fix-Styling-Stick-for-Fixing-Flyawa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T17:01:22.659752+00:00
+updated_at: 2026-09-15T18:05:07.258542+00:00
 tags: [record, real-data]
 ---
 
-# Record 73e599065a · TRESemm-Instant-Fix-Styling-Stick-for-Fixing-Flyaways--Control-Frizz-S
+# Record 73e599065a · TRESemm-Instant-Fix-Styling-Stick-for-Fixing-Flyawa
 
 > 실제 수집 레코드입니다. 원문: [www.walmart.com](https://www.walmart.com/ip/Tresemme-A-List-Collection-Instant-Fix-Styling-Stick-Hair-Wax-Golden-Vanilla-Sandalwood-Scent-1-05oz/15641615102)
 

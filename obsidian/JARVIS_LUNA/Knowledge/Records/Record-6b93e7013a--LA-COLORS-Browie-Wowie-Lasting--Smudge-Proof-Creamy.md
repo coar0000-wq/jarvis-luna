@@ -1,12 +1,12 @@
 ---
-title: "Record 6b93e7013a · LA-COLORS-Browie-Wowie-Lasting--Smudge-Proof-Creamy-Brow-Promade-Soft-"
+title: "Record 6b93e7013a · LA-COLORS-Browie-Wowie-Lasting--Smudge-Proof-Creamy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T17:01:22.658198+00:00
+updated_at: 2026-09-15T18:05:07.256460+00:00
 tags: [record, real-data]
 ---
 
-# Record 6b93e7013a · LA-COLORS-Browie-Wowie-Lasting--Smudge-Proof-Creamy-Brow-Promade-Soft-
+# Record 6b93e7013a · LA-COLORS-Browie-Wowie-Lasting--Smudge-Proof-Creamy
 
 > 실제 수집 레코드입니다. 원문: [www.walmart.com](https://www.walmart.com/ip/L-A-COLORS-Browie-Wowie-Lasting-Smudge-Proof-Creamy-Brow-Promade-Soft-Brown/18850252262)
 

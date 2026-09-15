@@ -1,12 +1,12 @@
 ---
-title: "Record be750855f1 · Profusion-Cosmetics-Moonstone-42-Shade-Eyeshadow-Palette-Highly-Pigmen"
+title: "Record be750855f1 · Profusion-Cosmetics-Moonstone-42-Shade-Eyeshadow-Pa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T17:01:22.659036+00:00
+updated_at: 2026-09-15T18:05:07.257593+00:00
 tags: [record, real-data]
 ---
 
-# Record be750855f1 · Profusion-Cosmetics-Moonstone-42-Shade-Eyeshadow-Palette-Highly-Pigmen
+# Record be750855f1 · Profusion-Cosmetics-Moonstone-42-Shade-Eyeshadow-Pa
 
 > 실제 수집 레코드입니다. 원문: [www.walmart.com](https://www.walmart.com/ip/Profusion-Cosmetics-Moonstone-42-Shade-Eyeshadow-Palette-Highly-Pigmented-Long-Lasting-and-Blendable/637830701)
 

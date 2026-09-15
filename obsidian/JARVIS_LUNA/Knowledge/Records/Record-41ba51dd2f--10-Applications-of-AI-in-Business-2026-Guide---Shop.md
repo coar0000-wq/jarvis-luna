@@ -2,7 +2,7 @@
 title: "Record 41ba51dd2f · 10-Applications-of-AI-in-Business-2026-Guide---Shop"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T17:01:22.239640+00:00
+updated_at: 2026-09-15T18:05:06.969040+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMib0FVX3lxTFBDUzN4b20yNVBHSUY5OUQ2SlYwRndKVG1iV1M2SEFYb1k4T0ljTXhoejNKc2tsZmo3UnJSQ1hzYVFBWEtOTHV5QWNPVktBVVc1ZGVoalBSNHZLaHozV24tcVZjcWxEZ0Rjaml4d3hXYw?oc=5)
 
-**제목:** 10 Applications of AI in Business: 2026 Guide - Shopify
+**제목:** 10 Applications of AI in Business: 2026 Guide - shopify.com
 
-10 Applications of AI in Business: 2026 Guide - Shopify
+10 Applications of AI in Business: 2026 Guide - shopify.com
 
 **출처:** Source · Google Search
 

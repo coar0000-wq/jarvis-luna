@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T13:14:09.397064+00:00",
+  "generated_at": "2026-09-15T18:03:31.661865+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "ticketmaster",
+          "keyword": "rayo vallecano - rcd espanyol",
           "approx_traffic": "10000+",
           "traffic_num": 10000,
-          "published": "Tue, 15 Sep 2026 05:20:00 -0700",
-          "source_name": "Reuters",
-          "url": "https://trends.google.com/trending?geo=US&q=ticketmaster"
+          "published": "Tue, 15 Sep 2026 09:10:00 -0700",
+          "source_name": "Diario AS",
+          "url": "https://trends.google.com/trending?geo=US&q=rayo%20vallecano%20-%20rcd%20espanyol"
         },
         {
-          "keyword": "what time is dancing with the stars on",
-          "approx_traffic": "5000+",
-          "traffic_num": 5000,
-          "published": "Tue, 15 Sep 2026 04:50:00 -0700",
-          "source_name": "ABC News - Breaking News, Latest News and Videos",
-          "url": "https://trends.google.com/trending?geo=US&q=what%20time%20is%20dancing%20with%20the%20stars%20on"
-        },
-        {
-          "keyword": "holly rowe",
-          "approx_traffic": "5000+",
-          "traffic_num": 5000,
-          "published": "Tue, 15 Sep 2026 04:40:00 -0700",
+          "keyword": "mike lafleur",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Tue, 15 Sep 2026 10:20:00 -0700",
           "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=holly%20rowe"
+          "url": "https://trends.google.com/trending?geo=US&q=mike%20lafleur"
         },
         {
-          "keyword": "john brennan grand jury subpoena",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Tue, 15 Sep 2026 05:40:00 -0700",
-          "source_name": "NBC News",
-          "url": "https://trends.google.com/trending?geo=US&q=john%20brennan%20grand%20jury%20subpoena"
-        },
-        {
-          "keyword": "scott speedman",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Tue, 15 Sep 2026 05:30:00 -0700",
-          "source_name": "People.com",
-          "url": "https://trends.google.com/trending?geo=US&q=scott%20speedman"
-        },
-        {
-          "keyword": "kenny chesney tour",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Tue, 15 Sep 2026 05:10:00 -0700",
-          "source_name": "Buffalo Bills",
-          "url": "https://trends.google.com/trending?geo=US&q=kenny%20chesney%20tour"
-        },
-        {
-          "keyword": "national park service grand canyon discovery",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Tue, 15 Sep 2026 04:10:00 -0700",
-          "source_name": "KSL",
-          "url": "https://trends.google.com/trending?geo=US&q=national%20park%20service%20grand%20canyon%20discovery"
-        },
-        {
-          "keyword": "harry styles amex presale",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Tue, 15 Sep 2026 05:50:00 -0700",
-          "source_name": "Ticketmaster Blog",
-          "url": "https://trends.google.com/trending?geo=US&q=harry%20styles%20amex%20presale"
-        },
-        {
-          "keyword": "lucy letby",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Tue, 15 Sep 2026 05:20:00 -0700",
+          "keyword": "alavés vs valencia",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Tue, 15 Sep 2026 10:10:00 -0700",
           "source_name": "The New York Times",
-          "url": "https://trends.google.com/trending?geo=US&q=lucy%20letby"
+          "url": "https://trends.google.com/trending?geo=US&q=alav%C3%A9s%20vs%20valencia"
         },
         {
-          "keyword": "ernest harden jr",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Tue, 15 Sep 2026 04:20:00 -0700",
-          "source_name": "Deadline",
-          "url": "https://trends.google.com/trending?geo=US&q=ernest%20harden%20jr"
+          "keyword": "eng vs sl",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Tue, 15 Sep 2026 09:40:00 -0700",
+          "source_name": "The Guardian",
+          "url": "https://trends.google.com/trending?geo=US&q=eng%20vs%20sl"
+        },
+        {
+          "keyword": "west ham vs fulham",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Tue, 15 Sep 2026 10:50:00 -0700",
+          "source_name": "BBC",
+          "url": "https://trends.google.com/trending?geo=US&q=west%20ham%20vs%20fulham"
+        },
+        {
+          "keyword": "macklemore controversy",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Tue, 15 Sep 2026 10:50:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=macklemore%20controversy"
+        },
+        {
+          "keyword": "alavés - valencia c. f.",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Tue, 15 Sep 2026 10:10:00 -0700",
+          "source_name": "Yahoo",
+          "url": "https://trends.google.com/trending?geo=US&q=alav%C3%A9s%20-%20valencia%20c.%20f."
+        },
+        {
+          "keyword": "al-hilal vs al-gharafa",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Tue, 15 Sep 2026 10:50:00 -0700",
+          "source_name": "Robinhood",
+          "url": "https://trends.google.com/trending?geo=US&q=al-hilal%20vs%20al-gharafa"
+        },
+        {
+          "keyword": "ohio state highway patrol",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Tue, 15 Sep 2026 09:40:00 -0700",
+          "source_name": "NBC4 WCMH-TV",
+          "url": "https://trends.google.com/trending?geo=US&q=ohio%20state%20highway%20patrol"
+        },
+        {
+          "keyword": "goog",
+          "approx_traffic": "100+",
+          "traffic_num": 100,
+          "published": "Tue, 15 Sep 2026 09:10:00 -0700",
+          "source_name": "The Economist",
+          "url": "https://trends.google.com/trending?geo=US&q=goog"
         }
       ]
     },
@@ -188,6 +188,31 @@
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
       "items": [
         {
+          "title": "8 Best Wrinkle Serums for Fine Lines, Texture, and Firmness",
+          "published": "Tue, 15 Sep 2026 16:59:25 +0000",
+          "url": "https://www.allure.com/story/best-wrinkle-serum"
+        },
+        {
+          "title": "How GLP-1 Weight Loss Drugs Moved Beyond the Doctor’s Office",
+          "published": "Tue, 15 Sep 2026 16:05:19 +0000",
+          "url": "https://www.allure.com/story/glp-1-gray-market-telehealth-med-spas-compounding-pharmacies"
+        },
+        {
+          "title": "What's Up With Taylor Swift's New Rose Lipstick?—See the Photos",
+          "published": "Tue, 15 Sep 2026 15:38:15 +0000",
+          "url": "https://www.allure.com/story/taylor-swift-rose-lipstick"
+        },
+        {
+          "title": "Ericka Hart Talks Pleasure, Reconstructive Surgery, and Being a Hot Cancer Survivor",
+          "published": "Tue, 15 Sep 2026 14:58:37 +0000",
+          "url": "https://www.allure.com/story/ericka-hart-perspectives-podcast-interview"
+        },
+        {
+          "title": "Florence Pugh's Emmys 2026 Updo Defies Explanation—See the Photos",
+          "published": "Tue, 15 Sep 2026 13:51:10 +0000",
+          "url": "https://www.allure.com/story/florence-pugh-emmys-updo"
+        },
+        {
           "title": "Mariska Hargitay's 2026 Emmys Hair Was a Subtle Tribute to Her Mom—See the Photos",
           "published": "Tue, 15 Sep 2026 01:16:39 +0000",
           "url": "https://www.allure.com/story/mariska-hargitay-emmys-2026-hair"
@@ -208,7 +233,7 @@
           "url": "https://www.allure.com/story/selena-gomez-emmys-2026-mermaid-waves"
         },
         {
-          "title": "The Best Beauty Looks at the 2026 Emmy Awards? You Decide",
+          "title": "The Best Beauty Looks From the 2026 Emmys",
           "published": "Mon, 14 Sep 2026 22:53:35 +0000",
           "url": "https://www.allure.com/gallery/best-beauty-looks-2026-emmy-awards"
         },
@@ -311,31 +336,6 @@
           "title": "Why Nicole Kidman’s \"Practical Magic 2\" Wig Had to Be So Different From the Original",
           "published": "Thu, 10 Sep 2026 10:00:00 +0000",
           "url": "https://www.allure.com/story/practical-magic-2-sandra-bullock-nicole-kidman-beauty-looks"
-        },
-        {
-          "title": "Why the French Manicure Has Divided People For Decades",
-          "published": "Wed, 09 Sep 2026 18:56:19 +0000",
-          "url": "https://www.allure.com/story/french-manicure-history-50th-anniversary-jeff-pink"
-        },
-        {
-          "title": "Taraji P. Henson Makes a Flawless Case for Matching Your Manicure to Your Jewelry — See Photos",
-          "published": "Wed, 09 Sep 2026 18:36:17 +0000",
-          "url": "https://www.allure.com/story/taraji-p-henson-gold-nails"
-        },
-        {
-          "title": "Are Compounded Peptide Creams Any Better Than Over the Counter Options?",
-          "published": "Wed, 09 Sep 2026 18:06:45 +0000",
-          "url": "https://www.allure.com/story/ghkcu-copper-peptide-skin-care-cream-compound"
-        },
-        {
-          "title": "Dua Lipa's Multicolor French Manicure Says Summer Isn't Over Yet—See the Photos",
-          "published": "Wed, 09 Sep 2026 13:40:06 +0000",
-          "url": "https://www.allure.com/story/dua-lipa-colorful-french-manicure"
-        },
-        {
-          "title": "What’s Going On With Your Favorite 2016 Beauty YouTubers?",
-          "published": "Wed, 09 Sep 2026 12:00:00 +0000",
-          "url": "https://www.allure.com/story/2016-beauty-youtubers-interview"
         }
       ]
     },

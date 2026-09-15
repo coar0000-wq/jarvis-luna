@@ -1,12 +1,12 @@
 ---
-title: "Record da3f033d62 · Mighty-Patch-Hero-Cosmetics-Original-Nighttime-Acne-Pimple-Patches-36-"
+title: "Record da3f033d62 · Mighty-Patch-Hero-Cosmetics-Original-Nighttime-Acne"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T17:01:22.430761+00:00
+updated_at: 2026-09-15T18:05:07.181903+00:00
 tags: [record, real-data]
 ---
 
-# Record da3f033d62 · Mighty-Patch-Hero-Cosmetics-Original-Nighttime-Acne-Pimple-Patches-36-
+# Record da3f033d62 · Mighty-Patch-Hero-Cosmetics-Original-Nighttime-Acne
 
 > 실제 수집 레코드입니다. 원문: [www.amazon.com](https://www.amazon.com/Mighty-Patch-Hydrocolloid-Absorbing-count/dp/B074PVTPBW/ref=zg_bs_g_beauty_d_sccl_5/134-4860327-2688437)
 

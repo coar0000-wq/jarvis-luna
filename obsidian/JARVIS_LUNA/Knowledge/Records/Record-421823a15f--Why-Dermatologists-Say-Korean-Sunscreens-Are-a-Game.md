@@ -2,7 +2,7 @@
 title: "Record 421823a15f · Why-Dermatologists-Say-Korean-Sunscreens-Are-a-Game"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T17:01:22.241278+00:00
+updated_at: 2026-09-15T18:05:06.971703+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record b2ddbbaa54 · Introducing-physics-AI-at-Mistral-the-foundation-fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T17:01:22.208234+00:00
+updated_at: 2026-09-15T18:05:06.922236+00:00
 tags: [record, real-data]
 ---
 

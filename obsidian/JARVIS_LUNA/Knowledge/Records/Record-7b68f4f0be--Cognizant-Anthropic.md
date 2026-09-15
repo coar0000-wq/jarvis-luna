@@ -2,7 +2,7 @@
 title: "Record 7b68f4f0be · Cognizant-Anthropic"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T17:01:22.436581+00:00
+updated_at: 2026-09-15T18:05:07.190405+00:00
 tags: [record, real-data]
 ---
 

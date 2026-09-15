@@ -2,7 +2,7 @@
 title: "Record 4d714d8161 · Olive-Youngs-K-Beauty-Edit-Finally-Hit-Sephora-Thes"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T17:01:22.358786+00:00
+updated_at: 2026-09-15T18:05:07.069592+00:00
 tags: [record, real-data]
 ---
 

@@ -1,12 +1,12 @@
 ---
-title: "Record 30aa315ba1 · Lip-Butter-Balm-Treatment-for-Hydration--Nourishing-Shine"
+title: "Record 30aa315ba1 · Lip-Butter-Balm-Treatment-for-Hydration--Nourishing"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T17:01:22.647399+00:00
+updated_at: 2026-09-15T18:05:07.242364+00:00
 tags: [record, real-data]
 ---
 
-# Record 30aa315ba1 · Lip-Butter-Balm-Treatment-for-Hydration--Nourishing-Shine
+# Record 30aa315ba1 · Lip-Butter-Balm-Treatment-for-Hydration--Nourishing
 
 > 실제 수집 레코드입니다. 원문: [www.sephora.com](https://www.sephora.com/product/summer-fridays-lip-butter-balm-P455936)
 

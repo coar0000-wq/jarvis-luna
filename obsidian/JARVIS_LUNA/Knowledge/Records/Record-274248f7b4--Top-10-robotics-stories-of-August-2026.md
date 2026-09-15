@@ -2,7 +2,7 @@
 title: "Record 274248f7b4 · Top-10-robotics-stories-of-August-2026"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T17:01:22.654687+00:00
+updated_at: 2026-09-15T18:05:07.251479+00:00
 tags: [record, real-data]
 ---
 

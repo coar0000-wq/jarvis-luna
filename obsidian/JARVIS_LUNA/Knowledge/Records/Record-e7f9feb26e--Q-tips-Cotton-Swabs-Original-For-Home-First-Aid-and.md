@@ -1,12 +1,12 @@
 ---
-title: "Record e7f9feb26e · Q-tips-Cotton-Swabs-Original-For-Home-First-Aid-and-Beauty-100-Cotton-"
+title: "Record e7f9feb26e · Q-tips-Cotton-Swabs-Original-For-Home-First-Aid-and"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T17:01:22.659317+00:00
+updated_at: 2026-09-15T18:05:07.257967+00:00
 tags: [record, real-data]
 ---
 
-# Record e7f9feb26e · Q-tips-Cotton-Swabs-Original-For-Home-First-Aid-and-Beauty-100-Cotton-
+# Record e7f9feb26e · Q-tips-Cotton-Swabs-Original-For-Home-First-Aid-and
 
 > 실제 수집 레코드입니다. 원문: [www.walmart.com](https://www.walmart.com/ip/Q-tips-Cotton-Swabs-Original-for-Hygiene-and-Beauty-Care-Made-with-100-Cotton-500-Count/10452580)
 

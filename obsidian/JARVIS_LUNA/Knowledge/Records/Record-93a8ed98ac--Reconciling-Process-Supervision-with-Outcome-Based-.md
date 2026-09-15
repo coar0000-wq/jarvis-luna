@@ -2,7 +2,7 @@
 title: "Record 93a8ed98ac · Reconciling-Process-Supervision-with-Outcome-Based-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T17:01:22.000778+00:00
+updated_at: 2026-09-15T18:05:06.708354+00:00
 tags: [record, real-data]
 ---
 

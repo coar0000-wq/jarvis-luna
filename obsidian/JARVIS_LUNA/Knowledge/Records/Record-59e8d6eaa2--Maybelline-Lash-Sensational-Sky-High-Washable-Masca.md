@@ -1,12 +1,12 @@
 ---
-title: "Record 59e8d6eaa2 · Maybelline-Lash-Sensational-Sky-High-Washable-Mascara-Makeup-Volumizin"
+title: "Record 59e8d6eaa2 · Maybelline-Lash-Sensational-Sky-High-Washable-Masca"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T17:01:22.430369+00:00
+updated_at: 2026-09-15T18:05:07.181428+00:00
 tags: [record, real-data]
 ---
 
-# Record 59e8d6eaa2 · Maybelline-Lash-Sensational-Sky-High-Washable-Mascara-Makeup-Volumizin
+# Record 59e8d6eaa2 · Maybelline-Lash-Sensational-Sky-High-Washable-Masca
 
 > 실제 수집 레코드입니다. 원문: [www.amazon.com](https://www.amazon.com/Maybelline-Volumizing-Buildable-Lengthening-Multiplying/dp/B08H3JPH74/ref=zg_bs_g_beauty_d_sccl_10/134-4860327-2688437)
 

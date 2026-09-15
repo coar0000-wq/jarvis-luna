@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-15T13:09:26.107447+00:00",
+  "generated_at": "2026-09-15T17:58:13.344491+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
-  "pool_size": 2028,
+  "pool_size": 2057,
   "제목없어_버림": 38,
-  "unrouted": 7,
+  "unrouted": 6,
   "summary": {
     "sourcing": {
       "total": 219,
@@ -15,10 +15,10 @@
       "products": 215
     },
     "market": {
-      "total": 451,
-      "recent": 42,
-      "material": 451,
-      "material_recent": 42,
+      "total": 477,
+      "recent": 43,
+      "material": 477,
+      "material_recent": 43,
       "products": 0
     },
     "listing": {
@@ -36,17 +36,17 @@
       "products": 0
     },
     "legal": {
-      "total": 113,
+      "total": 111,
       "recent": 14,
-      "material": 113,
+      "material": 111,
       "material_recent": 14,
       "products": 0
     },
     "design": {
       "total": 334,
-      "recent": 70,
+      "recent": 74,
       "material": 334,
-      "material_recent": 70,
+      "material_recent": 74,
       "products": 0
     },
     "robotics": {
@@ -57,17 +57,17 @@
       "products": 0
     },
     "knowledge": {
-      "total": 130,
-      "recent": 26,
-      "material": 130,
-      "material_recent": 26,
+      "total": 129,
+      "recent": 25,
+      "material": 129,
+      "material_recent": 25,
       "products": 0
     },
     "institutions": {
-      "total": 1060,
-      "recent": 281,
-      "material": 1060,
-      "material_recent": 281,
+      "total": 1062,
+      "recent": 286,
+      "material": 1062,
+      "material_recent": 286,
       "products": 0
     }
   },
@@ -621,6 +621,13 @@
         "by_hand": false
       },
       {
+        "title": "Hero’s Ju Rhyu Mainstreamed Pimple Patches. Can She Do It Again With K-Beauty-Inspired Sunscreen? - beautyindependent.com",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQUZsazhJcC1GYU5menhiYmFiMS1NZWVwZGZUYlB0LWtQMFBOcUZNRGhWN3RlamVlbG5lUkxSV2JvM1hYS2NLam1qRmgxY3YxTWJfaXFHT3BNOU0tb2lkalNCM1VGSEFlX01VMGxmb0dya21ySHp6VlRLYjZ3a2UzYndNa0x2eW8?oc=5",
+        "pool": "google",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
         "title": "K-Beauty Arrives at Coles in Skincare Glow-Up - Mirage News",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOc191U2pxYjIya1gyLTFFa3k5b3BuSEs1cVdNbHhVaGMyZ3BxUlY2dWxnajVkbmQ5ejEzQ1FqSS10Vnlid29OM3hWMGdEVVhQUFQ0OFZtQW45UWY0UGRKYm0wVm9aMm9tUGdQYXB1WnlyeGNSYVBkZjJDVVBKamRLb1h4VjFSTkNH?oc=5",
         "pool": "google",
@@ -677,15 +684,15 @@
         "by_hand": false
       },
       {
-        "title": "From Musinsa to Daiso, K-beauty is rewriting Korea’s retail playbook - The Korea Herald",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5SY082WGxWOEt4ZDNISVVtSTJpNEJhMjNPMnFhOW1uNWEwY19EYTl6RDhxVkFzT0VMU180VkJRaE1QTV96OXRDdE1DcVhaTkVwUHpxU1BjRQ?oc=5",
+        "title": "SUNGBOON EDITOR And Milk Touch Bring Next-Generation K-Beauty To Target Beauty Studio - PR Newswire",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVnFIcTVoMDE4cHNFWG9BVm1GeEp4T2NMc2ZwY1VhbmhzYzBoWjMxOTdfSWlVVWRaS0xyZ096RnAyN1B1QkxCZkY2OGZEblRMRm1hX0JqVGYwTURPZkhuTG4zVU5zdnQzeDR3U1liWTRiWDNEa25RUU1mU2x0VUVXUUZUVG1kazN6NXlwUC1EVldEYWRFZlp1NnlseG53Yy04a2cxNTJiQ2FQMDdES3NpUUNpTHhPQ2NyTEcyTE84Zlo0M0VtalYzVmhyX2RLYVZqQTFuQWZsUW8?oc=5",
         "pool": "google",
         "date": "2026-09-14",
         "by_hand": false
       },
       {
-        "title": "SUNGBOON EDITOR And Milk Touch Bring Next-Generation K-Beauty To Target Beauty Studio - PR Newswire",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVnFIcTVoMDE4cHNFWG9BVm1GeEp4T2NMc2ZwY1VhbmhzYzBoWjMxOTdfSWlVVWRaS0xyZ096RnAyN1B1QkxCZkY2OGZEblRMRm1hX0JqVGYwTURPZkhuTG4zVU5zdnQzeDR3U1liWTRiWDNEa25RUU1mU2x0VUVXUUZUVG1kazN6NXlwUC1EVldEYWRFZlp1NnlseG53Yy04a2cxNTJiQ2FQMDdES3NpUUNpTHhPQ2NyTEcyTE84Zlo0M0VtalYzVmhyX2RLYVZqQTFuQWZsUW8?oc=5",
+        "title": "From Musinsa to Daiso, K-beauty is rewriting Korea’s retail playbook - The Korea Herald",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5SY082WGxWOEt4ZDNISVVtSTJpNEJhMjNPMnFhOW1uNWEwY19EYTl6RDhxVkFzT0VMU180VkJRaE1QTV96OXRDdE1DcVhaTkVwUHpxU1BjRQ?oc=5",
         "pool": "google",
         "date": "2026-09-14",
         "by_hand": false
@@ -719,7 +726,7 @@
         "by_hand": false
       },
       {
-        "title": "K-Beauty’s U.S. Boom Is Making ‘Korean’ Less of a Differentiator - koreatechdesk.com",
+        "title": "K-Beauty’s U.S. Boom Is Making ‘Korean’ Less of a Differentiator - KoreaTechDesk",
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1HZ0dkQmFkU3ppdGRTcnRJQXV3TjEyaUNKQ2JqbXVldHpDM1k5UlEyTXAtS2c5NnRYcXhXZ0hWeFlMRkNXX3Bpc200dXI0eUZjUHJFTHMtVUZvb2R2T3VDODk0Qjl6SU9CQzZQbUREM0ZDeFBuc3F4ODhVNm5yZw?oc=5",
         "pool": "google",
         "date": "2026-09-12",
@@ -749,13 +756,6 @@
       {
         "title": "VOESH Joins Target Beauty Studio, Bringing K-Beauty Body Care to Target Guests Nationwide with Target-Exclusive Collection - PR Newswire",
         "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQekZyU2tfY0w2UDhDcmhqZS05Y1Q1MEgxdndCU0xZa0YzcUZDN2JsUllLaTV2NFdONFZVdmJOdDdXM1JaVm9iNGpWQldJcnl0Slo5MTA5dXptZ2szR25hbl9DdExTTzdBT0F1SW9LTHZQb2NTWlUxRHhWVWlHQjRyM0gzaWUweWtSM1Atdk5Idjk3d0pCTGVEMW00VVdzY3hjTHMyYldiREt0WXU1V0E4YnJ6WWdUQXlndGNxaXd3UXA1V1FYbXFSLVZiWlZHQkxKVUQ1T0xCdENxVGtSdHk0bFctVnRjTnEtekVfZ1BVSUJGWEZGN2NoS2ZiZXJ6aG1MYTQ5Nld0VVE?oc=5",
-        "pool": "google",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "COSMECCA KOREA plans $150 mil. AI-based skincare factory in Korea - Korea Biomedical Review",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5JOHRFeGJMRElFbVVDVkNFMXdWZTVvVWF1Sy1nckZmdHU2dVNuVlRyYktZZ0RnTTU1aWUwT3Z0LVJxeGxrRnVpaHV6RHNjaHVrQVJNNDVkVlQ1SXZTNFluWFBiWGZ4bURabzZIZUJ30gFyQVVfeXFMUHJVc2QwM0dFXzMyM1Jjek50c3A0LVp4NXo5MVhIb0haZ1JILVdWYUpTV0NVNUtXaExVdUw2Q1YxOVpfU3NMalBJMWZ4b0tJS1gxSnJacEpuQnRkSE1YdUd4dzVJMnRVQktqNnl2Rnk4Ymp3?oc=5",
         "pool": "google",
         "date": "2026-09-10",
         "by_hand": false
@@ -838,7 +838,7 @@
         "by_hand": false
       },
       {
-        "title": "8 best ecommerce AI Website Builder for creating an online store - Hostinger",
+        "title": "8 best ecommerce AI Website Builder for creating an online store - hostinger.com",
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBpU29tczMwM1pKaUdZYld0aThjYVRYWlE1c3k2VXc4RDBpUDdLOEx5bDg1OHljdURVUG5Xc25PWUxVZDY0RGl2OEFNM1ZYelFhN3FTVm1ySC1hRFk5amtVbkpudm9ZSFFCaEVQX1hleGRKWHV0d1NzSDhJdw?oc=5",
         "pool": "google",
         "date": "2026-09-04",
@@ -880,7 +880,14 @@
         "by_hand": false
       },
       {
-        "title": "Meet the K-beauty masks skincare lovers swear by for achieving a true glass skin finish - sacbee.com",
+        "title": "Ecommerce Evolution: Shopify’s (SHOP) AI-Driven Approach to Retail Success - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQnNfUW9Pdjhhc2ZBejlUV0lWYmZXRW9KeWxSbjJWLWltODYyQnZGTkpzRE9QOVNUamxuTzFSc1VhcktzWGhSVU5xRnI3QlBTS1c1a0lzTHdEUklzYUw0RDdzNFE0X2FUS3VoX1dWSkRuUDQ2Z0NabkJheVZRUXJOSXhsR0hOajNmYTQ4TUtLUHNWSzlTZTRuYlpmc0FtWXAy?oc=5",
+        "pool": "google",
+        "date": "2026-09-02",
+        "by_hand": false
+      },
+      {
+        "title": "Meet the K-beauty masks skincare lovers swear by for achieving a true glass skin finish - Sacramento Bee",
         "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAzRUhWam1YWHZYXzlFQlVlMFcwRDBYX003QTZqSzM0WURnYnNudkZveEs3RHJCczBzSUpvMklOeXR3elA4ZVdIc2lDd2RNeEJLeE9RdGNEbVFrTjVhcnFPaUJSNEpNeXpWLWRpcGhQb0ozdU3SAXNBVV95cUxPV1Qwc05zNHBGQmhLclBFVzhrQjQ1bjBZWWFKa25fVllZRXRobkhXZGZpeUplUVFYTjJ4dEpBTDZ1TXVlc3FGT3FOOUl2VFBqdzhYcHRFeEtJV2ExN29TUTVQVVdVTmNwWW9YVHZHSkZ0TDZN?oc=5",
         "pool": "google",
         "date": "2026-08-31",
@@ -912,13 +919,6 @@
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPR0hPOFV3NTlQQ2h0LWNDUHBoUTNRZHNDbjllRTNFOHdlQzd5Y20zWmgwWEloVjkwdlpoTEIxcE9YMUwtX1lDazd0LXJUckRBMDhjS1JIV1o0T0l2Y3daZEZiSVBFZElES3lKLWFYVmw4WVlHQ0dKd18xeW1wX3NFN0lJQUxMZjhwbUpPTm9ZclZwZw?oc=5",
         "pool": "google",
         "date": "2026-08-29",
-        "by_hand": false
-      },
-      {
-        "title": "Game over, new routine: Laid-off Xbox manager built her Korean skincare startup before cuts hit - GeekWire",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSmd3bV80NzFvZlZtOUNnSUF4eTRlQ0VoamFoUlY5aEQ2Q000MmlBVmVTQ3ZuWV9wTmhzWXROSWNyaDNuQ0JrTFdEczljM0JlbTBtdFBZbnhtakNaWHBTZTBGWDFzbDJURU1ESi1mano4T21KMHV0ZEQwOFI3aWI3Q2lTbzhPSmw5dEp6cGZVXzhadW5GNTRNaVhhMEhIdjY0czMwTmN4aUlpVWNYTmV5ZnNxWkdlcUZFUUhoNEdId3gxZw?oc=5",
-        "pool": "google",
-        "date": "2026-08-28",
         "by_hand": false
       }
     ],
@@ -1080,7 +1080,7 @@
         "by_hand": false
       },
       {
-        "title": "Smoking and vaping trends among active-duty U.S. Navy and Marine Corps personnel: results from the Annual Periodic Health Assessment, 2017-2021",
+        "title": "Smoking and vaping trends among active-duty US Navy and Marine Corps personnel: results from the Annual Periodic Health Assessment, 2017-2021",
         "url": "https://doi.org/10.1093/ntr/ntag188",
         "pool": "institutions",
         "date": "2026-08-26",
@@ -1516,15 +1516,8 @@
         "by_hand": false
       },
       {
-        "title": "글리콜산 7% 각질 제거 토너",
-        "url": "",
-        "pool": "us_beauty",
-        "date": "",
-        "by_hand": false
-      },
-      {
-        "title": "안텔리오스 클리어 스킨 SPF60",
-        "url": "",
+        "title": "Same brand, different SPF: Why Korean sunscreens outperform US versions - The Korea Times",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdXEyV1k2UDNvY01GVEFoVE01MldFRjlqaGlJY3kzRjliamkxcEV3aXFJeS1WRDJpbzI2OGVfTDFoTGR3Ny0tUkNRMXJ0RmJvRktpM2FDN0h4aE1uSHItVVNMWFNycnM1aDR4NW1TUVVQdjRhTmNIUXQxUmlVM253Z2NCNmIwbW9xVHJFLWd0R0tyZ2k4TWtqTzFoeDJUNDE5ZVpfeUZHNWtqNjVsOEhQRjUzSlZ0LTNN0gG-AUFVX3lxTE9teTR0RHBndWpfVGJ2OElRU1NCVDNSaVdZTjcwLWZpcU9ubEJma1FEeU9SbFRmc0hWd3hCTUhoUjlsb05Sek53VlI3RVF4dTI0MlFYRXpScmw4bFM1WVpjVEpnSFMtUllTWm9xYkxkbXVIM2RUaHQ3UlpXcGZJTHMxYkQ4aUlBdmFxQllQZF9YbG9yYVk5ay0yTUlVYTBjS3dZTnlkdzVLRzQxMGkzM0FzOERMOEo3d1RDOURmUnc?oc=5",
         "pool": "us_beauty",
         "date": "",
         "by_hand": false
@@ -1546,6 +1539,13 @@
       {
         "title": "Eminence Radiant Protection SPF Fluid",
         "url": "https://api.fda.gov/drug/label.json?search=id:2737f1e2-08e3-0e06-e063-6394a90a8159",
+        "pool": "us_beauty",
+        "date": "",
+        "by_hand": false
+      },
+      {
+        "title": "Neutrogena Mineral Invisible Daily Defense Face Sunscreen Broad Spectrum SPF 30",
+        "url": "https://api.fda.gov/drug/label.json?search=id:3afd4f97-ceb8-c70f-e063-6394a90afeb4",
         "pool": "us_beauty",
         "date": "",
         "by_hand": false
@@ -1616,7 +1616,7 @@
         "by_hand": true
       },
       {
-        "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
+        "title": "These UI/UX App Design Tips Will Teach You More Than 100 Tutorials Combined",
         "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
         "pool": "youtube_channel",
         "date": "",
@@ -1791,6 +1791,41 @@
         "by_hand": true
       },
       {
+        "title": "A new look for the Shopify admin",
+        "url": "https://changelog.shopify.com/posts/see-the-shopify-admin-s-new-look",
+        "pool": "design_refs",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Dynamic complexity cost for `metafieldsSet` mutation",
+        "url": "https://shopify.dev/changelog/dynamic-complexity-cost-for-metafieldsset-mutation",
+        "pool": "design_refs",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Prepare your app for the Shopify admin's new look",
+        "url": "https://shopify.dev/changelog/prepare-your-app-for-the-shopify-admins-new-look",
+        "pool": "design_refs",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "family_name is optional for B2B orders in Payments Apps API requests",
+        "url": "https://shopify.dev/changelog/family_name-is-optional-for-b2b-orders-in-payments-apps-api-requests",
+        "pool": "design_refs",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Delivery options in Shopify Functions input now expose their metafields",
+        "url": "https://shopify.dev/changelog/delivery-options-in-shopify-functions-input-now-expose-their-metafields",
+        "pool": "design_refs",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
         "title": "Universal Robots launches its seventh generation robot platform at IMTS",
         "url": "https://www.therobotreport.com/universal-robots-launches-its-seventh-generation-robot-platform-at-imts/",
         "pool": "robotics",
@@ -1936,44 +1971,16 @@
         "pool": "institutions",
         "date": "2026-09-10",
         "by_hand": false
-      },
-      {
-        "title": "Seven in 10 Gen Z jobseekers apply without checking whether roles are genuine as four in five face financial pressure | Barclays",
-        "url": "https://home.barclays/news/press-releases/20260/090/seven-in-10-gen-z-jobseekers-apply-without-checking-whether-role/",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Collect WhatsApp marketing consent at checkout",
-        "url": "https://changelog.shopify.com/posts/collect-whatsapp-marketing-consent-at-checkout",
-        "pool": "design_refs",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Discounts Allocator Function API developer preview has ended",
-        "url": "https://shopify.dev/changelog/discounts-allocator-function-api-developer-preview-has-ended",
-        "pool": "design_refs",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Migrating Shop app from React Native to native",
-        "url": "https://shopify.engineering/shop-app-migration",
-        "pool": "design_refs",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Native is now the future of mobile at Shopify",
-        "url": "https://shopify.engineering/back-to-native",
-        "pool": "design_refs",
-        "date": "2026-09-10",
-        "by_hand": false
       }
     ],
     "robotics": [
+      {
+        "title": "Agility’s Digit 5 humanoid has new legs, batteries and safety upgrades",
+        "url": "https://www.therobotreport.com/agilitys-digit-5-humanoid-has-new-legs-batteries-safety-upgrades/",
+        "pool": "robotics",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
       {
         "title": "Why RaaS needs more than a subscription model",
         "url": "https://www.therobotreport.com/why-raas-needs-more-than-a-subscription-model/",
@@ -2082,13 +2089,6 @@
       {
         "title": "What bricklaying has taught Monumental about robots in construction",
         "url": "https://www.therobotreport.com/what-bricklaying-has-taught-monumental-about-robots-construction/",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Unitree shares down 53% from IPO debut",
-        "url": "https://www.therobotreport.com/unitree-shares-down-53-from-ipo-debut/",
         "pool": "robotics",
         "date": "2026-09-09",
         "by_hand": false
@@ -2516,13 +2516,6 @@
         "by_hand": false
       },
       {
-        "title": "Adaptive Instructed-Retriever: Frontier-Quality Search at 2x Lower Latency",
-        "url": "https://www.databricks.com/blog/adaptive-instructed-retriever-frontier-quality-search-2x-lower-latency",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
         "title": "Create and delete dev stores in Shopify CLI",
         "url": "https://shopify.dev/changelog/create-and-delete-dev-stores-in-shopify-cli",
         "pool": "design_refs",
@@ -2803,6 +2796,13 @@
         "by_hand": false
       },
       {
+        "title": "The Three Golden Ages of Database Engineering: From SIGMOD'85 to the Agentic Era",
+        "url": "https://doi.org/10.14778/3827998.3838713",
+        "pool": "institutions",
+        "date": "2026-08-01",
+        "by_hand": false
+      },
+      {
         "title": "Learning to Coordinate Symbolic Tools: LLM Agents for Verified Sum-of-Squares Certificates",
         "url": "https://openalex.org/W7172559358",
         "pool": "institutions",
@@ -2842,6 +2842,13 @@
       {
         "title": "Samsung and Verizon Complete Successful ISAC Trial Over Virtualized Network at Global Sports Event",
         "url": "https://news.samsung.com/global/samsung-and-verizon-complete-successful-isac-trial-over-virtualized-network-at-global-sports-event",
+        "pool": "institutions",
+        "date": "2026-09-14",
+        "by_hand": false
+      },
+      {
+        "title": "Managed Postgres: What Lakebase Actually Takes Off Your Plate",
+        "url": "https://www.databricks.com/blog/managed-postgres",
         "pool": "institutions",
         "date": "2026-09-14",
         "by_hand": false
@@ -2933,6 +2940,41 @@
       {
         "title": "Biotech Industry Trends Reshaping Healthcare Market",
         "url": "https://www.morganstanley.com/insights/articles/biotech-industry-trends-reshaping-healthcare-market",
+        "pool": "institutions",
+        "date": "2026-09-14",
+        "by_hand": false
+      },
+      {
+        "title": "Digitalising Is Not Digitalising for Sustainability: Decomposing the Digital Transformation–ESG Relationship in African Listed Firms",
+        "url": "https://doi.org/10.21203/rs.3.rs-10732340/v1",
+        "pool": "institutions",
+        "date": "2026-09-14",
+        "by_hand": false
+      },
+      {
+        "title": "Co-design of a trustworthy AI-based prognostic tool for predicting patient outcome in acute stroke",
+        "url": "https://doi.org/10.1007/s43681-026-01337-3",
+        "pool": "institutions",
+        "date": "2026-09-14",
+        "by_hand": false
+      },
+      {
+        "title": "Designing for use: Embedding data usability into Earth science mission conception, implementation, and evaluation to accelerate discovery",
+        "url": "https://doi.org/10.22541/essoar.15008768/v1",
+        "pool": "institutions",
+        "date": "2026-09-14",
+        "by_hand": false
+      },
+      {
+        "title": "Non-neutralizing antibody responses control acute Crimean-Congo hemorrhagic fever virus infection in naïve mice",
+        "url": "https://doi.org/10.1128/jvi.00987-26",
+        "pool": "institutions",
+        "date": "2026-09-14",
+        "by_hand": false
+      },
+      {
+        "title": "Longitudinal characterization of mixed-genotype SARS-CoV-2 infections in a military cohort reveals compartmentalized viral populations",
+        "url": "https://doi.org/10.1128/spectrum.01806-26",
         "pool": "institutions",
         "date": "2026-09-14",
         "by_hand": false
@@ -3036,7 +3078,7 @@
         "by_hand": false
       },
       {
-        "title": "How Claude's values vary by model and language",
+        "title": "Claude Values Models Languages",
         "url": "https://www.anthropic.com/research/claude-values-models-languages",
         "pool": "institutions",
         "date": "2026-09-11",
@@ -3155,13 +3197,6 @@
         "by_hand": false
       },
       {
-        "title": "Ai Blockchain And The New Market Reality",
-        "url": "https://www.jpmorgan.com/markets/insights/ai-blockchain-and-the-new-market-reality",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
         "title": "Private Credit Machine Learning Moment",
         "url": "https://www.jpmorgan.com/markets/insights/private-credit-machine-learning-moment",
         "pool": "institutions",
@@ -3190,50 +3225,15 @@
         "by_hand": false
       },
       {
+        "title": "Ai Blockchain And The New Market Reality",
+        "url": "https://www.jpmorgan.com/markets/insights/ai-blockchain-and-the-new-market-reality",
+        "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
         "title": "Volatility Is No Longer The Exception",
         "url": "https://www.jpmorgan.com/markets/insights/volatility-is-no-longer-the-exception",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "The Future Of Treasury From Back Office To Strategic Forefront",
-        "url": "https://www.jpmorgan.com/insights/podcast-hub/making-sense/the-future-of-treasury-from-back-office-to-strategic-forefront",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "Hope And Heroes",
-        "url": "https://www.jpmorgan.com/insights/corporate-responsibility/community-impact/hope-and-heroes",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "Expanding Healthcare Access With Nmtc Equity Investment",
-        "url": "https://www.jpmorgan.com/insights/real-estate/community-development-banking/expanding-healthcare-access-with-nmtc-equity-investment",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "Financing Resilience Energy Supply Disruption",
-        "url": "https://www.jpmorgan.com/insights/treasury/trade-working-capital/financing-resilience-energy-supply-disruption",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "K Shaped Economy Widening Heather Berger Sarah Wolfe",
-        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/k-shaped-economy-widening-heather-berger-sarah-wolfe",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "Singing In Holiday Giving",
-        "url": "https://www.morganstanley.com/ideas/singing-in-holiday-giving",
         "pool": "institutions",
         "date": "2026-09-11",
         "by_hand": false

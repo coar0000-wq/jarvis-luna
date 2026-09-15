@@ -1,12 +1,12 @@
 ---
-title: "Record 760578a7ae · Swipe-All-Over-Hydrating-Serum-Concealer-with-18-HR-Wear"
+title: "Record 760578a7ae · Swipe-All-Over-Hydrating-Serum-Concealer-with-18-HR"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T17:01:22.647659+00:00
+updated_at: 2026-09-15T18:05:07.242545+00:00
 tags: [record, real-data]
 ---
 
-# Record 760578a7ae · Swipe-All-Over-Hydrating-Serum-Concealer-with-18-HR-Wear
+# Record 760578a7ae · Swipe-All-Over-Hydrating-Serum-Concealer-with-18-HR
 
 > 실제 수집 레코드입니다. 원문: [www.sephora.com](https://www.sephora.com/product/swipe-all-over-hydrating-serum-concealer-P507142)
 

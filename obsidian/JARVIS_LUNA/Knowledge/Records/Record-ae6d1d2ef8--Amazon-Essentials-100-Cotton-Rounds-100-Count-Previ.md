@@ -1,12 +1,12 @@
 ---
-title: "Record ae6d1d2ef8 · Amazon-Essentials-100-Cotton-Rounds-100-Count-Previously-Amazon-Basics"
+title: "Record ae6d1d2ef8 · Amazon-Essentials-100-Cotton-Rounds-100-Count-Previ"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T17:01:22.429491+00:00
+updated_at: 2026-09-15T18:05:07.180253+00:00
 tags: [record, real-data]
 ---
 
-# Record ae6d1d2ef8 · Amazon-Essentials-100-Cotton-Rounds-100-Count-Previously-Amazon-Basics
+# Record ae6d1d2ef8 · Amazon-Essentials-100-Cotton-Rounds-100-Count-Previ
 
 > 실제 수집 레코드입니다. 원문: [www.amazon.com](https://www.amazon.com/Amazon-Basics-Cotton-Rounds-Count/dp/B09542G9ZN/ref=zg_bs_g_beauty_d_sccl_6/134-4860327-2688437)
 

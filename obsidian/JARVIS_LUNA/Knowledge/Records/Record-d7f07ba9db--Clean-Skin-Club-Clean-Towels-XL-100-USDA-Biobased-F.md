@@ -1,12 +1,12 @@
 ---
-title: "Record d7f07ba9db · Clean-Skin-Club-Clean-Towels-XL-100-USDA-Biobased-Face-Towel-Disposabl"
+title: "Record d7f07ba9db · Clean-Skin-Club-Clean-Towels-XL-100-USDA-Biobased-F"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T17:01:22.430197+00:00
+updated_at: 2026-09-15T18:05:07.181213+00:00
 tags: [record, real-data]
 ---
 
-# Record d7f07ba9db · Clean-Skin-Club-Clean-Towels-XL-100-USDA-Biobased-Face-Towel-Disposabl
+# Record d7f07ba9db · Clean-Skin-Club-Clean-Towels-XL-100-USDA-Biobased-F
 
 > 실제 수집 레코드입니다. 원문: [www.amazon.com](https://www.amazon.com/Clean-Skin-Club-Disposable-Sensitive/dp/B07PBXXNCY/ref=zg_bs_g_beauty_d_sccl_4/134-4860327-2688437)
 

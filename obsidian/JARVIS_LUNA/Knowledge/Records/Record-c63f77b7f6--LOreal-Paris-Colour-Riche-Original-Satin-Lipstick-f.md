@@ -1,12 +1,12 @@
 ---
-title: "Record c63f77b7f6 · LOreal-Paris-Colour-Riche-Original-Satin-Lipstick-for-Moisturized-Lips"
+title: "Record c63f77b7f6 · LOreal-Paris-Colour-Riche-Original-Satin-Lipstick-f"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T17:01:22.658488+00:00
+updated_at: 2026-09-15T18:05:07.256828+00:00
 tags: [record, real-data]
 ---
 
-# Record c63f77b7f6 · LOreal-Paris-Colour-Riche-Original-Satin-Lipstick-for-Moisturized-Lips
+# Record c63f77b7f6 · LOreal-Paris-Colour-Riche-Original-Satin-Lipstick-f
 
 > 실제 수집 레코드입니다. 원문: [www.walmart.com](https://www.walmart.com/ip/L-Oreal-Paris-Colour-Riche-Lipcolour-Plum-Explosion-776/19416466)
 

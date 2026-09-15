@@ -1,12 +1,12 @@
 ---
-title: "Record 0bd256e3cf · La-Roche-Posay-Toleriane-Double-Repair-Face-Moisturizer"
+title: "Record 0bd256e3cf · La-Roche-Posay-Toleriane-Double-Repair-Face-Moistur"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T17:01:22.431560+00:00
+updated_at: 2026-09-15T18:05:07.182917+00:00
 tags: [record, real-data]
 ---
 
-# Record 0bd256e3cf · La-Roche-Posay-Toleriane-Double-Repair-Face-Moisturizer
+# Record 0bd256e3cf · La-Roche-Posay-Toleriane-Double-Repair-Face-Moistur
 
 > 실제 수집 레코드입니다. 원문: [www.amazon.com](https://www.amazon.com/Roche-Posay-Toleriane-Double-Repair-Moisturizer/dp/B01N9SPQHQ/ref=zg_bs_g_beauty_d_sccl_12/134-4860327-2688437)
 

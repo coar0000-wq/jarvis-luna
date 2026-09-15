@@ -2,7 +2,7 @@
 title: "Record 9c54a6bc75 · Expanding-Global-Operations-To-India"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T17:01:22.437915+00:00
+updated_at: 2026-09-15T18:05:07.192607+00:00
 tags: [record, real-data]
 ---
 

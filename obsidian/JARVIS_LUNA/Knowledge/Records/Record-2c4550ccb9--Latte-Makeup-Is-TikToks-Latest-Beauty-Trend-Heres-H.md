@@ -2,7 +2,7 @@
 title: "Record 2c4550ccb9 · Latte-Makeup-Is-TikToks-Latest-Beauty-Trend-Heres-H"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T17:01:22.358896+00:00
+updated_at: 2026-09-15T18:05:07.069750+00:00
 tags: [record, real-data]
 ---
 

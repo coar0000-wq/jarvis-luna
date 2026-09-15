@@ -1,12 +1,12 @@
 ---
-title: "Record 0afc6e9f37 · Smart-Care-Scented-Hand-Sanitizer-Spray-Watermelon-135-fl-oz"
+title: "Record 0afc6e9f37 · Smart-Care-Scented-Hand-Sanitizer-Spray-Watermelon-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T17:01:22.659459+00:00
+updated_at: 2026-09-15T18:05:07.258144+00:00
 tags: [record, real-data]
 ---
 
-# Record 0afc6e9f37 · Smart-Care-Scented-Hand-Sanitizer-Spray-Watermelon-135-fl-oz
+# Record 0afc6e9f37 · Smart-Care-Scented-Hand-Sanitizer-Spray-Watermelon-
 
 > 실제 수집 레코드입니다. 원문: [www.walmart.com](https://www.walmart.com/ip/Smart-Care-Scented-Hand-Sanitizer-Spray-Watermelon-1-35-fl-oz/12281808034)
 

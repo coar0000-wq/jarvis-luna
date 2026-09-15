@@ -2,7 +2,7 @@
 title: "Record fdd56c84aa · what-my-nighttime-skincare-routine-looks-like-after"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T17:01:22.663764+00:00
+updated_at: 2026-09-15T18:05:07.264487+00:00
 tags: [record, real-data]
 ---
 

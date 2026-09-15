@@ -2,7 +2,7 @@
 title: "Record d6617c72f0 · Logos-An-Agent-Harness-on-a-Cross-Process-Bus"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T17:01:22.000246+00:00
+updated_at: 2026-09-15T18:05:06.707592+00:00
 tags: [record, real-data]
 ---
 

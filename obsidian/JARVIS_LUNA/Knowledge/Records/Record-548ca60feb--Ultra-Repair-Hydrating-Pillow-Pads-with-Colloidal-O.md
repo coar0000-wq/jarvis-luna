@@ -1,12 +1,12 @@
 ---
-title: "Record 548ca60feb · Ultra-Repair-Hydrating-Pillow-Pads-with-Colloidal-Oatmeal--Ceramides"
+title: "Record 548ca60feb · Ultra-Repair-Hydrating-Pillow-Pads-with-Colloidal-O"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T17:01:22.657655+00:00
+updated_at: 2026-09-15T18:05:07.255675+00:00
 tags: [record, real-data]
 ---
 
-# Record 548ca60feb · Ultra-Repair-Hydrating-Pillow-Pads-with-Colloidal-Oatmeal--Ceramides
+# Record 548ca60feb · Ultra-Repair-Hydrating-Pillow-Pads-with-Colloidal-O
 
 > 실제 수집 레코드입니다. 원문: [www.ulta.com](https://www.ulta.com/p/ultra-repair-hydrating-pillow-pads-with-colloidal-oatmeal-ceramides-pimprod2055848)
 

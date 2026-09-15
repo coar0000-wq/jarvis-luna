@@ -2,7 +2,7 @@
 title: "Record 1bdd1d1f2b · Sephora-Expands-K-Beauty-Assortment-With-Sustainabl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T17:01:22.353224+00:00
+updated_at: 2026-09-15T18:05:07.060687+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiogFBVV95cUxPel9iLUdoV3o2THpSNzFNdjFQREFsODl0Q3I3Zk5oNjB0MTEtZU4tUGVTVUgxR3ZudmI1bTNhUVEyUXIzMlBNcl9wZGthMzFuMG9rVERkN000cG9kWDBJVlZXaUhLNEJWU2JBUndZZlZsMHJtYjctbzVFQ2hnbnRYTmx4NVBRRi1MbTBXVGRoZGhKc0hRNDYxd1RGWVVBSHlHOWc?oc=5)
 
-**제목:** Sephora Expands K-Beauty Assortment With Sustainable Brand Yepoda - beautyindependent.com
+**제목:** Sephora Expands K-Beauty Assortment With Sustainable Brand Yepoda - Beauty Independent
 
-Sephora Expands K-Beauty Assortment With Sustainable Brand Yepoda - beautyindependent.com
+Sephora Expands K-Beauty Assortment With Sustainable Brand Yepoda - Beauty Independent
 
 **출처:** Source · Google Search
 

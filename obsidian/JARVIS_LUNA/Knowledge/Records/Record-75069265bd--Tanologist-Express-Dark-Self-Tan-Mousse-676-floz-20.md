@@ -1,12 +1,12 @@
 ---
-title: "Record 75069265bd · Tanologist-Express-Dark-Self-Tan-Mousse-676-floz-200-ml-Bottle"
+title: "Record 75069265bd · Tanologist-Express-Dark-Self-Tan-Mousse-676-floz-20"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T17:01:22.659590+00:00
+updated_at: 2026-09-15T18:05:07.258321+00:00
 tags: [record, real-data]
 ---
 
-# Record 75069265bd · Tanologist-Express-Dark-Self-Tan-Mousse-676-floz-200-ml-Bottle
+# Record 75069265bd · Tanologist-Express-Dark-Self-Tan-Mousse-676-floz-20
 
 > 실제 수집 레코드입니다. 원문: [www.walmart.com](https://www.walmart.com/ip/Tanologist-Express-Dark-Self-Tan-Mousse-6-76-fl-oz-200-ml-Bottle/387748161)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record f2539d6fab · Profusion-Cosmetics-Peanuts-75th-Charlie-Brown--Snoopy-Bouncy-Blush-Cr"
+title: "Record f2539d6fab · Profusion-Cosmetics-Peanuts-75th-Charlie-Brown--Sno"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T17:01:22.659185+00:00
+updated_at: 2026-09-15T18:05:07.257782+00:00
 tags: [record, real-data]
 ---
 
-# Record f2539d6fab · Profusion-Cosmetics-Peanuts-75th-Charlie-Brown--Snoopy-Bouncy-Blush-Cr
+# Record f2539d6fab · Profusion-Cosmetics-Peanuts-75th-Charlie-Brown--Sno
 
 > 실제 수집 레코드입니다. 원문: [www.walmart.com](https://www.walmart.com/ip/Profusion-Cosmetics-Peanuts-Bouncy-Blush-Duo/15199721744)
 
