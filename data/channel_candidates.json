@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T21:31:14.689143+00:00",
+  "generated_at": "2026-09-15T00:20:26.964980+00:00",
   "generator": "scripts/discover_channels.py",
   "정책": "후보를 자동으로 등록하지 않는다. robots.txt 를 확인하고 실제로 호출해 본 뒤 진짜 데이터가 나오는 것만 제안한다. 붙일지 말지는 대화로 지시하면 자비스가 수집기를 만들어 연동한다. 이미 가동 중인 소스는 already_live 로 표시한다.",
   "판정기준": [
@@ -65,12 +65,12 @@
       "url": "https://www.allure.com/feed/rss",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 25946,
+      "bytes": 25863,
       "items": 30,
       "samples": [
-        "The \"Practical Magic 2\" Ageism \"Controversy\" Misses the Point",
-        "11 Best Wrinkle Creams 2026 for Smoother, Firmer Skin",
-        "Arizona’s Attorney General Alleges L’Oréal Downplayed Cancer Risks in New Lawsuit"
+        "Nicole Kidman's Curtain Bangs Swept the Emmys 2026 Red Carpet—See the Photos",
+        "Zendaya Debuted Her New Pixie Cut at the 2026 Emmys—See the Photos",
+        "Selena Gomez's Mermaid Waves at the 2026 Emmys Just Keep Flowing and Flowing—See the Photos"
       ],
       "verdict": "가능",
       "reason": "30건 파싱 성공, 값이 서로 다름",
@@ -97,15 +97,15 @@
       "url": "https://trends.google.com/trending/rss?geo=US",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 21012,
-      "items": 40,
+      "bytes": 20955,
+      "items": 39,
       "samples": [
-        "royal family",
-        "Harry and Meghan switch children’s school just days into term",
-        "Prince Archie and Princess Lilibet Change Schools in the U.K. After Just 2 Days Over Security Concerns"
+        "dick wolf",
+        "FBI And CIA: Inside The Art Of The Crossover With The Showrunner And Stars Of CBS' Dick Wolf Franchise",
+        "FBI And CIA: Inside The Art Of The Crossover With The Showrunner And Stars Of CBS' Dick Wolf Franchise"
       ],
       "verdict": "가능",
-      "reason": "40건 파싱 성공, 값이 서로 다름",
+      "reason": "39건 파싱 성공, 값이 서로 다름",
       "already_live": true,
       "live_channel": "google_trends_us"
     },

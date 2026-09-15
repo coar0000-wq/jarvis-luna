@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-14T21:30:56.376776+00:00",
+  "generated_at": "2026-09-15T00:20:07.906408+00:00",
   "exchange_rate": {
-    "usd_to_krw": 1346.24,
-    "as_of": "2026-09-14",
-    "source": "Frankfurter API"
+    "usd_to_krw": 1347.2,
+    "as_of": "2026-09-15",
+    "source": "exchangerate-api"
   },
   "cost_basis": {
     "shipping": "우체국 국제통상 소형포장물 미국행 요금표 (ems.epost.go.kr, 2026-08-31 조회)",
@@ -26,7 +26,7 @@
     "median": 25.0,
     "max": 279.0,
     "n": 100,
-    "source": "us.oliveyoung.com/best-sellers 실수집 100건 (2026-09-14)"
+    "source": "us.oliveyoung.com/best-sellers 실수집 100건 (2026-09-15)"
   },
   "offers_by_product": {
     "규칙": "상품별 미국 실판매 중앙값의 95% 를 기준가로 잡는다. 신규 스토어라 시장 중앙값보다 살짝 아래로 들어간다. 상품별 시장가가 없으면 종전 하위25% 벤치마크를 쓴다.",
@@ -35,14 +35,14 @@
         "pd_no": "1048583",
         "name": "드롭비 탄탄 광채 앰플 40 ml",
         "qty": 1,
-        "price_usd": 25.99,
-        "unit_price_usd": 25.99,
-        "landed_cost_total_usd": 11.27,
-        "fee_usd": 1.92,
-        "net_profit_usd": 12.8,
-        "margin_pct": 49.2,
-        "market_median_usd": 25.0,
-        "market_price_source": "oliveyoung_us_benchmark",
+        "price_usd": 17.99,
+        "unit_price_usd": 17.99,
+        "landed_cost_total_usd": 11.26,
+        "fee_usd": 1.33,
+        "net_profit_usd": 5.4,
+        "margin_pct": 30.0,
+        "market_median_usd": 17.99,
+        "market_price_source": "serpapi_google_shopping",
         "register_blocked": false,
         "block_reason": ""
       },
@@ -52,10 +52,10 @@
         "qty": 1,
         "price_usd": 25.99,
         "unit_price_usd": 25.99,
-        "landed_cost_total_usd": 11.27,
+        "landed_cost_total_usd": 11.26,
         "fee_usd": 1.92,
-        "net_profit_usd": 12.8,
-        "margin_pct": 49.2,
+        "net_profit_usd": 12.81,
+        "margin_pct": 49.3,
         "market_median_usd": 25.0,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
@@ -65,14 +65,14 @@
         "pd_no": "1041749",
         "name": "식물원 병풀 클리어 앰플 30 ml",
         "qty": 1,
-        "price_usd": 25.99,
-        "unit_price_usd": 25.99,
-        "landed_cost_total_usd": 10.52,
-        "fee_usd": 1.92,
-        "net_profit_usd": 13.55,
-        "margin_pct": 52.1,
-        "market_median_usd": 25.0,
-        "market_price_source": "oliveyoung_us_benchmark",
+        "price_usd": 17.99,
+        "unit_price_usd": 17.99,
+        "landed_cost_total_usd": 10.51,
+        "fee_usd": 1.33,
+        "net_profit_usd": 6.15,
+        "margin_pct": 34.2,
+        "market_median_usd": 18.05,
+        "market_price_source": "serpapi_google_shopping",
         "register_blocked": false,
         "block_reason": ""
       },
@@ -82,9 +82,9 @@
         "qty": 1,
         "price_usd": 25.99,
         "unit_price_usd": 25.99,
-        "landed_cost_total_usd": 7.96,
+        "landed_cost_total_usd": 7.95,
         "fee_usd": 1.92,
-        "net_profit_usd": 16.11,
+        "net_profit_usd": 16.12,
         "margin_pct": 62.0,
         "market_median_usd": 25.0,
         "market_price_source": "oliveyoung_us_benchmark",
@@ -95,16 +95,16 @@
         "pd_no": "1049271",
         "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
         "qty": 1,
-        "price_usd": 25.99,
-        "unit_price_usd": 25.99,
-        "landed_cost_total_usd": 15.0,
-        "fee_usd": 1.92,
-        "net_profit_usd": 9.07,
-        "margin_pct": 34.9,
-        "market_median_usd": 25.0,
-        "market_price_source": "oliveyoung_us_benchmark",
-        "register_blocked": false,
-        "block_reason": ""
+        "price_usd": 14.99,
+        "unit_price_usd": 14.99,
+        "landed_cost_total_usd": 14.99,
+        "fee_usd": 1.11,
+        "net_profit_usd": -1.11,
+        "margin_pct": -7.4,
+        "market_median_usd": 15.0,
+        "market_price_source": "serpapi_google_shopping",
+        "register_blocked": true,
+        "block_reason": "권장가 $14.99 가 손익분기 $16.18 이하"
       },
       {
         "pd_no": "1041403",
@@ -112,9 +112,9 @@
         "qty": 1,
         "price_usd": 25.99,
         "unit_price_usd": 25.99,
-        "landed_cost_total_usd": 12.02,
+        "landed_cost_total_usd": 12.01,
         "fee_usd": 1.92,
-        "net_profit_usd": 12.05,
+        "net_profit_usd": 12.06,
         "margin_pct": 46.4,
         "market_median_usd": 25.0,
         "market_price_source": "oliveyoung_us_benchmark",
@@ -127,14 +127,14 @@
         "pd_no": "1048583",
         "name": "드롭비 탄탄 광채 앰플 40 ml",
         "qty": 2,
-        "price_usd": 42.99,
-        "unit_price_usd": 21.5,
+        "price_usd": 29.99,
+        "unit_price_usd": 14.99,
         "landed_cost_total_usd": 16.28,
-        "fee_usd": 3.18,
-        "net_profit_usd": 23.53,
-        "margin_pct": 54.7,
-        "market_median_usd": 25.0,
-        "market_price_source": "oliveyoung_us_benchmark",
+        "fee_usd": 2.22,
+        "net_profit_usd": 11.49,
+        "margin_pct": 38.3,
+        "market_median_usd": 17.99,
+        "market_price_source": "serpapi_google_shopping",
         "register_blocked": false,
         "block_reason": ""
       },
@@ -157,14 +157,14 @@
         "pd_no": "1041749",
         "name": "식물원 병풀 클리어 앰플 30 ml",
         "qty": 2,
-        "price_usd": 42.99,
-        "unit_price_usd": 21.5,
-        "landed_cost_total_usd": 15.54,
-        "fee_usd": 3.18,
-        "net_profit_usd": 24.27,
-        "margin_pct": 56.5,
-        "market_median_usd": 25.0,
-        "market_price_source": "oliveyoung_us_benchmark",
+        "price_usd": 29.99,
+        "unit_price_usd": 14.99,
+        "landed_cost_total_usd": 15.52,
+        "fee_usd": 2.22,
+        "net_profit_usd": 12.25,
+        "margin_pct": 40.8,
+        "market_median_usd": 18.05,
+        "market_price_source": "serpapi_google_shopping",
         "register_blocked": false,
         "block_reason": ""
       },
@@ -174,9 +174,9 @@
         "qty": 2,
         "price_usd": 42.99,
         "unit_price_usd": 21.5,
-        "landed_cost_total_usd": 10.42,
+        "landed_cost_total_usd": 10.4,
         "fee_usd": 3.18,
-        "net_profit_usd": 29.39,
+        "net_profit_usd": 29.41,
         "margin_pct": 68.4,
         "market_median_usd": 25.0,
         "market_price_source": "oliveyoung_us_benchmark",
@@ -187,16 +187,16 @@
         "pd_no": "1049271",
         "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
         "qty": 2,
-        "price_usd": 42.99,
-        "unit_price_usd": 21.5,
-        "landed_cost_total_usd": 23.5,
-        "fee_usd": 3.18,
-        "net_profit_usd": 16.31,
-        "margin_pct": 37.9,
-        "market_median_usd": 25.0,
-        "market_price_source": "oliveyoung_us_benchmark",
-        "register_blocked": false,
-        "block_reason": ""
+        "price_usd": 24.99,
+        "unit_price_usd": 12.49,
+        "landed_cost_total_usd": 23.48,
+        "fee_usd": 1.85,
+        "net_profit_usd": -0.34,
+        "margin_pct": -1.4,
+        "market_median_usd": 15.0,
+        "market_price_source": "serpapi_google_shopping",
+        "register_blocked": true,
+        "block_reason": "권장가 $24.99 가 손익분기 $25.36 이하"
       },
       {
         "pd_no": "1041403",
@@ -217,7 +217,7 @@
   },
   "product_market_prices": {
     "source": "SerpApi google_shopping (미국)",
-    "matched": 0,
+    "matched": 3,
     "note": "상품별 실판매가가 있는 건은 그 값으로 마진을 계산한다. 없으면 올리브영 베스트셀러 벤치마크로 돌아간다."
   },
   "duty_mode_note": {
@@ -234,16 +234,16 @@
       "discount_pct": 0,
       "price_usd": 25.99,
       "unit_price_usd": 25.99,
-      "landed_cost_total_usd": 11.34,
-      "shipping_in_cost_usd": 7.5,
+      "landed_cost_total_usd": 11.33,
+      "shipping_in_cost_usd": 7.49,
       "fee_usd": 1.92,
-      "net_profit_usd": 12.73,
+      "net_profit_usd": 12.74,
       "margin_pct": 49.0,
       "free_shipping": false,
       "orders_for_500usd": 39,
       "price_basis": "상품별 권장가의 중앙값",
       "price_range_usd": [
-        25.99,
+        14.99,
         25.99
       ]
     },
@@ -252,16 +252,16 @@
       "discount_pct": 15,
       "price_usd": 42.99,
       "unit_price_usd": 21.5,
-      "landed_cost_total_usd": 16.88,
-      "shipping_in_cost_usd": 9.2,
+      "landed_cost_total_usd": 16.87,
+      "shipping_in_cost_usd": 9.19,
       "fee_usd": 3.18,
-      "net_profit_usd": 22.93,
-      "margin_pct": 53.3,
+      "net_profit_usd": 22.94,
+      "margin_pct": 53.4,
       "free_shipping": true,
       "orders_for_500usd": 22,
       "price_basis": "상품별 권장가의 중앙값",
       "price_range_usd": [
-        42.99,
+        24.99,
         42.99
       ]
     },
@@ -283,15 +283,15 @@
         "weight_source": "gosi_volume",
         "weigh_needed": true,
         "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 7.0,
-        "shipping_order_usd": 7.0,
+        "shipping_unit_usd": 6.99,
+        "shipping_order_usd": 6.99,
         "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 11.27,
-        "landed_cost_ddu_usd": 11.27,
-        "landed_cost_ddp_usd": 10.71,
+        "landed_cost_usd": 11.26,
+        "landed_cost_ddu_usd": 11.26,
+        "landed_cost_ddp_usd": 10.7,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 12.17,
+        "breakeven_usd": 12.16,
         "at_2_2x": {
           "sell": 8.17,
           "fee": 0.6,
@@ -301,19 +301,24 @@
         "at_market_p25": {
           "sell": 20.99,
           "fee": 1.55,
-          "profit": 8.17,
-          "margin_pct": 38.9
+          "profit": 8.18,
+          "margin_pct": 39.0
         },
         "at_market_median": {
           "sell": 25.0,
           "fee": 1.85,
-          "profit": 11.88,
-          "margin_pct": 47.5
+          "profit": 11.89,
+          "margin_pct": 47.6
         },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
-        "market_sample_n": 100,
-        "at_product_market": null
+        "market_price_source": "serpapi_google_shopping",
+        "market_median_usd": 17.99,
+        "market_sample_n": 20,
+        "at_product_market": {
+          "sell": 17.99,
+          "fee": 1.33,
+          "profit": 5.4,
+          "margin_pct": 30.0
+        }
       },
       {
         "pd_no": "1062781",
@@ -326,15 +331,15 @@
         "weight_source": "gosi_volume",
         "weigh_needed": false,
         "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 7.0,
-        "shipping_order_usd": 7.0,
+        "shipping_unit_usd": 6.99,
+        "shipping_order_usd": 6.99,
         "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 11.27,
-        "landed_cost_ddu_usd": 11.27,
-        "landed_cost_ddp_usd": 10.71,
+        "landed_cost_usd": 11.26,
+        "landed_cost_ddu_usd": 11.26,
+        "landed_cost_ddp_usd": 10.7,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 12.17,
+        "breakeven_usd": 12.16,
         "at_2_2x": {
           "sell": 8.17,
           "fee": 0.6,
@@ -344,14 +349,14 @@
         "at_market_p25": {
           "sell": 20.99,
           "fee": 1.55,
-          "profit": 8.17,
-          "margin_pct": 38.9
+          "profit": 8.18,
+          "margin_pct": 39.0
         },
         "at_market_median": {
           "sell": 25.0,
           "fee": 1.85,
-          "profit": 11.88,
-          "margin_pct": 47.5
+          "profit": 11.89,
+          "margin_pct": 47.6
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 25.0,
@@ -369,15 +374,15 @@
         "weight_source": "gosi_volume",
         "weigh_needed": true,
         "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 6.25,
-        "shipping_order_usd": 6.25,
+        "shipping_unit_usd": 6.24,
+        "shipping_order_usd": 6.24,
         "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 10.52,
-        "landed_cost_ddu_usd": 10.52,
-        "landed_cost_ddp_usd": 9.96,
+        "landed_cost_usd": 10.51,
+        "landed_cost_ddu_usd": 10.51,
+        "landed_cost_ddp_usd": 9.95,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 11.36,
+        "breakeven_usd": 11.35,
         "at_2_2x": {
           "sell": 8.17,
           "fee": 0.6,
@@ -387,19 +392,24 @@
         "at_market_p25": {
           "sell": 20.99,
           "fee": 1.55,
-          "profit": 8.92,
+          "profit": 8.93,
           "margin_pct": 42.5
         },
         "at_market_median": {
           "sell": 25.0,
           "fee": 1.85,
-          "profit": 12.63,
-          "margin_pct": 50.5
+          "profit": 12.64,
+          "margin_pct": 50.6
         },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
-        "market_sample_n": 100,
-        "at_product_market": null
+        "market_price_source": "serpapi_google_shopping",
+        "market_median_usd": 18.05,
+        "market_sample_n": 20,
+        "at_product_market": {
+          "sell": 18.05,
+          "fee": 1.34,
+          "profit": 6.2,
+          "margin_pct": 34.4
+        }
       },
       {
         "pd_no": "1059834",
@@ -411,13 +421,13 @@
         "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 1.49,
-        "shipping_unit_usd": 6.25,
-        "shipping_order_usd": 6.25,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 6.24,
+        "shipping_order_usd": 6.24,
         "tariff_usd": 0.22,
         "duty_mode": "ddu",
-        "landed_cost_usd": 7.96,
-        "landed_cost_ddu_usd": 7.96,
+        "landed_cost_usd": 7.95,
+        "landed_cost_ddu_usd": 7.95,
         "landed_cost_ddp_usd": 7.73,
         "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 8.59,
@@ -430,13 +440,13 @@
         "at_market_p25": {
           "sell": 20.99,
           "fee": 1.55,
-          "profit": 11.48,
+          "profit": 11.49,
           "margin_pct": 54.7
         },
         "at_market_median": {
           "sell": 25.0,
           "fee": 1.85,
-          "profit": 15.19,
+          "profit": 15.2,
           "margin_pct": 60.8
         },
         "market_price_source": "oliveyoung_us_benchmark",
@@ -455,15 +465,15 @@
         "weight_source": "gosi_volume",
         "weigh_needed": false,
         "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 10.73,
-        "shipping_order_usd": 10.73,
+        "shipping_unit_usd": 10.72,
+        "shipping_order_usd": 10.72,
         "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 15.0,
-        "landed_cost_ddu_usd": 15.0,
-        "landed_cost_ddp_usd": 14.44,
+        "landed_cost_usd": 14.99,
+        "landed_cost_ddu_usd": 14.99,
+        "landed_cost_ddp_usd": 14.43,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 16.2,
+        "breakeven_usd": 16.18,
         "at_2_2x": {
           "sell": 8.17,
           "fee": 0.6,
@@ -473,19 +483,24 @@
         "at_market_p25": {
           "sell": 20.99,
           "fee": 1.55,
-          "profit": 4.44,
+          "profit": 4.45,
           "margin_pct": 21.2
         },
         "at_market_median": {
           "sell": 25.0,
           "fee": 1.85,
-          "profit": 8.15,
-          "margin_pct": 32.6
+          "profit": 8.16,
+          "margin_pct": 32.7
         },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
-        "market_sample_n": 100,
-        "at_product_market": null
+        "market_price_source": "serpapi_google_shopping",
+        "market_median_usd": 15.0,
+        "market_sample_n": 20,
+        "at_product_market": {
+          "sell": 15.0,
+          "fee": 1.11,
+          "profit": -1.1,
+          "margin_pct": -7.3
+        }
       },
       {
         "pd_no": "1041403",
@@ -498,15 +513,15 @@
         "weight_source": "gosi_volume",
         "weigh_needed": false,
         "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 7.75,
-        "shipping_order_usd": 7.75,
+        "shipping_unit_usd": 7.74,
+        "shipping_order_usd": 7.74,
         "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 12.02,
-        "landed_cost_ddu_usd": 12.02,
-        "landed_cost_ddp_usd": 11.46,
+        "landed_cost_usd": 12.01,
+        "landed_cost_ddu_usd": 12.01,
+        "landed_cost_ddp_usd": 11.45,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 12.98,
+        "breakeven_usd": 12.97,
         "at_2_2x": {
           "sell": 8.17,
           "fee": 0.6,
@@ -516,14 +531,14 @@
         "at_market_p25": {
           "sell": 20.99,
           "fee": 1.55,
-          "profit": 7.42,
-          "margin_pct": 35.3
+          "profit": 7.43,
+          "margin_pct": 35.4
         },
         "at_market_median": {
           "sell": 25.0,
           "fee": 1.85,
-          "profit": 11.13,
-          "margin_pct": 44.5
+          "profit": 11.14,
+          "margin_pct": 44.6
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 25.0,
@@ -544,14 +559,14 @@
         "weigh_needed": true,
         "unit_cost_usd": 3.71,
         "shipping_unit_usd": 3.87,
-        "shipping_order_usd": 7.75,
+        "shipping_order_usd": 7.74,
         "tariff_usd": 0.56,
         "duty_mode": "ddu",
         "landed_cost_usd": 8.14,
         "landed_cost_ddu_usd": 8.14,
-        "landed_cost_ddp_usd": 7.59,
+        "landed_cost_ddp_usd": 7.58,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.8,
+        "breakeven_usd": 8.79,
         "at_2_2x": {
           "sell": 8.17,
           "fee": 0.6,
@@ -561,7 +576,7 @@
         "at_market_p25": {
           "sell": 20.99,
           "fee": 1.55,
-          "profit": 11.29,
+          "profit": 11.3,
           "margin_pct": 53.8
         },
         "at_market_median": {
@@ -570,10 +585,15 @@
           "profit": 15.01,
           "margin_pct": 60.0
         },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
-        "market_sample_n": 100,
-        "at_product_market": null
+        "market_price_source": "serpapi_google_shopping",
+        "market_median_usd": 17.99,
+        "market_sample_n": 20,
+        "at_product_market": {
+          "sell": 17.99,
+          "fee": 1.33,
+          "profit": 8.52,
+          "margin_pct": 47.4
+        }
       },
       {
         "pd_no": "1062781",
@@ -587,14 +607,14 @@
         "weigh_needed": false,
         "unit_cost_usd": 3.71,
         "shipping_unit_usd": 3.87,
-        "shipping_order_usd": 7.75,
+        "shipping_order_usd": 7.74,
         "tariff_usd": 0.56,
         "duty_mode": "ddu",
         "landed_cost_usd": 8.14,
         "landed_cost_ddu_usd": 8.14,
-        "landed_cost_ddp_usd": 7.59,
+        "landed_cost_ddp_usd": 7.58,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.8,
+        "breakeven_usd": 8.79,
         "at_2_2x": {
           "sell": 8.17,
           "fee": 0.6,
@@ -604,7 +624,7 @@
         "at_market_p25": {
           "sell": 20.99,
           "fee": 1.55,
-          "profit": 11.29,
+          "profit": 11.3,
           "margin_pct": 53.8
         },
         "at_market_median": {
@@ -630,14 +650,14 @@
         "weigh_needed": true,
         "unit_cost_usd": 3.71,
         "shipping_unit_usd": 3.5,
-        "shipping_order_usd": 7.0,
+        "shipping_order_usd": 6.99,
         "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 7.77,
-        "landed_cost_ddu_usd": 7.77,
+        "landed_cost_usd": 7.76,
+        "landed_cost_ddu_usd": 7.76,
         "landed_cost_ddp_usd": 7.21,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.39,
+        "breakeven_usd": 8.38,
         "at_2_2x": {
           "sell": 8.17,
           "fee": 0.6,
@@ -653,13 +673,18 @@
         "at_market_median": {
           "sell": 25.0,
           "fee": 1.85,
-          "profit": 15.38,
+          "profit": 15.39,
           "margin_pct": 61.5
         },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
-        "market_sample_n": 100,
-        "at_product_market": null
+        "market_price_source": "serpapi_google_shopping",
+        "market_median_usd": 18.05,
+        "market_sample_n": 20,
+        "at_product_market": {
+          "sell": 18.05,
+          "fee": 1.34,
+          "profit": 8.95,
+          "margin_pct": 49.6
+        }
       },
       {
         "pd_no": "1059834",
@@ -671,13 +696,13 @@
         "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 1.49,
+        "unit_cost_usd": 1.48,
         "shipping_unit_usd": 3.5,
-        "shipping_order_usd": 7.0,
+        "shipping_order_usd": 6.99,
         "tariff_usd": 0.22,
         "duty_mode": "ddu",
-        "landed_cost_usd": 5.21,
-        "landed_cost_ddu_usd": 5.21,
+        "landed_cost_usd": 5.2,
+        "landed_cost_ddu_usd": 5.2,
         "landed_cost_ddp_usd": 4.98,
         "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 5.62,
@@ -696,7 +721,7 @@
         "at_market_median": {
           "sell": 25.0,
           "fee": 1.85,
-          "profit": 17.94,
+          "profit": 17.95,
           "margin_pct": 71.8
         },
         "market_price_source": "oliveyoung_us_benchmark",
@@ -715,15 +740,15 @@
         "weight_source": "gosi_volume",
         "weigh_needed": false,
         "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 7.48,
-        "shipping_order_usd": 14.95,
+        "shipping_unit_usd": 7.47,
+        "shipping_order_usd": 14.94,
         "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 11.75,
-        "landed_cost_ddu_usd": 11.75,
-        "landed_cost_ddp_usd": 11.19,
+        "landed_cost_usd": 11.74,
+        "landed_cost_ddu_usd": 11.74,
+        "landed_cost_ddp_usd": 11.18,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 12.69,
+        "breakeven_usd": 12.68,
         "at_2_2x": {
           "sell": 8.17,
           "fee": 0.6,
@@ -733,19 +758,24 @@
         "at_market_p25": {
           "sell": 20.99,
           "fee": 1.55,
-          "profit": 7.69,
-          "margin_pct": 36.6
+          "profit": 7.7,
+          "margin_pct": 36.7
         },
         "at_market_median": {
           "sell": 25.0,
           "fee": 1.85,
-          "profit": 11.4,
+          "profit": 11.41,
           "margin_pct": 45.6
         },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
-        "market_sample_n": 100,
-        "at_product_market": null
+        "market_price_source": "serpapi_google_shopping",
+        "market_median_usd": 15.0,
+        "market_sample_n": 20,
+        "at_product_market": {
+          "sell": 15.0,
+          "fee": 1.11,
+          "profit": 2.15,
+          "margin_pct": 14.3
+        }
       },
       {
         "pd_no": "1041403",
@@ -759,12 +789,12 @@
         "weigh_needed": false,
         "unit_cost_usd": 3.71,
         "shipping_unit_usd": 5.36,
-        "shipping_order_usd": 10.73,
+        "shipping_order_usd": 10.72,
         "tariff_usd": 0.56,
         "duty_mode": "ddu",
         "landed_cost_usd": 9.63,
         "landed_cost_ddu_usd": 9.63,
-        "landed_cost_ddp_usd": 9.08,
+        "landed_cost_ddp_usd": 9.07,
         "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 10.4,
         "at_2_2x": {
@@ -776,7 +806,7 @@
         "at_market_p25": {
           "sell": 20.99,
           "fee": 1.55,
-          "profit": 9.8,
+          "profit": 9.81,
           "margin_pct": 46.7
         },
         "at_market_median": {
@@ -805,15 +835,15 @@
         "weight_source": "gosi_volume",
         "weigh_needed": true,
         "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 7.0,
-        "shipping_order_usd": 7.0,
+        "shipping_unit_usd": 6.99,
+        "shipping_order_usd": 6.99,
         "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 11.27,
-        "landed_cost_ddu_usd": 11.27,
-        "landed_cost_ddp_usd": 10.71,
+        "landed_cost_usd": 11.26,
+        "landed_cost_ddu_usd": 11.26,
+        "landed_cost_ddp_usd": 10.7,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 12.17,
+        "breakeven_usd": 12.16,
         "at_2_2x": {
           "sell": 8.17,
           "fee": 0.6,
@@ -823,19 +853,24 @@
         "at_market_p25": {
           "sell": 20.99,
           "fee": 1.55,
-          "profit": 8.17,
-          "margin_pct": 38.9
+          "profit": 8.18,
+          "margin_pct": 39.0
         },
         "at_market_median": {
           "sell": 25.0,
           "fee": 1.85,
-          "profit": 11.88,
-          "margin_pct": 47.5
+          "profit": 11.89,
+          "margin_pct": 47.6
         },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
-        "market_sample_n": 100,
-        "at_product_market": null
+        "market_price_source": "serpapi_google_shopping",
+        "market_median_usd": 17.99,
+        "market_sample_n": 20,
+        "at_product_market": {
+          "sell": 17.99,
+          "fee": 1.33,
+          "profit": 5.4,
+          "margin_pct": 30.0
+        }
       },
       {
         "pd_no": "1062781",
@@ -848,15 +883,15 @@
         "weight_source": "gosi_volume",
         "weigh_needed": false,
         "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 7.0,
-        "shipping_order_usd": 7.0,
+        "shipping_unit_usd": 6.99,
+        "shipping_order_usd": 6.99,
         "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 11.27,
-        "landed_cost_ddu_usd": 11.27,
-        "landed_cost_ddp_usd": 10.71,
+        "landed_cost_usd": 11.26,
+        "landed_cost_ddu_usd": 11.26,
+        "landed_cost_ddp_usd": 10.7,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 12.17,
+        "breakeven_usd": 12.16,
         "at_2_2x": {
           "sell": 8.17,
           "fee": 0.6,
@@ -866,14 +901,14 @@
         "at_market_p25": {
           "sell": 20.99,
           "fee": 1.55,
-          "profit": 8.17,
-          "margin_pct": 38.9
+          "profit": 8.18,
+          "margin_pct": 39.0
         },
         "at_market_median": {
           "sell": 25.0,
           "fee": 1.85,
-          "profit": 11.88,
-          "margin_pct": 47.5
+          "profit": 11.89,
+          "margin_pct": 47.6
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 25.0,
@@ -891,15 +926,15 @@
         "weight_source": "gosi_volume",
         "weigh_needed": true,
         "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 6.25,
-        "shipping_order_usd": 6.25,
+        "shipping_unit_usd": 6.24,
+        "shipping_order_usd": 6.24,
         "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 10.52,
-        "landed_cost_ddu_usd": 10.52,
-        "landed_cost_ddp_usd": 9.96,
+        "landed_cost_usd": 10.51,
+        "landed_cost_ddu_usd": 10.51,
+        "landed_cost_ddp_usd": 9.95,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 11.36,
+        "breakeven_usd": 11.35,
         "at_2_2x": {
           "sell": 8.17,
           "fee": 0.6,
@@ -909,19 +944,24 @@
         "at_market_p25": {
           "sell": 20.99,
           "fee": 1.55,
-          "profit": 8.92,
+          "profit": 8.93,
           "margin_pct": 42.5
         },
         "at_market_median": {
           "sell": 25.0,
           "fee": 1.85,
-          "profit": 12.63,
-          "margin_pct": 50.5
+          "profit": 12.64,
+          "margin_pct": 50.6
         },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
-        "market_sample_n": 100,
-        "at_product_market": null
+        "market_price_source": "serpapi_google_shopping",
+        "market_median_usd": 18.05,
+        "market_sample_n": 20,
+        "at_product_market": {
+          "sell": 18.05,
+          "fee": 1.34,
+          "profit": 6.2,
+          "margin_pct": 34.4
+        }
       },
       {
         "pd_no": "1059834",
@@ -933,13 +973,13 @@
         "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 1.49,
-        "shipping_unit_usd": 6.25,
-        "shipping_order_usd": 6.25,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 6.24,
+        "shipping_order_usd": 6.24,
         "tariff_usd": 0.22,
         "duty_mode": "ddu",
-        "landed_cost_usd": 7.96,
-        "landed_cost_ddu_usd": 7.96,
+        "landed_cost_usd": 7.95,
+        "landed_cost_ddu_usd": 7.95,
         "landed_cost_ddp_usd": 7.73,
         "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 8.59,
@@ -952,13 +992,13 @@
         "at_market_p25": {
           "sell": 20.99,
           "fee": 1.55,
-          "profit": 11.48,
+          "profit": 11.49,
           "margin_pct": 54.7
         },
         "at_market_median": {
           "sell": 25.0,
           "fee": 1.85,
-          "profit": 15.19,
+          "profit": 15.2,
           "margin_pct": 60.8
         },
         "market_price_source": "oliveyoung_us_benchmark",
@@ -977,15 +1017,15 @@
         "weight_source": "gosi_volume",
         "weigh_needed": false,
         "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 10.73,
-        "shipping_order_usd": 10.73,
+        "shipping_unit_usd": 10.72,
+        "shipping_order_usd": 10.72,
         "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 15.0,
-        "landed_cost_ddu_usd": 15.0,
-        "landed_cost_ddp_usd": 14.44,
+        "landed_cost_usd": 14.99,
+        "landed_cost_ddu_usd": 14.99,
+        "landed_cost_ddp_usd": 14.43,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 16.2,
+        "breakeven_usd": 16.18,
         "at_2_2x": {
           "sell": 8.17,
           "fee": 0.6,
@@ -995,19 +1035,24 @@
         "at_market_p25": {
           "sell": 20.99,
           "fee": 1.55,
-          "profit": 4.44,
+          "profit": 4.45,
           "margin_pct": 21.2
         },
         "at_market_median": {
           "sell": 25.0,
           "fee": 1.85,
-          "profit": 8.15,
-          "margin_pct": 32.6
+          "profit": 8.16,
+          "margin_pct": 32.7
         },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
-        "market_sample_n": 100,
-        "at_product_market": null
+        "market_price_source": "serpapi_google_shopping",
+        "market_median_usd": 15.0,
+        "market_sample_n": 20,
+        "at_product_market": {
+          "sell": 15.0,
+          "fee": 1.11,
+          "profit": -1.1,
+          "margin_pct": -7.3
+        }
       },
       {
         "pd_no": "1041403",
@@ -1020,15 +1065,15 @@
         "weight_source": "gosi_volume",
         "weigh_needed": false,
         "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 7.75,
-        "shipping_order_usd": 7.75,
+        "shipping_unit_usd": 7.74,
+        "shipping_order_usd": 7.74,
         "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 12.02,
-        "landed_cost_ddu_usd": 12.02,
-        "landed_cost_ddp_usd": 11.46,
+        "landed_cost_usd": 12.01,
+        "landed_cost_ddu_usd": 12.01,
+        "landed_cost_ddp_usd": 11.45,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 12.98,
+        "breakeven_usd": 12.97,
         "at_2_2x": {
           "sell": 8.17,
           "fee": 0.6,
@@ -1038,14 +1083,14 @@
         "at_market_p25": {
           "sell": 20.99,
           "fee": 1.55,
-          "profit": 7.42,
-          "margin_pct": 35.3
+          "profit": 7.43,
+          "margin_pct": 35.4
         },
         "at_market_median": {
           "sell": 25.0,
           "fee": 1.85,
-          "profit": 11.13,
-          "margin_pct": 44.5
+          "profit": 11.14,
+          "margin_pct": 44.6
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 25.0,
@@ -1066,14 +1111,14 @@
         "weigh_needed": true,
         "unit_cost_usd": 3.71,
         "shipping_unit_usd": 3.87,
-        "shipping_order_usd": 7.75,
+        "shipping_order_usd": 7.74,
         "tariff_usd": 0.56,
         "duty_mode": "ddu",
         "landed_cost_usd": 8.14,
         "landed_cost_ddu_usd": 8.14,
-        "landed_cost_ddp_usd": 7.59,
+        "landed_cost_ddp_usd": 7.58,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.8,
+        "breakeven_usd": 8.79,
         "at_2_2x": {
           "sell": 8.17,
           "fee": 0.6,
@@ -1083,7 +1128,7 @@
         "at_market_p25": {
           "sell": 20.99,
           "fee": 1.55,
-          "profit": 11.29,
+          "profit": 11.3,
           "margin_pct": 53.8
         },
         "at_market_median": {
@@ -1092,10 +1137,15 @@
           "profit": 15.01,
           "margin_pct": 60.0
         },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
-        "market_sample_n": 100,
-        "at_product_market": null
+        "market_price_source": "serpapi_google_shopping",
+        "market_median_usd": 17.99,
+        "market_sample_n": 20,
+        "at_product_market": {
+          "sell": 17.99,
+          "fee": 1.33,
+          "profit": 8.52,
+          "margin_pct": 47.4
+        }
       },
       {
         "pd_no": "1062781",
@@ -1109,14 +1159,14 @@
         "weigh_needed": false,
         "unit_cost_usd": 3.71,
         "shipping_unit_usd": 3.87,
-        "shipping_order_usd": 7.75,
+        "shipping_order_usd": 7.74,
         "tariff_usd": 0.56,
         "duty_mode": "ddu",
         "landed_cost_usd": 8.14,
         "landed_cost_ddu_usd": 8.14,
-        "landed_cost_ddp_usd": 7.59,
+        "landed_cost_ddp_usd": 7.58,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.8,
+        "breakeven_usd": 8.79,
         "at_2_2x": {
           "sell": 8.17,
           "fee": 0.6,
@@ -1126,7 +1176,7 @@
         "at_market_p25": {
           "sell": 20.99,
           "fee": 1.55,
-          "profit": 11.29,
+          "profit": 11.3,
           "margin_pct": 53.8
         },
         "at_market_median": {
@@ -1152,14 +1202,14 @@
         "weigh_needed": true,
         "unit_cost_usd": 3.71,
         "shipping_unit_usd": 3.5,
-        "shipping_order_usd": 7.0,
+        "shipping_order_usd": 6.99,
         "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 7.77,
-        "landed_cost_ddu_usd": 7.77,
+        "landed_cost_usd": 7.76,
+        "landed_cost_ddu_usd": 7.76,
         "landed_cost_ddp_usd": 7.21,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.39,
+        "breakeven_usd": 8.38,
         "at_2_2x": {
           "sell": 8.17,
           "fee": 0.6,
@@ -1175,13 +1225,18 @@
         "at_market_median": {
           "sell": 25.0,
           "fee": 1.85,
-          "profit": 15.38,
+          "profit": 15.39,
           "margin_pct": 61.5
         },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
-        "market_sample_n": 100,
-        "at_product_market": null
+        "market_price_source": "serpapi_google_shopping",
+        "market_median_usd": 18.05,
+        "market_sample_n": 20,
+        "at_product_market": {
+          "sell": 18.05,
+          "fee": 1.34,
+          "profit": 8.95,
+          "margin_pct": 49.6
+        }
       },
       {
         "pd_no": "1059834",
@@ -1193,13 +1248,13 @@
         "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 1.49,
+        "unit_cost_usd": 1.48,
         "shipping_unit_usd": 3.5,
-        "shipping_order_usd": 7.0,
+        "shipping_order_usd": 6.99,
         "tariff_usd": 0.22,
         "duty_mode": "ddu",
-        "landed_cost_usd": 5.21,
-        "landed_cost_ddu_usd": 5.21,
+        "landed_cost_usd": 5.2,
+        "landed_cost_ddu_usd": 5.2,
         "landed_cost_ddp_usd": 4.98,
         "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 5.62,
@@ -1218,7 +1273,7 @@
         "at_market_median": {
           "sell": 25.0,
           "fee": 1.85,
-          "profit": 17.94,
+          "profit": 17.95,
           "margin_pct": 71.8
         },
         "market_price_source": "oliveyoung_us_benchmark",
@@ -1237,15 +1292,15 @@
         "weight_source": "gosi_volume",
         "weigh_needed": false,
         "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 7.48,
-        "shipping_order_usd": 14.95,
+        "shipping_unit_usd": 7.47,
+        "shipping_order_usd": 14.94,
         "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 11.75,
-        "landed_cost_ddu_usd": 11.75,
-        "landed_cost_ddp_usd": 11.19,
+        "landed_cost_usd": 11.74,
+        "landed_cost_ddu_usd": 11.74,
+        "landed_cost_ddp_usd": 11.18,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 12.69,
+        "breakeven_usd": 12.68,
         "at_2_2x": {
           "sell": 8.17,
           "fee": 0.6,
@@ -1255,19 +1310,24 @@
         "at_market_p25": {
           "sell": 20.99,
           "fee": 1.55,
-          "profit": 7.69,
-          "margin_pct": 36.6
+          "profit": 7.7,
+          "margin_pct": 36.7
         },
         "at_market_median": {
           "sell": 25.0,
           "fee": 1.85,
-          "profit": 11.4,
+          "profit": 11.41,
           "margin_pct": 45.6
         },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
-        "market_sample_n": 100,
-        "at_product_market": null
+        "market_price_source": "serpapi_google_shopping",
+        "market_median_usd": 15.0,
+        "market_sample_n": 20,
+        "at_product_market": {
+          "sell": 15.0,
+          "fee": 1.11,
+          "profit": 2.15,
+          "margin_pct": 14.3
+        }
       },
       {
         "pd_no": "1041403",
@@ -1281,12 +1341,12 @@
         "weigh_needed": false,
         "unit_cost_usd": 3.71,
         "shipping_unit_usd": 5.36,
-        "shipping_order_usd": 10.73,
+        "shipping_order_usd": 10.72,
         "tariff_usd": 0.56,
         "duty_mode": "ddu",
         "landed_cost_usd": 9.63,
         "landed_cost_ddu_usd": 9.63,
-        "landed_cost_ddp_usd": 9.08,
+        "landed_cost_ddp_usd": 9.07,
         "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 10.4,
         "at_2_2x": {
@@ -1298,7 +1358,7 @@
         "at_market_p25": {
           "sell": 20.99,
           "fee": 1.55,
-          "profit": 9.8,
+          "profit": 9.81,
           "margin_pct": 46.7
         },
         "at_market_median": {
@@ -1325,19 +1385,19 @@
         "weight_source": "gosi_volume",
         "weigh_needed": true,
         "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 7.0,
-        "shipping_order_usd": 7.0,
+        "shipping_unit_usd": 6.99,
+        "shipping_order_usd": 6.99,
         "tariff_usd": 0.56,
         "duty_mode": "ddp",
-        "landed_cost_usd": 10.71,
-        "landed_cost_ddu_usd": 11.27,
-        "landed_cost_ddp_usd": 10.71,
+        "landed_cost_usd": 10.7,
+        "landed_cost_ddu_usd": 11.26,
+        "landed_cost_ddp_usd": 10.7,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 11.57,
+        "breakeven_usd": 11.56,
         "at_2_2x": {
           "sell": 8.17,
           "fee": 0.6,
-          "profit": -3.15,
+          "profit": -3.14,
           "margin_pct": -38.5
         },
         "at_market_p25": {
@@ -1349,13 +1409,18 @@
         "at_market_median": {
           "sell": 25.0,
           "fee": 1.85,
-          "profit": 12.44,
+          "profit": 12.45,
           "margin_pct": 49.8
         },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
-        "market_sample_n": 100,
-        "at_product_market": null
+        "market_price_source": "serpapi_google_shopping",
+        "market_median_usd": 17.99,
+        "market_sample_n": 20,
+        "at_product_market": {
+          "sell": 17.99,
+          "fee": 1.33,
+          "profit": 5.96,
+          "margin_pct": 33.1
+        }
       },
       {
         "pd_no": "1062781",
@@ -1368,19 +1433,19 @@
         "weight_source": "gosi_volume",
         "weigh_needed": false,
         "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 7.0,
-        "shipping_order_usd": 7.0,
+        "shipping_unit_usd": 6.99,
+        "shipping_order_usd": 6.99,
         "tariff_usd": 0.56,
         "duty_mode": "ddp",
-        "landed_cost_usd": 10.71,
-        "landed_cost_ddu_usd": 11.27,
-        "landed_cost_ddp_usd": 10.71,
+        "landed_cost_usd": 10.7,
+        "landed_cost_ddu_usd": 11.26,
+        "landed_cost_ddp_usd": 10.7,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 11.57,
+        "breakeven_usd": 11.56,
         "at_2_2x": {
           "sell": 8.17,
           "fee": 0.6,
-          "profit": -3.15,
+          "profit": -3.14,
           "margin_pct": -38.5
         },
         "at_market_p25": {
@@ -1392,7 +1457,7 @@
         "at_market_median": {
           "sell": 25.0,
           "fee": 1.85,
-          "profit": 12.44,
+          "profit": 12.45,
           "margin_pct": 49.8
         },
         "market_price_source": "oliveyoung_us_benchmark",
@@ -1411,15 +1476,15 @@
         "weight_source": "gosi_volume",
         "weigh_needed": true,
         "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 6.25,
-        "shipping_order_usd": 6.25,
+        "shipping_unit_usd": 6.24,
+        "shipping_order_usd": 6.24,
         "tariff_usd": 0.56,
         "duty_mode": "ddp",
-        "landed_cost_usd": 9.96,
-        "landed_cost_ddu_usd": 10.52,
-        "landed_cost_ddp_usd": 9.96,
+        "landed_cost_usd": 9.95,
+        "landed_cost_ddu_usd": 10.51,
+        "landed_cost_ddp_usd": 9.95,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 10.76,
+        "breakeven_usd": 10.75,
         "at_2_2x": {
           "sell": 8.17,
           "fee": 0.6,
@@ -1430,18 +1495,23 @@
           "sell": 20.99,
           "fee": 1.55,
           "profit": 9.48,
-          "margin_pct": 45.1
+          "margin_pct": 45.2
         },
         "at_market_median": {
           "sell": 25.0,
           "fee": 1.85,
-          "profit": 13.19,
+          "profit": 13.2,
           "margin_pct": 52.8
         },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
-        "market_sample_n": 100,
-        "at_product_market": null
+        "market_price_source": "serpapi_google_shopping",
+        "market_median_usd": 18.05,
+        "market_sample_n": 20,
+        "at_product_market": {
+          "sell": 18.05,
+          "fee": 1.34,
+          "profit": 6.76,
+          "margin_pct": 37.5
+        }
       },
       {
         "pd_no": "1059834",
@@ -1453,26 +1523,26 @@
         "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 1.49,
-        "shipping_unit_usd": 6.25,
-        "shipping_order_usd": 6.25,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 6.24,
+        "shipping_order_usd": 6.24,
         "tariff_usd": 0.22,
         "duty_mode": "ddp",
         "landed_cost_usd": 7.73,
-        "landed_cost_ddu_usd": 7.96,
+        "landed_cost_ddu_usd": 7.95,
         "landed_cost_ddp_usd": 7.73,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 8.35,
+        "breakeven_usd": 8.34,
         "at_2_2x": {
           "sell": 3.27,
           "fee": 0.24,
-          "profit": -4.71,
+          "profit": -4.7,
           "margin_pct": -144.0
         },
         "at_market_p25": {
           "sell": 20.99,
           "fee": 1.55,
-          "profit": 11.7,
+          "profit": 11.71,
           "margin_pct": 55.8
         },
         "at_market_median": {
@@ -1497,15 +1567,15 @@
         "weight_source": "gosi_volume",
         "weigh_needed": false,
         "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 10.73,
-        "shipping_order_usd": 10.73,
+        "shipping_unit_usd": 10.72,
+        "shipping_order_usd": 10.72,
         "tariff_usd": 0.56,
         "duty_mode": "ddp",
-        "landed_cost_usd": 14.44,
-        "landed_cost_ddu_usd": 15.0,
-        "landed_cost_ddp_usd": 14.44,
+        "landed_cost_usd": 14.43,
+        "landed_cost_ddu_usd": 14.99,
+        "landed_cost_ddp_usd": 14.43,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 15.59,
+        "breakeven_usd": 15.58,
         "at_2_2x": {
           "sell": 8.17,
           "fee": 0.6,
@@ -1515,19 +1585,24 @@
         "at_market_p25": {
           "sell": 20.99,
           "fee": 1.55,
-          "profit": 5.0,
-          "margin_pct": 23.8
+          "profit": 5.01,
+          "margin_pct": 23.9
         },
         "at_market_median": {
           "sell": 25.0,
           "fee": 1.85,
-          "profit": 8.71,
-          "margin_pct": 34.8
+          "profit": 8.72,
+          "margin_pct": 34.9
         },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
-        "market_sample_n": 100,
-        "at_product_market": null
+        "market_price_source": "serpapi_google_shopping",
+        "market_median_usd": 15.0,
+        "market_sample_n": 20,
+        "at_product_market": {
+          "sell": 15.0,
+          "fee": 1.11,
+          "profit": -0.54,
+          "margin_pct": -3.6
+        }
       },
       {
         "pd_no": "1041403",
@@ -1540,19 +1615,19 @@
         "weight_source": "gosi_volume",
         "weigh_needed": false,
         "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 7.75,
-        "shipping_order_usd": 7.75,
+        "shipping_unit_usd": 7.74,
+        "shipping_order_usd": 7.74,
         "tariff_usd": 0.56,
         "duty_mode": "ddp",
-        "landed_cost_usd": 11.46,
-        "landed_cost_ddu_usd": 12.02,
-        "landed_cost_ddp_usd": 11.46,
+        "landed_cost_usd": 11.45,
+        "landed_cost_ddu_usd": 12.01,
+        "landed_cost_ddp_usd": 11.45,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 12.38,
+        "breakeven_usd": 12.37,
         "at_2_2x": {
           "sell": 8.17,
           "fee": 0.6,
-          "profit": -3.9,
+          "profit": -3.89,
           "margin_pct": -47.7
         },
         "at_market_p25": {
@@ -1564,7 +1639,7 @@
         "at_market_median": {
           "sell": 25.0,
           "fee": 1.85,
-          "profit": 11.69,
+          "profit": 11.7,
           "margin_pct": 46.8
         },
         "market_price_source": "oliveyoung_us_benchmark",
@@ -1586,12 +1661,12 @@
         "weigh_needed": true,
         "unit_cost_usd": 3.71,
         "shipping_unit_usd": 3.87,
-        "shipping_order_usd": 7.75,
+        "shipping_order_usd": 7.74,
         "tariff_usd": 0.56,
         "duty_mode": "ddp",
-        "landed_cost_usd": 7.59,
+        "landed_cost_usd": 7.58,
         "landed_cost_ddu_usd": 8.14,
-        "landed_cost_ddp_usd": 7.59,
+        "landed_cost_ddp_usd": 7.58,
         "customer_pays_duty_at_checkout": true,
         "breakeven_usd": 8.19,
         "at_2_2x": {
@@ -1609,13 +1684,18 @@
         "at_market_median": {
           "sell": 25.0,
           "fee": 1.85,
-          "profit": 15.56,
-          "margin_pct": 62.2
+          "profit": 15.57,
+          "margin_pct": 62.3
         },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
-        "market_sample_n": 100,
-        "at_product_market": null
+        "market_price_source": "serpapi_google_shopping",
+        "market_median_usd": 17.99,
+        "market_sample_n": 20,
+        "at_product_market": {
+          "sell": 17.99,
+          "fee": 1.33,
+          "profit": 9.08,
+          "margin_pct": 50.5
+        }
       },
       {
         "pd_no": "1062781",
@@ -1629,12 +1709,12 @@
         "weigh_needed": false,
         "unit_cost_usd": 3.71,
         "shipping_unit_usd": 3.87,
-        "shipping_order_usd": 7.75,
+        "shipping_order_usd": 7.74,
         "tariff_usd": 0.56,
         "duty_mode": "ddp",
-        "landed_cost_usd": 7.59,
+        "landed_cost_usd": 7.58,
         "landed_cost_ddu_usd": 8.14,
-        "landed_cost_ddp_usd": 7.59,
+        "landed_cost_ddp_usd": 7.58,
         "customer_pays_duty_at_checkout": true,
         "breakeven_usd": 8.19,
         "at_2_2x": {
@@ -1652,8 +1732,8 @@
         "at_market_median": {
           "sell": 25.0,
           "fee": 1.85,
-          "profit": 15.56,
-          "margin_pct": 62.2
+          "profit": 15.57,
+          "margin_pct": 62.3
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 25.0,
@@ -1672,14 +1752,14 @@
         "weigh_needed": true,
         "unit_cost_usd": 3.71,
         "shipping_unit_usd": 3.5,
-        "shipping_order_usd": 7.0,
+        "shipping_order_usd": 6.99,
         "tariff_usd": 0.56,
         "duty_mode": "ddp",
         "landed_cost_usd": 7.21,
-        "landed_cost_ddu_usd": 7.77,
+        "landed_cost_ddu_usd": 7.76,
         "landed_cost_ddp_usd": 7.21,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 7.79,
+        "breakeven_usd": 7.78,
         "at_2_2x": {
           "sell": 8.17,
           "fee": 0.6,
@@ -1689,19 +1769,24 @@
         "at_market_p25": {
           "sell": 20.99,
           "fee": 1.55,
-          "profit": 12.22,
-          "margin_pct": 58.2
+          "profit": 12.23,
+          "margin_pct": 58.3
         },
         "at_market_median": {
           "sell": 25.0,
           "fee": 1.85,
           "profit": 15.94,
-          "margin_pct": 63.7
+          "margin_pct": 63.8
         },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
-        "market_sample_n": 100,
-        "at_product_market": null
+        "market_price_source": "serpapi_google_shopping",
+        "market_median_usd": 18.05,
+        "market_sample_n": 20,
+        "at_product_market": {
+          "sell": 18.05,
+          "fee": 1.34,
+          "profit": 9.51,
+          "margin_pct": 52.7
+        }
       },
       {
         "pd_no": "1059834",
@@ -1713,13 +1798,13 @@
         "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 1.49,
+        "unit_cost_usd": 1.48,
         "shipping_unit_usd": 3.5,
-        "shipping_order_usd": 7.0,
+        "shipping_order_usd": 6.99,
         "tariff_usd": 0.22,
         "duty_mode": "ddp",
         "landed_cost_usd": 4.98,
-        "landed_cost_ddu_usd": 5.21,
+        "landed_cost_ddu_usd": 5.2,
         "landed_cost_ddp_usd": 4.98,
         "customer_pays_duty_at_checkout": true,
         "breakeven_usd": 5.38,
@@ -1732,7 +1817,7 @@
         "at_market_p25": {
           "sell": 20.99,
           "fee": 1.55,
-          "profit": 14.45,
+          "profit": 14.46,
           "margin_pct": 68.9
         },
         "at_market_median": {
@@ -1757,13 +1842,13 @@
         "weight_source": "gosi_volume",
         "weigh_needed": false,
         "unit_cost_usd": 3.71,
-        "shipping_unit_usd": 7.48,
-        "shipping_order_usd": 14.95,
+        "shipping_unit_usd": 7.47,
+        "shipping_order_usd": 14.94,
         "tariff_usd": 0.56,
         "duty_mode": "ddp",
-        "landed_cost_usd": 11.19,
-        "landed_cost_ddu_usd": 11.75,
-        "landed_cost_ddp_usd": 11.19,
+        "landed_cost_usd": 11.18,
+        "landed_cost_ddu_usd": 11.74,
+        "landed_cost_ddp_usd": 11.18,
         "customer_pays_duty_at_checkout": true,
         "breakeven_usd": 12.08,
         "at_2_2x": {
@@ -1781,13 +1866,18 @@
         "at_market_median": {
           "sell": 25.0,
           "fee": 1.85,
-          "profit": 11.96,
-          "margin_pct": 47.8
+          "profit": 11.97,
+          "margin_pct": 47.9
         },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
-        "market_sample_n": 100,
-        "at_product_market": null
+        "market_price_source": "serpapi_google_shopping",
+        "market_median_usd": 15.0,
+        "market_sample_n": 20,
+        "at_product_market": {
+          "sell": 15.0,
+          "fee": 1.11,
+          "profit": 2.71,
+          "margin_pct": 18.1
+        }
       },
       {
         "pd_no": "1041403",
@@ -1801,12 +1891,12 @@
         "weigh_needed": false,
         "unit_cost_usd": 3.71,
         "shipping_unit_usd": 5.36,
-        "shipping_order_usd": 10.73,
+        "shipping_order_usd": 10.72,
         "tariff_usd": 0.56,
         "duty_mode": "ddp",
-        "landed_cost_usd": 9.08,
+        "landed_cost_usd": 9.07,
         "landed_cost_ddu_usd": 9.63,
-        "landed_cost_ddp_usd": 9.08,
+        "landed_cost_ddp_usd": 9.07,
         "customer_pays_duty_at_checkout": true,
         "breakeven_usd": 9.8,
         "at_2_2x": {
@@ -1818,13 +1908,13 @@
         "at_market_p25": {
           "sell": 20.99,
           "fee": 1.55,
-          "profit": 10.36,
+          "profit": 10.37,
           "margin_pct": 49.4
         },
         "at_market_median": {
           "sell": 25.0,
           "fee": 1.85,
-          "profit": 14.07,
+          "profit": 14.08,
           "margin_pct": 56.3
         },
         "market_price_source": "oliveyoung_us_benchmark",

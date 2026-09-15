@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T21:30:55.384905+00:00",
+  "generated_at": "2026-09-15T00:20:07.064479+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "royal family",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Mon, 14 Sep 2026 14:10:00 -0700",
-          "source_name": "CNN",
-          "url": "https://trends.google.com/trending?geo=US&q=royal%20family"
+          "keyword": "law and order svu",
+          "approx_traffic": "5000+",
+          "traffic_num": 5000,
+          "published": "Mon, 14 Sep 2026 17:00:00 -0700",
+          "source_name": "People.com",
+          "url": "https://trends.google.com/trending?geo=US&q=law%20and%20order%20svu"
         },
         {
-          "keyword": "retail",
+          "keyword": "dick wolf",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Mon, 14 Sep 2026 14:00:00 -0700",
-          "source_name": "Fox Business",
-          "url": "https://trends.google.com/trending?geo=US&q=retail"
+          "published": "Mon, 14 Sep 2026 17:00:00 -0700",
+          "source_name": "TVLine",
+          "url": "https://trends.google.com/trending?geo=US&q=dick%20wolf"
         },
         {
-          "keyword": "republican party",
+          "keyword": "laura rutledge",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Mon, 14 Sep 2026 17:00:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=laura%20rutledge"
+        },
+        {
+          "keyword": "padres vs rockies",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Mon, 14 Sep 2026 16:50:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=padres%20vs%20rockies"
+        },
+        {
+          "keyword": "matthew rhys",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Mon, 14 Sep 2026 13:50:00 -0700",
-          "source_name": "Reuters",
-          "url": "https://trends.google.com/trending?geo=US&q=republican%20party"
+          "published": "Mon, 14 Sep 2026 16:50:00 -0700",
+          "source_name": "Vogue",
+          "url": "https://trends.google.com/trending?geo=US&q=matthew%20rhys"
         },
         {
-          "keyword": "villarreal cf vs real betis standings",
+          "keyword": "sean payton",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Mon, 14 Sep 2026 14:00:00 -0700",
-          "source_name": "BBC",
-          "url": "https://trends.google.com/trending?geo=US&q=villarreal%20cf%20vs%20real%20betis%20standings"
+          "published": "Mon, 14 Sep 2026 17:00:00 -0700",
+          "source_name": "NFL Rumors - ProFootballRumors.com",
+          "url": "https://trends.google.com/trending?geo=US&q=sean%20payton"
         },
         {
-          "keyword": "arapaho",
+          "keyword": "amy poehler",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Mon, 14 Sep 2026 14:00:00 -0700",
-          "source_name": "AP News",
-          "url": "https://trends.google.com/trending?geo=US&q=arapaho"
+          "published": "Mon, 14 Sep 2026 17:00:00 -0700",
+          "source_name": "Yahoo",
+          "url": "https://trends.google.com/trending?geo=US&q=amy%20poehler"
         },
         {
-          "keyword": "braga fc",
+          "keyword": "dave chappelle",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Mon, 14 Sep 2026 14:00:00 -0700",
-          "source_name": "boca.com.br",
-          "url": "https://trends.google.com/trending?geo=US&q=braga%20fc"
+          "published": "Mon, 14 Sep 2026 17:00:00 -0700",
+          "source_name": "WLKY",
+          "url": "https://trends.google.com/trending?geo=US&q=dave%20chappelle"
         },
         {
-          "keyword": "chris gallant",
+          "keyword": "ludacris",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Mon, 14 Sep 2026 14:00:00 -0700",
-          "source_name": "Newsday",
-          "url": "https://trends.google.com/trending?geo=US&q=chris%20gallant"
+          "published": "Mon, 14 Sep 2026 17:00:00 -0700",
+          "source_name": "Bergen Record",
+          "url": "https://trends.google.com/trending?geo=US&q=ludacris"
         },
         {
-          "keyword": "gervonta davis",
+          "keyword": "kahlil benson",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Mon, 14 Sep 2026 14:00:00 -0700",
-          "source_name": "talkSPORT",
-          "url": "https://trends.google.com/trending?geo=US&q=gervonta%20davis"
-        },
-        {
-          "keyword": "rj harvey",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Mon, 14 Sep 2026 14:00:00 -0700",
-          "source_name": "NFL.com",
-          "url": "https://trends.google.com/trending?geo=US&q=rj%20harvey"
-        },
-        {
-          "keyword": "john krasinski",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Mon, 14 Sep 2026 13:50:00 -0700",
-          "source_name": "People.com",
-          "url": "https://trends.google.com/trending?geo=US&q=john%20krasinski"
+          "published": "Mon, 14 Sep 2026 17:00:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=kahlil%20benson"
         }
       ]
     },
@@ -96,87 +96,87 @@
       "status": "ok",
       "reason": "",
       "source": "wikimedia.org REST pageviews API (공식)",
-      "note": "2026-08-14 ~ 2026-09-12 일별 조회수. 후반 15일 대비 전반 15일 증감률",
+      "note": "2026-08-15 ~ 2026-09-13 일별 조회수. 후반 15일 대비 전반 15일 증감률",
       "errors": [],
       "items": [
         {
-          "topic": "Snail slime",
-          "days": 30,
-          "total_views": 2177,
-          "avg_daily": 73,
-          "recent_avg": 78,
-          "prev_avg": 67,
-          "change_pct": 16.2,
-          "url": "https://en.wikipedia.org/wiki/Snail_slime"
-        },
-        {
           "topic": "Hyaluronic acid",
           "days": 30,
-          "total_views": 17572,
-          "avg_daily": 586,
-          "recent_avg": 613,
-          "prev_avg": 558,
-          "change_pct": 9.9,
+          "total_views": 17553,
+          "avg_daily": 585,
+          "recent_avg": 615,
+          "prev_avg": 556,
+          "change_pct": 10.6,
           "url": "https://en.wikipedia.org/wiki/Hyaluronic_acid"
         },
         {
           "topic": "Retinol",
           "days": 30,
-          "total_views": 11558,
+          "total_views": 11560,
           "avg_daily": 385,
-          "recent_avg": 392,
+          "recent_avg": 393,
           "prev_avg": 378,
-          "change_pct": 3.7,
+          "change_pct": 4.1,
           "url": "https://en.wikipedia.org/wiki/Retinol"
+        },
+        {
+          "topic": "Snail slime",
+          "days": 30,
+          "total_views": 2191,
+          "avg_daily": 73,
+          "recent_avg": 74,
+          "prev_avg": 72,
+          "change_pct": 3.1,
+          "url": "https://en.wikipedia.org/wiki/Snail_slime"
         },
         {
           "topic": "Cosmetics",
           "days": 30,
-          "total_views": 20980,
-          "avg_daily": 699,
-          "recent_avg": 701,
-          "prev_avg": 697,
-          "change_pct": 0.6,
+          "total_views": 20720,
+          "avg_daily": 691,
+          "recent_avg": 688,
+          "prev_avg": 694,
+          "change_pct": -0.9,
           "url": "https://en.wikipedia.org/wiki/Cosmetics"
         },
         {
           "topic": "Centella asiatica",
           "days": 30,
-          "total_views": 14789,
-          "avg_daily": 493,
-          "recent_avg": 491,
-          "prev_avg": 495,
-          "change_pct": -0.6,
+          "total_views": 14809,
+          "avg_daily": 494,
+          "recent_avg": 483,
+          "prev_avg": 504,
+          "change_pct": -4.1,
           "url": "https://en.wikipedia.org/wiki/Centella_asiatica"
         },
         {
           "topic": "Sunscreen",
           "days": 30,
-          "total_views": 16021,
-          "avg_daily": 534,
-          "recent_avg": 531,
-          "prev_avg": 537,
-          "change_pct": -1.0,
+          "total_views": 15809,
+          "avg_daily": 527,
+          "recent_avg": 510,
+          "prev_avg": 544,
+          "change_pct": -6.2,
           "url": "https://en.wikipedia.org/wiki/Sunscreen"
         },
         {
           "topic": "K-beauty",
           "days": 30,
-          "total_views": 3923,
+          "total_views": 3938,
           "avg_daily": 131,
-          "recent_avg": 118,
-          "prev_avg": 144,
-          "change_pct": -17.8,
+          "recent_avg": 120,
+          "prev_avg": 142,
+          "change_pct": -15.2,
           "url": "https://en.wikipedia.org/wiki/K-beauty"
         },
         {
           "topic": "Niacinamide",
           "days": 30,
-          "total_views": 1349,
+          "total_views": 1361,
           "avg_daily": 45,
-          "recent_avg": 40,
+          "recent_avg": 41,
           "prev_avg": 50,
-          "change_pct": -19.2,
+          "change_pct": -17.3,
           "url": "https://en.wikipedia.org/wiki/Niacinamide"
         }
       ]
@@ -188,7 +188,27 @@
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
       "items": [
         {
-          "title": "The \"Practical Magic 2\" Ageism \"Controversy\" Misses the Point",
+          "title": "Nicole Kidman's Curtain Bangs Swept the Emmys 2026 Red Carpet—See the Photos",
+          "published": "Tue, 15 Sep 2026 00:00:25 +0000",
+          "url": "https://www.allure.com/story/nicole-kidman-curtain-bangs-emmys-2026"
+        },
+        {
+          "title": "Zendaya Debuted Her New Pixie Cut at the 2026 Emmys—See the Photos",
+          "published": "Mon, 14 Sep 2026 23:35:27 +0000",
+          "url": "https://www.allure.com/story/zendaya-pixie-cut-2026-emmys"
+        },
+        {
+          "title": "Selena Gomez's Mermaid Waves at the 2026 Emmys Just Keep Flowing and Flowing—See the Photos",
+          "published": "Mon, 14 Sep 2026 23:16:58 +0000",
+          "url": "https://www.allure.com/story/selena-gomez-emmys-2026-mermaid-waves"
+        },
+        {
+          "title": "The Best Beauty Looks at the 2026 Emmy Awards? You Decide",
+          "published": "Mon, 14 Sep 2026 22:53:35 +0000",
+          "url": "https://www.allure.com/gallery/best-beauty-looks-2026-emmy-awards"
+        },
+        {
+          "title": "The \"Practical Magic 2\" Ageism Controversy Misses the Point",
           "published": "Mon, 14 Sep 2026 21:07:47 +0000",
           "url": "https://www.allure.com/story/nicole-kidman-sandra-bullock-practical-magic"
         },
@@ -316,26 +336,6 @@
           "title": "Florence Pugh Elevated the Messiest Bun With the Fanciest Scarf — See Photos",
           "published": "Tue, 08 Sep 2026 18:05:43 +0000",
           "url": "https://www.allure.com/story/florence-pugh-messy-bun-scarf"
-        },
-        {
-          "title": "6 Best At-Home Teeth-Whitening Kits for a Brighter Smile",
-          "published": "Tue, 08 Sep 2026 17:01:17 +0000",
-          "url": "https://www.allure.com/story/best-at-home-teeth-whitening-kit"
-        },
-        {
-          "title": "How Corsets and Bras Have Helped Reinforce Beauty Standards Throughout History",
-          "published": "Tue, 08 Sep 2026 15:00:18 +0000",
-          "url": "https://www.allure.com/story/history-bras-corsets-perspectives-podcast"
-        },
-        {
-          "title": "14 Peony Perfumes to Take You From Summer to Fall",
-          "published": "Mon, 07 Sep 2026 20:15:00 +0000",
-          "url": "https://www.allure.com/story/peony-fragrances"
-        },
-        {
-          "title": "Emma Stone's Hair Is Suddenly So Long — See Photos",
-          "published": "Mon, 07 Sep 2026 14:50:54 +0000",
-          "url": "https://www.allure.com/story/emma-stone-long-wavy-hair-2026"
         }
       ]
     },

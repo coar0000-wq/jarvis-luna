@@ -2,7 +2,7 @@
 title: "Record 1198ba73de · From-SuperBIT-to-GigaBIT-Informing-next-generation-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T21:51:30.652103+00:00
+updated_at: 2026-09-15T00:21:50.664413+00:00
 tags: [record, real-data]
 ---
 

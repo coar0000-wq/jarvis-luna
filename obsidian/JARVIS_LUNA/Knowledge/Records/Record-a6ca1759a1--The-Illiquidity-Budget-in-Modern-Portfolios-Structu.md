@@ -2,7 +2,7 @@
 title: "Record a6ca1759a1 · The-Illiquidity-Budget-in-Modern-Portfolios-Structu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T21:51:30.640242+00:00
+updated_at: 2026-09-15T00:21:50.643176+00:00
 tags: [record, real-data]
 ---
 

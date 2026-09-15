@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T06:31:00.962326+09:00",
+  "generated_at": "2026-09-15T09:20:12.229951+09:00",
   "role": "coaching",
   "principle": "AI는 체크리스트·A/B 초안만. 등록·광고 집행은 사람 승인.",
   "source": "scripts/build_coaching_loop.py",
@@ -12,7 +12,7 @@
     "reddit_signal": {
       "status": "ok",
       "post_count": 25,
-      "collected_at": "2026-09-14T21:25:59.028924+00:00",
+      "collected_at": "2026-09-15T00:15:36.569776+00:00",
       "keyword_pool": 40
     }
   },
@@ -78,7 +78,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'glass', 'kbeauty', 'skin']",
+          "evidence": "matched=['beauty', 'glass', 'skin']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -104,13 +104,11 @@
           "hydrating",
           "beauty",
           "glass",
-          "kbeauty",
           "skin"
         ],
         "reddit_keywords_used": [
           "beauty",
           "glass",
-          "kbeauty",
           "skin"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
@@ -120,12 +118,11 @@
         "matched": [
           "beauty",
           "glass",
-          "kbeauty",
           "skin"
         ],
-        "score": 4,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['beauty', 'glass', 'kbeauty', 'skin']",
+        "evidence": "matched=['beauty', 'glass', 'skin']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -196,7 +193,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'glass', 'kbeauty', 'skin']",
+          "evidence": "matched=['beauty', 'cream', 'glass', 'skin']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -224,13 +221,12 @@
           "hydrating",
           "beauty",
           "glass",
-          "kbeauty",
           "skin"
         ],
         "reddit_keywords_used": [
           "beauty",
+          "cream",
           "glass",
-          "kbeauty",
           "skin"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
@@ -239,13 +235,13 @@
       "reddit_match": {
         "matched": [
           "beauty",
+          "cream",
           "glass",
-          "kbeauty",
           "skin"
         ],
         "score": 4,
         "status": "pass",
-        "evidence": "matched=['beauty', 'glass', 'kbeauty', 'skin']",
+        "evidence": "matched=['beauty', 'cream', 'glass', 'skin']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -316,7 +312,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'glass', 'kbeauty', 'skin']",
+          "evidence": "matched=['beauty', 'glass', 'skin']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -343,13 +339,11 @@
           "hydrating",
           "beauty",
           "glass",
-          "kbeauty",
           "skin"
         ],
         "reddit_keywords_used": [
           "beauty",
           "glass",
-          "kbeauty",
           "skin"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
@@ -359,12 +353,11 @@
         "matched": [
           "beauty",
           "glass",
-          "kbeauty",
           "skin"
         ],
-        "score": 4,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['beauty', 'glass', 'kbeauty', 'skin']",
+        "evidence": "matched=['beauty', 'glass', 'skin']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -548,7 +541,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'glass', 'kbeauty', 'skin']",
+          "evidence": "matched=['beauty', 'glass', 'skin']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -574,13 +567,11 @@
           "hydrating",
           "beauty",
           "glass",
-          "kbeauty",
           "skin"
         ],
         "reddit_keywords_used": [
           "beauty",
           "glass",
-          "kbeauty",
           "skin"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
@@ -590,12 +581,11 @@
         "matched": [
           "beauty",
           "glass",
-          "kbeauty",
           "skin"
         ],
-        "score": 4,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['beauty', 'glass', 'kbeauty', 'skin']",
+        "evidence": "matched=['beauty', 'glass', 'skin']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -666,7 +656,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'glass', 'kbeauty', 'skin']",
+          "evidence": "matched=['beauty', 'glass', 'skin']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -693,13 +683,11 @@
           "hydrating",
           "beauty",
           "glass",
-          "kbeauty",
           "skin"
         ],
         "reddit_keywords_used": [
           "beauty",
           "glass",
-          "kbeauty",
           "skin"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
@@ -709,12 +697,11 @@
         "matched": [
           "beauty",
           "glass",
-          "kbeauty",
           "skin"
         ],
-        "score": 4,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['beauty', 'glass', 'kbeauty', 'skin']",
+        "evidence": "matched=['beauty', 'glass', 'skin']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {

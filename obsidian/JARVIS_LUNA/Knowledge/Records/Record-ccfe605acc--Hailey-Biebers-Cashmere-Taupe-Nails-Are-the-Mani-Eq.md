@@ -1,12 +1,12 @@
 ---
-title: "Record ccfe605acc · Hailey-Biebers-Cashmere-Taupe-Nails-Are-the-Mani-Equivalent-of-Your-Fa"
+title: "Record ccfe605acc · Hailey-Biebers-Cashmere-Taupe-Nails-Are-the-Mani-Eq"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T21:51:30.923656+00:00
+updated_at: 2026-09-15T00:21:51.010615+00:00
 tags: [record, real-data]
 ---
 
-# Record ccfe605acc · Hailey-Biebers-Cashmere-Taupe-Nails-Are-the-Mani-Equivalent-of-Your-Fa
+# Record ccfe605acc · Hailey-Biebers-Cashmere-Taupe-Nails-Are-the-Mani-Eq
 
 > 실제 수집 레코드입니다. 원문: [www.allure.com](https://www.allure.com/story/hailey-bieber-cashmere-taupe-nails)
 

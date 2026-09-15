@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-14T21:24:46.801582+00:00",
+  "collected_at": "2026-09-15T00:14:31.491759+00:00",
   "total": 1061,
   "organizations": 35,
   "by_org": {
@@ -54,19 +54,19 @@
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-09-14T21:23:45.130775+00:00"
+      "collected_at": "2026-09-15T00:13:40.860375+00:00"
     },
     "sitemap": {
       "status": "ok",
       "count": 140,
       "failures": [],
-      "collected_at": "2026-09-14T21:24:22.279757+00:00"
+      "collected_at": "2026-09-15T00:14:12.202145+00:00"
     },
     "openalex": {
       "status": "ok",
       "count": 711,
       "failures": [],
-      "collected_at": "2026-09-14T21:24:46.800680+00:00"
+      "collected_at": "2026-09-15T00:14:31.490729+00:00"
     }
   },
   "not_collected": {
@@ -2295,6 +2295,19 @@
       "title_source": "feed"
     },
     {
+      "title": "Announcing On-Demand State Repartitioning for Apache Spark™ Structured Streaming on Databricks",
+      "url": "https://www.databricks.com/blog/announcing-demand-state-repartitioning-apache-sparktm-structured-streaming-databricks",
+      "date": "2026-09-14",
+      "date_raw": "Mon, 14 Sep 2026 21:04:30 GMT",
+      "summary": "Anyone running stateful Apache Spark™ Structured Streaming queries in production...",
+      "org": "Databricks",
+      "category": "데이터분석",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://www.databricks.com/feed",
+      "title_source": "feed"
+    },
+    {
       "title": "Health Plans: Your BI Tells You MLR Moved. Can Your AI Tell You Why?",
       "url": "https://www.databricks.com/blog/health-plans-your-bi-tells-you-mlr-moved-can-your-ai-tell-you-why",
       "date": "2026-09-11",
@@ -2404,19 +2417,6 @@
       "date": "2026-09-09",
       "date_raw": "Wed, 09 Sep 2026 13:30:00 GMT",
       "summary": "Effective enterprise data agents require search that is both accurate and fast. Earlier...",
-      "org": "Databricks",
-      "category": "데이터분석",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://www.databricks.com/feed",
-      "title_source": "feed"
-    },
-    {
-      "title": "Evaluation-First AI Agents: How Zepto Scales Customer Support on Databricks and MLflow",
-      "url": "https://www.databricks.com/blog/evaluation-first-ai-agents-how-zepto-scales-customer-support-databricks-and-mlflow",
-      "date": "2026-09-09",
-      "date_raw": "Wed, 09 Sep 2026 03:00:00 GMT",
-      "summary": "Zepto's Push for Reliable, Real-Time Customer SupportZepto is one of India's fastest-growing...",
       "org": "Databricks",
       "category": "데이터분석",
       "kind": "발표물",
@@ -3857,9 +3857,22 @@
     {
       "url": "https://www.goldmansachs.com/what-we-do/ayco/insights/summer-review-fall-preview-market-insights",
       "date": "2026-09-14",
-      "date_raw": "2026-09-14T20:50:37.000Z",
+      "date_raw": "2026-09-14T21:49:54.000Z",
       "title_source": "url-slug",
       "title": "Summer Review Fall Preview Market Insights",
+      "summary": "",
+      "org": "Goldman Sachs",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.goldmansachs.com/sitemap.xml"
+    },
+    {
+      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/bain-capitals-david-gross-on-global-opportunities-and-private-equitys-evolution",
+      "date": "2026-09-11",
+      "date_raw": "2026-09-11T13:27:30.000Z",
+      "title_source": "url-slug",
+      "title": "Bain Capitals David Gross On Global Opportunities And Private Equitys Evolution",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -3899,19 +3912,6 @@
       "date_raw": "2026-09-11T22:03:30.000Z",
       "title_source": "url-slug",
       "title": "What A Fed Rate Hike Could Mean For Us Stocks",
-      "summary": "",
-      "org": "Goldman Sachs",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.goldmansachs.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/bain-capitals-david-gross-on-global-opportunities-and-private-equitys-evolution",
-      "date": "2026-09-11",
-      "date_raw": "2026-09-11T13:27:30.000Z",
-      "title_source": "url-slug",
-      "title": "Bain Capitals David Gross On Global Opportunities And Private Equitys Evolution",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -3998,11 +3998,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/the-markets/why-gold-is-expected-to-rise-to-record-highs",
+      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/the-outlook-for-data-center-power-demand-as-ai-token-use-grows",
       "date": "2026-09-04",
-      "date_raw": "2026-09-04T19:12:16.000Z",
+      "date_raw": "2026-09-04T15:26:17.000Z",
       "title_source": "url-slug",
-      "title": "Why Gold Is Expected To Rise To Record Highs",
+      "title": "The Outlook For Data Center Power Demand As Ai Token Use Grows",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -4011,11 +4011,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/the-outlook-for-data-center-power-demand-as-ai-token-use-grows",
+      "url": "https://www.goldmansachs.com/insights/the-markets/why-gold-is-expected-to-rise-to-record-highs",
       "date": "2026-09-04",
-      "date_raw": "2026-09-04T15:26:17.000Z",
+      "date_raw": "2026-09-04T19:12:16.000Z",
       "title_source": "url-slug",
-      "title": "The Outlook For Data Center Power Demand As Ai Token Use Grows",
+      "title": "Why Gold Is Expected To Rise To Record Highs",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -4063,11 +4063,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/pdfs/insights/videos/david-solomon-cnbc-sep-2026/transcript.pdf",
+      "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity/transcript.pdf",
       "date": "2026-09-02",
-      "date_raw": "2026-09-02T16:13:53.000Z",
+      "date_raw": "2026-09-02T20:18:47.000Z",
       "title_source": "url-slug",
-      "title": "David Solomon Cnbc Sep 2026   Transcript",
+      "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity   Transcript",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -4076,11 +4076,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity/transcript.pdf",
+      "url": "https://www.goldmansachs.com/pdfs/insights/videos/david-solomon-cnbc-sep-2026/transcript.pdf",
       "date": "2026-09-02",
-      "date_raw": "2026-09-02T20:18:47.000Z",
+      "date_raw": "2026-09-02T16:13:53.000Z",
       "title_source": "url-slug",
-      "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity   Transcript",
+      "title": "David Solomon Cnbc Sep 2026   Transcript",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -4102,17 +4102,56 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/articles/gold-is-forecast-to-climb-as-central-banks-buy-the-precious-metal",
+      "url": "https://www.goldmansachs.com/insights/the-markets/what-is-the-outlook-for-diesel-and-gasoline-supplies",
       "date": "2026-08-28",
-      "date_raw": "2026-08-28T15:56:18.000Z",
+      "date_raw": "2026-08-28T13:35:15.000Z",
       "title_source": "url-slug",
-      "title": "Gold Is Forecast To Climb As Central Banks Buy The Precious Metal",
+      "title": "What Is The Outlook For Diesel And Gasoline Supplies",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
       "kind": "발표물",
       "source": "sitemap",
       "feed": "https://www.goldmansachs.com/sitemap.xml"
+    },
+    {
+      "url": "https://www.jpmorgan.com/insights/securities-services/future-of-superannuation-report",
+      "date": "2026-09-14",
+      "date_raw": "2026-09-14",
+      "title_source": "url-slug",
+      "title": "Future Of Superannuation Report",
+      "summary": "",
+      "org": "JPMorgan Chase",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.jpmorgan.com/sitemap.xml"
+    },
+    {
+      "url": "https://www.jpmorgan.com/insights/fraud/fraud-prevention/ai-powered-b2b-fraud-is-forcing-companies-to-rethink-trust",
+      "date": "2026-09-14",
+      "date_raw": "2026-09-14",
+      "title_source": "url-slug",
+      "title": "Ai Powered B2B Fraud Is Forcing Companies To Rethink Trust",
+      "summary": "",
+      "org": "JPMorgan Chase",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.jpmorgan.com/sitemap.xml"
+    },
+    {
+      "url": "https://www.jpmorgan.com/insights/markets-and-economy",
+      "date": "2026-09-14",
+      "date_raw": "2026-09-14",
+      "title_source": "url-slug",
+      "title": "Markets And Economy",
+      "summary": "",
+      "org": "JPMorgan Chase",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.jpmorgan.com/sitemap.xml"
     },
     {
       "url": "https://www.jpmorgan.com/insights/real-estate/agency-lending/takeout-options-for-construction-loans-in-agency-financing",
@@ -4245,6 +4284,19 @@
       "feed": "https://www.jpmorgan.com/sitemap.xml"
     },
     {
+      "url": "https://www.jpmorgan.com/insights/treasury/trade-working-capital/financing-resilience-energy-supply-disruption",
+      "date": "2026-09-11",
+      "date_raw": "2026-09-11",
+      "title_source": "url-slug",
+      "title": "Financing Resilience Energy Supply Disruption",
+      "summary": "",
+      "org": "JPMorgan Chase",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.jpmorgan.com/sitemap.xml"
+    },
+    {
       "url": "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
       "date": "2026-09-09",
       "date_raw": "2026-09-09",
@@ -4315,58 +4367,6 @@
       "date_raw": "2026-09-04",
       "title_source": "url-slug",
       "title": "Unum Insurance Payments Concourse",
-      "summary": "",
-      "org": "JPMorgan Chase",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.jpmorgan.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.jpmorgan.com/insights/podcast-hub/making-sense/tech-equity-capital-markets",
-      "date": "2026-09-04",
-      "date_raw": "2026-09-04",
-      "title_source": "url-slug",
-      "title": "Tech Equity Capital Markets",
-      "summary": "",
-      "org": "JPMorgan Chase",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.jpmorgan.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.jpmorgan.com/insights/banking/executing-on-a-100-year-vision-jpmorgan-and-pluspetrol",
-      "date": "2026-09-03",
-      "date_raw": "2026-09-03",
-      "title_source": "url-slug",
-      "title": "Executing On A 100 Year Vision Jpmorgan And Pluspetrol",
-      "summary": "",
-      "org": "JPMorgan Chase",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.jpmorgan.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/when-liquidity-goes-digital",
-      "date": "2026-09-03",
-      "date_raw": "2026-09-03",
-      "title_source": "url-slug",
-      "title": "When Liquidity Goes Digital",
-      "summary": "",
-      "org": "JPMorgan Chase",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.jpmorgan.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/financial-market-technology-moves-into-focus",
-      "date": "2026-09-03",
-      "date_raw": "2026-09-03",
-      "title_source": "url-slug",
-      "title": "Financial Market Technology Moves Into Focus",
       "summary": "",
       "org": "JPMorgan Chase",
       "category": "투자은행",

@@ -2,7 +2,7 @@
 title: "Record 990bc5d2f7 · C3-AI-and-Shell-Expand-Collaboration-Scaling-Reliab"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T21:51:30.681836+00:00
+updated_at: 2026-09-15T00:21:50.716570+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 6d8b676981 · Bundled-Care-Interventions-for-the-Management-of-In"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T21:51:30.650055+00:00
+updated_at: 2026-09-15T00:21:50.660702+00:00
 tags: [record, real-data]
 ---
 

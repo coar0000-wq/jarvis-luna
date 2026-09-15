@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T21:23:30.286443+00:00",
+  "generated_at": "2026-09-15T00:13:30.304206+00:00",
   "generator": "scripts/collect_robotics.py",
   "목적": "옵시디언 주제 '로보틱스' 가 3건뿐이던 문제를 해결한다. 분류기는 정상이었고 수집원에 로봇 자료가 없었던 것이 원인이다.",
   "접근_정책": "arXiv 은 프로그램 접근용 export.arxiv.org 를 제공하며 그 주소만 사용하고 요청 간 3초를 둔다. RSS 두 곳은 robots.txt 허용을 확인했다.",
@@ -218,6 +218,22 @@
           "source": "rss"
         },
         {
+          "title": "Why RaaS needs more than a subscription model",
+          "summary": "<p>At RoboBusiness 2026, a panel of robotics business leaders will examine the practical playbook behind Robots-as-a-Service or RaaS offerings. </p> <p>The post <a href=\"https://www.therobotreport.com/why-raas-needs-more-than-a-subscription-model/\">Why RaaS needs more than a subscription model </a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+          "published": "Mon, 14 Sep 2026 21:45:57 +0000",
+          "url": "https://www.therobotreport.com/why-raas-needs-more-than-a-subscription-model/",
+          "feed": "The Robot Report",
+          "source": "rss"
+        },
+        {
+          "title": "Report covers advances in surgical robots, deploying warehouse automation in the real world",
+          "summary": "<p>Learn from a surgical robotics case study and a discussion of how to best deploy mobile robots in the warehouse in this issue.</p> <p>The post <a href=\"https://www.therobotreport.com/report-covers-surgical-robot-advances-deploying-warehouse-automation-real-world/\">Report covers advances in surgical robots, deploying warehouse automation in the real world</a> appeared first on <a href=\"https://w",
+          "published": "Mon, 14 Sep 2026 21:01:59 +0000",
+          "url": "https://www.therobotreport.com/report-covers-surgical-robot-advances-deploying-warehouse-automation-real-world/",
+          "feed": "The Robot Report",
+          "source": "rss"
+        },
+        {
           "title": "Arm to discuss scaling physical AI at RoboBusiness",
           "summary": "<p>Dermot O'Driscoll, the VP of go-to-market for physical AI at Arm, will examine key compute principles behind trusted physical AI.</p> <p>The post <a href=\"https://www.therobotreport.com/arm-to-discuss-scaling-physical-ai-at-robobusiness/\">Arm to discuss scaling physical AI at RoboBusiness</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
           "published": "Mon, 14 Sep 2026 16:09:27 +0000",
@@ -318,22 +334,6 @@
           "summary": "<p>The market is pulling back on Unitree's $66 billion valuation from its debut on the Shanghai Stock Exchange just last month.</p> <p>The post <a href=\"https://www.therobotreport.com/unitree-shares-down-53-from-ipo-debut/\">Unitree shares down 53% from IPO debut</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
           "published": "Wed, 09 Sep 2026 19:34:57 +0000",
           "url": "https://www.therobotreport.com/unitree-shares-down-53-from-ipo-debut/",
-          "feed": "The Robot Report",
-          "source": "rss"
-        },
-        {
-          "title": "AGIBOT to explain how to scale humanoids from the lab to the real world at RoboBusiness",
-          "summary": "<p>AGIBOT plans to give attendees actionable insights on identifying high-value robotics use cases and building sustainable developer ecosystems.</p> <p>The post <a href=\"https://www.therobotreport.com/agibot-share-plans-scale-humanoids-from-lab-to-real-world-at-robobusiness/\">AGIBOT to explain how to scale humanoids from the lab to the real world at RoboBusiness</a> appeared first on <a href=\"htt",
-          "published": "Wed, 09 Sep 2026 16:43:28 +0000",
-          "url": "https://www.therobotreport.com/agibot-share-plans-scale-humanoids-from-lab-to-real-world-at-robobusiness/",
-          "feed": "The Robot Report",
-          "source": "rss"
-        },
-        {
-          "title": "Vention opens Physical AI Lab for manufacturing in Montreal",
-          "summary": "<p>Vention's new Physical AI Lab will focus on advancing robotic manipulation from research to scalable production-line deployment.</p> <p>The post <a href=\"https://www.therobotreport.com/vention-opens-physical-ai-lab-manufacturing-montreal/\">Vention opens Physical AI Lab for manufacturing in Montreal</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
-          "published": "Wed, 09 Sep 2026 15:41:50 +0000",
-          "url": "https://www.therobotreport.com/vention-opens-physical-ai-lab-manufacturing-montreal/",
           "feed": "The Robot Report",
           "source": "rss"
         }

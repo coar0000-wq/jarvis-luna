@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-14T21:25:59.028924+00:00",
+  "collected_at": "2026-09-15T00:15:36.569776+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -68,6 +68,14 @@
       "score": 2
     },
     {
+      "keyword": "anyone",
+      "score": 2
+    },
+    {
+      "keyword": "faves",
+      "score": 2
+    },
+    {
       "keyword": "anything",
       "score": 2
     },
@@ -76,11 +84,23 @@
       "score": 2
     },
     {
+      "keyword": "cream",
+      "score": 2
+    },
+    {
+      "keyword": "review",
+      "score": 2
+    },
+    {
       "keyword": "masks",
       "score": 2
     },
     {
       "keyword": "beauty",
+      "score": 2
+    },
+    {
+      "keyword": "blush",
       "score": 2
     },
     {
@@ -93,14 +113,6 @@
     },
     {
       "keyword": "skin",
-      "score": 2
-    },
-    {
-      "keyword": "best",
-      "score": 2
-    },
-    {
-      "keyword": "kbeauty",
       "score": 2
     },
     {
@@ -144,55 +156,19 @@
       "score": 1
     },
     {
-      "keyword": "skill",
+      "keyword": "gothic",
       "score": 1
     },
     {
-      "keyword": "stylevana",
+      "keyword": "alternative",
       "score": 1
     },
     {
-      "keyword": "point",
+      "keyword": "make-up",
       "score": 1
     },
     {
-      "keyword": "insurance",
-      "score": 1
-    },
-    {
-      "keyword": "lost",
-      "score": 1
-    },
-    {
-      "keyword": "parcels",
-      "score": 1
-    },
-    {
-      "keyword": "horizontal",
-      "score": 1
-    },
-    {
-      "keyword": "fine",
-      "score": 1
-    },
-    {
-      "keyword": "lines",
-      "score": 1
-    },
-    {
-      "keyword": "only",
-      "score": 1
-    },
-    {
-      "keyword": "space",
-      "score": 1
-    },
-    {
-      "keyword": "between",
-      "score": 1
-    },
-    {
-      "keyword": "eyes",
+      "keyword": "share",
       "score": 1
     },
     {
@@ -201,6 +177,30 @@
     },
     {
       "keyword": "who",
+      "score": 1
+    },
+    {
+      "keyword": "wear",
+      "score": 1
+    },
+    {
+      "keyword": "slightly",
+      "score": 1
+    },
+    {
+      "keyword": "enlarging",
+      "score": 1
+    },
+    {
+      "keyword": "lenses",
+      "score": 1
+    },
+    {
+      "keyword": "big",
+      "score": 1
+    },
+    {
+      "keyword": "difference",
       "score": 1
     }
   ],
@@ -219,10 +219,6 @@
     },
     {
       "keyword": "skin",
-      "score": 2
-    },
-    {
-      "keyword": "kbeauty",
       "score": 2
     }
   ],
@@ -249,9 +245,16 @@
       "feed": "hot"
     },
     {
-      "title": "How's my skill?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wgemql/hows_my_skill/",
-      "published": "2026-09-14T20:11:05+00:00",
+      "title": "anyone into gothic/alternative make-up? if so please share your faves",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wggofv/anyone_into_gothicalternative_makeup_if_so_please/",
+      "published": "2026-09-14T21:26:47+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "For those who wear slightly enlarging lenses how big of a difference do you think it makes on your face overall?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wge57e/for_those_who_wear_slightly_enlarging_lenses_how/",
+      "published": "2026-09-14T19:53:46+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -270,23 +273,23 @@
       "feed": "hot"
     },
     {
-      "title": "Horizontal fine lines only at the space between eyes",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wg834b/horizontal_fine_lines_only_at_the_space_between/",
-      "published": "2026-09-14T16:22:31+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "For those who wear slightly enlarging lenses how big of a difference do you think it makes on your face overall?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wge57e/for_those_who_wear_slightly_enlarging_lenses_how/",
-      "published": "2026-09-14T19:53:46+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
       "title": "Favourite mist over makeup",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wg4071/favourite_mist_over_makeup/",
       "published": "2026-09-14T13:50:27+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Missha bb cream review. Spoiler alert, it looks TERRIBLE on me.",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wg2xr4/missha_bb_cream_review_spoiler_alert_it_looks/",
+      "published": "2026-09-14T13:07:03+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Rip Costco Next :( Roundlab Mugwort Line?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfvdqz/rip_costco_next_roundlab_mugwort_line/",
+      "published": "2026-09-14T06:13:57+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -312,9 +315,9 @@
       "feed": "hot"
     },
     {
-      "title": "Rip Costco Next :( Roundlab Mugwort Line?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfvdqz/rip_costco_next_roundlab_mugwort_line/",
-      "published": "2026-09-14T06:13:57+00:00",
+      "title": "Any pigmented Barbie pink blush",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wg1ikl/any_pigmented_barbie_pink_blush/",
+      "published": "2026-09-14T12:04:01+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -347,16 +350,16 @@
       "feed": "hot"
     },
     {
-      "title": "Anything Goes Sunday: September 13, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfj1lv/anything_goes_sunday_september_13_2026/",
-      "published": "2026-09-13T20:39:07+00:00",
+      "title": "Colorgram Fruity Glass Gloss",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wflfcl/colorgram_fruity_glass_gloss/",
+      "published": "2026-09-13T22:15:11+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Colorgram Fruity Glass Gloss",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wflfcl/colorgram_fruity_glass_gloss/",
-      "published": "2026-09-13T22:15:11+00:00",
+      "title": "Anything Goes Sunday: September 13, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfj1lv/anything_goes_sunday_september_13_2026/",
+      "published": "2026-09-13T20:39:07+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -392,13 +395,6 @@
       "title": "Best way to fade recent sunspots?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wexstw/best_way_to_fade_recent_sunspots/",
       "published": "2026-09-13T04:29:55+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Best of kbeauty haircare?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wey2us/best_of_kbeauty_haircare/",
-      "published": "2026-09-13T04:44:29+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

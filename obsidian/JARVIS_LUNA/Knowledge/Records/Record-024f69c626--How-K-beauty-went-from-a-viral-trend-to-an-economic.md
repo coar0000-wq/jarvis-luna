@@ -2,7 +2,7 @@
 title: "Record 024f69c626 · How-K-beauty-went-from-a-viral-trend-to-an-economic"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T21:51:30.698000+00:00
+updated_at: 2026-09-15T00:21:50.745474+00:00
 tags: [record, real-data]
 ---
 

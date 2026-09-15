@@ -2,7 +2,7 @@
 title: "Record aaa257cb6b · Ownership-networks-financing-and-firm-growth"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T21:51:30.601988+00:00
+updated_at: 2026-09-15T00:21:50.578059+00:00
 tags: [record, real-data]
 ---
 

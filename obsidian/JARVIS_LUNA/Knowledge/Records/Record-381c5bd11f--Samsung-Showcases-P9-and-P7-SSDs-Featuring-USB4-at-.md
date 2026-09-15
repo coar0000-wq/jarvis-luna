@@ -2,7 +2,7 @@
 title: "Record 381c5bd11f · Samsung-Showcases-P9-and-P7-SSDs-Featuring-USB4-at-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T21:51:30.799936+00:00
+updated_at: 2026-09-15T00:21:50.930385+00:00
 tags: [record, real-data]
 ---
 

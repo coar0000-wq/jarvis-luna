@@ -2,7 +2,7 @@
 title: "Record 2ed5836c53 · Enovis-to-acquire-surgical-tech-provider-eCential-R"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T21:51:30.964104+00:00
+updated_at: 2026-09-15T00:21:51.098349+00:00
 tags: [record, real-data]
 ---
 

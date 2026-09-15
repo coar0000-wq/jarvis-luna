@@ -2,7 +2,7 @@
 title: "Record e5e7bec1fc · nomp-A-Framework-for-Building-Domain-Specific-Compi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-14T21:51:30.841637+00:00
+updated_at: 2026-09-15T00:21:50.960180+00:00
 tags: [record, real-data]
 ---
 
