@@ -2,7 +2,7 @@
 title: "Record d371e78261 · Rapid-Learning-of-Dexterous-In-Hand-Pen-Writing-thr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T00:07:03.169763+00:00
+updated_at: 2026-09-16T03:13:37.956908+00:00
 tags: [record, real-data]
 ---
 

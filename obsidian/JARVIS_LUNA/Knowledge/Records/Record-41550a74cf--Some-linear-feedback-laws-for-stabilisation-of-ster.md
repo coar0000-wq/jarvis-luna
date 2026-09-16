@@ -2,7 +2,7 @@
 title: "Record 41550a74cf · Some-linear-feedback-laws-for-stabilisation-of-ster"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T00:07:03.282612+00:00
+updated_at: 2026-09-16T03:13:38.074503+00:00
 tags: [record, real-data]
 ---
 

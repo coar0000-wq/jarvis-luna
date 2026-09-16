@@ -2,7 +2,7 @@
 title: "Record 42a530521b · The-Best-Way-to-Explore-Lunar-Craters-Is-a-Giant-Ro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T00:07:03.570384+00:00
+updated_at: 2026-09-16T03:13:38.357750+00:00
 tags: [record, real-data]
 ---
 

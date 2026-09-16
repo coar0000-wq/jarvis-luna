@@ -2,7 +2,7 @@
 title: "Record 3654fe1dd0 · Your-Search-Results-Are-Getting-Sloptimized---The-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T00:07:03.445878+00:00
+updated_at: 2026-09-16T03:13:38.239542+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMijAFBVV95cUxNWTkxNDFjWkl0VDA0WjR0d1F2WXdmRnhEbTVoOVNwWkd4cXVVT0Z3alBHczZWblkzREdtVlA5ZlM4djlvT3I4MWxsbVliMlhsSEptN083bm9QMk9xTzU2eVVlT0R5bzQxV1dMQXpGQ1ZJc0l4bERaQm1MczJfcTU1dm0yWEI4cGF5Y084SQ?oc=5)
 
-**제목:** Your Search Results Are Getting Sloptimized - theatlantic.com
+**제목:** Your Search Results Are Getting Sloptimized - The Atlantic
 
-Your Search Results Are Getting Sloptimized - theatlantic.com
+Your Search Results Are Getting Sloptimized - The Atlantic
 
 **출처:** Source · Google Search
 

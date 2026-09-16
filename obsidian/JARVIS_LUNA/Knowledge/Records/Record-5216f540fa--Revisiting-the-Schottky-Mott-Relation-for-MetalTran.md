@@ -2,7 +2,7 @@
 title: "Record 5216f540fa · Revisiting-the-Schottky-Mott-Relation-for-MetalTran"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T00:07:03.211231+00:00
+updated_at: 2026-09-16T03:13:37.999600+00:00
 tags: [record, real-data]
 ---
 

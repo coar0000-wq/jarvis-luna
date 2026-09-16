@@ -2,7 +2,7 @@
 title: "Record 7f5a486ed4 · We-Tested-Dozens-of-the-Best-Korean-Skincare-Produc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T00:07:03.382804+00:00
+updated_at: 2026-09-16T03:13:38.172171+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMib0FVX3lxTE1sc1dUR0l3QkxvbDVjMnk4bzBxd0RKMW13ZVFBZlRLQmFwM3gtdjR1Sk5vZkp3c2xFNUc5Tm9ycThJWGc3TnVZekNOWHNYVHppZEhWWkZ6NjFwQzlZakk2VERaNzlNRVVxaGk1a0ZUWQ?oc=5)
 
-**제목:** We Tested Dozens of the Best Korean Skincare Products—These 17 Gave Us Radiant Skin - Byrdie
+**제목:** These 17 Korean Skincare Products Deliver Serious Glow - Byrdie
 
-We Tested Dozens of the Best Korean Skincare Products—These 17 Gave Us Radiant Skin - Byrdie
+These 17 Korean Skincare Products Deliver Serious Glow - Byrdie
 
 **출처:** Source · Google Search
 

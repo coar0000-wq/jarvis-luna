@@ -2,7 +2,7 @@
 title: "Record 509310e963 · Im-A-K-Beauty-Expert-Living-In-Seoul--These-9-Produ"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T00:07:03.440631+00:00
+updated_at: 2026-09-16T03:13:38.233803+00:00
 tags: [record, real-data]
 ---
 

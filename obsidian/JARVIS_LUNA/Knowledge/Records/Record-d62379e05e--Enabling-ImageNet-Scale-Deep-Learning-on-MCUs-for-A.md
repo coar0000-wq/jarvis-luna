@@ -2,7 +2,7 @@
 title: "Record d62379e05e · Enabling-ImageNet-Scale-Deep-Learning-on-MCUs-for-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T00:07:03.233143+00:00
+updated_at: 2026-09-16T03:13:38.022296+00:00
 tags: [record, real-data]
 ---
 

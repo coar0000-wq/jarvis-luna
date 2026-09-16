@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-15T23:58:54.327640+00:00",
+  "generated_at": "2026-09-16T03:07:26.747073+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
   "pool_size": 2103,
   "제목없어_버림": 38,
-  "unrouted": 8,
+  "unrouted": 7,
   "summary": {
     "sourcing": {
       "total": 265,
@@ -15,24 +15,24 @@
       "products": 261
     },
     "market": {
-      "total": 476,
+      "total": 477,
       "recent": 42,
-      "material": 476,
+      "material": 477,
       "material_recent": 42,
       "products": 0
     },
     "listing": {
       "total": 15,
-      "recent": 11,
+      "recent": 10,
       "material": 15,
-      "material_recent": 11,
+      "material_recent": 10,
       "products": 0
     },
     "pricing": {
-      "total": 13,
-      "recent": 4,
-      "material": 13,
-      "material_recent": 4,
+      "total": 12,
+      "recent": 3,
+      "material": 12,
+      "material_recent": 3,
       "products": 0
     },
     "legal": {
@@ -43,10 +43,10 @@
       "products": 0
     },
     "design": {
-      "total": 331,
-      "recent": 75,
-      "material": 331,
-      "material_recent": 75,
+      "total": 334,
+      "recent": 74,
+      "material": 334,
+      "material_recent": 74,
       "products": 0
     },
     "robotics": {
@@ -58,16 +58,16 @@
     },
     "knowledge": {
       "total": 127,
-      "recent": 25,
+      "recent": 22,
       "material": 127,
-      "material_recent": 25,
+      "material_recent": 22,
       "products": 0
     },
     "institutions": {
       "total": 1062,
-      "recent": 289,
+      "recent": 256,
       "material": 1062,
-      "material_recent": 289,
+      "material_recent": 256,
       "products": 0
     }
   },
@@ -614,6 +614,13 @@
         "by_hand": true
       },
       {
+        "title": "Securities Services   Etf Trends",
+        "url": "https://www.jpmorgan.com/insights/etf/securities-services/etf-trends",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
         "title": "Hero’s Ju Rhyu Mainstreamed Pimple Patches. Can She Do It Again With K-Beauty-Inspired Sunscreen? - Beauty Independent",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQUZsazhJcC1GYU5menhiYmFiMS1NZWVwZGZUYlB0LWtQMFBOcUZNRGhWN3RlamVlbG5lUkxSV2JvM1hYS2NLam1qRmgxY3YxTWJfaXFHT3BNOU0tb2lkalNCM1VGSEFlX01VMGxmb0dya21ySHp6VlRLYjZ3a2UzYndNa0x2eW8?oc=5",
         "pool": "google",
@@ -637,13 +644,6 @@
       {
         "title": "K-Beauty Arrives at Coles in Skincare Glow-Up - Mirage News",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOc191U2pxYjIya1gyLTFFa3k5b3BuSEs1cVdNbHhVaGMyZ3BxUlY2dWxnajVkbmQ5ejEzQ1FqSS10Vnlid29OM3hWMGdEVVhQUFQ0OFZtQW45UWY0UGRKYm0wVm9aMm9tUGdQYXB1WnlyeGNSYVBkZjJDVVBKamRLb1h4VjFSTkNH?oc=5",
-        "pool": "google",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Beauty fans nab 40% off Medicube Korean collagen skincare kit - Liverpool Echo",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZkpudDhqYVotX0JvSklpMUhvdEdpOXBxYXNiT084OTJYTUwxcEZSZExYeHhsNWFOd2pwQUJoSDhYTzh0Ymgxb3dEYzRTUzlwa3F6VU9qdHN6Ujd5RFk0WHNQTm1abzYtaGxUYmRaa3VQTEs4bGpfbnd0MkhsRXBMUmJzMjdMWHJYNnktMmxUTdIBlAFBVV95cUxNNEh3RGlMcWdVcGZkUG92QVBvVUFjWXZfOUNBTTBmM2pIS2FDSFpZaUhxZkpwd3JpNXJjVWJ5YW9xTGlITklJa0pHNGZ6ZVMyX09la1QtbTdFbmVfMkowVklDOWpkTVFmWEI3cEhFNUNSSUZ6MUllaTBoUTVVTU9WSXVLMmNaTkJqZlZLSmMwb2dPbzF6?oc=5",
         "pool": "google",
         "date": "2026-09-15",
         "by_hand": false
@@ -698,13 +698,6 @@
         "by_hand": false
       },
       {
-        "title": "Korean Beauty ODM Shift: Top Three Manufacturers Ramp Up Capacity to Capture Global Skincare Market - finance.biggo.com",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9ZY2ZIWXZGVW8yRzE5TXFDdFZrd3Z0SGtLRm83Ul8wVGYzVEJ2U1hSazBpTENNczNqT2ZJNU8ya0NKaUg5NlBJbm9xa2dmbG5aWS0zVklUY242TUxPOERiWlphZ3JXWUwzVVh1ZUl4YndSODFZMHc?oc=5",
-        "pool": "google",
-        "date": "2026-09-14",
-        "by_hand": false
-      },
-      {
         "title": "I Tried the Viral K-Beauty Cream After a Laser Facial — And it Healed My Skin in Half the Time - Yahoo",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSVV0WVVNV0lqaXlZeEhXMF93dTBvTFpUdDhOQlF2S2UwT0hHRWtrV3dERkFac0Zqa2RBWi1tYVJDODlFYXN3MjFXalRwNEhyZlk5SUFrMU9fVTFlOHhLNlJsT0VCTU1GRjhoY3NSTnQ2NEF2OG1KUzkwTS1JemFIQVotbmJBdThUbW5JQUdXSFNCR3FPazdMMQ?oc=5",
         "pool": "google",
@@ -719,6 +712,13 @@
         "by_hand": false
       },
       {
+        "title": "Lady Gaga Considers This Viral K-Beauty Gel Mask Part of Her ‘Holy Trinity’ - Yahoo",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZjBpT3d2VktNTXpudllfNWZETzN3SmlsVjkzaS1SX2dQUzgxcGtPeF9hdWcxd1pQMUdFUFJtT3d3TnFMNGN3QjYydkZmWmRkX0ozX254VlRTX0cyOGNiREVoUlY5SDRXd2p2RHJuZU9zOXQzVG5OLWxPR0NzVDVpUGlWWEJsZm1ydjJReUpoMEJOaDdHdVdHWGh3?oc=5",
+        "pool": "google",
+        "date": "2026-09-13",
+        "by_hand": false
+      },
+      {
         "title": "Mia Korean Skincare Highlights Growing Interest in K-Beauty in Milan - Issuewire.com",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUGkzV1p3dHozWEE5LWlTdmRreHlfYWhfQUluLUVoRHpDM04yQ0lFMnRzQnJOR1lxemM1TWh2WEYzLU5nWnlkTURmZ3c3N2hYaGs5aFJ1UmNFckQyV1lkOWNIdUxVUHVEY3ByR0tkd09jb0dQYlkyQ0paOW9NRzlldExQSnMwdEZtaDBvTnFPNVFFTktDSzNoVkJwYWlJb1RzZkFDalFVS1pDcGdKMzA2bw?oc=5",
         "pool": "google",
@@ -726,7 +726,7 @@
         "by_hand": false
       },
       {
-        "title": "K-Beauty’s U.S. Boom Is Making ‘Korean’ Less of a Differentiator - koreatechdesk.com",
+        "title": "K-Beauty’s U.S. Boom Is Making ‘Korean’ Less of a Differentiator - KoreaTechDesk",
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1HZ0dkQmFkU3ppdGRTcnRJQXV3TjEyaUNKQ2JqbXVldHpDM1k5UlEyTXAtS2c5NnRYcXhXZ0hWeFlMRkNXX3Bpc200dXI0eUZjUHJFTHMtVUZvb2R2T3VDODk0Qjl6SU9CQzZQbUREM0ZDeFBuc3F4ODhVNm5yZw?oc=5",
         "pool": "google",
         "date": "2026-09-12",
@@ -768,13 +768,6 @@
         "by_hand": false
       },
       {
-        "title": "US and UK retailers bet on K-beauty, dermacosmetics and premium care. - personalcareinsights.com",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA5N2ZIdEFwRWx5ZzJ0aHhib3ZvMHQ5c1o0Z1J5Nm14ZW5wUmpHZ0xKcGhnaVBTVVRFYU81WVFrbUZkQnhNTmxHeGMzQ3dHWHhtc0xxQzVoRkhqNFFWVjR4WGNoT0lhYXktTGhHZ001VHJ1Z282RWpRdGFabG43Zw?oc=5",
-        "pool": "google",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
         "title": "Prestige K-Beauty Retail: mixsoon Brings Its Korean Skincare Lines to Target Beauty Studio - Trend Hunter",
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5yd21ockxiN01RTlN0SGRoNWdlcFBFdkpab3JqdXRGUHRIS3NjS1VzR3VDWjhKRmJtaTN4MGlaS0NLUjlVbVRxZE5xY1lqU28yV0dVOTNLby03OUhKVWVuVlg3ZjBVMEkydXc?oc=5",
         "pool": "google",
@@ -810,7 +803,7 @@
         "by_hand": false
       },
       {
-        "title": "From medicine cabinet to makeup bag: Drugmakers turn medical research into skincare - Korea JoongAng Daily",
+        "title": "From medicine cabinet to makeup bag: Drugmakers turn medical research into skincare - koreajoongangdaily.com",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNDhGOE5GQWVncngtaGZBcVkzT0pGcjB4V3dHLUNMMjNoMGJVcjIzWDRjWDJGS3JWWjZ1N1dkN2dfSWpabktCMzd0bXEyNU9TYmtUMUk0VDZlVktNMjh6aER3cTZmdDFnWS1EN1RvOUJDMlNlY0huVlROa0tCUF9RMXNOaGZ5R0NvNEd0UWFjRVhsSmpXZ053WEpfN01zaUNOZExHMm5zLU5OckVKUEktMm5UUTBwT2VyV2dKZUJWNmUtT2xBSklwTHFwN1pzcXVj?oc=5",
         "pool": "google",
         "date": "2026-09-08",
@@ -838,7 +831,7 @@
         "by_hand": false
       },
       {
-        "title": "8 best ecommerce AI Website Builder for creating an online store - Hostinger",
+        "title": "8 best ecommerce AI Website Builder for creating an online store - hostinger.com",
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBpU29tczMwM1pKaUdZYld0aThjYVRYWlE1c3k2VXc4RDBpUDdLOEx5bDg1OHljdURVUG5Xc25PWUxVZDY0RGl2OEFNM1ZYelFhN3FTVm1ySC1hRFk5amtVbkpudm9ZSFFCaEVQX1hleGRKWHV0d1NzSDhJdw?oc=5",
         "pool": "google",
         "date": "2026-09-04",
@@ -852,7 +845,7 @@
         "by_hand": false
       },
       {
-        "title": "What makes K-beauty Korean? The answer is getting complicated. - Korea JoongAng Daily",
+        "title": "What makes K-beauty Korean? The answer is getting complicated. - koreajoongangdaily.com",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTHduVDgyX3Fsb1owRDBvLVd4bDEzQjZlZk1UcGY5aE5oS1NGR0VrVV9scXFNNG9xdGZTcUZQX3A0NEM4LUxJdUt6TWhORGxJVnE5NnM5VVdYWUthOXZWX2xNV0VoUTFsM3lVUl9MR3o5cHF1eXBjSl9feEtwYWtNY1A4RGNRZUItREFtRU8xZ0hzVmVhZ3Bwdmx3X3B6eVNkY3BPb3dGaThJaENSVEJGVWxn?oc=5",
         "pool": "google",
         "date": "2026-09-03",
@@ -880,14 +873,21 @@
         "by_hand": false
       },
       {
-        "title": "Meet the K-beauty masks skincare lovers swear by for achieving a true glass skin finish - Sacramento Bee",
+        "title": "Ecommerce Evolution: Shopify’s (SHOP) AI-Driven Approach to Retail Success - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQnNfUW9Pdjhhc2ZBejlUV0lWYmZXRW9KeWxSbjJWLWltODYyQnZGTkpzRE9QOVNUamxuTzFSc1VhcktzWGhSVU5xRnI3QlBTS1c1a0lzTHdEUklzYUw0RDdzNFE0X2FUS3VoX1dWSkRuUDQ2Z0NabkJheVZRUXJOSXhsR0hOajNmYTQ4TUtLUHNWSzlTZTRuYlpmc0FtWXAy?oc=5",
+        "pool": "google",
+        "date": "2026-09-02",
+        "by_hand": false
+      },
+      {
+        "title": "Meet the K-beauty masks skincare lovers swear by for achieving a true glass skin finish - sacbee.com",
         "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAzRUhWam1YWHZYXzlFQlVlMFcwRDBYX003QTZqSzM0WURnYnNudkZveEs3RHJCczBzSUpvMklOeXR3elA4ZVdIc2lDd2RNeEJLeE9RdGNEbVFrTjVhcnFPaUJSNEpNeXpWLWRpcGhQb0ozdU3SAXNBVV95cUxPV1Qwc05zNHBGQmhLclBFVzhrQjQ1bjBZWWFKa25fVllZRXRobkhXZGZpeUplUVFYTjJ4dEpBTDZ1TXVlc3FGT3FOOUl2VFBqdzhYcHRFeEtJV2ExN29TUTVQVVdVTmNwWW9YVHZHSkZ0TDZN?oc=5",
         "pool": "google",
         "date": "2026-08-31",
         "by_hand": false
       },
       {
-        "title": "Why imperfect beauty is becoming a planning signal for MUAs and brand buyers beyond 2026 - Miami Herald",
+        "title": "Why imperfect beauty is becoming a planning signal for MUAs and brand buyers beyond 2026 - miamiherald.com",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBxUk1UYUJPcXhnWjlFczJhckZRMjlLM0ZFX1hnclN5cjk0d1prbVNWNWZqVWFMX0M1N2VSY08tNzNteDE0NDNsdWN4SmpTUkpzSDVkMFFhdndkRVBXNGZWRjhuUXpqTWvSAWdBVV95cUxNM1p2Wmx6MVYta09USHF2UUU0MWthTlNwamRPQWUtV0FMbF94U1Zjc1RrN2pUZVg5djlwc2dyZk8zeV9PT0VrRVhUWEJlZmlMM2xHdUk3eUJNUFNkV1lRRFRuVUE5TFpZ?oc=5",
         "pool": "google",
         "date": "2026-08-31",
@@ -1063,13 +1063,6 @@
         "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-carpenter-housing-prices-update",
         "pool": "institutions",
         "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Current Events   Us Tariffs",
-        "url": "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs",
-        "pool": "institutions",
-        "date": "2026-09-09",
         "by_hand": false
       },
       {
@@ -1609,7 +1602,7 @@
         "by_hand": true
       },
       {
-        "title": "These UI/UX App Design Tips Will Teach You More Than 100 Tutorials Combined",
+        "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
         "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
         "pool": "youtube_channel",
         "date": "",
@@ -1784,6 +1777,27 @@
         "by_hand": true
       },
       {
+        "title": "Asset Manager Considerations For Building An Etf Wrapper",
+        "url": "https://www.jpmorgan.com/insights/etf/securities-services/asset-manager-considerations-for-building-an-etf-wrapper",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Investing   Etf Guide",
+        "url": "https://www.jpmorgan.com/insights/global-research/investing/etf-guide",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Global Wires Payments Formatting Requirements Guide",
+        "url": "https://www.jpmorgan.com/insights/payments/fx-cross-border/global-wires-payments-formatting-requirements-guide",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
         "title": "Thoughts On The Market Asia Equities Us Election View",
         "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-asia-equities-us-election-view",
         "pool": "institutions",
@@ -1910,13 +1924,6 @@
         "by_hand": false
       },
       {
-        "title": "Expanding Healthcare Access With Nmtc Equity Investment",
-        "url": "https://www.jpmorgan.com/insights/real-estate/community-development-banking/expanding-healthcare-access-with-nmtc-equity-investment",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
         "title": "Multi-currency payouts now available in Australia and France",
         "url": "https://changelog.shopify.com/posts/multi-currency-payouts-now-available-in-australia-and-france",
         "pool": "design_refs",
@@ -1948,20 +1955,6 @@
         "title": "Swarmer to acquire Ukrainian UGV maker Ratel Robotics for up to $224M",
         "url": "https://www.therobotreport.com/swarmer-to-acquire-ukrainian-ugv-maker-ratel-robotics-for-up-to-224m/",
         "pool": "robotics",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Now everyone can put data to work",
-        "url": "https://openai.com/index/put-data-to-work",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Introducing ChatGPT for Financial Services",
-        "url": "https://openai.com/index/introducing-chatgpt-financial-services",
-        "pool": "institutions",
         "date": "2026-09-10",
         "by_hand": false
       }
@@ -2868,6 +2861,97 @@
         "by_hand": false
       },
       {
+        "title": "Ireland Eyes Continued Active Etf Dominance",
+        "url": "https://www.jpmorgan.com/insights/etf/securities-services/ireland-eyes-continued-active-etf-dominance",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "The Active Etf State Of Play",
+        "url": "https://www.jpmorgan.com/insights/etf/securities-services/the-active-ETF-state-of-play",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "A Tale Of Two Domiciles",
+        "url": "https://www.jpmorgan.com/insights/securities-services/fund-services/a-tale-of-two-domiciles",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Etf Share Classes",
+        "url": "https://www.jpmorgan.com/insights/etf/securities-services/etf-share-classes",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Active Etfs Unwrapped",
+        "url": "https://www.jpmorgan.com/insights/investing/investment-trends/active-etfs-unwrapped",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Asset Manager Considerations For Building An Etf Wrapper",
+        "url": "https://www.jpmorgan.com/insights/etf/securities-services/asset-manager-considerations-for-building-an-etf-wrapper",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Apac Investor Forum Takeaways",
+        "url": "https://www.jpmorgan.com/insights/securities-services/apac-investor-forum-takeaways",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Securities Services   Etf Trends",
+        "url": "https://www.jpmorgan.com/insights/etf/securities-services/etf-trends",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Investing   Etf Guide",
+        "url": "https://www.jpmorgan.com/insights/global-research/investing/etf-guide",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Australia Etf Boom",
+        "url": "https://www.jpmorgan.com/insights/etf/securities-services/australia-etf-boom",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Security And Resiliency Initiative",
+        "url": "https://www.jpmorgan.com/insights/security-and-resiliency-initiative",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Financing Resilience Energy Supply Disruption",
+        "url": "https://www.jpmorgan.com/insights/treasury/trade-working-capital/financing-resilience-energy-supply-disruption",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Global Wires Payments Formatting Requirements Guide",
+        "url": "https://www.jpmorgan.com/insights/payments/fx-cross-border/global-wires-payments-formatting-requirements-guide",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
         "title": "Thoughts On The Market Carpenter Housing Prices Update",
         "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-carpenter-housing-prices-update",
         "pool": "institutions",
@@ -3136,97 +3220,6 @@
       {
         "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
         "url": "https://openai.com/index/cognition-devin-testing-with-astra",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "Health Plans: Your BI Tells You MLR Moved. Can Your AI Tell You Why?",
-        "url": "https://www.databricks.com/blog/health-plans-your-bi-tells-you-mlr-moved-can-your-ai-tell-you-why",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "Unify your marketing data with Lakeflow Connect",
-        "url": "https://www.databricks.com/blog/unify-your-marketing-data-lakeflow-connect",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "Booz Allen to Host Conference Call to Discuss Second Quarter Fiscal 2027 Results on Friday, October 23, 2026",
-        "url": "https://investors.boozallen.com/news-releases/news-release-details/booz-allen-host-conference-call-discuss-second-quarter-fiscal",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "Introducing Claude Corps",
-        "url": "https://www.anthropic.com/news/claude-corps",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "Anthropic Education Report: The AI Fluency Index · Claude Academy",
-        "url": "https://www.anthropic.com/research/AI-fluency-index",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "Anthropic Economic Index: Insights from Claude 3.7 Sonnet",
-        "url": "https://www.anthropic.com/research/anthropic-economic-index-insights-from-claude-sonnet-3-7",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "Education Report: How educators use Claude",
-        "url": "https://www.anthropic.com/research/anthropic-education-report-how-educators-use-claude",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "How Claude's values vary by model and language",
-        "url": "https://www.anthropic.com/research/claude-values-models-languages",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "Economic Index: AI's role in the US and global economy",
-        "url": "https://www.anthropic.com/research/economic-index-geography",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "Anthropic Economic Index report: Cadences",
-        "url": "https://www.anthropic.com/research/economic-index-june-2026-report",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "Economic Index: New building blocks for AI use",
-        "url": "https://www.anthropic.com/research/economic-index-primitives",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "Enabling independent research on how people use Claude",
-        "url": "https://www.anthropic.com/research/enabling-independent-research",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "Anthropic Economic Index: AI's impact on software development",
-        "url": "https://www.anthropic.com/research/impact-software-development",
         "pool": "institutions",
         "date": "2026-09-11",
         "by_hand": false

@@ -2,7 +2,7 @@
 title: "Record 047a55d9a3 · Anthropic-Education-Report-The-AI-Fluency-Index--Cl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T00:07:03.620206+00:00
+updated_at: 2026-09-16T03:13:38.413636+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 3e462c01cb · Uncovering-bias-in-uncovered-interest-parity-tests"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T00:07:03.231183+00:00
+updated_at: 2026-09-16T03:13:38.020214+00:00
 tags: [record, real-data]
 ---
 

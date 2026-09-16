@@ -2,7 +2,7 @@
 title: "Record 1285cef63e · K-beauty-brands-dominate-on-Amazon-Prime-Day---Kore"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T00:07:03.473245+00:00
+updated_at: 2026-09-16T03:13:38.266807+00:00
 tags: [record, real-data]
 ---
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T00:05:17.399615+00:00",
+  "generated_at": "2026-09-16T03:11:53.597139+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "protect college sports act",
+          "keyword": "arizona diamondbacks",
           "approx_traffic": "10000+",
           "traffic_num": 10000,
-          "published": "Tue, 15 Sep 2026 16:40:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=protect%20college%20sports%20act"
+          "published": "Tue, 15 Sep 2026 19:50:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=arizona%20diamondbacks"
         },
         {
-          "keyword": "disney plus",
+          "keyword": "rockies",
           "approx_traffic": "5000+",
           "traffic_num": 5000,
-          "published": "Tue, 15 Sep 2026 16:40:00 -0700",
-          "source_name": "The Hollywood Reporter",
-          "url": "https://trends.google.com/trending?geo=US&q=disney%20plus"
+          "published": "Tue, 15 Sep 2026 19:40:00 -0700",
+          "source_name": "MLB.com",
+          "url": "https://trends.google.com/trending?geo=US&q=rockies"
         },
         {
-          "keyword": "andrew garfield",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Tue, 15 Sep 2026 16:30:00 -0700",
+          "keyword": "dermot mulroney",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Tue, 15 Sep 2026 19:50:00 -0700",
+          "source_name": "Entertainment Weekly",
+          "url": "https://trends.google.com/trending?geo=US&q=dermot%20mulroney"
+        },
+        {
+          "keyword": "cole carrigg",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Tue, 15 Sep 2026 19:50:00 -0700",
+          "source_name": "MLB.com",
+          "url": "https://trends.google.com/trending?geo=US&q=cole%20carrigg"
+        },
+        {
+          "keyword": "target pokemon 30th anniversary",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Tue, 15 Sep 2026 19:50:00 -0700",
+          "source_name": "MySA",
+          "url": "https://trends.google.com/trending?geo=US&q=target%20pokemon%2030th%20anniversary"
+        },
+        {
+          "keyword": "peter thiel",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Tue, 15 Sep 2026 19:50:00 -0700",
+          "source_name": "The Tennessean",
+          "url": "https://trends.google.com/trending?geo=US&q=peter%20thiel"
+        },
+        {
+          "keyword": "drake tour",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Tue, 15 Sep 2026 19:40:00 -0700",
+          "source_name": "Complex",
+          "url": "https://trends.google.com/trending?geo=US&q=drake%20tour"
+        },
+        {
+          "keyword": "coby mayo",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Tue, 15 Sep 2026 19:40:00 -0700",
+          "source_name": "MLB.com",
+          "url": "https://trends.google.com/trending?geo=US&q=coby%20mayo"
+        },
+        {
+          "keyword": "james wehr wife",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Tue, 15 Sep 2026 19:40:00 -0700",
           "source_name": "People.com",
-          "url": "https://trends.google.com/trending?geo=US&q=andrew%20garfield"
+          "url": "https://trends.google.com/trending?geo=US&q=james%20wehr%20wife"
         },
         {
-          "keyword": "disney+",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Tue, 15 Sep 2026 16:50:00 -0700",
-          "source_name": "The Walt Disney Company",
-          "url": "https://trends.google.com/trending?geo=US&q=disney%2B"
-        },
-        {
-          "keyword": "rj decker",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Tue, 15 Sep 2026 16:50:00 -0700",
-          "source_name": "Fubo",
-          "url": "https://trends.google.com/trending?geo=US&q=rj%20decker"
-        },
-        {
-          "keyword": "mikayla matthews",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Tue, 15 Sep 2026 16:40:00 -0700",
-          "source_name": "Los Angeles Times",
-          "url": "https://trends.google.com/trending?geo=US&q=mikayla%20matthews"
-        },
-        {
-          "keyword": "marie gluesenkamp perez",
+          "keyword": "braves standings",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Tue, 15 Sep 2026 16:40:00 -0700",
-          "source_name": "Fox News",
-          "url": "https://trends.google.com/trending?geo=US&q=marie%20gluesenkamp%20perez"
-        },
-        {
-          "keyword": "rose bowl stadium",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Tue, 15 Sep 2026 16:40:00 -0700",
-          "source_name": "Los Angeles Times",
-          "url": "https://trends.google.com/trending?geo=US&q=rose%20bowl%20stadium"
-        },
-        {
-          "keyword": "yankees - twins",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Tue, 15 Sep 2026 16:30:00 -0700",
-          "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=yankees%20-%20twins"
-        },
-        {
-          "keyword": "jonbenet ramsey",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Tue, 15 Sep 2026 16:50:00 -0700",
-          "source_name": "The Hollywood Reporter",
-          "url": "https://trends.google.com/trending?geo=US&q=jonbenet%20ramsey"
+          "published": "Tue, 15 Sep 2026 19:30:00 -0700",
+          "source_name": "MLB.com",
+          "url": "https://trends.google.com/trending?geo=US&q=braves%20standings"
         }
       ]
     },

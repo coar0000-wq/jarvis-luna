@@ -2,7 +2,7 @@
 title: "Record e3e7d3dd87 · You-Know-K-Beauty-J-Beauty-Now-Get-Ready-for-A-Beauty---KTLA"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T00:07:03.451297+00:00
+updated_at: 2026-09-16T03:13:38.245230+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,10 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMijwFBVV95cUxQUFNVenlfcmNtZUg4bk9BVnFwVmlFOTNQQlJVdVdhSlNNNlNoX3BvYzFpbHRaN0J0NTRDeEJTTFpVU1ZwUlREM0hCRnl5bVpRODJDR0Zydklabng4QlJYMXk3amEwc2FXcDNuemprSUlYOHlNSy1RbzgyM3hIT3F5ZV9ZMWtaa0pISDktYzBWaw?oc=5)
 
-**제목:** You Know K-Beauty, J-Beauty, Now Get Ready for A-Beauty!! - KTLA
+**제목:** You Know K-Beauty, J-Beauty, Now Get Ready for A-Beauty!! - ktla.com
 
-You Know K-Beauty, J-Beauty, Now Get Ready for A-Beauty!! - KTLA
-You Know K-Beauty, J-Beauty, Now Get Ready for A-Beauty!! - KTLA
+You Know K-Beauty, J-Beauty, Now Get Ready for A-Beauty!! - ktla.com
+You Know K-Beauty, J-Beauty, Now Get Ready for A-Beauty!! - ktla.com
 
 **출처:** Source · us_beauty
 

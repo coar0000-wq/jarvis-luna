@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-16T00:05:58.595082+00:00",
+  "generated_at": "2026-09-16T03:12:42.476150+00:00",
   "discovery_mode": "seed_catalog_plus_health_probe",
   "candidate_count": 18,
   "verified_count": 9,
@@ -13,12 +13,12 @@
       "country": "US",
       "priority": 1,
       "reachable": false,
-      "status_code": 404,
+      "status_code": 503,
       "final_url": "https://www.fda.gov/about-fda/data-standards",
-      "content_length": 14495,
+      "content_length": 17117,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-16T00:05:37.721368+00:00"
+      "checked_at": "2026-09-16T03:12:22.904398+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -30,10 +30,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://www.google.com/shopping",
-      "content_length": 114205,
+      "content_length": 114540,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-16T00:05:58.215557+00:00"
+      "checked_at": "2026-09-16T03:12:42.095587+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -48,7 +48,7 @@
       "content_length": 172023,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-16T00:05:38.565420+00:00"
+      "checked_at": "2026-09-16T03:12:23.633430+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -63,7 +63,7 @@
       "content_length": 375,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-16T00:05:40.818249+00:00"
+      "checked_at": "2026-09-16T03:12:25.104630+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -78,7 +78,7 @@
       "content_length": 1325,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-16T00:05:37.495296+00:00"
+      "checked_at": "2026-09-16T03:12:12.692289+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -90,10 +90,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://www.census.gov/data.html",
-      "content_length": 513063,
+      "content_length": 513049,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-16T00:05:37.375287+00:00"
+      "checked_at": "2026-09-16T03:12:12.565123+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -108,7 +108,7 @@
       "content_length": 3769,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-16T00:05:39.755747+00:00"
+      "checked_at": "2026-09-16T03:12:24.212469+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -123,7 +123,7 @@
       "content_length": 72037,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-16T00:05:39.009499+00:00"
+      "checked_at": "2026-09-16T03:12:23.847653+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -135,10 +135,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://data.worldbank.org/",
-      "content_length": 191886,
+      "content_length": 191897,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-16T00:05:37.957739+00:00"
+      "checked_at": "2026-09-16T03:12:22.980271+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -153,7 +153,7 @@
       "content_length": 1831,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-16T00:05:40.505819+00:00"
+      "checked_at": "2026-09-16T03:12:24.284059+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -168,7 +168,7 @@
       "content_length": 776,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-16T00:05:40.603353+00:00"
+      "checked_at": "2026-09-16T03:12:25.039140+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -183,7 +183,7 @@
       "content_length": 190240,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-16T00:05:58.595032+00:00"
+      "checked_at": "2026-09-16T03:12:42.476116+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -195,10 +195,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://trends.google.com/trends/",
-      "content_length": 771686,
+      "content_length": 771685,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-16T00:05:58.522651+00:00"
+      "checked_at": "2026-09-16T03:12:42.406904+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -210,10 +210,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://www.instacart.com/",
-      "content_length": 891532,
+      "content_length": 958935,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-16T00:05:57.864742+00:00"
+      "checked_at": "2026-09-16T03:12:41.691034+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -226,7 +226,7 @@
       "status_code": null,
       "error": "ReadTimeout: HTTPSConnectionPool(host='www.kroger.com', port=443): Read timed out. (read timeout=15)",
       "status": "unverified",
-      "checked_at": "2026-09-16T00:05:56.735464+00:00"
+      "checked_at": "2026-09-16T03:12:40.559963+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -241,7 +241,7 @@
       "content_length": 9901,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-16T00:05:41.556801+00:00"
+      "checked_at": "2026-09-16T03:12:25.447113+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -253,10 +253,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://www.nordstrom.com/browse/beauty",
-      "content_length": 252313,
+      "content_length": 257834,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-16T00:05:41.363982+00:00"
+      "checked_at": "2026-09-16T03:12:25.354596+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -271,7 +271,7 @@
       "content_length": 782,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-16T00:05:41.010414+00:00"
+      "checked_at": "2026-09-16T03:12:25.200375+00:00"
     }
   ],
   "next_expansion_queries": [

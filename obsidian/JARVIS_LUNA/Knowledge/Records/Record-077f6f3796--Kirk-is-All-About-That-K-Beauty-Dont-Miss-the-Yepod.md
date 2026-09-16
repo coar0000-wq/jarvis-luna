@@ -2,7 +2,7 @@
 title: "Record 077f6f3796 · Kirk-is-All-About-That-K-Beauty-Dont-Miss-the-Yepod"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T00:07:03.517452+00:00
+updated_at: 2026-09-16T03:13:38.309113+00:00
 tags: [record, real-data]
 ---
 

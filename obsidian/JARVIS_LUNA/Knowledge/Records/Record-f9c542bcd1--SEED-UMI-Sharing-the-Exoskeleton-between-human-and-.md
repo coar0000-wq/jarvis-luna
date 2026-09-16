@@ -2,7 +2,7 @@
 title: "Record f9c542bcd1 · SEED-UMI-Sharing-the-Exoskeleton-between-human-and-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T00:07:03.169241+00:00
+updated_at: 2026-09-16T03:13:37.956421+00:00
 tags: [record, real-data]
 ---
 

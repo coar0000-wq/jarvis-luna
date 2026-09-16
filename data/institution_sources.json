@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-15T23:58:24.883003+00:00",
+  "collected_at": "2026-09-16T03:06:57.378937+00:00",
   "total": 1063,
   "organizations": 35,
   "by_org": {
@@ -54,19 +54,19 @@
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-09-15T23:57:20.764884+00:00"
+      "collected_at": "2026-09-16T03:05:56.224217+00:00"
     },
     "sitemap": {
       "status": "ok",
       "count": 140,
       "failures": [],
-      "collected_at": "2026-09-15T23:57:57.287239+00:00"
+      "collected_at": "2026-09-16T03:06:29.575382+00:00"
     },
     "openalex": {
       "status": "ok",
       "count": 713,
       "failures": [],
-      "collected_at": "2026-09-15T23:58:24.881797+00:00"
+      "collected_at": "2026-09-16T03:06:57.378038+00:00"
     }
   },
   "not_collected": {
@@ -1450,6 +1450,19 @@
       "title_source": "feed"
     },
     {
+      "title": "[Interview] The People Behind the Galaxy Z Series’ Camera Innovations ②: How Portrait Video Recreates the Look of Professional Camera Lenses",
+      "url": "https://news.samsung.com/global/interview-the-people-behind-the-galaxy-z-series-camera-innovations-%e2%91%a1-how-portrait-video-recreates-the-look-of-professional-camera-lenses",
+      "date": "2026-09-16",
+      "date_raw": "Wed, 16 Sep 2026 08:00:00 +0000",
+      "summary": "Unveiled at Galaxy Unpacked July 2026, Samsung Electronics’ Galaxy Z series introduces My FanCam — a new feature that lets users focus their edits on a person of their choice — as well as an enhanced Portrait Video that recreates the look of professional camera lenses. While the two features offer different camera experiences, both draw […]",
+      "org": "Samsung Electronics",
+      "category": "반도체",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://news.samsung.com/global/feed",
+      "title_source": "feed"
+    },
+    {
       "title": "Samsung and Verizon Complete Successful ISAC Trial Over Virtualized Network at Global Sports Event",
       "url": "https://news.samsung.com/global/samsung-and-verizon-complete-successful-isac-trial-over-virtualized-network-at-global-sports-event",
       "date": "2026-09-14",
@@ -1754,19 +1767,6 @@
       "date": "2026-08-25",
       "date_raw": "Tue, 25 Aug 2026 11:00:00 +0000",
       "summary": "Samsung Electronics today announced that it will be displaying its comprehensive gaming ecosystem spanning PC, console, and mobile games at Gamescom 2026, which is one of the world’s largest gaming events taking place in Cologne, Germany from Aug. 26-30. Across a 1,090-square-meter exhibition space, Samsung will present its full package of gaming devices under its […]",
-      "org": "Samsung Electronics",
-      "category": "반도체",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://news.samsung.com/global/feed",
-      "title_source": "feed"
-    },
-    {
-      "title": "An Easier Way To Switch to the New Galaxy Z Fold8",
-      "url": "https://news.samsung.com/global/an-easier-way-to-switch-to-the-new-galaxy-z-fold8",
-      "date": "2026-08-25",
-      "date_raw": "Tue, 25 Aug 2026 08:00:00 +0000",
-      "summary": "Getting a new phone should be exciting, but moving data from an existing device can sometimes feel like a hassle. Especially for users switching from iOS to Galaxy, being able to bring existing data and settings across easily is an important part of the experience. Smart Switch is Samsung’s data transfer app that allows users […]",
       "org": "Samsung Electronics",
       "category": "반도체",
       "kind": "발표물",
@@ -4375,19 +4375,6 @@
       "feed": "https://www.jpmorgan.com/sitemap.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-carpenter-housing-prices-update",
-      "date": "2026-09-15",
-      "date_raw": "2026-09-15T11:20:56Z",
-      "title_source": "url-slug",
-      "title": "Thoughts On The Market Carpenter Housing Prices Update",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
       "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-ai-market-disruption-tirupattur",
       "date": "2026-09-15",
       "date_raw": "2026-09-15T11:10:51Z",
@@ -4401,11 +4388,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-asia-equities-us-election-view",
+      "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-carpenter-housing-prices-update",
       "date": "2026-09-15",
-      "date_raw": "2026-09-15T11:13:41Z",
+      "date_raw": "2026-09-15T11:20:56Z",
       "title_source": "url-slug",
-      "title": "Thoughts On The Market Asia Equities Us Election View",
+      "title": "Thoughts On The Market Carpenter Housing Prices Update",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4414,11 +4401,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-consumer-spending-us-election-2024",
+      "url": "https://www.morganstanley.com/insights/articles/private-markets-investment-trends-institute-2026",
       "date": "2026-09-15",
-      "date_raw": "2026-09-15T10:57:49Z",
+      "date_raw": "2026-09-15T17:56:26Z",
       "title_source": "url-slug",
-      "title": "Thoughts On The Market Consumer Spending Us Election 2024",
+      "title": "Private Markets Investment Trends Institute 2026",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4440,11 +4427,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-cross-asset-strategy",
+      "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-consumer-spending-us-election-2024",
       "date": "2026-09-15",
-      "date_raw": "2026-09-15T11:30:51Z",
+      "date_raw": "2026-09-15T10:57:49Z",
       "title_source": "url-slug",
-      "title": "Thoughts On The Market Cross Asset Strategy",
+      "title": "Thoughts On The Market Consumer Spending Us Election 2024",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4453,11 +4440,24 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-carpenter-french-us-elections-2024",
+      "url": "https://www.morganstanley.com/insights/articles/canada-economic-growth-accelerates-through-2030",
       "date": "2026-09-15",
-      "date_raw": "2026-09-15T11:19:23Z",
+      "date_raw": "2026-09-15T13:51:51Z",
       "title_source": "url-slug",
-      "title": "Thoughts On The Market Carpenter French Us Elections 2024",
+      "title": "Canada Economic Growth Accelerates Through 2030",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
+      "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-byrd-chan-nuclear-power-renaissance",
+      "date": "2026-09-15",
+      "date_raw": "2026-09-15T11:09:22Z",
+      "title_source": "url-slug",
+      "title": "Thoughts On The Market Byrd Chan Nuclear Power Renaissance",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4492,11 +4492,63 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-byrd-chan-nuclear-power-renaissance",
+      "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-cross-asset-strategy",
       "date": "2026-09-15",
-      "date_raw": "2026-09-15T11:09:22Z",
+      "date_raw": "2026-09-15T11:30:51Z",
       "title_source": "url-slug",
-      "title": "Thoughts On The Market Byrd Chan Nuclear Power Renaissance",
+      "title": "Thoughts On The Market Cross Asset Strategy",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
+      "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-carpenter-french-us-elections-2024",
+      "date": "2026-09-15",
+      "date_raw": "2026-09-15T11:19:23Z",
+      "title_source": "url-slug",
+      "title": "Thoughts On The Market Carpenter French Us Elections 2024",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
+      "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-asia-equities-us-election-view",
+      "date": "2026-09-15",
+      "date_raw": "2026-09-15T11:13:41Z",
+      "title_source": "url-slug",
+      "title": "Thoughts On The Market Asia Equities Us Election View",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
+      "url": "https://www.morganstanley.com/insights/articles/strategy-challenge-winners-2026",
+      "date": "2026-09-15",
+      "date_raw": "2026-09-15T17:35:38Z",
+      "title_source": "url-slug",
+      "title": "Strategy Challenge Winners 2026",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/consumer-driven-healthcare-direct-to-consumer-biopharma-erin-wright-terence-flynn",
+      "date": "2026-09-14",
+      "date_raw": "2026-09-14T20:16:27Z",
+      "title_source": "url-slug",
+      "title": "Consumer Driven Healthcare Direct To Consumer Biopharma Erin Wright Terence Flynn",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4518,24 +4570,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/zero-hunger-mission",
+      "url": "https://www.morganstanley.com/insights/articles/direct-indexing",
       "date": "2026-09-14",
-      "date_raw": "2026-09-14T15:35:07Z",
+      "date_raw": "2026-09-14T15:27:11Z",
       "title_source": "url-slug",
-      "title": "Zero Hunger Mission",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
-      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/consumer-driven-healthcare-direct-to-consumer-biopharma-erin-wright-terence-flynn",
-      "date": "2026-09-14",
-      "date_raw": "2026-09-14T20:16:27Z",
-      "title_source": "url-slug",
-      "title": "Consumer Driven Healthcare Direct To Consumer Biopharma Erin Wright Terence Flynn",
+      "title": "Direct Indexing",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4570,19 +4609,6 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/insights/articles/direct-indexing",
-      "date": "2026-09-14",
-      "date_raw": "2026-09-14T15:27:11Z",
-      "title_source": "url-slug",
-      "title": "Direct Indexing",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
       "url": "https://www.morganstanley.com/insights/articles/morgan-stanley-inclusive-sustainable-ventures-cohort-2026",
       "date": "2026-09-14",
       "date_raw": "2026-09-14T13:42:29Z",
@@ -4596,37 +4622,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/insights",
-      "date": "2026-09-11",
-      "date_raw": "2026-09-11T19:11:45Z",
+      "url": "https://www.morganstanley.com/ideas/zero-hunger-mission",
+      "date": "2026-09-14",
+      "date_raw": "2026-09-14T15:35:07Z",
       "title_source": "url-slug",
-      "title": "Insights",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
-      "url": "https://www.morganstanley.com/insights/themes/global-healthcare-conference",
-      "date": "2026-09-11",
-      "date_raw": "2026-09-11T16:48:30Z",
-      "title_source": "url-slug",
-      "title": "Global Healthcare Conference",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
-      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/k-shaped-economy-widening-heather-berger-sarah-wolfe",
-      "date": "2026-09-11",
-      "date_raw": "2026-09-11T20:50:06Z",
-      "title_source": "url-slug",
-      "title": "K Shaped Economy Widening Heather Berger Sarah Wolfe",
+      "title": "Zero Hunger Mission",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",

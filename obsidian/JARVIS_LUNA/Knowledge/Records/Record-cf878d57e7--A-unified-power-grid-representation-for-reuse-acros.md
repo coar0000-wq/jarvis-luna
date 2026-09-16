@@ -2,7 +2,7 @@
 title: "Record cf878d57e7 · A-unified-power-grid-representation-for-reuse-acros"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T00:07:03.131939+00:00
+updated_at: 2026-09-16T03:13:37.921850+00:00
 tags: [record, real-data]
 ---
 

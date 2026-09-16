@@ -2,7 +2,7 @@
 title: "Record 077c1e2a47 · Would-You-Go-on-a-Glowcation-K-Beauty-Is-Betting-So"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T00:07:03.438524+00:00
+updated_at: 2026-09-16T03:13:38.231690+00:00
 tags: [record, real-data]
 ---
 

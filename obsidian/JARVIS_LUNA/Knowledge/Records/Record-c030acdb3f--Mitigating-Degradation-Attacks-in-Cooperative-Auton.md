@@ -2,7 +2,7 @@
 title: "Record c030acdb3f · Mitigating-Degradation-Attacks-in-Cooperative-Auton"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T00:07:03.151662+00:00
+updated_at: 2026-09-16T03:13:37.940589+00:00
 tags: [record, real-data]
 ---
 

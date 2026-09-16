@@ -2,7 +2,7 @@
 title: "Record dbb356191a · Energy-Drink-Caffeine-Market-Growth-Dara-Mohsenian"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T00:07:03.666853+00:00
+updated_at: 2026-09-16T03:13:38.465138+00:00
 tags: [record, real-data]
 ---
 
