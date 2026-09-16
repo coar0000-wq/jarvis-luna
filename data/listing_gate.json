@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-16T09:18:19.965627+00:00",
+  "generated_at": "2026-09-16T10:05:39.457875+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "total": 9,
   "ready": 3,
@@ -46,9 +46,9 @@
       },
       "copy_status": "ok",
       "gosi": {
-        "volume": "",
+        "volume": "2ml",
         "maker": "",
-        "origin": "",
+        "origin": "한국",
         "ingredients": "",
         "gosi_ok": false
       },
@@ -102,9 +102,9 @@
       },
       "copy_status": "ok",
       "gosi": {
-        "volume": "",
+        "volume": "30ml",
         "maker": "",
-        "origin": "",
+        "origin": "한국",
         "ingredients": "",
         "gosi_ok": false
       },
@@ -158,9 +158,9 @@
       },
       "copy_status": "ok",
       "gosi": {
-        "volume": "",
+        "volume": "2ml",
         "maker": "",
-        "origin": "",
+        "origin": "한국",
         "ingredients": "",
         "gosi_ok": false
       },
@@ -214,9 +214,9 @@
       },
       "copy_status": "ok",
       "gosi": {
-        "volume": "",
+        "volume": "50ml",
         "maker": "",
-        "origin": "",
+        "origin": "한국",
         "ingredients": "",
         "gosi_ok": false
       },
@@ -430,9 +430,9 @@
       },
       "copy_status": "ok",
       "gosi": {
-        "volume": "",
+        "volume": "29g",
         "maker": "",
-        "origin": "",
+        "origin": "한국",
         "ingredients": "",
         "gosi_ok": false
       },
