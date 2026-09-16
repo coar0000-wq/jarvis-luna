@@ -227,6 +227,40 @@ def collect_one(pd_no: str, row: dict[str, Any]) -> None:
         )
 
 
+# S등급 정본. build_listing_gate.py 가 보는 것과 같은 파일을 본다.
+# 짐작하지 않는다. 게이트가 읽는 그 목록 그대로다.
+S_RECOMMENDATIONS = ROOT / "data" / "daiso_real" / "shopify_s_recommendations.json"
+
+
+def seed_from_s_grade(items: dict[str, Any]) -> list[str]:
+    """S등급인데 고시 항목이 없는 상품을 빈 칸로 만든다.
+
+    값을 채우지 않는다. 이름과 상품번호만 넣어 뒤에 오는 수집기가
+    이 상품을 보게 만든다. 지어내는 것과 문을 열어두는 것은 다르다.
+    """
+    try:
+        doc = json.loads(S_RECOMMENDATIONS.read_text(encoding="utf-8-sig"))
+    except (OSError, json.JSONDecodeError) as exc:
+        print(f"S등급 목록을 읽지 못했다: {exc}")
+        return []
+
+    added: list[str] = []
+    for row in doc.get("recommendations") or []:
+        if not isinstance(row, dict) or row.get("grade") != "S":
+            continue
+        pd_no = str(row.get("pd_no") or "").strip()
+        if not pd_no or pd_no in items:
+            continue
+        items[pd_no] = {
+            "product_id": pd_no,
+            "name": clean(str(row.get("name") or "")),
+            "seeded_from": "shopify_s_recommendations.json",
+            "seeded_at": datetime.now(timezone.utc).isoformat(),
+        }
+        added.append(pd_no)
+    return added
+
+
 def main() -> int:
     try:
         doc = json.loads(GOSI.read_text(encoding="utf-8-sig"))
@@ -246,6 +280,22 @@ def main() -> int:
     if not isinstance(items, dict):
         print("data/gosi.json의 items는 object 또는 list여야 합니다.")
         return 1
+
+    # ------------------------------------------------------------------
+    # S등급인데 gosi.json 에 없는 상품을 먼저 넣는다.
+    #
+    # 2026-09-16 이 수집기는 이미 gosi.json 에 있는 항목만 순회했다.
+    # 새로 S등급이 된 상품은 아무도 씨앗을 넣어주지 않아서
+    # 상세 이미지 다운로드도, 비전 추출도 영영 돌지 않았다.
+    # 대시보드에는 "고시 표 5건 필요" 로 뜨는데 수집기는 그 5건을
+    # 본 적이 없는 상태였다. 닫힌 고리였다.
+    #
+    # 사용자 지적: "다이소 모든제품은 상품설명더보기 누르면 모두 다 있다"
+    # 맞다. 문제는 페이지가 아니라 그 페이지를 열어보지도 않은 것이었다.
+    # ------------------------------------------------------------------
+    added = seed_from_s_grade(items)
+    if added:
+        print(f"S등급 신규 {len(added)}건을 고시 대상에 추가했다: {', '.join(added)}")
 
     print(f"고시 수집 대상 {len(items)}건")
     print("참고: 다이소 고시 본문은 이미지고, API는 '상세페이지 참조'가 기본입니다.")

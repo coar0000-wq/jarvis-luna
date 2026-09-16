@@ -206,6 +206,75 @@ def image_candidates(row: dict) -> list[Path]:
     return [p for p in paths if p.exists() and p.stat().st_size > 500]
 
 
+# 세로로 긴 상세 이미지를 조각내는 기준
+#
+# 2026-09-16 VT 리들샷 300(1049276) 의 상세 이미지는 850 x 22,534 였다.
+# 통째로 보내면 모델이 받을 크기로 줄이는데, 그러면 세로가 27배
+# 압축되어 맨 아래 전성분 글자가 뭉개진다. 읽힌 것처럼 보이지만
+# 실제로는 읽을 수 없는 픽셀을 보낸 것이다.
+#
+# 고시 표는 항상 상세 이미지 "맨 아래" 에 있다. 그래서 아래쪽부터
+# 조각을 내서 보낸다. 조각 하나는 가로폭의 1.6배 높이로 잡아
+# 글자가 무너지지 않는 비율을 유지한다.
+TALL_RATIO = 2.5
+SLICE_OVERLAP = 0.15
+SLICES_PER_IMAGE = 3
+MAX_CANDIDATES = 6
+SLICE_DIR = ROOT / "data" / "daiso_real" / "gosi_slice"
+
+
+def tall_slices(img: Path) -> list[Path]:
+    """긴 이미지를 아래쪽부터 조각낸다. 짧으면 원본 그대로 돌려준다."""
+    try:
+        from PIL import Image
+    except ImportError:
+        print("  (Pillow 없음 - 원본 그대로 보낸다)")
+        return [img]
+
+    try:
+        with Image.open(img) as im:
+            w, h = im.size
+            if h <= w * TALL_RATIO:
+                return [img]
+
+            step = max(int(w * 1.6), 900)
+            back = int(step * SLICE_OVERLAP)
+            SLICE_DIR.mkdir(parents=True, exist_ok=True)
+
+            out: list[Path] = []
+            bottom = h
+            while bottom > 0 and len(out) < SLICES_PER_IMAGE:
+                top = max(0, bottom - step)
+                dest = SLICE_DIR / f"{img.stem}_b{len(out)}.jpg"
+                im.crop((0, top, w, bottom)).convert("RGB").save(
+                    dest, "JPEG", quality=88)
+                out.append(dest)
+                if top == 0:
+                    break
+                bottom = top + back
+            print(f"  {img.name} {w}x{h} → 아래쪽 조각 {len(out)}장")
+            return out
+    except Exception as exc:                                   # noqa: BLE001
+        print(f"  조각내기 실패({img.name}): {type(exc).__name__}: {exc}")
+        return [img]
+
+
+def ordered_candidates(imgs: list[Path]) -> list[Path]:
+    """볼 순서를 정한다.
+
+    고시 표는 마지막 상세 이미지의 맨 아래에 있다. 그러니
+    마지막 이미지부터, 각 이미지 안에서는 아래 조각부터 본다.
+    호출 수는 MAX_CANDIDATES 로 막는다. 예산을 지키기 위해서다.
+    """
+    out: list[Path] = []
+    for img in reversed(imgs):
+        for piece in tall_slices(img):
+            out.append(piece)
+            if len(out) >= MAX_CANDIDATES:
+                return out
+    return out
+
+
 def needs_fill(row: dict) -> bool:
     return not all(str(row.get(f) or "").strip() for f in NEED)
 
@@ -264,11 +333,9 @@ def main() -> int:
         used_img = ""
         used_model = ""
 
-        # 마케팅 이미지 뒤에 고시 표가 오는 경우가 많아 뒤에서부터도 시도
-        ordered = list(imgs)
-        # 중간·끝 이미지에 고시 표가 있는 경우가 많음 → 앞 2장 + 뒤 전체
-        if len(ordered) > 3:
-            ordered = ordered[:2] + list(reversed(ordered[2:]))
+        # 고시 표는 마지막 상세 이미지의 맨 아래에 있다.
+        # 긴 이미지는 그 아래쪽만 잘라서 보낸다.
+        ordered = ordered_candidates(imgs)
 
         for img in ordered:
             if not needs_fill(row):
