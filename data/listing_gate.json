@@ -1,18 +1,17 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-16T12:22:25.644693+00:00",
+  "generated_at": "2026-09-16T13:46:51.685436+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "total": 9,
   "ready": 3,
   "counts": {
     "copy": 9,
-    "gosi": 4,
+    "gosi": 9,
     "us_label": 4,
     "price": 8,
     "legal": 4
   },
   "blockers": {
-    "gosi": 5,
     "us_label": 5,
     "price": 1,
     "legal": 5
@@ -47,14 +46,14 @@
       "copy_status": "ok",
       "gosi": {
         "volume": "2ml",
-        "maker": "",
+        "maker": "화장품제조업자: ㈜이앤씨 / 화장품책임판매업자: ㈜브이티코스메틱",
         "origin": "한국",
-        "ingredients": "",
-        "gosi_ok": false
+        "ingredients": "정제수, 다이프로필렌글라이콜, 글리세린, 나이아신아마이드, 부틸렌글라이콜, 마카다미아씨오일, 1,2-헥산다이올, 에틸헥실팔미테이트, 실리카, 소듐아크릴레이트/소듐아크릴로일다이메틸타우레이트코폴리머, 폴리아이소부텐, 글",
+        "gosi_ok": true
       },
       "us_label": {
         "net_contents": "2ml",
-        "manufacturer": "",
+        "manufacturer": "화장품제조업자: ㈜이앤씨 / 화장품책임판매업자: ㈜브이티코스메틱",
         "country_of_origin": "Korea",
         "ingredients_inci": "",
         "us_label_ok": false
@@ -71,7 +70,6 @@
       },
       "ready": false,
       "blocked_by": [
-        "gosi",
         "us_label",
         "legal"
       ]
@@ -103,14 +101,14 @@
       "copy_status": "ok",
       "gosi": {
         "volume": "30ml",
-        "maker": "",
+        "maker": "화장품제조업자: (주)메가코스 / 화장품책임판매업자: (주)토니모리",
         "origin": "한국",
-        "ingredients": "",
-        "gosi_ok": false
+        "ingredients": "정제수, 부틸렌글라이콜, 글리세린, 스쿠알란, 1,2-헥산다이올, 시어버터, C9-12알케인, 다이메티콘, 바쿠치올, 레티놀(500IU/g), C14-22알코올, 글리세릴스테아레이트, 피이지-100스테아레이트, 해바",
+        "gosi_ok": true
       },
       "us_label": {
         "net_contents": "30ml",
-        "manufacturer": "",
+        "manufacturer": "화장품제조업자: (주)메가코스 / 화장품책임판매업자: (주)토니모리",
         "country_of_origin": "Korea",
         "ingredients_inci": "",
         "us_label_ok": false
@@ -127,7 +125,6 @@
       },
       "ready": false,
       "blocked_by": [
-        "gosi",
         "us_label",
         "legal"
       ]
@@ -159,14 +156,14 @@
       "copy_status": "ok",
       "gosi": {
         "volume": "2ml",
-        "maker": "",
+        "maker": "화장품제조업자: ㈜이앤씨 / 화장품책임판매업자: ㈜브이티코스메틱",
         "origin": "한국",
-        "ingredients": "",
-        "gosi_ok": false
+        "ingredients": "정제수, 다이프로필렌글라이콜, 글리세린, 나이아신아마이드, 부틸렌글라이콜, 마카다미아씨오일, 1,2-헥산다이올, 에틸헥실팔미테이트, 소듐아크릴레이트/소듐아크릴로일다이메틸타우레이트코폴리머, 폴리아이소부텐, 실리카, 글",
+        "gosi_ok": true
       },
       "us_label": {
         "net_contents": "2ml",
-        "manufacturer": "",
+        "manufacturer": "화장품제조업자: ㈜이앤씨 / 화장품책임판매업자: ㈜브이티코스메틱",
         "country_of_origin": "Korea",
         "ingredients_inci": "",
         "us_label_ok": false
@@ -183,7 +180,6 @@
       },
       "ready": false,
       "blocked_by": [
-        "gosi",
         "us_label",
         "legal"
       ]
@@ -215,14 +211,14 @@
       "copy_status": "ok",
       "gosi": {
         "volume": "50ml",
-        "maker": "",
+        "maker": "화장품제조업자: (주)예그리나 / 화장품책임판매업자: (주)브이티코스메틱",
         "origin": "한국",
-        "ingredients": "",
-        "gosi_ok": false
+        "ingredients": "정제수, 부틸렌글라이콜, 글리세린, 프로판다이올, C12-15알킬벤조에이트, 카프릴릭/카프릭트라이글리세라이드, 폴리글리세린-3, 메틸하이드로제네이티드로지네이트, 1,2-헥산다이올, 나이아신아마이드, 카프릴릭/카프릭/",
+        "gosi_ok": true
       },
       "us_label": {
         "net_contents": "50ml",
-        "manufacturer": "",
+        "manufacturer": "화장품제조업자: (주)예그리나 / 화장품책임판매업자: (주)브이티코스메틱",
         "country_of_origin": "Korea",
         "ingredients_inci": "",
         "us_label_ok": false
@@ -239,7 +235,6 @@
       },
       "ready": false,
       "blocked_by": [
-        "gosi",
         "us_label",
         "legal"
       ]
@@ -431,14 +426,14 @@
       "copy_status": "ok",
       "gosi": {
         "volume": "29g",
-        "maker": "",
+        "maker": "㈜제닉 (충청남도 논산시 성동면 산업단지로5길 5)",
         "origin": "한국",
-        "ingredients": "",
-        "gosi_ok": false
+        "ingredients": "정제수, 글리세린, 나이아신아마이드, 캐롭검, 아이리쉬모스추출물, 1,2-헥산다이올, 펜틸렌글라이콜, 에틸헥실글리세린, 콜라겐추출물(686,000ppb), 아데노신, 다이소듐이디티에이, 글리세릴글루코사이드, 폴리글리",
+        "gosi_ok": true
       },
       "us_label": {
         "net_contents": "29g",
-        "manufacturer": "",
+        "manufacturer": "㈜제닉 (충청남도 논산시 성동면 산업단지로5길 5)",
         "country_of_origin": "Korea",
         "ingredients_inci": "",
         "us_label_ok": false
@@ -455,7 +450,6 @@
       },
       "ready": false,
       "blocked_by": [
-        "gosi",
         "us_label",
         "legal"
       ]
