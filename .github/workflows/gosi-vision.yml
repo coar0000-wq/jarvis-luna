@@ -53,6 +53,28 @@ jobs:
           VISION_BUDGET_SEC: "1200"
         run: python scripts/extract_gosi_vision.py
 
+      # ------------------------------------------------------------
+      # 고시를 채웠으면 그다음까지 이어서 간다.
+      #
+      # 2026-09-16 까지 이 워크플로는 gosi.json 만 고치고 끝났다.
+      # 그래서 고시가 차도 영문 라벨·법률·게이트는 예전 판정을 들고
+      # 있었고, 다음 참모장 회차가 돌 때까지 대시보드가 틀린 숫자를 보였다.
+      # gosi-alt.yml 에도 같은 구멍이 있었다.
+      #
+      # 순서를 지킨다.  고시 -> 라벨 -> 법률 -> 게이트
+      #
+      # 법률 자동 점검은 라벨 필수 항목(label_required)을 보므로
+      # 반드시 라벨 다음에 돌려야 한다.
+      # ------------------------------------------------------------
+      - name: 영문 라벨로 옮기기
+        run: python -u scripts/sync_gosi_to_us_labels.py
+
+      - name: 법률 자동 점검 갱신
+        run: python -u scripts/check_legal_products.py
+
+      - name: 등록 게이트 재계산
+        run: python -u scripts/build_listing_gate.py
+
       - name: Summary
         if: always()
         run: |
@@ -113,7 +135,15 @@ jobs:
         if: always()
         uses: ./.github/actions/publish
         with:
+          # 고시 다음 단계까지 같이 발행한다. (2026-09-16)
+          # 예전에는 gosi.json 과 이미지만 올려서, 이 워크플로가 만든
+          # 영문 라벨·법률 판정·게이트가 발행되지 않았다.
+          # 그러면 원격 main 은 다시 낡은 상태로 돌아간다.
           paths: >-
             data/gosi.json
             data/daiso_real/gosi_img
+            data/daiso_real/daiso_us_labels.json
+            data/daiso_real/us_label_sync_report.json
+            data/legal_products.json
+            data/listing_gate.json
           message: 고시 이미지 수집 + 비전 추출 (전성분/제조사/용량)
