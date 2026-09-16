@@ -2,7 +2,7 @@
 title: "Record 74b1125af8 · Gemini-Omni-11-Flash-lets-you-build-with-more-contr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T19:31:04.360013+00:00
+updated_at: 2026-09-16T21:20:13.908750+00:00
 tags: [record, real-data]
 ---
 

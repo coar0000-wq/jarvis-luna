@@ -2,7 +2,7 @@
 title: "Record 5e61f5910d · This-Makeup-Trend-Is-Convincing-Beauty-Fans-to-Beli"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T19:31:04.546268+00:00
+updated_at: 2026-09-16T21:20:14.130909+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMijgFBVV95cUxPbFA3cUZQWFEwa2ljVjdSTFBMcjdhdzdKS2pnSm5jMWVILUQzQTU4clNmNVVnMTBHY0ZTNjdqeWU1bU1kbi00eGtXdzJZU041TGMyN0xKa1A3ZDdEdXlHbHcxemZuTEtLUE9udGd0TE8wNTB1MTZFUXE0N3g2QnhkeEJKOHZzc2VYX0IyUlRB?oc=5)
 
-**제목:** This Makeup Trend Is Convincing Beauty Fans to Believe in Astrology - hypebae.com
+**제목:** This Makeup Trend Is Convincing Beauty Fans to Believe in Astrology - Hypebae
 
-This Makeup Trend Is Convincing Beauty Fans to Believe in Astrology - hypebae.com
+This Makeup Trend Is Convincing Beauty Fans to Believe in Astrology - Hypebae
 
 **출처:** Source · Google Search
 

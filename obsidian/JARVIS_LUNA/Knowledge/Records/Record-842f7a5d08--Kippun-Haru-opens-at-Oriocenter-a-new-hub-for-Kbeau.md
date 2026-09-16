@@ -2,7 +2,7 @@
 title: "Record 842f7a5d08 · Kippun-Haru-opens-at-Oriocenter-a-new-hub-for-Kbeauty---inItaly"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T19:31:04.565070+00:00
+updated_at: 2026-09-16T21:20:14.156590+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record c83f815ec4 · US-and-Korean-sunscreens-are-not-created-equal-stud"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T19:31:04.585550+00:00
+updated_at: 2026-09-16T21:20:14.179859+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,10 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMixwFBVV95cUxNMnpvNUR0bm0tV2E0M183TDZLUVUwal9NRHduZ21ULUtPZFl2SnFoVS1WVFVZTjJtZjFfX1R5Um1Lajk0TXZzbnVpbkdpMXdMbno4dHo0Y3g4R3lYbV9rRkcyY0VsSjRVSFFPWVV5cTNNWG0tVC0zZ0tER251cDRCM3A0ZEJnNTBjWjBrYnp2dHRHSXd2UkNMckJqQ1JmUmFkX1RCeElDdmtzMGJ4X3V6SjJYbTQyUlNvazMycGw4b2k4aG44YkdN?oc=5)
 
-**제목:** US and Korean sunscreens are not created equal, study says - WTOP News
+**제목:** US and Korean sunscreens are not created equal, study says - wtop.com
 
-US and Korean sunscreens are not created equal, study says - WTOP News
-US and Korean sunscreens are not created equal, study says - WTOP News
+US and Korean sunscreens are not created equal, study says - wtop.com
+US and Korean sunscreens are not created equal, study says - wtop.com
 
 **출처:** Source · us_beauty
 

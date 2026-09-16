@@ -2,7 +2,7 @@
 title: "Record f25c997654 · The-Outlook-For-Data-Center-Power-Demand-As-Ai-Toke"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T19:31:04.669333+00:00
+updated_at: 2026-09-16T21:20:14.282476+00:00
 tags: [record, real-data]
 ---
 

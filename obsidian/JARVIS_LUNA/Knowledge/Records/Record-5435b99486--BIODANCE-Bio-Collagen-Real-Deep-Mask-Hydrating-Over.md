@@ -2,7 +2,7 @@
 title: "Record 5435b99486 · BIODANCE-Bio-Collagen-Real-Deep-Mask-Hydrating-Over"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T19:31:04.646163+00:00
+updated_at: 2026-09-16T21:20:14.252472+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record db81376600 · Its-Your-Last-Chance-to-Grab-40-Off-Cult-Favorite-K"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T19:31:04.522470+00:00
+updated_at: 2026-09-16T21:20:14.097296+00:00
 tags: [record, real-data]
 ---
 

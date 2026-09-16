@@ -2,7 +2,7 @@
 title: "Record 4746ae73e8 · US-and-UK-retailers-bet-on-K-beauty-dermacosmetics-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T19:31:04.529178+00:00
+updated_at: 2026-09-16T21:20:14.106884+00:00
 tags: [record, real-data]
 ---
 

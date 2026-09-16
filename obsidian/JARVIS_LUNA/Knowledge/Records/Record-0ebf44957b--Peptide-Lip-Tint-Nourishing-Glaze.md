@@ -2,7 +2,7 @@
 title: "Record 0ebf44957b · Peptide-Lip-Tint-Nourishing-Glaze"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T19:31:04.690978+00:00
+updated_at: 2026-09-16T21:20:14.307620+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 8f3feb5172 · What-is-the-TikTok-high-contrast-low-contrast-beaut"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T19:31:04.567237+00:00
+updated_at: 2026-09-16T21:20:14.158425+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 5bbe031147 · The-Korean-Beauty-Deals-Amazon-Shoppers-Are-Racing-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T19:31:04.570603+00:00
+updated_at: 2026-09-16T21:20:14.161463+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMipgFBVV95cUxQb3hwckV4UEprdjQwQ2NBbXBBa1N6V1dQbDBGbXpmR3dOVEU5ZHRfbEhHeTlyRTgyQVF6MW00d1FUeEp5OUI1S2hFa2tMWTJtUVN6NU1EWnJRTFBvQnpqWkJWQlpjVTlEREVxekthUGg0YWxDUF90c3k0dEdaM3JDQnpvcHFEbnlTQ09HSmVyLUl5b3ZxX0NVZU5hRkpCUl9Fb2NxU2F3?oc=5)
 
-**제목:** The Korean Beauty Deals Amazon Shoppers Are Racing to Grab Tonight - eonline.com
+**제목:** The Korean Beauty Deals Amazon Shoppers Are Racing to Grab Tonight - E! News
 
-The Korean Beauty Deals Amazon Shoppers Are Racing to Grab Tonight - eonline.com
+The Korean Beauty Deals Amazon Shoppers Are Racing to Grab Tonight - E! News
 
 **출처:** Source · Google Search
 

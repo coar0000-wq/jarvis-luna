@@ -2,7 +2,7 @@
 title: "Record eb7060c2b0 · CoLMIN-LLM-based-Multi-Decision-Path-Negotiation-fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T19:31:04.319319+00:00
+updated_at: 2026-09-16T21:20:13.860128+00:00
 tags: [record, real-data]
 ---
 

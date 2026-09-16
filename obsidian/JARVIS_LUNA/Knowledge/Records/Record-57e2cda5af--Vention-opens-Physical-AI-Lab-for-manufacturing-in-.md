@@ -2,7 +2,7 @@
 title: "Record 57e2cda5af · Vention-opens-Physical-AI-Lab-for-manufacturing-in-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T19:31:04.699468+00:00
+updated_at: 2026-09-16T21:20:14.317749+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 813db0d0b1 · Why-Global-Bond-Yields-Are-Surging"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T19:31:04.669426+00:00
+updated_at: 2026-09-16T21:20:14.282601+00:00
 tags: [record, real-data]
 ---
 

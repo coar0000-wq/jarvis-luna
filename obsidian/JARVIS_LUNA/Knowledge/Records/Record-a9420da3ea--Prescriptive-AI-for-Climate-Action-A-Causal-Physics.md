@@ -2,7 +2,7 @@
 title: "Record a9420da3ea · Prescriptive-AI-for-Climate-Action-A-Causal-Physics-Informed-Optimizat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T19:31:04.450442+00:00
+updated_at: 2026-09-16T21:20:14.009267+00:00
 tags: [record, real-data]
 ---
 

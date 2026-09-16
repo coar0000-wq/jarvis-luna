@@ -2,7 +2,7 @@
 title: "Record cca5aeef87 · K-Beauty-Body-Care-VOESH-Brings-Facial-Skincare-Benefits-to-the-Body--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T19:31:04.503523+00:00
+updated_at: 2026-09-16T21:20:14.073556+00:00
 tags: [record, real-data]
 ---
 
@@ -13,9 +13,10 @@ tags: [record, real-data]
 **제목:** K-Beauty Body Care: VOESH Brings Facial Skincare Benefits to the Body - trendhunter.com
 
 K-Beauty Body Care: VOESH Brings Facial Skincare Benefits to the Body - trendhunter.com
+K-Beauty Body Care: VOESH Brings Facial Skincare Benefits to the Body - trendhunter.com
 
-**출처:** Source · Google Search
+**출처:** Source · us_beauty
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

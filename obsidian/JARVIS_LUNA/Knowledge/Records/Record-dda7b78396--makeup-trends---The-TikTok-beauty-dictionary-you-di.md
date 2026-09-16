@@ -2,7 +2,7 @@
 title: "Record dda7b78396 · makeup-trends---The-TikTok-beauty-dictionary-you-di"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T19:31:04.583761+00:00
+updated_at: 2026-09-16T21:20:14.177682+00:00
 tags: [record, real-data]
 ---
 

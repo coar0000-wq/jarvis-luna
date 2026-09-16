@@ -2,7 +2,7 @@
 title: "Record 4c6fdff982 · Rethinking-World-Models-for-Safety-Critical-Embodie"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T19:31:04.313027+00:00
+updated_at: 2026-09-16T21:20:13.852618+00:00
 tags: [record, real-data]
 ---
 

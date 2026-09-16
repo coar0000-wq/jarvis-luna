@@ -2,7 +2,7 @@
 title: "Record 9bf2dbbf4f · Burden-and-trends-of-vaccine-preventable-diseases-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T19:31:04.427207+00:00
+updated_at: 2026-09-16T21:20:13.982838+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 10071f2497 · Shopify-embraces-agentic-AI-with-Google-Microsoft-p"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T19:31:04.575393+00:00
+updated_at: 2026-09-16T21:20:14.167330+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMirgFBVV95cUxON255Q1NYOTNnUkRTYW5zMUV1NEQyV1BwUkl6Ml9FYVhzVF92eDd6UGtLRUJFVnRGbWhBdjlTeEVVVkNIRHZFUnRDYmpjUFpUd0dSdW9aZHd3WU9BVk5ZcmRpeldJOTV1Y1FzZkpubVpEY1J2WUV3S05sREwtTFE4Z2NjWDE3Nkx4a1BXWS1MdUtLbWhWeTBHbGhWX0VVVjJoSTBNNER2UzB0VUYtUVE?oc=5)
 
-**제목:** Shopify embraces agentic AI with Google, Microsoft partnerships - The Globe and Mail
+**제목:** Shopify embraces agentic AI with Google, Microsoft partnerships - theglobeandmail.com
 
-Shopify embraces agentic AI with Google, Microsoft partnerships - The Globe and Mail
+Shopify embraces agentic AI with Google, Microsoft partnerships - theglobeandmail.com
 
 **출처:** Source · Google Search
 

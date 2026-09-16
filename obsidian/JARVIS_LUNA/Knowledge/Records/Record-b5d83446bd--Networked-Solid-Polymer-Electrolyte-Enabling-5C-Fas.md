@@ -2,7 +2,7 @@
 title: "Record b5d83446bd · Networked-Solid-Polymer-Electrolyte-Enabling-5C-Fas"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T19:31:04.368007+00:00
+updated_at: 2026-09-16T21:20:13.917659+00:00
 tags: [record, real-data]
 ---
 
