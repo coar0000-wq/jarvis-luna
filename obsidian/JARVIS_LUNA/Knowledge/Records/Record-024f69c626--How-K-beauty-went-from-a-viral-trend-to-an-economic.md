@@ -2,7 +2,7 @@
 title: "Record 024f69c626 · How-K-beauty-went-from-a-viral-trend-to-an-economic"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T03:13:38.146020+00:00
+updated_at: 2026-09-16T04:52:06.416466+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiWkFVX3lxTE9kczlzS055ODhSSGdDNlE1eXQzTE9FcTRHbV8ySUxudlozcHJvM3lXY0hJei1pemNjZ0wxUWlwWUFIVW5lRl9NX280R29PNWt5WkZrMmJieXY2dw?oc=5)
 
-**제목:** How K-beauty went from a viral trend to an economic powerhouse - bbc.com
+**제목:** How K-beauty went from a viral trend to an economic powerhouse - BBC
 
-How K-beauty went from a viral trend to an economic powerhouse - bbc.com
+How K-beauty went from a viral trend to an economic powerhouse - BBC
 
 **출처:** Source · Google Search
 

@@ -2,7 +2,7 @@
 title: "Record 17414959db · CordisBench-Can-Language-Models-Reason-About-Compon"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T03:13:37.890620+00:00
+updated_at: 2026-09-16T04:52:06.061035+00:00
 tags: [record, real-data]
 ---
 

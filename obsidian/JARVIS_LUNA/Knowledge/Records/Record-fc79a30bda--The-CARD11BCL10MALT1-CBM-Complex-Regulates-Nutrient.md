@@ -2,7 +2,7 @@
 title: "Record fc79a30bda · The-CARD11BCL10MALT1-CBM-Complex-Regulates-Nutrient"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T03:13:38.101611+00:00
+updated_at: 2026-09-16T04:52:06.352053+00:00
 tags: [record, real-data]
 ---
 

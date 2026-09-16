@@ -2,7 +2,7 @@
 title: "Record 2e0323b803 · This-K-beauty-giant-is-taking-over-North-America-on"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T03:13:38.281183+00:00
+updated_at: 2026-09-16T04:52:06.589891+00:00
 tags: [record, real-data]
 ---
 

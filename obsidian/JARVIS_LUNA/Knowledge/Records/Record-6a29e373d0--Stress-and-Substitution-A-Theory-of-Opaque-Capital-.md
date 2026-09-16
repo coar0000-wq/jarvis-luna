@@ -2,7 +2,7 @@
 title: "Record 6a29e373d0 · Stress-and-Substitution-A-Theory-of-Opaque-Capital-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T03:13:38.052131+00:00
+updated_at: 2026-09-16T04:52:06.282665+00:00
 tags: [record, real-data]
 ---
 

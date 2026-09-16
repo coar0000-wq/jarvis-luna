@@ -2,7 +2,7 @@
 title: "Record 99e913d7fc · GOODAL-Green-Tangerine-Vita-C-Dark-Spot-Care-Serum-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T03:13:38.364133+00:00
+updated_at: 2026-09-16T04:52:06.703806+00:00
 tags: [record, real-data]
 ---
 

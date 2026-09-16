@@ -2,7 +2,7 @@
 title: "Record 753214c584 · Urea-Is-an-Under-the-Radar-Ingredient-That-Softens-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T03:13:38.385841+00:00
+updated_at: 2026-09-16T04:52:06.734625+00:00
 tags: [record, real-data]
 ---
 

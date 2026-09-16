@@ -2,7 +2,7 @@
 title: "Record 748ca433f3 · AI-Chatbot-for-Shopify-Tools-Compared-2026---Shopif"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T03:13:38.142423+00:00
+updated_at: 2026-09-16T04:52:06.410794+00:00
 tags: [record, real-data]
 ---
 

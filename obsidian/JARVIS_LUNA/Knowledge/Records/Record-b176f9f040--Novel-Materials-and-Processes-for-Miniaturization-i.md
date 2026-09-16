@@ -2,7 +2,7 @@
 title: "Record b176f9f040 · Novel-Materials-and-Processes-for-Miniaturization-i"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T03:13:38.094962+00:00
+updated_at: 2026-09-16T04:52:06.342768+00:00
 tags: [record, real-data]
 ---
 
