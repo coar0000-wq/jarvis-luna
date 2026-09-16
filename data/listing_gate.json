@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-16T11:45:12.984481+00:00",
+  "generated_at": "2026-09-16T12:22:25.644693+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "total": 9,
   "ready": 3,
@@ -53,9 +53,9 @@
         "gosi_ok": false
       },
       "us_label": {
-        "net_contents": "",
+        "net_contents": "2ml",
         "manufacturer": "",
-        "country_of_origin": "",
+        "country_of_origin": "Korea",
         "ingredients_inci": "",
         "us_label_ok": false
       },
@@ -109,9 +109,9 @@
         "gosi_ok": false
       },
       "us_label": {
-        "net_contents": "",
+        "net_contents": "30ml",
         "manufacturer": "",
-        "country_of_origin": "",
+        "country_of_origin": "Korea",
         "ingredients_inci": "",
         "us_label_ok": false
       },
@@ -165,9 +165,9 @@
         "gosi_ok": false
       },
       "us_label": {
-        "net_contents": "",
+        "net_contents": "2ml",
         "manufacturer": "",
-        "country_of_origin": "",
+        "country_of_origin": "Korea",
         "ingredients_inci": "",
         "us_label_ok": false
       },
@@ -221,9 +221,9 @@
         "gosi_ok": false
       },
       "us_label": {
-        "net_contents": "",
+        "net_contents": "50ml",
         "manufacturer": "",
-        "country_of_origin": "",
+        "country_of_origin": "Korea",
         "ingredients_inci": "",
         "us_label_ok": false
       },
@@ -437,9 +437,9 @@
         "gosi_ok": false
       },
       "us_label": {
-        "net_contents": "",
+        "net_contents": "29g",
         "manufacturer": "",
-        "country_of_origin": "",
+        "country_of_origin": "Korea",
         "ingredients_inci": "",
         "us_label_ok": false
       },
