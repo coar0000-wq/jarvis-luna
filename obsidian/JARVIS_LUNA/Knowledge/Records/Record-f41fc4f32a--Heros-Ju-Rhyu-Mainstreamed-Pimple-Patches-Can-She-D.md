@@ -2,7 +2,7 @@
 title: "Record f41fc4f32a · Heros-Ju-Rhyu-Mainstreamed-Pimple-Patches-Can-She-Do-It-Again-With-K-B"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T09:11:57.173442+00:00
+updated_at: 2026-09-16T11:37:33.330139+00:00
 tags: [record, real-data]
 ---
 
@@ -13,10 +13,9 @@ tags: [record, real-data]
 **제목:** Hero’s Ju Rhyu Mainstreamed Pimple Patches. Can She Do It Again With K-Beauty-Inspired Sunscreen? - Beauty Independent
 
 Hero’s Ju Rhyu Mainstreamed Pimple Patches. Can She Do It Again With K-Beauty-Inspired Sunscreen? - Beauty Independent
-Hero’s Ju Rhyu Mainstreamed Pimple Patches. Can She Do It Again With K-Beauty-Inspired Sunscreen? - Beauty Independent
 
-**출처:** Source · us_beauty
+**출처:** Source · Google Search
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

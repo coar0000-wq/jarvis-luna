@@ -2,7 +2,7 @@
 title: "Record 73e599065a · TRESemm-Instant-Fix-Styling-Stick-for-Fixing-Flyawa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T09:11:57.519951+00:00
+updated_at: 2026-09-16T11:37:33.688106+00:00
 tags: [record, real-data]
 ---
 

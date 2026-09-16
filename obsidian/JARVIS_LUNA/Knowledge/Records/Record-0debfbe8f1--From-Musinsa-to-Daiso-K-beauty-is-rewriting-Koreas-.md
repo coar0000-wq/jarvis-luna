@@ -2,7 +2,7 @@
 title: "Record 0debfbe8f1 · From-Musinsa-to-Daiso-K-beauty-is-rewriting-Koreas-retail-playbook---T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T09:11:57.037160+00:00
+updated_at: 2026-09-16T11:37:33.203642+00:00
 tags: [record, real-data]
 ---
 

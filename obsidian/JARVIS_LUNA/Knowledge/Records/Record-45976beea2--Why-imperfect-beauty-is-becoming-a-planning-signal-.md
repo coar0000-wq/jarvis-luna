@@ -2,7 +2,7 @@
 title: "Record 45976beea2 · Why-imperfect-beauty-is-becoming-a-planning-signal-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T09:11:57.065231+00:00
+updated_at: 2026-09-16T11:37:33.229341+00:00
 tags: [record, real-data]
 ---
 

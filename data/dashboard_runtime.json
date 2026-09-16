@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-16T20:02:03.644728+09:00",
+  "generated_at": "2026-09-16T20:45:17.347275+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
@@ -30,7 +30,7 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-09-16T20:01:59.219863+09:00",
+      "when": "2026-09-16T20:45:12.835873+09:00",
       "summary": "S등급 9개 · 고시표 입력 대기 5건 · 새 자료 42건",
       "action": "고시 표 5건 필요 — 1049276 [피부결케어]VT 리들샷 300  https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049276 / 1055167 본셉 레티놀 500 IU 세럼 3 https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055167 / 1049275 [피부결케어]VT 리들샷 100  https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049275 / 1067498 [영양광채]VT PDRN 광채 크 https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067498 외 1건",
       "status": "ok",
@@ -42,7 +42,7 @@
     {
       "id": "listing",
       "name": "리스팅 제작팀",
-      "when": "2026-09-16T11:01:59.372577+00:00",
+      "when": "2026-09-16T11:45:12.984481+00:00",
       "summary": "등록 가능 3/9 · 카피 9 · 고시 4 · 가격 8 · 법률 4",
       "action": "고시 5건, us_label 5건, 가격 1건 이 막고 있음",
       "status": "ok",
@@ -66,7 +66,7 @@
     {
       "id": "legal",
       "name": "법률·규제팀",
-      "when": "2026-09-16T11:01:59.107649+00:00",
+      "when": "2026-09-16T11:45:12.725239+00:00",
       "summary": "자동 점검 9건 · 통과 0 · 등록 차단 5 · 참고 주의 9 · 수출서류 HS 9건 · 라벨 2/6항목 자동 · 새 자료 17건",
       "action": "차단 5건: 셀더마데일리 콜라겐 에센스겔 (자동 점검 미통과: lab), [피부결케어]VT 리들샷 10(자동 점검 미통과: lab) — 라벨 갖추기 전엔 못 올림",
       "status": "ok",
@@ -114,7 +114,7 @@
     {
       "id": "knowledge",
       "name": "지식 수집팀",
-      "when": "2026-09-16T09:04:07.132317+00:00",
+      "when": "2026-09-16T11:37:06.493532+00:00",
       "summary": "487건 · arXiv 0 / 유기농스킨 30 / Google 300 / US뷰티 157",
       "action": "수집 실패: arXiv(export.arxiv.org/robots.txt 가 Disallow: / 다. robots 를 지키기로 해서 받지 않는다.)",
       "status": "ok",
@@ -126,8 +126,8 @@
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-09-16T19:47:05.202360+09:00",
-      "summary": "81,348노트 · 322,534링크 · 끊어진 링크 112건 · 개인 노트 16건 별도 · 경고 통과(임계 300)",
+      "when": "2026-09-16T20:45:12.356333+09:00",
+      "summary": "81,355노트 · 322,577링크 · 끊어진 링크 112건 · 개인 노트 16건 별도 · 경고 통과(임계 300)",
       "action": null,
       "status": "ok",
       "phase": "now",
@@ -140,7 +140,7 @@
     "id": "secretary",
     "name": "비서실장",
     "badge": "총괄",
-    "when": "2026-09-16T20:01:58.953861+09:00",
+    "when": "2026-09-16T20:36:09.612636+09:00",
     "summary": "30분 주기 · 고시 21건 · US라벨 16건 · 카피 10건 · 등록 가능 3건 · 법률 차단 5건",
     "action": "멈춘 단계 고시 수집, 리스팅 카피 — 2시간 넘게 산출물이 안 바뀌었다",
     "status": "failed",
@@ -149,36 +149,36 @@
         "단계": "고시 수집",
         "산출물": "gosi.json",
         "갱신": "2026-09-13T07:50:40.431569+00:00",
-        "몇시간전": 75.2
+        "몇시간전": 75.9
       },
       {
         "단계": "고시 비전 추출",
         "산출물": "gosi.json",
-        "갱신": "2026-09-16T20:01:58.953861+09:00",
-        "몇시간전": 0.0
+        "갱신": "2026-09-16T20:36:09.612636+09:00",
+        "몇시간전": 0.2
       },
       {
         "단계": "US 라벨 동기화",
         "산출물": "daiso_us_labels.json",
-        "갱신": "2026-09-16T19:47:01.562263+09:00",
-        "몇시간전": 0.3
+        "갱신": "2026-09-16T20:36:09.155630+09:00",
+        "몇시간전": 0.2
       },
       {
         "단계": "리스팅 카피",
         "산출물": "shopify_listing_copy.json",
         "갱신": "2026-09-15T23:22:04.219309+00:00",
-        "몇시간전": 11.7
+        "몇시간전": 12.4
       },
       {
         "단계": "등록 게이트",
         "산출물": "listing_gate.json",
-        "갱신": "2026-09-16T11:01:59.372577+00:00",
+        "갱신": "2026-09-16T11:45:12.984481+00:00",
         "몇시간전": 0.0
       },
       {
         "단계": "법률 점검",
         "산출물": "legal_products.json",
-        "갱신": "2026-09-16T11:01:59.107649+00:00",
+        "갱신": "2026-09-16T11:45:12.725239+00:00",
         "몇시간전": 0.0
       }
     ],
@@ -303,7 +303,7 @@
     ]
   },
   "team_summary": {
-    "corpus_records": 3463,
+    "corpus_records": 3470,
     "pipeline_done": 5,
     "pipeline_total": 5
   },
@@ -312,13 +312,13 @@
       "id": "collect",
       "title": "실제 데이터 수집",
       "status": "completed",
-      "detail": "3463개 코퍼스 레코드"
+      "detail": "3470개 코퍼스 레코드"
     },
     {
       "id": "graph",
       "title": "Obsidian 그래프 반영·검증",
       "status": "completed",
-      "detail": "81348개 노트 · 322534개 링크 · 끊어진 링크 112개 · 개인 노트 16개 별도"
+      "detail": "81355개 노트 · 322577개 링크 · 끊어진 링크 112개 · 개인 노트 16개 별도"
     },
     {
       "id": "dashboard",
@@ -330,7 +330,7 @@
       "id": "train",
       "title": "실제 데이터 MoE 학습",
       "status": "completed",
-      "detail": "3463건 · 3 experts · 정확도 88.62%"
+      "detail": "3470건 · 3 experts · 정확도 88.62%"
     },
     {
       "id": "publish",
@@ -341,49 +341,49 @@
   ],
   "sources": {
     "status": "completed",
-    "record_count": 3463,
+    "record_count": 3470,
     "source_counts": {},
-    "updated_at": "2026-09-16T19:47:02.079260+09:00"
+    "updated_at": "2026-09-16T20:39:09.808985+09:00"
   },
   "graph": {
-    "notes": 81348,
-    "links": 322534,
+    "notes": 81355,
+    "links": 322577,
     "dangling_links": 112,
     "dangling_personal": 16,
     "dangling_personal_note": "사용자가 직접 넣은 Personal 노트의 내부 링크. 원본 볼트에서 일부만 가져와 대상 노트가 없는 것으로, 파이프라인 오류가 아니다.",
     "dangling_warn_threshold": 300,
-    "records": 80509,
+    "records": 80516,
     "sources": 7,
     "topics": 28,
     "orgs": 35,
     "audit": "passed",
-    "last_generated": "2026-09-16T19:47:05.202360+09:00"
+    "last_generated": "2026-09-16T20:45:12.356333+09:00"
   },
   "training": {
     "status": "completed",
     "training_performed": true,
     "weights_updated": true,
-    "records": 3463,
+    "records": 3470,
     "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
     "experts": 3,
-    "accuracy": 0.8862258157666763,
-    "validation_accuracy": 0.8922610015174507,
-    "final_loss": 0.39227788784924084,
-    "gate_load_std": 0.1475064951563567,
+    "accuracy": 0.8861671469740634,
+    "validation_accuracy": 0.8927492447129909,
+    "final_loss": 0.392508508994667,
+    "gate_load_std": 0.14845272770830104,
     "tuning_promoted": true,
     "tuning_steps": 500,
-    "updated_at": "2026-09-16T09:09:30.894746+00:00"
+    "updated_at": "2026-09-16T11:38:55.842906+00:00"
   },
   "cumulative": {
     "totals": {
-      "records": 3463,
-      "notes": 81824,
-      "links": 338339
+      "records": 3470,
+      "notes": 81831,
+      "links": 338368
     },
     "prior_totals": {
-      "records": 3463,
-      "notes": 81824,
-      "links": 338339
+      "records": 3470,
+      "notes": 81831,
+      "links": 338368
     },
     "added_this_run": {
       "records": 0,
@@ -391,9 +391,9 @@
       "links": 0
     },
     "current_snapshot": {
-      "records": 3463,
-      "notes": 81348,
-      "links": 322534
+      "records": 3470,
+      "notes": 81355,
+      "links": 322577
     },
     "since": "2026-08-23T05:21:53.378147+00:00",
     "runs_recorded": 90
@@ -1635,7 +1635,7 @@
       "collected_at": "2026-09-15T23:10:07.126967+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 11.9,
+      "age_hours": 12.6,
       "stale": false
     },
     "walmart_beauty": {
@@ -1645,7 +1645,7 @@
       "collected_at": "2026-09-15T23:10:07.127537+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 11.9,
+      "age_hours": 12.6,
       "stale": false
     },
     "oliveyoung_us": {
@@ -1655,7 +1655,7 @@
       "collected_at": "2026-09-16T09:04:39.040729+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 2.0,
+      "age_hours": 2.7,
       "stale": false
     },
     "google_trends_us": {
@@ -1665,7 +1665,7 @@
       "collected_at": "2026-09-16T09:05:39.157696+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 1.9,
+      "age_hours": 2.7,
       "stale": false
     },
     "wikipedia_interest": {
@@ -1676,7 +1676,7 @@
       "count": 8,
       "trust": "verified",
       "note": "2026-08-16 ~ 2026-09-14 일별 조회수. 후반 15일 대비 전반 15일 증감률",
-      "age_hours": 7.8,
+      "age_hours": 8.6,
       "stale": false
     },
     "allure_media": {
@@ -1687,7 +1687,7 @@
       "count": 15,
       "trust": "verified",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
-      "age_hours": 7.8,
+      "age_hours": 8.6,
       "stale": false
     },
     "openfda_sunscreen": {
@@ -1698,7 +1698,7 @@
       "count": 15,
       "trust": "verified",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다.",
-      "age_hours": 7.8,
+      "age_hours": 8.6,
       "stale": false
     },
     "shopify_demand_matching": {
@@ -1724,7 +1724,7 @@
       "collected_at": "2026-09-15T23:10:07.127941+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 11.9,
+      "age_hours": 12.6,
       "stale": false
     },
     "sephora": {
@@ -1734,7 +1734,7 @@
       "collected_at": "2026-09-15T23:10:07.127941+00:00",
       "count": 14,
       "trust": "verified",
-      "age_hours": 11.9,
+      "age_hours": 12.6,
       "stale": false
     },
     "open_beauty_facts": {
@@ -1744,7 +1744,7 @@
       "collected_at": "2026-09-16T09:04:38.488606+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 2.0,
+      "age_hours": 2.7,
       "stale": false
     }
   },

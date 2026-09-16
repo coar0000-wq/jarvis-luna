@@ -2,7 +2,7 @@
 title: "Record cfe2c1986a · Amazon-Updates-Its-K-Beauty-Online-Storefront---Hap"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T09:11:57.181162+00:00
+updated_at: 2026-09-16T11:37:33.338106+00:00
 tags: [record, real-data]
 ---
 

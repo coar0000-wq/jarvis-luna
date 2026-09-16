@@ -2,7 +2,7 @@
 title: "Record fed407b0f6 · These-rising-K-beauty-brands-should-be-on-your-rada"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T09:11:57.178281+00:00
+updated_at: 2026-09-16T11:37:33.335108+00:00
 tags: [record, real-data]
 ---
 

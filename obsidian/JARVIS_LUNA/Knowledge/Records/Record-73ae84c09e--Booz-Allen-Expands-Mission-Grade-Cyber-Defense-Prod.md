@@ -2,7 +2,7 @@
 title: "Record 73ae84c09e · Booz-Allen-Expands-Mission-Grade-Cyber-Defense-Prod"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T09:11:56.993097+00:00
+updated_at: 2026-09-16T11:37:33.161912+00:00
 tags: [record, real-data]
 ---
 

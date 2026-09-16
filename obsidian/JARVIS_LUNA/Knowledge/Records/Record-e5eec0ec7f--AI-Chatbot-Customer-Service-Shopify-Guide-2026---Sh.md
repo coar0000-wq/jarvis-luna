@@ -2,7 +2,7 @@
 title: "Record e5eec0ec7f · AI-Chatbot-Customer-Service-Shopify-Guide-2026---Sh"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T09:11:57.077434+00:00
+updated_at: 2026-09-16T11:37:33.240531+00:00
 tags: [record, real-data]
 ---
 

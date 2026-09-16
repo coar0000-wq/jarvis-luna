@@ -2,7 +2,7 @@
 title: "Record 66343858f1 · What-bricklaying-has-taught-Monumental-about-robots"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T09:11:57.510312+00:00
+updated_at: 2026-09-16T11:37:33.679158+00:00
 tags: [record, real-data]
 ---
 

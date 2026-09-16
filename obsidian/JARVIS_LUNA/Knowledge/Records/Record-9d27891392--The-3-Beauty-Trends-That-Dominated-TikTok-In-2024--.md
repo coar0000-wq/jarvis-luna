@@ -2,7 +2,7 @@
 title: "Record 9d27891392 · The-3-Beauty-Trends-That-Dominated-TikTok-In-2024--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T09:11:57.171863+00:00
+updated_at: 2026-09-16T11:37:33.328618+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMihgFBVV95cUxPa0t1ODhYYkRWM3ZvcUswVDN3ZmhFTFZPQ0IxVEtzeFhOY3pROGdJcGt4blNRalhadmRXSy00bkZPdW9FSXhKQi1QYTMtSDhnaTZlb1NFQ3VfSjNKelVhbzRoUWRaR1VkVk93ZGNabkRIMjZKejNidWxYaVFuTEtqZFhyMnFYZw?oc=5)
 
-**제목:** The 3 Beauty Trends That Dominated TikTok In 2024 - Vogue
+**제목:** The 3 Beauty Trends That Dominated TikTok In 2024 - vogue.com
 
-The 3 Beauty Trends That Dominated TikTok In 2024 - Vogue
+The 3 Beauty Trends That Dominated TikTok In 2024 - vogue.com
 
 **출처:** Source · Google Search
 

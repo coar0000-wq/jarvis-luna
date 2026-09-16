@@ -2,7 +2,7 @@
 title: "Record bc319c7e3e · Refining-RhIG-Prophylaxis-Guidelines-Asian-type-DEL"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T09:11:56.920080+00:00
+updated_at: 2026-09-16T11:37:33.090527+00:00
 tags: [record, real-data]
 ---
 

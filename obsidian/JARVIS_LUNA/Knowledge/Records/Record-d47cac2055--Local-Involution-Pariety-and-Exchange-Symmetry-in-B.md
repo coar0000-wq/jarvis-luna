@@ -2,7 +2,7 @@
 title: "Record d47cac2055 · Local-Involution-Pariety-and-Exchange-Symmetry-in-B"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T09:11:56.955359+00:00
+updated_at: 2026-09-16T11:37:33.125200+00:00
 tags: [record, real-data]
 ---
 

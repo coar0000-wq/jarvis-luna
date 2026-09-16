@@ -2,7 +2,7 @@
 title: "Record b0129e4688 · Olive-Young-Opens-In-Los-Angeles-With-New-K-Beauty-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T09:11:57.261198+00:00
+updated_at: 2026-09-16T11:37:33.421728+00:00
 tags: [record, real-data]
 ---
 

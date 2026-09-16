@@ -2,7 +2,7 @@
 title: "Record 48de55c872 · The-Vogue-Business-Beauty-Trend-Tracker---Vogue"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T09:11:57.109284+00:00
+updated_at: 2026-09-16T11:37:33.269864+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMicEFVX3lxTE96eFRtR1g5NG15VmJxdk9GX3B1V1FJdWRDdkJPb1pHMWk3d2pwMV81WFBURlJxaHRadVZTWUFKR1VSc21KX1lyVTUxa2NSa05nRmxUU1FRb1hFVWNvc2hDZ25YYUQ0Y09jMzNhLTZuWGk?oc=5)
 
-**제목:** The Vogue Business Beauty Trend Tracker - Vogue
+**제목:** The Vogue Business Beauty Trend Tracker - vogue.com
 
-The Vogue Business Beauty Trend Tracker - Vogue
+The Vogue Business Beauty Trend Tracker - vogue.com
 
 **출처:** Source · Google Search
 

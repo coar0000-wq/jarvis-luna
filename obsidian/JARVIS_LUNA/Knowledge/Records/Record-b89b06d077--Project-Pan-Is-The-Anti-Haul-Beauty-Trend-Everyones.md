@@ -2,7 +2,7 @@
 title: "Record b89b06d077 · Project-Pan-Is-The-Anti-Haul-Beauty-Trend-Everyones"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T09:11:57.126647+00:00
+updated_at: 2026-09-16T11:37:33.286485+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMie0FVX3lxTE9feE5KaHM3eHhGMEl6OG52UU54QU5tWkdSdjhQQTdMX2EtbGlmMFMxdlpDbkVnSVFnYWZScXhwNFN5N0E1cmF4clVEMUtNUWpNRW1vZm40X1FzcEE2NE4zVV8ta3htcVQxbUlXUXRYbHpLdzM4dnRIcXM3aw?oc=5)
 
-**제목:** Project Pan Is The Anti-Haul Beauty Trend Everyone's Trying This Year - Cosmo.ph
+**제목:** Project Pan Is The Anti-Haul Beauty Trend Everyone's Trying This Year - cosmo.ph
 
-Project Pan Is The Anti-Haul Beauty Trend Everyone's Trying This Year - Cosmo.ph
+Project Pan Is The Anti-Haul Beauty Trend Everyone's Trying This Year - cosmo.ph
 
 **출처:** Source · Google Search
 
