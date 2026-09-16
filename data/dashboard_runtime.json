@@ -1754,5 +1754,14 @@
     "source": "https://open.er-api.com/v6/latest/USD",
     "updated_at": "2026-09-16"
   },
-  "last_synced": "09. 16. 오후 06:09 KST"
+  "last_synced": "09. 16. 오후 06:09 KST",
+  "commit_summary": {
+    "line": "agents: 조치후보 5건 · risk medium · force",
+    "agents_line": "agents: 조치후보 5건 · risk medium · force"
+  },
+  "agents_ops": {
+    "risk": "medium",
+    "task_count": 5,
+    "at": "2026-09-16T14:16:26.708304+00:00"
+  }
 }

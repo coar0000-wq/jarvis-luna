@@ -1,6 +1,6 @@
 {
   "agent": "Listing-Draft",
-  "generated_at": "2026-09-16T13:49:50.493333+00:00",
+  "generated_at": "2026-09-16T14:16:26.703907+00:00",
   "s_count": 9,
   "csv_path": "data/daiso_real/shopify_s_products_import.csv",
   "items": [
@@ -68,17 +68,11 @@
       "note": "Variant Price 비움 — 원가 모델 확인 후 입력. Cost per item·image·pd_no는 CSV에 있음."
     }
   ],
-  "legal_blocks": [
-    "차단 5건: 셀더마데일리 콜라겐 에센스겔 (자동 점검 미통과: lab), [피부결케어]VT 리들샷 10(자동 점검 미통과: lab) — 라벨 갖추기 전엔 못 올림"
-  ],
+  "legal_blocks": [],
   "suggestions": [
     {
       "action": "import_csv_as_draft",
       "detail": "S등급 9건 CSV → Shopify Admin Products Import (Published=false)"
-    },
-    {
-      "action": "resolve_legal_blocks",
-      "detail": "차단 5건: 셀더마데일리 콜라겐 에센스겔 (자동 점검 미통과: lab), [피부결케어]VT 리들샷 10(자동 점검 미통과: lab) — 라벨 갖추기 전엔 못 올림"
     }
   ]
 }
