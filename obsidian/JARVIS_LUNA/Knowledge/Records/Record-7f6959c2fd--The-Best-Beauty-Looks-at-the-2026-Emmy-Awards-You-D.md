@@ -2,7 +2,7 @@
 title: "Record 7f6959c2fd · The-Best-Beauty-Looks-at-the-2026-Emmy-Awards-You-D"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T21:20:14.242273+00:00
+updated_at: 2026-09-16T22:47:53.724430+00:00
 tags: [record, real-data]
 ---
 

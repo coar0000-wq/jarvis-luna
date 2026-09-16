@@ -2,7 +2,7 @@
 title: "Record 2819d6ebb9 · Persona-Execution-Separation-An-Architecture-Patter"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T21:20:14.374900+00:00
+updated_at: 2026-09-16T22:47:53.958815+00:00
 tags: [record, real-data]
 ---
 

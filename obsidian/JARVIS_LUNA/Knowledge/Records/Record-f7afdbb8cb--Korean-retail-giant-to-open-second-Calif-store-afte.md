@@ -2,7 +2,7 @@
 title: "Record f7afdbb8cb · Korean-retail-giant-to-open-second-Calif-store-afte"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T21:20:14.089338+00:00
+updated_at: 2026-09-16T22:47:53.444588+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2912624819 · Thoughts-On-The-Market-Emerging-Markets"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T21:20:14.299592+00:00
+updated_at: 2026-09-16T22:47:53.829114+00:00
 tags: [record, real-data]
 ---
 

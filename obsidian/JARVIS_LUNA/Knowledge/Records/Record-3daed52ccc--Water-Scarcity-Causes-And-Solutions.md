@@ -2,7 +2,7 @@
 title: "Record 3daed52ccc · Water-Scarcity-Causes-And-Solutions"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T21:20:14.301045+00:00
+updated_at: 2026-09-16T22:47:53.832393+00:00
 tags: [record, real-data]
 ---
 

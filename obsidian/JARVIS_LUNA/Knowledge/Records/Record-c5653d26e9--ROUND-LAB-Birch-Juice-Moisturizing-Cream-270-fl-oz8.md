@@ -1,12 +1,12 @@
 ---
-title: "Record c5653d26e9 · ROUND-LAB-Birch-Juice-Moisturizing-Cream-270-fl-oz80ml--Cream-067-fl-o"
+title: "Record c5653d26e9 · ROUND-LAB-Birch-Juice-Moisturizing-Cream-270-fl-oz8"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T21:20:14.229794+00:00
+updated_at: 2026-09-16T22:47:53.701764+00:00
 tags: [record, real-data]
 ---
 
-# Record c5653d26e9 · ROUND-LAB-Birch-Juice-Moisturizing-Cream-270-fl-oz80ml--Cream-067-fl-o
+# Record c5653d26e9 · ROUND-LAB-Birch-Juice-Moisturizing-Cream-270-fl-oz8
 
 > 실제 수집 레코드입니다. 원문: [us.oliveyoung.com](https://us.oliveyoung.com/products/UA31335546)
 

@@ -1,12 +1,12 @@
 ---
-title: "Record de76a40c97 · 3colors-too-cool-for-school-Artclass-By-Rodin-Dual-Contour-Stick-006-o"
+title: "Record de76a40c97 · 3colors-too-cool-for-school-Artclass-By-Rodin-Dual-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T21:20:14.236843+00:00
+updated_at: 2026-09-16T22:47:53.714255+00:00
 tags: [record, real-data]
 ---
 
-# Record de76a40c97 · 3colors-too-cool-for-school-Artclass-By-Rodin-Dual-Contour-Stick-006-o
+# Record de76a40c97 · 3colors-too-cool-for-school-Artclass-By-Rodin-Dual-
 
 > 실제 수집 레코드입니다. 원문: [us.oliveyoung.com](https://us.oliveyoung.com/products/UA84026922)
 

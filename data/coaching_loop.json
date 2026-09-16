@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T04:29:35.082957+09:00",
+  "generated_at": "2026-09-17T07:46:12.395807+09:00",
   "role": "coaching",
   "principle": "AI는 체크리스트·A/B 초안만. 등록·광고 집행은 사람 승인.",
   "source": "scripts/build_coaching_loop.py",
@@ -11,9 +11,9 @@
     "hold": 0,
     "reddit_signal": {
       "status": "ok",
-      "post_count": 43,
-      "collected_at": "2026-09-16T19:25:13.768832+00:00",
-      "keyword_pool": 41
+      "post_count": 25,
+      "collected_at": "2026-09-16T22:40:52.241753+00:00",
+      "keyword_pool": 40
     }
   },
   "sessions": [
@@ -78,14 +78,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['hydrating', 'kbeauty', 'skin']",
+          "evidence": "matched=['kbeauty', 'skin']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "VT Reedle Shot 300 Facial Boosting First Ampoule 2ml x 6 — hydrating · K-beauty",
+          "primary_text": "VT Reedle Shot 300 Facial Boosting First Ampoule 2ml x 6 — kbeauty · K-beauty",
           "headline": "VT Reedle Shot 300 Facial Boosting First",
           "description": "Discover the VT Reedle Shot 300 Facial Boosting First Ampoule, designed for your daily skincare routine. This convenient set includes six 2ml ampoules to help prep and smooth the look of your skin tex",
           "cta": "Shop now"
@@ -106,7 +106,6 @@
           "skin"
         ],
         "reddit_keywords_used": [
-          "hydrating",
           "kbeauty",
           "skin"
         ],
@@ -115,13 +114,12 @@
       },
       "reddit_match": {
         "matched": [
-          "hydrating",
           "kbeauty",
           "skin"
         ],
-        "score": 3,
+        "score": 2,
         "status": "pass",
-        "evidence": "matched=['hydrating', 'kbeauty', 'skin']",
+        "evidence": "matched=['kbeauty', 'skin']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -192,14 +190,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['hydrating', 'kbeauty', 'skin']",
+          "evidence": "matched=['kbeauty', 'skin']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "VONSEP Retinol 500 IU Serum 30 ml — hydrating · K-beauty",
+          "primary_text": "VONSEP Retinol 500 IU Serum 30 ml — kbeauty · K-beauty",
           "headline": "VONSEP Retinol 500 IU Serum 30 ml",
           "description": "Discover the VONSEP Retinol 500 IU Serum in a convenient 30 ml size, designed to enhance your daily skincare routine. This nourishing serum applies smoothly to help support a radiant and refreshed-loo",
           "cta": "Shop now"
@@ -220,7 +218,6 @@
           "skin"
         ],
         "reddit_keywords_used": [
-          "hydrating",
           "kbeauty",
           "skin"
         ],
@@ -229,13 +226,12 @@
       },
       "reddit_match": {
         "matched": [
-          "hydrating",
           "kbeauty",
           "skin"
         ],
-        "score": 3,
+        "score": 2,
         "status": "pass",
-        "evidence": "matched=['hydrating', 'kbeauty', 'skin']",
+        "evidence": "matched=['kbeauty', 'skin']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -306,14 +302,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['hydrating', 'kbeauty', 'skin']",
+          "evidence": "matched=['kbeauty', 'skin']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6ea — hydrating · K-beauty",
+          "primary_text": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6ea — kbeauty · K-beauty",
           "headline": "VT Reedle Shot 100 Facial Boosting First",
           "description": "Experience smooth skin texture care with the VT Reedle Shot 100 Facial Boosting First Ampoule. This set includes six convenient 2 ml ampoules designed to prep your skin as the first step in your daily",
           "cta": "Shop now"
@@ -334,7 +330,6 @@
           "skin"
         ],
         "reddit_keywords_used": [
-          "hydrating",
           "kbeauty",
           "skin"
         ],
@@ -343,13 +338,12 @@
       },
       "reddit_match": {
         "matched": [
-          "hydrating",
           "kbeauty",
           "skin"
         ],
-        "score": 3,
+        "score": 2,
         "status": "pass",
-        "evidence": "matched=['hydrating', 'kbeauty', 'skin']",
+        "evidence": "matched=['kbeauty', 'skin']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -420,14 +414,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['cream', 'hydrating', 'kbeauty', 'skin']",
+          "evidence": "matched=['kbeauty', 'skin']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "VT PDRN Glow Cream 50 ml — cream · K-beauty",
+          "primary_text": "VT PDRN Glow Cream 50 ml — kbeauty · K-beauty",
           "headline": "VT PDRN Glow Cream 50 ml",
           "description": "Discover the VT PDRN Glow Cream, a nourishing facial cream designed to give your skin a radiant appearance. Formulated with PDRN, this 50 ml cream provides rich moisture for a glowing complexion. Smoo",
           "cta": "Shop now"
@@ -449,8 +443,6 @@
           "skin"
         ],
         "reddit_keywords_used": [
-          "cream",
-          "hydrating",
           "kbeauty",
           "skin"
         ],
@@ -459,14 +451,12 @@
       },
       "reddit_match": {
         "matched": [
-          "cream",
-          "hydrating",
           "kbeauty",
           "skin"
         ],
-        "score": 4,
+        "score": 2,
         "status": "pass",
-        "evidence": "matched=['cream', 'hydrating', 'kbeauty', 'skin']",
+        "evidence": "matched=['kbeauty', 'skin']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -537,14 +527,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['cream', 'hydrating', 'kbeauty', 'masks', 'skin']",
+          "evidence": "matched=['ask', 'kbeauty', 'masks', 'skin']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Celderma Daily PDRN Radiance Cream Wrapping Mask 1ea — cream · K-beauty",
+          "primary_text": "Celderma Daily PDRN Radiance Cream Wrapping Mask 1ea — ask · K-beauty",
           "headline": "Celderma Daily PDRN Radiance Cream Wrapp",
           "description": "Discover the Celderma Daily PDRN Radiance Cream Wrapping Mask, designed to give your skin a radiant and glowing appearance. This single-use sheet mask helps lock in moisture for a dewy, smooth look. S",
           "cta": "Shop now"
@@ -563,13 +553,13 @@
           "K-beauty",
           "glass skin",
           "hydrating",
+          "ask",
           "kbeauty",
           "masks",
           "skin"
         ],
         "reddit_keywords_used": [
-          "cream",
-          "hydrating",
+          "ask",
           "kbeauty",
           "masks",
           "skin"
@@ -579,15 +569,14 @@
       },
       "reddit_match": {
         "matched": [
-          "cream",
-          "hydrating",
+          "ask",
           "kbeauty",
           "masks",
           "skin"
         ],
-        "score": 5,
+        "score": 4,
         "status": "pass",
-        "evidence": "matched=['cream', 'hydrating', 'kbeauty', 'masks', 'skin']",
+        "evidence": "matched=['ask', 'kbeauty', 'masks', 'skin']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -658,14 +647,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['hydrating', 'kbeauty', 'skin', 'toners']",
+          "evidence": "matched=['kbeauty', 'skin']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Chaebi Gongan Heartleaf Extract Vegan Toner 150ml — hydrating · K-beauty",
+          "primary_text": "Chaebi Gongan Heartleaf Extract Vegan Toner 150ml — kbeauty · K-beauty",
           "headline": "Chaebi Gongan Heartleaf Extract Vegan To",
           "description": "Discover the refreshing hydration of Chaebi Gongan Heartleaf Extract Vegan Toner. Formulated with heartleaf extract, this lightweight toner helps balance and soothe your skin for a refreshed complexio",
           "cta": "Shop now"
@@ -684,28 +673,23 @@
           "glass skin",
           "hydrating",
           "kbeauty",
-          "skin",
-          "toners"
+          "skin"
         ],
         "reddit_keywords_used": [
-          "hydrating",
           "kbeauty",
-          "skin",
-          "toners"
+          "skin"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "hydrating",
           "kbeauty",
-          "skin",
-          "toners"
+          "skin"
         ],
-        "score": 4,
+        "score": 2,
         "status": "pass",
-        "evidence": "matched=['hydrating', 'kbeauty', 'skin', 'toners']",
+        "evidence": "matched=['kbeauty', 'skin']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -776,14 +760,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['hydrating', 'kbeauty', 'skin', 'toners']",
+          "evidence": "matched=['kbeauty', 'skin']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "VT Cica Calming Toner 300 ml — hydrating · K-beauty",
+          "primary_text": "VT Cica Calming Toner 300 ml — kbeauty · K-beauty",
           "headline": "VT Cica Calming Toner 300 ml",
           "description": "Discover the refreshing hydration of VT Cica Calming Toner in a generous 300 ml size. Formulated with cica, it helps soothe and comfort the skin with every application. Incorporate this lightweight to",
           "cta": "Shop now"
@@ -801,28 +785,23 @@
           "glass skin",
           "hydrating",
           "kbeauty",
-          "skin",
-          "toners"
+          "skin"
         ],
         "reddit_keywords_used": [
-          "hydrating",
           "kbeauty",
-          "skin",
-          "toners"
+          "skin"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "hydrating",
           "kbeauty",
-          "skin",
-          "toners"
+          "skin"
         ],
-        "score": 4,
+        "score": 2,
         "status": "pass",
-        "evidence": "matched=['hydrating', 'kbeauty', 'skin', 'toners']",
+        "evidence": "matched=['kbeauty', 'skin']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -893,14 +872,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['masks']",
-          "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
+          "evidence": "matched=['ask', 'masks']",
+          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Celderma Daily Transforming Firming Collagen Mask 28g — masks · sheet mask",
+          "primary_text": "Celderma Daily Transforming Firming Collagen Mask 28g — ask · sheet mask",
           "headline": "Celderma Daily Transforming Firming Coll",
           "description": "Experience the Celderma Daily Transforming Firming Collagen Mask, formulated to help support a firm-looking and resilient complexion. Each 28g sheet mask delivers nourishing care for your daily skinca",
           "cta": "Shop now"
@@ -918,9 +897,11 @@
           "sheet mask",
           "overnight mask",
           "collagen mask",
+          "ask",
           "masks"
         ],
         "reddit_keywords_used": [
+          "ask",
           "masks"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
@@ -928,12 +909,13 @@
       },
       "reddit_match": {
         "matched": [
+          "ask",
           "masks"
         ],
-        "score": 1,
+        "score": 2,
         "status": "pass",
-        "evidence": "matched=['masks']",
-        "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
+        "evidence": "matched=['ask', 'masks']",
+        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
         "pass": 5,
@@ -1003,14 +985,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['masks']",
-          "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
+          "evidence": "matched=['ask', 'masks']",
+          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Celderma Daily Collagen Essence Gel Mask 29g — masks · sheet mask",
+          "primary_text": "Celderma Daily Collagen Essence Gel Mask 29g — ask · sheet mask",
           "headline": "Celderma Daily Collagen Essence Gel Mask",
           "description": "Experience the cooling and hydrating feel of the Celderma Daily Collagen Essence Gel Mask. This 29g hydrogel mask clings comfortably to the face to help deliver moisture directly to the skin. Formulat",
           "cta": "Shop now"
@@ -1029,9 +1011,11 @@
           "sheet mask",
           "overnight mask",
           "collagen mask",
+          "ask",
           "masks"
         ],
         "reddit_keywords_used": [
+          "ask",
           "masks"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
@@ -1039,12 +1023,13 @@
       },
       "reddit_match": {
         "matched": [
+          "ask",
           "masks"
         ],
-        "score": 1,
+        "score": 2,
         "status": "pass",
-        "evidence": "matched=['masks']",
-        "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
+        "evidence": "matched=['ask', 'masks']",
+        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
         "pass": 5,

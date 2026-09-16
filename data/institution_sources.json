@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-16T19:23:43.596637+00:00",
+  "collected_at": "2026-09-16T22:39:43.849342+00:00",
   "total": 1063,
   "organizations": 35,
   "by_org": {
@@ -54,19 +54,19 @@
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-09-16T19:22:39.785956+00:00"
+      "collected_at": "2026-09-16T22:38:38.461168+00:00"
     },
     "sitemap": {
       "status": "ok",
       "count": 140,
       "failures": [],
-      "collected_at": "2026-09-16T19:23:16.874008+00:00"
+      "collected_at": "2026-09-16T22:39:14.999564+00:00"
     },
     "openalex": {
       "status": "ok",
       "count": 713,
       "failures": [],
-      "collected_at": "2026-09-16T19:23:43.595869+00:00"
+      "collected_at": "2026-09-16T22:39:43.848247+00:00"
     }
   },
   "not_collected": {
@@ -116,6 +116,19 @@
       "date": "2026-09-16",
       "date_raw": "Wed, 16 Sep 2026 12:00:00 GMT",
       "summary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
+      "org": "OpenAI",
+      "category": "AI연구소",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://openai.com/news/rss.xml",
+      "title_source": "feed"
+    },
+    {
+      "title": "Our framework for reporting model misalignment",
+      "url": "https://openai.com/index/model-misalignment-reporting-framework",
+      "date": "2026-09-16",
+      "date_raw": "Wed, 16 Sep 2026 17:00:00 GMT",
+      "summary": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -389,19 +402,6 @@
       "date": "2026-09-08",
       "date_raw": "Tue, 08 Sep 2026 00:00:00 GMT",
       "summary": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
-      "org": "OpenAI",
-      "category": "AI연구소",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://openai.com/news/rss.xml",
-      "title_source": "feed"
-    },
-    {
-      "title": "Supporting independent journalism in Ukraine",
-      "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
-      "date": "2026-09-07",
-      "date_raw": "Mon, 07 Sep 2026 00:00:00 GMT",
-      "summary": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -3855,11 +3855,11 @@
       "feed": "https://home.barclays/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/the-markets/why-gold-is-expected-to-rise-to-record-highs",
-      "date": "2026-09-15",
-      "date_raw": "2026-09-15T13:48:46.000Z",
+      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/why-global-bond-yields-are-surging",
+      "date": "2026-09-16",
+      "date_raw": "2026-09-16T20:52:12.000Z",
       "title_source": "url-slug",
-      "title": "Why Gold Is Expected To Rise To Record Highs",
+      "title": "Why Global Bond Yields Are Surging",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -3881,11 +3881,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/why-global-bond-yields-are-surging",
+      "url": "https://www.goldmansachs.com/insights/articles/can-the-s-and-p-500-rally-as-treasury-yields-rise",
       "date": "2026-09-15",
-      "date_raw": "2026-09-15T16:30:12.000Z",
+      "date_raw": "2026-09-15T18:23:51.000Z",
       "title_source": "url-slug",
-      "title": "Why Global Bond Yields Are Surging",
+      "title": "Can The S And P 500 Rally As Treasury Yields Rise",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -3894,11 +3894,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/articles/can-the-s-and-p-500-rally-as-treasury-yields-rise",
+      "url": "https://www.goldmansachs.com/insights/the-markets/why-gold-is-expected-to-rise-to-record-highs",
       "date": "2026-09-15",
-      "date_raw": "2026-09-15T18:23:51.000Z",
+      "date_raw": "2026-09-15T13:48:46.000Z",
       "title_source": "url-slug",
-      "title": "Can The S And P 500 Rally As Treasury Yields Rise",
+      "title": "Why Gold Is Expected To Rise To Record Highs",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -4037,11 +4037,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/the-outlook-for-data-center-power-demand-as-ai-token-use-grows",
+      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity",
       "date": "2026-09-04",
-      "date_raw": "2026-09-04T15:26:17.000Z",
+      "date_raw": "2026-09-04T13:29:35.000Z",
       "title_source": "url-slug",
-      "title": "The Outlook For Data Center Power Demand As Ai Token Use Grows",
+      "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -4050,11 +4050,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity",
+      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/the-outlook-for-data-center-power-demand-as-ai-token-use-grows",
       "date": "2026-09-04",
-      "date_raw": "2026-09-04T13:29:35.000Z",
+      "date_raw": "2026-09-04T15:26:17.000Z",
       "title_source": "url-slug",
-      "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity",
+      "title": "The Outlook For Data Center Power Demand As Ai Token Use Grows",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -4102,11 +4102,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/pdfs/insights/videos/david-solomon-cnbc-sep-2026/transcript.pdf",
+      "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity/transcript.pdf",
       "date": "2026-09-02",
-      "date_raw": "2026-09-02T16:13:53.000Z",
+      "date_raw": "2026-09-02T20:18:47.000Z",
       "title_source": "url-slug",
-      "title": "David Solomon Cnbc Sep 2026   Transcript",
+      "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity   Transcript",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",

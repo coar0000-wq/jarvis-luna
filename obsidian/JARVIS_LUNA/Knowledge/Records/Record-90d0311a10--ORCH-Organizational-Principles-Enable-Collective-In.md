@@ -2,7 +2,7 @@
 title: "Record 90d0311a10 · ORCH-Organizational-Principles-Enable-Collective-In"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T21:20:13.901497+00:00
+updated_at: 2026-09-16T22:47:53.120474+00:00
 tags: [record, real-data]
 ---
 

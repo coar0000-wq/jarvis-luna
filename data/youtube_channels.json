@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T19:24:09.601976+00:00",
+  "generated_at": "2026-09-16T22:40:09.216439+00:00",
   "generator": "scripts/ingest_youtube_channels.py",
   "입력": "data/manual/youtube_channels.txt",
   "robots": "youtube.com/robots.txt 의 Disallow 목록에 /@ 와 /channel/ 은 없다. 막힌 것은 /feeds/videos.xml, /results, /youtubei/ 등이다. 지정된 채널만 하나씩 본다. 2026-09-06 확인.",
@@ -45,9 +45,9 @@
     {
       "video_id": "2TlIg3VokY8",
       "title": "The UX Psychology Behind Apps People Can’t Stop Using",
-      "views_text": "497K views",
+      "views_text": "498K views",
       "published_text": "2 months ago",
-      "views": 497000,
+      "views": 498000,
       "url": "https://www.youtube.com/watch?v=2TlIg3VokY8",
       "channel": "uxpeak",
       "teams": [
@@ -91,24 +91,24 @@
       ]
     },
     {
-      "video_id": "YlN28RNChl0",
-      "title": "This Video Will Take You From Junior to Senior UX/UI Designer",
-      "views_text": "253K views",
-      "published_text": "1 year ago",
-      "views": 253000,
-      "url": "https://www.youtube.com/watch?v=YlN28RNChl0",
+      "video_id": "GGg61sdEjeI",
+      "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
+      "views_text": "254K views",
+      "published_text": "2 weeks ago",
+      "views": 254000,
+      "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
       "channel": "uxpeak",
       "teams": [
         "design"
       ]
     },
     {
-      "video_id": "GGg61sdEjeI",
-      "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
-      "views_text": "251K views",
-      "published_text": "2 weeks ago",
-      "views": 251000,
-      "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
+      "video_id": "YlN28RNChl0",
+      "title": "This Video Will Take You From Junior to Senior UX/UI Designer",
+      "views_text": "253K views",
+      "published_text": "1 year ago",
+      "views": 253000,
+      "url": "https://www.youtube.com/watch?v=YlN28RNChl0",
       "channel": "uxpeak",
       "teams": [
         "design"
@@ -189,9 +189,9 @@
     {
       "video_id": "Xzh8xjimmp8",
       "title": "Top 5 Advanced UX/UI Design Tips and Tricks Every Designer Needs to Know About – Part 3",
-      "views_text": "126K views",
+      "views_text": "127K views",
       "published_text": "1 year ago",
-      "views": 126000,
+      "views": 127000,
       "url": "https://www.youtube.com/watch?v=Xzh8xjimmp8",
       "channel": "uxpeak",
       "teams": [
@@ -202,23 +202,23 @@
   "items": [
     {
       "stale": false,
-      "last_ok_at": "2026-09-16T19:23:59.247058+00:00",
+      "last_ok_at": "2026-09-16T22:39:58.881840+00:00",
       "url": "https://www.youtube.com/@uxpeak",
       "note": "UX/UI 리디자인·전환율 (사용자 지정)",
       "team_hint": "design",
       "channel_name": "uxpeak",
       "channel_id": "UCO6_kvUIUY-ViXL3vFxJH-g",
-      "subscribers": "123K",
+      "subscribers": "124K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-16T19:23:59.247081+00:00",
+      "checked_at": "2026-09-16T22:39:58.881861+00:00",
       "videos": [
         {
           "video_id": "GGg61sdEjeI",
           "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
-          "views_text": "251K views",
+          "views_text": "254K views",
           "published_text": "2 weeks ago",
-          "views": 251000,
+          "views": 254000,
           "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
           "channel": "uxpeak",
           "teams": [
@@ -228,9 +228,9 @@
         {
           "video_id": "2TlIg3VokY8",
           "title": "The UX Psychology Behind Apps People Can’t Stop Using",
-          "views_text": "497K views",
+          "views_text": "498K views",
           "published_text": "2 months ago",
-          "views": 497000,
+          "views": 498000,
           "url": "https://www.youtube.com/watch?v=2TlIg3VokY8",
           "channel": "uxpeak",
           "teams": [
@@ -276,9 +276,9 @@
         {
           "video_id": "Xzh8xjimmp8",
           "title": "Top 5 Advanced UX/UI Design Tips and Tricks Every Designer Needs to Know About – Part 3",
-          "views_text": "126K views",
+          "views_text": "127K views",
           "published_text": "1 year ago",
-          "views": 126000,
+          "views": 127000,
           "url": "https://www.youtube.com/watch?v=Xzh8xjimmp8",
           "channel": "uxpeak",
           "teams": [
@@ -469,7 +469,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-16T19:24:04.601782+00:00",
+      "last_ok_at": "2026-09-16T22:40:04.216217+00:00",
       "url": "https://www.youtube.com/@%EB%95%A1%ED%81%90%EC%B1%84%EB%84%90",
       "note": "땡스큐레이터 - 스몰 브랜드 브랜딩·수출·견적. 팀은 영상마다 자동 분류",
       "team_hint": "",
@@ -478,7 +478,7 @@
       "subscribers": "18.4K",
       "video_count": 20,
       "error": "",
-      "checked_at": "2026-09-16T19:24:04.601799+00:00",
+      "checked_at": "2026-09-16T22:40:04.216233+00:00",
       "videos": [
         {
           "video_id": "CSr4DYGUPOM",
@@ -546,9 +546,9 @@
         {
           "video_id": "rM6gwEyfKZ8",
           "title": "🧐브랜딩을 잘하고 싶다면 리서치가 가장 중요합니다 | 인풋 쌓는 과정부터 시장조사 노하우까지! 일단 시작부터!",
-          "views_text": "89K views",
+          "views_text": "90K views",
           "published_text": "2 months ago",
-          "views": 89000,
+          "views": 90000,
           "url": "https://www.youtube.com/watch?v=rM6gwEyfKZ8",
           "channel": "땡스큐레이터",
           "teams": [

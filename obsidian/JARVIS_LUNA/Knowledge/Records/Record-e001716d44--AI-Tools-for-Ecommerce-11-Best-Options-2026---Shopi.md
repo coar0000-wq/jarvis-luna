@@ -2,7 +2,7 @@
 title: "Record e001716d44 · AI-Tools-for-Ecommerce-11-Best-Options-2026---Shopi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T21:20:14.066086+00:00
+updated_at: 2026-09-16T22:47:53.402330+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiZEFVX3lxTFBwa3gtc01TcnpYTXFTVTVWMTg2NkJRTml2MG9KQlhoTk9lNTFGeVdNZnYwY24wRV9ibjhSSW5fb2Z3V0ZsOEthLW9TX29mWmJYb1dfcDRPSlZUVDNXU19McGI2WnA?oc=5)
 
-**제목:** AI Tools for Ecommerce: 11 Best Options (2026) - shopify.com
+**제목:** AI Tools for Ecommerce: 11 Best Options (2026) - Shopify
 
-AI Tools for Ecommerce: 11 Best Options (2026) - shopify.com
+AI Tools for Ecommerce: 11 Best Options (2026) - Shopify
 
 **출처:** Source · Google Search
 

@@ -2,7 +2,7 @@
 title: "Record 2ab25d9fb1 · Japan-Pioneered-Humanoid-RobotsCan-It-Now-Catch-Chi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T21:20:14.221428+00:00
+updated_at: 2026-09-16T22:47:53.689105+00:00
 tags: [record, real-data]
 ---
 

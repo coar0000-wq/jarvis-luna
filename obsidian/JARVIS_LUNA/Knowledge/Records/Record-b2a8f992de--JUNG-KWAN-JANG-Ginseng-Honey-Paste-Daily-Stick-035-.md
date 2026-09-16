@@ -1,12 +1,12 @@
 ---
-title: "Record b2a8f992de · JUNG-KWAN-JANG-Ginseng-Honey-Paste-Daily-Stick-035-oz10g-x-30ea"
+title: "Record b2a8f992de · JUNG-KWAN-JANG-Ginseng-Honey-Paste-Daily-Stick-035-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T21:20:14.230951+00:00
+updated_at: 2026-09-16T22:47:53.703835+00:00
 tags: [record, real-data]
 ---
 
-# Record b2a8f992de · JUNG-KWAN-JANG-Ginseng-Honey-Paste-Daily-Stick-035-oz10g-x-30ea
+# Record b2a8f992de · JUNG-KWAN-JANG-Ginseng-Honey-Paste-Daily-Stick-035-
 
 > 실제 수집 레코드입니다. 원문: [us.oliveyoung.com](https://us.oliveyoung.com/products/UA37986574)
 

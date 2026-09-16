@@ -2,7 +2,7 @@
 title: "Record 010050f091 · One-Editor-Many-Edits-A-Unified-Training-Free-Frame"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T21:20:13.857607+00:00
+updated_at: 2026-09-16T22:47:53.053191+00:00
 tags: [record, real-data]
 ---
 

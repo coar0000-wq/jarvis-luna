@@ -2,7 +2,7 @@
 title: "Record aed148d62b · Estimating-heatwave-induced-excess-mortality-in-Ind"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T21:20:13.984290+00:00
+updated_at: 2026-09-16T22:47:53.263138+00:00
 tags: [record, real-data]
 ---
 

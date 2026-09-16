@@ -2,7 +2,7 @@
 title: "Record 061ec14fa9 · LLM-Post-Training-as-Brownfield-Maintenance-An-Indu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T21:20:13.843179+00:00
+updated_at: 2026-09-16T22:47:53.030424+00:00
 tags: [record, real-data]
 ---
 

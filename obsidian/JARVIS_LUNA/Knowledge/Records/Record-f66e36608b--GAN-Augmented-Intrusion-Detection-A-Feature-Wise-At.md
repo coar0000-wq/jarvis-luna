@@ -2,7 +2,7 @@
 title: "Record f66e36608b · GAN-Augmented-Intrusion-Detection-A-Feature-Wise-At"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T21:20:13.992826+00:00
+updated_at: 2026-09-16T22:47:53.277943+00:00
 tags: [record, real-data]
 ---
 

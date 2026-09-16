@@ -2,7 +2,7 @@
 title: "Record f89b0aa247 · The-Korean-Skin-Care-Brands-You-Need-to-Know-Right-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T21:20:14.070260+00:00
+updated_at: 2026-09-16T22:47:53.410103+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiaEFVX3lxTE5IU3BOQlAtbDNIMHYxV3V5ZktzQ3ExZ3JLdmtGNDdCaDdfMVJyWFNVYnptWkFWMUZlWV9obmkyendHcEtfZ2VoYzhfTjFTQWV5TlE0SFN3QWxqcUtxLTNqQXFsYkpESTJJ?oc=5)
 
-**제목:** The Korean Skin-Care Brands You Need to Know Right Now - allure.com
+**제목:** The Korean Skin-Care Brands You Need to Know Right Now - Allure
 
-The Korean Skin-Care Brands You Need to Know Right Now - allure.com
+The Korean Skin-Care Brands You Need to Know Right Now - Allure
 
 **출처:** Source · Google Search
 

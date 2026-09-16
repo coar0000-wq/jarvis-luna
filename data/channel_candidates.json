@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T19:29:48.807878+00:00",
+  "generated_at": "2026-09-16T22:46:25.743539+00:00",
   "generator": "scripts/discover_channels.py",
   "정책": "후보를 자동으로 등록하지 않는다. robots.txt 를 확인하고 실제로 호출해 본 뒤 진짜 데이터가 나오는 것만 제안한다. 붙일지 말지는 대화로 지시하면 자비스가 수집기를 만들어 연동한다. 이미 가동 중인 소스는 already_live 로 표시한다.",
   "판정기준": [
@@ -65,12 +65,12 @@
       "url": "https://www.allure.com/feed/rss",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 25511,
+      "bytes": 25399,
       "items": 30,
       "samples": [
-        "5 Best Bond Repair Treatments That Strengthen Damaged Hair",
-        "13 Best Nordstrom 125 Anniversary Beauty Deals to Shop",
-        "What the Shitty Hyrox Incident Tells Us About the State of Our Manners"
+        "A New Study Analyzing 400,000 Reddit Posts Links GLP-1 Usage to Lesser-Known Side Effects",
+        "Cat-Eye Nails Are the Most Mesmerizing Way to Wear Shimmering Color",
+        "5 Best Bond Repair Treatments That Strengthen Damaged Hair"
       ],
       "verdict": "가능",
       "reason": "30건 파싱 성공, 값이 서로 다름",
@@ -97,12 +97,12 @@
       "url": "https://trends.google.com/trending/rss?geo=US",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 21135,
+      "bytes": 21592,
       "items": 40,
       "samples": [
-        "atlético madrid vs osasuna standings",
-        "Atletico Madrid vs Osasuna: Spanish La Liga stats & head-to-head",
-        "Lee Kang-in Starts Sixth Straight Match as Simeone Maintains Trust"
+        "morgan freeman",
+        "‘Ear Hustle’ Podcast Gets Documentary From Executive Producer Morgan Freeman (EXCLUSIVE)",
+        "Here's what Morgan Freeman's role is in Lioness, and why he is always in the Situation Room"
       ],
       "verdict": "가능",
       "reason": "40건 파싱 성공, 값이 서로 다름",

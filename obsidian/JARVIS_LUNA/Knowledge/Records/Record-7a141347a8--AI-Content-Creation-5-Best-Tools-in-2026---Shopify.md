@@ -2,7 +2,7 @@
 title: "Record 7a141347a8 · AI-Content-Creation-5-Best-Tools-in-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T21:20:14.059757+00:00
+updated_at: 2026-09-16T22:47:53.390634+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiYEFVX3lxTE4yN2hFdG9hTnFrcHRTRG53NzBlbGJmR2hQZVJRZlRzV2UyWWJ3UVVjZzNBelBEOEdNd3BHc2Q4b1cyUXBZMWRWYUcwQjhYSGh4a0dxdzNPLWkzWTFmR0k5cQ?oc=5)
 
-**제목:** AI Content Creation: 5 Best Tools in 2026 - shopify.com
+**제목:** AI Content Creation: 5 Best Tools in 2026 - Shopify
 
-AI Content Creation: 5 Best Tools in 2026 - shopify.com
+AI Content Creation: 5 Best Tools in 2026 - Shopify
 
 **출처:** Source · Google Search
 

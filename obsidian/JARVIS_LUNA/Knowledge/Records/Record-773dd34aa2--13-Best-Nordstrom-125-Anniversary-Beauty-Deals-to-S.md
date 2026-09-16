@@ -1,12 +1,12 @@
 ---
-title: "Record 773dd34aa2 · 13-Best-Nordstrom-125-Anniversary-Beauty-Deals-to-Shop"
+title: "Record 773dd34aa2 · 13-Best-Nordstrom-125-Anniversary-Beauty-Deals-to-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T21:20:14.249042+00:00
+updated_at: 2026-09-16T22:47:53.736245+00:00
 tags: [record, real-data]
 ---
 
-# Record 773dd34aa2 · 13-Best-Nordstrom-125-Anniversary-Beauty-Deals-to-Shop
+# Record 773dd34aa2 · 13-Best-Nordstrom-125-Anniversary-Beauty-Deals-to-S
 
 > 실제 수집 레코드입니다. 원문: [www.allure.com](https://www.allure.com/story/nordstrom-125-anniversary-beauty-savings-event-2026)
 
