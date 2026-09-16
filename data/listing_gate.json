@@ -1,20 +1,18 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-16T14:08:26.178553+00:00",
+  "generated_at": "2026-09-16T14:10:24.208051+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "total": 9,
-  "ready": 3,
+  "ready": 8,
   "counts": {
     "copy": 9,
     "gosi": 9,
-    "us_label": 4,
+    "us_label": 9,
     "price": 8,
-    "legal": 4
+    "legal": 9
   },
   "blockers": {
-    "us_label": 5,
-    "price": 1,
-    "legal": 5
+    "price": 1
   },
   "count": 9,
   "note": "gosi=한국 고시 4항목, us_label=영문 라벨(플레이스홀더 제외), legal=MoCRA 등 하드블록. ready는 5개 조건 모두 통과한 건수.",
@@ -55,8 +53,8 @@
         "net_contents": "2ml",
         "manufacturer": "화장품제조업자: ㈜이앤씨 / 화장품책임판매업자: ㈜브이티코스메틱",
         "country_of_origin": "Korea",
-        "ingredients_inci": "",
-        "us_label_ok": false
+        "ingredients_inci": "Water, Dipropylene Glycol, Glycerin, Niacinamide, Butylene Glycol, Macadamia Ternifolia Seed Oil, 1,2-Hexanediol, Ethylhexyl Palmitate, Silica, Sodium Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Polyisobutene, Glycereth-26, Ethylhexylglycerin, Caprylyl Glycol, Adenosine, Sodium Polyacrylate, Centella Asiatica Extract, Sodium Hyaluronate, Caprylyl/Capryl Glucoside, Sorbitan Oleate, Xanthan Gum, Propolis Extract, Asiaticoside, Madecassoside, Madecassic Acid, Asiatic Acid, Glycine, Serine, Glutamic Acid, Aspartic Acid, Leucine, Alanine, Lysine, Arginine, Tyrosine, Phenylalanine, Threonine, Proline, Valine, Isoleucine, Histidine, Methionine, Cysteine",
+        "us_label_ok": true
       },
       "price": {
         "price_usd": 24.99,
@@ -65,14 +63,11 @@
       },
       "legal": {
         "status": "auto_checked",
-        "hard_block": true,
-        "hard_block_reason": "자동 점검 미통과: label_fields"
+        "hard_block": false,
+        "hard_block_reason": ""
       },
-      "ready": false,
-      "blocked_by": [
-        "us_label",
-        "legal"
-      ]
+      "ready": true,
+      "blocked_by": []
     },
     {
       "rank": 2,
@@ -110,8 +105,8 @@
         "net_contents": "30ml",
         "manufacturer": "화장품제조업자: (주)메가코스 / 화장품책임판매업자: (주)토니모리",
         "country_of_origin": "Korea",
-        "ingredients_inci": "",
-        "us_label_ok": false
+        "ingredients_inci": "Water, Butylene Glycol, Glycerin, Squalane, 1,2-Hexanediol, Butyrospermum Parkii (Shea) Butter, C9-12 Alkane, Dimethicone, Bakuchiol, Retinol, C14-22 Alcohols, Glyceryl Stearate, PEG-100 Stearate, Helianthus Annuus (Sunflower) Seed Oil, Glyceryl Stearate SE, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, C12-20 Alkyl Glucoside, Glycine Soja (Soybean) Oil, Tocopheryl Acetate, Allantoin, Ethylhexylglycerin, Carbomer, Tromethamine, Adenosine, Xanthan Gum, Disodium EDTA, Sorbitan Isostearate, BHT, Bixa Orellana Seed Oil, Ceramide NP, Phaseolus Radiatus Seed Extract, Panthenol, Tocopherol, Hydrogenated Lecithin, Caprylic/Capric Triglyceride, Polyglyceryl-10 Myristate, Centella Asiatica Extract, Sodium Hyaluronate, Fragrance|Perfume|Parfum",
+        "us_label_ok": true
       },
       "price": {
         "price_usd": 24.99,
@@ -120,14 +115,11 @@
       },
       "legal": {
         "status": "auto_checked",
-        "hard_block": true,
-        "hard_block_reason": "자동 점검 미통과: label_fields"
+        "hard_block": false,
+        "hard_block_reason": ""
       },
-      "ready": false,
-      "blocked_by": [
-        "us_label",
-        "legal"
-      ]
+      "ready": true,
+      "blocked_by": []
     },
     {
       "rank": 3,
@@ -165,8 +157,8 @@
         "net_contents": "2ml",
         "manufacturer": "화장품제조업자: ㈜이앤씨 / 화장품책임판매업자: ㈜브이티코스메틱",
         "country_of_origin": "Korea",
-        "ingredients_inci": "",
-        "us_label_ok": false
+        "ingredients_inci": "Water, Dipropylene Glycol, Glycerin, Niacinamide, Butylene Glycol, Macadamia Ternifolia Seed Oil, 1,2-Hexanediol, Ethylhexyl Palmitate, Sodium Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Polyisobutene, Silica, Glycereth-26, Ethylhexylglycerin, Caprylyl Glycol, Adenosine, Sodium Polyacrylate, Sodium Hyaluronate, Centella Asiatica Extract, Caprylyl/Capryl Glucoside, Sorbitan Oleate, Xanthan Gum, Propolis Extract, Asiaticoside, Madecassoside, Madecassic Acid, Asiatic Acid, Glycine, Serine, Glutamic Acid, Aspartic Acid, Leucine, Alanine, Lysine, Arginine, Tyrosine, Phenylalanine, Threonine, Proline, Valine, Isoleucine, Histidine, Methionine, Cysteine",
+        "us_label_ok": true
       },
       "price": {
         "price_usd": 24.99,
@@ -175,14 +167,11 @@
       },
       "legal": {
         "status": "auto_checked",
-        "hard_block": true,
-        "hard_block_reason": "자동 점검 미통과: label_fields"
+        "hard_block": false,
+        "hard_block_reason": ""
       },
-      "ready": false,
-      "blocked_by": [
-        "us_label",
-        "legal"
-      ]
+      "ready": true,
+      "blocked_by": []
     },
     {
       "rank": 4,
@@ -220,8 +209,8 @@
         "net_contents": "50ml",
         "manufacturer": "화장품제조업자: (주)예그리나 / 화장품책임판매업자: (주)브이티코스메틱",
         "country_of_origin": "Korea",
-        "ingredients_inci": "",
-        "us_label_ok": false
+        "ingredients_inci": "Water, Butylene Glycol, Glycerin, Propanediol, C12-15 Alkyl Benzoate, Caprylic/Capric Triglyceride, Polyglycerin-3, Methyl Hydrogenated Rosinate, 1,2-Hexanediol, Niacinamide, Caprylic/Capric/Myristic/Stearic Triglyceride, C14-22 Alcohols, Bis-Diglyceryl Polyacyladipate-2, Vinyl Dimethicone, Cetearyl Alcohol, Panthenol, Glyceryl Stearate, Betaine, C12-20 Alkyl Glucoside, Polyacrylate-13, Palmitic Acid, Hydrogenated Vegetable Oil, Stearic Acid, Cetearyl Glucoside, Hydrogenated Polyisobutene, Macadamia Ternifolia Seed Oil, Tromethamine, Glyceryl Acrylate/Acrylic Acid Copolymer, Carbomer, Xanthan Gum, Ethylhexylglycerin, Allantoin, Adenosine, Polyglyceryl-10 Laurate, Ethylhexyl Palmitate, Disodium EDTA, Gellan Gum, Sorbitan Isostearate, Agar, Squalane, Hydrogenated Lecithin, Helianthus Annuus (Sunflower) Seed Oil, Sodium Hyaluronate, Guaiazulene, Hydrolyzed Elastin, Panax Ginseng Root Extract, Copper Chlorophyll, Potassium Hyaluronate, Hydroxypropyltrimonium Hyaluronate, Hydrolyzed Sodium Hyaluronate, Hydrolyzed Hyaluronic Acid, Hyaluronic Acid, Hydrolyzed Collagen, Caprylyl Glycol, Rosmarinus Officinalis (Rosemary) Extract, Ceramide NP, Pentylene Glycol, Sodium DNA, Sodium Hyaluronate Crosspolymer, Ceramide NS, Sodium Acetylated Hyaluronate, Phytosphingosine, Citric Acid, Cholesterol, Sodium Guaiazulene Sulfonate, Ceramide AS, Ceramide AP, Ceramide EOP, Fragrance|Perfume|Parfum",
+        "us_label_ok": true
       },
       "price": {
         "price_usd": 24.99,
@@ -230,14 +219,11 @@
       },
       "legal": {
         "status": "auto_checked",
-        "hard_block": true,
-        "hard_block_reason": "자동 점검 미통과: label_fields"
+        "hard_block": false,
+        "hard_block_reason": ""
       },
-      "ready": false,
-      "blocked_by": [
-        "us_label",
-        "legal"
-      ]
+      "ready": true,
+      "blocked_by": []
     },
     {
       "rank": 5,
@@ -435,8 +421,8 @@
         "net_contents": "29g",
         "manufacturer": "㈜제닉 (충청남도 논산시 성동면 산업단지로5길 5)",
         "country_of_origin": "Korea",
-        "ingredients_inci": "",
-        "us_label_ok": false
+        "ingredients_inci": "Water, Glycerin, Niacinamide, Ceratonia Siliqua (Carob) Gum, Chondrus Crispus Extract, 1,2-Hexanediol, Pentylene Glycol, Ethylhexylglycerin, Collagen Extract, Adenosine, Disodium EDTA, Glyceryl Glucoside, Polyglyceryl-6 Caprylate, Polyglyceryl-4 Caprate, Tocopherol",
+        "us_label_ok": true
       },
       "price": {
         "price_usd": 24.99,
@@ -445,14 +431,11 @@
       },
       "legal": {
         "status": "auto_checked",
-        "hard_block": true,
-        "hard_block_reason": "자동 점검 미통과: label_fields"
+        "hard_block": false,
+        "hard_block_reason": ""
       },
-      "ready": false,
-      "blocked_by": [
-        "us_label",
-        "legal"
-      ]
+      "ready": true,
+      "blocked_by": []
     },
     {
       "rank": 9,
