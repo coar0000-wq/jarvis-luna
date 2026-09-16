@@ -2,7 +2,7 @@
 title: "Record 99828da4a3 · As-K-beauty-continues-to-grow-by-expanding-its-expo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T14:44:15.185498+00:00
+updated_at: 2026-09-16T16:58:02.078172+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 3bf4424029 · HiBRIDGE-A-Hierarchical-Bayesian-Neural-Network-Fra"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T14:44:14.918229+00:00
+updated_at: 2026-09-16T16:58:01.807899+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1422df40a2 · Sexual-Assault-Among-US-Military-Spouses-An-Examina"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T14:44:15.061749+00:00
+updated_at: 2026-09-16T16:58:01.951819+00:00
 tags: [record, real-data]
 ---
 

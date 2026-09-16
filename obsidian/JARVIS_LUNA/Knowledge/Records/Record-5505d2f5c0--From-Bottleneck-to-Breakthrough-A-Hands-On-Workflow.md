@@ -2,7 +2,7 @@
 title: "Record 5505d2f5c0 · From-Bottleneck-to-Breakthrough-A-Hands-On-Workflow"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T14:44:15.123126+00:00
+updated_at: 2026-09-16T16:58:02.014586+00:00
 tags: [record, real-data]
 ---
 

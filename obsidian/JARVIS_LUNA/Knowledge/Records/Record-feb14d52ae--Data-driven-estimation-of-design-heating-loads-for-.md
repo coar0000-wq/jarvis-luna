@@ -2,7 +2,7 @@
 title: "Record feb14d52ae · Data-driven-estimation-of-design-heating-loads-for-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T14:44:14.912828+00:00
+updated_at: 2026-09-16T16:58:01.802536+00:00
 tags: [record, real-data]
 ---
 

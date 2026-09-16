@@ -2,7 +2,7 @@
 title: "Record 36877f0da3 · K--Beauty-Trends-Into-Essentials---Cosmetics-Busine"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T14:44:15.241688+00:00
+updated_at: 2026-09-16T16:58:02.136204+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMibkFVX3lxTE1oTjlHSVU4ZDNwM3ZENjdIbmNBaFpfeUZJRkQ3NHpFdnUtT2JIdDBFLXA0Z1VmNENtcEd3VjZoVVo3V1NWUkxiLWdTT2pHemhoY3JiTEZvU0V1SVZabmFPcGV2RXltQ0U1c2hJSmVR?oc=5)
 
-**제목:** K- Beauty: Trends Into Essentials - cosmeticsbusiness.com
+**제목:** K- Beauty: Trends Into Essentials - Cosmetics Business
 
-K- Beauty: Trends Into Essentials - cosmeticsbusiness.com
+K- Beauty: Trends Into Essentials - Cosmetics Business
 
 **출처:** Source · Google Search
 

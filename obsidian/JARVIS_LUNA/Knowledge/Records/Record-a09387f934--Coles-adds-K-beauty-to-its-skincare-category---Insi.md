@@ -2,7 +2,7 @@
 title: "Record a09387f934 · Coles-adds-K-beauty-to-its-skincare-category---Insi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T14:44:15.315266+00:00
+updated_at: 2026-09-16T16:58:02.205651+00:00
 tags: [record, real-data]
 ---
 

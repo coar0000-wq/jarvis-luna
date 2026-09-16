@@ -2,7 +2,7 @@
 title: "Record b5cbd8c92e · The-biggest-TikTok-beauty-trends-of-2024---Womens-H"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T14:44:15.273046+00:00
+updated_at: 2026-09-16T16:58:02.168142+00:00
 tags: [record, real-data]
 ---
 

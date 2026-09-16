@@ -2,7 +2,7 @@
 title: "Record c9a0c8ef8e · Exchange-of-indivisible-goods-under-matroid-constra"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T14:44:14.997250+00:00
+updated_at: 2026-09-16T16:58:01.885953+00:00
 tags: [record, real-data]
 ---
 

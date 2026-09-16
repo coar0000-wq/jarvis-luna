@@ -2,7 +2,7 @@
 title: "Record 3238d70f6f · If-theres-one-sector-in-K-Beauty-that-is-growing-in-leaps-and-bound-it"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T14:44:15.185226+00:00
+updated_at: 2026-09-16T16:58:02.077909+00:00
 tags: [record, real-data]
 ---
 

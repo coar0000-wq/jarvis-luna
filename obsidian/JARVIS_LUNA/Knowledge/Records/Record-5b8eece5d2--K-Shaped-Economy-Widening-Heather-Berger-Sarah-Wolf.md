@@ -2,7 +2,7 @@
 title: "Record 5b8eece5d2 · K-Shaped-Economy-Widening-Heather-Berger-Sarah-Wolfe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T14:44:15.616345+00:00
+updated_at: 2026-09-16T16:58:02.485845+00:00
 tags: [record, real-data]
 ---
 

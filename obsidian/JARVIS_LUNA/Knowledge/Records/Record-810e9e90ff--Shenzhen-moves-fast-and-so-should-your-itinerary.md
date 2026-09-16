@@ -2,7 +2,7 @@
 title: "Record 810e9e90ff · Shenzhen-moves-fast-and-so-should-your-itinerary"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T14:44:15.668979+00:00
+updated_at: 2026-09-16T16:58:02.530903+00:00
 tags: [record, real-data]
 ---
 
