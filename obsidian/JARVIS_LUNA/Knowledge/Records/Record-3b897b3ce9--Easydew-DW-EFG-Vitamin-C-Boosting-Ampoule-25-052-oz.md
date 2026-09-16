@@ -2,7 +2,7 @@
 title: "Record 3b897b3ce9 · Easydew-DW-EFG-Vitamin-C-Boosting-Ampoule-25-052-oz"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T21:23:20.401933+00:00
+updated_at: 2026-09-16T00:07:03.578089+00:00
 tags: [record, real-data]
 ---
 

@@ -1,23 +1,23 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-15T23:23:12.338227+00:00",
+  "generated_at": "2026-09-16T00:14:16.140195+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
-  "total": 10,
+  "total": 9,
   "ready": 3,
   "counts": {
-    "copy": 10,
-    "gosi": 5,
+    "copy": 9,
+    "gosi": 4,
     "us_label": 4,
-    "price": 4,
+    "price": 8,
     "legal": 4
   },
   "blockers": {
     "gosi": 5,
-    "us_label": 6,
-    "price": 6,
-    "legal": 6
+    "us_label": 5,
+    "price": 1,
+    "legal": 5
   },
-  "count": 10,
+  "count": 9,
   "note": "gosi=한국 고시 4항목, us_label=영문 라벨(플레이스홀더 제외), legal=MoCRA 등 하드블록. ready는 5개 조건 모두 통과한 건수.",
   "items": [
     {
@@ -60,8 +60,8 @@
         "us_label_ok": false
       },
       "price": {
-        "price_usd": null,
-        "margin_pct": null,
+        "price_usd": 23.99,
+        "margin_pct": 56.3,
         "register_blocked": false
       },
       "legal": {
@@ -73,7 +73,6 @@
       "blocked_by": [
         "gosi",
         "us_label",
-        "price",
         "legal"
       ]
     },
@@ -117,8 +116,8 @@
         "us_label_ok": false
       },
       "price": {
-        "price_usd": null,
-        "margin_pct": null,
+        "price_usd": 23.99,
+        "margin_pct": 49.2,
         "register_blocked": false
       },
       "legal": {
@@ -130,7 +129,6 @@
       "blocked_by": [
         "gosi",
         "us_label",
-        "price",
         "legal"
       ]
     },
@@ -174,8 +172,8 @@
         "us_label_ok": false
       },
       "price": {
-        "price_usd": null,
-        "margin_pct": null,
+        "price_usd": 23.99,
+        "margin_pct": 56.3,
         "register_blocked": false
       },
       "legal": {
@@ -187,7 +185,6 @@
       "blocked_by": [
         "gosi",
         "us_label",
-        "price",
         "legal"
       ]
     },
@@ -231,8 +228,8 @@
         "us_label_ok": false
       },
       "price": {
-        "price_usd": null,
-        "margin_pct": null,
+        "price_usd": 23.99,
+        "margin_pct": 46.1,
         "register_blocked": false
       },
       "legal": {
@@ -244,7 +241,6 @@
       "blocked_by": [
         "gosi",
         "us_label",
-        "price",
         "legal"
       ]
     },
@@ -355,61 +351,6 @@
     },
     {
       "rank": 7,
-      "pd_no": "1060487",
-      "product_id": "1060487",
-      "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
-      "category": "마스크팩",
-      "price_krw": 3000,
-      "shopify_score": 90,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060487",
-      "copy": {
-        "title": "Medi-Peel Lacto Pore Lifting Wrapping Mask 4ml 4pk",
-        "description_html": "<p>Discover the Medi-Peel Lacto Pore Lifting Wrapping Mask, a convenient 4-pack featuring 4ml portions designed for your skincare routine.</p><p>This wrapping mask helps care for pores and provides a smooth-looking finish for a refreshed complexion.</p>",
-        "seo_title": "Medi-Peel Lacto Pore Lifting Wrapping Mask 4ml 4pk",
-        "seo_description": "Shop Medi-Peel Lacto Pore Lifting Wrapping Mask in a convenient 4-pack of 4ml sizes. Designed for pore care and a smooth-looking finish.",
-        "tags": [
-          "medi-peel",
-          "pore-mask",
-          "wrapping-mask",
-          "k-beauty",
-          "facial-mask",
-          "skincare"
-        ],
-        "product_type": "Face Mask"
-      },
-      "copy_status": "ok",
-      "gosi": {
-        "volume": "4 ml / 0.13 fl. oz. 4 ml x 4 EA",
-        "maker": "제품 내 별도 표기 / 주식회사 스킨이데아",
-        "origin": "한국",
-        "ingredients": "정제수, 부틸렌글라이콜, 호호바씨오일, 폴리비닐알코올, 메틸프로판다이올, 1,2-헥산다이올, 알진, 폴리솔베이트80, 카프릴릭/카프릭트라이글리세라이드, 폴리글리세릴-10올리에이트, 풀루란, 하이드롤라이즈드콜라겐추출물",
-        "gosi_ok": true
-      },
-      "us_label": {
-        "net_contents": "4 ml / 0.13 fl. oz. 4 ml x 4 EA",
-        "manufacturer": "제품 내 별도 표기 / 주식회사 스킨이데아",
-        "country_of_origin": "Korea",
-        "ingredients_inci": "",
-        "us_label_ok": false
-      },
-      "price": {
-        "price_usd": 23.99,
-        "margin_pct": 56.2,
-        "register_blocked": false
-      },
-      "legal": {
-        "status": "auto_checked",
-        "hard_block": true,
-        "hard_block_reason": "자동 점검 미통과: label_fields"
-      },
-      "ready": false,
-      "blocked_by": [
-        "us_label",
-        "legal"
-      ]
-    },
-    {
-      "rank": 8,
       "pd_no": "1049271",
       "product_id": "1049271",
       "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
@@ -450,7 +391,7 @@
       },
       "price": {
         "price_usd": 14.99,
-        "margin_pct": -6.5,
+        "margin_pct": -6.4,
         "register_blocked": true
       },
       "legal": {
@@ -464,7 +405,7 @@
       ]
     },
     {
-      "rank": 9,
+      "rank": 8,
       "pd_no": "1041403",
       "product_id": "1041403",
       "name": "채비공간 어성초 추출물 비건 토너 150 ml",
@@ -516,7 +457,7 @@
       "blocked_by": []
     },
     {
-      "rank": 10,
+      "rank": 9,
       "pd_no": "1042619",
       "product_id": "1042619",
       "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
@@ -556,8 +497,8 @@
         "us_label_ok": false
       },
       "price": {
-        "price_usd": null,
-        "margin_pct": null,
+        "price_usd": 23.99,
+        "margin_pct": 63.3,
         "register_blocked": false
       },
       "legal": {
@@ -569,7 +510,6 @@
       "blocked_by": [
         "gosi",
         "us_label",
-        "price",
         "legal"
       ]
     }

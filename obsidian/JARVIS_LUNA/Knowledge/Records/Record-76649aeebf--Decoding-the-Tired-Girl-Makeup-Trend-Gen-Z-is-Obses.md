@@ -2,7 +2,7 @@
 title: "Record 76649aeebf · Decoding-the-Tired-Girl-Makeup-Trend-Gen-Z-is-Obses"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T21:23:20.150870+00:00
+updated_at: 2026-09-16T00:07:03.376399+00:00
 tags: [record, real-data]
 ---
 

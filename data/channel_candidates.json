@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T20:57:18.296880+00:00",
+  "generated_at": "2026-09-16T00:05:36.252392+00:00",
   "generator": "scripts/discover_channels.py",
   "정책": "후보를 자동으로 등록하지 않는다. robots.txt 를 확인하고 실제로 호출해 본 뒤 진짜 데이터가 나오는 것만 제안한다. 붙일지 말지는 대화로 지시하면 자비스가 수집기를 만들어 연동한다. 이미 가동 중인 소스는 already_live 로 표시한다.",
   "판정기준": [
@@ -65,12 +65,12 @@
       "url": "https://www.allure.com/feed/rss",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 25639,
+      "bytes": 25447,
       "items": 30,
       "samples": [
-        "Selena Gomez's Sunset Frost Nails Capture Golden Hour in a Manicure — See Photos",
-        "8 Best Wrinkle Serums for Fine Lines, Texture, and Firmness",
-        "How GLP-1 Weight Loss Drugs Left the Doctor’s Office"
+        "What the Shitty Hyrox Incident Tells Us About the State of Our Manners",
+        "Did Hollywood’s Old Lady Revolution Arrive at the 2026 Emmys?",
+        "Selena Gomez's Sunset Frost Nails Capture Golden Hour in a Manicure — See Photos"
       ],
       "verdict": "가능",
       "reason": "30건 파싱 성공, 값이 서로 다름",
@@ -97,12 +97,12 @@
       "url": "https://trends.google.com/trending/rss?geo=US",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 21754,
+      "bytes": 21226,
       "items": 40,
       "samples": [
-        "prince harry meghan markle uk move",
-        "Prince Harry and Meghan Markle return to the UK, and here's why they're surprised by the king's published letter",
-        "Why Prince Harry Was Ready to Move Back to the U.K. With Meghan Markle and Their Kids"
+        "disney+",
+        "Playlists On Disney+: Curated By Disney, Played Your Way",
+        "Disney+ Introduces Playlists for a New Lean-Back Viewing Experience"
       ],
       "verdict": "가능",
       "reason": "40건 파싱 성공, 값이 서로 다름",

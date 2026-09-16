@@ -2,7 +2,7 @@
 title: "Record 14acf9b211 · What-Is-AI-Ecommerce-Uses-and-Examples-2026---Shopi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T21:23:20.121917+00:00
+updated_at: 2026-09-16T00:07:03.351294+00:00
 tags: [record, real-data]
 ---
 

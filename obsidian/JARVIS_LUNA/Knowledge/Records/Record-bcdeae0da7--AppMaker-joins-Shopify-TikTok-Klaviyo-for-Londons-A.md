@@ -1,12 +1,12 @@
 ---
-title: "Record bcdeae0da7 · AppMaker-joins-Shopify-TikTok-Klaviyo-for-Londons-A-New-Era-26-ecommer"
+title: "Record bcdeae0da7 · AppMaker-joins-Shopify-TikTok-Klaviyo-for-Londons-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T21:23:20.302719+00:00
+updated_at: 2026-09-16T00:07:03.497078+00:00
 tags: [record, real-data]
 ---
 
-# Record bcdeae0da7 · AppMaker-joins-Shopify-TikTok-Klaviyo-for-Londons-A-New-Era-26-ecommer
+# Record bcdeae0da7 · AppMaker-joins-Shopify-TikTok-Klaviyo-for-Londons-A
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMirAFBVV95cUxPdHlpRDF4N3dNaEhNQS1ja1RtZ2RtZXdpSXlmMjM0MjQ4dWlJNm5QZW81aDdiR1RIVi0ybTVpeU1JdW8zV0Q5YWJxYWlESjJubEhyT1lHZFpDWUhFN0xZSWVoOFlsX25tb05QOVdya3ltN29NT1BRT2c0MURZRjU4TUU4bGVFV1E0aW1nckN4aFR6NmhidHNka0U0ODR0d1hHaWpGcGd2azB2WDg1?oc=5)
 

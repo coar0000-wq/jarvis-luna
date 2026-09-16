@@ -1,6 +1,6 @@
 {
   "team": "디자인팀",
-  "generated_at": "2026-09-15T20:51:11.087362+00:00",
+  "generated_at": "2026-09-15T23:58:39.313713+00:00",
   "scope": "Shopify 스토어 디자인 사양 관리 + 디자인 레퍼런스 수집",
   "checklist": {
     "total": 12,
@@ -37,7 +37,7 @@
         "source": "IQDtl0Dacjo 4분 Create Product Launch Content",
         "check": "shopify_listing_copy.json",
         "status": "완료",
-        "evidence": "data/shopify_listing_copy.json 8건"
+        "evidence": "data/shopify_listing_copy.json 10건"
       },
       {
         "id": "design-system",
@@ -251,6 +251,13 @@
         "feed": "Shopify Changelog"
       },
       {
+        "title": "Filter Catalog search results by media type",
+        "url": "https://shopify.dev/changelog/filter-catalog-search-results-by-media-type",
+        "date": "2026-09-15",
+        "summary": "The Catalog API now returns video and 3D model media on products that have it, and supports filtering search results by media type. You can request only products that have video or 3D model media attached, and matching products return links to those assets in the same response. The new filter is opt",
+        "feed": "Shopify Dev Changelog"
+      },
+      {
         "title": "Dynamic complexity cost for `metafieldsSet` mutation",
         "url": "https://shopify.dev/changelog/dynamic-complexity-cost-for-metafieldsset-mutation",
         "date": "2026-09-15",
@@ -346,13 +353,6 @@
         "url": "https://shopify.dev/changelog/more-resilient-refreshes-for-expiring-offline-access-tokens",
         "date": "2026-08-28",
         "summary": "Expiring offline access token refreshes now retain the previously used refresh token until an app begins using its replacement. This rollout helps apps recover when a refresh response is lost or isn’t persisted. No migration is required, but apps should continue to store every refreshed token pair a",
-        "feed": "Shopify Dev Changelog"
-      },
-      {
-        "title": "Password Protected Shop Dev flows on Shopify Theme CLI v3.83.x and older to be deprecated",
-        "url": "https://shopify.dev/changelog/password-protected-shop-dev-flows-on-shopify-theme-cli-v3-83-x-and-older-to-be-deprecated",
-        "date": "2026-08-27",
-        "summary": "Starting October 1, 2026, Theme commands on Shopify CLI for password protected storefronts will require version 3.84.0 or later . Versions 3.83.x and earlier will no longer be supported for theme development workflows on password protected storefronts. If you use Theme commands on Shopify CLI to dev",
         "feed": "Shopify Dev Changelog"
       },
       {

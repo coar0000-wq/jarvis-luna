@@ -1,12 +1,12 @@
 ---
-title: "Record 34ebff070a · Florence-Pughs-Emmys-2026-Updo-Defies-ExplanationSee-the-Photos"
+title: "Record 34ebff070a · Florence-Pughs-Emmys-2026-Updo-Defies-ExplanationSe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T21:23:20.431182+00:00
+updated_at: 2026-09-16T00:07:03.599027+00:00
 tags: [record, real-data]
 ---
 
-# Record 34ebff070a · Florence-Pughs-Emmys-2026-Updo-Defies-ExplanationSee-the-Photos
+# Record 34ebff070a · Florence-Pughs-Emmys-2026-Updo-Defies-ExplanationSe
 
 > 실제 수집 레코드입니다. 원문: [www.allure.com](https://www.allure.com/story/florence-pugh-emmys-updo)
 

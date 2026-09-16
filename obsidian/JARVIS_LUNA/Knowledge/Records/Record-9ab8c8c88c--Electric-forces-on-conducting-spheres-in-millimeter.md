@@ -2,7 +2,7 @@
 title: "Record 9ab8c8c88c · Electric-forces-on-conducting-spheres-in-millimeter"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T21:23:19.932911+00:00
+updated_at: 2026-09-16T00:07:03.198348+00:00
 tags: [record, real-data]
 ---
 

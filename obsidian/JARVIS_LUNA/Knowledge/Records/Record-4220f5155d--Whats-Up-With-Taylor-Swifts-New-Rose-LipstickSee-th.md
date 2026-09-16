@@ -1,12 +1,12 @@
 ---
-title: "Record 4220f5155d · Whats-Up-With-Taylor-Swifts-New-Rose-LipstickSee-the-Photos"
+title: "Record 4220f5155d · Whats-Up-With-Taylor-Swifts-New-Rose-LipstickSee-th"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T21:23:20.437267+00:00
+updated_at: 2026-09-16T00:07:03.603558+00:00
 tags: [record, real-data]
 ---
 
-# Record 4220f5155d · Whats-Up-With-Taylor-Swifts-New-Rose-LipstickSee-the-Photos
+# Record 4220f5155d · Whats-Up-With-Taylor-Swifts-New-Rose-LipstickSee-th
 
 > 실제 수집 레코드입니다. 원문: [www.allure.com](https://www.allure.com/story/taylor-swift-rose-lipstick)
 

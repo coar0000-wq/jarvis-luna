@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-09-16T08:23:12.190986+09:00",
+    "updated_at": "2026-09-16T09:14:15.968731+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -374,7 +374,7 @@
   "keyword_board": [
     {
       "seed": "korean sheet mask",
-      "s_product_count": 4,
+      "s_product_count": 3,
       "from_terms": [
         "마스크"
       ],
@@ -414,7 +414,6 @@
       "linked_s_products": [
         "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
         "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-        "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
         "셀더마데일리 콜라겐 에센스겔 마스크 29 g"
       ],
       "source": "다이소 S등급 상품명 + OliveYoung US 실수집 대조"
@@ -916,33 +915,6 @@
     },
     {
       "rank": 7,
-      "pd_no": "1060487",
-      "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
-      "name_en": "Medi-Peel Lacto Pore Lifting Wrapping Mask 4ml 4pk",
-      "bucket": "마스크팩",
-      "score": 90,
-      "rating": 4.8,
-      "review_count": 1663,
-      "cost_krw": 3000,
-      "landed_cost_usd": null,
-      "breakeven_usd": null,
-      "suggested_price_usd": 19.99,
-      "margin_pct": null,
-      "shopify_action": "2차 검토",
-      "ad_keywords": [
-        "medi-peel",
-        "pore-mask",
-        "wrapping-mask",
-        "k-beauty",
-        "facial-mask",
-        "skincare"
-      ],
-      "ad_keywords_source": "Gemini 영문 카피 태그",
-      "listing_ready": true,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060487"
-    },
-    {
-      "rank": 8,
       "pd_no": "1049271",
       "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
       "name_en": "VT Cica Calming Toner 300 ml",
@@ -969,7 +941,7 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049271"
     },
     {
-      "rank": 9,
+      "rank": 8,
       "pd_no": "1041403",
       "name": "채비공간 어성초 추출물 비건 토너 150 ml",
       "name_en": "Chaebi Gongan Heartleaf Extract Vegan Toner 150ml",
@@ -996,7 +968,7 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403"
     },
     {
-      "rank": 10,
+      "rank": 9,
       "pd_no": "1042619",
       "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
       "name_en": "Celderma Daily Collagen Essence Gel Mask 29g",
@@ -1024,42 +996,6 @@
     }
   ],
   "competitor_watch": [
-    {
-      "name": "REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)",
-      "brand": "REJURAN",
-      "price_usd": 55.0,
-      "rating": 4.7,
-      "review_count": 13,
-      "us_rank": 2,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 2위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA44060194",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "Sol De Janeiro Bom Dia Cream 8.1 fl. oz.(240ml)",
-      "brand": "Sol De Janeiro",
-      "price_usd": 48.0,
-      "rating": 0,
-      "review_count": 0,
-      "us_rank": 3,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 3위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA96522241",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "Sol De Janeiro Beija Flor Cream 8.1 fl. oz.(240ml)",
-      "brand": "Sol De Janeiro",
-      "price_usd": 48.0,
-      "rating": 0,
-      "review_count": 0,
-      "us_rank": 4,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 4위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA11392264",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
     {
       "name": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
       "brand": "MEDIHEAL",
@@ -1095,10 +1031,46 @@
       "why": "us.oliveyoung.com/best-sellers 실수집 50위 · 마스크팩 동일 포지션",
       "url": "https://us.oliveyoung.com/products/UA45058326",
       "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)",
+      "brand": "REJURAN",
+      "price_usd": 55.0,
+      "rating": 4.7,
+      "review_count": 13,
+      "us_rank": 2,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 2위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA44060194",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "Sol De Janeiro Bom Dia Cream 8.1 fl. oz.(240ml)",
+      "brand": "Sol De Janeiro",
+      "price_usd": 48.0,
+      "rating": 0,
+      "review_count": 0,
+      "us_rank": 3,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 3위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA96522241",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "Sol De Janeiro Beija Flor Cream 8.1 fl. oz.(240ml)",
+      "brand": "Sol De Janeiro",
+      "price_usd": 48.0,
+      "rating": 0,
+      "review_count": 0,
+      "us_rank": 4,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 4위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA11392264",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
     }
   ],
   "weekly_actions": [
-    "영문 카피가 준비된 10건 중 상위 5건을 Shopify 초안으로 등록",
+    "영문 카피가 준비된 9건 중 상위 5건을 Shopify 초안으로 등록",
     "시장 가격대 100건 기준 중앙값 $23.4 주 1회 확인",
     "묶음 구매 유도용 무료배송 최소 주문금액 설정 (낱개 배송 시 적자 구조라 필수)"
   ],
@@ -1121,11 +1093,11 @@
       "sephora",
       "open_beauty_facts"
     ],
-    "s_count": 10,
-    "listing_ready_count": 10,
-    "last_score_run": "2026-09-15",
-    "last_pricing_run": "2026-09-15",
-    "exchange_rate": 1359.15
+    "s_count": 9,
+    "listing_ready_count": 9,
+    "last_score_run": "2026-09-16",
+    "last_pricing_run": "2026-09-16",
+    "exchange_rate": 1360.36
   },
   "data_integrity_note": "모든 수치는 실수집 산출물에서 계산했다. 근거가 없는 필드(키워드 추세·검색량)는 채우지 않고 사유를 적었다."
 }

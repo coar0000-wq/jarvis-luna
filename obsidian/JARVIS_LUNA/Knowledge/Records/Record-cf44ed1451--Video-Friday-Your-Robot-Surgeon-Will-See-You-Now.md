@@ -2,7 +2,7 @@
 title: "Record cf44ed1451 · Video-Friday-Your-Robot-Surgeon-Will-See-You-Now"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T21:23:20.396165+00:00
+updated_at: 2026-09-16T00:07:03.573866+00:00
 tags: [record, real-data]
 ---
 

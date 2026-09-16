@@ -2,7 +2,7 @@
 title: "Record 3b48440636 · Takeout-Options-For-Construction-Loans-In-Agency-Fi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T21:23:20.499149+00:00
+updated_at: 2026-09-16T00:07:03.648240+00:00
 tags: [record, real-data]
 ---
 

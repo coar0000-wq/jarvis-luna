@@ -2,7 +2,7 @@
 title: "Record e50f05d435 · Automatic-Reproducible-Camera-Intrinsic-Calibration"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T21:23:19.870497+00:00
+updated_at: 2026-09-16T00:07:03.148537+00:00
 tags: [record, real-data]
 ---
 

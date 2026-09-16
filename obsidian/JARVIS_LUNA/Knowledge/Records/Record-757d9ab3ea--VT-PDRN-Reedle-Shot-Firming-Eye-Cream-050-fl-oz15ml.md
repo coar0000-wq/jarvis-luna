@@ -1,12 +1,12 @@
 ---
-title: "Record 757d9ab3ea · VT-PDRN-Reedle-Shot-Firming-Eye-Cream-050-fl-oz15ml-Refill-Set--Eye-Cr"
+title: "Record 757d9ab3ea · VT-PDRN-Reedle-Shot-Firming-Eye-Cream-050-fl-oz15ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T21:23:20.410209+00:00
+updated_at: 2026-09-16T00:07:03.584375+00:00
 tags: [record, real-data]
 ---
 
-# Record 757d9ab3ea · VT-PDRN-Reedle-Shot-Firming-Eye-Cream-050-fl-oz15ml-Refill-Set--Eye-Cr
+# Record 757d9ab3ea · VT-PDRN-Reedle-Shot-Firming-Eye-Cream-050-fl-oz15ml
 
 > 실제 수집 레코드입니다. 원문: [us.oliveyoung.com](https://us.oliveyoung.com/products/UA65932535)
 

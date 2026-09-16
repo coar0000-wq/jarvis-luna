@@ -1,12 +1,12 @@
 ---
-title: "Record 479c3e4699 · Ericka-Hart-Talks-Pleasure-Reconstructive-Surgery-and-Being-a-Hot-Canc"
+title: "Record 479c3e4699 · Ericka-Hart-Talks-Pleasure-Reconstructive-Surgery-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T21:23:20.430640+00:00
+updated_at: 2026-09-16T00:07:03.598626+00:00
 tags: [record, real-data]
 ---
 
-# Record 479c3e4699 · Ericka-Hart-Talks-Pleasure-Reconstructive-Surgery-and-Being-a-Hot-Canc
+# Record 479c3e4699 · Ericka-Hart-Talks-Pleasure-Reconstructive-Surgery-a
 
 > 실제 수집 레코드입니다. 원문: [www.allure.com](https://www.allure.com/story/ericka-hart-perspectives-podcast-interview)
 

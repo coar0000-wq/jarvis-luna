@@ -1,12 +1,12 @@
 ---
-title: "Record 78977731ee · 8-Best-Wrinkle-Serums-for-Fine-Lines-Texture-and-Firmness"
+title: "Record 78977731ee · 8-Best-Wrinkle-Serums-for-Fine-Lines-Texture-and-Fi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T21:23:20.428850+00:00
+updated_at: 2026-09-16T00:07:03.597260+00:00
 tags: [record, real-data]
 ---
 
-# Record 78977731ee · 8-Best-Wrinkle-Serums-for-Fine-Lines-Texture-and-Firmness
+# Record 78977731ee · 8-Best-Wrinkle-Serums-for-Fine-Lines-Texture-and-Fi
 
 > 실제 수집 레코드입니다. 원문: [www.allure.com](https://www.allure.com/story/best-wrinkle-serum)
 

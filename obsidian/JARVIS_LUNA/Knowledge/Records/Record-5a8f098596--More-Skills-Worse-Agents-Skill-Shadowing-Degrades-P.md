@@ -2,7 +2,7 @@
 title: "Record 5a8f098596 · More-Skills-Worse-Agents-Skill-Shadowing-Degrades-P"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T21:23:20.366846+00:00
+updated_at: 2026-09-16T00:07:03.551826+00:00
 tags: [record, real-data]
 ---
 

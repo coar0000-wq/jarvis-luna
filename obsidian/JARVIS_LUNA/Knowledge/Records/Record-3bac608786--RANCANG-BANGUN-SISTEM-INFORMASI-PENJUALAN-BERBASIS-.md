@@ -2,7 +2,7 @@
 title: "Record 3bac608786 · RANCANG-BANGUN-SISTEM-INFORMASI-PENJUALAN-BERBASIS-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T21:23:20.070751+00:00
+updated_at: 2026-09-16T00:07:03.308121+00:00
 tags: [record, real-data]
 ---
 

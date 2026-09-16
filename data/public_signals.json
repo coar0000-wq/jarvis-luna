@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T20:56:59.341102+00:00",
+  "generated_at": "2026-09-16T00:05:17.399615+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "finneas",
+          "keyword": "protect college sports act",
           "approx_traffic": "10000+",
           "traffic_num": 10000,
-          "published": "Tue, 15 Sep 2026 12:50:00 -0700",
+          "published": "Tue, 15 Sep 2026 16:40:00 -0700",
           "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=finneas"
+          "url": "https://trends.google.com/trending?geo=US&q=protect%20college%20sports%20act"
         },
         {
-          "keyword": "prince harry meghan markle uk move",
+          "keyword": "disney plus",
+          "approx_traffic": "5000+",
+          "traffic_num": 5000,
+          "published": "Tue, 15 Sep 2026 16:40:00 -0700",
+          "source_name": "The Hollywood Reporter",
+          "url": "https://trends.google.com/trending?geo=US&q=disney%20plus"
+        },
+        {
+          "keyword": "andrew garfield",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Tue, 15 Sep 2026 13:40:00 -0700",
-          "source_name": "Yahoo Creators",
-          "url": "https://trends.google.com/trending?geo=US&q=prince%20harry%20meghan%20markle%20uk%20move"
-        },
-        {
-          "keyword": "jimmy horn jr",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Tue, 15 Sep 2026 13:10:00 -0700",
-          "source_name": "Carolina Panthers",
-          "url": "https://trends.google.com/trending?geo=US&q=jimmy%20horn%20jr"
-        },
-        {
-          "keyword": "uju anya",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Tue, 15 Sep 2026 13:10:00 -0700",
-          "source_name": "USA Today",
-          "url": "https://trends.google.com/trending?geo=US&q=uju%20anya"
-        },
-        {
-          "keyword": "yuval abraham rachel szor naza documentary",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Tue, 15 Sep 2026 12:40:00 -0700",
-          "source_name": "The New York Times",
-          "url": "https://trends.google.com/trending?geo=US&q=yuval%20abraham%20rachel%20szor%20naza%20documentary"
-        },
-        {
-          "keyword": "yan diomandé",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Tue, 15 Sep 2026 13:20:00 -0700",
-          "source_name": "Eurosport",
-          "url": "https://trends.google.com/trending?geo=US&q=yan%20diomand%C3%A9"
-        },
-        {
-          "keyword": "arda güler",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Tue, 15 Sep 2026 13:10:00 -0700",
-          "source_name": "Vietnam.vn",
-          "url": "https://trends.google.com/trending?geo=US&q=arda%20g%C3%BCler"
-        },
-        {
-          "keyword": "venezuela",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Tue, 15 Sep 2026 13:00:00 -0700",
-          "source_name": "CNN en Español",
-          "url": "https://trends.google.com/trending?geo=US&q=venezuela"
-        },
-        {
-          "keyword": "paris hilton",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Tue, 15 Sep 2026 12:50:00 -0700",
+          "published": "Tue, 15 Sep 2026 16:30:00 -0700",
           "source_name": "People.com",
-          "url": "https://trends.google.com/trending?geo=US&q=paris%20hilton"
+          "url": "https://trends.google.com/trending?geo=US&q=andrew%20garfield"
         },
         {
-          "keyword": "arsenal f.c",
-          "approx_traffic": "100+",
-          "traffic_num": 100,
-          "published": "Tue, 15 Sep 2026 12:50:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=arsenal%20f.c"
+          "keyword": "disney+",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Tue, 15 Sep 2026 16:50:00 -0700",
+          "source_name": "The Walt Disney Company",
+          "url": "https://trends.google.com/trending?geo=US&q=disney%2B"
+        },
+        {
+          "keyword": "rj decker",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Tue, 15 Sep 2026 16:50:00 -0700",
+          "source_name": "Fubo",
+          "url": "https://trends.google.com/trending?geo=US&q=rj%20decker"
+        },
+        {
+          "keyword": "mikayla matthews",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Tue, 15 Sep 2026 16:40:00 -0700",
+          "source_name": "Los Angeles Times",
+          "url": "https://trends.google.com/trending?geo=US&q=mikayla%20matthews"
+        },
+        {
+          "keyword": "marie gluesenkamp perez",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Tue, 15 Sep 2026 16:40:00 -0700",
+          "source_name": "Fox News",
+          "url": "https://trends.google.com/trending?geo=US&q=marie%20gluesenkamp%20perez"
+        },
+        {
+          "keyword": "rose bowl stadium",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Tue, 15 Sep 2026 16:40:00 -0700",
+          "source_name": "Los Angeles Times",
+          "url": "https://trends.google.com/trending?geo=US&q=rose%20bowl%20stadium"
+        },
+        {
+          "keyword": "yankees - twins",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Tue, 15 Sep 2026 16:30:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=yankees%20-%20twins"
+        },
+        {
+          "keyword": "jonbenet ramsey",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Tue, 15 Sep 2026 16:50:00 -0700",
+          "source_name": "The Hollywood Reporter",
+          "url": "https://trends.google.com/trending?geo=US&q=jonbenet%20ramsey"
         }
       ]
     },
@@ -96,88 +96,88 @@
       "status": "ok",
       "reason": "",
       "source": "wikimedia.org REST pageviews API (공식)",
-      "note": "2026-08-15 ~ 2026-09-13 일별 조회수. 후반 15일 대비 전반 15일 증감률",
+      "note": "2026-08-16 ~ 2026-09-14 일별 조회수. 후반 15일 대비 전반 15일 증감률",
       "errors": [],
       "items": [
         {
           "topic": "Hyaluronic acid",
           "days": 30,
-          "total_views": 17553,
-          "avg_daily": 585,
-          "recent_avg": 615,
-          "prev_avg": 556,
-          "change_pct": 10.6,
+          "total_views": 17665,
+          "avg_daily": 589,
+          "recent_avg": 624,
+          "prev_avg": 554,
+          "change_pct": 12.5,
           "url": "https://en.wikipedia.org/wiki/Hyaluronic_acid"
         },
         {
           "topic": "Retinol",
           "days": 30,
-          "total_views": 11560,
-          "avg_daily": 385,
-          "recent_avg": 393,
-          "prev_avg": 378,
-          "change_pct": 4.1,
+          "total_views": 11571,
+          "avg_daily": 386,
+          "recent_avg": 397,
+          "prev_avg": 375,
+          "change_pct": 5.9,
           "url": "https://en.wikipedia.org/wiki/Retinol"
         },
         {
           "topic": "Snail slime",
           "days": 30,
-          "total_views": 2191,
-          "avg_daily": 73,
+          "total_views": 2167,
+          "avg_daily": 72,
           "recent_avg": 74,
-          "prev_avg": 72,
-          "change_pct": 3.1,
+          "prev_avg": 71,
+          "change_pct": 4.2,
           "url": "https://en.wikipedia.org/wiki/Snail_slime"
         },
         {
           "topic": "Cosmetics",
           "days": 30,
-          "total_views": 20720,
+          "total_views": 20724,
           "avg_daily": 691,
-          "recent_avg": 688,
-          "prev_avg": 694,
-          "change_pct": -0.9,
+          "recent_avg": 684,
+          "prev_avg": 697,
+          "change_pct": -1.9,
           "url": "https://en.wikipedia.org/wiki/Cosmetics"
         },
         {
           "topic": "Centella asiatica",
           "days": 30,
-          "total_views": 14809,
-          "avg_daily": 494,
-          "recent_avg": 483,
-          "prev_avg": 504,
-          "change_pct": -4.1,
+          "total_views": 14909,
+          "avg_daily": 497,
+          "recent_avg": 484,
+          "prev_avg": 510,
+          "change_pct": -5.1,
           "url": "https://en.wikipedia.org/wiki/Centella_asiatica"
         },
         {
           "topic": "Sunscreen",
           "days": 30,
-          "total_views": 15809,
-          "avg_daily": 527,
-          "recent_avg": 510,
-          "prev_avg": 544,
-          "change_pct": -6.2,
+          "total_views": 15688,
+          "avg_daily": 523,
+          "recent_avg": 507,
+          "prev_avg": 539,
+          "change_pct": -6.0,
           "url": "https://en.wikipedia.org/wiki/Sunscreen"
-        },
-        {
-          "topic": "K-beauty",
-          "days": 30,
-          "total_views": 3938,
-          "avg_daily": 131,
-          "recent_avg": 120,
-          "prev_avg": 142,
-          "change_pct": -15.2,
-          "url": "https://en.wikipedia.org/wiki/K-beauty"
         },
         {
           "topic": "Niacinamide",
           "days": 30,
-          "total_views": 1361,
-          "avg_daily": 45,
-          "recent_avg": 41,
-          "prev_avg": 50,
-          "change_pct": -17.3,
+          "total_views": 1378,
+          "avg_daily": 46,
+          "recent_avg": 43,
+          "prev_avg": 49,
+          "change_pct": -13.0,
           "url": "https://en.wikipedia.org/wiki/Niacinamide"
+        },
+        {
+          "topic": "K-beauty",
+          "days": 30,
+          "total_views": 3917,
+          "avg_daily": 131,
+          "recent_avg": 118,
+          "prev_avg": 143,
+          "change_pct": -17.9,
+          "url": "https://en.wikipedia.org/wiki/K-beauty"
         }
       ]
     },
@@ -187,6 +187,16 @@
       "source": "allure.com/feed/rss",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
       "items": [
+        {
+          "title": "What the Shitty Hyrox Incident Tells Us About the State of Our Manners",
+          "published": "Tue, 15 Sep 2026 22:05:05 +0000",
+          "url": "https://www.allure.com/story/hyrox-joanna-wietrzyk-op-ed-incident"
+        },
+        {
+          "title": "Did Hollywood’s Old Lady Revolution Arrive at the 2026 Emmys?",
+          "published": "Tue, 15 Sep 2026 21:18:06 +0000",
+          "url": "https://www.allure.com/story/jean-smart-sally-field-mariska-hargitay-emmys-2026-old-lady-energy"
+        },
         {
           "title": "Selena Gomez's Sunset Frost Nails Capture Golden Hour in a Manicure — See Photos",
           "published": "Tue, 15 Sep 2026 19:29:01 +0000",
@@ -326,16 +336,6 @@
           "title": "Rodial Soft Focus Glow Drops Review",
           "published": "Thu, 10 Sep 2026 14:11:06 +0000",
           "url": "https://www.allure.com/review/rodial-soft-focus-glow-drops-review-2026"
-        },
-        {
-          "title": "Anne Hathaway's Matchy-Matchy Red Lips and Nails Are Fall's Most Glamorous Trend—See the Photos",
-          "published": "Thu, 10 Sep 2026 13:29:14 +0000",
-          "url": "https://www.allure.com/story/anne-hathaway-red-lipstick-red-nails"
-        },
-        {
-          "title": "Allure Best of Beauty: Live Is Back—Here's What You Need to Know",
-          "published": "Thu, 10 Sep 2026 13:00:00 +0000",
-          "url": "https://www.allure.com/story/story/best-of-beauty-live-event-2026"
         }
       ]
     },

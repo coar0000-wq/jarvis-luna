@@ -2,7 +2,7 @@
 title: "Record d3f28d315d · DeCAL-Towards-Physically-Grounded-Dexterous-Vision-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T21:23:19.864766+00:00
+updated_at: 2026-09-16T00:07:03.143596+00:00
 tags: [record, real-data]
 ---
 

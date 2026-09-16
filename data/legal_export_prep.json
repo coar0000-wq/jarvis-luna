@@ -1,102 +1,20 @@
 {
-  "generated_at": "2026-09-15T20:57:02.350953+00:00",
+  "generated_at": "2026-09-16T00:05:20.322332+00:00",
   "generator": "scripts/prepare_legal_export.py",
   "왜": "법률팀이 '검토 0건, 5항목 대기' 였는데 그 다섯 중 넷은 이미 저장소에 있는 값으로 채울 수 있었다. 먼저 채우고 사람은 확인만 한다.",
   "hs_출처": "hts.usitc.gov/reststop/search (미국 국제무역위원회 공식)",
   "hs_주의": "여기서 정하는 건 후보다. 세부 통계부호는 통관사가 확정해야 한다.",
   "label_기준": "FDA 21 CFR 701 Subpart A / FPLA",
-  "total": 8,
-  "hs_filled_this_run": 0,
+  "total": 9,
+  "hs_filled_this_run": 5,
   "label_complete": 0,
   "사람이_채워야_하는_칸": [
+    "내용량",
+    "원산지",
+    "전성분",
     "책임자 이름·주소"
   ],
   "items": [
-    {
-      "pd_no": "1048583",
-      "name": "드롭비 탄탄 광채 앰플 40 ml",
-      "bucket": "스킨케어",
-      "grade": "S",
-      "용도": "스킨케어",
-      "성분": "정제수, 글리세린, 프로판다이올, 부틸렌글라이콜, 베타인, 아이소펜틸다이올, 나이아신아마이드, 1,2-헥산다이올, 흰서양송로추출물, 병풀잎추출물, 아세틸헥사펩타이드-8, 헥사펩타이드-9, 노나펩타이드-1, 팔미토일펜타펩타이드-4, 팔미토일트라이펩타이드-1, 팔미토일테트라펩타이드-7석류추출물, 아데노신, 시어버터, 카프릴릭/카프릭트라이글리세라이드, 올리브오일",
-      "제조국": "한국",
-      "내용량": "40 ml",
-      "제조업자": "주식회사 씨엔에프 / (주)더샘인터내셔날",
-      "name_en": "Drop Be Firming Glow Ampoule 40 ml",
-      "product_type_en": "Face Serum",
-      "hs": {
-        "code": "3304.99",
-        "basis": "버킷 '스킨케어'",
-        "label": "",
-        "official": [
-          {
-            "htsno": "3304",
-            "description": "Beauty or make-up preparations and preparations for the care of the skin (other than medicaments), including sunscreen o"
-          },
-          {
-            "htsno": "3304.10.00.00",
-            "description": "Lip make-up preparations"
-          },
-          {
-            "htsno": "3304.20.00.00",
-            "description": "Eye make-up preparations"
-          },
-          {
-            "htsno": "3304.30.00.00",
-            "description": "Manicure or pedicure preparations"
-          },
-          {
-            "htsno": "3305",
-            "description": "Preparations for use on the hair:"
-          },
-          {
-            "htsno": "3305.20.00.00",
-            "description": "Preparations for permanent waving or straightening"
-          }
-        ]
-      },
-      "label": {
-        "draft": {
-          "product_identity": {
-            "label": "제품 정체 표시",
-            "value": "Drop Be Firming Glow Ampoule 40 ml",
-            "rule": "주표시면. 무엇인지 알 수 있는 이름이나 설명"
-          },
-          "net_quantity": {
-            "label": "내용량",
-            "value": "40 ml",
-            "rule": "주표시면 하단 30% 안. 미터법과 야드파운드법 병기"
-          },
-          "ingredients": {
-            "label": "전성분",
-            "value": "정제수, 글리세린, 프로판다이올, 부틸렌글라이콜, 베타인, 아이소펜틸다이올, 나이아신아마이드, 1,2-헥산다이올, 흰서양송로추출물, 병풀잎추출물, 아세틸헥사펩타이드-8, 헥사펩타이드-9, 노나펩타이드-1, 팔미토일펜타펩타이드-4, 팔미토일트라이펩타이드-1, 팔미토일테트라펩타이드-7석류추출물, 아데노신, 시어버터, 카프릴릭/카프릭트라이글리세라이드, 올리브오일, 하이드로제네이티드레시틴, 스쿠알란, 다이소듐이디티에이, 판테놀, 향료, 폴리글리세릴-10라우레이트, 카보머, 하이드록시에틸아크릴레이트/소듐아크릴로일다이메틸타우레이트코폴리머, 알지닌, 다이에톡시에틸석시네이트, 에틸헥실글리세린, 잔탄검, 솔비탄아이소스테아레이트, 세라마이드엔피, 콜레스테롤, 피토스핑고신",
-            "rule": "정보표시면. INCI 명칭, 함량 내림차순, 1% 미만은 순서 무관"
-          },
-          "responsible_party": {
-            "label": "책임자 이름·주소",
-            "value": "",
-            "rule": "제조자·포장자·유통자 중 하나. 도시·주·우편번호 포함"
-          },
-          "country_of_origin": {
-            "label": "원산지",
-            "value": "한국",
-            "rule": "수입품은 Made in Korea 등 표기"
-          },
-          "warnings": {
-            "label": "경고 문구",
-            "value": "If irritation occurs, discontinue use. Keep out of reach of children. For external use only.",
-            "rule": "해당 시. 사용 중 이상 발생 시 사용 중단 등"
-          }
-        },
-        "missing": [
-          "책임자 이름·주소"
-        ],
-        "note": "전성분은 한글이다. 미국 라벨에는 INCI 영문명이 필요하다. 번역이 아니라 표준 명칭 대조라서 사람이 확인해야 한다.",
-        "inci_status": "korean_only"
-      },
-      "hard_block": false,
-      "hard_block_reason": ""
-    },
     {
       "pd_no": "1049271",
       "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
@@ -193,7 +111,7 @@
       "내용량": "28 g",
       "제조업자": "(주)제닉 / 충청남도 논산시 성동면 산업단지로5길 5",
       "name_en": "Celderma Daily Transforming Firming Collagen Mask 28g",
-      "product_type_en": "Face Mask",
+      "product_type_en": "Sheet Mask",
       "hs": {
         "code": "3304.99",
         "basis": "버킷 '마스크팩'",
@@ -268,176 +186,6 @@
       "hard_block_reason": ""
     },
     {
-      "pd_no": "1062781",
-      "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
-      "bucket": "스킨케어",
-      "grade": "S",
-      "용도": "스킨케어",
-      "성분": "정제수, 글리세린, 다이프로필렌글라이콜, 부틸렌글라이콜, 옥틸도데칸올, 네오펜틸글라이콜다이카프레이트, 나이아신아마이드, 1,2-헥산다이올, 진흙버섯추출물, 하이드롤라이즈드하이알루로닉애씨드, 하이드롤라이즈드콜라겐, 마늘추출물, 귀리커넬추출물, 브라질너트추출물, 브로콜리추출물, 녹차씨추출물, 연어알추출물, 토마토추출물, 시금치추출물, 로우스위트블루베리추출물, ",
-      "제조국": "한국",
-      "내용량": "50ml (1.69 fl.oz)",
-      "제조업자": "화장품제조업자: 코스맥스(주) / 화장품책임판매업자: (주)씨엠에스랩",
-      "name_en": "Cell Fusion C Derma Block PDRN Collagen Cream 50 ml",
-      "product_type_en": "Face Cream",
-      "hs": {
-        "code": "3304.99",
-        "basis": "버킷 '스킨케어'",
-        "label": "",
-        "official": [
-          {
-            "htsno": "3304",
-            "description": "Beauty or make-up preparations and preparations for the care of the skin (other than medicaments), including sunscreen o"
-          },
-          {
-            "htsno": "3304.10.00.00",
-            "description": "Lip make-up preparations"
-          },
-          {
-            "htsno": "3304.20.00.00",
-            "description": "Eye make-up preparations"
-          },
-          {
-            "htsno": "3304.30.00.00",
-            "description": "Manicure or pedicure preparations"
-          },
-          {
-            "htsno": "3305",
-            "description": "Preparations for use on the hair:"
-          },
-          {
-            "htsno": "3305.20.00.00",
-            "description": "Preparations for permanent waving or straightening"
-          }
-        ]
-      },
-      "label": {
-        "draft": {
-          "product_identity": {
-            "label": "제품 정체 표시",
-            "value": "Cell Fusion C Derma Block PDRN Collagen Cream 50 ml",
-            "rule": "주표시면. 무엇인지 알 수 있는 이름이나 설명"
-          },
-          "net_quantity": {
-            "label": "내용량",
-            "value": "50ml (1.69 fl.oz)",
-            "rule": "주표시면 하단 30% 안. 미터법과 야드파운드법 병기"
-          },
-          "ingredients": {
-            "label": "전성분",
-            "value": "정제수, 글리세린, 다이프로필렌글라이콜, 부틸렌글라이콜, 옥틸도데칸올, 네오펜틸글라이콜다이카프레이트, 나이아신아마이드, 1,2-헥산다이올, 진흙버섯추출물, 하이드롤라이즈드하이알루로닉애씨드, 하이드롤라이즈드콜라겐, 마늘추출물, 귀리커넬추출물, 브라질너트추출물, 브로콜리추출물, 녹차씨추출물, 연어알추출물, 토마토추출물, 시금치추출물, 로우스위트블루베리추출물, 포도추출물, 다이글리세린, 펜틸렌글라이콜, 판테놀, 하이드록시에틸아크릴레이트/소듐아크릴로일다이메틸타우레이트코폴리머, 세테아릴올리베이트, 글리세릴스테아레이트, 팔미틱애씨드, 스테아릭애씨드, 아크릴레이트/C10-30알킬아크릴레이트크로스폴리머, C12-20알킬글루코사이드, 카프릴릴글라이콜, 솔비탄올리베이트, 트로메타민, 에틸헥실글리세린, 글리세릴아크릴레이트/아크릴릭애씨드코폴리머, 아데노신, 솔비탄아이소스테아레이트, 소듐파이테이트, 사이아노코발아민, 토코페롤, 아세틸헥사펩타이드-8, 아스코빅애씨드폴리펩타이드, 소듐디엔에이, 아세틸옥타펩타이드-3, 아세틸테트라펩타이드-2, 아세틸테트라펩타이드-3, 아세틸테트라펩타이드-5, 아세틸테트라펩타이드-9, 카르노신, 카퍼트라이펩타이드-1, 노나펩타이드-1, 팔미토일펜타펩타이드-4, 팔미토일트라이펩타이드-1, 팔미토일트라이펩타이드-5, C14-22알코올, 잔탄검, 카보머, 향료",
-            "rule": "정보표시면. INCI 명칭, 함량 내림차순, 1% 미만은 순서 무관"
-          },
-          "responsible_party": {
-            "label": "책임자 이름·주소",
-            "value": "",
-            "rule": "제조자·포장자·유통자 중 하나. 도시·주·우편번호 포함"
-          },
-          "country_of_origin": {
-            "label": "원산지",
-            "value": "한국",
-            "rule": "수입품은 Made in Korea 등 표기"
-          },
-          "warnings": {
-            "label": "경고 문구",
-            "value": "If irritation occurs, discontinue use. Keep out of reach of children. For external use only.",
-            "rule": "해당 시. 사용 중 이상 발생 시 사용 중단 등"
-          }
-        },
-        "missing": [
-          "책임자 이름·주소"
-        ],
-        "note": "전성분은 한글이다. 미국 라벨에는 INCI 영문명이 필요하다. 번역이 아니라 표준 명칭 대조라서 사람이 확인해야 한다.",
-        "inci_status": "korean_only"
-      },
-      "hard_block": false,
-      "hard_block_reason": ""
-    },
-    {
-      "pd_no": "1041749",
-      "name": "식물원 병풀 클리어 앰플 30 ml",
-      "bucket": "스킨케어",
-      "grade": "S",
-      "용도": "스킨케어",
-      "성분": "정제수, 부틸렌글라이콜, 글리세린, 1,2-헥산다이올, 프로판다이올, 흰버드나무껍질추출물, 병풀추출물(100.1 ppm), 병풀잎추출물(100ppm), 병풀뿌리추출물(100 ppm), 티트리잎오일, C12-14알케스-12, 소듐폴리아크릴로알다이메틸타우레이트, 소듐시트레이트, 에틸헥실글리세린, 시트릭애씨드, 토코페롤, 에피갈로카테킨갈레이트, 살리실릭애씨드, ",
-      "제조국": "대한민국",
-      "내용량": "30 ml",
-      "제조업자": "코스맥스(주) / (주)네이처리퍼블릭",
-      "name_en": "Sikmulnara Centella Clear Ampoule 30 ml",
-      "product_type_en": "Face Serum",
-      "hs": {
-        "code": "3304.99",
-        "basis": "버킷 '스킨케어'",
-        "label": "",
-        "official": [
-          {
-            "htsno": "3304",
-            "description": "Beauty or make-up preparations and preparations for the care of the skin (other than medicaments), including sunscreen o"
-          },
-          {
-            "htsno": "3304.10.00.00",
-            "description": "Lip make-up preparations"
-          },
-          {
-            "htsno": "3304.20.00.00",
-            "description": "Eye make-up preparations"
-          },
-          {
-            "htsno": "3304.30.00.00",
-            "description": "Manicure or pedicure preparations"
-          },
-          {
-            "htsno": "3305",
-            "description": "Preparations for use on the hair:"
-          },
-          {
-            "htsno": "3305.20.00.00",
-            "description": "Preparations for permanent waving or straightening"
-          }
-        ]
-      },
-      "label": {
-        "draft": {
-          "product_identity": {
-            "label": "제품 정체 표시",
-            "value": "Sikmulnara Centella Clear Ampoule 30 ml",
-            "rule": "주표시면. 무엇인지 알 수 있는 이름이나 설명"
-          },
-          "net_quantity": {
-            "label": "내용량",
-            "value": "30 ml",
-            "rule": "주표시면 하단 30% 안. 미터법과 야드파운드법 병기"
-          },
-          "ingredients": {
-            "label": "전성분",
-            "value": "정제수, 부틸렌글라이콜, 글리세린, 1,2-헥산다이올, 프로판다이올, 흰버드나무껍질추출물, 병풀추출물(100.1 ppm), 병풀잎추출물(100ppm), 병풀뿌리추출물(100 ppm), 티트리잎오일, C12-14알케스-12, 소듐폴리아크릴로알다이메틸타우레이트, 소듐시트레이트, 에틸헥실글리세린, 시트릭애씨드, 토코페롤, 에피갈로카테킨갈레이트, 살리실릭애씨드, 글라이콜릭애씨드, 카프릴릭/카프릭트라이글리세라이드, 매스틱검, 하이드로제네이티드레시틴, 잔탄검, 페네틸알코올",
-            "rule": "정보표시면. INCI 명칭, 함량 내림차순, 1% 미만은 순서 무관"
-          },
-          "responsible_party": {
-            "label": "책임자 이름·주소",
-            "value": "",
-            "rule": "제조자·포장자·유통자 중 하나. 도시·주·우편번호 포함"
-          },
-          "country_of_origin": {
-            "label": "원산지",
-            "value": "대한민국",
-            "rule": "수입품은 Made in Korea 등 표기"
-          },
-          "warnings": {
-            "label": "경고 문구",
-            "value": "If irritation occurs, discontinue use. Keep out of reach of children. For external use only. Sunburn Alert: This product contains an alpha hydroxy acid (AHA) that may increase your skin's sensitivity to the sun and particularly the possibility of sunburn. Use a sunscreen and limit sun exposure.",
-            "rule": "해당 시. 사용 중 이상 발생 시 사용 중단 등"
-          }
-        },
-        "missing": [
-          "책임자 이름·주소"
-        ],
-        "note": "전성분은 한글이다. 미국 라벨에는 INCI 영문명이 필요하다. 번역이 아니라 표준 명칭 대조라서 사람이 확인해야 한다.",
-        "inci_status": "korean_only"
-      },
-      "hard_block": false,
-      "hard_block_reason": ""
-    },
-    {
       "pd_no": "1041403",
       "name": "채비공간 어성초 추출물 비건 토너 150 ml",
       "bucket": "스킨케어",
@@ -448,7 +196,7 @@
       "내용량": "150ml",
       "제조업자": "(주)뉴앤뉴 / (주)브랜뉴이",
       "name_en": "Chaebi Gongan Heartleaf Extract Vegan Toner 150ml",
-      "product_type_en": "Facial Toner",
+      "product_type_en": "Face Toner",
       "hs": {
         "code": "3304.99",
         "basis": "버킷 '스킨케어'",
@@ -608,16 +356,16 @@
       "hard_block_reason": ""
     },
     {
-      "pd_no": "1060487",
-      "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
+      "pd_no": "1042619",
+      "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
       "bucket": "마스크팩",
       "grade": "S",
       "용도": "마스크팩",
-      "성분": "정제수, 부틸렌글라이콜, 호호바씨오일, 폴리비닐알코올, 메틸프로판다이올, 1,2-헥산다이올, 알진, 폴리솔베이트80, 카프릴릭/카프릭트라이글리세라이드, 폴리글리세릴-10올리에이트, 풀루란, 하이드롤라이즈드콜라겐추출물, 감나무잎추출물, 포도추출물, 잇꽃꽃추출물, 커피콩추출물, 호장근뿌리추출물, 녹차추출물, 밤껍질추출물, 초피나무열매추출물, 달맞이꽃꽃추출물, ",
-      "제조국": "한국",
-      "내용량": "4 ml / 0.13 fl. oz. 4 ml x 4 EA",
-      "제조업자": "제품 내 별도 표기 / 주식회사 스킨이데아",
-      "name_en": "Medi-Peel Lacto Pore Lifting Wrapping Mask 4ml 4pk",
+      "성분": "",
+      "제조국": "",
+      "내용량": "",
+      "제조업자": "",
+      "name_en": "Celderma Daily Collagen Essence Gel Mask 29g",
       "product_type_en": "Face Mask",
       "hs": {
         "code": "3304.99",
@@ -654,17 +402,17 @@
         "draft": {
           "product_identity": {
             "label": "제품 정체 표시",
-            "value": "Medi-Peel Lacto Pore Lifting Wrapping Mask 4ml 4pk",
+            "value": "Celderma Daily Collagen Essence Gel Mask 29g",
             "rule": "주표시면. 무엇인지 알 수 있는 이름이나 설명"
           },
           "net_quantity": {
             "label": "내용량",
-            "value": "4 ml / 0.13 fl. oz. 4 ml x 4 EA",
+            "value": "",
             "rule": "주표시면 하단 30% 안. 미터법과 야드파운드법 병기"
           },
           "ingredients": {
             "label": "전성분",
-            "value": "정제수, 부틸렌글라이콜, 호호바씨오일, 폴리비닐알코올, 메틸프로판다이올, 1,2-헥산다이올, 알진, 폴리솔베이트80, 카프릴릭/카프릭트라이글리세라이드, 폴리글리세릴-10올리에이트, 풀루란, 하이드롤라이즈드콜라겐추출물, 감나무잎추출물, 포도추출물, 잇꽃꽃추출물, 커피콩추출물, 호장근뿌리추출물, 녹차추출물, 밤껍질추출물, 초피나무열매추출물, 달맞이꽃꽃추출물, 당느릅나무뿌리추출물, 대왕송나무잎추출물, 칡뿌리추출물, 소듐하이알루로네이트, 글리세릴스테아레이트, 피이지-100스테아레이트, 판테놀, 다이스타다이모늄헥토라이트, 소듐폴리스티렌설포네이트, 셀룰로오스검, 락토바실러스발효물(1,000 ppm), 토코페롤, 글라이신, 에틸헥실글리세린, 알란토인, 소듐파이테이트, 토코페롤, 글라이신, 세린, 글루타믹애씨드, 아스파틱애씨드, 류신, 알라닌, 라이신, 알지닌, 타이로신, 페닐알라닌, 발린, 트레오닌, 프롤린, 아이소류신, 히스티딘, 메티오닌, 시스테인, 하이드롤라이즈드하이알루로네이트, 소듐아세틸레이티드하이알루로네이트, 향료",
+            "value": "",
             "rule": "정보표시면. INCI 명칭, 함량 내림차순, 1% 미만은 순서 무관"
           },
           "responsible_party": {
@@ -674,7 +422,7 @@
           },
           "country_of_origin": {
             "label": "원산지",
-            "value": "한국",
+            "value": "",
             "rule": "수입품은 Made in Korea 등 표기"
           },
           "warnings": {
@@ -684,10 +432,365 @@
           }
         },
         "missing": [
-          "책임자 이름·주소"
+          "내용량",
+          "전성분",
+          "책임자 이름·주소",
+          "원산지"
         ],
         "note": "전성분은 한글이다. 미국 라벨에는 INCI 영문명이 필요하다. 번역이 아니라 표준 명칭 대조라서 사람이 확인해야 한다.",
-        "inci_status": "korean_only"
+        "inci_status": "no_ingredients"
+      },
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields"
+    },
+    {
+      "pd_no": "1049275",
+      "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
+      "bucket": "스킨케어",
+      "grade": "S",
+      "용도": "스킨케어",
+      "성분": "",
+      "제조국": "",
+      "내용량": "",
+      "제조업자": "",
+      "name_en": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6ea",
+      "product_type_en": "Face Serum",
+      "hs": {
+        "code": "3304.99",
+        "basis": "버킷 '스킨케어'",
+        "label": "",
+        "official": [
+          {
+            "htsno": "3304",
+            "description": "Beauty or make-up preparations and preparations for the care of the skin (other than medicaments), including sunscreen o"
+          },
+          {
+            "htsno": "3304.10.00.00",
+            "description": "Lip make-up preparations"
+          },
+          {
+            "htsno": "3304.20.00.00",
+            "description": "Eye make-up preparations"
+          },
+          {
+            "htsno": "3304.30.00.00",
+            "description": "Manicure or pedicure preparations"
+          },
+          {
+            "htsno": "3305",
+            "description": "Preparations for use on the hair:"
+          },
+          {
+            "htsno": "3305.20.00.00",
+            "description": "Preparations for permanent waving or straightening"
+          }
+        ]
+      },
+      "label": {
+        "draft": {
+          "product_identity": {
+            "label": "제품 정체 표시",
+            "value": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6ea",
+            "rule": "주표시면. 무엇인지 알 수 있는 이름이나 설명"
+          },
+          "net_quantity": {
+            "label": "내용량",
+            "value": "",
+            "rule": "주표시면 하단 30% 안. 미터법과 야드파운드법 병기"
+          },
+          "ingredients": {
+            "label": "전성분",
+            "value": "",
+            "rule": "정보표시면. INCI 명칭, 함량 내림차순, 1% 미만은 순서 무관"
+          },
+          "responsible_party": {
+            "label": "책임자 이름·주소",
+            "value": "",
+            "rule": "제조자·포장자·유통자 중 하나. 도시·주·우편번호 포함"
+          },
+          "country_of_origin": {
+            "label": "원산지",
+            "value": "",
+            "rule": "수입품은 Made in Korea 등 표기"
+          },
+          "warnings": {
+            "label": "경고 문구",
+            "value": "If irritation occurs, discontinue use. Keep out of reach of children. For external use only.",
+            "rule": "해당 시. 사용 중 이상 발생 시 사용 중단 등"
+          }
+        },
+        "missing": [
+          "내용량",
+          "전성분",
+          "책임자 이름·주소",
+          "원산지"
+        ],
+        "note": "전성분은 한글이다. 미국 라벨에는 INCI 영문명이 필요하다. 번역이 아니라 표준 명칭 대조라서 사람이 확인해야 한다.",
+        "inci_status": "no_ingredients"
+      },
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields"
+    },
+    {
+      "pd_no": "1049276",
+      "name": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
+      "bucket": "스킨케어",
+      "grade": "S",
+      "용도": "스킨케어",
+      "성분": "",
+      "제조국": "",
+      "내용량": "",
+      "제조업자": "",
+      "name_en": "VT Reedle Shot 300 Facial Boosting First Ampoule 2ml x 6",
+      "product_type_en": "Face Serum",
+      "hs": {
+        "code": "3304.99",
+        "basis": "버킷 '스킨케어'",
+        "label": "",
+        "official": [
+          {
+            "htsno": "3304",
+            "description": "Beauty or make-up preparations and preparations for the care of the skin (other than medicaments), including sunscreen o"
+          },
+          {
+            "htsno": "3304.10.00.00",
+            "description": "Lip make-up preparations"
+          },
+          {
+            "htsno": "3304.20.00.00",
+            "description": "Eye make-up preparations"
+          },
+          {
+            "htsno": "3304.30.00.00",
+            "description": "Manicure or pedicure preparations"
+          },
+          {
+            "htsno": "3305",
+            "description": "Preparations for use on the hair:"
+          },
+          {
+            "htsno": "3305.20.00.00",
+            "description": "Preparations for permanent waving or straightening"
+          }
+        ]
+      },
+      "label": {
+        "draft": {
+          "product_identity": {
+            "label": "제품 정체 표시",
+            "value": "VT Reedle Shot 300 Facial Boosting First Ampoule 2ml x 6",
+            "rule": "주표시면. 무엇인지 알 수 있는 이름이나 설명"
+          },
+          "net_quantity": {
+            "label": "내용량",
+            "value": "",
+            "rule": "주표시면 하단 30% 안. 미터법과 야드파운드법 병기"
+          },
+          "ingredients": {
+            "label": "전성분",
+            "value": "",
+            "rule": "정보표시면. INCI 명칭, 함량 내림차순, 1% 미만은 순서 무관"
+          },
+          "responsible_party": {
+            "label": "책임자 이름·주소",
+            "value": "",
+            "rule": "제조자·포장자·유통자 중 하나. 도시·주·우편번호 포함"
+          },
+          "country_of_origin": {
+            "label": "원산지",
+            "value": "",
+            "rule": "수입품은 Made in Korea 등 표기"
+          },
+          "warnings": {
+            "label": "경고 문구",
+            "value": "If irritation occurs, discontinue use. Keep out of reach of children. For external use only.",
+            "rule": "해당 시. 사용 중 이상 발생 시 사용 중단 등"
+          }
+        },
+        "missing": [
+          "내용량",
+          "전성분",
+          "책임자 이름·주소",
+          "원산지"
+        ],
+        "note": "전성분은 한글이다. 미국 라벨에는 INCI 영문명이 필요하다. 번역이 아니라 표준 명칭 대조라서 사람이 확인해야 한다.",
+        "inci_status": "no_ingredients"
+      },
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields"
+    },
+    {
+      "pd_no": "1055167",
+      "name": "본셉 레티놀 500 IU 세럼 30 ml",
+      "bucket": "스킨케어",
+      "grade": "S",
+      "용도": "스킨케어",
+      "성분": "",
+      "제조국": "",
+      "내용량": "",
+      "제조업자": "",
+      "name_en": "VONSEP Retinol 500 IU Serum 30 ml",
+      "product_type_en": "Face Serum",
+      "hs": {
+        "code": "3304.99",
+        "basis": "버킷 '스킨케어'",
+        "label": "",
+        "official": [
+          {
+            "htsno": "3304",
+            "description": "Beauty or make-up preparations and preparations for the care of the skin (other than medicaments), including sunscreen o"
+          },
+          {
+            "htsno": "3304.10.00.00",
+            "description": "Lip make-up preparations"
+          },
+          {
+            "htsno": "3304.20.00.00",
+            "description": "Eye make-up preparations"
+          },
+          {
+            "htsno": "3304.30.00.00",
+            "description": "Manicure or pedicure preparations"
+          },
+          {
+            "htsno": "3305",
+            "description": "Preparations for use on the hair:"
+          },
+          {
+            "htsno": "3305.20.00.00",
+            "description": "Preparations for permanent waving or straightening"
+          }
+        ]
+      },
+      "label": {
+        "draft": {
+          "product_identity": {
+            "label": "제품 정체 표시",
+            "value": "VONSEP Retinol 500 IU Serum 30 ml",
+            "rule": "주표시면. 무엇인지 알 수 있는 이름이나 설명"
+          },
+          "net_quantity": {
+            "label": "내용량",
+            "value": "",
+            "rule": "주표시면 하단 30% 안. 미터법과 야드파운드법 병기"
+          },
+          "ingredients": {
+            "label": "전성분",
+            "value": "",
+            "rule": "정보표시면. INCI 명칭, 함량 내림차순, 1% 미만은 순서 무관"
+          },
+          "responsible_party": {
+            "label": "책임자 이름·주소",
+            "value": "",
+            "rule": "제조자·포장자·유통자 중 하나. 도시·주·우편번호 포함"
+          },
+          "country_of_origin": {
+            "label": "원산지",
+            "value": "",
+            "rule": "수입품은 Made in Korea 등 표기"
+          },
+          "warnings": {
+            "label": "경고 문구",
+            "value": "If irritation occurs, discontinue use. Keep out of reach of children. For external use only.",
+            "rule": "해당 시. 사용 중 이상 발생 시 사용 중단 등"
+          }
+        },
+        "missing": [
+          "내용량",
+          "전성분",
+          "책임자 이름·주소",
+          "원산지"
+        ],
+        "note": "전성분은 한글이다. 미국 라벨에는 INCI 영문명이 필요하다. 번역이 아니라 표준 명칭 대조라서 사람이 확인해야 한다.",
+        "inci_status": "no_ingredients"
+      },
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields"
+    },
+    {
+      "pd_no": "1067498",
+      "name": "[영양광채]VT PDRN 광채 크림 50 ml",
+      "bucket": "스킨케어",
+      "grade": "S",
+      "용도": "스킨케어",
+      "성분": "",
+      "제조국": "",
+      "내용량": "",
+      "제조업자": "",
+      "name_en": "VT PDRN Glow Cream 50 ml",
+      "product_type_en": "Face Cream",
+      "hs": {
+        "code": "3304.99",
+        "basis": "버킷 '스킨케어'",
+        "label": "",
+        "official": [
+          {
+            "htsno": "3304",
+            "description": "Beauty or make-up preparations and preparations for the care of the skin (other than medicaments), including sunscreen o"
+          },
+          {
+            "htsno": "3304.10.00.00",
+            "description": "Lip make-up preparations"
+          },
+          {
+            "htsno": "3304.20.00.00",
+            "description": "Eye make-up preparations"
+          },
+          {
+            "htsno": "3304.30.00.00",
+            "description": "Manicure or pedicure preparations"
+          },
+          {
+            "htsno": "3305",
+            "description": "Preparations for use on the hair:"
+          },
+          {
+            "htsno": "3305.20.00.00",
+            "description": "Preparations for permanent waving or straightening"
+          }
+        ]
+      },
+      "label": {
+        "draft": {
+          "product_identity": {
+            "label": "제품 정체 표시",
+            "value": "VT PDRN Glow Cream 50 ml",
+            "rule": "주표시면. 무엇인지 알 수 있는 이름이나 설명"
+          },
+          "net_quantity": {
+            "label": "내용량",
+            "value": "",
+            "rule": "주표시면 하단 30% 안. 미터법과 야드파운드법 병기"
+          },
+          "ingredients": {
+            "label": "전성분",
+            "value": "",
+            "rule": "정보표시면. INCI 명칭, 함량 내림차순, 1% 미만은 순서 무관"
+          },
+          "responsible_party": {
+            "label": "책임자 이름·주소",
+            "value": "",
+            "rule": "제조자·포장자·유통자 중 하나. 도시·주·우편번호 포함"
+          },
+          "country_of_origin": {
+            "label": "원산지",
+            "value": "",
+            "rule": "수입품은 Made in Korea 등 표기"
+          },
+          "warnings": {
+            "label": "경고 문구",
+            "value": "If irritation occurs, discontinue use. Keep out of reach of children. For external use only.",
+            "rule": "해당 시. 사용 중 이상 발생 시 사용 중단 등"
+          }
+        },
+        "missing": [
+          "내용량",
+          "전성분",
+          "책임자 이름·주소",
+          "원산지"
+        ],
+        "note": "전성분은 한글이다. 미국 라벨에는 INCI 영문명이 필요하다. 번역이 아니라 표준 명칭 대조라서 사람이 확인해야 한다.",
+        "inci_status": "no_ingredients"
       },
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields"

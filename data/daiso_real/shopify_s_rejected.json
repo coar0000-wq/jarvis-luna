@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-15T23:15:15.410192+00:00",
+  "generated_at": "2026-09-16T00:05:18.021642+00:00",
   "note": "점수는 높았으나 S에서 탈락한 후보. 등록하지 말 것.",
-  "count": 37,
+  "count": 38,
   "items": [
     {
       "pd_no": "1067496",
@@ -137,6 +137,15 @@
       "s_rule": "no_global_match",
       "downgrade_reason": null,
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 15,987건 (글로벌 시그널 약함)"
+    },
+    {
+      "pd_no": "1060487",
+      "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
+      "bucket": "마스크팩",
+      "shopify_score": 90,
+      "s_rule": "match_too_weak",
+      "downgrade_reason": null,
+      "recommend_reason": "글로벌 'Medicube Zero Pore Pad' (tiktok_shop_us) 유사 43% · 토큰 pore · S제외:match_too_weak"
     },
     {
       "pd_no": "1073250",

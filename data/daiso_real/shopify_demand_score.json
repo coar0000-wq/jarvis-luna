@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-15T23:15:15.410192+00:00",
+  "generated_at": "2026-09-16T00:05:18.021642+00:00",
   "total_products": 261,
   "grade_summary": {
-    "S": 10,
-    "A": 43,
+    "S": 9,
+    "A": 44,
     "B": 37,
     "C": 171
   },
   "s_slot_limit": 10,
-  "s_slot_open": 0,
+  "s_slot_open": 1,
   "category_avg_score": {
     "클렌징": 71.7,
     "스킨케어": 65.9,
@@ -467,93 +467,16 @@
           "channel": "amazon_best_sellers",
           "global_product": "BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Plumping, Travel Essentials & Self Care Gifts for Women, Korean Skin Care | 1.19oz(34g) x 4ea",
           "similarity": 0.758,
-          "demand_weight": 0.57,
+          "demand_weight": 0.522,
           "matched_tokens": [
             "collagen",
             "mask"
           ],
-          "match_score": 0.432
+          "match_score": 0.396
         }
       ],
       "recommend_reason": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 88% · 토큰 collagen, mask",
       "s_rank": 6
-    },
-    {
-      "pd_no": "1060487",
-      "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
-      "bucket": "마스크팩",
-      "rebucketed": false,
-      "price_krw": 3000,
-      "rating": 4.8,
-      "review_count": 1663,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060487",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/H4aAY1oXhdnLm8POPll11060487_00_00H4aAY1oXhdnLm8POPll1.jpg",
-      "shopify_score": 90,
-      "grade": "S",
-      "s_rule": "multi_token",
-      "us_market_hits": 4,
-      "us_median_price_usd": 27.9,
-      "score_breakdown": {
-        "category": 22.6,
-        "rating": 13.3,
-        "reviews": 19.5,
-        "price": 10.0,
-        "keyword": 0,
-        "us_market_fit": 25.0,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 10,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "amazon_best_sellers",
-        "global_product": "BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Plumping, Travel Essentials & Self Care Gifts for Women, Korean Skin Care | 1.19oz(34g) x 4ea",
-        "similarity": 0.638,
-        "demand_weight": 0.57,
-        "matched_tokens": [
-          "mask",
-          "pore"
-        ],
-        "match_score": 0.364
-      },
-      "global_matches": [
-        {
-          "channel": "amazon_best_sellers",
-          "global_product": "BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Plumping, Travel Essentials & Self Care Gifts for Women, Korean Skin Care | 1.19oz(34g) x 4ea",
-          "similarity": 0.638,
-          "demand_weight": 0.57,
-          "matched_tokens": [
-            "mask",
-            "pore"
-          ],
-          "match_score": 0.364
-        },
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Medicube Zero Pore Pad",
-          "similarity": 0.433,
-          "demand_weight": 0.8,
-          "matched_tokens": [
-            "pore"
-          ],
-          "match_score": 0.347
-        },
-        {
-          "channel": "amazon_best_sellers",
-          "global_product": "medicube Toner Pads Zero Pore Pad 2.0 for Exfoliation and Pore Care | Dual-Textured Facial Pad with 4.5% AHA Lactic Acid, 0.45% BHA Salicylic Acid - For All, Korean Skin Care, 70 Pads, 1 Pack",
-          "similarity": 0.325,
-          "demand_weight": 0.95,
-          "matched_tokens": [
-            "pore"
-          ],
-          "match_score": 0.309
-        }
-      ],
-      "recommend_reason": "글로벌 'BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Plumping, Travel Essentials & Self Care Gifts for Women, Korean Skin Care | 1.19oz(34g) x 4ea' (amazon_best_sellers) 유사 64% · 토큰 mask, pore",
-      "s_rank": 7
     },
     {
       "pd_no": "1049271",
@@ -630,7 +553,7 @@
         }
       ],
       "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 60% · 토큰 calming, toner",
-      "s_rank": 8
+      "s_rank": 7
     },
     {
       "pd_no": "1041403",
@@ -707,7 +630,7 @@
         }
       ],
       "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 92% · 토큰 heartleaf, toner",
-      "s_rank": 10
+      "s_rank": 9
     },
     {
       "pd_no": "1042619",
@@ -764,7 +687,7 @@
         }
       ],
       "recommend_reason": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 68% · 토큰 collagen, mask",
-      "s_rank": 9
+      "s_rank": 8
     }
   ],
   "all_scored": [
@@ -2130,12 +2053,12 @@
           "channel": "amazon_best_sellers",
           "global_product": "BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Plumping, Travel Essentials & Self Care Gifts for Women, Korean Skin Care | 1.19oz(34g) x 4ea",
           "similarity": 0.758,
-          "demand_weight": 0.57,
+          "demand_weight": 0.522,
           "matched_tokens": [
             "collagen",
             "mask"
           ],
-          "match_score": 0.432
+          "match_score": 0.396
         }
       ],
       "recommend_reason": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 88% · 토큰 collagen, mask",
@@ -2152,8 +2075,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060487",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/H4aAY1oXhdnLm8POPll11060487_00_00H4aAY1oXhdnLm8POPll1.jpg",
       "shopify_score": 90,
-      "grade": "S",
-      "s_rule": "multi_token",
+      "grade": "A",
+      "s_rule": "match_too_weak",
       "us_market_hits": 4,
       "us_median_price_usd": 27.9,
       "score_breakdown": {
@@ -2164,7 +2087,7 @@
         "keyword": 0,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 10,
+        "global_similarity_reference_only": 9,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -2172,28 +2095,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "amazon_best_sellers",
-        "global_product": "BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Plumping, Travel Essentials & Self Care Gifts for Women, Korean Skin Care | 1.19oz(34g) x 4ea",
-        "similarity": 0.638,
-        "demand_weight": 0.57,
+        "channel": "tiktok_shop_us",
+        "global_product": "Medicube Zero Pore Pad",
+        "similarity": 0.433,
+        "demand_weight": 0.8,
         "matched_tokens": [
-          "mask",
           "pore"
         ],
-        "match_score": 0.364
+        "match_score": 0.347
       },
       "global_matches": [
-        {
-          "channel": "amazon_best_sellers",
-          "global_product": "BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Plumping, Travel Essentials & Self Care Gifts for Women, Korean Skin Care | 1.19oz(34g) x 4ea",
-          "similarity": 0.638,
-          "demand_weight": 0.57,
-          "matched_tokens": [
-            "mask",
-            "pore"
-          ],
-          "match_score": 0.364
-        },
         {
           "channel": "tiktok_shop_us",
           "global_product": "Medicube Zero Pore Pad",
@@ -2206,6 +2117,17 @@
         },
         {
           "channel": "amazon_best_sellers",
+          "global_product": "BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Plumping, Travel Essentials & Self Care Gifts for Women, Korean Skin Care | 1.19oz(34g) x 4ea",
+          "similarity": 0.638,
+          "demand_weight": 0.522,
+          "matched_tokens": [
+            "mask",
+            "pore"
+          ],
+          "match_score": 0.333
+        },
+        {
+          "channel": "amazon_best_sellers",
           "global_product": "medicube Toner Pads Zero Pore Pad 2.0 for Exfoliation and Pore Care | Dual-Textured Facial Pad with 4.5% AHA Lactic Acid, 0.45% BHA Salicylic Acid - For All, Korean Skin Care, 70 Pads, 1 Pack",
           "similarity": 0.325,
           "demand_weight": 0.95,
@@ -2215,8 +2137,7 @@
           "match_score": 0.309
         }
       ],
-      "recommend_reason": "글로벌 'BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Plumping, Travel Essentials & Self Care Gifts for Women, Korean Skin Care | 1.19oz(34g) x 4ea' (amazon_best_sellers) 유사 64% · 토큰 mask, pore",
-      "s_rank": 7
+      "recommend_reason": "글로벌 'Medicube Zero Pore Pad' (tiktok_shop_us) 유사 43% · 토큰 pore · S제외:match_too_weak"
     },
     {
       "pd_no": "1049271",
@@ -2293,7 +2214,7 @@
         }
       ],
       "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 60% · 토큰 calming, toner",
-      "s_rank": 8
+      "s_rank": 7
     },
     {
       "pd_no": "1073250",
@@ -2512,7 +2433,7 @@
         }
       ],
       "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 92% · 토큰 heartleaf, toner",
-      "s_rank": 10
+      "s_rank": 9
     },
     {
       "pd_no": "1042619",
@@ -2569,7 +2490,7 @@
         }
       ],
       "recommend_reason": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 68% · 토큰 collagen, mask",
-      "s_rank": 9
+      "s_rank": 8
     },
     {
       "pd_no": "1018161",
@@ -6985,12 +6906,12 @@
           "channel": "amazon_best_sellers",
           "global_product": "BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Plumping, Travel Essentials & Self Care Gifts for Women, Korean Skin Care | 1.19oz(34g) x 4ea",
           "similarity": 0.438,
-          "demand_weight": 0.57,
+          "demand_weight": 0.522,
           "matched_tokens": [
             "hydrating",
             "mask"
           ],
-          "match_score": 0.25
+          "match_score": 0.229
         },
         {
           "channel": "oliveyoung_us",

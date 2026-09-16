@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-15T23:15:15.410192+00:00",
+  "generated_at": "2026-09-16T00:05:18.021642+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
-  "count": 10,
+  "count": 9,
   "priority_note": "Shopify 1차 등록 후보. 이 파일만 정본으로 사용.",
   "recommendations": [
     {
@@ -156,31 +156,6 @@
     },
     {
       "rank": 7,
-      "pd_no": "1060487",
-      "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
-      "bucket": "마스크팩",
-      "price_krw": 3000,
-      "shopify_score": 90,
-      "grade": "S",
-      "s_rule": "multi_token",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060487",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/H4aAY1oXhdnLm8POPll11060487_00_00H4aAY1oXhdnLm8POPll1.jpg",
-      "recommend_reason": "글로벌 'BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Plumping, Travel Essentials & Self Care Gifts for Women, Korean Skin Care | 1.19oz(34g) x 4ea' (amazon_best_sellers) 유사 64% · 토큰 mask, pore",
-      "matched_global": {
-        "channel": "amazon_best_sellers",
-        "global_product": "BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Plumping, Travel Essentials & Self Care Gifts for Women, Korean Skin Care | 1.19oz(34g) x 4ea",
-        "similarity": 0.638,
-        "demand_weight": 0.57,
-        "matched_tokens": [
-          "mask",
-          "pore"
-        ],
-        "match_score": 0.364
-      },
-      "registerable": true
-    },
-    {
-      "rank": 8,
       "pd_no": "1049271",
       "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
       "bucket": "스킨케어",
@@ -205,7 +180,7 @@
       "registerable": true
     },
     {
-      "rank": 9,
+      "rank": 8,
       "pd_no": "1041403",
       "name": "채비공간 어성초 추출물 비건 토너 150 ml",
       "bucket": "스킨케어",
@@ -230,7 +205,7 @@
       "registerable": true
     },
     {
-      "rank": 10,
+      "rank": 9,
       "pd_no": "1042619",
       "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
       "bucket": "마스크팩",

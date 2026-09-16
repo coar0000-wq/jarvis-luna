@@ -2,7 +2,7 @@
 title: "Record 9564b1f81a · Comau-automates-picking-handling-and-palletizing-fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T21:23:20.535409+00:00
+updated_at: 2026-09-16T00:07:03.674739+00:00
 tags: [record, real-data]
 ---
 

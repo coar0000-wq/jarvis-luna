@@ -2,7 +2,7 @@
 title: "Record 885b7825e3 · BioCare-Aloe-Vera"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T21:23:20.422752+00:00
+updated_at: 2026-09-16T00:07:03.592804+00:00
 tags: [record, real-data]
 ---
 

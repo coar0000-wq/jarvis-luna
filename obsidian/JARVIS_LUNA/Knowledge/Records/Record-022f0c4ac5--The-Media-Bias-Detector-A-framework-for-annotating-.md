@@ -2,7 +2,7 @@
 title: "Record 022f0c4ac5 · The-Media-Bias-Detector-A-framework-for-annotating-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-15T21:23:19.990882+00:00
+updated_at: 2026-09-16T00:07:03.242740+00:00
 tags: [record, real-data]
 ---
 
