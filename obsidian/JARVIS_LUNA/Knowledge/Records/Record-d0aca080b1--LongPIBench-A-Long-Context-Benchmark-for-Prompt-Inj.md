@@ -2,7 +2,7 @@
 title: "Record d0aca080b1 · LongPIBench-A-Long-Context-Benchmark-for-Prompt-Inj"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T04:52:06.052805+00:00
+updated_at: 2026-09-16T09:11:56.685266+00:00
 tags: [record, real-data]
 ---
 

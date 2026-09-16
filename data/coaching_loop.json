@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T12:11:58.429803+09:00",
+  "generated_at": "2026-09-16T18:10:11.933435+09:00",
   "role": "coaching",
   "principle": "AI는 체크리스트·A/B 초안만. 등록·광고 집행은 사람 승인.",
   "source": "scripts/build_coaching_loop.py",
@@ -11,8 +11,8 @@
     "hold": 0,
     "reddit_signal": {
       "status": "ok",
-      "post_count": 50,
-      "collected_at": "2026-09-16T03:08:05.869052+00:00",
+      "post_count": 25,
+      "collected_at": "2026-09-16T09:04:52.480634+00:00",
       "keyword_pool": 40
     }
   },
@@ -64,7 +64,7 @@
           "id": "global_signal",
           "label": "글로벌 수요 시그널",
           "status": "pass",
-          "evidence": "글로벌 'REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 70% · 토큰 ampoule",
+          "evidence": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule",
           "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
         },
         {
@@ -94,7 +94,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Ampoule — Daiso Find — Affordable hydrating pick",
           "headline": "Ampoule — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: REJURAN Dual Effect Ampoule 1.01 fl. oz..",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: Dr.Althea 345 Relief Cream 1.69 fl. oz.(.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -206,7 +206,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Serum — Daiso Find — Affordable hydrating pick",
           "headline": "Serum — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: REJURAN Dual Effect Ampoule 1.01 fl. oz..",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: Dr.Althea 345 Relief Cream 1.69 fl. oz.(.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -288,7 +288,7 @@
           "id": "global_signal",
           "label": "글로벌 수요 시그널",
           "status": "pass",
-          "evidence": "글로벌 'REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 70% · 토큰 ampoule",
+          "evidence": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule",
           "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
         },
         {
@@ -318,7 +318,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Ampoule — Daiso Find — Affordable hydrating pick",
           "headline": "Ampoule — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: REJURAN Dual Effect Ampoule 1.01 fl. oz..",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: Dr.Althea 345 Relief Cream 1.69 fl. oz.(.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -414,7 +414,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['cream', 'kbeauty', 'moisturizer', 'skin']",
+          "evidence": "matched=['cream', 'kbeauty', 'skin']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -430,7 +430,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Cream Pdrn — Daiso Find — Affordable hydrating pick",
           "headline": "Cream Pdrn — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: REJURAN Dual Effect Ampoule 1.01 fl. oz..",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: Dr.Althea 345 Relief Cream 1.69 fl. oz.(.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -440,13 +440,11 @@
           "glass skin",
           "hydrating",
           "kbeauty",
-          "moisturizer",
           "skin"
         ],
         "reddit_keywords_used": [
           "cream",
           "kbeauty",
-          "moisturizer",
           "skin"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
@@ -456,12 +454,11 @@
         "matched": [
           "cream",
           "kbeauty",
-          "moisturizer",
           "skin"
         ],
-        "score": 4,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['cream', 'kbeauty', 'moisturizer', 'skin']",
+        "evidence": "matched=['cream', 'kbeauty', 'skin']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -532,7 +529,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['ask', 'cream', 'kbeauty', 'mask', 'masks', 'moisturizer', 'skin']",
+          "evidence": "matched=['ask', 'cream', 'kbeauty', 'masks', 'skin']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -548,7 +545,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Cream Mask Pdrn — Daiso Find — Affordable hydrating pick",
           "headline": "Cream Mask Pdrn — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: REJURAN Dual Effect Ampoule 1.01 fl. oz..",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: Dr.Althea 345 Relief Cream 1.69 fl. oz.(.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -560,14 +557,15 @@
           "hydrating",
           "ask",
           "kbeauty",
-          "masks"
+          "masks",
+          "skin"
         ],
         "reddit_keywords_used": [
           "ask",
           "cream",
           "kbeauty",
-          "mask",
-          "masks"
+          "masks",
+          "skin"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
@@ -577,14 +575,125 @@
           "ask",
           "cream",
           "kbeauty",
-          "mask",
           "masks",
-          "moisturizer",
           "skin"
         ],
-        "score": 7,
+        "score": 5,
         "status": "pass",
-        "evidence": "matched=['ask', 'cream', 'kbeauty', 'mask', 'masks', 'moisturizer', 'skin']",
+        "evidence": "matched=['ask', 'cream', 'kbeauty', 'masks', 'skin']",
+        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+      },
+      "coach_summary": {
+        "pass": 5,
+        "warn": 3,
+        "fail": 0,
+        "next_action": "경고 항목 보완 후 등록"
+      }
+    },
+    {
+      "pd_no": "1041403",
+      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+      "bucket": "스킨케어",
+      "shopify_score": 91,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
+      "readiness": "ready_with_notes",
+      "checklist": [
+        {
+          "id": "grade_s",
+          "label": "S등급 유지",
+          "status": "pass",
+          "evidence": "grade=S, score=91",
+          "tip": "S가 아니면 1차 등록 보류"
+        },
+        {
+          "id": "margin",
+          "label": "마진 확인",
+          "status": "warn",
+          "evidence": "pricing 미연결",
+          "tip": "pricing_model 재실행"
+        },
+        {
+          "id": "price_band",
+          "label": "권장가",
+          "status": "warn",
+          "evidence": "suggested_price 없음",
+          "tip": "pricing_model 확인"
+        },
+        {
+          "id": "listing_copy",
+          "label": "영문 리스팅 카피",
+          "status": "pass",
+          "evidence": "Gemini 카피 있음",
+          "tip": "shopify-listing-copy 워크플로 실행"
+        },
+        {
+          "id": "listing_ready_flag",
+          "label": "등록 준비 플래그",
+          "status": "warn",
+          "evidence": "listing_ready=False",
+          "tip": "카피·이미지 준비되면 true"
+        },
+        {
+          "id": "global_signal",
+          "label": "글로벌 수요 시그널",
+          "status": "pass",
+          "evidence": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 92% · 토큰 heartleaf, toner",
+          "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
+        },
+        {
+          "id": "social_proof",
+          "label": "국내 리뷰(대리지표)",
+          "status": "pass",
+          "evidence": "review_count=938",
+          "tip": "리뷰 적으면 첫 광고 예산을 더 보수적으로"
+        },
+        {
+          "id": "reddit_community",
+          "label": "Reddit 뷰티 커뮤니티 키워드",
+          "status": "pass",
+          "evidence": "matched=['kbeauty', 'skin']",
+          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+        }
+      ],
+      "ad_copy_ab": {
+        "variant_a": {
+          "label": "A · 성분/커뮤니티 후킹",
+          "primary_text": "Chaebi Gongan Heartleaf Extract Vegan Toner 150ml — kbeauty · K-beauty",
+          "headline": "Chaebi Gongan Heartleaf Extract Vegan To",
+          "description": "Discover the refreshing hydration of Chaebi Gongan Heartleaf Extract Vegan Toner. Formulated with heartleaf extract, this lightweight toner helps balance and soothe your skin for a refreshed complexio",
+          "cta": "Shop now"
+        },
+        "variant_b": {
+          "label": "B · 가성비/가격 후킹",
+          "primary_text": "Toner Heartleaf — Daiso Find — Affordable hydrating pick",
+          "headline": "Toner Heartleaf — Daiso Find",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: Dr.Althea 345 Relief Cream 1.69 fl. oz.(.",
+          "cta": "See price"
+        },
+        "suggested_keywords": [
+          "toner",
+          "heartleaf",
+          "K-beauty",
+          "glass skin",
+          "hydrating",
+          "kbeauty",
+          "skin"
+        ],
+        "reddit_keywords_used": [
+          "kbeauty",
+          "skin"
+        ],
+        "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
+        "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
+      },
+      "reddit_match": {
+        "matched": [
+          "kbeauty",
+          "skin"
+        ],
+        "score": 2,
+        "status": "pass",
+        "evidence": "matched=['kbeauty', 'skin']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -671,7 +780,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Toner — Daiso Find — Affordable hydrating pick",
           "headline": "Toner — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: REJURAN Dual Effect Ampoule 1.01 fl. oz..",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: Dr.Althea 345 Relief Cream 1.69 fl. oz.(.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -707,125 +816,10 @@
       }
     },
     {
-      "pd_no": "1059834",
-      "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-      "bucket": "마스크팩",
-      "shopify_score": 90,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
-      "readiness": "ready_with_notes",
-      "checklist": [
-        {
-          "id": "grade_s",
-          "label": "S등급 유지",
-          "status": "pass",
-          "evidence": "grade=S, score=90",
-          "tip": "S가 아니면 1차 등록 보류"
-        },
-        {
-          "id": "margin",
-          "label": "마진 확인",
-          "status": "warn",
-          "evidence": "pricing 미연결",
-          "tip": "pricing_model 재실행"
-        },
-        {
-          "id": "price_band",
-          "label": "권장가",
-          "status": "warn",
-          "evidence": "suggested_price 없음",
-          "tip": "pricing_model 확인"
-        },
-        {
-          "id": "listing_copy",
-          "label": "영문 리스팅 카피",
-          "status": "pass",
-          "evidence": "Gemini 카피 있음",
-          "tip": "shopify-listing-copy 워크플로 실행"
-        },
-        {
-          "id": "listing_ready_flag",
-          "label": "등록 준비 플래그",
-          "status": "warn",
-          "evidence": "listing_ready=False",
-          "tip": "카피·이미지 준비되면 true"
-        },
-        {
-          "id": "global_signal",
-          "label": "글로벌 수요 시그널",
-          "status": "pass",
-          "evidence": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 88% · 토큰 collagen, mask",
-          "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
-        },
-        {
-          "id": "social_proof",
-          "label": "국내 리뷰(대리지표)",
-          "status": "pass",
-          "evidence": "review_count=1687",
-          "tip": "리뷰 적으면 첫 광고 예산을 더 보수적으로"
-        },
-        {
-          "id": "reddit_community",
-          "label": "Reddit 뷰티 커뮤니티 키워드",
-          "status": "pass",
-          "evidence": "matched=['ask', 'mask', 'masks']",
-          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
-        }
-      ],
-      "ad_copy_ab": {
-        "variant_a": {
-          "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Celderma Daily Transforming Firming Collagen Mask 28g — ask · sheet mask",
-          "headline": "Celderma Daily Transforming Firming Coll",
-          "description": "Experience the Celderma Daily Transforming Firming Collagen Mask, formulated to help support a firm-looking and resilient complexion. Each 28g sheet mask delivers nourishing care for your daily skinca",
-          "cta": "Shop now"
-        },
-        "variant_b": {
-          "label": "B · 가성비/가격 후킹",
-          "primary_text": "Mask Collagen — Daiso Find — Affordable collagen mask pick",
-          "headline": "Mask Collagen — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable collagen mask pick. Nearby US ref: [7types] MEDIHEAL Essential Face Mask 10.",
-          "cta": "See price"
-        },
-        "suggested_keywords": [
-          "mask",
-          "collagen",
-          "sheet mask",
-          "overnight mask",
-          "collagen mask",
-          "ask",
-          "masks"
-        ],
-        "reddit_keywords_used": [
-          "ask",
-          "mask",
-          "masks"
-        ],
-        "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
-        "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
-      },
-      "reddit_match": {
-        "matched": [
-          "ask",
-          "mask",
-          "masks"
-        ],
-        "score": 3,
-        "status": "pass",
-        "evidence": "matched=['ask', 'mask', 'masks']",
-        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
-      },
-      "coach_summary": {
-        "pass": 5,
-        "warn": 3,
-        "fail": 0,
-        "next_action": "경고 항목 보완 후 등록"
-      }
-    },
-    {
       "pd_no": "1042619",
       "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
       "bucket": "마스크팩",
-      "shopify_score": 89,
+      "shopify_score": 85,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
       "readiness": "ready_with_notes",
       "checklist": [
@@ -833,7 +827,7 @@
           "id": "grade_s",
           "label": "S등급 유지",
           "status": "pass",
-          "evidence": "grade=S, score=89",
+          "evidence": "grade=S, score=85",
           "tip": "S가 아니면 1차 등록 보류"
         },
         {
@@ -882,7 +876,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['ask', 'mask', 'masks']",
+          "evidence": "matched=['ask', 'masks']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -913,7 +907,6 @@
         ],
         "reddit_keywords_used": [
           "ask",
-          "mask",
           "masks"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
@@ -922,12 +915,11 @@
       "reddit_match": {
         "matched": [
           "ask",
-          "mask",
           "masks"
         ],
-        "score": 3,
+        "score": 2,
         "status": "pass",
-        "evidence": "matched=['ask', 'mask', 'masks']",
+        "evidence": "matched=['ask', 'masks']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -938,18 +930,18 @@
       }
     },
     {
-      "pd_no": "1041403",
-      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-      "bucket": "스킨케어",
-      "shopify_score": 85,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
+      "pd_no": "1059834",
+      "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+      "bucket": "마스크팩",
+      "shopify_score": 83,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
       "readiness": "ready_with_notes",
       "checklist": [
         {
           "id": "grade_s",
           "label": "S등급 유지",
           "status": "pass",
-          "evidence": "grade=S, score=85",
+          "evidence": "grade=S, score=83",
           "tip": "S가 아니면 1차 등록 보류"
         },
         {
@@ -984,63 +976,63 @@
           "id": "global_signal",
           "label": "글로벌 수요 시그널",
           "status": "pass",
-          "evidence": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 92% · 토큰 heartleaf, toner",
+          "evidence": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 88% · 토큰 collagen, mask",
           "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
         },
         {
           "id": "social_proof",
           "label": "국내 리뷰(대리지표)",
           "status": "pass",
-          "evidence": "review_count=938",
+          "evidence": "review_count=1687",
           "tip": "리뷰 적으면 첫 광고 예산을 더 보수적으로"
         },
         {
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['kbeauty', 'skin']",
+          "evidence": "matched=['ask', 'masks']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Chaebi Gongan Heartleaf Extract Vegan Toner 150ml — kbeauty · K-beauty",
-          "headline": "Chaebi Gongan Heartleaf Extract Vegan To",
-          "description": "Discover the refreshing hydration of Chaebi Gongan Heartleaf Extract Vegan Toner. Formulated with heartleaf extract, this lightweight toner helps balance and soothe your skin for a refreshed complexio",
+          "primary_text": "Celderma Daily Transforming Firming Collagen Mask 28g — ask · sheet mask",
+          "headline": "Celderma Daily Transforming Firming Coll",
+          "description": "Experience the Celderma Daily Transforming Firming Collagen Mask, formulated to help support a firm-looking and resilient complexion. Each 28g sheet mask delivers nourishing care for your daily skinca",
           "cta": "Shop now"
         },
         "variant_b": {
           "label": "B · 가성비/가격 후킹",
-          "primary_text": "Toner Heartleaf — Daiso Find — Affordable hydrating pick",
-          "headline": "Toner Heartleaf — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: REJURAN Dual Effect Ampoule 1.01 fl. oz..",
+          "primary_text": "Mask Collagen — Daiso Find — Affordable collagen mask pick",
+          "headline": "Mask Collagen — Daiso Find",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable collagen mask pick. Nearby US ref: [7types] MEDIHEAL Essential Face Mask 10.",
           "cta": "See price"
         },
         "suggested_keywords": [
-          "toner",
-          "heartleaf",
-          "K-beauty",
-          "glass skin",
-          "hydrating",
-          "kbeauty",
-          "skin"
+          "mask",
+          "collagen",
+          "sheet mask",
+          "overnight mask",
+          "collagen mask",
+          "ask",
+          "masks"
         ],
         "reddit_keywords_used": [
-          "kbeauty",
-          "skin"
+          "ask",
+          "masks"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "kbeauty",
-          "skin"
+          "ask",
+          "masks"
         ],
         "score": 2,
         "status": "pass",
-        "evidence": "matched=['kbeauty', 'skin']",
+        "evidence": "matched=['ask', 'masks']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {

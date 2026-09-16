@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-16T03:12:42.476150+00:00",
+  "generated_at": "2026-09-16T09:10:46.529312+00:00",
   "discovery_mode": "seed_catalog_plus_health_probe",
   "candidate_count": 18,
   "verified_count": 9,
@@ -13,12 +13,12 @@
       "country": "US",
       "priority": 1,
       "reachable": false,
-      "status_code": 503,
+      "status_code": 404,
       "final_url": "https://www.fda.gov/about-fda/data-standards",
-      "content_length": 17117,
+      "content_length": 14495,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-16T03:12:22.904398+00:00"
+      "checked_at": "2026-09-16T09:10:27.388497+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -30,10 +30,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://www.google.com/shopping",
-      "content_length": 114540,
+      "content_length": 113867,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-16T03:12:42.095587+00:00"
+      "checked_at": "2026-09-16T09:10:46.282355+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -48,7 +48,7 @@
       "content_length": 172023,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-16T03:12:23.633430+00:00"
+      "checked_at": "2026-09-16T09:10:27.985456+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -63,7 +63,7 @@
       "content_length": 375,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-16T03:12:25.104630+00:00"
+      "checked_at": "2026-09-16T09:10:29.434863+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -78,7 +78,7 @@
       "content_length": 1325,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-16T03:12:12.692289+00:00"
+      "checked_at": "2026-09-16T09:10:27.165619+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -90,10 +90,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://www.census.gov/data.html",
-      "content_length": 513049,
+      "content_length": 512986,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-16T03:12:12.565123+00:00"
+      "checked_at": "2026-09-16T09:10:26.471826+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -108,7 +108,7 @@
       "content_length": 3769,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-16T03:12:24.212469+00:00"
+      "checked_at": "2026-09-16T09:10:29.217435+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -123,7 +123,7 @@
       "content_length": 72037,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-16T03:12:23.847653+00:00"
+      "checked_at": "2026-09-16T09:10:28.387314+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -138,7 +138,7 @@
       "content_length": 191897,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-16T03:12:22.980271+00:00"
+      "checked_at": "2026-09-16T09:10:27.452218+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -150,10 +150,10 @@
       "reachable": false,
       "status_code": 403,
       "final_url": "https://www.ebay.com/b/Beauty/26395/bn_7000259124",
-      "content_length": 1831,
+      "content_length": 1832,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-16T03:12:24.284059+00:00"
+      "checked_at": "2026-09-16T09:10:29.269152+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -168,7 +168,7 @@
       "content_length": 776,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-16T03:12:25.039140+00:00"
+      "checked_at": "2026-09-16T09:10:29.381463+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -183,7 +183,7 @@
       "content_length": 190240,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-16T03:12:42.476116+00:00"
+      "checked_at": "2026-09-16T09:10:46.529271+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -195,10 +195,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://trends.google.com/trends/",
-      "content_length": 771685,
+      "content_length": 771686,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-16T03:12:42.406904+00:00"
+      "checked_at": "2026-09-16T09:10:46.465147+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -210,10 +210,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://www.instacart.com/",
-      "content_length": 958935,
+      "content_length": 958971,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-16T03:12:41.691034+00:00"
+      "checked_at": "2026-09-16T09:10:46.030448+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -226,7 +226,7 @@
       "status_code": null,
       "error": "ReadTimeout: HTTPSConnectionPool(host='www.kroger.com', port=443): Read timed out. (read timeout=15)",
       "status": "unverified",
-      "checked_at": "2026-09-16T03:12:40.559963+00:00"
+      "checked_at": "2026-09-16T09:10:45.111180+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -241,7 +241,7 @@
       "content_length": 9901,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-16T03:12:25.447113+00:00"
+      "checked_at": "2026-09-16T09:10:29.992101+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -253,10 +253,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://www.nordstrom.com/browse/beauty",
-      "content_length": 257834,
+      "content_length": 254692,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-16T03:12:25.354596+00:00"
+      "checked_at": "2026-09-16T09:10:29.852351+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -271,7 +271,7 @@
       "content_length": 782,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-16T03:12:25.200375+00:00"
+      "checked_at": "2026-09-16T09:10:29.523543+00:00"
     }
   ],
   "next_expansion_queries": [

@@ -2,7 +2,7 @@
 title: "Record c34888efc7 · Yep-AI-Launches-247-AI-Sales-Agent-on-Shopify-App-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T04:52:06.605266+00:00
+updated_at: 2026-09-16T09:11:57.258951+00:00
 tags: [record, real-data]
 ---
 

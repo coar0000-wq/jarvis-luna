@@ -2,7 +2,7 @@
 title: "Record d1a2950a1f · 5-Ecommerce-Questions-AI-Answers-in-Seconds-2026---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T04:52:06.464245+00:00
+updated_at: 2026-09-16T09:11:57.099618+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMibkFVX3lxTE4wb3ByLTdJQ2ExU04waDNUMFFvY2tnZ2laTEZ0elNObFJnbkFZa2xnTWk3Y2x4Q2hlcTdjTFhUNmpWYTRHTThIVm9RZWxqMWNJSVZqcWZjOENZU0VVTUdfemRWRkxTU3BJWDRMYUFR?oc=5)
 
-**제목:** 5 Ecommerce Questions AI Answers in Seconds (2026) - shopify.com
+**제목:** 5 Ecommerce Questions AI Answers in Seconds (2026) - Shopify
 
-5 Ecommerce Questions AI Answers in Seconds (2026) - shopify.com
+5 Ecommerce Questions AI Answers in Seconds (2026) - Shopify
 
 **출처:** Source · Google Search
 

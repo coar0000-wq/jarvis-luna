@@ -1,12 +1,12 @@
 ---
-title: "Record 63b62aaaa5 · Did-Hollywoods-Old-Lady-Revolution-Arrive-at-the-2026-Emmys"
+title: "Record 63b62aaaa5 · Did-Hollywoods-Old-Lady-Revolution-Arrive-at-the-20"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T04:52:06.740162+00:00
+updated_at: 2026-09-16T09:11:57.389841+00:00
 tags: [record, real-data]
 ---
 
-# Record 63b62aaaa5 · Did-Hollywoods-Old-Lady-Revolution-Arrive-at-the-2026-Emmys
+# Record 63b62aaaa5 · Did-Hollywoods-Old-Lady-Revolution-Arrive-at-the-20
 
 > 실제 수집 레코드입니다. 원문: [www.allure.com](https://www.allure.com/story/jean-smart-sally-field-mariska-hargitay-emmys-2026-old-lady-energy)
 

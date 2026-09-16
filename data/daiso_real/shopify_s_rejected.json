@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-16T03:11:53.978179+00:00",
+  "generated_at": "2026-09-16T09:10:07.130932+00:00",
   "note": "점수는 높았으나 S에서 탈락한 후보. 등록하지 말 것.",
-  "count": 39,
+  "count": 40,
   "items": [
     {
       "pd_no": "1067496",
@@ -19,7 +19,7 @@
       "shopify_score": 98,
       "s_rule": "match_too_weak",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 30% · 토큰 ampoule · S제외:match_too_weak"
+      "recommend_reason": "글로벌 'Korea eundan Vitamin C 1000 120 Tablets (4-month Supply) 4.24 oz.(120g)' (oliveyoung_us) 유사 39% · 토큰 vitaminc · S제외:match_too_weak"
     },
     {
       "pd_no": "1048583",
@@ -28,7 +28,7 @@
       "shopify_score": 97,
       "s_rule": "form_cap",
       "downgrade_reason": "동일 제형(앰플) 상위 2개에 밀림",
-      "recommend_reason": "글로벌 'REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 70% · 토큰 ampoule"
+      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule"
     },
     {
       "pd_no": "1048581",
@@ -37,7 +37,7 @@
       "shopify_score": 96,
       "s_rule": "match_too_weak",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 40% · 토큰 ampoule · S제외:match_too_weak"
+      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 40% · 토큰 ampoule · S제외:match_too_weak"
     },
     {
       "pd_no": "1064419",
@@ -46,7 +46,16 @@
       "shopify_score": 96,
       "s_rule": "weak_solo_token",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set' (oliveyoung_us) 유사 26% · 토큰 serum · S제외:weak_solo_token"
+      "recommend_reason": "글로벌 'SKIN1004 Madagascar Centella Hyalu-cica Water-fit Sun Serum UV 1.69 fl. oz.(50ml)' (oliveyoung_us) 유사 27% · 토큰 serum · S제외:weak_solo_token"
+    },
+    {
+      "pd_no": "1044553",
+      "name": "마데카21 테카 솔루션 수딩 미스트 토너 200 ml",
+      "bucket": "스킨케어",
+      "shopify_score": 96,
+      "s_rule": "no_global_match",
+      "downgrade_reason": null,
+      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 15,987건 (글로벌 시그널 약함)"
     },
     {
       "pd_no": "1067500",
@@ -85,22 +94,13 @@
       "recommend_reason": "글로벌 'S.NATURE Aqua Squalane Moisturizing Cream 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 76% · 토큰 cream, moisturizer"
     },
     {
-      "pd_no": "1062781",
-      "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
-      "bucket": "스킨케어",
-      "shopify_score": 93,
-      "s_rule": "form_cap",
-      "downgrade_reason": "동일 제형(크림) 상위 2개에 밀림",
-      "recommend_reason": "글로벌 'ANUA PDRN Hyaluronic Acid 100 Moisturizing Cream, 2.02 fl oz | Lightweight, Non-Greasy Hydrating Face Moisturizer with Salmon DNA for Glass Skin, Korean Skincare' (amazon_best_sellers) 유사 57% · 토큰 cream, pdrn"
-    },
-    {
       "pd_no": "1044554",
       "name": "마데카21 테카 솔루션 수딩 크림 50 ml",
       "bucket": "스킨케어",
       "shopify_score": 93,
       "s_rule": "weak_solo_token",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'Sol De Janeiro Bom Dia Cream 8.1 fl. oz.(240ml)' (oliveyoung_us) 유사 32% · 토큰 cream · S제외:weak_solo_token"
+      "recommend_reason": "글로벌 'Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token"
     },
     {
       "pd_no": "1035083",
@@ -109,7 +109,7 @@
       "shopify_score": 93,
       "s_rule": "weak_solo_token",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'Sol De Janeiro Bom Dia Cream 8.1 fl. oz.(240ml)' (oliveyoung_us) 유사 32% · 토큰 cream · S제외:weak_solo_token"
+      "recommend_reason": "글로벌 'Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token"
     },
     {
       "pd_no": "1055165",
@@ -121,22 +121,22 @@
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 3,012건 (글로벌 시그널 약함)"
     },
     {
+      "pd_no": "1067495",
+      "name": "[퀵 수분충전]VT PDRN 광채 토너 200 ml",
+      "bucket": "스킨케어",
+      "shopify_score": 92,
+      "s_rule": "match_too_weak",
+      "downgrade_reason": null,
+      "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 30% · 토큰 toner · S제외:match_too_weak"
+    },
+    {
       "pd_no": "1041749",
       "name": "식물원 병풀 클리어 앰플 30 ml",
       "bucket": "스킨케어",
-      "shopify_score": 92,
+      "shopify_score": 91,
       "s_rule": "form_cap",
       "downgrade_reason": "동일 제형(앰플) 상위 2개에 밀림",
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 92% · 토큰 ampoule, centella"
-    },
-    {
-      "pd_no": "1044553",
-      "name": "마데카21 테카 솔루션 수딩 미스트 토너 200 ml",
-      "bucket": "스킨케어",
-      "shopify_score": 92,
-      "s_rule": "no_global_match",
-      "downgrade_reason": null,
-      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 15,987건 (글로벌 시그널 약함)"
     },
     {
       "pd_no": "1027327",
@@ -148,22 +148,31 @@
       "recommend_reason": "마스크팩 카테고리 · 평점 4.8 · 리뷰 3,692건 (글로벌 시그널 약함)"
     },
     {
+      "pd_no": "1062781",
+      "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+      "bucket": "스킨케어",
+      "shopify_score": 90,
+      "s_rule": "form_cap",
+      "downgrade_reason": "동일 제형(크림) 상위 2개에 밀림",
+      "recommend_reason": "글로벌 'ANUA PDRN Hyaluronic Acid 100 Moisturizing Cream, 2.02 fl oz | Lightweight, Non-Greasy Hydrating Face Moisturizer with Salmon DNA for Glass Skin, Korean Skincare' (amazon_best_sellers) 유사 57% · 토큰 cream, pdrn"
+    },
+    {
+      "pd_no": "1060487",
+      "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
+      "bucket": "마스크팩",
+      "shopify_score": 90,
+      "s_rule": "match_too_weak",
+      "downgrade_reason": null,
+      "recommend_reason": "글로벌 'Medicube Zero Pore Pad' (tiktok_shop_us) 유사 43% · 토큰 pore · S제외:match_too_weak"
+    },
+    {
       "pd_no": "1062135",
       "name": "네시픽 글로우 더블샷세럼 30 ml",
       "bucket": "스킨케어",
       "shopify_score": 90,
       "s_rule": "weak_solo_token",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set' (oliveyoung_us) 유사 26% · 토큰 serum · S제외:weak_solo_token"
-    },
-    {
-      "pd_no": "1073250",
-      "name": "AHC 에이지리뉴 아이크림 하이드레이션 30 ml",
-      "bucket": "스킨케어",
-      "shopify_score": 89,
-      "s_rule": "weak_solo_token",
-      "downgrade_reason": null,
-      "recommend_reason": "글로벌 'Sol De Janeiro Bom Dia Cream 8.1 fl. oz.(240ml)' (oliveyoung_us) 유사 32% · 토큰 cream · S제외:weak_solo_token"
+      "recommend_reason": "글로벌 'SKIN1004 Madagascar Centella Hyalu-cica Water-fit Sun Serum UV 1.69 fl. oz.(50ml)' (oliveyoung_us) 유사 27% · 토큰 serum · S제외:weak_solo_token"
     },
     {
       "pd_no": "1018161",
@@ -184,31 +193,58 @@
       "recommend_reason": "헤어케어 카테고리 · 평점 4.8 · 리뷰 737건 (글로벌 시그널 약함)"
     },
     {
-      "pd_no": "1067495",
-      "name": "[퀵 수분충전]VT PDRN 광채 토너 200 ml",
+      "pd_no": "1073250",
+      "name": "AHC 에이지리뉴 아이크림 하이드레이션 30 ml",
       "bucket": "스킨케어",
+      "shopify_score": 88,
+      "s_rule": "weak_solo_token",
+      "downgrade_reason": null,
+      "recommend_reason": "글로벌 'Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token"
+    },
+    {
+      "pd_no": "1035210",
+      "name": "오릭스 엘레강스 올인원 스킨＆로션 410 ml",
+      "bucket": "스킨케어",
+      "shopify_score": 88,
+      "s_rule": "no_global_match",
+      "downgrade_reason": null,
+      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 1,107건 (글로벌 시그널 약함)"
+    },
+    {
+      "pd_no": "1060489",
+      "name": "메디필 시카 쿨링 진정 랩핑 마스크 4 ml 4개입",
+      "bucket": "마스크팩",
       "shopify_score": 87,
       "s_rule": "match_too_weak",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 30% · 토큰 toner · S제외:match_too_weak"
+      "recommend_reason": "글로벌 'SKIN1004 Madagascar Centella Hyalu-cica Water-fit Sun Serum UV 1.69 fl. oz.(50ml)' (oliveyoung_us) 유사 39% · 토큰 centella · S제외:match_too_weak"
     },
     {
       "pd_no": "1053482",
       "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
       "bucket": "스킨케어",
-      "shopify_score": 85,
+      "shopify_score": 86,
       "s_rule": "form_cap",
       "downgrade_reason": "동일 제형(토너) 상위 2개에 밀림",
       "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 60% · 토큰 calming, toner"
     },
     {
-      "pd_no": "1038603",
-      "name": "식물원 병풀 클리어 마스크 시트",
-      "bucket": "마스크팩",
-      "shopify_score": 85,
+      "pd_no": "1043659",
+      "name": "닥터지오 모이스처 올인원 젤로션 150 ml",
+      "bucket": "스킨케어",
+      "shopify_score": 86,
       "s_rule": "match_too_weak",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 52% · 토큰 centella · S제외:match_too_weak"
+      "recommend_reason": "글로벌 'La Roche-Posay Toleriane Double Repair Face Moisturizer' (amazon_best_sellers) 유사 36% · 토큰 moisturizer · S제외:match_too_weak"
+    },
+    {
+      "pd_no": "1044110",
+      "name": "존슨즈 베이비 로션 핑크 200ml",
+      "bucket": "스킨케어",
+      "shopify_score": 86,
+      "s_rule": "no_global_match",
+      "downgrade_reason": null,
+      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 511건 (글로벌 시그널 약함)"
     },
     {
       "pd_no": "1049295",
@@ -217,16 +253,16 @@
       "shopify_score": 85,
       "s_rule": "match_too_weak",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 42% · 토큰 centella · S제외:match_too_weak"
+      "recommend_reason": "글로벌 'SKIN1004 Madagascar Centella Hyalu-cica Water-fit Sun Serum UV 1.69 fl. oz.(50ml)' (oliveyoung_us) 유사 39% · 토큰 centella · S제외:match_too_weak"
     },
     {
-      "pd_no": "1060489",
-      "name": "메디필 시카 쿨링 진정 랩핑 마스크 4 ml 4개입",
-      "bucket": "마스크팩",
+      "pd_no": "1068733",
+      "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
+      "bucket": "스킨케어",
       "shopify_score": 85,
       "s_rule": "match_too_weak",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 42% · 토큰 centella · S제외:match_too_weak"
+      "recommend_reason": "글로벌 'Korea eundan Vitamin C 1000 120 Tablets (4-month Supply) 4.24 oz.(120g)' (oliveyoung_us) 유사 39% · 토큰 vitaminc · S제외:match_too_weak"
     },
     {
       "pd_no": "1074979",
@@ -235,52 +271,34 @@
       "shopify_score": 85,
       "s_rule": "weak_solo_token",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'Sol De Janeiro Bom Dia Cream 8.1 fl. oz.(240ml)' (oliveyoung_us) 유사 32% · 토큰 cream · S제외:weak_solo_token"
-    },
-    {
-      "pd_no": "1046083",
-      "name": "올 스테인리스 아이스크림 스푼",
-      "bucket": "스킨케어",
-      "shopify_score": 84,
-      "s_rule": "weak_solo_token",
-      "downgrade_reason": null,
-      "recommend_reason": "글로벌 'Sol De Janeiro Bom Dia Cream 8.1 fl. oz.(240ml)' (oliveyoung_us) 유사 32% · 토큰 cream · S제외:weak_solo_token"
-    },
-    {
-      "pd_no": "1035210",
-      "name": "오릭스 엘레강스 올인원 스킨＆로션 410 ml",
-      "bucket": "스킨케어",
-      "shopify_score": 84,
-      "s_rule": "no_global_match",
-      "downgrade_reason": null,
-      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 1,107건 (글로벌 시그널 약함)"
+      "recommend_reason": "글로벌 'Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token"
     },
     {
       "pd_no": "1067024",
       "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
       "bucket": "클렌징",
-      "shopify_score": 84,
+      "shopify_score": 85,
       "s_rule": "no_global_match",
       "downgrade_reason": null,
       "recommend_reason": "클렌징 카테고리 · 평점 4.8 · 리뷰 1,078건 (글로벌 시그널 약함)"
     },
     {
-      "pd_no": "1060487",
-      "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
-      "bucket": "마스크팩",
-      "shopify_score": 83,
-      "s_rule": "match_too_weak",
-      "downgrade_reason": null,
-      "recommend_reason": "글로벌 'Medicube Zero Pore Pad' (tiktok_shop_us) 유사 43% · 토큰 pore · S제외:match_too_weak"
-    },
-    {
-      "pd_no": "1043659",
-      "name": "닥터지오 모이스처 올인원 젤로션 150 ml",
+      "pd_no": "1046083",
+      "name": "올 스테인리스 아이스크림 스푼",
       "bucket": "스킨케어",
       "shopify_score": 83,
-      "s_rule": "match_too_weak",
+      "s_rule": "weak_solo_token",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'La Roche-Posay Toleriane Double Repair Face Moisturizer' (amazon_best_sellers) 유사 36% · 토큰 moisturizer · S제외:match_too_weak"
+      "recommend_reason": "글로벌 'Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token"
+    },
+    {
+      "pd_no": "1051730",
+      "name": "랩잇 by 닥터지 포어 클렌징 폼 100 g",
+      "bucket": "클렌징",
+      "shopify_score": 83,
+      "s_rule": "weak_solo_token",
+      "downgrade_reason": null,
+      "recommend_reason": "글로벌 'ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set' (oliveyoung_us) 유사 26% · 토큰 cleanser · S제외:weak_solo_token"
     },
     {
       "pd_no": "1072800",
@@ -292,67 +310,58 @@
       "recommend_reason": "메이크업 카테고리 · 평점 4.6 · 리뷰 1,267건 (글로벌 시그널 약함)"
     },
     {
-      "pd_no": "58600",
-      "name": "과일나라 마이시크릿아이템 아르간오일 핸드크림 60 g",
-      "bucket": "바디케어",
-      "shopify_score": 83,
-      "s_rule": "no_global_match",
-      "downgrade_reason": null,
-      "recommend_reason": "바디케어 카테고리 · 평점 4.8 · 리뷰 672건 (글로벌 시그널 약함)"
-    },
-    {
-      "pd_no": "1041809",
-      "name": "[뮤겟바닐라]데일리콤마 모스트 퍼퓸 핸드크림 50 ml",
-      "bucket": "바디케어",
-      "shopify_score": 83,
-      "s_rule": "no_global_match",
-      "downgrade_reason": null,
-      "recommend_reason": "바디케어 카테고리 · 평점 4.7 · 리뷰 425건 (글로벌 시그널 약함)"
-    },
-    {
       "pd_no": "1038219",
       "name": "식물원 병풀 클리어 클렌징 워터",
       "bucket": "클렌징",
       "shopify_score": 82,
       "s_rule": "match_too_weak",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 52% · 토큰 centella · S제외:match_too_weak"
+      "recommend_reason": "글로벌 'SKIN1004 Madagascar Centella Hyalu-cica Water-fit Sun Serum UV 1.69 fl. oz.(50ml)' (oliveyoung_us) 유사 49% · 토큰 centella · S제외:match_too_weak"
     },
     {
-      "pd_no": "1068733",
-      "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
+      "pd_no": "1038603",
+      "name": "식물원 병풀 클리어 마스크 시트",
+      "bucket": "마스크팩",
+      "shopify_score": 82,
+      "s_rule": "match_too_weak",
+      "downgrade_reason": null,
+      "recommend_reason": "글로벌 'SKIN1004 Madagascar Centella Hyalu-cica Water-fit Sun Serum UV 1.69 fl. oz.(50ml)' (oliveyoung_us) 유사 49% · 토큰 centella · S제외:match_too_weak"
+    },
+    {
+      "pd_no": "1072803",
+      "name": "케어존플러스 모공탄력 수분크림 75 ml",
       "bucket": "스킨케어",
       "shopify_score": 82,
       "s_rule": "match_too_weak",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 30% · 토큰 ampoule · S제외:match_too_weak"
+      "recommend_reason": "글로벌 'Pocket Blush Buildable Hydrating Cream Blush' (sephora) 유사 41% · 토큰 cream, hydrating · S제외:match_too_weak"
     },
     {
-      "pd_no": "1051730",
-      "name": "랩잇 by 닥터지 포어 클렌징 폼 100 g",
-      "bucket": "클렌징",
-      "shopify_score": 82,
-      "s_rule": "weak_solo_token",
-      "downgrade_reason": null,
-      "recommend_reason": "글로벌 'ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set' (oliveyoung_us) 유사 26% · 토큰 cleanser · S제외:weak_solo_token"
-    },
-    {
-      "pd_no": "1044110",
-      "name": "존슨즈 베이비 로션 핑크 200ml",
-      "bucket": "스킨케어",
-      "shopify_score": 82,
-      "s_rule": "no_global_match",
-      "downgrade_reason": null,
-      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 511건 (글로벌 시그널 약함)"
-    },
-    {
-      "pd_no": "1070756",
-      "name": "더페이스샵 프루츠톡 망고 핸드크림 50 ml",
+      "pd_no": "58600",
+      "name": "과일나라 마이시크릿아이템 아르간오일 핸드크림 60 g",
       "bucket": "바디케어",
       "shopify_score": 82,
       "s_rule": "no_global_match",
       "downgrade_reason": null,
-      "recommend_reason": "바디케어 카테고리 · 평점 4.8 · 리뷰 158건 (글로벌 시그널 약함)"
+      "recommend_reason": "바디케어 카테고리 · 평점 4.8 · 리뷰 672건 (글로벌 시그널 약함)"
+    },
+    {
+      "pd_no": "1056662",
+      "name": "케어존 플러스 피케어 모공 스팟 트리트먼트 15 ml (LG생활건강)",
+      "bucket": "헤어케어",
+      "shopify_score": 82,
+      "s_rule": "no_global_match",
+      "downgrade_reason": null,
+      "recommend_reason": "헤어케어 카테고리 · 평점 4.7 · 리뷰 620건 (글로벌 시그널 약함)"
+    },
+    {
+      "pd_no": "1041809",
+      "name": "[뮤겟바닐라]데일리콤마 모스트 퍼퓸 핸드크림 50 ml",
+      "bucket": "바디케어",
+      "shopify_score": 82,
+      "s_rule": "no_global_match",
+      "downgrade_reason": null,
+      "recommend_reason": "바디케어 카테고리 · 평점 4.7 · 리뷰 425건 (글로벌 시그널 약함)"
     }
   ]
 }

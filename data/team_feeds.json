@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-16T03:07:26.747073+00:00",
+  "generated_at": "2026-09-16T09:04:05.712866+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
   "pool_size": 2103,
   "제목없어_버림": 38,
-  "unrouted": 7,
+  "unrouted": 6,
   "summary": {
     "sourcing": {
       "total": 265,
@@ -36,17 +36,17 @@
       "products": 0
     },
     "legal": {
-      "total": 111,
+      "total": 110,
       "recent": 17,
-      "material": 111,
+      "material": 110,
       "material_recent": 17,
       "products": 0
     },
     "design": {
       "total": 334,
-      "recent": 74,
+      "recent": 73,
       "material": 334,
-      "material_recent": 74,
+      "material_recent": 73,
       "products": 0
     },
     "robotics": {
@@ -57,17 +57,17 @@
       "products": 0
     },
     "knowledge": {
-      "total": 127,
+      "total": 129,
       "recent": 22,
-      "material": 127,
+      "material": 129,
       "material_recent": 22,
       "products": 0
     },
     "institutions": {
-      "total": 1062,
-      "recent": 256,
-      "material": 1062,
-      "material_recent": 256,
+      "total": 1063,
+      "recent": 257,
+      "material": 1063,
+      "material_recent": 257,
       "products": 0
     }
   },
@@ -621,15 +621,22 @@
         "by_hand": false
       },
       {
-        "title": "Hero’s Ju Rhyu Mainstreamed Pimple Patches. Can She Do It Again With K-Beauty-Inspired Sunscreen? - Beauty Independent",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQUZsazhJcC1GYU5menhiYmFiMS1NZWVwZGZUYlB0LWtQMFBOcUZNRGhWN3RlamVlbG5lUkxSV2JvM1hYS2NLam1qRmgxY3YxTWJfaXFHT3BNOU0tb2lkalNCM1VGSEFlX01VMGxmb0dya21ySHp6VlRLYjZ3a2UzYndNa0x2eW8?oc=5",
-        "pool": "google",
+        "title": "Private Markets Investment Trends Institute 2026",
+        "url": "https://www.morganstanley.com/insights/articles/private-markets-investment-trends-institute-2026",
+        "pool": "institutions",
         "date": "2026-09-15",
         "by_hand": false
       },
       {
         "title": "PDRN make-up: How K-beauty’s trending skin care ingredient is moving into colour cosmetics - Cosmetics Business",
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5hUjBkN2xpRlFvamdfRndGMTQtTC1OeEZNRFIxcXRGeHBxNGtaRi1pMkp2Qzc0eGg4ZkxpZm1pOHd6bG9IYmhiVWdOU2IyMl9xaE5OREhMTjlpeUZfTS1iNXRuMXJwVnVCeDQ2Z25vOFJaQWh5WUJ4WVRENA?oc=5",
+        "pool": "google",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Hero’s Ju Rhyu Mainstreamed Pimple Patches. Can She Do It Again With K-Beauty-Inspired Sunscreen? - Beauty Independent",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQUZsazhJcC1GYU5menhiYmFiMS1NZWVwZGZUYlB0LWtQMFBOcUZNRGhWN3RlamVlbG5lUkxSV2JvM1hYS2NLam1qRmgxY3YxTWJfaXFHT3BNOU0tb2lkalNCM1VGSEFlX01VMGxmb0dya21ySHp6VlRLYjZ3a2UzYndNa0x2eW8?oc=5",
         "pool": "google",
         "date": "2026-09-15",
         "by_hand": false
@@ -642,7 +649,7 @@
         "by_hand": false
       },
       {
-        "title": "K-Beauty Arrives at Coles in Skincare Glow-Up - Mirage News",
+        "title": "K-Beauty Arrives at Coles in Skincare Glow-Up - miragenews.com",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOc191U2pxYjIya1gyLTFFa3k5b3BuSEs1cVdNbHhVaGMyZ3BxUlY2dWxnajVkbmQ5ejEzQ1FqSS10Vnlid29OM3hWMGdEVVhQUFQ0OFZtQW45UWY0UGRKYm0wVm9aMm9tUGdQYXB1WnlyeGNSYVBkZjJDVVBKamRLb1h4VjFSTkNH?oc=5",
         "pool": "google",
         "date": "2026-09-15",
@@ -691,7 +698,7 @@
         "by_hand": false
       },
       {
-        "title": "From Musinsa to Daiso, K-beauty is rewriting Korea’s retail playbook - The Korea Herald",
+        "title": "From Musinsa to Daiso, K-beauty is rewriting Korea’s retail playbook - koreaherald.com",
         "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5SY082WGxWOEt4ZDNISVVtSTJpNEJhMjNPMnFhOW1uNWEwY19EYTl6RDhxVkFzT0VMU180VkJRaE1QTV96OXRDdE1DcVhaTkVwUHpxU1BjRQ?oc=5",
         "pool": "google",
         "date": "2026-09-14",
@@ -719,15 +726,8 @@
         "by_hand": false
       },
       {
-        "title": "Mia Korean Skincare Highlights Growing Interest in K-Beauty in Milan - Issuewire.com",
+        "title": "Mia Korean Skincare Highlights Growing Interest in K-Beauty in Milan - issuewire.com",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUGkzV1p3dHozWEE5LWlTdmRreHlfYWhfQUluLUVoRHpDM04yQ0lFMnRzQnJOR1lxemM1TWh2WEYzLU5nWnlkTURmZ3c3N2hYaGs5aFJ1UmNFckQyV1lkOWNIdUxVUHVEY3ByR0tkd09jb0dQYlkyQ0paOW9NRzlldExQSnMwdEZtaDBvTnFPNVFFTktDSzNoVkJwYWlJb1RzZkFDalFVS1pDcGdKMzA2bw?oc=5",
-        "pool": "google",
-        "date": "2026-09-12",
-        "by_hand": false
-      },
-      {
-        "title": "K-Beauty’s U.S. Boom Is Making ‘Korean’ Less of a Differentiator - KoreaTechDesk",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1HZ0dkQmFkU3ppdGRTcnRJQXV3TjEyaUNKQ2JqbXVldHpDM1k5UlEyTXAtS2c5NnRYcXhXZ0hWeFlMRkNXX3Bpc200dXI0eUZjUHJFTHMtVUZvb2R2T3VDODk0Qjl6SU9CQzZQbUREM0ZDeFBuc3F4ODhVNm5yZw?oc=5",
         "pool": "google",
         "date": "2026-09-12",
         "by_hand": false
@@ -736,6 +736,13 @@
         "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
         "url": "https://openai.com/index/cognition-devin-testing-with-astra",
         "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
+        "title": "Galderma launches ALASTIN skincare in Korea at GAIN RESTAGE - Korea Biomedical Review",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1TTjJFMUxHR3ZlOEJkRlNLekZpOTBpOVREVVZqUmNEcWhfbkFIb0pMclZybVZGNThud3pJdlE5TzNBaUZMTmNFQkZxWDdKNk50LUI3OTFJVTVJOEt6M1ZuVGNzZHN0NnhhUHZvLXpB0gFyQVVfeXFMT2wyVzU1U2NGZmcwMFRXdWJfT3VNdXpLYWlzSkcyUHBtRnZSZHRrMHJ3R1RIV01yTmtDaktQUi1hSDVrblRuQ3BTbXFlb1RZeTY4Rzc3RktnS0tSQWlUNkRwM1l0ZDM3al9ZdHFQSm45RFZR?oc=5",
+        "pool": "google",
         "date": "2026-09-11",
         "by_hand": false
       },
@@ -761,17 +768,17 @@
         "by_hand": false
       },
       {
-        "title": "Discounts Allocator Function API developer preview has ended",
-        "url": "https://shopify.dev/changelog/discounts-allocator-function-api-developer-preview-has-ended",
-        "pool": "design_refs",
+        "title": "VOESH Joins Target Beauty Studio, Bringing K-Beauty Body Care to Target Guests Nationwide with Target-Exclusive Collection - StreetInsider",
+        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOc1pHRS04QjF6NmoyNF9mSjJIWEJiTmNYdF9DQllZMkpCVU5hbG1uQURQOC1UQUhpTTNSQlNHYUJ5c2tZUnVXeTZfaDBseGF1Xy1KTV8xRmFPcmpWSks4RW02UEYyV091S2RKbXlKZHRyck9jZEtlY095eC00NUlrWHhldFBOY0p3bGd2RS00WEJNMWp1ZTFtS3lvaFQxVUh6TU1VTXBZODhjaGdrcUJBdm4tcnlJUENod3ZBeExCMHlBQzcxclQ0dVd0Ti1uNDRZM0dZR2xfSXBXSi1mbE1YR1V0bXBfalluT2hESFBzQTVySnhvUi1pT2MybG05dGRwNjNPWjNaUWQ4bGM?oc=5",
+        "pool": "google",
         "date": "2026-09-10",
         "by_hand": false
       },
       {
-        "title": "Prestige K-Beauty Retail: mixsoon Brings Its Korean Skincare Lines to Target Beauty Studio - Trend Hunter",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5yd21ockxiN01RTlN0SGRoNWdlcFBFdkpab3JqdXRGUHRIS3NjS1VzR3VDWjhKRmJtaTN4MGlaS0NLUjlVbVRxZE5xY1lqU28yV0dVOTNLby03OUhKVWVuVlg3ZjBVMEkydXc?oc=5",
-        "pool": "google",
-        "date": "2026-09-09",
+        "title": "Discounts Allocator Function API developer preview has ended",
+        "url": "https://shopify.dev/changelog/discounts-allocator-function-api-developer-preview-has-ended",
+        "pool": "design_refs",
+        "date": "2026-09-10",
         "by_hand": false
       },
       {
@@ -789,7 +796,7 @@
         "by_hand": false
       },
       {
-        "title": "We Tested Dozens of the Best Korean Skincare Products—These 17 Gave Us Radiant Skin - Byrdie",
+        "title": "These 17 Korean Skincare Products Deliver Serious Glow - Byrdie",
         "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1sc1dUR0l3QkxvbDVjMnk4bzBxd0RKMW13ZVFBZlRLQmFwM3gtdjR1Sk5vZkp3c2xFNUc5Tm9ycThJWGc3TnVZekNOWHNYVHppZEhWWkZ6NjFwQzlZakk2VERaNzlNRVVxaGk1a0ZUWQ?oc=5",
         "pool": "google",
         "date": "2026-09-08",
@@ -803,7 +810,7 @@
         "by_hand": false
       },
       {
-        "title": "From medicine cabinet to makeup bag: Drugmakers turn medical research into skincare - koreajoongangdaily.com",
+        "title": "From medicine cabinet to makeup bag: Drugmakers turn medical research into skincare - Korea JoongAng Daily",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNDhGOE5GQWVncngtaGZBcVkzT0pGcjB4V3dHLUNMMjNoMGJVcjIzWDRjWDJGS3JWWjZ1N1dkN2dfSWpabktCMzd0bXEyNU9TYmtUMUk0VDZlVktNMjh6aER3cTZmdDFnWS1EN1RvOUJDMlNlY0huVlROa0tCUF9RMXNOaGZ5R0NvNEd0UWFjRVhsSmpXZ053WEpfN01zaUNOZExHMm5zLU5OckVKUEktMm5UUTBwT2VyV2dKZUJWNmUtT2xBSklwTHFwN1pzcXVj?oc=5",
         "pool": "google",
         "date": "2026-09-08",
@@ -824,14 +831,14 @@
         "by_hand": false
       },
       {
-        "title": "AI in Ecommerce: 7 Key Use Cases for 2026 - Shopify",
+        "title": "AI in Ecommerce: 7 Key Use Cases for 2026 - shopify.com",
         "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1NSTR6RXEtWU80RVVGR2xRNGc4OGYyR0pzUzR1OXV4Y2pnVERwTFBjZHQzenF6WEtaSV9mUzNwcFZJNnVpYkUzLU5nN0Z2WFpzY1FmR0hRYw?oc=5",
         "pool": "google",
         "date": "2026-09-04",
         "by_hand": false
       },
       {
-        "title": "8 best ecommerce AI Website Builder for creating an online store - hostinger.com",
+        "title": "8 best ecommerce AI Website Builder for creating an online store - Hostinger",
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBpU29tczMwM1pKaUdZYld0aThjYVRYWlE1c3k2VXc4RDBpUDdLOEx5bDg1OHljdURVUG5Xc25PWUxVZDY0RGl2OEFNM1ZYelFhN3FTVm1ySC1hRFk5amtVbkpudm9ZSFFCaEVQX1hleGRKWHV0d1NzSDhJdw?oc=5",
         "pool": "google",
         "date": "2026-09-04",
@@ -845,7 +852,7 @@
         "by_hand": false
       },
       {
-        "title": "What makes K-beauty Korean? The answer is getting complicated. - koreajoongangdaily.com",
+        "title": "What makes K-beauty Korean? The answer is getting complicated. - Korea JoongAng Daily",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTHduVDgyX3Fsb1owRDBvLVd4bDEzQjZlZk1UcGY5aE5oS1NGR0VrVV9scXFNNG9xdGZTcUZQX3A0NEM4LUxJdUt6TWhORGxJVnE5NnM5VVdYWUthOXZWX2xNV0VoUTFsM3lVUl9MR3o5cHF1eXBjSl9feEtwYWtNY1A4RGNRZUItREFtRU8xZ0hzVmVhZ3Bwdmx3X3B6eVNkY3BPb3dGaThJaENSVEJGVWxn?oc=5",
         "pool": "google",
         "date": "2026-09-03",
@@ -873,13 +880,6 @@
         "by_hand": false
       },
       {
-        "title": "Ecommerce Evolution: Shopify’s (SHOP) AI-Driven Approach to Retail Success - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQnNfUW9Pdjhhc2ZBejlUV0lWYmZXRW9KeWxSbjJWLWltODYyQnZGTkpzRE9QOVNUamxuTzFSc1VhcktzWGhSVU5xRnI3QlBTS1c1a0lzTHdEUklzYUw0RDdzNFE0X2FUS3VoX1dWSkRuUDQ2Z0NabkJheVZRUXJOSXhsR0hOajNmYTQ4TUtLUHNWSzlTZTRuYlpmc0FtWXAy?oc=5",
-        "pool": "google",
-        "date": "2026-09-02",
-        "by_hand": false
-      },
-      {
         "title": "Meet the K-beauty masks skincare lovers swear by for achieving a true glass skin finish - sacbee.com",
         "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAzRUhWam1YWHZYXzlFQlVlMFcwRDBYX003QTZqSzM0WURnYnNudkZveEs3RHJCczBzSUpvMklOeXR3elA4ZVdIc2lDd2RNeEJLeE9RdGNEbVFrTjVhcnFPaUJSNEpNeXpWLWRpcGhQb0ozdU3SAXNBVV95cUxPV1Qwc05zNHBGQmhLclBFVzhrQjQ1bjBZWWFKa25fVllZRXRobkhXZGZpeUplUVFYTjJ4dEpBTDZ1TXVlc3FGT3FOOUl2VFBqdzhYcHRFeEtJV2ExN29TUTVQVVdVTmNwWW9YVHZHSkZ0TDZN?oc=5",
         "pool": "google",
@@ -887,7 +887,7 @@
         "by_hand": false
       },
       {
-        "title": "Why imperfect beauty is becoming a planning signal for MUAs and brand buyers beyond 2026 - miamiherald.com",
+        "title": "Why imperfect beauty is becoming a planning signal for MUAs and brand buyers beyond 2026 - Miami Herald",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBxUk1UYUJPcXhnWjlFczJhckZRMjlLM0ZFX1hnclN5cjk0d1prbVNWNWZqVWFMX0M1N2VSY08tNzNteDE0NDNsdWN4SmpTUkpzSDVkMFFhdndkRVBXNGZWRjhuUXpqTWvSAWdBVV95cUxNM1p2Wmx6MVYta09USHF2UUU0MWthTlNwamRPQWUtV0FMbF94U1Zjc1RrN2pUZVg5djlwc2dyZk8zeV9PT0VrRVhUWEJlZmlMM2xHdUk3eUJNUFNkV1lRRFRuVUE5TFpZ?oc=5",
         "pool": "google",
         "date": "2026-08-31",
@@ -898,6 +898,13 @@
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9OdzQ0OXlSbWVrOW1FUXdtSURIcjVsZnJhNEFleWtxZnRjcDdESjdFZlBXUVR0eEM0Tzg2NDN2M2tqU0pEaXd6TTZBOE5yRkVZR2ZBQU1DNWp1RTlxN2V6UHNHUUFJb28?oc=5",
         "pool": "google",
         "date": "2026-08-31",
+        "by_hand": false
+      },
+      {
+        "title": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1pdE5qU2I0OUVRX1ZkOFg1bTdkX0tndjJrVmV6SHk4WWVBT2FDMXBnMjI1SkRFVmR4V1ktMXZoY29NdG1XcWptblhmSW8zc25ZWUxpN1hVTkNZUXJGUTZYZHR2aEl4R211UVFnVU5vUVFyV1VKMldyUE12U1VFd9IBgwFBVV95cUxQXzNCdi0xNzQ1ejZ3RW5zNy03WkZZdFQ5MHhoYWxwMXZENXFzTUJTN0JBU0F2bjVDMHNBU1Q0VjhFMndFS0x4TVBVQVJwbVVsOXFkR2hRMlp0bFRpem5RMHhiWWhVU1hFUVNnNy1UTGt6ZVVUYjhOa2k4SDA0ZVEwQzJURQ?oc=5",
+        "pool": "google",
+        "date": "2026-08-30",
         "by_hand": false
       },
       {
@@ -912,13 +919,6 @@
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPczlRZTVPTlpYTHNGbFFVaGQzbXRLSF83VDZWemlkbE1DOUpUNlpKLUUzLTFJSTRTaEdhRXZ5X21xeExTdlM1ZXhIUXNNNHczRld2Q2pOZVNuMXZoS3hEbDVUM1BfQ3I0UEJSS21iMGxzVzZ0UU40cjlFOXBoMFBvTTZVa2NYSlNkSWF3bVBYZ28wZw?oc=5",
         "pool": "google",
         "date": "2026-08-28",
-        "by_hand": false
-      },
-      {
-        "title": "Transition-Metal Modified Zinc Oxide (ZnO) Nanostructures for Photocatalysis Application — A Comparative Review of Metal Doping and Metal-oxide Conjugation",
-        "url": "https://doi.org/10.26434/chemrxiv.15007951/v1",
-        "pool": "institutions",
-        "date": "2026-08-27",
         "by_hand": false
       }
     ],
@@ -1502,13 +1502,6 @@
         "by_hand": false
       },
       {
-        "title": "Same brand, different SPF: Why Korean sunscreens outperform US versions - The Korea Times",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdXEyV1k2UDNvY01GVEFoVE01MldFRjlqaGlJY3kzRjliamkxcEV3aXFJeS1WRDJpbzI2OGVfTDFoTGR3Ny0tUkNRMXJ0RmJvRktpM2FDN0h4aE1uSHItVVNMWFNycnM1aDR4NW1TUVVQdjRhTmNIUXQxUmlVM253Z2NCNmIwbW9xVHJFLWd0R0tyZ2k4TWtqTzFoeDJUNDE5ZVpfeUZHNWtqNjVsOEhQRjUzSlZ0LTNN0gG-AUFVX3lxTE9teTR0RHBndWpfVGJ2OElRU1NCVDNSaVdZTjcwLWZpcU9ubEJma1FEeU9SbFRmc0hWd3hCTUhoUjlsb05Sek53VlI3RVF4dTI0MlFYRXpScmw4bFM1WVpjVEpnSFMtUllTWm9xYkxkbXVIM2RUaHQ3UlpXcGZJTHMxYkQ4aUlBdmFxQllQZF9YbG9yYVk5ay0yTUlVYTBjS3dZTnlkdzVLRzQxMGkzM0FzOERMOEo3d1RDOURmUnc?oc=5",
-        "pool": "us_beauty",
-        "date": "",
-        "by_hand": false
-      },
-      {
         "title": "FOREVER SKIN GLOW 24h wear radiant foundation Perfection and hydration Concentrated floral skincare with suncreen Broad spectrum SPF 15 00",
         "url": "https://api.fda.gov/drug/label.json?search=id:1f013e61-f171-2ae2-e063-6294a90adcf1",
         "pool": "us_beauty",
@@ -1532,6 +1525,13 @@
       {
         "title": "Neutrogena Mineral Invisible Daily Defense Face Sunscreen Broad Spectrum SPF 30",
         "url": "https://api.fda.gov/drug/label.json?search=id:3afd4f97-ceb8-c70f-e063-6394a90afeb4",
+        "pool": "us_beauty",
+        "date": "",
+        "by_hand": false
+      },
+      {
+        "title": "MediChoice Moisturizing Lip Balm SPF15",
+        "url": "https://api.fda.gov/drug/label.json?search=id:40b41656-3e4a-5597-e063-6394a90a952a",
         "pool": "us_beauty",
         "date": "",
         "by_hand": false
@@ -1975,7 +1975,7 @@
         "by_hand": false
       },
       {
-        "title": "Agility’s Digit 5 humanoid has new legs, batteries and safety upgrades",
+        "title": "Agility’s Digit 5 humanoid has new legs, batteries, and safety upgrades",
         "url": "https://www.therobotreport.com/agilitys-digit-5-humanoid-has-new-legs-batteries-safety-upgrades/",
         "pool": "robotics",
         "date": "2026-09-15",
@@ -2812,6 +2812,13 @@
         "by_hand": false
       },
       {
+        "title": "[Interview] The People Behind the Galaxy Z Series’ Camera Innovations ②: How Portrait Video Recreates the Look of Professional Camera Lenses",
+        "url": "https://news.samsung.com/global/interview-the-people-behind-the-galaxy-z-series-camera-innovations-%e2%91%a1-how-portrait-video-recreates-the-look-of-professional-camera-lenses",
+        "pool": "institutions",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
         "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
         "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
         "pool": "institutions",
@@ -2952,13 +2959,6 @@
         "by_hand": false
       },
       {
-        "title": "Thoughts On The Market Carpenter Housing Prices Update",
-        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-carpenter-housing-prices-update",
-        "pool": "institutions",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
         "title": "Thoughts On The Market Ai Market Disruption Tirupattur",
         "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-ai-market-disruption-tirupattur",
         "pool": "institutions",
@@ -2966,15 +2966,15 @@
         "by_hand": false
       },
       {
-        "title": "Thoughts On The Market Asia Equities Us Election View",
-        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-asia-equities-us-election-view",
+        "title": "Thoughts On The Market Carpenter Housing Prices Update",
+        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-carpenter-housing-prices-update",
         "pool": "institutions",
         "date": "2026-09-15",
         "by_hand": false
       },
       {
-        "title": "Thoughts On The Market Consumer Spending Us Election 2024",
-        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-consumer-spending-us-election-2024",
+        "title": "Private Markets Investment Trends Institute 2026",
+        "url": "https://www.morganstanley.com/insights/articles/private-markets-investment-trends-institute-2026",
         "pool": "institutions",
         "date": "2026-09-15",
         "by_hand": false
@@ -2987,15 +2987,22 @@
         "by_hand": false
       },
       {
-        "title": "Thoughts On The Market Cross Asset Strategy",
-        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-cross-asset-strategy",
+        "title": "Thoughts On The Market Consumer Spending Us Election 2024",
+        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-consumer-spending-us-election-2024",
         "pool": "institutions",
         "date": "2026-09-15",
         "by_hand": false
       },
       {
-        "title": "Thoughts On The Market Carpenter French Us Elections 2024",
-        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-carpenter-french-us-elections-2024",
+        "title": "Canada Economic Growth Accelerates Through 2030",
+        "url": "https://www.morganstanley.com/insights/articles/canada-economic-growth-accelerates-through-2030",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Thoughts On The Market Byrd Chan Nuclear Power Renaissance",
+        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-byrd-chan-nuclear-power-renaissance",
         "pool": "institutions",
         "date": "2026-09-15",
         "by_hand": false
@@ -3015,8 +3022,29 @@
         "by_hand": false
       },
       {
-        "title": "Thoughts On The Market Byrd Chan Nuclear Power Renaissance",
-        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-byrd-chan-nuclear-power-renaissance",
+        "title": "Thoughts On The Market Cross Asset Strategy",
+        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-cross-asset-strategy",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Thoughts On The Market Carpenter French Us Elections 2024",
+        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-carpenter-french-us-elections-2024",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Thoughts On The Market Asia Equities Us Election View",
+        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-asia-equities-us-election-view",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Strategy Challenge Winners 2026",
+        "url": "https://www.morganstanley.com/insights/articles/strategy-challenge-winners-2026",
         "pool": "institutions",
         "date": "2026-09-15",
         "by_hand": false
@@ -3092,6 +3120,13 @@
         "by_hand": false
       },
       {
+        "title": "Consumer Driven Healthcare Direct To Consumer Biopharma Erin Wright Terence Flynn",
+        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/consumer-driven-healthcare-direct-to-consumer-biopharma-erin-wright-terence-flynn",
+        "pool": "institutions",
+        "date": "2026-09-14",
+        "by_hand": false
+      },
+      {
         "title": "Venture Capital Funding Gap",
         "url": "https://www.morganstanley.com/ideas/venture-capital-funding-gap",
         "pool": "institutions",
@@ -3099,15 +3134,8 @@
         "by_hand": false
       },
       {
-        "title": "Zero Hunger Mission",
-        "url": "https://www.morganstanley.com/ideas/zero-hunger-mission",
-        "pool": "institutions",
-        "date": "2026-09-14",
-        "by_hand": false
-      },
-      {
-        "title": "Consumer Driven Healthcare Direct To Consumer Biopharma Erin Wright Terence Flynn",
-        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/consumer-driven-healthcare-direct-to-consumer-biopharma-erin-wright-terence-flynn",
+        "title": "Direct Indexing",
+        "url": "https://www.morganstanley.com/insights/articles/direct-indexing",
         "pool": "institutions",
         "date": "2026-09-14",
         "by_hand": false
@@ -3127,15 +3155,15 @@
         "by_hand": false
       },
       {
-        "title": "Direct Indexing",
-        "url": "https://www.morganstanley.com/insights/articles/direct-indexing",
+        "title": "Morgan Stanley Inclusive Sustainable Ventures Cohort 2026",
+        "url": "https://www.morganstanley.com/insights/articles/morgan-stanley-inclusive-sustainable-ventures-cohort-2026",
         "pool": "institutions",
         "date": "2026-09-14",
         "by_hand": false
       },
       {
-        "title": "Morgan Stanley Inclusive Sustainable Ventures Cohort 2026",
-        "url": "https://www.morganstanley.com/insights/articles/morgan-stanley-inclusive-sustainable-ventures-cohort-2026",
+        "title": "Zero Hunger Mission",
+        "url": "https://www.morganstanley.com/ideas/zero-hunger-mission",
         "pool": "institutions",
         "date": "2026-09-14",
         "by_hand": false
@@ -3194,34 +3222,6 @@
         "url": "https://doi.org/10.5281/zenodo.22726548",
         "pool": "institutions",
         "date": "2026-09-12",
-        "by_hand": false
-      },
-      {
-        "title": "Closure Theory: From Intrinsic Geometric Closure to Relational Mass, Charge and Coupling",
-        "url": "https://doi.org/10.5281/zenodo.22726549",
-        "pool": "institutions",
-        "date": "2026-09-12",
-        "by_hand": false
-      },
-      {
-        "title": "Calibrating Classifiers Across Covariates: Hierarchical Vocal Density Estimation for Acoustic Monitoring at Scale",
-        "url": "https://doi.org/10.64898/2026.09.08.747031",
-        "pool": "institutions",
-        "date": "2026-09-12",
-        "by_hand": false
-      },
-      {
-        "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
-        "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-        "pool": "institutions",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
-        "url": "https://openai.com/index/cognition-devin-testing-with-astra",
-        "pool": "institutions",
-        "date": "2026-09-11",
         "by_hand": false
       }
     ]

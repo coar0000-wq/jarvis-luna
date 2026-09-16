@@ -2,7 +2,7 @@
 title: "Record 0786e2343f · The-darker-side-of-beauty-trends---Vogue"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T04:52:06.493712+00:00
+updated_at: 2026-09-16T09:11:57.134849+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record b7f5d4ba1f · 32eP-Long-term-efficacy-and-safety-of-adjuvant-icot"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T04:52:06.192036+00:00
+updated_at: 2026-09-16T09:11:56.820980+00:00
 tags: [record, real-data]
 ---
 

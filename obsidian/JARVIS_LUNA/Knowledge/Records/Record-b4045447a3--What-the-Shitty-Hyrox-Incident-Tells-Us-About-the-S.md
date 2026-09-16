@@ -1,12 +1,12 @@
 ---
-title: "Record b4045447a3 · What-the-Shitty-Hyrox-Incident-Tells-Us-About-the-State-of-Our-Manners"
+title: "Record b4045447a3 · What-the-Shitty-Hyrox-Incident-Tells-Us-About-the-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T04:52:06.739892+00:00
+updated_at: 2026-09-16T09:11:57.389574+00:00
 tags: [record, real-data]
 ---
 
-# Record b4045447a3 · What-the-Shitty-Hyrox-Incident-Tells-Us-About-the-State-of-Our-Manners
+# Record b4045447a3 · What-the-Shitty-Hyrox-Incident-Tells-Us-About-the-S
 
 > 실제 수집 레코드입니다. 원문: [www.allure.com](https://www.allure.com/story/hyrox-joanna-wietrzyk-op-ed-incident)
 

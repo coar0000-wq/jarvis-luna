@@ -2,7 +2,7 @@
 title: "Record e93c407601 · The-Asian-Federation-of-Cytology-Societies-Origins-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T04:52:06.173272+00:00
+updated_at: 2026-09-16T09:11:56.803361+00:00
 tags: [record, real-data]
 ---
 

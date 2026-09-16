@@ -2,7 +2,7 @@
 title: "Record 96c581d782 · CosRx-Is-the-First-K-Beauty-Patron-of-the-British-B"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T04:52:06.603006+00:00
+updated_at: 2026-09-16T09:11:57.256473+00:00
 tags: [record, real-data]
 ---
 

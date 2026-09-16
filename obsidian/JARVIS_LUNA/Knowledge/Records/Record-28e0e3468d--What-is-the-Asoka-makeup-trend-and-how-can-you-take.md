@@ -2,7 +2,7 @@
 title: "Record 28e0e3468d · What-is-the-Asoka-makeup-trend-and-how-can-you-take"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T04:52:06.606218+00:00
+updated_at: 2026-09-16T09:11:57.259975+00:00
 tags: [record, real-data]
 ---
 

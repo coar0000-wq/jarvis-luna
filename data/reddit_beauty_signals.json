@@ -1,14 +1,14 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-16T03:08:05.869052+00:00",
+  "collected_at": "2026-09-16T09:04:52.480634+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
     "SkincareAddiction",
     "AsianBeautyAdvice"
   ],
-  "post_count": 50,
+  "post_count": 25,
   "per_subreddit": [
     {
       "subreddit": "AsianBeauty",
@@ -27,9 +27,10 @@
     },
     {
       "subreddit": "SkincareAddiction",
-      "post_count": 25,
+      "post_count": 0,
       "errors": [
-        "hot: HTTPError: HTTP Error 429: Too Many Requests"
+        "hot: HTTPError: HTTP Error 429: Too Many Requests",
+        "top_week: HTTPError: HTTP Error 429: Too Many Requests"
       ]
     },
     {
@@ -43,23 +44,7 @@
   ],
   "hot_keywords": [
     {
-      "keyword": "skin",
-      "score": 8
-    },
-    {
-      "keyword": "acne",
-      "score": 8
-    },
-    {
       "keyword": "2026",
-      "score": 6
-    },
-    {
-      "keyword": "sunscreen",
-      "score": 6
-    },
-    {
-      "keyword": "product",
       "score": 6
     },
     {
@@ -71,27 +56,11 @@
       "score": 4
     },
     {
-      "keyword": "masks",
+      "keyword": "skin",
       "score": 4
     },
     {
-      "keyword": "cream",
-      "score": 4
-    },
-    {
-      "keyword": "routine",
-      "score": 4
-    },
-    {
-      "keyword": "request",
-      "score": 4
-    },
-    {
-      "keyword": "psa",
-      "score": 4
-    },
-    {
-      "keyword": "question",
+      "keyword": "brand",
       "score": 3
     },
     {
@@ -99,12 +68,8 @@
       "score": 3
     },
     {
-      "keyword": "body",
+      "keyword": "cream",
       "score": 3
-    },
-    {
-      "keyword": "ask",
-      "score": 2
     },
     {
       "keyword": "monthly",
@@ -119,27 +84,15 @@
       "score": 2
     },
     {
-      "keyword": "brand",
+      "keyword": "body",
       "score": 2
     },
     {
-      "keyword": "their",
-      "score": 2
-    },
-    {
-      "keyword": "kbeauty",
-      "score": 2
-    },
-    {
-      "keyword": "face",
+      "keyword": "products",
       "score": 2
     },
     {
       "keyword": "favourite",
-      "score": 2
-    },
-    {
-      "keyword": "biore",
       "score": 2
     },
     {
@@ -151,73 +104,109 @@
       "score": 2
     },
     {
-      "keyword": "think",
+      "keyword": "kbeauty",
       "score": 2
     },
     {
-      "keyword": "looks",
+      "keyword": "korean",
       "score": 2
     },
     {
-      "keyword": "scars",
+      "keyword": "face",
       "score": 2
     },
     {
-      "keyword": "did",
+      "keyword": "masks",
       "score": 2
     },
     {
-      "keyword": "hair",
+      "keyword": "biore",
       "score": 2
     },
     {
-      "keyword": "removal",
+      "keyword": "sunscreen",
       "score": 2
     },
     {
-      "keyword": "scam",
-      "score": 2
+      "keyword": "question",
+      "score": 1
     },
     {
-      "keyword": "trigger",
-      "score": 2
-    },
-    {
-      "keyword": "mask",
-      "score": 2
-    },
-    {
-      "keyword": "moisturizer",
-      "score": 2
-    },
-    {
-      "keyword": "spf",
-      "score": 2
-    },
-    {
-      "keyword": "non",
-      "score": 2
+      "keyword": "ask",
+      "score": 1
     },
     {
       "keyword": "here",
+      "score": 1
+    },
+    {
+      "keyword": "alter-daily",
+      "score": 1
+    },
+    {
+      "keyword": "questions",
+      "score": 1
+    },
+    {
+      "keyword": "anti-haul",
+      "score": 1
+    },
+    {
+      "keyword": "base",
+      "score": 1
+    },
+    {
+      "keyword": "pink",
+      "score": 1
+    },
+    {
+      "keyword": "salmon",
+      "score": 1
+    },
+    {
+      "keyword": "colour",
+      "score": 1
+    },
+    {
+      "keyword": "correctors",
+      "score": 1
+    },
+    {
+      "keyword": "favourites",
+      "score": 1
+    },
+    {
+      "keyword": "love",
+      "score": 1
+    },
+    {
+      "keyword": "botanist",
+      "score": 1
+    },
+    {
+      "keyword": "wash",
+      "score": 1
+    },
+    {
+      "keyword": "especially",
+      "score": 1
+    },
+    {
+      "keyword": "their",
+      "score": 1
+    },
+    {
+      "keyword": "hinoki",
+      "score": 1
+    },
+    {
+      "keyword": "cedarwood",
       "score": 1
     }
   ],
   "beauty_keywords": [
     {
       "keyword": "skin",
-      "score": 8
-    },
-    {
-      "keyword": "sunscreen",
-      "score": 6
-    },
-    {
-      "keyword": "masks",
-      "score": 4
-    },
-    {
-      "keyword": "routine",
       "score": 4
     },
     {
@@ -225,15 +214,15 @@
       "score": 2
     },
     {
-      "keyword": "mask",
+      "keyword": "korean",
       "score": 2
     },
     {
-      "keyword": "moisturizer",
+      "keyword": "masks",
       "score": 2
     },
     {
-      "keyword": "spf",
+      "keyword": "sunscreen",
       "score": 2
     }
   ],
@@ -267,6 +256,20 @@
       "feed": "hot"
     },
     {
+      "title": "Pink/salmon colour correctors - What are your favourites?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whopyw/pinksalmon_colour_correctors_what_are_your/",
+      "published": "2026-09-16T06:01:31+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "I love Botanist brand body wash especially their new hinoki and cedarwood",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whkz1x/i_love_botanist_brand_body_wash_especially_their/",
+      "published": "2026-09-16T02:49:16+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Has anyone tried the new 2026 Lilybyred Bloody Liar Coating Tint?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wh21b6/has_anyone_tried_the_new_2026_lilybyred_bloody/",
       "published": "2026-09-15T14:31:18+00:00",
@@ -281,30 +284,9 @@
       "feed": "hot"
     },
     {
-      "title": "I love Botanist brand body wash especially their new hinoki and cedarwood",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whkz1x/i_love_botanist_brand_body_wash_especially_their/",
-      "published": "2026-09-16T02:49:16+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
       "title": "Which skin and body products have pretty packaging AND do an amazing job?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wh256q/which_skin_and_body_products_have_pretty/",
       "published": "2026-09-15T14:35:30+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "KBeauty hypochlorous acid spray",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wguvvd/kbeauty_hypochlorous_acid_spray/",
-      "published": "2026-09-15T08:54:15+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "this months face masks reviews",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wgsj35/this_months_face_masks_reviews/",
-      "published": "2026-09-15T06:32:50+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -316,6 +298,34 @@
       "feed": "hot"
     },
     {
+      "title": "Anything Goes Tuesday: September 15, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whc742/anything_goes_tuesday_september_15_2026/",
+      "published": "2026-09-15T20:39:10+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "KBeauty hypochlorous acid spray",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wguvvd/kbeauty_hypochlorous_acid_spray/",
+      "published": "2026-09-15T08:54:15+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "What sites are good for shipping speeds at the moment for korean skin care?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whbkkz/what_sites_are_good_for_shipping_speeds_at_the/",
+      "published": "2026-09-15T20:15:48+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "this months face masks reviews",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wgsj35/this_months_face_masks_reviews/",
+      "published": "2026-09-15T06:32:50+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "new flower knows collection: ❄️🦢🩰 SNOW BALLET 🩰🦢❄️",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wg0bbe/new_flower_knows_collection_snow_ballet/",
       "published": "2026-09-14T11:04:35+00:00",
@@ -323,16 +333,16 @@
       "feed": "hot"
     },
     {
-      "title": "Biore aqua rich airy hold cream- the best biore sunscreen?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wgvo88/biore_aqua_rich_airy_hold_cream_the_best_biore/",
-      "published": "2026-09-15T09:40:11+00:00",
+      "title": "Yesstyle's weird brand pushing during discount campaigns",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wgzfm8/yesstyles_weird_brand_pushing_during_discount/",
+      "published": "2026-09-15T12:47:41+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Anything Goes Tuesday: September 15, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whc742/anything_goes_tuesday_september_15_2026/",
-      "published": "2026-09-15T20:39:10+00:00",
+      "title": "Biore aqua rich airy hold cream- the best biore sunscreen?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wgvo88/biore_aqua_rich_airy_hold_cream_the_best_biore/",
+      "published": "2026-09-15T09:40:11+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -347,6 +357,13 @@
       "title": "For those who wear slightly enlarging lenses how big of a difference do you think it makes on your face overall?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wge57e/for_those_who_wear_slightly_enlarging_lenses_how/",
       "published": "2026-09-14T19:53:46+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Does anyone know what's happening with Esthetic House products?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wgveta/does_anyone_know_whats_happening_with_esthetic/",
+      "published": "2026-09-15T09:25:14+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -384,209 +401,6 @@
       "published": "2026-09-14T20:39:14+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
-    },
-    {
-      "title": "Stylevana - no point of insurance with lost parcels (UK)",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfwzo2/stylevana_no_point_of_insurance_with_lost_parcels/",
-      "published": "2026-09-14T07:48:55+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Rip Costco Next :( Roundlab Mugwort Line?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfvdqz/rip_costco_next_roundlab_mugwort_line/",
-      "published": "2026-09-14T06:13:57+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Are overnight wrapping masks actually worth it?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wg23of/are_overnight_wrapping_masks_actually_worth_it/",
-      "published": "2026-09-14T12:31:31+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Hyntoor cream blush - does anyone have any tips on how to use this?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfagaw/hyntoor_cream_blush_does_anyone_have_any_tips_on/",
-      "published": "2026-09-13T15:17:45+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "[Sun Care] A photo of my legs in case you need a reminder of how awesome sunscreen is.",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wdnjcg/sun_care_a_photo_of_my_legs_in_case_you_need_a/",
-      "published": "2026-09-11T17:55:52+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "A Girl’s Guide to Ingrowns and Butt Pimples [routine help]",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wfu4ra/a_girls_guide_to_ingrowns_and_butt_pimples/",
-      "published": "2026-09-14T05:05:52+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Product Request] Freaky bug bites that left gnarly scars :(",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1we2q1i/product_request_freaky_bug_bites_that_left_gnarly/",
-      "published": "2026-09-12T04:34:26+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[acne] how did they get rid of their acne scars",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wh4p9r/acne_how_did_they_get_rid_of_their_acne_scars/",
-      "published": "2026-09-15T16:10:21+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[hair removal] I think I discovered a shaving hack!",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wfoc5i/hair_removal_i_think_i_discovered_a_shaving_hack/",
-      "published": "2026-09-14T00:24:07+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Product Request] Nothing is working",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wf9bi2/product_request_nothing_is_working/",
-      "published": "2026-09-13T14:33:31+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Hair Removal] Unsure how to combat this. Open to suggestions",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wbxxoc/hair_removal_unsure_how_to_combat_this_open_to/",
-      "published": "2026-09-09T20:50:56+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Product Request] Even Vaseline dries out my lips",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wejs7i/product_request_even_vaseline_dries_out_my_lips/",
-      "published": "2026-09-12T18:13:06+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Before and After] vi peel",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wcm7xz/before_and_after_vi_peel/",
-      "published": "2026-09-10T15:21:02+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[PSA] Dermatica closing in the US",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wdn1zx/psa_dermatica_closing_in_the_us/",
-      "published": "2026-09-11T17:38:31+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[MISC] How I finally freaking fixed my very dehydrated skin",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wbsu9y/misc_how_i_finally_freaking_fixed_my_very/",
-      "published": "2026-09-09T17:53:04+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[PSA] Beware of scam websites. If a deal looks too good to be true, it’s likely a scam",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wg3gdo/psa_beware_of_scam_websites_if_a_deal_looks_too/",
-      "published": "2026-09-14T13:28:26+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[trigger warning] Recurring lip reaction — I’m desperate to figure out the trigger",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wh9qp2/trigger_warning_recurring_lip_reaction_im/",
-      "published": "2026-09-15T19:09:48+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Product Question] My friend is in Japan right now: What should I ask her to bring back for this skin?",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wggjs6/product_question_my_friend_is_in_japan_right_now/",
-      "published": "2026-09-14T21:21:56+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "Curology Customer Service [PSA]",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wh74xj/curology_customer_service_psa/",
-      "published": "2026-09-15T17:38:02+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Product Question] How did you introduce an LED mask without upsetting your skin?",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wf3vme/product_question_how_did_you_introduce_an_led/",
-      "published": "2026-09-13T10:17:55+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Acne] Spearmint Tea Experience (1 Month)",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wgc6l6/acne_spearmint_tea_experience_1_month/",
-      "published": "2026-09-14T18:44:45+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Personal] Mystery ball in my forehead",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wco2xl/personal_mystery_ball_in_my_forehead/",
-      "published": "2026-09-10T16:28:38+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[acne] Can some people just not tolerate moisturizer?",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wels0s/acne_can_some_people_just_not_tolerate_moisturizer/",
-      "published": "2026-09-12T19:28:13+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[ACNE] Amoxicillin w/ Acne",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wcab68/acne_amoxicillin_w_acne/",
-      "published": "2026-09-10T05:49:01+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Acne] Persistent bumps on hairline and chin: Advice please!",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wf6xfo/acne_persistent_bumps_on_hairline_and_chin_advice/",
-      "published": "2026-09-13T12:54:12+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Acne] The routine that saved me",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wba600/acne_the_routine_that_saved_me/",
-      "published": "2026-09-09T03:28:04+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[anti-aging] 36m Smoothing facial features.",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wepqt9/antiaging_36m_smoothing_facial_features/",
-      "published": "2026-09-12T22:07:00+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[PSA] - Ultra Violette is going to launch 100% chemical sunscreen with bemt/tinosorb s - fave screen SPF 50",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wbm1ww/psa_ultra_violette_is_going_to_launch_100/",
-      "published": "2026-09-09T13:45:47+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Product Request] non greasy non sticky body lotion for sensory issues?",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wh0dxy/product_request_non_greasy_non_sticky_body_lotion/",
-      "published": "2026-09-15T13:26:39+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
     }
   ],
   "note": "커뮤니티 실수요 시그널. 광고 키워드·S등급 코칭 보강용. 판매 순위 아님.",
