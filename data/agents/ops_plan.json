@@ -1,6 +1,6 @@
 {
   "agent": "Ops-Prioritizer",
-  "generated_at": "2026-09-16T12:22:22.914991+00:00",
+  "generated_at": "2026-09-16T13:49:50.493349+00:00",
   "risk": "medium",
   "task_count": 5,
   "tasks": [
@@ -34,8 +34,8 @@
     },
     {
       "priority": 4,
-      "title": "팀 조치 · 마케팅 조사팀",
-      "detail": "고시 표 5건 필요 — 1049276 [피부결케어]VT 리들샷 300  https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049276 / 1055167 본셉 레티놀 500 IU 세럼 3 https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pd",
+      "title": "팀 조치 · 리스팅 제작팀",
+      "detail": "us_label 5건, 가격 1건, 법률 5건 이 막고 있음",
       "refs": [
         "data/dashboard_runtime.json"
       ],
@@ -43,8 +43,8 @@
     },
     {
       "priority": 4,
-      "title": "팀 조치 · 리스팅 제작팀",
-      "detail": "고시 5건, us_label 5건, 가격 1건 이 막고 있음",
+      "title": "팀 조치 · 가격 정책팀",
+      "detail": "1건이 시장가로 손익분기 미달",
       "refs": [
         "data/dashboard_runtime.json"
       ],
@@ -69,11 +69,11 @@
       },
       {
         "n": 4,
-        "text": "팀 조치 · 마케팅 조사팀 — 고시 표 5건 필요 — 1049276 [피부결케어]VT 리들샷 300  https://www.daisomall.co.kr/pd/pdr/SCR_P"
+        "text": "팀 조치 · 리스팅 제작팀 — us_label 5건, 가격 1건, 법률 5건 이 막고 있음"
       },
       {
         "n": 5,
-        "text": "팀 조치 · 리스팅 제작팀 — 고시 5건, us_label 5건, 가격 1건 이 막고 있음"
+        "text": "팀 조치 · 가격 정책팀 — 1건이 시장가로 손익분기 미달"
       }
     ]
   }
