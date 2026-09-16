@@ -2,7 +2,7 @@
 title: "Record a2bb0d036d · Manage-all-your-AI-channels-in-one-place"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T11:37:33.746207+00:00
+updated_at: 2026-09-16T14:44:15.702398+00:00
 tags: [record, real-data]
 ---
 

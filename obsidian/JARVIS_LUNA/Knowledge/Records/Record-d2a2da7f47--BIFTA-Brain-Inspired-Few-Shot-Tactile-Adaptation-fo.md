@@ -2,7 +2,7 @@
 title: "Record d2a2da7f47 · BIFTA-Brain-Inspired-Few-Shot-Tactile-Adaptation-fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T11:37:32.907796+00:00
+updated_at: 2026-09-16T14:44:14.917622+00:00
 tags: [record, real-data]
 ---
 

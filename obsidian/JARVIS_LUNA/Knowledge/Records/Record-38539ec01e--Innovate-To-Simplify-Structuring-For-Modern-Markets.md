@@ -2,7 +2,7 @@
 title: "Record 38539ec01e · Innovate-To-Simplify-Structuring-For-Modern-Markets"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T11:37:33.627740+00:00
+updated_at: 2026-09-16T14:44:15.588894+00:00
 tags: [record, real-data]
 ---
 

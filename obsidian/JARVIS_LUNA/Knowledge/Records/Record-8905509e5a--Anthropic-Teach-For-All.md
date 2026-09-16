@@ -2,7 +2,7 @@
 title: "Record 8905509e5a · Anthropic-Teach-For-All"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T11:37:33.575686+00:00
+updated_at: 2026-09-16T14:44:15.542653+00:00
 tags: [record, real-data]
 ---
 

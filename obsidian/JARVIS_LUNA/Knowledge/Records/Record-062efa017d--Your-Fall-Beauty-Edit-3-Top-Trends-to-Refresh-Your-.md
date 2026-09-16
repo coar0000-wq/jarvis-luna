@@ -1,12 +1,12 @@
 ---
-title: "Record 062efa017d · Your-Fall-Beauty-Edit-3-Top-Trends-to-Refresh-Your-Routine-at-Target--"
+title: "Record 062efa017d · Your-Fall-Beauty-Edit-3-Top-Trends-to-Refresh-Your-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T11:37:33.313639+00:00
+updated_at: 2026-09-16T14:44:15.291396+00:00
 tags: [record, real-data]
 ---
 
-# Record 062efa017d · Your-Fall-Beauty-Edit-3-Top-Trends-to-Refresh-Your-Routine-at-Target--
+# Record 062efa017d · Your-Fall-Beauty-Edit-3-Top-Trends-to-Refresh-Your-
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMigAFBVV95cUxQajBBeEpXUWJ4Mm1lZ0ZucHhEUlhqb1pKdkhSeEk5YkpNb05BTFdVYzFCWmhpdlhFVnBBUzA1aFFwNmpBTnlrcUM2QU5hWWkwLWstV0Q0b2JYeURaLW9pUXRENkxqdmhhb3pzM0lmOTZCTmVvcGM3ZDdpQ3ZiZk5leQ?oc=5)
 

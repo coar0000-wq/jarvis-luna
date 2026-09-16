@@ -2,7 +2,7 @@
 title: "Record c54dce1844 · 3UTR-directed-kinase-proximal-mRNA-decay-inhibits-C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T11:37:32.993630+00:00
+updated_at: 2026-09-16T14:44:14.998817+00:00
 tags: [record, real-data]
 ---
 

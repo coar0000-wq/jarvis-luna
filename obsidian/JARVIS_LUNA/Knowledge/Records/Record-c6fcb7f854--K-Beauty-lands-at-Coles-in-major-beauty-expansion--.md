@@ -2,7 +2,7 @@
 title: "Record c6fcb7f854 · K-Beauty-lands-at-Coles-in-major-beauty-expansion---Retail-Beauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T11:37:33.323534+00:00
+updated_at: 2026-09-16T14:44:15.300677+00:00
 tags: [record, real-data]
 ---
 

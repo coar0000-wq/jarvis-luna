@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-16T11:38:55.842906+00:00",
-  "real_records": 3470,
+  "updated_at": "2026-09-16T14:41:49.163733+00:00",
+  "real_records": 3476,
   "source_labels": {
     "ai-image": 111,
-    "ai-research": 3075,
-    "shopify-commerce-image": 284
+    "ai-research": 3080,
+    "shopify-commerce-image": 285
   },
-  "corpus_sha256": "e8295de2d4a3b700e9cc42e2c10d63df7fc89906c3c71564a09b4e06961a9c09",
+  "corpus_sha256": "85a9c646e3f4e5680ea4b8cc98dd6074729588f1beb95b77201fad38b15aa716",
   "training_performed": true,
   "weights_updated": true,
   "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
@@ -14,17 +14,29 @@
   "top_k_inference": 2,
   "model_file": "data/knowledge/real_knowledge_moe.npz",
   "compatibility_model_file": "data/knowledge/real_knowledge_router.npz",
-  "training_accuracy_on_corpus": 0.8861671469740634,
+  "training_accuracy_on_corpus": 0.8860759493670886,
   "mean_gate_load": [
     0.277867,
     0.322267,
     0.399866
   ],
-  "note": "This is a text knowledge-routing MoE, not an image foundation model.",
-  "trained_corpus_sha256": "e8295de2d4a3b700e9cc42e2c10d63df7fc89906c3c71564a09b4e06961a9c09",
+  "note": "실제 수집 데이터 누적 코퍼스. URL 기준 중복 제거하며 기존 레코드는 보존한다. 가중치 갱신은 학습기가 별도로 수행한다.",
+  "trained_corpus_sha256": "85a9c646e3f4e5680ea4b8cc98dd6074729588f1beb95b77201fad38b15aa716",
   "tuning_promoted": true,
   "tuning_steps": 500,
   "tuning_validation_accuracy": 0.8927492447129909,
-  "tuning_final_loss": 0.392508508994667,
-  "tuning_gate_load_std": 0.14845272770830104
+  "tuning_final_loss": 0.3933058454276111,
+  "tuning_gate_load_std": 0.1454453934296532,
+  "records_before": 3470,
+  "records_added": 6,
+  "source_status": {
+    "arxiv": "skipped",
+    "robotics": "ok",
+    "institutions": "ok",
+    "organic_skincare": "ok",
+    "google": "ok",
+    "us_beauty": "ok"
+  },
+  "corpus": "data/knowledge/training_corpus.jsonl",
+  "말뭉치": "바뀌었다. 지금 가중치는 이 말뭉치로 학습한 것이 아니다. 학습기가 돌아야 다시 참이 된다."
 }

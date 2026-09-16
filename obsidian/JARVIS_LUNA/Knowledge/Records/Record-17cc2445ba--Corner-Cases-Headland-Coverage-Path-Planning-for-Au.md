@@ -2,7 +2,7 @@
 title: "Record 17cc2445ba · Corner-Cases-Headland-Coverage-Path-Planning-for-Au"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T11:37:32.878726+00:00
+updated_at: 2026-09-16T14:44:14.891934+00:00
 tags: [record, real-data]
 ---
 

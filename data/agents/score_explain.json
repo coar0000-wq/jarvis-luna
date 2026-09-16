@@ -1,16 +1,16 @@
 {
   "agent": "Score-Explain",
-  "generated_at": "2026-09-16T14:18:06.157019+00:00",
-  "s_count": 9,
+  "generated_at": "2026-09-16T14:51:17.867052+00:00",
+  "s_count": 8,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
   "items": [
     {
       "pd_no": "1049276",
       "name": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
       "score": 100,
-      "why": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule",
-      "global": "Skin1004 Madagascar Centella Ampoule",
-      "channel": "tiktok_shop_us",
+      "why": "글로벌 'REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 70% · 토큰 ampoule",
+      "global": "REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)",
+      "channel": "oliveyoung_us",
       "tokens": [
         "ampoule"
       ]
@@ -31,9 +31,9 @@
       "pd_no": "1049275",
       "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
       "score": 98,
-      "why": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule",
-      "global": "Skin1004 Madagascar Centella Ampoule",
-      "channel": "tiktok_shop_us",
+      "why": "글로벌 'REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 70% · 토큰 ampoule",
+      "global": "REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)",
+      "channel": "oliveyoung_us",
       "tokens": [
         "ampoule"
       ]
@@ -77,25 +77,13 @@
     {
       "pd_no": "1049271",
       "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
-      "score": 91,
+      "score": 90,
       "why": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 60% · 토큰 calming, toner",
       "global": "ANUA Heartleaf 77 Soothing Toner",
       "channel": "tiktok_shop_us",
       "tokens": [
         "calming",
         "toner"
-      ]
-    },
-    {
-      "pd_no": "1042619",
-      "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
-      "score": 85,
-      "why": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 68% · 토큰 collagen, mask",
-      "global": "Biodance Bio-Collagen Real Deep Mask",
-      "channel": "tiktok_shop_us",
-      "tokens": [
-        "collagen",
-        "mask"
       ]
     },
     {

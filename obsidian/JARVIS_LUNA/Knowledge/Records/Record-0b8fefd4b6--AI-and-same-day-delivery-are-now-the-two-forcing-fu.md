@@ -2,7 +2,7 @@
 title: "Record 0b8fefd4b6 · AI-and-same-day-delivery-are-now-the-two-forcing-fu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T11:37:33.195456+00:00
+updated_at: 2026-09-16T14:44:15.181691+00:00
 tags: [record, real-data]
 ---
 

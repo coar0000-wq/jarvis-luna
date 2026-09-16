@@ -2,7 +2,7 @@
 title: "Record 82d9d5aa17 · 12-Best-AI-Website-Builders-to-Design-Your-Site-in-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T11:37:33.214539+00:00
+updated_at: 2026-09-16T14:44:15.199485+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiX0FVX3lxTE1QSDFiWEJQUEZGX0ZPcjlZWXQxcWZmckdzMm9uUHdDd3VSWTdpd3BZeVN0Ty1UUjBINlVza1NLR1NyV3dhUVpMZ1lyTnE5Q1VlSG1fWXFqSlhVUjN0YmI0?oc=5)
 
-**제목:** 12 Best AI Website Builders to Design Your Site in 2026 - Shopify
+**제목:** 12 Best AI Website Builders to Design Your Site in 2026 - shopify.com
 
-12 Best AI Website Builders to Design Your Site in 2026 - Shopify
+12 Best AI Website Builders to Design Your Site in 2026 - shopify.com
 
 **출처:** Source · Google Search
 

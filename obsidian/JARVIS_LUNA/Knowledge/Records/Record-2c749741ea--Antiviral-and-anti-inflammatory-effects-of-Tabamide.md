@@ -2,7 +2,7 @@
 title: "Record 2c749741ea · Antiviral-and-anti-inflammatory-effects-of-Tabamide"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T11:37:33.078315+00:00
+updated_at: 2026-09-16T14:44:15.077116+00:00
 tags: [record, real-data]
 ---
 

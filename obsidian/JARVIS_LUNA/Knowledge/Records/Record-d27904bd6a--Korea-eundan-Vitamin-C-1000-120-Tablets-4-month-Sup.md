@@ -1,12 +1,12 @@
 ---
-title: "Record d27904bd6a · Korea-eundan-Vitamin-C-1000-120-Tablets-4-month-Supply-424-oz120g"
+title: "Record d27904bd6a · Korea-eundan-Vitamin-C-1000-120-Tablets-4-month-Sup"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T11:37:33.527524+00:00
+updated_at: 2026-09-16T14:44:15.498705+00:00
 tags: [record, real-data]
 ---
 
-# Record d27904bd6a · Korea-eundan-Vitamin-C-1000-120-Tablets-4-month-Supply-424-oz120g
+# Record d27904bd6a · Korea-eundan-Vitamin-C-1000-120-Tablets-4-month-Sup
 
 > 실제 수집 레코드입니다. 원문: [us.oliveyoung.com](https://us.oliveyoung.com/products/UA66809600)
 

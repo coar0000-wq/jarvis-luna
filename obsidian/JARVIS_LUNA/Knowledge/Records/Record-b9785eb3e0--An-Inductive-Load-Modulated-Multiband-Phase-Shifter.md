@@ -2,7 +2,7 @@
 title: "Record b9785eb3e0 · An-Inductive-Load-Modulated-Multiband-Phase-Shifter"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T11:37:33.042705+00:00
+updated_at: 2026-09-16T14:44:15.044178+00:00
 tags: [record, real-data]
 ---
 

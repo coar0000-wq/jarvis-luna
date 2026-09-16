@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T09:10:06.786637+00:00",
+  "generated_at": "2026-09-16T14:42:26.735568+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "fitness",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Wed, 16 Sep 2026 00:50:00 -0700",
+          "keyword": "fed meeting",
+          "approx_traffic": "20000+",
+          "traffic_num": 20000,
+          "published": "Wed, 16 Sep 2026 06:10:00 -0700",
           "source_name": "The New York Times",
-          "url": "https://trends.google.com/trending?geo=US&q=fitness"
+          "url": "https://trends.google.com/trending?geo=US&q=fed%20meeting"
         },
         {
-          "keyword": "stock market today",
+          "keyword": "nyt connections hints",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Wed, 16 Sep 2026 01:40:00 -0700",
-          "source_name": "CNBC",
-          "url": "https://trends.google.com/trending?geo=US&q=stock%20market%20today"
+          "published": "Wed, 16 Sep 2026 07:00:00 -0700",
+          "source_name": "Mashable",
+          "url": "https://trends.google.com/trending?geo=US&q=nyt%20connections%20hints"
         },
         {
-          "keyword": "technology news",
+          "keyword": "action thriller",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Wed, 16 Sep 2026 01:30:00 -0700",
-          "source_name": "The New York Times",
-          "url": "https://trends.google.com/trending?geo=US&q=technology%20news"
+          "published": "Wed, 16 Sep 2026 06:10:00 -0700",
+          "source_name": "MovieWeb",
+          "url": "https://trends.google.com/trending?geo=US&q=action%20thriller"
         },
         {
-          "keyword": "reacher",
+          "keyword": "lena dunham",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Wed, 16 Sep 2026 07:10:00 -0700",
+          "source_name": "People.com",
+          "url": "https://trends.google.com/trending?geo=US&q=lena%20dunham"
+        },
+        {
+          "keyword": "mighty mike plays",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Wed, 16 Sep 2026 07:10:00 -0700",
+          "source_name": "Tom's Hardware",
+          "url": "https://trends.google.com/trending?geo=US&q=mighty%20mike%20plays"
+        },
+        {
+          "keyword": "bungie marathon",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Wed, 16 Sep 2026 07:00:00 -0700",
+          "source_name": "Bungie.net",
+          "url": "https://trends.google.com/trending?geo=US&q=bungie%20marathon"
+        },
+        {
+          "keyword": "harry styles tickets",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Wed, 16 Sep 2026 07:00:00 -0700",
+          "source_name": "attstadium.com",
+          "url": "https://trends.google.com/trending?geo=US&q=harry%20styles%20tickets"
+        },
+        {
+          "keyword": "kit harington",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Wed, 16 Sep 2026 06:20:00 -0700",
+          "source_name": "IMDb",
+          "url": "https://trends.google.com/trending?geo=US&q=kit%20harington"
+        },
+        {
+          "keyword": "ethan hawke",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Wed, 16 Sep 2026 01:50:00 -0700",
-          "source_name": "WSJ",
-          "url": "https://trends.google.com/trending?geo=US&q=reacher"
+          "published": "Wed, 16 Sep 2026 07:20:00 -0700",
+          "source_name": "The Boston Globe",
+          "url": "https://trends.google.com/trending?geo=US&q=ethan%20hawke"
         },
         {
-          "keyword": "o",
+          "keyword": "john roberts",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Wed, 16 Sep 2026 01:30:00 -0700",
-          "source_name": "The New York Times",
-          "url": "https://trends.google.com/trending?geo=US&q=o"
-        },
-        {
-          "keyword": "shakira",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Wed, 16 Sep 2026 01:20:00 -0700",
-          "source_name": "CNN en Español",
-          "url": "https://trends.google.com/trending?geo=US&q=shakira"
-        },
-        {
-          "keyword": "caleb douglas",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Wed, 16 Sep 2026 01:10:00 -0700",
-          "source_name": "Fantasy Footballers Podcast",
-          "url": "https://trends.google.com/trending?geo=US&q=caleb%20douglas"
-        },
-        {
-          "keyword": "swimming",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Wed, 16 Sep 2026 01:00:00 -0700",
-          "source_name": "SwimSwam",
-          "url": "https://trends.google.com/trending?geo=US&q=swimming"
-        },
-        {
-          "keyword": "schools",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Wed, 16 Sep 2026 00:50:00 -0700",
-          "source_name": "The New York Times",
-          "url": "https://trends.google.com/trending?geo=US&q=schools"
-        },
-        {
-          "keyword": "to",
-          "approx_traffic": "100+",
-          "traffic_num": 100,
-          "published": "Wed, 16 Sep 2026 01:50:00 -0700",
-          "source_name": "CNBC",
-          "url": "https://trends.google.com/trending?geo=US&q=to"
+          "published": "Wed, 16 Sep 2026 07:10:00 -0700",
+          "source_name": "Slate Magazine",
+          "url": "https://trends.google.com/trending?geo=US&q=john%20roberts"
         }
       ]
     },
@@ -187,6 +187,11 @@
       "source": "allure.com/feed/rss",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
       "items": [
+        {
+          "title": "13 Best Nordstrom 125 Anniversary Beauty Deals to Shop",
+          "published": "Wed, 16 Sep 2026 11:00:00 +0000",
+          "url": "https://www.allure.com/story/nordstrom-125-anniversary-beauty-savings-event-2026"
+        },
         {
           "title": "What the Shitty Hyrox Incident Tells Us About the State of Our Manners",
           "published": "Tue, 15 Sep 2026 22:05:05 +0000",
@@ -331,11 +336,6 @@
           "title": "Dime Beauty Co. Skin-Care Products—Allure Beauty Box Member Choice Review",
           "published": "Thu, 10 Sep 2026 18:31:55 +0000",
           "url": "https://www.allure.com/review/dime-beauty-member-choice-review-2026"
-        },
-        {
-          "title": "Rodial Soft Focus Glow Drops Review",
-          "published": "Thu, 10 Sep 2026 14:11:06 +0000",
-          "url": "https://www.allure.com/review/rodial-soft-focus-glow-drops-review-2026"
         }
       ]
     },

@@ -2,7 +2,7 @@
 title: "Record 45149c99b1 · Quantifying-Power-to-Voltage-and-Frequency-Dynamics"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T11:37:32.876178+00:00
+updated_at: 2026-09-16T14:44:14.889493+00:00
 tags: [record, real-data]
 ---
 

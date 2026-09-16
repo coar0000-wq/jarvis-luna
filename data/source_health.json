@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T09:10:46.614330+00:00",
+  "generated_at": "2026-09-16T14:43:07.701521+00:00",
   "generator": "scripts/check_source_health.py",
   "왜": "메모 대신 결과를 남긴다. 예전에 FDA 리콜 RSS 를 '404, 주소 없음' 이라고 적어뒀는데 실제로는 멀쩡했다. 확인한 환경이 차단당하고 있었을 뿐이다.",
   "판정": "HTTP 200 이면서 항목이 1건 이상일 때만 정상. 껍데기를 받는 건 성공이 아니다. 3회 연속 실패해야 고장으로 본다.",
@@ -20,14 +20,14 @@
   "total": 19,
   "alive": 15,
   "dead": 4,
-  "broken": 3,
+  "broken": 4,
   "고장": [
     {
       "team": "법률·규제팀",
       "name": "FDA 리콜 RSS",
       "note": "HTTP 404 (브라우저 UA 로도 404)",
       "status": 404,
-      "fail_streak": 61,
+      "fail_streak": 62,
       "last_ok_at": null
     },
     {
@@ -35,7 +35,7 @@
       "name": "FDA MedWatch 안전경보 RSS",
       "note": "HTTP 404 (브라우저 UA 로도 404)",
       "status": 404,
-      "fail_streak": 61,
+      "fail_streak": 62,
       "last_ok_at": null
     },
     {
@@ -43,8 +43,16 @@
       "name": "FDA 건강사기 RSS",
       "note": "HTTP 404 (브라우저 UA 로도 404)",
       "status": 404,
-      "fail_streak": 61,
+      "fail_streak": 62,
       "last_ok_at": null
+    },
+    {
+      "team": "기관 수집팀",
+      "name": "TSMC 뉴스룸",
+      "note": "HTTP 403 (브라우저 UA 로도 403)",
+      "status": 403,
+      "fail_streak": 3,
+      "last_ok_at": "2026-09-16T00:05:58.680444+00:00"
     }
   ],
   "이번에_실패": [
@@ -53,28 +61,28 @@
       "name": "FDA 리콜 RSS",
       "status": 404,
       "note": "HTTP 404 (브라우저 UA 로도 404)",
-      "fail_streak": 61
+      "fail_streak": 62
     },
     {
       "team": "법률·규제팀",
       "name": "FDA MedWatch 안전경보 RSS",
       "status": 404,
       "note": "HTTP 404 (브라우저 UA 로도 404)",
-      "fail_streak": 61
+      "fail_streak": 62
     },
     {
       "team": "법률·규제팀",
       "name": "FDA 건강사기 RSS",
       "status": 404,
       "note": "HTTP 404 (브라우저 UA 로도 404)",
-      "fail_streak": 61
+      "fail_streak": 62
     },
     {
       "team": "기관 수집팀",
       "name": "TSMC 뉴스룸",
       "status": 403,
       "note": "HTTP 403 (브라우저 UA 로도 403)",
-      "fail_streak": 2
+      "fail_streak": 3
     }
   ],
   "sources": [
@@ -91,9 +99,9 @@
       "ua": "bot",
       "blocked_for_bot": false,
       "note": "",
-      "ms": 234,
-      "checked_at": "2026-09-16T09:10:46.614330+00:00",
-      "last_ok_at": "2026-09-16T09:10:46.614330+00:00",
+      "ms": 332,
+      "checked_at": "2026-09-16T14:43:07.701521+00:00",
+      "last_ok_at": "2026-09-16T14:43:07.701521+00:00",
       "fail_streak": 0
     },
     {
@@ -109,9 +117,9 @@
       "ua": "bot",
       "blocked_for_bot": false,
       "note": "",
-      "ms": 305,
-      "checked_at": "2026-09-16T09:10:46.614330+00:00",
-      "last_ok_at": "2026-09-16T09:10:46.614330+00:00",
+      "ms": 334,
+      "checked_at": "2026-09-16T14:43:07.701521+00:00",
+      "last_ok_at": "2026-09-16T14:43:07.701521+00:00",
       "fail_streak": 0
     },
     {
@@ -127,10 +135,10 @@
       "ua": "both-failed",
       "blocked_for_bot": true,
       "note": "HTTP 404 (브라우저 UA 로도 404)",
-      "ms": 1263,
-      "checked_at": "2026-09-16T09:10:46.614330+00:00",
+      "ms": 1503,
+      "checked_at": "2026-09-16T14:43:07.701521+00:00",
       "last_ok_at": null,
-      "fail_streak": 61
+      "fail_streak": 62
     },
     {
       "team": "법률·규제팀",
@@ -145,10 +153,10 @@
       "ua": "both-failed",
       "blocked_for_bot": true,
       "note": "HTTP 404 (브라우저 UA 로도 404)",
-      "ms": 1150,
-      "checked_at": "2026-09-16T09:10:46.614330+00:00",
+      "ms": 1429,
+      "checked_at": "2026-09-16T14:43:07.701521+00:00",
       "last_ok_at": null,
-      "fail_streak": 61
+      "fail_streak": 62
     },
     {
       "team": "법률·규제팀",
@@ -163,10 +171,10 @@
       "ua": "both-failed",
       "blocked_for_bot": true,
       "note": "HTTP 404 (브라우저 UA 로도 404)",
-      "ms": 1152,
-      "checked_at": "2026-09-16T09:10:46.614330+00:00",
+      "ms": 1365,
+      "checked_at": "2026-09-16T14:43:07.701521+00:00",
       "last_ok_at": null,
-      "fail_streak": 61
+      "fail_streak": 62
     },
     {
       "team": "디자인팀",
@@ -181,9 +189,9 @@
       "ua": "bot",
       "blocked_for_bot": false,
       "note": "",
-      "ms": 189,
-      "checked_at": "2026-09-16T09:10:46.614330+00:00",
-      "last_ok_at": "2026-09-16T09:10:46.614330+00:00",
+      "ms": 436,
+      "checked_at": "2026-09-16T14:43:07.701521+00:00",
+      "last_ok_at": "2026-09-16T14:43:07.701521+00:00",
       "fail_streak": 0
     },
     {
@@ -199,9 +207,9 @@
       "ua": "bot",
       "blocked_for_bot": false,
       "note": "",
-      "ms": 136,
-      "checked_at": "2026-09-16T09:10:46.614330+00:00",
-      "last_ok_at": "2026-09-16T09:10:46.614330+00:00",
+      "ms": 144,
+      "checked_at": "2026-09-16T14:43:07.701521+00:00",
+      "last_ok_at": "2026-09-16T14:43:07.701521+00:00",
       "fail_streak": 0
     },
     {
@@ -217,9 +225,9 @@
       "ua": "bot",
       "blocked_for_bot": false,
       "note": "",
-      "ms": 598,
-      "checked_at": "2026-09-16T09:10:46.614330+00:00",
-      "last_ok_at": "2026-09-16T09:10:46.614330+00:00",
+      "ms": 619,
+      "checked_at": "2026-09-16T14:43:07.701521+00:00",
+      "last_ok_at": "2026-09-16T14:43:07.701521+00:00",
       "fail_streak": 0
     },
     {
@@ -235,9 +243,9 @@
       "ua": "bot",
       "blocked_for_bot": false,
       "note": "",
-      "ms": 104,
-      "checked_at": "2026-09-16T09:10:46.614330+00:00",
-      "last_ok_at": "2026-09-16T09:10:46.614330+00:00",
+      "ms": 211,
+      "checked_at": "2026-09-16T14:43:07.701521+00:00",
+      "last_ok_at": "2026-09-16T14:43:07.701521+00:00",
       "fail_streak": 0
     },
     {
@@ -247,15 +255,15 @@
       "url": "https://news.google.com/rss/search?q=%22K-beauty%22+skincare&hl=en-US&gl=US&ceid=US:en",
       "status": 200,
       "items": 100,
-      "bytes": 124361,
+      "bytes": 124381,
       "ok": true,
       "판정": "LIVE",
       "ua": "bot",
       "blocked_for_bot": false,
       "note": "",
-      "ms": 421,
-      "checked_at": "2026-09-16T09:10:46.614330+00:00",
-      "last_ok_at": "2026-09-16T09:10:46.614330+00:00",
+      "ms": 725,
+      "checked_at": "2026-09-16T14:43:07.701521+00:00",
+      "last_ok_at": "2026-09-16T14:43:07.701521+00:00",
       "fail_streak": 0
     },
     {
@@ -265,15 +273,15 @@
       "url": "https://trends.google.com/trending/rss?geo=US",
       "status": 200,
       "items": 10,
-      "bytes": 21678,
+      "bytes": 21239,
       "ok": true,
       "판정": "LIVE",
       "ua": "bot",
       "blocked_for_bot": false,
       "note": "",
-      "ms": 118,
-      "checked_at": "2026-09-16T09:10:46.614330+00:00",
-      "last_ok_at": "2026-09-16T09:10:46.614330+00:00",
+      "ms": 186,
+      "checked_at": "2026-09-16T14:43:07.701521+00:00",
+      "last_ok_at": "2026-09-16T14:43:07.701521+00:00",
       "fail_streak": 0
     },
     {
@@ -283,15 +291,15 @@
       "url": "https://www.allure.com/feed/rss",
       "status": 200,
       "items": 30,
-      "bytes": 25447,
+      "bytes": 25531,
       "ok": true,
       "판정": "LIVE",
       "ua": "bot",
       "blocked_for_bot": false,
       "note": "",
-      "ms": 30,
-      "checked_at": "2026-09-16T09:10:46.614330+00:00",
-      "last_ok_at": "2026-09-16T09:10:46.614330+00:00",
+      "ms": 124,
+      "checked_at": "2026-09-16T14:43:07.701521+00:00",
+      "last_ok_at": "2026-09-16T14:43:07.701521+00:00",
       "fail_streak": 0
     },
     {
@@ -307,9 +315,9 @@
       "ua": "bot",
       "blocked_for_bot": false,
       "note": "",
-      "ms": 30,
-      "checked_at": "2026-09-16T09:10:46.614330+00:00",
-      "last_ok_at": "2026-09-16T09:10:46.614330+00:00",
+      "ms": 100,
+      "checked_at": "2026-09-16T14:43:07.701521+00:00",
+      "last_ok_at": "2026-09-16T14:43:07.701521+00:00",
       "fail_streak": 0
     },
     {
@@ -325,9 +333,9 @@
       "ua": "bot",
       "blocked_for_bot": false,
       "note": "",
-      "ms": 4990,
-      "checked_at": "2026-09-16T09:10:46.614330+00:00",
-      "last_ok_at": "2026-09-16T09:10:46.614330+00:00",
+      "ms": 471,
+      "checked_at": "2026-09-16T14:43:07.701521+00:00",
+      "last_ok_at": "2026-09-16T14:43:07.701521+00:00",
       "fail_streak": 0
     },
     {
@@ -343,9 +351,9 @@
       "ua": "bot",
       "blocked_for_bot": false,
       "note": "",
-      "ms": 251,
-      "checked_at": "2026-09-16T09:10:46.614330+00:00",
-      "last_ok_at": "2026-09-16T09:10:46.614330+00:00",
+      "ms": 229,
+      "checked_at": "2026-09-16T14:43:07.701521+00:00",
+      "last_ok_at": "2026-09-16T14:43:07.701521+00:00",
       "fail_streak": 0
     },
     {
@@ -361,10 +369,10 @@
       "ua": "both-failed",
       "blocked_for_bot": true,
       "note": "HTTP 403 (브라우저 UA 로도 403)",
-      "ms": 1165,
-      "checked_at": "2026-09-16T09:10:46.614330+00:00",
+      "ms": 1248,
+      "checked_at": "2026-09-16T14:43:07.701521+00:00",
       "last_ok_at": "2026-09-16T00:05:58.680444+00:00",
-      "fail_streak": 2
+      "fail_streak": 3
     },
     {
       "team": "기관 수집팀",
@@ -379,9 +387,9 @@
       "ua": "bot",
       "blocked_for_bot": false,
       "note": "HTML 은 크기로만 판단",
-      "ms": 324,
-      "checked_at": "2026-09-16T09:10:46.614330+00:00",
-      "last_ok_at": "2026-09-16T09:10:46.614330+00:00",
+      "ms": 520,
+      "checked_at": "2026-09-16T14:43:07.701521+00:00",
+      "last_ok_at": "2026-09-16T14:43:07.701521+00:00",
       "fail_streak": 0
     },
     {
@@ -397,9 +405,9 @@
       "ua": "bot",
       "blocked_for_bot": false,
       "note": "HTML 은 크기로만 판단",
-      "ms": 851,
-      "checked_at": "2026-09-16T09:10:46.614330+00:00",
-      "last_ok_at": "2026-09-16T09:10:46.614330+00:00",
+      "ms": 570,
+      "checked_at": "2026-09-16T14:43:07.701521+00:00",
+      "last_ok_at": "2026-09-16T14:43:07.701521+00:00",
       "fail_streak": 0
     },
     {
@@ -409,15 +417,15 @@
       "url": "https://www.marvell.com/company/newsroom.html",
       "status": 200,
       "items": 1,
-      "bytes": 196878,
+      "bytes": 196880,
       "ok": true,
       "판정": "LIVE",
       "ua": "bot",
       "blocked_for_bot": false,
       "note": "HTML 은 크기로만 판단",
-      "ms": 167,
-      "checked_at": "2026-09-16T09:10:46.614330+00:00",
-      "last_ok_at": "2026-09-16T09:10:46.614330+00:00",
+      "ms": 378,
+      "checked_at": "2026-09-16T14:43:07.701521+00:00",
+      "last_ok_at": "2026-09-16T14:43:07.701521+00:00",
       "fail_streak": 0
     }
   ]

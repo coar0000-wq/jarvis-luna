@@ -1,14 +1,14 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-16T09:04:52.480634+00:00",
+  "collected_at": "2026-09-16T14:37:02.622536+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
     "SkincareAddiction",
     "AsianBeautyAdvice"
   ],
-  "post_count": 25,
+  "post_count": 28,
   "per_subreddit": [
     {
       "subreddit": "AsianBeauty",
@@ -35,24 +35,19 @@
     },
     {
       "subreddit": "AsianBeautyAdvice",
-      "post_count": 0,
+      "post_count": 3,
       "errors": [
-        "hot: HTTPError: HTTP Error 429: Too Many Requests",
-        "top_week: HTTPError: HTTP Error 429: Too Many Requests"
+        "hot: HTTPError: HTTP Error 429: Too Many Requests"
       ]
     }
   ],
   "hot_keywords": [
     {
       "keyword": "2026",
-      "score": 6
+      "score": 4
     },
     {
-      "keyword": "september",
-      "score": 5
-    },
-    {
-      "keyword": "new",
+      "keyword": "masks",
       "score": 4
     },
     {
@@ -60,7 +55,11 @@
       "score": 4
     },
     {
-      "keyword": "brand",
+      "keyword": "september",
+      "score": 3
+    },
+    {
+      "keyword": "new",
       "score": 3
     },
     {
@@ -68,15 +67,11 @@
       "score": 3
     },
     {
-      "keyword": "cream",
+      "keyword": "products",
       "score": 3
     },
     {
-      "keyword": "monthly",
-      "score": 2
-    },
-    {
-      "keyword": "makeup",
+      "keyword": "which",
       "score": 2
     },
     {
@@ -84,23 +79,19 @@
       "score": 2
     },
     {
+      "keyword": "brand",
+      "score": 2
+    },
+    {
       "keyword": "body",
       "score": 2
     },
     {
-      "keyword": "products",
+      "keyword": "difference",
       "score": 2
     },
     {
-      "keyword": "favourite",
-      "score": 2
-    },
-    {
-      "keyword": "anything",
-      "score": 2
-    },
-    {
-      "keyword": "goes",
+      "keyword": "matte",
       "score": 2
     },
     {
@@ -108,15 +99,7 @@
       "score": 2
     },
     {
-      "keyword": "korean",
-      "score": 2
-    },
-    {
       "keyword": "face",
-      "score": 2
-    },
-    {
-      "keyword": "masks",
       "score": 2
     },
     {
@@ -124,7 +107,19 @@
       "score": 2
     },
     {
+      "keyword": "cream",
+      "score": 2
+    },
+    {
       "keyword": "sunscreen",
+      "score": 2
+    },
+    {
+      "keyword": "korean",
+      "score": 2
+    },
+    {
+      "keyword": "know",
       "score": 2
     },
     {
@@ -152,7 +147,31 @@
       "score": 1
     },
     {
+      "keyword": "monthly",
+      "score": 1
+    },
+    {
       "keyword": "base",
+      "score": 1
+    },
+    {
+      "keyword": "makeup",
+      "score": 1
+    },
+    {
+      "keyword": "these",
+      "score": 1
+    },
+    {
+      "keyword": "contour",
+      "score": 1
+    },
+    {
+      "keyword": "powders",
+      "score": 1
+    },
+    {
+      "keyword": "prefer",
       "score": 1
     },
     {
@@ -182,29 +201,13 @@
     {
       "keyword": "botanist",
       "score": 1
-    },
-    {
-      "keyword": "wash",
-      "score": 1
-    },
-    {
-      "keyword": "especially",
-      "score": 1
-    },
-    {
-      "keyword": "their",
-      "score": 1
-    },
-    {
-      "keyword": "hinoki",
-      "score": 1
-    },
-    {
-      "keyword": "cedarwood",
-      "score": 1
     }
   ],
   "beauty_keywords": [
+    {
+      "keyword": "masks",
+      "score": 4
+    },
     {
       "keyword": "skin",
       "score": 4
@@ -214,15 +217,11 @@
       "score": 2
     },
     {
-      "keyword": "korean",
-      "score": 2
-    },
-    {
-      "keyword": "masks",
-      "score": 2
-    },
-    {
       "keyword": "sunscreen",
+      "score": 2
+    },
+    {
+      "keyword": "korean",
       "score": 2
     }
   ],
@@ -249,6 +248,13 @@
       "feed": "hot"
     },
     {
+      "title": "Out of these contour powders which do you prefer?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whu826/out_of_these_contour_powders_which_do_you_prefer/",
+      "published": "2026-09-16T11:12:12+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Reviews!",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1whe2jz/reviews/",
       "published": "2026-09-15T21:51:11+00:00",
@@ -266,6 +272,27 @@
       "title": "I love Botanist brand body wash especially their new hinoki and cedarwood",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1whkz1x/i_love_botanist_brand_body_wash_especially_their/",
       "published": "2026-09-16T02:49:16+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Do cooling gel masks actually make a difference in hot weather?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whyva9/do_cooling_gel_masks_actually_make_a_difference/",
+      "published": "2026-09-16T14:30:10+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Looking for volufiline recommendations that is available in China",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whxwcw/looking_for_volufiline_recommendations_that_is/",
+      "published": "2026-09-16T13:53:35+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Are there any truly cool-toned brown matte lip stains?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whvfjk/are_there_any_truly_cooltoned_brown_matte_lip/",
+      "published": "2026-09-16T12:10:15+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -291,16 +318,16 @@
       "feed": "hot"
     },
     {
-      "title": "Favourite hydrating and long lasting matte lippie?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wh9uql/favourite_hydrating_and_long_lasting_matte_lippie/",
-      "published": "2026-09-15T19:13:49+00:00",
+      "title": "Yesstyle's weird brand pushing during discount campaigns",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wgzfm8/yesstyles_weird_brand_pushing_during_discount/",
+      "published": "2026-09-15T12:47:41+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Anything Goes Tuesday: September 15, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whc742/anything_goes_tuesday_september_15_2026/",
-      "published": "2026-09-15T20:39:10+00:00",
+      "title": "Favourite hydrating and long lasting matte lippie?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wh9uql/favourite_hydrating_and_long_lasting_matte_lippie/",
+      "published": "2026-09-15T19:13:49+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -312,9 +339,9 @@
       "feed": "hot"
     },
     {
-      "title": "What sites are good for shipping speeds at the moment for korean skin care?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whbkkz/what_sites_are_good_for_shipping_speeds_at_the/",
-      "published": "2026-09-15T20:15:48+00:00",
+      "title": "Anything Goes Tuesday: September 15, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whc742/anything_goes_tuesday_september_15_2026/",
+      "published": "2026-09-15T20:39:10+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -333,16 +360,16 @@
       "feed": "hot"
     },
     {
-      "title": "Yesstyle's weird brand pushing during discount campaigns",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wgzfm8/yesstyles_weird_brand_pushing_during_discount/",
-      "published": "2026-09-15T12:47:41+00:00",
+      "title": "Biore aqua rich airy hold cream- the best biore sunscreen?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wgvo88/biore_aqua_rich_airy_hold_cream_the_best_biore/",
+      "published": "2026-09-15T09:40:11+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Biore aqua rich airy hold cream- the best biore sunscreen?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wgvo88/biore_aqua_rich_airy_hold_cream_the_best_biore/",
-      "published": "2026-09-15T09:40:11+00:00",
+      "title": "What sites are good for shipping speeds at the moment for korean skin care?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whbkkz/what_sites_are_good_for_shipping_speeds_at_the/",
+      "published": "2026-09-15T20:15:48+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -375,32 +402,25 @@
       "feed": "hot"
     },
     {
-      "title": "Histolab bb cream",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wgn59j/histolab_bb_cream/",
-      "published": "2026-09-15T02:04:19+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
+      "title": "I know it’s not AB, but...",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1whwk8f/i_know_its_not_ab_but/",
+      "published": "2026-09-16T13:00:12+00:00",
+      "subreddit": "AsianBeautyAdvice",
+      "feed": "top_week"
     },
     {
-      "title": "Favourite mist over makeup",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wg4071/favourite_mist_over_makeup/",
-      "published": "2026-09-14T13:50:27+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
+      "title": "Random AB thoughts",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1wec0xc/random_ab_thoughts/",
+      "published": "2026-09-12T13:00:11+00:00",
+      "subreddit": "AsianBeautyAdvice",
+      "feed": "top_week"
     },
     {
-      "title": "New Brand Discovery Monthly September 15, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wgpkr4/new_brand_discovery_monthly_september_15_2026/",
-      "published": "2026-09-15T04:00:09+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Anything Goes Monday: September 14, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wgfeqp/anything_goes_monday_september_14_2026/",
-      "published": "2026-09-14T20:39:14+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
+      "title": "[GUIDE] help on the products",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1wcv8dp/guide_help_on_the_products/",
+      "published": "2026-09-10T20:42:30+00:00",
+      "subreddit": "AsianBeautyAdvice",
+      "feed": "top_week"
     }
   ],
   "note": "커뮤니티 실수요 시그널. 광고 키워드·S등급 코칭 보강용. 판매 순위 아님.",

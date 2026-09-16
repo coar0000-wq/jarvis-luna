@@ -2,7 +2,7 @@
 title: "Record bf4b45201c · Open-Loop-Stackelberg-LQ-Difference-Games-with-Coup"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T11:37:32.886987+00:00
+updated_at: 2026-09-16T14:44:14.899323+00:00
 tags: [record, real-data]
 ---
 

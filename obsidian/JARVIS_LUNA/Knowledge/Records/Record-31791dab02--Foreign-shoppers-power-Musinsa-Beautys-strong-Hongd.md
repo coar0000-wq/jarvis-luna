@@ -1,12 +1,12 @@
 ---
-title: "Record 31791dab02 · Foreign-shoppers-power-Musinsa-Beautys-strong-Hongdae-debut---The-Kore"
+title: "Record 31791dab02 · Foreign-shoppers-power-Musinsa-Beautys-strong-Hongd"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T11:37:33.202924+00:00
+updated_at: 2026-09-16T14:44:15.188675+00:00
 tags: [record, real-data]
 ---
 
-# Record 31791dab02 · Foreign-shoppers-power-Musinsa-Beautys-strong-Hongdae-debut---The-Kore
+# Record 31791dab02 · Foreign-shoppers-power-Musinsa-Beautys-strong-Hongd
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiV0FVX3lxTE1VS3VTYjJWOURCakFXVExmTzlrandNdktEUm5IemxDNkVRdGlxWTh0ZVozSzc4Q1d1dXB1UUxsVDdqdWwxbmlNbkprLVVOVUNXeWJkWGZjNA?oc=5)
 

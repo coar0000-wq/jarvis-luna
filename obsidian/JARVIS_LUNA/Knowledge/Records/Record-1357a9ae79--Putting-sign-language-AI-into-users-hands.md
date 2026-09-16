@@ -2,7 +2,7 @@
 title: "Record 1357a9ae79 · Putting-sign-language-AI-into-users-hands"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T11:37:32.965652+00:00
+updated_at: 2026-09-16T14:44:14.972854+00:00
 tags: [record, real-data]
 ---
 
