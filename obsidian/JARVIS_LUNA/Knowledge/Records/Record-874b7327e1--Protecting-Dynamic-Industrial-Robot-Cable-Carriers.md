@@ -2,7 +2,7 @@
 title: "Record 874b7327e1 · Protecting-Dynamic-Industrial-Robot-Cable-Carriers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T16:58:02.348466+00:00
+updated_at: 2026-09-16T19:31:04.622166+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** Protecting Dynamic Industrial Robot Cable Carriers
 
 Protecting Dynamic Industrial Robot Cable Carriers
-<img src="https://spectrum.ieee.org/media-library/industrial-robotic-arm-with-cable-management-system-and-flexible-energy-chains.jpg?id=67633840&width=1200&height=800&coordinates=0%2C0%2C0%2C0"/><br/><br/><p><em>This article is brought to you by <a href="https://tsubaki-kabelschlepp.com/" target="_blank">Tsubaki KabelSchlepp</a>.</em></p><p>In modern automated manufacturing, six-axis articulated r
+<img src="https://spectrum.ieee.org/media-library/industrial-robotic-arm-with-cable-management-system-and-flexible-energy-chains.jpg?id=67633840&width=1200&height=400&coordinates=0%2C333%2C0%2C334"/><br/><br/><p><em>This article is brought to you by <a href="https://tsubaki-kabelschlepp.com/" target="_blank">Tsubaki KabelSchlepp</a>.</em></p><p>In modern automated manufacturing, six-axis articulat
 
 **출처:** Source · robotics
 

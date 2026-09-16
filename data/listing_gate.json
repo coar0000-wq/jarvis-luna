@@ -1,20 +1,20 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-16T18:50:24.772291+00:00",
+  "generated_at": "2026-09-16T19:36:30.441136+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
-  "total": 8,
-  "ready": 7,
+  "total": 9,
+  "ready": 8,
   "counts": {
-    "copy": 8,
-    "gosi": 8,
-    "us_label": 8,
-    "price": 7,
-    "legal": 8
+    "copy": 9,
+    "gosi": 9,
+    "us_label": 9,
+    "price": 8,
+    "legal": 9
   },
   "blockers": {
     "price": 1
   },
-  "count": 8,
+  "count": 9,
   "note": "gosi=한국 고시 4항목, us_label=영문 라벨(플레이스홀더 제외), legal=MoCRA 등 하드블록. ready는 5개 조건 모두 통과한 건수.",
   "items": [
     {
@@ -336,7 +336,7 @@
       "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
       "category": "스킨케어",
       "price_krw": 5000,
-      "shopify_score": 90,
+      "shopify_score": 91,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049271",
       "copy": {
         "title": "VT Cica Calming Toner 300 ml",
@@ -391,7 +391,7 @@
       "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
       "category": "마스크팩",
       "price_krw": 2000,
-      "shopify_score": 83,
+      "shopify_score": 90,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
       "copy": {
         "title": "Celderma Daily Transforming Firming Collagen Mask 28g",
@@ -427,6 +427,59 @@
       "price": {
         "price_usd": 24.99,
         "margin_pct": 61.3,
+        "register_blocked": false
+      },
+      "legal": {
+        "status": "auto_checked",
+        "hard_block": false,
+        "hard_block_reason": ""
+      },
+      "ready": true,
+      "blocked_by": []
+    },
+    {
+      "rank": 9,
+      "pd_no": "1042619",
+      "product_id": "1042619",
+      "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
+      "category": "마스크팩",
+      "price_krw": 1000,
+      "shopify_score": 84,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
+      "copy": {
+        "title": "Celderma Daily Collagen Essence Gel Mask 29g",
+        "description_html": "<p>Experience the cooling and hydrating feel of the Celderma Daily Collagen Essence Gel Mask. This 29g hydrogel mask clings comfortably to the face to help deliver moisture directly to the skin.</p><p>Formulated with collagen, it helps nourish the skin for a smooth, soft, and refreshed appearance. Incorporate this easy-to-use sheet mask into your daily skincare routine for a glowing look.</p>",
+        "seo_title": "Celderma Daily Collagen Essence Gel Mask 29g",
+        "seo_description": "Shop the Celderma Daily Collagen Essence Gel Mask 29g for a hydrated, refreshed, and smooth-looking complexion. Easy daily K-beauty sheet mask.",
+        "tags": [
+          "celderma",
+          "collagen-mask",
+          "gel-mask",
+          "sheet-mask",
+          "k-beauty",
+          "facial-mask",
+          "hydrating-mask"
+        ],
+        "product_type": "Face Mask"
+      },
+      "copy_status": "ok",
+      "gosi": {
+        "volume": "29g",
+        "maker": "㈜제닉 (충청남도 논산시 성동면 산업단지로5길 5)",
+        "origin": "한국",
+        "ingredients": "정제수, 글리세린, 나이아신아마이드, 캐롭검, 아이리쉬모스추출물, 1,2-헥산다이올, 펜틸렌글라이콜, 에틸헥실글리세린, 콜라겐추출물(686,000ppb), 아데노신, 다이소듐이디티에이, 글리세릴글루코사이드, 폴리글리",
+        "gosi_ok": true
+      },
+      "us_label": {
+        "net_contents": "29g",
+        "manufacturer": "㈜제닉 (충청남도 논산시 성동면 산업단지로5길 5)",
+        "country_of_origin": "Korea",
+        "ingredients_inci": "Water, Glycerin, Niacinamide, Ceratonia Siliqua (Carob) Gum, Chondrus Crispus Extract, 1,2-Hexanediol, Pentylene Glycol, Ethylhexylglycerin, Collagen Extract, Adenosine, Disodium EDTA, Glyceryl Glucoside, Polyglyceryl-6 Caprylate, Polyglyceryl-4 Caprate, Tocopherol",
+        "us_label_ok": true
+      },
+      "price": {
+        "price_usd": 24.99,
+        "margin_pct": 64.6,
         "register_blocked": false
       },
       "legal": {

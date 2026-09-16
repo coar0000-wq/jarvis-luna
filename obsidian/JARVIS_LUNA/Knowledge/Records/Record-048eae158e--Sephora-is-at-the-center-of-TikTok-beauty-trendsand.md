@@ -2,7 +2,7 @@
 title: "Record 048eae158e · Sephora-is-at-the-center-of-TikTok-beauty-trendsand"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T16:58:02.199247+00:00
+updated_at: 2026-09-16T19:31:04.538588+00:00
 tags: [record, real-data]
 ---
 

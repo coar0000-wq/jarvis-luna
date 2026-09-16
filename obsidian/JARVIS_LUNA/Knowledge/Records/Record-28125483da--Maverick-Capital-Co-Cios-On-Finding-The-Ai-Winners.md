@@ -2,7 +2,7 @@
 title: "Record 28125483da · Maverick-Capital-Co-Cios-On-Finding-The-Ai-Winners"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T16:58:02.446815+00:00
+updated_at: 2026-09-16T19:31:04.669217+00:00
 tags: [record, real-data]
 ---
 

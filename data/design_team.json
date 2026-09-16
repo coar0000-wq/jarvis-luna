@@ -1,6 +1,6 @@
 {
   "team": "디자인팀",
-  "generated_at": "2026-09-16T14:36:00.674714+00:00",
+  "generated_at": "2026-09-16T19:23:58.842011+00:00",
   "scope": "Shopify 스토어 디자인 사양 관리 + 디자인 레퍼런스 수집",
   "checklist": {
     "total": 12,
@@ -146,6 +146,13 @@
     "failures": [],
     "items": [
       {
+        "title": "Payouts page redesign: see all your payouts in one view",
+        "url": "https://changelog.shopify.com/posts/payouts-page-redesign-see-all-your-payouts-in-one-view",
+        "date": "2026-09-16",
+        "summary": "Your payouts now appear in a list on the left with the selected payout's details beside it, so you can move between payouts without leaving the page or losing your place. What's new: * A date-led view of paid and pending payouts, so you can see at a glance what you've been paid and what's on the way",
+        "feed": "Shopify Changelog"
+      },
+      {
         "title": "A new look for the Shopify admin",
         "url": "https://changelog.shopify.com/posts/see-the-shopify-admin-s-new-look",
         "date": "2026-09-15",
@@ -244,11 +251,11 @@
         "feed": "Shopify Changelog"
       },
       {
-        "title": "A redesigned Point of Sale channel page with an easy entry point to the POS editor",
-        "url": "https://changelog.shopify.com/posts/a-redesigned-point-of-sale-channel-page-with-an-easy-entry-point-to-the-pos-editor",
-        "date": "2026-08-17",
-        "summary": "We've redesigned the Point of Sale channel page in your Shopify admin so your in-store setup and performance are right where you start. The page now opens with a Customize the in-store experience section that previews your store's actual lock screen, customer display, and receipts, so you can see wh",
-        "feed": "Shopify Changelog"
+        "title": "Updates to Events payloads and subscription configuration",
+        "url": "https://shopify.dev/changelog/updates-to-events-payloads-and-subscription-configuration",
+        "date": "2026-09-16",
+        "summary": "Starting today, we're updating Events payloads, trigger syntax, and delivery headers. Classic Webhook subscriptions are unaffected. What's changed fields_changed now describes how each path changed The flat array becomes an object containing three arrays: added , updated , and removed . Developers c",
+        "feed": "Shopify Dev Changelog"
       },
       {
         "title": "Filter Catalog search results by media type",
@@ -346,13 +353,6 @@
         "url": "https://shopify.dev/changelog/the-polaris-cdn-is-adopting-semantic-versioning",
         "date": "2026-08-31",
         "summary": "Polaris Web Components loaded from the Shopify CDN are moving to semantic versioning. Most apps will continue receiving compatible improvements automatically, while developers can choose when to adopt breaking changes. Existing apps don’t need to take immediate action. What changed Polaris CDN relea",
-        "feed": "Shopify Dev Changelog"
-      },
-      {
-        "title": "More resilient refreshes for expiring offline access tokens",
-        "url": "https://shopify.dev/changelog/more-resilient-refreshes-for-expiring-offline-access-tokens",
-        "date": "2026-08-28",
-        "summary": "Expiring offline access token refreshes now retain the previously used refresh token until an app begins using its replacement. This rollout helps apps recover when a refresh response is lost or isn’t persisted. No migration is required, but apps should continue to store every refreshed token pair a",
         "feed": "Shopify Dev Changelog"
       },
       {
@@ -461,6 +461,13 @@
         "feed": "Shopify Engineering"
       },
       {
+        "title": "Stop Treating CSS Container Queries Like Traditional Media Queries",
+        "url": "https://smashingmagazine.com/2026/09/stop-treating-css-container-queries-traditional-media-queries/",
+        "date": "2026-09-16",
+        "summary": "Despite broad browser support, container queries remain surprisingly underused and frequently misunderstood. Let’s look at how they differ from media queries, when to reach for each, and how container queries help reusable components respond naturally to the contexts in which they appear. - CSS - To",
+        "feed": "Smashing Magazine"
+      },
+      {
         "title": "Building A UX ROI Case That Survives The Boardroom",
         "url": "https://smashingmagazine.com/2026/09/building-ux-roi-case-survives-boardroom/",
         "date": "2026-09-11",
@@ -556,13 +563,6 @@
         "url": "https://smashingmagazine.com/2026/07/when-makes-sense-block-main-thread/",
         "date": "2026-07-17",
         "summary": "The common rule of thumb is to never “block” the browser’s main thread when running JavaScript tasks. But is this a hard rule? Victor Ayomipo describes a use case he encountered involving a screenshot extension where he made an exception to the rule and decided that blocking the main thread was abso",
-        "feed": "Smashing Magazine"
-      },
-      {
-        "title": "No, People Don’t Want More AI In Their Life",
-        "url": "https://smashingmagazine.com/2026/07/people-dont-want-more-ai/",
-        "date": "2026-07-15",
-        "summary": "Many companies assume everyone craves new AI features. But the reality is that most people don't want more AI — at least not in the way most AI leaders envision it. Brought to you by Design Patterns For AI Interfaces , **friendly video courses on UX** and design patterns by Vitaly.",
         "feed": "Smashing Magazine"
       },
       {

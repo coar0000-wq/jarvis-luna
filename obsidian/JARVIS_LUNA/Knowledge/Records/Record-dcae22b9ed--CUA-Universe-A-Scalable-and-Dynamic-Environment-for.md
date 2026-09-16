@@ -2,7 +2,7 @@
 title: "Record dcae22b9ed · CUA-Universe-A-Scalable-and-Dynamic-Environment-for"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T16:58:01.796773+00:00
+updated_at: 2026-09-16T19:31:04.325449+00:00
 tags: [record, real-data]
 ---
 

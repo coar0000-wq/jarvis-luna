@@ -2,7 +2,7 @@
 title: "Record 1fdca7bab8 · Transversality-Conditions-for-Boundary-Constraints-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T16:58:01.779579+00:00
+updated_at: 2026-09-16T19:31:04.315714+00:00
 tags: [record, real-data]
 ---
 

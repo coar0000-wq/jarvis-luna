@@ -2,7 +2,7 @@
 title: "Record 7c269d1235 · Taylor-Informed-Predictive-Cost-Adaptive-Control-fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T16:58:01.771723+00:00
+updated_at: 2026-09-16T19:31:04.311186+00:00
 tags: [record, real-data]
 ---
 

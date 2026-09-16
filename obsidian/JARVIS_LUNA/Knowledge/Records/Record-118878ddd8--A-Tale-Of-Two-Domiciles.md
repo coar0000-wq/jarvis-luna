@@ -2,7 +2,7 @@
 title: "Record 118878ddd8 · A-Tale-Of-Two-Domiciles"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T16:58:02.460861+00:00
+updated_at: 2026-09-16T19:31:04.675762+00:00
 tags: [record, real-data]
 ---
 

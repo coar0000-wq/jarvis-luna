@@ -1,7 +1,7 @@
 {
   "agent": "Chief-of-Staff",
   "role": "전체 JARVIS 운영상태를 종합하여 우선순위와 Safe Auto-Fix 실행 여부를 결정",
-  "generated_at": "2026-09-16T14:43:49.477763+00:00",
+  "generated_at": "2026-09-16T19:30:49.653392+00:00",
   "risk": "medium",
   "overall_priority": "P2",
   "overall_action": "INVESTIGATE_EMPTY_CHANNELS",
@@ -110,7 +110,7 @@
       "status": "ok",
       "priority": "P4",
       "evidence": {
-        "s_grade_count": 8,
+        "s_grade_count": 9,
         "recommendation_source": "data/daiso_real/shopify_s_recommendations.json"
       },
       "recommended_action": "MONITOR",
@@ -166,7 +166,7 @@
       "status": "ok",
       "priority": "P4",
       "evidence": {
-        "s_grade_count": 8,
+        "s_grade_count": 9,
         "recommendation_source": "data/daiso_real/shopify_s_recommendations.json"
       },
       "recommended_action": "MONITOR",
@@ -178,8 +178,8 @@
       "status": "ok",
       "priority": "P4",
       "evidence": {
-        "nodes": 81473,
-        "links": 325330,
+        "nodes": 81515,
+        "links": 325839,
         "dangling_generated": 0,
         "truth_guard_anomaly": false,
         "anomaly_reasons": []
@@ -239,16 +239,16 @@
       ]
     },
     "graph": {
-      "nodes": 81473,
-      "links": 325330,
+      "nodes": 81515,
+      "links": 325839,
       "dangling_generated": 0,
-      "runtime_nodes": 81473,
-      "runtime_links": 325330,
+      "runtime_nodes": 81515,
+      "runtime_links": 325839,
       "runtime_dangling_generated": 0,
       "truth_guard": {
         "vault": "obsidian/JARVIS_LUNA",
-        "actual_nodes": 81473,
-        "actual_links": 325330,
+        "actual_nodes": 81515,
+        "actual_links": 325839,
         "actual_dangling_generated": 0,
         "actual_dangling_personal": 21,
         "generated_dangling_samples": [],
@@ -336,8 +336,8 @@
         ],
         "generated_dangling_sample_source_count": 0,
         "personal_dangling_sample_source_count": 8,
-        "runtime_nodes": 81473,
-        "runtime_links": 325330,
+        "runtime_nodes": 81515,
+        "runtime_links": 325839,
         "runtime_dangling_generated": 0,
         "runtime_consistent": true,
         "anomaly": false,
@@ -345,7 +345,7 @@
       }
     },
     "shopify": {
-      "s_count": 8
+      "s_count": 9
     },
     "queue": {
       "blacklist_count": 0

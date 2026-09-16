@@ -2,7 +2,7 @@
 title: "Record d0085c2c59 · FIRE3D-Feed-forward-Interactive-3D-Scene-Reconstruc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T16:58:01.811115+00:00
+updated_at: 2026-09-16T19:31:04.333190+00:00
 tags: [record, real-data]
 ---
 

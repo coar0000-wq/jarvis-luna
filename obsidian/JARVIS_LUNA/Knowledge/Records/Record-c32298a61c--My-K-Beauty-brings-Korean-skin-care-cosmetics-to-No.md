@@ -2,7 +2,7 @@
 title: "Record c32298a61c · My-K-Beauty-brings-Korean-skin-care-cosmetics-to-No"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T16:58:02.279460+00:00
+updated_at: 2026-09-16T19:31:04.582756+00:00
 tags: [record, real-data]
 ---
 

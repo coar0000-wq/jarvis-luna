@@ -2,7 +2,7 @@
 title: "Record f537aea258 · Constrained-Best-Arm-Identification-in-Grouped-Band"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T16:58:01.930204+00:00
+updated_at: 2026-09-16T19:31:04.400876+00:00
 tags: [record, real-data]
 ---
 

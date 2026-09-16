@@ -2,7 +2,7 @@
 title: "Record 3c7d820399 · From-Bit-Position-Sensitivity-to-Unequal-Error-Prot"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T16:58:02.339675+00:00
+updated_at: 2026-09-16T19:31:04.617101+00:00
 tags: [record, real-data]
 ---
 

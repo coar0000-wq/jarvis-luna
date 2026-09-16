@@ -2,7 +2,7 @@
 title: "Record 206bc7e431 · What-makes-K-beauty-Korean-The-answer-is-getting-co"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T16:58:02.270580+00:00
+updated_at: 2026-09-16T19:31:04.578011+00:00
 tags: [record, real-data]
 ---
 

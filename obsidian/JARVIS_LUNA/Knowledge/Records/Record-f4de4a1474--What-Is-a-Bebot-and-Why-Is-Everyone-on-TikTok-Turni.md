@@ -2,7 +2,7 @@
 title: "Record f4de4a1474 · What-Is-a-Bebot-and-Why-Is-Everyone-on-TikTok-Turni"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T16:58:02.184162+00:00
+updated_at: 2026-09-16T19:31:04.530529+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMigAFBVV95cUxPc1g3UkF4Mk9kSW5FaC1HRGljdjBoR3gxc09jUG1CaGxkZERxR2dUcjJmdm9XT1Z1RkJwclc2MThaSE93eV80RDFqWW9pQTdnZDBsd0ZMV19hbW94ejZPSlJsQTdzemtMUk5NaldJWmpndjAyYVczVzlWbkJNUVJaYQ?oc=5)
 
-**제목:** What Is a Bebot and Why Is Everyone on TikTok Turning Into One? - hypebae.com
+**제목:** What Is a Bebot and Why Is Everyone on TikTok Turning Into One? - Hypebae
 
-What Is a Bebot and Why Is Everyone on TikTok Turning Into One? - hypebae.com
+What Is a Bebot and Why Is Everyone on TikTok Turning Into One? - Hypebae
 
 **출처:** Source · Google Search
 

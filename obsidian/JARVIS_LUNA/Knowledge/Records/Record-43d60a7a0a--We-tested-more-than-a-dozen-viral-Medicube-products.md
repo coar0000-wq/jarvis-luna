@@ -2,7 +2,7 @@
 title: "Record 43d60a7a0a · We-tested-more-than-a-dozen-viral-Medicube-products"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T16:58:02.178782+00:00
+updated_at: 2026-09-16T19:31:04.527700+00:00
 tags: [record, real-data]
 ---
 

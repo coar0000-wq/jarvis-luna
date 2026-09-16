@@ -1,6 +1,6 @@
 {
   "agent": "Ops-Prioritizer",
-  "generated_at": "2026-09-16T18:50:27.883152+00:00",
+  "generated_at": "2026-09-16T19:36:33.027521+00:00",
   "risk": "medium",
   "task_count": 5,
   "tasks": [
@@ -15,7 +15,7 @@
     },
     {
       "priority": 3,
-      "title": "S등급 8건 Shopify draft 등록",
+      "title": "S등급 9건 Shopify draft 등록",
       "detail": "CSV Import · legal 차단 SKU 제외 · Variant Price는 원가 모델 후 입력",
       "refs": [
         "data/daiso_real/shopify_s_products_import.csv",
@@ -61,7 +61,7 @@
       },
       {
         "n": 2,
-        "text": "S등급 8건 Shopify draft 등록 — CSV Import · legal 차단 SKU 제외 · Variant Price는 원가 모델 후 입력"
+        "text": "S등급 9건 Shopify draft 등록 — CSV Import · legal 차단 SKU 제외 · Variant Price는 원가 모델 후 입력"
       },
       {
         "n": 3,

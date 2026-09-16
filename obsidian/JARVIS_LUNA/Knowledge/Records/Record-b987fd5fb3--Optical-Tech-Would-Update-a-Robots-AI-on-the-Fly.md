@@ -2,7 +2,7 @@
 title: "Record b987fd5fb3 · Optical-Tech-Would-Update-a-Robots-AI-on-the-Fly"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T16:58:02.345762+00:00
+updated_at: 2026-09-16T19:31:04.620451+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** Optical Tech Would Update a Robot’s AI on the Fly
 
 Optical Tech Would Update a Robot’s AI on the Fly
-<img src="https://spectrum.ieee.org/media-library/an-asian-man-positions-the-lens-of-an-optical-receiver-a-meter-away-from-a-beam-of-led-light-in-a-lab.jpg?id=67530602&width=1200&height=800&coordinates=0%2C209%2C0%2C209"/><br/><br/><p>Atop a lab bench, <a href="https://tech.cornell.edu/" rel="noopener noreferrer" target="_blank">Cornell Tech</a> postdoctoral researcher <a href="https://www.linkedi
+<img src="https://spectrum.ieee.org/media-library/an-asian-man-positions-the-lens-of-an-optical-receiver-a-meter-away-from-a-beam-of-led-light-in-a-lab.jpg?id=67530602&width=1200&height=400&coordinates=0%2C1042%2C0%2C1043"/><br/><br/><p>Atop a lab bench, <a href="https://tech.cornell.edu/" rel="noopener noreferrer" target="_blank">Cornell Tech</a> postdoctoral researcher <a href="https://www.linke
 
 **출처:** Source · robotics
 

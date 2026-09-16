@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T14:35:54.681643+00:00",
+  "generated_at": "2026-09-16T19:23:52.163330+00:00",
   "generator": "scripts/collect_design_sources.py",
   "원칙": "서버가 데이터를 그대로 주는 곳만 쓴다. 브라우저에서만 그려지는 사이트는 자동 수집 대상이 아니다. robots.txt 와일드카드 그룹이 허용하는 경로만 요청한다.",
   "robots_checked_at": "2026-09-06",
@@ -1618,6 +1618,13 @@
     "count": 60,
     "items": [
       {
+        "title": "Stop Treating CSS Container Queries Like Traditional Media Queries",
+        "url": "https://smashingmagazine.com/2026/09/stop-treating-css-container-queries-traditional-media-queries/",
+        "published": "Wed, 16 Sep 2026 13:00:00 GMT",
+        "feed": "Smashing Magazine",
+        "topic": "웹디자인·UX"
+      },
+      {
         "title": "Building A UX ROI Case That Survives The Boardroom",
         "url": "https://smashingmagazine.com/2026/09/building-ux-roi-case-survives-boardroom/",
         "published": "Fri, 11 Sep 2026 13:00:00 GMT",
@@ -1887,13 +1894,6 @@
         "title": "The UX Designer’s Nightmare: When “Production-Ready” Becomes A Design Deliverable",
         "url": "https://smashingmagazine.com/2026/04/production-ready-becomes-design-deliverable-ux/",
         "published": "Wed, 22 Apr 2026 10:00:00 GMT",
-        "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
-      },
-      {
-        "title": "Session Timeouts: The Overlooked Accessibility Barrier In Authentication Design",
-        "url": "https://smashingmagazine.com/2026/04/session-timeouts-accessibility-barrier-authentication-design/",
-        "published": "Mon, 20 Apr 2026 13:00:00 GMT",
         "feed": "Smashing Magazine",
         "topic": "웹디자인·UX"
       },

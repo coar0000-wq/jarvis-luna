@@ -2,7 +2,7 @@
 title: "Record 3355d44172 · Grok-Build-on-web-and-mobile"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T16:58:02.553344+00:00
+updated_at: 2026-09-16T19:31:04.726436+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [x.ai](https://x.ai/news/grok-build-for-everyone)
 
-**제목:** Grok Build on web and mobile
+**제목:** Grok Build For Everyone
 
-Grok Build on web and mobile
-Grok Build is now available on every plan, on the web and on mobile.
+Grok Build For Everyone
 
 **출처:** Source · institutions
 

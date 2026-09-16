@@ -2,7 +2,7 @@
 title: "Record 29e993bcad · The-Korean-Makeup-Products-You-Should-Absolutely-Tr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T16:58:02.105927+00:00
+updated_at: 2026-09-16T19:31:04.493398+00:00
 tags: [record, real-data]
 ---
 

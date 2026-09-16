@@ -2,7 +2,7 @@
 title: "Record d6189fb225 · Want-Smaller-Looking-Pores-These-Medicube-K-Beauty-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T16:58:02.267413+00:00
+updated_at: 2026-09-16T19:31:04.576366+00:00
 tags: [record, real-data]
 ---
 

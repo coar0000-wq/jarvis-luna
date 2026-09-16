@@ -2,7 +2,7 @@
 title: "Record 0ff952cb1d · Digit-5-May-Be-the-First-Humanoid-Robot-Worker-Thats-Truly-Safe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T16:58:02.347410+00:00
+updated_at: 2026-09-16T19:31:04.621519+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** Digit 5 May Be the First Humanoid Robot Worker That’s Truly Safe
 
 Digit 5 May Be the First Humanoid Robot Worker That’s Truly Safe
-<img src="https://spectrum.ieee.org/media-library/a-front-and-an-angled-view-of-a-teal-colored-humanoid-robot-with-arms-bent-at-the-elbow.jpg?id=67776740&width=1200&height=800&coordinates=0%2C83%2C0%2C84"/><br/><br/><p><span>Despite the recent deluge of videos of humanoid robots doing backflips and kung-fu, the actual pace of progress towards humanoids that can do economically viable jobs at scale
+<img src="https://spectrum.ieee.org/media-library/a-front-and-an-angled-view-of-a-teal-colored-humanoid-robot-with-arms-bent-at-the-elbow.jpg?id=67776740&width=1200&height=400&coordinates=0%2C417%2C0%2C417"/><br/><br/><p><span>Despite the recent deluge of videos of humanoid robots doing backflips and kung-fu, the actual pace of progress towards humanoids that can do economically viable jobs at sca
 
 **출처:** Source · robotics
 

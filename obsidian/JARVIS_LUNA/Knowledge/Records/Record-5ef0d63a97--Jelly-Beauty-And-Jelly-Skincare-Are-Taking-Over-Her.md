@@ -2,7 +2,7 @@
 title: "Record 5ef0d63a97 · Jelly-Beauty-And-Jelly-Skincare-Are-Taking-Over-Her"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T16:58:02.131633+00:00
+updated_at: 2026-09-16T19:31:04.505251+00:00
 tags: [record, real-data]
 ---
 

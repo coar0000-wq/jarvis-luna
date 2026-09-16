@@ -1,21 +1,19 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-16T14:37:02.622536+00:00",
+  "collected_at": "2026-09-16T19:25:13.768832+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
     "SkincareAddiction",
     "AsianBeautyAdvice"
   ],
-  "post_count": 28,
+  "post_count": 43,
   "per_subreddit": [
     {
       "subreddit": "AsianBeauty",
-      "post_count": 25,
-      "errors": [
-        "top_week: HTTPError: HTTP Error 429: Too Many Requests"
-      ]
+      "post_count": 50,
+      "errors": []
     },
     {
       "subreddit": "KoreanBeauty",
@@ -35,15 +33,36 @@
     },
     {
       "subreddit": "AsianBeautyAdvice",
-      "post_count": 3,
+      "post_count": 0,
       "errors": [
-        "hot: HTTPError: HTTP Error 429: Too Many Requests"
+        "hot: HTTPError: HTTP Error 429: Too Many Requests",
+        "top_week: HTTPError: HTTP Error 429: Too Many Requests"
       ]
     }
   ],
   "hot_keywords": [
     {
+      "keyword": "sunscreen",
+      "score": 8
+    },
+    {
+      "keyword": "skin",
+      "score": 8
+    },
+    {
+      "keyword": "new",
+      "score": 5
+    },
+    {
+      "keyword": "cream",
+      "score": 5
+    },
+    {
       "keyword": "2026",
+      "score": 4
+    },
+    {
+      "keyword": "reviews",
       "score": 4
     },
     {
@@ -51,7 +70,11 @@
       "score": 4
     },
     {
-      "keyword": "skin",
+      "keyword": "anyone",
+      "score": 4
+    },
+    {
+      "keyword": "toners",
       "score": 4
     },
     {
@@ -59,11 +82,15 @@
       "score": 3
     },
     {
-      "keyword": "new",
+      "keyword": "makeup",
       "score": 3
     },
     {
-      "keyword": "anyone",
+      "keyword": "which",
+      "score": 3
+    },
+    {
+      "keyword": "difference",
       "score": 3
     },
     {
@@ -71,11 +98,55 @@
       "score": 3
     },
     {
-      "keyword": "which",
+      "keyword": "face",
+      "score": 3
+    },
+    {
+      "keyword": "faves",
+      "score": 3
+    },
+    {
+      "keyword": "think",
+      "score": 3
+    },
+    {
+      "keyword": "mascara",
+      "score": 3
+    },
+    {
+      "keyword": "holy",
       "score": 2
     },
     {
-      "keyword": "reviews",
+      "keyword": "grail",
+      "score": 2
+    },
+    {
+      "keyword": "base",
+      "score": 2
+    },
+    {
+      "keyword": "these",
+      "score": 2
+    },
+    {
+      "keyword": "contour",
+      "score": 2
+    },
+    {
+      "keyword": "powders",
+      "score": 2
+    },
+    {
+      "keyword": "prefer",
+      "score": 2
+    },
+    {
+      "keyword": "cleanser",
+      "score": 2
+    },
+    {
+      "keyword": "thumps",
       "score": 2
     },
     {
@@ -87,7 +158,11 @@
       "score": 2
     },
     {
-      "keyword": "difference",
+      "keyword": "best",
+      "score": 2
+    },
+    {
+      "keyword": "acid",
       "score": 2
     },
     {
@@ -95,129 +170,61 @@
       "score": 2
     },
     {
+      "keyword": "tint",
+      "score": 2
+    },
+    {
+      "keyword": "yesstyle",
+      "score": 2
+    },
+    {
+      "keyword": "hydrating",
+      "score": 2
+    },
+    {
+      "keyword": "lippie",
+      "score": 2
+    },
+    {
       "keyword": "kbeauty",
       "score": 2
     },
     {
-      "keyword": "face",
+      "keyword": "anything",
       "score": 2
     },
     {
-      "keyword": "biore",
+      "keyword": "flower",
       "score": 2
     },
     {
-      "keyword": "cream",
+      "keyword": "knows",
       "score": 2
-    },
-    {
-      "keyword": "sunscreen",
-      "score": 2
-    },
-    {
-      "keyword": "korean",
-      "score": 2
-    },
-    {
-      "keyword": "know",
-      "score": 2
-    },
-    {
-      "keyword": "question",
-      "score": 1
-    },
-    {
-      "keyword": "ask",
-      "score": 1
-    },
-    {
-      "keyword": "here",
-      "score": 1
-    },
-    {
-      "keyword": "alter-daily",
-      "score": 1
-    },
-    {
-      "keyword": "questions",
-      "score": 1
-    },
-    {
-      "keyword": "anti-haul",
-      "score": 1
-    },
-    {
-      "keyword": "monthly",
-      "score": 1
-    },
-    {
-      "keyword": "base",
-      "score": 1
-    },
-    {
-      "keyword": "makeup",
-      "score": 1
-    },
-    {
-      "keyword": "these",
-      "score": 1
-    },
-    {
-      "keyword": "contour",
-      "score": 1
-    },
-    {
-      "keyword": "powders",
-      "score": 1
-    },
-    {
-      "keyword": "prefer",
-      "score": 1
-    },
-    {
-      "keyword": "pink",
-      "score": 1
-    },
-    {
-      "keyword": "salmon",
-      "score": 1
-    },
-    {
-      "keyword": "colour",
-      "score": 1
-    },
-    {
-      "keyword": "correctors",
-      "score": 1
-    },
-    {
-      "keyword": "favourites",
-      "score": 1
-    },
-    {
-      "keyword": "love",
-      "score": 1
-    },
-    {
-      "keyword": "botanist",
-      "score": 1
     }
   ],
   "beauty_keywords": [
+    {
+      "keyword": "sunscreen",
+      "score": 8
+    },
+    {
+      "keyword": "skin",
+      "score": 8
+    },
     {
       "keyword": "masks",
       "score": 4
     },
     {
-      "keyword": "skin",
+      "keyword": "toners",
       "score": 4
     },
     {
-      "keyword": "kbeauty",
+      "keyword": "cleanser",
       "score": 2
     },
     {
-      "keyword": "sunscreen",
+      "keyword": "kbeauty",
       "score": 2
     },
     {
@@ -227,9 +234,9 @@
   ],
   "posts": [
     {
-      "title": "HAVE A QUESTION? ASK HERE! Alter-Daily Help and Questions: September 14, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wg62eb/have_a_question_ask_here_alterdaily_help_and/",
-      "published": "2026-09-14T15:09:08+00:00",
+      "title": "HAVE A QUESTION? ASK HERE! Alter-Daily Help and Questions: September 16, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whzwwv/have_a_question_ask_here_alterdaily_help_and/",
+      "published": "2026-09-16T15:09:09+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -237,6 +244,13 @@
       "title": "Anti-Haul Monthly September 15, 2026",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wgpkra/antihaul_monthly_september_15_2026/",
       "published": "2026-09-15T04:00:10+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "My Holy Grail Sunscreen",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wi6akm/my_holy_grail_sunscreen/",
+      "published": "2026-09-16T18:56:37+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -255,13 +269,6 @@
       "feed": "hot"
     },
     {
-      "title": "Reviews!",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whe2jz/reviews/",
-      "published": "2026-09-15T21:51:11+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
       "title": "Pink/salmon colour correctors - What are your favourites?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1whopyw/pinksalmon_colour_correctors_what_are_your/",
       "published": "2026-09-16T06:01:31+00:00",
@@ -269,9 +276,9 @@
       "feed": "hot"
     },
     {
-      "title": "I love Botanist brand body wash especially their new hinoki and cedarwood",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whkz1x/i_love_botanist_brand_body_wash_especially_their/",
-      "published": "2026-09-16T02:49:16+00:00",
+      "title": "Reviews!",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whe2jz/reviews/",
+      "published": "2026-09-15T21:51:11+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -283,9 +290,23 @@
       "feed": "hot"
     },
     {
-      "title": "Looking for volufiline recommendations that is available in China",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whxwcw/looking_for_volufiline_recommendations_that_is/",
-      "published": "2026-09-16T13:53:35+00:00",
+      "title": "AESTURA Foaming Cleanser. Thumps up or Thumps down?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wi2xev/aestura_foaming_cleanser_thumps_up_or_thumps_down/",
+      "published": "2026-09-16T16:57:32+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "I love Botanist brand body wash especially their new hinoki and cedarwood",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whkz1x/i_love_botanist_brand_body_wash_especially_their/",
+      "published": "2026-09-16T02:49:16+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Best Azelaic Acid products for Post-Inflammatory Erythema? Need reviews!",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whzi1a/best_azelaic_acid_products_for_postinflammatory/",
+      "published": "2026-09-16T14:54:02+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -311,16 +332,16 @@
       "feed": "hot"
     },
     {
-      "title": "Which skin and body products have pretty packaging AND do an amazing job?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wh256q/which_skin_and_body_products_have_pretty/",
-      "published": "2026-09-15T14:35:30+00:00",
+      "title": "Yesstyle's weird brand pushing during discount campaigns",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wgzfm8/yesstyles_weird_brand_pushing_during_discount/",
+      "published": "2026-09-15T12:47:41+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Yesstyle's weird brand pushing during discount campaigns",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wgzfm8/yesstyles_weird_brand_pushing_during_discount/",
-      "published": "2026-09-15T12:47:41+00:00",
+      "title": "Which skin and body products have pretty packaging AND do an amazing job?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wh256q/which_skin_and_body_products_have_pretty/",
+      "published": "2026-09-15T14:35:30+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -388,38 +409,129 @@
       "feed": "hot"
     },
     {
-      "title": "Does anyone know what's happening with Esthetic House products?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wgveta/does_anyone_know_whats_happening_with_esthetic/",
-      "published": "2026-09-15T09:25:14+00:00",
+      "title": "Calling all Missha Perfect Cover BB Cream lovers! Have you found anything better that feels like a true \"next level\"?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wdc7hm/calling_all_missha_perfect_cover_bb_cream_lovers/",
+      "published": "2026-09-11T10:19:05+00:00",
       "subreddit": "AsianBeauty",
-      "feed": "hot"
+      "feed": "top_week"
+    },
+    {
+      "title": "Teso Life opening 60+ new stores across the US soon",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wehvva/teso_life_opening_60_new_stores_across_the_us_soon/",
+      "published": "2026-09-12T17:01:10+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "Douyin-style (inspired?) makeup",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1weta6s/douyinstyle_inspired_makeup/",
+      "published": "2026-09-13T00:46:28+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "Sunscreen review",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wer6is/sunscreen_review/",
+      "published": "2026-09-12T23:09:45+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "Ordered a dasique tint off Amazon and recieved a... limited romand Hannah Banhg balm? 😭",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wc2n1b/ordered_a_dasique_tint_off_amazon_and_recieved_a/",
+      "published": "2026-09-09T23:54:46+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "Cleansing balm or mascara remover?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wckkbs/cleansing_balm_or_mascara_remover/",
+      "published": "2026-09-10T14:19:30+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "20 years with YesStyle",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1we20xz/20_years_with_yesstyle/",
+      "published": "2026-09-12T03:58:47+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "gorgeous lancome lippie only sold in asia",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wcyx6x/gorgeous_lancome_lippie_only_sold_in_asia/",
+      "published": "2026-09-10T23:07:57+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "Hyntoor cream blush - does anyone have any tips on how to use this?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfagaw/hyntoor_cream_blush_does_anyone_have_any_tips_on/",
+      "published": "2026-09-13T15:17:45+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "My first online purchase from Sekkisei. I think I got extra free stuff:O? Was it a mistake or a promotion I wasn’t aware about?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wbvseq/my_first_online_purchase_from_sekkisei_i_think_i/",
+      "published": "2026-09-09T19:34:55+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "What are your favorite C-beauty brands?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1we05st/what_are_your_favorite_cbeauty_brands/",
+      "published": "2026-09-12T02:26:51+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "My current faves for sensitive acne prone dry skin",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wesht8/my_current_faves_for_sensitive_acne_prone_dry_skin/",
+      "published": "2026-09-13T00:09:00+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "Freshian cream blush",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wdkqrd/freshian_cream_blush/",
+      "published": "2026-09-11T16:15:14+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "Milky toners vs watery hydrating toners for oily skin?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wca8xe/milky_toners_vs_watery_hydrating_toners_for_oily/",
+      "published": "2026-09-10T05:45:41+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "top_week"
+    },
+    {
+      "title": "Daiso/affordable products that you like?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wcbmr4/daisoaffordable_products_that_you_like/",
+      "published": "2026-09-10T07:00:53+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "top_week"
     },
     {
       "title": "Missha bb cream review. Spoiler alert, it looks TERRIBLE on me.",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wg2xr4/missha_bb_cream_review_spoiler_alert_it_looks/",
       "published": "2026-09-14T13:07:03+00:00",
       "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "I know it’s not AB, but...",
-      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1whwk8f/i_know_its_not_ab_but/",
-      "published": "2026-09-16T13:00:12+00:00",
-      "subreddit": "AsianBeautyAdvice",
       "feed": "top_week"
     },
     {
-      "title": "Random AB thoughts",
-      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1wec0xc/random_ab_thoughts/",
-      "published": "2026-09-12T13:00:11+00:00",
-      "subreddit": "AsianBeautyAdvice",
+      "title": "Elegance paris gravityless mascara (worst mascara ive ever used)",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1we8o8n/elegance_paris_gravityless_mascara_worst_mascara/",
+      "published": "2026-09-12T10:08:33+00:00",
+      "subreddit": "AsianBeauty",
       "feed": "top_week"
     },
     {
-      "title": "[GUIDE] help on the products",
-      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1wcv8dp/guide_help_on_the_products/",
-      "published": "2026-09-10T20:42:30+00:00",
-      "subreddit": "AsianBeautyAdvice",
+      "title": "Colorgram contours",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wdkt2a/colorgram_contours/",
+      "published": "2026-09-11T16:17:30+00:00",
+      "subreddit": "AsianBeauty",
       "feed": "top_week"
     }
   ],
