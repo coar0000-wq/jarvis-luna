@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-17T08:05:49.527310+09:00",
+  "generated_at": "2026-09-17T08:11:22.394359+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
       "id": "sourcing",
       "name": "상품 소싱팀",
-      "when": "2026-09-16T22:46:07.711569+00:00",
-      "summary": "261개 상품 · 등급 S 9 / A 44 / B 34 / C 174 · 새 자료 3건",
-      "action": "직전 실행 73건 받아 성공 46건 · 받아보고 뷰티 아니라 버림 27건 · 이미 판정해서 안 받음 1415건 · 후보 출처 queue, 큐 3195건",
+      "when": "2026-09-16T23:11:07.402625+00:00",
+      "summary": "302개 상품 · 등급 S 10 / A 56 / B 43 / C 193 · 새 자료 3건",
+      "action": "직전 실행 73건 받아 성공 42건 · 받아보고 뷰티 아니라 버림 31건 · 이미 판정해서 안 받음 1580건 · 후보 출처 queue, 큐 3194건",
       "status": "ok",
       "phase": "now",
       "phase_label": "1단계 · 후보 선정",
@@ -30,9 +30,9 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-09-17T08:05:47.107024+09:00",
-      "summary": "S등급 9개 · 고시표 입력 대기 0건 · 새 자료 42건",
-      "action": null,
+      "when": "2026-09-17T08:11:20.113666+09:00",
+      "summary": "S등급 10개 · 고시표 입력 대기 2건 · 새 자료 42건",
+      "action": "고시 표 2건 필요 — 1049285 [수분보습]VT 슈퍼 히알론 슬리 https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285 / 1060211 바세린 모이스처라이징 클렌징 밀크 https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060211",
       "status": "ok",
       "phase": "always",
       "phase_label": "상시 · 시장 감시",
@@ -42,9 +42,9 @@
     {
       "id": "listing",
       "name": "리스팅 제작팀",
-      "when": "2026-09-16T23:05:47.230972+00:00",
-      "summary": "등록 가능 8/9 · 카피 9 · 고시 9 · 가격 8 · 법률 9",
-      "action": "가격 1건 이 막고 있음",
+      "when": "2026-09-16T23:11:20.229418+00:00",
+      "summary": "등록 가능 7/10 · 카피 8 · 고시 8 · 가격 7 · 법률 8",
+      "action": "카피 2건, 고시 2건, us_label 2건 이 막고 있음",
       "status": "ok",
       "phase": "ready",
       "phase_label": "2단계 · 가입 후 등록",
@@ -66,9 +66,9 @@
     {
       "id": "legal",
       "name": "법률·규제팀",
-      "when": "2026-09-16T23:05:47.018155+00:00",
-      "summary": "자동 점검 9건 · 통과 0 · 등록 차단 0 · 참고 주의 9 · 수출서류 HS 9건 · 라벨 5/6항목 자동 · 새 자료 18건",
-      "action": null,
+      "when": "2026-09-16T23:11:20.020431+00:00",
+      "summary": "자동 점검 10건 · 통과 0 · 등록 차단 2 · 참고 주의 10 · 수출서류 HS 9건 · 라벨 5/6항목 자동 · 새 자료 18건",
+      "action": "차단 2건: [수분보습]VT 슈퍼 히알론 (자동 점검 미통과: lab), 바세린 모이스처라이징 클렌징 (자동 점검 미통과: lab) — 라벨 갖추기 전엔 못 올림",
       "status": "ok",
       "phase": "ready",
       "phase_label": "2단계 · 가입 후 등록",
@@ -126,7 +126,7 @@
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-09-17T08:05:36.711440+09:00",
+      "when": "2026-09-17T08:11:18.379302+09:00",
       "summary": "81,410노트 · 322,974링크 · 끊어진 링크 112건 · 개인 노트 16건 별도 · 경고 통과(임계 300)",
       "action": null,
       "status": "ok",
@@ -140,8 +140,8 @@
     "id": "secretary",
     "name": "비서실장",
     "badge": "총괄",
-    "when": "2026-09-17T08:05:35.082393+09:00",
-    "summary": "30분 주기 · 고시 21건 · US라벨 21건 · 카피 10건 · 등록 가능 8건 · 법률 차단 0건",
+    "when": "2026-09-17T07:12:19.835219+09:00",
+    "summary": "30분 주기 · 고시 21건 · US라벨 21건 · 카피 10건 · 등록 가능 7건 · 법률 차단 2건",
     "action": "멈춘 단계 고시 수집, 리스팅 카피 — 2시간 넘게 산출물이 안 바뀌었다",
     "status": "failed",
     "steps": [
@@ -154,31 +154,31 @@
       {
         "단계": "고시 비전 추출",
         "산출물": "gosi.json",
-        "갱신": "2026-09-17T08:05:35.082393+09:00",
-        "몇시간전": 0.0
+        "갱신": "2026-09-17T07:12:19.835219+09:00",
+        "몇시간전": 1.0
       },
       {
         "단계": "US 라벨 동기화",
         "산출물": "daiso_us_labels.json",
-        "갱신": "2026-09-17T08:05:34.597349+09:00",
-        "몇시간전": 0.0
+        "갱신": "2026-09-17T07:12:19.358215+09:00",
+        "몇시간전": 1.0
       },
       {
         "단계": "리스팅 카피",
         "산출물": "shopify_listing_copy.json",
         "갱신": "2026-09-15T23:22:04.219309+00:00",
-        "몇시간전": 23.7
+        "몇시간전": 23.8
       },
       {
         "단계": "등록 게이트",
         "산출물": "listing_gate.json",
-        "갱신": "2026-09-16T23:05:47.230972+00:00",
+        "갱신": "2026-09-16T23:11:20.229418+00:00",
         "몇시간전": 0.0
       },
       {
         "단계": "법률 점검",
         "산출물": "legal_products.json",
-        "갱신": "2026-09-16T23:05:47.018155+00:00",
+        "갱신": "2026-09-16T23:11:20.020431+00:00",
         "몇시간전": 0.0
       }
     ],
@@ -328,7 +328,7 @@
     "status": "completed",
     "record_count": 3525,
     "source_counts": {},
-    "updated_at": "2026-09-17T08:05:35.094394+09:00"
+    "updated_at": "2026-09-17T08:11:18.274301+09:00"
   },
   "graph": {
     "notes": 81410,
@@ -342,7 +342,7 @@
     "topics": 28,
     "orgs": 35,
     "audit": "passed",
-    "last_generated": "2026-09-17T08:05:36.711440+09:00"
+    "last_generated": "2026-09-17T08:11:18.379302+09:00"
   },
   "training": {
     "status": "completed",
@@ -363,17 +363,17 @@
     "totals": {
       "records": 3525,
       "notes": 81998,
-      "links": 341695
+      "links": 341657
     },
     "prior_totals": {
-      "records": 3525,
-      "notes": 81998,
-      "links": 341695
+      "records": 3523,
+      "notes": 81996,
+      "links": 341643
     },
     "added_this_run": {
-      "records": 0,
-      "notes": 0,
-      "links": 0
+      "records": 2,
+      "notes": 2,
+      "links": 14
     },
     "current_snapshot": {
       "records": 3525,
@@ -887,18 +887,18 @@
     ],
     "google_trends_us": [
       {
-        "keyword": "From Skin Patches to Haircare, These Are the K-Beauty Products That Are Actually Popular in Korea - WWD",
-        "product": "From Skin Patches to Haircare, These Are the K-Beauty Products That Are Actually Popular in Korea - WWD",
-        "sub": "K-beauty",
-        "badge": "news",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTWhmVlpqOU5iUWRfT2x1V0Y0cmVlMVNQZElYaFQyUEpHQmRDZUJNdkNFMy03WUptY0ZfMXJubWJramM4dUFSZXl1SDR5QUl2UE0xeVNqbHl5X3RQUXZfV3Q1am1QcDN6UFRVbkdYN2dEUHo0Z3pKT3dMZ0tFNlNaUXE5TzZjTjJfNnlJTnVBUjdvTlBkNmRHTVFyanZZa2YwcDhEdQ?oc=5"
-      },
-      {
         "keyword": "Your Fall Beauty Edit: 3 Top Trends to Refresh Your Routine at Target - Target Corporation",
         "product": "Your Fall Beauty Edit: 3 Top Trends to Refresh Your Routine at Target - Target Corporation",
         "sub": "K-beauty",
         "badge": "news",
         "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQajBBeEpXUWJ4Mm1lZ0ZucHhEUlhqb1pKdkhSeEk5YkpNb05BTFdVYzFCWmhpdlhFVnBBUzA1aFFwNmpBTnlrcUM2QU5hWWkwLWstV0Q0b2JYeURaLW9pUXRENkxqdmhhb3pzM0lmOTZCTmVvcGM3ZDdpQ3ZiZk5leQ?oc=5"
+      },
+      {
+        "keyword": "From Skin Patches to Haircare, These Are the K-Beauty Products That Are Actually Popular in Korea - WWD",
+        "product": "From Skin Patches to Haircare, These Are the K-Beauty Products That Are Actually Popular in Korea - WWD",
+        "sub": "K-beauty",
+        "badge": "news",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTWhmVlpqOU5iUWRfT2x1V0Y0cmVlMVNQZElYaFQyUEpHQmRDZUJNdkNFMy03WUptY0ZfMXJubWJramM4dUFSZXl1SDR5QUl2UE0xeVNqbHl5X3RQUXZfV3Q1am1QcDN6UFRVbkdYN2dEUHo0Z3pKT3dMZ0tFNlNaUXE5TzZjTjJfNnlJTnVBUjdvTlBkNmRHTVFyanZZa2YwcDhEdQ?oc=5"
       },
       {
         "keyword": "Move Over, Glass Skin: Cloud Creams Are the K-Beauty Moisturizer Trend Taking Over - ELLE",
@@ -908,18 +908,18 @@
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNc3JsQnlaWlRYMXMxNzBkLXBuUUlURHNCVzBwVHdndWVEUXZZZndUUkpUdFFPN3NJR1FJMGhualo2UDFsc05hSmNDa1NLYzA1ejQ5cS1fWFpUaWRDNmZYX0k0d05fTGNzQVZhLXpDOGpORk1pa0htM3gxUzYtZWZyZ3R0MW9BY29OZnhQN1JaYV94X1U?oc=5"
       },
       {
-        "keyword": "Michelle Lee and Sarah Park on K-Beauty’s Evolution - NewBeauty",
-        "product": "Michelle Lee and Sarah Park on K-Beauty’s Evolution - NewBeauty",
-        "sub": "K-beauty",
-        "badge": "news",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFByc2MzdWtPWWRPM2huTE85TUF5a2JLS0U3bV9CN0stdkNfT210czV1RVFiTURQZERWZ3dDaWV4bUYyTTBJWEtDdnlCa01fYWlwM21lZzJwVjhhRkQ3WmNxeExDcElNdmNfUS00ZFVzbjlheEZnX1FhYnNaT05kem8?oc=5"
-      },
-      {
         "keyword": "K-Beauty Body Care: VOESH Brings Facial Skincare Benefits to the Body - trendhunter.com",
         "product": "K-Beauty Body Care: VOESH Brings Facial Skincare Benefits to the Body - trendhunter.com",
         "sub": "K-beauty",
         "badge": "news",
         "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE53ci1acDZjOUhmUE9rY3BwQWw2akhqWnVGZ1gzNGQ4dmhSY3EzUWl0VUU2Q0FOU2pCSEdwSGhWLWk5bTRXbFRHcDJyelBjdVMxMEo4VjVPcE5qSUlPWVBMVFZIc1pFMHVESFh2WnJhMA?oc=5"
+      },
+      {
+        "keyword": "Rogue Finds Strengthens Korean Brand Partnerships to Deliver Exclusive K-Beauty Selections to Growing Customer Base - WKOW",
+        "product": "Rogue Finds Strengthens Korean Brand Partnerships to Deliver Exclusive K-Beauty Selections to Growing Customer Base - WKOW",
+        "sub": "K-beauty",
+        "badge": "news",
+        "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxNRlk0eHFLSlFTVFIxTnJJUDlIZ1o5T0Z3MnlpTHdvNjUyY2VfbVVtRHlHN1JVcFE4Z0FZcGhJTktsRGVSY09wbVYzblB0V0FUajBRZjE4R2hnVDRCNGZnWGdEMTQzRmpJdkJYQ3h2b1pHSlJpajVaVDZ5UFIwSGpUcGstZUpSVjd4V2FFaUI2WTlYR1BsdnowSVhNUEhVLTJCUGowTm9ZN0ZlYVJCOFcySUx2ZTRNeE0xQmJlZlFRYW9qeHRUcWtLZzEyQTI2RDZOdWFmYlVpWjJPU1NvYXV0bFlDeHVuVVZJcDhyUm5HMm1PeEhMVzRLdk40bDB3NXhUcHVmYlRDNmgzdHpKREN2N01PVUpVVEFjNlducmZBNzd4cGwzSTljdldfaTRjUXJtVXdlTDE0dw?oc=5"
       },
       {
         "keyword": "K-Beauty Expert Brings Industry Experience to Auburn Through Sejong Culture Academy - Auburn University",
@@ -943,15 +943,15 @@
         "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUFNVenlfcmNtZUg4bk9BVnFwVmlFOTNQQlJVdVdhSlNNNlNoX3BvYzFpbHRaN0J0NTRDeEJTTFpVU1ZwUlREM0hCRnl5bVpRODJDR0Zydklabng4QlJYMXk3amEwc2FXcDNuemprSUlYOHlNSy1RbzgyM3hIT3F5ZV9ZMWtaa0pISDktYzBWaw?oc=5"
       },
       {
-        "keyword": "Yes, Korean Sunscreens Are Better. But Dermatologists Warn You Shouldn’t Buy Them Online—Here’s Why. - womenshealthmag.com",
-        "product": "Yes, Korean Sunscreens Are Better. But Dermatologists Warn You Shouldn’t Buy Them Online—Here’s Why. - womenshealthmag.com",
+        "keyword": "Yes, Korean Sunscreens Are Better. But Dermatologists Warn You Shouldn’t Buy Them Online—Here’s Why. - Women's Health",
+        "product": "Yes, Korean Sunscreens Are Better. But Dermatologists Warn You Shouldn’t Buy Them Online—Here’s Why. - Women's Health",
         "sub": "Korean sunscreen",
         "badge": "news",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZHBXQzBDZ2dGRHdEeXdtSXk5NkpMbW5vZzYzdGVWWVk1RllId3RCaUtPVnRIUVVEME84QmUzYTRBcGt5SE9rd3VpU0NZcWhBak1tMjVNR2lPd050RUdwaUJQbHB6TU81UDVmejBkVElrcnFKdnY1UHZ6SjVOMmtCNjNod3AtYm5Qb3c?oc=5"
       },
       {
-        "keyword": "US and Korean sunscreens are not created equal, study says - WTOP News",
-        "product": "US and Korean sunscreens are not created equal, study says - WTOP News",
+        "keyword": "US and Korean sunscreens are not created equal, study says - wtop.com",
+        "product": "US and Korean sunscreens are not created equal, study says - wtop.com",
         "sub": "Korean sunscreen",
         "badge": "news",
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMnpvNUR0bm0tV2E0M183TDZLUVUwal9NRHduZ21ULUtPZFl2SnFoVS1WVFVZTjJtZjFfX1R5Um1Lajk0TXZzbnVpbkdpMXdMbno4dHo0Y3g4R3lYbV9rRkcyY0VsSjRVSFFPWVV5cTNNWG0tVC0zZ0tER251cDRCM3A0ZEJnNTBjWjBrYnp2dHRHSXd2UkNMckJqQ1JmUmFkX1RCeElDdmtzMGJ4X3V6SjJYbTQyUlNvazMycGw4b2k4aG44YkdN?oc=5"
@@ -985,8 +985,8 @@
         "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ZTWU0R2c2bXdNckV1N29mSDJWb201UGxUT2ZOajNjZ0oyRkJHTWVQdzdSME5YT0M2M0g2YXFrSnZGZWk3Mmx2S3VkVUx3bk9jMVV5dQ?oc=5"
       },
       {
-        "keyword": "Same brand, different SPF: Why Korean sunscreens outperform US versions - koreatimes.co.kr",
-        "product": "Same brand, different SPF: Why Korean sunscreens outperform US versions - koreatimes.co.kr",
+        "keyword": "Same brand, different SPF: Why Korean sunscreens outperform US versions - The Korea Times",
+        "product": "Same brand, different SPF: Why Korean sunscreens outperform US versions - The Korea Times",
         "sub": "Korean sunscreen",
         "badge": "news",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdXEyV1k2UDNvY01GVEFoVE01MldFRjlqaGlJY3kzRjliamkxcEV3aXFJeS1WRDJpbzI2OGVfTDFoTGR3Ny0tUkNRMXJ0RmJvRktpM2FDN0h4aE1uSHItVVNMWFNycnM1aDR4NW1TUVVQdjRhTmNIUXQxUmlVM253Z2NCNmIwbW9xVHJFLWd0R0tyZ2k4TWtqTzFoeDJUNDE5ZVpfeUZHNWtqNjVsOEhQRjUzSlZ0LTNN0gG-AUFVX3lxTE9teTR0RHBndWpfVGJ2OElRU1NCVDNSaVdZTjcwLWZpcU9ubEJma1FEeU9SbFRmc0hWd3hCTUhoUjlsb05Sek53VlI3RVF4dTI0MlFYRXpScmw4bFM1WVpjVEpnSFMtUllTWm9xYkxkbXVIM2RUaHQ3UlpXcGZJTHMxYkQ4aUlBdmFxQllQZF9YbG9yYVk5ay0yTUlVYTBjS3dZTnlkdzVLRzQxMGkzM0FzOERMOEo3d1RDOURmUnc?oc=5"
@@ -1051,12 +1051,6 @@
       }
     ],
     "allure_media": [
-      {
-        "product": "5 Best Bond Repair Treatments That Strengthen Damaged Hair",
-        "sub": "Wed, 16 Sep 2026",
-        "badge": "16 Sep",
-        "url": "https://www.allure.com/gallery/best-bond-repair-treatments-for-hair"
-      },
       {
         "product": "13 Best Nordstrom 125 Anniversary Beauty Deals to Shop",
         "sub": "Wed, 16 Sep 2026",
@@ -1140,6 +1134,12 @@
         "sub": "Mon, 14 Sep 2026",
         "badge": "14 Sep",
         "url": "https://www.allure.com/gallery/best-beauty-looks-2026-emmy-awards"
+      },
+      {
+        "product": "11 Best Wrinkle Creams 2026 for Smoother, Firmer Skin",
+        "sub": "Mon, 14 Sep 2026",
+        "badge": "14 Sep",
+        "url": "https://www.allure.com/gallery/best-wrinkle-cream"
       }
     ],
     "openfda_sunscreen": [
@@ -1620,7 +1620,7 @@
       "collected_at": "2026-09-15T23:10:07.126967+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 23.9,
+      "age_hours": 24.0,
       "stale": false
     },
     "walmart_beauty": {
@@ -1630,60 +1630,60 @@
       "collected_at": "2026-09-15T23:10:07.127537+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 23.9,
+      "age_hours": 24.0,
       "stale": false
     },
     "oliveyoung_us": {
       "status": "ok",
       "source": "us.oliveyoung.com/best-sellers 실수집",
       "reason": "",
-      "collected_at": "2026-09-16T22:40:38.429360+00:00",
+      "collected_at": "2026-09-16T19:24:59.527832+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 0.4,
+      "age_hours": 3.8,
       "stale": false
     },
     "google_trends_us": {
       "status": "ok",
       "source": "google news rss (beauty queries) + trends daily filtered",
       "reason": "",
-      "collected_at": "2026-09-16T22:41:30.768192+00:00",
+      "collected_at": "2026-09-16T19:26:02.730558+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 0.4,
+      "age_hours": 3.8,
       "stale": false
     },
     "wikipedia_interest": {
       "status": "ok",
       "source": "wikimedia.org REST pageviews API (공식)",
       "reason": "",
-      "collected_at": "2026-09-16T19:29:29.806108+00:00",
+      "collected_at": "2026-09-16T14:42:26.735568+00:00",
       "count": 8,
       "trust": "verified",
       "note": "2026-08-16 ~ 2026-09-14 일별 조회수. 후반 15일 대비 전반 15일 증감률",
-      "age_hours": 3.6,
+      "age_hours": 8.5,
       "stale": false
     },
     "allure_media": {
       "status": "ok",
       "source": "allure.com/feed/rss",
       "reason": "",
-      "collected_at": "2026-09-16T19:29:29.806108+00:00",
+      "collected_at": "2026-09-16T14:42:26.735568+00:00",
       "count": 15,
       "trust": "verified",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
-      "age_hours": 3.6,
+      "age_hours": 8.5,
       "stale": false
     },
     "openfda_sunscreen": {
       "status": "ok",
       "source": "api.fda.gov/drug/label (openFDA 공식)",
       "reason": "",
-      "collected_at": "2026-09-16T19:29:29.806108+00:00",
+      "collected_at": "2026-09-16T14:42:26.735568+00:00",
       "count": 15,
       "trust": "verified",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다.",
-      "age_hours": 3.6,
+      "age_hours": 8.5,
       "stale": false
     },
     "shopify_demand_matching": {
@@ -1709,7 +1709,7 @@
       "collected_at": "2026-09-15T23:10:07.127941+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 23.9,
+      "age_hours": 24.0,
       "stale": false
     },
     "sephora": {
@@ -1719,17 +1719,17 @@
       "collected_at": "2026-09-15T23:10:07.127941+00:00",
       "count": 14,
       "trust": "verified",
-      "age_hours": 23.9,
+      "age_hours": 24.0,
       "stale": false
     },
     "open_beauty_facts": {
       "status": "ok",
       "source": "world.openbeautyfacts.org /api/v2 (오픈데이터)",
       "reason": "",
-      "collected_at": "2026-09-16T22:40:37.536338+00:00",
+      "collected_at": "2026-09-16T19:24:40.685154+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 0.4,
+      "age_hours": 3.8,
       "stale": false
     }
   },
@@ -1739,5 +1739,5 @@
     "source": "https://open.er-api.com/v6/latest/USD",
     "updated_at": "2026-09-17"
   },
-  "last_synced": "09. 17. 오전 07:45 KST"
+  "last_synced": "09. 17. 오전 04:28 KST"
 }

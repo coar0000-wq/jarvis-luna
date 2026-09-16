@@ -1,6 +1,6 @@
 {
   "agent": "Ops-Prioritizer",
-  "generated_at": "2026-09-16T23:05:49.696457+00:00",
+  "generated_at": "2026-09-16T23:11:22.565046+00:00",
   "risk": "medium",
   "task_count": 5,
   "tasks": [
@@ -15,7 +15,7 @@
     },
     {
       "priority": 3,
-      "title": "S등급 9건 Shopify draft 등록",
+      "title": "S등급 10건 Shopify draft 등록",
       "detail": "CSV Import · legal 차단 SKU 제외 · Variant Price는 원가 모델 후 입력",
       "refs": [
         "data/daiso_real/shopify_s_products_import.csv",
@@ -26,7 +26,16 @@
     {
       "priority": 4,
       "title": "팀 조치 · 상품 소싱팀",
-      "detail": "직전 실행 73건 받아 성공 46건 · 받아보고 뷰티 아니라 버림 27건 · 이미 판정해서 안 받음 1415건 · 후보 출처 queue, 큐 3195건",
+      "detail": "직전 실행 73건 받아 성공 42건 · 받아보고 뷰티 아니라 버림 31건 · 이미 판정해서 안 받음 1580건 · 후보 출처 queue, 큐 3194건",
+      "refs": [
+        "data/dashboard_runtime.json"
+      ],
+      "approve": "사람: 팀 카드 조치 확인"
+    },
+    {
+      "priority": 4,
+      "title": "팀 조치 · 마케팅 조사팀",
+      "detail": "고시 표 2건 필요 — 1049285 [수분보습]VT 슈퍼 히알론 슬리 https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285 / 1060211 바세린 모이스처라이징 클렌징 밀크 https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pd",
       "refs": [
         "data/dashboard_runtime.json"
       ],
@@ -35,16 +44,7 @@
     {
       "priority": 4,
       "title": "팀 조치 · 리스팅 제작팀",
-      "detail": "가격 1건 이 막고 있음",
-      "refs": [
-        "data/dashboard_runtime.json"
-      ],
-      "approve": "사람: 팀 카드 조치 확인"
-    },
-    {
-      "priority": 4,
-      "title": "팀 조치 · 가격 정책팀",
-      "detail": "1건이 시장가로 손익분기 미달",
+      "detail": "카피 2건, 고시 2건, us_label 2건 이 막고 있음",
       "refs": [
         "data/dashboard_runtime.json"
       ],
@@ -61,19 +61,19 @@
       },
       {
         "n": 2,
-        "text": "S등급 9건 Shopify draft 등록 — CSV Import · legal 차단 SKU 제외 · Variant Price는 원가 모델 후 입력"
+        "text": "S등급 10건 Shopify draft 등록 — CSV Import · legal 차단 SKU 제외 · Variant Price는 원가 모델 후 입력"
       },
       {
         "n": 3,
-        "text": "팀 조치 · 상품 소싱팀 — 직전 실행 73건 받아 성공 46건 · 받아보고 뷰티 아니라 버림 27건 · 이미 판정해서 안 받음 1415건 · 후보 출처 queue, 큐 3"
+        "text": "팀 조치 · 상품 소싱팀 — 직전 실행 73건 받아 성공 42건 · 받아보고 뷰티 아니라 버림 31건 · 이미 판정해서 안 받음 1580건 · 후보 출처 queue, 큐 3"
       },
       {
         "n": 4,
-        "text": "팀 조치 · 리스팅 제작팀 — 가격 1건 이 막고 있음"
+        "text": "팀 조치 · 마케팅 조사팀 — 고시 표 2건 필요 — 1049285 [수분보습]VT 슈퍼 히알론 슬리 https://www.daisomall.co.kr/pd/pdr/SCR_P"
       },
       {
         "n": 5,
-        "text": "팀 조치 · 가격 정책팀 — 1건이 시장가로 손익분기 미달"
+        "text": "팀 조치 · 리스팅 제작팀 — 카피 2건, 고시 2건, us_label 2건 이 막고 있음"
       }
     ]
   }

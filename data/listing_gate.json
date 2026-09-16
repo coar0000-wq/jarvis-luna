@@ -1,20 +1,24 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-16T23:05:47.230972+00:00",
+  "generated_at": "2026-09-16T23:11:20.229418+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
-  "total": 9,
-  "ready": 8,
+  "total": 10,
+  "ready": 7,
   "counts": {
-    "copy": 9,
-    "gosi": 9,
-    "us_label": 9,
-    "price": 8,
-    "legal": 9
+    "copy": 8,
+    "gosi": 8,
+    "us_label": 8,
+    "price": 7,
+    "legal": 8
   },
   "blockers": {
-    "price": 1
+    "copy": 2,
+    "gosi": 2,
+    "us_label": 2,
+    "price": 3,
+    "legal": 2
   },
-  "count": 9,
+  "count": 10,
   "note": "gosi=한국 고시 4항목, us_label=영문 라벨(플레이스홀더 제외), legal=MoCRA 등 하드블록. ready는 5개 조건 모두 통과한 건수.",
   "items": [
     {
@@ -279,6 +283,50 @@
     },
     {
       "rank": 6,
+      "pd_no": "1049285",
+      "product_id": "1049285",
+      "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
+      "category": "스킨케어",
+      "price_krw": 3000,
+      "shopify_score": 92,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285",
+      "copy": {},
+      "copy_status": "missing",
+      "gosi": {
+        "volume": "",
+        "maker": "",
+        "origin": "",
+        "ingredients": "",
+        "gosi_ok": false
+      },
+      "us_label": {
+        "net_contents": "",
+        "manufacturer": "",
+        "country_of_origin": "",
+        "ingredients_inci": "",
+        "us_label_ok": false
+      },
+      "price": {
+        "price_usd": null,
+        "margin_pct": null,
+        "register_blocked": false
+      },
+      "legal": {
+        "status": "auto_checked",
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields"
+      },
+      "ready": false,
+      "blocked_by": [
+        "copy",
+        "gosi",
+        "us_label",
+        "price",
+        "legal"
+      ]
+    },
+    {
+      "rank": 7,
       "pd_no": "1041403",
       "product_id": "1041403",
       "name": "채비공간 어성초 추출물 비건 토너 150 ml",
@@ -330,7 +378,7 @@
       "blocked_by": []
     },
     {
-      "rank": 7,
+      "rank": 8,
       "pd_no": "1049271",
       "product_id": "1049271",
       "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
@@ -385,7 +433,7 @@
       ]
     },
     {
-      "rank": 8,
+      "rank": 9,
       "pd_no": "1059834",
       "product_id": "1059834",
       "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
@@ -438,57 +486,48 @@
       "blocked_by": []
     },
     {
-      "rank": 9,
-      "pd_no": "1042619",
-      "product_id": "1042619",
-      "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
-      "category": "마스크팩",
-      "price_krw": 1000,
-      "shopify_score": 84,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
-      "copy": {
-        "title": "Celderma Daily Collagen Essence Gel Mask 29g",
-        "description_html": "<p>Experience the cooling and hydrating feel of the Celderma Daily Collagen Essence Gel Mask. This 29g hydrogel mask clings comfortably to the face to help deliver moisture directly to the skin.</p><p>Formulated with collagen, it helps nourish the skin for a smooth, soft, and refreshed appearance. Incorporate this easy-to-use sheet mask into your daily skincare routine for a glowing look.</p>",
-        "seo_title": "Celderma Daily Collagen Essence Gel Mask 29g",
-        "seo_description": "Shop the Celderma Daily Collagen Essence Gel Mask 29g for a hydrated, refreshed, and smooth-looking complexion. Easy daily K-beauty sheet mask.",
-        "tags": [
-          "celderma",
-          "collagen-mask",
-          "gel-mask",
-          "sheet-mask",
-          "k-beauty",
-          "facial-mask",
-          "hydrating-mask"
-        ],
-        "product_type": "Face Mask"
-      },
-      "copy_status": "ok",
+      "rank": 10,
+      "pd_no": "1060211",
+      "product_id": "1060211",
+      "name": "바세린 모이스처라이징 클렌징 밀크 140 ml",
+      "category": "클렌징",
+      "price_krw": 5000,
+      "shopify_score": 86,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060211",
+      "copy": {},
+      "copy_status": "missing",
       "gosi": {
-        "volume": "29g",
-        "maker": "㈜제닉 (충청남도 논산시 성동면 산업단지로5길 5)",
-        "origin": "한국",
-        "ingredients": "정제수, 글리세린, 나이아신아마이드, 캐롭검, 아이리쉬모스추출물, 1,2-헥산다이올, 펜틸렌글라이콜, 에틸헥실글리세린, 콜라겐추출물(686,000ppb), 아데노신, 다이소듐이디티에이, 글리세릴글루코사이드, 폴리글리",
-        "gosi_ok": true
+        "volume": "",
+        "maker": "",
+        "origin": "",
+        "ingredients": "",
+        "gosi_ok": false
       },
       "us_label": {
-        "net_contents": "29g",
-        "manufacturer": "㈜제닉 (충청남도 논산시 성동면 산업단지로5길 5)",
-        "country_of_origin": "Korea",
-        "ingredients_inci": "Water, Glycerin, Niacinamide, Ceratonia Siliqua (Carob) Gum, Chondrus Crispus Extract, 1,2-Hexanediol, Pentylene Glycol, Ethylhexylglycerin, Collagen Extract, Adenosine, Disodium EDTA, Glyceryl Glucoside, Polyglyceryl-6 Caprylate, Polyglyceryl-4 Caprate, Tocopherol",
-        "us_label_ok": true
+        "net_contents": "",
+        "manufacturer": "",
+        "country_of_origin": "",
+        "ingredients_inci": "",
+        "us_label_ok": false
       },
       "price": {
-        "price_usd": 24.99,
-        "margin_pct": 64.6,
+        "price_usd": null,
+        "margin_pct": null,
         "register_blocked": false
       },
       "legal": {
         "status": "auto_checked",
-        "hard_block": false,
-        "hard_block_reason": ""
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields"
       },
-      "ready": true,
-      "blocked_by": []
+      "ready": false,
+      "blocked_by": [
+        "copy",
+        "gosi",
+        "us_label",
+        "price",
+        "legal"
+      ]
     }
   ]
 }
