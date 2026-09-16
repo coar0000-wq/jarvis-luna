@@ -23,41 +23,6 @@
     "적색227호": "한국 색소 번호. 미국 FD&C/D&C 대응 확인 필요"
   },
   "안_넣은_이유": "INCI 는 국제 표준 표기다. 비슷하게 지어내면 미국에서 라벨 위반이다. 표준명을 확신 못 하는 것은 비워 두고 여기 남긴다. 사람이 확인해서 채운다.",
-  "정본과_달랐던_항목": {
-    "녹두싹추출물": {
-      "정본": "Phaseolus Radiatus Sprout Extract",
-      "기존_손입력": "Vigna Radiata Sprout Extract"
-    },
-    "메틸글루세스-20": {
-      "정본": "Methyl Gluceth-20",
-      "기존_손입력": "Methyl Glucose Sesquistearate"
-    },
-    "아이비고드열매추출물": {
-      "정본": "Coccinia Indica Fruit Extract",
-      "기존_손입력": "Ampelopsis Japonica Root Extract"
-    },
-    "약모밀꽃/잎/줄기추출물": {
-      "정본": "Houttuynia Cordata Flower/Leaf/Stem Extract",
-      "기존_손입력": "Houttuynia Cordata Extract"
-    },
-    "적색227호": {
-      "정본": "Fast Acid Magenta",
-      "기존_손입력": "CI 17200"
-    },
-    "캐롭검": {
-      "정본": "Ceratonia Siliqua (Carob) Gum",
-      "기존_손입력": "Ceratonia Siliqua Gum"
-    },
-    "향료": {
-      "정본": "Fragrance|Perfume|Parfum",
-      "기존_손입력": "Fragrance"
-    },
-    "호박가루": {
-      "정본": "Amber Powder",
-      "기존_손입력": "Cucurbita Pepo (Pumpkin) Powder"
-    }
-  },
-  "정본과_달랐던_항목_설명": "손으로 넣어 두었던 값이 정본과 달랐다. 정본을 따랐다. 사람이 보고 정본이 맞는지 판단한다.",
   "kr_to_inci": {
     "(20S)-프로토파낙사다이올": "(20S)-Protopanaxadiol",
     "(국화꽃/잎가루)/(제비꽃꽃/잎가루)/밀리타리스동충하초배양물가루/(약모밀꽃/잎/줄기가루)/(박하꽃/잎/줄기가루)/노루궁뎅이버섯배양물가루/(닥나무껍질/뿌리껍질가루)/육계껍질가루/꽈리꽃받침가루/(리조푸스/강낭콩씨발효물가루)/(보검선인장꽃/열매/줄기가루)/아마씨가루/오크라열매가루/(리조푸스/녹두씨발효물가루)/(무궁화꽃/잎/나무껍질/뿌리껍질가루)/스페인감초뿌리가루/소엽잎가루/순무뿌리가루/심황뿌리가루/(쇠비름잎/줄기/뿌리가루)/(리조푸스/당근발효물가루)/ 산초나무열매가루/벤토나이트/(리조푸스/팥발효물가루)/칡뿌리가루/(리조푸스/보리씨발효물가루)/녹차가루/모과가루/ 인삼가루/(당광나무열매/잎가루)/(금잔화꽃/잎가루)/퀴노아씨가루/단삼뿌리가루/마늘가루/생강가루/(붉나무꽃/열매/ 잎/나무껍질/뿌리껍질가루)/후추열매가루/(쓴쑥잎/줄기가루)/쌀가루/고추냉이뿌리가루/양파가루/감자전분/밀가루추": "Isopropylidenediphenyl Bisoxyhydroxypropyl Acrylate 10549",

@@ -72,12 +72,21 @@ import sys
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "inci_dictionary.json"
 CACHE = ROOT / "data" / "daiso_real" / "kcia_std_names.pdf"
 
-SOURCE_URL = "https://kcia.or.kr/cid/files/표준화명칭목록"
+# 주소 끝이 한글이다. urllib 은 비ASCII 경로를 그대로 못 보낸다.
+#
+# 2026-09-16 첫 CI 실행이 여기서 죽었다.
+#   UnicodeEncodeError: 'ascii' codec can't encode characters in position 15-21
+# 브라우저 fetch 는 알아서 인코딩해 준다. urllib 은 안 해준다.
+# 경로만 퍼센트 인코딩해서 보낸다.
+SOURCE_PATH = "표준화명칭목록"
+SOURCE_URL = "https://kcia.or.kr/cid/files/" + SOURCE_PATH
+SOURCE_URL_ENCODED = "https://kcia.or.kr/cid/files/" + quote(SOURCE_PATH)
 SOURCE_NAME = "대한화장품협회 성분사전 · 표준화명칭목록"
 TIMEOUT = 180
 
@@ -98,7 +107,7 @@ def fetch_pdf() -> bytes:
         print(f"로컬 PDF 사용: {local}")
         return Path(local).read_bytes()
 
-    req = urllib.request.Request(SOURCE_URL, headers={"User-Agent": UA})
+    req = urllib.request.Request(SOURCE_URL_ENCODED, headers={"User-Agent": UA})
     print(f"내려받는다: {SOURCE_URL}")
     body = urllib.request.urlopen(req, timeout=TIMEOUT).read()
     if not body.startswith(b"%PDF"):
