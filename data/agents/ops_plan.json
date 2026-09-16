@@ -1,6 +1,6 @@
 {
   "agent": "Ops-Prioritizer",
-  "generated_at": "2026-09-15T23:23:09.932754+00:00",
+  "generated_at": "2026-09-16T01:31:19.281633+00:00",
   "risk": "medium",
   "task_count": 5,
   "tasks": [
@@ -15,7 +15,7 @@
     },
     {
       "priority": 3,
-      "title": "S등급 10건 Shopify draft 등록",
+      "title": "S등급 9건 Shopify draft 등록",
       "detail": "CSV Import · legal 차단 SKU 제외 · Variant Price는 원가 모델 후 입력",
       "refs": [
         "data/daiso_real/shopify_s_products_import.csv",
@@ -44,7 +44,7 @@
     {
       "priority": 4,
       "title": "팀 조치 · 리스팅 제작팀",
-      "detail": "고시 5건, us_label 6건, 가격 6건 이 막고 있음",
+      "detail": "고시 5건, us_label 5건, 가격 1건 이 막고 있음",
       "refs": [
         "data/dashboard_runtime.json"
       ],
@@ -61,7 +61,7 @@
       },
       {
         "n": 2,
-        "text": "S등급 10건 Shopify draft 등록 — CSV Import · legal 차단 SKU 제외 · Variant Price는 원가 모델 후 입력"
+        "text": "S등급 9건 Shopify draft 등록 — CSV Import · legal 차단 SKU 제외 · Variant Price는 원가 모델 후 입력"
       },
       {
         "n": 3,
@@ -73,7 +73,7 @@
       },
       {
         "n": 5,
-        "text": "팀 조치 · 리스팅 제작팀 — 고시 5건, us_label 6건, 가격 6건 이 막고 있음"
+        "text": "팀 조치 · 리스팅 제작팀 — 고시 5건, us_label 5건, 가격 1건 이 막고 있음"
       }
     ]
   }
