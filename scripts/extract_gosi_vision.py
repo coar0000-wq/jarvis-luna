@@ -58,7 +58,20 @@ PROMPT = """이 이미지는 한국 화장품의 '상품정보 제공고시' 표
   쉼표까지 원문 그대로 옮기세요.
 - 추측해서 채우지 마세요. 보이는 글자만 옮기세요.
 - 마케팅 문구만 있고 고시 표가 없으면 모든 값을 "" 로 두세요.
-- JSON 외에 다른 말을 붙이지 마세요."""
+- JSON 외에 다른 말을 붙이지 마세요.
+{target}"""
+
+# 한 이미지에 여러 상품의 고시 표가 연이어 들어 있는 경우가 있다.
+#
+# 2026-09-16 셀더마데일리 마스크 1042619 의 상세 이미지에는
+# 바로 위에 품번 1042615(히알루) 표가 같이 있었다. 둘은 전성분이
+# 다르다. 품번을 안 짚어주면 옆 상품 표를 옮겨 적을 수 있다.
+# 그것은 미국 라벨과 법률 검토의 원천 자료가 틀리는 일이라 그냥 둘 수 없다.
+TARGET_HINT = """
+- 이 이미지에 품번(상품번호)가 다른 표가 여럿 개 있을 수 있습니다.
+  반드시 품번이 {pd_no} 인 표만 옮기세요.
+- 품번이 {pd_no} 인 표가 이 이미지에 없으면 모든 값을 "" 로 두세요.
+  다른 품번의 표를 대신 옮기지 마세요."""
 
 
 def http_json(url: str, payload: dict | None = None) -> dict:
@@ -108,7 +121,16 @@ def pick_models(key: str) -> list[str]:
         for m in d.get("models", [])
         if "generateContent" in (m.get("supportedGenerationMethods") or [])
     ]
-    ban = ("lite", "discontinued", "vision-exp", "1.0")
+    # 2026-09-16: 골라진 후보가 이렇게 나왔다.
+    #   gemini-flash-latest, gemini-2.5-flash,
+    #   gemini-2.5-flash-preview-tts, gemini-2.5-flash-image
+    #
+    # 뒤의 둘은 표를 읽는 모델이 아니다. tts 는 음성이고
+    # -image 는 그림을 만드는 쪽이다. 둘 다 generateContent 를
+    # 지원한다고 나오기 때문에 걸러지지 않았다.
+    # 쓸데없는 호출로 할당량을 태우고 429 를 받았다.
+    ban = ("lite", "discontinued", "vision-exp", "1.0",
+           "tts", "-image", "embedding", "audio", "live", "learnlm")
     usable = [n for n in usable if not any(b in n.lower() for b in ban)]
 
     order, seen = [], set()
@@ -135,13 +157,19 @@ def mime_of(path: Path) -> str:
     return "image/jpeg"
 
 
-def read_table(key: str, models: list[str], img: Path) -> tuple[dict | None, str]:
-    """이미지 한 장을 읽는다. 과부하 시 재시도·다른 모델 전환."""
+def read_table(key: str, models: list[str], img: Path,
+               pd_no: str = "") -> tuple[dict | None, str]:
+    """이미지 한 장을 읽는다. 과부하 시 재시도·다른 모델 전환.
+
+    pd_no 를 주면 그 품번의 표만 옮기라고 모델에게 명시한다.
+    """
+    prompt = PROMPT.format(
+        target=TARGET_HINT.format(pd_no=pd_no) if pd_no else "")
     b64 = base64.b64encode(img.read_bytes()).decode()
     payload = {
         "contents": [{
             "parts": [
-                {"text": PROMPT},
+                {"text": prompt},
                 {"inline_data": {"mime_type": mime_of(img), "data": b64}},
             ]
         }],
@@ -317,8 +345,12 @@ def main() -> int:
     print(f"모델 후보: {', '.join(models)}")
     started = time.monotonic()
     filled, fails, deferred = 0, [], []
+    quota_hit = False
 
     for pd_no, row in todo.items():
+        if quota_hit:
+            deferred.append(pd_no)
+            continue
         if time.monotonic() - started > BUDGET_SEC:
             deferred.append(pd_no)
             continue
@@ -340,9 +372,18 @@ def main() -> int:
         for img in ordered:
             if not needs_fill(row):
                 break
-            got, err = read_table(key, models, img)
+            got, err = read_table(key, models, img, pd_no)
             if got is None:
                 last_err = err
+                # 할당량을 다 썼으면 더 부르는 것은 의미가 없다.
+                #
+                # 2026-09-16 이 검사가 없어서 429 를 받으면서도
+                # 후보 이미지를 계속 돌았다. 3건 처리하는 데 21분을
+                # 쓰고 채운 칸은 0 이었다. 할당량은 기다려야 돌아오지
+                # 재시도로 풀리는 것이 아니다. 다음 회차로 미룬다.
+                if "429" in err or "quota" in err.lower():
+                    quota_hit = True
+                    break
                 time.sleep(DELAY)
                 continue
             used_img = str(img.relative_to(ROOT))
@@ -374,18 +415,23 @@ def main() -> int:
             )
 
     if deferred:
-        print(f"예산 초과로 {len(deferred)}건은 다음 회차로 미룸")
+        why = "할당량 소진" if quota_hit else "예산 초과"
+        print(f"{why}로 {len(deferred)}건은 다음 회차로 미룬다")
 
     doc["vision_deferred"] = deferred
     done = sum(
         1 for r in items.values()
         if isinstance(r, dict) and all(str(r.get(f) or "").strip() for f in NEED)
     )
-    doc["vision_status"] = "ok"
+    # 할당량을 다 써서 못 읽은 것을 ok 라고 적지 않는다.
+    # 그렇게 적으면 다음 사람이 왜 안 채워졌는지 몰라 같은 자리를 또 혀매게 된다.
+    doc["vision_status"] = "quota_exhausted" if quota_hit else "ok"
     doc["vision_note"] = (
         "용량·전성분은 상세 이미지에만 있어 Gemini 비전으로 읽었다. "
         "읽기이지 생성이 아니다. 표에 없는 항목은 빈칸. "
         "verified 는 사람이 원본 이미지와 대조한 뒤 true 로 바꾼다."
+        + (" 이번 회차는 Gemini 할당량(429)이 소진되어 중단했다. "
+           "할당량이 돌아오면 다음 실행이 이어받는다." if quota_hit else "")
     )
     doc["vision_failures"] = fails
     doc["gosi_ok_count"] = done
