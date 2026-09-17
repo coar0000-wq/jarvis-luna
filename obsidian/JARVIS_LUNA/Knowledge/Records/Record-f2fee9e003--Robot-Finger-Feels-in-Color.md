@@ -2,7 +2,7 @@
 title: "Record f2fee9e003 · Robot-Finger-Feels-in-Color"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T11:44:15.779170+00:00
+updated_at: 2026-09-17T14:47:46.683326+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** Robot Finger Feels in Color
 
 Robot Finger Feels in Color
-<img src="https://spectrum.ieee.org/media-library/close-up-of-a-sensor-for-a-robotic-fingertip-and-raised-relief-images-of-a-leaf-and-a-u-s-penny.jpg?id=67542077&width=1200&height=400&coordinates=0%2C417%2C0%2C417"/><br/><br/><p><span>Imagine running your fingertip over the surface of a U.S. penny. You would feel the ridges of the raised letters and numbers, Abe Lincoln’s bearded side profile, and
+<img src="https://spectrum.ieee.org/media-library/close-up-of-a-sensor-for-a-robotic-fingertip-and-raised-relief-images-of-a-leaf-and-a-u-s-penny.jpg?id=67542077&width=1245&height=700&coordinates=0%2C187%2C0%2C188"/><br/><br/><p><span>Imagine running your fingertip over the surface of a U.S. penny. You would feel the ridges of the raised letters and numbers, Abe Lincoln’s bearded side profile, and
 
 **출처:** Source · robotics
 

@@ -2,7 +2,7 @@
 title: "Record 7fbcebdb3b · The-evolution-of-Digit-Agility-Robotics-journey-from-Cassie-to-Digit-5"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T11:44:15.944650+00:00
+updated_at: 2026-09-17T14:47:46.850138+00:00
 tags: [record, real-data]
 ---
 

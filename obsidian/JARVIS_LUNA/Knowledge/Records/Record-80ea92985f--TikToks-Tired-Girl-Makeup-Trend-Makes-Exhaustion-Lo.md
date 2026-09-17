@@ -2,7 +2,7 @@
 title: "Record 80ea92985f · TikToks-Tired-Girl-Makeup-Trend-Makes-Exhaustion-Lo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T11:44:15.544943+00:00
+updated_at: 2026-09-17T14:47:46.436185+00:00
 tags: [record, real-data]
 ---
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T09:17:12.865001+00:00",
+  "generated_at": "2026-09-17T14:45:51.028440+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "national cheeseburger day",
+          "keyword": "ind vs afg",
+          "approx_traffic": "5000+",
+          "traffic_num": 5000,
+          "published": "Thu, 17 Sep 2026 06:50:00 -0700",
+          "source_name": "Cricinfo",
+          "url": "https://trends.google.com/trending?geo=US&q=ind%20vs%20afg"
+        },
+        {
+          "keyword": "steve belichick",
+          "approx_traffic": "5000+",
+          "traffic_num": 5000,
+          "published": "Thu, 17 Sep 2026 06:20:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=steve%20belichick"
+        },
+        {
+          "keyword": "lsu sam leavitt",
+          "approx_traffic": "5000+",
+          "traffic_num": 5000,
+          "published": "Thu, 17 Sep 2026 05:30:00 -0700",
+          "source_name": "On3",
+          "url": "https://trends.google.com/trending?geo=US&q=lsu%20sam%20leavitt"
+        },
+        {
+          "keyword": "pennsylvania",
+          "approx_traffic": "5000+",
+          "traffic_num": 5000,
+          "published": "Thu, 17 Sep 2026 05:10:00 -0700",
+          "source_name": "The Washington Post",
+          "url": "https://trends.google.com/trending?geo=US&q=pennsylvania"
+        },
+        {
+          "keyword": "trump iran",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Thu, 17 Sep 2026 00:50:00 -0700",
-          "source_name": "Applebee's",
-          "url": "https://trends.google.com/trending?geo=US&q=national%20cheeseburger%20day"
+          "published": "Thu, 17 Sep 2026 07:20:00 -0700",
+          "source_name": "Fox News",
+          "url": "https://trends.google.com/trending?geo=US&q=trump%20iran"
         },
         {
-          "keyword": "alianza - motagua",
+          "keyword": "gta 6 album",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Thu, 17 Sep 2026 05:30:00 -0700",
+          "source_name": "Rockstar Games",
+          "url": "https://trends.google.com/trending?geo=US&q=gta%206%20album"
+        },
+        {
+          "keyword": "asteroid",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Thu, 17 Sep 2026 07:20:00 -0700",
+          "source_name": "AP News",
+          "url": "https://trends.google.com/trending?geo=US&q=asteroid"
+        },
+        {
+          "keyword": "1970s",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Thu, 17 Sep 2026 07:00:00 -0700",
+          "source_name": "American Songwriter",
+          "url": "https://trends.google.com/trending?geo=US&q=1970s"
+        },
+        {
+          "keyword": "landry kiffin",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Thu, 17 Sep 2026 06:50:00 -0700",
+          "source_name": "Fox News",
+          "url": "https://trends.google.com/trending?geo=US&q=landry%20kiffin"
+        },
+        {
+          "keyword": "azerbaijan",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Thu, 17 Sep 2026 02:00:00 -0700",
-          "source_name": "Concacaf | Official Website",
-          "url": "https://trends.google.com/trending?geo=US&q=alianza%20-%20motagua"
-        },
-        {
-          "keyword": "kevin kiley",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Thu, 17 Sep 2026 01:40:00 -0700",
-          "source_name": "The Hill",
-          "url": "https://trends.google.com/trending?geo=US&q=kevin%20kiley"
-        },
-        {
-          "keyword": "cycling",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Thu, 17 Sep 2026 01:40:00 -0700",
-          "source_name": "Team Visma",
-          "url": "https://trends.google.com/trending?geo=US&q=cycling"
-        },
-        {
-          "keyword": "swimming",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Thu, 17 Sep 2026 01:20:00 -0700",
-          "source_name": "SwimSwam",
-          "url": "https://trends.google.com/trending?geo=US&q=swimming"
-        },
-        {
-          "keyword": "botox",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Thu, 17 Sep 2026 00:50:00 -0700",
-          "source_name": "The Telegraph",
-          "url": "https://trends.google.com/trending?geo=US&q=botox"
-        },
-        {
-          "keyword": "daycare center",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Thu, 17 Sep 2026 00:30:00 -0700",
-          "source_name": "KCCI",
-          "url": "https://trends.google.com/trending?geo=US&q=daycare%20center"
-        },
-        {
-          "keyword": "accident lawyer",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Wed, 16 Sep 2026 23:40:00 -0700",
-          "source_name": "Inquirer.com",
-          "url": "https://trends.google.com/trending?geo=US&q=accident%20lawyer"
-        },
-        {
-          "keyword": "bethel tate superintendent steps down",
-          "approx_traffic": "100+",
-          "traffic_num": 100,
-          "published": "Thu, 17 Sep 2026 02:00:00 -0700",
-          "source_name": "WLWT",
-          "url": "https://trends.google.com/trending?geo=US&q=bethel%20tate%20superintendent%20steps%20down"
-        },
-        {
-          "keyword": "needham ma",
-          "approx_traffic": "100+",
-          "traffic_num": 100,
-          "published": "Thu, 17 Sep 2026 01:00:00 -0700",
-          "source_name": "NBC Boston",
-          "url": "https://trends.google.com/trending?geo=US&q=needham%20ma"
+          "published": "Thu, 17 Sep 2026 06:20:00 -0700",
+          "source_name": "Reuters",
+          "url": "https://trends.google.com/trending?geo=US&q=azerbaijan"
         }
       ]
     },
@@ -188,154 +188,154 @@
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
       "items": [
         {
-          "title": "A New Study Analyzing 400,000 Reddit Posts Links GLP-1 Usage to Lesser-Known Side Effects",
-          "published": "Wed, 16 Sep 2026 21:32:59 +0000",
-          "url": "https://www.allure.com/story/glp-1-reddit-new-study-side-effects"
+          "title": "9 Best Tinted Lip Balms for Sheer Color and Lasting Hydration",
+          "published": "Thu, 17 Sep 2026 14:30:00 +0000",
+          "url": "https://www.allure.com/gallery/best-tinted-lip-balm"
         },
         {
-          "title": "Cat-Eye Nails Are the Most Mesmerizing Way to Wear Shimmering Color",
-          "published": "Wed, 16 Sep 2026 20:00:00 +0000",
-          "url": "https://www.allure.com/story/cat-eye-nails"
+          "title": "Bella Hadid’s Gingham Headscarf Carries Summer Picnic Vibes Into Fall — See Photos",
+          "published": "Thu, 17 Sep 2026 14:24:46 +0000",
+          "url": "https://www.allure.com/story/bella-hadid-gingham-headscarf"
         },
         {
-          "title": "5 Best Bond Repair Treatments That Strengthen Damaged Hair",
-          "published": "Wed, 16 Sep 2026 16:15:39 +0000",
-          "url": "https://www.allure.com/gallery/best-bond-repair-treatments-for-hair"
+          "title": "9 Best Moisturizers for Mature Skin for Fine Lines and Deep Wrinkles",
+          "published": "Thu, 17 Sep 2026 14:00:00 +0000",
+          "url": "https://www.allure.com/gallery/best-creams-serums-mature-skin-dermatologist-recommendations"
         },
         {
-          "title": "13 Best Nordstrom 125 Anniversary Beauty Deals to Shop",
-          "published": "Wed, 16 Sep 2026 11:00:00 +0000",
-          "url": "https://www.allure.com/story/nordstrom-125-anniversary-beauty-savings-event-2026"
+          "title": "BEMT Sunscreens Have Officially Arrived in the U.S.",
+          "published": "Thu, 17 Sep 2026 13:02:22 +0000",
+          "url": "https://www.allure.com/story/fda-approves-new-suncreen-filter-bemotrizinol-bemt"
         },
         {
-          "title": "What the Shitty Hyrox Incident Tells Us About the State of Our Manners",
-          "published": "Tue, 15 Sep 2026 22:05:05 +0000",
-          "url": "https://www.allure.com/story/hyrox-joanna-wietrzyk-op-ed-incident"
+          "title": "This Is Exactly How a Product Becomes an Allure Best of Beauty Winner",
+          "published": "Thu, 17 Sep 2026 12:47:24 +0000",
+          "url": "https://www.allure.com/story/how-allure-best-of-beauty-judging-process-works"
         },
         {
-          "title": "Did Hollywood’s Old Lady Revolution Arrive at the 2026 Emmys?",
-          "published": "Tue, 15 Sep 2026 21:18:06 +0000",
-          "url": "https://www.allure.com/story/jean-smart-sally-field-mariska-hargitay-emmys-2026-old-lady-energy"
+          "title": "Amelia Gray and Gabbriette Address the Copycat Rumors—Interview",
+          "published": "Thu, 17 Sep 2026 12:34:01 +0000",
+          "url": "https://www.allure.com/story/amelia-gray-gabbriette-cover-interview"
         },
         {
-          "title": "Selena Gomez's Sunset Frost Nails Capture Golden Hour in a Manicure — See Photos",
-          "published": "Tue, 15 Sep 2026 19:29:01 +0000",
-          "url": "https://www.allure.com/story/selena-gomez-emmys-2026-sunset-frost-nails"
+          "title": "Shop the 2026 Allure Best of Beauty Sensitive Winning Products",
+          "published": "Thu, 17 Sep 2026 11:35:29 +0000",
+          "url": "https://www.allure.com/best-of-beauty-2026-winners/sensitive"
         },
         {
-          "title": "8 Best Wrinkle Serums for Fine Lines, Texture, and Firmness",
-          "published": "Tue, 15 Sep 2026 16:59:25 +0000",
-          "url": "https://www.allure.com/story/best-wrinkle-serum"
+          "title": "Shop the 2026 Allure Best of Beauty Nail Winning Products",
+          "published": "Thu, 17 Sep 2026 11:33:56 +0000",
+          "url": "https://www.allure.com/best-of-beauty-2026-winners/nails"
         },
         {
-          "title": "How GLP-1 Weight Loss Drugs Left the Doctor’s Office",
-          "published": "Tue, 15 Sep 2026 16:05:19 +0000",
-          "url": "https://www.allure.com/story/glp-1-gray-market-telehealth-med-spas-compounding-pharmacies"
+          "title": "Shop the 2026 Allure Best of Beauty Body Winning Products",
+          "published": "Thu, 17 Sep 2026 11:32:15 +0000",
+          "url": "https://www.allure.com/best-of-beauty-2026-winners/body"
         },
         {
-          "title": "What's Up With Taylor Swift's New Rose Lipstick?—See the Photos",
-          "published": "Tue, 15 Sep 2026 15:38:15 +0000",
-          "url": "https://www.allure.com/story/taylor-swift-rose-lipstick"
+          "title": "Allure Best of Beauty 2026 Clean Winning Products",
+          "published": "Thu, 17 Sep 2026 11:30:29 +0000",
+          "url": "https://www.allure.com/best-of-beauty-2026-winners/clean"
         },
         {
-          "title": "Ericka Hart Talks Pleasure, Reconstructive Surgery, and Being a Hot Cancer Survivor",
-          "published": "Tue, 15 Sep 2026 14:58:37 +0000",
-          "url": "https://www.allure.com/story/ericka-hart-perspectives-podcast-interview"
+          "title": "Shop the 2026 Allure Best of Beauty Fragrance Winning Products",
+          "published": "Thu, 17 Sep 2026 11:28:44 +0000",
+          "url": "https://www.allure.com/best-of-beauty-2026-winners/scent"
         },
         {
-          "title": "Florence Pugh's Emmys 2026 Updo Defies Explanation—See the Photos",
-          "published": "Tue, 15 Sep 2026 13:51:10 +0000",
-          "url": "https://www.allure.com/story/florence-pugh-emmys-updo"
+          "title": "Allure Best of Beauty 2026 Splurge Winning Beauty Products",
+          "published": "Thu, 17 Sep 2026 11:27:10 +0000",
+          "url": "https://www.allure.com/best-of-beauty-2026-winners/splurges"
         },
         {
-          "title": "Mariska Hargitay's 2026 Emmys Hair Was a Subtle Tribute to Her Mom—See the Photos",
-          "published": "Tue, 15 Sep 2026 01:16:39 +0000",
-          "url": "https://www.allure.com/story/mariska-hargitay-emmys-2026-hair"
+          "title": "Allure Best of Beauty 2026 Steals: Shop the Best Beauty Drugstore Winners",
+          "published": "Thu, 17 Sep 2026 11:23:00 +0000",
+          "url": "https://www.allure.com/best-of-beauty-2026-winners/steals"
         },
         {
-          "title": "Nicole Kidman's Curtain Bangs Swept the Emmys 2026 Red Carpet—See the Photos",
-          "published": "Tue, 15 Sep 2026 00:00:25 +0000",
-          "url": "https://www.allure.com/story/nicole-kidman-curtain-bangs-emmys-2026"
+          "title": "Shop the 2026 Allure Best of Beauty Tool Winning Products",
+          "published": "Thu, 17 Sep 2026 11:21:22 +0000",
+          "url": "https://www.allure.com/best-of-beauty-2026-winners/tools"
         },
         {
-          "title": "Zendaya Debuted Her New Pixie Cut at the 2026 Emmys—See the Photos",
-          "published": "Mon, 14 Sep 2026 23:35:27 +0000",
-          "url": "https://www.allure.com/story/zendaya-pixie-cut-2026-emmys"
+          "title": "Allure Best of Beauty 2026: Shop the Breakthroughs Winning Products",
+          "published": "Thu, 17 Sep 2026 11:19:48 +0000",
+          "url": "https://www.allure.com/best-of-beauty-2026-winners/breakthroughs"
         },
         {
-          "title": "Selena Gomez's Mermaid Waves at the 2026 Emmys Just Keep Flowing and Flowing—See the Photos",
-          "published": "Mon, 14 Sep 2026 23:16:58 +0000",
-          "url": "https://www.allure.com/story/selena-gomez-emmys-2026-mermaid-waves"
+          "title": "Shop the 2026 Allure Best of Beauty Eye Makeup Winning Products",
+          "published": "Thu, 17 Sep 2026 11:18:18 +0000",
+          "url": "https://www.allure.com/best-of-beauty-2026-winners/eyes"
         },
         {
-          "title": "The Best Beauty Looks From the 2026 Emmys",
-          "published": "Mon, 14 Sep 2026 22:53:35 +0000",
-          "url": "https://www.allure.com/gallery/best-beauty-looks-2026-emmy-awards"
+          "title": "Allure Best of Beauty 2026 Lip Winning Products: Shop Our Favorites",
+          "published": "Thu, 17 Sep 2026 11:16:12 +0000",
+          "url": "https://www.allure.com/best-of-beauty-2026-winners/lips"
         },
         {
-          "title": "The \"Practical Magic 2\" Ageism Controversy Misses the Point",
-          "published": "Mon, 14 Sep 2026 21:07:47 +0000",
-          "url": "https://www.allure.com/story/nicole-kidman-sandra-bullock-practical-magic"
+          "title": "Allure Best of Beauty Winners 2026: Shop the Best Base Makeup Products",
+          "published": "Thu, 17 Sep 2026 11:14:34 +0000",
+          "url": "https://www.allure.com/best-of-beauty-2026-winners/base"
         },
         {
-          "title": "11 Best Wrinkle Creams 2026 for Smoother, Firmer Skin",
-          "published": "Mon, 14 Sep 2026 20:47:19 +0000",
-          "url": "https://www.allure.com/gallery/best-wrinkle-cream"
+          "title": "Allure Best of Beauty Awards 2026: Shop Our Hair Winners",
+          "published": "Thu, 17 Sep 2026 11:12:47 +0000",
+          "url": "https://www.allure.com/best-of-beauty-2026-winners/hair"
         },
         {
-          "title": "Arizona’s Attorney General Alleges L’Oréal Downplayed Cancer Risks in New Lawsuit",
-          "published": "Mon, 14 Sep 2026 20:36:24 +0000",
-          "url": "https://www.allure.com/story/hair-relaxers-cancer-risk-loreal-lawsuit"
+          "title": "Shop the 2026 Allure Best of Beauty Skin Winning Products",
+          "published": "Thu, 17 Sep 2026 11:07:44 +0000",
+          "url": "https://www.allure.com/best-of-beauty-2026-winners/skin"
         },
         {
-          "title": "Hailey Bieber's Cashmere Taupe Nails Are the Mani Equivalent of Your Favorite Sweater—See the Photos",
-          "published": "Mon, 14 Sep 2026 13:01:44 +0000",
-          "url": "https://www.allure.com/story/hailey-bieber-cashmere-taupe-nails"
+          "title": "Allure's 2026 Best of Beauty Awards Are Here—See All of the 319 Winners",
+          "published": "Thu, 17 Sep 2026 11:00:00 +0000",
+          "url": "https://www.allure.com/story/best-of-beauty-2026-winners"
         },
         {
-          "title": "9 Best Sleep Masks of 2026 for Light-Sensitive Sleepers",
-          "published": "Sun, 13 Sep 2026 12:00:00 +0000",
-          "url": "https://www.allure.com/gallery/best-sleep-mask"
+          "title": "The 2026 Allure Best of Beauty Nails Winners Are Show-Stoppers",
+          "published": "Thu, 17 Sep 2026 11:00:00 +0000",
+          "url": "https://www.allure.com/story/best-of-beauty-2026-nail-product-winners"
         },
         {
-          "title": "8 Best Guerlain Products 2026 to Add Luxury to Your Routine",
-          "published": "Sat, 12 Sep 2026 12:00:00 +0000",
-          "url": "https://www.allure.com/story/best-guerlain-products"
+          "title": "The 2026 Allure Best of Beauty Hair-Product Award Winners Prioritize Hair and Scalp Health",
+          "published": "Thu, 17 Sep 2026 11:00:00 +0000",
+          "url": "https://www.allure.com/story/best-of-beauty-2026-hair-care-product-winners"
         },
         {
-          "title": "14 Best Gourmand Perfumes 2026 to Delight Your Senses",
-          "published": "Fri, 11 Sep 2026 20:35:48 +0000",
-          "url": "https://www.allure.com/story/best-gourmand-perfumes"
+          "title": "The 2026 Best of Beauty-Winning Lip Products Will Transform Your Lip Combo",
+          "published": "Thu, 17 Sep 2026 11:00:00 +0000",
+          "url": "https://www.allure.com/story/best-of-beauty-2026-lips-winners"
         },
         {
-          "title": "12 Best Beauty Advent Calendars 2026 to Delight Everyone on Your List",
-          "published": "Fri, 11 Sep 2026 20:34:27 +0000",
-          "url": "https://www.allure.com/gallery/best-beauty-advent-calendars"
+          "title": "These 2026 Allure Best of Beauty Award-Winning Makeup Tools Will Transform Your Beauty Routine",
+          "published": "Thu, 17 Sep 2026 11:00:00 +0000",
+          "url": "https://www.allure.com/story/best-of-beauty-2026-hair-tools-makeup-brushes"
         },
         {
-          "title": "6 Types of Eyelid Bumps and How to Treat Them, According to Dermatologists",
-          "published": "Fri, 11 Sep 2026 20:00:00 +0000",
-          "url": "https://www.allure.com/story/bump-on-eyelid-styes-milia-causes-treatment"
+          "title": "The 2026 Allure Best of Beauty Clean Beauty Winners Hit All the Right Marks",
+          "published": "Thu, 17 Sep 2026 11:00:00 +0000",
+          "url": "https://www.allure.com/story/best-of-beauty-2026-clean-skin-care-brands-winners"
         },
         {
-          "title": "Crimped Hair Got a Sleek Makeover at New York Fashion Week Spring/Summer 2027 — See Photos",
-          "published": "Fri, 11 Sep 2026 18:14:49 +0000",
-          "url": "https://www.allure.com/story/christian-siriano-nyfw-ss27-crimped-hair"
+          "title": "The Allure 2026 Best of Beauty Breakthrough Winners Are So Impressive They Have Their Own Category",
+          "published": "Thu, 17 Sep 2026 11:00:00 +0000",
+          "url": "https://www.allure.com/story/best-of-beauty-2026-breakthrough-awards-winners"
         },
         {
-          "title": "17 Witchy Fragrances That Will Have You in Your Coven Era",
-          "published": "Fri, 11 Sep 2026 10:30:00 +0000",
-          "url": "https://www.allure.com/story/witchy-fragrance-trend"
+          "title": "The 2026 Allure Best of Beauty Award-Winning Steals Under $20",
+          "published": "Thu, 17 Sep 2026 11:00:00 +0000",
+          "url": "https://www.allure.com/story/best-of-beauty-2026-drugstore-product-winners"
         },
         {
-          "title": "Lash Painting: The Makeup Artist Technique for Clump-Free Mascara",
-          "published": "Thu, 10 Sep 2026 22:39:00 +0000",
-          "url": "https://www.allure.com/story/lash-painting-clump-free-mascara"
+          "title": "The 2026 Allure Best of Beauty Splurges and Luxury Winners to Add to Your Shopping Wishlist",
+          "published": "Thu, 17 Sep 2026 11:00:00 +0000",
+          "url": "https://www.allure.com/story/best-of-beauty-2026-luxury-makeup-skin-care-hair-winners"
         },
         {
-          "title": "\"Sunglass Nails\" Are the Fashion Week-Approved Way to Go Sheer—See the Photos",
-          "published": "Thu, 10 Sep 2026 20:23:27 +0000",
-          "url": "https://www.allure.com/story/dvf-nyfw-sunglass-nails"
+          "title": "The 2026 Allure Best of Beauty Body Winners Will Elevate Your Body-Care Routine From Head to Toe",
+          "published": "Thu, 17 Sep 2026 11:00:00 +0000",
+          "url": "https://www.allure.com/story/best-of-beauty-2026-body-product-winners"
         }
       ]
     },

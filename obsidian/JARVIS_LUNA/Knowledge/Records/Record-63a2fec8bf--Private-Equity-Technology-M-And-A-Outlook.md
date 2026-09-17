@@ -2,7 +2,7 @@
 title: "Record 63a2fec8bf · Private-Equity-Technology-M-And-A-Outlook"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T11:44:15.911391+00:00
+updated_at: 2026-09-17T14:47:46.811996+00:00
 tags: [record, real-data]
 ---
 

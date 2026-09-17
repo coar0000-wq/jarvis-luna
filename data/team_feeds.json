@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-17T10:26:26.121422+00:00",
+  "generated_at": "2026-09-17T14:39:58.938660+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
-  "pool_size": 2192,
+  "pool_size": 2193,
   "제목없어_버림": 38,
   "unrouted": 6,
   "summary": {
@@ -15,10 +15,10 @@
       "products": 301
     },
     "market": {
-      "total": 479,
-      "recent": 38,
-      "material": 479,
-      "material_recent": 38,
+      "total": 478,
+      "recent": 40,
+      "material": 478,
+      "material_recent": 40,
       "products": 0
     },
     "listing": {
@@ -43,9 +43,9 @@
       "products": 0
     },
     "design": {
-      "total": 360,
+      "total": 361,
       "recent": 96,
-      "material": 360,
+      "material": 361,
       "material_recent": 96,
       "products": 0
     },
@@ -621,15 +621,15 @@
         "by_hand": false
       },
       {
-        "title": "Kendall Jenner’s K-Beauty Routine Is on Sale—Here’s Where to Find It - E! News",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOS2RYOFBCbzU2TVZCQ2l4VXVkb2lRV0pGWUFzYWNweUZDTFVfRHAyNFdRRWRmWXZ1RkNnYlpXVVZXeThNaXJkcG85aFNyVldLaHhOR0NiOVM0MTgzLUhaMF9KZm91cXIyeG9Na2JCZE54QUpxckxNRmxZVEF2WmhMZ2lyVWp3Z2ZYc2xtOQ?oc=5",
+        "title": "Neutrogena® launches new sunscreen technology with Cloud-Tech™ - A new view of care - Kenvue",
+        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPZ3kzTG1VWVNvMmRwd1htdUJVU3JkeUMyMmZjOVZvMzhpSXZ1TTNtSWFpRjM3anptLUM4OWg5RnRqYWlFWXpKeFNkTG5ScXc3Tm9zenAyYkd0emFPVHMtU0ZlcHJWVFhUUjY1TmNFeEQ3MEJGdWJldTRRa3NydWVHak1GRjdrd2Z4NEN1MUlXU1o2MjdnTXozU1F6Q0tNS3c4ZVZtRWc2LWRBLXllSTFCZ3BuMUZWMU84dk94VFhPOFd1T19QUGpKVGI4NDJpQ2lPT0x1VTJsdTFSZHpKOWY5U1RTeFZGaE5MRGVZMXlsUWl4VTcxWjBPMFVKdTRJTDg?oc=5",
         "pool": "google",
-        "date": "2026-09-16",
+        "date": "2026-09-17",
         "by_hand": false
       },
       {
-        "title": "Move Over, Glass Skin: Cloud Creams Are the K-Beauty Moisturizer Trend Taking Over - ELLE",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNc3JsQnlaWlRYMXMxNzBkLXBuUUlURHNCVzBwVHdndWVEUXZZZndUUkpUdFFPN3NJR1FJMGhualo2UDFsc05hSmNDa1NLYzA1ejQ5cS1fWFpUaWRDNmZYX0k0d05fTGNzQVZhLXpDOGpORk1pa0htM3gxUzYtZWZyZ3R0MW9BY29OZnhQN1JaYV94X1U?oc=5",
+        "title": "Kendall Jenner’s K-Beauty Routine Is on Sale—Here’s Where to Find It - E! News",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSGx3d2hKVFRVbm14VUJVTTJQOHZ5STQ5SEROU2lBcDFmdmRndWZzRFQ2bGlVQ0N6eXpCYm02a1UzczUzLUdHZERFb1NuSlF6Z19uakswWWlyVzZJd2JRMVhGMVlOMXNnVHlmaFBhZ3FvOGhGbmc5SXdlWVJ6R1JTcmxhc0lrS1dUYmhERg?oc=5",
         "pool": "google",
         "date": "2026-09-16",
         "by_hand": false
@@ -637,6 +637,13 @@
       {
         "title": "The 19 Most Innovative Skincare Products of the Year - Harper's BAZAAR",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSmNOT09ralZTLXpEZ0xuYXZqTHVOX3RaVXJlWlJqc3VzTV9GOXFnU3NOU1QyNUp6YnNuTTNUbDAzUVBhQUNRVEwwalNrdjB0ZzhwY3JRVEt2T3VjV3Z0YnprNmN6LUtOcVZ0YUx6dkpNU3dETktyMkRCWmlRLWsyRjFBOVlFcGE3?oc=5",
+        "pool": "google",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Move Over, Glass Skin: Cloud Creams Are the K-Beauty Moisturizer Trend Taking Over - ELLE",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNc3JsQnlaWlRYMXMxNzBkLXBuUUlURHNCVzBwVHdndWVEUXZZZndUUkpUdFFPN3NJR1FJMGhualo2UDFsc05hSmNDa1NLYzA1ejQ5cS1fWFpUaWRDNmZYX0k0d05fTGNzQVZhLXpDOGpORk1pa0htM3gxUzYtZWZyZ3R0MW9BY29OZnhQN1JaYV94X1U?oc=5",
         "pool": "google",
         "date": "2026-09-16",
         "by_hand": false
@@ -740,7 +747,7 @@
         "by_hand": false
       },
       {
-        "title": "Mia Korean Skincare Highlights Growing Interest in K-Beauty in Milan - Issuewire.com",
+        "title": "Mia Korean Skincare Highlights Growing Interest in K-Beauty in Milan - issuewire.com",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUGkzV1p3dHozWEE5LWlTdmRreHlfYWhfQUluLUVoRHpDM04yQ0lFMnRzQnJOR1lxemM1TWh2WEYzLU5nWnlkTURmZ3c3N2hYaGs5aFJ1UmNFckQyV1lkOWNIdUxVUHVEY3ByR0tkd09jb0dQYlkyQ0paOW9NRzlldExQSnMwdEZtaDBvTnFPNVFFTktDSzNoVkJwYWlJb1RzZkFDalFVS1pDcGdKMzA2bw?oc=5",
         "pool": "google",
         "date": "2026-09-12",
@@ -750,6 +757,13 @@
         "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
         "url": "https://openai.com/index/cognition-devin-testing-with-astra",
         "pool": "institutions",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
+        "title": "Galderma launches ALASTIN skincare in Korea at GAIN RESTAGE - Korea Biomedical Review",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1TTjJFMUxHR3ZlOEJkRlNLekZpOTBpOVREVVZqUmNEcWhfbkFIb0pMclZybVZGNThud3pJdlE5TzNBaUZMTmNFQkZxWDdKNk50LUI3OTFJVTVJOEt6M1ZuVGNzZHN0NnhhUHZvLXpB0gFyQVVfeXFMT2wyVzU1U2NGZmcwMFRXdWJfT3VNdXpLYWlzSkcyUHBtRnZSZHRrMHJ3R1RIV01yTmtDaktQUi1hSDVrblRuQ3BTbXFlb1RZeTY4Rzc3RktnS0tSQWlUNkRwM1l0ZDM3al9ZdHFQSm45RFZR?oc=5",
+        "pool": "google",
         "date": "2026-09-11",
         "by_hand": false
       },
@@ -880,7 +894,7 @@
         "by_hand": false
       },
       {
-        "title": "12 Makeup Trends to Experiment With in Fall 2026: Feathery Eyebrows, Barely-There Mascara, & More - Teen Vogue",
+        "title": "12 Makeup Trends to Experiment With in Fall 2026: Feathery Eyebrows, Barely-There Mascara, & More - teenvogue.com",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9OdzQ0OXlSbWVrOW1FUXdtSURIcjVsZnJhNEFleWtxZnRjcDdESjdFZlBXUVR0eEM0Tzg2NDN2M2tqU0pEaXd6TTZBOE5yRkVZR2ZBQU1DNWp1RTlxN2V6UHNHUUFJb28?oc=5",
         "pool": "google",
         "date": "2026-08-31",
@@ -905,20 +919,6 @@
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONVZoeHI4TzZMS0tEM2tWc01tUFowTzhiUkJPcXllM2U5bGNDWVhjaC1sOFV0ejl4N1NNYjFBQ3JMSVNoMEwtVldRYm0xUlFyYlZYbm00M3l4WEgyeG1qblZEZEJIc0EyNC1uWW0zQ0Fma3EyMmVJSWtHc184LUlLT002X3U3eURVcF9oZDdB?oc=5",
         "pool": "google",
         "date": "2026-08-28",
-        "by_hand": false
-      },
-      {
-        "title": "SHOP vs. ADBE: Which Stock Has the Edge in AI-Driven Ecommerce? - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPczlRZTVPTlpYTHNGbFFVaGQzbXRLSF83VDZWemlkbE1DOUpUNlpKLUUzLTFJSTRTaEdhRXZ5X21xeExTdlM1ZXhIUXNNNHczRld2Q2pOZVNuMXZoS3hEbDVUM1BfQ3I0UEJSS21iMGxzVzZ0UU40cjlFOXBoMFBvTTZVa2NYSlNkSWF3bVBYZ28wZw?oc=5",
-        "pool": "google",
-        "date": "2026-08-28",
-        "by_hand": false
-      },
-      {
-        "title": "Transition-Metal Modified Zinc Oxide (ZnO) Nanostructures for Photocatalysis Application — A Comparative Review of Metal Doping and Metal-oxide Conjugation",
-        "url": "https://doi.org/10.26434/chemrxiv.15007951/v1",
-        "pool": "institutions",
-        "date": "2026-08-27",
         "by_hand": false
       }
     ],
@@ -1609,7 +1609,7 @@
         "by_hand": true
       },
       {
-        "title": "This UI/UX Redesign Will Teach You More Than 500 Tutorials Combined",
+        "title": "This UI/UX Redesign Will Teach You More Than 200 Tutorials Combined",
         "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
         "pool": "youtube_channel",
         "date": "",
@@ -1751,6 +1751,13 @@
       {
         "title": "Animated Navigation Bar in Figma - Prototyping Tutorial",
         "url": "https://www.youtube.com/watch?v=rI4A7whqvgo",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "브랜딩 감각을 키우고 싶다면👀 | 사업부터 브랜딩까지 분야별 필독서 추천",
+        "url": "https://www.youtube.com/watch?v=hikTGKo2kZE",
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
@@ -1954,13 +1961,6 @@
       {
         "title": "Thoughts On The Market Asia Equities Us Election View",
         "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-asia-equities-us-election-view",
-        "pool": "institutions",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Multi-stage suppression of Josephson junction variability with wafer-scale uniformity in 20-qubit superconducting circuits",
-        "url": "https://doi.org/10.1038/s41598-026-70944-1",
         "pool": "institutions",
         "date": "2026-09-15",
         "by_hand": false

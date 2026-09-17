@@ -2,7 +2,7 @@
 title: "Record 0f9bc04c96 · Womens-Impact-On-The-Economy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T11:44:15.919739+00:00
+updated_at: 2026-09-17T14:47:46.821664+00:00
 tags: [record, real-data]
 ---
 

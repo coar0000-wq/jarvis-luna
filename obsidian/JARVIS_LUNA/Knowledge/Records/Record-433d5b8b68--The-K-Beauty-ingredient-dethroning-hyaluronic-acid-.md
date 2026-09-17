@@ -2,7 +2,7 @@
 title: "Record 433d5b8b68 · The-K-Beauty-ingredient-dethroning-hyaluronic-acid-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T11:44:15.600983+00:00
+updated_at: 2026-09-17T14:47:46.497709+00:00
 tags: [record, real-data]
 ---
 

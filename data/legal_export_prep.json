@@ -1,104 +1,17 @@
 {
-  "generated_at": "2026-09-17T09:17:15.526387+00:00",
+  "generated_at": "2026-09-17T14:45:54.069738+00:00",
   "generator": "scripts/prepare_legal_export.py",
   "왜": "법률팀이 '검토 0건, 5항목 대기' 였는데 그 다섯 중 넷은 이미 저장소에 있는 값으로 채울 수 있었다. 먼저 채우고 사람은 확인만 한다.",
   "hs_출처": "hts.usitc.gov/reststop/search (미국 국제무역위원회 공식)",
   "hs_주의": "여기서 정하는 건 후보다. 세부 통계부호는 통관사가 확정해야 한다.",
   "label_기준": "FDA 21 CFR 701 Subpart A / FPLA",
   "total": 10,
-  "hs_filled_this_run": 0,
+  "hs_filled_this_run": 1,
   "label_complete": 0,
   "사람이_채워야_하는_칸": [
-    "전성분",
-    "제품 정체 표시",
     "책임자 이름·주소"
   ],
   "items": [
-    {
-      "pd_no": "1049271",
-      "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
-      "bucket": "스킨케어",
-      "grade": "S",
-      "용도": "스킨케어",
-      "성분": "신) 정제수, 글리세린, 1,2-헥산다이올, 부틸렌글라이콜, 글리세레스-26, C12-14알케스-12, 다이소듐이디티에이, 에틸헥실글리세린, 알지닌, 카보머, 황련뿌리추출물, 잔탄검, 향료, 말토덱스트린, 치자추출물, 글루코노락톤, 판테놀, 병풀추출물, 소듐하이알루로네이트, 베타-글루칸\n\n구) 정제수, 글리세린, 글리세레스-26, 부틸렌글라이콜, 카보머, ",
-      "제조국": "한국",
-      "내용량": "10.14 fl. oz. / 300 mL",
-      "제조업자": "화장품제조업자: (주)에스테르\n화장품책임판매업자: (주)브이티코스메틱",
-      "name_en": "VT Cica Calming Toner 300 ml",
-      "product_type_en": "Facial Toner",
-      "hs": {
-        "code": "3304.99",
-        "basis": "버킷 '스킨케어'",
-        "label": "",
-        "official": [
-          {
-            "htsno": "3304",
-            "description": "Beauty or make-up preparations and preparations for the care of the skin (other than medicaments), including sunscreen o"
-          },
-          {
-            "htsno": "3304.10.00.00",
-            "description": "Lip make-up preparations"
-          },
-          {
-            "htsno": "3304.20.00.00",
-            "description": "Eye make-up preparations"
-          },
-          {
-            "htsno": "3304.30.00.00",
-            "description": "Manicure or pedicure preparations"
-          },
-          {
-            "htsno": "3305",
-            "description": "Preparations for use on the hair:"
-          },
-          {
-            "htsno": "3305.20.00.00",
-            "description": "Preparations for permanent waving or straightening"
-          }
-        ]
-      },
-      "label": {
-        "draft": {
-          "product_identity": {
-            "label": "제품 정체 표시",
-            "value": "VT Cica Calming Toner 300 ml",
-            "rule": "주표시면. 무엇인지 알 수 있는 이름이나 설명"
-          },
-          "net_quantity": {
-            "label": "내용량",
-            "value": "10.14 fl. oz. / 300 mL",
-            "rule": "주표시면 하단 30% 안. 미터법과 야드파운드법 병기"
-          },
-          "ingredients": {
-            "label": "전성분",
-            "value": "신) 정제수, 글리세린, 1,2-헥산다이올, 부틸렌글라이콜, 글리세레스-26, C12-14알케스-12, 다이소듐이디티에이, 에틸헥실글리세린, 알지닌, 카보머, 황련뿌리추출물, 잔탄검, 향료, 말토덱스트린, 치자추출물, 글루코노락톤, 판테놀, 병풀추출물, 소듐하이알루로네이트, 베타-글루칸\n\n구) 정제수, 글리세린, 글리세레스-26, 부틸렌글라이콜, 카보머, 알지닌, C12-14알케스-12, 잔탄검, 다이소듐이디티에이, 참산호말추출물, 소듐하이알루로네이트, 판테놀, 인도멀구슬나무잎추출물, 인도멀구슬나무꽃추출물, 울금뿌리추출물, 글루코노락톤, 병풀추출물, 홀리바질잎추출물, 베타-글루칸, 아이비고드열매추출물, 호박가루, 가지열매추출물, 드럼스틱씨오일, 1,2-헥산다이올, 에틸헥실글리세린, 카프릴릴글라이콜, 향료\n* 제품 리뉴얼로 전성분이 일부 변경되었습니다.",
-            "rule": "정보표시면. INCI 명칭, 함량 내림차순, 1% 미만은 순서 무관"
-          },
-          "responsible_party": {
-            "label": "책임자 이름·주소",
-            "value": "",
-            "rule": "제조자·포장자·유통자 중 하나. 도시·주·우편번호 포함"
-          },
-          "country_of_origin": {
-            "label": "원산지",
-            "value": "한국",
-            "rule": "수입품은 Made in Korea 등 표기"
-          },
-          "warnings": {
-            "label": "경고 문구",
-            "value": "If irritation occurs, discontinue use. Keep out of reach of children. For external use only.",
-            "rule": "해당 시. 사용 중 이상 발생 시 사용 중단 등"
-          }
-        },
-        "missing": [
-          "책임자 이름·주소"
-        ],
-        "note": "전성분은 한글이다. 미국 라벨에는 INCI 영문명이 필요하다. 번역이 아니라 표준 명칭 대조라서 사람이 확인해야 한다.",
-        "inci_status": "korean_only"
-      },
-      "hard_block": false,
-      "hard_block_reason": ""
-    },
     {
       "pd_no": "1059834",
       "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
@@ -194,8 +107,8 @@
       "제조국": "한국",
       "내용량": "150ml",
       "제조업자": "(주)뉴앤뉴 / (주)브랜뉴이",
-      "name_en": "Chaebi Gongan Houttuynia Cordata Extract Vegan Toner 150 ml",
-      "product_type_en": "Face Toner",
+      "name_en": "Chaebi Gongan Heartleaf Extract Vegan Toner 150ml",
+      "product_type_en": "Toner",
       "hs": {
         "code": "3304.99",
         "basis": "버킷 '스킨케어'",
@@ -231,7 +144,7 @@
         "draft": {
           "product_identity": {
             "label": "제품 정체 표시",
-            "value": "Chaebi Gongan Houttuynia Cordata Extract Vegan Toner 150 ml",
+            "value": "Chaebi Gongan Heartleaf Extract Vegan Toner 150ml",
             "rule": "주표시면. 무엇인지 알 수 있는 이름이나 설명"
           },
           "net_quantity": {
@@ -619,8 +532,8 @@
       "제조국": "한국",
       "내용량": "50ml",
       "제조업자": "화장품제조업자: (주)예그리나 / 화장품책임판매업자: (주)브이티코스메틱",
-      "name_en": "",
-      "product_type_en": "",
+      "name_en": "VT PDRN Glow Cream 50 ml",
+      "product_type_en": "Face Cream",
       "hs": {
         "code": "3304.99",
         "basis": "버킷 '스킨케어'",
@@ -656,7 +569,7 @@
         "draft": {
           "product_identity": {
             "label": "제품 정체 표시",
-            "value": "",
+            "value": "VT PDRN Glow Cream 50 ml",
             "rule": "주표시면. 무엇인지 알 수 있는 이름이나 설명"
           },
           "net_quantity": {
@@ -686,7 +599,6 @@
           }
         },
         "missing": [
-          "제품 정체 표시",
           "책임자 이름·주소"
         ],
         "note": "전성분은 한글이다. 미국 라벨에는 INCI 영문명이 필요하다. 번역이 아니라 표준 명칭 대조라서 사람이 확인해야 한다.",
@@ -701,10 +613,10 @@
       "bucket": "스킨케어",
       "grade": "S",
       "용도": "스킨케어",
-      "성분": "",
+      "성분": "정제수, 글리세린, 다이프로필렌글라이콜, 사이클로펜타실록세인, 사이클로헥사실록세인, 글리세레스-26, 마카다미아씨오일, 암모늄아크릴로일다이메틸타우레이트/브이피코폴리머, 글리세릴글루코사이드, 1,2-헥산다이올, 동백나무씨오일, 하이드록시아세토페논, 폴리솔베이트20, 하이드록시에틸우레아, 카보머, 베타인, 알란토인, 트레할로오스, 부틸렌글라이콜, 트로메타민, ",
       "제조국": "한국",
       "내용량": "4ml",
-      "제조업자": "",
+      "제조업자": "화장품제조업자: ㈜이앤씨 / 화장품책임판매업자: ㈜브이티코스메틱",
       "name_en": "VT Super Hyalon Sleeping Mask 4ml 6ea",
       "product_type_en": "Face Mask",
       "hs": {
@@ -752,7 +664,7 @@
           },
           "ingredients": {
             "label": "전성분",
-            "value": "",
+            "value": "정제수, 글리세린, 다이프로필렌글라이콜, 사이클로펜타실록세인, 사이클로헥사실록세인, 글리세레스-26, 마카다미아씨오일, 암모늄아크릴로일다이메틸타우레이트/브이피코폴리머, 글리세릴글루코사이드, 1,2-헥산다이올, 동백나무씨오일, 하이드록시아세토페논, 폴리솔베이트20, 하이드록시에틸우레아, 카보머, 베타인, 알란토인, 트레할로오스, 부틸렌글라이콜, 트로메타민, 덱스트린, 프로판다이올, 다이소듐이디티에이, 글루코오스, 향료, 소듐하이알루로네이트, 소듐폴리아크릴레이트, 치자추출물, 당아욱잎추출물, 글라이신, 세린, 글루타믹애씨드, 클로렐라불가리스추출물, 판테놀, 아스파틱애씨드, 류신, 알라닌, 라이신, 알지닌, 타이로신, 페닐알라닌, 프롤린, 트레오닌, 발린, 아이소류신, 히스티딘, 시스테인, 메티오닌, 폴리글루타믹애씨드, 에틸헥실글리세린, 소듐하이알루로네이트크로스폴리머, 포타슘하이알루로네이트, 하이드록시프로필트라이모늄하이알루로네이트, 하이알루로닉애씨드, 하이드롤라이즈드소듐하이알루로네이트, 하이드롤라이즈드하이알루로닉애씨드, 펜틸렌글라이콜, 소듐아세틸레이티드하이알루로네이트",
             "rule": "정보표시면. INCI 명칭, 함량 내림차순, 1% 미만은 순서 무관"
           },
           "responsible_party": {
@@ -772,14 +684,13 @@
           }
         },
         "missing": [
-          "전성분",
           "책임자 이름·주소"
         ],
         "note": "전성분은 한글이다. 미국 라벨에는 INCI 영문명이 필요하다. 번역이 아니라 표준 명칭 대조라서 사람이 확인해야 한다.",
-        "inci_status": "no_ingredients"
+        "inci_status": "korean_only"
       },
-      "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: label_fields"
+      "hard_block": false,
+      "hard_block_reason": ""
     },
     {
       "pd_no": "1042619",
@@ -839,6 +750,91 @@
           "ingredients": {
             "label": "전성분",
             "value": "정제수, 글리세린, 나이아신아마이드, 캐롭검, 아이리쉬모스추출물, 1,2-헥산다이올, 펜틸렌글라이콜, 에틸헥실글리세린, 콜라겐추출물(686,000ppb), 아데노신, 다이소듐이디티에이, 글리세릴글루코사이드, 폴리글리세릴-6카프릴레이트, 폴리글리세릴-4카프레이트, 토코페롤",
+            "rule": "정보표시면. INCI 명칭, 함량 내림차순, 1% 미만은 순서 무관"
+          },
+          "responsible_party": {
+            "label": "책임자 이름·주소",
+            "value": "",
+            "rule": "제조자·포장자·유통자 중 하나. 도시·주·우편번호 포함"
+          },
+          "country_of_origin": {
+            "label": "원산지",
+            "value": "한국",
+            "rule": "수입품은 Made in Korea 등 표기"
+          },
+          "warnings": {
+            "label": "경고 문구",
+            "value": "If irritation occurs, discontinue use. Keep out of reach of children. For external use only.",
+            "rule": "해당 시. 사용 중 이상 발생 시 사용 중단 등"
+          }
+        },
+        "missing": [
+          "책임자 이름·주소"
+        ],
+        "note": "전성분은 한글이다. 미국 라벨에는 INCI 영문명이 필요하다. 번역이 아니라 표준 명칭 대조라서 사람이 확인해야 한다.",
+        "inci_status": "korean_only"
+      },
+      "hard_block": false,
+      "hard_block_reason": ""
+    },
+    {
+      "pd_no": "1060211",
+      "name": "바세린 모이스처라이징 클렌징 밀크 140 ml",
+      "bucket": "클렌징",
+      "grade": "S",
+      "용도": "클렌징",
+      "성분": "정제수, 에틸헥실팔미테이트, 글리세린, 라우릴글루코사이드, 아라키딜알코올, 1,2-헥산다이올, 글리세릴스테아레이트에스이, 베헤닐알코올, 팔미틱애씨드, 스테아릭애씨드, 아라키딜글루코사이드, 카프릴릴글라이콜, 글리세릴카프릴레이트, 카보머, 페트롤라툼, 잔탄검, 암모늄폴리아크릴로일다이메틸타우레이트, 글리세릴스테아레이트, 글루코오스, t-부틸알코올, 소듐하이알루로",
+      "제조국": "한국",
+      "내용량": "140ml",
+      "제조업자": "화장품제조업자: ㈜우신화장품 (경기도 부천시 오정구 수도로 125번길 33) / 화장품책임판매업자: 애경산업㈜ (충남 청양군 정산면 충의로 1547-9)",
+      "name_en": "Vaseline Moisturizing Cleansing Milk 140 ml",
+      "product_type_en": "Facial Cleanser",
+      "hs": {
+        "code": "3304.99",
+        "basis": "버킷 '클렌징'",
+        "label": "",
+        "official": [
+          {
+            "htsno": "3304",
+            "description": "Beauty or make-up preparations and preparations for the care of the skin (other than medicaments), including sunscreen o"
+          },
+          {
+            "htsno": "3304.10.00.00",
+            "description": "Lip make-up preparations"
+          },
+          {
+            "htsno": "3304.20.00.00",
+            "description": "Eye make-up preparations"
+          },
+          {
+            "htsno": "3304.30.00.00",
+            "description": "Manicure or pedicure preparations"
+          },
+          {
+            "htsno": "3305",
+            "description": "Preparations for use on the hair:"
+          },
+          {
+            "htsno": "3305.20.00.00",
+            "description": "Preparations for permanent waving or straightening"
+          }
+        ]
+      },
+      "label": {
+        "draft": {
+          "product_identity": {
+            "label": "제품 정체 표시",
+            "value": "Vaseline Moisturizing Cleansing Milk 140 ml",
+            "rule": "주표시면. 무엇인지 알 수 있는 이름이나 설명"
+          },
+          "net_quantity": {
+            "label": "내용량",
+            "value": "140ml",
+            "rule": "주표시면 하단 30% 안. 미터법과 야드파운드법 병기"
+          },
+          "ingredients": {
+            "label": "전성분",
+            "value": "정제수, 에틸헥실팔미테이트, 글리세린, 라우릴글루코사이드, 아라키딜알코올, 1,2-헥산다이올, 글리세릴스테아레이트에스이, 베헤닐알코올, 팔미틱애씨드, 스테아릭애씨드, 아라키딜글루코사이드, 카프릴릴글라이콜, 글리세릴카프릴레이트, 카보머, 페트롤라툼, 잔탄검, 암모늄폴리아크릴로일다이메틸타우레이트, 글리세릴스테아레이트, 글루코오스, t-부틸알코올, 소듐하이알루로네이트, 토코페롤, 향료, 리모넨, 헥실신남알",
             "rule": "정보표시면. INCI 명칭, 함량 내림차순, 1% 미만은 순서 무관"
           },
           "responsible_party": {

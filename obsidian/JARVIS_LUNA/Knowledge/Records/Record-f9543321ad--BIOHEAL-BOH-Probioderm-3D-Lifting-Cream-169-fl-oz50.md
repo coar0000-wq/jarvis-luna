@@ -2,7 +2,7 @@
 title: "Record f9543321ad · BIOHEAL-BOH-Probioderm-3D-Lifting-Cream-169-fl-oz50"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T11:44:15.789159+00:00
+updated_at: 2026-09-17T14:47:46.693269+00:00
 tags: [record, real-data]
 ---
 

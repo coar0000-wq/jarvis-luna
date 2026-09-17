@@ -2,7 +2,7 @@
 title: "Record dc5d559c32 · Anua-PDRN-Hyaluronic-Acid-Hydrating-Capsule-Mist-33"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T11:44:15.789659+00:00
+updated_at: 2026-09-17T14:47:46.693763+00:00
 tags: [record, real-data]
 ---
 

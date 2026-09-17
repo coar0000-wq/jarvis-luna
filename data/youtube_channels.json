@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-17T09:11:16.420799+00:00",
+  "generated_at": "2026-09-17T14:39:54.267040+00:00",
   "generator": "scripts/ingest_youtube_channels.py",
   "입력": "data/manual/youtube_channels.txt",
   "robots": "youtube.com/robots.txt 의 Disallow 목록에 /@ 와 /channel/ 은 없다. 막힌 것은 /feeds/videos.xml, /results, /youtubei/ 등이다. 지정된 채널만 하나씩 본다. 2026-09-06 확인.",
   "channels": 2,
-  "videos": 41,
+  "videos": 42,
   "failed": [],
   "지난결과_유지": [],
   "by_team": {
-    "design": 25,
+    "design": 26,
     "market": 11,
     "pricing": 2,
     "knowledge": 6,
@@ -45,9 +45,9 @@
     {
       "video_id": "2TlIg3VokY8",
       "title": "The UX Psychology Behind Apps People Can’t Stop Using",
-      "views_text": "499K views",
+      "views_text": "500K views",
       "published_text": "2 months ago",
-      "views": 499000,
+      "views": 500000,
       "url": "https://www.youtube.com/watch?v=2TlIg3VokY8",
       "channel": "uxpeak",
       "teams": [
@@ -92,10 +92,10 @@
     },
     {
       "video_id": "GGg61sdEjeI",
-      "title": "This UI/UX Redesign Will Teach You More Than 500 Tutorials Combined",
-      "views_text": "261K views",
-      "published_text": "2 weeks ago",
-      "views": 261000,
+      "title": "This UI/UX Redesign Will Teach You More Than 200 Tutorials Combined",
+      "views_text": "264K views",
+      "published_text": "3 weeks ago",
+      "views": 264000,
       "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
       "channel": "uxpeak",
       "teams": [
@@ -202,23 +202,23 @@
   "items": [
     {
       "stale": false,
-      "last_ok_at": "2026-09-17T09:11:06.108693+00:00",
+      "last_ok_at": "2026-09-17T14:39:43.974721+00:00",
       "url": "https://www.youtube.com/@uxpeak",
       "note": "UX/UI 리디자인·전환율 (사용자 지정)",
       "team_hint": "design",
       "channel_name": "uxpeak",
       "channel_id": "UCO6_kvUIUY-ViXL3vFxJH-g",
-      "subscribers": "123K",
+      "subscribers": "124K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-17T09:11:06.108716+00:00",
+      "checked_at": "2026-09-17T14:39:43.974739+00:00",
       "videos": [
         {
           "video_id": "GGg61sdEjeI",
-          "title": "This UI/UX Redesign Will Teach You More Than 500 Tutorials Combined",
-          "views_text": "261K views",
-          "published_text": "2 weeks ago",
-          "views": 261000,
+          "title": "This UI/UX Redesign Will Teach You More Than 200 Tutorials Combined",
+          "views_text": "264K views",
+          "published_text": "3 weeks ago",
+          "views": 264000,
           "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
           "channel": "uxpeak",
           "teams": [
@@ -228,9 +228,9 @@
         {
           "video_id": "2TlIg3VokY8",
           "title": "The UX Psychology Behind Apps People Can’t Stop Using",
-          "views_text": "499K views",
+          "views_text": "500K views",
           "published_text": "2 months ago",
-          "views": 499000,
+          "views": 500000,
           "url": "https://www.youtube.com/watch?v=2TlIg3VokY8",
           "channel": "uxpeak",
           "teams": [
@@ -469,22 +469,34 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-17T09:11:11.420561+00:00",
+      "last_ok_at": "2026-09-17T14:39:49.266812+00:00",
       "url": "https://www.youtube.com/@%EB%95%A1%ED%81%90%EC%B1%84%EB%84%90",
       "note": "땡스큐레이터 - 스몰 브랜드 브랜딩·수출·견적. 팀은 영상마다 자동 분류",
       "team_hint": "",
       "channel_name": "땡스큐레이터",
       "channel_id": "UCTBhYGg_U_pBOKLydoZrhwg",
       "subscribers": "18.4K",
-      "video_count": 20,
+      "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-17T09:11:11.420577+00:00",
+      "checked_at": "2026-09-17T14:39:49.266828+00:00",
       "videos": [
+        {
+          "video_id": "hikTGKo2kZE",
+          "title": "브랜딩 감각을 키우고 싶다면👀 | 사업부터 브랜딩까지 분야별 필독서 추천",
+          "views_text": "426 views",
+          "published_text": "4 hours ago",
+          "views": 426,
+          "url": "https://www.youtube.com/watch?v=hikTGKo2kZE",
+          "channel": "땡스큐레이터",
+          "teams": [
+            "design"
+          ]
+        },
         {
           "video_id": "CSr4DYGUPOM",
           "title": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
           "views_text": "78K views",
-          "published_text": "13 days ago",
+          "published_text": "2 weeks ago",
           "views": 78000,
           "url": "https://www.youtube.com/watch?v=CSr4DYGUPOM",
           "channel": "땡스큐레이터",
@@ -497,7 +509,7 @@
           "video_id": "l6VfFik0rHI",
           "title": "스몰 브랜드 대표가 밝히는 브랜딩 실전편 | 계속 성장 중인 리솔츠 이야기🛁",
           "views_text": "5.3K views",
-          "published_text": "3 weeks ago",
+          "published_text": "4 weeks ago",
           "views": 5300,
           "url": "https://www.youtube.com/watch?v=l6VfFik0rHI",
           "channel": "땡스큐레이터",
@@ -583,9 +595,9 @@
         {
           "video_id": "s04NYW3nOxA",
           "title": "🔑 브랜딩 잘하면 영업 안 해도 됩니다 | MD가 먼저 연락 오는 브랜드, 뭐가 다를까요",
-          "views_text": "92K views",
+          "views_text": "93K views",
           "published_text": "4 months ago",
-          "views": 92000,
+          "views": 93000,
           "url": "https://www.youtube.com/watch?v=s04NYW3nOxA",
           "channel": "땡스큐레이터",
           "teams": [
@@ -608,9 +620,9 @@
         {
           "video_id": "7Zt2t_SRyP8",
           "title": "정부지원사업, 안하면 손해🚨 | 지원사업으로 미국까지 간 스몰브랜드 대표의 팩트 기반 노하우 공유 (헌터아님)",
-          "views_text": "5.1K views",
+          "views_text": "5.2K views",
           "published_text": "5 months ago",
-          "views": 5100,
+          "views": 5200,
           "url": "https://www.youtube.com/watch?v=7Zt2t_SRyP8",
           "channel": "땡스큐레이터",
           "teams": [
@@ -644,9 +656,9 @@
         {
           "video_id": "4ru4xgZfDPA",
           "title": "VLOG 직장인 브이로그ㅣ 연남동 퇴근길😍 콤콤오락실,달링스푼,스튜디오그림비,오월상점,소이연남,동백양과점,소품샵,카페투어ㅣ퇴근길 브이로그❤️",
-          "views_text": "575 views",
+          "views_text": "576 views",
           "published_text": "6 years ago",
-          "views": 575,
+          "views": 576,
           "url": "https://www.youtube.com/watch?v=4ru4xgZfDPA",
           "channel": "땡스큐레이터",
           "teams": [
@@ -680,9 +692,9 @@
         {
           "video_id": "Tu8Ziv_y_Cc",
           "title": "마케팅에 속지않는 화장품 구매팁! 👌 ❌화장품 마케팅 싫어 🔥땡큐한 화장품 추천 ✔️ 솔직리뷰! 마케팅 썰 대방출 / 천연 화장품 /유기농 화장품 / 더마 화장품 [땡큐]",
-          "views_text": "994 views",
+          "views_text": "995 views",
           "published_text": "6 years ago",
-          "views": 994,
+          "views": 995,
           "url": "https://www.youtube.com/watch?v=Tu8Ziv_y_Cc",
           "channel": "땡스큐레이터",
           "teams": [
@@ -704,9 +716,9 @@
         {
           "video_id": "aIG5u5xJs6g",
           "title": "해외구매 아이폰 장점 / 아이폰 11 Pro 512GB 미드나잇 그린ㅣ굳이 미국에서 구매한 K의 하울!  영롱한 자태. 실물 감상 [땡큐]",
-          "views_text": "671 views",
+          "views_text": "672 views",
           "published_text": "6 years ago",
-          "views": 671,
+          "views": 672,
           "url": "https://www.youtube.com/watch?v=aIG5u5xJs6g",
           "channel": "땡스큐레이터",
           "teams": [

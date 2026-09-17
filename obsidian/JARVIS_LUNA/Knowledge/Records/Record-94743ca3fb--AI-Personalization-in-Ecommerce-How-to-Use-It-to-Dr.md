@@ -2,7 +2,7 @@
 title: "Record 94743ca3fb · AI-Personalization-in-Ecommerce-How-to-Use-It-to-Dr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T11:44:15.545861+00:00
+updated_at: 2026-09-17T14:47:46.437214+00:00
 tags: [record, real-data]
 ---
 

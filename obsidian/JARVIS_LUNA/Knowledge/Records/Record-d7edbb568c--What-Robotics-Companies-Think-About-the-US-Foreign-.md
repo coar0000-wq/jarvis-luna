@@ -2,7 +2,7 @@
 title: "Record d7edbb568c · What-Robotics-Companies-Think-About-the-US-Foreign-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T11:44:15.775367+00:00
+updated_at: 2026-09-17T14:47:46.679588+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** What Robotics Companies Think About the U.S. Foreign Robot Ban
 
 What Robotics Companies Think About the U.S. Foreign Robot Ban
-<img src="https://spectrum.ieee.org/media-library/photo-collage-of-humanoid-quadruped-and-unmanned-ground-vehicle-robots.jpg?id=67563239&width=1200&height=400&coordinates=0%2C1042%2C0%2C1042"/><br/><br/><p>The U.S. Federal Communications Commission (FCC) “Covered List,” originally published in 2021, identifies communications equipment and services that it says pose a threat to national security. <
+<img src="https://spectrum.ieee.org/media-library/photo-collage-of-humanoid-quadruped-and-unmanned-ground-vehicle-robots.jpg?id=67563239&width=1245&height=700&coordinates=0%2C469%2C0%2C469"/><br/><br/><p>The U.S. Federal Communications Commission (FCC) “Covered List,” originally published in 2021, identifies communications equipment and services that it says pose a threat to national security. <sp
 
 **출처:** Source · robotics
 

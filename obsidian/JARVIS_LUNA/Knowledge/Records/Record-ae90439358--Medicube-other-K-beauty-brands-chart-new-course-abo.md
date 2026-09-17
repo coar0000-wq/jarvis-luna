@@ -2,7 +2,7 @@
 title: "Record ae90439358 · Medicube-other-K-beauty-brands-chart-new-course-abo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T11:44:15.570927+00:00
+updated_at: 2026-09-17T14:47:46.464713+00:00
 tags: [record, real-data]
 ---
 

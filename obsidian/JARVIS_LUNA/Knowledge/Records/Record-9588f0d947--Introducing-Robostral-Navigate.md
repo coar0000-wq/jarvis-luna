@@ -2,7 +2,7 @@
 title: "Record 9588f0d947 · Introducing-Robostral-Navigate"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T11:44:15.481707+00:00
+updated_at: 2026-09-17T14:47:46.371024+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 330fba6455 · How-law-firm-Gilbert--Tobin-governs-and-scales-AI-w"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T11:44:15.732951+00:00
+updated_at: 2026-09-17T14:47:46.639609+00:00
 tags: [record, real-data]
 ---
 

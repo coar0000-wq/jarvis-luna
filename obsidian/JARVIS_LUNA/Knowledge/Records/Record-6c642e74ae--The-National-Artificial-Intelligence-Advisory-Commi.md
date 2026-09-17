@@ -2,7 +2,7 @@
 title: "Record 6c642e74ae · The-National-Artificial-Intelligence-Advisory-Commi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T11:44:15.378225+00:00
+updated_at: 2026-09-17T14:47:46.268073+00:00
 tags: [record, real-data]
 ---
 

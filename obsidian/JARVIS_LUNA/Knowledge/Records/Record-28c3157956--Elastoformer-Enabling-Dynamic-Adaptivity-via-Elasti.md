@@ -2,7 +2,7 @@
 title: "Record 28c3157956 · Elastoformer-Enabling-Dynamic-Adaptivity-via-Elasti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T11:44:15.227110+00:00
+updated_at: 2026-09-17T14:47:46.115676+00:00
 tags: [record, real-data]
 ---
 

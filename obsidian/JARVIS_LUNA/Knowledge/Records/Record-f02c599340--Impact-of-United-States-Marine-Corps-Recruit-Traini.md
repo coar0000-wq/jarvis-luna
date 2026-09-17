@@ -2,7 +2,7 @@
 title: "Record f02c599340 · Impact-of-United-States-Marine-Corps-Recruit-Traini"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T11:44:15.330778+00:00
+updated_at: 2026-09-17T14:47:46.220765+00:00
 tags: [record, real-data]
 ---
 

@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-17T11:45:42.688553+00:00",
-  "real_records": 3622,
+  "updated_at": "2026-09-17T14:45:14.757629+00:00",
+  "real_records": 3630,
   "source_labels": {
     "ai-image": 128,
-    "ai-research": 3207,
+    "ai-research": 3215,
     "shopify-commerce-image": 287
   },
-  "corpus_sha256": "655b3f2b419b4fcc822a2a8dda6e44386724946354e6be3c52045b32e782472c",
+  "corpus_sha256": "261917dd9414125aa608f207ba4b8a48c063386c74e6e30d90b2367edcf3a695",
   "training_performed": true,
   "weights_updated": true,
   "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
@@ -14,17 +14,29 @@
   "top_k_inference": 2,
   "model_file": "data/knowledge/real_knowledge_moe.npz",
   "compatibility_model_file": "data/knowledge/real_knowledge_router.npz",
-  "training_accuracy_on_corpus": 0.8854224185532855,
+  "training_accuracy_on_corpus": 0.8856749311294766,
   "mean_gate_load": [
     0.282674,
     0.324064,
     0.393261
   ],
-  "note": "This is a text knowledge-routing MoE, not an image foundation model.",
-  "trained_corpus_sha256": "655b3f2b419b4fcc822a2a8dda6e44386724946354e6be3c52045b32e782472c",
+  "note": "실제 수집 데이터 누적 코퍼스. URL 기준 중복 제거하며 기존 레코드는 보존한다. 가중치 갱신은 학습기가 별도로 수행한다.",
+  "trained_corpus_sha256": "261917dd9414125aa608f207ba4b8a48c063386c74e6e30d90b2367edcf3a695",
   "tuning_promoted": true,
   "tuning_steps": 500,
-  "tuning_validation_accuracy": 0.8932178932178932,
-  "tuning_final_loss": 0.3997170932133129,
-  "tuning_gate_load_std": 0.1319855439985345
+  "tuning_validation_accuracy": 0.8936781609195402,
+  "tuning_final_loss": 0.3991642047710338,
+  "tuning_gate_load_std": 0.13227105197759953,
+  "records_before": 3622,
+  "records_added": 8,
+  "source_status": {
+    "arxiv": "ok",
+    "robotics": "ok",
+    "institutions": "ok",
+    "organic_skincare": "ok",
+    "google": "ok",
+    "us_beauty": "ok"
+  },
+  "corpus": "data/knowledge/training_corpus.jsonl",
+  "말뭉치": "바뀌었다. 지금 가중치는 이 말뭉치로 학습한 것이 아니다. 학습기가 돌아야 다시 참이 된다."
 }

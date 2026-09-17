@@ -2,7 +2,7 @@
 title: "Record 7e616c1c8d · Ulta-Beauty-Is-Using-Flock-Cameras-at-Some-Stores"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T11:44:15.830980+00:00
+updated_at: 2026-09-17T14:47:46.727294+00:00
 tags: [record, real-data]
 ---
 

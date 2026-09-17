@@ -2,7 +2,7 @@
 title: "Record b4ffe1bab5 · Metal-Cation-Chemistry-and-Amorphous-Structure-Governing-Hydrogen-Tole"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T11:44:15.275000+00:00
+updated_at: 2026-09-17T14:47:46.165867+00:00
 tags: [record, real-data]
 ---
 

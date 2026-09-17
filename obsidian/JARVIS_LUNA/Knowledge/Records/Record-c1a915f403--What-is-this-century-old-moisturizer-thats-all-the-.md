@@ -2,7 +2,7 @@
 title: "Record c1a915f403 · What-is-this-century-old-moisturizer-thats-all-the-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T11:44:15.669677+00:00
+updated_at: 2026-09-17T14:47:46.576650+00:00
 tags: [record, real-data]
 ---
 

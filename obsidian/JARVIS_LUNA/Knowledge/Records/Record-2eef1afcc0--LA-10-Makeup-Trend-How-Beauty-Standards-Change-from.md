@@ -2,7 +2,7 @@
 title: "Record 2eef1afcc0 · LA-10-Makeup-Trend-How-Beauty-Standards-Change-from"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T11:44:15.584797+00:00
+updated_at: 2026-09-17T14:47:46.478925+00:00
 tags: [record, real-data]
 ---
 
