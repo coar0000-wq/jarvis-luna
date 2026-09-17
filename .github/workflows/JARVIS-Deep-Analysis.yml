@@ -241,6 +241,33 @@ jobs:
         continue-on-error: true
         run: python scripts/pricing_model.py
 
+      # ------------------------------------------------------------
+      # 손익이 안 나는 상품은 수집 대상에서 뻐다.
+      #
+      # 사용자가 말했다.  "손익분기 미달이면 수집하지마"
+      #
+      # category_map.json 은 이름으로 받기 전에 거른다. 그것과 같은
+      # 이야기를 돈으로 하는 단계다. 다만 무게·용량·시장가를 알아야
+      # 착지원가가 나오므로 한 번은 받아야 한다. 그 뒤로는 안 받는다.
+      #
+      # 가격 모델 뒤에 둔다. 그 결과를 보고 판단하기 때문이다.
+      # 뺀 뒤에는 점수와 가격을 한 번 더 돌려 숫자를 맞춘다.
+      # 빼는 일은 줄이기만 하므로 한 번이면 끝난다.
+      # ------------------------------------------------------------
+      - name: 손익 미달 상품 제외
+        continue-on-error: true
+        run: |
+          python -u scripts/daiso/exclude_unprofitable.py --apply
+
+          # 환율·배송비·시장가가 바뀜어 다시 파는 것은 되돌린다.
+          python -u scripts/daiso/exclude_unprofitable.py --restore --apply
+
+      - name: 제외 반영해 점수·원가 다시 계산
+        continue-on-error: true
+        run: |
+          python -u scripts/daiso/score_shopify_demand.py
+          python -u scripts/pricing_model.py
+
       - name: Legal auto-check (claims / functional / OTC / label)
         continue-on-error: true
         run: python -u scripts/check_legal_products.py

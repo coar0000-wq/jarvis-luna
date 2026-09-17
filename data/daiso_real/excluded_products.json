@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-13T09:39:42.394929+00:00",
+  "generated_at": "2026-09-17T09:38:47.360174+00:00",
   "generator": "scripts/daiso/prune_excluded_products.py",
   "왜_남기나": "규칙이 다시 바뀌어 되살려야 할 때 근거가 필요하다. 지우면 왜 뺐는지도 같이 사라진다.",
   "규칙_출처": "scripts/daiso/category_map.json 의 exclude",
-  "count": 12,
+  "count": 13,
   "items": {
     "1044428": {
       "name": "2080 닥터크리닉 잇몸 치약 120 g",
@@ -256,6 +256,42 @@
         "source": "daisomall.co.kr 상품 상세 페이지",
         "bucket": "스킨케어"
       }
+    },
+    "1049271": {
+      "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+      "뺀_규칙": "손익·마진 미달",
+      "왜": "가장 나은 형태(bundle 2개) 마진 0.2% · 순익 $0.04 — 최저선 마진 15.0% · 순익 $1.5 미달",
+      "그때_숫자": {
+        "form": "bundle",
+        "qty": 2,
+        "price_usd": 24.99,
+        "landed_cost_total_usd": 23.1,
+        "fee_usd": 1.85,
+        "net_profit_usd": 0.04,
+        "margin_pct": 0.2,
+        "market_median_usd": 15.0
+      },
+      "기준": {
+        "min_margin_pct": 15.0,
+        "min_net_profit_usd": 1.5
+      },
+      "뺀_시각": "2026-09-17T09:38:47.360174+00:00",
+      "되돌리는_법": "scripts/daiso/exclude_unprofitable.py --restore --apply",
+      "원본": {
+        "pd_no": "1049271",
+        "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+        "brand": "VT",
+        "site_category": "스킨/토너",
+        "price_krw": 5000,
+        "rating": 4.8,
+        "review_count": 1765,
+        "image_url": "https://cdn.daisomall.co.kr/file/PD/20250929/nWv2JvG9ZseKOt8YvImo1049271_00_01nWv2JvG9ZseKOt8YvImo.jpg",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049271",
+        "collected_at": "2026-09-01T22:40:39.755925+00:00",
+        "source": "daisomall.co.kr 상품 상세 페이지",
+        "bucket": "스킨케어"
+      }
     }
-  }
+  },
+  "손익_규칙_출처": "data\\daiso_real\\profitability_rule.json"
 }

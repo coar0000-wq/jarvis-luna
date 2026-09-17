@@ -1,7 +1,7 @@
 {
   "updated_at": "2026-09-16T23:11:07.192613+00:00",
   "source": "Daiso Korea",
-  "count": 302,
+  "count": 301,
   "products": [
     {
       "pd_no": "1030674",
@@ -2532,20 +2532,6 @@
       "source": "daisomall.co.kr 상품 상세 페이지",
       "bucket": "스킨케어",
       "detailed_http_status": 200
-    },
-    {
-      "pd_no": "1049271",
-      "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
-      "brand": "VT",
-      "site_category": "스킨/토너",
-      "price_krw": 5000,
-      "rating": 4.8,
-      "review_count": 1765,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250929/nWv2JvG9ZseKOt8YvImo1049271_00_01nWv2JvG9ZseKOt8YvImo.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049271",
-      "collected_at": "2026-09-01T22:40:39.755925+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "스킨케어"
     },
     {
       "pd_no": "1067496",
