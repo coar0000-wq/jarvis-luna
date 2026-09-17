@@ -12,7 +12,7 @@ import re
 import urllib.request
 import urllib.parse
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -39,23 +39,127 @@ def clean(txt):
 # -----------------------------
 # arXiv
 # -----------------------------
+# OpenAlex 로 논문을 받는다.
+#
+# 2026-09-14 에 arXiv 수집을 꺼놓았다. export.arxiv.org/robots.txt 가
+# User-agent: * 에 Disallow: / 이기 때문이고, 그 판단은 지금도 맞다.
+# 헤더를 바꿔서 피해 가지 않는다.
+#
+# 다만 그 뒤로 지식 수집팀의 논문 칸이 계속 0 이었다.
+# 막힌 것은 한 호스트지 논문 자체가 아니다. 2026-09-17 에 재어보았다.
+#
+#   export.arxiv.org   Disallow: /                    ← 안 된다
+#   arxiv.org          Allow: /list /abs /pdf, Crawl-delay: 15
+#   api.openalex.org   Allow: /                       ← 이걸 쓴다
+#
+# OpenAlex 를 고른 이유
+#   robots 가 Allow: / 로 명시되어 있어 해석의 여지가 없다.
+#   HTML 을 긁지 않고 JSON 을 받는다. 페이지 구조가 바뎀 일이 없다.
+#   데이터가 CC0 다.
+#   arXiv 에 올라온 것을 primary_location 으로 골라낼 수 있다.
+#     즉 원래 받으려던 cat:cs.AI 와 같은 것을 다른 문으로 받는다.
+#
+# 예의: mailto 를 붙이면 OpenAlex 가 여유 있는 풀로 보낸다.
+# 그쪽 안내문에 적혀 있는 예의라 지킨다.
+OPENALEX = "https://api.openalex.org/works"
+OPENALEX_MAILTO = os.environ.get("OPENALEX_MAILTO", "jarvis-luna@users.noreply.github.com")
+
+# arXiv (Cornell University) 의 OpenAlex source id
+ARXIV_SOURCE_ID = "S4306400194"
+
+# 받을 주제. 원래 cat:cs.AI 하나였는데 지식팀 분류어에 맞춰 넓혔다.
+OPENALEX_TOPICS = [
+    ("T10036", "기계학습·딥러닝"),
+    ("T11512", "자연어처리·언어모델"),
+]
+OPENALEX_DAYS = 14
+OPENALEX_PER_TOPIC = 25
+
+
+def _openalex_abstract(inv) -> str:
+    """OpenAlex 는 초록을 역색인(단어 -> 위치)으로 준다. 문장으로 되돌린다."""
+    if not isinstance(inv, dict) or not inv:
+        return ""
+    slots: dict[int, str] = {}
+    for word, positions in inv.items():
+        if not isinstance(positions, list):
+            continue
+        for p in positions:
+            if isinstance(p, int):
+                slots[p] = word
+    if not slots:
+        return ""
+    return " ".join(slots[i] for i in sorted(slots))
+
+
 def collect_arxiv():
-    """2026-09-14 부터 받지 않는다.
+    """arXiv 에 올라온 최근 AI 논문을 OpenAlex 로 받는다.
 
-    export.arxiv.org/robots.txt 는 User-agent: * 에 Disallow: / 다.
-    arXiv 이 프로그램 접근용으로 안내하는 주소인 것은 맞지만, 그 호스트의
-    robots 가 전부 막고 있다. 우리 규칙은 robots 를 지키는 것이다.
-    그래서 요청 자체를 없앤다. 헤더를 바꿔서 피해 가지 않는다.
+    export.arxiv.org 에는 요청하지 않는다. 그 호스트는 robots 가 전부
+    막고 있고 그 규칙을 지킨다. 대신 robots 가 Allow: / 인 OpenAlex 에
+    묻는다. 받아오는 내용은 같은 arXiv 논문의 서지정보다.
 
-    지우지 않고 껍데기를 남기는 이유는, 이 자리를 다시 파는 사람이
-    "왜 arXiv 이 없지" 하고 되살리지 않게 하기 위해서다.
+    못 받으면 사유를 적고 빈 목록을 돌려준다. 지어내지 않는다.
     """
+    since = (datetime.now(timezone.utc) - timedelta(days=OPENALEX_DAYS)
+             ).strftime("%Y-%m-%d")
+
+    items = []
+    seen = set()
+    errors = []
+
+    for topic_id, label in OPENALEX_TOPICS:
+        params = {
+            "filter": (f"primary_location.source.id:{ARXIV_SOURCE_ID},"
+                       f"from_publication_date:{since},"
+                       f"topics.id:{topic_id}"),
+            "sort": "publication_date:desc",
+            "per-page": str(OPENALEX_PER_TOPIC),
+            "mailto": OPENALEX_MAILTO,
+        }
+        url = OPENALEX + "?" + urllib.parse.urlencode(params)
+        try:
+            doc = json.loads(fetch(url).decode("utf-8", "replace"))
+        except Exception as e:                                 # noqa: BLE001
+            errors.append(f"{label}: {type(e).__name__}")
+            continue
+
+        for w in doc.get("results") or []:
+            title = clean(w.get("title") or "")
+            if not title:
+                continue
+            loc = w.get("primary_location") or {}
+            url_ = loc.get("landing_page_url") or w.get("doi") or ""
+            key = url_ or title.lower()
+            if key in seen:
+                continue
+            seen.add(key)
+            items.append({
+                "title": title,
+                "text": _openalex_abstract(
+                    w.get("abstract_inverted_index"))[:400],
+                "published": w.get("publication_date") or "",
+                "url": url_,
+                "primary_category": label,
+                "source_detail": "arXiv via OpenAlex",
+            })
+
+    if not items:
+        return {
+            "status": "failed",
+            "source": "arXiv (OpenAlex)",
+            "reason": ("OpenAlex 에서 논문을 받지 못했다. "
+                       + ("; ".join(errors) if errors else "결과 0건")),
+            "items": [],
+        }
+
     return {
-        "status": "skipped",
-        "source": "arXiv",
-        "reason": ("export.arxiv.org/robots.txt 가 Disallow: / 다. "
-                   "robots 를 지키기로 해서 받지 않는다."),
-        "items": [],
+        "status": "ok",
+        "source": "arXiv (OpenAlex)",
+        "reason": "; ".join(errors),
+        "경로": ("api.openalex.org (robots Allow: /) · "
+                "export.arxiv.org 에는 요청하지 않는다"),
+        "items": items,
     }
 
 
