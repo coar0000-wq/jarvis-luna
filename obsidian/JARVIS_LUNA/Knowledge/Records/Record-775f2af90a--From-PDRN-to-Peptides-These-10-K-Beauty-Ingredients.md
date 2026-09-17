@@ -2,7 +2,7 @@
 title: "Record 775f2af90a · From-PDRN-to-Peptides-These-10-K-Beauty-Ingredients"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T04:55:45.548947+00:00
+updated_at: 2026-09-17T09:18:57.471539+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 7f9f12710f · K-Beauty-Dominates-AI-Base-Makeup-Recommendations---조선일보"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T04:55:45.612781+00:00
+updated_at: 2026-09-17T09:18:57.525258+00:00
 tags: [record, real-data]
 ---
 
@@ -13,10 +13,9 @@ tags: [record, real-data]
 **제목:** K-Beauty Dominates AI Base Makeup Recommendations - 조선일보
 
 K-Beauty Dominates AI Base Makeup Recommendations - 조선일보
-K-Beauty Dominates AI Base Makeup Recommendations - 조선일보
 
-**출처:** Source · us_beauty
+**출처:** Source · Google Search
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

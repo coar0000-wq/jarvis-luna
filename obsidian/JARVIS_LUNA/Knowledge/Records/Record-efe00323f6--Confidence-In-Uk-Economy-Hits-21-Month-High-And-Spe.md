@@ -2,7 +2,7 @@
 title: "Record efe00323f6 · Confidence-In-Uk-Economy-Hits-21-Month-High-And-Spe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T04:55:45.803060+00:00
+updated_at: 2026-09-17T09:18:57.778386+00:00
 tags: [record, real-data]
 ---
 

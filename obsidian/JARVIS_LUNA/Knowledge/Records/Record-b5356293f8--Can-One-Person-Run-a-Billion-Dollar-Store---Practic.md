@@ -2,7 +2,7 @@
 title: "Record b5356293f8 · Can-One-Person-Run-a-Billion-Dollar-Store---Practic"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T04:55:45.599649+00:00
+updated_at: 2026-09-17T09:18:57.508998+00:00
 tags: [record, real-data]
 ---
 

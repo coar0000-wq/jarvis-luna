@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T03:14:45.040617+00:00",
+  "generated_at": "2026-09-17T09:17:12.865001+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "texas rangers",
-          "approx_traffic": "5000+",
-          "traffic_num": 5000,
-          "published": "Wed, 16 Sep 2026 19:20:00 -0700",
-          "source_name": "Dallas News",
-          "url": "https://trends.google.com/trending?geo=US&q=texas%20rangers"
-        },
-        {
-          "keyword": "mary cosby son",
+          "keyword": "national cheeseburger day",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Wed, 16 Sep 2026 20:00:00 -0700",
-          "source_name": "Vulture",
-          "url": "https://trends.google.com/trending?geo=US&q=mary%20cosby%20son"
+          "published": "Thu, 17 Sep 2026 00:50:00 -0700",
+          "source_name": "Applebee's",
+          "url": "https://trends.google.com/trending?geo=US&q=national%20cheeseburger%20day"
         },
         {
-          "keyword": "snl cast members",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Wed, 16 Sep 2026 19:50:00 -0700",
-          "source_name": "Deadline",
-          "url": "https://trends.google.com/trending?geo=US&q=snl%20cast%20members"
-        },
-        {
-          "keyword": "duop reath",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Wed, 16 Sep 2026 19:20:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=duop%20reath"
-        },
-        {
-          "keyword": "student loans",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Wed, 16 Sep 2026 20:00:00 -0700",
-          "source_name": "NPR",
-          "url": "https://trends.google.com/trending?geo=US&q=student%20loans"
-        },
-        {
-          "keyword": "royals - astros",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Wed, 16 Sep 2026 20:00:00 -0700",
-          "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=royals%20-%20astros"
-        },
-        {
-          "keyword": "san diego fc",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Wed, 16 Sep 2026 20:00:00 -0700",
-          "source_name": "FOX Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=san%20diego%20fc"
-        },
-        {
-          "keyword": "david jolly",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Wed, 16 Sep 2026 20:00:00 -0700",
-          "source_name": "David Jolly for Florida",
-          "url": "https://trends.google.com/trending?geo=US&q=david%20jolly"
-        },
-        {
-          "keyword": "cubs standings",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Wed, 16 Sep 2026 19:20:00 -0700",
-          "source_name": "MLB.com",
-          "url": "https://trends.google.com/trending?geo=US&q=cubs%20standings"
-        },
-        {
-          "keyword": "rangers game today",
+          "keyword": "alianza - motagua",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Wed, 16 Sep 2026 20:00:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=rangers%20game%20today"
+          "published": "Thu, 17 Sep 2026 02:00:00 -0700",
+          "source_name": "Concacaf | Official Website",
+          "url": "https://trends.google.com/trending?geo=US&q=alianza%20-%20motagua"
+        },
+        {
+          "keyword": "kevin kiley",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Thu, 17 Sep 2026 01:40:00 -0700",
+          "source_name": "The Hill",
+          "url": "https://trends.google.com/trending?geo=US&q=kevin%20kiley"
+        },
+        {
+          "keyword": "cycling",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Thu, 17 Sep 2026 01:40:00 -0700",
+          "source_name": "Team Visma",
+          "url": "https://trends.google.com/trending?geo=US&q=cycling"
+        },
+        {
+          "keyword": "swimming",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Thu, 17 Sep 2026 01:20:00 -0700",
+          "source_name": "SwimSwam",
+          "url": "https://trends.google.com/trending?geo=US&q=swimming"
+        },
+        {
+          "keyword": "botox",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Thu, 17 Sep 2026 00:50:00 -0700",
+          "source_name": "The Telegraph",
+          "url": "https://trends.google.com/trending?geo=US&q=botox"
+        },
+        {
+          "keyword": "daycare center",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Thu, 17 Sep 2026 00:30:00 -0700",
+          "source_name": "KCCI",
+          "url": "https://trends.google.com/trending?geo=US&q=daycare%20center"
+        },
+        {
+          "keyword": "accident lawyer",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Wed, 16 Sep 2026 23:40:00 -0700",
+          "source_name": "Inquirer.com",
+          "url": "https://trends.google.com/trending?geo=US&q=accident%20lawyer"
+        },
+        {
+          "keyword": "bethel tate superintendent steps down",
+          "approx_traffic": "100+",
+          "traffic_num": 100,
+          "published": "Thu, 17 Sep 2026 02:00:00 -0700",
+          "source_name": "WLWT",
+          "url": "https://trends.google.com/trending?geo=US&q=bethel%20tate%20superintendent%20steps%20down"
+        },
+        {
+          "keyword": "needham ma",
+          "approx_traffic": "100+",
+          "traffic_num": 100,
+          "published": "Thu, 17 Sep 2026 01:00:00 -0700",
+          "source_name": "NBC Boston",
+          "url": "https://trends.google.com/trending?geo=US&q=needham%20ma"
         }
       ]
     },

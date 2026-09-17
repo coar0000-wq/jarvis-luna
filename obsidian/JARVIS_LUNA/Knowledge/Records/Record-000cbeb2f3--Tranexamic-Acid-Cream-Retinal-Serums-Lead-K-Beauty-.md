@@ -2,7 +2,7 @@
 title: "Record 000cbeb2f3 · Tranexamic-Acid-Cream-Retinal-Serums-Lead-K-Beauty-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T04:55:45.655837+00:00
+updated_at: 2026-09-17T09:18:57.587553+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record a67af3410b · Connect-the-dots-Build-with-built-in-and-custom-MCP"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T04:55:45.479158+00:00
+updated_at: 2026-09-17T09:18:57.386759+00:00
 tags: [record, real-data]
 ---
 

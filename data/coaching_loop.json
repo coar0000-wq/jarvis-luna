@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T12:14:50.414843+09:00",
+  "generated_at": "2026-09-17T18:17:17.996201+09:00",
   "role": "coaching",
   "principle": "AI는 체크리스트·A/B 초안만. 등록·광고 집행은 사람 승인.",
   "source": "scripts/build_coaching_loop.py",
@@ -11,9 +11,9 @@
     "hold": 0,
     "reddit_signal": {
       "status": "ok",
-      "post_count": 25,
-      "collected_at": "2026-09-17T03:09:28.662539+00:00",
-      "keyword_pool": 40
+      "post_count": 50,
+      "collected_at": "2026-09-17T09:12:06.028736+00:00",
+      "keyword_pool": 45
     }
   },
   "sessions": [
@@ -64,7 +64,7 @@
           "id": "global_signal",
           "label": "글로벌 수요 시그널",
           "status": "pass",
-          "evidence": "글로벌 'lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)' (oliveyoung_us) 유사 67% · 토큰 ampoule",
+          "evidence": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule",
           "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
         },
         {
@@ -78,23 +78,23 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['kbeauty', 'skin']",
+          "evidence": "matched=['k-beauty', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "VT Reedle Shot 300 Facial Boosting First Ampoule 2ml x 6 — kbeauty · K-beauty",
+          "primary_text": "VT Reedle Shot 300 Facial Boosting First Ampoule 2ml x 6 — k-beauty · K-beauty",
           "headline": "VT Reedle Shot 300 Facial Boosting First",
-          "description": "Discover the VT Reedle Shot 300 Facial Boosting First Ampoule, designed for your daily skincare routine. This convenient set includes six 2ml ampoules to help prep and smooth the look of your skin tex",
+          "description": "Discover the VT Reedle Shot 300 Facial Boosting First Ampoule, designed to help refine the look of skin texture. Each pack contains six convenient 2ml ampoules to support your daily skincare routine. ",
           "cta": "Shop now"
         },
         "variant_b": {
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Ampoule — Daiso Find — Affordable hydrating pick",
           "headline": "Ampoule — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: lilyeve Grow:turn Exosome Brush Ampoule .",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -102,24 +102,27 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "kbeauty",
-          "skin"
+          "k-beauty",
+          "skin",
+          "skincare"
         ],
         "reddit_keywords_used": [
-          "kbeauty",
-          "skin"
+          "k-beauty",
+          "skin",
+          "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "kbeauty",
-          "skin"
+          "k-beauty",
+          "skin",
+          "skincare"
         ],
-        "score": 2,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['kbeauty', 'skin']",
+        "evidence": "matched=['k-beauty', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -190,14 +193,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['kbeauty', 'skin']",
+          "evidence": "matched=['k-beauty', 'serum', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "VONSEP Retinol 500 IU Serum 30 ml — kbeauty · K-beauty",
+          "primary_text": "VONSEP Retinol 500 IU Serum 30 ml — k-beauty · K-beauty",
           "headline": "VONSEP Retinol 500 IU Serum 30 ml",
           "description": "Discover the VONSEP Retinol 500 IU Serum in a convenient 30 ml size, designed to enhance your daily skincare routine. This nourishing facial serum helps promote a smoother-looking appearance and a bri",
           "cta": "Shop now"
@@ -206,7 +209,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Serum — Daiso Find — Affordable hydrating pick",
           "headline": "Serum — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: lilyeve Grow:turn Exosome Brush Ampoule .",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -214,24 +217,29 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "kbeauty",
-          "skin"
+          "k-beauty",
+          "skin",
+          "skincare"
         ],
         "reddit_keywords_used": [
-          "kbeauty",
-          "skin"
+          "k-beauty",
+          "serum",
+          "skin",
+          "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "kbeauty",
-          "skin"
+          "k-beauty",
+          "serum",
+          "skin",
+          "skincare"
         ],
-        "score": 2,
+        "score": 4,
         "status": "pass",
-        "evidence": "matched=['kbeauty', 'skin']",
+        "evidence": "matched=['k-beauty', 'serum', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -288,7 +296,7 @@
           "id": "global_signal",
           "label": "글로벌 수요 시그널",
           "status": "pass",
-          "evidence": "글로벌 'lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)' (oliveyoung_us) 유사 67% · 토큰 ampoule",
+          "evidence": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule",
           "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
         },
         {
@@ -302,23 +310,23 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['kbeauty', 'skin']",
+          "evidence": "matched=['k-beauty', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6pcs — kbeauty · K-beauty",
+          "primary_text": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6ea — k-beauty · K-beauty",
           "headline": "VT Reedle Shot 100 Facial Boosting First",
-          "description": "Discover the VT Reedle Shot 100 Facial Boosting First Ampoule, designed to prep and care for your skin texture. This set includes six convenient 2ml ampoules to support your daily skincare routine. Ge",
+          "description": "Experience smooth skin texture with the VT Reedle Shot 100 Facial Boosting First Ampoule. This set includes six convenient 2ml daily ampoules designed to prep your skin care routine. Apply gently onto",
           "cta": "Shop now"
         },
         "variant_b": {
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Ampoule — Daiso Find — Affordable hydrating pick",
           "headline": "Ampoule — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: lilyeve Grow:turn Exosome Brush Ampoule .",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -326,24 +334,27 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "kbeauty",
-          "skin"
+          "k-beauty",
+          "skin",
+          "skincare"
         ],
         "reddit_keywords_used": [
-          "kbeauty",
-          "skin"
+          "k-beauty",
+          "skin",
+          "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "kbeauty",
-          "skin"
+          "k-beauty",
+          "skin",
+          "skincare"
         ],
-        "score": 2,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['kbeauty', 'skin']",
+        "evidence": "matched=['k-beauty', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -359,7 +370,7 @@
       "bucket": "스킨케어",
       "shopify_score": 96,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067498",
-      "readiness": "ready_with_notes",
+      "readiness": "fix_then_list",
       "checklist": [
         {
           "id": "grade_s",
@@ -385,8 +396,8 @@
         {
           "id": "listing_copy",
           "label": "영문 리스팅 카피",
-          "status": "pass",
-          "evidence": "Gemini 카피 있음",
+          "status": "fail",
+          "evidence": "카피 미생성",
           "tip": "shopify-listing-copy 워크플로 실행"
         },
         {
@@ -414,23 +425,23 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['kbeauty', 'skin']",
+          "evidence": "matched=['k-beauty', 'moisturizer', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "VT PDRN Radiance Cream 50 ml — kbeauty · K-beauty",
-          "headline": "VT PDRN Radiance Cream 50 ml",
-          "description": "Discover the nourishing radiance of the VT PDRN Radiance Cream, formulated to help you achieve a glowing and vibrant complexion. This 50 ml facial cream delivers rich hydration and an appealing sheen ",
+          "primary_text": "Cream Pdrn — Daiso Find — k-beauty · K-beauty",
+          "headline": "Cream Pdrn — Daiso Find",
+          "description": "Daiso-sourced K-beauty. Lightweight daily use. Target US shoppers searching glass skin.",
           "cta": "Shop now"
         },
         "variant_b": {
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Cream Pdrn — Daiso Find — Affordable hydrating pick",
           "headline": "Cream Pdrn — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: lilyeve Grow:turn Exosome Brush Ampoule .",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -439,31 +450,37 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "kbeauty",
-          "skin"
+          "k-beauty",
+          "moisturizer",
+          "skin",
+          "skincare"
         ],
         "reddit_keywords_used": [
-          "kbeauty",
-          "skin"
+          "k-beauty",
+          "moisturizer",
+          "skin",
+          "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "kbeauty",
-          "skin"
+          "k-beauty",
+          "moisturizer",
+          "skin",
+          "skincare"
         ],
-        "score": 2,
+        "score": 4,
         "status": "pass",
-        "evidence": "matched=['kbeauty', 'skin']",
+        "evidence": "matched=['k-beauty', 'moisturizer', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
-        "pass": 5,
+        "pass": 4,
         "warn": 3,
-        "fail": 0,
-        "next_action": "경고 항목 보완 후 등록"
+        "fail": 1,
+        "next_action": "실패 항목 수정"
       }
     },
     {
@@ -527,7 +544,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['ask', 'kbeauty', 'masks', 'skin']",
+          "evidence": "matched=['ask', 'k-beauty', 'mask', 'masks', 'moisturizer', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -536,14 +553,14 @@
           "label": "A · 성분/커뮤니티 후킹",
           "primary_text": "Celderma Daily PDRN Radiance Cream Wrapping Mask 1ea — ask · K-beauty",
           "headline": "Celderma Daily PDRN Radiance Cream Wrapp",
-          "description": "Discover the Celderma Daily PDRN Radiance Cream Wrapping Mask, designed to give your skin a luminous and glowing look. This single sheet mask delivers intensive moisture for a visibly radiant complexi",
+          "description": "Discover the Celderma Daily PDRN Radiance Cream Wrapping Mask, designed to give your skin a radiant and glowing appearance. This single-use sheet mask helps deliver deep moisture and a smooth-looking ",
           "cta": "Shop now"
         },
         "variant_b": {
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Cream Mask Pdrn — Daiso Find — Affordable hydrating pick",
           "headline": "Cream Mask Pdrn — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: lilyeve Grow:turn Exosome Brush Ampoule .",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -554,15 +571,16 @@
           "glass skin",
           "hydrating",
           "ask",
-          "kbeauty",
+          "k-beauty",
           "masks",
-          "skin"
+          "moisturizer"
         ],
         "reddit_keywords_used": [
           "ask",
-          "kbeauty",
+          "k-beauty",
+          "mask",
           "masks",
-          "skin"
+          "moisturizer"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
@@ -570,13 +588,16 @@
       "reddit_match": {
         "matched": [
           "ask",
-          "kbeauty",
+          "k-beauty",
+          "mask",
           "masks",
-          "skin"
+          "moisturizer",
+          "skin",
+          "skincare"
         ],
-        "score": 4,
+        "score": 7,
         "status": "pass",
-        "evidence": "matched=['ask', 'kbeauty', 'masks', 'skin']",
+        "evidence": "matched=['ask', 'k-beauty', 'mask', 'masks', 'moisturizer', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -590,7 +611,7 @@
       "pd_no": "1049285",
       "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
       "bucket": "스킨케어",
-      "shopify_score": 93,
+      "shopify_score": 92,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285",
       "readiness": "ready_with_notes",
       "checklist": [
@@ -598,7 +619,7 @@
           "id": "grade_s",
           "label": "S등급 유지",
           "status": "pass",
-          "evidence": "grade=S, score=93",
+          "evidence": "grade=S, score=92",
           "tip": "S가 아니면 1차 등록 보류"
         },
         {
@@ -647,23 +668,23 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['ask', 'kbeauty', 'masks', 'skin']",
+          "evidence": "matched=['ask', 'k-beauty', 'mask', 'masks', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "VT Super Hyalon Sleeping Mask 4 ml 6 Pack — ask · K-beauty",
-          "headline": "VT Super Hyalon Sleeping Mask 4 ml 6 Pac",
-          "description": "Experience deep moisture and hydration overnight with the VT Super Hyalon Sleeping Mask. This convenient 6-pack makes it easy to maintain soft and dewy skin. Simply apply before bed for a refreshed an",
+          "primary_text": "VT Super Hyalon Sleeping Mask 4ml 6ea — ask · K-beauty",
+          "headline": "VT Super Hyalon Sleeping Mask 4ml 6ea",
+          "description": "Discover the VT Super Hyalon Sleeping Mask, designed to deliver deep moisture and hydration to your skin overnight. This convenient set includes six 4ml pouches, making it easy to enjoy a refreshed an",
           "cta": "Shop now"
         },
         "variant_b": {
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Mask — Daiso Find — Affordable hydrating pick",
           "headline": "Mask — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: lilyeve Grow:turn Exosome Brush Ampoule .",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -672,13 +693,14 @@
           "glass skin",
           "hydrating",
           "ask",
-          "kbeauty",
+          "k-beauty",
           "masks",
           "skin"
         ],
         "reddit_keywords_used": [
           "ask",
-          "kbeauty",
+          "k-beauty",
+          "mask",
           "masks",
           "skin"
         ],
@@ -688,13 +710,133 @@
       "reddit_match": {
         "matched": [
           "ask",
-          "kbeauty",
+          "k-beauty",
+          "mask",
           "masks",
-          "skin"
+          "skin",
+          "skincare"
+        ],
+        "score": 6,
+        "status": "pass",
+        "evidence": "matched=['ask', 'k-beauty', 'mask', 'masks', 'skin', 'skincare']",
+        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+      },
+      "coach_summary": {
+        "pass": 5,
+        "warn": 3,
+        "fail": 0,
+        "next_action": "경고 항목 보완 후 등록"
+      }
+    },
+    {
+      "pd_no": "1041403",
+      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+      "bucket": "스킨케어",
+      "shopify_score": 91,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
+      "readiness": "ready_with_notes",
+      "checklist": [
+        {
+          "id": "grade_s",
+          "label": "S등급 유지",
+          "status": "pass",
+          "evidence": "grade=S, score=91",
+          "tip": "S가 아니면 1차 등록 보류"
+        },
+        {
+          "id": "margin",
+          "label": "마진 확인",
+          "status": "warn",
+          "evidence": "pricing 미연결",
+          "tip": "pricing_model 재실행"
+        },
+        {
+          "id": "price_band",
+          "label": "권장가",
+          "status": "warn",
+          "evidence": "suggested_price 없음",
+          "tip": "pricing_model 확인"
+        },
+        {
+          "id": "listing_copy",
+          "label": "영문 리스팅 카피",
+          "status": "pass",
+          "evidence": "Gemini 카피 있음",
+          "tip": "shopify-listing-copy 워크플로 실행"
+        },
+        {
+          "id": "listing_ready_flag",
+          "label": "등록 준비 플래그",
+          "status": "warn",
+          "evidence": "listing_ready=False",
+          "tip": "카피·이미지 준비되면 true"
+        },
+        {
+          "id": "global_signal",
+          "label": "글로벌 수요 시그널",
+          "status": "pass",
+          "evidence": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 92% · 토큰 heartleaf, toner",
+          "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
+        },
+        {
+          "id": "social_proof",
+          "label": "국내 리뷰(대리지표)",
+          "status": "pass",
+          "evidence": "review_count=938",
+          "tip": "리뷰 적으면 첫 광고 예산을 더 보수적으로"
+        },
+        {
+          "id": "reddit_community",
+          "label": "Reddit 뷰티 커뮤니티 키워드",
+          "status": "pass",
+          "evidence": "matched=['k-beauty', 'skin', 'skincare', 'toner']",
+          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+        }
+      ],
+      "ad_copy_ab": {
+        "variant_a": {
+          "label": "A · 성분/커뮤니티 후킹",
+          "primary_text": "Chaebi Gongan Houttuynia Cordata Extract Vegan Toner 150 ml — k-beauty · K-beauty",
+          "headline": "Chaebi Gongan Houttuynia Cordata Extract",
+          "description": "Discover the Chaebi Gongan Houttuynia Cordata Extract Vegan Toner in a convenient 150 ml size. This vegan toner is formulated with heartleaf extract to help refresh and balance your daily skincare rou",
+          "cta": "Shop now"
+        },
+        "variant_b": {
+          "label": "B · 가성비/가격 후킹",
+          "primary_text": "Toner Heartleaf — Daiso Find — Affordable hydrating pick",
+          "headline": "Toner Heartleaf — Daiso Find",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
+          "cta": "See price"
+        },
+        "suggested_keywords": [
+          "toner",
+          "heartleaf",
+          "K-beauty",
+          "glass skin",
+          "hydrating",
+          "k-beauty",
+          "skin",
+          "skincare"
+        ],
+        "reddit_keywords_used": [
+          "k-beauty",
+          "skin",
+          "skincare",
+          "toner"
+        ],
+        "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
+        "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
+      },
+      "reddit_match": {
+        "matched": [
+          "k-beauty",
+          "skin",
+          "skincare",
+          "toner"
         ],
         "score": 4,
         "status": "pass",
-        "evidence": "matched=['ask', 'kbeauty', 'masks', 'skin']",
+        "evidence": "matched=['k-beauty', 'skin', 'skincare', 'toner']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -765,7 +907,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['ask', 'masks']",
+          "evidence": "matched=['ask', 'mask', 'masks']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -774,7 +916,7 @@
           "label": "A · 성분/커뮤니티 후킹",
           "primary_text": "Celderma Daily Transforming Firming Collagen Mask 28g — ask · sheet mask",
           "headline": "Celderma Daily Transforming Firming Coll",
-          "description": "Discover the Celderma Daily Transforming Firming Collagen Mask, formulated to help support a smooth and firm-looking complexion. This convenient sheet mask delivers moisture directly to the skin for a",
+          "description": "Discover the Celderma Daily Transforming Firming Collagen Mask, formulated to help support a firmer-looking appearance for your skin. This 28g sheet mask is easy to use for your daily skincare routine",
           "cta": "Shop now"
         },
         "variant_b": {
@@ -795,6 +937,7 @@
         ],
         "reddit_keywords_used": [
           "ask",
+          "mask",
           "masks"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
@@ -803,11 +946,12 @@
       "reddit_match": {
         "matched": [
           "ask",
+          "mask",
           "masks"
         ],
-        "score": 2,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['ask', 'masks']",
+        "evidence": "matched=['ask', 'mask', 'masks']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -878,23 +1022,23 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['kbeauty', 'skin']",
+          "evidence": "matched=['k-beauty', 'skin', 'skincare', 'toner']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "VT Cica Calming Toner 300 ml — kbeauty · K-beauty",
+          "primary_text": "VT Cica Calming Toner 300 ml — k-beauty · K-beauty",
           "headline": "VT Cica Calming Toner 300 ml",
-          "description": "Discover the refreshing hydration of VT Cica Calming Toner in a generous 300 ml size. Formulated with cica, this soothing toner helps balance and refresh your daily skincare routine. Gently apply to t",
+          "description": "Discover the refreshing hydration of VT Cica Calming Toner in a generous 300 ml size. Designed to refresh your daily skincare routine, this soothing formula helps maintain a balanced and comfortable f",
           "cta": "Shop now"
         },
         "variant_b": {
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Toner — Daiso Find — Affordable hydrating pick",
           "headline": "Toner — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: lilyeve Grow:turn Exosome Brush Ampoule .",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -902,24 +1046,29 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "kbeauty",
-          "skin"
+          "k-beauty",
+          "skin",
+          "skincare"
         ],
         "reddit_keywords_used": [
-          "kbeauty",
-          "skin"
+          "k-beauty",
+          "skin",
+          "skincare",
+          "toner"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "kbeauty",
-          "skin"
+          "k-beauty",
+          "skin",
+          "skincare",
+          "toner"
         ],
-        "score": 2,
+        "score": 4,
         "status": "pass",
-        "evidence": "matched=['kbeauty', 'skin']",
+        "evidence": "matched=['k-beauty', 'skin', 'skincare', 'toner']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -935,127 +1084,13 @@
       "bucket": "마스크팩",
       "shopify_score": 89,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
-      "readiness": "fix_then_list",
-      "checklist": [
-        {
-          "id": "grade_s",
-          "label": "S등급 유지",
-          "status": "pass",
-          "evidence": "grade=S, score=89",
-          "tip": "S가 아니면 1차 등록 보류"
-        },
-        {
-          "id": "margin",
-          "label": "마진 확인",
-          "status": "warn",
-          "evidence": "pricing 미연결",
-          "tip": "pricing_model 재실행"
-        },
-        {
-          "id": "price_band",
-          "label": "권장가",
-          "status": "warn",
-          "evidence": "suggested_price 없음",
-          "tip": "pricing_model 확인"
-        },
-        {
-          "id": "listing_copy",
-          "label": "영문 리스팅 카피",
-          "status": "fail",
-          "evidence": "카피 미생성",
-          "tip": "shopify-listing-copy 워크플로 실행"
-        },
-        {
-          "id": "listing_ready_flag",
-          "label": "등록 준비 플래그",
-          "status": "warn",
-          "evidence": "listing_ready=False",
-          "tip": "카피·이미지 준비되면 true"
-        },
-        {
-          "id": "global_signal",
-          "label": "글로벌 수요 시그널",
-          "status": "pass",
-          "evidence": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 68% · 토큰 collagen, mask",
-          "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
-        },
-        {
-          "id": "social_proof",
-          "label": "국내 리뷰(대리지표)",
-          "status": "pass",
-          "evidence": "review_count=2383",
-          "tip": "리뷰 적으면 첫 광고 예산을 더 보수적으로"
-        },
-        {
-          "id": "reddit_community",
-          "label": "Reddit 뷰티 커뮤니티 키워드",
-          "status": "pass",
-          "evidence": "matched=['ask', 'masks']",
-          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
-        }
-      ],
-      "ad_copy_ab": {
-        "variant_a": {
-          "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Essence Mask Collagen — Daiso Find — ask · sheet mask",
-          "headline": "Essence Mask Collagen — Daiso Find",
-          "description": "Daiso-sourced sheet mask. Lightweight daily use. Target US shoppers searching overnight mask.",
-          "cta": "Shop now"
-        },
-        "variant_b": {
-          "label": "B · 가성비/가격 후킹",
-          "primary_text": "Essence Mask Collagen — Daiso Find — Affordable collagen mask pick",
-          "headline": "Essence Mask Collagen — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable collagen mask pick. Nearby US ref: [7types] MEDIHEAL Essential Face Mask 10.",
-          "cta": "See price"
-        },
-        "suggested_keywords": [
-          "essence",
-          "mask",
-          "collagen",
-          "sheet mask",
-          "overnight mask",
-          "collagen mask",
-          "ask",
-          "masks"
-        ],
-        "reddit_keywords_used": [
-          "ask",
-          "masks"
-        ],
-        "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
-        "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
-      },
-      "reddit_match": {
-        "matched": [
-          "ask",
-          "masks"
-        ],
-        "score": 2,
-        "status": "pass",
-        "evidence": "matched=['ask', 'masks']",
-        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
-      },
-      "coach_summary": {
-        "pass": 4,
-        "warn": 3,
-        "fail": 1,
-        "next_action": "실패 항목 수정"
-      }
-    },
-    {
-      "pd_no": "1041403",
-      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-      "bucket": "스킨케어",
-      "shopify_score": 88,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
       "readiness": "ready_with_notes",
       "checklist": [
         {
           "id": "grade_s",
           "label": "S등급 유지",
           "status": "pass",
-          "evidence": "grade=S, score=88",
+          "evidence": "grade=S, score=89",
           "tip": "S가 아니면 1차 등록 보류"
         },
         {
@@ -1090,63 +1125,66 @@
           "id": "global_signal",
           "label": "글로벌 수요 시그널",
           "status": "pass",
-          "evidence": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 92% · 토큰 heartleaf, toner",
+          "evidence": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 68% · 토큰 collagen, mask",
           "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
         },
         {
           "id": "social_proof",
           "label": "국내 리뷰(대리지표)",
           "status": "pass",
-          "evidence": "review_count=938",
+          "evidence": "review_count=2383",
           "tip": "리뷰 적으면 첫 광고 예산을 더 보수적으로"
         },
         {
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['kbeauty', 'skin']",
+          "evidence": "matched=['ask', 'mask', 'masks']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Chaebi Gongan Heartleaf Extract Vegan Toner 150ml — kbeauty · K-beauty",
-          "headline": "Chaebi Gongan Heartleaf Extract Vegan To",
-          "description": "Discover the refreshing hydration of Chaebi Gongan Heartleaf Extract Vegan Toner. This gentle 150ml toner is formulated with heartleaf extract to help soothe and refresh your skin. Incorporating this ",
+          "primary_text": "Celderma Daily Collagen Essence Gel Mask 29g — ask · sheet mask",
+          "headline": "Celderma Daily Collagen Essence Gel Mask",
+          "description": "Experience the nourishing feel of the Celderma Daily Collagen Essence Gel Mask, formulated with collagen to help hydrate and care for your skin. This 29g sheet mask delivers deep moisture for a softer",
           "cta": "Shop now"
         },
         "variant_b": {
           "label": "B · 가성비/가격 후킹",
-          "primary_text": "Toner Heartleaf — Daiso Find — Affordable hydrating pick",
-          "headline": "Toner Heartleaf — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: lilyeve Grow:turn Exosome Brush Ampoule .",
+          "primary_text": "Essence Mask Collagen — Daiso Find — Affordable collagen mask pick",
+          "headline": "Essence Mask Collagen — Daiso Find",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable collagen mask pick. Nearby US ref: [7types] MEDIHEAL Essential Face Mask 10.",
           "cta": "See price"
         },
         "suggested_keywords": [
-          "toner",
-          "heartleaf",
-          "K-beauty",
-          "glass skin",
-          "hydrating",
-          "kbeauty",
-          "skin"
+          "essence",
+          "mask",
+          "collagen",
+          "sheet mask",
+          "overnight mask",
+          "collagen mask",
+          "ask",
+          "masks"
         ],
         "reddit_keywords_used": [
-          "kbeauty",
-          "skin"
+          "ask",
+          "mask",
+          "masks"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "kbeauty",
-          "skin"
+          "ask",
+          "mask",
+          "masks"
         ],
-        "score": 2,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['kbeauty', 'skin']",
+        "evidence": "matched=['ask', 'mask', 'masks']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {

@@ -2,7 +2,7 @@
 title: "Record d195f87aa7 · A-decentralized-adaptive-momentum-method-for-solvin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T04:55:45.359662+00:00
+updated_at: 2026-09-17T09:18:57.221914+00:00
 tags: [record, real-data]
 ---
 

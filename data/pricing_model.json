@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T03:14:45.987779+00:00",
+  "generated_at": "2026-09-17T09:17:13.416462+00:00",
   "exchange_rate": {
     "usd_to_krw": 1369.81,
     "as_of": "2026-09-17",
@@ -21,9 +21,9 @@
     ]
   },
   "market_benchmark": {
-    "min": 7.5,
-    "p25": 19.9,
-    "median": 24.5,
+    "min": 5.44,
+    "p25": 19.99,
+    "median": 23.76,
     "max": 279.0,
     "n": 100,
     "source": "us.oliveyoung.com/best-sellers 실수집 100건 (2026-09-17)"
@@ -35,13 +35,13 @@
         "pd_no": "1049276",
         "name": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
         "qty": 1,
-        "price_usd": 24.99,
-        "unit_price_usd": 24.99,
+        "price_usd": 23.99,
+        "unit_price_usd": 23.99,
         "landed_cost_total_usd": 8.66,
-        "fee_usd": 1.85,
-        "net_profit_usd": 14.48,
-        "margin_pct": 57.9,
-        "market_median_usd": 24.5,
+        "fee_usd": 1.78,
+        "net_profit_usd": 13.55,
+        "margin_pct": 56.5,
+        "market_median_usd": 23.76,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -50,13 +50,13 @@
         "pd_no": "1055167",
         "name": "본셉 레티놀 500 IU 세럼 30 ml",
         "qty": 1,
-        "price_usd": 24.99,
-        "unit_price_usd": 24.99,
+        "price_usd": 23.99,
+        "unit_price_usd": 23.99,
         "landed_cost_total_usd": 10.34,
-        "fee_usd": 1.85,
-        "net_profit_usd": 12.8,
-        "margin_pct": 51.2,
-        "market_median_usd": 24.5,
+        "fee_usd": 1.78,
+        "net_profit_usd": 11.87,
+        "margin_pct": 49.5,
+        "market_median_usd": 23.76,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -65,13 +65,13 @@
         "pd_no": "1049275",
         "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
         "qty": 1,
-        "price_usd": 24.99,
-        "unit_price_usd": 24.99,
+        "price_usd": 23.99,
+        "unit_price_usd": 23.99,
         "landed_cost_total_usd": 8.66,
-        "fee_usd": 1.85,
-        "net_profit_usd": 14.48,
-        "margin_pct": 57.9,
-        "market_median_usd": 24.5,
+        "fee_usd": 1.78,
+        "net_profit_usd": 13.55,
+        "margin_pct": 56.5,
+        "market_median_usd": 23.76,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -80,13 +80,13 @@
         "pd_no": "1067498",
         "name": "[영양광채]VT PDRN 광채 크림 50 ml",
         "qty": 1,
-        "price_usd": 24.99,
-        "unit_price_usd": 24.99,
+        "price_usd": 23.99,
+        "unit_price_usd": 23.99,
         "landed_cost_total_usd": 11.07,
-        "fee_usd": 1.85,
-        "net_profit_usd": 12.07,
-        "margin_pct": 48.3,
-        "market_median_usd": 24.5,
+        "fee_usd": 1.78,
+        "net_profit_usd": 11.14,
+        "margin_pct": 46.5,
+        "market_median_usd": 23.76,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -95,13 +95,13 @@
         "pd_no": "1075857",
         "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
         "qty": 1,
-        "price_usd": 24.99,
-        "unit_price_usd": 24.99,
+        "price_usd": 23.99,
+        "unit_price_usd": 23.99,
         "landed_cost_total_usd": 7.82,
-        "fee_usd": 1.85,
-        "net_profit_usd": 15.32,
-        "margin_pct": 61.3,
-        "market_median_usd": 24.5,
+        "fee_usd": 1.78,
+        "net_profit_usd": 14.39,
+        "margin_pct": 60.0,
+        "market_median_usd": 23.76,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -110,13 +110,28 @@
         "pd_no": "1049285",
         "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
         "qty": 1,
-        "price_usd": 24.99,
-        "unit_price_usd": 24.99,
+        "price_usd": 23.99,
+        "unit_price_usd": 23.99,
         "landed_cost_total_usd": 8.66,
-        "fee_usd": 1.85,
-        "net_profit_usd": 14.48,
-        "margin_pct": 57.9,
-        "market_median_usd": 24.5,
+        "fee_usd": 1.78,
+        "net_profit_usd": 13.55,
+        "margin_pct": 56.5,
+        "market_median_usd": 23.76,
+        "market_price_source": "oliveyoung_us_benchmark",
+        "register_blocked": false,
+        "block_reason": ""
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "qty": 1,
+        "price_usd": 23.99,
+        "unit_price_usd": 23.99,
+        "landed_cost_total_usd": 11.81,
+        "fee_usd": 1.78,
+        "net_profit_usd": 10.4,
+        "margin_pct": 43.4,
+        "market_median_usd": 23.76,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -125,13 +140,13 @@
         "pd_no": "1059834",
         "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
         "qty": 1,
-        "price_usd": 24.99,
-        "unit_price_usd": 24.99,
+        "price_usd": 23.99,
+        "unit_price_usd": 23.99,
         "landed_cost_total_usd": 7.82,
-        "fee_usd": 1.85,
-        "net_profit_usd": 15.32,
-        "margin_pct": 61.3,
-        "market_median_usd": 24.5,
+        "fee_usd": 1.78,
+        "net_profit_usd": 14.39,
+        "margin_pct": 60.0,
+        "market_median_usd": 23.76,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -155,28 +170,13 @@
         "pd_no": "1042619",
         "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
         "qty": 1,
-        "price_usd": 24.99,
-        "unit_price_usd": 24.99,
+        "price_usd": 23.99,
+        "unit_price_usd": 23.99,
         "landed_cost_total_usd": 6.98,
-        "fee_usd": 1.85,
-        "net_profit_usd": 16.16,
-        "margin_pct": 64.7,
-        "market_median_usd": 24.5,
-        "market_price_source": "oliveyoung_us_benchmark",
-        "register_blocked": false,
-        "block_reason": ""
-      },
-      {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "qty": 1,
-        "price_usd": 24.99,
-        "unit_price_usd": 24.99,
-        "landed_cost_total_usd": 11.81,
-        "fee_usd": 1.85,
-        "net_profit_usd": 11.33,
-        "margin_pct": 45.3,
-        "market_median_usd": 24.5,
+        "fee_usd": 1.78,
+        "net_profit_usd": 15.23,
+        "margin_pct": 63.5,
+        "market_median_usd": 23.76,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -187,13 +187,13 @@
         "pd_no": "1049276",
         "name": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
         "qty": 2,
-        "price_usd": 41.99,
-        "unit_price_usd": 21.0,
+        "price_usd": 40.99,
+        "unit_price_usd": 20.5,
         "landed_cost_total_usd": 11.18,
-        "fee_usd": 3.11,
-        "net_profit_usd": 27.7,
-        "margin_pct": 66.0,
-        "market_median_usd": 24.5,
+        "fee_usd": 3.03,
+        "net_profit_usd": 26.78,
+        "margin_pct": 65.3,
+        "market_median_usd": 23.76,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -202,13 +202,13 @@
         "pd_no": "1055167",
         "name": "본셉 레티놀 500 IU 세럼 30 ml",
         "qty": 2,
-        "price_usd": 41.99,
-        "unit_price_usd": 21.0,
+        "price_usd": 40.99,
+        "unit_price_usd": 20.5,
         "landed_cost_total_usd": 15.28,
-        "fee_usd": 3.11,
-        "net_profit_usd": 23.6,
-        "margin_pct": 56.2,
-        "market_median_usd": 24.5,
+        "fee_usd": 3.03,
+        "net_profit_usd": 22.68,
+        "margin_pct": 55.3,
+        "market_median_usd": 23.76,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -217,13 +217,13 @@
         "pd_no": "1049275",
         "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
         "qty": 2,
-        "price_usd": 41.99,
-        "unit_price_usd": 21.0,
+        "price_usd": 40.99,
+        "unit_price_usd": 20.5,
         "landed_cost_total_usd": 11.18,
-        "fee_usd": 3.11,
-        "net_profit_usd": 27.7,
-        "margin_pct": 66.0,
-        "market_median_usd": 24.5,
+        "fee_usd": 3.03,
+        "net_profit_usd": 26.78,
+        "margin_pct": 65.3,
+        "market_median_usd": 23.76,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -232,13 +232,13 @@
         "pd_no": "1067498",
         "name": "[영양광채]VT PDRN 광채 크림 50 ml",
         "qty": 2,
-        "price_usd": 41.99,
-        "unit_price_usd": 21.0,
+        "price_usd": 40.99,
+        "unit_price_usd": 20.5,
         "landed_cost_total_usd": 16.0,
-        "fee_usd": 3.11,
-        "net_profit_usd": 22.88,
-        "margin_pct": 54.5,
-        "market_median_usd": 24.5,
+        "fee_usd": 3.03,
+        "net_profit_usd": 21.96,
+        "margin_pct": 53.6,
+        "market_median_usd": 23.76,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -247,13 +247,13 @@
         "pd_no": "1075857",
         "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
         "qty": 2,
-        "price_usd": 41.99,
-        "unit_price_usd": 21.0,
+        "price_usd": 40.99,
+        "unit_price_usd": 20.5,
         "landed_cost_total_usd": 10.24,
-        "fee_usd": 3.11,
-        "net_profit_usd": 28.64,
-        "margin_pct": 68.2,
-        "market_median_usd": 24.5,
+        "fee_usd": 3.03,
+        "net_profit_usd": 27.72,
+        "margin_pct": 67.6,
+        "market_median_usd": 23.76,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -262,13 +262,28 @@
         "pd_no": "1049285",
         "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
         "qty": 2,
-        "price_usd": 41.99,
-        "unit_price_usd": 21.0,
+        "price_usd": 40.99,
+        "unit_price_usd": 20.5,
         "landed_cost_total_usd": 11.18,
-        "fee_usd": 3.11,
-        "net_profit_usd": 27.7,
-        "margin_pct": 66.0,
-        "market_median_usd": 24.5,
+        "fee_usd": 3.03,
+        "net_profit_usd": 26.78,
+        "margin_pct": 65.3,
+        "market_median_usd": 23.76,
+        "market_price_source": "oliveyoung_us_benchmark",
+        "register_blocked": false,
+        "block_reason": ""
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "qty": 2,
+        "price_usd": 40.99,
+        "unit_price_usd": 20.5,
+        "landed_cost_total_usd": 18.94,
+        "fee_usd": 3.03,
+        "net_profit_usd": 19.02,
+        "margin_pct": 46.4,
+        "market_median_usd": 23.76,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -277,13 +292,13 @@
         "pd_no": "1059834",
         "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
         "qty": 2,
-        "price_usd": 41.99,
-        "unit_price_usd": 21.0,
+        "price_usd": 40.99,
+        "unit_price_usd": 20.5,
         "landed_cost_total_usd": 10.24,
-        "fee_usd": 3.11,
-        "net_profit_usd": 28.64,
-        "margin_pct": 68.2,
-        "market_median_usd": 24.5,
+        "fee_usd": 3.03,
+        "net_profit_usd": 27.72,
+        "margin_pct": 67.6,
+        "market_median_usd": 23.76,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -307,28 +322,13 @@
         "pd_no": "1042619",
         "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
         "qty": 2,
-        "price_usd": 41.99,
-        "unit_price_usd": 21.0,
+        "price_usd": 40.99,
+        "unit_price_usd": 20.5,
         "landed_cost_total_usd": 8.56,
-        "fee_usd": 3.11,
-        "net_profit_usd": 30.32,
-        "margin_pct": 72.2,
-        "market_median_usd": 24.5,
-        "market_price_source": "oliveyoung_us_benchmark",
-        "register_blocked": false,
-        "block_reason": ""
-      },
-      {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "qty": 2,
-        "price_usd": 41.99,
-        "unit_price_usd": 21.0,
-        "landed_cost_total_usd": 18.94,
-        "fee_usd": 3.11,
-        "net_profit_usd": 19.94,
-        "margin_pct": 47.5,
-        "market_median_usd": 24.5,
+        "fee_usd": 3.03,
+        "net_profit_usd": 29.4,
+        "margin_pct": 71.7,
+        "market_median_usd": 23.76,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -352,37 +352,37 @@
     "single": {
       "qty": 1,
       "discount_pct": 0,
-      "price_usd": 24.99,
-      "unit_price_usd": 24.99,
+      "price_usd": 23.99,
+      "unit_price_usd": 23.99,
       "landed_cost_total_usd": 9.66,
       "shipping_in_cost_usd": 6.8,
-      "fee_usd": 1.85,
-      "net_profit_usd": 13.48,
-      "margin_pct": 54.0,
+      "fee_usd": 1.78,
+      "net_profit_usd": 12.56,
+      "margin_pct": 52.3,
       "free_shipping": false,
-      "orders_for_500usd": 37,
+      "orders_for_500usd": 40,
       "price_basis": "상품별 권장가의 중앙값",
       "price_range_usd": [
         14.99,
-        24.99
+        23.99
       ]
     },
     "bundle": {
       "qty": 2,
       "discount_pct": 15,
-      "price_usd": 41.99,
-      "unit_price_usd": 21.0,
+      "price_usd": 40.99,
+      "unit_price_usd": 20.5,
       "landed_cost_total_usd": 13.59,
       "shipping_in_cost_usd": 7.88,
-      "fee_usd": 3.11,
-      "net_profit_usd": 25.29,
-      "margin_pct": 60.2,
+      "fee_usd": 3.03,
+      "net_profit_usd": 24.37,
+      "margin_pct": 59.4,
       "free_shipping": true,
-      "orders_for_500usd": 20,
+      "orders_for_500usd": 21,
       "price_basis": "상품별 권장가의 중앙값",
       "price_range_usd": [
         24.99,
-        41.99
+        40.99
       ]
     },
     "free_shipping_min_qty": 2,
@@ -419,19 +419,19 @@
           "margin_pct": -87.1
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 9.77,
-          "margin_pct": 49.1
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 9.85,
+          "margin_pct": 49.3
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 14.03,
-          "margin_pct": 57.3
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 13.34,
+          "margin_pct": 56.2
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -462,19 +462,19 @@
           "margin_pct": -36.1
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 8.09,
-          "margin_pct": 40.7
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 8.17,
+          "margin_pct": 40.9
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 12.35,
-          "margin_pct": 50.4
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 11.66,
+          "margin_pct": 49.1
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -505,19 +505,19 @@
           "margin_pct": -87.1
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 9.77,
-          "margin_pct": 49.1
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 9.85,
+          "margin_pct": 49.3
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 14.03,
-          "margin_pct": 57.3
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 13.34,
+          "margin_pct": 56.2
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -548,19 +548,19 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 7.35,
-          "margin_pct": 36.9
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 7.44,
+          "margin_pct": 37.2
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 11.61,
-          "margin_pct": 47.4
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 10.93,
+          "margin_pct": 46.0
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -591,19 +591,19 @@
           "margin_pct": -150.8
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 10.61,
-          "margin_pct": 53.3
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 10.69,
+          "margin_pct": 53.5
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 14.87,
-          "margin_pct": 60.7
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 14.18,
+          "margin_pct": 59.7
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -611,7 +611,7 @@
         "pd_no": "1049285",
         "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
         "bucket": "스킨케어",
-        "shopify_score": 93,
+        "shopify_score": 92,
         "price_krw": 3000,
         "weight_g_est": 46,
         "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
@@ -634,19 +634,62 @@
           "margin_pct": -87.1
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 9.77,
-          "margin_pct": 49.1
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 9.85,
+          "margin_pct": 49.3
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 14.03,
-          "margin_pct": 57.3
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 13.34,
+          "margin_pct": 56.2
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 91,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.65,
+        "shipping_unit_usd": 7.61,
+        "shipping_order_usd": 7.61,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 11.81,
+        "landed_cost_ddu_usd": 11.81,
+        "landed_cost_ddp_usd": 11.26,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 12.76,
+        "at_2_2x": {
+          "sell": 8.03,
+          "fee": 0.59,
+          "profit": -4.38,
+          "margin_pct": -54.5
+        },
+        "at_market_p25": {
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 6.7,
+          "margin_pct": 33.5
+        },
+        "at_market_median": {
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 10.19,
+          "margin_pct": 42.9
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -677,19 +720,19 @@
           "margin_pct": -150.8
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 10.61,
-          "margin_pct": 53.3
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 10.69,
+          "margin_pct": 53.5
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 14.87,
-          "margin_pct": 60.7
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 14.18,
+          "margin_pct": 59.7
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -720,16 +763,16 @@
           "margin_pct": -90.9
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 3.69,
-          "margin_pct": 18.5
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 3.77,
+          "margin_pct": 18.9
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 7.95,
-          "margin_pct": 32.4
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 7.26,
+          "margin_pct": 30.6
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 15.0,
@@ -768,62 +811,19 @@
           "margin_pct": -341.9
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 11.45,
-          "margin_pct": 57.5
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 11.53,
+          "margin_pct": 57.7
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 15.71,
-          "margin_pct": 64.1
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 15.02,
+          "margin_pct": 63.2
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 88,
-        "price_krw": 5000,
-        "weight_g_est": 280,
-        "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.65,
-        "shipping_unit_usd": 7.61,
-        "shipping_order_usd": 7.61,
-        "tariff_usd": 0.55,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 11.81,
-        "landed_cost_ddu_usd": 11.81,
-        "landed_cost_ddp_usd": 11.26,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 12.76,
-        "at_2_2x": {
-          "sell": 8.03,
-          "fee": 0.59,
-          "profit": -4.38,
-          "margin_pct": -54.5
-        },
-        "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 6.62,
-          "margin_pct": 33.2
-        },
-        "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 10.88,
-          "margin_pct": 44.4
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       }
@@ -856,19 +856,19 @@
           "margin_pct": -23.4
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 12.84,
-          "margin_pct": 64.5
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 12.92,
+          "margin_pct": 64.6
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 17.1,
-          "margin_pct": 69.8
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 16.41,
+          "margin_pct": 69.1
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -899,19 +899,19 @@
           "margin_pct": -2.5
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 10.79,
-          "margin_pct": 54.2
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 10.87,
+          "margin_pct": 54.4
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 15.05,
-          "margin_pct": 61.4
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 14.37,
+          "margin_pct": 60.5
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -942,19 +942,19 @@
           "margin_pct": -23.4
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 12.84,
-          "margin_pct": 64.5
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 12.92,
+          "margin_pct": 64.6
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 17.1,
-          "margin_pct": 69.8
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 16.41,
+          "margin_pct": 69.1
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -985,19 +985,19 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 10.42,
-          "margin_pct": 52.4
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 10.51,
+          "margin_pct": 52.6
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 14.68,
-          "margin_pct": 59.9
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 14.0,
+          "margin_pct": 58.9
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1028,19 +1028,19 @@
           "margin_pct": -66.7
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 13.31,
-          "margin_pct": 66.9
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 13.39,
+          "margin_pct": 67.0
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 17.57,
-          "margin_pct": 71.7
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 16.88,
+          "margin_pct": 71.1
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1048,7 +1048,7 @@
         "pd_no": "1049285",
         "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
         "bucket": "스킨케어",
-        "shopify_score": 93,
+        "shopify_score": 92,
         "price_krw": 3000,
         "weight_g_est": 46,
         "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
@@ -1071,19 +1071,62 @@
           "margin_pct": -23.4
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 12.84,
-          "margin_pct": 64.5
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 12.92,
+          "margin_pct": 64.6
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 17.1,
-          "margin_pct": 69.8
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 16.41,
+          "margin_pct": 69.1
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 91,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.65,
+        "shipping_unit_usd": 5.27,
+        "shipping_order_usd": 10.54,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 9.47,
+        "landed_cost_ddu_usd": 9.47,
+        "landed_cost_ddp_usd": 8.92,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 10.23,
+        "at_2_2x": {
+          "sell": 8.03,
+          "fee": 0.59,
+          "profit": -2.03,
+          "margin_pct": -25.3
+        },
+        "at_market_p25": {
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 9.04,
+          "margin_pct": 45.2
+        },
+        "at_market_median": {
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 12.53,
+          "margin_pct": 52.7
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1114,19 +1157,19 @@
           "margin_pct": -66.7
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 13.31,
-          "margin_pct": 66.9
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 13.39,
+          "margin_pct": 67.0
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 17.57,
-          "margin_pct": 71.7
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 16.88,
+          "margin_pct": 71.1
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1157,16 +1200,16 @@
           "margin_pct": -51.2
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 6.88,
-          "margin_pct": 34.6
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 6.97,
+          "margin_pct": 34.8
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 11.14,
-          "margin_pct": 45.5
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 10.46,
+          "margin_pct": 44.0
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 15.0,
@@ -1205,62 +1248,19 @@
           "margin_pct": -173.8
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 14.15,
-          "margin_pct": 71.1
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 14.23,
+          "margin_pct": 71.2
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 18.41,
-          "margin_pct": 75.1
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 17.72,
+          "margin_pct": 74.6
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 88,
-        "price_krw": 5000,
-        "weight_g_est": 280,
-        "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.65,
-        "shipping_unit_usd": 5.27,
-        "shipping_order_usd": 10.54,
-        "tariff_usd": 0.55,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 9.47,
-        "landed_cost_ddu_usd": 9.47,
-        "landed_cost_ddp_usd": 8.92,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 10.23,
-        "at_2_2x": {
-          "sell": 8.03,
-          "fee": 0.59,
-          "profit": -2.03,
-          "margin_pct": -25.3
-        },
-        "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 8.96,
-          "margin_pct": 45.0
-        },
-        "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 13.22,
-          "margin_pct": 54.0
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       }
@@ -1295,19 +1295,19 @@
           "margin_pct": -87.1
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 9.77,
-          "margin_pct": 49.1
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 9.85,
+          "margin_pct": 49.3
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 14.03,
-          "margin_pct": 57.3
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 13.34,
+          "margin_pct": 56.2
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1338,19 +1338,19 @@
           "margin_pct": -36.1
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 8.09,
-          "margin_pct": 40.7
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 8.17,
+          "margin_pct": 40.9
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 12.35,
-          "margin_pct": 50.4
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 11.66,
+          "margin_pct": 49.1
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1381,19 +1381,19 @@
           "margin_pct": -87.1
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 9.77,
-          "margin_pct": 49.1
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 9.85,
+          "margin_pct": 49.3
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 14.03,
-          "margin_pct": 57.3
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 13.34,
+          "margin_pct": 56.2
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1424,19 +1424,19 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 7.35,
-          "margin_pct": 36.9
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 7.44,
+          "margin_pct": 37.2
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 11.61,
-          "margin_pct": 47.4
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 10.93,
+          "margin_pct": 46.0
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1467,19 +1467,19 @@
           "margin_pct": -150.8
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 10.61,
-          "margin_pct": 53.3
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 10.69,
+          "margin_pct": 53.5
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 14.87,
-          "margin_pct": 60.7
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 14.18,
+          "margin_pct": 59.7
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1487,7 +1487,7 @@
         "pd_no": "1049285",
         "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
         "bucket": "스킨케어",
-        "shopify_score": 93,
+        "shopify_score": 92,
         "price_krw": 3000,
         "weight_g_est": 46,
         "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
@@ -1510,19 +1510,62 @@
           "margin_pct": -87.1
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 9.77,
-          "margin_pct": 49.1
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 9.85,
+          "margin_pct": 49.3
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 14.03,
-          "margin_pct": 57.3
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 13.34,
+          "margin_pct": 56.2
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 91,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.65,
+        "shipping_unit_usd": 7.61,
+        "shipping_order_usd": 7.61,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 11.81,
+        "landed_cost_ddu_usd": 11.81,
+        "landed_cost_ddp_usd": 11.26,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 12.76,
+        "at_2_2x": {
+          "sell": 8.03,
+          "fee": 0.59,
+          "profit": -4.38,
+          "margin_pct": -54.5
+        },
+        "at_market_p25": {
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 6.7,
+          "margin_pct": 33.5
+        },
+        "at_market_median": {
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 10.19,
+          "margin_pct": 42.9
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1553,19 +1596,19 @@
           "margin_pct": -150.8
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 10.61,
-          "margin_pct": 53.3
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 10.69,
+          "margin_pct": 53.5
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 14.87,
-          "margin_pct": 60.7
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 14.18,
+          "margin_pct": 59.7
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1596,16 +1639,16 @@
           "margin_pct": -90.9
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 3.69,
-          "margin_pct": 18.5
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 3.77,
+          "margin_pct": 18.9
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 7.95,
-          "margin_pct": 32.4
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 7.26,
+          "margin_pct": 30.6
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 15.0,
@@ -1644,62 +1687,19 @@
           "margin_pct": -341.9
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 11.45,
-          "margin_pct": 57.5
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 11.53,
+          "margin_pct": 57.7
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 15.71,
-          "margin_pct": 64.1
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 15.02,
+          "margin_pct": 63.2
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 88,
-        "price_krw": 5000,
-        "weight_g_est": 280,
-        "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.65,
-        "shipping_unit_usd": 7.61,
-        "shipping_order_usd": 7.61,
-        "tariff_usd": 0.55,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 11.81,
-        "landed_cost_ddu_usd": 11.81,
-        "landed_cost_ddp_usd": 11.26,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 12.76,
-        "at_2_2x": {
-          "sell": 8.03,
-          "fee": 0.59,
-          "profit": -4.38,
-          "margin_pct": -54.5
-        },
-        "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 6.62,
-          "margin_pct": 33.2
-        },
-        "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 10.88,
-          "margin_pct": 44.4
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       }
@@ -1732,19 +1732,19 @@
           "margin_pct": -23.4
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 12.84,
-          "margin_pct": 64.5
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 12.92,
+          "margin_pct": 64.6
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 17.1,
-          "margin_pct": 69.8
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 16.41,
+          "margin_pct": 69.1
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1775,19 +1775,19 @@
           "margin_pct": -2.5
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 10.79,
-          "margin_pct": 54.2
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 10.87,
+          "margin_pct": 54.4
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 15.05,
-          "margin_pct": 61.4
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 14.37,
+          "margin_pct": 60.5
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1818,19 +1818,19 @@
           "margin_pct": -23.4
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 12.84,
-          "margin_pct": 64.5
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 12.92,
+          "margin_pct": 64.6
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 17.1,
-          "margin_pct": 69.8
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 16.41,
+          "margin_pct": 69.1
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1861,19 +1861,19 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 10.42,
-          "margin_pct": 52.4
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 10.51,
+          "margin_pct": 52.6
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 14.68,
-          "margin_pct": 59.9
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 14.0,
+          "margin_pct": 58.9
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1904,19 +1904,19 @@
           "margin_pct": -66.7
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 13.31,
-          "margin_pct": 66.9
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 13.39,
+          "margin_pct": 67.0
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 17.57,
-          "margin_pct": 71.7
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 16.88,
+          "margin_pct": 71.1
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1924,7 +1924,7 @@
         "pd_no": "1049285",
         "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
         "bucket": "스킨케어",
-        "shopify_score": 93,
+        "shopify_score": 92,
         "price_krw": 3000,
         "weight_g_est": 46,
         "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
@@ -1947,19 +1947,62 @@
           "margin_pct": -23.4
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 12.84,
-          "margin_pct": 64.5
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 12.92,
+          "margin_pct": 64.6
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 17.1,
-          "margin_pct": 69.8
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 16.41,
+          "margin_pct": 69.1
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 91,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.65,
+        "shipping_unit_usd": 5.27,
+        "shipping_order_usd": 10.54,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 9.47,
+        "landed_cost_ddu_usd": 9.47,
+        "landed_cost_ddp_usd": 8.92,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 10.23,
+        "at_2_2x": {
+          "sell": 8.03,
+          "fee": 0.59,
+          "profit": -2.03,
+          "margin_pct": -25.3
+        },
+        "at_market_p25": {
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 9.04,
+          "margin_pct": 45.2
+        },
+        "at_market_median": {
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 12.53,
+          "margin_pct": 52.7
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1990,19 +2033,19 @@
           "margin_pct": -66.7
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 13.31,
-          "margin_pct": 66.9
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 13.39,
+          "margin_pct": 67.0
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 17.57,
-          "margin_pct": 71.7
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 16.88,
+          "margin_pct": 71.1
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2033,16 +2076,16 @@
           "margin_pct": -51.2
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 6.88,
-          "margin_pct": 34.6
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 6.97,
+          "margin_pct": 34.8
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 11.14,
-          "margin_pct": 45.5
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 10.46,
+          "margin_pct": 44.0
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 15.0,
@@ -2081,62 +2124,19 @@
           "margin_pct": -173.8
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 14.15,
-          "margin_pct": 71.1
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 14.23,
+          "margin_pct": 71.2
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 18.41,
-          "margin_pct": 75.1
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 17.72,
+          "margin_pct": 74.6
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 88,
-        "price_krw": 5000,
-        "weight_g_est": 280,
-        "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.65,
-        "shipping_unit_usd": 5.27,
-        "shipping_order_usd": 10.54,
-        "tariff_usd": 0.55,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 9.47,
-        "landed_cost_ddu_usd": 9.47,
-        "landed_cost_ddp_usd": 8.92,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 10.23,
-        "at_2_2x": {
-          "sell": 8.03,
-          "fee": 0.59,
-          "profit": -2.03,
-          "margin_pct": -25.3
-        },
-        "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 8.96,
-          "margin_pct": 45.0
-        },
-        "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 13.22,
-          "margin_pct": 54.0
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       }
@@ -2169,19 +2169,19 @@
           "margin_pct": -80.3
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 10.1,
-          "margin_pct": 50.7
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 10.18,
+          "margin_pct": 50.9
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 14.36,
-          "margin_pct": 58.6
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 13.67,
+          "margin_pct": 57.5
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2212,19 +2212,19 @@
           "margin_pct": -29.3
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 8.64,
-          "margin_pct": 43.4
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 8.72,
+          "margin_pct": 43.6
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 12.9,
-          "margin_pct": 52.6
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 12.21,
+          "margin_pct": 51.4
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2255,19 +2255,19 @@
           "margin_pct": -80.3
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 10.1,
-          "margin_pct": 50.7
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 10.18,
+          "margin_pct": 50.9
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 14.36,
-          "margin_pct": 58.6
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 13.67,
+          "margin_pct": 57.5
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2298,19 +2298,19 @@
           "margin_pct": -38.5
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 7.9,
-          "margin_pct": 39.7
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 7.98,
+          "margin_pct": 39.9
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 12.16,
-          "margin_pct": 49.6
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 11.47,
+          "margin_pct": 48.3
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2341,19 +2341,19 @@
           "margin_pct": -144.0
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 10.83,
-          "margin_pct": 54.4
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 10.91,
+          "margin_pct": 54.6
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 15.09,
-          "margin_pct": 61.6
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 14.4,
+          "margin_pct": 60.6
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2361,7 +2361,7 @@
         "pd_no": "1049285",
         "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
         "bucket": "스킨케어",
-        "shopify_score": 93,
+        "shopify_score": 92,
         "price_krw": 3000,
         "weight_g_est": 46,
         "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
@@ -2384,19 +2384,62 @@
           "margin_pct": -80.3
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 10.1,
-          "margin_pct": 50.7
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 10.18,
+          "margin_pct": 50.9
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 14.36,
-          "margin_pct": 58.6
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 13.67,
+          "margin_pct": 57.5
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 91,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.65,
+        "shipping_unit_usd": 7.61,
+        "shipping_order_usd": 7.61,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 11.26,
+        "landed_cost_ddu_usd": 11.81,
+        "landed_cost_ddp_usd": 11.26,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 12.16,
+        "at_2_2x": {
+          "sell": 8.03,
+          "fee": 0.59,
+          "profit": -3.83,
+          "margin_pct": -47.7
+        },
+        "at_market_p25": {
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 7.25,
+          "margin_pct": 36.3
+        },
+        "at_market_median": {
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 10.74,
+          "margin_pct": 45.2
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2427,19 +2470,19 @@
           "margin_pct": -144.0
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 10.83,
-          "margin_pct": 54.4
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 10.91,
+          "margin_pct": 54.6
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 15.09,
-          "margin_pct": 61.6
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 14.4,
+          "margin_pct": 60.6
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2470,16 +2513,16 @@
           "margin_pct": -84.1
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 4.24,
-          "margin_pct": 21.3
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 4.32,
+          "margin_pct": 21.6
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 8.5,
-          "margin_pct": 34.7
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 7.81,
+          "margin_pct": 32.9
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 15.0,
@@ -2518,62 +2561,19 @@
           "margin_pct": -335.1
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 11.56,
-          "margin_pct": 58.1
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 11.64,
+          "margin_pct": 58.2
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 15.82,
-          "margin_pct": 64.6
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 15.13,
+          "margin_pct": 63.7
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 88,
-        "price_krw": 5000,
-        "weight_g_est": 280,
-        "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.65,
-        "shipping_unit_usd": 7.61,
-        "shipping_order_usd": 7.61,
-        "tariff_usd": 0.55,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 11.26,
-        "landed_cost_ddu_usd": 11.81,
-        "landed_cost_ddp_usd": 11.26,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 12.16,
-        "at_2_2x": {
-          "sell": 8.03,
-          "fee": 0.59,
-          "profit": -3.83,
-          "margin_pct": -47.7
-        },
-        "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 7.16,
-          "margin_pct": 36.0
-        },
-        "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 11.42,
-          "margin_pct": 46.6
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       }
@@ -2606,19 +2606,19 @@
           "margin_pct": -16.6
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 13.17,
-          "margin_pct": 66.2
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 13.25,
+          "margin_pct": 66.3
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 17.43,
-          "margin_pct": 71.1
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 16.74,
+          "margin_pct": 70.5
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2649,19 +2649,19 @@
           "margin_pct": 4.3
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 11.34,
-          "margin_pct": 57.0
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 11.42,
+          "margin_pct": 57.1
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 15.6,
-          "margin_pct": 63.7
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 14.91,
+          "margin_pct": 62.8
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2692,19 +2692,19 @@
           "margin_pct": -16.6
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 13.17,
-          "margin_pct": 66.2
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 13.25,
+          "margin_pct": 66.3
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 17.43,
-          "margin_pct": 71.1
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 16.74,
+          "margin_pct": 70.5
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2735,19 +2735,19 @@
           "margin_pct": -0.3
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 10.97,
-          "margin_pct": 55.1
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 11.05,
+          "margin_pct": 55.3
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 15.23,
-          "margin_pct": 62.2
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 14.54,
+          "margin_pct": 61.2
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2778,19 +2778,19 @@
           "margin_pct": -59.9
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 13.53,
-          "margin_pct": 68.0
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 13.61,
+          "margin_pct": 68.1
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 17.79,
-          "margin_pct": 72.6
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 17.1,
+          "margin_pct": 72.0
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2798,7 +2798,7 @@
         "pd_no": "1049285",
         "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
         "bucket": "스킨케어",
-        "shopify_score": 93,
+        "shopify_score": 92,
         "price_krw": 3000,
         "weight_g_est": 46,
         "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
@@ -2821,19 +2821,62 @@
           "margin_pct": -16.6
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 13.17,
-          "margin_pct": 66.2
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 13.25,
+          "margin_pct": 66.3
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 17.43,
-          "margin_pct": 71.1
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 16.74,
+          "margin_pct": 70.5
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 91,
+        "price_krw": 5000,
+        "weight_g_est": 280,
+        "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.65,
+        "shipping_unit_usd": 5.27,
+        "shipping_order_usd": 10.54,
+        "tariff_usd": 0.55,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 8.92,
+        "landed_cost_ddu_usd": 9.47,
+        "landed_cost_ddp_usd": 8.92,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 9.63,
+        "at_2_2x": {
+          "sell": 8.03,
+          "fee": 0.59,
+          "profit": -1.48,
+          "margin_pct": -18.5
+        },
+        "at_market_p25": {
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 9.59,
+          "margin_pct": 48.0
+        },
+        "at_market_median": {
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 13.08,
+          "margin_pct": 55.1
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2864,19 +2907,19 @@
           "margin_pct": -59.9
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 13.53,
-          "margin_pct": 68.0
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 13.61,
+          "margin_pct": 68.1
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 17.79,
-          "margin_pct": 72.6
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 17.1,
+          "margin_pct": 72.0
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2907,16 +2950,16 @@
           "margin_pct": -44.4
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 7.43,
-          "margin_pct": 37.3
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 7.51,
+          "margin_pct": 37.6
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 11.69,
-          "margin_pct": 47.7
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 11.0,
+          "margin_pct": 46.3
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 15.0,
@@ -2955,62 +2998,19 @@
           "margin_pct": -166.9
         },
         "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 14.26,
+          "sell": 19.99,
+          "fee": 1.48,
+          "profit": 14.34,
           "margin_pct": 71.7
         },
         "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 18.52,
-          "margin_pct": 75.6
+          "sell": 23.76,
+          "fee": 1.76,
+          "profit": 17.83,
+          "margin_pct": 75.1
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 88,
-        "price_krw": 5000,
-        "weight_g_est": 280,
-        "weight_note": "고시 용량 150ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.65,
-        "shipping_unit_usd": 5.27,
-        "shipping_order_usd": 10.54,
-        "tariff_usd": 0.55,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 8.92,
-        "landed_cost_ddu_usd": 9.47,
-        "landed_cost_ddp_usd": 8.92,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 9.63,
-        "at_2_2x": {
-          "sell": 8.03,
-          "fee": 0.59,
-          "profit": -1.48,
-          "margin_pct": -18.5
-        },
-        "at_market_p25": {
-          "sell": 19.9,
-          "fee": 1.47,
-          "profit": 9.51,
-          "margin_pct": 47.8
-        },
-        "at_market_median": {
-          "sell": 24.5,
-          "fee": 1.81,
-          "profit": 13.77,
-          "margin_pct": 56.2
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.5,
+        "market_median_usd": 23.76,
         "market_sample_n": 100,
         "at_product_market": null
       }

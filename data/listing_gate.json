@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-17T08:32:10.024805+00:00",
+  "generated_at": "2026-09-17T09:25:30.924543+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "total": 10,
   "ready": 7,
@@ -62,8 +62,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 24.99,
-        "margin_pct": 57.9,
+        "price_usd": 23.99,
+        "margin_pct": 56.5,
         "register_blocked": false
       },
       "legal": {
@@ -115,8 +115,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 24.99,
-        "margin_pct": 51.2,
+        "price_usd": 23.99,
+        "margin_pct": 49.5,
         "register_blocked": false
       },
       "legal": {
@@ -168,8 +168,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 24.99,
-        "margin_pct": 57.9,
+        "price_usd": 23.99,
+        "margin_pct": 56.5,
         "register_blocked": false
       },
       "legal": {
@@ -206,8 +206,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 24.99,
-        "margin_pct": 48.3,
+        "price_usd": 23.99,
+        "margin_pct": 46.5,
         "register_blocked": false
       },
       "legal": {
@@ -261,8 +261,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 24.99,
-        "margin_pct": 61.3,
+        "price_usd": 23.99,
+        "margin_pct": 60.0,
         "register_blocked": false
       },
       "legal": {
@@ -280,7 +280,7 @@
       "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
       "category": "스킨케어",
       "price_krw": 3000,
-      "shopify_score": 93,
+      "shopify_score": 92,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285",
       "copy": {
         "title": "VT Super Hyalon Sleeping Mask 4ml 6ea",
@@ -314,8 +314,8 @@
         "us_label_ok": false
       },
       "price": {
-        "price_usd": 24.99,
-        "margin_pct": 57.9,
+        "price_usd": 23.99,
+        "margin_pct": 56.5,
         "register_blocked": false
       },
       "legal": {
@@ -332,6 +332,58 @@
     },
     {
       "rank": 7,
+      "pd_no": "1041403",
+      "product_id": "1041403",
+      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+      "category": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 91,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
+      "copy": {
+        "title": "Chaebi Gongan Houttuynia Cordata Extract Vegan Toner 150 ml",
+        "description_html": "<p>Discover the Chaebi Gongan Houttuynia Cordata Extract Vegan Toner in a convenient 150 ml size. This vegan toner is formulated with heartleaf extract to help refresh and balance your daily skincare routine.</p><p>Gently apply to the skin after cleansing for a hydrated and smooth-looking finish. Suitable for all skin types looking for a clean and simple addition to their daily regimen.</p>",
+        "seo_title": "Chaebi Gongan Vegan Toner with Heartleaf Extract 150 ml",
+        "seo_description": "Shop the Chaebi Gongan Houttuynia Cordata Extract Vegan Toner 150 ml. A refreshing, plant-based toner designed to hydrate and balance your skin.",
+        "tags": [
+          "korean-toner",
+          "vegan-toner",
+          "heartleaf-toner",
+          "k-beauty",
+          "face-toner",
+          "skincare"
+        ],
+        "product_type": "Face Toner"
+      },
+      "copy_status": "ok",
+      "gosi": {
+        "volume": "150ml",
+        "maker": "(주)뉴앤뉴 / (주)브랜뉴이",
+        "origin": "한국",
+        "ingredients": "약모밀꽃/잎/줄기추출물(95%), 1,2-헥산다이올, 정제수, 약모밀추출물(1%)",
+        "gosi_ok": true
+      },
+      "us_label": {
+        "net_contents": "150ml",
+        "manufacturer": "(주)뉴앤뉴 / (주)브랜뉴이",
+        "country_of_origin": "Korea",
+        "ingredients_inci": "Houttuynia Cordata Extract, 1,2-Hexanediol, Water, Houttuynia Cordata Extract",
+        "us_label_ok": true
+      },
+      "price": {
+        "price_usd": 23.99,
+        "margin_pct": 43.4,
+        "register_blocked": false
+      },
+      "legal": {
+        "status": "auto_checked",
+        "hard_block": false,
+        "hard_block_reason": ""
+      },
+      "ready": true,
+      "blocked_by": []
+    },
+    {
+      "rank": 8,
       "pd_no": "1059834",
       "product_id": "1059834",
       "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
@@ -371,8 +423,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 24.99,
-        "margin_pct": 61.3,
+        "price_usd": 23.99,
+        "margin_pct": 60.0,
         "register_blocked": false
       },
       "legal": {
@@ -384,7 +436,7 @@
       "blocked_by": []
     },
     {
-      "rank": 8,
+      "rank": 9,
       "pd_no": "1049271",
       "product_id": "1049271",
       "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
@@ -439,7 +491,7 @@
       ]
     },
     {
-      "rank": 9,
+      "rank": 10,
       "pd_no": "1042619",
       "product_id": "1042619",
       "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
@@ -479,60 +531,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 24.99,
-        "margin_pct": 64.7,
-        "register_blocked": false
-      },
-      "legal": {
-        "status": "auto_checked",
-        "hard_block": false,
-        "hard_block_reason": ""
-      },
-      "ready": true,
-      "blocked_by": []
-    },
-    {
-      "rank": 10,
-      "pd_no": "1041403",
-      "product_id": "1041403",
-      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-      "category": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 88,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
-      "copy": {
-        "title": "Chaebi Gongan Houttuynia Cordata Extract Vegan Toner 150 ml",
-        "description_html": "<p>Discover the Chaebi Gongan Houttuynia Cordata Extract Vegan Toner in a convenient 150 ml size. This vegan toner is formulated with heartleaf extract to help refresh and balance your daily skincare routine.</p><p>Gently apply to the skin after cleansing for a hydrated and smooth-looking finish. Suitable for all skin types looking for a clean and simple addition to their daily regimen.</p>",
-        "seo_title": "Chaebi Gongan Vegan Toner with Heartleaf Extract 150 ml",
-        "seo_description": "Shop the Chaebi Gongan Houttuynia Cordata Extract Vegan Toner 150 ml. A refreshing, plant-based toner designed to hydrate and balance your skin.",
-        "tags": [
-          "korean-toner",
-          "vegan-toner",
-          "heartleaf-toner",
-          "k-beauty",
-          "face-toner",
-          "skincare"
-        ],
-        "product_type": "Face Toner"
-      },
-      "copy_status": "ok",
-      "gosi": {
-        "volume": "150ml",
-        "maker": "(주)뉴앤뉴 / (주)브랜뉴이",
-        "origin": "한국",
-        "ingredients": "약모밀꽃/잎/줄기추출물(95%), 1,2-헥산다이올, 정제수, 약모밀추출물(1%)",
-        "gosi_ok": true
-      },
-      "us_label": {
-        "net_contents": "150ml",
-        "manufacturer": "(주)뉴앤뉴 / (주)브랜뉴이",
-        "country_of_origin": "Korea",
-        "ingredients_inci": "Houttuynia Cordata Extract, 1,2-Hexanediol, Water, Houttuynia Cordata Extract",
-        "us_label_ok": true
-      },
-      "price": {
-        "price_usd": 24.99,
-        "margin_pct": 45.3,
+        "price_usd": 23.99,
+        "margin_pct": 63.5,
         "register_blocked": false
       },
       "legal": {

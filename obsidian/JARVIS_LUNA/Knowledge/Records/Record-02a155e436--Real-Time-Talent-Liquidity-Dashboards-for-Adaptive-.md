@@ -2,7 +2,7 @@
 title: "Record 02a155e436 · Real-Time-Talent-Liquidity-Dashboards-for-Adaptive-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T04:55:45.457622+00:00
+updated_at: 2026-09-17T09:18:57.359683+00:00
 tags: [record, real-data]
 ---
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T03:08:49.110024+00:00",
+  "generated_at": "2026-09-17T09:11:16.420799+00:00",
   "generator": "scripts/ingest_youtube_channels.py",
   "입력": "data/manual/youtube_channels.txt",
   "robots": "youtube.com/robots.txt 의 Disallow 목록에 /@ 와 /channel/ 은 없다. 막힌 것은 /feeds/videos.xml, /results, /youtubei/ 등이다. 지정된 채널만 하나씩 본다. 2026-09-06 확인.",
@@ -92,10 +92,10 @@
     },
     {
       "video_id": "GGg61sdEjeI",
-      "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
-      "views_text": "257K views",
+      "title": "This UI/UX Redesign Will Teach You More Than 500 Tutorials Combined",
+      "views_text": "261K views",
       "published_text": "2 weeks ago",
-      "views": 257000,
+      "views": 261000,
       "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
       "channel": "uxpeak",
       "teams": [
@@ -202,23 +202,23 @@
   "items": [
     {
       "stale": false,
-      "last_ok_at": "2026-09-17T03:08:38.710246+00:00",
+      "last_ok_at": "2026-09-17T09:11:06.108693+00:00",
       "url": "https://www.youtube.com/@uxpeak",
       "note": "UX/UI 리디자인·전환율 (사용자 지정)",
       "team_hint": "design",
       "channel_name": "uxpeak",
       "channel_id": "UCO6_kvUIUY-ViXL3vFxJH-g",
-      "subscribers": "124K",
+      "subscribers": "123K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-17T03:08:38.710271+00:00",
+      "checked_at": "2026-09-17T09:11:06.108716+00:00",
       "videos": [
         {
           "video_id": "GGg61sdEjeI",
-          "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
-          "views_text": "257K views",
+          "title": "This UI/UX Redesign Will Teach You More Than 500 Tutorials Combined",
+          "views_text": "261K views",
           "published_text": "2 weeks ago",
-          "views": 257000,
+          "views": 261000,
           "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
           "channel": "uxpeak",
           "teams": [
@@ -469,23 +469,23 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-17T03:08:44.109799+00:00",
+      "last_ok_at": "2026-09-17T09:11:11.420561+00:00",
       "url": "https://www.youtube.com/@%EB%95%A1%ED%81%90%EC%B1%84%EB%84%90",
       "note": "땡스큐레이터 - 스몰 브랜드 브랜딩·수출·견적. 팀은 영상마다 자동 분류",
       "team_hint": "",
       "channel_name": "땡스큐레이터",
       "channel_id": "UCTBhYGg_U_pBOKLydoZrhwg",
-      "subscribers": "18.5K",
+      "subscribers": "18.4K",
       "video_count": 20,
       "error": "",
-      "checked_at": "2026-09-17T03:08:44.109816+00:00",
+      "checked_at": "2026-09-17T09:11:11.420577+00:00",
       "videos": [
         {
           "video_id": "CSr4DYGUPOM",
           "title": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
-          "views_text": "77K views",
+          "views_text": "78K views",
           "published_text": "13 days ago",
-          "views": 77000,
+          "views": 78000,
           "url": "https://www.youtube.com/watch?v=CSr4DYGUPOM",
           "channel": "땡스큐레이터",
           "teams": [
@@ -704,9 +704,9 @@
         {
           "video_id": "aIG5u5xJs6g",
           "title": "해외구매 아이폰 장점 / 아이폰 11 Pro 512GB 미드나잇 그린ㅣ굳이 미국에서 구매한 K의 하울!  영롱한 자태. 실물 감상 [땡큐]",
-          "views_text": "670 views",
+          "views_text": "671 views",
           "published_text": "6 years ago",
-          "views": 670,
+          "views": 671,
           "url": "https://www.youtube.com/watch?v=aIG5u5xJs6g",
           "channel": "땡스큐레이터",
           "teams": [

@@ -1,12 +1,12 @@
 ---
-title: "Record 2aeba87d2a · K-beauty-fuels-ingredient-literacy-across-global-beauty-says-Kiss-New-"
+title: "Record 2aeba87d2a · K-beauty-fuels-ingredient-literacy-across-global-be"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T04:55:45.624185+00:00
+updated_at: 2026-09-17T09:18:57.541609+00:00
 tags: [record, real-data]
 ---
 
-# Record 2aeba87d2a · K-beauty-fuels-ingredient-literacy-across-global-beauty-says-Kiss-New-
+# Record 2aeba87d2a · K-beauty-fuels-ingredient-literacy-across-global-be
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMijwFBVV95cUxPYllkR1BfN3NHcFJfVWVRMXJVWFRtbUdiRmRITWVOZ2RFZWtqazNEX0lHZ1ByN1RuR2ZGSHhZbGgtVHNockNid1VKX1BUOXBfUG12Y1RrNG9TNXppRGlPNDlsLXB4UDJCdXVoZnpWZWZwWUI4WmN3aktPZnRYNU1EUFRLWEFESEpHTVZrQUtEQQ?oc=5)
 

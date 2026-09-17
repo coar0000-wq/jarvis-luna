@@ -2,7 +2,7 @@
 title: "Record 0828f15829 · Jenecell-signs-ODM-deal-with-Cosmax-for-stem-cell-c"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T04:55:45.540078+00:00
+updated_at: 2026-09-17T09:18:57.460869+00:00
 tags: [record, real-data]
 ---
 

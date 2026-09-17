@@ -2,7 +2,7 @@
 title: "Record 41dfa6da67 · Informational-Entropic-Gravity-IEG-Deriving-G-from-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T04:55:45.419673+00:00
+updated_at: 2026-09-17T09:18:57.307359+00:00
 tags: [record, real-data]
 ---
 

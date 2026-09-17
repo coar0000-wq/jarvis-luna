@@ -2,7 +2,7 @@
 title: "Record 1aa0355a0b · The-role-of-pure-mathematics-in-resolving-complex-b"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T04:55:45.349943+00:00
+updated_at: 2026-09-17T09:18:57.208432+00:00
 tags: [record, real-data]
 ---
 

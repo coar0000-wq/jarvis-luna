@@ -2,7 +2,7 @@
 title: "Record 729ecd8d7c · Kahoot-Trivia-Anime-and-Manga"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T04:55:45.710388+00:00
+updated_at: 2026-09-17T09:18:57.662779+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 4a469cccf8 · Snowflake-Pioneers-New-Open-Framework-for-Interoper"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T04:55:45.473033+00:00
+updated_at: 2026-09-17T09:18:57.378868+00:00
 tags: [record, real-data]
 ---
 

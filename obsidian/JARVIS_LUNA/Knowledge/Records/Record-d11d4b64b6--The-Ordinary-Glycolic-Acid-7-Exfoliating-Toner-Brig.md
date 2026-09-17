@@ -2,7 +2,7 @@
 title: "Record d11d4b64b6 · The-Ordinary-Glycolic-Acid-7-Exfoliating-Toner-Brightening-and-Smoothi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T04:55:45.777594+00:00
+updated_at: 2026-09-17T09:18:57.746425+00:00
 tags: [record, real-data]
 ---
 

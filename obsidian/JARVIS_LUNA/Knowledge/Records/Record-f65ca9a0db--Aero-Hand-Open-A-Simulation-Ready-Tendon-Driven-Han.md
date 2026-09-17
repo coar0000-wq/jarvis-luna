@@ -2,7 +2,7 @@
 title: "Record f65ca9a0db · Aero-Hand-Open-A-Simulation-Ready-Tendon-Driven-Han"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T04:55:45.262121+00:00
+updated_at: 2026-09-17T09:18:57.088850+00:00
 tags: [record, real-data]
 ---
 

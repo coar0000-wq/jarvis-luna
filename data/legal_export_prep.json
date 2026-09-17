@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-17T03:14:48.023626+00:00",
+  "generated_at": "2026-09-17T09:17:15.526387+00:00",
   "generator": "scripts/prepare_legal_export.py",
   "왜": "법률팀이 '검토 0건, 5항목 대기' 였는데 그 다섯 중 넷은 이미 저장소에 있는 값으로 채울 수 있었다. 먼저 채우고 사람은 확인만 한다.",
   "hs_출처": "hts.usitc.gov/reststop/search (미국 국제무역위원회 공식)",
   "hs_주의": "여기서 정하는 건 후보다. 세부 통계부호는 통관사가 확정해야 한다.",
   "label_기준": "FDA 21 CFR 701 Subpart A / FPLA",
   "total": 10,
-  "hs_filled_this_run": 1,
+  "hs_filled_this_run": 0,
   "label_complete": 0,
   "사람이_채워야_하는_칸": [
     "전성분",
@@ -110,7 +110,7 @@
       "내용량": "28 g",
       "제조업자": "(주)제닉 / 충청남도 논산시 성동면 산업단지로5길 5",
       "name_en": "Celderma Daily Transforming Firming Collagen Mask 28g",
-      "product_type_en": "Sheet Mask",
+      "product_type_en": "Face Mask",
       "hs": {
         "code": "3304.99",
         "basis": "버킷 '마스크팩'",
@@ -194,7 +194,7 @@
       "제조국": "한국",
       "내용량": "150ml",
       "제조업자": "(주)뉴앤뉴 / (주)브랜뉴이",
-      "name_en": "Chaebi Gongan Heartleaf Extract Vegan Toner 150ml",
+      "name_en": "Chaebi Gongan Houttuynia Cordata Extract Vegan Toner 150 ml",
       "product_type_en": "Face Toner",
       "hs": {
         "code": "3304.99",
@@ -231,7 +231,7 @@
         "draft": {
           "product_identity": {
             "label": "제품 정체 표시",
-            "value": "Chaebi Gongan Heartleaf Extract Vegan Toner 150ml",
+            "value": "Chaebi Gongan Houttuynia Cordata Extract Vegan Toner 150 ml",
             "rule": "주표시면. 무엇인지 알 수 있는 이름이나 설명"
           },
           "net_quantity": {
@@ -280,7 +280,7 @@
       "내용량": "18g",
       "제조업자": "(주)제닉",
       "name_en": "Celderma Daily PDRN Radiance Cream Wrapping Mask 1ea",
-      "product_type_en": "Sheet Mask",
+      "product_type_en": "Face Mask",
       "hs": {
         "code": "3304.99",
         "basis": "버킷 '스킨케어'",
@@ -364,7 +364,7 @@
       "제조국": "한국",
       "내용량": "2ml",
       "제조업자": "화장품제조업자: ㈜이앤씨 / 화장품책임판매업자: ㈜브이티코스메틱",
-      "name_en": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6pcs",
+      "name_en": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6ea",
       "product_type_en": "Face Serum",
       "hs": {
         "code": "3304.99",
@@ -401,7 +401,7 @@
         "draft": {
           "product_identity": {
             "label": "제품 정체 표시",
-            "value": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6pcs",
+            "value": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6ea",
             "rule": "주표시면. 무엇인지 알 수 있는 이름이나 설명"
           },
           "net_quantity": {
@@ -619,8 +619,8 @@
       "제조국": "한국",
       "내용량": "50ml",
       "제조업자": "화장품제조업자: (주)예그리나 / 화장품책임판매업자: (주)브이티코스메틱",
-      "name_en": "VT PDRN Radiance Cream 50 ml",
-      "product_type_en": "Face Cream",
+      "name_en": "",
+      "product_type_en": "",
       "hs": {
         "code": "3304.99",
         "basis": "버킷 '스킨케어'",
@@ -656,7 +656,7 @@
         "draft": {
           "product_identity": {
             "label": "제품 정체 표시",
-            "value": "VT PDRN Radiance Cream 50 ml",
+            "value": "",
             "rule": "주표시면. 무엇인지 알 수 있는 이름이나 설명"
           },
           "net_quantity": {
@@ -686,6 +686,7 @@
           }
         },
         "missing": [
+          "제품 정체 표시",
           "책임자 이름·주소"
         ],
         "note": "전성분은 한글이다. 미국 라벨에는 INCI 영문명이 필요하다. 번역이 아니라 표준 명칭 대조라서 사람이 확인해야 한다.",
@@ -704,7 +705,7 @@
       "제조국": "한국",
       "내용량": "4ml",
       "제조업자": "",
-      "name_en": "VT Super Hyalon Sleeping Mask 4 ml 6 Pack",
+      "name_en": "VT Super Hyalon Sleeping Mask 4ml 6ea",
       "product_type_en": "Face Mask",
       "hs": {
         "code": "3304.99",
@@ -741,7 +742,7 @@
         "draft": {
           "product_identity": {
             "label": "제품 정체 표시",
-            "value": "VT Super Hyalon Sleeping Mask 4 ml 6 Pack",
+            "value": "VT Super Hyalon Sleeping Mask 4ml 6ea",
             "rule": "주표시면. 무엇인지 알 수 있는 이름이나 설명"
           },
           "net_quantity": {
@@ -790,8 +791,8 @@
       "제조국": "한국",
       "내용량": "29g",
       "제조업자": "㈜제닉 (충청남도 논산시 성동면 산업단지로5길 5)",
-      "name_en": "",
-      "product_type_en": "",
+      "name_en": "Celderma Daily Collagen Essence Gel Mask 29g",
+      "product_type_en": "Face Mask",
       "hs": {
         "code": "3304.99",
         "basis": "버킷 '마스크팩'",
@@ -827,7 +828,7 @@
         "draft": {
           "product_identity": {
             "label": "제품 정체 표시",
-            "value": "",
+            "value": "Celderma Daily Collagen Essence Gel Mask 29g",
             "rule": "주표시면. 무엇인지 알 수 있는 이름이나 설명"
           },
           "net_quantity": {
@@ -857,7 +858,6 @@
           }
         },
         "missing": [
-          "제품 정체 표시",
           "책임자 이름·주소"
         ],
         "note": "전성분은 한글이다. 미국 라벨에는 INCI 영문명이 필요하다. 번역이 아니라 표준 명칭 대조라서 사람이 확인해야 한다.",

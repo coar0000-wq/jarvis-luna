@@ -2,7 +2,7 @@
 title: "Record 795b7fc750 · Does-Becoming-Exceptional-at-One-Domain-Reduce-Tran"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T04:55:45.444541+00:00
+updated_at: 2026-09-17T09:18:57.341674+00:00
 tags: [record, real-data]
 ---
 

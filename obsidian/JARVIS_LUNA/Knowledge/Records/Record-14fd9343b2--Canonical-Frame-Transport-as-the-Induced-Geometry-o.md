@@ -2,7 +2,7 @@
 title: "Record 14fd9343b2 · Canonical-Frame-Transport-as-the-Induced-Geometry-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T04:55:45.437977+00:00
+updated_at: 2026-09-17T09:18:57.332591+00:00
 tags: [record, real-data]
 ---
 

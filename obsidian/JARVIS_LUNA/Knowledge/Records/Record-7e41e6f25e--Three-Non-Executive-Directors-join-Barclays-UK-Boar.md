@@ -2,7 +2,7 @@
 title: "Record 7e41e6f25e · Three-Non-Executive-Directors-join-Barclays-UK-Boar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T04:55:45.462683+00:00
+updated_at: 2026-09-17T09:18:57.365584+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [home.barclays](https://home.barclays/news/press-releases/20260/080/three-non-executive-directors-join-barclays-uk-board/)
 
-**제목:** Three Non-Executive Directors join Barclays UK Board | Barclays
+**제목:** Three Non Executive Directors Join Barclays Uk Board
 
-Three Non-Executive Directors join Barclays UK Board | Barclays
-Barclays Bank UK PLC is today announcing the appointment of Stacey Madge, Adam Banks and Kelly Richdale as Non-Executive Directors to its Board.
+Three Non Executive Directors Join Barclays Uk Board
 
 **출처:** Source · institutions
 

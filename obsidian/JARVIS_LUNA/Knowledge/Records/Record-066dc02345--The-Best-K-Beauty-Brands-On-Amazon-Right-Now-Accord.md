@@ -2,7 +2,7 @@
 title: "Record 066dc02345 · The-Best-K-Beauty-Brands-On-Amazon-Right-Now-Accord"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T04:55:45.565430+00:00
+updated_at: 2026-09-17T09:18:57.493652+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMif0FVX3lxTE1ROXJfckFVdVh4TzdUV24zdzRXcXljMlRLYWlqcnNvcjFQeDdnRVRsX0hCdmx5ZXo3dFp1bVZFbDJLMUttanplREFNeHdHTWc4UUVfTnJKU3RkZGhJNXZxNGxjWThneWxoXzBKbjlDcGYwX0FKQWYyTk1laVlkY3M?oc=5)
 
-**제목:** The Best K-Beauty Brands On Amazon Right Now, According To R29 Editors - refinery29.com
+**제목:** The Best K-Beauty Brands On Amazon Right Now, According To R29 Editors - Refinery29
 
-The Best K-Beauty Brands On Amazon Right Now, According To R29 Editors - refinery29.com
+The Best K-Beauty Brands On Amazon Right Now, According To R29 Editors - Refinery29
 
 **출처:** Source · Google Search
 

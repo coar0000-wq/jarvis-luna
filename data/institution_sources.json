@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-17T03:08:24.308119+00:00",
+  "collected_at": "2026-09-17T09:10:51.513917+00:00",
   "total": 1063,
   "organizations": 35,
   "by_org": {
@@ -54,19 +54,19 @@
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-09-17T03:07:30.434260+00:00"
+      "collected_at": "2026-09-17T09:09:50.491212+00:00"
     },
     "sitemap": {
       "status": "ok",
       "count": 140,
       "failures": [],
-      "collected_at": "2026-09-17T03:08:02.735288+00:00"
+      "collected_at": "2026-09-17T09:10:23.599715+00:00"
     },
     "openalex": {
       "status": "ok",
       "count": 713,
       "failures": [],
-      "collected_at": "2026-09-17T03:08:24.307066+00:00"
+      "collected_at": "2026-09-17T09:10:51.512804+00:00"
     }
   },
   "not_collected": {
@@ -1775,6 +1775,19 @@
       "title_source": "feed"
     },
     {
+      "title": "SK hynix Presents ‘New Spectrum’ for AI Infrastructure at ‘AI Infra Summit 2026’",
+      "url": "https://news.skhynix.com/en/ai-infra-summit-2026/",
+      "date": "2026-09-17",
+      "date_raw": "Thu, 17 Sep 2026 06:00:01 +0000",
+      "summary": "SK hynix took part in ‘AI Infra Summit 2026,’ held over three days on September 15th-17th (local time) in Santa Clara, California, US. The event served as a venue to examine the latest technology trends and discuss future directions across",
+      "org": "SK hynix",
+      "category": "반도체",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://news.skhynix.com/feed/",
+      "title_source": "feed"
+    },
+    {
       "title": "No plans have been confirmed regarding the reported talks between SK hynix and Intel on memory chip production in the U.S.",
       "url": "https://news.skhynix.com/en/fact-10/",
       "date": "2026-09-16",
@@ -1884,19 +1897,6 @@
       "date": "2026-09-09",
       "date_raw": "Wed, 09 Sep 2026 01:32:02 +0000",
       "summary": "▲ SK hynix Vice President Euicheol Lim, head of the Solution AT department, delivering the second keynote presentation",
-      "org": "SK hynix",
-      "category": "반도체",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://news.skhynix.com/feed/",
-      "title_source": "feed"
-    },
-    {
-      "title": "SK hynix Charts Its Business and Technology Direction at the 2026 Future Forum—”Now Is the Golden Time to Leap Forward”",
-      "url": "https://news.skhynix.com/en/future-forum-2026-4/",
-      "date": "2026-09-09",
-      "date_raw": "Wed, 09 Sep 2026 01:31:00 +0000",
-      "summary": "▲ SK hynix Vice President Jaewuk Ju, head of the Smart Manufacturing Technology/AX Advance department, delivering the first keynote presentation",
       "org": "SK hynix",
       "category": "반도체",
       "kind": "발표물",
@@ -3595,6 +3595,19 @@
       "feed": "https://www.asml.com/sitemap.xml"
     },
     {
+      "url": "https://home.barclays/news/press-releases/20260/090/-nine-in-10-uk-manufacturers-turn-to-automation-to-navigate-geop0/",
+      "date": "2026-09-17",
+      "date_raw": "2026-09-17T08:27:47+01:00",
+      "title_source": "page",
+      "title": "Nine in 10 UK manufacturers turn to automation to navigate geopolitical uncertainty | Barclays",
+      "summary": "UK manufacturers remain confident about their future prospects, despite rising energy costs and ongoing geopolitical uncertainty.",
+      "org": "Barclays",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://home.barclays/sitemap.xml"
+    },
+    {
       "url": "https://home.barclays/news/press-releases/20260/090/barclays-continues-strategic-investment-in-equity-capital-market/",
       "date": "2026-09-11",
       "date_raw": "2026-09-11T16:59:43+01:00",
@@ -3715,9 +3728,9 @@
       "url": "https://home.barclays/news/press-releases/20260/080/three-non-executive-directors-join-barclays-uk-board/",
       "date": "2026-08-27",
       "date_raw": "2026-08-27T14:50:40+01:00",
-      "title_source": "page",
-      "title": "Three Non-Executive Directors join Barclays UK Board | Barclays",
-      "summary": "Barclays Bank UK PLC is today announcing the appointment of Stacey Madge, Adam Banks and Kelly Richdale as Non-Executive Directors to its Board.",
+      "title_source": "url-slug",
+      "title": "Three Non Executive Directors Join Barclays Uk Board",
+      "summary": "",
       "org": "Barclays",
       "category": "투자은행",
       "kind": "발표물",
@@ -3842,24 +3855,24 @@
       "feed": "https://home.barclays/sitemap.xml"
     },
     {
-      "url": "https://home.barclays/news/press-releases/20260/070/barclays-supports-the-development-of-commercial-fusion-power-in-/",
-      "date": "2026-07-21",
-      "date_raw": "2026-07-21T11:32:11+01:00",
-      "title_source": "url-slug",
-      "title": "Barclays Supports The Development Of Commercial Fusion Power In",
-      "summary": "",
-      "org": "Barclays",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://home.barclays/sitemap.xml"
-    },
-    {
       "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/why-global-bond-yields-are-surging",
       "date": "2026-09-16",
       "date_raw": "2026-09-16T20:52:12.000Z",
       "title_source": "url-slug",
       "title": "Why Global Bond Yields Are Surging",
+      "summary": "",
+      "org": "Goldman Sachs",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.goldmansachs.com/sitemap.xml"
+    },
+    {
+      "url": "https://www.goldmansachs.com/insights/the-markets/why-gold-is-expected-to-rise-to-record-highs",
+      "date": "2026-09-15",
+      "date_raw": "2026-09-15T13:48:46.000Z",
+      "title_source": "url-slug",
+      "title": "Why Gold Is Expected To Rise To Record Highs",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -3886,19 +3899,6 @@
       "date_raw": "2026-09-15T18:23:51.000Z",
       "title_source": "url-slug",
       "title": "Can The S And P 500 Rally As Treasury Yields Rise",
-      "summary": "",
-      "org": "Goldman Sachs",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.goldmansachs.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.goldmansachs.com/insights/the-markets/why-gold-is-expected-to-rise-to-record-highs",
-      "date": "2026-09-15",
-      "date_raw": "2026-09-15T13:48:46.000Z",
-      "title_source": "url-slug",
-      "title": "Why Gold Is Expected To Rise To Record Highs",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -4037,11 +4037,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity",
+      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/the-outlook-for-data-center-power-demand-as-ai-token-use-grows",
       "date": "2026-09-04",
-      "date_raw": "2026-09-04T13:29:35.000Z",
+      "date_raw": "2026-09-04T15:26:17.000Z",
       "title_source": "url-slug",
-      "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity",
+      "title": "The Outlook For Data Center Power Demand As Ai Token Use Grows",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -4050,11 +4050,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/the-outlook-for-data-center-power-demand-as-ai-token-use-grows",
+      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity",
       "date": "2026-09-04",
-      "date_raw": "2026-09-04T15:26:17.000Z",
+      "date_raw": "2026-09-04T13:29:35.000Z",
       "title_source": "url-slug",
-      "title": "The Outlook For Data Center Power Demand As Ai Token Use Grows",
+      "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -4102,11 +4102,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity/transcript.pdf",
+      "url": "https://www.goldmansachs.com/pdfs/insights/videos/david-solomon-cnbc-sep-2026/transcript.pdf",
       "date": "2026-09-02",
-      "date_raw": "2026-09-02T20:18:47.000Z",
+      "date_raw": "2026-09-02T16:13:53.000Z",
       "title_source": "url-slug",
-      "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity   Transcript",
+      "title": "David Solomon Cnbc Sep 2026   Transcript",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -7012,7 +7012,7 @@
       "title_source": "openalex",
       "venue": "Nature",
       "work_type": "article",
-      "cited_by": 36
+      "cited_by": 37
     },
     {
       "title": "Цифровое сопровождение клиентов при посещении торговых центров: стратегия и способы реализации",
@@ -7799,6 +7799,20 @@
       "cited_by": 0
     },
     {
+      "title": "Interconnect diameter effects on the thermo-mechanical reliability of sandwich-structured Cu–Cu bonded stacked dies",
+      "url": "https://doi.org/10.1177/10996362261490182",
+      "date": "2026-09-16",
+      "summary": "",
+      "org": "Intel",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Journal of Sandwich Structures & Materials",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "Correlating atomic structure with carrier transport in defective MoS2 with grain boundary via machine-learned potentials",
       "url": "https://doi.org/10.1038/s43246-026-01356-x",
       "date": "2026-09-15",
@@ -8121,20 +8135,6 @@
       "cited_by": 0
     },
     {
-      "title": "Explainable and Resource-Efficient Spatial Reasoning in Multimodal LLMs for Decision-Critical Applications",
-      "url": "https://openalex.org/W7172068670",
-      "date": "2026-07-29",
-      "summary": "",
-      "org": "Intel",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "arXiv (Cornell University)",
-      "work_type": "preprint",
-      "cited_by": 0
-    },
-    {
       "title": "Enhanced Magnetism in Cation‐Modulated Manganite Heterostructures",
       "url": "https://doi.org/10.1002/admi.70672",
       "date": "2026-09-15",
@@ -8146,6 +8146,20 @@
       "title_source": "openalex",
       "venue": "Advanced Materials Interfaces",
       "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "From Priors to Projections: Geometry and simplified MIMO demodulation of probabilistic shaping",
+      "url": "https://openalex.org/W7213373163",
+      "date": "2026-09-11",
+      "summary": "",
+      "org": "Qualcomm",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "arXiv (Cornell University)",
+      "work_type": "preprint",
       "cited_by": 0
     },
     {
@@ -8314,7 +8328,7 @@
       "title_source": "openalex",
       "venue": "JAMA Internal Medicine",
       "work_type": "article",
-      "cited_by": 0
+      "cited_by": 1
     },
     {
       "title": "Early to mid-Holocene climate oscillations and cultural shifts in the eastern Mediterranean",
@@ -8468,20 +8482,6 @@
       "title_source": "openalex",
       "venue": "arXiv (Cornell University)",
       "work_type": "preprint",
-      "cited_by": 0
-    },
-    {
-      "title": "Neolithic coastal adaptation and resilience in relation to environmental dynamics during the early Holocene in the Eastern Mediterranean",
-      "url": "https://doi.org/10.3389/fearc.2026.1775646",
-      "date": "2026-03-23",
-      "summary": "",
-      "org": "Qualcomm",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Frontiers in Environmental Archaeology",
-      "work_type": "article",
       "cited_by": 0
     },
     {
@@ -11425,6 +11425,34 @@
       "cited_by": 0
     },
     {
+      "title": "How User-AI Mistreatment Occurs and Matters in Conversational Systems?",
+      "url": "https://openalex.org/W7213371349",
+      "date": "2026-09-11",
+      "summary": "",
+      "org": "Microsoft",
+      "category": "데이터분석",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "arXiv (Cornell University)",
+      "work_type": "preprint",
+      "cited_by": 0
+    },
+    {
+      "title": "AutoTailor: Automatic, User-Aligned Capability Selection and Adaptation for Web Agents",
+      "url": "https://openalex.org/W7213372448",
+      "date": "2026-09-11",
+      "summary": "",
+      "org": "Microsoft",
+      "category": "데이터분석",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "arXiv (Cornell University)",
+      "work_type": "preprint",
+      "cited_by": 0
+    },
+    {
       "title": "The Python simulations of chemistry framework: 10 years of an open-source quantum chemistry project",
       "url": "https://doi.org/10.1063/5.0337441",
       "date": "2026-09-10",
@@ -11715,34 +11743,6 @@
       "source": "openalex",
       "title_source": "openalex",
       "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Does Understanding AI Internals Become Harder Faster Than Models Become More Capable",
-      "url": "https://doi.org/10.5281/zenodo.22730893",
-      "date": "2026-09-01",
-      "summary": "",
-      "org": "Microsoft",
-      "category": "데이터분석",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Densities and Viscosities of Binary Liquid Mixtures of Chlorobenzene, p-Xylene, Octane,1-Hexanol and Ethylbenzene at (293.15 and 298.15) K",
-      "url": "https://doi.org/10.1016/j.ctta.2026.100376",
-      "date": "2026-09-01",
-      "summary": "",
-      "org": "Microsoft",
-      "category": "데이터분석",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Chemical Thermodynamics and Thermal Analysis",
       "work_type": "article",
       "cited_by": 0
     },
@@ -12097,6 +12097,20 @@
       "cited_by": 0
     },
     {
+      "title": "Linking Military Blast Exposure to Veterans Health Administration Diagnoses",
+      "url": "https://doi.org/10.1212/wnl.0000000000218595",
+      "date": "2026-09-16",
+      "summary": "",
+      "org": "Leidos",
+      "category": "데이터분석",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Neurology",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "Performance changes and neuromuscular alterations in sprague dawley rats following repeated occupational exposures to the pesticide malathion",
       "url": "https://doi.org/10.1371/journal.pone.0357900",
       "date": "2026-09-15",
@@ -12429,20 +12443,6 @@
       "source": "openalex",
       "title_source": "openalex",
       "venue": "Pure and Applied Geophysics",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Friend or foe: divergent immunomodulatory effects of metabolites derived from the virucidal zinc finger inhibitor SAMT-247",
-      "url": "https://doi.org/10.3389/fimmu.2026.1879043",
-      "date": "2026-08-20",
-      "summary": "",
-      "org": "Leidos",
-      "category": "데이터분석",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Frontiers in Immunology",
       "work_type": "article",
       "cited_by": 0
     },
@@ -14096,7 +14096,7 @@
       "title_source": "openalex",
       "venue": "Radiotherapy and Oncology",
       "work_type": "article",
-      "cited_by": 3
+      "cited_by": 4
     },
     {
       "title": "Impact of Microstructural Heterogeneities on Fluid Transport in Unconventional Rocks",

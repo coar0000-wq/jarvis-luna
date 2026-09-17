@@ -2,7 +2,7 @@
 title: "Record 138e00c2c7 · Global-Wires-Payments-Formatting-Requirements-Guide"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T04:55:45.823217+00:00
+updated_at: 2026-09-17T09:18:57.804353+00:00
 tags: [record, real-data]
 ---
 

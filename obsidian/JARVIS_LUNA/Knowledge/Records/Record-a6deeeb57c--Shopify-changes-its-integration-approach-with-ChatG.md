@@ -2,7 +2,7 @@
 title: "Record a6deeeb57c · Shopify-changes-its-integration-approach-with-ChatG"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T04:55:45.625187+00:00
+updated_at: 2026-09-17T09:18:57.542928+00:00
 tags: [record, real-data]
 ---
 

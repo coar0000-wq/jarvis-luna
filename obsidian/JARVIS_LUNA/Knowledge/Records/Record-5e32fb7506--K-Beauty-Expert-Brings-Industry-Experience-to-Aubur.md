@@ -2,7 +2,7 @@
 title: "Record 5e32fb7506 · K-Beauty-Expert-Brings-Industry-Experience-to-Aubur"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T04:55:45.488970+00:00
+updated_at: 2026-09-17T09:18:57.398902+00:00
 tags: [record, real-data]
 ---
 

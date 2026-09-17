@@ -2,7 +2,7 @@
 title: "Record 14daebc735 · Pureseoul-Partners-with-Primark-to-Launch-Accessibl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T04:55:45.662114+00:00
+updated_at: 2026-09-17T09:18:57.596279+00:00
 tags: [record, real-data]
 ---
 

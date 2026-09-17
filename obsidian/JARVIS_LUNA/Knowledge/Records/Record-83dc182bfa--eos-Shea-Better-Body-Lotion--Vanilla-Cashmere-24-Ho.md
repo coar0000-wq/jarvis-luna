@@ -2,7 +2,7 @@
 title: "Record 83dc182bfa · eos-Shea-Better-Body-Lotion--Vanilla-Cashmere-24-Hour-Moisture-16-fl-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T04:55:45.779489+00:00
+updated_at: 2026-09-17T09:18:57.748859+00:00
 tags: [record, real-data]
 ---
 

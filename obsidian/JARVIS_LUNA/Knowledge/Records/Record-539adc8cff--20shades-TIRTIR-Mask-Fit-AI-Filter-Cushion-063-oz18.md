@@ -1,12 +1,12 @@
 ---
-title: "Record 539adc8cff · 20shades-TIRTIR-Mask-Fit-AI-Filter-Cushion-063-oz18g"
+title: "Record 539adc8cff · 20shades-TIRTIR-Mask-Fit-AI-Filter-Cushion-063-oz18"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T04:55:45.745648+00:00
+updated_at: 2026-09-17T09:18:57.706922+00:00
 tags: [record, real-data]
 ---
 
-# Record 539adc8cff · 20shades-TIRTIR-Mask-Fit-AI-Filter-Cushion-063-oz18g
+# Record 539adc8cff · 20shades-TIRTIR-Mask-Fit-AI-Filter-Cushion-063-oz18
 
 > 실제 수집 레코드입니다. 원문: [us.oliveyoung.com](https://us.oliveyoung.com/products/UA52938847)
 
