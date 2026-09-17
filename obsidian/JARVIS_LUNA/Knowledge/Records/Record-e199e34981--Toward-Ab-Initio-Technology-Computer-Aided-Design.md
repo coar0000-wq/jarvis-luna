@@ -2,7 +2,7 @@
 title: "Record e199e34981 · Toward-Ab-Initio-Technology-Computer-Aided-Design"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T14:47:46.180191+00:00
+updated_at: 2026-09-17T17:02:01.694513+00:00
 tags: [record, real-data]
 ---
 

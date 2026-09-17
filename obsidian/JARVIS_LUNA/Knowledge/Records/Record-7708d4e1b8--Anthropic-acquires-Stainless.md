@@ -2,7 +2,7 @@
 title: "Record 7708d4e1b8 · Anthropic-acquires-Stainless"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T14:47:46.743507+00:00
+updated_at: 2026-09-17T17:02:02.224124+00:00
 tags: [record, real-data]
 ---
 

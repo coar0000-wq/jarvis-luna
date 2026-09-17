@@ -2,7 +2,7 @@
 title: "Record 263c0bc1a9 · Frontend-Engineering-at-Palantir-Plotlines-in-Three"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T14:47:46.150923+00:00
+updated_at: 2026-09-17T17:02:01.667790+00:00
 tags: [record, real-data]
 ---
 

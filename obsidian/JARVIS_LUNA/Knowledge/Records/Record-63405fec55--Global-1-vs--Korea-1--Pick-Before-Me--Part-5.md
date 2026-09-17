@@ -2,7 +2,7 @@
 title: "Record 63405fec55 · Global-1-vs--Korea-1--Pick-Before-Me--Part-5"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T14:47:46.868407+00:00
+updated_at: 2026-09-17T17:02:02.339846+00:00
 tags: [record, real-data]
 ---
 

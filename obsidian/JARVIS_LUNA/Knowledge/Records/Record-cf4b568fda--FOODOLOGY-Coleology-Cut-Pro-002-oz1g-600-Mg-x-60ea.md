@@ -2,7 +2,7 @@
 title: "Record cf4b568fda · FOODOLOGY-Coleology-Cut-Pro-002-oz1g-600-Mg-x-60ea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T14:47:46.687987+00:00
+updated_at: 2026-09-17T17:02:02.169321+00:00
 tags: [record, real-data]
 ---
 

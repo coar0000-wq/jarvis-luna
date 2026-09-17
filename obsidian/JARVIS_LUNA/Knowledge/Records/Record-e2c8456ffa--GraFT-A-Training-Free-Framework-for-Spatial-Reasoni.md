@@ -2,7 +2,7 @@
 title: "Record e2c8456ffa · GraFT-A-Training-Free-Framework-for-Spatial-Reasoni"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T14:47:46.071381+00:00
+updated_at: 2026-09-17T17:02:01.587932+00:00
 tags: [record, real-data]
 ---
 

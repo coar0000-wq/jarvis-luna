@@ -2,7 +2,7 @@
 title: "Record 6493bfbe00 · Toward-a-test-of-medical-AI-superintelligence"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T14:47:46.207212+00:00
+updated_at: 2026-09-17T17:02:01.719596+00:00
 tags: [record, real-data]
 ---
 

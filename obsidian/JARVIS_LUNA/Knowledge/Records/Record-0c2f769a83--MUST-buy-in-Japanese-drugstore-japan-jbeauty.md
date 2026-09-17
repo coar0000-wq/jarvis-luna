@@ -2,7 +2,7 @@
 title: "Record 0c2f769a83 · MUST-buy-in-Japanese-drugstore-japan-jbeauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T14:47:46.869550+00:00
+updated_at: 2026-09-17T17:02:02.341036+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 07b269baf2 · Employing-artificial-intelligence-in-Galileo-orbita"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T14:47:46.173240+00:00
+updated_at: 2026-09-17T17:02:01.688067+00:00
 tags: [record, real-data]
 ---
 

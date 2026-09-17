@@ -2,7 +2,7 @@
 title: "Record d9b26d8266 · Synergy-of-Human-Capital-Management-and-Work-Ethics"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T14:47:46.320766+00:00
+updated_at: 2026-09-17T17:02:01.827053+00:00
 tags: [record, real-data]
 ---
 

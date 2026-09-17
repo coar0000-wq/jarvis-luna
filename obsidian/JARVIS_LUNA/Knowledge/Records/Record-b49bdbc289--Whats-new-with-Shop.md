@@ -2,7 +2,7 @@
 title: "Record b49bdbc289 · Whats-new-with-Shop"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T14:47:46.916884+00:00
+updated_at: 2026-09-17T17:02:02.388663+00:00
 tags: [record, real-data]
 ---
 

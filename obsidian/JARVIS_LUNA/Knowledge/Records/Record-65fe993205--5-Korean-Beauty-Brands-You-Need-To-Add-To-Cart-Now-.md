@@ -2,7 +2,7 @@
 title: "Record 65fe993205 · 5-Korean-Beauty-Brands-You-Need-To-Add-To-Cart-Now-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T14:47:46.477274+00:00
+updated_at: 2026-09-17T17:02:01.970071+00:00
 tags: [record, real-data]
 ---
 

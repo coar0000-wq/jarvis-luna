@@ -2,7 +2,7 @@
 title: "Record aacd3776a4 · Grok-46-on-Amazon-Bedrock"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T14:47:46.904694+00:00
+updated_at: 2026-09-17T17:02:02.376301+00:00
 tags: [record, real-data]
 ---
 

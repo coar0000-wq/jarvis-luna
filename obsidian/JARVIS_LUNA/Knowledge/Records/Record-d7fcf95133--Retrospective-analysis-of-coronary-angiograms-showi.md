@@ -2,7 +2,7 @@
 title: "Record d7fcf95133 · Retrospective-analysis-of-coronary-angiograms-showi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T14:47:46.265430+00:00
+updated_at: 2026-09-17T17:02:01.773587+00:00
 tags: [record, real-data]
 ---
 

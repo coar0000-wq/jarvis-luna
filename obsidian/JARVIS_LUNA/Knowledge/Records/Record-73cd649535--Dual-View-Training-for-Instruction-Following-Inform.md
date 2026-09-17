@@ -2,7 +2,7 @@
 title: "Record 73cd649535 · Dual-View-Training-for-Instruction-Following-Inform"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T14:47:46.653104+00:00
+updated_at: 2026-09-17T17:02:02.131605+00:00
 tags: [record, real-data]
 ---
 

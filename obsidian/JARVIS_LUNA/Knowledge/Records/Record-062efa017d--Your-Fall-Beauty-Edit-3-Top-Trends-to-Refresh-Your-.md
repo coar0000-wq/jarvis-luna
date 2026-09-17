@@ -2,7 +2,7 @@
 title: "Record 062efa017d · Your-Fall-Beauty-Edit-3-Top-Trends-to-Refresh-Your-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T14:47:46.494312+00:00
+updated_at: 2026-09-17T17:02:01.983856+00:00
 tags: [record, real-data]
 ---
 
@@ -13,10 +13,9 @@ tags: [record, real-data]
 **제목:** Your Fall Beauty Edit: 3 Top Trends to Refresh Your Routine at Target - corporate.target.com
 
 Your Fall Beauty Edit: 3 Top Trends to Refresh Your Routine at Target - corporate.target.com
-Your Fall Beauty Edit: 3 Top Trends to Refresh Your Routine at Target - corporate.target.com
 
-**출처:** Source · us_beauty
+**출처:** Source · Google Search
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
