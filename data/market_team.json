@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-09-17T19:24:43.838468+09:00",
+    "updated_at": "2026-09-17T19:27:11.352895+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -389,8 +389,8 @@
         "collagen mask",
         "face mask",
         "facial mask",
-        "firming mask",
-        "hydrating mask"
+        "gel mask",
+        "korean beauty"
       ],
       "linked_s_products": [
         "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
@@ -434,7 +434,6 @@
       "us_example_count": 3,
       "gemini_tags": [
         "boosting ampoule",
-        "face ampoule",
         "facial ampoule",
         "korean skincare"
       ],
@@ -477,8 +476,11 @@
       ],
       "us_example_count": 3,
       "gemini_tags": [
+        "face cream",
+        "glow cream",
         "korean skincare",
-        "radiance cream"
+        "moisturizing cream",
+        "pdrn cream"
       ],
       "linked_s_products": [
         "[영양광채]VT PDRN 광채 크림 50 ml",
@@ -519,6 +521,7 @@
       ],
       "us_example_count": 3,
       "gemini_tags": [
+        "pdrn cream",
         "pdrn mask"
       ],
       "linked_s_products": [
@@ -601,9 +604,8 @@
       ],
       "us_example_count": 3,
       "gemini_tags": [
+        "brightening serum",
         "face serum",
-        "facial serum",
-        "korean skincare",
         "retinol serum"
       ],
       "linked_s_products": [
@@ -644,9 +646,10 @@
       ],
       "us_example_count": 3,
       "gemini_tags": [
-        "face toner",
+        "facial toner",
         "heartleaf toner",
-        "korean toner",
+        "hydrating toner",
+        "korean skincare",
         "vegan toner"
       ],
       "linked_s_products": [
@@ -764,7 +767,11 @@
         }
       ],
       "us_example_count": 3,
-      "gemini_tags": [],
+      "gemini_tags": [
+        "facial cleanser",
+        "hydrating cleanser",
+        "korean skincare"
+      ],
       "linked_s_products": [
         "바세린 모이스처라이징 클렌징 밀크 140 ml"
       ],
@@ -791,9 +798,9 @@
         "vt-cosmetics",
         "reedle-shot",
         "facial-ampoule",
-        "k-beauty",
+        "korean-skincare",
         "skin-texture",
-        "face-serum"
+        "facial-boosting"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "listing_ready": true,
@@ -815,12 +822,12 @@
       "margin_pct": null,
       "shopify_action": "1차 등록",
       "ad_keywords": [
-        "vonsep",
         "retinol-serum",
-        "facial-serum",
-        "korean-skincare",
         "k-beauty",
-        "face-serum"
+        "face-serum",
+        "skincare",
+        "vonsep",
+        "brightening-serum"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "listing_ready": true,
@@ -844,10 +851,10 @@
       "ad_keywords": [
         "vt-cosmetics",
         "reedle-shot",
-        "face-ampoule",
+        "facial-ampoule",
         "korean-skincare",
-        "boosting-ampoule",
-        "facial-ampoule"
+        "skin-texture",
+        "boosting-ampoule"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "listing_ready": true,
@@ -857,7 +864,7 @@
       "rank": 4,
       "pd_no": "1067498",
       "name": "[영양광채]VT PDRN 광채 크림 50 ml",
-      "name_en": null,
+      "name_en": "VT PDRN Glow Cream 50 ml",
       "bucket": "스킨케어",
       "score": 96,
       "rating": 4.8,
@@ -868,9 +875,16 @@
       "suggested_price_usd": 19.99,
       "margin_pct": null,
       "shopify_action": "1차 등록",
-      "ad_keywords": [],
-      "ad_keywords_source": "카피 미생성",
-      "listing_ready": false,
+      "ad_keywords": [
+        "vt-cosmetics",
+        "pdrn-cream",
+        "glow-cream",
+        "korean-skincare",
+        "face-cream",
+        "moisturizing-cream"
+      ],
+      "ad_keywords_source": "Gemini 영문 카피 태그",
+      "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067498"
     },
     {
@@ -891,10 +905,10 @@
       "ad_keywords": [
         "celderma",
         "pdrn-mask",
-        "k-beauty",
         "sheet-mask",
+        "korean-skincare",
         "radiance-cream",
-        "korean-skincare"
+        "wrapping-mask"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "listing_ready": true,
@@ -918,10 +932,10 @@
       "ad_keywords": [
         "vt-cosmetics",
         "sleeping-mask",
-        "hyaluronic-acid",
-        "korean-beauty",
         "facial-mask",
-        "skincare"
+        "k-beauty",
+        "skincare",
+        "hyaluronic-acid"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "listing_ready": true,
@@ -931,7 +945,7 @@
       "rank": 7,
       "pd_no": "1041403",
       "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-      "name_en": "Chaebi Gongan Houttuynia Cordata Extract Vegan Toner 150 ml",
+      "name_en": "Chaebi Gongan Heartleaf Extract Vegan Toner 150ml",
       "bucket": "스킨케어",
       "score": 91,
       "rating": 4.8,
@@ -943,12 +957,12 @@
       "margin_pct": null,
       "shopify_action": "2차 검토",
       "ad_keywords": [
-        "korean-toner",
+        "korean-skincare",
         "vegan-toner",
         "heartleaf-toner",
+        "facial-toner",
         "k-beauty",
-        "face-toner",
-        "skincare"
+        "hydrating-toner"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "listing_ready": true,
@@ -973,9 +987,9 @@
         "celderma",
         "collagen-mask",
         "sheet-mask",
+        "korean-beauty",
         "k-beauty",
-        "facial-mask",
-        "firming-mask"
+        "face-mask"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "listing_ready": true,
@@ -997,12 +1011,12 @@
       "margin_pct": null,
       "shopify_action": "2차 검토",
       "ad_keywords": [
-        "sheet-mask",
-        "collagen-mask",
         "celderma",
+        "sheet-mask",
+        "gel-mask",
+        "collagen-mask",
         "k-beauty",
-        "face-mask",
-        "hydrating-mask"
+        "facial-mask"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "listing_ready": true,
@@ -1012,7 +1026,7 @@
       "rank": 10,
       "pd_no": "1060211",
       "name": "바세린 모이스처라이징 클렌징 밀크 140 ml",
-      "name_en": null,
+      "name_en": "Vaseline Moisturizing Cleansing Milk 140 ml",
       "bucket": "클렌징",
       "score": 87,
       "rating": 4.8,
@@ -1023,37 +1037,20 @@
       "suggested_price_usd": 19.99,
       "margin_pct": null,
       "shopify_action": "2차 검토",
-      "ad_keywords": [],
-      "ad_keywords_source": "카피 미생성",
-      "listing_ready": false,
+      "ad_keywords": [
+        "vaseline",
+        "cleansing-milk",
+        "k-beauty",
+        "facial-cleanser",
+        "hydrating-cleanser",
+        "korean-skincare"
+      ],
+      "ad_keywords_source": "Gemini 영문 카피 태그",
+      "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060211"
     }
   ],
   "competitor_watch": [
-    {
-      "name": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
-      "brand": "AESTURA",
-      "price_usd": 32.0,
-      "rating": 5,
-      "review_count": 2,
-      "us_rank": 4,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 4위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA71026007",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "[7types] MEDIHEAL Toner Pad 100 + 100 Pads Double Set",
-      "brand": "MEDIHEAL",
-      "price_usd": 39.99,
-      "rating": 4.8,
-      "review_count": 15848,
-      "us_rank": 5,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 5위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA32407466",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
     {
       "name": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
       "brand": "ROUND LAB",
@@ -1061,9 +1058,33 @@
       "rating": 5,
       "review_count": 4,
       "us_rank": 6,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 6위 · 스킨케어 동일 포지션",
+      "daiso_bucket": "클렌징",
+      "why": "us.oliveyoung.com/best-sellers 실수집 6위 · 클렌징 동일 포지션",
       "url": "https://us.oliveyoung.com/products/UA38918945",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "beplain Mung Bean pH-Balanced Cleansing Foam 5.41 fl. oz.(160ml)",
+      "brand": "beplain",
+      "price_usd": 15.9,
+      "rating": 4.6,
+      "review_count": 17,
+      "us_rank": 15,
+      "daiso_bucket": "클렌징",
+      "why": "us.oliveyoung.com/best-sellers 실수집 15위 · 클렌징 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA34557979",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set",
+      "brand": "ROUND LAB",
+      "price_usd": 19.99,
+      "rating": 4.8,
+      "review_count": 4,
+      "us_rank": 18,
+      "daiso_bucket": "클렌징",
+      "why": "us.oliveyoung.com/best-sellers 실수집 18위 · 클렌징 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA40428614",
       "source": "us.oliveyoung.com/best-sellers 실수집"
     },
     {
@@ -1103,45 +1124,44 @@
       "source": "us.oliveyoung.com/best-sellers 실수집"
     },
     {
+      "name": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+      "brand": "AESTURA",
+      "price_usd": 32.0,
+      "rating": 5,
+      "review_count": 2,
+      "us_rank": 4,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 4위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA71026007",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "[7types] MEDIHEAL Toner Pad 100 + 100 Pads Double Set",
+      "brand": "MEDIHEAL",
+      "price_usd": 39.99,
+      "rating": 4.8,
+      "review_count": 15848,
+      "us_rank": 5,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 5위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA32407466",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
       "name": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
       "brand": "ROUND LAB",
       "price_usd": 21.24,
       "rating": 5,
       "review_count": 4,
       "us_rank": 6,
-      "daiso_bucket": "클렌징",
-      "why": "us.oliveyoung.com/best-sellers 실수집 6위 · 클렌징 동일 포지션",
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 6위 · 스킨케어 동일 포지션",
       "url": "https://us.oliveyoung.com/products/UA38918945",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "beplain Mung Bean pH-Balanced Cleansing Foam 5.41 fl. oz.(160ml)",
-      "brand": "beplain",
-      "price_usd": 15.9,
-      "rating": 4.6,
-      "review_count": 17,
-      "us_rank": 15,
-      "daiso_bucket": "클렌징",
-      "why": "us.oliveyoung.com/best-sellers 실수집 15위 · 클렌징 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA34557979",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set",
-      "brand": "ROUND LAB",
-      "price_usd": 19.99,
-      "rating": 4.8,
-      "review_count": 4,
-      "us_rank": 18,
-      "daiso_bucket": "클렌징",
-      "why": "us.oliveyoung.com/best-sellers 실수집 18위 · 클렌징 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA40428614",
       "source": "us.oliveyoung.com/best-sellers 실수집"
     }
   ],
   "weekly_actions": [
-    "영문 카피가 준비된 8건 중 상위 5건을 Shopify 초안으로 등록",
-    "카피 미생성 2건에 대해 shopify-listing-copy 워크플로 재실행",
+    "영문 카피가 준비된 10건 중 상위 5건을 Shopify 초안으로 등록",
     "시장 가격대 100건 기준 중앙값 $23.76 주 1회 확인",
     "묶음 구매 유도용 무료배송 최소 주문금액 설정 (낱개 배송 시 적자 구조라 필수)"
   ],
@@ -1165,7 +1185,7 @@
       "open_beauty_facts"
     ],
     "s_count": 10,
-    "listing_ready_count": 8,
+    "listing_ready_count": 10,
     "last_score_run": "2026-09-17",
     "last_pricing_run": "2026-09-17",
     "exchange_rate": 1369.81

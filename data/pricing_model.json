@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-17T10:24:43.428475+00:00",
+  "generated_at": "2026-09-17T10:26:33.533805+00:00",
   "exchange_rate": {
     "usd_to_krw": 1369.81,
     "as_of": "2026-09-17",
-    "source": "ExchangeRate-API"
+    "source": "https://open.er-api.com/v6/latest/USD"
   },
   "cost_basis": {
     "shipping": "우체국 국제통상 소형포장물 미국행 요금표 (ems.epost.go.kr, 2026-08-31 조회)",

@@ -1,6 +1,6 @@
 {
   "agent": "Ops-Prioritizer",
-  "generated_at": "2026-09-17T10:25:22.342814+00:00",
+  "generated_at": "2026-09-17T10:27:14.958141+00:00",
   "risk": "medium",
   "task_count": 5,
   "tasks": [
@@ -34,8 +34,8 @@
     },
     {
       "priority": 4,
-      "title": "팀 조치 · 리스팅 제작팀",
-      "detail": "카피 2건 이 막고 있음",
+      "title": "팀 조치 · 디자인팀",
+      "detail": "다음 단계: Shopify 스토어 개설 및 기본 설정",
       "refs": [
         "data/dashboard_runtime.json"
       ],
@@ -43,8 +43,8 @@
     },
     {
       "priority": 4,
-      "title": "팀 조치 · 디자인팀",
-      "detail": "다음 단계: Shopify 스토어 개설 및 기본 설정",
+      "title": "팀 조치 · 지식 수집팀",
+      "detail": "수집 실패: arXiv(export.arxiv.org/robots.txt 가 Disallow: / 다. robots 를 지키기로 해서 받지 않는다.)",
       "refs": [
         "data/dashboard_runtime.json"
       ],
@@ -69,11 +69,11 @@
       },
       {
         "n": 4,
-        "text": "팀 조치 · 리스팅 제작팀 — 카피 2건 이 막고 있음"
+        "text": "팀 조치 · 디자인팀 — 다음 단계: Shopify 스토어 개설 및 기본 설정"
       },
       {
         "n": 5,
-        "text": "팀 조치 · 디자인팀 — 다음 단계: Shopify 스토어 개설 및 기본 설정"
+        "text": "팀 조치 · 지식 수집팀 — 수집 실패: arXiv(export.arxiv.org/robots.txt 가 Disallow: / 다. robots 를 지키기로 해서 받지 않는"
       }
     ]
   }
