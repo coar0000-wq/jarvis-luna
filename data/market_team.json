@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-09-17T12:23:25.163614+09:00",
+    "updated_at": "2026-09-17T12:25:34.588813+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -993,42 +993,6 @@
   ],
   "competitor_watch": [
     {
-      "name": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-      "brand": "MEDIHEAL",
-      "price_usd": 20.99,
-      "rating": 4.8,
-      "review_count": 1074,
-      "us_rank": 5,
-      "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 5위 · 마스크팩 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA48723304",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "[20shades] TIRTIR Mask Fit AI Filter Cushion 0.63 oz.(18g)",
-      "brand": "TIRTIR",
-      "price_usd": 20.0,
-      "rating": 4.4,
-      "review_count": 485,
-      "us_rank": 10,
-      "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 10위 · 마스크팩 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA52938847",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "Torriden Balanceful Cica Mask 10ct 0.85 fl. oz.(25ml)",
-      "brand": "Torriden",
-      "price_usd": 29.7,
-      "rating": 5,
-      "review_count": 2,
-      "us_rank": 44,
-      "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 44위 · 마스크팩 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA51309538",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
       "name": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
       "brand": "lilyeve",
       "price_usd": 23.76,
@@ -1062,6 +1026,42 @@
       "daiso_bucket": "스킨케어",
       "why": "us.oliveyoung.com/best-sellers 실수집 7위 · 스킨케어 동일 포지션",
       "url": "https://us.oliveyoung.com/products/UA73639757",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
+      "brand": "MEDIHEAL",
+      "price_usd": 20.99,
+      "rating": 4.8,
+      "review_count": 1074,
+      "us_rank": 5,
+      "daiso_bucket": "마스크팩",
+      "why": "us.oliveyoung.com/best-sellers 실수집 5위 · 마스크팩 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA48723304",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "[20shades] TIRTIR Mask Fit AI Filter Cushion 0.63 oz.(18g)",
+      "brand": "TIRTIR",
+      "price_usd": 20.0,
+      "rating": 4.4,
+      "review_count": 485,
+      "us_rank": 10,
+      "daiso_bucket": "마스크팩",
+      "why": "us.oliveyoung.com/best-sellers 실수집 10위 · 마스크팩 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA52938847",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "Torriden Balanceful Cica Mask 10ct 0.85 fl. oz.(25ml)",
+      "brand": "Torriden",
+      "price_usd": 29.7,
+      "rating": 5,
+      "review_count": 2,
+      "us_rank": 44,
+      "daiso_bucket": "마스크팩",
+      "why": "us.oliveyoung.com/best-sellers 실수집 44위 · 마스크팩 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA51309538",
       "source": "us.oliveyoung.com/best-sellers 실수집"
     }
   ],
