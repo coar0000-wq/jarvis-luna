@@ -2,7 +2,7 @@
 title: "Record f45c0e3a17 · What-the-experts-really-think-about-TikTok-beauty-t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T03:16:30.982363+00:00
+updated_at: 2026-09-17T04:55:45.559756+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMieEFVX3lxTE5aS1RUM1BFcWNxQlVKLTRlRWFJSDFnUk1YMllsV2txUmo0bURWajhjNmRXaDZEakhhUjdJdGtzR0Q4cENjQnZQS25iMk5uTFdKNFJ4M1Jmc1g5dFJuQjNFTzJlQy12MnpXM0VKUzZZXzVJamlNN1U0eg?oc=5)
 
-**제목:** What the experts really think about TikTok beauty trends - evoke.ie
+**제목:** What the experts really think about TikTok beauty trends - EVOKE
 
-What the experts really think about TikTok beauty trends - evoke.ie
+What the experts really think about TikTok beauty trends - EVOKE
 
 **출처:** Source · Google Search
 

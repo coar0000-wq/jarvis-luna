@@ -2,7 +2,7 @@
 title: "Record b387be949e · Can-AI-Agents-Detect-and-Repair-Artifact-Drift-in-N"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T03:16:30.621110+00:00
+updated_at: 2026-09-17T04:55:45.305888+00:00
 tags: [record, real-data]
 ---
 

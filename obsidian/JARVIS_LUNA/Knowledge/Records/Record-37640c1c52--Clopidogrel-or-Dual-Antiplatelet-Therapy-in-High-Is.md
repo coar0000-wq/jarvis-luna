@@ -2,7 +2,7 @@
 title: "Record 37640c1c52 · Clopidogrel-or-Dual-Antiplatelet-Therapy-in-High-Is"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T03:16:30.722408+00:00
+updated_at: 2026-09-17T04:55:45.372612+00:00
 tags: [record, real-data]
 ---
 

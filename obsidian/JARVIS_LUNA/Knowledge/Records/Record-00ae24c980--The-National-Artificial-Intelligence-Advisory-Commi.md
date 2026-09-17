@@ -2,7 +2,7 @@
 title: "Record 00ae24c980 · The-National-Artificial-Intelligence-Advisory-Commi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T03:16:30.786337+00:00
+updated_at: 2026-09-17T04:55:45.412998+00:00
 tags: [record, real-data]
 ---
 

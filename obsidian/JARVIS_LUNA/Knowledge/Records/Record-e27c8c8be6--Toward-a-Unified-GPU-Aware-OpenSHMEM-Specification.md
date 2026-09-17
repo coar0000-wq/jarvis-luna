@@ -2,7 +2,7 @@
 title: "Record e27c8c8be6 · Toward-a-Unified-GPU-Aware-OpenSHMEM-Specification"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T03:16:31.176192+00:00
+updated_at: 2026-09-17T04:55:45.719454+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2418014a57 · Asynchronous-Model-Predictive-Control-Under-Model-M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T03:16:30.611259+00:00
+updated_at: 2026-09-17T04:55:45.299222+00:00
 tags: [record, real-data]
 ---
 

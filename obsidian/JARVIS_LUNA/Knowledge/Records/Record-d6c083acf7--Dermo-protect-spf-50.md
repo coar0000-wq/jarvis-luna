@@ -2,7 +2,7 @@
 title: "Record d6c083acf7 · Dermo-protect-spf-50"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T03:16:31.218876+00:00
+updated_at: 2026-09-17T04:55:45.755436+00:00
 tags: [record, real-data]
 ---
 

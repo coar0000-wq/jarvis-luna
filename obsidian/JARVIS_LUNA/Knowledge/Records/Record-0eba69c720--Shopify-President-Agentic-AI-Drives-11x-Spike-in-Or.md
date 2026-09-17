@@ -2,7 +2,7 @@
 title: "Record 0eba69c720 · Shopify-President-Agentic-AI-Drives-11x-Spike-in-Or"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T03:16:31.088701+00:00
+updated_at: 2026-09-17T04:55:45.655016+00:00
 tags: [record, real-data]
 ---
 

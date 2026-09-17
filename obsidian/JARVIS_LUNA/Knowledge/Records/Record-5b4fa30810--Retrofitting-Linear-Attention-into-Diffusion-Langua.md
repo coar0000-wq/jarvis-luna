@@ -2,7 +2,7 @@
 title: "Record 5b4fa30810 · Retrofitting-Linear-Attention-into-Diffusion-Langua"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T03:16:31.185224+00:00
+updated_at: 2026-09-17T04:55:45.725833+00:00
 tags: [record, real-data]
 ---
 

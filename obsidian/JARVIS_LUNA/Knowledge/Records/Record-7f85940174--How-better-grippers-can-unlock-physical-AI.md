@@ -2,7 +2,7 @@
 title: "Record 7f85940174 · How-better-grippers-can-unlock-physical-AI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T03:16:31.340968+00:00
+updated_at: 2026-09-17T04:55:45.853532+00:00
 tags: [record, real-data]
 ---
 

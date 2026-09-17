@@ -2,7 +2,7 @@
 title: "Record 8f306ab88a · AEO-for-Ecommerce-Drive-Traffic-From-AI-Search-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T03:16:30.920331+00:00
+updated_at: 2026-09-17T04:55:45.509366+00:00
 tags: [record, real-data]
 ---
 

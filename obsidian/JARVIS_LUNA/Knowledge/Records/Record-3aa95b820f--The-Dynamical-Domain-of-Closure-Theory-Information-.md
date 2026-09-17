@@ -2,7 +2,7 @@
 title: "Record 3aa95b820f · The-Dynamical-Domain-of-Closure-Theory-Information-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T03:16:30.821478+00:00
+updated_at: 2026-09-17T04:55:45.438515+00:00
 tags: [record, real-data]
 ---
 

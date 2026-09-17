@@ -2,7 +2,7 @@
 title: "Record 3106976e3b · A2SGAdaptive-and-Asymmetric-Surrogate-Gradients-for"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T03:16:31.169176+00:00
+updated_at: 2026-09-17T04:55:45.714449+00:00
 tags: [record, real-data]
 ---
 

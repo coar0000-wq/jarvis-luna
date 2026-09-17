@@ -2,7 +2,7 @@
 title: "Record 7294a35ab2 · Spatially-Organized-Tertiary-Lymphoid-Structures-Em"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T03:16:30.845634+00:00
+updated_at: 2026-09-17T04:55:45.454049+00:00
 tags: [record, real-data]
 ---
 
