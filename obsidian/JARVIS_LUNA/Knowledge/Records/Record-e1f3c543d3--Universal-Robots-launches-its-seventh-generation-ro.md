@@ -2,7 +2,7 @@
 title: "Record e1f3c543d3 · Universal-Robots-launches-its-seventh-generation-robot-platform-at-IMT"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T22:47:53.863010+00:00
+updated_at: 2026-09-17T03:16:31.349541+00:00
 tags: [record, real-data]
 ---
 

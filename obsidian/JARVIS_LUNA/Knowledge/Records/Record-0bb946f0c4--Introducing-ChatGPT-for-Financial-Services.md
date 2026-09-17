@@ -2,7 +2,7 @@
 title: "Record 0bb946f0c4 · Introducing-ChatGPT-for-Financial-Services"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T22:47:53.644470+00:00
+updated_at: 2026-09-17T03:16:31.150425+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record dce76fabcd · One-Diffusion-Model-Two-Roles-Guided-Trajectory-Pla"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T22:47:53.058799+00:00
+updated_at: 2026-09-17T03:16:30.586305+00:00
 tags: [record, real-data]
 ---
 

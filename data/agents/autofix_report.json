@@ -1,6 +1,6 @@
 {
   "agent": "Safe-Auto-Fix",
-  "generated_at": "2026-09-16T22:47:27.286980+00:00",
+  "generated_at": "2026-09-17T03:16:06.888857+00:00",
   "status": "success",
   "enabled": true,
   "chief_of_staff": {
@@ -12,9 +12,9 @@
   "snapshot_before": {
     "collection": {
       "requested": 110,
-      "ok": 46,
+      "ok": 42,
       "parse_failed": 0,
-      "finished_at": "2026-09-15T23:15:15.224592+00:00"
+      "finished_at": "2026-09-16T23:11:07.203823+00:00"
     },
     "channels": {
       "live": 11,
@@ -29,16 +29,16 @@
       ]
     },
     "graph": {
-      "nodes": 81522,
-      "links": 325904,
+      "nodes": 81555,
+      "links": 326209,
       "dangling_generated": 0,
-      "runtime_nodes": 81522,
-      "runtime_links": 325904,
+      "runtime_nodes": 81555,
+      "runtime_links": 326209,
       "runtime_dangling_generated": 0,
       "truth_guard": {
         "vault": "obsidian/JARVIS_LUNA",
-        "actual_nodes": 81522,
-        "actual_links": 325904,
+        "actual_nodes": 81555,
+        "actual_links": 326209,
         "actual_dangling_generated": 0,
         "actual_dangling_personal": 21,
         "generated_dangling_samples": [],
@@ -126,8 +126,8 @@
         ],
         "generated_dangling_sample_source_count": 0,
         "personal_dangling_sample_source_count": 8,
-        "runtime_nodes": 81522,
-        "runtime_links": 325904,
+        "runtime_nodes": 81555,
+        "runtime_links": 326209,
         "runtime_dangling_generated": 0,
         "runtime_consistent": true,
         "anomaly": false,
@@ -135,7 +135,7 @@
       }
     },
     "shopify": {
-      "s_count": 9
+      "s_count": 10
     },
     "queue": {
       "blacklist_count": 0
@@ -144,9 +144,9 @@
   "snapshot_after": {
     "collection": {
       "requested": 110,
-      "ok": 46,
+      "ok": 42,
       "parse_failed": 0,
-      "finished_at": "2026-09-15T23:15:15.224592+00:00"
+      "finished_at": "2026-09-16T23:11:07.203823+00:00"
     },
     "channels": {
       "live": 11,
@@ -161,16 +161,16 @@
       ]
     },
     "graph": {
-      "nodes": 81522,
-      "links": 325904,
+      "nodes": 81555,
+      "links": 326209,
       "dangling_generated": 0,
-      "runtime_nodes": 81522,
-      "runtime_links": 325904,
+      "runtime_nodes": 81555,
+      "runtime_links": 326209,
       "runtime_dangling_generated": 0,
       "truth_guard": {
         "vault": "obsidian/JARVIS_LUNA",
-        "actual_nodes": 81522,
-        "actual_links": 325904,
+        "actual_nodes": 81555,
+        "actual_links": 326209,
         "actual_dangling_generated": 0,
         "actual_dangling_personal": 21,
         "generated_dangling_samples": [],
@@ -258,8 +258,8 @@
         ],
         "generated_dangling_sample_source_count": 0,
         "personal_dangling_sample_source_count": 8,
-        "runtime_nodes": 81522,
-        "runtime_links": 325904,
+        "runtime_nodes": 81555,
+        "runtime_links": 326209,
         "runtime_dangling_generated": 0,
         "runtime_consistent": true,
         "anomaly": false,
@@ -267,7 +267,7 @@
       }
     },
     "shopify": {
-      "s_count": 9
+      "s_count": 10
     },
     "queue": {
       "blacklist_count": 0
@@ -276,20 +276,20 @@
   "improvement": {
     "graph_dangling_before": 0,
     "graph_dangling_after": 0,
-    "graph_nodes_before": 81522,
-    "graph_nodes_after": 81522,
-    "graph_links_before": 325904,
-    "graph_links_after": 325904,
+    "graph_nodes_before": 81555,
+    "graph_nodes_after": 81555,
+    "graph_links_before": 326209,
+    "graph_links_after": 326209,
     "parse_failed_before": 0,
     "parse_failed_after": 0,
-    "s_count_before": 9,
-    "s_count_after": 9,
+    "s_count_before": 10,
+    "s_count_after": 10,
     "channels_live_before": 11,
     "channels_live_after": 11,
     "obsidian_truth_before": {
       "vault": "obsidian/JARVIS_LUNA",
-      "actual_nodes": 81522,
-      "actual_links": 325904,
+      "actual_nodes": 81555,
+      "actual_links": 326209,
       "actual_dangling_generated": 0,
       "actual_dangling_personal": 21,
       "generated_dangling_samples": [],
@@ -377,8 +377,8 @@
       ],
       "generated_dangling_sample_source_count": 0,
       "personal_dangling_sample_source_count": 8,
-      "runtime_nodes": 81522,
-      "runtime_links": 325904,
+      "runtime_nodes": 81555,
+      "runtime_links": 326209,
       "runtime_dangling_generated": 0,
       "runtime_consistent": true,
       "anomaly": false,
@@ -386,8 +386,8 @@
     },
     "obsidian_truth_after": {
       "vault": "obsidian/JARVIS_LUNA",
-      "actual_nodes": 81522,
-      "actual_links": 325904,
+      "actual_nodes": 81555,
+      "actual_links": 326209,
       "actual_dangling_generated": 0,
       "actual_dangling_personal": 21,
       "generated_dangling_samples": [],
@@ -475,8 +475,8 @@
       ],
       "generated_dangling_sample_source_count": 0,
       "personal_dangling_sample_source_count": 8,
-      "runtime_nodes": 81522,
-      "runtime_links": 325904,
+      "runtime_nodes": 81555,
+      "runtime_links": 326209,
       "runtime_dangling_generated": 0,
       "runtime_consistent": true,
       "anomaly": false,

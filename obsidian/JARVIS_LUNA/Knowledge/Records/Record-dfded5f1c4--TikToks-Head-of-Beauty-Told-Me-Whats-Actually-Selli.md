@@ -2,7 +2,7 @@
 title: "Record dfded5f1c4 · TikToks-Head-of-Beauty-Told-Me-Whats-Actually-Selli"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T22:47:53.479462+00:00
+updated_at: 2026-09-17T03:16:31.003806+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMigAFBVV95cUxQazQwTmJMTG94Yk05WUEwTEQybGtDLTA2NjJMVVVEVzhVelRfeGI2Z0RUa1Rzb28wTTdIRkhaYkFjdmNvdTNscEc2Mk9wNGE3M3lhbTVfQVU3Slp0Y0JEV2w3UmpLVTAzcHltaU1iRGUyeERxLWVqdXNMZjFrRDNWNg?oc=5)
 
-**제목:** TikTok's Head of Beauty Told Me What's Actually Selling—Meet the 12 Products in Everyone's Carts - Who What Wear
+**제목:** TikTok's Head of Beauty Told Me What's Actually Selling—Meet the 12 Products in Everyone's Carts - whowhatwear.com
 
-TikTok's Head of Beauty Told Me What's Actually Selling—Meet the 12 Products in Everyone's Carts - Who What Wear
+TikTok's Head of Beauty Told Me What's Actually Selling—Meet the 12 Products in Everyone's Carts - whowhatwear.com
 
 **출처:** Source · Google Search
 

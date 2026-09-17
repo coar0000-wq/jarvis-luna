@@ -1,6 +1,6 @@
 {
   "agent": "Score-Explain",
-  "generated_at": "2026-09-17T01:36:23.984356+00:00",
+  "generated_at": "2026-09-17T03:23:29.502392+00:00",
   "s_count": 10,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
   "items": [
@@ -8,8 +8,8 @@
       "pd_no": "1049276",
       "name": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
       "score": 100,
-      "why": "글로벌 'REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 73% · 토큰 ampoule",
-      "global": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
+      "why": "글로벌 'lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)' (oliveyoung_us) 유사 67% · 토큰 ampoule",
+      "global": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
       "channel": "oliveyoung_us",
       "tokens": [
         "ampoule"
@@ -31,8 +31,8 @@
       "pd_no": "1049275",
       "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
       "score": 98,
-      "why": "글로벌 'REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 73% · 토큰 ampoule",
-      "global": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
+      "why": "글로벌 'lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)' (oliveyoung_us) 유사 67% · 토큰 ampoule",
+      "global": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
       "channel": "oliveyoung_us",
       "tokens": [
         "ampoule"
@@ -65,37 +65,13 @@
     {
       "pd_no": "1049285",
       "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-      "score": 92,
+      "score": 93,
       "why": "글로벌 'BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Plumping, Travel Essentials & Self Care Gifts for Women, Korean Skin Care | 1.19oz(34g) x 4ea' (amazon_best_sellers) 유사 64% · 토큰 hydrating, mask",
       "global": "BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Plumping, Travel Essentials & Self Care Gifts for Women, Korean Skin Care | 1.19oz(34g) x 4ea",
       "channel": "amazon_best_sellers",
       "tokens": [
         "hydrating",
         "mask"
-      ]
-    },
-    {
-      "pd_no": "1041403",
-      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-      "score": 91,
-      "why": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 92% · 토큰 heartleaf, toner",
-      "global": "ANUA Heartleaf 77 Soothing Toner",
-      "channel": "tiktok_shop_us",
-      "tokens": [
-        "heartleaf",
-        "toner"
-      ]
-    },
-    {
-      "pd_no": "1049271",
-      "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
-      "score": 91,
-      "why": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 60% · 토큰 calming, toner",
-      "global": "ANUA Heartleaf 77 Soothing Toner",
-      "channel": "tiktok_shop_us",
-      "tokens": [
-        "calming",
-        "toner"
       ]
     },
     {
@@ -111,15 +87,39 @@
       ]
     },
     {
-      "pd_no": "1060211",
-      "name": "바세린 모이스처라이징 클렌징 밀크 140 ml",
-      "score": 86,
-      "why": "글로벌 'ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set' (oliveyoung_us) 유사 70% · 토큰 cleanser, moisturizer",
-      "global": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
-      "channel": "oliveyoung_us",
+      "pd_no": "1049271",
+      "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+      "score": 90,
+      "why": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 60% · 토큰 calming, toner",
+      "global": "ANUA Heartleaf 77 Soothing Toner",
+      "channel": "tiktok_shop_us",
       "tokens": [
-        "cleanser",
-        "moisturizer"
+        "calming",
+        "toner"
+      ]
+    },
+    {
+      "pd_no": "1042619",
+      "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
+      "score": 89,
+      "why": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 68% · 토큰 collagen, mask",
+      "global": "Biodance Bio-Collagen Real Deep Mask",
+      "channel": "tiktok_shop_us",
+      "tokens": [
+        "collagen",
+        "mask"
+      ]
+    },
+    {
+      "pd_no": "1041403",
+      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+      "score": 88,
+      "why": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 92% · 토큰 heartleaf, toner",
+      "global": "ANUA Heartleaf 77 Soothing Toner",
+      "channel": "tiktok_shop_us",
+      "tokens": [
+        "heartleaf",
+        "toner"
       ]
     }
   ],

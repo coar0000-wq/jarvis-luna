@@ -2,7 +2,7 @@
 title: "Record bc3d372aee · Anthropic-Partners-With-Google-Cloud"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T22:47:53.755257+00:00
+updated_at: 2026-09-17T03:16:31.254567+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1facb93a54 · Moisture-Whipped-Ceramide-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T22:47:53.867104+00:00
+updated_at: 2026-09-17T03:16:31.353499+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** Moisture Whipped Ceramide Cream
 
 Moisture Whipped Ceramide Cream
-Moisture Whipped Ceramide Cream · Kopari Beauty · $44
+Moisture Whipped Ceramide Cream · Kopari Beauty · $22
 
 **출처:** Source · us_beauty
 

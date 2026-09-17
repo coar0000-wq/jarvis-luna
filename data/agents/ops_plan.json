@@ -1,6 +1,6 @@
 {
   "agent": "Ops-Prioritizer",
-  "generated_at": "2026-09-17T01:36:23.984392+00:00",
+  "generated_at": "2026-09-17T03:23:29.502430+00:00",
   "risk": "medium",
   "task_count": 5,
   "tasks": [
@@ -35,7 +35,7 @@
     {
       "priority": 4,
       "title": "팀 조치 · 마케팅 조사팀",
-      "detail": "고시 표 2건 필요 — 1049285 [수분보습]VT 슈퍼 히알론 슬리 https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285 / 1060211 바세린 모이스처라이징 클렌징 밀크 https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pd",
+      "detail": "고시 표 1건 필요 — 1049285 [수분보습]VT 슈퍼 히알론 슬리 https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285",
       "refs": [
         "data/dashboard_runtime.json"
       ],
@@ -44,7 +44,7 @@
     {
       "priority": 4,
       "title": "팀 조치 · 리스팅 제작팀",
-      "detail": "고시 2건, us_label 2건, 가격 3건 이 막고 있음",
+      "detail": "카피 1건, 고시 1건, us_label 1건 이 막고 있음",
       "refs": [
         "data/dashboard_runtime.json"
       ],
@@ -69,11 +69,11 @@
       },
       {
         "n": 4,
-        "text": "팀 조치 · 마케팅 조사팀 — 고시 표 2건 필요 — 1049285 [수분보습]VT 슈퍼 히알론 슬리 https://www.daisomall.co.kr/pd/pdr/SCR_P"
+        "text": "팀 조치 · 마케팅 조사팀 — 고시 표 1건 필요 — 1049285 [수분보습]VT 슈퍼 히알론 슬리 https://www.daisomall.co.kr/pd/pdr/SCR_P"
       },
       {
         "n": 5,
-        "text": "팀 조치 · 리스팅 제작팀 — 고시 2건, us_label 2건, 가격 3건 이 막고 있음"
+        "text": "팀 조치 · 리스팅 제작팀 — 카피 1건, 고시 1건, us_label 1건 이 막고 있음"
       }
     ]
   }

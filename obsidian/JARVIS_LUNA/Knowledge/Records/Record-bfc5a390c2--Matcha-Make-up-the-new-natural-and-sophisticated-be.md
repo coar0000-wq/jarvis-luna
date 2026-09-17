@@ -2,7 +2,7 @@
 title: "Record bfc5a390c2 · Matcha-Make-up-the-new-natural-and-sophisticated-be"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T22:47:53.442722+00:00
+updated_at: 2026-09-17T03:16:30.971860+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMidEFVX3lxTE5iVWZhTmZVclk5VWJlOURZMUhsVDN1MEpDVGJOTTBWM1RFZGc3LWR2M2NLdlJ2b01PcG5Wb3BwR2pMeUZiZkVJV3Z3ZjJFUGctVFlGaHA5ZGNwaDYyTEpxa0ltWHlGQWFMUWxRN0NkdlF0aFFB?oc=5)
 
-**제목:** Matcha Make-up: the new natural and sophisticated beauty trend - nssgclub.com
+**제목:** Matcha Make-up: the new natural and sophisticated beauty trend - nss g-club
 
-Matcha Make-up: the new natural and sophisticated beauty trend - nssgclub.com
+Matcha Make-up: the new natural and sophisticated beauty trend - nss g-club
 
 **출처:** Source · Google Search
 

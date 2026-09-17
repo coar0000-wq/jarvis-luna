@@ -2,7 +2,7 @@
 title: "Record 962c33c2a1 · Leidos-Delivers-Strong-Second-Quarter-and-Enhances-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T22:47:53.334870+00:00
+updated_at: 2026-09-17T03:16:30.867919+00:00
 tags: [record, real-data]
 ---
 

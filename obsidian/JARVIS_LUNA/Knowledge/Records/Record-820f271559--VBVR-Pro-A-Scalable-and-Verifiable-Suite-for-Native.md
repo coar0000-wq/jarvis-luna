@@ -2,7 +2,7 @@
 title: "Record 820f271559 · VBVR-Pro-A-Scalable-and-Verifiable-Suite-for-Native"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T22:47:53.957231+00:00
+updated_at: 2026-09-17T03:16:31.441916+00:00
 tags: [record, real-data]
 ---
 

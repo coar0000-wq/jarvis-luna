@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T22:40:09.216439+00:00",
+  "generated_at": "2026-09-17T03:08:49.110024+00:00",
   "generator": "scripts/ingest_youtube_channels.py",
   "입력": "data/manual/youtube_channels.txt",
   "robots": "youtube.com/robots.txt 의 Disallow 목록에 /@ 와 /channel/ 은 없다. 막힌 것은 /feeds/videos.xml, /results, /youtubei/ 등이다. 지정된 채널만 하나씩 본다. 2026-09-06 확인.",
@@ -45,9 +45,9 @@
     {
       "video_id": "2TlIg3VokY8",
       "title": "The UX Psychology Behind Apps People Can’t Stop Using",
-      "views_text": "498K views",
+      "views_text": "499K views",
       "published_text": "2 months ago",
-      "views": 498000,
+      "views": 499000,
       "url": "https://www.youtube.com/watch?v=2TlIg3VokY8",
       "channel": "uxpeak",
       "teams": [
@@ -93,9 +93,9 @@
     {
       "video_id": "GGg61sdEjeI",
       "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
-      "views_text": "254K views",
+      "views_text": "257K views",
       "published_text": "2 weeks ago",
-      "views": 254000,
+      "views": 257000,
       "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
       "channel": "uxpeak",
       "teams": [
@@ -202,7 +202,7 @@
   "items": [
     {
       "stale": false,
-      "last_ok_at": "2026-09-16T22:39:58.881840+00:00",
+      "last_ok_at": "2026-09-17T03:08:38.710246+00:00",
       "url": "https://www.youtube.com/@uxpeak",
       "note": "UX/UI 리디자인·전환율 (사용자 지정)",
       "team_hint": "design",
@@ -211,14 +211,14 @@
       "subscribers": "124K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-16T22:39:58.881861+00:00",
+      "checked_at": "2026-09-17T03:08:38.710271+00:00",
       "videos": [
         {
           "video_id": "GGg61sdEjeI",
           "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
-          "views_text": "254K views",
+          "views_text": "257K views",
           "published_text": "2 weeks ago",
-          "views": 254000,
+          "views": 257000,
           "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
           "channel": "uxpeak",
           "teams": [
@@ -228,9 +228,9 @@
         {
           "video_id": "2TlIg3VokY8",
           "title": "The UX Psychology Behind Apps People Can’t Stop Using",
-          "views_text": "498K views",
+          "views_text": "499K views",
           "published_text": "2 months ago",
-          "views": 498000,
+          "views": 499000,
           "url": "https://www.youtube.com/watch?v=2TlIg3VokY8",
           "channel": "uxpeak",
           "teams": [
@@ -240,9 +240,9 @@
         {
           "video_id": "zr37ibqXl1U",
           "title": "Top 3 UX/UI Redesigns That Make You Design Like a Pro",
-          "views_text": "105K views",
+          "views_text": "106K views",
           "published_text": "3 months ago",
-          "views": 105000,
+          "views": 106000,
           "url": "https://www.youtube.com/watch?v=zr37ibqXl1U",
           "channel": "uxpeak",
           "teams": [
@@ -469,16 +469,16 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-16T22:40:04.216217+00:00",
+      "last_ok_at": "2026-09-17T03:08:44.109799+00:00",
       "url": "https://www.youtube.com/@%EB%95%A1%ED%81%90%EC%B1%84%EB%84%90",
       "note": "땡스큐레이터 - 스몰 브랜드 브랜딩·수출·견적. 팀은 영상마다 자동 분류",
       "team_hint": "",
       "channel_name": "땡스큐레이터",
       "channel_id": "UCTBhYGg_U_pBOKLydoZrhwg",
-      "subscribers": "18.4K",
+      "subscribers": "18.5K",
       "video_count": 20,
       "error": "",
-      "checked_at": "2026-09-16T22:40:04.216233+00:00",
+      "checked_at": "2026-09-17T03:08:44.109816+00:00",
       "videos": [
         {
           "video_id": "CSr4DYGUPOM",
@@ -680,9 +680,9 @@
         {
           "video_id": "Tu8Ziv_y_Cc",
           "title": "마케팅에 속지않는 화장품 구매팁! 👌 ❌화장품 마케팅 싫어 🔥땡큐한 화장품 추천 ✔️ 솔직리뷰! 마케팅 썰 대방출 / 천연 화장품 /유기농 화장품 / 더마 화장품 [땡큐]",
-          "views_text": "992 views",
+          "views_text": "994 views",
           "published_text": "6 years ago",
-          "views": 992,
+          "views": 994,
           "url": "https://www.youtube.com/watch?v=Tu8Ziv_y_Cc",
           "channel": "땡스큐레이터",
           "teams": [

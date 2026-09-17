@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-16T22:40:52.241753+00:00",
+  "collected_at": "2026-09-17T03:09:28.662539+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -44,10 +44,6 @@
   ],
   "hot_keywords": [
     {
-      "keyword": "skin",
-      "score": 6
-    },
-    {
       "keyword": "2026",
       "score": 5
     },
@@ -56,11 +52,7 @@
       "score": 4
     },
     {
-      "keyword": "sunscreen",
-      "score": 4
-    },
-    {
-      "keyword": "kbeauty",
+      "keyword": "reviews",
       "score": 4
     },
     {
@@ -68,19 +60,43 @@
       "score": 4
     },
     {
-      "keyword": "reviews",
-      "score": 3
+      "keyword": "new",
+      "score": 4
     },
     {
-      "keyword": "new",
-      "score": 3
+      "keyword": "skin",
+      "score": 4
+    },
+    {
+      "keyword": "makeup",
+      "score": 2
+    },
+    {
+      "keyword": "sunscreen",
+      "score": 2
     },
     {
       "keyword": "which",
       "score": 2
     },
     {
-      "keyword": "centella",
+      "keyword": "hera",
+      "score": 2
+    },
+    {
+      "keyword": "glow",
+      "score": 2
+    },
+    {
+      "keyword": "lasting",
+      "score": 2
+    },
+    {
+      "keyword": "foundation",
+      "score": 2
+    },
+    {
+      "keyword": "best",
       "score": 2
     },
     {
@@ -89,6 +105,18 @@
     },
     {
       "keyword": "goes",
+      "score": 2
+    },
+    {
+      "keyword": "cushion",
+      "score": 2
+    },
+    {
+      "keyword": "acid",
+      "score": 2
+    },
+    {
+      "keyword": "products",
       "score": 2
     },
     {
@@ -112,24 +140,12 @@
       "score": 2
     },
     {
-      "keyword": "best",
+      "keyword": "kbeauty",
       "score": 2
     },
     {
-      "keyword": "acid",
-      "score": 2
-    },
-    {
-      "keyword": "products",
-      "score": 2
-    },
-    {
-      "keyword": "biore",
-      "score": 2
-    },
-    {
-      "keyword": "korean",
-      "score": 2
+      "keyword": "monday",
+      "score": 1
     },
     {
       "keyword": "question",
@@ -152,27 +168,11 @@
       "score": 1
     },
     {
-      "keyword": "anti-haul",
-      "score": 1
-    },
-    {
-      "keyword": "monthly",
-      "score": 1
-    },
-    {
       "keyword": "holy",
       "score": 1
     },
     {
       "keyword": "grail",
-      "score": 1
-    },
-    {
-      "keyword": "base",
-      "score": 1
-    },
-    {
-      "keyword": "makeup",
       "score": 1
     },
     {
@@ -192,37 +192,33 @@
       "score": 1
     },
     {
-      "keyword": "discussion",
+      "keyword": "canadians",
       "score": 1
     },
     {
-      "keyword": "interested",
+      "keyword": "ordering",
       "score": 1
     },
     {
-      "keyword": "trying",
+      "keyword": "online",
       "score": 1
     }
   ],
   "beauty_keywords": [
     {
-      "keyword": "skin",
-      "score": 6
-    },
-    {
-      "keyword": "sunscreen",
-      "score": 4
-    },
-    {
-      "keyword": "kbeauty",
-      "score": 4
-    },
-    {
       "keyword": "masks",
       "score": 4
     },
     {
-      "keyword": "centella",
+      "keyword": "skin",
+      "score": 4
+    },
+    {
+      "keyword": "sunscreen",
+      "score": 2
+    },
+    {
+      "keyword": "cushion",
       "score": 2
     },
     {
@@ -230,22 +226,22 @@
       "score": 2
     },
     {
-      "keyword": "korean",
+      "keyword": "kbeauty",
       "score": 2
     }
   ],
   "posts": [
     {
-      "title": "HAVE A QUESTION? ASK HERE! Alter-Daily Help and Questions: September 16, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whzwwv/have_a_question_ask_here_alterdaily_help_and/",
-      "published": "2026-09-16T15:09:09+00:00",
+      "title": "Makeup Monday September 14, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wfsum9/makeup_monday_september_14_2026/",
+      "published": "2026-09-14T04:00:21+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Anti-Haul Monthly September 15, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wgpkra/antihaul_monthly_september_15_2026/",
-      "published": "2026-09-15T04:00:10+00:00",
+      "title": "HAVE A QUESTION? ASK HERE! Alter-Daily Help and Questions: September 16, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whzwwv/have_a_question_ask_here_alterdaily_help_and/",
+      "published": "2026-09-16T15:09:09+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -257,13 +253,6 @@
       "feed": "hot"
     },
     {
-      "title": "base makeup",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whfczx/base_makeup/",
-      "published": "2026-09-15T22:42:53+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
       "title": "Out of these contour powders which do you prefer?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1whu826/out_of_these_contour_powders_which_do_you_prefer/",
       "published": "2026-09-16T11:12:12+00:00",
@@ -271,9 +260,16 @@
       "feed": "hot"
     },
     {
-      "title": "[Discussion] Interested in trying a centella product to calm/soothe my skin on tretinoin, but feeling frustrated with non transparency in kbeauty's active ingredient concentration.",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wi9x25/discussion_interested_in_trying_a_centella/",
-      "published": "2026-09-16T21:08:32+00:00",
+      "title": "Canadians ordering online.",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wi9zhv/canadians_ordering_online/",
+      "published": "2026-09-16T21:11:07+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Hera Glow Lasting Foundation & Hera Silky Stay Reviews?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wi9xcg/hera_glow_lasting_foundation_hera_silky_stay/",
+      "published": "2026-09-16T21:08:51+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -285,9 +281,23 @@
       "feed": "hot"
     },
     {
+      "title": "Best tips for douyin makeup?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wieof2/best_tips_for_douyin_makeup/",
+      "published": "2026-09-17T00:26:13+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Reviews!",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1whe2jz/reviews/",
       "published": "2026-09-15T21:51:11+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Do cooling gel masks actually make a difference in hot weather?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whyva9/do_cooling_gel_masks_actually_make_a_difference/",
+      "published": "2026-09-16T14:30:10+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -299,9 +309,16 @@
       "feed": "hot"
     },
     {
-      "title": "Do cooling gel masks actually make a difference in hot weather?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whyva9/do_cooling_gel_masks_actually_make_a_difference/",
-      "published": "2026-09-16T14:30:10+00:00",
+      "title": "Requesting swatches of the new Tirtir skin Glow Cushion foundation!",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wi8i4c/requesting_swatches_of_the_new_tirtir_skin_glow/",
+      "published": "2026-09-16T20:16:08+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Best Azelaic Acid products for Post-Inflammatory Erythema? Need reviews!",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whzi1a/best_azelaic_acid_products_for_postinflammatory/",
+      "published": "2026-09-16T14:54:02+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -323,13 +340,6 @@
       "title": "I love Botanist brand body wash especially their new hinoki and cedarwood",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1whkz1x/i_love_botanist_brand_body_wash_especially_their/",
       "published": "2026-09-16T02:49:16+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Best Azelaic Acid products for Post-Inflammatory Erythema? Need reviews!",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whzi1a/best_azelaic_acid_products_for_postinflammatory/",
-      "published": "2026-09-16T14:54:02+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -393,20 +403,6 @@
       "title": "new flower knows collection: ❄️🦢🩰 SNOW BALLET 🩰🦢❄️",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wg0bbe/new_flower_knows_collection_snow_ballet/",
       "published": "2026-09-14T11:04:35+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Biore aqua rich airy hold cream- the best biore sunscreen?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wgvo88/biore_aqua_rich_airy_hold_cream_the_best_biore/",
-      "published": "2026-09-15T09:40:11+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "What sites are good for shipping speeds at the moment for korean skin care?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whbkkz/what_sites_are_good_for_shipping_speeds_at_the/",
-      "published": "2026-09-15T20:15:48+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

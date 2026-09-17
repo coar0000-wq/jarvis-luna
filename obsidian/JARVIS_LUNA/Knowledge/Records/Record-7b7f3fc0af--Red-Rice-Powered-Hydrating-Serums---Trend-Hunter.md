@@ -2,7 +2,7 @@
 title: "Record 7b7f3fc0af · Red-Rice-Powered-Hydrating-Serums---Trend-Hunter"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T22:47:53.371691+00:00
+updated_at: 2026-09-17T03:16:30.905387+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiV0FVX3lxTFBZUVFaZVVlOTg3elZ5aWRVeHNZRXVkUGFqLWt5U1ZsWGtibF9XMXdZZXNlSW9KMFJUWm5mbFhrVkJRdG9wVi1qUlRVMTlZcWh6TldvLXhsSQ?oc=5)
 
-**제목:** Red Rice-Powered Hydrating Serums - Trend Hunter
+**제목:** Red Rice-Powered Hydrating Serums - trendhunter.com
 
-Red Rice-Powered Hydrating Serums - Trend Hunter
+Red Rice-Powered Hydrating Serums - trendhunter.com
 
 **출처:** Source · Google Search
 

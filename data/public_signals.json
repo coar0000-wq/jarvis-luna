@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T22:46:07.125386+00:00",
+  "generated_at": "2026-09-17T03:14:45.040617+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "morgan freeman",
+          "keyword": "texas rangers",
+          "approx_traffic": "5000+",
+          "traffic_num": 5000,
+          "published": "Wed, 16 Sep 2026 19:20:00 -0700",
+          "source_name": "Dallas News",
+          "url": "https://trends.google.com/trending?geo=US&q=texas%20rangers"
+        },
+        {
+          "keyword": "mary cosby son",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Wed, 16 Sep 2026 20:00:00 -0700",
+          "source_name": "Vulture",
+          "url": "https://trends.google.com/trending?geo=US&q=mary%20cosby%20son"
+        },
+        {
+          "keyword": "snl cast members",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Wed, 16 Sep 2026 15:30:00 -0700",
-          "source_name": "Variety",
-          "url": "https://trends.google.com/trending?geo=US&q=morgan%20freeman"
+          "published": "Wed, 16 Sep 2026 19:50:00 -0700",
+          "source_name": "Deadline",
+          "url": "https://trends.google.com/trending?geo=US&q=snl%20cast%20members"
         },
         {
-          "keyword": "barack obama",
+          "keyword": "duop reath",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Wed, 16 Sep 2026 15:30:00 -0700",
-          "source_name": "USA Today",
-          "url": "https://trends.google.com/trending?geo=US&q=barack%20obama"
+          "published": "Wed, 16 Sep 2026 19:20:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=duop%20reath"
         },
         {
-          "keyword": "orlando city vs columbus",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Wed, 16 Sep 2026 15:20:00 -0700",
-          "source_name": "USA Today",
-          "url": "https://trends.google.com/trending?geo=US&q=orlando%20city%20vs%20columbus"
-        },
-        {
-          "keyword": "botafogo vs grêmio",
+          "keyword": "student loans",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Wed, 16 Sep 2026 15:30:00 -0700",
-          "source_name": "ge",
-          "url": "https://trends.google.com/trending?geo=US&q=botafogo%20vs%20gr%C3%AAmio"
+          "published": "Wed, 16 Sep 2026 20:00:00 -0700",
+          "source_name": "NPR",
+          "url": "https://trends.google.com/trending?geo=US&q=student%20loans"
         },
         {
-          "keyword": "call of duty: black ops 7",
+          "keyword": "royals - astros",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Wed, 16 Sep 2026 15:30:00 -0700",
-          "source_name": "IGN",
-          "url": "https://trends.google.com/trending?geo=US&q=call%20of%20duty%3A%20black%20ops%207"
-        },
-        {
-          "keyword": "so delicious dessert recall",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Wed, 16 Sep 2026 15:20:00 -0700",
-          "source_name": "FOX 8 News",
-          "url": "https://trends.google.com/trending?geo=US&q=so%20delicious%20dessert%20recall"
-        },
-        {
-          "keyword": "dodgers - reds",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Wed, 16 Sep 2026 15:20:00 -0700",
-          "source_name": "Red Reporter",
-          "url": "https://trends.google.com/trending?geo=US&q=dodgers%20-%20reds"
-        },
-        {
-          "keyword": "phillies - nationals",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Wed, 16 Sep 2026 15:30:00 -0700",
+          "published": "Wed, 16 Sep 2026 20:00:00 -0700",
           "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=phillies%20-%20nationals"
+          "url": "https://trends.google.com/trending?geo=US&q=royals%20-%20astros"
         },
         {
-          "keyword": "copa libertadores",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Wed, 16 Sep 2026 15:20:00 -0700",
-          "source_name": "El Universo",
-          "url": "https://trends.google.com/trending?geo=US&q=copa%20libertadores"
+          "keyword": "san diego fc",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Wed, 16 Sep 2026 20:00:00 -0700",
+          "source_name": "FOX Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=san%20diego%20fc"
         },
         {
-          "keyword": "louder than life 2026",
+          "keyword": "david jolly",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Wed, 16 Sep 2026 20:00:00 -0700",
+          "source_name": "David Jolly for Florida",
+          "url": "https://trends.google.com/trending?geo=US&q=david%20jolly"
+        },
+        {
+          "keyword": "cubs standings",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Wed, 16 Sep 2026 19:20:00 -0700",
+          "source_name": "MLB.com",
+          "url": "https://trends.google.com/trending?geo=US&q=cubs%20standings"
+        },
+        {
+          "keyword": "rangers game today",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Wed, 16 Sep 2026 15:20:00 -0700",
-          "source_name": "WLKY",
-          "url": "https://trends.google.com/trending?geo=US&q=louder%20than%20life%202026"
+          "published": "Wed, 16 Sep 2026 20:00:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=rangers%20game%20today"
         }
       ]
     },
@@ -96,87 +96,87 @@
       "status": "ok",
       "reason": "",
       "source": "wikimedia.org REST pageviews API (공식)",
-      "note": "2026-08-16 ~ 2026-09-14 일별 조회수. 후반 15일 대비 전반 15일 증감률",
+      "note": "2026-08-17 ~ 2026-09-15 일별 조회수. 후반 15일 대비 전반 15일 증감률",
       "errors": [],
       "items": [
         {
           "topic": "Hyaluronic acid",
           "days": 30,
-          "total_views": 17665,
-          "avg_daily": 589,
-          "recent_avg": 624,
-          "prev_avg": 554,
-          "change_pct": 12.5,
+          "total_views": 17646,
+          "avg_daily": 588,
+          "recent_avg": 620,
+          "prev_avg": 557,
+          "change_pct": 11.3,
           "url": "https://en.wikipedia.org/wiki/Hyaluronic_acid"
         },
         {
           "topic": "Retinol",
           "days": 30,
-          "total_views": 11571,
-          "avg_daily": 386,
-          "recent_avg": 397,
-          "prev_avg": 375,
-          "change_pct": 5.9,
+          "total_views": 11548,
+          "avg_daily": 385,
+          "recent_avg": 389,
+          "prev_avg": 381,
+          "change_pct": 2.3,
           "url": "https://en.wikipedia.org/wiki/Retinol"
         },
         {
           "topic": "Snail slime",
           "days": 30,
-          "total_views": 2167,
+          "total_views": 2152,
           "avg_daily": 72,
-          "recent_avg": 74,
-          "prev_avg": 71,
-          "change_pct": 4.2,
+          "recent_avg": 72,
+          "prev_avg": 72,
+          "change_pct": -0.6,
           "url": "https://en.wikipedia.org/wiki/Snail_slime"
         },
         {
           "topic": "Cosmetics",
           "days": 30,
-          "total_views": 20724,
-          "avg_daily": 691,
+          "total_views": 20652,
+          "avg_daily": 688,
           "recent_avg": 684,
-          "prev_avg": 697,
-          "change_pct": -1.9,
+          "prev_avg": 693,
+          "change_pct": -1.4,
           "url": "https://en.wikipedia.org/wiki/Cosmetics"
         },
         {
           "topic": "Centella asiatica",
           "days": 30,
-          "total_views": 14909,
-          "avg_daily": 497,
+          "total_views": 14879,
+          "avg_daily": 496,
           "recent_avg": 484,
-          "prev_avg": 510,
-          "change_pct": -5.1,
+          "prev_avg": 508,
+          "change_pct": -4.6,
           "url": "https://en.wikipedia.org/wiki/Centella_asiatica"
         },
         {
           "topic": "Sunscreen",
           "days": 30,
-          "total_views": 15688,
-          "avg_daily": 523,
-          "recent_avg": 507,
-          "prev_avg": 539,
-          "change_pct": -6.0,
+          "total_views": 15622,
+          "avg_daily": 521,
+          "recent_avg": 505,
+          "prev_avg": 536,
+          "change_pct": -5.7,
           "url": "https://en.wikipedia.org/wiki/Sunscreen"
         },
         {
           "topic": "Niacinamide",
           "days": 30,
-          "total_views": 1378,
+          "total_views": 1386,
           "avg_daily": 46,
-          "recent_avg": 43,
+          "recent_avg": 44,
           "prev_avg": 49,
-          "change_pct": -13.0,
+          "change_pct": -10.1,
           "url": "https://en.wikipedia.org/wiki/Niacinamide"
         },
         {
           "topic": "K-beauty",
           "days": 30,
-          "total_views": 3917,
-          "avg_daily": 131,
-          "recent_avg": 118,
-          "prev_avg": 143,
-          "change_pct": -17.9,
+          "total_views": 3901,
+          "avg_daily": 130,
+          "recent_avg": 115,
+          "prev_avg": 145,
+          "change_pct": -20.2,
           "url": "https://en.wikipedia.org/wiki/K-beauty"
         }
       ]

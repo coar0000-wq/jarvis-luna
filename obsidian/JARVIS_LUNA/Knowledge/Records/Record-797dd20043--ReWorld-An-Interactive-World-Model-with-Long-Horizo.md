@@ -2,7 +2,7 @@
 title: "Record 797dd20043 · ReWorld-An-Interactive-World-Model-with-Long-Horizo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T22:47:53.946554+00:00
+updated_at: 2026-09-17T03:16:31.431104+00:00
 tags: [record, real-data]
 ---
 

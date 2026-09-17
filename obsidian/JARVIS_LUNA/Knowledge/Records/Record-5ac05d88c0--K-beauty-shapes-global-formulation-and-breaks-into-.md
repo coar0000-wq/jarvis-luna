@@ -2,7 +2,7 @@
 title: "Record 5ac05d88c0 · K-beauty-shapes-global-formulation-and-breaks-into-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T22:47:53.541656+00:00
+updated_at: 2026-09-17T03:16:31.061537+00:00
 tags: [record, real-data]
 ---
 

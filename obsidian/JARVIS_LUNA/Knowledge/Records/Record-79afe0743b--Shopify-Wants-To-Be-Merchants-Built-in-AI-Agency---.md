@@ -2,7 +2,7 @@
 title: "Record 79afe0743b · Shopify-Wants-To-Be-Merchants-Built-in-AI-Agency---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-16T22:47:53.503449+00:00
+updated_at: 2026-09-17T03:16:31.025742+00:00
 tags: [record, real-data]
 ---
 
