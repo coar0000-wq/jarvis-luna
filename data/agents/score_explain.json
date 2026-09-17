@@ -1,6 +1,6 @@
 {
   "agent": "Score-Explain",
-  "generated_at": "2026-09-17T23:04:06.605897+00:00",
+  "generated_at": "2026-09-17T23:11:45.062320+00:00",
   "s_count": 10,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
   "items": [
@@ -51,6 +51,18 @@
       ]
     },
     {
+      "pd_no": "1072554",
+      "name": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
+      "score": 95,
+      "why": "글로벌 'Some By Mi Retinol Intense Reactivating Serum' (tiktok_shop_us) 유사 68% · 토큰 retinol, serum",
+      "global": "Some By Mi Retinol Intense Reactivating Serum",
+      "channel": "tiktok_shop_us",
+      "tokens": [
+        "retinol",
+        "serum"
+      ]
+    },
+    {
       "pd_no": "1075857",
       "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
       "score": 94,
@@ -65,13 +77,25 @@
     {
       "pd_no": "1049285",
       "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-      "score": 93,
+      "score": 92,
       "why": "글로벌 'BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Plumping, Travel Essentials & Self Care Gifts for Women, Korean Skin Care | 1.19oz(34g) x 4ea' (amazon_best_sellers) 유사 64% · 토큰 hydrating, mask",
       "global": "BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Plumping, Travel Essentials & Self Care Gifts for Women, Korean Skin Care | 1.19oz(34g) x 4ea",
       "channel": "amazon_best_sellers",
       "tokens": [
         "hydrating",
         "mask"
+      ]
+    },
+    {
+      "pd_no": "1041403",
+      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+      "score": 90,
+      "why": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 92% · 토큰 heartleaf, toner",
+      "global": "ANUA Heartleaf 77 Soothing Toner",
+      "channel": "tiktok_shop_us",
+      "tokens": [
+        "heartleaf",
+        "toner"
       ]
     },
     {
@@ -96,30 +120,6 @@
       "tokens": [
         "collagen",
         "mask"
-      ]
-    },
-    {
-      "pd_no": "1041403",
-      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-      "score": 87,
-      "why": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 92% · 토큰 heartleaf, toner",
-      "global": "ANUA Heartleaf 77 Soothing Toner",
-      "channel": "tiktok_shop_us",
-      "tokens": [
-        "heartleaf",
-        "toner"
-      ]
-    },
-    {
-      "pd_no": "1060211",
-      "name": "바세린 모이스처라이징 클렌징 밀크 140 ml",
-      "score": 87,
-      "why": "글로벌 'ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set' (oliveyoung_us) 유사 70% · 토큰 cleanser, moisturizer",
-      "global": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
-      "channel": "oliveyoung_us",
-      "tokens": [
-        "cleanser",
-        "moisturizer"
       ]
     }
   ],

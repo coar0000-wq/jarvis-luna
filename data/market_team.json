@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-09-18T08:04:03.317102+09:00",
+    "updated_at": "2026-09-18T08:11:40.603472+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -367,7 +367,7 @@
     "sources": {
       "oliveyoung_us": "us.oliveyoung.com/best-sellers (실수집)",
       "open_beauty_facts": "world.openbeautyfacts.org /api/v2/search",
-      "competitor_pool_size": 159,
+      "competitor_pool_size": 160,
       "competitor_fallback": "oliveyoung_us primary"
     }
   },
@@ -440,6 +440,49 @@
       "linked_s_products": [
         "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
         "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입"
+      ],
+      "source": "다이소 S등급 상품명 + OliveYoung US 실수집 대조"
+    },
+    {
+      "seed": "korean serum",
+      "s_product_count": 2,
+      "from_terms": [
+        "세럼"
+      ],
+      "intent": "commercial",
+      "intent_basis": "제형·성분 기반 구매 의도 키워드",
+      "trend": null,
+      "search_volume": null,
+      "trend_unavailable_reason": "Google Trends 공식 API 가 승인제 alpha 라 미연동. 검색 추세를 추정하지 않는다.",
+      "us_market_examples": [
+        {
+          "product": "Torriden Dive-in Low Molecule Hyaluronic Acid Serum 1.69 fl. oz.(50ml)",
+          "brand": "Torriden",
+          "price_usd": 24.0,
+          "us_rank": 7
+        },
+        {
+          "product": "COSRX Advanced The Vitamin C 23 Serum 0.67 fl. oz.(20ml)",
+          "brand": "COSRX",
+          "price_usd": 25.0,
+          "us_rank": 12
+        },
+        {
+          "product": "GOODAL Green Tangerine Vita C Dark Spot Care Serum Mask Alpha 5ct 0.95 oz.(27g)",
+          "brand": "GOODAL",
+          "price_usd": 15.0,
+          "us_rank": 23
+        }
+      ],
+      "us_example_count": 3,
+      "gemini_tags": [
+        "brightening serum",
+        "face serum",
+        "retinol serum"
+      ],
+      "linked_s_products": [
+        "본셉 레티놀 500 IU 세럼 30 ml",
+        "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml"
       ],
       "source": "다이소 S등급 상품명 + OliveYoung US 실수집 대조"
     },
@@ -572,86 +615,6 @@
       "source": "다이소 S등급 상품명 + OliveYoung US 실수집 대조"
     },
     {
-      "seed": "korean serum",
-      "s_product_count": 1,
-      "from_terms": [
-        "세럼"
-      ],
-      "intent": "commercial",
-      "intent_basis": "제형·성분 기반 구매 의도 키워드",
-      "trend": null,
-      "search_volume": null,
-      "trend_unavailable_reason": "Google Trends 공식 API 가 승인제 alpha 라 미연동. 검색 추세를 추정하지 않는다.",
-      "us_market_examples": [
-        {
-          "product": "Torriden Dive-in Low Molecule Hyaluronic Acid Serum 1.69 fl. oz.(50ml)",
-          "brand": "Torriden",
-          "price_usd": 24.0,
-          "us_rank": 7
-        },
-        {
-          "product": "COSRX Advanced The Vitamin C 23 Serum 0.67 fl. oz.(20ml)",
-          "brand": "COSRX",
-          "price_usd": 25.0,
-          "us_rank": 12
-        },
-        {
-          "product": "GOODAL Green Tangerine Vita C Dark Spot Care Serum Mask Alpha 5ct 0.95 oz.(27g)",
-          "brand": "GOODAL",
-          "price_usd": 15.0,
-          "us_rank": 23
-        }
-      ],
-      "us_example_count": 3,
-      "gemini_tags": [
-        "brightening serum",
-        "face serum",
-        "retinol serum"
-      ],
-      "linked_s_products": [
-        "본셉 레티놀 500 IU 세럼 30 ml"
-      ],
-      "source": "다이소 S등급 상품명 + OliveYoung US 실수집 대조"
-    },
-    {
-      "seed": "korean essence",
-      "s_product_count": 1,
-      "from_terms": [
-        "에센스"
-      ],
-      "intent": "commercial",
-      "intent_basis": "제형·성분 기반 구매 의도 키워드",
-      "trend": null,
-      "search_volume": null,
-      "trend_unavailable_reason": "Google Trends 공식 API 가 승인제 alpha 라 미연동. 검색 추세를 추정하지 않는다.",
-      "us_market_examples": [
-        {
-          "product": "d'Alba Vegan Essence Sunscreen 1.69 fl. oz.(50ml)",
-          "brand": "d'Alba Piedmont",
-          "price_usd": 28.0,
-          "us_rank": 37
-        },
-        {
-          "product": "[20shades] AGE20'S Signature Essence Pact Intense Cover 0.49 oz.(14g)",
-          "brand": "AGE20'S",
-          "price_usd": 23.99,
-          "us_rank": 52
-        },
-        {
-          "product": "Ryo Root:Gen Hair Loss Care Scalp Essence 2.7 fl. oz.(80ml)",
-          "brand": "Ryo",
-          "price_usd": 21.88,
-          "us_rank": 63
-        }
-      ],
-      "us_example_count": 3,
-      "gemini_tags": [],
-      "linked_s_products": [
-        "셀더마데일리 콜라겐 에센스겔 마스크 29 g"
-      ],
-      "source": "다이소 S등급 상품명 + OliveYoung US 실수집 대조"
-    },
-    {
       "seed": "korean toner",
       "s_product_count": 1,
       "from_terms": [
@@ -717,10 +680,10 @@
       "source": "다이소 S등급 상품명 + OliveYoung US 실수집 대조"
     },
     {
-      "seed": "korean cleanser",
+      "seed": "korean essence",
       "s_product_count": 1,
       "from_terms": [
-        "클렌징"
+        "에센스"
       ],
       "intent": "commercial",
       "intent_basis": "제형·성분 기반 구매 의도 키워드",
@@ -729,32 +692,28 @@
       "trend_unavailable_reason": "Google Trends 공식 API 가 승인제 alpha 라 미연동. 검색 추세를 추정하지 않는다.",
       "us_market_examples": [
         {
-          "product": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
-          "brand": "ROUND LAB",
-          "price_usd": 21.24,
-          "us_rank": 5
+          "product": "d'Alba Vegan Essence Sunscreen 1.69 fl. oz.(50ml)",
+          "brand": "d'Alba Piedmont",
+          "price_usd": 28.0,
+          "us_rank": 37
         },
         {
-          "product": "ROUND LAB 1025 Dokdo Cleanser 5.07 fl. oz.(150ml)",
-          "brand": "ROUND LAB",
-          "price_usd": 12.75,
-          "us_rank": 30
+          "product": "[20shades] AGE20'S Signature Essence Pact Intense Cover 0.49 oz.(14g)",
+          "brand": "AGE20'S",
+          "price_usd": 23.99,
+          "us_rank": 52
         },
         {
-          "product": "FULLY Green Tomato Clay Mask Cleanser 4.05 fl. oz.(120ml)",
-          "brand": "FULLY",
-          "price_usd": 19.0,
-          "us_rank": 34
+          "product": "Ryo Root:Gen Hair Loss Care Scalp Essence 2.7 fl. oz.(80ml)",
+          "brand": "Ryo",
+          "price_usd": 21.88,
+          "us_rank": 63
         }
       ],
       "us_example_count": 3,
-      "gemini_tags": [
-        "facial cleanser",
-        "hydrating cleanser",
-        "korean skincare"
-      ],
+      "gemini_tags": [],
       "linked_s_products": [
-        "바세린 모이스처라이징 클렌징 밀크 140 ml"
+        "셀더마데일리 콜라겐 에센스겔 마스크 29 g"
       ],
       "source": "다이소 S등급 상품명 + OliveYoung US 실수집 대조"
     }
@@ -870,6 +829,26 @@
     },
     {
       "rank": 5,
+      "pd_no": "1072554",
+      "name": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
+      "name_en": null,
+      "bucket": "스킨케어",
+      "score": 95,
+      "rating": 4.7,
+      "review_count": 1649,
+      "cost_krw": 5000,
+      "landed_cost_usd": null,
+      "breakeven_usd": null,
+      "suggested_price_usd": 17.76,
+      "margin_pct": null,
+      "shopify_action": "1차 등록",
+      "ad_keywords": [],
+      "ad_keywords_source": "카피 미생성",
+      "listing_ready": false,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072554"
+    },
+    {
+      "rank": 6,
       "pd_no": "1075857",
       "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
       "name_en": "Celderma Daily PDRN Radiance Cream Wrapping Mask 1ea",
@@ -882,7 +861,7 @@
       "breakeven_usd": null,
       "suggested_price_usd": 17.76,
       "margin_pct": null,
-      "shopify_action": "1차 등록",
+      "shopify_action": "2차 검토",
       "ad_keywords": [
         "celderma",
         "pdrn-mask",
@@ -896,12 +875,12 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1075857"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "pd_no": "1049285",
       "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
       "name_en": "VT Super Hyalon Sleeping Mask 4ml 6ea",
       "bucket": "스킨케어",
-      "score": 93,
+      "score": 92,
       "rating": 4.8,
       "review_count": 3884,
       "cost_krw": 3000,
@@ -923,7 +902,34 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285"
     },
     {
-      "rank": 7,
+      "rank": 8,
+      "pd_no": "1041403",
+      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+      "name_en": "Chaebi Gongan Heartleaf Extract Vegan Toner 150ml",
+      "bucket": "스킨케어",
+      "score": 90,
+      "rating": 4.8,
+      "review_count": 938,
+      "cost_krw": 5000,
+      "landed_cost_usd": null,
+      "breakeven_usd": null,
+      "suggested_price_usd": 17.76,
+      "margin_pct": null,
+      "shopify_action": "2차 검토",
+      "ad_keywords": [
+        "korean-skincare",
+        "vegan-toner",
+        "heartleaf-toner",
+        "facial-toner",
+        "k-beauty",
+        "hydrating-toner"
+      ],
+      "ad_keywords_source": "Gemini 영문 카피 태그",
+      "listing_ready": true,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403"
+    },
+    {
+      "rank": 9,
       "pd_no": "1059834",
       "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
       "name_en": "Celderma Daily Transforming Firming Collagen Mask 28g",
@@ -950,7 +956,7 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834"
     },
     {
-      "rank": 8,
+      "rank": 10,
       "pd_no": "1042619",
       "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
       "name_en": "Celderma Daily Collagen Essence Gel Mask 29g",
@@ -975,63 +981,33 @@
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619"
-    },
-    {
-      "rank": 9,
-      "pd_no": "1041403",
-      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-      "name_en": "Chaebi Gongan Heartleaf Extract Vegan Toner 150ml",
-      "bucket": "스킨케어",
-      "score": 87,
-      "rating": 4.8,
-      "review_count": 938,
-      "cost_krw": 5000,
-      "landed_cost_usd": null,
-      "breakeven_usd": null,
-      "suggested_price_usd": 17.76,
-      "margin_pct": null,
-      "shopify_action": "2차 검토",
-      "ad_keywords": [
-        "korean-skincare",
-        "vegan-toner",
-        "heartleaf-toner",
-        "facial-toner",
-        "k-beauty",
-        "hydrating-toner"
-      ],
-      "ad_keywords_source": "Gemini 영문 카피 태그",
-      "listing_ready": true,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403"
-    },
-    {
-      "rank": 10,
-      "pd_no": "1060211",
-      "name": "바세린 모이스처라이징 클렌징 밀크 140 ml",
-      "name_en": "Vaseline Moisturizing Cleansing Milk 140 ml",
-      "bucket": "클렌징",
-      "score": 87,
-      "rating": 4.8,
-      "review_count": 2832,
-      "cost_krw": 5000,
-      "landed_cost_usd": null,
-      "breakeven_usd": null,
-      "suggested_price_usd": 17.76,
-      "margin_pct": null,
-      "shopify_action": "2차 검토",
-      "ad_keywords": [
-        "vaseline",
-        "cleansing-milk",
-        "k-beauty",
-        "facial-cleanser",
-        "hydrating-cleanser",
-        "korean-skincare"
-      ],
-      "ad_keywords_source": "Gemini 영문 카피 태그",
-      "listing_ready": true,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060211"
     }
   ],
   "competitor_watch": [
+    {
+      "name": "VT PDRN Reedle Shot Hair Ampoule 700dl 0.50 fl. oz.(15ml)",
+      "brand": "VT",
+      "price_usd": 49.92,
+      "rating": 4.6,
+      "review_count": 137,
+      "us_rank": 1,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 1위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA55782610",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+      "brand": "AESTURA",
+      "price_usd": 32.0,
+      "rating": 5,
+      "review_count": 2,
+      "us_rank": 4,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 4위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA71026007",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
     {
       "name": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
       "brand": "ROUND LAB",
@@ -1039,33 +1015,9 @@
       "rating": 5,
       "review_count": 4,
       "us_rank": 5,
-      "daiso_bucket": "클렌징",
-      "why": "us.oliveyoung.com/best-sellers 실수집 5위 · 클렌징 동일 포지션",
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 5위 · 스킨케어 동일 포지션",
       "url": "https://us.oliveyoung.com/products/UA38918945",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "ILLIYOON Ceramide Ato 6.0 Top To Toe Wash 16.9 fl. oz.(500ml)",
-      "brand": "ILLIYOON",
-      "price_usd": 21.24,
-      "rating": 4.8,
-      "review_count": 786,
-      "us_rank": 21,
-      "daiso_bucket": "클렌징",
-      "why": "us.oliveyoung.com/best-sellers 실수집 21위 · 클렌징 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA18172537",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "Biodance Collagen Cleansing Oil 6.76 fl. oz. (200ml)",
-      "brand": "Biodance",
-      "price_usd": 21.0,
-      "rating": 4.6,
-      "review_count": 97,
-      "us_rank": 22,
-      "daiso_bucket": "클렌징",
-      "why": "us.oliveyoung.com/best-sellers 실수집 22위 · 클렌징 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA36872197",
       "source": "us.oliveyoung.com/best-sellers 실수집"
     },
     {
@@ -1103,46 +1055,11 @@
       "why": "us.oliveyoung.com/best-sellers 실수집 23위 · 마스크팩 동일 포지션",
       "url": "https://us.oliveyoung.com/products/UA79572818",
       "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "VT PDRN Reedle Shot Hair Ampoule 700dl 0.50 fl. oz.(15ml)",
-      "brand": "VT",
-      "price_usd": 49.92,
-      "rating": 4.6,
-      "review_count": 137,
-      "us_rank": 1,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 1위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA55782610",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
-      "brand": "AESTURA",
-      "price_usd": 32.0,
-      "rating": 5,
-      "review_count": 2,
-      "us_rank": 4,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 4위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA71026007",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
-      "brand": "ROUND LAB",
-      "price_usd": 21.24,
-      "rating": 5,
-      "review_count": 4,
-      "us_rank": 5,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 5위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA38918945",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
     }
   ],
   "weekly_actions": [
-    "영문 카피가 준비된 10건 중 상위 5건을 Shopify 초안으로 등록",
+    "영문 카피가 준비된 9건 중 상위 5건을 Shopify 초안으로 등록",
+    "카피 미생성 1건에 대해 shopify-listing-copy 워크플로 재실행",
     "시장 가격대 100건 기준 중앙값 $23.76 주 1회 확인",
     "묶음 구매 유도용 무료배송 최소 주문금액 설정 (낱개 배송 시 적자 구조라 필수)"
   ],
@@ -1166,7 +1083,7 @@
       "open_beauty_facts"
     ],
     "s_count": 10,
-    "listing_ready_count": 10,
+    "listing_ready_count": 9,
     "last_score_run": "2026-09-17",
     "last_pricing_run": "2026-09-17",
     "exchange_rate": 1382.55

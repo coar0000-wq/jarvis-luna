@@ -1,8 +1,8 @@
 {
   "agent": "Ops-Prioritizer",
-  "generated_at": "2026-09-17T23:04:06.605927+00:00",
+  "generated_at": "2026-09-17T23:11:45.062365+00:00",
   "risk": "medium",
-  "task_count": 4,
+  "task_count": 5,
   "tasks": [
     {
       "priority": 2,
@@ -26,7 +26,7 @@
     {
       "priority": 4,
       "title": "팀 조치 · 상품 소싱팀",
-      "detail": "직전 실행 73건 받아 성공 42건 · 받아보고 뷰티 아니라 버림 31건 · 이미 판정해서 안 받음 1580건 · 후보 출처 queue, 큐 3194건",
+      "detail": "직전 실행 67건 받아 성공 38건 · 받아보고 뷰티 아니라 버림 29건 · 이미 판정해서 안 받음 1641건 · 후보 출처 queue, 큐 3155건",
       "refs": [
         "data/dashboard_runtime.json"
       ],
@@ -34,8 +34,17 @@
     },
     {
       "priority": 4,
-      "title": "팀 조치 · 디자인팀",
-      "detail": "다음 단계: Shopify 스토어 개설 및 기본 설정",
+      "title": "팀 조치 · 마케팅 조사팀",
+      "detail": "고시 표 1건 필요 — 1072554 [탄력리프팅]본셉 레티놀 탄력샷  https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072554",
+      "refs": [
+        "data/dashboard_runtime.json"
+      ],
+      "approve": "사람: 팀 카드 조치 확인"
+    },
+    {
+      "priority": 4,
+      "title": "팀 조치 · 리스팅 제작팀",
+      "detail": "카피 1건, 고시 1건, us_label 1건 이 막고 있음",
       "refs": [
         "data/dashboard_runtime.json"
       ],
@@ -56,11 +65,15 @@
       },
       {
         "n": 3,
-        "text": "팀 조치 · 상품 소싱팀 — 직전 실행 73건 받아 성공 42건 · 받아보고 뷰티 아니라 버림 31건 · 이미 판정해서 안 받음 1580건 · 후보 출처 queue, 큐 3"
+        "text": "팀 조치 · 상품 소싱팀 — 직전 실행 67건 받아 성공 38건 · 받아보고 뷰티 아니라 버림 29건 · 이미 판정해서 안 받음 1641건 · 후보 출처 queue, 큐 3"
       },
       {
         "n": 4,
-        "text": "팀 조치 · 디자인팀 — 다음 단계: Shopify 스토어 개설 및 기본 설정"
+        "text": "팀 조치 · 마케팅 조사팀 — 고시 표 1건 필요 — 1072554 [탄력리프팅]본셉 레티놀 탄력샷  https://www.daisomall.co.kr/pd/pdr/SCR_P"
+      },
+      {
+        "n": 5,
+        "text": "팀 조치 · 리스팅 제작팀 — 카피 1건, 고시 1건, us_label 1건 이 막고 있음"
       }
     ]
   }
