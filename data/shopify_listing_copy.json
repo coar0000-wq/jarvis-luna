@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-17T01:34:40.485766+00:00",
+  "generated_at": "2026-09-17T06:59:00.117153+00:00",
   "generator": "scripts/gemini_listing_copy.py",
   "model": "gemini-flash-lite-latest",
   "model_selection": "ListModels 자동 선택 (41개 중)",
   "source": "data/daiso_real/shopify_s_recommendations.json (다이소 실크롤링 S등급)",
   "note": "영문 카피는 Gemini 생성물이므로 게시 전 사람이 검수해야 한다. 실패한 항목은 비워 두며 스크립트가 대체 문구를 지어내지 않는다.",
   "total": 10,
-  "ok": 10,
-  "failed": 0,
+  "ok": 9,
+  "failed": 1,
   "items": [
     {
       "pd_no": "1049276",
@@ -21,17 +21,17 @@
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/biuEYxzjCmX6JMJEi1e01049276_00_01biuEYxzjCmX6JMJEi1e0.jpg",
       "copy": {
         "title": "VT Reedle Shot 300 Facial Boosting First Ampoule 2ml x 6",
-        "description_html": "<p>Discover the VT Reedle Shot 300 Facial Boosting First Ampoule, designed for your daily skincare routine. This convenient set includes six 2ml ampoules to help prep and smooth the look of your skin texture.</p><p>Apply gently to clean skin as the first step of your routine for a refreshed and revitalized complexion. Perfect for on-the-go hydration and easy application.</p>",
+        "description_html": "<p>Discover the VT Reedle Shot 300 Facial Boosting First Ampoule, designed to help refine the look of skin texture. Each pack contains six convenient 2ml ampoules to support your daily skincare routine.</p><p>Apply gently to the face as a first step to help prep your skin and promote a smoother-looking complexion.</p>",
         "seo_title": "VT Reedle Shot 300 Facial Boosting First Ampoule 2ml x 6",
-        "seo_description": "Shop the VT Reedle Shot 300 Facial Boosting First Ampoule 6-pack. Designed for daily skincare routines to help smooth the look of skin texture and boost radiance.",
+        "seo_description": "Shop VT Reedle Shot 300 Facial Boosting First Ampoule 2ml x 6 for smoother-looking skin texture. Convenient individual portions for your skincare routine.",
         "tags": [
           "vt-cosmetics",
-          "reedle-shot-300",
+          "reedle-shot",
           "facial-ampoule",
-          "korean-skincare",
-          "boosting-ampoule",
+          "k-beauty",
+          "skin-texture",
           "face-serum",
-          "k-beauty"
+          "korean-skincare"
         ],
         "product_type": "Face Serum"
       },
@@ -52,14 +52,15 @@
         "title": "VONSEP Retinol 500 IU Serum 30 ml",
         "description_html": "<p>Discover the VONSEP Retinol 500 IU Serum in a convenient 30 ml size, designed to enhance your daily skincare routine.</p><p>This nourishing facial serum helps promote a smoother-looking appearance and a brighter-looking complexion with every use.</p>",
         "seo_title": "VONSEP Retinol 500 IU Serum 30 ml",
-        "seo_description": "Shop the VONSEP Retinol 500 IU Serum 30 ml for a smoother-looking appearance and a radiant complexion. Add this Korean skincare essential to your routine.",
+        "seo_description": "Shop the VONSEP Retinol 500 IU Serum 30 ml for a smoother-looking appearance and a brighter-looking complexion. Perfect for your daily skincare routine.",
         "tags": [
           "vonsep",
           "retinol-serum",
-          "face-serum",
-          "korean-skincare",
           "facial-serum",
-          "k-beauty"
+          "korean-skincare",
+          "k-beauty",
+          "face-serum",
+          "skincare-routine"
         ],
         "product_type": "Face Serum"
       },
@@ -77,18 +78,18 @@
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049275",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/0XsdymYj3PJyHpuxNOsm1049275_00_010XsdymYj3PJyHpuxNOsm.jpg",
       "copy": {
-        "title": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6pcs",
-        "description_html": "<p>Discover the VT Reedle Shot 100 Facial Boosting First Ampoule, designed to prep and care for your skin texture. This set includes six convenient 2ml ampoules to support your daily skincare routine.</p><p>Gently apply to the face as a first step to help nourish and maintain a smooth, soft-looking complexion. Perfect for on-the-go skincare and easy daily application.</p>",
+        "title": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6ea",
+        "description_html": "<p>Experience smooth skin texture with the VT Reedle Shot 100 Facial Boosting First Ampoule. This set includes six convenient 2ml daily ampoules designed to prep your skin care routine.</p><p>Apply gently onto clean skin to help support a smoother look and feel. Perfect for daily use to enhance your regular skincare routine.</p>",
         "seo_title": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6",
-        "seo_description": "Shop the VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6pcs. Convenient facial ampoules designed for smooth skin texture and daily care.",
+        "seo_description": "Shop the VT Reedle Shot 100 Facial Boosting First Ampoule 6-pack. Designed to smooth skin texture and enhance your daily skincare routine.",
         "tags": [
           "vt-cosmetics",
           "reedle-shot",
-          "facial-ampoule",
-          "k-beauty",
-          "skin-texture",
+          "face-ampoule",
+          "korean-skincare",
           "boosting-ampoule",
-          "korean-skincare"
+          "facial-ampoule",
+          "skincare-set"
         ],
         "product_type": "Face Serum"
       },
@@ -105,23 +106,9 @@
       "shopify_score": 96,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067498",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/wj1JQs4g8q0tBuz4c7jF1067498_00_01wj1JQs4g8q0tBuz4c7jF.jpg",
-      "copy": {
-        "title": "VT PDRN Radiance Cream 50 ml",
-        "description_html": "<p>Discover the nourishing radiance of the VT PDRN Radiance Cream, formulated to help you achieve a glowing and vibrant complexion.</p><p>This 50 ml facial cream delivers rich hydration and an appealing sheen for your daily skincare routine.</p>",
-        "seo_title": "VT PDRN Radiance Cream 50 ml - Moisturizing Face Cream",
-        "seo_description": "Shop the VT PDRN Radiance Cream 50 ml from Korea. A hydrating facial cream designed to help give your skin a glowing and luminous appearance every day.",
-        "tags": [
-          "vt-cosmetics",
-          "pdrn-cream",
-          "radiance-cream",
-          "korean-skincare",
-          "face-cream",
-          "hydrating-cream"
-        ],
-        "product_type": "Face Cream"
-      },
-      "copy_status": "ok",
-      "error": ""
+      "copy": null,
+      "copy_status": "failed",
+      "error": "금지 표현 포함: heal"
     },
     {
       "pd_no": "1075857",
@@ -135,19 +122,19 @@
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260205/Cg7pPAF0QMRSGGKdsWZw1075857_00_01Cg7pPAF0QMRSGGKdsWZw.jpg",
       "copy": {
         "title": "Celderma Daily PDRN Radiance Cream Wrapping Mask 1ea",
-        "description_html": "<p>Discover the Celderma Daily PDRN Radiance Cream Wrapping Mask, designed to give your skin a luminous and glowing look. This single sheet mask delivers intensive moisture for a visibly radiant complexion.</p><p>Apply the wrapping mask smoothly onto cleansed skin to lock in hydration and support a smooth, glowing appearance. Perfect for your daily skincare routine when your skin needs an extra touch of radiance.</p>",
+        "description_html": "<p>Discover the Celderma Daily PDRN Radiance Cream Wrapping Mask, designed to give your skin a radiant and glowing appearance. This single-use sheet mask helps deliver deep moisture and a smooth-looking finish.</p><p>Incorporate this convenient wrapping mask into your regular skincare routine for a hydrated, dewy-looking complexion with a soft touch.</p>",
         "seo_title": "Celderma Daily PDRN Radiance Cream Wrapping Mask 1ea",
-        "seo_description": "Shop the Celderma Daily PDRN Radiance Cream Wrapping Mask for a glowing, radiant-looking complexion. Easy-to-use sheet mask for daily hydration and moisture.",
+        "seo_description": "Shop the Celderma Daily PDRN Radiance Cream Wrapping Mask from Korea. Hydrate and achieve a glowing, radiant complexion with this easy-to-use sheet mask.",
         "tags": [
           "celderma",
           "pdrn-mask",
-          "sheet-mask",
           "k-beauty",
-          "radiance-mask",
-          "facial-mask",
-          "korean-skincare"
+          "sheet-mask",
+          "radiance-cream",
+          "korean-skincare",
+          "hydrating-mask"
         ],
-        "product_type": "Sheet Mask"
+        "product_type": "Face Mask"
       },
       "copy_status": "ok",
       "error": ""
@@ -159,82 +146,24 @@
       "price_krw": 3000,
       "rating": 4.8,
       "review_count": 3884,
-      "shopify_score": 92,
+      "shopify_score": 93,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20250929/gblFwiiyQbV92ezzjLMk1049285_00_01gblFwiiyQbV92ezzjLMk.jpg",
       "copy": {
-        "title": "VT Super Hyalon Sleeping Mask 4 ml 6 Pack",
-        "description_html": "<p>Experience deep moisture and hydration overnight with the VT Super Hyalon Sleeping Mask. This convenient 6-pack makes it easy to maintain soft and dewy skin.</p><p>Simply apply before bed for a refreshed and well-hydrated complexion by morning. Perfect for your nightly skincare routine.</p>",
-        "seo_title": "VT Super Hyalon Sleeping Mask 4 ml 6 Pack",
-        "seo_description": "Discover intense hydration overnight with the VT Super Hyalon Sleeping Mask 4 ml 6 pack. Awaken to a refreshed and moisturized complexion.",
+        "title": "VT Super Hyalon Sleeping Mask 4ml 6ea",
+        "description_html": "<p>Discover the VT Super Hyalon Sleeping Mask, designed to deliver deep moisture and hydration to your skin overnight.</p><p>This convenient set includes six 4ml pouches, making it easy to enjoy a refreshed and hydrated look every morning.</p>",
+        "seo_title": "VT Super Hyalon Sleeping Mask 4ml 6ea",
+        "seo_description": "Shop the VT Super Hyalon Sleeping Mask 4ml 6ea for overnight moisture and hydration. Convenient individual pouches for a refreshed look.",
         "tags": [
           "vt-cosmetics",
           "sleeping-mask",
-          "facial-mask",
-          "korean-skincare",
-          "hydration",
           "hyaluronic-acid",
-          "facial-skincare"
+          "korean-beauty",
+          "facial-mask",
+          "skincare",
+          "moisturizing-mask"
         ],
         "product_type": "Face Mask"
-      },
-      "copy_status": "ok",
-      "error": ""
-    },
-    {
-      "pd_no": "1041403",
-      "name_ko": "채비공간 어성초 추출물 비건 토너 150 ml",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "rating": 4.8,
-      "review_count": 938,
-      "shopify_score": 91,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260122/Z6JojzxiZ6XYe11NJuOd1041403_00_00Z6JojzxiZ6XYe11NJuOd.jpg",
-      "copy": {
-        "title": "Chaebi Gongan Heartleaf Extract Vegan Toner 150ml",
-        "description_html": "<p>Discover the refreshing hydration of Chaebi Gongan Heartleaf Extract Vegan Toner. This gentle 150ml toner is formulated with heartleaf extract to help soothe and refresh your skin.</p><p>Incorporating this vegan toner into your daily routine helps maintain a balanced and hydrated complexion. Suitable for all skin types seeking a lightweight and calming skincare step.</p>",
-        "seo_title": "Chaebi Gongan Heartleaf Extract Vegan Toner 150ml",
-        "seo_description": "Shop Chaebi Gongan Heartleaf Extract Vegan Toner 150ml for a soothing and hydrating skincare routine. Gentle vegan formula for a refreshed complexion.",
-        "tags": [
-          "korean-toner",
-          "vegan-toner",
-          "heartleaf-toner",
-          "k-beauty",
-          "facial-toner",
-          "hydrating-toner",
-          "skincare"
-        ],
-        "product_type": "Face Toner"
-      },
-      "copy_status": "ok",
-      "error": ""
-    },
-    {
-      "pd_no": "1049271",
-      "name_ko": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "rating": 4.8,
-      "review_count": 1765,
-      "shopify_score": 91,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049271",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250929/nWv2JvG9ZseKOt8YvImo1049271_00_01nWv2JvG9ZseKOt8YvImo.jpg",
-      "copy": {
-        "title": "VT Cica Calming Toner 300 ml",
-        "description_html": "<p>Discover the refreshing hydration of VT Cica Calming Toner in a generous 300 ml size. Formulated with cica, this soothing toner helps balance and refresh your daily skincare routine.</p><p>Gently apply to the face after cleansing to help condition the skin and maintain a comfortable, hydrated feel all day long.</p>",
-        "seo_title": "VT Cica Calming Toner 300 ml - Hydrating Facial Toner",
-        "seo_description": "Refresh and hydrate your skin with VT Cica Calming Toner 300 ml. Formulated with cica for a soothing and comfortable daily skincare experience.",
-        "tags": [
-          "vt-cosmetics",
-          "cica-toner",
-          "calming-toner",
-          "facial-toner",
-          "korean-skincare",
-          "hydrating-toner",
-          "k-beauty"
-        ],
-        "product_type": "Facial Toner"
       },
       "copy_status": "ok",
       "error": ""
@@ -251,47 +180,105 @@
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20250429/dEtwcu53V3cOWvQ0SnSL1059834_00_01dEtwcu53V3cOWvQ0SnSL.jpg",
       "copy": {
         "title": "Celderma Daily Transforming Firming Collagen Mask 28g",
-        "description_html": "<p>Discover the Celderma Daily Transforming Firming Collagen Mask, formulated to help support a smooth and firm-looking complexion. This convenient sheet mask delivers moisture directly to the skin for a refreshed and supple feel.</p><p>Incorporate this collagen-infused mask into your regular skincare routine to help enhance your natural glow. Simply apply to clean skin, relax, and let the formula work to refresh your appearance.</p>",
+        "description_html": "<p>Discover the Celderma Daily Transforming Firming Collagen Mask, formulated to help support a firmer-looking appearance for your skin.</p><p>This 28g sheet mask is easy to use for your daily skincare routine, delivering a refreshing and comfortable experience.</p>",
         "seo_title": "Celderma Daily Transforming Firming Collagen Mask 28g",
-        "seo_description": "Enhance your skincare routine with the Celderma Daily Transforming Firming Collagen Mask 28g. Designed to help support a smooth, firm, and radiant-looking complexion.",
+        "seo_description": "Shop the Celderma Daily Transforming Firming Collagen Mask 28g for a smoother and firmer-looking complexion. Easy daily facial sheet mask.",
         "tags": [
           "celderma",
-          "sheet-mask",
           "collagen-mask",
-          "korean-beauty",
-          "facial-mask",
+          "sheet-mask",
           "k-beauty",
-          "firming-mask"
+          "facial-mask",
+          "firming-mask",
+          "skincare"
         ],
-        "product_type": "Sheet Mask"
+        "product_type": "Face Mask"
       },
       "copy_status": "ok",
       "error": ""
     },
     {
-      "pd_no": "1060211",
-      "name_ko": "바세린 모이스처라이징 클렌징 밀크 140 ml",
-      "bucket": "클렌징",
+      "pd_no": "1049271",
+      "name_ko": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
+      "bucket": "스킨케어",
       "price_krw": 5000,
       "rating": 4.8,
-      "review_count": 2832,
-      "shopify_score": 86,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060211",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250311/QGjtoQh4Tv8bUcOEAchc1060211_00_01QGjtoQh4Tv8bUcOEAchc.jpg",
+      "review_count": 1765,
+      "shopify_score": 90,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049271",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250929/nWv2JvG9ZseKOt8YvImo1049271_00_01nWv2JvG9ZseKOt8YvImo.jpg",
       "copy": {
-        "title": "Vaseline Moisturizing Cleansing Milk 140 ml",
-        "description_html": "<p>Discover the Vaseline Moisturizing Cleansing Milk, designed to gently cleanse your skin while providing essential moisture.</p><p>This 140 ml formula helps leave your face feeling clean, soft, and refreshed after every use.</p>",
-        "seo_title": "Vaseline Moisturizing Cleansing Milk 140 ml",
-        "seo_description": "Shop the Vaseline Moisturizing Cleansing Milk 140 ml for a gentle and hydrating cleansing experience that leaves skin soft and refreshed.",
+        "title": "VT Cica Calming Toner 300 ml",
+        "description_html": "<p>Discover the refreshing hydration of VT Cica Calming Toner in a generous 300 ml size. Designed to refresh your daily skincare routine, this soothing formula helps maintain a balanced and comfortable feel for your skin.</p><p>Apply gently after cleansing to prep your skin for the next steps in your routine. Enjoy a comfortable, calm complexion every day with this lightweight toner.</p>",
+        "seo_title": "VT Cica Calming Toner 300 ml - Hydrating Facial Toner",
+        "seo_description": "Refresh your skin with VT Cica Calming Toner 300 ml. A soothing daily facial toner formulated to hydrate and prep your skin for your daily skincare routine.",
         "tags": [
-          "vaseline",
-          "cleansing-milk",
+          "vt-cica",
+          "cica-toner",
+          "calming-toner",
           "k-beauty",
-          "facial-cleanser",
-          "moisturizing-cleanser",
+          "facial-toner",
+          "skincare",
+          "hydrating-toner"
+        ],
+        "product_type": "Facial Toner"
+      },
+      "copy_status": "ok",
+      "error": ""
+    },
+    {
+      "pd_no": "1042619",
+      "name_ko": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
+      "bucket": "마스크팩",
+      "price_krw": 1000,
+      "rating": 4.7,
+      "review_count": 2383,
+      "shopify_score": 89,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240109/8IB1YBxg81UqZXiKzXFM1042619_00_008IB1YBxg81UqZXiKzXFM.jpg",
+      "copy": {
+        "title": "Celderma Daily Collagen Essence Gel Mask 29g",
+        "description_html": "<p>Experience the nourishing feel of the Celderma Daily Collagen Essence Gel Mask, formulated with collagen to help hydrate and care for your skin.</p><p>This 29g sheet mask delivers deep moisture for a softer, smoother-looking complexion in your daily routine.</p>",
+        "seo_title": "Celderma Daily Collagen Essence Gel Mask 29g",
+        "seo_description": "Discover the Celderma Daily Collagen Essence Gel Mask 29g for a deeply hydrated, smooth, and glowing complexion.",
+        "tags": [
+          "sheet-mask",
+          "collagen-mask",
+          "celderma",
+          "k-beauty",
+          "face-mask",
+          "hydrating-mask",
           "korean-skincare"
         ],
-        "product_type": "Cleanser"
+        "product_type": "Face Mask"
+      },
+      "copy_status": "ok",
+      "error": ""
+    },
+    {
+      "pd_no": "1041403",
+      "name_ko": "채비공간 어성초 추출물 비건 토너 150 ml",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "rating": 4.8,
+      "review_count": 938,
+      "shopify_score": 88,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260122/Z6JojzxiZ6XYe11NJuOd1041403_00_00Z6JojzxiZ6XYe11NJuOd.jpg",
+      "copy": {
+        "title": "Chaebi Gongan Houttuynia Cordata Extract Vegan Toner 150 ml",
+        "description_html": "<p>Discover the Chaebi Gongan Houttuynia Cordata Extract Vegan Toner in a convenient 150 ml size. This vegan toner is formulated with heartleaf extract to help refresh and balance your daily skincare routine.</p><p>Gently apply to the skin after cleansing for a hydrated and smooth-looking finish. Suitable for all skin types looking for a clean and simple addition to their daily regimen.</p>",
+        "seo_title": "Chaebi Gongan Vegan Toner with Heartleaf Extract 150 ml",
+        "seo_description": "Shop the Chaebi Gongan Houttuynia Cordata Extract Vegan Toner 150 ml. A refreshing, plant-based toner designed to hydrate and balance your skin.",
+        "tags": [
+          "korean-toner",
+          "vegan-toner",
+          "heartleaf-toner",
+          "k-beauty",
+          "face-toner",
+          "skincare"
+        ],
+        "product_type": "Face Toner"
       },
       "copy_status": "ok",
       "error": ""
