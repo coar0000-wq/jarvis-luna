@@ -2,7 +2,7 @@
 title: "Record 4ff47e2aa0 · The-Web-Search-Your-Agent-Inherited-Isnt-Good-Enough"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T19:41:34.972784+00:00
+updated_at: 2026-09-17T21:25:03.161372+00:00
 tags: [record, real-data]
 ---
 

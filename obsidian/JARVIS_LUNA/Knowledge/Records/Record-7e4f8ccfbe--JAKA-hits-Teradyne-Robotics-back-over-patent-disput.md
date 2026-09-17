@@ -2,7 +2,7 @@
 title: "Record 7e4f8ccfbe · JAKA-hits-Teradyne-Robotics-back-over-patent-disput"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T19:41:35.042154+00:00
+updated_at: 2026-09-17T21:25:03.226722+00:00
 tags: [record, real-data]
 ---
 

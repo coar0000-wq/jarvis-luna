@@ -2,7 +2,7 @@
 title: "Record 31d35d1708 · medicube-Toner-Pads-Zero-Pore-Pad-20-for-Exfoliatio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T19:41:34.920179+00:00
+updated_at: 2026-09-17T21:25:03.111707+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record e6337d7fb7 · Birdseye-raises-500000-to-help-Shopify-businesses-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T19:41:34.758003+00:00
+updated_at: 2026-09-17T21:25:02.946754+00:00
 tags: [record, real-data]
 ---
 

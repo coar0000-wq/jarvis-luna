@@ -2,7 +2,7 @@
 title: "Record 03b6fb7567 · K-beautys-counterfeit-economy-tests-brand-and-platform-controls---Pers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T19:41:34.687028+00:00
+updated_at: 2026-09-17T21:25:02.881998+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,10 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMijgFBVV95cUxQa1ZVcXY5d3JlR1NFRUZMMFhEUXp5ZnlIbG9pQkM1YWJmd2pSNFh6a0NGZ2ZuV2ZIa0JzaVBoTExnVnQ0a2ZQT1dwbUpwWUswV2NwRVhwWDJCazlpU2FXaXVxZnB0X1RVTWRlNlZpeGp2WDctRkVQendRVC0xNTE3alJlemFfQWoyUXZkUlhB?oc=5)
 
-**제목:** K-beauty’s counterfeit economy tests brand and platform controls - Personal Care Insights
+**제목:** K-beauty’s counterfeit economy tests brand and platform controls - personalcareinsights.com
 
-K-beauty’s counterfeit economy tests brand and platform controls - Personal Care Insights
-K-beauty’s counterfeit economy tests brand and platform controls - Personal Care Insights
+K-beauty’s counterfeit economy tests brand and platform controls - personalcareinsights.com
+K-beauty’s counterfeit economy tests brand and platform controls - personalcareinsights.com
 
 **출처:** Source · us_beauty
 

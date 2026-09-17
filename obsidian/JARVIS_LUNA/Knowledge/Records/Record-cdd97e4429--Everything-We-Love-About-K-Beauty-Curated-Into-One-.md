@@ -2,7 +2,7 @@
 title: "Record cdd97e4429 · Everything-We-Love-About-K-Beauty-Curated-Into-One-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T19:41:34.585064+00:00
+updated_at: 2026-09-17T21:25:02.787484+00:00
 tags: [record, real-data]
 ---
 

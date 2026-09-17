@@ -2,7 +2,7 @@
 title: "Record b59954e42c · Sephoras-Olive-Young-Partnership-Will-Debut-With-19"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T19:41:34.624072+00:00
+updated_at: 2026-09-17T21:25:02.823885+00:00
 tags: [record, real-data]
 ---
 

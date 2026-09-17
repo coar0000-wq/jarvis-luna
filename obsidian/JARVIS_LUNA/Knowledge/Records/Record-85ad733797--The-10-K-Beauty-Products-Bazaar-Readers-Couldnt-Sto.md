@@ -2,7 +2,7 @@
 title: "Record 85ad733797 · The-10-K-Beauty-Products-Bazaar-Readers-Couldnt-Sto"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T19:41:34.731375+00:00
+updated_at: 2026-09-17T21:25:02.921647+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMinwFBVV95cUxPLXdZMkswVE5OVkExTmxfMndSY200WWI5dks3OF9od2tHVEZDdEdHeHJ6S1JqWGktaUZ4TXZmci1aMmNXajdWX3FPUkpaaWJJR0w0eDBjQjExWk5JajBoZXV4UnpyY29xMVFla2J2UTFwOU9JaGh2QUhtczM3TTUwUVhYTXlFQzVuaVRQUDBJODlxZVBsQ3puMTU1QWZiM2c?oc=5)
 
-**제목:** The 10 K-Beauty Products Bazaar Readers Couldn’t Stop Buying - Harper's BAZAAR
+**제목:** The 10 K-Beauty Products Bazaar Readers Couldn’t Stop Buying - harpersbazaar.com
 
-The 10 K-Beauty Products Bazaar Readers Couldn’t Stop Buying - Harper's BAZAAR
+The 10 K-Beauty Products Bazaar Readers Couldn’t Stop Buying - harpersbazaar.com
 
 **출처:** Source · Google Search
 

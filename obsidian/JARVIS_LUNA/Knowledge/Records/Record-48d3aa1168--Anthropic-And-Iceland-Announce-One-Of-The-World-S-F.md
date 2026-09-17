@@ -2,7 +2,7 @@
 title: "Record 48d3aa1168 · Anthropic-And-Iceland-Announce-One-Of-The-World-S-F"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T19:41:34.932065+00:00
+updated_at: 2026-09-17T21:25:03.123034+00:00
 tags: [record, real-data]
 ---
 

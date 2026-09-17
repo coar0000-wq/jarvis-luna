@@ -2,7 +2,7 @@
 title: "Record 75069265bd · Tanologist-Express-Dark-Self-Tan-Mousse-676-floz-20"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T19:41:35.059953+00:00
+updated_at: 2026-09-17T21:25:03.243646+00:00
 tags: [record, real-data]
 ---
 

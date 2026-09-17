@@ -2,7 +2,7 @@
 title: "Record dc94525dca · Inducing-Task-Models-from-Computer-Use-Traces"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T19:41:35.117612+00:00
+updated_at: 2026-09-17T21:25:03.299305+00:00
 tags: [record, real-data]
 ---
 

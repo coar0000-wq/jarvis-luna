@@ -2,7 +2,7 @@
 title: "Record 3560184cf0 · People-Are-Sharing-Their-Most-Unhinged-Beauty-Hacks"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T19:41:34.604116+00:00
+updated_at: 2026-09-17T21:25:02.805346+00:00
 tags: [record, real-data]
 ---
 

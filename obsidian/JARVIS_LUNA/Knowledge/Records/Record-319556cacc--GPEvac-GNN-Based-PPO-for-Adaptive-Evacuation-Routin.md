@@ -2,7 +2,7 @@
 title: "Record 319556cacc · GPEvac-GNN-Based-PPO-for-Adaptive-Evacuation-Routing-During-Shooting-E"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T19:41:34.430074+00:00
+updated_at: 2026-09-17T21:25:02.637321+00:00
 tags: [record, real-data]
 ---
 

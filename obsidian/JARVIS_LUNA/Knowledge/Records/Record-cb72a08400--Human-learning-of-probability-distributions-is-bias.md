@@ -2,7 +2,7 @@
 title: "Record cb72a08400 · Human-learning-of-probability-distributions-is-bias"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T19:41:34.327613+00:00
+updated_at: 2026-09-17T21:25:02.534289+00:00
 tags: [record, real-data]
 ---
 

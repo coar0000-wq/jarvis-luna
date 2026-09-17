@@ -2,7 +2,7 @@
 title: "Record 0eb086ad31 · Opinion-From-Seoul-to-Sephora--how-K-beauty-has-become-a-global-phenom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T19:41:34.764978+00:00
+updated_at: 2026-09-17T21:25:02.953324+00:00
 tags: [record, real-data]
 ---
 
@@ -13,9 +13,10 @@ tags: [record, real-data]
 **제목:** Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - HS Insider
 
 Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - HS Insider
+Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - HS Insider
 
-**출처:** Source · Google Search
+**출처:** Source · us_beauty
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[마케팅광고]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[마케팅광고]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

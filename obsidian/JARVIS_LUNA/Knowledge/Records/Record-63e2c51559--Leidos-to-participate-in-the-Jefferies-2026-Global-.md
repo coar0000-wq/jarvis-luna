@@ -2,7 +2,7 @@
 title: "Record 63e2c51559 · Leidos-to-participate-in-the-Jefferies-2026-Global-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T19:41:34.497288+00:00
+updated_at: 2026-09-17T21:25:02.702949+00:00
 tags: [record, real-data]
 ---
 
