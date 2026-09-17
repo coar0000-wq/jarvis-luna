@@ -2,7 +2,7 @@
 title: "Record 062efa017d · Your-Fall-Beauty-Edit-3-Top-Trends-to-Refresh-Your-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T10:26:28.558266+00:00
+updated_at: 2026-09-17T10:30:17.780488+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,10 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMigAFBVV95cUxQajBBeEpXUWJ4Mm1lZ0ZucHhEUlhqb1pKdkhSeEk5YkpNb05BTFdVYzFCWmhpdlhFVnBBUzA1aFFwNmpBTnlrcUM2QU5hWWkwLWstV0Q0b2JYeURaLW9pUXRENkxqdmhhb3pzM0lmOTZCTmVvcGM3ZDdpQ3ZiZk5leQ?oc=5)
 
-**제목:** Your Fall Beauty Edit: 3 Top Trends to Refresh Your Routine at Target - Target Corporation
+**제목:** Your Fall Beauty Edit: 3 Top Trends to Refresh Your Routine at Target - corporate.target.com
 
-Your Fall Beauty Edit: 3 Top Trends to Refresh Your Routine at Target - Target Corporation
-Your Fall Beauty Edit: 3 Top Trends to Refresh Your Routine at Target - Target Corporation
+Your Fall Beauty Edit: 3 Top Trends to Refresh Your Routine at Target - corporate.target.com
+Your Fall Beauty Edit: 3 Top Trends to Refresh Your Routine at Target - corporate.target.com
 
 **출처:** Source · us_beauty
 

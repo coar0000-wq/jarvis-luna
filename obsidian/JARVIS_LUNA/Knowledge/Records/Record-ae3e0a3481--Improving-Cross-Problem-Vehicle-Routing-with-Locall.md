@@ -2,7 +2,7 @@
 title: "Record ae3e0a3481 · Improving-Cross-Problem-Vehicle-Routing-with-Locall"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T10:26:29.770738+00:00
+updated_at: 2026-09-17T10:30:18.215971+00:00
 tags: [record, real-data]
 ---
 

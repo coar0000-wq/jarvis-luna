@@ -2,7 +2,7 @@
 title: "Record ef379add50 · Reading-Is-Not-Using-Retrieval-Judgment-and-the-Des"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T10:26:29.767615+00:00
+updated_at: 2026-09-17T10:30:18.213993+00:00
 tags: [record, real-data]
 ---
 

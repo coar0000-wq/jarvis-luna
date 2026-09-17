@@ -2,7 +2,7 @@
 title: "Record 6dc4cf213d · I-Found-Every-Makeup-Product-Hailey-Bieber-UsesAnd-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T10:26:28.722788+00:00
+updated_at: 2026-09-17T10:30:17.835396+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMimgFBVV95cUxPVkhvbVhUYmJUVU5va2pnUXA3UDJqaHR5UDRsSzlGbUhhQmZ6S2M3LWlrSElQSnVudEhJVnNOUHQ5TUJyVXFGSG85Y05UaGcya1RKQnlHZUNBN0htZVZDX2FUWHZyQkhDdk5FQlNLT3BnS2FnT3EtbzQ3TnB0VnR2Und5ZVhBcXpudU1yMmZyYWV3ME1keGVnWDBB?oc=5)
 
-**제목:** I Found Every Makeup Product Hailey Bieber Uses—And They’re All Under $100 - elle.com
+**제목:** I Found Every Makeup Product Hailey Bieber Uses—And They’re All Under $100 - ELLE
 
-I Found Every Makeup Product Hailey Bieber Uses—And They’re All Under $100 - elle.com
+I Found Every Makeup Product Hailey Bieber Uses—And They’re All Under $100 - ELLE
 
 **출처:** Source · Google Search
 

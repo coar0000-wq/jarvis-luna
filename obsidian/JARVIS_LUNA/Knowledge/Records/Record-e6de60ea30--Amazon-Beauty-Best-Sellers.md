@@ -2,7 +2,7 @@
 title: "Record e6de60ea30 · Amazon-Beauty-Best-Sellers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T10:26:29.212057+00:00
+updated_at: 2026-09-17T10:30:18.010805+00:00
 tags: [record, real-data]
 ---
 

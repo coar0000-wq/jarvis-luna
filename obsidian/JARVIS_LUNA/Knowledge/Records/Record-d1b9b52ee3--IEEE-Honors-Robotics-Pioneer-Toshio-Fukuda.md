@@ -2,7 +2,7 @@
 title: "Record d1b9b52ee3 · IEEE-Honors-Robotics-Pioneer-Toshio-Fukuda"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T10:26:29.069245+00:00
+updated_at: 2026-09-17T10:30:17.958916+00:00
 tags: [record, real-data]
 ---
 

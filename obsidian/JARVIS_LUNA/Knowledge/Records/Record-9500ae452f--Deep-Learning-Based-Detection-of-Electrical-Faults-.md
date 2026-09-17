@@ -2,7 +2,7 @@
 title: "Record 9500ae452f · Deep-Learning-Based-Detection-of-Electrical-Faults-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T10:26:27.561892+00:00
+updated_at: 2026-09-17T10:30:17.424774+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 7489b4ee3e · AI-Prompts-for-Ecommerce-14-Examples---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T10:26:28.271968+00:00
+updated_at: 2026-09-17T10:30:17.683260+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiVEFVX3lxTE5qY2ExcmhHR0M4ZkxfLXR5SnN4SzNZY01ZOFZ1Nk90dnBmcFlzZlV6MW5nOGxvdUFoaGlMdlFuY1NsWGFlRVRZOVltakNpS1JTS1dGag?oc=5)
 
-**제목:** AI Prompts for Ecommerce: 14 Examples - Shopify
+**제목:** AI Prompts for Ecommerce: 14 Examples (2025) - Shopify
 
-AI Prompts for Ecommerce: 14 Examples - Shopify
+AI Prompts for Ecommerce: 14 Examples (2025) - Shopify
 
 **출처:** Source · Google Search
 

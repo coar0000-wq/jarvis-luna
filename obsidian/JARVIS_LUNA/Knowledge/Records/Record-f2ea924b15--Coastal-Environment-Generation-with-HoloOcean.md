@@ -2,7 +2,7 @@
 title: "Record f2ea924b15 · Coastal-Environment-Generation-with-HoloOcean"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T10:26:27.562645+00:00
+updated_at: 2026-09-17T10:30:17.425070+00:00
 tags: [record, real-data]
 ---
 

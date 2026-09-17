@@ -2,7 +2,7 @@
 title: "Record 87af7d8915 · On-the-Degree-of-Safety-Beyond-Safe-or-Unsafe-with-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T10:26:27.387506+00:00
+updated_at: 2026-09-17T10:30:17.364757+00:00
 tags: [record, real-data]
 ---
 

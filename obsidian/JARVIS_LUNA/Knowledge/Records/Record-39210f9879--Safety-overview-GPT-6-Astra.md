@@ -2,7 +2,7 @@
 title: "Record 39210f9879 · Safety-overview-GPT-6-Astra"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T10:26:28.966602+00:00
+updated_at: 2026-09-17T10:30:17.922276+00:00
 tags: [record, real-data]
 ---
 

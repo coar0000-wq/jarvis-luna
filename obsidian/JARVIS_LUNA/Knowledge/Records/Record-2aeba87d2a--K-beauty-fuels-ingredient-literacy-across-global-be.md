@@ -2,7 +2,7 @@
 title: "Record 2aeba87d2a · K-beauty-fuels-ingredient-literacy-across-global-be"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T10:26:28.655026+00:00
+updated_at: 2026-09-17T10:30:17.814058+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,10 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMijwFBVV95cUxPYllkR1BfN3NHcFJfVWVRMXJVWFRtbUdiRmRITWVOZ2RFZWtqazNEX0lHZ1ByN1RuR2ZGSHhZbGgtVHNockNid1VKX1BUOXBfUG12Y1RrNG9TNXppRGlPNDlsLXB4UDJCdXVoZnpWZWZwWUI4WmN3aktPZnRYNU1EUFRLWEFESEpHTVZrQUtEQQ?oc=5)
 
-**제목:** K-beauty fuels ingredient literacy across global beauty, says Kiss New York - Personal Care Insights
+**제목:** K-beauty fuels ingredient literacy across global beauty, says Kiss New York - personalcareinsights.com
 
-K-beauty fuels ingredient literacy across global beauty, says Kiss New York - Personal Care Insights
-K-beauty fuels ingredient literacy across global beauty, says Kiss New York - Personal Care Insights
+K-beauty fuels ingredient literacy across global beauty, says Kiss New York - personalcareinsights.com
+K-beauty fuels ingredient literacy across global beauty, says Kiss New York - personalcareinsights.com
 
 **출처:** Source · us_beauty
 

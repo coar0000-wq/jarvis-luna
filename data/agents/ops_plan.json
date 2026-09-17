@@ -1,8 +1,8 @@
 {
   "agent": "Ops-Prioritizer",
-  "generated_at": "2026-09-17T10:27:14.958141+00:00",
+  "generated_at": "2026-09-17T10:38:24.984476+00:00",
   "risk": "medium",
-  "task_count": 5,
+  "task_count": 4,
   "tasks": [
     {
       "priority": 2,
@@ -40,15 +40,6 @@
         "data/dashboard_runtime.json"
       ],
       "approve": "사람: 팀 카드 조치 확인"
-    },
-    {
-      "priority": 4,
-      "title": "팀 조치 · 지식 수집팀",
-      "detail": "수집 실패: arXiv(export.arxiv.org/robots.txt 가 Disallow: / 다. robots 를 지키기로 해서 받지 않는다.)",
-      "refs": [
-        "data/dashboard_runtime.json"
-      ],
-      "approve": "사람: 팀 카드 조치 확인"
     }
   ],
   "note": "제안만 수행. 데이터 플레인 JSON은 수정하지 않음. 승인 후 기존 스크립트/수동 작업.",
@@ -70,10 +61,6 @@
       {
         "n": 4,
         "text": "팀 조치 · 디자인팀 — 다음 단계: Shopify 스토어 개설 및 기본 설정"
-      },
-      {
-        "n": 5,
-        "text": "팀 조치 · 지식 수집팀 — 수집 실패: arXiv(export.arxiv.org/robots.txt 가 Disallow: / 다. robots 를 지키기로 해서 받지 않는"
       }
     ]
   }
