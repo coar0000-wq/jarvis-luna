@@ -2,7 +2,7 @@
 title: "Record f64e0ab963 · K-BEAUTY-IS-LANDING-AT-COLES-AS-SUPERMARKET-SKINCAR"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T10:30:17.876560+00:00
+updated_at: 2026-09-17T11:44:15.696272+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record de417f8f9a · Centella-asiatica"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T10:30:17.634405+00:00
+updated_at: 2026-09-17T11:44:15.451503+00:00
 tags: [record, real-data]
 ---
 

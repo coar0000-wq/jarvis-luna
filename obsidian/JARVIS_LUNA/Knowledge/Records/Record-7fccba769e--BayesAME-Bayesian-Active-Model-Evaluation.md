@@ -2,7 +2,7 @@
 title: "Record 7fccba769e · BayesAME-Bayesian-Active-Model-Evaluation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T10:30:17.951033+00:00
+updated_at: 2026-09-17T11:44:15.768771+00:00
 tags: [record, real-data]
 ---
 

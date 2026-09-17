@@ -2,7 +2,7 @@
 title: "Record 202b5361f0 · compact--micellar-cleansing-lemon"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T10:30:17.990539+00:00
+updated_at: 2026-09-17T11:44:15.815676+00:00
 tags: [record, real-data]
 ---
 

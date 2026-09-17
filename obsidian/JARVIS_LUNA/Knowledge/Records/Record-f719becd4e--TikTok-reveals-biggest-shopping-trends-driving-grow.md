@@ -2,7 +2,7 @@
 title: "Record f719becd4e · TikTok-reveals-biggest-shopping-trends-driving-growth-in-beauty---TheI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T10:30:17.827520+00:00
+updated_at: 2026-09-17T11:44:15.645946+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 548286c019 · Shopify-and-Amazon-outperform-as-online-retail-fell"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T10:30:17.799454+00:00
+updated_at: 2026-09-17T11:44:15.617006+00:00
 tags: [record, real-data]
 ---
 

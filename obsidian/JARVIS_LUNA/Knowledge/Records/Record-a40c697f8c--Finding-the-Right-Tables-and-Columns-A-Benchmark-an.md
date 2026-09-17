@@ -2,7 +2,7 @@
 title: "Record a40c697f8c · Finding-the-Right-Tables-and-Columns-A-Benchmark-an"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T10:30:17.944035+00:00
+updated_at: 2026-09-17T11:44:15.762139+00:00
 tags: [record, real-data]
 ---
 

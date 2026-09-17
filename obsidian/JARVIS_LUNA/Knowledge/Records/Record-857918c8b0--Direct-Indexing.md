@@ -2,7 +2,7 @@
 title: "Record 857918c8b0 · Direct-Indexing"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T10:30:18.103675+00:00
+updated_at: 2026-09-17T11:44:15.921805+00:00
 tags: [record, real-data]
 ---
 

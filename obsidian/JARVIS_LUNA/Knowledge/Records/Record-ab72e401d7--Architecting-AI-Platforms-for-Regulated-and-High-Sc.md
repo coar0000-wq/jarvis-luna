@@ -2,7 +2,7 @@
 title: "Record ab72e401d7 · Architecting-AI-Platforms-for-Regulated-and-High-Sc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T10:30:17.602068+00:00
+updated_at: 2026-09-17T11:44:15.418081+00:00
 tags: [record, real-data]
 ---
 

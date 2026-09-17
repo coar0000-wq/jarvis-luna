@@ -2,7 +2,7 @@
 title: "Record 9c485cd8b3 · Learning-a-Size-Weight-Frontier-for-Synthetic-Augme"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T10:30:17.354012+00:00
+updated_at: 2026-09-17T11:44:15.166198+00:00
 tags: [record, real-data]
 ---
 

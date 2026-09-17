@@ -2,7 +2,7 @@
 title: "Record b7821e4e18 · Orchard-An-open-framework-for-scalable-agentic-AI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T10:30:18.084491+00:00
+updated_at: 2026-09-17T11:44:15.903929+00:00
 tags: [record, real-data]
 ---
 

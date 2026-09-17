@@ -2,7 +2,7 @@
 title: "Record 44eda28a99 · How-we-eliminated-1-million-a-year-of-wasted-AI-age"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T10:30:18.059255+00:00
+updated_at: 2026-09-17T11:44:15.879147+00:00
 tags: [record, real-data]
 ---
 

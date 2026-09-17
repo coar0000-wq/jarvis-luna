@@ -2,7 +2,7 @@
 title: "Record 30364b6cdb · Etf-Share-Classes"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T10:30:18.072381+00:00
+updated_at: 2026-09-17T11:44:15.892135+00:00
 tags: [record, real-data]
 ---
 

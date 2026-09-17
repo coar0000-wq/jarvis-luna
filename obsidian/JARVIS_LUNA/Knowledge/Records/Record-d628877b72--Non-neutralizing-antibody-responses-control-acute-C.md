@@ -2,7 +2,7 @@
 title: "Record d628877b72 · Non-neutralizing-antibody-responses-control-acute-Crimean-Congo-hemorr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T10:30:17.535751+00:00
+updated_at: 2026-09-17T11:44:15.352540+00:00
 tags: [record, real-data]
 ---
 

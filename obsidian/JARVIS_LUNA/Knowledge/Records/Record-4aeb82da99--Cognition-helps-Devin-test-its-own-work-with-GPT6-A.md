@@ -2,7 +2,7 @@
 title: "Record 4aeb82da99 · Cognition-helps-Devin-test-its-own-work-with-GPT6-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T10:30:17.913664+00:00
+updated_at: 2026-09-17T11:44:15.731157+00:00
 tags: [record, real-data]
 ---
 

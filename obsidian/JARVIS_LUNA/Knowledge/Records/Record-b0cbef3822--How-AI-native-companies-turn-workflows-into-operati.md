@@ -2,7 +2,7 @@
 title: "Record b0cbef3822 · How-AI-native-companies-turn-workflows-into-operati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T10:30:17.911814+00:00
+updated_at: 2026-09-17T11:44:15.729463+00:00
 tags: [record, real-data]
 ---
 
