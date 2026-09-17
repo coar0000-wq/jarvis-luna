@@ -2,7 +2,7 @@
 title: "Record 6e3f7d186d · Beyond-glass-skin-to-serious-business-Can-K-beauty-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T10:24:46.606676+00:00
+updated_at: 2026-09-17T10:26:28.817002+00:00
 tags: [record, real-data]
 ---
 

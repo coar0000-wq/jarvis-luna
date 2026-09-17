@@ -2,7 +2,7 @@
 title: "Record aad1b1d437 · Achieving-Extreme-Efficiency-through-Specialized-GP"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T10:24:47.118932+00:00
+updated_at: 2026-09-17T10:26:29.333273+00:00
 tags: [record, real-data]
 ---
 

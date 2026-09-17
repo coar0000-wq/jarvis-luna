@@ -2,7 +2,7 @@
 title: "Record 27727d34ab · Galderma-launches-ALASTIN-skincare-in-Korea-at-GAIN"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T10:24:46.200827+00:00
+updated_at: 2026-09-17T10:26:28.411328+00:00
 tags: [record, real-data]
 ---
 

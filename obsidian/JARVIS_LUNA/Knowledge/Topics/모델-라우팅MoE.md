@@ -2,7 +2,7 @@
 title: "모델 라우팅·MoE"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T10:24:47.729492+00:00
+updated_at: 2026-09-17T10:26:29.951497+00:00
 tags: [topic, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 27e4799745 · Leidos-to-keep-650000-Navy-and-Marine-Corps-personnel-securely-connect"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T10:24:45.962455+00:00
+updated_at: 2026-09-17T10:26:28.173540+00:00
 tags: [record, real-data]
 ---
 

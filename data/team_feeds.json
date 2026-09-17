@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-09-17T09:11:20.346256+00:00",
+  "generated_at": "2026-09-17T10:26:26.121422+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
-  "pool_size": 2144,
+  "pool_size": 2192,
   "제목없어_버림": 38,
   "unrouted": 6,
   "summary": {
     "sourcing": {
       "total": 306,
-      "recent": 305,
-      "material": 4,
+      "recent": 304,
+      "material": 5,
       "material_recent": 3,
-      "products": 302
+      "products": 301
     },
     "market": {
-      "total": 475,
+      "total": 479,
       "recent": 38,
-      "material": 475,
+      "material": 479,
       "material_recent": 38,
       "products": 0
     },
@@ -36,38 +36,38 @@
       "products": 0
     },
     "legal": {
-      "total": 112,
-      "recent": 17,
-      "material": 112,
-      "material_recent": 17,
+      "total": 114,
+      "recent": 19,
+      "material": 114,
+      "material_recent": 19,
       "products": 0
     },
     "design": {
-      "total": 346,
-      "recent": 79,
-      "material": 346,
-      "material_recent": 79,
+      "total": 360,
+      "recent": 96,
+      "material": 360,
+      "material_recent": 96,
       "products": 0
     },
     "robotics": {
-      "total": 58,
-      "recent": 25,
-      "material": 58,
-      "material_recent": 25,
+      "total": 64,
+      "recent": 31,
+      "material": 64,
+      "material_recent": 31,
       "products": 0
     },
     "knowledge": {
-      "total": 126,
-      "recent": 21,
-      "material": 126,
-      "material_recent": 21,
+      "total": 175,
+      "recent": 71,
+      "material": 175,
+      "material_recent": 71,
       "products": 0
     },
     "institutions": {
       "total": 1062,
-      "recent": 259,
+      "recent": 265,
       "material": 1062,
-      "material_recent": 259,
+      "material_recent": 265,
       "products": 0
     }
   },
@@ -614,14 +614,21 @@
         "by_hand": true
       },
       {
+        "title": "SK hynix Presents ‘New Spectrum’ for AI Infrastructure at ‘AI Infra Summit 2026’",
+        "url": "https://news.skhynix.com/en/ai-infra-summit-2026/",
+        "pool": "institutions",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
         "title": "Kendall Jenner’s K-Beauty Routine Is on Sale—Here’s Where to Find It - E! News",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeWNLNGFuSHl0X18yb1hMVUlQR0xQLUJoSWlsLV9WWktSTTNGajB4R2h1RlQ2Wno3Mi1BQ2c1X0NqSUxRZWpzMzNmRHdvZ2dYTmYyR3JJaTNxb3N5bU1MSzBsaE5OMHpSX1hiUUtMMDNHV1JRdFlqWmxueGNmbGFtU1J0UTZhaVNrVmYyV3NB?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOS2RYOFBCbzU2TVZCQ2l4VXVkb2lRV0pGWUFzYWNweUZDTFVfRHAyNFdRRWRmWXZ1RkNnYlpXVVZXeThNaXJkcG85aFNyVldLaHhOR0NiOVM0MTgzLUhaMF9KZm91cXIyeG9Na2JCZE54QUpxckxNRmxZVEF2WmhMZ2lyVWp3Z2ZYc2xtOQ?oc=5",
         "pool": "google",
         "date": "2026-09-16",
         "by_hand": false
       },
       {
-        "title": "Move Over, Glass Skin: Cloud Creams Are the K-Beauty Moisturizer Trend Taking Over - elle.com",
+        "title": "Move Over, Glass Skin: Cloud Creams Are the K-Beauty Moisturizer Trend Taking Over - ELLE",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNc3JsQnlaWlRYMXMxNzBkLXBuUUlURHNCVzBwVHdndWVEUXZZZndUUkpUdFFPN3NJR1FJMGhualo2UDFsc05hSmNDa1NLYzA1ejQ5cS1fWFpUaWRDNmZYX0k0d05fTGNzQVZhLXpDOGpORk1pa0htM3gxUzYtZWZyZ3R0MW9BY29OZnhQN1JaYV94X1U?oc=5",
         "pool": "google",
         "date": "2026-09-16",
@@ -635,15 +642,15 @@
         "by_hand": false
       },
       {
-        "title": "K-beauty: Why Korea's skincare industry is dominating cosmetics - RTE.ie",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdzBLZFB4dFNnQnNvRm52OFZDZDhOR0tZbml1WjQ0b2ZDb1JPMi16VEY2b0FDUURnTmNwd3c4bWhWaFp1SHZ5NXdVQjVBWEx3Qm5iT1FJVm05bUNlZEVRY3RkN2VYaThRYWZvc2RGc0JkWXhHX3BYbGNBY0pmUVRhdTY1UkhTM19Hd1pCQjZWc09JUC1SUzhJV0FEckRZSFlRTHZlNThMckowQWhKaEFheTVCQjZsRVpD?oc=5",
+        "title": "K-Beauty Body Care: VOESH Brings Facial Skincare Benefits to the Body - Trend Hunter",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE53ci1acDZjOUhmUE9rY3BwQWw2akhqWnVGZ1gzNGQ4dmhSY3EzUWl0VUU2Q0FOU2pCSEdwSGhWLWk5bTRXbFRHcDJyelBjdVMxMEo4VjVPcE5qSUlPWVBMVFZIc1pFMHVESFh2WnJhMA?oc=5",
         "pool": "google",
         "date": "2026-09-16",
         "by_hand": false
       },
       {
-        "title": "K-Beauty Body Care: VOESH Brings Facial Skincare Benefits to the Body - trendhunter.com",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE53ci1acDZjOUhmUE9rY3BwQWw2akhqWnVGZ1gzNGQ4dmhSY3EzUWl0VUU2Q0FOU2pCSEdwSGhWLWk5bTRXbFRHcDJyelBjdVMxMEo4VjVPcE5qSUlPWVBMVFZIc1pFMHVESFh2WnJhMA?oc=5",
+        "title": "K-beauty: Why Korea's skincare industry is dominating cosmetics - rte.ie",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdzBLZFB4dFNnQnNvRm52OFZDZDhOR0tZbml1WjQ0b2ZDb1JPMi16VEY2b0FDUURnTmNwd3c4bWhWaFp1SHZ5NXdVQjVBWEx3Qm5iT1FJVm05bUNlZEVRY3RkN2VYaThRYWZvc2RGc0JkWXhHX3BYbGNBY0pmUVRhdTY1UkhTM19Hd1pCQjZWc09JUC1SUzhJV0FEckRZSFlRTHZlNThMckowQWhKaEFheTVCQjZsRVpD?oc=5",
         "pool": "google",
         "date": "2026-09-16",
         "by_hand": false
@@ -663,13 +670,6 @@
         "by_hand": false
       },
       {
-        "title": "Red Rice-Powered Hydrating Serums - trendhunter.com",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBZUVFaZVVlOTg3elZ5aWRVeHNZRXVkUGFqLWt5U1ZsWGtibF9XMXdZZXNlSW9KMFJUWm5mbFhrVkJRdG9wVi1qUlRVMTlZcWh6TldvLXhsSQ?oc=5",
-        "pool": "google",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
         "title": "Securities Services   Etf Trends",
         "url": "https://www.jpmorgan.com/insights/etf/securities-services/etf-trends",
         "pool": "institutions",
@@ -684,7 +684,7 @@
         "by_hand": false
       },
       {
-        "title": "The Legendary Korean Brand – Beauty of Joseon Is Now Exclusively Available at PSP - georgiatoday.ge",
+        "title": "The Legendary Korean Brand – Beauty of Joseon Is Now Exclusively Available at PSP - Georgia Today",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQY3lSbnNfNzlPRjZyd2tndlJqT3lCUEdnQlpkVGVhT1ZHX1VZY1NtNXBvTGZ4REh0dUJtSXlMRWVMWmRXT2VuakxFTUdXcjRQVEEwb3NLMW1BNGdzMlNaLU11QW5kQ1RoOFdtUTRpLU1oMVFBcVI3aGJQMHVDeGpHSFBXNmV1TFVMUk1QZGVtLTluOXlzNE04bjJyV29hOTA5dkdyN2lNRQ?oc=5",
         "pool": "google",
         "date": "2026-09-15",
@@ -693,13 +693,6 @@
       {
         "title": "PDRN make-up: How K-beauty’s trending skin care ingredient is moving into colour cosmetics - Cosmetics Business",
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5hUjBkN2xpRlFvamdfRndGMTQtTC1OeEZNRFIxcXRGeHBxNGtaRi1pMkp2Qzc0eGg4ZkxpZm1pOHd6bG9IYmhiVWdOU2IyMl9xaE5OREhMTjlpeUZfTS1iNXRuMXJwVnVCeDQ2Z25vOFJaQWh5WUJ4WVRENA?oc=5",
-        "pool": "google",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "AppMaker joins Shopify, TikTok, Klaviyo for London’s “A New Era ’26” ecommerce event - sociable.co",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdHlpRDF4N3dNaEhNQS1ja1RtZ2RtZXdpSXlmMjM0MjQ4dWlJNm5QZW81aDdiR1RIVi0ybTVpeU1JdW8zV0Q5YWJxYWlESjJubEhyT1lHZFpDWUhFN0xZSWVoOFlsX25tb05QOVdya3ltN29NT1BRT2c0MURZRjU4TUU4bGVFV1E0aW1nckN4aFR6NmhidHNka0U0ODR0d1hHaWpGcGd2azB2WDg1?oc=5",
         "pool": "google",
         "date": "2026-09-15",
         "by_hand": false
@@ -726,15 +719,22 @@
         "by_hand": false
       },
       {
-        "title": "Mainstream K-Beauty Expansions: SUNGBOON EDITOR and Milk Touch Enter Target Beauty Studio - trendhunter.com",
+        "title": "Mainstream K-Beauty Expansions: SUNGBOON EDITOR and Milk Touch Enter Target Beauty Studio - Trend Hunter",
         "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE96WXJUaXZud0RKa2hHSmRCZ1NLVGRGeVZwZXROTXZKa21la3AydnhVZ1BycWNia0RkV3ZNZDhOZ2ZnLWZLRWdiR3lYRU12SlVXT243ang0N1FKbWlJSjBuTGhKbTRXX1R0bFM0?oc=5",
         "pool": "google",
         "date": "2026-09-14",
         "by_hand": false
       },
       {
-        "title": "From Musinsa to Daiso, K-beauty is rewriting Korea’s retail playbook - The Korea Herald",
+        "title": "From Musinsa to Daiso, K-beauty is rewriting Korea’s retail playbook - koreaherald.com",
         "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5SY082WGxWOEt4ZDNISVVtSTJpNEJhMjNPMnFhOW1uNWEwY19EYTl6RDhxVkFzT0VMU180VkJRaE1QTV96OXRDdE1DcVhaTkVwUHpxU1BjRQ?oc=5",
+        "pool": "google",
+        "date": "2026-09-14",
+        "by_hand": false
+      },
+      {
+        "title": "K-Beauty Dominates AI Base Makeup Recommendations - 조선일보",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeXhNVXR2WTVXRGlJY0F3S0dYR2xKSUlCSnZtdDVMM3dQMXFkVUg2V0N4Z1JoM2JVTVRmTmdfSWU4dDR0bTNmOFBwX2c3cy1sYlcyVjZzVmJ1TkhGTkhwaXRldFN1ZDJFTmJZdUJPNHJiZ1gyNFBGajVtWDdObkVIUzlpRVptRllS?oc=5",
         "pool": "google",
         "date": "2026-09-14",
         "by_hand": false
@@ -754,14 +754,14 @@
         "by_hand": false
       },
       {
-        "title": "The Vogue Business Beauty Trend Tracker - Vogue",
+        "title": "The Vogue Business Beauty Trend Tracker - vogue.com",
         "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96eFRtR1g5NG15VmJxdk9GX3B1V1FJdWRDdkJPb1pHMWk3d2pwMV81WFBURlJxaHRadVZTWUFKR1VSc21KX1lyVTUxa2NSa05nRmxUU1FRb1hFVWNvc2hDZ25YYUQ0Y09jMzNhLTZuWGk?oc=5",
         "pool": "google",
         "date": "2026-09-11",
         "by_hand": false
       },
       {
-        "title": "The Vogue Business TikTok Trend Tracker - Vogue",
+        "title": "The Vogue Business TikTok Trend Tracker - vogue.com",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9nc2ktNnQxVzlMTjl1MjR5MFYwSkMtVjI1Z0VhZlBLU0JqVlBjdHUyejJCVDV3OE9xYmF3ckhxR2VXLTk1Y3ZScXZfN0VPSU1ManFXYmFUWWxKTDN6cjFXTzk2OGxSVWxDOHIyeXZmRG9jUktfd2FIMg?oc=5",
         "pool": "google",
         "date": "2026-09-11",
@@ -775,7 +775,7 @@
         "by_hand": false
       },
       {
-        "title": "Prestige K-Beauty Retail: mixsoon Brings Its Korean Skincare Lines to Target Beauty Studio - trendhunter.com",
+        "title": "Prestige K-Beauty Retail: mixsoon Brings Its Korean Skincare Lines to Target Beauty Studio - Trend Hunter",
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5yd21ockxiN01RTlN0SGRoNWdlcFBFdkpab3JqdXRGUHRIS3NjS1VzR3VDWjhKRmJtaTN4MGlaS0NLUjlVbVRxZE5xY1lqU28yV0dVOTNLby03OUhKVWVuVlg3ZjBVMEkydXc?oc=5",
         "pool": "google",
         "date": "2026-09-09",
@@ -796,7 +796,7 @@
         "by_hand": false
       },
       {
-        "title": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
+        "title": "6 Steps to Glass Skin, According to K-Beauty Experts - vogue.com",
         "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5",
         "pool": "google",
         "date": "2026-09-08",
@@ -817,7 +817,7 @@
         "by_hand": false
       },
       {
-        "title": "Would You Go on a Glowcation? K-Beauty Is Betting So - Vogue",
+        "title": "Would You Go on a Glowcation? K-Beauty Is Betting So - vogue.com",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ01YZ2lKV0VUQzJROHZVVnJZbWM1dkw1TFRGLXFMcUx0dWhaZDJheTIwdE9yaElIUFpmYlJVSXg2UnQ0aDhCOVd3MVZvakhvVWxDWi1wM2hfbGVKbjFaSHJLWjJHYU02M3lwdGRXQVNfSXJGdWVTN0h4V0tvaU9iLUIzbGFmZkFU?oc=5",
         "pool": "google",
         "date": "2026-09-04",
@@ -901,23 +901,23 @@
         "by_hand": false
       },
       {
+        "title": "If You’re Terrified of Microneedling, K-Beauty Spicule Serums are A Gentler Way to Do It at Home - Oprah Daily",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONVZoeHI4TzZMS0tEM2tWc01tUFowTzhiUkJPcXllM2U5bGNDWVhjaC1sOFV0ejl4N1NNYjFBQ3JMSVNoMEwtVldRYm0xUlFyYlZYbm00M3l4WEgyeG1qblZEZEJIc0EyNC1uWW0zQ0Fma3EyMmVJSWtHc184LUlLT002X3U3eURVcF9oZDdB?oc=5",
+        "pool": "google",
+        "date": "2026-08-28",
+        "by_hand": false
+      },
+      {
+        "title": "SHOP vs. ADBE: Which Stock Has the Edge in AI-Driven Ecommerce? - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPczlRZTVPTlpYTHNGbFFVaGQzbXRLSF83VDZWemlkbE1DOUpUNlpKLUUzLTFJSTRTaEdhRXZ5X21xeExTdlM1ZXhIUXNNNHczRld2Q2pOZVNuMXZoS3hEbDVUM1BfQ3I0UEJSS21iMGxzVzZ0UU40cjlFOXBoMFBvTTZVa2NYSlNkSWF3bVBYZ28wZw?oc=5",
+        "pool": "google",
+        "date": "2026-08-28",
+        "by_hand": false
+      },
+      {
         "title": "Transition-Metal Modified Zinc Oxide (ZnO) Nanostructures for Photocatalysis Application — A Comparative Review of Metal Doping and Metal-oxide Conjugation",
         "url": "https://doi.org/10.26434/chemrxiv.15007951/v1",
         "pool": "institutions",
-        "date": "2026-08-27",
-        "by_hand": false
-      },
-      {
-        "title": "Meet the K-beauty products that beauty lovers consistently rank as their absolute skincare favorites - Fort Worth Star-Telegram",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA3Y2ZRR0YyT1RTSXFnT2R1M2R4RGdBMzdXSEFGcDg3V2dKX3dnS3dOdXNNUXZzakhkSDFsZllvTXlsOXVQdWROSEFNUDdpYlA1SDc4RmFaVWFLVzgzUGtXMnkyYUxEWEV5a0NqNE90cENyMTJ4dVFLSWlKRGjSAXxBVV95cUxPcUJTSmtsZDhHR0FvUlNpVDl1bkZPcHJiaFJIN0xCNnRCaWZLUGZIWVpzY2llSVdkQnhPMzA5Yk1tWGtJN3k1LW14dkF4NTExeFk2T0JuMVQ3ZWVEbjl5NklwMTd1cVZoenBJUmJVVWFnbTZQSzc3VFY1Vm9S?oc=5",
-        "pool": "google",
-        "date": "2026-08-27",
-        "by_hand": false
-      },
-      {
-        "title": "K-beauty’s fastest-growing products are quietly crossing over from cult status to household names - Sacramento Bee",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1aWFdHVGswUVFLUzNOYnhaRzV4RXpLSE4yUU5IcHJVa2lieDYtRjBxNkZma1NUSG9hQS1QT3ZJcHVxekFETnhNUzloR3g5UkxEQWx5QVJxY1V5emtySDRYZzNnTUl3RWVCX29nazdaRUlMYWPSAXNBVV95cUxNdjl6SVNhV25mQjFJeUZITi0tLXlnMlFPcWc0a3lxNGU2cGdldm5GRzF2Yk1HY2VrQUhsVF9zemRaeVJvUkZzSDJxQnd4cXlDWTlGSEVYM3VYUEJ5aFMweWtBREtQb3NVTUVJRmxSMTlJQXBN?oc=5",
-        "pool": "google",
         "date": "2026-08-27",
         "by_hand": false
       }
@@ -966,7 +966,7 @@
         "by_hand": true
       },
       {
-        "title": "The Legendary Korean Brand – Beauty of Joseon Is Now Exclusively Available at PSP - georgiatoday.ge",
+        "title": "The Legendary Korean Brand – Beauty of Joseon Is Now Exclusively Available at PSP - Georgia Today",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQY3lSbnNfNzlPRjZyd2tndlJqT3lCUEdnQlpkVGVhT1ZHX1VZY1NtNXBvTGZ4REh0dUJtSXlMRWVMWmRXT2VuakxFTUdXcjRQVEEwb3NLMW1BNGdzMlNaLU11QW5kQ1RoOFdtUTRpLU1oMVFBcVI3aGJQMHVDeGpHSFBXNmV1TFVMUk1QZGVtLTluOXlzNE04bjJyV29hOTA5dkdyN2lNRQ?oc=5",
         "pool": "google",
         "date": "2026-09-15",
@@ -1129,6 +1129,20 @@
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
+      },
+      {
+        "title": "De-GAN - Dynamic Parameter Tuned GAN for 3D Medical Image Segmentation: A Step Towards Generalisation",
+        "url": "https://doi.org/10.48550/arxiv.2609.16755",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "FlowATC: Aircraft Trajectory Prediction via Flow Matching",
+        "url": "https://doi.org/10.48550/arxiv.2609.16528",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
       },
       {
         "title": "Advanced Ionovoltaic Energy Generation via Interlayer-Enabled Hydrodynamic Regulation",
@@ -1516,7 +1530,7 @@
         "by_hand": false
       },
       {
-        "title": "Same brand, different SPF: Why Korean sunscreens outperform US versions - The Korea Times",
+        "title": "Same brand, different SPF: Why Korean sunscreens outperform US versions - koreatimes.co.kr",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdXEyV1k2UDNvY01GVEFoVE01MldFRjlqaGlJY3kzRjliamkxcEV3aXFJeS1WRDJpbzI2OGVfTDFoTGR3Ny0tUkNRMXJ0RmJvRktpM2FDN0h4aE1uSHItVVNMWFNycnM1aDR4NW1TUVVQdjRhTmNIUXQxUmlVM253Z2NCNmIwbW9xVHJFLWd0R0tyZ2k4TWtqTzFoeDJUNDE5ZVpfeUZHNWtqNjVsOEhQRjUzSlZ0LTNN0gG-AUFVX3lxTE9teTR0RHBndWpfVGJ2OElRU1NCVDNSaVdZTjcwLWZpcU9ubEJma1FEeU9SbFRmc0hWd3hCTUhoUjlsb05Sek53VlI3RVF4dTI0MlFYRXpScmw4bFM1WVpjVEpnSFMtUllTWm9xYkxkbXVIM2RUaHQ3UlpXcGZJTHMxYkQ4aUlBdmFxQllQZF9YbG9yYVk5ay0yTUlVYTBjS3dZTnlkdzVLRzQxMGkzM0FzOERMOEo3d1RDOURmUnc?oc=5",
         "pool": "us_beauty",
         "date": "",
@@ -1525,20 +1539,6 @@
       {
         "title": "FOREVER SKIN GLOW 24h wear radiant foundation Perfection and hydration Concentrated floral skincare with suncreen Broad spectrum SPF 15 00",
         "url": "https://api.fda.gov/drug/label.json?search=id:1f013e61-f171-2ae2-e063-6294a90adcf1",
-        "pool": "us_beauty",
-        "date": "",
-        "by_hand": false
-      },
-      {
-        "title": "Olay Regenerist Regenerating with Sunscreen Broad Spectrum SPF 15",
-        "url": "https://api.fda.gov/drug/label.json?search=id:46425877-3cf0-6496-e063-6294a90acf37",
-        "pool": "us_beauty",
-        "date": "",
-        "by_hand": false
-      },
-      {
-        "title": "Eminence Radiant Protection SPF Fluid",
-        "url": "https://api.fda.gov/drug/label.json?search=id:2737f1e2-08e3-0e06-e063-6394a90a8159",
         "pool": "us_beauty",
         "date": "",
         "by_hand": false
@@ -1868,6 +1868,69 @@
         "by_hand": false
       },
       {
+        "title": "BrainFocus: EEG-Guided ROI Selection for Efficient Vision-Language Models",
+        "url": "https://doi.org/10.48550/arxiv.2609.17443",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "PSMP-CLIP: Patch-Prompt SAM and Multi-Semantic Prompting for CLIP-Based Zero-Shot Anomaly Detection",
+        "url": "https://doi.org/10.48550/arxiv.2609.16785",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "ENCP: Episode-Normalized Conformal Prediction for Vision-and-Language Navigation",
+        "url": "https://doi.org/10.48550/arxiv.2609.17499",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Beyond In-Distribution Metrics: A Systematic Out-of-Distribution Evaluation of Congenital Heart Disease Segmentation",
+        "url": "https://doi.org/10.48550/arxiv.2609.17068",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "PiPS: Post-Hoc Prototypical Explanations for Interpretable Semantic Segmentation",
+        "url": "https://doi.org/10.48550/arxiv.2609.16909",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "De-GAN - Dynamic Parameter Tuned GAN for 3D Medical Image Segmentation: A Step Towards Generalisation",
+        "url": "https://doi.org/10.48550/arxiv.2609.16755",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "IMVS: Interactive Medical Volume Segmentation with Test-Time Adaptation - A New Method for Annotating Radiology Datasets",
+        "url": "https://doi.org/10.48550/arxiv.2609.16775",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Carry-Through Checksum: A Lightweight Fault-Detection for CNN Inference at the Edge",
+        "url": "https://doi.org/10.48550/arxiv.2609.16742",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "FlowATC: Aircraft Trajectory Prediction via Flow Matching",
+        "url": "https://doi.org/10.48550/arxiv.2609.16528",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
         "title": "Asset Manager Considerations For Building An Etf Wrapper",
         "url": "https://www.jpmorgan.com/insights/etf/securities-services/asset-manager-considerations-for-building-an-etf-wrapper",
         "pool": "institutions",
@@ -1901,69 +1964,6 @@
         "pool": "institutions",
         "date": "2026-09-15",
         "by_hand": false
-      },
-      {
-        "title": "AppMaker joins Shopify, TikTok, Klaviyo for London’s “A New Era ’26” ecommerce event - sociable.co",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdHlpRDF4N3dNaEhNQS1ja1RtZ2RtZXdpSXlmMjM0MjQ4dWlJNm5QZW81aDdiR1RIVi0ybTVpeU1JdW8zV0Q5YWJxYWlESjJubEhyT1lHZFpDWUhFN0xZSWVoOFlsX25tb05QOVdya3ltN29NT1BRT2c0MURZRjU4TUU4bGVFV1E0aW1nckN4aFR6NmhidHNka0U0ODR0d1hHaWpGcGd2azB2WDg1?oc=5",
-        "pool": "google",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "A new look for the Shopify admin",
-        "url": "https://changelog.shopify.com/posts/see-the-shopify-admin-s-new-look",
-        "pool": "design_refs",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Filter Catalog search results by media type",
-        "url": "https://shopify.dev/changelog/filter-catalog-search-results-by-media-type",
-        "pool": "design_refs",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Dynamic complexity cost for `metafieldsSet` mutation",
-        "url": "https://shopify.dev/changelog/dynamic-complexity-cost-for-metafieldsset-mutation",
-        "pool": "design_refs",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Prepare your app for the Shopify admin's new look",
-        "url": "https://shopify.dev/changelog/prepare-your-app-for-the-shopify-admins-new-look",
-        "pool": "design_refs",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "family_name is optional for B2B orders in Payments Apps API requests",
-        "url": "https://shopify.dev/changelog/family_name-is-optional-for-b2b-orders-in-payments-apps-api-requests",
-        "pool": "design_refs",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Delivery options in Shopify Functions input now expose their metafields",
-        "url": "https://shopify.dev/changelog/delivery-options-in-shopify-functions-input-now-expose-their-metafields",
-        "pool": "design_refs",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Universal Robots launches its seventh generation robot platform at IMTS",
-        "url": "https://www.therobotreport.com/universal-robots-launches-its-seventh-generation-robot-platform-at-imts/",
-        "pool": "robotics",
-        "date": "2026-09-14",
-        "by_hand": false
-      },
-      {
-        "title": "How Fyxer built an AI executive assistant people trust",
-        "url": "https://openai.com/index/fyxer",
-        "pool": "institutions",
-        "date": "2026-09-14",
-        "by_hand": false
       }
     ],
     "robotics": [
@@ -1986,6 +1986,41 @@
         "url": "https://www.therobotreport.com/the-evolution-of-digit-agility-robotics-journey-from-cassie-to-digit-5/",
         "pool": "robotics",
         "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "SAVTrack: Selective Vote Aggregation for Reliability-Aware Point Cloud Tracking",
+        "url": "https://doi.org/10.48550/arxiv.2609.16662",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Multimodal Emergency Vehicle Classification via Audio-Visual Transformers and Knowledge Distillation",
+        "url": "https://doi.org/10.48550/arxiv.2609.16535",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "NeuroSymbEAD: A Large Scale Neuro-Symbolic Caption Dataset for Omni-Directional Embodied Autonomous Driving",
+        "url": "https://doi.org/10.48550/arxiv.2609.16919",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Dense to MoE Adaptation for Compact Vision Language Action Policies",
+        "url": "https://doi.org/10.48550/arxiv.2609.16503",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "PiPS: Post-Hoc Prototypical Explanations for Interpretable Semantic Segmentation",
+        "url": "https://doi.org/10.48550/arxiv.2609.16909",
+        "pool": "arxiv",
+        "date": "2026-09-15",
         "by_hand": false
       },
       {
@@ -2049,6 +2084,13 @@
         "url": "https://www.therobotreport.com/ultrasound-offers-scalable-path-tactile-intelligence-physical-ai/",
         "pool": "robotics",
         "date": "2026-09-12",
+        "by_hand": false
+      },
+      {
+        "title": "Predictive audio representations for early detection and tracking of hidden dynamic objects",
+        "url": "https://doi.org/10.48550/arxiv.2609.13595",
+        "pool": "arxiv",
+        "date": "2026-09-11",
         "by_hand": false
       },
       {
@@ -2344,34 +2386,6 @@
         "pool": "institutions",
         "date": "2026-04-21",
         "by_hand": false
-      },
-      {
-        "title": "Agent Brain: A Biologically Inspired Memory System for Autonomous AI Agents — LongMemEval-M Evaluation",
-        "url": "https://doi.org/10.5281/zenodo.19673132",
-        "pool": "institutions",
-        "date": "2026-04-21",
-        "by_hand": false
-      },
-      {
-        "title": "Agent Brain: A Biologically Inspired Memory System for Autonomous AI Agents, with Head-to-Head Evaluation on LongMemEval",
-        "url": "https://doi.org/10.5281/zenodo.19673133",
-        "pool": "institutions",
-        "date": "2026-04-21",
-        "by_hand": false
-      },
-      {
-        "title": "Visual Computing for Autonomous Driving",
-        "url": "https://doi.org/10.1109/mcg.2024.3397581",
-        "pool": "institutions",
-        "date": "2024-05-01",
-        "by_hand": false
-      },
-      {
-        "title": "AutoNeRF: Training Implicit Scene Representations with Autonomous Agents",
-        "url": "https://doi.org/10.48550/arxiv.2304.11241",
-        "pool": "institutions",
-        "date": "2023-04-21",
-        "by_hand": false
       }
     ],
     "knowledge": [
@@ -2446,10 +2460,290 @@
         "by_hand": false
       },
       {
+        "title": "Accelerated Decoding of Centroid Positional Encoding for Instance Segmentation",
+        "url": "https://doi.org/10.48550/arxiv.2609.16874",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "LoopSpec: Pipelined Self-Speculative Decoding for Looped Transformers",
+        "url": "https://doi.org/10.48550/arxiv.2609.17184",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Tracking the Unseen: An Occlusion-Robust Framework for Target Tracking Under Full and Long-Term Occlusion",
+        "url": "https://doi.org/10.48550/arxiv.2609.17427",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "VPRef: A Cross-Domain Benchmark for Referring Remote Sensing Image Segmentation",
+        "url": "https://doi.org/10.48550/arxiv.2609.16486",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "SAVTrack: Selective Vote Aggregation for Reliability-Aware Point Cloud Tracking",
+        "url": "https://doi.org/10.48550/arxiv.2609.16662",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Measuring Annotation Efficiency for Handwritten Devanagari Recognition: Sample-Complexity Curves for Four Pretraining Regimes",
+        "url": "https://doi.org/10.48550/arxiv.2609.16859",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Event-based Selective Attention for Multi-resolution Fast Region of Interest (ROI) Detection",
+        "url": "https://doi.org/10.48550/arxiv.2609.17134",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "End-to-End Latency-Minimizing and Load-Balanced Request Scheduling for Edge LLM Inference in Agentic AI Services",
+        "url": "https://doi.org/10.48550/arxiv.2609.17193",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "BrainFocus: EEG-Guided ROI Selection for Efficient Vision-Language Models",
+        "url": "https://doi.org/10.48550/arxiv.2609.17443",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Channel-Wise and Token-Aware Post-Training Quantization for Visual State Space Duality",
+        "url": "https://doi.org/10.48550/arxiv.2609.16656",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "FlexEE: Self-Speculative and KV-Compatible Early Exiting for Offloading-Aware LLM Inference",
+        "url": "https://doi.org/10.48550/arxiv.2609.17008",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Multimodal Emergency Vehicle Classification via Audio-Visual Transformers and Knowledge Distillation",
+        "url": "https://doi.org/10.48550/arxiv.2609.16535",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "NeuroSymbEAD: A Large Scale Neuro-Symbolic Caption Dataset for Omni-Directional Embodied Autonomous Driving",
+        "url": "https://doi.org/10.48550/arxiv.2609.16919",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Dense to MoE Adaptation for Compact Vision Language Action Policies",
+        "url": "https://doi.org/10.48550/arxiv.2609.16503",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "ViD: Vision-Dominant Gender Bias Mitigation for Large Vision-Language Models",
+        "url": "https://doi.org/10.48550/arxiv.2609.16647",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "PSMP-CLIP: Patch-Prompt SAM and Multi-Semantic Prompting for CLIP-Based Zero-Shot Anomaly Detection",
+        "url": "https://doi.org/10.48550/arxiv.2609.16785",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "ENCP: Episode-Normalized Conformal Prediction for Vision-and-Language Navigation",
+        "url": "https://doi.org/10.48550/arxiv.2609.17499",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Efficient Quantization-Aware Distillation with Cross-Modal Alignment for Edge Vision-Language Models",
+        "url": "https://doi.org/10.48550/arxiv.2609.16689",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Beyond In-Distribution Metrics: A Systematic Out-of-Distribution Evaluation of Congenital Heart Disease Segmentation",
+        "url": "https://doi.org/10.48550/arxiv.2609.17068",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "StackTok: Accelerating VLMs Inference with Budget-Adaptive Visual Token Selection",
+        "url": "https://doi.org/10.48550/arxiv.2609.16841",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "PiPS: Post-Hoc Prototypical Explanations for Interpretable Semantic Segmentation",
+        "url": "https://doi.org/10.48550/arxiv.2609.16909",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "De-GAN - Dynamic Parameter Tuned GAN for 3D Medical Image Segmentation: A Step Towards Generalisation",
+        "url": "https://doi.org/10.48550/arxiv.2609.16755",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Hyper-RED: Scalable Event Pre-training via Semantic Hypergraph Distillation",
+        "url": "https://doi.org/10.48550/arxiv.2609.16811",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "IMVS: Interactive Medical Volume Segmentation with Test-Time Adaptation - A New Method for Annotating Radiology Datasets",
+        "url": "https://doi.org/10.48550/arxiv.2609.16775",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Carry-Through Checksum: A Lightweight Fault-Detection for CNN Inference at the Edge",
+        "url": "https://doi.org/10.48550/arxiv.2609.16742",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Modality-Autoregressive World-Action Models",
+        "url": "https://doi.org/10.48550/arxiv.2609.17524",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Probe-VAD: Ordinal Likelihood Probing for Training-Free Video Anomaly Detection",
+        "url": "https://doi.org/10.48550/arxiv.2609.17211",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "FlowATC: Aircraft Trajectory Prediction via Flow Matching",
+        "url": "https://doi.org/10.48550/arxiv.2609.16528",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Multiscale Visibility Theory: A Task-Relative Operator-Geometric Framework for Observation, Robustness, and Detectability",
+        "url": "https://doi.org/10.48550/arxiv.2609.15948",
+        "pool": "arxiv",
+        "date": "2026-09-14",
+        "by_hand": false
+      },
+      {
+        "title": "GSLAD: Prototype-Regularized Graph Structure Learning for Multivariate Time Series Anomaly Detection",
+        "url": "https://doi.org/10.48550/arxiv.2609.15483",
+        "pool": "arxiv",
+        "date": "2026-09-14",
+        "by_hand": false
+      },
+      {
+        "title": "Knowledge Distillation of a Normalising Flow for Real-Time Anomaly Detection at the CMS Level-1 Trigger",
+        "url": "https://doi.org/10.48550/arxiv.2609.15295",
+        "pool": "arxiv",
+        "date": "2026-09-14",
+        "by_hand": false
+      },
+      {
+        "title": "GSLAD: Prototype-Regularized Graph Structure Learning for Multivariate Time Series Anomaly Detection",
+        "url": "https://arxiv.org/abs/2609.15483",
+        "pool": "arxiv",
+        "date": "2026-09-14",
+        "by_hand": false
+      },
+      {
+        "title": "Multiscale Visibility Theory: A Task-Relative Operator-Geometric Framework for Observation, Robustness, and Detectability",
+        "url": "https://arxiv.org/abs/2609.15948",
+        "pool": "arxiv",
+        "date": "2026-09-14",
+        "by_hand": false
+      },
+      {
+        "title": "Knowledge Distillation of a Normalising Flow for Real-Time Anomaly Detection at the CMS Level-1 Trigger",
+        "url": "https://arxiv.org/abs/2609.15295",
+        "pool": "arxiv",
+        "date": "2026-09-14",
+        "by_hand": false
+      },
+      {
+        "title": "Robust Fault Detection in Mechanical Multimodal Time Series via Self-Supervised Cross-Modal Reconstruction",
+        "url": "https://doi.org/10.48550/arxiv.2609.16314",
+        "pool": "arxiv",
+        "date": "2026-09-14",
+        "by_hand": false
+      },
+      {
+        "title": "GPEvac: GNN-Based PPO for Adaptive Evacuation Routing During Shooting Events",
+        "url": "https://doi.org/10.48550/arxiv.2609.16163",
+        "pool": "arxiv",
+        "date": "2026-09-14",
+        "by_hand": false
+      },
+      {
         "title": "How Fyxer built an AI executive assistant people trust",
         "url": "https://openai.com/index/fyxer",
         "pool": "institutions",
         "date": "2026-09-14",
+        "by_hand": false
+      },
+      {
+        "title": "PC$^2$-AD: Point Cloud Upsampling to Safeguard 3D Anomaly Detection with Resolution-constrained Edge Devices",
+        "url": "https://doi.org/10.48550/arxiv.2609.14722",
+        "pool": "arxiv",
+        "date": "2026-09-13",
+        "by_hand": false
+      },
+      {
+        "title": "LLaTSA: Large Language Model-Aligned General-Purpose Transient Stability Analysis",
+        "url": "https://doi.org/10.48550/arxiv.2609.14374",
+        "pool": "arxiv",
+        "date": "2026-09-13",
+        "by_hand": false
+      },
+      {
+        "title": "LLaTSA: Large Language Model-Aligned General-Purpose Transient Stability Analysis",
+        "url": "https://arxiv.org/abs/2609.14374",
+        "pool": "arxiv",
+        "date": "2026-09-13",
+        "by_hand": false
+      },
+      {
+        "title": "PC$^2$-AD: Point Cloud Upsampling to Safeguard 3D Anomaly Detection with Resolution-constrained Edge Devices",
+        "url": "https://arxiv.org/abs/2609.14722",
+        "pool": "arxiv",
+        "date": "2026-09-13",
         "by_hand": false
       },
       {
@@ -2460,339 +2754,59 @@
         "by_hand": false
       },
       {
-        "title": "Mapping Mind Language Model",
-        "url": "https://www.anthropic.com/research/mapping-mind-language-model",
-        "pool": "institutions",
+        "title": "Homeostatic Continual Learning",
+        "url": "https://doi.org/10.48550/arxiv.2609.13771",
+        "pool": "arxiv",
+        "date": "2026-09-12",
+        "by_hand": false
+      },
+      {
+        "title": "Tabby: An Open Pretraining Recipe for Time Series Foundation Models",
+        "url": "https://doi.org/10.48550/arxiv.2609.13956",
+        "pool": "arxiv",
+        "date": "2026-09-12",
+        "by_hand": false
+      },
+      {
+        "title": "GEAR: From Dynamic Encoding to Dynamic Activation in Social Trajectory Prediction",
+        "url": "https://doi.org/10.48550/arxiv.2609.13778",
+        "pool": "arxiv",
+        "date": "2026-09-12",
+        "by_hand": false
+      },
+      {
+        "title": "GEAR: From Dynamic Encoding to Dynamic Activation in Social Trajectory Prediction",
+        "url": "https://arxiv.org/abs/2609.13778",
+        "pool": "arxiv",
+        "date": "2026-09-12",
+        "by_hand": false
+      },
+      {
+        "title": "Homeostatic Continual Learning",
+        "url": "https://arxiv.org/abs/2609.13771",
+        "pool": "arxiv",
+        "date": "2026-09-12",
+        "by_hand": false
+      },
+      {
+        "title": "Tabby: An Open Pretraining Recipe for Time Series Foundation Models",
+        "url": "https://arxiv.org/abs/2609.13956",
+        "pool": "arxiv",
+        "date": "2026-09-12",
+        "by_hand": false
+      },
+      {
+        "title": "Self-Verifying Anomaly Detection using Explainable AI for Cybersecurity of DER Networks",
+        "url": "https://arxiv.org/abs/2609.12305",
+        "pool": "arxiv",
         "date": "2026-09-11",
         "by_hand": false
       },
       {
-        "title": "Now everyone can put data to work",
-        "url": "https://openai.com/index/put-data-to-work",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Introducing the Agents API",
-        "url": "https://openai.com/index/introducing-the-agents-api",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Multi-Agent Tourism Support Systems (MATSS): a SOR-CLT perspective on traveller cognition and AI-mediated service experience",
-        "url": "https://doi.org/10.1080/13683500.2026.2729832",
-        "pool": "institutions",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Native is now the future of mobile at Shopify",
-        "url": "https://shopify.engineering/back-to-native",
-        "pool": "design_refs",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Modernizing complex legacy code with AI agents.",
-        "url": "https://mistral.ai/news/legacy-code-modernization/",
-        "pool": "institutions",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Create and delete dev stores in Shopify CLI",
-        "url": "https://shopify.dev/changelog/create-and-delete-dev-stores-in-shopify-cli",
-        "pool": "design_refs",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Periodic GFN2- x TB in CP2K: Multipolar Ewald Electrostatics, k-Point Sampling, and Transferability Benchmarks for Solids",
-        "url": "https://doi.org/10.1021/acs.jctc.6c01034",
-        "pool": "institutions",
-        "date": "2026-09-08",
-        "by_hand": false
-      },
-      {
-        "title": "Meta is now an AI channel in your admin",
-        "url": "https://changelog.shopify.com/posts/meta-is-now-an-ai-channel-in-your-admin",
-        "pool": "design_refs",
-        "date": "2026-09-08",
-        "by_hand": false
-      },
-      {
-        "title": "A Disclosure Benchmark Specification for Automated Alignment Research — Version 1.2",
-        "url": "https://doi.org/10.5281/zenodo.22179465",
-        "pool": "institutions",
-        "date": "2026-09-07",
-        "by_hand": false
-      },
-      {
-        "title": "A Disclosure Benchmark Specification for Automated Alignment Research — Version 1.2",
-        "url": "https://doi.org/10.5281/zenodo.22650960",
-        "pool": "institutions",
-        "date": "2026-09-07",
-        "by_hand": false
-      },
-      {
-        "title": "Causal evidence that language models use confidence to drive behaviour",
-        "url": "https://doi.org/10.1038/s42256-026-01293-x",
-        "pool": "institutions",
-        "date": "2026-09-07",
-        "by_hand": false
-      },
-      {
-        "title": "A Disclosure Benchmark Specification for Automated Alignment Research — Version 1.1",
-        "url": "https://doi.org/10.5281/zenodo.22549463",
-        "pool": "institutions",
-        "date": "2026-09-06",
-        "by_hand": false
-      },
-      {
-        "title": "Lightweight Vision Transformer Compression for On-Device Plant Disease Detection in Resource-Constrained Agricultural Field Conditions",
-        "url": "https://openalex.org/W7211978741",
-        "pool": "institutions",
-        "date": "2026-09-04",
-        "by_hand": false
-      },
-      {
-        "title": "Designing Grok Bot for a world of persistent agents",
-        "url": "https://x.ai/news/designing-grok-bot",
-        "pool": "institutions",
-        "date": "2026-09-03",
-        "by_hand": false
-      },
-      {
-        "title": "How River takes security work from a fix to merge",
-        "url": "https://shopify.engineering/river-vulnerability-remediation",
-        "pool": "design_refs",
-        "date": "2026-09-02",
-        "by_hand": false
-      },
-      {
-        "title": "Introducing agentic video understanding with Gemini",
-        "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-        "pool": "institutions",
-        "date": "2026-09-01",
-        "by_hand": false
-      },
-      {
-        "title": "APEX: An extensible and dynamism-aware simulator for automated parallel execution in LLM serving",
-        "url": "https://doi.org/10.1016/j.jpdc.2026.105350",
-        "pool": "institutions",
-        "date": "2026-09-01",
-        "by_hand": false
-      },
-      {
-        "title": "Fine-Tuning Fragility",
-        "url": "https://doi.org/10.5281/zenodo.22216468",
-        "pool": "institutions",
-        "date": "2026-09-01",
-        "by_hand": false
-      },
-      {
-        "title": "Broadcom Announces VMware AI Factory, Enabling Faster Time to Production AI and Greater Control Over AI Tokenomics",
-        "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-announces-vmware-ai-factory-enabling-faster-time",
-        "pool": "institutions",
-        "date": "2026-08-31",
-        "by_hand": false
-      },
-      {
-        "title": "Broadcom Unveils AI-Ready Data Foundations in VMware Tanzu Platform to Power Secure Enterprise AI Cloud",
-        "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-unveils-ai-ready-data-foundations-vmware-tanzu-platform",
-        "pool": "institutions",
-        "date": "2026-08-31",
-        "by_hand": false
-      },
-      {
-        "title": "Broadcom Delivers End-to-End Security, Identity, and Observability for Agentic AI",
-        "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-delivers-end-end-security-identity-and-observability",
-        "pool": "institutions",
-        "date": "2026-08-31",
-        "by_hand": false
-      },
-      {
-        "title": "Broadcom Unveils AgentMinder, An Enterprise Solution for AI Agent Governance and Runtime Control",
-        "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-unveils-agentminder-enterprise-solution-ai-agent",
-        "pool": "institutions",
-        "date": "2026-08-31",
-        "by_hand": false
-      },
-      {
-        "title": "5 Reasons Why Disparate Data Blocks AI Investigation Agents",
-        "url": "https://datawalk.com/disparate-data-ai-agents-investigations/",
-        "pool": "institutions",
-        "date": "2026-08-31",
-        "by_hand": false
-      },
-      {
-        "title": "A Disclosure Benchmark Specification for Automated Alignment Research",
-        "url": "https://doi.org/10.5281/zenodo.22179466",
-        "pool": "institutions",
-        "date": "2026-08-30",
-        "by_hand": false
-      },
-      {
-        "title": "[Video] No Unfolding Needed: A Day With Galaxy Z Flip8’s FlexWindow",
-        "url": "https://news.samsung.com/global/video-no-unfolding-needed-a-day-with-galaxy-z-flip8s-flexwindow",
-        "pool": "institutions",
-        "date": "2026-08-27",
-        "by_hand": false
-      },
-      {
-        "title": "Why Your Website Should Never Stop Changing",
-        "url": "https://smashingmagazine.com/2026/08/why-website-should-never-stop-changing/",
-        "pool": "design_refs",
-        "date": "2026-08-25",
-        "by_hand": false
-      },
-      {
-        "title": "US tax calculation accuracy improvements based on fulfillment location",
-        "url": "https://changelog.shopify.com/posts/shopify-tax-is-now-compatible-with-order-routing",
-        "pool": "design_refs",
-        "date": "2026-08-24",
-        "by_hand": false
-      },
-      {
-        "title": "Grok 4.6 on Gemini Enterprise Agent Platform",
-        "url": "https://x.ai/news/grok-4-6-vertex-ai",
-        "pool": "institutions",
-        "date": "2026-08-21",
-        "by_hand": false
-      },
-      {
-        "title": "Agentic Search. More accurate and efficient results from your AI systems.",
-        "url": "https://mistral.ai/news/agentic-search/",
-        "pool": "institutions",
-        "date": "2026-08-20",
-        "by_hand": false
-      },
-      {
-        "title": "Broadening access to Skala creates a faster path to predictive DFT",
-        "url": "https://www.microsoft.com/en-us/research/blog/broadening-access-to-skala-creates-a-faster-path-to-predictive-dft/",
-        "pool": "institutions",
-        "date": "2026-08-20",
-        "by_hand": false
-      },
-      {
-        "title": "Mapping social determinants of health in NIH research funding with large language models",
-        "url": "https://doi.org/10.21203/rs.3.rs-10670537/v1",
-        "pool": "institutions",
-        "date": "2026-08-20",
-        "by_hand": false
-      },
-      {
-        "title": "Gisting: Compressing LLM Agent context to ↑ throughput and ↓ cost",
-        "url": "https://shopify.engineering/gisting",
-        "pool": "design_refs",
-        "date": "2026-08-19",
-        "by_hand": false
-      },
-      {
-        "title": "LifeSciBench: Evaluating Language Models on Realistic, Expert-Level Tasks in the Life Sciences",
-        "url": "https://doi.org/10.64898/2026.08.13.744657",
-        "pool": "institutions",
-        "date": "2026-08-18",
-        "by_hand": false
-      },
-      {
-        "title": "Adaptive Multi-Agent Deep Reinforcement Learning for Distributed Zero Trust Architectures in Global Financial Ecosystems",
-        "url": "https://doi.org/10.21203/rs.3.rs-10406334/v1",
-        "pool": "institutions",
-        "date": "2026-08-13",
-        "by_hand": false
-      },
-      {
-        "title": "MindTopo reveals VLMs’ spatial reasoning abilities",
-        "url": "https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities/",
-        "pool": "institutions",
-        "date": "2026-08-12",
-        "by_hand": false
-      },
-      {
-        "title": "In-region inference, open models, and new European infrastructure for sovereign AI.",
-        "url": "https://mistral.ai/news/regional-inference-open-models-new-compute/",
-        "pool": "institutions",
-        "date": "2026-08-11",
-        "by_hand": false
-      },
-      {
-        "title": "Improving the performance of radiology report de-identification with large-scale training and benchmarking against cloud vendor methods",
-        "url": "https://doi.org/10.1186/s12911-026-03744-2",
-        "pool": "institutions",
-        "date": "2026-08-10",
-        "by_hand": false
-      },
-      {
-        "title": "AMD Acquires Taalas to Advance Compute Solutions for Rapidly Growing AI Inference Market",
-        "url": "https://ir.amd.com/news-events/press-releases/detail/1296/amd-acquires-taalas-to-advance-compute-solutions-for-rapidly-growing-ai-inference-market",
-        "pool": "institutions",
-        "date": "2026-08-06",
-        "by_hand": false
-      },
-      {
-        "title": "Confidence Estimation for Financial Vision-Language Models in Chart and Document Understanding",
-        "url": "https://openalex.org/W7202230724",
-        "pool": "institutions",
-        "date": "2026-08-06",
-        "by_hand": false
-      },
-      {
-        "title": "Retrofitting Linear Attention into Diffusion Language Models",
-        "url": "https://openalex.org/W7202230636",
-        "pool": "institutions",
-        "date": "2026-08-06",
-        "by_hand": false
-      },
-      {
-        "title": "Scientific computing in the age of agentic AI: an exploratory field report",
-        "url": "https://doi.org/10.64898/2026.07.29.741496",
-        "pool": "institutions",
-        "date": "2026-08-04",
-        "by_hand": false
-      },
-      {
-        "title": "Orchard: An open framework for scalable agentic AI",
-        "url": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/",
-        "pool": "institutions",
-        "date": "2026-08-03",
-        "by_hand": false
-      },
-      {
-        "title": "Climate-Dyna Deep Hedging for XVAs: Model-Based Reinforcement Learning, Residual Climate HVA, and Hedge-Instrument Discovery",
-        "url": "https://openalex.org/W7172557191",
-        "pool": "institutions",
-        "date": "2026-08-02",
-        "by_hand": false
-      },
-      {
-        "title": "The Three Golden Ages of Database Engineering: From SIGMOD'85 to the Agentic Era",
-        "url": "https://doi.org/10.14778/3827998.3838713",
-        "pool": "institutions",
-        "date": "2026-08-01",
-        "by_hand": false
-      },
-      {
-        "title": "Learning to Coordinate Symbolic Tools: LLM Agents for Verified Sum-of-Squares Certificates",
-        "url": "https://openalex.org/W7172559358",
-        "pool": "institutions",
-        "date": "2026-07-31",
-        "by_hand": false
-      },
-      {
-        "title": "Implementing LLMs in clinical practice from unstructured and semistructured electronic record data to analysis ready data sets in central nervous system tumors",
-        "url": "https://doi.org/10.1007/s44337-026-00631-7",
-        "pool": "institutions",
-        "date": "2026-07-31",
-        "by_hand": false
-      },
-      {
-        "title": "Echoverse: Deep, evolving environments for computer-use agents",
-        "url": "https://www.microsoft.com/en-us/research/blog/echoverse-deep-evolving-environments-for-computer-use-agents/",
-        "pool": "institutions",
-        "date": "2026-07-30",
+        "title": "Bridging Vision Foundation Model Priors with CLIP for Spatial-aware Few-shot Anomaly Detection in Medical Images",
+        "url": "https://arxiv.org/abs/2609.12454",
+        "pool": "arxiv",
+        "date": "2026-09-11",
         "by_hand": false
       }
     ],
@@ -2802,6 +2816,20 @@
         "url": "https://openalex.org/W7160476156",
         "pool": "institutions",
         "date": "2026-09-26",
+        "by_hand": false
+      },
+      {
+        "title": "SK hynix Presents ‘New Spectrum’ for AI Infrastructure at ‘AI Infra Summit 2026’",
+        "url": "https://news.skhynix.com/en/ai-infra-summit-2026/",
+        "pool": "institutions",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "Nine in 10 UK manufacturers turn to automation to navigate geopolitical uncertainty | Barclays",
+        "url": "https://home.barclays/news/press-releases/20260/090/-nine-in-10-uk-manufacturers-turn-to-automation-to-navigate-geop0/",
+        "pool": "institutions",
+        "date": "2026-09-17",
         "by_hand": false
       },
       {
@@ -3022,6 +3050,13 @@
         "by_hand": false
       },
       {
+        "title": "Interconnect diameter effects on the thermo-mechanical reliability of sandwich-structured Cu–Cu bonded stacked dies",
+        "url": "https://doi.org/10.1177/10996362261490182",
+        "pool": "institutions",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
         "title": "A childminder's guide to settling in",
         "url": "https://doi.org/10.12968/eyed.2026.24.24.04",
         "pool": "institutions",
@@ -3031,6 +3066,13 @@
       {
         "title": "An Iterative, Pathologist-in-the-Loop Workflow for Generation of Clinical-Grade Synthetic Pathology Images in a Diverse Cohort of Pancreatic Tumors",
         "url": "https://doi.org/10.3390/cancers18183004",
+        "pool": "institutions",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Linking Military Blast Exposure to Veterans Health Administration Diagnoses",
+        "url": "https://doi.org/10.1212/wnl.0000000000218595",
         "pool": "institutions",
         "date": "2026-09-16",
         "by_hand": false
@@ -3057,6 +3099,13 @@
         "by_hand": false
       },
       {
+        "title": "Why Gold Is Expected To Rise To Record Highs",
+        "url": "https://www.goldmansachs.com/insights/the-markets/why-gold-is-expected-to-rise-to-record-highs",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
         "title": "Maverick Capital Co Cios On Finding The Ai Winners",
         "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/maverick-capital-co-cios-on-finding-the-ai-winners",
         "pool": "institutions",
@@ -3066,13 +3115,6 @@
       {
         "title": "Can The S And P 500 Rally As Treasury Yields Rise",
         "url": "https://www.goldmansachs.com/insights/articles/can-the-s-and-p-500-rally-as-treasury-yields-rise",
-        "pool": "institutions",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Why Gold Is Expected To Rise To Record Highs",
-        "url": "https://www.goldmansachs.com/insights/the-markets/why-gold-is-expected-to-rise-to-record-highs",
         "pool": "institutions",
         "date": "2026-09-15",
         "by_hand": false
@@ -3185,34 +3227,6 @@
       {
         "title": "Thoughts On The Market Carpenter French Us Elections 2024",
         "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-carpenter-french-us-elections-2024",
-        "pool": "institutions",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Thoughts On The Market Byrd Chan Nuclear Power Renaissance",
-        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-byrd-chan-nuclear-power-renaissance",
-        "pool": "institutions",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Thoughts On The Market Asia Technology",
-        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-asia-technology",
-        "pool": "institutions",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Thoughts On The Market Ai Market Disruption Tirupattur",
-        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-ai-market-disruption-tirupattur",
-        "pool": "institutions",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Canada Economic Growth Accelerates Through 2030",
-        "url": "https://www.morganstanley.com/insights/articles/canada-economic-growth-accelerates-through-2030",
         "pool": "institutions",
         "date": "2026-09-15",
         "by_hand": false

@@ -2,7 +2,7 @@
 title: "Record 7c106a6a23 · K-Beauty-Is-Everywhere-Now-How-Korean-Skincare-Beca"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T10:24:46.460671+00:00
+updated_at: 2026-09-17T10:26:28.672541+00:00
 tags: [record, real-data]
 ---
 

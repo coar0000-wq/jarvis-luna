@@ -2,7 +2,7 @@
 title: "Record dee0bdb9b2 · I-Flew-Home-From-Seoul-With-20-New-ProductsThese-Ar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T10:24:46.375472+00:00
+updated_at: 2026-09-17T10:26:28.587993+00:00
 tags: [record, real-data]
 ---
 

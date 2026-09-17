@@ -2,7 +2,7 @@
 title: "Record 07d22014ed · Sustainability-Metrics-Esg-Improvers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T10:24:47.236255+00:00
+updated_at: 2026-09-17T10:26:29.451578+00:00
 tags: [record, real-data]
 ---
 
