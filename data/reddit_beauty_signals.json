@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-17T19:34:41.312739+00:00",
+  "collected_at": "2026-09-17T22:41:15.002183+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -44,20 +44,16 @@
   ],
   "hot_keywords": [
     {
+      "keyword": "2026",
+      "score": 6
+    },
+    {
       "keyword": "skin",
       "score": 6
     },
     {
-      "keyword": "2026",
-      "score": 5
-    },
-    {
       "keyword": "september",
-      "score": 4
-    },
-    {
-      "keyword": "korean",
-      "score": 4
+      "score": 5
     },
     {
       "keyword": "makeup",
@@ -76,7 +72,15 @@
       "score": 3
     },
     {
+      "keyword": "thursday",
+      "score": 2
+    },
+    {
       "keyword": "sunscreen",
+      "score": 2
+    },
+    {
+      "keyword": "smells",
       "score": 2
     },
     {
@@ -100,7 +104,19 @@
       "score": 2
     },
     {
+      "keyword": "anything",
+      "score": 2
+    },
+    {
+      "keyword": "goes",
+      "score": 2
+    },
+    {
       "keyword": "which",
+      "score": 2
+    },
+    {
+      "keyword": "korean",
       "score": 2
     },
     {
@@ -148,10 +164,6 @@
       "score": 1
     },
     {
-      "keyword": "thursday",
-      "score": 1
-    },
-    {
       "keyword": "holy",
       "score": 1
     },
@@ -160,47 +172,35 @@
       "score": 1
     },
     {
-      "keyword": "affordable",
+      "keyword": "searching",
       "score": 1
     },
     {
-      "keyword": "stores",
+      "keyword": "perfume",
       "score": 1
     },
     {
-      "keyword": "buy",
+      "keyword": "fragrance",
       "score": 1
     },
     {
-      "keyword": "recommendations",
+      "keyword": "like",
       "score": 1
     },
     {
-      "keyword": "moisturizing",
+      "keyword": "conditioner",
       "score": 1
     },
     {
-      "keyword": "someone",
+      "keyword": "rosemary",
       "score": 1
     },
     {
-      "keyword": "sensitive",
+      "keyword": "smell",
       "score": 1
     },
     {
-      "keyword": "dry",
-      "score": 1
-    },
-    {
-      "keyword": "acneprone",
-      "score": 1
-    },
-    {
-      "keyword": "tzone",
-      "score": 1
-    },
-    {
-      "keyword": "roceacea",
+      "keyword": "also",
       "score": 1
     }
   ],
@@ -208,10 +208,6 @@
     {
       "keyword": "skin",
       "score": 6
-    },
-    {
-      "keyword": "korean",
-      "score": 4
     },
     {
       "keyword": "sunscreen",
@@ -227,6 +223,10 @@
     },
     {
       "keyword": "toner",
+      "score": 2
+    },
+    {
+      "keyword": "korean",
       "score": 2
     },
     {
@@ -265,6 +265,13 @@
       "feed": "hot"
     },
     {
+      "title": "Searching for a perfume or fragrance that smells like this conditioner. It has a rosemary smell but also smells woodsy to me.",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wj5f70/searching_for_a_perfume_or_fragrance_that_smells/",
+      "published": "2026-09-17T20:30:51+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "What are the best affordable stores to buy kbeauty makeup and skincare products??",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wizxy1/what_are_the_best_affordable_stores_to_buy/",
       "published": "2026-09-17T17:10:05+00:00",
@@ -279,6 +286,13 @@
       "feed": "hot"
     },
     {
+      "title": "Anything Goes Thursday: September 17, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wj5n8c/anything_goes_thursday_september_17_2026/",
+      "published": "2026-09-17T20:39:13+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Which Korean Shampoo do you use for oily hair?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1win368/which_korean_shampoo_do_you_use_for_oily_hair/",
       "published": "2026-09-17T07:25:04+00:00",
@@ -289,13 +303,6 @@
       "title": "Canadians ordering online.",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wi9zhv/canadians_ordering_online/",
       "published": "2026-09-16T21:11:07+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "I forgot what site I used to get this RoundLab Korean formula, any ideas?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wiy9pp/i_forgot_what_site_i_used_to_get_this_roundlab/",
-      "published": "2026-09-17T16:09:28+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -408,13 +415,6 @@
       "title": "Yesstyle's weird brand pushing during discount campaigns",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wgzfm8/yesstyles_weird_brand_pushing_during_discount/",
       "published": "2026-09-15T12:47:41+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "99 Ranch, HMart and Uwajimaya",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wha6w2/99_ranch_hmart_and_uwajimaya/",
-      "published": "2026-09-15T19:25:58+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

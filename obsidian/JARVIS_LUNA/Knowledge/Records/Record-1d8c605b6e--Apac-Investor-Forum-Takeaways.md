@@ -2,7 +2,7 @@
 title: "Record 1d8c605b6e · Apac-Investor-Forum-Takeaways"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T21:25:03.180499+00:00
+updated_at: 2026-09-17T22:47:09.779639+00:00
 tags: [record, real-data]
 ---
 

@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-17T19:40:28.321643+00:00",
+  "generated_at": "2026-09-17T22:46:13.374813+00:00",
   "discovery_mode": "seed_catalog_plus_health_probe",
   "candidate_count": 18,
-  "verified_count": 10,
+  "verified_count": 9,
   "candidates": [
     {
       "team": "湲곌? ?섏쭛?",
@@ -18,7 +18,7 @@
       "content_length": 14484,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-17T19:40:07.942304+00:00"
+      "checked_at": "2026-09-17T22:45:54.260919+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -30,10 +30,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://www.google.com/shopping",
-      "content_length": 114458,
+      "content_length": 114289,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-17T19:40:27.940869+00:00"
+      "checked_at": "2026-09-17T22:46:13.011243+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -48,7 +48,7 @@
       "content_length": 172023,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-17T19:40:08.701606+00:00"
+      "checked_at": "2026-09-17T22:45:55.272223+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -63,7 +63,7 @@
       "content_length": 375,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-17T19:40:10.895453+00:00"
+      "checked_at": "2026-09-17T22:45:56.154582+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -78,7 +78,7 @@
       "content_length": 1325,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-17T19:40:07.710750+00:00"
+      "checked_at": "2026-09-17T22:45:54.069851+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -90,10 +90,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://www.census.gov/data.html",
-      "content_length": 511519,
+      "content_length": 511542,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-17T19:40:07.671748+00:00"
+      "checked_at": "2026-09-17T22:45:53.957786+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -108,7 +108,7 @@
       "content_length": 3769,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-17T19:40:09.307767+00:00"
+      "checked_at": "2026-09-17T22:45:55.895156+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -123,7 +123,7 @@
       "content_length": 69357,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-17T19:40:08.931988+00:00"
+      "checked_at": "2026-09-17T22:45:55.487383+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -138,7 +138,7 @@
       "content_length": 191886,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-17T19:40:08.238551+00:00"
+      "checked_at": "2026-09-17T22:45:54.548067+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -153,7 +153,7 @@
       "content_length": 1832,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-17T19:40:09.387657+00:00"
+      "checked_at": "2026-09-17T22:45:55.952129+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -162,13 +162,13 @@
       "kind": "marketplace",
       "country": "US",
       "priority": 2,
-      "reachable": true,
-      "status_code": 200,
+      "reachable": false,
+      "status_code": 403,
       "final_url": "https://www.etsy.com/market/beauty",
-      "content_length": 1064084,
+      "content_length": 776,
       "has_html": true,
-      "status": "candidate",
-      "checked_at": "2026-09-17T19:40:10.749705+00:00"
+      "status": "unverified",
+      "checked_at": "2026-09-17T22:45:55.998282+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -183,7 +183,7 @@
       "content_length": 190240,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-17T19:40:28.321617+00:00"
+      "checked_at": "2026-09-17T22:46:13.374784+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -195,10 +195,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://trends.google.com/trends/",
-      "content_length": 771686,
+      "content_length": 771687,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-17T19:40:28.270063+00:00"
+      "checked_at": "2026-09-17T22:46:13.330557+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -210,10 +210,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://www.instacart.com/",
-      "content_length": 959413,
+      "content_length": 959377,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-17T19:40:27.684010+00:00"
+      "checked_at": "2026-09-17T22:46:12.617369+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -226,7 +226,7 @@
       "status_code": null,
       "error": "ReadTimeout: HTTPSConnectionPool(host='www.kroger.com', port=443): Read timed out. (read timeout=15)",
       "status": "unverified",
-      "checked_at": "2026-09-17T19:40:26.720874+00:00"
+      "checked_at": "2026-09-17T22:46:11.583650+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -241,7 +241,7 @@
       "content_length": 9901,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-17T19:40:11.603209+00:00"
+      "checked_at": "2026-09-17T22:45:56.540846+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -253,10 +253,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://www.nordstrom.com/browse/beauty",
-      "content_length": 257498,
+      "content_length": 254694,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-17T19:40:11.315153+00:00"
+      "checked_at": "2026-09-17T22:45:56.479650+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -271,7 +271,7 @@
       "content_length": 782,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-17T19:40:10.988635+00:00"
+      "checked_at": "2026-09-17T22:45:56.238632+00:00"
     }
   ],
   "next_expansion_queries": [

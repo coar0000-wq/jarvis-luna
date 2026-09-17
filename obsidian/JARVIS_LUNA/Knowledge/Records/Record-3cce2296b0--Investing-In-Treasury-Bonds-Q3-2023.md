@@ -2,7 +2,7 @@
 title: "Record 3cce2296b0 · Investing-In-Treasury-Bonds-Q3-2023"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T21:25:03.191482+00:00
+updated_at: 2026-09-17T22:47:09.786941+00:00
 tags: [record, real-data]
 ---
 

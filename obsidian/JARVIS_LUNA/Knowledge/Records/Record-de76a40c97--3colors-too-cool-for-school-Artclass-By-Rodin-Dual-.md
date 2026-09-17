@@ -2,7 +2,7 @@
 title: "Record de76a40c97 · 3colors-too-cool-for-school-Artclass-By-Rodin-Dual-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T21:25:03.075473+00:00
+updated_at: 2026-09-17T22:47:09.710476+00:00
 tags: [record, real-data]
 ---
 

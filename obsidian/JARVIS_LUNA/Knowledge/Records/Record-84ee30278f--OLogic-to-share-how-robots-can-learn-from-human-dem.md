@@ -2,7 +2,7 @@
 title: "Record 84ee30278f · OLogic-to-share-how-robots-can-learn-from-human-demonstrations-at-Robo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T21:25:03.229489+00:00
+updated_at: 2026-09-17T22:47:09.812051+00:00
 tags: [record, real-data]
 ---
 

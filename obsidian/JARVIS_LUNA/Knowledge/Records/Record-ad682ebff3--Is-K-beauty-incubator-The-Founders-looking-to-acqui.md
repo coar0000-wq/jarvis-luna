@@ -2,7 +2,7 @@
 title: "Record ad682ebff3 · Is-K-beauty-incubator-The-Founders-looking-to-acqui"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T21:25:02.889432+00:00
+updated_at: 2026-09-17T22:47:09.588023+00:00
 tags: [record, real-data]
 ---
 

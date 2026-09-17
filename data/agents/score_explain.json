@@ -1,6 +1,6 @@
 {
   "agent": "Score-Explain",
-  "generated_at": "2026-09-17T22:41:00.687225+00:00",
+  "generated_at": "2026-09-17T22:53:06.743944+00:00",
   "s_count": 10,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
   "items": [
@@ -65,25 +65,13 @@
     {
       "pd_no": "1049285",
       "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-      "score": 92,
+      "score": 93,
       "why": "글로벌 'BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Plumping, Travel Essentials & Self Care Gifts for Women, Korean Skin Care | 1.19oz(34g) x 4ea' (amazon_best_sellers) 유사 64% · 토큰 hydrating, mask",
       "global": "BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Plumping, Travel Essentials & Self Care Gifts for Women, Korean Skin Care | 1.19oz(34g) x 4ea",
       "channel": "amazon_best_sellers",
       "tokens": [
         "hydrating",
         "mask"
-      ]
-    },
-    {
-      "pd_no": "1041403",
-      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-      "score": 90,
-      "why": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 92% · 토큰 heartleaf, toner",
-      "global": "ANUA Heartleaf 77 Soothing Toner",
-      "channel": "tiktok_shop_us",
-      "tokens": [
-        "heartleaf",
-        "toner"
       ]
     },
     {
@@ -108,6 +96,18 @@
       "tokens": [
         "collagen",
         "mask"
+      ]
+    },
+    {
+      "pd_no": "1041403",
+      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+      "score": 87,
+      "why": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 92% · 토큰 heartleaf, toner",
+      "global": "ANUA Heartleaf 77 Soothing Toner",
+      "channel": "tiktok_shop_us",
+      "tokens": [
+        "heartleaf",
+        "toner"
       ]
     },
     {

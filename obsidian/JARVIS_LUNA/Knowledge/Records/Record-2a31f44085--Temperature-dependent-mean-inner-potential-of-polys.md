@@ -2,7 +2,7 @@
 title: "Record 2a31f44085 · Temperature-dependent-mean-inner-potential-of-polys"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T21:25:02.524434+00:00
+updated_at: 2026-09-17T22:47:09.325860+00:00
 tags: [record, real-data]
 ---
 

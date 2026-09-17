@@ -2,7 +2,7 @@
 title: "Record a1167895af · AI-Statistics-Key-Trends-and-Data-for-2026---Shopif"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T21:25:02.746031+00:00
+updated_at: 2026-09-17T22:47:09.489707+00:00
 tags: [record, real-data]
 ---
 

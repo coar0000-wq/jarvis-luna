@@ -2,7 +2,7 @@
 title: "Record 2c8e16beb8 · Targets-K-Beauty-Skincare-Gem-Has-Shoppers-Raving-I"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T21:25:02.839437+00:00
+updated_at: 2026-09-17T22:47:09.554047+00:00
 tags: [record, real-data]
 ---
 

@@ -1,6 +1,6 @@
 {
   "source": "google news rss (beauty queries) + trends daily filtered",
-  "collected_at": "2026-09-17T19:35:09.303128+00:00",
+  "collected_at": "2026-09-17T22:41:47.276776+00:00",
   "status": "ok",
   "note": "뷰티 키워드만. 채점 MATCH_CHANNELS 에는 넣지 않음. 대시보드 키워드 보드용.",
   "query_count": 12,
@@ -16,6 +16,15 @@
       "beauty": true
     },
     {
+      "keyword": "K-beauty’s counterfeit economy tests brand and platform controls - Personal Care Insights",
+      "product": "K-beauty’s counterfeit economy tests brand and platform controls - Personal Care Insights",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQa1ZVcXY5d3JlR1NFRUZMMFhEUXp5ZnlIbG9pQkM1YWJmd2pSNFh6a0NGZ2ZuV2ZIa0JzaVBoTExnVnQ0a2ZQT1dwbUpwWUswV2NwRVhwWDJCazlpU2FXaXVxZnB0X1RVTWRlNlZpeGp2WDctRkVQendRVC0xNTE3alJlemFfQWoyUXZkUlhB?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
       "keyword": "Kendall Jenner’s K-Beauty Routine Is on Sale—Here’s Where to Find It - E! News",
       "product": "Kendall Jenner’s K-Beauty Routine Is on Sale—Here’s Where to Find It - E! News",
       "sub": "K-beauty",
@@ -25,11 +34,11 @@
       "beauty": true
     },
     {
-      "keyword": "K-beauty’s counterfeit economy tests brand and platform controls - personalcareinsights.com",
-      "product": "K-beauty’s counterfeit economy tests brand and platform controls - personalcareinsights.com",
+      "keyword": "From Skin Patches to Haircare, These Are the K-Beauty Products That Are Actually Popular in Korea - wwd.com",
+      "product": "From Skin Patches to Haircare, These Are the K-Beauty Products That Are Actually Popular in Korea - wwd.com",
       "sub": "K-beauty",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQa1ZVcXY5d3JlR1NFRUZMMFhEUXp5ZnlIbG9pQkM1YWJmd2pSNFh6a0NGZ2ZuV2ZIa0JzaVBoTExnVnQ0a2ZQT1dwbUpwWUswV2NwRVhwWDJCazlpU2FXaXVxZnB0X1RVTWRlNlZpeGp2WDctRkVQendRVC0xNTE3alJlemFfQWoyUXZkUlhB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTWhmVlpqOU5iUWRfT2x1V0Y0cmVlMVNQZElYaFQyUEpHQmRDZUJNdkNFMy03WUptY0ZfMXJubWJramM4dUFSZXl1SDR5QUl2UE0xeVNqbHl5X3RQUXZfV3Q1am1QcDN6UFRVbkdYN2dEUHo0Z3pKT3dMZ0tFNlNaUXE5TzZjTjJfNnlJTnVBUjdvTlBkNmRHTVFyanZZa2YwcDhEdQ?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -43,15 +52,6 @@
       "beauty": true
     },
     {
-      "keyword": "From Skin Patches to Haircare, These Are the K-Beauty Products That Are Actually Popular in Korea - WWD",
-      "product": "From Skin Patches to Haircare, These Are the K-Beauty Products That Are Actually Popular in Korea - WWD",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTWhmVlpqOU5iUWRfT2x1V0Y0cmVlMVNQZElYaFQyUEpHQmRDZUJNdkNFMy03WUptY0ZfMXJubWJramM4dUFSZXl1SDR5QUl2UE0xeVNqbHl5X3RQUXZfV3Q1am1QcDN6UFRVbkdYN2dEUHo0Z3pKT3dMZ0tFNlNaUXE5TzZjTjJfNnlJTnVBUjdvTlBkNmRHTVFyanZZa2YwcDhEdQ?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
       "keyword": "How K-beauty turned dollar store Daiso into retail giant - The Korea Herald",
       "product": "How K-beauty turned dollar store Daiso into retail giant - The Korea Herald",
       "sub": "K-beauty",
@@ -61,20 +61,20 @@
       "beauty": true
     },
     {
+      "keyword": "Artist Cj Hendry collaborates with Korean beauty brand Sulwhasoo on “Secret Garden” installation at New York’s Brant Foundation. - Artsy",
+      "product": "Artist Cj Hendry collaborates with Korean beauty brand Sulwhasoo on “Secret Garden” installation at New York’s Brant Foundation. - Artsy",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVGpmNVJ1V25CVU43OWVRb1d2NmhFU1ZUYm1sb1JJNjk0aVFkMVhBRnVER0RzRVFMdXJwWlZSRFRXTWhobGsySXYwd3ZUZVJrN2E1cGRSaVNWa2FjWTJ6QzRoUHZoTnpBdVZ2YVN6eVREVXZfMTZCb0VTbWNTcWo2SGVvVGtJbFhjTDVnTUt3Qm5oeks0S0Q4RGxFRnhJY05NQklGSWZaMDNaMW92QVh4c04xS3J4M0NHTS0yVVZkUGRtQnFsZzd3?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
       "keyword": "Neutrogena launches two BEMT sunscreens with a K-beauty-inspired twist - New York Post",
       "product": "Neutrogena launches two BEMT sunscreens with a K-beauty-inspired twist - New York Post",
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOHpkZms0cWhzV285NnFsVmhkM3JTOWk4dkp0Ti16NU5CUG1mbEpPeVFMejJuSVAwcVA5MEUtWFdoajZBcF80ZmJHc196WXh2dWVranhwUlhCeDBLTkZISUpMUWZDeFIyRUhyZC1iRHVRWTVfUkFhcDdvM0kyWXBMWlcydDNTaEY0aTRnVTBpQVY4ckU2T3lyakF3?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "Neutrogena Brings Newly Approved UV Filter to Mainstream SPF - americanspa.com",
-      "product": "Neutrogena Brings Newly Approved UV Filter to Mainstream SPF - americanspa.com",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaF84c0M0M2J1LXJSMlF5VWxnQzk2alhIR1hHY2ZlN3Baa29QRnZJNGZybWc4TTQxMmVvQ2lEU1dUWWtsYk0xeXEyVHlvZktkSW5MbUdkVU51RjNrYk13NU1LVzFFSFBPZWMzSmpRQjZCWUI0VDRKWm9PXzY1Tk9reXh5ckVoS1BaSmNaUU5RM2tHaElhS3AwMUNYUFNNclJ2?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -115,8 +115,8 @@
       "beauty": true
     },
     {
-      "keyword": "The Best Korean Sunscreens for Invisible UV Protection - The Daily Beast",
-      "product": "The Best Korean Sunscreens for Invisible UV Protection - The Daily Beast",
+      "keyword": "The Best Korean Sunscreens for Invisible UV Protection - thelooker.thedailybeast.com",
+      "product": "The Best Korean Sunscreens for Invisible UV Protection - thelooker.thedailybeast.com",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObVNqeHpLQ3ZVc29jQ0JxTnpaTXhTTklfME5rN3QzakpIajB2Q09jekF5Q0dVYTN3M3ZiUklmWDZ5RTFGMnRwU1kzYWNMWGlybVNIYUZ1R1huUGYzTEJnanhBQzhqWXh3MFZYVFpLRWJSeTVBWEFiMm0tVlpMb19XZDVkbw?oc=5",
@@ -142,8 +142,8 @@
       "beauty": true
     },
     {
-      "keyword": "What’s So Special About Korean Sunscreens? - vogue.com",
-      "product": "What’s So Special About Korean Sunscreens? - vogue.com",
+      "keyword": "What’s So Special About Korean Sunscreens? - Vogue",
+      "product": "What’s So Special About Korean Sunscreens? - Vogue",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5TcVJKY3REazZWUHNSNzFzcGREMWdTYkJqUkVoUjdManZWeXZDcE5FSmxVNUFkaWpyRm9sY1lwVTJldE1fQS1rWGI4VEdYd196a3FIUlRqay1rR1k?oc=5",
@@ -151,8 +151,8 @@
       "beauty": true
     },
     {
-      "keyword": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - vogue.com",
-      "product": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - vogue.com",
+      "keyword": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - Vogue",
+      "product": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - Vogue",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5LUmI0VzFqenBxYXlPcjlQVE4xOEVsbE8wYW4xdG1jSHRWbFQzWFZEOVRpTmN0bndubWptdUJqc3BRb2ExWUJCZmtRSVhSWDliZDN5RGhjVGhLSW1ieU45TVhMZVpKSFVYZWc?oc=5",
@@ -165,6 +165,15 @@
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FajN1UnhmQjViQ0dWVW45QVF1blJPRnBKZUltUWRyRjVDcHFVVTBiVUpkQTZlZHNYbEFmSUFtVTRWT0Q2X3o4R3R0YXhyYUJhbHV6dVln?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Sticky or slippery? Snails can change their slime to meet the moment - npr.org",
+      "product": "Sticky or slippery? Snails can change their slime to meet the moment - npr.org",
+      "sub": "snail mucin",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRlRZZlJCZVJLZThvM0ZQYXpuNWFfck9MV2pBekdVSUxPMGRTSGFuZzJBYjV4ZExXUElZNnRLY3ZsankzTnNIV0dxVGdMWFQ3Qk1xMGlVR1JBTzJnZk1JQlhFYUt0X1BXT2s3WXdIc1MyZDF3bm5ZUzVQM2lVc2Z0a21lSm9BMGRianFtbg?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -187,11 +196,11 @@
       "beauty": true
     },
     {
-      "keyword": "Sticky or slippery? Snails can change their slime to meet the moment - NPR",
-      "product": "Sticky or slippery? Snails can change their slime to meet the moment - NPR",
+      "keyword": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - Good Housekeeping",
+      "product": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - Good Housekeeping",
       "sub": "snail mucin",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRlRZZlJCZVJLZThvM0ZQYXpuNWFfck9MV2pBekdVSUxPMGRTSGFuZzJBYjV4ZExXUElZNnRLY3ZsankzTnNIV0dxVGdMWFQ3Qk1xMGlVR1JBTzJnZk1JQlhFYUt0X1BXT2s3WXdIc1MyZDF3bm5ZUzVQM2lVc2Z0a21lSm9BMGRianFtbg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaHNGOTRvaVF1V3FVRWxjLWo3T0NSN1Q5Tjk0X25hTU5iOEY4d3lGdTVTNngtV09hdldxWXcwYTA0OENIcElxQ1ZXUnBXQ3FIcGhfYm9zc2xTZkJlaFdjU2UxNHR1cmhicDdHYXZiOEZnTGZGNl9IQms5N1FxV1BpTjlFRzY0dGM?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -205,15 +214,6 @@
       "beauty": true
     },
     {
-      "keyword": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - Good Housekeeping",
-      "product": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - Good Housekeeping",
-      "sub": "snail mucin",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaHNGOTRvaVF1V3FVRWxjLWo3T0NSN1Q5Tjk0X25hTU5iOEY4d3lGdTVTNngtV09hdldxWXcwYTA0OENIcElxQ1ZXUnBXQ3FIcGhfYm9zc2xTZkJlaFdjU2UxNHR1cmhicDdHYXZiOEZnTGZGNl9IQms5N1FxV1BpTjlFRzY0dGM?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
       "keyword": "Snails are masters of mucus chemistry - C&EN",
       "product": "Snails are masters of mucus chemistry - C&EN",
       "sub": "snail mucin",
@@ -223,8 +223,8 @@
       "beauty": true
     },
     {
-      "keyword": "6 Steps to Glass Skin, According to K-Beauty Experts - vogue.com",
-      "product": "6 Steps to Glass Skin, According to K-Beauty Experts - vogue.com",
+      "keyword": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
+      "product": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5",
@@ -232,8 +232,8 @@
       "beauty": true
     },
     {
-      "keyword": "Anua Heartleaf 77% Soothing Toner - Mamabella",
-      "product": "Anua Heartleaf 77% Soothing Toner - Mamabella",
+      "keyword": "Anua Heartleaf 77% Soothing Toner - mamabella.uk",
+      "product": "Anua Heartleaf 77% Soothing Toner - mamabella.uk",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB1bjV1c253cFJYUGU1QVNMQ1gxYUZDSV9YMlpxVWI0UVFmV2xRRzFpdS1NSFdQN2xxTUNwbUlGSnJQVjJXQzNhbFEtQVQydE43SFhZY3QwcUlCWFdvVkQ4Y1MwMEYtN0hER3BGcXRvM3RPUGlPRFg1Zw?oc=5",
@@ -259,8 +259,8 @@
       "beauty": true
     },
     {
-      "keyword": "There are K-Beauty Toner Pads for Legit Every Skincare Concern—Editors Love These 9 for Smooth, Glowy Skin - Cosmopolitan",
-      "product": "There are K-Beauty Toner Pads for Legit Every Skincare Concern—Editors Love These 9 for Smooth, Glowy Skin - Cosmopolitan",
+      "keyword": "There are K-Beauty Toner Pads for Legit Every Skincare Concern—Editors Love These 9 for Smooth, Glowy Skin - cosmopolitan.com",
+      "product": "There are K-Beauty Toner Pads for Legit Every Skincare Concern—Editors Love These 9 for Smooth, Glowy Skin - cosmopolitan.com",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE51X3N0RkJ5UUFOczdKQ2xiV24wOEJsMGlUUU1vTnJIWGZXd0VJVDZtcExtbHh5VWwwUVpzYXVqYklvc29sSF9zaUtnbDUybF9iTGxVWE1PVkxOZGVacVNUT2REeG42TGtPaGNUdjF6a08zSG40M3Z5d0JR?oc=5",
@@ -331,8 +331,8 @@
       "beauty": true
     },
     {
-      "keyword": "Everything You Need to Know About Korean Ampoules - vogue.com",
-      "product": "Everything You Need to Know About Korean Ampoules - vogue.com",
+      "keyword": "Everything You Need to Know About Korean Ampoules - Vogue",
+      "product": "Everything You Need to Know About Korean Ampoules - Vogue",
       "sub": "centella serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9vNjJKVDA0MWdCZTdRdWVnNDdsc05uRzF2RXB0NXBnWUNFelNhRVM1ODc3QXVsb2Y3NlRSaWJxbUVocWxILUtGRWc1ZWlmVVZfWnJVdW5kQUc?oc=5",
@@ -349,8 +349,8 @@
       "beauty": true
     },
     {
-      "keyword": "Scientists invent a plant-based serum that is proven to regrow hair in weeks - earth.com",
-      "product": "Scientists invent a plant-based serum that is proven to regrow hair in weeks - earth.com",
+      "keyword": "Scientists invent a plant-based serum that is proven to regrow hair in weeks - Earth.com",
+      "product": "Scientists invent a plant-based serum that is proven to regrow hair in weeks - Earth.com",
       "sub": "centella serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSFVtSjNNOWR6b0pRZU9ZeEVzN09KMmtvUXlLbVRGTEJmeUdScHA5TTlFeWUwMFpHb3JKSWJNa3VwWm1JaU5VZ1NTeE5ROXo0ODhWa0dTcXp2ZU14RDA4SEk2WGUyZWtHZGNuZ0h6bWhZbkxOTlgwWG5HTXhkMkdXWW1MczgydFdQQzhoQTQ4blZjTjd4ZDVncy1uZmotamhnUXk4ZDIzY2F3ZTdT?oc=5",

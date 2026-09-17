@@ -2,7 +2,7 @@
 title: "Record 8a6baea0fe · Operational-AI-Benefits-and-Use-Cases---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T21:25:02.778567+00:00
+updated_at: 2026-09-17T22:47:09.511541+00:00
 tags: [record, real-data]
 ---
 

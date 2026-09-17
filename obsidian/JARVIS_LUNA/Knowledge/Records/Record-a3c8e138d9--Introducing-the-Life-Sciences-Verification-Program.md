@@ -2,7 +2,7 @@
 title: "Record a3c8e138d9 · Introducing-the-Life-Sciences-Verification-Program"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T21:25:03.136238+00:00
+updated_at: 2026-09-17T22:47:09.750653+00:00
 tags: [record, real-data]
 ---
 

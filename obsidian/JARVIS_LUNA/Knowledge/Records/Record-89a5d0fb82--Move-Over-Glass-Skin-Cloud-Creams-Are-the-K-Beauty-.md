@@ -2,7 +2,7 @@
 title: "Record 89a5d0fb82 · Move-Over-Glass-Skin-Cloud-Creams-Are-the-K-Beauty-Moisturizer-Trend-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T21:25:02.892618+00:00
+updated_at: 2026-09-17T22:47:09.590168+00:00
 tags: [record, real-data]
 ---
 

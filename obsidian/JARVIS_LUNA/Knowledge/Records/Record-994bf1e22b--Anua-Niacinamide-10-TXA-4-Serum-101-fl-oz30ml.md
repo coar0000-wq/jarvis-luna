@@ -2,7 +2,7 @@
 title: "Record 994bf1e22b · Anua-Niacinamide-10-TXA-4-Serum-101-fl-oz30ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T21:25:03.074439+00:00
+updated_at: 2026-09-17T22:47:09.709782+00:00
 tags: [record, real-data]
 ---
 

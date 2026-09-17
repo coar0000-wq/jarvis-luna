@@ -2,7 +2,7 @@
 title: "Record 938a867aa8 · The-Transformation-of-Ecommerce-Shopifys-SHOP-AI-Po"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T21:25:02.958580+00:00
+updated_at: 2026-09-17T22:47:09.636830+00:00
 tags: [record, real-data]
 ---
 

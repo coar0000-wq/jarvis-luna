@@ -2,7 +2,7 @@
 title: "Record d9cffe83a3 · AGIBOT-to-explain-how-to-scale-humanoids-from-the-l"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T21:25:03.219502+00:00
+updated_at: 2026-09-17T22:47:09.805203+00:00
 tags: [record, real-data]
 ---
 

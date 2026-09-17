@@ -2,7 +2,7 @@
 title: "Record 2f6f02b98f · Spectroscopy-of-the-Hyperfine-Structure-of-HD-in-Ro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T21:25:03.041937+00:00
+updated_at: 2026-09-17T22:47:09.687861+00:00
 tags: [record, real-data]
 ---
 

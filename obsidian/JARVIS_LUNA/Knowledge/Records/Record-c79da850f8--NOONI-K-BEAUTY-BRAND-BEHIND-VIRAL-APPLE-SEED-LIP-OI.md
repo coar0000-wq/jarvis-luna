@@ -2,7 +2,7 @@
 title: "Record c79da850f8 · NOONI-K-BEAUTY-BRAND-BEHIND-VIRAL-APPLE-SEED-LIP-OI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T21:25:02.722827+00:00
+updated_at: 2026-09-17T22:47:09.457574+00:00
 tags: [record, real-data]
 ---
 

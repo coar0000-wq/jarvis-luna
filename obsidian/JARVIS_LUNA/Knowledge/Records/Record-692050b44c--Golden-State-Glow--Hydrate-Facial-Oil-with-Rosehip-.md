@@ -2,7 +2,7 @@
 title: "Record 692050b44c · Golden-State-Glow--Hydrate-Facial-Oil-with-Rosehip-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T21:25:03.237244+00:00
+updated_at: 2026-09-17T22:47:09.817232+00:00
 tags: [record, real-data]
 ---
 

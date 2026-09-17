@@ -2,7 +2,7 @@
 title: "Record 4d15c105fc · A-comparison-between-ceiling-mounted-FMCW-IR-UWB-an"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T21:25:03.300391+00:00
+updated_at: 2026-09-17T22:47:09.861705+00:00
 tags: [record, real-data]
 ---
 

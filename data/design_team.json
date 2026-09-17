@@ -1,6 +1,6 @@
 {
   "team": "디자인팀",
-  "generated_at": "2026-09-17T19:33:01.280493+00:00",
+  "generated_at": "2026-09-17T22:40:20.636491+00:00",
   "scope": "Shopify 스토어 디자인 사양 관리 + 디자인 레퍼런스 수집",
   "checklist": {
     "total": 12,
@@ -251,6 +251,13 @@
         "feed": "Shopify Changelog"
       },
       {
+        "title": "Request a bundle size exception for existing UI extensions",
+        "url": "https://shopify.dev/changelog/request-a-bundle-size-exception-for-existing-ui-extensions",
+        "date": "2026-09-17",
+        "summary": "UI extensions using API version 2025-10 or later are limited to a 64 KB compressed JavaScript bundle per extension. Full page customer account extensions may use up to 128 KB. If your extension remains over the limit after optimization, run shopify app build and submit the minified bundle and its es",
+        "feed": "Shopify Dev Changelog"
+      },
+      {
         "title": "Adding a canceled receive action to the inventory shipments API",
         "url": "https://shopify.dev/changelog/adding-a-canceled-receive-action-to-the-inventory-shipments-api",
         "date": "2026-09-17",
@@ -346,13 +353,6 @@
         "url": "https://shopify.dev/changelog/customer-address-apis-now-support-countrycode",
         "date": "2026-09-08",
         "summary": "Starting with Customer Account API version 2026-10, customer address inputs and objects support countryCode . The existing territoryCode field is deprecated but remains fully supported, so current integrations continue working without interruption. Developers should migrate to countryCode when adopt",
-        "feed": "Shopify Dev Changelog"
-      },
-      {
-        "title": "Shopify storefronts now support UCP 2026-08-25",
-        "url": "https://shopify.dev/changelog/08-25-is-now-supported",
-        "date": "2026-09-04",
-        "summary": "Shopify storefronts now advertise support for Universal Commerce Protocol (UCP) version 2026-08-25 in their discovery profiles at /.well-known/ucp . This update adds compatibility with the 2026-08-25 protocol release and doesn’t require any changes to your existing integrations. What changed Storefr",
         "feed": "Shopify Dev Changelog"
       },
       {

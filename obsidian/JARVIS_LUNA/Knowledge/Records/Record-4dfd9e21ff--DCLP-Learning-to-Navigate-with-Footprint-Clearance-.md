@@ -2,7 +2,7 @@
 title: "Record 4dfd9e21ff · DCLP-Learning-to-Navigate-with-Footprint-Clearance-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T21:25:02.426462+00:00
+updated_at: 2026-09-17T22:47:09.260595+00:00
 tags: [record, real-data]
 ---
 

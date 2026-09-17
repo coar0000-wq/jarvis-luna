@@ -2,7 +2,7 @@
 title: "Record 86511f91c0 · K-Beauty-Travel-Is-Booming-Why-Everyone-Is-Booking-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T21:25:02.838672+00:00
+updated_at: 2026-09-17T22:47:09.553535+00:00
 tags: [record, real-data]
 ---
 

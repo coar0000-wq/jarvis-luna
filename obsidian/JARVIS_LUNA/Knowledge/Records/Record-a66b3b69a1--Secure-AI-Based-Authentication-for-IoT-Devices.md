@@ -2,7 +2,7 @@
 title: "Record a66b3b69a1 · Secure-AI-Based-Authentication-for-IoT-Devices"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T21:25:02.672827+00:00
+updated_at: 2026-09-17T22:47:09.424742+00:00
 tags: [record, real-data]
 ---
 

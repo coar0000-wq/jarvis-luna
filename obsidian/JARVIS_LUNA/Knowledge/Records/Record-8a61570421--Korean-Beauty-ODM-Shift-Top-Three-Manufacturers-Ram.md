@@ -2,7 +2,7 @@
 title: "Record 8a61570421 · Korean-Beauty-ODM-Shift-Top-Three-Manufacturers-Ramp-Up-Capacity-to-Ca"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T21:25:02.815908+00:00
+updated_at: 2026-09-17T22:47:09.537200+00:00
 tags: [record, real-data]
 ---
 

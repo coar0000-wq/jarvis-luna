@@ -2,7 +2,7 @@
 title: "Record 68d883452a · Designing-long-travel-axes-When-rack-and-pinion-outperforms-ball-screw"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T21:25:03.222996+00:00
+updated_at: 2026-09-17T22:47:09.807652+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** Designing long-travel axes: When rack and pinion outperforms ball screws and linear motors
 
 Designing long-travel axes: When rack and pinion outperforms ball screws and linear motors
-<p>Sponsored by GAM. Pull a tape measure out a few inches and the blade is rigid. Keep pulling and at some point it starts to flex and wobble, then eventually buckles. It is a problem engineers know well when designing long-travel axes. There are three main ways to create precise straight-line motion in machines: rack&#8230;</p> <p>The post <a href="https://www.therobotreport.com/designing-long-tr
+<p>When long-travel motion demands more than ball screws and linear motors can deliver, rack-and-pinion systems can offer a compelling combination of speed, precision, scalability, and cost. Here’s when engineers should consider the tradeoff.</p> <p>The post <a href="https://www.therobotreport.com/designing-long-travel-axes-when-rack-and-pinion-outperforms-ball-screws-and-linear-motors/">Designing
 
 **출처:** Source · robotics
 

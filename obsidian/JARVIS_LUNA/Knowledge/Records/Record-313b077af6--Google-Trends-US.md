@@ -2,7 +2,7 @@
 title: "Record 313b077af6 · Google-Trends-US"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T21:25:03.056594+00:00
+updated_at: 2026-09-17T22:47:09.697780+00:00
 tags: [record, real-data]
 ---
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T19:40:06.775687+00:00",
+  "generated_at": "2026-09-17T22:45:53.204675+00:00",
   "generator": "scripts/discover_channels.py",
   "정책": "후보를 자동으로 등록하지 않는다. robots.txt 를 확인하고 실제로 호출해 본 뒤 진짜 데이터가 나오는 것만 제안한다. 붙일지 말지는 대화로 지시하면 자비스가 수집기를 만들어 연동한다. 이미 가동 중인 소스는 already_live 로 표시한다.",
   "판정기준": [
@@ -65,12 +65,12 @@
       "url": "https://www.allure.com/feed/rss",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 27141,
+      "bytes": 26824,
       "items": 30,
       "samples": [
+        "Why Curtain Bangs Look Amazing on Everyone",
         "Allure Best of Beauty Awards: Hall of Fame Winners Skin, Makeup, Hair Products—Reviews, Photos for 2026",
-        "How to Treat Eczema and Milia at the Same Time",
-        "The Allure 2026 Best of Beauty Box Review"
+        "How to Treat Eczema and Milia at the Same Time"
       ],
       "verdict": "가능",
       "reason": "30건 파싱 성공, 값이 서로 다름",
@@ -97,12 +97,12 @@
       "url": "https://trends.google.com/trending/rss?geo=US",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 21473,
+      "bytes": 21257,
       "items": 40,
       "samples": [
-        "juventus",
-        "LIVE Juventus-Nec 1-0: Nico Gonzalez porta i bianconeri in vantaggio grazie ad una follia del portiere",
-        "Juve-Nec diretta Europa League: segui live la partita di oggi di Spalletti"
+        "wnba",
+        "WNBA playoff picture 2026: What's on the line in final week?",
+        "WNBA Season 30: Confetti"
       ],
       "verdict": "가능",
       "reason": "40건 파싱 성공, 값이 서로 다름",

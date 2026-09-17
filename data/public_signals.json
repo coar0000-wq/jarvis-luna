@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T19:39:47.874065+00:00",
+  "generated_at": "2026-09-17T22:45:35.213014+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "michael sweetney",
+          "keyword": "phillies vs mets",
           "approx_traffic": "5000+",
           "traffic_num": 5000,
-          "published": "Thu, 17 Sep 2026 11:40:00 -0700",
-          "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=michael%20sweetney"
+          "published": "Thu, 17 Sep 2026 15:20:00 -0700",
+          "source_name": "FOX Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=phillies%20vs%20mets"
         },
         {
-          "keyword": "málaga - villarreal",
+          "keyword": "wnba",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Thu, 17 Sep 2026 12:00:00 -0700",
-          "source_name": "MARCA",
-          "url": "https://trends.google.com/trending?geo=US&q=m%C3%A1laga%20-%20villarreal"
+          "published": "Thu, 17 Sep 2026 15:30:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=wnba"
         },
         {
-          "keyword": "juventus",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Thu, 17 Sep 2026 12:20:00 -0700",
-          "source_name": "La Gazzetta dello Sport",
-          "url": "https://trends.google.com/trending?geo=US&q=juventus"
+          "keyword": "catherine, princess of wales",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Thu, 17 Sep 2026 15:00:00 -0700",
+          "source_name": "BBC",
+          "url": "https://trends.google.com/trending?geo=US&q=catherine%2C%20princess%20of%20wales"
         },
         {
-          "keyword": "floyd samba",
+          "keyword": "trump administration public benefits immigration rule",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Thu, 17 Sep 2026 12:00:00 -0700",
-          "source_name": "Manchester City FC",
-          "url": "https://trends.google.com/trending?geo=US&q=floyd%20samba"
-        },
-        {
-          "keyword": "maria elvira salazar",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Thu, 17 Sep 2026 11:50:00 -0700",
+          "published": "Thu, 17 Sep 2026 15:20:00 -0700",
           "source_name": "The New York Times",
-          "url": "https://trends.google.com/trending?geo=US&q=maria%20elvira%20salazar"
+          "url": "https://trends.google.com/trending?geo=US&q=trump%20administration%20public%20benefits%20immigration%20rule"
         },
         {
-          "keyword": "f16",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Thu, 17 Sep 2026 12:20:00 -0700",
-          "source_name": "Aviation Week",
-          "url": "https://trends.google.com/trending?geo=US&q=f16"
+          "keyword": "senate blocks data center bill",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Thu, 17 Sep 2026 15:00:00 -0700",
+          "source_name": "CBS News",
+          "url": "https://trends.google.com/trending?geo=US&q=senate%20blocks%20data%20center%20bill"
         },
         {
-          "keyword": "besiktas",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Thu, 17 Sep 2026 12:20:00 -0700",
-          "source_name": "beinsports.com.tr",
-          "url": "https://trends.google.com/trending?geo=US&q=besiktas"
+          "keyword": "trump kennedy center demolition",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Thu, 17 Sep 2026 14:50:00 -0700",
+          "source_name": "The New York Times",
+          "url": "https://trends.google.com/trending?geo=US&q=trump%20kennedy%20center%20demolition"
         },
         {
-          "keyword": "california flooding",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Thu, 17 Sep 2026 12:10:00 -0700",
-          "source_name": "The Guardian",
-          "url": "https://trends.google.com/trending?geo=US&q=california%20flooding"
+          "keyword": "málaga cf vs villarreal cf standings",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Thu, 17 Sep 2026 14:50:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=m%C3%A1laga%20cf%20vs%20villarreal%20cf%20standings"
         },
         {
-          "keyword": "crystal palace - lech poznań",
+          "keyword": "atlanta dream",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Thu, 17 Sep 2026 12:00:00 -0700",
-          "source_name": "Przegląd Sportowy",
-          "url": "https://trends.google.com/trending?geo=US&q=crystal%20palace%20-%20lech%20pozna%C5%84"
+          "published": "Thu, 17 Sep 2026 15:20:00 -0700",
+          "source_name": "Covers.com",
+          "url": "https://trends.google.com/trending?geo=US&q=atlanta%20dream"
         },
         {
-          "keyword": "celtic vs ferencváros",
+          "keyword": "who plays nfl tonight",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Thu, 17 Sep 2026 11:40:00 -0700",
-          "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=celtic%20vs%20ferencv%C3%A1ros"
+          "published": "Thu, 17 Sep 2026 15:10:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=who%20plays%20nfl%20tonight"
+        },
+        {
+          "keyword": "north korea",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Thu, 17 Sep 2026 15:10:00 -0700",
+          "source_name": "CNN",
+          "url": "https://trends.google.com/trending?geo=US&q=north%20korea"
         }
       ]
     },
@@ -187,6 +187,11 @@
       "source": "allure.com/feed/rss",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
       "items": [
+        {
+          "title": "Why Curtain Bangs Look Amazing on Everyone",
+          "published": "Thu, 17 Sep 2026 20:00:00 +0000",
+          "url": "https://www.allure.com/story/curtain-bangs-trend-hairstyles"
+        },
         {
           "title": "Allure Best of Beauty Awards: Hall of Fame Winners Skin, Makeup, Hair Products—Reviews, Photos for 2026",
           "published": "Thu, 17 Sep 2026 17:45:37 +0000",
@@ -313,14 +318,9 @@
           "url": "https://www.allure.com/story/best-of-beauty-2026-hair-care-product-winners"
         },
         {
-          "title": "The 2026 Allure Best of Beauty Clean Beauty Winners Hit All the Right Marks",
+          "title": "These 2026 Allure Best of Beauty Award-Winning Makeup Tools Will Transform Your Beauty Routine",
           "published": "Thu, 17 Sep 2026 11:00:00 +0000",
-          "url": "https://www.allure.com/story/best-of-beauty-2026-clean-skin-care-brands-winners"
-        },
-        {
-          "title": "The Allure 2026 Best of Beauty Breakthrough Winners Are So Impressive They Have Their Own Category",
-          "published": "Thu, 17 Sep 2026 11:00:00 +0000",
-          "url": "https://www.allure.com/story/best-of-beauty-2026-breakthrough-awards-winners"
+          "url": "https://www.allure.com/story/best-of-beauty-2026-hair-tools-makeup-brushes"
         },
         {
           "title": "The 2026 Best of Beauty-Winning Lip Products Will Transform Your Lip Combo",
@@ -328,9 +328,9 @@
           "url": "https://www.allure.com/story/best-of-beauty-2026-lips-winners"
         },
         {
-          "title": "These 2026 Allure Best of Beauty Award-Winning Makeup Tools Will Transform Your Beauty Routine",
+          "title": "The Allure 2026 Best of Beauty Breakthrough Winners Are So Impressive They Have Their Own Category",
           "published": "Thu, 17 Sep 2026 11:00:00 +0000",
-          "url": "https://www.allure.com/story/best-of-beauty-2026-hair-tools-makeup-brushes"
+          "url": "https://www.allure.com/story/best-of-beauty-2026-breakthrough-awards-winners"
         },
         {
           "title": "The 2026 Allure Best of Beauty Nails Winners Are Show-Stoppers",
