@@ -1,6 +1,6 @@
 {
   "agent": "Ops-Prioritizer",
-  "generated_at": "2026-09-17T01:14:07.657963+00:00",
+  "generated_at": "2026-09-17T01:36:23.984392+00:00",
   "risk": "medium",
   "task_count": 5,
   "tasks": [
@@ -44,7 +44,7 @@
     {
       "priority": 4,
       "title": "팀 조치 · 리스팅 제작팀",
-      "detail": "카피 2건, 고시 2건, us_label 2건 이 막고 있음",
+      "detail": "고시 2건, us_label 2건, 가격 3건 이 막고 있음",
       "refs": [
         "data/dashboard_runtime.json"
       ],
@@ -73,7 +73,7 @@
       },
       {
         "n": 5,
-        "text": "팀 조치 · 리스팅 제작팀 — 카피 2건, 고시 2건, us_label 2건 이 막고 있음"
+        "text": "팀 조치 · 리스팅 제작팀 — 고시 2건, us_label 2건, 가격 3건 이 막고 있음"
       }
     ]
   }
