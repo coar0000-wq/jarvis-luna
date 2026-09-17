@@ -373,6 +373,36 @@ def main() -> int:
                 f"제외 규칙 준수 확인 ({len(rows)}건 전수)"
             )
 
+    # ── 7. 그래프가 끊기지 않았나 ─────────────────────
+    #
+    # 인덱스가 가리키는 노트가 없으면 그래프뷰에서 그 자리가 빈다.
+    # 사람은 화면을 보고는 모른다. 숫자로 막는다.
+    #
+    # 2026-09-17 에 112건이 끊겨 있었다. 원인은 이름 장부가
+    # jarvis-real-knowledge 의 발행 경로 밖이라 저장되지 않은 것이었다.
+    # 그 워크플로는 계속 success 였다. 실패한 적이 없으니 아무도 못 봤다.
+    #
+    # 대시보드가 이미 세고 있는 숫자를 가져다 본다.
+    # 임계는 그쪽이 정한 것(dangling_warn_threshold)을 그대로 쓴다.
+    graph = rt.get("graph") or rt.get("obsidian") or {}
+    if graph:
+        dang = int(graph.get("dangling_links") or 0)
+        limit = int(graph.get("dangling_warn_threshold") or 300)
+        if dang > limit:
+            problems.append(
+                f"그래프 끊어진 링크 {dang}건이 임계 {limit}을 넘었다. "
+                "expand_obsidian_graph.py 를 돌리고 이름 장부가 "
+                "발행 경로에 들어 있는지 본다"
+            )
+        elif dang:
+            notes.append(
+                f"그래프 끊어진 링크 {dang}건 (임계 {limit} 이하라 경고만)"
+            )
+        else:
+            notes.append(
+                f"그래프 끊어진 링크 0건 · 노트 {graph.get('notes', 0):,}개 전수"
+            )
+
     # ── 결과 ────────────────────────────────────────────────
     print(
         f"대시보드 생성 {gen[:19]} · 팀 {len(teams)}개"

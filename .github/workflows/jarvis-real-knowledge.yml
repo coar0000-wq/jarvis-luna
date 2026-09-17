@@ -131,7 +131,23 @@ jobs:
       - name: 산출물 발행 (원격 최신 위에 이번 변경만)
         uses: ./.github/actions/publish
         with:
-          paths: data/knowledge data/dashboard_runtime.json obsidian
+          # data/obsidian_record_names.json 도 넣는다. (2026-09-17)
+          #
+          # expand_obsidian_graph.py 는 레코드마다 노트 이름을 정해 그 장부에
+          # 적어둔다. 이름이 회차마다 바뀌지 않게 하려는 장치다.
+          #
+          # 그런데 장부가 data/knowledge 밖이라 이 워크플로가 발행하지
+          # 않았다. 노트는 올라가는데 그 이름을 정한 근거는 버려졌다.
+          # 다음 회차는 예전 장부를 읽고 일부 레코드에 다른 이름을 준다.
+          # 인덱스는 새 이름을 가리키고 노트는 옆 이름으로 있으니 링크가 끊긴다.
+          #
+          # 2026-09-17 에 끊어진 링크 112건이 그것이었다.
+          # 워크플로는 계속 success 였다. 실패한 적이 없으니 아무도 못 봤다.
+          paths: >-
+            data/knowledge
+            data/obsidian_record_names.json
+            data/dashboard_runtime.json
+            obsidian
           message: 실지식 동기화 갱신
 
       - name: 앞 단계 실패 확인

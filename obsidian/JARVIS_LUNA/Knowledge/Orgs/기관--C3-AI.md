@@ -2,7 +2,7 @@
 title: "기관 · C3 AI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-09T10:37:14.588371+00:00
+updated_at: 2026-09-17T09:52:42.260751+00:00
 tags: [org, real-data]
 ---
 
@@ -10,17 +10,17 @@ tags: [org, real-data]
 
 실제 수집 레코드 **10건**이 이 기관에 연결되어 있습니다. (발표물 10건)
 
-- [[Record-996--C3-AI-and-Shell-Expand-Collaboration-Scaling-Reliability-A]]
-- [[Record-997--C3-AI-to-Announce-Financial-Results-for-Fiscal-First-Quart]]
-- [[Record-998--C3-AI-to-Announce-Financial-Results-for-Fourth-Quarter-and]]
-- [[Record-999--C3-AI-Announces-Fiscal-First-Quarter-2027-Results]]
-- [[Record-1000--C3-AI-Announces-Fiscal-Fourth-Quarter-and-Full-Fiscal-Yea]]
-- [[Record-1001--C3-AI-Announces-New-Employee-Inducement-Grant]]
-- [[Record-1002--C3-AI-Announces-Preliminary-Fourth-Quarter-and-Full-Fisca]]
-- [[Record-1003--C3-AI-Board-Member-Jim-Hagemann-Snabe-Appointed-European-]]
-- [[Record-1004--C3-AI-Named-Leader-in-AI-Platforms]]
-- [[Record-1005--Cummins-Inc-Liable-for-Misappropriation-of-C3-AI-Trade-Se]]
+- [[Record-990bc5d2f7--C3-AI-and-Shell-Expand-Collaboration-Scaling-Reliab]]
+- [[Record-5c30624186--C3-AI-to-Announce-Financial-Results-for-Fiscal-Firs]]
+- [[Record-ab27e05305--C3-AI-to-Announce-Financial-Results-for-Fourth-Quar]]
+- [[Record-6b827fb9ef--C3-AI-Announces-Fiscal-First-Quarter-2027-Results]]
+- [[Record-04a2fdaaa3--C3-AI-Announces-Fiscal-Fourth-Quarter-and-Full-Fisc]]
+- [[Record-063989fc64--C3-AI-Announces-New-Employee-Inducement-Grant]]
+- [[Record-6ea0ed8118--C3-AI-Announces-Preliminary-Fourth-Quarter-and-Full]]
+- [[Record-fd5633ab74--C3-AI-Board-Member-Jim-Hagemann-Snabe-Appointed-Eur]]
+- [[Record-91c60a3e9e--C3-AI-Named-Leader-in-AI-Platforms]]
+- [[Record-8c564f4f56--Cummins-Inc-Liable-for-Misappropriation-of-C3-AI-Tr]]
 
 ## Connected nodes
 
-[[Record-996--C3-AI-and-Shell-Expand-Collaboration-Scaling-Reliability-A]] [[Record-997--C3-AI-to-Announce-Financial-Results-for-Fiscal-First-Quart]] [[Record-998--C3-AI-to-Announce-Financial-Results-for-Fourth-Quarter-and]] [[Record-999--C3-AI-Announces-Fiscal-First-Quarter-2027-Results]] [[Record-1000--C3-AI-Announces-Fiscal-Fourth-Quarter-and-Full-Fiscal-Yea]] [[Record-1001--C3-AI-Announces-New-Employee-Inducement-Grant]] [[Record-1002--C3-AI-Announces-Preliminary-Fourth-Quarter-and-Full-Fisca]] [[Record-1003--C3-AI-Board-Member-Jim-Hagemann-Snabe-Appointed-European-]] [[Record-1004--C3-AI-Named-Leader-in-AI-Platforms]] [[Record-1005--Cummins-Inc-Liable-for-Misappropriation-of-C3-AI-Trade-Se]] [[AI-에이전트]] [[경영전략]] [[데이터분석]] [[법률규제]] [[의료바이오]] [[인프라클라우드]] [[투자은행금융]] [[JARVIS Real Knowledge Index]]
+[[Record-990bc5d2f7--C3-AI-and-Shell-Expand-Collaboration-Scaling-Reliab]] [[Record-5c30624186--C3-AI-to-Announce-Financial-Results-for-Fiscal-Firs]] [[Record-ab27e05305--C3-AI-to-Announce-Financial-Results-for-Fourth-Quar]] [[Record-6b827fb9ef--C3-AI-Announces-Fiscal-First-Quarter-2027-Results]] [[Record-04a2fdaaa3--C3-AI-Announces-Fiscal-Fourth-Quarter-and-Full-Fisc]] [[Record-063989fc64--C3-AI-Announces-New-Employee-Inducement-Grant]] [[Record-6ea0ed8118--C3-AI-Announces-Preliminary-Fourth-Quarter-and-Full]] [[Record-fd5633ab74--C3-AI-Board-Member-Jim-Hagemann-Snabe-Appointed-Eur]] [[Record-91c60a3e9e--C3-AI-Named-Leader-in-AI-Platforms]] [[Record-8c564f4f56--Cummins-Inc-Liable-for-Misappropriation-of-C3-AI-Tr]] [[AI-에이전트]] [[경영전략]] [[데이터분석]] [[법률규제]] [[의료바이오]] [[인프라클라우드]] [[투자은행금융]] [[JARVIS Real Knowledge Index]]
