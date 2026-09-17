@@ -2,7 +2,7 @@
 title: "Record 7fdbaef7ff · How-TikTok-Trends-Feed-the-Beauty-Product-Pipeline-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T09:18:57.582140+00:00
+updated_at: 2026-09-17T10:24:46.562608+00:00
 tags: [record, real-data]
 ---
 

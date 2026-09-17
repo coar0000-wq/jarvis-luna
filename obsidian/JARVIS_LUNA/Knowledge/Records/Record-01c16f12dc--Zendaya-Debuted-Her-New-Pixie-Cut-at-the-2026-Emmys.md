@@ -2,7 +2,7 @@
 title: "Record 01c16f12dc · Zendaya-Debuted-Her-New-Pixie-Cut-at-the-2026-Emmys"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T09:18:57.736377+00:00
+updated_at: 2026-09-17T10:24:46.992745+00:00
 tags: [record, real-data]
 ---
 

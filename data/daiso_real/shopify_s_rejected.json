@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T09:17:13.292186+00:00",
+  "generated_at": "2026-09-17T10:24:43.303329+00:00",
   "note": "점수는 높았으나 S에서 탈락한 후보. 등록하지 말 것.",
-  "count": 49,
+  "count": 48,
   "items": [
     {
       "pd_no": "1067496",
@@ -274,15 +274,6 @@
       "recommend_reason": "헤어케어 카테고리 · 평점 4.8 · 리뷰 737건 (글로벌 시그널 약함)"
     },
     {
-      "pd_no": "1060211",
-      "name": "바세린 모이스처라이징 클렌징 밀크 140 ml",
-      "bucket": "클렌징",
-      "shopify_score": 87,
-      "s_rule": "rank_cap",
-      "downgrade_reason": "상위 10위 밖",
-      "recommend_reason": "글로벌 'ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set' (oliveyoung_us) 유사 70% · 토큰 cleanser, moisturizer"
-    },
-    {
       "pd_no": "1035081",
       "name": "약산성 ph클렌징폼 150 ml",
       "bucket": "클렌징",
@@ -296,8 +287,8 @@
       "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
       "bucket": "스킨케어",
       "shopify_score": 86,
-      "s_rule": "form_cap",
-      "downgrade_reason": "동일 제형(토너) 상위 2개에 밀림",
+      "s_rule": "rank_cap",
+      "downgrade_reason": "상위 10위 밖",
       "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 60% · 토큰 calming, toner"
     },
     {
@@ -362,6 +353,15 @@
       "s_rule": "no_global_match",
       "downgrade_reason": null,
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 1,107건 (글로벌 시그널 약함)"
+    },
+    {
+      "pd_no": "1072803",
+      "name": "케어존플러스 모공탄력 수분크림 75 ml",
+      "bucket": "스킨케어",
+      "shopify_score": 83,
+      "s_rule": "match_too_weak",
+      "downgrade_reason": null,
+      "recommend_reason": "글로벌 'Pocket Blush Buildable Hydrating Cream Blush' (sephora) 유사 41% · 토큰 cream, hydrating · S제외:match_too_weak"
     }
   ]
 }

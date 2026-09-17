@@ -2,7 +2,7 @@
 title: "Record c83f815ec4 · US-and-Korean-sunscreens-are-not-created-equal-stud"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T09:18:57.618648+00:00
+updated_at: 2026-09-17T10:24:46.670235+00:00
 tags: [record, real-data]
 ---
 

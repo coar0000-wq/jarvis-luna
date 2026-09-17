@@ -2,7 +2,7 @@
 title: "Record 7250c4d3ee · Frontend-Engineering-at-Palantir-Engineering-Multil"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T09:18:57.180386+00:00
+updated_at: 2026-09-17T10:24:45.392503+00:00
 tags: [record, real-data]
 ---
 

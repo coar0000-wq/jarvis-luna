@@ -1,6 +1,6 @@
 {
   "agent": "Listing-Draft",
-  "generated_at": "2026-09-17T09:25:35.354561+00:00",
+  "generated_at": "2026-09-17T10:25:22.342793+00:00",
   "s_count": 10,
   "csv_path": "data/daiso_real/shopify_s_products_import.csv",
   "items": [
@@ -61,31 +61,25 @@
       "note": "Variant Price 비움 — 원가 모델 확인 후 입력. Cost per item·image·pd_no는 CSV에 있음."
     },
     {
-      "pd_no": "1049271",
-      "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
-      "csv": "data/daiso_real/shopify_s_products_import.csv",
-      "status_suggest": "draft",
-      "note": "Variant Price 비움 — 원가 모델 확인 후 입력. Cost per item·image·pd_no는 CSV에 있음."
-    },
-    {
       "pd_no": "1042619",
       "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
       "csv": "data/daiso_real/shopify_s_products_import.csv",
       "status_suggest": "draft",
       "note": "Variant Price 비움 — 원가 모델 확인 후 입력. Cost per item·image·pd_no는 CSV에 있음."
+    },
+    {
+      "pd_no": "1060211",
+      "name": "바세린 모이스처라이징 클렌징 밀크 140 ml",
+      "csv": "data/daiso_real/shopify_s_products_import.csv",
+      "status_suggest": "draft",
+      "note": "Variant Price 비움 — 원가 모델 확인 후 입력. Cost per item·image·pd_no는 CSV에 있음."
     }
   ],
-  "legal_blocks": [
-    "차단 1건: [수분보습]VT 슈퍼 히알론 (자동 점검 미통과: lab) — 라벨 갖추기 전엔 못 올림"
-  ],
+  "legal_blocks": [],
   "suggestions": [
     {
       "action": "import_csv_as_draft",
       "detail": "S등급 10건 CSV → Shopify Admin Products Import (Published=false)"
-    },
-    {
-      "action": "resolve_legal_blocks",
-      "detail": "차단 1건: [수분보습]VT 슈퍼 히알론 (자동 점검 미통과: lab) — 라벨 갖추기 전엔 못 올림"
     }
   ]
 }

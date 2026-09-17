@@ -2,7 +2,7 @@
 title: "Record 69d83e3e19 · Multi-Agent-Tourism-Support-Systems-MATSS-a-SOR-CLT"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T09:18:57.245522+00:00
+updated_at: 2026-09-17T10:24:45.576428+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 3a91b479c9 · 6-Korean-Beauty-Trends-Shaping-2026-Moving-From-Gla"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T09:18:57.531994+00:00
+updated_at: 2026-09-17T10:24:46.417179+00:00
 tags: [record, real-data]
 ---
 

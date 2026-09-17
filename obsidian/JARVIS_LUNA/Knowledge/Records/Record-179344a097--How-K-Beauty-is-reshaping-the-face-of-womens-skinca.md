@@ -2,7 +2,7 @@
 title: "Record 179344a097 · How-K-Beauty-is-reshaping-the-face-of-womens-skinca"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T09:18:57.534587+00:00
+updated_at: 2026-09-17T10:24:46.424628+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "기관 · Goldman Sachs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T09:52:42.272210+00:00
+updated_at: 2026-09-17T10:24:47.786628+00:00
 tags: [org, real-data]
 ---
 

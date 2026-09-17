@@ -2,7 +2,7 @@
 title: "Record 5a4cb30e45 · The-Recent-Beauty-Trends-Taking-over-TikTok---Beaut"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T09:18:57.515445+00:00
+updated_at: 2026-09-17T10:24:46.370003+00:00
 tags: [record, real-data]
 ---
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T09:17:13.292186+00:00",
+  "generated_at": "2026-09-17T10:24:43.303329+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
@@ -206,31 +206,6 @@
     },
     {
       "rank": 9,
-      "pd_no": "1049271",
-      "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 90,
-      "grade": "S",
-      "s_rule": "multi_token",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049271",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250929/nWv2JvG9ZseKOt8YvImo1049271_00_01nWv2JvG9ZseKOt8YvImo.jpg",
-      "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 60% · 토큰 calming, toner",
-      "matched_global": {
-        "channel": "tiktok_shop_us",
-        "global_product": "ANUA Heartleaf 77 Soothing Toner",
-        "similarity": 0.6,
-        "demand_weight": 0.95,
-        "matched_tokens": [
-          "calming",
-          "toner"
-        ],
-        "match_score": 0.57
-      },
-      "registerable": true
-    },
-    {
-      "rank": 10,
       "pd_no": "1042619",
       "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
       "bucket": "마스크팩",
@@ -251,6 +226,31 @@
           "mask"
         ],
         "match_score": 0.408
+      },
+      "registerable": true
+    },
+    {
+      "rank": 10,
+      "pd_no": "1060211",
+      "name": "바세린 모이스처라이징 클렌징 밀크 140 ml",
+      "bucket": "클렌징",
+      "price_krw": 5000,
+      "shopify_score": 87,
+      "grade": "S",
+      "s_rule": "multi_token",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060211",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250311/QGjtoQh4Tv8bUcOEAchc1060211_00_01QGjtoQh4Tv8bUcOEAchc.jpg",
+      "recommend_reason": "글로벌 'ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set' (oliveyoung_us) 유사 70% · 토큰 cleanser, moisturizer",
+      "matched_global": {
+        "channel": "oliveyoung_us",
+        "global_product": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
+        "similarity": 0.7,
+        "demand_weight": 0.735,
+        "matched_tokens": [
+          "cleanser",
+          "moisturizer"
+        ],
+        "match_score": 0.514
       },
       "registerable": true
     }

@@ -2,7 +2,7 @@
 title: "Record d2914b7299 · NIVEA-Soft-hydraterende-créme-48u-hydratatie"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T09:52:41.415297+00:00
+updated_at: 2026-09-17T10:24:46.944243+00:00
 tags: [record, real-data]
 ---
 

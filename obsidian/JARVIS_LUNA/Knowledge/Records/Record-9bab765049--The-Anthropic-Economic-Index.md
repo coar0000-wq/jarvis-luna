@@ -2,7 +2,7 @@
 title: "Record 9bab765049 · The-Anthropic-Economic-Index"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T09:18:57.769748+00:00
+updated_at: 2026-09-17T10:24:47.086636+00:00
 tags: [record, real-data]
 ---
 

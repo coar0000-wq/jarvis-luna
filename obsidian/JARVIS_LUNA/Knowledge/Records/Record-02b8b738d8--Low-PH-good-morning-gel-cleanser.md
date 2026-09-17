@@ -2,7 +2,7 @@
 title: "Record 02b8b738d8 · Low-PH-good-morning-gel-cleanser"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T09:18:57.720858+00:00
+updated_at: 2026-09-17T10:24:46.948216+00:00
 tags: [record, real-data]
 ---
 

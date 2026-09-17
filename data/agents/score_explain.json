@@ -1,6 +1,6 @@
 {
   "agent": "Score-Explain",
-  "generated_at": "2026-09-17T09:25:35.354547+00:00",
+  "generated_at": "2026-09-17T10:25:22.342779+00:00",
   "s_count": 10,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
   "items": [
@@ -99,18 +99,6 @@
       ]
     },
     {
-      "pd_no": "1049271",
-      "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
-      "score": 90,
-      "why": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 60% · 토큰 calming, toner",
-      "global": "ANUA Heartleaf 77 Soothing Toner",
-      "channel": "tiktok_shop_us",
-      "tokens": [
-        "calming",
-        "toner"
-      ]
-    },
-    {
       "pd_no": "1042619",
       "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
       "score": 89,
@@ -120,6 +108,18 @@
       "tokens": [
         "collagen",
         "mask"
+      ]
+    },
+    {
+      "pd_no": "1060211",
+      "name": "바세린 모이스처라이징 클렌징 밀크 140 ml",
+      "score": 87,
+      "why": "글로벌 'ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set' (oliveyoung_us) 유사 70% · 토큰 cleanser, moisturizer",
+      "global": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
+      "channel": "oliveyoung_us",
+      "tokens": [
+        "cleanser",
+        "moisturizer"
       ]
     }
   ],

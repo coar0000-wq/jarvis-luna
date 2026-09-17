@@ -2,7 +2,7 @@
 title: "Record f5f961a470 · ADWIN-KOREA-Shapes-the-Future-of-K-Beauty-Through-M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T09:18:57.598813+00:00
+updated_at: 2026-09-17T10:24:46.612175+00:00
 tags: [record, real-data]
 ---
 

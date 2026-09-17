@@ -2,7 +2,7 @@
 title: "Record 94a65ce282 · RadarMind-cognitive-AI-with-mmWave-sensing-for-human-aware-intelligent"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T09:18:57.283430+00:00
+updated_at: 2026-09-17T10:24:45.687275+00:00
 tags: [record, real-data]
 ---
 

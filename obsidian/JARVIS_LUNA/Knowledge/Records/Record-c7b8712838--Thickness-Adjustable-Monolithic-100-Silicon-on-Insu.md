@@ -2,7 +2,7 @@
 title: "Record c7b8712838 · Thickness-Adjustable-Monolithic-100-Silicon-on-Insu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T09:18:57.227678+00:00
+updated_at: 2026-09-17T10:24:45.525299+00:00
 tags: [record, real-data]
 ---
 

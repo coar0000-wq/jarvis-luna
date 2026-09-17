@@ -2,7 +2,7 @@
 title: "Record fd3bbfcbda · Integrating-Modafinil-Effects-Into-a-Biomathematica"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T09:18:57.280203+00:00
+updated_at: 2026-09-17T10:24:45.678652+00:00
 tags: [record, real-data]
 ---
 
