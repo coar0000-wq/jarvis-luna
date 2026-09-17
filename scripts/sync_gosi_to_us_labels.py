@@ -144,19 +144,53 @@ def split_ingredients(raw: str) -> list[str]:
     return parts
 
 
+def _nospace(s: str) -> str:
+    return re.sub(r"\s+", "", s)
+
+
+_NOSPACE_CACHE: dict[int, dict] = {}
+
+
+def nospace_index(table: dict) -> dict:
+    """공백을 둔 색인을 한 번만 만든다.
+
+    정본은 학명을 속과 종 사이에 공백을 두고 적는다.
+      정본   '클로렉라 불가리스추출물'
+      라벨   '클로렉라불가리스추출물'
+    제조사가 공백을 빼고 인쇄하는 일이 흔하다. 그것 하나 때문에
+    상품 하나가 통째로 막혔다. 같은 성분을 못 찾은 것이지 사전에
+    없던 것이 아니다.
+
+    공백만 무시한다. 다른 글자는 건드리지 않는다. 임의로 닮은 것을
+    찾아 이으면 다른 성분을 적게 된다.
+    """
+    key = id(table)
+    idx = _NOSPACE_CACHE.get(key)
+    if idx is None:
+        idx = {}
+        for k, v in table.items():
+            idx.setdefault(_nospace(k), v)
+        _NOSPACE_CACHE[key] = idx
+    return idx
+
+
 def to_inci(raw: str, table: dict) -> tuple[str, list[str]]:
     """한국어 전성분을 영문 INCI 로 바꾼다.
 
     하나라도 사전에 없으면 빈 문자열을 돌려준다.
     일부만 영문인 성분표는 쓸 수 없다. 미국에서 라벨 위반이다.
+
+    그대로 못 찾으면 공백만 떼고 한 번 더 본다.
+    지어내는 것이 아니라 같은 이름을 알아보는 것이다.
     """
     parts = split_ingredients(raw)
     if not parts:
         return "", []
 
+    idx = nospace_index(table)
     out, missing = [], []
     for p in parts:
-        hit = table.get(p)
+        hit = table.get(p) or idx.get(_nospace(p))
         if hit:
             out.append(hit)
         else:

@@ -163,8 +163,16 @@ def read_table(key: str, models: list[str], img: Path,
 
     pd_no 를 주면 그 품번의 표만 옮기라고 모델에게 명시한다.
     """
-    prompt = PROMPT.format(
-        target=TARGET_HINT.format(pd_no=pd_no) if pd_no else "")
+    # str.format 을 쓰면 안 된다.
+    #
+    # PROMPT 안에 응답 예시 JSON 이 들어 있고 그 중괄호를 format 이
+    # 치환 자리로 읽는다. 2026-09-16 에 품번 지정을 넣으면서 format 을
+    # 썼다가 이렇게 터졌다.
+    #   KeyError: '\n  "volume"'
+    # 그 바람에 gosi-vision 이 통째로 죽었고, 새로 S등급이 된 1049285 의
+    # 고시가 채워지지 않았다. 중괄호를 건드리지 않는 replace 로 바꾼다.
+    hint = TARGET_HINT.replace("{pd_no}", pd_no) if pd_no else ""
+    prompt = PROMPT.replace("{target}", hint)
     b64 = base64.b64encode(img.read_bytes()).decode()
     payload = {
         "contents": [{
