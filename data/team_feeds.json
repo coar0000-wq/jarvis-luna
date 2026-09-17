@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T14:39:58.938660+00:00",
+  "generated_at": "2026-09-17T19:33:16.166853+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
@@ -8,17 +8,17 @@
   "unrouted": 6,
   "summary": {
     "sourcing": {
-      "total": 306,
+      "total": 305,
       "recent": 304,
-      "material": 5,
+      "material": 4,
       "material_recent": 3,
       "products": 301
     },
     "market": {
-      "total": 478,
-      "recent": 40,
-      "material": 478,
-      "material_recent": 40,
+      "total": 490,
+      "recent": 41,
+      "material": 490,
+      "material_recent": 41,
       "products": 0
     },
     "listing": {
@@ -29,24 +29,24 @@
       "products": 0
     },
     "pricing": {
-      "total": 12,
-      "recent": 3,
-      "material": 12,
-      "material_recent": 3,
+      "total": 14,
+      "recent": 5,
+      "material": 14,
+      "material_recent": 5,
       "products": 0
     },
     "legal": {
-      "total": 114,
+      "total": 115,
       "recent": 19,
-      "material": 114,
+      "material": 115,
       "material_recent": 19,
       "products": 0
     },
     "design": {
       "total": 361,
-      "recent": 96,
+      "recent": 97,
       "material": 361,
-      "material_recent": 96,
+      "material_recent": 97,
       "products": 0
     },
     "robotics": {
@@ -57,9 +57,9 @@
       "products": 0
     },
     "knowledge": {
-      "total": 175,
+      "total": 176,
       "recent": 71,
-      "material": 175,
+      "material": 176,
       "material_recent": 71,
       "products": 0
     },
@@ -621,6 +621,27 @@
         "by_hand": false
       },
       {
+        "title": "Two new sunscreens bring the K-beauty inspired upgrade we’ve been waiting for - HOLA",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMHppV0FhcGtxcktoRlEwQ1lTUkNEb3V5bXJGcjZKcW1XREY1b0lXNlZWLVZVVHhkRVZuOE82OVdjdkZpZ1dNSTdrbm51aE9XcDVqOHpBVTl0eDBjdFp5TUhVQ3BWeEppX3VzZEhCczYxOXhZV19vdDJMYWVqV3h2WVUtdjNYeEt6Y0FSSGtsOA?oc=5",
+        "pool": "google",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "This K-beauty sunscreen is a game-changer for oily skin - The Independent",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOajJuaWhEU0dCRWFaQ1FzWUpwbUtPRXJET1NmRUFJR01Qb2VoaUREUzBtZFZZLVB0elVmZmFpOENqdldFZXd2TkJGX3UzWXFzQ2RJRWpOb1ZtTFpfcGxYYkNDMUt0NmNzdmg2YzJWYTg3UmZ4RlotVjZ3UDdNQnRXMGtBVEgtU2FzY1BJb2JMY1RBa0pSeWpZLWdhZlVPWDh1ZXBady1DRjBaUkdFemdyZG1menFpSlc0VWZrMlQ0VF9vY0dqZkxVYg?oc=5",
+        "pool": "google",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "Consider This Your Ultimate K-Beauty Shopping List - SheerLuxe",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObTUzLUttQ3RtcmstRTRwc3pKcy0zdkVzamxaVFJVSkZvenNyVm84N2xVZUNOWHl1SUtsUFpsaVNnNEc4VmNTOXdtMjFkQlUzMlU4NElMc1pLMUlDZ05iejBGSjg3UWd4UDBhOUJ0WEFIM1RKYU1OcDBobGtIN1hNdzE2ME1BUQ?oc=5",
+        "pool": "google",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
         "title": "Neutrogena® launches new sunscreen technology with Cloud-Tech™ - A new view of care - Kenvue",
         "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPZ3kzTG1VWVNvMmRwd1htdUJVU3JkeUMyMmZjOVZvMzhpSXZ1TTNtSWFpRjM3anptLUM4OWg5RnRqYWlFWXpKeFNkTG5ScXc3Tm9zenAyYkd0emFPVHMtU0ZlcHJWVFhUUjY1TmNFeEQ3MEJGdWJldTRRa3NydWVHak1GRjdrd2Z4NEN1MUlXU1o2MjdnTXozU1F6Q0tNS3c4ZVZtRWc2LWRBLXllSTFCZ3BuMUZWMU84dk94VFhPOFd1T19QUGpKVGI4NDJpQ2lPT0x1VTJsdTFSZHpKOWY5U1RTeFZGaE5MRGVZMXlsUWl4VTcxWjBPMFVKdTRJTDg?oc=5",
         "pool": "google",
@@ -628,15 +649,22 @@
         "by_hand": false
       },
       {
-        "title": "Kendall Jenner’s K-Beauty Routine Is on Sale—Here’s Where to Find It - E! News",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSGx3d2hKVFRVbm14VUJVTTJQOHZ5STQ5SEROU2lBcDFmdmRndWZzRFQ2bGlVQ0N6eXpCYm02a1UzczUzLUdHZERFb1NuSlF6Z19uakswWWlyVzZJd2JRMVhGMVlOMXNnVHlmaFBhZ3FvOGhGbmc5SXdlWVJ6R1JTcmxhc0lrS1dUYmhERg?oc=5",
+        "title": "Neutrogena launches two BEMT sunscreens with a K-beauty-inspired twist - New York Post",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOHpkZms0cWhzV285NnFsVmhkM3JTOWk4dkp0Ti16NU5CUG1mbEpPeVFMejJuSVAwcVA5MEUtWFdoajZBcF80ZmJHc196WXh2dWVranhwUlhCeDBLTkZISUpMUWZDeFIyRUhyZC1iRHVRWTVfUkFhcDdvM0kyWXBMWlcydDNTaEY0aTRnVTBpQVY4ckU2T3lyakF3?oc=5",
         "pool": "google",
-        "date": "2026-09-16",
+        "date": "2026-09-17",
         "by_hand": false
       },
       {
-        "title": "The 19 Most Innovative Skincare Products of the Year - Harper's BAZAAR",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSmNOT09ralZTLXpEZ0xuYXZqTHVOX3RaVXJlWlJqc3VzTV9GOXFnU3NOU1QyNUp6YnNuTTNUbDAzUVBhQUNRVEwwalNrdjB0ZzhwY3JRVEt2T3VjV3Z0YnprNmN6LUtOcVZ0YUx6dkpNU3dETktyMkRCWmlRLWsyRjFBOVlFcGE3?oc=5",
+        "title": "SA-Korean duo behind Bephor is giving K-beauty hair care Mzansi flair - Bizcommunity",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdVhOb2NYT3Q2WUxIQUJLWDZWUklHVVVXVWFYMWpTdWxzb05TdDBDSDdxa1NOWHpLNTlDczdUYkw2WU4wdW52UGFuQTB2YzE4ZkVkcGFqRzFydGtSVWVscm9SaV9ySmZOS3FYZTlyZzJXcnFjRVVlVTItc28xMFgtYzN0azJVSFVxekVOS2lsNmxGQWdIMEhLRGlUUEx2SlJPM1lNRllydHMxamV3bkhwamZvcks?oc=5",
+        "pool": "google",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "Kendall Jenner’s K-Beauty Routine Is on Sale—Here’s Where to Find It - E! News",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOS2RYOFBCbzU2TVZCQ2l4VXVkb2lRV0pGWUFzYWNweUZDTFVfRHAyNFdRRWRmWXZ1RkNnYlpXVVZXeThNaXJkcG85aFNyVldLaHhOR0NiOVM0MTgzLUhaMF9KZm91cXIyeG9Na2JCZE54QUpxckxNRmxZVEF2WmhMZ2lyVWp3Z2ZYc2xtOQ?oc=5",
         "pool": "google",
         "date": "2026-09-16",
         "by_hand": false
@@ -649,6 +677,13 @@
         "by_hand": false
       },
       {
+        "title": "The 19 Most Innovative Skincare Products of the Year - Harper's BAZAAR",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSmNOT09ralZTLXpEZ0xuYXZqTHVOX3RaVXJlWlJqc3VzTV9GOXFnU3NOU1QyNUp6YnNuTTNUbDAzUVBhQUNRVEwwalNrdjB0ZzhwY3JRVEt2T3VjV3Z0YnprNmN6LUtOcVZ0YUx6dkpNU3dETktyMkRCWmlRLWsyRjFBOVlFcGE3?oc=5",
+        "pool": "google",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
         "title": "K-Beauty Body Care: VOESH Brings Facial Skincare Benefits to the Body - Trend Hunter",
         "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE53ci1acDZjOUhmUE9rY3BwQWw2akhqWnVGZ1gzNGQ4dmhSY3EzUWl0VUU2Q0FOU2pCSEdwSGhWLWk5bTRXbFRHcDJyelBjdVMxMEo4VjVPcE5qSUlPWVBMVFZIc1pFMHVESFh2WnJhMA?oc=5",
         "pool": "google",
@@ -656,14 +691,14 @@
         "by_hand": false
       },
       {
-        "title": "K-beauty: Why Korea's skincare industry is dominating cosmetics - rte.ie",
+        "title": "K-beauty: Why Korea's skincare industry is dominating cosmetics - RTE.ie",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdzBLZFB4dFNnQnNvRm52OFZDZDhOR0tZbml1WjQ0b2ZDb1JPMi16VEY2b0FDUURnTmNwd3c4bWhWaFp1SHZ5NXdVQjVBWEx3Qm5iT1FJVm05bUNlZEVRY3RkN2VYaThRYWZvc2RGc0JkWXhHX3BYbGNBY0pmUVRhdTY1UkhTM19Hd1pCQjZWc09JUC1SUzhJV0FEckRZSFlRTHZlNThMckowQWhKaEFheTVCQjZsRVpD?oc=5",
         "pool": "google",
         "date": "2026-09-16",
         "by_hand": false
       },
       {
-        "title": "Your Fall Beauty Edit: 3 Top Trends to Refresh Your Routine at Target - Target Corporation",
+        "title": "Your Fall Beauty Edit: 3 Top Trends to Refresh Your Routine at Target - corporate.target.com",
         "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQajBBeEpXUWJ4Mm1lZ0ZucHhEUlhqb1pKdkhSeEk5YkpNb05BTFdVYzFCWmhpdlhFVnBBUzA1aFFwNmpBTnlrcUM2QU5hWWkwLWstV0Q0b2JYeURaLW9pUXRENkxqdmhhb3pzM0lmOTZCTmVvcGM3ZDdpQ3ZiZk5leQ?oc=5",
         "pool": "google",
         "date": "2026-09-16",
@@ -719,21 +754,7 @@
         "by_hand": false
       },
       {
-        "title": "SUNGBOON EDITOR And Milk Touch Bring Next-Generation K-Beauty To Target Beauty Studio - PR Newswire",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVnFIcTVoMDE4cHNFWG9BVm1GeEp4T2NMc2ZwY1VhbmhzYzBoWjMxOTdfSWlVVWRaS0xyZ096RnAyN1B1QkxCZkY2OGZEblRMRm1hX0JqVGYwTURPZkhuTG4zVU5zdnQzeDR3U1liWTRiWDNEa25RUU1mU2x0VUVXUUZUVG1kazN6NXlwUC1EVldEYWRFZlp1NnlseG53Yy04a2cxNTJiQ2FQMDdES3NpUUNpTHhPQ2NyTEcyTE84Zlo0M0VtalYzVmhyX2RLYVZqQTFuQWZsUW8?oc=5",
-        "pool": "google",
-        "date": "2026-09-14",
-        "by_hand": false
-      },
-      {
-        "title": "Mainstream K-Beauty Expansions: SUNGBOON EDITOR and Milk Touch Enter Target Beauty Studio - Trend Hunter",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE96WXJUaXZud0RKa2hHSmRCZ1NLVGRGeVZwZXROTXZKa21la3AydnhVZ1BycWNia0RkV3ZNZDhOZ2ZnLWZLRWdiR3lYRU12SlVXT243ang0N1FKbWlJSjBuTGhKbTRXX1R0bFM0?oc=5",
-        "pool": "google",
-        "date": "2026-09-14",
-        "by_hand": false
-      },
-      {
-        "title": "From Musinsa to Daiso, K-beauty is rewriting Korea’s retail playbook - koreaherald.com",
+        "title": "From Musinsa to Daiso, K-beauty is rewriting Korea’s retail playbook - The Korea Herald",
         "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5SY082WGxWOEt4ZDNISVVtSTJpNEJhMjNPMnFhOW1uNWEwY19EYTl6RDhxVkFzT0VMU180VkJRaE1QTV96OXRDdE1DcVhaTkVwUHpxU1BjRQ?oc=5",
         "pool": "google",
         "date": "2026-09-14",
@@ -747,7 +768,7 @@
         "by_hand": false
       },
       {
-        "title": "Mia Korean Skincare Highlights Growing Interest in K-Beauty in Milan - issuewire.com",
+        "title": "Mia Korean Skincare Highlights Growing Interest in K-Beauty in Milan - Issuewire.com",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUGkzV1p3dHozWEE5LWlTdmRreHlfYWhfQUluLUVoRHpDM04yQ0lFMnRzQnJOR1lxemM1TWh2WEYzLU5nWnlkTURmZ3c3N2hYaGs5aFJ1UmNFckQyV1lkOWNIdUxVUHVEY3ByR0tkd09jb0dQYlkyQ0paOW9NRzlldExQSnMwdEZtaDBvTnFPNVFFTktDSzNoVkJwYWlJb1RzZkFDalFVS1pDcGdKMzA2bw?oc=5",
         "pool": "google",
         "date": "2026-09-12",
@@ -761,21 +782,14 @@
         "by_hand": false
       },
       {
-        "title": "Galderma launches ALASTIN skincare in Korea at GAIN RESTAGE - Korea Biomedical Review",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1TTjJFMUxHR3ZlOEJkRlNLekZpOTBpOVREVVZqUmNEcWhfbkFIb0pMclZybVZGNThud3pJdlE5TzNBaUZMTmNFQkZxWDdKNk50LUI3OTFJVTVJOEt6M1ZuVGNzZHN0NnhhUHZvLXpB0gFyQVVfeXFMT2wyVzU1U2NGZmcwMFRXdWJfT3VNdXpLYWlzSkcyUHBtRnZSZHRrMHJ3R1RIV01yTmtDaktQUi1hSDVrblRuQ3BTbXFlb1RZeTY4Rzc3RktnS0tSQWlUNkRwM1l0ZDM3al9ZdHFQSm45RFZR?oc=5",
-        "pool": "google",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "The Vogue Business Beauty Trend Tracker - vogue.com",
+        "title": "The Vogue Business Beauty Trend Tracker - Vogue",
         "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96eFRtR1g5NG15VmJxdk9GX3B1V1FJdWRDdkJPb1pHMWk3d2pwMV81WFBURlJxaHRadVZTWUFKR1VSc21KX1lyVTUxa2NSa05nRmxUU1FRb1hFVWNvc2hDZ25YYUQ0Y09jMzNhLTZuWGk?oc=5",
         "pool": "google",
         "date": "2026-09-11",
         "by_hand": false
       },
       {
-        "title": "The Vogue Business TikTok Trend Tracker - vogue.com",
+        "title": "The Vogue Business TikTok Trend Tracker - Vogue",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9nc2ktNnQxVzlMTjl1MjR5MFYwSkMtVjI1Z0VhZlBLU0JqVlBjdHUyejJCVDV3OE9xYmF3ckhxR2VXLTk1Y3ZScXZfN0VPSU1ManFXYmFUWWxKTDN6cjFXTzk2OGxSVWxDOHIyeXZmRG9jUktfd2FIMg?oc=5",
         "pool": "google",
         "date": "2026-09-11",
@@ -810,7 +824,7 @@
         "by_hand": false
       },
       {
-        "title": "6 Steps to Glass Skin, According to K-Beauty Experts - vogue.com",
+        "title": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
         "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5",
         "pool": "google",
         "date": "2026-09-08",
@@ -831,7 +845,7 @@
         "by_hand": false
       },
       {
-        "title": "Would You Go on a Glowcation? K-Beauty Is Betting So - vogue.com",
+        "title": "Would You Go on a Glowcation? K-Beauty Is Betting So - Vogue",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ01YZ2lKV0VUQzJROHZVVnJZbWM1dkw1TFRGLXFMcUx0dWhaZDJheTIwdE9yaElIUFpmYlJVSXg2UnQ0aDhCOVd3MVZvakhvVWxDWi1wM2hfbGVKbjFaSHJLWjJHYU02M3lwdGRXQVNfSXJGdWVTN0h4V0tvaU9iLUIzbGFmZkFU?oc=5",
         "pool": "google",
         "date": "2026-09-04",
@@ -855,13 +869,6 @@
         "title": "Anti-Blush Is The Moody Yet Wearable Makeup Trend To Try Now - Harper's Bazaar Singapore",
         "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9HeW5JcWxfLU1RS2RYYzMxYTAzbGFVQTBvWktyOExud0JYc3dDZFFpQ0NobzMzUnhxR3BjOXVYQnFZaVh5RjZKM1F3QUp5TlZmZTl3OUNCQy1fYzREQmlvUmdTOHZ1X1JXM05HZVJ5MA?oc=5",
         "pool": "google",
-        "date": "2026-09-03",
-        "by_hand": false
-      },
-      {
-        "title": "Hydrogen developer preview update: September 2, 2026",
-        "url": "https://shopify.dev/changelog/hydrogen-developer-preview-update-september-2-2026",
-        "pool": "design_refs",
         "date": "2026-09-03",
         "by_hand": false
       },
@@ -894,7 +901,7 @@
         "by_hand": false
       },
       {
-        "title": "12 Makeup Trends to Experiment With in Fall 2026: Feathery Eyebrows, Barely-There Mascara, & More - teenvogue.com",
+        "title": "12 Makeup Trends to Experiment With in Fall 2026: Feathery Eyebrows, Barely-There Mascara, & More - Teen Vogue",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9OdzQ0OXlSbWVrOW1FUXdtSURIcjVsZnJhNEFleWtxZnRjcDdESjdFZlBXUVR0eEM0Tzg2NDN2M2tqU0pEaXd6TTZBOE5yRkVZR2ZBQU1DNWp1RTlxN2V6UHNHUUFJb28?oc=5",
         "pool": "google",
         "date": "2026-08-31",
@@ -912,13 +919,6 @@
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxORVlkelhsZW1hTjVrc1hOX19HZVpnZl9tQ2pjUTZ4WEVWVXp2TWhTMHpWZDRHS2ZEZEVUVlhQeTVZY0Z0Vno3S29BYmNGSW1mclM3QXZKZ2tiSWRvSnFRZmRSQXNnQkthTkdkelRvaTY4WXlfVWM0TjVTWkxsY3kwbC1JZkw0M3ZXOThTSm5aWFZwQnlFWG5OZWw2ZTBJZw?oc=5",
         "pool": "google",
         "date": "2026-08-29",
-        "by_hand": false
-      },
-      {
-        "title": "If You’re Terrified of Microneedling, K-Beauty Spicule Serums are A Gentler Way to Do It at Home - Oprah Daily",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONVZoeHI4TzZMS0tEM2tWc01tUFowTzhiUkJPcXllM2U5bGNDWVhjaC1sOFV0ejl4N1NNYjFBQ3JMSVNoMEwtVldRYm0xUlFyYlZYbm00M3l4WEgyeG1qblZEZEJIc0EyNC1uWW0zQ0Fma3EyMmVJSWtHc184LUlLT002X3U3eURVcF9oZDdB?oc=5",
-        "pool": "google",
-        "date": "2026-08-28",
         "by_hand": false
       }
     ],
@@ -1064,6 +1064,20 @@
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
+      },
+      {
+        "title": "Tracking International Payments Midsize Firms Responding Continued Tariff Pressure",
+        "url": "https://www.jpmorgan.com/insights/markets-and-economy/tracking-international-payments-midsize-firms-responding-continued-tariff-pressure",
+        "pool": "institutions",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "New Pricing audit trail for contextual product variant prices",
+        "url": "https://shopify.dev/changelog/pricing-audit-trail-for-contextual-product-variant-prices",
+        "pool": "design_refs",
+        "date": "2026-09-17",
+        "by_hand": false
       },
       {
         "title": "Are Stocks Overpriced 2024",
@@ -1530,15 +1544,15 @@
         "by_hand": false
       },
       {
-        "title": "Same brand, different SPF: Why Korean sunscreens outperform US versions - koreatimes.co.kr",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdXEyV1k2UDNvY01GVEFoVE01MldFRjlqaGlJY3kzRjliamkxcEV3aXFJeS1WRDJpbzI2OGVfTDFoTGR3Ny0tUkNRMXJ0RmJvRktpM2FDN0h4aE1uSHItVVNMWFNycnM1aDR4NW1TUVVQdjRhTmNIUXQxUmlVM253Z2NCNmIwbW9xVHJFLWd0R0tyZ2k4TWtqTzFoeDJUNDE5ZVpfeUZHNWtqNjVsOEhQRjUzSlZ0LTNN0gG-AUFVX3lxTE9teTR0RHBndWpfVGJ2OElRU1NCVDNSaVdZTjcwLWZpcU9ubEJma1FEeU9SbFRmc0hWd3hCTUhoUjlsb05Sek53VlI3RVF4dTI0MlFYRXpScmw4bFM1WVpjVEpnSFMtUllTWm9xYkxkbXVIM2RUaHQ3UlpXcGZJTHMxYkQ4aUlBdmFxQllQZF9YbG9yYVk5ay0yTUlVYTBjS3dZTnlkdzVLRzQxMGkzM0FzOERMOEo3d1RDOURmUnc?oc=5",
+        "title": "Neutrogena Brings Newly Approved UV Filter to Mainstream SPF - American Spa",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaF84c0M0M2J1LXJSMlF5VWxnQzk2alhIR1hHY2ZlN3Baa29QRnZJNGZybWc4TTQxMmVvQ2lEU1dUWWtsYk0xeXEyVHlvZktkSW5MbUdkVU51RjNrYk13NU1LVzFFSFBPZWMzSmpRQjZCWUI0VDRKWm9PXzY1Tk9reXh5ckVoS1BaSmNaUU5RM2tHaElhS3AwMUNYUFNNclJ2?oc=5",
         "pool": "us_beauty",
         "date": "",
         "by_hand": false
       },
       {
-        "title": "FOREVER SKIN GLOW 24h wear radiant foundation Perfection and hydration Concentrated floral skincare with suncreen Broad spectrum SPF 15 00",
-        "url": "https://api.fda.gov/drug/label.json?search=id:1f013e61-f171-2ae2-e063-6294a90adcf1",
+        "title": "Same brand, different SPF: Why Korean sunscreens outperform US versions - The Korea Times",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdXEyV1k2UDNvY01GVEFoVE01MldFRjlqaGlJY3kzRjliamkxcEV3aXFJeS1WRDJpbzI2OGVfTDFoTGR3Ny0tUkNRMXJ0RmJvRktpM2FDN0h4aE1uSHItVVNMWFNycnM1aDR4NW1TUVVQdjRhTmNIUXQxUmlVM253Z2NCNmIwbW9xVHJFLWd0R0tyZ2k4TWtqTzFoeDJUNDE5ZVpfeUZHNWtqNjVsOEhQRjUzSlZ0LTNN0gG-AUFVX3lxTE9teTR0RHBndWpfVGJ2OElRU1NCVDNSaVdZTjcwLWZpcU9ubEJma1FEeU9SbFRmc0hWd3hCTUhoUjlsb05Sek53VlI3RVF4dTI0MlFYRXpScmw4bFM1WVpjVEpnSFMtUllTWm9xYkxkbXVIM2RUaHQ3UlpXcGZJTHMxYkQ4aUlBdmFxQllQZF9YbG9yYVk5ay0yTUlVYTBjS3dZTnlkdzVLRzQxMGkzM0FzOERMOEo3d1RDOURmUnc?oc=5",
         "pool": "us_beauty",
         "date": "",
         "by_hand": false
@@ -1609,7 +1623,7 @@
         "by_hand": true
       },
       {
-        "title": "This UI/UX Redesign Will Teach You More Than 200 Tutorials Combined",
+        "title": "This UI/UX Redesign Will Teach You More Than 500 Tutorials Combined",
         "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
         "pool": "youtube_channel",
         "date": "",
@@ -1756,7 +1770,7 @@
         "by_hand": true
       },
       {
-        "title": "브랜딩 감각을 키우고 싶다면👀 | 사업부터 브랜딩까지 분야별 필독서 추천",
+        "title": "책은 가장 가성비 좋은 인풋입니다 📚  | 브랜드 대표가 직접 고른 브랜딩 필독서",
         "url": "https://www.youtube.com/watch?v=hikTGKo2kZE",
         "pool": "youtube_channel",
         "date": "",
@@ -1789,6 +1803,41 @@
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
+      },
+      {
+        "title": "Consider This Your Ultimate K-Beauty Shopping List - SheerLuxe",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObTUzLUttQ3RtcmstRTRwc3pKcy0zdkVzamxaVFJVSkZvenNyVm84N2xVZUNOWHl1SUtsUFpsaVNnNEc4VmNTOXdtMjFkQlUzMlU4NElMc1pLMUlDZ05iejBGSjg3UWd4UDBhOUJ0WEFIM1RKYU1OcDBobGtIN1hNdzE2ME1BUQ?oc=5",
+        "pool": "google",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "Adding a canceled receive action to the inventory shipments API",
+        "url": "https://shopify.dev/changelog/adding-a-canceled-receive-action-to-the-inventory-shipments-api",
+        "pool": "design_refs",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "Removed session.currentSession.staffMemberId from POS UI Extensions (2026-10)",
+        "url": "https://shopify.dev/changelog/removed-session-currentsession-staffmemberid-from-pos-ui-extensions-2026-10",
+        "pool": "design_refs",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "Query market hierarchies with the GraphQL Admin API",
+        "url": "https://shopify.dev/changelog/market-relationships",
+        "pool": "design_refs",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "New Pricing audit trail for contextual product variant prices",
+        "url": "https://shopify.dev/changelog/pricing-audit-trail-for-contextual-product-variant-prices",
+        "pool": "design_refs",
+        "date": "2026-09-17",
+        "by_hand": false
       },
       {
         "title": "Rethinking Robot Safety in the Age of AI",
@@ -1929,44 +1978,16 @@
         "pool": "arxiv",
         "date": "2026-09-15",
         "by_hand": false
-      },
-      {
-        "title": "FlowATC: Aircraft Trajectory Prediction via Flow Matching",
-        "url": "https://doi.org/10.48550/arxiv.2609.16528",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Asset Manager Considerations For Building An Etf Wrapper",
-        "url": "https://www.jpmorgan.com/insights/etf/securities-services/asset-manager-considerations-for-building-an-etf-wrapper",
-        "pool": "institutions",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Investing   Etf Guide",
-        "url": "https://www.jpmorgan.com/insights/global-research/investing/etf-guide",
-        "pool": "institutions",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Global Wires Payments Formatting Requirements Guide",
-        "url": "https://www.jpmorgan.com/insights/payments/fx-cross-border/global-wires-payments-formatting-requirements-guide",
-        "pool": "institutions",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Thoughts On The Market Asia Equities Us Election View",
-        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-asia-equities-us-election-view",
-        "pool": "institutions",
-        "date": "2026-09-15",
-        "by_hand": false
       }
     ],
     "robotics": [
+      {
+        "title": "Arm Total Design for Physical AI brings more than 80 developers together",
+        "url": "https://www.therobotreport.com/arm-total-design-for-physical-ai-brings-more-than-80-developers-together/",
+        "pool": "robotics",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
       {
         "title": "Rethinking Robot Safety in the Age of AI",
         "url": "https://spectrum.ieee.org/physical-ai-robot-cybersecurity-vicone",
@@ -2131,13 +2152,6 @@
       {
         "title": "Robots Are Learning to Feel",
         "url": "https://spectrum.ieee.org/tactile-data-robots",
-        "pool": "robotics",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Teradyne Robotics sues JAKA over 3 Universal Robots patents",
-        "url": "https://www.therobotreport.com/teradyne-robotics-sues-jaka-over-3-universal-robots-patents/",
         "pool": "robotics",
         "date": "2026-09-10",
         "by_hand": false
@@ -2833,6 +2847,13 @@
         "by_hand": false
       },
       {
+        "title": "Tracking International Payments Midsize Firms Responding Continued Tariff Pressure",
+        "url": "https://www.jpmorgan.com/insights/markets-and-economy/tracking-international-payments-midsize-firms-responding-continued-tariff-pressure",
+        "pool": "institutions",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
         "title": "Helping older adults use AI in everyday life",
         "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
         "pool": "institutions",
@@ -2917,13 +2938,6 @@
         "by_hand": false
       },
       {
-        "title": "Vertex Ventures Investing In Physical Ais Next Frontier",
-        "url": "https://www.jpmorgan.com/insights/banking/financing/vertex-ventures-investing-in-physical-ais-next-frontier",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
         "title": "Asia Pacific Market Outlook",
         "url": "https://www.jpmorgan.com/insights/banking/asia-pacific-market-outlook",
         "pool": "institutions",
@@ -2945,50 +2959,8 @@
         "by_hand": false
       },
       {
-        "title": "Thoughts On The Market Desai India Bullish Decade",
-        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-desai-india-bullish-decade",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Thoughts On The Market Emerging Markets",
-        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-emerging-markets",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Thoughts On The Market",
-        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Institutional Consulting Solutions   Our Insights",
-        "url": "https://www.morganstanley.com/what-we-do/wealth-management/institutional-consulting-solutions/our-insights",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Thoughts On The Market Fixed Income Roller Coaster Bonds",
-        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-fixed-income-roller-coaster-bonds",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Private Equity Technology M And A Outlook",
-        "url": "https://www.morganstanley.com/ideas/private-equity-technology-m-and-a-outlook",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Totalenergies Patrick Pouyanne Exceptional Leaders Exceptional Ideas",
-        "url": "https://www.morganstanley.com/ideas/totalenergies-patrick-pouyanne-exceptional-leaders-exceptional-ideas",
+        "title": "Vertex Ventures Investing In Physical Ais Next Frontier",
+        "url": "https://www.jpmorgan.com/insights/banking/financing/vertex-ventures-investing-in-physical-ais-next-frontier",
         "pool": "institutions",
         "date": "2026-09-16",
         "by_hand": false
@@ -3001,20 +2973,6 @@
         "by_hand": false
       },
       {
-        "title": "Are Stocks Overpriced 2024",
-        "url": "https://www.morganstanley.com/ideas/are-stocks-overpriced-2024",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Market Volatility 2024 Summer Surprises",
-        "url": "https://www.morganstanley.com/ideas/market-volatility-2024-summer-surprises",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
         "title": "Investing In Treasury Bonds Q3 2023",
         "url": "https://www.morganstanley.com/ideas/investing-in-treasury-bonds-Q3-2023",
         "pool": "institutions",
@@ -3022,8 +2980,8 @@
         "by_hand": false
       },
       {
-        "title": "Recession Soft Landing 2024 Investor Playbook",
-        "url": "https://www.morganstanley.com/ideas/recession-soft-landing-2024-investor-playbook",
+        "title": "Fed Rate Hike Tests Inflation Matthew Hornbach Michael Gapen",
+        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/fed-rate-hike-tests-inflation-matthew-hornbach-michael-gapen",
         "pool": "institutions",
         "date": "2026-09-16",
         "by_hand": false
@@ -3038,6 +2996,90 @@
       {
         "title": "Thoughts On The Market Disruption Ai Vishy Tirupattur",
         "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-disruption-ai-vishy-tirupattur",
+        "pool": "institutions",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Thoughts On The Market",
+        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market",
+        "pool": "institutions",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Global Healthcare Conference",
+        "url": "https://www.morganstanley.com/insights/themes/global-healthcare-conference",
+        "pool": "institutions",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Thoughts On The Market Emerging Markets",
+        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-emerging-markets",
+        "pool": "institutions",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Stock Rally Rising Rates Risks 2026",
+        "url": "https://www.morganstanley.com/insights/articles/stock-rally-rising-rates-risks-2026",
+        "pool": "institutions",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Thoughts On The Market Fixed Income Roller Coaster Bonds",
+        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-fixed-income-roller-coaster-bonds",
+        "pool": "institutions",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Market Volatility 2024 Summer Surprises",
+        "url": "https://www.morganstanley.com/ideas/market-volatility-2024-summer-surprises",
+        "pool": "institutions",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Recession Soft Landing 2024 Investor Playbook",
+        "url": "https://www.morganstanley.com/ideas/recession-soft-landing-2024-investor-playbook",
+        "pool": "institutions",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Are Stocks Overpriced 2024",
+        "url": "https://www.morganstanley.com/ideas/are-stocks-overpriced-2024",
+        "pool": "institutions",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Institutional Consulting Solutions   Our Insights",
+        "url": "https://www.morganstanley.com/what-we-do/wealth-management/institutional-consulting-solutions/our-insights",
+        "pool": "institutions",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Private Equity Technology M And A Outlook",
+        "url": "https://www.morganstanley.com/ideas/private-equity-technology-m-and-a-outlook",
+        "pool": "institutions",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Thoughts On The Market Desai India Bullish Decade",
+        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-desai-india-bullish-decade",
+        "pool": "institutions",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Totalenergies Patrick Pouyanne Exceptional Leaders Exceptional Ideas",
+        "url": "https://www.morganstanley.com/ideas/totalenergies-patrick-pouyanne-exceptional-leaders-exceptional-ideas",
         "pool": "institutions",
         "date": "2026-09-16",
         "by_hand": false
@@ -3099,13 +3141,6 @@
         "by_hand": false
       },
       {
-        "title": "Why Gold Is Expected To Rise To Record Highs",
-        "url": "https://www.goldmansachs.com/insights/the-markets/why-gold-is-expected-to-rise-to-record-highs",
-        "pool": "institutions",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
         "title": "Maverick Capital Co Cios On Finding The Ai Winners",
         "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/maverick-capital-co-cios-on-finding-the-ai-winners",
         "pool": "institutions",
@@ -3120,6 +3155,13 @@
         "by_hand": false
       },
       {
+        "title": "Why Gold Is Expected To Rise To Record Highs",
+        "url": "https://www.goldmansachs.com/insights/the-markets/why-gold-is-expected-to-rise-to-record-highs",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
         "title": "Why Global Bond Yields Are Surging   Transcript",
         "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/why-global-bond-yields-are-surging/transcript.pdf",
         "pool": "institutions",
@@ -3127,29 +3169,8 @@
         "by_hand": false
       },
       {
-        "title": "Financing Resilience Energy Supply Disruption",
-        "url": "https://www.jpmorgan.com/insights/treasury/trade-working-capital/financing-resilience-energy-supply-disruption",
-        "pool": "institutions",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Security And Resiliency Initiative",
-        "url": "https://www.jpmorgan.com/insights/security-and-resiliency-initiative",
-        "pool": "institutions",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Etf Share Classes",
-        "url": "https://www.jpmorgan.com/insights/etf/securities-services/etf-share-classes",
-        "pool": "institutions",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Active Etfs Unwrapped",
-        "url": "https://www.jpmorgan.com/insights/investing/investment-trends/active-etfs-unwrapped",
+        "title": "Ireland Eyes Continued Active Etf Dominance",
+        "url": "https://www.jpmorgan.com/insights/etf/securities-services/ireland-eyes-continued-active-etf-dominance",
         "pool": "institutions",
         "date": "2026-09-15",
         "by_hand": false
@@ -3164,6 +3185,20 @@
       {
         "title": "A Tale Of Two Domiciles",
         "url": "https://www.jpmorgan.com/insights/securities-services/fund-services/a-tale-of-two-domiciles",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Etf Share Classes",
+        "url": "https://www.jpmorgan.com/insights/etf/securities-services/etf-share-classes",
+        "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Active Etfs Unwrapped",
+        "url": "https://www.jpmorgan.com/insights/investing/investment-trends/active-etfs-unwrapped",
         "pool": "institutions",
         "date": "2026-09-15",
         "by_hand": false
@@ -3204,29 +3239,8 @@
         "by_hand": false
       },
       {
-        "title": "Ireland Eyes Continued Active Etf Dominance",
-        "url": "https://www.jpmorgan.com/insights/etf/securities-services/ireland-eyes-continued-active-etf-dominance",
-        "pool": "institutions",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Global Wires Payments Formatting Requirements Guide",
-        "url": "https://www.jpmorgan.com/insights/payments/fx-cross-border/global-wires-payments-formatting-requirements-guide",
-        "pool": "institutions",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Thoughts On The Market Asia Equities Us Election View",
-        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-asia-equities-us-election-view",
-        "pool": "institutions",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Thoughts On The Market Carpenter French Us Elections 2024",
-        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-carpenter-french-us-elections-2024",
+        "title": "Security And Resiliency Initiative",
+        "url": "https://www.jpmorgan.com/insights/security-and-resiliency-initiative",
         "pool": "institutions",
         "date": "2026-09-15",
         "by_hand": false

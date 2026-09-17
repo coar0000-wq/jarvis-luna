@@ -2,7 +2,7 @@
 title: "Record c6eef9e736 · Sephora-Launches-K-Beauty-Selection-Curated-by-Oliv"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T17:02:02.066714+00:00
+updated_at: 2026-09-17T19:41:34.753652+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMirAFBVV95cUxPN244bl9GYVBjTHVWbjIwZ3V3RDB4U3pYTnpEbjNQVXcwenRfZC0wWDJnelF3ZjFvdjRSaWtOT295al91QXBvakw3MTNUOTAtd1p5T2xZdmpQMEFmZWJkTlJHcVJEbnQyZnEwcTMxWDdxaURPRnZIaGtnZndEM2toT2JyQWlhUUFyUlJ0Yy00MF9nRm15MDE5dTh0bEJnNXlheFBkNEtQRnctb1Fu?oc=5)
 
-**제목:** Sephora Launches K-Beauty Selection Curated by Olive Young - EUPHORIA. Magazine
+**제목:** Sephora Launches K-Beauty Selection Curated by Olive Young - euphoriazine.com
 
-Sephora Launches K-Beauty Selection Curated by Olive Young - EUPHORIA. Magazine
+Sephora Launches K-Beauty Selection Curated by Olive Young - euphoriazine.com
 
 **출처:** Source · Google Search
 

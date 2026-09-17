@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-17T14:39:29.775662+00:00",
+  "collected_at": "2026-09-17T19:32:47.072732+00:00",
   "total": 1063,
   "organizations": 35,
   "by_org": {
@@ -54,19 +54,19 @@
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-09-17T14:38:35.328913+00:00"
+      "collected_at": "2026-09-17T19:31:46.488340+00:00"
     },
     "sitemap": {
       "status": "ok",
       "count": 140,
       "failures": [],
-      "collected_at": "2026-09-17T14:39:11.518278+00:00"
+      "collected_at": "2026-09-17T19:32:20.582416+00:00"
     },
     "openalex": {
       "status": "ok",
       "count": 713,
       "failures": [],
-      "collected_at": "2026-09-17T14:39:29.774526+00:00"
+      "collected_at": "2026-09-17T19:32:47.071711+00:00"
     }
   },
   "not_collected": {
@@ -2295,6 +2295,32 @@
       "title_source": "feed"
     },
     {
+      "title": "The Web Search Your Agent Inherited Isn't Good Enough",
+      "url": "https://www.databricks.com/blog/web-search-your-agent-inherited-isnt-good-enough",
+      "date": "2026-09-17",
+      "date_raw": "Thu, 17 Sep 2026 17:00:00 GMT",
+      "summary": "An agent that needs the outside worldAn engineer at a software company is building...",
+      "org": "Databricks",
+      "category": "데이터분석",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://www.databricks.com/feed",
+      "title_source": "feed"
+    },
+    {
+      "title": "What is AIOps?",
+      "url": "https://www.databricks.com/blog/what-is-aiops",
+      "date": "2026-09-17",
+      "date_raw": "Thu, 17 Sep 2026 16:49:43 GMT",
+      "summary": "Artificial Intelligence for IT Operations (AIOps) applies AI and machine learning to IT operations to detect anomalies...",
+      "org": "Databricks",
+      "category": "데이터분석",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://www.databricks.com/feed",
+      "title_source": "feed"
+    },
+    {
       "title": "\"Regex for Rows\": Simplifying Pattern Detection in SQL with MATCH_RECOGNIZE",
       "url": "https://www.databricks.com/blog/regex-rows-simplifying-pattern-detection-sql-matchrecognize",
       "date": "2026-09-16",
@@ -2391,32 +2417,6 @@
       "date": "2026-09-10",
       "date_raw": "Thu, 10 Sep 2026 15:05:10 GMT",
       "summary": "In our previous posts, we showed how open table formats, open APIs and unified governance...",
-      "org": "Databricks",
-      "category": "데이터분석",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://www.databricks.com/feed",
-      "title_source": "feed"
-    },
-    {
-      "title": "Improving Lakebase Postgres compute cache",
-      "url": "https://www.databricks.com/blog/improving-lakebase-postgres-compute-cache",
-      "date": "2026-09-10",
-      "date_raw": "Thu, 10 Sep 2026 13:47:03 GMT",
-      "summary": "The disaggregated storage model of Lakebase Postgres provides a feature rich, flexible...",
-      "org": "Databricks",
-      "category": "데이터분석",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://www.databricks.com/feed",
-      "title_source": "feed"
-    },
-    {
-      "title": "Five AI Questions We're Hearing from Financial Services Leaders",
-      "url": "https://www.databricks.com/blog/five-ai-questions-were-hearing-financial-services-leaders",
-      "date": "2026-09-09",
-      "date_raw": "Wed, 09 Sep 2026 18:09:29 GMT",
-      "summary": "Last year at Sibos Frankfurt, the question was whether AI works. This year: can your...",
       "org": "Databricks",
       "category": "데이터분석",
       "kind": "발표물",
@@ -2815,6 +2815,32 @@
       "title_source": "feed"
     },
     {
+      "url": "https://www.anthropic.com/news/life-sciences-verification-program",
+      "date": "2026-09-17",
+      "date_raw": "2026-09-17T17:31:22.000Z",
+      "title_source": "page",
+      "title": "Introducing the Life Sciences Verification Program",
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "org": "Anthropic",
+      "category": "AI연구소",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.anthropic.com/sitemap.xml"
+    },
+    {
+      "url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling",
+      "date": "2026-09-17",
+      "date_raw": "2026-09-17T19:22:50.000Z",
+      "title_source": "page",
+      "title": "How Claude is uplifting biomolecular modeling",
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "org": "Anthropic",
+      "category": "AI연구소",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.anthropic.com/sitemap.xml"
+    },
+    {
       "url": "https://www.anthropic.com/news/claude-corps",
       "date": "2026-09-11",
       "date_raw": "2026-09-11T02:45:01.000Z",
@@ -2870,9 +2896,9 @@
       "url": "https://www.anthropic.com/research/claude-values-models-languages",
       "date": "2026-09-11",
       "date_raw": "2026-09-11T16:58:57.000Z",
-      "title_source": "url-slug",
-      "title": "Claude Values Models Languages",
-      "summary": "",
+      "title_source": "page",
+      "title": "How Claude's values vary by model and language",
+      "summary": "We analyzed 300,000 real conversations to measure the values Claude expresses across models and languages, compressed into four interpretable axes.",
       "org": "Anthropic",
       "category": "AI연구소",
       "kind": "발표물",
@@ -2922,9 +2948,9 @@
       "url": "https://www.anthropic.com/research/enabling-independent-research",
       "date": "2026-09-11",
       "date_raw": "2026-09-11T16:57:50.000Z",
-      "title_source": "page",
-      "title": "Enabling independent research on how people use Claude",
-      "summary": "Earlier this year, we ran a pilot giving external researchers access to aggregate, real-world Claude usage data. Three research groups designed their own studies for Anthropic Insights, our privacy-preserving analysis tool. In this post, we share high-level results from those studies and what we learned running this pilot.",
+      "title_source": "url-slug",
+      "title": "Enabling Independent Research",
+      "summary": "",
       "org": "Anthropic",
       "category": "AI연구소",
       "kind": "발표물",
@@ -2935,9 +2961,9 @@
       "url": "https://www.anthropic.com/research/impact-software-development",
       "date": "2026-09-11",
       "date_raw": "2026-09-11T11:56:53.000Z",
-      "title_source": "page",
-      "title": "Anthropic Economic Index: AI's impact on software development",
-      "summary": "Data on how software developers are using Claude",
+      "title_source": "url-slug",
+      "title": "Impact Software Development",
+      "summary": "",
       "org": "Anthropic",
       "category": "AI연구소",
       "kind": "발표물",
@@ -3041,32 +3067,6 @@
       "date_raw": "2026-09-10T18:15:49.000Z",
       "title_source": "url-slug",
       "title": "Anthropic Acquires Bun As Claude Code Reaches Usd1B Milestone",
-      "summary": "",
-      "org": "Anthropic",
-      "category": "AI연구소",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.anthropic.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.anthropic.com/news/anthropic-and-iceland-announce-one-of-the-world-s-first-national-ai-education-pilots",
-      "date": "2026-09-10",
-      "date_raw": "2026-09-10T18:29:02.000Z",
-      "title_source": "url-slug",
-      "title": "Anthropic And Iceland Announce One Of The World S First National Ai Education Pilots",
-      "summary": "",
-      "org": "Anthropic",
-      "category": "AI연구소",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.anthropic.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.anthropic.com/news/anthropic-expands-global-leadership-in-enterprise-ai-naming-chris-ciauri-as-managing-director-of",
-      "date": "2026-09-10",
-      "date_raw": "2026-09-10T18:51:09.000Z",
-      "title_source": "url-slug",
-      "title": "Anthropic Expands Global Leadership In Enterprise Ai Naming Chris Ciauri As Managing Director Of",
       "summary": "",
       "org": "Anthropic",
       "category": "AI연구소",
@@ -3868,6 +3868,19 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
+      "url": "https://www.goldmansachs.com/insights/the-markets/why-gold-is-expected-to-rise-to-record-highs",
+      "date": "2026-09-15",
+      "date_raw": "2026-09-15T13:48:46.000Z",
+      "title_source": "url-slug",
+      "title": "Why Gold Is Expected To Rise To Record Highs",
+      "summary": "",
+      "org": "Goldman Sachs",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.goldmansachs.com/sitemap.xml"
+    },
+    {
       "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/maverick-capital-co-cios-on-finding-the-ai-winners",
       "date": "2026-09-15",
       "date_raw": "2026-09-15T22:03:32.000Z",
@@ -3886,19 +3899,6 @@
       "date_raw": "2026-09-15T18:23:51.000Z",
       "title_source": "url-slug",
       "title": "Can The S And P 500 Rally As Treasury Yields Rise",
-      "summary": "",
-      "org": "Goldman Sachs",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.goldmansachs.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.goldmansachs.com/insights/the-markets/why-gold-is-expected-to-rise-to-record-highs",
-      "date": "2026-09-15",
-      "date_raw": "2026-09-15T13:48:46.000Z",
-      "title_source": "url-slug",
-      "title": "Why Gold Is Expected To Rise To Record Highs",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -4037,11 +4037,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity",
+      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/the-outlook-for-data-center-power-demand-as-ai-token-use-grows",
       "date": "2026-09-04",
-      "date_raw": "2026-09-04T13:29:35.000Z",
+      "date_raw": "2026-09-04T15:26:17.000Z",
       "title_source": "url-slug",
-      "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity",
+      "title": "The Outlook For Data Center Power Demand As Ai Token Use Grows",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -4050,11 +4050,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/the-outlook-for-data-center-power-demand-as-ai-token-use-grows",
+      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity",
       "date": "2026-09-04",
-      "date_raw": "2026-09-04T15:26:17.000Z",
+      "date_raw": "2026-09-04T13:29:35.000Z",
       "title_source": "url-slug",
-      "title": "The Outlook For Data Center Power Demand As Ai Token Use Grows",
+      "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -4102,11 +4102,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity/transcript.pdf",
+      "url": "https://www.goldmansachs.com/pdfs/insights/videos/david-solomon-cnbc-sep-2026/transcript.pdf",
       "date": "2026-09-02",
-      "date_raw": "2026-09-02T20:18:47.000Z",
+      "date_raw": "2026-09-02T16:13:53.000Z",
       "title_source": "url-slug",
-      "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity   Transcript",
+      "title": "David Solomon Cnbc Sep 2026   Transcript",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",

@@ -2,7 +2,7 @@
 title: "Record 7f9f12710f · K-Beauty-Dominates-AI-Base-Makeup-Recommendations---조선일보"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T17:02:02.001158+00:00
+updated_at: 2026-09-17T19:41:34.670584+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeXhNVXR2WTVXRGlJY0F3S0dYR2xKSUlCSnZtdDVMM3dQMXFkVUg2V0N4Z1JoM2JVTVRmTmdfSWU4dDR0bTNmOFBwX2c3cy1sYlcyVjZzVmJ1TkhGTkhwaXRldFN1ZDJFTmJZdUJPNHJiZ1gyNFBGajVtWDdObkVIUzlpRVptRllS?oc=5)
 
-**제목:** K-Beauty Dominates AI Base Makeup Recommendations - 조선일보
+**제목:** K-Beauty Dominates AI Base Makeup Recommendations - chosun.com
 
-K-Beauty Dominates AI Base Makeup Recommendations - 조선일보
+K-Beauty Dominates AI Base Makeup Recommendations - chosun.com
 
 **출처:** Source · Google Search
 

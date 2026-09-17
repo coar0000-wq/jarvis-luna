@@ -2,7 +2,7 @@
 title: "Record fe23f369e0 · Expanding-OpenAIs-presence-in-Brazil"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T17:02:02.117187+00:00
+updated_at: 2026-09-17T19:41:34.809270+00:00
 tags: [record, real-data]
 ---
 

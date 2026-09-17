@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T23:45:56.402792+09:00",
+  "generated_at": "2026-09-18T04:39:53.040227+09:00",
   "role": "coaching",
   "principle": "AI는 체크리스트·A/B 초안만. 등록·광고 집행은 사람 승인.",
   "source": "scripts/build_coaching_loop.py",
@@ -12,7 +12,7 @@
     "reddit_signal": {
       "status": "ok",
       "post_count": 25,
-      "collected_at": "2026-09-17T14:40:44.684283+00:00",
+      "collected_at": "2026-09-17T19:34:41.312739+00:00",
       "keyword_pool": 40
     }
   },
@@ -78,14 +78,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['skin']",
-          "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
+          "evidence": "matched=['kbeauty', 'skin', 'skincare']",
+          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "VT Reedle Shot 300 Facial Boosting First Ampoule 2ml x 6 — skin · K-beauty",
+          "primary_text": "VT Reedle Shot 300 Facial Boosting First Ampoule 2ml x 6 — kbeauty · K-beauty",
           "headline": "VT Reedle Shot 300 Facial Boosting First",
           "description": "Discover the VT Reedle Shot 300 Facial Boosting First Ampoule, designed to help care for skin texture in a convenient set of six 2ml ampoules. Apply as a first step in your routine for a smoother-look",
           "cta": "Shop now"
@@ -102,22 +102,28 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "skin"
+          "kbeauty",
+          "skin",
+          "skincare"
         ],
         "reddit_keywords_used": [
-          "skin"
+          "kbeauty",
+          "skin",
+          "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "skin"
+          "kbeauty",
+          "skin",
+          "skincare"
         ],
-        "score": 1,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['skin']",
-        "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
+        "evidence": "matched=['kbeauty', 'skin', 'skincare']",
+        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
         "pass": 5,
@@ -187,14 +193,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['skin']",
-          "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
+          "evidence": "matched=['kbeauty', 'skin', 'skincare']",
+          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "VONSEP Retinol 500 IU Serum 30 ml — skin · K-beauty",
+          "primary_text": "VONSEP Retinol 500 IU Serum 30 ml — kbeauty · K-beauty",
           "headline": "VONSEP Retinol 500 IU Serum 30 ml",
           "description": "Discover the VONSEP Retinol 500 IU Serum in a convenient 30 ml size, designed to enhance your daily skincare routine. This nourishing facial serum helps promote a smoother-looking appearance and a rad",
           "cta": "Shop now"
@@ -211,22 +217,28 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "skin"
+          "kbeauty",
+          "skin",
+          "skincare"
         ],
         "reddit_keywords_used": [
-          "skin"
+          "kbeauty",
+          "skin",
+          "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "skin"
+          "kbeauty",
+          "skin",
+          "skincare"
         ],
-        "score": 1,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['skin']",
-        "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
+        "evidence": "matched=['kbeauty', 'skin', 'skincare']",
+        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
         "pass": 5,
@@ -296,14 +308,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['skin']",
-          "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
+          "evidence": "matched=['kbeauty', 'skin', 'skincare']",
+          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6ea — skin · K-beauty",
+          "primary_text": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6ea — kbeauty · K-beauty",
           "headline": "VT Reedle Shot 100 Facial Boosting First",
           "description": "Experience smooth skin texture care with the VT Reedle Shot 100 Facial Boosting First Ampoule. This set includes six convenient 2ml ampoules designed to help prep your complexion for your daily skinca",
           "cta": "Shop now"
@@ -320,22 +332,28 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "skin"
+          "kbeauty",
+          "skin",
+          "skincare"
         ],
         "reddit_keywords_used": [
-          "skin"
+          "kbeauty",
+          "skin",
+          "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "skin"
+          "kbeauty",
+          "skin",
+          "skincare"
         ],
-        "score": 1,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['skin']",
-        "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
+        "evidence": "matched=['kbeauty', 'skin', 'skincare']",
+        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
         "pass": 5,
@@ -405,14 +423,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['skin']",
-          "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
+          "evidence": "matched=['kbeauty', 'skin', 'skincare']",
+          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "VT PDRN Glow Cream 50 ml — skin · K-beauty",
+          "primary_text": "VT PDRN Glow Cream 50 ml — kbeauty · K-beauty",
           "headline": "VT PDRN Glow Cream 50 ml",
           "description": "Discover the nourishing and radiant benefits of the VT PDRN Glow Cream. This 50 ml facial cream delivers a daily boost of moisture to help enhance your natural glow. Designed for easy application, it ",
           "cta": "Shop now"
@@ -430,22 +448,28 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "skin"
+          "kbeauty",
+          "skin",
+          "skincare"
         ],
         "reddit_keywords_used": [
-          "skin"
+          "kbeauty",
+          "skin",
+          "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "skin"
+          "kbeauty",
+          "skin",
+          "skincare"
         ],
-        "score": 1,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['skin']",
-        "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
+        "evidence": "matched=['kbeauty', 'skin', 'skincare']",
+        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
         "pass": 5,
@@ -515,14 +539,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['masks', 'skin']",
+          "evidence": "matched=['kbeauty', 'masks', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Celderma Daily PDRN Radiance Cream Wrapping Mask 1ea — masks · K-beauty",
+          "primary_text": "Celderma Daily PDRN Radiance Cream Wrapping Mask 1ea — kbeauty · K-beauty",
           "headline": "Celderma Daily PDRN Radiance Cream Wrapp",
           "description": "Discover the Celderma Daily PDRN Radiance Cream Wrapping Mask, designed to give your skin a radiant and glowing appearance. This convenient single-use sheet mask helps deliver deep moisture for a visi",
           "cta": "Shop now"
@@ -541,24 +565,30 @@
           "K-beauty",
           "glass skin",
           "hydrating",
+          "kbeauty",
           "masks",
-          "skin"
+          "skin",
+          "skincare"
         ],
         "reddit_keywords_used": [
+          "kbeauty",
           "masks",
-          "skin"
+          "skin",
+          "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
+          "kbeauty",
           "masks",
-          "skin"
+          "skin",
+          "skincare"
         ],
-        "score": 2,
+        "score": 4,
         "status": "pass",
-        "evidence": "matched=['masks', 'skin']",
+        "evidence": "matched=['kbeauty', 'masks', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -629,14 +659,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['masks', 'skin']",
+          "evidence": "matched=['kbeauty', 'masks', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "VT Super Hyalon Sleeping Mask 4ml 6ea — masks · K-beauty",
+          "primary_text": "VT Super Hyalon Sleeping Mask 4ml 6ea — kbeauty · K-beauty",
           "headline": "VT Super Hyalon Sleeping Mask 4ml 6ea",
           "description": "Discover the VT Super Hyalon Sleeping Mask, designed to deliver deep moisture and hydration to your skin overnight. This convenient set includes six 4ml pouches, making it easy to enjoy a refreshed an",
           "cta": "Shop now"
@@ -653,24 +683,30 @@
           "K-beauty",
           "glass skin",
           "hydrating",
+          "kbeauty",
           "masks",
-          "skin"
+          "skin",
+          "skincare"
         ],
         "reddit_keywords_used": [
+          "kbeauty",
           "masks",
-          "skin"
+          "skin",
+          "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
+          "kbeauty",
           "masks",
-          "skin"
+          "skin",
+          "skincare"
         ],
-        "score": 2,
+        "score": 4,
         "status": "pass",
-        "evidence": "matched=['masks', 'skin']",
+        "evidence": "matched=['kbeauty', 'masks', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -741,14 +777,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['skin', 'toner']",
+          "evidence": "matched=['kbeauty', 'skin', 'skincare', 'toner']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Chaebi Gongan Heartleaf Extract Vegan Toner 150ml — skin · K-beauty",
+          "primary_text": "Chaebi Gongan Heartleaf Extract Vegan Toner 150ml — kbeauty · K-beauty",
           "headline": "Chaebi Gongan Heartleaf Extract Vegan To",
           "description": "Discover the Chaebi Gongan Heartleaf Extract Vegan Toner, designed for your daily skincare routine. Formulated with heartleaf extract, this 150ml toner helps refresh and hydrate your skin. Apply gentl",
           "cta": "Shop now"
@@ -766,10 +802,14 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "skin"
+          "kbeauty",
+          "skin",
+          "skincare"
         ],
         "reddit_keywords_used": [
+          "kbeauty",
           "skin",
+          "skincare",
           "toner"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
@@ -777,12 +817,14 @@
       },
       "reddit_match": {
         "matched": [
+          "kbeauty",
           "skin",
+          "skincare",
           "toner"
         ],
-        "score": 2,
+        "score": 4,
         "status": "pass",
-        "evidence": "matched=['skin', 'toner']",
+        "evidence": "matched=['kbeauty', 'skin', 'skincare', 'toner']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {

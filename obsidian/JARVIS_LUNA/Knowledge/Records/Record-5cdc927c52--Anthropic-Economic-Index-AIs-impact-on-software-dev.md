@@ -2,7 +2,7 @@
 title: "Record 5cdc927c52 · Anthropic-Economic-Index-AIs-impact-on-software-dev"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T17:02:02.239451+00:00
+updated_at: 2026-09-17T19:41:34.950235+00:00
 tags: [record, real-data]
 ---
 
@@ -10,13 +10,12 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [www.anthropic.com](https://www.anthropic.com/research/impact-software-development)
 
-**제목:** Anthropic Economic Index: AI's impact on software development
+**제목:** Impact Software Development
 
-Anthropic Economic Index: AI's impact on software development
-Data on how software developers are using Claude
+Impact Software Development
 
 **출처:** Source · institutions
 
 ## Connected nodes
 
-[[Source--institutions]] [[LLM언어모델]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

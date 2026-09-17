@@ -2,7 +2,7 @@
 title: "Record 7a84181b07 · High-transconductance-molybdenum-disulfide-top-gate"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T17:02:01.721562+00:00
+updated_at: 2026-09-17T19:41:34.333165+00:00
 tags: [record, real-data]
 ---
 

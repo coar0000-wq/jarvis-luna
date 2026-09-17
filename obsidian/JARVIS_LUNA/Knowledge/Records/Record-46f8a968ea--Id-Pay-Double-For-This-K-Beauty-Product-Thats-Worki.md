@@ -2,7 +2,7 @@
 title: "Record 46f8a968ea · Id-Pay-Double-For-This-K-Beauty-Product-Thats-Worki"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T17:02:02.039031+00:00
+updated_at: 2026-09-17T19:41:34.719913+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 9c3da62f0e · Clean-Skin-Club-Clean-Towels-XL-100-USDA-Biobased-Face-Towel-Disposabl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T17:02:02.213716+00:00
+updated_at: 2026-09-17T19:41:34.918866+00:00
 tags: [record, real-data]
 ---
 

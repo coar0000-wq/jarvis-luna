@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-17T14:40:44.684283+00:00",
+  "collected_at": "2026-09-17T19:34:41.312739+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -45,18 +45,26 @@
   "hot_keywords": [
     {
       "keyword": "skin",
-      "score": 8
-    },
-    {
-      "keyword": "2026",
       "score": 6
     },
     {
-      "keyword": "september",
+      "keyword": "2026",
       "score": 5
     },
     {
-      "keyword": "which",
+      "keyword": "september",
+      "score": 4
+    },
+    {
+      "keyword": "korean",
+      "score": 4
+    },
+    {
+      "keyword": "makeup",
+      "score": 3
+    },
+    {
+      "keyword": "best",
       "score": 3
     },
     {
@@ -68,11 +76,19 @@
       "score": 3
     },
     {
-      "keyword": "makeup",
+      "keyword": "sunscreen",
       "score": 2
     },
     {
-      "keyword": "sunscreen",
+      "keyword": "kbeauty",
+      "score": 2
+    },
+    {
+      "keyword": "skincare",
+      "score": 2
+    },
+    {
+      "keyword": "products",
       "score": 2
     },
     {
@@ -84,11 +100,7 @@
       "score": 2
     },
     {
-      "keyword": "korean",
-      "score": 2
-    },
-    {
-      "keyword": "best",
+      "keyword": "which",
       "score": 2
     },
     {
@@ -112,18 +124,6 @@
       "score": 2
     },
     {
-      "keyword": "anything",
-      "score": 2
-    },
-    {
-      "keyword": "goes",
-      "score": 2
-    },
-    {
-      "keyword": "products",
-      "score": 2
-    },
-    {
       "keyword": "cleanser",
       "score": 2
     },
@@ -133,10 +133,6 @@
     },
     {
       "keyword": "brand",
-      "score": 2
-    },
-    {
-      "keyword": "body",
       "score": 2
     },
     {
@@ -161,6 +157,18 @@
     },
     {
       "keyword": "grail",
+      "score": 1
+    },
+    {
+      "keyword": "affordable",
+      "score": 1
+    },
+    {
+      "keyword": "stores",
+      "score": 1
+    },
+    {
+      "keyword": "buy",
       "score": 1
     },
     {
@@ -194,31 +202,31 @@
     {
       "keyword": "roceacea",
       "score": 1
-    },
-    {
-      "keyword": "canadians",
-      "score": 1
-    },
-    {
-      "keyword": "ordering",
-      "score": 1
     }
   ],
   "beauty_keywords": [
     {
       "keyword": "skin",
-      "score": 8
+      "score": 6
+    },
+    {
+      "keyword": "korean",
+      "score": 4
     },
     {
       "keyword": "sunscreen",
       "score": 2
     },
     {
-      "keyword": "toner",
+      "keyword": "kbeauty",
       "score": 2
     },
     {
-      "keyword": "korean",
+      "keyword": "skincare",
+      "score": 2
+    },
+    {
+      "keyword": "toner",
       "score": 2
     },
     {
@@ -257,9 +265,23 @@
       "feed": "hot"
     },
     {
+      "title": "What are the best affordable stores to buy kbeauty makeup and skincare products??",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wizxy1/what_are_the_best_affordable_stores_to_buy/",
+      "published": "2026-09-17T17:10:05+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Recommendations on a moisturizing toner for someone with sensitive, dry acneprone skin, oily tzone and roceacea?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1winzxl/recommendations_on_a_moisturizing_toner_for/",
       "published": "2026-09-17T08:19:27+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Which Korean Shampoo do you use for oily hair?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1win368/which_korean_shampoo_do_you_use_for_oily_hair/",
+      "published": "2026-09-17T07:25:04+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -271,9 +293,9 @@
       "feed": "hot"
     },
     {
-      "title": "Which Korean Shampoo do you use for oily hair?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1win368/which_korean_shampoo_do_you_use_for_oily_hair/",
-      "published": "2026-09-17T07:25:04+00:00",
+      "title": "I forgot what site I used to get this RoundLab Korean formula, any ideas?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wiy9pp/i_forgot_what_site_i_used_to_get_this_roundlab/",
+      "published": "2026-09-17T16:09:28+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -292,16 +314,16 @@
       "feed": "hot"
     },
     {
-      "title": "Specific eye care regime or treatments for people with the combination of thin skin and little to no fat?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wim3kg/specific_eye_care_regime_or_treatments_for_people/",
-      "published": "2026-09-17T06:28:07+00:00",
+      "title": "Hera Glow Lasting Foundation & Hera Silky Stay Reviews?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wi9xcg/hera_glow_lasting_foundation_hera_silky_stay/",
+      "published": "2026-09-16T21:08:51+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Hera Glow Lasting Foundation & Hera Silky Stay Reviews?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wi9xcg/hera_glow_lasting_foundation_hera_silky_stay/",
-      "published": "2026-09-16T21:08:51+00:00",
+      "title": "Specific eye care regime or treatments for people with the combination of thin skin and little to no fat?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wim3kg/specific_eye_care_regime_or_treatments_for_people/",
+      "published": "2026-09-17T06:28:07+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -320,13 +342,6 @@
       "feed": "hot"
     },
     {
-      "title": "Do cooling gel masks actually make a difference in hot weather?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whyva9/do_cooling_gel_masks_actually_make_a_difference/",
-      "published": "2026-09-16T14:30:10+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
       "title": "Reviews!",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1whe2jz/reviews/",
       "published": "2026-09-15T21:51:11+00:00",
@@ -334,9 +349,9 @@
       "feed": "hot"
     },
     {
-      "title": "Anything Goes Wednesday: September 16, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wi94k1/anything_goes_wednesday_september_16_2026/",
-      "published": "2026-09-16T20:39:10+00:00",
+      "title": "Do cooling gel masks actually make a difference in hot weather?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whyva9/do_cooling_gel_masks_actually_make_a_difference/",
+      "published": "2026-09-16T14:30:10+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -344,6 +359,13 @@
       "title": "HAVE A QUESTION? ASK HERE! Alter-Daily Help and Questions: September 16, 2026",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1whzwwv/have_a_question_ask_here_alterdaily_help_and/",
       "published": "2026-09-16T15:09:09+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Anything Goes Wednesday: September 16, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wi94k1/anything_goes_wednesday_september_16_2026/",
+      "published": "2026-09-16T20:39:10+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -393,20 +415,6 @@
       "title": "99 Ranch, HMart and Uwajimaya",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wha6w2/99_ranch_hmart_and_uwajimaya/",
       "published": "2026-09-15T19:25:58+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Which skin and body products have pretty packaging AND do an amazing job?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wh256q/which_skin_and_body_products_have_pretty/",
-      "published": "2026-09-15T14:35:30+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Anything Goes Tuesday: September 15, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whc742/anything_goes_tuesday_september_15_2026/",
-      "published": "2026-09-15T20:39:10+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

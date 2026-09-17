@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T14:45:51.028440+00:00",
+  "generated_at": "2026-09-17T19:39:47.874065+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "ind vs afg",
+          "keyword": "michael sweetney",
           "approx_traffic": "5000+",
           "traffic_num": 5000,
-          "published": "Thu, 17 Sep 2026 06:50:00 -0700",
-          "source_name": "Cricinfo",
-          "url": "https://trends.google.com/trending?geo=US&q=ind%20vs%20afg"
+          "published": "Thu, 17 Sep 2026 11:40:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=michael%20sweetney"
         },
         {
-          "keyword": "steve belichick",
-          "approx_traffic": "5000+",
-          "traffic_num": 5000,
-          "published": "Thu, 17 Sep 2026 06:20:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=steve%20belichick"
-        },
-        {
-          "keyword": "lsu sam leavitt",
-          "approx_traffic": "5000+",
-          "traffic_num": 5000,
-          "published": "Thu, 17 Sep 2026 05:30:00 -0700",
-          "source_name": "On3",
-          "url": "https://trends.google.com/trending?geo=US&q=lsu%20sam%20leavitt"
-        },
-        {
-          "keyword": "pennsylvania",
-          "approx_traffic": "5000+",
-          "traffic_num": 5000,
-          "published": "Thu, 17 Sep 2026 05:10:00 -0700",
-          "source_name": "The Washington Post",
-          "url": "https://trends.google.com/trending?geo=US&q=pennsylvania"
-        },
-        {
-          "keyword": "trump iran",
+          "keyword": "málaga - villarreal",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Thu, 17 Sep 2026 07:20:00 -0700",
-          "source_name": "Fox News",
-          "url": "https://trends.google.com/trending?geo=US&q=trump%20iran"
+          "published": "Thu, 17 Sep 2026 12:00:00 -0700",
+          "source_name": "MARCA",
+          "url": "https://trends.google.com/trending?geo=US&q=m%C3%A1laga%20-%20villarreal"
         },
         {
-          "keyword": "gta 6 album",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Thu, 17 Sep 2026 05:30:00 -0700",
-          "source_name": "Rockstar Games",
-          "url": "https://trends.google.com/trending?geo=US&q=gta%206%20album"
+          "keyword": "juventus",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Thu, 17 Sep 2026 12:20:00 -0700",
+          "source_name": "La Gazzetta dello Sport",
+          "url": "https://trends.google.com/trending?geo=US&q=juventus"
         },
         {
-          "keyword": "asteroid",
+          "keyword": "floyd samba",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Thu, 17 Sep 2026 12:00:00 -0700",
+          "source_name": "Manchester City FC",
+          "url": "https://trends.google.com/trending?geo=US&q=floyd%20samba"
+        },
+        {
+          "keyword": "maria elvira salazar",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Thu, 17 Sep 2026 11:50:00 -0700",
+          "source_name": "The New York Times",
+          "url": "https://trends.google.com/trending?geo=US&q=maria%20elvira%20salazar"
+        },
+        {
+          "keyword": "f16",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Thu, 17 Sep 2026 07:20:00 -0700",
-          "source_name": "AP News",
-          "url": "https://trends.google.com/trending?geo=US&q=asteroid"
+          "published": "Thu, 17 Sep 2026 12:20:00 -0700",
+          "source_name": "Aviation Week",
+          "url": "https://trends.google.com/trending?geo=US&q=f16"
         },
         {
-          "keyword": "1970s",
+          "keyword": "besiktas",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Thu, 17 Sep 2026 07:00:00 -0700",
-          "source_name": "American Songwriter",
-          "url": "https://trends.google.com/trending?geo=US&q=1970s"
+          "published": "Thu, 17 Sep 2026 12:20:00 -0700",
+          "source_name": "beinsports.com.tr",
+          "url": "https://trends.google.com/trending?geo=US&q=besiktas"
         },
         {
-          "keyword": "landry kiffin",
+          "keyword": "california flooding",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Thu, 17 Sep 2026 06:50:00 -0700",
-          "source_name": "Fox News",
-          "url": "https://trends.google.com/trending?geo=US&q=landry%20kiffin"
+          "published": "Thu, 17 Sep 2026 12:10:00 -0700",
+          "source_name": "The Guardian",
+          "url": "https://trends.google.com/trending?geo=US&q=california%20flooding"
         },
         {
-          "keyword": "azerbaijan",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Thu, 17 Sep 2026 06:20:00 -0700",
-          "source_name": "Reuters",
-          "url": "https://trends.google.com/trending?geo=US&q=azerbaijan"
+          "keyword": "crystal palace - lech poznań",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Thu, 17 Sep 2026 12:00:00 -0700",
+          "source_name": "Przegląd Sportowy",
+          "url": "https://trends.google.com/trending?geo=US&q=crystal%20palace%20-%20lech%20pozna%C5%84"
+        },
+        {
+          "keyword": "celtic vs ferencváros",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Thu, 17 Sep 2026 11:40:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=celtic%20vs%20ferencv%C3%A1ros"
         }
       ]
     },
@@ -187,6 +187,21 @@
       "source": "allure.com/feed/rss",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
       "items": [
+        {
+          "title": "Allure Best of Beauty Awards: Hall of Fame Winners Skin, Makeup, Hair Products—Reviews, Photos for 2026",
+          "published": "Thu, 17 Sep 2026 17:45:37 +0000",
+          "url": "https://www.allure.com/gallery/best-of-beauty-hall-of-fame-winners"
+        },
+        {
+          "title": "How to Treat Eczema and Milia at the Same Time",
+          "published": "Thu, 17 Sep 2026 17:20:45 +0000",
+          "url": "https://www.allure.com/story/treating-eczema-milia-simultaneously"
+        },
+        {
+          "title": "The Allure 2026 Best of Beauty Box Review",
+          "published": "Thu, 17 Sep 2026 17:00:00 +0000",
+          "url": "https://www.allure.com/story/best-of-beauty-limited-edition-box-2026"
+        },
         {
           "title": "9 Best Tinted Lip Balms for Sheer Color and Lasting Hydration",
           "published": "Thu, 17 Sep 2026 14:30:00 +0000",
@@ -293,24 +308,9 @@
           "url": "https://www.allure.com/story/best-of-beauty-2026-winners"
         },
         {
-          "title": "The 2026 Allure Best of Beauty Nails Winners Are Show-Stoppers",
-          "published": "Thu, 17 Sep 2026 11:00:00 +0000",
-          "url": "https://www.allure.com/story/best-of-beauty-2026-nail-product-winners"
-        },
-        {
           "title": "The 2026 Allure Best of Beauty Hair-Product Award Winners Prioritize Hair and Scalp Health",
           "published": "Thu, 17 Sep 2026 11:00:00 +0000",
           "url": "https://www.allure.com/story/best-of-beauty-2026-hair-care-product-winners"
-        },
-        {
-          "title": "The 2026 Best of Beauty-Winning Lip Products Will Transform Your Lip Combo",
-          "published": "Thu, 17 Sep 2026 11:00:00 +0000",
-          "url": "https://www.allure.com/story/best-of-beauty-2026-lips-winners"
-        },
-        {
-          "title": "These 2026 Allure Best of Beauty Award-Winning Makeup Tools Will Transform Your Beauty Routine",
-          "published": "Thu, 17 Sep 2026 11:00:00 +0000",
-          "url": "https://www.allure.com/story/best-of-beauty-2026-hair-tools-makeup-brushes"
         },
         {
           "title": "The 2026 Allure Best of Beauty Clean Beauty Winners Hit All the Right Marks",
@@ -323,19 +323,19 @@
           "url": "https://www.allure.com/story/best-of-beauty-2026-breakthrough-awards-winners"
         },
         {
-          "title": "The 2026 Allure Best of Beauty Award-Winning Steals Under $20",
+          "title": "The 2026 Best of Beauty-Winning Lip Products Will Transform Your Lip Combo",
           "published": "Thu, 17 Sep 2026 11:00:00 +0000",
-          "url": "https://www.allure.com/story/best-of-beauty-2026-drugstore-product-winners"
+          "url": "https://www.allure.com/story/best-of-beauty-2026-lips-winners"
         },
         {
-          "title": "The 2026 Allure Best of Beauty Splurges and Luxury Winners to Add to Your Shopping Wishlist",
+          "title": "These 2026 Allure Best of Beauty Award-Winning Makeup Tools Will Transform Your Beauty Routine",
           "published": "Thu, 17 Sep 2026 11:00:00 +0000",
-          "url": "https://www.allure.com/story/best-of-beauty-2026-luxury-makeup-skin-care-hair-winners"
+          "url": "https://www.allure.com/story/best-of-beauty-2026-hair-tools-makeup-brushes"
         },
         {
-          "title": "The 2026 Allure Best of Beauty Body Winners Will Elevate Your Body-Care Routine From Head to Toe",
+          "title": "The 2026 Allure Best of Beauty Nails Winners Are Show-Stoppers",
           "published": "Thu, 17 Sep 2026 11:00:00 +0000",
-          "url": "https://www.allure.com/story/best-of-beauty-2026-body-product-winners"
+          "url": "https://www.allure.com/story/best-of-beauty-2026-nail-product-winners"
         }
       ]
     },

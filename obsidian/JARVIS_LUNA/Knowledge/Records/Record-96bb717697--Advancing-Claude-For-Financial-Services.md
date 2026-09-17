@@ -2,7 +2,7 @@
 title: "Record 96bb717697 · Advancing-Claude-For-Financial-Services"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T17:02:02.222795+00:00
+updated_at: 2026-09-17T19:41:34.929746+00:00
 tags: [record, real-data]
 ---
 

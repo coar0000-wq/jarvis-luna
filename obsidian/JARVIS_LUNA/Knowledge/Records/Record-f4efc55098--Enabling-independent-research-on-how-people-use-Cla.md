@@ -2,7 +2,7 @@
 title: "Record f4efc55098 · Enabling-independent-research-on-how-people-use-Cla"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T17:02:02.239008+00:00
+updated_at: 2026-09-17T19:41:34.949718+00:00
 tags: [record, real-data]
 ---
 
@@ -10,13 +10,12 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [www.anthropic.com](https://www.anthropic.com/research/enabling-independent-research)
 
-**제목:** Enabling independent research on how people use Claude
+**제목:** Enabling Independent Research
 
-Enabling independent research on how people use Claude
-Earlier this year, we ran a pilot giving external researchers access to aggregate, real-world Claude usage data. Three research groups designed their own studies for Anthropic Insights, our privacy-preserving analysis tool. In this post, we share high-level results from those studies and what we learned running this pilot.
+Enabling Independent Research
 
 **출처:** Source · institutions
 
 ## Connected nodes
 
-[[Source--institutions]] [[LLM언어모델]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

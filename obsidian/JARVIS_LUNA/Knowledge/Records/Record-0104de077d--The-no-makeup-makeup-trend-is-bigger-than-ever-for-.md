@@ -2,7 +2,7 @@
 title: "Record 0104de077d · The-no-makeup-makeup-trend-is-bigger-than-ever-for-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T17:02:01.981341+00:00
+updated_at: 2026-09-17T19:41:34.645036+00:00
 tags: [record, real-data]
 ---
 
