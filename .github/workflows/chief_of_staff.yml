@@ -197,6 +197,36 @@ jobs:
           print("============================")
           PY
 
+      # ============================================================
+      # 산출물 재생성 순서 보강
+      #
+      # score/recommendations/dashboard를 갱신한 뒤에는
+      # 그 파생 산출물도 같은 실행에서 다시 만들어야 한다.
+      #
+      # 순서:
+      #   recommendations / score
+      #        ↓
+      #   market_team
+      #        ↓
+      #   Shopify S CSV
+      #        ↓
+      #   channel_candidates
+      #        ↓
+      #   dashboard_runtime
+      #
+      # build_artifact_graph.py 가 이 순서를 검사한다.
+      # ============================================================
+      - name: 점수 파생 산출물 재생성
+        shell: bash
+        run: |
+          python -u scripts/build_market_team.py
+          python -u scripts/daiso/export_shopify_s_csv.py
+
+      - name: 채널 후보 재생성
+        shell: bash
+        run: |
+          python -u scripts/discover_channels.py
+
       - name: 대시보드 최종 생성
         shell: bash
         run: |
@@ -274,11 +304,17 @@ jobs:
             data/daiso_real/excluded_products.json
             data/daiso_real/shopify_demand_score.json
             data/daiso_real/shopify_s_recommendations.json
+            data/daiso_real/shopify_s_products_import.csv
+            data/daiso_real/last_commit_summary.json
+            data/channel_candidates.json
+            data/market_team.json
+            data/marketing_priority.csv
+            data/dashboard_runtime.json
             data/agents/ops_plan.json
             data/agents/last_run.json
             data/agents/collector_audit.json
             data/agents/signal_audit.json
-          message: 참모장 · 등록 게이트 및 에이전트 산출물 갱신
+          message: 참모장 · 등록 게이트 및 파생 산출물 갱신
           regenerate-dashboard: 'true'
           audit: 'true'
 
