@@ -1,0 +1,21 @@
+{
+  "ALLOWED_CATEGORIES": [
+    "serum",
+    "ampoule",
+    "essence",
+    "toner",
+    "cream",
+    "mask",
+    "cleanser",
+    "suncare",
+    "lotion",
+    "oil"
+  ],
+  "BLOCKED_IF_NO_EVIDENCE": true,
+  "SECONDARY_TAG_CHECK": [
+    "beauty",
+    "k-beauty",
+    "skincare"
+  ],
+  "NOTE": "beauty 태그는 보조 조건, category가 1순위"
+}
