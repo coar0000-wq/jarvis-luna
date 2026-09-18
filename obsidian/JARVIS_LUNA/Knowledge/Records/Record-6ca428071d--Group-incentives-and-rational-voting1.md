@@ -2,7 +2,7 @@
 title: "Record 6ca428071d · Group-incentives-and-rational-voting1"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T16:26:14.798291+00:00
+updated_at: 2026-09-18T19:00:30.597596+00:00
 tags: [record, real-data]
 ---
 

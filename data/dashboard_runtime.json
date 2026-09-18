@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T03:13:10.501625+09:00",
+  "generated_at": "2026-09-19T04:00:36.261612+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
@@ -18,8 +18,8 @@
     {
       "id": "institutions",
       "name": "기관 수집팀",
-      "when": "2026-09-18T14:06:36.521786+00:00",
-      "summary": "35곳 1,063건 · 미수집 12건 사유 기록 · 새 자료 261건",
+      "when": "2026-09-18T18:53:00.412735+00:00",
+      "summary": "35곳 1,063건 · 미수집 12건 사유 기록 · 새 자료 264건",
       "action": null,
       "status": "ok",
       "phase": "now",
@@ -30,7 +30,7 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-09-19T03:11:55.698067+09:00",
+      "when": "2026-09-19T03:49:43.501968+09:00",
       "summary": "S등급 10개 · 고시표 입력 대기 1건 · 새 자료 40건",
       "action": "고시 표 1건 필요 — 1072554 [탄력리프팅]본셉 레티놀 탄력샷  https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072554",
       "status": "ok",
@@ -42,7 +42,7 @@
     {
       "id": "listing",
       "name": "리스팅 제작팀",
-      "when": "2026-09-18T14:12:26.815604+00:00",
+      "when": "2026-09-18T18:58:54.385317+00:00",
       "summary": "등록 가능 7/10 · 카피 8 · 고시 9 · 가격 10 · 법률 9",
       "action": "카피 2건, 고시 1건, us_label 1건 이 막고 있음",
       "status": "ok",
@@ -54,8 +54,8 @@
     {
       "id": "pricing",
       "name": "가격 정책팀",
-      "when": "2026-09-18T14:12:26.618342+00:00",
-      "summary": "개당 배송비 $6.06~$7.51 · 무게 43~264g (고시용량 10) · DDU/DDP 4개 · 새 자료 6건",
+      "when": "2026-09-18T18:58:54.215314+00:00",
+      "summary": "개당 배송비 $6.06~$7.51 · 무게 43~264g (고시용량 10) · DDU/DDP 4개 · 새 자료 5건",
       "action": null,
       "status": "ok",
       "phase": "ready",
@@ -66,8 +66,8 @@
     {
       "id": "legal",
       "name": "법률·규제팀",
-      "when": "2026-09-18T14:12:26.769071+00:00",
-      "summary": "자동 점검 10건 · 통과 0 · 등록 차단 1 · 참고 주의 10 · 수출서류 HS 10건 · 라벨 3/6항목 자동 · 새 자료 16건",
+      "when": "2026-09-18T18:58:54.345696+00:00",
+      "summary": "자동 점검 10건 · 통과 0 · 등록 차단 1 · 참고 주의 10 · 수출서류 HS 10건 · 라벨 3/6항목 자동 · 새 자료 18건",
       "action": "차단 1건: [탄력리프팅]본셉 레티놀 탄력(자동 점검 미통과: lab) — 라벨 갖추기 전엔 못 올림",
       "status": "ok",
       "phase": "ready",
@@ -78,7 +78,7 @@
     {
       "id": "robotics",
       "name": "로보틱스 수집",
-      "when": "2026-09-18T14:05:21.481419+00:00",
+      "when": "2026-09-18T18:51:37.044825+00:00",
       "summary": "40건 · arxiv 0 / rss 40 · 새 자료 24건",
       "action": null,
       "status": "ok",
@@ -90,8 +90,8 @@
     {
       "id": "design",
       "name": "디자인팀",
-      "when": "2026-09-18T14:06:45.180429+00:00",
-      "summary": "스토어 2/12단계 · 레퍼런스 85건 · 폰트 1946개(한글 38) · 팔레트 13색조 · 디자인 기사 60건 · 영상 35건 · 새 자료 98건",
+      "when": "2026-09-18T18:53:09.400056+00:00",
+      "summary": "스토어 2/12단계 · 레퍼런스 85건 · 폰트 1946개(한글 38) · 팔레트 13색조 · 디자인 기사 60건 · 영상 35건 · 새 자료 95건",
       "action": "다음 단계: Shopify 스토어 개설 및 기본 설정",
       "status": "ok",
       "phase": "ready",
@@ -102,7 +102,7 @@
     {
       "id": "channels",
       "name": "채널 운영팀",
-      "when": "2026-09-18T14:12:44.879578+00:00",
+      "when": "2026-09-18T18:59:13.060134+00:00",
       "summary": "가동 11/12채널 · 수동 입력 32건 · 후보 7건 검사, 미연동 0건",
       "action": null,
       "status": "ok",
@@ -114,7 +114,7 @@
     {
       "id": "knowledge",
       "name": "지식 수집팀",
-      "when": "2026-09-18T16:25:54.357914+00:00",
+      "when": "2026-09-18T18:53:34.573655+00:00",
       "summary": "537건 · arXiv 50 / 유기농스킨 30 / Google 300 / US뷰티 157",
       "action": null,
       "status": "ok",
@@ -126,8 +126,8 @@
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-09-19T03:11:58.891651+09:00",
-      "summary": "81,782노트 · 328,621링크 · 끊어진 링크 0건 · 개인 노트 16건 별도",
+      "when": "2026-09-19T04:00:31.161870+09:00",
+      "summary": "81,792노트 · 328,765링크 · 끊어진 링크 0건 · 개인 노트 16건 별도",
       "action": null,
       "status": "ok",
       "phase": "now",
@@ -140,46 +140,46 @@
     "id": "secretary",
     "name": "비서실장",
     "badge": "총괄",
-    "when": "2026-09-19T03:11:55.675219+09:00",
+    "when": "2026-09-19T03:49:43.478969+09:00",
     "summary": "30분 주기 · 고시 24건 · US라벨 24건 · 카피 10건 · 등록 가능 7건 · 법률 차단 1건",
-    "action": "멈춘 단계 고시 수집, 리스팅 카피, 등록 게이트 외 1개 — 2시간 넘게 산출물이 안 바뀌었다",
+    "action": "멈춘 단계 고시 수집, 리스팅 카피 — 2시간 넘게 산출물이 안 바뀌었다",
     "status": "failed",
     "steps": [
       {
         "단계": "고시 수집",
         "산출물": "gosi.json",
         "갱신": "2026-09-13T07:50:40.431569+00:00",
-        "몇시간전": 130.4
+        "몇시간전": 131.2
       },
       {
         "단계": "고시 비전 추출",
         "산출물": "gosi.json",
-        "갱신": "2026-09-19T03:11:55.675219+09:00",
-        "몇시간전": 0.0
+        "갱신": "2026-09-19T03:49:43.478969+09:00",
+        "몇시간전": 0.2
       },
       {
         "단계": "US 라벨 동기화",
         "산출물": "daiso_us_labels.json",
-        "갱신": "2026-09-19T03:11:55.136216+09:00",
-        "몇시간전": 0.0
+        "갱신": "2026-09-19T03:49:42.859996+09:00",
+        "몇시간전": 0.2
       },
       {
         "단계": "리스팅 카피",
         "산출물": "shopify_listing_copy.json",
         "갱신": "2026-09-18T01:04:52.792027+00:00",
-        "몇시간전": 17.1
+        "몇시간전": 17.9
       },
       {
         "단계": "등록 게이트",
         "산출물": "listing_gate.json",
-        "갱신": "2026-09-18T14:12:26.815604+00:00",
-        "몇시간전": 4.0
+        "갱신": "2026-09-18T18:58:54.385317+00:00",
+        "몇시간전": 0.0
       },
       {
         "단계": "법률 점검",
         "산출물": "legal_products.json",
-        "갱신": "2026-09-18T14:12:26.769071+00:00",
-        "몇시간전": 4.0
+        "갱신": "2026-09-18T18:58:54.345696+00:00",
+        "몇시간전": 0.0
       }
     ],
     "_근거": "chief_of_staff.yml 이 30분마다 부르는 스크립트들의 산출물 갱신 시각을 읽는다. 돌았다는 말이 아니라 결과가 바뀌었는지를 본다. chief_of_staff.py 파일은 어느 워크플로도 부르지 않는 고아라서 근거로 쓰지 않는다."
@@ -213,7 +213,7 @@
     }
   },
   "errors": {
-    "generated_at": "2026-09-18T14:13:36.716212+00:00",
+    "generated_at": "2026-09-18T19:00:05.495866+00:00",
     "total": 35,
     "counts": {
       "고장": 5,
@@ -303,7 +303,7 @@
     ]
   },
   "team_summary": {
-    "corpus_records": 3785,
+    "corpus_records": 3795,
     "pipeline_done": 5,
     "pipeline_total": 5
   },
@@ -312,13 +312,13 @@
       "id": "collect",
       "title": "실제 데이터 수집",
       "status": "completed",
-      "detail": "3785개 코퍼스 레코드"
+      "detail": "3795개 코퍼스 레코드"
     },
     {
       "id": "graph",
       "title": "Obsidian 그래프 반영·검증",
       "status": "completed",
-      "detail": "81782개 노트 · 328621개 링크 · 끊어진 링크 0개 · 개인 노트 16개 별도"
+      "detail": "81792개 노트 · 328765개 링크 · 끊어진 링크 0개 · 개인 노트 16개 별도"
     },
     {
       "id": "dashboard",
@@ -330,7 +330,7 @@
       "id": "train",
       "title": "실제 데이터 MoE 학습",
       "status": "completed",
-      "detail": "3785건 · 3 experts · 정확도 88.32%"
+      "detail": "3795건 · 3 experts · 정확도 88.33%"
     },
     {
       "id": "publish",
@@ -341,49 +341,49 @@
   ],
   "sources": {
     "status": "completed",
-    "record_count": 3785,
+    "record_count": 3795,
     "source_counts": {},
-    "updated_at": "2026-09-19T03:11:55.690219+09:00"
+    "updated_at": "2026-09-19T03:53:34.586335+09:00"
   },
   "graph": {
-    "notes": 81782,
-    "links": 328621,
+    "notes": 81792,
+    "links": 328765,
     "dangling_links": 0,
     "dangling_personal": 16,
     "dangling_personal_note": "사용자가 직접 넣은 Personal 노트의 내부 링크. 원본 볼트에서 일부만 가져와 대상 노트가 없는 것으로, 파이프라인 오류가 아니다.",
     "dangling_warn_threshold": 300,
-    "records": 80943,
+    "records": 80953,
     "sources": 7,
     "topics": 28,
     "orgs": 35,
     "audit": "passed",
-    "last_generated": "2026-09-19T03:11:58.891651+09:00"
+    "last_generated": "2026-09-19T04:00:31.161870+09:00"
   },
   "training": {
     "status": "completed",
     "training_performed": true,
     "weights_updated": true,
-    "records": 3785,
+    "records": 3795,
     "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
     "experts": 3,
-    "accuracy": 0.883223249669749,
-    "validation_accuracy": 0.8945908460471568,
-    "final_loss": 0.4133388516928836,
-    "gate_load_std": 0.11183298755849445,
+    "accuracy": 0.8832674571805007,
+    "validation_accuracy": 0.8950276243093923,
+    "final_loss": 0.4136548731251541,
+    "gate_load_std": 0.11131513473232488,
     "tuning_promoted": true,
     "tuning_steps": 500,
-    "updated_at": "2026-09-18T16:27:49.439167+00:00"
+    "updated_at": "2026-09-18T18:58:16.120142+00:00"
   },
   "cumulative": {
     "totals": {
-      "records": 3785,
-      "notes": 82370,
-      "links": 347689
+      "records": 3795,
+      "notes": 82380,
+      "links": 347833
     },
     "prior_totals": {
-      "records": 3785,
-      "notes": 82370,
-      "links": 347689
+      "records": 3795,
+      "notes": 82380,
+      "links": 347833
     },
     "added_this_run": {
       "records": 0,
@@ -391,9 +391,9 @@
       "links": 0
     },
     "current_snapshot": {
-      "records": 3785,
-      "notes": 81782,
-      "links": 328621
+      "records": 3795,
+      "notes": 81792,
+      "links": 328765
     },
     "since": "2026-08-23T05:21:53.378147+00:00",
     "runs_recorded": 90
@@ -770,7 +770,7 @@
         "badge": "$12.00",
         "rank": 1,
         "rating": 4.8,
-        "review_count": 12019,
+        "review_count": 12020,
         "url": "https://us.oliveyoung.com/products/UA29855490"
       },
       {
@@ -902,11 +902,25 @@
     ],
     "google_trends_us": [
       {
-        "keyword": "From Skin Patches to Haircare, These Are the K-Beauty Products That Are Actually Popular in Korea - WWD",
-        "product": "From Skin Patches to Haircare, These Are the K-Beauty Products That Are Actually Popular in Korea - WWD",
+        "keyword": "This Viral K-Beauty Moisturizer Gave Me My Glow Back - Coveteur",
+        "product": "This Viral K-Beauty Moisturizer Gave Me My Glow Back - Coveteur",
         "sub": "K-beauty",
         "badge": "news",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTWhmVlpqOU5iUWRfT2x1V0Y0cmVlMVNQZElYaFQyUEpHQmRDZUJNdkNFMy03WUptY0ZfMXJubWJramM4dUFSZXl1SDR5QUl2UE0xeVNqbHl5X3RQUXZfV3Q1am1QcDN6UFRVbkdYN2dEUHo0Z3pKT3dMZ0tFNlNaUXE5TzZjTjJfNnlJTnVBUjdvTlBkNmRHTVFyanZZa2YwcDhEdQ?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1lMW1VRnVJQk1yMnVKTDVJQzRtYlU4WHJSd3dta0c0QXV5MXBWV01pMExrc0kzRTRVLVd0NzdnZlF1dmppbFQ2TUprX1JJOUdFT0lpWE5jdF9lZXQweHdJanBtcw?oc=5"
+      },
+      {
+        "keyword": "Kendall Jenner says this $22 K-beauty cream makes her skin ‘hydrated and plump’ - Page Six",
+        "product": "Kendall Jenner says this $22 K-beauty cream makes her skin ‘hydrated and plump’ - Page Six",
+        "sub": "K-beauty",
+        "badge": "news",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNmlmOFIySUJfMXJNM1JTaHRPSDBRbExoSjBsN2pxZGRVMlFaSHpvMnY0RWUtS0Ytb2Q2YVBlWWFHTS1DWTNWQlV4NHJBVHNSWXE3azR1Y2VEZ0lGWVhrYldNZHdqbzlhREMxZzFYUXNRLWt4NXJiOGpMMTBoSm1teTBXcnZPaXhjSURoNkVZRkVsSllPRXFldWtJZGtYZF9MOUM3NA?oc=5"
+      },
+      {
+        "keyword": "K-Beauty Isn’t Just For Gen Z. These Korean Skin Care Picks Are Made For Mature Skin - huffpost.com",
+        "product": "K-Beauty Isn’t Just For Gen Z. These Korean Skin Care Picks Are Made For Mature Skin - huffpost.com",
+        "sub": "K-beauty",
+        "badge": "news",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRURKYS1ZekRkbWVwN2g1TTFWd3VkUmtReXFsVFFlbEFlR0cxTXFXd2k5Zkw5WGM0TmRWc0tSS21fWjROdHZMYVI2S3pqOF90QnJNQ242blFzLTNFd0V1NlhQQ1h5UkFYZS1qQ21RQnN0bW5oenpibURlTi1XVmE2R255Mm5Ga0NEUEwyVEhhUzk1LVhKeEVXbm14NNIBoAFBVV95cUxOWVE3UVVwRWxaYWpnVDgxUHdiWUF1YzVsMkJZVFpJZGlOOEpCdXNxX1hjWGJfY0MtelJjZkREVzhMX2VZdkVDd1hJVWdYcHRHenU2Ylh5Z25kN2lGWm5WZTJTeWthWldFbndJTjNYODdlV0FqaFpnYXVFQ0hlU1NSSjhONXZtQmloUndlT3FrVW1tSEV4b3FPNHEycWI3VjZj?oc=5"
       },
       {
         "keyword": "BTS Jin Spotlights Laneige's First-Ever Eye Patches - Hypebae",
@@ -916,27 +930,6 @@
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZ0VycnA1WG5mZ0JFMFAwcW81SXN5ZkpKOVpJQkdOb0JfWGY3Z3BMLWlfQXg1MGRkZmdvU00xZlRucGRBTzhJcTdMVi1idWhOblpiYzhCbEw0UkRPQXdZOWhoSWZhRmtLYnpsTFVZcGs3ZE1pekNNTnR0RVJSRE84VzhkUmRFaTd3RkJTaERQdGwtNFBhQ0RxSnJPbWpZZzcwRFZ5MkhqTzQ?oc=5"
       },
       {
-        "keyword": "Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - HS Insider",
-        "product": "Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - HS Insider",
-        "sub": "K-beauty",
-        "badge": "news",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPc2g3NThETVhLa3FISG94RmRGSURCVlJ6aGNHUWZleXJHS0VfTUd0ZEZJUzduRVpjSGxTcGRKNlhKeXVCVHpMTmpFWjBPcHdzYkIyeG1lcHJXeVV6cHFPZXl5UFdnUkpRNDVRLXFjZTFtNmpmYThKdmVveTBTM0ZsN1lBNjJyRE9UVmZReGlaeG54Mko1ZDItRlFoUXZKc1BRcmwzSnR3RGVpTjRzbVVTcDI4dw?oc=5"
-      },
-      {
-        "keyword": "K-Beauty Isn’t Just For Gen Z. These Korean Skin Care Picks Are Made For Mature Skin - HuffPost",
-        "product": "K-Beauty Isn’t Just For Gen Z. These Korean Skin Care Picks Are Made For Mature Skin - HuffPost",
-        "sub": "K-beauty",
-        "badge": "news",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRURKYS1ZekRkbWVwN2g1TTFWd3VkUmtReXFsVFFlbEFlR0cxTXFXd2k5Zkw5WGM0TmRWc0tSS21fWjROdHZMYVI2S3pqOF90QnJNQ242blFzLTNFd0V1NlhQQ1h5UkFYZS1qQ21RQnN0bW5oenpibURlTi1XVmE2R255Mm5Ga0NEUEwyVEhhUzk1LVhKeEVXbm14NNIBoAFBVV95cUxOWVE3UVVwRWxaYWpnVDgxUHdiWUF1YzVsMkJZVFpJZGlOOEpCdXNxX1hjWGJfY0MtelJjZkREVzhMX2VZdkVDd1hJVWdYcHRHenU2Ylh5Z25kN2lGWm5WZTJTeWthWldFbndJTjNYODdlV0FqaFpnYXVFQ0hlU1NSSjhONXZtQmloUndlT3FrVW1tSEV4b3FPNHEycWI3VjZj?oc=5"
-      },
-      {
-        "keyword": "Laneige taps BTS star Jin for spicule-powered eye patch launch campaign - cosmeticsbusiness.com",
-        "product": "Laneige taps BTS star Jin for spicule-powered eye patch launch campaign - cosmeticsbusiness.com",
-        "sub": "K-beauty",
-        "badge": "news",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRExmWjQ5NFRBeFVqZjVKSF9XZ3E1a2FXUU41WnM0V2JyMTY1Rng2UkVFcWxXbk5aSFlrWmV6MnhCd1dJcUVsTF8wbmpDX1ozYkxJMzktSTUtSjdYdXJTdlV2c05JLTdqN2JQeHA1T25nOXMyMEZwSEcyQ1AxaVVSMG5xNmdZbHB5c1ZXUTZsR25CQQ?oc=5"
-      },
-      {
         "keyword": "K-beauty’s counterfeit economy tests brand and platform controls - Personal Care Insights",
         "product": "K-beauty’s counterfeit economy tests brand and platform controls - Personal Care Insights",
         "sub": "K-beauty",
@@ -944,18 +937,25 @@
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQa1ZVcXY5d3JlR1NFRUZMMFhEUXp5ZnlIbG9pQkM1YWJmd2pSNFh6a0NGZ2ZuV2ZIa0JzaVBoTExnVnQ0a2ZQT1dwbUpwWUswV2NwRVhwWDJCazlpU2FXaXVxZnB0X1RVTWRlNlZpeGp2WDctRkVQendRVC0xNTE3alJlemFfQWoyUXZkUlhB?oc=5"
       },
       {
-        "keyword": "Kendall Jenner’s K-Beauty Routine Is on Sale—Here’s Where to Find It - E! Online",
-        "product": "Kendall Jenner’s K-Beauty Routine Is on Sale—Here’s Where to Find It - E! Online",
+        "keyword": "Laneige taps BTS star Jin for spicule-powered eye patch launch campaign - Cosmetics Business",
+        "product": "Laneige taps BTS star Jin for spicule-powered eye patch launch campaign - Cosmetics Business",
+        "sub": "K-beauty",
+        "badge": "news",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRExmWjQ5NFRBeFVqZjVKSF9XZ3E1a2FXUU41WnM0V2JyMTY1Rng2UkVFcWxXbk5aSFlrWmV6MnhCd1dJcUVsTF8wbmpDX1ozYkxJMzktSTUtSjdYdXJTdlV2c05JLTdqN2JQeHA1T25nOXMyMEZwSEcyQ1AxaVVSMG5xNmdZbHB5c1ZXUTZsR25CQQ?oc=5"
+      },
+      {
+        "keyword": "Kendall Jenner’s K-Beauty Routine Is on Sale—Here’s Where to Find It - eonline.com",
+        "product": "Kendall Jenner’s K-Beauty Routine Is on Sale—Here’s Where to Find It - eonline.com",
         "sub": "K-beauty",
         "badge": "news",
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeWNLNGFuSHl0X18yb1hMVUlQR0xQLUJoSWlsLV9WWktSTTNGajB4R2h1RlQ2Wno3Mi1BQ2c1X0NqSUxRZWpzMzNmRHdvZ2dYTmYyR3JJaTNxb3N5bU1MSzBsaE5OMHpSX1hiUUtMMDNHV1JRdFlqWmxueGNmbGFtU1J0UTZhaVNrVmYyV3NB?oc=5"
       },
       {
-        "keyword": "You Know K-Beauty, J-Beauty, Now Get Ready for A-Beauty!! - KTLA",
-        "product": "You Know K-Beauty, J-Beauty, Now Get Ready for A-Beauty!! - KTLA",
+        "keyword": "Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - HS Insider",
+        "product": "Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - HS Insider",
         "sub": "K-beauty",
         "badge": "news",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUFNVenlfcmNtZUg4bk9BVnFwVmlFOTNQQlJVdVdhSlNNNlNoX3BvYzFpbHRaN0J0NTRDeEJTTFpVU1ZwUlREM0hCRnl5bVpRODJDR0Zydklabng4QlJYMXk3amEwc2FXcDNuemprSUlYOHlNSy1RbzgyM3hIT3F5ZV9ZMWtaa0pISDktYzBWaw?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPc2g3NThETVhLa3FISG94RmRGSURCVlJ6aGNHUWZleXJHS0VfTUd0ZEZJUzduRVpjSGxTcGRKNlhKeXVCVHpMTmpFWjBPcHdzYkIyeG1lcHJXeVV6cHFPZXl5UFdnUkpRNDVRLXFjZTFtNmpmYThKdmVveTBTM0ZsN1lBNjJyRE9UVmZReGlaeG54Mko1ZDItRlFoUXZKc1BRcmwzSnR3RGVpTjRzbVVTcDI4dw?oc=5"
       },
       {
         "keyword": "US and Korean sunscreens are not created equal, study says - WTOP News",
@@ -979,8 +979,8 @@
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZHBXQzBDZ2dGRHdEeXdtSXk5NkpMbW5vZzYzdGVWWVk1RllId3RCaUtPVnRIUVVEME84QmUzYTRBcGt5SE9rd3VpU0NZcWhBak1tMjVNR2lPd050RUdwaUJQbHB6TU81UDVmejBkVElrcnFKdnY1UHZ6SjVOMmtCNjNod3AtYm5Qb3c?oc=5"
       },
       {
-        "keyword": "Is Korean sunscreen worth the hype? - wafb.com",
-        "product": "Is Korean sunscreen worth the hype? - wafb.com",
+        "keyword": "Is Korean sunscreen worth the hype? - WAFB",
+        "product": "Is Korean sunscreen worth the hype? - WAFB",
         "sub": "Korean sunscreen",
         "badge": "news",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBjenlzd2RLQUd1RWtfc0V4dlZIeldiM3FfOTJ4S08wdmplNUdTVUZrUXhrU25oOVpTeVFPSGgxYXpBNWpIbTVQSlRHQlV6MW4wVkNHTzhSQlYtSmJrQmQ1bkRCc3dMOUF0OUpyZlRNQnhvMXdmMFprTQ?oc=5"
@@ -1000,11 +1000,11 @@
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMHhPYk45c2xzWEw3Mmx2akplQWJZS1F1SnJSbnZJV3RmV0hLTktMUnl4cDBQak5jdDQ0LWlUWWtGODZSbkFfU0Q3MDZ0S0FtVFNDSjUyaldtU0l6WjhiZXpjN1MxVjdRNGVXeEUyZkNqY29aeXBqckFYYWxTYkF4TkpFVUFsZjFRMk9EU1N3?oc=5"
       },
       {
-        "keyword": "Same brand, different SPF: Why Korean sunscreens outperform US versions - koreatimes.co.kr",
-        "product": "Same brand, different SPF: Why Korean sunscreens outperform US versions - koreatimes.co.kr",
+        "keyword": "What’s So Special About Korean Sunscreens? - Vogue",
+        "product": "What’s So Special About Korean Sunscreens? - Vogue",
         "sub": "Korean sunscreen",
         "badge": "news",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdXEyV1k2UDNvY01GVEFoVE01MldFRjlqaGlJY3kzRjliamkxcEV3aXFJeS1WRDJpbzI2OGVfTDFoTGR3Ny0tUkNRMXJ0RmJvRktpM2FDN0h4aE1uSHItVVNMWFNycnM1aDR4NW1TUVVQdjRhTmNIUXQxUmlVM253Z2NCNmIwbW9xVHJFLWd0R0tyZ2k4TWtqTzFoeDJUNDE5ZVpfeUZHNWtqNjVsOEhQRjUzSlZ0LTNN0gG-AUFVX3lxTE9teTR0RHBndWpfVGJ2OElRU1NCVDNSaVdZTjcwLWZpcU9ubEJma1FEeU9SbFRmc0hWd3hCTUhoUjlsb05Sek53VlI3RVF4dTI0MlFYRXpScmw4bFM1WVpjVEpnSFMtUllTWm9xYkxkbXVIM2RUaHQ3UlpXcGZJTHMxYkQ4aUlBdmFxQllQZF9YbG9yYVk5ay0yTUlVYTBjS3dZTnlkdzVLRzQxMGkzM0FzOERMOEo3d1RDOURmUnc?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5TcVJKY3REazZWUHNSNzFzcGREMWdTYkJqUkVoUjdManZWeXZDcE5FSmxVNUFkaWpyRm9sY1lwVTJldE1fQS1rWGI4VEdYd196a3FIUlRqay1rR1k?oc=5"
       }
     ],
     "wikipedia_interest": [
@@ -1066,6 +1066,18 @@
       }
     ],
     "allure_media": [
+      {
+        "product": "Selena Gomez Has Me Seriously Reconsidering the Middle Part—See the Photos",
+        "sub": "Fri, 18 Sep 2026",
+        "badge": "18 Sep",
+        "url": "https://www.allure.com/story/selena-gomez-middle-part-long-hair"
+      },
+      {
+        "product": "10 Best Concealers for Dry Skin That Don’t Cake, Crack, or Crease",
+        "sub": "Fri, 18 Sep 2026",
+        "badge": "18 Sep",
+        "url": "https://www.allure.com/story/concealer-for-dry-skin"
+      },
       {
         "product": "Why Curtain Bangs Look Amazing on Everyone",
         "sub": "Thu, 17 Sep 2026",
@@ -1143,18 +1155,6 @@
         "sub": "Thu, 17 Sep 2026",
         "badge": "17 Sep",
         "url": "https://www.allure.com/best-of-beauty-2026-winners/body"
-      },
-      {
-        "product": "Allure Best of Beauty 2026 Clean Winning Products",
-        "sub": "Thu, 17 Sep 2026",
-        "badge": "17 Sep",
-        "url": "https://www.allure.com/best-of-beauty-2026-winners/clean"
-      },
-      {
-        "product": "Shop the 2026 Allure Best of Beauty Fragrance Winning Products",
-        "sub": "Thu, 17 Sep 2026",
-        "badge": "17 Sep",
-        "url": "https://www.allure.com/best-of-beauty-2026-winners/scent"
       }
     ],
     "openfda_sunscreen": [
@@ -1635,7 +1635,7 @@
       "collected_at": "2026-09-17T23:04:01.019482+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 19.2,
+      "age_hours": 19.9,
       "stale": false
     },
     "walmart_beauty": {
@@ -1645,60 +1645,60 @@
       "collected_at": "2026-09-17T23:04:01.020454+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 19.2,
+      "age_hours": 19.9,
       "stale": false
     },
     "oliveyoung_us": {
       "status": "ok",
       "source": "us.oliveyoung.com/best-sellers 실수집",
       "reason": "",
-      "collected_at": "2026-09-18T14:07:30.711698+00:00",
+      "collected_at": "2026-09-18T18:53:55.734840+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 4.1,
+      "age_hours": 0.1,
       "stale": false
     },
     "google_trends_us": {
       "status": "ok",
       "source": "google news rss (beauty queries) + trends daily filtered",
       "reason": "",
-      "collected_at": "2026-09-18T14:08:18.614452+00:00",
+      "collected_at": "2026-09-18T18:54:36.066155+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 4.1,
+      "age_hours": 0.1,
       "stale": false
     },
     "wikipedia_interest": {
       "status": "ok",
       "source": "wikimedia.org REST pageviews API (공식)",
       "reason": "",
-      "collected_at": "2026-09-18T08:50:12.038082+00:00",
+      "collected_at": "2026-09-18T14:12:25.475047+00:00",
       "count": 8,
       "trust": "verified",
       "note": "2026-08-18 ~ 2026-09-16 일별 조회수. 후반 15일 대비 전반 15일 증감률",
-      "age_hours": 9.4,
+      "age_hours": 4.8,
       "stale": false
     },
     "allure_media": {
       "status": "ok",
       "source": "allure.com/feed/rss",
       "reason": "",
-      "collected_at": "2026-09-18T08:50:12.038082+00:00",
+      "collected_at": "2026-09-18T14:12:25.475047+00:00",
       "count": 15,
       "trust": "verified",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
-      "age_hours": 9.4,
+      "age_hours": 4.8,
       "stale": false
     },
     "openfda_sunscreen": {
       "status": "ok",
       "source": "api.fda.gov/drug/label (openFDA 공식)",
       "reason": "",
-      "collected_at": "2026-09-18T08:50:12.038082+00:00",
+      "collected_at": "2026-09-18T14:12:25.475047+00:00",
       "count": 15,
       "trust": "verified",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다.",
-      "age_hours": 9.4,
+      "age_hours": 4.8,
       "stale": false
     },
     "shopify_demand_matching": {
@@ -1724,7 +1724,7 @@
       "collected_at": "2026-09-17T23:04:01.021121+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 19.2,
+      "age_hours": 19.9,
       "stale": false
     },
     "sephora": {
@@ -1734,17 +1734,17 @@
       "collected_at": "2026-09-17T23:04:01.021121+00:00",
       "count": 14,
       "trust": "verified",
-      "age_hours": 19.2,
+      "age_hours": 19.9,
       "stale": false
     },
     "open_beauty_facts": {
       "status": "ok",
       "source": "world.openbeautyfacts.org /api/v2 (오픈데이터)",
       "reason": "",
-      "collected_at": "2026-09-18T14:07:29.948242+00:00",
+      "collected_at": "2026-09-18T18:53:55.044972+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 4.1,
+      "age_hours": 0.1,
       "stale": false
     }
   },
@@ -1752,7 +1752,7 @@
     "rate": 1380.5,
     "as_of": "2026-09-18",
     "source": "https://open.er-api.com/v6/latest/USD",
-    "updated_at": "2026-09-18"
+    "updated_at": "2026-09-19"
   },
-  "last_synced": "09. 18. 오후 11:11 KST"
+  "last_synced": "09. 19. 오전 03:58 KST"
 }

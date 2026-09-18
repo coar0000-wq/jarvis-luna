@@ -2,7 +2,7 @@
 title: "Record e49fc2d01e · Second-Order-Smooth-Planning-with-Optimal-Transport"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T16:26:14.345390+00:00
+updated_at: 2026-09-18T19:00:30.235017+00:00
 tags: [record, real-data]
 ---
 

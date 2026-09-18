@@ -2,7 +2,7 @@
 title: "Record e5d051b639 · Icarus-Robotics-flies-ISS-bound-robot-in-microgravity-for-the-first-ti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T16:26:15.110537+00:00
+updated_at: 2026-09-18T19:00:30.719914+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** Icarus Robotics flies ISS-bound robot in microgravity for the first time
 
 Icarus Robotics flies ISS-bound robot in microgravity for the first time
-<p>This is the last major test of the system before Icarus Robotics will be sending Joy the the ISS in early 2027.</p> <p>The post <a href="https://www.therobotreport.com/icarus-robotics-flies-iss-bound-robot-in-microgravity-for-the-first-time/">Icarus Robotics flies ISS-bound robot in microgravity for the first time</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</
+<p>This is the last major test of the system before Icarus Robotics will be sending JOY the the ISS in early 2027.</p> <p>The post <a href="https://www.therobotreport.com/icarus-robotics-flies-iss-bound-robot-in-microgravity-for-the-first-time/">Icarus Robotics flies ISS-bound robot in microgravity for the first time</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</
 
 **출처:** Source · robotics
 

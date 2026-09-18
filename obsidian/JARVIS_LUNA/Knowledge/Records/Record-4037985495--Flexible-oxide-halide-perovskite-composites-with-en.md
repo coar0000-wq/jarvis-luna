@@ -2,7 +2,7 @@
 title: "Record 4037985495 · Flexible-oxide-halide-perovskite-composites-with-en"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T16:26:14.429934+00:00
+updated_at: 2026-09-18T19:00:30.301639+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 955583342e · REJURAN-Dual-Effect-Ampoule-101-fl-oz30ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T16:26:14.988721+00:00
+updated_at: 2026-09-18T19:00:30.628045+00:00
 tags: [record, real-data]
 ---
 

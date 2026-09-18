@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T14:12:44.879578+00:00",
+  "generated_at": "2026-09-18T18:59:13.060134+00:00",
   "generator": "scripts/discover_channels.py",
   "정책": "후보를 자동으로 등록하지 않는다. robots.txt 를 확인하고 실제로 호출해 본 뒤 진짜 데이터가 나오는 것만 제안한다. 붙일지 말지는 대화로 지시하면 자비스가 수집기를 만들어 연동한다. 이미 가동 중인 소스는 already_live 로 표시한다.",
   "판정기준": [
@@ -65,12 +65,12 @@
       "url": "https://www.allure.com/feed/rss",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 26590,
+      "bytes": 26063,
       "items": 30,
       "samples": [
-        "Selena Gomez Has Me Seriously Reconsidering the Middle Part—See the Photos",
-        "10 Best Concealers for Dry Skin That Don’t Cake, Crack, or Crease",
-        "Why Curtain Bangs Look Amazing on Everyone"
+        "Shop Top Hair, Skin Care, and Makeup Products and Tools, Vetted by Allure Experts",
+        "13 Best Skin Tints for Lightweight, Natural-Looking Coverage",
+        "Selena Gomez Has Me Seriously Reconsidering the Middle Part—See the Photos"
       ],
       "verdict": "가능",
       "reason": "30건 파싱 성공, 값이 서로 다름",
@@ -97,15 +97,15 @@
       "url": "https://trends.google.com/trending/rss?geo=US",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 20187,
-      "items": 38,
+      "bytes": 20839,
+      "items": 40,
       "samples": [
-        "amazon settlement",
-        "FTC Announces Additional Payments to Consumers Stemming from FTC’s Amazon Prime Settlement",
-        "Amazon Prime customers may be eligible to receive $200 as settlement grows"
+        "oswaldo cabrera",
+        "Schmidt activated after 14 1/2 months; Oswaldo Cabrera DFA'd",
+        "Yankees Player Set to Return After 151 Missed Games"
       ],
       "verdict": "가능",
-      "reason": "38건 파싱 성공, 값이 서로 다름",
+      "reason": "40건 파싱 성공, 값이 서로 다름",
       "already_live": true,
       "live_channel": "google_trends_us"
     },

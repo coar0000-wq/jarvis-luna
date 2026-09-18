@@ -2,7 +2,7 @@
 title: "Record 28deaa1fbb · 여드름-연고-발라도-소용없을-때-보세요"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T16:26:15.132774+00:00
+updated_at: 2026-09-18T19:00:30.737654+00:00
 tags: [record, real-data]
 ---
 

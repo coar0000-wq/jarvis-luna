@@ -2,7 +2,7 @@
 title: "Record 7f1d0764e6 · How-ByUR-Wins-in-the-Crowded-KBeauty-Market---US-Ch"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T16:26:14.686509+00:00
+updated_at: 2026-09-18T19:00:30.505503+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record cfe765a769 · Financial-Sponsors-Global-Credit-Markets"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T16:26:15.073126+00:00
+updated_at: 2026-09-18T19:00:30.692356+00:00
 tags: [record, real-data]
 ---
 

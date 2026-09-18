@@ -2,7 +2,7 @@
 title: "Record a5d4fbb4fa · AMD-Acquires-Taalas-to-Advance-Compute-Solutions-fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T16:26:14.573931+00:00
+updated_at: 2026-09-18T19:00:30.421473+00:00
 tags: [record, real-data]
 ---
 

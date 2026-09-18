@@ -2,7 +2,7 @@
 title: "Record a043a1b2df · K-beauty-Lands-At-Coles---supermarketnewsconz"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T16:26:14.637510+00:00
+updated_at: 2026-09-18T19:00:30.468548+00:00
 tags: [record, real-data]
 ---
 

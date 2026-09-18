@@ -2,7 +2,7 @@
 title: "Record a1b72811dd · 1Password-increases-engineering-productivity-21-wit"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T16:26:14.786970+00:00
+updated_at: 2026-09-18T19:00:30.588242+00:00
 tags: [record, real-data]
 ---
 

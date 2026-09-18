@@ -2,7 +2,7 @@
 title: "Record 1a7704a62e · MindTopo-reveals-VLMs-spatial-reasoning-abilities"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T16:26:15.080898+00:00
+updated_at: 2026-09-18T19:00:30.698266+00:00
 tags: [record, real-data]
 ---
 

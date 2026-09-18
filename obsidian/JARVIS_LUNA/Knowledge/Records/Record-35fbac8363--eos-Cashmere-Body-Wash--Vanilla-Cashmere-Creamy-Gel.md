@@ -2,7 +2,7 @@
 title: "Record 35fbac8363 · eos-Cashmere-Body-Wash--Vanilla-Cashmere-Creamy-Gel-with-Shea-Butter-1"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T16:26:15.030773+00:00
+updated_at: 2026-09-18T19:00:30.661037+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record cf91ead2ac · Employee-Stock-Purchase-Plans"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T16:26:15.068433+00:00
+updated_at: 2026-09-18T19:00:30.689059+00:00
 tags: [record, real-data]
 ---
 

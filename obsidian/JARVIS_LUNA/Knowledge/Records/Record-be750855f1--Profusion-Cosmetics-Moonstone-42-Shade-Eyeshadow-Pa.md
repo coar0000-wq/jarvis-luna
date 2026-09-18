@@ -2,7 +2,7 @@
 title: "Record be750855f1 · Profusion-Cosmetics-Moonstone-42-Shade-Eyeshadow-Pa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T16:26:15.121595+00:00
+updated_at: 2026-09-18T19:00:30.730804+00:00
 tags: [record, real-data]
 ---
 

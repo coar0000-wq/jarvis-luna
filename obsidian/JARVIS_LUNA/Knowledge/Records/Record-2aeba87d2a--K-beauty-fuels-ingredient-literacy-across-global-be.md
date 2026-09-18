@@ -2,7 +2,7 @@
 title: "Record 2aeba87d2a · K-beauty-fuels-ingredient-literacy-across-global-be"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T16:26:14.705071+00:00
+updated_at: 2026-09-18T19:00:30.524366+00:00
 tags: [record, real-data]
 ---
 

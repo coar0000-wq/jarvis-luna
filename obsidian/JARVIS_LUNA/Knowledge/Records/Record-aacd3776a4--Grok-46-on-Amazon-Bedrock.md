@@ -2,7 +2,7 @@
 title: "Record aacd3776a4 · Grok-46-on-Amazon-Bedrock"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T16:26:15.160383+00:00
+updated_at: 2026-09-18T19:00:30.757169+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [x.ai](https://x.ai/news/grok-4-6-amazon-bedrock)
 
-**제목:** Grok 4.6 on Amazon Bedrock
+**제목:** Grok 4 6 Amazon Bedrock
 
-Grok 4.6 on Amazon Bedrock
-Grok 4.6 is now available via Amazon Bedrock.
+Grok 4 6 Amazon Bedrock
 
 **출처:** Source · institutions
 

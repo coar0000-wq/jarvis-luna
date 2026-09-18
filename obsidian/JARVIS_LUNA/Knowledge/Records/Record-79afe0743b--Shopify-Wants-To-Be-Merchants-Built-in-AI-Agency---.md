@@ -2,7 +2,7 @@
 title: "Record 79afe0743b · Shopify-Wants-To-Be-Merchants-Built-in-AI-Agency---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T16:26:14.692984+00:00
+updated_at: 2026-09-18T19:00:30.511143+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVjFvRFlHS3ZPelZFemxCSEQ5bnplUWFBN0JEV25mQmR2SkNZSWxGVHlScmxJbjFka0NjOFZXSXNfQlEzQmtZS1U2aXZIWFVXdDhEUmhiR0VVNEZsd0E4Y3BYQ19oQTZfeXVxLVNOWGoxdHNaUjU2Z01jbENtanVXVUV3MFFBdHJr?oc=5)
 
-**제목:** Shopify Wants To Be Merchants' Built-in AI Agency - adweek.com
+**제목:** Shopify Wants To Be Merchants' Built-in AI Agency - ADWEEK
 
-Shopify Wants To Be Merchants' Built-in AI Agency - adweek.com
+Shopify Wants To Be Merchants' Built-in AI Agency - ADWEEK
 
 **출처:** Source · Google Search
 

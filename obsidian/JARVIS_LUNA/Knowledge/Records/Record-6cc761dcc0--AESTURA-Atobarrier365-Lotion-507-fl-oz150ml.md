@@ -2,7 +2,7 @@
 title: "Record 6cc761dcc0 · AESTURA-Atobarrier365-Lotion-507-fl-oz150ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T16:26:14.988141+00:00
+updated_at: 2026-09-18T19:00:30.627627+00:00
 tags: [record, real-data]
 ---
 
