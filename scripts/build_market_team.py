@@ -76,6 +76,13 @@ def load(p: Path, default=None):
         return default
 
 
+def load_cp_registry() -> dict:
+    """pd_no -> canonical_product_id. data/product_master.json 정본."""
+    doc = load(D / "product_master.json", {}) or {}
+    reg = doc.get("pd_no_to_cp") or {}
+    return {str(k): str(v) for k, v in reg.items()}
+
+
 # "korean face cream" 이 "MEDIHEAL Face Mask" 에 걸리면 안 된다.
 # 아래 단어는 변별력이 없어 매칭에서 제외한다.
 GENERIC = {"korean", "korea", "face", "skin", "beauty", "care", "the", "and",
@@ -90,8 +97,9 @@ def keytokens(s: str) -> set[str]:
     return norm(s) - GENERIC
 
 
-def build_s_priority(srec, detail, pricing, copies):
+def build_s_priority(srec, detail, pricing, copies, cp_registry=None):
     """S등급 우선순위. 점수·가격·광고 키워드를 한 줄에 묶는다."""
+    cp_registry = cp_registry or {}
     price5 = {str(r["pd_no"]): r for r in
               (pricing.get("scenarios") or {}).get("5개_묶음배송", [])}
     copy_by = {str(c["pd_no"]): c for c in (copies.get("items") or []) if c.get("copy")}
@@ -104,6 +112,7 @@ def build_s_priority(srec, detail, pricing, copies):
         d = detail.get(pid) or {}
         pr = price5.get(pid)
         c = copy_by.get(pid)
+        cp = p.get("canonical_product_id") or cp_registry.get(pid)
 
         margin = None
         if pr and sell:
@@ -112,6 +121,7 @@ def build_s_priority(srec, detail, pricing, copies):
 
         rows.append({
             "rank": i,
+            "canonical_product_id": cp,
             "pd_no": p.get("pd_no"),
             "name": p.get("name"),
             "name_en": (c or {}).get("copy", {}).get("title") if c else None,
@@ -147,10 +157,13 @@ def build_keyword_board(s_rows, oy_products):
             if ko not in name:
                 continue
             e = seeds.setdefault(en, {
-                "seed": en, "matched_products": [], "from_terms": set(),
+                "seed": en, "matched_products": [], "matched_cps": [],
+                "from_terms": set(),
                 "gemini_tags": set(),
             })
             e["matched_products"].append(r["name"])
+            if r.get("canonical_product_id"):
+                e["matched_cps"].append(r["canonical_product_id"])
             e["from_terms"].add(ko)
             for t in tags:
                 if any(w in t for w in en.split()):
@@ -185,6 +198,7 @@ def build_keyword_board(s_rows, oy_products):
             "us_example_count": len(examples),
             "gemini_tags": sorted(e["gemini_tags"])[:5],
             "linked_s_products": e["matched_products"][:5],
+            "linked_canonical_product_ids": e["matched_cps"][:5],
             "source": "다이소 S등급 상품명 + OliveYoung US 실수집 대조",
         })
     return board
@@ -343,7 +357,8 @@ def main() -> int:
     status = runtime.get("global_channels_status") or {}
     us_pool = collect_competitor_pool(oy_products, runtime)
 
-    s_rows = build_s_priority(srec, detail, pricing, copies)
+    cp_registry = load_cp_registry()
+    s_rows = build_s_priority(srec, detail, pricing, copies, cp_registry)
     now = datetime.now(KST)
 
     live = [k for k, m in status.items() if m.get("count", 0) > 0]
@@ -427,6 +442,24 @@ def main() -> int:
             "모든 수치는 실수집 산출물에서 계산했다. "
             "근거가 없는 필드(키워드 추세·검색량)는 채우지 않고 사유를 적었다."),
     }
+
+    # 마케팅 우선순위 CSV (CP 공통키) — rank는 사람이 수정 가능
+    csv_path = D / "marketing_priority.csv"
+    lines = ["rank,canonical_product_id,pd_no,product,keyword,intent,score,shopify_action"]
+    for r in s_rows:
+        kws = "|".join((r.get("ad_keywords") or [])[:3])
+        name = (r.get("name") or "").replace(",", " ")
+        lines.append(
+            f'{r.get("rank")},'
+            f'{r.get("canonical_product_id") or ""},'
+            f'{r.get("pd_no") or ""},'
+            f'{name},'
+            f'"{kws}",'
+            f'purchase,'
+            f'{r.get("score") or ""},'
+            f'{r.get("shopify_action") or ""}'
+        )
+    csv_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
