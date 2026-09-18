@@ -5,54 +5,140 @@ inputs:
   paths:
     description: "이번 실행에서 만든 파일 목록 (공백/줄바꿈 구분)"
     required: true
+
   message:
     description: "커밋 메시지"
     required: true
     default: "publish: auto"
 
+  regenerate-dashboard:
+    description: "발행 전에 dashboard_runtime.json을 다시 생성할지 여부"
+    required: false
+    default: "true"
+
+  audit:
+    description: "발행 전에 audit_team_reports.py를 실행할지 여부"
+    required: false
+    default: "true"
+
 runs:
   using: "composite"
+
   steps:
+    # ------------------------------------------------------------
+    # 1. 대시보드 최종 재생성
+    #
+    # 기존 action.yml은 regenerate-dashboard 입력을 받지 않았다.
+    # 그런데 여러 workflow에서 regenerate-dashboard: true를 넘기고 있었다.
+    #
+    # 이제 실제로 dashboard_runtime.json을 만든다.
+    # ------------------------------------------------------------
+    - name: 발행 전 대시보드 재생성
+      if: ${{ inputs.regenerate-dashboard == 'true' }}
+      shell: bash
+      run: |
+        set -e
+
+        if [ ! -f "scripts/generate_dashboard_runtime.py" ]; then
+          echo "::error::scripts/generate_dashboard_runtime.py 가 없습니다."
+          exit 1
+        fi
+
+        echo "===== 발행 전 대시보드 재생성 ====="
+
+        python -u scripts/generate_dashboard_runtime.py
+
+        echo "==================================="
+
+    # ------------------------------------------------------------
+    # 2. 발행 직전 숫자/원본 감사
+    #
+    # 기존 action.yml은 audit 입력을 받지 않았다.
+    # 따라서 audit: true를 적어도 실제 감사가 실행되지 않았다.
+    #
+    # 이제 반드시 감사한 뒤 commit한다.
+    # ------------------------------------------------------------
+    - name: 발행 전 숫자·원본 감사
+      if: ${{ inputs.audit == 'true' }}
+      shell: bash
+      run: |
+        set -e
+
+        if [ ! -f "scripts/audit_team_reports.py" ]; then
+          echo "::error::scripts/audit_team_reports.py 가 없습니다."
+          exit 1
+        fi
+
+        echo "===== 발행 전 숫자·원본 감사 ====="
+
+        python -u scripts/audit_team_reports.py
+
+        echo "==================================="
+
+    # ------------------------------------------------------------
+    # 3. 지정된 파일만 stage
+    #
+    # git add -A를 사용하지 않는다.
+    # 이번 실행에서 실제로 발행하도록 지정한 경로만 올린다.
+    # ------------------------------------------------------------
     - name: Publish only specified paths
       shell: bash
       run: |
         set -e
+
         echo "📦 Publish paths:"
         echo "${{ inputs.paths }}"
-        
+
         # paths를 줄바꿈/공백으로 분리하여 git add
-        echo "${{ inputs.paths }}" | tr ' ' '\n' | while read -r p; do
-          p=$(echo "$p" | xargs) # trim
-          if [ -n "$p" ]; then
-            if [ -e "$p" ]; then
-              echo "  + $p"
-              git add "$p" || echo "⚠️ add 실패: $p"
-            else
-              echo "  - not found (skip): $p"
+        echo "${{ inputs.paths }}" |
+          tr ' ' '\n' |
+          while read -r p; do
+            p=$(echo "$p" | xargs)
+
+            if [ -n "$p" ]; then
+              if [ -e "$p" ]; then
+                echo "  + $p"
+                git add "$p" || echo "::warning::add 실패: $p"
+              else
+                echo "  - not found (skip): $p"
+              fi
             fi
-          fi
-        done
-        
+          done
+
         # 변경사항이 있는지 확인
         if git diff --cached --quiet; then
           echo "ℹ️ 변경사항 없음 - 커밋 스킵"
           exit 0
         fi
-        
+
         git config user.name "JARVIS"
         git config user.email "jarvis@luna.bot"
-        git commit -m "${{ inputs.message }} - $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-        
-        # rebase retry - 남의 결과 되돌리지 않음
+
+        git commit \
+          -m "${{ inputs.message }} - $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+
+        # --------------------------------------------------------
+        # 원격 최신 main 위에 이번 변경만 얹는다.
+        # 다른 자동화가 먼저 push했어도 rebase 후 재시도한다.
+        # --------------------------------------------------------
         for i in 1 2 3; do
-          git pull --rebase origin main || (git rebase --abort; git pull origin main)
+
+          git pull --rebase origin main || (
+            git rebase --abort
+            git pull origin main
+          )
+
           if git push origin main; then
             echo "✅ Push 성공"
             break
           fi
-          echo "retry $i"; sleep 5
+
+          echo "retry $i"
+          sleep 5
+
           if [ $i -eq 3 ]; then
             echo "❌ Push 3회 실패"
             exit 1
           fi
+
         done
