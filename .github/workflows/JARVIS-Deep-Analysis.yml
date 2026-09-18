@@ -229,6 +229,10 @@ jobs:
         timeout-minutes: 3
         run: python -u scripts/fetch_fx_rate.py
 
+      - name: Build product master (canonical_product_id)
+        continue-on-error: true
+        run: python scripts/build_product_master.py --inject-s
+
       - name: Score Shopify demand (다이소 실측 지표 기반)
         continue-on-error: true
         run: python scripts/daiso/score_shopify_demand.py
@@ -265,6 +269,7 @@ jobs:
       - name: 제외 반영해 점수·원가 다시 계산
         continue-on-error: true
         run: |
+          python -u scripts/build_product_master.py --inject-s
           python -u scripts/daiso/score_shopify_demand.py
           python -u scripts/pricing_model.py
 
