@@ -2,7 +2,7 @@
 title: "Record ac81c6560b · Do-You-Really-Need-a-K-Beauty-Skincare-Essence---op"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T19:00:30.504908+00:00
+updated_at: 2026-09-18T20:56:21.503870+00:00
 tags: [record, real-data]
 ---
 

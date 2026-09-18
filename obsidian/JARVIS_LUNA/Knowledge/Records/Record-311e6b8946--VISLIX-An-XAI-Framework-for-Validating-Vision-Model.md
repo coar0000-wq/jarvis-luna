@@ -2,7 +2,7 @@
 title: "Record 311e6b8946 · VISLIX-An-XAI-Framework-for-Validating-Vision-Model"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T19:00:30.332899+00:00
+updated_at: 2026-09-18T20:56:21.206231+00:00
 tags: [record, real-data]
 ---
 

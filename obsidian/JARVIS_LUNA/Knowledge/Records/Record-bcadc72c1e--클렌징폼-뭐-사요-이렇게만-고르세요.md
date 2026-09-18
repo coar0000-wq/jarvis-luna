@@ -2,7 +2,7 @@
 title: "Record bcadc72c1e · 클렌징폼-뭐-사요-이렇게만-고르세요"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T19:00:30.743808+00:00
+updated_at: 2026-09-18T20:56:21.956637+00:00
 tags: [record, real-data]
 ---
 

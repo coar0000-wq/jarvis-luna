@@ -2,7 +2,7 @@
 title: "Record 1ca0f6d16c · 14-Impressive-Korean-Skincare-Products-to-Shop-Duri"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T19:00:30.537446+00:00
+updated_at: 2026-09-18T20:56:21.552036+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMimAFBVV95cUxPTWNoSUdnbGpBeDNSVm5XdTM5YndVbWNjanI5czRIS2VQbm9DMUFoQVptczE3VWlfSEliOS1LdjYwNkVMa042bTU0UWQzYUNFZ081c2c5LVJXRkdZT2JzOVczWVRVTU8yNnBiOVAxdzJCS3F5d3BqRUp5MlllU2ZnN3JqZzBIMmlIR1lJallQWG9YU1hfOHhocw?oc=5)
 
-**제목:** 14 Impressive Korean Skincare Products to Shop During Amazon Prime Day - Who What Wear
+**제목:** 14 Impressive Korean Skincare Products to Shop During Amazon Prime Day - whowhatwear.com
 
-14 Impressive Korean Skincare Products to Shop During Amazon Prime Day - Who What Wear
+14 Impressive Korean Skincare Products to Shop During Amazon Prime Day - whowhatwear.com
 
 **출처:** Source · Google Search
 

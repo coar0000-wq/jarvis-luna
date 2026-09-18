@@ -2,7 +2,7 @@
 title: "Record fa829885c6 · Treatment-dose-and-reliable-change-in-trauma-focuse"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T19:00:30.319349+00:00
+updated_at: 2026-09-18T20:56:21.182388+00:00
 tags: [record, real-data]
 ---
 

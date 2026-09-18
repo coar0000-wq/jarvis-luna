@@ -2,7 +2,7 @@
 title: "Record b232e246ca · Amazon-Skincare-Best-Sellers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T19:00:30.652132+00:00
+updated_at: 2026-09-18T20:56:21.770788+00:00
 tags: [record, real-data]
 ---
 

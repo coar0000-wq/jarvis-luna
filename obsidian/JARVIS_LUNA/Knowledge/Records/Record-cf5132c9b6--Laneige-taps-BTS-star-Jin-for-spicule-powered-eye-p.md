@@ -2,7 +2,7 @@
 title: "Record cf5132c9b6 · Laneige-taps-BTS-star-Jin-for-spicule-powered-eye-patch-launch-campaig"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T19:00:30.528503+00:00
+updated_at: 2026-09-18T20:56:21.536814+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,10 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMikgFBVV95cUxPRExmWjQ5NFRBeFVqZjVKSF9XZ3E1a2FXUU41WnM0V2JyMTY1Rng2UkVFcWxXbk5aSFlrWmV6MnhCd1dJcUVsTF8wbmpDX1ozYkxJMzktSTUtSjdYdXJTdlV2c05JLTdqN2JQeHA1T25nOXMyMEZwSEcyQ1AxaVVSMG5xNmdZbHB5c1ZXUTZsR25CQQ?oc=5)
 
-**제목:** Laneige taps BTS star Jin for spicule-powered eye patch launch campaign - cosmeticsbusiness.com
+**제목:** Laneige taps BTS star Jin for spicule-powered eye patch launch campaign - Cosmetics Business
 
-Laneige taps BTS star Jin for spicule-powered eye patch launch campaign - cosmeticsbusiness.com
-Laneige taps BTS star Jin for spicule-powered eye patch launch campaign - cosmeticsbusiness.com
+Laneige taps BTS star Jin for spicule-powered eye patch launch campaign - Cosmetics Business
+Laneige taps BTS star Jin for spicule-powered eye patch launch campaign - Cosmetics Business
 
 **출처:** Source · us_beauty
 

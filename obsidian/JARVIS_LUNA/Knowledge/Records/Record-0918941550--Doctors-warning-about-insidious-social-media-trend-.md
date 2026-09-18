@@ -2,7 +2,7 @@
 title: "Record 0918941550 · Doctors-warning-about-insidious-social-media-trend-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T19:00:30.542098+00:00
+updated_at: 2026-09-18T20:56:21.560516+00:00
 tags: [record, real-data]
 ---
 

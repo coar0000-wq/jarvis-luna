@@ -2,7 +2,7 @@
 title: "Record 077c1e2a47 · Would-You-Go-on-a-Glowcation-K-Beauty-Is-Betting-So"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T19:00:30.509117+00:00
+updated_at: 2026-09-18T20:56:21.510512+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ01YZ2lKV0VUQzJROHZVVnJZbWM1dkw1TFRGLXFMcUx0dWhaZDJheTIwdE9yaElIUFpmYlJVSXg2UnQ0aDhCOVd3MVZvakhvVWxDWi1wM2hfbGVKbjFaSHJLWjJHYU02M3lwdGRXQVNfSXJGdWVTN0h4V0tvaU9iLUIzbGFmZkFU?oc=5)
 
-**제목:** Would You Go on a Glowcation? K-Beauty Is Betting So - Vogue
+**제목:** Would You Go on a Glowcation? K-Beauty Is Betting So - vogue.com
 
-Would You Go on a Glowcation? K-Beauty Is Betting So - Vogue
+Would You Go on a Glowcation? K-Beauty Is Betting So - vogue.com
 
 **출처:** Source · Google Search
 

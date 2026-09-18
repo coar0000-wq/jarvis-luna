@@ -2,7 +2,7 @@
 title: "Record 4f2e768446 · Trying-Out-A-TikTok-Beauty-Trend---WWLTVcom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T19:00:30.433152+00:00
+updated_at: 2026-09-18T20:56:21.372120+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMi6wFBVV95cUxNcnhLOTZqc2NtdFgwdURqajQyUzN4YzQ3V3d2YXlsVGg2SUk0U21xYzhCWk9wNnVtRi1oY2JpQkl2dXQyR1NLT1o1VjIza1l5VEdXZ3NLejJOdUR6eXV3d1F1bnA2emVBR0s2Mk5wa1NEaUp2cjRpTEdveVEzWVJrUkR1R0gxMEg0b0Q5bmR4aFFFdkVpVlNMMUJGcTFBYkNhUGxkRW15YzVyalZaZVV5M1hBRkFySVcwdXlhbU1MbFZ1TExydU9zaDBQQmdXblQ4dDgxNFdnZVVtWHNkRlJ6eHoxRzJvQ2NZMTZj?oc=5)
 
-**제목:** Trying Out A TikTok Beauty Trend - wwltv.com
+**제목:** Trying Out A TikTok Beauty Trend - WWLTV.com
 
-Trying Out A TikTok Beauty Trend - wwltv.com
+Trying Out A TikTok Beauty Trend - WWLTV.com
 
 **출처:** Source · Google Search
 

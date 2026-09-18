@@ -2,7 +2,7 @@
 title: "Record 2596511291 · Meet-our-new-all-in-one-POS-device"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T19:00:30.764208+00:00
+updated_at: 2026-09-18T20:56:21.995607+00:00
 tags: [record, real-data]
 ---
 

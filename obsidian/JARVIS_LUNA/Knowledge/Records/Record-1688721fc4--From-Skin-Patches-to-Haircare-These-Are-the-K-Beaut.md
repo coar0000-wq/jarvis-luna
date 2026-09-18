@@ -2,7 +2,7 @@
 title: "Record 1688721fc4 · From-Skin-Patches-to-Haircare-These-Are-the-K-Beauty-Products-That-Are"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T19:00:30.551570+00:00
+updated_at: 2026-09-18T20:56:21.577481+00:00
 tags: [record, real-data]
 ---
 
@@ -13,10 +13,9 @@ tags: [record, real-data]
 **제목:** From Skin Patches to Haircare, These Are the K-Beauty Products That Are Actually Popular in Korea - WWD
 
 From Skin Patches to Haircare, These Are the K-Beauty Products That Are Actually Popular in Korea - WWD
-From Skin Patches to Haircare, These Are the K-Beauty Products That Are Actually Popular in Korea - WWD
 
-**출처:** Source · us_beauty
+**출처:** Source · Google Search
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

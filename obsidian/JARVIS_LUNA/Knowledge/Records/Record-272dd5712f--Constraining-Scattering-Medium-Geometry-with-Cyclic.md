@@ -2,7 +2,7 @@
 title: "Record 272dd5712f · Constraining-Scattering-Medium-Geometry-with-Cyclic"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T19:00:30.602787+00:00
+updated_at: 2026-09-18T20:56:21.674049+00:00
 tags: [record, real-data]
 ---
 

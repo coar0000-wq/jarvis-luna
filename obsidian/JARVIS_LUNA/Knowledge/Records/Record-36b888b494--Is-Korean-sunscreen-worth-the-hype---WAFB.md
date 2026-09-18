@@ -2,7 +2,7 @@
 title: "Record 36b888b494 · Is-Korean-sunscreen-worth-the-hype---WAFB"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T19:00:30.487097+00:00
+updated_at: 2026-09-18T20:56:21.471735+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,10 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMieEFVX3lxTFBjenlzd2RLQUd1RWtfc0V4dlZIeldiM3FfOTJ4S08wdmplNUdTVUZrUXhrU25oOVpTeVFPSGgxYXpBNWpIbTVQSlRHQlV6MW4wVkNHTzhSQlYtSmJrQmQ1bkRCc3dMOUF0OUpyZlRNQnhvMXdmMFprTQ?oc=5)
 
-**제목:** Is Korean sunscreen worth the hype? - wafb.com
+**제목:** Is Korean sunscreen worth the hype? - WAFB
 
-Is Korean sunscreen worth the hype? - wafb.com
-Is Korean sunscreen worth the hype? - wafb.com
+Is Korean sunscreen worth the hype? - WAFB
+Is Korean sunscreen worth the hype? - WAFB
 
 **출처:** Source · us_beauty
 

@@ -2,7 +2,7 @@
 title: "Record ad504bbdb2 · Introducing-Claude-for-Teachers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T19:00:30.665921+00:00
+updated_at: 2026-09-18T20:56:21.797135+00:00
 tags: [record, real-data]
 ---
 

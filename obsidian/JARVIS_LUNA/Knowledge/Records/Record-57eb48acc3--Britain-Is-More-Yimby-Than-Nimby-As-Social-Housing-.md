@@ -2,7 +2,7 @@
 title: "Record 57eb48acc3 · Britain-Is-More-Yimby-Than-Nimby-As-Social-Housing-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T19:00:30.677357+00:00
+updated_at: 2026-09-18T20:56:21.821446+00:00
 tags: [record, real-data]
 ---
 

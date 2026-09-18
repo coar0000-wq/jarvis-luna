@@ -2,7 +2,7 @@
 title: "Record 72fac850bd · Planning-a-trip-to-Hangzhou-Save-this-guide-before-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T19:00:30.755074+00:00
+updated_at: 2026-09-18T20:56:21.980827+00:00
 tags: [record, real-data]
 ---
 

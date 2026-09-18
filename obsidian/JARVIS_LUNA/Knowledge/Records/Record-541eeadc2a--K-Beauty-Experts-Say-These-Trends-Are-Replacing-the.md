@@ -2,7 +2,7 @@
 title: "Record 541eeadc2a · K-Beauty-Experts-Say-These-Trends-Are-Replacing-the"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T19:00:30.464277+00:00
+updated_at: 2026-09-18T20:56:21.430877+00:00
 tags: [record, real-data]
 ---
 

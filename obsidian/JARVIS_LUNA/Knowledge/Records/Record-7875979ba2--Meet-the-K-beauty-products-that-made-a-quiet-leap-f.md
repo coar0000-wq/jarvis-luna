@@ -2,7 +2,7 @@
 title: "Record 7875979ba2 · Meet-the-K-beauty-products-that-made-a-quiet-leap-f"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T19:00:30.451672+00:00
+updated_at: 2026-09-18T20:56:21.407572+00:00
 tags: [record, real-data]
 ---
 
