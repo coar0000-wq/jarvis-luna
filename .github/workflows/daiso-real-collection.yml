@@ -10,17 +10,10 @@ name: Daiso Real Product Collection
 #    전체 수집 결과가 유효하면 계속 진행한다.
 # 4. 이미 실패한 URL은 다음 수집 단계에서 같은 URL만 반복하지 않도록
 #    기존 큐/수집기 블랙리스트 로직을 존중한다.
-#
-# 2026-09-14 검증 기록
-#   6번 단계가 collection_status.json 의 last_run 키에 전적으로 기댄다.
-#   붙이기 전에 실측했다. last_run 은 키 25개를 갖고 있고
-#   requested / ok / parse_failed / status / started_at / finished_at /
-#   parse_fail_reasons 일곱 개가 모두 실제로 들어 있다. 없는 키는 0개다.
-#   collect_daiso.py 도 그 이름 그대로 쓴다.
 
 on:
   schedule:
-    - cron: '20 19 * * *'      # 매일 04:20 KST
+    - cron: '20 19 * * *'
 
   workflow_dispatch:
     inputs:
@@ -40,8 +33,6 @@ on:
         default: '30'
 
 concurrency:
-  # 다이소 실수집은 동시에 두 개가 돌면 같은 products.json을
-  # 서로 덮어쓸 수 있으므로 한 번에 하나만 실행한다.
   group: daiso-real-collection
   cancel-in-progress: false
 
@@ -54,9 +45,6 @@ jobs:
     timeout-minutes: 120
 
     steps:
-      # ------------------------------------------------------------
-      # 1. 저장소 준비
-      # ------------------------------------------------------------
       - name: Checkout
         uses: actions/checkout@v4
         with:
@@ -72,22 +60,12 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install requests beautifulsoup4 lxml
 
-      # ------------------------------------------------------------
-      # 2. 환율
-      # ------------------------------------------------------------
-      # 환율은 상품 수집과 별개다.
-      # 환율 API 장애만으로 상품 수집 전체를 막지 않는다.
       - name: 환율 갱신 (USD/KRW)
         continue-on-error: true
         timeout-minutes: 3
         run: |
           python -u scripts/fetch_fx_rate.py
 
-      # ------------------------------------------------------------
-      # 3. 뷰티 URL 큐 생성
-      # ------------------------------------------------------------
-      # 큐 생성 실패 시에도 기존 큐/사이트맵 기반 수집을 계속한다.
-      # 대신 Summary에 실패 여부가 남도록 한다.
       - name: 뷰티 URL 큐 만들기
         continue-on-error: true
         timeout-minutes: 8
@@ -97,15 +75,6 @@ jobs:
         run: |
           python -u scripts/daiso/build_beauty_queue.py
 
-      # ------------------------------------------------------------
-      # 4. 다이소 실제 상품 수집
-      # ------------------------------------------------------------
-      # 이 단계 자체는 실패해도 다음 "수집 실제 실행 확인"에서
-      # 다시 엄격하게 검사한다.
-      #
-      # 이유:
-      #   현재 수집기는 일부 URL 파싱 실패가 있어도
-      #   전체 작업을 계속 진행할 수 있다.
       - name: Collect Daiso products
         continue-on-error: true
         env:
@@ -114,39 +83,11 @@ jobs:
         run: |
           python -u scripts/daiso/collect_daiso.py
 
-      # ------------------------------------------------------------
-      # 5. 제외 규칙 정리
-      # ------------------------------------------------------------
-      # 수집 직후 반드시 제외 사전을 적용한다.
-      # 이 단계는 점수 계산보다 먼저 실행한다.
       - name: 제외 규칙으로 상품 목록 정리
         shell: bash
         run: |
           python -u scripts/daiso/prune_excluded_products.py --apply
 
-      # ------------------------------------------------------------
-      # 6. 실제 수집 결과 확인
-      # ------------------------------------------------------------
-      #
-      # 매우 중요:
-      # 기존에는 이 검사가 publish보다 뒤에 있었다.
-      #
-      # 잘못된 순서:
-      #   수집 실패
-      #   ↓
-      #   옛 collection_status 남음
-      #   ↓
-      #   publish
-      #   ↓
-      #   나중에 실패 감지
-      #
-      # 수정:
-      #   수집
-      #   ↓
-      #   실제 실행 결과 검증
-      #   ↓
-      #   통과할 때만 점수/대시보드/publish
-      #
       - name: 실제 수집 결과 검증
         shell: bash
         run: |
@@ -189,10 +130,6 @@ jobs:
           print(f"finished_at  : {finished}")
           print("========================================")
 
-          # 큐가 비면 수집기가 사이트맵으로 흘러가 엉뚱한 것을 받는다.
-          # 2026-09-12 실행이 그랬다. queue_size 0 · url_source sitemap ·
-          # 뷰티 아님 105건 · ok 0. 30초씩 110번, 55분을 버렸다.
-          # 그래서 원인을 여기서 같이 찍는다.
           print(f"queue_size   : {run.get('queue_size')}")
           print(f"url_source   : {run.get('url_source')}")
           print(f"뷰티 아님    : {run.get('skipped_not_beauty')}")
@@ -234,7 +171,6 @@ jobs:
           print(f"완료 후 경과: {age_hours:.2f}시간")
           print(f"실행 시간  : {duration_minutes:.1f}분")
 
-          # 너무 오래된 기록이면 이번 실행에서 수집된 것으로 보지 않는다.
           if age_hours > 6:
               print(
                   "::error::최근 수집 완료 기록이 너무 오래됐습니다. "
@@ -242,33 +178,30 @@ jobs:
               )
               sys.exit(1)
 
-          # 완료 시간은 시작 시간보다 뒤여야 한다.
           if finished_dt < started_dt:
               print("::error::finished_at 이 started_at 보다 빠릅니다.")
               sys.exit(1)
 
-          # 수집기 전체 상태가 정상이어야 한다.
           if status != "ok":
               print(
                   f"::error::수집기 상태가 정상(ok)이 아닙니다: {status}"
               )
               sys.exit(1)
 
-          # 이번 회차에 하나도 성공하지 못했다면
-          # 이전 products.json을 최신 수집으로 오인해서 publish하지 않는다.
           if ok <= 0:
               print(
                   "::error::이번 실행 성공 상품이 0건입니다. "
                   "기존 데이터를 새 수집 결과처럼 발행하지 않습니다."
               )
+
               if not run.get("queue_size"):
                   print(
                       "::error::큐가 비어 있었습니다. "
                       "scripts/daiso/build_beauty_queue.py 부터 보십시오."
                   )
+
               sys.exit(1)
 
-          # 부분 파싱 실패는 허용하지만 명확히 경고한다.
           if parse_failed > 0:
               print(
                   f"::warning::부분 파싱 실패 {parse_failed}건이 있습니다. "
@@ -278,40 +211,42 @@ jobs:
           print("실제 수집 결과 검증 통과")
           PY
 
-      # ------------------------------------------------------------
-      # 7. Shopify 수요 점수
-      # ------------------------------------------------------------
-      # 목록이 정리된 후 점수를 계산한다.
       - name: Score Shopify demand
         shell: bash
         run: |
           python -u scripts/daiso/score_shopify_demand.py
 
-      # ------------------------------------------------------------
-      # 7-2. 점수에서 파생되는 보드를 같이 다시 만든다
+      # ============================================================
+      # 점수 파생 보드 재생성
       #
-      # 점수만 새로 계산하고 파생 보드를 내버려두면
-      # 팀 카드는 지난번 S등급 갯수를 그대로 보여준다.
-      # 그 불일치로 발행 audit 이 막힌다. (수집 #33)
+      # 순서:
+      #   score
+      #     -> legal
+      #     -> market_team
+      #     -> listing_gate
+      #     -> Shopify S CSV
+      #     -> channel_candidates
+      #     -> dashboard
       #
-      # 순서: 점수 -> market_team -> listing_gate -> 대시보드
-      #
-      # 발행 직전에 publish 액션이 한 번 더 돌린다.
-      # 여기서 돌리는 것은 아래 감사 미리보기를
-      # 실제 발행 결과와 같게 만들기 위해서다.
-      # ------------------------------------------------------------
-      - name: 점수 파생 보드 재생성 (legal / market_team / listing_gate)
+      # build_artifact_graph.py가 이 재생성 경로를 검사한다.
+      # ============================================================
+      - name: 점수 파생 보드 재생성
         shell: bash
         run: |
-          # 법률 점검이 먼저다.
-          # build_listing_gate.py 가 legal_products.json 을 읽기 때문이다.
           python -u scripts/check_legal_products.py
           python -u scripts/build_market_team.py
           python -u scripts/build_listing_gate.py
 
-      # ------------------------------------------------------------
-      # 8. 산출물 검증
-      # ------------------------------------------------------------
+      - name: Shopify S 파생 산출물 생성
+        shell: bash
+        run: |
+          python -u scripts/daiso/export_shopify_s_csv.py
+
+      - name: 채널 후보 재생성
+        shell: bash
+        run: |
+          python -u scripts/discover_channels.py
+
       - name: Validate artifacts
         id: validate
         shell: bash
@@ -354,7 +289,6 @@ jobs:
                   print("INVALID", p, e)
                   ok = False
 
-          # products.json 최소 검증
           products_path = Path("data/daiso_real/products.json")
 
           if products_path.exists():
@@ -405,20 +339,11 @@ jobs:
           print("산출물 검증 통과")
           PY
 
-      # ------------------------------------------------------------
-      # 9. 대시보드 데이터 생성
-      # ------------------------------------------------------------
       - name: 대시보드 최종 생성
         shell: bash
         run: |
           python -u scripts/generate_dashboard_runtime.py
 
-      # ------------------------------------------------------------
-      # 10. 발행 전 감사 미리보기
-      # ------------------------------------------------------------
-      # 실제 publish 전에 감사 결과를 확인한다.
-      # 이 단계 자체는 미리보기이므로 workflow를 막지 않는다.
-      # 실제 관문은 publish 액션 내부 audit이다.
       - name: 발행 전 감사 미리 보기
         if: always()
         continue-on-error: true
@@ -439,9 +364,17 @@ jobs:
               )
               r = d.get("last_run") or {}
 
-              for k in ("requested", "ok", "parse_failed", "status",
-                        "queue_size", "url_source", "skipped_not_beauty",
-                        "skipped_parked", "finished_at"):
+              for k in (
+                  "requested",
+                  "ok",
+                  "parse_failed",
+                  "status",
+                  "queue_size",
+                  "url_source",
+                  "skipped_not_beauty",
+                  "skipped_parked",
+                  "finished_at",
+              ):
                   print(f"{k}=", r.get(k))
           else:
               print("collection_status.json 없음")
@@ -452,9 +385,6 @@ jobs:
 
           echo '```' >> "$GITHUB_STEP_SUMMARY"
 
-      # ------------------------------------------------------------
-      # 11. 최종 요약
-      # ------------------------------------------------------------
       - name: Summary
         if: always()
         shell: bash
@@ -523,43 +453,23 @@ jobs:
                       )
           PY
 
-      # ------------------------------------------------------------
-      # 12. 산출물 발행
-      # ------------------------------------------------------------
-      #
-      # 중요:
-      # 실제 수집 결과 검증과 artifact 검증이 끝난 뒤에만 실행한다.
-      #
-      # publish 액션은 원격 최신 main 위에
-      # 이번 실행이 만든 파일만 적용한다.
-      #
-      # 대시보드도 함께 발행한다.
       - name: 산출물 발행 (원격 최신 위에 이번 변경만)
         if: steps.validate.outputs.artifacts_ok == 'true'
         uses: ./.github/actions/publish
         with:
-          # cumulative_history.json 도 넣는다. (2026-09-14)
-          # 대시보드 생성기가 이 파일도 같이 고친다. 경로에 없으면
-          # 이번 실행이 쌓은 이력이 버려진다. #31 이 그것 때문에 막혔다.
-          # market_team.json / listing_gate.json 도 넣는다. (2026-09-15)
-          # 이번 실행이 점수를 바꾸면 이 두 파일도 바뀜다.
-          # 경로에 없으면 같이 발행되지 않아
-          # 원거 main 이 다시 불일치 상태로 돌아가고
-          # 다음 발행이 또 audit 에서 막힌다. (수집 #33)
           paths: >-
             data/daiso_real
             data/legal_products.json
             data/market_team.json
             data/listing_gate.json
             data/dashboard_runtime.json
+            data/channel_candidates.json
+            data/marketing_priority.csv
             data/knowledge/cumulative_history.json
           message: 다이소 실수집 + Shopify 수요 점수 갱신
           regenerate-dashboard: 'true'
           audit: 'true'
 
-      # ------------------------------------------------------------
-      # 13. 최종 결과 확인
-      # ------------------------------------------------------------
       - name: 최종 결과
         if: always()
         shell: bash
