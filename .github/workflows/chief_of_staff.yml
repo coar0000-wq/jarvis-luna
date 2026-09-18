@@ -17,7 +17,7 @@ concurrency:
 jobs:
   chief-auto-fix:
     runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 45 # 타임아웃 여유 확보 (35 -> 45)
 
     steps:
       - name: 저장소 체크아웃
@@ -33,6 +33,8 @@ jobs:
       - name: 의존성 설치
         run: |
           python -m pip install --upgrade pip
+          # requirements.txt가 존재할 경우 필요 패키지 설치 (수정됨)
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       - name: 최신 main 동기화
         shell: bash
@@ -41,18 +43,11 @@ jobs:
           git reset --hard origin/main
           git clean -fd
 
-      # 규칙을 바꿨으면 이미 쌓인 자료도 그 규칙으로 맞춘다 (2026-09-13)
-      #
-      # category_map.json의 exclude 규칙을 기준으로
-      # 이미 쌓인 상품도 매 회차 감사한다.
-      # 걸리는 것이 없으면 파일을 건드리지 않는다.
       - name: 제외 규칙으로 상품 목록 정리
         shell: bash
         run: |
           python -u scripts/daiso/prune_excluded_products.py --apply
 
-          # 목록이 실제로 바뀌었을 때만 점수를 다시 낸다.
-          # 매번 다시 내면 generated_at만 바뀌는 커밋이 쌓인다.
           if ! git diff --quiet -- data/daiso_real/products.json; then
             echo "상품 목록이 바뀌었다. 점수를 다시 계산한다."
             python -u scripts/daiso/score_shopify_demand.py
@@ -121,6 +116,8 @@ jobs:
 
       - name: 고시 정보 수집 및 라벨 동기화
         shell: bash
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }} # <-- 핵심 수정: 비전 추출을 위해 API 키 환경변수 추가
         run: |
           NEED_GOSI=$(python - <<'PY'
           import json
@@ -144,10 +141,7 @@ jobs:
           if [ "$NEED_GOSI" = "1" ]; then
             echo "고시 병목 발견"
 
-            # 다이소 상품 고시는 data/gosi.json만 사용한다.
             python -u scripts/collect_daiso_gosi.py || true
-
-            # 수집 결과를 미국 라벨 데이터에 병합한다.
             python -u scripts/sync_gosi_to_us_labels.py
 
             if [ -n "${GEMINI_API_KEY:-}" ]; then
@@ -155,7 +149,6 @@ jobs:
               VISION_BUDGET_SEC=900 \
                 python -u scripts/extract_gosi_vision.py || true
 
-              # 비전 추출 이후 추가된 값도 다시 병합한다.
               python -u scripts/sync_gosi_to_us_labels.py
             else
               echo "::warning::GEMINI_API_KEY가 없어 비전 추출을 건너뜁니다."
@@ -197,25 +190,6 @@ jobs:
           print("============================")
           PY
 
-      # ============================================================
-      # 산출물 재생성 순서 보강
-      #
-      # score/recommendations/dashboard를 갱신한 뒤에는
-      # 그 파생 산출물도 같은 실행에서 다시 만들어야 한다.
-      #
-      # 순서:
-      #   recommendations / score
-      #        ↓
-      #   market_team
-      #        ↓
-      #   Shopify S CSV
-      #        ↓
-      #   channel_candidates
-      #        ↓
-      #   dashboard_runtime
-      #
-      # build_artifact_graph.py 가 이 순서를 검사한다.
-      # ============================================================
       - name: 점수 파생 산출물 재생성
         shell: bash
         run: |
@@ -232,23 +206,6 @@ jobs:
         run: |
           python scripts/generate_dashboard_runtime.py
 
-      # ============================================================
-      # 에이전트 진단·우선순위 생성
-      # ============================================================
-      #
-      # run_jarvis_agents.py 는 데이터 플레인을 수정하지 않고
-      # data/agents/*.json 만 생성한다.
-      #
-      # 30분 주기 참모장에서는 정상 상태에서도 강제로 다시 작성한다.
-      # 따라서 ops_plan이 며칠 전 문장으로 남는 문제를 막는다.
-      #
-      # 생성:
-      #   data/agents/ops_plan.json
-      #   data/agents/last_run.json
-      #   data/agents/collector_audit.json
-      #   data/agents/signal_audit.json
-      #
-      # 데이터 수집·채점·CSV 자체는 건드리지 않는다.
       - name: 에이전트 진단 및 오늘 우선순위 생성
         shell: bash
         env:
@@ -270,7 +227,6 @@ jobs:
               echo "::warning::에이전트 산출물 없음: $f"
             fi
           done
-
           echo "==========================="
 
       - name: 변경사항 확인 (기록용)
@@ -280,14 +236,6 @@ jobs:
           git status --short
           echo "=========================="
 
-      # ============================================================
-      # 안전 발행
-      # ============================================================
-      #
-      # 이번 실행이 실제로 만든 파일만 최신 origin/main 위에 얹는다.
-      # publish 액션 자체가 최신 원격과 충돌을 처리한다.
-      #
-      # 에이전트 산출물도 함께 발행한다.
       - name: 산출물 발행 (원격 최신 위에 이번 변경만)
         if: always()
         uses: ./.github/actions/publish
