@@ -2,7 +2,7 @@
 title: "Record fd0e2ce328 · BenchShield-Formal-Model-Backed-Instrumentation-for"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T14:14:04.164413+00:00
+updated_at: 2026-09-18T16:26:14.379675+00:00
 tags: [record, real-data]
 ---
 

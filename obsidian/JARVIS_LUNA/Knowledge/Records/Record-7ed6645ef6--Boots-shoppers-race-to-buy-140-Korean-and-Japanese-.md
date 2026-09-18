@@ -2,7 +2,7 @@
 title: "Record 7ed6645ef6 · Boots-shoppers-race-to-buy-140-Korean-and-Japanese-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T14:14:04.486577+00:00
+updated_at: 2026-09-18T16:26:14.724080+00:00
 tags: [record, real-data]
 ---
 

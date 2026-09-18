@@ -2,7 +2,7 @@
 title: "Record 8c1c4fcd52 · Two-new-sunscreens-bring-the-K-beauty-inspired-upgrade-weve-been-waiti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T14:14:04.469564+00:00
+updated_at: 2026-09-18T16:26:14.705413+00:00
 tags: [record, real-data]
 ---
 
@@ -13,10 +13,9 @@ tags: [record, real-data]
 **제목:** Two new sunscreens bring the K-beauty inspired upgrade we’ve been waiting for - HOLA
 
 Two new sunscreens bring the K-beauty inspired upgrade we’ve been waiting for - HOLA
-Two new sunscreens bring the K-beauty inspired upgrade we’ve been waiting for - HOLA
 
-**출처:** Source · us_beauty
+**출처:** Source · Google Search
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

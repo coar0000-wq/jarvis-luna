@@ -2,7 +2,7 @@
 title: "Record ce71b8a997 · Volatility-Is-No-Longer-The-Exception"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T14:14:04.669589+00:00
+updated_at: 2026-09-18T16:26:15.078632+00:00
 tags: [record, real-data]
 ---
 

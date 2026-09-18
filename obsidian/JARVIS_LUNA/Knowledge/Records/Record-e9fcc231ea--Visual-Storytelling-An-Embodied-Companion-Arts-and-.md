@@ -2,7 +2,7 @@
 title: "Record e9fcc231ea · Visual-Storytelling-An-Embodied-Companion-Arts-and-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T14:14:04.246087+00:00
+updated_at: 2026-09-18T16:26:14.464454+00:00
 tags: [record, real-data]
 ---
 

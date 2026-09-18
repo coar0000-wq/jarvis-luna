@@ -2,7 +2,7 @@
 title: "Record 042daf949f · How-drone-developers-are-navigating-changing-regula"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T14:14:04.697547+00:00
+updated_at: 2026-09-18T16:26:15.109956+00:00
 tags: [record, real-data]
 ---
 

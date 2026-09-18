@@ -2,7 +2,7 @@
 title: "Record 49af5a6e2d · A-Low-Cost-Open-Platform-for-End-to-End-Autonomous-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T14:14:04.125225+00:00
+updated_at: 2026-09-18T16:26:14.329673+00:00
 tags: [record, real-data]
 ---
 

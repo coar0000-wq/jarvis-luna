@@ -2,7 +2,7 @@
 title: "Record c63f77b7f6 · LOreal-Paris-Colour-Riche-Original-Satin-Lipstick-f"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T14:14:04.709293+00:00
+updated_at: 2026-09-18T16:26:15.120827+00:00
 tags: [record, real-data]
 ---
 

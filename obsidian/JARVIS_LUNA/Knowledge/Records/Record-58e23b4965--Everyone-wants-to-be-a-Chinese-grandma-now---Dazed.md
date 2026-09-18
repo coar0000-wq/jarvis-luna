@@ -2,7 +2,7 @@
 title: "Record 58e23b4965 · Everyone-wants-to-be-a-Chinese-grandma-now---Dazed"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T14:14:04.527311+00:00
+updated_at: 2026-09-18T16:26:14.770292+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMixwFBVV95cUxQcFhNRmtjb0NHWTg0dmh1OXVNaXBSRjMzcnV0QzRqYjNtcWJtc2tmZnJCQnNPOV9WbjM1VGQ5SmZHQmxKT0gxQTNFbWdKdWQ2TFByVUFMaS1WYkFvU09rcmJQTlJGcHRpSGJzU1FwWmNUNzM5UE40eGlXdW1FRXAwbnF6NUhFNW14Y1RIYnlLeGNNUTFZRGxKd0U4Z09DVWZsZVhNTDJGVHRDajMxMWNhelFCTFd2ajBZdUpTaEhmUDdUZk5HYngw?oc=5)
 
-**제목:** Everyone wants to be a Chinese grandma now - dazeddigital.com
+**제목:** Everyone wants to be a Chinese grandma now - Dazed
 
-Everyone wants to be a Chinese grandma now - dazeddigital.com
+Everyone wants to be a Chinese grandma now - Dazed
 
 **출처:** Source · Google Search
 

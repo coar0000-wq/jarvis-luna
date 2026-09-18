@@ -2,7 +2,7 @@
 title: "Record 368ebb9b32 · The-K-beauty-secret-behind-Karol-Gs-glowing-skin-according-to-her-esth"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T14:14:04.524095+00:00
+updated_at: 2026-09-18T16:26:14.766725+00:00
 tags: [record, real-data]
 ---
 
@@ -13,10 +13,9 @@ tags: [record, real-data]
 **제목:** The K-beauty secret behind Karol G’s glowing skin, according to her esthetician - NJ.com
 
 The K-beauty secret behind Karol G’s glowing skin, according to her esthetician - NJ.com
-The K-beauty secret behind Karol G’s glowing skin, according to her esthetician - NJ.com
 
-**출처:** Source · us_beauty
+**출처:** Source · Google Search
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

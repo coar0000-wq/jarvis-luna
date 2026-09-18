@@ -2,7 +2,7 @@
 title: "Record 40dbd01845 · Dermocosmetics-TikTok--Longevity-Are-Reshaping-Euro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T14:14:04.477229+00:00
+updated_at: 2026-09-18T16:26:14.713595+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMilAFBVV95cUxPZXgxRkZadjJsT3lMWFhEZ0ZOb1VlNC12UFVlRnJwNUFHMVpGYnRvUzlkSmxQenpWT2JEYjJFdlliWUhDYnVYQXNQVTdzN21HSHQtOVNkRnhDaW9DYldiaGlwOXYtMldPeU9QU0xWT0VKMUxKb2VRUmsxZWZKSXY5QkFKTjFac2hsdGVRcGM4ZFlsWWot?oc=5)
 
-**제목:** Dermocosmetics, TikTok & Longevity Are Reshaping Europe’s Beauty Market - Happi | Household And Personal Products Industry
+**제목:** Dermocosmetics, TikTok & Longevity Are Reshaping Europe’s Beauty Market - happi.com
 
-Dermocosmetics, TikTok & Longevity Are Reshaping Europe’s Beauty Market - Happi | Household And Personal Products Industry
+Dermocosmetics, TikTok & Longevity Are Reshaping Europe’s Beauty Market - happi.com
 
 **출처:** Source · Google Search
 

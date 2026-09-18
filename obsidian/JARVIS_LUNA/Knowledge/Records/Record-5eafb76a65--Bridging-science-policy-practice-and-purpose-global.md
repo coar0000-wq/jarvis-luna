@@ -2,7 +2,7 @@
 title: "Record 5eafb76a65 · Bridging-science-policy-practice-and-purpose-global"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T14:14:04.277122+00:00
+updated_at: 2026-09-18T16:26:14.496296+00:00
 tags: [record, real-data]
 ---
 

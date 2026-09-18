@@ -2,7 +2,7 @@
 title: "Record ad574d67f5 · 광고--3kg-감량한-48시간-단식-찐-후기-다이어트-다이어터"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T14:14:04.723292+00:00
+updated_at: 2026-09-18T16:26:15.138144+00:00
 tags: [record, real-data]
 ---
 

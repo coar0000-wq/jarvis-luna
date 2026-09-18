@@ -2,7 +2,7 @@
 title: "Record 5bd710727c · 3-Canadian-Beauty-Experts-Share-Their-Favourite-K-B"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T14:14:04.457437+00:00
+updated_at: 2026-09-18T16:26:14.694746+00:00
 tags: [record, real-data]
 ---
 

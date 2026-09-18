@@ -2,7 +2,7 @@
 title: "Record d27904bd6a · Korea-eundan-Vitamin-C-1000-120-Tablets-4-month-Sup"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T14:14:04.591539+00:00
+updated_at: 2026-09-18T16:26:14.992125+00:00
 tags: [record, real-data]
 ---
 

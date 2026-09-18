@@ -2,7 +2,7 @@
 title: "Record 9b7f35b008 · 결론은-공개하고-근거는-비공개-다이소-선크림-2차-영상-팩트체크"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T14:14:04.734734+00:00
+updated_at: 2026-09-18T16:26:15.151092+00:00
 tags: [record, real-data]
 ---
 

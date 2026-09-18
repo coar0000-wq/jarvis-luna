@@ -2,7 +2,7 @@
 title: "Record d7e12eccd3 · Power-Moves-Detroit"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T14:14:04.677148+00:00
+updated_at: 2026-09-18T16:26:15.087123+00:00
 tags: [record, real-data]
 ---
 

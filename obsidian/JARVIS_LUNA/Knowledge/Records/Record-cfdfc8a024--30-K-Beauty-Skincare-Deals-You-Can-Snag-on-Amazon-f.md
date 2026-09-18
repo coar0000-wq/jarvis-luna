@@ -2,7 +2,7 @@
 title: "Record cfdfc8a024 · 30-K-Beauty-Skincare-Deals-You-Can-Snag-on-Amazon-f"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T14:14:04.450929+00:00
+updated_at: 2026-09-18T16:26:14.687832+00:00
 tags: [record, real-data]
 ---
 

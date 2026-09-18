@@ -2,7 +2,7 @@
 title: "Record bab2bef035 · COSMECCA-KOREA-plans-150-mil-AI-based-skincare-fact"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T14:14:04.405302+00:00
+updated_at: 2026-09-18T16:26:14.637820+00:00
 tags: [record, real-data]
 ---
 
