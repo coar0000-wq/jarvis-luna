@@ -29,18 +29,43 @@ jobs:
 
       - name: 검증 실행
         id: pf
-        shell: bash제공해주신 코드는 GitHub Actions의 워크플로우 파일로, **메인 브랜치에 병합되거나 배포되기 전에 코드와 산출물의 무결성을 빠르게 검증**하는 역할을 합니다. 
+        shell: bash
+        continue-on-error: true
+        run: |
+          python scripts/preflight.py | tee /tmp/pf.txt
+          echo "rc=${PIPESTATUS[0]}" >> $GITHUB_OUTPUT
 
-주요 흐름과 설계적인 특징은 다음과 같습니다.
+      # ----------------------------------------------------------
+      # 산출물 재생성 순서 가드
+      #
+      # audit_team_reports.py 는 "숫자가 안 맞는다"를 발행 직전에 잡는다.
+      # 그때는 이미 수집이 끝난 뒤다. #33 은 59분을 태우고 막혔다.
+      #
+      # 이 단계는 코드만 읽어서 "순서가 빠졌다"를 미리 잡는다.
+      # 수집을 한 번도 돌리지 않으므로 10초면 끝난다.
+      # ----------------------------------------------------------
+      - name: 산출물 재생성 순서 검사
+        id: graph
+        shell: bash
+        continue-on-error: true
+        run: |
+          python scripts/build_artifact_graph.py --check | tee /tmp/graph.txt
+          echo "rc=${PIPESTATUS[0]}" >> $GITHUB_OUTPUT
 
-*   **실행 조건:** `main` 브랜치 푸시, Pull Request 생성, 또는 수동 실행(`workflow_dispatch`) 시 트리거됩니다.
-*   **환경 설정:** 우분투(Ubuntu) 환경에서 Python 3.11을 세팅하고, 의존성 패키지인 `pyyaml`과 `pyflakes`를 캐시와 함께 빠르게 설치합니다.
-*   **투트랙(Two-track) 검증:**
-    1.  **배포 전 검증:** `scripts/preflight.py`를 실행하여 일반적인 코드나 설정 무결성을 검사합니다.
-    2.  **산출물 재생성 순서 검사:** `scripts/build_artifact_graph.py --check`를 실행하여 산출물 파이프라인의 순서 누락을 정적으로 검사합니다. 주석에 적혀있듯, 무거운 데이터 수집을 직접 돌려보고 실패를 확인하면 시간이 크게 낭비되므로, 코드만 읽어 사전에 차단하는 효율적인 방식을 취하고 있습니다.
-*   **에러 지연 및 요약 리포팅 (핵심 패턴):** 각 검증 단계에서 에러가 발생해도 워크플로우를 즉시 중단하지 않습니다(`continue-on-error: true`). 대신 실행 결과 코드(`PIPESTATUS[0]`)를 임시 변수에 저장해 둡니다.
-*   **결과 시각화 및 최종 판단:** 워크플로우가 종료되기 전(`if: always()`), 성공 여부와 상관없이 앞서 저장해 둔 두 검증 단계의 로그를 GitHub Step Summary에 Markdown 형식으로 예쁘게 렌더링합니다. 이후, 실패한 항목이 하나라도 있다면 마지막 단계에서 `exit 1`을 호출해 파이프라인을 실패(FAIL) 처리합니다.
+      - name: 결과 요약
+        if: always()
+        run: |
+          echo '### 산출물 재생성 순서' >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          cat /tmp/graph.txt >> $GITHUB_STEP_SUMMARY 2>/dev/null \vert{}\vert{} echo '실행 실패' >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          echo '### 배포 전 검증' >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          cat /tmp/pf.txt >> $GITHUB_STEP_SUMMARY 2>/dev/null \vert{}\vert{} echo '실행 실패' >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
 
-에러 발생 시 즉시 프로세스를 뻗게 만들지 않고, **모든 검증을 끝까지 수행한 뒤 에러 로그를 한눈에 보기 좋게 취합해 보여주는** 매우 사용자 친화적이고 견고한 CI(지속적 통합) 파이프라인 설계입니다. 
-
-코드나 스크립트에 대해 수정이 필요하거나 추가로 궁금한 점이 있으시다면 말씀해 주세요.
+      - name: 실패 시 종료
+        if: steps.pf.outputs.rc != '0' || steps.graph.outputs.rc != '0'
+        run: |
+          echo "FAIL 항목이 있습니다. 위 요약을 확인하세요."
+          exit 1
