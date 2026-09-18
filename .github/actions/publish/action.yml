@@ -1,449 +1,58 @@
-name: 산출물 발행
-
-description: >
-  이번 실행이 실제로 바꾼 파일만 원격 최신 위에 얹고,
-  대시보드를 최종 트리에서 다시 만든 뒤,
-  팀 숫자 감사를 통과한 경우에만 main으로 발행한다.
+name: publish
+description: "산출물 발행 - 원격 최신 위에 이번 변경만 커밋 (git add -A 금지)"
 
 inputs:
   paths:
-    description: 발행 대상 경로. 공백으로 나눈다.
-    required: false
-    default: data obsidian
-
-  message:
-    description: 커밋 메시지
+    description: "이번 실행에서 만든 파일 목록 (공백/줄바꿈 구분)"
     required: true
-
-  base:
-    description: >
-      이번 실행이 시작한 커밋.
-      이 커밋부터 현재 실행이 만든 변경만 발행한다.
-    required: false
-    default: ${{ github.sha }}
-
-  regenerate-dashboard:
-    description: >
-      발행 직전 dashboard_runtime.json 을 다시 만들지
-    required: false
-    default: 'true'
-
-  audit:
-    description: >
-      발행 전에 팀 보고 숫자 감사를 실행할지
-    required: false
-    default: 'true'
+  message:
+    description: "커밋 메시지"
+    required: true
+    default: "publish: auto"
 
 runs:
-  using: composite
-
+  using: "composite"
   steps:
-    - shell: bash
-      env:
-        IN_PATHS: ${{ inputs.paths }}
-        IN_MESSAGE: ${{ inputs.message }}
-        IN_BASE: ${{ inputs.base }}
-        IN_REGEN: ${{ inputs.regenerate-dashboard }}
-        IN_AUDIT: ${{ inputs.audit }}
-
+    - name: Publish only specified paths
+      shell: bash
       run: |
-        set -euo pipefail
-
-        git config user.name "github-actions[bot]"
-        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-        echo "========================================"
-        echo "JARVIS 안전 발행 시작"
-        echo "========================================"
-
-        # ------------------------------------------------------------
-        # 1. 이번 실행이 실제로 만든 변경사항을 임시 커밋으로 고정
-        # ------------------------------------------------------------
-
-        git add -A -- $IN_PATHS 2>/dev/null || true
-
+        set -e
+        echo "📦 Publish paths:"
+        echo "${{ inputs.paths }}"
+        
+        # paths를 줄바꿈/공백으로 분리하여 git add
+        echo "${{ inputs.paths }}" | tr ' ' '\n' | while read -r p; do
+          p=$(echo "$p" | xargs) # trim
+          if [ -n "$p" ]; then
+            if [ -e "$p" ]; then
+              echo "  + $p"
+              git add "$p" || echo "⚠️ add 실패: $p"
+            else
+              echo "  - not found (skip): $p"
+            fi
+          fi
+        done
+        
+        # 변경사항이 있는지 확인
         if git diff --cached --quiet; then
-          echo "이번 실행이 만든 변경 없음"
+          echo "ℹ️ 변경사항 없음 - 커밋 스킵"
           exit 0
         fi
-
-        git commit -q -m "wip (발행 전 고정)"
-
-        MINE=$(git rev-parse HEAD)
-
-        echo "이번 실행 커밋: $MINE"
-
-        # ------------------------------------------------------------
-        # 2. 기준 커밋 존재 여부 확인
-        #
-        # 기준 커밋을 찾지 못하면 과거처럼 전체 경로를 덮어쓰지 않는다.
-        # 안전하게 중단한다.
-        # ------------------------------------------------------------
-
-        BASE="$IN_BASE"
-
-        if [ -z "$BASE" ]; then
-          echo "::error::이번 실행의 기준 커밋이 비어 있다."
-          echo "::error::안전하지 않은 전체 경로 발행을 막기 위해 중단한다."
-          exit 1
-        fi
-
-        if ! git cat-file -e "${BASE}^{commit}" 2>/dev/null; then
-          echo "::error::기준 커밋 ${BASE} 을 찾을 수 없다."
-          echo "::error::전체 data 덮어쓰기 폴백은 사용하지 않는다."
-          exit 1
-        fi
-
-        echo "기준 커밋 확인: $BASE"
-
-        # ------------------------------------------------------------
-        # 2.5 발행 경로 밖에 남은 변경을 먼저 버린다
-        #
-        # 2026-09-14 다이소 수집 #31 이 여기서 죽었다.
-        # 57분 수집하고 모든 검사를 통과한 뒤 마지막 한 줄에서 막혔다.
-        #
-        #   error: Your local changes to the following files would be
-        #          overwritten by checkout:
-        #            data/knowledge/cumulative_history.json
-        #   Aborting
-        #
-        # 왜 그런가. 위 1번에서 git add 를 발행 경로로만 한다.
-        # 그게 이 액션의 약속이다. 요청한 경로만 올린다.
-        # 그런데 대시보드 생성기가 경로 밖 파일도 같이 고친다.
-        # 그 파일이 커밋 안 된 채 남아 있으니 checkout 이 거부한다.
-        #
-        # 이번 실행이 만든 것은 이미 $MINE 커밋에 안전하게 들어 있다.
-        # 그러니 경로 밖에 남은 것은 버려도 잃을 것이 없다.
-        # 발행 경로가 넓은 워크플로(data obsidian)는 애초에 여기 걸릴 것이 없다.
-        # ------------------------------------------------------------
-
-        LEFTOVER=$(git status --porcelain -uno | wc -l | tr -d ' ')
-
-        if [ "$LEFTOVER" != "0" ]; then
-          echo "발행 경로 밖에 남은 변경 ${LEFTOVER}개를 버린다"
-          git status --porcelain -uno | head -20
-          git checkout -q -- . 2>/dev/null || true
-        fi
-
-        # ------------------------------------------------------------
-        # 3. 최신 origin/main 위에 이번 실행의 변경 파일만 적용
-        # ------------------------------------------------------------
-
-        for i in 1 2 3 4 5; do
-
-          echo "----------------------------------------"
-          echo "발행 시도 $i / 5"
-          echo "----------------------------------------"
-
-          git fetch -q origin main
-
-          # -f 를 붙인다. 위에서 한 번 치웠지만 재시도 사이에
-          # 또 뭔가 남을 수 있다. 이번 실행 결과는 $MINE 에 있으니
-          # 작업 폴더를 강제로 맞춰도 잃는 것이 없다.
-          # 이것이 없어서 5번 시도가 전부 같은 자리에서 죽었다.
-          git checkout -q -f -B publish origin/main
-          git reset -q --hard origin/main
-
-          CHANGED=$(git diff --name-only "$BASE" "$MINE" -- $IN_PATHS)
-
-          if [ -z "$CHANGED" ]; then
-            echo "이번 실행이 바꾼 파일이 없다"
-            exit 0
+        
+        git config user.name "JARVIS"
+        git config user.email "jarvis@luna.bot"
+        git commit -m "${{ inputs.message }} - $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+        
+        # rebase retry - 남의 결과 되돌리지 않음
+        for i in 1 2 3; do
+          git pull --rebase origin main || (git rebase --abort; git pull origin main)
+          if git push origin main; then
+            echo "✅ Push 성공"
+            break
           fi
-
-          echo "이번 실행 변경 파일:"
-          printf '%s\n' "$CHANGED"
-
-          N=0
-
-          while IFS= read -r f; do
-            [ -z "$f" ] && continue
-
-            # MINE에 파일이 존재하면 최신 원격 트리에 그 파일만 복원
-            if git cat-file -e "${MINE}:${f}" 2>/dev/null; then
-
-              git checkout -q "$MINE" -- "$f"
-              N=$((N + 1))
-
-            else
-
-              # 이번 실행에서 파일이 삭제됐다면 원격에서도 삭제
-              if git cat-file -e "HEAD:${f}" 2>/dev/null; then
-                git rm -q -f -- "$f"
-                N=$((N + 1))
-              fi
-
-            fi
-
-          done <<< "$CHANGED"
-
-          echo "이번 실행이 바꾼 파일 ${N}개만 얹는다"
-          echo "나머지 원격 파일은 그대로 유지한다"
-
-          if [ "$N" -eq 0 ]; then
-            echo "::error::적용된 변경 파일이 0개다."
+          echo "retry $i"; sleep 5
+          if [ $i -eq 3 ]; then
+            echo "❌ Push 3회 실패"
             exit 1
           fi
-
-          git add -A -- $IN_PATHS 2>/dev/null || true
-
-          # ----------------------------------------------------------
-          # 4. 최종 트리에서 파생 산출물 재생성
-          #
-          # 2026-09-15 다이소 수집 #33 이 여기서 막혔다.
-          # 59분 수집하고 audit 마지막 줄에서 죽었다.
-          #
-          #   FAIL 마케팅 카드 S등급 6 vs 소싱 점수 S 8
-          #   FAIL 게이트 대상 6건 vs S등급 8건.
-          #        게이트가 점수보다 먼저 돌았다
-          #
-          # 왜 그런가. 점수는 이번 실행이 다시 계산한다.
-          #   data/daiso_real/shopify_demand_score.json      S 8
-          #   data/daiso_real/shopify_s_recommendations.json S 8
-          #
-          # 그런데 그 점수에서 파생되는 두 파일은 아무도 다시 안 만든다.
-          #   data/market_team.json   (build_market_team.py)   S 6 그대로
-          #   data/listing_gate.json  (build_listing_gate.py)  총 6 그대로
-          #
-          # 대시보드 생성기는 이 두 파일을 그대로 읽어 팀 카드를 쓴다.
-          # 그러니 카드는 6, 점수는 8 이 되고 audit 이 정직하게 막는다.
-          # audit 이 틀린 게 아니다. 재생성 순서가 빠져 있었다.
-          #
-          # 순서를 지킨다.
-          #   점수 -> market_team -> listing_gate -> dashboard
-          #
-          # 여기서 하면 어느 워크플로가 발행하든 같은 순서가 보장된다.
-          # ----------------------------------------------------------
-
-          if [ "$IN_REGEN" = "true" ]; then
-
-            # 2026-09-15 순서 한 칸이 더 빠져 있었다.
-            # 산출물 의존 그래프 가드가 찾았다.
-            #
-            # build_listing_gate.py 는 legal_products.json 을 읽는다.
-            # 그 legal_products.json 은 check_legal_products.py 가
-            # shopify_demand_score.json 의 S등급 목록으로 만든다.
-            #
-            # 점수가 바뀌면 S 목록이 바뀜다.
-            # 법률 점검을 다시 안 하면 게이트가 예전 S 목록
-            # 기준의 legal_ok 를 그대로 써버린다.
-            # audit 이 legal_products 와 listing_gate 를 대조하니
-            # 이것도 #33 과 같은 모양으로 터질 수 있다.
-            #
-            # 순서: 법률 -> market_team -> listing_gate -> 대시보드
-            if [ -f scripts/check_legal_products.py ] &&
-               [ -f data/daiso_real/shopify_demand_score.json ]; then
-
-              echo "법률 점검 갱신 (점수 -> legal_products)..."
-
-              python3 -u scripts/check_legal_products.py
-
-              git add -A -- data/legal_products.json 2>/dev/null || true
-
-            fi
-
-            if [ -f scripts/build_market_team.py ] &&
-               [ -f data/daiso_real/shopify_demand_score.json ]; then
-
-              echo "마케팅 보드 재생성 (점수 -> market_team)..."
-
-              python3 -u scripts/build_market_team.py
-
-              git add -A -- data/market_team.json 2>/dev/null || true
-
-            fi
-
-            if [ -f scripts/build_listing_gate.py ] &&
-               [ -f data/daiso_real/shopify_s_recommendations.json ]; then
-
-              echo "리스팅 게이트 재생성 (S등급 -> listing_gate)..."
-
-              python3 -u scripts/build_listing_gate.py
-
-              git add -A -- data/listing_gate.json 2>/dev/null || true
-
-            fi
-
-          fi
-
-          if [ "$IN_REGEN" = "true" ] &&
-             [ -f scripts/generate_dashboard_runtime.py ]; then
-
-            echo "대시보드 최종 트리 재생성..."
-
-            python3 -u scripts/generate_dashboard_runtime.py
-
-            git add -A -- data/dashboard_runtime.json 2>/dev/null || true
-
-          fi
-
-          # ----------------------------------------------------------
-          # 4-3. 에이전트 제안도 같이 다시 만든다
-          #
-          # 화면 위쪽 팀 카드는 대시보드가 만들고, 그 아래
-          # '에이전트 제안 · 오늘 우선 5가지' 는 data/agents/ops_plan.json 이다.
-          # 만드는 사람이 달라서 같이 돌리지 않으면 한 화면에
-          # 서로 다른 말이 남는다.
-          #
-          # 2026-09-16 이것을 두 번 놓쯌다.
-          #   고시 때   카드는 "입력 대기 0건" 인데
-          #               제안은 "고시 표 5건 필요" 로 남아 있었다.
-          #   INCI 때  게이트는 "가격 1건" 인데
-          #               제안은 "us_label 5건, 법률 5건" 로 남아 있었다.
-          # 두 번 다 손으로 다시 돌려 메웠지만 그건 고친 것이 아니다.
-          # 발행 직전에 한 번 돌리면 어느 워크플로든 같이 맞는다.
-          #
-          # 순수 계산이다. 네트워크도 API 키도 안 쓰고 0.1초 걸린다.
-          # 대시보드를 읽으므로 반드시 대시보드 뒤에 둔다.
-          # ----------------------------------------------------------
-
-          if [ "$IN_REGEN" = "true" ] &&
-             [ -f scripts/run_jarvis_agents.py ]; then
-
-            echo "에이전트 제안 재생성..."
-
-            python3 -u scripts/run_jarvis_agents.py --force || true
-
-            git add -A -- data/agents 2>/dev/null || true
-
-          fi
-
-          # ----------------------------------------------------------
-          # 4-4. 팀별로 나아지고 있는지 한 번 센다
-          #
-          # 지금 어떤가를 보는 것은 여럿 있었는데 나아지고 있나를
-          # 보는 것이 없었다. 그래서 같은 조치가 며칠씩 걸려 있어도
-          # 사람이 화면을 보고 "저거 어제도 있었는데" 하고 알아책야 했다.
-          #
-          # 대시보드 뒤에 둔다. 팀 카드를 읽어 비교하기 때문이다.
-          # 대시보드가 새로 만들어졌을 때만 회차를 센다.
-          # ----------------------------------------------------------
-
-          if [ "$IN_REGEN" = "true" ] &&
-             [ -f scripts/build_team_improvement.py ]; then
-
-            echo "팀별 개선 추이 집계..."
-
-            python3 -u scripts/build_team_improvement.py || true
-
-            git add -A -- data/team_improvement.json 2>/dev/null || true
-
-          fi
-
-          # ----------------------------------------------------------
-          # 4-2. 화장품 고시 보호
-          #
-          # data/gosi.json 은 다이소 화장품 고시 전용이다.
-          # 전성분·용량·제조국이 들어가고 미국 MoCRA 신고에 쓴다.
-          #
-          # 2026-09-12 에 이 파일이 공무원 시험 합격자 발표 1건으로
-          # 덮여 있었다. git log 30개를 되짚어 보니 하루 종일
-          # 두 워크플로가 서로 덮고 있었다.
-          # gosi-vision 이 14건을 채우면 jarvis_deep_analysis 가 지웠다.
-          #
-          # 여기서 한 번 더 본다. 발행 직전이 마지막 관문이다.
-          # 덮였으면 직전 정상 커밋에서 되살리고, 못 되살리면 멈춘다.
-          # 망가진 고시를 main 에 올리지 않는다.
-          # ----------------------------------------------------------
-
-          if [ -f scripts/guard_gosi.py ] && [ -f data/gosi.json ]; then
-
-            echo "화장품 고시 확인..."
-
-            if ! python3 -u scripts/guard_gosi.py --restore; then
-              echo "::error::data/gosi.json 이 화장품 고시가 아니고"
-              echo "::error::되살릴 정상 커밋도 찾지 못했다."
-              echo "::error::원격 main 에는 푸시하지 않는다."
-              exit 1
-            fi
-
-            git add -A -- data/gosi.json 2>/dev/null || true
-
-          fi
-
-          # ----------------------------------------------------------
-          # 5. 변경사항이 정말 있는지 확인
-          # ----------------------------------------------------------
-
-          if git diff --cached --quiet; then
-            echo "최종 트리에 발행할 변경사항 없음"
-            exit 0
-          fi
-
-          # ----------------------------------------------------------
-          # 6. 커밋 후보 생성
-          # ----------------------------------------------------------
-
-          git commit -q -m "$IN_MESSAGE"
-
-          CANDIDATE=$(git rev-parse HEAD)
-
-          echo "발행 후보 커밋: $CANDIDATE"
-
-          # ----------------------------------------------------------
-          # 7. 중요:
-          #    푸시하기 전에 감사 실행
-          #
-          #    예전에는 push 후 audit이었다.
-          #    그래서:
-          #
-          #      push 성공
-          #      ↓
-          #      audit FAIL
-          #      ↓
-          #      Actions 빨간색
-          #
-          #    이제는:
-          #
-          #      대시보드 생성
-          #      ↓
-          #      audit
-          #      ↓
-          #      audit 통과
-          #      ↓
-          #      push
-          #
-          #    순서로 바꾼다.
-          # ----------------------------------------------------------
-
-          if [ "$IN_AUDIT" = "true" ] &&
-             [ -f scripts/audit_team_reports.py ]; then
-
-            echo "팀 보고 숫자 감사 시작..."
-
-            if ! python3 -u scripts/audit_team_reports.py; then
-              echo "::error::팀 보고 숫자 감사 실패."
-              echo "::error::원격 main에는 아직 푸시하지 않는다."
-              echo "::error::위 FAIL 내용을 먼저 수정한다."
-              exit 1
-            fi
-
-            echo "팀 보고 숫자 감사 통과"
-
-          fi
-
-          # ----------------------------------------------------------
-          # 8. 최종 푸시
-          # ----------------------------------------------------------
-
-          if git push -q origin HEAD:main; then
-
-            echo "========================================"
-            echo "push 성공"
-            echo "시도: $i"
-            echo "이번 실행 변경 파일: ${N}개"
-            echo "========================================"
-
-            exit 0
-          fi
-
-          echo "::warning::push 거절됨. 최신 원격으로 다시 계산한다."
-
-          git reset -q --hard origin/main
-
-          sleep $((i * 4))
-
         done
-
-        echo "::error::5회 시도 후 push 실패"
-        exit 1
