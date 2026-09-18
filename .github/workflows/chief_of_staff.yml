@@ -34,6 +34,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: 'pip' # 패키지 설치 시간 단축을 위한 캐시 추가
 
       - name: Install dependencies
         run: |
