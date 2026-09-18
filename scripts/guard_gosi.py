@@ -1,79 +1,107 @@
-name: Root Collector
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
-on:
-  schedule:
-    - cron: "*/30 * * * *"
-  workflow_dispatch:
+import argparse
+import json
+import subprocess
+import sys
+from pathlib import Path
 
-permissions:
-  contents: write
+ROOT = Path(__file__).resolve().parent.parent
+TARGET = ROOT / "data" / "daiso_real" / "daiso_gosi.json"
 
-concurrency:
-  group: root-collector
-  cancel-in-progress: false
 
-jobs:
-  collect:
-    runs-on: ubuntu-latest
+def load_json(path: Path):
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return None
 
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
+def restore_from_git():
+    try:
+        commits = subprocess.check_output(
+            [
+                "git",
+                "log",
+                "--pretty=format:%H",
+                "--",
+                "data/daiso_real/daiso_gosi.json",
+            ],
+            text=True,
+        ).splitlines()
 
-      - name: Install packages
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests beautifulsoup4 lxml pandas
+        for commit in commits:
+            try:
+                content = subprocess.check_output(
+                    [
+                        "git",
+                        "show",
+                        f"{commit}:data/daiso_real/daiso_gosi.json",
+                    ],
+                    text=True,
+                )
 
-      - name: Create data folders
-        run: |
-          mkdir -p data
-          mkdir -p data/daiso_real
+                data = json.loads(content)
 
-      - name: Guard GOSI (Restore)
-        run: |
-          if [ ! -f data/daiso_real/daiso_gosi.json ]; then
-            echo "{}" > data/daiso_real/daiso_gosi.json
-            echo "Created empty daiso_gosi.json"
-          fi
+                TARGET.parent.mkdir(parents=True, exist_ok=True)
 
-          python -u scripts/guard_gosi.py --restore
+                with open(TARGET, "w", encoding="utf-8") as f:
+                    json.dump(data, f, ensure_ascii=False, indent=2)
 
-      - name: Run GOSI Collector
-        run: |
-          python -u scripts/gosi_collector.py
+                print(f"복구 성공 : {commit[:7]}")
+                return True
 
-      - name: Verify JSON
-        run: |
-          python - <<'PY'
-          import json
-          from pathlib import Path
+            except Exception:
+                continue
 
-          p = Path("data/daiso_real/daiso_gosi.json")
+    except Exception:
+        pass
 
-          if not p.exists():
-              raise SystemExit("daiso_gosi.json missing")
+    return False
 
-          with open(p, "r", encoding="utf-8") as f:
-              json.load(f)
 
-          print("JSON OK")
-          PY
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--restore", action="store_true")
+    args = parser.parse_args()
 
-      - name: Commit & Push
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+    TARGET.parent.mkdir(parents=True, exist_ok=True)
 
-          git add data/daiso_real/daiso_gosi.json
+    if not TARGET.exists():
+        print(f"⚠️ 화장품 고시 없음: {TARGET}")
 
-          git diff --cached --quiet || git commit -m "auto: update cosmetic gosi"
+        if args.restore:
+            print("🚨 복구 시도")
 
-          git push
+            if restore_from_git():
+                return
+
+            with open(TARGET, "w", encoding="utf-8") as f:
+                json.dump({}, f, ensure_ascii=False, indent=2)
+
+            print("🆕 빈 고시 파일 생성")
+            return
+
+        sys.exit(1)
+
+    data = load_json(TARGET)
+
+    if data is None:
+        print("🚨 JSON 손상")
+
+        if args.restore and restore_from_git():
+            return
+
+        with open(TARGET, "w", encoding="utf-8") as f:
+            json.dump({}, f, ensure_ascii=False, indent=2)
+
+        print("🆕 새 JSON 생성")
+        return
+
+    print(f"✅ GOSI 보호 통과 ({len(data)}개)")
+
+
+if __name__ == "__main__":
+    main()
