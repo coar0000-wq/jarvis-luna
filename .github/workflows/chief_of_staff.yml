@@ -1,304 +1,87 @@
-name: 참모장 자동 수정
+name: 루트 수집기 3종 (gosi / product / inci)
 
 on:
   workflow_dispatch:
+
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: '0 2 * * *'
+
+  push:
+    paths:
+      - 'product_discovery.py'
+      - 'gosi_collector.py'
+      - 'inci_converter.py'
+
+concurrency:
+  group: jarvis-main-writer-${{ github.ref }}
+  cancel-in-progress: false
 
 permissions:
   contents: write
 
-# 자동 발행 작업은 한 번에 하나만 실행한다.
-# 새 실행은 기존 실행이 끝날 때까지 대기한다.
-concurrency:
-  group: main-publish
-  cancel-in-progress: false
-
 jobs:
-  chief-auto-fix:
+  root-collectors:
     runs-on: ubuntu-latest
-    timeout-minutes: 45 # 타임아웃 여유 확보 (35 -> 45)
+    timeout-minutes: 25
 
     steps:
-      - name: 저장소 체크아웃
+      - name: Checkout latest main
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Python 설치
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: '3.11'
 
-      - name: 의존성 설치
+      - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          # requirements.txt가 존재할 경우 필요 패키지 설치 (수정됨)
+          # 기존 하드코딩 대신 요구사항 파일 기반으로 설치 (|| true 제거)
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          pip install requests beautifulsoup4
 
-      - name: 최신 main 동기화
-        shell: bash
-        run: |
-          git fetch origin main
-          git reset --hard origin/main
-          git clean -fd
+      # 시작 상태를 남긴다. 이 실행이 고시를 망가뜨렸는지 나중에 구분하려면
+      # 들어올 때 이미 망가져 있었는지를 알아야 한다.
+      - name: 시작 시점 고시 상태 기록
+        continue-on-error: true
+        run: python -u scripts/guard_gosi.py
 
-      - name: 제외 규칙으로 상품 목록 정리
-        shell: bash
-        run: |
-          python -u scripts/daiso/prune_excluded_products.py --apply
+      - name: 시험 공고 수집 (data/civil_service_gosi.json 전용)
+        continue-on-error: true
+        run: python -u gosi_collector.py
 
-          if ! git diff --quiet -- data/daiso_real/products.json; then
-            echo "상품 목록이 바뀌었다. 점수를 다시 계산한다."
-            python -u scripts/daiso/score_shopify_demand.py
-          else
-            echo "걸린 상품이 없다. 점수는 그대로 둔다."
-          fi
-
-      - name: 등록 게이트 1차 재계산
-        shell: bash
-        run: |
-          python scripts/build_listing_gate.py
-
-          python - <<'PY'
-          import json
-          from pathlib import Path
-
-          path = Path("data/listing_gate.json")
-          data = json.loads(path.read_text(encoding="utf-8"))
-          counts = data.get("counts") or {}
-
-          print("===== 현재 등록 게이트 =====")
-          print(f"S등급 전체 : {data.get('total', 0)}")
-          print(f"등록 가능  : {data.get('ready', 0)}")
-          print(f"카피       : {counts.get('copy', 0)}")
-          print(f"고시       : {counts.get('gosi', 0)}")
-          print(f"가격       : {counts.get('price', 0)}")
-          print(f"법률       : {counts.get('legal', 0)}")
-          print(f"병목       : {data.get('blockers') or {}}")
-          print("============================")
-          PY
-
-      - name: Shopify 카피 자동 보완
-        shell: bash
+      - name: 상품 수요 신호 수집 (data/products.json)
+        continue-on-error: true
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: |
-          NEED_COPY=$(python - <<'PY'
-          import json
-          from pathlib import Path
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }} # API 키 추가
+        run: python -u product_discovery.py
 
-          try:
-              data = json.loads(
-                  Path("data/listing_gate.json").read_text(
-                      encoding="utf-8"
-                  )
-              )
-              print(
-                  1 if (data.get("blockers") or {}).get("copy", 0) > 0
-                  else 0
-              )
-          except Exception:
-              print(0)
-          PY
-          )
-
-          if [ "$NEED_COPY" = "1" ]; then
-            echo "카피 병목 발견"
-            if [ -z "${GEMINI_API_KEY:-}" ]; then
-              echo "::warning::GEMINI_API_KEY가 없어 카피 보완을 건너뜁니다."
-            else
-              python -u scripts/gemini_listing_copy.py || true
-            fi
-          else
-            echo "카피 병목 없음"
-          fi
-
-      - name: 고시 정보 수집 및 라벨 동기화
-        shell: bash
+      - name: INCI 변환 (data/daiso_real/daiso_gosi.json)
+        continue-on-error: true
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }} # <-- 핵심 수정: 비전 추출을 위해 API 키 환경변수 추가
-        run: |
-          NEED_GOSI=$(python - <<'PY'
-          import json
-          from pathlib import Path
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }} # API 키 추가
+        run: python -u inci_converter.py
 
-          try:
-              data = json.loads(
-                  Path("data/listing_gate.json").read_text(
-                      encoding="utf-8"
-                  )
-              )
-              print(
-                  1 if (data.get("blockers") or {}).get("gosi", 0) > 0
-                  else 0
-              )
-          except Exception:
-              print(1)
-          PY
-          )
+      # 여기가 핵심이다. 어떤 단계가 화장품 고시를 덮었다면
+      # 커밋하기 전에 직전 정상 커밋에서 되살린다.
+      # 되살리지 못하면 종료코드 1 로 멈춘다. 망가진 채로 올리지 않는다.
+      - name: 화장품 고시 보호 (덮였으면 복구, 못 하면 중단)
+        run: python -u scripts/guard_gosi.py --restore
 
-          if [ "$NEED_GOSI" = "1" ]; then
-            echo "고시 병목 발견"
+      - name: 대시보드 생성
+        run: python -u scripts/generate_dashboard_runtime.py
 
-            python -u scripts/collect_daiso_gosi.py || true
-            python -u scripts/sync_gosi_to_us_labels.py
-
-            if [ -n "${GEMINI_API_KEY:-}" ]; then
-              echo "Gemini 비전 추출 시작"
-              VISION_BUDGET_SEC=900 \
-                python -u scripts/extract_gosi_vision.py || true
-
-              python -u scripts/sync_gosi_to_us_labels.py
-            else
-              echo "::warning::GEMINI_API_KEY가 없어 비전 추출을 건너뜁니다."
-            fi
-          else
-            echo "고시 병목 없음"
-          fi
-
-      - name: 법률 자동 점검 갱신
-        shell: bash
-        run: |
-          python -u scripts/check_legal_products.py
-
-      - name: 등록 게이트 최종 재계산
-        shell: bash
-        run: |
-          python scripts/build_listing_gate.py
-
-          python - <<'PY'
-          import json
-          from pathlib import Path
-
-          data = json.loads(
-              Path("data/listing_gate.json").read_text(
-                  encoding="utf-8"
-              )
-          )
-          counts = data.get("counts") or {}
-
-          print("===== 최종 등록 게이트 =====")
-          print(f"등록 가능 {data.get('ready', 0)}/{data.get('total', 0)}")
-          print(
-              f"카피 {counts.get('copy', 0)} / "
-              f"고시 {counts.get('gosi', 0)} / "
-              f"가격 {counts.get('price', 0)} / "
-              f"법률 {counts.get('legal', 0)}"
-          )
-          print(f"병목: {data.get('blockers') or {}}")
-          print("============================")
-          PY
-
-      - name: 점수 파생 산출물 재생성
-        shell: bash
-        run: |
-          python -u scripts/build_market_team.py
-          python -u scripts/daiso/export_shopify_s_csv.py
-
-      - name: 채널 후보 재생성
-        shell: bash
-        run: |
-          python -u scripts/discover_channels.py
-
-      - name: 대시보드 최종 생성
-        shell: bash
-        run: |
-          python scripts/generate_dashboard_runtime.py
-
-      - name: 에이전트 진단 및 오늘 우선순위 생성
-        shell: bash
-        env:
-          JARVIS_AGENTS_FORCE: "1"
-        run: |
-          python -u scripts/run_jarvis_agents.py --force
-
-          echo "===== 에이전트 산출물 ====="
-
-          for f in \
-            data/agents/ops_plan.json \
-            data/agents/last_run.json \
-            data/agents/collector_audit.json \
-            data/agents/signal_audit.json
-          do
-            if [ -f "$f" ]; then
-              echo "OK: $f"
-            else
-              echo "::warning::에이전트 산출물 없음: $f"
-            fi
-          done
-          echo "==========================="
-
-      - name: 변경사항 확인 (기록용)
-        shell: bash
-        run: |
-          echo "===== 작업 폴더 상태 ====="
-          git status --short
-          echo "=========================="
-
+      # git add -A 를 쓰지 않는다. 이번 실행이 만든 것만 올린다.
       - name: 산출물 발행 (원격 최신 위에 이번 변경만)
         if: always()
         uses: ./.github/actions/publish
         with:
           paths: >-
-            data/listing_gate.json
-            data/shopify_listing_copy.json
-            data/gosi.json
-            data/daiso_real/daiso_us_labels.json
-            data/daiso_real/us_label_sync_report.json
-            data/legal_products.json
-            data/daiso_real/gosi_img
-            data/daiso_real/products.json
-            data/daiso_real/excluded_products.json
-            data/daiso_real/shopify_demand_score.json
-            data/daiso_real/shopify_s_recommendations.json
-            data/daiso_real/shopify_s_products_import.csv
-            data/daiso_real/last_commit_summary.json
-            data/channel_candidates.json
-            data/market_team.json
-            data/marketing_priority.csv
+            data/civil_service_gosi.json
+            data/products.json
+            data/daiso_real/daiso_gosi.json
             data/dashboard_runtime.json
-            data/agents/ops_plan.json
-            data/agents/last_run.json
-            data/agents/collector_audit.json
-            data/agents/signal_audit.json
-          message: 참모장 · 등록 게이트 및 파생 산출물 갱신
+          message: 루트 수집기 3종 실행 결과
           regenerate-dashboard: 'true'
-          audit: 'true'
-
-      - name: 최종 요약
-        if: always()
-        shell: bash
-        run: |
-          if [ -f data/listing_gate.json ]; then
-            python - <<'PY'
-          import json
-          from pathlib import Path
-
-          data = json.loads(
-              Path("data/listing_gate.json").read_text(
-                  encoding="utf-8"
-              )
-          )
-
-          print("===================================")
-          print("       JARVIS 참모장 최종 보고")
-          print("===================================")
-          print(
-              f"등록 가능: {data.get('ready', 0)}/{data.get('total', 0)}"
-          )
-          print(f"병목: {data.get('blockers') or {}}")
-
-          for item in data.get("items") or []:
-              if item.get("blocked_by"):
-                  print(
-                      f"- {item.get('pd_no')} "
-                      f"{item.get('name')}: "
-                      f"{', '.join(item.get('blocked_by') or [])}"
-                  )
-
-          print("===================================")
-          PY
-          else
-            echo "listing_gate.json 없음"
-          fi
