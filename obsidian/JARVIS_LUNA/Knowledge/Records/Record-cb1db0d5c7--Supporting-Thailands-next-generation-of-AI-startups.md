@@ -2,7 +2,7 @@
 title: "Record cb1db0d5c7 · Supporting-Thailands-next-generation-of-AI-startups"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T08:34:32.026955+00:00
+updated_at: 2026-09-18T08:51:42.718054+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 3f4ead722a · Perplexity-Shopping-How-to-Optimize-Your-Store-for-AI---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T08:34:31.786747+00:00
+updated_at: 2026-09-18T08:51:42.601908+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiYEFVX3lxTFBpVElaMDZRb2dMRGhIMXlmWk5tclZXUUdsVWtGMllWUm9KamJOMngxUEhKbHlmNEZFMW9ZV2gxaEc3VUlWamsxTVM3TmJjbjBDT2xxVkdqSFd4NHhoM2JKRA?oc=5)
 
-**제목:** Perplexity Shopping: How to Optimize Your Store for AI - Shopify
+**제목:** Perplexity Shopping: How to Optimize Your Store for AI - shopify.com
 
-Perplexity Shopping: How to Optimize Your Store for AI - Shopify
+Perplexity Shopping: How to Optimize Your Store for AI - shopify.com
 
 **출처:** Source · Google Search
 

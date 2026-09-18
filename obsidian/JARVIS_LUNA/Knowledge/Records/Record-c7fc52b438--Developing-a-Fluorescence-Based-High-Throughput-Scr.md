@@ -2,7 +2,7 @@
 title: "Record c7fc52b438 · Developing-a-Fluorescence-Based-High-Throughput-Screening-Method-for-N"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T08:34:31.646117+00:00
+updated_at: 2026-09-18T08:51:42.533493+00:00
 tags: [record, real-data]
 ---
 

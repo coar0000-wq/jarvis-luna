@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T03:02:45.361095+00:00",
+  "generated_at": "2026-09-18T08:50:12.038082+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "trump news",
-          "approx_traffic": "10000+",
-          "traffic_num": 10000,
-          "published": "Thu, 17 Sep 2026 19:20:00 -0700",
-          "source_name": "Fox News",
-          "url": "https://trends.google.com/trending?geo=US&q=trump%20news"
-        },
-        {
-          "keyword": "digger",
+          "keyword": "fuel",
           "approx_traffic": "5000+",
           "traffic_num": 5000,
-          "published": "Thu, 17 Sep 2026 19:20:00 -0700",
+          "published": "Fri, 18 Sep 2026 00:30:00 -0700",
+          "source_name": "Fox Business",
+          "url": "https://trends.google.com/trending?geo=US&q=fuel"
+        },
+        {
+          "keyword": "gas",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Fri, 18 Sep 2026 00:30:00 -0700",
           "source_name": "The Washington Post",
-          "url": "https://trends.google.com/trending?geo=US&q=digger"
+          "url": "https://trends.google.com/trending?geo=US&q=gas"
         },
         {
-          "keyword": "kristen bell",
+          "keyword": "nfl schedule this week",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Fri, 18 Sep 2026 00:20:00 -0700",
+          "source_name": "NFL.com",
+          "url": "https://trends.google.com/trending?geo=US&q=nfl%20schedule%20this%20week"
+        },
+        {
+          "keyword": "covid test",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Thu, 17 Sep 2026 19:30:00 -0700",
-          "source_name": "Yahoo",
-          "url": "https://trends.google.com/trending?geo=US&q=kristen%20bell"
+          "published": "Fri, 18 Sep 2026 00:40:00 -0700",
+          "source_name": "San Francisco Chronicle",
+          "url": "https://trends.google.com/trending?geo=US&q=covid%20test"
         },
         {
-          "keyword": "copa libertadores",
+          "keyword": "diesel fuel",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Thu, 17 Sep 2026 19:30:00 -0700",
-          "source_name": "Olé",
-          "url": "https://trends.google.com/trending?geo=US&q=copa%20libertadores"
+          "published": "Fri, 18 Sep 2026 00:30:00 -0700",
+          "source_name": "CNBC",
+          "url": "https://trends.google.com/trending?geo=US&q=diesel%20fuel"
         },
         {
-          "keyword": "accidente",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Thu, 17 Sep 2026 19:10:00 -0700",
-          "source_name": "San Antonio Express-News",
-          "url": "https://trends.google.com/trending?geo=US&q=accidente"
-        },
-        {
-          "keyword": "jeff bezos",
+          "keyword": "mortgage rates today",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Thu, 17 Sep 2026 19:40:00 -0700",
-          "source_name": "NBC 6 South Florida",
-          "url": "https://trends.google.com/trending?geo=US&q=jeff%20bezos"
+          "published": "Fri, 18 Sep 2026 01:30:00 -0700",
+          "source_name": "CNN",
+          "url": "https://trends.google.com/trending?geo=US&q=mortgage%20rates%20today"
         },
         {
-          "keyword": "white sox standings",
+          "keyword": "australia vs zimbabwe",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Thu, 17 Sep 2026 19:30:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=white%20sox%20standings"
+          "published": "Fri, 18 Sep 2026 01:30:00 -0700",
+          "source_name": "Cricinfo",
+          "url": "https://trends.google.com/trending?geo=US&q=australia%20vs%20zimbabwe"
         },
         {
-          "keyword": "jake garcia nascar",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Thu, 17 Sep 2026 19:30:00 -0700",
-          "source_name": "NASCAR.com",
-          "url": "https://trends.google.com/trending?geo=US&q=jake%20garcia%20nascar"
+          "keyword": "alejandro tosti",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Fri, 18 Sep 2026 01:20:00 -0700",
+          "source_name": "Golfweek",
+          "url": "https://trends.google.com/trending?geo=US&q=alejandro%20tosti"
         },
         {
-          "keyword": "phillies magic number",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Thu, 17 Sep 2026 19:30:00 -0700",
-          "source_name": "MLB.com",
-          "url": "https://trends.google.com/trending?geo=US&q=phillies%20magic%20number"
+          "keyword": "entertainment",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Fri, 18 Sep 2026 00:30:00 -0700",
+          "source_name": "Variety",
+          "url": "https://trends.google.com/trending?geo=US&q=entertainment"
         },
         {
-          "keyword": "conmebol libertadores",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Thu, 17 Sep 2026 19:20:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=conmebol%20libertadores"
+          "keyword": "target 30th anniversary pokemon",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Fri, 18 Sep 2026 00:30:00 -0700",
+          "source_name": "Pokemon.com",
+          "url": "https://trends.google.com/trending?geo=US&q=target%2030th%20anniversary%20pokemon"
         }
       ]
     },
@@ -313,19 +313,14 @@
           "url": "https://www.allure.com/story/best-of-beauty-2026-winners"
         },
         {
-          "title": "The 2026 Allure Best of Beauty Hair-Product Award Winners Prioritize Hair and Scalp Health",
-          "published": "Thu, 17 Sep 2026 11:00:00 +0000",
-          "url": "https://www.allure.com/story/best-of-beauty-2026-hair-care-product-winners"
-        },
-        {
-          "title": "These 2026 Allure Best of Beauty Award-Winning Makeup Tools Will Transform Your Beauty Routine",
-          "published": "Thu, 17 Sep 2026 11:00:00 +0000",
-          "url": "https://www.allure.com/story/best-of-beauty-2026-hair-tools-makeup-brushes"
-        },
-        {
           "title": "The Allure 2026 Best of Beauty Breakthrough Winners Are So Impressive They Have Their Own Category",
           "published": "Thu, 17 Sep 2026 11:00:00 +0000",
           "url": "https://www.allure.com/story/best-of-beauty-2026-breakthrough-awards-winners"
+        },
+        {
+          "title": "The 2026 Best of Beauty-Winning Lip Products Will Transform Your Lip Combo",
+          "published": "Thu, 17 Sep 2026 11:00:00 +0000",
+          "url": "https://www.allure.com/story/best-of-beauty-2026-lips-winners"
         },
         {
           "title": "The 2026 Allure Best of Beauty Nails Winners Are Show-Stoppers",
@@ -336,6 +331,11 @@
           "title": "The 2026 Allure Best of Beauty Clean Beauty Winners Hit All the Right Marks",
           "published": "Thu, 17 Sep 2026 11:00:00 +0000",
           "url": "https://www.allure.com/story/best-of-beauty-2026-clean-skin-care-brands-winners"
+        },
+        {
+          "title": "These 2026 Allure Best of Beauty Award-Winning Makeup Tools Will Transform Your Beauty Routine",
+          "published": "Thu, 17 Sep 2026 11:00:00 +0000",
+          "url": "https://www.allure.com/story/best-of-beauty-2026-hair-tools-makeup-brushes"
         }
       ]
     },

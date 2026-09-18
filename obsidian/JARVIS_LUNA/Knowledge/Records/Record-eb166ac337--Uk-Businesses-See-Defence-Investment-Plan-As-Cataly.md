@@ -2,7 +2,7 @@
 title: "Record eb166ac337 · Uk-Businesses-See-Defence-Investment-Plan-As-Cataly"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T08:34:32.173326+00:00
+updated_at: 2026-09-18T08:51:42.781513+00:00
 tags: [record, real-data]
 ---
 

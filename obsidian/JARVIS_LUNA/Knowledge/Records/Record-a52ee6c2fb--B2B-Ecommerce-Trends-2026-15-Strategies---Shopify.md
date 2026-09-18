@@ -2,7 +2,7 @@
 title: "Record a52ee6c2fb · B2B-Ecommerce-Trends-2026-15-Strategies---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T08:34:31.843425+00:00
+updated_at: 2026-09-18T08:51:42.629462+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMie0FVX3lxTE9Yb3lOaUZ4bTNmVUp1UDdmN3hxM2JMdE5GbHlZWkpLSmFZdUF1bkZNRnRhWTllVFN5dzNXWkh4N0I1b2pEUG1zSUd2V005ZzVpS3dTal9fWnB1SThjeklIU0tOT3BDWDFnYlRzREVZN1JzMDAwNTA1Mkg5NA?oc=5)
 
-**제목:** B2B Ecommerce Trends 2026: 15 Strategies - Shopify
+**제목:** B2B Ecommerce Trends 2026: 15 Strategies - shopify.com
 
-B2B Ecommerce Trends 2026: 15 Strategies - Shopify
+B2B Ecommerce Trends 2026: 15 Strategies - shopify.com
 
 **출처:** Source · Google Search
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T02:55:18.246130+00:00",
+  "generated_at": "2026-09-18T08:43:41.518208+00:00",
   "generator": "scripts/collect_robotics.py",
   "목적": "옵시디언 주제 '로보틱스' 가 3건뿐이던 문제를 해결한다. 분류기는 정상이었고 수집원에 로봇 자료가 없었던 것이 원인이다.",
   "접근_정책": "arXiv 은 프로그램 접근용 export.arxiv.org 를 제공하며 그 주소만 사용하고 요청 간 3초를 둔다. RSS 두 곳은 robots.txt 허용을 확인했다.",
@@ -27,7 +27,7 @@
         },
         {
           "title": "Digit 5 May Be the First Humanoid Robot Worker That’s Truly Safe",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/a-front-and-an-angled-view-of-a-teal-colored-humanoid-robot-with-arms-bent-at-the-elbow.jpg?id=67776740&width=1245&height=700&coordinates=0%2C187%2C0%2C188\"/><br/><br/><p><span>Despite the recent deluge of videos of humanoid robots doing backflips and kung-fu, the actual pace of progress towards humanoids that can do economically viable jobs at sca",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/a-front-and-an-angled-view-of-a-teal-colored-humanoid-robot-with-arms-bent-at-the-elbow.jpg?id=67776740&width=1245&height=700&coordinates=0%2C187%2C0%2C188\"/><br/><br/><p><span>Despite the recent deluge of videos of humanoid robots doing backflips and kung fu, the actual pace of progress towards humanoids that can do economically viable jobs at sca",
           "published": "Tue, 15 Sep 2026 15:22:30 +0000",
           "url": "https://spectrum.ieee.org/humanoid-robot-safety",
           "feed": "IEEE Spectrum Robotics",

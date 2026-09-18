@@ -1,73 +1,73 @@
 {
-  "generated_at": "2026-09-18T02:56:52.047926+00:00",
+  "generated_at": "2026-09-18T08:45:38.795485+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
   "pool_size": 2231,
   "제목없어_버림": 38,
-  "unrouted": 6,
+  "unrouted": 8,
   "summary": {
     "sourcing": {
-      "total": 344,
-      "recent": 342,
+      "total": 343,
+      "recent": 341,
       "material": 5,
       "material_recent": 3,
-      "products": 339
+      "products": 338
     },
     "market": {
-      "total": 476,
+      "total": 475,
       "recent": 40,
-      "material": 476,
+      "material": 475,
       "material_recent": 40,
       "products": 0
     },
     "listing": {
-      "total": 17,
-      "recent": 11,
-      "material": 17,
-      "material_recent": 11,
+      "total": 19,
+      "recent": 12,
+      "material": 19,
+      "material_recent": 12,
       "products": 0
     },
     "pricing": {
-      "total": 15,
+      "total": 14,
       "recent": 6,
-      "material": 15,
+      "material": 14,
       "material_recent": 6,
       "products": 0
     },
     "legal": {
       "total": 115,
-      "recent": 15,
+      "recent": 16,
       "material": 115,
-      "material_recent": 15,
+      "material_recent": 16,
       "products": 0
     },
     "design": {
-      "total": 361,
-      "recent": 98,
-      "material": 361,
-      "material_recent": 98,
+      "total": 359,
+      "recent": 99,
+      "material": 359,
+      "material_recent": 99,
       "products": 0
     },
     "robotics": {
-      "total": 64,
-      "recent": 29,
-      "material": 64,
-      "material_recent": 29,
+      "total": 59,
+      "recent": 24,
+      "material": 59,
+      "material_recent": 24,
       "products": 0
     },
     "knowledge": {
-      "total": 178,
-      "recent": 71,
-      "material": 178,
-      "material_recent": 71,
+      "total": 180,
+      "recent": 73,
+      "material": 180,
+      "material_recent": 73,
       "products": 0
     },
     "institutions": {
       "total": 1062,
-      "recent": 256,
+      "recent": 258,
       "material": 1062,
-      "material_recent": 256,
+      "material_recent": 258,
       "products": 0
     }
   },
@@ -614,6 +614,13 @@
         "by_hand": true
       },
       {
+        "title": "Upgrade your routine with #SoMuchKBeauty at SM Beauty - Philstar.com",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTEprNXlReUZJTWcyV3FGR3hQOFFseWw2SU5Cc2VJOFpvT0VQcmJ3RzdLUkhQSFRtYzNqMEd5VHhkQi0yVjloNmpKcFhHem0yLVVuaFFBMkltVHkzejA2SnpQdk1fQkhuVE94RnZfUFVGVHJrWTEtcWp4cl9MVmlIUHNSSGdFdk9VLWhTd2k1d1dkejVRMW5YV1kzQllPMl9sR3YydEJlX1RkR0JWTzc1MzNJbDRTTnl30gG_AUFVX3lxTE9BSEJpNjhTWVFTWGZ0ZjVfQW9uUVA4VHZ4RWZhR093YXV1UTh4Y3VVX21DSE52VGMxOWRVU1REbzFWSW9kdG9POTRra3hUVkEzUXQ5OERpMjk2SmUtQXZUNVRuSEhSS3o5WEk3aUt0Sy1IWjd3eml5ZnlGMFh4VEJkQVlISXVZRjlsWTI3TXkxamQ0V3RJbHUyOFpTQ1ktbGtGSmZJV2I1ZUdsalMyT09zSWZVZTkwMWVSeVV1WFhN?oc=5",
+        "pool": "google",
+        "date": "2026-09-18",
+        "by_hand": false
+      },
+      {
         "title": "SK hynix Presents ‘New Spectrum’ for AI Infrastructure at ‘AI Infra Summit 2026’",
         "url": "https://news.skhynix.com/en/ai-infra-summit-2026/",
         "pool": "institutions",
@@ -621,15 +628,8 @@
         "by_hand": false
       },
       {
-        "title": "Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - HS Insider",
+        "title": "Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - highschool.latimes.com",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPc2g3NThETVhLa3FISG94RmRGSURCVlJ6aGNHUWZleXJHS0VfTUd0ZEZJUzduRVpjSGxTcGRKNlhKeXVCVHpMTmpFWjBPcHdzYkIyeG1lcHJXeVV6cHFPZXl5UFdnUkpRNDVRLXFjZTFtNmpmYThKdmVveTBTM0ZsN1lBNjJyRE9UVmZReGlaeG54Mko1ZDItRlFoUXZKc1BRcmwzSnR3RGVpTjRzbVVTcDI4dw?oc=5",
-        "pool": "google",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "The world of K-beauty, pulled into one Seoul office - Aju Press",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1FVEpVbjd4NHpkSXRMLWMxUlZhanFySno3X2l3OGxrN3h0UmxVQ2dOcUEyd3NLZ21hSWdMekdkM3dVR0Q0aGtCbm9RYmc4Z1Zla1NRTWQ1MDJhUmvSAVdBVV95cUxNVGRpVXFONVRXV2tBeTh3Y1lmc0h0aWhucTJzR0JNa2lad3hVUUpVTm8tUWJLM0UzYXNtb1MtcWVSTUZjUk91aGwySU16UmNZUDdCczc3LWM?oc=5",
         "pool": "google",
         "date": "2026-09-17",
         "by_hand": false
@@ -642,8 +642,8 @@
         "by_hand": false
       },
       {
-        "title": "This K-beauty sunscreen is a game-changer for oily skin - The Independent",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOajJuaWhEU0dCRWFaQ1FzWUpwbUtPRXJET1NmRUFJR01Qb2VoaUREUzBtZFZZLVB0elVmZmFpOENqdldFZXd2TkJGX3UzWXFzQ2RJRWpOb1ZtTFpfcGxYYkNDMUt0NmNzdmg2YzJWYTg3UmZ4RlotVjZ3UDdNQnRXMGtBVEgtU2FzY1BJb2JMY1RBa0pSeWpZLWdhZlVPWDh1ZXBady1DRjBaUkdFemdyZG1menFpSlc0VWZrMlQ0VF9vY0dqZkxVYg?oc=5",
+        "title": "The world of K-beauty, pulled into one Seoul office - Aju Press",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1FVEpVbjd4NHpkSXRMLWMxUlZhanFySno3X2l3OGxrN3h0UmxVQ2dOcUEyd3NLZ21hSWdMekdkM3dVR0Q0aGtCbm9RYmc4Z1Zla1NRTWQ1MDJhUmvSAVdBVV95cUxNVGRpVXFONVRXV2tBeTh3Y1lmc0h0aWhucTJzR0JNa2lad3hVUUpVTm8tUWJLM0UzYXNtb1MtcWVSTUZjUk91aGwySU16UmNZUDdCczc3LWM?oc=5",
         "pool": "google",
         "date": "2026-09-17",
         "by_hand": false
@@ -656,8 +656,22 @@
         "by_hand": false
       },
       {
+        "title": "This K-beauty sunscreen is a game-changer for oily skin - The Independent",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOajJuaWhEU0dCRWFaQ1FzWUpwbUtPRXJET1NmRUFJR01Qb2VoaUREUzBtZFZZLVB0elVmZmFpOENqdldFZXd2TkJGX3UzWXFzQ2RJRWpOb1ZtTFpfcGxYYkNDMUt0NmNzdmg2YzJWYTg3UmZ4RlotVjZ3UDdNQnRXMGtBVEgtU2FzY1BJb2JMY1RBa0pSeWpZLWdhZlVPWDh1ZXBady1DRjBaUkdFemdyZG1menFpSlc0VWZrMlQ0VF9vY0dqZkxVYg?oc=5",
+        "pool": "google",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
         "title": "Consider This Your Ultimate K-Beauty Shopping List - SheerLuxe",
         "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObTUzLUttQ3RtcmstRTRwc3pKcy0zdkVzamxaVFJVSkZvenNyVm84N2xVZUNOWHl1SUtsUFpsaVNnNEc4VmNTOXdtMjFkQlUzMlU4NElMc1pLMUlDZ05iejBGSjg3UWd4UDBhOUJ0WEFIM1RKYU1OcDBobGtIN1hNdzE2ME1BUQ?oc=5",
+        "pool": "google",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "K-beauty Lands At Coles - supermarketnews.co.nz",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4xSmhTdGhsT2ZPV0hZYl9GVjA4ZklJYUJQdzRUY002UjRnMnBHZGZZZzBIalhqX0ZnLVc3NUNiLUlwUWlZaGlydmNpUmpobnRhV0lGeW1nekpQNVl1WW16b2xBZVZYR3BmQ3cyTjBR?oc=5",
         "pool": "google",
         "date": "2026-09-17",
         "by_hand": false
@@ -670,15 +684,8 @@
         "by_hand": false
       },
       {
-        "title": "SA-Korean duo behind Bephor is giving K-beauty hair care Mzansi flair - Bizcommunity",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdVhOb2NYT3Q2WUxIQUJLWDZWUklHVVVXVWFYMWpTdWxzb05TdDBDSDdxa1NOWHpLNTlDczdUYkw2WU4wdW52UGFuQTB2YzE4ZkVkcGFqRzFydGtSVWVscm9SaV9ySmZOS3FYZTlyZzJXcnFjRVVlVTItc28xMFgtYzN0azJVSFVxekVOS2lsNmxGQWdIMEhLRGlUUEx2SlJPM1lNRllydHMxamV3bkhwamZvcks?oc=5",
-        "pool": "google",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "This TikTok Beauty Trend Can Help You Save Money and Cut Down on Clutter - Good Housekeeping",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSzN5emU2RjE1eGNjY3BfWi1QT2tETFQ0LXJjenVSU0Z1VnlKdVN5NHhBZFh6MGtnSWJJSDJHTGtMWGlpdF9kMXozS3JWTGduNVFWSEVyeTByd09JenQyYjdtWW10dW83UUJLemdVRzlXZkpUdXp1ckRFNHNWR1AyTVZBb29OWDRQQlVzUA?oc=5",
+        "title": "This TikTok Beauty Trend Can Help You Save Money and Cut Down on Clutter - Yahoo Lifestyle Canada",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1QVlp1UGRhWlEyejViMHkySVlSODdHaktDWW5oUDlxRll6eFNmcW1LUzFVZWQxajlIemxHN09CLXQ4Vm9ONC1RYzFuaVp6UGZ0azZTaHlJQVUwV3ZrVlBmVkRlUEgwTFJTcUhjMnhLY2pWWU95dHZHeGh5dw?oc=5",
         "pool": "google",
         "date": "2026-09-17",
         "by_hand": false
@@ -705,7 +712,7 @@
         "by_hand": false
       },
       {
-        "title": "K-beauty: Why Korea's skincare industry is dominating cosmetics - rte.ie",
+        "title": "K-beauty: Why Korea's skincare industry is dominating cosmetics - RTE.ie",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdzBLZFB4dFNnQnNvRm52OFZDZDhOR0tZbml1WjQ0b2ZDb1JPMi16VEY2b0FDUURnTmNwd3c4bWhWaFp1SHZ5NXdVQjVBWEx3Qm5iT1FJVm05bUNlZEVRY3RkN2VYaThRYWZvc2RGc0JkWXhHX3BYbGNBY0pmUVRhdTY1UkhTM19Hd1pCQjZWc09JUC1SUzhJV0FEckRZSFlRTHZlNThMckowQWhKaEFheTVCQjZsRVpD?oc=5",
         "pool": "google",
         "date": "2026-09-16",
@@ -719,7 +726,7 @@
         "by_hand": false
       },
       {
-        "title": "The 19 Most Innovative Skincare Products of 2026, Tested and Reviewed - harpersbazaar.com",
+        "title": "The 19 Most Innovative Skincare Products of 2026, Tested and Reviewed - Harper's BAZAAR",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSmNOT09ralZTLXpEZ0xuYXZqTHVOX3RaVXJlWlJqc3VzTV9GOXFnU3NOU1QyNUp6YnNuTTNUbDAzUVBhQUNRVEwwalNrdjB0ZzhwY3JRVEt2T3VjV3Z0YnprNmN6LUtOcVZ0YUx6dkpNU3dETktyMkRCWmlRLWsyRjFBOVlFcGE3?oc=5",
         "pool": "google",
         "date": "2026-09-16",
@@ -740,7 +747,14 @@
         "by_hand": false
       },
       {
-        "title": "From Skin Patches to Haircare, These Are the K-Beauty Products That Are Actually Popular in Korea - wwd.com",
+        "title": "PDRN make-up: How K-beauty’s trending skin care ingredient is moving into colour cosmetics - Cosmetics Business",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5hUjBkN2xpRlFvamdfRndGMTQtTC1OeEZNRFIxcXRGeHBxNGtaRi1pMkp2Qzc0eGg4ZkxpZm1pOHd6bG9IYmhiVWdOU2IyMl9xaE5OREhMTjlpeUZfTS1iNXRuMXJwVnVCeDQ2Z25vOFJaQWh5WUJ4WVRENA?oc=5",
+        "pool": "google",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "From Skin Patches to Haircare, These Are the K-Beauty Products That Are Actually Popular in Korea - WWD",
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTWhmVlpqOU5iUWRfT2x1V0Y0cmVlMVNQZElYaFQyUEpHQmRDZUJNdkNFMy03WUptY0ZfMXJubWJramM4dUFSZXl1SDR5QUl2UE0xeVNqbHl5X3RQUXZfV3Q1am1QcDN6UFRVbkdYN2dEUHo0Z3pKT3dMZ0tFNlNaUXE5TzZjTjJfNnlJTnVBUjdvTlBkNmRHTVFyanZZa2YwcDhEdQ?oc=5",
         "pool": "google",
         "date": "2026-09-14",
@@ -754,15 +768,22 @@
         "by_hand": false
       },
       {
-        "title": "From Musinsa to Daiso, K-beauty is rewriting Korea’s retail playbook - The Korea Herald",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5SY082WGxWOEt4ZDNISVVtSTJpNEJhMjNPMnFhOW1uNWEwY19EYTl6RDhxVkFzT0VMU180VkJRaE1QTV96OXRDdE1DcVhaTkVwUHpxU1BjRQ?oc=5",
+        "title": "SUNGBOON EDITOR And Milk Touch Bring Next-Generation K-Beauty To Target Beauty Studio - PR Newswire",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVnFIcTVoMDE4cHNFWG9BVm1GeEp4T2NMc2ZwY1VhbmhzYzBoWjMxOTdfSWlVVWRaS0xyZ096RnAyN1B1QkxCZkY2OGZEblRMRm1hX0JqVGYwTURPZkhuTG4zVU5zdnQzeDR3U1liWTRiWDNEa25RUU1mU2x0VUVXUUZUVG1kazN6NXlwUC1EVldEYWRFZlp1NnlseG53Yy04a2cxNTJiQ2FQMDdES3NpUUNpTHhPQ2NyTEcyTE84Zlo0M0VtalYzVmhyX2RLYVZqQTFuQWZsUW8?oc=5",
         "pool": "google",
         "date": "2026-09-14",
         "by_hand": false
       },
       {
-        "title": "K-Beauty Dominates AI Base Makeup Recommendations - 조선일보",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeXhNVXR2WTVXRGlJY0F3S0dYR2xKSUlCSnZtdDVMM3dQMXFkVUg2V0N4Z1JoM2JVTVRmTmdfSWU4dDR0bTNmOFBwX2c3cy1sYlcyVjZzVmJ1TkhGTkhwaXRldFN1ZDJFTmJZdUJPNHJiZ1gyNFBGajVtWDdObkVIUzlpRVptRllS?oc=5",
+        "title": "Mainstream K-Beauty Expansions: SUNGBOON EDITOR and Milk Touch Enter Target Beauty Studio - Trend Hunter",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE96WXJUaXZud0RKa2hHSmRCZ1NLVGRGeVZwZXROTXZKa21la3AydnhVZ1BycWNia0RkV3ZNZDhOZ2ZnLWZLRWdiR3lYRU12SlVXT243ang0N1FKbWlJSjBuTGhKbTRXX1R0bFM0?oc=5",
+        "pool": "google",
+        "date": "2026-09-14",
+        "by_hand": false
+      },
+      {
+        "title": "From Musinsa to Daiso, K-beauty is rewriting Korea’s retail playbook - The Korea Herald",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5SY082WGxWOEt4ZDNISVVtSTJpNEJhMjNPMnFhOW1uNWEwY19EYTl6RDhxVkFzT0VMU180VkJRaE1QTV96OXRDdE1DcVhaTkVwUHpxU1BjRQ?oc=5",
         "pool": "google",
         "date": "2026-09-14",
         "by_hand": false
@@ -782,21 +803,7 @@
         "by_hand": false
       },
       {
-        "title": "Galderma launches ALASTIN skincare in Korea at GAIN RESTAGE - Korea Biomedical Review",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1TTjJFMUxHR3ZlOEJkRlNLekZpOTBpOVREVVZqUmNEcWhfbkFIb0pMclZybVZGNThud3pJdlE5TzNBaUZMTmNFQkZxWDdKNk50LUI3OTFJVTVJOEt6M1ZuVGNzZHN0NnhhUHZvLXpB0gFyQVVfeXFMT2wyVzU1U2NGZmcwMFRXdWJfT3VNdXpLYWlzSkcyUHBtRnZSZHRrMHJ3R1RIV01yTmtDaktQUi1hSDVrblRuQ3BTbXFlb1RZeTY4Rzc3RktnS0tSQWlUNkRwM1l0ZDM3al9ZdHFQSm45RFZR?oc=5",
-        "pool": "google",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "The Vogue Business Beauty Trend Tracker - Vogue",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96eFRtR1g5NG15VmJxdk9GX3B1V1FJdWRDdkJPb1pHMWk3d2pwMV81WFBURlJxaHRadVZTWUFKR1VSc21KX1lyVTUxa2NSa05nRmxUU1FRb1hFVWNvc2hDZ25YYUQ0Y09jMzNhLTZuWGk?oc=5",
-        "pool": "google",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "The Vogue Business TikTok Trend Tracker - Vogue",
+        "title": "The Vogue Business TikTok Trend Tracker - vogue.com",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9nc2ktNnQxVzlMTjl1MjR5MFYwSkMtVjI1Z0VhZlBLU0JqVlBjdHUyejJCVDV3OE9xYmF3ckhxR2VXLTk1Y3ZScXZfN0VPSU1ManFXYmFUWWxKTDN6cjFXTzk2OGxSVWxDOHIyeXZmRG9jUktfd2FIMg?oc=5",
         "pool": "google",
         "date": "2026-09-11",
@@ -831,13 +838,6 @@
         "by_hand": false
       },
       {
-        "title": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5",
-        "pool": "google",
-        "date": "2026-09-08",
-        "by_hand": false
-      },
-      {
         "title": "From medicine cabinet to makeup bag: Drugmakers turn medical research into skincare - Korea JoongAng Daily",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNDhGOE5GQWVncngtaGZBcVkzT0pGcjB4V3dHLUNMMjNoMGJVcjIzWDRjWDJGS3JWWjZ1N1dkN2dfSWpabktCMzd0bXEyNU9TYmtUMUk0VDZlVktNMjh6aER3cTZmdDFnWS1EN1RvOUJDMlNlY0huVlROa0tCUF9RMXNOaGZ5R0NvNEd0UWFjRVhsSmpXZ053WEpfN01zaUNOZExHMm5zLU5OckVKUEktMm5UUTBwT2VyV2dKZUJWNmUtT2xBSklwTHFwN1pzcXVj?oc=5",
         "pool": "google",
@@ -852,7 +852,7 @@
         "by_hand": false
       },
       {
-        "title": "Would You Go on a Glowcation? K-Beauty Is Betting So - Vogue",
+        "title": "Would You Go on a Glowcation? K-Beauty Is Betting So - vogue.com",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ01YZ2lKV0VUQzJROHZVVnJZbWM1dkw1TFRGLXFMcUx0dWhaZDJheTIwdE9yaElIUFpmYlJVSXg2UnQ0aDhCOVd3MVZvakhvVWxDWi1wM2hfbGVKbjFaSHJLWjJHYU02M3lwdGRXQVNfSXJGdWVTN0h4V0tvaU9iLUIzbGFmZkFU?oc=5",
         "pool": "google",
         "date": "2026-09-04",
@@ -880,14 +880,7 @@
         "by_hand": false
       },
       {
-        "title": "K-Beauty’s Best Masks Are Helping Skincare Fans Achieve a True Glass-Skin Glow in Minutes - Yahoo",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUTUzUEwwYzIteVlTcng5Zl9GT3hfTElLcWRGTGVXN09lT01icWhVamUwS1BlREI0YmJCTmdDaW9iRVlKQ0hVOGZ2TTFHY2RhdTFaS3UwelgtT3gxeXY3RnBrTE9RTXRySjFDa3BFWVdMSXo4bTRhdFA2QjB4T2EzNUZuRlBUVFJqQjhtS3RLTko5WGJBbmJseEh3?oc=5",
-        "pool": "google",
-        "date": "2026-09-02",
-        "by_hand": false
-      },
-      {
-        "title": "Ecommerce Evolution: Shopify’s (SHOP) AI-Driven Approach to Retail Success - finance.yahoo.com",
+        "title": "Ecommerce Evolution: Shopify’s (SHOP) AI-Driven Approach to Retail Success - Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQnNfUW9Pdjhhc2ZBejlUV0lWYmZXRW9KeWxSbjJWLWltODYyQnZGTkpzRE9QOVNUamxuTzFSc1VhcktzWGhSVU5xRnI3QlBTS1c1a0lzTHdEUklzYUw0RDdzNFE0X2FUS3VoX1dWSkRuUDQ2Z0NabkJheVZRUXJOSXhsR0hOajNmYTQ4TUtLUHNWSzlTZTRuYlpmc0FtWXAy?oc=5",
         "pool": "google",
         "date": "2026-09-02",
@@ -919,6 +912,13 @@
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1pdE5qU2I0OUVRX1ZkOFg1bTdkX0tndjJrVmV6SHk4WWVBT2FDMXBnMjI1SkRFVmR4V1ktMXZoY29NdG1XcWptblhmSW8zc25ZWUxpN1hVTkNZUXJGUTZYZHR2aEl4R211UVFnVU5vUVFyV1VKMldyUE12U1VFd9IBgwFBVV95cUxQXzNCdi0xNzQ1ejZ3RW5zNy03WkZZdFQ5MHhoYWxwMXZENXFzTUJTN0JBU0F2bjVDMHNBU1Q0VjhFMndFS0x4TVBVQVJwbVVsOXFkR2hRMlp0bFRpem5RMHhiWWhVU1hFUVNnNy1UTGt6ZVVUYjhOa2k4SDA0ZVEwQzJURQ?oc=5",
         "pool": "google",
         "date": "2026-08-30",
+        "by_hand": false
+      },
+      {
+        "title": "K-Beauty Is Everywhere Now: How Korean Skincare Became a Mainstream U.S. Beauty Staple - Yahoo",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxORVlkelhsZW1hTjVrc1hOX19HZVpnZl9tQ2pjUTZ4WEVWVXp2TWhTMHpWZDRHS2ZEZEVUVlhQeTVZY0Z0Vno3S29BYmNGSW1mclM3QXZKZ2tiSWRvSnFRZmRSQXNnQkthTkdkelRvaTY4WXlfVWM0TjVTWkxsY3kwbC1JZkw0M3ZXOThTSm5aWFZwQnlFWG5OZWw2ZTBJZw?oc=5",
+        "pool": "google",
+        "date": "2026-08-29",
         "by_hand": false
       }
     ],
@@ -966,7 +966,7 @@
         "by_hand": true
       },
       {
-        "title": "Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - HS Insider",
+        "title": "Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - highschool.latimes.com",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPc2g3NThETVhLa3FISG94RmRGSURCVlJ6aGNHUWZleXJHS0VfTUd0ZEZJUzduRVpjSGxTcGRKNlhKeXVCVHpMTmpFWjBPcHdzYkIyeG1lcHJXeVV6cHFPZXl5UFdnUkpRNDVRLXFjZTFtNmpmYThKdmVveTBTM0ZsN1lBNjJyRE9UVmZReGlaeG54Mko1ZDItRlFoUXZKc1BRcmwzSnR3RGVpTjRzbVVTcDI4dw?oc=5",
         "pool": "google",
         "date": "2026-09-17",
@@ -977,6 +977,13 @@
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1FVEpVbjd4NHpkSXRMLWMxUlZhanFySno3X2l3OGxrN3h0UmxVQ2dOcUEyd3NLZ21hSWdMekdkM3dVR0Q0aGtCbm9RYmc4Z1Zla1NRTWQ1MDJhUmvSAVdBVV95cUxNVGRpVXFONVRXV2tBeTh3Y1lmc0h0aWhucTJzR0JNa2lad3hVUUpVTm8tUWJLM0UzYXNtb1MtcWVSTUZjUk91aGwySU16UmNZUDdCczc3LWM?oc=5",
         "pool": "google",
         "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "Sim-to-Real Traffic Scene Understanding by Decoupling Semantics from Caption Generation with V-JEPA",
+        "url": "https://doi.org/10.48550/arxiv.2609.18562",
+        "pool": "arxiv",
+        "date": "2026-09-16",
         "by_hand": false
       },
       {
@@ -1033,6 +1040,13 @@
         "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE16bDVPVFB6bGd5Q3RRRmJFRW5kR0xLTG9lUDRLaDdjN1FOSE5va2FSWkZZcW84TWh5SDlxckwwSjBJRzdGTENXVUpQZnQ3ZjJSLXZacUYxaw?oc=5",
         "pool": "google",
         "date": "2025-10-08",
+        "by_hand": false
+      },
+      {
+        "title": "Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - HS Insider",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPc2g3NThETVhLa3FISG94RmRGSURCVlJ6aGNHUWZleXJHS0VfTUd0ZEZJUzduRVpjSGxTcGRKNlhKeXVCVHpMTmpFWjBPcHdzYkIyeG1lcHJXeVV6cHFPZXl5UFdnUkpRNDVRLXFjZTFtNmpmYThKdmVveTBTM0ZsN1lBNjJyRE9UVmZReGlaeG54Mko1ZDItRlFoUXZKc1BRcmwzSnR3RGVpTjRzbVVTcDI4dw?oc=5",
+        "pool": "us_beauty",
+        "date": "",
         "by_hand": false
       },
       {
@@ -1129,13 +1143,6 @@
         "by_hand": false
       },
       {
-        "title": "7 Best Ecommerce Analytics Platforms for DTC Brands: Features, Pricing, and ROI Compared (2026) - Ask Luca",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9rZktSWEpid3RqbWs0cmc4Q0pULWZNdGh6cVpxZVdFOHVMOXB5N3dNT0dqN0NlWlNyOEtUWm0yeFZMLTF6LW53TzFJVVRCVkFQUHNycldlX2JzY0hLZElkOTVmZXpyTVE?oc=5",
-        "pool": "google",
-        "date": "2026-02-27",
-        "by_hand": false
-      },
-      {
         "title": "The Differential Impacts of Critical Mineral Prices and Oil Prices on the Economy",
         "url": "https://doi.org/10.2139/ssrn.6246344",
         "pool": "institutions",
@@ -1159,15 +1166,22 @@
         "by_hand": true
       },
       {
-        "title": "De-GAN - Dynamic Parameter Tuned GAN for 3D Medical Image Segmentation: A Step Towards Generalisation",
-        "url": "https://doi.org/10.48550/arxiv.2609.16755",
+        "title": "Multi-View Mixture-of-Experts with Vision-Language Reranking for Cross-View Object Geo-Localization",
+        "url": "https://doi.org/10.48550/arxiv.2609.18139",
         "pool": "arxiv",
-        "date": "2026-09-15",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Copy What Is Seen, Generate What Is Not: Training-Free Anomaly-Aware Video Restoration",
+        "url": "https://doi.org/10.48550/arxiv.2609.18836",
+        "pool": "arxiv",
+        "date": "2026-09-16",
         "by_hand": false
       },
       {
         "title": "FlowATC: Aircraft Trajectory Prediction via Flow Matching",
-        "url": "https://doi.org/10.48550/arxiv.2609.16528",
+        "url": "https://arxiv.org/abs/2609.16528",
         "pool": "arxiv",
         "date": "2026-09-15",
         "by_hand": false
@@ -1558,13 +1572,6 @@
         "by_hand": false
       },
       {
-        "title": "Neutrogena Brings Newly Approved UV Filter to Mainstream SPF - americanspa.com",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaF84c0M0M2J1LXJSMlF5VWxnQzk2alhIR1hHY2ZlN3Baa29QRnZJNGZybWc4TTQxMmVvQ2lEU1dUWWtsYk0xeXEyVHlvZktkSW5MbUdkVU51RjNrYk13NU1LVzFFSFBPZWMzSmpRQjZCWUI0VDRKWm9PXzY1Tk9reXh5ckVoS1BaSmNaUU5RM2tHaElhS3AwMUNYUFNNclJ2?oc=5",
-        "pool": "us_beauty",
-        "date": "",
-        "by_hand": false
-      },
-      {
         "title": "Same brand, different SPF: Why Korean sunscreens outperform US versions - The Korea Times",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdXEyV1k2UDNvY01GVEFoVE01MldFRjlqaGlJY3kzRjliamkxcEV3aXFJeS1WRDJpbzI2OGVfTDFoTGR3Ny0tUkNRMXJ0RmJvRktpM2FDN0h4aE1uSHItVVNMWFNycnM1aDR4NW1TUVVQdjRhTmNIUXQxUmlVM253Z2NCNmIwbW9xVHJFLWd0R0tyZ2k4TWtqTzFoeDJUNDE5ZVpfeUZHNWtqNjVsOEhQRjUzSlZ0LTNN0gG-AUFVX3lxTE9teTR0RHBndWpfVGJ2OElRU1NCVDNSaVdZTjcwLWZpcU9ubEJma1FEeU9SbFRmc0hWd3hCTUhoUjlsb05Sek53VlI3RVF4dTI0MlFYRXpScmw4bFM1WVpjVEpnSFMtUllTWm9xYkxkbXVIM2RUaHQ3UlpXcGZJTHMxYkQ4aUlBdmFxQllQZF9YbG9yYVk5ay0yTUlVYTBjS3dZTnlkdzVLRzQxMGkzM0FzOERMOEo3d1RDOURmUnc?oc=5",
         "pool": "us_beauty",
@@ -1784,7 +1791,7 @@
         "by_hand": true
       },
       {
-        "title": "브랜딩 감각을 키우고 싶다면👀 | 사업부터 브랜딩까지 분야별 필독서 추천",
+        "title": "책은 가장 가성비 좋은 인풋입니다 📚  | 브랜드 대표가 직접 고른 브랜딩 필독서",
         "url": "https://www.youtube.com/watch?v=hikTGKo2kZE",
         "pool": "youtube_channel",
         "date": "",
@@ -1817,6 +1824,13 @@
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
+      },
+      {
+        "title": "How Cooley is accelerating IPO work with ChatGPT",
+        "url": "https://openai.com/index/cooley-gopublic",
+        "pool": "institutions",
+        "date": "2026-09-17",
+        "by_hand": false
       },
       {
         "title": "The Web Search Your Agent Inherited Isn't Good Enough",
@@ -1882,6 +1896,76 @@
         "by_hand": false
       },
       {
+        "title": "From Pixels to Semantics: Edge AI for UAV-Based Critical Infrastructure Inspection",
+        "url": "https://doi.org/10.48550/arxiv.2609.18448",
+        "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "QMSR: Query-Conditioned Mask-wise Expert Routing for Robust Open-Vocabulary Underwater Object Retrieval",
+        "url": "https://doi.org/10.48550/arxiv.2609.18752",
+        "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Risk-Aware World Modeling with Flow-Guided Occupancy Evolution for Selective Trajectory Planning in Automated Driving",
+        "url": "https://doi.org/10.48550/arxiv.2609.18442",
+        "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "GroundingVLN: Reasoning and Acting with Grounding for Vision-Language Navigation",
+        "url": "https://doi.org/10.48550/arxiv.2609.18581",
+        "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "RayOrch: Programming and Executing Lineage-Controlled Multi-Grain Dataflows for Foundation-Model Data Preparation",
+        "url": "https://doi.org/10.48550/arxiv.2609.18703",
+        "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "SetPlanner: A Lightweight Plug-in Point-Set Planner for Frozen SAM",
+        "url": "https://doi.org/10.48550/arxiv.2609.18037",
+        "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "PDA++: Field-Aligned Planning and Scene-Adaptive Insertion in Remote Sensing",
+        "url": "https://doi.org/10.48550/arxiv.2609.18329",
+        "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Understanding Dynamic Scenes at Gigapixel Scale: Wide-Area Spatio-Temporal Perception from UAVs",
+        "url": "https://doi.org/10.48550/arxiv.2609.18210",
+        "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Sim-to-Real Traffic Scene Understanding by Decoupling Semantics from Caption Generation with V-JEPA",
+        "url": "https://doi.org/10.48550/arxiv.2609.18562",
+        "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Anomaly Detection in General Ledger Data: Results from a Hybrid Approach",
+        "url": "https://doi.org/10.48550/arxiv.2609.18228",
+        "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
         "title": "Rethinking Robot Safety in the Age of AI",
         "url": "https://spectrum.ieee.org/physical-ai-robot-cybersecurity-vicone",
         "pool": "robotics",
@@ -1914,83 +1998,6 @@
         "url": "https://news.samsung.com/global/samsung-begins-official-rollout-of-one-ui-9-bringing-the-latest-galaxy-experiences-to-more-devices",
         "pool": "institutions",
         "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Memory in Grok Build",
-        "url": "https://x.ai/news/grok-build-memory",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Main Sequence Building The Next Generation Of Deep Tech",
-        "url": "https://www.jpmorgan.com/insights/banking/financing/main-sequence-building-the-next-generation-of-deep-tech",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Private Equity Technology M And A Outlook",
-        "url": "https://www.morganstanley.com/ideas/private-equity-technology-m-and-a-outlook",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "A childminder's guide to settling in",
-        "url": "https://doi.org/10.12968/eyed.2026.24.24.04",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Payouts page redesign: see all your payouts in one view",
-        "url": "https://changelog.shopify.com/posts/payouts-page-redesign-see-all-your-payouts-in-one-view",
-        "pool": "design_refs",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Updates to Events payloads and subscription configuration",
-        "url": "https://shopify.dev/changelog/updates-to-events-payloads-and-subscription-configuration",
-        "pool": "design_refs",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Stop Treating CSS Container Queries Like Traditional Media Queries",
-        "url": "https://smashingmagazine.com/2026/09/stop-treating-css-container-queries-traditional-media-queries/",
-        "pool": "design_refs",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "BrainFocus: EEG-Guided ROI Selection for Efficient Vision-Language Models",
-        "url": "https://doi.org/10.48550/arxiv.2609.17443",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "PSMP-CLIP: Patch-Prompt SAM and Multi-Semantic Prompting for CLIP-Based Zero-Shot Anomaly Detection",
-        "url": "https://doi.org/10.48550/arxiv.2609.16785",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "ENCP: Episode-Normalized Conformal Prediction for Vision-and-Language Navigation",
-        "url": "https://doi.org/10.48550/arxiv.2609.17499",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Beyond In-Distribution Metrics: A Systematic Out-of-Distribution Evaluation of Congenital Heart Disease Segmentation",
-        "url": "https://doi.org/10.48550/arxiv.2609.17068",
-        "pool": "arxiv",
-        "date": "2026-09-15",
         "by_hand": false
       }
     ],
@@ -2038,36 +2045,8 @@
         "by_hand": false
       },
       {
-        "title": "SAVTrack: Selective Vote Aggregation for Reliability-Aware Point Cloud Tracking",
-        "url": "https://doi.org/10.48550/arxiv.2609.16662",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Multimodal Emergency Vehicle Classification via Audio-Visual Transformers and Knowledge Distillation",
-        "url": "https://doi.org/10.48550/arxiv.2609.16535",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "NeuroSymbEAD: A Large Scale Neuro-Symbolic Caption Dataset for Omni-Directional Embodied Autonomous Driving",
-        "url": "https://doi.org/10.48550/arxiv.2609.16919",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Dense to MoE Adaptation for Compact Vision Language Action Policies",
-        "url": "https://doi.org/10.48550/arxiv.2609.16503",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "PiPS: Post-Hoc Prototypical Explanations for Interpretable Semantic Segmentation",
-        "url": "https://doi.org/10.48550/arxiv.2609.16909",
+        "title": "RoboVAD: A Large Cross-Domain Evaluation Benchmark for Anomaly Detection in Robotic Arm Manipulation Videos",
+        "url": "https://doi.org/10.48550/arxiv.2609.17843",
         "pool": "arxiv",
         "date": "2026-09-15",
         "by_hand": false
@@ -2133,13 +2112,6 @@
         "url": "https://www.therobotreport.com/ultrasound-offers-scalable-path-tactile-intelligence-physical-ai/",
         "pool": "robotics",
         "date": "2026-09-12",
-        "by_hand": false
-      },
-      {
-        "title": "Predictive audio representations for early detection and tracking of hidden dynamic objects",
-        "url": "https://doi.org/10.48550/arxiv.2609.13595",
-        "pool": "arxiv",
-        "date": "2026-09-11",
         "by_hand": false
       },
       {
@@ -2414,6 +2386,34 @@
         "pool": "institutions",
         "date": "2026-04-21",
         "by_hand": false
+      },
+      {
+        "title": "Agent Brain: A Biologically Inspired Memory System for Autonomous AI Agents — LongMemEval-M Evaluation",
+        "url": "https://doi.org/10.5281/zenodo.19673132",
+        "pool": "institutions",
+        "date": "2026-04-21",
+        "by_hand": false
+      },
+      {
+        "title": "Agent Brain: A Biologically Inspired Memory System for Autonomous AI Agents, with Head-to-Head Evaluation on LongMemEval",
+        "url": "https://doi.org/10.5281/zenodo.19673133",
+        "pool": "institutions",
+        "date": "2026-04-21",
+        "by_hand": false
+      },
+      {
+        "title": "Visual Computing for Autonomous Driving",
+        "url": "https://doi.org/10.1109/mcg.2024.3397581",
+        "pool": "institutions",
+        "date": "2024-05-01",
+        "by_hand": false
+      },
+      {
+        "title": "AutoNeRF: Training Implicit Scene Representations with Autonomous Agents",
+        "url": "https://doi.org/10.48550/arxiv.2304.11241",
+        "pool": "institutions",
+        "date": "2023-04-21",
+        "by_hand": false
       }
     ],
     "knowledge": [
@@ -2481,10 +2481,206 @@
         "by_hand": true
       },
       {
+        "title": "Database for AI Agents: 5 Evaluation Criteria",
+        "url": "https://www.databricks.com/blog/database-for-ai-agents",
+        "pool": "institutions",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
         "title": "The Web Search Your Agent Inherited Isn't Good Enough",
         "url": "https://www.databricks.com/blog/web-search-your-agent-inherited-isnt-good-enough",
         "pool": "institutions",
         "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "Generalist-Specialist Mixture-of-Experts for Rare Pathology Detection in Multimodal Imaging",
+        "url": "https://doi.org/10.48550/arxiv.2609.18688",
+        "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "VLA-ULAP: Interleaving Cloud VLA Calls with Ultra-Lightweight Local Action Prediction at the Edge",
+        "url": "https://doi.org/10.48550/arxiv.2609.18663",
+        "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "From Pixels to Semantics: Edge AI for UAV-Based Critical Infrastructure Inspection",
+        "url": "https://doi.org/10.48550/arxiv.2609.18448",
+        "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "QMSR: Query-Conditioned Mask-wise Expert Routing for Robust Open-Vocabulary Underwater Object Retrieval",
+        "url": "https://doi.org/10.48550/arxiv.2609.18752",
+        "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Risk-Aware World Modeling with Flow-Guided Occupancy Evolution for Selective Trajectory Planning in Automated Driving",
+        "url": "https://doi.org/10.48550/arxiv.2609.18442",
+        "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Technical Report: One-Step Drifting Action Heads for GR00T N1.7",
+        "url": "https://doi.org/10.48550/arxiv.2609.18108",
+        "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "GeoMesh: Workload-Balanced and Sign-Compressed Geo-Distributed LLM Training",
+        "url": "https://doi.org/10.48550/arxiv.2609.18388",
+        "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "GroundingVLN: Reasoning and Acting with Grounding for Vision-Language Navigation",
+        "url": "https://doi.org/10.48550/arxiv.2609.18581",
+        "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Colla-Q: Toward Collaborative Experts in MoE Quantization via Minimax Precision Balancing",
+        "url": "https://doi.org/10.48550/arxiv.2609.18131",
+        "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Evolving Error States: Failure-Aware Progressive Repair for Ultrasound Lesion Segmentation",
+        "url": "https://doi.org/10.48550/arxiv.2609.18256",
+        "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "The Other Half of the Memory Wall: Serving 35B MoEs from SSD with Trained Routing Prediction",
+        "url": "https://doi.org/10.48550/arxiv.2609.18063",
+        "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "CERA-MoA: Co-Evolving Routing Mechanisms with Continually Learning LLM Agents",
+        "url": "https://doi.org/10.48550/arxiv.2609.18779",
+        "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Decoder-Agnostic Token Merging for Vision Transformers: A Systematic Study of G2TM",
+        "url": "https://doi.org/10.48550/arxiv.2609.18279",
+        "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "RayOrch: Programming and Executing Lineage-Controlled Multi-Grain Dataflows for Foundation-Model Data Preparation",
+        "url": "https://doi.org/10.48550/arxiv.2609.18703",
+        "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "SEAM: Submap-Anchored Evidence for Lifelong LiDAR Mapping under Trajectory Deformation",
+        "url": "https://doi.org/10.48550/arxiv.2609.18819",
+        "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "The Operable Pareto Front: Distilling Offline Search into Run-Time Control for Multi-Objective UAV Edge-Computing Scheduling",
+        "url": "https://doi.org/10.48550/arxiv.2609.17992",
+        "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "SetPlanner: A Lightweight Plug-in Point-Set Planner for Frozen SAM",
+        "url": "https://doi.org/10.48550/arxiv.2609.18037",
+        "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Mask 2D-3D: Adaptive Dual-Masked Autoencoder Network for Image-to-Point Cloud Registration",
+        "url": "https://doi.org/10.48550/arxiv.2609.18088",
+        "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "PDA++: Field-Aligned Planning and Scene-Adaptive Insertion in Remote Sensing",
+        "url": "https://doi.org/10.48550/arxiv.2609.18329",
+        "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Unified Response Geometry for Structured Pruning",
+        "url": "https://doi.org/10.48550/arxiv.2609.18239",
+        "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Multi-View Mixture-of-Experts with Vision-Language Reranking for Cross-View Object Geo-Localization",
+        "url": "https://doi.org/10.48550/arxiv.2609.18139",
+        "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Understanding Dynamic Scenes at Gigapixel Scale: Wide-Area Spatio-Temporal Perception from UAVs",
+        "url": "https://doi.org/10.48550/arxiv.2609.18210",
+        "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "CoAtNet-DeepMoE: A Convolution-Attention Hybrid with DeepSeek Mixture-of-Experts for Parameter-Efficient Tomato Disease Classification",
+        "url": "https://doi.org/10.48550/arxiv.2609.18038",
+        "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Sim-to-Real Traffic Scene Understanding by Decoupling Semantics from Caption Generation with V-JEPA",
+        "url": "https://doi.org/10.48550/arxiv.2609.18562",
+        "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Stealthy in Semantics, Antagonistic in Space: Attacking Visible-Infrared Object Detectors via Object-Level Misalignment",
+        "url": "https://doi.org/10.48550/arxiv.2609.18133",
+        "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Anomaly Detection in General Ledger Data: Results from a Hybrid Approach",
+        "url": "https://doi.org/10.48550/arxiv.2609.18228",
+        "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Copy What Is Seen, Generate What Is Not: Training-Free Anomaly-Aware Video Restoration",
+        "url": "https://doi.org/10.48550/arxiv.2609.18836",
+        "pool": "arxiv",
+        "date": "2026-09-16",
         "by_hand": false
       },
       {
@@ -2495,197 +2691,50 @@
         "by_hand": false
       },
       {
-        "title": "Accelerated Decoding of Centroid Positional Encoding for Instance Segmentation",
-        "url": "https://doi.org/10.48550/arxiv.2609.16874",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "LoopSpec: Pipelined Self-Speculative Decoding for Looped Transformers",
-        "url": "https://doi.org/10.48550/arxiv.2609.17184",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Tracking the Unseen: An Occlusion-Robust Framework for Target Tracking Under Full and Long-Term Occlusion",
-        "url": "https://doi.org/10.48550/arxiv.2609.17427",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "VPRef: A Cross-Domain Benchmark for Referring Remote Sensing Image Segmentation",
-        "url": "https://doi.org/10.48550/arxiv.2609.16486",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "SAVTrack: Selective Vote Aggregation for Reliability-Aware Point Cloud Tracking",
-        "url": "https://doi.org/10.48550/arxiv.2609.16662",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Measuring Annotation Efficiency for Handwritten Devanagari Recognition: Sample-Complexity Curves for Four Pretraining Regimes",
-        "url": "https://doi.org/10.48550/arxiv.2609.16859",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Event-based Selective Attention for Multi-resolution Fast Region of Interest (ROI) Detection",
-        "url": "https://doi.org/10.48550/arxiv.2609.17134",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "End-to-End Latency-Minimizing and Load-Balanced Request Scheduling for Edge LLM Inference in Agentic AI Services",
-        "url": "https://doi.org/10.48550/arxiv.2609.17193",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "BrainFocus: EEG-Guided ROI Selection for Efficient Vision-Language Models",
-        "url": "https://doi.org/10.48550/arxiv.2609.17443",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Channel-Wise and Token-Aware Post-Training Quantization for Visual State Space Duality",
-        "url": "https://doi.org/10.48550/arxiv.2609.16656",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "FlexEE: Self-Speculative and KV-Compatible Early Exiting for Offloading-Aware LLM Inference",
-        "url": "https://doi.org/10.48550/arxiv.2609.17008",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Multimodal Emergency Vehicle Classification via Audio-Visual Transformers and Knowledge Distillation",
-        "url": "https://doi.org/10.48550/arxiv.2609.16535",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "NeuroSymbEAD: A Large Scale Neuro-Symbolic Caption Dataset for Omni-Directional Embodied Autonomous Driving",
-        "url": "https://doi.org/10.48550/arxiv.2609.16919",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Dense to MoE Adaptation for Compact Vision Language Action Policies",
-        "url": "https://doi.org/10.48550/arxiv.2609.16503",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "ViD: Vision-Dominant Gender Bias Mitigation for Large Vision-Language Models",
-        "url": "https://doi.org/10.48550/arxiv.2609.16647",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "PSMP-CLIP: Patch-Prompt SAM and Multi-Semantic Prompting for CLIP-Based Zero-Shot Anomaly Detection",
-        "url": "https://doi.org/10.48550/arxiv.2609.16785",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "ENCP: Episode-Normalized Conformal Prediction for Vision-and-Language Navigation",
-        "url": "https://doi.org/10.48550/arxiv.2609.17499",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Efficient Quantization-Aware Distillation with Cross-Modal Alignment for Edge Vision-Language Models",
-        "url": "https://doi.org/10.48550/arxiv.2609.16689",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Beyond In-Distribution Metrics: A Systematic Out-of-Distribution Evaluation of Congenital Heart Disease Segmentation",
-        "url": "https://doi.org/10.48550/arxiv.2609.17068",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "StackTok: Accelerating VLMs Inference with Budget-Adaptive Visual Token Selection",
-        "url": "https://doi.org/10.48550/arxiv.2609.16841",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "PiPS: Post-Hoc Prototypical Explanations for Interpretable Semantic Segmentation",
-        "url": "https://doi.org/10.48550/arxiv.2609.16909",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "De-GAN - Dynamic Parameter Tuned GAN for 3D Medical Image Segmentation: A Step Towards Generalisation",
-        "url": "https://doi.org/10.48550/arxiv.2609.16755",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Hyper-RED: Scalable Event Pre-training via Semantic Hypergraph Distillation",
-        "url": "https://doi.org/10.48550/arxiv.2609.16811",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "IMVS: Interactive Medical Volume Segmentation with Test-Time Adaptation - A New Method for Annotating Radiology Datasets",
-        "url": "https://doi.org/10.48550/arxiv.2609.16775",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Carry-Through Checksum: A Lightweight Fault-Detection for CNN Inference at the Edge",
-        "url": "https://doi.org/10.48550/arxiv.2609.16742",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
         "title": "Modality-Autoregressive World-Action Models",
-        "url": "https://doi.org/10.48550/arxiv.2609.17524",
+        "url": "https://arxiv.org/abs/2609.17524",
         "pool": "arxiv",
         "date": "2026-09-15",
         "by_hand": false
       },
       {
         "title": "Probe-VAD: Ordinal Likelihood Probing for Training-Free Video Anomaly Detection",
-        "url": "https://doi.org/10.48550/arxiv.2609.17211",
+        "url": "https://arxiv.org/abs/2609.17211",
         "pool": "arxiv",
         "date": "2026-09-15",
         "by_hand": false
       },
       {
         "title": "FlowATC: Aircraft Trajectory Prediction via Flow Matching",
-        "url": "https://doi.org/10.48550/arxiv.2609.16528",
+        "url": "https://arxiv.org/abs/2609.16528",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "PSMP-CLIP: Patch-Prompt SAM and Multi-Semantic Prompting for CLIP-Based Zero-Shot Anomaly Detection",
+        "url": "https://arxiv.org/abs/2609.16785",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Domain Adaptation against Background Sculpting in Anomaly Detection at the LHC",
+        "url": "https://doi.org/10.48550/arxiv.2609.17659",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "RoboVAD: A Large Cross-Domain Evaluation Benchmark for Anomaly Detection in Robotic Arm Manipulation Videos",
+        "url": "https://doi.org/10.48550/arxiv.2609.17843",
+        "pool": "arxiv",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Physics-Constrained Digital Twins for Sensor Integrity in Urban Pedestrian Flow: Detecting Stealthy False Data Injection with Conformal Guarantees",
+        "url": "https://doi.org/10.48550/arxiv.2609.17635",
         "pool": "arxiv",
         "date": "2026-09-15",
         "by_hand": false
@@ -2734,14 +2783,14 @@
       },
       {
         "title": "Robust Fault Detection in Mechanical Multimodal Time Series via Self-Supervised Cross-Modal Reconstruction",
-        "url": "https://doi.org/10.48550/arxiv.2609.16314",
+        "url": "https://arxiv.org/abs/2609.16314",
         "pool": "arxiv",
         "date": "2026-09-14",
         "by_hand": false
       },
       {
         "title": "GPEvac: GNN-Based PPO for Adaptive Evacuation Routing During Shooting Events",
-        "url": "https://doi.org/10.48550/arxiv.2609.16163",
+        "url": "https://arxiv.org/abs/2609.16163",
         "pool": "arxiv",
         "date": "2026-09-14",
         "by_hand": false
@@ -2787,55 +2836,6 @@
         "pool": "institutions",
         "date": "2026-09-13",
         "by_hand": false
-      },
-      {
-        "title": "Homeostatic Continual Learning",
-        "url": "https://doi.org/10.48550/arxiv.2609.13771",
-        "pool": "arxiv",
-        "date": "2026-09-12",
-        "by_hand": false
-      },
-      {
-        "title": "Tabby: An Open Pretraining Recipe for Time Series Foundation Models",
-        "url": "https://doi.org/10.48550/arxiv.2609.13956",
-        "pool": "arxiv",
-        "date": "2026-09-12",
-        "by_hand": false
-      },
-      {
-        "title": "GEAR: From Dynamic Encoding to Dynamic Activation in Social Trajectory Prediction",
-        "url": "https://doi.org/10.48550/arxiv.2609.13778",
-        "pool": "arxiv",
-        "date": "2026-09-12",
-        "by_hand": false
-      },
-      {
-        "title": "GEAR: From Dynamic Encoding to Dynamic Activation in Social Trajectory Prediction",
-        "url": "https://arxiv.org/abs/2609.13778",
-        "pool": "arxiv",
-        "date": "2026-09-12",
-        "by_hand": false
-      },
-      {
-        "title": "Homeostatic Continual Learning",
-        "url": "https://arxiv.org/abs/2609.13771",
-        "pool": "arxiv",
-        "date": "2026-09-12",
-        "by_hand": false
-      },
-      {
-        "title": "Tabby: An Open Pretraining Recipe for Time Series Foundation Models",
-        "url": "https://arxiv.org/abs/2609.13956",
-        "pool": "arxiv",
-        "date": "2026-09-12",
-        "by_hand": false
-      },
-      {
-        "title": "Self-Verifying Anomaly Detection using Explainable AI for Cybersecurity of DER Networks",
-        "url": "https://arxiv.org/abs/2609.12305",
-        "pool": "arxiv",
-        "date": "2026-09-11",
-        "by_hand": false
       }
     ],
     "institutions": [
@@ -2844,6 +2844,13 @@
         "url": "https://openalex.org/W7160476156",
         "pool": "institutions",
         "date": "2026-09-26",
+        "by_hand": false
+      },
+      {
+        "title": "How Cooley is accelerating IPO work with ChatGPT",
+        "url": "https://openai.com/index/cooley-gopublic",
+        "pool": "institutions",
+        "date": "2026-09-17",
         "by_hand": false
       },
       {
@@ -2856,6 +2863,13 @@
       {
         "title": "SK hynix Presents ‘New Spectrum’ for AI Infrastructure at ‘AI Infra Summit 2026’",
         "url": "https://news.skhynix.com/en/ai-infra-summit-2026/",
+        "pool": "institutions",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "Database for AI Agents: 5 Evaluation Criteria",
+        "url": "https://www.databricks.com/blog/database-for-ai-agents",
         "pool": "institutions",
         "date": "2026-09-17",
         "by_hand": false
@@ -2875,8 +2889,22 @@
         "by_hand": false
       },
       {
+        "title": "Modernizing the Trade Lifecycle With Governed Data and AI",
+        "url": "https://www.databricks.com/blog/modernizing-trade-lifecycle-governed-data-and-ai",
+        "pool": "institutions",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
         "title": "Introducing the Life Sciences Verification Program",
         "url": "https://www.anthropic.com/news/life-sciences-verification-program",
+        "pool": "institutions",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "An alignment assessment of recent cybersecurity incidents",
+        "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
         "pool": "institutions",
         "date": "2026-09-17",
         "by_hand": false
@@ -2898,6 +2926,41 @@
       {
         "title": "Tracking International Payments Midsize Firms Responding Continued Tariff Pressure",
         "url": "https://www.jpmorgan.com/insights/markets-and-economy/tracking-international-payments-midsize-firms-responding-continued-tariff-pressure",
+        "pool": "institutions",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "Adgm Multicurrency Treasury Operations",
+        "url": "https://www.jpmorgan.com/insights/treasury/treasury-management/adgm-multicurrency-treasury-operations",
+        "pool": "institutions",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "India Stock Market Outlook",
+        "url": "https://www.jpmorgan.com/insights/global-research/markets/india-stock-market-outlook",
+        "pool": "institutions",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "The Fed Hikes Rates What Happens Now",
+        "url": "https://www.jpmorgan.com/insights/podcast-hub/making-sense/the-fed-hikes-rates-what-happens-now",
+        "pool": "institutions",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "Beyond procedure counts: reconsidering physician involvement in maintenance hemodialysis",
+        "url": "https://doi.org/10.23876/j.krcp.26.416",
+        "pool": "institutions",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "The future of large-scale experiments and their challenges in the digital era",
+        "url": "https://doi.org/10.1038/s41562-026-02582-6",
         "pool": "institutions",
         "date": "2026-09-17",
         "by_hand": false
@@ -3148,6 +3211,13 @@
         "by_hand": false
       },
       {
+        "title": "An activation-biased 2B4 costimulatory domain enhances IFN-γ production and supports sustained cytotoxic activity in CD5-targeting CAR-NK92 cells",
+        "url": "https://doi.org/10.1007/s00262-026-04562-1",
+        "pool": "institutions",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
         "title": "A childminder's guide to settling in",
         "url": "https://doi.org/10.12968/eyed.2026.24.24.04",
         "pool": "institutions",
@@ -3185,76 +3255,6 @@
       {
         "title": "How Databricks’ marketers use data 3x more with Genie, an AI analytics assistant",
         "url": "https://www.databricks.com/blog/databricks-marketers-use-data-3x-genie-ai-analytics-assistant",
-        "pool": "institutions",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Maverick Capital Co Cios On Finding The Ai Winners",
-        "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/maverick-capital-co-cios-on-finding-the-ai-winners",
-        "pool": "institutions",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Can The S And P 500 Rally As Treasury Yields Rise",
-        "url": "https://www.goldmansachs.com/insights/articles/can-the-s-and-p-500-rally-as-treasury-yields-rise",
-        "pool": "institutions",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Why Gold Is Expected To Rise To Record Highs",
-        "url": "https://www.goldmansachs.com/insights/the-markets/why-gold-is-expected-to-rise-to-record-highs",
-        "pool": "institutions",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Why Global Bond Yields Are Surging   Transcript",
-        "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/why-global-bond-yields-are-surging/transcript.pdf",
-        "pool": "institutions",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Ireland Eyes Continued Active Etf Dominance",
-        "url": "https://www.jpmorgan.com/insights/etf/securities-services/ireland-eyes-continued-active-etf-dominance",
-        "pool": "institutions",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "The Active Etf State Of Play",
-        "url": "https://www.jpmorgan.com/insights/etf/securities-services/the-active-ETF-state-of-play",
-        "pool": "institutions",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "A Tale Of Two Domiciles",
-        "url": "https://www.jpmorgan.com/insights/securities-services/fund-services/a-tale-of-two-domiciles",
-        "pool": "institutions",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Etf Share Classes",
-        "url": "https://www.jpmorgan.com/insights/etf/securities-services/etf-share-classes",
-        "pool": "institutions",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Active Etfs Unwrapped",
-        "url": "https://www.jpmorgan.com/insights/investing/investment-trends/active-etfs-unwrapped",
-        "pool": "institutions",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Asset Manager Considerations For Building An Etf Wrapper",
-        "url": "https://www.jpmorgan.com/insights/etf/securities-services/asset-manager-considerations-for-building-an-etf-wrapper",
         "pool": "institutions",
         "date": "2026-09-15",
         "by_hand": false

@@ -2,7 +2,7 @@
 title: "Record 1bfa4a0502 · Operationalizing-Genie-Ontology-in-Your-Data-Stack"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T08:34:32.182840+00:00
+updated_at: 2026-09-18T08:51:42.785996+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record d6397abf87 · Enterprise-Artificial-Intelligence-Guide-2026---Sho"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T08:34:31.859273+00:00
+updated_at: 2026-09-18T08:51:42.636873+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMif0FVX3lxTFBtNFNpQ05Sd28yczBwRm5ibGVNZm8tU2ViQ3ZIOXhwU0UwLTB0bVV2SXJYMVoyVDBpNWg0aTFlRWlCQWNXS05iZWRJVHpxa2xYQnJjamdpSXFySWFMUWdxX0FrdW5RZ3U2RWp3aWM3VmJuNmNvaVNCTFZRRmdleFU?oc=5)
 
-**제목:** Enterprise Artificial Intelligence Guide (2026) - Shopify
+**제목:** Enterprise Artificial Intelligence Guide (2026) - shopify.com
 
-Enterprise Artificial Intelligence Guide (2026) - Shopify
+Enterprise Artificial Intelligence Guide (2026) - shopify.com
 
 **출처:** Source · Google Search
 

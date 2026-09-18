@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-18T02:56:22.432922+00:00",
+  "collected_at": "2026-09-18T08:45:02.092979+00:00",
   "total": 1063,
   "organizations": 35,
   "by_org": {
@@ -54,19 +54,19 @@
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-09-18T02:55:29.674338+00:00"
+      "collected_at": "2026-09-18T08:43:53.057973+00:00"
     },
     "sitemap": {
       "status": "ok",
       "count": 140,
       "failures": [],
-      "collected_at": "2026-09-18T02:56:02.269856+00:00"
+      "collected_at": "2026-09-18T08:44:33.894011+00:00"
     },
     "openalex": {
       "status": "ok",
       "count": 713,
       "failures": [],
-      "collected_at": "2026-09-18T02:56:22.431889+00:00"
+      "collected_at": "2026-09-18T08:45:02.092200+00:00"
     }
   },
   "not_collected": {
@@ -1775,6 +1775,19 @@
       "title_source": "feed"
     },
     {
+      "title": "SK hynix Launches ‘SK hynix Ventures’ in Silicon Valley to Expand Global AI Ecosystem Investment",
+      "url": "https://news.skhynix.com/en/sk-hynix-ventures/",
+      "date": "2026-09-18",
+      "date_raw": "Fri, 18 Sep 2026 05:59:25 +0000",
+      "summary": "▪ CEO Kwak Noh-Jung and key executives, alongside global VCs and startup leaders, attend the inaugural ‘SK hynix Ventures Day’ in Silicon Valley ▪ Company to expand investments across the entire AI ecosystem ▪ Discussing strategies to strengthen partnerships with",
+      "org": "SK hynix",
+      "category": "반도체",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://news.skhynix.com/feed/",
+      "title_source": "feed"
+    },
+    {
       "title": "SK hynix Presents ‘New Spectrum’ for AI Infrastructure at ‘AI Infra Summit 2026’",
       "url": "https://news.skhynix.com/en/ai-infra-summit-2026/",
       "date": "2026-09-17",
@@ -1884,19 +1897,6 @@
       "date": "2026-09-09",
       "date_raw": "Wed, 09 Sep 2026 01:33:23 +0000",
       "summary": "▲ SK hynix Vice President Kyunghoon Kim, head of the Design Research Lab, delivering the third keynote presentation",
-      "org": "SK hynix",
-      "category": "반도체",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://news.skhynix.com/feed/",
-      "title_source": "feed"
-    },
-    {
-      "title": "SK hynix Charts Its Business and Technology Direction at the 2026 Future Forum—”Now Is the Golden Time to Leap Forward”",
-      "url": "https://news.skhynix.com/en/future-forum-2026-5/",
-      "date": "2026-09-09",
-      "date_raw": "Wed, 09 Sep 2026 01:32:02 +0000",
-      "summary": "▲ SK hynix Vice President Euicheol Lim, head of the Solution AT department, delivering the second keynote presentation",
       "org": "SK hynix",
       "category": "반도체",
       "kind": "발표물",
@@ -4375,37 +4375,11 @@
       "feed": "https://www.jpmorgan.com/sitemap.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-disruption-ai-vishy-tirupattur",
+      "url": "https://www.morganstanley.com/ideas/market-sentiment-bullish-q1-2023",
       "date": "2026-09-16",
-      "date_raw": "2026-09-16T07:05:47Z",
+      "date_raw": "2026-09-16T13:09:06Z",
       "title_source": "url-slug",
-      "title": "Thoughts On The Market Disruption Ai Vishy Tirupattur",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
-      "url": "https://www.morganstanley.com/insights/articles/stock-rally-rising-rates-risks-2026",
-      "date": "2026-09-16",
-      "date_raw": "2026-09-16T18:02:23Z",
-      "title_source": "url-slug",
-      "title": "Stock Rally Rising Rates Risks 2026",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
-      "url": "https://www.morganstanley.com/ideas/totalenergies-patrick-pouyanne-exceptional-leaders-exceptional-ideas",
-      "date": "2026-09-16",
-      "date_raw": "2026-09-16T13:09:08Z",
-      "title_source": "url-slug",
-      "title": "Totalenergies Patrick Pouyanne Exceptional Leaders Exceptional Ideas",
+      "title": "Market Sentiment Bullish Q1 2023",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4427,71 +4401,6 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market",
-      "date": "2026-09-16",
-      "date_raw": "2026-09-16T13:56:52Z",
-      "title_source": "url-slug",
-      "title": "Thoughts On The Market",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
-      "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-desai-india-bullish-decade",
-      "date": "2026-09-16",
-      "date_raw": "2026-09-16T07:03:25Z",
-      "title_source": "url-slug",
-      "title": "Thoughts On The Market Desai India Bullish Decade",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
-      "url": "https://www.morganstanley.com/ideas/market-sentiment-bullish-q1-2023",
-      "date": "2026-09-16",
-      "date_raw": "2026-09-16T13:09:06Z",
-      "title_source": "url-slug",
-      "title": "Market Sentiment Bullish Q1 2023",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
-      "url": "https://www.morganstanley.com/ideas/market-volatility-2024-summer-surprises",
-      "date": "2026-09-16",
-      "date_raw": "2026-09-16T13:09:07Z",
-      "title_source": "url-slug",
-      "title": "Market Volatility 2024 Summer Surprises",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
-      "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-emerging-markets",
-      "date": "2026-09-16",
-      "date_raw": "2026-09-16T07:07:57Z",
-      "title_source": "url-slug",
-      "title": "Thoughts On The Market Emerging Markets",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
       "url": "https://www.morganstanley.com/ideas/investing-in-treasury-bonds-Q3-2023",
       "date": "2026-09-16",
       "date_raw": "2026-09-16T13:09:10Z",
@@ -4505,11 +4414,102 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/fed-rate-hike-tests-inflation-matthew-hornbach-michael-gapen",
+      "date": "2026-09-16",
+      "date_raw": "2026-09-16T20:19:33Z",
+      "title_source": "url-slug",
+      "title": "Fed Rate Hike Tests Inflation Matthew Hornbach Michael Gapen",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
+      "url": "https://www.morganstanley.com/ideas/recession-soft-landing-2024-investor-playbook",
+      "date": "2026-09-16",
+      "date_raw": "2026-09-16T13:09:09Z",
+      "title_source": "url-slug",
+      "title": "Recession Soft Landing 2024 Investor Playbook",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
+      "url": "https://www.morganstanley.com/insights/themes/global-healthcare-conference",
+      "date": "2026-09-16",
+      "date_raw": "2026-09-16T19:35:06Z",
+      "title_source": "url-slug",
+      "title": "Global Healthcare Conference",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
       "url": "https://www.morganstanley.com/ideas/private-equity-technology-m-and-a-outlook",
       "date": "2026-09-16",
       "date_raw": "2026-09-16T13:09:09Z",
       "title_source": "url-slug",
       "title": "Private Equity Technology M And A Outlook",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
+      "url": "https://www.morganstanley.com/ideas/totalenergies-patrick-pouyanne-exceptional-leaders-exceptional-ideas",
+      "date": "2026-09-16",
+      "date_raw": "2026-09-16T13:09:08Z",
+      "title_source": "url-slug",
+      "title": "Totalenergies Patrick Pouyanne Exceptional Leaders Exceptional Ideas",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market",
+      "date": "2026-09-16",
+      "date_raw": "2026-09-16T13:56:52Z",
+      "title_source": "url-slug",
+      "title": "Thoughts On The Market",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
+      "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-disruption-ai-vishy-tirupattur",
+      "date": "2026-09-16",
+      "date_raw": "2026-09-16T07:05:47Z",
+      "title_source": "url-slug",
+      "title": "Thoughts On The Market Disruption Ai Vishy Tirupattur",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
+      "url": "https://www.morganstanley.com/ideas/market-volatility-2024-summer-surprises",
+      "date": "2026-09-16",
+      "date_raw": "2026-09-16T13:09:07Z",
+      "title_source": "url-slug",
+      "title": "Market Volatility 2024 Summer Surprises",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4544,11 +4544,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/recession-soft-landing-2024-investor-playbook",
+      "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-desai-india-bullish-decade",
       "date": "2026-09-16",
-      "date_raw": "2026-09-16T13:09:09Z",
+      "date_raw": "2026-09-16T07:03:25Z",
       "title_source": "url-slug",
-      "title": "Recession Soft Landing 2024 Investor Playbook",
+      "title": "Thoughts On The Market Desai India Bullish Decade",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4557,11 +4557,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/fed-rate-hike-tests-inflation-matthew-hornbach-michael-gapen",
+      "url": "https://www.morganstanley.com/insights/articles/stock-rally-rising-rates-risks-2026",
       "date": "2026-09-16",
-      "date_raw": "2026-09-16T20:19:33Z",
+      "date_raw": "2026-09-16T18:02:23Z",
       "title_source": "url-slug",
-      "title": "Fed Rate Hike Tests Inflation Matthew Hornbach Michael Gapen",
+      "title": "Stock Rally Rising Rates Risks 2026",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4570,11 +4570,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/insights/themes/global-healthcare-conference",
+      "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-emerging-markets",
       "date": "2026-09-16",
-      "date_raw": "2026-09-16T19:35:06Z",
+      "date_raw": "2026-09-16T07:07:57Z",
       "title_source": "url-slug",
-      "title": "Global Healthcare Conference",
+      "title": "Thoughts On The Market Emerging Markets",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4596,11 +4596,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-carpenter-housing-prices-update",
+      "url": "https://www.morganstanley.com/insights/articles/private-markets-investment-trends-institute-2026",
       "date": "2026-09-15",
-      "date_raw": "2026-09-15T11:20:56Z",
+      "date_raw": "2026-09-15T17:56:26Z",
       "title_source": "url-slug",
-      "title": "Thoughts On The Market Carpenter Housing Prices Update",
+      "title": "Private Markets Investment Trends Institute 2026",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4622,11 +4622,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-carpenter-french-us-elections-2024",
+      "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-carpenter-housing-prices-update",
       "date": "2026-09-15",
-      "date_raw": "2026-09-15T11:19:23Z",
+      "date_raw": "2026-09-15T11:20:56Z",
       "title_source": "url-slug",
-      "title": "Thoughts On The Market Carpenter French Us Elections 2024",
+      "title": "Thoughts On The Market Carpenter Housing Prices Update",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -7785,6 +7785,20 @@
       "cited_by": 0
     },
     {
+      "title": "Suspended thin-film lithium niobate modulator for broadband mid-infrared light modulation and frequency comb generation",
+      "url": "https://doi.org/10.1038/s41467-026-77674-y",
+      "date": "2026-09-17",
+      "summary": "",
+      "org": "Intel",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Nature Communications",
+      "work_type": "article",
+      "cited_by": 1
+    },
+    {
       "title": "Control of topography for scanner patterning using inkjet adaptive planarization",
       "url": "https://doi.org/10.1117/1.jmm.25.4.041805",
       "date": "2026-09-16",
@@ -8117,20 +8131,6 @@
       "source": "openalex",
       "title_source": "openalex",
       "venue": "International Review of Humanities Studies",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "MERCENÁRIOS, OPERADORES OU PROTETORES? A VERDADE SOBRE PMC, PSD E CPO",
-      "url": "https://doi.org/10.47820/recima21.v7i8.8689",
-      "date": "2026-07-29",
-      "summary": "",
-      "org": "Intel",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "RECIMA21 - Revista Científica Multidisciplinar - ISSN 2675-6218",
       "work_type": "article",
       "cited_by": 0
     },
@@ -10739,6 +10739,20 @@
       "cited_by": 0
     },
     {
+      "title": "Structural Plasticity and Ligand Promiscuity of CYP3A4 Revealed by Cryo-EM",
+      "url": "https://doi.org/10.64898/2026.09.01.748687",
+      "date": "2026-09-02",
+      "summary": "",
+      "org": "OpenAI",
+      "category": "AI연구소",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "work_type": "preprint",
+      "cited_by": 0
+    },
+    {
       "title": "A Disclosure Benchmark Specification for Automated Alignment Research",
       "url": "https://doi.org/10.5281/zenodo.22179466",
       "date": "2026-08-30",
@@ -10909,20 +10923,6 @@
     {
       "title": "The Oriented Completed Intrinsic Closure Elimination as a Candidate Intrinsic Charge Invariant",
       "url": "https://doi.org/10.5281/zenodo.21478940",
-      "date": "2026-07-21",
-      "summary": "",
-      "org": "OpenAI",
-      "category": "AI연구소",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "The Dynamical Domain of Closure Theory Information-Preserving Transformation of Completed Intrinsic Closures",
-      "url": "https://doi.org/10.5281/zenodo.21478025",
       "date": "2026-07-21",
       "summary": "",
       "org": "OpenAI",
@@ -11439,6 +11439,20 @@
       "cited_by": 0
     },
     {
+      "title": "The Separable Organization of Immune Transcriptional Responses",
+      "url": "https://doi.org/10.64898/2026.09.09.750474",
+      "date": "2026-09-13",
+      "summary": "",
+      "org": "Microsoft",
+      "category": "데이터분석",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "work_type": "preprint",
+      "cited_by": 0
+    },
+    {
       "title": "How User-AI Mistreatment Occurs and Matters in Conversational Systems?",
       "url": "https://openalex.org/W7213371349",
       "date": "2026-09-11",
@@ -11548,6 +11562,20 @@
       "title_source": "openalex",
       "venue": "Journal of Chemical Theory and Computation",
       "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "Inverse FoldDir: Structure-conditioned Protein Sequence Design by Dirichlet Flow Matching",
+      "url": "https://doi.org/10.64898/2026.09.06.749733",
+      "date": "2026-09-07",
+      "summary": "",
+      "org": "Microsoft",
+      "category": "데이터분석",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "work_type": "preprint",
       "cited_by": 0
     },
     {
@@ -11707,34 +11735,6 @@
     {
       "title": "The AI Zero-Day Prioritization Problem",
       "url": "https://doi.org/10.5281/zenodo.22730894",
-      "date": "2026-09-01",
-      "summary": "",
-      "org": "Microsoft",
-      "category": "데이터분석",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Is Language Doing More of the Reasoning Than We Think",
-      "url": "https://doi.org/10.5281/zenodo.22730890",
-      "date": "2026-09-01",
-      "summary": "",
-      "org": "Microsoft",
-      "category": "데이터분석",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "The AI Zero-Day Prioritization Problem",
-      "url": "https://doi.org/10.5281/zenodo.22730895",
       "date": "2026-09-01",
       "summary": "",
       "org": "Microsoft",
@@ -12948,7 +12948,7 @@
       "title_source": "openalex",
       "venue": "Movement Disorders",
       "work_type": "article",
-      "cited_by": 193
+      "cited_by": 194
     },
     {
       "title": "OnlineSTL",

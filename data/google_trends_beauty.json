@@ -1,17 +1,17 @@
 {
   "source": "google news rss (beauty queries) + trends daily filtered",
-  "collected_at": "2026-09-18T02:58:08.678823+00:00",
+  "collected_at": "2026-09-18T08:46:55.449014+00:00",
   "status": "ok",
   "note": "뷰티 키워드만. 채점 MATCH_CHANNELS 에는 넣지 않음. 대시보드 키워드 보드용.",
   "query_count": 12,
-  "count": 94,
+  "count": 93,
   "items": [
     {
-      "keyword": "K-beauty’s counterfeit economy tests brand and platform controls - Personal Care Insights",
-      "product": "K-beauty’s counterfeit economy tests brand and platform controls - Personal Care Insights",
+      "keyword": "Kendall Jenner’s K-Beauty Routine Is on Sale—Here’s Where to Find It - de.eonline.com",
+      "product": "Kendall Jenner’s K-Beauty Routine Is on Sale—Here’s Where to Find It - de.eonline.com",
       "sub": "K-beauty",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQa1ZVcXY5d3JlR1NFRUZMMFhEUXp5ZnlIbG9pQkM1YWJmd2pSNFh6a0NGZ2ZuV2ZIa0JzaVBoTExnVnQ0a2ZQT1dwbUpwWUswV2NwRVhwWDJCazlpU2FXaXVxZnB0X1RVTWRlNlZpeGp2WDctRkVQendRVC0xNTE3alJlemFfQWoyUXZkUlhB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOS2RYOFBCbzU2TVZCQ2l4VXVkb2lRV0pGWUFzYWNweUZDTFVfRHAyNFdRRWRmWXZ1RkNnYlpXVVZXeThNaXJkcG85aFNyVldLaHhOR0NiOVM0MTgzLUhaMF9KZm91cXIyeG9Na2JCZE54QUpxckxNRmxZVEF2WmhMZ2lyVWp3Z2ZYc2xtOQ?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -25,17 +25,8 @@
       "beauty": true
     },
     {
-      "keyword": "Kendall Jenner’s K-Beauty Routine Is on Sale—Here’s Where to Find It - E! News",
-      "product": "Kendall Jenner’s K-Beauty Routine Is on Sale—Here’s Where to Find It - E! News",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOS2RYOFBCbzU2TVZCQ2l4VXVkb2lRV0pGWUFzYWNweUZDTFVfRHAyNFdRRWRmWXZ1RkNnYlpXVVZXeThNaXJkcG85aFNyVldLaHhOR0NiOVM0MTgzLUhaMF9KZm91cXIyeG9Na2JCZE54QUpxckxNRmxZVEF2WmhMZ2lyVWp3Z2ZYc2xtOQ?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "From Skin Patches to Haircare, These Are the K-Beauty Products That Are Actually Popular in Korea - WWD",
-      "product": "From Skin Patches to Haircare, These Are the K-Beauty Products That Are Actually Popular in Korea - WWD",
+      "keyword": "From Skin Patches to Haircare, These Are the K-Beauty Products That Are Actually Popular in Korea - wwd.com",
+      "product": "From Skin Patches to Haircare, These Are the K-Beauty Products That Are Actually Popular in Korea - wwd.com",
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTWhmVlpqOU5iUWRfT2x1V0Y0cmVlMVNQZElYaFQyUEpHQmRDZUJNdkNFMy03WUptY0ZfMXJubWJramM4dUFSZXl1SDR5QUl2UE0xeVNqbHl5X3RQUXZfV3Q1am1QcDN6UFRVbkdYN2dEUHo0Z3pKT3dMZ0tFNlNaUXE5TzZjTjJfNnlJTnVBUjdvTlBkNmRHTVFyanZZa2YwcDhEdQ?oc=5",
@@ -43,20 +34,11 @@
       "beauty": true
     },
     {
-      "keyword": "Two new sunscreens bring the K-beauty inspired upgrade we’ve been waiting for - hola.com",
-      "product": "Two new sunscreens bring the K-beauty inspired upgrade we’ve been waiting for - hola.com",
+      "keyword": "K-beauty’s counterfeit economy tests brand and platform controls - Personal Care Insights",
+      "product": "K-beauty’s counterfeit economy tests brand and platform controls - Personal Care Insights",
       "sub": "K-beauty",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMHppV0FhcGtxcktoRlEwQ1lTUkNEb3V5bXJGcjZKcW1XREY1b0lXNlZWLVZVVHhkRVZuOE82OVdjdkZpZ1dNSTdrbm51aE9XcDVqOHpBVTl0eDBjdFp5TUhVQ3BWeEppX3VzZEhCczYxOXhZV19vdDJMYWVqV3h2WVUtdjNYeEt6Y0FSSGtsOA?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "The K-beauty secret behind Karol G’s glowing skin, according to her esthetician - nj.com",
-      "product": "The K-beauty secret behind Karol G’s glowing skin, according to her esthetician - nj.com",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVHFybGlDc1htZ1Q5NTVaS19pWUhueE1FMzJXOEF5dzJGd1hlaXZTa0NhRm1oSmtiUGJRUnhlRmtSOV91MlN4d2hNU1NiUVVlWWMyX3ktdzg5cEhGOGRJMVAwSXlSYXU4dmJjdnJPUDR2QmlNOTN3M1hEWnF6Yk9paUhHRm1RQlpEV0ZLOW01dEJTV2VxTEYwc21CcGhDWWVpN0F5TFUwR21OeUZMM21INlFsT0lnT3pvOU41ek5yNS1GQdIB1gFBVV95cUxNLXFPR095Mm5zMlJPQXE3bHpYM3B1MkFmLXZ1dmFwb09Ma3dDUEF6MlJOaU9EWXBvLWxsTnZMcDhmeXdYQmsyMlFiTjVCOWdvX1ZscU1icFdybHZWdGZ2NWUycEJqUnA3UTNqVDFrSU5KYm5SNHJCU3NDdTZPbEFuQkI4Q1dnQ2o5X3pmQnp0SS1WeEVINEhtd3A1anpTaVRnc1VEeU9uTFVndFg4ZzEzN21wTC1WMEtRNmJwZVM4MjdjVHlteGhvTVh6MjFtbHc0ZFRYWUt3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQa1ZVcXY5d3JlR1NFRUZMMFhEUXp5ZnlIbG9pQkM1YWJmd2pSNFh6a0NGZ2ZuV2ZIa0JzaVBoTExnVnQ0a2ZQT1dwbUpwWUswV2NwRVhwWDJCazlpU2FXaXVxZnB0X1RVTWRlNlZpeGp2WDctRkVQendRVC0xNTE3alJlemFfQWoyUXZkUlhB?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -70,11 +52,29 @@
       "beauty": true
     },
     {
-      "keyword": "How K-beauty turned dollar store Daiso into retail giant - The Korea Herald",
-      "product": "How K-beauty turned dollar store Daiso into retail giant - The Korea Herald",
+      "keyword": "Two new sunscreens bring the K-beauty inspired upgrade we’ve been waiting for - HOLA",
+      "product": "Two new sunscreens bring the K-beauty inspired upgrade we’ve been waiting for - HOLA",
       "sub": "K-beauty",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1LVkNxQzRlQ2dSbmRuZDN1eGN3R0ttWmNkUzZFMFFRc1hRZnFqcmV5enFqa3hrc2ptSU9FUjJnVWxaVV9tN2JlNVBtWWVodFZwQUN6SGZkcw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMHppV0FhcGtxcktoRlEwQ1lTUkNEb3V5bXJGcjZKcW1XREY1b0lXNlZWLVZVVHhkRVZuOE82OVdjdkZpZ1dNSTdrbm51aE9XcDVqOHpBVTl0eDBjdFp5TUhVQ3BWeEppX3VzZEhCczYxOXhZV19vdDJMYWVqV3h2WVUtdjNYeEt6Y0FSSGtsOA?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Artist Cj Hendry collaborates with Korean beauty brand Sulwhasoo on “Secret Garden” installation at New York’s Brant Foundation. - artsy.net",
+      "product": "Artist Cj Hendry collaborates with Korean beauty brand Sulwhasoo on “Secret Garden” installation at New York’s Brant Foundation. - artsy.net",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVGpmNVJ1V25CVU43OWVRb1d2NmhFU1ZUYm1sb1JJNjk0aVFkMVhBRnVER0RzRVFMdXJwWlZSRFRXTWhobGsySXYwd3ZUZVJrN2E1cGRSaVNWa2FjWTJ6QzRoUHZoTnpBdVZ2YVN6eVREVXZfMTZCb0VTbWNTcWo2SGVvVGtJbFhjTDVnTUt3Qm5oeks0S0Q4RGxFRnhJY05NQklGSWZaMDNaMW92QVh4c04xS3J4M0NHTS0yVVZkUGRtQnFsZzd3?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "The K-beauty secret behind Karol G’s glowing skin, according to her esthetician - NJ.com",
+      "product": "The K-beauty secret behind Karol G’s glowing skin, according to her esthetician - NJ.com",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVHFybGlDc1htZ1Q5NTVaS19pWUhueE1FMzJXOEF5dzJGd1hlaXZTa0NhRm1oSmtiUGJRUnhlRmtSOV91MlN4d2hNU1NiUVVlWWMyX3ktdzg5cEhGOGRJMVAwSXlSYXU4dmJjdnJPUDR2QmlNOTN3M1hEWnF6Yk9paUhHRm1RQlpEV0ZLOW01dEJTV2VxTEYwc21CcGhDWWVpN0F5TFUwR21OeUZMM21INlFsT0lnT3pvOU41ek5yNS1GQdIB1gFBVV95cUxNLXFPR095Mm5zMlJPQXE3bHpYM3B1MkFmLXZ1dmFwb09Ma3dDUEF6MlJOaU9EWXBvLWxsTnZMcDhmeXdYQmsyMlFiTjVCOWdvX1ZscU1icFdybHZWdGZ2NWUycEJqUnA3UTNqVDFrSU5KYm5SNHJCU3NDdTZPbEFuQkI4Q1dnQ2o5X3pmQnp0SS1WeEVINEhtd3A1anpTaVRnc1VEeU9uTFVndFg4ZzEzN21wTC1WMEtRNmJwZVM4MjdjVHlteGhvTVh6MjFtbHc0ZFRYWUt3?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -88,20 +88,11 @@
       "beauty": true
     },
     {
-      "keyword": "US and Korean sunscreens are not created equal, study says - wtop.com",
-      "product": "US and Korean sunscreens are not created equal, study says - wtop.com",
+      "keyword": "US and Korean sunscreens are not created equal, study says - WTOP News",
+      "product": "US and Korean sunscreens are not created equal, study says - WTOP News",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMnpvNUR0bm0tV2E0M183TDZLUVUwal9NRHduZ21ULUtPZFl2SnFoVS1WVFVZTjJtZjFfX1R5Um1Lajk0TXZzbnVpbkdpMXdMbno4dHo0Y3g4R3lYbV9rRkcyY0VsSjRVSFFPWVV5cTNNWG0tVC0zZ0tER251cDRCM3A0ZEJnNTBjWjBrYnp2dHRHSXd2UkNMckJqQ1JmUmFkX1RCeElDdmtzMGJ4X3V6SjJYbTQyUlNvazMycGw4b2k4aG44YkdN?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "Consumer Reports puts K-Beauty sunscreens to the test - WRAL",
-      "product": "Consumer Reports puts K-Beauty sunscreens to the test - WRAL",
-      "sub": "Korean sunscreen",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMHhPYk45c2xzWEw3Mmx2akplQWJZS1F1SnJSbnZJV3RmV0hLTktMUnl4cDBQak5jdDQ0LWlUWWtGODZSbkFfU0Q3MDZ0S0FtVFNDSjUyaldtU0l6WjhiZXpjN1MxVjdRNGVXeEUyZkNqY29aeXBqckFYYWxTYkF4TkpFVUFsZjFRMk9EU1N3?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -111,6 +102,15 @@
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObVNqeHpLQ3ZVc29jQ0JxTnpaTXhTTklfME5rN3QzakpIajB2Q09jekF5Q0dVYTN3M3ZiUklmWDZ5RTFGMnRwU1kzYWNMWGlybVNIYUZ1R1huUGYzTEJnanhBQzhqWXh3MFZYVFpLRWJSeTVBWEFiMm0tVlpMb19XZDVkbw?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Consumer Reports puts K-Beauty sunscreens to the test - WRAL",
+      "product": "Consumer Reports puts K-Beauty sunscreens to the test - WRAL",
+      "sub": "Korean sunscreen",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMHhPYk45c2xzWEw3Mmx2akplQWJZS1F1SnJSbnZJV3RmV0hLTktMUnl4cDBQak5jdDQ0LWlUWWtGODZSbkFfU0Q3MDZ0S0FtVFNDSjUyaldtU0l6WjhiZXpjN1MxVjdRNGVXeEUyZkNqY29aeXBqckFYYWxTYkF4TkpFVUFsZjFRMk9EU1N3?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -151,8 +151,8 @@
       "beauty": true
     },
     {
-      "keyword": "What to Know About Snail Mucin for Healthier, Glowing Skin - Health.com",
-      "product": "What to Know About Snail Mucin for Healthier, Glowing Skin - Health.com",
+      "keyword": "What to Know About Snail Mucin for Healthier, Glowing Skin - health.com",
+      "product": "What to Know About Snail Mucin for Healthier, Glowing Skin - health.com",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FajN1UnhmQjViQ0dWVW45QVF1blJPRnBKZUltUWRyRjVDcHFVVTBiVUpkQTZlZHNYbEFmSUFtVTRWT0Q2X3o4R3R0YXhyYUJhbHV6dVln?oc=5",
@@ -160,11 +160,11 @@
       "beauty": true
     },
     {
-      "keyword": "Should You Get a Tofu Facial? - vegnews.com",
-      "product": "Should You Get a Tofu Facial? - vegnews.com",
+      "keyword": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - Good Housekeeping",
+      "product": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - Good Housekeeping",
       "sub": "snail mucin",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9GMWpDQXJra1dxSm5ZVVlScW91MDlvb0dxeEJKUXN4TkJCUGNZcjNuYTFlTnVlYzNsN0g1MlFrWTRZQkU5SXlzcFlPRDNsblN4WFRLZlpR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaHNGOTRvaVF1V3FVRWxjLWo3T0NSN1Q5Tjk0X25hTU5iOEY4d3lGdTVTNngtV09hdldxWXcwYTA0OENIcElxQ1ZXUnBXQ3FIcGhfYm9zc2xTZkJlaFdjU2UxNHR1cmhicDdHYXZiOEZnTGZGNl9IQms5N1FxV1BpTjlFRzY0dGM?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -174,6 +174,15 @@
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOVFOcDNSNU5FazZmWTllWXZrM0ZPdE0zcll3Qk9WbWFhdEIzZmhpVVZRY29xbE8xMDZ5VjNIR083a0FrbEUxU2RSNHkxNWFnczE0U0dDenNXdlMzOU50cmdBM1JxcmxYbHEtZFpXQ1FXNXY0Smxnb3ZxYWdoTEFIY3BaZkJucHhWMEJZTVAtV2ZpWEtZTmdNZUkxbXotelFLOUxWLVJ3?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Should You Get a Tofu Facial? - vegnews.com",
+      "product": "Should You Get a Tofu Facial? - vegnews.com",
+      "sub": "snail mucin",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9GMWpDQXJra1dxSm5ZVVlScW91MDlvb0dxeEJKUXN4TkJCUGNZcjNuYTFlTnVlYzNsN0g1MlFrWTRZQkU5SXlzcFlPRDNsblN4WFRLZlpR?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -192,15 +201,6 @@
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQ0l4Szg4MWtxM2RLY0MzSHpBYkRHQVdCSEc1b29TNFdrUzA4QmZoNldsRnctNXRFNVNQVWowMEdXdzJ2T244SGRGSnF2cVVhUHFuZnZuS1U2NVVCQ1BPTVRoelJqcUZZZnNEVEU0a3hlZ2JuaGJ5TFhBZjJSOFowaVlPMW5IZkZnbC1zYmdTb1dVSFZscmhLaFJGRXI3Wmc?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - Good Housekeeping",
-      "product": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - Good Housekeeping",
-      "sub": "snail mucin",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaHNGOTRvaVF1V3FVRWxjLWo3T0NSN1Q5Tjk0X25hTU5iOEY4d3lGdTVTNngtV09hdldxWXcwYTA0OENIcElxQ1ZXUnBXQ3FIcGhfYm9zc2xTZkJlaFdjU2UxNHR1cmhicDdHYXZiOEZnTGZGNl9IQms5N1FxV1BpTjlFRzY0dGM?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -277,15 +277,6 @@
       "beauty": true
     },
     {
-      "keyword": "Prime Day: The Soothing Toner That’s Gone Viral for ‘Instant’ Redness Relief is $14 - NewBeauty",
-      "product": "Prime Day: The Soothing Toner That’s Gone Viral for ‘Instant’ Redness Relief is $14 - NewBeauty",
-      "sub": "heartleaf toner",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB0TXdQNUtJTm1FMlBLR2ZtRTF0RDA5QjJqM3FuNENyZm9sU3NJb2pVYzhaZ0xSckpIOHBNRlJmTERjd0E2TGphTlhJb3p1V0prc19YenBRVmk1d095SzZ6SXZEdTRSSWd5MWpTNDVud1JXUWZqX3c?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
       "keyword": "This Soothing Toner for Acne-Prone Skin That’s Always Sold Out on TikTok Shop & Is a Rare 30% off til Midnight - SheKnows",
       "product": "This Soothing Toner for Acne-Prone Skin That’s Always Sold Out on TikTok Shop & Is a Rare 30% off til Midnight - SheKnows",
       "sub": "heartleaf toner",
@@ -295,8 +286,17 @@
       "beauty": true
     },
     {
-      "keyword": "Should You Use Centella Asiatica? 5 Benefits - Health.com",
-      "product": "Should You Use Centella Asiatica? 5 Benefits - Health.com",
+      "keyword": "If Your Skin Gets Oily by Noon, These Are the Toners Dermatologists Recommend - Prevention",
+      "product": "If Your Skin Gets Oily by Noon, These Are the Toners Dermatologists Recommend - Prevention",
+      "sub": "heartleaf toner",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQ1JZWlIyaHlzVUpmOFhwRDNDcHhYbHo3YjBkVE5xNWhZWlRIQmMyTF9xMjFCLVZKNkMwTXJMREhncHpuTTJFNFFRSHdpc1ZjNWlqa1hBUXctdUNnaTBYMzVtU0FfZWV5WUd4VzdYS0dyVVlqRnJiNExVbERGTU9UQXMwSk5PU1k?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Should You Use Centella Asiatica? 5 Benefits - health.com",
+      "product": "Should You Use Centella Asiatica? 5 Benefits - health.com",
       "sub": "centella serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPV1FGamp5TUY2bzdhcXhiTkpLQmwyZHIxOE9ITnZNcnFWemt2TzdXU09taVV0RmFReUZCUFE2YjNNa2RlVXVMR1E5SEh2eTV6Wk5HalUyaVdfN2JQQXZKZmV4alpHSVNXTXhRMFptYVM5amd3X3pRdThCYlROa18tWjRMTQ?oc=5",
@@ -358,11 +358,11 @@
       "beauty": true
     },
     {
-      "keyword": "Scientists Test a Plant-Based Serum That Boosted Hair Density in Just 8 Weeks - Gadget Review",
-      "product": "Scientists Test a Plant-Based Serum That Boosted Hair Density in Just 8 Weeks - Gadget Review",
+      "keyword": "Top 15 Must-Buy Serums from Olive Young in 2026 - funliday.com",
+      "product": "Top 15 Must-Buy Serums from Olive Young in 2026 - funliday.com",
       "sub": "centella serum",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNek56T0xSbnh6UUtRaFVZbmRQXzlaX2VXcFJtb2p0cHVuRkdmc2lYem44SklvR1JQZDRqVnFpUEZJX2NFb0xJVUVnNkpvV3NNSUFsV2NKWEhqZjYwZEs1N2NlWWc0LUVyb0h5ZUpSNF9WbUZDOURHeWVYNF8ybjVkNllEM3BORGNTSXVORzlVWlVuTk5abFNtc3IwUnk0azRnRTdtZWdUaW5OUQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRkRkQi1TY3h2YmlWZlEzSlRKNV9lMXNXSDdBQ2RBVHBmb0NCcThJa1Q1MkNsbVVISHhZSUNyU3BncGxQQndHbDk5cnJwbFhXVHBKa2tPQXJ1WlBFRzFrbnR5NXU1ek9GYUVOcUlVTHROZTZscjFJVUlmR1had2JockFNUWIxUQ?oc=5",
       "kind": "news",
       "beauty": true
     }

@@ -2,7 +2,7 @@
 title: "Record f0151e20d6 · AI-Agents-For-Retail-How-Retail-AI-Agents-Work---Sh"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T08:34:31.778706+00:00
+updated_at: 2026-09-18T08:51:42.598244+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiXEFVX3lxTE9BNWlhSllVQXVGYzlacFNRNWxNWEhGcEVVbzBPQjBwLWN0VjZjcm5LVEJfcHllbmV0MjNUeXJMSkRRazJMX1hzeHpQcmpPSGxXQXM2UWowWVJSOE1V?oc=5)
 
-**제목:** AI Agents For Retail: How Retail AI Agents Work - Shopify
+**제목:** AI Agents For Retail: How Retail AI Agents Work - shopify.com
 
-AI Agents For Retail: How Retail AI Agents Work - Shopify
+AI Agents For Retail: How Retail AI Agents Work - shopify.com
 
 **출처:** Source · Google Search
 

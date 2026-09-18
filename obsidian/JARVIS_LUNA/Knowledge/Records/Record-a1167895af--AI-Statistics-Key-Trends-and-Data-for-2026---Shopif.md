@@ -2,7 +2,7 @@
 title: "Record a1167895af · AI-Statistics-Key-Trends-and-Data-for-2026---Shopif"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T08:34:31.772473+00:00
+updated_at: 2026-09-18T08:51:42.595421+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiWEFVX3lxTE9LaGtSZ3hYYlZOSVJxX1ZFSlhvNFNreFIweFItRHlFZGhucWpkUmZiMGJITk8tZkljZ2ZYaHUtQXFrSGFvXzBjVVdNeTVrVDNwdnVCUUVnVmU?oc=5)
 
-**제목:** AI Statistics: Key Trends and Data for 2026 - Shopify
+**제목:** AI Statistics: Key Trends and Data for 2026 - shopify.com
 
-AI Statistics: Key Trends and Data for 2026 - Shopify
+AI Statistics: Key Trends and Data for 2026 - shopify.com
 
 **출처:** Source · Google Search
 

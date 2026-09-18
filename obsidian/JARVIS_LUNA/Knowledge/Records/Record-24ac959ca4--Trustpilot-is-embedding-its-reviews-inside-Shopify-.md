@@ -2,7 +2,7 @@
 title: "Record 24ac959ca4 · Trustpilot-is-embedding-its-reviews-inside-Shopify-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T08:34:31.873969+00:00
+updated_at: 2026-09-18T08:51:42.643683+00:00
 tags: [record, real-data]
 ---
 

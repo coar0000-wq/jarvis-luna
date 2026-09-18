@@ -2,7 +2,7 @@
 title: "Record cb10c735a0 · LOréal-leans-into-K-beauty-with-Cosmax-development-partnership---Perso"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T08:34:31.886520+00:00
+updated_at: 2026-09-18T08:51:42.649442+00:00
 tags: [record, real-data]
 ---
 

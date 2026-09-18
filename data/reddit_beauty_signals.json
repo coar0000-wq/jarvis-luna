@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-18T02:57:33.883573+00:00",
+  "collected_at": "2026-09-18T08:46:26.354529+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -72,19 +72,27 @@
       "score": 2
     },
     {
-      "keyword": "smells",
-      "score": 2
-    },
-    {
-      "keyword": "sunscreen",
-      "score": 2
-    },
-    {
       "keyword": "sheet",
       "score": 2
     },
     {
       "keyword": "mask",
+      "score": 2
+    },
+    {
+      "keyword": "moisturizers",
+      "score": 2
+    },
+    {
+      "keyword": "moisturizer",
+      "score": 2
+    },
+    {
+      "keyword": "spf50+",
+      "score": 2
+    },
+    {
+      "keyword": "sunscreen",
       "score": 2
     },
     {
@@ -100,11 +108,11 @@
       "score": 2
     },
     {
-      "keyword": "moisturizers",
+      "keyword": "anything",
       "score": 2
     },
     {
-      "keyword": "moisturizer",
+      "keyword": "goes",
       "score": 2
     },
     {
@@ -113,14 +121,6 @@
     },
     {
       "keyword": "oily",
-      "score": 2
-    },
-    {
-      "keyword": "anything",
-      "score": 2
-    },
-    {
-      "keyword": "goes",
       "score": 2
     },
     {
@@ -141,10 +141,6 @@
     },
     {
       "keyword": "foundation",
-      "score": 2
-    },
-    {
-      "keyword": "new",
       "score": 2
     },
     {
@@ -176,31 +172,35 @@
       "score": 1
     },
     {
-      "keyword": "searching",
+      "keyword": "cream",
       "score": 1
     },
     {
-      "keyword": "perfume",
+      "keyword": "review",
       "score": 1
     },
     {
-      "keyword": "fragrance",
+      "keyword": "baby",
       "score": 1
     },
     {
-      "keyword": "like",
+      "keyword": "lotions",
       "score": 1
     },
     {
-      "keyword": "conditioner",
+      "keyword": "main",
       "score": 1
     },
     {
-      "keyword": "rosemary",
+      "keyword": "face",
       "score": 1
     },
     {
-      "keyword": "smell",
+      "keyword": "cbeauty",
+      "score": 1
+    },
+    {
+      "keyword": "locally",
       "score": 1
     }
   ],
@@ -208,10 +208,6 @@
     {
       "keyword": "skin",
       "score": 6
-    },
-    {
-      "keyword": "sunscreen",
-      "score": 2
     },
     {
       "keyword": "sheet",
@@ -222,19 +218,27 @@
       "score": 2
     },
     {
-      "keyword": "kbeauty",
-      "score": 2
-    },
-    {
-      "keyword": "skincare",
-      "score": 2
-    },
-    {
       "keyword": "moisturizers",
       "score": 2
     },
     {
       "keyword": "moisturizer",
+      "score": 2
+    },
+    {
+      "keyword": "spf50+",
+      "score": 2
+    },
+    {
+      "keyword": "sunscreen",
+      "score": 2
+    },
+    {
+      "keyword": "kbeauty",
+      "score": 2
+    },
+    {
+      "keyword": "skincare",
       "score": 2
     },
     {
@@ -274,30 +278,9 @@
       "feed": "hot"
     },
     {
-      "title": "Searching for a perfume or fragrance that smells like this conditioner. It has a rosemary smell but also smells woodsy to me.",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wj5f70/searching_for_a_perfume_or_fragrance_that_smells/",
-      "published": "2026-09-17T20:30:51+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "My Holy Grail Sunscreen",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wi6akm/my_holy_grail_sunscreen/",
-      "published": "2026-09-16T18:56:37+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
       "title": "Cream sheet mask review",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjdn0k/cream_sheet_mask_review/",
       "published": "2026-09-18T02:22:45+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "What are the best affordable stores to buy kbeauty makeup and skincare products??",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wizxy1/what_are_the_best_affordable_stores_to_buy/",
-      "published": "2026-09-17T17:10:05+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -309,9 +292,30 @@
       "feed": "hot"
     },
     {
-      "title": "Recommendations on a moisturizing toner for someone with sensitive, dry acneprone skin, oily tzone and roceacea?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1winzxl/recommendations_on_a_moisturizing_toner_for/",
-      "published": "2026-09-17T08:19:27+00:00",
+      "title": "Cbeauty locally available in Hong Kong?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjdibz/cbeauty_locally_available_in_hong_kong/",
+      "published": "2026-09-18T02:16:30+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Allie Sheer Ecru SPF50+ PA++++: Great for Rosacea, But Beware the Creases!",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjfv0r/allie_sheer_ecru_spf50_pa_great_for_rosacea_but/",
+      "published": "2026-09-18T04:09:00+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "My Holy Grail Sunscreen",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wi6akm/my_holy_grail_sunscreen/",
+      "published": "2026-09-16T18:56:37+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "What are the best affordable stores to buy kbeauty makeup and skincare products??",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wizxy1/what_are_the_best_affordable_stores_to_buy/",
+      "published": "2026-09-17T17:10:05+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -319,6 +323,13 @@
       "title": "Anything Goes Thursday: September 17, 2026",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wj5n8c/anything_goes_thursday_september_17_2026/",
       "published": "2026-09-17T20:39:13+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Recommendations on a moisturizing toner for someone with sensitive, dry acneprone skin, oily tzone and roceacea?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1winzxl/recommendations_on_a_moisturizing_toner_for/",
+      "published": "2026-09-17T08:19:27+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -386,6 +397,13 @@
       "feed": "hot"
     },
     {
+      "title": "Anything Goes Wednesday: September 16, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wi94k1/anything_goes_wednesday_september_16_2026/",
+      "published": "2026-09-16T20:39:10+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Do cooling gel masks actually make a difference in hot weather?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1whyva9/do_cooling_gel_masks_actually_make_a_difference/",
       "published": "2026-09-16T14:30:10+00:00",
@@ -396,13 +414,6 @@
       "title": "HAVE A QUESTION? ASK HERE! Alter-Daily Help and Questions: September 16, 2026",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1whzwwv/have_a_question_ask_here_alterdaily_help_and/",
       "published": "2026-09-16T15:09:09+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Anything Goes Wednesday: September 16, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wi94k1/anything_goes_wednesday_september_16_2026/",
-      "published": "2026-09-16T20:39:10+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -424,13 +435,6 @@
       "title": "AESTURA Foaming Cleanser. Thumps up or Thumps down?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wi2xev/aestura_foaming_cleanser_thumps_up_or_thumps_down/",
       "published": "2026-09-16T16:57:32+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "I love Botanist brand body wash especially their new hinoki and cedarwood",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whkz1x/i_love_botanist_brand_body_wash_especially_their/",
-      "published": "2026-09-16T02:49:16+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

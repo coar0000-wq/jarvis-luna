@@ -2,7 +2,7 @@
 title: "Record 7599a171e4 · SQL-Data-Types-Reference-and-Best-Practices"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T08:34:32.183821+00:00
+updated_at: 2026-09-18T08:51:42.786470+00:00
 tags: [record, real-data]
 ---
 
