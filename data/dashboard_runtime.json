@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-18T20:19:22.863708+09:00",
+  "generated_at": "2026-09-18T22:31:49.605322+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
@@ -30,7 +30,7 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-09-18T20:16:35.877581+09:00",
+      "when": "2026-09-18T22:30:36.272649+09:00",
       "summary": "S등급 10개 · 고시표 입력 대기 1건 · 새 자료 40건",
       "action": "고시 표 1건 필요 — 1072554 [탄력리프팅]본셉 레티놀 탄력샷  https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072554",
       "status": "ok",
@@ -126,7 +126,7 @@
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-09-18T20:17:54.450839+09:00",
+      "when": "2026-09-18T22:30:39.532830+09:00",
       "summary": "81,766노트 · 328,454링크 · 끊어진 링크 0건 · 개인 노트 16건 별도",
       "action": null,
       "status": "ok",
@@ -140,7 +140,7 @@
     "id": "secretary",
     "name": "비서실장",
     "badge": "총괄",
-    "when": "2026-09-18T20:16:35.859161+09:00",
+    "when": "2026-09-18T22:30:36.253649+09:00",
     "summary": "30분 주기 · 고시 24건 · US라벨 24건 · 카피 10건 · 등록 가능 7건 · 법률 차단 1건",
     "action": "멈춘 단계 고시 수집, 리스팅 카피, 등록 게이트 외 1개 — 2시간 넘게 산출물이 안 바뀌었다",
     "status": "failed",
@@ -149,37 +149,37 @@
         "단계": "고시 수집",
         "산출물": "gosi.json",
         "갱신": "2026-09-13T07:50:40.431569+00:00",
-        "몇시간전": 123.5
+        "몇시간전": 125.7
       },
       {
         "단계": "고시 비전 추출",
         "산출물": "gosi.json",
-        "갱신": "2026-09-18T20:16:35.859161+09:00",
+        "갱신": "2026-09-18T22:30:36.253649+09:00",
         "몇시간전": 0.0
       },
       {
         "단계": "US 라벨 동기화",
         "산출물": "daiso_us_labels.json",
-        "갱신": "2026-09-18T20:16:35.396164+09:00",
+        "갱신": "2026-09-18T22:30:35.719653+09:00",
         "몇시간전": 0.0
       },
       {
         "단계": "리스팅 카피",
         "산출물": "shopify_listing_copy.json",
         "갱신": "2026-09-18T01:04:52.792027+00:00",
-        "몇시간전": 10.2
+        "몇시간전": 12.4
       },
       {
         "단계": "등록 게이트",
         "산출물": "listing_gate.json",
         "갱신": "2026-09-18T08:50:12.867907+00:00",
-        "몇시간전": 2.5
+        "몇시간전": 4.7
       },
       {
         "단계": "법률 점검",
         "산출물": "legal_products.json",
         "갱신": "2026-09-18T08:50:12.833561+00:00",
-        "몇시간전": 2.5
+        "몇시간전": 4.7
       }
     ],
     "_근거": "chief_of_staff.yml 이 30분마다 부르는 스크립트들의 산출물 갱신 시각을 읽는다. 돌았다는 말이 아니라 결과가 바뀌었는지를 본다. chief_of_staff.py 파일은 어느 워크플로도 부르지 않는 고아라서 근거로 쓰지 않는다."
@@ -343,7 +343,7 @@
     "status": "completed",
     "record_count": 3769,
     "source_counts": {},
-    "updated_at": "2026-09-18T20:17:32.050019+09:00"
+    "updated_at": "2026-09-18T22:30:36.266649+09:00"
   },
   "graph": {
     "notes": 81766,
@@ -357,7 +357,7 @@
     "topics": 28,
     "orgs": 35,
     "audit": "passed",
-    "last_generated": "2026-09-18T20:17:54.450839+09:00"
+    "last_generated": "2026-09-18T22:30:39.532830+09:00"
   },
   "training": {
     "status": "completed",
@@ -1635,7 +1635,7 @@
       "collected_at": "2026-09-17T23:04:01.019482+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 12.3,
+      "age_hours": 14.5,
       "stale": false
     },
     "walmart_beauty": {
@@ -1645,7 +1645,7 @@
       "collected_at": "2026-09-17T23:04:01.020454+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 12.3,
+      "age_hours": 14.5,
       "stale": false
     },
     "oliveyoung_us": {
@@ -1655,7 +1655,7 @@
       "collected_at": "2026-09-18T08:46:12.943723+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 2.6,
+      "age_hours": 4.8,
       "stale": false
     },
     "google_trends_us": {
@@ -1665,7 +1665,7 @@
       "collected_at": "2026-09-18T08:46:55.449014+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 2.5,
+      "age_hours": 4.7,
       "stale": false
     },
     "wikipedia_interest": {
@@ -1676,7 +1676,7 @@
       "count": 8,
       "trust": "verified",
       "note": "2026-08-18 ~ 2026-09-16 일별 조회수. 후반 15일 대비 전반 15일 증감률",
-      "age_hours": 8.3,
+      "age_hours": 10.5,
       "stale": false
     },
     "allure_media": {
@@ -1687,7 +1687,7 @@
       "count": 15,
       "trust": "verified",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
-      "age_hours": 8.3,
+      "age_hours": 10.5,
       "stale": false
     },
     "openfda_sunscreen": {
@@ -1698,7 +1698,7 @@
       "count": 15,
       "trust": "verified",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다.",
-      "age_hours": 8.3,
+      "age_hours": 10.5,
       "stale": false
     },
     "shopify_demand_matching": {
@@ -1724,7 +1724,7 @@
       "collected_at": "2026-09-17T23:04:01.021121+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 12.3,
+      "age_hours": 14.5,
       "stale": false
     },
     "sephora": {
@@ -1734,7 +1734,7 @@
       "collected_at": "2026-09-17T23:04:01.021121+00:00",
       "count": 14,
       "trust": "verified",
-      "age_hours": 12.3,
+      "age_hours": 14.5,
       "stale": false
     },
     "open_beauty_facts": {
@@ -1744,7 +1744,7 @@
       "collected_at": "2026-09-18T08:46:12.321468+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 2.6,
+      "age_hours": 4.8,
       "stale": false
     }
   },
