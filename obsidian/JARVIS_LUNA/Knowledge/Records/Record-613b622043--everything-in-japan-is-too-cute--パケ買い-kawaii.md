@@ -2,7 +2,7 @@
 title: "Record 613b622043 · everything-in-japan-is-too-cute--パケ買い-kawaii"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T11:17:54.160651+00:00
+updated_at: 2026-09-18T14:14:04.718404+00:00
 tags: [record, real-data]
 ---
 

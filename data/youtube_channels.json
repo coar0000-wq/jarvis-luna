@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T08:45:34.397607+00:00",
+  "generated_at": "2026-09-18T14:07:02.006436+00:00",
   "generator": "scripts/ingest_youtube_channels.py",
   "입력": "data/manual/youtube_channels.txt",
   "robots": "youtube.com/robots.txt 의 Disallow 목록에 /@ 와 /channel/ 은 없다. 막힌 것은 /feeds/videos.xml, /results, /youtubei/ 등이다. 지정된 채널만 하나씩 본다. 2026-09-06 확인.",
@@ -16,16 +16,7 @@
     "sourcing": 1
   },
   "팀_고정": "한 번 정한 팀은 유지한다. 유튜브가 제목을 A/B 로 돌려서 같은 영상이 회차마다 다른 팀으로 가는 일이 있었다.",
-  "제목_바뀐_영상": [
-    {
-      "video_id": "hikTGKo2kZE",
-      "before": "브랜딩 감각을 키우고 싶다면👀 | 사업부터 브랜딩까지 분야별 필독서 추천",
-      "after": "책은 가장 가성비 좋은 인풋입니다 📚  | 브랜드 대표가 직접 고른 브랜딩 필독서",
-      "kept_teams": [
-        "design"
-      ]
-    }
-  ],
+  "제목_바뀐_영상": [],
   "top_by_views": [
     {
       "video_id": "6lSvKk7lTl0",
@@ -42,9 +33,9 @@
     {
       "video_id": "xgk5N4rCJIw",
       "title": "3D Carousel in Figma Using Smart Animate | Prototyping Tutorial",
-      "views_text": "540K views",
+      "views_text": "541K views",
       "published_text": "3 years ago",
-      "views": 540000,
+      "views": 541000,
       "url": "https://www.youtube.com/watch?v=xgk5N4rCJIw",
       "channel": "uxpeak",
       "teams": [
@@ -89,10 +80,10 @@
     },
     {
       "video_id": "GGg61sdEjeI",
-      "title": "This UI/UX Redesign Will Teach You More Than 500 Tutorials Combined",
-      "views_text": "276K views",
+      "title": "This UI/UX Redesign Will Teach You More Than 200 Tutorials Combined",
+      "views_text": "278K views",
       "published_text": "3 weeks ago",
-      "views": 276000,
+      "views": 278000,
       "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
       "channel": "uxpeak",
       "teams": [
@@ -198,9 +189,9 @@
     {
       "video_id": "Xzh8xjimmp8",
       "title": "Top 5 Advanced UX/UI Design Tips and Tricks Every Designer Needs to Know About – Part 3",
-      "views_text": "127K views",
+      "views_text": "128K views",
       "published_text": "1 year ago",
-      "views": 127000,
+      "views": 128000,
       "url": "https://www.youtube.com/watch?v=Xzh8xjimmp8",
       "channel": "uxpeak",
       "teams": [
@@ -211,7 +202,7 @@
   "items": [
     {
       "stale": false,
-      "last_ok_at": "2026-09-18T08:45:24.070947+00:00",
+      "last_ok_at": "2026-09-18T14:06:51.686136+00:00",
       "url": "https://www.youtube.com/@uxpeak",
       "note": "UX/UI 리디자인·전환율 (사용자 지정)",
       "team_hint": "design",
@@ -220,14 +211,14 @@
       "subscribers": "124K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-18T08:45:24.070968+00:00",
+      "checked_at": "2026-09-18T14:06:51.686158+00:00",
       "videos": [
         {
           "video_id": "GGg61sdEjeI",
-          "title": "This UI/UX Redesign Will Teach You More Than 500 Tutorials Combined",
-          "views_text": "276K views",
+          "title": "This UI/UX Redesign Will Teach You More Than 200 Tutorials Combined",
+          "views_text": "278K views",
           "published_text": "3 weeks ago",
-          "views": 276000,
+          "views": 278000,
           "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
           "channel": "uxpeak",
           "teams": [
@@ -285,9 +276,9 @@
         {
           "video_id": "Xzh8xjimmp8",
           "title": "Top 5 Advanced UX/UI Design Tips and Tricks Every Designer Needs to Know About – Part 3",
-          "views_text": "127K views",
+          "views_text": "128K views",
           "published_text": "1 year ago",
-          "views": 127000,
+          "views": 128000,
           "url": "https://www.youtube.com/watch?v=Xzh8xjimmp8",
           "channel": "uxpeak",
           "teams": [
@@ -429,9 +420,9 @@
         {
           "video_id": "xgk5N4rCJIw",
           "title": "3D Carousel in Figma Using Smart Animate | Prototyping Tutorial",
-          "views_text": "540K views",
+          "views_text": "541K views",
           "published_text": "3 years ago",
-          "views": 540000,
+          "views": 541000,
           "url": "https://www.youtube.com/watch?v=xgk5N4rCJIw",
           "channel": "uxpeak",
           "teams": [
@@ -478,7 +469,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-18T08:45:29.397405+00:00",
+      "last_ok_at": "2026-09-18T14:06:57.006229+00:00",
       "url": "https://www.youtube.com/@%EB%95%A1%ED%81%90%EC%B1%84%EB%84%90",
       "note": "땡스큐레이터 - 스몰 브랜드 브랜딩·수출·견적. 팀은 영상마다 자동 분류",
       "team_hint": "",
@@ -487,14 +478,14 @@
       "subscribers": "18.8K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-18T08:45:29.397422+00:00",
+      "checked_at": "2026-09-18T14:06:57.006246+00:00",
       "videos": [
         {
           "video_id": "hikTGKo2kZE",
           "title": "책은 가장 가성비 좋은 인풋입니다 📚  | 브랜드 대표가 직접 고른 브랜딩 필독서",
-          "views_text": "7.7K views",
-          "published_text": "22 hours ago",
-          "views": 7700,
+          "views_text": "9.3K views",
+          "published_text": "1 day ago",
+          "views": 9300,
           "url": "https://www.youtube.com/watch?v=hikTGKo2kZE",
           "channel": "땡스큐레이터",
           "teams": [

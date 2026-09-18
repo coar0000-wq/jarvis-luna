@@ -2,7 +2,7 @@
 title: "Record c0c1dd1e16 · Beyond-Scalar-Flexibility-From-Eligible-AI-Workload"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T11:17:53.289192+00:00
+updated_at: 2026-09-18T14:14:04.139123+00:00
 tags: [record, real-data]
 ---
 

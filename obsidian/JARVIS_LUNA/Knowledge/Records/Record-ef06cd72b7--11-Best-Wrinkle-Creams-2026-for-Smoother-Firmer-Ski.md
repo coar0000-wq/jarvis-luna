@@ -2,7 +2,7 @@
 title: "Record ef06cd72b7 · 11-Best-Wrinkle-Creams-2026-for-Smoother-Firmer-Ski"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T11:17:53.774758+00:00
+updated_at: 2026-09-18T14:14:04.603635+00:00
 tags: [record, real-data]
 ---
 

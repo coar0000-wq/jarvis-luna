@@ -2,7 +2,7 @@
 title: "Record 79f63900d8 · Olay-Regenerist-Regenerating-with-Sunscreen-Broad-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T11:17:53.256070+00:00
+updated_at: 2026-09-18T14:14:04.106152+00:00
 tags: [record, real-data]
 ---
 

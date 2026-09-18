@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T08:45:38.795485+00:00",
+  "generated_at": "2026-09-18T14:07:06.474257+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
@@ -8,16 +8,16 @@
   "unrouted": 8,
   "summary": {
     "sourcing": {
-      "total": 343,
+      "total": 342,
       "recent": 341,
-      "material": 5,
+      "material": 4,
       "material_recent": 3,
       "products": 338
     },
     "market": {
-      "total": 475,
+      "total": 476,
       "recent": 40,
-      "material": 475,
+      "material": 476,
       "material_recent": 40,
       "products": 0
     },
@@ -29,9 +29,9 @@
       "products": 0
     },
     "pricing": {
-      "total": 14,
+      "total": 15,
       "recent": 6,
-      "material": 14,
+      "material": 15,
       "material_recent": 6,
       "products": 0
     },
@@ -43,10 +43,10 @@
       "products": 0
     },
     "design": {
-      "total": 359,
-      "recent": 99,
-      "material": 359,
-      "material_recent": 99,
+      "total": 360,
+      "recent": 98,
+      "material": 360,
+      "material_recent": 98,
       "products": 0
     },
     "robotics": {
@@ -65,9 +65,9 @@
     },
     "institutions": {
       "total": 1062,
-      "recent": 258,
+      "recent": 261,
       "material": 1062,
-      "material_recent": 258,
+      "material_recent": 261,
       "products": 0
     }
   },
@@ -614,13 +614,6 @@
         "by_hand": true
       },
       {
-        "title": "Upgrade your routine with #SoMuchKBeauty at SM Beauty - Philstar.com",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTEprNXlReUZJTWcyV3FGR3hQOFFseWw2SU5Cc2VJOFpvT0VQcmJ3RzdLUkhQSFRtYzNqMEd5VHhkQi0yVjloNmpKcFhHem0yLVVuaFFBMkltVHkzejA2SnpQdk1fQkhuVE94RnZfUFVGVHJrWTEtcWp4cl9MVmlIUHNSSGdFdk9VLWhTd2k1d1dkejVRMW5YV1kzQllPMl9sR3YydEJlX1RkR0JWTzc1MzNJbDRTTnl30gG_AUFVX3lxTE9BSEJpNjhTWVFTWGZ0ZjVfQW9uUVA4VHZ4RWZhR093YXV1UTh4Y3VVX21DSE52VGMxOWRVU1REbzFWSW9kdG9POTRra3hUVkEzUXQ5OERpMjk2SmUtQXZUNVRuSEhSS3o5WEk3aUt0Sy1IWjd3eml5ZnlGMFh4VEJkQVlISXVZRjlsWTI3TXkxamQ0V3RJbHUyOFpTQ1ktbGtGSmZJV2I1ZUdsalMyT09zSWZVZTkwMWVSeVV1WFhN?oc=5",
-        "pool": "google",
-        "date": "2026-09-18",
-        "by_hand": false
-      },
-      {
         "title": "SK hynix Presents ‘New Spectrum’ for AI Infrastructure at ‘AI Infra Summit 2026’",
         "url": "https://news.skhynix.com/en/ai-infra-summit-2026/",
         "pool": "institutions",
@@ -628,7 +621,7 @@
         "by_hand": false
       },
       {
-        "title": "Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - highschool.latimes.com",
+        "title": "Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - HS Insider",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPc2g3NThETVhLa3FISG94RmRGSURCVlJ6aGNHUWZleXJHS0VfTUd0ZEZJUzduRVpjSGxTcGRKNlhKeXVCVHpMTmpFWjBPcHdzYkIyeG1lcHJXeVV6cHFPZXl5UFdnUkpRNDVRLXFjZTFtNmpmYThKdmVveTBTM0ZsN1lBNjJyRE9UVmZReGlaeG54Mko1ZDItRlFoUXZKc1BRcmwzSnR3RGVpTjRzbVVTcDI4dw?oc=5",
         "pool": "google",
         "date": "2026-09-17",
@@ -684,8 +677,8 @@
         "by_hand": false
       },
       {
-        "title": "This TikTok Beauty Trend Can Help You Save Money and Cut Down on Clutter - Yahoo Lifestyle Canada",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1QVlp1UGRhWlEyejViMHkySVlSODdHaktDWW5oUDlxRll6eFNmcW1LUzFVZWQxajlIemxHN09CLXQ4Vm9ONC1RYzFuaVp6UGZ0azZTaHlJQVUwV3ZrVlBmVkRlUEgwTFJTcUhjMnhLY2pWWU95dHZHeGh5dw?oc=5",
+        "title": "This TikTok Beauty Trend Can Help You Save Money and Cut Down on Clutter - Good Housekeeping",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSzN5emU2RjE1eGNjY3BfWi1QT2tETFQ0LXJjenVSU0Z1VnlKdVN5NHhBZFh6MGtnSWJJSDJHTGtMWGlpdF9kMXozS3JWTGduNVFWSEVyeTByd09JenQyYjdtWW10dW83UUJLemdVRzlXZkpUdXp1ckRFNHNWR1AyTVZBb29OWDRQQlVzUA?oc=5",
         "pool": "google",
         "date": "2026-09-17",
         "by_hand": false
@@ -726,15 +719,15 @@
         "by_hand": false
       },
       {
-        "title": "The 19 Most Innovative Skincare Products of 2026, Tested and Reviewed - Harper's BAZAAR",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSmNOT09ralZTLXpEZ0xuYXZqTHVOX3RaVXJlWlJqc3VzTV9GOXFnU3NOU1QyNUp6YnNuTTNUbDAzUVBhQUNRVEwwalNrdjB0ZzhwY3JRVEt2T3VjV3Z0YnprNmN6LUtOcVZ0YUx6dkpNU3dETktyMkRCWmlRLWsyRjFBOVlFcGE3?oc=5",
-        "pool": "google",
-        "date": "2026-09-16",
+        "title": "Securities Services   Etf Trends",
+        "url": "https://www.jpmorgan.com/insights/etf/securities-services/etf-trends",
+        "pool": "institutions",
+        "date": "2026-09-15",
         "by_hand": false
       },
       {
-        "title": "Securities Services   Etf Trends",
-        "url": "https://www.jpmorgan.com/insights/etf/securities-services/etf-trends",
+        "title": "Private Markets Investment Trends Institute 2026",
+        "url": "https://www.morganstanley.com/insights/articles/private-markets-investment-trends-institute-2026",
         "pool": "institutions",
         "date": "2026-09-15",
         "by_hand": false
@@ -789,7 +782,7 @@
         "by_hand": false
       },
       {
-        "title": "Mia Korean Skincare Highlights Growing Interest in K-Beauty in Milan - Issuewire.com",
+        "title": "Mia Korean Skincare Highlights Growing Interest in K-Beauty in Milan - Issuewire",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUGkzV1p3dHozWEE5LWlTdmRreHlfYWhfQUluLUVoRHpDM04yQ0lFMnRzQnJOR1lxemM1TWh2WEYzLU5nWnlkTURmZ3c3N2hYaGs5aFJ1UmNFckQyV1lkOWNIdUxVUHVEY3ByR0tkd09jb0dQYlkyQ0paOW9NRzlldExQSnMwdEZtaDBvTnFPNVFFTktDSzNoVkJwYWlJb1RzZkFDalFVS1pDcGdKMzA2bw?oc=5",
         "pool": "google",
         "date": "2026-09-12",
@@ -803,7 +796,14 @@
         "by_hand": false
       },
       {
-        "title": "The Vogue Business TikTok Trend Tracker - vogue.com",
+        "title": "Galderma launches ALASTIN skincare in Korea at GAIN RESTAGE - Korea Biomedical Review",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1TTjJFMUxHR3ZlOEJkRlNLekZpOTBpOVREVVZqUmNEcWhfbkFIb0pMclZybVZGNThud3pJdlE5TzNBaUZMTmNFQkZxWDdKNk50LUI3OTFJVTVJOEt6M1ZuVGNzZHN0NnhhUHZvLXpB0gFyQVVfeXFMT2wyVzU1U2NGZmcwMFRXdWJfT3VNdXpLYWlzSkcyUHBtRnZSZHRrMHJ3R1RIV01yTmtDaktQUi1hSDVrblRuQ3BTbXFlb1RZeTY4Rzc3RktnS0tSQWlUNkRwM1l0ZDM3al9ZdHFQSm45RFZR?oc=5",
+        "pool": "google",
+        "date": "2026-09-11",
+        "by_hand": false
+      },
+      {
+        "title": "The Vogue Business TikTok Trend Tracker - Vogue",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9nc2ktNnQxVzlMTjl1MjR5MFYwSkMtVjI1Z0VhZlBLU0JqVlBjdHUyejJCVDV3OE9xYmF3ckhxR2VXLTk1Y3ZScXZfN0VPSU1ManFXYmFUWWxKTDN6cjFXTzk2OGxSVWxDOHIyeXZmRG9jUktfd2FIMg?oc=5",
         "pool": "google",
         "date": "2026-09-11",
@@ -852,7 +852,7 @@
         "by_hand": false
       },
       {
-        "title": "Would You Go on a Glowcation? K-Beauty Is Betting So - vogue.com",
+        "title": "Would You Go on a Glowcation? K-Beauty Is Betting So - Vogue",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ01YZ2lKV0VUQzJROHZVVnJZbWM1dkw1TFRGLXFMcUx0dWhaZDJheTIwdE9yaElIUFpmYlJVSXg2UnQ0aDhCOVd3MVZvakhvVWxDWi1wM2hfbGVKbjFaSHJLWjJHYU02M3lwdGRXQVNfSXJGdWVTN0h4V0tvaU9iLUIzbGFmZkFU?oc=5",
         "pool": "google",
         "date": "2026-09-04",
@@ -966,7 +966,7 @@
         "by_hand": true
       },
       {
-        "title": "Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - highschool.latimes.com",
+        "title": "Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - HS Insider",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPc2g3NThETVhLa3FISG94RmRGSURCVlJ6aGNHUWZleXJHS0VfTUd0ZEZJUzduRVpjSGxTcGRKNlhKeXVCVHpMTmpFWjBPcHdzYkIyeG1lcHJXeVV6cHFPZXl5UFdnUkpRNDVRLXFjZTFtNmpmYThKdmVveTBTM0ZsN1lBNjJyRE9UVmZReGlaeG54Mko1ZDItRlFoUXZKc1BRcmwzSnR3RGVpTjRzbVVTcDI4dw?oc=5",
         "pool": "google",
         "date": "2026-09-17",
@@ -1029,10 +1029,17 @@
         "by_hand": false
       },
       {
-        "title": "K-beauty: top 10 innovative launches spotted at Cosmobeauty Seoul 2026 - premiumbeautynews.com",
+        "title": "K-beauty: top 10 innovative launches spotted at Cosmobeauty Seoul 2026 - Premium Beauty News",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1na3Q5UzFpZk02M1lSWWF3NmZyWWxiaXRudHc3blhnR0tCVGRicWlxQmtsbWJOVmtqSTdkVHZlejV3clZpeXk0bDJZNzdEc3dZMHdsN2NZQWVkVTNqOURiSEFsN2dPZ21SNktjaFpCQmMtN0RrdE51Sg?oc=5",
         "pool": "google",
         "date": "2026-06-06",
+        "by_hand": false
+      },
+      {
+        "title": "Seoul Travel Haul: All the Beauty Products I Brought Home - The Daily Beast",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUWNydzdmSGpWZFFKVVZzaWxnejhoalhXQ2ZpTWhpSmk4Z1A0U1RxdUhjWl9tRkxnMV9HaFFYUTFxWGZJdE5FUDJMbFhPT2ZxNkQxLWtTUHFKSC1vZUhSMHBxY3JmcjRTZW9EdjZrdDdONDRQSEFMX2RkMnpra2doZkNxZnJvdWM?oc=5",
+        "pool": "google",
+        "date": "2026-03-26",
         "by_hand": false
       },
       {
@@ -1040,13 +1047,6 @@
         "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE16bDVPVFB6bGd5Q3RRRmJFRW5kR0xLTG9lUDRLaDdjN1FOSE5va2FSWkZZcW84TWh5SDlxckwwSjBJRzdGTENXVUpQZnQ3ZjJSLXZacUYxaw?oc=5",
         "pool": "google",
         "date": "2025-10-08",
-        "by_hand": false
-      },
-      {
-        "title": "Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - HS Insider",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPc2g3NThETVhLa3FISG94RmRGSURCVlJ6aGNHUWZleXJHS0VfTUd0ZEZJUzduRVpjSGxTcGRKNlhKeXVCVHpMTmpFWjBPcHdzYkIyeG1lcHJXeVV6cHFPZXl5UFdnUkpRNDVRLXFjZTFtNmpmYThKdmVveTBTM0ZsN1lBNjJyRE9UVmZReGlaeG54Mko1ZDItRlFoUXZKc1BRcmwzSnR3RGVpTjRzbVVTcDI4dw?oc=5",
-        "pool": "us_beauty",
-        "date": "",
         "by_hand": false
       },
       {
@@ -1140,6 +1140,13 @@
         "url": "https://doi.org/10.11113/intrest.v20n1.436",
         "pool": "institutions",
         "date": "2026-06-30",
+        "by_hand": false
+      },
+      {
+        "title": "7 Best Ecommerce Analytics Platforms for DTC Brands: Features, Pricing, and ROI Compared (2026) - Ask Luca",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9rZktSWEpid3RqbWs0cmc4Q0pULWZNdGh6cVpxZVdFOHVMOXB5N3dNT0dqN0NlWlNyOEtUWm0yeFZMLTF6LW53TzFJVVRCVkFQUHNycldlX2JzY0hLZElkOTVmZXpyTVE?oc=5",
+        "pool": "google",
+        "date": "2026-02-27",
         "by_hand": false
       },
       {
@@ -1644,7 +1651,7 @@
         "by_hand": true
       },
       {
-        "title": "This UI/UX Redesign Will Teach You More Than 500 Tutorials Combined",
+        "title": "This UI/UX Redesign Will Teach You More Than 200 Tutorials Combined",
         "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
         "pool": "youtube_channel",
         "date": "",
@@ -2847,6 +2854,13 @@
         "by_hand": false
       },
       {
+        "title": "SK hynix Launches ‘SK hynix Ventures’ in Silicon Valley to Expand Global AI Ecosystem Investment",
+        "url": "https://news.skhynix.com/en/sk-hynix-ventures/",
+        "pool": "institutions",
+        "date": "2026-09-18",
+        "by_hand": false
+      },
+      {
         "title": "How Cooley is accelerating IPO work with ChatGPT",
         "url": "https://openai.com/index/cooley-gopublic",
         "pool": "institutions",
@@ -2947,6 +2961,13 @@
       {
         "title": "The Fed Hikes Rates What Happens Now",
         "url": "https://www.jpmorgan.com/insights/podcast-hub/making-sense/the-fed-hikes-rates-what-happens-now",
+        "pool": "institutions",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "Suspended thin-film lithium niobate modulator for broadband mid-infrared light modulation and frequency comb generation",
+        "url": "https://doi.org/10.1038/s41467-026-77674-y",
         "pool": "institutions",
         "date": "2026-09-17",
         "by_hand": false
@@ -3078,22 +3099,8 @@
         "by_hand": false
       },
       {
-        "title": "Thoughts On The Market Disruption Ai Vishy Tirupattur",
-        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-disruption-ai-vishy-tirupattur",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Stock Rally Rising Rates Risks 2026",
-        "url": "https://www.morganstanley.com/insights/articles/stock-rally-rising-rates-risks-2026",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Totalenergies Patrick Pouyanne Exceptional Leaders Exceptional Ideas",
-        "url": "https://www.morganstanley.com/ideas/totalenergies-patrick-pouyanne-exceptional-leaders-exceptional-ideas",
+        "title": "Market Sentiment Bullish Q1 2023",
+        "url": "https://www.morganstanley.com/ideas/market-sentiment-bullish-q1-2023",
         "pool": "institutions",
         "date": "2026-09-16",
         "by_hand": false
@@ -3106,41 +3113,6 @@
         "by_hand": false
       },
       {
-        "title": "Thoughts On The Market",
-        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Thoughts On The Market Desai India Bullish Decade",
-        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-desai-india-bullish-decade",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Market Sentiment Bullish Q1 2023",
-        "url": "https://www.morganstanley.com/ideas/market-sentiment-bullish-q1-2023",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Market Volatility 2024 Summer Surprises",
-        "url": "https://www.morganstanley.com/ideas/market-volatility-2024-summer-surprises",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Thoughts On The Market Emerging Markets",
-        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-emerging-markets",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
         "title": "Investing In Treasury Bonds Q3 2023",
         "url": "https://www.morganstanley.com/ideas/investing-in-treasury-bonds-Q3-2023",
         "pool": "institutions",
@@ -3148,8 +3120,57 @@
         "by_hand": false
       },
       {
+        "title": "Fed Rate Hike Tests Inflation Matthew Hornbach Michael Gapen",
+        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/fed-rate-hike-tests-inflation-matthew-hornbach-michael-gapen",
+        "pool": "institutions",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Recession Soft Landing 2024 Investor Playbook",
+        "url": "https://www.morganstanley.com/ideas/recession-soft-landing-2024-investor-playbook",
+        "pool": "institutions",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Global Healthcare Conference",
+        "url": "https://www.morganstanley.com/insights/themes/global-healthcare-conference",
+        "pool": "institutions",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
         "title": "Private Equity Technology M And A Outlook",
         "url": "https://www.morganstanley.com/ideas/private-equity-technology-m-and-a-outlook",
+        "pool": "institutions",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Totalenergies Patrick Pouyanne Exceptional Leaders Exceptional Ideas",
+        "url": "https://www.morganstanley.com/ideas/totalenergies-patrick-pouyanne-exceptional-leaders-exceptional-ideas",
+        "pool": "institutions",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Thoughts On The Market",
+        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market",
+        "pool": "institutions",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Thoughts On The Market Disruption Ai Vishy Tirupattur",
+        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-disruption-ai-vishy-tirupattur",
+        "pool": "institutions",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Market Volatility 2024 Summer Surprises",
+        "url": "https://www.morganstanley.com/ideas/market-volatility-2024-summer-surprises",
         "pool": "institutions",
         "date": "2026-09-16",
         "by_hand": false
@@ -3169,22 +3190,22 @@
         "by_hand": false
       },
       {
-        "title": "Recession Soft Landing 2024 Investor Playbook",
-        "url": "https://www.morganstanley.com/ideas/recession-soft-landing-2024-investor-playbook",
+        "title": "Thoughts On The Market Desai India Bullish Decade",
+        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-desai-india-bullish-decade",
         "pool": "institutions",
         "date": "2026-09-16",
         "by_hand": false
       },
       {
-        "title": "Fed Rate Hike Tests Inflation Matthew Hornbach Michael Gapen",
-        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/fed-rate-hike-tests-inflation-matthew-hornbach-michael-gapen",
+        "title": "Stock Rally Rising Rates Risks 2026",
+        "url": "https://www.morganstanley.com/insights/articles/stock-rally-rising-rates-risks-2026",
         "pool": "institutions",
         "date": "2026-09-16",
         "by_hand": false
       },
       {
-        "title": "Global Healthcare Conference",
-        "url": "https://www.morganstanley.com/insights/themes/global-healthcare-conference",
+        "title": "Thoughts On The Market Emerging Markets",
+        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-emerging-markets",
         "pool": "institutions",
         "date": "2026-09-16",
         "by_hand": false
@@ -3241,20 +3262,6 @@
       {
         "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
         "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
-        "pool": "institutions",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "How energy teams turn theft detection into governed action with Genie and AI business processes",
-        "url": "https://www.databricks.com/blog/how-energy-teams-turn-theft-detection-governed-action-genie-and-ai-business-processes",
-        "pool": "institutions",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "How Databricks’ marketers use data 3x more with Genie, an AI analytics assistant",
-        "url": "https://www.databricks.com/blog/databricks-marketers-use-data-3x-genie-ai-analytics-assistant",
         "pool": "institutions",
         "date": "2026-09-15",
         "by_hand": false

@@ -2,7 +2,7 @@
 title: "Record 7e614ee3d3 · Institutional-Consulting-Solutions---Our-Insights"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T11:17:54.132710+00:00
+updated_at: 2026-09-18T14:14:04.690216+00:00
 tags: [record, real-data]
 ---
 

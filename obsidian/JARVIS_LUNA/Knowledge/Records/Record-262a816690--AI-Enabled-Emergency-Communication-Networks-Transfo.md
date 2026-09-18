@@ -2,7 +2,7 @@
 title: "Record 262a816690 · AI-Enabled-Emergency-Communication-Networks-Transfo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T11:17:53.474246+00:00
+updated_at: 2026-09-18T14:14:04.323264+00:00
 tags: [record, real-data]
 ---
 

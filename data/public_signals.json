@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T08:50:12.038082+00:00",
+  "generated_at": "2026-09-18T14:12:25.475047+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "fuel",
-          "approx_traffic": "5000+",
-          "traffic_num": 5000,
-          "published": "Fri, 18 Sep 2026 00:30:00 -0700",
-          "source_name": "Fox Business",
-          "url": "https://trends.google.com/trending?geo=US&q=fuel"
+          "keyword": "amazon settlement",
+          "approx_traffic": "50000+",
+          "traffic_num": 50000,
+          "published": "Fri, 18 Sep 2026 06:50:00 -0700",
+          "source_name": "Federal Trade Commission (.gov)",
+          "url": "https://trends.google.com/trending?geo=US&q=amazon%20settlement"
         },
         {
-          "keyword": "gas",
+          "keyword": "sway dasafo news",
+          "approx_traffic": "20000+",
+          "traffic_num": 20000,
+          "published": "Fri, 18 Sep 2026 05:30:00 -0700",
+          "source_name": "BBC",
+          "url": "https://trends.google.com/trending?geo=US&q=sway%20dasafo%20news"
+        },
+        {
+          "keyword": "helen mirren",
+          "approx_traffic": "10000+",
+          "traffic_num": 10000,
+          "published": "Fri, 18 Sep 2026 05:40:00 -0700",
+          "source_name": "The Guardian",
+          "url": "https://trends.google.com/trending?geo=US&q=helen%20mirren"
+        },
+        {
+          "keyword": "theo james",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Fri, 18 Sep 2026 00:30:00 -0700",
-          "source_name": "The Washington Post",
-          "url": "https://trends.google.com/trending?geo=US&q=gas"
+          "published": "Fri, 18 Sep 2026 06:40:00 -0700",
+          "source_name": "Vogue Adria",
+          "url": "https://trends.google.com/trending?geo=US&q=theo%20james"
         },
         {
-          "keyword": "nfl schedule this week",
+          "keyword": "control resonant",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Fri, 18 Sep 2026 00:20:00 -0700",
-          "source_name": "NFL.com",
-          "url": "https://trends.google.com/trending?geo=US&q=nfl%20schedule%20this%20week"
+          "published": "Fri, 18 Sep 2026 06:00:00 -0700",
+          "source_name": "IGN",
+          "url": "https://trends.google.com/trending?geo=US&q=control%20resonant"
         },
         {
-          "keyword": "covid test",
+          "keyword": "jacob tremblay",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Fri, 18 Sep 2026 00:40:00 -0700",
-          "source_name": "San Francisco Chronicle",
-          "url": "https://trends.google.com/trending?geo=US&q=covid%20test"
+          "published": "Fri, 18 Sep 2026 06:40:00 -0700",
+          "source_name": "Vancouver Sun",
+          "url": "https://trends.google.com/trending?geo=US&q=jacob%20tremblay"
         },
         {
-          "keyword": "diesel fuel",
+          "keyword": "truck",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Fri, 18 Sep 2026 00:30:00 -0700",
+          "published": "Fri, 18 Sep 2026 06:00:00 -0700",
+          "source_name": "AP News",
+          "url": "https://trends.google.com/trending?geo=US&q=truck"
+        },
+        {
+          "keyword": "on",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Fri, 18 Sep 2026 05:50:00 -0700",
           "source_name": "CNBC",
-          "url": "https://trends.google.com/trending?geo=US&q=diesel%20fuel"
+          "url": "https://trends.google.com/trending?geo=US&q=on"
         },
         {
-          "keyword": "mortgage rates today",
+          "keyword": "brandon weems",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Fri, 18 Sep 2026 01:30:00 -0700",
-          "source_name": "CNN",
-          "url": "https://trends.google.com/trending?geo=US&q=mortgage%20rates%20today"
+          "published": "Fri, 18 Sep 2026 06:30:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=brandon%20weems"
         },
         {
-          "keyword": "australia vs zimbabwe",
+          "keyword": "pierce brosnan",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Fri, 18 Sep 2026 01:30:00 -0700",
-          "source_name": "Cricinfo",
-          "url": "https://trends.google.com/trending?geo=US&q=australia%20vs%20zimbabwe"
-        },
-        {
-          "keyword": "alejandro tosti",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Fri, 18 Sep 2026 01:20:00 -0700",
-          "source_name": "Golfweek",
-          "url": "https://trends.google.com/trending?geo=US&q=alejandro%20tosti"
-        },
-        {
-          "keyword": "entertainment",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Fri, 18 Sep 2026 00:30:00 -0700",
-          "source_name": "Variety",
-          "url": "https://trends.google.com/trending?geo=US&q=entertainment"
-        },
-        {
-          "keyword": "target 30th anniversary pokemon",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Fri, 18 Sep 2026 00:30:00 -0700",
-          "source_name": "Pokemon.com",
-          "url": "https://trends.google.com/trending?geo=US&q=target%2030th%20anniversary%20pokemon"
+          "published": "Fri, 18 Sep 2026 05:40:00 -0700",
+          "source_name": "Yahoo",
+          "url": "https://trends.google.com/trending?geo=US&q=pierce%20brosnan"
         }
       ]
     },
@@ -187,6 +187,16 @@
       "source": "allure.com/feed/rss",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
       "items": [
+        {
+          "title": "Selena Gomez Has Me Seriously Reconsidering the Middle Part—See the Photos",
+          "published": "Fri, 18 Sep 2026 13:20:04 +0000",
+          "url": "https://www.allure.com/story/selena-gomez-middle-part-long-hair"
+        },
+        {
+          "title": "10 Best Concealers for Dry Skin That Don’t Cake, Crack, or Crease",
+          "published": "Fri, 18 Sep 2026 13:00:00 +0000",
+          "url": "https://www.allure.com/story/concealer-for-dry-skin"
+        },
         {
           "title": "Why Curtain Bangs Look Amazing on Everyone",
           "published": "Thu, 17 Sep 2026 20:00:00 +0000",
@@ -313,29 +323,19 @@
           "url": "https://www.allure.com/story/best-of-beauty-2026-winners"
         },
         {
-          "title": "The Allure 2026 Best of Beauty Breakthrough Winners Are So Impressive They Have Their Own Category",
-          "published": "Thu, 17 Sep 2026 11:00:00 +0000",
-          "url": "https://www.allure.com/story/best-of-beauty-2026-breakthrough-awards-winners"
-        },
-        {
-          "title": "The 2026 Best of Beauty-Winning Lip Products Will Transform Your Lip Combo",
-          "published": "Thu, 17 Sep 2026 11:00:00 +0000",
-          "url": "https://www.allure.com/story/best-of-beauty-2026-lips-winners"
-        },
-        {
-          "title": "The 2026 Allure Best of Beauty Nails Winners Are Show-Stoppers",
-          "published": "Thu, 17 Sep 2026 11:00:00 +0000",
-          "url": "https://www.allure.com/story/best-of-beauty-2026-nail-product-winners"
-        },
-        {
           "title": "The 2026 Allure Best of Beauty Clean Beauty Winners Hit All the Right Marks",
           "published": "Thu, 17 Sep 2026 11:00:00 +0000",
           "url": "https://www.allure.com/story/best-of-beauty-2026-clean-skin-care-brands-winners"
         },
         {
-          "title": "These 2026 Allure Best of Beauty Award-Winning Makeup Tools Will Transform Your Beauty Routine",
+          "title": "The Allure 2026 Best of Beauty Breakthrough Winners Are So Impressive They Have Their Own Category",
           "published": "Thu, 17 Sep 2026 11:00:00 +0000",
-          "url": "https://www.allure.com/story/best-of-beauty-2026-hair-tools-makeup-brushes"
+          "url": "https://www.allure.com/story/best-of-beauty-2026-breakthrough-awards-winners"
+        },
+        {
+          "title": "The 2026 Allure Best of Beauty Hair-Product Award Winners Prioritize Hair and Scalp Health",
+          "published": "Thu, 17 Sep 2026 11:00:00 +0000",
+          "url": "https://www.allure.com/story/best-of-beauty-2026-hair-care-product-winners"
         }
       ]
     },

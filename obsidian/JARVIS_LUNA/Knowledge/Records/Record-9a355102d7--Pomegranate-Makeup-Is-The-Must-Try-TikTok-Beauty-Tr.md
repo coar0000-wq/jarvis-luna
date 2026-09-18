@@ -2,7 +2,7 @@
 title: "Record 9a355102d7 · Pomegranate-Makeup-Is-The-Must-Try-TikTok-Beauty-Tr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T11:17:53.686041+00:00
+updated_at: 2026-09-18T14:14:04.522888+00:00
 tags: [record, real-data]
 ---
 

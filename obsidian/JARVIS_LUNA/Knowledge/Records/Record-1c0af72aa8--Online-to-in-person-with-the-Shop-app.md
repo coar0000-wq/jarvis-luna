@@ -2,7 +2,7 @@
 title: "Record 1c0af72aa8 · Online-to-in-person-with-the-Shop-app"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T11:17:54.198341+00:00
+updated_at: 2026-09-18T14:14:04.753806+00:00
 tags: [record, real-data]
 ---
 

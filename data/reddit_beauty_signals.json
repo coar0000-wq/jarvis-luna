@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-18T08:46:26.354529+00:00",
+  "collected_at": "2026-09-18T14:07:44.465732+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -49,26 +49,38 @@
     },
     {
       "keyword": "september",
-      "score": 5
+      "score": 4
     },
     {
       "keyword": "2026",
-      "score": 5
+      "score": 4
+    },
+    {
+      "keyword": "korean",
+      "score": 4
     },
     {
       "keyword": "makeup",
       "score": 3
     },
     {
-      "keyword": "best",
-      "score": 3
-    },
-    {
-      "keyword": "reviews",
+      "keyword": "glow",
       "score": 3
     },
     {
       "keyword": "thursday",
+      "score": 2
+    },
+    {
+      "keyword": "tirtir",
+      "score": 2
+    },
+    {
+      "keyword": "swatches",
+      "score": 2
+    },
+    {
+      "keyword": "spf50+",
       "score": 2
     },
     {
@@ -80,6 +92,10 @@
       "score": 2
     },
     {
+      "keyword": "products",
+      "score": 2
+    },
+    {
       "keyword": "moisturizers",
       "score": 2
     },
@@ -88,11 +104,7 @@
       "score": 2
     },
     {
-      "keyword": "spf50+",
-      "score": 2
-    },
-    {
-      "keyword": "sunscreen",
+      "keyword": "best",
       "score": 2
     },
     {
@@ -104,7 +116,7 @@
       "score": 2
     },
     {
-      "keyword": "products",
+      "keyword": "sunscreen",
       "score": 2
     },
     {
@@ -128,19 +140,15 @@
       "score": 2
     },
     {
-      "keyword": "korean",
-      "score": 2
-    },
-    {
       "keyword": "hera",
       "score": 2
     },
     {
-      "keyword": "glow",
+      "keyword": "foundation",
       "score": 2
     },
     {
-      "keyword": "foundation",
+      "keyword": "reviews",
       "score": 2
     },
     {
@@ -149,14 +157,6 @@
     },
     {
       "keyword": "masks",
-      "score": 2
-    },
-    {
-      "keyword": "cleanser",
-      "score": 2
-    },
-    {
-      "keyword": "thumps",
       "score": 2
     },
     {
@@ -172,35 +172,35 @@
       "score": 1
     },
     {
-      "keyword": "cream",
+      "keyword": "waterism",
       "score": 1
     },
     {
-      "keyword": "review",
+      "keyword": "tint",
       "score": 1
     },
     {
-      "keyword": "baby",
+      "keyword": "allie",
       "score": 1
     },
     {
-      "keyword": "lotions",
+      "keyword": "sheer",
       "score": 1
     },
     {
-      "keyword": "main",
+      "keyword": "ecru",
       "score": 1
     },
     {
-      "keyword": "face",
+      "keyword": "pa++++",
       "score": 1
     },
     {
-      "keyword": "cbeauty",
+      "keyword": "great",
       "score": 1
     },
     {
-      "keyword": "locally",
+      "keyword": "rosacea",
       "score": 1
     }
   ],
@@ -208,6 +208,14 @@
     {
       "keyword": "skin",
       "score": 6
+    },
+    {
+      "keyword": "korean",
+      "score": 4
+    },
+    {
+      "keyword": "spf50+",
+      "score": 2
     },
     {
       "keyword": "sheet",
@@ -226,14 +234,6 @@
       "score": 2
     },
     {
-      "keyword": "spf50+",
-      "score": 2
-    },
-    {
-      "keyword": "sunscreen",
-      "score": 2
-    },
-    {
       "keyword": "kbeauty",
       "score": 2
     },
@@ -242,11 +242,11 @@
       "score": 2
     },
     {
-      "keyword": "toner",
+      "keyword": "sunscreen",
       "score": 2
     },
     {
-      "keyword": "korean",
+      "keyword": "toner",
       "score": 2
     },
     {
@@ -255,10 +255,6 @@
     },
     {
       "keyword": "masks",
-      "score": 2
-    },
-    {
-      "keyword": "cleanser",
       "score": 2
     }
   ],
@@ -278,9 +274,44 @@
       "feed": "hot"
     },
     {
+      "title": "Tirtir Waterism Glow Tint swatches",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjnk51/tirtir_waterism_glow_tint_swatches/",
+      "published": "2026-09-18T11:25:37+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Allie Sheer Ecru SPF50+ PA++++: Great for Rosacea, But Beware the Creases!",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjfv0r/allie_sheer_ecru_spf50_pa_great_for_rosacea_but/",
+      "published": "2026-09-18T04:09:00+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Rate and modify my shopping list, please!",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjqxk9/rate_and_modify_my_shopping_list_please/",
+      "published": "2026-09-18T13:56:34+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Cream sheet mask review",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjdn0k/cream_sheet_mask_review/",
       "published": "2026-09-18T02:22:45+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "What should I get from Korea?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjnv0p/what_should_i_get_from_korea/",
+      "published": "2026-09-18T11:41:21+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Korean products for eczema dark scars hyperpigmentation",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjl8iy/korean_products_for_eczema_dark_scars/",
+      "published": "2026-09-18T09:16:10+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -299,9 +330,9 @@
       "feed": "hot"
     },
     {
-      "title": "Allie Sheer Ecru SPF50+ PA++++: Great for Rosacea, But Beware the Creases!",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjfv0r/allie_sheer_ecru_spf50_pa_great_for_rosacea_but/",
-      "published": "2026-09-18T04:09:00+00:00",
+      "title": "What are the best affordable stores to buy kbeauty makeup and skincare products??",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wizxy1/what_are_the_best_affordable_stores_to_buy/",
+      "published": "2026-09-17T17:10:05+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -309,13 +340,6 @@
       "title": "My Holy Grail Sunscreen",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wi6akm/my_holy_grail_sunscreen/",
       "published": "2026-09-16T18:56:37+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "What are the best affordable stores to buy kbeauty makeup and skincare products??",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wizxy1/what_are_the_best_affordable_stores_to_buy/",
-      "published": "2026-09-17T17:10:05+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -407,34 +431,6 @@
       "title": "Do cooling gel masks actually make a difference in hot weather?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1whyva9/do_cooling_gel_masks_actually_make_a_difference/",
       "published": "2026-09-16T14:30:10+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "HAVE A QUESTION? ASK HERE! Alter-Daily Help and Questions: September 16, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whzwwv/have_a_question_ask_here_alterdaily_help_and/",
-      "published": "2026-09-16T15:09:09+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Best Azelaic Acid products for Post-Inflammatory Erythema? Need reviews!",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whzi1a/best_azelaic_acid_products_for_postinflammatory/",
-      "published": "2026-09-16T14:54:02+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Are there any truly cool-toned brown matte lip stains?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whvfjk/are_there_any_truly_cooltoned_brown_matte_lip/",
-      "published": "2026-09-16T12:10:15+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "AESTURA Foaming Cleanser. Thumps up or Thumps down?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wi2xev/aestura_foaming_cleanser_thumps_up_or_thumps_down/",
-      "published": "2026-09-16T16:57:32+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

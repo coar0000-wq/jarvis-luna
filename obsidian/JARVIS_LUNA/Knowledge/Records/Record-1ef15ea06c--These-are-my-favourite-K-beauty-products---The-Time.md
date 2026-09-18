@@ -2,7 +2,7 @@
 title: "Record 1ef15ea06c · These-are-my-favourite-K-beauty-products---The-Time"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T11:17:53.620680+00:00
+updated_at: 2026-09-18T14:14:04.459412+00:00
 tags: [record, real-data]
 ---
 

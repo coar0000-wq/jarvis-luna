@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T08:50:31.175265+00:00",
+  "generated_at": "2026-09-18T14:12:44.879578+00:00",
   "generator": "scripts/discover_channels.py",
   "정책": "후보를 자동으로 등록하지 않는다. robots.txt 를 확인하고 실제로 호출해 본 뒤 진짜 데이터가 나오는 것만 제안한다. 붙일지 말지는 대화로 지시하면 자비스가 수집기를 만들어 연동한다. 이미 가동 중인 소스는 already_live 로 표시한다.",
   "판정기준": [
@@ -65,12 +65,12 @@
       "url": "https://www.allure.com/feed/rss",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 26890,
+      "bytes": 26590,
       "items": 30,
       "samples": [
-        "Why Curtain Bangs Look Amazing on Everyone",
-        "Allure Best of Beauty Awards: Hall of Fame Winners Skin, Makeup, Hair Products—Reviews, Photos for 2026",
-        "How to Treat Eczema and Milia at the Same Time"
+        "Selena Gomez Has Me Seriously Reconsidering the Middle Part—See the Photos",
+        "10 Best Concealers for Dry Skin That Don’t Cake, Crack, or Crease",
+        "Why Curtain Bangs Look Amazing on Everyone"
       ],
       "verdict": "가능",
       "reason": "30건 파싱 성공, 값이 서로 다름",
@@ -97,15 +97,15 @@
       "url": "https://trends.google.com/trending/rss?geo=US",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 20680,
-      "items": 39,
+      "bytes": 20187,
+      "items": 38,
       "samples": [
-        "mortgage rates today",
-        "Mortgage rates climb for fourth-straight week to hit highest level since Trump took office",
-        "US mortgage rates brush 7%, weighing on buyers, sellers and further straining a bleak housing market"
+        "amazon settlement",
+        "FTC Announces Additional Payments to Consumers Stemming from FTC’s Amazon Prime Settlement",
+        "Amazon Prime customers may be eligible to receive $200 as settlement grows"
       ],
       "verdict": "가능",
-      "reason": "39건 파싱 성공, 값이 서로 다름",
+      "reason": "38건 파싱 성공, 값이 서로 다름",
       "already_live": true,
       "live_channel": "google_trends_us"
     },

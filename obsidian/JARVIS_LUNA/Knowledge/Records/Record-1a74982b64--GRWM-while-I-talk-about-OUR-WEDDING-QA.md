@@ -2,7 +2,7 @@
 title: "Record 1a74982b64 · GRWM-while-I-talk-about-OUR-WEDDING-QA"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T11:17:54.175954+00:00
+updated_at: 2026-09-18T14:14:04.733656+00:00
 tags: [record, real-data]
 ---
 

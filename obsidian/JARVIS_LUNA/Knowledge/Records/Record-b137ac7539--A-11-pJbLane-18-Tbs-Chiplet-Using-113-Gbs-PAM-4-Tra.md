@@ -2,7 +2,7 @@
 title: "Record b137ac7539 · A-11-pJbLane-18-Tbs-Chiplet-Using-113-Gbs-PAM-4-Tra"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T11:17:53.395214+00:00
+updated_at: 2026-09-18T14:14:04.244448+00:00
 tags: [record, real-data]
 ---
 

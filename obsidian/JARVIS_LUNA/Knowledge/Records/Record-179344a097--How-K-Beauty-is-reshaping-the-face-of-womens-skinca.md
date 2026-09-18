@@ -2,7 +2,7 @@
 title: "Record 179344a097 · How-K-Beauty-is-reshaping-the-face-of-womens-skinca"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T11:17:53.622413+00:00
+updated_at: 2026-09-18T14:14:04.460929+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMijAFBVV95cUxNakJKMTZURDQ4VE4wV3A5ZE5CeFo2YW9hZy1QVld1c24yc3NVQmtsMlVvaGVNWHVGNVdOb2RTVGQ0a0JldzF3N3VQNzdrV2RmeFJWcnQyaElsdVpOWkNjakxFVXdQUGRzbENxY0NEYmwxQjlhdUlhbDNNUlUxWU1fbTVJUGZfdXQ2d0lYSg?oc=5)
 
-**제목:** How K-Beauty is reshaping the face of women’s skincare - today.fresnostate.edu
+**제목:** How K-Beauty is reshaping the face of women’s skincare - Fresno State Today
 
-How K-Beauty is reshaping the face of women’s skincare - today.fresnostate.edu
+How K-Beauty is reshaping the face of women’s skincare - Fresno State Today
 
 **출처:** Source · Google Search
 

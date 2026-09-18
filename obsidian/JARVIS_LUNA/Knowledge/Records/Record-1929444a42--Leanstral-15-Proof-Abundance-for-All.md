@@ -2,7 +2,7 @@
 title: "Record 1929444a42 · Leanstral-15-Proof-Abundance-for-All"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T11:17:53.502254+00:00
+updated_at: 2026-09-18T14:14:04.351094+00:00
 tags: [record, real-data]
 ---
 

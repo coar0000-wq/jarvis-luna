@@ -2,7 +2,7 @@
 title: "Record 0f9b9318c1 · Everyone-With-Glass-Skin-Swears-by-This-Under-the-R"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T11:17:53.561987+00:00
+updated_at: 2026-09-18T14:14:04.410473+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMicEFVX3lxTE5IdU02YkgwdDdmUWd3a29HVG9ZZUJDY0NBaV9lSnFmXzdwZE1PdXQ5X1lWa1ZyS0F3MXZKQUJKc3ZhM25VLUFoMEctSzB3WGtQa3JYdEJRbWVldG5uVHczcHhrYzVXSmctTm5NTFBqQTg?oc=5)
 
-**제목:** Everyone With Glass Skin Swears by This Under-the-Radar K-Beauty Brand - Marie Claire
+**제목:** Everyone With Glass Skin Swears by This Under-the-Radar K-Beauty Brand - marieclaire.com
 
-Everyone With Glass Skin Swears by This Under-the-Radar K-Beauty Brand - Marie Claire
+Everyone With Glass Skin Swears by This Under-the-Radar K-Beauty Brand - marieclaire.com
 
 **출처:** Source · Google Search
 

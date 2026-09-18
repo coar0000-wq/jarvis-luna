@@ -2,7 +2,7 @@
 title: "Record e424724a1f · DiffusionGemma-4x-faster-text-generation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T11:17:53.338366+00:00
+updated_at: 2026-09-18T14:14:04.188392+00:00
 tags: [record, real-data]
 ---
 

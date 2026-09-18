@@ -2,7 +2,7 @@
 title: "Record 09f0bcc910 · Goodal-Green-Tangerine-Vita-C-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T11:17:53.786285+00:00
+updated_at: 2026-09-18T14:14:04.614808+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 83e41cbe57 · 200G-VCSEL-Development-and-Proposal-of-Using-VCSELs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T11:17:53.434185+00:00
+updated_at: 2026-09-18T14:14:04.283389+00:00
 tags: [record, real-data]
 ---
 
