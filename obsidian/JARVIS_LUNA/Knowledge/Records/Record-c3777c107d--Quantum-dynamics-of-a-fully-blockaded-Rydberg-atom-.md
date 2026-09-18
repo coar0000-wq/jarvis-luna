@@ -2,7 +2,7 @@
 title: "Record c3777c107d · Quantum-dynamics-of-a-fully-blockaded-Rydberg-atom-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T20:56:21.267293+00:00
+updated_at: 2026-09-18T22:23:59.218672+00:00
 tags: [record, real-data]
 ---
 

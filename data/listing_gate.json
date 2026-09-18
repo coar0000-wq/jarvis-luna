@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-18T18:58:54.385317+00:00",
+  "generated_at": "2026-09-18T22:22:15.066569+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "total": 10,
   "ready": 7,
@@ -61,8 +61,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 22.99,
-        "margin_pct": 55.5,
+        "price_usd": 24.99,
+        "margin_pct": 58.4,
         "register_blocked": false
       },
       "legal": {
@@ -114,8 +114,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 22.99,
-        "margin_pct": 48.2,
+        "price_usd": 24.99,
+        "margin_pct": 51.8,
         "register_blocked": false
       },
       "legal": {
@@ -258,8 +258,8 @@
         "us_label_ok": false
       },
       "price": {
-        "price_usd": 22.99,
-        "margin_pct": 45.1,
+        "price_usd": 24.99,
+        "margin_pct": 48.9,
         "register_blocked": false
       },
       "legal": {
@@ -368,8 +368,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 22.99,
-        "margin_pct": 55.5,
+        "price_usd": 24.99,
+        "margin_pct": 58.4,
         "register_blocked": false
       },
       "legal": {
@@ -421,8 +421,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 22.99,
-        "margin_pct": 59.0,
+        "price_usd": 24.99,
+        "margin_pct": 61.7,
         "register_blocked": false
       },
       "legal": {
@@ -474,8 +474,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 22.99,
-        "margin_pct": 62.6,
+        "price_usd": 24.99,
+        "margin_pct": 65.0,
         "register_blocked": false
       },
       "legal": {
@@ -512,8 +512,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 22.99,
-        "margin_pct": 41.9,
+        "price_usd": 24.99,
+        "margin_pct": 45.9,
         "register_blocked": false
       },
       "legal": {

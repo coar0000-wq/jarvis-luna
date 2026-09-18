@@ -2,7 +2,7 @@
 title: "Record aaef033dfa · Fable-Safeguards-Jailbreak-Framework"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T20:56:21.803631+00:00
+updated_at: 2026-09-18T22:23:59.763833+00:00
 tags: [record, real-data]
 ---
 

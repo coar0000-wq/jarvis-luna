@@ -2,7 +2,7 @@
 title: "기관 · Mistral AI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T20:56:22.278239+00:00
+updated_at: 2026-09-18T22:24:00.221681+00:00
 tags: [org, real-data]
 ---
 

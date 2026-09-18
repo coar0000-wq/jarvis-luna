@@ -2,7 +2,7 @@
 title: "Record 344cefa309 · Trust-treat-culture-and-TikTok-Shop-The-beauty-tren"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T20:56:21.618614+00:00
+updated_at: 2026-09-18T22:23:59.594309+00:00
 tags: [record, real-data]
 ---
 

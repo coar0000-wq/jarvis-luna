@@ -2,7 +2,7 @@
 title: "Record 518e1d3c6a · Inoculation-Midtraining-with-Learned-Neologisms"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T20:56:21.698316+00:00
+updated_at: 2026-09-18T22:23:59.668287+00:00
 tags: [record, real-data]
 ---
 

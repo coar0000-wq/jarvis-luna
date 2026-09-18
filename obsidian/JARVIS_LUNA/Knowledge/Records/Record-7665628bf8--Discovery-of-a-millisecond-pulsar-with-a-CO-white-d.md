@@ -2,7 +2,7 @@
 title: "Record 7665628bf8 · Discovery-of-a-millisecond-pulsar-with-a-CO-white-d"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T20:56:21.665829+00:00
+updated_at: 2026-09-18T22:23:59.639103+00:00
 tags: [record, real-data]
 ---
 

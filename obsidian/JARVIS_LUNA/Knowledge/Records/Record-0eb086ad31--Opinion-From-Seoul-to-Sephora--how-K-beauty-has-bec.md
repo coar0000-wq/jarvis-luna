@@ -2,7 +2,7 @@
 title: "Record 0eb086ad31 · Opinion-From-Seoul-to-Sephora--how-K-beauty-has-become-a-global-phenom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T20:56:21.603311+00:00
+updated_at: 2026-09-18T22:23:59.580503+00:00
 tags: [record, real-data]
 ---
 

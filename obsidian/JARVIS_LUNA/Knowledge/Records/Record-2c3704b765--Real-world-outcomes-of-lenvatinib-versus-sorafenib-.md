@@ -2,7 +2,7 @@
 title: "Record 2c3704b765 · Real-world-outcomes-of-lenvatinib-versus-sorafenib-as-the-second-line-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T20:56:21.138895+00:00
+updated_at: 2026-09-18T22:23:59.074418+00:00
 tags: [record, real-data]
 ---
 

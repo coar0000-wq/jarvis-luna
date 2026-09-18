@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T18:58:53.420469+00:00",
+  "generated_at": "2026-09-18T22:22:13.928889+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "brentford vs chelsea",
-          "approx_traffic": "20000+",
-          "traffic_num": 20000,
-          "published": "Fri, 18 Sep 2026 11:00:00 -0700",
-          "source_name": "BBC",
-          "url": "https://trends.google.com/trending?geo=US&q=brentford%20vs%20chelsea"
+          "keyword": "cubs vs reds",
+          "approx_traffic": "5000+",
+          "traffic_num": 5000,
+          "published": "Fri, 18 Sep 2026 14:50:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=cubs%20vs%20reds"
         },
         {
-          "keyword": "rcd espanyol - elche c. f.",
+          "keyword": "indiana fever",
+          "approx_traffic": "5000+",
+          "traffic_num": 5000,
+          "published": "Fri, 18 Sep 2026 14:50:00 -0700",
+          "source_name": "KGAN",
+          "url": "https://trends.google.com/trending?geo=US&q=indiana%20fever"
+        },
+        {
+          "keyword": "greenland",
+          "approx_traffic": "5000+",
+          "traffic_num": 5000,
+          "published": "Fri, 18 Sep 2026 14:30:00 -0700",
+          "source_name": "Reuters",
+          "url": "https://trends.google.com/trending?geo=US&q=greenland"
+        },
+        {
+          "keyword": "royals vs pirates",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Fri, 18 Sep 2026 11:20:00 -0700",
-          "source_name": "MARCA",
-          "url": "https://trends.google.com/trending?geo=US&q=rcd%20espanyol%20-%20elche%20c.%20f."
+          "published": "Fri, 18 Sep 2026 14:50:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=royals%20vs%20pirates"
         },
         {
-          "keyword": "espanyol vs elche",
+          "keyword": "aaron judge",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Fri, 18 Sep 2026 11:10:00 -0700",
-          "source_name": "Fubo",
-          "url": "https://trends.google.com/trending?geo=US&q=espanyol%20vs%20elche"
-        },
-        {
-          "keyword": "monaco vs lens",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Fri, 18 Sep 2026 11:00:00 -0700",
-          "source_name": "BBC",
-          "url": "https://trends.google.com/trending?geo=US&q=monaco%20vs%20lens"
-        },
-        {
-          "keyword": "us military ai false intelligence report",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Fri, 18 Sep 2026 10:50:00 -0700",
-          "source_name": "CNN",
-          "url": "https://trends.google.com/trending?geo=US&q=us%20military%20ai%20false%20intelligence%20report"
-        },
-        {
-          "keyword": "oswaldo cabrera",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Fri, 18 Sep 2026 11:40:00 -0700",
+          "published": "Fri, 18 Sep 2026 14:50:00 -0700",
           "source_name": "MLB.com",
-          "url": "https://trends.google.com/trending?geo=US&q=oswaldo%20cabrera"
+          "url": "https://trends.google.com/trending?geo=US&q=aaron%20judge"
         },
         {
-          "keyword": "mónaco - lens",
+          "keyword": "daejon love",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Fri, 18 Sep 2026 11:10:00 -0700",
-          "source_name": "Football.fr",
-          "url": "https://trends.google.com/trending?geo=US&q=m%C3%B3naco%20-%20lens"
+          "published": "Fri, 18 Sep 2026 14:40:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=daejon%20love"
         },
         {
-          "keyword": "pa lottery",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Fri, 18 Sep 2026 11:10:00 -0700",
-          "source_name": "Delco Times",
-          "url": "https://trends.google.com/trending?geo=US&q=pa%20lottery"
-        },
-        {
-          "keyword": "cam whitmore",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Fri, 18 Sep 2026 11:00:00 -0700",
-          "source_name": "Hoops Rumors",
-          "url": "https://trends.google.com/trending?geo=US&q=cam%20whitmore"
-        },
-        {
-          "keyword": "caleb flynn american idol",
+          "keyword": "joe rogan",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Fri, 18 Sep 2026 11:00:00 -0700",
-          "source_name": "CNN",
-          "url": "https://trends.google.com/trending?geo=US&q=caleb%20flynn%20american%20idol"
+          "published": "Fri, 18 Sep 2026 14:50:00 -0700",
+          "source_name": "Yahoo",
+          "url": "https://trends.google.com/trending?geo=US&q=joe%20rogan"
+        },
+        {
+          "keyword": "martha maccallum",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Fri, 18 Sep 2026 14:50:00 -0700",
+          "source_name": "Fox News",
+          "url": "https://trends.google.com/trending?geo=US&q=martha%20maccallum"
+        },
+        {
+          "keyword": "adamari lópez",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Fri, 18 Sep 2026 14:40:00 -0700",
+          "source_name": "Univision",
+          "url": "https://trends.google.com/trending?geo=US&q=adamari%20l%C3%B3pez"
+        },
+        {
+          "keyword": "houston vs texas tech",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Fri, 18 Sep 2026 14:40:00 -0700",
+          "source_name": "FOX Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=houston%20vs%20texas%20tech"
         }
       ]
     },
@@ -187,6 +187,16 @@
       "source": "allure.com/feed/rss",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
       "items": [
+        {
+          "title": "A Higher Carb Diet May Lower Your Biological Age, New Study Suggests",
+          "published": "Fri, 18 Sep 2026 20:16:48 +0000",
+          "url": "https://www.allure.com/story/carbs-diet-biological-age-study"
+        },
+        {
+          "title": "Anne Hathaway's Moody Mani-Pedi Is a Forever Fall Nail Trend—See the Photos",
+          "published": "Fri, 18 Sep 2026 19:36:09 +0000",
+          "url": "https://www.allure.com/story/anne-hathaway-dark-manicure-pedicure"
+        },
         {
           "title": "Shop Top Hair, Skin Care, and Makeup Products and Tools, Vetted by Allure Experts",
           "published": "Fri, 18 Sep 2026 18:27:32 +0000",
@@ -326,16 +336,6 @@
           "title": "Shop the 2026 Allure Best of Beauty Skin Winning Products",
           "published": "Thu, 17 Sep 2026 11:07:44 +0000",
           "url": "https://www.allure.com/best-of-beauty-2026-winners/skin"
-        },
-        {
-          "title": "Allure's 2026 Best of Beauty Awards Are Here—See All of the 319 Winners",
-          "published": "Thu, 17 Sep 2026 11:00:00 +0000",
-          "url": "https://www.allure.com/story/best-of-beauty-2026-winners"
-        },
-        {
-          "title": "The 2026 Allure Best of Beauty Clean Beauty Winners Hit All the Right Marks",
-          "published": "Thu, 17 Sep 2026 11:00:00 +0000",
-          "url": "https://www.allure.com/story/best-of-beauty-2026-clean-skin-care-brands-winners"
         }
       ]
     },

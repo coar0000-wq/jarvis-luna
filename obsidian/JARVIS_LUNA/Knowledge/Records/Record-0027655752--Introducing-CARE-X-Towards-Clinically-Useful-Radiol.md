@@ -2,7 +2,7 @@
 title: "Record 0027655752 · Introducing-CARE-X-Towards-Clinically-Useful-Radiol"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T20:56:21.864817+00:00
+updated_at: 2026-09-18T22:23:59.818745+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 8b88ae927f · The-National-Artificial-Intelligence-Advisory-Commi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T20:56:21.239187+00:00
+updated_at: 2026-09-18T22:23:59.187148+00:00
 tags: [record, real-data]
 ---
 

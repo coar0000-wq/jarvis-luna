@@ -2,7 +2,7 @@
 title: "Record ee78b92c69 · 300-GHz-digital-holography-imaging-based-on-a-silve"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T20:56:21.251646+00:00
+updated_at: 2026-09-18T22:23:59.201021+00:00
 tags: [record, real-data]
 ---
 

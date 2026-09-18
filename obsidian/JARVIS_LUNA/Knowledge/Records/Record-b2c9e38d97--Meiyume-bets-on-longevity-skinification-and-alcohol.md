@@ -2,7 +2,7 @@
 title: "Record b2c9e38d97 · Meiyume-bets-on-longevity-skinification-and-alcohol"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T20:56:21.453549+00:00
+updated_at: 2026-09-18T22:23:59.417070+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record b776d89ac7 · I-tested-the-Korean-sunscreen-thats-been-made-for-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T20:56:21.622557+00:00
+updated_at: 2026-09-18T22:23:59.597925+00:00
 tags: [record, real-data]
 ---
 

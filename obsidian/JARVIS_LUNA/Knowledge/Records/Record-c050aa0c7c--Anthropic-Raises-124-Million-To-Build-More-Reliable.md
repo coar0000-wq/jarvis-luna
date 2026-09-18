@@ -2,7 +2,7 @@
 title: "Record c050aa0c7c · Anthropic-Raises-124-Million-To-Build-More-Reliable"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T20:56:21.794166+00:00
+updated_at: 2026-09-18T22:23:59.755391+00:00
 tags: [record, real-data]
 ---
 

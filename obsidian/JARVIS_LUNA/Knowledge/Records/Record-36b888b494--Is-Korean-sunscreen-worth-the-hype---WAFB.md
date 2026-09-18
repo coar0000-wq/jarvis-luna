@@ -2,7 +2,7 @@
 title: "Record 36b888b494 · Is-Korean-sunscreen-worth-the-hype---WAFB"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T20:56:21.471735+00:00
+updated_at: 2026-09-18T22:23:59.437260+00:00
 tags: [record, real-data]
 ---
 

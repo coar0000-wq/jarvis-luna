@@ -2,7 +2,7 @@
 title: "Record be73bfdc9f · 선크림-클렌징-이렇게-하세요"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T20:56:21.947057+00:00
+updated_at: 2026-09-18T22:23:59.893497+00:00
 tags: [record, real-data]
 ---
 

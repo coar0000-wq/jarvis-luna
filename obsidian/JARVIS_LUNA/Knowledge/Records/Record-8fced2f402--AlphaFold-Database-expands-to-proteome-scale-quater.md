@@ -2,7 +2,7 @@
 title: "Record 8fced2f402 · AlphaFold-Database-expands-to-proteome-scale-quater"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T20:56:21.237898+00:00
+updated_at: 2026-09-18T22:23:59.185648+00:00
 tags: [record, real-data]
 ---
 

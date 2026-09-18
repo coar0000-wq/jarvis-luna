@@ -2,7 +2,7 @@
 title: "Record f486dd53e2 · BIO-HEAL-BOH-colorgram-Fillimilli-and-Delight-Proje"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T20:56:21.575690+00:00
+updated_at: 2026-09-18T22:23:59.555333+00:00
 tags: [record, real-data]
 ---
 

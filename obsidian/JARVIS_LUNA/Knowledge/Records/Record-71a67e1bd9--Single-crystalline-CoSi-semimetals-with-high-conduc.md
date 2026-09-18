@@ -2,7 +2,7 @@
 title: "Record 71a67e1bd9 · Single-crystalline-CoSi-semimetals-with-high-conduc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T20:56:21.171511+00:00
+updated_at: 2026-09-18T22:23:59.110813+00:00
 tags: [record, real-data]
 ---
 

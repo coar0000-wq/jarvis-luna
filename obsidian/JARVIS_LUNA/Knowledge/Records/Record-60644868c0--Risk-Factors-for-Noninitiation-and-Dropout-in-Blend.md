@@ -2,7 +2,7 @@
 title: "Record 60644868c0 · Risk-Factors-for-Noninitiation-and-Dropout-in-Blend"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T20:56:21.242438+00:00
+updated_at: 2026-09-18T22:23:59.190818+00:00
 tags: [record, real-data]
 ---
 

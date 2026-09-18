@@ -1,14 +1,14 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-18T18:54:10.113992+00:00",
+  "collected_at": "2026-09-18T22:16:42.549065+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
     "SkincareAddiction",
     "AsianBeautyAdvice"
   ],
-  "post_count": 50,
+  "post_count": 25,
   "per_subreddit": [
     {
       "subreddit": "AsianBeauty",
@@ -19,8 +19,9 @@
     },
     {
       "subreddit": "KoreanBeauty",
-      "post_count": 25,
+      "post_count": 0,
       "errors": [
+        "hot: HTTPError: HTTP Error 429: Too Many Requests",
         "top_week: HTTPError: HTTP Error 429: Too Many Requests"
       ]
     },
@@ -44,19 +45,7 @@
   "hot_keywords": [
     {
       "keyword": "skin",
-      "score": 12
-    },
-    {
-      "keyword": "korean",
-      "score": 8
-    },
-    {
-      "keyword": "sunscreen",
       "score": 6
-    },
-    {
-      "keyword": "recs",
-      "score": 5
     },
     {
       "keyword": "september",
@@ -67,7 +56,7 @@
       "score": 4
     },
     {
-      "keyword": "yesstyle",
+      "keyword": "korean",
       "score": 4
     },
     {
@@ -75,48 +64,12 @@
       "score": 4
     },
     {
-      "keyword": "kbeauty",
-      "score": 4
-    },
-    {
-      "keyword": "toner",
-      "score": 4
-    },
-    {
-      "keyword": "cushion",
-      "score": 4
-    },
-    {
-      "keyword": "routine",
-      "score": 4
-    },
-    {
-      "keyword": "review",
-      "score": 3
-    },
-    {
-      "keyword": "tirtir",
+      "keyword": "products",
       "score": 3
     },
     {
       "keyword": "glow",
       "score": 3
-    },
-    {
-      "keyword": "online",
-      "score": 3
-    },
-    {
-      "keyword": "oily",
-      "score": 3
-    },
-    {
-      "keyword": "looking",
-      "score": 3
-    },
-    {
-      "keyword": "product",
-      "score": 2
     },
     {
       "keyword": "thursday",
@@ -127,11 +80,11 @@
       "score": 2
     },
     {
-      "keyword": "spf50+",
+      "keyword": "review",
       "score": 2
     },
     {
-      "keyword": "beware",
+      "keyword": "tirtir",
       "score": 2
     },
     {
@@ -139,7 +92,15 @@
       "score": 2
     },
     {
-      "keyword": "products",
+      "keyword": "spf50+",
+      "score": 2
+    },
+    {
+      "keyword": "anything",
+      "score": 2
+    },
+    {
+      "keyword": "goes",
       "score": 2
     },
     {
@@ -148,6 +109,10 @@
     },
     {
       "keyword": "mask",
+      "score": 2
+    },
+    {
+      "keyword": "online",
       "score": 2
     },
     {
@@ -163,27 +128,23 @@
       "score": 2
     },
     {
+      "keyword": "kbeauty",
+      "score": 2
+    },
+    {
       "keyword": "makeup",
       "score": 2
     },
     {
-      "keyword": "anything",
+      "keyword": "sunscreen",
       "score": 2
     },
     {
-      "keyword": "goes",
+      "keyword": "toner",
       "score": 2
     },
     {
-      "keyword": "someone",
-      "score": 2
-    },
-    {
-      "keyword": "sensitive",
-      "score": 2
-    },
-    {
-      "keyword": "dry",
+      "keyword": "oily",
       "score": 2
     },
     {
@@ -191,49 +152,69 @@
       "score": 2
     },
     {
-      "keyword": "shampoo",
+      "keyword": "hera",
       "score": 2
     },
     {
-      "keyword": "hair",
+      "keyword": "foundation",
       "score": 2
     },
     {
-      "keyword": "canadians",
+      "keyword": "cushion",
       "score": 2
+    },
+    {
+      "keyword": "question",
+      "score": 1
+    },
+    {
+      "keyword": "ask",
+      "score": 1
+    },
+    {
+      "keyword": "here",
+      "score": 1
+    },
+    {
+      "keyword": "alter-daily",
+      "score": 1
+    },
+    {
+      "keyword": "questions",
+      "score": 1
+    },
+    {
+      "keyword": "product",
+      "score": 1
+    },
+    {
+      "keyword": "authenticity",
+      "score": 1
+    },
+    {
+      "keyword": "yesstyle",
+      "score": 1
+    },
+    {
+      "keyword": "amazon",
+      "score": 1
+    },
+    {
+      "keyword": "taiwanese",
+      "score": 1
     }
   ],
   "beauty_keywords": [
     {
       "keyword": "skin",
-      "score": 12
-    },
-    {
-      "keyword": "korean",
-      "score": 8
-    },
-    {
-      "keyword": "sunscreen",
       "score": 6
     },
     {
+      "keyword": "korean",
+      "score": 4
+    },
+    {
       "keyword": "skincare",
-      "score": 4
-    },
-    {
-      "keyword": "kbeauty",
-      "score": 4
-    },
-    {
-      "keyword": "toner",
-      "score": 4
-    },
-    {
-      "keyword": "cushion",
-      "score": 4
-    },
-    {
-      "keyword": "routine",
       "score": 4
     },
     {
@@ -257,15 +238,19 @@
       "score": 2
     },
     {
-      "keyword": "koreanbeauty",
+      "keyword": "kbeauty",
       "score": 2
     },
     {
-      "keyword": "serum",
+      "keyword": "sunscreen",
       "score": 2
     },
     {
-      "keyword": "ceramide",
+      "keyword": "toner",
+      "score": 2
+    },
+    {
+      "keyword": "cushion",
       "score": 2
     }
   ],
@@ -285,6 +270,13 @@
       "feed": "hot"
     },
     {
+      "title": "My yesstyle & amazon haul",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjnlqy/my_yesstyle_amazon_haul/",
+      "published": "2026-09-18T11:28:04+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Taiwanese & Thai Lenses Haul + Review",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjph92/taiwanese_thai_lenses_haul_review/",
       "published": "2026-09-18T12:57:20+00:00",
@@ -292,9 +284,9 @@
       "feed": "hot"
     },
     {
-      "title": "Allie Sheer Ecru SPF50+ PA++++: Great for Rosacea, But Beware the Creases!",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjfv0r/allie_sheer_ecru_spf50_pa_great_for_rosacea_but/",
-      "published": "2026-09-18T04:09:00+00:00",
+      "title": "I need to find some products...",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wk3n2a/i_need_to_find_some_products/",
+      "published": "2026-09-18T21:53:38+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -306,9 +298,16 @@
       "feed": "hot"
     },
     {
-      "title": "My yesstyle & amazon haul",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjnlqy/my_yesstyle_amazon_haul/",
-      "published": "2026-09-18T11:28:04+00:00",
+      "title": "Allie Sheer Ecru SPF50+ PA++++: Great for Rosacea, But Beware the Creases!",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjfv0r/allie_sheer_ecru_spf50_pa_great_for_rosacea_but/",
+      "published": "2026-09-18T04:09:00+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Anything Goes Friday: September 18, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wk1r5o/anything_goes_friday_september_18_2026/",
+      "published": "2026-09-18T20:39:05+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -429,195 +428,6 @@
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1whopyw/pinksalmon_colour_correctors_what_are_your/",
       "published": "2026-09-16T06:01:31+00:00",
       "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Reviews!",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whe2jz/reviews/",
-      "published": "2026-09-15T21:51:11+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Anything Goes Wednesday: September 16, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wi94k1/anything_goes_wednesday_september_16_2026/",
-      "published": "2026-09-16T20:39:10+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "r/KoreanBeauty is looking for moderators!",
-      "url": "https://www.reddit.com/r/KoreanBeauty/comments/191cw8g/rkoreanbeauty_is_looking_for_moderators/",
-      "published": "2024-01-08T04:50:58+00:00",
-      "subreddit": "KoreanBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Beware the Narka Matcha Shampoo",
-      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wjqka6/beware_the_narka_matcha_shampoo/",
-      "published": "2026-09-18T13:41:51+00:00",
-      "subreddit": "KoreanBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "I'm going to Korea in a few days, recs I should pick up?",
-      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wjv3z2/im_going_to_korea_in_a_few_days_recs_i_should/",
-      "published": "2026-09-18T16:33:35+00:00",
-      "subreddit": "KoreanBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "YESSTYLE order lost?",
-      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wjpjcm/yesstyle_order_lost/",
-      "published": "2026-09-18T12:59:51+00:00",
-      "subreddit": "KoreanBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "My honest review of Pyunkang Yul after 3 months, from someone who isn't a beauty expert.",
-      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wjjbak/my_honest_review_of_pyunkang_yul_after_3_months/",
-      "published": "2026-09-18T07:20:13+00:00",
-      "subreddit": "KoreanBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "How would you feel if a doctor told you to wait instead of recommending another treatment?",
-      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wjejk3/how_would_you_feel_if_a_doctor_told_you_to_wait/",
-      "published": "2026-09-18T03:05:26+00:00",
-      "subreddit": "KoreanBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Advice for sensitive skin routine and product recs?",
-      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wjbtng/advice_for_sensitive_skin_routine_and_product_recs/",
-      "published": "2026-09-18T00:57:57+00:00",
-      "subreddit": "KoreanBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Routine for dry, thin, redness prone skin type",
-      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wjk4te/routine_for_dry_thin_redness_prone_skin_type/",
-      "published": "2026-09-18T08:10:15+00:00",
-      "subreddit": "KoreanBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "\"Dermatologist tested\" is allowed on a Korean cosmetics box. \"Doctor recommended\" is banned outright.",
-      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wjd6hf/dermatologist_tested_is_allowed_on_a_korean/",
-      "published": "2026-09-18T02:01:15+00:00",
-      "subreddit": "KoreanBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Looking for hair thickening/growth serum",
-      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wj93km/looking_for_hair_thickeninggrowth_serum/",
-      "published": "2026-09-17T22:57:16+00:00",
-      "subreddit": "KoreanBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "PSA- Canadians ordering online from Yesstyle.",
-      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wia0t7/psa_canadians_ordering_online_from_yesstyle/",
-      "published": "2026-09-16T21:12:28+00:00",
-      "subreddit": "KoreanBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "What is the actual shade match for tiri 17C sliver cushion?",
-      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wj3496/what_is_the_actual_shade_match_for_tiri_17c/",
-      "published": "2026-09-17T19:06:19+00:00",
-      "subreddit": "KoreanBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Innisfree green tea ceramide milk",
-      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wj1crc/innisfree_green_tea_ceramide_milk/",
-      "published": "2026-09-17T18:01:21+00:00",
-      "subreddit": "KoreanBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "how u manage the recovery period after surgery in Korea",
-      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wj13v5/how_u_manage_the_recovery_period_after_surgery_in/",
-      "published": "2026-09-17T17:52:27+00:00",
-      "subreddit": "KoreanBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "where do you build a mixed kbeauty cart?",
-      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wivvvg/where_do_you_build_a_mixed_kbeauty_cart/",
-      "published": "2026-09-17T14:40:46+00:00",
-      "subreddit": "KoreanBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "21N TirTir comparison for Jung Saem Mool?",
-      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wiroj3/21n_tirtir_comparison_for_jung_saem_mool/",
-      "published": "2026-09-17T11:44:21+00:00",
-      "subreddit": "KoreanBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "What Korean sunscreen should I get?",
-      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wiqxz3/what_korean_sunscreen_should_i_get/",
-      "published": "2026-09-17T11:06:15+00:00",
-      "subreddit": "KoreanBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "olive young US account transfer",
-      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wi3qgr/olive_young_us_account_transfer/",
-      "published": "2026-09-16T17:25:41+00:00",
-      "subreddit": "KoreanBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Has anyone tried Body InMode FX for belly fat? Is it worth doing without SlimCut injections? + Microneedling/Potenza experience",
-      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wihvvv/has_anyone_tried_body_inmode_fx_for_belly_fat_is/",
-      "published": "2026-09-17T02:50:46+00:00",
-      "subreddit": "KoreanBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "FLOWER IN THE ASHES",
-      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wigv7v/flower_in_the_ashes/",
-      "published": "2026-09-17T02:03:16+00:00",
-      "subreddit": "KoreanBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Toner recs? Looking for daily/nightly light exfoliation.",
-      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wifh65/toner_recs_looking_for_dailynightly_light/",
-      "published": "2026-09-17T01:01:42+00:00",
-      "subreddit": "KoreanBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Eyelid glue/tape",
-      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wie1yf/eyelid_gluetape/",
-      "published": "2026-09-16T23:59:49+00:00",
-      "subreddit": "KoreanBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "F29 with nasolabial folds & under eye hollow, any recs?",
-      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wi22tr/f29_with_nasolabial_folds_under_eye_hollow_any/",
-      "published": "2026-09-16T16:27:02+00:00",
-      "subreddit": "KoreanBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Sunscreen recs for VERY oily skin?",
-      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1wi5l3u/sunscreen_recs_for_very_oily_skin/",
-      "published": "2026-09-16T18:31:35+00:00",
-      "subreddit": "KoreanBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Yesstyle vs BeautyBoxKorea",
-      "url": "https://www.reddit.com/r/KoreanBeauty/comments/1whn9v9/yesstyle_vs_beautyboxkorea/",
-      "published": "2026-09-16T04:42:57+00:00",
-      "subreddit": "KoreanBeauty",
       "feed": "hot"
     }
   ],

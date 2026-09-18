@@ -1,6 +1,6 @@
 {
   "team": "디자인팀",
-  "generated_at": "2026-09-18T18:53:16.226487+00:00",
+  "generated_at": "2026-09-18T22:15:50.998908+00:00",
   "scope": "Shopify 스토어 디자인 사양 관리 + 디자인 레퍼런스 수집",
   "checklist": {
     "total": 12,
@@ -251,6 +251,13 @@
         "feed": "Shopify Changelog"
       },
       {
+        "title": "The `automaticDiscounts` query is removed in API version 2027-01",
+        "url": "https://shopify.dev/changelog/automaticdiscounts-query-is-removed-in-api-version-2027-01",
+        "date": "2026-09-18",
+        "summary": "The deprecated automaticDiscounts query is removed from the GraphQL Admin API in version 2027-01 . If your app reads a shop’s automatic discounts through automaticDiscounts , you need to move to the discountNodes query with a method:automatic filter before you upgrade to 2027-01 . Apps on 2026-10 an",
+        "feed": "Shopify Dev Changelog"
+      },
+      {
         "title": "Request a bundle size exception for existing UI extensions",
         "url": "https://shopify.dev/changelog/request-a-bundle-size-exception-for-existing-ui-extensions",
         "date": "2026-09-17",
@@ -346,13 +353,6 @@
         "url": "https://shopify.dev/changelog/product-variant-barcode-is-being-replaced-by-barcodes",
         "date": "2026-09-08",
         "summary": "Merchants often sell the same variant under more than one identifier: a manufacturer UPC alongside a private-label EAN, a GTIN, a reissued ISBN, or an ASIN for a marketplace listing. Until now a variant held a single barcode value, so the extras ended up in metafields, tags, or outside Shopify entir",
-        "feed": "Shopify Dev Changelog"
-      },
-      {
-        "title": "Customer Address APIs now support countryCode",
-        "url": "https://shopify.dev/changelog/customer-address-apis-now-support-countrycode",
-        "date": "2026-09-08",
-        "summary": "Starting with Customer Account API version 2026-10, customer address inputs and objects support countryCode . The existing territoryCode field is deprecated but remains fully supported, so current integrations continue working without interruption. Developers should migrate to countryCode when adopt",
         "feed": "Shopify Dev Changelog"
       },
       {
