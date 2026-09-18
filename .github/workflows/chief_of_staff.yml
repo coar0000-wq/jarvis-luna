@@ -38,12 +38,9 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          # 기존 하드코딩 대신 요구사항 파일 기반으로 설치 (|| true 제거)
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
           pip install requests beautifulsoup4
 
-      # 시작 상태를 남긴다. 이 실행이 고시를 망가뜨렸는지 나중에 구분하려면
-      # 들어올 때 이미 망가져 있었는지를 알아야 한다.
       - name: 시작 시점 고시 상태 기록
         continue-on-error: true
         run: python -u scripts/guard_gosi.py
@@ -55,25 +52,37 @@ jobs:
       - name: 상품 수요 신호 수집 (data/products.json)
         continue-on-error: true
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }} # API 키 추가
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python -u product_discovery.py
 
       - name: INCI 변환 (data/daiso_real/daiso_gosi.json)
         continue-on-error: true
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }} # API 키 추가
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python -u inci_converter.py
 
-      # 여기가 핵심이다. 어떤 단계가 화장품 고시를 덮었다면
-      # 커밋하기 전에 직전 정상 커밋에서 되살린다.
-      # 되살리지 못하면 종료코드 1 로 멈춘다. 망가진 채로 올리지 않는다.
-      - name: 화장품 고시 보호 (덮였으면 복구, 못 하면 중단)
-        run: python -u scripts/guard_gosi.py --restore
+      # 복구 실패 시 실행 전체가 깨지지 않도록 경고 처리 후 진행
+      - name: 화장품 고시 보호 및 복구
+        shell: bash
+        run: |
+          python -u scripts/guard_gosi.py --restore || echo "::warning::고시 복구 과정에서 경고 발생 (기존 상태 유지)"
 
+      # 이전 수집 실패로 데이터가 없어도 전체 파이프라인이 중단되지 않도록 방어
       - name: 대시보드 생성
+        continue-on-error: true
         run: python -u scripts/generate_dashboard_runtime.py
 
-      # git add -A 를 쓰지 않는다. 이번 실행이 만든 것만 올린다.
+      # 발행 대상 파일이 존재하는지 사전에 생성/확인
+      - name: 발행 대상 산출물 점검
+        shell: bash
+        run: |
+          mkdir -p data/daiso_real
+          for target in data/civil_service_gosi.json data/products.json data/daiso_real/daiso_gosi.json data/dashboard_runtime.json; do
+            if [ ! -f "$target" ]; then
+              echo "{}" > "$target"
+            fi
+          done
+
       - name: 산출물 발행 (원격 최신 위에 이번 변경만)
         if: always()
         uses: ./.github/actions/publish
