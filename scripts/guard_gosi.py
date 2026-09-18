@@ -1,138 +1,79 @@
-"""
-guard_gosi.py v3 - 파일 없으면 중단하지 않음 (수정본)
+name: Root Collector
 
-이전 v2 버그:
-- data/daiso_real/daiso_gosi.json 자체가 레포에 없으면 missing으로 실패 처리
-- git log에도 없어서 복구 실패 -> exit 1 -> 워크플로 전체 실패
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
 
-v3 수정:
-- missing이면 복구 시도, 복구 실패해도 exit 0으로 넘어감 (inci_converter가 새로 만들 수 있게)
-- damaged (1건으로 덮인 경우)에만 exit 1로 차단
-"""
-import json
-import sys
-import subprocess
-from pathlib import Path
+permissions:
+  contents: write
 
-ROOT = Path(__file__).parent.parent
-COSMETIC_GOSI = ROOT / "data" / "daiso_real" / "daiso_gosi.json"
-CIVIL_GOSI = ROOT / "data" / "civil_service_gosi.json"
-GUARD_LOG = ROOT / "data" / "guard_gosi_log.json"
+concurrency:
+  group: root-collector
+  cancel-in-progress: false
 
-def load_json_safe(path):
-    if not path.exists():
-        return None
-    try:
-        return json.loads(path.read_text(encoding="utf-8"))
-    except:
-        return None
+jobs:
+  collect:
+    runs-on: ubuntu-latest
 
-def check_cosmetic_gosi():
-    data = load_json_safe(COSMETIC_GOSI)
-    if data is None:
-        return False, "missing", 0
-    
-    if isinstance(data, dict):
-        items = data.get("items", data)
-        if isinstance(items, dict):
-            count = len(items)
-        elif isinstance(items, list):
-            count = len(items)
-        else:
-            count = 0
-    elif isinstance(data, list):
-        count = len(data)
-    else:
-        count = 0
-    
-    if count < 5:
-        return False, f"damaged_count_{count}", count
-    
-    return True, f"ok_{count}", count
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-def restore_from_last_good():
-    try:
-        result = subprocess.run(
-            ["git", "log", "--oneline", "--follow", "--", str(COSMETIC_GOSI)],
-            capture_output=True, text=True, cwd=ROOT
-        )
-        commits = result.stdout.strip().split("\n")[:15]
-        
-        for commit_line in commits:
-            if not commit_line.strip():
-                continue
-            commit_hash = commit_line.split()[0]
-            show_result = subprocess.run(
-                ["git", "show", f"{commit_hash}:{COSMETIC_GOSI.relative_to(ROOT)}"],
-                capture_output=True, text=True, cwd=ROOT
-            )
-            if show_result.returncode == 0 and show_result.stdout:
-                try:
-                    data = json.loads(show_result.stdout)
-                    if isinstance(data, dict):
-                        items = data.get("items", data)
-                        count = len(items) if isinstance(items, (dict, list)) else 0
-                        if count >= 5:
-                            COSMETIC_GOSI.parent.mkdir(parents=True, exist_ok=True)
-                            COSMETIC_GOSI.write_text(show_result.stdout, encoding="utf-8")
-                            print(f"✅ 화장품 고시 복구 완료: {commit_hash}에서 {count}건 복원")
-                            return True
-                except:
-                    continue
-        print("❌ 복구할 정상 커밋을 찾지 못함")
-        return False
-    except Exception as e:
-        print(f"❌ 복구 실패: {e}")
-        return False
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
 
-def main():
-    is_restore = "--restore" in sys.argv
-    
-    if not is_restore:
-        is_ok, status, count = check_cosmetic_gosi()
-        log = {
-            "checked_at": __import__("datetime").datetime.utcnow().isoformat() + "Z",
-            "cosmetic_gosi_path": str(COSMETIC_GOSI.relative_to(ROOT)),
-            "status": status,
-            "count": count,
-            "is_ok": is_ok
-        }
-        try:
-            GUARD_LOG.parent.mkdir(parents=True, exist_ok=True)
-            GUARD_LOG.write_text(json.dumps(log, indent=2, ensure_ascii=False), encoding="utf-8")
-        except:
-            pass
-        print(f"📝 시작 상태: {status} ({count}건)")
-        return
-    
-    # --restore 모드
-    is_ok, status, count = check_cosmetic_gosi()
-    if is_ok:
-        print(f"✅ 화장품 고시 보호: 정상 {count}건 - 커밋 진행")
-        return
-    
-    print(f"🚨 화장품 고시 상태: {status}")
-    
-    if status == "missing":
-        # v3 수정: missing이면 복구 시도, 실패해도 중단하지 않음
-        print("⚠️ 화장품 고시 파일 없음 - 복구 시도")
-        if restore_from_last_good():
-            print("✅ 복구 성공")
-            return
-        else:
-            # 복구 실패해도 중단하지 않고 경고만 - inci_converter가 새로 만들 수도 있음
-            print("⚠️ 복구할 커밋 없음 - inci_converter가 새로 생성할 것으로 예상, 경고만 하고 진행")
-            print("::warning::화장품 고시 파일이 없어서 새로 생성됩니다. gosi-vision이 14건을 채울 예정")
-            return  # exit 0으로 진행
-    
-    # damaged인 경우에만 진짜 차단
-    print(f"🚨 화장품 고시 손상 감지: {count}건 (덮어쓰기 의심) - 복구 시도")
-    if restore_from_last_good():
-        print("✅ 복구 성공 - 커밋 진행")
-        return
-    else:
-        print("❌ 복구 실패 - 망가진 채로 올리지 않음")
-        sys.exit(1)
+      - name: Install packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 lxml pandas
 
-if __name__ == "__main__":
-    main()
+      - name: Create data folders
+        run: |
+          mkdir -p data
+          mkdir -p data/daiso_real
+
+      - name: Guard GOSI (Restore)
+        run: |
+          if [ ! -f data/daiso_real/daiso_gosi.json ]; then
+            echo "{}" > data/daiso_real/daiso_gosi.json
+            echo "Created empty daiso_gosi.json"
+          fi
+
+          python -u scripts/guard_gosi.py --restore
+
+      - name: Run GOSI Collector
+        run: |
+          python -u scripts/gosi_collector.py
+
+      - name: Verify JSON
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          p = Path("data/daiso_real/daiso_gosi.json")
+
+          if not p.exists():
+              raise SystemExit("daiso_gosi.json missing")
+
+          with open(p, "r", encoding="utf-8") as f:
+              json.load(f)
+
+          print("JSON OK")
+          PY
+
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/daiso_real/daiso_gosi.json
+
+          git diff --cached --quiet || git commit -m "auto: update cosmetic gosi"
+
+          git push
