@@ -2,7 +2,7 @@
 title: "Record ea82f8a320 · Elementwise-Positivity-of-the-Solution-to-Lyapunov-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T08:51:42.452409+00:00
+updated_at: 2026-09-18T11:17:53.320413+00:00
 tags: [record, real-data]
 ---
 

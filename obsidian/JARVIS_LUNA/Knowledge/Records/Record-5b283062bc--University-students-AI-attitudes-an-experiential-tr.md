@@ -2,7 +2,7 @@
 title: "Record 5b283062bc · University-students-AI-attitudes-an-experiential-tr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T08:51:42.527431+00:00
+updated_at: 2026-09-18T11:17:53.425009+00:00
 tags: [record, real-data]
 ---
 

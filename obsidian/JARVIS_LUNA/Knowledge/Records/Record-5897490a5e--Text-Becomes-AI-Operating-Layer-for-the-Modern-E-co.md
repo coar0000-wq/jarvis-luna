@@ -2,7 +2,7 @@
 title: "Record 5897490a5e · Text-Becomes-AI-Operating-Layer-for-the-Modern-E-co"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T08:51:42.607545+00:00
+updated_at: 2026-09-18T11:17:53.541876+00:00
 tags: [record, real-data]
 ---
 

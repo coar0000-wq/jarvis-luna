@@ -2,7 +2,7 @@
 title: "Record d3d05e7f4c · 용량-많아서-샀는데-돈-낭비하는-가성비-화장품의-배신"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T08:51:42.831267+00:00
+updated_at: 2026-09-18T11:17:54.161591+00:00
 tags: [record, real-data]
 ---
 

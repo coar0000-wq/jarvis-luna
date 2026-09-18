@@ -2,7 +2,7 @@
 title: "Record e8894bbfd0 · Uk-Businesses-See-Defence-Investment-Plan-As-Cataly"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T08:51:42.569345+00:00
+updated_at: 2026-09-18T11:17:53.485407+00:00
 tags: [record, real-data]
 ---
 

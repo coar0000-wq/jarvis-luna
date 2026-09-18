@@ -2,7 +2,7 @@
 title: "Record 4b698cda85 · Advances-in-gate-stack-development-for-p-type-2D-ch"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T08:51:42.496045+00:00
+updated_at: 2026-09-18T11:17:53.378136+00:00
 tags: [record, real-data]
 ---
 

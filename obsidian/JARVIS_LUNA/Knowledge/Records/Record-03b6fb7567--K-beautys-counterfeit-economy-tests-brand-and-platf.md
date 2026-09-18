@@ -2,7 +2,7 @@
 title: "Record 03b6fb7567 · K-beautys-counterfeit-economy-tests-brand-and-platform-controls---Pers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T08:51:42.661001+00:00
+updated_at: 2026-09-18T11:17:53.627433+00:00
 tags: [record, real-data]
 ---
 

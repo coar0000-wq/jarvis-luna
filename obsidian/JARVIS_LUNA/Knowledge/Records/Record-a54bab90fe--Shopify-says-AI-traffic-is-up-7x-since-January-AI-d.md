@@ -2,7 +2,7 @@
 title: "Record a54bab90fe · Shopify-says-AI-traffic-is-up-7x-since-January-AI-d"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T08:51:42.689961+00:00
+updated_at: 2026-09-18T11:17:53.673772+00:00
 tags: [record, real-data]
 ---
 

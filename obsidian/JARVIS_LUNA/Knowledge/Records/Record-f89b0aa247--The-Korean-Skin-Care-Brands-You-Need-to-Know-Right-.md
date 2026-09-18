@@ -2,7 +2,7 @@
 title: "Record f89b0aa247 · The-Korean-Skin-Care-Brands-You-Need-to-Know-Right-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T08:51:42.610235+00:00
+updated_at: 2026-09-18T11:17:53.545798+00:00
 tags: [record, real-data]
 ---
 

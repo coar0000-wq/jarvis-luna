@@ -2,7 +2,7 @@
 title: "Record bee00a5f5b · HONEYBEE-Efficient-Role-based-Access-Control-for-Ve"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T08:51:42.514617+00:00
+updated_at: 2026-09-18T11:17:53.406038+00:00
 tags: [record, real-data]
 ---
 

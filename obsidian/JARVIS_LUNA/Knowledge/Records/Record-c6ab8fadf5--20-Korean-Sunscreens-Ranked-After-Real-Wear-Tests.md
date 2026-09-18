@@ -2,7 +2,7 @@
 title: "Record c6ab8fadf5 · 20-Korean-Sunscreens-Ranked-After-Real-Wear-Tests"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T08:51:42.838844+00:00
+updated_at: 2026-09-18T11:17:54.171383+00:00
 tags: [record, real-data]
 ---
 

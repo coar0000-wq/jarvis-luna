@@ -2,7 +2,7 @@
 title: "Record 5e1d5804cb · GenArchBench-A-genomics-benchmark-suite-for-arm-HPC"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T08:51:42.483118+00:00
+updated_at: 2026-09-18T11:17:53.359702+00:00
 tags: [record, real-data]
 ---
 

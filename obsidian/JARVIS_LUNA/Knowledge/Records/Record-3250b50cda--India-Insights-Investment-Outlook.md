@@ -2,7 +2,7 @@
 title: "Record 3250b50cda · India-Insights-Investment-Outlook"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T08:51:42.798288+00:00
+updated_at: 2026-09-18T11:17:54.114997+00:00
 tags: [record, real-data]
 ---
 

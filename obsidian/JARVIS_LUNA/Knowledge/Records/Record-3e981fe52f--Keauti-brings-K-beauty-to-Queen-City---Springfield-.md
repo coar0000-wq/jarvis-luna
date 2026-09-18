@@ -2,7 +2,7 @@
 title: "Record 3e981fe52f · Keauti-brings-K-beauty-to-Queen-City---Springfield-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T08:51:42.627939+00:00
+updated_at: 2026-09-18T11:17:53.571522+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record cb6fbf6a15 · K-beautys-fastest-growing-products-are-quietly-cros"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T08:51:42.619387+00:00
+updated_at: 2026-09-18T11:17:53.559558+00:00
 tags: [record, real-data]
 ---
 

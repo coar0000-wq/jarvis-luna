@@ -2,7 +2,7 @@
 title: "Record d99bb282c2 · Dangers-of-AI-Risks-and-How-to-Manage-Them---Shopif"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T08:51:42.598149+00:00
+updated_at: 2026-09-18T11:17:53.527956+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiXEFVX3lxTE93MHFwSVZ5eEEySzNPS2VYNmdyZ0xHeDNUcXF2QVo0Wl80MklZcjBOaE45aXhfcWloeGxkUEJQck5EaXlGdWw0dnI5azRxaXBqYWJjS18yQ3R6eUNG?oc=5)
 
-**제목:** Dangers of AI: Risks and How to Manage Them - shopify.com
+**제목:** Dangers of AI: Risks and How to Manage Them - Shopify
 
-Dangers of AI: Risks and How to Manage Them - shopify.com
+Dangers of AI: Risks and How to Manage Them - Shopify
 
 **출처:** Source · Google Search
 

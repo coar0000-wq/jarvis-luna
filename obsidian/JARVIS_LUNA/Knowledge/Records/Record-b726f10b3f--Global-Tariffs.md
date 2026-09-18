@@ -2,7 +2,7 @@
 title: "Record b726f10b3f · Global-Tariffs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T08:51:42.809210+00:00
+updated_at: 2026-09-18T11:17:54.131814+00:00
 tags: [record, real-data]
 ---
 

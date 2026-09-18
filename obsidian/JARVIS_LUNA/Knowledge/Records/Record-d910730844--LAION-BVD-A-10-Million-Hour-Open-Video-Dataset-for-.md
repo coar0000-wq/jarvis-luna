@@ -2,7 +2,7 @@
 title: "Record d910730844 · LAION-BVD-A-10-Million-Hour-Open-Video-Dataset-for-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T08:51:42.865206+00:00
+updated_at: 2026-09-18T11:17:54.209013+00:00
 tags: [record, real-data]
 ---
 
