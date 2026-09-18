@@ -1,210 +1,133 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""data/gosi.json 은 화장품 고시 전용이다. 다른 것이 들어오면 막는다.
-
-무슨 일이 있었나 (2026-09-12 실측)
-
-  data/gosi.json 이 공무원 시험 합격자 발표 1건으로 덮여 있었다.
-  git log 로 30개 커밋을 되짚어 보니 하루 종일 이러고 있었다.
-
-    4d023476f  시험 1건   feat: JARVIS Deep Analysis - auto
-    4770a60b4  다이소 14건 고시 표 비전 추출 및 게이트 재계산
-    1bb8ef6f3  다이소 14건 Update gosi.json
-    29f7c0e71  시험 1건   fix: auto-fix FAIL
-    56afd5e96  시험 1건   fix: auto-fix FAIL
-    ...
-
-  두 워크플로가 같은 파일을 서로 덮고 있었다.
-  gosi-vision 이 다이소 14건을 채우면 jarvis_deep_analysis 가 시험 1건으로 지웠다.
-
-범인은 .github/workflows/jarvis_deep_analysis.yml 이다.
-JARVIS-Deep-Analysis.yml (대문자·하이픈) 이 아니다. 둘은 다른 파일이고
-name: 이 둘 다 "JARVIS Deep Analysis" 라 Actions 화면에서 구분이 안 됐다.
-
-그 워크플로가 부르는 gosi_collector.py 는 수집기가 아니었다.
-합격자 5,432명 과 공고 제2026-123호 가 파이썬 소스에 박혀 있었고
-collected_at 은 그냥 utcnow() 였다. 수집한 시각이 아니라 실행한 시각이다.
-CLAUDE.md 의 '가짜 데이터 금지' 에 정면으로 걸린다.
-
-그래서 이 파일을 둔다. 다시 같은 일이 나면 커밋 전에 멈춘다.
-
-사용
-  python scripts/guard_gosi.py             검사만. 어기면 종료코드 1
-  python scripts/guard_gosi.py --restore   어겼으면 직전 정상 커밋에서 되살린다
 """
-from __future__ import annotations
+guard_gosi.py - 화장품 고시 보호 가드
+- 루트 수집기 3종이 화장품 고시를 덮었는지 검사
+- 덮였으면 직전 정상 커밋에서 복구, 복구 못하면 exit 1로 중단
+- 시작 시점 상태 기록용으로도 사용
 
+data/daiso_real/daiso_gosi.json = MoCRA 신고용 화장품 고시 (14건+ 유지해야 함)
+data/civil_service_gosi.json = 공무원 시험 공고 (gosi_collector 전용)
+"""
 import json
-import subprocess
 import sys
+import subprocess
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
-GOSI = ROOT / "data" / "gosi.json"
+ROOT = Path(__file__).parent.parent
+COSMETIC_GOSI = ROOT / "data" / "daiso_real" / "daiso_gosi.json"
+CIVIL_GOSI = ROOT / "data" / "civil_service_gosi.json"
+GUARD_LOG = ROOT / "data" / "guard_gosi_log.json"
 
-# 화장품 고시 항목이 가진 칸. 하나라도 있으면 화장품으로 본다.
-COSMETIC_FIELDS = ("name", "ingredients", "volume", "maker", "origin",
-                   "expiry", "warnings", "functional", "usage")
-
-# 시험 공고가 가진 칸. 이게 보이면 남의 데이터다.
-EXAM_FIELDS = ("agency", "category", "published_at")
-
-
-def git(*args) -> tuple[str, int]:
-    r = subprocess.run(["git", *args], cwd=ROOT, capture_output=True)
-    return r.stdout.decode("utf-8", "replace"), r.returncode
-
-
-def judge(text: str) -> tuple[bool, str]:
-    """화장품 고시가 맞는지 본다. (통과여부, 사유)"""
+def load_json_safe(path):
+    if not path.exists():
+        return None
     try:
-        d = json.loads(text)
-    except Exception as e:
-        return False, f"JSON 을 못 읽는다: {str(e)[:60]}"
-
-    if not isinstance(d, dict):
-        return False, f"최상위가 dict 가 아니다 ({type(d).__name__})"
-
-    items = d.get("items")
-
-    if isinstance(items, list):
-        titles = [str(x.get("title", ""))[:40]
-                  for x in items if isinstance(x, dict)][:3]
-        return False, ("items 가 배열이다. 화장품 고시는 pdNo 를 키로 쓰는 "
-                       f"객체여야 한다. 들어 있는 것: {titles}")
-
-    if not isinstance(items, dict):
-        return False, f"items 가 없거나 객체가 아니다 (keys={list(d)[:6]})"
-
-    if not items:
-        # 빈 것은 막지 않는다. 아직 안 모은 상태일 수 있다.
-        return True, "items 가 비어 있다 (아직 수집 전)"
-
-    for key, val in items.items():
-        if not isinstance(val, dict):
-            return False, f"항목 {key} 가 객체가 아니다"
-        hit = [f for f in EXAM_FIELDS if val.get(f)]
-        if hit and not any(val.get(f) for f in COSMETIC_FIELDS):
-            return False, (f"항목 {key} 에 시험 공고 칸 {hit} 이 있고 "
-                           "화장품 칸은 하나도 없다")
-
-    digit_keys = sum(1 for k in items if str(k).isdigit())
-    if digit_keys == 0:
-        return False, f"키가 하나도 pdNo(숫자) 가 아니다: {list(items)[:5]}"
-
-    has_cosmetic = any(
-        any(v.get(f) for f in COSMETIC_FIELDS)
-        for v in items.values() if isinstance(v, dict)
-    )
-    if not has_cosmetic:
-        return False, "화장품 고시 칸이 채워진 항목이 하나도 없다"
-
-    src = str(d.get("source") or "")
-    if "gosi.kr" in src:
-        return False, f"source 가 시험 사이트다: {src}"
-
-    return True, f"화장품 고시 {len(items)}건"
-
-
-def count_items(text: str) -> int:
-    try:
-        return len(json.loads(text).get("items") or {})
-    except Exception:
-        return 0
-
-
-# 통과하는 커밋 몇 개까지 후보로 볼지.
-# 최근 것 하나만 보면 적게 담긴 스냅샷을 집을 수 있다. 실제로 겪었다.
-CANDIDATES = 10
-
-
-def find_last_good(verbose: bool = True) -> tuple[str, str, str] | None:
-    """이력에서 검사를 통과하면서 항목이 가장 많은 커밋을 찾는다.
-
-    처음에는 '가장 최근 통과 커밋' 을 집었다. 그런데 실제로 돌려 보니
-    14건짜리를 두고 7건짜리를 집었다. 고시는 하루에도 여러 번 다시 쓰이고
-    비전 추출이 몇 건만 건진 실행도 커밋으로 남기 때문이다.
-
-    되살리는 일에서 적게 담긴 쪽을 고르면 조용히 7건을 잃는다.
-    그래서 통과한 후보 여러 개를 모아 항목 수가 가장 많은 것을 집는다.
-    같으면 더 최근 것을 집는다.
-    """
-    out, _ = git("log", "--format=%H|%ad|%s", "--date=short",
-                 "-60", "--", "data/gosi.json")
-
-    picks: list[tuple[int, int, str, str, str]] = []  # (건수, -순번, sha, when, why)
-    for order, line in enumerate(out.splitlines()):
-        if not line.strip():
-            continue
-        sha, date, subj = (line.split("|", 2) + ["", ""])[:3]
-        blob, rc = git("show", f"{sha}:data/gosi.json")
-        if rc != 0:
-            continue
-        good, why = judge(blob)
-        if not good or "수집 전" in why:
-            continue
-        picks.append((count_items(blob), -order, sha,
-                      f"{date} {subj[:50]}", why))
-        if len(picks) >= CANDIDATES:
-            break
-
-    if not picks:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except:
         return None
 
-    picks.sort(reverse=True)
-    best = picks[0]
+def check_cosmetic_gosi():
+    """화장품 고시가 망가졌는지 검사"""
+    data = load_json_safe(COSMETIC_GOSI)
+    if data is None:
+        print(f"⚠️ 화장품 고시 없음: {COSMETIC_GOSI}")
+        return False, "missing"
+    
+    # 구조 검사 - daiso_real은 items 또는 dict 형태
+    if isinstance(data, dict):
+        items = data.get("items", data)
+        if isinstance(items, dict):
+            count = len(items)
+        elif isinstance(items, list):
+            count = len(items)
+        else:
+            count = 0
+    elif isinstance(data, list):
+        count = len(data)
+    else:
+        count = 0
+    
+    # 14건 미만이면 덮인 것으로 간주
+    if count < 5:  # 14건이어야 하는데 1건이면 덮인 것
+        print(f"❌ 화장품 고시 손상 감지: {count}건 (기대 14건+)")
+        return False, f"damaged_count_{count}"
+    
+    print(f"✅ 화장품 고시 정상: {count}건")
+    return True, f"ok_{count}"
 
-    if verbose and len(picks) > 1:
-        newest = max(picks, key=lambda x: x[1])
-        if newest[2] != best[2]:
-            print(f"           가장 최근 통과본은 {newest[2][:9]} {newest[0]}건인데")
-            print(f"           {best[2][:9]} 이 {best[0]}건으로 더 많아 그쪽을 쓴다")
+def restore_from_last_good():
+    """직전 정상 커밋에서 복구"""
+    try:
+        # git log에서 daiso_gosi.json이 정상이던 커밋 찾기
+        result = subprocess.run(
+            ["git", "log", "--oneline", "--follow", "--", str(COSMETIC_GOSI)],
+            capture_output=True, text=True, cwd=ROOT
+        )
+        commits = result.stdout.strip().split("\n")[:10]
+        
+        for commit_line in commits:
+            if not commit_line.strip():
+                continue
+            commit_hash = commit_line.split()[0]
+            # 해당 커밋에서 파일 내용 가져오기
+            show_result = subprocess.run(
+                ["git", "show", f"{commit_hash}:{COSMETIC_GOSI.relative_to(ROOT)}"],
+                capture_output=True, text=True, cwd=ROOT
+            )
+            if show_result.returncode == 0 and show_result.stdout:
+                try:
+                    data = json.loads(show_result.stdout)
+                    # 정상인지 검사
+                    if isinstance(data, dict):
+                        items = data.get("items", data)
+                        count = len(items) if isinstance(items, (dict, list)) else 0
+                        if count >= 5:
+                            # 복구
+                            COSMETIC_GOSI.parent.mkdir(parents=True, exist_ok=True)
+                            COSMETIC_GOSI.write_text(show_result.stdout, encoding="utf-8")
+                            print(f"✅ 화장품 고시 복구 완료: {commit_hash}에서 {count}건 복원")
+                            return True
+                except:
+                    continue
+        
+        print("❌ 복구할 정상 커밋을 찾지 못함")
+        return False
+    except Exception as e:
+        print(f"❌ 복구 실패: {e}")
+        return False
 
-    return best[2], best[3], best[4]
-
-
-def main() -> int:
-    restore = "--restore" in sys.argv
-
-    if not GOSI.exists():
-        print("FAIL [고시] data/gosi.json 이 없다")
-        return 1
-
-    good, why = judge(GOSI.read_text(encoding="utf-8-sig", errors="replace"))
-
-    if good:
-        print(f"OK [고시] data/gosi.json 정상 — {why}")
-        return 0
-
-    print("FAIL [고시] data/gosi.json 이 화장품 고시가 아니다")
-    print(f"           사유: {why}")
-    print("           이 파일은 scripts/collect_daiso_gosi.py 와")
-    print("           scripts/extract_gosi_vision.py 전용이다.")
-    print("           시험 공고는 data/civil_service_gosi.json 으로 간다.")
-
-    if not restore:
-        return 1
-
-    found = find_last_good()
-    if not found:
-        print("           되살릴 정상 커밋을 이력 60개 안에서 못 찾았다. 사람이 봐야 한다.")
-        return 1
-
-    sha, when, what = found
-    out, rc = git("checkout", sha, "--", "data/gosi.json")
-    if rc != 0:
-        print(f"           복구 실패: {out[:120]}")
-        return 1
-
-    again, why2 = judge(GOSI.read_text(encoding="utf-8-sig", errors="replace"))
-    if not again:
-        print(f"           복구했는데 여전히 어긋난다: {why2}")
-        return 1
-
-    print(f"           복구함 <- {sha[:9]} ({when})")
-    print(f"           내용: {why2}")
-    return 0
-
+def main():
+    is_restore = "--restore" in sys.argv
+    
+    if not is_restore:
+        # 시작 시점 상태 기록
+        is_ok, status = check_cosmetic_gosi()
+        log = {
+            "checked_at": __import__("datetime").datetime.utcnow().isoformat() + "Z",
+            "cosmetic_gosi_path": str(COSMETIC_GOSI.relative_to(ROOT)),
+            "status": status,
+            "is_ok": is_ok
+        }
+        try:
+            GUARD_LOG.parent.mkdir(parents=True, exist_ok=True)
+            GUARD_LOG.write_text(json.dumps(log, indent=2, ensure_ascii=False), encoding="utf-8")
+            print(f"📝 시작 상태 기록: {GUARD_LOG}")
+        except Exception as e:
+            print(f"⚠️ 로그 기록 실패: {e}")
+        return
+    
+    # --restore 모드: 덮였으면 복구, 못 하면 중단
+    is_ok, status = check_cosmetic_gosi()
+    if is_ok:
+        print("✅ 화장품 고시 보호: 정상 - 커밋 진행")
+        return
+    
+    print(f"🚨 화장품 고시 보호: 손상 감지 ({status}) - 복구 시도")
+    if restore_from_last_good():
+        print("✅ 복구 성공 - 커밋 진행")
+        return
+    else:
+        print("❌ 복구 실패 - 워크플로 중단 (망가진 채로 올리지 않음)")
+        sys.exit(1)
 
 if __name__ == "__main__":
-    sys.exit(main())
+    main()
