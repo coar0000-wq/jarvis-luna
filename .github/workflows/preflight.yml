@@ -18,17 +18,23 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: 'pip'
+
       - name: 의존성
         run: python -m pip install --quiet pyyaml pyflakes
+
       - name: 검증 실행
         id: pf
+        shell: bash
         continue-on-error: true
         run: |
           python scripts/preflight.py | tee /tmp/pf.txt
           echo "rc=${PIPESTATUS[0]}" >> $GITHUB_OUTPUT
+
       # ----------------------------------------------------------
       # 산출물 재생성 순서 가드
       #
@@ -40,6 +46,7 @@ jobs:
       # ----------------------------------------------------------
       - name: 산출물 재생성 순서 검사
         id: graph
+        shell: bash
         continue-on-error: true
         run: |
           python scripts/build_artifact_graph.py --check | tee /tmp/graph.txt
@@ -50,14 +57,15 @@ jobs:
         run: |
           echo '### 산출물 재생성 순서' >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
-          cat /tmp/graph.txt >> $GITHUB_STEP_SUMMARY 2>/dev/null || echo '실행 실패' >> $GITHUB_STEP_SUMMARY
+          cat /tmp/graph.txt >> $GITHUB_STEP_SUMMARY 2>/dev/null \vert{}\vert{} echo '실행 실패' >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
           echo '### 배포 전 검증' >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
-          cat /tmp/pf.txt >> $GITHUB_STEP_SUMMARY 2>/dev/null || echo '실행 실패' >> $GITHUB_STEP_SUMMARY
+          cat /tmp/pf.txt >> $GITHUB_STEP_SUMMARY 2>/dev/null \vert{}\vert{} echo '실행 실패' >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
+
       - name: 실패 시 종료
-        if: steps.pf.outputs.rc == '1' || steps.graph.outputs.rc == '1'
+        if: steps.pf.outputs.rc != '0' || steps.graph.outputs.rc != '0'
         run: |
           echo "FAIL 항목이 있습니다. 위 요약을 확인하세요."
           exit 1
