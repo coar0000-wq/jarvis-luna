@@ -28,6 +28,7 @@ OUT = ROOT / "data" / "daiso_real" / "shopify_demand_score.json"
 OUT_S = ROOT / "data" / "daiso_real" / "shopify_s_recommendations.json"
 OUT_REJECT = ROOT / "data" / "daiso_real" / "shopify_s_rejected.json"
 DASHBOARD = ROOT / "data" / "dashboard_runtime.json"
+PRODUCT_MASTER = ROOT / "data" / "product_master.json"
 
 CATEGORY_BASE = {
     "스킨케어": 42,
@@ -177,6 +178,13 @@ def load_json(path: Path, default=None):
         return json.loads(path.read_text(encoding="utf-8"))
     except Exception:
         return default
+
+
+def load_cp_registry() -> dict[str, str]:
+    """pd_no -> canonical_product_id (CP). product_master.json 정본."""
+    doc = load_json(PRODUCT_MASTER, {}) or {}
+    reg = doc.get("pd_no_to_cp") or {}
+    return {str(k): str(v) for k, v in reg.items()}
 
 
 def is_non_core(name: str) -> bool:
@@ -661,6 +669,10 @@ def main() -> int:
         print(f"ERROR: no products in {PRODUCTS}")
         return 1
 
+    cp_registry = load_cp_registry()
+    if not cp_registry:
+        print("WARN: product_master.json 없거나 비어 있음 — canonical_product_id 생략")
+
     # 이미지 URL 유실 방지: 이전 S추천·products 양쪽에서 보강
     prev_s = load_json(OUT_S, {}) or {}
     img_by_no, img_by_name = {}, {}
@@ -686,6 +698,8 @@ def main() -> int:
     dashboard = load_json(DASHBOARD, {}) or {}
     signals = extract_signals(dashboard.get("global_channels") or {})
     scored = [score_one(p, signals) for p in products]
+    for s in scored:
+        s["canonical_product_id"] = cp_registry.get(str(s.get("pd_no") or ""))
     assign_grades(scored)
     scored.sort(key=lambda x: (
         -x["shopify_score"],
@@ -760,6 +774,7 @@ def main() -> int:
         "recommendations": [
             {
                 "rank": i,
+                "canonical_product_id": cp_registry.get(str(x.get("pd_no") or "")),
                 "pd_no": x.get("pd_no"),
                 "name": x.get("name"),
                 "bucket": x.get("bucket"),
@@ -785,6 +800,7 @@ def main() -> int:
 
     rejected = [
         {
+            "canonical_product_id": cp_registry.get(str(x.get("pd_no") or "")),
             "pd_no": x.get("pd_no"),
             "name": x.get("name"),
             "bucket": x.get("bucket"),
