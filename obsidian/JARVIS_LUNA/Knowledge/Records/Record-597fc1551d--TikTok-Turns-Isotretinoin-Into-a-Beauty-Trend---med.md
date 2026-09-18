@@ -2,7 +2,7 @@
 title: "Record 597fc1551d · TikTok-Turns-Isotretinoin-Into-a-Beauty-Trend---med"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T22:47:09.587528+00:00
+updated_at: 2026-09-18T03:04:30.705741+00:00
 tags: [record, real-data]
 ---
 

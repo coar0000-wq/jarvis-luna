@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-17T22:41:15.002183+00:00",
+  "collected_at": "2026-09-18T02:57:33.883573+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -44,15 +44,15 @@
   ],
   "hot_keywords": [
     {
-      "keyword": "2026",
-      "score": 6
-    },
-    {
       "keyword": "skin",
       "score": 6
     },
     {
       "keyword": "september",
+      "score": 5
+    },
+    {
+      "keyword": "2026",
       "score": 5
     },
     {
@@ -68,11 +68,11 @@
       "score": 3
     },
     {
-      "keyword": "new",
-      "score": 3
+      "keyword": "thursday",
+      "score": 2
     },
     {
-      "keyword": "thursday",
+      "keyword": "smells",
       "score": 2
     },
     {
@@ -80,7 +80,11 @@
       "score": 2
     },
     {
-      "keyword": "smells",
+      "keyword": "sheet",
+      "score": 2
+    },
+    {
+      "keyword": "mask",
       "score": 2
     },
     {
@@ -93,6 +97,14 @@
     },
     {
       "keyword": "products",
+      "score": 2
+    },
+    {
+      "keyword": "moisturizers",
+      "score": 2
+    },
+    {
+      "keyword": "moisturizer",
       "score": 2
     },
     {
@@ -132,6 +144,10 @@
       "score": 2
     },
     {
+      "keyword": "new",
+      "score": 2
+    },
+    {
       "keyword": "cushion",
       "score": 2
     },
@@ -148,10 +164,6 @@
       "score": 2
     },
     {
-      "keyword": "brand",
-      "score": 2
-    },
-    {
       "keyword": "monday",
       "score": 1
     },
@@ -161,14 +173,6 @@
     },
     {
       "keyword": "authenticity",
-      "score": 1
-    },
-    {
-      "keyword": "holy",
-      "score": 1
-    },
-    {
-      "keyword": "grail",
       "score": 1
     },
     {
@@ -198,10 +202,6 @@
     {
       "keyword": "smell",
       "score": 1
-    },
-    {
-      "keyword": "also",
-      "score": 1
     }
   ],
   "beauty_keywords": [
@@ -214,11 +214,27 @@
       "score": 2
     },
     {
+      "keyword": "sheet",
+      "score": 2
+    },
+    {
+      "keyword": "mask",
+      "score": 2
+    },
+    {
       "keyword": "kbeauty",
       "score": 2
     },
     {
       "keyword": "skincare",
+      "score": 2
+    },
+    {
+      "keyword": "moisturizers",
+      "score": 2
+    },
+    {
+      "keyword": "moisturizer",
       "score": 2
     },
     {
@@ -258,13 +274,6 @@
       "feed": "hot"
     },
     {
-      "title": "My Holy Grail Sunscreen",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wi6akm/my_holy_grail_sunscreen/",
-      "published": "2026-09-16T18:56:37+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
       "title": "Searching for a perfume or fragrance that smells like this conditioner. It has a rosemary smell but also smells woodsy to me.",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wj5f70/searching_for_a_perfume_or_fragrance_that_smells/",
       "published": "2026-09-17T20:30:51+00:00",
@@ -272,9 +281,30 @@
       "feed": "hot"
     },
     {
+      "title": "My Holy Grail Sunscreen",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wi6akm/my_holy_grail_sunscreen/",
+      "published": "2026-09-16T18:56:37+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Cream sheet mask review",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjdn0k/cream_sheet_mask_review/",
+      "published": "2026-09-18T02:22:45+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "What are the best affordable stores to buy kbeauty makeup and skincare products??",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wizxy1/what_are_the_best_affordable_stores_to_buy/",
       "published": "2026-09-17T17:10:05+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Baby Moisturizers/Lotions as main face moisturizer",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wje7ab/baby_moisturizerslotions_as_main_face_moisturizer/",
+      "published": "2026-09-18T02:49:07+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -401,20 +431,6 @@
       "title": "I love Botanist brand body wash especially their new hinoki and cedarwood",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1whkz1x/i_love_botanist_brand_body_wash_especially_their/",
       "published": "2026-09-16T02:49:16+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Has anyone tried the new 2026 Lilybyred Bloody Liar Coating Tint?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wh21b6/has_anyone_tried_the_new_2026_lilybyred_bloody/",
-      "published": "2026-09-15T14:31:18+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Yesstyle's weird brand pushing during discount campaigns",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wgzfm8/yesstyles_weird_brand_pushing_during_discount/",
-      "published": "2026-09-15T12:47:41+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

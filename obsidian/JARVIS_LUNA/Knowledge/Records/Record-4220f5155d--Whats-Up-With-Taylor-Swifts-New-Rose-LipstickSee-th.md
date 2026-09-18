@@ -2,7 +2,7 @@
 title: "Record 4220f5155d · Whats-Up-With-Taylor-Swifts-New-Rose-LipstickSee-th"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T22:47:09.729951+00:00
+updated_at: 2026-09-18T03:04:30.889421+00:00
 tags: [record, real-data]
 ---
 

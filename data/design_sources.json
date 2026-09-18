@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T22:40:14.837107+00:00",
+  "generated_at": "2026-09-18T02:56:31.088302+00:00",
   "generator": "scripts/collect_design_sources.py",
   "원칙": "서버가 데이터를 그대로 주는 곳만 쓴다. 브라우저에서만 그려지는 사이트는 자동 수집 대상이 아니다. robots.txt 와일드카드 그룹이 허용하는 경로만 요청한다.",
   "robots_checked_at": "2026-09-06",
@@ -22,7 +22,7 @@
         "family": "Roboto",
         "category": "Sans Serif",
         "popularity": 2,
-        "trending": 816,
+        "trending": 1234,
         "weights": [
           "100",
           "100i",
@@ -50,7 +50,7 @@
         "family": "Open Sans",
         "category": "Sans Serif",
         "popularity": 3,
-        "trending": 826,
+        "trending": 1225,
         "weights": [
           "300",
           "300i",
@@ -72,7 +72,7 @@
         "family": "Google Sans",
         "category": "Sans Serif",
         "popularity": 4,
-        "trending": 1529,
+        "trending": 1416,
         "weights": [
           "400",
           "400i",
@@ -89,8 +89,8 @@
       {
         "family": "Inter",
         "category": "Sans Serif",
-        "popularity": 4,
-        "trending": 676,
+        "popularity": 5,
+        "trending": 995,
         "weights": [
           "100",
           "100i",
@@ -115,29 +115,10 @@
         "date_added": "2020-01-24"
       },
       {
-        "family": "Noto Sans JP",
-        "category": "Sans Serif",
-        "popularity": 6,
-        "trending": 582,
-        "weights": [
-          "100",
-          "200",
-          "300",
-          "400",
-          "500",
-          "600",
-          "700",
-          "800",
-          "900"
-        ],
-        "korean": false,
-        "date_added": "2015-01-29"
-      },
-      {
         "family": "Montserrat",
         "category": "Sans Serif",
         "popularity": 7,
-        "trending": 1657,
+        "trending": 1669,
         "weights": [
           "100",
           "100i",
@@ -162,28 +143,10 @@
         "date_added": "2011-12-13"
       },
       {
-        "family": "Arimo",
-        "category": "Sans Serif",
-        "popularity": 8,
-        "trending": 689,
-        "weights": [
-          "400",
-          "400i",
-          "500",
-          "500i",
-          "600",
-          "600i",
-          "700",
-          "700i"
-        ],
-        "korean": false,
-        "date_added": "2026-05-12"
-      },
-      {
         "family": "Poppins",
         "category": "Sans Serif",
         "popularity": 8,
-        "trending": 1212,
+        "trending": 1231,
         "weights": [
           "100",
           "100i",
@@ -211,7 +174,7 @@
         "family": "Lato",
         "category": "Sans Serif",
         "popularity": 9,
-        "trending": 1188,
+        "trending": 1204,
         "weights": [
           "100",
           "100i",
@@ -228,10 +191,71 @@
         "date_added": "2010-12-15"
       },
       {
+        "family": "Noto Sans JP",
+        "category": "Sans Serif",
+        "popularity": 10,
+        "trending": 950,
+        "weights": [
+          "100",
+          "200",
+          "300",
+          "400",
+          "500",
+          "600",
+          "700",
+          "800",
+          "900"
+        ],
+        "korean": false,
+        "date_added": "2015-01-29"
+      },
+      {
+        "family": "Arimo",
+        "category": "Sans Serif",
+        "popularity": 14,
+        "trending": 1112,
+        "weights": [
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i"
+        ],
+        "korean": false,
+        "date_added": "2026-05-12"
+      },
+      {
+        "family": "Roboto Mono",
+        "category": "Monospace",
+        "popularity": 15,
+        "trending": 1055,
+        "weights": [
+          "100",
+          "100i",
+          "200",
+          "200i",
+          "300",
+          "300i",
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i"
+        ],
+        "korean": false,
+        "date_added": "2025-05-12"
+      },
+      {
         "family": "Roboto Condensed",
         "category": "Sans Serif",
-        "popularity": 9,
-        "trending": 699,
+        "popularity": 17,
+        "trending": 1087,
         "weights": [
           "100",
           "100i",
@@ -258,8 +282,8 @@
       {
         "family": "Oswald",
         "category": "Sans Serif",
-        "popularity": 11,
-        "trending": 1207,
+        "popularity": 19,
+        "trending": 1784,
         "weights": [
           "200",
           "300",
@@ -272,10 +296,38 @@
         "date_added": "2012-02-29"
       },
       {
+        "family": "Noto Sans",
+        "category": "Sans Serif",
+        "popularity": 20,
+        "trending": 919,
+        "weights": [
+          "100",
+          "100i",
+          "200",
+          "200i",
+          "300",
+          "300i",
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i",
+          "800",
+          "800i",
+          "900",
+          "900i"
+        ],
+        "korean": false,
+        "date_added": "2013-02-27"
+      },
+      {
         "family": "DM Sans",
         "category": "Sans Serif",
-        "popularity": 13,
-        "trending": 345,
+        "popularity": 22,
+        "trending": 533,
         "weights": [
           "100",
           "1000",
@@ -304,8 +356,8 @@
       {
         "family": "Raleway",
         "category": "Sans Serif",
-        "popularity": 14,
-        "trending": 773,
+        "popularity": 23,
+        "trending": 1136,
         "weights": [
           "100",
           "100i",
@@ -330,10 +382,60 @@
         "date_added": "2012-09-07"
       },
       {
+        "family": "Nunito",
+        "category": "Sans Serif",
+        "popularity": 24,
+        "trending": 1355,
+        "weights": [
+          "1000",
+          "1000i",
+          "200",
+          "200i",
+          "300",
+          "300i",
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i",
+          "800",
+          "800i",
+          "900",
+          "900i"
+        ],
+        "korean": false,
+        "date_added": "2012-08-12"
+      },
+      {
+        "family": "Playfair Display",
+        "category": "Serif",
+        "popularity": 25,
+        "trending": 942,
+        "weights": [
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i",
+          "800",
+          "800i",
+          "900",
+          "900i"
+        ],
+        "korean": false,
+        "date_added": "2011-11-16"
+      },
+      {
         "family": "Nunito Sans",
         "category": "Sans Serif",
-        "popularity": 15,
-        "trending": 708,
+        "popularity": 26,
+        "trending": 987,
         "weights": [
           "1000",
           "1000i",
@@ -360,8 +462,8 @@
       {
         "family": "Roboto Slab",
         "category": "Serif",
-        "popularity": 16,
-        "trending": 828,
+        "popularity": 28,
+        "trending": 1150,
         "weights": [
           "100",
           "200",
@@ -377,34 +479,10 @@
         "date_added": "2013-04-10"
       },
       {
-        "family": "Roboto Mono",
-        "category": "Monospace",
-        "popularity": 17,
-        "trending": 1067,
-        "weights": [
-          "100",
-          "100i",
-          "200",
-          "200i",
-          "300",
-          "300i",
-          "400",
-          "400i",
-          "500",
-          "500i",
-          "600",
-          "600i",
-          "700",
-          "700i"
-        ],
-        "korean": false,
-        "date_added": "2025-05-12"
-      },
-      {
         "family": "Rubik",
         "category": "Sans Serif",
-        "popularity": 17,
-        "trending": 668,
+        "popularity": 29,
+        "trending": 1000,
         "weights": [
           "300",
           "300i",
@@ -427,8 +505,8 @@
       {
         "family": "Ubuntu",
         "category": "Sans Serif",
-        "popularity": 19,
-        "trending": 786,
+        "popularity": 31,
+        "trending": 1054,
         "weights": [
           "300",
           "300i",
@@ -445,8 +523,8 @@
       {
         "family": "Manrope",
         "category": "Sans Serif",
-        "popularity": 20,
-        "trending": 521,
+        "popularity": 32,
+        "trending": 764,
         "weights": [
           "200",
           "300",
@@ -460,10 +538,10 @@
         "date_added": "2019-10-02"
       },
       {
-        "family": "Noto Sans",
+        "family": "Kanit",
         "category": "Sans Serif",
-        "popularity": 20,
-        "trending": 939,
+        "popularity": 33,
+        "trending": 1104,
         "weights": [
           "100",
           "100i",
@@ -485,13 +563,13 @@
           "900i"
         ],
         "korean": false,
-        "date_added": "2013-02-27"
+        "date_added": "2015-12-07"
       },
       {
         "family": "Outfit",
         "category": "Sans Serif",
-        "popularity": 21,
-        "trending": 419,
+        "popularity": 34,
+        "trending": 726,
         "weights": [
           "100",
           "200",
@@ -509,8 +587,8 @@
       {
         "family": "Merriweather",
         "category": "Serif",
-        "popularity": 22,
-        "trending": 624,
+        "popularity": 35,
+        "trending": 873,
         "weights": [
           "300",
           "300i",
@@ -531,10 +609,21 @@
         "date_added": "2011-05-11"
       },
       {
+        "family": "Archivo Black",
+        "category": "Sans Serif",
+        "popularity": 36,
+        "trending": 1822,
+        "weights": [
+          "400"
+        ],
+        "korean": false,
+        "date_added": "2012-09-18"
+      },
+      {
         "family": "Noto Sans KR",
         "category": "Sans Serif",
-        "popularity": 23,
-        "trending": 849,
+        "popularity": 37,
+        "trending": 1152,
         "weights": [
           "100",
           "200",
@@ -550,17 +639,11 @@
         "date_added": "2018-02-05"
       },
       {
-        "family": "Nunito",
-        "category": "Sans Serif",
-        "popularity": 24,
-        "trending": 1538,
+        "family": "Lora",
+        "category": "Serif",
+        "popularity": 38,
+        "trending": 1009,
         "weights": [
-          "1000",
-          "1000i",
-          "200",
-          "200i",
-          "300",
-          "300i",
           "400",
           "400i",
           "500",
@@ -568,20 +651,16 @@
           "600",
           "600i",
           "700",
-          "700i",
-          "800",
-          "800i",
-          "900",
-          "900i"
+          "700i"
         ],
         "korean": false,
-        "date_added": "2012-08-12"
+        "date_added": "2011-07-06"
       },
       {
         "family": "Work Sans",
         "category": "Sans Serif",
-        "popularity": 24,
-        "trending": 1104,
+        "popularity": 39,
+        "trending": 1420,
         "weights": [
           "100",
           "100i",
@@ -606,32 +685,10 @@
         "date_added": "2015-07-08"
       },
       {
-        "family": "Playfair Display",
-        "category": "Serif",
-        "popularity": 25,
-        "trending": 904,
-        "weights": [
-          "400",
-          "400i",
-          "500",
-          "500i",
-          "600",
-          "600i",
-          "700",
-          "700i",
-          "800",
-          "800i",
-          "900",
-          "900i"
-        ],
-        "korean": false,
-        "date_added": "2011-11-16"
-      },
-      {
         "family": "Plus Jakarta Sans",
         "category": "Sans Serif",
-        "popularity": 25,
-        "trending": 371,
+        "popularity": 40,
+        "trending": 580,
         "weights": [
           "200",
           "200i",
@@ -650,80 +707,13 @@
         ],
         "korean": false,
         "date_added": "2022-03-23"
-      },
-      {
-        "family": "Quicksand",
-        "category": "Sans Serif",
-        "popularity": 26,
-        "trending": 424,
-        "weights": [
-          "300",
-          "400",
-          "500",
-          "600",
-          "700"
-        ],
-        "korean": false,
-        "date_added": "2011-10-19"
-      },
-      {
-        "family": "Figtree",
-        "category": "Sans Serif",
-        "popularity": 27,
-        "trending": 744,
-        "weights": [
-          "300",
-          "300i",
-          "400",
-          "400i",
-          "500",
-          "500i",
-          "600",
-          "600i",
-          "700",
-          "700i",
-          "800",
-          "800i",
-          "900",
-          "900i"
-        ],
-        "korean": false,
-        "date_added": "2022-07-21"
-      },
-      {
-        "family": "Archivo",
-        "category": "Sans Serif",
-        "popularity": 28,
-        "trending": 225,
-        "weights": [
-          "100",
-          "100i",
-          "200",
-          "200i",
-          "300",
-          "300i",
-          "400",
-          "400i",
-          "500",
-          "500i",
-          "600",
-          "600i",
-          "700",
-          "700i",
-          "800",
-          "800i",
-          "900",
-          "900i"
-        ],
-        "korean": false,
-        "date_added": "2016-12-03"
       }
     ],
     "top_trending": [
       {
         "family": "Idiqlat",
         "category": "Serif",
-        "popularity": 828,
+        "popularity": 1205,
         "trending": 1,
         "weights": [
           "200",
@@ -734,9 +724,9 @@
         "date_added": "2026-02-12"
       },
       {
-        "family": "Noto Sans Saurashtra",
+        "family": "Noto Sans Old North Arabian",
         "category": "Sans Serif",
-        "popularity": 859,
+        "popularity": 1196,
         "trending": 2,
         "weights": [
           "400"
@@ -745,9 +735,9 @@
         "date_added": "2020-11-19"
       },
       {
-        "family": "Noto Sans Old North Arabian",
+        "family": "Noto Sans Saurashtra",
         "category": "Sans Serif",
-        "popularity": 1183,
+        "popularity": 1231,
         "trending": 3,
         "weights": [
           "400"
@@ -758,8 +748,8 @@
       {
         "family": "Ruwudu",
         "category": "Serif",
-        "popularity": 716,
-        "trending": 3,
+        "popularity": 1103,
+        "trending": 4,
         "weights": [
           "400",
           "500",
@@ -772,8 +762,8 @@
       {
         "family": "Noto Sans Sundanese",
         "category": "Sans Serif",
-        "popularity": 1085,
-        "trending": 4,
+        "popularity": 1126,
+        "trending": 5,
         "weights": [
           "400",
           "500",
@@ -784,21 +774,10 @@
         "date_added": "2020-11-19"
       },
       {
-        "family": "Alien Block",
-        "category": "Display",
-        "popularity": 1133,
-        "trending": 5,
-        "weights": [
-          "400"
-        ],
-        "korean": false,
-        "date_added": "2026-06-05"
-      },
-      {
         "family": "Libre Barcode 39 Extended",
         "category": "Display",
-        "popularity": 872,
-        "trending": 5,
+        "popularity": 1125,
+        "trending": 6,
         "weights": [
           "400"
         ],
@@ -806,10 +785,65 @@
         "date_added": "2017-08-21"
       },
       {
+        "family": "Playwrite BE WAL Guides",
+        "category": "Handwriting",
+        "popularity": 1796,
+        "trending": 7,
+        "weights": [
+          "400"
+        ],
+        "korean": false,
+        "date_added": "2024-12-09"
+      },
+      {
+        "family": "Alien Block",
+        "category": "Display",
+        "popularity": 1617,
+        "trending": 9,
+        "weights": [
+          "400"
+        ],
+        "korean": false,
+        "date_added": "2026-06-05"
+      },
+      {
+        "family": "Noto Sans Nandinagari",
+        "category": "Sans Serif",
+        "popularity": 1557,
+        "trending": 10,
+        "weights": [
+          "400"
+        ],
+        "korean": false,
+        "date_added": "2023-05-08"
+      },
+      {
+        "family": "Playwrite CU Guides",
+        "category": "Handwriting",
+        "popularity": 1811,
+        "trending": 11,
+        "weights": [
+          "400"
+        ],
+        "korean": false,
+        "date_added": "2024-12-09"
+      },
+      {
+        "family": "Syne Tactile",
+        "category": "Display",
+        "popularity": 1551,
+        "trending": 12,
+        "weights": [
+          "400"
+        ],
+        "korean": false,
+        "date_added": "2020-08-25"
+      },
+      {
         "family": "Huninn",
         "category": "Sans Serif",
-        "popularity": 808,
-        "trending": 6,
+        "popularity": 1181,
+        "trending": 14,
         "weights": [
           "400"
         ],
@@ -819,8 +853,8 @@
       {
         "family": "Gulzar",
         "category": "Serif",
-        "popularity": 707,
-        "trending": 7,
+        "popularity": 1076,
+        "trending": 15,
         "weights": [
           "400"
         ],
@@ -828,21 +862,10 @@
         "date_added": "2022-05-13"
       },
       {
-        "family": "Noto Sans Nandinagari",
-        "category": "Sans Serif",
-        "popularity": 1075,
-        "trending": 8,
-        "weights": [
-          "400"
-        ],
-        "korean": false,
-        "date_added": "2023-05-08"
-      },
-      {
         "family": "Noto Sans Pau Cin Hau",
         "category": "Sans Serif",
-        "popularity": 1183,
-        "trending": 9,
+        "popularity": 1740,
+        "trending": 16,
         "weights": [
           "400"
         ],
@@ -850,96 +873,10 @@
         "date_added": "2020-11-19"
       },
       {
-        "family": "Playwrite BE WAL Guides",
-        "category": "Handwriting",
-        "popularity": 1308,
-        "trending": 10,
-        "weights": [
-          "400"
-        ],
-        "korean": false,
-        "date_added": "2024-12-09"
-      },
-      {
-        "family": "Playwrite CU Guides",
-        "category": "Handwriting",
-        "popularity": 1287,
-        "trending": 11,
-        "weights": [
-          "400"
-        ],
-        "korean": false,
-        "date_added": "2024-12-09"
-      },
-      {
-        "family": "Bungee Tint",
-        "category": "Display",
-        "popularity": 1025,
-        "trending": 12,
-        "weights": [
-          "400"
-        ],
-        "korean": false,
-        "date_added": "2024-08-09"
-      },
-      {
-        "family": "Syne Tactile",
-        "category": "Display",
-        "popularity": 1601,
-        "trending": 13,
-        "weights": [
-          "400"
-        ],
-        "korean": false,
-        "date_added": "2020-08-25"
-      },
-      {
-        "family": "Valley Sans",
-        "category": "Sans Serif",
-        "popularity": 1123,
-        "trending": 13,
-        "weights": [
-          "100",
-          "100i",
-          "200",
-          "200i",
-          "300",
-          "300i",
-          "400",
-          "400i",
-          "500",
-          "500i",
-          "600",
-          "600i",
-          "700",
-          "700i",
-          "800",
-          "800i",
-          "900",
-          "900i"
-        ],
-        "korean": false,
-        "date_added": "2026-08-25"
-      },
-      {
-        "family": "Playwrite HR Lijeva",
-        "category": "Handwriting",
-        "popularity": 1189,
-        "trending": 14,
-        "weights": [
-          "100",
-          "200",
-          "300",
-          "400"
-        ],
-        "korean": false,
-        "date_added": "2024-05-15"
-      },
-      {
         "family": "Chiron Sung HK",
         "category": "Serif",
-        "popularity": 1038,
-        "trending": 15,
+        "popularity": 1494,
+        "trending": 17,
         "weights": [
           "200",
           "200i",
@@ -962,34 +899,86 @@
         "date_added": "2025-06-11"
       },
       {
-        "family": "Momo Trust Display",
+        "family": "Noto Sans Cypriot",
         "category": "Sans Serif",
-        "popularity": 767,
-        "trending": 16,
+        "popularity": 1801,
+        "trending": 18,
         "weights": [
           "400"
         ],
         "korean": false,
-        "date_added": "2025-10-28"
+        "date_added": "2020-11-19"
+      },
+      {
+        "family": "Noto Sans Myanmar",
+        "category": "Sans Serif",
+        "popularity": 430,
+        "trending": 19,
+        "weights": [
+          "100",
+          "200",
+          "300",
+          "400",
+          "500",
+          "600",
+          "700",
+          "800",
+          "900"
+        ],
+        "korean": false,
+        "date_added": "2020-11-19"
+      },
+      {
+        "family": "Faustina",
+        "category": "Serif",
+        "popularity": 234,
+        "trending": 20,
+        "weights": [
+          "300",
+          "300i",
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i",
+          "800",
+          "800i"
+        ],
+        "korean": false,
+        "date_added": "2017-07-31"
       },
       {
         "family": "Pochaevsk",
         "category": "Display",
-        "popularity": 1254,
-        "trending": 17,
+        "popularity": 1827,
+        "trending": 21,
         "weights": [
           "400"
         ],
         "korean": false,
         "date_added": "2024-12-05"
+      },
+      {
+        "family": "Bungee Tint",
+        "category": "Display",
+        "popularity": 1524,
+        "trending": 22,
+        "weights": [
+          "400"
+        ],
+        "korean": false,
+        "date_added": "2024-08-09"
       }
     ],
     "korean_fonts": [
       {
         "family": "Noto Sans KR",
         "category": "Sans Serif",
-        "popularity": 23,
-        "trending": 849,
+        "popularity": 37,
+        "trending": 1152,
         "weights": [
           "100",
           "200",
@@ -1007,8 +996,8 @@
       {
         "family": "Nanum Gothic",
         "category": "Sans Serif",
-        "popularity": 65,
-        "trending": 763,
+        "popularity": 103,
+        "trending": 1064,
         "weights": [
           "400",
           "700",
@@ -1020,8 +1009,8 @@
       {
         "family": "Nanum Myeongjo",
         "category": "Serif",
-        "popularity": 131,
-        "trending": 915,
+        "popularity": 201,
+        "trending": 1324,
         "weights": [
           "400",
           "700",
@@ -1033,8 +1022,8 @@
       {
         "family": "Noto Serif KR",
         "category": "Serif",
-        "popularity": 140,
-        "trending": 836,
+        "popularity": 212,
+        "trending": 1113,
         "weights": [
           "200",
           "300",
@@ -1051,8 +1040,8 @@
       {
         "family": "Gothic A1",
         "category": "Sans Serif",
-        "popularity": 168,
-        "trending": 1121,
+        "popularity": 261,
+        "trending": 1433,
         "weights": [
           "100",
           "200",
@@ -1070,8 +1059,8 @@
       {
         "family": "Nanum Gothic Coding",
         "category": "Handwriting",
-        "popularity": 224,
-        "trending": 726,
+        "popularity": 327,
+        "trending": 1312,
         "weights": [
           "400",
           "700"
@@ -1082,8 +1071,8 @@
       {
         "family": "Nanum Pen Script",
         "category": "Handwriting",
-        "popularity": 258,
-        "trending": 431,
+        "popularity": 378,
+        "trending": 661,
         "weights": [
           "400"
         ],
@@ -1093,8 +1082,8 @@
       {
         "family": "Jua",
         "category": "Sans Serif",
-        "popularity": 283,
-        "trending": 286,
+        "popularity": 421,
+        "trending": 370,
         "weights": [
           "400"
         ],
@@ -1102,10 +1091,21 @@
         "date_added": "2018-02-24"
       },
       {
+        "family": "Black Han Sans",
+        "category": "Sans Serif",
+        "popularity": 427,
+        "trending": 1945,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2018-02-23"
+      },
+      {
         "family": "Dongle",
         "category": "Sans Serif",
-        "popularity": 328,
-        "trending": 1323,
+        "popularity": 460,
+        "trending": 1887,
         "weights": [
           "300",
           "400",
@@ -1115,21 +1115,33 @@
         "date_added": "2021-06-14"
       },
       {
-        "family": "Black Han Sans",
+        "family": "Do Hyeon",
         "category": "Sans Serif",
-        "popularity": 428,
-        "trending": 1896,
+        "popularity": 527,
+        "trending": 637,
         "weights": [
           "400"
         ],
         "korean": true,
-        "date_added": "2018-02-23"
+        "date_added": "2018-02-24"
+      },
+      {
+        "family": "Gowun Batang",
+        "category": "Serif",
+        "popularity": 610,
+        "trending": 2036,
+        "weights": [
+          "400",
+          "700"
+        ],
+        "korean": true,
+        "date_added": "2021-06-10"
       },
       {
         "family": "IBM Plex Sans KR",
         "category": "Sans Serif",
-        "popularity": 432,
-        "trending": 453,
+        "popularity": 617,
+        "trending": 582,
         "weights": [
           "100",
           "200",
@@ -1145,8 +1157,8 @@
       {
         "family": "Nanum Brush Script",
         "category": "Handwriting",
-        "popularity": 489,
-        "trending": 1498,
+        "popularity": 716,
+        "trending": 2228,
         "weights": [
           "400"
         ],
@@ -1154,23 +1166,10 @@
         "date_added": "2018-02-05"
       },
       {
-        "family": "Gaegu",
-        "category": "Handwriting",
-        "popularity": 504,
-        "trending": 362,
-        "weights": [
-          "300",
-          "400",
-          "700"
-        ],
-        "korean": true,
-        "date_added": "2018-02-28"
-      },
-      {
         "family": "Hahmlet",
         "category": "Serif",
-        "popularity": 515,
-        "trending": 1258,
+        "popularity": 776,
+        "trending": 1961,
         "weights": [
           "100",
           "200",
@@ -1186,21 +1185,21 @@
         "date_added": "2021-05-13"
       },
       {
-        "family": "Do Hyeon",
+        "family": "Gowun Dodum",
         "category": "Sans Serif",
-        "popularity": 527,
-        "trending": 730,
+        "popularity": 793,
+        "trending": 1258,
         "weights": [
           "400"
         ],
         "korean": true,
-        "date_added": "2018-02-24"
+        "date_added": "2021-06-10"
       },
       {
         "family": "Hi Melody",
         "category": "Handwriting",
-        "popularity": 555,
-        "trending": 29,
+        "popularity": 801,
+        "trending": 32,
         "weights": [
           "400"
         ],
@@ -1208,33 +1207,23 @@
         "date_added": "2018-02-23"
       },
       {
-        "family": "Gowun Dodum",
-        "category": "Sans Serif",
-        "popularity": 559,
-        "trending": 878,
+        "family": "Gaegu",
+        "category": "Handwriting",
+        "popularity": 869,
+        "trending": 518,
         "weights": [
-          "400"
-        ],
-        "korean": true,
-        "date_added": "2021-06-10"
-      },
-      {
-        "family": "Gowun Batang",
-        "category": "Serif",
-        "popularity": 610,
-        "trending": 2076,
-        "weights": [
+          "300",
           "400",
           "700"
         ],
         "korean": true,
-        "date_added": "2021-06-10"
+        "date_added": "2018-02-28"
       },
       {
         "family": "Sunflower",
         "category": "Sans Serif",
-        "popularity": 644,
-        "trending": 247,
+        "popularity": 940,
+        "trending": 377,
         "weights": [
           "300",
           "500",
@@ -1246,8 +1235,8 @@
       {
         "family": "Gamja Flower",
         "category": "Handwriting",
-        "popularity": 704,
-        "trending": 464,
+        "popularity": 1004,
+        "trending": 642,
         "weights": [
           "400"
         ],
@@ -1257,8 +1246,8 @@
       {
         "family": "Bagel Fat One",
         "category": "Display",
-        "popularity": 706,
-        "trending": 1446,
+        "popularity": 1025,
+        "trending": 1968,
         "weights": [
           "400"
         ],
@@ -1268,8 +1257,8 @@
       {
         "family": "Song Myung",
         "category": "Serif",
-        "popularity": 731,
-        "trending": 1513,
+        "popularity": 1047,
+        "trending": 2108,
         "weights": [
           "400"
         ],
@@ -1279,74 +1268,19 @@
       {
         "family": "Gugi",
         "category": "Display",
-        "popularity": 781,
-        "trending": 223,
+        "popularity": 1075,
+        "trending": 286,
         "weights": [
           "400"
         ],
         "korean": true,
         "date_added": "2018-02-23"
-      },
-      {
-        "family": "Gasoek One",
-        "category": "Sans Serif",
-        "popularity": 801,
-        "trending": 1510,
-        "weights": [
-          "400"
-        ],
-        "korean": true,
-        "date_added": "2023-05-17"
-      },
-      {
-        "family": "East Sea Dokdo",
-        "category": "Handwriting",
-        "popularity": 873,
-        "trending": 857,
-        "weights": [
-          "400"
-        ],
-        "korean": true,
-        "date_added": "2018-03-12"
-      },
-      {
-        "family": "Cute Font",
-        "category": "Display",
-        "popularity": 942,
-        "trending": 402,
-        "weights": [
-          "400"
-        ],
-        "korean": true,
-        "date_added": "2018-02-23"
-      },
-      {
-        "family": "Poor Story",
-        "category": "Display",
-        "popularity": 982,
-        "trending": 1648,
-        "weights": [
-          "400"
-        ],
-        "korean": true,
-        "date_added": "2018-02-23"
-      },
-      {
-        "family": "Orbit",
-        "category": "Sans Serif",
-        "popularity": 999,
-        "trending": 57,
-        "weights": [
-          "400"
-        ],
-        "korean": true,
-        "date_added": "2023-06-05"
       },
       {
         "family": "Asta Sans",
         "category": "Sans Serif",
-        "popularity": 1103,
-        "trending": 2004,
+        "popularity": 1113,
+        "trending": 2013,
         "weights": [
           "300",
           "400",
@@ -1359,21 +1293,10 @@
         "date_added": "2025-05-28"
       },
       {
-        "family": "Diphylleia",
-        "category": "Serif",
-        "popularity": 1107,
-        "trending": 1613,
-        "weights": [
-          "400"
-        ],
-        "korean": true,
-        "date_added": "2023-06-05"
-      },
-      {
         "family": "Dokdo",
         "category": "Display",
-        "popularity": 1165,
-        "trending": 832,
+        "popularity": 1144,
+        "trending": 859,
         "weights": [
           "400"
         ],
@@ -1381,21 +1304,10 @@
         "date_added": "2018-02-23"
       },
       {
-        "family": "Black And White Picture",
-        "category": "Display",
-        "popularity": 1171,
-        "trending": 629,
-        "weights": [
-          "400"
-        ],
-        "korean": true,
-        "date_added": "2018-02-27"
-      },
-      {
-        "family": "Grandiflora One",
-        "category": "Serif",
-        "popularity": 1238,
-        "trending": 163,
+        "family": "Gasoek One",
+        "category": "Sans Serif",
+        "popularity": 1166,
+        "trending": 2262,
         "weights": [
           "400"
         ],
@@ -1403,21 +1315,21 @@
         "date_added": "2023-05-17"
       },
       {
-        "family": "Moirai One",
-        "category": "Display",
-        "popularity": 1244,
-        "trending": 782,
+        "family": "East Sea Dokdo",
+        "category": "Handwriting",
+        "popularity": 1238,
+        "trending": 1162,
         "weights": [
           "400"
         ],
         "korean": true,
-        "date_added": "2023-06-05"
+        "date_added": "2018-03-12"
       },
       {
         "family": "Stylish",
         "category": "Sans Serif",
-        "popularity": 1334,
-        "trending": 1756,
+        "popularity": 1325,
+        "trending": 1654,
         "weights": [
           "400"
         ],
@@ -1425,10 +1337,21 @@
         "date_added": "2018-02-27"
       },
       {
+        "family": "Cute Font",
+        "category": "Display",
+        "popularity": 1333,
+        "trending": 616,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2018-02-23"
+      },
+      {
         "family": "Yeon Sung",
         "category": "Display",
-        "popularity": 1339,
-        "trending": 1146,
+        "popularity": 1335,
+        "trending": 1107,
         "weights": [
           "400"
         ],
@@ -1438,8 +1361,8 @@
       {
         "family": "Single Day",
         "category": "Display",
-        "popularity": 1354,
-        "trending": 1953,
+        "popularity": 1363,
+        "trending": 1940,
         "weights": [
           "400"
         ],
@@ -1447,15 +1370,81 @@
         "date_added": "2018-02-22"
       },
       {
+        "family": "Poor Story",
+        "category": "Display",
+        "popularity": 1423,
+        "trending": 2398,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2018-02-23"
+      },
+      {
+        "family": "Orbit",
+        "category": "Sans Serif",
+        "popularity": 1481,
+        "trending": 75,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2023-06-05"
+      },
+      {
         "family": "Kirang Haerang",
         "category": "Display",
-        "popularity": 1608,
-        "trending": 2054,
+        "popularity": 1619,
+        "trending": 2044,
         "weights": [
           "400"
         ],
         "korean": true,
         "date_added": "2018-02-24"
+      },
+      {
+        "family": "Diphylleia",
+        "category": "Serif",
+        "popularity": 1646,
+        "trending": 2320,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2023-06-05"
+      },
+      {
+        "family": "Black And White Picture",
+        "category": "Display",
+        "popularity": 1691,
+        "trending": 871,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2018-02-27"
+      },
+      {
+        "family": "Grandiflora One",
+        "category": "Serif",
+        "popularity": 1805,
+        "trending": 221,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2023-05-17"
+      },
+      {
+        "family": "Moirai One",
+        "category": "Display",
+        "popularity": 1823,
+        "trending": 1025,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2023-06-05"
       }
     ]
   },

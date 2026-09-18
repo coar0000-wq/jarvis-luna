@@ -2,7 +2,7 @@
 title: "Record 5516ebc336 · Luxury-brand-secrets-they-dont-want-you-to-know"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T22:47:09.868362+00:00
+updated_at: 2026-09-18T03:04:31.067491+00:00
 tags: [record, real-data]
 ---
 

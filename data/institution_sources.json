@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-17T22:40:05.793059+00:00",
+  "collected_at": "2026-09-18T02:56:22.432922+00:00",
   "total": 1063,
   "organizations": 35,
   "by_org": {
@@ -54,19 +54,19 @@
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-09-17T22:39:04.424909+00:00"
+      "collected_at": "2026-09-18T02:55:29.674338+00:00"
     },
     "sitemap": {
       "status": "ok",
       "count": 140,
       "failures": [],
-      "collected_at": "2026-09-17T22:39:39.018811+00:00"
+      "collected_at": "2026-09-18T02:56:02.269856+00:00"
     },
     "openalex": {
       "status": "ok",
       "count": 713,
       "failures": [],
-      "collected_at": "2026-09-17T22:40:05.792145+00:00"
+      "collected_at": "2026-09-18T02:56:22.431889+00:00"
     }
   },
   "not_collected": {
@@ -84,6 +84,19 @@
     "SEC EDGAR 공시": "샌드박스에서 검증 불가하여 미등록"
   },
   "items": [
+    {
+      "title": "How Cooley is accelerating IPO work with ChatGPT",
+      "url": "https://openai.com/index/cooley-gopublic",
+      "date": "2026-09-17",
+      "date_raw": "Thu, 17 Sep 2026 12:00:00 GMT",
+      "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
+      "org": "OpenAI",
+      "category": "AI연구소",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://openai.com/news/rss.xml",
+      "title_source": "feed"
+    },
     {
       "title": "Introducing Astra for Law",
       "url": "https://openai.com/index/astra-for-law",
@@ -389,19 +402,6 @@
       "date": "2026-09-08",
       "date_raw": "Tue, 08 Sep 2026 09:00:00 GMT",
       "summary": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
-      "org": "OpenAI",
-      "category": "AI연구소",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://openai.com/news/rss.xml",
-      "title_source": "feed"
-    },
-    {
-      "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
-      "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
-      "date": "2026-09-08",
-      "date_raw": "Tue, 08 Sep 2026 00:00:00 GMT",
-      "summary": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -2295,6 +2295,19 @@
       "title_source": "feed"
     },
     {
+      "title": "Database for AI Agents: 5 Evaluation Criteria",
+      "url": "https://www.databricks.com/blog/database-for-ai-agents",
+      "date": "2026-09-17",
+      "date_raw": "Thu, 17 Sep 2026 17:27:40 GMT",
+      "summary": "The five criteria for evaluating a database for AI agents are branch isolation, serverless...",
+      "org": "Databricks",
+      "category": "데이터분석",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://www.databricks.com/feed",
+      "title_source": "feed"
+    },
+    {
       "title": "The Web Search Your Agent Inherited Isn't Good Enough",
       "url": "https://www.databricks.com/blog/web-search-your-agent-inherited-isnt-good-enough",
       "date": "2026-09-17",
@@ -2313,6 +2326,19 @@
       "date": "2026-09-17",
       "date_raw": "Thu, 17 Sep 2026 16:49:43 GMT",
       "summary": "Artificial Intelligence for IT Operations (AIOps) applies AI and machine learning to IT operations to detect anomalies...",
+      "org": "Databricks",
+      "category": "데이터분석",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://www.databricks.com/feed",
+      "title_source": "feed"
+    },
+    {
+      "title": "Modernizing the Trade Lifecycle With Governed Data and AI",
+      "url": "https://www.databricks.com/blog/modernizing-trade-lifecycle-governed-data-and-ai",
+      "date": "2026-09-17",
+      "date_raw": "Thu, 17 Sep 2026 14:00:00 GMT",
+      "summary": "Capital-markets firms are modernizing the trade lifecycle under pressure from every direction: growing data volumes...",
       "org": "Databricks",
       "category": "데이터분석",
       "kind": "발표물",
@@ -2391,32 +2417,6 @@
       "date": "2026-09-11",
       "date_raw": "Fri, 11 Sep 2026 18:26:59 GMT",
       "summary": "A health plan CFO closes the month after the usual round of extracts, spreadsheets,...",
-      "org": "Databricks",
-      "category": "데이터분석",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://www.databricks.com/feed",
-      "title_source": "feed"
-    },
-    {
-      "title": "Unify your marketing data with Lakeflow Connect",
-      "url": "https://www.databricks.com/blog/unify-your-marketing-data-lakeflow-connect",
-      "date": "2026-09-11",
-      "date_raw": "Fri, 11 Sep 2026 18:00:00 GMT",
-      "summary": "This is the first post in a new series exploring how Lakeflow Connect brings fully...",
-      "org": "Databricks",
-      "category": "데이터분석",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://www.databricks.com/feed",
-      "title_source": "feed"
-    },
-    {
-      "title": "Unifying governance across engines and catalogs in the Open Lakehouse",
-      "url": "https://www.databricks.com/blog/unifying-governance-across-engines-and-catalogs-open-lakehouse",
-      "date": "2026-09-10",
-      "date_raw": "Thu, 10 Sep 2026 15:05:10 GMT",
-      "summary": "In our previous posts, we showed how open table formats, open APIs and unified governance...",
       "org": "Databricks",
       "category": "데이터분석",
       "kind": "발표물",
@@ -2828,9 +2828,22 @@
       "feed": "https://www.anthropic.com/sitemap.xml"
     },
     {
+      "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+      "date": "2026-09-17",
+      "date_raw": "2026-09-17T23:46:13.000Z",
+      "title_source": "page",
+      "title": "An alignment assessment of recent cybersecurity incidents",
+      "summary": "We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems.",
+      "org": "Anthropic",
+      "category": "AI연구소",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.anthropic.com/sitemap.xml"
+    },
+    {
       "url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling",
       "date": "2026-09-17",
-      "date_raw": "2026-09-17T22:26:51.000Z",
+      "date_raw": "2026-09-17T23:55:18.000Z",
       "title_source": "page",
       "title": "How Claude is uplifting biomolecular modeling",
       "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
@@ -2935,9 +2948,9 @@
       "url": "https://www.anthropic.com/research/economic-index-primitives",
       "date": "2026-09-11",
       "date_raw": "2026-09-11T11:56:05.000Z",
-      "title_source": "page",
-      "title": "Economic Index: New building blocks for AI use",
-      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "title_source": "url-slug",
+      "title": "Economic Index Primitives",
+      "summary": "",
       "org": "Anthropic",
       "category": "AI연구소",
       "kind": "발표물",
@@ -3054,19 +3067,6 @@
       "date_raw": "2026-09-10T18:14:06.000Z",
       "title_source": "url-slug",
       "title": "Anthropic Accenture Partnership",
-      "summary": "",
-      "org": "Anthropic",
-      "category": "AI연구소",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.anthropic.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone",
-      "date": "2026-09-10",
-      "date_raw": "2026-09-10T18:15:49.000Z",
-      "title_source": "url-slug",
-      "title": "Anthropic Acquires Bun As Claude Code Reaches Usd1B Milestone",
       "summary": "",
       "org": "Anthropic",
       "category": "AI연구소",
@@ -4128,6 +4128,45 @@
       "feed": "https://www.jpmorgan.com/sitemap.xml"
     },
     {
+      "url": "https://www.jpmorgan.com/insights/treasury/treasury-management/adgm-multicurrency-treasury-operations",
+      "date": "2026-09-17",
+      "date_raw": "2026-09-17",
+      "title_source": "url-slug",
+      "title": "Adgm Multicurrency Treasury Operations",
+      "summary": "",
+      "org": "JPMorgan Chase",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.jpmorgan.com/sitemap.xml"
+    },
+    {
+      "url": "https://www.jpmorgan.com/insights/global-research/markets/india-stock-market-outlook",
+      "date": "2026-09-17",
+      "date_raw": "2026-09-17",
+      "title_source": "url-slug",
+      "title": "India Stock Market Outlook",
+      "summary": "",
+      "org": "JPMorgan Chase",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.jpmorgan.com/sitemap.xml"
+    },
+    {
+      "url": "https://www.jpmorgan.com/insights/podcast-hub/making-sense/the-fed-hikes-rates-what-happens-now",
+      "date": "2026-09-17",
+      "date_raw": "2026-09-17",
+      "title_source": "url-slug",
+      "title": "The Fed Hikes Rates What Happens Now",
+      "summary": "",
+      "org": "JPMorgan Chase",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.jpmorgan.com/sitemap.xml"
+    },
+    {
       "url": "https://www.jpmorgan.com/insights/banking/asia-pacific-market-outlook",
       "date": "2026-09-16",
       "date_raw": "2026-09-16",
@@ -4328,45 +4367,6 @@
       "date_raw": "2026-09-15",
       "title_source": "url-slug",
       "title": "Financing Resilience Energy Supply Disruption",
-      "summary": "",
-      "org": "JPMorgan Chase",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.jpmorgan.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.jpmorgan.com/insights/payments/fx-cross-border/global-wires-payments-formatting-requirements-guide",
-      "date": "2026-09-15",
-      "date_raw": "2026-09-15",
-      "title_source": "url-slug",
-      "title": "Global Wires Payments Formatting Requirements Guide",
-      "summary": "",
-      "org": "JPMorgan Chase",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.jpmorgan.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.jpmorgan.com/insights/securities-services/future-of-superannuation-report",
-      "date": "2026-09-14",
-      "date_raw": "2026-09-14",
-      "title_source": "url-slug",
-      "title": "Future Of Superannuation Report",
-      "summary": "",
-      "org": "JPMorgan Chase",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.jpmorgan.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.jpmorgan.com/insights/fraud/fraud-prevention/ai-powered-b2b-fraud-is-forcing-companies-to-rethink-trust",
-      "date": "2026-09-14",
-      "date_raw": "2026-09-14",
-      "title_source": "url-slug",
-      "title": "Ai Powered B2B Fraud Is Forcing Companies To Rethink Trust",
       "summary": "",
       "org": "JPMorgan Chase",
       "category": "투자은행",
@@ -8247,6 +8247,20 @@
       "cited_by": 0
     },
     {
+      "title": "Unmanned Aerial Vehicle (UAV) Flight Strategies for Post-Earthquake Inspections",
+      "url": "https://openalex.org/W7213491360",
+      "date": "2026-07-13",
+      "summary": "",
+      "org": "Qualcomm",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "eScholarship (California Digital Library)",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "A Multi-Sensor, Multi-Movement Exploratory Study of Motion Tape Strain Data for Low Back Pain Classification",
       "url": "https://doi.org/10.3390/s26134187",
       "date": "2026-07-02",
@@ -8468,20 +8482,6 @@
       "title_source": "openalex",
       "venue": "IEEE Journal of Microwaves",
       "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "ForeSea: AI Forensic Search with Multi-modal Queries for Video Surveillance",
-      "url": "https://openalex.org/W7140954095",
-      "date": "2026-03-24",
-      "summary": "",
-      "org": "Qualcomm",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "arXiv (Cornell University)",
-      "work_type": "preprint",
       "cited_by": 0
     },
     {
@@ -9154,7 +9154,7 @@
       "title_source": "openalex",
       "venue": "European Modern Studies Journal",
       "work_type": "article",
-      "cited_by": 2
+      "cited_by": 3
     },
     {
       "title": "Reimagining RDMA Through the Lens of ML",
@@ -9406,7 +9406,7 @@
       "title_source": "openalex",
       "venue": "IEEE Journal of Selected Topics in Signal Processing",
       "work_type": "article",
-      "cited_by": 4
+      "cited_by": 5
     },
     {
       "title": "New Computational Methods for Enhancing Reliability Testing of Interconnects in 3D ICs: Advanced Algorithms, Optimization Techniques, and Real-World Applications",
@@ -9885,6 +9885,34 @@
       "cited_by": 0
     },
     {
+      "title": "Beyond procedure counts: reconsidering physician involvement in maintenance hemodialysis",
+      "url": "https://doi.org/10.23876/j.krcp.26.416",
+      "date": "2026-09-17",
+      "summary": "",
+      "org": "Samsung Electronics",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Kidney Research and Clinical Practice",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "An activation-biased 2B4 costimulatory domain enhances IFN-γ production and supports sustained cytotoxic activity in CD5-targeting CAR-NK92 cells",
+      "url": "https://doi.org/10.1007/s00262-026-04562-1",
+      "date": "2026-09-16",
+      "summary": "",
+      "org": "Samsung Electronics",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Cancer Immunology Immunotherapy",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "Advanced Ionovoltaic Energy Generation via Interlayer-Enabled Hydrodynamic Regulation",
       "url": "https://doi.org/10.1021/acsnano.6c11164",
       "date": "2026-09-15",
@@ -10203,34 +10231,6 @@
       "source": "openalex",
       "title_source": "openalex",
       "venue": "Small Methods",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Leveraging gated architectures for enhanced long-range dependency learning in non-attributed graphs",
-      "url": "https://doi.org/10.1016/j.knosys.2026.116985",
-      "date": "2026-09-06",
-      "summary": "",
-      "org": "Samsung Electronics",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Knowledge-Based Systems",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Nanostructured ZnMgO Charge Generation Layers for Enhanced Tandem Quantum-Dot Light-Emitting Diodes",
-      "url": "https://doi.org/10.1007/s13391-026-00667-y",
-      "date": "2026-09-05",
-      "summary": "",
-      "org": "Samsung Electronics",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Electronic Materials Letters",
       "work_type": "article",
       "cited_by": 0
     },
@@ -10585,6 +10585,34 @@
       "cited_by": 0
     },
     {
+      "title": "The future of large-scale experiments and their challenges in the digital era",
+      "url": "https://doi.org/10.1038/s41562-026-02582-6",
+      "date": "2026-09-17",
+      "summary": "",
+      "org": "OpenAI",
+      "category": "AI연구소",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Nature Human Behaviour",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "Inoculation Midtraining with Learned Neologisms",
+      "url": "https://openalex.org/W7213373135",
+      "date": "2026-09-14",
+      "summary": "",
+      "org": "OpenAI",
+      "category": "AI연구소",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "arXiv (Cornell University)",
+      "work_type": "preprint",
+      "cited_by": 0
+    },
+    {
       "title": "Closure Theory: From Intrinsic Geometric Closure to Relational Mass, Charge and Coupling",
       "url": "https://doi.org/10.5281/zenodo.22726548",
       "date": "2026-09-12",
@@ -10895,34 +10923,6 @@
     {
       "title": "The Dynamical Domain of Closure Theory Information-Preserving Transformation of Completed Intrinsic Closures",
       "url": "https://doi.org/10.5281/zenodo.21478025",
-      "date": "2026-07-21",
-      "summary": "",
-      "org": "OpenAI",
-      "category": "AI연구소",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Towards the Geometric Origins of Mass and Charge: Projection, Geodesics and Relational Sign in Closure Theory",
-      "url": "https://doi.org/10.5281/zenodo.21478990",
-      "date": "2026-07-21",
-      "summary": "",
-      "org": "OpenAI",
-      "category": "AI연구소",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "The Dynamical Domain of Closure Theory Information-Preserving Transformation of Completed Intrinsic Closures",
-      "url": "https://doi.org/10.5281/zenodo.21478024",
       "date": "2026-07-21",
       "summary": "",
       "org": "OpenAI",
@@ -11397,6 +11397,20 @@
       "cited_by": 5
     },
     {
+      "title": "The future of large-scale experiments and their challenges in the digital era",
+      "url": "https://doi.org/10.1038/s41562-026-02582-6",
+      "date": "2026-09-17",
+      "summary": "",
+      "org": "Microsoft",
+      "category": "데이터분석",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Nature Human Behaviour",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "An Iterative, Pathologist-in-the-Loop Workflow for Generation of Clinical-Grade Synthetic Pathology Images in a Diverse Cohort of Pancreatic Tumors",
       "url": "https://doi.org/10.3390/cancers18183004",
       "date": "2026-09-16",
@@ -11721,20 +11735,6 @@
     {
       "title": "The AI Zero-Day Prioritization Problem",
       "url": "https://doi.org/10.5281/zenodo.22730895",
-      "date": "2026-09-01",
-      "summary": "",
-      "org": "Microsoft",
-      "category": "데이터분석",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Is Language Doing More of the Reasoning Than We Think",
-      "url": "https://doi.org/10.5281/zenodo.22730891",
       "date": "2026-09-01",
       "summary": "",
       "org": "Microsoft",

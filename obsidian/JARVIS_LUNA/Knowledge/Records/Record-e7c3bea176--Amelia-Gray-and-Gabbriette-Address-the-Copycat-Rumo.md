@@ -2,7 +2,7 @@
 title: "Record e7c3bea176 · Amelia-Gray-and-Gabbriette-Address-the-Copycat-RumorsInterview"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T22:47:09.720733+00:00
+updated_at: 2026-09-18T03:04:30.876995+00:00
 tags: [record, real-data]
 ---
 

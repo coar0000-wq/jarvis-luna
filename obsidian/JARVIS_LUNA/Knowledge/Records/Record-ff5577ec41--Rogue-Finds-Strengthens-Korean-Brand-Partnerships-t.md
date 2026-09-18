@@ -2,7 +2,7 @@
 title: "Record ff5577ec41 · Rogue-Finds-Strengthens-Korean-Brand-Partnerships-t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T22:47:09.637173+00:00
+updated_at: 2026-09-18T03:04:30.768613+00:00
 tags: [record, real-data]
 ---
 

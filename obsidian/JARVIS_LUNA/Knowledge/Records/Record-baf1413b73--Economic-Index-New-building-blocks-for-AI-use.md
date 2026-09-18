@@ -2,7 +2,7 @@
 title: "Record baf1413b73 · Economic-Index-New-building-blocks-for-AI-use"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T22:47:09.752708+00:00
+updated_at: 2026-09-18T03:04:30.918740+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [www.anthropic.com](https://www.anthropic.com/research/economic-index-primitives)
 
-**제목:** Economic Index: New building blocks for AI use
+**제목:** Economic Index Primitives
 
-Economic Index: New building blocks for AI use
-Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
+Economic Index Primitives
 
 **출처:** Source · institutions
 

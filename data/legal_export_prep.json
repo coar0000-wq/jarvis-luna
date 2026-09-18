@@ -1,14 +1,16 @@
 {
-  "generated_at": "2026-09-17T22:45:37.900090+00:00",
+  "generated_at": "2026-09-18T03:02:48.626547+00:00",
   "generator": "scripts/prepare_legal_export.py",
   "왜": "법률팀이 '검토 0건, 5항목 대기' 였는데 그 다섯 중 넷은 이미 저장소에 있는 값으로 채울 수 있었다. 먼저 채우고 사람은 확인만 한다.",
   "hs_출처": "hts.usitc.gov/reststop/search (미국 국제무역위원회 공식)",
   "hs_주의": "여기서 정하는 건 후보다. 세부 통계부호는 통관사가 확정해야 한다.",
   "label_기준": "FDA 21 CFR 701 Subpart A / FPLA",
   "total": 10,
-  "hs_filled_this_run": 0,
+  "hs_filled_this_run": 1,
   "label_complete": 0,
   "사람이_채워야_하는_칸": [
+    "전성분",
+    "제품 정체 표시",
     "책임자 이름·주소"
   ],
   "items": [
@@ -70,91 +72,6 @@
           "ingredients": {
             "label": "전성분",
             "value": "정제수, 글리세린, 세틸에틸헥사노에이트, 시어버터, 아크릴레이트코폴리머, 아이리쉬모스추출물, 캐롭검, 다이프로필렌글라이콜, 베타인, 포타슘클로라이드, 하이드록시아세토페논, 수크로오스, 세틸하이드록시에틸셀룰로오스, 카프릴릴글라이콜, 알란토인, 에틸헥실글리세린, 폴리글리세릴-6카프릴레이트, 폴리글리세릴-4카프레이트, 아데노신, 하이드롤라이즈드식물성단백질(100ppb), 1,2-헥산다이올, 다이소듐이디티에이, 향료, 울트라마린 (CI 77007), 하이드레이티드실리카, 다이소듐포스페이트, 실리카다이메틸실릴레이트, 다이포타슘글리시리제이트, 부틸렌글라이콜, 소듐포스페이트, 녹두싹추출물, 브로콜리싹추출물, 유채싹추출물, 적색227호 (CI 17200), 토코페롤",
-            "rule": "정보표시면. INCI 명칭, 함량 내림차순, 1% 미만은 순서 무관"
-          },
-          "responsible_party": {
-            "label": "책임자 이름·주소",
-            "value": "",
-            "rule": "제조자·포장자·유통자 중 하나. 도시·주·우편번호 포함"
-          },
-          "country_of_origin": {
-            "label": "원산지",
-            "value": "한국",
-            "rule": "수입품은 Made in Korea 등 표기"
-          },
-          "warnings": {
-            "label": "경고 문구",
-            "value": "If irritation occurs, discontinue use. Keep out of reach of children. For external use only.",
-            "rule": "해당 시. 사용 중 이상 발생 시 사용 중단 등"
-          }
-        },
-        "missing": [
-          "책임자 이름·주소"
-        ],
-        "note": "전성분은 한글이다. 미국 라벨에는 INCI 영문명이 필요하다. 번역이 아니라 표준 명칭 대조라서 사람이 확인해야 한다.",
-        "inci_status": "korean_only"
-      },
-      "hard_block": false,
-      "hard_block_reason": ""
-    },
-    {
-      "pd_no": "1041403",
-      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-      "bucket": "스킨케어",
-      "grade": "S",
-      "용도": "스킨케어",
-      "성분": "약모밀꽃/잎/줄기추출물(95%), 1,2-헥산다이올, 정제수, 약모밀추출물(1%)",
-      "제조국": "한국",
-      "내용량": "150ml",
-      "제조업자": "(주)뉴앤뉴 / (주)브랜뉴이",
-      "name_en": "Chaebi Gongan Heartleaf Extract Vegan Toner 150ml",
-      "product_type_en": "Toner",
-      "hs": {
-        "code": "3304.99",
-        "basis": "버킷 '스킨케어'",
-        "label": "",
-        "official": [
-          {
-            "htsno": "3304",
-            "description": "Beauty or make-up preparations and preparations for the care of the skin (other than medicaments), including sunscreen o"
-          },
-          {
-            "htsno": "3304.10.00.00",
-            "description": "Lip make-up preparations"
-          },
-          {
-            "htsno": "3304.20.00.00",
-            "description": "Eye make-up preparations"
-          },
-          {
-            "htsno": "3304.30.00.00",
-            "description": "Manicure or pedicure preparations"
-          },
-          {
-            "htsno": "3305",
-            "description": "Preparations for use on the hair:"
-          },
-          {
-            "htsno": "3305.20.00.00",
-            "description": "Preparations for permanent waving or straightening"
-          }
-        ]
-      },
-      "label": {
-        "draft": {
-          "product_identity": {
-            "label": "제품 정체 표시",
-            "value": "Chaebi Gongan Heartleaf Extract Vegan Toner 150ml",
-            "rule": "주표시면. 무엇인지 알 수 있는 이름이나 설명"
-          },
-          "net_quantity": {
-            "label": "내용량",
-            "value": "150ml",
-            "rule": "주표시면 하단 30% 안. 미터법과 야드파운드법 병기"
-          },
-          "ingredients": {
-            "label": "전성분",
-            "value": "약모밀꽃/잎/줄기추출물(95%), 1,2-헥산다이올, 정제수, 약모밀추출물(1%)",
             "rule": "정보표시면. INCI 명칭, 함량 내림차순, 1% 미만은 순서 무관"
           },
           "responsible_party": {
@@ -277,7 +194,7 @@
       "제조국": "한국",
       "내용량": "2ml",
       "제조업자": "화장품제조업자: ㈜이앤씨 / 화장품책임판매업자: ㈜브이티코스메틱",
-      "name_en": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6ea",
+      "name_en": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6pcs",
       "product_type_en": "Face Serum",
       "hs": {
         "code": "3304.99",
@@ -314,7 +231,7 @@
         "draft": {
           "product_identity": {
             "label": "제품 정체 표시",
-            "value": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6ea",
+            "value": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6pcs",
             "rule": "주표시면. 무엇인지 알 수 있는 이름이나 설명"
           },
           "net_quantity": {
@@ -532,8 +449,8 @@
       "제조국": "한국",
       "내용량": "50ml",
       "제조업자": "화장품제조업자: (주)예그리나 / 화장품책임판매업자: (주)브이티코스메틱",
-      "name_en": "VT PDRN Glow Cream 50 ml",
-      "product_type_en": "Face Cream",
+      "name_en": "",
+      "product_type_en": "",
       "hs": {
         "code": "3304.99",
         "basis": "버킷 '스킨케어'",
@@ -569,7 +486,7 @@
         "draft": {
           "product_identity": {
             "label": "제품 정체 표시",
-            "value": "VT PDRN Glow Cream 50 ml",
+            "value": "",
             "rule": "주표시면. 무엇인지 알 수 있는 이름이나 설명"
           },
           "net_quantity": {
@@ -599,6 +516,7 @@
           }
         },
         "missing": [
+          "제품 정체 표시",
           "책임자 이름·주소"
         ],
         "note": "전성분은 한글이다. 미국 라벨에는 INCI 영문명이 필요하다. 번역이 아니라 표준 명칭 대조라서 사람이 확인해야 한다.",
@@ -778,6 +696,92 @@
       "hard_block_reason": ""
     },
     {
+      "pd_no": "1072554",
+      "name": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
+      "bucket": "스킨케어",
+      "grade": "S",
+      "용도": "스킨케어",
+      "성분": "",
+      "제조국": "한국",
+      "내용량": "100ml",
+      "제조업자": "",
+      "name_en": "Bongseop Retinol Firming Shot Body Guasha Serum 100ml",
+      "product_type_en": "Body Serum",
+      "hs": {
+        "code": "3304.99",
+        "basis": "버킷 '스킨케어'",
+        "label": "",
+        "official": [
+          {
+            "htsno": "3304",
+            "description": "Beauty or make-up preparations and preparations for the care of the skin (other than medicaments), including sunscreen o"
+          },
+          {
+            "htsno": "3304.10.00.00",
+            "description": "Lip make-up preparations"
+          },
+          {
+            "htsno": "3304.20.00.00",
+            "description": "Eye make-up preparations"
+          },
+          {
+            "htsno": "3304.30.00.00",
+            "description": "Manicure or pedicure preparations"
+          },
+          {
+            "htsno": "3305",
+            "description": "Preparations for use on the hair:"
+          },
+          {
+            "htsno": "3305.20.00.00",
+            "description": "Preparations for permanent waving or straightening"
+          }
+        ]
+      },
+      "label": {
+        "draft": {
+          "product_identity": {
+            "label": "제품 정체 표시",
+            "value": "Bongseop Retinol Firming Shot Body Guasha Serum 100ml",
+            "rule": "주표시면. 무엇인지 알 수 있는 이름이나 설명"
+          },
+          "net_quantity": {
+            "label": "내용량",
+            "value": "100ml",
+            "rule": "주표시면 하단 30% 안. 미터법과 야드파운드법 병기"
+          },
+          "ingredients": {
+            "label": "전성분",
+            "value": "",
+            "rule": "정보표시면. INCI 명칭, 함량 내림차순, 1% 미만은 순서 무관"
+          },
+          "responsible_party": {
+            "label": "책임자 이름·주소",
+            "value": "",
+            "rule": "제조자·포장자·유통자 중 하나. 도시·주·우편번호 포함"
+          },
+          "country_of_origin": {
+            "label": "원산지",
+            "value": "한국",
+            "rule": "수입품은 Made in Korea 등 표기"
+          },
+          "warnings": {
+            "label": "경고 문구",
+            "value": "If irritation occurs, discontinue use. Keep out of reach of children. For external use only.",
+            "rule": "해당 시. 사용 중 이상 발생 시 사용 중단 등"
+          }
+        },
+        "missing": [
+          "전성분",
+          "책임자 이름·주소"
+        ],
+        "note": "전성분은 한글이다. 미국 라벨에는 INCI 영문명이 필요하다. 번역이 아니라 표준 명칭 대조라서 사람이 확인해야 한다.",
+        "inci_status": "no_ingredients"
+      },
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields"
+    },
+    {
       "pd_no": "1060211",
       "name": "바세린 모이스처라이징 클렌징 밀크 140 ml",
       "bucket": "클렌징",
@@ -787,8 +791,8 @@
       "제조국": "한국",
       "내용량": "140ml",
       "제조업자": "화장품제조업자: ㈜우신화장품 (경기도 부천시 오정구 수도로 125번길 33) / 화장품책임판매업자: 애경산업㈜ (충남 청양군 정산면 충의로 1547-9)",
-      "name_en": "Vaseline Moisturizing Cleansing Milk 140 ml",
-      "product_type_en": "Facial Cleanser",
+      "name_en": "",
+      "product_type_en": "",
       "hs": {
         "code": "3304.99",
         "basis": "버킷 '클렌징'",
@@ -824,7 +828,7 @@
         "draft": {
           "product_identity": {
             "label": "제품 정체 표시",
-            "value": "Vaseline Moisturizing Cleansing Milk 140 ml",
+            "value": "",
             "rule": "주표시면. 무엇인지 알 수 있는 이름이나 설명"
           },
           "net_quantity": {
@@ -854,6 +858,7 @@
           }
         },
         "missing": [
+          "제품 정체 표시",
           "책임자 이름·주소"
         ],
         "note": "전성분은 한글이다. 미국 라벨에는 INCI 영문명이 필요하다. 번역이 아니라 표준 명칭 대조라서 사람이 확인해야 한다.",

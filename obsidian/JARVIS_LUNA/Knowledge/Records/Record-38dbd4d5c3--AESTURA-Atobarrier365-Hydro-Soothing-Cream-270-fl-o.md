@@ -2,7 +2,7 @@
 title: "Record 38dbd4d5c3 · AESTURA-Atobarrier365-Hydro-Soothing-Cream-270-fl-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T22:47:09.711496+00:00
+updated_at: 2026-09-18T03:04:30.863924+00:00
 tags: [record, real-data]
 ---
 

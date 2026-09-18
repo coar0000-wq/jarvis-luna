@@ -2,7 +2,7 @@
 title: "Record 82ea85c356 · Broadcom-Strengthens-Spring-Security-and-Adds-Cover"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T22:47:09.442103+00:00
+updated_at: 2026-09-18T03:04:30.538491+00:00
 tags: [record, real-data]
 ---
 

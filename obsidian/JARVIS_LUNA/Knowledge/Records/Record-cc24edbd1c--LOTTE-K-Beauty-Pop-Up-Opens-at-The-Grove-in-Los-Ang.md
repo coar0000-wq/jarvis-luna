@@ -2,7 +2,7 @@
 title: "Record cc24edbd1c · LOTTE-K-Beauty-Pop-Up-Opens-at-The-Grove-in-Los-Ang"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T22:47:09.585909+00:00
+updated_at: 2026-09-18T03:04:30.703682+00:00
 tags: [record, real-data]
 ---
 

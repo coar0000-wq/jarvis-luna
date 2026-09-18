@@ -1,7 +1,7 @@
 {
   "updated_at": "2026-09-17T23:11:25.393143+00:00",
   "source": "Daiso Korea",
-  "count": 339,
+  "count": 338,
   "products": [
     {
       "pd_no": "1030674",
@@ -4482,20 +4482,6 @@
       "source": "daisomall.co.kr 상품 상세 페이지",
       "bucket": "스킨케어",
       "detailed_http_status": 200
-    },
-    {
-      "pd_no": "1041403",
-      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-      "brand": "채비공간",
-      "site_category": "스킨/토너",
-      "price_krw": 5000,
-      "rating": 4.8,
-      "review_count": 938,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260122/Z6JojzxiZ6XYe11NJuOd1041403_00_00Z6JojzxiZ6XYe11NJuOd.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
-      "collected_at": "2026-08-24T20:41:25.414695+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "스킨케어"
     },
     {
       "pd_no": "1072803",

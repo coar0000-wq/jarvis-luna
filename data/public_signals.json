@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T22:45:35.213014+00:00",
+  "generated_at": "2026-09-18T03:02:45.361095+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "phillies vs mets",
+          "keyword": "trump news",
+          "approx_traffic": "10000+",
+          "traffic_num": 10000,
+          "published": "Thu, 17 Sep 2026 19:20:00 -0700",
+          "source_name": "Fox News",
+          "url": "https://trends.google.com/trending?geo=US&q=trump%20news"
+        },
+        {
+          "keyword": "digger",
           "approx_traffic": "5000+",
           "traffic_num": 5000,
-          "published": "Thu, 17 Sep 2026 15:20:00 -0700",
-          "source_name": "FOX Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=phillies%20vs%20mets"
+          "published": "Thu, 17 Sep 2026 19:20:00 -0700",
+          "source_name": "The Washington Post",
+          "url": "https://trends.google.com/trending?geo=US&q=digger"
         },
         {
-          "keyword": "wnba",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Thu, 17 Sep 2026 15:30:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=wnba"
-        },
-        {
-          "keyword": "catherine, princess of wales",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Thu, 17 Sep 2026 15:00:00 -0700",
-          "source_name": "BBC",
-          "url": "https://trends.google.com/trending?geo=US&q=catherine%2C%20princess%20of%20wales"
-        },
-        {
-          "keyword": "trump administration public benefits immigration rule",
+          "keyword": "kristen bell",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Thu, 17 Sep 2026 15:20:00 -0700",
-          "source_name": "The New York Times",
-          "url": "https://trends.google.com/trending?geo=US&q=trump%20administration%20public%20benefits%20immigration%20rule"
+          "published": "Thu, 17 Sep 2026 19:30:00 -0700",
+          "source_name": "Yahoo",
+          "url": "https://trends.google.com/trending?geo=US&q=kristen%20bell"
         },
         {
-          "keyword": "senate blocks data center bill",
+          "keyword": "copa libertadores",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Thu, 17 Sep 2026 15:00:00 -0700",
-          "source_name": "CBS News",
-          "url": "https://trends.google.com/trending?geo=US&q=senate%20blocks%20data%20center%20bill"
+          "published": "Thu, 17 Sep 2026 19:30:00 -0700",
+          "source_name": "Olé",
+          "url": "https://trends.google.com/trending?geo=US&q=copa%20libertadores"
         },
         {
-          "keyword": "trump kennedy center demolition",
+          "keyword": "accidente",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Thu, 17 Sep 2026 14:50:00 -0700",
-          "source_name": "The New York Times",
-          "url": "https://trends.google.com/trending?geo=US&q=trump%20kennedy%20center%20demolition"
+          "published": "Thu, 17 Sep 2026 19:10:00 -0700",
+          "source_name": "San Antonio Express-News",
+          "url": "https://trends.google.com/trending?geo=US&q=accidente"
         },
         {
-          "keyword": "málaga cf vs villarreal cf standings",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Thu, 17 Sep 2026 14:50:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=m%C3%A1laga%20cf%20vs%20villarreal%20cf%20standings"
-        },
-        {
-          "keyword": "atlanta dream",
+          "keyword": "jeff bezos",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Thu, 17 Sep 2026 15:20:00 -0700",
-          "source_name": "Covers.com",
-          "url": "https://trends.google.com/trending?geo=US&q=atlanta%20dream"
+          "published": "Thu, 17 Sep 2026 19:40:00 -0700",
+          "source_name": "NBC 6 South Florida",
+          "url": "https://trends.google.com/trending?geo=US&q=jeff%20bezos"
         },
         {
-          "keyword": "who plays nfl tonight",
+          "keyword": "white sox standings",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Thu, 17 Sep 2026 15:10:00 -0700",
+          "published": "Thu, 17 Sep 2026 19:30:00 -0700",
           "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=who%20plays%20nfl%20tonight"
+          "url": "https://trends.google.com/trending?geo=US&q=white%20sox%20standings"
         },
         {
-          "keyword": "north korea",
+          "keyword": "jake garcia nascar",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Thu, 17 Sep 2026 15:10:00 -0700",
-          "source_name": "CNN",
-          "url": "https://trends.google.com/trending?geo=US&q=north%20korea"
+          "published": "Thu, 17 Sep 2026 19:30:00 -0700",
+          "source_name": "NASCAR.com",
+          "url": "https://trends.google.com/trending?geo=US&q=jake%20garcia%20nascar"
+        },
+        {
+          "keyword": "phillies magic number",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Thu, 17 Sep 2026 19:30:00 -0700",
+          "source_name": "MLB.com",
+          "url": "https://trends.google.com/trending?geo=US&q=phillies%20magic%20number"
+        },
+        {
+          "keyword": "conmebol libertadores",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Thu, 17 Sep 2026 19:20:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=conmebol%20libertadores"
         }
       ]
     },
@@ -96,87 +96,87 @@
       "status": "ok",
       "reason": "",
       "source": "wikimedia.org REST pageviews API (공식)",
-      "note": "2026-08-17 ~ 2026-09-15 일별 조회수. 후반 15일 대비 전반 15일 증감률",
+      "note": "2026-08-18 ~ 2026-09-16 일별 조회수. 후반 15일 대비 전반 15일 증감률",
       "errors": [],
       "items": [
         {
           "topic": "Hyaluronic acid",
           "days": 30,
-          "total_views": 17646,
-          "avg_daily": 588,
-          "recent_avg": 620,
-          "prev_avg": 557,
-          "change_pct": 11.3,
+          "total_views": 17714,
+          "avg_daily": 590,
+          "recent_avg": 623,
+          "prev_avg": 558,
+          "change_pct": 11.6,
           "url": "https://en.wikipedia.org/wiki/Hyaluronic_acid"
+        },
+        {
+          "topic": "Niacinamide",
+          "days": 30,
+          "total_views": 1331,
+          "avg_daily": 44,
+          "recent_avg": 45,
+          "prev_avg": 44,
+          "change_pct": 1.7,
+          "url": "https://en.wikipedia.org/wiki/Niacinamide"
         },
         {
           "topic": "Retinol",
           "days": 30,
-          "total_views": 11548,
-          "avg_daily": 385,
-          "recent_avg": 389,
-          "prev_avg": 381,
-          "change_pct": 2.3,
+          "total_views": 11489,
+          "avg_daily": 383,
+          "recent_avg": 384,
+          "prev_avg": 382,
+          "change_pct": 0.5,
           "url": "https://en.wikipedia.org/wiki/Retinol"
-        },
-        {
-          "topic": "Snail slime",
-          "days": 30,
-          "total_views": 2152,
-          "avg_daily": 72,
-          "recent_avg": 72,
-          "prev_avg": 72,
-          "change_pct": -0.6,
-          "url": "https://en.wikipedia.org/wiki/Snail_slime"
         },
         {
           "topic": "Cosmetics",
           "days": 30,
-          "total_views": 20652,
+          "total_views": 20647,
           "avg_daily": 688,
-          "recent_avg": 684,
-          "prev_avg": 693,
-          "change_pct": -1.4,
+          "recent_avg": 678,
+          "prev_avg": 698,
+          "change_pct": -2.8,
           "url": "https://en.wikipedia.org/wiki/Cosmetics"
         },
         {
           "topic": "Centella asiatica",
           "days": 30,
-          "total_views": 14879,
-          "avg_daily": 496,
-          "recent_avg": 484,
-          "prev_avg": 508,
-          "change_pct": -4.6,
+          "total_views": 14961,
+          "avg_daily": 499,
+          "recent_avg": 487,
+          "prev_avg": 511,
+          "change_pct": -4.7,
           "url": "https://en.wikipedia.org/wiki/Centella_asiatica"
         },
         {
           "topic": "Sunscreen",
           "days": 30,
-          "total_views": 15622,
-          "avg_daily": 521,
+          "total_views": 15523,
+          "avg_daily": 517,
           "recent_avg": 505,
-          "prev_avg": 536,
-          "change_pct": -5.7,
+          "prev_avg": 530,
+          "change_pct": -4.8,
           "url": "https://en.wikipedia.org/wiki/Sunscreen"
         },
         {
-          "topic": "Niacinamide",
+          "topic": "Snail slime",
           "days": 30,
-          "total_views": 1386,
-          "avg_daily": 46,
-          "recent_avg": 44,
-          "prev_avg": 49,
-          "change_pct": -10.1,
-          "url": "https://en.wikipedia.org/wiki/Niacinamide"
+          "total_views": 2180,
+          "avg_daily": 73,
+          "recent_avg": 70,
+          "prev_avg": 76,
+          "change_pct": -8.1,
+          "url": "https://en.wikipedia.org/wiki/Snail_slime"
         },
         {
           "topic": "K-beauty",
           "days": 30,
-          "total_views": 3901,
-          "avg_daily": 130,
-          "recent_avg": 115,
-          "prev_avg": 145,
-          "change_pct": -20.2,
+          "total_views": 3857,
+          "avg_daily": 129,
+          "recent_avg": 119,
+          "prev_avg": 139,
+          "change_pct": -14.4,
           "url": "https://en.wikipedia.org/wiki/K-beauty"
         }
       ]
@@ -323,11 +323,6 @@
           "url": "https://www.allure.com/story/best-of-beauty-2026-hair-tools-makeup-brushes"
         },
         {
-          "title": "The 2026 Best of Beauty-Winning Lip Products Will Transform Your Lip Combo",
-          "published": "Thu, 17 Sep 2026 11:00:00 +0000",
-          "url": "https://www.allure.com/story/best-of-beauty-2026-lips-winners"
-        },
-        {
           "title": "The Allure 2026 Best of Beauty Breakthrough Winners Are So Impressive They Have Their Own Category",
           "published": "Thu, 17 Sep 2026 11:00:00 +0000",
           "url": "https://www.allure.com/story/best-of-beauty-2026-breakthrough-awards-winners"
@@ -336,6 +331,11 @@
           "title": "The 2026 Allure Best of Beauty Nails Winners Are Show-Stoppers",
           "published": "Thu, 17 Sep 2026 11:00:00 +0000",
           "url": "https://www.allure.com/story/best-of-beauty-2026-nail-product-winners"
+        },
+        {
+          "title": "The 2026 Allure Best of Beauty Clean Beauty Winners Hit All the Right Marks",
+          "published": "Thu, 17 Sep 2026 11:00:00 +0000",
+          "url": "https://www.allure.com/story/best-of-beauty-2026-clean-skin-care-brands-winners"
         }
       ]
     },

@@ -2,7 +2,7 @@
 title: "Record ddfbc69ce0 · Ultra-Gentle-Pure-Skin-Face-Cleanser"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T22:47:09.818605+00:00
+updated_at: 2026-09-18T03:04:31.007770+00:00
 tags: [record, real-data]
 ---
 

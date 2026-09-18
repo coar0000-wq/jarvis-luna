@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T23:11:25.614521+00:00",
+  "generated_at": "2026-09-18T03:02:46.373418+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
@@ -90,17 +90,17 @@
       "s_rule": "ingredient+form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067498",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/wj1JQs4g8q0tBuz4c7jF1067498_00_01wj1JQs4g8q0tBuz4c7jF.jpg",
-      "recommend_reason": "글로벌 'ANUA PDRN Hyaluronic Acid 100 Moisturizing Cream, 2.02 fl oz | Lightweight, Non-Greasy Hydrating Face Moisturizer with Salmon DNA for Glass Skin, Korean Skincare' (amazon_best_sellers) 유사 77% · 토큰 cream, pdrn",
+      "recommend_reason": "글로벌 'Lacto-PDRN 4% + B9 Eye Cream' (ulta_beauty) 유사 88% · 토큰 cream, pdrn",
       "matched_global": {
-        "channel": "amazon_best_sellers",
-        "global_product": "ANUA PDRN Hyaluronic Acid 100 Moisturizing Cream, 2.02 fl oz | Lightweight, Non-Greasy Hydrating Face Moisturizer with Salmon DNA for Glass Skin, Korean Skincare",
-        "similarity": 0.773,
-        "demand_weight": 0.475,
+        "channel": "ulta_beauty",
+        "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+        "similarity": 0.88,
+        "demand_weight": 0.425,
         "matched_tokens": [
           "cream",
           "pdrn"
         ],
-        "match_score": 0.367
+        "match_score": 0.374
       },
       "registerable": true
     },
@@ -110,7 +110,7 @@
       "name": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
       "bucket": "스킨케어",
       "price_krw": 5000,
-      "shopify_score": 95,
+      "shopify_score": 96,
       "grade": "S",
       "s_rule": "ingredient+form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072554",
@@ -140,17 +140,17 @@
       "s_rule": "ingredient+form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1075857",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260205/Cg7pPAF0QMRSGGKdsWZw1075857_00_01Cg7pPAF0QMRSGGKdsWZw.jpg",
-      "recommend_reason": "글로벌 'ANUA PDRN Hyaluronic Acid 100 Moisturizing Cream, 2.02 fl oz | Lightweight, Non-Greasy Hydrating Face Moisturizer with Salmon DNA for Glass Skin, Korean Skincare' (amazon_best_sellers) 유사 57% · 토큰 cream, pdrn",
+      "recommend_reason": "글로벌 'Lacto-PDRN 4% + B9 Eye Cream' (ulta_beauty) 유사 68% · 토큰 cream, pdrn",
       "matched_global": {
-        "channel": "amazon_best_sellers",
-        "global_product": "ANUA PDRN Hyaluronic Acid 100 Moisturizing Cream, 2.02 fl oz | Lightweight, Non-Greasy Hydrating Face Moisturizer with Salmon DNA for Glass Skin, Korean Skincare",
-        "similarity": 0.573,
-        "demand_weight": 0.475,
+        "channel": "ulta_beauty",
+        "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+        "similarity": 0.68,
+        "demand_weight": 0.425,
         "matched_tokens": [
           "cream",
           "pdrn"
         ],
-        "match_score": 0.272
+        "match_score": 0.289
       },
       "registerable": true
     },
@@ -160,7 +160,7 @@
       "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
       "bucket": "스킨케어",
       "price_krw": 3000,
-      "shopify_score": 92,
+      "shopify_score": 93,
       "grade": "S",
       "s_rule": "multi_token",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285",
@@ -181,36 +181,11 @@
     },
     {
       "rank": 8,
-      "pd_no": "1041403",
-      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 90,
-      "grade": "S",
-      "s_rule": "ingredient+form",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260122/Z6JojzxiZ6XYe11NJuOd1041403_00_00Z6JojzxiZ6XYe11NJuOd.jpg",
-      "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 92% · 토큰 heartleaf, toner",
-      "matched_global": {
-        "channel": "tiktok_shop_us",
-        "global_product": "ANUA Heartleaf 77 Soothing Toner",
-        "similarity": 0.92,
-        "demand_weight": 0.95,
-        "matched_tokens": [
-          "heartleaf",
-          "toner"
-        ],
-        "match_score": 0.874
-      },
-      "registerable": true
-    },
-    {
-      "rank": 9,
       "pd_no": "1059834",
       "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
       "bucket": "마스크팩",
       "price_krw": 2000,
-      "shopify_score": 89,
+      "shopify_score": 90,
       "grade": "S",
       "s_rule": "ingredient+form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
@@ -230,12 +205,12 @@
       "registerable": true
     },
     {
-      "rank": 10,
+      "rank": 9,
       "pd_no": "1042619",
       "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
       "bucket": "마스크팩",
       "price_krw": 1000,
-      "shopify_score": 88,
+      "shopify_score": 87,
       "grade": "S",
       "s_rule": "ingredient+form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
@@ -251,6 +226,31 @@
           "mask"
         ],
         "match_score": 0.408
+      },
+      "registerable": true
+    },
+    {
+      "rank": 10,
+      "pd_no": "1060211",
+      "name": "바세린 모이스처라이징 클렌징 밀크 140 ml",
+      "bucket": "클렌징",
+      "price_krw": 5000,
+      "shopify_score": 86,
+      "grade": "S",
+      "s_rule": "multi_token",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060211",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250311/QGjtoQh4Tv8bUcOEAchc1060211_00_01QGjtoQh4Tv8bUcOEAchc.jpg",
+      "recommend_reason": "글로벌 'ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set' (oliveyoung_us) 유사 70% · 토큰 cleanser, moisturizer",
+      "matched_global": {
+        "channel": "oliveyoung_us",
+        "global_product": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
+        "similarity": 0.7,
+        "demand_weight": 0.784,
+        "matched_tokens": [
+          "cleanser",
+          "moisturizer"
+        ],
+        "match_score": 0.549
       },
       "registerable": true
     }

@@ -2,7 +2,7 @@
 title: "Record 04af57d8b9 · A-Visual-Dependence-Aware-Framework-for-Multimodal-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T22:47:09.884213+00:00
+updated_at: 2026-09-18T03:04:31.087233+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 0953ead64d · What-Experts-Really-Think-of-the-10-Step-Korean-Ski"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T22:47:09.505331+00:00
+updated_at: 2026-09-18T03:04:30.598324+00:00
 tags: [record, real-data]
 ---
 

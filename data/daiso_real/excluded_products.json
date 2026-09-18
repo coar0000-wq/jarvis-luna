@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-17T10:24:43.161340+00:00",
+  "generated_at": "2026-09-18T03:02:46.234395+00:00",
   "generator": "scripts/daiso/prune_excluded_products.py",
   "왜_남기나": "규칙이 다시 바뀌어 되살려야 할 때 근거가 필요하다. 지우면 왜 뺐는지도 같이 사라진다.",
   "규칙_출처": "scripts/daiso/category_map.json 의 exclude",
-  "count": 13,
+  "count": 14,
   "items": {
     "1044428": {
       "name": "2080 닥터크리닉 잇몸 치약 120 g",
@@ -277,7 +277,42 @@
       },
       "뺀_시각": "2026-09-17T10:24:43.161340+00:00",
       "되돌리는_법": "scripts/daiso/exclude_unprofitable.py --restore --apply"
+    },
+    "1041403": {
+      "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+      "뺀_규칙": "손익·마진 미달",
+      "왜": "가장 나은 형태(bundle 2개)도 손익분기 미달: 권장가 $14.99 가 손익분기 $20.30 이하",
+      "그때_숫자": {
+        "form": "bundle",
+        "qty": 2,
+        "price_usd": 14.99,
+        "landed_cost_total_usd": 18.8,
+        "fee_usd": 1.11,
+        "net_profit_usd": -4.92,
+        "margin_pct": -32.8,
+        "market_median_usd": 8.97
+      },
+      "기준": {
+        "min_margin_pct": 15.0,
+        "min_net_profit_usd": 1.5
+      },
+      "뺀_시각": "2026-09-18T03:02:46.234395+00:00",
+      "되돌리는_법": "scripts/daiso/exclude_unprofitable.py --restore --apply",
+      "원본": {
+        "pd_no": "1041403",
+        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
+        "brand": "채비공간",
+        "site_category": "스킨/토너",
+        "price_krw": 5000,
+        "rating": 4.8,
+        "review_count": 938,
+        "image_url": "https://cdn.daisomall.co.kr/file/PD/20260122/Z6JojzxiZ6XYe11NJuOd1041403_00_00Z6JojzxiZ6XYe11NJuOd.jpg",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041403",
+        "collected_at": "2026-08-24T20:41:25.414695+00:00",
+        "source": "daisomall.co.kr 상품 상세 페이지",
+        "bucket": "스킨케어"
+      }
     }
   },
-  "손익_규칙_출처": "data\\daiso_real\\profitability_rule.json"
+  "손익_규칙_출처": "data/daiso_real/profitability_rule.json"
 }
