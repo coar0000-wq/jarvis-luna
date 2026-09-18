@@ -2,7 +2,7 @@
 title: "Record 45df2e1f3a · Governance-beyond-security-knowledge-context--ontol"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T03:04:30.936149+00:00
+updated_at: 2026-09-18T08:34:32.180599+00:00
 tags: [record, real-data]
 ---
 

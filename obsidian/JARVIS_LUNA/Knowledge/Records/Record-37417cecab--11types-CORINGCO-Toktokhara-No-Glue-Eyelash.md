@@ -2,7 +2,7 @@
 title: "Record 37417cecab · 11types-CORINGCO-Toktokhara-No-Glue-Eyelash"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T03:04:30.850153+00:00
+updated_at: 2026-09-18T08:34:32.081868+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** [11types] CORINGCO Toktokhara No Glue Eyelash
 
 [11types] CORINGCO Toktokhara No Glue Eyelash
-[11types] CORINGCO Toktokhara No Glue Eyelash · 평점 4.8 · 리뷰 11,923
+[11types] CORINGCO Toktokhara No Glue Eyelash · 평점 4.8 · 리뷰 12,016
 
 **출처:** Source · us_beauty
 

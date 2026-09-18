@@ -2,7 +2,7 @@
 title: "Record 28287d4b63 · Consumer-Confidence-Stabilises-And-Spending-Grows-1"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T03:04:30.529040+00:00
+updated_at: 2026-09-18T08:34:31.717204+00:00
 tags: [record, real-data]
 ---
 

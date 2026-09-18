@@ -2,7 +2,7 @@
 title: "Record 9b25c34290 · STELLAR-E-a-Synthetic-Tailored-End-to-end-LLM-Appli"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T03:04:30.813666+00:00
+updated_at: 2026-09-18T08:34:32.036798+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1c9180a280 · Arencia-Vitamin-C-Booster-Shot-101-fl-oz30ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T03:04:30.850375+00:00
+updated_at: 2026-09-18T08:34:32.082099+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)
 
 Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)
-Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml) · 평점 4.7 · 리뷰 191
+Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml) · 평점 4.7 · 리뷰 192
 
 **출처:** Source · us_beauty
 

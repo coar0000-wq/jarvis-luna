@@ -2,7 +2,7 @@
 title: "Record baa597b12a · Shopify-partners-with-Liquid-AI-on-product-search-r"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T03:04:30.728984+00:00
+updated_at: 2026-09-18T08:34:31.934589+00:00
 tags: [record, real-data]
 ---
 

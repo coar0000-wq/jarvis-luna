@@ -2,7 +2,7 @@
 title: "Record 773dd34aa2 · 13-Best-Nordstrom-125-Anniversary-Beauty-Deals-to-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T03:04:30.887604+00:00
+updated_at: 2026-09-18T08:34:32.123687+00:00
 tags: [record, real-data]
 ---
 

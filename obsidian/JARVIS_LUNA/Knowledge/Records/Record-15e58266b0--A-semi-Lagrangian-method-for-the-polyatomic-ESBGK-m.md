@@ -2,7 +2,7 @@
 title: "Record 15e58266b0 · A-semi-Lagrangian-method-for-the-polyatomic-ESBGK-m"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T03:04:30.821586+00:00
+updated_at: 2026-09-18T08:34:32.046723+00:00
 tags: [record, real-data]
 ---
 

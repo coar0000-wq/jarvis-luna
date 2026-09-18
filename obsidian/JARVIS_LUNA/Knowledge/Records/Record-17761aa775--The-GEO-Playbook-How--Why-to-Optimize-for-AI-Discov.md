@@ -2,7 +2,7 @@
 title: "Record 17761aa775 · The-GEO-Playbook-How--Why-to-Optimize-for-AI-Discov"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T03:04:30.653214+00:00
+updated_at: 2026-09-18T08:34:31.851904+00:00
 tags: [record, real-data]
 ---
 

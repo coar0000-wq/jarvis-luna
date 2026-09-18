@@ -2,7 +2,7 @@
 title: "Record 0d61c3eed2 · Nicole-Kidmans-Curtain-Bangs-Swept-the-Emmys-2026-R"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T03:04:30.887394+00:00
+updated_at: 2026-09-18T08:34:32.123449+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 47c18d859d · From-latte-makeup-to-girl-dinners-TikTok-has-launch"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T03:04:30.713221+00:00
+updated_at: 2026-09-18T08:34:31.917025+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 7b7f3fc0af · Red-Rice-Powered-Hydrating-Serums---Trend-Hunter"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T03:04:30.573364+00:00
+updated_at: 2026-09-18T08:34:31.766192+00:00
 tags: [record, real-data]
 ---
 

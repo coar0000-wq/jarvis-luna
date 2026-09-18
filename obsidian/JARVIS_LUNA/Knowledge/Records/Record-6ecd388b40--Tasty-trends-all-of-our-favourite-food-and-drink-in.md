@@ -2,7 +2,7 @@
 title: "Record 6ecd388b40 · Tasty-trends-all-of-our-favourite-food-and-drink-in"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T03:04:30.748173+00:00
+updated_at: 2026-09-18T08:34:31.956904+00:00
 tags: [record, real-data]
 ---
 

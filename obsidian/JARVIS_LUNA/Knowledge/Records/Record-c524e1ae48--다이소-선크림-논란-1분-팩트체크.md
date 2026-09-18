@@ -2,7 +2,7 @@
 title: "Record c524e1ae48 · 다이소-선크림-논란-1분-팩트체크"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-17T10:26:29.638764+00:00
+updated_at: 2026-09-18T08:34:32.287883+00:00
 tags: [record, real-data]
 ---
 

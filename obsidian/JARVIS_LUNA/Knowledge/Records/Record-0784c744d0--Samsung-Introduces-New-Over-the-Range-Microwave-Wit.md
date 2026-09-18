@@ -2,7 +2,7 @@
 title: "Record 0784c744d0 · Samsung-Introduces-New-Over-the-Range-Microwave-Wit"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T03:04:30.787423+00:00
+updated_at: 2026-09-18T08:34:32.002257+00:00
 tags: [record, real-data]
 ---
 
