@@ -2,7 +2,7 @@
 title: "Record f5e676a79a · The-Scales-Have-Tipped-US-Marine-Corps-Boot-Camp-In"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T21:31:59.816919+00:00
+updated_at: 2026-09-19T22:02:37.743354+00:00
 tags: [record, real-data]
 ---
 

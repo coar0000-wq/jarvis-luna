@@ -2,7 +2,7 @@
 title: "Record 1924fc2c0b · How-the-agile-way-of-working-relates-to-adaptivity-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T21:31:59.772010+00:00
+updated_at: 2026-09-19T22:02:37.711016+00:00
 tags: [record, real-data]
 ---
 

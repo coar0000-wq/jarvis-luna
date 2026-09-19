@@ -2,7 +2,7 @@
 title: "Record 08194a79e0 · The-Korean-Beauty-Giant-Coming-for-Americas-Dollars"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T21:32:00.203468+00:00
+updated_at: 2026-09-19T22:02:38.006193+00:00
 tags: [record, real-data]
 ---
 

@@ -1,7 +1,7 @@
 {
   "agent": "Chief-of-Staff",
   "role": "전체 JARVIS 운영상태를 종합하여 우선순위와 Safe Auto-Fix 실행 여부를 결정",
-  "generated_at": "2026-09-19T21:31:32.454596+00:00",
+  "generated_at": "2026-09-19T22:02:18.876578+00:00",
   "risk": "medium",
   "overall_priority": "P2",
   "overall_action": "INVESTIGATE_EMPTY_CHANNELS",
@@ -178,8 +178,8 @@
       "status": "ok",
       "priority": "P4",
       "evidence": {
-        "nodes": 81925,
-        "links": 330211,
+        "nodes": 81926,
+        "links": 330219,
         "dangling_generated": 0,
         "truth_guard_anomaly": false,
         "anomaly_reasons": []
@@ -239,16 +239,16 @@
       ]
     },
     "graph": {
-      "nodes": 81925,
-      "links": 330211,
+      "nodes": 81926,
+      "links": 330219,
       "dangling_generated": 0,
-      "runtime_nodes": 81925,
-      "runtime_links": 330211,
+      "runtime_nodes": 81926,
+      "runtime_links": 330219,
       "runtime_dangling_generated": 0,
       "truth_guard": {
         "vault": "obsidian/JARVIS_LUNA",
-        "actual_nodes": 81925,
-        "actual_links": 330211,
+        "actual_nodes": 81926,
+        "actual_links": 330219,
         "actual_dangling_generated": 0,
         "actual_dangling_personal": 21,
         "generated_dangling_samples": [],
@@ -336,8 +336,8 @@
         ],
         "generated_dangling_sample_source_count": 0,
         "personal_dangling_sample_source_count": 8,
-        "runtime_nodes": 81925,
-        "runtime_links": 330211,
+        "runtime_nodes": 81926,
+        "runtime_links": 330219,
         "runtime_dangling_generated": 0,
         "runtime_consistent": true,
         "anomaly": false,

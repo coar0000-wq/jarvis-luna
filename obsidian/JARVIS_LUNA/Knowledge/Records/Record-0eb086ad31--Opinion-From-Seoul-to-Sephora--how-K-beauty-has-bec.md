@@ -2,7 +2,7 @@
 title: "Record 0eb086ad31 · Opinion-From-Seoul-to-Sephora--how-K-beauty-has-become-a-global-phenom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T21:32:00.275938+00:00
+updated_at: 2026-09-19T22:02:38.052244+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,10 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiswFBVV95cUxPc2g3NThETVhLa3FISG94RmRGSURCVlJ6aGNHUWZleXJHS0VfTUd0ZEZJUzduRVpjSGxTcGRKNlhKeXVCVHpMTmpFWjBPcHdzYkIyeG1lcHJXeVV6cHFPZXl5UFdnUkpRNDVRLXFjZTFtNmpmYThKdmVveTBTM0ZsN1lBNjJyRE9UVmZReGlaeG54Mko1ZDItRlFoUXZKc1BRcmwzSnR3RGVpTjRzbVVTcDI4dw?oc=5)
 
-**제목:** Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - highschool.latimes.com
+**제목:** Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - HS Insider
 
-Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - highschool.latimes.com
-Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - highschool.latimes.com
+Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - HS Insider
+Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - HS Insider
 
 **출처:** Source · us_beauty
 

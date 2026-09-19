@@ -2,7 +2,7 @@
 title: "Record 4a5bec0039 · The-Missing-Layer-in-Robot-Safety-Assurance"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T21:32:00.560598+00:00
+updated_at: 2026-09-19T22:02:38.249242+00:00
 tags: [record, real-data]
 ---
 

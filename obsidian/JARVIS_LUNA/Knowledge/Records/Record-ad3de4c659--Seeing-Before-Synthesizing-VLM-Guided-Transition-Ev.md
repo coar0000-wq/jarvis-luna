@@ -2,7 +2,7 @@
 title: "Record ad3de4c659 · Seeing-Before-Synthesizing-VLM-Guided-Transition-Ev"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T21:31:59.627684+00:00
+updated_at: 2026-09-19T22:02:37.615062+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record bcdeae0da7 · AppMaker-joins-Shopify-TikTok-Klaviyo-for-Londons-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T21:32:00.264478+00:00
+updated_at: 2026-09-19T22:02:38.044979+00:00
 tags: [record, real-data]
 ---
 

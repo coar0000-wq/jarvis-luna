@@ -2,7 +2,7 @@
 title: "Record 1ae07495fa · Frontend-Engineering-at-Palantir-Polar-Scaled-Tiles"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T21:31:59.735208+00:00
+updated_at: 2026-09-19T22:02:37.686206+00:00
 tags: [record, real-data]
 ---
 

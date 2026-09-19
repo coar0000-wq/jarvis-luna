@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T21:30:11.595674+00:00",
+  "generated_at": "2026-09-19T22:00:57.571850+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,12 +11,52 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "iu football",
+          "keyword": "nascar race today",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Sat, 19 Sep 2026 13:30:00 -0700",
-          "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=iu%20football"
+          "published": "Sat, 19 Sep 2026 14:40:00 -0700",
+          "source_name": "NASCAR.com",
+          "url": "https://trends.google.com/trending?geo=US&q=nascar%20race%20today"
+        },
+        {
+          "keyword": "florida state football schedule",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Sat, 19 Sep 2026 14:40:00 -0700",
+          "source_name": "CBS Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=florida%20state%20football%20schedule"
+        },
+        {
+          "keyword": "espn news",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Sat, 19 Sep 2026 14:20:00 -0700",
+          "source_name": "Fox News",
+          "url": "https://trends.google.com/trending?geo=US&q=espn%20news"
+        },
+        {
+          "keyword": "pitbull cruz next fight",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Sat, 19 Sep 2026 14:40:00 -0700",
+          "source_name": "Rolling Stone",
+          "url": "https://trends.google.com/trending?geo=US&q=pitbull%20cruz%20next%20fight"
+        },
+        {
+          "keyword": "iu score",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Sat, 19 Sep 2026 14:30:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=iu%20score"
+        },
+        {
+          "keyword": "carson benge",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Sat, 19 Sep 2026 14:20:00 -0700",
+          "source_name": "MLB.com",
+          "url": "https://trends.google.com/trending?geo=US&q=carson%20benge"
         },
         {
           "keyword": "sean sharaf",
@@ -27,14 +67,6 @@
           "url": "https://trends.google.com/trending?geo=US&q=sean%20sharaf"
         },
         {
-          "keyword": "pedestrian accident attorney",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Sat, 19 Sep 2026 14:00:00 -0700",
-          "source_name": "sacramentoinjuryattorneysblog.com",
-          "url": "https://trends.google.com/trending?geo=US&q=pedestrian%20accident%20attorney"
-        },
-        {
           "keyword": "robelis despaigne",
           "approx_traffic": "200+",
           "traffic_num": 200,
@@ -43,36 +75,12 @@
           "url": "https://trends.google.com/trending?geo=US&q=robelis%20despaigne"
         },
         {
-          "keyword": "presidents cup",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Sat, 19 Sep 2026 13:50:00 -0700",
-          "source_name": "Golf Digest",
-          "url": "https://trends.google.com/trending?geo=US&q=presidents%20cup"
-        },
-        {
-          "keyword": "casey o'neill",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Sat, 19 Sep 2026 13:40:00 -0700",
+          "keyword": "choi doo-ho",
+          "approx_traffic": "100+",
+          "traffic_num": 100,
+          "published": "Sat, 19 Sep 2026 14:00:00 -0700",
           "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=casey%20o%27neill"
-        },
-        {
-          "keyword": "charles jourdain",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Sat, 19 Sep 2026 13:40:00 -0700",
-          "source_name": "Sherdog",
-          "url": "https://trends.google.com/trending?geo=US&q=charles%20jourdain"
-        },
-        {
-          "keyword": "stanford football",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Sat, 19 Sep 2026 13:40:00 -0700",
-          "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=stanford%20football"
+          "url": "https://trends.google.com/trending?geo=US&q=choi%20doo-ho"
         },
         {
           "keyword": "trey mancini",
@@ -81,14 +89,6 @@
           "published": "Sat, 19 Sep 2026 14:00:00 -0700",
           "source_name": "The New York Times",
           "url": "https://trends.google.com/trending?geo=US&q=trey%20mancini"
-        },
-        {
-          "keyword": "choi doo-ho",
-          "approx_traffic": "100+",
-          "traffic_num": 100,
-          "published": "Sat, 19 Sep 2026 14:00:00 -0700",
-          "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=choi%20doo-ho"
         }
       ]
     },

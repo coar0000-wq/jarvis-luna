@@ -2,7 +2,7 @@
 title: "Record 8fb95a61cc · A-Disclosure-Benchmark-Specification-for-Automated-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T21:31:59.959022+00:00
+updated_at: 2026-09-19T22:02:37.838706+00:00
 tags: [record, real-data]
 ---
 

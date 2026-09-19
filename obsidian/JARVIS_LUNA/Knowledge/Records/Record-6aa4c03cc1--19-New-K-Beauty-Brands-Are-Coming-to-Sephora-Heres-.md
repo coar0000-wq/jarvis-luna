@@ -2,7 +2,7 @@
 title: "Record 6aa4c03cc1 · 19-New-K-Beauty-Brands-Are-Coming-to-Sephora-Heres-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T21:32:00.220856+00:00
+updated_at: 2026-09-19T22:02:38.017278+00:00
 tags: [record, real-data]
 ---
 

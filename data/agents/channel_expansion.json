@@ -1,6 +1,6 @@
 {
   "agent": "Channel-Expansion",
-  "generated_at": "2026-09-19T21:30:51.132190+00:00",
+  "generated_at": "2026-09-19T22:01:38.488441+00:00",
   "institutions_team": {
     "role": "湲곌?/怨듦났/?곌뎄/洹쒖젣 ?곗씠???좉퇋 ?뚯뒪 諛쒓뎬",
     "checked": 7,
@@ -22,10 +22,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://www.google.com/shopping",
-      "content_length": 113523,
+      "content_length": 114157,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-19T21:30:50.877856+00:00"
+      "checked_at": "2026-09-19T22:01:37.780206+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -40,7 +40,7 @@
       "content_length": 172023,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-19T21:30:32.976082+00:00"
+      "checked_at": "2026-09-19T22:01:19.046855+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -52,10 +52,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://www.census.gov/data.html",
-      "content_length": 511515,
+      "content_length": 511542,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-19T21:30:31.794164+00:00"
+      "checked_at": "2026-09-19T22:01:17.736500+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -70,7 +70,7 @@
       "content_length": 3769,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-19T21:30:33.631799+00:00"
+      "checked_at": "2026-09-19T22:01:19.908641+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -85,7 +85,7 @@
       "content_length": 69357,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-19T21:30:33.346474+00:00"
+      "checked_at": "2026-09-19T22:01:19.507767+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -97,10 +97,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://data.worldbank.org/",
-      "content_length": 191823,
+      "content_length": 191886,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-19T21:30:32.366740+00:00"
+      "checked_at": "2026-09-19T22:01:18.505160+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -112,10 +112,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://trends.google.com/trends/",
-      "content_length": 771683,
+      "content_length": 771687,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-19T21:30:51.057297+00:00"
+      "checked_at": "2026-09-19T22:01:38.399399+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -127,10 +127,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://www.instacart.com/",
-      "content_length": 442092,
+      "content_length": 891504,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-19T21:30:50.699831+00:00"
+      "checked_at": "2026-09-19T22:01:37.601751+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -142,10 +142,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://www.nordstrom.com/browse/beauty",
-      "content_length": 256244,
+      "content_length": 258043,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-19T21:30:34.557769+00:00"
+      "checked_at": "2026-09-19T22:01:20.828393+00:00"
     }
   ],
   "unverified_candidates": [
@@ -162,7 +162,7 @@
       "content_length": 14489,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-19T21:30:32.237585+00:00"
+      "checked_at": "2026-09-19T22:01:18.185890+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -177,7 +177,7 @@
       "content_length": 375,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-19T21:30:34.074060+00:00"
+      "checked_at": "2026-09-19T22:01:20.423420+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -192,7 +192,7 @@
       "content_length": 1325,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-19T21:30:31.912237+00:00"
+      "checked_at": "2026-09-19T22:01:17.884762+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -207,7 +207,7 @@
       "content_length": 1832,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-19T21:30:33.737634+00:00"
+      "checked_at": "2026-09-19T22:01:20.173249+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -222,7 +222,7 @@
       "content_length": 776,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-19T21:30:33.839836+00:00"
+      "checked_at": "2026-09-19T22:01:20.253809+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -237,7 +237,7 @@
       "content_length": 190240,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-19T21:30:51.131523+00:00"
+      "checked_at": "2026-09-19T22:01:38.487951+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -250,7 +250,7 @@
       "status_code": null,
       "error": "ReadTimeout: HTTPSConnectionPool(host='www.kroger.com', port=443): Read timed out. (read timeout=15)",
       "status": "unverified",
-      "checked_at": "2026-09-19T21:30:49.979116+00:00"
+      "checked_at": "2026-09-19T22:01:36.479322+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -262,10 +262,10 @@
       "reachable": false,
       "status_code": 403,
       "final_url": "https://www.macys.com/shop/makeup-and-cosmetics",
-      "content_length": 9901,
+      "content_length": 9900,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-19T21:30:34.774349+00:00"
+      "checked_at": "2026-09-19T22:01:21.247246+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -280,7 +280,7 @@
       "content_length": 782,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-19T21:30:34.281267+00:00"
+      "checked_at": "2026-09-19T22:01:20.552964+00:00"
     }
   ],
   "safety": {

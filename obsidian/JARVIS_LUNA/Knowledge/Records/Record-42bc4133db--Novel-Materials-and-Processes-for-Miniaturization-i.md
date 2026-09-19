@@ -2,7 +2,7 @@
 title: "Record 42bc4133db · Novel-Materials-and-Processes-for-Miniaturization-i"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T21:31:59.967381+00:00
+updated_at: 2026-09-19T22:02:37.843928+00:00
 tags: [record, real-data]
 ---
 

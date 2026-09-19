@@ -2,7 +2,7 @@
 title: "Record 97039bcc01 · 14-Best-Korean-Beauty-Products-For-Acne-According-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T21:32:00.086452+00:00
+updated_at: 2026-09-19T22:02:37.926886+00:00
 tags: [record, real-data]
 ---
 

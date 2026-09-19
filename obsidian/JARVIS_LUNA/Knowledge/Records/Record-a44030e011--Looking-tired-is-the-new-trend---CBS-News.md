@@ -2,7 +2,7 @@
 title: "Record a44030e011 · Looking-tired-is-the-new-trend---CBS-News"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T21:32:00.133208+00:00
+updated_at: 2026-09-19T22:02:37.960816+00:00
 tags: [record, real-data]
 ---
 
