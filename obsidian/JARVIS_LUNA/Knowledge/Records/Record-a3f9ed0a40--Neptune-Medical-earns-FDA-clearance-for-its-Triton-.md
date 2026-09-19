@@ -2,7 +2,7 @@
 title: "Record a3f9ed0a40 · Neptune-Medical-earns-FDA-clearance-for-its-Triton-1-robotic-system"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T13:51:44.765897+00:00
+updated_at: 2026-09-19T15:54:59.750460+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record b6fd8ec815 · Exploring-the-Chemical-Space-of-CYP17A1-Inhibitors-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T13:51:44.122486+00:00
+updated_at: 2026-09-19T15:54:59.367195+00:00
 tags: [record, real-data]
 ---
 

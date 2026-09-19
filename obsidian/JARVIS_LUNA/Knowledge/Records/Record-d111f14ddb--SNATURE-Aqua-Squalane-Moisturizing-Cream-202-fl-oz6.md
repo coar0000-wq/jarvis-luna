@@ -2,7 +2,7 @@
 title: "Record d111f14ddb · SNATURE-Aqua-Squalane-Moisturizing-Cream-202-fl-oz6"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T13:51:44.583764+00:00
+updated_at: 2026-09-19T15:54:59.647082+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** S.NATURE Aqua Squalane Moisturizing Cream 2.02 fl. oz.(60ml)
 
 S.NATURE Aqua Squalane Moisturizing Cream 2.02 fl. oz.(60ml)
-S.NATURE Aqua Squalane Moisturizing Cream 2.02 fl. oz.(60ml) · 평점 4.9 · 리뷰 17
+S.NATURE Aqua Squalane Moisturizing Cream 2.02 fl. oz.(60ml) · 평점 4.9 · 리뷰 18
 
 **출처:** Source · us_beauty
 

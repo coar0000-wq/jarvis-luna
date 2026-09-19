@@ -2,7 +2,7 @@
 title: "Record a5662d681d · Suspended-thin-film-lithium-niobate-modulator-for-broadband-mid-infrar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T13:51:44.034308+00:00
+updated_at: 2026-09-19T15:54:59.316380+00:00
 tags: [record, real-data]
 ---
 

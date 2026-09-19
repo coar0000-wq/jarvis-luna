@@ -2,7 +2,7 @@
 title: "Record 673a9bd61c · Wavefront-Selective-Modal-Excitations-for-Optimally"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T13:51:43.993654+00:00
+updated_at: 2026-09-19T15:54:59.292911+00:00
 tags: [record, real-data]
 ---
 

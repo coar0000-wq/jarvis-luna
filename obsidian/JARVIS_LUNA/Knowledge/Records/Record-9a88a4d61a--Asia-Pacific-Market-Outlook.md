@@ -2,7 +2,7 @@
 title: "Record 9a88a4d61a · Asia-Pacific-Market-Outlook"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T13:51:44.705809+00:00
+updated_at: 2026-09-19T15:54:59.714402+00:00
 tags: [record, real-data]
 ---
 

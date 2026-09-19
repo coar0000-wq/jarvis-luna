@@ -2,7 +2,7 @@
 title: "Record 9fc7cb78cb · Shopify-Lays-Out-New-Rules-Governing-AI-Agents---PY"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T13:51:44.465579+00:00
+updated_at: 2026-09-19T15:54:59.578159+00:00
 tags: [record, real-data]
 ---
 

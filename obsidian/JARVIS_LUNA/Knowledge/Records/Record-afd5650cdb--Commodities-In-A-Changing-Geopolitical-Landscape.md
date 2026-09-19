@@ -2,7 +2,7 @@
 title: "Record afd5650cdb · Commodities-In-A-Changing-Geopolitical-Landscape"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T13:51:44.710200+00:00
+updated_at: 2026-09-19T15:54:59.716507+00:00
 tags: [record, real-data]
 ---
 

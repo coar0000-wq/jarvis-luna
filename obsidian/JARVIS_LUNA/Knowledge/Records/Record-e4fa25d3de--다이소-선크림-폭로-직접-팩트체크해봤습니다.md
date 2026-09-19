@@ -2,7 +2,7 @@
 title: "Record e4fa25d3de · 다이소-선크림-폭로-직접-팩트체크해봤습니다"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T13:51:44.820497+00:00
+updated_at: 2026-09-19T15:54:59.783995+00:00
 tags: [record, real-data]
 ---
 

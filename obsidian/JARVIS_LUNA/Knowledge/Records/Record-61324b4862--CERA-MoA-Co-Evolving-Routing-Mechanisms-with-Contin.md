@@ -2,7 +2,7 @@
 title: "Record 61324b4862 · CERA-MoA-Co-Evolving-Routing-Mechanisms-with-Continually-Learning-LLM-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T13:51:43.973073+00:00
+updated_at: 2026-09-19T15:54:59.281230+00:00
 tags: [record, real-data]
 ---
 

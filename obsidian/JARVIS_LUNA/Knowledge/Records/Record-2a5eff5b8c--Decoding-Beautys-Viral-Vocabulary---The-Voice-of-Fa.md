@@ -2,7 +2,7 @@
 title: "Record 2a5eff5b8c · Decoding-Beautys-Viral-Vocabulary---The-Voice-of-Fashion"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T13:51:44.417743+00:00
+updated_at: 2026-09-19T15:54:59.549072+00:00
 tags: [record, real-data]
 ---
 

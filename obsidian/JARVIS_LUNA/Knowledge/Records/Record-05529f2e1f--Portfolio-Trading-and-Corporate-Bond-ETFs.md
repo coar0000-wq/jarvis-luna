@@ -2,7 +2,7 @@
 title: "Record 05529f2e1f · Portfolio-Trading-and-Corporate-Bond-ETFs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T13:51:44.071234+00:00
+updated_at: 2026-09-19T15:54:59.337576+00:00
 tags: [record, real-data]
 ---
 

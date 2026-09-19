@@ -2,7 +2,7 @@
 title: "Record fde324d083 · Video-Friday-An-Earthbound-Mars-Rover-for-the-Moon"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T13:51:44.578595+00:00
+updated_at: 2026-09-19T15:54:59.644038+00:00
 tags: [record, real-data]
 ---
 
