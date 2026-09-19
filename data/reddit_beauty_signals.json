@@ -1,14 +1,14 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-18T22:16:42.549065+00:00",
+  "collected_at": "2026-09-19T00:18:07.289632+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
     "SkincareAddiction",
     "AsianBeautyAdvice"
   ],
-  "post_count": 25,
+  "post_count": 50,
   "per_subreddit": [
     {
       "subreddit": "AsianBeauty",
@@ -27,9 +27,8 @@
     },
     {
       "subreddit": "SkincareAddiction",
-      "post_count": 0,
+      "post_count": 25,
       "errors": [
-        "hot: HTTPError: HTTP Error 429: Too Many Requests",
         "top_week: HTTPError: HTTP Error 429: Too Many Requests"
       ]
     },
@@ -44,8 +43,32 @@
   ],
   "hot_keywords": [
     {
+      "keyword": "routine",
+      "score": 18
+    },
+    {
       "keyword": "skin",
+      "score": 16
+    },
+    {
+      "keyword": "skincare",
+      "score": 8
+    },
+    {
+      "keyword": "acne",
+      "score": 8
+    },
+    {
+      "keyword": "product",
       "score": 6
+    },
+    {
+      "keyword": "sunscreen",
+      "score": 6
+    },
+    {
+      "keyword": "question",
+      "score": 4
     },
     {
       "keyword": "september",
@@ -60,15 +83,27 @@
       "score": 4
     },
     {
-      "keyword": "skincare",
-      "score": 4
+      "keyword": "get",
+      "score": 3
     },
     {
       "keyword": "products",
       "score": 3
     },
     {
+      "keyword": "oily",
+      "score": 3
+    },
+    {
       "keyword": "glow",
+      "score": 3
+    },
+    {
+      "keyword": "best",
+      "score": 3
+    },
+    {
+      "keyword": "request",
       "score": 3
     },
     {
@@ -84,11 +119,15 @@
       "score": 2
     },
     {
-      "keyword": "tirtir",
+      "keyword": "people",
       "score": 2
     },
     {
-      "keyword": "swatches",
+      "keyword": "sunscreens",
+      "score": 2
+    },
+    {
+      "keyword": "hair",
       "score": 2
     },
     {
@@ -104,6 +143,10 @@
       "score": 2
     },
     {
+      "keyword": "dark",
+      "score": 2
+    },
+    {
       "keyword": "sheet",
       "score": 2
     },
@@ -116,18 +159,6 @@
       "score": 2
     },
     {
-      "keyword": "moisturizers",
-      "score": 2
-    },
-    {
-      "keyword": "moisturizer",
-      "score": 2
-    },
-    {
-      "keyword": "best",
-      "score": 2
-    },
-    {
       "keyword": "kbeauty",
       "score": 2
     },
@@ -136,7 +167,19 @@
       "score": 2
     },
     {
-      "keyword": "sunscreen",
+      "keyword": "moisturizers",
+      "score": 2
+    },
+    {
+      "keyword": "face",
+      "score": 2
+    },
+    {
+      "keyword": "moisturizer",
+      "score": 2
+    },
+    {
+      "keyword": "moisturizing",
       "score": 2
     },
     {
@@ -144,7 +187,11 @@
       "score": 2
     },
     {
-      "keyword": "oily",
+      "keyword": "sensitive",
+      "score": 2
+    },
+    {
+      "keyword": "dry",
       "score": 2
     },
     {
@@ -152,61 +199,25 @@
       "score": 2
     },
     {
-      "keyword": "hera",
+      "keyword": "these",
       "score": 2
-    },
-    {
-      "keyword": "foundation",
-      "score": 2
-    },
-    {
-      "keyword": "cushion",
-      "score": 2
-    },
-    {
-      "keyword": "question",
-      "score": 1
-    },
-    {
-      "keyword": "ask",
-      "score": 1
-    },
-    {
-      "keyword": "here",
-      "score": 1
-    },
-    {
-      "keyword": "alter-daily",
-      "score": 1
-    },
-    {
-      "keyword": "questions",
-      "score": 1
-    },
-    {
-      "keyword": "product",
-      "score": 1
-    },
-    {
-      "keyword": "authenticity",
-      "score": 1
-    },
-    {
-      "keyword": "yesstyle",
-      "score": 1
-    },
-    {
-      "keyword": "amazon",
-      "score": 1
-    },
-    {
-      "keyword": "taiwanese",
-      "score": 1
     }
   ],
   "beauty_keywords": [
     {
+      "keyword": "routine",
+      "score": 18
+    },
+    {
       "keyword": "skin",
+      "score": 16
+    },
+    {
+      "keyword": "skincare",
+      "score": 8
+    },
+    {
+      "keyword": "sunscreen",
       "score": 6
     },
     {
@@ -214,8 +225,8 @@
       "score": 4
     },
     {
-      "keyword": "skincare",
-      "score": 4
+      "keyword": "sunscreens",
+      "score": 2
     },
     {
       "keyword": "spf50+",
@@ -230,6 +241,10 @@
       "score": 2
     },
     {
+      "keyword": "kbeauty",
+      "score": 2
+    },
+    {
       "keyword": "moisturizers",
       "score": 2
     },
@@ -238,19 +253,11 @@
       "score": 2
     },
     {
-      "keyword": "kbeauty",
-      "score": 2
-    },
-    {
-      "keyword": "sunscreen",
-      "score": 2
-    },
-    {
       "keyword": "toner",
       "score": 2
     },
     {
-      "keyword": "cushion",
+      "keyword": "serum",
       "score": 2
     }
   ],
@@ -270,13 +277,6 @@
       "feed": "hot"
     },
     {
-      "title": "My yesstyle & amazon haul",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjnlqy/my_yesstyle_amazon_haul/",
-      "published": "2026-09-18T11:28:04+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
       "title": "Taiwanese & Thai Lenses Haul + Review",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjph92/taiwanese_thai_lenses_haul_review/",
       "published": "2026-09-18T12:57:20+00:00",
@@ -284,9 +284,37 @@
       "feed": "hot"
     },
     {
+      "title": "My yesstyle & amazon haul",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjnlqy/my_yesstyle_amazon_haul/",
+      "published": "2026-09-18T11:28:04+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Thim Artist Touch Long Lash Mascara in Brown",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjrouq/thim_artist_touch_long_lash_mascara_in_brown/",
+      "published": "2026-09-18T14:25:54+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "US people...can we still get sunscreens from yestyle or other places? Or is the FDA blocking",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjzf6o/us_peoplecan_we_still_get_sunscreens_from_yestyle/",
+      "published": "2026-09-18T19:11:10+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "I need to find some products...",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wk3n2a/i_need_to_find_some_products/",
       "published": "2026-09-18T21:53:38+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "How to do gua sha with oily hair.",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wk6apo/how_to_do_gua_sha_with_oily_hair/",
+      "published": "2026-09-18T23:45:00+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -340,16 +368,16 @@
       "feed": "hot"
     },
     {
-      "title": "Baby Moisturizers/Lotions as main face moisturizer",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wje7ab/baby_moisturizerslotions_as_main_face_moisturizer/",
-      "published": "2026-09-18T02:49:07+00:00",
+      "title": "What are the best affordable stores to buy kbeauty makeup and skincare products??",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wizxy1/what_are_the_best_affordable_stores_to_buy/",
+      "published": "2026-09-17T17:10:05+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "What are the best affordable stores to buy kbeauty makeup and skincare products??",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wizxy1/what_are_the_best_affordable_stores_to_buy/",
-      "published": "2026-09-17T17:10:05+00:00",
+      "title": "Baby Moisturizers/Lotions as main face moisturizer",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wje7ab/baby_moisturizerslotions_as_main_face_moisturizer/",
+      "published": "2026-09-18T02:49:07+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -410,24 +438,178 @@
       "feed": "hot"
     },
     {
-      "title": "Specific eye care regime or treatments for people with the combination of thin skin and little to no fat?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wim3kg/specific_eye_care_regime_or_treatments_for_people/",
-      "published": "2026-09-17T06:28:07+00:00",
-      "subreddit": "AsianBeauty",
+      "title": "[acne] from bad to omfg",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wjuoj4/acne_from_bad_to_omfg/",
+      "published": "2026-09-18T16:17:41+00:00",
+      "subreddit": "SkincareAddiction",
       "feed": "hot"
     },
     {
-      "title": "Requesting swatches of the new Tirtir skin Glow Cushion foundation!",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wi8i4c/requesting_swatches_of_the_new_tirtir_skin_glow/",
-      "published": "2026-09-16T20:16:08+00:00",
-      "subreddit": "AsianBeauty",
+      "title": "[Routine Help] Sensitive skin with closed comedones, redness & uneven texture: what really worked for you long-term ?",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wk2j3s/routine_help_sensitive_skin_with_closed_comedones/",
+      "published": "2026-09-18T21:09:24+00:00",
+      "subreddit": "SkincareAddiction",
       "feed": "hot"
     },
     {
-      "title": "Pink/salmon colour correctors - What are your favourites?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1whopyw/pinksalmon_colour_correctors_what_are_your/",
-      "published": "2026-09-16T06:01:31+00:00",
-      "subreddit": "AsianBeauty",
+      "title": "[Routine Help] eye area burns after skincare",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wk22ff/routine_help_eye_area_burns_after_skincare/",
+      "published": "2026-09-18T20:51:20+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "[Humor] After Getting Microneedling",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wjip0d/humor_after_getting_microneedling/",
+      "published": "2026-09-18T06:44:59+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "These bumps don't go away [Acne]",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wjzog1/these_bumps_dont_go_away_acne/",
+      "published": "2026-09-18T19:20:51+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "[Acne] Would this product be good for my acnescars?",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wk4wav/acne_would_this_product_be_good_for_my_acnescars/",
+      "published": "2026-09-18T22:45:07+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "Under eye dark circles [Misc]",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wk4ssh/under_eye_dark_circles_misc/",
+      "published": "2026-09-18T22:40:56+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "[Routine Help] Liftera/hifu treatments question",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wk4sdl/routine_help_lifterahifu_treatments_question/",
+      "published": "2026-09-18T22:40:26+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "Dry Skin Friends: Most moisturizing body wash (that is not Gleanser or Glow Getter)? [Product Request]",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wk4nmu/dry_skin_friends_most_moisturizing_body_wash_that/",
+      "published": "2026-09-18T22:34:59+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "[acne] No acne ever to this",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wk4895/acne_no_acne_ever_to_this/",
+      "published": "2026-09-18T22:17:28+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "[Acne] Small under the skin bumps",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wk3wjv/acne_small_under_the_skin_bumps/",
+      "published": "2026-09-18T22:04:15+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "What treatment would you recommend for early smile lines/nasolabial folds? [Anti-Aging]",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wk3lue/what_treatment_would_you_recommend_for_early/",
+      "published": "2026-09-18T21:52:10+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "[acne] looking for a barrier serum that won’t cause me cystic acne",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wk3586/acne_looking_for_a_barrier_serum_that_wont_cause/",
+      "published": "2026-09-18T21:33:26+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "[Product request] body skin problems?",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wjz9ht/product_request_body_skin_problems/",
+      "published": "2026-09-18T19:05:17+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "[routine help] what helps chin texture?",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wk6vd8/routine_help_what_helps_chin_texture/",
+      "published": "2026-09-19T00:09:12+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "[Product Request] Best hydrating face mist for very acne-prone, easily congested skin?",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wjwu1r/product_request_best_hydrating_face_mist_for_very/",
+      "published": "2026-09-18T17:36:51+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "[MISC] How to get rid of dent on forehead?",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wk55us/misc_how_to_get_rid_of_dent_on_forehead/",
+      "published": "2026-09-18T22:56:09+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "[Routine Help] Strawberry skin since forever.",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wjytf4/routine_help_strawberry_skin_since_forever/",
+      "published": "2026-09-18T18:49:20+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "How can I get rid of dull, uneven skin faster? [Routine help]",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wjy7y4/how_can_i_get_rid_of_dull_uneven_skin_faster/",
+      "published": "2026-09-18T18:27:31+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "[psa] The 5.5 week progression of my basal cell carcinoma lesion",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wiga9t/psa_the_55_week_progression_of_my_basal_cell/",
+      "published": "2026-09-17T01:37:11+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "[Routine Help] Sunscreen for night shift worker?",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wjx1en/routine_help_sunscreen_for_night_shift_worker/",
+      "published": "2026-09-18T17:44:06+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "[Sun Care] looking for a tinted mineral sunscreen with a bit more coverage.",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wjt9xo/sun_care_looking_for_a_tinted_mineral_sunscreen/",
+      "published": "2026-09-18T15:26:18+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "[Routine Help] help me with this routine!!",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wk2n76/routine_help_help_me_with_this_routine/",
+      "published": "2026-09-18T21:13:41+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "[Product question] Question for people who’ve used this below",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wjdylu/product_question_question_for_people_whove_used/",
+      "published": "2026-09-18T02:37:48+00:00",
+      "subreddit": "SkincareAddiction",
+      "feed": "hot"
+    },
+    {
+      "title": "[Anti-Aging] What’s your skincare GOAT?",
+      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wjagoa/antiaging_whats_your_skincare_goat/",
+      "published": "2026-09-17T23:56:42+00:00",
+      "subreddit": "SkincareAddiction",
       "feed": "hot"
     }
   ],

@@ -2,7 +2,7 @@
 title: "Record 08fea56a30 · RoughSense-Lightweight-Terrain-Induced-Rover-Vibrat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T22:23:58.945192+00:00
+updated_at: 2026-09-19T00:25:30.377238+00:00
 tags: [record, real-data]
 ---
 

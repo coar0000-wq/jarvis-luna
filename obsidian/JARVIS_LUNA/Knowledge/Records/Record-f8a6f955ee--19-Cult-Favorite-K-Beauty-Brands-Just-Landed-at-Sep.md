@@ -2,7 +2,7 @@
 title: "Record f8a6f955ee · 19-Cult-Favorite-K-Beauty-Brands-Just-Landed-at-Sep"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T22:23:59.384200+00:00
+updated_at: 2026-09-19T00:25:30.801989+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTVHFoN09DYWF2TW5oeEx3NWlKejVzV3lSUldROGZYaWRld3YtTWZ4Sk1YeTlUMS1fVmw4RkRYMmZETmhiRkNLX1RhczR3OHJZZGJRSmpLamUwdU85V0VqUUlJS0xTOXlu?oc=5)
 
-**제목:** 19 Cult-Favorite K-Beauty Brands Just Landed at Sephora - newbeauty.com
+**제목:** 19 Cult-Favorite K-Beauty Brands Just Landed at Sephora - NewBeauty
 
-19 Cult-Favorite K-Beauty Brands Just Landed at Sephora - newbeauty.com
+19 Cult-Favorite K-Beauty Brands Just Landed at Sephora - NewBeauty
 
 **출처:** Source · Google Search
 

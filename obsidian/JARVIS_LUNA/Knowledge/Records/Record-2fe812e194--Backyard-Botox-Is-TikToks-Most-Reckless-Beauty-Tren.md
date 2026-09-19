@@ -2,7 +2,7 @@
 title: "Record 2fe812e194 · Backyard-Botox-Is-TikToks-Most-Reckless-Beauty-Tren"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T22:23:59.410403+00:00
+updated_at: 2026-09-19T00:25:30.826520+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMicEFVX3lxTE81bXE4QnNUcllxVlE5b0F3WDVrNGFmbG5ZWTN2Z0h0X2FIalVXVTZiUE0wRmViYVdkUDd6RFVqZ1JYUUROWGtBZjRyU3c2MFNGTkpxRElWak5xaW8wNUgteXFHc2R0TnJaRUpta1RjdEw?oc=5)
 
-**제목:** ‘Backyard Botox’ Is TikTok’s Most Reckless Beauty Trend Yet - newbeauty.com
+**제목:** ‘Backyard Botox’ Is TikTok’s Most Reckless Beauty Trend Yet - NewBeauty
 
-‘Backyard Botox’ Is TikTok’s Most Reckless Beauty Trend Yet - newbeauty.com
+‘Backyard Botox’ Is TikTok’s Most Reckless Beauty Trend Yet - NewBeauty
 
 **출처:** Source · Google Search
 

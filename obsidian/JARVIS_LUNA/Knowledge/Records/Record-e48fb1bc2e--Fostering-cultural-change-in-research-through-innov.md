@@ -2,7 +2,7 @@
 title: "Record e48fb1bc2e · Fostering-cultural-change-in-research-through-innov"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T22:23:59.110002+00:00
+updated_at: 2026-09-19T00:25:30.545772+00:00
 tags: [record, real-data]
 ---
 

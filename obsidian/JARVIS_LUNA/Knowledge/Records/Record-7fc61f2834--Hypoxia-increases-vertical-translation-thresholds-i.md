@@ -2,7 +2,7 @@
 title: "Record 7fc61f2834 · Hypoxia-increases-vertical-translation-thresholds-i"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T22:23:59.165367+00:00
+updated_at: 2026-09-19T00:25:30.596490+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 0fcff91774 · Thank-you-Gochujang-881-oz250g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T22:23:59.685310+00:00
+updated_at: 2026-09-19T00:25:31.088655+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** Thank-you Gochujang 8.81 oz.(250g)
 
 Thank-you Gochujang 8.81 oz.(250g)
-Thank-you Gochujang 8.81 oz.(250g)
+Thank-you Gochujang 8.81 oz.(250g) · 평점 5 · 리뷰 1
 
 **출처:** Source · us_beauty
 

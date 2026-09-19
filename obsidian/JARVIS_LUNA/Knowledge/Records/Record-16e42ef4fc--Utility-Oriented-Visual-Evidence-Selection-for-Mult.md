@@ -2,7 +2,7 @@
 title: "Record 16e42ef4fc · Utility-Oriented-Visual-Evidence-Selection-for-Mult"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T22:23:59.644591+00:00
+updated_at: 2026-09-19T00:25:31.042068+00:00
 tags: [record, real-data]
 ---
 

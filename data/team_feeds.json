@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T22:16:07.030658+00:00",
+  "generated_at": "2026-09-19T00:17:08.796835+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
@@ -15,10 +15,10 @@
       "products": 338
     },
     "market": {
-      "total": 479,
-      "recent": 41,
-      "material": 479,
-      "material_recent": 41,
+      "total": 478,
+      "recent": 38,
+      "material": 478,
+      "material_recent": 38,
       "products": 0
     },
     "listing": {
@@ -37,37 +37,37 @@
     },
     "legal": {
       "total": 115,
-      "recent": 18,
+      "recent": 19,
       "material": 115,
-      "material_recent": 18,
+      "material_recent": 19,
       "products": 0
     },
     "design": {
       "total": 358,
-      "recent": 96,
+      "recent": 92,
       "material": 358,
-      "material_recent": 96,
+      "material_recent": 92,
       "products": 0
     },
     "robotics": {
       "total": 59,
-      "recent": 25,
+      "recent": 24,
       "material": 59,
-      "material_recent": 25,
+      "material_recent": 24,
       "products": 0
     },
     "knowledge": {
-      "total": 181,
+      "total": 182,
       "recent": 74,
-      "material": 181,
+      "material": 182,
       "material_recent": 74,
       "products": 0
     },
     "institutions": {
       "total": 1062,
-      "recent": 265,
+      "recent": 254,
       "material": 1062,
-      "material_recent": 265,
+      "material_recent": 254,
       "products": 0
     }
   },
@@ -621,15 +621,15 @@
         "by_hand": false
       },
       {
-        "title": "This Viral K-Beauty Moisturizer Gave Me My Glow Back - Coveteur",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1lMW1VRnVJQk1yMnVKTDVJQzRtYlU4WHJSd3dta0c0QXV5MXBWV01pMExrc0kzRTRVLVd0NzdnZlF1dmppbFQ2TUprX1JJOUdFT0lpWE5jdF9lZXQweHdJanBtcw?oc=5",
+        "title": "This K-Beauty Serum Is ‘More Like A Potent Magic Potion For Rejuvenating Skin’ — And It’s On Sale - shopping.yahoo.com",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSzY0SWNkbUh6NGJHVFlld3FOU2hDT1k2V0hocUxLdTR5d2t6bk1fUTZoejhiRmlydXVmdUhqcHlsU0ZmZFFkbGhKY0gxR294dkZXVEtldHI0MUxiY2U2QVpKbnZRQVZSRllMZGZ0dzRYQXo4NjhKbWRXY29FbURCTThNUkJIamVoTmltOWI4ZnhRVGlyQ05Gdg?oc=5",
         "pool": "google",
         "date": "2026-09-18",
         "by_hand": false
       },
       {
-        "title": "This K-Beauty Serum Is ‘More Like A Potent Magic Potion For Rejuvenating Skin’ — And It’s On Sale - Yahoo",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSzY0SWNkbUh6NGJHVFlld3FOU2hDT1k2V0hocUxLdTR5d2t6bk1fUTZoejhiRmlydXVmdUhqcHlsU0ZmZFFkbGhKY0gxR294dkZXVEtldHI0MUxiY2U2QVpKbnZRQVZSRllMZGZ0dzRYQXo4NjhKbWRXY29FbURCTThNUkJIamVoTmltOWI4ZnhRVGlyQ05Gdg?oc=5",
+        "title": "This Viral K-Beauty Moisturizer Gave Me My Glow Back - Coveteur",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1lMW1VRnVJQk1yMnVKTDVJQzRtYlU4WHJSd3dta0c0QXV5MXBWV01pMExrc0kzRTRVLVd0NzdnZlF1dmppbFQ2TUprX1JJOUdFT0lpWE5jdF9lZXQweHdJanBtcw?oc=5",
         "pool": "google",
         "date": "2026-09-18",
         "by_hand": false
@@ -670,7 +670,7 @@
         "by_hand": false
       },
       {
-        "title": "Two new sunscreens bring the K-beauty inspired upgrade we’ve been waiting for - HOLA",
+        "title": "Two new sunscreens bring the K-beauty inspired upgrade we’ve been waiting for - hola.com",
         "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMHppV0FhcGtxcktoRlEwQ1lTUkNEb3V5bXJGcjZKcW1XREY1b0lXNlZWLVZVVHhkRVZuOE82OVdjdkZpZ1dNSTdrbm51aE9XcDVqOHpBVTl0eDBjdFp5TUhVQ3BWeEppX3VzZEhCczYxOXhZV19vdDJMYWVqV3h2WVUtdjNYeEt6Y0FSSGtsOA?oc=5",
         "pool": "google",
         "date": "2026-09-17",
@@ -728,13 +728,6 @@
       {
         "title": "K-Beauty Body Care: VOESH Brings Facial Skincare Benefits to the Body - Trend Hunter",
         "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE53ci1acDZjOUhmUE9rY3BwQWw2akhqWnVGZ1gzNGQ4dmhSY3EzUWl0VUU2Q0FOU2pCSEdwSGhWLWk5bTRXbFRHcDJyelBjdVMxMEo4VjVPcE5qSUlPWVBMVFZIc1pFMHVESFh2WnJhMA?oc=5",
-        "pool": "google",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "The 19 Most Innovative Skincare Products of the Year - Harper's BAZAAR",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSmNOT09ralZTLXpEZ0xuYXZqTHVOX3RaVXJlWlJqc3VzTV9GOXFnU3NOU1QyNUp6YnNuTTNUbDAzUVBhQUNRVEwwalNrdjB0ZzhwY3JRVEt2T3VjV3Z0YnprNmN6LUtOcVZ0YUx6dkpNU3dETktyMkRCWmlRLWsyRjFBOVlFcGE3?oc=5",
         "pool": "google",
         "date": "2026-09-16",
         "by_hand": false
@@ -803,7 +796,7 @@
         "by_hand": false
       },
       {
-        "title": "The Vogue Business TikTok Trend Tracker - vogue.com",
+        "title": "The Vogue Business TikTok Trend Tracker - Vogue",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9nc2ktNnQxVzlMTjl1MjR5MFYwSkMtVjI1Z0VhZlBLU0JqVlBjdHUyejJCVDV3OE9xYmF3ckhxR2VXLTk1Y3ZScXZfN0VPSU1ManFXYmFUWWxKTDN6cjFXTzk2OGxSVWxDOHIyeXZmRG9jUktfd2FIMg?oc=5",
         "pool": "google",
         "date": "2026-09-11",
@@ -838,7 +831,7 @@
         "by_hand": false
       },
       {
-        "title": "6 Steps to Glass Skin, According to K-Beauty Experts - vogue.com",
+        "title": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
         "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5",
         "pool": "google",
         "date": "2026-09-08",
@@ -859,7 +852,7 @@
         "by_hand": false
       },
       {
-        "title": "Would You Go on a Glowcation? K-Beauty Is Betting So - vogue.com",
+        "title": "Would You Go on a Glowcation? K-Beauty Is Betting So - Vogue",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ01YZ2lKV0VUQzJROHZVVnJZbWM1dkw1TFRGLXFMcUx0dWhaZDJheTIwdE9yaElIUFpmYlJVSXg2UnQ0aDhCOVd3MVZvakhvVWxDWi1wM2hfbGVKbjFaSHJLWjJHYU02M3lwdGRXQVNfSXJGdWVTN0h4V0tvaU9iLUIzbGFmZkFU?oc=5",
         "pool": "google",
         "date": "2026-09-04",
@@ -867,7 +860,14 @@
       },
       {
         "title": "AI in Ecommerce: 7 Key Use Cases for 2026 - Shopify",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1NSTR6RXEtWU80RVVGR2xRNGc4OGYyR0pzUzR1OXV4Y2pnVERwTFBjZHQzenF6WEtaSV9mUzNwcFZJNnVpYkUzLU5nN0Z2WFpzY1FmR0hRYw?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1FWlg2bURFdFgwSGI3WEZIVTA1aVE5S3N2U082MkhGMjVnd1BuYm4xLVZJT3RiWXNheXAwYWg3NFhzVTBEMkNPYm1jaUNMOXBXOVhrSWlvYw?oc=5",
+        "pool": "google",
+        "date": "2026-09-04",
+        "by_hand": false
+      },
+      {
+        "title": "8 best ecommerce AI Website Builder for creating an online store - Hostinger",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBpU29tczMwM1pKaUdZYld0aThjYVRYWlE1c3k2VXc4RDBpUDdLOEx5bDg1OHljdURVUG5Xc25PWUxVZDY0RGl2OEFNM1ZYelFhN3FTVm1ySC1hRFk5amtVbkpudm9ZSFFCaEVQX1hleGRKWHV0d1NzSDhJdw?oc=5",
         "pool": "google",
         "date": "2026-09-04",
         "by_hand": false
@@ -880,14 +880,14 @@
         "by_hand": false
       },
       {
-        "title": "Anti-Blush Is The Moody Yet Wearable Makeup Trend To Try Now - harpersbazaar.com.sg",
+        "title": "Anti-Blush Is The Moody Yet Wearable Makeup Trend To Try Now - Harper's Bazaar Singapore",
         "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9HeW5JcWxfLU1RS2RYYzMxYTAzbGFVQTBvWktyOExud0JYc3dDZFFpQ0NobzMzUnhxR3BjOXVYQnFZaVh5RjZKM1F3QUp5TlZmZTl3OUNCQy1fYzREQmlvUmdTOHZ1X1JXM05HZVJ5MA?oc=5",
         "pool": "google",
         "date": "2026-09-03",
         "by_hand": false
       },
       {
-        "title": "K-Beauty’s Best Masks Are Helping Skincare Fans Achieve a True Glass-Skin Glow in Minutes - Yahoo",
+        "title": "K-Beauty’s Best Masks Are Helping Skincare Fans Achieve a True Glass-Skin Glow in Minutes - shopping.yahoo.com",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUTUzUEwwYzIteVlTcng5Zl9GT3hfTElLcWRGTGVXN09lT01icWhVamUwS1BlREI0YmJCTmdDaW9iRVlKQ0hVOGZ2TTFHY2RhdTFaS3UwelgtT3gxeXY3RnBrTE9RTXRySjFDa3BFWVdMSXo4bTRhdFA2QjB4T2EzNUZuRlBUVFJqQjhtS3RLTko5WGJBbmJseEh3?oc=5",
         "pool": "google",
         "date": "2026-09-02",
@@ -915,7 +915,7 @@
         "by_hand": false
       },
       {
-        "title": "12 Makeup Trends to Experiment With in Fall 2026: Feathery Eyebrows, Barely-There Mascara, & More - teenvogue.com",
+        "title": "12 Makeup Trends to Experiment With in Fall 2026: Feathery Eyebrows, Barely-There Mascara, & More - Teen Vogue",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9OdzQ0OXlSbWVrOW1FUXdtSURIcjVsZnJhNEFleWtxZnRjcDdESjdFZlBXUVR0eEM0Tzg2NDN2M2tqU0pEaXd6TTZBOE5yRkVZR2ZBQU1DNWp1RTlxN2V6UHNHUUFJb28?oc=5",
         "pool": "google",
         "date": "2026-08-31",
@@ -1029,7 +1029,7 @@
         "by_hand": false
       },
       {
-        "title": "K-beauty: top 10 innovative launches spotted at Cosmobeauty Seoul 2026 - premiumbeautynews.com",
+        "title": "K-beauty: top 10 innovative launches spotted at Cosmobeauty Seoul 2026 - Premium Beauty News",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1na3Q5UzFpZk02M1lSWWF3NmZyWWxiaXRudHc3blhnR0tCVGRicWlxQmtsbWJOVmtqSTdkVHZlejV3clZpeXk0bDJZNzdEc3dZMHdsN2NZQWVkVTNqOURiSEFsN2dPZ21SNktjaFpCQmMtN0RrdE51Sg?oc=5",
         "pool": "google",
         "date": "2026-06-06",
@@ -1166,6 +1166,13 @@
         "by_hand": false
       },
       {
+        "title": "GF Blends Recalls Truly AIP All Purpose Flour and Bread Mix, and EAT G.A.N.G.S.T.E.R. Flat Bread Pizza Mix Due to Potential Undeclared Wheat Gluten",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/gf-blends-recalls-truly-aip-all-purpose-flour-and-bread-mix-and-eat-gangster-flat-bread-pizza-mix",
+        "pool": "fda",
+        "date": "2026-09-18",
+        "by_hand": false
+      },
+      {
         "title": "Multi-View Mixture-of-Experts with Vision-Language Reranking for Cross-View Object Geo-Localization",
         "url": "https://doi.org/10.48550/arxiv.2609.18139",
         "pool": "arxiv",
@@ -1203,6 +1210,13 @@
       {
         "title": "So Delicious Dairy Free® Issues Voluntary Recall of Salted Caramel Cluster Non-Dairy Frozen Dessert Pints Due to Potential Presence of Foreign Material",
         "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/so-delicious-dairy-freer-issues-voluntary-recall-salted-caramel-cluster-non-dairy-frozen-dessert",
+        "pool": "fda",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Gias Foods, Inc. Recalls Bettergoods Authentic Italian Lemon Alfredo Fettuccine Because of Possible Health Risk",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/gias-foods-inc-recalls-bettergoods-authentic-italian-lemon-alfredo-fettuccine-because-possible",
         "pool": "fda",
         "date": "2026-09-15",
         "by_hand": false
@@ -1331,20 +1345,6 @@
         "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/lmsi-llckofinas-olive-oil-issues-voluntary-recall-its-garlic-mediterranean-infused-extra-virgin",
         "pool": "fda",
         "date": "2026-08-31",
-        "by_hand": false
-      },
-      {
-        "title": "Northwest Naturals Voluntarily Recalls Two Raw Pet Food Products Because of Possible Salmonella & Listeria Monocytogenes Health Risk",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/northwest-naturals-voluntarily-recalls-two-raw-pet-food-products-because-possible-salmonella",
-        "pool": "fda",
-        "date": "2026-08-28",
-        "by_hand": false
-      },
-      {
-        "title": "Everything Sprouts, LLC Expands Voluntarily Recall to Include Robust Radish Mix Due to Potential E. Coli and Salmonella Risk",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/everything-sprouts-llc-expands-voluntarily-recall-include-robust-radish-mix-due-potential-e-coli-and",
-        "pool": "fda",
-        "date": "2026-08-28",
         "by_hand": false
       },
       {
@@ -1637,7 +1637,7 @@
         "by_hand": true
       },
       {
-        "title": "This UI/UX Redesign Will Teach You More Than 200 Tutorials Combined",
+        "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
         "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
         "pool": "youtube_channel",
         "date": "",
@@ -1784,7 +1784,7 @@
         "by_hand": true
       },
       {
-        "title": "브랜딩 감각을 키우고 싶다면👀 | 사업부터 브랜딩까지 분야별 필독서 추천",
+        "title": "책은 가장 가성비 좋은 인풋입니다 📚  | 브랜드 대표가 직접 고른 브랜딩 필독서",
         "url": "https://www.youtube.com/watch?v=hikTGKo2kZE",
         "pool": "youtube_channel",
         "date": "",
@@ -1826,6 +1826,20 @@
         "by_hand": false
       },
       {
+        "title": "Partnering with Accenture on embedded evaluation",
+        "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+        "pool": "institutions",
+        "date": "2026-09-18",
+        "by_hand": false
+      },
+      {
+        "title": "How Claude is uplifting biomolecular modeling",
+        "url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling",
+        "pool": "institutions",
+        "date": "2026-09-18",
+        "by_hand": false
+      },
+      {
         "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity",
         "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity",
         "pool": "institutions",
@@ -1863,13 +1877,6 @@
       {
         "title": "Introducing the Life Sciences Verification Program",
         "url": "https://www.anthropic.com/news/life-sciences-verification-program",
-        "pool": "institutions",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "How Claude is uplifting biomolecular modeling",
-        "url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling",
         "pool": "institutions",
         "date": "2026-09-17",
         "by_hand": false
@@ -1985,19 +1992,19 @@
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
-      },
-      {
-        "title": "Rethinking Robot Safety in the Age of AI",
-        "url": "https://spectrum.ieee.org/physical-ai-robot-cybersecurity-vicone",
-        "pool": "robotics",
-        "date": "2026-09-16",
-        "by_hand": false
       }
     ],
     "robotics": [
       {
         "title": "Video Friday: Two Birotors Make a Quadrotor",
         "url": "https://spectrum.ieee.org/video-friday-quadrotor-from-birotor",
+        "pool": "robotics",
+        "date": "2026-09-18",
+        "by_hand": false
+      },
+      {
+        "title": "The picks-and-shovels strategy behind the robotics boom",
+        "url": "https://www.therobotreport.com/the-picks-and-shovels-strategy-behind-the-robotics-boom/",
         "pool": "robotics",
         "date": "2026-09-18",
         "by_hand": false
@@ -2117,13 +2124,6 @@
       {
         "title": "Arm to discuss scaling physical AI at RoboBusiness",
         "url": "https://www.therobotreport.com/arm-to-discuss-scaling-physical-ai-at-robobusiness/",
-        "pool": "robotics",
-        "date": "2026-09-14",
-        "by_hand": false
-      },
-      {
-        "title": "Universal Robots launches its seventh generation robot platform at IMTS",
-        "url": "https://www.therobotreport.com/universal-robots-launches-its-seventh-generation-robot-platform-at-imts/",
         "pool": "robotics",
         "date": "2026-09-14",
         "by_hand": false
@@ -2691,6 +2691,13 @@
         "by_hand": false
       },
       {
+        "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
+        "url": "https://openai.com/index/hex-gpt-6-astra",
+        "pool": "institutions",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
         "title": "Modality-Autoregressive World-Action Models",
         "url": "https://arxiv.org/abs/2609.17524",
         "pool": "arxiv",
@@ -2822,13 +2829,6 @@
         "pool": "arxiv",
         "date": "2026-09-13",
         "by_hand": false
-      },
-      {
-        "title": "PC$^2$-AD: Point Cloud Upsampling to Safeguard 3D Anomaly Detection with Resolution-constrained Edge Devices",
-        "url": "https://arxiv.org/abs/2609.14722",
-        "pool": "arxiv",
-        "date": "2026-09-13",
-        "by_hand": false
       }
     ],
     "institutions": [
@@ -2854,8 +2854,50 @@
         "by_hand": false
       },
       {
+        "title": "Partnering with Accenture on embedded evaluation",
+        "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+        "pool": "institutions",
+        "date": "2026-09-18",
+        "by_hand": false
+      },
+      {
+        "title": "How Claude is uplifting biomolecular modeling",
+        "url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling",
+        "pool": "institutions",
+        "date": "2026-09-18",
+        "by_hand": false
+      },
+      {
         "title": "Introducing Grok Voice Transcribe 2.0",
         "url": "https://x.ai/news/grok-voice-transcribe-2",
+        "pool": "institutions",
+        "date": "2026-09-18",
+        "by_hand": false
+      },
+      {
+        "title": "The Opportunities For Investors Amid Higher For Longer Interest Rates",
+        "url": "https://www.goldmansachs.com/insights/the-markets/the-opportunities-for-investors-amid-higher-for-longer-interest-rates",
+        "pool": "institutions",
+        "date": "2026-09-18",
+        "by_hand": false
+      },
+      {
+        "title": "Rich Friedman On The Rise Of Private Markets And Ai Investing",
+        "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/rich-friedman-on-the-rise-of-private-markets-and-ai-investing",
+        "pool": "institutions",
+        "date": "2026-09-18",
+        "by_hand": false
+      },
+      {
+        "title": "Consumer Agents Signal New Phase For Ai Growth",
+        "url": "https://www.goldmansachs.com/insights/articles/consumer-agents-signal-new-phase-for-ai-growth",
+        "pool": "institutions",
+        "date": "2026-09-18",
+        "by_hand": false
+      },
+      {
+        "title": "Citadels Ken Griffin On Ai Us China Tensions And Us Data Centers",
+        "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/citadels-ken-griffin-on-ai-us-china-tensions-and-us-data-centers",
         "pool": "institutions",
         "date": "2026-09-18",
         "by_hand": false
@@ -2875,20 +2917,6 @@
         "by_hand": false
       },
       {
-        "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity",
-        "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity",
-        "pool": "institutions",
-        "date": "2026-09-18",
-        "by_hand": false
-      },
-      {
-        "title": "Citadels Ken Griffin On Ai Us China Tensions And Us Data Centers",
-        "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/citadels-ken-griffin-on-ai-us-china-tensions-and-us-data-centers",
-        "pool": "institutions",
-        "date": "2026-09-18",
-        "by_hand": false
-      },
-      {
         "title": "Maverick Capital Co Cios On Finding The Ai Winners",
         "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/maverick-capital-co-cios-on-finding-the-ai-winners",
         "pool": "institutions",
@@ -2896,22 +2924,8 @@
         "by_hand": false
       },
       {
-        "title": "Consumer Agents Signal New Phase For Ai Growth",
-        "url": "https://www.goldmansachs.com/insights/articles/consumer-agents-signal-new-phase-for-ai-growth",
-        "pool": "institutions",
-        "date": "2026-09-18",
-        "by_hand": false
-      },
-      {
-        "title": "Rich Friedman On The Rise Of Private Markets And Ai Investing",
-        "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/rich-friedman-on-the-rise-of-private-markets-and-ai-investing",
-        "pool": "institutions",
-        "date": "2026-09-18",
-        "by_hand": false
-      },
-      {
-        "title": "The Opportunities For Investors Amid Higher For Longer Interest Rates",
-        "url": "https://www.goldmansachs.com/insights/the-markets/the-opportunities-for-investors-amid-higher-for-longer-interest-rates",
+        "title": "Dipan Patel On Permiras Artisanal Approach To Private Equity",
+        "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/dipan-patel-on-permiras-artisanal-approach-to-private-equity",
         "pool": "institutions",
         "date": "2026-09-18",
         "by_hand": false
@@ -2994,13 +3008,6 @@
         "by_hand": false
       },
       {
-        "title": "How Claude is uplifting biomolecular modeling",
-        "url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling",
-        "pool": "institutions",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
         "title": "Nine in 10 UK manufacturers turn to automation to navigate geopolitical uncertainty | Barclays",
         "url": "https://home.barclays/news/press-releases/20260/090/-nine-in-10-uk-manufacturers-turn-to-automation-to-navigate-geop0/",
         "pool": "institutions",
@@ -3022,8 +3029,8 @@
         "by_hand": false
       },
       {
-        "title": "Iso 20022 Migration",
-        "url": "https://www.jpmorgan.com/insights/payments/fx-cross-border/iso-20022-migration",
+        "title": "Tracking International Payments Midsize Firms Responding Continued Tariff Pressure",
+        "url": "https://www.jpmorgan.com/insights/markets-and-economy/tracking-international-payments-midsize-firms-responding-continued-tariff-pressure",
         "pool": "institutions",
         "date": "2026-09-17",
         "by_hand": false
@@ -3036,6 +3043,13 @@
         "by_hand": false
       },
       {
+        "title": "Adgm Multicurrency Treasury Operations",
+        "url": "https://www.jpmorgan.com/insights/treasury/treasury-management/adgm-multicurrency-treasury-operations",
+        "pool": "institutions",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
         "title": "The Fed Hikes Rates What Happens Now",
         "url": "https://www.jpmorgan.com/insights/podcast-hub/making-sense/the-fed-hikes-rates-what-happens-now",
         "pool": "institutions",
@@ -3043,15 +3057,8 @@
         "by_hand": false
       },
       {
-        "title": "Tracking International Payments Midsize Firms Responding Continued Tariff Pressure",
-        "url": "https://www.jpmorgan.com/insights/markets-and-economy/tracking-international-payments-midsize-firms-responding-continued-tariff-pressure",
-        "pool": "institutions",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "Adgm Multicurrency Treasury Operations",
-        "url": "https://www.jpmorgan.com/insights/treasury/treasury-management/adgm-multicurrency-treasury-operations",
+        "title": "Iso 20022 Migration",
+        "url": "https://www.jpmorgan.com/insights/payments/fx-cross-border/iso-20022-migration",
         "pool": "institutions",
         "date": "2026-09-17",
         "by_hand": false
@@ -3108,6 +3115,13 @@
       {
         "title": "Reimagining advertising with AI",
         "url": "https://openai.com/index/reimagining-advertising-with-ai",
+        "pool": "institutions",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
+        "url": "https://openai.com/index/hex-gpt-6-astra",
         "pool": "institutions",
         "date": "2026-09-16",
         "by_hand": false
@@ -3234,20 +3248,6 @@
       {
         "title": "Recession Soft Landing 2024 Investor Playbook",
         "url": "https://www.morganstanley.com/ideas/recession-soft-landing-2024-investor-playbook",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Thoughts On The Market Desai India Bullish Decade",
-        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-desai-india-bullish-decade",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Institutional Consulting Solutions   Our Insights",
-        "url": "https://www.morganstanley.com/what-we-do/wealth-management/institutional-consulting-solutions/our-insights",
         "pool": "institutions",
         "date": "2026-09-16",
         "by_hand": false

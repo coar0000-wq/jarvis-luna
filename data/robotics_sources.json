@@ -1,14 +1,216 @@
 {
-  "generated_at": "2026-09-18T22:14:37.418921+00:00",
+  "generated_at": "2026-09-19T00:15:37.904979+00:00",
   "generator": "scripts/collect_robotics.py",
   "목적": "옵시디언 주제 '로보틱스' 가 3건뿐이던 문제를 해결한다. 분류기는 정상이었고 수집원에 로봇 자료가 없었던 것이 원인이다.",
   "접근_정책": "arXiv 은 프로그램 접근용 export.arxiv.org 를 제공하며 그 주소만 사용하고 요청 간 3초를 둔다. RSS 두 곳은 robots.txt 허용을 확인했다.",
-  "total": 40,
+  "total": 65,
   "sources": {
     "arxiv": {
-      "status": "skipped",
-      "reason": "export.arxiv.org/robots.txt 가 Disallow: / 다. robots 를 지키기로 해서 받지 않는다.",
-      "items": [],
+      "status": "ok",
+      "reason": "",
+      "경로": "api.openalex.org (robots Allow: /) · export.arxiv.org 에는 요청하지 않는다",
+      "items": [
+        {
+          "title": "XMPIaaS: Towards Cloud Native MPI via Cooperative Process Migration",
+          "summary": "Message Passing Interface (MPI) has been the dominant programming model for High Performance Computing (HPC) for three decades, and as HPC workloads increasingly migrate to cloud infrastructure for scalability and cost efficiency, MPI applications must contend with an execution environment fundamentally unlike traditional supercomputers: ephemeral resources, dynamic pricing and preemptable instanc",
+          "published": "2026-09-15",
+          "url": "https://arxiv.org/abs/2609.16531",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "PipeSwift: Revisiting Pipeline Parallelism for Large-Scale Completion-Oriented Agentic LLM Serving",
+          "summary": "LLM agents execute long-horizon workflows where each model response determines the progress of subsequent tool interactions and environment transitions. Unlike chatbot serving, where TTFT and TPOT SLO constraints are critical, agentic workloads are increasingly governed by completion time. This shift challenges existing LLM serving designs, which are optimized around token-level SLOs. We revisit s",
+          "published": "2026-09-15",
+          "url": "https://doi.org/10.48550/arxiv.2609.16491",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "FlashVector: Agent for Hierarchical Model Serving Stack Optimization",
+          "summary": "Model serving is one of the largest cost drivers in production recommender systems. Maximizing its throughput requires navigating a deeply layered hierarchy: GPU kernels, the ML framework computation graph, the model server, and on-demand feature processing -- each demanding specialized domain expertise. Such cross-layer expertise is inherently difficult to acquire, and does not scale with a workl",
+          "published": "2026-09-15",
+          "url": "https://arxiv.org/abs/2609.17391",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "DeepShare: Assurance-Driven Deep Learning Job Scheduling for Multi-Tenant Clusters",
+          "summary": "Multi-tenant GPU clusters frequently remain underutilized even when tenants experience long queueing delays, because quota control, queue ordering, preemption, and GPU sharing are driven by different local signals. We present DeepShare, a scheduler that uses a continuous tenant-assurance signal to coordinate these decisions at runtime. DeepShare combines elastic quota borrowing, tenant-specific ru",
+          "published": "2026-09-15",
+          "url": "https://arxiv.org/abs/2609.16682",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "Cloud Workflow Scheduling Based on Graph Attention-Driven Hierarchical Reinforcement Learning",
+          "summary": "Dynamic cloud workflow scheduling must balance deadline satisfaction, container utilization, and energy consumption while dealing with stochastic task-execution speeds, placement-dependent communication, and coupled task and container decisions. Workflows are naturally modeled as directed acyclic graphs (DAGs), but conventional vector- or matrix-based states do not fully capture their dependency t",
+          "published": "2026-09-14",
+          "url": "https://doi.org/10.48550/arxiv.2609.14952",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "Stability-Aware Proactive Autoscaling Using a Double Deep Q-Network in Cloud Computing Environments",
+          "summary": "Dynamic workloads and latency-sensitive applications require efficient autoscaling in cloud computing environments. However, most existing approaches rely on reactive mechanisms based on static thresholds, resulting in delayed responses and scaling oscillations under workload uncertainty. To address these limitations, we propose a double deep Q-Network-based proactive autoscaling approach (DDQN-Pr",
+          "published": "2026-09-14",
+          "url": "https://doi.org/10.48550/arxiv.2609.14894",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "Stability-Aware Proactive Autoscaling Using a Double Deep Q-Network in Cloud Computing Environments",
+          "summary": "Dynamic workloads and latency-sensitive applications require efficient autoscaling in cloud computing environments. However, most existing approaches rely on reactive mechanisms based on static thresholds, resulting in delayed responses and scaling oscillations under workload uncertainty. To address these limitations, we propose a double deep Q-Network-based proactive autoscaling approach (DDQN-Pr",
+          "published": "2026-09-14",
+          "url": "https://arxiv.org/abs/2609.14894",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "Cnuas: A Software-Defined AI/HPC Rack-scale Emulation Platform and Hyperscale Data Center Facility Twin",
+          "summary": "Modern AI and HPC systems integrate accelerators, high-speed networks, and management controllers at rack scale. Developing software for this infrastructure typically requires access to scarce, costly hardware, while software abstractions can obscure how workloads depend on resources across servers and accelerators. This paper presents Cnuas, an open-source, experimental rack-scale emulation platf",
+          "published": "2026-09-14",
+          "url": "https://arxiv.org/abs/2609.15889",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "Cloud Workflow Scheduling Based on Graph Attention-Driven Hierarchical Reinforcement Learning",
+          "summary": "Dynamic cloud workflow scheduling must balance deadline satisfaction, container utilization, and energy consumption while dealing with stochastic task-execution speeds, placement-dependent communication, and coupled task and container decisions. Workflows are naturally modeled as directed acyclic graphs (DAGs), but conventional vector- or matrix-based states do not fully capture their dependency t",
+          "published": "2026-09-14",
+          "url": "https://arxiv.org/abs/2609.14952",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "A Threshold Constant for Exact Community Recovery in the Degree-Corrected Poisson Stochastic Block Model",
+          "summary": "We study exact community recovery in the Degree-Corrected Poisson Stochastic Block Model (DC-SBM) through the maximum profile likelihood estimator. Our main contribution is identifying an explicit complexity constant $C(π,S)$, which closely captures the exact recovery threshold. This constant combines a weighted Chernoff--Hellinger separation between communities with a Kullback--Leibler correction",
+          "published": "2026-09-14",
+          "url": "https://arxiv.org/abs/2609.15793",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "Where Should the KV Cache Live? Placement Policies Across GPU, CPU, and SSD for Long-Lived Sessions",
+          "summary": "GPU high bandwidth memory is scarce and expensive, and KV caches consume much of it as chats, agent loops, and document question answering accumulate state. Systems such as Mooncake, LMCache, FlexGen, InfiniGen, and AttentionStore extend GPU memory with CPU DRAM and SSD. The harder question is which blocks belong in each tier, when to move or evict them, and whether prefetching helps. We study the",
+          "published": "2026-09-14",
+          "url": "https://arxiv.org/abs/2609.16215",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "ECAS: An Edge-Controlled Agentic System for Validation-Gated Scientific Application Execution",
+          "summary": "Scientific applications increasingly rely on high-performance computing (HPC), yet translating a scientist's high-level goal into a correct target-scale execution remains brittle and labor-intensive. Large language model (LLM) agents promise to automate this, but two obstacles remain: granting a cloud-hosted model direct HPC access exposes credentials and execution authority, while withholding it ",
+          "published": "2026-09-13",
+          "url": "https://doi.org/10.48550/arxiv.2609.14211",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "When does a scaling result justify a different allocation? A critical review of resource-allocation evidence for AI systems",
+          "summary": "AI scaling studies increasingly evaluate systems that combine a pretrained model with retrieval, search, verification, tools, and interaction. Yet a higher score under a larger budget does not by itself show where additional resources are best spent. This critical integrative review asks when a reported scaling result supports a resource-allocation decision. It compares evidence across pretraining",
+          "published": "2026-09-13",
+          "url": "https://doi.org/10.48550/arxiv.2609.14500",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "ECAS: An Edge-Controlled Agentic System for Validation-Gated Scientific Application Execution",
+          "summary": "Scientific applications increasingly rely on high-performance computing (HPC), yet translating a scientist's high-level goal into a correct target-scale execution remains brittle and labor-intensive. Large language model (LLM) agents promise to automate this, but two obstacles remain: granting a cloud-hosted model direct HPC access exposes credentials and execution authority, while withholding it ",
+          "published": "2026-09-13",
+          "url": "https://arxiv.org/abs/2609.14211",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "When does a scaling result justify a different allocation? A critical review of resource-allocation evidence for AI systems",
+          "summary": "AI scaling studies increasingly evaluate systems that combine a pretrained model with retrieval, search, verification, tools, and interaction. Yet a higher score under a larger budget does not by itself show where additional resources are best spent. This critical integrative review asks when a reported scaling result supports a resource-allocation decision. It compares evidence across pretraining",
+          "published": "2026-09-13",
+          "url": "https://arxiv.org/abs/2609.14500",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "Leakage-Safe and Scheduler-Aware Machine Learning for Grid Job Runtime Prediction",
+          "summary": "Accurate job runtime prediction can improve scheduling-aware resource management in grid and distributed computing environments, but prediction models must be evaluated under realistic deployment constraints. This paper revisits CPU burst time prediction on the GWA-T-4 AuverGrid workload trace and reformulates it as leakage-safe pre-execution job runtime prediction. We define the target as job-lev",
+          "published": "2026-09-12",
+          "url": "https://doi.org/10.48550/arxiv.2609.13701",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "Grouper: Scheduling Groups for Multi-Tenant Microsecond-Scale Microservices",
+          "summary": "Microsecond-scale core allocation makes colocating latency-critical services with batch work worthwhile. A thread that finds no work parks within microseconds and its core goes to a batch task. Putting one back costs $\\sim$18 $μ$s, as the allocator must discover that a core is wanted and then take it from the batch task holding it. A monolith pays that tax once per request, a microservice chain pa",
+          "published": "2026-09-12",
+          "url": "https://doi.org/10.48550/arxiv.2609.14123",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "Leakage-Safe and Scheduler-Aware Machine Learning for Grid Job Runtime Prediction",
+          "summary": "Accurate job runtime prediction can improve scheduling-aware resource management in grid and distributed computing environments, but prediction models must be evaluated under realistic deployment constraints. This paper revisits CPU burst time prediction on the GWA-T-4 AuverGrid workload trace and reformulates it as leakage-safe pre-execution job runtime prediction. We define the target as job-lev",
+          "published": "2026-09-12",
+          "url": "https://arxiv.org/abs/2609.13701",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "Grouper: Scheduling Groups for Multi-Tenant Microsecond-Scale Microservices",
+          "summary": "Microsecond-scale core allocation makes colocating latency-critical services with batch work worthwhile. A thread that finds no work parks within microseconds and its core goes to a batch task. Putting one back costs $\\sim$18 $μ$s, as the allocator must discover that a core is wanted and then take it from the batch task holding it. A monolith pays that tax once per request, a microservice chain pa",
+          "published": "2026-09-12",
+          "url": "https://arxiv.org/abs/2609.14123",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "A Dynamic Vertical Scaling Strategy for Distributed Stream Processing Applications in Edge Computing",
+          "summary": "Distributed Stream Processing applications at the edge must reconcile low latency and high throughput with limited and heterogeneous resources. This paper presents a dynamic vertical scaling strategy based on Proximal Policy Optimization, formulated as a Partially Observable Markov Decision Process. The policy jointly adjusts task allocations and prioritizes compliance with a p95 end-to-end latenc",
+          "published": "2026-09-11",
+          "url": "https://arxiv.org/abs/2609.12975",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "Quality-Constrained Routing over a Fixed Pool of Quantized Mixture-of-Experts Instances",
+          "summary": "Quantized Mixture-of-Experts (MoE) services can hold several pre-materialized instances of one base model, but quantization damage varies sharply across requests and bitwidths. Because instance materialization and replica counts consume memory and require slow reconfiguration, we treat them as upstream provisioning decisions and study routing within a fixed resident pool. Within this fixed-pool bo",
+          "published": "2026-09-11",
+          "url": "https://arxiv.org/abs/2609.12550",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "Efficient Algorithms for Energy-Aware Single-Machine Scheduling with Battery Storage",
+          "summary": "Energy-aware scheduling has become a central challenge in modern manufacturing environments. As industries increasingly aim to reduce operational costs and carbon emissions, aligning production activities with electricity tariffs is increasingly important. The integration of battery energy storage system (BESS) further enhances the potential to reduce energy purchase costs; however, incorporating ",
+          "published": "2026-09-10",
+          "url": "https://arxiv.org/abs/2609.11455",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "Memory Compression for High-Fanout Agent Sandboxes",
+          "summary": "High-fanout agent workloads create a growing memory bottleneck because a single task may spawn many concurrent sandbox sessions. Yet these sandboxes are far from independent: they originate from a shared template and execute related trajectories, exposing substantial template-relative and cross-sandbox memory redundancy. Conventional memory compression is poorly matched to this setting in three fu",
+          "published": "2026-09-10",
+          "url": "https://arxiv.org/abs/2609.11294",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "Avatar: Toward Autonomous End-to-End Orchestration of Scientific Workflows using LLMs",
+          "summary": "Scientific workflow management (WMSs) systems automate execution, yet orchestrate using fixed, hand-tuned rules. LLM agents promise more autonomous orchestration, but it remains unclear where to introduce agentic reasoning, how to bound its risk, and when it actually helps. We present Avatar, an actor-based architecture comprising an orchestrator, an executor, and a provenance monitor. Each actor'",
+          "published": "2026-09-09",
+          "url": "https://arxiv.org/abs/2609.10509",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "ExaServe: Large-Scale LLM Serving on Exascale HPC Systems",
+          "summary": "Cloud-native LLM serving frameworks have made deployment routine in data centers, yet deploying them on leadership-class supercomputers remains an engineering challenge requiring scheduler integration, MPI launch, accelerator selection, node-local weight staging, and platform-specific patches. We present ExaServe, a pip-installable framework that transforms a declarative YAML specification into a ",
+          "published": "2026-09-09",
+          "url": "https://arxiv.org/abs/2609.10812",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        }
+      ],
       "errors": []
     },
     "rss": {

@@ -2,7 +2,7 @@
 title: "Record 697f9e2812 · Korean-Skin-Experts-Reveal-Which-2026-K-Beauty-Tren"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T22:23:59.324623+00:00
+updated_at: 2026-09-19T00:25:30.746215+00:00
 tags: [record, real-data]
 ---
 

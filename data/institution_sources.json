@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-18T22:15:37.312780+00:00",
+  "collected_at": "2026-09-19T00:16:38.535663+00:00",
   "total": 1063,
   "organizations": 35,
   "by_org": {
@@ -54,19 +54,19 @@
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-09-18T22:14:47.522115+00:00"
+      "collected_at": "2026-09-19T00:15:48.587830+00:00"
     },
     "sitemap": {
       "status": "ok",
       "count": 140,
       "failures": [],
-      "collected_at": "2026-09-18T22:15:20.252216+00:00"
+      "collected_at": "2026-09-19T00:16:19.617304+00:00"
     },
     "openalex": {
       "status": "ok",
       "count": 713,
       "failures": [],
-      "collected_at": "2026-09-18T22:15:37.311546+00:00"
+      "collected_at": "2026-09-19T00:16:38.534619+00:00"
     }
   },
   "not_collected": {
@@ -2295,6 +2295,19 @@
       "title_source": "feed"
     },
     {
+      "title": "RADAR: Catch gray failures with anomaly detection",
+      "url": "https://www.databricks.com/blog/radar-catch-gray-failures-anomaly-detection",
+      "date": "2026-09-19",
+      "date_raw": "Sat, 19 Sep 2026 00:00:00 GMT",
+      "summary": "Some of the most damaging outages are the ones your monitoring never flags: a slice...",
+      "org": "Databricks",
+      "category": "데이터분석",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://www.databricks.com/feed",
+      "title_source": "feed"
+    },
+    {
       "title": "Enabling secure, productive work on personal devices",
       "url": "https://www.databricks.com/blog/enabling-secure-productive-work-personal-devices",
       "date": "2026-09-18",
@@ -2404,19 +2417,6 @@
       "date": "2026-09-14",
       "date_raw": "Mon, 14 Sep 2026 23:36:59 GMT",
       "summary": "Every Postgres vendor calls itself \"managed.\" Few of them agree on what that word...",
-      "org": "Databricks",
-      "category": "데이터분석",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://www.databricks.com/feed",
-      "title_source": "feed"
-    },
-    {
-      "title": "Announcing On-Demand State Repartitioning for Apache Spark™ Structured Streaming on Databricks",
-      "url": "https://www.databricks.com/blog/announcing-demand-state-repartitioning-apache-sparktm-structured-streaming-databricks",
-      "date": "2026-09-14",
-      "date_raw": "Mon, 14 Sep 2026 21:04:30 GMT",
-      "summary": "Anyone running stateful Apache Spark™ Structured Streaming queries in production...",
       "org": "Databricks",
       "category": "데이터분석",
       "kind": "발표물",

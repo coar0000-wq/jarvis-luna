@@ -2,7 +2,7 @@
 title: "Record e5c33435d7 · What-Beauty-Trends-Does-2026-Have-in-Store-for-Us--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T22:23:59.366493+00:00
+updated_at: 2026-09-19T00:25:30.785876+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84eEFtX0NpSjJkS2N6eXpUdWdYemJzc0xyYlV6U0tCdWN1VkczaE5aMXhZanItaU9zZ3E3cG9DVS1QaWlDRWNsdWFhbmJ5WUF4SG5aNHFwYV8xbk9MS1ZmQ014YWZhTWM?oc=5)
 
-**제목:** What Beauty Trends Does 2026 Have in Store for Us? - newbeauty.com
+**제목:** What Beauty Trends Does 2026 Have in Store for Us? - NewBeauty
 
-What Beauty Trends Does 2026 Have in Store for Us? - newbeauty.com
+What Beauty Trends Does 2026 Have in Store for Us? - NewBeauty
 
 **출처:** Source · Google Search
 

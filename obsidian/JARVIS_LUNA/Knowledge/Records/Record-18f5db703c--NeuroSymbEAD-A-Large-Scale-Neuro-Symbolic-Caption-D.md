@@ -2,7 +2,7 @@
 title: "Record 18f5db703c · NeuroSymbEAD-A-Large-Scale-Neuro-Symbolic-Caption-Dataset-for-Omni-Dir"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T22:23:59.039982+00:00
+updated_at: 2026-09-19T00:25:30.478724+00:00
 tags: [record, real-data]
 ---
 

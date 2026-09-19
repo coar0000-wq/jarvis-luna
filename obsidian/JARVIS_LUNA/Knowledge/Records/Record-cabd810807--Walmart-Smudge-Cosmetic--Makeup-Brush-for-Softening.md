@@ -2,7 +2,7 @@
 title: "Record cabd810807 · Walmart-Smudge-Cosmetic--Makeup-Brush-for-Softening"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T22:23:59.876802+00:00
+updated_at: 2026-09-19T00:25:31.269575+00:00
 tags: [record, real-data]
 ---
 

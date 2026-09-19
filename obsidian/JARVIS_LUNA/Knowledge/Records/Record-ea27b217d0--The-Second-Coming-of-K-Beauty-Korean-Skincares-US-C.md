@@ -2,7 +2,7 @@
 title: "Record ea27b217d0 · The-Second-Coming-of-K-Beauty-Korean-Skincares-US-C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T22:23:59.387736+00:00
+updated_at: 2026-09-19T00:25:30.805198+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiakFVX3lxTFBDR2cyQzNoU2dKaWlmYVNGUVZwMkhtanNjZFR1T196TzdlNWllQXZubEdmNk9GdkhIZ2xFUFBpU1ktMDI3WU9fdGRnaldRUWZqVllpN0VTcGRyams4R3p6YlowMnpCaXNmMUE?oc=5)
 
-**제목:** The Second Coming of K-Beauty: Korean Skincare's US Comeback - circana.com
+**제목:** The Second Coming of K-Beauty: Korean Skincare's US Comeback - Circana
 
-The Second Coming of K-Beauty: Korean Skincare's US Comeback - circana.com
+The Second Coming of K-Beauty: Korean Skincare's US Comeback - Circana
 
 **출처:** Source · Google Search
 

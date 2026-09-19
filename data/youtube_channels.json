@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T22:16:01.941025+00:00",
+  "generated_at": "2026-09-19T00:17:04.010895+00:00",
   "generator": "scripts/ingest_youtube_channels.py",
   "입력": "data/manual/youtube_channels.txt",
   "robots": "youtube.com/robots.txt 의 Disallow 목록에 /@ 와 /channel/ 은 없다. 막힌 것은 /feeds/videos.xml, /results, /youtubei/ 등이다. 지정된 채널만 하나씩 본다. 2026-09-06 확인.",
@@ -16,7 +16,16 @@
     "sourcing": 1
   },
   "팀_고정": "한 번 정한 팀은 유지한다. 유튜브가 제목을 A/B 로 돌려서 같은 영상이 회차마다 다른 팀으로 가는 일이 있었다.",
-  "제목_바뀐_영상": [],
+  "제목_바뀐_영상": [
+    {
+      "video_id": "hikTGKo2kZE",
+      "before": "브랜딩 감각을 키우고 싶다면👀 | 사업부터 브랜딩까지 분야별 필독서 추천",
+      "after": "책은 가장 가성비 좋은 인풋입니다 📚  | 브랜드 대표가 직접 고른 브랜딩 필독서",
+      "kept_teams": [
+        "design"
+      ]
+    }
+  ],
   "top_by_views": [
     {
       "video_id": "6lSvKk7lTl0",
@@ -45,9 +54,9 @@
     {
       "video_id": "2TlIg3VokY8",
       "title": "The UX Psychology Behind Apps People Can’t Stop Using",
-      "views_text": "506K views",
+      "views_text": "507K views",
       "published_text": "2 months ago",
-      "views": 506000,
+      "views": 507000,
       "url": "https://www.youtube.com/watch?v=2TlIg3VokY8",
       "channel": "uxpeak",
       "teams": [
@@ -80,10 +89,10 @@
     },
     {
       "video_id": "GGg61sdEjeI",
-      "title": "This UI/UX Redesign Will Teach You More Than 200 Tutorials Combined",
-      "views_text": "285K views",
+      "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
+      "views_text": "287K views",
       "published_text": "3 weeks ago",
-      "views": 285000,
+      "views": 287000,
       "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
       "channel": "uxpeak",
       "teams": [
@@ -202,7 +211,7 @@
   "items": [
     {
       "stale": false,
-      "last_ok_at": "2026-09-18T22:15:51.437846+00:00",
+      "last_ok_at": "2026-09-19T00:16:53.603837+00:00",
       "url": "https://www.youtube.com/@uxpeak",
       "note": "UX/UI 리디자인·전환율 (사용자 지정)",
       "team_hint": "design",
@@ -211,14 +220,14 @@
       "subscribers": "125K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-18T22:15:51.437869+00:00",
+      "checked_at": "2026-09-19T00:16:53.603857+00:00",
       "videos": [
         {
           "video_id": "GGg61sdEjeI",
-          "title": "This UI/UX Redesign Will Teach You More Than 200 Tutorials Combined",
-          "views_text": "285K views",
+          "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
+          "views_text": "287K views",
           "published_text": "3 weeks ago",
-          "views": 285000,
+          "views": 287000,
           "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
           "channel": "uxpeak",
           "teams": [
@@ -228,9 +237,9 @@
         {
           "video_id": "2TlIg3VokY8",
           "title": "The UX Psychology Behind Apps People Can’t Stop Using",
-          "views_text": "506K views",
+          "views_text": "507K views",
           "published_text": "2 months ago",
-          "views": 506000,
+          "views": 507000,
           "url": "https://www.youtube.com/watch?v=2TlIg3VokY8",
           "channel": "uxpeak",
           "teams": [
@@ -469,7 +478,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-18T22:15:56.940795+00:00",
+      "last_ok_at": "2026-09-19T00:16:59.010670+00:00",
       "url": "https://www.youtube.com/@%EB%95%A1%ED%81%90%EC%B1%84%EB%84%90",
       "note": "땡스큐레이터 - 스몰 브랜드 브랜딩·수출·견적. 팀은 영상마다 자동 분류",
       "team_hint": "",
@@ -478,11 +487,11 @@
       "subscribers": "18.8K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-18T22:15:56.940811+00:00",
+      "checked_at": "2026-09-19T00:16:59.010685+00:00",
       "videos": [
         {
           "video_id": "hikTGKo2kZE",
-          "title": "브랜딩 감각을 키우고 싶다면👀 | 사업부터 브랜딩까지 분야별 필독서 추천",
+          "title": "책은 가장 가성비 좋은 인풋입니다 📚  | 브랜드 대표가 직접 고른 브랜딩 필독서",
           "views_text": "11K",
           "published_text": "1d ago",
           "views": 11000,

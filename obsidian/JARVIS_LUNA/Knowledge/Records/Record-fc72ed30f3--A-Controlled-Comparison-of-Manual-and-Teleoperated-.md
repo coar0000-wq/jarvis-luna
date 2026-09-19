@@ -2,7 +2,7 @@
 title: "Record fc72ed30f3 · A-Controlled-Comparison-of-Manual-and-Teleoperated-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T22:23:58.983271+00:00
+updated_at: 2026-09-19T00:25:30.416951+00:00
 tags: [record, real-data]
 ---
 

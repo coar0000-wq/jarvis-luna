@@ -2,7 +2,7 @@
 title: "Record 876d031211 · Kendall-Jenners-K-Beauty-Routine-Is-on-SaleHeres-Where-to-Find-It---E-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T22:23:59.494576+00:00
+updated_at: 2026-09-19T00:25:30.909315+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,10 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMijAFBVV95cUxOS2RYOFBCbzU2TVZCQ2l4VXVkb2lRV0pGWUFzYWNweUZDTFVfRHAyNFdRRWRmWXZ1RkNnYlpXVVZXeThNaXJkcG85aFNyVldLaHhOR0NiOVM0MTgzLUhaMF9KZm91cXIyeG9Na2JCZE54QUpxckxNRmxZVEF2WmhMZ2lyVWp3Z2ZYc2xtOQ?oc=5)
 
-**제목:** Kendall Jenner’s K-Beauty Routine Is on Sale—Here’s Where to Find It - de.eonline.com
+**제목:** Kendall Jenner’s K-Beauty Routine Is on Sale—Here’s Where to Find It - E! News
 
-Kendall Jenner’s K-Beauty Routine Is on Sale—Here’s Where to Find It - de.eonline.com
-Kendall Jenner’s K-Beauty Routine Is on Sale—Here’s Where to Find It - de.eonline.com
+Kendall Jenner’s K-Beauty Routine Is on Sale—Here’s Where to Find It - E! News
+Kendall Jenner’s K-Beauty Routine Is on Sale—Here’s Where to Find It - E! News
 
 **출처:** Source · us_beauty
 

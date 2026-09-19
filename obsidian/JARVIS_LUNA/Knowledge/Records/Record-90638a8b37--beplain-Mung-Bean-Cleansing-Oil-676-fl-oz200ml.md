@@ -2,7 +2,7 @@
 title: "Record 90638a8b37 · beplain-Mung-Bean-Cleansing-Oil-676-fl-oz200ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T22:23:59.695629+00:00
+updated_at: 2026-09-19T00:25:31.098423+00:00
 tags: [record, real-data]
 ---
 

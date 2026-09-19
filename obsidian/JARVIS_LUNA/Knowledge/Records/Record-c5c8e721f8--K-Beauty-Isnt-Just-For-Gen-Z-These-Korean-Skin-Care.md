@@ -2,7 +2,7 @@
 title: "Record c5c8e721f8 · K-Beauty-Isnt-Just-For-Gen-Z-These-Korean-Skin-Care"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-18T22:23:59.537013+00:00
+updated_at: 2026-09-19T00:25:30.942877+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,10 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMimwFBVV95cUxNRURKYS1ZekRkbWVwN2g1TTFWd3VkUmtReXFsVFFlbEFlR0cxTXFXd2k5Zkw5WGM0TmRWc0tSS21fWjROdHZMYVI2S3pqOF90QnJNQ242blFzLTNFd0V1NlhQQ1h5UkFYZS1qQ21RQnN0bW5oenpibURlTi1XVmE2R255Mm5Ga0NEUEwyVEhhUzk1LVhKeEVXbm14NNIBoAFBVV95cUxOWVE3UVVwRWxaYWpnVDgxUHdiWUF1YzVsMkJZVFpJZGlOOEpCdXNxX1hjWGJfY0MtelJjZkREVzhMX2VZdkVDd1hJVWdYcHRHenU2Ylh5Z25kN2lGWm5WZTJTeWthWldFbndJTjNYODdlV0FqaFpnYXVFQ0hlU1NSSjhONXZtQmloUndlT3FrVW1tSEV4b3FPNHEycWI3VjZj?oc=5)
 
-**제목:** K-Beauty Isn’t Just For Gen Z. These Korean Skin Care Picks Are Made For Mature Skin - huffpost.com
+**제목:** K-Beauty Isn’t Just For Gen Z. These Korean Skin Care Picks Are Made For Mature Skin - HuffPost
 
-K-Beauty Isn’t Just For Gen Z. These Korean Skin Care Picks Are Made For Mature Skin - huffpost.com
-K-Beauty Isn’t Just For Gen Z. These Korean Skin Care Picks Are Made For Mature Skin - huffpost.com
+K-Beauty Isn’t Just For Gen Z. These Korean Skin Care Picks Are Made For Mature Skin - HuffPost
+K-Beauty Isn’t Just For Gen Z. These Korean Skin Care Picks Are Made For Mature Skin - HuffPost
 
 **출처:** Source · us_beauty
 

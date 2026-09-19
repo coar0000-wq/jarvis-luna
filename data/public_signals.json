@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T22:22:13.928889+00:00",
+  "generated_at": "2026-09-19T00:23:44.811129+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "cubs vs reds",
-          "approx_traffic": "5000+",
-          "traffic_num": 5000,
-          "published": "Fri, 18 Sep 2026 14:50:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=cubs%20vs%20reds"
+          "keyword": "wnba schedule",
+          "approx_traffic": "10000+",
+          "traffic_num": 10000,
+          "published": "Fri, 18 Sep 2026 17:10:00 -0700",
+          "source_name": "WNBA",
+          "url": "https://trends.google.com/trending?geo=US&q=wnba%20schedule"
         },
         {
-          "keyword": "indiana fever",
-          "approx_traffic": "5000+",
-          "traffic_num": 5000,
-          "published": "Fri, 18 Sep 2026 14:50:00 -0700",
-          "source_name": "KGAN",
-          "url": "https://trends.google.com/trending?geo=US&q=indiana%20fever"
+          "keyword": "olivia miles",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Fri, 18 Sep 2026 17:10:00 -0700",
+          "source_name": "Star Tribune",
+          "url": "https://trends.google.com/trending?geo=US&q=olivia%20miles"
         },
         {
-          "keyword": "greenland",
-          "approx_traffic": "5000+",
-          "traffic_num": 5000,
-          "published": "Fri, 18 Sep 2026 14:30:00 -0700",
-          "source_name": "Reuters",
-          "url": "https://trends.google.com/trending?geo=US&q=greenland"
+          "keyword": "banana ball",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Fri, 18 Sep 2026 17:10:00 -0700",
+          "source_name": "FOX 2 Detroit",
+          "url": "https://trends.google.com/trending?geo=US&q=banana%20ball"
         },
         {
-          "keyword": "royals vs pirates",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Fri, 18 Sep 2026 14:50:00 -0700",
+          "keyword": "jahmai jones",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Fri, 18 Sep 2026 17:10:00 -0700",
           "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=royals%20vs%20pirates"
+          "url": "https://trends.google.com/trending?geo=US&q=jahmai%20jones"
         },
         {
-          "keyword": "aaron judge",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Fri, 18 Sep 2026 14:50:00 -0700",
-          "source_name": "MLB.com",
-          "url": "https://trends.google.com/trending?geo=US&q=aaron%20judge"
+          "keyword": "will hammond",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Fri, 18 Sep 2026 17:10:00 -0700",
+          "source_name": "247Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=will%20hammond"
         },
         {
-          "keyword": "daejon love",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Fri, 18 Sep 2026 14:40:00 -0700",
+          "keyword": "carson beck",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Fri, 18 Sep 2026 17:00:00 -0700",
+          "source_name": "The Mercury News",
+          "url": "https://trends.google.com/trending?geo=US&q=carson%20beck"
+        },
+        {
+          "keyword": "josé urquidy",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Fri, 18 Sep 2026 17:00:00 -0700",
           "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=daejon%20love"
+          "url": "https://trends.google.com/trending?geo=US&q=jos%C3%A9%20urquidy"
         },
         {
-          "keyword": "joe rogan",
+          "keyword": "kelsey mitchell",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Fri, 18 Sep 2026 14:50:00 -0700",
-          "source_name": "Yahoo",
-          "url": "https://trends.google.com/trending?geo=US&q=joe%20rogan"
+          "published": "Fri, 18 Sep 2026 17:00:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=kelsey%20mitchell"
         },
         {
-          "keyword": "martha maccallum",
+          "keyword": "stephanie cole",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Fri, 18 Sep 2026 14:50:00 -0700",
-          "source_name": "Fox News",
-          "url": "https://trends.google.com/trending?geo=US&q=martha%20maccallum"
+          "published": "Fri, 18 Sep 2026 17:00:00 -0700",
+          "source_name": "BBC",
+          "url": "https://trends.google.com/trending?geo=US&q=stephanie%20cole"
         },
         {
-          "keyword": "adamari lópez",
+          "keyword": "isabelle harrison",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Fri, 18 Sep 2026 14:40:00 -0700",
-          "source_name": "Univision",
-          "url": "https://trends.google.com/trending?geo=US&q=adamari%20l%C3%B3pez"
-        },
-        {
-          "keyword": "houston vs texas tech",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Fri, 18 Sep 2026 14:40:00 -0700",
-          "source_name": "FOX Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=houston%20vs%20texas%20tech"
+          "published": "Fri, 18 Sep 2026 17:00:00 -0700",
+          "source_name": "Idaho Press",
+          "url": "https://trends.google.com/trending?geo=US&q=isabelle%20harrison"
         }
       ]
     },
@@ -96,87 +96,87 @@
       "status": "ok",
       "reason": "",
       "source": "wikimedia.org REST pageviews API (공식)",
-      "note": "2026-08-18 ~ 2026-09-16 일별 조회수. 후반 15일 대비 전반 15일 증감률",
+      "note": "2026-08-19 ~ 2026-09-17 일별 조회수. 후반 15일 대비 전반 15일 증감률",
       "errors": [],
       "items": [
         {
-          "topic": "Hyaluronic acid",
-          "days": 30,
-          "total_views": 17714,
-          "avg_daily": 590,
-          "recent_avg": 623,
-          "prev_avg": 558,
-          "change_pct": 11.6,
-          "url": "https://en.wikipedia.org/wiki/Hyaluronic_acid"
-        },
-        {
           "topic": "Niacinamide",
           "days": 30,
-          "total_views": 1331,
-          "avg_daily": 44,
-          "recent_avg": 45,
+          "total_views": 1458,
+          "avg_daily": 49,
+          "recent_avg": 53,
           "prev_avg": 44,
-          "change_pct": 1.7,
+          "change_pct": 19.9,
           "url": "https://en.wikipedia.org/wiki/Niacinamide"
+        },
+        {
+          "topic": "Hyaluronic acid",
+          "days": 30,
+          "total_views": 17853,
+          "avg_daily": 595,
+          "recent_avg": 631,
+          "prev_avg": 559,
+          "change_pct": 12.8,
+          "url": "https://en.wikipedia.org/wiki/Hyaluronic_acid"
         },
         {
           "topic": "Retinol",
           "days": 30,
-          "total_views": 11489,
-          "avg_daily": 383,
-          "recent_avg": 384,
-          "prev_avg": 382,
-          "change_pct": 0.5,
+          "total_views": 11414,
+          "avg_daily": 380,
+          "recent_avg": 386,
+          "prev_avg": 375,
+          "change_pct": 3.0,
           "url": "https://en.wikipedia.org/wiki/Retinol"
-        },
-        {
-          "topic": "Cosmetics",
-          "days": 30,
-          "total_views": 20647,
-          "avg_daily": 688,
-          "recent_avg": 678,
-          "prev_avg": 698,
-          "change_pct": -2.8,
-          "url": "https://en.wikipedia.org/wiki/Cosmetics"
-        },
-        {
-          "topic": "Centella asiatica",
-          "days": 30,
-          "total_views": 14961,
-          "avg_daily": 499,
-          "recent_avg": 487,
-          "prev_avg": 511,
-          "change_pct": -4.7,
-          "url": "https://en.wikipedia.org/wiki/Centella_asiatica"
         },
         {
           "topic": "Sunscreen",
           "days": 30,
-          "total_views": 15523,
-          "avg_daily": 517,
-          "recent_avg": 505,
-          "prev_avg": 530,
-          "change_pct": -4.8,
+          "total_views": 15537,
+          "avg_daily": 518,
+          "recent_avg": 512,
+          "prev_avg": 524,
+          "change_pct": -2.3,
           "url": "https://en.wikipedia.org/wiki/Sunscreen"
+        },
+        {
+          "topic": "Centella asiatica",
+          "days": 30,
+          "total_views": 14920,
+          "avg_daily": 497,
+          "recent_avg": 489,
+          "prev_avg": 506,
+          "change_pct": -3.5,
+          "url": "https://en.wikipedia.org/wiki/Centella_asiatica"
+        },
+        {
+          "topic": "Cosmetics",
+          "days": 30,
+          "total_views": 20746,
+          "avg_daily": 692,
+          "recent_avg": 678,
+          "prev_avg": 705,
+          "change_pct": -3.9,
+          "url": "https://en.wikipedia.org/wiki/Cosmetics"
         },
         {
           "topic": "Snail slime",
           "days": 30,
-          "total_views": 2180,
+          "total_views": 2201,
           "avg_daily": 73,
           "recent_avg": 70,
-          "prev_avg": 76,
-          "change_pct": -8.1,
+          "prev_avg": 77,
+          "change_pct": -9.8,
           "url": "https://en.wikipedia.org/wiki/Snail_slime"
         },
         {
           "topic": "K-beauty",
           "days": 30,
-          "total_views": 3857,
-          "avg_daily": 129,
-          "recent_avg": 119,
-          "prev_avg": 139,
-          "change_pct": -14.4,
+          "total_views": 3886,
+          "avg_daily": 130,
+          "recent_avg": 121,
+          "prev_avg": 138,
+          "change_pct": -12.3,
           "url": "https://en.wikipedia.org/wiki/K-beauty"
         }
       ]
