@@ -2,7 +2,7 @@
 title: "Record 53ea3ef212 · Is-Shipyard-Welding-the-Right-First-Job-for-Humanoi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T08:40:41.716919+00:00
+updated_at: 2026-09-19T11:01:44.054958+00:00
 tags: [record, real-data]
 ---
 

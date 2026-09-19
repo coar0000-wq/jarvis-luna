@@ -2,7 +2,7 @@
 title: "Record 0bdb529d98 · Real-time-Puncture-Detection-and-Recovery-for-Pneum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T08:40:41.042063+00:00
+updated_at: 2026-09-19T11:01:40.896176+00:00
 tags: [record, real-data]
 ---
 

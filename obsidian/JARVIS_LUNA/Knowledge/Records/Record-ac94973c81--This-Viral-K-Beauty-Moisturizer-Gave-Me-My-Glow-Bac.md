@@ -2,7 +2,7 @@
 title: "Record ac94973c81 · This-Viral-K-Beauty-Moisturizer-Gave-Me-My-Glow-Back---Coveteur"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T08:40:41.420154+00:00
+updated_at: 2026-09-19T11:01:43.852310+00:00
 tags: [record, real-data]
 ---
 
@@ -13,9 +13,10 @@ tags: [record, real-data]
 **제목:** This Viral K-Beauty Moisturizer Gave Me My Glow Back - Coveteur
 
 This Viral K-Beauty Moisturizer Gave Me My Glow Back - Coveteur
+This Viral K-Beauty Moisturizer Gave Me My Glow Back - Coveteur
 
-**출처:** Source · Google Search
+**출처:** Source · us_beauty
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[마케팅광고]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[마케팅광고]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

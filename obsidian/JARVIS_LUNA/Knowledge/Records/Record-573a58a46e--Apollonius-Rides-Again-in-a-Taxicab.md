@@ -2,7 +2,7 @@
 title: "Record 573a58a46e · Apollonius-Rides-Again-in-a-Taxicab"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T08:40:41.184458+00:00
+updated_at: 2026-09-19T11:01:43.673233+00:00
 tags: [record, real-data]
 ---
 

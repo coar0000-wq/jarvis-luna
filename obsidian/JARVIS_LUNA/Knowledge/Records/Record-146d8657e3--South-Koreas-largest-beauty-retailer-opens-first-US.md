@@ -2,7 +2,7 @@
 title: "Record 146d8657e3 · South-Koreas-largest-beauty-retailer-opens-first-US"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T08:40:41.593165+00:00
+updated_at: 2026-09-19T11:01:43.972593+00:00
 tags: [record, real-data]
 ---
 

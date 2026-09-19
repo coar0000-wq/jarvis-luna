@@ -2,7 +2,7 @@
 title: "Record dbb7171643 · Pout-Preserve-Chillers-Peptide-Lip-Treatment"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T08:40:41.920065+00:00
+updated_at: 2026-09-19T11:01:44.191518+00:00
 tags: [record, real-data]
 ---
 

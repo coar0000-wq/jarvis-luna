@@ -2,7 +2,7 @@
 title: "Record 2075777ec9 · K-beautys-Next-Chapter-Amorepacific-CEO-Sean-Kim-on"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T08:40:41.597179+00:00
+updated_at: 2026-09-19T11:01:43.975154+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1bb019d239 · Closure-Scales-and-a-Route-to-Geometrical-Unification-Intrinsic-Closur"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T08:40:41.330607+00:00
+updated_at: 2026-09-19T11:01:43.790880+00:00
 tags: [record, real-data]
 ---
 

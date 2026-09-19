@@ -2,7 +2,7 @@
 title: "Record 9b04816d0c · Summer-Review-Fall-Preview-Market-Insights"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T08:40:41.848862+00:00
+updated_at: 2026-09-19T11:01:44.141777+00:00
 tags: [record, real-data]
 ---
 

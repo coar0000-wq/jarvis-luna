@@ -2,7 +2,7 @@
 title: "Record 63ba306570 · UNOVE-Deep-Damage-Repair-Hair-Mask-Tender-Bloom-699"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T08:40:41.733362+00:00
+updated_at: 2026-09-19T11:01:44.065107+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)
 
 UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)
-UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml) · 평점 5 · 리뷰 3
+UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml) · 평점 5 · 리뷰 4
 
 **출처:** Source · us_beauty
 

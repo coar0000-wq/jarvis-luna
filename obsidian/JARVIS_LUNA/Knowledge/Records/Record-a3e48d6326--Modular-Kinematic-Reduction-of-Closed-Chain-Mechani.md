@@ -2,7 +2,7 @@
 title: "Record a3e48d6326 · Modular-Kinematic-Reduction-of-Closed-Chain-Mechani"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T08:40:41.072312+00:00
+updated_at: 2026-09-19T11:01:40.965811+00:00
 tags: [record, real-data]
 ---
 

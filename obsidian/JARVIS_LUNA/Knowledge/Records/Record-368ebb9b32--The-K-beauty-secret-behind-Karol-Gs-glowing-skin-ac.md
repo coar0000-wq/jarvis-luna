@@ -2,7 +2,7 @@
 title: "Record 368ebb9b32 · The-K-beauty-secret-behind-Karol-Gs-glowing-skin-according-to-her-esth"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T08:40:41.632501+00:00
+updated_at: 2026-09-19T11:01:43.999807+00:00
 tags: [record, real-data]
 ---
 

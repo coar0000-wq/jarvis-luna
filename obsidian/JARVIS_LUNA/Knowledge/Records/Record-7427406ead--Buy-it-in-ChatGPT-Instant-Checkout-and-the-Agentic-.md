@@ -2,7 +2,7 @@
 title: "Record 7427406ead · Buy-it-in-ChatGPT-Instant-Checkout-and-the-Agentic-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T08:40:41.403466+00:00
+updated_at: 2026-09-19T11:01:43.840923+00:00
 tags: [record, real-data]
 ---
 

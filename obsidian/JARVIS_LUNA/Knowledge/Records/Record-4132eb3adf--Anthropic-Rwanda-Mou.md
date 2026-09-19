@@ -2,7 +2,7 @@
 title: "Record 4132eb3adf · Anthropic-Rwanda-Mou"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T08:40:41.803838+00:00
+updated_at: 2026-09-19T11:01:44.111370+00:00
 tags: [record, real-data]
 ---
 

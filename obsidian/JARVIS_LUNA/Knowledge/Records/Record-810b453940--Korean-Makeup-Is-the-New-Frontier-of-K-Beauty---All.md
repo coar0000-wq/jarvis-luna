@@ -2,7 +2,7 @@
 title: "Record 810b453940 · Korean-Makeup-Is-the-New-Frontier-of-K-Beauty---All"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T08:40:41.406990+00:00
+updated_at: 2026-09-19T11:01:43.843299+00:00
 tags: [record, real-data]
 ---
 

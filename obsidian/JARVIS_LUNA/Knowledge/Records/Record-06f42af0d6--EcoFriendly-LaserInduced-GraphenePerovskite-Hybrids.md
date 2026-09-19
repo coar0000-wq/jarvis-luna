@@ -2,7 +2,7 @@
 title: "Record 06f42af0d6 · EcoFriendly-LaserInduced-GraphenePerovskite-Hybrids"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T08:40:41.128717+00:00
+updated_at: 2026-09-19T11:01:42.264103+00:00
 tags: [record, real-data]
 ---
 

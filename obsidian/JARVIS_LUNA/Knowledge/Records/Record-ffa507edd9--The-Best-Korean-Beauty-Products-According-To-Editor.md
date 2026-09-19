@@ -2,7 +2,7 @@
 title: "Record ffa507edd9 · The-Best-Korean-Beauty-Products-According-To-Editor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T08:40:41.413697+00:00
+updated_at: 2026-09-19T11:01:43.847984+00:00
 tags: [record, real-data]
 ---
 

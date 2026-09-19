@@ -2,7 +2,7 @@
 title: "Record 0009579429 · Shop-Top-Hair-Skin-Care-and-Makeup-Products-and-Tools-Vetted-by-Allure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T08:40:41.761449+00:00
+updated_at: 2026-09-19T11:01:44.082678+00:00
 tags: [record, real-data]
 ---
 

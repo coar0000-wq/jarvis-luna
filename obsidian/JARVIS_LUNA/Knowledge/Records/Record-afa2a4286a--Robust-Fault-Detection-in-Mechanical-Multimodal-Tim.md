@@ -2,7 +2,7 @@
 title: "Record afa2a4286a · Robust-Fault-Detection-in-Mechanical-Multimodal-Time-Series-via-Self-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T08:40:41.278882+00:00
+updated_at: 2026-09-19T11:01:43.752573+00:00
 tags: [record, real-data]
 ---
 
