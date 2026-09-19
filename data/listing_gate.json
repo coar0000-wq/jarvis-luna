@@ -1,14 +1,14 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-19T08:38:57.110422+00:00",
+  "generated_at": "2026-09-19T10:17:08.371852+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "semantic_sources": {
       "data/product_master.json": "6520254f9025e01d35bd2102c36d85b264761062f8a243d6c0e7d1aea2ee66c9",
-      "data/gosi.json": "31dd4d2d147adbafaa9ba7b1e26bcffc13294e0140454deb9e488b01a6f3f2a3",
-      "data/daiso_real/daiso_us_labels.json": "f704ad035ea5b9eb93781ce4802a045dc6becaf77ac51c95207c0f9148c41bd5",
+      "data/gosi.json": "047100af634858a30fee03474af5d0f97674fc0525963d0f88df5a2e412ccc00",
+      "data/daiso_real/daiso_us_labels.json": "5176a28ffe2e63f58488dfb0eb7ac39696266a31dc9872e51583751f28c051d7",
       "data/pricing_model.json": "222720303314dacd9580ca7cf65836a5493ec520981ae1dae760511f0cb28816",
-      "data/legal_products.json": "2ac143faa1c39514d0414b62c1600d0d42d97780ded0e519f20fb0ca339f8873"
+      "data/legal_products.json": "f414be29980d2f71eaa7da78b1d007a85c3edd78b2d3c19950e5920e8e4cb235"
     },
     "recommendations_sha256": "cbc54a3da769783190e25405d444695ae04b1446799a24340b07f0ac8eac2e7d"
   },
@@ -595,16 +595,16 @@
       "copy": {},
       "copy_status": "missing",
       "gosi": {
-        "volume": "",
+        "volume": "200ml",
         "maker": "",
-        "origin": "",
+        "origin": "한국",
         "ingredients": "",
         "gosi_ok": false
       },
       "us_label": {
-        "net_contents": "",
+        "net_contents": "200ml",
         "manufacturer": "",
-        "country_of_origin": "",
+        "country_of_origin": "Korea",
         "ingredients_inci": "",
         "us_label_ok": false
       },
