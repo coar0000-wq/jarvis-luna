@@ -265,7 +265,6 @@ jobs:
           python -u scripts/daiso/exclude_unprofitable.py --restore --apply
 
       - name: 제외 반영해 점수·원가 다시 계산
-        continue-on-error: true
         run: |
           python -u scripts/build_product_master.py --inject-s
           python -u scripts/daiso/score_shopify_demand.py
@@ -273,13 +272,11 @@ jobs:
           python -u scripts/pricing_model.py
 
       - name: Legal auto-check (claims / functional / OTC / label)
-        continue-on-error: true
         run: |
           python -u scripts/check_legal_products.py
           python -u scripts/build_legal_full.py
 
       - name: Build listing gate (copy/gosi/price/legal)
-        continue-on-error: true
         run: python scripts/build_listing_gate.py
 
       - name: 수출 서류 자동 준비 (HS코드·라벨 시안)
@@ -289,10 +286,12 @@ jobs:
           python -u scripts/prepare_legal_export.py
           python -u scripts/build_legal_full.py
 
-      - name: Product Master 게이트 동기화 + Shopify 운영 4종 Export
+      - name: Product Master 게이트 동기화 + Shopify Export·Action 큐
         run: |
+          python -u scripts/build_listing_gate.py
           python -u scripts/build_product_master.py --inject-s
           python -u scripts/export_shopify_operational.py
+          python -u scripts/build_shopify_action_queue.py
 
       # =========================
       # BRAND / MARKETING
@@ -337,7 +336,9 @@ jobs:
         run: |
           python -u scripts/build_error_report.py
           python -u scripts/health_check_v2.py
-          python -u scripts/validate_commerce_architecture.py
+
+      - name: Commerce ontology·Action 안전 검증
+        run: python -u scripts/validate_commerce_architecture.py
 
       # =========================
       # INITIAL RUNTIME
@@ -460,7 +461,7 @@ jobs:
       # =========================
 
       - name: 산출물 발행 (원격 최신 위에 이번 변경만)
-        if: always()
+        if: success()
         uses: ./.github/actions/publish
         with:
           paths: data obsidian

@@ -17,6 +17,7 @@
 
 from __future__ import annotations
 
+import hashlib
 import json
 import re
 from datetime import datetime, timezone
@@ -43,6 +44,55 @@ _PLACEHOLDER_RE = re.compile(
 )
 
 _GOSI_REQ = ("ingredients", "volume", "maker", "origin")
+_CP_RE = re.compile(r"^CP\d{6}$")
+
+
+def _sha256_bytes(value: bytes) -> str:
+    return hashlib.sha256(value).hexdigest()
+
+
+def _recommendation_signature(rows: list[dict]) -> str:
+    semantic = [{
+        "pd_no": str(x.get("pd_no") or x.get("product_id") or ""),
+        "grade": x.get("grade"),
+        "rank": x.get("rank"),
+        "name": x.get("name"),
+        "shopify_score": x.get("shopify_score"),
+    } for x in rows]
+    raw = json.dumps(semantic, ensure_ascii=False, sort_keys=True,
+                     separators=(",", ":")).encode("utf-8")
+    return _sha256_bytes(raw)
+
+
+def _agent_input_signature(recommendations: list[dict]) -> dict[str, Any]:
+    def doc(path: Path) -> dict:
+        try:
+            value = json.loads(path.read_text(encoding="utf-8-sig"))
+            return value if isinstance(value, dict) else {}
+        except (OSError, json.JSONDecodeError, UnicodeDecodeError):
+            return {}
+
+    master = doc(PRODUCT_MASTER)
+    gosi = doc(GOSI)
+    labels = doc(LABELS)
+    pricing = doc(PRICING)
+    legal = doc(LEGAL)
+    semantic = {
+        "data/product_master.json": master.get("pd_no_to_cp") or {},
+        "data/gosi.json": gosi.get("items") or {},
+        "data/daiso_real/daiso_us_labels.json": labels.get("items") or labels,
+        "data/pricing_model.json": (pricing.get("offers_by_product") or {}).get("single") or [],
+        "data/legal_products.json": legal.get("items") or {},
+    }
+    hashes = {}
+    for path, value in semantic.items():
+        raw = json.dumps(value, ensure_ascii=False, sort_keys=True,
+                         separators=(",", ":")).encode("utf-8")
+        hashes[path] = _sha256_bytes(raw)
+    return {
+        "semantic_sources": hashes,
+        "recommendations_sha256": _recommendation_signature(recommendations),
+    }
 
 
 def load_json(path: Path, default: Any) -> Any:
@@ -98,6 +148,7 @@ def main() -> int:
         row for row in recommendation_doc.get("recommendations", [])
         if isinstance(row, dict) and row.get("grade") == "S"
     ]
+    agent_input_signature = _agent_input_signature(recommendations)
 
     # 팔지 않기로 한 것은 게이트에 올리지 않는다. (2026-09-13)
     # products.json 에서 빼도 추천 파일은 그대로라서, 뺀 상품이 계속
@@ -143,6 +194,7 @@ def main() -> int:
 
     results: list[dict[str, Any]] = []
     blocker_counts = {
+        "ontology": 0,
         "copy": 0,
         "gosi": 0,
         "us_label": 0,
@@ -159,6 +211,14 @@ def main() -> int:
         legal = legal_by_id.get(pd_no, {})
         legal_full = legal_full_by_id.get(pd_no, {})
         kr = gosi_by_id.get(pd_no, {})
+        canonical_product_id = (
+            product.get("canonical_product_id") or cp_registry.get(pd_no)
+        )
+        has_ontology = bool(
+            canonical_product_id
+            and _CP_RE.fullmatch(str(canonical_product_id))
+            and cp_registry.get(pd_no) == str(canonical_product_id)
+        )
 
         has_copy = (
             copy_row.get("copy_status") == "ok"
@@ -186,7 +246,22 @@ def main() -> int:
         hard_legal_block = bool(legal.get("hard_block"))
         has_legal = bool(legal) and not hard_legal_block
 
+        agent_blocked_by: list[str] = []
+        if not has_ontology:
+            agent_blocked_by.append("ontology")
+        if not has_gosi:
+            agent_blocked_by.append("gosi")
+        if not has_us_label:
+            agent_blocked_by.append("us_label")
+        if not has_price:
+            agent_blocked_by.append("price")
+        if not has_legal:
+            agent_blocked_by.append("legal")
+
         blocked_by: list[str] = []
+        if not has_ontology:
+            blocked_by.append("ontology")
+            blocker_counts["ontology"] += 1
         if not has_copy:
             blocked_by.append("copy")
             blocker_counts["copy"] += 1
@@ -209,9 +284,7 @@ def main() -> int:
 
         results.append({
             "rank": product.get("rank", rank),
-            "canonical_product_id": (
-                product.get("canonical_product_id") or cp_registry.get(pd_no)
-            ),
+            "canonical_product_id": canonical_product_id,
             "pd_no": pd_no,
             "product_id": pd_no,
             "name": product.get("name", ""),
@@ -245,6 +318,8 @@ def main() -> int:
                 "hard_block": hard_legal_block,
                 "hard_block_reason": legal.get("hard_block_reason", ""),
             },
+            "agent_ready": not agent_blocked_by,
+            "agent_blocked_by": agent_blocked_by,
             "ready": not blocked_by,
             "blocked_by": blocked_by,
             "public_ready": not public_blocked_by,
@@ -253,6 +328,7 @@ def main() -> int:
         })
 
     total = len(results)
+    agent_ready = sum(1 for row in results if row["agent_ready"])
     ready = sum(1 for row in results if row["ready"])
     public_ready = sum(1 for row in results if row["public_ready"])
     generated_at = datetime.now(timezone.utc).isoformat()
@@ -261,11 +337,14 @@ def main() -> int:
         "schema_version": 3,
         "generated_at": generated_at,
         "source": "data/daiso_real/shopify_s_recommendations.json",
+        "agent_input_signature": agent_input_signature,
         "total": total,
+        "agent_ready": agent_ready,
         "ready": ready,
         "draft_ready": ready,
         "public_ready": public_ready,
         "counts": {
+            "ontology": total - blocker_counts["ontology"],
             "copy": total - blocker_counts["copy"],
             "gosi": total - blocker_counts["gosi"],
             "us_label": total - blocker_counts["us_label"],
@@ -276,8 +355,9 @@ def main() -> int:
         "blockers": {key: value for key, value in blocker_counts.items() if value},
         "count": total,
         "note": (
-            "gosi=한국 고시 4항목, us_label=영문 라벨(플레이스홀더 제외), "
-            "legal=자동 하드블록, legal_full=MoCRA/FPLA 공개 필드. "
+            "ontology=CP 정본 조인, gosi=한국 고시 4항목, "
+            "us_label=영문 라벨(플레이스홀더 제외), legal=자동 하드블록, "
+            "legal_full=MoCRA/FPLA 공개 필드. agent_ready는 LLM 입력 자격, "
             "ready는 Shopify 초안 준비, public_ready는 공개 판매 준비 건수."
         ),
         "items": results,
@@ -302,6 +382,8 @@ def main() -> int:
         row["canonical_product_id"] = (
             row.get("canonical_product_id") or cp_registry.get(pd_no)
         )
+        row["agent_ready"] = bool(gate_row["agent_ready"])
+        row["agent_blocked_by"] = list(gate_row["agent_blocked_by"])
         row["registerable"] = bool(gate_row["ready"])
         row["blocked_by"] = list(gate_row["blocked_by"])
         row["public_ready"] = bool(gate_row["public_ready"])
@@ -310,6 +392,7 @@ def main() -> int:
         row["gate_generated_at"] = generated_at
         changed = True
     if changed:
+        recommendation_doc["agent_ready_count"] = agent_ready
         recommendation_doc["registerable_count"] = ready
         recommendation_doc["registerable_source"] = "data/listing_gate.json"
         RECOMMENDATIONS.write_text(
@@ -318,7 +401,8 @@ def main() -> int:
         )
 
     print(
-        f"listing_gate 생성 완료: total={total}, draft_ready={ready}, public_ready={public_ready}, "
+        f"listing_gate 생성 완료: total={total}, agent_ready={agent_ready}, "
+        f"draft_ready={ready}, public_ready={public_ready}, "
         f"blockers={output['blockers']}"
     )
     return 0

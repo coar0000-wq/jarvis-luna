@@ -696,15 +696,17 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
         s_total = len(s_rows) or (((score or {}).get("grade_summary") or {}).get("S") or 0)
         # 등록 가능 여부는 게이트가 한 곳에서 계산한다.
         gate = load_json(D / "listing_gate.json", None)
+        action_queue = load_json(D / "shopify_action_queue.json", {}) or {}
         if gate:
             c = gate.get("counts") or {}
             blk = gate.get("blockers") or {}
             # price 를 '실측' 이라 적어놨었다. 저울로 잰다는 뜻으로 읽혀서
             # 오해를 준다. 무게는 고시 용량으로 계산하고, 이 항목이 보는 건
             # 손익분기를 넘는 판매가가 실제로 나왔는지다.
-            LABEL = {"copy": "카피", "gosi": "고시", "price": "가격", "legal": "법률"}
+            LABEL = {"ontology": "CP", "copy": "카피", "gosi": "고시",
+                     "us_label": "영문라벨", "price": "가격", "legal": "법률"}
             detail = " · ".join(f'{LABEL.get(k, k)} {c.get(k, 0)}'
-                                for k in ("copy", "gosi", "price", "legal"))
+                                for k in ("ontology", "copy", "gosi", "price", "legal"))
             top = ", ".join(f'{LABEL.get(k, k)} {v}건' for k, v in list(blk.items())[:3])
             public_ready = gate.get("public_ready")
             if public_ready is None:
@@ -714,10 +716,15 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
                 action_bits.append(f"{top} 이 초안을 막고 있음")
             if public_ready < gate.get("ready", 0):
                 action_bits.append("MoCRA/FPLA 풀스키마가 공개 판매를 막고 있음")
+            waiting_actions = (action_queue.get("states") or {}).get("WAITING_HUMAN_APPROVAL", 0)
+            if waiting_actions:
+                action_bits.append(f"Shopify Draft Action {waiting_actions}건 사람 승인 대기")
             cards.append(_team(
                 "listing", "리스팅 제작팀", gate.get("generated_at"),
+                f'AI 입력 {gate.get("agent_ready", 0)}/{gate.get("total", 0)} · '
                 f'초안 준비 {gate.get("ready", 0)}/{gate.get("total", 0)} · '
-                f'공개 준비 {public_ready}/{gate.get("total", 0)} · {detail}',
+                f'공개 준비 {public_ready}/{gate.get("total", 0)} · '
+                f'Action {action_queue.get("draft_action_count", 0)}건 · {detail}',
                 " · ".join(action_bits) if action_bits else None,
                 "ok" if gate.get("total") else "failed"))
         else:
@@ -864,8 +871,13 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
         for c in (cand or {}).get("candidates") or []:
             if c.get("verdict") != "가능":
                 continue
+            # discover_channels가 이미 정규화해 둔 명시적 관계를 우선한다.
+            # status가 stale이면 livewords에 빠지므로 이름 휴리스틱만 쓰면
+            # 이미 붙은 4개를 다시 '미연동'으로 오판한다.
+            if c.get("already_live") is True:
+                continue
             if any(words(c.get("key")) & lw for lw in livewords):
-                continue          # 이미 붙어 있는 소스
+                continue          # 구형 후보 파일 호환
             pending.append(c)
 
         cards.append(_team(
@@ -882,7 +894,7 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
              + ', '.join((c.get("label") or c.get("key") or "?") for c in pending[:3])
              + ' — 붙이라고 하시면 수집기를 만들어 연동합니다')
             if pending else None,
-            "ok" if live else "failed"))
+            "ok" if live else ("warning" if gcs and aged else "failed")))
     else:
         cards.append(_team("channels", "채널 운영팀", None,
                            "채널 상태 파일 없음", None, "missing"))

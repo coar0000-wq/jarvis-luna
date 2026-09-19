@@ -1,12 +1,24 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-19T05:18:43.200128+00:00",
+  "generated_at": "2026-09-19T06:08:04.974775+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
+  "agent_input_signature": {
+    "semantic_sources": {
+      "data/product_master.json": "6520254f9025e01d35bd2102c36d85b264761062f8a243d6c0e7d1aea2ee66c9",
+      "data/gosi.json": "31dd4d2d147adbafaa9ba7b1e26bcffc13294e0140454deb9e488b01a6f3f2a3",
+      "data/daiso_real/daiso_us_labels.json": "f704ad035ea5b9eb93781ce4802a045dc6becaf77ac51c95207c0f9148c41bd5",
+      "data/pricing_model.json": "8c64891026812d4eb46a85caee634b01e0cbf60a108758dfdddd9111a5585b0f",
+      "data/legal_products.json": "61ce8f8add487457eda89c2521417c0eaa3458a2ee4288b351562a534311211c"
+    },
+    "recommendations_sha256": "dadf604934443916e2ec12c3a0726beb67f0779af5ed7861589e73d210947e84"
+  },
   "total": 10,
+  "agent_ready": 9,
   "ready": 9,
   "draft_ready": 9,
   "public_ready": 0,
   "counts": {
+    "ontology": 10,
     "copy": 10,
     "gosi": 9,
     "us_label": 9,
@@ -20,7 +32,7 @@
     "legal": 1
   },
   "count": 10,
-  "note": "gosi=한국 고시 4항목, us_label=영문 라벨(플레이스홀더 제외), legal=자동 하드블록, legal_full=MoCRA/FPLA 공개 필드. ready는 Shopify 초안 준비, public_ready는 공개 판매 준비 건수.",
+  "note": "ontology=CP 정본 조인, gosi=한국 고시 4항목, us_label=영문 라벨(플레이스홀더 제외), legal=자동 하드블록, legal_full=MoCRA/FPLA 공개 필드. agent_ready는 LLM 입력 자격, ready는 Shopify 초안 준비, public_ready는 공개 판매 준비 건수.",
   "items": [
     {
       "rank": 1,
@@ -72,6 +84,8 @@
         "hard_block": false,
         "hard_block_reason": ""
       },
+      "agent_ready": true,
+      "agent_blocked_by": [],
       "ready": true,
       "blocked_by": [],
       "public_ready": false,
@@ -130,6 +144,8 @@
         "hard_block": false,
         "hard_block_reason": ""
       },
+      "agent_ready": true,
+      "agent_blocked_by": [],
       "ready": true,
       "blocked_by": [],
       "public_ready": false,
@@ -188,6 +204,8 @@
         "hard_block": false,
         "hard_block_reason": ""
       },
+      "agent_ready": true,
+      "agent_blocked_by": [],
       "ready": true,
       "blocked_by": [],
       "public_ready": false,
@@ -247,6 +265,8 @@
         "hard_block": false,
         "hard_block_reason": ""
       },
+      "agent_ready": true,
+      "agent_blocked_by": [],
       "ready": true,
       "blocked_by": [],
       "public_ready": false,
@@ -306,6 +326,12 @@
         "hard_block": true,
         "hard_block_reason": "자동 점검 미통과: label_fields"
       },
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "gosi",
+        "us_label",
+        "legal"
+      ],
       "ready": false,
       "blocked_by": [
         "gosi",
@@ -372,6 +398,8 @@
         "hard_block": false,
         "hard_block_reason": ""
       },
+      "agent_ready": true,
+      "agent_blocked_by": [],
       "ready": true,
       "blocked_by": [],
       "public_ready": false,
@@ -431,6 +459,8 @@
         "hard_block": false,
         "hard_block_reason": ""
       },
+      "agent_ready": true,
+      "agent_blocked_by": [],
       "ready": true,
       "blocked_by": [],
       "public_ready": false,
@@ -490,6 +520,8 @@
         "hard_block": false,
         "hard_block_reason": ""
       },
+      "agent_ready": true,
+      "agent_blocked_by": [],
       "ready": true,
       "blocked_by": [],
       "public_ready": false,
@@ -549,6 +581,8 @@
         "hard_block": false,
         "hard_block_reason": ""
       },
+      "agent_ready": true,
+      "agent_blocked_by": [],
       "ready": true,
       "blocked_by": [],
       "public_ready": false,
@@ -607,6 +641,8 @@
         "hard_block": false,
         "hard_block_reason": ""
       },
+      "agent_ready": true,
+      "agent_blocked_by": [],
       "ready": true,
       "blocked_by": [],
       "public_ready": false,

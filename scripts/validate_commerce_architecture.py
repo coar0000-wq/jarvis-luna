@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import csv
+import hashlib
 import json
 from pathlib import Path
 
@@ -20,6 +21,11 @@ def require(condition: bool, message: str) -> None:
         raise AssertionError(message)
 
 
+def digest(value) -> str:
+    raw = json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+    return hashlib.sha256(raw.encode("utf-8")).hexdigest()
+
+
 def main() -> int:
     source = load(D / "daiso_real" / "products.json")
     master = load(D / "product_master.json")
@@ -28,6 +34,7 @@ def main() -> int:
     gate = load(D / "listing_gate.json")
     legal = load(D / "legal_full.json")
     market = load(D / "market_team.json")
+    action_queue = load(D / "shopify_action_queue.json")
 
     source_ids = {str(x["pd_no"]) for x in source.get("products") or []}
     registry = {str(k): str(v) for k, v in (master.get("pd_no_to_cp") or {}).items()}
@@ -37,6 +44,22 @@ def main() -> int:
     require({str(x["pd_no"]) for x in products} == source_ids, "Master 활성 상품 != source")
     require(all(registry[str(x["pd_no"])] == x.get("canonical_product_id") for x in products),
             "Master CP와 레지스트리 불일치")
+    require(master.get("schema_version") == 3, "Product Master schema v3 필요")
+    variant_groups = master.get("variant_groups") or []
+    grouped_products = {}
+    for product in products:
+        variant = product.get("variant") or {}
+        grouped_products.setdefault(str(variant.get("group_id") or ""), []).append(product)
+    expected_groups = {gid: rows for gid, rows in grouped_products.items() if gid and len(rows) > 1}
+    actual_groups = {str(x.get("group_id")): x for x in variant_groups}
+    require(set(actual_groups) == set(expected_groups), "Variant 부모 Product 그룹 집합 불일치")
+    for gid, group in actual_groups.items():
+        members = expected_groups[gid]
+        require(group.get("object_type") == "ProductVariantGroup", f"{gid} object_type 불일치")
+        require(set(group.get("member_canonical_product_ids") or []) ==
+                {x.get("canonical_product_id") for x in members}, f"{gid} Variant CP 관계 불일치")
+        require(all((x.get("variant") or {}).get("relation", {}).get("target_group_id") == gid
+                    for x in members), f"{gid} variant_of 관계 누락")
 
     scored = score.get("all_scored") or []
     require(all(x.get("canonical_product_id") == registry.get(str(x.get("pd_no"))) for x in scored),
@@ -52,6 +75,11 @@ def main() -> int:
             "S public_ready와 gate public_ready 불일치")
     require(all(rec_by[k].get("canonical_product_id") == registry.get(k) for k in rec_by),
             "S 추천 CP 불일치")
+    require(all(bool(gate_by[k].get("agent_ready")) ==
+                (len(gate_by[k].get("agent_blocked_by") or []) == 0) for k in gate_by),
+            "agent_ready와 agent_blocked_by 불일치")
+    require(all(bool(rec_by[k].get("agent_ready")) == bool(gate_by[k].get("agent_ready"))
+                for k in rec_by), "S agent_ready와 gate 불일치")
 
     export_dir = D / "shopify_exports"
     with (export_dir / "products.csv").open(encoding="utf-8", newline="") as f:
@@ -67,6 +95,70 @@ def main() -> int:
             "Shopify export 공개 안전 기본값 위반")
     require(all(x["Available"] == "0" and x["Inventory Policy"] == "deny" for x in inventory),
             "Shopify inventory 안전 기본값 위반")
+
+    draft_actions = action_queue.get("draft_actions") or []
+    product_by_pd = {str(x.get("pd_no")): x for x in products}
+    export_by_cp = {str(x.get("Canonical Product ID")): x for x in export_products}
+    inventory_by_cp = {str(x.get("Canonical Product ID")): x for x in inventory}
+    ready_groups = {}
+    for pd in ready_ids:
+        product = product_by_pd[pd]
+        gid = str((product.get("variant") or {}).get("group_id") or
+                  f"VG-{product.get('canonical_product_id')}")
+        ready_groups.setdefault(gid, []).append(product)
+    expected_refs = {}
+    for gid, members in ready_groups.items():
+        members = sorted(members, key=lambda p: str((p.get("variant") or {}).get("option_value") or ""))
+        if len(members) > 1:
+            require(gid in actual_groups, f"Action 대상 Variant 부모 객체 누락: {gid}")
+            ref = ("ProductVariantGroup", gid)
+        else:
+            ref = ("CanonicalProduct", str(members[0].get("canonical_product_id")))
+        expected_refs[ref] = members
+    actual_refs = {(str(x.get("object_type")), str(x.get("object_id"))) for x in draft_actions}
+    require(len(draft_actions) == len(actual_refs), "Shopify Action ID/객체 참조 중복")
+    require(actual_refs == set(expected_refs), "Shopify Action 큐와 ontology 객체 집합 불일치")
+
+    approvals_path = D / "manual" / "shopify_action_approvals.json"
+    approvals = load(approvals_path) if approvals_path.exists() else {}
+    draft_approvals = approvals.get("drafts") or {} if isinstance(approvals, dict) else {}
+    allowed_states = {"WAITING_HUMAN_APPROVAL", "READY_TO_EXECUTE", "DRAFT_CREATED", "VERIFIED"}
+    for action in draft_actions:
+        ref = (str(action.get("object_type")), str(action.get("object_id")))
+        members = expected_refs[ref]
+        cps = [str(x.get("canonical_product_id")) for x in members]
+        require(set(action.get("canonical_product_ids") or []) == set(cps),
+                f"{action.get('action_id')} CP 구성원 불일치")
+        require(action.get("action_id") == f"shopify:draft:{action.get('object_id')}",
+                "Shopify Action 멱등 ID 규칙 위반")
+        require(action.get("state") in allowed_states and action.get("approval_required") is True,
+                "Shopify Action 상태/승인 정책 위반")
+        require((action.get("safety") or {}).get("status") == "draft"
+                and (action.get("safety") or {}).get("published") is False
+                and (action.get("safety") or {}).get("inventory") == 0
+                and (action.get("safety") or {}).get("inventory_policy") == "deny"
+                and (action.get("execution") or {}).get("enabled") is False,
+                "Shopify Action 안전 정책 위반")
+        products_payload = [export_by_cp[cp] for cp in cps]
+        inventory_payload = [inventory_by_cp[cp] for cp in cps]
+        expected_hash = digest({
+            "shopify_group_key": action.get("shopify_group_key"),
+            "products": products_payload,
+            "inventory": inventory_payload,
+            "safety": {"status": "draft", "published": False,
+                       "inventory": 0, "inventory_policy": "deny"},
+        })
+        require(action.get("payload_hash") == expected_hash, "Shopify Action payload hash 불일치")
+        if action.get("state") == "READY_TO_EXECUTE":
+            approval = draft_approvals.get(str(action.get("object_id")), {})
+            require(approval.get("approved") is True
+                    and approval.get("approved_payload_hash") == expected_hash
+                    and approval.get("approved_by") and approval.get("approved_at"),
+                    "READY_TO_EXECUTE Action의 정확한 사람 승인 증적 누락")
+        if action.get("state") in {"DRAFT_CREATED", "VERIFIED"}:
+            require(bool(action.get("shopify_ids")), "완료 Action의 Shopify ID 증적 누락")
+    require(action_queue.get("public_blocked") is True, "공개 Action 기본 차단이 해제됨")
+    require(not action_queue.get("public_actions"), "검증되지 않은 공개 Action이 생성됨")
 
     require(legal.get("schema_version") == 3, "legal_full schema v3 필요")
     require(set((legal.get("items") or {}).keys()) == set(rec_by), "legal_full S 범위 불일치")
@@ -89,7 +181,8 @@ def main() -> int:
     require(len(marketing_csv) == len(market_rows), "marketing_priority.csv 행 수 불일치")
     require(all(x.get("canonical_product_id") for x in marketing_csv), "marketing_priority.csv CP 누락")
 
-    for script in ("build_legal_full.py", "export_shopify_operational.py"):
+    for script in ("build_legal_full.py", "export_shopify_operational.py",
+                   "build_shopify_action_queue.py"):
         require((ROOT / "scripts" / script).exists(), f"workflow 참조 스크립트 없음: {script}")
 
     print("COMMERCE_ARCHITECTURE_OK")

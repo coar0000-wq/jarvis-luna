@@ -122,3 +122,17 @@ python scripts/validate_commerce_architecture.py
 ```
 
 `data/legal_full.json`의 `complete`와 `data/listing_gate.json`의 `public_ready`가 증가해야 합니다. 검증 전에는 Export가 `Draft`, `Published=FALSE`, 재고 `0`을 유지합니다.
+
+## Shopify Ontology Action 승인
+
+`data/shopify_action_queue.json`은 `listing_gate.ready` 상품을 Product Variant 그룹 단위의 멱등 Draft Action으로 만듭니다. VT Reedle Shot 100/300처럼 하나의 Shopify Product로 묶이는 상품은 Action도 하나만 생성됩니다.
+
+승인하려면 `shopify_action_approvals.example.json`을 아래 이름으로 복사하고, 큐의 현재 `payload_hash`를 그대로 넣습니다.
+
+```
+data/manual/shopify_action_approvals.json
+```
+
+승인은 `approved=true`, `approved_payload_hash`, `approved_by`, `approved_at`이 모두 있어야 유효합니다. payload가 바뀌면 hash가 달라져 자동으로 재승인이 필요합니다.
+
+현재 Action 큐는 외부 Shopify 쓰기를 실행하지 않습니다. 실행기를 연결할 때도 Draft, 미공개, 재고 0, `deny`를 read-after-write로 재검증해야 합니다. 공개 Action은 `public_ready`, 법률 담당자 승인, 검증된 실재고, 별도의 공개 승인이 모두 있기 전에는 생성하지 않습니다.

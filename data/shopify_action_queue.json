@@ -1,0 +1,272 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-19T06:15:42.205850+00:00",
+  "source_gate_generated_at": "2026-09-19T06:08:04.974775+00:00",
+  "ontology_source": "data/product_master.json",
+  "approval_source": "data/manual/shopify_action_approvals.json",
+  "policy": {
+    "draft": "ready + exact payload hash human approval; draft/unpublished/inventory 0/deny only",
+    "public": "public_ready + legal approval + verified physical inventory + separate publish approval",
+    "idempotency": "action_id + payload_hash"
+  },
+  "draft_action_count": 8,
+  "states": {
+    "WAITING_HUMAN_APPROVAL": 8
+  },
+  "public_ready_item_count": 0,
+  "public_actions": [],
+  "public_blocked": true,
+  "public_block_reason": "public_ready 상품 없음",
+  "draft_actions": [
+    {
+      "action_id": "shopify:draft:CP000075",
+      "action_type": "CREATE_OR_UPDATE_SHOPIFY_DRAFT",
+      "object_type": "CanonicalProduct",
+      "object_id": "CP000075",
+      "shopify_group_key": "VG-CP000075",
+      "canonical_product_ids": [
+        "CP000075"
+      ],
+      "pd_nos": [
+        "1042619"
+      ],
+      "variant_count": 1,
+      "payload_hash": "9519629d8db37643ac7ed01b823b457364682384a82b62d4ce585e2b3d72a4fa",
+      "state": "WAITING_HUMAN_APPROVAL",
+      "approval_required": true,
+      "approved_by": "",
+      "approved_at": "",
+      "execution": {
+        "enabled": false,
+        "reason": "Shopify 쓰기 실행기는 별도 승인·자격증명·read-after-write 검증 후 연결"
+      },
+      "safety": {
+        "status": "draft",
+        "published": false,
+        "inventory": 0,
+        "inventory_policy": "deny"
+      },
+      "shopify_ids": {},
+      "last_error": ""
+    },
+    {
+      "action_id": "shopify:draft:CP000109",
+      "action_type": "CREATE_OR_UPDATE_SHOPIFY_DRAFT",
+      "object_type": "CanonicalProduct",
+      "object_id": "CP000109",
+      "shopify_group_key": "VG-CP000109",
+      "canonical_product_ids": [
+        "CP000109"
+      ],
+      "pd_nos": [
+        "1049285"
+      ],
+      "variant_count": 1,
+      "payload_hash": "5bef0f7a0f19a9138d55ec5bb05270524c4bbef3e1762f37faf8d4d478710f88",
+      "state": "WAITING_HUMAN_APPROVAL",
+      "approval_required": true,
+      "approved_by": "",
+      "approved_at": "",
+      "execution": {
+        "enabled": false,
+        "reason": "Shopify 쓰기 실행기는 별도 승인·자격증명·read-after-write 검증 후 연결"
+      },
+      "safety": {
+        "status": "draft",
+        "published": false,
+        "inventory": 0,
+        "inventory_policy": "deny"
+      },
+      "shopify_ids": {},
+      "last_error": ""
+    },
+    {
+      "action_id": "shopify:draft:CP000130",
+      "action_type": "CREATE_OR_UPDATE_SHOPIFY_DRAFT",
+      "object_type": "CanonicalProduct",
+      "object_id": "CP000130",
+      "shopify_group_key": "VG-CP000130",
+      "canonical_product_ids": [
+        "CP000130"
+      ],
+      "pd_nos": [
+        "1055167"
+      ],
+      "variant_count": 1,
+      "payload_hash": "1131cba05e9974aa32f51f89b57e3d0163cbc3931cec3066424f1cd1354bc0fe",
+      "state": "WAITING_HUMAN_APPROVAL",
+      "approval_required": true,
+      "approved_by": "",
+      "approved_at": "",
+      "execution": {
+        "enabled": false,
+        "reason": "Shopify 쓰기 실행기는 별도 승인·자격증명·read-after-write 검증 후 연결"
+      },
+      "safety": {
+        "status": "draft",
+        "published": false,
+        "inventory": 0,
+        "inventory_policy": "deny"
+      },
+      "shopify_ids": {},
+      "last_error": ""
+    },
+    {
+      "action_id": "shopify:draft:CP000151",
+      "action_type": "CREATE_OR_UPDATE_SHOPIFY_DRAFT",
+      "object_type": "CanonicalProduct",
+      "object_id": "CP000151",
+      "shopify_group_key": "VG-CP000151",
+      "canonical_product_ids": [
+        "CP000151"
+      ],
+      "pd_nos": [
+        "1059834"
+      ],
+      "variant_count": 1,
+      "payload_hash": "8e3d8208c0d3ddbdbc839a21daad89e0834e0d37410c64f9b38d6482c4386ec0",
+      "state": "WAITING_HUMAN_APPROVAL",
+      "approval_required": true,
+      "approved_by": "",
+      "approved_at": "",
+      "execution": {
+        "enabled": false,
+        "reason": "Shopify 쓰기 실행기는 별도 승인·자격증명·read-after-write 검증 후 연결"
+      },
+      "safety": {
+        "status": "draft",
+        "published": false,
+        "inventory": 0,
+        "inventory_policy": "deny"
+      },
+      "shopify_ids": {},
+      "last_error": ""
+    },
+    {
+      "action_id": "shopify:draft:CP000155",
+      "action_type": "CREATE_OR_UPDATE_SHOPIFY_DRAFT",
+      "object_type": "CanonicalProduct",
+      "object_id": "CP000155",
+      "shopify_group_key": "VG-CP000155",
+      "canonical_product_ids": [
+        "CP000155"
+      ],
+      "pd_nos": [
+        "1060211"
+      ],
+      "variant_count": 1,
+      "payload_hash": "beab4962d51aacd4f3b89f02d6f48d1120e7ddfb914200c4a8ea4c678b0f24bb",
+      "state": "WAITING_HUMAN_APPROVAL",
+      "approval_required": true,
+      "approved_by": "",
+      "approved_at": "",
+      "execution": {
+        "enabled": false,
+        "reason": "Shopify 쓰기 실행기는 별도 승인·자격증명·read-after-write 검증 후 연결"
+      },
+      "safety": {
+        "status": "draft",
+        "published": false,
+        "inventory": 0,
+        "inventory_policy": "deny"
+      },
+      "shopify_ids": {},
+      "last_error": ""
+    },
+    {
+      "action_id": "shopify:draft:CP000216",
+      "action_type": "CREATE_OR_UPDATE_SHOPIFY_DRAFT",
+      "object_type": "CanonicalProduct",
+      "object_id": "CP000216",
+      "shopify_group_key": "VG-CP000216",
+      "canonical_product_ids": [
+        "CP000216"
+      ],
+      "pd_nos": [
+        "1067498"
+      ],
+      "variant_count": 1,
+      "payload_hash": "653192d19f1a105a1f3c6d08ad15bdb422bc2300dbc1afe2f0ea771aea1241a6",
+      "state": "WAITING_HUMAN_APPROVAL",
+      "approval_required": true,
+      "approved_by": "",
+      "approved_at": "",
+      "execution": {
+        "enabled": false,
+        "reason": "Shopify 쓰기 실행기는 별도 승인·자격증명·read-after-write 검증 후 연결"
+      },
+      "safety": {
+        "status": "draft",
+        "published": false,
+        "inventory": 0,
+        "inventory_policy": "deny"
+      },
+      "shopify_ids": {},
+      "last_error": ""
+    },
+    {
+      "action_id": "shopify:draft:CP000270",
+      "action_type": "CREATE_OR_UPDATE_SHOPIFY_DRAFT",
+      "object_type": "CanonicalProduct",
+      "object_id": "CP000270",
+      "shopify_group_key": "VG-CP000270",
+      "canonical_product_ids": [
+        "CP000270"
+      ],
+      "pd_nos": [
+        "1075857"
+      ],
+      "variant_count": 1,
+      "payload_hash": "318b00249d03657cf28af29db846cb168ae9e9d84b358e8a46e229a22facd344",
+      "state": "WAITING_HUMAN_APPROVAL",
+      "approval_required": true,
+      "approved_by": "",
+      "approved_at": "",
+      "execution": {
+        "enabled": false,
+        "reason": "Shopify 쓰기 실행기는 별도 승인·자격증명·read-after-write 검증 후 연결"
+      },
+      "safety": {
+        "status": "draft",
+        "published": false,
+        "inventory": 0,
+        "inventory_policy": "deny"
+      },
+      "shopify_ids": {},
+      "last_error": ""
+    },
+    {
+      "action_id": "shopify:draft:VG-VT-REEDLE-SHOT",
+      "action_type": "CREATE_OR_UPDATE_SHOPIFY_DRAFT",
+      "object_type": "ProductVariantGroup",
+      "object_id": "VG-VT-REEDLE-SHOT",
+      "shopify_group_key": "VG-VT-REEDLE-SHOT",
+      "canonical_product_ids": [
+        "CP000106",
+        "CP000107"
+      ],
+      "pd_nos": [
+        "1049275",
+        "1049276"
+      ],
+      "variant_count": 2,
+      "payload_hash": "c15776d26a09ed7765af55c4a159834c64976ebe6776be2f169b2a50701497dd",
+      "state": "WAITING_HUMAN_APPROVAL",
+      "approval_required": true,
+      "approved_by": "",
+      "approved_at": "",
+      "execution": {
+        "enabled": false,
+        "reason": "Shopify 쓰기 실행기는 별도 승인·자격증명·read-after-write 검증 후 연결"
+      },
+      "safety": {
+        "status": "draft",
+        "published": false,
+        "inventory": 0,
+        "inventory_policy": "deny"
+      },
+      "shopify_ids": {},
+      "last_error": ""
+    }
+  ]
+}

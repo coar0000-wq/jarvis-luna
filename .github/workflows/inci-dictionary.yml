@@ -61,6 +61,7 @@ jobs:
           python -u scripts/build_product_master.py --inject-s
           python -u scripts/build_market_team.py
           python -u scripts/export_shopify_operational.py
+          python -u scripts/build_shopify_action_queue.py
 
       # ============================================================
       # 중요:
@@ -187,6 +188,7 @@ jobs:
             data/marketing_priority.csv
             data/coaching_loop.json
             data/shopify_exports
+            data/shopify_action_queue.json
             data/knowledge/cumulative_history.json
           message: INCI 사전 정본 갱신 (대한화장품협회 표준화명칭목록)
           regenerate-dashboard: 'true'

@@ -241,10 +241,11 @@ jobs:
           python -u scripts/build_product_master.py --inject-s
           python -u scripts/build_market_team.py
 
-      - name: Shopify 게이트 통과 4종 Export 생성
+      - name: Shopify 게이트 통과 Export와 Action 큐 생성
         shell: bash
         run: |
           python -u scripts/export_shopify_operational.py
+          python -u scripts/build_shopify_action_queue.py
 
       - name: 채널 후보 재생성
         shell: bash
@@ -472,6 +473,7 @@ jobs:
             data/coaching_loop.json
             data/listing_gate.json
             data/shopify_exports
+            data/shopify_action_queue.json
             data/dashboard_runtime.json
             data/channel_candidates.json
             data/knowledge/cumulative_history.json

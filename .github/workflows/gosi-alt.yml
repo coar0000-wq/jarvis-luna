@@ -107,6 +107,7 @@ jobs:
           python -u scripts/build_product_master.py --inject-s
           python -u scripts/build_market_team.py
           python -u scripts/export_shopify_operational.py
+          python -u scripts/build_shopify_action_queue.py
 
       - name: 화장품 고시 보호 (덮였으면 복구, 못 하면 중단)
         run: python -u scripts/guard_gosi.py --restore
@@ -138,7 +139,7 @@ jobs:
           PY
 
       - name: 산출물 발행 (원격 최신 위에 이번 변경만)
-        if: always()
+        if: success()
         uses: ./.github/actions/publish
         with:
           # legal_products.json 도 넣는다. (2026-09-16)
@@ -157,6 +158,7 @@ jobs:
             data/marketing_priority.csv
             data/coaching_loop.json
             data/shopify_exports
+            data/shopify_action_queue.json
             data/dashboard_runtime.json
             data/knowledge/cumulative_history.json
           message: 고시를 렌더링된 페이지 alt 에서 꺼낸다

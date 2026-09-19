@@ -79,6 +79,7 @@ jobs:
           python -u scripts/build_product_master.py --inject-s
           python -u scripts/build_market_team.py
           python -u scripts/export_shopify_operational.py
+          python -u scripts/build_shopify_action_queue.py
 
       - name: Summary
         if: always()
@@ -137,7 +138,7 @@ jobs:
       # 바꾼 파일만 골라 얹는다. 그리고 화장품 고시 보호가 들어 있다.
       # 이 워크플로가 바로 gosi.json 을 쓰는 곳이라 그 보호가 특히 맞다.
       - name: 산출물 발행 (원격 최신 위에 이번 변경만)
-        if: always()
+        if: success()
         uses: ./.github/actions/publish
         with:
           # 고시 다음 단계까지 같이 발행한다. (2026-09-16)
@@ -158,6 +159,7 @@ jobs:
             data/marketing_priority.csv
             data/coaching_loop.json
             data/shopify_exports
+            data/shopify_action_queue.json
             data/dashboard_runtime.json
             data/knowledge/cumulative_history.json
           message: 고시 이미지 수집 + 비전 추출 (전성분/제조사/용량)

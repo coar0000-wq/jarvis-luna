@@ -1,6 +1,6 @@
 {
-  "schema_version": 2,
-  "generated_at": "2026-09-19T05:18:43.259651+00:00",
+  "schema_version": 3,
+  "generated_at": "2026-09-19T06:08:05.316022+00:00",
   "generator": "scripts/build_product_master.py",
   "source": "data/daiso_real/products.json",
   "id_policy": "pd_no에 최초 CP 발급 후 재사용·재번호 부여 금지",
@@ -3360,7 +3360,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-19T05:18:43.200128+00:00"
+        "gate_generated_at": "2026-09-19T06:08:04.974775+00:00"
       }
     },
     {
@@ -4967,12 +4967,16 @@
         "group_id": "VG-VT-REEDLE-SHOT",
         "option_name": "Strength",
         "option_value": "100",
-        "sku": "CP000106-RS-100"
+        "sku": "CP000106-RS-100",
+        "relation": {
+          "type": "variant_of",
+          "target_group_id": "VG-VT-REEDLE-SHOT"
+        }
       },
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-19T05:18:43.200128+00:00"
+        "gate_generated_at": "2026-09-19T06:08:04.974775+00:00"
       }
     },
     {
@@ -5019,12 +5023,16 @@
         "group_id": "VG-VT-REEDLE-SHOT",
         "option_name": "Strength",
         "option_value": "300",
-        "sku": "CP000107-RS-300"
+        "sku": "CP000107-RS-300",
+        "relation": {
+          "type": "variant_of",
+          "target_group_id": "VG-VT-REEDLE-SHOT"
+        }
       },
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-19T05:18:43.200128+00:00"
+        "gate_generated_at": "2026-09-19T06:08:04.974775+00:00"
       }
     },
     {
@@ -5128,7 +5136,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-19T05:18:43.200128+00:00"
+        "gate_generated_at": "2026-09-19T06:08:04.974775+00:00"
       }
     },
     {
@@ -6324,7 +6332,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-19T05:18:43.200128+00:00"
+        "gate_generated_at": "2026-09-19T06:08:04.974775+00:00"
       }
     },
     {
@@ -7416,7 +7424,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-19T05:18:43.200128+00:00"
+        "gate_generated_at": "2026-09-19T06:08:04.974775+00:00"
       }
     },
     {
@@ -7624,7 +7632,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-19T05:18:43.200128+00:00"
+        "gate_generated_at": "2026-09-19T06:08:04.974775+00:00"
       }
     },
     {
@@ -10796,7 +10804,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-19T05:18:43.200128+00:00"
+        "gate_generated_at": "2026-09-19T06:08:04.974775+00:00"
       }
     },
     {
@@ -12620,7 +12628,7 @@
           "us_label",
           "legal"
         ],
-        "gate_generated_at": "2026-09-19T05:18:43.200128+00:00"
+        "gate_generated_at": "2026-09-19T06:08:04.974775+00:00"
       }
     },
     {
@@ -13608,7 +13616,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-19T05:18:43.200128+00:00"
+        "gate_generated_at": "2026-09-19T06:08:04.974775+00:00"
       }
     },
     {
@@ -17928,6 +17936,35 @@
       }
     }
   ],
+  "variant_group_count": 1,
+  "variant_groups": [
+    {
+      "object_type": "ProductVariantGroup",
+      "group_id": "VG-VT-REEDLE-SHOT",
+      "name": "VT Reedle Shot",
+      "option_name": "Strength",
+      "member_count": 2,
+      "member_canonical_product_ids": [
+        "CP000106",
+        "CP000107"
+      ],
+      "variants": [
+        {
+          "canonical_product_id": "CP000106",
+          "pd_no": "1049275",
+          "option_value": "100",
+          "sku": "CP000106-RS-100"
+        },
+        {
+          "canonical_product_id": "CP000107",
+          "pd_no": "1049276",
+          "option_value": "300",
+          "sku": "CP000107-RS-300"
+        }
+      ]
+    }
+  ],
+  "relation_policy": "다중 CP Variant는 group_id 부모 Product 관계로 묶고 Shopify Handle을 공유",
   "score_policy": {
     "grade_source": "shopify_score 0~100 + qualify_s/s_rule",
     "parallel_components": "match/demand/review/final 0~1, 관찰용이며 등급 미사용"

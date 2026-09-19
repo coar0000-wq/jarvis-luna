@@ -18,6 +18,7 @@
 """
 from __future__ import annotations
 
+import hashlib
 import json
 import os
 import re
@@ -32,6 +33,12 @@ ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / "data" / "daiso_real" / "shopify_s_recommendations.json"
 FULL = ROOT / "data" / "daiso_real" / "shopify_demand_score.json"
 OUT = ROOT / "data" / "shopify_listing_copy.json"
+GATE = ROOT / "data" / "listing_gate.json"
+PRODUCT_MASTER = ROOT / "data" / "product_master.json"
+GOSI = ROOT / "data" / "gosi.json"
+LABELS = ROOT / "data" / "daiso_real" / "daiso_us_labels.json"
+PRICING = ROOT / "data" / "pricing_model.json"
+LEGAL = ROOT / "data" / "legal_products.json"
 
 API_ROOT = "https://generativelanguage.googleapis.com/v1beta"
 TIMEOUT = 90
@@ -209,11 +216,55 @@ def generate(key: str, model: str, p: dict) -> tuple[dict | None, str]:
     return None, last or "원인 미상"
 
 
+def _sha256_bytes(value: bytes) -> str:
+    return hashlib.sha256(value).hexdigest()
+
+
+def _recommendation_signature(rows: list[dict]) -> str:
+    semantic = [{
+        "pd_no": str(x.get("pd_no") or x.get("product_id") or ""),
+        "grade": x.get("grade"),
+        "rank": x.get("rank"),
+        "name": x.get("name"),
+        "shopify_score": x.get("shopify_score"),
+    } for x in rows]
+    raw = json.dumps(semantic, ensure_ascii=False, sort_keys=True,
+                     separators=(",", ":")).encode("utf-8")
+    return _sha256_bytes(raw)
+
+
+def _agent_input_signature(recommendations: list[dict]) -> dict:
+    def doc(path: Path) -> dict:
+        try:
+            value = json.loads(path.read_text(encoding="utf-8-sig"))
+            return value if isinstance(value, dict) else {}
+        except (OSError, json.JSONDecodeError, UnicodeDecodeError):
+            return {}
+
+    master = doc(PRODUCT_MASTER)
+    gosi = doc(GOSI)
+    labels = doc(LABELS)
+    pricing = doc(PRICING)
+    legal = doc(LEGAL)
+    semantic = {
+        "data/product_master.json": master.get("pd_no_to_cp") or {},
+        "data/gosi.json": gosi.get("items") or {},
+        "data/daiso_real/daiso_us_labels.json": labels.get("items") or labels,
+        "data/pricing_model.json": (pricing.get("offers_by_product") or {}).get("single") or [],
+        "data/legal_products.json": legal.get("items") or {},
+    }
+    hashes = {}
+    for path, value in semantic.items():
+        raw = json.dumps(value, ensure_ascii=False, sort_keys=True,
+                         separators=(",", ":")).encode("utf-8")
+        hashes[path] = _sha256_bytes(raw)
+    return {
+        "semantic_sources": hashes,
+        "recommendations_sha256": _recommendation_signature(recommendations),
+    }
+
+
 def main() -> int:
-    key = os.environ.get("GEMINI_API_KEY", "").strip()
-    if not key:
-        print("GEMINI_API_KEY 가 없습니다. GitHub Secrets 에 등록하세요.")
-        return 1
     if not SRC.exists():
         print(f"입력 파일 없음: {SRC}")
         return 1
@@ -223,6 +274,18 @@ def main() -> int:
     if not products:
         print("S등급 추천이 비어 있습니다.")
         return 1
+    if not GATE.exists():
+        print("listing_gate.json이 없습니다. ontology 선행 게이트를 먼저 생성하세요.")
+        return 1
+    gate_doc = json.loads(GATE.read_text(encoding="utf-8"))
+    expected_signature = gate_doc.get("agent_input_signature") or {}
+    current_signature = _agent_input_signature(products)
+    if expected_signature != current_signature:
+        print("listing_gate.json이 현재 ontology·고시·가격·법률 입력보다 오래됐습니다.")
+        print("scripts/build_listing_gate.py를 다시 실행하세요.")
+        return 1
+    gate_by = {str(x.get("pd_no") or x.get("product_id")): x
+               for x in gate_doc.get("items") or [] if isinstance(x, dict)}
 
     # S등급 파일에는 평점·리뷰수·이미지가 없어서 전체 점수 파일에서 보완한다.
     detail = {}
@@ -238,13 +301,28 @@ def main() -> int:
             if not p.get(k) and d.get(k) is not None:
                 p[k] = d[k]
 
-    model, how = pick_model(key)
-    print(f"모델: {model}  ({how})")
+    eligible_expected = sum(
+        1 for p in products
+        if (gate_by.get(str(p.get("pd_no") or "")) or {}).get("agent_ready")
+    )
+    key = os.environ.get("GEMINI_API_KEY", "").strip()
+    if eligible_expected and not key:
+        print("GEMINI_API_KEY 가 없습니다. GitHub Secrets 에 등록하세요.")
+        return 1
+    if eligible_expected:
+        model, how = pick_model(key)
+        print(f"모델: {model}  ({how})")
+    else:
+        model, how = "", "호출 안 함: agent_ready 상품 0건"
+        print("agent_ready 상품이 0건이라 Gemini API를 호출하지 않습니다.")
 
-    items, ok, fail = [], 0, 0
+    items, ok, fail, skipped, eligible = [], 0, 0, 0, 0
     for i, p in enumerate(products, 1):
-        copy, err = generate(key, model, p)
-        row = {
+        pd_no = str(p.get("pd_no") or "")
+        gate_row = gate_by.get(pd_no, {})
+        blocked_by = list(gate_row.get("agent_blocked_by") or ["ontology_gate_missing"])
+        common = {
+            "canonical_product_id": gate_row.get("canonical_product_id"),
             "pd_no": p.get("pd_no"),
             "name_ko": p.get("name"),
             "bucket": p.get("bucket"),
@@ -254,8 +332,26 @@ def main() -> int:
             "shopify_score": p.get("shopify_score"),
             "source_url": p.get("url"),
             "image_url": p.get("image_url"),
+        }
+        if not gate_row.get("agent_ready"):
+            items.append({
+                **common,
+                "copy": None,
+                "copy_status": "skipped_prerequisite",
+                "agent_blocked_by": blocked_by,
+                "error": "ontology 선행 게이트 미통과: " + ", ".join(blocked_by),
+            })
+            skipped += 1
+            print(f"  [{i:2d}/{len(products)}] SKIP {p.get('name','')[:34]} :: {', '.join(blocked_by)}")
+            continue
+
+        eligible += 1
+        copy, err = generate(key, model, p)
+        row = {
+            **common,
             "copy": copy,
             "copy_status": "ok" if copy else "failed",
+            "agent_blocked_by": [],
             "error": err,
         }
         items.append(row)
@@ -274,14 +370,15 @@ def main() -> int:
         "model": model,
         "model_selection": how,
         "source": "data/daiso_real/shopify_s_recommendations.json (다이소 실크롤링 S등급)",
-        "note": ("영문 카피는 Gemini 생성물이므로 게시 전 사람이 검수해야 한다. "
-                 "실패한 항목은 비워 두며 스크립트가 대체 문구를 지어내지 않는다."),
-        "total": len(items), "ok": ok, "failed": fail,
+        "note": ("CP·고시·영문라벨·가격·법률 선행 게이트를 통과한 상품만 Gemini에 전달한다. "
+                 "영문 카피는 게시 전 사람이 검수해야 하며, 실패·차단 항목은 비워 둔다."),
+        "total": len(items), "eligible": eligible, "ok": ok,
+        "failed": fail, "skipped_prerequisite": skipped,
         "items": items,
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
-    print(f"\n{ok}/{len(items)}건 생성 -> {OUT.relative_to(ROOT)}")
-    return 0 if ok else 1
+    print(f"\n적격 {eligible}건 · 생성 {ok}건 · 선행차단 {skipped}건 -> {OUT.relative_to(ROOT)}")
+    return 0 if ok or eligible == 0 else 1
 
 
 if __name__ == "__main__":

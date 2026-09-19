@@ -160,9 +160,20 @@ jobs:
           python scripts/pricing_model.py
 
       # -------------------------------------------------------
-      # Gemini 영문 카피
+      # LLM 선행 ontology 게이트
       #
-      # 이 단계에서 S등급 전체를 읽어 카피를 생성한다.
+      # CP 정본과 고시·영문라벨·가격·법률 증거를 먼저 조인한다.
+      # Gemini는 agent_ready 상품만 보며 차단 상품은 API로 보내지 않는다.
+      # -------------------------------------------------------
+      - name: LLM 선행 ontology 게이트 갱신
+        if: steps.guard.outputs.ready == 'true'
+        run: |
+          python scripts/build_product_master.py --inject-s
+          python scripts/check_legal_products.py
+          python scripts/build_listing_gate.py
+
+      # -------------------------------------------------------
+      # Gemini 영문 카피
       # -------------------------------------------------------
       - name: Gemini 영문 카피 생성
         if: steps.guard.outputs.ready == 'true'
@@ -196,9 +207,11 @@ jobs:
           total = int(data.get("total") or 0)
           ok = int(data.get("ok") or 0)
           failed = int(data.get("failed") or 0)
+          eligible = int(data.get("eligible") or 0)
+          skipped = int(data.get("skipped_prerequisite") or 0)
 
-          print(f"영문 카피 결과: {ok}/{total}")
-          print(f"실패: {failed}")
+          print(f"영문 카피 결과: {ok}/{eligible} 적격 · 전체 {total}")
+          print(f"실패: {failed} · 선행 게이트 차단: {skipped}")
 
           for item in data.get("items") or []:
               status = item.get("copy_status")
@@ -216,9 +229,9 @@ jobs:
                   "영문 카피 대상이 0건입니다."
               )
 
-          if ok == 0:
+          if eligible > 0 and ok == 0:
               raise SystemExit(
-                  "영문 카피 생성 성공 상품이 0건입니다."
+                  "적격 상품의 영문 카피 생성 성공이 0건입니다."
               )
           PY
 
@@ -237,6 +250,7 @@ jobs:
           python scripts/build_product_master.py --inject-s
           python scripts/build_market_team.py
           python scripts/export_shopify_operational.py
+          python scripts/build_shopify_action_queue.py
           python scripts/build_shopify_import_csv.py
 
       # -------------------------------------------------------
@@ -433,5 +447,5 @@ jobs:
         if: steps.guard.outputs.ready == 'true'
         uses: ./.github/actions/publish
         with:
-          paths: data/shopify_listing_copy.json data/shopify_import.csv data/shopify_import_report.json data/pricing_model.json data/daiso_real/collection_status.json data/product_master.json data/legal_products.json data/legal_full.json data/listing_gate.json data/daiso_real/shopify_s_recommendations.json data/market_team.json data/marketing_priority.csv data/coaching_loop.json data/shopify_exports data/dashboard_runtime.json data/knowledge/cumulative_history.json
+          paths: data/shopify_listing_copy.json data/shopify_import.csv data/shopify_import_report.json data/pricing_model.json data/daiso_real/collection_status.json data/product_master.json data/legal_products.json data/legal_full.json data/listing_gate.json data/daiso_real/shopify_s_recommendations.json data/market_team.json data/marketing_priority.csv data/coaching_loop.json data/shopify_exports data/shopify_action_queue.json data/dashboard_runtime.json data/knowledge/cumulative_history.json
           message: Shopify 영문 리스팅 카피 자동 갱신

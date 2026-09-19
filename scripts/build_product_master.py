@@ -73,6 +73,49 @@ def _variant(name: str, cp: str) -> dict:
     }
 
 
+def _variant_groups(products: list[dict]) -> list[dict]:
+    """여러 CP가 한 판매 Product의 Variant인 관계를 정본에 명시한다."""
+    grouped: dict[str, list[dict]] = {}
+    for product in products:
+        variant = product.get("variant") or {}
+        group_id = str(variant.get("group_id") or "")
+        if group_id:
+            grouped.setdefault(group_id, []).append(product)
+
+    result = []
+    for group_id, members in sorted(grouped.items()):
+        if len(members) < 2:
+            continue
+        option_names = {str((p.get("variant") or {}).get("option_name") or "")
+                        for p in members}
+        option_values = [str((p.get("variant") or {}).get("option_value") or "")
+                         for p in members]
+        skus = [str((p.get("variant") or {}).get("sku") or "") for p in members]
+        if len(option_names) != 1 or "" in option_names:
+            raise RuntimeError(f"Variant 그룹 {group_id}의 옵션 이름이 일관되지 않습니다")
+        if len(option_values) != len(set(option_values)) or "" in option_values:
+            raise RuntimeError(f"Variant 그룹 {group_id}의 옵션 값이 중복·누락되었습니다")
+        if len(skus) != len(set(skus)) or "" in skus:
+            raise RuntimeError(f"Variant 그룹 {group_id}의 SKU가 중복·누락되었습니다")
+
+        variants = sorted(({
+            "canonical_product_id": p["canonical_product_id"],
+            "pd_no": p["pd_no"],
+            "option_value": (p.get("variant") or {}).get("option_value"),
+            "sku": (p.get("variant") or {}).get("sku"),
+        } for p in members), key=lambda x: str(x["option_value"]))
+        result.append({
+            "object_type": "ProductVariantGroup",
+            "group_id": group_id,
+            "name": "VT Reedle Shot" if group_id == "VG-VT-REEDLE-SHOT" else group_id,
+            "option_name": next(iter(option_names)),
+            "member_count": len(variants),
+            "member_canonical_product_ids": [v["canonical_product_id"] for v in variants],
+            "variants": variants,
+        })
+    return result
+
+
 def _parallel_scores(score: dict) -> dict:
     breakdown = score.get("score_breakdown") or {}
     best = score.get("best_global_match") or {}
@@ -181,8 +224,18 @@ def build_master(inject_scores: bool = True) -> dict:
     if any(registry[p["pd_no"]] != p["canonical_product_id"] for p in products):
         raise RuntimeError("Product Master와 CP 레지스트리가 일치하지 않습니다")
 
+    variant_groups = _variant_groups(products)
+    grouped_ids = {g["group_id"] for g in variant_groups}
+    for product in products:
+        variant = product.get("variant") or {}
+        if variant.get("group_id") in grouped_ids:
+            variant["relation"] = {
+                "type": "variant_of",
+                "target_group_id": variant["group_id"],
+            }
+
     payload = {
-        "schema_version": 2,
+        "schema_version": 3,
         "generated_at": now,
         "generator": "scripts/build_product_master.py",
         "source": "data/daiso_real/products.json",
@@ -191,6 +244,9 @@ def build_master(inject_scores: bool = True) -> dict:
         "registry_count": len(registry),
         "pd_no_to_cp": dict(sorted(registry.items())),
         "products": products,
+        "variant_group_count": len(variant_groups),
+        "variant_groups": variant_groups,
+        "relation_policy": "다중 CP Variant는 group_id 부모 Product 관계로 묶고 Shopify Handle을 공유",
         "score_policy": {
             "grade_source": "shopify_score 0~100 + qualify_s/s_rule",
             "parallel_components": "match/demand/review/final 0~1, 관찰용이며 등급 미사용",
