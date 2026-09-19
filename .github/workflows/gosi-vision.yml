@@ -4,8 +4,9 @@ name: 고시 수집·비전 추출
 # 2) Gemini 비전으로 전성분·제조사·용량 읽기
 # 3) gosi.json + 이미지 커밋
 #
-# 필요 시크릿: GEMINI_API_KEY
-# (없으면 이미지 수집까지만 하고 비전은 건너뜀)
+# 필요 시크릿: GEMINI_API_KEY 또는 GROQ_API_KEY_LUNA
+# (둘 다 없으면 이미지 수집까지만 하고 비전은 건너뜀)
+# Gemini 할당량이 막히면 Groq 비전으로 이어서 읽는다.
 
 on:
   workflow_dispatch:
@@ -50,6 +51,7 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY_LUNA }}
           VISION_BUDGET_SEC: "1200"
         run: python scripts/extract_gosi_vision.py
 

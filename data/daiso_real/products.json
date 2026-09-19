@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-17T23:11:25.393143+00:00",
+  "updated_at": "2026-09-19T22:27:05.285769+00:00",
   "source": "Daiso Korea",
-  "count": 338,
+  "count": 342,
   "products": [
     {
       "pd_no": "1030674",
@@ -2330,6 +2330,25 @@
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260903/enudAwqph38oKmPNOHcz1057357_00_01enudAwqph38oKmPNOHcz.jpg",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026603&recmYn=N",
       "collected_at": "2026-09-15T22:46:59.681288+00:00",
+      "source": "daisomall.co.kr 상품 상세 페이지",
+      "bucket": "스킨케어",
+      "detailed_http_status": 200
+    },
+    {
+      "pd_no": "1056649",
+      "name": "VT 리들샷 페이셜 레디언스 글루타치온 에센스 2 ml X 6개입",
+      "brand": "VT",
+      "site_category": "에센스/세럼/앰플",
+      "price_krw": 3000,
+      "price_source": "json:price",
+      "sold_out": false,
+      "stock_note": "판매 중",
+      "stock_checked_at": "2026-09-19T21:29:49.743618+00:00",
+      "rating": 4.8,
+      "review_count": 2308,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250929/KsNuHoj2yHg2kDfPHPxz1056649_00_01KsNuHoj2yHg2kDfPHPxz.jpg",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1056649",
+      "collected_at": "2026-09-19T21:29:49.743630+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
       "bucket": "스킨케어",
       "detailed_http_status": 200
@@ -4876,6 +4895,25 @@
       "detailed_http_status": 200
     },
     {
+      "pd_no": "1060214",
+      "name": "바세린 딥클린 클렌징폼 180 ml",
+      "brand": "애경 바세린",
+      "site_category": "클렌징폼/젤",
+      "price_krw": 3000,
+      "price_source": "json:price",
+      "sold_out": false,
+      "stock_note": "판매 중",
+      "stock_checked_at": "2026-09-19T22:04:52.670635+00:00",
+      "rating": 4.8,
+      "review_count": 1649,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250311/pn0zDOlgMlCWQpjsIR3J1060214_00_01pn0zDOlgMlCWQpjsIR3J.jpg",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060214",
+      "collected_at": "2026-09-19T22:04:52.670647+00:00",
+      "source": "daisomall.co.kr 상품 상세 페이지",
+      "bucket": "클렌징",
+      "detailed_http_status": 200
+    },
+    {
       "pd_no": "1060211",
       "name": "바세린 모이스처라이징 클렌징 밀크 140 ml",
       "brand": "애경 바세린",
@@ -4933,6 +4971,25 @@
       "detailed_http_status": 200
     },
     {
+      "pd_no": "1060215",
+      "name": "센카 퍼펙트 휩 클렌징 폼 50 g 프레시",
+      "brand": "다이소",
+      "site_category": "클렌징폼/젤",
+      "price_krw": 3000,
+      "price_source": "json:price",
+      "sold_out": false,
+      "stock_note": "판매 중",
+      "stock_checked_at": "2026-09-19T21:53:44.204515+00:00",
+      "rating": 4.8,
+      "review_count": 1571,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240924/OstV4nwe449zyzV9njAU1060215_00_00OstV4nwe449zyzV9njAU.jpg",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060215",
+      "collected_at": "2026-09-19T21:53:44.204527+00:00",
+      "source": "daisomall.co.kr 상품 상세 페이지",
+      "bucket": "클렌징",
+      "detailed_http_status": 200
+    },
+    {
       "pd_no": "1038219",
       "name": "식물원 병풀 클리어 클렌징 워터",
       "brand": "네이처리퍼블릭 식물원",
@@ -4978,6 +5035,25 @@
       "collected_at": "2026-09-08T21:57:21.697628+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
       "bucket": "클렌징"
+    },
+    {
+      "pd_no": "1040079",
+      "name": "포인트 딥클린 올인원 클렌징 티슈 30매",
+      "brand": "포인트",
+      "site_category": "티슈/패드",
+      "price_krw": 2000,
+      "price_source": "json:price",
+      "sold_out": false,
+      "stock_note": "판매 중",
+      "stock_checked_at": "2026-09-19T21:39:52.897186+00:00",
+      "rating": 4.8,
+      "review_count": 1668,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251002/7X8B9SzPXsE15nzdihuK1040079_00_007X8B9SzPXsE15nzdihuK.png",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1040079",
+      "collected_at": "2026-09-19T21:39:52.897198+00:00",
+      "source": "daisomall.co.kr 상품 상세 페이지",
+      "bucket": "클렌징",
+      "detailed_http_status": 200
     },
     {
       "pd_no": "1067024",

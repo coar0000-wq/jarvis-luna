@@ -163,6 +163,124 @@ def build_s_priority(srec, detail, pricing, copies, cp_registry=None):
     return rows
 
 
+# 마케팅 영상을 보드로 가져오는 곳 -------------------------------------
+#
+# 수집분은 세 곳에 흔어져 있다.
+#   data/youtube_manual.json    사람이 고른 영상 (메모 있음)
+#   data/youtube_channels.json  지켜보는 채널의 최신 영상
+#   data/youtube_serpapi.json   검색으로 받은 영상 (금요일은 Shopify 마케팅)
+# 여기서 market 팀으로 분류된 것만 골라 마케팅 보드에 올린다.
+# 지어내지 않는다. 제목·채널·조회수·메모는 전부 수집된 실측값이다.
+# 낱말을 느슬하게 잡으면 엉뚱한 것이 들어온다.
+# 첫 구현에서 "brand"와 "브랜드"를 넣었더니 캐리어 브랜드 Top3,
+# 안경 브랜드 추천 같은 소비 리뷰가 마케팅 보드 맨 위에 올라왔다.
+# 판매 행위를 가리키는 말만 남긴다.
+MARKETING_TERMS = (
+    "shopify", "marketing", " ads", "ad creative", "funnel", "conversion",
+    "retention", "email marketing", "ugc", "aov", "dtc", "landing page",
+    "ecommerce", "e-commerce", "branding", "upsell", "checkout",
+    "마케팅", "광고", "전환율", "퍼넬", "객단가", "브랜딩", "럜딩페이지",
+    "재구매", "리텐션", "이커머스", "상세페이지", "구매전환",
+)
+
+
+def _is_marketing(text: str) -> bool:
+    low = (text or "").lower()
+    return any(t.strip() in low for t in MARKETING_TERMS)
+
+
+def marketing_videos(limit: int = 25) -> list[dict]:
+    rows: list[dict] = []
+
+    ym = load(D / "youtube_manual.json", {}) or {}
+    for v in (ym.get("videos") or []):
+        if not v.get("title") or v.get("error"):
+            continue
+        teams = [str(t) for t in (v.get("teams") or [])]
+        text = f'{v.get("title")} {v.get("note") or ""} {v.get("description") or ""}'
+        # 사람이 market 으로 지정했어도 마케팅 낱말이 없으면 보드에 안 올린다.
+        # 보드는 읽을 거리 목록이 아니라 판매 전략 근거다.
+        if not _is_marketing(text):
+            continue
+        rows.append({"title": v.get("title"), "url": v.get("url"),
+                     "channel": v.get("channel"), "views": v.get("views"),
+                     "note": v.get("note") or "",
+                     "teams": teams, "source": "youtube_manual"})
+
+    yc = load(D / "youtube_channels.json", {}) or {}
+    for c in (yc.get("items") or []):
+        for v in (c.get("videos") or []):
+            title = str(v.get("title") or "")
+            teams = [str(t) for t in (v.get("teams") or c.get("teams") or [])]
+            if not title:
+                continue
+            # 채널 영상은 자동 분류로 market 이 붙는다. 그만으로 넣으면
+            # 캐리어 추천·아이폰 하울 같은 소비 영상이 마케팅 보드를 먹는다.
+            if not _is_marketing(title):
+                continue
+            rows.append({"title": title, "url": v.get("url"),
+                         "channel": c.get("channel") or c.get("name"),
+                         "views": v.get("views"), "note": "",
+                         "teams": teams, "source": "youtube_channel"})
+
+    ys = load(D / "youtube_serpapi.json", {}) or {}
+    if str(ys.get("query_set") or "") == "marketing":
+        for v in (ys.get("videos") or [])[:40]:
+            title = str(v.get("title") or "")
+            if not title:
+                continue
+            rows.append({"title": title, "url": v.get("link") or v.get("url"),
+                         "channel": (v.get("channel") or {}).get("name")
+                         if isinstance(v.get("channel"), dict) else v.get("channel"),
+                         "views": v.get("views"), "note": "",
+                         "teams": ["market"], "source": "youtube_serpapi"})
+
+    seen, uniq = set(), []
+    for r in rows:
+        key = str(r.get("url") or r.get("title"))
+        if key in seen:
+            continue
+        seen.add(key)
+        uniq.append(r)
+    uniq.sort(key=lambda r: (r.get("views") or 0), reverse=True)
+    return uniq[:limit]
+
+
+def build_marketing_playbook() -> dict:
+    """마케팅 자료가 어느 주제에 쌓였는지만 센다. 전략 문장을 지어내지 않는다."""
+    topics = {
+        "광고·크리에이티브": ("ads", "ad creative", "creative", "광고", "ugc"),
+        "전환·럜딩": ("conversion", "landing", "cro", "전환율", "럜딩"),
+        "객단가·번들": ("aov", "bundle", "upsell", "객단가", "번들"),
+        "유지·재구매": ("retention", "email", "sms", "재구매", "구독"),
+        "채널 확장": ("tiktok", "amazon", "seo", "retail", "채널"),
+        "브랜딩·포지셔닝": ("brand", "positioning", "브랜딩", "포지셔닝"),
+    }
+    videos = marketing_videos(limit=60)
+    board = {}
+    for name, words in topics.items():
+        hits = [v for v in videos
+                if any(w in f'{v.get("title", "")} {v.get("note", "")}'.lower()
+                       for w in words)]
+        board[name] = {
+            "자료_수": len(hits),
+            "자료": [{"title": h["title"], "url": h.get("url"),
+                     "note": h.get("note", "")} for h in hits[:5]],
+        }
+    briefings = load(D / "manual" / "team_briefings.json", {}) or {}
+    applied = [{"title": b.get("title"), "date": b.get("date"),
+                "market": (b.get("team_actions") or {}).get("market", "")}
+               for b in (briefings.get("items") or [])
+               if "market" in (b.get("teams") or [])]
+    return {
+        "설명": ("유튜브·브리핑에서 모은 마케팅 자료를 주제별로 묶은 것이다. "
+                 "전략 문장은 사람이 적는다. 수치는 수집된 실측값이다."),
+        "영상_총량": len(videos),
+        "주제": board,
+        "적용_브리핑": applied,
+    }
+
+
 def build_keyword_board(s_rows, oy_products):
     """S등급 상품명에서 시드 키워드를 뽑고 미국 베스트셀러와 대조한다.
 
@@ -447,7 +565,12 @@ def main() -> int:
                  "price_usd": p.get("price_usd"), "source": p.get("source")}
                 for p in us_pool[:20]
             ],
-            "manual_trends": [],
+            # 지금까지 빈 배열이었다 (2026-09-19).
+            #
+            # 유튜브를 모으긴 했는데 마케팅 보드가 그걸 한 번도 안 읽었다.
+            # 그래서 "유튜브로 전략 데이터를 짜고 있느냐"는 질문에
+            # 아니오라고 답해야 했다. 수집분을 보드로 연결한다.
+            "manual_trends": marketing_videos(),
             "note": (
                 "실수집 가능한 소스만 반영한다. "
                 "OliveYoung US 가 Actions 403 이면 Sephora/Ulta 등으로 경쟁군을 채운다. "
@@ -462,6 +585,7 @@ def main() -> int:
                 ),
             },
         },
+        "marketing_playbook": build_marketing_playbook(),
         "keyword_board": build_keyword_board(s_rows, oy_products),
         "s_grade_priority": s_rows,
         "competitor_watch": competitor_watch,

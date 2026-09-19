@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-19T22:19:45.711611+00:00",
+  "generated_at": "2026-09-19T22:27:05.884199+00:00",
   "generator": "scripts/build_product_master.py",
   "source": "data/daiso_real/products.json",
   "id_policy": "pd_no에 최초 CP 발급 후 재사용·재번호 부여 금지",
-  "active_product_count": 338,
-  "registry_count": 338,
+  "active_product_count": 342,
+  "registry_count": 342,
   "pd_no_to_cp": {
     "1002220": "CP000019",
     "1002393": "CP000020",
@@ -54,6 +54,7 @@
     "1039235": "CP000062",
     "1039238": "CP000063",
     "1039542": "CP000064",
+    "1040079": "CP000339",
     "1040473": "CP000065",
     "1041093": "CP000066",
     "1041749": "CP000067",
@@ -126,6 +127,7 @@
     "1055169": "CP000132",
     "1056104": "CP000133",
     "1056647": "CP000134",
+    "1056649": "CP000340",
     "1056650": "CP000135",
     "1056662": "CP000136",
     "1056708": "CP000137",
@@ -147,6 +149,8 @@
     "1060069": "CP000153",
     "1060208": "CP000154",
     "1060211": "CP000155",
+    "1060214": "CP000341",
+    "1060215": "CP000342",
     "1060439": "CP000156",
     "1060487": "CP000157",
     "1060489": "CP000158",
@@ -2792,6 +2796,58 @@
       }
     },
     {
+      "canonical_product_id": "CP000339",
+      "pd_no": "1040079",
+      "name_ko": "포인트 딥클린 올인원 클렌징 티슈 30매",
+      "brand": "포인트",
+      "category": "클렌징",
+      "source": {
+        "system": "daisomall.co.kr",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1040079",
+        "collected_at": "2026-09-19T21:39:52.897198+00:00"
+      },
+      "price_krw": 2000,
+      "rating": 4.8,
+      "review_count": 1668,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251002/7X8B9SzPXsE15nzdihuK1040079_00_007X8B9SzPXsE15nzdihuK.png",
+      "shopify_score": 86,
+      "grade": "A",
+      "s_rule": "no_global_match",
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 13.3,
+        "reviews": 19.5,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 23.1,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "component_scores": {
+        "match_score": 0.0,
+        "demand_score": 0.82,
+        "review_score": 0.9371,
+        "final_score": 0.5681,
+        "model": "parallel_v1_observational",
+        "used_for_grade": false
+      },
+      "variant": {
+        "group_id": "VG-CP000339",
+        "option_name": "Title",
+        "option_value": "Default Title",
+        "sku": "CP000339"
+      },
+      "listing": {
+        "ready": null,
+        "blocked_by": [],
+        "gate_generated_at": null
+      }
+    },
+    {
       "canonical_product_id": "CP000065",
       "pd_no": "1040473",
       "name_ko": "병풀 클렌징티슈 30매",
@@ -3360,7 +3416,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-19T22:19:45.675823+00:00"
+        "gate_generated_at": "2026-09-19T22:27:05.823788+00:00"
       }
     },
     {
@@ -4976,7 +5032,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-19T22:19:45.675823+00:00"
+        "gate_generated_at": "2026-09-19T22:27:05.823788+00:00"
       }
     },
     {
@@ -5032,7 +5088,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-19T22:19:45.675823+00:00"
+        "gate_generated_at": "2026-09-19T22:27:05.823788+00:00"
       }
     },
     {
@@ -5136,7 +5192,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-19T22:19:45.675823+00:00"
+        "gate_generated_at": "2026-09-19T22:27:05.823788+00:00"
       }
     },
     {
@@ -6077,7 +6133,7 @@
           "us_label",
           "legal"
         ],
-        "gate_generated_at": "2026-09-19T22:19:45.675823+00:00"
+        "gate_generated_at": "2026-09-19T22:27:05.823788+00:00"
       }
     },
     {
@@ -6337,7 +6393,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-19T22:19:45.675823+00:00"
+        "gate_generated_at": "2026-09-19T22:27:05.823788+00:00"
       }
     },
     {
@@ -6541,6 +6597,58 @@
         "option_name": "Title",
         "option_value": "2ml",
         "sku": "CP000134"
+      },
+      "listing": {
+        "ready": null,
+        "blocked_by": [],
+        "gate_generated_at": null
+      }
+    },
+    {
+      "canonical_product_id": "CP000340",
+      "pd_no": "1056649",
+      "name_ko": "VT 리들샷 페이셜 레디언스 글루타치온 에센스 2 ml X 6개입",
+      "brand": "VT",
+      "category": "스킨케어",
+      "source": {
+        "system": "daisomall.co.kr",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1056649",
+        "collected_at": "2026-09-19T21:29:49.743630+00:00"
+      },
+      "price_krw": 3000,
+      "rating": 4.8,
+      "review_count": 2308,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250929/KsNuHoj2yHg2kDfPHPxz1056649_00_01KsNuHoj2yHg2kDfPHPxz.jpg",
+      "shopify_score": 83,
+      "grade": "A",
+      "s_rule": "weak_solo_token",
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 13.3,
+        "reviews": 20.0,
+        "price": 10.0,
+        "keyword": 3,
+        "us_market_fit": 12.1,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 6,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "component_scores": {
+        "match_score": 0.28,
+        "demand_score": 0.7708,
+        "review_score": 0.9514,
+        "final_score": 0.6532,
+        "model": "parallel_v1_observational",
+        "used_for_grade": false
+      },
+      "variant": {
+        "group_id": "VG-CP000340",
+        "option_name": "Title",
+        "option_value": "2ml",
+        "sku": "CP000340"
       },
       "listing": {
         "ready": null,
@@ -7429,7 +7537,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-19T22:19:45.675823+00:00"
+        "gate_generated_at": "2026-09-19T22:27:05.823788+00:00"
       }
     },
     {
@@ -7633,6 +7741,110 @@
         "option_name": "Title",
         "option_value": "140ml",
         "sku": "CP000155"
+      },
+      "listing": {
+        "ready": null,
+        "blocked_by": [],
+        "gate_generated_at": null
+      }
+    },
+    {
+      "canonical_product_id": "CP000341",
+      "pd_no": "1060214",
+      "name_ko": "바세린 딥클린 클렌징폼 180 ml",
+      "brand": "애경 바세린",
+      "category": "클렌징",
+      "source": {
+        "system": "daisomall.co.kr",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060214",
+        "collected_at": "2026-09-19T22:04:52.670647+00:00"
+      },
+      "price_krw": 3000,
+      "rating": 4.8,
+      "review_count": 1649,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250311/pn0zDOlgMlCWQpjsIR3J1060214_00_01pn0zDOlgMlCWQpjsIR3J.jpg",
+      "shopify_score": 86,
+      "grade": "A",
+      "s_rule": "weak_solo_token",
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 13.3,
+        "reviews": 19.5,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 23.1,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 2,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "component_scores": {
+        "match_score": 0.248,
+        "demand_score": 0.82,
+        "review_score": 0.9371,
+        "final_score": 0.6549,
+        "model": "parallel_v1_observational",
+        "used_for_grade": false
+      },
+      "variant": {
+        "group_id": "VG-CP000341",
+        "option_name": "Title",
+        "option_value": "180ml",
+        "sku": "CP000341"
+      },
+      "listing": {
+        "ready": null,
+        "blocked_by": [],
+        "gate_generated_at": null
+      }
+    },
+    {
+      "canonical_product_id": "CP000342",
+      "pd_no": "1060215",
+      "name_ko": "센카 퍼펙트 휩 클렌징 폼 50 g 프레시",
+      "brand": "센카",
+      "category": "클렌징",
+      "source": {
+        "system": "daisomall.co.kr",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060215",
+        "collected_at": "2026-09-19T21:53:44.204527+00:00"
+      },
+      "price_krw": 3000,
+      "rating": 4.8,
+      "review_count": 1571,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240924/OstV4nwe449zyzV9njAU1060215_00_00OstV4nwe449zyzV9njAU.jpg",
+      "shopify_score": 86,
+      "grade": "A",
+      "s_rule": "weak_solo_token",
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 13.3,
+        "reviews": 19.4,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 23.1,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 2,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "component_scores": {
+        "match_score": 0.248,
+        "demand_score": 0.82,
+        "review_score": 0.9343,
+        "final_score": 0.6541,
+        "model": "parallel_v1_observational",
+        "used_for_grade": false
+      },
+      "variant": {
+        "group_id": "VG-CP000342",
+        "option_name": "Title",
+        "option_value": "50g",
+        "sku": "CP000342"
       },
       "listing": {
         "ready": null,
@@ -10809,7 +11021,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-19T22:19:45.675823+00:00"
+        "gate_generated_at": "2026-09-19T22:27:05.823788+00:00"
       }
     },
     {
@@ -12634,7 +12846,7 @@
           "us_label",
           "legal"
         ],
-        "gate_generated_at": "2026-09-19T22:19:45.675823+00:00"
+        "gate_generated_at": "2026-09-19T22:27:05.823788+00:00"
       }
     },
     {
@@ -13622,7 +13834,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-19T22:19:45.675823+00:00"
+        "gate_generated_at": "2026-09-19T22:27:05.823788+00:00"
       }
     },
     {
