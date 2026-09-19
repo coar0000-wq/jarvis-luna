@@ -200,7 +200,7 @@ MONTHS = {m: f"{i:02d}" for i, m in enumerate(
 #
 # 다이소 상품은 사람이 넣은 것이 아니라 수집기가 긁어온 것이다.
 # by_hand 의 뜻 그대로 빼둔다. 상품은 아래 PRODUCT_POOLS 로 따로 센다.
-BY_HAND = ("papers", "youtube_manual", "youtube_channel")
+BY_HAND = ("papers", "youtube_manual", "youtube_channel", "team_briefing")
 
 # 읽을거리가 아니라 상품 행인 풀.
 #
@@ -294,10 +294,25 @@ def main() -> int:
     for it in ((ym or {}).get("videos") or []):
         if not it.get("title") or it.get("error"):
             continue
+        note = str(it.get("note") or "").strip()
+        description = str(it.get("description") or "").strip()
         pools.append({"title": it["title"], "url": it.get("url") or "",
                       "date": (it.get("published") or it.get("collected_at") or "")[:10],
                       "pool": "youtube_manual", "teams": it.get("teams") or [],
-                      "text": (it.get("description") or "")[:400]})
+                      "summary": note,
+                      "text": (note + " " + description).strip()[:800]})
+
+    # 사용자가 직접 전달한 전략 요약. 영상 URL이 없어도 팀별로 보존·배포한다.
+    # 자동 생성 파일에 직접 쓰면 다음 실행에서 사라지므로 data/manual이 정본이다.
+    briefings = load(DATA / "manual" / "team_briefings.json")
+    for it in ((briefings or {}).get("items") or []):
+        if not it.get("title") or not it.get("teams"):
+            continue
+        summary = str(it.get("summary") or "").strip()
+        pools.append({"title": it["title"], "url": it.get("source_url") or "",
+                      "date": str(it.get("date") or "")[:10],
+                      "pool": "team_briefing", "teams": it.get("teams") or [],
+                      "summary": summary, "text": summary[:1200]})
 
     yc = load(DATA / "youtube_channels.json")
     for c in ((yc or {}).get("items") or []):
@@ -343,7 +358,7 @@ def main() -> int:
             unrouted += 1
             continue
         for t in hits:
-            row = {k: it[k] for k in ("title", "url", "pool") if k in it}
+            row = {k: it[k] for k in ("title", "url", "pool", "summary") if k in it}
             row["date"] = iso_date(it.get("date", ""))
             # 사람이 직접 넣은 것은 위에 둔다. 골라 넣은 자료가 자동
             # 수집분에 밀려 안 보이면 넣은 의미가 없다.
