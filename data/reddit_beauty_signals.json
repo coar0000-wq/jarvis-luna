@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-19T02:56:18.613691+00:00",
+  "collected_at": "2026-09-19T08:33:25.222208+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -116,6 +116,14 @@
       "score": 2
     },
     {
+      "keyword": "moisturizers",
+      "score": 2
+    },
+    {
+      "keyword": "moisturizer",
+      "score": 2
+    },
+    {
       "keyword": "best",
       "score": 2
     },
@@ -125,14 +133,6 @@
     },
     {
       "keyword": "makeup",
-      "score": 2
-    },
-    {
-      "keyword": "moisturizers",
-      "score": 2
-    },
-    {
-      "keyword": "moisturizer",
       "score": 2
     },
     {
@@ -234,15 +234,15 @@
       "score": 2
     },
     {
-      "keyword": "kbeauty",
-      "score": 2
-    },
-    {
       "keyword": "moisturizers",
       "score": 2
     },
     {
       "keyword": "moisturizer",
+      "score": 2
+    },
+    {
+      "keyword": "kbeauty",
       "score": 2
     },
     {
@@ -340,13 +340,6 @@
       "feed": "hot"
     },
     {
-      "title": "Online retailers for Japanese skincare? (US based)",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjktmz/online_retailers_for_japanese_skincare_us_based/",
-      "published": "2026-09-18T08:52:16+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
       "title": "Cbeauty locally available in Hong Kong?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjdibz/cbeauty_locally_available_in_hong_kong/",
       "published": "2026-09-18T02:16:30+00:00",
@@ -354,9 +347,9 @@
       "feed": "hot"
     },
     {
-      "title": "What are the best affordable stores to buy kbeauty makeup and skincare products??",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wizxy1/what_are_the_best_affordable_stores_to_buy/",
-      "published": "2026-09-17T17:10:05+00:00",
+      "title": "Online retailers for Japanese skincare? (US based)",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjktmz/online_retailers_for_japanese_skincare_us_based/",
+      "published": "2026-09-18T08:52:16+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -364,6 +357,13 @@
       "title": "Baby Moisturizers/Lotions as main face moisturizer",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wje7ab/baby_moisturizerslotions_as_main_face_moisturizer/",
       "published": "2026-09-18T02:49:07+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "What are the best affordable stores to buy kbeauty makeup and skincare products??",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wizxy1/what_are_the_best_affordable_stores_to_buy/",
+      "published": "2026-09-17T17:10:05+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },

@@ -2,7 +2,7 @@
 title: "Record 5fa6a8d02c · Resolution-Enhanced-Vat-Photopolymerization-of-Emul"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T04:40:20.280759+00:00
+updated_at: 2026-09-19T08:40:41.164992+00:00
 tags: [record, real-data]
 ---
 

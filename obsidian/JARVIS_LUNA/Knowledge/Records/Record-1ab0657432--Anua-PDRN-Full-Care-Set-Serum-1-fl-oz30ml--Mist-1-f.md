@@ -2,7 +2,7 @@
 title: "Record 1ab0657432 · Anua-PDRN-Full-Care-Set-Serum-1-fl-oz30ml--Mist-1-f"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T04:40:20.836921+00:00
+updated_at: 2026-09-19T08:40:41.738606+00:00
 tags: [record, real-data]
 ---
 

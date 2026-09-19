@@ -2,7 +2,7 @@
 title: "Record a405c7689a · InSitu-Transmission-Electron-Microscope-Investigati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T04:40:20.248325+00:00
+updated_at: 2026-09-19T08:40:41.134067+00:00
 tags: [record, real-data]
 ---
 

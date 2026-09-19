@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-19T02:55:02.832967+00:00",
+  "collected_at": "2026-09-19T08:31:42.927707+00:00",
   "total": 1063,
   "organizations": 35,
   "by_org": {
@@ -54,19 +54,19 @@
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-09-19T02:54:00.362648+00:00"
+      "collected_at": "2026-09-19T08:30:37.214621+00:00"
     },
     "sitemap": {
       "status": "ok",
       "count": 140,
       "failures": [],
-      "collected_at": "2026-09-19T02:54:35.121565+00:00"
+      "collected_at": "2026-09-19T08:31:14.863578+00:00"
     },
     "openalex": {
       "status": "ok",
       "count": 713,
       "failures": [],
-      "collected_at": "2026-09-19T02:55:02.831811+00:00"
+      "collected_at": "2026-09-19T08:31:42.926600+00:00"
     }
   },
   "not_collected": {
@@ -84,6 +84,19 @@
     "SEC EDGAR 공시": "샌드박스에서 검증 불가하여 미등록"
   },
   "items": [
+    {
+      "title": "Introducing the Australian Youth Safety Blueprint",
+      "url": "https://openai.com/index/australian-youth-safety-blueprint",
+      "date": "2026-09-18",
+      "date_raw": "Fri, 18 Sep 2026 12:00:00 GMT",
+      "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
+      "org": "OpenAI",
+      "category": "AI연구소",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://openai.com/news/rss.xml",
+      "title_source": "feed"
+    },
     {
       "title": "How Cooley is accelerating IPO work with ChatGPT",
       "url": "https://openai.com/index/cooley-gopublic",
@@ -293,11 +306,11 @@
       "title_source": "feed"
     },
     {
-      "title": "Introducing the Agents API",
-      "url": "https://openai.com/index/introducing-the-agents-api",
+      "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
       "date": "2026-09-10",
       "date_raw": "Thu, 10 Sep 2026 00:00:00 GMT",
-      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+      "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -306,11 +319,11 @@
       "title_source": "feed"
     },
     {
-      "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
-      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "title": "Introducing the Agents API",
+      "url": "https://openai.com/index/introducing-the-agents-api",
       "date": "2026-09-10",
       "date_raw": "Thu, 10 Sep 2026 00:00:00 GMT",
-      "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -389,19 +402,6 @@
       "date": "2026-09-08",
       "date_raw": "Tue, 08 Sep 2026 11:30:00 GMT",
       "summary": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
-      "org": "OpenAI",
-      "category": "AI연구소",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://openai.com/news/rss.xml",
-      "title_source": "feed"
-    },
-    {
-      "title": "On the Navier–Stokes Millennium Prize Problem",
-      "url": "https://openai.com/index/navier-stokes-solution",
-      "date": "2026-09-08",
-      "date_raw": "Tue, 08 Sep 2026 10:00:00 GMT",
-      "summary": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -3868,6 +3868,45 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
+      "url": "https://www.goldmansachs.com/insights/articles/consumer-agents-signal-new-phase-for-ai-growth",
+      "date": "2026-09-18",
+      "date_raw": "2026-09-18T11:02:53.000Z",
+      "title_source": "url-slug",
+      "title": "Consumer Agents Signal New Phase For Ai Growth",
+      "summary": "",
+      "org": "Goldman Sachs",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.goldmansachs.com/sitemap.xml"
+    },
+    {
+      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/rich-friedman-on-the-rise-of-private-markets-and-ai-investing",
+      "date": "2026-09-18",
+      "date_raw": "2026-09-18T13:16:24.000Z",
+      "title_source": "url-slug",
+      "title": "Rich Friedman On The Rise Of Private Markets And Ai Investing",
+      "summary": "",
+      "org": "Goldman Sachs",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.goldmansachs.com/sitemap.xml"
+    },
+    {
+      "url": "https://www.goldmansachs.com/insights/the-markets/the-opportunities-for-investors-amid-higher-for-longer-interest-rates",
+      "date": "2026-09-18",
+      "date_raw": "2026-09-18T13:08:39.000Z",
+      "title_source": "url-slug",
+      "title": "The Opportunities For Investors Amid Higher For Longer Interest Rates",
+      "summary": "",
+      "org": "Goldman Sachs",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.goldmansachs.com/sitemap.xml"
+    },
+    {
       "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/citadels-ken-griffin-on-ai-us-china-tensions-and-us-data-centers",
       "date": "2026-09-18",
       "date_raw": "2026-09-18T16:30:35.000Z",
@@ -3933,45 +3972,6 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/rich-friedman-on-the-rise-of-private-markets-and-ai-investing",
-      "date": "2026-09-18",
-      "date_raw": "2026-09-18T13:16:24.000Z",
-      "title_source": "url-slug",
-      "title": "Rich Friedman On The Rise Of Private Markets And Ai Investing",
-      "summary": "",
-      "org": "Goldman Sachs",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.goldmansachs.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.goldmansachs.com/insights/articles/consumer-agents-signal-new-phase-for-ai-growth",
-      "date": "2026-09-18",
-      "date_raw": "2026-09-18T11:02:53.000Z",
-      "title_source": "url-slug",
-      "title": "Consumer Agents Signal New Phase For Ai Growth",
-      "summary": "",
-      "org": "Goldman Sachs",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.goldmansachs.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.goldmansachs.com/insights/the-markets/the-opportunities-for-investors-amid-higher-for-longer-interest-rates",
-      "date": "2026-09-18",
-      "date_raw": "2026-09-18T13:08:39.000Z",
-      "title_source": "url-slug",
-      "title": "The Opportunities For Investors Amid Higher For Longer Interest Rates",
-      "summary": "",
-      "org": "Goldman Sachs",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.goldmansachs.com/sitemap.xml"
-    },
-    {
       "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/rich-friedman-on-the-rise-of-private-markets-and-ai-investing/transcript.pdf",
       "date": "2026-09-17",
       "date_raw": "2026-09-17T19:12:17.000Z",
@@ -4011,19 +4011,6 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/articles/can-the-s-and-p-500-rally-as-treasury-yields-rise",
-      "date": "2026-09-15",
-      "date_raw": "2026-09-15T18:23:51.000Z",
-      "title_source": "url-slug",
-      "title": "Can The S And P 500 Rally As Treasury Yields Rise",
-      "summary": "",
-      "org": "Goldman Sachs",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.goldmansachs.com/sitemap.xml"
-    },
-    {
       "url": "https://www.goldmansachs.com/insights/the-markets/why-gold-is-expected-to-rise-to-record-highs",
       "date": "2026-09-15",
       "date_raw": "2026-09-15T13:48:46.000Z",
@@ -4037,11 +4024,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/why-global-bond-yields-are-surging/transcript.pdf",
+      "url": "https://www.goldmansachs.com/insights/articles/can-the-s-and-p-500-rally-as-treasury-yields-rise",
       "date": "2026-09-15",
-      "date_raw": "2026-09-15T16:16:04.000Z",
+      "date_raw": "2026-09-15T18:23:51.000Z",
       "title_source": "url-slug",
-      "title": "Why Global Bond Yields Are Surging   Transcript",
+      "title": "Can The S And P 500 Rally As Treasury Yields Rise",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -4050,11 +4037,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/bain-capitals-david-gross-on-global-opportunities-and-private-equitys-evolution",
-      "date": "2026-09-11",
-      "date_raw": "2026-09-11T13:27:30.000Z",
+      "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/why-global-bond-yields-are-surging/transcript.pdf",
+      "date": "2026-09-15",
+      "date_raw": "2026-09-15T16:16:04.000Z",
       "title_source": "url-slug",
-      "title": "Bain Capitals David Gross On Global Opportunities And Private Equitys Evolution",
+      "title": "Why Global Bond Yields Are Surging   Transcript",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -4089,6 +4076,19 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
+      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/bain-capitals-david-gross-on-global-opportunities-and-private-equitys-evolution",
+      "date": "2026-09-11",
+      "date_raw": "2026-09-11T13:27:30.000Z",
+      "title_source": "url-slug",
+      "title": "Bain Capitals David Gross On Global Opportunities And Private Equitys Evolution",
+      "summary": "",
+      "org": "Goldman Sachs",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.goldmansachs.com/sitemap.xml"
+    },
+    {
       "url": "https://www.goldmansachs.com/insights/the-markets/what-a-fed-rate-hike-could-mean-for-us-stocks",
       "date": "2026-09-11",
       "date_raw": "2026-09-11T22:03:30.000Z",
@@ -4113,6 +4113,32 @@
       "kind": "발표물",
       "source": "sitemap",
       "feed": "https://www.goldmansachs.com/sitemap.xml"
+    },
+    {
+      "url": "https://www.jpmorgan.com/insights/markets-and-economy/insights-from-the-inside",
+      "date": "2026-09-18",
+      "date_raw": "2026-09-18",
+      "title_source": "url-slug",
+      "title": "Insights From The Inside",
+      "summary": "",
+      "org": "JPMorgan Chase",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.jpmorgan.com/sitemap.xml"
+    },
+    {
+      "url": "https://www.jpmorgan.com/insights/real-estate/commercial-real-estate/rising-interest-rates-effect-on-commercial-real-estate",
+      "date": "2026-09-18",
+      "date_raw": "2026-09-18",
+      "title_source": "url-slug",
+      "title": "Rising Interest Rates Effect On Commercial Real Estate",
+      "summary": "",
+      "org": "JPMorgan Chase",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.jpmorgan.com/sitemap.xml"
     },
     {
       "url": "https://www.jpmorgan.com/insights/banking/financing/main-sequence-building-the-next-generation-of-deep-tech",
@@ -4341,32 +4367,6 @@
       "date_raw": "2026-09-15",
       "title_source": "url-slug",
       "title": "Security And Resiliency Initiative",
-      "summary": "",
-      "org": "JPMorgan Chase",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.jpmorgan.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.jpmorgan.com/insights/etf/securities-services/etf-share-classes",
-      "date": "2026-09-15",
-      "date_raw": "2026-09-15",
-      "title_source": "url-slug",
-      "title": "Etf Share Classes",
-      "summary": "",
-      "org": "JPMorgan Chase",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.jpmorgan.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.jpmorgan.com/insights/investing/investment-trends/active-etfs-unwrapped",
-      "date": "2026-09-15",
-      "date_raw": "2026-09-15",
-      "title_source": "url-slug",
-      "title": "Active Etfs Unwrapped",
       "summary": "",
       "org": "JPMorgan Chase",
       "category": "투자은행",
@@ -6749,6 +6749,20 @@
       "cited_by": 0
     },
     {
+      "title": "Predictive Analytics in Banking: Regulatory Reporting, Supervision, and Portfolio Oversight, Advances and Future Opportunities",
+      "url": "https://doi.org/10.55248/gengpi.06.1226.2839",
+      "date": "2026-09-14",
+      "summary": "",
+      "org": "Barclays",
+      "category": "투자은행",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "International Journal of Research Publication and Reviews",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "Adaptive Multi-Agent Deep Reinforcement Learning for Distributed Zero Trust Architectures in Global Financial Ecosystems",
       "url": "https://doi.org/10.21203/rs.3.rs-10406334/v1",
       "date": "2026-08-13",
@@ -7069,20 +7083,6 @@
       "venue": "The Journal of Portfolio Management",
       "work_type": "article",
       "cited_by": 0
-    },
-    {
-      "title": "Interpretability in deep learning for finance: A case study for the Heston model",
-      "url": "https://doi.org/10.1016/j.risk.2025.100030",
-      "date": "2025-08-20",
-      "summary": "",
-      "org": "Barclays",
-      "category": "투자은행",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Risk sciences.",
-      "work_type": "article",
-      "cited_by": 1
     },
     {
       "title": "Social trills of the pipistrelle bat ( Pipistrellus pipistrellus ) are quieter than their echolocation calls, but have a greater range",
@@ -7855,6 +7855,20 @@
       "cited_by": 0
     },
     {
+      "title": "Population Intelligence: Smallest-Model Numerical Experiment",
+      "url": "https://doi.org/10.64898/2026.09.08.750290",
+      "date": "2026-09-14",
+      "summary": "",
+      "org": "Intel",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "work_type": "preprint",
+      "cited_by": 0
+    },
+    {
       "title": "NEXUS: Speeding Up the Next Wave of AI Workloads, GNN and SSM Optimization on NPUs",
       "url": "https://doi.org/10.1145/3846378",
       "date": "2026-09-07",
@@ -8121,20 +8135,6 @@
       "cited_by": 0
     },
     {
-      "title": "REINFORCING MEDIA GOVERNANCE IN INDONESIAN DYNAMIC CYBER SPACE",
-      "url": "https://doi.org/10.7454/irhs.v11i2.1475",
-      "date": "2026-07-30",
-      "summary": "",
-      "org": "Intel",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "International Review of Humanities Studies",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
       "title": "Enhanced Magnetism in Cation‐Modulated Manganite Heterostructures",
       "url": "https://doi.org/10.1002/admi.70672",
       "date": "2026-09-15",
@@ -8249,6 +8249,20 @@
     {
       "title": "Unmanned Aerial Vehicle (UAV) Flight Strategies for Post-Earthquake Inspections",
       "url": "https://openalex.org/W7213491360",
+      "date": "2026-07-13",
+      "summary": "",
+      "org": "Qualcomm",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "eScholarship (California Digital Library)",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "Post-Earthquake Damage Assessment Using a UAV-Acquired Photogrammetry Model",
+      "url": "https://openalex.org/W7213566767",
       "date": "2026-07-13",
       "summary": "",
       "org": "Qualcomm",
@@ -8468,20 +8482,6 @@
       "title_source": "openalex",
       "venue": "arXiv (Cornell University)",
       "work_type": "preprint",
-      "cited_by": 0
-    },
-    {
-      "title": "Building Intuition in Amplifier Design Using Load-Pull Based Multi-Objective Visualization",
-      "url": "https://doi.org/10.1109/jmw.2026.3669005",
-      "date": "2026-04-01",
-      "summary": "",
-      "org": "Qualcomm",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "IEEE Journal of Microwaves",
-      "work_type": "article",
       "cited_by": 0
     },
     {
@@ -9885,6 +9885,20 @@
       "cited_by": 0
     },
     {
+      "title": "Beyond direct AI exposure: Measuring network-mediated labor risk through multilayer occupational networks",
+      "url": "https://doi.org/10.21203/rs.3.rs-10965551/v1",
+      "date": "2026-09-19",
+      "summary": "",
+      "org": "Samsung Electronics",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Research Square",
+      "work_type": "preprint",
+      "cited_by": 0
+    },
+    {
       "title": "Low-Temperature Plasma-Induced Oxygen-Vacancy Engineering Enables Orthorhombic-Phase Stabilization in Hf0.5Zr0.5O2 for 2D FeFETs toward Monolithic 3D Integration",
       "url": "https://doi.org/10.1021/acsaelm.6c01138",
       "date": "2026-09-18",
@@ -9937,6 +9951,20 @@
       "source": "openalex",
       "title_source": "openalex",
       "venue": "Cancer Immunology Immunotherapy",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "Development of a pulsed eddy current-based monitoring system for tension force estimation in bridge cable anchorages",
+      "url": "https://doi.org/10.1016/j.measurement.2026.123225",
+      "date": "2026-09-16",
+      "summary": "",
+      "org": "Samsung Electronics",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Measurement",
       "work_type": "article",
       "cited_by": 0
     },
@@ -10203,34 +10231,6 @@
       "source": "openalex",
       "title_source": "openalex",
       "venue": "Journal of the Korean Statistical Society",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Refining RhIG Prophylaxis Guidelines: Asian-type DEL as RhD-Positive and Unresolved Dosing Challenges in RhD Epitope-Deficient Variants",
-      "url": "https://doi.org/10.3343/alm.2026.0264",
-      "date": "2026-09-08",
-      "summary": "",
-      "org": "Samsung Electronics",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Annals of Laboratory Medicine",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Nonmonotonic Li-Content Evolution and Size-Dependent Lithium Accessibility in Degraded High-Nickel Cathodes",
-      "url": "https://doi.org/10.1021/acsenergylett.6c01660",
-      "date": "2026-09-08",
-      "summary": "",
-      "org": "Samsung Electronics",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "ACS Energy Letters",
       "work_type": "article",
       "cited_by": 0
     },
@@ -10585,6 +10585,34 @@
       "cited_by": 0
     },
     {
+      "title": "Closure Scales and a Route to Geometrical Unification: Intrinsic Closure to Relational and Observable Physics",
+      "url": "https://doi.org/10.5281/zenodo.22831823",
+      "date": "2026-09-18",
+      "summary": "",
+      "org": "OpenAI",
+      "category": "AI연구소",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "Closure Scales and a Route to Geometrical Unification: Intrinsic Closure to Relational and Observable Physics",
+      "url": "https://doi.org/10.5281/zenodo.22831822",
+      "date": "2026-09-18",
+      "summary": "",
+      "org": "OpenAI",
+      "category": "AI연구소",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "The future of large-scale experiments and their challenges in the digital era",
       "url": "https://doi.org/10.1038/s41562-026-02582-6",
       "date": "2026-09-17",
@@ -10895,34 +10923,6 @@
     {
       "title": "Canonical Frame Transport as the Induced Geometry of the Canonical Transport Equation",
       "url": "https://doi.org/10.5281/zenodo.21477824",
-      "date": "2026-07-21",
-      "summary": "",
-      "org": "OpenAI",
-      "category": "AI연구소",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Closure Theory: An Introductory Résumé of Papers 0–IV",
-      "url": "https://doi.org/10.5281/zenodo.21479199",
-      "date": "2026-07-21",
-      "summary": "",
-      "org": "OpenAI",
-      "category": "AI연구소",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "The Oriented Completed Intrinsic Closure Elimination as a Candidate Intrinsic Charge Invariant",
-      "url": "https://doi.org/10.5281/zenodo.21478940",
       "date": "2026-07-21",
       "summary": "",
       "org": "OpenAI",

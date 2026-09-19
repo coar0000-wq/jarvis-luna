@@ -2,7 +2,7 @@
 title: "Record 89c09d6960 · Anthropic-Infosys"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T04:40:20.894649+00:00
+updated_at: 2026-09-19T08:40:41.801543+00:00
 tags: [record, real-data]
 ---
 

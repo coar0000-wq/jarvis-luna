@@ -2,7 +2,7 @@
 title: "Record 0358f57638 · Robust-Fault-Detection-in-Mechanical-Multimodal-Time-Series-via-Self-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T04:40:20.210199+00:00
+updated_at: 2026-09-19T08:40:41.093802+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 7fd12671a6 · Citadels-Ken-Griffin-On-Ai-Us-China-Tensions-And-Us-Data-Centers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T04:40:20.932253+00:00
+updated_at: 2026-09-19T08:40:41.841399+00:00
 tags: [record, real-data]
 ---
 

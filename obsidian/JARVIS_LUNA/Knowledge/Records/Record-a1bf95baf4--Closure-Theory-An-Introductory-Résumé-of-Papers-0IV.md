@@ -2,7 +2,7 @@
 title: "Record a1bf95baf4 · Closure-Theory-An-Introductory-Résumé-of-Papers-0IV"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T04:40:20.418839+00:00
+updated_at: 2026-09-19T08:40:41.317739+00:00
 tags: [record, real-data]
 ---
 

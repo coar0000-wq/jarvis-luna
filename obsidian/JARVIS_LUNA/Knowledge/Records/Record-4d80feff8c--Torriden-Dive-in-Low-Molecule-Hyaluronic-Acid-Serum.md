@@ -2,7 +2,7 @@
 title: "Record 4d80feff8c · Torriden-Dive-in-Low-Molecule-Hyaluronic-Acid-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T04:40:20.837421+00:00
+updated_at: 2026-09-19T08:40:41.739186+00:00
 tags: [record, real-data]
 ---
 

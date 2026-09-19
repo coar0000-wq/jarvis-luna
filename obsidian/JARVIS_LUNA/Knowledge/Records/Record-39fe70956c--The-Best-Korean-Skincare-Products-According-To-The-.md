@@ -2,7 +2,7 @@
 title: "Record 39fe70956c · The-Best-Korean-Skincare-Products-According-To-The-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T04:40:20.551178+00:00
+updated_at: 2026-09-19T08:40:41.460320+00:00
 tags: [record, real-data]
 ---
 

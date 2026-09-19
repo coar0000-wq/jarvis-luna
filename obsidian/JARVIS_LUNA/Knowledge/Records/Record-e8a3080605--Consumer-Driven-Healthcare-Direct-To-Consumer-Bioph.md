@@ -2,7 +2,7 @@
 title: "Record e8a3080605 · Consumer-Driven-Healthcare-Direct-To-Consumer-Biopharma-Erin-Wright-Te"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T04:40:20.979740+00:00
+updated_at: 2026-09-19T08:40:41.890214+00:00
 tags: [record, real-data]
 ---
 

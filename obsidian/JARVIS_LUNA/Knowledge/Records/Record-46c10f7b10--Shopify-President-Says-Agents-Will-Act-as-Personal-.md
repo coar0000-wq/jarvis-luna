@@ -2,7 +2,7 @@
 title: "Record 46c10f7b10 · Shopify-President-Says-Agents-Will-Act-as-Personal-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T04:40:20.614117+00:00
+updated_at: 2026-09-19T08:40:41.522013+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMihAFBVV95cUxPVlNZTlI4a2owUWQ2UFpTelNEUWdkZ2Z1cmt5MHpxX21fOWFOUW5peXNWSFlrbk9pazE3YlFCYWRjc0JsVXNtaWRGSHhkQnJiblkyUlBJOG80LThhalNYUkEwcTZxbDM5N25iZjdpcTVlb0Vrai1FUlY2Q2k1ZWZrbEJuaTk?oc=5)
 
-**제목:** Shopify President Says Agents Will Act as Personal Shoppers - PYMNTS.com
+**제목:** Shopify President Says Agents Will Act as Personal Shoppers - pymnts.com
 
-Shopify President Says Agents Will Act as Personal Shoppers - PYMNTS.com
+Shopify President Says Agents Will Act as Personal Shoppers - pymnts.com
 
 **출처:** Source · Google Search
 
