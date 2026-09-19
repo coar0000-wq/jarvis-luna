@@ -2,7 +2,7 @@
 title: "Record 28a856bbd2 · Database-for-AI-Agents-5-Evaluation-Criteria"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T01:14:49.807453+00:00
+updated_at: 2026-09-19T03:03:43.265689+00:00
 tags: [record, real-data]
 ---
 

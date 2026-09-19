@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-19T01:06:46.167362+00:00",
+  "collected_at": "2026-09-19T02:56:18.613691+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -60,15 +60,19 @@
       "score": 4
     },
     {
+      "keyword": "skin",
+      "score": 4
+    },
+    {
       "keyword": "products",
       "score": 3
     },
     {
-      "keyword": "oily",
-      "score": 3
+      "keyword": "thursday",
+      "score": 2
     },
     {
-      "keyword": "thursday",
+      "keyword": "people",
       "score": 2
     },
     {
@@ -81,10 +85,6 @@
     },
     {
       "keyword": "review",
-      "score": 2
-    },
-    {
-      "keyword": "hair",
       "score": 2
     },
     {
@@ -144,7 +144,7 @@
       "score": 2
     },
     {
-      "keyword": "skin",
+      "keyword": "oily",
       "score": 2
     },
     {
@@ -184,10 +184,6 @@
       "score": 1
     },
     {
-      "keyword": "people",
-      "score": 1
-    },
-    {
       "keyword": "still",
       "score": 1
     },
@@ -202,6 +198,10 @@
     {
       "keyword": "other",
       "score": 1
+    },
+    {
+      "keyword": "places",
+      "score": 1
     }
   ],
   "beauty_keywords": [
@@ -211,6 +211,10 @@
     },
     {
       "keyword": "skincare",
+      "score": 4
+    },
+    {
+      "keyword": "skin",
       "score": 4
     },
     {
@@ -248,10 +252,6 @@
     {
       "keyword": "toner",
       "score": 2
-    },
-    {
-      "keyword": "skin",
-      "score": 2
     }
   ],
   "posts": [
@@ -284,13 +284,6 @@
       "feed": "hot"
     },
     {
-      "title": "Thim Artist Touch Long Lash Mascara in Brown",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjrouq/thim_artist_touch_long_lash_mascara_in_brown/",
-      "published": "2026-09-18T14:25:54+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
       "title": "My yesstyle & amazon haul",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjnlqy/my_yesstyle_amazon_haul/",
       "published": "2026-09-18T11:28:04+00:00",
@@ -298,16 +291,16 @@
       "feed": "hot"
     },
     {
-      "title": "I need to find some products...",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wk3n2a/i_need_to_find_some_products/",
-      "published": "2026-09-18T21:53:38+00:00",
+      "title": "Thim Artist Touch Long Lash Mascara in Brown",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjrouq/thim_artist_touch_long_lash_mascara_in_brown/",
+      "published": "2026-09-18T14:25:54+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "How to do gua sha with oily hair.",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wk6apo/how_to_do_gua_sha_with_oily_hair/",
-      "published": "2026-09-18T23:45:00+00:00",
+      "title": "I need to find some products...",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wk3n2a/i_need_to_find_some_products/",
+      "published": "2026-09-18T21:53:38+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -347,16 +340,16 @@
       "feed": "hot"
     },
     {
-      "title": "Cbeauty locally available in Hong Kong?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjdibz/cbeauty_locally_available_in_hong_kong/",
-      "published": "2026-09-18T02:16:30+00:00",
+      "title": "Online retailers for Japanese skincare? (US based)",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjktmz/online_retailers_for_japanese_skincare_us_based/",
+      "published": "2026-09-18T08:52:16+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Online retailers for Japanese skincare? (US based)",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjktmz/online_retailers_for_japanese_skincare_us_based/",
-      "published": "2026-09-18T08:52:16+00:00",
+      "title": "Cbeauty locally available in Hong Kong?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjdibz/cbeauty_locally_available_in_hong_kong/",
+      "published": "2026-09-18T02:16:30+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -427,6 +420,13 @@
       "title": "Hera Glow Lasting Foundation & Hera Silky Stay Reviews?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wi9xcg/hera_glow_lasting_foundation_hera_silky_stay/",
       "published": "2026-09-16T21:08:51+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Specific eye care regime or treatments for people with the combination of thin skin and little to no fat?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wim3kg/specific_eye_care_regime_or_treatments_for_people/",
+      "published": "2026-09-17T06:28:07+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

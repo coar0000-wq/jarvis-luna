@@ -2,7 +2,7 @@
 title: "Record bbecdf8c77 · Memory-Compression-for-High-Fanout-Agent-Sandboxes"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T01:14:49.214575+00:00
+updated_at: 2026-09-19T03:03:42.490076+00:00
 tags: [record, real-data]
 ---
 

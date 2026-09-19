@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T01:06:02.719230+00:00",
+  "generated_at": "2026-09-19T02:55:34.623977+00:00",
   "generator": "scripts/ingest_youtube_channels.py",
   "입력": "data/manual/youtube_channels.txt",
   "robots": "youtube.com/robots.txt 의 Disallow 목록에 /@ 와 /channel/ 은 없다. 막힌 것은 /feeds/videos.xml, /results, /youtubei/ 등이다. 지정된 채널만 하나씩 본다. 2026-09-06 확인.",
@@ -16,13 +16,22 @@
     "sourcing": 1
   },
   "팀_고정": "한 번 정한 팀은 유지한다. 유튜브가 제목을 A/B 로 돌려서 같은 영상이 회차마다 다른 팀으로 가는 일이 있었다.",
-  "제목_바뀐_영상": [],
+  "제목_바뀐_영상": [
+    {
+      "video_id": "hikTGKo2kZE",
+      "before": "책은 가장 가성비 좋은 인풋입니다 📚  | 브랜드 대표가 직접 고른 브랜딩 필독서",
+      "after": "브랜딩 감각을 키우고 싶다면👀 | 사업부터 브랜딩까지 분야별 필독서 추천",
+      "kept_teams": [
+        "design"
+      ]
+    }
+  ],
   "top_by_views": [
     {
       "video_id": "6lSvKk7lTl0",
       "title": "Horizontal and Vertical Scroll in Figma - Quick Prototyping Tutorial",
-      "views_text": "773K views",
-      "published_text": "3 years ago",
+      "views_text": "773K",
+      "published_text": "3y ago",
       "views": 773000,
       "url": "https://www.youtube.com/watch?v=6lSvKk7lTl0",
       "channel": "uxpeak",
@@ -33,8 +42,8 @@
     {
       "video_id": "xgk5N4rCJIw",
       "title": "3D Carousel in Figma Using Smart Animate | Prototyping Tutorial",
-      "views_text": "541K views",
-      "published_text": "3 years ago",
+      "views_text": "541K",
+      "published_text": "3y ago",
       "views": 541000,
       "url": "https://www.youtube.com/watch?v=xgk5N4rCJIw",
       "channel": "uxpeak",
@@ -45,8 +54,8 @@
     {
       "video_id": "2TlIg3VokY8",
       "title": "The UX Psychology Behind Apps People Can’t Stop Using",
-      "views_text": "507K views",
-      "published_text": "2 months ago",
+      "views_text": "507K",
+      "published_text": "2mo ago",
       "views": 507000,
       "url": "https://www.youtube.com/watch?v=2TlIg3VokY8",
       "channel": "uxpeak",
@@ -69,8 +78,8 @@
     {
       "video_id": "BZ0QER_0ZWI",
       "title": "UI Design Trends Everyone Is Talking About",
-      "views_text": "370K views",
-      "published_text": "3 years ago",
+      "views_text": "370K",
+      "published_text": "3y ago",
       "views": 370000,
       "url": "https://www.youtube.com/watch?v=BZ0QER_0ZWI",
       "channel": "uxpeak",
@@ -80,10 +89,10 @@
     },
     {
       "video_id": "GGg61sdEjeI",
-      "title": "This UI/UX Redesign Will Teach You More Than 500 Tutorials Combined",
-      "views_text": "288K views",
-      "published_text": "3 weeks ago",
-      "views": 288000,
+      "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
+      "views_text": "290K",
+      "published_text": "3w ago",
+      "views": 290000,
       "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
       "channel": "uxpeak",
       "teams": [
@@ -93,8 +102,8 @@
     {
       "video_id": "8pMUkEbAM7g",
       "title": "Top 5 UX/UI Design Tips and Tricks Every Designer Needs to Know About, part 1",
-      "views_text": "272K views",
-      "published_text": "2 years ago",
+      "views_text": "272K",
+      "published_text": "2y ago",
       "views": 272000,
       "url": "https://www.youtube.com/watch?v=8pMUkEbAM7g",
       "channel": "uxpeak",
@@ -105,8 +114,8 @@
     {
       "video_id": "YlN28RNChl0",
       "title": "This Video Will Take You From Junior to Senior UX/UI Designer",
-      "views_text": "253K views",
-      "published_text": "1 year ago",
+      "views_text": "253K",
+      "published_text": "1y ago",
       "views": 253000,
       "url": "https://www.youtube.com/watch?v=YlN28RNChl0",
       "channel": "uxpeak",
@@ -117,8 +126,8 @@
     {
       "video_id": "5cqpf1rdeFc",
       "title": "Create a 3D Animated Website with Figma & Dora - No Code Required",
-      "views_text": "250K views",
-      "published_text": "3 years ago",
+      "views_text": "250K",
+      "published_text": "3y ago",
       "views": 250000,
       "url": "https://www.youtube.com/watch?v=5cqpf1rdeFc",
       "channel": "uxpeak",
@@ -129,8 +138,8 @@
     {
       "video_id": "SIoOS6tFw1Y",
       "title": "UX/UI Design Tutorial in Figma  - Design Modern Website from Scratch",
-      "views_text": "210K views",
-      "published_text": "2 years ago",
+      "views_text": "210K",
+      "published_text": "2y ago",
       "views": 210000,
       "url": "https://www.youtube.com/watch?v=SIoOS6tFw1Y",
       "channel": "uxpeak",
@@ -141,8 +150,8 @@
     {
       "video_id": "wLJ40GV2XEc",
       "title": "Top UI/UX Design Tips - How to Design a Great Bottom Mobile Navigation Bar",
-      "views_text": "209K views",
-      "published_text": "1 year ago",
+      "views_text": "209K",
+      "published_text": "1y ago",
       "views": 209000,
       "url": "https://www.youtube.com/watch?v=wLJ40GV2XEc",
       "channel": "uxpeak",
@@ -153,8 +162,8 @@
     {
       "video_id": "rI4A7whqvgo",
       "title": "Animated Navigation Bar in Figma - Prototyping Tutorial",
-      "views_text": "191K views",
-      "published_text": "3 years ago",
+      "views_text": "191K",
+      "published_text": "3y ago",
       "views": 191000,
       "url": "https://www.youtube.com/watch?v=rI4A7whqvgo",
       "channel": "uxpeak",
@@ -165,8 +174,8 @@
     {
       "video_id": "J6DjxHXXZGw",
       "title": "3D Interactive Animation With a Rotating Effect - Figma Prototyping Tutorial",
-      "views_text": "171K views",
-      "published_text": "3 years ago",
+      "views_text": "171K",
+      "published_text": "3y ago",
       "views": 171000,
       "url": "https://www.youtube.com/watch?v=J6DjxHXXZGw",
       "channel": "uxpeak",
@@ -189,8 +198,8 @@
     {
       "video_id": "Xzh8xjimmp8",
       "title": "Top 5 Advanced UX/UI Design Tips and Tricks Every Designer Needs to Know About – Part 3",
-      "views_text": "128K views",
-      "published_text": "1 year ago",
+      "views_text": "128K",
+      "published_text": "1y ago",
       "views": 128000,
       "url": "https://www.youtube.com/watch?v=Xzh8xjimmp8",
       "channel": "uxpeak",
@@ -202,7 +211,7 @@
   "items": [
     {
       "stale": false,
-      "last_ok_at": "2026-09-19T01:05:52.347328+00:00",
+      "last_ok_at": "2026-09-19T02:55:24.246159+00:00",
       "url": "https://www.youtube.com/@uxpeak",
       "note": "UX/UI 리디자인·전환율 (사용자 지정)",
       "team_hint": "design",
@@ -211,14 +220,14 @@
       "subscribers": "125K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-19T01:05:52.347349+00:00",
+      "checked_at": "2026-09-19T02:55:24.246183+00:00",
       "videos": [
         {
           "video_id": "GGg61sdEjeI",
-          "title": "This UI/UX Redesign Will Teach You More Than 500 Tutorials Combined",
-          "views_text": "288K views",
-          "published_text": "3 weeks ago",
-          "views": 288000,
+          "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
+          "views_text": "290K",
+          "published_text": "3w ago",
+          "views": 290000,
           "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
           "channel": "uxpeak",
           "teams": [
@@ -228,8 +237,8 @@
         {
           "video_id": "2TlIg3VokY8",
           "title": "The UX Psychology Behind Apps People Can’t Stop Using",
-          "views_text": "507K views",
-          "published_text": "2 months ago",
+          "views_text": "507K",
+          "published_text": "2mo ago",
           "views": 507000,
           "url": "https://www.youtube.com/watch?v=2TlIg3VokY8",
           "channel": "uxpeak",
@@ -240,8 +249,8 @@
         {
           "video_id": "zr37ibqXl1U",
           "title": "Top 3 UX/UI Redesigns That Make You Design Like a Pro",
-          "views_text": "107K views",
-          "published_text": "3 months ago",
+          "views_text": "107K",
+          "published_text": "3mo ago",
           "views": 107000,
           "url": "https://www.youtube.com/watch?v=zr37ibqXl1U",
           "channel": "uxpeak",
@@ -252,8 +261,8 @@
         {
           "video_id": "oYskl2ZBoBc",
           "title": "Ecommerce Page Redesign: UX/UI Tips to 3.5x Conversion",
-          "views_text": "66K views",
-          "published_text": "4 months ago",
+          "views_text": "66K",
+          "published_text": "4mo ago",
           "views": 66000,
           "url": "https://www.youtube.com/watch?v=oYskl2ZBoBc",
           "channel": "uxpeak",
@@ -264,8 +273,8 @@
         {
           "video_id": "_kUq8p94NnU",
           "title": "3D Animated Hamburger Website Figma Tutorial  Smart Animate Scroll Effect",
-          "views_text": "20K views",
-          "published_text": "1 year ago",
+          "views_text": "20K",
+          "published_text": "1y ago",
           "views": 20000,
           "url": "https://www.youtube.com/watch?v=_kUq8p94NnU",
           "channel": "uxpeak",
@@ -276,8 +285,8 @@
         {
           "video_id": "Xzh8xjimmp8",
           "title": "Top 5 Advanced UX/UI Design Tips and Tricks Every Designer Needs to Know About – Part 3",
-          "views_text": "128K views",
-          "published_text": "1 year ago",
+          "views_text": "128K",
+          "published_text": "1y ago",
           "views": 128000,
           "url": "https://www.youtube.com/watch?v=Xzh8xjimmp8",
           "channel": "uxpeak",
@@ -288,8 +297,8 @@
         {
           "video_id": "wLJ40GV2XEc",
           "title": "Top UI/UX Design Tips - How to Design a Great Bottom Mobile Navigation Bar",
-          "views_text": "209K views",
-          "published_text": "1 year ago",
+          "views_text": "209K",
+          "published_text": "1y ago",
           "views": 209000,
           "url": "https://www.youtube.com/watch?v=wLJ40GV2XEc",
           "channel": "uxpeak",
@@ -300,8 +309,8 @@
         {
           "video_id": "YlN28RNChl0",
           "title": "This Video Will Take You From Junior to Senior UX/UI Designer",
-          "views_text": "253K views",
-          "published_text": "1 year ago",
+          "views_text": "253K",
+          "published_text": "1y ago",
           "views": 253000,
           "url": "https://www.youtube.com/watch?v=YlN28RNChl0",
           "channel": "uxpeak",
@@ -312,8 +321,8 @@
         {
           "video_id": "Dn8vQGO4RoE",
           "title": "Top 7 Interactive Web Designs That Deserve an Award",
-          "views_text": "31K views",
-          "published_text": "1 year ago",
+          "views_text": "31K",
+          "published_text": "1y ago",
           "views": 31000,
           "url": "https://www.youtube.com/watch?v=Dn8vQGO4RoE",
           "channel": "uxpeak",
@@ -324,8 +333,8 @@
         {
           "video_id": "gG4urkinFQI",
           "title": "Top 5 UX/UI Design Tips and Tricks Everyone Needs to Know About, Part 2",
-          "views_text": "93K views",
-          "published_text": "2 years ago",
+          "views_text": "93K",
+          "published_text": "2y ago",
           "views": 93000,
           "url": "https://www.youtube.com/watch?v=gG4urkinFQI",
           "channel": "uxpeak",
@@ -336,8 +345,8 @@
         {
           "video_id": "8pMUkEbAM7g",
           "title": "Top 5 UX/UI Design Tips and Tricks Every Designer Needs to Know About, part 1",
-          "views_text": "272K views",
-          "published_text": "2 years ago",
+          "views_text": "272K",
+          "published_text": "2y ago",
           "views": 272000,
           "url": "https://www.youtube.com/watch?v=8pMUkEbAM7g",
           "channel": "uxpeak",
@@ -348,8 +357,8 @@
         {
           "video_id": "SIoOS6tFw1Y",
           "title": "UX/UI Design Tutorial in Figma  - Design Modern Website from Scratch",
-          "views_text": "210K views",
-          "published_text": "2 years ago",
+          "views_text": "210K",
+          "published_text": "2y ago",
           "views": 210000,
           "url": "https://www.youtube.com/watch?v=SIoOS6tFw1Y",
           "channel": "uxpeak",
@@ -360,8 +369,8 @@
         {
           "video_id": "03Xw8UyC6uo",
           "title": "The Shortest UX/UI Design Course",
-          "views_text": "40K views",
-          "published_text": "2 years ago",
+          "views_text": "40K",
+          "published_text": "2y ago",
           "views": 40000,
           "url": "https://www.youtube.com/watch?v=03Xw8UyC6uo",
           "channel": "uxpeak",
@@ -372,8 +381,8 @@
         {
           "video_id": "5cqpf1rdeFc",
           "title": "Create a 3D Animated Website with Figma & Dora - No Code Required",
-          "views_text": "250K views",
-          "published_text": "3 years ago",
+          "views_text": "250K",
+          "published_text": "3y ago",
           "views": 250000,
           "url": "https://www.youtube.com/watch?v=5cqpf1rdeFc",
           "channel": "uxpeak",
@@ -384,8 +393,8 @@
         {
           "video_id": "BZ0QER_0ZWI",
           "title": "UI Design Trends Everyone Is Talking About",
-          "views_text": "370K views",
-          "published_text": "3 years ago",
+          "views_text": "370K",
+          "published_text": "3y ago",
           "views": 370000,
           "url": "https://www.youtube.com/watch?v=BZ0QER_0ZWI",
           "channel": "uxpeak",
@@ -396,8 +405,8 @@
         {
           "video_id": "GFYc5ZT-vFI",
           "title": "10 Game-Changing Figma Tips & Tricks Every Designer Needs to Know",
-          "views_text": "69K views",
-          "published_text": "3 years ago",
+          "views_text": "69K",
+          "published_text": "3y ago",
           "views": 69000,
           "url": "https://www.youtube.com/watch?v=GFYc5ZT-vFI",
           "channel": "uxpeak",
@@ -408,8 +417,8 @@
         {
           "video_id": "J6DjxHXXZGw",
           "title": "3D Interactive Animation With a Rotating Effect - Figma Prototyping Tutorial",
-          "views_text": "171K views",
-          "published_text": "3 years ago",
+          "views_text": "171K",
+          "published_text": "3y ago",
           "views": 171000,
           "url": "https://www.youtube.com/watch?v=J6DjxHXXZGw",
           "channel": "uxpeak",
@@ -420,8 +429,8 @@
         {
           "video_id": "xgk5N4rCJIw",
           "title": "3D Carousel in Figma Using Smart Animate | Prototyping Tutorial",
-          "views_text": "541K views",
-          "published_text": "3 years ago",
+          "views_text": "541K",
+          "published_text": "3y ago",
           "views": 541000,
           "url": "https://www.youtube.com/watch?v=xgk5N4rCJIw",
           "channel": "uxpeak",
@@ -432,8 +441,8 @@
         {
           "video_id": "cJmbncvBYJM",
           "title": "How to Use AI to Create Stunning Designs - Midjourney Tutorial",
-          "views_text": "16K views",
-          "published_text": "3 years ago",
+          "views_text": "16K",
+          "published_text": "3y ago",
           "views": 16000,
           "url": "https://www.youtube.com/watch?v=cJmbncvBYJM",
           "channel": "uxpeak",
@@ -444,8 +453,8 @@
         {
           "video_id": "6lSvKk7lTl0",
           "title": "Horizontal and Vertical Scroll in Figma - Quick Prototyping Tutorial",
-          "views_text": "773K views",
-          "published_text": "3 years ago",
+          "views_text": "773K",
+          "published_text": "3y ago",
           "views": 773000,
           "url": "https://www.youtube.com/watch?v=6lSvKk7lTl0",
           "channel": "uxpeak",
@@ -456,8 +465,8 @@
         {
           "video_id": "rI4A7whqvgo",
           "title": "Animated Navigation Bar in Figma - Prototyping Tutorial",
-          "views_text": "191K views",
-          "published_text": "3 years ago",
+          "views_text": "191K",
+          "published_text": "3y ago",
           "views": 191000,
           "url": "https://www.youtube.com/watch?v=rI4A7whqvgo",
           "channel": "uxpeak",
@@ -469,7 +478,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-19T01:05:57.719027+00:00",
+      "last_ok_at": "2026-09-19T02:55:29.623708+00:00",
       "url": "https://www.youtube.com/@%EB%95%A1%ED%81%90%EC%B1%84%EB%84%90",
       "note": "땡스큐레이터 - 스몰 브랜드 브랜딩·수출·견적. 팀은 영상마다 자동 분류",
       "team_hint": "",
@@ -478,14 +487,14 @@
       "subscribers": "18.9K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-19T01:05:57.719042+00:00",
+      "checked_at": "2026-09-19T02:55:29.623724+00:00",
       "videos": [
         {
           "video_id": "hikTGKo2kZE",
-          "title": "책은 가장 가성비 좋은 인풋입니다 📚  | 브랜드 대표가 직접 고른 브랜딩 필독서",
-          "views_text": "12K views",
+          "title": "브랜딩 감각을 키우고 싶다면👀 | 사업부터 브랜딩까지 분야별 필독서 추천",
+          "views_text": "13K views",
           "published_text": "1 day ago",
-          "views": 12000,
+          "views": 13000,
           "url": "https://www.youtube.com/watch?v=hikTGKo2kZE",
           "channel": "땡스큐레이터",
           "teams": [

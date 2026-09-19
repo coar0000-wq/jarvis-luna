@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T01:13:06.108477+00:00",
+  "generated_at": "2026-09-19T03:01:55.053321+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
@@ -36,7 +36,7 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T01:13:06.388516+00:00"
+      "gate_generated_at": "2026-09-19T03:01:55.383687+00:00"
     },
     {
       "rank": 2,
@@ -69,7 +69,7 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T01:13:06.388516+00:00"
+      "gate_generated_at": "2026-09-19T03:01:55.383687+00:00"
     },
     {
       "rank": 3,
@@ -101,7 +101,7 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T01:13:06.388516+00:00"
+      "gate_generated_at": "2026-09-19T03:01:55.383687+00:00"
     },
     {
       "rank": 4,
@@ -137,7 +137,7 @@
         "copy",
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T01:13:06.388516+00:00"
+      "gate_generated_at": "2026-09-19T03:01:55.383687+00:00"
     },
     {
       "rank": 5,
@@ -177,7 +177,7 @@
         "legal",
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T01:13:06.388516+00:00"
+      "gate_generated_at": "2026-09-19T03:01:55.383687+00:00"
     },
     {
       "rank": 6,
@@ -210,7 +210,7 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T01:13:06.388516+00:00"
+      "gate_generated_at": "2026-09-19T03:01:55.383687+00:00"
     },
     {
       "rank": 7,
@@ -243,7 +243,7 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T01:13:06.388516+00:00"
+      "gate_generated_at": "2026-09-19T03:01:55.383687+00:00"
     },
     {
       "rank": 8,
@@ -276,7 +276,7 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T01:13:06.388516+00:00"
+      "gate_generated_at": "2026-09-19T03:01:55.383687+00:00"
     },
     {
       "rank": 9,
@@ -309,7 +309,7 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T01:13:06.388516+00:00"
+      "gate_generated_at": "2026-09-19T03:01:55.383687+00:00"
     },
     {
       "rank": 10,
@@ -345,7 +345,7 @@
         "copy",
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T01:13:06.388516+00:00"
+      "gate_generated_at": "2026-09-19T03:01:55.383687+00:00"
     }
   ],
   "registerable_count": 7,

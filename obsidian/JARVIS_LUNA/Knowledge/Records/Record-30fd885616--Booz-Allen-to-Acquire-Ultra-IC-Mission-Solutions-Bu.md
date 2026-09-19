@@ -2,7 +2,7 @@
 title: "Record 30fd885616 · Booz-Allen-to-Acquire-Ultra-IC-Mission-Solutions-Bu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T01:14:49.440334+00:00
+updated_at: 2026-09-19T03:03:42.781271+00:00
 tags: [record, real-data]
 ---
 

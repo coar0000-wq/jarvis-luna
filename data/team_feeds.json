@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-19T01:06:07.212190+00:00",
+  "generated_at": "2026-09-19T02:55:38.763345+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
-  "pool_size": 2256,
+  "pool_size": 2231,
   "제목없어_버림": 38,
   "unrouted": 8,
   "summary": {
@@ -15,17 +15,17 @@
       "products": 338
     },
     "market": {
-      "total": 482,
-      "recent": 39,
-      "material": 482,
-      "material_recent": 39,
+      "total": 480,
+      "recent": 38,
+      "material": 480,
+      "material_recent": 38,
       "products": 0
     },
     "listing": {
-      "total": 18,
-      "recent": 12,
-      "material": 18,
-      "material_recent": 12,
+      "total": 17,
+      "recent": 11,
+      "material": 17,
+      "material_recent": 11,
       "products": 0
     },
     "pricing": {
@@ -37,15 +37,15 @@
     },
     "legal": {
       "total": 117,
-      "recent": 18,
+      "recent": 20,
       "material": 117,
-      "material_recent": 18,
+      "material_recent": 20,
       "products": 0
     },
     "design": {
-      "total": 366,
+      "total": 365,
       "recent": 98,
-      "material": 366,
+      "material": 365,
       "material_recent": 98,
       "products": 0
     },
@@ -57,17 +57,17 @@
       "products": 0
     },
     "knowledge": {
-      "total": 192,
+      "total": 187,
       "recent": 84,
-      "material": 192,
+      "material": 187,
       "material_recent": 84,
       "products": 0
     },
     "institutions": {
-      "total": 1062,
-      "recent": 254,
-      "material": 1062,
-      "material_recent": 254,
+      "total": 1037,
+      "recent": 257,
+      "material": 1037,
+      "material_recent": 257,
       "products": 0
     }
   },
@@ -621,15 +621,15 @@
         "by_hand": false
       },
       {
-        "title": "This K-Beauty Serum Is ‘More Like A Potent Magic Potion For Rejuvenating Skin’ — And It’s On Sale - Yahoo",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSzY0SWNkbUh6NGJHVFlld3FOU2hDT1k2V0hocUxLdTR5d2t6bk1fUTZoejhiRmlydXVmdUhqcHlsU0ZmZFFkbGhKY0gxR294dkZXVEtldHI0MUxiY2U2QVpKbnZRQVZSRllMZGZ0dzRYQXo4NjhKbWRXY29FbURCTThNUkJIamVoTmltOWI4ZnhRVGlyQ05Gdg?oc=5",
+        "title": "This Viral K-Beauty Moisturizer Gave Me My Glow Back - Coveteur",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1lMW1VRnVJQk1yMnVKTDVJQzRtYlU4WHJSd3dta0c0QXV5MXBWV01pMExrc0kzRTRVLVd0NzdnZlF1dmppbFQ2TUprX1JJOUdFT0lpWE5jdF9lZXQweHdJanBtcw?oc=5",
         "pool": "google",
         "date": "2026-09-18",
         "by_hand": false
       },
       {
-        "title": "This Viral K-Beauty Moisturizer Gave Me My Glow Back - coveteur.com",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1lMW1VRnVJQk1yMnVKTDVJQzRtYlU4WHJSd3dta0c0QXV5MXBWV01pMExrc0kzRTRVLVd0NzdnZlF1dmppbFQ2TUprX1JJOUdFT0lpWE5jdF9lZXQweHdJanBtcw?oc=5",
+        "title": "This K-Beauty Serum Is ‘More Like A Potent Magic Potion For Rejuvenating Skin’ — And It’s On Sale - Yahoo",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSzY0SWNkbUh6NGJHVFlld3FOU2hDT1k2V0hocUxLdTR5d2t6bk1fUTZoejhiRmlydXVmdUhqcHlsU0ZmZFFkbGhKY0gxR294dkZXVEtldHI0MUxiY2U2QVpKbnZRQVZSRllMZGZ0dzRYQXo4NjhKbWRXY29FbURCTThNUkJIamVoTmltOWI4ZnhRVGlyQ05Gdg?oc=5",
         "pool": "google",
         "date": "2026-09-18",
         "by_hand": false
@@ -642,13 +642,6 @@
         "by_hand": false
       },
       {
-        "title": "Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - HS Insider",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPc2g3NThETVhLa3FISG94RmRGSURCVlJ6aGNHUWZleXJHS0VfTUd0ZEZJUzduRVpjSGxTcGRKNlhKeXVCVHpMTmpFWjBPcHdzYkIyeG1lcHJXeVV6cHFPZXl5UFdnUkpRNDVRLXFjZTFtNmpmYThKdmVveTBTM0ZsN1lBNjJyRE9UVmZReGlaeG54Mko1ZDItRlFoUXZKc1BRcmwzSnR3RGVpTjRzbVVTcDI4dw?oc=5",
-        "pool": "google",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
         "title": "The world of K-beauty, pulled into one Seoul office - Aju Press",
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1FVEpVbjd4NHpkSXRMLWMxUlZhanFySno3X2l3OGxrN3h0UmxVQ2dOcUEyd3NLZ21hSWdMekdkM3dVR0Q0aGtCbm9RYmc4Z1Zla1NRTWQ1MDJhUmvSAVdBVV95cUxNVGRpVXFONVRXV2tBeTh3Y1lmc0h0aWhucTJzR0JNa2lad3hVUUpVTm8tUWJLM0UzYXNtb1MtcWVSTUZjUk91aGwySU16UmNZUDdCczc3LWM?oc=5",
         "pool": "google",
@@ -656,7 +649,7 @@
         "by_hand": false
       },
       {
-        "title": "The K-beauty secret behind Karol G’s glowing skin, according to her esthetician - nj.com",
+        "title": "The K-beauty secret behind Karol G’s glowing skin, according to her esthetician - NJ.com",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVHFybGlDc1htZ1Q5NTVaS19pWUhueE1FMzJXOEF5dzJGd1hlaXZTa0NhRm1oSmtiUGJRUnhlRmtSOV91MlN4d2hNU1NiUVVlWWMyX3ktdzg5cEhGOGRJMVAwSXlSYXU4dmJjdnJPUDR2QmlNOTN3M1hEWnF6Yk9paUhHRm1RQlpEV0ZLOW01dEJTV2VxTEYwc21CcGhDWWVpN0F5TFUwR21OeUZMM21INlFsT0lnT3pvOU41ek5yNS1GQdIB1gFBVV95cUxNLXFPR095Mm5zMlJPQXE3bHpYM3B1MkFmLXZ1dmFwb09Ma3dDUEF6MlJOaU9EWXBvLWxsTnZMcDhmeXdYQmsyMlFiTjVCOWdvX1ZscU1icFdybHZWdGZ2NWUycEJqUnA3UTNqVDFrSU5KYm5SNHJCU3NDdTZPbEFuQkI4Q1dnQ2o5X3pmQnp0SS1WeEVINEhtd3A1anpTaVRnc1VEeU9uTFVndFg4ZzEzN21wTC1WMEtRNmJwZVM4MjdjVHlteGhvTVh6MjFtbHc0ZFRYWUt3?oc=5",
         "pool": "google",
         "date": "2026-09-17",
@@ -691,7 +684,7 @@
         "by_hand": false
       },
       {
-        "title": "The Curator: Are you beautymaxxing? The TikTok makeup trends to know - National - Global News",
+        "title": "The Curator: Are you beautymaxxing? The TikTok makeup trends to know - National - globalnews.ca",
         "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5seFRsZjNGaTJVelR6UjdRM2t3VTRjcm1ubXpWRjk4SEZPNzRaSlMtUVl4SWhFeHU0UGVaMGRaMHVyNTU0MUYycG52cndHS0hpeGw0LU4telRJNlA5MV9zcWZxc25vQkxZMWxUNDdIRWJEcm9Femc?oc=5",
         "pool": "google",
         "date": "2026-09-17",
@@ -726,8 +719,15 @@
         "by_hand": false
       },
       {
-        "title": "K-Beauty Body Care: VOESH Brings Facial Skincare Benefits to the Body - trendhunter.com",
+        "title": "K-Beauty Body Care: VOESH Brings Facial Skincare Benefits to the Body - Trend Hunter",
         "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE53ci1acDZjOUhmUE9rY3BwQWw2akhqWnVGZ1gzNGQ4dmhSY3EzUWl0VUU2Q0FOU2pCSEdwSGhWLWk5bTRXbFRHcDJyelBjdVMxMEo4VjVPcE5qSUlPWVBMVFZIc1pFMHVESFh2WnJhMA?oc=5",
+        "pool": "google",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "The 19 Most Innovative Skincare Products of the Year - Harper's BAZAAR",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSmNOT09ralZTLXpEZ0xuYXZqTHVOX3RaVXJlWlJqc3VzTV9GOXFnU3NOU1QyNUp6YnNuTTNUbDAzUVBhQUNRVEwwalNrdjB0ZzhwY3JRVEt2T3VjV3Z0YnprNmN6LUtOcVZ0YUx6dkpNU3dETktyMkRCWmlRLWsyRjFBOVlFcGE3?oc=5",
         "pool": "google",
         "date": "2026-09-16",
         "by_hand": false
@@ -754,15 +754,15 @@
         "by_hand": false
       },
       {
-        "title": "REJURAN® COSMETICS Brings K-Beauty to LAFC Korean Heritage Night as Proud Skincare Partner - PR Newswire",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQUzhTM1BCd2VyQmRFZVpKc0xsck8zclF5am1PMFVEYWlkYk5Vcnk2ZGhKdG5vVGQ3X201WVMtMkxXV3ZWdFpnejhkRU51V1c0bHhQN0Y4T3hia0ZCOTVZaWg5NEVJTmt6MjA2c1liZHVZQ24tWTZEMG9hU1lpWE5hRnNaSUtKaFkyTWM2Z1RnczhBUVJCc3FxeXZGYlJpWmRKLXJRS3lPODFPNk1JNUdhTHUwblVNaGRuU3Z1QTdtakRXMzdZQkpveWRHT2xTazFUaXdGQ3lxRlJVOWdEVFE?oc=5",
+        "title": "From Skin Patches to Haircare, These Are the K-Beauty Products That Are Actually Popular in Korea - wwd.com",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTWhmVlpqOU5iUWRfT2x1V0Y0cmVlMVNQZElYaFQyUEpHQmRDZUJNdkNFMy03WUptY0ZfMXJubWJramM4dUFSZXl1SDR5QUl2UE0xeVNqbHl5X3RQUXZfV3Q1am1QcDN6UFRVbkdYN2dEUHo0Z3pKT3dMZ0tFNlNaUXE5TzZjTjJfNnlJTnVBUjdvTlBkNmRHTVFyanZZa2YwcDhEdQ?oc=5",
         "pool": "google",
         "date": "2026-09-14",
         "by_hand": false
       },
       {
-        "title": "From Skin Patches to Haircare, These Are the K-Beauty Products That Are Actually Popular in Korea - Yahoo",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTnI5RzlmYWdlUTRWYWkweS0zdFJuQzRkWFYyeWIyMlBEUUpCa0xfUUx5RXRPbHNmbzdGS2N3d2FtV25ZT1haQllBN1dNQnNZb1BKcUlPTEtjUU0xRGdyMEt1V2dBMGtwTHdFdkRxRGhCY1RGekI3OVZYc3Fwb0s3U1VsRXU3eXVDcmVMMzgxYTBDZllCb3pUeFZlWUdadw?oc=5",
+        "title": "REJURAN® COSMETICS Brings K-Beauty to LAFC Korean Heritage Night as Proud Skincare Partner - PR Newswire",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQUzhTM1BCd2VyQmRFZVpKc0xsck8zclF5am1PMFVEYWlkYk5Vcnk2ZGhKdG5vVGQ3X201WVMtMkxXV3ZWdFpnejhkRU51V1c0bHhQN0Y4T3hia0ZCOTVZaWg5NEVJTmt6MjA2c1liZHVZQ24tWTZEMG9hU1lpWE5hRnNaSUtKaFkyTWM2Z1RnczhBUVJCc3FxeXZGYlJpWmRKLXJRS3lPODFPNk1JNUdhTHUwblVNaGRuU3Z1QTdtakRXMzdZQkpveWRHT2xTazFUaXdGQ3lxRlJVOWdEVFE?oc=5",
         "pool": "google",
         "date": "2026-09-14",
         "by_hand": false
@@ -775,7 +775,7 @@
         "by_hand": false
       },
       {
-        "title": "Mainstream K-Beauty Expansions: SUNGBOON EDITOR and Milk Touch Enter Target Beauty Studio - trendhunter.com",
+        "title": "Mainstream K-Beauty Expansions: SUNGBOON EDITOR and Milk Touch Enter Target Beauty Studio - Trend Hunter",
         "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE96WXJUaXZud0RKa2hHSmRCZ1NLVGRGeVZwZXROTXZKa21la3AydnhVZ1BycWNia0RkV3ZNZDhOZ2ZnLWZLRWdiR3lYRU12SlVXT243ang0N1FKbWlJSjBuTGhKbTRXX1R0bFM0?oc=5",
         "pool": "google",
         "date": "2026-09-14",
@@ -803,7 +803,7 @@
         "by_hand": false
       },
       {
-        "title": "The Vogue Business TikTok Trend Tracker - Vogue",
+        "title": "The Vogue Business TikTok Trend Tracker - vogue.com",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9nc2ktNnQxVzlMTjl1MjR5MFYwSkMtVjI1Z0VhZlBLU0JqVlBjdHUyejJCVDV3OE9xYmF3ckhxR2VXLTk1Y3ZScXZfN0VPSU1ManFXYmFUWWxKTDN6cjFXTzk2OGxSVWxDOHIyeXZmRG9jUktfd2FIMg?oc=5",
         "pool": "google",
         "date": "2026-09-11",
@@ -817,17 +817,10 @@
         "by_hand": false
       },
       {
-        "title": "Prestige K-Beauty Retail: mixsoon Brings Its Korean Skincare Lines to Target Beauty Studio - trendhunter.com",
+        "title": "Prestige K-Beauty Retail: mixsoon Brings Its Korean Skincare Lines to Target Beauty Studio - Trend Hunter",
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5yd21ockxiN01RTlN0SGRoNWdlcFBFdkpab3JqdXRGUHRIS3NjS1VzR3VDWjhKRmJtaTN4MGlaS0NLUjlVbVRxZE5xY1lqU28yV0dVOTNLby03OUhKVWVuVlg3ZjBVMEkydXc?oc=5",
         "pool": "google",
         "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "Diagnostic accuracy of core needle biopsy versus fine-needle aspiration cytology in salivary gland malignancies: A systematic review and metaanalysis",
-        "url": "https://doi.org/10.21053/ceo.2026-00178",
-        "pool": "institutions",
-        "date": "2026-09-08",
         "by_hand": false
       },
       {
@@ -838,7 +831,7 @@
         "by_hand": false
       },
       {
-        "title": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
+        "title": "6 Steps to Glass Skin, According to K-Beauty Experts - vogue.com",
         "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5",
         "pool": "google",
         "date": "2026-09-08",
@@ -859,7 +852,7 @@
         "by_hand": false
       },
       {
-        "title": "Would You Go on a Glowcation? K-Beauty Is Betting So - Vogue",
+        "title": "Would You Go on a Glowcation? K-Beauty Is Betting So - vogue.com",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ01YZ2lKV0VUQzJROHZVVnJZbWM1dkw1TFRGLXFMcUx0dWhaZDJheTIwdE9yaElIUFpmYlJVSXg2UnQ0aDhCOVd3MVZvakhvVWxDWi1wM2hfbGVKbjFaSHJLWjJHYU02M3lwdGRXQVNfSXJGdWVTN0h4V0tvaU9iLUIzbGFmZkFU?oc=5",
         "pool": "google",
         "date": "2026-09-04",
@@ -920,6 +913,13 @@
         "pool": "google",
         "date": "2026-08-31",
         "by_hand": false
+      },
+      {
+        "title": "12 Makeup Trends to Experiment With in Fall 2026: Feathery Eyebrows, Barely-There Mascara, & More - Teen Vogue",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9OdzQ0OXlSbWVrOW1FUXdtSURIcjVsZnJhNEFleWtxZnRjcDdESjdFZlBXUVR0eEM0Tzg2NDN2M2tqU0pEaXd6TTZBOE5yRkVZR2ZBQU1DNWp1RTlxN2V6UHNHUUFJb28?oc=5",
+        "pool": "google",
+        "date": "2026-08-31",
+        "by_hand": false
       }
     ],
     "listing": [
@@ -966,13 +966,6 @@
         "by_hand": true
       },
       {
-        "title": "Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - HS Insider",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPc2g3NThETVhLa3FISG94RmRGSURCVlJ6aGNHUWZleXJHS0VfTUd0ZEZJUzduRVpjSGxTcGRKNlhKeXVCVHpMTmpFWjBPcHdzYkIyeG1lcHJXeVV6cHFPZXl5UFdnUkpRNDVRLXFjZTFtNmpmYThKdmVveTBTM0ZsN1lBNjJyRE9UVmZReGlaeG54Mko1ZDItRlFoUXZKc1BRcmwzSnR3RGVpTjRzbVVTcDI4dw?oc=5",
-        "pool": "google",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
         "title": "The world of K-beauty, pulled into one Seoul office - Aju Press",
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1FVEpVbjd4NHpkSXRMLWMxUlZhanFySno3X2l3OGxrN3h0UmxVQ2dOcUEyd3NLZ21hSWdMekdkM3dVR0Q0aGtCbm9RYmc4Z1Zla1NRTWQ1MDJhUmvSAVdBVV95cUxNVGRpVXFONVRXV2tBeTh3Y1lmc0h0aWhucTJzR0JNa2lad3hVUUpVTm8tUWJLM0UzYXNtb1MtcWVSTUZjUk91aGwySU16UmNZUDdCczc3LWM?oc=5",
         "pool": "google",
@@ -981,7 +974,7 @@
       },
       {
         "title": "Sim-to-Real Traffic Scene Understanding by Decoupling Semantics from Caption Generation with V-JEPA",
-        "url": "https://doi.org/10.48550/arxiv.2609.18562",
+        "url": "https://arxiv.org/abs/2609.18562",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
@@ -1180,15 +1173,22 @@
         "by_hand": false
       },
       {
+        "title": "GF Blends Recalls Truly AIP All Purpose Flour and Bread Mix, and EAT G.A.N.G.S.T.E.R. Flat Bread Pizza Mix Due to Potential Undeclared Wheat Gluten",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/gf-blends-recalls-truly-aip-all-purpose-flour-and-bread-mix-and-eat-gangster-flat-bread-pizza-mix",
+        "pool": "fda",
+        "date": "2026-09-18",
+        "by_hand": false
+      },
+      {
         "title": "Multi-View Mixture-of-Experts with Vision-Language Reranking for Cross-View Object Geo-Localization",
-        "url": "https://doi.org/10.48550/arxiv.2609.18139",
+        "url": "https://arxiv.org/abs/2609.18139",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
       },
       {
         "title": "Copy What Is Seen, Generate What Is Not: Training-Free Anomaly-Aware Video Restoration",
-        "url": "https://doi.org/10.48550/arxiv.2609.18836",
+        "url": "https://arxiv.org/abs/2609.18836",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
@@ -1217,6 +1217,13 @@
       {
         "title": "So Delicious Dairy Free® Issues Voluntary Recall of Salted Caramel Cluster Non-Dairy Frozen Dessert Pints Due to Potential Presence of Foreign Material",
         "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/so-delicious-dairy-freer-issues-voluntary-recall-salted-caramel-cluster-non-dairy-frozen-dessert",
+        "pool": "fda",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Gias Foods, Inc. Recalls Bettergoods Authentic Italian Lemon Alfredo Fettuccine Because of Possible Health Risk",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/gias-foods-inc-recalls-bettergoods-authentic-italian-lemon-alfredo-fettuccine-because-possible",
         "pool": "fda",
         "date": "2026-09-15",
         "by_hand": false
@@ -1352,20 +1359,6 @@
         "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/lmsi-llckofinas-olive-oil-issues-voluntary-recall-its-garlic-mediterranean-infused-extra-virgin",
         "pool": "fda",
         "date": "2026-08-31",
-        "by_hand": false
-      },
-      {
-        "title": "Northwest Naturals Voluntarily Recalls Two Raw Pet Food Products Because of Possible Salmonella & Listeria Monocytogenes Health Risk",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/northwest-naturals-voluntarily-recalls-two-raw-pet-food-products-because-possible-salmonella",
-        "pool": "fda",
-        "date": "2026-08-28",
-        "by_hand": false
-      },
-      {
-        "title": "Everything Sprouts, LLC Expands Voluntarily Recall to Include Robust Radish Mix Due to Potential E. Coli and Salmonella Risk",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/everything-sprouts-llc-expands-voluntarily-recall-include-robust-radish-mix-due-potential-e-coli-and",
-        "pool": "fda",
-        "date": "2026-08-28",
         "by_hand": false
       },
       {
@@ -1651,7 +1644,7 @@
         "by_hand": true
       },
       {
-        "title": "This UI/UX Redesign Will Teach You More Than 500 Tutorials Combined",
+        "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
         "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
         "pool": "youtube_channel",
         "date": "",
@@ -1798,7 +1791,7 @@
         "by_hand": true
       },
       {
-        "title": "책은 가장 가성비 좋은 인풋입니다 📚  | 브랜드 대표가 직접 고른 브랜딩 필독서",
+        "title": "브랜딩 감각을 키우고 싶다면👀 | 사업부터 브랜딩까지 분야별 필독서 추천",
         "url": "https://www.youtube.com/watch?v=hikTGKo2kZE",
         "pool": "youtube_channel",
         "date": "",
@@ -1863,6 +1856,13 @@
       {
         "title": "Main Sequence Building The Next Generation Of Deep Tech",
         "url": "https://www.jpmorgan.com/insights/banking/financing/main-sequence-building-the-next-generation-of-deep-tech",
+        "pool": "institutions",
+        "date": "2026-09-18",
+        "by_hand": false
+      },
+      {
+        "title": "Microfluidic-Based Real-Time PCR Platform for Rapid Multiplex Detection of Respiratory Viruses",
+        "url": "https://doi.org/10.1007/s13206-026-00278-7",
         "pool": "institutions",
         "date": "2026-09-18",
         "by_hand": false
@@ -1939,42 +1939,42 @@
       },
       {
         "title": "From Pixels to Semantics: Edge AI for UAV-Based Critical Infrastructure Inspection",
-        "url": "https://doi.org/10.48550/arxiv.2609.18448",
+        "url": "https://arxiv.org/abs/2609.18448",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
       },
       {
         "title": "QMSR: Query-Conditioned Mask-wise Expert Routing for Robust Open-Vocabulary Underwater Object Retrieval",
-        "url": "https://doi.org/10.48550/arxiv.2609.18752",
+        "url": "https://arxiv.org/abs/2609.18752",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
       },
       {
         "title": "Risk-Aware World Modeling with Flow-Guided Occupancy Evolution for Selective Trajectory Planning in Automated Driving",
-        "url": "https://doi.org/10.48550/arxiv.2609.18442",
+        "url": "https://arxiv.org/abs/2609.18442",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
       },
       {
         "title": "GroundingVLN: Reasoning and Acting with Grounding for Vision-Language Navigation",
-        "url": "https://doi.org/10.48550/arxiv.2609.18581",
+        "url": "https://arxiv.org/abs/2609.18581",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
       },
       {
         "title": "RayOrch: Programming and Executing Lineage-Controlled Multi-Grain Dataflows for Foundation-Model Data Preparation",
-        "url": "https://doi.org/10.48550/arxiv.2609.18703",
+        "url": "https://arxiv.org/abs/2609.18703",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
       },
       {
         "title": "SetPlanner: A Lightweight Plug-in Point-Set Planner for Frozen SAM",
-        "url": "https://doi.org/10.48550/arxiv.2609.18037",
+        "url": "https://arxiv.org/abs/2609.18037",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
@@ -1988,21 +1988,14 @@
       },
       {
         "title": "Understanding Dynamic Scenes at Gigapixel Scale: Wide-Area Spatio-Temporal Perception from UAVs",
-        "url": "https://doi.org/10.48550/arxiv.2609.18210",
+        "url": "https://arxiv.org/abs/2609.18210",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
       },
       {
         "title": "Sim-to-Real Traffic Scene Understanding by Decoupling Semantics from Caption Generation with V-JEPA",
-        "url": "https://doi.org/10.48550/arxiv.2609.18562",
-        "pool": "arxiv",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Anomaly Detection in General Ledger Data: Results from a Hybrid Approach",
-        "url": "https://doi.org/10.48550/arxiv.2609.18228",
+        "url": "https://arxiv.org/abs/2609.18562",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
@@ -2073,6 +2066,13 @@
         "by_hand": false
       },
       {
+        "title": "Designing Grid-Aware Dynamic Specifications for Large Data Center Loads",
+        "url": "https://arxiv.org/abs/2609.18888",
+        "pool": "robotics",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
         "title": "Rethinking Robot Safety in the Age of AI",
         "url": "https://spectrum.ieee.org/physical-ai-robot-cybersecurity-vicone",
         "pool": "robotics",
@@ -2095,7 +2095,7 @@
       },
       {
         "title": "RoboVAD: A Large Cross-Domain Evaluation Benchmark for Anomaly Detection in Robotic Arm Manipulation Videos",
-        "url": "https://doi.org/10.48550/arxiv.2609.17843",
+        "url": "https://arxiv.org/abs/2609.17843",
         "pool": "arxiv",
         "date": "2026-09-15",
         "by_hand": false
@@ -2124,6 +2124,13 @@
       {
         "title": "DeepShare: Assurance-Driven Deep Learning Job Scheduling for Multi-Tenant Clusters",
         "url": "https://arxiv.org/abs/2609.16682",
+        "pool": "robotics",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "PipeSwift: Revisiting Pipeline Parallelism for Large-Scale Completion-Oriented Agentic LLM Serving",
+        "url": "https://arxiv.org/abs/2609.16491",
         "pool": "robotics",
         "date": "2026-09-15",
         "by_hand": false
@@ -2318,20 +2325,6 @@
         "by_hand": false
       },
       {
-        "title": "Avatar: Toward Autonomous End-to-End Orchestration of Scientific Workflows using LLMs",
-        "url": "https://arxiv.org/abs/2609.10509",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
-        "title": "ExaServe: Large-Scale LLM Serving on Exascale HPC Systems",
-        "url": "https://arxiv.org/abs/2609.10812",
-        "pool": "robotics",
-        "date": "2026-09-09",
-        "by_hand": false
-      },
-      {
         "title": "How GPT-5.6 Sol helps run quantum computing experiments",
         "url": "https://openai.com/index/codex-quantum-computing-experiments",
         "pool": "institutions",
@@ -2517,70 +2510,70 @@
       },
       {
         "title": "Generalist-Specialist Mixture-of-Experts for Rare Pathology Detection in Multimodal Imaging",
-        "url": "https://doi.org/10.48550/arxiv.2609.18688",
+        "url": "https://arxiv.org/abs/2609.18688",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
       },
       {
         "title": "VLA-ULAP: Interleaving Cloud VLA Calls with Ultra-Lightweight Local Action Prediction at the Edge",
-        "url": "https://doi.org/10.48550/arxiv.2609.18663",
+        "url": "https://arxiv.org/abs/2609.18663",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
       },
       {
         "title": "From Pixels to Semantics: Edge AI for UAV-Based Critical Infrastructure Inspection",
-        "url": "https://doi.org/10.48550/arxiv.2609.18448",
+        "url": "https://arxiv.org/abs/2609.18448",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
       },
       {
         "title": "QMSR: Query-Conditioned Mask-wise Expert Routing for Robust Open-Vocabulary Underwater Object Retrieval",
-        "url": "https://doi.org/10.48550/arxiv.2609.18752",
+        "url": "https://arxiv.org/abs/2609.18752",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
       },
       {
         "title": "Risk-Aware World Modeling with Flow-Guided Occupancy Evolution for Selective Trajectory Planning in Automated Driving",
-        "url": "https://doi.org/10.48550/arxiv.2609.18442",
+        "url": "https://arxiv.org/abs/2609.18442",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
       },
       {
         "title": "Technical Report: One-Step Drifting Action Heads for GR00T N1.7",
-        "url": "https://doi.org/10.48550/arxiv.2609.18108",
+        "url": "https://arxiv.org/abs/2609.18108",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
       },
       {
         "title": "GeoMesh: Workload-Balanced and Sign-Compressed Geo-Distributed LLM Training",
-        "url": "https://doi.org/10.48550/arxiv.2609.18388",
+        "url": "https://arxiv.org/abs/2609.18388",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
       },
       {
         "title": "GroundingVLN: Reasoning and Acting with Grounding for Vision-Language Navigation",
-        "url": "https://doi.org/10.48550/arxiv.2609.18581",
+        "url": "https://arxiv.org/abs/2609.18581",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
       },
       {
         "title": "Colla-Q: Toward Collaborative Experts in MoE Quantization via Minimax Precision Balancing",
-        "url": "https://doi.org/10.48550/arxiv.2609.18131",
+        "url": "https://arxiv.org/abs/2609.18131",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
       },
       {
         "title": "Evolving Error States: Failure-Aware Progressive Repair for Ultrasound Lesion Segmentation",
-        "url": "https://doi.org/10.48550/arxiv.2609.18256",
+        "url": "https://arxiv.org/abs/2609.18256",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
@@ -2594,49 +2587,49 @@
       },
       {
         "title": "CERA-MoA: Co-Evolving Routing Mechanisms with Continually Learning LLM Agents",
-        "url": "https://doi.org/10.48550/arxiv.2609.18779",
+        "url": "https://arxiv.org/abs/2609.18779",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
       },
       {
         "title": "Decoder-Agnostic Token Merging for Vision Transformers: A Systematic Study of G2TM",
-        "url": "https://doi.org/10.48550/arxiv.2609.18279",
+        "url": "https://arxiv.org/abs/2609.18279",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
       },
       {
         "title": "RayOrch: Programming and Executing Lineage-Controlled Multi-Grain Dataflows for Foundation-Model Data Preparation",
-        "url": "https://doi.org/10.48550/arxiv.2609.18703",
+        "url": "https://arxiv.org/abs/2609.18703",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
       },
       {
         "title": "SEAM: Submap-Anchored Evidence for Lifelong LiDAR Mapping under Trajectory Deformation",
-        "url": "https://doi.org/10.48550/arxiv.2609.18819",
+        "url": "https://arxiv.org/abs/2609.18819",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
       },
       {
         "title": "The Operable Pareto Front: Distilling Offline Search into Run-Time Control for Multi-Objective UAV Edge-Computing Scheduling",
-        "url": "https://doi.org/10.48550/arxiv.2609.17992",
+        "url": "https://arxiv.org/abs/2609.17992",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
       },
       {
         "title": "SetPlanner: A Lightweight Plug-in Point-Set Planner for Frozen SAM",
-        "url": "https://doi.org/10.48550/arxiv.2609.18037",
+        "url": "https://arxiv.org/abs/2609.18037",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
       },
       {
         "title": "Mask 2D-3D: Adaptive Dual-Masked Autoencoder Network for Image-to-Point Cloud Registration",
-        "url": "https://doi.org/10.48550/arxiv.2609.18088",
+        "url": "https://arxiv.org/abs/2609.18088",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
@@ -2650,57 +2643,64 @@
       },
       {
         "title": "Unified Response Geometry for Structured Pruning",
-        "url": "https://doi.org/10.48550/arxiv.2609.18239",
+        "url": "https://arxiv.org/abs/2609.18239",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
       },
       {
         "title": "Multi-View Mixture-of-Experts with Vision-Language Reranking for Cross-View Object Geo-Localization",
-        "url": "https://doi.org/10.48550/arxiv.2609.18139",
+        "url": "https://arxiv.org/abs/2609.18139",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
       },
       {
         "title": "Understanding Dynamic Scenes at Gigapixel Scale: Wide-Area Spatio-Temporal Perception from UAVs",
-        "url": "https://doi.org/10.48550/arxiv.2609.18210",
+        "url": "https://arxiv.org/abs/2609.18210",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
       },
       {
         "title": "CoAtNet-DeepMoE: A Convolution-Attention Hybrid with DeepSeek Mixture-of-Experts for Parameter-Efficient Tomato Disease Classification",
-        "url": "https://doi.org/10.48550/arxiv.2609.18038",
+        "url": "https://arxiv.org/abs/2609.18038",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
       },
       {
         "title": "Sim-to-Real Traffic Scene Understanding by Decoupling Semantics from Caption Generation with V-JEPA",
-        "url": "https://doi.org/10.48550/arxiv.2609.18562",
+        "url": "https://arxiv.org/abs/2609.18562",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
       },
       {
         "title": "Stealthy in Semantics, Antagonistic in Space: Attacking Visible-Infrared Object Detectors via Object-Level Misalignment",
-        "url": "https://doi.org/10.48550/arxiv.2609.18133",
+        "url": "https://arxiv.org/abs/2609.18133",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
       },
       {
         "title": "Anomaly Detection in General Ledger Data: Results from a Hybrid Approach",
-        "url": "https://doi.org/10.48550/arxiv.2609.18228",
+        "url": "https://arxiv.org/abs/2609.18228",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
       },
       {
         "title": "Copy What Is Seen, Generate What Is Not: Training-Free Anomaly-Aware Video Restoration",
-        "url": "https://doi.org/10.48550/arxiv.2609.18836",
+        "url": "https://arxiv.org/abs/2609.18836",
         "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "Designing Grid-Aware Dynamic Specifications for Large Data Center Loads",
+        "url": "https://arxiv.org/abs/2609.18888",
+        "pool": "robotics",
         "date": "2026-09-16",
         "by_hand": false
       },
@@ -2748,21 +2748,21 @@
       },
       {
         "title": "Domain Adaptation against Background Sculpting in Anomaly Detection at the LHC",
-        "url": "https://doi.org/10.48550/arxiv.2609.17659",
+        "url": "https://arxiv.org/abs/2609.17659",
         "pool": "arxiv",
         "date": "2026-09-15",
         "by_hand": false
       },
       {
         "title": "RoboVAD: A Large Cross-Domain Evaluation Benchmark for Anomaly Detection in Robotic Arm Manipulation Videos",
-        "url": "https://doi.org/10.48550/arxiv.2609.17843",
+        "url": "https://arxiv.org/abs/2609.17843",
         "pool": "arxiv",
         "date": "2026-09-15",
         "by_hand": false
       },
       {
         "title": "Physics-Constrained Digital Twins for Sensor Integrity in Urban Pedestrian Flow: Detecting Stealthy False Data Injection with Conformal Guarantees",
-        "url": "https://doi.org/10.48550/arxiv.2609.17635",
+        "url": "https://arxiv.org/abs/2609.17635",
         "pool": "arxiv",
         "date": "2026-09-15",
         "by_hand": false
@@ -2777,6 +2777,13 @@
       {
         "title": "FlashVector: Agent for Hierarchical Model Serving Stack Optimization",
         "url": "https://arxiv.org/abs/2609.17391",
+        "pool": "robotics",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "PipeSwift: Revisiting Pipeline Parallelism for Large-Scale Completion-Oriented Agentic LLM Serving",
+        "url": "https://arxiv.org/abs/2609.16491",
         "pool": "robotics",
         "date": "2026-09-15",
         "by_hand": false
@@ -2834,20 +2841,6 @@
         "title": "GPEvac: GNN-Based PPO for Adaptive Evacuation Routing During Shooting Events",
         "url": "https://arxiv.org/abs/2609.16163",
         "pool": "arxiv",
-        "date": "2026-09-14",
-        "by_hand": false
-      },
-      {
-        "title": "Cloud Workflow Scheduling Based on Graph Attention-Driven Hierarchical Reinforcement Learning",
-        "url": "https://doi.org/10.48550/arxiv.2609.14952",
-        "pool": "robotics",
-        "date": "2026-09-14",
-        "by_hand": false
-      },
-      {
-        "title": "Cloud Workflow Scheduling Based on Graph Attention-Driven Hierarchical Reinforcement Learning",
-        "url": "https://arxiv.org/abs/2609.14952",
-        "pool": "robotics",
         "date": "2026-09-14",
         "by_hand": false
       }
@@ -2973,6 +2966,34 @@
         "by_hand": false
       },
       {
+        "title": "Low-Temperature Plasma-Induced Oxygen-Vacancy Engineering Enables Orthorhombic-Phase Stabilization in Hf0.5Zr0.5O2 for 2D FeFETs toward Monolithic 3D Integration",
+        "url": "https://doi.org/10.1021/acsaelm.6c01138",
+        "pool": "institutions",
+        "date": "2026-09-18",
+        "by_hand": false
+      },
+      {
+        "title": "Microfluidic-Based Real-Time PCR Platform for Rapid Multiplex Detection of Respiratory Viruses",
+        "url": "https://doi.org/10.1007/s13206-026-00278-7",
+        "pool": "institutions",
+        "date": "2026-09-18",
+        "by_hand": false
+      },
+      {
+        "title": "Investigating the clinical utility of plasma succinate with insights from a Sdhb deficient murine model",
+        "url": "https://doi.org/10.1530/erc-26-0323",
+        "pool": "institutions",
+        "date": "2026-09-18",
+        "by_hand": false
+      },
+      {
+        "title": "Peripheral human mAb therapy yields modulation of neuroinflammation and long-term functional recovery from lyssavirus infection",
+        "url": "https://doi.org/10.1080/22221751.2026.2736987",
+        "pool": "institutions",
+        "date": "2026-09-18",
+        "by_hand": false
+      },
+      {
         "title": "How Cooley is accelerating IPO work with ChatGPT",
         "url": "https://openai.com/index/cooley-gopublic",
         "pool": "institutions",
@@ -3092,15 +3113,15 @@
         "by_hand": false
       },
       {
-        "title": "Fed Increase Interest Rates Andrew Sheets",
-        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/fed-increase-interest-rates-andrew-sheets",
+        "title": "Thoughts On The Market",
+        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market",
         "pool": "institutions",
         "date": "2026-09-17",
         "by_hand": false
       },
       {
-        "title": "Thoughts On The Market",
-        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market",
+        "title": "Fed Increase Interest Rates Andrew Sheets",
+        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/fed-increase-interest-rates-andrew-sheets",
         "pool": "institutions",
         "date": "2026-09-17",
         "by_hand": false
@@ -3241,34 +3262,6 @@
       {
         "title": "Asia Pacific Outlook",
         "url": "https://www.jpmorgan.com/insights/banking/asia-pacific-outlook",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Investing In Treasury Bonds Q3 2023",
-        "url": "https://www.morganstanley.com/ideas/investing-in-treasury-bonds-Q3-2023",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Thoughts On The Market Disruption Ai Vishy Tirupattur",
-        "url": "https://www.morganstanley.com/ideas/thoughts-on-the-market-disruption-ai-vishy-tirupattur",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Global Healthcare Conference",
-        "url": "https://www.morganstanley.com/insights/themes/global-healthcare-conference",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Investment Risk 2023 Stock Rally Over",
-        "url": "https://www.morganstanley.com/ideas/investment-risk-2023-stock-rally-over",
         "pool": "institutions",
         "date": "2026-09-16",
         "by_hand": false

@@ -2,7 +2,7 @@
 title: "Record c426485d78 · 잇팁이-연락-안-보는-이유-istp-잇팁"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T01:14:49.879965+00:00
+updated_at: 2026-09-19T03:03:43.365775+00:00
 tags: [record, real-data]
 ---
 

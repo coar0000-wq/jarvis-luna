@@ -2,7 +2,7 @@
 title: "Record ad38a32c59 · Tetracyclic-πExtended-MultiResonant-TADF-Emitters-for-Green-PSFOLEDs-W"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T01:14:49.258949+00:00
+updated_at: 2026-09-19T03:03:42.546795+00:00
 tags: [record, real-data]
 ---
 

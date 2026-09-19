@@ -2,7 +2,7 @@
 title: "Record d1040bba20 · Is-TikTok-Shop-Driving-Consumer-Trends-and-K-Beauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T01:14:49.619266+00:00
+updated_at: 2026-09-19T03:03:43.009144+00:00
 tags: [record, real-data]
 ---
 

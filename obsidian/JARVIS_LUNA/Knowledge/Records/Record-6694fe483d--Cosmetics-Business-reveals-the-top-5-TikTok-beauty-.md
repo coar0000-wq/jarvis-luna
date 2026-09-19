@@ -2,7 +2,7 @@
 title: "Record 6694fe483d · Cosmetics-Business-reveals-the-top-5-TikTok-beauty-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T01:14:49.583740+00:00
+updated_at: 2026-09-19T03:03:42.960234+00:00
 tags: [record, real-data]
 ---
 

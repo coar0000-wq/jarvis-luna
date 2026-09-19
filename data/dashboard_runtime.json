@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T10:14:56.823944+09:00",
+  "generated_at": "2026-09-19T12:03:53.015446+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
       "id": "sourcing",
       "name": "상품 소싱팀",
-      "when": "2026-09-19T01:13:06.108477+00:00",
+      "when": "2026-09-19T03:01:55.053321+00:00",
       "summary": "338개 상품 · 등급 S 10 / A 70 / B 49 / C 209 · 새 자료 2건",
       "action": "직전 실행 67건 받아 성공 38건 · 받아보고 뷰티 아니라 버림 29건 · 이미 판정해서 안 받음 1641건 · 후보 출처 queue, 큐 3155건",
       "status": "ok",
@@ -18,8 +18,8 @@
     {
       "id": "institutions",
       "name": "기관 수집팀",
-      "when": "2026-09-19T01:05:29.619473+00:00",
-      "summary": "35곳 1,038건 · 미수집 12건 사유 기록 · 새 자료 254건",
+      "when": "2026-09-19T02:55:02.832967+00:00",
+      "summary": "35곳 1,063건 · 미수집 12건 사유 기록 · 새 자료 257건",
       "action": null,
       "status": "ok",
       "phase": "now",
@@ -30,8 +30,8 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-09-19T10:13:11.287293+09:00",
-      "summary": "S등급 10개 · 고시표 입력 대기 1건 · 새 자료 39건",
+      "when": "2026-09-19T12:02:00.011601+09:00",
+      "summary": "S등급 10개 · 고시표 입력 대기 1건 · 새 자료 38건",
       "action": "고시 표 1건 필요 — 1072554 [탄력리프팅]본셉 레티놀 탄력샷  https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072554",
       "status": "ok",
       "phase": "always",
@@ -42,7 +42,7 @@
     {
       "id": "listing",
       "name": "리스팅 제작팀",
-      "when": "2026-09-19T01:13:06.388516+00:00",
+      "when": "2026-09-19T03:01:55.383687+00:00",
       "summary": "초안 준비 7/10 · 공개 준비 0/10 · 카피 8 · 고시 9 · 가격 10 · 법률 9",
       "action": "카피 2건, 고시 1건, us_label 1건 이 초안을 막고 있음 · MoCRA/FPLA 풀스키마가 공개 판매를 막고 있음",
       "status": "ok",
@@ -54,7 +54,7 @@
     {
       "id": "pricing",
       "name": "가격 정책팀",
-      "when": "2026-09-19T01:13:06.239789+00:00",
+      "when": "2026-09-19T03:01:55.203197+00:00",
       "summary": "개당 배송비 $6.06~$7.52 · 무게 43~264g (고시용량 10) · DDU/DDP 4개 · 새 자료 7건",
       "action": null,
       "status": "ok",
@@ -66,8 +66,8 @@
     {
       "id": "legal",
       "name": "법률·규제팀",
-      "when": "2026-09-19T01:13:06.293347+00:00",
-      "summary": "자동 점검 10건 · 통과 0 · 등록 차단 1 · 참고 주의 10 · 수출서류 HS 10건 · 라벨 3/6항목 자동 · 새 자료 18건",
+      "when": "2026-09-19T03:01:55.267061+00:00",
+      "summary": "자동 점검 10건 · 통과 0 · 등록 차단 1 · 참고 주의 10 · 수출서류 HS 10건 · 라벨 3/6항목 자동 · 새 자료 20건",
       "action": "차단 1건: [탄력리프팅]본셉 레티놀 탄력(자동 점검 미통과: lab) — 라벨 갖추기 전엔 못 올림",
       "status": "ok",
       "phase": "ready",
@@ -78,7 +78,7 @@
     {
       "id": "robotics",
       "name": "로보틱스 수집",
-      "when": "2026-09-19T01:04:14.482932+00:00",
+      "when": "2026-09-19T02:53:48.341106+00:00",
       "summary": "65건 · arxiv 25 / rss 40 · 새 자료 49건",
       "action": null,
       "status": "ok",
@@ -90,7 +90,7 @@
     {
       "id": "design",
       "name": "디자인팀",
-      "when": "2026-09-19T01:05:38.178198+00:00",
+      "when": "2026-09-19T02:55:11.138634+00:00",
       "summary": "스토어 2/12단계 · 레퍼런스 85건 · 폰트 1946개(한글 38) · 팔레트 13색조 · 디자인 기사 60건 · 영상 35건 · 새 자료 98건",
       "action": "다음 단계: Shopify 스토어 개설 및 기본 설정",
       "status": "ok",
@@ -102,7 +102,7 @@
     {
       "id": "channels",
       "name": "채널 운영팀",
-      "when": "2026-09-19T01:13:24.836144+00:00",
+      "when": "2026-09-19T03:02:13.892185+00:00",
       "summary": "가동 11/12채널 · 수동 입력 32건 · 후보 7건 검사, 미연동 0건",
       "action": null,
       "status": "ok",
@@ -114,7 +114,7 @@
     {
       "id": "knowledge",
       "name": "지식 수집팀",
-      "when": "2026-09-19T01:06:10.215667+00:00",
+      "when": "2026-09-19T02:55:41.423301+00:00",
       "summary": "537건 · arXiv 50 / 유기농스킨 30 / Google 300 / US뷰티 157",
       "action": null,
       "status": "ok",
@@ -126,8 +126,8 @@
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-09-19T10:14:50.376222+09:00",
-      "summary": "81,872노트 · 329,597링크 · 끊어진 링크 0건 · 개인 노트 16건 별도",
+      "when": "2026-09-19T12:03:43.900587+09:00",
+      "summary": "81,872노트 · 329,594링크 · 끊어진 링크 0건 · 개인 노트 16건 별도",
       "action": null,
       "status": "ok",
       "phase": "now",
@@ -140,7 +140,7 @@
     "id": "secretary",
     "name": "비서실장",
     "badge": "총괄",
-    "when": "2026-09-19T10:02:16.135991+09:00",
+    "when": "2026-09-19T11:51:43.344152+09:00",
     "summary": "30분 주기 · 고시 24건 · US라벨 24건 · 카피 10건 · 등록 가능 7건 · 법률 차단 1건",
     "action": "갱신 지연 고시 수집, 리스팅 카피 — 2시간 넘게 변경 없음(실패로 단정하지 않음)",
     "status": "warning",
@@ -149,36 +149,36 @@
         "단계": "고시 수집",
         "산출물": "gosi.json",
         "갱신": "2026-09-13T07:50:40.431569+00:00",
-        "몇시간전": 137.4
+        "몇시간전": 139.2
       },
       {
         "단계": "고시 비전 추출",
         "산출물": "gosi.json",
-        "갱신": "2026-09-19T10:02:16.135991+09:00",
+        "갱신": "2026-09-19T11:51:43.344152+09:00",
         "몇시간전": 0.2
       },
       {
         "단계": "US 라벨 동기화",
         "산출물": "daiso_us_labels.json",
-        "갱신": "2026-09-19T10:02:15.571939+09:00",
+        "갱신": "2026-09-19T11:51:42.808148+09:00",
         "몇시간전": 0.2
       },
       {
         "단계": "리스팅 카피",
         "산출물": "shopify_listing_copy.json",
         "갱신": "2026-09-18T01:04:52.792027+00:00",
-        "몇시간전": 24.2
+        "몇시간전": 26.0
       },
       {
         "단계": "등록 게이트",
         "산출물": "listing_gate.json",
-        "갱신": "2026-09-19T01:13:06.388516+00:00",
+        "갱신": "2026-09-19T03:01:55.383687+00:00",
         "몇시간전": 0.0
       },
       {
         "단계": "법률 점검",
         "산출물": "legal_products.json",
-        "갱신": "2026-09-19T01:13:06.293347+00:00",
+        "갱신": "2026-09-19T03:01:55.267061+00:00",
         "몇시간전": 0.0
       }
     ],
@@ -213,7 +213,7 @@
     }
   },
   "errors": {
-    "generated_at": "2026-09-19T01:14:17.213290+00:00",
+    "generated_at": "2026-09-19T03:03:03.225325+00:00",
     "total": 35,
     "counts": {
       "고장": 5,
@@ -303,7 +303,7 @@
     ]
   },
   "health": {
-    "generated_at": "2026-09-19T01:14:17.260095+00:00",
+    "generated_at": "2026-09-19T03:03:03.278626+00:00",
     "overall_status": "failed",
     "status_legend": {
       "success": "정상",
@@ -312,7 +312,7 @@
       "failed": "예외 - 사람 개입 필요"
     },
     "kpi": {
-      "last_success": "2026-09-19T01:14:17.260081+00:00",
+      "last_success": "2026-09-19T03:03:03.278613+00:00",
       "failed_jobs": 1,
       "queue": 3155,
       "stale_source": "marketing",
@@ -321,9 +321,9 @@
         "legal_full": "1 min ago",
         "pricing": "1 min ago",
         "marketing": "1 min ago",
-        "gosi": "5.7 days ago",
+        "gosi": "5.8 days ago",
         "product_discovery": "1 min ago",
-        "daiso": "1.1 days ago"
+        "daiso": "1.2 days ago"
       }
     },
     "summary": {
@@ -368,10 +368,10 @@
       {
         "team": "gosi",
         "status": "warning",
-        "reason": "137.4h 전 갱신 - 변경 없음으로 처리",
+        "reason": "139.2h 전 갱신 - 변경 없음으로 처리",
         "is_failure": false,
         "is_no_change": true,
-        "freshness": "5.7 days ago"
+        "freshness": "5.8 days ago"
       },
       {
         "team": "product_discovery",
@@ -383,9 +383,9 @@
       {
         "team": "daiso",
         "status": "success",
-        "reason": "정상 26.0h 전",
+        "reason": "정상 27.9h 전",
         "is_failure": false,
-        "freshness": "1.1 days ago"
+        "freshness": "1.2 days ago"
       }
     ],
     "architecture_p0": {
@@ -411,7 +411,7 @@
       "id": "graph",
       "title": "Obsidian 그래프 반영·검증",
       "status": "completed",
-      "detail": "81872개 노트 · 329597개 링크 · 끊어진 링크 0개 · 개인 노트 16개 별도"
+      "detail": "81872개 노트 · 329594개 링크 · 끊어진 링크 0개 · 개인 노트 16개 별도"
     },
     {
       "id": "dashboard",
@@ -436,11 +436,11 @@
     "status": "completed",
     "record_count": 3875,
     "source_counts": {},
-    "updated_at": "2026-09-19T10:06:10.232623+09:00"
+    "updated_at": "2026-09-19T11:55:41.439704+09:00"
   },
   "graph": {
     "notes": 81872,
-    "links": 329597,
+    "links": 329594,
     "dangling_links": 0,
     "dangling_personal": 16,
     "dangling_personal_note": "사용자가 직접 넣은 Personal 노트의 내부 링크. 원본 볼트에서 일부만 가져와 대상 노트가 없는 것으로, 파이프라인 오류가 아니다.",
@@ -450,7 +450,7 @@
     "topics": 28,
     "orgs": 35,
     "audit": "passed",
-    "last_generated": "2026-09-19T10:14:50.376222+09:00"
+    "last_generated": "2026-09-19T12:03:43.900587+09:00"
   },
   "training": {
     "status": "completed",
@@ -461,11 +461,11 @@
     "experts": 3,
     "accuracy": 0.8828387096774194,
     "validation_accuracy": 0.8955223880597015,
-    "final_loss": 0.41766257684260705,
-    "gate_load_std": 0.10342580026509128,
+    "final_loss": 0.4176461581822447,
+    "gate_load_std": 0.10348330289531928,
     "tuning_promoted": true,
     "tuning_steps": 500,
-    "updated_at": "2026-09-19T01:12:25.885619+00:00"
+    "updated_at": "2026-09-19T03:01:18.493899+00:00"
   },
   "cumulative": {
     "totals": {
@@ -486,7 +486,7 @@
     "current_snapshot": {
       "records": 3875,
       "notes": 81872,
-      "links": 329597
+      "links": 329594
     },
     "since": "2026-08-23T05:21:53.378147+00:00",
     "runs_recorded": 90
@@ -1016,8 +1016,8 @@
         "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOS2RYOFBCbzU2TVZCQ2l4VXVkb2lRV0pGWUFzYWNweUZDTFVfRHAyNFdRRWRmWXZ1RkNnYlpXVVZXeThNaXJkcG85aFNyVldLaHhOR0NiOVM0MTgzLUhaMF9KZm91cXIyeG9Na2JCZE54QUpxckxNRmxZVEF2WmhMZ2lyVWp3Z2ZYc2xtOQ?oc=5"
       },
       {
-        "keyword": "This K-Beauty Serum Is ‘More Like A Potent Magic Potion For Rejuvenating Skin’ — And It’s On Sale - Yahoo",
-        "product": "This K-Beauty Serum Is ‘More Like A Potent Magic Potion For Rejuvenating Skin’ — And It’s On Sale - Yahoo",
+        "keyword": "This K-Beauty Serum Is ‘More Like A Potent Magic Potion For Rejuvenating Skin’ — And It’s On Sale - shopping.yahoo.com",
+        "product": "This K-Beauty Serum Is ‘More Like A Potent Magic Potion For Rejuvenating Skin’ — And It’s On Sale - shopping.yahoo.com",
         "sub": "K-beauty",
         "badge": "news",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSzY0SWNkbUh6NGJHVFlld3FOU2hDT1k2V0hocUxLdTR5d2t6bk1fUTZoejhiRmlydXVmdUhqcHlsU0ZmZFFkbGhKY0gxR294dkZXVEtldHI0MUxiY2U2QVpKbnZRQVZSRllMZGZ0dzRYQXo4NjhKbWRXY29FbURCTThNUkJIamVoTmltOWI4ZnhRVGlyQ05Gdg?oc=5"
@@ -1728,7 +1728,7 @@
       "collected_at": "2026-09-17T23:04:01.019482+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 26.2,
+      "age_hours": 28.0,
       "stale": false
     },
     "walmart_beauty": {
@@ -1738,14 +1738,14 @@
       "collected_at": "2026-09-17T23:04:01.020454+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 26.2,
+      "age_hours": 28.0,
       "stale": false
     },
     "oliveyoung_us": {
       "status": "ok",
       "source": "us.oliveyoung.com/best-sellers 실수집",
       "reason": "",
-      "collected_at": "2026-09-19T01:06:32.361844+00:00",
+      "collected_at": "2026-09-19T02:56:04.309550+00:00",
       "count": 15,
       "trust": "verified",
       "age_hours": 0.1,
@@ -1755,7 +1755,7 @@
       "status": "ok",
       "source": "google news rss (beauty queries) + trends daily filtered",
       "reason": "",
-      "collected_at": "2026-09-19T01:07:09.996852+00:00",
+      "collected_at": "2026-09-19T02:56:44.501717+00:00",
       "count": 15,
       "trust": "verified",
       "age_hours": 0.1,
@@ -1765,33 +1765,33 @@
       "status": "ok",
       "source": "wikimedia.org REST pageviews API (공식)",
       "reason": "",
-      "collected_at": "2026-09-19T00:23:44.811129+00:00",
+      "collected_at": "2026-09-19T01:13:04.884833+00:00",
       "count": 8,
       "trust": "verified",
       "note": "2026-08-19 ~ 2026-09-17 일별 조회수. 후반 15일 대비 전반 15일 증감률",
-      "age_hours": 0.9,
+      "age_hours": 1.8,
       "stale": false
     },
     "allure_media": {
       "status": "ok",
       "source": "allure.com/feed/rss",
       "reason": "",
-      "collected_at": "2026-09-19T00:23:44.811129+00:00",
+      "collected_at": "2026-09-19T01:13:04.884833+00:00",
       "count": 15,
       "trust": "verified",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
-      "age_hours": 0.9,
+      "age_hours": 1.8,
       "stale": false
     },
     "openfda_sunscreen": {
       "status": "ok",
       "source": "api.fda.gov/drug/label (openFDA 공식)",
       "reason": "",
-      "collected_at": "2026-09-19T00:23:44.811129+00:00",
+      "collected_at": "2026-09-19T01:13:04.884833+00:00",
       "count": 15,
       "trust": "verified",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다.",
-      "age_hours": 0.9,
+      "age_hours": 1.8,
       "stale": false
     },
     "shopify_demand_matching": {
@@ -1817,7 +1817,7 @@
       "collected_at": "2026-09-17T23:04:01.021121+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 26.2,
+      "age_hours": 28.0,
       "stale": false
     },
     "sephora": {
@@ -1827,14 +1827,14 @@
       "collected_at": "2026-09-17T23:04:01.021121+00:00",
       "count": 14,
       "trust": "verified",
-      "age_hours": 26.2,
+      "age_hours": 28.0,
       "stale": false
     },
     "open_beauty_facts": {
       "status": "ok",
       "source": "world.openbeautyfacts.org /api/v2 (오픈데이터)",
       "reason": "",
-      "collected_at": "2026-09-19T01:06:31.595303+00:00",
+      "collected_at": "2026-09-19T02:56:03.698361+00:00",
       "count": 15,
       "trust": "verified",
       "age_hours": 0.1,
@@ -1847,5 +1847,5 @@
     "source": "https://open.er-api.com/v6/latest/USD",
     "updated_at": "2026-09-19"
   },
-  "last_synced": "09. 19. 오전 10:12 KST"
+  "last_synced": "09. 19. 오후 12:01 KST"
 }

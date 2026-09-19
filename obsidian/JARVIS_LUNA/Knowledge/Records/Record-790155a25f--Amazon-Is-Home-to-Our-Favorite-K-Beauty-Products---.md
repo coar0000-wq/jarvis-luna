@@ -2,7 +2,7 @@
 title: "Record 790155a25f · Amazon-Is-Home-to-Our-Favorite-K-Beauty-Products---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T01:14:49.522292+00:00
+updated_at: 2026-09-19T03:03:42.882634+00:00
 tags: [record, real-data]
 ---
 

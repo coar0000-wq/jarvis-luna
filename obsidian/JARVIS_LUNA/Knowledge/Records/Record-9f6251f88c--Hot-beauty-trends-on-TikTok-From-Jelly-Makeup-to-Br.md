@@ -2,7 +2,7 @@
 title: "Record 9f6251f88c · Hot-beauty-trends-on-TikTok-From-Jelly-Makeup-to-Br"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T01:14:49.630766+00:00
+updated_at: 2026-09-19T03:03:43.025726+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record d22acfa5d0 · How-Cooley-is-accelerating-IPO-work-with-ChatGPT"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T01:14:49.687246+00:00
+updated_at: 2026-09-19T03:03:43.100257+00:00
 tags: [record, real-data]
 ---
 

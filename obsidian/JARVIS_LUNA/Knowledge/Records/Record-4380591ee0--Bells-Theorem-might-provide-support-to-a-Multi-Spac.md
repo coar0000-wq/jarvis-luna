@@ -2,7 +2,7 @@
 title: "Record 4380591ee0 · Bells-Theorem-might-provide-support-to-a-Multi-Spac"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T01:14:49.406989+00:00
+updated_at: 2026-09-19T03:03:42.738236+00:00
 tags: [record, real-data]
 ---
 

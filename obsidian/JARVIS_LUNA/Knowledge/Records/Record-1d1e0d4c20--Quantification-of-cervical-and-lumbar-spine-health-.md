@@ -2,7 +2,7 @@
 title: "Record 1d1e0d4c20 · Quantification-of-cervical-and-lumbar-spine-health-in-navy-high-perfor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T01:14:49.340674+00:00
+updated_at: 2026-09-19T03:03:42.652346+00:00
 tags: [record, real-data]
 ---
 

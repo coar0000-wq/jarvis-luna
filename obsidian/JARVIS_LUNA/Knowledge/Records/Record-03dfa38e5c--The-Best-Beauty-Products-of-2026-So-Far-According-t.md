@@ -2,7 +2,7 @@
 title: "Record 03dfa38e5c · The-Best-Beauty-Products-of-2026-So-Far-According-t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T01:14:49.493137+00:00
+updated_at: 2026-09-19T03:03:42.846044+00:00
 tags: [record, real-data]
 ---
 

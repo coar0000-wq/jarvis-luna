@@ -2,7 +2,7 @@
 title: "Record b0f85a5b07 · Setting-Grok-Bot-loose-on-procurement"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T01:14:49.912199+00:00
+updated_at: 2026-09-19T03:03:43.411904+00:00
 tags: [record, real-data]
 ---
 
