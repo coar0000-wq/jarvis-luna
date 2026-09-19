@@ -10,7 +10,11 @@
     "annual_revenue_usd": null,
     "revenue_known": false,
     "small_business_exemption": false,
-    "small_business_note": "연매출 100만 달러 미만이면 시설 등록과 GMP 일부가 면제된다. 책임자·제품 리스팅·안전성 입증·유해사례 보고는 면제되지 않는다.",
+    "small_business_note": "미국 내 화장품 매출 직전 3년 평균 100만 달러 미만이면 시설 등록·제품 리스팅·GMP 가 면제된다. 책임자 라벨 연락처·안전성 입증·유해사례 기록과 15영업일 보고는 면제되지 않는다.",
+    "근거": [
+      "FDA MoCRA 안내 · Exemptions (시설 등록·제품 리스팅·GMP 면제)",
+      "21 U.S.C. 364e · 라벨은 미국 주소·미국 전화 또는 웹사이트를 포함한 전자 연락처 중 하나를 실어야 한다"
+    ],
     "exemption_excluded_products": []
   },
   "scope": {
@@ -50,7 +54,7 @@
       "id": "product_listing",
       "label": "FDA 제품 리스팅(연 1회 갱신)",
       "status": "not_ready",
-      "detail": "제출 기록 없음 · 소규모여도 면제되지 않는다",
+      "detail": "제출 기록 없음",
       "evidence": "data/manual/mocra_profile.json"
     },
     {
@@ -64,7 +68,7 @@
       "id": "adverse_event",
       "label": "유해사례 접수용 미국 내 연락처와 15일 보고 절차",
       "status": "not_ready",
-      "detail": "연락처 없음 · 절차 문서 없음",
+      "detail": "연락처 없음(미국 주소·미국 전화·웹사이트 중 택 1) · 절차 문서 없음",
       "evidence": "라벨에 주소가 들어간 상품 0/10건"
     },
     {

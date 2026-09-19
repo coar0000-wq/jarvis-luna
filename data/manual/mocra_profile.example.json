@@ -3,7 +3,7 @@
   "role": "reseller",
   "_role_설명": "reseller = 다이소 정품을 사서 되파는 형태 / brand_owner = 자체 브랜드 / importer = 수입자",
   "annual_revenue_usd": 0,
-  "_revenue_설명": "직전 3년 평균 연매출(미국 달러). 100만 달러 미만이면 시설 등록·GMP 일부가 면제됩니다. 모르면 숫자를 비우지 말고 실제 값을 넣으세요.",
+  "_revenue_설명": "직전 3년 평균 미국 내 화장품 매출(달러). 100만 달러 미만이면 시설 등록·제품 리스팅·GMP 가 면제됩니다. 책임자 라벨 연락처·안전성 입증·유해사례 보고는 면제되지 않습니다.",
   "facility_registration": {
     "registered": false,
     "verified_at": "",
@@ -14,7 +14,7 @@
     "submitted": false,
     "last_submitted_at": "",
     "listing_ids": [],
-    "note": "연 1회 갱신. 소규모 면제 대상이어도 제품 리스팅은 면제되지 않습니다."
+    "note": "연 1회 갱신. 소규모 면제 대상이면 의무가 아니며 자발적 제출만 가능합니다."
   },
   "safety_substantiation": {
     "covered_pd_nos": [],
@@ -24,12 +24,13 @@
   },
   "adverse_event": {
     "us_contact": {
-      "type": "phone",
+      "type": "website",
       "value": "",
-      "note": "미국 내에서 연결되는 전화 또는 주소. 라벨에 표기해야 합니다."
+      "_type_선택지": "domestic_address | domestic_phone | website | email",
+      "note": "미국 주소, 미국 전화번호, 또는 유해사례를 받을 수 있는 웹사이트/이메일 중 하나. 한국 주소·한국 번호만으로는 요건을 못 채웁니다(21 U.S.C. 364e)."
     },
     "process_documented": false,
-    "note": "중대한 유해사례는 인지 후 15일 이내 FDA 보고. 접수·기록·보고 절차를 문서로 남기세요."
+    "note": "중대한 유해사례는 인지 후 15영업일 이내 FDA 보고. 기록 보관은 6년(소규모 유통사업자는 3년)."
   },
   "gmp": {
     "supplier_gmp_confirmed": false,

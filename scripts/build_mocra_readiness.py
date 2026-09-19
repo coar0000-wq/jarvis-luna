@@ -17,9 +17,20 @@
     ⑤ 유해사례 보고 + 라벨의 미국 내 연락처   중대 사례는 15일 이내
     ⑥ GMP · 강제회수 대응 체계
 
-  소규모 면제(연매출 100만 달러 미만)는 ②와 ⑥ 일부만 면제한다.
-  ①③④⑤ 는 면제되지 않는다. 그리고 눈 점막 접촉·주사·체내 삽입·24시간 이상
-  지속되는 색조 제품은 소규모여도 면제에서 빠진다.
+  소규모 면제(미국 내 화장품 매출 직전 3년 평균 100만 달러 미만)는 다음 셋을 면제한다.
+    ② 시설 등록   ③ 제품 리스팅   ⑥ GMP
+  반대로 면제되지 않는 것은 ① 책임자·라벨 연락처, ④ 안전성 입증,
+  ⑤ 유해사례 기록과 15영업일 보고다. (FDA MoCRA 안내 · 21 U.S.C. 364e)
+
+  눈 점막 접촉·주사·체내 삽입·24시간 이상 지속 제품을 다루면 소규모여도
+  면제가 없어진다.
+
+  라벨 연락처는 미국 주소만 가능한 것이 아니다. 21 U.S.C. 364e 는
+  "domestic address, domestic phone number, or electronic contact information,
+  which may include a website" 라고 적어 있다. 즉 유해사례를 받을 수 있는
+  웹사이트로도 된다. 해외 주소·해외 전화만 적은 것은 안 된다.
+  책임자 자체는 미국 밖에 있어도 된다. US Agent 는 시설 등록을 하는
+  해외 시설에 붙는 의무라, 등록이 면제되면 사야 할 이유가 없다.
 
   이 판정을 사람 기억에만 두면 "준비됐나?" 라는 질문에 매번 다르게 답하게
   된다. 입력 파일과 실제 산출물을 보고 기계가 같은 답을 내도록 한다.
@@ -147,11 +158,15 @@ def main() -> int:
     # ③ 제품 리스팅 -------------------------------------------------------
     listing = profile.get("product_listing") or {}
     listing_ready = bool(listing.get("submitted") is True and filled(listing.get("last_submitted_at")))
+    if small_business:
+        listing_detail = ("소규모 면제 범위 · 자발 리스팅은 가능하다")
+    elif listing_ready:
+        listing_detail = f"최종 제출 {listing.get('last_submitted_at')}"
+    else:
+        listing_detail = "제출 기록 없음"
     checks.append(check(
         "product_listing", "FDA 제품 리스팅(연 1회 갱신)",
-        listing_ready,
-        f"최종 제출 {listing.get('last_submitted_at')}" if listing_ready
-        else "제출 기록 없음 · 소규모여도 면제되지 않는다",
+        listing_ready, listing_detail, exempt=small_business,
         evidence="data/manual/mocra_profile.json",
     ))
 
@@ -171,7 +186,12 @@ def main() -> int:
     # ⑤ 유해사례 접수 체계 -------------------------------------------------
     adverse = profile.get("adverse_event") or {}
     us_contact = adverse.get("us_contact") or {}
-    contact_ok = filled(us_contact.get("value"))
+    contact_type = str(us_contact.get("type") or "").strip().lower()
+    # 미국 주소·미국 전화·전자 연락처(웹사이트) 셋 중 하나면 된다.
+    # 한국 주소나 한국 번호만 적은 것은 요건을 채우지 못한다.
+    ALLOWED_CONTACT = {"domestic_address", "domestic_phone", "website", "url",
+                       "electronic", "email"}
+    contact_ok = filled(us_contact.get("value")) and contact_type in ALLOWED_CONTACT
     process_ok = bool(adverse.get("process_documented") is True)
     label_products = [k for k, row in items.items()
                       if filled((row.get("responsible_person") or {}).get("address")
@@ -180,7 +200,8 @@ def main() -> int:
         "adverse_event", "유해사례 접수용 미국 내 연락처와 15일 보고 절차",
         contact_ok and process_ok,
         ("연락처·절차 확보" if contact_ok and process_ok else
-         f"연락처 {'있음' if contact_ok else '없음'} · 절차 문서 {'있음' if process_ok else '없음'}"),
+         f"연락처 {'있음' if contact_ok else '없음(미국 주소·미국 전화·웹사이트 중 택 1)'}"
+         f" · 절차 문서 {'있음' if process_ok else '없음'}"),
         evidence=f"라벨에 주소가 들어간 상품 {len(label_products)}/{len(items)}건",
     ))
 
@@ -228,8 +249,15 @@ def main() -> int:
             "revenue_known": revenue_known,
             "small_business_exemption": small_business,
             "small_business_note": (
-                "연매출 100만 달러 미만이면 시설 등록과 GMP 일부가 면제된다. "
-                "책임자·제품 리스팅·안전성 입증·유해사례 보고는 면제되지 않는다."),
+                "미국 내 화장품 매출 직전 3년 평균 100만 달러 미만이면 "
+                "시설 등록·제품 리스팅·GMP 가 면제된다. "
+                "책임자 라벨 연락처·안전성 입증·유해사례 기록과 15영업일 보고는 "
+                "면제되지 않는다."),
+            "근거": [
+                "FDA MoCRA 안내 · Exemptions (시설 등록·제품 리스팅·GMP 면제)",
+                "21 U.S.C. 364e · 라벨은 미국 주소·미국 전화 또는 웹사이트를 포함한 "
+                "전자 연락처 중 하나를 실어야 한다",
+            ],
             "exemption_excluded_products": excluded_hits,
         },
         "scope": {
