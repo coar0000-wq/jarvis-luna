@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-19T05:18:43.459894+00:00",
+  "generated_at": "2026-09-19T06:20:19.095652+00:00",
   "csv": "data/shopify_import.csv",
   "rows": 0,
-  "listing_gate": "listing_gate.json 2026-09-19T05:18:43 기준 등록 가능 9/10",
+  "listing_gate": "listing_gate.json 2026-09-19T06:20:18 기준 등록 가능 9/10",
   "skipped": [
     {
       "pd_no": "1049276",
@@ -27,7 +27,7 @@
     {
       "pd_no": "1072554",
       "name_ko": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
-      "reason": "등록 게이트 미통과 - 고시, us_label, 법률 검토 미완료"
+      "reason": "등록 게이트 미통과 - 카피, 고시, us_label, 법률 검토 미완료"
     },
     {
       "pd_no": "1075857",
