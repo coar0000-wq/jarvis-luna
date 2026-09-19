@@ -103,7 +103,8 @@ def build_s_priority(srec, detail, pricing, copies, cp_registry=None):
     cp_registry = cp_registry or {}
     price5 = {str(r["pd_no"]): r for r in
               (pricing.get("scenarios") or {}).get("5개_묶음배송", [])}
-    copy_by = {str(c["pd_no"]): c for c in (copies.get("items") or []) if c.get("copy")}
+    copy_rows = {str(c["pd_no"]): c for c in (copies.get("items") or [])}
+    copy_by = {pid: row for pid, row in copy_rows.items() if row.get("copy")}
     market = pricing.get("market_benchmark") or {}
     sell = market.get("p25")
 
@@ -113,6 +114,9 @@ def build_s_priority(srec, detail, pricing, copies, cp_registry=None):
         d = detail.get(pid) or {}
         pr = price5.get(pid)
         c = copy_by.get(pid)
+        copy_row = copy_rows.get(pid) or {}
+        copy_status = copy_row.get("copy_status", "missing")
+        agent_blocked_by = list(copy_row.get("agent_blocked_by") or [])
         cp = p.get("canonical_product_id") or cp_registry.get(pid)
 
         margin = None
@@ -135,9 +139,20 @@ def build_s_priority(srec, detail, pricing, copies, cp_registry=None):
             "breakeven_usd": pr["breakeven_usd"] if pr else None,
             "suggested_price_usd": sell,
             "margin_pct": margin,
-            "shopify_action": ("1차 등록" if i <= 5 else "2차 검토"),
+            "shopify_action": (
+                "1차 Draft Action 검토" if c and i <= 5 else
+                "2차 Draft Action 검토" if c else
+                "선행 증거 보강" if copy_status == "skipped_prerequisite" else
+                "카피 생성 재시도"
+            ),
             "ad_keywords": ((c or {}).get("copy", {}).get("tags") or [])[:6] if c else [],
-            "ad_keywords_source": ("Gemini 영문 카피 태그" if c else "카피 미생성"),
+            "ad_keywords_source": (
+                "Gemini 영문 카피 태그" if c else
+                "ontology 선행 게이트 차단" if copy_status == "skipped_prerequisite" else
+                "카피 미생성"
+            ),
+            "copy_status": copy_status,
+            "agent_blocked_by": agent_blocked_by,
             "listing_ready": bool(c),
             "url": p.get("url"),
         })
@@ -315,16 +330,24 @@ def build_competitors(s_rows, us_pool):
     return out
 
 
-def build_actions(s_rows, status, pricing):
+def build_actions(s_rows, status, pricing, action_queue=None):
     """상태에서 실제로 도출되는 것만 액션으로 적는다."""
     acts = []
+    action_queue = action_queue or {}
     unlisted = [r for r in s_rows if not r["listing_ready"]]
+    blocked = [r for r in unlisted if r.get("copy_status") == "skipped_prerequisite"]
+    retryable = [r for r in unlisted if r.get("copy_status") != "skipped_prerequisite"]
     ready = [r for r in s_rows if r["listing_ready"]]
-    if ready:
-        acts.append(f"영문 카피가 준비된 {len(ready)}건 중 상위 5건을 Shopify 초안으로 등록")
-    if unlisted:
-        acts.append(f"카피 미생성 {len(unlisted)}건에 대해 "
-                    "shopify-listing-copy 워크플로 재실행")
+    waiting = (action_queue.get("states") or {}).get("WAITING_HUMAN_APPROVAL", 0)
+    if waiting:
+        acts.append(f"Shopify Draft Action {waiting}건의 payload hash를 검토하고 사람 승인")
+    elif ready:
+        acts.append(f"영문 카피가 준비된 {len(ready)}건의 Draft Action 상태 확인")
+    if blocked:
+        reasons = sorted({reason for row in blocked for reason in row.get("agent_blocked_by") or []})
+        acts.append(f"AI 선행 게이트 차단 {len(blocked)}건의 증거 보강: {', '.join(reasons)}")
+    if retryable:
+        acts.append(f"카피 생성 실패 {len(retryable)}건만 shopify-listing-copy 재실행")
     dead = [k for k, m in (status or {}).items()
             if m.get("count", 0) == 0 and m.get("status") != "disabled"]
     if dead:
@@ -352,6 +375,7 @@ def main() -> int:
     oy = load(D / "oliveyoung_us_products.json", {}) or {}
     obf = load(D / "open_beauty_facts.json", {}) or {}
     runtime = load(D / "dashboard_runtime.json", {}) or {}
+    action_queue = load(D / "shopify_action_queue.json", {}) or {}
 
     detail = {str(x["pd_no"]): x for x in (score.get("all_scored") or [])}
     oy_products = oy.get("products") or []
@@ -437,7 +461,7 @@ def main() -> int:
         "keyword_board": build_keyword_board(s_rows, oy_products),
         "s_grade_priority": s_rows,
         "competitor_watch": competitor_watch,
-        "weekly_actions": build_actions(s_rows, status, pricing),
+        "weekly_actions": build_actions(s_rows, status, pricing, action_queue),
         "health": {
             "signals_live": len(live),
             "signals_total": len(status),

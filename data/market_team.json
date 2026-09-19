@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-09-19T15:20:18.984220+09:00",
+    "updated_at": "2026-09-19T15:27:51.360845+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -752,7 +752,7 @@
       "breakeven_usd": null,
       "suggested_price_usd": 20.0,
       "margin_pct": null,
-      "shopify_action": "1차 등록",
+      "shopify_action": "1차 Draft Action 검토",
       "ad_keywords": [
         "vt-cosmetics",
         "reedle-shot",
@@ -762,6 +762,8 @@
         "boosting-ampoule"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
+      "copy_status": "ok",
+      "agent_blocked_by": [],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049276"
     },
@@ -780,7 +782,7 @@
       "breakeven_usd": null,
       "suggested_price_usd": 20.0,
       "margin_pct": null,
-      "shopify_action": "1차 등록",
+      "shopify_action": "1차 Draft Action 검토",
       "ad_keywords": [
         "vonsep",
         "retinol-serum",
@@ -790,6 +792,8 @@
         "skincare-routine"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
+      "copy_status": "ok",
+      "agent_blocked_by": [],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055167"
     },
@@ -808,7 +812,7 @@
       "breakeven_usd": null,
       "suggested_price_usd": 20.0,
       "margin_pct": null,
-      "shopify_action": "1차 등록",
+      "shopify_action": "1차 Draft Action 검토",
       "ad_keywords": [
         "vt-cosmetics",
         "reedle-shot",
@@ -818,6 +822,8 @@
         "boosting-ampoule"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
+      "copy_status": "ok",
+      "agent_blocked_by": [],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049275"
     },
@@ -836,7 +842,7 @@
       "breakeven_usd": null,
       "suggested_price_usd": 20.0,
       "margin_pct": null,
-      "shopify_action": "1차 등록",
+      "shopify_action": "1차 Draft Action 검토",
       "ad_keywords": [
         "vt-pdrn",
         "radiance-cream",
@@ -846,6 +852,8 @@
         "glow-skin"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
+      "copy_status": "ok",
+      "agent_blocked_by": [],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067498"
     },
@@ -864,9 +872,15 @@
       "breakeven_usd": null,
       "suggested_price_usd": 20.0,
       "margin_pct": null,
-      "shopify_action": "1차 등록",
+      "shopify_action": "선행 증거 보강",
       "ad_keywords": [],
-      "ad_keywords_source": "카피 미생성",
+      "ad_keywords_source": "ontology 선행 게이트 차단",
+      "copy_status": "skipped_prerequisite",
+      "agent_blocked_by": [
+        "gosi",
+        "us_label",
+        "legal"
+      ],
       "listing_ready": false,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072554"
     },
@@ -885,7 +899,7 @@
       "breakeven_usd": null,
       "suggested_price_usd": 20.0,
       "margin_pct": null,
-      "shopify_action": "2차 검토",
+      "shopify_action": "2차 Draft Action 검토",
       "ad_keywords": [
         "celderma",
         "pdrn-mask",
@@ -895,6 +909,8 @@
         "facial-mask"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
+      "copy_status": "ok",
+      "agent_blocked_by": [],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1075857"
     },
@@ -913,7 +929,7 @@
       "breakeven_usd": null,
       "suggested_price_usd": 20.0,
       "margin_pct": null,
-      "shopify_action": "2차 검토",
+      "shopify_action": "2차 Draft Action 검토",
       "ad_keywords": [
         "vt-cosmetics",
         "sleeping-mask",
@@ -923,6 +939,8 @@
         "facial-mask"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
+      "copy_status": "ok",
+      "agent_blocked_by": [],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285"
     },
@@ -941,7 +959,7 @@
       "breakeven_usd": null,
       "suggested_price_usd": 20.0,
       "margin_pct": null,
-      "shopify_action": "2차 검토",
+      "shopify_action": "2차 Draft Action 검토",
       "ad_keywords": [
         "celderma",
         "sheet-mask",
@@ -951,6 +969,8 @@
         "hydrating-mask"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
+      "copy_status": "ok",
+      "agent_blocked_by": [],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834"
     },
@@ -969,7 +989,7 @@
       "breakeven_usd": null,
       "suggested_price_usd": 20.0,
       "margin_pct": null,
-      "shopify_action": "2차 검토",
+      "shopify_action": "2차 Draft Action 검토",
       "ad_keywords": [
         "celderma",
         "collagen-mask",
@@ -979,6 +999,8 @@
         "sheet-mask"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
+      "copy_status": "ok",
+      "agent_blocked_by": [],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619"
     },
@@ -997,7 +1019,7 @@
       "breakeven_usd": null,
       "suggested_price_usd": 20.0,
       "margin_pct": null,
-      "shopify_action": "2차 검토",
+      "shopify_action": "2차 Draft Action 검토",
       "ad_keywords": [
         "vaseline",
         "cleansing-milk",
@@ -1007,47 +1029,13 @@
         "korean-skincare"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
+      "copy_status": "ok",
+      "agent_blocked_by": [],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060211"
     }
   ],
   "competitor_watch": [
-    {
-      "name": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
-      "brand": "ROUND LAB",
-      "price_usd": 21.24,
-      "rating": 5,
-      "review_count": 4,
-      "us_rank": 13,
-      "daiso_bucket": "클렌징",
-      "why": "us.oliveyoung.com/best-sellers 실수집 13위 · 클렌징 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA38918945",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "beplain Mung Bean Pore Double Cleansing Duo Set (Cleansing Oil 6.76 fl. oz.(200ml) + Cleansing Foam 5.41 fl. oz.(160ml))",
-      "brand": "beplain",
-      "price_usd": 27.9,
-      "rating": 4.8,
-      "review_count": 5,
-      "us_rank": 28,
-      "daiso_bucket": "클렌징",
-      "why": "us.oliveyoung.com/best-sellers 실수집 28위 · 클렌징 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA38708381",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "ILLIYOON Ceramide Ato 6.0 Top To Toe Wash 16.9 fl. oz.(500ml)",
-      "brand": "ILLIYOON",
-      "price_usd": 21.24,
-      "rating": 4.8,
-      "review_count": 787,
-      "us_rank": 32,
-      "daiso_bucket": "클렌징",
-      "why": "us.oliveyoung.com/best-sellers 실수집 32위 · 클렌징 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA18172537",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
     {
       "name": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
       "brand": "MEDIHEAL",
@@ -1119,11 +1107,47 @@
       "why": "us.oliveyoung.com/best-sellers 실수집 5위 · 스킨케어 동일 포지션",
       "url": "https://us.oliveyoung.com/products/UA71026007",
       "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
+      "brand": "ROUND LAB",
+      "price_usd": 21.24,
+      "rating": 5,
+      "review_count": 4,
+      "us_rank": 13,
+      "daiso_bucket": "클렌징",
+      "why": "us.oliveyoung.com/best-sellers 실수집 13위 · 클렌징 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA38918945",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "beplain Mung Bean Pore Double Cleansing Duo Set (Cleansing Oil 6.76 fl. oz.(200ml) + Cleansing Foam 5.41 fl. oz.(160ml))",
+      "brand": "beplain",
+      "price_usd": 27.9,
+      "rating": 4.8,
+      "review_count": 5,
+      "us_rank": 28,
+      "daiso_bucket": "클렌징",
+      "why": "us.oliveyoung.com/best-sellers 실수집 28위 · 클렌징 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA38708381",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "ILLIYOON Ceramide Ato 6.0 Top To Toe Wash 16.9 fl. oz.(500ml)",
+      "brand": "ILLIYOON",
+      "price_usd": 21.24,
+      "rating": 4.8,
+      "review_count": 786,
+      "us_rank": 32,
+      "daiso_bucket": "클렌징",
+      "why": "us.oliveyoung.com/best-sellers 실수집 32위 · 클렌징 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA18172537",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
     }
   ],
   "weekly_actions": [
-    "영문 카피가 준비된 9건 중 상위 5건을 Shopify 초안으로 등록",
-    "카피 미생성 1건에 대해 shopify-listing-copy 워크플로 재실행",
+    "Shopify Draft Action 8건의 payload hash를 검토하고 사람 승인",
+    "AI 선행 게이트 차단 1건의 증거 보강: gosi, legal, us_label",
     "시장 가격대 100건 기준 중앙값 $24.99 주 1회 확인",
     "묶음 구매 유도용 무료배송 최소 주문금액 설정 (낱개 배송 시 적자 구조라 필수)"
   ],
