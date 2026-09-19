@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-09-19T19:17:08.508504+09:00",
+    "updated_at": "2026-09-19T19:23:48.511733+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -1009,11 +1009,15 @@
       "breakeven_usd": null,
       "suggested_price_usd": 19.0,
       "margin_pct": null,
-      "shopify_action": "카피 생성 재시도",
+      "shopify_action": "선행 증거 보강",
       "ad_keywords": [],
-      "ad_keywords_source": "카피 미생성",
-      "copy_status": "missing",
-      "agent_blocked_by": [],
+      "ad_keywords_source": "ontology 선행 게이트 차단",
+      "copy_status": "skipped_prerequisite",
+      "agent_blocked_by": [
+        "gosi",
+        "us_label",
+        "legal"
+      ],
       "listing_ready": false,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1053482"
     }
@@ -1094,8 +1098,7 @@
   ],
   "weekly_actions": [
     "Shopify Draft Action 7건의 payload hash를 검토하고 사람 승인",
-    "AI 선행 게이트 차단 1건의 증거 보강: gosi, legal, us_label",
-    "카피 생성 실패 1건만 shopify-listing-copy 재실행",
+    "AI 선행 게이트 차단 2건의 증거 보강: gosi, legal, us_label",
     "시장 가격대 100건 기준 중앙값 $23.76 주 1회 확인",
     "묶음 구매 유도용 무료배송 최소 주문금액 설정 (낱개 배송 시 적자 구조라 필수)"
   ],

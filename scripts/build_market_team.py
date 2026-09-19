@@ -115,8 +115,12 @@ def build_s_priority(srec, detail, pricing, copies, cp_registry=None):
         pr = price5.get(pid)
         c = copy_by.get(pid)
         copy_row = copy_rows.get(pid) or {}
-        copy_status = copy_row.get("copy_status", "missing")
-        agent_blocked_by = list(copy_row.get("agent_blocked_by") or [])
+        agent_blocked_by = list(
+            copy_row.get("agent_blocked_by") or p.get("agent_blocked_by") or []
+        )
+        copy_status = copy_row.get("copy_status") or (
+            "skipped_prerequisite" if p.get("agent_ready") is False else "missing"
+        )
         cp = p.get("canonical_product_id") or cp_registry.get(pid)
 
         margin = None
