@@ -651,7 +651,8 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
         # 수동 입력 폴더에 pd_no 가 등장하는 상품만 고시표가 들어온 것으로 본다
         # 고시는 gosi.json 이 정본이다. data/manual 을 뒤지던 옛 방식은
         # 고시 수집기가 생긴 뒤로 실제 상태와 맞지 않는다.
-        gosi = (load_json(D / "gosi.json", None) or {}).get("items") or {}
+        gosi_doc = load_json(D / "gosi.json", None) or {}
+        gosi = gosi_doc.get("items") or {}
         REQ = ("ingredients", "volume", "maker", "origin")
         entered = {k for k, v in gosi.items()
                    if all(str(v.get(f) or "").strip() for f in REQ)}
@@ -669,11 +670,25 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
                 nm = str(p.get("name") or "")[:18]
                 bits.append(f"{pid} {nm} {DAISO}{pid}")
             more = f" 외 {len(pending) - 4}건" if len(pending) > 4 else ""
-            act = (f"고시 표 {len(pending)}건 필요 — "
+
+            # 다이소 고시는 모든 상품에 있다. 빈 칸은 "고시 없음"이 아니라
+            # 상세 이미지를 아직 읽지 못한 것이다. 그 사유를 그대로 보여준다.
+            # 없으면 사람이 다시 페이지를 열어 같은 확인을 반복하게 된다.
+            vision_status = str(gosi_doc.get("vision_status") or "")
+            if vision_status.startswith("quota"):
+                cause = "상세 이미지는 받았으나 비전 할당량 소진(429)으로 판독 대기"
+            elif vision_status.startswith("skipped"):
+                cause = "비전 키가 없어 판독을 건너뜀"
+            elif vision_status:
+                cause = f"비전 판독 상태 {vision_status}"
+            else:
+                cause = "상세 이미지 판독 미완료"
+
+            act = (f"고시 표 {len(pending)}건 판독 남음 ({cause}) — "
                    + " / ".join(bits) + more)
         cards.append(_team(
             "market", "마케팅 조사팀", iso_mtime(D / "market_team.json"),
-            f'S등급 {len(s_grade)}개 · 고시표 입력 대기 {len(pending)}건' + feed_tail("market"),
+            f'S등급 {len(s_grade)}개 · 고시 판독 남음 {len(pending)}건' + feed_tail("market"),
             act))
     else:
         cards.append(_team("market", "마케팅 조사팀", None,
