@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T09:57:37.434880+09:00",
+  "generated_at": "2026-09-19T10:13:11.326822+09:00",
   "role": "coaching",
   "principle": "AI는 체크리스트·A/B 초안만. 등록·광고 집행은 사람 승인.",
   "source": "scripts/build_coaching_loop.py",
@@ -11,9 +11,9 @@
     "hold": 0,
     "reddit_signal": {
       "status": "ok",
-      "post_count": 50,
-      "collected_at": "2026-09-19T00:18:07.289632+00:00",
-      "keyword_pool": 41
+      "post_count": 25,
+      "collected_at": "2026-09-19T01:06:46.167362+00:00",
+      "keyword_pool": 40
     }
   },
   "sessions": [
@@ -193,7 +193,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['kbeauty', 'serum', 'skin', 'skincare']",
+          "evidence": "matched=['kbeauty', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -223,7 +223,6 @@
         ],
         "reddit_keywords_used": [
           "kbeauty",
-          "serum",
           "skin",
           "skincare"
         ],
@@ -233,13 +232,12 @@
       "reddit_match": {
         "matched": [
           "kbeauty",
-          "serum",
           "skin",
           "skincare"
         ],
-        "score": 4,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['kbeauty', 'serum', 'skin', 'skincare']",
+        "evidence": "matched=['kbeauty', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -547,7 +545,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['kbeauty', 'serum', 'skin', 'skincare']",
+          "evidence": "matched=['kbeauty', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -577,7 +575,6 @@
         ],
         "reddit_keywords_used": [
           "kbeauty",
-          "serum",
           "skin",
           "skincare"
         ],
@@ -587,13 +584,12 @@
       "reddit_match": {
         "matched": [
           "kbeauty",
-          "serum",
           "skin",
           "skincare"
         ],
-        "score": 4,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['kbeauty', 'serum', 'skin', 'skincare']",
+        "evidence": "matched=['kbeauty', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -664,14 +660,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['kbeauty', 'mask', 'moisturizer', 'moisturizers', 'sheet', 'skin', 'skincare']",
+          "evidence": "matched=['ask', 'kbeauty', 'mask', 'moisturizer', 'moisturizers', 'sheet', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Celderma Daily PDRN Radiance Cream Wrapping Mask 1ea — kbeauty · K-beauty",
+          "primary_text": "Celderma Daily PDRN Radiance Cream Wrapping Mask 1ea — ask · K-beauty",
           "headline": "Celderma Daily PDRN Radiance Cream Wrapp",
           "description": "Discover the Celderma Daily PDRN Radiance Cream Wrapping Mask, designed to help enhance your daily skincare routine. This single sheet mask delivers comforting moisture for a radiant and glowing compl",
           "cta": "Shop now"
@@ -690,23 +686,24 @@
           "K-beauty",
           "glass skin",
           "hydrating",
+          "ask",
           "kbeauty",
           "moisturizer",
-          "moisturizers",
-          "sheet"
+          "moisturizers"
         ],
         "reddit_keywords_used": [
+          "ask",
           "kbeauty",
           "mask",
           "moisturizer",
-          "moisturizers",
-          "sheet"
+          "moisturizers"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
+          "ask",
           "kbeauty",
           "mask",
           "moisturizer",
@@ -715,9 +712,9 @@
           "skin",
           "skincare"
         ],
-        "score": 7,
+        "score": 8,
         "status": "pass",
-        "evidence": "matched=['kbeauty', 'mask', 'moisturizer', 'moisturizers', 'sheet', 'skin', 'skincare']",
+        "evidence": "matched=['ask', 'kbeauty', 'mask', 'moisturizer', 'moisturizers', 'sheet', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -788,14 +785,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['kbeauty', 'mask', 'sheet', 'skin', 'skincare']",
+          "evidence": "matched=['ask', 'kbeauty', 'mask', 'sheet', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "VT Super Hyalon Sleeping Mask 4ml 6ea — kbeauty · K-beauty",
+          "primary_text": "VT Super Hyalon Sleeping Mask 4ml 6ea — ask · K-beauty",
           "headline": "VT Super Hyalon Sleeping Mask 4ml 6ea",
           "description": "Discover the VT Super Hyalon Sleeping Mask, designed to deliver deep hydration while you rest. Each set includes six convenient 4 ml individual pouches for easy daily care. Apply gently before bed to ",
           "cta": "Shop now"
@@ -812,32 +809,33 @@
           "K-beauty",
           "glass skin",
           "hydrating",
+          "ask",
           "kbeauty",
           "sheet",
-          "skin",
-          "skincare"
+          "skin"
         ],
         "reddit_keywords_used": [
+          "ask",
           "kbeauty",
           "mask",
           "sheet",
-          "skin",
-          "skincare"
+          "skin"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
+          "ask",
           "kbeauty",
           "mask",
           "sheet",
           "skin",
           "skincare"
         ],
-        "score": 5,
+        "score": 6,
         "status": "pass",
-        "evidence": "matched=['kbeauty', 'mask', 'sheet', 'skin', 'skincare']",
+        "evidence": "matched=['ask', 'kbeauty', 'mask', 'sheet', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -908,14 +906,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['mask', 'sheet']",
+          "evidence": "matched=['ask', 'mask', 'sheet']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Celderma Daily Transforming Firming Collagen Mask 28g — mask · sheet mask",
+          "primary_text": "Celderma Daily Transforming Firming Collagen Mask 28g — ask · sheet mask",
           "headline": "Celderma Daily Transforming Firming Coll",
           "description": "Discover the Celderma Daily Transforming Firming Collagen Mask, formulated to help support a smooth-looking and radiant complexion. Each 28g sheet mask is designed to comfortably fit the contours of y",
           "cta": "Shop now"
@@ -933,9 +931,11 @@
           "sheet mask",
           "overnight mask",
           "collagen mask",
+          "ask",
           "sheet"
         ],
         "reddit_keywords_used": [
+          "ask",
           "mask",
           "sheet"
         ],
@@ -944,12 +944,13 @@
       },
       "reddit_match": {
         "matched": [
+          "ask",
           "mask",
           "sheet"
         ],
-        "score": 2,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['mask', 'sheet']",
+        "evidence": "matched=['ask', 'mask', 'sheet']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -1020,14 +1021,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['mask', 'sheet']",
+          "evidence": "matched=['ask', 'mask', 'sheet']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Celderma Daily Collagen Essence Gel Mask 29g — mask · sheet mask",
+          "primary_text": "Celderma Daily Collagen Essence Gel Mask 29g — ask · sheet mask",
           "headline": "Celderma Daily Collagen Essence Gel Mask",
           "description": "Experience a refreshing skincare step with the Celderma Daily Collagen Essence Gel Mask. Designed in a convenient 29g format, this gel mask adheres comfortably to the skin for a smooth, hydrated look.",
           "cta": "Shop now"
@@ -1046,9 +1047,11 @@
           "sheet mask",
           "overnight mask",
           "collagen mask",
+          "ask",
           "sheet"
         ],
         "reddit_keywords_used": [
+          "ask",
           "mask",
           "sheet"
         ],
@@ -1057,12 +1060,13 @@
       },
       "reddit_match": {
         "matched": [
+          "ask",
           "mask",
           "sheet"
         ],
-        "score": 2,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['mask', 'sheet']",
+        "evidence": "matched=['ask', 'mask', 'sheet']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -1076,7 +1080,7 @@
       "pd_no": "1060211",
       "name": "바세린 모이스처라이징 클렌징 밀크 140 ml",
       "bucket": "클렌징",
-      "shopify_score": 87,
+      "shopify_score": 86,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060211",
       "readiness": "fix_then_list",
       "checklist": [
@@ -1084,7 +1088,7 @@
           "id": "grade_s",
           "label": "S등급 유지",
           "status": "pass",
-          "evidence": "grade=S, score=87",
+          "evidence": "grade=S, score=86",
           "tip": "S가 아니면 1차 등록 보류"
         },
         {
@@ -1133,7 +1137,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "warn",
-          "evidence": "terms=['balanced', 'cleanse', 'cleanser', 'cleansing', 'double', 'gentle'] vs pool=41",
+          "evidence": "terms=['balanced', 'cleanse', 'cleanser', 'cleansing', 'double', 'gentle'] vs pool=40",
           "tip": "Reddit 핫 키워드와 직접 겹침 약함 — 성분 영문명으로 재검색"
         }
       ],
@@ -1166,7 +1170,7 @@
         "matched": [],
         "score": 0,
         "status": "warn",
-        "evidence": "terms=['balanced', 'cleanse', 'cleanser', 'cleansing', 'double', 'gentle'] vs pool=41",
+        "evidence": "terms=['balanced', 'cleanse', 'cleanser', 'cleansing', 'double', 'gentle'] vs pool=40",
         "tip": "Reddit 핫 키워드와 직접 겹침 약함 — 성분 영문명으로 재검색"
       },
       "coach_summary": {

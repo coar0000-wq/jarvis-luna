@@ -2,7 +2,7 @@
 title: "Record 78977731ee · 8-Best-Wrinkle-Serums-for-Fine-Lines-Texture-and-Fi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T00:25:31.119239+00:00
+updated_at: 2026-09-19T01:14:49.757565+00:00
 tags: [record, real-data]
 ---
 

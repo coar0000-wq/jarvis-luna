@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T00:23:44.811129+00:00",
+  "generated_at": "2026-09-19T01:13:04.884833+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "wnba schedule",
-          "approx_traffic": "10000+",
-          "traffic_num": 10000,
-          "published": "Fri, 18 Sep 2026 17:10:00 -0700",
-          "source_name": "WNBA",
-          "url": "https://trends.google.com/trending?geo=US&q=wnba%20schedule"
-        },
-        {
-          "keyword": "olivia miles",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Fri, 18 Sep 2026 17:10:00 -0700",
-          "source_name": "Star Tribune",
-          "url": "https://trends.google.com/trending?geo=US&q=olivia%20miles"
-        },
-        {
-          "keyword": "banana ball",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Fri, 18 Sep 2026 17:10:00 -0700",
-          "source_name": "FOX 2 Detroit",
-          "url": "https://trends.google.com/trending?geo=US&q=banana%20ball"
-        },
-        {
-          "keyword": "jahmai jones",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Fri, 18 Sep 2026 17:10:00 -0700",
+          "keyword": "yankees vs diamondbacks",
+          "approx_traffic": "5000+",
+          "traffic_num": 5000,
+          "published": "Fri, 18 Sep 2026 17:40:00 -0700",
           "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=jahmai%20jones"
+          "url": "https://trends.google.com/trending?geo=US&q=yankees%20vs%20diamondbacks"
         },
         {
-          "keyword": "will hammond",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Fri, 18 Sep 2026 17:10:00 -0700",
+          "keyword": "lizzie borden cast",
+          "approx_traffic": "5000+",
+          "traffic_num": 5000,
+          "published": "Fri, 18 Sep 2026 17:40:00 -0700",
+          "source_name": "Forbes",
+          "url": "https://trends.google.com/trending?geo=US&q=lizzie%20borden%20cast"
+        },
+        {
+          "keyword": "marlins vs padres",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Fri, 18 Sep 2026 17:50:00 -0700",
+          "source_name": "San Diego Union-Tribune",
+          "url": "https://trends.google.com/trending?geo=US&q=marlins%20vs%20padres"
+        },
+        {
+          "keyword": "uh football",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Fri, 18 Sep 2026 17:30:00 -0700",
+          "source_name": "Click2Houston",
+          "url": "https://trends.google.com/trending?geo=US&q=uh%20football"
+        },
+        {
+          "keyword": "charmar brown",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Fri, 18 Sep 2026 17:30:00 -0700",
           "source_name": "247Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=will%20hammond"
+          "url": "https://trends.google.com/trending?geo=US&q=charmar%20brown"
         },
         {
-          "keyword": "carson beck",
+          "keyword": "fever score",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Fri, 18 Sep 2026 17:00:00 -0700",
-          "source_name": "The Mercury News",
-          "url": "https://trends.google.com/trending?geo=US&q=carson%20beck"
-        },
-        {
-          "keyword": "josé urquidy",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Fri, 18 Sep 2026 17:00:00 -0700",
+          "published": "Fri, 18 Sep 2026 17:30:00 -0700",
           "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=jos%C3%A9%20urquidy"
+          "url": "https://trends.google.com/trending?geo=US&q=fever%20score"
         },
         {
-          "keyword": "kelsey mitchell",
+          "keyword": "j j mccarthy",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Fri, 18 Sep 2026 17:00:00 -0700",
-          "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=kelsey%20mitchell"
+          "published": "Fri, 18 Sep 2026 17:30:00 -0700",
+          "source_name": "New York Post",
+          "url": "https://trends.google.com/trending?geo=US&q=j%20j%20mccarthy"
         },
         {
-          "keyword": "stephanie cole",
+          "keyword": "aliyah boston",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Fri, 18 Sep 2026 17:00:00 -0700",
-          "source_name": "BBC",
-          "url": "https://trends.google.com/trending?geo=US&q=stephanie%20cole"
+          "published": "Fri, 18 Sep 2026 17:30:00 -0700",
+          "source_name": "WTHR",
+          "url": "https://trends.google.com/trending?geo=US&q=aliyah%20boston"
         },
         {
-          "keyword": "isabelle harrison",
+          "keyword": "mauricio dubon",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Fri, 18 Sep 2026 17:00:00 -0700",
-          "source_name": "Idaho Press",
-          "url": "https://trends.google.com/trending?geo=US&q=isabelle%20harrison"
+          "published": "Fri, 18 Sep 2026 17:30:00 -0700",
+          "source_name": "MLB.com",
+          "url": "https://trends.google.com/trending?geo=US&q=mauricio%20dubon"
+        },
+        {
+          "keyword": "aucas - macará",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Fri, 18 Sep 2026 17:30:00 -0700",
+          "source_name": "Yahoo",
+          "url": "https://trends.google.com/trending?geo=US&q=aucas%20-%20macar%C3%A1"
         }
       ]
     },

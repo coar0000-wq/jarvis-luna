@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-19T00:57:37.113008+00:00",
+  "generated_at": "2026-09-19T01:13:06.388516+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "total": 10,
   "ready": 7,
@@ -555,7 +555,7 @@
       "name": "바세린 모이스처라이징 클렌징 밀크 140 ml",
       "category": "클렌징",
       "price_krw": 5000,
-      "shopify_score": 87,
+      "shopify_score": 86,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060211",
       "copy": {},
       "copy_status": "missing",

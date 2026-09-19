@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-19T00:23:45.602484+00:00",
+  "generated_at": "2026-09-19T01:13:06.239789+00:00",
   "exchange_rate": {
     "usd_to_krw": 1386.89,
     "as_of": "2026-09-19",
-    "source": "exchangerate-api"
+    "source": "ExchangeRate-API"
   },
   "cost_basis": {
     "shipping": "우체국 국제통상 소형포장물 미국행 요금표 (ems.epost.go.kr, 2026-08-31 조회)",
@@ -22,7 +22,7 @@
   },
   "market_benchmark": {
     "min": 8.3,
-    "p25": 19.99,
+    "p25": 20.0,
     "median": 24.99,
     "max": 279.0,
     "n": 100,
@@ -419,9 +419,9 @@
           "margin_pct": -87.1
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 9.96,
+          "profit": 9.97,
           "margin_pct": 49.8
         },
         "at_market_median": {
@@ -462,10 +462,10 @@
           "margin_pct": -36.1
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 8.3,
-          "margin_pct": 41.5
+          "profit": 8.31,
+          "margin_pct": 41.6
         },
         "at_market_median": {
           "sell": 24.99,
@@ -505,9 +505,9 @@
           "margin_pct": -87.1
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 9.96,
+          "profit": 9.97,
           "margin_pct": 49.8
         },
         "at_market_median": {
@@ -553,9 +553,9 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 7.57,
+          "profit": 7.58,
           "margin_pct": 37.9
         },
         "at_market_median": {
@@ -601,9 +601,9 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 7.57,
+          "profit": 7.58,
           "margin_pct": 37.9
         },
         "at_market_median": {
@@ -644,9 +644,9 @@
           "margin_pct": -150.8
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 10.79,
+          "profit": 10.8,
           "margin_pct": 54.0
         },
         "at_market_median": {
@@ -669,7 +669,7 @@
         "pd_no": "1049285",
         "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
         "bucket": "스킨케어",
-        "shopify_score": 93,
+        "shopify_score": 92,
         "price_krw": 3000,
         "weight_g_est": 46,
         "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
@@ -692,9 +692,9 @@
           "margin_pct": -87.1
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 9.96,
+          "profit": 9.97,
           "margin_pct": 49.8
         },
         "at_market_median": {
@@ -735,9 +735,9 @@
           "margin_pct": -150.8
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 10.79,
+          "profit": 10.8,
           "margin_pct": 54.0
         },
         "at_market_median": {
@@ -755,7 +755,7 @@
         "pd_no": "1042619",
         "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
         "bucket": "마스크팩",
-        "shopify_score": 87,
+        "shopify_score": 88,
         "price_krw": 1000,
         "weight_g_est": 86,
         "weight_note": "고시 용량 29g x 1.6(용기) + 40g(포장)",
@@ -778,9 +778,9 @@
           "margin_pct": -341.9
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 11.62,
+          "profit": 11.63,
           "margin_pct": 58.1
         },
         "at_market_median": {
@@ -821,10 +821,10 @@
           "margin_pct": -54.5
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 6.84,
-          "margin_pct": 34.2
+          "profit": 6.85,
+          "margin_pct": 34.3
         },
         "at_market_median": {
           "sell": 24.99,
@@ -866,9 +866,9 @@
           "margin_pct": -23.4
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 12.99,
+          "profit": 13.0,
           "margin_pct": 65.0
         },
         "at_market_median": {
@@ -909,9 +909,9 @@
           "margin_pct": -2.5
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 10.97,
+          "profit": 10.98,
           "margin_pct": 54.9
         },
         "at_market_median": {
@@ -952,9 +952,9 @@
           "margin_pct": -23.4
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 12.99,
+          "profit": 13.0,
           "margin_pct": 65.0
         },
         "at_market_median": {
@@ -1000,10 +1000,10 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 10.6,
-          "margin_pct": 53.0
+          "profit": 10.61,
+          "margin_pct": 53.1
         },
         "at_market_median": {
           "sell": 24.99,
@@ -1048,9 +1048,9 @@
           "margin_pct": -11.7
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 10.24,
+          "profit": 10.25,
           "margin_pct": 51.2
         },
         "at_market_median": {
@@ -1091,9 +1091,9 @@
           "margin_pct": -66.7
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 13.46,
+          "profit": 13.47,
           "margin_pct": 67.3
         },
         "at_market_median": {
@@ -1116,7 +1116,7 @@
         "pd_no": "1049285",
         "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
         "bucket": "스킨케어",
-        "shopify_score": 93,
+        "shopify_score": 92,
         "price_krw": 3000,
         "weight_g_est": 46,
         "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
@@ -1139,9 +1139,9 @@
           "margin_pct": -23.4
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 12.99,
+          "profit": 13.0,
           "margin_pct": 65.0
         },
         "at_market_median": {
@@ -1182,9 +1182,9 @@
           "margin_pct": -66.7
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 13.46,
+          "profit": 13.47,
           "margin_pct": 67.3
         },
         "at_market_median": {
@@ -1202,7 +1202,7 @@
         "pd_no": "1042619",
         "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
         "bucket": "마스크팩",
-        "shopify_score": 87,
+        "shopify_score": 88,
         "price_krw": 1000,
         "weight_g_est": 86,
         "weight_note": "고시 용량 29g x 1.6(용기) + 40g(포장)",
@@ -1225,7 +1225,7 @@
           "margin_pct": -173.8
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
           "profit": 14.29,
           "margin_pct": 71.5
@@ -1268,9 +1268,9 @@
           "margin_pct": -25.3
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 9.16,
+          "profit": 9.17,
           "margin_pct": 45.8
         },
         "at_market_median": {
@@ -1315,9 +1315,9 @@
           "margin_pct": -87.1
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 9.96,
+          "profit": 9.97,
           "margin_pct": 49.8
         },
         "at_market_median": {
@@ -1358,10 +1358,10 @@
           "margin_pct": -36.1
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 8.3,
-          "margin_pct": 41.5
+          "profit": 8.31,
+          "margin_pct": 41.6
         },
         "at_market_median": {
           "sell": 24.99,
@@ -1401,9 +1401,9 @@
           "margin_pct": -87.1
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 9.96,
+          "profit": 9.97,
           "margin_pct": 49.8
         },
         "at_market_median": {
@@ -1449,9 +1449,9 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 7.57,
+          "profit": 7.58,
           "margin_pct": 37.9
         },
         "at_market_median": {
@@ -1497,9 +1497,9 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 7.57,
+          "profit": 7.58,
           "margin_pct": 37.9
         },
         "at_market_median": {
@@ -1540,9 +1540,9 @@
           "margin_pct": -150.8
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 10.79,
+          "profit": 10.8,
           "margin_pct": 54.0
         },
         "at_market_median": {
@@ -1565,7 +1565,7 @@
         "pd_no": "1049285",
         "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
         "bucket": "스킨케어",
-        "shopify_score": 93,
+        "shopify_score": 92,
         "price_krw": 3000,
         "weight_g_est": 46,
         "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
@@ -1588,9 +1588,9 @@
           "margin_pct": -87.1
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 9.96,
+          "profit": 9.97,
           "margin_pct": 49.8
         },
         "at_market_median": {
@@ -1631,9 +1631,9 @@
           "margin_pct": -150.8
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 10.79,
+          "profit": 10.8,
           "margin_pct": 54.0
         },
         "at_market_median": {
@@ -1651,7 +1651,7 @@
         "pd_no": "1042619",
         "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
         "bucket": "마스크팩",
-        "shopify_score": 87,
+        "shopify_score": 88,
         "price_krw": 1000,
         "weight_g_est": 86,
         "weight_note": "고시 용량 29g x 1.6(용기) + 40g(포장)",
@@ -1674,9 +1674,9 @@
           "margin_pct": -341.9
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 11.62,
+          "profit": 11.63,
           "margin_pct": 58.1
         },
         "at_market_median": {
@@ -1717,10 +1717,10 @@
           "margin_pct": -54.5
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 6.84,
-          "margin_pct": 34.2
+          "profit": 6.85,
+          "margin_pct": 34.3
         },
         "at_market_median": {
           "sell": 24.99,
@@ -1762,9 +1762,9 @@
           "margin_pct": -23.4
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 12.99,
+          "profit": 13.0,
           "margin_pct": 65.0
         },
         "at_market_median": {
@@ -1805,9 +1805,9 @@
           "margin_pct": -2.5
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 10.97,
+          "profit": 10.98,
           "margin_pct": 54.9
         },
         "at_market_median": {
@@ -1848,9 +1848,9 @@
           "margin_pct": -23.4
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 12.99,
+          "profit": 13.0,
           "margin_pct": 65.0
         },
         "at_market_median": {
@@ -1896,10 +1896,10 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 10.6,
-          "margin_pct": 53.0
+          "profit": 10.61,
+          "margin_pct": 53.1
         },
         "at_market_median": {
           "sell": 24.99,
@@ -1944,9 +1944,9 @@
           "margin_pct": -11.7
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 10.24,
+          "profit": 10.25,
           "margin_pct": 51.2
         },
         "at_market_median": {
@@ -1987,9 +1987,9 @@
           "margin_pct": -66.7
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 13.46,
+          "profit": 13.47,
           "margin_pct": 67.3
         },
         "at_market_median": {
@@ -2012,7 +2012,7 @@
         "pd_no": "1049285",
         "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
         "bucket": "스킨케어",
-        "shopify_score": 93,
+        "shopify_score": 92,
         "price_krw": 3000,
         "weight_g_est": 46,
         "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
@@ -2035,9 +2035,9 @@
           "margin_pct": -23.4
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 12.99,
+          "profit": 13.0,
           "margin_pct": 65.0
         },
         "at_market_median": {
@@ -2078,9 +2078,9 @@
           "margin_pct": -66.7
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 13.46,
+          "profit": 13.47,
           "margin_pct": 67.3
         },
         "at_market_median": {
@@ -2098,7 +2098,7 @@
         "pd_no": "1042619",
         "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
         "bucket": "마스크팩",
-        "shopify_score": 87,
+        "shopify_score": 88,
         "price_krw": 1000,
         "weight_g_est": 86,
         "weight_note": "고시 용량 29g x 1.6(용기) + 40g(포장)",
@@ -2121,7 +2121,7 @@
           "margin_pct": -173.8
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
           "profit": 14.29,
           "margin_pct": 71.5
@@ -2164,9 +2164,9 @@
           "margin_pct": -25.3
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 9.16,
+          "profit": 9.17,
           "margin_pct": 45.8
         },
         "at_market_median": {
@@ -2209,10 +2209,10 @@
           "margin_pct": -80.3
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 10.28,
-          "margin_pct": 51.4
+          "profit": 10.29,
+          "margin_pct": 51.5
         },
         "at_market_median": {
           "sell": 24.99,
@@ -2252,10 +2252,10 @@
           "margin_pct": -29.3
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 8.84,
-          "margin_pct": 44.2
+          "profit": 8.85,
+          "margin_pct": 44.3
         },
         "at_market_median": {
           "sell": 24.99,
@@ -2295,10 +2295,10 @@
           "margin_pct": -80.3
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 10.28,
-          "margin_pct": 51.4
+          "profit": 10.29,
+          "margin_pct": 51.5
         },
         "at_market_median": {
           "sell": 24.99,
@@ -2343,9 +2343,9 @@
           "margin_pct": -38.5
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 8.11,
+          "profit": 8.12,
           "margin_pct": 40.6
         },
         "at_market_median": {
@@ -2391,9 +2391,9 @@
           "margin_pct": -38.5
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 8.11,
+          "profit": 8.12,
           "margin_pct": 40.6
         },
         "at_market_median": {
@@ -2434,9 +2434,9 @@
           "margin_pct": -144.0
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 11.0,
+          "profit": 11.01,
           "margin_pct": 55.1
         },
         "at_market_median": {
@@ -2459,7 +2459,7 @@
         "pd_no": "1049285",
         "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
         "bucket": "스킨케어",
-        "shopify_score": 93,
+        "shopify_score": 92,
         "price_krw": 3000,
         "weight_g_est": 46,
         "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
@@ -2482,10 +2482,10 @@
           "margin_pct": -80.3
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 10.28,
-          "margin_pct": 51.4
+          "profit": 10.29,
+          "margin_pct": 51.5
         },
         "at_market_median": {
           "sell": 24.99,
@@ -2525,9 +2525,9 @@
           "margin_pct": -144.0
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 11.0,
+          "profit": 11.01,
           "margin_pct": 55.1
         },
         "at_market_median": {
@@ -2545,7 +2545,7 @@
         "pd_no": "1042619",
         "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
         "bucket": "마스크팩",
-        "shopify_score": 87,
+        "shopify_score": 88,
         "price_krw": 1000,
         "weight_g_est": 86,
         "weight_note": "고시 용량 29g x 1.6(용기) + 40g(포장)",
@@ -2568,9 +2568,9 @@
           "margin_pct": -335.1
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 11.73,
+          "profit": 11.74,
           "margin_pct": 58.7
         },
         "at_market_median": {
@@ -2611,10 +2611,10 @@
           "margin_pct": -47.7
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
           "profit": 7.39,
-          "margin_pct": 36.9
+          "margin_pct": 37.0
         },
         "at_market_median": {
           "sell": 24.99,
@@ -2656,7 +2656,7 @@
           "margin_pct": -16.6
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
           "profit": 13.32,
           "margin_pct": 66.6
@@ -2699,9 +2699,9 @@
           "margin_pct": 4.3
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 11.51,
+          "profit": 11.52,
           "margin_pct": 57.6
         },
         "at_market_median": {
@@ -2742,7 +2742,7 @@
           "margin_pct": -16.6
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
           "profit": 13.32,
           "margin_pct": 66.6
@@ -2790,7 +2790,7 @@
           "margin_pct": -0.3
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
           "profit": 11.15,
           "margin_pct": 55.8
@@ -2838,10 +2838,10 @@
           "margin_pct": -4.9
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 10.78,
-          "margin_pct": 53.9
+          "profit": 10.79,
+          "margin_pct": 54.0
         },
         "at_market_median": {
           "sell": 24.99,
@@ -2881,9 +2881,9 @@
           "margin_pct": -59.9
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 13.67,
+          "profit": 13.68,
           "margin_pct": 68.4
         },
         "at_market_median": {
@@ -2906,7 +2906,7 @@
         "pd_no": "1049285",
         "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
         "bucket": "스킨케어",
-        "shopify_score": 93,
+        "shopify_score": 92,
         "price_krw": 3000,
         "weight_g_est": 46,
         "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
@@ -2929,7 +2929,7 @@
           "margin_pct": -16.6
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
           "profit": 13.32,
           "margin_pct": 66.6
@@ -2972,9 +2972,9 @@
           "margin_pct": -59.9
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 13.67,
+          "profit": 13.68,
           "margin_pct": 68.4
         },
         "at_market_median": {
@@ -2992,7 +2992,7 @@
         "pd_no": "1042619",
         "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
         "bucket": "마스크팩",
-        "shopify_score": 87,
+        "shopify_score": 88,
         "price_krw": 1000,
         "weight_g_est": 86,
         "weight_note": "고시 용량 29g x 1.6(용기) + 40g(포장)",
@@ -3015,9 +3015,9 @@
           "margin_pct": -166.9
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 14.39,
+          "profit": 14.4,
           "margin_pct": 72.0
         },
         "at_market_median": {
@@ -3058,9 +3058,9 @@
           "margin_pct": -18.5
         },
         "at_market_p25": {
-          "sell": 19.99,
+          "sell": 20.0,
           "fee": 1.48,
-          "profit": 9.7,
+          "profit": 9.71,
           "margin_pct": 48.5
         },
         "at_market_median": {

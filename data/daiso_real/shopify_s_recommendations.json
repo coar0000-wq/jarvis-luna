@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T00:53:45.991803+00:00",
+  "generated_at": "2026-09-19T01:13:06.108477+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
@@ -23,20 +23,20 @@
         "channel": "oliveyoung_us",
         "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
         "similarity": 0.667,
-        "demand_weight": 0.882,
+        "demand_weight": 0.931,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.588
+        "match_score": 0.621
       },
       "registerable": true,
       "registerable_source": "data/listing_gate.json",
       "blocked_by": [],
-      "gate_generated_at": "2026-09-19T00:57:37.113008+00:00",
       "public_ready": false,
       "public_blocked_by": [
         "legal_full"
-      ]
+      ],
+      "gate_generated_at": "2026-09-19T01:13:06.388516+00:00"
     },
     {
       "rank": 2,
@@ -65,11 +65,11 @@
       "registerable": true,
       "registerable_source": "data/listing_gate.json",
       "blocked_by": [],
-      "gate_generated_at": "2026-09-19T00:57:37.113008+00:00",
       "public_ready": false,
       "public_blocked_by": [
         "legal_full"
-      ]
+      ],
+      "gate_generated_at": "2026-09-19T01:13:06.388516+00:00"
     },
     {
       "rank": 3,
@@ -88,20 +88,20 @@
         "channel": "oliveyoung_us",
         "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
         "similarity": 0.667,
-        "demand_weight": 0.882,
+        "demand_weight": 0.931,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.588
+        "match_score": 0.621
       },
       "registerable": true,
       "registerable_source": "data/listing_gate.json",
       "blocked_by": [],
-      "gate_generated_at": "2026-09-19T00:57:37.113008+00:00",
       "public_ready": false,
       "public_blocked_by": [
         "legal_full"
-      ]
+      ],
+      "gate_generated_at": "2026-09-19T01:13:06.388516+00:00"
     },
     {
       "rank": 4,
@@ -132,12 +132,12 @@
       "blocked_by": [
         "copy"
       ],
-      "gate_generated_at": "2026-09-19T00:57:37.113008+00:00",
       "public_ready": false,
       "public_blocked_by": [
         "copy",
         "legal_full"
-      ]
+      ],
+      "gate_generated_at": "2026-09-19T01:13:06.388516+00:00"
     },
     {
       "rank": 5,
@@ -170,14 +170,14 @@
         "us_label",
         "legal"
       ],
-      "gate_generated_at": "2026-09-19T00:57:37.113008+00:00",
       "public_ready": false,
       "public_blocked_by": [
         "gosi",
         "us_label",
         "legal",
         "legal_full"
-      ]
+      ],
+      "gate_generated_at": "2026-09-19T01:13:06.388516+00:00"
     },
     {
       "rank": 6,
@@ -206,11 +206,11 @@
       "registerable": true,
       "registerable_source": "data/listing_gate.json",
       "blocked_by": [],
-      "gate_generated_at": "2026-09-19T00:57:37.113008+00:00",
       "public_ready": false,
       "public_blocked_by": [
         "legal_full"
-      ]
+      ],
+      "gate_generated_at": "2026-09-19T01:13:06.388516+00:00"
     },
     {
       "rank": 7,
@@ -239,11 +239,11 @@
       "registerable": true,
       "registerable_source": "data/listing_gate.json",
       "blocked_by": [],
-      "gate_generated_at": "2026-09-19T00:57:37.113008+00:00",
       "public_ready": false,
       "public_blocked_by": [
         "legal_full"
-      ]
+      ],
+      "gate_generated_at": "2026-09-19T01:13:06.388516+00:00"
     },
     {
       "rank": 8,
@@ -272,11 +272,11 @@
       "registerable": true,
       "registerable_source": "data/listing_gate.json",
       "blocked_by": [],
-      "gate_generated_at": "2026-09-19T00:57:37.113008+00:00",
       "public_ready": false,
       "public_blocked_by": [
         "legal_full"
-      ]
+      ],
+      "gate_generated_at": "2026-09-19T01:13:06.388516+00:00"
     },
     {
       "rank": 9,
@@ -305,11 +305,11 @@
       "registerable": true,
       "registerable_source": "data/listing_gate.json",
       "blocked_by": [],
-      "gate_generated_at": "2026-09-19T00:57:37.113008+00:00",
       "public_ready": false,
       "public_blocked_by": [
         "legal_full"
-      ]
+      ],
+      "gate_generated_at": "2026-09-19T01:13:06.388516+00:00"
     },
     {
       "rank": 10,
@@ -318,7 +318,7 @@
       "name": "바세린 모이스처라이징 클렌징 밀크 140 ml",
       "bucket": "클렌징",
       "price_krw": 5000,
-      "shopify_score": 87,
+      "shopify_score": 86,
       "grade": "S",
       "s_rule": "multi_token",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060211",
@@ -340,12 +340,12 @@
       "blocked_by": [
         "copy"
       ],
-      "gate_generated_at": "2026-09-19T00:57:37.113008+00:00",
       "public_ready": false,
       "public_blocked_by": [
         "copy",
         "legal_full"
-      ]
+      ],
+      "gate_generated_at": "2026-09-19T01:13:06.388516+00:00"
     }
   ],
   "registerable_count": 7,

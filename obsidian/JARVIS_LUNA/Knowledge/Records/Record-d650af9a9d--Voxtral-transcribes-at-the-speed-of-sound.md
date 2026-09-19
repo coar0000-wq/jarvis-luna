@@ -2,7 +2,7 @@
 title: "Record d650af9a9d · Voxtral-transcribes-at-the-speed-of-sound"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T00:25:30.737924+00:00
+updated_at: 2026-09-19T01:14:49.462341+00:00
 tags: [record, real-data]
 ---
 

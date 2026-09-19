@@ -2,7 +2,7 @@
 title: "Record 37423e8c99 · Korean-Beauty-giant-TONYMOLY-is-expanding-its-Austr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T00:25:30.740362+00:00
+updated_at: 2026-09-19T01:14:49.464292+00:00
 tags: [record, real-data]
 ---
 

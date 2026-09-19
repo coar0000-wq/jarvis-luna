@@ -2,7 +2,7 @@
 title: "Record f25d71f41b · Teradyne-Robotics-sues-JAKA-over-3-Universal-Robots"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T00:25:31.259960+00:00
+updated_at: 2026-09-19T01:14:49.866974+00:00
 tags: [record, real-data]
 ---
 

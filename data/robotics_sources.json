@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T00:15:37.904979+00:00",
+  "generated_at": "2026-09-19T01:04:14.482932+00:00",
   "generator": "scripts/collect_robotics.py",
   "목적": "옵시디언 주제 '로보틱스' 가 3건뿐이던 문제를 해결한다. 분류기는 정상이었고 수집원에 로봇 자료가 없었던 것이 원인이다.",
   "접근_정책": "arXiv 은 프로그램 접근용 export.arxiv.org 를 제공하며 그 주소만 사용하고 요청 간 3초를 둔다. RSS 두 곳은 robots.txt 허용을 확인했다.",
@@ -10,6 +10,14 @@
       "reason": "",
       "경로": "api.openalex.org (robots Allow: /) · export.arxiv.org 에는 요청하지 않는다",
       "items": [
+        {
+          "title": "Designing Grid-Aware Dynamic Specifications for Large Data Center Loads",
+          "summary": "As data center (DC) loads increasingly penetrate the power grid, there is an urgent need for grid operators to provide clear dynamic specifications to DC owners to ensure safe grid operation. To this end, we study two salient behaviors of large language model (LLM) training loads: abrupt ramps at job initiation and termination, which induce transient frequency excursions, and sustained periodic os",
+          "published": "2026-09-16",
+          "url": "https://arxiv.org/abs/2609.18888",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
         {
           "title": "XMPIaaS: Towards Cloud Native MPI via Cooperative Process Migration",
           "summary": "Message Passing Interface (MPI) has been the dominant programming model for High Performance Computing (HPC) for three decades, and as HPC workloads increasingly migrate to cloud infrastructure for scalability and cost efficiency, MPI applications must contend with an execution environment fundamentally unlike traditional supercomputers: ephemeral resources, dynamic pricing and preemptable instanc",
@@ -39,6 +47,14 @@
           "summary": "Multi-tenant GPU clusters frequently remain underutilized even when tenants experience long queueing delays, because quota control, queue ordering, preemption, and GPU sharing are driven by different local signals. We present DeepShare, a scheduler that uses a continuous tenant-assurance signal to coordinate these decisions at runtime. DeepShare combines elastic quota borrowing, tenant-specific ru",
           "published": "2026-09-15",
           "url": "https://arxiv.org/abs/2609.16682",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "PipeSwift: Revisiting Pipeline Parallelism for Large-Scale Completion-Oriented Agentic LLM Serving",
+          "summary": "LLM agents execute long-horizon workflows where each model response determines the progress of subsequent tool interactions and environment transitions. Unlike chatbot serving, where TTFT and TPOT SLO constraints are critical, agentic workloads are increasingly governed by completion time. This shift challenges existing LLM serving designs, which are optimized around token-level SLOs. We revisit s",
+          "published": "2026-09-15",
+          "url": "https://arxiv.org/abs/2609.16491",
           "primary_category": "로보틱스",
           "source_detail": "arXiv via OpenAlex"
         },
@@ -191,22 +207,6 @@
           "summary": "High-fanout agent workloads create a growing memory bottleneck because a single task may spawn many concurrent sandbox sessions. Yet these sandboxes are far from independent: they originate from a shared template and execute related trajectories, exposing substantial template-relative and cross-sandbox memory redundancy. Conventional memory compression is poorly matched to this setting in three fu",
           "published": "2026-09-10",
           "url": "https://arxiv.org/abs/2609.11294",
-          "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
-        },
-        {
-          "title": "Avatar: Toward Autonomous End-to-End Orchestration of Scientific Workflows using LLMs",
-          "summary": "Scientific workflow management (WMSs) systems automate execution, yet orchestrate using fixed, hand-tuned rules. LLM agents promise more autonomous orchestration, but it remains unclear where to introduce agentic reasoning, how to bound its risk, and when it actually helps. We present Avatar, an actor-based architecture comprising an orchestrator, an executor, and a provenance monitor. Each actor'",
-          "published": "2026-09-09",
-          "url": "https://arxiv.org/abs/2609.10509",
-          "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
-        },
-        {
-          "title": "ExaServe: Large-Scale LLM Serving on Exascale HPC Systems",
-          "summary": "Cloud-native LLM serving frameworks have made deployment routine in data centers, yet deploying them on leadership-class supercomputers remains an engineering challenge requiring scheduler integration, MPI launch, accelerator selection, node-local weight staging, and platform-specific patches. We present ExaServe, a pip-installable framework that transforms a declarative YAML specification into a ",
-          "published": "2026-09-09",
-          "url": "https://arxiv.org/abs/2609.10812",
           "primary_category": "로보틱스",
           "source_detail": "arXiv via OpenAlex"
         }

@@ -2,7 +2,7 @@
 title: "Record a001136e3c · Anthropic-Appoints-Irina-Ghose-As-Managing-Director"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T00:25:31.154506+00:00
+updated_at: 2026-09-19T01:14:49.784421+00:00
 tags: [record, real-data]
 ---
 

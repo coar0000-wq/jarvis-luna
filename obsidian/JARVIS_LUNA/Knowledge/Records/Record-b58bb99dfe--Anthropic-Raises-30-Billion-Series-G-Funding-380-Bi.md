@@ -2,7 +2,7 @@
 title: "Record b58bb99dfe · Anthropic-Raises-30-Billion-Series-G-Funding-380-Bi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T00:25:31.157368+00:00
+updated_at: 2026-09-19T01:14:49.786561+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 59faf06900 · Tomato-strawberry-glazed-donut--why-is-every-beauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T00:25:30.926671+00:00
+updated_at: 2026-09-19T01:14:49.607355+00:00
 tags: [record, real-data]
 ---
 

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-19T00:57:37.231178+00:00",
+  "generated_at": "2026-09-19T01:13:08.677939+00:00",
   "generator": "scripts/build_product_master.py",
   "source": "data/daiso_real/products.json",
   "id_policy": "pd_no에 최초 CP 발급 후 재사용·재번호 부여 금지",
@@ -882,7 +882,7 @@
       "rating": 4.7,
       "review_count": 5290,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260402/jWlvni2GKY49vZYa3f3w1018161_00_00jWlvni2GKY49vZYa3f3w.jpg",
-      "shopify_score": 89,
+      "shopify_score": 88,
       "grade": "A",
       "s_rule": "weak_solo_token",
       "score_breakdown": {
@@ -891,7 +891,7 @@
         "reviews": 20.0,
         "price": 7.0,
         "keyword": 3,
-        "us_market_fit": 25.0,
+        "us_market_fit": 24.2,
         "rebucket_note": "",
         "global_similarity_reference_only": 5,
         "penalty": 0,
@@ -901,9 +901,9 @@
       },
       "component_scores": {
         "match_score": 0.272,
-        "demand_score": 0.8862,
+        "demand_score": 0.8738,
         "review_score": 0.9057,
-        "final_score": 0.6771,
+        "final_score": 0.6728,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -1350,7 +1350,7 @@
       "rating": 4.8,
       "review_count": 3692,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251231/a1rTbe8LgoPw9mu5HABd1027327_00_00a1rTbe8LgoPw9mu5HABd.jpg",
-      "shopify_score": 91,
+      "shopify_score": 90,
       "grade": "A",
       "s_rule": "no_global_match",
       "score_breakdown": {
@@ -1359,7 +1359,7 @@
         "reviews": 20.0,
         "price": 7.0,
         "keyword": 3,
-        "us_market_fit": 25.0,
+        "us_market_fit": 24.2,
         "rebucket_note": "",
         "global_similarity_reference_only": 0,
         "penalty": 0,
@@ -1369,9 +1369,9 @@
       },
       "component_scores": {
         "match_score": 0.0,
-        "demand_score": 0.8862,
+        "demand_score": 0.8738,
         "review_score": 0.9514,
-        "final_score": 0.5956,
+        "final_score": 0.5913,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -2037,17 +2037,17 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.68,
+        "match_score": 0.65,
         "demand_score": 0.4923,
         "review_score": 0.9457,
-        "final_score": 0.694,
+        "final_score": 0.6835,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -2130,7 +2130,7 @@
       "rating": 4.8,
       "review_count": 5851,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260409/loNfBbqb3rj8IlQFFP1d1035080_00_00loNfBbqb3rj8IlQFFP1d.jpg",
-      "shopify_score": 90,
+      "shopify_score": 91,
       "grade": "A",
       "s_rule": "match_too_weak",
       "score_breakdown": {
@@ -2139,7 +2139,7 @@
         "reviews": 20.0,
         "price": 10.0,
         "keyword": 5,
-        "us_market_fit": 16.2,
+        "us_market_fit": 17.5,
         "rebucket_note": "",
         "global_similarity_reference_only": 7,
         "penalty": 0,
@@ -2149,9 +2149,9 @@
       },
       "component_scores": {
         "match_score": 0.325,
-        "demand_score": 0.8646,
+        "demand_score": 0.8846,
         "review_score": 0.9514,
-        "final_score": 0.7018,
+        "final_score": 0.7088,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -2182,7 +2182,7 @@
       "rating": 4.8,
       "review_count": 2999,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260402/ewBB1X1rZgg7uZRMr0BN1035081_00_00ewBB1X1rZgg7uZRMr0BN.jpg",
-      "shopify_score": 87,
+      "shopify_score": 86,
       "grade": "A",
       "s_rule": "weak_solo_token",
       "score_breakdown": {
@@ -2191,7 +2191,7 @@
         "reviews": 20.0,
         "price": 10.0,
         "keyword": 0,
-        "us_market_fit": 23.4,
+        "us_market_fit": 23.0,
         "rebucket_note": "",
         "global_similarity_reference_only": 3,
         "penalty": 0,
@@ -2201,9 +2201,9 @@
       },
       "component_scores": {
         "match_score": 0.26,
-        "demand_score": 0.8246,
+        "demand_score": 0.8185,
         "review_score": 0.9514,
-        "final_score": 0.665,
+        "final_score": 0.6629,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -2286,7 +2286,7 @@
       "rating": 4.8,
       "review_count": 1107,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251113/xlpZA0qPNWmZjW7JJmY31035210_00_01xlpZA0qPNWmZjW7JJmY3.png",
-      "shopify_score": 84,
+      "shopify_score": 92,
       "grade": "A",
       "s_rule": "no_global_match",
       "score_breakdown": {
@@ -2295,7 +2295,7 @@
         "reviews": 18.4,
         "price": 10.0,
         "keyword": 0,
-        "us_market_fit": 17.5,
+        "us_market_fit": 25.0,
         "rebucket_note": "",
         "global_similarity_reference_only": 0,
         "penalty": 0,
@@ -2305,9 +2305,9 @@
       },
       "component_scores": {
         "match_score": 0.0,
-        "demand_score": 0.8077,
+        "demand_score": 0.9231,
         "review_score": 0.9057,
-        "final_score": 0.5544,
+        "final_score": 0.5948,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -2494,7 +2494,7 @@
       "rating": 4.8,
       "review_count": 1301,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260402/ObGz8Z2Al6nY4c1g6Tx51038219_00_00ObGz8Z2Al6nY4c1g6Tx5.jpg",
-      "shopify_score": 81,
+      "shopify_score": 80,
       "grade": "A",
       "s_rule": "score_below_82",
       "score_breakdown": {
@@ -2503,7 +2503,7 @@
         "reviews": 18.9,
         "price": 10.0,
         "keyword": 0,
-        "us_market_fit": 18.4,
+        "us_market_fit": 18.1,
         "rebucket_note": "",
         "global_similarity_reference_only": 10,
         "penalty": 0,
@@ -2513,9 +2513,9 @@
       },
       "component_scores": {
         "match_score": 0.52,
-        "demand_score": 0.7477,
+        "demand_score": 0.7431,
         "review_score": 0.92,
-        "final_score": 0.7197,
+        "final_score": 0.7181,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -2557,17 +2557,17 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 6,
+        "global_similarity_reference_only": 4,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.38,
+        "match_score": 0.35,
         "demand_score": 0.4554,
         "review_score": 0.8143,
-        "final_score": 0.5367,
+        "final_score": 0.5262,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -2815,7 +2815,7 @@
         "reviews": 20.0,
         "price": 7.0,
         "keyword": 0,
-        "us_market_fit": 18.4,
+        "us_market_fit": 18.1,
         "rebucket_note": "",
         "global_similarity_reference_only": 0,
         "penalty": 0,
@@ -2825,9 +2825,9 @@
       },
       "component_scores": {
         "match_score": 0.0,
-        "demand_score": 0.7015,
+        "demand_score": 0.6969,
         "review_score": 0.9514,
-        "final_score": 0.531,
+        "final_score": 0.5294,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -2921,7 +2921,7 @@
         "keyword": 5,
         "us_market_fit": 21.2,
         "rebucket_note": "",
-        "global_similarity_reference_only": 18,
+        "global_similarity_reference_only": 17,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -3118,7 +3118,7 @@
       "rating": 4.7,
       "review_count": 2498,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260520/ELHC4rgDgv6IcZmS39pv1042246_00_01ELHC4rgDgv6IcZmS39pv.png",
-      "shopify_score": 83,
+      "shopify_score": 91,
       "grade": "A",
       "s_rule": "no_global_match",
       "score_breakdown": {
@@ -3127,7 +3127,7 @@
         "reviews": 20.0,
         "price": 10.0,
         "keyword": 4,
-        "us_market_fit": 17.5,
+        "us_market_fit": 25.0,
         "rebucket_note": "",
         "global_similarity_reference_only": 0,
         "penalty": 0,
@@ -3137,9 +3137,9 @@
       },
       "component_scores": {
         "match_score": 0.0,
-        "demand_score": 0.7954,
+        "demand_score": 0.9108,
         "review_score": 0.9057,
-        "final_score": 0.5501,
+        "final_score": 0.5905,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -3335,7 +3335,7 @@
         "reviews": 20.0,
         "price": 7.0,
         "keyword": 3,
-        "us_market_fit": 24.2,
+        "us_market_fit": 23.8,
         "rebucket_note": "",
         "global_similarity_reference_only": 10,
         "penalty": 0,
@@ -3345,9 +3345,9 @@
       },
       "component_scores": {
         "match_score": 0.68,
-        "demand_score": 0.8738,
+        "demand_score": 0.8677,
         "review_score": 0.9057,
-        "final_score": 0.8156,
+        "final_score": 0.8134,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -3360,7 +3360,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-19T00:57:37.113008+00:00"
+        "gate_generated_at": "2026-09-19T01:13:06.388516+00:00"
       }
     },
     {
@@ -3430,7 +3430,7 @@
       "rating": 4.8,
       "review_count": 587,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260325/wXm7JotUk9q64qlDBwcc1043659_00_01wXm7JotUk9q64qlDBwcc.png",
-      "shopify_score": 83,
+      "shopify_score": 90,
       "grade": "A",
       "s_rule": "match_too_weak",
       "score_breakdown": {
@@ -3439,7 +3439,7 @@
         "reviews": 16.8,
         "price": 10.0,
         "keyword": 0,
-        "us_market_fit": 17.5,
+        "us_market_fit": 25.0,
         "rebucket_note": "",
         "global_similarity_reference_only": 3,
         "penalty": 0,
@@ -3449,9 +3449,9 @@
       },
       "component_scores": {
         "match_score": 0.35,
-        "demand_score": 0.8077,
+        "demand_score": 0.9231,
         "review_score": 0.86,
-        "final_score": 0.6632,
+        "final_score": 0.7036,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -3586,7 +3586,7 @@
       "rating": 4.8,
       "review_count": 511,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260528/RUWg8ca0PGSfLkoJw2QX1044110_00_00RUWg8ca0PGSfLkoJw2QX.png",
-      "shopify_score": 82,
+      "shopify_score": 90,
       "grade": "A",
       "s_rule": "no_global_match",
       "score_breakdown": {
@@ -3595,7 +3595,7 @@
         "reviews": 16.4,
         "price": 10.0,
         "keyword": 0,
-        "us_market_fit": 17.5,
+        "us_market_fit": 25.0,
         "rebucket_note": "",
         "global_similarity_reference_only": 0,
         "penalty": 0,
@@ -3605,9 +3605,9 @@
       },
       "component_scores": {
         "match_score": 0.0,
-        "demand_score": 0.8077,
+        "demand_score": 0.9231,
         "review_score": 0.8486,
-        "final_score": 0.5373,
+        "final_score": 0.5776,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -3742,7 +3742,7 @@
       "rating": 4.8,
       "review_count": 15987,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260402/YAGyPq2hshglHl0qRLSj1044553_00_00YAGyPq2hshglHl0qRLSj.jpg",
-      "shopify_score": 92,
+      "shopify_score": 96,
       "grade": "A",
       "s_rule": "no_global_match",
       "score_breakdown": {
@@ -3751,7 +3751,7 @@
         "reviews": 20.0,
         "price": 10.0,
         "keyword": 3,
-        "us_market_fit": 21.2,
+        "us_market_fit": 25.0,
         "rebucket_note": "",
         "global_similarity_reference_only": 0,
         "penalty": 0,
@@ -3761,9 +3761,9 @@
       },
       "component_scores": {
         "match_score": 0.0,
-        "demand_score": 0.9108,
+        "demand_score": 0.9692,
         "review_score": 0.9514,
-        "final_score": 0.6042,
+        "final_score": 0.6247,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -3857,7 +3857,7 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 16,
+        "global_similarity_reference_only": 17,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -4002,7 +4002,7 @@
       "rating": 4.8,
       "review_count": 838,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251128/48KGdDdZtzKogEC9hIZr1044967_00_0048KGdDdZtzKogEC9hIZr.png",
-      "shopify_score": 93,
+      "shopify_score": 89,
       "grade": "A",
       "s_rule": "no_global_match",
       "score_breakdown": {
@@ -4011,7 +4011,7 @@
         "reviews": 17.7,
         "price": 10.0,
         "keyword": 3,
-        "us_market_fit": 23.8,
+        "us_market_fit": 19.9,
         "rebucket_note": "",
         "global_similarity_reference_only": 0,
         "penalty": 0,
@@ -4021,9 +4021,9 @@
       },
       "component_scores": {
         "match_score": 0.0,
-        "demand_score": 0.9508,
+        "demand_score": 0.8908,
         "review_score": 0.8857,
-        "final_score": 0.5985,
+        "final_score": 0.5775,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -4470,8 +4470,8 @@
       "rating": 4.7,
       "review_count": 223,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260708/ucPr4JN4R7KwEkLxL7CH1048042_00_00ucPr4JN4R7KwEkLxL7CH.jpg",
-      "shopify_score": 80,
-      "grade": "A",
+      "shopify_score": 72,
+      "grade": "B",
       "s_rule": "score_below_82",
       "score_breakdown": {
         "category": 19.0,
@@ -4479,7 +4479,7 @@
         "reviews": 14.2,
         "price": 10.0,
         "keyword": 0,
-        "us_market_fit": 25.0,
+        "us_market_fit": 17.5,
         "rebucket_note": "",
         "global_similarity_reference_only": 0,
         "penalty": 0,
@@ -4489,9 +4489,9 @@
       },
       "component_scores": {
         "match_score": 0.0,
-        "demand_score": 0.8308,
+        "demand_score": 0.7154,
         "review_score": 0.74,
-        "final_score": 0.5128,
+        "final_score": 0.4724,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -4637,7 +4637,7 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 8,
+        "global_similarity_reference_only": 9,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -4689,7 +4689,7 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 16,
+        "global_similarity_reference_only": 17,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -4895,7 +4895,7 @@
         "reviews": 0.0,
         "price": 10.0,
         "keyword": 3,
-        "us_market_fit": 16.4,
+        "us_market_fit": 15.9,
         "rebucket_note": "",
         "global_similarity_reference_only": 7,
         "penalty": 0,
@@ -4905,9 +4905,9 @@
       },
       "component_scores": {
         "match_score": 0.414,
-        "demand_score": 0.8369,
+        "demand_score": 0.8292,
         "review_score": 0.0,
-        "final_score": 0.4378,
+        "final_score": 0.4351,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -4949,7 +4949,7 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 16,
+        "global_similarity_reference_only": 17,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -4972,7 +4972,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-19T00:57:37.113008+00:00"
+        "gate_generated_at": "2026-09-19T01:13:06.388516+00:00"
       }
     },
     {
@@ -5001,7 +5001,7 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 16,
+        "global_similarity_reference_only": 17,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -5024,7 +5024,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-19T00:57:37.113008+00:00"
+        "gate_generated_at": "2026-09-19T01:13:06.388516+00:00"
       }
     },
     {
@@ -5042,7 +5042,7 @@
       "rating": 4.8,
       "review_count": 4372,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260402/vWLPLDfT98BdkiA6JMh91049277_00_00vWLPLDfT98BdkiA6JMh9.jpg",
-      "shopify_score": 85,
+      "shopify_score": 84,
       "grade": "A",
       "s_rule": "match_too_weak",
       "score_breakdown": {
@@ -5051,7 +5051,7 @@
         "reviews": 20.0,
         "price": 10.0,
         "keyword": 3,
-        "us_market_fit": 13.8,
+        "us_market_fit": 12.8,
         "rebucket_note": "",
         "global_similarity_reference_only": 7,
         "penalty": 0,
@@ -5061,9 +5061,9 @@
       },
       "component_scores": {
         "match_score": 0.37,
-        "demand_score": 0.7969,
+        "demand_score": 0.7815,
         "review_score": 0.9514,
-        "final_score": 0.6939,
+        "final_score": 0.6885,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -5103,7 +5103,7 @@
         "reviews": 20.0,
         "price": 10.0,
         "keyword": 0,
-        "us_market_fit": 23.4,
+        "us_market_fit": 23.5,
         "rebucket_note": "",
         "global_similarity_reference_only": 7,
         "penalty": 0,
@@ -5113,9 +5113,9 @@
       },
       "component_scores": {
         "match_score": 0.638,
-        "demand_score": 0.8985,
+        "demand_score": 0.9,
         "review_score": 0.9514,
-        "final_score": 0.8232,
+        "final_score": 0.8237,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -5128,7 +5128,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-19T00:57:37.113008+00:00"
+        "gate_generated_at": "2026-09-19T01:13:06.388516+00:00"
       }
     },
     {
@@ -5354,7 +5354,7 @@
       "rating": 4.8,
       "review_count": 2165,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20240226/1XsEg25kgvetjWRCChuz1051352_00_011XsEg25kgvetjWRCChuz.jpg",
-      "shopify_score": 87,
+      "shopify_score": 86,
       "grade": "A",
       "s_rule": "no_global_match",
       "score_breakdown": {
@@ -5363,7 +5363,7 @@
         "reviews": 20.0,
         "price": 10.0,
         "keyword": 0,
-        "us_market_fit": 23.4,
+        "us_market_fit": 23.0,
         "rebucket_note": "",
         "global_similarity_reference_only": 0,
         "penalty": 0,
@@ -5373,9 +5373,9 @@
       },
       "component_scores": {
         "match_score": 0.0,
-        "demand_score": 0.8246,
+        "demand_score": 0.8185,
         "review_score": 0.9514,
-        "final_score": 0.574,
+        "final_score": 0.5719,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -5415,7 +5415,7 @@
         "reviews": 16.1,
         "price": 10.0,
         "keyword": 0,
-        "us_market_fit": 23.4,
+        "us_market_fit": 23.0,
         "rebucket_note": "",
         "global_similarity_reference_only": 3,
         "penalty": 0,
@@ -5425,9 +5425,9 @@
       },
       "component_scores": {
         "match_score": 0.26,
-        "demand_score": 0.8246,
+        "demand_score": 0.8185,
         "review_score": 0.84,
-        "final_score": 0.6316,
+        "final_score": 0.6295,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -5573,7 +5573,7 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 16,
+        "global_similarity_reference_only": 17,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -5978,7 +5978,7 @@
       "rating": 4.8,
       "review_count": 2606,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/VOqQUox82ML8Z5ol3QJ01053481_00_00VOqQUox82ML8Z5ol3QJ0.jpg",
-      "shopify_score": 87,
+      "shopify_score": 86,
       "grade": "A",
       "s_rule": "claim_risk",
       "score_breakdown": {
@@ -5987,7 +5987,7 @@
         "reviews": 20.0,
         "price": 10.0,
         "keyword": 0,
-        "us_market_fit": 23.4,
+        "us_market_fit": 23.0,
         "rebucket_note": "",
         "global_similarity_reference_only": 3,
         "penalty": 0,
@@ -5997,9 +5997,9 @@
       },
       "component_scores": {
         "match_score": 0.26,
-        "demand_score": 0.8246,
+        "demand_score": 0.8185,
         "review_score": 0.9514,
-        "final_score": 0.665,
+        "final_score": 0.6629,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -6030,7 +6030,7 @@
       "rating": 4.8,
       "review_count": 592,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/S3WHamdJK4z5s7WVkYus1053482_00_00S3WHamdJK4z5s7WVkYus.jpg",
-      "shopify_score": 84,
+      "shopify_score": 86,
       "grade": "A",
       "s_rule": "rank_cap",
       "score_breakdown": {
@@ -6039,7 +6039,7 @@
         "reviews": 16.8,
         "price": 10.0,
         "keyword": 3,
-        "us_market_fit": 15.8,
+        "us_market_fit": 17.5,
         "rebucket_note": "",
         "global_similarity_reference_only": 14,
         "penalty": 0,
@@ -6049,9 +6049,9 @@
       },
       "component_scores": {
         "match_score": 0.6,
-        "demand_score": 0.8277,
+        "demand_score": 0.8538,
         "review_score": 0.86,
-        "final_score": 0.7577,
+        "final_score": 0.7668,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -6324,7 +6324,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-19T00:57:37.113008+00:00"
+        "gate_generated_at": "2026-09-19T01:13:06.388516+00:00"
       }
     },
     {
@@ -6342,7 +6342,7 @@
       "rating": null,
       "review_count": null,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251218/d8NqIeDpOKYbm6p44Fzf1055168_00_00d8NqIeDpOKYbm6p44Fzf.jpg",
-      "shopify_score": 56,
+      "shopify_score": 52,
       "grade": "C",
       "s_rule": "claim_risk",
       "score_breakdown": {
@@ -6351,7 +6351,7 @@
         "reviews": 0.0,
         "price": 10.0,
         "keyword": 0,
-        "us_market_fit": 21.2,
+        "us_market_fit": 17.5,
         "rebucket_note": "",
         "global_similarity_reference_only": 10,
         "penalty": 0,
@@ -6361,9 +6361,9 @@
       },
       "component_scores": {
         "match_score": 0.8,
-        "demand_score": 0.8646,
+        "demand_score": 0.8077,
         "review_score": 0.0,
-        "final_score": 0.5826,
+        "final_score": 0.5627,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -6509,7 +6509,7 @@
         "keyword": 5,
         "us_market_fit": 21.2,
         "rebucket_note": "",
-        "global_similarity_reference_only": 14,
+        "global_similarity_reference_only": 11,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -6550,7 +6550,7 @@
       "rating": 4.8,
       "review_count": 2407,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20250929/XLcv5X5IlqoZpbF51LnE1056650_00_01XLcv5X5IlqoZpbF51LnE.jpg",
-      "shopify_score": 95,
+      "shopify_score": 91,
       "grade": "A",
       "s_rule": "no_global_match",
       "score_breakdown": {
@@ -6559,7 +6559,7 @@
         "reviews": 20.0,
         "price": 10.0,
         "keyword": 3,
-        "us_market_fit": 23.8,
+        "us_market_fit": 19.9,
         "rebucket_note": "",
         "global_similarity_reference_only": 0,
         "penalty": 0,
@@ -6569,9 +6569,9 @@
       },
       "component_scores": {
         "match_score": 0.0,
-        "demand_score": 0.9508,
+        "demand_score": 0.8908,
         "review_score": 0.9514,
-        "final_score": 0.6182,
+        "final_score": 0.5972,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -6602,8 +6602,8 @@
       "rating": 4.7,
       "review_count": 620,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251231/1ZRA1meifAzv5F4DTBP51056662_00_001ZRA1meifAzv5F4DTBP5.jpg",
-      "shopify_score": 72,
-      "grade": "B",
+      "shopify_score": 76,
+      "grade": "A",
       "s_rule": "score_below_82",
       "score_breakdown": {
         "category": 17.9,
@@ -6611,7 +6611,7 @@
         "reviews": 16.9,
         "price": 10.0,
         "keyword": 0,
-        "us_market_fit": 15.9,
+        "us_market_fit": 19.2,
         "rebucket_note": "",
         "global_similarity_reference_only": 0,
         "penalty": 0,
@@ -6621,9 +6621,9 @@
       },
       "component_scores": {
         "match_score": 0.0,
-        "demand_score": 0.6738,
+        "demand_score": 0.7246,
         "review_score": 0.8171,
-        "final_score": 0.481,
+        "final_score": 0.4988,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -6810,7 +6810,7 @@
       "rating": null,
       "review_count": null,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251128/yyVrsNuBgLTOztuOFsyH1057355_00_00yyVrsNuBgLTOztuOFsyH.png",
-      "shopify_score": 50,
+      "shopify_score": 49,
       "grade": "C",
       "s_rule": "score_below_82",
       "score_breakdown": {
@@ -6819,7 +6819,7 @@
         "reviews": 0.0,
         "price": 10.0,
         "keyword": 3,
-        "us_market_fit": 12.0,
+        "us_market_fit": 11.1,
         "rebucket_note": "",
         "global_similarity_reference_only": 20,
         "penalty": 0,
@@ -6829,9 +6829,9 @@
       },
       "component_scores": {
         "match_score": 0.92,
-        "demand_score": 0.7692,
+        "demand_score": 0.7554,
         "review_score": 0.0,
-        "final_score": 0.5912,
+        "final_score": 0.5864,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -6873,7 +6873,7 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 16,
+        "global_similarity_reference_only": 17,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -7029,7 +7029,7 @@
         "keyword": 5,
         "us_market_fit": 18.3,
         "rebucket_note": "",
-        "global_similarity_reference_only": 8,
+        "global_similarity_reference_only": 9,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -7391,7 +7391,7 @@
         "reviews": 19.6,
         "price": 10.0,
         "keyword": 0,
-        "us_market_fit": 25.0,
+        "us_market_fit": 24.2,
         "rebucket_note": "",
         "global_similarity_reference_only": 14,
         "penalty": 0,
@@ -7401,9 +7401,9 @@
       },
       "component_scores": {
         "match_score": 0.88,
-        "demand_score": 0.8862,
+        "demand_score": 0.8738,
         "review_score": 0.94,
-        "final_score": 0.9002,
+        "final_score": 0.8958,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -7416,7 +7416,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-19T00:57:37.113008+00:00"
+        "gate_generated_at": "2026-09-19T01:13:06.388516+00:00"
       }
     },
     {
@@ -7538,16 +7538,16 @@
       "rating": 4.8,
       "review_count": 349,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20250307/gErKTV08hXMS48eTmBbS1060208_00_01gErKTV08hXMS48eTmBbS.jpg",
-      "shopify_score": 82,
+      "shopify_score": 81,
       "grade": "A",
-      "s_rule": "no_global_match",
+      "s_rule": "score_below_82",
       "score_breakdown": {
         "category": 17.9,
         "rating": 13.3,
         "reviews": 15.4,
         "price": 10.0,
         "keyword": 0,
-        "us_market_fit": 25.0,
+        "us_market_fit": 24.2,
         "rebucket_note": "이름의 '트리트먼트' 로 마스크팩 -> 헤어케어 재분류",
         "global_similarity_reference_only": 0,
         "penalty": 0,
@@ -7557,9 +7557,9 @@
       },
       "component_scores": {
         "match_score": 0.0,
-        "demand_score": 0.8138,
+        "demand_score": 0.8015,
         "review_score": 0.82,
-        "final_score": 0.5308,
+        "final_score": 0.5265,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -7590,7 +7590,7 @@
       "rating": 4.8,
       "review_count": 2832,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20250311/QGjtoQh4Tv8bUcOEAchc1060211_00_01QGjtoQh4Tv8bUcOEAchc.jpg",
-      "shopify_score": 87,
+      "shopify_score": 86,
       "grade": "S",
       "s_rule": "multi_token",
       "score_breakdown": {
@@ -7599,9 +7599,9 @@
         "reviews": 20.0,
         "price": 10.0,
         "keyword": 0,
-        "us_market_fit": 23.4,
+        "us_market_fit": 23.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 9,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -7609,9 +7609,9 @@
       },
       "component_scores": {
         "match_score": 0.7,
-        "demand_score": 0.8246,
+        "demand_score": 0.8185,
         "review_score": 0.9514,
-        "final_score": 0.819,
+        "final_score": 0.8169,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -7626,7 +7626,7 @@
         "blocked_by": [
           "copy"
         ],
-        "gate_generated_at": "2026-09-19T00:57:37.113008+00:00"
+        "gate_generated_at": "2026-09-19T01:13:06.388516+00:00"
       }
     },
     {
@@ -7696,16 +7696,16 @@
       "rating": 4.8,
       "review_count": 1663,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/H4aAY1oXhdnLm8POPll11060487_00_00H4aAY1oXhdnLm8POPll1.jpg",
-      "shopify_score": 81,
+      "shopify_score": 85,
       "grade": "A",
-      "s_rule": "score_below_82",
+      "s_rule": "match_too_weak",
       "score_breakdown": {
         "category": 22.6,
         "rating": 13.3,
         "reviews": 19.5,
         "price": 10.0,
         "keyword": 0,
-        "us_market_fit": 15.9,
+        "us_market_fit": 19.2,
         "rebucket_note": "",
         "global_similarity_reference_only": 9,
         "penalty": 0,
@@ -7715,9 +7715,9 @@
       },
       "component_scores": {
         "match_score": 0.433,
-        "demand_score": 0.7462,
+        "demand_score": 0.7969,
         "review_score": 0.9371,
-        "final_score": 0.6938,
+        "final_score": 0.7116,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -7748,7 +7748,7 @@
       "rating": 4.8,
       "review_count": 1062,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/uaaakIRgplIWVxAb7Zq11060489_00_00uaaakIRgplIWVxAb7Zq1.jpg",
-      "shopify_score": 81,
+      "shopify_score": 80,
       "grade": "A",
       "s_rule": "score_below_82",
       "score_breakdown": {
@@ -7757,7 +7757,7 @@
         "reviews": 18.3,
         "price": 10.0,
         "keyword": 3,
-        "us_market_fit": 13.8,
+        "us_market_fit": 12.8,
         "rebucket_note": "",
         "global_similarity_reference_only": 8,
         "penalty": 0,
@@ -7767,9 +7767,9 @@
       },
       "component_scores": {
         "match_score": 0.42,
-        "demand_score": 0.76,
+        "demand_score": 0.7446,
         "review_score": 0.9029,
-        "final_score": 0.6839,
+        "final_score": 0.6785,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -7800,7 +7800,7 @@
       "rating": 4.8,
       "review_count": 755,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260618/cK9o5Yum5W5qX59za4jy1060494_00_01cK9o5Yum5W5qX59za4jy.jpg",
-      "shopify_score": 92,
+      "shopify_score": 89,
       "grade": "A",
       "s_rule": "weak_solo_token",
       "score_breakdown": {
@@ -7809,7 +7809,7 @@
         "reviews": 17.4,
         "price": 10.0,
         "keyword": 3,
-        "us_market_fit": 23.8,
+        "us_market_fit": 19.9,
         "rebucket_note": "",
         "global_similarity_reference_only": 6,
         "penalty": 0,
@@ -7819,9 +7819,9 @@
       },
       "component_scores": {
         "match_score": 0.28,
-        "demand_score": 0.9508,
+        "demand_score": 0.8908,
         "review_score": 0.8771,
-        "final_score": 0.6939,
+        "final_score": 0.6729,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -8123,7 +8123,7 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 16,
+        "global_similarity_reference_only": 17,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -8641,7 +8641,7 @@
         "reviews": 12.5,
         "price": 10.0,
         "keyword": 0,
-        "us_market_fit": 23.4,
+        "us_market_fit": 23.0,
         "rebucket_note": "",
         "global_similarity_reference_only": 0,
         "penalty": 0,
@@ -8651,9 +8651,9 @@
       },
       "component_scores": {
         "match_score": 0.0,
-        "demand_score": 0.8246,
+        "demand_score": 0.8185,
         "review_score": 0.6429,
-        "final_score": 0.4815,
+        "final_score": 0.4793,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -8842,7 +8842,7 @@
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251216/LlNJt6NzAf654AyvuGWm1061920_00_00LlNJt6NzAf654AyvuGWm.jpg",
       "shopify_score": 93,
       "grade": "A",
-      "s_rule": "match_too_weak",
+      "s_rule": "no_global_match",
       "score_breakdown": {
         "category": 25.0,
         "rating": 13.3,
@@ -8851,17 +8851,17 @@
         "keyword": 0,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 6,
+        "global_similarity_reference_only": 0,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.52,
+        "match_score": 0.0,
         "demand_score": 0.9231,
         "review_score": 0.9514,
-        "final_score": 0.7905,
+        "final_score": 0.6085,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -8903,17 +8903,17 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 6,
+        "global_similarity_reference_only": 0,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.52,
+        "match_score": 0.0,
         "demand_score": 0.4554,
         "review_score": 0.9,
-        "final_score": 0.6114,
+        "final_score": 0.4294,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -8955,7 +8955,7 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 8,
+        "global_similarity_reference_only": 9,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -9111,17 +9111,17 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 5,
+        "global_similarity_reference_only": 4,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.267,
+        "match_score": 0.263,
         "demand_score": 1.0,
         "review_score": 0.7371,
-        "final_score": 0.6646,
+        "final_score": 0.6632,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -9412,7 +9412,7 @@
       "rating": 4.8,
       "review_count": 491,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20250404/6HrSkUDbK4Z2Mx8SUSMH1062781_00_016HrSkUDbK4Z2Mx8SUSMH.jpg",
-      "shopify_score": 91,
+      "shopify_score": 93,
       "grade": "A",
       "s_rule": "form_cap",
       "score_breakdown": {
@@ -9421,7 +9421,7 @@
         "reviews": 16.3,
         "price": 10.0,
         "keyword": 3,
-        "us_market_fit": 23.8,
+        "us_market_fit": 25.0,
         "rebucket_note": "",
         "global_similarity_reference_only": 8,
         "penalty": 0,
@@ -9431,9 +9431,9 @@
       },
       "component_scores": {
         "match_score": 0.68,
-        "demand_score": 0.9508,
+        "demand_score": 0.9692,
         "review_score": 0.8457,
-        "final_score": 0.8245,
+        "final_score": 0.8309,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -9787,7 +9787,7 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 16,
+        "global_similarity_reference_only": 17,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -9839,17 +9839,17 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 5,
+        "global_similarity_reference_only": 4,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.267,
+        "match_score": 0.263,
         "demand_score": 1.0,
         "review_score": 0.9,
-        "final_score": 0.7135,
+        "final_score": 0.712,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -9932,8 +9932,8 @@
       "rating": 4.8,
       "review_count": 64,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260219/MAnhhgCxRj3TTfH3LfHM1064565_00_00MAnhhgCxRj3TTfH3LfHM.jpg",
-      "shopify_score": 78,
-      "grade": "A",
+      "shopify_score": 71,
+      "grade": "B",
       "s_rule": "score_below_82",
       "score_breakdown": {
         "category": 19.0,
@@ -9941,7 +9941,7 @@
         "reviews": 11.0,
         "price": 10.0,
         "keyword": 0,
-        "us_market_fit": 25.0,
+        "us_market_fit": 17.5,
         "rebucket_note": "",
         "global_similarity_reference_only": 0,
         "penalty": 0,
@@ -9951,9 +9951,9 @@
       },
       "component_scores": {
         "match_score": 0.0,
-        "demand_score": 0.8308,
+        "demand_score": 0.7154,
         "review_score": 0.6943,
-        "final_score": 0.4991,
+        "final_score": 0.4587,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -10461,7 +10461,7 @@
         "reviews": 18.4,
         "price": 10.0,
         "keyword": 0,
-        "us_market_fit": 23.4,
+        "us_market_fit": 23.0,
         "rebucket_note": "",
         "global_similarity_reference_only": 0,
         "penalty": 0,
@@ -10471,9 +10471,9 @@
       },
       "component_scores": {
         "match_score": 0.0,
-        "demand_score": 0.8246,
+        "demand_score": 0.8185,
         "review_score": 0.9057,
-        "final_score": 0.5603,
+        "final_score": 0.5582,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -10660,7 +10660,7 @@
       "rating": 4.8,
       "review_count": 14285,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260908/3J2IVmbWFVgnei1tyfv71067495_00_003J2IVmbWFVgnei1tyfv7.jpg",
-      "shopify_score": 93,
+      "shopify_score": 94,
       "grade": "A",
       "s_rule": "match_too_weak",
       "score_breakdown": {
@@ -10669,7 +10669,7 @@
         "reviews": 20.0,
         "price": 10.0,
         "keyword": 5,
-        "us_market_fit": 19.4,
+        "us_market_fit": 20.3,
         "rebucket_note": "",
         "global_similarity_reference_only": 7,
         "penalty": 0,
@@ -10679,9 +10679,9 @@
       },
       "component_scores": {
         "match_score": 0.3,
-        "demand_score": 0.9138,
+        "demand_score": 0.9277,
         "review_score": 0.9514,
-        "final_score": 0.7103,
+        "final_score": 0.7151,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -10800,7 +10800,7 @@
         "blocked_by": [
           "copy"
         ],
-        "gate_generated_at": "2026-09-19T00:57:37.113008+00:00"
+        "gate_generated_at": "2026-09-19T01:13:06.388516+00:00"
       }
     },
     {
@@ -10818,7 +10818,7 @@
       "rating": null,
       "review_count": null,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20250929/VaaKV3bgiDTNm72FbhfR1067499_00_01VaaKV3bgiDTNm72FbhfR.jpg",
-      "shopify_score": 54,
+      "shopify_score": 55,
       "grade": "C",
       "s_rule": "score_below_82",
       "score_breakdown": {
@@ -10827,7 +10827,7 @@
         "reviews": 0.0,
         "price": 7.0,
         "keyword": 3,
-        "us_market_fit": 21.2,
+        "us_market_fit": 22.5,
         "rebucket_note": "",
         "global_similarity_reference_only": 7,
         "penalty": 0,
@@ -10837,9 +10837,9 @@
       },
       "component_scores": {
         "match_score": 0.573,
-        "demand_score": 0.8277,
+        "demand_score": 0.8477,
         "review_score": 0.0,
-        "final_score": 0.4902,
+        "final_score": 0.4972,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -11442,7 +11442,7 @@
       "rating": null,
       "review_count": null,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251205/mMEadJbvD4mNdT5U6aHp1068720_00_00mMEadJbvD4mNdT5U6aHp.jpg",
-      "shopify_score": 60,
+      "shopify_score": 61,
       "grade": "B",
       "s_rule": "score_below_82",
       "score_breakdown": {
@@ -11451,7 +11451,7 @@
         "reviews": 0.0,
         "price": 10.0,
         "keyword": 5,
-        "us_market_fit": 20.0,
+        "us_market_fit": 21.2,
         "rebucket_note": "",
         "global_similarity_reference_only": 6,
         "penalty": 0,
@@ -11461,9 +11461,9 @@
       },
       "component_scores": {
         "match_score": 0.267,
-        "demand_score": 0.9231,
+        "demand_score": 0.9415,
         "review_score": 0.0,
-        "final_score": 0.4165,
+        "final_score": 0.423,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -11496,7 +11496,7 @@
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251205/6yxxYklOEqrkfhPkdQXB1068721_00_006yxxYklOEqrkfhPkdQXB.jpg",
       "shopify_score": 93,
       "grade": "A",
-      "s_rule": "match_too_weak",
+      "s_rule": "no_global_match",
       "score_breakdown": {
         "category": 25.0,
         "rating": 13.3,
@@ -11505,17 +11505,17 @@
         "keyword": 0,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 5,
+        "global_similarity_reference_only": 0,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.42,
+        "match_score": 0.0,
         "demand_score": 0.9231,
         "review_score": 0.9514,
-        "final_score": 0.7555,
+        "final_score": 0.6085,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -11546,7 +11546,7 @@
       "rating": 4.4,
       "review_count": 423,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251205/rb7tUhT1C5xKYvlAevXm1068733_00_00rb7tUhT1C5xKYvlAevXm.jpg",
-      "shopify_score": 83,
+      "shopify_score": 84,
       "grade": "A",
       "s_rule": "match_too_weak",
       "score_breakdown": {
@@ -11555,7 +11555,7 @@
         "reviews": 15.9,
         "price": 10.0,
         "keyword": 5,
-        "us_market_fit": 20.0,
+        "us_market_fit": 21.2,
         "rebucket_note": "",
         "global_similarity_reference_only": 6,
         "penalty": 0,
@@ -11565,9 +11565,9 @@
       },
       "component_scores": {
         "match_score": 0.267,
-        "demand_score": 0.9231,
+        "demand_score": 0.9415,
         "review_score": 0.6457,
-        "final_score": 0.6102,
+        "final_score": 0.6167,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -11609,7 +11609,7 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 8,
+        "global_similarity_reference_only": 9,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -11973,17 +11973,17 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 5,
+        "global_similarity_reference_only": 4,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.267,
+        "match_score": 0.263,
         "demand_score": 1.0,
         "review_score": 0.0,
-        "final_score": 0.4435,
+        "final_score": 0.442,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -12077,7 +12077,7 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 16,
+        "global_similarity_reference_only": 17,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -12337,7 +12337,7 @@
         "keyword": 5,
         "us_market_fit": 20.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 8,
+        "global_similarity_reference_only": 9,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -12387,7 +12387,7 @@
         "reviews": 0.0,
         "price": 10.0,
         "keyword": 5,
-        "us_market_fit": 18.4,
+        "us_market_fit": 17.5,
         "rebucket_note": "",
         "global_similarity_reference_only": 5,
         "penalty": 0,
@@ -12397,9 +12397,9 @@
       },
       "component_scores": {
         "match_score": 0.25,
-        "demand_score": 0.8985,
+        "demand_score": 0.8846,
         "review_score": 0.0,
-        "final_score": 0.402,
+        "final_score": 0.3971,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -12624,7 +12624,7 @@
           "us_label",
           "legal"
         ],
-        "gate_generated_at": "2026-09-19T00:57:37.113008+00:00"
+        "gate_generated_at": "2026-09-19T01:13:06.388516+00:00"
       }
     },
     {
@@ -12653,7 +12653,7 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 9,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "claim_risk",
         "us_block_reason": "미백 - 미국에서 OTC 의약품 주장",
@@ -12850,16 +12850,16 @@
       "rating": 4.6,
       "review_count": 1267,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260105/BBuw9crU6REV3VrtkYez1072800_00_00BBuw9crU6REV3VrtkYez.jpg",
-      "shopify_score": 83,
+      "shopify_score": 75,
       "grade": "A",
-      "s_rule": "no_global_match",
+      "s_rule": "score_below_82",
       "score_breakdown": {
         "category": 19.0,
         "rating": 10.0,
         "reviews": 18.8,
         "price": 10.0,
         "keyword": 0,
-        "us_market_fit": 25.0,
+        "us_market_fit": 17.5,
         "rebucket_note": "",
         "global_similarity_reference_only": 0,
         "penalty": 0,
@@ -12869,9 +12869,9 @@
       },
       "component_scores": {
         "match_score": 0.0,
-        "demand_score": 0.8308,
+        "demand_score": 0.7154,
         "review_score": 0.8229,
-        "final_score": 0.5376,
+        "final_score": 0.4972,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -12963,7 +12963,7 @@
         "reviews": 16.9,
         "price": 7.0,
         "keyword": 0,
-        "us_market_fit": 23.4,
+        "us_market_fit": 23.5,
         "rebucket_note": "",
         "global_similarity_reference_only": 4,
         "penalty": 0,
@@ -12973,9 +12973,9 @@
       },
       "component_scores": {
         "match_score": 0.256,
-        "demand_score": 0.8523,
+        "demand_score": 0.8538,
         "review_score": 0.8629,
-        "final_score": 0.6468,
+        "final_score": 0.6473,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -13058,7 +13058,7 @@
       "rating": null,
       "review_count": null,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260629/8jt237G7xYrG4P52SnxV1072859_00_018jt237G7xYrG4P52SnxV.jpg",
-      "shopify_score": 52,
+      "shopify_score": 59,
       "grade": "C",
       "s_rule": "score_below_82",
       "score_breakdown": {
@@ -13067,7 +13067,7 @@
         "reviews": 0.0,
         "price": 10.0,
         "keyword": 4,
-        "us_market_fit": 17.5,
+        "us_market_fit": 25.0,
         "rebucket_note": "",
         "global_similarity_reference_only": 0,
         "penalty": 0,
@@ -13077,9 +13077,9 @@
       },
       "component_scores": {
         "match_score": 0.0,
-        "demand_score": 0.7954,
+        "demand_score": 0.9108,
         "review_score": 0.0,
-        "final_score": 0.2784,
+        "final_score": 0.3188,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -13612,7 +13612,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-19T00:57:37.113008+00:00"
+        "gate_generated_at": "2026-09-19T01:13:06.388516+00:00"
       }
     },
     {
@@ -15034,7 +15034,7 @@
       "rating": null,
       "review_count": null,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251231/a1rTbe8LgoPw9mu5HABd1027327_00_00a1rTbe8LgoPw9mu5HABd.jpg",
-      "shopify_score": 55,
+      "shopify_score": 54,
       "grade": "C",
       "s_rule": "score_below_82",
       "score_breakdown": {
@@ -15043,7 +15043,7 @@
         "reviews": 0.0,
         "price": 4.0,
         "keyword": 3,
-        "us_market_fit": 25.0,
+        "us_market_fit": 24.2,
         "rebucket_note": "",
         "global_similarity_reference_only": 0,
         "penalty": 0,
@@ -15053,9 +15053,9 @@
       },
       "component_scores": {
         "match_score": 0.0,
-        "demand_score": 0.84,
+        "demand_score": 0.8277,
         "review_score": 0.0,
-        "final_score": 0.294,
+        "final_score": 0.2897,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -15294,7 +15294,7 @@
       "rating": null,
       "review_count": null,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260105/WdTvkpulYXNW4wspDg4Z1072850_00_00WdTvkpulYXNW4wspDg4Z.jpg",
-      "shopify_score": 49,
+      "shopify_score": 50,
       "grade": "C",
       "s_rule": "score_below_82",
       "score_breakdown": {
@@ -15303,7 +15303,7 @@
         "reviews": 0.0,
         "price": 1.0,
         "keyword": 0,
-        "us_market_fit": 23.4,
+        "us_market_fit": 23.5,
         "rebucket_note": "",
         "global_similarity_reference_only": 4,
         "penalty": 0,
@@ -15313,9 +15313,9 @@
       },
       "component_scores": {
         "match_score": 0.256,
-        "demand_score": 0.76,
+        "demand_score": 0.7615,
         "review_score": 0.0,
-        "final_score": 0.3556,
+        "final_score": 0.3561,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -15346,7 +15346,7 @@
       "rating": null,
       "review_count": null,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260402/jWlvni2GKY49vZYa3f3w1018161_00_00jWlvni2GKY49vZYa3f3w.jpg",
-      "shopify_score": 52,
+      "shopify_score": 51,
       "grade": "C",
       "s_rule": "score_below_82",
       "score_breakdown": {
@@ -15355,7 +15355,7 @@
         "reviews": 0.0,
         "price": 1.0,
         "keyword": 3,
-        "us_market_fit": 25.0,
+        "us_market_fit": 24.2,
         "rebucket_note": "",
         "global_similarity_reference_only": 5,
         "penalty": 0,
@@ -15365,9 +15365,9 @@
       },
       "component_scores": {
         "match_score": 0.272,
-        "demand_score": 0.7938,
+        "demand_score": 0.7815,
         "review_score": 0.0,
-        "final_score": 0.373,
+        "final_score": 0.3687,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -15398,7 +15398,7 @@
       "rating": null,
       "review_count": null,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260409/loNfBbqb3rj8IlQFFP1d1035080_00_00loNfBbqb3rj8IlQFFP1d.jpg",
-      "shopify_score": 47,
+      "shopify_score": 48,
       "grade": "C",
       "s_rule": "score_below_82",
       "score_breakdown": {
@@ -15407,7 +15407,7 @@
         "reviews": 0.0,
         "price": 1.0,
         "keyword": 5,
-        "us_market_fit": 16.2,
+        "us_market_fit": 17.5,
         "rebucket_note": "",
         "global_similarity_reference_only": 7,
         "penalty": 0,
@@ -15417,9 +15417,9 @@
       },
       "component_scores": {
         "match_score": 0.325,
-        "demand_score": 0.7262,
+        "demand_score": 0.7462,
         "review_score": 0.0,
-        "final_score": 0.3679,
+        "final_score": 0.3749,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -15617,7 +15617,7 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 9,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "claim_risk",
         "us_block_reason": "미백 - 미국에서 OTC 의약품 주장",
@@ -15866,7 +15866,7 @@
       "rating": null,
       "review_count": null,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260402/YAGyPq2hshglHl0qRLSj1044553_00_00YAGyPq2hshglHl0qRLSj.jpg",
-      "shopify_score": 50,
+      "shopify_score": 54,
       "grade": "C",
       "s_rule": "score_below_82",
       "score_breakdown": {
@@ -15875,7 +15875,7 @@
         "reviews": 0.0,
         "price": 1.0,
         "keyword": 3,
-        "us_market_fit": 21.2,
+        "us_market_fit": 25.0,
         "rebucket_note": "",
         "global_similarity_reference_only": 0,
         "penalty": 0,
@@ -15885,9 +15885,9 @@
       },
       "component_scores": {
         "match_score": 0.0,
-        "demand_score": 0.7723,
+        "demand_score": 0.8308,
         "review_score": 0.0,
-        "final_score": 0.2703,
+        "final_score": 0.2908,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -15929,17 +15929,17 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 5,
+        "global_similarity_reference_only": 4,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.267,
+        "match_score": 0.263,
         "demand_score": 0.8615,
         "review_score": 0.0,
-        "final_score": 0.395,
+        "final_score": 0.3936,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -15981,7 +15981,7 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 16,
+        "global_similarity_reference_only": 17,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -16085,7 +16085,7 @@
         "keyword": 5,
         "us_market_fit": 21.2,
         "rebucket_note": "",
-        "global_similarity_reference_only": 14,
+        "global_similarity_reference_only": 11,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -16126,7 +16126,7 @@
       "rating": null,
       "review_count": null,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20250929/XLcv5X5IlqoZpbF51LnE1056650_00_01XLcv5X5IlqoZpbF51LnE.jpg",
-      "shopify_score": 53,
+      "shopify_score": 49,
       "grade": "C",
       "s_rule": "score_below_82",
       "score_breakdown": {
@@ -16135,7 +16135,7 @@
         "reviews": 0.0,
         "price": 1.0,
         "keyword": 3,
-        "us_market_fit": 23.8,
+        "us_market_fit": 19.9,
         "rebucket_note": "",
         "global_similarity_reference_only": 0,
         "penalty": 0,
@@ -16145,9 +16145,9 @@
       },
       "component_scores": {
         "match_score": 0.0,
-        "demand_score": 0.8123,
+        "demand_score": 0.7523,
         "review_score": 0.0,
-        "final_score": 0.2843,
+        "final_score": 0.2633,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -16189,7 +16189,7 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 16,
+        "global_similarity_reference_only": 17,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -16241,7 +16241,7 @@
         "keyword": 5,
         "us_market_fit": 18.3,
         "rebucket_note": "",
-        "global_similarity_reference_only": 8,
+        "global_similarity_reference_only": 9,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -16293,7 +16293,7 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 16,
+        "global_similarity_reference_only": 17,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -16345,7 +16345,7 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 8,
+        "global_similarity_reference_only": 9,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -16397,7 +16397,7 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 16,
+        "global_similarity_reference_only": 17,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -16449,7 +16449,7 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 16,
+        "global_similarity_reference_only": 17,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -16553,7 +16553,7 @@
         "keyword": 5,
         "us_market_fit": 20.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 16,
+        "global_similarity_reference_only": 17,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -16594,7 +16594,7 @@
       "rating": null,
       "review_count": null,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260123/7atGoOJ29MCKOvdnwiNQ1072417_00_017atGoOJ29MCKOvdnwiNQ.jpg",
-      "shopify_score": 52,
+      "shopify_score": 51,
       "grade": "C",
       "s_rule": "score_below_82",
       "score_breakdown": {
@@ -16603,9 +16603,9 @@
         "reviews": 0.0,
         "price": 1.0,
         "keyword": 5,
-        "us_market_fit": 21.2,
+        "us_market_fit": 20.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 8,
+        "global_similarity_reference_only": 9,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -16613,9 +16613,9 @@
       },
       "component_scores": {
         "match_score": 0.367,
-        "demand_score": 0.8031,
+        "demand_score": 0.7846,
         "review_score": 0.0,
-        "final_score": 0.4095,
+        "final_score": 0.4031,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -16698,7 +16698,7 @@
       "rating": null,
       "review_count": null,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251218/d8NqIeDpOKYbm6p44Fzf1055168_00_00d8NqIeDpOKYbm6p44Fzf.jpg",
-      "shopify_score": 47,
+      "shopify_score": 44,
       "grade": "C",
       "s_rule": "claim_risk",
       "score_breakdown": {
@@ -16707,7 +16707,7 @@
         "reviews": 0.0,
         "price": 1.0,
         "keyword": 0,
-        "us_market_fit": 21.2,
+        "us_market_fit": 17.5,
         "rebucket_note": "",
         "global_similarity_reference_only": 10,
         "penalty": 0,
@@ -16717,9 +16717,9 @@
       },
       "component_scores": {
         "match_score": 0.8,
-        "demand_score": 0.7262,
+        "demand_score": 0.6692,
         "review_score": 0.0,
-        "final_score": 0.5342,
+        "final_score": 0.5142,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -16865,17 +16865,17 @@
         "keyword": 0,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 5,
+        "global_similarity_reference_only": 0,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.42,
+        "match_score": 0.0,
         "demand_score": 0.7846,
         "review_score": 0.0,
-        "final_score": 0.4216,
+        "final_score": 0.2746,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -17270,7 +17270,7 @@
       "rating": null,
       "review_count": null,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20250311/QGjtoQh4Tv8bUcOEAchc1060211_00_01QGjtoQh4Tv8bUcOEAchc.jpg",
-      "shopify_score": 45,
+      "shopify_score": 44,
       "grade": "C",
       "s_rule": "score_below_82",
       "score_breakdown": {
@@ -17279,9 +17279,9 @@
         "reviews": 0.0,
         "price": 1.0,
         "keyword": 0,
-        "us_market_fit": 23.4,
+        "us_market_fit": 23.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 9,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -17289,9 +17289,9 @@
       },
       "component_scores": {
         "match_score": 0.7,
-        "demand_score": 0.6862,
+        "demand_score": 0.68,
         "review_score": 0.0,
-        "final_score": 0.4852,
+        "final_score": 0.483,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -17437,7 +17437,7 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 16,
+        "global_similarity_reference_only": 17,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -17489,7 +17489,7 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 8,
+        "global_similarity_reference_only": 9,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -17541,7 +17541,7 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 8,
+        "global_similarity_reference_only": 9,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
