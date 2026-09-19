@@ -2,7 +2,7 @@
 title: "Record 24cfcbb1ce · Sulwhasoo-tests-Japans-luxury-beauty-market-with-fi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T15:54:59.593046+00:00
+updated_at: 2026-09-19T17:10:46.575017+00:00
 tags: [record, real-data]
 ---
 

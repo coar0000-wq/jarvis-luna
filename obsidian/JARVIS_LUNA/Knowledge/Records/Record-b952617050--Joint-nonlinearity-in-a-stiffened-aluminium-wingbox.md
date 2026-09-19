@@ -2,7 +2,7 @@
 title: "Record b952617050 · Joint-nonlinearity-in-a-stiffened-aluminium-wingbox"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T15:54:59.243264+00:00
+updated_at: 2026-09-19T17:10:46.031492+00:00
 tags: [record, real-data]
 ---
 

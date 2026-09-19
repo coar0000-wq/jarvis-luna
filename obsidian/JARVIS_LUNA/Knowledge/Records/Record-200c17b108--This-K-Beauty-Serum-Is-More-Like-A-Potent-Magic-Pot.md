@@ -2,7 +2,7 @@
 title: "Record 200c17b108 · This-K-Beauty-Serum-Is-More-Like-A-Potent-Magic-Potion-For-Rejuvenatin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T15:54:59.558815+00:00
+updated_at: 2026-09-19T17:10:46.521376+00:00
 tags: [record, real-data]
 ---
 

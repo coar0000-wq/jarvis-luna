@@ -2,7 +2,7 @@
 title: "Record afe6c68f03 · Managed-Postgres-What-Lakebase-Actually-Takes-Off-Your-Plate"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T15:54:59.706624+00:00
+updated_at: 2026-09-19T17:10:46.761329+00:00
 tags: [record, real-data]
 ---
 

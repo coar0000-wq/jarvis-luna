@@ -2,7 +2,7 @@
 title: "Record da60360e8d · KI-gestützte-Karriereberatung-und-Stellenempfehlungen-für-den-Schweize"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T15:54:59.348834+00:00
+updated_at: 2026-09-19T17:10:46.196988+00:00
 tags: [record, real-data]
 ---
 

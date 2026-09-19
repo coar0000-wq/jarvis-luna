@@ -2,7 +2,7 @@
 title: "Record b418719131 · Experts-AgreeIf-Youre-Going-to-Buy-3-K-Beauty-Items"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T15:54:59.542818+00:00
+updated_at: 2026-09-19T17:10:46.494426+00:00
 tags: [record, real-data]
 ---
 

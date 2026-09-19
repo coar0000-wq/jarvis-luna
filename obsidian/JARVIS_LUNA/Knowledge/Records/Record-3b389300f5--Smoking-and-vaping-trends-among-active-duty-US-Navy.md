@@ -2,7 +2,7 @@
 title: "Record 3b389300f5 · Smoking-and-vaping-trends-among-active-duty-US-Navy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T15:54:59.327288+00:00
+updated_at: 2026-09-19T17:10:46.160623+00:00
 tags: [record, real-data]
 ---
 

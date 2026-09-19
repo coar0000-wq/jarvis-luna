@@ -2,7 +2,7 @@
 title: "Record a854a70d08 · How-to-Achieve-Hollywood-Makeup-Artist-Nina-Parks-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T15:54:59.529017+00:00
+updated_at: 2026-09-19T17:10:46.470870+00:00
 tags: [record, real-data]
 ---
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T13:43:24.186528+00:00",
+  "generated_at": "2026-09-19T17:01:58.360193+00:00",
   "generator": "scripts/ingest_youtube_channels.py",
   "입력": "data/manual/youtube_channels.txt",
   "robots": "youtube.com/robots.txt 의 Disallow 목록에 /@ 와 /channel/ 은 없다. 막힌 것은 /feeds/videos.xml, /results, /youtubei/ 등이다. 지정된 채널만 하나씩 본다. 2026-09-06 확인.",
@@ -19,8 +19,8 @@
   "제목_바뀐_영상": [
     {
       "video_id": "hikTGKo2kZE",
-      "before": "브랜딩 감각을 키우고 싶다면👀 | 사업부터 브랜딩까지 분야별 필독서 추천",
-      "after": "책은 가장 가성비 좋은 인풋입니다 📚  | 브랜드 대표가 직접 고른 브랜딩 필독서",
+      "before": "책은 가장 가성비 좋은 인풋입니다 📚  | 브랜드 대표가 직접 고른 브랜딩 필독서",
+      "after": "브랜딩 감각을 키우고 싶다면👀 | 사업부터 브랜딩까지 분야별 필독서 추천",
       "kept_teams": [
         "design"
       ]
@@ -89,10 +89,10 @@
     },
     {
       "video_id": "GGg61sdEjeI",
-      "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
-      "views_text": "297K views",
+      "title": "This UI/UX Redesign Will Teach You More Than 500 Tutorials Combined",
+      "views_text": "299K views",
       "published_text": "3 weeks ago",
-      "views": 297000,
+      "views": 299000,
       "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
       "channel": "uxpeak",
       "teams": [
@@ -114,9 +114,9 @@
     {
       "video_id": "YlN28RNChl0",
       "title": "This Video Will Take You From Junior to Senior UX/UI Designer",
-      "views_text": "253K views",
+      "views_text": "254K views",
       "published_text": "1 year ago",
-      "views": 253000,
+      "views": 254000,
       "url": "https://www.youtube.com/watch?v=YlN28RNChl0",
       "channel": "uxpeak",
       "teams": [
@@ -211,7 +211,7 @@
   "items": [
     {
       "stale": false,
-      "last_ok_at": "2026-09-19T13:43:13.828753+00:00",
+      "last_ok_at": "2026-09-19T17:01:47.865914+00:00",
       "url": "https://www.youtube.com/@uxpeak",
       "note": "UX/UI 리디자인·전환율 (사용자 지정)",
       "team_hint": "design",
@@ -220,14 +220,14 @@
       "subscribers": "125K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-19T13:43:13.828773+00:00",
+      "checked_at": "2026-09-19T17:01:47.865936+00:00",
       "videos": [
         {
           "video_id": "GGg61sdEjeI",
-          "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
-          "views_text": "297K views",
+          "title": "This UI/UX Redesign Will Teach You More Than 500 Tutorials Combined",
+          "views_text": "299K views",
           "published_text": "3 weeks ago",
-          "views": 297000,
+          "views": 299000,
           "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
           "channel": "uxpeak",
           "teams": [
@@ -309,9 +309,9 @@
         {
           "video_id": "YlN28RNChl0",
           "title": "This Video Will Take You From Junior to Senior UX/UI Designer",
-          "views_text": "253K views",
+          "views_text": "254K views",
           "published_text": "1 year ago",
-          "views": 253000,
+          "views": 254000,
           "url": "https://www.youtube.com/watch?v=YlN28RNChl0",
           "channel": "uxpeak",
           "teams": [
@@ -478,7 +478,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-19T13:43:19.186300+00:00",
+      "last_ok_at": "2026-09-19T17:01:53.359977+00:00",
       "url": "https://www.youtube.com/@%EB%95%A1%ED%81%90%EC%B1%84%EB%84%90",
       "note": "땡스큐레이터 - 스몰 브랜드 브랜딩·수출·견적. 팀은 영상마다 자동 분류",
       "team_hint": "",
@@ -487,14 +487,14 @@
       "subscribers": "18.9K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-19T13:43:19.186313+00:00",
+      "checked_at": "2026-09-19T17:01:53.359992+00:00",
       "videos": [
         {
           "video_id": "hikTGKo2kZE",
-          "title": "책은 가장 가성비 좋은 인풋입니다 📚  | 브랜드 대표가 직접 고른 브랜딩 필독서",
-          "views_text": "17K views",
+          "title": "브랜딩 감각을 키우고 싶다면👀 | 사업부터 브랜딩까지 분야별 필독서 추천",
+          "views_text": "18K views",
           "published_text": "2 days ago",
-          "views": 17000,
+          "views": 18000,
           "url": "https://www.youtube.com/watch?v=hikTGKo2kZE",
           "channel": "땡스큐레이터",
           "teams": [

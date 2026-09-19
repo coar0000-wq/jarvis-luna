@@ -2,7 +2,7 @@
 title: "Record 144c67f0ee · 2026-Ecommerce-Trends-How-Brands-Are-Planning-Ahead"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T15:54:59.484454+00:00
+updated_at: 2026-09-19T17:10:46.396247+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiaEFVX3lxTE1PTExuWEZLWV9QTldRSmVQQ0pVZzcwQ01BODBtajRTNXk5MGRFS3p2bnBFSm9la0p3Z3ozb3QyMnV0QUhDSzBXcmhmTEdobWFwX1ljUkFlZVYyaDh6QnczZmJ1VGJqME1q?oc=5)
 
-**제목:** 2026 Ecommerce Trends: How Brands Are Planning Ahead - Shopify
+**제목:** 2026 Ecommerce Trends: How Brands Are Planning Ahead - shopify.com
 
-2026 Ecommerce Trends: How Brands Are Planning Ahead - Shopify
+2026 Ecommerce Trends: How Brands Are Planning Ahead - shopify.com
 
 **출처:** Source · Google Search
 

@@ -2,7 +2,7 @@
 title: "Record 9c87d1e400 · Inverse-FoldDir-Structure-conditioned-Protein-Sequence-Design-by-Diric"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T15:54:59.421585+00:00
+updated_at: 2026-09-19T17:10:46.301142+00:00
 tags: [record, real-data]
 ---
 

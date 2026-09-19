@@ -2,7 +2,7 @@
 title: "Record d18373bdd6 · Visual-Computing-for-Autonomous-Driving"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T15:54:59.334464+00:00
+updated_at: 2026-09-19T17:10:46.172534+00:00
 tags: [record, real-data]
 ---
 

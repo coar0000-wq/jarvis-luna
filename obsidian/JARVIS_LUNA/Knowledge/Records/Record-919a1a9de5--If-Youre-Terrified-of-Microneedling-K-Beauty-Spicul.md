@@ -2,7 +2,7 @@
 title: "Record 919a1a9de5 · If-Youre-Terrified-of-Microneedling-K-Beauty-Spicul"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T15:54:59.543810+00:00
+updated_at: 2026-09-19T17:10:46.496098+00:00
 tags: [record, real-data]
 ---
 

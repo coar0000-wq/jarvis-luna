@@ -2,7 +2,7 @@
 title: "Record 67fd39a104 · Connecting-Agents-to-Decisions"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T15:54:59.282123+00:00
+updated_at: 2026-09-19T17:10:46.087363+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record b716221d97 · Fatty-acid-regulation-and-phosphatidylethanolamine-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T15:54:59.322002+00:00
+updated_at: 2026-09-19T17:10:46.151989+00:00
 tags: [record, real-data]
 ---
 

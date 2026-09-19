@@ -2,7 +2,7 @@
 title: "Record 9d56a1b590 · Technology-And-Inflation-Businesses"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T15:54:59.729966+00:00
+updated_at: 2026-09-19T17:10:46.800075+00:00
 tags: [record, real-data]
 ---
 

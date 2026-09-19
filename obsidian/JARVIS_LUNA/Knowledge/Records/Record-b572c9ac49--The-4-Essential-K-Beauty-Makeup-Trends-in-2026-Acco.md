@@ -2,7 +2,7 @@
 title: "Record b572c9ac49 · The-4-Essential-K-Beauty-Makeup-Trends-in-2026-Acco"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T15:54:59.474399+00:00
+updated_at: 2026-09-19T17:10:46.379546+00:00
 tags: [record, real-data]
 ---
 

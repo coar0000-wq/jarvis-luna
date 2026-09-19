@@ -2,7 +2,7 @@
 title: "Record 5ec240945f · Regex-for-Rows-Simplifying-Pattern-Detection-in-SQL-with-MATCH_RECOGNI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T15:54:59.707399+00:00
+updated_at: 2026-09-19T17:10:46.762589+00:00
 tags: [record, real-data]
 ---
 

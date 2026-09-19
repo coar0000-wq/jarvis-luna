@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-19T13:44:23.004069+00:00",
+  "collected_at": "2026-09-19T17:03:16.398790+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -326,16 +326,16 @@
       "feed": "hot"
     },
     {
-      "title": "Anything Goes Friday: September 18, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wk1r5o/anything_goes_friday_september_18_2026/",
-      "published": "2026-09-18T20:39:05+00:00",
+      "title": "Korean products for eczema dark scars hyperpigmentation",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjl8iy/korean_products_for_eczema_dark_scars/",
+      "published": "2026-09-18T09:16:10+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Korean products for eczema dark scars hyperpigmentation",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjl8iy/korean_products_for_eczema_dark_scars/",
-      "published": "2026-09-18T09:16:10+00:00",
+      "title": "Anything Goes Friday: September 18, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wk1r5o/anything_goes_friday_september_18_2026/",
+      "published": "2026-09-18T20:39:05+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
