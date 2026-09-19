@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-19T12:02:00.056247+09:00",
+  "generated_at": "2026-09-19T14:18:43.378009+09:00",
   "role": "coaching",
   "principle": "AI는 체크리스트·A/B 초안만. 등록·광고 집행은 사람 승인.",
   "source": "scripts/build_coaching_loop.py",
   "scope": "S등급 상위 15개",
   "summary": {
     "ready_to_list": 0,
-    "ready_with_notes": 8,
-    "fix_then_list": 2,
+    "ready_with_notes": 10,
+    "fix_then_list": 0,
     "hold": 0,
     "reddit_signal": {
       "status": "ok",
@@ -87,7 +87,7 @@
           "label": "A · 성분/커뮤니티 후킹",
           "primary_text": "VT Reedle Shot 300 Facial Boosting First Ampoule 2ml x 6 — kbeauty · K-beauty",
           "headline": "VT Reedle Shot 300 Facial Boosting First",
-          "description": "Discover the VT Reedle Shot 300 Facial Boosting First Ampoule, designed for your daily skincare routine. This convenient set includes six 2ml ampoules to help prep and condition your skin. Apply gentl",
+          "description": "Discover the VT Reedle Shot 300 Facial Boosting First Ampoule, designed for your daily skincare routine. This convenient set includes six 2ml ampoules to help prep and care for your skin texture. Appl",
           "cta": "Shop now"
         },
         "variant_b": {
@@ -200,9 +200,9 @@
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "VONSEP Retinol 500 IU Serum 30 ml — kbeauty · K-beauty",
-          "headline": "VONSEP Retinol 500 IU Serum 30 ml",
-          "description": "Discover the VONSEP Retinol 500 IU Serum in a convenient 30 ml size, designed to enhance your daily skincare routine. This nourishing facial serum helps promote a smoother-looking appearance and a bri",
+          "primary_text": "VONSEP Retinol 500 IU Serum 30ml — kbeauty · K-beauty",
+          "headline": "VONSEP Retinol 500 IU Serum 30ml",
+          "description": "Discover the VONSEP Retinol 500 IU Serum in a convenient 30 ml size, designed for your daily skincare routine. This nourishing facial serum helps smooth the look of fine lines for a radiant and refres",
           "cta": "Shop now"
         },
         "variant_b": {
@@ -315,9 +315,9 @@
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6pcs — kbeauty · K-beauty",
+          "primary_text": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6ea — kbeauty · K-beauty",
           "headline": "VT Reedle Shot 100 Facial Boosting First",
-          "description": "Discover the VT Reedle Shot 100 Facial Boosting First Ampoule, designed for your daily skincare routine. This convenient set includes six individual 2ml ampoules to help prep your skin. Incorporate th",
+          "description": "Experience smooth skin texture with the VT Reedle Shot 100 Facial Boosting First Ampoule. This set includes six convenient 2 ml ampoules designed to prep your skin for your daily routine. Apply gently",
           "cta": "Shop now"
         },
         "variant_b": {
@@ -368,7 +368,7 @@
       "bucket": "스킨케어",
       "shopify_score": 96,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067498",
-      "readiness": "fix_then_list",
+      "readiness": "ready_with_notes",
       "checklist": [
         {
           "id": "grade_s",
@@ -394,8 +394,8 @@
         {
           "id": "listing_copy",
           "label": "영문 리스팅 카피",
-          "status": "fail",
-          "evidence": "카피 미생성",
+          "status": "pass",
+          "evidence": "Gemini 카피 있음",
           "tip": "shopify-listing-copy 워크플로 실행"
         },
         {
@@ -430,9 +430,9 @@
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Cream Pdrn — Daiso Find — kbeauty · K-beauty",
-          "headline": "Cream Pdrn — Daiso Find",
-          "description": "Daiso-sourced K-beauty. Lightweight daily use. Target US shoppers searching glass skin.",
+          "primary_text": "VT PDRN Glow Cream 50 ml — kbeauty · K-beauty",
+          "headline": "VT PDRN Glow Cream 50 ml",
+          "description": "Discover the VT PDRN Glow Cream in a convenient 50 ml size, designed to help enhance your daily skincare routine. Apply this nourishing cream to help promote a radiant-looking, glowing complexion with",
           "cta": "Shop now"
         },
         "variant_b": {
@@ -478,10 +478,10 @@
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
-        "pass": 4,
+        "pass": 5,
         "warn": 3,
-        "fail": 1,
-        "next_action": "실패 항목 수정"
+        "fail": 0,
+        "next_action": "경고 항목 보완 후 등록"
       }
     },
     {
@@ -552,9 +552,9 @@
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Bongseop Retinol Firming Shot Body Guasha Serum 100ml — kbeauty · K-beauty",
-          "headline": "Bongseop Retinol Firming Shot Body Guash",
-          "description": "Experience daily body care with the Bongseop Retinol Firming Shot Body Guasha Serum. This 100ml serum helps maintain a smooth and firm-looking appearance for your skin. Designed for easy application, ",
+          "primary_text": "Bongseop Retinol Firming Shot Body Gua Sha Serum 100ml — kbeauty · K-beauty",
+          "headline": "Bongseop Retinol Firming Shot Body Gua S",
+          "description": "Experience daily body care with the Bongseop Retinol Firming Shot Body Gua Sha Serum. This 100 ml serum is designed to help smooth the look of skin texture while providing a comforting massage applica",
           "cta": "Shop now"
         },
         "variant_b": {
@@ -669,7 +669,7 @@
           "label": "A · 성분/커뮤니티 후킹",
           "primary_text": "Celderma Daily PDRN Radiance Cream Wrapping Mask 1ea — ask · K-beauty",
           "headline": "Celderma Daily PDRN Radiance Cream Wrapp",
-          "description": "Discover the Celderma Daily PDRN Radiance Cream Wrapping Mask, designed to help enhance your daily skincare routine. This single sheet mask delivers comforting moisture for a radiant and glowing compl",
+          "description": "Discover the Celderma Daily PDRN Radiance Cream Wrapping Mask, designed to give your skin a radiant and glowing appearance. This convenient single-sheet mask helps lock in moisture for a dewy, smooth ",
           "cta": "Shop now"
         },
         "variant_b": {
@@ -794,7 +794,7 @@
           "label": "A · 성분/커뮤니티 후킹",
           "primary_text": "VT Super Hyalon Sleeping Mask 4ml 6ea — ask · K-beauty",
           "headline": "VT Super Hyalon Sleeping Mask 4ml 6ea",
-          "description": "Discover the VT Super Hyalon Sleeping Mask, designed to deliver deep hydration while you rest. Each set includes six convenient 4 ml individual pouches for easy daily care. Apply gently before bed to ",
+          "description": "Discover the VT Super Hyalon Sleeping Mask, designed to deliver deep hydration while you rest. Each set includes six convenient 4 ml individual pouches for easy use. Apply gently before bed to wake up",
           "cta": "Shop now"
         },
         "variant_b": {
@@ -915,7 +915,7 @@
           "label": "A · 성분/커뮤니티 후킹",
           "primary_text": "Celderma Daily Transforming Firming Collagen Mask 28g — ask · sheet mask",
           "headline": "Celderma Daily Transforming Firming Coll",
-          "description": "Discover the Celderma Daily Transforming Firming Collagen Mask, formulated to help support a smooth-looking and radiant complexion. Each 28g sheet mask is designed to comfortably fit the contours of y",
+          "description": "Discover the Celderma Daily Transforming Firming Collagen Mask, formulated to help give your skin a firmer and more supple appearance. Each sheet is designed to comfortably fit the contours of the fac",
           "cta": "Shop now"
         },
         "variant_b": {
@@ -1028,9 +1028,9 @@
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Celderma Daily Collagen Essence Gel Mask 29g — ask · sheet mask",
+          "primary_text": "Celderma Daily Collagen Essence Gel Mask 29 g — ask · sheet mask",
           "headline": "Celderma Daily Collagen Essence Gel Mask",
-          "description": "Experience a refreshing skincare step with the Celderma Daily Collagen Essence Gel Mask. Designed in a convenient 29g format, this gel mask adheres comfortably to the skin for a smooth, hydrated look.",
+          "description": "Discover the Celderma Daily Collagen Essence Gel Mask, designed to deliver a refreshing and hydrating experience for your skin. Each 29 g sheet mask is formulated with collagen to help maintain moistu",
           "cta": "Shop now"
         },
         "variant_b": {
@@ -1082,7 +1082,7 @@
       "bucket": "클렌징",
       "shopify_score": 86,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060211",
-      "readiness": "fix_then_list",
+      "readiness": "ready_with_notes",
       "checklist": [
         {
           "id": "grade_s",
@@ -1108,8 +1108,8 @@
         {
           "id": "listing_copy",
           "label": "영문 리스팅 카피",
-          "status": "fail",
-          "evidence": "카피 미생성",
+          "status": "pass",
+          "evidence": "Gemini 카피 있음",
           "tip": "shopify-listing-copy 워크플로 실행"
         },
         {
@@ -1144,9 +1144,9 @@
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Cleanser — Daiso Find — gentle cleanser · double cleanse",
-          "headline": "Cleanser — Daiso Find",
-          "description": "Daiso-sourced gentle cleanser. Lightweight daily use. Target US shoppers searching double cleanse.",
+          "primary_text": "Vaseline Moisturizing Cleansing Milk 140 ml — gentle cleanser · double cleanse",
+          "headline": "Vaseline Moisturizing Cleansing Milk 140",
+          "description": "Discover the gentle and effective cleansing experience of Vaseline Moisturizing Cleansing Milk. Designed to easily lift away daily impurities while keeping your skin feeling soft and comfortable. This",
           "cta": "Shop now"
         },
         "variant_b": {
@@ -1174,10 +1174,10 @@
         "tip": "Reddit 핫 키워드와 직접 겹침 약함 — 성분 영문명으로 재검색"
       },
       "coach_summary": {
-        "pass": 3,
+        "pass": 4,
         "warn": 4,
-        "fail": 1,
-        "next_action": "실패 항목 수정"
+        "fail": 0,
+        "next_action": "경고 항목 보완 후 등록"
       }
     }
   ],

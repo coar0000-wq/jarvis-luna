@@ -36,7 +36,7 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T03:01:55.383687+00:00"
+      "gate_generated_at": "2026-09-19T05:18:43.200128+00:00"
     },
     {
       "rank": 2,
@@ -69,7 +69,7 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T03:01:55.383687+00:00"
+      "gate_generated_at": "2026-09-19T05:18:43.200128+00:00"
     },
     {
       "rank": 3,
@@ -101,7 +101,7 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T03:01:55.383687+00:00"
+      "gate_generated_at": "2026-09-19T05:18:43.200128+00:00"
     },
     {
       "rank": 4,
@@ -127,17 +127,14 @@
         ],
         "match_score": 0.374
       },
-      "registerable": false,
+      "registerable": true,
       "registerable_source": "data/listing_gate.json",
-      "blocked_by": [
-        "copy"
-      ],
+      "blocked_by": [],
       "public_ready": false,
       "public_blocked_by": [
-        "copy",
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T03:01:55.383687+00:00"
+      "gate_generated_at": "2026-09-19T05:18:43.200128+00:00"
     },
     {
       "rank": 5,
@@ -177,7 +174,7 @@
         "legal",
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T03:01:55.383687+00:00"
+      "gate_generated_at": "2026-09-19T05:18:43.200128+00:00"
     },
     {
       "rank": 6,
@@ -210,7 +207,7 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T03:01:55.383687+00:00"
+      "gate_generated_at": "2026-09-19T05:18:43.200128+00:00"
     },
     {
       "rank": 7,
@@ -243,7 +240,7 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T03:01:55.383687+00:00"
+      "gate_generated_at": "2026-09-19T05:18:43.200128+00:00"
     },
     {
       "rank": 8,
@@ -276,7 +273,7 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T03:01:55.383687+00:00"
+      "gate_generated_at": "2026-09-19T05:18:43.200128+00:00"
     },
     {
       "rank": 9,
@@ -309,7 +306,7 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T03:01:55.383687+00:00"
+      "gate_generated_at": "2026-09-19T05:18:43.200128+00:00"
     },
     {
       "rank": 10,
@@ -335,19 +332,16 @@
         ],
         "match_score": 0.343
       },
-      "registerable": false,
+      "registerable": true,
       "registerable_source": "data/listing_gate.json",
-      "blocked_by": [
-        "copy"
-      ],
+      "blocked_by": [],
       "public_ready": false,
       "public_blocked_by": [
-        "copy",
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T03:01:55.383687+00:00"
+      "gate_generated_at": "2026-09-19T05:18:43.200128+00:00"
     }
   ],
-  "registerable_count": 7,
+  "registerable_count": 9,
   "registerable_source": "data/listing_gate.json"
 }

@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T03:01:57.592085+00:00",
-  "source_gate_generated_at": "2026-09-19T03:01:55.383687+00:00",
+  "generated_at": "2026-09-19T05:18:43.427403+00:00",
+  "source_gate_generated_at": "2026-09-19T05:18:43.200128+00:00",
   "gate_total": 10,
-  "gate_ready": 7,
+  "gate_ready": 9,
   "public_ready": 0,
   "legal_complete": 0,
-  "products_rows": 7,
-  "inventory_rows": 7,
-  "images_rows": 7,
-  "collections_rows": 6,
+  "products_rows": 9,
+  "inventory_rows": 9,
+  "images_rows": 9,
+  "collections_rows": 8,
   "variant_groups": {
     "VG-VT-REEDLE-SHOT": 2
   },
