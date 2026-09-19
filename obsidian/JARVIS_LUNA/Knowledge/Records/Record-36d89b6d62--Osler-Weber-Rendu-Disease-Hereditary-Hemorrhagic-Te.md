@@ -2,7 +2,7 @@
 title: "Record 36d89b6d62 · Osler-Weber-Rendu-Disease-Hereditary-Hemorrhagic-Te"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T20:08:51.034164+00:00
+updated_at: 2026-09-19T20:42:39.941069+00:00
 tags: [record, real-data]
 ---
 

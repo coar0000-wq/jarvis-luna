@@ -2,7 +2,7 @@
 title: "Record 416e5cf727 · Global-Investment-Strategy-Outlook-2023"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T20:08:51.563645+00:00
+updated_at: 2026-09-19T20:42:40.403952+00:00
 tags: [record, real-data]
 ---
 

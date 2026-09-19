@@ -2,7 +2,7 @@
 title: "Record 0ab5041661 · A-Korean-Makeup-Artist-Ranks-Viral-Sephora-Beauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T20:08:51.618632+00:00
+updated_at: 2026-09-19T20:42:40.449038+00:00
 tags: [record, real-data]
 ---
 

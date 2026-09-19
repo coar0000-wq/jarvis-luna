@@ -2,7 +2,7 @@
 title: "Record cde97d381c · The-world-of-K-beauty-pulled-into-one-Seoul-office---Aju-Press"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T20:08:51.226307+00:00
+updated_at: 2026-09-19T20:42:40.123955+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiW0FVX3lxTE1FVEpVbjd4NHpkSXRMLWMxUlZhanFySno3X2l3OGxrN3h0UmxVQ2dOcUEyd3NLZ21hSWdMekdkM3dVR0Q0aGtCbm9RYmc4Z1Zla1NRTWQ1MDJhUmvSAVdBVV95cUxNVGRpVXFONVRXV2tBeTh3Y1lmc0h0aWhucTJzR0JNa2lad3hVUUpVTm8tUWJLM0UzYXNtb1MtcWVSTUZjUk91aGwySU16UmNZUDdCczc3LWM?oc=5)
 
-**제목:** The world of K-beauty, pulled into one Seoul office - ajupress.com
+**제목:** The world of K-beauty, pulled into one Seoul office - Aju Press
 
-The world of K-beauty, pulled into one Seoul office - ajupress.com
+The world of K-beauty, pulled into one Seoul office - Aju Press
 
 **출처:** Source · Google Search
 

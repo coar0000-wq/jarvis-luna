@@ -2,7 +2,7 @@
 title: "Record 02318ae874 · ASML-reports-transactions-under-its-current-share-b"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T20:08:51.532673+00:00
+updated_at: 2026-09-19T20:42:40.377622+00:00
 tags: [record, real-data]
 ---
 

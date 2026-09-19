@@ -2,7 +2,7 @@
 title: "Record 0ab08d9fe4 · Three-Non-Executive-Directors-Join-Barclays-Uk-Boar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T20:08:51.535225+00:00
+updated_at: 2026-09-19T20:42:40.379837+00:00
 tags: [record, real-data]
 ---
 

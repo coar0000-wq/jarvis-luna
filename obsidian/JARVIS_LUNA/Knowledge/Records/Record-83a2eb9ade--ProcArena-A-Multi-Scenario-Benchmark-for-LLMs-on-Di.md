@@ -2,7 +2,7 @@
 title: "Record 83a2eb9ade · ProcArena-A-Multi-Scenario-Benchmark-for-LLMs-on-Di"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T20:08:50.966198+00:00
+updated_at: 2026-09-19T20:42:39.851023+00:00
 tags: [record, real-data]
 ---
 

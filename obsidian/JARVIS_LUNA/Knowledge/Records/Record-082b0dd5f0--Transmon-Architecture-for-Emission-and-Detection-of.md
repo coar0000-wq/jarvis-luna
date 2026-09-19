@@ -2,7 +2,7 @@
 title: "Record 082b0dd5f0 · Transmon-Architecture-for-Emission-and-Detection-of"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T20:08:51.435823+00:00
+updated_at: 2026-09-19T20:42:40.286494+00:00
 tags: [record, real-data]
 ---
 

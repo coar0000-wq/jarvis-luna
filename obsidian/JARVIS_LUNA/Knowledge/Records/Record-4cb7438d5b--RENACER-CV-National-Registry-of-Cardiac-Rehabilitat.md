@@ -2,7 +2,7 @@
 title: "Record 4cb7438d5b · RENACER-CV-National-Registry-of-Cardiac-Rehabilitat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T20:08:51.181566+00:00
+updated_at: 2026-09-19T20:42:40.079409+00:00
 tags: [record, real-data]
 ---
 

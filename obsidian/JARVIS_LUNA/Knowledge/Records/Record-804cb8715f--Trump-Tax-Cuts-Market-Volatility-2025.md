@@ -2,7 +2,7 @@
 title: "Record 804cb8715f · Trump-Tax-Cuts-Market-Volatility-2025"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T20:08:51.571163+00:00
+updated_at: 2026-09-19T20:42:40.409642+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 0737a00bd3 · Taraji-P-Henson-Makes-a-Flawless-Case-for-Matching-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T20:08:51.501417+00:00
+updated_at: 2026-09-19T20:42:40.349807+00:00
 tags: [record, real-data]
 ---
 
