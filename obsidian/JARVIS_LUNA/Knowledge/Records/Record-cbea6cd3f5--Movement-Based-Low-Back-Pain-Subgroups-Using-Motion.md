@@ -2,7 +2,7 @@
 title: "Record cbea6cd3f5 · Movement-Based-Low-Back-Pain-Subgroups-Using-Motion"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T17:10:46.226895+00:00
+updated_at: 2026-09-19T20:08:51.122842+00:00
 tags: [record, real-data]
 ---
 

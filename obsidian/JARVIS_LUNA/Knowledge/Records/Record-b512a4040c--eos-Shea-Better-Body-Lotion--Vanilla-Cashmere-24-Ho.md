@@ -2,7 +2,7 @@
 title: "Record b512a4040c · eos-Shea-Better-Body-Lotion--Vanilla-Cashmere-24-Hour-Moisture-16-fl-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T17:10:46.722256+00:00
+updated_at: 2026-09-19T20:08:51.513046+00:00
 tags: [record, real-data]
 ---
 

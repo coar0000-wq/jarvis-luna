@@ -2,7 +2,7 @@
 title: "Record df495fa3f9 · RedEvoAgent-Automatic-Red-Teaming-Agent-with-Experi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T17:10:46.934140+00:00
+updated_at: 2026-09-19T20:08:51.661699+00:00
 tags: [record, real-data]
 ---
 

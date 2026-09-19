@@ -2,7 +2,7 @@
 title: "Record 34ebff070a · Florence-Pughs-Emmys-2026-Updo-Defies-ExplanationSe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T17:10:46.698604+00:00
+updated_at: 2026-09-19T20:08:51.496241+00:00
 tags: [record, real-data]
 ---
 

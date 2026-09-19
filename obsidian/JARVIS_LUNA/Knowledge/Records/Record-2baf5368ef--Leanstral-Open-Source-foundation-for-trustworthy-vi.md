@@ -2,7 +2,7 @@
 title: "Record 2baf5368ef · Leanstral-Open-Source-foundation-for-trustworthy-vi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T17:10:46.335009+00:00
+updated_at: 2026-09-19T20:08:51.204442+00:00
 tags: [record, real-data]
 ---
 

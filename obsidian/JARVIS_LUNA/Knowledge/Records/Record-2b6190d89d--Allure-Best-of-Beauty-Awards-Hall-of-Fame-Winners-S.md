@@ -2,7 +2,7 @@
 title: "Record 2b6190d89d · Allure-Best-of-Beauty-Awards-Hall-of-Fame-Winners-Skin-Makeup-Hair-Pro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T17:10:46.689446+00:00
+updated_at: 2026-09-19T20:08:51.489518+00:00
 tags: [record, real-data]
 ---
 

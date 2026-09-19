@@ -2,7 +2,7 @@
 title: "Record 8d82890fa5 · Cloud-Workflow-Scheduling-Based-on-Graph-Attention-Driven-Hierarchical"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T17:10:46.066080+00:00
+updated_at: 2026-09-19T20:08:51.006538+00:00
 tags: [record, real-data]
 ---
 

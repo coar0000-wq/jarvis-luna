@@ -2,7 +2,7 @@
 title: "Record 646d8b7915 · Using-Automated-Vehicles-Operational-Data-to-Confir"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T17:10:46.051588+00:00
+updated_at: 2026-09-19T20:08:50.996212+00:00
 tags: [record, real-data]
 ---
 

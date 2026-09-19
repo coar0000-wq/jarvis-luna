@@ -2,7 +2,7 @@
 title: "Record 183e604ab0 · 여드름-연고-발라도-소용없으면-뭘까"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T17:10:46.880020+00:00
+updated_at: 2026-09-19T20:08:51.624598+00:00
 tags: [record, real-data]
 ---
 

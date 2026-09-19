@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T17:01:58.360193+00:00",
+  "generated_at": "2026-09-19T20:01:19.901087+00:00",
   "generator": "scripts/ingest_youtube_channels.py",
   "입력": "data/manual/youtube_channels.txt",
   "robots": "youtube.com/robots.txt 의 Disallow 목록에 /@ 와 /channel/ 은 없다. 막힌 것은 /feeds/videos.xml, /results, /youtubei/ 등이다. 지정된 채널만 하나씩 본다. 2026-09-06 확인.",
@@ -16,23 +16,14 @@
     "sourcing": 1
   },
   "팀_고정": "한 번 정한 팀은 유지한다. 유튜브가 제목을 A/B 로 돌려서 같은 영상이 회차마다 다른 팀으로 가는 일이 있었다.",
-  "제목_바뀐_영상": [
-    {
-      "video_id": "hikTGKo2kZE",
-      "before": "책은 가장 가성비 좋은 인풋입니다 📚  | 브랜드 대표가 직접 고른 브랜딩 필독서",
-      "after": "브랜딩 감각을 키우고 싶다면👀 | 사업부터 브랜딩까지 분야별 필독서 추천",
-      "kept_teams": [
-        "design"
-      ]
-    }
-  ],
+  "제목_바뀐_영상": [],
   "top_by_views": [
     {
       "video_id": "6lSvKk7lTl0",
       "title": "Horizontal and Vertical Scroll in Figma - Quick Prototyping Tutorial",
-      "views_text": "773K views",
+      "views_text": "774K views",
       "published_text": "3 years ago",
-      "views": 773000,
+      "views": 774000,
       "url": "https://www.youtube.com/watch?v=6lSvKk7lTl0",
       "channel": "uxpeak",
       "teams": [
@@ -54,9 +45,9 @@
     {
       "video_id": "2TlIg3VokY8",
       "title": "The UX Psychology Behind Apps People Can’t Stop Using",
-      "views_text": "509K views",
+      "views_text": "510K views",
       "published_text": "2 months ago",
-      "views": 509000,
+      "views": 510000,
       "url": "https://www.youtube.com/watch?v=2TlIg3VokY8",
       "channel": "uxpeak",
       "teams": [
@@ -89,10 +80,10 @@
     },
     {
       "video_id": "GGg61sdEjeI",
-      "title": "This UI/UX Redesign Will Teach You More Than 500 Tutorials Combined",
-      "views_text": "299K views",
+      "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
+      "views_text": "301K views",
       "published_text": "3 weeks ago",
-      "views": 299000,
+      "views": 301000,
       "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
       "channel": "uxpeak",
       "teams": [
@@ -211,7 +202,7 @@
   "items": [
     {
       "stale": false,
-      "last_ok_at": "2026-09-19T17:01:47.865914+00:00",
+      "last_ok_at": "2026-09-19T20:01:09.513989+00:00",
       "url": "https://www.youtube.com/@uxpeak",
       "note": "UX/UI 리디자인·전환율 (사용자 지정)",
       "team_hint": "design",
@@ -220,14 +211,14 @@
       "subscribers": "125K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-19T17:01:47.865936+00:00",
+      "checked_at": "2026-09-19T20:01:09.514014+00:00",
       "videos": [
         {
           "video_id": "GGg61sdEjeI",
-          "title": "This UI/UX Redesign Will Teach You More Than 500 Tutorials Combined",
-          "views_text": "299K views",
+          "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
+          "views_text": "301K views",
           "published_text": "3 weeks ago",
-          "views": 299000,
+          "views": 301000,
           "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
           "channel": "uxpeak",
           "teams": [
@@ -237,9 +228,9 @@
         {
           "video_id": "2TlIg3VokY8",
           "title": "The UX Psychology Behind Apps People Can’t Stop Using",
-          "views_text": "509K views",
+          "views_text": "510K views",
           "published_text": "2 months ago",
-          "views": 509000,
+          "views": 510000,
           "url": "https://www.youtube.com/watch?v=2TlIg3VokY8",
           "channel": "uxpeak",
           "teams": [
@@ -453,9 +444,9 @@
         {
           "video_id": "6lSvKk7lTl0",
           "title": "Horizontal and Vertical Scroll in Figma - Quick Prototyping Tutorial",
-          "views_text": "773K views",
+          "views_text": "774K views",
           "published_text": "3 years ago",
-          "views": 773000,
+          "views": 774000,
           "url": "https://www.youtube.com/watch?v=6lSvKk7lTl0",
           "channel": "uxpeak",
           "teams": [
@@ -478,23 +469,23 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-19T17:01:53.359977+00:00",
+      "last_ok_at": "2026-09-19T20:01:14.900914+00:00",
       "url": "https://www.youtube.com/@%EB%95%A1%ED%81%90%EC%B1%84%EB%84%90",
       "note": "땡스큐레이터 - 스몰 브랜드 브랜딩·수출·견적. 팀은 영상마다 자동 분류",
       "team_hint": "",
       "channel_name": "땡스큐레이터",
       "channel_id": "UCTBhYGg_U_pBOKLydoZrhwg",
-      "subscribers": "18.9K",
+      "subscribers": "19K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-19T17:01:53.359992+00:00",
+      "checked_at": "2026-09-19T20:01:14.900931+00:00",
       "videos": [
         {
           "video_id": "hikTGKo2kZE",
           "title": "브랜딩 감각을 키우고 싶다면👀 | 사업부터 브랜딩까지 분야별 필독서 추천",
-          "views_text": "18K views",
+          "views_text": "19K views",
           "published_text": "2 days ago",
-          "views": 18000,
+          "views": 19000,
           "url": "https://www.youtube.com/watch?v=hikTGKo2kZE",
           "channel": "땡스큐레이터",
           "teams": [
@@ -530,9 +521,9 @@
         {
           "video_id": "ctBFjJ0ujKs",
           "title": "🚨견적서가 너무 어려운 사장님들 주목! | 견적 책정 기준부터 세부 항목까지 자세하게 뜯어보기 👀",
-          "views_text": "4.2K views",
+          "views_text": "4.3K views",
           "published_text": "1 month ago",
-          "views": 4200,
+          "views": 4300,
           "url": "https://www.youtube.com/watch?v=ctBFjJ0ujKs",
           "channel": "땡스큐레이터",
           "teams": [

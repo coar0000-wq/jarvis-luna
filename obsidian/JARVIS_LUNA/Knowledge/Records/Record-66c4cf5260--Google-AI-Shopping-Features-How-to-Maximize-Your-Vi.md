@@ -2,7 +2,7 @@
 title: "Record 66c4cf5260 · Google-AI-Shopping-Features-How-to-Maximize-Your-Visibility---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T17:10:46.366931+00:00
+updated_at: 2026-09-19T20:08:51.230735+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiX0FVX3lxTE10NzhpcmV5NHV6RmFwZ3Y2MmFvOS1raVlxQ2h5SDh1YUNPejBpcGFEWnFGM0NXa3pCWllJcEdpcnUtUmxrV0xrVjZuNkhpTFNwLTI2VkFhRHJvcG93eXhF?oc=5)
 
-**제목:** Google AI Shopping Features: How to Maximize Your Visibility - shopify.com
+**제목:** Google AI Shopping Features: How to Maximize Your Visibility - Shopify
 
-Google AI Shopping Features: How to Maximize Your Visibility - shopify.com
+Google AI Shopping Features: How to Maximize Your Visibility - Shopify
 
 **출처:** Source · Google Search
 

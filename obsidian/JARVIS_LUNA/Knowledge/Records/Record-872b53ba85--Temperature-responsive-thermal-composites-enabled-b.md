@@ -2,7 +2,7 @@
 title: "Record 872b53ba85 · Temperature-responsive-thermal-composites-enabled-b"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T17:10:46.123066+00:00
+updated_at: 2026-09-19T20:08:51.047456+00:00
 tags: [record, real-data]
 ---
 

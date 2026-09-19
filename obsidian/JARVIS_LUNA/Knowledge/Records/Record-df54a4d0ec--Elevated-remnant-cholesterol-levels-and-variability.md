@@ -2,7 +2,7 @@
 title: "Record df54a4d0ec · Elevated-remnant-cholesterol-levels-and-variability"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T17:10:46.125982+00:00
+updated_at: 2026-09-19T20:08:51.049538+00:00
 tags: [record, real-data]
 ---
 

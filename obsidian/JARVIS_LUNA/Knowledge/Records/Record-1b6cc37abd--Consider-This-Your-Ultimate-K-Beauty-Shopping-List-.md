@@ -2,7 +2,7 @@
 title: "Record 1b6cc37abd · Consider-This-Your-Ultimate-K-Beauty-Shopping-List---SheerLuxe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T17:10:46.476354+00:00
+updated_at: 2026-09-19T20:08:51.319997+00:00
 tags: [record, real-data]
 ---
 

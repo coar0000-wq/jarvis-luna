@@ -2,7 +2,7 @@
 title: "Record 05d33c9db8 · Korea-Town-by-Boutiqaat-Welcomes-AXIS-Y-Accelerating-the-Future-of-K-B"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T17:10:46.347348+00:00
+updated_at: 2026-09-19T20:08:51.214497+00:00
 tags: [record, real-data]
 ---
 

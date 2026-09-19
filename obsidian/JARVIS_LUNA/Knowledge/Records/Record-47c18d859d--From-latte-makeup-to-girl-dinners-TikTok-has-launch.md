@@ -2,7 +2,7 @@
 title: "Record 47c18d859d · From-latte-makeup-to-girl-dinners-TikTok-has-launch"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T17:10:46.510038+00:00
+updated_at: 2026-09-19T20:08:51.347149+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMilAFBVV95cUxNLTUzeVFyWWtLajZFMjRMRGpVSWdQR0g2bUdmS3IzeWUwVzNheUY5Rl9fcW9RWlRzV1hGV2dHLTBEbldTUEFlWFRlVDZJV0F0Xy01T1YwT3pEVW1XYzB0UGpReVFBd0lrNHJlSE5ib2VVZXVXVkpJZmxhdDFGSWpEQ0l1VHZMTEpvZU1hTTM1bDlNSzF4?oc=5)
 
-**제목:** From 'latte makeup' to 'girl dinners,' TikTok has launched tons of trends. Will its influence last? - apnews.com
+**제목:** From 'latte makeup' to 'girl dinners,' TikTok has launched tons of trends. Will its influence last? - AP News
 
-From 'latte makeup' to 'girl dinners,' TikTok has launched tons of trends. Will its influence last? - apnews.com
+From 'latte makeup' to 'girl dinners,' TikTok has launched tons of trends. Will its influence last? - AP News
 
 **출처:** Source · Google Search
 

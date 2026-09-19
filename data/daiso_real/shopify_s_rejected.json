@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T17:09:03.224293+00:00",
+  "generated_at": "2026-09-19T20:07:13.835968+00:00",
   "note": "점수는 높았으나 S에서 탈락한 후보. 등록하지 말 것.",
   "count": 57,
   "items": [
@@ -9,9 +9,9 @@
       "name": "[탄력광채]VT PDRN 광채 에센스 2 ml 6개입",
       "bucket": "스킨케어",
       "shopify_score": 100,
-      "s_rule": "no_global_match",
+      "s_rule": "match_too_weak",
       "downgrade_reason": null,
-      "recommend_reason": "스킨케어 카테고리 · 평점 4.9 · 리뷰 2,920건 (글로벌 시그널 약함)"
+      "recommend_reason": "글로벌 'Anua PDRN Hyaluronic Acid Capsule 100 Serum Refill Set 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 38% · 토큰 pdrn · S제외:match_too_weak"
     },
     {
       "canonical_product_id": "CP000085",
@@ -21,7 +21,7 @@
       "shopify_score": 98,
       "s_rule": "form_cap",
       "downgrade_reason": "동일 제형(앰플) 상위 2개에 밀림",
-      "recommend_reason": "글로벌 'lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)' (oliveyoung_us) 유사 67% · 토큰 ampoule"
+      "recommend_reason": "글로벌 'REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 73% · 토큰 ampoule"
     },
     {
       "canonical_product_id": "CP000117",
@@ -31,7 +31,7 @@
       "shopify_score": 98,
       "s_rule": "form_cap",
       "downgrade_reason": "동일 제형(앰플) 상위 2개에 밀림",
-      "recommend_reason": "글로벌 'lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)' (oliveyoung_us) 유사 67% · 토큰 ampoule"
+      "recommend_reason": "글로벌 'REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 73% · 토큰 ampoule"
     },
     {
       "canonical_product_id": "CP000197",
@@ -41,7 +41,7 @@
       "shopify_score": 98,
       "s_rule": "form_cap",
       "downgrade_reason": "동일 제형(앰플) 상위 2개에 밀림",
-      "recommend_reason": "글로벌 'lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)' (oliveyoung_us) 유사 67% · 토큰 ampoule"
+      "recommend_reason": "글로벌 'REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 73% · 토큰 ampoule"
     },
     {
       "canonical_product_id": "CP000178",
@@ -51,7 +51,7 @@
       "shopify_score": 98,
       "s_rule": "match_too_weak",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 42% · 토큰 vitaminc · S제외:match_too_weak"
+      "recommend_reason": "글로벌 'REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 33% · 토큰 ampoule · S제외:match_too_weak"
     },
     {
       "canonical_product_id": "CP000101",
@@ -61,7 +61,17 @@
       "shopify_score": 97,
       "s_rule": "form_cap",
       "downgrade_reason": "동일 제형(앰플) 상위 2개에 밀림",
-      "recommend_reason": "글로벌 'lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)' (oliveyoung_us) 유사 67% · 토큰 ampoule"
+      "recommend_reason": "글로벌 'REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 73% · 토큰 ampoule"
+    },
+    {
+      "canonical_product_id": "CP000134",
+      "pd_no": "1056647",
+      "name": "VT 콜라겐 리들샷 S50 페이셜 부스팅 퍼스트 앰플 2ml 6개입",
+      "bucket": "스킨케어",
+      "shopify_score": 96,
+      "s_rule": "match_too_weak",
+      "downgrade_reason": null,
+      "recommend_reason": "글로벌 'REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 43% · 토큰 ampoule · S제외:match_too_weak"
     },
     {
       "canonical_product_id": "CP000181",
@@ -71,7 +81,7 @@
       "shopify_score": 96,
       "s_rule": "match_too_weak",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 52% · 토큰 vitaminc · S제외:match_too_weak"
+      "recommend_reason": "글로벌 'REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 43% · 토큰 ampoule · S제외:match_too_weak"
     },
     {
       "canonical_product_id": "CP000100",
@@ -84,6 +94,16 @@
       "recommend_reason": "글로벌 'REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 43% · 토큰 ampoule · S제외:match_too_weak"
     },
     {
+      "canonical_product_id": "CP000218",
+      "pd_no": "1067500",
+      "name": "[이중턱리프팅]VT PDRN 광채리프팅마스크 1매 27 g+광채에센스 1.5 ml",
+      "bucket": "마스크팩",
+      "shopify_score": 96,
+      "s_rule": "match_too_weak",
+      "downgrade_reason": null,
+      "recommend_reason": "글로벌 'Anua PDRN Hyaluronic Acid Capsule 100 Serum Refill Set 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 38% · 토큰 pdrn · S제외:match_too_weak"
+    },
+    {
       "canonical_product_id": "CP000198",
       "pd_no": "1064419",
       "name": "닥터오라클 큐어소나 리쥬코드 캡슐 세럼 30 ml",
@@ -94,44 +114,14 @@
       "recommend_reason": "글로벌 'Liposome Advanced Repair Serum Bundle' (ulta_beauty) 유사 26% · 토큰 serum · S제외:weak_solo_token"
     },
     {
-      "canonical_product_id": "CP000083",
-      "pd_no": "1044553",
-      "name": "마데카21 테카 솔루션 수딩 미스트 토너 200 ml",
-      "bucket": "스킨케어",
-      "shopify_score": 96,
-      "s_rule": "no_global_match",
-      "downgrade_reason": null,
-      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 15,987건 (글로벌 시그널 약함)"
-    },
-    {
-      "canonical_product_id": "CP000218",
-      "pd_no": "1067500",
-      "name": "[이중턱리프팅]VT PDRN 광채리프팅마스크 1매 27 g+광채에센스 1.5 ml",
-      "bucket": "마스크팩",
-      "shopify_score": 96,
-      "s_rule": "no_global_match",
-      "downgrade_reason": null,
-      "recommend_reason": "마스크팩 카테고리 · 평점 4.8 · 리뷰 2,102건 (글로벌 시그널 약함)"
-    },
-    {
       "canonical_product_id": "CP000262",
       "pd_no": "1073405",
       "name": "더랩바이블랑두 클리어히알결광 세럼미스트 150 ml",
       "bucket": "스킨케어",
-      "shopify_score": 95,
+      "shopify_score": 96,
       "s_rule": "no_global_match",
       "downgrade_reason": null,
       "recommend_reason": "스킨케어 카테고리 · 평점 4.7 · 리뷰 1,616건 (글로벌 시그널 약함)"
-    },
-    {
-      "canonical_product_id": "CP000052",
-      "pd_no": "1035080",
-      "name": "애즈어스 시카 카밍 토너 패드 100매입",
-      "bucket": "스킨케어",
-      "shopify_score": 94,
-      "s_rule": "match_too_weak",
-      "downgrade_reason": null,
-      "recommend_reason": "글로벌 'medicube Toner Pads Zero Pore Pad 2.0 for Exfoliation and Pore Care | Dual-Textured Facial Pad with 4.5% AHA Lactic Acid, 0.45% BHA Salicylic Acid - For All, Korean Skin Care, 70 Pads, 1 Pack' (amazon_best_sellers) 유사 32% · 토큰 toner · S제외:match_too_weak"
     },
     {
       "canonical_product_id": "CP000170",
@@ -144,6 +134,16 @@
       "recommend_reason": "글로벌 'S.NATURE Aqua Squalane Moisturizing Cream 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 76% · 토큰 cream, moisturizer"
     },
     {
+      "canonical_product_id": "CP000190",
+      "pd_no": "1062781",
+      "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+      "bucket": "스킨케어",
+      "shopify_score": 93,
+      "s_rule": "form_cap",
+      "downgrade_reason": "동일 제형(크림) 상위 2개에 밀림",
+      "recommend_reason": "글로벌 'Lacto-PDRN 4% + B9 Eye Cream' (ulta_beauty) 유사 68% · 토큰 cream, pdrn"
+    },
+    {
       "canonical_product_id": "CP000179",
       "pd_no": "1061920",
       "name": "본셉 비타씨 크림 50 ml",
@@ -154,16 +154,6 @@
       "recommend_reason": "글로벌 'Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 52% · 토큰 vitaminc · S제외:match_too_weak"
     },
     {
-      "canonical_product_id": "CP000134",
-      "pd_no": "1056647",
-      "name": "VT 콜라겐 리들샷 S50 페이셜 부스팅 퍼스트 앰플 2ml 6개입",
-      "bucket": "스킨케어",
-      "shopify_score": 93,
-      "s_rule": "match_too_weak",
-      "downgrade_reason": null,
-      "recommend_reason": "글로벌 'REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 43% · 토큰 ampoule · S제외:match_too_weak"
-    },
-    {
       "canonical_product_id": "CP000230",
       "pd_no": "1068721",
       "name": "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml",
@@ -172,6 +162,26 @@
       "s_rule": "match_too_weak",
       "downgrade_reason": null,
       "recommend_reason": "글로벌 'Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 42% · 토큰 vitaminc · S제외:match_too_weak"
+    },
+    {
+      "canonical_product_id": "CP000052",
+      "pd_no": "1035080",
+      "name": "애즈어스 시카 카밍 토너 패드 100매입",
+      "bucket": "스킨케어",
+      "shopify_score": 93,
+      "s_rule": "match_too_weak",
+      "downgrade_reason": null,
+      "recommend_reason": "글로벌 'medicube Toner Pads Zero Pore Pad 2.0 for Exfoliation and Pore Care | Dual-Textured Facial Pad with 4.5% AHA Lactic Acid, 0.45% BHA Salicylic Acid - For All, Korean Skin Care, 70 Pads, 1 Pack' (amazon_best_sellers) 유사 32% · 토큰 toner · S제외:match_too_weak"
+    },
+    {
+      "canonical_product_id": "CP000214",
+      "pd_no": "1067495",
+      "name": "[퀵 수분충전]VT PDRN 광채 토너 200 ml",
+      "bucket": "스킨케어",
+      "shopify_score": 93,
+      "s_rule": "match_too_weak",
+      "downgrade_reason": null,
+      "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 30% · 토큰 toner · S제외:match_too_weak"
     },
     {
       "canonical_product_id": "CP000084",
@@ -254,14 +264,24 @@
       "recommend_reason": "글로벌 'Lacto-PDRN 4% + B9 Eye Cream' (ulta_beauty) 유사 88% · 토큰 cream, pdrn"
     },
     {
-      "canonical_product_id": "CP000190",
-      "pd_no": "1062781",
-      "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+      "canonical_product_id": "CP000083",
+      "pd_no": "1044553",
+      "name": "마데카21 테카 솔루션 수딩 미스트 토너 200 ml",
+      "bucket": "스킨케어",
+      "shopify_score": 92,
+      "s_rule": "no_global_match",
+      "downgrade_reason": null,
+      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 15,987건 (글로벌 시그널 약함)"
+    },
+    {
+      "canonical_product_id": "CP000242",
+      "pd_no": "1071644",
+      "name": "파티온 노스카나인 퍼스트스텝 흔적수분크림 50 ml",
       "bucket": "스킨케어",
       "shopify_score": 91,
       "s_rule": "form_cap",
       "downgrade_reason": "동일 제형(크림) 상위 2개에 밀림",
-      "recommend_reason": "글로벌 'Lacto-PDRN 4% + B9 Eye Cream' (ulta_beauty) 유사 68% · 토큰 cream, pdrn"
+      "recommend_reason": "글로벌 'Pocket Blush Buildable Hydrating Cream Blush' (sephora) 유사 71% · 토큰 cream, hydrating"
     },
     {
       "canonical_product_id": "CP000144",
@@ -284,14 +304,14 @@
       "recommend_reason": "마스크팩 카테고리 · 평점 4.8 · 리뷰 3,692건 (글로벌 시그널 약함)"
     },
     {
-      "canonical_product_id": "CP000242",
-      "pd_no": "1071644",
-      "name": "파티온 노스카나인 퍼스트스텝 흔적수분크림 50 ml",
-      "bucket": "스킨케어",
+      "canonical_product_id": "CP000157",
+      "pd_no": "1060487",
+      "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
+      "bucket": "마스크팩",
       "shopify_score": 90,
-      "s_rule": "form_cap",
-      "downgrade_reason": "동일 제형(크림) 상위 2개에 밀림",
-      "recommend_reason": "글로벌 'Pocket Blush Buildable Hydrating Cream Blush' (sephora) 유사 71% · 토큰 cream, hydrating"
+      "s_rule": "match_too_weak",
+      "downgrade_reason": null,
+      "recommend_reason": "글로벌 'Medicube Zero Pore Pad' (tiktok_shop_us) 유사 43% · 토큰 pore · S제외:match_too_weak"
     },
     {
       "canonical_product_id": "CP000184",
@@ -314,16 +334,6 @@
       "recommend_reason": "스킨케어 카테고리 · 평점 4.7 · 리뷰 953건 (글로벌 시그널 약함)"
     },
     {
-      "canonical_product_id": "CP000157",
-      "pd_no": "1060487",
-      "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
-      "bucket": "마스크팩",
-      "shopify_score": 89,
-      "s_rule": "match_too_weak",
-      "downgrade_reason": null,
-      "recommend_reason": "글로벌 'Medicube Zero Pore Pad' (tiktok_shop_us) 유사 43% · 토큰 pore · S제외:match_too_weak"
-    },
-    {
       "canonical_product_id": "CP000261",
       "pd_no": "1073250",
       "name": "AHC 에이지리뉴 아이크림 하이드레이션 30 ml",
@@ -344,6 +354,16 @@
       "recommend_reason": "글로벌 '[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)' (oliveyoung_us) 유사 27% · 토큰 mask · S제외:weak_solo_token"
     },
     {
+      "canonical_product_id": "CP000236",
+      "pd_no": "1069995",
+      "name": "실크테라피 실크케라틴 앰플트리트먼트 150 ml",
+      "bucket": "헤어케어",
+      "shopify_score": 89,
+      "s_rule": "no_global_match",
+      "downgrade_reason": null,
+      "recommend_reason": "헤어케어 카테고리 · 평점 4.8 · 리뷰 737건 (글로벌 시그널 약함)"
+    },
+    {
       "canonical_product_id": "CP000108",
       "pd_no": "1049277",
       "name": "[진정보습]VT 시카 슬리핑 마스크 4 ml 6개입",
@@ -354,16 +374,6 @@
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 37% · 토큰 centella · S제외:match_too_weak"
     },
     {
-      "canonical_product_id": "CP000236",
-      "pd_no": "1069995",
-      "name": "실크테라피 실크케라틴 앰플트리트먼트 150 ml",
-      "bucket": "헤어케어",
-      "shopify_score": 88,
-      "s_rule": "no_global_match",
-      "downgrade_reason": null,
-      "recommend_reason": "헤어케어 카테고리 · 평점 4.8 · 리뷰 737건 (글로벌 시그널 약함)"
-    },
-    {
       "canonical_product_id": "CP000155",
       "pd_no": "1060211",
       "name": "바세린 모이스처라이징 클렌징 밀크 140 ml",
@@ -372,16 +382,6 @@
       "s_rule": "match_too_weak",
       "downgrade_reason": null,
       "recommend_reason": "글로벌 'S.NATURE Aqua Squalane Moisturizing Cream 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 38% · 토큰 moisturizer · S제외:match_too_weak"
-    },
-    {
-      "canonical_product_id": "CP000214",
-      "pd_no": "1067495",
-      "name": "[퀵 수분충전]VT PDRN 광채 토너 200 ml",
-      "bucket": "스킨케어",
-      "shopify_score": 87,
-      "s_rule": "match_too_weak",
-      "downgrade_reason": null,
-      "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 30% · 토큰 toner · S제외:match_too_weak"
     },
     {
       "canonical_product_id": "CP000053",

@@ -2,7 +2,7 @@
 title: "Record 0f16d2a7c3 · MiX-Micro-Inverted-Scaling-for-End-to-End-Low-Bit-Vision-Language-Mode"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T17:10:46.262684+00:00
+updated_at: 2026-09-19T20:08:51.150222+00:00
 tags: [record, real-data]
 ---
 

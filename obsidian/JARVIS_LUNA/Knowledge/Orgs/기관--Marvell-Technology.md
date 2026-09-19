@@ -2,7 +2,7 @@
 title: "기관 · Marvell Technology"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T17:10:47.190833+00:00
+updated_at: 2026-09-19T20:08:51.875239+00:00
 tags: [org, real-data]
 ---
 

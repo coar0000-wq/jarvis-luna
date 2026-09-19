@@ -2,7 +2,7 @@
 title: "Record 2005cbd964 · Video-Friday-Drones-Go-Heavy-in-DARPA-Lift-Challeng"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T17:10:46.655456+00:00
+updated_at: 2026-09-19T20:08:51.464251+00:00
 tags: [record, real-data]
 ---
 

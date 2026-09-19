@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T17:02:04.871251+00:00",
+  "generated_at": "2026-09-19T20:01:24.052629+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
@@ -15,9 +15,9 @@
       "products": 338
     },
     "market": {
-      "total": 473,
+      "total": 475,
       "recent": 37,
-      "material": 473,
+      "material": 475,
       "material_recent": 37,
       "products": 0
     },
@@ -657,14 +657,14 @@
         "by_hand": false
       },
       {
-        "title": "This K-Beauty Serum Is ‘More Like A Potent Magic Potion For Rejuvenating Skin’ — And It’s On Sale - Yahoo",
+        "title": "This K-Beauty Serum Is ‘More Like A Potent Magic Potion For Rejuvenating Skin’ — And It’s On Sale - shopping.yahoo.com",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSzY0SWNkbUh6NGJHVFlld3FOU2hDT1k2V0hocUxLdTR5d2t6bk1fUTZoejhiRmlydXVmdUhqcHlsU0ZmZFFkbGhKY0gxR294dkZXVEtldHI0MUxiY2U2QVpKbnZRQVZSRllMZGZ0dzRYQXo4NjhKbWRXY29FbURCTThNUkJIamVoTmltOWI4ZnhRVGlyQ05Gdg?oc=5",
         "pool": "google",
         "date": "2026-09-18",
         "by_hand": false
       },
       {
-        "title": "This Viral K-Beauty Moisturizer Gave Me My Glow Back - Coveteur",
+        "title": "This Viral K-Beauty Moisturizer Gave Me My Glow Back - coveteur.com",
         "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1lMW1VRnVJQk1yMnVKTDVJQzRtYlU4WHJSd3dta0c0QXV5MXBWV01pMExrc0kzRTRVLVd0NzdnZlF1dmppbFQ2TUprX1JJOUdFT0lpWE5jdF9lZXQweHdJanBtcw?oc=5",
         "pool": "google",
         "date": "2026-09-18",
@@ -727,7 +727,7 @@
         "by_hand": false
       },
       {
-        "title": "K-beauty: Why Korea's skincare industry is dominating cosmetics - RTE.ie",
+        "title": "K-beauty: Why Korea's skincare industry is dominating cosmetics - rte.ie",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdzBLZFB4dFNnQnNvRm52OFZDZDhOR0tZbml1WjQ0b2ZDb1JPMi16VEY2b0FDUURnTmNwd3c4bWhWaFp1SHZ5NXdVQjVBWEx3Qm5iT1FJVm05bUNlZEVRY3RkN2VYaThRYWZvc2RGc0JkWXhHX3BYbGNBY0pmUVRhdTY1UkhTM19Hd1pCQjZWc09JUC1SUzhJV0FEckRZSFlRTHZlNThMckowQWhKaEFheTVCQjZsRVpD?oc=5",
         "pool": "google",
         "date": "2026-09-16",
@@ -735,7 +735,7 @@
       },
       {
         "title": "Kendall Jenner’s K-Beauty Routine Is on Sale—Here’s Where to Find It - E! News",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeWNLNGFuSHl0X18yb1hMVUlQR0xQLUJoSWlsLV9WWktSTTNGajB4R2h1RlQ2Wno3Mi1BQ2c1X0NqSUxRZWpzMzNmRHdvZ2dYTmYyR3JJaTNxb3N5bU1MSzBsaE5OMHpSX1hiUUtMMDNHV1JRdFlqWmxueGNmbGFtU1J0UTZhaVNrVmYyV3NB?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSGx3d2hKVFRVbm14VUJVTTJQOHZ5STQ5SEROU2lBcDFmdmRndWZzRFQ2bGlVQ0N6eXpCYm02a1UzczUzLUdHZERFb1NuSlF6Z19uakswWWlyVzZJd2JRMVhGMVlOMXNnVHlmaFBhZ3FvOGhGbmc5SXdlWVJ6R1JTcmxhc0lrS1dUYmhERg?oc=5",
         "pool": "google",
         "date": "2026-09-16",
         "by_hand": false
@@ -811,7 +811,7 @@
         "by_hand": false
       },
       {
-        "title": "The Vogue Business TikTok Trend Tracker - Vogue",
+        "title": "The Vogue Business TikTok Trend Tracker - vogue.com",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9nc2ktNnQxVzlMTjl1MjR5MFYwSkMtVjI1Z0VhZlBLU0JqVlBjdHUyejJCVDV3OE9xYmF3ckhxR2VXLTk1Y3ZScXZfN0VPSU1ManFXYmFUWWxKTDN6cjFXTzk2OGxSVWxDOHIyeXZmRG9jUktfd2FIMg?oc=5",
         "pool": "google",
         "date": "2026-09-11",
@@ -853,14 +853,14 @@
         "by_hand": false
       },
       {
-        "title": "Would You Go on a Glowcation? K-Beauty Is Betting So - Vogue",
+        "title": "Would You Go on a Glowcation? K-Beauty Is Betting So - vogue.com",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ01YZ2lKV0VUQzJROHZVVnJZbWM1dkw1TFRGLXFMcUx0dWhaZDJheTIwdE9yaElIUFpmYlJVSXg2UnQ0aDhCOVd3MVZvakhvVWxDWi1wM2hfbGVKbjFaSHJLWjJHYU02M3lwdGRXQVNfSXJGdWVTN0h4V0tvaU9iLUIzbGFmZkFU?oc=5",
         "pool": "google",
         "date": "2026-09-04",
         "by_hand": false
       },
       {
-        "title": "AI in Ecommerce: 7 Key Use Cases for 2026 - Shopify",
+        "title": "AI in Ecommerce: 7 Key Use Cases for 2026 - shopify.com",
         "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1FWlg2bURFdFgwSGI3WEZIVTA1aVE5S3N2U082MkhGMjVnd1BuYm4xLVZJT3RiWXNheXAwYWg3NFhzVTBEMkNPYm1jaUNMOXBXOVhrSWlvYw?oc=5",
         "pool": "google",
         "date": "2026-09-04",
@@ -916,14 +916,14 @@
         "by_hand": false
       },
       {
-        "title": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - cnbc.com",
+        "title": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC",
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1pdE5qU2I0OUVRX1ZkOFg1bTdkX0tndjJrVmV6SHk4WWVBT2FDMXBnMjI1SkRFVmR4V1ktMXZoY29NdG1XcWptblhmSW8zc25ZWUxpN1hVTkNZUXJGUTZYZHR2aEl4R211UVFnVU5vUVFyV1VKMldyUE12U1VFd9IBgwFBVV95cUxQXzNCdi0xNzQ1ejZ3RW5zNy03WkZZdFQ5MHhoYWxwMXZENXFzTUJTN0JBU0F2bjVDMHNBU1Q0VjhFMndFS0x4TVBVQVJwbVVsOXFkR2hRMlp0bFRpem5RMHhiWWhVU1hFUVNnNy1UTGt6ZVVUYjhOa2k4SDA0ZVEwQzJURQ?oc=5",
         "pool": "google",
         "date": "2026-08-30",
         "by_hand": false
       },
       {
-        "title": "K-Beauty Is Everywhere Now: How Korean Skincare Became a Mainstream U.S. Beauty Staple - Yahoo",
+        "title": "K-Beauty Is Everywhere Now: How Korean Skincare Became a Mainstream U.S. Beauty Staple - shopping.yahoo.com",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxORVlkelhsZW1hTjVrc1hOX19HZVpnZl9tQ2pjUTZ4WEVWVXp2TWhTMHpWZDRHS2ZEZEVUVlhQeTVZY0Z0Vno3S29BYmNGSW1mclM3QXZKZ2tiSWRvSnFRZmRSQXNnQkthTkdkelRvaTY4WXlfVWM0TjVTWkxsY3kwbC1JZkw0M3ZXOThTSm5aWFZwQnlFWG5OZWw2ZTBJZw?oc=5",
         "pool": "google",
         "date": "2026-08-29",
@@ -1672,7 +1672,7 @@
         "by_hand": true
       },
       {
-        "title": "This UI/UX Redesign Will Teach You More Than 500 Tutorials Combined",
+        "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
         "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
         "pool": "youtube_channel",
         "date": "",

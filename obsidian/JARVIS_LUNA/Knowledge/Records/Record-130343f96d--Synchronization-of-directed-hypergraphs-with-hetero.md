@@ -2,7 +2,7 @@
 title: "Record 130343f96d · Synchronization-of-directed-hypergraphs-with-hetero"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T17:10:45.981343+00:00
+updated_at: 2026-09-19T20:08:50.943248+00:00
 tags: [record, real-data]
 ---
 

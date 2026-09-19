@@ -2,7 +2,7 @@
 title: "LLM·언어모델"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T17:10:47.117231+00:00
+updated_at: 2026-09-19T20:08:51.816480+00:00
 tags: [topic, real-data]
 ---
 

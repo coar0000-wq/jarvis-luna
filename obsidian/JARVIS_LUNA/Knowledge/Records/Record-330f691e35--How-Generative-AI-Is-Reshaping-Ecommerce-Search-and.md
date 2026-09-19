@@ -2,7 +2,7 @@
 title: "Record 330f691e35 · How-Generative-AI-Is-Reshaping-Ecommerce-Search-and"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T17:10:46.557324+00:00
+updated_at: 2026-09-19T20:08:51.385656+00:00
 tags: [record, real-data]
 ---
 

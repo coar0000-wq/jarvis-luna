@@ -2,7 +2,7 @@
 title: "Record 200c17b108 · This-K-Beauty-Serum-Is-More-Like-A-Potent-Magic-Potion-For-Rejuvenatin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T17:10:46.521376+00:00
+updated_at: 2026-09-19T20:08:51.356250+00:00
 tags: [record, real-data]
 ---
 
@@ -13,10 +13,9 @@ tags: [record, real-data]
 **제목:** This K-Beauty Serum Is ‘More Like A Potent Magic Potion For Rejuvenating Skin’ — And It’s On Sale - Yahoo
 
 This K-Beauty Serum Is ‘More Like A Potent Magic Potion For Rejuvenating Skin’ — And It’s On Sale - Yahoo
-This K-Beauty Serum Is ‘More Like A Potent Magic Potion For Rejuvenating Skin’ — And It’s On Sale - Yahoo
 
-**출처:** Source · us_beauty
+**출처:** Source · Google Search
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

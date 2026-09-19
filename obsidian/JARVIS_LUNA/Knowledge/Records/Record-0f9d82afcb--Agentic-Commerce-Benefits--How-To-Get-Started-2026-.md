@@ -2,7 +2,7 @@
 title: "Record 0f9d82afcb · Agentic-Commerce-Benefits--How-To-Get-Started-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T17:10:46.365423+00:00
+updated_at: 2026-09-19T20:08:51.229489+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiWEFVX3lxTFBzMkVOZXFRTVpnSk4wTVQ1OEs1VzBVR3lzbTluQmI3bmVCeFlwZ1JzMUxsV2ZKWTVVS0lXdzlIcmFfdFBoZ1lSWFl1UERiYVNjWkdKNEN2dEY?oc=5)
 
-**제목:** Agentic Commerce: Benefits & How To Get Started (2026) - shopify.com
+**제목:** Agentic Commerce: Benefits & How To Get Started (2026) - Shopify
 
-Agentic Commerce: Benefits & How To Get Started (2026) - shopify.com
+Agentic Commerce: Benefits & How To Get Started (2026) - Shopify
 
 **출처:** Source · Google Search
 

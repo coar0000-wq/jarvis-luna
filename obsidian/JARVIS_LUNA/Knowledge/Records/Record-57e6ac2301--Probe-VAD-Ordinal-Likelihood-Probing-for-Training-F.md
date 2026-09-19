@@ -2,7 +2,7 @@
 title: "Record 57e6ac2301 · Probe-VAD-Ordinal-Likelihood-Probing-for-Training-Free-Video-Anomaly-D"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T17:10:46.249364+00:00
+updated_at: 2026-09-19T20:08:51.140761+00:00
 tags: [record, real-data]
 ---
 

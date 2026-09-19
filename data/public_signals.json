@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T17:09:02.001634+00:00",
+  "generated_at": "2026-09-19T20:07:12.877580+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "roma vs inter",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Sat, 19 Sep 2026 09:10:00 -0700",
-          "source_name": "Fubo",
-          "url": "https://trends.google.com/trending?geo=US&q=roma%20vs%20inter"
+          "keyword": "alabama football",
+          "approx_traffic": "10000+",
+          "traffic_num": 10000,
+          "published": "Sat, 19 Sep 2026 12:50:00 -0700",
+          "source_name": "The Tuscaloosa News",
+          "url": "https://trends.google.com/trending?geo=US&q=alabama%20football"
         },
         {
-          "keyword": "steve belichick",
+          "keyword": "umass football",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sat, 19 Sep 2026 09:30:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=steve%20belichick"
+          "published": "Sat, 19 Sep 2026 12:40:00 -0700",
+          "source_name": "MassLive",
+          "url": "https://trends.google.com/trending?geo=US&q=umass%20football"
         },
         {
-          "keyword": "psu football",
+          "keyword": "uc football",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sat, 19 Sep 2026 09:30:00 -0700",
-          "source_name": "Black Shoe Diaries",
-          "url": "https://trends.google.com/trending?geo=US&q=psu%20football"
+          "published": "Sat, 19 Sep 2026 12:40:00 -0700",
+          "source_name": "Spectrum News",
+          "url": "https://trends.google.com/trending?geo=US&q=uc%20football"
         },
         {
-          "keyword": "bill belichick girlfriend",
+          "keyword": "chris henry jr.",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sat, 19 Sep 2026 09:10:00 -0700",
-          "source_name": "WSJ",
-          "url": "https://trends.google.com/trending?geo=US&q=bill%20belichick%20girlfriend"
+          "published": "Sat, 19 Sep 2026 12:40:00 -0700",
+          "source_name": "FOX Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=chris%20henry%20jr."
         },
         {
-          "keyword": "nottingham forest",
+          "keyword": "raphinha",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sat, 19 Sep 2026 09:50:00 -0700",
-          "source_name": "BBC",
-          "url": "https://trends.google.com/trending?geo=US&q=nottingham%20forest"
+          "published": "Sat, 19 Sep 2026 12:50:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=raphinha"
         },
         {
-          "keyword": "npr",
+          "keyword": "carlos beltran",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sat, 19 Sep 2026 09:10:00 -0700",
-          "source_name": "eciks.org",
-          "url": "https://trends.google.com/trending?geo=US&q=npr"
+          "published": "Sat, 19 Sep 2026 12:50:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=carlos%20beltran"
         },
         {
-          "keyword": "isu football",
-          "approx_traffic": "100+",
-          "traffic_num": 100,
-          "published": "Sat, 19 Sep 2026 09:50:00 -0700",
-          "source_name": "The Des Moines Register",
-          "url": "https://trends.google.com/trending?geo=US&q=isu%20football"
+          "keyword": "montana state football",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Sat, 19 Sep 2026 12:40:00 -0700",
+          "source_name": "Montana State University Athletics",
+          "url": "https://trends.google.com/trending?geo=US&q=montana%20state%20football"
         },
         {
-          "keyword": "amy yasbeck",
-          "approx_traffic": "100+",
-          "traffic_num": 100,
-          "published": "Sat, 19 Sep 2026 09:50:00 -0700",
-          "source_name": "Fox News",
-          "url": "https://trends.google.com/trending?geo=US&q=amy%20yasbeck"
+          "keyword": "wsu football",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Sat, 19 Sep 2026 12:40:00 -0700",
+          "source_name": "247Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=wsu%20football"
         },
         {
-          "keyword": "florida vs auburn",
+          "keyword": "giga chikadze",
           "approx_traffic": "100+",
           "traffic_num": 100,
-          "published": "Sat, 19 Sep 2026 09:50:00 -0700",
-          "source_name": "Auburn Tigers - Official Athletics Website",
-          "url": "https://trends.google.com/trending?geo=US&q=florida%20vs%20auburn"
+          "published": "Sat, 19 Sep 2026 12:50:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=giga%20chikadze"
         },
         {
-          "keyword": "athletic bilbao",
+          "keyword": "yale football",
           "approx_traffic": "100+",
           "traffic_num": 100,
-          "published": "Sat, 19 Sep 2026 09:10:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=athletic%20bilbao"
+          "published": "Sat, 19 Sep 2026 12:40:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=yale%20football"
         }
       ]
     },

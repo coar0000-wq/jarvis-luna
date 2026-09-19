@@ -2,7 +2,7 @@
 title: "Record 693c646921 · Shopify-Inc-SHOP-Shows-Why-AI-Search-Could-Become-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T17:10:46.516147+00:00
+updated_at: 2026-09-19T20:08:51.352108+00:00
 tags: [record, real-data]
 ---
 
