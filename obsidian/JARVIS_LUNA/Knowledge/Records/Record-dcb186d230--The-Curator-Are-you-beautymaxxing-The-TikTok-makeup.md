@@ -2,7 +2,7 @@
 title: "Record dcb186d230 · The-Curator-Are-you-beautymaxxing-The-TikTok-makeup-trends-to-know---N"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T21:13:41.899708+00:00
+updated_at: 2026-09-19T22:21:10.551803+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMidkFVX3lxTE5seFRsZjNGaTJVelR6UjdRM2t3VTRjcm1ubXpWRjk4SEZPNzRaSlMtUVl4SWhFeHU0UGVaMGRaMHVyNTU0MUYycG52cndHS0hpeGw0LU4telRJNlA5MV9zcWZxc25vQkxZMWxUNDdIRWJEcm9Femc?oc=5)
 
-**제목:** The Curator: Are you beautymaxxing? The TikTok makeup trends to know - National - Global News
+**제목:** The Curator: Are you beautymaxxing? The TikTok makeup trends to know - National - globalnews.ca
 
-The Curator: Are you beautymaxxing? The TikTok makeup trends to know - National - Global News
+The Curator: Are you beautymaxxing? The TikTok makeup trends to know - National - globalnews.ca
 
 **출처:** Source · Google Search
 

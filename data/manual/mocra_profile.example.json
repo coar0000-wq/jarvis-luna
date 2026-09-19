@@ -1,0 +1,40 @@
+{
+  "_설명": "MoCRA 준수 점검 입력. 이 파일을 mocra_profile.json 으로 복사해 실값을 채우세요. 추측값을 넣지 마세요. 확인한 것만 true 로 둡니다.",
+  "role": "reseller",
+  "_role_설명": "reseller = 다이소 정품을 사서 되파는 형태 / brand_owner = 자체 브랜드 / importer = 수입자",
+  "annual_revenue_usd": 0,
+  "_revenue_설명": "직전 3년 평균 미국 내 화장품 매출(달러). 100만 달러 미만이면 시설 등록·제품 리스팅·GMP 가 면제됩니다. 책임자 라벨 연락처·안전성 입증·유해사례 보고는 면제되지 않습니다.",
+  "facility_registration": {
+    "registered": false,
+    "verified_at": "",
+    "facility_id": "",
+    "note": "제조시설을 직접 운영하지 않으면 수입 제품의 제조사가 등록돼 있는지 확인한 기록을 남기세요."
+  },
+  "product_listing": {
+    "submitted": false,
+    "last_submitted_at": "",
+    "listing_ids": [],
+    "note": "연 1회 갱신. 소규모 면제 대상이면 의무가 아니며 자발적 제출만 가능합니다."
+  },
+  "safety_substantiation": {
+    "covered_pd_nos": [],
+    "method": "",
+    "storage": "",
+    "note": "제품별 안전성 입증 자료(제조사 시험성적서, 원료 안전성 자료 등)를 확보한 상품번호를 적습니다."
+  },
+  "adverse_event": {
+    "us_contact": {
+      "type": "website",
+      "value": "",
+      "_type_선택지": "domestic_address | domestic_phone | website | email",
+      "note": "미국 주소, 미국 전화번호, 또는 유해사례를 받을 수 있는 웹사이트/이메일 중 하나. 한국 주소·한국 번호만으로는 요건을 못 채웁니다(21 U.S.C. 364e)."
+    },
+    "process_documented": false,
+    "note": "중대한 유해사례는 인지 후 15영업일 이내 FDA 보고. 기록 보관은 6년(소규모 유통사업자는 3년)."
+  },
+  "gmp": {
+    "supplier_gmp_confirmed": false,
+    "recall_contact": "",
+    "note": "공급자 GMP 준수 확인 자료와 회수 발생 시 대응할 담당 연락처."
+  }
+}

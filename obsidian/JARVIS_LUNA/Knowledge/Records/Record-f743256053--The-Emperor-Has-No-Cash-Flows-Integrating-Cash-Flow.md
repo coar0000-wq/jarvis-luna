@@ -2,7 +2,7 @@
 title: "Record f743256053 · The-Emperor-Has-No-Cash-Flows-Integrating-Cash-Flow"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T21:13:41.658147+00:00
+updated_at: 2026-09-19T22:21:10.436248+00:00
 tags: [record, real-data]
 ---
 

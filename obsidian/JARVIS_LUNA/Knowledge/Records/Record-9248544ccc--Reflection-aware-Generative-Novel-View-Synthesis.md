@@ -2,7 +2,7 @@
 title: "Record 9248544ccc · Reflection-aware-Generative-Novel-View-Synthesis"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T21:13:41.436282+00:00
+updated_at: 2026-09-19T22:21:10.323485+00:00
 tags: [record, real-data]
 ---
 

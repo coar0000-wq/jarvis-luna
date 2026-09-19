@@ -2,7 +2,7 @@
 title: "Record eeeeb651f1 · Shopify-TSXSHOP-Can-Agentic-AI-Redefine-Online-Shop"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T21:13:42.051191+00:00
+updated_at: 2026-09-19T22:21:10.623154+00:00
 tags: [record, real-data]
 ---
 

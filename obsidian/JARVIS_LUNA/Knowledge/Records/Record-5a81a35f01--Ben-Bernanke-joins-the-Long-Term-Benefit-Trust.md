@@ -2,7 +2,7 @@
 title: "Record 5a81a35f01 · Ben-Bernanke-joins-the-Long-Term-Benefit-Trust"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T21:13:42.240456+00:00
+updated_at: 2026-09-19T22:21:10.711477+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2e8d101249 · Development-of-a-pulsed-eddy-current-based-monitoring-system-for-tensi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T21:13:41.567135+00:00
+updated_at: 2026-09-19T22:21:10.391348+00:00
 tags: [record, real-data]
 ---
 

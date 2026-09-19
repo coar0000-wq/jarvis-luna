@@ -2,7 +2,7 @@
 title: "Record c6eef9e736 · Sephora-Launches-K-Beauty-Selection-Curated-by-Oliv"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T21:13:42.038290+00:00
+updated_at: 2026-09-19T22:21:10.617198+00:00
 tags: [record, real-data]
 ---
 

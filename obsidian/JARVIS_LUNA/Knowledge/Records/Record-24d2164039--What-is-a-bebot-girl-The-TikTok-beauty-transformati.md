@@ -2,7 +2,7 @@
 title: "Record 24d2164039 · What-is-a-bebot-girl-The-TikTok-beauty-transformati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T21:13:42.032886+00:00
+updated_at: 2026-09-19T22:21:10.614734+00:00
 tags: [record, real-data]
 ---
 

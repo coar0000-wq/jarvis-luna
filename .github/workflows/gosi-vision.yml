@@ -4,8 +4,9 @@ name: 고시 수집·비전 추출
 # 2) Gemini 비전으로 전성분·제조사·용량 읽기
 # 3) gosi.json + 이미지 커밋
 #
-# 필요 시크릿: GEMINI_API_KEY
-# (없으면 이미지 수집까지만 하고 비전은 건너뜀)
+# 필요 시크릿: GEMINI_API_KEY 또는 GROQ_API_KEY_LUNA
+# (둘 다 없으면 이미지 수집까지만 하고 비전은 건너뜀)
+# Gemini 할당량이 막히면 Groq 비전으로 이어서 읽는다.
 
 on:
   workflow_dispatch:
@@ -50,6 +51,7 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY_LUNA }}
           VISION_BUDGET_SEC: "1200"
         run: python scripts/extract_gosi_vision.py
 
@@ -75,6 +77,7 @@ jobs:
       - name: 등록 게이트와 파생 보드 재계산
         run: |
           python -u scripts/build_legal_full.py
+          python -u scripts/build_mocra_readiness.py
           python -u scripts/build_listing_gate.py
           python -u scripts/build_product_master.py --inject-s
           python -u scripts/build_market_team.py
@@ -162,6 +165,7 @@ jobs:
             data/daiso_real/us_label_sync_report.json
             data/legal_products.json
             data/legal_full.json
+            data/mocra_readiness.json
             data/listing_gate.json
             data/daiso_real/shopify_s_recommendations.json
             data/product_master.json

@@ -61,6 +61,12 @@ TEAM_TERMS: dict[str, list[str]] = {
         "tiktok", "haul", "review", "instagram",
         "브랜드", "시장조사", "리서치", "트렌드", "소비", "고객", "수요",
         "큐레이션", "하울", "입점", "인스타", "웰니스", "영업",
+        # Shopify 마케팅 영상이 listing 으로만 떨어지던 문제 (2026-09-19).
+        # "shopify" 는 listing 낱말이라 광고·퍼널·객단가 이야기가
+        # 마케팅 조사팀에 하나도 안 왔다. 마케팅 낱말을 따로 둔다.
+        "shopify marketing", "ads", "ad creative", "ugc", "aov",
+        "conversion rate", "funnel", "email marketing", "retention",
+        "광고", "전환율", "퍼널", "유입", "리타겟", "구독", "재구매",
     ],
     "pricing": [
         "pricing", "margin", "profit", "shipping cost", "dropship",

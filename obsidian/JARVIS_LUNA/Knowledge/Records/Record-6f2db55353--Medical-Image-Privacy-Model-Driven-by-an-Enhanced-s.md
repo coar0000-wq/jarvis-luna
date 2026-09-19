@@ -2,7 +2,7 @@
 title: "Record 6f2db55353 · Medical-Image-Privacy-Model-Driven-by-an-Enhanced-s"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T21:13:41.662799+00:00
+updated_at: 2026-09-19T22:21:10.438574+00:00
 tags: [record, real-data]
 ---
 

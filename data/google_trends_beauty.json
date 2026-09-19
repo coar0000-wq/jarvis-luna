@@ -1,6 +1,6 @@
 {
   "source": "google news rss (beauty queries) + trends daily filtered",
-  "collected_at": "2026-09-19T21:06:43.563327+00:00",
+  "collected_at": "2026-09-19T22:16:24.080562+00:00",
   "status": "ok",
   "note": "뷰티 키워드만. 채점 MATCH_CHANNELS 에는 넣지 않음. 대시보드 키워드 보드용.",
   "query_count": 12,
@@ -43,11 +43,11 @@
       "beauty": true
     },
     {
-      "keyword": "K-beauty’s counterfeit economy tests brand and platform controls - Personal Care Insights",
-      "product": "K-beauty’s counterfeit economy tests brand and platform controls - Personal Care Insights",
+      "keyword": "K-beauty fuels ingredient literacy across global beauty, says Kiss New York - Personal Care Insights",
+      "product": "K-beauty fuels ingredient literacy across global beauty, says Kiss New York - Personal Care Insights",
       "sub": "K-beauty",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQa1ZVcXY5d3JlR1NFRUZMMFhEUXp5ZnlIbG9pQkM1YWJmd2pSNFh6a0NGZ2ZuV2ZIa0JzaVBoTExnVnQ0a2ZQT1dwbUpwWUswV2NwRVhwWDJCazlpU2FXaXVxZnB0X1RVTWRlNlZpeGp2WDctRkVQendRVC0xNTE3alJlemFfQWoyUXZkUlhB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPU3BaTlR0WmlPZWlIRWJxWDB2UTk2ZEczNW1FUzJQUWI0VWFIWXJwSTFYVWlsX0RvM3RjNnJqdl9HWE1DWExEX1VXTVJCeGJHdW93NUtpZEx2Y1V2Y3FBZmwxd3kyTUFBRVNzU2h6bmdxY2ZIQUlqLW11YlhLTVUzUTJn?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -61,20 +61,20 @@
       "beauty": true
     },
     {
-      "keyword": "Woman arrested for allegedly stealing $15K in beauty products in Southern California - NBC Los Angeles",
-      "product": "Woman arrested for allegedly stealing $15K in beauty products in Southern California - NBC Los Angeles",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONXRNYmhicXFZUTlKaHFIeUN4N1J1ek04czI5WXhkNTlha3JFOWhyWUoycHh3akN4aFdUX2o0WEp1MmtQWXVSUjI3S0RXTnFSYUY2TGtRU2Y4Y3Z6RkRsXzFDWnRGRktQLWtGbmVTdFlCenBfWEFfQTJXbWl3Rnd6NzFHMkxNQ2NMTkNlWk1WaWdGcTF3QW90dGViQ0xEZjQt0gGoAUFVX3lxTE9FMElzVHZrRVFlZXozWXROYUZCZ0JOdF9VRWNjSmh4ZEJGeFRkRUNNVjdBdHA2R0VxQ0U3MnExS2I5WUFGdUFQdlk5aUNHSTVnZzh3QzJ0Q2JrbnNPUWY4elcxdUlOVC0xQVBrQVlaTEt2alQ2SnFIaXU1djZZWXhSZlQ2ZnlaNG43NlNRY1NLcDlrRktGMS1FY0JsblNRTk4td1lqbmJUYg?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
       "keyword": "Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - highschool.latimes.com",
       "product": "Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - highschool.latimes.com",
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPc2g3NThETVhLa3FISG94RmRGSURCVlJ6aGNHUWZleXJHS0VfTUd0ZEZJUzduRVpjSGxTcGRKNlhKeXVCVHpMTmpFWjBPcHdzYkIyeG1lcHJXeVV6cHFPZXl5UFdnUkpRNDVRLXFjZTFtNmpmYThKdmVveTBTM0ZsN1lBNjJyRE9UVmZReGlaeG54Mko1ZDItRlFoUXZKc1BRcmwzSnR3RGVpTjRzbVVTcDI4dw?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Fake K-beauty products busted - The Korea Herald",
+      "product": "Fake K-beauty products busted - The Korea Herald",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBKQlVaVkQzcVNJaWZjakdodGluQmZBd3FvbWdSQnZXeDdYb01fczAtV1RmT3FtWkdHa0FXSFBYOWU4VkNzcXdmcThMUU5EcUc1NG9rcFBNRQ?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -88,8 +88,8 @@
       "beauty": true
     },
     {
-      "keyword": "Same brand, different SPF: Why Korean sunscreens outperform US versions - The Korea Times",
-      "product": "Same brand, different SPF: Why Korean sunscreens outperform US versions - The Korea Times",
+      "keyword": "Same brand, different SPF: Why Korean sunscreens outperform US versions - koreatimes.co.kr",
+      "product": "Same brand, different SPF: Why Korean sunscreens outperform US versions - koreatimes.co.kr",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdXEyV1k2UDNvY01GVEFoVE01MldFRjlqaGlJY3kzRjliamkxcEV3aXFJeS1WRDJpbzI2OGVfTDFoTGR3Ny0tUkNRMXJ0RmJvRktpM2FDN0h4aE1uSHItVVNMWFNycnM1aDR4NW1TUVVQdjRhTmNIUXQxUmlVM253Z2NCNmIwbW9xVHJFLWd0R0tyZ2k4TWtqTzFoeDJUNDE5ZVpfeUZHNWtqNjVsOEhQRjUzSlZ0LTNN0gG-AUFVX3lxTE9teTR0RHBndWpfVGJ2OElRU1NCVDNSaVdZTjcwLWZpcU9ubEJma1FEeU9SbFRmc0hWd3hCTUhoUjlsb05Sek53VlI3RVF4dTI0MlFYRXpScmw4bFM1WVpjVEpnSFMtUllTWm9xYkxkbXVIM2RUaHQ3UlpXcGZJTHMxYkQ4aUlBdmFxQllQZF9YbG9yYVk5ay0yTUlVYTBjS3dZTnlkdzVLRzQxMGkzM0FzOERMOEo3d1RDOURmUnc?oc=5",
@@ -133,8 +133,8 @@
       "beauty": true
     },
     {
-      "keyword": "The Best Korean Sunscreens for Invisible UV Protection - The Daily Beast",
-      "product": "The Best Korean Sunscreens for Invisible UV Protection - The Daily Beast",
+      "keyword": "The Best Korean Sunscreens for Invisible UV Protection - thelooker.thedailybeast.com",
+      "product": "The Best Korean Sunscreens for Invisible UV Protection - thelooker.thedailybeast.com",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObVNqeHpLQ3ZVc29jQ0JxTnpaTXhTTklfME5rN3QzakpIajB2Q09jekF5Q0dVYTN3M3ZiUklmWDZ5RTFGMnRwU1kzYWNMWGlybVNIYUZ1R1huUGYzTEJnanhBQzhqWXh3MFZYVFpLRWJSeTVBWEFiMm0tVlpMb19XZDVkbw?oc=5",
@@ -286,8 +286,8 @@
       "beauty": true
     },
     {
-      "keyword": "TikTok Is Praising This On-Sale K-Beauty Toner for ‘Immediately’ Calming Redness & Irritation - StyleCaster",
-      "product": "TikTok Is Praising This On-Sale K-Beauty Toner for ‘Immediately’ Calming Redness & Irritation - StyleCaster",
+      "keyword": "TikTok Is Praising This On-Sale K-Beauty Toner for ‘Immediately’ Calming Redness & Irritation - stylecaster.com",
+      "product": "TikTok Is Praising This On-Sale K-Beauty Toner for ‘Immediately’ Calming Redness & Irritation - stylecaster.com",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1EZmRERGtWa0ZEc0VJZGlGOHM0N1BXNW43MUJGSkJ3eWxFY214UWtjYjRfbS14TzVZLWVZcjZxTnpVR1hpWmVFNUJYbzZZYlFwcjE0dVc4UGtpaC1CSXNqU0dkRmkyY3BDQ2g2ek42c3YwN01Mb0tCeXN3?oc=5",

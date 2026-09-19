@@ -2,7 +2,7 @@
 title: "Record 3e2f62e47e · TikTok-fueled-K-beauty-boom-triggers-a-retail-race-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T21:13:41.856142+00:00
+updated_at: 2026-09-19T22:21:10.529870+00:00
 tags: [record, real-data]
 ---
 

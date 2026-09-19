@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-19T22:19:43.614852+00:00",
+  "면책": "법률 자문이 아니다. 무엇이 남았는지 보여주는 점검표다.",
+  "기준": "MoCRA (Modernization of Cosmetics Regulation Act of 2022)",
+  "profile_present": false,
+  "profile_hint": "data/manual/mocra_profile.example.json 을 복사해 채우세요",
+  "business": {
+    "role": "",
+    "annual_revenue_usd": null,
+    "revenue_known": false,
+    "small_business_exemption": false,
+    "small_business_note": "미국 내 화장품 매출 직전 3년 평균 100만 달러 미만이면 시설 등록·제품 리스팅·GMP 가 면제된다. 책임자 라벨 연락처·안전성 입증·유해사례 기록과 15영업일 보고는 면제되지 않는다.",
+    "근거": [
+      "FDA MoCRA 안내 · Exemptions (시설 등록·제품 리스팅·GMP 면제)",
+      "21 U.S.C. 364e · 라벨은 미국 주소·미국 전화 또는 웹사이트를 포함한 전자 연락처 중 하나를 실어야 한다"
+    ],
+    "exemption_excluded_products": []
+  },
+  "scope": {
+    "판매_후보": 10,
+    "법률_점검_대상": 10,
+    "라벨_완비": 0
+  },
+  "ready_count": 0,
+  "exempt_count": 0,
+  "total_checks": 7,
+  "sales_allowed": false,
+  "blocking": [
+    "책임자(Responsible Person) 지정과 라벨 표기",
+    "제조시설 등록(2년 주기 갱신)",
+    "FDA 제품 리스팅(연 1회 갱신)",
+    "제품별 안전성 입증 자료 보유",
+    "유해사례 접수용 미국 내 연락처와 15일 보고 절차",
+    "GMP 확인과 강제 회수 대응 창구",
+    "영문 라벨 필수 항목(성분·용량·책임자·사용법·주의사항)"
+  ],
+  "checks": [
+    {
+      "id": "responsible_person",
+      "label": "책임자(Responsible Person) 지정과 라벨 표기",
+      "status": "not_ready",
+      "detail": "미입력: name, address, email, phone",
+      "evidence": "data/manual/legal_responsible_person.json"
+    },
+    {
+      "id": "facility_registration",
+      "label": "제조시설 등록(2년 주기 갱신)",
+      "status": "not_ready",
+      "detail": "제조시설 등록 여부 미확인",
+      "evidence": "data/manual/mocra_profile.json"
+    },
+    {
+      "id": "product_listing",
+      "label": "FDA 제품 리스팅(연 1회 갱신)",
+      "status": "not_ready",
+      "detail": "제출 기록 없음",
+      "evidence": "data/manual/mocra_profile.json"
+    },
+    {
+      "id": "safety_substantiation",
+      "label": "제품별 안전성 입증 자료 보유",
+      "status": "not_ready",
+      "detail": "미확보 10건: 1042619, 1049275, 1049276, 1049285, 1053482 외",
+      "evidence": "data/manual/mocra_profile.json"
+    },
+    {
+      "id": "adverse_event",
+      "label": "유해사례 접수용 미국 내 연락처와 15일 보고 절차",
+      "status": "not_ready",
+      "detail": "연락처 없음(미국 주소·미국 전화·웹사이트 중 택 1) · 절차 문서 없음",
+      "evidence": "라벨에 주소가 들어간 상품 0/10건"
+    },
+    {
+      "id": "gmp_recall",
+      "label": "GMP 확인과 강제 회수 대응 창구",
+      "status": "not_ready",
+      "detail": "공급자 GMP 확인 또는 회수 담당 연락처 미지정",
+      "evidence": "data/manual/mocra_profile.json"
+    },
+    {
+      "id": "label_fields",
+      "label": "영문 라벨 필수 항목(성분·용량·책임자·사용법·주의사항)",
+      "status": "not_ready",
+      "detail": "완비 0/10건 · 부족 항목 directions 10건, identity 2건, ingredients 2건, legal_hard_block 2건, responsible_person.address 10건, responsible_person.email 10건, responsible_person.name 10건, responsible_person.phone 10건, warnings 10건",
+      "evidence": "data/legal_full.json"
+    }
+  ]
+}

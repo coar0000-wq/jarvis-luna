@@ -57,6 +57,7 @@ jobs:
       - name: 등록 게이트와 파생 보드 재계산
         run: |
           python -u scripts/build_legal_full.py
+          python -u scripts/build_mocra_readiness.py
           python -u scripts/build_listing_gate.py
           python -u scripts/build_product_master.py --inject-s
           python -u scripts/build_market_team.py
@@ -184,6 +185,7 @@ jobs:
             data/daiso_real/us_label_sync_report.json
             data/legal_products.json
             data/legal_full.json
+            data/mocra_readiness.json
             data/listing_gate.json
             data/daiso_real/shopify_s_recommendations.json
             data/product_master.json
