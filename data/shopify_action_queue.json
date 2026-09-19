@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T21:11:58.747111+00:00",
-  "source_gate_generated_at": "2026-09-19T21:11:58.577541+00:00",
+  "generated_at": "2026-09-19T21:15:47.369486+00:00",
+  "source_gate_generated_at": "2026-09-19T21:15:47.098864+00:00",
   "ontology_source": "data/product_master.json",
   "approval_source": "data/manual/shopify_action_approvals.json",
   "policy": {
@@ -27,6 +27,7 @@
       "canonical_product_ids": [
         "CP000075"
       ],
+      "excluded_members": [],
       "pd_nos": [
         "1042619"
       ],
@@ -58,6 +59,7 @@
       "canonical_product_ids": [
         "CP000109"
       ],
+      "excluded_members": [],
       "pd_nos": [
         "1049285"
       ],
@@ -89,6 +91,7 @@
       "canonical_product_ids": [
         "CP000130"
       ],
+      "excluded_members": [],
       "pd_nos": [
         "1055167"
       ],
@@ -120,6 +123,7 @@
       "canonical_product_ids": [
         "CP000151"
       ],
+      "excluded_members": [],
       "pd_nos": [
         "1059834"
       ],
@@ -151,6 +155,7 @@
       "canonical_product_ids": [
         "CP000216"
       ],
+      "excluded_members": [],
       "pd_nos": [
         "1067498"
       ],
@@ -182,6 +187,7 @@
       "canonical_product_ids": [
         "CP000270"
       ],
+      "excluded_members": [],
       "pd_nos": [
         "1075857"
       ],
@@ -214,6 +220,7 @@
         "CP000106",
         "CP000107"
       ],
+      "excluded_members": [],
       "pd_nos": [
         "1049275",
         "1049276"
