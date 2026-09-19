@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-19T21:11:18.047375+00:00",
+  "updated_at": "2026-09-19T21:29:34.921585+00:00",
   "real_records": 3927,
   "source_labels": {
     "ai-image": 181,
     "ai-research": 3452,
     "shopify-commerce-image": 294
   },
-  "corpus_sha256": "7659afab5304a79615be07e22ca54535f52591c60a3a1325f3ecbf301001bfd5",
+  "corpus_sha256": "4286833692f18e1c0a909ecf723c853fb857a25b57c7109f1ed887e4e719fd73",
   "training_performed": true,
   "weights_updated": true,
   "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
@@ -21,12 +21,12 @@
     0.381653
   ],
   "note": "실제 수집 데이터 누적 코퍼스. URL 기준 중복 제거하며 기존 레코드는 보존한다. 가중치 갱신은 학습기가 별도로 수행한다.",
-  "trained_corpus_sha256": "7659afab5304a79615be07e22ca54535f52591c60a3a1325f3ecbf301001bfd5",
+  "trained_corpus_sha256": "4286833692f18e1c0a909ecf723c853fb857a25b57c7109f1ed887e4e719fd73",
   "tuning_promoted": true,
   "tuning_steps": 500,
   "tuning_validation_accuracy": 0.8878504672897196,
-  "tuning_final_loss": 0.4259634887592921,
-  "tuning_gate_load_std": 0.10071023846372468,
+  "tuning_final_loss": 0.42586193401815514,
+  "tuning_gate_load_std": 0.10112589580050371,
   "records_before": 3927,
   "records_added": 0,
   "source_status": {

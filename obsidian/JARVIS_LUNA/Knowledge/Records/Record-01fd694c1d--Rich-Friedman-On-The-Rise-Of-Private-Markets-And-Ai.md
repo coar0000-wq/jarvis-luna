@@ -2,7 +2,7 @@
 title: "Record 01fd694c1d · Rich-Friedman-On-The-Rise-Of-Private-Markets-And-Ai-Investing---Transc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T21:13:42.282963+00:00
+updated_at: 2026-09-19T21:32:00.496396+00:00
 tags: [record, real-data]
 ---
 

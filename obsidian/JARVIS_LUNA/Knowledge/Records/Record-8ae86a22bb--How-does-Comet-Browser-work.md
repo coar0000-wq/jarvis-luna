@@ -2,7 +2,7 @@
 title: "Record 8ae86a22bb · How-does-Comet-Browser-work"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T21:13:42.383481+00:00
+updated_at: 2026-09-19T21:32:00.582628+00:00
 tags: [record, real-data]
 ---
 

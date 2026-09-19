@@ -2,7 +2,7 @@
 title: "Record e06f1992e6 · How-K-Beauty-Advances-Skin-Care-Through-Next-Genera"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T21:13:42.048775+00:00
+updated_at: 2026-09-19T21:32:00.274560+00:00
 tags: [record, real-data]
 ---
 

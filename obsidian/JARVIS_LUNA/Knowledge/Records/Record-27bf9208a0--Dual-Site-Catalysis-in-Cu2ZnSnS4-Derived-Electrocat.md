@@ -2,7 +2,7 @@
 title: "Record 27bf9208a0 · Dual-Site-Catalysis-in-Cu2ZnSnS4-Derived-Electrocat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T21:13:41.559948+00:00
+updated_at: 2026-09-19T21:31:59.771474+00:00
 tags: [record, real-data]
 ---
 

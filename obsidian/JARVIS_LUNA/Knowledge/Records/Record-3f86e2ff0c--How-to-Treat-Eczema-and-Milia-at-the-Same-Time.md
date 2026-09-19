@@ -2,7 +2,7 @@
 title: "Record 3f86e2ff0c · How-to-Treat-Eczema-and-Milia-at-the-Same-Time"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T21:13:42.210966+00:00
+updated_at: 2026-09-19T21:32:00.431371+00:00
 tags: [record, real-data]
 ---
 

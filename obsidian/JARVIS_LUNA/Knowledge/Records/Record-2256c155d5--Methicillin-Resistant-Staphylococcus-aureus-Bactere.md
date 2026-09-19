@@ -2,7 +2,7 @@
 title: "Record 2256c155d5 · Methicillin-Resistant-Staphylococcus-aureus-Bactere"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T21:13:41.760442+00:00
+updated_at: 2026-09-19T21:31:59.979329+00:00
 tags: [record, real-data]
 ---
 

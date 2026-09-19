@@ -2,7 +2,7 @@
 title: "Record 573d10d06a · UNOVE-Damage-Repair-Hydrating-Conditioner-Tender-Bl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T21:13:42.157644+00:00
+updated_at: 2026-09-19T21:32:00.380408+00:00
 tags: [record, real-data]
 ---
 

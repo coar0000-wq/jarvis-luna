@@ -2,7 +2,7 @@
 title: "Record 82274fe669 · A-childminders-guide-to-settling-in"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T21:13:41.641833+00:00
+updated_at: 2026-09-19T21:31:59.856778+00:00
 tags: [record, real-data]
 ---
 

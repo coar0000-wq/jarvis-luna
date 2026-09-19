@@ -2,7 +2,7 @@
 title: "Record d2136b5c13 · 기관명을-안-밝혀도-선크림-임상은-증명할-수-있습니다"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T21:13:42.392752+00:00
+updated_at: 2026-09-19T21:32:00.590503+00:00
 tags: [record, real-data]
 ---
 

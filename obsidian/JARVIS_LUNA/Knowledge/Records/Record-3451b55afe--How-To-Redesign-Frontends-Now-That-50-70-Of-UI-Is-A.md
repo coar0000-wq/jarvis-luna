@@ -2,7 +2,7 @@
 title: "Record 3451b55afe · How-To-Redesign-Frontends-Now-That-50-70-Of-UI-Is-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T21:13:41.657637+00:00
+updated_at: 2026-09-19T21:31:59.872765+00:00
 tags: [record, real-data]
 ---
 

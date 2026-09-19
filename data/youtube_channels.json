@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T21:05:36.352432+00:00",
+  "generated_at": "2026-09-19T21:23:45.425554+00:00",
   "generator": "scripts/ingest_youtube_channels.py",
   "입력": "data/manual/youtube_channels.txt",
   "robots": "youtube.com/robots.txt 의 Disallow 목록에 /@ 와 /channel/ 은 없다. 막힌 것은 /feeds/videos.xml, /results, /youtubei/ 등이다. 지정된 채널만 하나씩 본다. 2026-09-06 확인.",
@@ -19,8 +19,8 @@
   "제목_바뀐_영상": [
     {
       "video_id": "hikTGKo2kZE",
-      "before": "브랜딩 감각을 키우고 싶다면👀 | 사업부터 브랜딩까지 분야별 필독서 추천",
-      "after": "책은 가장 가성비 좋은 인풋입니다 📚  | 브랜드 대표가 직접 고른 브랜딩 필독서",
+      "before": "책은 가장 가성비 좋은 인풋입니다 📚  | 브랜드 대표가 직접 고른 브랜딩 필독서",
+      "after": "브랜딩 감각을 키우고 싶다면👀 | 사업부터 브랜딩까지 분야별 필독서 추천",
       "kept_teams": [
         "design"
       ]
@@ -211,7 +211,7 @@
   "items": [
     {
       "stale": false,
-      "last_ok_at": "2026-09-19T21:05:25.981297+00:00",
+      "last_ok_at": "2026-09-19T21:23:35.119237+00:00",
       "url": "https://www.youtube.com/@uxpeak",
       "note": "UX/UI 리디자인·전환율 (사용자 지정)",
       "team_hint": "design",
@@ -220,7 +220,7 @@
       "subscribers": "125K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-19T21:05:25.981318+00:00",
+      "checked_at": "2026-09-19T21:23:35.119260+00:00",
       "videos": [
         {
           "video_id": "GGg61sdEjeI",
@@ -478,7 +478,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-19T21:05:31.352216+00:00",
+      "last_ok_at": "2026-09-19T21:23:40.425319+00:00",
       "url": "https://www.youtube.com/@%EB%95%A1%ED%81%90%EC%B1%84%EB%84%90",
       "note": "땡스큐레이터 - 스몰 브랜드 브랜딩·수출·견적. 팀은 영상마다 자동 분류",
       "team_hint": "",
@@ -487,11 +487,11 @@
       "subscribers": "19K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-19T21:05:31.352231+00:00",
+      "checked_at": "2026-09-19T21:23:40.425336+00:00",
       "videos": [
         {
           "video_id": "hikTGKo2kZE",
-          "title": "책은 가장 가성비 좋은 인풋입니다 📚  | 브랜드 대표가 직접 고른 브랜딩 필독서",
+          "title": "브랜딩 감각을 키우고 싶다면👀 | 사업부터 브랜딩까지 분야별 필독서 추천",
           "views_text": "19K views",
           "published_text": "2 days ago",
           "views": 19000,

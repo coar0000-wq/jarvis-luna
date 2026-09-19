@@ -2,7 +2,7 @@
 title: "Record 89cb64e584 · Efficient-Algorithms-for-Energy-Aware-Single-Machine-Scheduling-with-B"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T21:13:41.484433+00:00
+updated_at: 2026-09-19T21:31:59.693525+00:00
 tags: [record, real-data]
 ---
 

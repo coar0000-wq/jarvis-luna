@@ -2,7 +2,7 @@
 title: "Record 778f36f541 · The-Other-Half-of-the-Memory-Wall-Serving-35B-MoEs-from-SSD-with-Train"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T21:13:41.703739+00:00
+updated_at: 2026-09-19T21:31:59.920326+00:00
 tags: [record, real-data]
 ---
 
