@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "items": {
+    "CP000107": {
+      "directions": "Verified English directions exactly as approved for the label.",
+      "warnings": "Verified English warnings exactly as approved for the label."
+    },
+    "1049276": {
+      "identity": "Optional verified identity override",
+      "net_contents": "Optional verified net contents override",
+      "directions": "Verified English directions exactly as approved for the label.",
+      "warnings": "Verified English warnings exactly as approved for the label.",
+      "responsible_person": {
+        "name": "Optional product-specific legal name",
+        "address": "Optional product-specific full US mailing address",
+        "email": "product-contact@example.com",
+        "phone": "+1-000-000-0000"
+      }
+    }
+  }
+}

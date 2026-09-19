@@ -86,3 +86,39 @@ Gemini가 준 배열을 위 형식의 `products` 자리에 넣고
 
 대시보드에 **"수동 입력"** 배지와 수집 날짜가 함께 표시됩니다.
 30일이 지나면 오래된 데이터로 표시됩니다. 주기적으로 갱신해 주세요.
+
+## 미국 화장품 공개 판매 법률 입력
+
+Shopify 초안은 자동 생성할 수 있지만, 공개 판매(`public_ready`)는 검증된 MoCRA/FPLA 값이 모두 있을 때만 열립니다. 시스템은 책임자, 사용법, 경고 문구를 추정하지 않습니다.
+
+### 1. 미국 Responsible Person
+
+`legal_responsible_person.example.json`을 검토한 뒤 다음 이름으로 복사합니다.
+
+```
+data/manual/legal_responsible_person.json
+```
+
+`name`, `address`, `email`, `phone` 네 필드가 모두 필요합니다. 이 저장소는 공개 저장소이므로 실제로 라벨에 공개할 수 있고 법률 검토가 끝난 사업자 연락처만 넣습니다.
+
+### 2. 상품별 영문 사용법·경고
+
+`legal_product_overrides.example.json`을 다음 이름으로 복사하고, `items` 아래에 `canonical_product_id` 또는 `pd_no`별 검증 값을 넣습니다.
+
+```
+data/manual/legal_product_overrides.json
+```
+
+필수 입력은 `directions`와 `warnings`입니다. 상품별 책임자가 다른 경우에만 `responsible_person`을 함께 넣습니다. 예시 문구를 운영 데이터로 복사하지 말고, 포장·제조사 자료와 법률 검토 결과를 그대로 입력합니다.
+
+### 3. 재생성·검증
+
+```bash
+python scripts/build_legal_full.py
+python scripts/build_listing_gate.py
+python scripts/build_product_master.py --inject-s
+python scripts/export_shopify_operational.py
+python scripts/validate_commerce_architecture.py
+```
+
+`data/legal_full.json`의 `complete`와 `data/listing_gate.json`의 `public_ready`가 증가해야 합니다. 검증 전에는 Export가 `Draft`, `Published=FALSE`, 재고 `0`을 유지합니다.
