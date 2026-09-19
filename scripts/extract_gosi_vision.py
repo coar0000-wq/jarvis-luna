@@ -318,7 +318,9 @@ def read_table(key: str, models: list[str], img: Path,
             parsed, gerr = read_table_groq(gk, img, prompt)
             if parsed is not None:
                 return parsed, ""
-            return None, f"{last or '호출 실패'} / {gerr}"
+            # 대체 경로 사유를 앞에 둔다. Gemini 429 본문이 길어서
+            # 뒤에 붙이면 화면에서 잘려 진짜 이유가 안 보였다.
+            return None, f"{gerr} | gemini: {(last or '')[:60]}"
         return None, last or "호출 실패"
     try:
         txt = d["candidates"][0]["content"]["parts"][0]["text"]
