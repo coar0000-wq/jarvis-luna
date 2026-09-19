@@ -37,8 +37,15 @@ ROOT = Path(__file__).resolve().parent.parent
 # 화장품 고시 canonical
 CANONICAL_GOSI = ROOT / "data" / "gosi.json"
 
-# 실제 다이소 화장품 고시 보호 대상
-COSMETIC_GOSI = ROOT / "data" / "daiso_real" / "daiso_gosi.json"
+# 보호 대상은 정본이다 (2026-09-19 수정).
+#
+# 지금까지 가드는 data/daiso_real/daiso_gosi.json 을 봤다. 그 파일은
+# 빈 {} 인 레거시라 항상 "손상 0건" 으로 읽혔고, 반대로 진짜 고시가
+# 들어 있는 data/gosi.json 이 망가져도 아무도 막지 못했다.
+# 다이소 고시는 모든 상품에 있고, 그 값은 MoCRA 신고에 쓰는 원천이다.
+# 정본을 직접 지키고, 레거시 파일은 있을 때만 보조로 본다.
+LEGACY_GOSI = ROOT / "data" / "daiso_real" / "daiso_gosi.json"
+COSMETIC_GOSI = CANONICAL_GOSI
 
 # 공무원 시험 공고 전용
 CIVIL_GOSI = ROOT / "data" / "civil_service_gosi.json"

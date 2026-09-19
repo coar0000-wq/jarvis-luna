@@ -183,10 +183,40 @@ def groq_key() -> str:
     return ""
 
 
+# Groq 은 base64 인라인 이미지를 4MB 까지만 받는다.
+# 고시 조각은 860x3000 급이라 그대로 보내면 넘길 수 있다.
+GROQ_MAX_B64 = 3_500_000
+
+
+def shrink_for_groq(img: Path) -> bytes:
+    raw = img.read_bytes()
+    if len(base64.b64encode(raw)) <= GROQ_MAX_B64:
+        return raw
+    try:
+        from PIL import Image  # noqa: PLC0415
+    except ImportError:
+        return raw
+    import io  # noqa: PLC0415
+
+    with Image.open(img) as im:
+        im = im.convert("RGB")
+        for quality in (85, 70, 55):
+            for scale in (1.0, 0.8, 0.6):
+                buf = io.BytesIO()
+                work = im if scale == 1.0 else im.resize(
+                    (max(1, int(im.width * scale)), max(1, int(im.height * scale))))
+                work.save(buf, format="JPEG", quality=quality, optimize=True)
+                data = buf.getvalue()
+                if len(base64.b64encode(data)) <= GROQ_MAX_B64:
+                    return data
+    return raw
+
+
 def read_table_groq(key: str, img: Path, prompt: str) -> tuple[dict | None, str]:
     """Groq 비전 모델로 같은 표를 읽는다. 응답 형식은 Gemini 경로와 같다."""
-    b64 = base64.b64encode(img.read_bytes()).decode()
-    data_url = f"data:{mime_of(img)};base64,{b64}"
+    payload_bytes = shrink_for_groq(img)
+    b64 = base64.b64encode(payload_bytes).decode()
+    data_url = f"data:image/jpeg;base64,{b64}"
     last = ""
     for model in GROQ_MODELS:
         payload = {
@@ -471,7 +501,11 @@ def main() -> int:
                 # 후보 이미지를 계속 돌았다. 3건 처리하는 데 21분을
                 # 쓰고 채운 칸은 0 이었다. 할당량은 기다려야 돌아오지
                 # 재시도로 풀리는 것이 아니다. 다음 회차로 미룬다.
-                if "429" in err or "quota" in err.lower():
+                # 단, 대체 경로(Groq)가 있으면 Gemini 할당량이 끝난 것만으로
+                # 수집 전체를 멈춰서는 안 된다. 둘 다 실패한 경우에만 멈추고,
+                # 사유를 화면에 남긴다. "고시가 없다"가 아니라 "읽지 못했다"다.
+                print(f"    ✖ {pd_no} {img.name}: {err[:150]}")
+                if ("429" in err or "quota" in err.lower()) and not groq_key():
                     quota_hit = True
                     break
                 time.sleep(DELAY)
@@ -489,7 +523,8 @@ def main() -> int:
         if not wrote_total and last_err:
             fails.append({"pd_no": pd_no, "reason": last_err})
         else:
-            row["vision_source"] = f"gemini:{used_model or models[0]}"
+            row["vision_source"] = (used_model if used_model.startswith("groq:")
+                                    else f"gemini:{used_model or (models[0] if models else '')}")
             if used_img:
                 row["vision_image"] = used_img
             row["verified"] = bool(row.get("verified"))
