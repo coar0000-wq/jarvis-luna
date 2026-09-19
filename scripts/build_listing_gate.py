@@ -30,6 +30,7 @@ DATA = ROOT / "data"
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import gate_signature  # noqa: E402
+import typesafe_decision_support  # noqa: E402
 
 RECOMMENDATIONS = DATA / "daiso_real" / "shopify_s_recommendations.json"
 COPY = DATA / "shopify_listing_copy.json"
@@ -261,6 +262,32 @@ def main() -> int:
         if not legal_full.get("complete"):
             public_blocked_by.append("legal_full")
 
+        # TypeSafe System One 방식의 보조 판단. 기본은 로컬 규칙만 쓰므로
+        # 네트워크 호출도 비용도 없다. 실제 TypeSafe 호출은
+        # TYPESAFE_ENABLED=1 + TYPESAFE_ALLOW_PAID=1 이 둘 다 있어야 한다.
+        # 기존 점수·법률·게이트가 정본이며, 보조 판단은 이를 덮지 않는다.
+        typesafe = typesafe_decision_support.evaluate({
+            "canonical_product_id": canonical_product_id,
+            "pd_no": pd_no,
+            "name": product.get("name", ""),
+            "grade": product.get("grade"),
+            "shopify_score": product.get("shopify_score"),
+            "blocked_by": blocked_by,
+            "public_blocked_by": public_blocked_by,
+            "gosi": {"gosi_ok": has_gosi},
+            "us_label": {"us_label_ok": has_us_label},
+            "price": {
+                "price_usd": price.get("price_usd"),
+                "margin_pct": price.get("margin_pct"),
+                "register_blocked": bool(price.get("register_blocked", False)),
+            },
+            "legal": {
+                "status": legal.get("status", "missing"),
+                "hard_block": hard_legal_block,
+                "hard_block_reason": legal.get("hard_block_reason", ""),
+            },
+            "legal_full_complete": bool(legal_full.get("complete")),
+        })
         results.append({
             "rank": product.get("rank", rank),
             "canonical_product_id": canonical_product_id,
@@ -304,6 +331,7 @@ def main() -> int:
             "public_ready": not public_blocked_by,
             "public_blocked_by": public_blocked_by,
             "legal_full_complete": bool(legal_full.get("complete")),
+            "typesafe": typesafe,
         })
 
     total = len(results)
@@ -311,9 +339,27 @@ def main() -> int:
     ready = sum(1 for row in results if row["ready"])
     public_ready = sum(1 for row in results if row["public_ready"])
     generated_at = datetime.now(timezone.utc).isoformat()
+    typesafe_modes: dict[str, int] = {}
+    for row in results:
+        mode = str((row.get("typesafe") or {}).get("mode") or "missing")
+        typesafe_modes[mode] = typesafe_modes.get(mode, 0) + 1
+    typesafe_summary = {
+        "framework": "typesafe_system_one_compatible",
+        "mode_counts": typesafe_modes,
+        "paid_api_calls": sum(
+            1 for row in results if (row.get("typesafe") or {}).get("paid_api_called")
+        ),
+        "enforced": sum(
+            1 for row in results if (row.get("typesafe") or {}).get("enforced")
+        ),
+        "note": (
+            "기본은 비용 없는 로컬 advisory. 실제 TypeSafe 호출은 "
+            "TYPESAFE_ENABLED=1 및 TYPESAFE_ALLOW_PAID=1 동시 설정 때만 가능."
+        ),
+    }
 
     output = {
-        "schema_version": 3,
+        "schema_version": 4,
         "generated_at": generated_at,
         "source": "data/daiso_real/shopify_s_recommendations.json",
         "agent_input_signature": agent_input_signature,
@@ -332,6 +378,7 @@ def main() -> int:
             "legal_full": sum(1 for row in results if row["legal_full_complete"]),
         },
         "blockers": {key: value for key, value in blocker_counts.items() if value},
+        "typesafe_summary": typesafe_summary,
         "count": total,
         "note": (
             "ontology=CP 정본 조인, gosi=한국 고시 4항목, "
@@ -367,6 +414,7 @@ def main() -> int:
         row["blocked_by"] = list(gate_row["blocked_by"])
         row["public_ready"] = bool(gate_row["public_ready"])
         row["public_blocked_by"] = list(gate_row["public_blocked_by"])
+        row["typesafe"] = gate_row.get("typesafe") or {}
         row["registerable_source"] = "data/listing_gate.json"
         row["gate_generated_at"] = generated_at
         changed = True
