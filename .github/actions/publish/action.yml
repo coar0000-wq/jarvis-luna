@@ -117,6 +117,16 @@ runs:
         git commit \
           -m "${{ inputs.message }} - $(date -u +%Y-%m-%dT%H:%M:%SZ)"
 
+        # 지정 경로 밖에서 생긴 부수 산출물은 이번 발행 대상이 아니다.
+        # 이 파일들이 남아 있으면 git pull --rebase가 거부되므로, 방금 만든
+        # 커밋은 보존하고 작업 트리만 깨끗하게 되돌린다.
+        if [ -n "$(git status --porcelain)" ]; then
+          echo "::warning::지정 경로 밖 부수 산출물을 발행에서 제외하고 정리합니다."
+          git status --short
+          git reset --hard HEAD
+          git clean -fd
+        fi
+
         # --------------------------------------------------------
         # 원격 최신 main 위에 이번 변경만 얹는다.
         # 다른 자동화가 먼저 push했어도 rebase 후 재시도한다.

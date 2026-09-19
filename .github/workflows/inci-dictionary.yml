@@ -185,6 +185,7 @@ jobs:
             data/dashboard_runtime.json
             data/market_team.json
             data/marketing_priority.csv
+            data/coaching_loop.json
             data/shopify_exports
             data/knowledge/cumulative_history.json
           message: INCI 사전 정본 갱신 (대한화장품협회 표준화명칭목록)

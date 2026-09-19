@@ -469,6 +469,7 @@ jobs:
             data/legal_full.json
             data/market_team.json
             data/marketing_priority.csv
+            data/coaching_loop.json
             data/listing_gate.json
             data/shopify_exports
             data/dashboard_runtime.json

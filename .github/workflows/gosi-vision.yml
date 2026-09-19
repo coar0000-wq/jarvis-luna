@@ -156,6 +156,8 @@ jobs:
             data/product_master.json
             data/market_team.json
             data/marketing_priority.csv
+            data/coaching_loop.json
             data/shopify_exports
             data/dashboard_runtime.json
+            data/knowledge/cumulative_history.json
           message: 고시 이미지 수집 + 비전 추출 (전성분/제조사/용량)
