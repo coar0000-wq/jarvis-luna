@@ -1,8 +1,8 @@
 {
   "last_run": {
-    "started_at": "2026-09-17T22:13:11.907486+00:00",
+    "started_at": "2026-09-19T21:29:10.580441+00:00",
     "requested": 110,
-    "ok": 38,
+    "ok": 4,
     "parse_failed": 0,
     "http_error": 0,
     "sold_out": 0,
@@ -10,20 +10,22 @@
     "parse_fail_samples": [],
     "fallback_used": 0,
     "fallback_price_fixed": 0,
-    "skipped_not_beauty": 29,
-    "skipped_bucket_full": 43,
-    "skipped_excluded": {},
+    "skipped_not_beauty": 22,
+    "skipped_bucket_full": 82,
+    "skipped_excluded": {
+      "치약": 2
+    },
     "pruned_existing": {},
-    "queue_size": 3155,
+    "queue_size": 3136,
     "url_source": "queue",
-    "skipped_already_visited": 1641,
-    "skipped_parked": 13,
+    "skipped_already_visited": 1704,
+    "skipped_parked": 14,
     "scope": "다이소몰 뷰티관(C245) 10개 카테고리 (선케어·네일 제외)",
     "delay_seconds": 30.0,
     "max_items": 110,
     "user_agent": "JarvisLunaResearchBot/1.0 (+contact: coar0000@naver.com)",
     "robots_note": "robots.txt: User-agent * → Allow /pd/pdr/, Crawl-delay 30",
-    "finished_at": "2026-09-17T23:11:25.408546+00:00",
+    "finished_at": "2026-09-19T22:27:05.300261+00:00",
     "bucket_targets": {
       "구강용품": 3,
       "헤어케어": 18,
@@ -39,14 +41,15 @@
     "buckets_short": {
       "헤어케어": 18,
       "바디케어": 15,
-      "클렌징": 13,
+      "클렌징": 16,
       "마스크팩": 45,
       "스킨케어": 150
     },
-    "status": "ok"
+    "status": "ok",
+    "failure_reason": ""
   },
   "totals": {
-    "products": 339,
+    "products": 342,
     "bucket_targets": {
       "구강용품": 3,
       "헤어케어": 18,
@@ -67,7 +70,7 @@
       "바디케어": 15,
       "뷰티소품": 8,
       "스킨케어": 150,
-      "클렌징": 13,
+      "클렌징": 16,
       "향수": 8,
       "헤어케어": 18
     },
@@ -110,13 +113,13 @@
       },
       "스킨케어": {
         "count": 150,
-        "avg_price_krw": 18303,
+        "avg_price_krw": 18290,
         "min_price_krw": 1000,
         "max_price_krw": 100000
       },
       "클렌징": {
-        "count": 13,
-        "avg_price_krw": 7692,
+        "count": 16,
+        "avg_price_krw": 6750,
         "min_price_krw": 1000,
         "max_price_krw": 60000
       },
@@ -133,10 +136,10 @@
         "max_price_krw": 40000
       }
     },
-    "avg_price_krw": 10479,
+    "avg_price_krw": 10405,
     "price_krw_min": 500,
     "price_krw_max": 100000,
-    "with_rating": 250
+    "with_rating": 253
   },
   "fx": {
     "usd_to_krw": 1386.89,
@@ -144,7 +147,7 @@
     "as_of": "2026-09-19",
     "source": "ExchangeRate-API",
     "api_url": "https://open.er-api.com/v6/latest/USD",
-    "fetched_at": "2026-09-19T21:11:55.526794+00:00",
+    "fetched_at": "2026-09-19T21:28:39.609654+00:00",
     "ok": true,
     "대조": [
       "exchangerate-api 1,386.89(2026-09-19)",

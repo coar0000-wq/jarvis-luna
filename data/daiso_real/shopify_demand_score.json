@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-19T21:11:56.165935+00:00",
-  "total_products": 338,
+  "generated_at": "2026-09-19T22:27:05.563659+00:00",
+  "total_products": 342,
   "grade_summary": {
     "S": 10,
-    "A": 73,
+    "A": 77,
     "B": 45,
     "C": 210
   },
   "s_slot_limit": 10,
   "s_slot_open": 0,
   "category_avg_score": {
-    "클렌징": 75.9,
-    "스킨케어": 65.3,
+    "클렌징": 77.8,
+    "스킨케어": 65.4,
     "바디케어": 63.2,
     "마스크팩": 54.6,
     "메이크업": 50.1,
@@ -30,7 +30,7 @@
     "walmart_beauty"
   ],
   "global_demand_signals": 89,
-  "products_with_global_match": 132,
+  "products_with_global_match": 135,
   "canonical": "shopify_s_recommendations.json",
   "priority_note": "S등급만 Shopify 1차 등록. 펫/노이즈/약한 단일토큰 제외.",
   "scoring_model": {
@@ -4136,6 +4136,151 @@
       "canonical_product_id": "CP000258"
     },
     {
+      "pd_no": "1060214",
+      "name": "바세린 딥클린 클렌징폼 180 ml",
+      "bucket": "클렌징",
+      "rebucketed": false,
+      "price_krw": 3000,
+      "rating": 4.8,
+      "review_count": 1649,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060214",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250311/pn0zDOlgMlCWQpjsIR3J1060214_00_01pn0zDOlgMlCWQpjsIR3J.jpg",
+      "shopify_score": 86,
+      "grade": "A",
+      "s_rule": "weak_solo_token",
+      "us_market_hits": 12,
+      "us_median_price_usd": 20.2,
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 13.3,
+        "reviews": 19.5,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 23.1,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 2,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "amazon_best_sellers",
+        "global_product": "PanOxyl 10% Benzoyl Peroxide Acne Foaming Wash, Maximum Strength, Daily Acne-Fighting Face and Body Cleanser, Face Wash to Clear, Treat and Prevent Acne Pimples and Stubborn Breakouts, 5.5 Oz Tube",
+        "similarity": 0.248,
+        "demand_weight": 0.475,
+        "matched_tokens": [
+          "cleanser"
+        ],
+        "match_score": 0.118
+      },
+      "global_matches": [
+        {
+          "channel": "amazon_best_sellers",
+          "global_product": "PanOxyl 10% Benzoyl Peroxide Acne Foaming Wash, Maximum Strength, Daily Acne-Fighting Face and Body Cleanser, Face Wash to Clear, Treat and Prevent Acne Pimples and Stubborn Breakouts, 5.5 Oz Tube",
+          "similarity": 0.248,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "cleanser"
+          ],
+          "match_score": 0.118
+        }
+      ],
+      "recommend_reason": "글로벌 'PanOxyl 10% Benzoyl Peroxide Acne Foaming Wash, Maximum Strength, Daily Acne-Fighting Face and Body Cleanser, Face Wash to Clear, Treat and Prevent Acne Pimples and Stubborn Breakouts, 5.5 Oz Tube' (amazon_best_sellers) 유사 25% · 토큰 cleanser · S제외:weak_solo_token",
+      "canonical_product_id": "CP000341"
+    },
+    {
+      "pd_no": "1060215",
+      "name": "센카 퍼펙트 휩 클렌징 폼 50 g 프레시",
+      "bucket": "클렌징",
+      "rebucketed": false,
+      "price_krw": 3000,
+      "rating": 4.8,
+      "review_count": 1571,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060215",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240924/OstV4nwe449zyzV9njAU1060215_00_00OstV4nwe449zyzV9njAU.jpg",
+      "shopify_score": 86,
+      "grade": "A",
+      "s_rule": "weak_solo_token",
+      "us_market_hits": 12,
+      "us_median_price_usd": 20.2,
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 13.3,
+        "reviews": 19.4,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 23.1,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 2,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "amazon_best_sellers",
+        "global_product": "PanOxyl 10% Benzoyl Peroxide Acne Foaming Wash, Maximum Strength, Daily Acne-Fighting Face and Body Cleanser, Face Wash to Clear, Treat and Prevent Acne Pimples and Stubborn Breakouts, 5.5 Oz Tube",
+        "similarity": 0.248,
+        "demand_weight": 0.475,
+        "matched_tokens": [
+          "cleanser"
+        ],
+        "match_score": 0.118
+      },
+      "global_matches": [
+        {
+          "channel": "amazon_best_sellers",
+          "global_product": "PanOxyl 10% Benzoyl Peroxide Acne Foaming Wash, Maximum Strength, Daily Acne-Fighting Face and Body Cleanser, Face Wash to Clear, Treat and Prevent Acne Pimples and Stubborn Breakouts, 5.5 Oz Tube",
+          "similarity": 0.248,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "cleanser"
+          ],
+          "match_score": 0.118
+        }
+      ],
+      "recommend_reason": "글로벌 'PanOxyl 10% Benzoyl Peroxide Acne Foaming Wash, Maximum Strength, Daily Acne-Fighting Face and Body Cleanser, Face Wash to Clear, Treat and Prevent Acne Pimples and Stubborn Breakouts, 5.5 Oz Tube' (amazon_best_sellers) 유사 25% · 토큰 cleanser · S제외:weak_solo_token",
+      "canonical_product_id": "CP000342"
+    },
+    {
+      "pd_no": "1040079",
+      "name": "포인트 딥클린 올인원 클렌징 티슈 30매",
+      "bucket": "클렌징",
+      "rebucketed": false,
+      "price_krw": 2000,
+      "rating": 4.8,
+      "review_count": 1668,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1040079",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251002/7X8B9SzPXsE15nzdihuK1040079_00_007X8B9SzPXsE15nzdihuK.png",
+      "shopify_score": 86,
+      "grade": "A",
+      "s_rule": "no_global_match",
+      "us_market_hits": 12,
+      "us_median_price_usd": 20.2,
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 13.3,
+        "reviews": 19.5,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 23.1,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "클렌징 카테고리 · 평점 4.8 · 리뷰 1,668건 (글로벌 시그널 약함)",
+      "canonical_product_id": "CP000339"
+    },
+    {
       "pd_no": "1072455",
       "name": "큐어레스트 수분진정 버블에센스토너 95 ml",
       "bucket": "스킨케어",
@@ -4805,6 +4950,61 @@
       ],
       "recommend_reason": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token",
       "canonical_product_id": "CP000090"
+    },
+    {
+      "pd_no": "1056649",
+      "name": "VT 리들샷 페이셜 레디언스 글루타치온 에센스 2 ml X 6개입",
+      "bucket": "스킨케어",
+      "rebucketed": false,
+      "price_krw": 3000,
+      "rating": 4.8,
+      "review_count": 2308,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1056649",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250929/KsNuHoj2yHg2kDfPHPxz1056649_00_01KsNuHoj2yHg2kDfPHPxz.jpg",
+      "shopify_score": 83,
+      "grade": "A",
+      "s_rule": "weak_solo_token",
+      "us_market_hits": 1,
+      "us_median_price_usd": 20.9,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 13.3,
+        "reviews": 20.0,
+        "price": 10.0,
+        "keyword": 3,
+        "us_market_fit": 12.1,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 6,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "tiktok_shop_us",
+        "global_product": "COSRX Advanced Snail 96 Mucin Essence",
+        "similarity": 0.28,
+        "demand_weight": 0.9,
+        "matched_tokens": [
+          "essence"
+        ],
+        "match_score": 0.252
+      },
+      "global_matches": [
+        {
+          "channel": "tiktok_shop_us",
+          "global_product": "COSRX Advanced Snail 96 Mucin Essence",
+          "similarity": 0.28,
+          "demand_weight": 0.9,
+          "matched_tokens": [
+            "essence"
+          ],
+          "match_score": 0.252
+        }
+      ],
+      "recommend_reason": "글로벌 'COSRX Advanced Snail 96 Mucin Essence' (tiktok_shop_us) 유사 28% · 토큰 essence · S제외:weak_solo_token",
+      "canonical_product_id": "CP000340"
     },
     {
       "pd_no": "1051730",
