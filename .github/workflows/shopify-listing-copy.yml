@@ -436,6 +436,10 @@ jobs:
                   )
           PY
 
+      # 게이트/승인/온톨로지 위반 산출물을 공개 저장소에 올리지 않는다.
+      - name: 커머스 온톨로지·Action 안전 검증
+        run: python -u scripts/validate_commerce_architecture.py
+
       # -------------------------------------------------------
       # 산출물 발행
       #

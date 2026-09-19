@@ -130,6 +130,10 @@ jobs:
               )
           PY
 
+      # 게이트/승인/온톨로지 위반 산출물을 공개 저장소에 올리지 않는다.
+      - name: 커머스 온톨로지·Action 안전 검증
+        run: python -u scripts/validate_commerce_architecture.py
+
       # 손으로 만든 커밋·푸시를 발행 액션으로 바꿨다 (2026-09-13)
       #
       # 마지막 남은 하나였다. 나머지 열 개는 이미 발행 액션을 쓴다.

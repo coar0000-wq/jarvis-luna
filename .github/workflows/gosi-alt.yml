@@ -138,6 +138,10 @@ jobs:
                 f"· 막힘 {gate.get('blockers')}")
           PY
 
+      # 게이트/승인/온톨로지 위반 산출물을 공개 저장소에 올리지 않는다.
+      - name: 커머스 온톨로지·Action 안전 검증
+        run: python -u scripts/validate_commerce_architecture.py
+
       - name: 산출물 발행 (원격 최신 위에 이번 변경만)
         if: success()
         uses: ./.github/actions/publish

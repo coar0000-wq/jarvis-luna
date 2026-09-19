@@ -11,9 +11,13 @@ from __future__ import annotations
 import csv
 import hashlib
 import json
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import gate_signature  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 D = ROOT / "data"
@@ -53,6 +57,8 @@ def approval_valid(approval: dict, payload_hash: str) -> bool:
 
 def main() -> int:
     gate = load_json(D / "listing_gate.json", {}) or {}
+    # 낡은 게이트 위에서 사람 승인을 받을 Action 을 만들지 않는다.
+    gate_signature.require_current(gate)
     master = load_json(D / "product_master.json", {}) or {}
     previous = load_json(OUT, {}) or {}
     approvals = load_json(APPROVALS, {}) or {}
@@ -116,21 +122,46 @@ def main() -> int:
             },
         }
         payload_hash = digest(payload)
-        if len(members) > 1:
-            if group_id not in ontology_groups:
-                raise RuntimeError(f"Action 대상 Variant 부모 객체가 없습니다: {group_id}")
+        # 객체 정체성은 온톨로지가 정한다. 이번 회차에 몇 개가 ready 였는지로
+        # 바뀌면 같은 상품이 어제는 그룹, 오늘은 단품이 된다. 그러면
+        # action_id 가 바뀜어 이전 shopify_ids 와 승인이 고아가 되고,
+        # 같은 핸들에 Draft 가 중복으로 생길 수 있다.
+        if group_id in ontology_groups:
             object_type = "ProductVariantGroup"
             object_id = group_id
+        elif len(members) > 1:
+            raise RuntimeError(f"Action 대상 Variant 부모 객체가 없습니다: {group_id}")
         else:
             object_type = "CanonicalProduct"
             object_id = cps[0]
+
+        # 그룹이면 이번에 빠진 멤버를 명시한다. 조용히 줄어든 채로
+        # 승인받으면 사람은 전체를 승인했다고 믿게 된다.
+        excluded_members = []
+        if object_type == "ProductVariantGroup":
+            ontology_members = [str(m) for m in
+                                (ontology_groups[group_id].get("member_canonical_product_ids")
+                                 or [])]
+            present = set(cps)
+            excluded_members = [m for m in ontology_members if m not in present]
+            if excluded_members:
+                payload["excluded_members"] = excluded_members
+                payload_hash = digest(payload)
+
         action_id = f"shopify:draft:{object_id}"
         approval = draft_approvals.get(object_id, {}) if isinstance(draft_approvals, dict) else {}
         previous_action = previous_by.get(action_id, {})
+        approved_now = approval_valid(
+            approval if isinstance(approval, dict) else {}, payload_hash)
+        # 이전 회차의 종료 상태를 그대로 이어받지 않는다.
+        # 예전에는 payload_hash 만 같으면 승인 증적 없이 DRAFT_CREATED 가
+        # 영구히 고정됐다. 산출물은 매 회차 공개 저장소에 다시 써지므로
+        # 그 값을 근거로 삼으면 자기승인이 된다.
         if (previous_action.get("payload_hash") == payload_hash
-                and previous_action.get("state") in TERMINAL_STATES):
+                and previous_action.get("state") in TERMINAL_STATES
+                and approved_now):
             state = previous_action["state"]
-        elif approval_valid(approval if isinstance(approval, dict) else {}, payload_hash):
+        elif approved_now:
             state = "READY_TO_EXECUTE"
         else:
             state = "WAITING_HUMAN_APPROVAL"
@@ -142,6 +173,7 @@ def main() -> int:
             "object_id": object_id,
             "shopify_group_key": group_id,
             "canonical_product_ids": cps,
+            "excluded_members": excluded_members,
             "pd_nos": [str(p.get("pd_no") or "") for p in members],
             "variant_count": len(members),
             "payload_hash": payload_hash,

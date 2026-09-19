@@ -6,10 +6,14 @@ from __future__ import annotations
 import csv
 import hashlib
 import json
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 D = ROOT / "data"
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import gate_signature  # noqa: E402
 
 
 def load(path: Path):
@@ -35,6 +39,11 @@ def main() -> int:
     legal = load(D / "legal_full.json")
     market = load(D / "market_team.json")
     action_queue = load(D / "shopify_action_queue.json")
+
+    # 게이트가 낡았으면 그 아래 조인은 전부 낡은 판정 위에 서 있다.
+    # 이 검사가 없어서 예전에는 낡은 ready 로 만든 Action 도 OK 가 나왔다.
+    require(not gate_signature.stale_reason(gate),
+            gate_signature.stale_reason(gate) or "listing_gate 신선도 검사 실패")
 
     source_ids = {str(x["pd_no"]) for x in source.get("products") or []}
     registry = {str(k): str(v) for k, v in (master.get("pd_no_to_cp") or {}).items()}
@@ -109,10 +118,12 @@ def main() -> int:
     expected_refs = {}
     for gid, members in ready_groups.items():
         members = sorted(members, key=lambda p: str((p.get("variant") or {}).get("option_value") or ""))
-        if len(members) > 1:
-            require(gid in actual_groups, f"Action 대상 Variant 부모 객체 누락: {gid}")
+        # 객체 종류는 온톨로지가 정한다. 이번 회차의 ready 수로 바뀌면
+        # 같은 상품의 action_id 가 흔들려 이전 Draft 와 승인이 고아가 된다.
+        if gid in actual_groups:
             ref = ("ProductVariantGroup", gid)
         else:
+            require(len(members) == 1, f"Action 대상 Variant 부모 객체 누락: {gid}")
             ref = ("CanonicalProduct", str(members[0].get("canonical_product_id")))
         expected_refs[ref] = members
     actual_refs = {(str(x.get("object_type")), str(x.get("object_id"))) for x in draft_actions}
@@ -141,20 +152,29 @@ def main() -> int:
                 "Shopify Action 안전 정책 위반")
         products_payload = [export_by_cp[cp] for cp in cps]
         inventory_payload = [inventory_by_cp[cp] for cp in cps]
-        expected_hash = digest({
+        payload = {
             "shopify_group_key": action.get("shopify_group_key"),
             "products": products_payload,
             "inventory": inventory_payload,
             "safety": {"status": "draft", "published": False,
                        "inventory": 0, "inventory_policy": "deny"},
-        })
+        }
+        # 그룹에서 빠진 멤버가 있으면 승인 대상이 달라진다. 해시에 포함한다.
+        excluded = list(action.get("excluded_members") or [])
+        if excluded:
+            payload["excluded_members"] = excluded
+        expected_hash = digest(payload)
         require(action.get("payload_hash") == expected_hash, "Shopify Action payload hash 불일치")
-        if action.get("state") == "READY_TO_EXECUTE":
+
+        # 승인 증적은 실행 직전뿐 아니라 종료 상태에도 요구한다.
+        # 예전에는 DRAFT_CREATED 에 shopify_ids 만 있으면 통과해서,
+        # 공개 저장소에 그 두 값만 써넣으면 승인 없이 완료로 굳었다.
+        if action.get("state") in {"READY_TO_EXECUTE", "DRAFT_CREATED", "VERIFIED"}:
             approval = draft_approvals.get(str(action.get("object_id")), {})
             require(approval.get("approved") is True
                     and approval.get("approved_payload_hash") == expected_hash
                     and approval.get("approved_by") and approval.get("approved_at"),
-                    "READY_TO_EXECUTE Action의 정확한 사람 승인 증적 누락")
+                    f"{action.get('state')} Action의 정확한 사람 승인 증적 누락")
         if action.get("state") in {"DRAFT_CREATED", "VERIFIED"}:
             require(bool(action.get("shopify_ids")), "완료 Action의 Shopify ID 증적 누락")
     require(action_queue.get("public_blocked") is True, "공개 Action 기본 차단이 해제됨")

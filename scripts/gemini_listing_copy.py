@@ -29,6 +29,9 @@ import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import gate_signature  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / "data" / "daiso_real" / "shopify_s_recommendations.json"
 FULL = ROOT / "data" / "daiso_real" / "shopify_demand_score.json"
@@ -234,34 +237,8 @@ def _recommendation_signature(rows: list[dict]) -> str:
 
 
 def _agent_input_signature(recommendations: list[dict]) -> dict:
-    def doc(path: Path) -> dict:
-        try:
-            value = json.loads(path.read_text(encoding="utf-8-sig"))
-            return value if isinstance(value, dict) else {}
-        except (OSError, json.JSONDecodeError, UnicodeDecodeError):
-            return {}
-
-    master = doc(PRODUCT_MASTER)
-    gosi = doc(GOSI)
-    labels = doc(LABELS)
-    pricing = doc(PRICING)
-    legal = doc(LEGAL)
-    semantic = {
-        "data/product_master.json": master.get("pd_no_to_cp") or {},
-        "data/gosi.json": gosi.get("items") or {},
-        "data/daiso_real/daiso_us_labels.json": labels.get("items") or labels,
-        "data/pricing_model.json": (pricing.get("offers_by_product") or {}).get("single") or [],
-        "data/legal_products.json": legal.get("items") or {},
-    }
-    hashes = {}
-    for path, value in semantic.items():
-        raw = json.dumps(value, ensure_ascii=False, sort_keys=True,
-                         separators=(",", ":")).encode("utf-8")
-        hashes[path] = _sha256_bytes(raw)
-    return {
-        "semantic_sources": hashes,
-        "recommendations_sha256": _recommendation_signature(recommendations),
-    }
+    # 계산은 scripts/gate_signature.py 한 곳에만 둔다.
+    return gate_signature.agent_input_signature(recommendations)
 
 
 def main() -> int:

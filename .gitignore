@@ -38,3 +38,9 @@ data/daiso_real/gosi_slice/
 # 대한화장품협회 표준화명칭목록 원본 PDF (11MB). 사전을 만들 때만 쓰고
 # 결과인 data/inci_dictionary.json 만 올린다.
 data/daiso_real/kcia_std_names.pdf
+
+# 법률 책임자 실명·주소·연락처와 승인 증적은 공개 저장소에 올리지 않는다.
+# 예시 파일(*.example.json)만 공유한다.
+data/manual/legal_responsible_person.json
+data/manual/legal_product_overrides.json
+data/manual/shopify_action_approvals.json
