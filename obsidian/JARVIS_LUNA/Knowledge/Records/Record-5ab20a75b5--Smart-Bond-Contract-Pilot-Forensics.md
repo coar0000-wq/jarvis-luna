@@ -2,7 +2,7 @@
 title: "Record 5ab20a75b5 · Smart-Bond-Contract-Pilot-Forensics"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T03:03:42.672932+00:00
+updated_at: 2026-09-19T04:40:20.360282+00:00
 tags: [record, real-data]
 ---
 

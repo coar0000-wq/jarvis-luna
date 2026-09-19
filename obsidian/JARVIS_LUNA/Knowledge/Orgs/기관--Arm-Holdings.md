@@ -2,7 +2,7 @@
 title: "기관 · Arm Holdings"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T03:03:43.674679+00:00
+updated_at: 2026-09-19T04:40:21.316642+00:00
 tags: [org, real-data]
 ---
 

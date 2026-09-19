@@ -2,7 +2,7 @@
 title: "Record 6b817e0763 · Speaking-Numbers-to-LLMs-Multi-Wavelet-Number-Embed"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T03:03:43.129535+00:00
+updated_at: 2026-09-19T04:40:20.795701+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 770c19b93c · Cross-Regional-Grapevine-Cold-Hardiness-Prediction-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T03:03:42.402717+00:00
+updated_at: 2026-09-19T04:40:20.111462+00:00
 tags: [record, real-data]
 ---
 

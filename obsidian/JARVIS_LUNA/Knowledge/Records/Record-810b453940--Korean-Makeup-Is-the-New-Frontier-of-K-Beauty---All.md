@@ -2,7 +2,7 @@
 title: "Record 810b453940 · Korean-Makeup-Is-the-New-Frontier-of-K-Beauty---All"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T03:03:42.835161+00:00
+updated_at: 2026-09-19T04:40:20.502334+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiW0FVX3lxTFBNMVRORG9IeVUzU0g5ck1tdjVMeEc5U0V0a29yTThVTmRock0wM2NzbEJRZUc4T1gxbEZBRXhsWXZiZTByS1dIZEhxa2c0dVREWUcxRXQtaXVjRXc?oc=5)
 
-**제목:** Korean Makeup Is the New Frontier of K-Beauty - allure.com
+**제목:** Korean Makeup Is the New Frontier of K-Beauty - Allure
 
-Korean Makeup Is the New Frontier of K-Beauty - allure.com
+Korean Makeup Is the New Frontier of K-Beauty - Allure
 
 **출처:** Source · Google Search
 

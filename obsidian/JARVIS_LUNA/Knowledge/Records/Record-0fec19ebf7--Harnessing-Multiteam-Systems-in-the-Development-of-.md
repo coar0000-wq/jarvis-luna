@@ -2,7 +2,7 @@
 title: "Record 0fec19ebf7 · Harnessing-Multiteam-Systems-in-the-Development-of-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T03:03:42.618341+00:00
+updated_at: 2026-09-19T04:40:20.312186+00:00
 tags: [record, real-data]
 ---
 

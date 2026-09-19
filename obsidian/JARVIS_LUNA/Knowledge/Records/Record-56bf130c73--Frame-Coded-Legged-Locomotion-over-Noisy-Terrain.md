@@ -2,7 +2,7 @@
 title: "Record 56bf130c73 · Frame-Coded-Legged-Locomotion-over-Noisy-Terrain"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T03:03:42.477488+00:00
+updated_at: 2026-09-19T04:40:20.177398+00:00
 tags: [record, real-data]
 ---
 

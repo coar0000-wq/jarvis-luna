@@ -2,7 +2,7 @@
 title: "Record 7e7e7b7556 · Decision-support-platform-for-transparent-and-modul"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T03:03:42.581660+00:00
+updated_at: 2026-09-19T04:40:20.275755+00:00
 tags: [record, real-data]
 ---
 

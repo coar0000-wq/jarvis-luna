@@ -2,7 +2,7 @@
 title: "Record 182a45f12b · K-Beautys-global-boom-Sales-up-131-in-two-years-say"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T03:03:42.930205+00:00
+updated_at: 2026-09-19T04:40:20.589808+00:00
 tags: [record, real-data]
 ---
 

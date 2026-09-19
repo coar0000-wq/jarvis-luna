@@ -2,7 +2,7 @@
 title: "Record 117f674a42 · CAP-Continuously-Adaptive-Perception-Blind-Humanoid"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T03:03:42.495348+00:00
+updated_at: 2026-09-19T04:40:20.193773+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 927f541378 · Selena-Gomezs-Sunset-Frost-Nails-Capture-Golden-Hour-in-a-Manicure--Se"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T03:03:43.207930+00:00
+updated_at: 2026-09-19T04:40:20.870406+00:00
 tags: [record, real-data]
 ---
 

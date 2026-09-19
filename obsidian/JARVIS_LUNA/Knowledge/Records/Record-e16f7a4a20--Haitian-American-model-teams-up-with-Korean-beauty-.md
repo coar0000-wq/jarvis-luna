@@ -2,7 +2,7 @@
 title: "Record e16f7a4a20 · Haitian-American-model-teams-up-with-Korean-beauty-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T03:03:43.034276+00:00
+updated_at: 2026-09-19T04:40:20.698521+00:00
 tags: [record, real-data]
 ---
 
