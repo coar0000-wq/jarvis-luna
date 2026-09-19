@@ -468,6 +468,7 @@ jobs:
             data/product_master.json
             data/legal_products.json
             data/legal_full.json
+            data/mocra_readiness.json
             data/market_team.json
             data/marketing_priority.csv
             data/coaching_loop.json

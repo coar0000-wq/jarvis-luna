@@ -246,6 +246,7 @@ jobs:
         run: |
           python scripts/check_legal_products.py
           python scripts/build_legal_full.py
+          python scripts/build_mocra_readiness.py
           python scripts/build_listing_gate.py
           python scripts/build_product_master.py --inject-s
           python scripts/build_market_team.py
@@ -451,5 +452,6 @@ jobs:
         if: steps.guard.outputs.ready == 'true'
         uses: ./.github/actions/publish
         with:
-          paths: data/shopify_listing_copy.json data/shopify_import.csv data/shopify_import_report.json data/pricing_model.json data/daiso_real/collection_status.json data/product_master.json data/legal_products.json data/legal_full.json data/listing_gate.json data/daiso_real/shopify_s_recommendations.json data/market_team.json data/marketing_priority.csv data/coaching_loop.json data/shopify_exports data/shopify_action_queue.json data/dashboard_runtime.json data/knowledge/cumulative_history.json
+          paths: data/shopify_listing_copy.json data/shopify_import.csv data/shopify_import_report.json data/pricing_model.json data/daiso_real/collection_status.json data/product_master.json data/legal_products.json data/legal_full.json
+            data/mocra_readiness.json data/listing_gate.json data/daiso_real/shopify_s_recommendations.json data/market_team.json data/marketing_priority.csv data/coaching_loop.json data/shopify_exports data/shopify_action_queue.json data/dashboard_runtime.json data/knowledge/cumulative_history.json
           message: Shopify 영문 리스팅 카피 자동 갱신

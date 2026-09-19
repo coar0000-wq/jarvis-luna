@@ -97,6 +97,19 @@ FDA = [
      "+AND+sunscreen&limit=20"),
     ("FDA 리콜 RSS", "rss",
      "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/recalls/rss.xml"),
+    # 화장품 전용 규제 원문이 빠져 있었다 (2026-09-19).
+    #
+    # 지금까지 법률팀 피드의 FDA 항목은 대부분 식품 리콜이었다.
+    # 화장품 전용 RSS 와 enforcement 엔드포인트가 404 라서 그렇게 됐다.
+    # 우리가 맞아야 하는 것은 MoCRA · 화장품 라벨 · 색소 규정 같은
+    # 실제 규정이다. Federal Register API 는 그 원문을 바로 준다.
+    # 2026-09-19 실호출로 topics=cosmetics 232건, MoCRA 검색 12건을 확인했다.
+    ("연방관보 화장품 규정", "federal_register",
+     "https://www.federalregister.gov/api/v1/documents.json?per_page=20&order=newest"
+     "&conditions[topics][]=cosmetics"),
+    ("연방관보 MoCRA", "federal_register",
+     "https://www.federalregister.gov/api/v1/documents.json?per_page=20&order=newest"
+     "&conditions[term]=%22Modernization%20of%20Cosmetics%20Regulation%22"),
 ]
 
 NOT_COLLECTED = {
@@ -141,7 +154,23 @@ def collect_fda() -> tuple[list, list]:
             fails.append({"source": name, "reason": "응답 없음"})
             continue
         rows = []
-        if kind == "json":
+        if kind == "federal_register":
+            try:
+                for r in (json.loads(body).get("results") or []):
+                    title = str(r.get("title") or "").strip()
+                    if not title:
+                        continue
+                    kind_label = str(r.get("type") or "").strip()
+                    rows.append({
+                        "title": (f"[{kind_label}] {title}" if kind_label else title)[:200],
+                        "date": str(r.get("publication_date") or "")[:10],
+                        "url": r.get("html_url") or url.split("?")[0],
+                        "feed": name,
+                    })
+            except Exception:
+                fails.append({"source": name, "reason": "JSON 파싱 실패"})
+                continue
+        elif kind == "json":
             try:
                 for r in (json.loads(body).get("results") or []):
                     title = (r.get("products", [{}])[0].get("name_brand")

@@ -1,0 +1,39 @@
+{
+  "_설명": "MoCRA 준수 점검 입력. 이 파일을 mocra_profile.json 으로 복사해 실값을 채우세요. 추측값을 넣지 마세요. 확인한 것만 true 로 둡니다.",
+  "role": "reseller",
+  "_role_설명": "reseller = 다이소 정품을 사서 되파는 형태 / brand_owner = 자체 브랜드 / importer = 수입자",
+  "annual_revenue_usd": 0,
+  "_revenue_설명": "직전 3년 평균 연매출(미국 달러). 100만 달러 미만이면 시설 등록·GMP 일부가 면제됩니다. 모르면 숫자를 비우지 말고 실제 값을 넣으세요.",
+  "facility_registration": {
+    "registered": false,
+    "verified_at": "",
+    "facility_id": "",
+    "note": "제조시설을 직접 운영하지 않으면 수입 제품의 제조사가 등록돼 있는지 확인한 기록을 남기세요."
+  },
+  "product_listing": {
+    "submitted": false,
+    "last_submitted_at": "",
+    "listing_ids": [],
+    "note": "연 1회 갱신. 소규모 면제 대상이어도 제품 리스팅은 면제되지 않습니다."
+  },
+  "safety_substantiation": {
+    "covered_pd_nos": [],
+    "method": "",
+    "storage": "",
+    "note": "제품별 안전성 입증 자료(제조사 시험성적서, 원료 안전성 자료 등)를 확보한 상품번호를 적습니다."
+  },
+  "adverse_event": {
+    "us_contact": {
+      "type": "phone",
+      "value": "",
+      "note": "미국 내에서 연결되는 전화 또는 주소. 라벨에 표기해야 합니다."
+    },
+    "process_documented": false,
+    "note": "중대한 유해사례는 인지 후 15일 이내 FDA 보고. 접수·기록·보고 절차를 문서로 남기세요."
+  },
+  "gmp": {
+    "supplier_gmp_confirmed": false,
+    "recall_contact": "",
+    "note": "공급자 GMP 준수 확인 자료와 회수 발생 시 대응할 담당 연락처."
+  }
+}

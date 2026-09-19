@@ -799,15 +799,28 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
             need = ep.get("사람이_채워야_하는_칸") or []
             exp_txt = (f' · 수출서류 HS {ep["total"]}건 · 라벨 '
                        f'{6 - len(need)}/6항목 자동')
+        # 상품별 점검만으로는 "우리 사업이 MoCRA 준비가 됐나"에 답할 수 없다.
+        # 책임자·제품 리스팅·안전성 입증·유해사례 창구는 사업 단위 의무다.
+        mo = load_json(D / "mocra_readiness.json", None) or {}
+        mocra_txt = ""
+        if mo.get("total_checks"):
+            mocra_txt = (f' · MoCRA 준비 {mo.get("ready_count", 0)}/'
+                         f'{mo["total_checks"]}')
+            if mo.get("exempt_count"):
+                mocra_txt += f'(면제 {mo["exempt_count"]})'
+
         cards.append(_team(
             "legal", "법률·규제팀", lp.get("auto_checked_at"),
             # 자동 점검이 깨끗하면 통과가 정상 경로다. 사람을 부르는 건
             # 실제로 막힌 건(hard_block)뿐이다. 예전에는 주의 표시만 떠도
             # "PASS 판정 필요" 라고 적어 매번 사람이 해야 할 일처럼 보였다.
             f'자동 점검 {n_chk}건 · 통과 {a.get("clean", 0)} · '
-            f'등록 차단 {hard} · 참고 주의 {att}' + exp_txt + feed_tail("legal"),
+            f'등록 차단 {hard} · 참고 주의 {att}' + mocra_txt + exp_txt
+            + feed_tail("legal"),
             (f'차단 {hard}건: ' + ', '.join(hard_names[:2])
-             + ' — 라벨 갖추기 전엔 못 올림') if hard else None))
+             + ' — 라벨 갖추기 전엔 못 올림') if hard else
+            ('MoCRA 남은 항목: ' + ', '.join((mo.get("blocking") or [])[:3])
+             if mo.get("blocking") else None)))
     else:
         cards.append(_team("legal", "법률·규제팀", None,
                            "legal_products.json 없음", None, "missing"))

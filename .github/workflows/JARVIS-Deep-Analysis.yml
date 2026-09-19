@@ -275,6 +275,7 @@ jobs:
         run: |
           python -u scripts/check_legal_products.py
           python -u scripts/build_legal_full.py
+          python -u scripts/build_mocra_readiness.py
 
       - name: Build listing gate (copy/gosi/price/legal)
         run: python scripts/build_listing_gate.py
