@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T07:43:13.015486+09:00",
+  "generated_at": "2026-09-20T07:48:40.154472+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
@@ -30,7 +30,7 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-09-20T07:43:07.828802+09:00",
+      "when": "2026-09-20T07:47:21.945422+09:00",
       "summary": "S등급 10개 · 고시 판독 남음 2건 · 새 자료 36건",
       "action": "고시 표 2건 판독 남음 (비전 판독 상태 ok) — 1072554 [탄력리프팅]본셉 레티놀 탄력샷  https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072554 / 1053482 메디필 엑스트라 슈퍼 9 플러스  https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1053482",
       "status": "ok",
@@ -126,7 +126,7 @@
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-09-20T07:37:54.377126+09:00",
+      "when": "2026-09-20T07:47:25.091204+09:00",
       "summary": "81,926노트 · 330,219링크 · 끊어진 링크 0건 · 개인 노트 16건 별도",
       "action": null,
       "status": "ok",
@@ -140,7 +140,7 @@
     "id": "secretary",
     "name": "비서실장",
     "badge": "총괄",
-    "when": "2026-09-20T07:43:07.459070+09:00",
+    "when": "2026-09-20T07:47:21.924065+09:00",
     "summary": "30분 주기 · 고시 25건 · US라벨 25건 · 카피 10건 · 등록 가능 8건 · 법률 차단 2건",
     "action": "갱신 지연 고시 수집, 리스팅 카피 — 2시간 넘게 변경 없음(실패로 단정하지 않음)",
     "status": "warning",
@@ -149,37 +149,37 @@
         "단계": "고시 수집",
         "산출물": "gosi.json",
         "갱신": "2026-09-13T07:50:40.431569+00:00",
-        "몇시간전": 158.9
+        "몇시간전": 159.0
       },
       {
         "단계": "고시 비전 추출",
         "산출물": "gosi.json",
-        "갱신": "2026-09-20T07:43:07.354323+09:00",
+        "갱신": "2026-09-20T07:47:21.924065+09:00",
         "몇시간전": 0.0
       },
       {
         "단계": "US 라벨 동기화",
         "산출물": "daiso_us_labels.json",
-        "갱신": "2026-09-20T07:43:07.459070+09:00",
+        "갱신": "2026-09-20T07:47:21.381001+09:00",
         "몇시간전": 0.0
       },
       {
         "단계": "리스팅 카피",
         "산출물": "shopify_listing_copy.json",
         "갱신": "2026-09-19T06:20:18.772438+00:00",
-        "몇시간전": 16.4
+        "몇시간전": 16.5
       },
       {
         "단계": "등록 게이트",
         "산출물": "listing_gate.json",
         "갱신": "2026-09-19T22:43:07.680339+00:00",
-        "몇시간전": 0.0
+        "몇시간전": 0.1
       },
       {
         "단계": "법률 점검",
         "산출물": "legal_products.json",
         "갱신": "2026-09-19T22:43:07.518006+00:00",
-        "몇시간전": 0.0
+        "몇시간전": 0.1
       }
     ],
     "_근거": "chief_of_staff.yml 이 30분마다 부르는 스크립트들의 산출물 갱신 시각을 읽는다. 돌았다는 말이 아니라 결과가 바뀌었는지를 본다. chief_of_staff.py 파일은 어느 워크플로도 부르지 않는 고아라서 근거로 쓰지 않는다."
@@ -436,7 +436,7 @@
     "status": "completed",
     "record_count": 3928,
     "source_counts": {},
-    "updated_at": "2026-09-20T07:37:51.108012+09:00"
+    "updated_at": "2026-09-20T07:47:21.938066+09:00"
   },
   "graph": {
     "notes": 81926,
@@ -450,7 +450,7 @@
     "topics": 28,
     "orgs": 35,
     "audit": "passed",
-    "last_generated": "2026-09-20T07:37:54.377126+09:00"
+    "last_generated": "2026-09-20T07:47:25.091204+09:00"
   },
   "training": {
     "status": "completed",
@@ -1728,7 +1728,7 @@
       "collected_at": "2026-09-19T22:28:40.655933+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 0.2,
+      "age_hours": 0.3,
       "stale": false
     },
     "walmart_beauty": {
@@ -1738,7 +1738,7 @@
       "collected_at": "2026-09-19T22:28:40.656535+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 0.2,
+      "age_hours": 0.3,
       "stale": false
     },
     "oliveyoung_us": {
@@ -1758,7 +1758,7 @@
       "collected_at": "2026-09-19T22:16:24.080562+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 0.4,
+      "age_hours": 0.5,
       "stale": false
     },
     "wikipedia_interest": {
@@ -1769,7 +1769,7 @@
       "count": 8,
       "trust": "verified",
       "note": "2026-08-19 ~ 2026-09-17 일별 조회수. 후반 15일 대비 전반 15일 증감률",
-      "age_hours": 0.4,
+      "age_hours": 0.5,
       "stale": false
     },
     "allure_media": {
@@ -1780,7 +1780,7 @@
       "count": 15,
       "trust": "verified",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
-      "age_hours": 0.4,
+      "age_hours": 0.5,
       "stale": false
     },
     "openfda_sunscreen": {
@@ -1791,7 +1791,7 @@
       "count": 15,
       "trust": "verified",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다.",
-      "age_hours": 0.4,
+      "age_hours": 0.5,
       "stale": false
     },
     "shopify_demand_matching": {
@@ -1817,7 +1817,7 @@
       "collected_at": "2026-09-19T22:28:40.657087+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 0.2,
+      "age_hours": 0.3,
       "stale": false
     },
     "sephora": {
@@ -1827,7 +1827,7 @@
       "collected_at": "2026-09-19T22:28:40.657087+00:00",
       "count": 14,
       "trust": "verified",
-      "age_hours": 0.2,
+      "age_hours": 0.3,
       "stale": false
     },
     "open_beauty_facts": {
@@ -1837,7 +1837,7 @@
       "collected_at": "2026-09-19T22:15:28.742229+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 0.5,
+      "age_hours": 0.6,
       "stale": false
     }
   },
