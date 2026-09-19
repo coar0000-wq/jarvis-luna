@@ -81,6 +81,12 @@ jobs:
           python -u scripts/export_shopify_operational.py
           python -u scripts/build_shopify_action_queue.py
 
+      # 이 워크플로가 바로 gosi.json 을 쓰는 곳이다. 그런데 발행 직전에
+      # 고시 보호를 한 번도 돌리지 않고 있었다. gosi-alt 는 돌린다.
+      # 고시가 덮였으면 복구하고, 못 하면 발행 전에 멈춰야 한다.
+      - name: 화장품 고시 보호 (덮였으면 복구, 못 하면 중단)
+        run: python -u scripts/guard_gosi.py --restore
+
       - name: Summary
         if: always()
         run: |

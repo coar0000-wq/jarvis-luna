@@ -72,6 +72,22 @@ DELAY = float(os.environ.get("DAISO_DELAY", "30"))
 MAX_ITEMS = int(os.environ.get("DAISO_GOSI_MAX", "12"))
 ALT_MIN = 200
 
+# 상세가 길면 고시는 맨 아래에 있다. 고정 14회 · 19,600px 로 끊었더니
+# 39,765px 짜리 상세에서 고시까지 가기 전에 멈췄다. 끝에 닿을 때까지 내린다.
+MAX_SCROLL = int(os.environ.get("DAISO_GOSI_SCROLL", "40"))
+
+# alt 는 상세 영역에서 먼저 찾는다. 전체 img 를 먼저 보면 상단 마케팅
+# 배너의 긴 alt 를 고시로 착각한다.
+ALT_JS = (
+    "() => {"
+    "const pick=(sel)=>[...document.querySelectorAll(sel)]"
+    ".map(i=>i.getAttribute('alt')||'').filter(x=>x.length>%d);"
+    "let a=pick('div.cms div.editor-area div.editor-content img');"
+    "if(!a.length) a=pick('div.editor-content img');"
+    "if(!a.length) a=pick('img');"
+    "return a.length ? a.join('\\n\\n') : '';}"
+) % ALT_MIN
+
 # alt 안에서 찾을 이름들. 앞에 있는 것부터 본다.
 # 다이소 상세 이미지는 "라벨: 값" 또는 "라벨\n값" 두 형태를 섞어 쓴다.
 LABELS: list[tuple[str, tuple[str, ...]]] = [
@@ -214,37 +230,75 @@ def main() -> int:
                 page.wait_for_timeout(4000)
 
                 # 상품설명 더보기
+                #
+                # 고시는 모든 상품에 있다. 펼치지 못했거나 끝까지 내리지
+                # 못한 것은 "고시 없음"이 아니라 수집 실패다. 사유를 나눠 기록한다.
+                #
+                # 2026-09-19 실측: get_by_role("button", name=...) 는 이 버튼을
+                # 못 찾는다. 페이지의 접근성 트리에 안 올라온다.
+                # 살아 있는 버튼인데도 count()=0 이라 한 번도 펼치지 못했고,
+                # 그 결과를 고시 없음으로 오해했다. 글자로 집는다.
+                expand = "button_missing"
                 try:
-                    btn = page.get_by_role(
-                        "button", name=re.compile("상품설명 더보기"))
+                    btn = page.locator(
+                        'button:has-text("상품설명 더보기")')
+                    if not btn.count():
+                        btn = page.get_by_role(
+                            "button", name=re.compile("상품설명 더보기"))
                     if btn.count():
                         btn.first.scroll_into_view_if_needed(timeout=8000)
                         btn.first.click(timeout=8000)
                         print("  상품설명 더보기 눌렀다")
                         page.wait_for_timeout(2500)
+                        expand = "clicked"
+                    else:
+                        print("  더보기 버튼을 못 찾았다")
                 except Exception as e:
+                    expand = "click_failed"
                     print(f"  더보기 버튼 못 눌렀다: {type(e).__name__}")
 
-                # 상세 이미지가 lazy 라 화면에 들어와야 로드된다
+                # 누른 것과 펼쳐진 것은 다르다. 본문이 드러났는지 확인한다.
+                detail_ready = bool(page.evaluate(
+                    "() => {const d=document.querySelector('div.editor-content');"
+                    "return !!(d && d.getBoundingClientRect().height > 200);}"
+                ))
+                if detail_ready and expand != "clicked":
+                    expand = "already_open"
+                if not detail_ready:
+                    print("  상세 본문이 아직 펼쳐지지 않았다")
+
+                # 상세 이미지가 lazy 라 화면에 들어와야 로드된다.
+                # 높이가 멈추고 바닥에 닿을 때까지 내린다.
                 alt = ""
-                for step in range(14):
-                    page.mouse.wheel(0, 1400)
+                reached_end = False
+                stable = 0
+                last_height = -1
+                for step in range(MAX_SCROLL):
+                    page.mouse.wheel(0, 1600)
                     page.wait_for_timeout(1100)
-                    found = page.evaluate(
-                        "() => {const a=[...document.querySelectorAll('img')]"
-                        ".map(i=>i.getAttribute('alt')||'')"
-                        f".filter(x=>x.length>{ALT_MIN});"
-                        "return a.length? a.join('\\n\\n') : '';}}"
-                    )
+                    found = page.evaluate(ALT_JS)
                     if found and len(found) > len(alt):
                         alt = found
-                    if alt and step >= 4:
+                    pos = page.evaluate(
+                        "() => {const e=document.scrollingElement;"
+                        "return [e.scrollHeight, e.scrollTop + e.clientHeight];}")
+                    height, bottom = int(pos[0]), int(pos[1])
+                    stable = stable + 1 if height == last_height else 0
+                    last_height = height
+                    if bottom >= height - 80 and stable >= 2:
+                        reached_end = True
                         break
 
                 if not alt:
-                    print("  긴 alt 를 못 찾았다")
+                    reason = ("expand_failed" if not detail_ready else
+                              "lazy_timeout" if not reached_end else
+                              "alt_not_rendered")
+                    print(f"  긴 alt 를 못 찾았다 · 사유 {reason} "
+                          "(고시 없음이 아니라 수집 실패다)")
                     empty.append(pd_no)
-                    report.append({"pd_no": pd_no, "alt_len": 0, "찾음": []})
+                    report.append({"pd_no": pd_no, "alt_len": 0, "찾음": [],
+                                   "실패사유": reason, "더보기": expand,
+                                   "끝까지": reached_end})
                     continue
 
                 print(f"  alt {len(alt)}자 · 줄바꿈 {alt.count(chr(10))}개")
@@ -260,6 +314,8 @@ def main() -> int:
                 row.setdefault("name", "")
                 row["alt_source"] = "rendered_page_img_alt"
                 row["alt_len"] = len(alt)
+                row["alt_expand"] = expand
+                row["alt_reached_end"] = reached_end
                 row["alt_collected_at"] = now()
                 row["source_url"] = PAGE.format(pd_no)
                 items[pd_no] = row
@@ -268,11 +324,14 @@ def main() -> int:
                     ok += 1
                 print(f"  채운 칸 {filled or '없음'}")
                 report.append({"pd_no": pd_no, "alt_len": len(alt),
-                               "찾음": sorted(got), "채움": filled})
+                               "찾음": sorted(got), "채움": filled,
+                               "더보기": expand, "끝까지": reached_end})
 
             except Exception as e:
                 print(f"  실패: {type(e).__name__}: {str(e)[:90]}")
                 empty.append(pd_no)
+                report.append({"pd_no": pd_no, "alt_len": 0, "찾음": [],
+                               "실패사유": f"exception:{type(e).__name__}"})
 
         browser.close()
 

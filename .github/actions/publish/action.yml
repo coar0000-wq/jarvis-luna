@@ -129,14 +129,54 @@ runs:
 
         # --------------------------------------------------------
         # 원격 최신 main 위에 이번 변경만 얹는다.
-        # 다른 자동화가 먼저 push했어도 rebase 후 재시도한다.
+        #
+        # 예전에는 pull --rebase 실패 시 전략 없는 git pull 로 넘어갔다.
+        # 최신 git 은 전략이 없으면 "Need to specify how to reconcile
+        # divergent branches" 로 즉시 죽는다. 실제로 2026-09-19 Deep
+        # Analysis 발행이 이 지점에서 실패해 팀 피드가 발행되지 않았다.
+        #
+        # 충돌의 정체는 코드가 아니라 매 실행 재생성되는 산출물이다.
+        # 같은 시간대에 다른 워크플로가 obsidian 노트를 먼저 올리면
+        # 수백 건이 충돌한다. 이 경우 정답은 방금 재생성한 이번 실행분이다.
+        # 단, 발행 경로 밖에서 충돌이 나면 사람이 봐야 하므로 중단한다.
         # --------------------------------------------------------
+        PUBLISH_PATHS="${{ inputs.paths }}"
+
         for i in 1 2 3; do
 
-          git pull --rebase origin main || (
-            git rebase --abort
-            git pull origin main
-          )
+          git fetch origin main
+
+          if ! git merge --no-edit origin/main; then
+            git diff --name-only --diff-filter=U > "$RUNNER_TEMP/publish_conflicts.txt"
+            outside=0
+
+            while read -r f; do
+              [ -z "$f" ] && continue
+
+              inside=0
+              for p in $PUBLISH_PATHS; do
+                case "$f" in
+                  "$p"|"$p"/*) inside=1 ;;
+                esac
+              done
+
+              if [ "$inside" = "1" ]; then
+                git checkout --ours -- "$f"
+                git add -- "$f"
+              else
+                echo "::error::발행 경로 밖 충돌이라 자동 해결하지 않는다: $f"
+                outside=1
+              fi
+            done < "$RUNNER_TEMP/publish_conflicts.txt"
+
+            if [ "$outside" = "1" ]; then
+              git merge --abort
+              exit 1
+            fi
+
+            echo "::warning::재생성 산출물 충돌을 이번 실행분으로 해결했습니다."
+            git commit --no-edit
+          fi
 
           if git push origin main; then
             echo "✅ Push 성공"

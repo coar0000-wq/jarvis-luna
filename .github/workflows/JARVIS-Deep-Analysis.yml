@@ -21,12 +21,12 @@ on:
 
 permissions:
   contents: write
+  # 끝에서 이번 실행의 개별 단계 결과를 읽으려면 필요하다.
+  actions: read
 
 concurrency:
   # 모든 main 자동 발행 워크플로가 공유하는 잠금 그룹
   group: main-publish
-  # 동시에 들어온 실행을 최대 100개까지 대기열에 보관한다.
-  queue: max
   # 실행 중인 데이터 생성은 중단하지 않고 다음 실행을 대기시킨다.
   cancel-in-progress: false
 jobs:
@@ -498,12 +498,44 @@ jobs:
       # FINAL FAILURE CHECK
       # =========================
 
+      # job.status 만 보면 이 검사는 항상 통과한다.
+      # 이 워크플로는 continue-on-error 단계가 30개 넘고,
+      # 그런 실패는 job.status 를 바꾸지 않는다. 즉 수집기가 전부 죽은
+      # 회차도 초록으로 보고됐다. 이번 실행의 단계 결과를 직접 읽어 판정한다.
+      # 발행은 앞에서 끝났으므로 자료는 남고, 보고만 사실대로 바뀜다.
       - name: 앞 단계 실패 확인
         if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
+          set -e
+
+          gh api "repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/attempts/${{ github.run_attempt }}/jobs" \
+            --jq '.jobs[] | select(.status=="completed" or .status=="in_progress") | .steps[]? | select(.conclusion=="failure") | .name' \
+            > failed_steps.txt || true
+
+          count=$(wc -l < failed_steps.txt | tr -d ' ')
+
+          if [ "$count" != "0" ]; then
+            echo "::warning::실패한 단계 ${count}개"
+            sed 's/^/  - /' failed_steps.txt
+            {
+              echo "### 실패한 단계 ${count}개"
+              sed 's/^/- /' failed_steps.txt
+            } >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+          # 수집기 하나가 막힌 것과 파이프라인이 무너진 것은 다르다.
+          # 필수 단계 실패는 job 이 이미 잡고, 선택 단계는 여러 개가
+          # 동시에 죽을 때만 실패로 본다.
           if [ "${{ job.status }}" != "success" ]; then
-            echo "::error::앞 단계 중 하나가 실패했다. 커밋은 마쳤으니 자료는 남아 있다."
+            echo "::error::필수 단계가 실패했다. 커밋은 마쳤으니 자료는 남아 있다."
             exit 1
           fi
 
-          echo "모든 단계 정상"
+          if [ "$count" -ge 5 ]; then
+            echo "::error::선택 단계 ${count}개가 한꺼번에 실패했다. 수집 경로를 점검해야 한다."
+            exit 1
+          fi
+
+          echo "필수 단계 정상 (선택 단계 실패 ${count}개)"

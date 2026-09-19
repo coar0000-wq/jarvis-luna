@@ -89,8 +89,10 @@ jobs:
         run: python -u scripts/generate_dashboard_runtime.py
 
       # git add -A 를 쓰지 않는다. 이번 실행이 만든 것만 올린다.
+      # 고시 보호가 중단했는데도 always() 로 발행하면 보호가 의미가 없다.
+      # 망가진 고시를 올리지 않는다는 위 주석과 실제 동작을 맞춘다.
       - name: 산출물 발행 (원격 최신 위에 이번 변경만)
-        if: always()
+        if: success()
         uses: ./.github/actions/publish
         with:
           paths: >-
