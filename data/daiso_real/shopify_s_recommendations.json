@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T03:02:46.373418+00:00",
+  "generated_at": "2026-09-19T00:53:45.991803+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
@@ -8,6 +8,7 @@
   "recommendations": [
     {
       "rank": 1,
+      "canonical_product_id": "CP000107",
       "pd_no": "1049276",
       "name": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
       "bucket": "스킨케어",
@@ -17,21 +18,29 @@
       "s_rule": "strong_form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049276",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/biuEYxzjCmX6JMJEi1e01049276_00_01biuEYxzjCmX6JMJEi1e0.jpg",
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule",
+      "recommend_reason": "글로벌 'lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)' (oliveyoung_us) 유사 67% · 토큰 ampoule",
       "matched_global": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Skin1004 Madagascar Centella Ampoule",
-        "similarity": 0.7,
-        "demand_weight": 0.75,
+        "channel": "oliveyoung_us",
+        "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
+        "similarity": 0.667,
+        "demand_weight": 0.882,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.525
+        "match_score": 0.588
       },
-      "registerable": true
+      "registerable": true,
+      "registerable_source": "data/listing_gate.json",
+      "blocked_by": [],
+      "gate_generated_at": "2026-09-19T00:57:37.113008+00:00",
+      "public_ready": false,
+      "public_blocked_by": [
+        "legal_full"
+      ]
     },
     {
       "rank": 2,
+      "canonical_product_id": "CP000130",
       "pd_no": "1055167",
       "name": "본셉 레티놀 500 IU 세럼 30 ml",
       "bucket": "스킨케어",
@@ -53,10 +62,18 @@
         ],
         "match_score": 0.44
       },
-      "registerable": true
+      "registerable": true,
+      "registerable_source": "data/listing_gate.json",
+      "blocked_by": [],
+      "gate_generated_at": "2026-09-19T00:57:37.113008+00:00",
+      "public_ready": false,
+      "public_blocked_by": [
+        "legal_full"
+      ]
     },
     {
       "rank": 3,
+      "canonical_product_id": "CP000106",
       "pd_no": "1049275",
       "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
       "bucket": "스킨케어",
@@ -66,21 +83,29 @@
       "s_rule": "strong_form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049275",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/0XsdymYj3PJyHpuxNOsm1049275_00_010XsdymYj3PJyHpuxNOsm.jpg",
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule",
+      "recommend_reason": "글로벌 'lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)' (oliveyoung_us) 유사 67% · 토큰 ampoule",
       "matched_global": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Skin1004 Madagascar Centella Ampoule",
-        "similarity": 0.7,
-        "demand_weight": 0.75,
+        "channel": "oliveyoung_us",
+        "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
+        "similarity": 0.667,
+        "demand_weight": 0.882,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.525
+        "match_score": 0.588
       },
-      "registerable": true
+      "registerable": true,
+      "registerable_source": "data/listing_gate.json",
+      "blocked_by": [],
+      "gate_generated_at": "2026-09-19T00:57:37.113008+00:00",
+      "public_ready": false,
+      "public_blocked_by": [
+        "legal_full"
+      ]
     },
     {
       "rank": 4,
+      "canonical_product_id": "CP000216",
       "pd_no": "1067498",
       "name": "[영양광채]VT PDRN 광채 크림 50 ml",
       "bucket": "스킨케어",
@@ -102,10 +127,21 @@
         ],
         "match_score": 0.374
       },
-      "registerable": true
+      "registerable": false,
+      "registerable_source": "data/listing_gate.json",
+      "blocked_by": [
+        "copy"
+      ],
+      "gate_generated_at": "2026-09-19T00:57:37.113008+00:00",
+      "public_ready": false,
+      "public_blocked_by": [
+        "copy",
+        "legal_full"
+      ]
     },
     {
       "rank": 5,
+      "canonical_product_id": "CP000251",
       "pd_no": "1072554",
       "name": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
       "bucket": "스킨케어",
@@ -127,10 +163,25 @@
         ],
         "match_score": 0.34
       },
-      "registerable": true
+      "registerable": false,
+      "registerable_source": "data/listing_gate.json",
+      "blocked_by": [
+        "gosi",
+        "us_label",
+        "legal"
+      ],
+      "gate_generated_at": "2026-09-19T00:57:37.113008+00:00",
+      "public_ready": false,
+      "public_blocked_by": [
+        "gosi",
+        "us_label",
+        "legal",
+        "legal_full"
+      ]
     },
     {
       "rank": 6,
+      "canonical_product_id": "CP000270",
       "pd_no": "1075857",
       "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
       "bucket": "스킨케어",
@@ -152,15 +203,23 @@
         ],
         "match_score": 0.289
       },
-      "registerable": true
+      "registerable": true,
+      "registerable_source": "data/listing_gate.json",
+      "blocked_by": [],
+      "gate_generated_at": "2026-09-19T00:57:37.113008+00:00",
+      "public_ready": false,
+      "public_blocked_by": [
+        "legal_full"
+      ]
     },
     {
       "rank": 7,
+      "canonical_product_id": "CP000109",
       "pd_no": "1049285",
       "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
       "bucket": "스킨케어",
       "price_krw": 3000,
-      "shopify_score": 93,
+      "shopify_score": 92,
       "grade": "S",
       "s_rule": "multi_token",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285",
@@ -177,10 +236,18 @@
         ],
         "match_score": 0.333
       },
-      "registerable": true
+      "registerable": true,
+      "registerable_source": "data/listing_gate.json",
+      "blocked_by": [],
+      "gate_generated_at": "2026-09-19T00:57:37.113008+00:00",
+      "public_ready": false,
+      "public_blocked_by": [
+        "legal_full"
+      ]
     },
     {
       "rank": 8,
+      "canonical_product_id": "CP000151",
       "pd_no": "1059834",
       "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
       "bucket": "마스크팩",
@@ -202,15 +269,23 @@
         ],
         "match_score": 0.528
       },
-      "registerable": true
+      "registerable": true,
+      "registerable_source": "data/listing_gate.json",
+      "blocked_by": [],
+      "gate_generated_at": "2026-09-19T00:57:37.113008+00:00",
+      "public_ready": false,
+      "public_blocked_by": [
+        "legal_full"
+      ]
     },
     {
       "rank": 9,
+      "canonical_product_id": "CP000075",
       "pd_no": "1042619",
       "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
       "bucket": "마스크팩",
       "price_krw": 1000,
-      "shopify_score": 87,
+      "shopify_score": 88,
       "grade": "S",
       "s_rule": "ingredient+form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
@@ -227,15 +302,23 @@
         ],
         "match_score": 0.408
       },
-      "registerable": true
+      "registerable": true,
+      "registerable_source": "data/listing_gate.json",
+      "blocked_by": [],
+      "gate_generated_at": "2026-09-19T00:57:37.113008+00:00",
+      "public_ready": false,
+      "public_blocked_by": [
+        "legal_full"
+      ]
     },
     {
       "rank": 10,
+      "canonical_product_id": "CP000155",
       "pd_no": "1060211",
       "name": "바세린 모이스처라이징 클렌징 밀크 140 ml",
       "bucket": "클렌징",
       "price_krw": 5000,
-      "shopify_score": 86,
+      "shopify_score": 87,
       "grade": "S",
       "s_rule": "multi_token",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060211",
@@ -245,14 +328,26 @@
         "channel": "oliveyoung_us",
         "global_product": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
         "similarity": 0.7,
-        "demand_weight": 0.784,
+        "demand_weight": 0.49,
         "matched_tokens": [
           "cleanser",
           "moisturizer"
         ],
-        "match_score": 0.549
+        "match_score": 0.343
       },
-      "registerable": true
+      "registerable": false,
+      "registerable_source": "data/listing_gate.json",
+      "blocked_by": [
+        "copy"
+      ],
+      "gate_generated_at": "2026-09-19T00:57:37.113008+00:00",
+      "public_ready": false,
+      "public_blocked_by": [
+        "copy",
+        "legal_full"
+      ]
     }
-  ]
+  ],
+  "registerable_count": 7,
+  "registerable_source": "data/listing_gate.json"
 }

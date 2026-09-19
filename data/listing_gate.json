@@ -1,15 +1,18 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-19T00:23:45.842443+00:00",
+  "generated_at": "2026-09-19T00:57:37.113008+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "total": 10,
   "ready": 7,
+  "draft_ready": 7,
+  "public_ready": 0,
   "counts": {
     "copy": 8,
     "gosi": 9,
     "us_label": 9,
     "price": 10,
-    "legal": 9
+    "legal": 9,
+    "legal_full": 0
   },
   "blockers": {
     "copy": 2,
@@ -18,10 +21,11 @@
     "legal": 1
   },
   "count": 10,
-  "note": "gosi=한국 고시 4항목, us_label=영문 라벨(플레이스홀더 제외), legal=MoCRA 등 하드블록. ready는 5개 조건 모두 통과한 건수.",
+  "note": "gosi=한국 고시 4항목, us_label=영문 라벨(플레이스홀더 제외), legal=자동 하드블록, legal_full=MoCRA/FPLA 공개 필드. ready는 Shopify 초안 준비, public_ready는 공개 판매 준비 건수.",
   "items": [
     {
       "rank": 1,
+      "canonical_product_id": "CP000107",
       "pd_no": "1049276",
       "product_id": "1049276",
       "name": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
@@ -71,10 +75,16 @@
         "hard_block_reason": ""
       },
       "ready": true,
-      "blocked_by": []
+      "blocked_by": [],
+      "public_ready": false,
+      "public_blocked_by": [
+        "legal_full"
+      ],
+      "legal_full_complete": false
     },
     {
       "rank": 2,
+      "canonical_product_id": "CP000130",
       "pd_no": "1055167",
       "product_id": "1055167",
       "name": "본셉 레티놀 500 IU 세럼 30 ml",
@@ -124,10 +134,16 @@
         "hard_block_reason": ""
       },
       "ready": true,
-      "blocked_by": []
+      "blocked_by": [],
+      "public_ready": false,
+      "public_blocked_by": [
+        "legal_full"
+      ],
+      "legal_full_complete": false
     },
     {
       "rank": 3,
+      "canonical_product_id": "CP000106",
       "pd_no": "1049275",
       "product_id": "1049275",
       "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
@@ -176,10 +192,16 @@
         "hard_block_reason": ""
       },
       "ready": true,
-      "blocked_by": []
+      "blocked_by": [],
+      "public_ready": false,
+      "public_blocked_by": [
+        "legal_full"
+      ],
+      "legal_full_complete": false
     },
     {
       "rank": 4,
+      "canonical_product_id": "CP000216",
       "pd_no": "1067498",
       "product_id": "1067498",
       "name": "[영양광채]VT PDRN 광채 크림 50 ml",
@@ -216,10 +238,17 @@
       "ready": false,
       "blocked_by": [
         "copy"
-      ]
+      ],
+      "public_ready": false,
+      "public_blocked_by": [
+        "copy",
+        "legal_full"
+      ],
+      "legal_full_complete": false
     },
     {
       "rank": 5,
+      "canonical_product_id": "CP000251",
       "pd_no": "1072554",
       "product_id": "1072554",
       "name": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
@@ -272,10 +301,19 @@
         "gosi",
         "us_label",
         "legal"
-      ]
+      ],
+      "public_ready": false,
+      "public_blocked_by": [
+        "gosi",
+        "us_label",
+        "legal",
+        "legal_full"
+      ],
+      "legal_full_complete": false
     },
     {
       "rank": 6,
+      "canonical_product_id": "CP000270",
       "pd_no": "1075857",
       "product_id": "1075857",
       "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
@@ -325,16 +363,22 @@
         "hard_block_reason": ""
       },
       "ready": true,
-      "blocked_by": []
+      "blocked_by": [],
+      "public_ready": false,
+      "public_blocked_by": [
+        "legal_full"
+      ],
+      "legal_full_complete": false
     },
     {
       "rank": 7,
+      "canonical_product_id": "CP000109",
       "pd_no": "1049285",
       "product_id": "1049285",
       "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
       "category": "스킨케어",
       "price_krw": 3000,
-      "shopify_score": 93,
+      "shopify_score": 92,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285",
       "copy": {
         "title": "VT Super Hyalon Sleeping Mask 4ml 6ea",
@@ -378,10 +422,16 @@
         "hard_block_reason": ""
       },
       "ready": true,
-      "blocked_by": []
+      "blocked_by": [],
+      "public_ready": false,
+      "public_blocked_by": [
+        "legal_full"
+      ],
+      "legal_full_complete": false
     },
     {
       "rank": 8,
+      "canonical_product_id": "CP000151",
       "pd_no": "1059834",
       "product_id": "1059834",
       "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
@@ -431,16 +481,22 @@
         "hard_block_reason": ""
       },
       "ready": true,
-      "blocked_by": []
+      "blocked_by": [],
+      "public_ready": false,
+      "public_blocked_by": [
+        "legal_full"
+      ],
+      "legal_full_complete": false
     },
     {
       "rank": 9,
+      "canonical_product_id": "CP000075",
       "pd_no": "1042619",
       "product_id": "1042619",
       "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
       "category": "마스크팩",
       "price_krw": 1000,
-      "shopify_score": 87,
+      "shopify_score": 88,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
       "copy": {
         "title": "Celderma Daily Collagen Essence Gel Mask 29g",
@@ -484,16 +540,22 @@
         "hard_block_reason": ""
       },
       "ready": true,
-      "blocked_by": []
+      "blocked_by": [],
+      "public_ready": false,
+      "public_blocked_by": [
+        "legal_full"
+      ],
+      "legal_full_complete": false
     },
     {
       "rank": 10,
+      "canonical_product_id": "CP000155",
       "pd_no": "1060211",
       "product_id": "1060211",
       "name": "바세린 모이스처라이징 클렌징 밀크 140 ml",
       "category": "클렌징",
       "price_krw": 5000,
-      "shopify_score": 86,
+      "shopify_score": 87,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060211",
       "copy": {},
       "copy_status": "missing",
@@ -524,7 +586,13 @@
       "ready": false,
       "blocked_by": [
         "copy"
-      ]
+      ],
+      "public_ready": false,
+      "public_blocked_by": [
+        "copy",
+        "legal_full"
+      ],
+      "legal_full_complete": false
     }
   ]
 }

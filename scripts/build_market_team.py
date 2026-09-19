@@ -27,6 +27,7 @@
 """
 from __future__ import annotations
 
+import csv
 import json
 import re
 import sys
@@ -359,6 +360,20 @@ def main() -> int:
 
     cp_registry = load_cp_registry()
     s_rows = build_s_priority(srec, detail, pricing, copies, cp_registry)
+    missing_cp = [str(r.get("pd_no") or "") for r in s_rows
+                  if not r.get("canonical_product_id")]
+    if missing_cp:
+        raise RuntimeError("마케팅 우선순위 CP 누락: " + ", ".join(missing_cp))
+
+    overrides_doc = load(D / "manual" / "marketing_priority_overrides.json", {}) or {}
+    overrides = overrides_doc.get("ranks", overrides_doc) if isinstance(overrides_doc, dict) else {}
+    for r in s_rows:
+        cp = str(r.get("canonical_product_id") or "")
+        try:
+            r["rank"] = int(overrides.get(cp, r.get("rank")))
+        except (TypeError, ValueError, AttributeError):
+            pass
+    s_rows.sort(key=lambda r: (r.get("rank", 9999), -(r.get("score") or 0)))
     now = datetime.now(KST)
 
     live = [k for k, m in status.items() if m.get("count", 0) > 0]
@@ -443,23 +458,25 @@ def main() -> int:
             "근거가 없는 필드(키워드 추세·검색량)는 채우지 않고 사유를 적었다."),
     }
 
-    # 마케팅 우선순위 CSV (CP 공통키) — rank는 사람이 수정 가능
+    # 마케팅 우선순위 CSV (CP 공통키). 사람이 정한 순서는 별도 override
+    # 파일에서 읽어 생성물 재생성 때도 보존한다.
     csv_path = D / "marketing_priority.csv"
-    lines = ["rank,canonical_product_id,pd_no,product,keyword,intent,score,shopify_action"]
-    for r in s_rows:
-        kws = "|".join((r.get("ad_keywords") or [])[:3])
-        name = (r.get("name") or "").replace(",", " ")
-        lines.append(
-            f'{r.get("rank")},'
-            f'{r.get("canonical_product_id") or ""},'
-            f'{r.get("pd_no") or ""},'
-            f'{name},'
-            f'"{kws}",'
-            f'purchase,'
-            f'{r.get("score") or ""},'
-            f'{r.get("shopify_action") or ""}'
-        )
-    csv_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    fields = ["rank", "canonical_product_id", "pd_no", "product", "keyword",
+              "intent", "score", "shopify_action"]
+    with csv_path.open("w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=fields, lineterminator="\n")
+        writer.writeheader()
+        for r in s_rows:
+            writer.writerow({
+                "rank": r.get("rank"),
+                "canonical_product_id": r.get("canonical_product_id"),
+                "pd_no": r.get("pd_no"),
+                "product": r.get("name") or "",
+                "keyword": "|".join((r.get("ad_keywords") or [])[:3]),
+                "intent": "purchase",
+                "score": r.get("score"),
+                "shopify_action": r.get("shopify_action") or "",
+            })
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n",

@@ -172,6 +172,7 @@ def agent_score(srec: dict, demand: dict | None = None) -> dict:
 
 def agent_listing(srec: dict, runtime: dict) -> dict:
     recs = srec.get("recommendations") or []
+    ready_recs = [r for r in recs if r.get("registerable") is True]
     # legal blocks from teams if present
     blocked = []
     for t in runtime.get("teams") or []:
@@ -180,25 +181,28 @@ def agent_listing(srec: dict, runtime: dict) -> dict:
             if act:
                 blocked.append(act[:200])
     notes = []
-    for r in recs:
+    for r in ready_recs:
         notes.append({
+            "canonical_product_id": r.get("canonical_product_id"),
             "pd_no": r.get("pd_no"),
             "name": r.get("name"),
-            "csv": "data/daiso_real/shopify_s_products_import.csv",
+            "csv": "data/shopify_exports/products.csv",
             "status_suggest": "draft",
-            "note": "Variant Price 비움 — 원가 모델 확인 후 입력. Cost per item·image·pd_no는 CSV에 있음.",
+            "note": "listing_gate 통과분만 포함. 법률 풀스키마·실재고 확인 전 unpublished/inventory 0 유지.",
         })
     return {
         "agent": "Listing-Draft",
         "generated_at": now_iso(),
         "s_count": len(recs),
-        "csv_path": "data/daiso_real/shopify_s_products_import.csv",
+        "registerable_count": len(ready_recs),
+        "csv_path": "data/shopify_exports/products.csv",
+        "manifest_path": "data/shopify_exports/manifest.json",
         "items": notes,
         "legal_blocks": blocked,
         "suggestions": [
             {
                 "action": "import_csv_as_draft",
-                "detail": f"S등급 {len(recs)}건 CSV → Shopify Admin Products Import (Published=false)",
+                "detail": f"게이트 통과 {len(ready_recs)}건 CSV → Shopify Admin Products Import (Published=false)",
             }
         ]
         + ([{"action": "resolve_legal_blocks", "detail": b} for b in blocked[:3]]),
@@ -245,9 +249,9 @@ def agent_ops(collector: dict, signal: dict, score: dict, listing: dict, runtime
     elif (score.get("s_count") or 0) > 0:
         tasks.append({
             "priority": 3,
-            "title": f"S등급 {score.get('s_count')}건 Shopify draft 등록",
-            "detail": "CSV Import · legal 차단 SKU 제외 · Variant Price는 원가 모델 후 입력",
-            "refs": ["data/daiso_real/shopify_s_products_import.csv", "data/agents/listing_notes.json"],
+            "title": f"S등급 {score.get('s_count')}건 중 게이트 통과분 Shopify draft 등록",
+            "detail": "운영 4종 Export · blocked SKU 제외 · 법률 풀스키마/실재고 전 공개 금지",
+            "refs": ["data/shopify_exports/manifest.json", "data/shopify_exports/products.csv", "data/agents/listing_notes.json"],
             "approve": "사람: Admin Import + 가격·재고",
         })
 

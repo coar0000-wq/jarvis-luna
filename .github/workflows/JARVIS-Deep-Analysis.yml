@@ -235,11 +235,9 @@ jobs:
 
       - name: Score Shopify demand (다이소 실측 지표 기반)
         continue-on-error: true
-        run: python scripts/daiso/score_shopify_demand.py
-
-      - name: Export Shopify S-grade import CSV
-        continue-on-error: true
-        run: python scripts/daiso/export_shopify_s_csv.py
+        run: |
+          python scripts/daiso/score_shopify_demand.py
+          python scripts/build_product_master.py --inject-s
 
       - name: 한국→미국 실배송 원가 모델 계산
         continue-on-error: true
@@ -271,11 +269,14 @@ jobs:
         run: |
           python -u scripts/build_product_master.py --inject-s
           python -u scripts/daiso/score_shopify_demand.py
+          python -u scripts/build_product_master.py --inject-s
           python -u scripts/pricing_model.py
 
       - name: Legal auto-check (claims / functional / OTC / label)
         continue-on-error: true
-        run: python -u scripts/check_legal_products.py
+        run: |
+          python -u scripts/check_legal_products.py
+          python -u scripts/build_legal_full.py
 
       - name: Build listing gate (copy/gosi/price/legal)
         continue-on-error: true
@@ -284,7 +285,14 @@ jobs:
       - name: 수출 서류 자동 준비 (HS코드·라벨 시안)
         continue-on-error: true
         timeout-minutes: 5
-        run: python -u scripts/prepare_legal_export.py
+        run: |
+          python -u scripts/prepare_legal_export.py
+          python -u scripts/build_legal_full.py
+
+      - name: Product Master 게이트 동기화 + Shopify 운영 4종 Export
+        run: |
+          python -u scripts/build_product_master.py --inject-s
+          python -u scripts/export_shopify_operational.py
 
       # =========================
       # BRAND / MARKETING
@@ -326,7 +334,10 @@ jobs:
       - name: 에러 보고서 생성 (막힘·고장·대기·보류)
         continue-on-error: true
         timeout-minutes: 3
-        run: python -u scripts/build_error_report.py
+        run: |
+          python -u scripts/build_error_report.py
+          python -u scripts/health_check_v2.py
+          python -u scripts/validate_commerce_architecture.py
 
       # =========================
       # INITIAL RUNTIME
@@ -335,10 +346,6 @@ jobs:
       - name: Generate final dashboard snapshot
         timeout-minutes: 10
         run: python scripts/generate_dashboard_runtime.py
-
-      - name: Attach commit_summary to runtime
-        continue-on-error: true
-        run: python scripts/daiso/export_shopify_s_csv.py
 
       # =========================
       # JARVIS AGENTS + SAFE AUTOFIX

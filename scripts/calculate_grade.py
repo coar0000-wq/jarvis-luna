@@ -35,44 +35,18 @@ def grade_from_score(final: float) -> str:
         return "C"
 
 def enrich_product_master():
-    path = DATA_DIR / "product_master.json"
-    if not path.exists():
-        print("product_master.json 없음 - build_product_master.py 먼저 실행")
-        return
-    
-    data = json.loads(path.read_text(encoding="utf-8"))
-    
-    for p in data:
-        # 이미 있으면 스킵, 없으면 계산 (예시 점수)
-        m = p.get("match_score", 0.8)
-        d = p.get("demand_score", 0.8)
-        r = p.get("review_score", 0.8)
-        
-        # 증거 기반 demand_score 보정
-        ev = p.get("evidence", {})
-        if "tiktok" in ev.get("raw_snippet","").lower():
-            d = min(1.0, d + 0.05)
-        
-        final = p.get("final_score") or calc_final(m, d, r)
-        grade = grade_from_score(final)
-        
-        p["match_score"] = round(m,4)
-        p["demand_score"] = round(d,4)
-        p["review_score"] = round(r,4)
-        p["final_score"] = final
-        p["grade"] = grade
-        p["grade_reason"] = f"match={m} demand={d} review={r} => final={final} >= {GRADE_RULE[grade]}"
-    
-    # S 우선 정렬
-    data.sort(key=lambda x: x["final_score"], reverse=True)
-    
-    path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
-    s_count = len([x for x in data if x["grade"]=="S"])
-    print(f"✅ Grade 계산 완료: S {s_count}개 / 전체 {len(data)}개")
-    for p in data[:10]:
-        print(f"  {p['canonical_id']} {p['name']} - {p['grade']} {p['final_score']} ({p['grade_reason']})")
-    
-    return data
+    """호환 진입점.
+
+    M/D/Q는 병행 관찰 지표다. 근거가 없을 때 0.8을 넣거나 기존 S등급을
+    덮어쓰지 않는다. 운영 점수와 CP는 build_product_master가 한 번에 갱신한다.
+    """
+    from build_product_master import build_master
+
+    doc = build_master(inject_scores=True)
+    rows = doc.get("products") or []
+    observed = [p for p in rows if p.get("component_scores")]
+    print(f"병행 M/D/Q 지표 {len(observed)}/{len(rows)}건 · 기존 100점제 등급 유지")
+    return doc
 
 if __name__ == "__main__":
     enrich_product_master()

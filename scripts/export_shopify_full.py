@@ -194,18 +194,13 @@ def export_marketing_csv(master):
     return out_path
 
 def main():
-    print("🚀 Shopify Export 4개 + Marketing Export 시작")
-    master = load_master()
-    legal = load_legal()
-    if not master:
-        print("master 없음 - build_product_master.py + calculate_grade.py 먼저")
-        return
-    export_products(master, legal)
-    export_inventory(master)
-    export_images(master)
-    export_collections(master)
-    export_marketing_csv(master)
-    print(f"\n📦 Export 완료 - {EXPORT_DIR} 확인")
+    """호환 진입점. 운영 정본 exporter로 위임한다.
+
+    예전 구현은 샘플 Product Master를 읽고 재고 100·Published TRUE를 만들어
+    운영에 사용할 수 없었다. 기존 호출 경로는 유지하되 안전한 exporter만 쓴다.
+    """
+    from export_shopify_operational import main as operational_main
+    return operational_main()
 
 if __name__ == "__main__":
     main()

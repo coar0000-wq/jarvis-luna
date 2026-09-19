@@ -125,7 +125,7 @@ def main() -> int:
     rows, skipped = [], []
     for it in doc.get("items", []):
         gr = gate.get(str(it.get("pd_no")))
-        if gr and not gr.get("listing_ready"):
+        if gr and not gr.get("ready"):
             LABEL = {"copy": "카피", "gosi": "고시", "price": "실측 무게", "legal": "법률 검토"}
             miss = ", ".join(LABEL.get(b, b) for b in gr.get("blocked_by") or [])
             skipped.append({"pd_no": it.get("pd_no"), "name_ko": it.get("name_ko"),

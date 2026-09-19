@@ -475,7 +475,8 @@ def secretary_card() -> dict:
                       "몇시간전": round(h, 1) if h is not None else None})
         if w and (newest is None or str(w) > str(newest)):
             newest = w
-        # 30분 주기인데 2시간 넘게 안 바뀌었으면 그 단계는 멈춘 것으로 본다.
+        # 산출물이 오래 안 바뀐 것은 수집 실패 증거가 아니라 무변경/지연이다.
+        # 파일 누락·파싱 실패처럼 실제 예외만 failed로 올리고, 여기서는 warning이다.
         if h is None or h > 2:
             stale.append(label)
 
@@ -511,9 +512,21 @@ def secretary_card() -> dict:
 
     action = None
     if stale:
-        action = ("멈춘 단계 " + ", ".join(stale[:3])
+        action = ("갱신 지연 " + ", ".join(stale[:3])
                   + (f" 외 {len(stale) - 3}개" if len(stale) > 3 else "")
-                  + " — 2시간 넘게 산출물이 안 바뀌었다")
+                  + " — 2시간 넘게 변경 없음(실패로 단정하지 않음)")
+
+    # 실제 실패는 수집기가 명시적으로 남긴 상태만 쓴다. 오래 안 바뀐 것과
+    # HTTP/파싱 실패를 섞지 않는다.
+    collect_status = load_json(D / "daiso_real" / "collection_status.json", {}) or {}
+    last_run = collect_status.get("last_run") or {}
+    collection_failed = str(last_run.get("status") or "").lower() in {"failed", "error"}
+    if collection_failed:
+        action = ("다이소 수집 실패 — "
+                  + str(last_run.get("failure_reason") or
+                        f"성공 {last_run.get('ok', 0)}건 · 파싱 실패 "
+                        f"{last_run.get('parse_failed', 0)}건 · HTTP 오류 "
+                        f"{last_run.get('http_error', 0)}건"))
 
     return {
         "id": "secretary",
@@ -522,7 +535,7 @@ def secretary_card() -> dict:
         "when": newest,
         "summary": summary,
         "action": action,
-        "status": "failed" if stale else "ok",
+        "status": "failed" if collection_failed else "warning" if stale else "ok",
         "steps": steps,
         "_근거": ("chief_of_staff.yml 이 30분마다 부르는 스크립트들의 산출물 "
                 "갱신 시각을 읽는다. 돌았다는 말이 아니라 결과가 바뀌었는지를 "
@@ -693,10 +706,19 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
             detail = " · ".join(f'{LABEL.get(k, k)} {c.get(k, 0)}'
                                 for k in ("copy", "gosi", "price", "legal"))
             top = ", ".join(f'{LABEL.get(k, k)} {v}건' for k, v in list(blk.items())[:3])
+            public_ready = gate.get("public_ready")
+            if public_ready is None:
+                public_ready = gate.get("ready", 0)
+            action_bits = []
+            if top:
+                action_bits.append(f"{top} 이 초안을 막고 있음")
+            if public_ready < gate.get("ready", 0):
+                action_bits.append("MoCRA/FPLA 풀스키마가 공개 판매를 막고 있음")
             cards.append(_team(
                 "listing", "리스팅 제작팀", gate.get("generated_at"),
-                f'등록 가능 {gate.get("ready", 0)}/{gate.get("total", 0)} · {detail}',
-                f'{top} 이 막고 있음' if top else None,
+                f'초안 준비 {gate.get("ready", 0)}/{gate.get("total", 0)} · '
+                f'공개 준비 {public_ready}/{gate.get("total", 0)} · {detail}',
+                " · ".join(action_bits) if action_bits else None,
                 "ok" if gate.get("total") else "failed"))
         else:
             cards.append(_team(
@@ -980,6 +1002,7 @@ def main() -> None:
                        "teams": [t["id"] for t in teams if t.get("phase") == "always"]},
         },
         "errors": _error_summary(),
+        "health": load_json(ROOT / "data" / "health_check.json", {}) or {},
         # 특정 팀에 속하지 않는 전체 값. 팀 섹션 머리말에 쓴다.
         "team_summary": {
             "corpus_records": ((cumulative.get("totals") or {}).get("records")

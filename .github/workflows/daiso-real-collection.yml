@@ -211,10 +211,12 @@ jobs:
           print("실제 수집 결과 검증 통과")
           PY
 
-      - name: Score Shopify demand
+      - name: Product Master 갱신 + Score Shopify demand
         shell: bash
         run: |
+          python -u scripts/build_product_master.py
           python -u scripts/daiso/score_shopify_demand.py
+          python -u scripts/build_product_master.py --inject-s
 
       # ============================================================
       # 점수 파생 보드 재생성
@@ -234,13 +236,15 @@ jobs:
         shell: bash
         run: |
           python -u scripts/check_legal_products.py
-          python -u scripts/build_market_team.py
+          python -u scripts/build_legal_full.py
           python -u scripts/build_listing_gate.py
+          python -u scripts/build_product_master.py --inject-s
+          python -u scripts/build_market_team.py
 
-      - name: Shopify S 파생 산출물 생성
+      - name: Shopify 게이트 통과 4종 Export 생성
         shell: bash
         run: |
-          python -u scripts/daiso/export_shopify_s_csv.py
+          python -u scripts/export_shopify_operational.py
 
       - name: 채널 후보 재생성
         shell: bash
@@ -251,6 +255,7 @@ jobs:
         id: validate
         shell: bash
         run: |
+          python -u scripts/validate_commerce_architecture.py
           python - <<'PY'
           import json
           import os
@@ -459,12 +464,15 @@ jobs:
         with:
           paths: >-
             data/daiso_real
+            data/product_master.json
             data/legal_products.json
+            data/legal_full.json
             data/market_team.json
+            data/marketing_priority.csv
             data/listing_gate.json
+            data/shopify_exports
             data/dashboard_runtime.json
             data/channel_candidates.json
-            data/marketing_priority.csv
             data/knowledge/cumulative_history.json
           message: 다이소 실수집 + Shopify 수요 점수 갱신
           regenerate-dashboard: 'true'

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-19T00:57:37.538712+00:00",
+  "source_gate_generated_at": "2026-09-19T00:57:37.113008+00:00",
+  "gate_total": 10,
+  "gate_ready": 7,
+  "public_ready": 0,
+  "legal_complete": 0,
+  "products_rows": 7,
+  "inventory_rows": 7,
+  "images_rows": 7,
+  "collections_rows": 6,
+  "variant_groups": {
+    "VG-VT-REEDLE-SHOT": 2
+  },
+  "safety": "draft + unpublished + inventory 0; 실재고와 법률 책임자 확인 전 공개 금지",
+  "files": [
+    "products.csv",
+    "inventory.csv",
+    "images.csv",
+    "collections.csv"
+  ]
+}

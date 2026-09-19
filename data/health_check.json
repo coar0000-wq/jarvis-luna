@@ -1,0 +1,94 @@
+{
+  "generated_at": "2026-09-19T00:57:37.716927+00:00",
+  "overall_status": "failed",
+  "status_legend": {
+    "success": "정상",
+    "warning": "변경 없음",
+    "degraded": "일부 실패",
+    "failed": "예외 - 사람 개입 필요"
+  },
+  "kpi": {
+    "last_success": "2026-09-19T00:57:37.716915+00:00",
+    "failed_jobs": 1,
+    "queue": 3155,
+    "stale_source": "marketing",
+    "freshness_summary": {
+      "product_master": "just now",
+      "legal_full": "just now",
+      "pricing": "33 min ago",
+      "marketing": "just now",
+      "gosi": "5.7 days ago",
+      "product_discovery": "18.1 hours ago",
+      "daiso": "416.6 days ago"
+    }
+  },
+  "summary": {
+    "success": 3,
+    "warning": 3,
+    "degraded": 0,
+    "failed": 1,
+    "no_change": 2,
+    "real_failures": 1
+  },
+  "checks": [
+    {
+      "team": "product_master",
+      "status": "success",
+      "reason": "운영 상품 338개, CP 338개, S 10개",
+      "count": 338,
+      "s_count": 10,
+      "freshness": "just now",
+      "is_failure": false
+    },
+    {
+      "team": "legal_full",
+      "status": "failed",
+      "reason": "MoCRA 풀스키마 완료 0/10 · 공개 차단 10건",
+      "is_failure": true,
+      "freshness": "just now"
+    },
+    {
+      "team": "pricing",
+      "status": "success",
+      "reason": "FX 반영, 손익분기·기여마진 계산됨",
+      "is_failure": false,
+      "freshness": "33 min ago"
+    },
+    {
+      "team": "marketing",
+      "status": "warning",
+      "reason": "S 우선순위 CP 연결 10/10 · Trends 미연동",
+      "is_failure": false,
+      "freshness": "just now"
+    },
+    {
+      "team": "gosi",
+      "status": "warning",
+      "reason": "137.1h 전 갱신 - 변경 없음으로 처리",
+      "is_failure": false,
+      "is_no_change": true,
+      "freshness": "5.7 days ago"
+    },
+    {
+      "team": "product_discovery",
+      "status": "success",
+      "reason": "정상 18.1h 전",
+      "is_failure": false,
+      "freshness": "18.1 hours ago"
+    },
+    {
+      "team": "daiso",
+      "status": "warning",
+      "reason": "9999.0h 전 갱신 - 변경 없음으로 처리",
+      "is_failure": false,
+      "is_no_change": true,
+      "freshness": "416.6 days ago"
+    }
+  ],
+  "architecture_p0": {
+    "product_master": "CP ID + Variant 그룹화",
+    "grade_quantified": "match + demand + review => final >=0.85 S",
+    "shopify_4csv": "products, inventory, images, collections",
+    "legal_full": "identity, ingredients, directions, warning, responsible_person"
+  }
+}

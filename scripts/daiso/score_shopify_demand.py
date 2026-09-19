@@ -791,7 +791,9 @@ def main() -> int:
                 ),
                 "recommend_reason": x.get("recommend_reason"),
                 "matched_global": x.get("best_global_match"),
-                "registerable": True,
+                # 등록 가능 여부는 뒤의 build_listing_gate.py만 판정한다.
+                "registerable": None,
+                "registerable_source": "pending_listing_gate",
             }
             for i, x in enumerate(s_list, 1)
         ],

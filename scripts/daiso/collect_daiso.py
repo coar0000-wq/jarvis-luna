@@ -3783,7 +3783,18 @@ def main() -> int:
                 "스킨케어",
             )
         },
-        "status": "ok",
+        "status": (
+            "failed" if requested > 0 and ok_count == 0
+            and (parse_failed > 0 or http_error > 0)
+            else "no_change" if ok_count == 0
+            else "ok"
+        ),
+        "failure_reason": (
+            f"성공 0건 · 파싱 실패 {parse_failed}건 · HTTP 오류 {http_error}건"
+            if requested > 0 and ok_count == 0
+            and (parse_failed > 0 or http_error > 0)
+            else ""
+        ),
     }
 
     status_payload[

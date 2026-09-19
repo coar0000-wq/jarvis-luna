@@ -30,8 +30,10 @@ RECOMMENDATIONS = DATA / "daiso_real" / "shopify_s_recommendations.json"
 COPY = DATA / "shopify_listing_copy.json"
 PRICING = DATA / "pricing_model.json"
 LEGAL = DATA / "legal_products.json"
+LEGAL_FULL = DATA / "legal_full.json"
 LABELS = DATA / "daiso_real" / "daiso_us_labels.json"
 GOSI = DATA / "gosi.json"
+PRODUCT_MASTER = DATA / "product_master.json"
 OUTPUT = DATA / "listing_gate.json"
 
 # 사람이 아직 안 채운 가짜 값 — 있으면 미완료로 본다
@@ -82,8 +84,15 @@ def main() -> int:
     copy_doc = load_json(COPY, {})
     pricing_doc = load_json(PRICING, {})
     legal_doc = load_json(LEGAL, {})
+    legal_full_doc = load_json(LEGAL_FULL, {})
     labels_doc = load_json(LABELS, {})
     gosi_doc = load_json(GOSI, {})
+    master_doc = load_json(PRODUCT_MASTER, {})
+    cp_registry = {
+        str(k): str(v) for k, v in
+        ((master_doc.get("pd_no_to_cp") or {}).items()
+         if isinstance(master_doc, dict) else [])
+    }
 
     recommendations = [
         row for row in recommendation_doc.get("recommendations", [])
@@ -124,6 +133,7 @@ def main() -> int:
     offers = (pricing_doc.get("offers_by_product") or {}).get("single", [])
     price_by_id = by_pd_no(offers)
     legal_by_id = by_pd_no(legal_doc.get("items", {}))
+    legal_full_by_id = by_pd_no(legal_full_doc.get("items", {}))
     # labels 파일이 { "1048583": {...} } 형태이거나 { "items": {...} } 둘 다 허용
     if isinstance(labels_doc, dict) and "items" in labels_doc:
         label_by_id = by_pd_no(labels_doc.get("items"))
@@ -147,6 +157,7 @@ def main() -> int:
         label = label_by_id.get(pd_no, {})
         price = price_by_id.get(pd_no, {})
         legal = legal_by_id.get(pd_no, {})
+        legal_full = legal_full_by_id.get(pd_no, {})
         kr = gosi_by_id.get(pd_no, {})
 
         has_copy = (
@@ -192,8 +203,15 @@ def main() -> int:
             blocked_by.append("legal")
             blocker_counts["legal"] += 1
 
+        public_blocked_by = list(blocked_by)
+        if not legal_full.get("complete"):
+            public_blocked_by.append("legal_full")
+
         results.append({
             "rank": product.get("rank", rank),
+            "canonical_product_id": (
+                product.get("canonical_product_id") or cp_registry.get(pd_no)
+            ),
             "pd_no": pd_no,
             "product_id": pd_no,
             "name": product.get("name", ""),
@@ -229,10 +247,14 @@ def main() -> int:
             },
             "ready": not blocked_by,
             "blocked_by": blocked_by,
+            "public_ready": not public_blocked_by,
+            "public_blocked_by": public_blocked_by,
+            "legal_full_complete": bool(legal_full.get("complete")),
         })
 
     total = len(results)
     ready = sum(1 for row in results if row["ready"])
+    public_ready = sum(1 for row in results if row["public_ready"])
     generated_at = datetime.now(timezone.utc).isoformat()
 
     output = {
@@ -241,18 +263,22 @@ def main() -> int:
         "source": "data/daiso_real/shopify_s_recommendations.json",
         "total": total,
         "ready": ready,
+        "draft_ready": ready,
+        "public_ready": public_ready,
         "counts": {
             "copy": total - blocker_counts["copy"],
             "gosi": total - blocker_counts["gosi"],
             "us_label": total - blocker_counts["us_label"],
             "price": total - blocker_counts["price"],
             "legal": total - blocker_counts["legal"],
+            "legal_full": sum(1 for row in results if row["legal_full_complete"]),
         },
         "blockers": {key: value for key, value in blocker_counts.items() if value},
         "count": total,
         "note": (
             "gosi=한국 고시 4항목, us_label=영문 라벨(플레이스홀더 제외), "
-            "legal=MoCRA 등 하드블록. ready는 5개 조건 모두 통과한 건수."
+            "legal=자동 하드블록, legal_full=MoCRA/FPLA 공개 필드. "
+            "ready는 Shopify 초안 준비, public_ready는 공개 판매 준비 건수."
         ),
         "items": results,
     }
@@ -261,8 +287,38 @@ def main() -> int:
         json.dumps(output, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
+
+    # S 추천의 registerable은 게이트만 정한다. 점수 단계에서 임의로 True를
+    # 넣으면 10/10처럼 보이면서 실제 게이트는 7/10인 모순이 생긴다.
+    gate_by_id = {str(row["pd_no"]): row for row in results}
+    changed = False
+    for row in recommendation_doc.get("recommendations") or []:
+        if not isinstance(row, dict):
+            continue
+        pd_no = str(row.get("pd_no") or "")
+        gate_row = gate_by_id.get(pd_no)
+        if not gate_row:
+            continue
+        row["canonical_product_id"] = (
+            row.get("canonical_product_id") or cp_registry.get(pd_no)
+        )
+        row["registerable"] = bool(gate_row["ready"])
+        row["blocked_by"] = list(gate_row["blocked_by"])
+        row["public_ready"] = bool(gate_row["public_ready"])
+        row["public_blocked_by"] = list(gate_row["public_blocked_by"])
+        row["registerable_source"] = "data/listing_gate.json"
+        row["gate_generated_at"] = generated_at
+        changed = True
+    if changed:
+        recommendation_doc["registerable_count"] = ready
+        recommendation_doc["registerable_source"] = "data/listing_gate.json"
+        RECOMMENDATIONS.write_text(
+            json.dumps(recommendation_doc, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+
     print(
-        f"listing_gate 생성 완료: total={total}, ready={ready}, "
+        f"listing_gate 생성 완료: total={total}, draft_ready={ready}, public_ready={public_ready}, "
         f"blockers={output['blockers']}"
     )
     return 0

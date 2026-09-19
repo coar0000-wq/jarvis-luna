@@ -16,7 +16,7 @@ HEADERS = [
     "Variant Inventory Qty","Variant Inventory Policy","Variant Fulfillment Service",
     "Variant Price","Variant Compare At Price","Variant Requires Shipping","Variant Taxable",
     "Variant Barcode","Image Src","Image Position","Image Alt Text","Gift Card",
-    "SEO Title","SEO Description","Status","Cost per item","pd_no","name_ko","daiso_url","shopify_score",
+    "SEO Title","SEO Description","Status","Cost per item","Canonical Product ID","pd_no","name_ko","daiso_url","shopify_score",
 ]
 
 def slug(s: str) -> str:
@@ -26,7 +26,10 @@ def slug(s: str) -> str:
 
 def main() -> int:
     data = json.loads(IN_S.read_text(encoding="utf-8")) if IN_S.exists() else {}
-    recs = data.get("recommendations") or []
+    # 호환용 단일 CSV도 게이트를 통과한 상품만 허용한다. 운영 정본은
+    # data/shopify_exports/products.csv이며 이 파일은 진단/구버전 호환용이다.
+    recs = [r for r in (data.get("recommendations") or [])
+            if r.get("registerable") is True]
     rows = []
     for r in recs:
         name = r.get("name") or ""
@@ -61,6 +64,7 @@ def main() -> int:
             "SEO Description": (r.get("recommend_reason") or name)[:160],
             "Status": "draft",
             "Cost per item": str(int(r["price_krw"])) if r.get("price_krw") else "",
+            "Canonical Product ID": r.get("canonical_product_id") or "",
             "pd_no": str(r.get("pd_no") or ""),
             "name_ko": name,
             "daiso_url": r.get("url") or "",

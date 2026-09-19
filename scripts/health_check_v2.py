@@ -45,15 +45,20 @@ def check_all():
     pm_path = DATA_DIR / "product_master.json"
     if pm_path.exists():
         data = json.loads(pm_path.read_text(encoding="utf-8"))
-        s_count = len([x for x in data if x.get("grade")=="S"])
+        rows = data.get("products") or [] if isinstance(data, dict) else data
+        registry = data.get("pd_no_to_cp") or {} if isinstance(data, dict) else {}
+        s_count = len([x for x in rows if x.get("grade") == "S"])
+        missing_cp = len([x for x in rows if not x.get("canonical_product_id")])
+        complete = bool(rows) and len(registry) >= len(rows) and not missing_cp
         checks.append({
             "team": "product_master",
-            "status": "success" if s_count>0 else "warning",
-            "reason": f"Canonical {len(data)}개, S {s_count}개",
-            "count": len(data),
+            "status": "success" if complete and s_count > 0 else "degraded",
+            "reason": (f"운영 상품 {len(rows)}개, CP {len(registry)}개, S {s_count}개"
+                       + (f", CP 누락 {missing_cp}개" if missing_cp else "")),
+            "count": len(rows),
             "s_count": s_count,
-            "freshness": freshness_str(data[0].get("created_at","") if data else ""),
-            "is_failure": False
+            "freshness": freshness_str(data.get("generated_at", "") if isinstance(data, dict) else ""),
+            "is_failure": not bool(rows)
         })
     else:
         checks.append({"team": "product_master", "status": "failed", "reason": "product_master.json 없음 - P0 Blocker", "is_failure": True, "freshness": "never"})
@@ -62,34 +67,37 @@ def check_all():
     legal_path = DATA_DIR / "legal_full.json"
     if legal_path.exists():
         legal = json.loads(legal_path.read_text(encoding="utf-8"))
-        missing = []
-        for k in ["identity","ingredients","net_contents","directions","warning","responsible_person"]:
-            if not legal.get(k):
-                missing.append(k)
-        rp = legal.get("responsible_person",{})
-        for k in ["name","address","email","phone"]:
-            if not rp.get(k):
-                missing.append(f"rp.{k}")
-        if missing:
-            checks.append({"team": "legal_full", "status": "failed", "reason": f"MoCRA 스키마 누락: {', '.join(missing)}", "is_failure": True, "freshness": "today"})
-        else:
-            checks.append({"team": "legal_full", "status": "success", "reason": "MoCRA 풀 스키마 완료 (identity, ingredients, directions, warning, responsible_person)", "is_failure": False, "freshness": "today"})
+        total = int(legal.get("total") or 0) if isinstance(legal, dict) else 0
+        complete = int(legal.get("complete") or 0) if isinstance(legal, dict) else 0
+        blocked = int(legal.get("blocked") or max(0, total - complete)) if isinstance(legal, dict) else 0
+        status = "success" if total and complete == total else "failed"
+        checks.append({
+            "team": "legal_full",
+            "status": status,
+            "reason": f"MoCRA 풀스키마 완료 {complete}/{total} · 공개 차단 {blocked}건",
+            "is_failure": status == "failed",
+            "freshness": freshness_str(legal.get("generated_at", "") if isinstance(legal, dict) else "")
+        })
     else:
         checks.append({"team": "legal_full", "status": "failed", "reason": "legal_full.json 없음 - 3/6 라벨", "is_failure": True, "freshness": "never"})
 
     # pricing + fx - P1
-    # products pricing freshness
-    checks.append({"team": "pricing", "status": "success", "reason": "FX 반영, Break-even ROAS, Contribution Margin 계산됨", "is_failure": False, "freshness": "14 min ago"})
+    pricing = json.loads((DATA_DIR / "pricing_model.json").read_text(encoding="utf-8"))
+    checks.append({"team": "pricing", "status": "success", "reason": "FX 반영, 손익분기·기여마진 계산됨", "is_failure": False, "freshness": freshness_str(pricing.get("generated_at", ""))})
 
-    # marketing - P1
-    checks.append({"team": "marketing", "status": "warning", "reason": "trend_growth + intent + season 추가 필요, Canonical ID 연결 완료", "is_failure": False, "freshness": "2 min ago"})
+    # marketing - CP 연결은 실측하고, Trends 미연동은 warning으로 남긴다.
+    market = json.loads((DATA_DIR / "market_team.json").read_text(encoding="utf-8"))
+    rows = market.get("s_grade_priority") or []
+    cp_ok = sum(bool(x.get("canonical_product_id")) for x in rows)
+    has_trend = any(x.get("trend") is not None for x in market.get("keyword_board") or [])
+    checks.append({"team": "marketing", "status": "success" if rows and cp_ok == len(rows) and has_trend else "warning", "reason": f"S 우선순위 CP 연결 {cp_ok}/{len(rows)} · Trends {'연결' if has_trend else '미연동'}", "is_failure": False, "freshness": freshness_str((market.get("team") or {}).get("updated_at", ""))})
 
     # 기존 gosi, product_discovery, daiso
-    for name, path in [("gosi", DATA_DIR / "gosi.json"), ("product_discovery", DATA_DIR / "products.json"), ("daiso", DATA_DIR / "daiso_products.json")]:
+    for name, path in [("gosi", DATA_DIR / "gosi.json"), ("product_discovery", DATA_DIR / "daiso_real" / "shopify_demand_score.json"), ("daiso", DATA_DIR / "daiso_real" / "products.json")]:
         if path.exists():
             try:
                 d = json.loads(path.read_text(encoding="utf-8"))
-                updated = d.get("updated_at") or d.get("generated_at") or ""
+                updated = d.get("updated_at") or d.get("generated_at") or datetime.datetime.fromtimestamp(path.stat().st_mtime, timezone.utc).isoformat()
                 h = hours_since(updated)
                 if h > 99:
                     checks.append({"team": name, "status": "warning", "reason": f"{h:.1f}h 전 갱신 - 변경 없음으로 처리", "is_failure": False, "is_no_change": True, "freshness": freshness_str(updated)})
@@ -112,11 +120,14 @@ def build_dashboard():
     overall = "failed" if has_failed else "degraded" if has_degraded else "warning" if has_warning else "success"
     
     # P2 Error Dashboard 상단 KPI
+    status_doc = json.loads((DATA_DIR / "daiso_real" / "collection_status.json").read_text(encoding="utf-8"))
+    queue_size = int((status_doc.get("last_run") or {}).get("queue_size") or 0)
+    stale = [c["team"] for c in checks if c["status"] in ("warning", "degraded")]
     kpi = {
         "last_success": now_utc().isoformat(),
         "failed_jobs": len([c for c in checks if c["status"]=="failed"]),
-        "queue": 3194,
-        "stale_source": "gosi" if any(c["team"]=="gosi" and c["status"]!="success" for c in checks) else "none",
+        "queue": queue_size,
+        "stale_source": stale[0] if stale else "none",
         "freshness_summary": {c["team"]: c.get("freshness","unknown") for c in checks}
     }
     
@@ -150,10 +161,10 @@ def build_dashboard():
     out_path = DATA_DIR / "health_check.json"
     out_path.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
     
-    print(f"\n📊 Overall: {overall.upper()}")
+    print(f"\nOverall: {overall.upper()}")
     print(f"KPI - Last Success: {kpi['last_success']} / Failed: {kpi['failed_jobs']} / Queue: {kpi['queue']} / Stale: {kpi['stale_source']}")
     for c in checks:
-        icon = {"success":"✅","warning":"⚠️","degraded":"🔶","failed":"❌"}[c["status"]]
+        icon = {"success":"OK","warning":"WARN","degraded":"DEGRADED","failed":"FAIL"}[c["status"]]
         print(f"{icon} {c['team']}: {c['status']} - {c['reason']} [{c.get('freshness','')}]")
     
     return result
