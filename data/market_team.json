@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-09-20T07:27:05.961136+09:00",
+    "updated_at": "2026-09-20T07:36:50.474412+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -81,7 +81,7 @@
         "brand": "MEDIHEAL",
         "price_usd": 39.99,
         "rating": 4.8,
-        "review_count": 16211
+        "review_count": 16212
       },
       {
         "rank": 8,
@@ -362,7 +362,186 @@
         "source": "us.oliveyoung.com/best-sellers 실수집"
       }
     ],
-    "manual_trends": [],
+    "manual_trends": [
+      {
+        "title": "기업들이 사활 걸고 자기 폰트 만드는 이유｜크랩",
+        "url": "https://www.youtube.com/watch?v=F4Jm1TFv0I0",
+        "channel": "크랩 KLAB",
+        "views": 433656,
+        "note": "KBS 크랩 - 기업 전용 폰트를 만드는 이유. 라이선스 자체 해결이 핵심. AI 학습 금지 표기 있음",
+        "teams": [
+          "design"
+        ],
+        "source": "youtube_manual"
+      },
+      {
+        "title": "I Built The Ultimate Claude Website Design Skill (steal this)",
+        "url": "https://www.youtube.com/watch?v=QUI6Ug4cHnE",
+        "channel": "Nate Herk | AI Automation",
+        "views": 159451,
+        "note": "Nate Herk - Scrollcraft. 랜딩페이지를 스크롤 연출 사이트로 바꾸는 Claude Code 스킬",
+        "teams": [
+          "design"
+        ],
+        "source": "youtube_manual"
+      },
+      {
+        "title": "🔑 브랜딩 잘하면 영업 안 해도 됩니다 | MD가 먼저 연락 오는 브랜드, 뭐가 다를까요",
+        "url": "https://www.youtube.com/watch?v=s04NYW3nOxA",
+        "channel": null,
+        "views": 93000,
+        "note": "",
+        "teams": [
+          "design",
+          "market"
+        ],
+        "source": "youtube_channel"
+      },
+      {
+        "title": "🧐브랜딩을 잘하고 싶다면 리서치가 가장 중요합니다 | 인풋 쌓는 과정부터 시장조사 노하우까지! 일단 시작부터!",
+        "url": "https://www.youtube.com/watch?v=rM6gwEyfKZ8",
+        "channel": null,
+        "views": 90000,
+        "note": "",
+        "teams": [
+          "design",
+          "market"
+        ],
+        "source": "youtube_channel"
+      },
+      {
+        "title": "The Psychology of Making People Buy",
+        "url": "https://www.youtube.com/watch?v=k520NhbFhIE",
+        "channel": "The Futur",
+        "views": 88870,
+        "note": "The Futur 크리스 두 - 가격 경쟁을 벗어나는 포지셔닝. Liquid Death 등 5개 브랜드 해부",
+        "teams": [
+          "market",
+          "listing",
+          "design"
+        ],
+        "source": "youtube_manual"
+      },
+      {
+        "title": "Ecommerce Page Redesign: UX/UI Tips to 3.5x Conversion",
+        "url": "https://www.youtube.com/watch?v=oYskl2ZBoBc",
+        "channel": null,
+        "views": 66000,
+        "note": "",
+        "teams": [
+          "design"
+        ],
+        "source": "youtube_channel"
+      },
+      {
+        "title": "Claude Copies $2m Shopify Store & Replaces Everything With My Brand (Full Course)",
+        "url": "https://www.youtube.com/watch?v=dPPd65Kvh7Y",
+        "channel": "Ali Akbar | White-Label Ecommerce",
+        "views": 23670,
+        "note": "Ali Akbar - Claude 로 월매출 200만불 스토어를 통째로 복제하는 78분 강의. 방법은 참고, 복제 자체는 위험",
+        "teams": [
+          "listing",
+          "design",
+          "sourcing"
+        ],
+        "source": "youtube_manual"
+      },
+      {
+        "title": "Shopify Just Changed How You Sell (Spring 2026 Editions Explained)",
+        "url": "https://www.youtube.com/watch?v=jUxSAGCaJIU",
+        "channel": "Learn With Shopify",
+        "views": 20415,
+        "note": "쇼피파이 2026 신기능",
+        "teams": [
+          "listing"
+        ],
+        "source": "youtube_manual"
+      },
+      {
+        "title": "책은 가장 가성비 좋은 인풋입니다 📚  | 브랜드 대표가 직접 고른 브랜딩 필독서",
+        "url": "https://www.youtube.com/watch?v=hikTGKo2kZE",
+        "channel": null,
+        "views": 19000,
+        "note": "",
+        "teams": [
+          "design"
+        ],
+        "source": "youtube_channel"
+      },
+      {
+        "title": "100 Product Command Prompts to Boost Productivity (ChatGPT & Google Flow)",
+        "url": "https://www.youtube.com/watch?v=uTr2yXMeL9w",
+        "channel": "Desire",
+        "views": 10304,
+        "note": "Desire - 제품 사진을 광고 컷으로 바꾸는 프롬프트 100개. ChatGPT + Google Flow + Nano Banana 2",
+        "teams": [
+          "design"
+        ],
+        "source": "youtube_manual"
+      },
+      {
+        "title": "How to use AI to beat big brands on Shopify ($0 to $1M)",
+        "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
+        "channel": "Matt Clark",
+        "views": 5552,
+        "note": "Matt Clark - AI로 대형 브랜드 이기기. 큰 시장 속 불만족 집단을 리뷰로 찾기 / 가격 경쟁 대신 AI 보너스로 가치 올리기 / 카피 3입력(제품 사실·리뷰 원문 표현·Ad Library 예시) / 메타 단일 캠페인에 주 10~20개 광고 / 리스티클 랜딩",
+        "teams": [
+          "sourcing",
+          "market",
+          "pricing",
+          "listing",
+          "design"
+        ],
+        "source": "youtube_manual"
+      },
+      {
+        "title": "스몰 브랜드 대표가 밝히는 브랜딩 실전편 | 계속 성장 중인 리솔츠 이야기🛁",
+        "url": "https://www.youtube.com/watch?v=l6VfFik0rHI",
+        "channel": null,
+        "views": 5500,
+        "note": "",
+        "teams": [
+          "design",
+          "market"
+        ],
+        "source": "youtube_channel"
+      },
+      {
+        "title": "How to Use Claude to Safely Rebrand Your Shopify Store",
+        "url": "https://www.youtube.com/watch?v=gugo50_VbjE",
+        "channel": "Learn With Shopify",
+        "views": 4850,
+        "note": "Claude 로 쇼피파이 리브랜딩",
+        "teams": [
+          "listing"
+        ],
+        "source": "youtube_manual"
+      },
+      {
+        "title": "쇼피파이 드랍쉬핑은 브랜딩이 답입니다. 진짜 잘 되는 스토어 5곳 까봤습니다",
+        "url": "https://www.youtube.com/watch?v=IG0V7o6Z3ZE",
+        "channel": "G-ROAD",
+        "views": 4826,
+        "note": "G-ROAD - 쇼피파이 드랍쉬핑 스토어 5곳 해부. 브랜딩이 전환을 만든다는 논지",
+        "teams": [
+          "listing",
+          "design",
+          "market"
+        ],
+        "source": "youtube_manual"
+      },
+      {
+        "title": "마케팅에 속지않는 화장품 구매팁! 👌 ❌화장품 마케팅 싫어 🔥땡큐한 화장품 추천 ✔️ 솔직리뷰! 마케팅 썰 대방출 / 천연 화장품 /유기농 화장품 / 더마 화장품 [땡큐]",
+        "url": "https://www.youtube.com/watch?v=Tu8Ziv_y_Cc",
+        "channel": null,
+        "views": 999,
+        "note": "",
+        "teams": [
+          "sourcing"
+        ],
+        "source": "youtube_channel"
+      }
+    ],
     "note": "실수집 가능한 소스만 반영한다. OliveYoung US 가 Actions 403 이면 Sephora/Ulta 등으로 경쟁군을 채운다. OY 는 주 1회 로컬·브라우저 수집을 권장한다.",
     "sources": {
       "oliveyoung_us": "us.oliveyoung.com/best-sellers (실수집)",
@@ -370,6 +549,91 @@
       "competitor_pool_size": 159,
       "competitor_fallback": "oliveyoung_us primary"
     }
+  },
+  "marketing_playbook": {
+    "설명": "유튜브·브리핑에서 모은 마케팅 자료를 주제별로 묶은 것이다. 전략 문장은 사람이 적는다. 수치는 수집된 실측값이다.",
+    "영상_총량": 15,
+    "주제": {
+      "광고·크리에이티브": {
+        "자료_수": 2,
+        "자료": [
+          {
+            "title": "100 Product Command Prompts to Boost Productivity (ChatGPT & Google Flow)",
+            "url": "https://www.youtube.com/watch?v=uTr2yXMeL9w",
+            "note": "Desire - 제품 사진을 광고 컷으로 바꾸는 프롬프트 100개. ChatGPT + Google Flow + Nano Banana 2"
+          },
+          {
+            "title": "How to use AI to beat big brands on Shopify ($0 to $1M)",
+            "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
+            "note": "Matt Clark - AI로 대형 브랜드 이기기. 큰 시장 속 불만족 집단을 리뷰로 찾기 / 가격 경쟁 대신 AI 보너스로 가치 올리기 / 카피 3입력(제품 사실·리뷰 원문 표현·Ad Library 예시) / 메타 단일 캠페인에 주 10~20개 광고 / 리스티클 랜딩"
+          }
+        ]
+      },
+      "전환·럜딩": {
+        "자료_수": 2,
+        "자료": [
+          {
+            "title": "I Built The Ultimate Claude Website Design Skill (steal this)",
+            "url": "https://www.youtube.com/watch?v=QUI6Ug4cHnE",
+            "note": "Nate Herk - Scrollcraft. 랜딩페이지를 스크롤 연출 사이트로 바꾸는 Claude Code 스킬"
+          },
+          {
+            "title": "Ecommerce Page Redesign: UX/UI Tips to 3.5x Conversion",
+            "url": "https://www.youtube.com/watch?v=oYskl2ZBoBc",
+            "note": ""
+          }
+        ]
+      },
+      "객단가·번들": {
+        "자료_수": 0,
+        "자료": []
+      },
+      "유지·재구매": {
+        "자료_수": 0,
+        "자료": []
+      },
+      "채널 확장": {
+        "자료_수": 0,
+        "자료": []
+      },
+      "브랜딩·포지셔닝": {
+        "자료_수": 9,
+        "자료": [
+          {
+            "title": "🔑 브랜딩 잘하면 영업 안 해도 됩니다 | MD가 먼저 연락 오는 브랜드, 뭐가 다를까요",
+            "url": "https://www.youtube.com/watch?v=s04NYW3nOxA",
+            "note": ""
+          },
+          {
+            "title": "🧐브랜딩을 잘하고 싶다면 리서치가 가장 중요합니다 | 인풋 쌓는 과정부터 시장조사 노하우까지! 일단 시작부터!",
+            "url": "https://www.youtube.com/watch?v=rM6gwEyfKZ8",
+            "note": ""
+          },
+          {
+            "title": "The Psychology of Making People Buy",
+            "url": "https://www.youtube.com/watch?v=k520NhbFhIE",
+            "note": "The Futur 크리스 두 - 가격 경쟁을 벗어나는 포지셔닝. Liquid Death 등 5개 브랜드 해부"
+          },
+          {
+            "title": "Claude Copies $2m Shopify Store & Replaces Everything With My Brand (Full Course)",
+            "url": "https://www.youtube.com/watch?v=dPPd65Kvh7Y",
+            "note": "Ali Akbar - Claude 로 월매출 200만불 스토어를 통째로 복제하는 78분 강의. 방법은 참고, 복제 자체는 위험"
+          },
+          {
+            "title": "책은 가장 가성비 좋은 인풋입니다 📚  | 브랜드 대표가 직접 고른 브랜딩 필독서",
+            "url": "https://www.youtube.com/watch?v=hikTGKo2kZE",
+            "note": ""
+          }
+        ]
+      }
+    },
+    "적용_브리핑": [
+      {
+        "title": "Anua 성장 전략: 다각화 유통·번들 AOV·트렌드 성분·단순 랜딩",
+        "date": "2026-09-19",
+        "market": "Meta 단일 의존도를 낮추고 SEO·Amazon·TikTok Shop·오프라인 리테일의 채널별 수요와 경쟁 신호를 함께 추적한다."
+      }
+    ]
   },
   "keyword_board": [
     {

@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-19T22:27:05.884199+00:00",
+  "generated_at": "2026-09-19T22:36:50.396687+00:00",
   "generator": "scripts/build_product_master.py",
   "source": "data/daiso_real/products.json",
   "id_policy": "pd_no에 최초 CP 발급 후 재사용·재번호 부여 금지",
@@ -3416,7 +3416,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-19T22:27:05.823788+00:00"
+        "gate_generated_at": "2026-09-19T22:36:50.338761+00:00"
       }
     },
     {
@@ -5032,7 +5032,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-19T22:27:05.823788+00:00"
+        "gate_generated_at": "2026-09-19T22:36:50.338761+00:00"
       }
     },
     {
@@ -5088,7 +5088,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-19T22:27:05.823788+00:00"
+        "gate_generated_at": "2026-09-19T22:36:50.338761+00:00"
       }
     },
     {
@@ -5192,7 +5192,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-19T22:27:05.823788+00:00"
+        "gate_generated_at": "2026-09-19T22:36:50.338761+00:00"
       }
     },
     {
@@ -6133,7 +6133,7 @@
           "us_label",
           "legal"
         ],
-        "gate_generated_at": "2026-09-19T22:27:05.823788+00:00"
+        "gate_generated_at": "2026-09-19T22:36:50.338761+00:00"
       }
     },
     {
@@ -6393,7 +6393,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-19T22:27:05.823788+00:00"
+        "gate_generated_at": "2026-09-19T22:36:50.338761+00:00"
       }
     },
     {
@@ -7537,7 +7537,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-19T22:27:05.823788+00:00"
+        "gate_generated_at": "2026-09-19T22:36:50.338761+00:00"
       }
     },
     {
@@ -11021,7 +11021,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-19T22:27:05.823788+00:00"
+        "gate_generated_at": "2026-09-19T22:36:50.338761+00:00"
       }
     },
     {
@@ -12846,7 +12846,7 @@
           "us_label",
           "legal"
         ],
-        "gate_generated_at": "2026-09-19T22:27:05.823788+00:00"
+        "gate_generated_at": "2026-09-19T22:36:50.338761+00:00"
       }
     },
     {
@@ -13834,7 +13834,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-19T22:27:05.823788+00:00"
+        "gate_generated_at": "2026-09-19T22:36:50.338761+00:00"
       }
     },
     {
