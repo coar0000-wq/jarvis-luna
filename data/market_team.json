@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-09-20T05:07:18.593874+09:00",
+    "updated_at": "2026-09-20T06:12:01.061642+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -81,7 +81,7 @@
         "brand": "MEDIHEAL",
         "price_usd": 39.99,
         "rating": 4.8,
-        "review_count": 16195
+        "review_count": 16211
       },
       {
         "rank": 8,
@@ -1011,42 +1011,6 @@
   ],
   "competitor_watch": [
     {
-      "name": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-      "brand": "MEDIHEAL",
-      "price_usd": 20.99,
-      "rating": 4.8,
-      "review_count": 1075,
-      "us_rank": 3,
-      "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 3위 · 마스크팩 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA48723304",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "Biodance Bio Collagen-Real Deep Mask 4ct 1.19 oz.(34g)",
-      "brand": "Biodance",
-      "price_usd": 19.0,
-      "rating": 5,
-      "review_count": 3,
-      "us_rank": 34,
-      "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 34위 · 마스크팩 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA79607541",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "Anua PDRN Full Care Set (serum 1 fl. oz.(30ml) + Mist 1 fl. oz.(30ml) + Cream 2 fl. oz.(60ml) + Mask 5 Packs + Keychain)",
-      "brand": "Anua",
-      "price_usd": 65.3,
-      "rating": 4.8,
-      "review_count": 191,
-      "us_rank": 42,
-      "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 42위 · 마스크팩 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA55018948",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
       "name": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
       "brand": "AESTURA",
       "price_usd": 32.0,
@@ -1080,6 +1044,42 @@
       "daiso_bucket": "스킨케어",
       "why": "us.oliveyoung.com/best-sellers 실수집 5위 · 스킨케어 동일 포지션",
       "url": "https://us.oliveyoung.com/products/UA98417491",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
+      "brand": "MEDIHEAL",
+      "price_usd": 20.99,
+      "rating": 4.8,
+      "review_count": 1075,
+      "us_rank": 3,
+      "daiso_bucket": "마스크팩",
+      "why": "us.oliveyoung.com/best-sellers 실수집 3위 · 마스크팩 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA48723304",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "Biodance Bio Collagen-Real Deep Mask 4ct 1.19 oz.(34g)",
+      "brand": "Biodance",
+      "price_usd": 19.0,
+      "rating": 5,
+      "review_count": 3,
+      "us_rank": 34,
+      "daiso_bucket": "마스크팩",
+      "why": "us.oliveyoung.com/best-sellers 실수집 34위 · 마스크팩 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA79607541",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "Anua PDRN Full Care Set (serum 1 fl. oz.(30ml) + Mist 1 fl. oz.(30ml) + Cream 2 fl. oz.(60ml) + Mask 5 Packs + Keychain)",
+      "brand": "Anua",
+      "price_usd": 65.3,
+      "rating": 4.8,
+      "review_count": 191,
+      "us_rank": 42,
+      "daiso_bucket": "마스크팩",
+      "why": "us.oliveyoung.com/best-sellers 실수집 42위 · 마스크팩 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA55018948",
       "source": "us.oliveyoung.com/best-sellers 실수집"
     }
   ],

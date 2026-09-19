@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T20:08:22.890234+00:00",
+  "generated_at": "2026-09-19T21:13:03.233854+00:00",
   "overall_status": "failed",
   "status_legend": {
     "success": "정상",
@@ -8,7 +8,7 @@
     "failed": "예외 - 사람 개입 필요"
   },
   "kpi": {
-    "last_success": "2026-09-19T20:08:22.890222+00:00",
+    "last_success": "2026-09-19T21:13:03.233844+00:00",
     "failed_jobs": 1,
     "queue": 3155,
     "stale_source": "marketing",
@@ -17,7 +17,7 @@
       "legal_full": "1 min ago",
       "pricing": "1 min ago",
       "marketing": "1 min ago",
-      "gosi": "6.5 days ago",
+      "gosi": "6.6 days ago",
       "product_discovery": "1 min ago",
       "daiso": "1.9 days ago"
     }
@@ -64,10 +64,10 @@
     {
       "team": "gosi",
       "status": "warning",
-      "reason": "156.3h 전 갱신 - 변경 없음으로 처리",
+      "reason": "157.4h 전 갱신 - 변경 없음으로 처리",
       "is_failure": false,
       "is_no_change": true,
-      "freshness": "6.5 days ago"
+      "freshness": "6.6 days ago"
     },
     {
       "team": "product_discovery",
@@ -79,7 +79,7 @@
     {
       "team": "daiso",
       "status": "success",
-      "reason": "정상 44.9h 전",
+      "reason": "정상 46.0h 전",
       "is_failure": false,
       "freshness": "1.9 days ago"
     }

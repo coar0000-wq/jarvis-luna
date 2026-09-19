@@ -2,7 +2,7 @@
 title: "Record 7846dc96c4 · Modernizing-the-Trade-Lifecycle-With-Governed-Data-and-AI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T20:42:40.385097+00:00
+updated_at: 2026-09-19T21:13:42.272599+00:00
 tags: [record, real-data]
 ---
 

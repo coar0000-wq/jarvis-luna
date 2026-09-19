@@ -2,7 +2,7 @@
 title: "Record eef7901aa9 · Closure-Theory-From-Intrinsic-Geometric-Closure-to-Relational-Mass-Cha"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T20:42:40.068020+00:00
+updated_at: 2026-09-19T21:13:41.743082+00:00
 tags: [record, real-data]
 ---
 

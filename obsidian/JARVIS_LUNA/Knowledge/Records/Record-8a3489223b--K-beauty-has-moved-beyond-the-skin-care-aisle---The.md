@@ -2,7 +2,7 @@
 title: "Record 8a3489223b · K-beauty-has-moved-beyond-the-skin-care-aisle---The"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T20:42:40.224034+00:00
+updated_at: 2026-09-19T21:13:42.000009+00:00
 tags: [record, real-data]
 ---
 

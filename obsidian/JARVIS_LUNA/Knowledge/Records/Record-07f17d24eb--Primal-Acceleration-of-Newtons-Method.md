@@ -2,7 +2,7 @@
 title: "Record 07f17d24eb · Primal-Acceleration-of-Newtons-Method"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T20:42:40.474123+00:00
+updated_at: 2026-09-19T21:13:42.445657+00:00
 tags: [record, real-data]
 ---
 

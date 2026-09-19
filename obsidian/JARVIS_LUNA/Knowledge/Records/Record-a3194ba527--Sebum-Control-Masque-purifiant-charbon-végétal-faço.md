@@ -2,7 +2,7 @@
 title: "Record a3194ba527 · Sebum-Control-Masque-purifiant-charbon-végétal-façon-crème-fouettée"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T20:42:40.336668+00:00
+updated_at: 2026-09-19T21:13:42.185481+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 9c78c40b57 · Acoustic-based-Guidance-for-Automatic-Docking-of-Ho"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T20:42:39.907305+00:00
+updated_at: 2026-09-19T21:13:41.492265+00:00
 tags: [record, real-data]
 ---
 

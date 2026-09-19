@@ -2,7 +2,7 @@
 title: "Record 0778ed9d1d · Asml-Reports-Transactions-Under-Its-Current-Share-B"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T20:42:40.377032+00:00
+updated_at: 2026-09-19T21:13:42.259223+00:00
 tags: [record, real-data]
 ---
 

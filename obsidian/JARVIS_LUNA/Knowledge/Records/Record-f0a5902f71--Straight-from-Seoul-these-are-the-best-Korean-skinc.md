@@ -2,7 +2,7 @@
 title: "Record f0a5902f71 · Straight-from-Seoul-these-are-the-best-Korean-skinc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T20:42:40.165134+00:00
+updated_at: 2026-09-19T21:13:41.892632+00:00
 tags: [record, real-data]
 ---
 

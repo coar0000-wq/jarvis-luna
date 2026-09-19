@@ -2,7 +2,7 @@
 title: "Record 766b96ef5a · 진짜-급하게-데이트-갈-준비-GRWM--메이크업-kbeauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T20:42:40.436326+00:00
+updated_at: 2026-09-19T21:13:42.372276+00:00
 tags: [record, real-data]
 ---
 

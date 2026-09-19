@@ -2,7 +2,7 @@
 title: "Record 775d158fe7 · Twenty-Years-of-Duration-Times-Spread-DTS"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T20:42:40.026165+00:00
+updated_at: 2026-09-19T21:13:41.679319+00:00
 tags: [record, real-data]
 ---
 

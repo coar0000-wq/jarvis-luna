@@ -2,7 +2,7 @@
 title: "Record 97307f83a7 · Role-Steering-of-Language-Models-for-Social-Simulat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T20:42:40.300949+00:00
+updated_at: 2026-09-19T21:13:42.138775+00:00
 tags: [record, real-data]
 ---
 

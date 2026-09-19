@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T20:07:12.877580+00:00",
+  "generated_at": "2026-09-19T21:11:55.127738+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "alabama football",
-          "approx_traffic": "10000+",
-          "traffic_num": 10000,
-          "published": "Sat, 19 Sep 2026 12:50:00 -0700",
-          "source_name": "The Tuscaloosa News",
-          "url": "https://trends.google.com/trending?geo=US&q=alabama%20football"
+          "keyword": "south carolina football",
+          "approx_traffic": "5000+",
+          "traffic_num": 5000,
+          "published": "Sat, 19 Sep 2026 13:20:00 -0700",
+          "source_name": "Greenville Online",
+          "url": "https://trends.google.com/trending?geo=US&q=south%20carolina%20football"
         },
         {
-          "keyword": "umass football",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Sat, 19 Sep 2026 12:40:00 -0700",
-          "source_name": "MassLive",
-          "url": "https://trends.google.com/trending?geo=US&q=umass%20football"
+          "keyword": "iu football",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Sat, 19 Sep 2026 13:30:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=iu%20football"
         },
         {
-          "keyword": "uc football",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Sat, 19 Sep 2026 12:40:00 -0700",
-          "source_name": "Spectrum News",
-          "url": "https://trends.google.com/trending?geo=US&q=uc%20football"
+          "keyword": "rutgers football",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Sat, 19 Sep 2026 13:20:00 -0700",
+          "source_name": "On the Banks",
+          "url": "https://trends.google.com/trending?geo=US&q=rutgers%20football"
         },
         {
-          "keyword": "chris henry jr.",
+          "keyword": "iowa hawkeyes football",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sat, 19 Sep 2026 12:40:00 -0700",
+          "published": "Sat, 19 Sep 2026 13:30:00 -0700",
           "source_name": "FOX Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=chris%20henry%20jr."
+          "url": "https://trends.google.com/trending?geo=US&q=iowa%20hawkeyes%20football"
         },
         {
-          "keyword": "raphinha",
+          "keyword": "presidents cup",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sat, 19 Sep 2026 12:50:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=raphinha"
+          "published": "Sat, 19 Sep 2026 13:50:00 -0700",
+          "source_name": "Golf Digest",
+          "url": "https://trends.google.com/trending?geo=US&q=presidents%20cup"
         },
         {
-          "keyword": "carlos beltran",
+          "keyword": "robelis despaigne",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sat, 19 Sep 2026 12:50:00 -0700",
+          "published": "Sat, 19 Sep 2026 13:50:00 -0700",
           "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=carlos%20beltran"
+          "url": "https://trends.google.com/trending?geo=US&q=robelis%20despaigne"
         },
         {
-          "keyword": "montana state football",
+          "keyword": "casey o'neill",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sat, 19 Sep 2026 12:40:00 -0700",
-          "source_name": "Montana State University Athletics",
-          "url": "https://trends.google.com/trending?geo=US&q=montana%20state%20football"
+          "published": "Sat, 19 Sep 2026 13:40:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=casey%20o%27neill"
         },
         {
-          "keyword": "wsu football",
+          "keyword": "stanford football",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sat, 19 Sep 2026 12:40:00 -0700",
-          "source_name": "247Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=wsu%20football"
+          "published": "Sat, 19 Sep 2026 13:40:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=stanford%20football"
         },
         {
-          "keyword": "giga chikadze",
-          "approx_traffic": "100+",
-          "traffic_num": 100,
-          "published": "Sat, 19 Sep 2026 12:50:00 -0700",
-          "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=giga%20chikadze"
+          "keyword": "charles jourdain",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Sat, 19 Sep 2026 13:40:00 -0700",
+          "source_name": "Sherdog",
+          "url": "https://trends.google.com/trending?geo=US&q=charles%20jourdain"
         },
         {
-          "keyword": "yale football",
-          "approx_traffic": "100+",
-          "traffic_num": 100,
-          "published": "Sat, 19 Sep 2026 12:40:00 -0700",
-          "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=yale%20football"
+          "keyword": "jimmy fallon",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Sat, 19 Sep 2026 13:30:00 -0700",
+          "source_name": "Chron",
+          "url": "https://trends.google.com/trending?geo=US&q=jimmy%20fallon"
         }
       ]
     },

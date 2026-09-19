@@ -2,7 +2,7 @@
 title: "Record c4723afcc5 · Consistency-of-efficacy-and-safety-of-elinzanetant-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T20:42:39.956008+00:00
+updated_at: 2026-09-19T21:13:41.566848+00:00
 tags: [record, real-data]
 ---
 

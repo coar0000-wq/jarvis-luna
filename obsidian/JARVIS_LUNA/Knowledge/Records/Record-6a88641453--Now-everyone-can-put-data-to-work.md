@@ -2,7 +2,7 @@
 title: "Record 6a88641453 · Now-everyone-can-put-data-to-work"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T20:42:40.283454+00:00
+updated_at: 2026-09-19T21:13:42.104488+00:00
 tags: [record, real-data]
 ---
 

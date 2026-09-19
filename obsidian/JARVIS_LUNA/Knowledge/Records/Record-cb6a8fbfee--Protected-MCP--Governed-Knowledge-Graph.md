@@ -2,7 +2,7 @@
 title: "Record cb6a8fbfee · Protected-MCP--Governed-Knowledge-Graph"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T20:42:39.931181+00:00
+updated_at: 2026-09-19T21:13:41.526449+00:00
 tags: [record, real-data]
 ---
 

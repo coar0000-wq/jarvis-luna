@@ -2,7 +2,7 @@
 title: "Record 6a4479b95d · Grounding-Robot-Generalization-in-Training-Data-via"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T20:42:39.986527+00:00
+updated_at: 2026-09-19T21:13:41.615483+00:00
 tags: [record, real-data]
 ---
 

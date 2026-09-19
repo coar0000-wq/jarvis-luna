@@ -2,7 +2,7 @@
 title: "Record 039ebd84a2 · CLERIVY-Brings-a-K-Beauty-Take-on-Pimple-Patches-to"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T20:42:40.128959+00:00
+updated_at: 2026-09-19T21:13:41.830256+00:00
 tags: [record, real-data]
 ---
 
