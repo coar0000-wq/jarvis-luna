@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-19T08:33:25.222208+00:00",
+  "collected_at": "2026-09-19T13:44:23.004069+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -52,6 +52,10 @@
       "score": 4
     },
     {
+      "keyword": "beauty",
+      "score": 4
+    },
+    {
       "keyword": "korean",
       "score": 4
     },
@@ -60,8 +64,8 @@
       "score": 4
     },
     {
-      "keyword": "skin",
-      "score": 4
+      "keyword": "haul",
+      "score": 3
     },
     {
       "keyword": "products",
@@ -72,15 +76,11 @@
       "score": 2
     },
     {
-      "keyword": "people",
+      "keyword": "thai",
       "score": 2
     },
     {
       "keyword": "sunscreens",
-      "score": 2
-    },
-    {
-      "keyword": "haul",
       "score": 2
     },
     {
@@ -144,6 +144,10 @@
       "score": 2
     },
     {
+      "keyword": "skin",
+      "score": 2
+    },
+    {
       "keyword": "oily",
       "score": 2
     },
@@ -184,23 +188,19 @@
       "score": 1
     },
     {
+      "keyword": "shopee",
+      "score": 1
+    },
+    {
+      "keyword": "sale",
+      "score": 1
+    },
+    {
+      "keyword": "people",
+      "score": 1
+    },
+    {
       "keyword": "still",
-      "score": 1
-    },
-    {
-      "keyword": "get",
-      "score": 1
-    },
-    {
-      "keyword": "yestyle",
-      "score": 1
-    },
-    {
-      "keyword": "other",
-      "score": 1
-    },
-    {
-      "keyword": "places",
       "score": 1
     }
   ],
@@ -211,10 +211,6 @@
     },
     {
       "keyword": "skincare",
-      "score": 4
-    },
-    {
-      "keyword": "skin",
       "score": 4
     },
     {
@@ -252,6 +248,10 @@
     {
       "keyword": "toner",
       "score": 2
+    },
+    {
+      "keyword": "skin",
+      "score": 2
     }
   ],
   "posts": [
@@ -266,6 +266,13 @@
       "title": "Product Authenticity Thursday September 17, 2026",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wipqis/product_authenticity_thursday_september_17_2026/",
       "published": "2026-09-17T10:01:11+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "SHOPEE 9.9 Sale Haul - C Beauty, K Beauty, J Beauty & Thai Beauty",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wkfann/shopee_99_sale_haul_c_beauty_k_beauty_j_beauty/",
+      "published": "2026-09-19T07:11:11+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -420,13 +427,6 @@
       "title": "Hera Glow Lasting Foundation & Hera Silky Stay Reviews?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wi9xcg/hera_glow_lasting_foundation_hera_silky_stay/",
       "published": "2026-09-16T21:08:51+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Specific eye care regime or treatments for people with the combination of thin skin and little to no fat?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wim3kg/specific_eye_care_regime_or_treatments_for_people/",
-      "published": "2026-09-17T06:28:07+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

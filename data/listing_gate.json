@@ -1,16 +1,16 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-19T10:17:08.371852+00:00",
+  "generated_at": "2026-09-19T13:49:59.510467+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "semantic_sources": {
       "data/product_master.json": "6520254f9025e01d35bd2102c36d85b264761062f8a243d6c0e7d1aea2ee66c9",
       "data/gosi.json": "047100af634858a30fee03474af5d0f97674fc0525963d0f88df5a2e412ccc00",
       "data/daiso_real/daiso_us_labels.json": "5176a28ffe2e63f58488dfb0eb7ac39696266a31dc9872e51583751f28c051d7",
-      "data/pricing_model.json": "222720303314dacd9580ca7cf65836a5493ec520981ae1dae760511f0cb28816",
-      "data/legal_products.json": "f414be29980d2f71eaa7da78b1d007a85c3edd78b2d3c19950e5920e8e4cb235"
+      "data/pricing_model.json": "13f9cee6f20e4b0d3672def57484d85a871d62b0c76c7bfc181dbaac8b480e31",
+      "data/legal_products.json": "3545a75f58fe644f5d6a50c7c0ec5caffb938f51ddbe4aa3467f1ac63acc0249"
     },
-    "recommendations_sha256": "cbc54a3da769783190e25405d444695ae04b1446799a24340b07f0ac8eac2e7d"
+    "recommendations_sha256": "b82a4a271ab525cffb40b4c5464019efba8f7346a153e7c9f0888d999e7fd0d4"
   },
   "total": 10,
   "agent_ready": 8,
@@ -77,8 +77,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 23.99,
-        "margin_pct": 57.0,
+        "price_usd": 22.99,
+        "margin_pct": 55.4,
         "register_blocked": false
       },
       "legal": {
@@ -137,8 +137,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 23.99,
-        "margin_pct": 50.0,
+        "price_usd": 22.99,
+        "margin_pct": 48.2,
         "register_blocked": false
       },
       "legal": {
@@ -304,8 +304,8 @@
         "us_label_ok": false
       },
       "price": {
-        "price_usd": 23.99,
-        "margin_pct": 47.0,
+        "price_usd": 22.99,
+        "margin_pct": 45.0,
         "register_blocked": false
       },
       "legal": {
@@ -400,67 +400,6 @@
     },
     {
       "rank": 7,
-      "canonical_product_id": "CP000109",
-      "pd_no": "1049285",
-      "product_id": "1049285",
-      "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-      "category": "스킨케어",
-      "price_krw": 3000,
-      "shopify_score": 92,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285",
-      "copy": {
-        "title": "VT Super Hyalon Sleeping Mask 4ml 6 Pack",
-        "description_html": "<p>Discover the VT Super Hyalon Sleeping Mask, designed to deliver deep hydration while you rest. Each pack contains 6 convenient 4ml pouches for easy daily or travel use.</p><p>Apply gently before bed to wake up with a refreshed and hydrated complexion. Perfect for adding an extra layer of moisture to your routine.</p>",
-        "seo_title": "VT Super Hyalon Sleeping Mask 4ml 6 Pack",
-        "seo_description": "Shop the VT Super Hyalon Sleeping Mask 6-pack for deep hydration overnight. Convenient 4ml pouches for a refreshed and moisturized complexion.",
-        "tags": [
-          "vt-cosmetics",
-          "sleeping-mask",
-          "hyaluronic-acid",
-          "korean-skincare",
-          "hydration",
-          "facial-mask",
-          "k-beauty"
-        ],
-        "product_type": "Face Mask"
-      },
-      "copy_status": "ok",
-      "gosi": {
-        "volume": "4ml",
-        "maker": "화장품제조업자: ㈜이앤씨 / 화장품책임판매업자: ㈜브이티코스메틱",
-        "origin": "한국",
-        "ingredients": "정제수, 글리세린, 다이프로필렌글라이콜, 사이클로펜타실록세인, 사이클로헥사실록세인, 글리세레스-26, 마카다미아씨오일, 암모늄아크릴로일다이메틸타우레이트/브이피코폴리머, 글리세릴글루코사이드, 1,2-헥산다이올, 동백나",
-        "gosi_ok": true
-      },
-      "us_label": {
-        "net_contents": "4ml",
-        "manufacturer": "화장품제조업자: ㈜이앤씨 / 화장품책임판매업자: ㈜브이티코스메틱",
-        "country_of_origin": "Korea",
-        "ingredients_inci": "Water, Glycerin, Dipropylene Glycol, Cyclopentasiloxane, Cyclohexasiloxane, Glycereth-26, Macadamia Ternifolia Seed Oil, Ammonium Acryloyldimethyltaurate/VP Copolymer, Glyceryl Glucoside, 1,2-Hexanediol, Camellia Japonica Seed Oil, Hydroxyacetophenone, Polysorbate 20, Hydroxyethyl Urea, Carbomer, Betaine, Allantoin, Trehalose, Butylene Glycol, Tromethamine, Dextrin, Propanediol, Disodium EDTA, Glucose, Fragrance|Perfume|Parfum, Sodium Hyaluronate, Sodium Polyacrylate, Gardenia Florida Fruit Extract, Malva Sylvestris (Mallow) Leaf Extract, Glycine, Serine, Glutamic Acid, Chlorella Vulgaris Extract, Panthenol, Aspartic Acid, Leucine, Alanine, Lysine, Arginine, Tyrosine, Phenylalanine, Proline, Threonine, Valine, Isoleucine, Histidine, Cysteine, Methionine, Polyglutamic Acid, Ethylhexylglycerin, Sodium Hyaluronate Crosspolymer, Potassium Hyaluronate, Hydroxypropyltrimonium Hyaluronate, Hyaluronic Acid, Hydrolyzed Sodium Hyaluronate, Hydrolyzed Hyaluronic Acid, Pentylene Glycol, Sodium Acetylated Hyaluronate",
-        "us_label_ok": true
-      },
-      "price": {
-        "price_usd": 23.99,
-        "margin_pct": 57.0,
-        "register_blocked": false
-      },
-      "legal": {
-        "status": "auto_checked",
-        "hard_block": false,
-        "hard_block_reason": ""
-      },
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "ready": true,
-      "blocked_by": [],
-      "public_ready": false,
-      "public_blocked_by": [
-        "legal_full"
-      ],
-      "legal_full_complete": false
-    },
-    {
-      "rank": 8,
       "canonical_product_id": "CP000151",
       "pd_no": "1059834",
       "product_id": "1059834",
@@ -501,8 +440,69 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 23.99,
-        "margin_pct": 60.4,
+        "price_usd": 22.99,
+        "margin_pct": 59.0,
+        "register_blocked": false
+      },
+      "legal": {
+        "status": "auto_checked",
+        "hard_block": false,
+        "hard_block_reason": ""
+      },
+      "agent_ready": true,
+      "agent_blocked_by": [],
+      "ready": true,
+      "blocked_by": [],
+      "public_ready": false,
+      "public_blocked_by": [
+        "legal_full"
+      ],
+      "legal_full_complete": false
+    },
+    {
+      "rank": 8,
+      "canonical_product_id": "CP000109",
+      "pd_no": "1049285",
+      "product_id": "1049285",
+      "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
+      "category": "스킨케어",
+      "price_krw": 3000,
+      "shopify_score": 89,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285",
+      "copy": {
+        "title": "VT Super Hyalon Sleeping Mask 4ml 6 Pack",
+        "description_html": "<p>Discover the VT Super Hyalon Sleeping Mask, designed to deliver deep hydration while you rest. Each pack contains 6 convenient 4ml pouches for easy daily or travel use.</p><p>Apply gently before bed to wake up with a refreshed and hydrated complexion. Perfect for adding an extra layer of moisture to your routine.</p>",
+        "seo_title": "VT Super Hyalon Sleeping Mask 4ml 6 Pack",
+        "seo_description": "Shop the VT Super Hyalon Sleeping Mask 6-pack for deep hydration overnight. Convenient 4ml pouches for a refreshed and moisturized complexion.",
+        "tags": [
+          "vt-cosmetics",
+          "sleeping-mask",
+          "hyaluronic-acid",
+          "korean-skincare",
+          "hydration",
+          "facial-mask",
+          "k-beauty"
+        ],
+        "product_type": "Face Mask"
+      },
+      "copy_status": "ok",
+      "gosi": {
+        "volume": "4ml",
+        "maker": "화장품제조업자: ㈜이앤씨 / 화장품책임판매업자: ㈜브이티코스메틱",
+        "origin": "한국",
+        "ingredients": "정제수, 글리세린, 다이프로필렌글라이콜, 사이클로펜타실록세인, 사이클로헥사실록세인, 글리세레스-26, 마카다미아씨오일, 암모늄아크릴로일다이메틸타우레이트/브이피코폴리머, 글리세릴글루코사이드, 1,2-헥산다이올, 동백나",
+        "gosi_ok": true
+      },
+      "us_label": {
+        "net_contents": "4ml",
+        "manufacturer": "화장품제조업자: ㈜이앤씨 / 화장품책임판매업자: ㈜브이티코스메틱",
+        "country_of_origin": "Korea",
+        "ingredients_inci": "Water, Glycerin, Dipropylene Glycol, Cyclopentasiloxane, Cyclohexasiloxane, Glycereth-26, Macadamia Ternifolia Seed Oil, Ammonium Acryloyldimethyltaurate/VP Copolymer, Glyceryl Glucoside, 1,2-Hexanediol, Camellia Japonica Seed Oil, Hydroxyacetophenone, Polysorbate 20, Hydroxyethyl Urea, Carbomer, Betaine, Allantoin, Trehalose, Butylene Glycol, Tromethamine, Dextrin, Propanediol, Disodium EDTA, Glucose, Fragrance|Perfume|Parfum, Sodium Hyaluronate, Sodium Polyacrylate, Gardenia Florida Fruit Extract, Malva Sylvestris (Mallow) Leaf Extract, Glycine, Serine, Glutamic Acid, Chlorella Vulgaris Extract, Panthenol, Aspartic Acid, Leucine, Alanine, Lysine, Arginine, Tyrosine, Phenylalanine, Proline, Threonine, Valine, Isoleucine, Histidine, Cysteine, Methionine, Polyglutamic Acid, Ethylhexylglycerin, Sodium Hyaluronate Crosspolymer, Potassium Hyaluronate, Hydroxypropyltrimonium Hyaluronate, Hyaluronic Acid, Hydrolyzed Sodium Hyaluronate, Hydrolyzed Hyaluronic Acid, Pentylene Glycol, Sodium Acetylated Hyaluronate",
+        "us_label_ok": true
+      },
+      "price": {
+        "price_usd": 22.99,
+        "margin_pct": 55.4,
         "register_blocked": false
       },
       "legal": {
@@ -528,7 +528,7 @@
       "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
       "category": "마스크팩",
       "price_krw": 1000,
-      "shopify_score": 87,
+      "shopify_score": 86,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
       "copy": {
         "title": "Celderma Daily Collagen Essence Gel Mask 29g",
@@ -563,8 +563,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 23.99,
-        "margin_pct": 63.9,
+        "price_usd": 22.99,
+        "margin_pct": 62.6,
         "register_blocked": false
       },
       "legal": {
@@ -609,8 +609,8 @@
         "us_label_ok": false
       },
       "price": {
-        "price_usd": 23.99,
-        "margin_pct": 41.0,
+        "price_usd": 22.99,
+        "margin_pct": 38.7,
         "register_blocked": false
       },
       "legal": {

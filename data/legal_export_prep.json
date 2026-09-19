@@ -1,16 +1,14 @@
 {
-  "generated_at": "2026-09-19T08:38:56.989745+00:00",
+  "generated_at": "2026-09-19T13:49:59.389663+00:00",
   "generator": "scripts/prepare_legal_export.py",
   "왜": "법률팀이 '검토 0건, 5항목 대기' 였는데 그 다섯 중 넷은 이미 저장소에 있는 값으로 채울 수 있었다. 먼저 채우고 사람은 확인만 한다.",
   "hs_출처": "hts.usitc.gov/reststop/search (미국 국제무역위원회 공식)",
   "hs_주의": "여기서 정하는 건 후보다. 세부 통계부호는 통관사가 확정해야 한다.",
   "label_기준": "FDA 21 CFR 701 Subpart A / FPLA",
   "total": 10,
-  "hs_filled_this_run": 1,
+  "hs_filled_this_run": 0,
   "label_complete": 0,
   "사람이_채워야_하는_칸": [
-    "내용량",
-    "원산지",
     "전성분",
     "제품 정체 표시",
     "책임자 이름·주소"
@@ -790,8 +788,8 @@
       "grade": "S",
       "용도": "스킨케어",
       "성분": "",
-      "제조국": "",
-      "내용량": "",
+      "제조국": "한국",
+      "내용량": "200ml",
       "제조업자": "",
       "name_en": "",
       "product_type_en": "",
@@ -835,7 +833,7 @@
           },
           "net_quantity": {
             "label": "내용량",
-            "value": "",
+            "value": "200ml",
             "rule": "주표시면 하단 30% 안. 미터법과 야드파운드법 병기"
           },
           "ingredients": {
@@ -850,7 +848,7 @@
           },
           "country_of_origin": {
             "label": "원산지",
-            "value": "",
+            "value": "한국",
             "rule": "수입품은 Made in Korea 등 표기"
           },
           "warnings": {
@@ -861,10 +859,8 @@
         },
         "missing": [
           "제품 정체 표시",
-          "내용량",
           "전성분",
-          "책임자 이름·주소",
-          "원산지"
+          "책임자 이름·주소"
         ],
         "note": "전성분은 한글이다. 미국 라벨에는 INCI 영문명이 필요하다. 번역이 아니라 표준 명칭 대조라서 사람이 확인해야 한다.",
         "inci_status": "no_ingredients"

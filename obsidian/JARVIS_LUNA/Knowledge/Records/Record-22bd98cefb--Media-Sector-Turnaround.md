@@ -2,7 +2,7 @@
 title: "Record 22bd98cefb · Media-Sector-Turnaround"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T11:01:44.158228+00:00
+updated_at: 2026-09-19T13:51:44.728921+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 94ed37b9ab · FarnesolImprinted-Nanospheres-FINs-as-Quorum-Sensin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T11:01:42.375265+00:00
+updated_at: 2026-09-19T13:51:43.994956+00:00
 tags: [record, real-data]
 ---
 

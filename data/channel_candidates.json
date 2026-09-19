@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T08:39:13.401954+00:00",
+  "generated_at": "2026-09-19T13:50:15.424993+00:00",
   "generator": "scripts/discover_channels.py",
   "정책": "후보를 자동으로 등록하지 않는다. robots.txt 를 확인하고 실제로 호출해 본 뒤 진짜 데이터가 나오는 것만 제안한다. 붙일지 말지는 대화로 지시하면 자비스가 수집기를 만들어 연동한다. 이미 가동 중인 소스는 already_live 로 표시한다.",
   "판정기준": [
@@ -65,12 +65,12 @@
       "url": "https://www.allure.com/feed/rss",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 25749,
+      "bytes": 25806,
       "items": 30,
       "samples": [
+        "6 Best Lotions for Rough and Bumpy Skin for KP, Strawberry Skin, and More",
         "A Higher Carb Diet May Lower Your Biological Age, New Study Suggests",
-        "Anne Hathaway's Moody Mani-Pedi Is a Forever Fall Nail Trend—See the Photos",
-        "Shop Top Hair, Skin Care, and Makeup Products and Tools, Vetted by Allure Experts"
+        "Anne Hathaway's Moody Mani-Pedi Is a Forever Fall Nail Trend—See the Photos"
       ],
       "verdict": "가능",
       "reason": "30건 파싱 성공, 값이 서로 다름",
@@ -97,12 +97,12 @@
       "url": "https://trends.google.com/trending/rss?geo=US",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 21203,
+      "bytes": 21347,
       "items": 40,
       "samples": [
-        "upcoming events",
-        "Corn Festival attendees undeterred by rain",
-        "Clinton County upcoming events"
+        "nick saban",
+        "Off SEC report, LSU's Sam Leavitt 'available,' source says",
+        "Sam Leavitt injury update: Is LSU QB playing vs. Ole Miss tonight?"
       ],
       "verdict": "가능",
       "reason": "40건 파싱 성공, 값이 서로 다름",

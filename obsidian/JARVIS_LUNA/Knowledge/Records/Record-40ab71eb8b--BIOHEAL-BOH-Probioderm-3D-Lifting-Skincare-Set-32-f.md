@@ -2,7 +2,7 @@
 title: "Record 40ab71eb8b · BIOHEAL-BOH-Probioderm-3D-Lifting-Skincare-Set-32-f"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T11:01:44.066896+00:00
+updated_at: 2026-09-19T13:51:44.592937+00:00
 tags: [record, real-data]
 ---
 

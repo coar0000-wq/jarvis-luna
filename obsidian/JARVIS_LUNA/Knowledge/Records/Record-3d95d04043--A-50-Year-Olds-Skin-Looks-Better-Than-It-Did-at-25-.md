@@ -2,7 +2,7 @@
 title: "Record 3d95d04043 · A-50-Year-Olds-Skin-Looks-Better-Than-It-Did-at-25-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T11:01:43.883586+00:00
+updated_at: 2026-09-19T13:51:44.329786+00:00
 tags: [record, real-data]
 ---
 

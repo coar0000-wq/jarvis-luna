@@ -2,7 +2,7 @@
 title: "Record 58f891f9a7 · Co-design-of-a-trustworthy-AI-based-prognostic-tool-for-predicting-pat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T11:01:42.692805+00:00
+updated_at: 2026-09-19T13:51:44.004514+00:00
 tags: [record, real-data]
 ---
 

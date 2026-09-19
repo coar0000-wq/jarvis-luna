@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T08:38:54.688798+00:00",
+  "generated_at": "2026-09-19T13:49:57.128647+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
@@ -23,11 +23,11 @@
         "channel": "oliveyoung_us",
         "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
         "similarity": 0.667,
-        "demand_weight": 0.931,
+        "demand_weight": 0.833,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.621
+        "match_score": 0.555
       },
       "registerable": true,
       "registerable_source": "data/listing_gate.json",
@@ -38,7 +38,7 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T10:17:08.371852+00:00"
+      "gate_generated_at": "2026-09-19T13:49:59.510467+00:00"
     },
     {
       "rank": 2,
@@ -73,7 +73,7 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T10:17:08.371852+00:00"
+      "gate_generated_at": "2026-09-19T13:49:59.510467+00:00"
     },
     {
       "rank": 3,
@@ -92,11 +92,11 @@
         "channel": "oliveyoung_us",
         "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
         "similarity": 0.667,
-        "demand_weight": 0.931,
+        "demand_weight": 0.833,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.621
+        "match_score": 0.555
       },
       "registerable": true,
       "registerable_source": "data/listing_gate.json",
@@ -107,7 +107,7 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T10:17:08.371852+00:00"
+      "gate_generated_at": "2026-09-19T13:49:59.510467+00:00"
     },
     {
       "rank": 4,
@@ -142,7 +142,7 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T10:17:08.371852+00:00"
+      "gate_generated_at": "2026-09-19T13:49:59.510467+00:00"
     },
     {
       "rank": 5,
@@ -190,7 +190,7 @@
         "legal",
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T10:17:08.371852+00:00"
+      "gate_generated_at": "2026-09-19T13:49:59.510467+00:00"
     },
     {
       "rank": 6,
@@ -225,45 +225,10 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T10:17:08.371852+00:00"
+      "gate_generated_at": "2026-09-19T13:49:59.510467+00:00"
     },
     {
       "rank": 7,
-      "canonical_product_id": "CP000109",
-      "pd_no": "1049285",
-      "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-      "bucket": "스킨케어",
-      "price_krw": 3000,
-      "shopify_score": 92,
-      "grade": "S",
-      "s_rule": "multi_token",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250929/gblFwiiyQbV92ezzjLMk1049285_00_01gblFwiiyQbV92ezzjLMk.jpg",
-      "recommend_reason": "글로벌 'BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Plumping, Travel Essentials & Self Care Gifts for Women, Korean Skin Care | 1.19oz(34g) x 4ea' (amazon_best_sellers) 유사 64% · 토큰 hydrating, mask",
-      "matched_global": {
-        "channel": "amazon_best_sellers",
-        "global_product": "BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Plumping, Travel Essentials & Self Care Gifts for Women, Korean Skin Care | 1.19oz(34g) x 4ea",
-        "similarity": 0.638,
-        "demand_weight": 0.522,
-        "matched_tokens": [
-          "hydrating",
-          "mask"
-        ],
-        "match_score": 0.333
-      },
-      "registerable": true,
-      "registerable_source": "data/listing_gate.json",
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "blocked_by": [],
-      "public_ready": false,
-      "public_blocked_by": [
-        "legal_full"
-      ],
-      "gate_generated_at": "2026-09-19T10:17:08.371852+00:00"
-    },
-    {
-      "rank": 8,
       "canonical_product_id": "CP000151",
       "pd_no": "1059834",
       "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
@@ -295,7 +260,42 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T10:17:08.371852+00:00"
+      "gate_generated_at": "2026-09-19T13:49:59.510467+00:00"
+    },
+    {
+      "rank": 8,
+      "canonical_product_id": "CP000109",
+      "pd_no": "1049285",
+      "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
+      "bucket": "스킨케어",
+      "price_krw": 3000,
+      "shopify_score": 89,
+      "grade": "S",
+      "s_rule": "multi_token",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250929/gblFwiiyQbV92ezzjLMk1049285_00_01gblFwiiyQbV92ezzjLMk.jpg",
+      "recommend_reason": "글로벌 'BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Plumping, Travel Essentials & Self Care Gifts for Women, Korean Skin Care | 1.19oz(34g) x 4ea' (amazon_best_sellers) 유사 64% · 토큰 hydrating, mask",
+      "matched_global": {
+        "channel": "amazon_best_sellers",
+        "global_product": "BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Plumping, Travel Essentials & Self Care Gifts for Women, Korean Skin Care | 1.19oz(34g) x 4ea",
+        "similarity": 0.638,
+        "demand_weight": 0.522,
+        "matched_tokens": [
+          "hydrating",
+          "mask"
+        ],
+        "match_score": 0.333
+      },
+      "registerable": true,
+      "registerable_source": "data/listing_gate.json",
+      "agent_ready": true,
+      "agent_blocked_by": [],
+      "blocked_by": [],
+      "public_ready": false,
+      "public_blocked_by": [
+        "legal_full"
+      ],
+      "gate_generated_at": "2026-09-19T13:49:59.510467+00:00"
     },
     {
       "rank": 9,
@@ -304,7 +304,7 @@
       "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
       "bucket": "마스크팩",
       "price_krw": 1000,
-      "shopify_score": 87,
+      "shopify_score": 86,
       "grade": "S",
       "s_rule": "ingredient+form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
@@ -330,7 +330,7 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T10:17:08.371852+00:00"
+      "gate_generated_at": "2026-09-19T13:49:59.510467+00:00"
     },
     {
       "rank": 10,
@@ -378,7 +378,7 @@
         "legal",
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T10:17:08.371852+00:00"
+      "gate_generated_at": "2026-09-19T13:49:59.510467+00:00"
     }
   ],
   "agent_ready_count": 8,

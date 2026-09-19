@@ -2,7 +2,7 @@
 title: "Record 1b6cc37abd · Consider-This-Your-Ultimate-K-Beauty-Shopping-List---SheerLuxe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T11:01:43.923589+00:00
+updated_at: 2026-09-19T13:51:44.386994+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMihgFBVV95cUxObTUzLUttQ3RtcmstRTRwc3pKcy0zdkVzamxaVFJVSkZvenNyVm84N2xVZUNOWHl1SUtsUFpsaVNnNEc4VmNTOXdtMjFkQlUzMlU4NElMc1pLMUlDZ05iejBGSjg3UWd4UDBhOUJ0WEFIM1RKYU1OcDBobGtIN1hNdzE2ME1BUQ?oc=5)
 
-**제목:** Consider This Your Ultimate K-Beauty Shopping List - sheerluxe.com
+**제목:** Consider This Your Ultimate K-Beauty Shopping List - SheerLuxe
 
-Consider This Your Ultimate K-Beauty Shopping List - sheerluxe.com
+Consider This Your Ultimate K-Beauty Shopping List - SheerLuxe
 
 **출처:** Source · Google Search
 

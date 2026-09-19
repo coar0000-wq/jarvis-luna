@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T08:38:53.518335+00:00",
+  "generated_at": "2026-09-19T13:49:56.136200+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "latest news",
-          "approx_traffic": "20000+",
-          "traffic_num": 20000,
-          "published": "Sat, 19 Sep 2026 01:10:00 -0700",
-          "source_name": "CNN",
-          "url": "https://trends.google.com/trending?geo=US&q=latest%20news"
-        },
-        {
-          "keyword": "market",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Sat, 19 Sep 2026 00:40:00 -0700",
-          "source_name": "CNBC",
-          "url": "https://trends.google.com/trending?geo=US&q=market"
-        },
-        {
-          "keyword": "upcoming events",
+          "keyword": "yahoo news",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sat, 19 Sep 2026 01:20:00 -0700",
-          "source_name": "Wilmington News Journal",
-          "url": "https://trends.google.com/trending?geo=US&q=upcoming%20events"
+          "published": "Sat, 19 Sep 2026 06:10:00 -0700",
+          "source_name": "The Washington Post",
+          "url": "https://trends.google.com/trending?geo=US&q=yahoo%20news"
         },
         {
-          "keyword": "sports scores today",
+          "keyword": "kyle busch",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sat, 19 Sep 2026 01:20:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=sports%20scores%20today"
+          "published": "Sat, 19 Sep 2026 05:40:00 -0700",
+          "source_name": "wfmynews2.com",
+          "url": "https://trends.google.com/trending?geo=US&q=kyle%20busch"
         },
         {
-          "keyword": "fashion",
+          "keyword": "strands hint",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sat, 19 Sep 2026 01:00:00 -0700",
+          "published": "Sat, 19 Sep 2026 05:40:00 -0700",
           "source_name": "The New York Times",
-          "url": "https://trends.google.com/trending?geo=US&q=fashion"
+          "url": "https://trends.google.com/trending?geo=US&q=strands%20hint"
         },
         {
-          "keyword": "new york times",
+          "keyword": "nick saban",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sat, 19 Sep 2026 01:20:00 -0700",
-          "source_name": "Politico",
-          "url": "https://trends.google.com/trending?geo=US&q=new%20york%20times"
+          "published": "Sat, 19 Sep 2026 06:30:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=nick%20saban"
         },
         {
-          "keyword": "flights",
+          "keyword": "kent state football",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sat, 19 Sep 2026 01:10:00 -0700",
-          "source_name": "CNN",
-          "url": "https://trends.google.com/trending?geo=US&q=flights"
+          "published": "Sat, 19 Sep 2026 06:10:00 -0700",
+          "source_name": "FOX Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=kent%20state%20football"
         },
         {
-          "keyword": "accident lawyer",
-          "approx_traffic": "100+",
-          "traffic_num": 100,
-          "published": "Sat, 19 Sep 2026 01:20:00 -0700",
-          "source_name": "Rand Spear The Accident Lawyer",
-          "url": "https://trends.google.com/trending?geo=US&q=accident%20lawyer"
+          "keyword": "epl table",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Sat, 19 Sep 2026 06:10:00 -0700",
+          "source_name": "The New York Times",
+          "url": "https://trends.google.com/trending?geo=US&q=epl%20table"
         },
         {
-          "keyword": "address",
+          "keyword": "where is college gameday this week",
           "approx_traffic": "100+",
           "traffic_num": 100,
-          "published": "Sat, 19 Sep 2026 01:20:00 -0700",
-          "source_name": "Denver Broncos",
-          "url": "https://trends.google.com/trending?geo=US&q=address"
+          "published": "Sat, 19 Sep 2026 06:30:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=where%20is%20college%20gameday%20this%20week"
         },
         {
-          "keyword": "car",
+          "keyword": "zion suzuki",
           "approx_traffic": "100+",
           "traffic_num": 100,
-          "published": "Sat, 19 Sep 2026 01:10:00 -0700",
-          "source_name": "Orange County Register",
-          "url": "https://trends.google.com/trending?geo=US&q=car"
+          "published": "Sat, 19 Sep 2026 06:30:00 -0700",
+          "source_name": "BBC",
+          "url": "https://trends.google.com/trending?geo=US&q=zion%20suzuki"
+        },
+        {
+          "keyword": "north carolina football",
+          "approx_traffic": "100+",
+          "traffic_num": 100,
+          "published": "Sat, 19 Sep 2026 05:50:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=north%20carolina%20football"
+        },
+        {
+          "keyword": "boston weather",
+          "approx_traffic": "100+",
+          "traffic_num": 100,
+          "published": "Sat, 19 Sep 2026 05:50:00 -0700",
+          "source_name": "CBS News",
+          "url": "https://trends.google.com/trending?geo=US&q=boston%20weather"
         }
       ]
     },
@@ -187,6 +187,11 @@
       "source": "allure.com/feed/rss",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
       "items": [
+        {
+          "title": "6 Best Lotions for Rough and Bumpy Skin for KP, Strawberry Skin, and More",
+          "published": "Sat, 19 Sep 2026 12:00:00 +0000",
+          "url": "https://www.allure.com/story/best-lotion-for-rough-and-bumpy-skin"
+        },
         {
           "title": "A Higher Carb Diet May Lower Your Biological Age, New Study Suggests",
           "published": "Fri, 18 Sep 2026 20:16:48 +0000",
@@ -331,11 +336,6 @@
           "title": "Allure Best of Beauty Awards 2026: Shop Our Hair Winners",
           "published": "Thu, 17 Sep 2026 11:12:47 +0000",
           "url": "https://www.allure.com/best-of-beauty-2026-winners/hair"
-        },
-        {
-          "title": "Shop the 2026 Allure Best of Beauty Skin Winning Products",
-          "published": "Thu, 17 Sep 2026 11:07:44 +0000",
-          "url": "https://www.allure.com/best-of-beauty-2026-winners/skin"
         }
       ]
     },

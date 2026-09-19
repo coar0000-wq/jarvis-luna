@@ -1,6 +1,6 @@
 {
   "agent": "Channel-Expansion",
-  "generated_at": "2026-09-19T08:39:34.589866+00:00",
+  "generated_at": "2026-09-19T13:50:36.032880+00:00",
   "institutions_team": {
     "role": "湲곌?/怨듦났/?곌뎄/洹쒖젣 ?곗씠???좉퇋 ?뚯뒪 諛쒓뎬",
     "checked": 7,
@@ -9,24 +9,9 @@
   "channel_team": {
     "role": "?먮ℓ/由ы뀒???몃젋??而ㅻ??덊떚 ?좉퇋 梨꾨꼸 諛쒓뎬",
     "checked": 11,
-    "verified": 4
+    "verified": 3
   },
   "verified_candidates": [
-    {
-      "team": "梨꾨꼸 ?댁쁺?",
-      "name": "Google Shopping",
-      "url": "https://shopping.google.com/",
-      "kind": "commerce-signal",
-      "country": "US",
-      "priority": 1,
-      "reachable": true,
-      "status_code": 200,
-      "final_url": "https://www.google.com/shopping",
-      "content_length": 114351,
-      "has_html": true,
-      "status": "candidate",
-      "checked_at": "2026-09-19T08:39:34.310643+00:00"
-    },
     {
       "team": "湲곌? ?섏쭛?",
       "name": "OECD Data Explorer",
@@ -40,7 +25,7 @@
       "content_length": 172023,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-19T08:39:15.949585+00:00"
+      "checked_at": "2026-09-19T13:50:17.656128+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -52,10 +37,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://www.census.gov/data.html",
-      "content_length": 511556,
+      "content_length": 511542,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-19T08:39:14.524159+00:00"
+      "checked_at": "2026-09-19T13:50:16.317827+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -70,7 +55,7 @@
       "content_length": 3769,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-19T08:39:16.423004+00:00"
+      "checked_at": "2026-09-19T13:50:18.099509+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -85,7 +70,7 @@
       "content_length": 69357,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-19T08:39:16.203523+00:00"
+      "checked_at": "2026-09-19T13:50:17.866793+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -100,7 +85,7 @@
       "content_length": 191886,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-19T08:39:15.205307+00:00"
+      "checked_at": "2026-09-19T13:50:17.087590+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -112,10 +97,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://trends.google.com/trends/",
-      "content_length": 771689,
+      "content_length": 771687,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-19T08:39:34.526956+00:00"
+      "checked_at": "2026-09-19T13:50:35.983077+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -127,10 +112,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://www.instacart.com/",
-      "content_length": 718282,
+      "content_length": 959413,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-19T08:39:34.105203+00:00"
+      "checked_at": "2026-09-19T13:50:35.112824+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -142,10 +127,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://www.nordstrom.com/browse/beauty",
-      "content_length": 251246,
+      "content_length": 256873,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-09-19T08:39:17.590031+00:00"
+      "checked_at": "2026-09-19T13:50:18.765005+00:00"
     }
   ],
   "unverified_candidates": [
@@ -162,7 +147,22 @@
       "content_length": 14489,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-19T08:39:14.946690+00:00"
+      "checked_at": "2026-09-19T13:50:16.795795+00:00"
+    },
+    {
+      "team": "梨꾨꼸 ?댁쁺?",
+      "name": "Google Shopping",
+      "url": "https://shopping.google.com/",
+      "kind": "commerce-signal",
+      "country": "US",
+      "priority": 1,
+      "reachable": false,
+      "status_code": 429,
+      "final_url": "https://www.google.com/sorry/index?continue=https://www.google.com/shopping&q=EgQ0nQLzGKumutUGIjCMzZ-eKHK7e1t_PGDGlKCfGk71GgCGyo51v4s_1wys36-DEilp-wbhCFSafosBIIIyAnJSWgFD",
+      "content_length": 3182,
+      "has_html": true,
+      "status": "unverified",
+      "checked_at": "2026-09-19T13:50:35.737611+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -174,10 +174,10 @@
       "reachable": false,
       "status_code": 403,
       "final_url": "https://www.sephora.com/beauty",
-      "content_length": 375,
+      "content_length": 373,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-19T08:39:16.835026+00:00"
+      "checked_at": "2026-09-19T13:50:18.361887+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -192,7 +192,7 @@
       "content_length": 1325,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-19T08:39:14.726231+00:00"
+      "checked_at": "2026-09-19T13:50:16.428040+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -204,10 +204,10 @@
       "reachable": false,
       "status_code": 403,
       "final_url": "https://www.ebay.com/b/Beauty/26395/bn_7000259124",
-      "content_length": 1831,
+      "content_length": 1832,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-19T08:39:16.591341+00:00"
+      "checked_at": "2026-09-19T13:50:18.161263+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -222,7 +222,7 @@
       "content_length": 776,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-19T08:39:16.675318+00:00"
+      "checked_at": "2026-09-19T13:50:18.206778+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -237,7 +237,7 @@
       "content_length": 190240,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-19T08:39:34.589346+00:00"
+      "checked_at": "2026-09-19T13:50:36.032379+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -250,7 +250,7 @@
       "status_code": null,
       "error": "ReadTimeout: HTTPSConnectionPool(host='www.kroger.com', port=443): Read timed out. (read timeout=15)",
       "status": "unverified",
-      "checked_at": "2026-09-19T08:39:33.086213+00:00"
+      "checked_at": "2026-09-19T13:50:34.005368+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -265,7 +265,7 @@
       "content_length": 9901,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-19T08:39:17.944902+00:00"
+      "checked_at": "2026-09-19T13:50:18.906440+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -280,7 +280,7 @@
       "content_length": 782,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-09-19T08:39:17.018672+00:00"
+      "checked_at": "2026-09-19T13:50:18.448470+00:00"
     }
   ],
   "safety": {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T08:30:24.777997+00:00",
+  "generated_at": "2026-09-19T13:41:48.667526+00:00",
   "generator": "scripts/collect_robotics.py",
   "목적": "옵시디언 주제 '로보틱스' 가 3건뿐이던 문제를 해결한다. 분류기는 정상이었고 수집원에 로봇 자료가 없었던 것이 원인이다.",
   "접근_정책": "arXiv 은 프로그램 접근용 export.arxiv.org 를 제공하며 그 주소만 사용하고 요청 간 3초를 둔다. RSS 두 곳은 robots.txt 허용을 확인했다.",
@@ -420,6 +420,14 @@
           "source": "rss"
         },
         {
+          "title": "Hirebotics adds line tracking and linear rail capabilities to its cobots",
+          "summary": "<p>Hirebotics said these new capabilities extend the working range of the cobots, giving manufacturers greater flexibility.</p> <p>The post <a href=\"https://www.therobotreport.com/hirebotics-adds-line-tracking-linear-rail-capabilities-cobots/\">Hirebotics adds line tracking and linear rail capabilities to its cobots</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>",
+          "published": "Sat, 19 Sep 2026 12:40:50 +0000",
+          "url": "https://www.therobotreport.com/hirebotics-adds-line-tracking-linear-rail-capabilities-cobots/",
+          "feed": "The Robot Report",
+          "source": "rss"
+        },
+        {
           "title": "The picks-and-shovels strategy behind the robotics boom",
           "summary": "<p>The real robotics opportunity isn’t a humanoid in every home—it’s packaging robots for the jobs businesses need done today.</p> <p>The post <a href=\"https://www.therobotreport.com/the-picks-and-shovels-strategy-behind-the-robotics-boom/\">The picks-and-shovels strategy behind the robotics boom</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
           "published": "Fri, 18 Sep 2026 18:57:36 +0000",
@@ -528,14 +536,6 @@
           "summary": "<p>Learn from a surgical robotics case study and a discussion of how to best deploy mobile robots in the warehouse in this issue.</p> <p>The post <a href=\"https://www.therobotreport.com/report-covers-surgical-robot-advances-deploying-warehouse-automation-real-world/\">Report covers advances in surgical robots, deploying warehouse automation in the real world</a> appeared first on <a href=\"https://w",
           "published": "Mon, 14 Sep 2026 21:01:59 +0000",
           "url": "https://www.therobotreport.com/report-covers-surgical-robot-advances-deploying-warehouse-automation-real-world/",
-          "feed": "The Robot Report",
-          "source": "rss"
-        },
-        {
-          "title": "Arm to discuss scaling physical AI at RoboBusiness",
-          "summary": "<p>Dermot O'Driscoll, the VP of go-to-market for physical AI at Arm, will examine key compute principles behind trusted physical AI.</p> <p>The post <a href=\"https://www.therobotreport.com/arm-to-discuss-scaling-physical-ai-at-robobusiness/\">Arm to discuss scaling physical AI at RoboBusiness</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
-          "published": "Mon, 14 Sep 2026 16:09:27 +0000",
-          "url": "https://www.therobotreport.com/arm-to-discuss-scaling-physical-ai-at-robobusiness/",
           "feed": "The Robot Report",
           "source": "rss"
         }

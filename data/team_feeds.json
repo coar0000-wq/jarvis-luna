@@ -1,73 +1,73 @@
 {
-  "generated_at": "2026-09-19T08:32:12.459251+00:00",
+  "generated_at": "2026-09-19T13:43:28.267769+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
   "pool_size": 2256,
   "제목없어_버림": 38,
-  "unrouted": 8,
+  "unrouted": 9,
   "summary": {
     "sourcing": {
-      "total": 341,
-      "recent": 340,
-      "material": 3,
-      "material_recent": 2,
+      "total": 342,
+      "recent": 341,
+      "material": 4,
+      "material_recent": 3,
       "products": 338
     },
     "market": {
-      "total": 479,
-      "recent": 36,
-      "material": 479,
-      "material_recent": 36,
+      "total": 472,
+      "recent": 38,
+      "material": 472,
+      "material_recent": 38,
       "products": 0
     },
     "listing": {
-      "total": 18,
+      "total": 17,
       "recent": 12,
-      "material": 18,
+      "material": 17,
       "material_recent": 12,
       "products": 0
     },
     "pricing": {
-      "total": 16,
+      "total": 15,
       "recent": 7,
-      "material": 16,
+      "material": 15,
       "material_recent": 7,
       "products": 0
     },
     "legal": {
-      "total": 117,
-      "recent": 20,
-      "material": 117,
-      "material_recent": 20,
+      "total": 121,
+      "recent": 24,
+      "material": 121,
+      "material_recent": 24,
       "products": 0
     },
     "design": {
-      "total": 364,
+      "total": 365,
       "recent": 98,
-      "material": 364,
+      "material": 365,
       "material_recent": 98,
       "products": 0
     },
     "robotics": {
-      "total": 84,
-      "recent": 49,
-      "material": 84,
-      "material_recent": 49,
+      "total": 89,
+      "recent": 53,
+      "material": 89,
+      "material_recent": 53,
       "products": 0
     },
     "knowledge": {
-      "total": 192,
-      "recent": 84,
-      "material": 192,
-      "material_recent": 84,
+      "total": 189,
+      "recent": 83,
+      "material": 189,
+      "material_recent": 83,
       "products": 0
     },
     "institutions": {
-      "total": 1062,
-      "recent": 257,
-      "material": 1062,
-      "material_recent": 257,
+      "total": 1061,
+      "recent": 261,
+      "material": 1061,
+      "material_recent": 261,
       "products": 0
     }
   },
@@ -80,9 +80,18 @@
   "teams": {
     "sourcing": [
       {
+        "title": "Anua 성장 전략: 다각화 유통·번들 AOV·트렌드 성분·단순 랜딩",
+        "url": "",
+        "pool": "team_briefing",
+        "summary": "Anua는 연 매출 약 5억 달러 규모로 성장하면서 Meta 광고와 Shopify에만 의존하지 않고 SEO, Amazon, TikTok Shop, 오프라인 리테일을 결합했다. 단품 약 $20 대신 인기 제품을 묶은 약 $120 베스트셀러 세트와 사은품·한정 오퍼로 AOV와 전환율을 높인다. 아젤라익산·콜라겐 등 수요가 커지는 성분을 빠르게 포착하고 아젤라익산+시카, 콜라겐+레티놀처럼 복합 성분의 고유 메커니즘으로 차별화한다. 랜딩페이지는 고객 후기와 리뷰를 우선 노출하고 복잡한 설명·성분 정보는 캐러셀에 넣어 구매 흐름을 단순하게 유지한다.",
+        "date": "2026-09-19",
+        "by_hand": true
+      },
+      {
         "title": "How to use AI to beat big brands on Shopify ($0 to $1M)",
         "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
         "pool": "youtube_manual",
+        "summary": "Matt Clark - AI로 대형 브랜드 이기기. 큰 시장 속 불만족 집단을 리뷰로 찾기 / 가격 경쟁 대신 AI 보너스로 가치 올리기 / 카피 3입력(제품 사실·리뷰 원문 표현·Ad Library 예시) / 메타 단일 캠페인에 주 10~20개 광고 / 리스티클 랜딩",
         "date": "2026-09-15",
         "by_hand": true
       },
@@ -90,6 +99,7 @@
         "title": "Claude Copies $2m Shopify Store & Replaces Everything With My Brand (Full Course)",
         "url": "https://www.youtube.com/watch?v=dPPd65Kvh7Y",
         "pool": "youtube_manual",
+        "summary": "Ali Akbar - Claude 로 월매출 200만불 스토어를 통째로 복제하는 78분 강의. 방법은 참고, 복제 자체는 위험",
         "date": "2026-09-07",
         "by_hand": true
       },
@@ -491,20 +501,22 @@
         "pool": "daiso",
         "date": "2026-09-17",
         "by_hand": false
-      },
-      {
-        "title": "남성용 배색 스트라이프 단목 양말",
-        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=55256",
-        "pool": "daiso",
-        "date": "2026-09-17",
-        "by_hand": false
       }
     ],
     "market": [
       {
+        "title": "Anua 성장 전략: 다각화 유통·번들 AOV·트렌드 성분·단순 랜딩",
+        "url": "",
+        "pool": "team_briefing",
+        "summary": "Anua는 연 매출 약 5억 달러 규모로 성장하면서 Meta 광고와 Shopify에만 의존하지 않고 SEO, Amazon, TikTok Shop, 오프라인 리테일을 결합했다. 단품 약 $20 대신 인기 제품을 묶은 약 $120 베스트셀러 세트와 사은품·한정 오퍼로 AOV와 전환율을 높인다. 아젤라익산·콜라겐 등 수요가 커지는 성분을 빠르게 포착하고 아젤라익산+시카, 콜라겐+레티놀처럼 복합 성분의 고유 메커니즘으로 차별화한다. 랜딩페이지는 고객 후기와 리뷰를 우선 노출하고 복잡한 설명·성분 정보는 캐러셀에 넣어 구매 흐름을 단순하게 유지한다.",
+        "date": "2026-09-19",
+        "by_hand": true
+      },
+      {
         "title": "How to use AI to beat big brands on Shopify ($0 to $1M)",
         "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
         "pool": "youtube_manual",
+        "summary": "Matt Clark - AI로 대형 브랜드 이기기. 큰 시장 속 불만족 집단을 리뷰로 찾기 / 가격 경쟁 대신 AI 보너스로 가치 올리기 / 카피 3입력(제품 사실·리뷰 원문 표현·Ad Library 예시) / 메타 단일 캠페인에 주 10~20개 광고 / 리스티클 랜딩",
         "date": "2026-09-15",
         "by_hand": true
       },
@@ -512,6 +524,7 @@
         "title": "패션 비전공자가 25살에 창업해 100억 브랜드를 키워낸 '미친 실행력' | 스몰톡라운지 스퀘어129 남주미",
         "url": "https://www.youtube.com/watch?v=O4Z5KklVR5I",
         "pool": "youtube_manual",
+        "summary": "스퀘어129 남주미 - 역마진으로 초기 안착, 플랫폼 플레이, 일본 매출이 국내 추월",
         "date": "2026-09-06",
         "by_hand": true
       },
@@ -519,6 +532,7 @@
         "title": "쇼피파이 드랍쉬핑은 브랜딩이 답입니다. 진짜 잘 되는 스토어 5곳 까봤습니다",
         "url": "https://www.youtube.com/watch?v=IG0V7o6Z3ZE",
         "pool": "youtube_manual",
+        "summary": "G-ROAD - 쇼피파이 드랍쉬핑 스토어 5곳 해부. 브랜딩이 전환을 만든다는 논지",
         "date": "2026-09-06",
         "by_hand": true
       },
@@ -526,6 +540,7 @@
         "title": "The Psychology of Making People Buy",
         "url": "https://www.youtube.com/watch?v=k520NhbFhIE",
         "pool": "youtube_manual",
+        "summary": "The Futur 크리스 두 - 가격 경쟁을 벗어나는 포지셔닝. Liquid Death 등 5개 브랜드 해부",
         "date": "2026-09-06",
         "by_hand": true
       },
@@ -621,6 +636,13 @@
         "by_hand": false
       },
       {
+        "title": "Stop Splurging on Skin Care—This Kendall Jenner-Used K-Beauty Brand Gives Me a Poreless Glow, Starting at $4 - instyle.com",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSDhzbFk5SkNPVmFEY3l1aWZiUUNfMjY5RG55RlMtVFp4b29OeFhnNVVRaHZBZDRxZ0FZQ0w5R3g2SWMxYnNXUVppbmoxaXlWWDZkZTdZOXh5RVNtNlpwWkZTVEJ1TFoxUWdQN0pXQXVWQzhQa096NDZTd2xJM0tFa0RVV3RRZmM?oc=5",
+        "pool": "google",
+        "date": "2026-09-19",
+        "by_hand": false
+      },
+      {
         "title": "SoftBank agrees to acquire Robotics and AI Institute",
         "url": "https://www.therobotreport.com/softbank-agrees-to-acquire-robotics-and-ai-institute/",
         "pool": "robotics",
@@ -628,15 +650,15 @@
         "by_hand": false
       },
       {
-        "title": "This Viral K-Beauty Moisturizer Gave Me My Glow Back - Coveteur",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1lMW1VRnVJQk1yMnVKTDVJQzRtYlU4WHJSd3dta0c0QXV5MXBWV01pMExrc0kzRTRVLVd0NzdnZlF1dmppbFQ2TUprX1JJOUdFT0lpWE5jdF9lZXQweHdJanBtcw?oc=5",
+        "title": "This K-Beauty Serum Is ‘More Like A Potent Magic Potion For Rejuvenating Skin’ — And It’s On Sale - Yahoo",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSzY0SWNkbUh6NGJHVFlld3FOU2hDT1k2V0hocUxLdTR5d2t6bk1fUTZoejhiRmlydXVmdUhqcHlsU0ZmZFFkbGhKY0gxR294dkZXVEtldHI0MUxiY2U2QVpKbnZRQVZSRllMZGZ0dzRYQXo4NjhKbWRXY29FbURCTThNUkJIamVoTmltOWI4ZnhRVGlyQ05Gdg?oc=5",
         "pool": "google",
         "date": "2026-09-18",
         "by_hand": false
       },
       {
-        "title": "This K-Beauty Serum Is ‘More Like A Potent Magic Potion For Rejuvenating Skin’ — And It’s On Sale - Yahoo",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSzY0SWNkbUh6NGJHVFlld3FOU2hDT1k2V0hocUxLdTR5d2t6bk1fUTZoejhiRmlydXVmdUhqcHlsU0ZmZFFkbGhKY0gxR294dkZXVEtldHI0MUxiY2U2QVpKbnZRQVZSRllMZGZ0dzRYQXo4NjhKbWRXY29FbURCTThNUkJIamVoTmltOWI4ZnhRVGlyQ05Gdg?oc=5",
+        "title": "This Viral K-Beauty Moisturizer Gave Me My Glow Back - Coveteur",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1lMW1VRnVJQk1yMnVKTDVJQzRtYlU4WHJSd3dta0c0QXV5MXBWV01pMExrc0kzRTRVLVd0NzdnZlF1dmppbFQ2TUprX1JJOUdFT0lpWE5jdF9lZXQweHdJanBtcw?oc=5",
         "pool": "google",
         "date": "2026-09-18",
         "by_hand": false
@@ -649,7 +671,7 @@
         "by_hand": false
       },
       {
-        "title": "Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - highschool.latimes.com",
+        "title": "Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - HS Insider",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPc2g3NThETVhLa3FISG94RmRGSURCVlJ6aGNHUWZleXJHS0VfTUd0ZEZJUzduRVpjSGxTcGRKNlhKeXVCVHpMTmpFWjBPcHdzYkIyeG1lcHJXeVV6cHFPZXl5UFdnUkpRNDVRLXFjZTFtNmpmYThKdmVveTBTM0ZsN1lBNjJyRE9UVmZReGlaeG54Mko1ZDItRlFoUXZKc1BRcmwzSnR3RGVpTjRzbVVTcDI4dw?oc=5",
         "pool": "google",
         "date": "2026-09-17",
@@ -663,14 +685,7 @@
         "by_hand": false
       },
       {
-        "title": "The K-beauty secret behind Karol G’s glowing skin, according to her esthetician - NJ.com",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVHFybGlDc1htZ1Q5NTVaS19pWUhueE1FMzJXOEF5dzJGd1hlaXZTa0NhRm1oSmtiUGJRUnhlRmtSOV91MlN4d2hNU1NiUVVlWWMyX3ktdzg5cEhGOGRJMVAwSXlSYXU4dmJjdnJPUDR2QmlNOTN3M1hEWnF6Yk9paUhHRm1RQlpEV0ZLOW01dEJTV2VxTEYwc21CcGhDWWVpN0F5TFUwR21OeUZMM21INlFsT0lnT3pvOU41ek5yNS1GQdIB1gFBVV95cUxNLXFPR095Mm5zMlJPQXE3bHpYM3B1MkFmLXZ1dmFwb09Ma3dDUEF6MlJOaU9EWXBvLWxsTnZMcDhmeXdYQmsyMlFiTjVCOWdvX1ZscU1icFdybHZWdGZ2NWUycEJqUnA3UTNqVDFrSU5KYm5SNHJCU3NDdTZPbEFuQkI4Q1dnQ2o5X3pmQnp0SS1WeEVINEhtd3A1anpTaVRnc1VEeU9uTFVndFg4ZzEzN21wTC1WMEtRNmJwZVM4MjdjVHlteGhvTVh6MjFtbHc0ZFRYWUt3?oc=5",
-        "pool": "google",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "Consider This Your Ultimate K-Beauty Shopping List - SheerLuxe",
+        "title": "Consider This Your Ultimate K-Beauty Shopping List - sheerluxe.com",
         "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObTUzLUttQ3RtcmstRTRwc3pKcy0zdkVzamxaVFJVSkZvenNyVm84N2xVZUNOWHl1SUtsUFpsaVNnNEc4VmNTOXdtMjFkQlUzMlU4NElMc1pLMUlDZ05iejBGSjg3UWd4UDBhOUJ0WEFIM1RKYU1OcDBobGtIN1hNdzE2ME1BUQ?oc=5",
         "pool": "google",
         "date": "2026-09-17",
@@ -684,7 +699,7 @@
         "by_hand": false
       },
       {
-        "title": "This K-beauty sunscreen is a game-changer for oily skin - independent.co.uk",
+        "title": "This K-beauty sunscreen is a game-changer for oily skin - The Independent",
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOajJuaWhEU0dCRWFaQ1FzWUpwbUtPRXJET1NmRUFJR01Qb2VoaUREUzBtZFZZLVB0elVmZmFpOENqdldFZXd2TkJGX3UzWXFzQ2RJRWpOb1ZtTFpfcGxYYkNDMUt0NmNzdmg2YzJWYTg3UmZ4RlotVjZ3UDdNQnRXMGtBVEgtU2FzY1BJb2JMY1RBa0pSeWpZLWdhZlVPWDh1ZXBady1DRjBaUkdFemdyZG1menFpSlc0VWZrMlQ0VF9vY0dqZkxVYg?oc=5",
         "pool": "google",
         "date": "2026-09-17",
@@ -712,14 +727,14 @@
         "by_hand": false
       },
       {
-        "title": "Move Over, Glass Skin: Cloud Creams Are the K-Beauty Moisturizer Trend Taking Over - ELLE",
+        "title": "Move Over, Glass Skin: Soft, Plump Cloud Creams Are Korea’s Next Big Beauty Obsession - ELLE",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNc3JsQnlaWlRYMXMxNzBkLXBuUUlURHNCVzBwVHdndWVEUXZZZndUUkpUdFFPN3NJR1FJMGhualo2UDFsc05hSmNDa1NLYzA1ejQ5cS1fWFpUaWRDNmZYX0k0d05fTGNzQVZhLXpDOGpORk1pa0htM3gxUzYtZWZyZ3R0MW9BY29OZnhQN1JaYV94X1U?oc=5",
         "pool": "google",
         "date": "2026-09-16",
         "by_hand": false
       },
       {
-        "title": "K-beauty: Why Korea's skincare industry is dominating cosmetics - rte.ie",
+        "title": "K-beauty: Why Korea's skincare industry is dominating cosmetics - RTE.ie",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdzBLZFB4dFNnQnNvRm52OFZDZDhOR0tZbml1WjQ0b2ZDb1JPMi16VEY2b0FDUURnTmNwd3c4bWhWaFp1SHZ5NXdVQjVBWEx3Qm5iT1FJVm05bUNlZEVRY3RkN2VYaThRYWZvc2RGc0JkWXhHX3BYbGNBY0pmUVRhdTY1UkhTM19Hd1pCQjZWc09JUC1SUzhJV0FEckRZSFlRTHZlNThMckowQWhKaEFheTVCQjZsRVpD?oc=5",
         "pool": "google",
         "date": "2026-09-16",
@@ -728,6 +743,13 @@
       {
         "title": "Your Fall Beauty Edit: 3 Top Trends to Refresh Your Routine at Target - Target Corporation",
         "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQajBBeEpXUWJ4Mm1lZ0ZucHhEUlhqb1pKdkhSeEk5YkpNb05BTFdVYzFCWmhpdlhFVnBBUzA1aFFwNmpBTnlrcUM2QU5hWWkwLWstV0Q0b2JYeURaLW9pUXRENkxqdmhhb3pzM0lmOTZCTmVvcGM3ZDdpQ3ZiZk5leQ?oc=5",
+        "pool": "google",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "The 19 Most Innovative Skincare Products of the Year - Harper's BAZAAR",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSmNOT09ralZTLXpEZ0xuYXZqTHVOX3RaVXJlWlJqc3VzTV9GOXFnU3NOU1QyNUp6YnNuTTNUbDAzUVBhQUNRVEwwalNrdjB0ZzhwY3JRVEt2T3VjV3Z0YnprNmN6LUtOcVZ0YUx6dkpNU3dETktyMkRCWmlRLWsyRjFBOVlFcGE3?oc=5",
         "pool": "google",
         "date": "2026-09-16",
         "by_hand": false
@@ -743,6 +765,13 @@
         "title": "On-Device Privacy and Zero-Knowledge Storage in Mobile Applications: A Review with Attention to Cross-Platform React Native Development",
         "url": "https://doi.org/10.9734/jerr/2026/v28i92001",
         "pool": "institutions",
+        "date": "2026-09-15",
+        "by_hand": false
+      },
+      {
+        "title": "Hero’s Ju Rhyu Mainstreamed Pimple Patches. Can She Do It Again With K-Beauty-Inspired Sunscreen? - Beauty Independent",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQUZsazhJcC1GYU5menhiYmFiMS1NZWVwZGZUYlB0LWtQMFBOcUZNRGhWN3RlamVlbG5lUkxSV2JvM1hYS2NLam1qRmgxY3YxTWJfaXFHT3BNOU0tb2lkalNCM1VGSEFlX01VMGxmb0dya21ySHp6VlRLYjZ3a2UzYndNa0x2eW8?oc=5",
+        "pool": "google",
         "date": "2026-09-15",
         "by_hand": false
       },
@@ -803,7 +832,7 @@
         "by_hand": false
       },
       {
-        "title": "Prestige K-Beauty Retail: mixsoon Brings Its Korean Skincare Lines to Target Beauty Studio - trendhunter.com",
+        "title": "Prestige K-Beauty Retail: mixsoon Brings Its Korean Skincare Lines to Target Beauty Studio - Trend Hunter",
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5yd21ockxiN01RTlN0SGRoNWdlcFBFdkpab3JqdXRGUHRIS3NjS1VzR3VDWjhKRmJtaTN4MGlaS0NLUjlVbVRxZE5xY1lqU28yV0dVOTNLby03OUhKVWVuVlg3ZjBVMEkydXc?oc=5",
         "pool": "google",
         "date": "2026-09-09",
@@ -817,14 +846,7 @@
         "by_hand": false
       },
       {
-        "title": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5",
-        "pool": "google",
-        "date": "2026-09-08",
-        "by_hand": false
-      },
-      {
-        "title": "From medicine cabinet to makeup bag: Drugmakers turn medical research into skincare - Korea JoongAng Daily",
+        "title": "From medicine cabinet to makeup bag: Drugmakers turn medical research into skincare - koreajoongangdaily.com",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNDhGOE5GQWVncngtaGZBcVkzT0pGcjB4V3dHLUNMMjNoMGJVcjIzWDRjWDJGS3JWWjZ1N1dkN2dfSWpabktCMzd0bXEyNU9TYmtUMUk0VDZlVktNMjh6aER3cTZmdDFnWS1EN1RvOUJDMlNlY0huVlROa0tCUF9RMXNOaGZ5R0NvNEd0UWFjRVhsSmpXZ053WEpfN01zaUNOZExHMm5zLU5OckVKUEktMm5UUTBwT2VyV2dKZUJWNmUtT2xBSklwTHFwN1pzcXVj?oc=5",
         "pool": "google",
         "date": "2026-09-08",
@@ -852,15 +874,15 @@
         "by_hand": false
       },
       {
-        "title": "8 best ecommerce AI Website Builder for creating an online store - Hostinger",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBpU29tczMwM1pKaUdZYld0aThjYVRYWlE1c3k2VXc4RDBpUDdLOEx5bDg1OHljdURVUG5Xc25PWUxVZDY0RGl2OEFNM1ZYelFhN3FTVm1ySC1hRFk5amtVbkpudm9ZSFFCaEVQX1hleGRKWHV0d1NzSDhJdw?oc=5",
+        "title": "What makes K-beauty Korean? The answer is getting complicated. - koreajoongangdaily.com",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTHduVDgyX3Fsb1owRDBvLVd4bDEzQjZlZk1UcGY5aE5oS1NGR0VrVV9scXFNNG9xdGZTcUZQX3A0NEM4LUxJdUt6TWhORGxJVnE5NnM5VVdYWUthOXZWX2xNV0VoUTFsM3lVUl9MR3o5cHF1eXBjSl9feEtwYWtNY1A4RGNRZUItREFtRU8xZ0hzVmVhZ3Bwdmx3X3B6eVNkY3BPb3dGaThJaENSVEJGVWxn?oc=5",
         "pool": "google",
-        "date": "2026-09-04",
+        "date": "2026-09-03",
         "by_hand": false
       },
       {
-        "title": "What makes K-beauty Korean? The answer is getting complicated. - Korea JoongAng Daily",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTHduVDgyX3Fsb1owRDBvLVd4bDEzQjZlZk1UcGY5aE5oS1NGR0VrVV9scXFNNG9xdGZTcUZQX3A0NEM4LUxJdUt6TWhORGxJVnE5NnM5VVdYWUthOXZWX2xNV0VoUTFsM3lVUl9MR3o5cHF1eXBjSl9feEtwYWtNY1A4RGNRZUItREFtRU8xZ0hzVmVhZ3Bwdmx3X3B6eVNkY3BPb3dGaThJaENSVEJGVWxn?oc=5",
+        "title": "10 Best AI-Powered Analytics Tools for Ecommerce in 2026: Chat Interfaces, Autonomous Analysts and Vertical Tools Compared - Ask Luca",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1aYVpPVndBZV9leHQ1N2NObW9TbUNZTVEtT2prTFpocXB2N0ktVGRoSWs0dXdJa1Jid05lNGI0LU91UGN0R1ppYUo2Zm1JdGwxUVR2ZTBoUThfaTNkR2puLUFNdw?oc=5",
         "pool": "google",
         "date": "2026-09-03",
         "by_hand": false
@@ -873,13 +895,6 @@
         "by_hand": false
       },
       {
-        "title": "K-Beauty’s Best Masks Are Helping Skincare Fans Achieve a True Glass-Skin Glow in Minutes - Yahoo",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUTUzUEwwYzIteVlTcng5Zl9GT3hfTElLcWRGTGVXN09lT01icWhVamUwS1BlREI0YmJCTmdDaW9iRVlKQ0hVOGZ2TTFHY2RhdTFaS3UwelgtT3gxeXY3RnBrTE9RTXRySjFDa3BFWVdMSXo4bTRhdFA2QjB4T2EzNUZuRlBUVFJqQjhtS3RLTko5WGJBbmJseEh3?oc=5",
-        "pool": "google",
-        "date": "2026-09-02",
-        "by_hand": false
-      },
-      {
         "title": "Ecommerce Evolution: Shopify’s (SHOP) AI-Driven Approach to Retail Success - Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQnNfUW9Pdjhhc2ZBejlUV0lWYmZXRW9KeWxSbjJWLWltODYyQnZGTkpzRE9QOVNUamxuTzFSc1VhcktzWGhSVU5xRnI3QlBTS1c1a0lzTHdEUklzYUw0RDdzNFE0X2FUS3VoX1dWSkRuUDQ2Z0NabkJheVZRUXJOSXhsR0hOajNmYTQ4TUtLUHNWSzlTZTRuYlpmc0FtWXAy?oc=5",
         "pool": "google",
@@ -887,14 +902,14 @@
         "by_hand": false
       },
       {
-        "title": "Meet the K-beauty masks skincare lovers swear by for achieving a true glass skin finish - Sacramento Bee",
+        "title": "Meet the K-beauty masks skincare lovers swear by for achieving a true glass skin finish - sacbee.com",
         "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAzRUhWam1YWHZYXzlFQlVlMFcwRDBYX003QTZqSzM0WURnYnNudkZveEs3RHJCczBzSUpvMklOeXR3elA4ZVdIc2lDd2RNeEJLeE9RdGNEbVFrTjVhcnFPaUJSNEpNeXpWLWRpcGhQb0ozdU3SAXNBVV95cUxPV1Qwc05zNHBGQmhLclBFVzhrQjQ1bjBZWWFKa25fVllZRXRobkhXZGZpeUplUVFYTjJ4dEpBTDZ1TXVlc3FGT3FOOUl2VFBqdzhYcHRFeEtJV2ExN29TUTVQVVdVTmNwWW9YVHZHSkZ0TDZN?oc=5",
         "pool": "google",
         "date": "2026-08-31",
         "by_hand": false
       },
       {
-        "title": "Why imperfect beauty is becoming a planning signal for MUAs and brand buyers beyond 2026 - Miami Herald",
+        "title": "Why imperfect beauty is becoming a planning signal for MUAs and brand buyers beyond 2026 - miamiherald.com",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBxUk1UYUJPcXhnWjlFczJhckZRMjlLM0ZFX1hnclN5cjk0d1prbVNWNWZqVWFMX0M1N2VSY08tNzNteDE0NDNsdWN4SmpTUkpzSDVkMFFhdndkRVBXNGZWRjhuUXpqTWvSAWdBVV95cUxNM1p2Wmx6MVYta09USHF2UUU0MWthTlNwamRPQWUtV0FMbF94U1Zjc1RrN2pUZVg5djlwc2dyZk8zeV9PT0VrRVhUWEJlZmlMM2xHdUk3eUJNUFNkV1lRRFRuVUE5TFpZ?oc=5",
         "pool": "google",
         "date": "2026-08-31",
@@ -908,25 +923,27 @@
         "by_hand": false
       },
       {
-        "title": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - cnbc.com",
+        "title": "K-beauty giant APR's shares up 100% this year ahead of U.S. Costco launch in September - CNBC",
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1pdE5qU2I0OUVRX1ZkOFg1bTdkX0tndjJrVmV6SHk4WWVBT2FDMXBnMjI1SkRFVmR4V1ktMXZoY29NdG1XcWptblhmSW8zc25ZWUxpN1hVTkNZUXJGUTZYZHR2aEl4R211UVFnVU5vUVFyV1VKMldyUE12U1VFd9IBgwFBVV95cUxQXzNCdi0xNzQ1ejZ3RW5zNy03WkZZdFQ5MHhoYWxwMXZENXFzTUJTN0JBU0F2bjVDMHNBU1Q0VjhFMndFS0x4TVBVQVJwbVVsOXFkR2hRMlp0bFRpem5RMHhiWWhVU1hFUVNnNy1UTGt6ZVVUYjhOa2k4SDA0ZVEwQzJURQ?oc=5",
         "pool": "google",
         "date": "2026-08-30",
-        "by_hand": false
-      },
-      {
-        "title": "K-Beauty Is Everywhere Now: How Korean Skincare Became a Mainstream U.S. Beauty Staple - Yahoo",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxORVlkelhsZW1hTjVrc1hOX19HZVpnZl9tQ2pjUTZ4WEVWVXp2TWhTMHpWZDRHS2ZEZEVUVlhQeTVZY0Z0Vno3S29BYmNGSW1mclM3QXZKZ2tiSWRvSnFRZmRSQXNnQkthTkdkelRvaTY4WXlfVWM0TjVTWkxsY3kwbC1JZkw0M3ZXOThTSm5aWFZwQnlFWG5OZWw2ZTBJZw?oc=5",
-        "pool": "google",
-        "date": "2026-08-29",
         "by_hand": false
       }
     ],
     "listing": [
       {
+        "title": "Anua 성장 전략: 다각화 유통·번들 AOV·트렌드 성분·단순 랜딩",
+        "url": "",
+        "pool": "team_briefing",
+        "summary": "Anua는 연 매출 약 5억 달러 규모로 성장하면서 Meta 광고와 Shopify에만 의존하지 않고 SEO, Amazon, TikTok Shop, 오프라인 리테일을 결합했다. 단품 약 $20 대신 인기 제품을 묶은 약 $120 베스트셀러 세트와 사은품·한정 오퍼로 AOV와 전환율을 높인다. 아젤라익산·콜라겐 등 수요가 커지는 성분을 빠르게 포착하고 아젤라익산+시카, 콜라겐+레티놀처럼 복합 성분의 고유 메커니즘으로 차별화한다. 랜딩페이지는 고객 후기와 리뷰를 우선 노출하고 복잡한 설명·성분 정보는 캐러셀에 넣어 구매 흐름을 단순하게 유지한다.",
+        "date": "2026-09-19",
+        "by_hand": true
+      },
+      {
         "title": "How to use AI to beat big brands on Shopify ($0 to $1M)",
         "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
         "pool": "youtube_manual",
+        "summary": "Matt Clark - AI로 대형 브랜드 이기기. 큰 시장 속 불만족 집단을 리뷰로 찾기 / 가격 경쟁 대신 AI 보너스로 가치 올리기 / 카피 3입력(제품 사실·리뷰 원문 표현·Ad Library 예시) / 메타 단일 캠페인에 주 10~20개 광고 / 리스티클 랜딩",
         "date": "2026-09-15",
         "by_hand": true
       },
@@ -934,6 +951,7 @@
         "title": "Claude Copies $2m Shopify Store & Replaces Everything With My Brand (Full Course)",
         "url": "https://www.youtube.com/watch?v=dPPd65Kvh7Y",
         "pool": "youtube_manual",
+        "summary": "Ali Akbar - Claude 로 월매출 200만불 스토어를 통째로 복제하는 78분 강의. 방법은 참고, 복제 자체는 위험",
         "date": "2026-09-07",
         "by_hand": true
       },
@@ -941,6 +959,7 @@
         "title": "How to Use Claude to Safely Rebrand Your Shopify Store",
         "url": "https://www.youtube.com/watch?v=gugo50_VbjE",
         "pool": "youtube_manual",
+        "summary": "Claude 로 쇼피파이 리브랜딩",
         "date": "2026-09-06",
         "by_hand": true
       },
@@ -948,6 +967,7 @@
         "title": "Shopify Just Changed How You Sell (Spring 2026 Editions Explained)",
         "url": "https://www.youtube.com/watch?v=jUxSAGCaJIU",
         "pool": "youtube_manual",
+        "summary": "쇼피파이 2026 신기능",
         "date": "2026-09-06",
         "by_hand": true
       },
@@ -955,6 +975,7 @@
         "title": "쇼피파이 드랍쉬핑은 브랜딩이 답입니다. 진짜 잘 되는 스토어 5곳 까봤습니다",
         "url": "https://www.youtube.com/watch?v=IG0V7o6Z3ZE",
         "pool": "youtube_manual",
+        "summary": "G-ROAD - 쇼피파이 드랍쉬핑 스토어 5곳 해부. 브랜딩이 전환을 만든다는 논지",
         "date": "2026-09-06",
         "by_hand": true
       },
@@ -962,11 +983,12 @@
         "title": "The Psychology of Making People Buy",
         "url": "https://www.youtube.com/watch?v=k520NhbFhIE",
         "pool": "youtube_manual",
+        "summary": "The Futur 크리스 두 - 가격 경쟁을 벗어나는 포지셔닝. Liquid Death 등 5개 브랜드 해부",
         "date": "2026-09-06",
         "by_hand": true
       },
       {
-        "title": "Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - highschool.latimes.com",
+        "title": "Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - HS Insider",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPc2g3NThETVhLa3FISG94RmRGSURCVlJ6aGNHUWZleXJHS0VfTUd0ZEZJUzduRVpjSGxTcGRKNlhKeXVCVHpMTmpFWjBPcHdzYkIyeG1lcHJXeVV6cHFPZXl5UFdnUkpRNDVRLXFjZTFtNmpmYThKdmVveTBTM0ZsN1lBNjJyRE9UVmZReGlaeG54Mko1ZDItRlFoUXZKc1BRcmwzSnR3RGVpTjRzbVVTcDI4dw?oc=5",
         "pool": "google",
         "date": "2026-09-17",
@@ -977,13 +999,6 @@
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1FVEpVbjd4NHpkSXRMLWMxUlZhanFySno3X2l3OGxrN3h0UmxVQ2dOcUEyd3NLZ21hSWdMekdkM3dVR0Q0aGtCbm9RYmc4Z1Zla1NRTWQ1MDJhUmvSAVdBVV95cUxNVGRpVXFONVRXV2tBeTh3Y1lmc0h0aWhucTJzR0JNa2lad3hVUUpVTm8tUWJLM0UzYXNtb1MtcWVSTUZjUk91aGwySU16UmNZUDdCczc3LWM?oc=5",
         "pool": "google",
         "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "Sim-to-Real Traffic Scene Understanding by Decoupling Semantics from Caption Generation with V-JEPA",
-        "url": "https://arxiv.org/abs/2609.18562",
-        "pool": "arxiv",
-        "date": "2026-09-16",
         "by_hand": false
       },
       {
@@ -1036,13 +1051,6 @@
         "by_hand": false
       },
       {
-        "title": "Best AI SEO Tools for Ecommerce in 2026 - Shopify",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE16bDVPVFB6bGd5Q3RRRmJFRW5kR0xLTG9lUDRLaDdjN1FOSE5va2FSWkZZcW84TWh5SDlxckwwSjBJRzdGTENXVUpQZnQ3ZjJSLXZacUYxaw?oc=5",
-        "pool": "google",
-        "date": "2025-10-08",
-        "by_hand": false
-      },
-      {
         "title": "Beauty of Joseon Relief Sun SPF50+",
         "url": "",
         "pool": "us_beauty",
@@ -1052,9 +1060,18 @@
     ],
     "pricing": [
       {
+        "title": "Anua 성장 전략: 다각화 유통·번들 AOV·트렌드 성분·단순 랜딩",
+        "url": "",
+        "pool": "team_briefing",
+        "summary": "Anua는 연 매출 약 5억 달러 규모로 성장하면서 Meta 광고와 Shopify에만 의존하지 않고 SEO, Amazon, TikTok Shop, 오프라인 리테일을 결합했다. 단품 약 $20 대신 인기 제품을 묶은 약 $120 베스트셀러 세트와 사은품·한정 오퍼로 AOV와 전환율을 높인다. 아젤라익산·콜라겐 등 수요가 커지는 성분을 빠르게 포착하고 아젤라익산+시카, 콜라겐+레티놀처럼 복합 성분의 고유 메커니즘으로 차별화한다. 랜딩페이지는 고객 후기와 리뷰를 우선 노출하고 복잡한 설명·성분 정보는 캐러셀에 넣어 구매 흐름을 단순하게 유지한다.",
+        "date": "2026-09-19",
+        "by_hand": true
+      },
+      {
         "title": "How to use AI to beat big brands on Shopify ($0 to $1M)",
         "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
         "pool": "youtube_manual",
+        "summary": "Matt Clark - AI로 대형 브랜드 이기기. 큰 시장 속 불만족 집단을 리뷰로 찾기 / 가격 경쟁 대신 AI 보너스로 가치 올리기 / 카피 3입력(제품 사실·리뷰 원문 표현·Ad Library 예시) / 메타 단일 캠페인에 주 10~20개 광고 / 리스티클 랜딩",
         "date": "2026-09-15",
         "by_hand": true
       },
@@ -1062,6 +1079,7 @@
         "title": "패션 비전공자가 25살에 창업해 100억 브랜드를 키워낸 '미친 실행력' | 스몰톡라운지 스퀘어129 남주미",
         "url": "https://www.youtube.com/watch?v=O4Z5KklVR5I",
         "pool": "youtube_manual",
+        "summary": "스퀘어129 남주미 - 역마진으로 초기 안착, 플랫폼 플레이, 일본 매출이 국내 추월",
         "date": "2026-09-06",
         "by_hand": true
       },
@@ -1108,13 +1126,6 @@
         "by_hand": false
       },
       {
-        "title": "Efficient Algorithms for Energy-Aware Single-Machine Scheduling with Battery Storage",
-        "url": "https://arxiv.org/abs/2609.11455",
-        "pool": "robotics",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
         "title": "Smoking and vaping trends among active-duty US Navy and Marine Corps personnel: results from the Annual Periodic Health Assessment, 2017-2021",
         "url": "https://doi.org/10.1093/ntr/ntag188",
         "pool": "institutions",
@@ -1140,13 +1151,6 @@
         "url": "https://doi.org/10.11113/intrest.v20n1.436",
         "pool": "institutions",
         "date": "2026-06-30",
-        "by_hand": false
-      },
-      {
-        "title": "7 Best Ecommerce Analytics Platforms for DTC Brands: Features, Pricing, and ROI Compared (2026) - Ask Luca",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9rZktSWEpid3RqbWs0cmc4Q0pULWZNdGh6cVpxZVdFOHVMOXB5N3dNT0dqN0NlWlNyOEtUWm0yeFZMLTF6LW53TzFJVVRCVkFQUHNycldlX2JzY0hLZElkOTVmZXpyTVE?oc=5",
-        "pool": "google",
-        "date": "2026-02-27",
         "by_hand": false
       },
       {
@@ -1187,15 +1191,43 @@
         "by_hand": false
       },
       {
-        "title": "Multi-View Mixture-of-Experts with Vision-Language Reranking for Cross-View Object Geo-Localization",
-        "url": "https://arxiv.org/abs/2609.18139",
+        "title": "SenseFuse: Label-Free Fusion of Image and Shape Encoders for Open-Vocabulary 3D Instance Segmentation",
+        "url": "https://doi.org/10.48550/arxiv.2609.20475",
         "pool": "arxiv",
-        "date": "2026-09-16",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "FreqCondNorm: Towards Cross-domain Predictive Maintenance through a Frequency-Conditioned Transformer Foundation Model",
+        "url": "https://doi.org/10.48550/arxiv.2609.20535",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "Cross-Architecture Foundation-Model Distillation for Edge Flood Segmentation",
+        "url": "https://doi.org/10.48550/arxiv.2609.20441",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "On-Demand Attention: Language Models Know When to Recall",
+        "url": "https://doi.org/10.48550/arxiv.2609.20734",
+        "pool": "arxiv",
+        "date": "2026-09-17",
         "by_hand": false
       },
       {
         "title": "Copy What Is Seen, Generate What Is Not: Training-Free Anomaly-Aware Video Restoration",
         "url": "https://arxiv.org/abs/2609.18836",
+        "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "EvoSherlock: Towards Agentic Lifelong Evolution for Unseen Long-Tailed Security-Critical Events in Videos",
+        "url": "https://doi.org/10.48550/arxiv.2609.19201",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
@@ -1556,41 +1588,22 @@
         "pool": "fda",
         "date": "2023-11-07",
         "by_hand": false
-      },
-      {
-        "title": "Artistry Youth Xtend Lifting Smoothing Foundation Shade Chiffon L2C1",
-        "url": "https://api.fda.gov/drug/label.json",
-        "pool": "fda",
-        "date": "2023-10-23",
-        "by_hand": false
-      },
-      {
-        "title": "H.E.B. Solutions Sunscreen",
-        "url": "https://api.fda.gov/drug/label.json",
-        "pool": "fda",
-        "date": "2021-07-09",
-        "by_hand": false
-      },
-      {
-        "title": "Self Reflect Probiotic Moisturizing Sunscreen SPF 32",
-        "url": "https://www.lovekinship.com/",
-        "pool": "organic_skincare",
-        "date": "",
-        "by_hand": false
-      },
-      {
-        "title": "Super Serum Skin Tint SPF 40",
-        "url": "https://www.iliabeauty.com/",
-        "pool": "organic_skincare",
-        "date": "",
-        "by_hand": false
       }
     ],
     "design": [
       {
+        "title": "Anua 성장 전략: 다각화 유통·번들 AOV·트렌드 성분·단순 랜딩",
+        "url": "",
+        "pool": "team_briefing",
+        "summary": "Anua는 연 매출 약 5억 달러 규모로 성장하면서 Meta 광고와 Shopify에만 의존하지 않고 SEO, Amazon, TikTok Shop, 오프라인 리테일을 결합했다. 단품 약 $20 대신 인기 제품을 묶은 약 $120 베스트셀러 세트와 사은품·한정 오퍼로 AOV와 전환율을 높인다. 아젤라익산·콜라겐 등 수요가 커지는 성분을 빠르게 포착하고 아젤라익산+시카, 콜라겐+레티놀처럼 복합 성분의 고유 메커니즘으로 차별화한다. 랜딩페이지는 고객 후기와 리뷰를 우선 노출하고 복잡한 설명·성분 정보는 캐러셀에 넣어 구매 흐름을 단순하게 유지한다.",
+        "date": "2026-09-19",
+        "by_hand": true
+      },
+      {
         "title": "How to use AI to beat big brands on Shopify ($0 to $1M)",
         "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
         "pool": "youtube_manual",
+        "summary": "Matt Clark - AI로 대형 브랜드 이기기. 큰 시장 속 불만족 집단을 리뷰로 찾기 / 가격 경쟁 대신 AI 보너스로 가치 올리기 / 카피 3입력(제품 사실·리뷰 원문 표현·Ad Library 예시) / 메타 단일 캠페인에 주 10~20개 광고 / 리스티클 랜딩",
         "date": "2026-09-15",
         "by_hand": true
       },
@@ -1598,6 +1611,7 @@
         "title": "기업들이 사활 걸고 자기 폰트 만드는 이유｜크랩",
         "url": "https://www.youtube.com/watch?v=F4Jm1TFv0I0",
         "pool": "youtube_manual",
+        "summary": "KBS 크랩 - 기업 전용 폰트를 만드는 이유. 라이선스 자체 해결이 핵심. AI 학습 금지 표기 있음",
         "date": "2026-09-07",
         "by_hand": true
       },
@@ -1605,6 +1619,7 @@
         "title": "Claude Copies $2m Shopify Store & Replaces Everything With My Brand (Full Course)",
         "url": "https://www.youtube.com/watch?v=dPPd65Kvh7Y",
         "pool": "youtube_manual",
+        "summary": "Ali Akbar - Claude 로 월매출 200만불 스토어를 통째로 복제하는 78분 강의. 방법은 참고, 복제 자체는 위험",
         "date": "2026-09-07",
         "by_hand": true
       },
@@ -1612,6 +1627,7 @@
         "title": "요즘 클로드 디자인에 미쳐있는 이유 #티안나는AI디자인 #designsystems #ClaudeDesign",
         "url": "https://www.youtube.com/watch?v=9RUcYdww138",
         "pool": "youtube_manual",
+        "summary": "IDEAiPlus - 화면을 고치지 말고 디자인 규칙을 먼저 정하라. 컬러·타이포·버튼·여백·모서리",
         "date": "2026-09-07",
         "by_hand": true
       },
@@ -1619,6 +1635,7 @@
         "title": "쇼피파이 드랍쉬핑은 브랜딩이 답입니다. 진짜 잘 되는 스토어 5곳 까봤습니다",
         "url": "https://www.youtube.com/watch?v=IG0V7o6Z3ZE",
         "pool": "youtube_manual",
+        "summary": "G-ROAD - 쇼피파이 드랍쉬핑 스토어 5곳 해부. 브랜딩이 전환을 만든다는 논지",
         "date": "2026-09-06",
         "by_hand": true
       },
@@ -1626,6 +1643,7 @@
         "title": "The Psychology of Making People Buy",
         "url": "https://www.youtube.com/watch?v=k520NhbFhIE",
         "pool": "youtube_manual",
+        "summary": "The Futur 크리스 두 - 가격 경쟁을 벗어나는 포지셔닝. Liquid Death 등 5개 브랜드 해부",
         "date": "2026-09-06",
         "by_hand": true
       },
@@ -1633,6 +1651,7 @@
         "title": "100 Product Command Prompts to Boost Productivity (ChatGPT & Google Flow)",
         "url": "https://www.youtube.com/watch?v=uTr2yXMeL9w",
         "pool": "youtube_manual",
+        "summary": "Desire - 제품 사진을 광고 컷으로 바꾸는 프롬프트 100개. ChatGPT + Google Flow + Nano Banana 2",
         "date": "2026-09-06",
         "by_hand": true
       },
@@ -1640,6 +1659,7 @@
         "title": "I Built The Ultimate Claude Website Design Skill (steal this)",
         "url": "https://www.youtube.com/watch?v=QUI6Ug4cHnE",
         "pool": "youtube_manual",
+        "summary": "Nate Herk - Scrollcraft. 랜딩페이지를 스크롤 연출 사이트로 바꾸는 Claude Code 스킬",
         "date": "2026-09-06",
         "by_hand": true
       },
@@ -1647,11 +1667,12 @@
         "title": "구글이 무료로 뿌리는 디자인AI '스티치' 요약정리",
         "url": "https://www.youtube.com/watch?v=SihnYUTfxR8",
         "pool": "youtube_manual",
+        "summary": "찍봇 - 구글 Stitch 무료 디자인 AI 정리. 화면 시안을 코드 없이 뽑는 도구",
         "date": "2026-09-06",
         "by_hand": true
       },
       {
-        "title": "This UI/UX Redesign Will Teach You More Than 200 Tutorials Combined",
+        "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
         "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
         "pool": "youtube_channel",
         "date": "",
@@ -1798,7 +1819,7 @@
         "by_hand": true
       },
       {
-        "title": "브랜딩 감각을 키우고 싶다면👀 | 사업부터 브랜딩까지 분야별 필독서 추천",
+        "title": "책은 가장 가성비 좋은 인풋입니다 📚  | 브랜드 대표가 직접 고른 브랜딩 필독서",
         "url": "https://www.youtube.com/watch?v=hikTGKo2kZE",
         "pool": "youtube_channel",
         "date": "",
@@ -1882,6 +1903,90 @@
         "by_hand": false
       },
       {
+        "title": "Socialized UAV Cross-Task Learning: Towards Cross-Granularity Collaboration through Hierarchical Interaction",
+        "url": "https://doi.org/10.48550/arxiv.2609.19867",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "Towards Active Cross-View Object Geo-Localization",
+        "url": "https://doi.org/10.48550/arxiv.2609.19662",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "Region-Level Policy Optimization for Fine-grained MLLM Perception",
+        "url": "https://doi.org/10.48550/arxiv.2609.19745",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "AgriScope: Pixel-Grounded Multimodal Understanding for Agricultural Images",
+        "url": "https://doi.org/10.48550/arxiv.2609.20325",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "PointEvent: Rethinking Event-based Tiny Object Detection via Serialized Motion Evidence Accumulation",
+        "url": "https://doi.org/10.48550/arxiv.2609.20066",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "EmbodiedMind: Adaptive Data Curation and Prefix-Tree Reinforcement Learning for Efficient Embodied Intelligence",
+        "url": "https://doi.org/10.48550/arxiv.2609.19659",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "Instance Segmentation and Fine-grained Classification for Urban Buildings with Adaptive Region Dividing and Spatially-Supervised Contrastive Learning",
+        "url": "https://doi.org/10.48550/arxiv.2609.19631",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "MiX: Micro-Inverted-Scaling for End-to-End Low-Bit Vision-Language Model Acceleration",
+        "url": "https://doi.org/10.48550/arxiv.2609.19683",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "Beyond the Foreground: FOV-Aware Polyp Image Synthesis via Lesion-Guided Adaptive Mucosal Context Propagation",
+        "url": "https://doi.org/10.48550/arxiv.2609.19966",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "A Dual-Stream Regulated Reconstruction and Segmentation Network with Hierarchical Artifact-Prior Modeling for Ultra-Low-Field Pediatric Neuroimaging",
+        "url": "https://doi.org/10.48550/arxiv.2609.20562",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "On-Demand Attention: Language Models Know When to Recall",
+        "url": "https://doi.org/10.48550/arxiv.2609.20734",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "FLARE: an open-source data workflow orchestration tool",
+        "url": "https://doi.org/10.48550/arxiv.2609.19809",
+        "pool": "robotics",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
         "title": "How Cooley is accelerating IPO work with ChatGPT",
         "url": "https://openai.com/index/cooley-gopublic",
         "pool": "institutions",
@@ -1903,7 +2008,7 @@
         "by_hand": false
       },
       {
-        "title": "Consider This Your Ultimate K-Beauty Shopping List - SheerLuxe",
+        "title": "Consider This Your Ultimate K-Beauty Shopping List - sheerluxe.com",
         "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObTUzLUttQ3RtcmstRTRwc3pKcy0zdkVzamxaVFJVSkZvenNyVm84N2xVZUNOWHl1SUtsUFpsaVNnNEc4VmNTOXdtMjFkQlUzMlU4NElMc1pLMUlDZ05iejBGSjg3UWd4UDBhOUJ0WEFIM1RKYU1OcDBobGtIN1hNdzE2ME1BUQ?oc=5",
         "pool": "google",
         "date": "2026-09-17",
@@ -1914,97 +2019,6 @@
         "url": "https://shopify.dev/changelog/request-a-bundle-size-exception-for-existing-ui-extensions",
         "pool": "design_refs",
         "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "Adding a canceled receive action to the inventory shipments API",
-        "url": "https://shopify.dev/changelog/adding-a-canceled-receive-action-to-the-inventory-shipments-api",
-        "pool": "design_refs",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "Removed session.currentSession.staffMemberId from POS UI Extensions (2026-10)",
-        "url": "https://shopify.dev/changelog/removed-session-currentsession-staffmemberid-from-pos-ui-extensions-2026-10",
-        "pool": "design_refs",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "Query market hierarchies with the GraphQL Admin API",
-        "url": "https://shopify.dev/changelog/market-relationships",
-        "pool": "design_refs",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "New Pricing audit trail for contextual product variant prices",
-        "url": "https://shopify.dev/changelog/pricing-audit-trail-for-contextual-product-variant-prices",
-        "pool": "design_refs",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "From Pixels to Semantics: Edge AI for UAV-Based Critical Infrastructure Inspection",
-        "url": "https://arxiv.org/abs/2609.18448",
-        "pool": "arxiv",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "QMSR: Query-Conditioned Mask-wise Expert Routing for Robust Open-Vocabulary Underwater Object Retrieval",
-        "url": "https://arxiv.org/abs/2609.18752",
-        "pool": "arxiv",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Risk-Aware World Modeling with Flow-Guided Occupancy Evolution for Selective Trajectory Planning in Automated Driving",
-        "url": "https://arxiv.org/abs/2609.18442",
-        "pool": "arxiv",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "GroundingVLN: Reasoning and Acting with Grounding for Vision-Language Navigation",
-        "url": "https://arxiv.org/abs/2609.18581",
-        "pool": "arxiv",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "RayOrch: Programming and Executing Lineage-Controlled Multi-Grain Dataflows for Foundation-Model Data Preparation",
-        "url": "https://arxiv.org/abs/2609.18703",
-        "pool": "arxiv",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "SetPlanner: A Lightweight Plug-in Point-Set Planner for Frozen SAM",
-        "url": "https://arxiv.org/abs/2609.18037",
-        "pool": "arxiv",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "PDA++: Field-Aligned Planning and Scene-Adaptive Insertion in Remote Sensing",
-        "url": "https://doi.org/10.48550/arxiv.2609.18329",
-        "pool": "arxiv",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Understanding Dynamic Scenes at Gigapixel Scale: Wide-Area Spatio-Temporal Perception from UAVs",
-        "url": "https://arxiv.org/abs/2609.18210",
-        "pool": "arxiv",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Sim-to-Real Traffic Scene Understanding by Decoupling Semantics from Caption Generation with V-JEPA",
-        "url": "https://arxiv.org/abs/2609.18562",
-        "pool": "arxiv",
-        "date": "2026-09-16",
         "by_hand": false
       }
     ],
@@ -2049,6 +2063,48 @@
         "url": "https://www.therobotreport.com/icarus-robotics-flies-iss-bound-robot-in-microgravity-for-the-first-time/",
         "pool": "robotics",
         "date": "2026-09-18",
+        "by_hand": false
+      },
+      {
+        "title": "SenseFuse: Label-Free Fusion of Image and Shape Encoders for Open-Vocabulary 3D Instance Segmentation",
+        "url": "https://doi.org/10.48550/arxiv.2609.20475",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "Selective Cotton Boll Localization for Robotic Harvesting: Evaluation of Deep Learning Vision Models Under Field Conditions",
+        "url": "https://doi.org/10.48550/arxiv.2609.19592",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "Recovering Aggressively Pruned Vision-Language-Action Models with Offline Hidden-State Distillation",
+        "url": "https://doi.org/10.48550/arxiv.2609.19579",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "Co-VLA: Consensus-based Federated Training for Vision-Language-Action Models",
+        "url": "https://doi.org/10.48550/arxiv.2609.19923",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "FLARE: an open-source data workflow orchestration tool",
+        "url": "https://doi.org/10.48550/arxiv.2609.19809",
+        "pool": "robotics",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "VERA: Reinforcement Learning for Dynamic Memory Scaling of HPC Workloads in Kubernetes",
+        "url": "https://doi.org/10.48550/arxiv.2609.19936",
+        "pool": "robotics",
+        "date": "2026-09-17",
         "by_hand": false
       },
       {
@@ -2311,20 +2367,6 @@
         "by_hand": false
       },
       {
-        "title": "Efficient Algorithms for Energy-Aware Single-Machine Scheduling with Battery Storage",
-        "url": "https://arxiv.org/abs/2609.11455",
-        "pool": "robotics",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Memory Compression for High-Fanout Agent Sandboxes",
-        "url": "https://arxiv.org/abs/2609.11294",
-        "pool": "robotics",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
         "title": "Robots Are Learning to Feel",
         "url": "https://spectrum.ieee.org/tactile-data-robots",
         "pool": "robotics",
@@ -2374,6 +2416,13 @@
         "by_hand": false
       },
       {
+        "title": "10 Best AI-Powered Analytics Tools for Ecommerce in 2026: Chat Interfaces, Autonomous Analysts and Vertical Tools Compared - Ask Luca",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1aYVpPVndBZV9leHQ1N2NObW9TbUNZTVEtT2prTFpocXB2N0ktVGRoSWs0dXdJa1Jid05lNGI0LU91UGN0R1ppYUo2Zm1JdGwxUVR2ZTBoUThfaTNkR2puLUFNdw?oc=5",
+        "pool": "google",
+        "date": "2026-09-03",
+        "by_hand": false
+      },
+      {
         "title": "Booz Allen Charts Autonomous AI Threats and Unveils New Counter AI Defense",
         "url": "https://investors.boozallen.com/news-releases/news-release-details/booz-allen-charts-autonomous-ai-threats-and-unveils-new-counter",
         "pool": "institutions",
@@ -2393,41 +2442,6 @@
         "pool": "institutions",
         "date": "2026-08-31",
         "by_hand": false
-      },
-      {
-        "title": "Video Friday: Meet Microduck",
-        "url": "https://spectrum.ieee.org/video-friday-microduck-robot",
-        "pool": "robotics",
-        "date": "2026-08-28",
-        "by_hand": false
-      },
-      {
-        "title": "AI Companion Robots Are Closing the Human Connection in Modern Homes",
-        "url": "https://spectrum.ieee.org/ollobot-ai-companion-robot",
-        "pool": "robotics",
-        "date": "2026-08-25",
-        "by_hand": false
-      },
-      {
-        "title": "Why Your Website Should Never Stop Changing",
-        "url": "https://smashingmagazine.com/2026/08/why-website-should-never-stop-changing/",
-        "pool": "design_refs",
-        "date": "2026-08-25",
-        "by_hand": false
-      },
-      {
-        "title": "Video Friday: Do We Need Superhuman Humanoid Robots?",
-        "url": "https://spectrum.ieee.org/video-friday-unitree-superhuman",
-        "pool": "robotics",
-        "date": "2026-08-21",
-        "by_hand": false
-      },
-      {
-        "title": "Grounding Robot Generalization in Training Data via Retrieval-Augmented VLMs",
-        "url": "https://doi.org/10.1109/lra.2026.3726331",
-        "pool": "institutions",
-        "date": "2026-08-21",
-        "by_hand": false
       }
     ],
     "knowledge": [
@@ -2435,6 +2449,7 @@
         "title": "천재들은 \"어떻게\" 이미지로 요약하는 걸까?",
         "url": "https://www.youtube.com/watch?v=ehmoVENJEB0",
         "pool": "youtube_manual",
+        "summary": "언어의 정원 - 이미지로 요약하는 법(스키마·마인드맵). 학습법이라 사업팀 아님",
         "date": "2026-09-06",
         "by_hand": true
       },
@@ -2442,6 +2457,7 @@
         "title": "유대인들이 지금 돈 쓸어모으고 있는 사기급 스킬",
         "url": "https://www.youtube.com/watch?v=CVEe0HAd--I",
         "pool": "youtube_manual",
+        "summary": "머니스웨거 - 유대인 투자자 전략. 설명란이 비어 있어 내용 미확인. 투자 이야기라 사업 팀 아님",
         "date": "2026-09-06",
         "by_hand": true
       },
@@ -2449,6 +2465,7 @@
         "title": "정부가 1.6조 들인 AI 학습데이터 977개, 쓸 만한 것만 골라 받아봤습니다 | AI허브 무료",
         "url": "https://www.youtube.com/watch?v=dNUXhId7XfE",
         "pool": "youtube_manual",
+        "summary": "방구석컴퍼니 - AI허브 977개 전수 실측. 한국어 데이터 확보 경로와 이용조건",
         "date": "2026-09-06",
         "by_hand": true
       },
@@ -2502,6 +2519,209 @@
         "by_hand": false
       },
       {
+        "title": "SenseFuse: Label-Free Fusion of Image and Shape Encoders for Open-Vocabulary 3D Instance Segmentation",
+        "url": "https://doi.org/10.48550/arxiv.2609.20475",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "Selective Cotton Boll Localization for Robotic Harvesting: Evaluation of Deep Learning Vision Models Under Field Conditions",
+        "url": "https://doi.org/10.48550/arxiv.2609.19592",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "Socialized UAV Cross-Task Learning: Towards Cross-Granularity Collaboration through Hierarchical Interaction",
+        "url": "https://doi.org/10.48550/arxiv.2609.19867",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "Recovering Aggressively Pruned Vision-Language-Action Models with Offline Hidden-State Distillation",
+        "url": "https://doi.org/10.48550/arxiv.2609.19579",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "Towards Active Cross-View Object Geo-Localization",
+        "url": "https://doi.org/10.48550/arxiv.2609.19662",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "A Multi-Modal Generative Model for Tomato Disease Leaves Understanding",
+        "url": "https://doi.org/10.48550/arxiv.2609.19555",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "Co-VLA: Consensus-based Federated Training for Vision-Language-Action Models",
+        "url": "https://doi.org/10.48550/arxiv.2609.19923",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "Region-Level Policy Optimization for Fine-grained MLLM Perception",
+        "url": "https://doi.org/10.48550/arxiv.2609.19745",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "FreqCondNorm: Towards Cross-domain Predictive Maintenance through a Frequency-Conditioned Transformer Foundation Model",
+        "url": "https://doi.org/10.48550/arxiv.2609.20535",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "Cross-Architecture Foundation-Model Distillation for Edge Flood Segmentation",
+        "url": "https://doi.org/10.48550/arxiv.2609.20441",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "AgriScope: Pixel-Grounded Multimodal Understanding for Agricultural Images",
+        "url": "https://doi.org/10.48550/arxiv.2609.20325",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "G^2RA-NET: Graph-based Cross-Slice Relation Modeling with Attention Gating for Medical Image Segmentation",
+        "url": "https://doi.org/10.48550/arxiv.2609.20088",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "PerSeM: Persistent Semantic Memory for Long-Horizon Open-Vocabulary UAV Mapping",
+        "url": "https://doi.org/10.48550/arxiv.2609.19542",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "PointEvent: Rethinking Event-based Tiny Object Detection via Serialized Motion Evidence Accumulation",
+        "url": "https://doi.org/10.48550/arxiv.2609.20066",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "Dense Feature Representation over Sequence Modeling: A Solution to the KDD Cup 2026 UniRec Challenge",
+        "url": "https://doi.org/10.48550/arxiv.2609.19787",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "Training Neural Networks to Approach the Optimum Bayes Estimator in Dense Multi-Emitter Localization",
+        "url": "https://doi.org/10.48550/arxiv.2609.20465",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "EmbodiedMind: Adaptive Data Curation and Prefix-Tree Reinforcement Learning for Efficient Embodied Intelligence",
+        "url": "https://doi.org/10.48550/arxiv.2609.19659",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "PixelFlow: Token-Level Workload Management for Efficient Distributed DiT Serving",
+        "url": "https://doi.org/10.48550/arxiv.2609.20723",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "Instance Segmentation and Fine-grained Classification for Urban Buildings with Adaptive Region Dividing and Spatially-Supervised Contrastive Learning",
+        "url": "https://doi.org/10.48550/arxiv.2609.19631",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "QCPruner: Query-Conditioned Population Coverage for Visual Token Pruning",
+        "url": "https://doi.org/10.48550/arxiv.2609.19990",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "MiX: Micro-Inverted-Scaling for End-to-End Low-Bit Vision-Language Model Acceleration",
+        "url": "https://doi.org/10.48550/arxiv.2609.19683",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "Beyond the Foreground: FOV-Aware Polyp Image Synthesis via Lesion-Guided Adaptive Mucosal Context Propagation",
+        "url": "https://doi.org/10.48550/arxiv.2609.19966",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "Enhanced Knowledge Distillation for Detection Transformer via Teacher Prediction Refinement",
+        "url": "https://doi.org/10.48550/arxiv.2609.19964",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "A Dual-Stream Regulated Reconstruction and Segmentation Network with Hierarchical Artifact-Prior Modeling for Ultra-Low-Field Pediatric Neuroimaging",
+        "url": "https://doi.org/10.48550/arxiv.2609.20562",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "On-Demand Attention: Language Models Know When to Recall",
+        "url": "https://doi.org/10.48550/arxiv.2609.20734",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "Robust Multi-Task Learning for Principal Component Analysis",
+        "url": "https://doi.org/10.48550/arxiv.2609.20733",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "Local Sparsity Enables Unsupervised LLM Safety Detection",
+        "url": "https://doi.org/10.48550/arxiv.2609.20129",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "Semantic Layer Induction from Raw Telemetry via Hierarchical LLM and RAG Abstraction",
+        "url": "https://doi.org/10.48550/arxiv.2609.19615",
+        "pool": "arxiv",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
+        "title": "VERA: Reinforcement Learning for Dynamic Memory Scaling of HPC Workloads in Kubernetes",
+        "url": "https://doi.org/10.48550/arxiv.2609.19936",
+        "pool": "robotics",
+        "date": "2026-09-17",
+        "by_hand": false
+      },
+      {
         "title": "Database for AI Agents: 5 Evaluation Criteria",
         "url": "https://www.databricks.com/blog/database-for-ai-agents",
         "pool": "institutions",
@@ -2516,181 +2736,6 @@
         "by_hand": false
       },
       {
-        "title": "Generalist-Specialist Mixture-of-Experts for Rare Pathology Detection in Multimodal Imaging",
-        "url": "https://arxiv.org/abs/2609.18688",
-        "pool": "arxiv",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "VLA-ULAP: Interleaving Cloud VLA Calls with Ultra-Lightweight Local Action Prediction at the Edge",
-        "url": "https://arxiv.org/abs/2609.18663",
-        "pool": "arxiv",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "From Pixels to Semantics: Edge AI for UAV-Based Critical Infrastructure Inspection",
-        "url": "https://arxiv.org/abs/2609.18448",
-        "pool": "arxiv",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "QMSR: Query-Conditioned Mask-wise Expert Routing for Robust Open-Vocabulary Underwater Object Retrieval",
-        "url": "https://arxiv.org/abs/2609.18752",
-        "pool": "arxiv",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Risk-Aware World Modeling with Flow-Guided Occupancy Evolution for Selective Trajectory Planning in Automated Driving",
-        "url": "https://arxiv.org/abs/2609.18442",
-        "pool": "arxiv",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Technical Report: One-Step Drifting Action Heads for GR00T N1.7",
-        "url": "https://arxiv.org/abs/2609.18108",
-        "pool": "arxiv",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "GeoMesh: Workload-Balanced and Sign-Compressed Geo-Distributed LLM Training",
-        "url": "https://arxiv.org/abs/2609.18388",
-        "pool": "arxiv",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "GroundingVLN: Reasoning and Acting with Grounding for Vision-Language Navigation",
-        "url": "https://arxiv.org/abs/2609.18581",
-        "pool": "arxiv",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Colla-Q: Toward Collaborative Experts in MoE Quantization via Minimax Precision Balancing",
-        "url": "https://arxiv.org/abs/2609.18131",
-        "pool": "arxiv",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Evolving Error States: Failure-Aware Progressive Repair for Ultrasound Lesion Segmentation",
-        "url": "https://arxiv.org/abs/2609.18256",
-        "pool": "arxiv",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "The Other Half of the Memory Wall: Serving 35B MoEs from SSD with Trained Routing Prediction",
-        "url": "https://doi.org/10.48550/arxiv.2609.18063",
-        "pool": "arxiv",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "CERA-MoA: Co-Evolving Routing Mechanisms with Continually Learning LLM Agents",
-        "url": "https://arxiv.org/abs/2609.18779",
-        "pool": "arxiv",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Decoder-Agnostic Token Merging for Vision Transformers: A Systematic Study of G2TM",
-        "url": "https://arxiv.org/abs/2609.18279",
-        "pool": "arxiv",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "RayOrch: Programming and Executing Lineage-Controlled Multi-Grain Dataflows for Foundation-Model Data Preparation",
-        "url": "https://arxiv.org/abs/2609.18703",
-        "pool": "arxiv",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "SEAM: Submap-Anchored Evidence for Lifelong LiDAR Mapping under Trajectory Deformation",
-        "url": "https://arxiv.org/abs/2609.18819",
-        "pool": "arxiv",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "The Operable Pareto Front: Distilling Offline Search into Run-Time Control for Multi-Objective UAV Edge-Computing Scheduling",
-        "url": "https://arxiv.org/abs/2609.17992",
-        "pool": "arxiv",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "SetPlanner: A Lightweight Plug-in Point-Set Planner for Frozen SAM",
-        "url": "https://arxiv.org/abs/2609.18037",
-        "pool": "arxiv",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Mask 2D-3D: Adaptive Dual-Masked Autoencoder Network for Image-to-Point Cloud Registration",
-        "url": "https://arxiv.org/abs/2609.18088",
-        "pool": "arxiv",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "PDA++: Field-Aligned Planning and Scene-Adaptive Insertion in Remote Sensing",
-        "url": "https://doi.org/10.48550/arxiv.2609.18329",
-        "pool": "arxiv",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Unified Response Geometry for Structured Pruning",
-        "url": "https://arxiv.org/abs/2609.18239",
-        "pool": "arxiv",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Multi-View Mixture-of-Experts with Vision-Language Reranking for Cross-View Object Geo-Localization",
-        "url": "https://arxiv.org/abs/2609.18139",
-        "pool": "arxiv",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Understanding Dynamic Scenes at Gigapixel Scale: Wide-Area Spatio-Temporal Perception from UAVs",
-        "url": "https://arxiv.org/abs/2609.18210",
-        "pool": "arxiv",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "CoAtNet-DeepMoE: A Convolution-Attention Hybrid with DeepSeek Mixture-of-Experts for Parameter-Efficient Tomato Disease Classification",
-        "url": "https://arxiv.org/abs/2609.18038",
-        "pool": "arxiv",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Sim-to-Real Traffic Scene Understanding by Decoupling Semantics from Caption Generation with V-JEPA",
-        "url": "https://arxiv.org/abs/2609.18562",
-        "pool": "arxiv",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Stealthy in Semantics, Antagonistic in Space: Attacking Visible-Infrared Object Detectors via Object-Level Misalignment",
-        "url": "https://arxiv.org/abs/2609.18133",
-        "pool": "arxiv",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
         "title": "Anomaly Detection in General Ledger Data: Results from a Hybrid Approach",
         "url": "https://arxiv.org/abs/2609.18228",
         "pool": "arxiv",
@@ -2700,6 +2745,13 @@
       {
         "title": "Copy What Is Seen, Generate What Is Not: Training-Free Anomaly-Aware Video Restoration",
         "url": "https://arxiv.org/abs/2609.18836",
+        "pool": "arxiv",
+        "date": "2026-09-16",
+        "by_hand": false
+      },
+      {
+        "title": "EvoSherlock: Towards Agentic Lifelong Evolution for Unseen Long-Tailed Security-Critical Events in Videos",
+        "url": "https://doi.org/10.48550/arxiv.2609.19201",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
@@ -2810,43 +2862,8 @@
         "by_hand": false
       },
       {
-        "title": "Knowledge Distillation of a Normalising Flow for Real-Time Anomaly Detection at the CMS Level-1 Trigger",
+        "title": "Knowledge Distillation of a Normalising Flow for Real-Time Anomaly Detection at LHC Level-1 Trigger",
         "url": "https://doi.org/10.48550/arxiv.2609.15295",
-        "pool": "arxiv",
-        "date": "2026-09-14",
-        "by_hand": false
-      },
-      {
-        "title": "GSLAD: Prototype-Regularized Graph Structure Learning for Multivariate Time Series Anomaly Detection",
-        "url": "https://arxiv.org/abs/2609.15483",
-        "pool": "arxiv",
-        "date": "2026-09-14",
-        "by_hand": false
-      },
-      {
-        "title": "Multiscale Visibility Theory: A Task-Relative Operator-Geometric Framework for Observation, Robustness, and Detectability",
-        "url": "https://arxiv.org/abs/2609.15948",
-        "pool": "arxiv",
-        "date": "2026-09-14",
-        "by_hand": false
-      },
-      {
-        "title": "Knowledge Distillation of a Normalising Flow for Real-Time Anomaly Detection at the CMS Level-1 Trigger",
-        "url": "https://arxiv.org/abs/2609.15295",
-        "pool": "arxiv",
-        "date": "2026-09-14",
-        "by_hand": false
-      },
-      {
-        "title": "Robust Fault Detection in Mechanical Multimodal Time Series via Self-Supervised Cross-Modal Reconstruction",
-        "url": "https://arxiv.org/abs/2609.16314",
-        "pool": "arxiv",
-        "date": "2026-09-14",
-        "by_hand": false
-      },
-      {
-        "title": "GPEvac: GNN-Based PPO for Adaptive Evacuation Routing During Shooting Events",
-        "url": "https://arxiv.org/abs/2609.16163",
         "pool": "arxiv",
         "date": "2026-09-14",
         "by_hand": false
@@ -2872,6 +2889,20 @@
         "url": "https://www.goldmansachs.com/what-we-do/ayco/insights/summer-review-fall-preview-market-insights",
         "pool": "institutions",
         "date": "2026-09-19",
+        "by_hand": false
+      },
+      {
+        "title": "Beyond direct AI exposure: Measuring network-mediated labor risk through multilayer occupational networks",
+        "url": "https://doi.org/10.21203/rs.3.rs-10965551/v1",
+        "pool": "institutions",
+        "date": "2026-09-19",
+        "by_hand": false
+      },
+      {
+        "title": "Introducing the Australian Youth Safety Blueprint",
+        "url": "https://openai.com/index/australian-youth-safety-blueprint",
+        "pool": "institutions",
+        "date": "2026-09-18",
         "by_hand": false
       },
       {
@@ -2905,6 +2936,27 @@
       {
         "title": "Introducing Grok Voice Transcribe 2.0",
         "url": "https://x.ai/news/grok-voice-transcribe-2",
+        "pool": "institutions",
+        "date": "2026-09-18",
+        "by_hand": false
+      },
+      {
+        "title": "Consumer Agents Signal New Phase For Ai Growth",
+        "url": "https://www.goldmansachs.com/insights/articles/consumer-agents-signal-new-phase-for-ai-growth",
+        "pool": "institutions",
+        "date": "2026-09-18",
+        "by_hand": false
+      },
+      {
+        "title": "Rich Friedman On The Rise Of Private Markets And Ai Investing",
+        "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/rich-friedman-on-the-rise-of-private-markets-and-ai-investing",
+        "pool": "institutions",
+        "date": "2026-09-18",
+        "by_hand": false
+      },
+      {
+        "title": "The Opportunities For Investors Amid Higher For Longer Interest Rates",
+        "url": "https://www.goldmansachs.com/insights/the-markets/the-opportunities-for-investors-amid-higher-for-longer-interest-rates",
         "pool": "institutions",
         "date": "2026-09-18",
         "by_hand": false
@@ -2945,22 +2997,15 @@
         "by_hand": false
       },
       {
-        "title": "Rich Friedman On The Rise Of Private Markets And Ai Investing",
-        "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/rich-friedman-on-the-rise-of-private-markets-and-ai-investing",
+        "title": "Insights From The Inside",
+        "url": "https://www.jpmorgan.com/insights/markets-and-economy/insights-from-the-inside",
         "pool": "institutions",
         "date": "2026-09-18",
         "by_hand": false
       },
       {
-        "title": "Consumer Agents Signal New Phase For Ai Growth",
-        "url": "https://www.goldmansachs.com/insights/articles/consumer-agents-signal-new-phase-for-ai-growth",
-        "pool": "institutions",
-        "date": "2026-09-18",
-        "by_hand": false
-      },
-      {
-        "title": "The Opportunities For Investors Amid Higher For Longer Interest Rates",
-        "url": "https://www.goldmansachs.com/insights/the-markets/the-opportunities-for-investors-amid-higher-for-longer-interest-rates",
+        "title": "Rising Interest Rates Effect On Commercial Real Estate",
+        "url": "https://www.jpmorgan.com/insights/real-estate/commercial-real-estate/rising-interest-rates-effect-on-commercial-real-estate",
         "pool": "institutions",
         "date": "2026-09-18",
         "by_hand": false
@@ -2989,6 +3034,20 @@
       {
         "title": "Microfluidic-Based Real-Time PCR Platform for Rapid Multiplex Detection of Respiratory Viruses",
         "url": "https://doi.org/10.1007/s13206-026-00278-7",
+        "pool": "institutions",
+        "date": "2026-09-18",
+        "by_hand": false
+      },
+      {
+        "title": "Closure Scales and a Route to Geometrical Unification: Intrinsic Closure to Relational and Observable Physics",
+        "url": "https://doi.org/10.5281/zenodo.22831823",
+        "pool": "institutions",
+        "date": "2026-09-18",
+        "by_hand": false
+      },
+      {
+        "title": "Closure Scales and a Route to Geometrical Unification: Intrinsic Closure to Relational and Observable Physics",
+        "url": "https://doi.org/10.5281/zenodo.22831822",
         "pool": "institutions",
         "date": "2026-09-18",
         "by_hand": false
@@ -3227,48 +3286,6 @@
       {
         "title": "[Interview] The People Behind the Galaxy Z Series’ Camera Innovations ②: How Portrait Video Recreates the Look of Professional Camera Lenses",
         "url": "https://news.samsung.com/global/interview-the-people-behind-the-galaxy-z-series-camera-innovations-%e2%91%a1-how-portrait-video-recreates-the-look-of-professional-camera-lenses",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "No plans have been confirmed regarding the reported talks between SK hynix and Intel on memory chip production in the U.S.",
-        "url": "https://news.skhynix.com/en/fact-10/",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "\"Regex for Rows\": Simplifying Pattern Detection in SQL with MATCH_RECOGNIZE",
-        "url": "https://www.databricks.com/blog/regex-rows-simplifying-pattern-detection-sql-matchrecognize",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Memory in Grok Build",
-        "url": "https://x.ai/news/grok-build-memory",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Why Global Bond Yields Are Surging",
-        "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/why-global-bond-yields-are-surging",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Asia Pacific Market Outlook",
-        "url": "https://www.jpmorgan.com/insights/banking/asia-pacific-market-outlook",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Navigating Credit Markets In 2026",
-        "url": "https://www.jpmorgan.com/insights/podcast-hub/making-sense/navigating-credit-markets-in-2026",
         "pool": "institutions",
         "date": "2026-09-16",
         "by_hand": false
