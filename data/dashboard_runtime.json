@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T07:21:15.998577+09:00",
+  "generated_at": "2026-09-20T07:28:43.572186+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
@@ -30,7 +30,7 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-09-20T07:19:48.104635+09:00",
+      "when": "2026-09-20T07:27:29.516543+09:00",
       "summary": "S등급 10개 · 고시 판독 남음 2건 · 새 자료 36건",
       "action": "고시 표 2건 판독 남음 (상세 이미지는 받았으나 비전 할당량 소진(429)으로 판독 대기) — 1072554 [탄력리프팅]본셉 레티놀 탄력샷  https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072554 / 1053482 메디필 엑스트라 슈퍼 9 플러스  https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1053482",
       "status": "ok",
@@ -126,7 +126,7 @@
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-09-20T07:21:11.100424+09:00",
+      "when": "2026-09-20T07:27:31.093279+09:00",
       "summary": "81,926노트 · 330,219링크 · 끊어진 링크 0건 · 개인 노트 16건 별도",
       "action": null,
       "status": "ok",
@@ -140,7 +140,7 @@
     "id": "secretary",
     "name": "비서실장",
     "badge": "총괄",
-    "when": "2026-09-20T07:11:21.545991+09:00",
+    "when": "2026-09-20T07:27:29.495127+09:00",
     "summary": "30분 주기 · 고시 25건 · US라벨 25건 · 카피 10건 · 등록 가능 8건 · 법률 차단 2건",
     "action": "갱신 지연 고시 수집, 리스팅 카피 — 2시간 넘게 변경 없음(실패로 단정하지 않음)",
     "status": "warning",
@@ -149,37 +149,37 @@
         "단계": "고시 수집",
         "산출물": "gosi.json",
         "갱신": "2026-09-13T07:50:40.431569+00:00",
-        "몇시간전": 158.5
+        "몇시간전": 158.6
       },
       {
         "단계": "고시 비전 추출",
         "산출물": "gosi.json",
-        "갱신": "2026-09-20T07:11:21.545991+09:00",
-        "몇시간전": 0.2
+        "갱신": "2026-09-20T07:27:29.495127+09:00",
+        "몇시간전": 0.0
       },
       {
         "단계": "US 라벨 동기화",
         "산출물": "daiso_us_labels.json",
-        "갱신": "2026-09-20T07:11:21.160984+09:00",
-        "몇시간전": 0.2
+        "갱신": "2026-09-20T07:27:28.855150+09:00",
+        "몇시간전": 0.0
       },
       {
         "단계": "리스팅 카피",
         "산출물": "shopify_listing_copy.json",
         "갱신": "2026-09-19T06:20:18.772438+00:00",
-        "몇시간전": 16.0
+        "몇시간전": 16.1
       },
       {
         "단계": "등록 게이트",
         "산출물": "listing_gate.json",
         "갱신": "2026-09-19T22:19:45.675823+00:00",
-        "몇시간전": 0.0
+        "몇시간전": 0.1
       },
       {
         "단계": "법률 점검",
         "산출물": "legal_products.json",
         "갱신": "2026-09-19T22:19:43.561952+00:00",
-        "몇시간전": 0.0
+        "몇시간전": 0.2
       }
     ],
     "_근거": "chief_of_staff.yml 이 30분마다 부르는 스크립트들의 산출물 갱신 시각을 읽는다. 돌았다는 말이 아니라 결과가 바뀌었는지를 본다. chief_of_staff.py 파일은 어느 워크플로도 부르지 않는 고아라서 근거로 쓰지 않는다."
@@ -436,7 +436,7 @@
     "status": "completed",
     "record_count": 3928,
     "source_counts": {},
-    "updated_at": "2026-09-20T07:15:07.111161+09:00"
+    "updated_at": "2026-09-20T07:27:29.509127+09:00"
   },
   "graph": {
     "notes": 81926,
@@ -450,7 +450,7 @@
     "topics": 28,
     "orgs": 35,
     "audit": "passed",
-    "last_generated": "2026-09-20T07:21:11.100424+09:00"
+    "last_generated": "2026-09-20T07:27:31.093279+09:00"
   },
   "training": {
     "status": "completed",
@@ -494,15 +494,15 @@
   "global_channels": {
     "amazon_best_sellers": [
       {
-        "product": "eos Shea Better Body Lotion- Vanilla Cashmere, 24-Hour Moisture, 16 fl oz",
+        "product": "eos Shea Better Body Lotion- Vanilla Cashmere, 24-Hour Moisture, 16 fl oz | Natural Shea Butter & Oil, Whipped Vanilla & Caramel, Lasting Hydration, 100% Vegan & Cruelty-Free, Apply to Dry Skin",
         "brand": "",
         "sub": "",
         "badge": "$9.97",
         "price": 9.97,
         "rating": 4.7,
-        "review_count": 78253,
+        "review_count": 78304,
         "rank": 1,
-        "url": "https://www.amazon.com/eos-Cashmere-Moisture-Lightweight-Non-Greasy/dp/B08KT2Z93D/ref=zg_bs_g_beauty_d_sccl_1/143-9251795-4666938",
+        "url": "https://www.amazon.com/eos-Cashmere-Moisture-Lightweight-Non-Greasy/dp/B08KT2Z93D/ref=zg_bs_g_beauty_d_sccl_1/143-2614022-7375720",
         "extraction_method": "catalog_file"
       },
       {
@@ -512,9 +512,9 @@
         "badge": "$18.90",
         "price": 18.9,
         "rating": 4.6,
-        "review_count": 32315,
+        "review_count": 32453,
         "rank": 2,
-        "url": "https://www.amazon.com/Medicube-Zero-Pore-Pads-Dual-Textured/dp/B09V7Z4TJG/ref=zg_bs_g_beauty_d_sccl_2/143-9251795-4666938",
+        "url": "https://www.amazon.com/Medicube-Zero-Pore-Pads-Dual-Textured/dp/B09V7Z4TJG/ref=zg_bs_g_beauty_d_sccl_2/143-2614022-7375720",
         "extraction_method": "catalog_file"
       },
       {
@@ -524,9 +524,9 @@
         "badge": "$17.95",
         "price": 17.95,
         "rating": 4.8,
-        "review_count": 43082,
+        "review_count": 43106,
         "rank": 3,
-        "url": "https://www.amazon.com/Clean-Skin-Club-Disposable-Sensitive/dp/B07PBXXNCY/ref=zg_bs_g_beauty_d_sccl_3/143-9251795-4666938",
+        "url": "https://www.amazon.com/Clean-Skin-Club-Disposable-Sensitive/dp/B07PBXXNCY/ref=zg_bs_g_beauty_d_sccl_3/143-2614022-7375720",
         "extraction_method": "catalog_file"
       },
       {
@@ -536,9 +536,9 @@
         "badge": "$12.99",
         "price": 12.99,
         "rating": 4.6,
-        "review_count": 185188,
+        "review_count": 185216,
         "rank": 4,
-        "url": "https://www.amazon.com/Mighty-Patch-Hydrocolloid-Absorbing-count/dp/B074PVTPBW/ref=zg_bs_g_beauty_d_sccl_4/143-9251795-4666938",
+        "url": "https://www.amazon.com/Mighty-Patch-Hydrocolloid-Absorbing-count/dp/B074PVTPBW/ref=zg_bs_g_beauty_d_sccl_4/143-2614022-7375720",
         "extraction_method": "catalog_file"
       },
       {
@@ -548,117 +548,9 @@
         "badge": "$2.67",
         "price": 2.67,
         "rating": 4.7,
-        "review_count": 73685,
+        "review_count": 73800,
         "rank": 5,
-        "url": "https://www.amazon.com/Amazon-Basics-Cotton-Swabs-500ct/dp/B09541P9WH/ref=zg_bs_g_beauty_d_sccl_5/143-9251795-4666938",
-        "extraction_method": "catalog_file"
-      },
-      {
-        "product": "Amazon Essentials 100% Cotton Rounds, 100 Count (Previously Amazon Basics)",
-        "brand": "",
-        "sub": "",
-        "badge": "$2.96",
-        "price": 2.96,
-        "rating": 4.7,
-        "review_count": 54088,
-        "rank": 6,
-        "url": "https://www.amazon.com/Amazon-Basics-Cotton-Rounds-Count/dp/B09542G9ZN/ref=zg_bs_g_beauty_d_sccl_6/143-9251795-4666938",
-        "extraction_method": "catalog_file"
-      },
-      {
-        "product": "Neutrogena Makeup Remover Micellar Wipes, 2 Pack of 25 Ct | Plant-Based Micellar Water Cleansing Cloths, Gently Removes Oil, Dirt & Waterproof Makeup, No Heavy Residue, Alcohol-Free",
-        "brand": "",
-        "sub": "",
-        "badge": "$9.97",
-        "price": 9.97,
-        "rating": 4.8,
-        "review_count": 121757,
-        "rank": 7,
-        "url": "https://www.amazon.com/Neutrogena-Makeup-Remover-Micellar-Wipes/dp/B00U2VQZDS/ref=zg_bs_g_beauty_d_sccl_7/143-9251795-4666938",
-        "extraction_method": "catalog_file"
-      },
-      {
-        "product": "Maybelline Lash Sensational Sky High Washable Mascara Makeup, Volumizing, Lengthening, Defining, Curling, Multiplying, Buildable Formula, Blackest Black, 1 Count",
-        "brand": "",
-        "sub": "",
-        "badge": "$10.82",
-        "price": 10.82,
-        "rating": 4.5,
-        "review_count": 189214,
-        "rank": 8,
-        "url": "https://www.amazon.com/Maybelline-Volumizing-Buildable-Lengthening-Multiplying/dp/B08H3JPH74/ref=zg_bs_g_beauty_d_sccl_8/143-9251795-4666938",
-        "extraction_method": "catalog_file"
-      },
-      {
-        "product": "The Ordinary Glycolic Acid 7% Exfoliating Toner, Brightening and Smoothing Daily Toner for More Even-Looking Skin Tone",
-        "brand": "",
-        "sub": "",
-        "badge": "$13.50",
-        "price": 13.5,
-        "rating": 4.7,
-        "review_count": 64212,
-        "rank": 9,
-        "url": "https://www.amazon.com/Ordinary-Exfoliating-Brightening-Smoothing-Even-Looking/dp/B071914GGL/ref=zg_bs_g_beauty_d_sccl_9/143-9251795-4666938",
-        "extraction_method": "catalog_file"
-      },
-      {
-        "product": "BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Plumping, Travel Essentials & Self Care Gifts for Women, Korean Skin Care | 1.19oz(34g) x 4ea",
-        "brand": "",
-        "sub": "",
-        "badge": "$19.00",
-        "price": 19,
-        "rating": 4.5,
-        "review_count": 47867,
-        "rank": 10,
-        "url": "https://www.amazon.com/Biodance-Bio-Collagen-Tightening-Hydrating-Molecular/dp/B0B2RM68G2/ref=zg_bs_g_beauty_d_sccl_10/143-9251795-4666938",
-        "extraction_method": "catalog_file"
-      },
-      {
-        "product": "PanOxyl 10% Benzoyl Peroxide Acne Foaming Wash, Maximum Strength, Daily Acne-Fighting Face and Body Cleanser, Face Wash to Clear, Treat and Prevent Acne Pimples and Stubborn Breakouts, 5.5 Oz Tube",
-        "brand": "",
-        "sub": "",
-        "badge": "$10.19",
-        "price": 10.19,
-        "rating": 4.6,
-        "review_count": 83355,
-        "rank": 11,
-        "url": "https://www.amazon.com/PanOxyl-Foaming-Peroxide-Strength-Antimicrobial/dp/B081KL2QYJ/ref=zg_bs_g_beauty_d_sccl_11/143-9251795-4666938",
-        "extraction_method": "catalog_file"
-      },
-      {
-        "product": "La Roche-Posay Toleriane Double Repair Face Moisturizer | Daily face cream with glycerin, niacinamide and ceramide for all skin types. Oil free and fragrance free.",
-        "brand": "",
-        "sub": "",
-        "badge": "$24.99",
-        "price": 24.99,
-        "rating": 4.6,
-        "review_count": 51702,
-        "rank": 12,
-        "url": "https://www.amazon.com/Roche-Posay-Toleriane-Double-Repair-Moisturizer/dp/B01N9SPQHQ/ref=zg_bs_g_beauty_d_sccl_12/143-9251795-4666938",
-        "extraction_method": "catalog_file"
-      },
-      {
-        "product": "eos Cashmere Body Wash- Vanilla Cashmere, Creamy Gel with Shea Butter, 16 fl oz",
-        "brand": "",
-        "sub": "",
-        "badge": "$9.98",
-        "price": 9.98,
-        "rating": 4.8,
-        "review_count": 22658,
-        "rank": 13,
-        "url": "https://www.amazon.com/eos-Moisturizing-Nourishing-Phthalate-Sensitive/dp/B0DPHQRLJC/ref=zg_bs_g_beauty_d_sccl_13/143-9251795-4666938",
-        "extraction_method": "catalog_file"
-      },
-      {
-        "product": "ANUA PDRN Hyaluronic Acid 100 Moisturizing Cream, 2.02 fl oz | Lightweight, Non-Greasy Hydrating Face Moisturizer with Salmon DNA for Glass Skin, Korean Skincare",
-        "brand": "",
-        "sub": "",
-        "badge": "$21.60",
-        "price": 21.6,
-        "rating": 4.6,
-        "review_count": 5640,
-        "rank": 14,
-        "url": "https://www.amazon.com/ANUA-Hyaluronic-Moisturizing-Lightweight-Moisturizer/dp/B0DWFLY18Y/ref=zg_bs_g_beauty_d_sccl_14/143-9251795-4666938",
+        "url": "https://www.amazon.com/Amazon-Basics-Cotton-Swabs-500ct/dp/B09541P9WH/ref=zg_bs_g_beauty_d_sccl_5/143-2614022-7375720",
         "extraction_method": "catalog_file"
       },
       {
@@ -668,9 +560,117 @@
         "badge": "$7.61",
         "price": 7.61,
         "rating": 4.7,
-        "review_count": 54889,
+        "review_count": 122875,
+        "rank": 6,
+        "url": "https://www.amazon.com/Mrs-Meyers-Clean-Refill-Verbena/dp/B00F1U0YB4/ref=zg_bs_g_beauty_d_sccl_6/143-2614022-7375720",
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "Amazon Essentials 100% Cotton Rounds, 100 Count (Previously Amazon Basics)",
+        "brand": "",
+        "sub": "",
+        "badge": "$2.96",
+        "price": 2.96,
+        "rating": 4.7,
+        "review_count": 54145,
+        "rank": 7,
+        "url": "https://www.amazon.com/Amazon-Basics-Cotton-Rounds-Count/dp/B09542G9ZN/ref=zg_bs_g_beauty_d_sccl_7/143-2614022-7375720",
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "Neutrogena Makeup Remover Micellar Wipes, 2 Pack of 25 Ct | Plant-Based Micellar Water Cleansing Cloths, Gently Removes Oil, Dirt & Waterproof Makeup, No Heavy Residue, Alcohol-Free",
+        "brand": "",
+        "sub": "",
+        "badge": "$9.97",
+        "price": 9.97,
+        "rating": 4.8,
+        "review_count": 121795,
+        "rank": 8,
+        "url": "https://www.amazon.com/Neutrogena-Makeup-Remover-Micellar-Wipes/dp/B00U2VQZDS/ref=zg_bs_g_beauty_d_sccl_8/143-2614022-7375720",
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "ANUA PDRN Hyaluronic Acid 100 Moisturizing Cream, 2.02 fl oz | Lightweight, Non-Greasy Hydrating Face Moisturizer with Salmon DNA for Glass Skin, Korean Skincare",
+        "brand": "",
+        "sub": "",
+        "badge": "$21.60",
+        "price": 21.6,
+        "rating": 4.6,
+        "review_count": 5694,
+        "rank": 9,
+        "url": "https://www.amazon.com/ANUA-Hyaluronic-Moisturizing-Lightweight-Moisturizer/dp/B0DWFLY18Y/ref=zg_bs_g_beauty_d_sccl_9/143-2614022-7375720",
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "Maybelline Lash Sensational Sky High Washable Mascara Makeup, Volumizing, Lengthening, Defining, Curling, Multiplying, Buildable Formula, Blackest Black, 1 Count",
+        "brand": "",
+        "sub": "",
+        "badge": "$10.82",
+        "price": 10.82,
+        "rating": 4.5,
+        "review_count": 189314,
+        "rank": 10,
+        "url": "https://www.amazon.com/Maybelline-Volumizing-Buildable-Lengthening-Multiplying/dp/B08H3JPH74/ref=zg_bs_g_beauty_d_sccl_10/143-2614022-7375720",
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "The Ordinary Glycolic Acid 7% Exfoliating Toner, Brightening and Smoothing Daily Toner for More Even-Looking Skin Tone",
+        "brand": "",
+        "sub": "",
+        "badge": "$13.50",
+        "price": 13.5,
+        "rating": 4.7,
+        "review_count": 64413,
+        "rank": 11,
+        "url": "https://www.amazon.com/Ordinary-Exfoliating-Brightening-Smoothing-Even-Looking/dp/B071914GGL/ref=zg_bs_g_beauty_d_sccl_11/143-2614022-7375720",
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Plumping, Travel Essentials & Self Care Gifts for Women, Korean Skin Care | 1.19oz(34g) x 4ea",
+        "brand": "",
+        "sub": "",
+        "badge": "$19.00",
+        "price": 19,
+        "rating": 4.5,
+        "review_count": 47997,
+        "rank": 12,
+        "url": "https://www.amazon.com/Biodance-Bio-Collagen-Tightening-Hydrating-Molecular/dp/B0B2RM68G2/ref=zg_bs_g_beauty_d_sccl_12/143-2614022-7375720",
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "PanOxyl 10% Benzoyl Peroxide Acne Foaming Wash, Maximum Strength, Daily Acne-Fighting Face and Body Cleanser, Face Wash to Clear, Treat and Prevent Acne Pimples and Stubborn Breakouts, 5.5 Oz Tube",
+        "brand": "",
+        "sub": "",
+        "badge": "$10.19",
+        "price": 10.19,
+        "rating": 4.6,
+        "review_count": 83406,
+        "rank": 13,
+        "url": "https://www.amazon.com/PanOxyl-Foaming-Peroxide-Strength-Antimicrobial/dp/B081KL2QYJ/ref=zg_bs_g_beauty_d_sccl_13/143-2614022-7375720",
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "La Roche-Posay Toleriane Double Repair Face Moisturizer | Daily face cream with glycerin, niacinamide and ceramide for all skin types. Oil free and fragrance free.",
+        "brand": "",
+        "sub": "",
+        "badge": "$19.49",
+        "price": 19.49,
+        "rating": 4.6,
+        "review_count": 51737,
+        "rank": 14,
+        "url": "https://www.amazon.com/Roche-Posay-Toleriane-Double-Repair-Moisturizer/dp/B01N9SPQHQ/ref=zg_bs_g_beauty_d_sccl_14/143-2614022-7375720",
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "eos Cashmere Body Wash- Vanilla Cashmere, Creamy Gel with Shea Butter, 16 fl oz",
+        "brand": "",
+        "sub": "",
+        "badge": "$9.98",
+        "price": 9.98,
+        "rating": 4.8,
+        "review_count": 22785,
         "rank": 15,
-        "url": "https://www.amazon.com/Mrs-Meyers-Clean-Refill-Verbena/dp/B00F1U0YB4/ref=zg_bs_g_beauty_d_sccl_15/143-9251795-4666938",
+        "url": "https://www.amazon.com/eos-Moisturizing-Nourishing-Phthalate-Sensitive/dp/B0DPHQRLJC/ref=zg_bs_g_beauty_d_sccl_15/143-2614022-7375720",
         "extraction_method": "catalog_file"
       }
     ],
@@ -1422,88 +1422,88 @@
     ],
     "ulta_beauty": [
       {
-        "product": "Moisture Whipped Ceramide Cream",
-        "brand": "Kopari Beauty",
-        "price": 22,
+        "product": "345 Relief Cream",
+        "brand": "Dr. Althea",
+        "price": 18.9,
         "category": "Beauty",
-        "url": "https://www.ulta.com/p/moisture-whipped-ceramide-cream-pimprod2034179"
+        "url": "https://www.ulta.com/p/345-relief-cream-pimprod2056740"
       },
       {
-        "product": "Ultra Repair Hydrating Pillow Pads with Colloidal Oatmeal + Ceramides",
-        "brand": "First Aid Beauty",
-        "price": 9,
+        "product": "Toleriane Purifying Foaming Face Wash for Oily Skin",
+        "brand": "La Roche-Posay",
+        "price": 12.74,
         "category": "Beauty",
-        "url": "https://www.ulta.com/p/ultra-repair-hydrating-pillow-pads-with-colloidal-oatmeal-ceramides-pimprod2055848"
+        "url": "https://www.ulta.com/p/toleriane-purifying-foaming-face-wash-oily-skin-xlsImpprod15321287"
       },
       {
-        "product": "Pout Preserve Chillers Peptide Lip Treatment",
-        "brand": "OLEHENRIKSEN",
-        "price": 16.8,
+        "product": "Toleriane Double Repair Face Moisturizer with Niacinamide",
+        "brand": "La Roche-Posay",
+        "price": 9.74,
         "category": "Beauty",
-        "url": "https://www.ulta.com/p/pout-preserve-chillers-peptide-lip-treatment-pimprod2058481"
+        "url": "https://www.ulta.com/p/toleriane-double-repair-face-moisturizer-with-niacinamide-xlsImpprod16011007"
       },
       {
-        "product": "LED Red Light Therapy Panel",
-        "brand": "PURSONIC",
-        "price": 74.99,
+        "product": "Toleriane Hydrating Gentle Face Cleanser for Dry Skin",
+        "brand": "La Roche-Posay",
+        "price": 7.49,
         "category": "Beauty",
-        "url": "https://www.ulta.com/p/led-red-light-therapy-panel-mkt77005442"
+        "url": "https://www.ulta.com/p/toleriane-hydrating-gentle-face-cleanser-dry-skin-xlsImpprod15321285"
       },
       {
-        "product": "Liposome Advanced Repair Serum Bundle",
-        "brand": "Decorté",
-        "price": 123,
+        "product": "DoubleDown Lip Definer 2-in-1 Liner and Balm",
+        "brand": "SACHEU",
+        "price": 12,
         "category": "Beauty",
-        "url": "https://www.ulta.com/p/liposome-advanced-repair-serum-bundle-mkt77010351"
+        "url": "https://www.ulta.com/p/doubledown-lip-definer-2-in-1-liner-balm-pimprod2059017"
       },
       {
-        "product": "Banana Bright+ Color Correcting Eye Sticks with Vitamin C for Dark Circles",
-        "brand": "OLEHENRIKSEN",
-        "price": 18,
+        "product": "Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream",
+        "brand": "La Roche-Posay",
+        "price": 15.74,
         "category": "Beauty",
-        "url": "https://www.ulta.com/p/banana-bright-color-correcting-eye-sticks-with-vitamin-c-dark-circles-pimprod2042305"
+        "url": "https://www.ulta.com/p/cicaplast-balm-b5-soothing-therapeutic-multi-purpose-cream-pimprod2018263"
       },
       {
-        "product": "LED Light Therapy Face Mask 7 Color Skin Care Mask",
-        "brand": "PURSONIC",
-        "price": 49.99,
+        "product": "Toleriane Double Repair Face Moisturizer UV SPF 30",
+        "brand": "La Roche-Posay",
+        "price": 21.74,
         "category": "Beauty",
-        "url": "https://www.ulta.com/p/led-light-therapy-face-mask-7-color-skin-care-mask-mkt77005591"
+        "url": "https://www.ulta.com/p/toleriane-double-repair-face-moisturizer-uv-spf-30-xlsImpprod15681007"
       },
       {
-        "product": "LED Glow Set",
-        "brand": "PURSONIC",
-        "price": 79.99,
+        "product": "Hydrating Milky Toner",
+        "brand": "BYOMA",
+        "price": 7.49,
         "category": "Beauty",
-        "url": "https://www.ulta.com/p/led-glow-set-mkt77005599"
+        "url": "https://www.ulta.com/p/hydrating-milky-toner-pimprod2043230"
       },
       {
-        "product": "Dream Cream Hydrating Anti-Aging Night Cream for Sensitive Skin",
-        "brand": "Onekind",
-        "price": 21,
+        "product": "Discoloration Correcting Serum",
+        "brand": "Good Molecules",
+        "price": 9.6,
         "category": "Beauty",
-        "url": "https://www.ulta.com/p/dream-cream-hydrating-anti-aging-night-cream-sensitive-skin-mkt77004854"
+        "url": "https://www.ulta.com/p/discoloration-correcting-serum-pimprod2023928"
       },
       {
-        "product": "Golden State Glow & Hydrate Facial Oil with Rosehip + Carrot Seed",
-        "brand": "Onekind",
-        "price": 24,
+        "product": "Cicalfate+ Restorative Protective Cream",
+        "brand": "Avène",
+        "price": 18.2,
         "category": "Beauty",
-        "url": "https://www.ulta.com/p/golden-state-glow-hydrate-facial-oil-with-rosehip-carrot-seed-mkt77004851"
+        "url": "https://www.ulta.com/p/cicalfate-restorative-protective-cream-pimprod2020798"
       },
       {
-        "product": "7 Color LED Photon Super Mask + NIR Technology",
-        "brand": "Glo24k",
-        "price": 202.99,
+        "product": "Caffeine Energizing Hydrogel Eye Patches",
+        "brand": "Good Molecules",
+        "price": 14.4,
         "category": "Beauty",
-        "url": "https://www.ulta.com/p/7-color-led-photon-super-mask-nir-technology-mkt77005106"
+        "url": "https://www.ulta.com/p/caffeine-energizing-hydrogel-eye-patches-pimprod2023938"
       },
       {
-        "product": "Hope In A Jar Smooth-Glow Multi-Tasking Moisturizer",
-        "brand": "Philosophy",
-        "price": 19,
+        "product": "Hyalu B5 Pure Hyaluronic Acid Face Serum",
+        "brand": "La Roche-Posay",
+        "price": 32.24,
         "category": "Beauty",
-        "url": "https://www.ulta.com/p/hope-in-a-jar-smooth-glow-multi-tasking-moisturizer-pimprod2029779"
+        "url": "https://www.ulta.com/p/hyalu-b5-pure-hyaluronic-acid-face-serum-pimprod2012178"
       },
       {
         "product": "Advanced Rebound Bioglow Zombie Cream",
@@ -1513,18 +1513,18 @@
         "url": "https://www.ulta.com/p/advanced-rebound-bioglow-zombie-cream-pimprod2059736"
       },
       {
-        "product": "Retinol Youth Renewal Serum",
-        "brand": "Murad",
-        "price": 37,
-        "category": "Beauty",
-        "url": "https://www.ulta.com/p/retinol-youth-renewal-serum-pimprod2059715"
-      },
-      {
         "product": "Lacto-PDRN 4% + B9 Eye Cream",
         "brand": "The Ordinary",
         "price": 9.5,
         "category": "Beauty",
         "url": "https://www.ulta.com/p/lacto-pdrn-4-b9-eye-cream-pimprod2061032"
+      },
+      {
+        "product": "Retinol Youth Renewal Serum",
+        "brand": "Murad",
+        "price": 37,
+        "category": "Beauty",
+        "url": "https://www.ulta.com/p/retinol-youth-renewal-serum-pimprod2059715"
       }
     ],
     "sephora": [
@@ -1725,20 +1725,20 @@
       "status": "ok",
       "source": "amazon.com/gp/bestsellers/beauty (실수집)",
       "reason": "",
-      "collected_at": "2026-09-17T23:04:01.019482+00:00",
+      "collected_at": "2026-09-19T22:28:40.655933+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 47.3,
+      "age_hours": 0.0,
       "stale": false
     },
     "walmart_beauty": {
       "status": "ok",
       "source": "walmart.com/browse/beauty/1085666 (실수집)",
       "reason": "",
-      "collected_at": "2026-09-17T23:04:01.020454+00:00",
+      "collected_at": "2026-09-19T22:28:40.656535+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 47.3,
+      "age_hours": 0.0,
       "stale": false
     },
     "oliveyoung_us": {
@@ -1748,7 +1748,7 @@
       "collected_at": "2026-09-19T22:15:47.655225+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 0.1,
+      "age_hours": 0.2,
       "stale": false
     },
     "google_trends_us": {
@@ -1758,40 +1758,40 @@
       "collected_at": "2026-09-19T22:16:24.080562+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 0.1,
+      "age_hours": 0.2,
       "stale": false
     },
     "wikipedia_interest": {
       "status": "ok",
       "source": "wikimedia.org REST pageviews API (공식)",
       "reason": "",
-      "collected_at": "2026-09-19T22:00:57.571850+00:00",
+      "collected_at": "2026-09-19T22:19:42.520695+00:00",
       "count": 8,
       "trust": "verified",
       "note": "2026-08-19 ~ 2026-09-17 일별 조회수. 후반 15일 대비 전반 15일 증감률",
-      "age_hours": 0.3,
+      "age_hours": 0.2,
       "stale": false
     },
     "allure_media": {
       "status": "ok",
       "source": "allure.com/feed/rss",
       "reason": "",
-      "collected_at": "2026-09-19T22:00:57.571850+00:00",
+      "collected_at": "2026-09-19T22:19:42.520695+00:00",
       "count": 15,
       "trust": "verified",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
-      "age_hours": 0.3,
+      "age_hours": 0.2,
       "stale": false
     },
     "openfda_sunscreen": {
       "status": "ok",
       "source": "api.fda.gov/drug/label (openFDA 공식)",
       "reason": "",
-      "collected_at": "2026-09-19T22:00:57.571850+00:00",
+      "collected_at": "2026-09-19T22:19:42.520695+00:00",
       "count": 15,
       "trust": "verified",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다.",
-      "age_hours": 0.3,
+      "age_hours": 0.2,
       "stale": false
     },
     "shopify_demand_matching": {
@@ -1814,20 +1814,20 @@
       "status": "ok",
       "source": "공개 페이지 직접 파싱",
       "reason": "",
-      "collected_at": "2026-09-17T23:04:01.021121+00:00",
+      "collected_at": "2026-09-19T22:28:40.657087+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 47.3,
+      "age_hours": 0.0,
       "stale": false
     },
     "sephora": {
       "status": "ok",
       "source": "공개 페이지 직접 파싱",
       "reason": "",
-      "collected_at": "2026-09-17T23:04:01.021121+00:00",
+      "collected_at": "2026-09-19T22:28:40.657087+00:00",
       "count": 14,
       "trust": "verified",
-      "age_hours": 47.3,
+      "age_hours": 0.0,
       "stale": false
     },
     "open_beauty_facts": {
@@ -1837,7 +1837,7 @@
       "collected_at": "2026-09-19T22:15:28.742229+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 0.1,
+      "age_hours": 0.2,
       "stale": false
     }
   },
@@ -1847,5 +1847,5 @@
     "source": "https://open.er-api.com/v6/latest/USD",
     "updated_at": "2026-09-20"
   },
-  "last_synced": "09. 20. 오전 07:19 KST"
+  "last_synced": "09. 20. 오전 07:28 KST"
 }
