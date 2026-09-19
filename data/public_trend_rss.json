@@ -1,6 +1,6 @@
 {
   "source": "public RSS (hnrss + Google News RSS)",
-  "collected_at": "2026-09-19T21:56:39.594458+00:00",
+  "collected_at": "2026-09-19T22:16:09.385657+00:00",
   "status": "ok",
   "feed_summaries": [
     {
@@ -10,7 +10,7 @@
     },
     {
       "name": "hacker_news_best",
-      "count": 25,
+      "count": 0,
       "error": null
     },
     {
@@ -109,7 +109,7 @@
       "category": "beauty"
     },
     {
-      "title": "These 17 Korean Skincare Products Deliver Serious Glow - byrdie.com",
+      "title": "These 17 Korean Skincare Products Deliver Serious Glow - Byrdie",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1sc1dUR0l3QkxvbDVjMnk4bzBxd0RKMW13ZVFBZlRLQmFwM3gtdjR1Sk5vZkp3c2xFNUc5Tm9ycThJWGc3TnVZekNOWHNYVHppZEhWWkZ6NjFwQzlZakk2VERaNzlNRVVxaGk1a0ZUWQ?oc=5",
       "published": "Tue, 08 Sep 2026 07:00:00 GMT",
       "feed": "google_news_kbeauty",
@@ -235,16 +235,9 @@
       "category": "beauty"
     },
     {
-      "title": "The Korean Beauty Giant Coming for America’s Dollars - WSJ",
+      "title": "The Korean Beauty Giant Coming for America’s Dollars - wsj.com",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNS3ZMaXU3eXVhN0s5dV9yNmNrU3l3THlQeVJWLXFBUWdCNDR3MjNpOVN4QUxUVmRpRE15enlXTTZQS3o1blhZTVlZT3RESTFtX2RDNldEd0VTNHpXdVhXV2J1SGwyX1NvUDZnVERzRldrR19JUTM3UU4ybWFKbEQtbnRWQlN3U1hkME5mT3ZSeEc4Zw?oc=5",
       "published": "Thu, 28 May 2026 07:00:00 GMT",
-      "feed": "google_news_kbeauty",
-      "category": "beauty"
-    },
-    {
-      "title": "Korea and Indonesia seal halal deal to safeguard K-food, beauty exports - The Korea Times",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNd2xCNVNSUHpHOF9uUEN2STlKeDItQ0RmVk4yOHg1NVIyXzBTYVhJSnptU0NLSVFWb2FrQmRWSkNzcXNZWDQyQzVzdmQ2XzNqdTFmZS1qLVJMeXJuZHJad053aGx6UVVHUGY3T0JEMERHUS1VYUR0OXItcTBkemlEbm9tX0EtSENJdENLUHdCVnBLWjg3ZEd2YVhDWE5xQTNJVWZqeHZCQTh0cmRoYnVuNDhGc01FSVdCRmNEQ202a3p3ei1FVUpZYWdn0gHPAUFVX3lxTE5BZ3Z3N3Z4STdhWXh4eGd6Ynh6N3N3azVZLVRJUURBWkZ3ZHFxcEVwdjFmdGZlaUpUakNYTmQxYmh3Q3laQWhGdzM2Um85eUs1Q0RKQmFUTFhTVm0xcEJjWGxveU1TLVhUbXRWS2c1TTZpbnY0LThubGJybEpNdUE4aWVLRkk5dFY3dVFucWU0T094c0xoODJEYktYY0N4dnZadk5uVWkxSEVBOEFxZDJDem5UVUw5dVRLQnJ4LTNKcFBfM0NBa2JPOHREbC03UQ?oc=5",
-      "published": "Fri, 18 Sep 2026 22:00:00 GMT",
       "feed": "google_news_kbeauty",
       "category": "beauty"
     },
@@ -256,6 +249,13 @@
       "category": "beauty"
     },
     {
+      "title": "Korea and Indonesia seal halal deal to safeguard K-food, beauty exports - koreatimes.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNd2xCNVNSUHpHOF9uUEN2STlKeDItQ0RmVk4yOHg1NVIyXzBTYVhJSnptU0NLSVFWb2FrQmRWSkNzcXNZWDQyQzVzdmQ2XzNqdTFmZS1qLVJMeXJuZHJad053aGx6UVVHUGY3T0JEMERHUS1VYUR0OXItcTBkemlEbm9tX0EtSENJdENLUHdCVnBLWjg3ZEd2YVhDWE5xQTNJVWZqeHZCQTh0cmRoYnVuNDhGc01FSVdCRmNEQ202a3p3ei1FVUpZYWdn0gHPAUFVX3lxTE5BZ3Z3N3Z4STdhWXh4eGd6Ynh6N3N3azVZLVRJUURBWkZ3ZHFxcEVwdjFmdGZlaUpUakNYTmQxYmh3Q3laQWhGdzM2Um85eUs1Q0RKQmFUTFhTVm0xcEJjWGxveU1TLVhUbXRWS2c1TTZpbnY0LThubGJybEpNdUE4aWVLRkk5dFY3dVFucWU0T094c0xoODJEYktYY0N4dnZadk5uVWkxSEVBOEFxZDJDem5UVUw5dVRLQnJ4LTNKcFBfM0NBa2JPOHREbC03UQ?oc=5",
+      "published": "Fri, 18 Sep 2026 22:00:00 GMT",
+      "feed": "google_news_kbeauty",
+      "category": "beauty"
+    },
+    {
       "title": "You’ve been buying K-beauty. Is it time to try Korean treatments? - The Times",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSFlyd3hfU3ozdUtzS0d1MU5Hbmx6MHlWZTFicUdJT2NrSWlaLWJTS2lzQ21tZGhrQTRRei1FeDJnQk1OU0dvM1R5cUlnYnZFM05SM0syVjhnYXlnTmV5LVlHRmNpTmVBamFQMVFHVWJEQW9JVm1uTGxWLW84dTZCYTZ1RU1QVjhYTGhaaEp2NHNkQ2k3T1hsZElFcw?oc=5",
       "published": "Fri, 28 Aug 2026 07:00:00 GMT",
@@ -263,7 +263,7 @@
       "category": "beauty"
     },
     {
-      "title": "K-Beauty Isn’t Just For Gen Z. These Korean Skin Care Picks Are Made For Mature Skin - huffpost.com",
+      "title": "K-Beauty Isn’t Just For Gen Z. These Korean Skin Care Picks Are Made For Mature Skin - HuffPost",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRURKYS1ZekRkbWVwN2g1TTFWd3VkUmtReXFsVFFlbEFlR0cxTXFXd2k5Zkw5WGM0TmRWc0tSS21fWjROdHZMYVI2S3pqOF90QnJNQ242blFzLTNFd0V1NlhQQ1h5UkFYZS1qQ21RQnN0bW5oenpibURlTi1XVmE2R255Mm5Ga0NEUEwyVEhhUzk1LVhKeEVXbm14NNIBoAFBVV95cUxOWVE3UVVwRWxaYWpnVDgxUHdiWUF1YzVsMkJZVFpJZGlOOEpCdXNxX1hjWGJfY0MtelJjZkREVzhMX2VZdkVDd1hJVWdYcHRHenU2Ylh5Z25kN2lGWm5WZTJTeWthWldFbndJTjNYODdlV0FqaFpnYXVFQ0hlU1NSSjhONXZtQmloUndlT3FrVW1tSEV4b3FPNHEycWI3VjZj?oc=5",
       "published": "Tue, 08 Sep 2026 07:00:00 GMT",
       "feed": "google_news_kbeauty",
@@ -347,7 +347,7 @@
       "category": "beauty"
     },
     {
-      "title": "Human Skin Is the Newest Ingredient in the K-Beauty Boom - bloomberg.com",
+      "title": "Human Skin Is the Newest Ingredient in the K-Beauty Boom - Bloomberg",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYkxGbEZDNEpITy1jaE1GcWU3R3U3UUZTMTNYVGRVU2JQeWkwTGdTSVdqNkhYbVpLTXptU1VCRlBDbWVPbEZDRDl0ZlhoNktoYi1OTWNhMG9Va2hwMjRleERjMlBHZ3FPY2xSZnZLZFRvV1ZZV19KOGhTSG1xSmxpWkQxSDZpcHlzWWVOQ2dOLTBCVi1zX3JOOHRXN1ltVFpYTDVpZE1WdER5ckVwVXc?oc=5",
       "published": "Thu, 16 Jul 2026 07:00:00 GMT",
       "feed": "google_news_kbeauty",
@@ -459,9 +459,14 @@
       "url": "https://hnrss.org/frontpage",
       "items": [
         {
-          "title": "I captured 72 hours of idle Android packets behind pfSense",
-          "url": "https://www.praveentechworld.com/research/degoogle-telemetry-2026",
-          "published": "Sat, 19 Sep 2026 20:03:35 +0000"
+          "title": "Mayday Mysteries",
+          "url": "http://www.maydaymystery.org/mayday/",
+          "published": "Sat, 19 Sep 2026 21:43:09 +0000"
+        },
+        {
+          "title": "English: A vs. An",
+          "url": "https://www.redblobgames.com/blog/2026-09-16-english-a-vs-an/",
+          "published": "Sat, 19 Sep 2026 20:41:26 +0000"
         },
         {
           "title": "Measure internet censorship. Contribute to the largest open dataset",
@@ -502,11 +507,6 @@
           "title": "Brood War Bench",
           "url": "https://bw.swerdlow.dev/report",
           "published": "Sat, 19 Sep 2026 14:44:02 +0000"
-        },
-        {
-          "title": "What Zig felt like, coming from Rust",
-          "url": "https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/",
-          "published": "Sat, 19 Sep 2026 13:55:18 +0000"
         },
         {
           "title": "Tin: full-text search for Postgres",
@@ -565,133 +565,7 @@
       "name": "hacker_news_best",
       "category": "tech",
       "url": "https://hnrss.org/best",
-      "items": [
-        {
-          "title": "I built non-autoregressive decision models with RL a year ago",
-          "url": "https://laya.convaiinnovations.com/",
-          "published": "Sat, 19 Sep 2026 10:46:58 +0000"
-        },
-        {
-          "title": "AI-generated posters don’t have to be horrible",
-          "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
-          "published": "Sat, 19 Sep 2026 09:20:58 +0000"
-        },
-        {
-          "title": "GPT-6 Astra Solves a WWI German Radio Cipher",
-          "url": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
-          "published": "Sat, 19 Sep 2026 06:41:44 +0000"
-        },
-        {
-          "title": "If math is more than proof, we need to better celebrate the rest of it",
-          "url": "https://terrytao.wordpress.com/2026/09/18/if-math-is-more-than-proof-we-need-to-better-celebrate-the-rest-of-it/",
-          "published": "Sat, 19 Sep 2026 06:28:02 +0000"
-        },
-        {
-          "title": "Two parallel neural ectoderm progenitors contribute to the developing brain",
-          "url": "https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html",
-          "published": "Sat, 19 Sep 2026 05:48:50 +0000"
-        },
-        {
-          "title": "San Francisco Onion Futures Company",
-          "url": "https://onionfutures.com/",
-          "published": "Sat, 19 Sep 2026 04:23:30 +0000"
-        },
-        {
-          "title": "Claude Code now reads AGENTS.md if there is no Claude.md",
-          "url": "https://code.claude.com/docs/en/changelog",
-          "published": "Fri, 18 Sep 2026 21:00:32 +0000"
-        },
-        {
-          "title": "Korea raises data breach fines to 10% of revenue",
-          "url": "https://www.koreajoongangdaily.com/business/korea-raises-data-breach-fines-to-10-of-revenue/12869899",
-          "published": "Fri, 18 Sep 2026 20:02:54 +0000"
-        },
-        {
-          "title": "Android 17 is the first since 3.x to add new APIs without releasing to the AOSP",
-          "url": "https://grapheneos.social/@GrapheneOS/117282080803799576",
-          "published": "Fri, 18 Sep 2026 19:03:09 +0000"
-        },
-        {
-          "title": "Saving another 100TB of RAM",
-          "url": "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/",
-          "published": "Fri, 18 Sep 2026 18:51:46 +0000"
-        },
-        {
-          "title": "US Military had close call after using AI for hallucinated intelligence report",
-          "url": "https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship",
-          "published": "Fri, 18 Sep 2026 17:28:01 +0000"
-        },
-        {
-          "title": "I vibed a proof of Conway's conjecture",
-          "url": "https://overreacted.io/how-i-vibed-a-proof-of-conways-conjecture/",
-          "published": "Fri, 18 Sep 2026 14:36:10 +0000"
-        },
-        {
-          "title": "Cloudflare Quick Tunnels",
-          "url": "https://try.cloudflare.com/",
-          "published": "Fri, 18 Sep 2026 14:18:41 +0000"
-        },
-        {
-          "title": "I don't like passkeys",
-          "url": "https://hawksley.dev/blog/i-dont-like-passkeys",
-          "published": "Fri, 18 Sep 2026 12:06:50 +0000"
-        },
-        {
-          "title": "Bend 2 and the Vibe-Coding Trap",
-          "url": "https://blog.liampwll.com/posts/bend_vibe_coding/",
-          "published": "Fri, 18 Sep 2026 12:03:55 +0000"
-        },
-        {
-          "title": "Warren Buffett Steps Down as Berkshire Chairman, Names Son to Replace Him",
-          "url": "https://www.nytimes.com/2026/09/18/business/warren-buffett-berkshire-chairman.html",
-          "published": "Fri, 18 Sep 2026 11:01:44 +0000"
-        },
-        {
-          "title": "ZCode, the GLM coding agent, silently uploads your Git history",
-          "url": "https://tokenstead.ai/guides/zcode-silent-git-history-upload",
-          "published": "Fri, 18 Sep 2026 10:35:28 +0000"
-        },
-        {
-          "title": "Microsoft exec called AI scraping 'the largest theft of labor in human history'",
-          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
-          "published": "Fri, 18 Sep 2026 09:45:07 +0000"
-        },
-        {
-          "title": "OpenJev",
-          "url": "https://openjev.com/",
-          "published": "Fri, 18 Sep 2026 09:42:22 +0000"
-        },
-        {
-          "title": "Inside ZCode: Silently uploading your Git history to the cloud",
-          "url": "https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/",
-          "published": "Fri, 18 Sep 2026 06:11:17 +0000"
-        },
-        {
-          "title": "Jemalloc 5.4.0",
-          "url": "https://github.com/jemalloc/jemalloc/releases/tag/5.4.0",
-          "published": "Fri, 18 Sep 2026 04:20:24 +0000"
-        },
-        {
-          "title": "The scourge of x86 emulation",
-          "url": "https://fex-emu.com/Scourge-of-emulation/",
-          "published": "Fri, 18 Sep 2026 04:09:48 +0000"
-        },
-        {
-          "title": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
-          "url": "https://www.hacktron.ai/blog/hacking-openai",
-          "published": "Fri, 18 Sep 2026 02:47:24 +0000"
-        },
-        {
-          "title": "Minimal Phone 2",
-          "url": "https://minimalcompany.com/",
-          "published": "Fri, 18 Sep 2026 02:00:25 +0000"
-        },
-        {
-          "title": "Qwen 3.8 Omni Flash",
-          "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
-          "published": "Thu, 17 Sep 2026 23:05:48 +0000"
-        }
-      ],
+      "items": [],
       "error": null
     },
     {
@@ -762,7 +636,7 @@
           "published": "Mon, 14 Sep 2026 06:48:25 GMT"
         },
         {
-          "title": "These 17 Korean Skincare Products Deliver Serious Glow - byrdie.com",
+          "title": "These 17 Korean Skincare Products Deliver Serious Glow - Byrdie",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1sc1dUR0l3QkxvbDVjMnk4bzBxd0RKMW13ZVFBZlRLQmFwM3gtdjR1Sk5vZkp3c2xFNUc5Tm9ycThJWGc3TnVZekNOWHNYVHppZEhWWkZ6NjFwQzlZakk2VERaNzlNRVVxaGk1a0ZUWQ?oc=5",
           "published": "Tue, 08 Sep 2026 07:00:00 GMT"
         },

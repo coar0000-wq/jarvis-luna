@@ -2,7 +2,7 @@
 title: "Record 2644a83e44 · RoboVAD-A-Large-Cross-Domain-Evaluation-Benchmark-for-Anomaly-Detectio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T22:02:37.679261+00:00
+updated_at: 2026-09-19T22:21:10.364865+00:00
 tags: [record, real-data]
 ---
 

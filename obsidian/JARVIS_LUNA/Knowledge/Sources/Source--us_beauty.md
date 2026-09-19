@@ -2,7 +2,7 @@
 title: "Source · us_beauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T22:02:38.468392+00:00
+updated_at: 2026-09-19T22:21:10.931030+00:00
 tags: [source, real-data]
 ---
 

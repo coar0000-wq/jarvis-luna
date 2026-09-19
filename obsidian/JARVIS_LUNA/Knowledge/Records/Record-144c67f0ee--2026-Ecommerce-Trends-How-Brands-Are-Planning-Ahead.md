@@ -2,7 +2,7 @@
 title: "Record 144c67f0ee · 2026-Ecommerce-Trends-How-Brands-Are-Planning-Ahead"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T22:02:37.923125+00:00
+updated_at: 2026-09-19T22:21:10.531014+00:00
 tags: [record, real-data]
 ---
 

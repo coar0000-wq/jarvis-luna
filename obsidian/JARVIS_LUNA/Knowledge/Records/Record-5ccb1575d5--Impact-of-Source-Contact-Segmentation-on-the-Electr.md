@@ -2,7 +2,7 @@
 title: "Record 5ccb1575d5 · Impact-of-Source-Contact-Segmentation-on-the-Electr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T22:02:37.698924+00:00
+updated_at: 2026-09-19T22:21:10.379617+00:00
 tags: [record, real-data]
 ---
 

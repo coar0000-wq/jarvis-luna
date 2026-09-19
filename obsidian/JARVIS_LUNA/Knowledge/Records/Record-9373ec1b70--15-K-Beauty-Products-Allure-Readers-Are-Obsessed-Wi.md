@@ -2,7 +2,7 @@
 title: "Record 9373ec1b70 · 15-K-Beauty-Products-Allure-Readers-Are-Obsessed-Wi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T22:02:37.950146+00:00
+updated_at: 2026-09-19T22:21:10.548916+00:00
 tags: [record, real-data]
 ---
 

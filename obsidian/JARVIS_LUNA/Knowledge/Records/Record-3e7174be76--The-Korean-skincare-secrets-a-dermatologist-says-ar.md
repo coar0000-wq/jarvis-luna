@@ -2,7 +2,7 @@
 title: "Record 3e7174be76 · The-Korean-skincare-secrets-a-dermatologist-says-ar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T22:02:37.878094+00:00
+updated_at: 2026-09-19T22:21:10.502335+00:00
 tags: [record, real-data]
 ---
 

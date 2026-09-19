@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-19T21:55:49.879675+00:00",
+  "generated_at": "2026-09-19T22:15:04.425366+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
   "pool_size": 2288,
   "제목없어_버림": 38,
-  "unrouted": 11,
+  "unrouted": 10,
   "summary": {
     "sourcing": {
       "total": 342,
@@ -15,9 +15,9 @@
       "products": 338
     },
     "market": {
-      "total": 486,
+      "total": 488,
       "recent": 36,
-      "material": 486,
+      "material": 488,
       "material_recent": 36,
       "products": 0
     },
@@ -29,9 +29,9 @@
       "products": 0
     },
     "pricing": {
-      "total": 15,
+      "total": 16,
       "recent": 7,
-      "material": 15,
+      "material": 16,
       "material_recent": 7,
       "products": 0
     },
@@ -43,30 +43,30 @@
       "products": 0
     },
     "design": {
-      "total": 370,
+      "total": 371,
       "recent": 98,
-      "material": 370,
+      "material": 371,
       "material_recent": 98,
       "products": 0
     },
     "robotics": {
-      "total": 89,
+      "total": 88,
       "recent": 53,
-      "material": 89,
+      "material": 88,
       "material_recent": 53,
       "products": 0
     },
     "knowledge": {
-      "total": 189,
+      "total": 190,
       "recent": 83,
-      "material": 189,
+      "material": 190,
       "material_recent": 83,
       "products": 0
     },
     "institutions": {
-      "total": 1061,
+      "total": 1062,
       "recent": 261,
-      "material": 1061,
+      "material": 1062,
       "material_recent": 261,
       "products": 0
     }
@@ -678,7 +678,7 @@
         "by_hand": false
       },
       {
-        "title": "Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - HS Insider",
+        "title": "Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - highschool.latimes.com",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPc2g3NThETVhLa3FISG94RmRGSURCVlJ6aGNHUWZleXJHS0VfTUd0ZEZJUzduRVpjSGxTcGRKNlhKeXVCVHpMTmpFWjBPcHdzYkIyeG1lcHJXeVV6cHFPZXl5UFdnUkpRNDVRLXFjZTFtNmpmYThKdmVveTBTM0ZsN1lBNjJyRE9UVmZReGlaeG54Mko1ZDItRlFoUXZKc1BRcmwzSnR3RGVpTjRzbVVTcDI4dw?oc=5",
         "pool": "google",
         "date": "2026-09-17",
@@ -706,7 +706,7 @@
         "by_hand": false
       },
       {
-        "title": "This TikTok Beauty Trend Can Help You Save Money and Cut Down on Clutter - ca.style.yahoo.com",
+        "title": "This TikTok Beauty Trend Can Help You Save Money and Cut Down on Clutter - Yahoo Lifestyle Canada",
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1QVlp1UGRhWlEyejViMHkySVlSODdHaktDWW5oUDlxRll6eFNmcW1LUzFVZWQxajlIemxHN09CLXQ4Vm9ONC1RYzFuaVp6UGZ0azZTaHlJQVUwV3ZrVlBmVkRlUEgwTFJTcUhjMnhLY2pWWU95dHZHeGh5dw?oc=5",
         "pool": "google",
         "date": "2026-09-17",
@@ -762,8 +762,8 @@
         "by_hand": false
       },
       {
-        "title": "Hero’s Ju Rhyu Mainstreamed Pimple Patches. Can She Do It Again With K-Beauty-Inspired Sunscreen? - Beauty Independent",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQUZsazhJcC1GYU5menhiYmFiMS1NZWVwZGZUYlB0LWtQMFBOcUZNRGhWN3RlamVlbG5lUkxSV2JvM1hYS2NLam1qRmgxY3YxTWJfaXFHT3BNOU0tb2lkalNCM1VGSEFlX01VMGxmb0dya21ySHp6VlRLYjZ3a2UzYndNa0x2eW8?oc=5",
+        "title": "PDRN make-up: How K-beauty’s trending skin care ingredient is moving into colour cosmetics - Cosmetics Business",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5hUjBkN2xpRlFvamdfRndGMTQtTC1OeEZNRFIxcXRGeHBxNGtaRi1pMkp2Qzc0eGg4ZkxpZm1pOHd6bG9IYmhiVWdOU2IyMl9xaE5OREhMTjlpeUZfTS1iNXRuMXJwVnVCeDQ2Z25vOFJaQWh5WUJ4WVRENA?oc=5",
         "pool": "google",
         "date": "2026-09-15",
         "by_hand": false
@@ -825,14 +825,14 @@
         "by_hand": false
       },
       {
-        "title": "These 17 Korean Skincare Products Deliver Serious Glow - Byrdie",
+        "title": "These 17 Korean Skincare Products Deliver Serious Glow - byrdie.com",
         "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1sc1dUR0l3QkxvbDVjMnk4bzBxd0RKMW13ZVFBZlRLQmFwM3gtdjR1Sk5vZkp3c2xFNUc5Tm9ycThJWGc3TnVZekNOWHNYVHppZEhWWkZ6NjFwQzlZakk2VERaNzlNRVVxaGk1a0ZUWQ?oc=5",
         "pool": "google",
         "date": "2026-09-08",
         "by_hand": false
       },
       {
-        "title": "From medicine cabinet to makeup bag: Drugmakers turn medical research into skincare - Korea JoongAng Daily",
+        "title": "From medicine cabinet to makeup bag: Drugmakers turn medical research into skincare - koreajoongangdaily.com",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNDhGOE5GQWVncngtaGZBcVkzT0pGcjB4V3dHLUNMMjNoMGJVcjIzWDRjWDJGS3JWWjZ1N1dkN2dfSWpabktCMzd0bXEyNU9TYmtUMUk0VDZlVktNMjh6aER3cTZmdDFnWS1EN1RvOUJDMlNlY0huVlROa0tCUF9RMXNOaGZ5R0NvNEd0UWFjRVhsSmpXZ053WEpfN01zaUNOZExHMm5zLU5OckVKUEktMm5UUTBwT2VyV2dKZUJWNmUtT2xBSklwTHFwN1pzcXVj?oc=5",
         "pool": "google",
         "date": "2026-09-08",
@@ -854,21 +854,14 @@
       },
       {
         "title": "AI in Ecommerce: 7 Key Use Cases for 2026 - Shopify",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5qRFdLYmRLWXlTSjNqcmVUVjJ0dEhjYUx2VklLa3ZXUGxSRWY2UDNBbE1BdHJrOU1jZDF6Y2NwNnR2c0wtNE1udE15OENqWEI1UF8zVHhONA?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1FWlg2bURFdFgwSGI3WEZIVTA1aVE5S3N2U082MkhGMjVnd1BuYm4xLVZJT3RiWXNheXAwYWg3NFhzVTBEMkNPYm1jaUNMOXBXOVhrSWlvYw?oc=5",
         "pool": "google",
         "date": "2026-09-04",
         "by_hand": false
       },
       {
-        "title": "What makes K-beauty Korean? The answer is getting complicated. - Korea JoongAng Daily",
+        "title": "What makes K-beauty Korean? The answer is getting complicated. - koreajoongangdaily.com",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTHduVDgyX3Fsb1owRDBvLVd4bDEzQjZlZk1UcGY5aE5oS1NGR0VrVV9scXFNNG9xdGZTcUZQX3A0NEM4LUxJdUt6TWhORGxJVnE5NnM5VVdYWUthOXZWX2xNV0VoUTFsM3lVUl9MR3o5cHF1eXBjSl9feEtwYWtNY1A4RGNRZUItREFtRU8xZ0hzVmVhZ3Bwdmx3X3B6eVNkY3BPb3dGaThJaENSVEJGVWxn?oc=5",
-        "pool": "google",
-        "date": "2026-09-03",
-        "by_hand": false
-      },
-      {
-        "title": "10 Best AI-Powered Analytics Tools for Ecommerce in 2026: Chat Interfaces, Autonomous Analysts and Vertical Tools Compared - Ask Luca",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1aYVpPVndBZV9leHQ1N2NObW9TbUNZTVEtT2prTFpocXB2N0ktVGRoSWs0dXdJa1Jid05lNGI0LU91UGN0R1ppYUo2Zm1JdGwxUVR2ZTBoUThfaTNkR2puLUFNdw?oc=5",
         "pool": "google",
         "date": "2026-09-03",
         "by_hand": false
@@ -902,7 +895,7 @@
         "by_hand": false
       },
       {
-        "title": "12 Makeup Trends to Experiment With in Fall 2026: Feathery Eyebrows, Barely-There Mascara, & More - Teen Vogue",
+        "title": "12 Makeup Trends to Experiment With in Fall 2026: Feathery Eyebrows, Barely-There Mascara, & More - teenvogue.com",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9OdzQ0OXlSbWVrOW1FUXdtSURIcjVsZnJhNEFleWtxZnRjcDdESjdFZlBXUVR0eEM0Tzg2NDN2M2tqU0pEaXd6TTZBOE5yRkVZR2ZBQU1DNWp1RTlxN2V6UHNHUUFJb28?oc=5",
         "pool": "google",
         "date": "2026-08-31",
@@ -925,6 +918,13 @@
       {
         "title": "Game over, new routine: Laid-off Xbox manager built her Korean skincare startup before cuts hit - GeekWire",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSmd3bV80NzFvZlZtOUNnSUF4eTRlQ0VoamFoUlY5aEQ2Q000MmlBVmVTQ3ZuWV9wTmhzWXROSWNyaDNuQ0JrTFdEczljM0JlbTBtdFBZbnhtakNaWHBTZTBGWDFzbDJURU1ESi1mano4T21KMHV0ZEQwOFI3aWI3Q2lTbzhPSmw5dEp6cGZVXzhadW5GNTRNaVhhMEhIdjY0czMwTmN4aUlpVWNYTmV5ZnNxWkdlcUZFUUhoNEdId3gxZw?oc=5",
+        "pool": "google",
+        "date": "2026-08-28",
+        "by_hand": false
+      },
+      {
+        "title": "You’ve been buying K-beauty. Is it time to try Korean treatments? - The Times",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSFlyd3hfU3ozdUtzS0d1MU5Hbmx6MHlWZTFicUdJT2NrSWlaLWJTS2lzQ21tZGhrQTRRei1FeDJnQk1OU0dvM1R5cUlnYnZFM05SM0syVjhnYXlnTmV5LVlHRmNpTmVBamFQMVFHVWJEQW9JVm1uTGxWLW84dTZCYTZ1RU1QVjhYTGhaaEp2NHNkQ2k3T1hsZElFcw?oc=5",
         "pool": "google",
         "date": "2026-08-28",
         "by_hand": false
@@ -988,7 +988,7 @@
         "by_hand": true
       },
       {
-        "title": "Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - HS Insider",
+        "title": "Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - highschool.latimes.com",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPc2g3NThETVhLa3FISG94RmRGSURCVlJ6aGNHUWZleXJHS0VfTUd0ZEZJUzduRVpjSGxTcGRKNlhKeXVCVHpMTmpFWjBPcHdzYkIyeG1lcHJXeVV6cHFPZXl5UFdnUkpRNDVRLXFjZTFtNmpmYThKdmVveTBTM0ZsN1lBNjJyRE9UVmZReGlaeG54Mko1ZDItRlFoUXZKc1BRcmwzSnR3RGVpTjRzbVVTcDI4dw?oc=5",
         "pool": "google",
         "date": "2026-09-17",
@@ -1205,7 +1205,7 @@
         "by_hand": false
       },
       {
-        "title": "Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - highschool.latimes.com",
+        "title": "Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - HS Insider",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPc2g3NThETVhLa3FISG94RmRGSURCVlJ6aGNHUWZleXJHS0VfTUd0ZEZJUzduRVpjSGxTcGRKNlhKeXVCVHpMTmpFWjBPcHdzYkIyeG1lcHJXeVV6cHFPZXl5UFdnUkpRNDVRLXFjZTFtNmpmYThKdmVveTBTM0ZsN1lBNjJyRE9UVmZReGlaeG54Mko1ZDItRlFoUXZKc1BRcmwzSnR3RGVpTjRzbVVTcDI4dw?oc=5",
         "pool": "us_beauty",
         "date": "",
@@ -1312,6 +1312,13 @@
         "url": "https://doi.org/10.11113/intrest.v20n1.436",
         "pool": "institutions",
         "date": "2026-06-30",
+        "by_hand": false
+      },
+      {
+        "title": "7 Best Ecommerce Analytics Platforms for DTC Brands: Features, Pricing, and ROI Compared (2026) - Ask Luca",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9rZktSWEpid3RqbWs0cmc4Q0pULWZNdGh6cVpxZVdFOHVMOXB5N3dNT0dqN0NlWlNyOEtUWm0yeFZMLTF6LW53TzFJVVRCVkFQUHNycldlX2JzY0hLZElkOTVmZXpyTVE?oc=5",
+        "pool": "google",
+        "date": "2026-02-27",
         "by_hand": false
       },
       {
@@ -2577,13 +2584,6 @@
         "by_hand": false
       },
       {
-        "title": "10 Best AI-Powered Analytics Tools for Ecommerce in 2026: Chat Interfaces, Autonomous Analysts and Vertical Tools Compared - Ask Luca",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1aYVpPVndBZV9leHQ1N2NObW9TbUNZTVEtT2prTFpocXB2N0ktVGRoSWs0dXdJa1Jid05lNGI0LU91UGN0R1ppYUo2Zm1JdGwxUVR2ZTBoUThfaTNkR2puLUFNdw?oc=5",
-        "pool": "google",
-        "date": "2026-09-03",
-        "by_hand": false
-      },
-      {
         "title": "Booz Allen Charts Autonomous AI Threats and Unveils New Counter AI Defense",
         "url": "https://investors.boozallen.com/news-releases/news-release-details/booz-allen-charts-autonomous-ai-threats-and-unveils-new-counter",
         "pool": "institutions",
@@ -2602,6 +2602,13 @@
         "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-delivers-end-end-security-identity-and-observability",
         "pool": "institutions",
         "date": "2026-08-31",
+        "by_hand": false
+      },
+      {
+        "title": "Video Friday: Meet Microduck",
+        "url": "https://spectrum.ieee.org/video-friday-microduck-robot",
+        "pool": "robotics",
+        "date": "2026-08-28",
         "by_hand": false
       }
     ],

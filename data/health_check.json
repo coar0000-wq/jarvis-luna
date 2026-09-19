@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T22:02:10.098326+00:00",
+  "generated_at": "2026-09-19T22:20:50.595579+00:00",
   "overall_status": "failed",
   "status_legend": {
     "success": "정상",
@@ -8,7 +8,7 @@
     "failed": "예외 - 사람 개입 필요"
   },
   "kpi": {
-    "last_success": "2026-09-19T22:02:10.098316+00:00",
+    "last_success": "2026-09-19T22:20:50.595572+00:00",
     "failed_jobs": 1,
     "queue": 3155,
     "stale_source": "marketing",
@@ -64,7 +64,7 @@
     {
       "team": "gosi",
       "status": "warning",
-      "reason": "158.2h 전 갱신 - 변경 없음으로 처리",
+      "reason": "158.5h 전 갱신 - 변경 없음으로 처리",
       "is_failure": false,
       "is_no_change": true,
       "freshness": "6.6 days ago"
@@ -79,7 +79,7 @@
     {
       "team": "daiso",
       "status": "success",
-      "reason": "정상 46.8h 전",
+      "reason": "정상 47.2h 전",
       "is_failure": false,
       "freshness": "2.0 days ago"
     }

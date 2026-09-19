@@ -2,7 +2,7 @@
 title: "Record c7d2527369 · K-Beauty-skincare-tourism-booms-in-South-Korea---WF"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T22:02:37.993602+00:00
+updated_at: 2026-09-19T22:21:10.579473+00:00
 tags: [record, real-data]
 ---
 

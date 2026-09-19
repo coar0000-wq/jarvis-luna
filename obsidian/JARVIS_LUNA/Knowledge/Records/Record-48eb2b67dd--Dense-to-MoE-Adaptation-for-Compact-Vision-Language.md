@@ -2,7 +2,7 @@
 title: "Record 48eb2b67dd · Dense-to-MoE-Adaptation-for-Compact-Vision-Language-Action-Policies"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T22:02:37.806744+00:00
+updated_at: 2026-09-19T22:21:10.453877+00:00
 tags: [record, real-data]
 ---
 

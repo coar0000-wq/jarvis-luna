@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T07:02:45.290201+09:00",
+  "generated_at": "2026-09-20T07:21:15.998577+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
       "id": "sourcing",
       "name": "상품 소싱팀",
-      "when": "2026-09-19T22:00:58.584519+00:00",
+      "when": "2026-09-19T22:19:43.436822+00:00",
       "summary": "338개 상품 · 등급 S 10 / A 73 / B 45 / C 210 · 새 자료 3건",
       "action": "직전 실행 67건 받아 성공 38건 · 받아보고 뷰티 아니라 버림 29건 · 이미 판정해서 안 받음 1641건 · 후보 출처 queue, 큐 3155건",
       "status": "ok",
@@ -18,7 +18,7 @@
     {
       "id": "institutions",
       "name": "기관 수집팀",
-      "when": "2026-09-19T21:55:18.033168+00:00",
+      "when": "2026-09-19T22:14:32.346899+00:00",
       "summary": "35곳 1,063건 · 미수집 12건 사유 기록 · 새 자료 261건",
       "action": null,
       "status": "ok",
@@ -30,7 +30,7 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-09-20T07:01:03.589473+09:00",
+      "when": "2026-09-20T07:19:48.104635+09:00",
       "summary": "S등급 10개 · 고시 판독 남음 2건 · 새 자료 36건",
       "action": "고시 표 2건 판독 남음 (상세 이미지는 받았으나 비전 할당량 소진(429)으로 판독 대기) — 1072554 [탄력리프팅]본셉 레티놀 탄력샷  https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072554 / 1053482 메디필 엑스트라 슈퍼 9 플러스  https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1053482",
       "status": "ok",
@@ -42,7 +42,7 @@
     {
       "id": "listing",
       "name": "리스팅 제작팀",
-      "when": "2026-09-19T22:01:00.927572+00:00",
+      "when": "2026-09-19T22:19:45.675823+00:00",
       "summary": "AI 입력 8/10 · 초안 준비 8/10 · 공개 준비 0/10 · Action 7건 · CP 10 · 카피 8 · 고시 8 · 가격 10 · 법률 8",
       "action": "카피 2건, 고시 2건, 영문라벨 2건 이 초안을 막고 있음 · MoCRA/FPLA 풀스키마가 공개 판매를 막고 있음 · Shopify Draft Action 7건 사람 승인 대기",
       "status": "ok",
@@ -54,7 +54,7 @@
     {
       "id": "pricing",
       "name": "가격 정책팀",
-      "when": "2026-09-19T22:00:58.698381+00:00",
+      "when": "2026-09-19T22:19:43.523558+00:00",
       "summary": "개당 배송비 $6.06~$8.25 · 무게 43~360g (고시용량 10) · DDU/DDP 4개 · 새 자료 7건",
       "action": null,
       "status": "ok",
@@ -66,7 +66,7 @@
     {
       "id": "legal",
       "name": "법률·규제팀",
-      "when": "2026-09-19T22:00:58.746602+00:00",
+      "when": "2026-09-19T22:19:43.561952+00:00",
       "summary": "자동 점검 10건 · 통과 0 · 등록 차단 2 · 참고 주의 10 · MoCRA 준비 0/7 · 수출서류 HS 10건 · 라벨 3/6항목 자동 · 새 자료 24건",
       "action": "차단 2건: [탄력리프팅]본셉 레티놀 탄력(자동 점검 미통과: lab), 메디필 엑스트라 슈퍼 9 플러(자동 점검 미통과: lab) — 라벨 갖추기 전엔 못 올림",
       "status": "ok",
@@ -78,7 +78,7 @@
     {
       "id": "robotics",
       "name": "로보틱스 수집",
-      "when": "2026-09-19T21:54:01.745471+00:00",
+      "when": "2026-09-19T22:13:14.972885+00:00",
       "summary": "65건 · arxiv 25 / rss 40 · 새 자료 53건",
       "action": null,
       "status": "ok",
@@ -90,7 +90,7 @@
     {
       "id": "design",
       "name": "디자인팀",
-      "when": "2026-09-19T21:55:26.554451+00:00",
+      "when": "2026-09-19T22:14:40.834780+00:00",
       "summary": "스토어 2/12단계 · 레퍼런스 85건 · 폰트 1946개(한글 38) · 팔레트 13색조 · 디자인 기사 60건 · 영상 35건 · 새 자료 98건",
       "action": "다음 단계: Shopify 스토어 개설 및 기본 설정",
       "status": "ok",
@@ -102,7 +102,7 @@
     {
       "id": "channels",
       "name": "채널 운영팀",
-      "when": "2026-09-19T22:01:16.964786+00:00",
+      "when": "2026-09-19T22:20:01.178282+00:00",
       "summary": "가동 11/12채널 · 수동 입력 32건 · 후보 7건 검사, 미연동 0건",
       "action": null,
       "status": "ok",
@@ -114,7 +114,7 @@
     {
       "id": "knowledge",
       "name": "지식 수집팀",
-      "when": "2026-09-19T21:55:52.520770+00:00",
+      "when": "2026-09-19T22:15:07.101046+00:00",
       "summary": "536건 · arXiv 49 / 유기농스킨 30 / Google 300 / US뷰티 157",
       "action": null,
       "status": "ok",
@@ -126,7 +126,7 @@
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-09-20T07:02:38.690272+09:00",
+      "when": "2026-09-20T07:21:11.100424+09:00",
       "summary": "81,926노트 · 330,219링크 · 끊어진 링크 0건 · 개인 노트 16건 별도",
       "action": null,
       "status": "ok",
@@ -140,7 +140,7 @@
     "id": "secretary",
     "name": "비서실장",
     "badge": "총괄",
-    "when": "2026-09-20T06:52:07.831695+09:00",
+    "when": "2026-09-20T07:11:21.545991+09:00",
     "summary": "30분 주기 · 고시 25건 · US라벨 25건 · 카피 10건 · 등록 가능 8건 · 법률 차단 2건",
     "action": "갱신 지연 고시 수집, 리스팅 카피 — 2시간 넘게 변경 없음(실패로 단정하지 않음)",
     "status": "warning",
@@ -149,36 +149,36 @@
         "단계": "고시 수집",
         "산출물": "gosi.json",
         "갱신": "2026-09-13T07:50:40.431569+00:00",
-        "몇시간전": 158.2
+        "몇시간전": 158.5
       },
       {
         "단계": "고시 비전 추출",
         "산출물": "gosi.json",
-        "갱신": "2026-09-20T06:52:07.831695+09:00",
+        "갱신": "2026-09-20T07:11:21.545991+09:00",
         "몇시간전": 0.2
       },
       {
         "단계": "US 라벨 동기화",
         "산출물": "daiso_us_labels.json",
-        "갱신": "2026-09-20T06:52:07.361502+09:00",
+        "갱신": "2026-09-20T07:11:21.160984+09:00",
         "몇시간전": 0.2
       },
       {
         "단계": "리스팅 카피",
         "산출물": "shopify_listing_copy.json",
         "갱신": "2026-09-19T06:20:18.772438+00:00",
-        "몇시간전": 15.7
+        "몇시간전": 16.0
       },
       {
         "단계": "등록 게이트",
         "산출물": "listing_gate.json",
-        "갱신": "2026-09-19T22:01:00.927572+00:00",
+        "갱신": "2026-09-19T22:19:45.675823+00:00",
         "몇시간전": 0.0
       },
       {
         "단계": "법률 점검",
         "산출물": "legal_products.json",
-        "갱신": "2026-09-19T22:00:58.746602+00:00",
+        "갱신": "2026-09-19T22:19:43.561952+00:00",
         "몇시간전": 0.0
       }
     ],
@@ -213,7 +213,7 @@
     }
   },
   "errors": {
-    "generated_at": "2026-09-19T22:02:10.057066+00:00",
+    "generated_at": "2026-09-19T22:20:50.564942+00:00",
     "total": 37,
     "counts": {
       "고장": 5,
@@ -303,7 +303,7 @@
     ]
   },
   "health": {
-    "generated_at": "2026-09-19T22:02:10.098326+00:00",
+    "generated_at": "2026-09-19T22:20:50.595579+00:00",
     "overall_status": "failed",
     "status_legend": {
       "success": "정상",
@@ -312,7 +312,7 @@
       "failed": "예외 - 사람 개입 필요"
     },
     "kpi": {
-      "last_success": "2026-09-19T22:02:10.098316+00:00",
+      "last_success": "2026-09-19T22:20:50.595572+00:00",
       "failed_jobs": 1,
       "queue": 3155,
       "stale_source": "marketing",
@@ -368,7 +368,7 @@
       {
         "team": "gosi",
         "status": "warning",
-        "reason": "158.2h 전 갱신 - 변경 없음으로 처리",
+        "reason": "158.5h 전 갱신 - 변경 없음으로 처리",
         "is_failure": false,
         "is_no_change": true,
         "freshness": "6.6 days ago"
@@ -383,7 +383,7 @@
       {
         "team": "daiso",
         "status": "success",
-        "reason": "정상 46.8h 전",
+        "reason": "정상 47.2h 전",
         "is_failure": false,
         "freshness": "2.0 days ago"
       }
@@ -436,7 +436,7 @@
     "status": "completed",
     "record_count": 3928,
     "source_counts": {},
-    "updated_at": "2026-09-20T06:55:52.533594+09:00"
+    "updated_at": "2026-09-20T07:15:07.111161+09:00"
   },
   "graph": {
     "notes": 81926,
@@ -450,7 +450,7 @@
     "topics": 28,
     "orgs": 35,
     "audit": "passed",
-    "last_generated": "2026-09-20T07:02:38.690272+09:00"
+    "last_generated": "2026-09-20T07:21:11.100424+09:00"
   },
   "training": {
     "status": "completed",
@@ -461,11 +461,11 @@
     "experts": 3,
     "accuracy": 0.8790733197556008,
     "validation_accuracy": 0.8878504672897196,
-    "final_loss": 0.42584864582724596,
-    "gate_load_std": 0.1007773386671554,
+    "final_loss": 0.42582408438160546,
+    "gate_load_std": 0.10086915643351602,
     "tuning_promoted": true,
     "tuning_steps": 500,
-    "updated_at": "2026-09-19T22:00:21.217959+00:00"
+    "updated_at": "2026-09-19T22:19:05.289613+00:00"
   },
   "cumulative": {
     "totals": {
@@ -1016,8 +1016,8 @@
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTWhmVlpqOU5iUWRfT2x1V0Y0cmVlMVNQZElYaFQyUEpHQmRDZUJNdkNFMy03WUptY0ZfMXJubWJramM4dUFSZXl1SDR5QUl2UE0xeVNqbHl5X3RQUXZfV3Q1am1QcDN6UFRVbkdYN2dEUHo0Z3pKT3dMZ0tFNlNaUXE5TzZjTjJfNnlJTnVBUjdvTlBkNmRHTVFyanZZa2YwcDhEdQ?oc=5"
       },
       {
-        "keyword": "K-Beauty Isn’t Just For Gen Z. These Korean Skin Care Picks Are Made For Mature Skin - huffpost.com",
-        "product": "K-Beauty Isn’t Just For Gen Z. These Korean Skin Care Picks Are Made For Mature Skin - huffpost.com",
+        "keyword": "K-Beauty Isn’t Just For Gen Z. These Korean Skin Care Picks Are Made For Mature Skin - HuffPost",
+        "product": "K-Beauty Isn’t Just For Gen Z. These Korean Skin Care Picks Are Made For Mature Skin - HuffPost",
         "sub": "K-beauty",
         "badge": "news",
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRURKYS1ZekRkbWVwN2g1TTFWd3VkUmtReXFsVFFlbEFlR0cxTXFXd2k5Zkw5WGM0TmRWc0tSS21fWjROdHZMYVI2S3pqOF90QnJNQ242blFzLTNFd0V1NlhQQ1h5UkFYZS1qQ21RQnN0bW5oenpibURlTi1XVmE2R255Mm5Ga0NEUEwyVEhhUzk1LVhKeEVXbm14NNIBoAFBVV95cUxOWVE3UVVwRWxaYWpnVDgxUHdiWUF1YzVsMkJZVFpJZGlOOEpCdXNxX1hjWGJfY0MtelJjZkREVzhMX2VZdkVDd1hJVWdYcHRHenU2Ylh5Z25kN2lGWm5WZTJTeWthWldFbndJTjNYODdlV0FqaFpnYXVFQ0hlU1NSSjhONXZtQmloUndlT3FrVW1tSEV4b3FPNHEycWI3VjZj?oc=5"
@@ -1058,8 +1058,8 @@
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdjVaVE1LTV9uenRyWlJQbWs0R0I5SkVMaUJMZ2RFOXZMa3hUdmJvamxtQkdoMTNGbk1xR1RvTkltMW8yS2NtVkNHUGdGbG9uN0NfNXQzbzU5SjJXMzNzY3lhbEVQM2YyX1FpVXpDSUp4RGQ3ajdTT1BJdGRod0Nrd3NEdE9LUWFZZmlvZTkxMDJteGh3?oc=5"
       },
       {
-        "keyword": "Same brand, different SPF: Why Korean sunscreens outperform US versions - The Korea Times",
-        "product": "Same brand, different SPF: Why Korean sunscreens outperform US versions - The Korea Times",
+        "keyword": "Same brand, different SPF: Why Korean sunscreens outperform US versions - koreatimes.co.kr",
+        "product": "Same brand, different SPF: Why Korean sunscreens outperform US versions - koreatimes.co.kr",
         "sub": "Korean sunscreen",
         "badge": "news",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdXEyV1k2UDNvY01GVEFoVE01MldFRjlqaGlJY3kzRjliamkxcEV3aXFJeS1WRDJpbzI2OGVfTDFoTGR3Ny0tUkNRMXJ0RmJvRktpM2FDN0h4aE1uSHItVVNMWFNycnM1aDR4NW1TUVVQdjRhTmNIUXQxUmlVM253Z2NCNmIwbW9xVHJFLWd0R0tyZ2k4TWtqTzFoeDJUNDE5ZVpfeUZHNWtqNjVsOEhQRjUzSlZ0LTNN0gG-AUFVX3lxTE9teTR0RHBndWpfVGJ2OElRU1NCVDNSaVdZTjcwLWZpcU9ubEJma1FEeU9SbFRmc0hWd3hCTUhoUjlsb05Sek53VlI3RVF4dTI0MlFYRXpScmw4bFM1WVpjVEpnSFMtUllTWm9xYkxkbXVIM2RUaHQ3UlpXcGZJTHMxYkQ4aUlBdmFxQllQZF9YbG9yYVk5ay0yTUlVYTBjS3dZTnlkdzVLRzQxMGkzM0FzOERMOEo3d1RDOURmUnc?oc=5"
@@ -1093,8 +1093,8 @@
         "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ZTWU0R2c2bXdNckV1N29mSDJWb201UGxUT2ZOajNjZ0oyRkJHTWVQdzdSME5YT0M2M0g2YXFrSnZGZWk3Mmx2S3VkVUx3bk9jMVV5dQ?oc=5"
       },
       {
-        "keyword": "The Best Korean Sunscreens for Invisible UV Protection - The Daily Beast",
-        "product": "The Best Korean Sunscreens for Invisible UV Protection - The Daily Beast",
+        "keyword": "The Best Korean Sunscreens for Invisible UV Protection - thelooker.thedailybeast.com",
+        "product": "The Best Korean Sunscreens for Invisible UV Protection - thelooker.thedailybeast.com",
         "sub": "Korean sunscreen",
         "badge": "news",
         "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObVNqeHpLQ3ZVc29jQ0JxTnpaTXhTTklfME5rN3QzakpIajB2Q09jekF5Q0dVYTN3M3ZiUklmWDZ5RTFGMnRwU1kzYWNMWGlybVNIYUZ1R1huUGYzTEJnanhBQzhqWXh3MFZYVFpLRWJSeTVBWEFiMm0tVlpMb19XZDVkbw?oc=5"
@@ -1728,7 +1728,7 @@
       "collected_at": "2026-09-17T23:04:01.019482+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 47.0,
+      "age_hours": 47.3,
       "stale": false
     },
     "walmart_beauty": {
@@ -1738,14 +1738,14 @@
       "collected_at": "2026-09-17T23:04:01.020454+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 47.0,
+      "age_hours": 47.3,
       "stale": false
     },
     "oliveyoung_us": {
       "status": "ok",
       "source": "us.oliveyoung.com/best-sellers 실수집",
       "reason": "",
-      "collected_at": "2026-09-19T21:56:14.362197+00:00",
+      "collected_at": "2026-09-19T22:15:47.655225+00:00",
       "count": 15,
       "trust": "verified",
       "age_hours": 0.1,
@@ -1755,7 +1755,7 @@
       "status": "ok",
       "source": "google news rss (beauty queries) + trends daily filtered",
       "reason": "",
-      "collected_at": "2026-09-19T21:56:55.806215+00:00",
+      "collected_at": "2026-09-19T22:16:24.080562+00:00",
       "count": 15,
       "trust": "verified",
       "age_hours": 0.1,
@@ -1765,33 +1765,33 @@
       "status": "ok",
       "source": "wikimedia.org REST pageviews API (공식)",
       "reason": "",
-      "collected_at": "2026-09-19T21:30:11.595674+00:00",
+      "collected_at": "2026-09-19T22:00:57.571850+00:00",
       "count": 8,
       "trust": "verified",
       "note": "2026-08-19 ~ 2026-09-17 일별 조회수. 후반 15일 대비 전반 15일 증감률",
-      "age_hours": 0.5,
+      "age_hours": 0.3,
       "stale": false
     },
     "allure_media": {
       "status": "ok",
       "source": "allure.com/feed/rss",
       "reason": "",
-      "collected_at": "2026-09-19T21:30:11.595674+00:00",
+      "collected_at": "2026-09-19T22:00:57.571850+00:00",
       "count": 15,
       "trust": "verified",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
-      "age_hours": 0.5,
+      "age_hours": 0.3,
       "stale": false
     },
     "openfda_sunscreen": {
       "status": "ok",
       "source": "api.fda.gov/drug/label (openFDA 공식)",
       "reason": "",
-      "collected_at": "2026-09-19T21:30:11.595674+00:00",
+      "collected_at": "2026-09-19T22:00:57.571850+00:00",
       "count": 15,
       "trust": "verified",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다.",
-      "age_hours": 0.5,
+      "age_hours": 0.3,
       "stale": false
     },
     "shopify_demand_matching": {
@@ -1817,7 +1817,7 @@
       "collected_at": "2026-09-17T23:04:01.021121+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 47.0,
+      "age_hours": 47.3,
       "stale": false
     },
     "sephora": {
@@ -1827,14 +1827,14 @@
       "collected_at": "2026-09-17T23:04:01.021121+00:00",
       "count": 14,
       "trust": "verified",
-      "age_hours": 47.0,
+      "age_hours": 47.3,
       "stale": false
     },
     "open_beauty_facts": {
       "status": "ok",
       "source": "world.openbeautyfacts.org /api/v2 (오픈데이터)",
       "reason": "",
-      "collected_at": "2026-09-19T21:56:13.799087+00:00",
+      "collected_at": "2026-09-19T22:15:28.742229+00:00",
       "count": 15,
       "trust": "verified",
       "age_hours": 0.1,
@@ -1847,5 +1847,5 @@
     "source": "https://open.er-api.com/v6/latest/USD",
     "updated_at": "2026-09-20"
   },
-  "last_synced": "09. 20. 오전 07:00 KST"
+  "last_synced": "09. 20. 오전 07:19 KST"
 }

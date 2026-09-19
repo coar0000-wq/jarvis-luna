@@ -2,7 +2,7 @@
 title: "Record 02e4c1fb65 · A-Conceptual-and-Applied-Framework-for-Enterprise-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T22:02:37.842900+00:00
+updated_at: 2026-09-19T22:21:10.479376+00:00
 tags: [record, real-data]
 ---
 

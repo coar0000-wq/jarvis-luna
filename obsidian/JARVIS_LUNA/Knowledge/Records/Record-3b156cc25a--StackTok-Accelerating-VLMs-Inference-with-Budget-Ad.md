@@ -2,7 +2,7 @@
 title: "Record 3b156cc25a · StackTok-Accelerating-VLMs-Inference-with-Budget-Adaptive-Visual-Token"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T22:02:37.809360+00:00
+updated_at: 2026-09-19T22:21:10.456001+00:00
 tags: [record, real-data]
 ---
 

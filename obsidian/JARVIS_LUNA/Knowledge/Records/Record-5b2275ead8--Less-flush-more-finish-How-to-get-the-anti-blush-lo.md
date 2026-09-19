@@ -2,7 +2,7 @@
 title: "Record 5b2275ead8 · Less-flush-more-finish-How-to-get-the-anti-blush-look-plus-celebrity-i"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T22:02:38.051722+00:00
+updated_at: 2026-09-19T22:21:10.622304+00:00
 tags: [record, real-data]
 ---
 

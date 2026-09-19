@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-19T21:56:28.271811+00:00",
+  "collected_at": "2026-09-19T22:16:01.340389+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -56,6 +56,14 @@
       "score": 4
     },
     {
+      "keyword": "sheet",
+      "score": 4
+    },
+    {
+      "keyword": "masks",
+      "score": 4
+    },
+    {
       "keyword": "korean",
       "score": 4
     },
@@ -100,10 +108,6 @@
       "score": 2
     },
     {
-      "keyword": "sheet",
-      "score": 2
-    },
-    {
       "keyword": "mask",
       "score": 2
     },
@@ -120,15 +124,7 @@
       "score": 2
     },
     {
-      "keyword": "best",
-      "score": 2
-    },
-    {
       "keyword": "kbeauty",
-      "score": 2
-    },
-    {
-      "keyword": "makeup",
       "score": 2
     },
     {
@@ -202,9 +198,21 @@
     {
       "keyword": "sale",
       "score": 1
+    },
+    {
+      "keyword": "there",
+      "score": 1
     }
   ],
   "beauty_keywords": [
+    {
+      "keyword": "sheet",
+      "score": 4
+    },
+    {
+      "keyword": "masks",
+      "score": 4
+    },
     {
       "keyword": "korean",
       "score": 4
@@ -219,10 +227,6 @@
     },
     {
       "keyword": "spf50+",
-      "score": 2
-    },
-    {
-      "keyword": "sheet",
       "score": 2
     },
     {
@@ -280,6 +284,13 @@
       "title": "SHOPEE 9.9 Sale Haul - C Beauty, K Beauty, J Beauty & Thai Beauty",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wkfann/shopee_99_sale_haul_c_beauty_k_beauty_j_beauty/",
       "published": "2026-09-19T07:11:11+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Is there a difference between sheet masks and gel masks?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wkyxpa/is_there_a_difference_between_sheet_masks_and_gel/",
+      "published": "2026-09-19T22:01:12+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -420,13 +431,6 @@
       "title": "Canadians ordering online.",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wi9zhv/canadians_ordering_online/",
       "published": "2026-09-16T21:11:07+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Best tips for douyin makeup?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wieof2/best_tips_for_douyin_makeup/",
-      "published": "2026-09-17T00:26:13+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

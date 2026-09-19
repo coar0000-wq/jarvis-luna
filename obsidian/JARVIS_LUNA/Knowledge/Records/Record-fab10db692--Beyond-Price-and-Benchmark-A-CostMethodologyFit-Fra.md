@@ -2,7 +2,7 @@
 title: "Record fab10db692 · Beyond-Price-and-Benchmark-A-CostMethodologyFit-Fra"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T22:02:37.845871+00:00
+updated_at: 2026-09-19T22:21:10.481313+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record a8d118f843 · Meet-your-stores-new-AI-assistant"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T22:02:38.297331+00:00
+updated_at: 2026-09-19T22:21:10.790430+00:00
 tags: [record, real-data]
 ---
 

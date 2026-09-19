@@ -2,7 +2,7 @@
 title: "Record df26bd70c1 · Aurora-15-Extending-open-foundation-models-for-weat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T22:02:38.215446+00:00
+updated_at: 2026-09-19T22:21:10.736476+00:00
 tags: [record, real-data]
 ---
 

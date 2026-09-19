@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T22:00:57.571850+00:00",
+  "generated_at": "2026-09-19T22:19:42.520695+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -75,20 +75,20 @@
           "url": "https://trends.google.com/trending?geo=US&q=robelis%20despaigne"
         },
         {
+          "keyword": "iwo baraniewski",
+          "approx_traffic": "100+",
+          "traffic_num": 100,
+          "published": "Sat, 19 Sep 2026 14:50:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=iwo%20baraniewski"
+        },
+        {
           "keyword": "choi doo-ho",
           "approx_traffic": "100+",
           "traffic_num": 100,
           "published": "Sat, 19 Sep 2026 14:00:00 -0700",
           "source_name": "Yahoo Sports",
           "url": "https://trends.google.com/trending?geo=US&q=choi%20doo-ho"
-        },
-        {
-          "keyword": "trey mancini",
-          "approx_traffic": "100+",
-          "traffic_num": 100,
-          "published": "Sat, 19 Sep 2026 14:00:00 -0700",
-          "source_name": "The New York Times",
-          "url": "https://trends.google.com/trending?geo=US&q=trey%20mancini"
         }
       ]
     },

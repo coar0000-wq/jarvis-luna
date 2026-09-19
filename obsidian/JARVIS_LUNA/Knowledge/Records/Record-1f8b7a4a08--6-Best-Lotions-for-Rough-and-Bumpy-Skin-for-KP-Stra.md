@@ -2,7 +2,7 @@
 title: "Record 1f8b7a4a08 · 6-Best-Lotions-for-Rough-and-Bumpy-Skin-for-KP-Strawberry-Skin-and-Mor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T22:02:38.146971+00:00
+updated_at: 2026-09-19T22:21:10.691845+00:00
 tags: [record, real-data]
 ---
 

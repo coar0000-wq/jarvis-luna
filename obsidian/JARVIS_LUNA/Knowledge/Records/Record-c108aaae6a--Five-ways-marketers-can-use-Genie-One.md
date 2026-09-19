@@ -2,7 +2,7 @@
 title: "Record c108aaae6a · Five-ways-marketers-can-use-Genie-One"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T22:02:38.195136+00:00
+updated_at: 2026-09-19T22:21:10.723711+00:00
 tags: [record, real-data]
 ---
 
