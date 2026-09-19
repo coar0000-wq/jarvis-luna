@@ -26,13 +26,14 @@
 from __future__ import annotations
 
 import json
+import os
 import sys
 import time
 import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -47,6 +48,16 @@ NS = {"a": "http://www.w3.org/2005/Atom",
       "ar": "http://arxiv.org/schemas/atom"}
 
 ARXIV_CATS = [("cs.RO", "로보틱스"), ("eess.SY", "시스템·제어")]
+
+# OpenAlex 로 받는다. 이유는 collect_arxiv() 주석에 적어 두었다.
+ARXIV_OPENALEX_SOURCE = "S4306400194"          # arXiv (Cornell University)
+OPENALEX_MAILTO = os.environ.get(
+    "OPENALEX_MAILTO", "jarvis-luna@users.noreply.github.com")
+OPENALEX_DAYS = 21
+OPENALEX_TOPICS = [
+    ("T10715", "로보틱스"),
+    ("T11209", "제어·자율주행"),
+]
 RSS_FEEDS = [
     ("IEEE Spectrum Robotics", "https://spectrum.ieee.org/feeds/topic/robotics.rss"),
     ("The Robot Report", "https://www.therobotreport.com/feed/"),
@@ -80,13 +91,88 @@ def collect_arxiv() -> dict:
 
     RSS 쪽(IEEE Spectrum, Robot Report)은 그대로 받는다. 거기는 막지 않는다.
     로보틱스 수집이 통째로 죽는 것이 아니라 arXiv 몫만 빈다.
+    2026-09-17 추가
+
+    막힌 것은 한 호스트지 논문이 아니었다. 지식 수집팀에 같은 일을 하고
+    여기만 비워두면 같은 자리를 다시 파게 된다. OpenAlex 로 받는다.
+
+      export.arxiv.org   Disallow: /        안 된다
+      api.openalex.org   Allow: /           이걸 쓴다
+
+    real_knowledge_sync.py 와 같은 방식이고 주제만 로보틱스다.
     """
+    since = (datetime.now(timezone.utc) - timedelta(days=OPENALEX_DAYS)
+             ).strftime("%Y-%m-%d")
+    rows, errs = [], []
+    seen = set()
+
+    for topic_id, label in OPENALEX_TOPICS:
+        url = "https://api.openalex.org/works?" + urllib.parse.urlencode({
+            "filter": (f"primary_location.source.id:{ARXIV_OPENALEX_SOURCE},"
+                       f"from_publication_date:{since},"
+                       f"topics.id:{topic_id}"),
+            "sort": "publication_date:desc",
+            "per-page": str(MAX_PER_SOURCE),
+            "mailto": OPENALEX_MAILTO,
+        })
+        body, err = get(url, ARXIV_UA)
+        if err or not body:
+            errs.append(f"{label}: {err or 'empty'}")
+            continue
+        try:
+            doc = json.loads(body.decode("utf-8", "replace"))
+        except json.JSONDecodeError as e:
+            errs.append(f"{label}: JSON {e}")
+            continue
+
+        for w in doc.get("results") or []:
+            title = clean(w.get("title"))
+            if not title:
+                continue
+            loc = w.get("primary_location") or {}
+            link = loc.get("landing_page_url") or w.get("doi") or ""
+            key = link or title.lower()
+            if key in seen:
+                continue
+            seen.add(key)
+
+            inv = w.get("abstract_inverted_index")
+            summary = ""
+            if isinstance(inv, dict) and inv:
+                slots = {}
+                for word, pos in inv.items():
+                    if isinstance(pos, list):
+                        for p in pos:
+                            if isinstance(p, int):
+                                slots[p] = word
+                summary = " ".join(slots[i] for i in sorted(slots))
+
+            rows.append({
+                "title": title,
+                "summary": summary[:400],
+                "published": w.get("publication_date") or "",
+                "url": link,
+                "primary_category": label,
+                "source_detail": "arXiv via OpenAlex",
+            })
+        time.sleep(ARXIV_DELAY)
+
+    if not rows:
+        return {
+            "status": "failed",
+            "reason": ("OpenAlex 에서 로보틱스 논문을 받지 못했다. "
+                       + ("; ".join(errs) if errs else "결과 0건")),
+            "items": [],
+            "errors": errs,
+        }
+
     return {
-        "status": "skipped",
-        "reason": ("export.arxiv.org/robots.txt 가 Disallow: / 다. "
-                   "robots 를 지키기로 해서 받지 않는다."),
-        "items": [],
-        "errors": [],
+        "status": "ok",
+        "reason": "; ".join(errs),
+        "경로": ("api.openalex.org (robots Allow: /) · "
+                "export.arxiv.org 에는 요청하지 않는다"),
+        "items": rows,
+        "errors": errs,
     }
 
 
