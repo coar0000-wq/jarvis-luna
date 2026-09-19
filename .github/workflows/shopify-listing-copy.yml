@@ -38,7 +38,7 @@ on:
 
 concurrency:
   # Deep Analysis / Chief of Staff와 동일한 main 작성 대기열
-  group: jarvis-main-writer-${{ github.ref }}
+  group: main-publish
   cancel-in-progress: false
 
 permissions:
@@ -231,6 +231,12 @@ jobs:
           SHOPIFY_BUNDLE: ${{ github.event.inputs.bundle || '5개_묶음배송' }}
           SHOPIFY_VENDOR: ${{ github.event.inputs.vendor || 'MD family' }}
         run: |
+          python scripts/check_legal_products.py
+          python scripts/build_legal_full.py
+          python scripts/build_listing_gate.py
+          python scripts/build_product_master.py --inject-s
+          python scripts/build_market_team.py
+          python scripts/export_shopify_operational.py
           python scripts/build_shopify_import_csv.py
 
       # -------------------------------------------------------
@@ -427,5 +433,5 @@ jobs:
         if: steps.guard.outputs.ready == 'true'
         uses: ./.github/actions/publish
         with:
-          paths: data/shopify_listing_copy.json data/shopify_import.csv data/shopify_import_report.json data/pricing_model.json data/daiso_real/collection_status.json
+          paths: data/shopify_listing_copy.json data/shopify_import.csv data/shopify_import_report.json data/pricing_model.json data/daiso_real/collection_status.json data/product_master.json data/legal_products.json data/legal_full.json data/listing_gate.json data/daiso_real/shopify_s_recommendations.json data/market_team.json data/marketing_priority.csv data/shopify_exports data/dashboard_runtime.json
           message: Shopify 영문 리스팅 카피 자동 갱신
