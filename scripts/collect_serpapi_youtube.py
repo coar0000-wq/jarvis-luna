@@ -53,13 +53,45 @@ YOUTUBE_CAP = 45
 TIMEOUT = 30
 DELAY = 2.0
 
-QUERIES = [
+# 질의 세트를 요일로 나눠 쓴다 (2026-09-19).
+#
+# 지금까지 질의 5개가 전부 K뉴티 제품 리뷰였다. 그래서 "유튜브에서
+# shopify marketing 을 조사하고 있느냐" 라는 물음에 아니오라고 답해야 했다.
+# 사람이 손으로 붙인 6건이 전부였다.
+#
+# 그렇다고 질의를 늘리면 SerpApi 월 상한(250회)을 넘긴다.
+# 호출 수를 그대로 둔 채 요일로 주제를 바꿈다.
+#   화요일(짝수 주차) 수요 신호   · K뉴티 제품
+#   금요일(홀수 주차) 판매 전략 · Shopify 마케팅
+DEMAND_QUERIES = [
     "korean skincare routine 2026",
     "k-beauty essence serum review",
     "daiso korea skincare haul",
     "PDRN skincare before after",
     "korean toner pad review",
 ]
+
+MARKETING_QUERIES = [
+    "shopify marketing strategy 2026",
+    "shopify conversion rate optimization",
+    "shopify facebook ads creative",
+    "beauty brand dtc marketing breakdown",
+    "shopify email marketing retention",
+]
+
+
+def pick_queries() -> tuple[list[str], str]:
+    forced = os.environ.get("YOUTUBE_QUERY_SET", "").strip().lower()
+    if forced in ("demand", "marketing"):
+        return ((DEMAND_QUERIES, "demand") if forced == "demand"
+                else (MARKETING_QUERIES, "marketing"))
+    # 워크플로는 화·금 주 2회 돌아간다. 목요일 전은 수요, 이후는 전략.
+    day = datetime.now(timezone.utc).weekday()
+    return ((MARKETING_QUERIES, "marketing") if day >= 3
+            else (DEMAND_QUERIES, "demand"))
+
+
+QUERIES, QUERY_SET = pick_queries()
 
 # 기사 수집기와 같은 낱말을 쓴다. 두 신호를 나란히 볼 수 있어야 한다.
 BUCKET_TERMS = {
@@ -212,6 +244,9 @@ def main() -> int:
                "youtube_used": ledger["by_purpose"]["youtube"],
                "전체_used": ledger["used"],
                "메모": "market 수집기와 같은 원장을 쓴다. 합쳐 250 을 넘지 않는다."},
+        "query_set": QUERY_SET,
+        "query_set_설명": ("화요일은 수요 신호(K뉴티), 금요일은 판매 전략"
+                          "(Shopify 마케팅). 호출 수는 그대로다."),
         "queries": QUERIES,
         "calls": notes,
         "video_count": len(videos),

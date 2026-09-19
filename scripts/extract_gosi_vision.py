@@ -157,6 +157,79 @@ def mime_of(path: Path) -> str:
     return "image/jpeg"
 
 
+# Gemini 429 대체 경로.
+#
+# 2026-09-19 사용자가 말했다. "다이소에는 고시표가 무조건 있는데
+# 네가 못찾는건데 없다고 하니". 맞다. 그날 1072554 · 1053482 두 건은
+# 고시가 없어서 가 아니라 Gemini 할당량 429 로 판독을 못 해서 비어 있었다.
+# 사람이 직접 열어보면 둘 다 상세 이미지 맨 아래에 표가 있었다.
+#
+# 모델 하나의 할당량이 수집 전체를 멈추게 두지 않는다.
+# Gemini 가 막히면 Groq 비전 모델로 이어서 읽는다.
+GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
+GROQ_MODELS = [
+    m.strip() for m in os.environ.get(
+        "GROQ_VISION_MODELS",
+        "meta-llama/llama-4-maverick-17b-128e-instruct,"
+        "meta-llama/llama-4-scout-17b-16e-instruct").split(",") if m.strip()
+]
+
+
+def groq_key() -> str:
+    for name in ("GROQ_API_KEY", "GROQ_API_KEY_LUNA"):
+        value = os.environ.get(name, "").strip()
+        if value:
+            return value
+    return ""
+
+
+def read_table_groq(key: str, img: Path, prompt: str) -> tuple[dict | None, str]:
+    """Groq 비전 모델로 같은 표를 읽는다. 응답 형식은 Gemini 경로와 같다."""
+    b64 = base64.b64encode(img.read_bytes()).decode()
+    data_url = f"data:{mime_of(img)};base64,{b64}"
+    last = ""
+    for model in GROQ_MODELS:
+        payload = {
+            "model": model,
+            "temperature": 0,
+            "response_format": {"type": "json_object"},
+            "messages": [{
+                "role": "user",
+                "content": [
+                    {"type": "text", "text": prompt},
+                    {"type": "image_url", "image_url": {"url": data_url}},
+                ],
+            }],
+        }
+        try:
+            req = urllib.request.Request(
+                GROQ_URL, data=json.dumps(payload).encode(), method="POST",
+                headers={"Content-Type": "application/json",
+                         "Authorization": f"Bearer {key}"})
+            body = urllib.request.urlopen(req, timeout=TIMEOUT).read().decode("utf-8")
+            txt = json.loads(body)["choices"][0]["message"]["content"]
+        except urllib.error.HTTPError as exc:
+            detail = exc.read().decode("utf-8", "replace")[:120]
+            last = f"groq {model} HTTP {exc.code}: {detail}"
+            continue
+        except Exception as exc:  # noqa: BLE001
+            last = f"groq {model} {type(exc).__name__}: {exc}"[:160]
+            continue
+
+        txt = re.sub(r"^```(?:json)?|```$", "", str(txt).strip(), flags=re.M).strip()
+        try:
+            parsed = json.loads(txt)
+        except json.JSONDecodeError:
+            last = f"groq {model} JSON 파싱 실패"
+            continue
+        if not isinstance(parsed, dict):
+            last = f"groq {model} JSON 객체가 아님"
+            continue
+        parsed["_model"] = f"groq:{model}"
+        return parsed, ""
+    return None, last or "groq 호출 실패"
+
+
 def read_table(key: str, models: list[str], img: Path,
                pd_no: str = "") -> tuple[dict | None, str]:
     """이미지 한 장을 읽는다. 과부하 시 재시도·다른 모델 전환.
@@ -209,6 +282,13 @@ def read_table(key: str, models: list[str], img: Path,
         if d is not None:
             break
     if d is None:
+        # Gemini 가 다 막혔다. 그렇다고 "고시 없음"으로 넘기지 않는다.
+        gk = groq_key()
+        if gk:
+            parsed, gerr = read_table_groq(gk, img, prompt)
+            if parsed is not None:
+                return parsed, ""
+            return None, f"{last or '호출 실패'} / {gerr}"
         return None, last or "호출 실패"
     try:
         txt = d["candidates"][0]["content"]["parts"][0]["text"]
@@ -327,13 +407,13 @@ def main() -> int:
         }
         doc["items"] = items
 
-    if not key:
-        doc["vision_status"] = "skipped - GEMINI_API_KEY 없음"
+    if not key and not groq_key():
+        doc["vision_status"] = "skipped - 비전 키 없음(GEMINI_API_KEY / GROQ_API_KEY)"
         GOSI.write_text(
             json.dumps(doc, ensure_ascii=False, indent=2) + "\n",
             encoding="utf-8",
         )
-        print("GEMINI_API_KEY 없음 - 건너뜀")
+        print("비전 키 없음 - 건너뜀 (고시가 없는 것이 아니라 읽지 못한 것이다)")
         return 0
 
     todo = {k: v for k, v in items.items() if isinstance(v, dict) and needs_fill(v)}
@@ -349,8 +429,10 @@ def main() -> int:
         return 0
 
     print(f"대상 {len(todo)}/{len(items)}건 · 예산 {BUDGET_SEC:.0f}초")
-    models = pick_models(key)
-    print(f"모델 후보: {', '.join(models)}")
+    models = pick_models(key) if key else []
+    print(f"모델 후보: {', '.join(models) or '(Gemini 키 없음)'}")
+    if groq_key():
+        print(f"대체 경로: groq {', '.join(GROQ_MODELS)}")
     started = time.monotonic()
     filled, fails, deferred = 0, [], []
     quota_hit = False
