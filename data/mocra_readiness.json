@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T04:14:32.096763+00:00",
+  "generated_at": "2026-09-20T09:09:33.623151+00:00",
   "면책": "법률 자문이 아니다. 무엇이 남았는지 보여주는 점검표다.",
   "기준": "MoCRA (Modernization of Cosmetics Regulation Act of 2022)",
   "profile_present": false,
@@ -82,7 +82,7 @@
       "id": "label_fields",
       "label": "영문 라벨 필수 항목(성분·용량·책임자·사용법·주의사항)",
       "status": "not_ready",
-      "detail": "완비 0/10건 · 부족 항목 directions 10건, identity 3건, responsible_person.address 10건, responsible_person.email 10건, responsible_person.name 10건, responsible_person.phone 10건, warnings 10건",
+      "detail": "완비 0/10건 · 부족 항목 directions 10건, identity 3건, ingredients 1건, legal_hard_block 1건, net_contents 1건, responsible_person.address 10건, responsible_person.email 10건, responsible_person.name 10건, responsible_person.phone 10건, warnings 10건",
       "evidence": "data/legal_full.json"
     }
   ]

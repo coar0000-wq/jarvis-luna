@@ -2,7 +2,7 @@
 title: "Record 689346ed35 · Five-of-the-best-Korean-skincare-brands-you-can-act"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T04:56:04.678597+00:00
+updated_at: 2026-09-20T09:11:17.994604+00:00
 tags: [record, real-data]
 ---
 

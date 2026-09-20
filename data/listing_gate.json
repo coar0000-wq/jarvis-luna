@@ -1,16 +1,16 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-09-20T04:14:32.251435+00:00",
+  "generated_at": "2026-09-20T09:09:35.918740+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "semantic_sources": {
       "data/product_master.json": "e8411f3e1a6f90f501bd89643545ae348c933c5d06ae5990d3f8165a034c3de2",
       "data/gosi.json": "1a16390713319c2cff37c217042c233ffca49d14246473ddc59121066aafb749",
       "data/daiso_real/daiso_us_labels.json": "46454532bcc057eb3724151d97c99197a66ecef51e16d4a9bc465279f893bb8f",
-      "data/pricing_model.json": "c7f2c5179d7f6668eaa3800a22097325e7c66df0d5cd17d3798550c88839ce49",
-      "data/legal_products.json": "06b3628f262b3b175eac3f1dad40056600b2334823e63b670cec556573b9b91a"
+      "data/pricing_model.json": "0ed615d6989171bcb351bd811727ca8c0cad6d004fb9094b0a3eec9b9c3b64d7",
+      "data/legal_products.json": "2a5a7da52d5604820dd25eac10181bb35a7ee3c7e105254f4fbd790453f00f86"
     },
-    "recommendations_sha256": "346ccf38f029563b72b84f44b39f0fdc127f6d0fc6730e773e8252e007a2a8af"
+    "recommendations_sha256": "58fea4d9b4121f277cd9ac1c338014925a389f387118877b2f7947e18fb05331"
   },
   "total": 10,
   "agent_ready": 9,
@@ -20,14 +20,16 @@
   "counts": {
     "ontology": 10,
     "copy": 7,
-    "gosi": 10,
-    "us_label": 10,
+    "gosi": 9,
+    "us_label": 9,
     "price": 10,
     "legal": 9,
     "legal_full": 0
   },
   "blockers": {
     "copy": 3,
+    "gosi": 1,
+    "us_label": 1,
     "legal": 1
   },
   "typesafe_summary": {
@@ -84,8 +86,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 25.99,
-        "margin_pct": 59.7,
+        "price_usd": 24.99,
+        "margin_pct": 58.4,
         "register_blocked": false
       },
       "legal": {
@@ -165,8 +167,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 25.99,
-        "margin_pct": 53.3,
+        "price_usd": 24.99,
+        "margin_pct": 51.7,
         "register_blocked": false
       },
       "legal": {
@@ -392,8 +394,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 25.99,
-        "margin_pct": 50.5,
+        "price_usd": 24.99,
+        "margin_pct": 48.8,
         "register_blocked": false
       },
       "legal": {
@@ -519,6 +521,89 @@
     },
     {
       "rank": 7,
+      "canonical_product_id": "CP000214",
+      "pd_no": "1067495",
+      "product_id": "1067495",
+      "name": "[퀵 수분충전]VT PDRN 광채 토너 200 ml",
+      "category": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 93,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067495",
+      "copy": {},
+      "copy_status": "missing",
+      "gosi": {
+        "volume": "",
+        "maker": "",
+        "origin": "",
+        "ingredients": "",
+        "gosi_ok": false
+      },
+      "us_label": {
+        "net_contents": "",
+        "manufacturer": "",
+        "country_of_origin": "",
+        "ingredients_inci": "",
+        "us_label_ok": false
+      },
+      "price": {
+        "price_usd": 24.99,
+        "margin_pct": 43.0,
+        "register_blocked": false
+      },
+      "legal": {
+        "status": "auto_checked",
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields"
+      },
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "gosi",
+        "us_label",
+        "legal"
+      ],
+      "ready": false,
+      "blocked_by": [
+        "copy",
+        "gosi",
+        "us_label",
+        "legal"
+      ],
+      "public_ready": false,
+      "public_blocked_by": [
+        "copy",
+        "gosi",
+        "us_label",
+        "legal",
+        "legal_full"
+      ],
+      "legal_full_complete": false,
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "hold",
+        "legal_gate_advisory": "block",
+        "risk_level": "critical",
+        "risk_points": 8,
+        "team_routes": [
+          "legal",
+          "sourcing",
+          "listing"
+        ],
+        "findings": [
+          "draft blockers: copy, gosi, us_label, legal",
+          "public blockers: copy, gosi, us_label, legal, legal_full",
+          "legal hard block"
+        ],
+        "confidence": null,
+        "usage": null
+      }
+    },
+    {
+      "rank": 8,
       "canonical_product_id": "CP000109",
       "pd_no": "1049285",
       "product_id": "1049285",
@@ -559,89 +644,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 25.99,
-        "margin_pct": 59.7,
-        "register_blocked": false
-      },
-      "legal": {
-        "status": "auto_checked",
-        "hard_block": false,
-        "hard_block_reason": ""
-      },
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "ready": true,
-      "blocked_by": [],
-      "public_ready": false,
-      "public_blocked_by": [
-        "legal_full"
-      ],
-      "legal_full_complete": false,
-      "typesafe": {
-        "framework": "typesafe_system_one_compatible",
-        "enabled": false,
-        "mode": "disabled_local_advisory",
-        "source": "deterministic_local",
-        "paid_api_called": false,
-        "enforced": false,
-        "grade_advisory": "keep_s",
-        "legal_gate_advisory": "review",
-        "risk_level": "medium",
-        "risk_points": 1,
-        "team_routes": [
-          "legal"
-        ],
-        "findings": [
-          "public blockers: legal_full"
-        ],
-        "confidence": null,
-        "usage": null
-      }
-    },
-    {
-      "rank": 8,
-      "canonical_product_id": "CP000151",
-      "pd_no": "1059834",
-      "product_id": "1059834",
-      "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-      "category": "마스크팩",
-      "price_krw": 2000,
-      "shopify_score": 90,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
-      "copy": {
-        "title": "Celderma Daily Transforming Firming Collagen Mask 28g",
-        "description_html": "<p>Discover the Celderma Daily Transforming Firming Collagen Mask, a 28g sheet mask designed for your regular skincare routine. Infused with collagen, it helps improve the appearance of skin firmness and elasticity.</p><p>Simply apply the sheet mask to clean skin, relax, and let the formula hydrate and support a smooth, glowing, and refreshed complexion.</p>",
-        "seo_title": "Celderma Daily Transforming Firming Collagen Mask 28g",
-        "seo_description": "Shop the Celderma Daily Transforming Firming Collagen Mask 28g. Hydrating sheet mask infused with collagen for a firm, smooth, and glowing complexion.",
-        "tags": [
-          "celderma",
-          "sheet-mask",
-          "collagen-mask",
-          "firming-mask",
-          "k-beauty",
-          "face-mask",
-          "hydrating-mask"
-        ],
-        "product_type": "Sheet Mask"
-      },
-      "copy_status": "ok",
-      "gosi": {
-        "volume": "28 g",
-        "maker": "(주)제닉 / 충청남도 논산시 성동면 산업단지로5길 5",
-        "origin": "한국",
-        "ingredients": "정제수, 글리세린, 세틸에틸헥사노에이트, 시어버터, 아크릴레이트코폴리머, 아이리쉬모스추출물, 캐롭검, 다이프로필렌글라이콜, 베타인, 포타슘클로라이드, 하이드록시아세토페논, 수크로오스, 세틸하이드록시에틸셀룰로오스, 카",
-        "gosi_ok": true
-      },
-      "us_label": {
-        "net_contents": "28 g",
-        "manufacturer": "(주)제닉 / 충청남도 논산시 성동면 산업단지로5길 5",
-        "country_of_origin": "Korea",
-        "ingredients_inci": "Water, Glycerin, Cetyl Ethylhexanoate, Butyrospermum Parkii (Shea) Butter, Acrylates Copolymer, Chondrus Crispus Extract, Ceratonia Siliqua Gum, Dipropylene Glycol, Betaine, Potassium Chloride, Hydroxyacetophenone, Sucrose, Cetyl Hydroxyethylcellulose, Caprylyl Glycol, Allantoin, Ethylhexylglycerin, Polyglyceryl-6 Caprylate, Polyglyceryl-4 Caprate, Adenosine, Hydrolyzed Vegetable Protein, 1,2-Hexanediol, Disodium EDTA, Fragrance, Ultramarines, Hydrated Silica, Disodium Phosphate, Silica Dimethyl Silylate, Dipotassium Glycyrrhizate, Butylene Glycol, Sodium Phosphate, Vigna Radiata Sprout Extract, Brassica Oleracea Italica (Broccoli) Sprout Extract, Brassica Campestris (Rapeseed) Sprout Extract, CI 17200, Tocopherol",
-        "us_label_ok": true
-      },
-      "price": {
-        "price_usd": 25.99,
-        "margin_pct": 62.9,
+        "price_usd": 24.99,
+        "margin_pct": 58.4,
         "register_blocked": false
       },
       "legal": {
@@ -681,13 +685,94 @@
     },
     {
       "rank": 9,
+      "canonical_product_id": "CP000151",
+      "pd_no": "1059834",
+      "product_id": "1059834",
+      "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+      "category": "마스크팩",
+      "price_krw": 2000,
+      "shopify_score": 89,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
+      "copy": {
+        "title": "Celderma Daily Transforming Firming Collagen Mask 28g",
+        "description_html": "<p>Discover the Celderma Daily Transforming Firming Collagen Mask, a 28g sheet mask designed for your regular skincare routine. Infused with collagen, it helps improve the appearance of skin firmness and elasticity.</p><p>Simply apply the sheet mask to clean skin, relax, and let the formula hydrate and support a smooth, glowing, and refreshed complexion.</p>",
+        "seo_title": "Celderma Daily Transforming Firming Collagen Mask 28g",
+        "seo_description": "Shop the Celderma Daily Transforming Firming Collagen Mask 28g. Hydrating sheet mask infused with collagen for a firm, smooth, and glowing complexion.",
+        "tags": [
+          "celderma",
+          "sheet-mask",
+          "collagen-mask",
+          "firming-mask",
+          "k-beauty",
+          "face-mask",
+          "hydrating-mask"
+        ],
+        "product_type": "Sheet Mask"
+      },
+      "copy_status": "ok",
+      "gosi": {
+        "volume": "28 g",
+        "maker": "(주)제닉 / 충청남도 논산시 성동면 산업단지로5길 5",
+        "origin": "한국",
+        "ingredients": "정제수, 글리세린, 세틸에틸헥사노에이트, 시어버터, 아크릴레이트코폴리머, 아이리쉬모스추출물, 캐롭검, 다이프로필렌글라이콜, 베타인, 포타슘클로라이드, 하이드록시아세토페논, 수크로오스, 세틸하이드록시에틸셀룰로오스, 카",
+        "gosi_ok": true
+      },
+      "us_label": {
+        "net_contents": "28 g",
+        "manufacturer": "(주)제닉 / 충청남도 논산시 성동면 산업단지로5길 5",
+        "country_of_origin": "Korea",
+        "ingredients_inci": "Water, Glycerin, Cetyl Ethylhexanoate, Butyrospermum Parkii (Shea) Butter, Acrylates Copolymer, Chondrus Crispus Extract, Ceratonia Siliqua Gum, Dipropylene Glycol, Betaine, Potassium Chloride, Hydroxyacetophenone, Sucrose, Cetyl Hydroxyethylcellulose, Caprylyl Glycol, Allantoin, Ethylhexylglycerin, Polyglyceryl-6 Caprylate, Polyglyceryl-4 Caprate, Adenosine, Hydrolyzed Vegetable Protein, 1,2-Hexanediol, Disodium EDTA, Fragrance, Ultramarines, Hydrated Silica, Disodium Phosphate, Silica Dimethyl Silylate, Dipotassium Glycyrrhizate, Butylene Glycol, Sodium Phosphate, Vigna Radiata Sprout Extract, Brassica Oleracea Italica (Broccoli) Sprout Extract, Brassica Campestris (Rapeseed) Sprout Extract, CI 17200, Tocopherol",
+        "us_label_ok": true
+      },
+      "price": {
+        "price_usd": 24.99,
+        "margin_pct": 61.7,
+        "register_blocked": false
+      },
+      "legal": {
+        "status": "auto_checked",
+        "hard_block": false,
+        "hard_block_reason": ""
+      },
+      "agent_ready": true,
+      "agent_blocked_by": [],
+      "ready": true,
+      "blocked_by": [],
+      "public_ready": false,
+      "public_blocked_by": [
+        "legal_full"
+      ],
+      "legal_full_complete": false,
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "review",
+        "risk_level": "high",
+        "risk_points": 2,
+        "team_routes": [
+          "legal"
+        ],
+        "findings": [
+          "public blockers: legal_full"
+        ],
+        "confidence": null,
+        "usage": null
+      }
+    },
+    {
+      "rank": 10,
       "canonical_product_id": "CP000075",
       "pd_no": "1042619",
       "product_id": "1042619",
       "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
       "category": "마스크팩",
       "price_krw": 1000,
-      "shopify_score": 89,
+      "shopify_score": 88,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
       "copy": {},
       "copy_status": "skipped_prerequisite",
@@ -706,83 +791,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 25.99,
-        "margin_pct": 66.1,
-        "register_blocked": false
-      },
-      "legal": {
-        "status": "missing",
-        "hard_block": false,
-        "hard_block_reason": ""
-      },
-      "agent_ready": false,
-      "agent_blocked_by": [
-        "legal"
-      ],
-      "ready": false,
-      "blocked_by": [
-        "copy",
-        "legal"
-      ],
-      "public_ready": false,
-      "public_blocked_by": [
-        "copy",
-        "legal",
-        "legal_full"
-      ],
-      "legal_full_complete": false,
-      "typesafe": {
-        "framework": "typesafe_system_one_compatible",
-        "enabled": false,
-        "mode": "disabled_local_advisory",
-        "source": "deterministic_local",
-        "paid_api_called": false,
-        "enforced": false,
-        "grade_advisory": "hold",
-        "legal_gate_advisory": "review",
-        "risk_level": "critical",
-        "risk_points": 4,
-        "team_routes": [
-          "legal",
-          "listing"
-        ],
-        "findings": [
-          "draft blockers: copy, legal",
-          "public blockers: copy, legal, legal_full"
-        ],
-        "confidence": null,
-        "usage": null
-      }
-    },
-    {
-      "rank": 10,
-      "canonical_product_id": "CP000125",
-      "pd_no": "1053482",
-      "product_id": "1053482",
-      "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
-      "category": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 85,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1053482",
-      "copy": {},
-      "copy_status": "skipped_prerequisite",
-      "gosi": {
-        "volume": "200ml",
-        "maker": "화장품제조업자: 제품 내 별도표기 / 화장품책임판매업자: 주식회사 스킨이데아",
-        "origin": "한국",
-        "ingredients": "정제수, 다이프로필렌글라이콜, 글리세린, 프로판다이올, 솔비톨, 부틸렌글라이콜, 나이아신아마이드, 아이소펜틸다이올, 글리세레스-25피씨에이아이소스테아레이트, 판테놀, 글리세릴글루코사이드, 하이드록시아세토페논, 1,2",
-        "gosi_ok": true
-      },
-      "us_label": {
-        "net_contents": "200ml",
-        "manufacturer": "화장품제조업자: 제품 내 별도표기 / 화장품책임판매업자: 주식회사 스킨이데아",
-        "country_of_origin": "Korea",
-        "ingredients_inci": "Water, Dipropylene Glycol, Glycerin, Propanediol, Sorbitol, Butylene Glycol, Niacinamide, Isopentyldiol, Glycereth-25 PCA Isostearate, Panthenol, Glyceryl Glucoside, Hydroxyacetophenone, 1,2-Hexanediol, Caprylyl Glycol, Ectoin, Fagus Sylvatica Bud Extract, Chamomilla Recutita (Matricaria) Flower Extract, Enantia Chlorantha Bark Extract, Hamamelis Virginiana (Witch Hazel) Extract, Betaine, Citric Acid, Gluconolactone, Lactic Acid, Salicylic Acid, Capryloyl Salicylic Acid, Xylitylglucoside, Anhydroxylitol, Xylitol, Vitis Vinifera (Grape) Fruit Extract, Diospyros Kaki Leaf Extract, Coffea Arabica (Coffee) Seed Extract, Polygonum Cuspidatum Root Extract, Carthamus Tinctorius (Safflower) Flower Extract, Camellia Sinensis Leaf Extract, Castanea Crenata (Chestnut) Shell Extract Castanea Crenata Shell Extract, Zanthoxylum Piperitum Fruit Extract, Butyl Avocadate, Centella Asiatica Extract, Ethylhexylglycerin, Glucose, Oleanolic Acid, Prunus Mume Fruit Extract, Malus Domestica Fruit Extract, Carica Papaya (Papaya) Fruit Extract, Citrus Junos Fruit Extract, Pinus Densiflora Leaf Extract, Artemisia Annua Extract, Polyglyceryl-10 Laurate, Benzyl Glycol, Hydrolyzed Glycosaminoglycans, Sodium Hyaluronate, Tocopherol, Lactobacillus/Soybean Ferment Extract, Portulaca Oleracea Extract, Origanum Vulgare Leaf Extract, Cinnamomum Cassia Bark Extract, Salix Alba (Willow) Bark Extract, Scutellaria Baicalensis Root Extract, Sodium Hyaluronate Crosspolymer, Chamaecyparis Obtusa Leaf Extract, Hydrolyzed Hyaluronic Acid, Acetyl Hexapeptide-8, Copper Tripeptide-1, Tripeptide-1, Palmitoyl Pentapeptide-4, Hydroxypropyltrimonium Hyaluronate, Alanine/Histidine/Lysine Polypeptide Copper HCl, Palmitoyl Tripeptide-1, Hexapeptide-9, Hyaluronic Acid, Sodium Acetylated Hyaluronate, Solanum Melongena (Eggplant) Fruit Extract, Magnolia Kobus Bark Extract, Terminalia Ferdinandiana Fruit Extract, Myrciaria Dubia Fruit Extract, Gardenia Florida Fruit Extract, Adenosine, Disodium EDTA, Allantoin, Mentha Piperita (Peppermint) Oil, Dipotassium Glycyrrhizate",
-        "us_label_ok": true
-      },
-      "price": {
-        "price_usd": 25.99,
-        "margin_pct": 44.9,
+        "price_usd": 24.99,
+        "margin_pct": 65.0,
         "register_blocked": false
       },
       "legal": {

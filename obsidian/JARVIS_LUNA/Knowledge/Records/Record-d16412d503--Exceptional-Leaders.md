@@ -2,7 +2,7 @@
 title: "Record d16412d503 · Exceptional-Leaders"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T04:56:04.827055+00:00
+updated_at: 2026-09-20T09:11:18.330655+00:00
 tags: [record, real-data]
 ---
 

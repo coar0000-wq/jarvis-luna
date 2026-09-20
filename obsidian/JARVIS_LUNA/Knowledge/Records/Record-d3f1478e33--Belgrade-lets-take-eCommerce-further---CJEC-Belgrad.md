@@ -2,7 +2,7 @@
 title: "Record d3f1478e33 · Belgrade-lets-take-eCommerce-further---CJEC-Belgrad"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T04:56:04.857660+00:00
+updated_at: 2026-09-20T09:11:18.394178+00:00
 tags: [record, real-data]
 ---
 

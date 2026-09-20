@@ -2,7 +2,7 @@
 title: "Record a4bbb35a94 · K-beauty-is-landing-at-Coles---beautydirectorycomau"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T04:56:04.645270+00:00
+updated_at: 2026-09-20T09:11:17.913495+00:00
 tags: [record, real-data]
 ---
 

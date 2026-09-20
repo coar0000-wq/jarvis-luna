@@ -2,7 +2,7 @@
 title: "Record 69da8aa7ca · K-beautys-global-impact---Personal-Care-Insights"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T04:56:04.670805+00:00
+updated_at: 2026-09-20T09:11:17.974957+00:00
 tags: [record, real-data]
 ---
 

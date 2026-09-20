@@ -2,7 +2,7 @@
 title: "Record 60363f953a · Exploring-the-Perceived-Need-and-Anticipated-Feasibility-of-a-Proposed"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T04:56:03.688535+00:00
+updated_at: 2026-09-20T09:11:17.586071+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.ejon.2026.103329)
 
-**제목:** Exploring the Perceived Need and Anticipated Feasibility of a Proposed Nurse-Led Telephone Follow-Up Approach for Breast Cancer Survivors in India: A Convergent Mixed Methods Study
+**제목:** Exploring the perceived need and anticipated feasibility of a proposed nurse-led telephone follow-up approach for breast cancer survivors in India: A convergent mixed methods study
 
-Exploring the Perceived Need and Anticipated Feasibility of a Proposed Nurse-Led Telephone Follow-Up Approach for Breast Cancer Survivors in India: A Convergent Mixed Methods Study
+Exploring the perceived need and anticipated feasibility of a proposed nurse-led telephone follow-up approach for breast cancer survivors in India: A convergent mixed methods study
 
 **출처:** Source · institutions
 

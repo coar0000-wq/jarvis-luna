@@ -2,7 +2,7 @@
 title: "Record cb9280039c · α-Mutual-Information-for-the-Gaussian-Noise-Channel"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T04:56:04.734234+00:00
+updated_at: 2026-09-20T09:11:18.114981+00:00
 tags: [record, real-data]
 ---
 

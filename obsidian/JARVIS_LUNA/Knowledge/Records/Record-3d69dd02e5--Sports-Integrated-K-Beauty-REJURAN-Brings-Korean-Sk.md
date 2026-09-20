@@ -2,7 +2,7 @@
 title: "Record 3d69dd02e5 · Sports-Integrated-K-Beauty-REJURAN-Brings-Korean-Skincare-to-LAFC-Fan-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T04:56:04.693009+00:00
+updated_at: 2026-09-20T09:11:18.025496+00:00
 tags: [record, real-data]
 ---
 

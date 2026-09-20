@@ -1,14 +1,14 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-20T03:08:45.084383+00:00",
+  "collected_at": "2026-09-20T09:04:02.382702+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
     "SkincareAddiction",
     "AsianBeautyAdvice"
   ],
-  "post_count": 25,
+  "post_count": 27,
   "per_subreddit": [
     {
       "subreddit": "AsianBeauty",
@@ -35,21 +35,20 @@
     },
     {
       "subreddit": "AsianBeautyAdvice",
-      "post_count": 0,
+      "post_count": 2,
       "errors": [
-        "hot: HTTPError: HTTP Error 429: Too Many Requests",
-        "top_week: HTTPError: HTTP Error 429: Too Many Requests"
+        "hot: HTTPError: HTTP Error 429: Too Many Requests"
       ]
     }
   ],
   "hot_keywords": [
     {
       "keyword": "september",
-      "score": 4
+      "score": 5
     },
     {
       "keyword": "2026",
-      "score": 4
+      "score": 5
     },
     {
       "keyword": "beauty",
@@ -72,43 +71,27 @@
       "score": 3
     },
     {
+      "keyword": "anything",
+      "score": 3
+    },
+    {
+      "keyword": "goes",
+      "score": 3
+    },
+    {
       "keyword": "products",
       "score": 3
     },
     {
-      "keyword": "melano",
+      "keyword": "thursday",
       "score": 2
     },
     {
-      "keyword": "essence",
-      "score": 2
-    },
-    {
-      "keyword": "premium",
-      "score": 2
-    },
-    {
-      "keyword": "gokujyun",
-      "score": 2
-    },
-    {
-      "keyword": "bottle",
-      "score": 2
-    },
-    {
-      "keyword": "toner",
+      "keyword": "cushion",
       "score": 2
     },
     {
       "keyword": "thai",
-      "score": 2
-    },
-    {
-      "keyword": "anything",
-      "score": 2
-    },
-    {
-      "keyword": "goes",
       "score": 2
     },
     {
@@ -120,11 +103,11 @@
       "score": 2
     },
     {
-      "keyword": "spf50+",
+      "keyword": "korean",
       "score": 2
     },
     {
-      "keyword": "korean",
+      "keyword": "spf50+",
       "score": 2
     },
     {
@@ -141,6 +124,10 @@
     },
     {
       "keyword": "kbeauty",
+      "score": 2
+    },
+    {
+      "keyword": "sunscreen",
       "score": 2
     },
     {
@@ -172,11 +159,11 @@
       "score": 1
     },
     {
-      "keyword": "thursday",
+      "keyword": "achieve",
       "score": 1
     },
     {
-      "keyword": "easence",
+      "keyword": "look",
       "score": 1
     },
     {
@@ -200,7 +187,19 @@
       "score": 1
     },
     {
-      "keyword": "gold",
+      "keyword": "found",
+      "score": 1
+    },
+    {
+      "keyword": "foundations",
+      "score": 1
+    },
+    {
+      "keyword": "aren",
+      "score": 1
+    },
+    {
+      "keyword": "standardized",
       "score": 1
     }
   ],
@@ -218,11 +217,7 @@
       "score": 4
     },
     {
-      "keyword": "essence",
-      "score": 2
-    },
-    {
-      "keyword": "toner",
+      "keyword": "cushion",
       "score": 2
     },
     {
@@ -230,11 +225,11 @@
       "score": 2
     },
     {
-      "keyword": "spf50+",
+      "keyword": "korean",
       "score": 2
     },
     {
-      "keyword": "korean",
+      "keyword": "spf50+",
       "score": 2
     },
     {
@@ -251,6 +246,10 @@
     },
     {
       "keyword": "kbeauty",
+      "score": 2
+    },
+    {
+      "keyword": "sunscreen",
       "score": 2
     }
   ],
@@ -270,9 +269,9 @@
       "feed": "hot"
     },
     {
-      "title": "Melano cc essence or melano cc premium easence?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wl2dhu/melano_cc_essence_or_melano_cc_premium_easence/",
-      "published": "2026-09-20T00:34:40+00:00",
+      "title": "how to achieve this look?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wl37db/how_to_achieve_this_look/",
+      "published": "2026-09-20T01:13:40+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -284,16 +283,9 @@
       "feed": "hot"
     },
     {
-      "title": "Gokujyun Premium (gold bottle), Gokujyun Regular (blue and white bottle), or Cosrx synergy propolis toner?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wl5703/gokujyun_premium_gold_bottle_gokujyun_regular/",
-      "published": "2026-09-20T02:52:31+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "how to achieve this look?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wl37db/how_to_achieve_this_look/",
-      "published": "2026-09-20T01:13:40+00:00",
+      "title": "Have any of you found that cushion foundations aren't standardized shades?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wla2t9/have_any_of_you_found_that_cushion_foundations/",
+      "published": "2026-09-20T07:09:53+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -308,13 +300,6 @@
       "title": "Thann Aromatic Wood",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wl13s7/thann_aromatic_wood/",
       "published": "2026-09-19T23:35:58+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "UNNY CLUB Sun Lotion",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wl0cci/unny_club_sun_lotion/",
-      "published": "2026-09-19T23:02:06+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -382,16 +367,16 @@
       "feed": "hot"
     },
     {
-      "title": "Allie Sheer Ecru SPF50+ PA++++: Great for Rosacea, But Beware the Creases!",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjfv0r/allie_sheer_ecru_spf50_pa_great_for_rosacea_but/",
-      "published": "2026-09-18T04:09:00+00:00",
+      "title": "Korean products for eczema dark scars hyperpigmentation",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjl8iy/korean_products_for_eczema_dark_scars/",
+      "published": "2026-09-18T09:16:10+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Korean products for eczema dark scars hyperpigmentation",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjl8iy/korean_products_for_eczema_dark_scars/",
-      "published": "2026-09-18T09:16:10+00:00",
+      "title": "Allie Sheer Ecru SPF50+ PA++++: Great for Rosacea, But Beware the Creases!",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjfv0r/allie_sheer_ecru_spf50_pa_great_for_rosacea_but/",
+      "published": "2026-09-18T04:09:00+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -429,6 +414,34 @@
       "published": "2026-09-17T17:10:05+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
+    },
+    {
+      "title": "My Holy Grail Sunscreen",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wi6akm/my_holy_grail_sunscreen/",
+      "published": "2026-09-16T18:56:37+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Anything Goes Thursday: September 17, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wj5n8c/anything_goes_thursday_september_17_2026/",
+      "published": "2026-09-17T20:39:13+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "I know it’s not AB, but...",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1whwk8f/i_know_its_not_ab_but/",
+      "published": "2026-09-16T13:00:12+00:00",
+      "subreddit": "AsianBeautyAdvice",
+      "feed": "top_week"
+    },
+    {
+      "title": "Random AB thoughts",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1wkln2c/random_ab_thoughts/",
+      "published": "2026-09-19T13:00:26+00:00",
+      "subreddit": "AsianBeautyAdvice",
+      "feed": "top_week"
     }
   ],
   "note": "커뮤니티 실수요 시그널. 광고 키워드·S등급 코칭 보강용. 판매 순위 아님.",

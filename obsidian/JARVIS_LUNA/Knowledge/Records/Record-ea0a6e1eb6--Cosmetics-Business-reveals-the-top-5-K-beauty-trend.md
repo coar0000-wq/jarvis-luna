@@ -2,7 +2,7 @@
 title: "Record ea0a6e1eb6 · Cosmetics-Business-reveals-the-top-5-K-beauty-trend"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T04:56:04.661286+00:00
+updated_at: 2026-09-20T09:11:17.951725+00:00
 tags: [record, real-data]
 ---
 

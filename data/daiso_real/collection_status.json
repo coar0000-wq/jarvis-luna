@@ -145,9 +145,14 @@
     "usd_to_krw": 1386.74,
     "krw_to_usd": 0.00072112,
     "as_of": "2026-09-20",
-    "source": "https://open.er-api.com/v6/latest/USD",
-    "fetched_at": "2026-09-20T04:08:29.756886+00:00",
-    "ok": true
+    "source": "ExchangeRate-API",
+    "api_url": "https://open.er-api.com/v6/latest/USD",
+    "fetched_at": "2026-09-20T09:09:32.691818+00:00",
+    "ok": true,
+    "대조": [
+      "exchangerate-api 1,386.74(2026-09-20)",
+      "Frankfurter API 1,388.10(2026-09-18)"
+    ]
   },
   "sitemap_urls_known": 19739,
   "visited": 110

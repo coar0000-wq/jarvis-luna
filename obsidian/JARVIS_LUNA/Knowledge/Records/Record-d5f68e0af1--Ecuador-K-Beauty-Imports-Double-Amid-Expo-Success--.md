@@ -2,7 +2,7 @@
 title: "Record d5f68e0af1 · Ecuador-K-Beauty-Imports-Double-Amid-Expo-Success--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T04:56:04.642341+00:00
+updated_at: 2026-09-20T09:11:17.905856+00:00
 tags: [record, real-data]
 ---
 

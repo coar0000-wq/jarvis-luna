@@ -2,7 +2,7 @@
 title: "Record d26aeb2987 · Model-Predictive-Control-for-Dynamic-Hydraulic-Bala"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T04:56:03.634991+00:00
+updated_at: 2026-09-20T09:11:17.469464+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2c54264b47 · Forget-eight-hours--tired-girl-makeup-is-the-new-gl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T04:56:04.625813+00:00
+updated_at: 2026-09-20T09:11:17.863674+00:00
 tags: [record, real-data]
 ---
 

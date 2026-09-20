@@ -2,7 +2,7 @@
 title: "Record ae37449c45 · Context-operations-to-architecture-modelling-output"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T04:56:03.642878+00:00
+updated_at: 2026-09-20T09:11:17.484291+00:00
 tags: [record, real-data]
 ---
 

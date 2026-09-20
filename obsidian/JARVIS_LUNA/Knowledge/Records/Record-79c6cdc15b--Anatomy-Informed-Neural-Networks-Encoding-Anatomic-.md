@@ -2,7 +2,7 @@
 title: "Record 79c6cdc15b · Anatomy-Informed-Neural-Networks-Encoding-Anatomic-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T04:56:04.876614+00:00
+updated_at: 2026-09-20T09:11:18.438427+00:00
 tags: [record, real-data]
 ---
 

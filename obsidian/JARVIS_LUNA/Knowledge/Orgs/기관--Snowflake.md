@@ -2,7 +2,7 @@
 title: "기관 · Snowflake"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T04:56:05.082869+00:00
+updated_at: 2026-09-20T09:11:18.746359+00:00
 tags: [org, real-data]
 ---
 

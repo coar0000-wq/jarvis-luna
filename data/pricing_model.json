@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-20T04:08:30.316823+00:00",
+  "generated_at": "2026-09-20T09:09:33.470649+00:00",
   "exchange_rate": {
     "usd_to_krw": 1386.74,
     "as_of": "2026-09-20",
-    "source": "https://open.er-api.com/v6/latest/USD"
+    "source": "ExchangeRate-API"
   },
   "cost_basis": {
     "shipping": "우체국 국제통상 소형포장물 미국행 요금표 (ems.epost.go.kr, 2026-08-31 조회)",
@@ -21,9 +21,9 @@
     ]
   },
   "market_benchmark": {
-    "min": 9.9,
-    "p25": 21.0,
-    "median": 25.0,
+    "min": 8.99,
+    "p25": 20.3,
+    "median": 24.5,
     "max": 279.0,
     "n": 100,
     "source": "us.oliveyoung.com/best-sellers 실수집 100건 (2026-09-20)"
@@ -35,13 +35,13 @@
         "pd_no": "1049276",
         "name": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
         "qty": 1,
-        "price_usd": 25.99,
-        "unit_price_usd": 25.99,
+        "price_usd": 24.99,
+        "unit_price_usd": 24.99,
         "landed_cost_total_usd": 8.55,
-        "fee_usd": 1.92,
-        "net_profit_usd": 15.52,
-        "margin_pct": 59.7,
-        "market_median_usd": 25.0,
+        "fee_usd": 1.85,
+        "net_profit_usd": 14.59,
+        "margin_pct": 58.4,
+        "market_median_usd": 24.5,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -50,13 +50,13 @@
         "pd_no": "1055167",
         "name": "본셉 레티놀 500 IU 세럼 30 ml",
         "qty": 1,
-        "price_usd": 25.99,
-        "unit_price_usd": 25.99,
+        "price_usd": 24.99,
+        "unit_price_usd": 24.99,
         "landed_cost_total_usd": 10.21,
-        "fee_usd": 1.92,
-        "net_profit_usd": 13.86,
-        "margin_pct": 53.3,
-        "market_median_usd": 25.0,
+        "fee_usd": 1.85,
+        "net_profit_usd": 12.93,
+        "margin_pct": 51.7,
+        "market_median_usd": 24.5,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -95,13 +95,13 @@
         "pd_no": "1072554",
         "name": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
         "qty": 1,
-        "price_usd": 25.99,
-        "unit_price_usd": 25.99,
+        "price_usd": 24.99,
+        "unit_price_usd": 24.99,
         "landed_cost_total_usd": 10.94,
-        "fee_usd": 1.92,
-        "net_profit_usd": 13.13,
-        "margin_pct": 50.5,
-        "market_median_usd": 25.0,
+        "fee_usd": 1.85,
+        "net_profit_usd": 12.2,
+        "margin_pct": 48.8,
+        "market_median_usd": 24.5,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -122,16 +122,31 @@
         "block_reason": ""
       },
       {
+        "pd_no": "1067495",
+        "name": "[퀵 수분충전]VT PDRN 광채 토너 200 ml",
+        "qty": 1,
+        "price_usd": 24.99,
+        "unit_price_usd": 24.99,
+        "landed_cost_total_usd": 12.4,
+        "fee_usd": 1.85,
+        "net_profit_usd": 10.74,
+        "margin_pct": 43.0,
+        "market_median_usd": 24.5,
+        "market_price_source": "oliveyoung_us_benchmark",
+        "register_blocked": false,
+        "block_reason": ""
+      },
+      {
         "pd_no": "1049285",
         "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
         "qty": 1,
-        "price_usd": 25.99,
-        "unit_price_usd": 25.99,
+        "price_usd": 24.99,
+        "unit_price_usd": 24.99,
         "landed_cost_total_usd": 8.55,
-        "fee_usd": 1.92,
-        "net_profit_usd": 15.52,
-        "margin_pct": 59.7,
-        "market_median_usd": 25.0,
+        "fee_usd": 1.85,
+        "net_profit_usd": 14.59,
+        "margin_pct": 58.4,
+        "market_median_usd": 24.5,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -140,13 +155,13 @@
         "pd_no": "1059834",
         "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
         "qty": 1,
-        "price_usd": 25.99,
-        "unit_price_usd": 25.99,
+        "price_usd": 24.99,
+        "unit_price_usd": 24.99,
         "landed_cost_total_usd": 7.72,
-        "fee_usd": 1.92,
-        "net_profit_usd": 16.35,
-        "margin_pct": 62.9,
-        "market_median_usd": 25.0,
+        "fee_usd": 1.85,
+        "net_profit_usd": 15.42,
+        "margin_pct": 61.7,
+        "market_median_usd": 24.5,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -155,28 +170,13 @@
         "pd_no": "1042619",
         "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
         "qty": 1,
-        "price_usd": 25.99,
-        "unit_price_usd": 25.99,
+        "price_usd": 24.99,
+        "unit_price_usd": 24.99,
         "landed_cost_total_usd": 6.89,
-        "fee_usd": 1.92,
-        "net_profit_usd": 17.18,
-        "margin_pct": 66.1,
-        "market_median_usd": 25.0,
-        "market_price_source": "oliveyoung_us_benchmark",
-        "register_blocked": false,
-        "block_reason": ""
-      },
-      {
-        "pd_no": "1053482",
-        "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
-        "qty": 1,
-        "price_usd": 25.99,
-        "unit_price_usd": 25.99,
-        "landed_cost_total_usd": 12.4,
-        "fee_usd": 1.92,
-        "net_profit_usd": 11.67,
-        "margin_pct": 44.9,
-        "market_median_usd": 25.0,
+        "fee_usd": 1.85,
+        "net_profit_usd": 16.25,
+        "margin_pct": 65.0,
+        "market_median_usd": 24.5,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -187,13 +187,13 @@
         "pd_no": "1049276",
         "name": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
         "qty": 2,
-        "price_usd": 42.99,
-        "unit_price_usd": 21.5,
+        "price_usd": 41.99,
+        "unit_price_usd": 21.0,
         "landed_cost_total_usd": 11.04,
-        "fee_usd": 3.18,
-        "net_profit_usd": 28.77,
-        "margin_pct": 66.9,
-        "market_median_usd": 25.0,
+        "fee_usd": 3.11,
+        "net_profit_usd": 27.84,
+        "margin_pct": 66.3,
+        "market_median_usd": 24.5,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -202,13 +202,13 @@
         "pd_no": "1055167",
         "name": "본셉 레티놀 500 IU 세럼 30 ml",
         "qty": 2,
-        "price_usd": 42.99,
-        "unit_price_usd": 21.5,
+        "price_usd": 41.99,
+        "unit_price_usd": 21.0,
         "landed_cost_total_usd": 15.08,
-        "fee_usd": 3.18,
-        "net_profit_usd": 24.73,
-        "margin_pct": 57.5,
-        "market_median_usd": 25.0,
+        "fee_usd": 3.11,
+        "net_profit_usd": 23.8,
+        "margin_pct": 56.7,
+        "market_median_usd": 24.5,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -247,13 +247,13 @@
         "pd_no": "1072554",
         "name": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
         "qty": 2,
-        "price_usd": 42.99,
-        "unit_price_usd": 21.5,
+        "price_usd": 41.99,
+        "unit_price_usd": 21.0,
         "landed_cost_total_usd": 16.54,
-        "fee_usd": 3.18,
-        "net_profit_usd": 23.27,
-        "margin_pct": 54.1,
-        "market_median_usd": 25.0,
+        "fee_usd": 3.11,
+        "net_profit_usd": 22.34,
+        "margin_pct": 53.2,
+        "market_median_usd": 24.5,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -274,16 +274,31 @@
         "block_reason": ""
       },
       {
+        "pd_no": "1067495",
+        "name": "[퀵 수분충전]VT PDRN 광채 토너 200 ml",
+        "qty": 2,
+        "price_usd": 41.99,
+        "unit_price_usd": 21.0,
+        "landed_cost_total_usd": 20.08,
+        "fee_usd": 3.11,
+        "net_profit_usd": 18.8,
+        "margin_pct": 44.8,
+        "market_median_usd": 24.5,
+        "market_price_source": "oliveyoung_us_benchmark",
+        "register_blocked": false,
+        "block_reason": ""
+      },
+      {
         "pd_no": "1049285",
         "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
         "qty": 2,
-        "price_usd": 42.99,
-        "unit_price_usd": 21.5,
+        "price_usd": 41.99,
+        "unit_price_usd": 21.0,
         "landed_cost_total_usd": 11.04,
-        "fee_usd": 3.18,
-        "net_profit_usd": 28.77,
-        "margin_pct": 66.9,
-        "market_median_usd": 25.0,
+        "fee_usd": 3.11,
+        "net_profit_usd": 27.84,
+        "margin_pct": 66.3,
+        "market_median_usd": 24.5,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -292,13 +307,13 @@
         "pd_no": "1059834",
         "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
         "qty": 2,
-        "price_usd": 42.99,
-        "unit_price_usd": 21.5,
+        "price_usd": 41.99,
+        "unit_price_usd": 21.0,
         "landed_cost_total_usd": 10.12,
-        "fee_usd": 3.18,
-        "net_profit_usd": 29.69,
-        "margin_pct": 69.1,
-        "market_median_usd": 25.0,
+        "fee_usd": 3.11,
+        "net_profit_usd": 28.76,
+        "margin_pct": 68.5,
+        "market_median_usd": 24.5,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -307,28 +322,13 @@
         "pd_no": "1042619",
         "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
         "qty": 2,
-        "price_usd": 42.99,
-        "unit_price_usd": 21.5,
+        "price_usd": 41.99,
+        "unit_price_usd": 21.0,
         "landed_cost_total_usd": 8.46,
-        "fee_usd": 3.18,
-        "net_profit_usd": 31.35,
-        "margin_pct": 72.9,
-        "market_median_usd": 25.0,
-        "market_price_source": "oliveyoung_us_benchmark",
-        "register_blocked": false,
-        "block_reason": ""
-      },
-      {
-        "pd_no": "1053482",
-        "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
-        "qty": 2,
-        "price_usd": 42.99,
-        "unit_price_usd": 21.5,
-        "landed_cost_total_usd": 20.08,
-        "fee_usd": 3.18,
-        "net_profit_usd": 19.73,
-        "margin_pct": 45.9,
-        "market_median_usd": 25.0,
+        "fee_usd": 3.11,
+        "net_profit_usd": 30.42,
+        "margin_pct": 72.5,
+        "market_median_usd": 24.5,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -352,41 +352,41 @@
     "single": {
       "qty": 1,
       "discount_pct": 0,
-      "price_usd": 25.99,
-      "unit_price_usd": 25.99,
+      "price_usd": 24.99,
+      "unit_price_usd": 24.99,
       "landed_cost_total_usd": 9.25,
       "shipping_in_cost_usd": 6.42,
-      "fee_usd": 1.92,
-      "net_profit_usd": 14.82,
-      "margin_pct": 57.0,
+      "fee_usd": 1.85,
+      "net_profit_usd": 13.89,
+      "margin_pct": 55.6,
       "free_shipping": false,
-      "orders_for_500usd": 34,
+      "orders_for_500usd": 36,
       "price_basis": "상품별 권장가의 중앙값",
       "price_range_usd": [
         11.99,
-        25.99
+        24.99
       ]
     },
     "bundle": {
       "qty": 2,
       "discount_pct": 15,
-      "price_usd": 42.99,
-      "unit_price_usd": 21.5,
+      "price_usd": 41.99,
+      "unit_price_usd": 21.0,
       "landed_cost_total_usd": 12.93,
       "shipping_in_cost_usd": 7.29,
-      "fee_usd": 3.18,
-      "net_profit_usd": 26.87,
-      "margin_pct": 62.5,
+      "fee_usd": 3.11,
+      "net_profit_usd": 25.95,
+      "margin_pct": 61.8,
       "free_shipping": true,
       "orders_for_500usd": 19,
       "price_basis": "상품별 권장가의 중앙값",
       "price_range_usd": [
         20.99,
-        42.99
+        41.99
       ]
     },
     "free_shipping_min_qty": 2,
-    "bundle_vs_single": 1.8,
+    "bundle_vs_single": 1.9,
     "판단_근거": "15% 할인을 고른 이유: 5~10%는 미국 소비자에게 체감이 없고, 20%면 마진이 36.7%로 떨어져 반품·파손 완충이 사라진다. 15%면 마진 40%를 지키면서 단품 대비 순익 2.2배다. 무료배송은 2개 주문 배송비가 이미 원가에 포함돼 추가 부담이 없다.",
     "광고비": "0 (매출이 붙기 전까지 광고하지 않기로 결정)"
   },
@@ -419,19 +419,19 @@
           "margin_pct": -87.1
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 10.89,
-          "margin_pct": 51.9
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 10.25,
+          "margin_pct": 50.5
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 14.6,
-          "margin_pct": 58.4
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 14.13,
+          "margin_pct": 57.7
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -462,19 +462,19 @@
           "margin_pct": -36.1
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 9.24,
-          "margin_pct": 44.0
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 8.59,
+          "margin_pct": 42.3
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 12.94,
-          "margin_pct": 51.8
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 12.48,
+          "margin_pct": 50.9
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -505,16 +505,16 @@
           "margin_pct": -87.1
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 10.89,
-          "margin_pct": 51.9
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 10.25,
+          "margin_pct": 50.5
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 14.6,
-          "margin_pct": 58.4
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 14.13,
+          "margin_pct": 57.7
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 17.44,
@@ -553,16 +553,16 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 8.51,
-          "margin_pct": 40.5
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 7.86,
+          "margin_pct": 38.7
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 12.21,
-          "margin_pct": 48.8
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 11.75,
+          "margin_pct": 47.9
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 23.0,
@@ -601,19 +601,19 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 8.51,
-          "margin_pct": 40.5
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 7.86,
+          "margin_pct": 38.7
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 12.21,
-          "margin_pct": 48.8
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 11.75,
+          "margin_pct": 47.9
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -644,16 +644,16 @@
           "margin_pct": -150.8
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 11.72,
-          "margin_pct": 55.8
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 11.07,
+          "margin_pct": 54.6
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 15.43,
-          "margin_pct": 61.7
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 14.96,
+          "margin_pct": 61.1
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 12.63,
@@ -664,6 +664,49 @@
           "profit": 3.97,
           "margin_pct": 31.5
         }
+      },
+      {
+        "pd_no": "1067495",
+        "name": "[퀵 수분충전]VT PDRN 광채 토너 200 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 93,
+        "price_krw": 5000,
+        "weight_g_est": 360,
+        "weight_note": "200ml x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.61,
+        "shipping_unit_usd": 8.25,
+        "shipping_order_usd": 8.25,
+        "tariff_usd": 0.54,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 12.4,
+        "landed_cost_ddu_usd": 12.4,
+        "landed_cost_ddp_usd": 11.86,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 13.39,
+        "at_2_2x": {
+          "sell": 7.93,
+          "fee": 0.59,
+          "profit": -5.05,
+          "margin_pct": -63.7
+        },
+        "at_market_p25": {
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 6.4,
+          "margin_pct": 31.5
+        },
+        "at_market_median": {
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 10.29,
+          "margin_pct": 42.0
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.5,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1049285",
@@ -692,19 +735,19 @@
           "margin_pct": -87.1
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 10.89,
-          "margin_pct": 51.9
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 10.25,
+          "margin_pct": 50.5
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 14.6,
-          "margin_pct": 58.4
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 14.13,
+          "margin_pct": 57.7
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -712,7 +755,7 @@
         "pd_no": "1059834",
         "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
         "bucket": "마스크팩",
-        "shopify_score": 90,
+        "shopify_score": 89,
         "price_krw": 2000,
         "weight_g_est": 85,
         "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
@@ -735,19 +778,19 @@
           "margin_pct": -150.8
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 11.72,
-          "margin_pct": 55.8
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 11.07,
+          "margin_pct": 54.6
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 15.43,
-          "margin_pct": 61.7
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 14.96,
+          "margin_pct": 61.1
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -755,7 +798,7 @@
         "pd_no": "1042619",
         "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
         "bucket": "마스크팩",
-        "shopify_score": 89,
+        "shopify_score": 88,
         "price_krw": 1000,
         "weight_g_est": 86,
         "weight_note": "고시 용량 29g x 1.6(용기) + 40g(포장)",
@@ -778,62 +821,19 @@
           "margin_pct": -341.9
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 12.55,
-          "margin_pct": 59.8
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 11.9,
+          "margin_pct": 58.6
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 16.26,
-          "margin_pct": 65.0
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 15.79,
+          "margin_pct": 64.5
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1053482",
-        "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 85,
-        "price_krw": 5000,
-        "weight_g_est": 360,
-        "weight_note": "고시 용량 200ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.61,
-        "shipping_unit_usd": 8.25,
-        "shipping_order_usd": 8.25,
-        "tariff_usd": 0.54,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 12.4,
-        "landed_cost_ddu_usd": 12.4,
-        "landed_cost_ddp_usd": 11.86,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 13.39,
-        "at_2_2x": {
-          "sell": 7.93,
-          "fee": 0.59,
-          "profit": -5.05,
-          "margin_pct": -63.7
-        },
-        "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 7.05,
-          "margin_pct": 33.6
-        },
-        "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 10.75,
-          "margin_pct": 43.0
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       }
@@ -866,19 +866,19 @@
           "margin_pct": -23.4
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 13.93,
-          "margin_pct": 66.3
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 13.28,
+          "margin_pct": 65.4
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 17.63,
-          "margin_pct": 70.5
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 17.17,
+          "margin_pct": 70.1
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -909,19 +909,19 @@
           "margin_pct": -2.5
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 11.9,
-          "margin_pct": 56.7
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 11.25,
+          "margin_pct": 55.4
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 15.61,
-          "margin_pct": 62.4
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 15.14,
+          "margin_pct": 61.8
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -952,16 +952,16 @@
           "margin_pct": -23.4
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 13.93,
-          "margin_pct": 66.3
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 13.28,
+          "margin_pct": 65.4
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 17.63,
-          "margin_pct": 70.5
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 17.17,
+          "margin_pct": 70.1
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 17.44,
@@ -1000,16 +1000,16 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 11.54,
-          "margin_pct": 54.9
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 10.89,
+          "margin_pct": 53.6
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 15.24,
-          "margin_pct": 61.0
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 14.78,
+          "margin_pct": 60.3
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 23.0,
@@ -1048,19 +1048,19 @@
           "margin_pct": -11.7
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 11.17,
-          "margin_pct": 53.2
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 10.53,
+          "margin_pct": 51.9
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 14.88,
-          "margin_pct": 59.5
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 14.42,
+          "margin_pct": 58.8
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1091,16 +1091,16 @@
           "margin_pct": -66.7
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 14.39,
-          "margin_pct": 68.5
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 13.74,
+          "margin_pct": 67.7
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 18.09,
-          "margin_pct": 72.4
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 17.63,
+          "margin_pct": 72.0
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 12.63,
@@ -1111,6 +1111,49 @@
           "profit": 6.64,
           "margin_pct": 52.6
         }
+      },
+      {
+        "pd_no": "1067495",
+        "name": "[퀵 수분충전]VT PDRN 광채 토너 200 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 93,
+        "price_krw": 5000,
+        "weight_g_est": 360,
+        "weight_note": "200ml x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.61,
+        "shipping_unit_usd": 5.89,
+        "shipping_order_usd": 11.78,
+        "tariff_usd": 0.54,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 10.04,
+        "landed_cost_ddu_usd": 10.04,
+        "landed_cost_ddp_usd": 9.5,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 10.84,
+        "at_2_2x": {
+          "sell": 7.93,
+          "fee": 0.59,
+          "profit": -2.69,
+          "margin_pct": -33.9
+        },
+        "at_market_p25": {
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 8.76,
+          "margin_pct": 43.2
+        },
+        "at_market_median": {
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 12.65,
+          "margin_pct": 51.6
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.5,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1049285",
@@ -1139,19 +1182,19 @@
           "margin_pct": -23.4
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 13.93,
-          "margin_pct": 66.3
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 13.28,
+          "margin_pct": 65.4
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 17.63,
-          "margin_pct": 70.5
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 17.17,
+          "margin_pct": 70.1
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1159,7 +1202,7 @@
         "pd_no": "1059834",
         "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
         "bucket": "마스크팩",
-        "shopify_score": 90,
+        "shopify_score": 89,
         "price_krw": 2000,
         "weight_g_est": 85,
         "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
@@ -1182,19 +1225,19 @@
           "margin_pct": -66.7
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 14.39,
-          "margin_pct": 68.5
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 13.74,
+          "margin_pct": 67.7
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 18.09,
-          "margin_pct": 72.4
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 17.63,
+          "margin_pct": 72.0
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1202,7 +1245,7 @@
         "pd_no": "1042619",
         "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
         "bucket": "마스크팩",
-        "shopify_score": 89,
+        "shopify_score": 88,
         "price_krw": 1000,
         "weight_g_est": 86,
         "weight_note": "고시 용량 29g x 1.6(용기) + 40g(포장)",
@@ -1225,62 +1268,19 @@
           "margin_pct": -173.8
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 15.22,
-          "margin_pct": 72.5
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 14.57,
+          "margin_pct": 71.8
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 18.92,
-          "margin_pct": 75.7
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 18.46,
+          "margin_pct": 75.4
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1053482",
-        "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 85,
-        "price_krw": 5000,
-        "weight_g_est": 360,
-        "weight_note": "고시 용량 200ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.61,
-        "shipping_unit_usd": 5.89,
-        "shipping_order_usd": 11.78,
-        "tariff_usd": 0.54,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 10.04,
-        "landed_cost_ddu_usd": 10.04,
-        "landed_cost_ddp_usd": 9.5,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 10.84,
-        "at_2_2x": {
-          "sell": 7.93,
-          "fee": 0.59,
-          "profit": -2.69,
-          "margin_pct": -33.9
-        },
-        "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 9.41,
-          "margin_pct": 44.8
-        },
-        "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 13.11,
-          "margin_pct": 52.4
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       }
@@ -1315,19 +1315,19 @@
           "margin_pct": -87.1
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 10.89,
-          "margin_pct": 51.9
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 10.25,
+          "margin_pct": 50.5
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 14.6,
-          "margin_pct": 58.4
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 14.13,
+          "margin_pct": 57.7
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1358,19 +1358,19 @@
           "margin_pct": -36.1
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 9.24,
-          "margin_pct": 44.0
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 8.59,
+          "margin_pct": 42.3
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 12.94,
-          "margin_pct": 51.8
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 12.48,
+          "margin_pct": 50.9
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1401,16 +1401,16 @@
           "margin_pct": -87.1
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 10.89,
-          "margin_pct": 51.9
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 10.25,
+          "margin_pct": 50.5
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 14.6,
-          "margin_pct": 58.4
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 14.13,
+          "margin_pct": 57.7
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 17.44,
@@ -1449,16 +1449,16 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 8.51,
-          "margin_pct": 40.5
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 7.86,
+          "margin_pct": 38.7
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 12.21,
-          "margin_pct": 48.8
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 11.75,
+          "margin_pct": 47.9
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 23.0,
@@ -1497,19 +1497,19 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 8.51,
-          "margin_pct": 40.5
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 7.86,
+          "margin_pct": 38.7
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 12.21,
-          "margin_pct": 48.8
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 11.75,
+          "margin_pct": 47.9
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1540,16 +1540,16 @@
           "margin_pct": -150.8
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 11.72,
-          "margin_pct": 55.8
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 11.07,
+          "margin_pct": 54.6
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 15.43,
-          "margin_pct": 61.7
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 14.96,
+          "margin_pct": 61.1
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 12.63,
@@ -1560,6 +1560,49 @@
           "profit": 3.97,
           "margin_pct": 31.5
         }
+      },
+      {
+        "pd_no": "1067495",
+        "name": "[퀵 수분충전]VT PDRN 광채 토너 200 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 93,
+        "price_krw": 5000,
+        "weight_g_est": 360,
+        "weight_note": "200ml x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.61,
+        "shipping_unit_usd": 8.25,
+        "shipping_order_usd": 8.25,
+        "tariff_usd": 0.54,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 12.4,
+        "landed_cost_ddu_usd": 12.4,
+        "landed_cost_ddp_usd": 11.86,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 13.39,
+        "at_2_2x": {
+          "sell": 7.93,
+          "fee": 0.59,
+          "profit": -5.05,
+          "margin_pct": -63.7
+        },
+        "at_market_p25": {
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 6.4,
+          "margin_pct": 31.5
+        },
+        "at_market_median": {
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 10.29,
+          "margin_pct": 42.0
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.5,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1049285",
@@ -1588,19 +1631,19 @@
           "margin_pct": -87.1
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 10.89,
-          "margin_pct": 51.9
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 10.25,
+          "margin_pct": 50.5
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 14.6,
-          "margin_pct": 58.4
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 14.13,
+          "margin_pct": 57.7
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1608,7 +1651,7 @@
         "pd_no": "1059834",
         "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
         "bucket": "마스크팩",
-        "shopify_score": 90,
+        "shopify_score": 89,
         "price_krw": 2000,
         "weight_g_est": 85,
         "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
@@ -1631,19 +1674,19 @@
           "margin_pct": -150.8
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 11.72,
-          "margin_pct": 55.8
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 11.07,
+          "margin_pct": 54.6
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 15.43,
-          "margin_pct": 61.7
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 14.96,
+          "margin_pct": 61.1
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1651,7 +1694,7 @@
         "pd_no": "1042619",
         "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
         "bucket": "마스크팩",
-        "shopify_score": 89,
+        "shopify_score": 88,
         "price_krw": 1000,
         "weight_g_est": 86,
         "weight_note": "고시 용량 29g x 1.6(용기) + 40g(포장)",
@@ -1674,62 +1717,19 @@
           "margin_pct": -341.9
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 12.55,
-          "margin_pct": 59.8
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 11.9,
+          "margin_pct": 58.6
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 16.26,
-          "margin_pct": 65.0
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 15.79,
+          "margin_pct": 64.5
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1053482",
-        "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 85,
-        "price_krw": 5000,
-        "weight_g_est": 360,
-        "weight_note": "고시 용량 200ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.61,
-        "shipping_unit_usd": 8.25,
-        "shipping_order_usd": 8.25,
-        "tariff_usd": 0.54,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 12.4,
-        "landed_cost_ddu_usd": 12.4,
-        "landed_cost_ddp_usd": 11.86,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 13.39,
-        "at_2_2x": {
-          "sell": 7.93,
-          "fee": 0.59,
-          "profit": -5.05,
-          "margin_pct": -63.7
-        },
-        "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 7.05,
-          "margin_pct": 33.6
-        },
-        "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 10.75,
-          "margin_pct": 43.0
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       }
@@ -1762,19 +1762,19 @@
           "margin_pct": -23.4
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 13.93,
-          "margin_pct": 66.3
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 13.28,
+          "margin_pct": 65.4
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 17.63,
-          "margin_pct": 70.5
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 17.17,
+          "margin_pct": 70.1
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1805,19 +1805,19 @@
           "margin_pct": -2.5
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 11.9,
-          "margin_pct": 56.7
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 11.25,
+          "margin_pct": 55.4
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 15.61,
-          "margin_pct": 62.4
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 15.14,
+          "margin_pct": 61.8
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1848,16 +1848,16 @@
           "margin_pct": -23.4
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 13.93,
-          "margin_pct": 66.3
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 13.28,
+          "margin_pct": 65.4
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 17.63,
-          "margin_pct": 70.5
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 17.17,
+          "margin_pct": 70.1
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 17.44,
@@ -1896,16 +1896,16 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 11.54,
-          "margin_pct": 54.9
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 10.89,
+          "margin_pct": 53.6
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 15.24,
-          "margin_pct": 61.0
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 14.78,
+          "margin_pct": 60.3
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 23.0,
@@ -1944,19 +1944,19 @@
           "margin_pct": -11.7
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 11.17,
-          "margin_pct": 53.2
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 10.53,
+          "margin_pct": 51.9
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 14.88,
-          "margin_pct": 59.5
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 14.42,
+          "margin_pct": 58.8
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1987,16 +1987,16 @@
           "margin_pct": -66.7
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 14.39,
-          "margin_pct": 68.5
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 13.74,
+          "margin_pct": 67.7
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 18.09,
-          "margin_pct": 72.4
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 17.63,
+          "margin_pct": 72.0
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 12.63,
@@ -2007,6 +2007,49 @@
           "profit": 6.64,
           "margin_pct": 52.6
         }
+      },
+      {
+        "pd_no": "1067495",
+        "name": "[퀵 수분충전]VT PDRN 광채 토너 200 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 93,
+        "price_krw": 5000,
+        "weight_g_est": 360,
+        "weight_note": "200ml x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.61,
+        "shipping_unit_usd": 5.89,
+        "shipping_order_usd": 11.78,
+        "tariff_usd": 0.54,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 10.04,
+        "landed_cost_ddu_usd": 10.04,
+        "landed_cost_ddp_usd": 9.5,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 10.84,
+        "at_2_2x": {
+          "sell": 7.93,
+          "fee": 0.59,
+          "profit": -2.69,
+          "margin_pct": -33.9
+        },
+        "at_market_p25": {
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 8.76,
+          "margin_pct": 43.2
+        },
+        "at_market_median": {
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 12.65,
+          "margin_pct": 51.6
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.5,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1049285",
@@ -2035,19 +2078,19 @@
           "margin_pct": -23.4
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 13.93,
-          "margin_pct": 66.3
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 13.28,
+          "margin_pct": 65.4
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 17.63,
-          "margin_pct": 70.5
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 17.17,
+          "margin_pct": 70.1
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2055,7 +2098,7 @@
         "pd_no": "1059834",
         "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
         "bucket": "마스크팩",
-        "shopify_score": 90,
+        "shopify_score": 89,
         "price_krw": 2000,
         "weight_g_est": 85,
         "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
@@ -2078,19 +2121,19 @@
           "margin_pct": -66.7
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 14.39,
-          "margin_pct": 68.5
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 13.74,
+          "margin_pct": 67.7
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 18.09,
-          "margin_pct": 72.4
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 17.63,
+          "margin_pct": 72.0
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2098,7 +2141,7 @@
         "pd_no": "1042619",
         "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
         "bucket": "마스크팩",
-        "shopify_score": 89,
+        "shopify_score": 88,
         "price_krw": 1000,
         "weight_g_est": 86,
         "weight_note": "고시 용량 29g x 1.6(용기) + 40g(포장)",
@@ -2121,62 +2164,19 @@
           "margin_pct": -173.8
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 15.22,
-          "margin_pct": 72.5
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 14.57,
+          "margin_pct": 71.8
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 18.92,
-          "margin_pct": 75.7
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 18.46,
+          "margin_pct": 75.4
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1053482",
-        "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 85,
-        "price_krw": 5000,
-        "weight_g_est": 360,
-        "weight_note": "고시 용량 200ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.61,
-        "shipping_unit_usd": 5.89,
-        "shipping_order_usd": 11.78,
-        "tariff_usd": 0.54,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 10.04,
-        "landed_cost_ddu_usd": 10.04,
-        "landed_cost_ddp_usd": 9.5,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 10.84,
-        "at_2_2x": {
-          "sell": 7.93,
-          "fee": 0.59,
-          "profit": -2.69,
-          "margin_pct": -33.9
-        },
-        "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 9.41,
-          "margin_pct": 44.8
-        },
-        "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 13.11,
-          "margin_pct": 52.4
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       }
@@ -2209,19 +2209,19 @@
           "margin_pct": -80.3
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 11.22,
-          "margin_pct": 53.4
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 10.57,
+          "margin_pct": 52.1
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 14.92,
-          "margin_pct": 59.7
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 14.46,
+          "margin_pct": 59.0
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2252,19 +2252,19 @@
           "margin_pct": -29.3
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 9.78,
-          "margin_pct": 46.6
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 9.13,
+          "margin_pct": 45.0
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 13.48,
-          "margin_pct": 53.9
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 13.02,
+          "margin_pct": 53.1
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2295,16 +2295,16 @@
           "margin_pct": -80.3
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 11.22,
-          "margin_pct": 53.4
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 10.57,
+          "margin_pct": 52.1
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 14.92,
-          "margin_pct": 59.7
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 14.46,
+          "margin_pct": 59.0
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 17.44,
@@ -2343,16 +2343,16 @@
           "margin_pct": -38.5
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 9.05,
-          "margin_pct": 43.1
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 8.4,
+          "margin_pct": 41.4
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 12.75,
-          "margin_pct": 51.0
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 12.29,
+          "margin_pct": 50.2
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 23.0,
@@ -2391,19 +2391,19 @@
           "margin_pct": -38.5
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 9.05,
-          "margin_pct": 43.1
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 8.4,
+          "margin_pct": 41.4
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 12.75,
-          "margin_pct": 51.0
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 12.29,
+          "margin_pct": 50.2
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2434,16 +2434,16 @@
           "margin_pct": -144.0
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 11.94,
-          "margin_pct": 56.9
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 11.29,
+          "margin_pct": 55.6
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 15.64,
-          "margin_pct": 62.6
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 15.18,
+          "margin_pct": 62.0
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 12.63,
@@ -2454,6 +2454,49 @@
           "profit": 4.19,
           "margin_pct": 33.2
         }
+      },
+      {
+        "pd_no": "1067495",
+        "name": "[퀵 수분충전]VT PDRN 광채 토너 200 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 93,
+        "price_krw": 5000,
+        "weight_g_est": 360,
+        "weight_note": "200ml x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.61,
+        "shipping_unit_usd": 8.25,
+        "shipping_order_usd": 8.25,
+        "tariff_usd": 0.54,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 11.86,
+        "landed_cost_ddu_usd": 12.4,
+        "landed_cost_ddp_usd": 11.86,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 12.8,
+        "at_2_2x": {
+          "sell": 7.93,
+          "fee": 0.59,
+          "profit": -4.51,
+          "margin_pct": -56.9
+        },
+        "at_market_p25": {
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 6.94,
+          "margin_pct": 34.2
+        },
+        "at_market_median": {
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 10.83,
+          "margin_pct": 44.2
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.5,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1049285",
@@ -2482,19 +2525,19 @@
           "margin_pct": -80.3
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 11.22,
-          "margin_pct": 53.4
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 10.57,
+          "margin_pct": 52.1
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 14.92,
-          "margin_pct": 59.7
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 14.46,
+          "margin_pct": 59.0
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2502,7 +2545,7 @@
         "pd_no": "1059834",
         "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
         "bucket": "마스크팩",
-        "shopify_score": 90,
+        "shopify_score": 89,
         "price_krw": 2000,
         "weight_g_est": 85,
         "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
@@ -2525,19 +2568,19 @@
           "margin_pct": -144.0
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 11.94,
-          "margin_pct": 56.9
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 11.29,
+          "margin_pct": 55.6
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 15.64,
-          "margin_pct": 62.6
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 15.18,
+          "margin_pct": 62.0
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2545,7 +2588,7 @@
         "pd_no": "1042619",
         "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
         "bucket": "마스크팩",
-        "shopify_score": 89,
+        "shopify_score": 88,
         "price_krw": 1000,
         "weight_g_est": 86,
         "weight_note": "고시 용량 29g x 1.6(용기) + 40g(포장)",
@@ -2568,62 +2611,19 @@
           "margin_pct": -335.1
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 12.66,
-          "margin_pct": 60.3
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 12.01,
+          "margin_pct": 59.2
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 16.36,
-          "margin_pct": 65.5
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 15.9,
+          "margin_pct": 64.9
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1053482",
-        "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 85,
-        "price_krw": 5000,
-        "weight_g_est": 360,
-        "weight_note": "고시 용량 200ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.61,
-        "shipping_unit_usd": 8.25,
-        "shipping_order_usd": 8.25,
-        "tariff_usd": 0.54,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 11.86,
-        "landed_cost_ddu_usd": 12.4,
-        "landed_cost_ddp_usd": 11.86,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 12.8,
-        "at_2_2x": {
-          "sell": 7.93,
-          "fee": 0.59,
-          "profit": -4.51,
-          "margin_pct": -56.9
-        },
-        "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 7.59,
-          "margin_pct": 36.1
-        },
-        "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 11.29,
-          "margin_pct": 45.2
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       }
@@ -2656,19 +2656,19 @@
           "margin_pct": -16.6
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 14.25,
-          "margin_pct": 67.9
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 13.6,
+          "margin_pct": 67.0
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 17.95,
-          "margin_pct": 71.8
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 17.49,
+          "margin_pct": 71.4
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2699,19 +2699,19 @@
           "margin_pct": 4.3
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 12.44,
-          "margin_pct": 59.3
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 11.8,
+          "margin_pct": 58.1
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 16.15,
-          "margin_pct": 64.6
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 15.68,
+          "margin_pct": 64.0
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2742,16 +2742,16 @@
           "margin_pct": -16.6
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 14.25,
-          "margin_pct": 67.9
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 13.6,
+          "margin_pct": 67.0
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 17.95,
-          "margin_pct": 71.8
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 17.49,
+          "margin_pct": 71.4
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 17.44,
@@ -2790,16 +2790,16 @@
           "margin_pct": -0.3
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 12.08,
-          "margin_pct": 57.5
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 11.43,
+          "margin_pct": 56.3
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 15.78,
-          "margin_pct": 63.1
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 15.32,
+          "margin_pct": 62.5
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 23.0,
@@ -2838,19 +2838,19 @@
           "margin_pct": -4.9
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 11.72,
-          "margin_pct": 55.8
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 11.07,
+          "margin_pct": 54.5
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 15.42,
-          "margin_pct": 61.7
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 14.96,
+          "margin_pct": 61.0
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2881,16 +2881,16 @@
           "margin_pct": -59.9
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 14.61,
-          "margin_pct": 69.6
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 13.96,
+          "margin_pct": 68.8
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 18.31,
-          "margin_pct": 73.2
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 17.85,
+          "margin_pct": 72.9
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 12.63,
@@ -2901,6 +2901,49 @@
           "profit": 6.86,
           "margin_pct": 54.3
         }
+      },
+      {
+        "pd_no": "1067495",
+        "name": "[퀵 수분충전]VT PDRN 광채 토너 200 ml",
+        "bucket": "스킨케어",
+        "shopify_score": 93,
+        "price_krw": 5000,
+        "weight_g_est": 360,
+        "weight_note": "200ml x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": false,
+        "unit_cost_usd": 3.61,
+        "shipping_unit_usd": 5.89,
+        "shipping_order_usd": 11.78,
+        "tariff_usd": 0.54,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 9.5,
+        "landed_cost_ddu_usd": 10.04,
+        "landed_cost_ddp_usd": 9.5,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 10.26,
+        "at_2_2x": {
+          "sell": 7.93,
+          "fee": 0.59,
+          "profit": -2.15,
+          "margin_pct": -27.1
+        },
+        "at_market_p25": {
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 9.3,
+          "margin_pct": 45.8
+        },
+        "at_market_median": {
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 13.19,
+          "margin_pct": 53.8
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.5,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1049285",
@@ -2929,19 +2972,19 @@
           "margin_pct": -16.6
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 14.25,
-          "margin_pct": 67.9
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 13.6,
+          "margin_pct": 67.0
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 17.95,
-          "margin_pct": 71.8
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 17.49,
+          "margin_pct": 71.4
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2949,7 +2992,7 @@
         "pd_no": "1059834",
         "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
         "bucket": "마스크팩",
-        "shopify_score": 90,
+        "shopify_score": 89,
         "price_krw": 2000,
         "weight_g_est": 85,
         "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
@@ -2972,19 +3015,19 @@
           "margin_pct": -59.9
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 14.61,
-          "margin_pct": 69.6
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 13.96,
+          "margin_pct": 68.8
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 18.31,
-          "margin_pct": 73.2
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 17.85,
+          "margin_pct": 72.9
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2992,7 +3035,7 @@
         "pd_no": "1042619",
         "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
         "bucket": "마스크팩",
-        "shopify_score": 89,
+        "shopify_score": 88,
         "price_krw": 1000,
         "weight_g_est": 86,
         "weight_note": "고시 용량 29g x 1.6(용기) + 40g(포장)",
@@ -3015,62 +3058,19 @@
           "margin_pct": -166.9
         },
         "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 15.33,
-          "margin_pct": 73.0
+          "sell": 20.3,
+          "fee": 1.5,
+          "profit": 14.68,
+          "margin_pct": 72.3
         },
         "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 19.03,
-          "margin_pct": 76.1
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 18.57,
+          "margin_pct": 75.8
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1053482",
-        "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 85,
-        "price_krw": 5000,
-        "weight_g_est": 360,
-        "weight_note": "고시 용량 200ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.61,
-        "shipping_unit_usd": 5.89,
-        "shipping_order_usd": 11.78,
-        "tariff_usd": 0.54,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 9.5,
-        "landed_cost_ddu_usd": 10.04,
-        "landed_cost_ddp_usd": 9.5,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 10.26,
-        "at_2_2x": {
-          "sell": 7.93,
-          "fee": 0.59,
-          "profit": -2.15,
-          "margin_pct": -27.1
-        },
-        "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 9.95,
-          "margin_pct": 47.4
-        },
-        "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 13.65,
-          "margin_pct": 54.6
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       }

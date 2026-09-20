@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T22:27:05.563659+00:00",
+  "generated_at": "2026-09-20T09:09:33.328374+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
@@ -18,16 +18,16 @@
       "s_rule": "strong_form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049276",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/biuEYxzjCmX6JMJEi1e01049276_00_01biuEYxzjCmX6JMJEi1e0.jpg",
-      "recommend_reason": "글로벌 'REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 73% · 토큰 ampoule",
+      "recommend_reason": "글로벌 'lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)' (oliveyoung_us) 유사 67% · 토큰 ampoule",
       "matched_global": {
         "channel": "oliveyoung_us",
-        "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
-        "similarity": 0.733,
-        "demand_weight": 0.931,
+        "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
+        "similarity": 0.667,
+        "demand_weight": 0.882,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.683
+        "match_score": 0.588
       },
       "registerable": true,
       "registerable_source": "data/listing_gate.json",
@@ -38,7 +38,6 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-20T04:14:32.251435+00:00",
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -58,7 +57,8 @@
         ],
         "confidence": null,
         "usage": null
-      }
+      },
+      "gate_generated_at": "2026-09-20T09:09:35.918740+00:00"
     },
     {
       "rank": 2,
@@ -93,7 +93,6 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-20T04:14:32.251435+00:00",
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -113,7 +112,8 @@
         ],
         "confidence": null,
         "usage": null
-      }
+      },
+      "gate_generated_at": "2026-09-20T09:09:35.918740+00:00"
     },
     {
       "rank": 3,
@@ -127,16 +127,16 @@
       "s_rule": "strong_form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049275",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/0XsdymYj3PJyHpuxNOsm1049275_00_010XsdymYj3PJyHpuxNOsm.jpg",
-      "recommend_reason": "글로벌 'REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 73% · 토큰 ampoule",
+      "recommend_reason": "글로벌 'lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)' (oliveyoung_us) 유사 67% · 토큰 ampoule",
       "matched_global": {
         "channel": "oliveyoung_us",
-        "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
-        "similarity": 0.733,
-        "demand_weight": 0.931,
+        "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
+        "similarity": 0.667,
+        "demand_weight": 0.882,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.683
+        "match_score": 0.588
       },
       "registerable": true,
       "registerable_source": "data/listing_gate.json",
@@ -147,7 +147,6 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-20T04:14:32.251435+00:00",
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -167,7 +166,8 @@
         ],
         "confidence": null,
         "usage": null
-      }
+      },
+      "gate_generated_at": "2026-09-20T09:09:35.918740+00:00"
     },
     {
       "rank": 4,
@@ -181,17 +181,17 @@
       "s_rule": "ingredient+form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067498",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/wj1JQs4g8q0tBuz4c7jF1067498_00_01wj1JQs4g8q0tBuz4c7jF.jpg",
-      "recommend_reason": "글로벌 'Lacto-PDRN 4% + B9 Eye Cream' (ulta_beauty) 유사 88% · 토큰 cream, pdrn",
+      "recommend_reason": "글로벌 'ANUA PDRN Hyaluronic Acid 100 Moisturizing Cream, 2.02 fl oz | Lightweight, Non-Greasy Hydrating Face Moisturizer with Salmon DNA for Glass Skin, Korean Skincare' (amazon_best_sellers) 유사 77% · 토큰 cream, pdrn",
       "matched_global": {
-        "channel": "ulta_beauty",
-        "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
-        "similarity": 0.88,
-        "demand_weight": 0.425,
+        "channel": "amazon_best_sellers",
+        "global_product": "ANUA PDRN Hyaluronic Acid 100 Moisturizing Cream, 2.02 fl oz | Lightweight, Non-Greasy Hydrating Face Moisturizer with Salmon DNA for Glass Skin, Korean Skincare",
+        "similarity": 0.773,
+        "demand_weight": 0.57,
         "matched_tokens": [
           "cream",
           "pdrn"
         ],
-        "match_score": 0.374
+        "match_score": 0.441
       },
       "registerable": true,
       "registerable_source": "data/listing_gate.json",
@@ -202,7 +202,6 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-20T04:14:32.251435+00:00",
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -222,7 +221,8 @@
         ],
         "confidence": null,
         "usage": null
-      }
+      },
+      "gate_generated_at": "2026-09-20T09:09:35.918740+00:00"
     },
     {
       "rank": 5,
@@ -260,7 +260,6 @@
         "copy",
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-20T04:14:32.251435+00:00",
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -282,7 +281,8 @@
         ],
         "confidence": null,
         "usage": null
-      }
+      },
+      "gate_generated_at": "2026-09-20T09:09:35.918740+00:00"
     },
     {
       "rank": 6,
@@ -296,17 +296,17 @@
       "s_rule": "ingredient+form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1075857",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260205/Cg7pPAF0QMRSGGKdsWZw1075857_00_01Cg7pPAF0QMRSGGKdsWZw.jpg",
-      "recommend_reason": "글로벌 'Lacto-PDRN 4% + B9 Eye Cream' (ulta_beauty) 유사 68% · 토큰 cream, pdrn",
+      "recommend_reason": "글로벌 'ANUA PDRN Hyaluronic Acid 100 Moisturizing Cream, 2.02 fl oz | Lightweight, Non-Greasy Hydrating Face Moisturizer with Salmon DNA for Glass Skin, Korean Skincare' (amazon_best_sellers) 유사 57% · 토큰 cream, pdrn",
       "matched_global": {
-        "channel": "ulta_beauty",
-        "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
-        "similarity": 0.68,
-        "demand_weight": 0.425,
+        "channel": "amazon_best_sellers",
+        "global_product": "ANUA PDRN Hyaluronic Acid 100 Moisturizing Cream, 2.02 fl oz | Lightweight, Non-Greasy Hydrating Face Moisturizer with Salmon DNA for Glass Skin, Korean Skincare",
+        "similarity": 0.573,
+        "demand_weight": 0.57,
         "matched_tokens": [
           "cream",
           "pdrn"
         ],
-        "match_score": 0.289
+        "match_score": 0.327
       },
       "registerable": true,
       "registerable_source": "data/listing_gate.json",
@@ -317,7 +317,6 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-20T04:14:32.251435+00:00",
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -337,10 +336,83 @@
         ],
         "confidence": null,
         "usage": null
-      }
+      },
+      "gate_generated_at": "2026-09-20T09:09:35.918740+00:00"
     },
     {
       "rank": 7,
+      "canonical_product_id": "CP000214",
+      "pd_no": "1067495",
+      "name": "[퀵 수분충전]VT PDRN 광채 토너 200 ml",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 93,
+      "grade": "S",
+      "s_rule": "multi_token",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067495",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260908/3J2IVmbWFVgnei1tyfv71067495_00_003J2IVmbWFVgnei1tyfv7.jpg",
+      "recommend_reason": "글로벌 'Hydrating Milky Toner' (ulta_beauty) 유사 56% · 토큰 hydrating, toner",
+      "matched_global": {
+        "channel": "ulta_beauty",
+        "global_product": "Hydrating Milky Toner",
+        "similarity": 0.56,
+        "demand_weight": 0.552,
+        "matched_tokens": [
+          "hydrating",
+          "toner"
+        ],
+        "match_score": 0.309
+      },
+      "registerable": false,
+      "registerable_source": "data/listing_gate.json",
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "gosi",
+        "us_label",
+        "legal"
+      ],
+      "blocked_by": [
+        "copy",
+        "gosi",
+        "us_label",
+        "legal"
+      ],
+      "public_ready": false,
+      "public_blocked_by": [
+        "copy",
+        "gosi",
+        "us_label",
+        "legal",
+        "legal_full"
+      ],
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "hold",
+        "legal_gate_advisory": "block",
+        "risk_level": "critical",
+        "risk_points": 8,
+        "team_routes": [
+          "legal",
+          "sourcing",
+          "listing"
+        ],
+        "findings": [
+          "draft blockers: copy, gosi, us_label, legal",
+          "public blockers: copy, gosi, us_label, legal, legal_full",
+          "legal hard block"
+        ],
+        "confidence": null,
+        "usage": null
+      },
+      "gate_generated_at": "2026-09-20T09:09:35.918740+00:00"
+    },
+    {
+      "rank": 8,
       "canonical_product_id": "CP000109",
       "pd_no": "1049285",
       "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
@@ -356,12 +428,12 @@
         "channel": "amazon_best_sellers",
         "global_product": "BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Plumping, Travel Essentials & Self Care Gifts for Women, Korean Skin Care | 1.19oz(34g) x 4ea",
         "similarity": 0.638,
-        "demand_weight": 0.522,
+        "demand_weight": 0.475,
         "matched_tokens": [
           "hydrating",
           "mask"
         ],
-        "match_score": 0.333
+        "match_score": 0.303
       },
       "registerable": true,
       "registerable_source": "data/listing_gate.json",
@@ -372,7 +444,6 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-20T04:14:32.251435+00:00",
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -392,16 +463,17 @@
         ],
         "confidence": null,
         "usage": null
-      }
+      },
+      "gate_generated_at": "2026-09-20T09:09:35.918740+00:00"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "canonical_product_id": "CP000151",
       "pd_no": "1059834",
       "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
       "bucket": "마스크팩",
       "price_krw": 2000,
-      "shopify_score": 90,
+      "shopify_score": 89,
       "grade": "S",
       "s_rule": "ingredient+form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
@@ -427,7 +499,6 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-20T04:14:32.251435+00:00",
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -437,8 +508,8 @@
         "enforced": false,
         "grade_advisory": "keep_s",
         "legal_gate_advisory": "review",
-        "risk_level": "medium",
-        "risk_points": 1,
+        "risk_level": "high",
+        "risk_points": 2,
         "team_routes": [
           "legal"
         ],
@@ -447,16 +518,17 @@
         ],
         "confidence": null,
         "usage": null
-      }
+      },
+      "gate_generated_at": "2026-09-20T09:09:35.918740+00:00"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "canonical_product_id": "CP000075",
       "pd_no": "1042619",
       "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
       "bucket": "마스크팩",
       "price_krw": 1000,
-      "shopify_score": 89,
+      "shopify_score": 88,
       "grade": "S",
       "s_rule": "ingredient+form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
@@ -475,70 +547,6 @@
       },
       "registerable": false,
       "registerable_source": "data/listing_gate.json",
-      "agent_ready": false,
-      "agent_blocked_by": [
-        "legal"
-      ],
-      "blocked_by": [
-        "copy",
-        "legal"
-      ],
-      "public_ready": false,
-      "public_blocked_by": [
-        "copy",
-        "legal",
-        "legal_full"
-      ],
-      "gate_generated_at": "2026-09-20T04:14:32.251435+00:00",
-      "typesafe": {
-        "framework": "typesafe_system_one_compatible",
-        "enabled": false,
-        "mode": "disabled_local_advisory",
-        "source": "deterministic_local",
-        "paid_api_called": false,
-        "enforced": false,
-        "grade_advisory": "hold",
-        "legal_gate_advisory": "review",
-        "risk_level": "critical",
-        "risk_points": 4,
-        "team_routes": [
-          "legal",
-          "listing"
-        ],
-        "findings": [
-          "draft blockers: copy, legal",
-          "public blockers: copy, legal, legal_full"
-        ],
-        "confidence": null,
-        "usage": null
-      }
-    },
-    {
-      "rank": 10,
-      "canonical_product_id": "CP000125",
-      "pd_no": "1053482",
-      "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 85,
-      "grade": "S",
-      "s_rule": "multi_token",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1053482",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/S3WHamdJK4z5s7WVkYus1053482_00_00S3WHamdJK4z5s7WVkYus.jpg",
-      "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 60% · 토큰 calming, toner",
-      "matched_global": {
-        "channel": "tiktok_shop_us",
-        "global_product": "ANUA Heartleaf 77 Soothing Toner",
-        "similarity": 0.6,
-        "demand_weight": 0.95,
-        "matched_tokens": [
-          "calming",
-          "toner"
-        ],
-        "match_score": 0.57
-      },
-      "registerable": false,
-      "registerable_source": "data/listing_gate.json",
       "agent_ready": true,
       "agent_blocked_by": [],
       "blocked_by": [
@@ -549,7 +557,6 @@
         "copy",
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-20T04:14:32.251435+00:00",
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -571,7 +578,8 @@
         ],
         "confidence": null,
         "usage": null
-      }
+      },
+      "gate_generated_at": "2026-09-20T09:09:35.918740+00:00"
     }
   ],
   "agent_ready_count": 9,

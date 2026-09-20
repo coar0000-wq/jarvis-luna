@@ -2,7 +2,7 @@
 title: "Record e735506a1b · One-brick-at-a-time-How-Monumental-uses-robotics-to"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T04:56:04.836292+00:00
+updated_at: 2026-09-20T09:11:18.348885+00:00
 tags: [record, real-data]
 ---
 

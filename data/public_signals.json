@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T03:13:43.315355+00:00",
+  "generated_at": "2026-09-20T09:09:32.089060+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "mark zuckerberg",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Sat, 19 Sep 2026 20:00:00 -0700",
-          "source_name": "The Free Press",
-          "url": "https://trends.google.com/trending?geo=US&q=mark%20zuckerberg"
+          "keyword": "technology news",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Sun, 20 Sep 2026 00:50:00 -0700",
+          "source_name": "Forbes",
+          "url": "https://trends.google.com/trending?geo=US&q=technology%20news"
         },
         {
-          "keyword": "arizona football",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Sat, 19 Sep 2026 20:00:00 -0700",
-          "source_name": "University of Arizona Athletics",
-          "url": "https://trends.google.com/trending?geo=US&q=arizona%20football"
+          "keyword": "upcoming events",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Sun, 20 Sep 2026 00:50:00 -0700",
+          "source_name": "Pharos-Tribune",
+          "url": "https://trends.google.com/trending?geo=US&q=upcoming%20events"
         },
         {
-          "keyword": "khamzat chimaev",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Sat, 19 Sep 2026 20:00:00 -0700",
-          "source_name": "MMA Fighting",
-          "url": "https://trends.google.com/trending?geo=US&q=khamzat%20chimaev"
+          "keyword": "daycare",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Sun, 20 Sep 2026 01:40:00 -0700",
+          "source_name": "WMUR",
+          "url": "https://trends.google.com/trending?geo=US&q=daycare"
         },
         {
-          "keyword": "vix",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Sat, 19 Sep 2026 20:00:00 -0700",
-          "source_name": "Saxo",
-          "url": "https://trends.google.com/trending?geo=US&q=vix"
+          "keyword": "address",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Sun, 20 Sep 2026 01:20:00 -0700",
+          "source_name": "WSJ",
+          "url": "https://trends.google.com/trending?geo=US&q=address"
         },
         {
-          "keyword": "nascar standings",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Sat, 19 Sep 2026 20:00:00 -0700",
-          "source_name": "NASCAR.com",
-          "url": "https://trends.google.com/trending?geo=US&q=nascar%20standings"
+          "keyword": "flights",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Sun, 20 Sep 2026 01:10:00 -0700",
+          "source_name": "NBC 5 Chicago",
+          "url": "https://trends.google.com/trending?geo=US&q=flights"
         },
         {
-          "keyword": "islam makhachev",
+          "keyword": "sports market",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sat, 19 Sep 2026 20:00:00 -0700",
-          "source_name": "MMAWeekly.com",
-          "url": "https://trends.google.com/trending?geo=US&q=islam%20makhachev"
+          "published": "Sun, 20 Sep 2026 01:40:00 -0700",
+          "source_name": "KCTV",
+          "url": "https://trends.google.com/trending?geo=US&q=sports%20market"
         },
         {
-          "keyword": "digger movie",
+          "keyword": "fidelity bitcoin",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sat, 19 Sep 2026 20:00:00 -0700",
-          "source_name": "Page Six",
-          "url": "https://trends.google.com/trending?geo=US&q=digger%20movie"
+          "published": "Sun, 20 Sep 2026 01:40:00 -0700",
+          "source_name": "The Block",
+          "url": "https://trends.google.com/trending?geo=US&q=fidelity%20bitcoin"
         },
         {
-          "keyword": "montana grizzlies football",
+          "keyword": "news internet",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sat, 19 Sep 2026 20:00:00 -0700",
-          "source_name": "OregonLive.com",
-          "url": "https://trends.google.com/trending?geo=US&q=montana%20grizzlies%20football"
+          "published": "Sun, 20 Sep 2026 01:30:00 -0700",
+          "source_name": "Reuters",
+          "url": "https://trends.google.com/trending?geo=US&q=news%20internet"
         },
         {
-          "keyword": "dana white",
+          "keyword": "fidelity ira",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Sun, 20 Sep 2026 00:40:00 -0700",
+          "source_name": "Fox Business",
+          "url": "https://trends.google.com/trending?geo=US&q=fidelity%20ira"
+        },
+        {
+          "keyword": "act",
           "approx_traffic": "100+",
           "traffic_num": 100,
-          "published": "Sat, 19 Sep 2026 20:00:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=dana%20white"
-        },
-        {
-          "keyword": "smx results",
-          "approx_traffic": "100+",
-          "traffic_num": 100,
-          "published": "Sat, 19 Sep 2026 20:00:00 -0700",
-          "source_name": "Racer X",
-          "url": "https://trends.google.com/trending?geo=US&q=smx%20results"
+          "published": "Sun, 20 Sep 2026 01:50:00 -0700",
+          "source_name": "CNN",
+          "url": "https://trends.google.com/trending?geo=US&q=act"
         }
       ]
     },

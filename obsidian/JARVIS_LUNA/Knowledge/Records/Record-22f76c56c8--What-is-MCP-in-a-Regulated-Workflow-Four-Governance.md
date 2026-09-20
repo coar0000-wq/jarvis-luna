@@ -2,7 +2,7 @@
 title: "Record 22f76c56c8 · What-is-MCP-in-a-Regulated-Workflow-Four-Governance"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T04:56:03.674191+00:00
+updated_at: 2026-09-20T09:11:17.554594+00:00
 tags: [record, real-data]
 ---
 

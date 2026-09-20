@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T03:06:01.226546+00:00",
+  "generated_at": "2026-09-20T09:01:29.885593+00:00",
   "generator": "scripts/collect_robotics.py",
   "목적": "옵시디언 주제 '로보틱스' 가 3건뿐이던 문제를 해결한다. 분류기는 정상이었고 수집원에 로봇 자료가 없었던 것이 원인이다.",
   "접근_정책": "arXiv 은 프로그램 접근용 export.arxiv.org 를 제공하며 그 주소만 사용하고 요청 간 3초를 둔다. RSS 두 곳은 robots.txt 허용을 확인했다.",
@@ -11,10 +11,18 @@
       "경로": "api.openalex.org (robots Allow: /) · export.arxiv.org 에는 요청하지 않는다",
       "items": [
         {
+          "title": "Simulation code for \"Real-Time AI Service Economy: A Framework for Agentic Computing Across the Continuum\"",
+          "summary": "R + targets pipeline reproducing the experiments in the arXiv preprint arXiv:2603.05614, \"Real-Time AI Service Economy: A Framework for Agentic Computing Across the Continuum\": the topology x load ablation grid, the DSIC strategic-bidding test, a measured agentic LLM workload, and the integrator faithfulness and encapsulation-overhead studies. Reproduce all results with targets::tar_make().",
+          "published": "2026-09-19",
+          "url": "https://arxiv.org/abs/2603.05614",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
           "title": "FLARE: an open-source data workflow orchestration tool",
           "summary": "Flare is an open-source Python-based data workflow orchestration tool powered by b2luigi. It automates the workflow of Monte Carlo (MC) generators inside the Key4HEP stack, such as Whizard, MadGraph5 and Pythia8, together with fast detector simulation using Delphes. It also automates the Future Circular Collider (FCC) physics analysis software workflow. These workflows are combined, giving a user ",
           "published": "2026-09-17",
-          "url": "https://doi.org/10.48550/arxiv.2609.19809",
+          "url": "https://arxiv.org/abs/2609.19809",
           "primary_category": "로보틱스",
           "source_detail": "arXiv via OpenAlex"
         },
@@ -22,7 +30,7 @@
           "title": "VERA: Reinforcement Learning for Dynamic Memory Scaling of HPC Workloads in Kubernetes",
           "summary": "Memory over-provisioning results in resource underutilization when HPC workloads run on Kubernetes. The default Vertical Pod Autoscaler (VPA) cannot anticipate phase-driven memory spikes for first-run HPC jobs. In this work, we present a reinforcement learning (RL) recommender VERA that formulates vertical memory scaling as a Markov Decision Process and trains an agent on 3353 real Prometheus trac",
           "published": "2026-09-17",
-          "url": "https://doi.org/10.48550/arxiv.2609.19936",
+          "url": "https://arxiv.org/abs/2609.19936",
           "primary_category": "로보틱스",
           "source_detail": "arXiv via OpenAlex"
         },
@@ -199,14 +207,6 @@
           "summary": "Distributed Stream Processing applications at the edge must reconcile low latency and high throughput with limited and heterogeneous resources. This paper presents a dynamic vertical scaling strategy based on Proximal Policy Optimization, formulated as a Partially Observable Markov Decision Process. The policy jointly adjusts task allocations and prioritizes compliance with a p95 end-to-end latenc",
           "published": "2026-09-11",
           "url": "https://arxiv.org/abs/2609.12975",
-          "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
-        },
-        {
-          "title": "Quality-Constrained Routing over a Fixed Pool of Quantized Mixture-of-Experts Instances",
-          "summary": "Quantized Mixture-of-Experts (MoE) services can hold several pre-materialized instances of one base model, but quantization damage varies sharply across requests and bitwidths. Because instance materialization and replica counts consume memory and require slow reconfiguration, we treat them as upstream provisioning decisions and study routing within a fixed resident pool. Within this fixed-pool bo",
-          "published": "2026-09-11",
-          "url": "https://arxiv.org/abs/2609.12550",
           "primary_category": "로보틱스",
           "source_detail": "arXiv via OpenAlex"
         }

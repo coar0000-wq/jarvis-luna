@@ -2,7 +2,7 @@
 title: "Record 60736c6909 · Purseface-Is-The-Low-Effort-Beauty-Trend-Thats-Quic"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T04:56:04.681389+00:00
+updated_at: 2026-09-20T09:11:18.001672+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 88c6d14cbc · LifeSciBench-Evaluating-Language-Models-on-Realisti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T04:56:04.578154+00:00
+updated_at: 2026-09-20T09:11:17.766215+00:00
 tags: [record, real-data]
 ---
 

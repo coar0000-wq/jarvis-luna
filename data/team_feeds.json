@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T04:06:32.600586+00:00",
+  "generated_at": "2026-09-20T09:03:11.406593+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
@@ -15,10 +15,10 @@
       "products": 342
     },
     "market": {
-      "total": 548,
-      "recent": 36,
-      "material": 548,
-      "material_recent": 36,
+      "total": 550,
+      "recent": 38,
+      "material": 550,
+      "material_recent": 38,
       "products": 0
     },
     "listing": {
@@ -43,9 +43,9 @@
       "products": 0
     },
     "design": {
-      "total": 402,
+      "total": 401,
       "recent": 98,
-      "material": 402,
+      "material": 401,
       "material_recent": 98,
       "products": 0
     },
@@ -57,9 +57,9 @@
       "products": 0
     },
     "knowledge": {
-      "total": 191,
+      "total": 189,
       "recent": 83,
-      "material": 191,
+      "material": 189,
       "material_recent": 83,
       "products": 0
     },
@@ -1278,7 +1278,7 @@
         "by_hand": false
       },
       {
-        "title": "K-beauty: top 10 innovative launches spotted at Cosmobeauty Seoul 2026 - premiumbeautynews.com",
+        "title": "K-beauty: top 10 innovative launches spotted at Cosmobeauty Seoul 2026 - Premium Beauty News",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1na3Q5UzFpZk02M1lSWWF3NmZyWWxiaXRudHc3blhnR0tCVGRicWlxQmtsbWJOVmtqSTdkVHZlejV3clZpeXk0bDJZNzdEc3dZMHdsN2NZQWVkVTNqOURiSEFsN2dPZ21SNktjaFpCQmMtN0RrdE51Sg?oc=5",
         "pool": "google",
         "date": "2026-06-06",

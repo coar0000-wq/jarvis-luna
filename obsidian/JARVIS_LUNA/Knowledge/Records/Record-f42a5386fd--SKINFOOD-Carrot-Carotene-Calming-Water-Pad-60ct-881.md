@@ -2,7 +2,7 @@
 title: "Record f42a5386fd · SKINFOOD-Carrot-Carotene-Calming-Water-Pad-60ct-881-oz250g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T04:56:04.754278+00:00
+updated_at: 2026-09-20T09:11:18.152173+00:00
 tags: [record, real-data]
 ---
 

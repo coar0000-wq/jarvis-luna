@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-20T03:07:07.837013+00:00",
+  "collected_at": "2026-09-20T09:02:29.731917+00:00",
   "total": 1063,
   "organizations": 35,
   "by_org": {
@@ -54,19 +54,19 @@
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-09-20T03:06:13.276799+00:00"
+      "collected_at": "2026-09-20T09:01:41.242750+00:00"
     },
     "sitemap": {
       "status": "ok",
       "count": 140,
       "failures": [],
-      "collected_at": "2026-09-20T03:06:48.013517+00:00"
+      "collected_at": "2026-09-20T09:02:12.119587+00:00"
     },
     "openalex": {
       "status": "ok",
       "count": 713,
       "failures": [],
-      "collected_at": "2026-09-20T03:07:07.836144+00:00"
+      "collected_at": "2026-09-20T09:02:29.730843+00:00"
     }
   },
   "not_collected": {
@@ -5335,6 +5335,20 @@
       "cited_by": 0
     },
     {
+      "title": "Exploring the perceived need and anticipated feasibility of a proposed nurse-led telephone follow-up approach for breast cancer survivors in India: A convergent mixed methods study",
+      "url": "https://doi.org/10.1016/j.ejon.2026.103329",
+      "date": "2026-09-15",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "European Journal of Oncology Nursing",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "Multi-Agent Tourism Support Systems (MATSS): a SOR-CLT perspective on traveller cognition and AI-mediated service experience",
       "url": "https://doi.org/10.1080/13683500.2026.2729832",
       "date": "2026-09-10",
@@ -5359,20 +5373,6 @@
       "source": "openalex",
       "title_source": "openalex",
       "venue": "Evidence-Based Practice",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Exploring the Perceived Need and Anticipated Feasibility of a Proposed Nurse-Led Telephone Follow-Up Approach for Breast Cancer Survivors in India: A Convergent Mixed Methods Study",
-      "url": "https://doi.org/10.1016/j.ejon.2026.103329",
-      "date": "2026-09-01",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "European Journal of Oncology Nursing",
       "work_type": "article",
       "cited_by": 0
     },
@@ -6385,6 +6385,20 @@
       "cited_by": 0
     },
     {
+      "title": "Twenty-one years of three-way hybrid breeding shaped diversity and complementarity of male and female gene pools in sugar beet",
+      "url": "https://doi.org/10.1007/s00122-026-05366-8",
+      "date": "2026-09-19",
+      "summary": "",
+      "org": "UBS",
+      "category": "투자은행",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Theoretical and Applied Genetics",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "Gastric Mucosa Cancer Risk: The Operative Link on Gastritis Assessment Staging System",
       "url": "https://doi.org/10.7704/kjhugr.2026.0027",
       "date": "2026-09-09",
@@ -6718,20 +6732,6 @@
       "title_source": "openalex",
       "venue": "arXiv (Cornell University)",
       "work_type": "preprint",
-      "cited_by": 0
-    },
-    {
-      "title": "Tracking microplastics across urban drainage systems and highway runoff: a snapshot assessment",
-      "url": "https://doi.org/10.2166/wqrj.2026.054",
-      "date": "2026-06-19",
-      "summary": "",
-      "org": "UBS",
-      "category": "투자은행",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Water Quality Research Journal",
-      "work_type": "article",
       "cited_by": 0
     },
     {
@@ -7785,6 +7785,20 @@
       "cited_by": 0
     },
     {
+      "title": "Segmentação de plantas daninhas em canaviais a partir de ortomosaicos de VANT com redes neurais convolucionais e anotação promptável de mascaras",
+      "url": "https://doi.org/10.52641/cadcajv11i13.3805",
+      "date": "2026-09-18",
+      "summary": "",
+      "org": "Intel",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Cadernos Cajuína",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "Suspended thin-film lithium niobate modulator for broadband mid-infrared light modulation and frequency comb generation",
       "url": "https://doi.org/10.1038/s41467-026-77674-y",
       "date": "2026-09-17",
@@ -8118,20 +8132,6 @@
       "title_source": "openalex",
       "venue": "Nature Reviews Materials",
       "work_type": "review",
-      "cited_by": 0
-    },
-    {
-      "title": "Comparing classical and quantum machine learning approaches for crop and weed detection",
-      "url": "https://doi.org/10.1088/2631-8695/ae98fa",
-      "date": "2026-08-01",
-      "summary": "",
-      "org": "Intel",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Engineering Research Express",
-      "work_type": "article",
       "cited_by": 0
     },
     {
@@ -9899,6 +9899,20 @@
       "cited_by": 0
     },
     {
+      "title": "Dry‐Processed Dual‐Layer Thick Cathodes With Distinct Ni Compositions to Mitigate Degradation in Lithium‐Ion Batteries",
+      "url": "https://doi.org/10.1002/ece2.70134",
+      "date": "2026-09-19",
+      "summary": "",
+      "org": "Samsung Electronics",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "EcoEnergy",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "Low-Temperature Plasma-Induced Oxygen-Vacancy Engineering Enables Orthorhombic-Phase Stabilization in Hf0.5Zr0.5O2 for 2D FeFETs toward Monolithic 3D Integration",
       "url": "https://doi.org/10.1021/acsaelm.6c01138",
       "date": "2026-09-18",
@@ -10218,20 +10232,6 @@
       "title_source": "openalex",
       "venue": "medRxiv",
       "work_type": "preprint",
-      "cited_by": 0
-    },
-    {
-      "title": "Spatial nonparametric Bayesian Poisson hurdle model for analyzing zero-inflated tick data",
-      "url": "https://doi.org/10.1007/s42952-026-00390-2",
-      "date": "2026-09-08",
-      "summary": "",
-      "org": "Samsung Electronics",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Journal of the Korean Statistical Society",
-      "work_type": "article",
       "cited_by": 0
     },
     {
@@ -11397,6 +11397,20 @@
       "cited_by": 5
     },
     {
+      "title": "Constrained Bayesian Neural Network utility in the design of price promotions",
+      "url": "https://doi.org/10.1016/j.jocm.2026.100633",
+      "date": "2026-09-19",
+      "summary": "",
+      "org": "Microsoft",
+      "category": "데이터분석",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Journal of Choice Modelling",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "The future of large-scale experiments and their challenges in the digital era",
       "url": "https://doi.org/10.1038/s41562-026-02582-6",
       "date": "2026-09-17",
@@ -11436,6 +11450,20 @@
       "title_source": "openalex",
       "venue": "Journal on Advances in Signal Processing",
       "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "Odour cueing during sleep augments trauma-focused psychotherapy",
+      "url": "https://doi.org/10.64898/2026.09.14.26362979",
+      "date": "2026-09-15",
+      "summary": "",
+      "org": "Microsoft",
+      "category": "데이터분석",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "medRxiv",
+      "work_type": "preprint",
       "cited_by": 0
     },
     {
@@ -11715,34 +11743,6 @@
       "source": "openalex",
       "title_source": "openalex",
       "venue": "Advanced Science",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Does Understanding AI Internals Become Harder Faster Than Models Become More Capable",
-      "url": "https://doi.org/10.5281/zenodo.22730892",
-      "date": "2026-09-01",
-      "summary": "",
-      "org": "Microsoft",
-      "category": "데이터분석",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "The AI Zero-Day Prioritization Problem",
-      "url": "https://doi.org/10.5281/zenodo.22730894",
-      "date": "2026-09-01",
-      "summary": "",
-      "org": "Microsoft",
-      "category": "데이터분석",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
       "work_type": "article",
       "cited_by": 0
     },
@@ -14043,20 +14043,6 @@
       "cited_by": 0
     },
     {
-      "title": "Implementing LLMs in clinical practice from unstructured and semistructured electronic record data to analysis ready data sets in central nervous system tumors",
-      "url": "https://doi.org/10.1007/s44337-026-00631-7",
-      "date": "2026-07-31",
-      "summary": "",
-      "org": "Palantir",
-      "category": "데이터분석",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Discover Medicine",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
       "title": "The Differential Impacts of Critical Mineral Prices and Oil Prices on the Economy",
       "url": "https://doi.org/10.2139/ssrn.6246344",
       "date": "2026-01-01",
@@ -14377,6 +14363,20 @@
       "venue": "PLoS ONE",
       "work_type": "article",
       "cited_by": 3
+    },
+    {
+      "title": "Modelling clinical narrative as computable knowledge: The NICE computable implementation guidance project",
+      "url": "https://doi.org/10.1002/lrh2.10394",
+      "date": "2023-09-28",
+      "summary": "",
+      "org": "Palantir",
+      "category": "데이터분석",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Learning Health Systems",
+      "work_type": "article",
+      "cited_by": 9
     },
     {
       "title": "NAVIGATING BUSINESS INTELLIGENCE TOOLS: STRATEGIES TO DRIVE BUSINESS GROWTH",

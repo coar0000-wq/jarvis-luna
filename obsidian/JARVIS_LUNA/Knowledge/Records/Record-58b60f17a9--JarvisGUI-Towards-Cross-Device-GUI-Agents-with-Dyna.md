@@ -2,7 +2,7 @@
 title: "Record 58b60f17a9 · JarvisGUI-Towards-Cross-Device-GUI-Agents-with-Dyna"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T04:56:03.647642+00:00
+updated_at: 2026-09-20T09:11:17.493441+00:00
 tags: [record, real-data]
 ---
 
