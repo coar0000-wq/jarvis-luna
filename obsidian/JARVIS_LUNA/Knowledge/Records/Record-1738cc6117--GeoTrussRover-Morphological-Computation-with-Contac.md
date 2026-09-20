@@ -2,7 +2,7 @@
 title: "Record 1738cc6117 · GeoTrussRover-Morphological-Computation-with-Contac"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T16:08:51.681440+00:00
+updated_at: 2026-09-20T17:26:41.515539+00:00
 tags: [record, real-data]
 ---
 

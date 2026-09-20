@@ -2,7 +2,7 @@
 title: "Record cc5f482eea · A-Threshold-Constant-for-Exact-Community-Recovery-in-the-Degree-Correc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T16:08:51.700595+00:00
+updated_at: 2026-09-20T17:26:41.529729+00:00
 tags: [record, real-data]
 ---
 

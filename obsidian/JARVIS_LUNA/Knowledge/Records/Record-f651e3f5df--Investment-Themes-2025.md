@@ -2,7 +2,7 @@
 title: "Record f651e3f5df · Investment-Themes-2025"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T16:08:52.528358+00:00
+updated_at: 2026-09-20T17:26:42.187324+00:00
 tags: [record, real-data]
 ---
 

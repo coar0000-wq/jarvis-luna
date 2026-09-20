@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T00:25:21.977515+09:00",
+  "generated_at": "2026-09-21T02:25:08.339699+09:00",
   "role": "coaching",
   "principle": "AI는 체크리스트·A/B 초안만. 등록·광고 집행은 사람 승인.",
   "source": "scripts/build_coaching_loop.py",
@@ -12,7 +12,7 @@
     "reddit_signal": {
       "status": "ok",
       "post_count": 25,
-      "collected_at": "2026-09-20T13:59:24.826135+00:00",
+      "collected_at": "2026-09-20T17:19:40.311434+00:00",
       "keyword_pool": 40
     }
   },
@@ -78,8 +78,8 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'skincare']",
-          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+          "evidence": "matched=['beauty']",
+          "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
         }
       ],
       "ad_copy_ab": {
@@ -102,25 +102,22 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "beauty",
-          "skincare"
+          "beauty"
         ],
         "reddit_keywords_used": [
-          "beauty",
-          "skincare"
+          "beauty"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "beauty",
-          "skincare"
+          "beauty"
         ],
-        "score": 2,
+        "score": 1,
         "status": "pass",
-        "evidence": "matched=['beauty', 'skincare']",
-        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+        "evidence": "matched=['beauty']",
+        "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
       },
       "coach_summary": {
         "pass": 5,
@@ -190,7 +187,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'skincare']",
+          "evidence": "matched=['beauty', 'serum']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -214,12 +211,11 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "beauty",
-          "skincare"
+          "beauty"
         ],
         "reddit_keywords_used": [
           "beauty",
-          "skincare"
+          "serum"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
@@ -227,11 +223,11 @@
       "reddit_match": {
         "matched": [
           "beauty",
-          "skincare"
+          "serum"
         ],
         "score": 2,
         "status": "pass",
-        "evidence": "matched=['beauty', 'skincare']",
+        "evidence": "matched=['beauty', 'serum']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -302,8 +298,8 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'skincare']",
-          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+          "evidence": "matched=['beauty']",
+          "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
         }
       ],
       "ad_copy_ab": {
@@ -326,25 +322,22 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "beauty",
-          "skincare"
+          "beauty"
         ],
         "reddit_keywords_used": [
-          "beauty",
-          "skincare"
+          "beauty"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "beauty",
-          "skincare"
+          "beauty"
         ],
-        "score": 2,
+        "score": 1,
         "status": "pass",
-        "evidence": "matched=['beauty', 'skincare']",
-        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+        "evidence": "matched=['beauty']",
+        "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
       },
       "coach_summary": {
         "pass": 5,
@@ -414,8 +407,8 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'moisturizer', 'moisturizers', 'skincare']",
-          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+          "evidence": "matched=['beauty']",
+          "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
         }
       ],
       "ad_copy_ab": {
@@ -439,31 +432,22 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "beauty",
-          "moisturizer",
-          "moisturizers",
-          "skincare"
+          "beauty"
         ],
         "reddit_keywords_used": [
-          "beauty",
-          "moisturizer",
-          "moisturizers",
-          "skincare"
+          "beauty"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "beauty",
-          "moisturizer",
-          "moisturizers",
-          "skincare"
+          "beauty"
         ],
-        "score": 4,
+        "score": 1,
         "status": "pass",
-        "evidence": "matched=['beauty', 'moisturizer', 'moisturizers', 'skincare']",
-        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+        "evidence": "matched=['beauty']",
+        "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
       },
       "coach_summary": {
         "pass": 5,
@@ -533,7 +517,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'skincare']",
+          "evidence": "matched=['beauty', 'serum']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -557,12 +541,11 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "beauty",
-          "skincare"
+          "beauty"
         ],
         "reddit_keywords_used": [
           "beauty",
-          "skincare"
+          "serum"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
@@ -570,11 +553,11 @@
       "reddit_match": {
         "matched": [
           "beauty",
-          "skincare"
+          "serum"
         ],
         "score": 2,
         "status": "pass",
-        "evidence": "matched=['beauty', 'skincare']",
+        "evidence": "matched=['beauty', 'serum']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -645,7 +628,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['ask', 'beauty', 'mask', 'masks', 'moisturizer', 'moisturizers', 'sheet', 'skincare']",
+          "evidence": "matched=['ask', 'beauty', 'masks', 'sheet']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -674,14 +657,13 @@
           "ask",
           "beauty",
           "masks",
-          "moisturizer"
+          "sheet"
         ],
         "reddit_keywords_used": [
           "ask",
           "beauty",
-          "mask",
           "masks",
-          "moisturizer"
+          "sheet"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
@@ -690,16 +672,12 @@
         "matched": [
           "ask",
           "beauty",
-          "mask",
           "masks",
-          "moisturizer",
-          "moisturizers",
-          "sheet",
-          "skincare"
+          "sheet"
         ],
-        "score": 8,
+        "score": 4,
         "status": "pass",
-        "evidence": "matched=['ask', 'beauty', 'mask', 'masks', 'moisturizer', 'moisturizers', 'sheet', 'skincare']",
+        "evidence": "matched=['ask', 'beauty', 'masks', 'sheet']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -770,7 +748,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'skincare']",
+          "evidence": "matched=['beauty', 'toner']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -795,12 +773,11 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "beauty",
-          "skincare"
+          "beauty"
         ],
         "reddit_keywords_used": [
           "beauty",
-          "skincare"
+          "toner"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
@@ -808,11 +785,11 @@
       "reddit_match": {
         "matched": [
           "beauty",
-          "skincare"
+          "toner"
         ],
         "score": 2,
         "status": "pass",
-        "evidence": "matched=['beauty', 'skincare']",
+        "evidence": "matched=['beauty', 'toner']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -883,7 +860,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['ask', 'beauty', 'mask', 'masks', 'sheet', 'skincare']",
+          "evidence": "matched=['ask', 'beauty', 'masks', 'sheet']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -915,7 +892,6 @@
         "reddit_keywords_used": [
           "ask",
           "beauty",
-          "mask",
           "masks",
           "sheet"
         ],
@@ -926,14 +902,12 @@
         "matched": [
           "ask",
           "beauty",
-          "mask",
           "masks",
-          "sheet",
-          "skincare"
+          "sheet"
         ],
-        "score": 6,
+        "score": 4,
         "status": "pass",
-        "evidence": "matched=['ask', 'beauty', 'mask', 'masks', 'sheet', 'skincare']",
+        "evidence": "matched=['ask', 'beauty', 'masks', 'sheet']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -1004,7 +978,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['ask', 'mask', 'masks', 'sheet']",
+          "evidence": "matched=['ask', 'masks', 'sheet']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -1035,7 +1009,6 @@
         ],
         "reddit_keywords_used": [
           "ask",
-          "mask",
           "masks",
           "sheet"
         ],
@@ -1045,13 +1018,12 @@
       "reddit_match": {
         "matched": [
           "ask",
-          "mask",
           "masks",
           "sheet"
         ],
-        "score": 4,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['ask', 'mask', 'masks', 'sheet']",
+        "evidence": "matched=['ask', 'masks', 'sheet']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {

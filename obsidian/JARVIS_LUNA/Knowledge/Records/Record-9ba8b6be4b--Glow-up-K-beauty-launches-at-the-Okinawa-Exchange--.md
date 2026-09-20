@@ -2,7 +2,7 @@
 title: "Record 9ba8b6be4b · Glow-up-K-beauty-launches-at-the-Okinawa-Exchange--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T16:08:52.131728+00:00
+updated_at: 2026-09-20T17:26:41.846059+00:00
 tags: [record, real-data]
 ---
 

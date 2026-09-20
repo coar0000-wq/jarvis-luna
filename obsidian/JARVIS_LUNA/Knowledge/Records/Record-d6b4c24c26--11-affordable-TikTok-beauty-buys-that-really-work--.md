@@ -2,7 +2,7 @@
 title: "Record d6b4c24c26 · 11-affordable-TikTok-beauty-buys-that-really-work--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T16:08:52.208507+00:00
+updated_at: 2026-09-20T17:26:41.895228+00:00
 tags: [record, real-data]
 ---
 

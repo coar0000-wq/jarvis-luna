@@ -2,7 +2,7 @@
 title: "Record 42e9c4faad · Modernizing-complex-legacy-code-with-AI-agents"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T16:08:52.001639+00:00
+updated_at: 2026-09-20T17:26:41.750514+00:00
 tags: [record, real-data]
 ---
 

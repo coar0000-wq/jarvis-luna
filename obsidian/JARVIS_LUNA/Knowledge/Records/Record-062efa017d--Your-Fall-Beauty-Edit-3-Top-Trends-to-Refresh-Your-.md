@@ -2,7 +2,7 @@
 title: "Record 062efa017d · Your-Fall-Beauty-Edit-3-Top-Trends-to-Refresh-Your-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T16:08:52.137408+00:00
+updated_at: 2026-09-20T17:26:41.849953+00:00
 tags: [record, real-data]
 ---
 

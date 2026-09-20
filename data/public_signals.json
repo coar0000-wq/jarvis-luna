@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T14:05:17.864116+00:00",
+  "generated_at": "2026-09-20T17:25:02.148697+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "real madrid schedule",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Sun, 20 Sep 2026 06:50:00 -0700",
-          "source_name": "BBC",
-          "url": "https://trends.google.com/trending?geo=US&q=real%20madrid%20schedule"
+          "keyword": "cbssports",
+          "approx_traffic": "20000+",
+          "traffic_num": 20000,
+          "published": "Sun, 20 Sep 2026 10:10:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=cbssports"
         },
         {
-          "keyword": "patrick clancy",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Sun, 20 Sep 2026 06:20:00 -0700",
-          "source_name": "CBS News",
-          "url": "https://trends.google.com/trending?geo=US&q=patrick%20clancy"
+          "keyword": "saquon barkley",
+          "approx_traffic": "20000+",
+          "traffic_num": 20000,
+          "published": "Sun, 20 Sep 2026 10:00:00 -0700",
+          "source_name": "FOX Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=saquon%20barkley"
         },
         {
-          "keyword": "real madrid vs",
+          "keyword": "packers",
+          "approx_traffic": "20000+",
+          "traffic_num": 20000,
+          "published": "Sun, 20 Sep 2026 10:00:00 -0700",
+          "source_name": "FOX Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=packers"
+        },
+        {
+          "keyword": "ravens",
+          "approx_traffic": "10000+",
+          "traffic_num": 10000,
+          "published": "Sun, 20 Sep 2026 10:00:00 -0700",
+          "source_name": "FOX Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=ravens"
+        },
+        {
+          "keyword": "nfl games",
+          "approx_traffic": "10000+",
+          "traffic_num": 10000,
+          "published": "Sun, 20 Sep 2026 10:00:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=nfl%20games"
+        },
+        {
+          "keyword": "nebraska volleyball schedule",
+          "approx_traffic": "5000+",
+          "traffic_num": 5000,
+          "published": "Sun, 20 Sep 2026 10:10:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=nebraska%20volleyball%20schedule"
+        },
+        {
+          "keyword": "saquon barkley injury",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Sun, 20 Sep 2026 10:10:00 -0700",
+          "source_name": "Draft Sharks",
+          "url": "https://trends.google.com/trending?geo=US&q=saquon%20barkley%20injury"
+        },
+        {
+          "keyword": "fox",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sun, 20 Sep 2026 06:50:00 -0700",
-          "source_name": "Diario AS",
-          "url": "https://trends.google.com/trending?geo=US&q=real%20madrid%20vs"
+          "published": "Sun, 20 Sep 2026 10:10:00 -0700",
+          "source_name": "Fox News",
+          "url": "https://trends.google.com/trending?geo=US&q=fox"
         },
         {
-          "keyword": "steven spielberg",
+          "keyword": "cam ward",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sun, 20 Sep 2026 06:50:00 -0700",
-          "source_name": "Yahoo Life UK",
-          "url": "https://trends.google.com/trending?geo=US&q=steven%20spielberg"
+          "published": "Sun, 20 Sep 2026 10:10:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=cam%20ward"
         },
         {
-          "keyword": "jensen huang",
+          "keyword": "tv app",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sun, 20 Sep 2026 06:30:00 -0700",
-          "source_name": "CBS News",
-          "url": "https://trends.google.com/trending?geo=US&q=jensen%20huang"
-        },
-        {
-          "keyword": "nyc weather",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Sun, 20 Sep 2026 06:30:00 -0700",
-          "source_name": "Yahoo",
-          "url": "https://trends.google.com/trending?geo=US&q=nyc%20weather"
-        },
-        {
-          "keyword": "princess diana",
-          "approx_traffic": "100+",
-          "traffic_num": 100,
-          "published": "Sun, 20 Sep 2026 06:50:00 -0700",
-          "source_name": "NBC News",
-          "url": "https://trends.google.com/trending?geo=US&q=princess%20diana"
-        },
-        {
-          "keyword": "lioness season 4",
-          "approx_traffic": "100+",
-          "traffic_num": 100,
-          "published": "Sun, 20 Sep 2026 06:50:00 -0700",
-          "source_name": "ELLE",
-          "url": "https://trends.google.com/trending?geo=US&q=lioness%20season%204"
-        },
-        {
-          "keyword": "credit acceptance",
-          "approx_traffic": "100+",
-          "traffic_num": 100,
-          "published": "Sun, 20 Sep 2026 06:50:00 -0700",
-          "source_name": "KTVZ",
-          "url": "https://trends.google.com/trending?geo=US&q=credit%20acceptance"
-        },
-        {
-          "keyword": "who should i start",
-          "approx_traffic": "100+",
-          "traffic_num": 100,
-          "published": "Sun, 20 Sep 2026 06:40:00 -0700",
-          "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=who%20should%20i%20start"
+          "published": "Sun, 20 Sep 2026 10:10:00 -0700",
+          "source_name": "RTINGS.com",
+          "url": "https://trends.google.com/trending?geo=US&q=tv%20app"
         }
       ]
     },

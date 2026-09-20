@@ -2,7 +2,7 @@
 title: "Record 20e0c82357 · Agentic-Commerce-on-Shopify-How-It-Works-2026---Sho"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T16:08:52.059883+00:00
+updated_at: 2026-09-20T17:26:41.796718+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 9b3919b837 · Viral-beauty-trend-debunked-Experts-warn-lemon-and-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T16:08:52.015962+00:00
+updated_at: 2026-09-20T17:26:41.761160+00:00
 tags: [record, real-data]
 ---
 

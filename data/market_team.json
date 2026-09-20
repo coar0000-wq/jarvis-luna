@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-09-21T00:25:21.928061+09:00",
+    "updated_at": "2026-09-21T02:25:08.298507+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -532,6 +532,17 @@
         "source": "youtube_channel"
       },
       {
+        "title": "브랜딩 감각을 키우고 싶다면👀 | 사업부터 브랜딩까지 분야별 필독서 추천",
+        "url": "https://www.youtube.com/watch?v=hikTGKo2kZE",
+        "channel": null,
+        "views": 24000,
+        "note": "",
+        "teams": [
+          "design"
+        ],
+        "source": "youtube_channel"
+      },
+      {
         "title": "Claude Copies $2m Shopify Store & Replaces Everything With My Brand (Full Course)",
         "url": "https://www.youtube.com/watch?v=dPPd65Kvh7Y",
         "channel": "Ali Akbar | White-Label Ecommerce",
@@ -543,17 +554,6 @@
           "sourcing"
         ],
         "source": "youtube_manual"
-      },
-      {
-        "title": "브랜딩 감각을 키우고 싶다면👀 | 사업부터 브랜딩까지 분야별 필독서 추천",
-        "url": "https://www.youtube.com/watch?v=hikTGKo2kZE",
-        "channel": null,
-        "views": 23000,
-        "note": "",
-        "teams": [
-          "design"
-        ],
-        "source": "youtube_channel"
       },
       {
         "title": "I Studied 1,000 Shopify Stores, Here’s What Works in 2026",
@@ -789,9 +789,9 @@
             "note": ""
           },
           {
-            "title": "Claude Copies $2m Shopify Store & Replaces Everything With My Brand (Full Course)",
-            "url": "https://www.youtube.com/watch?v=dPPd65Kvh7Y",
-            "note": "Ali Akbar - Claude 로 월매출 200만불 스토어를 통째로 복제하는 78분 강의. 방법은 참고, 복제 자체는 위험"
+            "title": "브랜딩 감각을 키우고 싶다면👀 | 사업부터 브랜딩까지 분야별 필독서 추천",
+            "url": "https://www.youtube.com/watch?v=hikTGKo2kZE",
+            "note": ""
           }
         ]
       }
@@ -1613,39 +1613,39 @@
   ],
   "competitor_watch": [
     {
-      "name": "ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set",
-      "brand": "ROUND LAB",
-      "price_usd": 19.99,
+      "name": "[7types] MEDIHEAL Toner Pad 100 + 100 Pads Double Set",
+      "brand": "MEDIHEAL",
+      "price_usd": 39.99,
       "rating": 4.8,
+      "review_count": 16228,
+      "us_rank": 3,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 3위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA32407466",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
+      "brand": "Dr.Althea",
+      "price_usd": 27.0,
+      "rating": 4.8,
+      "review_count": 1642,
+      "us_rank": 4,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 4위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA73639757",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "[2sizes] ILLIYOON Ceramide Ato Concentrate Cream",
+      "brand": "ILLIYOON",
+      "price_usd": 21.24,
+      "rating": 5,
       "review_count": 4,
-      "us_rank": 14,
-      "daiso_bucket": "클렌징",
-      "why": "us.oliveyoung.com/best-sellers 실수집 14위 · 클렌징 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA40428614",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "beplain Mung Bean pH-Balanced Cleansing Foam 5.41 fl. oz.(160ml)",
-      "brand": "beplain",
-      "price_usd": 15.9,
-      "rating": 4.6,
-      "review_count": 17,
-      "us_rank": 22,
-      "daiso_bucket": "클렌징",
-      "why": "us.oliveyoung.com/best-sellers 실수집 22위 · 클렌징 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA34557979",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "ROUND LAB 1025 Dokdo Cleanser 5.07 fl. oz.(150ml)",
-      "brand": "ROUND LAB",
-      "price_usd": 12.75,
-      "rating": 4.7,
-      "review_count": 10,
-      "us_rank": 40,
-      "daiso_bucket": "클렌징",
-      "why": "us.oliveyoung.com/best-sellers 실수집 40위 · 클렌징 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA10245858",
+      "us_rank": 5,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 5위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA39684183",
       "source": "us.oliveyoung.com/best-sellers 실수집"
     },
     {
@@ -1685,39 +1685,39 @@
       "source": "us.oliveyoung.com/best-sellers 실수집"
     },
     {
-      "name": "[7types] MEDIHEAL Toner Pad 100 + 100 Pads Double Set",
-      "brand": "MEDIHEAL",
-      "price_usd": 39.99,
+      "name": "ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set",
+      "brand": "ROUND LAB",
+      "price_usd": 19.99,
       "rating": 4.8,
-      "review_count": 16228,
-      "us_rank": 3,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 3위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA32407466",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
-      "brand": "Dr.Althea",
-      "price_usd": 27.0,
-      "rating": 4.8,
-      "review_count": 1642,
-      "us_rank": 4,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 4위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA73639757",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "[2sizes] ILLIYOON Ceramide Ato Concentrate Cream",
-      "brand": "ILLIYOON",
-      "price_usd": 21.24,
-      "rating": 5,
       "review_count": 4,
-      "us_rank": 5,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 5위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA39684183",
+      "us_rank": 14,
+      "daiso_bucket": "클렌징",
+      "why": "us.oliveyoung.com/best-sellers 실수집 14위 · 클렌징 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA40428614",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "beplain Mung Bean pH-Balanced Cleansing Foam 5.41 fl. oz.(160ml)",
+      "brand": "beplain",
+      "price_usd": 15.9,
+      "rating": 4.6,
+      "review_count": 17,
+      "us_rank": 22,
+      "daiso_bucket": "클렌징",
+      "why": "us.oliveyoung.com/best-sellers 실수집 22위 · 클렌징 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA34557979",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "ROUND LAB 1025 Dokdo Cleanser 5.07 fl. oz.(150ml)",
+      "brand": "ROUND LAB",
+      "price_usd": 12.75,
+      "rating": 4.7,
+      "review_count": 10,
+      "us_rank": 40,
+      "daiso_bucket": "클렌징",
+      "why": "us.oliveyoung.com/best-sellers 실수집 40위 · 클렌징 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA10245858",
       "source": "us.oliveyoung.com/best-sellers 실수집"
     }
   ],

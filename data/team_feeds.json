@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-20T13:58:27.846290+00:00",
+  "generated_at": "2026-09-20T17:19:02.260052+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
   "pool_size": 2357,
   "제목없어_버림": 38,
-  "unrouted": 8,
+  "unrouted": 10,
   "summary": {
     "sourcing": {
       "total": 346,
@@ -15,10 +15,10 @@
       "products": 342
     },
     "market": {
-      "total": 554,
-      "recent": 40,
-      "material": 554,
-      "material_recent": 40,
+      "total": 552,
+      "recent": 39,
+      "material": 552,
+      "material_recent": 39,
       "products": 0
     },
     "listing": {
@@ -36,16 +36,16 @@
       "products": 0
     },
     "legal": {
-      "total": 152,
+      "total": 153,
       "recent": 24,
-      "material": 152,
+      "material": 153,
       "material_recent": 24,
       "products": 0
     },
     "design": {
-      "total": 397,
+      "total": 401,
       "recent": 97,
-      "material": 397,
+      "material": 401,
       "material_recent": 97,
       "products": 0
     },
@@ -64,9 +64,9 @@
       "products": 0
     },
     "institutions": {
-      "total": 1062,
+      "total": 1061,
       "recent": 266,
-      "material": 1062,
+      "material": 1061,
       "material_recent": 266,
       "products": 0
     }
@@ -2351,6 +2351,13 @@
     ],
     "robotics": [
       {
+        "title": "What do you do with a humanoid robot when it breaks down?",
+        "url": "https://www.therobotreport.com/what-do-you-do-with-a-humanoid-robot-when-it-breaks-down/",
+        "pool": "robotics",
+        "date": "2026-09-20",
+        "by_hand": false
+      },
+      {
         "title": "Simulation code for \"Real-Time AI Service Economy: A Framework for Agentic Computing Across the Continuum\"",
         "url": "https://arxiv.org/abs/2603.05614",
         "pool": "robotics",
@@ -2617,13 +2624,6 @@
         "by_hand": false
       },
       {
-        "title": "Report covers advances in surgical robots, deploying warehouse automation in the real world",
-        "url": "https://www.therobotreport.com/report-covers-surgical-robot-advances-deploying-warehouse-automation-real-world/",
-        "pool": "robotics",
-        "date": "2026-09-14",
-        "by_hand": false
-      },
-      {
         "title": "ECAS: An Edge-Controlled Agentic System for Validation-Gated Scientific Application Execution",
         "url": "https://doi.org/10.48550/arxiv.2609.14211",
         "pool": "robotics",
@@ -2743,7 +2743,7 @@
         "by_hand": false
       },
       {
-        "title": "10 Best AI-Powered Analytics Tools for Ecommerce in 2026: Chat Interfaces, Autonomous Analysts and Vertical Tools Compared - ask-luca.com",
+        "title": "10 Best AI-Powered Analytics Tools for Ecommerce in 2026: Chat Interfaces, Autonomous Analysts and Vertical Tools Compared - Ask Luca",
         "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1aYVpPVndBZV9leHQ1N2NObW9TbUNZTVEtT2prTFpocXB2N0ktVGRoSWs0dXdJa1Jid05lNGI0LU91UGN0R1ppYUo2Zm1JdGwxUVR2ZTBoUThfaTNkR2puLUFNdw?oc=5",
         "pool": "google",
         "date": "2026-09-03",

@@ -2,7 +2,7 @@
 title: "Record 63f4aa206b · Opinion-K-Beauty-Needs-More-Than-Salmon-Sperm-Snail"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T16:08:52.165919+00:00
+updated_at: 2026-09-20T17:26:41.869053+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record f1584024fd · Claude-For-Life-Sciences"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T16:08:52.439303+00:00
+updated_at: 2026-09-20T17:26:42.121135+00:00
 tags: [record, real-data]
 ---
 

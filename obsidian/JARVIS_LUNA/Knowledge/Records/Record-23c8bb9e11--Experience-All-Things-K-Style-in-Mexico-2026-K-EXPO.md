@@ -2,7 +2,7 @@
 title: "Record 23c8bb9e11 · Experience-All-Things-K-Style-in-Mexico-2026-K-EXPO-MEXICO-to-Open-at-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T16:08:52.013282+00:00
+updated_at: 2026-09-20T17:26:41.759162+00:00
 tags: [record, real-data]
 ---
 

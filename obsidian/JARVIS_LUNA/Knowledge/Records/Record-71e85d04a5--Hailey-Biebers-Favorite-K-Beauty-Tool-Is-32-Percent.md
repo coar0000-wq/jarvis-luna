@@ -2,7 +2,7 @@
 title: "Record 71e85d04a5 · Hailey-Biebers-Favorite-K-Beauty-Tool-Is-32-Percent"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T16:08:52.219696+00:00
+updated_at: 2026-09-20T17:26:41.953267+00:00
 tags: [record, real-data]
 ---
 
