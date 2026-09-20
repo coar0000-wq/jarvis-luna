@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T23:05:24.029954+09:00",
+  "generated_at": "2026-09-21T00:25:21.977515+09:00",
   "role": "coaching",
   "principle": "AI는 체크리스트·A/B 초안만. 등록·광고 집행은 사람 승인.",
   "source": "scripts/build_coaching_loop.py",
