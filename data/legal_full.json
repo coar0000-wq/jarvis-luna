@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-20T09:09:35.824468+00:00",
+  "generated_at": "2026-09-20T10:37:17.232946+00:00",
   "generator": "scripts/build_legal_full.py",
   "scope": "현재 S등급 상품별 미국 화장품 라벨/MoCRA 공개 준비 상태",
   "truth_policy": "미확인 값은 빈칸으로 두며 예시 주소·전화·성분을 사용하지 않는다",
@@ -522,7 +522,7 @@
       "identity": "",
       "ingredients": [],
       "ingredients_inci_raw": "",
-      "net_contents": "",
+      "net_contents": "200ml",
       "directions": "",
       "warnings": "",
       "responsible_person": {
@@ -532,11 +532,11 @@
         "phone": ""
       },
       "manufacturer": "",
-      "country_of_origin": "",
+      "country_of_origin": "Korea",
       "sources": {
         "identity": "human_required",
         "ingredients": "human_required",
-        "net_contents": "human_required",
+        "net_contents": "daiso_us_labels.json",
         "directions": "human_translation_required",
         "warnings": "human_translation_required",
         "responsible_person": "human_required"
@@ -548,7 +548,6 @@
       "blockers": [
         "identity",
         "ingredients",
-        "net_contents",
         "directions",
         "warnings",
         "responsible_person.name",
