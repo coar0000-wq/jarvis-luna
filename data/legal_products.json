@@ -77,7 +77,7 @@
       "note": "",
       "auto_blockers": [],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-20T03:21:57.555112+00:00",
+      "auto_checked_at": "2026-09-20T04:08:53.267372+00:00",
       "hard_block": false,
       "hard_block_reason": "",
       "hs_basis": "버킷 '마스크팩'",
@@ -107,7 +107,7 @@
       "note": "",
       "auto_blockers": [],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-20T03:21:57.555203+00:00",
+      "auto_checked_at": "2026-09-20T04:08:53.267519+00:00",
       "hard_block": false,
       "hard_block_reason": "",
       "hs_basis": "버킷 '스킨케어'",
@@ -134,7 +134,7 @@
       "needs_attention": false,
       "hard_block": false,
       "hard_block_reason": "",
-      "auto_checked_at": "2026-09-20T03:21:57.554939+00:00",
+      "auto_checked_at": "2026-09-20T04:08:53.267077+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
@@ -160,7 +160,7 @@
       "needs_attention": false,
       "hard_block": false,
       "hard_block_reason": "",
-      "auto_checked_at": "2026-09-20T03:21:57.554981+00:00",
+      "auto_checked_at": "2026-09-20T04:08:53.267164+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
@@ -186,7 +186,7 @@
       "needs_attention": false,
       "hard_block": false,
       "hard_block_reason": "",
-      "auto_checked_at": "2026-09-20T03:21:57.555069+00:00",
+      "auto_checked_at": "2026-09-20T04:08:53.267306+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
@@ -212,7 +212,7 @@
       "needs_attention": false,
       "hard_block": false,
       "hard_block_reason": "",
-      "auto_checked_at": "2026-09-20T03:21:57.555149+00:00",
+      "auto_checked_at": "2026-09-20T04:08:53.267436+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
@@ -238,35 +238,9 @@
       "needs_attention": false,
       "hard_block": false,
       "hard_block_reason": "",
-      "auto_checked_at": "2026-09-20T03:21:57.555020+00:00",
+      "auto_checked_at": "2026-09-20T04:08:53.267224+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
-      "hs_source": "hts.usitc.gov/reststop (미국 공식)"
-    },
-    "1042619": {
-      "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
-      "status": "auto_checked",
-      "auto_checks": {
-        "banned_claim": {
-          "ok": true,
-          "detail": "없음"
-        },
-        "otc_sunscreen": {
-          "ok": true,
-          "detail": "해당 없음"
-        },
-        "label_fields": {
-          "ok": true,
-          "detail": "4항목 확보"
-        }
-      },
-      "auto_blockers": [],
-      "needs_attention": false,
-      "hard_block": false,
-      "hard_block_reason": "",
-      "auto_checked_at": "2026-09-20T03:21:57.554880+00:00",
-      "hs_code": "3304.99",
-      "hs_basis": "버킷 '마스크팩'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     },
     "1072554": {
@@ -292,7 +266,7 @@
       "needs_attention": true,
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields",
-      "auto_checked_at": "2026-09-20T03:21:57.555161+00:00",
+      "auto_checked_at": "2026-09-20T04:08:53.267455+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
@@ -320,20 +294,20 @@
       "needs_attention": true,
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields",
-      "auto_checked_at": "2026-09-20T03:21:57.555035+00:00",
+      "auto_checked_at": "2026-09-20T04:08:53.267246+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
     }
   },
   "auto_summary": {
-    "checked": 10,
+    "checked": 9,
     "clean": 0,
-    "needs_attention": 10,
+    "needs_attention": 9,
     "pass": 0,
-    "out_of_scope": 13
+    "out_of_scope": 14
   },
-  "auto_checked_at": "2026-09-20T03:21:57.555209+00:00",
+  "auto_checked_at": "2026-09-20T04:08:53.267527+00:00",
   "out_of_scope": {
     "1045146": {
       "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
@@ -802,6 +776,38 @@
         "auto_checked_at": "2026-09-19T06:20:18.840511+00:00",
         "hs_code": "3304.99",
         "hs_basis": "버킷 '클렌징'",
+        "hs_source": "hts.usitc.gov/reststop (미국 공식)"
+      }
+    },
+    "1042619": {
+      "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
+      "왜_뺐나": "지금 S등급이 아니다. 팔 계획이 없으므로 점검하지 않는다.",
+      "뺀_시각": "2026-09-20T04:08:30.458480+00:00",
+      "마지막_판정": "auto_checked",
+      "row": {
+        "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
+        "status": "auto_checked",
+        "auto_checks": {
+          "banned_claim": {
+            "ok": true,
+            "detail": "없음"
+          },
+          "otc_sunscreen": {
+            "ok": true,
+            "detail": "해당 없음"
+          },
+          "label_fields": {
+            "ok": true,
+            "detail": "4항목 확보"
+          }
+        },
+        "auto_blockers": [],
+        "needs_attention": false,
+        "hard_block": false,
+        "hard_block_reason": "",
+        "auto_checked_at": "2026-09-20T03:21:57.554880+00:00",
+        "hs_code": "3304.99",
+        "hs_basis": "버킷 '마스크팩'",
         "hs_source": "hts.usitc.gov/reststop (미국 공식)"
       }
     }

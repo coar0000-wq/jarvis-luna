@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-09-20T13:07:25.265267+09:00",
+    "updated_at": "2026-09-20T13:08:53.575550+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -985,9 +985,9 @@
       "us_example_count": 1,
       "gemini_tags": [
         "collagen mask",
-        "essence gel mask",
         "face mask",
         "facial mask",
+        "firming mask",
         "hydrating mask"
       ],
       "linked_s_products": [
@@ -1038,7 +1038,9 @@
       "us_example_count": 3,
       "gemini_tags": [
         "boosting ampoule",
-        "facial ampoule"
+        "face ampoule",
+        "facial ampoule",
+        "korean skincare"
       ],
       "linked_s_products": [
         "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
@@ -1084,6 +1086,7 @@
       "us_example_count": 3,
       "gemini_tags": [
         "face serum",
+        "facial serum",
         "korean skincare",
         "retinol serum"
       ],
@@ -1131,9 +1134,9 @@
       "us_example_count": 3,
       "gemini_tags": [
         "face cream",
-        "korean beauty",
         "korean skincare",
         "moisturizing cream",
+        "pdrn cream",
         "radiance cream"
       ],
       "linked_s_products": [
@@ -1179,6 +1182,7 @@
       ],
       "us_example_count": 3,
       "gemini_tags": [
+        "pdrn cream",
         "pdrn mask",
         "vt pdrn"
       ],
@@ -1257,10 +1261,7 @@
         }
       ],
       "us_example_count": 1,
-      "gemini_tags": [
-        "essence gel mask",
-        "korean beauty"
-      ],
+      "gemini_tags": [],
       "linked_s_products": [
         "셀더마데일리 콜라겐 에센스겔 마스크 29 g"
       ],
@@ -1326,8 +1327,8 @@
         "vt-cosmetics",
         "reedle-shot",
         "facial-ampoule",
+        "skin-texture",
         "k-beauty",
-        "skincare",
         "boosting-ampoule"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
@@ -1341,7 +1342,7 @@
       "canonical_product_id": "CP000130",
       "pd_no": "1055167",
       "name": "본셉 레티놀 500 IU 세럼 30 ml",
-      "name_en": "VONSEP Retinol 500 IU Serum 30ml",
+      "name_en": "VONSEP Retinol 500 IU Serum 30 ml",
       "bucket": "스킨케어",
       "score": 98,
       "rating": 4.8,
@@ -1355,10 +1356,10 @@
       "ad_keywords": [
         "vonsep",
         "retinol-serum",
-        "korean-skincare",
         "face-serum",
+        "korean-skincare",
         "k-beauty",
-        "skincare-routine"
+        "facial-serum"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
@@ -1371,7 +1372,7 @@
       "canonical_product_id": "CP000106",
       "pd_no": "1049275",
       "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
-      "name_en": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6pcs",
+      "name_en": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6ea",
       "bucket": "스킨케어",
       "score": 98,
       "rating": 4.8,
@@ -1385,10 +1386,10 @@
       "ad_keywords": [
         "vt-cosmetics",
         "reedle-shot",
-        "facial-ampoule",
-        "k-beauty",
-        "skin-texture",
-        "boosting-ampoule"
+        "face-ampoule",
+        "korean-skincare",
+        "facial-boosting",
+        "skin-texture"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
@@ -1414,11 +1415,11 @@
       "shopify_action": "1차 Draft Action 검토",
       "ad_keywords": [
         "vt-pdrn",
+        "pdrn-cream",
         "radiance-cream",
         "korean-skincare",
         "face-cream",
-        "moisturizing-cream",
-        "glow-skin"
+        "moisturizing-cream"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
@@ -1472,10 +1473,10 @@
       "ad_keywords": [
         "celderma",
         "pdrn-mask",
+        "radiance-cream",
+        "wrapping-mask",
         "sheet-mask",
-        "korean-beauty",
-        "radiance-mask",
-        "facial-mask"
+        "k-beauty"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
@@ -1488,7 +1489,7 @@
       "canonical_product_id": "CP000109",
       "pd_no": "1049285",
       "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-      "name_en": "VT Super Hyalon Sleeping Mask 4ml 6 Pack",
+      "name_en": "VT Super Hyalon Sleeping Mask 4ml 6ea",
       "bucket": "스킨케어",
       "score": 92,
       "rating": 4.8,
@@ -1503,9 +1504,9 @@
         "vt-cosmetics",
         "sleeping-mask",
         "hyaluronic-acid",
-        "korean-skincare",
-        "hydration",
-        "facial-mask"
+        "k-beauty",
+        "facial-mask",
+        "hydrating-mask"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
@@ -1533,9 +1534,9 @@
         "celderma",
         "sheet-mask",
         "collagen-mask",
-        "korean-skincare",
-        "face-mask",
-        "hydrating-mask"
+        "firming-mask",
+        "k-beauty",
+        "face-mask"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
@@ -1548,7 +1549,7 @@
       "canonical_product_id": "CP000075",
       "pd_no": "1042619",
       "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
-      "name_en": "Celderma Daily Collagen Essence Gel Mask 29g",
+      "name_en": null,
       "bucket": "마스크팩",
       "score": 89,
       "rating": 4.7,
@@ -1558,21 +1559,14 @@
       "breakeven_usd": null,
       "suggested_price_usd": 21.0,
       "margin_pct": null,
-      "shopify_action": "2차 Draft Action 검토",
-      "ad_keywords": [
-        "celderma",
-        "collagen-mask",
-        "essence-gel-mask",
-        "korean-beauty",
-        "k-beauty",
-        "sheet-mask"
-      ],
-      "ad_keywords_source": "Gemini 영문 카피 태그",
-      "copy_status": "ok",
+      "shopify_action": "선행 증거 보강",
+      "ad_keywords": [],
+      "ad_keywords_source": "ontology 선행 게이트 차단",
+      "copy_status": "skipped_prerequisite",
       "agent_blocked_by": [
-        "price"
+        "legal"
       ],
-      "listing_ready": true,
+      "listing_ready": false,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619"
     },
     {
@@ -1604,42 +1598,6 @@
     }
   ],
   "competitor_watch": [
-    {
-      "name": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
-      "brand": "REJURAN",
-      "price_usd": 41.6,
-      "rating": 4.8,
-      "review_count": 12,
-      "us_rank": 1,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 1위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA67698081",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
-      "brand": "lilyeve",
-      "price_usd": 23.76,
-      "rating": 4.7,
-      "review_count": 9,
-      "us_rank": 3,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 3위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA98417491",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
-      "brand": "AESTURA",
-      "price_usd": 32.0,
-      "rating": 5,
-      "review_count": 2,
-      "us_rank": 4,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 4위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA71026007",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
     {
       "name": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
       "brand": "MEDIHEAL",
@@ -1675,11 +1633,47 @@
       "why": "us.oliveyoung.com/best-sellers 실수집 49위 · 마스크팩 동일 포지션",
       "url": "https://us.oliveyoung.com/products/UA37129317",
       "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
+      "brand": "REJURAN",
+      "price_usd": 41.6,
+      "rating": 4.8,
+      "review_count": 12,
+      "us_rank": 1,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 1위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA67698081",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
+      "brand": "lilyeve",
+      "price_usd": 23.76,
+      "rating": 4.7,
+      "review_count": 9,
+      "us_rank": 3,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 3위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA98417491",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+      "brand": "AESTURA",
+      "price_usd": 32.0,
+      "rating": 5,
+      "review_count": 2,
+      "us_rank": 4,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 4위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA71026007",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
     }
   ],
   "weekly_actions": [
     "Shopify Draft Action 6건의 payload hash를 검토하고 사람 승인",
-    "AI 선행 게이트 차단 2건의 증거 보강: gosi, legal, us_label",
+    "AI 선행 게이트 차단 3건의 증거 보강: gosi, legal, us_label",
     "시장 가격대 100건 기준 중앙값 $25.0 주 1회 확인",
     "묶음 구매 유도용 무료배송 최소 주문금액 설정 (낱개 배송 시 적자 구조라 필수)"
   ],
@@ -1703,7 +1697,7 @@
       "open_beauty_facts"
     ],
     "s_count": 10,
-    "listing_ready_count": 8,
+    "listing_ready_count": 7,
     "last_score_run": "2026-09-20",
     "last_pricing_run": "2026-09-20",
     "exchange_rate": 1386.74

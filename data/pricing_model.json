@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-20T03:13:44.490728+00:00",
+  "generated_at": "2026-09-20T04:08:30.316823+00:00",
   "exchange_rate": {
     "usd_to_krw": 1386.74,
     "as_of": "2026-09-20",
-    "source": "ExchangeRate-API"
+    "source": "https://open.er-api.com/v6/latest/USD"
   },
   "cost_basis": {
     "shipping": "우체국 국제통상 소형포장물 미국행 요금표 (ems.epost.go.kr, 2026-08-31 조회)",
@@ -122,21 +122,6 @@
         "block_reason": ""
       },
       {
-        "pd_no": "1067495",
-        "name": "[퀵 수분충전]VT PDRN 광채 토너 200 ml",
-        "qty": 1,
-        "price_usd": 25.99,
-        "unit_price_usd": 25.99,
-        "landed_cost_total_usd": 12.4,
-        "fee_usd": 1.92,
-        "net_profit_usd": 11.67,
-        "margin_pct": 44.9,
-        "market_median_usd": 25.0,
-        "market_price_source": "oliveyoung_us_benchmark",
-        "register_blocked": false,
-        "block_reason": ""
-      },
-      {
         "pd_no": "1049285",
         "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
         "qty": 1,
@@ -161,6 +146,21 @@
         "fee_usd": 1.92,
         "net_profit_usd": 16.35,
         "margin_pct": 62.9,
+        "market_median_usd": 25.0,
+        "market_price_source": "oliveyoung_us_benchmark",
+        "register_blocked": false,
+        "block_reason": ""
+      },
+      {
+        "pd_no": "1042619",
+        "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
+        "qty": 1,
+        "price_usd": 25.99,
+        "unit_price_usd": 25.99,
+        "landed_cost_total_usd": 6.89,
+        "fee_usd": 1.92,
+        "net_profit_usd": 17.18,
+        "margin_pct": 66.1,
         "market_median_usd": 25.0,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
@@ -274,21 +274,6 @@
         "block_reason": ""
       },
       {
-        "pd_no": "1067495",
-        "name": "[퀵 수분충전]VT PDRN 광채 토너 200 ml",
-        "qty": 2,
-        "price_usd": 42.99,
-        "unit_price_usd": 21.5,
-        "landed_cost_total_usd": 20.08,
-        "fee_usd": 3.18,
-        "net_profit_usd": 19.73,
-        "margin_pct": 45.9,
-        "market_median_usd": 25.0,
-        "market_price_source": "oliveyoung_us_benchmark",
-        "register_blocked": false,
-        "block_reason": ""
-      },
-      {
         "pd_no": "1049285",
         "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
         "qty": 2,
@@ -313,6 +298,21 @@
         "fee_usd": 3.18,
         "net_profit_usd": 29.69,
         "margin_pct": 69.1,
+        "market_median_usd": 25.0,
+        "market_price_source": "oliveyoung_us_benchmark",
+        "register_blocked": false,
+        "block_reason": ""
+      },
+      {
+        "pd_no": "1042619",
+        "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
+        "qty": 2,
+        "price_usd": 42.99,
+        "unit_price_usd": 21.5,
+        "landed_cost_total_usd": 8.46,
+        "fee_usd": 3.18,
+        "net_profit_usd": 31.35,
+        "margin_pct": 72.9,
         "market_median_usd": 25.0,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
@@ -354,13 +354,13 @@
       "discount_pct": 0,
       "price_usd": 25.99,
       "unit_price_usd": 25.99,
-      "landed_cost_total_usd": 9.8,
-      "shipping_in_cost_usd": 6.64,
+      "landed_cost_total_usd": 9.25,
+      "shipping_in_cost_usd": 6.42,
       "fee_usd": 1.92,
-      "net_profit_usd": 14.27,
-      "margin_pct": 54.9,
+      "net_profit_usd": 14.82,
+      "margin_pct": 57.0,
       "free_shipping": false,
-      "orders_for_500usd": 35,
+      "orders_for_500usd": 34,
       "price_basis": "상품별 권장가의 중앙값",
       "price_range_usd": [
         11.99,
@@ -372,11 +372,11 @@
       "discount_pct": 15,
       "price_usd": 42.99,
       "unit_price_usd": 21.5,
-      "landed_cost_total_usd": 14.1,
-      "shipping_in_cost_usd": 7.79,
+      "landed_cost_total_usd": 12.93,
+      "shipping_in_cost_usd": 7.29,
       "fee_usd": 3.18,
-      "net_profit_usd": 25.71,
-      "margin_pct": 59.8,
+      "net_profit_usd": 26.87,
+      "margin_pct": 62.5,
       "free_shipping": true,
       "orders_for_500usd": 19,
       "price_basis": "상품별 권장가의 중앙값",
@@ -666,49 +666,6 @@
         }
       },
       {
-        "pd_no": "1067495",
-        "name": "[퀵 수분충전]VT PDRN 광채 토너 200 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 93,
-        "price_krw": 5000,
-        "weight_g_est": 360,
-        "weight_note": "200ml x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.61,
-        "shipping_unit_usd": 8.25,
-        "shipping_order_usd": 8.25,
-        "tariff_usd": 0.54,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 12.4,
-        "landed_cost_ddu_usd": 12.4,
-        "landed_cost_ddp_usd": 11.86,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 13.39,
-        "at_2_2x": {
-          "sell": 7.93,
-          "fee": 0.59,
-          "profit": -5.05,
-          "margin_pct": -63.7
-        },
-        "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 7.05,
-          "margin_pct": 33.6
-        },
-        "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 10.75,
-          "margin_pct": 43.0
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
         "pd_no": "1049285",
         "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
         "bucket": "스킨케어",
@@ -788,6 +745,49 @@
           "fee": 1.85,
           "profit": 15.43,
           "margin_pct": 61.7
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 25.0,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1042619",
+        "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
+        "bucket": "마스크팩",
+        "shopify_score": 89,
+        "price_krw": 1000,
+        "weight_g_est": 86,
+        "weight_note": "고시 용량 29g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": true,
+        "unit_cost_usd": 0.72,
+        "shipping_unit_usd": 6.06,
+        "shipping_order_usd": 6.06,
+        "tariff_usd": 0.11,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 6.89,
+        "landed_cost_ddu_usd": 6.89,
+        "landed_cost_ddp_usd": 6.79,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 7.44,
+        "at_2_2x": {
+          "sell": 1.59,
+          "fee": 0.12,
+          "profit": -5.42,
+          "margin_pct": -341.9
+        },
+        "at_market_p25": {
+          "sell": 21.0,
+          "fee": 1.55,
+          "profit": 12.55,
+          "margin_pct": 59.8
+        },
+        "at_market_median": {
+          "sell": 25.0,
+          "fee": 1.85,
+          "profit": 16.26,
+          "margin_pct": 65.0
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 25.0,
@@ -1113,49 +1113,6 @@
         }
       },
       {
-        "pd_no": "1067495",
-        "name": "[퀵 수분충전]VT PDRN 광채 토너 200 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 93,
-        "price_krw": 5000,
-        "weight_g_est": 360,
-        "weight_note": "200ml x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.61,
-        "shipping_unit_usd": 5.89,
-        "shipping_order_usd": 11.78,
-        "tariff_usd": 0.54,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 10.04,
-        "landed_cost_ddu_usd": 10.04,
-        "landed_cost_ddp_usd": 9.5,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 10.84,
-        "at_2_2x": {
-          "sell": 7.93,
-          "fee": 0.59,
-          "profit": -2.69,
-          "margin_pct": -33.9
-        },
-        "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 9.41,
-          "margin_pct": 44.8
-        },
-        "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 13.11,
-          "margin_pct": 52.4
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
         "pd_no": "1049285",
         "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
         "bucket": "스킨케어",
@@ -1235,6 +1192,49 @@
           "fee": 1.85,
           "profit": 18.09,
           "margin_pct": 72.4
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 25.0,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1042619",
+        "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
+        "bucket": "마스크팩",
+        "shopify_score": 89,
+        "price_krw": 1000,
+        "weight_g_est": 86,
+        "weight_note": "고시 용량 29g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": true,
+        "unit_cost_usd": 0.72,
+        "shipping_unit_usd": 3.4,
+        "shipping_order_usd": 6.79,
+        "tariff_usd": 0.11,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 4.23,
+        "landed_cost_ddu_usd": 4.23,
+        "landed_cost_ddp_usd": 4.12,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 4.56,
+        "at_2_2x": {
+          "sell": 1.59,
+          "fee": 0.12,
+          "profit": -2.76,
+          "margin_pct": -173.8
+        },
+        "at_market_p25": {
+          "sell": 21.0,
+          "fee": 1.55,
+          "profit": 15.22,
+          "margin_pct": 72.5
+        },
+        "at_market_median": {
+          "sell": 25.0,
+          "fee": 1.85,
+          "profit": 18.92,
+          "margin_pct": 75.7
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 25.0,
@@ -1562,49 +1562,6 @@
         }
       },
       {
-        "pd_no": "1067495",
-        "name": "[퀵 수분충전]VT PDRN 광채 토너 200 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 93,
-        "price_krw": 5000,
-        "weight_g_est": 360,
-        "weight_note": "200ml x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.61,
-        "shipping_unit_usd": 8.25,
-        "shipping_order_usd": 8.25,
-        "tariff_usd": 0.54,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 12.4,
-        "landed_cost_ddu_usd": 12.4,
-        "landed_cost_ddp_usd": 11.86,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 13.39,
-        "at_2_2x": {
-          "sell": 7.93,
-          "fee": 0.59,
-          "profit": -5.05,
-          "margin_pct": -63.7
-        },
-        "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 7.05,
-          "margin_pct": 33.6
-        },
-        "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 10.75,
-          "margin_pct": 43.0
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
         "pd_no": "1049285",
         "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
         "bucket": "스킨케어",
@@ -1684,6 +1641,49 @@
           "fee": 1.85,
           "profit": 15.43,
           "margin_pct": 61.7
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 25.0,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1042619",
+        "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
+        "bucket": "마스크팩",
+        "shopify_score": 89,
+        "price_krw": 1000,
+        "weight_g_est": 86,
+        "weight_note": "고시 용량 29g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": true,
+        "unit_cost_usd": 0.72,
+        "shipping_unit_usd": 6.06,
+        "shipping_order_usd": 6.06,
+        "tariff_usd": 0.11,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 6.89,
+        "landed_cost_ddu_usd": 6.89,
+        "landed_cost_ddp_usd": 6.79,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 7.44,
+        "at_2_2x": {
+          "sell": 1.59,
+          "fee": 0.12,
+          "profit": -5.42,
+          "margin_pct": -341.9
+        },
+        "at_market_p25": {
+          "sell": 21.0,
+          "fee": 1.55,
+          "profit": 12.55,
+          "margin_pct": 59.8
+        },
+        "at_market_median": {
+          "sell": 25.0,
+          "fee": 1.85,
+          "profit": 16.26,
+          "margin_pct": 65.0
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 25.0,
@@ -2009,49 +2009,6 @@
         }
       },
       {
-        "pd_no": "1067495",
-        "name": "[퀵 수분충전]VT PDRN 광채 토너 200 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 93,
-        "price_krw": 5000,
-        "weight_g_est": 360,
-        "weight_note": "200ml x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.61,
-        "shipping_unit_usd": 5.89,
-        "shipping_order_usd": 11.78,
-        "tariff_usd": 0.54,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 10.04,
-        "landed_cost_ddu_usd": 10.04,
-        "landed_cost_ddp_usd": 9.5,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 10.84,
-        "at_2_2x": {
-          "sell": 7.93,
-          "fee": 0.59,
-          "profit": -2.69,
-          "margin_pct": -33.9
-        },
-        "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 9.41,
-          "margin_pct": 44.8
-        },
-        "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 13.11,
-          "margin_pct": 52.4
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
         "pd_no": "1049285",
         "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
         "bucket": "스킨케어",
@@ -2131,6 +2088,49 @@
           "fee": 1.85,
           "profit": 18.09,
           "margin_pct": 72.4
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 25.0,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1042619",
+        "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
+        "bucket": "마스크팩",
+        "shopify_score": 89,
+        "price_krw": 1000,
+        "weight_g_est": 86,
+        "weight_note": "고시 용량 29g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": true,
+        "unit_cost_usd": 0.72,
+        "shipping_unit_usd": 3.4,
+        "shipping_order_usd": 6.79,
+        "tariff_usd": 0.11,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 4.23,
+        "landed_cost_ddu_usd": 4.23,
+        "landed_cost_ddp_usd": 4.12,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 4.56,
+        "at_2_2x": {
+          "sell": 1.59,
+          "fee": 0.12,
+          "profit": -2.76,
+          "margin_pct": -173.8
+        },
+        "at_market_p25": {
+          "sell": 21.0,
+          "fee": 1.55,
+          "profit": 15.22,
+          "margin_pct": 72.5
+        },
+        "at_market_median": {
+          "sell": 25.0,
+          "fee": 1.85,
+          "profit": 18.92,
+          "margin_pct": 75.7
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 25.0,
@@ -2456,49 +2456,6 @@
         }
       },
       {
-        "pd_no": "1067495",
-        "name": "[퀵 수분충전]VT PDRN 광채 토너 200 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 93,
-        "price_krw": 5000,
-        "weight_g_est": 360,
-        "weight_note": "200ml x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.61,
-        "shipping_unit_usd": 8.25,
-        "shipping_order_usd": 8.25,
-        "tariff_usd": 0.54,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 11.86,
-        "landed_cost_ddu_usd": 12.4,
-        "landed_cost_ddp_usd": 11.86,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 12.8,
-        "at_2_2x": {
-          "sell": 7.93,
-          "fee": 0.59,
-          "profit": -4.51,
-          "margin_pct": -56.9
-        },
-        "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 7.59,
-          "margin_pct": 36.1
-        },
-        "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 11.29,
-          "margin_pct": 45.2
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
         "pd_no": "1049285",
         "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
         "bucket": "스킨케어",
@@ -2578,6 +2535,49 @@
           "fee": 1.85,
           "profit": 15.64,
           "margin_pct": 62.6
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 25.0,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1042619",
+        "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
+        "bucket": "마스크팩",
+        "shopify_score": 89,
+        "price_krw": 1000,
+        "weight_g_est": 86,
+        "weight_note": "고시 용량 29g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": true,
+        "unit_cost_usd": 0.72,
+        "shipping_unit_usd": 6.06,
+        "shipping_order_usd": 6.06,
+        "tariff_usd": 0.11,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 6.79,
+        "landed_cost_ddu_usd": 6.89,
+        "landed_cost_ddp_usd": 6.79,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 7.33,
+        "at_2_2x": {
+          "sell": 1.59,
+          "fee": 0.12,
+          "profit": -5.32,
+          "margin_pct": -335.1
+        },
+        "at_market_p25": {
+          "sell": 21.0,
+          "fee": 1.55,
+          "profit": 12.66,
+          "margin_pct": 60.3
+        },
+        "at_market_median": {
+          "sell": 25.0,
+          "fee": 1.85,
+          "profit": 16.36,
+          "margin_pct": 65.5
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 25.0,
@@ -2903,49 +2903,6 @@
         }
       },
       {
-        "pd_no": "1067495",
-        "name": "[퀵 수분충전]VT PDRN 광채 토너 200 ml",
-        "bucket": "스킨케어",
-        "shopify_score": 93,
-        "price_krw": 5000,
-        "weight_g_est": 360,
-        "weight_note": "200ml x 1.6(용기) + 40g(포장) 추정",
-        "weight_source": "estimated",
-        "weigh_needed": false,
-        "unit_cost_usd": 3.61,
-        "shipping_unit_usd": 5.89,
-        "shipping_order_usd": 11.78,
-        "tariff_usd": 0.54,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 9.5,
-        "landed_cost_ddu_usd": 10.04,
-        "landed_cost_ddp_usd": 9.5,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 10.26,
-        "at_2_2x": {
-          "sell": 7.93,
-          "fee": 0.59,
-          "profit": -2.15,
-          "margin_pct": -27.1
-        },
-        "at_market_p25": {
-          "sell": 21.0,
-          "fee": 1.55,
-          "profit": 9.95,
-          "margin_pct": 47.4
-        },
-        "at_market_median": {
-          "sell": 25.0,
-          "fee": 1.85,
-          "profit": 13.65,
-          "margin_pct": 54.6
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 25.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
         "pd_no": "1049285",
         "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
         "bucket": "스킨케어",
@@ -3025,6 +2982,49 @@
           "fee": 1.85,
           "profit": 18.31,
           "margin_pct": 73.2
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 25.0,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1042619",
+        "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
+        "bucket": "마스크팩",
+        "shopify_score": 89,
+        "price_krw": 1000,
+        "weight_g_est": 86,
+        "weight_note": "고시 용량 29g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": true,
+        "unit_cost_usd": 0.72,
+        "shipping_unit_usd": 3.4,
+        "shipping_order_usd": 6.79,
+        "tariff_usd": 0.11,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 4.12,
+        "landed_cost_ddu_usd": 4.23,
+        "landed_cost_ddp_usd": 4.12,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 4.45,
+        "at_2_2x": {
+          "sell": 1.59,
+          "fee": 0.12,
+          "profit": -2.65,
+          "margin_pct": -166.9
+        },
+        "at_market_p25": {
+          "sell": 21.0,
+          "fee": 1.55,
+          "profit": 15.33,
+          "margin_pct": 73.0
+        },
+        "at_market_median": {
+          "sell": 25.0,
+          "fee": 1.85,
+          "profit": 19.03,
+          "margin_pct": 76.1
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 25.0,
