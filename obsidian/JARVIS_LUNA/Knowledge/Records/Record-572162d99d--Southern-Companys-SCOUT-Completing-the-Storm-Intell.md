@@ -2,7 +2,7 @@
 title: "Record 572162d99d · Southern-Companys-SCOUT-Completing-the-Storm-Intell"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T14:07:05.049497+00:00
+updated_at: 2026-09-20T16:08:52.471853+00:00
 tags: [record, real-data]
 ---
 

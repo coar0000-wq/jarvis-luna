@@ -2,7 +2,7 @@
 title: "Record 302f4e102d · Market-Shift-Mid-Cycle-Transition-Mike-Wilson"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T14:07:05.099219+00:00
+updated_at: 2026-09-20T16:08:52.526541+00:00
 tags: [record, real-data]
 ---
 

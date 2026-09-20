@@ -2,7 +2,7 @@
 title: "Record 100aa12e4f · Plasma-five-protein-risk-score-for-prognostic-stratification-in-patien"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T14:07:04.386791+00:00
+updated_at: 2026-09-20T16:08:51.797617+00:00
 tags: [record, real-data]
 ---
 

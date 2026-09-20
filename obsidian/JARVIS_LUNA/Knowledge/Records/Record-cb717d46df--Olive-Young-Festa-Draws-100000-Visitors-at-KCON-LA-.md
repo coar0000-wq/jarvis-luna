@@ -2,7 +2,7 @@
 title: "Record cb717d46df · Olive-Young-Festa-Draws-100000-Visitors-at-KCON-LA-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T14:07:04.704997+00:00
+updated_at: 2026-09-20T16:08:52.112492+00:00
 tags: [record, real-data]
 ---
 

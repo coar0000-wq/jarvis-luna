@@ -2,7 +2,7 @@
 title: "Record 46aac1d4bc · GPU-First-Heisenberg-Picture-Tensor-Network-Dynamic"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T14:07:04.911384+00:00
+updated_at: 2026-09-20T16:08:52.326911+00:00
 tags: [record, real-data]
 ---
 

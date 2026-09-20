@@ -2,7 +2,7 @@
 title: "Record a27a38ce00 · Reducing-Hospitalization-in-Adult-Hospice-Patients-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T14:07:04.403167+00:00
+updated_at: 2026-09-20T16:08:51.814144+00:00
 tags: [record, real-data]
 ---
 

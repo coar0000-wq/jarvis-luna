@@ -2,7 +2,7 @@
 title: "Record d972de4cb3 · From-Priors-to-Projections-Geometry-and-simplified-MIMO-demodulation-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T14:07:04.925147+00:00
+updated_at: 2026-09-20T16:08:52.341626+00:00
 tags: [record, real-data]
 ---
 

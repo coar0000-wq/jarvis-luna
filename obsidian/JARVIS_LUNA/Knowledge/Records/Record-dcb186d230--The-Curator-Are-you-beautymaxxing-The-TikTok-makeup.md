@@ -2,7 +2,7 @@
 title: "Record dcb186d230 · The-Curator-Are-you-beautymaxxing-The-TikTok-makeup-trends-to-know---N"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T14:07:04.697665+00:00
+updated_at: 2026-09-20T16:08:52.105134+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 9ed7d3a225 · Us-Election-60-Seconds-Michael-Zezas-Two-Investor-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T14:07:05.090889+00:00
+updated_at: 2026-09-20T16:08:52.517353+00:00
 tags: [record, real-data]
 ---
 

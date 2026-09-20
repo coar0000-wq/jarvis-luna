@@ -2,7 +2,7 @@
 title: "Record e9871e79e9 · The-Legendary-Korean-Brand--Beauty-of-Joseon-Is-Now"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T14:07:04.820962+00:00
+updated_at: 2026-09-20T16:08:52.233940+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record c705761661 · AutoNeRF-Training-Implicit-Scene-Representations-wi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T14:07:04.480233+00:00
+updated_at: 2026-09-20T16:08:51.892405+00:00
 tags: [record, real-data]
 ---
 

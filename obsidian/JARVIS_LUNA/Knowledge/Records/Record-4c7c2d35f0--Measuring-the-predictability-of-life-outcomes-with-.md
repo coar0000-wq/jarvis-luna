@@ -2,7 +2,7 @@
 title: "Record 4c7c2d35f0 · Measuring-the-predictability-of-life-outcomes-with-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T14:07:04.390877+00:00
+updated_at: 2026-09-20T16:08:51.801956+00:00
 tags: [record, real-data]
 ---
 

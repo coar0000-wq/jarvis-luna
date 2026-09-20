@@ -2,7 +2,7 @@
 title: "Record 6e5911b6d9 · Transaction-Intent-Graph-Semantic-Cross-LayerDefens"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T14:07:04.447997+00:00
+updated_at: 2026-09-20T16:08:51.859184+00:00
 tags: [record, real-data]
 ---
 

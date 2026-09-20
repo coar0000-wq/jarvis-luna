@@ -2,7 +2,7 @@
 title: "Record bbe16e8b00 · Insights---Institute"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T14:07:05.097115+00:00
+updated_at: 2026-09-20T16:08:52.524211+00:00
 tags: [record, real-data]
 ---
 

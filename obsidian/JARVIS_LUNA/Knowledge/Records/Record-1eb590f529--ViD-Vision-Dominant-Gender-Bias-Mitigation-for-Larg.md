@@ -2,7 +2,7 @@
 title: "Record 1eb590f529 · ViD-Vision-Dominant-Gender-Bias-Mitigation-for-Large-Vision-Language-M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T14:07:04.291534+00:00
+updated_at: 2026-09-20T16:08:51.704441+00:00
 tags: [record, real-data]
 ---
 

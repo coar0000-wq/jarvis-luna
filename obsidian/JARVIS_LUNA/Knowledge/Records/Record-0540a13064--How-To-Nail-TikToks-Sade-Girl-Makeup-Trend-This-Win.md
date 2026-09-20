@@ -2,7 +2,7 @@
 title: "Record 0540a13064 · How-To-Nail-TikToks-Sade-Girl-Makeup-Trend-This-Win"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T14:07:04.655216+00:00
+updated_at: 2026-09-20T16:08:52.063700+00:00
 tags: [record, real-data]
 ---
 

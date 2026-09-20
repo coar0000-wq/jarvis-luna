@@ -2,7 +2,7 @@
 title: "Record 741dcffd3a · Amorepacific-finds-microbiome-strain-may-help-fade-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T14:07:04.675457+00:00
+updated_at: 2026-09-20T16:08:52.083494+00:00
 tags: [record, real-data]
 ---
 

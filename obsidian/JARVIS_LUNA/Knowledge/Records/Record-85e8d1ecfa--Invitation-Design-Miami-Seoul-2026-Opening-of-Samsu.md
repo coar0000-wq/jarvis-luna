@@ -2,7 +2,7 @@
 title: "Record 85e8d1ecfa · Invitation-Design-Miami-Seoul-2026-Opening-of-Samsu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T14:07:04.861703+00:00
+updated_at: 2026-09-20T16:08:52.274686+00:00
 tags: [record, real-data]
 ---
 

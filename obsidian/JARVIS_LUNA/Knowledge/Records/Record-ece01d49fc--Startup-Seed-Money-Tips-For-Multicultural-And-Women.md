@@ -2,7 +2,7 @@
 title: "Record ece01d49fc · Startup-Seed-Money-Tips-For-Multicultural-And-Women"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T14:07:05.085055+00:00
+updated_at: 2026-09-20T16:08:52.510842+00:00
 tags: [record, real-data]
 ---
 

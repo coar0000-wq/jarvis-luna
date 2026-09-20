@@ -2,7 +2,7 @@
 title: "Record edf74927e8 · EvoLib-Turning-experience-into-evolving-knowledge"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T14:07:05.074946+00:00
+updated_at: 2026-09-20T16:08:52.499844+00:00
 tags: [record, real-data]
 ---
 

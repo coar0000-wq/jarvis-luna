@@ -2,7 +2,7 @@
 title: "Record 813476dce6 · How-to-start-a-beverage-company"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T14:07:05.189040+00:00
+updated_at: 2026-09-20T16:08:52.624136+00:00
 tags: [record, real-data]
 ---
 

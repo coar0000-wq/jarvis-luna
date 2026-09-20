@@ -2,7 +2,7 @@
 title: "Record 155e049667 · DYAD-A-Multimodal-Dataset-of-Co-Located-Human-Assis"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T14:07:04.241391+00:00
+updated_at: 2026-09-20T16:08:51.654646+00:00
 tags: [record, real-data]
 ---
 

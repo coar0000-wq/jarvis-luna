@@ -2,7 +2,7 @@
 title: "Record 730fefdfed · XGRAG-A-Graph-Native-Framework-for-Explaining-KG-ba"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T14:07:04.897882+00:00
+updated_at: 2026-09-20T16:08:52.312475+00:00
 tags: [record, real-data]
 ---
 

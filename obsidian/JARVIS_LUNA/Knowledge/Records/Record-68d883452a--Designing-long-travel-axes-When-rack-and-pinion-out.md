@@ -2,7 +2,7 @@
 title: "Record 68d883452a · Designing-long-travel-axes-When-rack-and-pinion-outperforms-ball-screw"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T14:07:05.109726+00:00
+updated_at: 2026-09-20T16:08:52.538102+00:00
 tags: [record, real-data]
 ---
 
