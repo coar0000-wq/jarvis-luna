@@ -1,6 +1,6 @@
 {
   "products": [],
-  "updated_at": "2026-09-19T06:57:45.571132+00:00",
+  "updated_at": "2026-09-20T07:17:50.142345+00:00",
   "수집기": "product_discovery.py",
   "note": "수집기가 아직 없다. 지어낸 예시 데이터를 넣지 않으려고 비워 둔다. 예전 버전은 Hydrating Serum 의 수요 증가율 24% 를 소스에 박아 두고 대시보드에 올렸다. 2026-09-12 에 제거했다. 실측 수요는 scripts/daiso/score_shopify_demand.py 를 본다."
 }
