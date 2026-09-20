@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-19T22:43:07.576546+00:00",
+  "generated_at": "2026-09-20T03:13:47.193025+00:00",
   "generator": "scripts/build_legal_full.py",
   "scope": "현재 S등급 상품별 미국 화장품 라벨/MoCRA 공개 준비 상태",
   "truth_policy": "미확인 값은 빈칸으로 두며 예시 주소·전화·성분을 사용하지 않는다",
@@ -481,6 +481,49 @@
         "responsible_person.phone"
       ]
     },
+    "1067495": {
+      "canonical_product_id": "CP000214",
+      "pd_no": "1067495",
+      "name_ko": "[퀵 수분충전]VT PDRN 광채 토너 200 ml",
+      "identity": "",
+      "ingredients": [],
+      "ingredients_inci_raw": "",
+      "net_contents": "",
+      "directions": "",
+      "warnings": "",
+      "responsible_person": {
+        "name": "",
+        "address": "",
+        "email": "",
+        "phone": ""
+      },
+      "manufacturer": "",
+      "country_of_origin": "",
+      "sources": {
+        "identity": "human_required",
+        "ingredients": "human_required",
+        "net_contents": "human_required",
+        "directions": "human_translation_required",
+        "warnings": "human_translation_required",
+        "responsible_person": "human_required"
+      },
+      "auto_legal_status": "auto_checked",
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields",
+      "complete": false,
+      "blockers": [
+        "identity",
+        "ingredients",
+        "net_contents",
+        "directions",
+        "warnings",
+        "responsible_person.name",
+        "responsible_person.address",
+        "responsible_person.email",
+        "responsible_person.phone",
+        "legal_hard_block"
+      ]
+    },
     "1049285": {
       "canonical_product_id": "CP000109",
       "pd_no": "1049285",
@@ -629,61 +672,6 @@
         "phone": ""
       },
       "manufacturer": "(주)제닉 / 충청남도 논산시 성동면 산업단지로5길 5",
-      "country_of_origin": "Korea",
-      "sources": {
-        "identity": "shopify_listing_copy.json",
-        "ingredients": "daiso_us_labels.json",
-        "net_contents": "daiso_us_labels.json",
-        "directions": "human_translation_required",
-        "warnings": "human_translation_required",
-        "responsible_person": "human_required"
-      },
-      "auto_legal_status": "auto_checked",
-      "hard_block": false,
-      "hard_block_reason": "",
-      "complete": false,
-      "blockers": [
-        "directions",
-        "warnings",
-        "responsible_person.name",
-        "responsible_person.address",
-        "responsible_person.email",
-        "responsible_person.phone"
-      ]
-    },
-    "1042619": {
-      "canonical_product_id": "CP000075",
-      "pd_no": "1042619",
-      "name_ko": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
-      "identity": "Celderma Daily Collagen Essence Gel Mask 29g",
-      "ingredients": [
-        "Water",
-        "Glycerin",
-        "Niacinamide",
-        "Ceratonia Siliqua (Carob) Gum",
-        "Chondrus Crispus Extract",
-        "1,2-Hexanediol",
-        "Pentylene Glycol",
-        "Ethylhexylglycerin",
-        "Collagen Extract",
-        "Adenosine",
-        "Disodium EDTA",
-        "Glyceryl Glucoside",
-        "Polyglyceryl-6 Caprylate",
-        "Polyglyceryl-4 Caprate",
-        "Tocopherol"
-      ],
-      "ingredients_inci_raw": "Water, Glycerin, Niacinamide, Ceratonia Siliqua (Carob) Gum, Chondrus Crispus Extract, 1,2-Hexanediol, Pentylene Glycol, Ethylhexylglycerin, Collagen Extract, Adenosine, Disodium EDTA, Glyceryl Glucoside, Polyglyceryl-6 Caprylate, Polyglyceryl-4 Caprate, Tocopherol",
-      "net_contents": "29g",
-      "directions": "",
-      "warnings": "",
-      "responsible_person": {
-        "name": "",
-        "address": "",
-        "email": "",
-        "phone": ""
-      },
-      "manufacturer": "㈜제닉 (충청남도 논산시 성동면 산업단지로5길 5)",
       "country_of_origin": "Korea",
       "sources": {
         "identity": "shopify_listing_copy.json",

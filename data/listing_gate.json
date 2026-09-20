@@ -1,36 +1,45 @@
 {
-  "schema_version": 3,
-  "generated_at": "2026-09-19T22:43:07.680339+00:00",
+  "schema_version": 4,
+  "generated_at": "2026-09-20T03:13:47.268517+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "semantic_sources": {
       "data/product_master.json": "e8411f3e1a6f90f501bd89643545ae348c933c5d06ae5990d3f8165a034c3de2",
       "data/gosi.json": "38edc36485b0bae8b069d0f3db91f71f0e10a1f8daa2b41cf553c63083c11598",
       "data/daiso_real/daiso_us_labels.json": "2f9ae877770aad01a2099a06c01763a9769871846c5fd26ceb899b6b4a7846f8",
-      "data/pricing_model.json": "e20fe5dbbb93c48a19ba917459b3b4334d0507bd0b2d690b7a8754a864ded1bc",
-      "data/legal_products.json": "885aed08a9c6507f6be366939983dc25901099cca426709398674abcedb73282"
+      "data/pricing_model.json": "7e699b0891da5d7696b3e16c92a01d91c03ab261ac4141dde7a6c2ba6c3f4190",
+      "data/legal_products.json": "40eeac466ac7ec9d2a7900d33ecf777192960605ce6fb4c1b4f05a42f0995d37"
     },
-    "recommendations_sha256": "346ccf38f029563b72b84f44b39f0fdc127f6d0fc6730e773e8252e007a2a8af"
+    "recommendations_sha256": "647b094397d03e2f9ee9ac312f9d1caef91d93842d472aedb9d95ed85f756678"
   },
   "total": 10,
-  "agent_ready": 8,
-  "ready": 8,
-  "draft_ready": 8,
+  "agent_ready": 7,
+  "ready": 7,
+  "draft_ready": 7,
   "public_ready": 0,
   "counts": {
     "ontology": 10,
-    "copy": 8,
-    "gosi": 8,
-    "us_label": 8,
+    "copy": 7,
+    "gosi": 7,
+    "us_label": 7,
     "price": 10,
-    "legal": 8,
+    "legal": 7,
     "legal_full": 0
   },
   "blockers": {
-    "copy": 2,
-    "gosi": 2,
-    "us_label": 2,
-    "legal": 2
+    "copy": 3,
+    "gosi": 3,
+    "us_label": 3,
+    "legal": 3
+  },
+  "typesafe_summary": {
+    "framework": "typesafe_system_one_compatible",
+    "mode_counts": {
+      "disabled_local_advisory": 10
+    },
+    "paid_api_calls": 0,
+    "enforced": 0,
+    "note": "기본은 비용 없는 로컬 advisory. 실제 TypeSafe 호출은 TYPESAFE_ENABLED=1 및 TYPESAFE_ALLOW_PAID=1 동시 설정 때만 가능."
   },
   "count": 10,
   "note": "ontology=CP 정본 조인, gosi=한국 고시 4항목, us_label=영문 라벨(플레이스홀더 제외), legal=자동 하드블록, legal_full=MoCRA/FPLA 공개 필드. agent_ready는 LLM 입력 자격, ready는 Shopify 초안 준비, public_ready는 공개 판매 준비 건수.",
@@ -77,8 +86,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 24.99,
-        "margin_pct": 58.4,
+        "price_usd": 25.99,
+        "margin_pct": 59.7,
         "register_blocked": false
       },
       "legal": {
@@ -94,7 +103,27 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "legal_full_complete": false
+      "legal_full_complete": false,
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "review",
+        "risk_level": "medium",
+        "risk_points": 1,
+        "team_routes": [
+          "legal"
+        ],
+        "findings": [
+          "public blockers: legal_full"
+        ],
+        "confidence": null,
+        "usage": null
+      }
     },
     {
       "rank": 2,
@@ -137,8 +166,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 24.99,
-        "margin_pct": 51.7,
+        "price_usd": 25.99,
+        "margin_pct": 53.3,
         "register_blocked": false
       },
       "legal": {
@@ -154,7 +183,27 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "legal_full_complete": false
+      "legal_full_complete": false,
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "review",
+        "risk_level": "medium",
+        "risk_points": 1,
+        "team_routes": [
+          "legal"
+        ],
+        "findings": [
+          "public blockers: legal_full"
+        ],
+        "confidence": null,
+        "usage": null
+      }
     },
     {
       "rank": 3,
@@ -215,7 +264,27 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "legal_full_complete": false
+      "legal_full_complete": false,
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "review",
+        "risk_level": "medium",
+        "risk_points": 1,
+        "team_routes": [
+          "legal"
+        ],
+        "findings": [
+          "public blockers: legal_full"
+        ],
+        "confidence": null,
+        "usage": null
+      }
     },
     {
       "rank": 4,
@@ -275,7 +344,27 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "legal_full_complete": false
+      "legal_full_complete": false,
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "review",
+        "risk_level": "medium",
+        "risk_points": 1,
+        "team_routes": [
+          "legal"
+        ],
+        "findings": [
+          "public blockers: legal_full"
+        ],
+        "confidence": null,
+        "usage": null
+      }
     },
     {
       "rank": 5,
@@ -304,8 +393,8 @@
         "us_label_ok": false
       },
       "price": {
-        "price_usd": 24.99,
-        "margin_pct": 48.8,
+        "price_usd": 25.99,
+        "margin_pct": 50.5,
         "register_blocked": false
       },
       "legal": {
@@ -334,7 +423,31 @@
         "legal",
         "legal_full"
       ],
-      "legal_full_complete": false
+      "legal_full_complete": false,
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "hold",
+        "legal_gate_advisory": "block",
+        "risk_level": "critical",
+        "risk_points": 8,
+        "team_routes": [
+          "legal",
+          "sourcing",
+          "listing"
+        ],
+        "findings": [
+          "draft blockers: copy, gosi, us_label, legal",
+          "public blockers: copy, gosi, us_label, legal, legal_full",
+          "legal hard block"
+        ],
+        "confidence": null,
+        "usage": null
+      }
     },
     {
       "rank": 6,
@@ -396,10 +509,113 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "legal_full_complete": false
+      "legal_full_complete": false,
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "review",
+        "risk_level": "medium",
+        "risk_points": 1,
+        "team_routes": [
+          "legal"
+        ],
+        "findings": [
+          "public blockers: legal_full"
+        ],
+        "confidence": null,
+        "usage": null
+      }
     },
     {
       "rank": 7,
+      "canonical_product_id": "CP000214",
+      "pd_no": "1067495",
+      "product_id": "1067495",
+      "name": "[퀵 수분충전]VT PDRN 광채 토너 200 ml",
+      "category": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 93,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067495",
+      "copy": {},
+      "copy_status": "missing",
+      "gosi": {
+        "volume": "",
+        "maker": "",
+        "origin": "",
+        "ingredients": "",
+        "gosi_ok": false
+      },
+      "us_label": {
+        "net_contents": "",
+        "manufacturer": "",
+        "country_of_origin": "",
+        "ingredients_inci": "",
+        "us_label_ok": false
+      },
+      "price": {
+        "price_usd": 25.99,
+        "margin_pct": 44.9,
+        "register_blocked": false
+      },
+      "legal": {
+        "status": "auto_checked",
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields"
+      },
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "gosi",
+        "us_label",
+        "legal"
+      ],
+      "ready": false,
+      "blocked_by": [
+        "copy",
+        "gosi",
+        "us_label",
+        "legal"
+      ],
+      "public_ready": false,
+      "public_blocked_by": [
+        "copy",
+        "gosi",
+        "us_label",
+        "legal",
+        "legal_full"
+      ],
+      "legal_full_complete": false,
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "hold",
+        "legal_gate_advisory": "block",
+        "risk_level": "critical",
+        "risk_points": 8,
+        "team_routes": [
+          "legal",
+          "sourcing",
+          "listing"
+        ],
+        "findings": [
+          "draft blockers: copy, gosi, us_label, legal",
+          "public blockers: copy, gosi, us_label, legal, legal_full",
+          "legal hard block"
+        ],
+        "confidence": null,
+        "usage": null
+      }
+    },
+    {
+      "rank": 8,
       "canonical_product_id": "CP000109",
       "pd_no": "1049285",
       "product_id": "1049285",
@@ -440,8 +656,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 24.99,
-        "margin_pct": 58.4,
+        "price_usd": 25.99,
+        "margin_pct": 59.7,
         "register_blocked": false
       },
       "legal": {
@@ -457,10 +673,30 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "legal_full_complete": false
+      "legal_full_complete": false,
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "review",
+        "risk_level": "medium",
+        "risk_points": 1,
+        "team_routes": [
+          "legal"
+        ],
+        "findings": [
+          "public blockers: legal_full"
+        ],
+        "confidence": null,
+        "usage": null
+      }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "canonical_product_id": "CP000151",
       "pd_no": "1059834",
       "product_id": "1059834",
@@ -501,8 +737,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 24.99,
-        "margin_pct": 61.7,
+        "price_usd": 25.99,
+        "margin_pct": 62.9,
         "register_blocked": false
       },
       "legal": {
@@ -518,69 +754,27 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "legal_full_complete": false
-    },
-    {
-      "rank": 9,
-      "canonical_product_id": "CP000075",
-      "pd_no": "1042619",
-      "product_id": "1042619",
-      "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
-      "category": "마스크팩",
-      "price_krw": 1000,
-      "shopify_score": 89,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
-      "copy": {
-        "title": "Celderma Daily Collagen Essence Gel Mask 29g",
-        "description_html": "<p>Experience the refreshing hydration of the Celderma Daily Collagen Essence Gel Mask. Designed to fit comfortably, this hydrogel sheet mask delivers a rich essence directly to your skin for a refreshed and smooth look.</p><p>Incorporate this 29g mask into your regular skincare routine to help maintain a supple and glowing appearance with ease.</p>",
-        "seo_title": "Celderma Daily Collagen Essence Gel Mask 29g",
-        "seo_description": "Shop the Celderma Daily Collagen Essence Gel Mask 29g for hydrated, smooth-looking skin. Easy-to-use hydrogel sheet mask for a radiant complexion.",
-        "tags": [
-          "celderma",
-          "collagen-mask",
-          "essence-gel-mask",
-          "korean-beauty",
-          "k-beauty",
-          "sheet-mask",
-          "facial-mask",
-          "skincare"
+      "legal_full_complete": false,
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "review",
+        "risk_level": "medium",
+        "risk_points": 1,
+        "team_routes": [
+          "legal"
         ],
-        "product_type": "Face Mask"
-      },
-      "copy_status": "ok",
-      "gosi": {
-        "volume": "29g",
-        "maker": "㈜제닉 (충청남도 논산시 성동면 산업단지로5길 5)",
-        "origin": "한국",
-        "ingredients": "정제수, 글리세린, 나이아신아마이드, 캐롭검, 아이리쉬모스추출물, 1,2-헥산다이올, 펜틸렌글라이콜, 에틸헥실글리세린, 콜라겐추출물(686,000ppb), 아데노신, 다이소듐이디티에이, 글리세릴글루코사이드, 폴리글리",
-        "gosi_ok": true
-      },
-      "us_label": {
-        "net_contents": "29g",
-        "manufacturer": "㈜제닉 (충청남도 논산시 성동면 산업단지로5길 5)",
-        "country_of_origin": "Korea",
-        "ingredients_inci": "Water, Glycerin, Niacinamide, Ceratonia Siliqua (Carob) Gum, Chondrus Crispus Extract, 1,2-Hexanediol, Pentylene Glycol, Ethylhexylglycerin, Collagen Extract, Adenosine, Disodium EDTA, Glyceryl Glucoside, Polyglyceryl-6 Caprylate, Polyglyceryl-4 Caprate, Tocopherol",
-        "us_label_ok": true
-      },
-      "price": {
-        "price_usd": 24.99,
-        "margin_pct": 65.0,
-        "register_blocked": false
-      },
-      "legal": {
-        "status": "auto_checked",
-        "hard_block": false,
-        "hard_block_reason": ""
-      },
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "ready": true,
-      "blocked_by": [],
-      "public_ready": false,
-      "public_blocked_by": [
-        "legal_full"
-      ],
-      "legal_full_complete": false
+        "findings": [
+          "public blockers: legal_full"
+        ],
+        "confidence": null,
+        "usage": null
+      }
     },
     {
       "rank": 10,
@@ -609,8 +803,8 @@
         "us_label_ok": false
       },
       "price": {
-        "price_usd": 24.99,
-        "margin_pct": 43.0,
+        "price_usd": 25.99,
+        "margin_pct": 44.9,
         "register_blocked": false
       },
       "legal": {
@@ -639,7 +833,31 @@
         "legal",
         "legal_full"
       ],
-      "legal_full_complete": false
+      "legal_full_complete": false,
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "hold",
+        "legal_gate_advisory": "block",
+        "risk_level": "critical",
+        "risk_points": 9,
+        "team_routes": [
+          "legal",
+          "sourcing",
+          "listing"
+        ],
+        "findings": [
+          "draft blockers: copy, gosi, us_label, legal",
+          "public blockers: copy, gosi, us_label, legal, legal_full",
+          "legal hard block"
+        ],
+        "confidence": null,
+        "usage": null
+      }
     }
   ]
 }

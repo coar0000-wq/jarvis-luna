@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-20T07:43:07.870844+09:00",
+  "generated_at": "2026-09-20T12:13:49.777888+09:00",
   "role": "coaching",
   "principle": "AI는 체크리스트·A/B 초안만. 등록·광고 집행은 사람 승인.",
   "source": "scripts/build_coaching_loop.py",
   "scope": "S등급 상위 15개",
   "summary": {
     "ready_to_list": 0,
-    "ready_with_notes": 8,
-    "fix_then_list": 2,
+    "ready_with_notes": 7,
+    "fix_then_list": 3,
     "hold": 0,
     "reddit_signal": {
       "status": "ok",
       "post_count": 25,
-      "collected_at": "2026-09-19T22:16:01.340389+00:00",
+      "collected_at": "2026-09-20T03:08:45.084383+00:00",
       "keyword_pool": 40
     }
   },
@@ -78,7 +78,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'kbeauty', 'skin', 'skincare']",
+          "evidence": "matched=['beauty', 'kbeauty', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -94,7 +94,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Ampoule — Daiso Find — Affordable hydrating pick",
           "headline": "Ampoule — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: REJURAN Turnover Ampoule 1.01 fl. oz.(30.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -104,13 +104,11 @@
           "hydrating",
           "beauty",
           "kbeauty",
-          "skin",
           "skincare"
         ],
         "reddit_keywords_used": [
           "beauty",
           "kbeauty",
-          "skin",
           "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
@@ -120,12 +118,11 @@
         "matched": [
           "beauty",
           "kbeauty",
-          "skin",
           "skincare"
         ],
-        "score": 4,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['beauty', 'kbeauty', 'skin', 'skincare']",
+        "evidence": "matched=['beauty', 'kbeauty', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -196,7 +193,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'kbeauty', 'skin', 'skincare']",
+          "evidence": "matched=['beauty', 'kbeauty', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -212,7 +209,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Serum — Daiso Find — Affordable hydrating pick",
           "headline": "Serum — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: REJURAN Turnover Ampoule 1.01 fl. oz.(30.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -222,13 +219,11 @@
           "hydrating",
           "beauty",
           "kbeauty",
-          "skin",
           "skincare"
         ],
         "reddit_keywords_used": [
           "beauty",
           "kbeauty",
-          "skin",
           "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
@@ -238,12 +233,11 @@
         "matched": [
           "beauty",
           "kbeauty",
-          "skin",
           "skincare"
         ],
-        "score": 4,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['beauty', 'kbeauty', 'skin', 'skincare']",
+        "evidence": "matched=['beauty', 'kbeauty', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -314,7 +308,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'kbeauty', 'skin', 'skincare']",
+          "evidence": "matched=['beauty', 'kbeauty', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -330,7 +324,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Ampoule — Daiso Find — Affordable hydrating pick",
           "headline": "Ampoule — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: REJURAN Turnover Ampoule 1.01 fl. oz.(30.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -340,13 +334,11 @@
           "hydrating",
           "beauty",
           "kbeauty",
-          "skin",
           "skincare"
         ],
         "reddit_keywords_used": [
           "beauty",
           "kbeauty",
-          "skin",
           "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
@@ -356,12 +348,11 @@
         "matched": [
           "beauty",
           "kbeauty",
-          "skin",
           "skincare"
         ],
-        "score": 4,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['beauty', 'kbeauty', 'skin', 'skincare']",
+        "evidence": "matched=['beauty', 'kbeauty', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -418,7 +409,7 @@
           "id": "global_signal",
           "label": "글로벌 수요 시그널",
           "status": "pass",
-          "evidence": "글로벌 'Lacto-PDRN 4% + B9 Eye Cream' (ulta_beauty) 유사 88% · 토큰 cream, pdrn",
+          "evidence": "글로벌 'ANUA PDRN Hyaluronic Acid 100 Moisturizing Cream, 2.02 fl oz | Lightweight, Non-Greasy Hydrating Face Moisturizer w",
           "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
         },
         {
@@ -432,7 +423,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'kbeauty', 'moisturizer', 'moisturizers', 'skin', 'skincare']",
+          "evidence": "matched=['beauty', 'kbeauty', 'moisturizer', 'moisturizers', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -448,7 +439,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Cream Pdrn — Daiso Find — Affordable hydrating pick",
           "headline": "Cream Pdrn — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: REJURAN Turnover Ampoule 1.01 fl. oz.(30.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -461,14 +452,14 @@
           "kbeauty",
           "moisturizer",
           "moisturizers",
-          "skin"
+          "skincare"
         ],
         "reddit_keywords_used": [
           "beauty",
           "kbeauty",
           "moisturizer",
           "moisturizers",
-          "skin"
+          "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
@@ -479,12 +470,11 @@
           "kbeauty",
           "moisturizer",
           "moisturizers",
-          "skin",
           "skincare"
         ],
-        "score": 6,
+        "score": 5,
         "status": "pass",
-        "evidence": "matched=['beauty', 'kbeauty', 'moisturizer', 'moisturizers', 'skin', 'skincare']",
+        "evidence": "matched=['beauty', 'kbeauty', 'moisturizer', 'moisturizers', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -555,7 +545,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'kbeauty', 'skin', 'skincare']",
+          "evidence": "matched=['beauty', 'kbeauty', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -571,7 +561,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Serum — Daiso Find — Affordable hydrating pick",
           "headline": "Serum — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: REJURAN Turnover Ampoule 1.01 fl. oz.(30.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -581,13 +571,11 @@
           "hydrating",
           "beauty",
           "kbeauty",
-          "skin",
           "skincare"
         ],
         "reddit_keywords_used": [
           "beauty",
           "kbeauty",
-          "skin",
           "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
@@ -597,12 +585,11 @@
         "matched": [
           "beauty",
           "kbeauty",
-          "skin",
           "skincare"
         ],
-        "score": 4,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['beauty', 'kbeauty', 'skin', 'skincare']",
+        "evidence": "matched=['beauty', 'kbeauty', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -659,7 +646,7 @@
           "id": "global_signal",
           "label": "글로벌 수요 시그널",
           "status": "pass",
-          "evidence": "글로벌 'Lacto-PDRN 4% + B9 Eye Cream' (ulta_beauty) 유사 68% · 토큰 cream, pdrn",
+          "evidence": "글로벌 'ANUA PDRN Hyaluronic Acid 100 Moisturizing Cream, 2.02 fl oz | Lightweight, Non-Greasy Hydrating Face Moisturizer w",
           "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
         },
         {
@@ -689,7 +676,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Cream Mask Pdrn — Daiso Find — Affordable hydrating pick",
           "headline": "Cream Mask Pdrn — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: REJURAN Turnover Ampoule 1.01 fl. oz.(30.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -735,6 +722,124 @@
         "warn": 3,
         "fail": 0,
         "next_action": "경고 항목 보완 후 등록"
+      }
+    },
+    {
+      "pd_no": "1067495",
+      "name": "[퀵 수분충전]VT PDRN 광채 토너 200 ml",
+      "bucket": "스킨케어",
+      "shopify_score": 93,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067495",
+      "readiness": "fix_then_list",
+      "checklist": [
+        {
+          "id": "grade_s",
+          "label": "S등급 유지",
+          "status": "pass",
+          "evidence": "grade=S, score=93",
+          "tip": "S가 아니면 1차 등록 보류"
+        },
+        {
+          "id": "margin",
+          "label": "마진 확인",
+          "status": "warn",
+          "evidence": "pricing 미연결",
+          "tip": "pricing_model 재실행"
+        },
+        {
+          "id": "price_band",
+          "label": "권장가",
+          "status": "warn",
+          "evidence": "suggested_price 없음",
+          "tip": "pricing_model 확인"
+        },
+        {
+          "id": "listing_copy",
+          "label": "영문 리스팅 카피",
+          "status": "fail",
+          "evidence": "카피 미생성",
+          "tip": "shopify-listing-copy 워크플로 실행"
+        },
+        {
+          "id": "listing_ready_flag",
+          "label": "등록 준비 플래그",
+          "status": "warn",
+          "evidence": "listing_ready=False",
+          "tip": "카피·이미지 준비되면 true"
+        },
+        {
+          "id": "global_signal",
+          "label": "글로벌 수요 시그널",
+          "status": "pass",
+          "evidence": "글로벌 'Hydrating Milky Toner' (ulta_beauty) 유사 56% · 토큰 hydrating, toner",
+          "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
+        },
+        {
+          "id": "social_proof",
+          "label": "국내 리뷰(대리지표)",
+          "status": "pass",
+          "evidence": "review_count=14285",
+          "tip": "리뷰 적으면 첫 광고 예산을 더 보수적으로"
+        },
+        {
+          "id": "reddit_community",
+          "label": "Reddit 뷰티 커뮤니티 키워드",
+          "status": "pass",
+          "evidence": "matched=['beauty', 'kbeauty', 'skincare', 'toner']",
+          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+        }
+      ],
+      "ad_copy_ab": {
+        "variant_a": {
+          "label": "A · 성분/커뮤니티 후킹",
+          "primary_text": "Toner Pdrn — Daiso Find — beauty · K-beauty",
+          "headline": "Toner Pdrn — Daiso Find",
+          "description": "Daiso-sourced K-beauty. Lightweight daily use. Target US shoppers searching glass skin.",
+          "cta": "Shop now"
+        },
+        "variant_b": {
+          "label": "B · 가성비/가격 후킹",
+          "primary_text": "Toner Pdrn — Daiso Find — Affordable hydrating pick",
+          "headline": "Toner Pdrn — Daiso Find",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: REJURAN Turnover Ampoule 1.01 fl. oz.(30.",
+          "cta": "See price"
+        },
+        "suggested_keywords": [
+          "toner",
+          "PDRN",
+          "K-beauty",
+          "glass skin",
+          "hydrating",
+          "beauty",
+          "kbeauty",
+          "skincare"
+        ],
+        "reddit_keywords_used": [
+          "beauty",
+          "kbeauty",
+          "skincare",
+          "toner"
+        ],
+        "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
+        "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
+      },
+      "reddit_match": {
+        "matched": [
+          "beauty",
+          "kbeauty",
+          "skincare",
+          "toner"
+        ],
+        "score": 4,
+        "status": "pass",
+        "evidence": "matched=['beauty', 'kbeauty', 'skincare', 'toner']",
+        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+      },
+      "coach_summary": {
+        "pass": 4,
+        "warn": 3,
+        "fail": 1,
+        "next_action": "실패 항목 수정"
       }
     },
     {
@@ -798,7 +903,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['ask', 'beauty', 'kbeauty', 'mask', 'masks', 'sheet', 'skin', 'skincare']",
+          "evidence": "matched=['ask', 'beauty', 'kbeauty', 'mask', 'masks', 'sheet', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -814,7 +919,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Mask — Daiso Find — Affordable hydrating pick",
           "headline": "Mask — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: REJURAN Turnover Ampoule 1.01 fl. oz.(30.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -845,12 +950,11 @@
           "mask",
           "masks",
           "sheet",
-          "skin",
           "skincare"
         ],
-        "score": 8,
+        "score": 7,
         "status": "pass",
-        "evidence": "matched=['ask', 'beauty', 'kbeauty', 'mask', 'masks', 'sheet', 'skin', 'skincare']",
+        "evidence": "matched=['ask', 'beauty', 'kbeauty', 'mask', 'masks', 'sheet', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -979,125 +1083,6 @@
       }
     },
     {
-      "pd_no": "1042619",
-      "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
-      "bucket": "마스크팩",
-      "shopify_score": 89,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
-      "readiness": "ready_with_notes",
-      "checklist": [
-        {
-          "id": "grade_s",
-          "label": "S등급 유지",
-          "status": "pass",
-          "evidence": "grade=S, score=89",
-          "tip": "S가 아니면 1차 등록 보류"
-        },
-        {
-          "id": "margin",
-          "label": "마진 확인",
-          "status": "warn",
-          "evidence": "pricing 미연결",
-          "tip": "pricing_model 재실행"
-        },
-        {
-          "id": "price_band",
-          "label": "권장가",
-          "status": "warn",
-          "evidence": "suggested_price 없음",
-          "tip": "pricing_model 확인"
-        },
-        {
-          "id": "listing_copy",
-          "label": "영문 리스팅 카피",
-          "status": "pass",
-          "evidence": "Gemini 카피 있음",
-          "tip": "shopify-listing-copy 워크플로 실행"
-        },
-        {
-          "id": "listing_ready_flag",
-          "label": "등록 준비 플래그",
-          "status": "warn",
-          "evidence": "listing_ready=False",
-          "tip": "카피·이미지 준비되면 true"
-        },
-        {
-          "id": "global_signal",
-          "label": "글로벌 수요 시그널",
-          "status": "pass",
-          "evidence": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 68% · 토큰 collagen, mask",
-          "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
-        },
-        {
-          "id": "social_proof",
-          "label": "국내 리뷰(대리지표)",
-          "status": "pass",
-          "evidence": "review_count=2383",
-          "tip": "리뷰 적으면 첫 광고 예산을 더 보수적으로"
-        },
-        {
-          "id": "reddit_community",
-          "label": "Reddit 뷰티 커뮤니티 키워드",
-          "status": "pass",
-          "evidence": "matched=['ask', 'mask', 'masks', 'sheet']",
-          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
-        }
-      ],
-      "ad_copy_ab": {
-        "variant_a": {
-          "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Celderma Daily Collagen Essence Gel Mask 29g — ask · sheet mask",
-          "headline": "Celderma Daily Collagen Essence Gel Mask",
-          "description": "Experience the refreshing hydration of the Celderma Daily Collagen Essence Gel Mask. Designed to fit comfortably, this hydrogel sheet mask delivers a rich essence directly to your skin for a refreshed",
-          "cta": "Shop now"
-        },
-        "variant_b": {
-          "label": "B · 가성비/가격 후킹",
-          "primary_text": "Essence Mask Collagen — Daiso Find — Affordable collagen mask pick",
-          "headline": "Essence Mask Collagen — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable collagen mask pick. Nearby US ref: [7types] MEDIHEAL Essential Face Mask 10.",
-          "cta": "See price"
-        },
-        "suggested_keywords": [
-          "essence",
-          "mask",
-          "collagen",
-          "sheet mask",
-          "overnight mask",
-          "collagen mask",
-          "ask",
-          "masks",
-          "sheet"
-        ],
-        "reddit_keywords_used": [
-          "ask",
-          "mask",
-          "masks",
-          "sheet"
-        ],
-        "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
-        "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
-      },
-      "reddit_match": {
-        "matched": [
-          "ask",
-          "mask",
-          "masks",
-          "sheet"
-        ],
-        "score": 4,
-        "status": "pass",
-        "evidence": "matched=['ask', 'mask', 'masks', 'sheet']",
-        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
-      },
-      "coach_summary": {
-        "pass": 5,
-        "warn": 3,
-        "fail": 0,
-        "next_action": "경고 항목 보완 후 등록"
-      }
-    },
-    {
       "pd_no": "1053482",
       "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
       "bucket": "스킨케어",
@@ -1158,7 +1143,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'kbeauty', 'skin', 'skincare', 'toner']",
+          "evidence": "matched=['beauty', 'kbeauty', 'skincare', 'toner']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -1174,7 +1159,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Toner — Daiso Find — Affordable hydrating pick",
           "headline": "Toner — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: REJURAN Turnover Ampoule 1.01 fl. oz.(30.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -1184,13 +1169,11 @@
           "hydrating",
           "beauty",
           "kbeauty",
-          "skin",
           "skincare"
         ],
         "reddit_keywords_used": [
           "beauty",
           "kbeauty",
-          "skin",
           "skincare",
           "toner"
         ],
@@ -1201,13 +1184,12 @@
         "matched": [
           "beauty",
           "kbeauty",
-          "skin",
           "skincare",
           "toner"
         ],
-        "score": 5,
+        "score": 4,
         "status": "pass",
-        "evidence": "matched=['beauty', 'kbeauty', 'skin', 'skincare', 'toner']",
+        "evidence": "matched=['beauty', 'kbeauty', 'skincare', 'toner']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {

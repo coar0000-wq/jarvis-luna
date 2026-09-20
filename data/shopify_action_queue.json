@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T22:43:07.976176+00:00",
-  "source_gate_generated_at": "2026-09-19T22:43:07.680339+00:00",
+  "generated_at": "2026-09-20T03:13:47.414879+00:00",
+  "source_gate_generated_at": "2026-09-20T03:13:47.268517+00:00",
   "ontology_source": "data/product_master.json",
   "approval_source": "data/manual/shopify_action_approvals.json",
   "policy": {
@@ -9,47 +9,15 @@
     "public": "public_ready + legal approval + verified physical inventory + separate publish approval",
     "idempotency": "action_id + payload_hash"
   },
-  "draft_action_count": 7,
+  "draft_action_count": 6,
   "states": {
-    "WAITING_HUMAN_APPROVAL": 7
+    "WAITING_HUMAN_APPROVAL": 6
   },
   "public_ready_item_count": 0,
   "public_actions": [],
   "public_blocked": true,
   "public_block_reason": "public_ready 상품 없음",
   "draft_actions": [
-    {
-      "action_id": "shopify:draft:CP000075",
-      "action_type": "CREATE_OR_UPDATE_SHOPIFY_DRAFT",
-      "object_type": "CanonicalProduct",
-      "object_id": "CP000075",
-      "shopify_group_key": "VG-CP000075",
-      "canonical_product_ids": [
-        "CP000075"
-      ],
-      "excluded_members": [],
-      "pd_nos": [
-        "1042619"
-      ],
-      "variant_count": 1,
-      "payload_hash": "6158fe44efde50828de17dc6b67cfbbf8eb932860d116657eced75e43d763e48",
-      "state": "WAITING_HUMAN_APPROVAL",
-      "approval_required": true,
-      "approved_by": "",
-      "approved_at": "",
-      "execution": {
-        "enabled": false,
-        "reason": "Shopify 쓰기 실행기는 별도 승인·자격증명·read-after-write 검증 후 연결"
-      },
-      "safety": {
-        "status": "draft",
-        "published": false,
-        "inventory": 0,
-        "inventory_policy": "deny"
-      },
-      "shopify_ids": {},
-      "last_error": ""
-    },
     {
       "action_id": "shopify:draft:CP000109",
       "action_type": "CREATE_OR_UPDATE_SHOPIFY_DRAFT",
@@ -64,7 +32,7 @@
         "1049285"
       ],
       "variant_count": 1,
-      "payload_hash": "f0e6e68c0cda3a1bc4bbd116c7a32b334033e7e4e55587f08bc25077c308fa8b",
+      "payload_hash": "3cb398ff556da38ff13e03aea0ccce0b95a25d3b6e0141c78806fe4db604d43a",
       "state": "WAITING_HUMAN_APPROVAL",
       "approval_required": true,
       "approved_by": "",
@@ -96,7 +64,7 @@
         "1055167"
       ],
       "variant_count": 1,
-      "payload_hash": "43e3a2daf5b133a1795d6f4e338f02044b297ac5ca610d231de81aec99ea7e71",
+      "payload_hash": "7ccdf943b258e94bb2a0b2baf23739b6f6a4fd92ea40a01ddfb8d0e017553af4",
       "state": "WAITING_HUMAN_APPROVAL",
       "approval_required": true,
       "approved_by": "",
@@ -128,7 +96,7 @@
         "1059834"
       ],
       "variant_count": 1,
-      "payload_hash": "0956b7e3ed62feed88aefbb00056d91b2e941ae6ce11ab193c93e16c3c87b41e",
+      "payload_hash": "74fbbe89e858094f1a4fdb38d40904eb96222158e69c7783c912d75f6cceb3eb",
       "state": "WAITING_HUMAN_APPROVAL",
       "approval_required": true,
       "approved_by": "",
@@ -226,7 +194,7 @@
         "1049276"
       ],
       "variant_count": 2,
-      "payload_hash": "24866f6760d43eef73bb9f709a93d4292603a960ba31cff0af3ed7f18bc7db78",
+      "payload_hash": "a3dc2fba6e8a37357f39625482b70b6cf0bac3b7141067c9914bb1dd7da2b96a",
       "state": "WAITING_HUMAN_APPROVAL",
       "approval_required": true,
       "approved_by": "",

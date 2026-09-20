@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-19T22:16:01.340389+00:00",
+  "collected_at": "2026-09-20T03:08:45.084383+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -45,11 +45,11 @@
   "hot_keywords": [
     {
       "keyword": "september",
-      "score": 5
+      "score": 4
     },
     {
       "keyword": "2026",
-      "score": 5
+      "score": 4
     },
     {
       "keyword": "beauty",
@@ -64,10 +64,6 @@
       "score": 4
     },
     {
-      "keyword": "korean",
-      "score": 4
-    },
-    {
       "keyword": "skincare",
       "score": 4
     },
@@ -76,23 +72,43 @@
       "score": 3
     },
     {
-      "keyword": "anything",
-      "score": 3
-    },
-    {
-      "keyword": "goes",
-      "score": 3
-    },
-    {
       "keyword": "products",
       "score": 3
     },
     {
-      "keyword": "thursday",
+      "keyword": "melano",
+      "score": 2
+    },
+    {
+      "keyword": "essence",
+      "score": 2
+    },
+    {
+      "keyword": "premium",
+      "score": 2
+    },
+    {
+      "keyword": "gokujyun",
+      "score": 2
+    },
+    {
+      "keyword": "bottle",
+      "score": 2
+    },
+    {
+      "keyword": "toner",
       "score": 2
     },
     {
       "keyword": "thai",
+      "score": 2
+    },
+    {
+      "keyword": "anything",
+      "score": 2
+    },
+    {
+      "keyword": "goes",
       "score": 2
     },
     {
@@ -108,11 +124,11 @@
       "score": 2
     },
     {
-      "keyword": "mask",
+      "keyword": "korean",
       "score": 2
     },
     {
-      "keyword": "online",
+      "keyword": "mask",
       "score": 2
     },
     {
@@ -125,22 +141,6 @@
     },
     {
       "keyword": "kbeauty",
-      "score": 2
-    },
-    {
-      "keyword": "sunscreen",
-      "score": 2
-    },
-    {
-      "keyword": "toner",
-      "score": 2
-    },
-    {
-      "keyword": "skin",
-      "score": 2
-    },
-    {
-      "keyword": "oily",
       "score": 2
     },
     {
@@ -172,6 +172,14 @@
       "score": 1
     },
     {
+      "keyword": "thursday",
+      "score": 1
+    },
+    {
+      "keyword": "easence",
+      "score": 1
+    },
+    {
       "keyword": "anyone",
       "score": 1
     },
@@ -192,15 +200,7 @@
       "score": 1
     },
     {
-      "keyword": "shopee",
-      "score": 1
-    },
-    {
-      "keyword": "sale",
-      "score": 1
-    },
-    {
-      "keyword": "there",
+      "keyword": "gold",
       "score": 1
     }
   ],
@@ -214,12 +214,16 @@
       "score": 4
     },
     {
-      "keyword": "korean",
+      "keyword": "skincare",
       "score": 4
     },
     {
-      "keyword": "skincare",
-      "score": 4
+      "keyword": "essence",
+      "score": 2
+    },
+    {
+      "keyword": "toner",
+      "score": 2
     },
     {
       "keyword": "sunscreens",
@@ -227,6 +231,10 @@
     },
     {
       "keyword": "spf50+",
+      "score": 2
+    },
+    {
+      "keyword": "korean",
       "score": 2
     },
     {
@@ -243,18 +251,6 @@
     },
     {
       "keyword": "kbeauty",
-      "score": 2
-    },
-    {
-      "keyword": "sunscreen",
-      "score": 2
-    },
-    {
-      "keyword": "toner",
-      "score": 2
-    },
-    {
-      "keyword": "skin",
       "score": 2
     }
   ],
@@ -274,6 +270,13 @@
       "feed": "hot"
     },
     {
+      "title": "Melano cc essence or melano cc premium easence?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wl2dhu/melano_cc_essence_or_melano_cc_premium_easence/",
+      "published": "2026-09-20T00:34:40+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Anyone try these Hera blushes?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wku1ar/anyone_try_these_hera_blushes/",
       "published": "2026-09-19T18:43:37+00:00",
@@ -281,9 +284,37 @@
       "feed": "hot"
     },
     {
+      "title": "Gokujyun Premium (gold bottle), Gokujyun Regular (blue and white bottle), or Cosrx synergy propolis toner?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wl5703/gokujyun_premium_gold_bottle_gokujyun_regular/",
+      "published": "2026-09-20T02:52:31+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "how to achieve this look?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wl37db/how_to_achieve_this_look/",
+      "published": "2026-09-20T01:13:40+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "SHOPEE 9.9 Sale Haul - C Beauty, K Beauty, J Beauty & Thai Beauty",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wkfann/shopee_99_sale_haul_c_beauty_k_beauty_j_beauty/",
       "published": "2026-09-19T07:11:11+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Thann Aromatic Wood",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wl13s7/thann_aromatic_wood/",
+      "published": "2026-09-19T23:35:58+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "UNNY CLUB Sun Lotion",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wl0cci/unny_club_sun_lotion/",
+      "published": "2026-09-19T23:02:06+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -396,41 +427,6 @@
       "title": "What are the best affordable stores to buy kbeauty makeup and skincare products??",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wizxy1/what_are_the_best_affordable_stores_to_buy/",
       "published": "2026-09-17T17:10:05+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "My Holy Grail Sunscreen",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wi6akm/my_holy_grail_sunscreen/",
-      "published": "2026-09-16T18:56:37+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Anything Goes Thursday: September 17, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wj5n8c/anything_goes_thursday_september_17_2026/",
-      "published": "2026-09-17T20:39:13+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Recommendations on a moisturizing toner for someone with sensitive, dry acneprone skin, oily tzone and roceacea?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1winzxl/recommendations_on_a_moisturizing_toner_for/",
-      "published": "2026-09-17T08:19:27+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Which Korean Shampoo do you use for oily hair?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1win368/which_korean_shampoo_do_you_use_for_oily_hair/",
-      "published": "2026-09-17T07:25:04+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Canadians ordering online.",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wi9zhv/canadians_ordering_online/",
-      "published": "2026-09-16T21:11:07+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

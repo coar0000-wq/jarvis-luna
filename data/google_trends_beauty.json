@@ -1,10 +1,10 @@
 {
   "source": "google news rss (beauty queries) + trends daily filtered",
-  "collected_at": "2026-09-19T22:16:24.080562+00:00",
+  "collected_at": "2026-09-20T03:09:09.083825+00:00",
   "status": "ok",
   "note": "뷰티 키워드만. 채점 MATCH_CHANNELS 에는 넣지 않음. 대시보드 키워드 보드용.",
   "query_count": 12,
-  "count": 94,
+  "count": 92,
   "items": [
     {
       "keyword": "This Viral K-Beauty Moisturizer Gave Me My Glow Back - Coveteur",
@@ -25,20 +25,20 @@
       "beauty": true
     },
     {
-      "keyword": "From Skin Patches to Haircare, These Are the K-Beauty Products That Are Actually Popular in Korea - WWD",
-      "product": "From Skin Patches to Haircare, These Are the K-Beauty Products That Are Actually Popular in Korea - WWD",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTWhmVlpqOU5iUWRfT2x1V0Y0cmVlMVNQZElYaFQyUEpHQmRDZUJNdkNFMy03WUptY0ZfMXJubWJramM4dUFSZXl1SDR5QUl2UE0xeVNqbHl5X3RQUXZfV3Q1am1QcDN6UFRVbkdYN2dEUHo0Z3pKT3dMZ0tFNlNaUXE5TzZjTjJfNnlJTnVBUjdvTlBkNmRHTVFyanZZa2YwcDhEdQ?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
       "keyword": "K-Beauty Isn’t Just For Gen Z. These Korean Skin Care Picks Are Made For Mature Skin - HuffPost",
       "product": "K-Beauty Isn’t Just For Gen Z. These Korean Skin Care Picks Are Made For Mature Skin - HuffPost",
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRURKYS1ZekRkbWVwN2g1TTFWd3VkUmtReXFsVFFlbEFlR0cxTXFXd2k5Zkw5WGM0TmRWc0tSS21fWjROdHZMYVI2S3pqOF90QnJNQ242blFzLTNFd0V1NlhQQ1h5UkFYZS1qQ21RQnN0bW5oenpibURlTi1XVmE2R255Mm5Ga0NEUEwyVEhhUzk1LVhKeEVXbm14NNIBoAFBVV95cUxOWVE3UVVwRWxaYWpnVDgxUHdiWUF1YzVsMkJZVFpJZGlOOEpCdXNxX1hjWGJfY0MtelJjZkREVzhMX2VZdkVDd1hJVWdYcHRHenU2Ylh5Z25kN2lGWm5WZTJTeWthWldFbndJTjNYODdlV0FqaFpnYXVFQ0hlU1NSSjhONXZtQmloUndlT3FrVW1tSEV4b3FPNHEycWI3VjZj?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "From Skin Patches to Haircare, These Are the K-Beauty Products That Are Actually Popular in Korea - WWD",
+      "product": "From Skin Patches to Haircare, These Are the K-Beauty Products That Are Actually Popular in Korea - WWD",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTWhmVlpqOU5iUWRfT2x1V0Y0cmVlMVNQZElYaFQyUEpHQmRDZUJNdkNFMy03WUptY0ZfMXJubWJramM4dUFSZXl1SDR5QUl2UE0xeVNqbHl5X3RQUXZfV3Q1am1QcDN6UFRVbkdYN2dEUHo0Z3pKT3dMZ0tFNlNaUXE5TzZjTjJfNnlJTnVBUjdvTlBkNmRHTVFyanZZa2YwcDhEdQ?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -52,24 +52,6 @@
       "beauty": true
     },
     {
-      "keyword": "Stop Splurging on Skin Care—This Kendall Jenner-Used K-Beauty Brand Gives Me a Poreless Glow, Starting at $4 - instyle.com",
-      "product": "Stop Splurging on Skin Care—This Kendall Jenner-Used K-Beauty Brand Gives Me a Poreless Glow, Starting at $4 - instyle.com",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSDhzbFk5SkNPVmFEY3l1aWZiUUNfMjY5RG55RlMtVFp4b29OeFhnNVVRaHZBZDRxZ0FZQ0w5R3g2SWMxYnNXUVppbmoxaXlWWDZkZTdZOXh5RVNtNlpwWkZTVEJ1TFoxUWdQN0pXQXVWQzhQa096NDZTd2xJM0tFa0RVV3RRZmM?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - highschool.latimes.com",
-      "product": "Opinion: From Seoul to Sephora — how K-beauty has become a global phenomenon - highschool.latimes.com",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPc2g3NThETVhLa3FISG94RmRGSURCVlJ6aGNHUWZleXJHS0VfTUd0ZEZJUzduRVpjSGxTcGRKNlhKeXVCVHpMTmpFWjBPcHdzYkIyeG1lcHJXeVV6cHFPZXl5UFdnUkpRNDVRLXFjZTFtNmpmYThKdmVveTBTM0ZsN1lBNjJyRE9UVmZReGlaeG54Mko1ZDItRlFoUXZKc1BRcmwzSnR3RGVpTjRzbVVTcDI4dw?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
       "keyword": "Fake K-beauty products busted - The Korea Herald",
       "product": "Fake K-beauty products busted - The Korea Herald",
       "sub": "K-beauty",
@@ -79,20 +61,20 @@
       "beauty": true
     },
     {
-      "keyword": "The Korean Sunscreen Ingredient We’ve Been Waiting for Is Finally Here - Oprah Daily",
-      "product": "The Korean Sunscreen Ingredient We’ve Been Waiting for Is Finally Here - Oprah Daily",
-      "sub": "Korean sunscreen",
+      "keyword": "Woman arrested for allegedly stealing $15K in beauty products in Southern California - NBC Los Angeles",
+      "product": "Woman arrested for allegedly stealing $15K in beauty products in Southern California - NBC Los Angeles",
+      "sub": "K-beauty",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdjVaVE1LTV9uenRyWlJQbWs0R0I5SkVMaUJMZ2RFOXZMa3hUdmJvamxtQkdoMTNGbk1xR1RvTkltMW8yS2NtVkNHUGdGbG9uN0NfNXQzbzU5SjJXMzNzY3lhbEVQM2YyX1FpVXpDSUp4RGQ3ajdTT1BJdGRod0Nrd3NEdE9LUWFZZmlvZTkxMDJteGh3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONXRNYmhicXFZUTlKaHFIeUN4N1J1ek04czI5WXhkNTlha3JFOWhyWUoycHh3akN4aFdUX2o0WEp1MmtQWXVSUjI3S0RXTnFSYUY2TGtRU2Y4Y3Z6RkRsXzFDWnRGRktQLWtGbmVTdFlCenBfWEFfQTJXbWl3Rnd6NzFHMkxNQ2NMTkNlWk1WaWdGcTF3QW90dGViQ0xEZjQt0gGoAUFVX3lxTE9FMElzVHZrRVFlZXozWXROYUZCZ0JOdF9VRWNjSmh4ZEJGeFRkRUNNVjdBdHA2R0VxQ0U3MnExS2I5WUFGdUFQdlk5aUNHSTVnZzh3QzJ0Q2JrbnNPUWY4elcxdUlOVC0xQVBrQVlaTEt2alQ2SnFIaXU1djZZWXhSZlQ2ZnlaNG43NlNRY1NLcDlrRktGMS1FY0JsblNRTk4td1lqbmJUYg?oc=5",
       "kind": "news",
       "beauty": true
     },
     {
-      "keyword": "Same brand, different SPF: Why Korean sunscreens outperform US versions - koreatimes.co.kr",
-      "product": "Same brand, different SPF: Why Korean sunscreens outperform US versions - koreatimes.co.kr",
-      "sub": "Korean sunscreen",
+      "keyword": "Stop Splurging on Skin Care—This Kendall Jenner-Used K-Beauty Brand Gives Me a Poreless Glow, Starting at $4 - instyle.com",
+      "product": "Stop Splurging on Skin Care—This Kendall Jenner-Used K-Beauty Brand Gives Me a Poreless Glow, Starting at $4 - instyle.com",
+      "sub": "K-beauty",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdXEyV1k2UDNvY01GVEFoVE01MldFRjlqaGlJY3kzRjliamkxcEV3aXFJeS1WRDJpbzI2OGVfTDFoTGR3Ny0tUkNRMXJ0RmJvRktpM2FDN0h4aE1uSHItVVNMWFNycnM1aDR4NW1TUVVQdjRhTmNIUXQxUmlVM253Z2NCNmIwbW9xVHJFLWd0R0tyZ2k4TWtqTzFoeDJUNDE5ZVpfeUZHNWtqNjVsOEhQRjUzSlZ0LTNN0gG-AUFVX3lxTE9teTR0RHBndWpfVGJ2OElRU1NCVDNSaVdZTjcwLWZpcU9ubEJma1FEeU9SbFRmc0hWd3hCTUhoUjlsb05Sek53VlI3RVF4dTI0MlFYRXpScmw4bFM1WVpjVEpnSFMtUllTWm9xYkxkbXVIM2RUaHQ3UlpXcGZJTHMxYkQ4aUlBdmFxQllQZF9YbG9yYVk5ay0yTUlVYTBjS3dZTnlkdzVLRzQxMGkzM0FzOERMOEo3d1RDOURmUnc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSDhzbFk5SkNPVmFEY3l1aWZiUUNfMjY5RG55RlMtVFp4b29OeFhnNVVRaHZBZDRxZ0FZQ0w5R3g2SWMxYnNXUVppbmoxaXlWWDZkZTdZOXh5RVNtNlpwWkZTVEJ1TFoxUWdQN0pXQXVWQzhQa096NDZTd2xJM0tFa0RVV3RRZmM?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -133,8 +115,8 @@
       "beauty": true
     },
     {
-      "keyword": "The Best Korean Sunscreens for Invisible UV Protection - thelooker.thedailybeast.com",
-      "product": "The Best Korean Sunscreens for Invisible UV Protection - thelooker.thedailybeast.com",
+      "keyword": "The Best Korean Sunscreens for Invisible UV Protection - The Daily Beast",
+      "product": "The Best Korean Sunscreens for Invisible UV Protection - The Daily Beast",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObVNqeHpLQ3ZVc29jQ0JxTnpaTXhTTklfME5rN3QzakpIajB2Q09jekF5Q0dVYTN3M3ZiUklmWDZ5RTFGMnRwU1kzYWNMWGlybVNIYUZ1R1huUGYzTEJnanhBQzhqWXh3MFZYVFpLRWJSeTVBWEFiMm0tVlpMb19XZDVkbw?oc=5",
@@ -142,11 +124,29 @@
       "beauty": true
     },
     {
-      "keyword": "Consumer Reports puts K-Beauty sunscreens to the test - WRAL",
-      "product": "Consumer Reports puts K-Beauty sunscreens to the test - WRAL",
+      "keyword": "Putting K-beauty sunscreens to the test | Consumer Reports - WESH",
+      "product": "Putting K-beauty sunscreens to the test | Consumer Reports - WESH",
       "sub": "Korean sunscreen",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMHhPYk45c2xzWEw3Mmx2akplQWJZS1F1SnJSbnZJV3RmV0hLTktMUnl4cDBQak5jdDQ0LWlUWWtGODZSbkFfU0Q3MDZ0S0FtVFNDSjUyaldtU0l6WjhiZXpjN1MxVjdRNGVXeEUyZkNqY29aeXBqckFYYWxTYkF4TkpFVUFsZjFRMk9EU1N3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1RTlRWa1NTaGFteVh6ZDZFM2x3dmc3T09NZTY0c2VZWUdISGdQZmZWY1FQall2bVJLdlJnSFdteVVlaVhmNVZlNDl3aWtWTUswTVU4dXJiQjJENjRxam4xOGhUWm4zNlc5YkdwLU95ampCcDFQd2Rheng2aUVTVk0?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Does Korean sunscreen work better? | Consumer Reports - KING5.com",
+      "product": "Does Korean sunscreen work better? | Consumer Reports - KING5.com",
+      "sub": "Korean sunscreen",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTGRVSGtHWWhrdzhNWEl1ZkZJcUxCMVpfem14eFVoOGlUV0x5UVpBTGR0TVRzMUo3ODlPM3MwMF8zSXJTa1pZZ0dELThiVlhtRjlqdTQ4SDFPcUdPaUR4ZnF0VmZvRWktajNibk9JT3pTam5CV0JGY0VOUnBFQmVXa0V1T3VJNXVQb1JLWjhkanRxWXBBeU5DZVVrUnFLWHBMWGRfa284UkFuaWNCYXV3RHJJeGtGck5TRFRES21aUV9WY3NCY21UazhEdjZ1bVk?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "What’s So Special About Korean Sunscreens? - Vogue",
+      "product": "What’s So Special About Korean Sunscreens? - Vogue",
+      "sub": "Korean sunscreen",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5TcVJKY3REazZWUHNSNzFzcGREMWdTYkJqUkVoUjdManZWeXZDcE5FSmxVNUFkaWpyRm9sY1lwVTJldE1fQS1rWGI4VEdYd196a3FIUlRqay1rR1k?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -187,20 +187,11 @@
       "beauty": true
     },
     {
-      "keyword": "Should You Get a Tofu Facial? - VegNews.com",
-      "product": "Should You Get a Tofu Facial? - VegNews.com",
+      "keyword": "Should You Get a Tofu Facial? - vegnews.com",
+      "product": "Should You Get a Tofu Facial? - vegnews.com",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9GMWpDQXJra1dxSm5ZVVlScW91MDlvb0dxeEJKUXN4TkJCUGNZcjNuYTFlTnVlYzNsN0g1MlFrWTRZQkU5SXlzcFlPRDNsblN4WFRLZlpR?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - Vogue",
-      "product": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - Vogue",
-      "sub": "snail mucin",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5LUmI0VzFqenBxYXlPcjlQVE4xOEVsbE8wYW4xdG1jSHRWbFQzWFZEOVRpTmN0bndubWptdUJqc3BRb2ExWUJCZmtRSVhSWDliZDN5RGhjVGhLSW1ieU45TVhMZVpKSFVYZWc?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -210,6 +201,15 @@
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQ0l4Szg4MWtxM2RLY0MzSHpBYkRHQVdCSEc1b29TNFdrUzA4QmZoNldsRnctNXRFNVNQVWowMEdXdzJ2T244SGRGSnF2cVVhUHFuZnZuS1U2NVVCQ1BPTVRoelJqcUZZZnNEVEU0a3hlZ2JuaGJ5TFhBZjJSOFowaVlPMW5IZkZnbC1zYmdTb1dVSFZscmhLaFJGRXI3Wmc?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - Vogue",
+      "product": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - Vogue",
+      "sub": "snail mucin",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5LUmI0VzFqenBxYXlPcjlQVE4xOEVsbE8wYW4xdG1jSHRWbFQzWFZEOVRpTmN0bndubWptdUJqc3BRb2ExWUJCZmtRSVhSWDliZDN5RGhjVGhLSW1ieU45TVhMZVpKSFVYZWc?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -241,8 +241,8 @@
       "beauty": true
     },
     {
-      "keyword": "Dry Skin Types Should Be Using Face Toner—Here’s Why - Allure",
-      "product": "Dry Skin Types Should Be Using Face Toner—Here’s Why - Allure",
+      "keyword": "Dry Skin Types Should Be Using Face Toner—Here’s Why - allure.com",
+      "product": "Dry Skin Types Should Be Using Face Toner—Here’s Why - allure.com",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tUlIta29LZnJyQjZ3VlhCQ1VlZzk3bVo5LXd1NE8xX3FRemRsZXB4VXdOSDQtWVNUMlJzWmNXSnhUTWdBTl9hX1dud2VTREZwNlFfTXVxNEdOa0tSdUJZNS1B?oc=5",
@@ -255,6 +255,15 @@
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE51X3N0RkJ5UUFOczdKQ2xiV24wOEJsMGlUUU1vTnJIWGZXd0VJVDZtcExtbHh5VWwwUVpzYXVqYklvc29sSF9zaUtnbDUybF9iTGxVWE1PVkxOZGVacVNUT2REeG42TGtPaGNUdjF6a08zSG40M3Z5d0JR?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "How Anua Skincare Became K-Beauty’s Biggest Success Story - BeautyNewsDaily",
+      "product": "How Anua Skincare Became K-Beauty’s Biggest Success Story - BeautyNewsDaily",
+      "sub": "heartleaf toner",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9LemdVMDM3Q3hoem1Xa013a0JQMVdWd0UxSDZpdjc4T3BmT29PMWJZZTltMl9lQkhRM1NzckFMbnBiMlIycWxqZXhrQ3lCeU1YNzFEcnpPQkRpeDQ?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -277,20 +286,11 @@
       "beauty": true
     },
     {
-      "keyword": "This Soothing Toner for Acne-Prone Skin That’s Always Sold Out on TikTok Shop & Is a Rare 30% off til Midnight - SheKnows",
-      "product": "This Soothing Toner for Acne-Prone Skin That’s Always Sold Out on TikTok Shop & Is a Rare 30% off til Midnight - SheKnows",
+      "keyword": "Prime Day: The Soothing Toner That’s Gone Viral for ‘Instant’ Redness Relief is $14 - NewBeauty",
+      "product": "Prime Day: The Soothing Toner That’s Gone Viral for ‘Instant’ Redness Relief is $14 - NewBeauty",
       "sub": "heartleaf toner",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82eTk2NHJ2QUFpbWZLZUhMUVlUR25HeGw5UUhZVVl1QjVYcnV3SDUtemwyUUo5MDU2TEFoN2NTMmtvclRGbWZ2R0RqdkhmLThlM1ZUY3VMcWtiUmctT3N0dnBWNzJvb2xIQWpTZFNMTTNrMkQ0UEpvUmw4eE1sdw?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "TikTok Is Praising This On-Sale K-Beauty Toner for ‘Immediately’ Calming Redness & Irritation - stylecaster.com",
-      "product": "TikTok Is Praising This On-Sale K-Beauty Toner for ‘Immediately’ Calming Redness & Irritation - stylecaster.com",
-      "sub": "heartleaf toner",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1EZmRERGtWa0ZEc0VJZGlGOHM0N1BXNW43MUJGSkJ3eWxFY214UWtjYjRfbS14TzVZLWVZcjZxTnpVR1hpWmVFNUJYbzZZYlFwcjE0dVc4UGtpaC1CSXNqU0dkRmkyY3BDQ2g2ek42c3YwN01Mb0tCeXN3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB0TXdQNUtJTm1FMlBLR2ZtRTF0RDA5QjJqM3FuNENyZm9sU3NJb2pVYzhaZ0xSckpIOHBNRlJmTERjd0E2TGphTlhJb3p1V0prc19YenBRVmk1d095SzZ6SXZEdTRSSWd5MWpTNDVud1JXUWZqX3c?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -313,8 +313,8 @@
       "beauty": true
     },
     {
-      "keyword": "Red, Irritated Skin? These Cica Products Calm Things Down - Allure",
-      "product": "Red, Irritated Skin? These Cica Products Calm Things Down - Allure",
+      "keyword": "Red, Irritated Skin? These Cica Products Calm Things Down - allure.com",
+      "product": "Red, Irritated Skin? These Cica Products Calm Things Down - allure.com",
       "sub": "centella serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1yZDNoUHpEdEhOUWhHQWRZck1vTFdWeDljeGZPcVh4a1VuaWpnWTczN0Vhd2RmODNOajVxdFdzRHdJTjJVbVJfa212RDdQcVY3N2tSRjc0emxET0J6bUFfbVZUNUU?oc=5",

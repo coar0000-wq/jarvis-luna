@@ -2,7 +2,7 @@
 title: "Record 6eca7560c5 · The-Viral-Beauty-Trends-2026--This-Morning---ITVX"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T22:21:10.556154+00:00
+updated_at: 2026-09-20T03:15:40.490013+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMieEFVX3lxTE5aTnFUc0NiOWFvdEd5ZW5sb3lpcXctdDAycVJpWnR3dWFjYmF2anRNR1c5YlhWZlFtclJob2N5VXptblQxMEZkZFhPbWZ0bWRYOTUwMTV2WWZPMVRnazEtTVRHUG1KTWxEZi1uQXhzN1RBRkVJc2toLQ?oc=5)
 
-**제목:** The Viral Beauty Trends 2026 | This Morning - ITVX
+**제목:** The Viral Beauty Trends 2026 | This Morning - itv.com
 
-The Viral Beauty Trends 2026 | This Morning - ITVX
+The Viral Beauty Trends 2026 | This Morning - itv.com
 
 **출처:** Source · Google Search
 
