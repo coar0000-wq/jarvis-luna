@@ -58,7 +58,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-20T20:29:10.780639+00:00"
+      "gate_generated_at": "2026-09-20T21:05:17.278531+00:00"
     },
     {
       "rank": 2,
@@ -113,7 +113,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-20T20:29:10.780639+00:00"
+      "gate_generated_at": "2026-09-20T21:05:17.278531+00:00"
     },
     {
       "rank": 3,
@@ -167,7 +167,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-20T20:29:10.780639+00:00"
+      "gate_generated_at": "2026-09-20T21:05:17.278531+00:00"
     },
     {
       "rank": 4,
@@ -222,7 +222,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-20T20:29:10.780639+00:00"
+      "gate_generated_at": "2026-09-20T21:05:17.278531+00:00"
     },
     {
       "rank": 5,
@@ -282,7 +282,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-20T20:29:10.780639+00:00"
+      "gate_generated_at": "2026-09-20T21:05:17.278531+00:00"
     },
     {
       "rank": 6,
@@ -337,7 +337,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-20T20:29:10.780639+00:00"
+      "gate_generated_at": "2026-09-20T21:05:17.278531+00:00"
     },
     {
       "rank": 7,
@@ -367,20 +367,17 @@
       "registerable_source": "data/listing_gate.json",
       "agent_ready": false,
       "agent_blocked_by": [
-        "gosi",
         "us_label",
         "legal"
       ],
       "blocked_by": [
         "copy",
-        "gosi",
         "us_label",
         "legal"
       ],
       "public_ready": false,
       "public_blocked_by": [
         "copy",
-        "gosi",
         "us_label",
         "legal",
         "legal_full"
@@ -395,21 +392,20 @@
         "grade_advisory": "hold",
         "legal_gate_advisory": "block",
         "risk_level": "critical",
-        "risk_points": 8,
+        "risk_points": 7,
         "team_routes": [
           "legal",
-          "sourcing",
           "listing"
         ],
         "findings": [
-          "draft blockers: copy, gosi, us_label, legal",
-          "public blockers: copy, gosi, us_label, legal, legal_full",
+          "draft blockers: copy, us_label, legal",
+          "public blockers: copy, us_label, legal, legal_full",
           "legal hard block"
         ],
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-20T20:29:10.780639+00:00"
+      "gate_generated_at": "2026-09-20T21:05:17.278531+00:00"
     },
     {
       "rank": 8,
@@ -464,7 +460,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-20T20:29:10.780639+00:00"
+      "gate_generated_at": "2026-09-20T21:05:17.278531+00:00"
     },
     {
       "rank": 9,
@@ -519,7 +515,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-20T20:29:10.780639+00:00"
+      "gate_generated_at": "2026-09-20T21:05:17.278531+00:00"
     },
     {
       "rank": 10,
@@ -547,14 +543,21 @@
       },
       "registerable": false,
       "registerable_source": "data/listing_gate.json",
-      "agent_ready": true,
-      "agent_blocked_by": [],
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "price",
+        "legal"
+      ],
       "blocked_by": [
-        "copy"
+        "copy",
+        "price",
+        "legal"
       ],
       "public_ready": false,
       "public_blocked_by": [
         "copy",
+        "price",
+        "legal",
         "legal_full"
       ],
       "typesafe": {
@@ -564,25 +567,26 @@
         "source": "deterministic_local",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "keep_s",
+        "grade_advisory": "hold",
         "legal_gate_advisory": "review",
-        "risk_level": "high",
-        "risk_points": 3,
+        "risk_level": "critical",
+        "risk_points": 5,
         "team_routes": [
           "legal",
+          "pricing",
           "listing"
         ],
         "findings": [
-          "draft blockers: copy",
-          "public blockers: copy, legal_full"
+          "draft blockers: copy, price, legal",
+          "public blockers: copy, price, legal, legal_full"
         ],
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-20T20:29:10.780639+00:00"
+      "gate_generated_at": "2026-09-20T21:05:17.278531+00:00"
     }
   ],
-  "agent_ready_count": 9,
+  "agent_ready_count": 8,
   "registerable_count": 7,
   "registerable_source": "data/listing_gate.json"
 }

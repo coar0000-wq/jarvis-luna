@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-20T20:29:10.657736+00:00",
+  "generated_at": "2026-09-20T21:05:17.198295+00:00",
   "generator": "scripts/build_legal_full.py",
   "scope": "현재 S등급 상품별 미국 화장품 라벨/MoCRA 공개 준비 상태",
   "truth_policy": "미확인 값은 빈칸으로 두며 예시 주소·전화·성분을 사용하지 않는다",
@@ -531,7 +531,7 @@
         "email": "",
         "phone": ""
       },
-      "manufacturer": "",
+      "manufacturer": "및 화장품제조업자: (주)이앤씨",
       "country_of_origin": "Korea",
       "sources": {
         "identity": "human_required",
@@ -779,7 +779,7 @@
         "warnings": "human_translation_required",
         "responsible_person": "human_required"
       },
-      "auto_legal_status": "auto_checked",
+      "auto_legal_status": "missing",
       "hard_block": false,
       "hard_block_reason": "",
       "complete": false,

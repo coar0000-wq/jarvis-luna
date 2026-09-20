@@ -1,36 +1,36 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-09-20T20:29:10.780639+00:00",
+  "generated_at": "2026-09-20T21:05:17.278531+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "semantic_sources": {
       "data/product_master.json": "e8411f3e1a6f90f501bd89643545ae348c933c5d06ae5990d3f8165a034c3de2",
-      "data/gosi.json": "809eb292e1e0142a79578b3e841d605a6a2b5ac7fa5a3e829c0e70412e88855d",
-      "data/daiso_real/daiso_us_labels.json": "49e53a61295043a343de4ceb3a6608ca61b21cd80030d3515ed29e42ccb3a073",
-      "data/pricing_model.json": "fada82eacd025cadc507a356765af6fc1b2e5010412ad7a1510384b16cfc817e",
-      "data/legal_products.json": "2938158d303ca673bcc0517a19b7c68c6e3e1a7e205dadef56dd2fe8f0617057"
+      "data/gosi.json": "1ae2282a43596b8c2f80464db67f0c22fdc9bca9eb0b3790a318680c4ae587e0",
+      "data/daiso_real/daiso_us_labels.json": "169fffe74d3276e8ef488901fa309b020723ed90bcd4dbc2de2aaaacbe707a89",
+      "data/pricing_model.json": "a0dc51bdad3c42c16b35bd2f096d9222a765f16b19f2c2530ca07d2237c41bfe",
+      "data/legal_products.json": "6479c3a8f3a6641c2dea16cc0a61a818e8dac88938c765d5106b4ef56455f27f"
     },
     "recommendations_sha256": "651d5a6bad948d753a0cc3072660e89259bdcfa67758120e5231f8325cecc032"
   },
   "total": 10,
-  "agent_ready": 9,
+  "agent_ready": 8,
   "ready": 7,
   "draft_ready": 7,
   "public_ready": 0,
   "counts": {
     "ontology": 10,
     "copy": 7,
-    "gosi": 9,
+    "gosi": 10,
     "us_label": 9,
-    "price": 10,
-    "legal": 9,
+    "price": 9,
+    "legal": 8,
     "legal_full": 0
   },
   "blockers": {
     "copy": 3,
-    "gosi": 1,
     "us_label": 1,
-    "legal": 1
+    "price": 1,
+    "legal": 2
   },
   "typesafe_summary": {
     "framework": "typesafe_system_one_compatible",
@@ -86,8 +86,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 23.99,
-        "margin_pct": 57.0,
+        "price_usd": 24.99,
+        "margin_pct": 58.4,
         "register_blocked": false
       },
       "legal": {
@@ -167,8 +167,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 23.99,
-        "margin_pct": 50.0,
+        "price_usd": 24.99,
+        "margin_pct": 51.7,
         "register_blocked": false
       },
       "legal": {
@@ -394,8 +394,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 23.99,
-        "margin_pct": 47.0,
+        "price_usd": 24.99,
+        "margin_pct": 48.8,
         "register_blocked": false
       },
       "legal": {
@@ -533,21 +533,21 @@
       "copy_status": "missing",
       "gosi": {
         "volume": "200ml",
-        "maker": "",
+        "maker": "및 화장품제조업자: (주)이앤씨",
         "origin": "한국",
-        "ingredients": "",
-        "gosi_ok": false
+        "ingredients": "정제수, 부틸렌글라이콜, 글리세린, 나이아신아마이드, 아시아이드, 아이소펜틸다이올, C12-14알케스-12, 카프릴릴글라이콜, 에틸헥실글리세린, 에틸헥실팔미테이트, 세틸에틸헥사노에이트, 폴리글리세릴-2스테아레이트, ",
+        "gosi_ok": true
       },
       "us_label": {
         "net_contents": "200ml",
-        "manufacturer": "",
+        "manufacturer": "및 화장품제조업자: (주)이앤씨",
         "country_of_origin": "Korea",
         "ingredients_inci": "",
         "us_label_ok": false
       },
       "price": {
-        "price_usd": 23.99,
-        "margin_pct": 40.9,
+        "price_usd": 24.99,
+        "margin_pct": 43.0,
         "register_blocked": false
       },
       "legal": {
@@ -557,21 +557,18 @@
       },
       "agent_ready": false,
       "agent_blocked_by": [
-        "gosi",
         "us_label",
         "legal"
       ],
       "ready": false,
       "blocked_by": [
         "copy",
-        "gosi",
         "us_label",
         "legal"
       ],
       "public_ready": false,
       "public_blocked_by": [
         "copy",
-        "gosi",
         "us_label",
         "legal",
         "legal_full"
@@ -587,15 +584,14 @@
         "grade_advisory": "hold",
         "legal_gate_advisory": "block",
         "risk_level": "critical",
-        "risk_points": 8,
+        "risk_points": 7,
         "team_routes": [
           "legal",
-          "sourcing",
           "listing"
         ],
         "findings": [
-          "draft blockers: copy, gosi, us_label, legal",
-          "public blockers: copy, gosi, us_label, legal, legal_full",
+          "draft blockers: copy, us_label, legal",
+          "public blockers: copy, us_label, legal, legal_full",
           "legal hard block"
         ],
         "confidence": null,
@@ -644,8 +640,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 23.99,
-        "margin_pct": 57.0,
+        "price_usd": 24.99,
+        "margin_pct": 58.4,
         "register_blocked": false
       },
       "legal": {
@@ -725,8 +721,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 23.99,
-        "margin_pct": 60.4,
+        "price_usd": 24.99,
+        "margin_pct": 61.7,
         "register_blocked": false
       },
       "legal": {
@@ -791,24 +787,31 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 23.99,
-        "margin_pct": 44.0,
+        "price_usd": null,
+        "margin_pct": null,
         "register_blocked": false
       },
       "legal": {
-        "status": "auto_checked",
+        "status": "missing",
         "hard_block": false,
         "hard_block_reason": ""
       },
-      "agent_ready": true,
-      "agent_blocked_by": [],
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "price",
+        "legal"
+      ],
       "ready": false,
       "blocked_by": [
-        "copy"
+        "copy",
+        "price",
+        "legal"
       ],
       "public_ready": false,
       "public_blocked_by": [
         "copy",
+        "price",
+        "legal",
         "legal_full"
       ],
       "legal_full_complete": false,
@@ -819,17 +822,18 @@
         "source": "deterministic_local",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "keep_s",
+        "grade_advisory": "hold",
         "legal_gate_advisory": "review",
-        "risk_level": "high",
-        "risk_points": 3,
+        "risk_level": "critical",
+        "risk_points": 5,
         "team_routes": [
           "legal",
+          "pricing",
           "listing"
         ],
         "findings": [
-          "draft blockers: copy",
-          "public blockers: copy, legal_full"
+          "draft blockers: copy, price, legal",
+          "public blockers: copy, price, legal, legal_full"
         ],
         "confidence": null,
         "usage": null
