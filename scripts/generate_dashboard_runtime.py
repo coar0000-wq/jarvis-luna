@@ -646,6 +646,7 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
 
     # 마케팅 조사팀 ------------------------------------------------------
     mt = load_json(D / "market_team.json", None)
+    shopify_strategy = load_json(D / "shopify_marketing_strategy.json", {}) or {}
     if mt:
         s_grade = mt.get("s_grade_priority") or []
         # 수동 입력 폴더에 pd_no 가 등장하는 상품만 고시표가 들어온 것으로 본다
@@ -686,9 +687,16 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
 
             act = (f"고시 표 {len(pending)}건 판독 남음 ({cause}) — "
                    + " / ".join(bits) + more)
+        coverage = shopify_strategy.get("source_coverage") or {}
+        strategy_tail = (
+            f' · 유튜브 자막 {coverage.get("videos", 0)}편'
+            f' · 근거 {coverage.get("insights", 0)}개'
+            f' · 실험 {len(shopify_strategy.get("execution_experiments") or [])}개'
+        )
         cards.append(_team(
             "market", "마케팅 조사팀", iso_mtime(D / "market_team.json"),
-            f'S등급 {len(s_grade)}개 · 고시 판독 남음 {len(pending)}건' + feed_tail("market"),
+            f'S등급 {len(s_grade)}개 · 고시 판독 남음 {len(pending)}건'
+            + strategy_tail + feed_tail("market"),
             act))
     else:
         cards.append(_team("market", "마케팅 조사팀", None,
@@ -1022,6 +1030,7 @@ def main() -> None:
     # 계산이 끝나 있다.
     prev_fx = prev.get("exchange_rate") if isinstance(prev, dict) else None
     prev_synced = prev.get("last_synced") if isinstance(prev, dict) else None
+    shopify_strategy = load_json(ROOT / "data" / "shopify_marketing_strategy.json", {}) or {}
 
     payload = {
         "schema_version": 1,
@@ -1098,6 +1107,14 @@ def main() -> None:
             },
         ],
         "sources": sources,
+        "shopify_marketing_strategy": {
+            "status": shopify_strategy.get("status"),
+            "source_coverage": shopify_strategy.get("source_coverage"),
+            "quality_gate": shopify_strategy.get("quality_gate"),
+            "cost_policy": shopify_strategy.get("cost_policy"),
+            "execution_experiments": shopify_strategy.get("execution_experiments") or [],
+            "strategy_file": "data/shopify_marketing_strategy.json",
+        },
         "graph": graph,
         "training": training,
         "cumulative": cumulative,

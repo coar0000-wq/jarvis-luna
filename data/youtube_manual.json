@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-20T03:07:43.023279+00:00",
+  "generated_at": "2026-09-20T04:06:02.124519+00:00",
   "generator": "scripts/ingest_youtube_links.py",
-  "입력": "data/manual/youtube_links.txt",
+  "입력": "data\\manual\\youtube_links.txt",
   "robots": "youtube.com/robots.txt 는 /feeds/videos.xml 을 막지만 /watch 는 막지 않는다. 목록을 긁는 게 아니라 사람이 지정한 것만 받는다.",
-  "total": 15,
-  "ok": 15,
+  "total": 20,
+  "ok": 20,
   "failed": 0,
-  "fetched_this_run": 0,
+  "fetched_this_run": 5,
   "bad_lines": [],
   "by_team": {
-    "listing": 6,
-    "pricing": 2,
-    "market": 4,
+    "listing": 11,
+    "pricing": 3,
+    "market": 9,
     "knowledge": 3,
-    "design": 9,
+    "design": 10,
     "sourcing": 2
   },
   "학습금지_표시": [
@@ -343,6 +343,113 @@
       ],
       "team_source": "사람 지정",
       "collected_at": "2026-09-15T10:40:21.848713+00:00",
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
+    },
+    {
+      "video_id": "yBAlSKfI9F8",
+      "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
+      "note": "Learn With Shopify - SEO·콘텐츠·숏폼·웰컴 이메일·Meta CAPI를 묶은 공식 마케팅 기본기",
+      "title": "Digital Marketing 101: 10 Strategies Every Shopify Store Needs (Marketing Masterclass Part 1)",
+      "channel": "Learn With Shopify",
+      "views": 9021,
+      "length_sec": 971,
+      "published": "",
+      "description": "MARKETING SERIES PART 1: Digital Marketing 101 (Content Marketing, SEO, Social Media Marketing, Pay-Per-Click (PPC) Advertising, Email Marketing & More!)\n► Shopify Free Trial https://utm.io/urPQy\n► MARKETING SERIES PART 2: Winning Pricing Strategies https://utm.io/ur2J5\n► MARKETING SERIES PART 3: Distribution Strategies https://utm.io/ur2J7\n► MARKETING SERIES PART 4: Sales Promotion Strategies https://utm.io/ur2Kb\n► Official Shopify Tutorial 2026 https://utm.io/urPRa\n► How To Create Effective Marketing Strategies in 2026 https://utm.io/urPUn\n––––––––––––––––––––––––––––––––––––––––––––\nMarketi",
+      "error": "",
+      "ai_training_allowed": null,
+      "rights_marks": [],
+      "teams": [
+        "market",
+        "listing"
+      ],
+      "team_source": "사람 지정",
+      "collected_at": "2026-09-20T04:05:43.961563+00:00",
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
+    },
+    {
+      "video_id": "2Azr4Cihay4",
+      "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+      "note": "1,000개 Shopify 스토어 분석 - 광고별 랜딩·검색/내비게이션·PDP 이미지 스토리·번들 CRO",
+      "title": "I Studied 1,000 Shopify Stores, Here’s What Works in 2026",
+      "channel": "Arsh Sanwarwala | Ecom Landing Pages + CRO",
+      "views": 21850,
+      "length_sec": 905,
+      "published": "",
+      "description": "Book a call -https://go.thrillxdesign.com/yq11b5id\nGet an audit - https://thrillxdesign.com/lp-audit\n\n-----------\n\nGet high-converting Figma layout shown in video -https://go.thrillxdesign.com/h8tyakt3\nGet product image template - https://thrillxdesign.com/product-images\n\nTimestamps:\n\n00:00 - Introduction: The Changing Reality of Shopify CRO in 2026\n00:25 - Pattern 1: Moving From Generic Product Pages to Dedicated Landing Pages\n01:36 - How to Treat Landing Pages Like a Salesperson\n02:56 - The Scaled Strategy: Implementing Multi-Angle Landing Page Systems\n03:17 - Pattern 2: Optimizing Product D",
+      "error": "",
+      "ai_training_allowed": null,
+      "rights_marks": [],
+      "teams": [
+        "market",
+        "listing",
+        "design"
+      ],
+      "team_source": "사람 지정",
+      "collected_at": "2026-09-20T04:05:47.703470+00:00",
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
+    },
+    {
+      "video_id": "Dh5uNMvlSug",
+      "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
+      "note": "재구매 전략 - 구매 후 포인트·리워드 사용·등급 상승·만료 윈백 이메일 프레임워크",
+      "title": "The Shopify Retention Framework: 11 Emails to Drive Repeat Purchases",
+      "channel": "Mage Loyalty",
+      "views": 18,
+      "length_sec": 1081,
+      "published": "",
+      "description": "Get the full Shopify Retention Email Framework: https://www.mageloyalty.com/playbooks/loyalty-email-templates?utm_source=youtube&utm_medium=video&utm_campaign=retention_email_framework\n\nBook a demo with Mage Loyalty: https://www.mageloyalty.com/get-a-demo?utm_source=youtube&utm_medium=video&utm_campaign=retention_email_framework\n\nInstall Mage Loyalty from the Shopify App Store: https://apps.shopify.com/mage-loyalty\n\nConnect with Kris here: https://www.linkedin.com/in/shopify-loyalty-program/\n\nMost Shopify brands spend a huge amount of time and money acquiring customers, then leave repeat purch",
+      "error": "",
+      "ai_training_allowed": null,
+      "rights_marks": [],
+      "teams": [
+        "market",
+        "listing"
+      ],
+      "team_source": "사람 지정",
+      "collected_at": "2026-09-20T04:05:51.652876+00:00",
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
+    },
+    {
+      "video_id": "6cVSU2C06Zw",
+      "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+      "note": "AOV 전략 - 수량 할인·루틴 번들·good-better-best·카트 드로어 업셀",
+      "title": "Increase Your Shopify Average Order Value: Quantity Breaks, Bundles & Upsells",
+      "channel": "Judge.me",
+      "views": 650,
+      "length_sec": 696,
+      "published": "",
+      "description": "Free Shopify reviews app (Judge.me): https://apps.shopify.com/judgeme?utm_source=youtube&utm_medium=social&utm_campaign=How+to+Increase+Your+Average+Order+Value+on+Shopify+%282026%29&utm_content=Strategy-eCommerce-Beginner\n\nStart your Shopify store for only $1 per month: https://shopify.pxf.io/qWEb0b\n\n💰 How to Increase Your Average Order Value (AOV) on Shopify (Step-by-Step Guide)\n\nIf you want to make more money from your Shopify store without increasing your ad spend, improving your Average Order Value (AOV) is one of the fastest ways to do it.\n\nIn this video, I break down 4 proven strategies",
+      "error": "",
+      "ai_training_allowed": null,
+      "rights_marks": [],
+      "teams": [
+        "market",
+        "pricing",
+        "listing"
+      ],
+      "team_source": "사람 지정",
+      "collected_at": "2026-09-20T04:05:55.300089+00:00",
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
+    },
+    {
+      "video_id": "UBSveo_tao8",
+      "url": "https://www.youtube.com/watch?v=UBSveo_tao8",
+      "note": "Shopify SEO/GEO - 질문형 FAQ·토픽 클러스터·검증 리뷰·내부 링크",
+      "title": "The New Shopify SEO Strategy That Actually Works in 2026",
+      "channel": "Winning With Shopify Podcast",
+      "views": 2256,
+      "length_sec": 1017,
+      "published": "",
+      "description": "In this episode of the Winning With Shopify Podcast, Nick Trueman breaks down the biggest Shopify SEO updates that every store owner should know.\n\nLearn how AI is changing search, why GEO (Generative Engine Optimization) is becoming increasingly important, how LLMs.txt files fit into modern SEO, and practical ways to improve your Shopify store's visibility. The episode also covers content strategy, FAQs, customer reviews, product pages, and building topical authority to help your store attract more organic traffic.\n\nWhether you're just starting your Shopify journey or managing a growing eComme",
+      "error": "",
+      "ai_training_allowed": null,
+      "rights_marks": [],
+      "teams": [
+        "market",
+        "listing"
+      ],
+      "team_source": "사람 지정",
+      "collected_at": "2026-09-20T04:05:59.124392+00:00",
       "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
     }
   ]

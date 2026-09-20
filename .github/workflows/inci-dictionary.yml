@@ -191,6 +191,7 @@ jobs:
             data/product_master.json
             data/dashboard_runtime.json
             data/market_team.json
+            data/shopify_marketing_strategy.json
             data/marketing_priority.csv
             data/coaching_loop.json
             data/shopify_exports

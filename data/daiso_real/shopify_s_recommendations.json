@@ -38,7 +38,7 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-20T03:21:57.677581+00:00",
+      "gate_generated_at": "2026-09-20T04:07:24.799698+00:00",
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -93,7 +93,7 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-20T03:21:57.677581+00:00",
+      "gate_generated_at": "2026-09-20T04:07:24.799698+00:00",
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -147,7 +147,7 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-20T03:21:57.677581+00:00",
+      "gate_generated_at": "2026-09-20T04:07:24.799698+00:00",
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -202,7 +202,7 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-20T03:21:57.677581+00:00",
+      "gate_generated_at": "2026-09-20T04:07:24.799698+00:00",
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -270,7 +270,7 @@
         "legal",
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-20T03:21:57.677581+00:00",
+      "gate_generated_at": "2026-09-20T04:07:24.799698+00:00",
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -329,7 +329,7 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-20T03:21:57.677581+00:00",
+      "gate_generated_at": "2026-09-20T04:07:24.799698+00:00",
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -384,7 +384,7 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-20T03:21:57.677581+00:00",
+      "gate_generated_at": "2026-09-20T04:07:24.799698+00:00",
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -439,7 +439,7 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-20T03:21:57.677581+00:00",
+      "gate_generated_at": "2026-09-20T04:07:24.799698+00:00",
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -485,16 +485,21 @@
         ],
         "match_score": 0.408
       },
-      "registerable": true,
+      "registerable": false,
       "registerable_source": "data/listing_gate.json",
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "blocked_by": [],
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "price"
+      ],
+      "blocked_by": [
+        "price"
+      ],
       "public_ready": false,
       "public_blocked_by": [
+        "price",
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-20T03:21:57.677581+00:00",
+      "gate_generated_at": "2026-09-20T04:07:24.799698+00:00",
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -505,12 +510,14 @@
         "grade_advisory": "keep_s",
         "legal_gate_advisory": "review",
         "risk_level": "high",
-        "risk_points": 2,
+        "risk_points": 3,
         "team_routes": [
-          "legal"
+          "legal",
+          "pricing"
         ],
         "findings": [
-          "public blockers: legal_full"
+          "draft blockers: price",
+          "public blockers: price, legal_full"
         ],
         "confidence": null,
         "usage": null
@@ -562,7 +569,7 @@
         "legal",
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-20T03:21:57.677581+00:00",
+      "gate_generated_at": "2026-09-20T04:07:24.799698+00:00",
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -589,7 +596,7 @@
       }
     }
   ],
-  "agent_ready_count": 8,
-  "registerable_count": 8,
+  "agent_ready_count": 7,
+  "registerable_count": 7,
   "registerable_source": "data/listing_gate.json"
 }

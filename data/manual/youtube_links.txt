@@ -26,3 +26,9 @@ https://www.youtube.com/watch?v=F4Jm1TFv0I0 | design | KBS 크랩 - 기업 전�
 https://www.youtube.com/watch?v=dPPd65Kvh7Y | listing,design,sourcing | Ali Akbar - Claude 로 월매출 200만불 스토어를 통째로 복제하는 78분 강의. 방법은 참고, 복제 자체는 위험
 https://www.youtube.com/watch?v=9RUcYdww138 | design | IDEAiPlus - 화면을 고치지 말고 디자인 규칙을 먼저 정하라. 컬러·타이포·버튼·여백·모서리
 https://www.youtube.com/watch?v=u36eK74YKv0 | sourcing,market,pricing,listing,design | Matt Clark - AI로 대형 브랜드 이기기. 큰 시장 속 불만족 집단을 리뷰로 찾기 / 가격 경쟁 대신 AI 보너스로 가치 올리기 / 카피 3입력(제품 사실·리뷰 원문 표현·Ad Library 예시) / 메타 단일 캠페인에 주 10~20개 광고 / 리스티클 랜딩
+
+https://www.youtube.com/watch?v=yBAlSKfI9F8 | market,listing | Learn With Shopify - SEO·콘텐츠·숏폼·웰컴 이메일·Meta CAPI를 묶은 공식 마케팅 기본기
+https://www.youtube.com/watch?v=2Azr4Cihay4 | market,listing,design | 1,000개 Shopify 스토어 분석 - 광고별 랜딩·검색/내비게이션·PDP 이미지 스토리·번들 CRO
+https://www.youtube.com/watch?v=Dh5uNMvlSug | market,listing | 재구매 전략 - 구매 후 포인트·리워드 사용·등급 상승·만료 윈백 이메일 프레임워크
+https://www.youtube.com/watch?v=6cVSU2C06Zw | market,pricing,listing | AOV 전략 - 수량 할인·루틴 번들·good-better-best·카트 드로어 업셀
+https://www.youtube.com/watch?v=UBSveo_tao8 | market,listing | Shopify SEO/GEO - 질문형 FAQ·토픽 클러스터·검증 리뷰·내부 링크

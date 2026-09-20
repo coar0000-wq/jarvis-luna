@@ -117,7 +117,9 @@ def route(text: str, forced: list[str] | str | None = None) -> list[str]:
     아는 사람이 정해주면 그게 맞다.
     """
     if forced:
-        return [forced] if isinstance(forced, str) else list(forced)
+        raw = forced.split(",") if isinstance(forced, str) else list(forced)
+        picked = [str(t).strip() for t in raw if str(t).strip() in KNOWN_TEAMS]
+        return list(dict.fromkeys(picked)) or ["knowledge"]
     low = (text or "").lower()
     if any(m(low) for m in _NOISE_MATCHERS):
         return ["knowledge"]

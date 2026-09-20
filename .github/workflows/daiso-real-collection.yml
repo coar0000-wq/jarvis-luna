@@ -470,6 +470,7 @@ jobs:
             data/legal_full.json
             data/mocra_readiness.json
             data/market_team.json
+            data/shopify_marketing_strategy.json
             data/marketing_priority.csv
             data/coaching_loop.json
             data/listing_gate.json

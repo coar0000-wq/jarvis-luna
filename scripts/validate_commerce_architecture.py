@@ -38,6 +38,8 @@ def main() -> int:
     gate = load(D / "listing_gate.json")
     legal = load(D / "legal_full.json")
     market = load(D / "market_team.json")
+    strategy = load(D / "shopify_marketing_strategy.json")
+    insight_source = load(D / "manual" / "shopify_youtube_insights.json")
     action_queue = load(D / "shopify_action_queue.json")
 
     # 게이트가 낡았으면 그 아래 조인은 전부 낡은 판정 위에 서 있다.
@@ -201,13 +203,36 @@ def main() -> int:
     require(len(marketing_csv) == len(market_rows), "marketing_priority.csv 행 수 불일치")
     require(all(x.get("canonical_product_id") for x in marketing_csv), "marketing_priority.csv CP 누락")
 
+    # 유튜브는 링크 수집으로 끝내지 않고 타임스탬프 근거→실험→S상품까지 연결한다.
+    coverage = strategy.get("source_coverage") or {}
+    quality = strategy.get("quality_gate") or {}
+    insights = insight_source.get("insights") or []
+    videos = insight_source.get("videos") or []
+    require(quality.get("passed") is True, "Shopify YouTube 전략 품질 게이트 실패")
+    require(coverage.get("videos") == len(videos) and coverage.get("insights") == len(insights),
+            "Shopify YouTube 전략 소스 수 불일치")
+    require(len(videos) > 0 and len(insights) > 0, "Shopify YouTube 전략 근거 비어 있음")
+    require(all((x.get("evidence") or {}).get("timestamp") for x in insights),
+            "Shopify YouTube 타임스탬프 근거 누락")
+    strategy_products = strategy.get("product_playbooks") or []
+    require({str(x.get("pd_no")) for x in strategy_products} == set(rec_by),
+            "Shopify YouTube 전략 S상품 연결 불일치")
+    experiments = strategy.get("execution_experiments") or []
+    require(experiments and all(x.get("insight_ids") and x.get("kpis") for x in experiments),
+            "Shopify 실행 실험의 근거/KPI 누락")
+    require((strategy.get("cost_policy") or {}).get("paid_media") ==
+            "blocked_until_explicit_user_approval", "유료 마케팅 기본 차단 정책 위반")
+    require((market.get("shopify_strategy") or {}).get("status") == strategy.get("status"),
+            "market_team 전략 요약과 정본 불일치")
+
     for script in ("build_legal_full.py", "export_shopify_operational.py",
                    "build_shopify_action_queue.py"):
         require((ROOT / "scripts" / script).exists(), f"workflow 참조 스크립트 없음: {script}")
 
     print("COMMERCE_ARCHITECTURE_OK")
     print(f"master={len(products)} S={len(recs)} gate_ready={len(ready_ids)} "
-          f"legal_complete={legal.get('complete', 0)} exports={len(export_products)}")
+          f"legal_complete={legal.get('complete', 0)} exports={len(export_products)} "
+          f"youtube_videos={len(videos)} youtube_insights={len(insights)}")
     return 0
 
 

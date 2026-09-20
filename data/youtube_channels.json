@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-20T03:07:42.958379+00:00",
+  "generated_at": "2026-09-20T04:06:24.160847+00:00",
   "generator": "scripts/ingest_youtube_channels.py",
-  "입력": "data/manual/youtube_channels.txt",
+  "입력": "data\\manual\\youtube_channels.txt",
   "robots": "youtube.com/robots.txt 의 Disallow 목록에 /@ 와 /channel/ 은 없다. 막힌 것은 /feeds/videos.xml, /results, /youtubei/ 등이다. 지정된 채널만 하나씩 본다. 2026-09-06 확인.",
   "channels": 4,
   "videos": 102,
   "failed": [],
   "지난결과_유지": [],
   "by_team": {
-    "design": 26,
-    "market": 41,
+    "design": 56,
+    "market": 71,
     "pricing": 2,
     "knowledge": 6,
     "legal": 1,
     "sourcing": 1,
-    "market,listing,design": 30
+    "listing": 30
   },
   "팀_고정": "한 번 정한 팀은 유지한다. 유튜브가 제목을 A/B 로 돌려서 같은 영상이 회차마다 다른 팀으로 가는 일이 있었다.",
   "제목_바뀐_영상": [],
@@ -22,8 +22,8 @@
     {
       "video_id": "m_RWLfHCA2I",
       "title": "Entrepreneurs: we're built different",
-      "views_text": "14M views",
-      "published_text": "9 months ago",
+      "views_text": "14M",
+      "published_text": "9mo ago",
       "views": 14000000,
       "url": "https://www.youtube.com/watch?v=m_RWLfHCA2I",
       "channel": "Shopify",
@@ -34,8 +34,8 @@
     {
       "video_id": "ZXpm1X7-PFM",
       "title": "Shopify on Sphere in Las Vegas",
-      "views_text": "2.1M views",
-      "published_text": "9 months ago",
+      "views_text": "2.1M",
+      "published_text": "9mo ago",
       "views": 2100000,
       "url": "https://www.youtube.com/watch?v=ZXpm1X7-PFM",
       "channel": "Shopify",
@@ -154,8 +154,8 @@
     {
       "video_id": "kDpckwYZgZI",
       "title": "Shopify Editions Winter ’26 | Trailer",
-      "views_text": "218K views",
-      "published_text": "9 months ago",
+      "views_text": "218K",
+      "published_text": "9mo ago",
       "views": 218000,
       "url": "https://www.youtube.com/watch?v=kDpckwYZgZI",
       "channel": "Shopify",
@@ -203,7 +203,7 @@
   "items": [
     {
       "stale": false,
-      "last_ok_at": "2026-09-20T03:07:21.961751+00:00",
+      "last_ok_at": "2026-09-20T04:06:02.753775+00:00",
       "url": "https://www.youtube.com/@uxpeak",
       "note": "UX/UI 리디자인·전환율 (사용자 지정)",
       "team_hint": "design",
@@ -212,7 +212,7 @@
       "subscribers": "124K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-20T03:07:21.961773+00:00",
+      "checked_at": "2026-09-20T04:06:02.753785+00:00",
       "videos": [
         {
           "video_id": "GGg61sdEjeI",
@@ -470,7 +470,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-20T03:07:27.265660+00:00",
+      "last_ok_at": "2026-09-20T04:06:08.198106+00:00",
       "url": "https://www.youtube.com/@%EB%95%A1%ED%81%90%EC%B1%84%EB%84%90",
       "note": "땡스큐레이터 - 스몰 브랜드 브랜딩·수출·견적. 팀은 영상마다 자동 분류",
       "team_hint": "",
@@ -479,7 +479,7 @@
       "subscribers": "18.4K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-20T03:07:27.265675+00:00",
+      "checked_at": "2026-09-20T04:06:08.198117+00:00",
       "videos": [
         {
           "video_id": "hikTGKo2kZE",
@@ -693,9 +693,9 @@
         {
           "video_id": "Tu8Ziv_y_Cc",
           "title": "마케팅에 속지않는 화장품 구매팁! 👌 ❌화장품 마케팅 싫어 🔥땡큐한 화장품 추천 ✔️ 솔직리뷰! 마케팅 썰 대방출 / 천연 화장품 /유기농 화장품 / 더마 화장품 [땡큐]",
-          "views_text": "1K views",
+          "views_text": "999 views",
           "published_text": "6 years ago",
-          "views": 1000,
+          "views": 999,
           "url": "https://www.youtube.com/watch?v=Tu8Ziv_y_Cc",
           "channel": "땡스큐레이터",
           "teams": [
@@ -717,9 +717,9 @@
         {
           "video_id": "aIG5u5xJs6g",
           "title": "해외구매 아이폰 장점 / 아이폰 11 Pro 512GB 미드나잇 그린ㅣ굳이 미국에서 구매한 K의 하울!  영롱한 자태. 실물 감상 [땡큐]",
-          "views_text": "672 views",
+          "views_text": "673 views",
           "published_text": "6 years ago",
-          "views": 672,
+          "views": 673,
           "url": "https://www.youtube.com/watch?v=aIG5u5xJs6g",
           "channel": "땡스큐레이터",
           "teams": [
@@ -742,27 +742,29 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-20T03:07:32.630725+00:00",
+      "last_ok_at": "2026-09-20T04:06:13.734843+00:00",
       "url": "https://www.youtube.com/@learnwithshopify",
       "note": "Shopify 공식 - 마케팅·전환·스토어 운영",
       "team_hint": "market,listing,design",
       "channel_name": "Learn With Shopify",
       "channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
-      "subscribers": "906K",
+      "subscribers": "907K",
       "video_count": 30,
       "error": "",
-      "checked_at": "2026-09-20T03:07:32.630740+00:00",
+      "checked_at": "2026-09-20T04:06:13.734854+00:00",
       "videos": [
         {
           "video_id": "-jLkh1-vxg8",
           "title": "The COMPLETE Meta AI Tutorial",
-          "views_text": "7.8K views",
+          "views_text": "7.6K views",
           "published_text": "5 days ago",
-          "views": 7800,
+          "views": 7600,
           "url": "https://www.youtube.com/watch?v=-jLkh1-vxg8",
           "channel": "Learn With Shopify",
           "teams": [
-            "market,listing,design"
+            "market",
+            "listing",
+            "design"
           ]
         },
         {
@@ -774,7 +776,9 @@
           "url": "https://www.youtube.com/watch?v=VrC9olXdpIo",
           "channel": "Learn With Shopify",
           "teams": [
-            "market,listing,design"
+            "market",
+            "listing",
+            "design"
           ]
         },
         {
@@ -786,7 +790,9 @@
           "url": "https://www.youtube.com/watch?v=vdUtt0qZ4W4",
           "channel": "Learn With Shopify",
           "teams": [
-            "market,listing,design"
+            "market",
+            "listing",
+            "design"
           ]
         },
         {
@@ -798,7 +804,9 @@
           "url": "https://www.youtube.com/watch?v=gugo50_VbjE",
           "channel": "Learn With Shopify",
           "teams": [
-            "market,listing,design"
+            "market",
+            "listing",
+            "design"
           ]
         },
         {
@@ -810,7 +818,9 @@
           "url": "https://www.youtube.com/watch?v=IQDtl0Dacjo",
           "channel": "Learn With Shopify",
           "teams": [
-            "market,listing,design"
+            "market",
+            "listing",
+            "design"
           ]
         },
         {
@@ -822,7 +832,9 @@
           "url": "https://www.youtube.com/watch?v=dU_U1Pmmu5c",
           "channel": "Learn With Shopify",
           "teams": [
-            "market,listing,design"
+            "market",
+            "listing",
+            "design"
           ]
         },
         {
@@ -834,7 +846,9 @@
           "url": "https://www.youtube.com/watch?v=irtf9-m-9uc",
           "channel": "Learn With Shopify",
           "teams": [
-            "market,listing,design"
+            "market",
+            "listing",
+            "design"
           ]
         },
         {
@@ -846,7 +860,9 @@
           "url": "https://www.youtube.com/watch?v=tZW0x_tDhSk",
           "channel": "Learn With Shopify",
           "teams": [
-            "market,listing,design"
+            "market",
+            "listing",
+            "design"
           ]
         },
         {
@@ -858,7 +874,9 @@
           "url": "https://www.youtube.com/watch?v=4ulpu2uos8I",
           "channel": "Learn With Shopify",
           "teams": [
-            "market,listing,design"
+            "market",
+            "listing",
+            "design"
           ]
         },
         {
@@ -870,7 +888,9 @@
           "url": "https://www.youtube.com/watch?v=zU4FI-deDwA",
           "channel": "Learn With Shopify",
           "teams": [
-            "market,listing,design"
+            "market",
+            "listing",
+            "design"
           ]
         },
         {
@@ -882,7 +902,9 @@
           "url": "https://www.youtube.com/watch?v=9SyZPimDdH4",
           "channel": "Learn With Shopify",
           "teams": [
-            "market,listing,design"
+            "market",
+            "listing",
+            "design"
           ]
         },
         {
@@ -894,7 +916,9 @@
           "url": "https://www.youtube.com/watch?v=c37NGZtSJPM",
           "channel": "Learn With Shopify",
           "teams": [
-            "market,listing,design"
+            "market",
+            "listing",
+            "design"
           ]
         },
         {
@@ -906,7 +930,9 @@
           "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
           "channel": "Learn With Shopify",
           "teams": [
-            "market,listing,design"
+            "market",
+            "listing",
+            "design"
           ]
         },
         {
@@ -918,7 +944,9 @@
           "url": "https://www.youtube.com/watch?v=NbTHyB-nqHQ",
           "channel": "Learn With Shopify",
           "teams": [
-            "market,listing,design"
+            "market",
+            "listing",
+            "design"
           ]
         },
         {
@@ -930,7 +958,9 @@
           "url": "https://www.youtube.com/watch?v=Ih5RapM8XKw",
           "channel": "Learn With Shopify",
           "teams": [
-            "market,listing,design"
+            "market",
+            "listing",
+            "design"
           ]
         },
         {
@@ -942,7 +972,9 @@
           "url": "https://www.youtube.com/watch?v=jUxSAGCaJIU",
           "channel": "Learn With Shopify",
           "teams": [
-            "market,listing,design"
+            "market",
+            "listing",
+            "design"
           ]
         },
         {
@@ -954,7 +986,9 @@
           "url": "https://www.youtube.com/watch?v=RUwznTHGexY",
           "channel": "Learn With Shopify",
           "teams": [
-            "market,listing,design"
+            "market",
+            "listing",
+            "design"
           ]
         },
         {
@@ -966,7 +1000,9 @@
           "url": "https://www.youtube.com/watch?v=HnV5JXBWCeQ",
           "channel": "Learn With Shopify",
           "teams": [
-            "market,listing,design"
+            "market",
+            "listing",
+            "design"
           ]
         },
         {
@@ -978,7 +1014,9 @@
           "url": "https://www.youtube.com/watch?v=rGlVduB0T5s",
           "channel": "Learn With Shopify",
           "teams": [
-            "market,listing,design"
+            "market",
+            "listing",
+            "design"
           ]
         },
         {
@@ -990,7 +1028,9 @@
           "url": "https://www.youtube.com/watch?v=QsxT7MuyRfk",
           "channel": "Learn With Shopify",
           "teams": [
-            "market,listing,design"
+            "market",
+            "listing",
+            "design"
           ]
         },
         {
@@ -1002,7 +1042,9 @@
           "url": "https://www.youtube.com/watch?v=SUlf_JpbHjc",
           "channel": "Learn With Shopify",
           "teams": [
-            "market,listing,design"
+            "market",
+            "listing",
+            "design"
           ]
         },
         {
@@ -1014,7 +1056,9 @@
           "url": "https://www.youtube.com/watch?v=OE4WimLYVGE",
           "channel": "Learn With Shopify",
           "teams": [
-            "market,listing,design"
+            "market",
+            "listing",
+            "design"
           ]
         },
         {
@@ -1026,7 +1070,9 @@
           "url": "https://www.youtube.com/watch?v=XGrvSwlmZo0",
           "channel": "Learn With Shopify",
           "teams": [
-            "market,listing,design"
+            "market",
+            "listing",
+            "design"
           ]
         },
         {
@@ -1038,7 +1084,9 @@
           "url": "https://www.youtube.com/watch?v=SCCsgkPgqY0",
           "channel": "Learn With Shopify",
           "teams": [
-            "market,listing,design"
+            "market",
+            "listing",
+            "design"
           ]
         },
         {
@@ -1050,7 +1098,9 @@
           "url": "https://www.youtube.com/watch?v=VbSF8TUpsjE",
           "channel": "Learn With Shopify",
           "teams": [
-            "market,listing,design"
+            "market",
+            "listing",
+            "design"
           ]
         },
         {
@@ -1062,7 +1112,9 @@
           "url": "https://www.youtube.com/watch?v=EHWZNDj-pNU",
           "channel": "Learn With Shopify",
           "teams": [
-            "market,listing,design"
+            "market",
+            "listing",
+            "design"
           ]
         },
         {
@@ -1074,7 +1126,9 @@
           "url": "https://www.youtube.com/watch?v=_1caEZ7t3UY",
           "channel": "Learn With Shopify",
           "teams": [
-            "market,listing,design"
+            "market",
+            "listing",
+            "design"
           ]
         },
         {
@@ -1086,7 +1140,9 @@
           "url": "https://www.youtube.com/watch?v=11jjuDF50dE",
           "channel": "Learn With Shopify",
           "teams": [
-            "market,listing,design"
+            "market",
+            "listing",
+            "design"
           ]
         },
         {
@@ -1098,7 +1154,9 @@
           "url": "https://www.youtube.com/watch?v=ujFo99CsP0Q",
           "channel": "Learn With Shopify",
           "teams": [
-            "market,listing,design"
+            "market",
+            "listing",
+            "design"
           ]
         },
         {
@@ -1110,14 +1168,16 @@
           "url": "https://www.youtube.com/watch?v=JkMhBKi12q4",
           "channel": "Learn With Shopify",
           "teams": [
-            "market,listing,design"
+            "market",
+            "listing",
+            "design"
           ]
         }
       ]
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-20T03:07:37.958150+00:00",
+      "last_ok_at": "2026-09-20T04:06:19.160629+00:00",
       "url": "https://www.youtube.com/@shopify",
       "note": "Shopify 본채널 - 브랜드 성장 사례",
       "team_hint": "market",
@@ -1126,13 +1186,13 @@
       "subscribers": "488K",
       "video_count": 30,
       "error": "",
-      "checked_at": "2026-09-20T03:07:37.958164+00:00",
+      "checked_at": "2026-09-20T04:06:19.160640+00:00",
       "videos": [
         {
           "video_id": "KsujQDvKdHk",
           "title": "What is Shop? | Shopping designed around you",
-          "views_text": "2.1K views",
-          "published_text": "1 month ago",
+          "views_text": "2.1K",
+          "published_text": "1mo ago",
           "views": 2100,
           "url": "https://www.youtube.com/watch?v=KsujQDvKdHk",
           "channel": "Shopify",
@@ -1143,8 +1203,8 @@
         {
           "video_id": "qajaXseoF7Q",
           "title": "This is life on Shopify",
-          "views_text": "2.8K views",
-          "published_text": "2 months ago",
+          "views_text": "2.8K",
+          "published_text": "2mo ago",
           "views": 2800,
           "url": "https://www.youtube.com/watch?v=qajaXseoF7Q",
           "channel": "Shopify",
@@ -1155,8 +1215,8 @@
         {
           "video_id": "sf7zUi_8bhs",
           "title": "Spring ’26 Edition rundown",
-          "views_text": "3K views",
-          "published_text": "3 months ago",
+          "views_text": "3K",
+          "published_text": "3mo ago",
           "views": 3000,
           "url": "https://www.youtube.com/watch?v=sf7zUi_8bhs",
           "channel": "Shopify",
@@ -1167,8 +1227,8 @@
         {
           "video_id": "mWRMjEIh4hE",
           "title": "Build with Catalog API and UCP",
-          "views_text": "4.5K views",
-          "published_text": "3 months ago",
+          "views_text": "4.5K",
+          "published_text": "3mo ago",
           "views": 4500,
           "url": "https://www.youtube.com/watch?v=mWRMjEIh4hE",
           "channel": "Shopify",
@@ -1179,8 +1239,8 @@
         {
           "video_id": "dsW4E40Y0UI",
           "title": "Enhanced inventory management",
-          "views_text": "1.6K views",
-          "published_text": "3 months ago",
+          "views_text": "1.6K",
+          "published_text": "3mo ago",
           "views": 1600,
           "url": "https://www.youtube.com/watch?v=dsW4E40Y0UI",
           "channel": "Shopify",
@@ -1191,8 +1251,8 @@
         {
           "video_id": "K1nR7pe49cM",
           "title": "Actionable insights for agentic selling",
-          "views_text": "5.5K views",
-          "published_text": "3 months ago",
+          "views_text": "5.5K",
+          "published_text": "3mo ago",
           "views": 5500,
           "url": "https://www.youtube.com/watch?v=K1nR7pe49cM",
           "channel": "Shopify",
@@ -1203,8 +1263,8 @@
         {
           "video_id": "DiJc9gsgzn8",
           "title": "Better context for your store's data",
-          "views_text": "2.1K views",
-          "published_text": "3 months ago",
+          "views_text": "2.1K",
+          "published_text": "3mo ago",
           "views": 2100,
           "url": "https://www.youtube.com/watch?v=DiJc9gsgzn8",
           "channel": "Shopify",
@@ -1215,8 +1275,8 @@
         {
           "video_id": "9LkIxHbr1Ik",
           "title": "Online to in person with the Shop app",
-          "views_text": "2.1K views",
-          "published_text": "3 months ago",
+          "views_text": "2.1K",
+          "published_text": "3mo ago",
           "views": 2100,
           "url": "https://www.youtube.com/watch?v=9LkIxHbr1Ik",
           "channel": "Shopify",
@@ -1227,8 +1287,8 @@
         {
           "video_id": "37zOjqRl-3Q",
           "title": "Shopify POS checkout is over a minute faster",
-          "views_text": "3K views",
-          "published_text": "3 months ago",
+          "views_text": "3K",
+          "published_text": "3mo ago",
           "views": 3000,
           "url": "https://www.youtube.com/watch?v=37zOjqRl-3Q",
           "channel": "Shopify",
@@ -1239,8 +1299,8 @@
         {
           "video_id": "efUbUOO46VI",
           "title": "River: Shopify's Slack-native AI agent",
-          "views_text": "2.7K views",
-          "published_text": "3 months ago",
+          "views_text": "2.7K",
+          "published_text": "3mo ago",
           "views": 2700,
           "url": "https://www.youtube.com/watch?v=efUbUOO46VI",
           "channel": "Shopify",
@@ -1251,8 +1311,8 @@
         {
           "video_id": "uNOFaCq8RZQ",
           "title": "Tobi Lütke x Ilya Grigorik: Building the Universal Commerce Protocol",
-          "views_text": "2.8K views",
-          "published_text": "4 months ago",
+          "views_text": "2.8K",
+          "published_text": "4mo ago",
           "views": 2800,
           "url": "https://www.youtube.com/watch?v=uNOFaCq8RZQ",
           "channel": "Shopify",
@@ -1263,8 +1323,8 @@
         {
           "video_id": "VAlvxLG0RZo",
           "title": "Tobi's first Autoresearch encounter",
-          "views_text": "1.8K views",
-          "published_text": "5 months ago",
+          "views_text": "1.8K",
+          "published_text": "5mo ago",
           "views": 1800,
           "url": "https://www.youtube.com/watch?v=VAlvxLG0RZo",
           "channel": "Shopify",
@@ -1275,8 +1335,8 @@
         {
           "video_id": "sqaxqH_GPFQ",
           "title": "Open-sourcing Shopify's Autoresearch contribution",
-          "views_text": "876 views",
-          "published_text": "5 months ago",
+          "views_text": "876",
+          "published_text": "5mo ago",
           "views": 876,
           "url": "https://www.youtube.com/watch?v=sqaxqH_GPFQ",
           "channel": "Shopify",
@@ -1287,8 +1347,8 @@
         {
           "video_id": "08LyYlIMXbY",
           "title": "Tobi Lütke x Jess Hertz: Invisible Work",
-          "views_text": "3.6K views",
-          "published_text": "5 months ago",
+          "views_text": "3.6K",
+          "published_text": "5mo ago",
           "views": 3600,
           "url": "https://www.youtube.com/watch?v=08LyYlIMXbY",
           "channel": "Shopify",
@@ -1299,8 +1359,8 @@
         {
           "video_id": "G9rsX4M5CmM",
           "title": "When everything feels uncertain, build something yourself",
-          "views_text": "5.9K views",
-          "published_text": "7 months ago",
+          "views_text": "5.9K",
+          "published_text": "7mo ago",
           "views": 5900,
           "url": "https://www.youtube.com/watch?v=G9rsX4M5CmM",
           "channel": "Shopify",
@@ -1311,8 +1371,8 @@
         {
           "video_id": "F5Nohp-OyOU",
           "title": "Shopify Product Network: Use a smart catalog to convert bounces to buyers",
-          "views_text": "5.6K views",
-          "published_text": "9 months ago",
+          "views_text": "5.6K",
+          "published_text": "9mo ago",
           "views": 5600,
           "url": "https://www.youtube.com/watch?v=F5Nohp-OyOU",
           "channel": "Shopify",
@@ -1323,8 +1383,8 @@
         {
           "video_id": "22NqvJyppt8",
           "title": "Agentic Storefronts: Reach buyers in AI chat platforms",
-          "views_text": "14K views",
-          "published_text": "9 months ago",
+          "views_text": "14K",
+          "published_text": "9mo ago",
           "views": 14000,
           "url": "https://www.youtube.com/watch?v=22NqvJyppt8",
           "channel": "Shopify",
@@ -1335,8 +1395,8 @@
         {
           "video_id": "k7XydEQQniY",
           "title": "Tinker: Your AI playground",
-          "views_text": "7.8K views",
-          "published_text": "9 months ago",
+          "views_text": "7.8K",
+          "published_text": "9mo ago",
           "views": 7800,
           "url": "https://www.youtube.com/watch?v=k7XydEQQniY",
           "channel": "Shopify",
@@ -1347,8 +1407,8 @@
         {
           "video_id": "LU4tghjdnG8",
           "title": "Shopify Sidekick gets major AI upgrades in Winter '26 Edition",
-          "views_text": "9.3K views",
-          "published_text": "9 months ago",
+          "views_text": "9.3K",
+          "published_text": "9mo ago",
           "views": 9300,
           "url": "https://www.youtube.com/watch?v=LU4tghjdnG8",
           "channel": "Shopify",
@@ -1359,8 +1419,8 @@
         {
           "video_id": "25Bc6-4qti8",
           "title": "Build with AI with full dev MCP support",
-          "views_text": "8.4K views",
-          "published_text": "9 months ago",
+          "views_text": "8.4K",
+          "published_text": "9mo ago",
           "views": 8400,
           "url": "https://www.youtube.com/watch?v=25Bc6-4qti8",
           "channel": "Shopify",
@@ -1371,8 +1431,8 @@
         {
           "video_id": "ydtWlMuDuT8",
           "title": "Product Network: Fill merchandising gaps instantly",
-          "views_text": "6.1K views",
-          "published_text": "9 months ago",
+          "views_text": "6.1K",
+          "published_text": "9mo ago",
           "views": 6100,
           "url": "https://www.youtube.com/watch?v=ydtWlMuDuT8",
           "channel": "Shopify",
@@ -1383,8 +1443,8 @@
         {
           "video_id": "kDpckwYZgZI",
           "title": "Shopify Editions Winter ’26 | Trailer",
-          "views_text": "218K views",
-          "published_text": "9 months ago",
+          "views_text": "218K",
+          "published_text": "9mo ago",
           "views": 218000,
           "url": "https://www.youtube.com/watch?v=kDpckwYZgZI",
           "channel": "Shopify",
@@ -1395,8 +1455,8 @@
         {
           "video_id": "ZXpm1X7-PFM",
           "title": "Shopify on Sphere in Las Vegas",
-          "views_text": "2.1M views",
-          "published_text": "9 months ago",
+          "views_text": "2.1M",
+          "published_text": "9mo ago",
           "views": 2100000,
           "url": "https://www.youtube.com/watch?v=ZXpm1X7-PFM",
           "channel": "Shopify",
@@ -1407,8 +1467,8 @@
         {
           "video_id": "m_RWLfHCA2I",
           "title": "Entrepreneurs: we're built different",
-          "views_text": "14M views",
-          "published_text": "9 months ago",
+          "views_text": "14M",
+          "published_text": "9mo ago",
           "views": 14000000,
           "url": "https://www.youtube.com/watch?v=m_RWLfHCA2I",
           "channel": "Shopify",
@@ -1419,8 +1479,8 @@
         {
           "video_id": "-d-I2is489U",
           "title": "Tobi Lütke x Vanessa Lee: From metafields to markets",
-          "views_text": "3.5K views",
-          "published_text": "10 months ago",
+          "views_text": "3.5K",
+          "published_text": "10mo ago",
           "views": 3500,
           "url": "https://www.youtube.com/watch?v=-d-I2is489U",
           "channel": "Shopify",
@@ -1431,8 +1491,8 @@
         {
           "video_id": "qUoIfw5R-iE",
           "title": "Tobi Lütke x Carl Rivera: Designing For Ambition",
-          "views_text": "6K views",
-          "published_text": "10 months ago",
+          "views_text": "6K",
+          "published_text": "10mo ago",
           "views": 6000,
           "url": "https://www.youtube.com/watch?v=qUoIfw5R-iE",
           "channel": "Shopify",
@@ -1443,8 +1503,8 @@
         {
           "video_id": "Mzo46Lh5_ZE",
           "title": "“Fastest replatform of my career”: David’s Bridal CEO on Shopify",
-          "views_text": "3.7K views",
-          "published_text": "10 months ago",
+          "views_text": "3.7K",
+          "published_text": "10mo ago",
           "views": 3700,
           "url": "https://www.youtube.com/watch?v=Mzo46Lh5_ZE",
           "channel": "Shopify",
@@ -1455,8 +1515,8 @@
         {
           "video_id": "PLKtcZak7ZQ",
           "title": "Skullcandy on Shopify | Startup speed at enterprise scale",
-          "views_text": "3.4K views",
-          "published_text": "11 months ago",
+          "views_text": "3.4K",
+          "published_text": "11mo ago",
           "views": 3400,
           "url": "https://www.youtube.com/watch?v=PLKtcZak7ZQ",
           "channel": "Shopify",
@@ -1467,8 +1527,8 @@
         {
           "video_id": "JCIrUPeILSg",
           "title": "How Kendo Brands is Leading the Beauty Industry with Shopify",
-          "views_text": "72K views",
-          "published_text": "11 months ago",
+          "views_text": "72K",
+          "published_text": "11mo ago",
           "views": 72000,
           "url": "https://www.youtube.com/watch?v=JCIrUPeILSg",
           "channel": "Shopify",
@@ -1479,8 +1539,8 @@
         {
           "video_id": "ZPo8n66_6-w",
           "title": "Agentic Commerce Has Arrived | Add Shopping to your AI Agent",
-          "views_text": "60K views",
-          "published_text": "1 year ago",
+          "views_text": "60K",
+          "published_text": "1y ago",
           "views": 60000,
           "url": "https://www.youtube.com/watch?v=ZPo8n66_6-w",
           "channel": "Shopify",

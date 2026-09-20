@@ -123,6 +123,7 @@ jobs:
             data/us_beauty_products.json
             data/dashboard_runtime.json
             data/market_team.json
+            data/shopify_marketing_strategy.json
             data/listing_gate.json
             data/knowledge/cumulative_history.json
           message: 미국 리테일 베스트셀러 수집 (Amazon / Ulta / Walmart / Sephora)

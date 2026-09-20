@@ -1,0 +1,1203 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-20T13:07:25.258184+09:00",
+  "generator": "scripts/build_shopify_marketing_strategy.py",
+  "status": "evidence_ready",
+  "scope": "US K-Beauty Shopify launch marketing",
+  "cost_policy": {
+    "default": "free_local_or_existing_stack",
+    "paid_media": "blocked_until_explicit_user_approval",
+    "paid_api": "not_used"
+  },
+  "source_coverage": {
+    "method": "YouTube 검색 후 자막을 직접 검토하고 타임스탬프 근거가 있는 실행 항목만 채택",
+    "videos": 6,
+    "insights": 20,
+    "pillars": {
+      "acquisition": 1,
+      "aov": 5,
+      "creative": 2,
+      "cro": 3,
+      "measurement": 1,
+      "positioning": 1,
+      "retention": 4,
+      "seo_geo": 2,
+      "social_proof": 1
+    },
+    "oldest_video_date": "2026-04-30",
+    "newest_video_date": "2026-09-14",
+    "source_file": "data/manual/shopify_youtube_insights.json"
+  },
+  "quality_gate": {
+    "passed": true,
+    "video_count": 6,
+    "insight_count": 20,
+    "timestamped_evidence_count": 20,
+    "uncited_video_count": 0,
+    "required_pillars_present": [
+      "acquisition",
+      "aov",
+      "creative",
+      "cro",
+      "retention",
+      "seo_geo"
+    ]
+  },
+  "source_ledger": [
+    {
+      "video_id": "yBAlSKfI9F8",
+      "title": "Digital Marketing 101: 10 Strategies Every Shopify Store Needs (Marketing Masterclass Part 1)",
+      "channel": "Learn With Shopify",
+      "published_at": "2026-07-27",
+      "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
+      "role": "공식 Shopify 마케팅 기본기"
+    },
+    {
+      "video_id": "2Azr4Cihay4",
+      "title": "I Studied 1,000 Shopify Stores, Here’s What Works in 2026",
+      "channel": "Arsh Sanwarwala | Ecom Landing Pages + CRO",
+      "published_at": "2026-06-11",
+      "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+      "role": "CRO·랜딩페이지 패턴"
+    },
+    {
+      "video_id": "Dh5uNMvlSug",
+      "title": "The Shopify Retention Framework: 11 Emails to Drive Repeat Purchases",
+      "channel": "Mage Loyalty",
+      "published_at": "2026-09-14",
+      "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
+      "role": "리텐션 이메일 구조"
+    },
+    {
+      "video_id": "6cVSU2C06Zw",
+      "title": "Increase Your Shopify Average Order Value: Quantity Breaks, Bundles & Upsells",
+      "channel": "Judge.me",
+      "published_at": "2026-04-30",
+      "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+      "role": "AOV·번들·업셀"
+    },
+    {
+      "video_id": "UBSveo_tao8",
+      "title": "The New Shopify SEO Strategy That Actually Works in 2026",
+      "channel": "Winning With Shopify Podcast",
+      "published_at": "2026-06-30",
+      "url": "https://www.youtube.com/watch?v=UBSveo_tao8",
+      "role": "SEO·GEO·리뷰"
+    },
+    {
+      "video_id": "u36eK74YKv0",
+      "title": "How to use AI to beat big brands on Shopify ($0 to $1M)",
+      "channel": "Matt Clark",
+      "published_at": "2026-09-13",
+      "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
+      "role": "포지셔닝·AI 크리에이티브 테스트"
+    }
+  ],
+  "evidence_insights": [
+    {
+      "id": "MKT-001",
+      "pillar": "cro",
+      "tactic": "광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
+      "action": "광고 훅과 피부 고민마다 별도 랜딩페이지를 만들고 가치제안, 실제 리뷰, FAQ, 배송·반품 정보를 한 흐름에 배치한다.",
+      "evidence": {
+        "video_id": "2Azr4Cihay4",
+        "timestamp": "00:29-03:16",
+        "summary": "일반 PDP 대신 광고와 메시지가 일치하는 전용 랜딩페이지를 판매원처럼 설계"
+      },
+      "prerequisites": [
+        "UTM 규칙",
+        "실제 고객 후기",
+        "배송·반품 정책",
+        "법률 검토된 효능 문구"
+      ],
+      "kpis": [
+        "landing_conversion_rate",
+        "cost_per_acquisition",
+        "bounce_rate"
+      ],
+      "teams": [
+        "market",
+        "listing",
+        "design",
+        "legal"
+      ],
+      "applicability": "민감 피부, 모공, 탄력 등 고객 고민별 진입 경로",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-002",
+      "pillar": "cro",
+      "tactic": "피부 고민·루틴 중심 탐색 구조",
+      "action": "메뉴와 컬렉션을 제품명보다 피부 고민, 제형, 루틴 단계 중심으로 구성하고 검색창을 전면에 둔다.",
+      "evidence": {
+        "video_id": "2Azr4Cihay4",
+        "timestamp": "04:16-06:16",
+        "summary": "상품 발견 경로를 단순화하고 검색과 컬렉션 카드를 강화"
+      },
+      "prerequisites": [
+        "피부 고민 태그",
+        "제형·루틴 메타필드",
+        "사이트 검색 추적"
+      ],
+      "kpis": [
+        "product_view_rate",
+        "site_search_usage",
+        "search_to_purchase_rate"
+      ],
+      "teams": [
+        "listing",
+        "design",
+        "market"
+      ],
+      "applicability": "K-뷰티 초보 고객의 상품 선택 부담 감소",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-003",
+      "pillar": "cro",
+      "tactic": "PDP 이미지 캐러셀을 판매 스토리로 구성",
+      "action": "제품컷, 피부 고민 맥락, 제형·사용법, 성분 근거, 후기, 사용 장면, 배송·반품 순으로 이미지 세트를 만든다.",
+      "evidence": {
+        "video_id": "2Azr4Cihay4",
+        "timestamp": "12:46-14:25",
+        "summary": "각도만 다른 이미지 대신 구매 질문에 순서대로 답하는 이미지 흐름"
+      },
+      "prerequisites": [
+        "고해상도 제품컷",
+        "사용 허가된 UGC",
+        "검증된 성분·사용법"
+      ],
+      "kpis": [
+        "pdp_add_to_cart_rate",
+        "image_interaction_rate",
+        "pdp_exit_rate"
+      ],
+      "teams": [
+        "design",
+        "listing",
+        "legal"
+      ],
+      "applicability": "텍스처와 사용 순서가 중요한 스킨케어 전 상품",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-004",
+      "pillar": "seo_geo",
+      "tactic": "제품명·설명·FAQ를 구매 질문형 SEO로 작성",
+      "action": "제품명에 검증된 성분·제형·사용 맥락을 넣고 중복 없는 설명과 FAQ로 실제 구매 질문에 답한다.",
+      "evidence": {
+        "video_id": "yBAlSKfI9F8",
+        "timestamp": "02:56-03:40",
+        "summary": "구체적인 제품명과 고유 설명이 검색과 구매 이해를 돕는다"
+      },
+      "prerequisites": [
+        "고시·라벨 데이터",
+        "사용법",
+        "피부타입",
+        "법률 승인 문구"
+      ],
+      "kpis": [
+        "organic_pdp_sessions",
+        "non_brand_impressions",
+        "pdp_conversion_rate"
+      ],
+      "teams": [
+        "listing",
+        "market",
+        "legal"
+      ],
+      "applicability": "성분·제형 수요가 뚜렷한 S등급 상품",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-005",
+      "pillar": "acquisition",
+      "tactic": "검색형 숏폼을 TikTok·Reels·Shorts에 교차 게시",
+      "action": "사용 장면, 세 가지 사용법, 루틴 순서, 포장 비하인드 영상을 만들고 채널별 제목·자막을 현지화한다.",
+      "evidence": {
+        "video_id": "yBAlSKfI9F8",
+        "timestamp": "06:46-08:14",
+        "summary": "검색되는 짧은 제품 콘텐츠를 여러 숏폼 채널에 재활용"
+      },
+      "prerequisites": [
+        "UGC 제작 권한",
+        "영문 자막",
+        "추적 링크",
+        "콘텐츠 캘린더"
+      ],
+      "kpis": [
+        "shortform_link_ctr",
+        "organic_video_sessions",
+        "assisted_orders"
+      ],
+      "teams": [
+        "market",
+        "design",
+        "listing"
+      ],
+      "applicability": "제형·사용법을 시각적으로 보여줄 수 있는 상품",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-006",
+      "pillar": "retention",
+      "tactic": "14일 신규 구독자 웰컴 플로우",
+      "action": "인센티브 또는 피부 퀴즈 결과, 브랜드 스토리, 검증 리뷰, 베스트셀러 이유, 정가 구매 제안을 다섯 통으로 구성한다.",
+      "evidence": {
+        "video_id": "yBAlSKfI9F8",
+        "timestamp": "08:16-09:33",
+        "summary": "신규 구독자를 단계적으로 교육하고 첫 구매로 전환하는 이메일 순서"
+      },
+      "prerequisites": [
+        "수신 동의",
+        "세분화 가능한 이메일 도구",
+        "실제 리뷰",
+        "피부 고민 태그"
+      ],
+      "kpis": [
+        "welcome_flow_revenue",
+        "first_purchase_rate",
+        "unsubscribe_rate"
+      ],
+      "teams": [
+        "market",
+        "listing",
+        "legal"
+      ],
+      "applicability": "스토어 개장 직후 첫 구매 확보",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-007",
+      "pillar": "measurement",
+      "tactic": "Shopify와 Meta CAPI 전환 신호 검증",
+      "action": "스토어 개설 후 테스트 주문으로 Pixel과 서버 이벤트의 중복·누락을 점검하고 Shopify 주문값과 비교한다.",
+      "evidence": {
+        "video_id": "yBAlSKfI9F8",
+        "timestamp": "14:27-15:46",
+        "summary": "서버 측 전환 추적으로 광고 측정 손실을 줄이는 기본 연결"
+      },
+      "prerequisites": [
+        "Shopify 스토어",
+        "Meta Business 계정",
+        "쿠키·개인정보 동의",
+        "테스트 주문"
+      ],
+      "kpis": [
+        "event_match_quality",
+        "purchase_event_gap",
+        "attributed_revenue_gap"
+      ],
+      "teams": [
+        "market",
+        "listing",
+        "legal"
+      ],
+      "applicability": "유료 광고 집행 전 필수 측정 준비",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-008",
+      "pillar": "aov",
+      "tactic": "번들·사은품 임계값 AOV 테스트",
+      "action": "구성품 이미지와 실제 절감액을 보여주는 루틴 번들 및 사은품 해금 기준을 테스트한다.",
+      "evidence": {
+        "video_id": "2Azr4Cihay4",
+        "timestamp": "11:19-12:25",
+        "summary": "명확한 번들 구성과 해금 기준으로 장바구니 금액을 높임"
+      },
+      "prerequisites": [
+        "마진 계산",
+        "배송원가",
+        "구성품 재고",
+        "기간 비교 또는 A/B 설계"
+      ],
+      "kpis": [
+        "average_order_value",
+        "bundle_take_rate",
+        "contribution_margin_per_order"
+      ],
+      "teams": [
+        "pricing",
+        "market",
+        "listing"
+      ],
+      "applicability": "낱개 배송이 적자인 현재 구조에 최우선",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-009",
+      "pillar": "retention",
+      "tactic": "구매 후 적립 가치 이메일",
+      "action": "구매 직후 추상 포인트 대신 원화 환산 가치, 현재 잔액, 다음 보상까지 남은 금액을 알린다.",
+      "evidence": {
+        "video_id": "Dh5uNMvlSug",
+        "timestamp": "00:41-04:52",
+        "summary": "구매 후 보상 잔액과 다음 목표를 구체적으로 표시"
+      },
+      "prerequisites": [
+        "로열티 원장",
+        "적립·사용 규칙",
+        "트랜잭션 이메일"
+      ],
+      "kpis": [
+        "reward_email_ctr",
+        "reward_redemption_rate",
+        "second_purchase_rate_90d"
+      ],
+      "teams": [
+        "market",
+        "listing",
+        "pricing"
+      ],
+      "applicability": "반복 구매형 스킨케어",
+      "confidence": "medium"
+    },
+    {
+      "id": "MKT-010",
+      "pillar": "retention",
+      "tactic": "리워드 사용 직후 재구매 컬렉션 연결",
+      "action": "보상 코드와 가치를 상단에 표시하고 해당 보상을 쓸 수 있는 루틴·재구매 컬렉션으로 바로 연결한다.",
+      "evidence": {
+        "video_id": "Dh5uNMvlSug",
+        "timestamp": "05:33-06:38",
+        "summary": "보상을 받은 순간 사용 가능한 상품으로 이동시키는 전환 이메일"
+      },
+      "prerequisites": [
+        "고유 코드",
+        "대상 상품 규칙",
+        "모바일 이메일"
+      ],
+      "kpis": [
+        "reward_code_use_rate",
+        "revenue_per_redemption",
+        "redemption_to_order_time"
+      ],
+      "teams": [
+        "market",
+        "listing",
+        "pricing"
+      ],
+      "applicability": "재구매 주기가 확인된 뒤 적용",
+      "confidence": "medium"
+    },
+    {
+      "id": "MKT-011",
+      "pillar": "retention",
+      "tactic": "실제 만료일 기반 윈백 이메일",
+      "action": "공개된 포인트 만료 규칙이 있을 때만 잔액 가치와 사용처를 보여주는 만료 전 알림을 발송한다.",
+      "evidence": {
+        "video_id": "Dh5uNMvlSug",
+        "timestamp": "09:32-10:46",
+        "summary": "가짜 긴급성이 아닌 실제 보상 만료를 재방문 계기로 사용"
+      },
+      "prerequisites": [
+        "고지된 만료 규칙",
+        "정확한 잔액",
+        "마케팅 수신 동의"
+      ],
+      "kpis": [
+        "winback_redemption_rate",
+        "reactivated_revenue",
+        "incremental_repeat_rate"
+      ],
+      "teams": [
+        "market",
+        "legal"
+      ],
+      "applicability": "휴면 고객 데이터가 생긴 이후",
+      "confidence": "medium"
+    },
+    {
+      "id": "MKT-012",
+      "pillar": "aov",
+      "tactic": "소모품 수량별 단계 할인",
+      "action": "1개, 2개, 3개 옵션과 단위당 가격을 PDP에서 비교하되 할인 후 마진과 배송비를 통과한 상품에만 적용한다.",
+      "evidence": {
+        "video_id": "6cVSU2C06Zw",
+        "timestamp": "01:55-03:58",
+        "summary": "소모품에 점진적 수량 할인으로 주문당 수량을 증가"
+      },
+      "prerequisites": [
+        "수량 수요",
+        "유통기한",
+        "재고",
+        "할인 후 기여이익"
+      ],
+      "kpis": [
+        "units_per_order",
+        "quantity_tier_mix",
+        "gross_margin_per_order"
+      ],
+      "teams": [
+        "pricing",
+        "listing",
+        "market"
+      ],
+      "applicability": "토너패드, 마스크, 립, 리필 등 반복 소모품",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-013",
+      "pillar": "aov",
+      "tactic": "고객 결과 중심 루틴 번들",
+      "action": "무작위 추가 상품이 아니라 클렌징-트리트먼트-보습처럼 한 루틴을 완성하는 구성으로 번들을 만든다.",
+      "evidence": {
+        "video_id": "6cVSU2C06Zw",
+        "timestamp": "04:40-07:33",
+        "summary": "서로 보완하는 상품을 고객 목표 기준으로 묶음"
+      },
+      "prerequisites": [
+        "제형 호환성",
+        "사용 순서",
+        "번들 재고",
+        "법률 검토"
+      ],
+      "kpis": [
+        "bundle_attach_rate",
+        "bundle_aov",
+        "bundle_margin",
+        "repeat_rate"
+      ],
+      "teams": [
+        "sourcing",
+        "pricing",
+        "listing",
+        "market",
+        "legal"
+      ],
+      "applicability": "장벽 케어, 탄력, 모공 등 고민별 루틴",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-014",
+      "pillar": "aov",
+      "tactic": "good-better-best 세트 구조",
+      "action": "스타터, 2개월분, 전체 루틴 세트로 약정 수준을 나누고 상위 세트에는 실제 가치가 있는 샘플이나 도구만 추가한다.",
+      "evidence": {
+        "video_id": "6cVSU2C06Zw",
+        "timestamp": "07:42-09:02",
+        "summary": "고객의 지출 의향에 맞춘 단계형 오퍼"
+      },
+      "prerequisites": [
+        "세트별 손익",
+        "정확한 기준가격",
+        "사은품 재고"
+      ],
+      "kpis": [
+        "top_tier_selection_rate",
+        "average_order_value",
+        "refund_rate"
+      ],
+      "teams": [
+        "pricing",
+        "market",
+        "listing"
+      ],
+      "applicability": "무료배송 임계값과 함께 설계",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-015",
+      "pillar": "aov",
+      "tactic": "카트 드로어 보완 상품 업셀",
+      "action": "장바구니에 담은 상품과 직접 호환되는 소수의 보완 상품만 추천하고 체크아웃을 방해하지 않게 한다.",
+      "evidence": {
+        "video_id": "6cVSU2C06Zw",
+        "timestamp": "09:02-11:15",
+        "summary": "구매 직전 관련 상품을 제한적으로 제안"
+      },
+      "prerequisites": [
+        "상품 페어링 규칙",
+        "재고 연동",
+        "카트 UI"
+      ],
+      "kpis": [
+        "upsell_attach_rate",
+        "cart_aov",
+        "checkout_conversion_rate"
+      ],
+      "teams": [
+        "listing",
+        "pricing",
+        "market"
+      ],
+      "applicability": "세럼-크림, 토너-화장솜 등 명확한 조합",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-016",
+      "pillar": "seo_geo",
+      "tactic": "질문형 FAQ와 히어로 SKU 토픽 클러스터",
+      "action": "피부타입, 제형, 향, 루틴 순서, 성분 질문은 PDP FAQ로 답하고 넓은 주제는 가이드와 컬렉션으로 연결한다.",
+      "evidence": {
+        "video_id": "UBSveo_tao8",
+        "timestamp": "05:53-13:24",
+        "summary": "질문 FAQ와 성분·사용 사례·가이드의 내부 링크 구조로 주제 권위 형성"
+      },
+      "prerequisites": [
+        "고객 질문 기록",
+        "검증된 제품 문서",
+        "내부 링크 설계"
+      ],
+      "kpis": [
+        "question_query_clicks",
+        "cluster_to_pdp_ctr",
+        "organic_assisted_revenue"
+      ],
+      "teams": [
+        "market",
+        "listing",
+        "legal"
+      ],
+      "applicability": "상위 S상품부터 콘텐츠 클러스터 구축",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-017",
+      "pillar": "social_proof",
+      "tactic": "검증 구매 리뷰를 전환 자산으로 사용",
+      "action": "구매 후 피부타입, 제형, 향, 사용 순서, 재구매 의향을 구조적으로 수집하고 PDP와 광고에 허가 범위 내 재사용한다.",
+      "evidence": {
+        "video_id": "UBSveo_tao8",
+        "timestamp": "13:34-15:03",
+        "summary": "리뷰 수와 평점을 눈에 띄게 보여주고 실제 구매 증거를 콘텐츠에 활용"
+      },
+      "prerequisites": [
+        "구매자 리뷰 플로우",
+        "검증 구매 표시",
+        "UGC 재사용 동의"
+      ],
+      "kpis": [
+        "review_capture_rate",
+        "reviews_per_sku",
+        "review_led_conversion_rate"
+      ],
+      "teams": [
+        "market",
+        "listing",
+        "legal"
+      ],
+      "applicability": "스토어 주문 발생 후 즉시 구축",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-018",
+      "pillar": "positioning",
+      "tactic": "리뷰에서 좁은 미충족 고객군을 찾기",
+      "action": "자사·경쟁 리뷰를 AI로 묶어 구매자, 가치, 불만을 찾고 작은 설문이나 인터뷰로 확인한 뒤 포지셔닝 가설로 사용한다.",
+      "evidence": {
+        "video_id": "u36eK74YKv0",
+        "timestamp": "07:53-09:30",
+        "summary": "큰 시장 안에서 기존 상품이 만족시키지 못한 좁은 집단을 리뷰로 탐색"
+      },
+      "prerequisites": [
+        "합법적으로 수집한 리뷰",
+        "사람의 테마 검토",
+        "고객 검증"
+      ],
+      "kpis": [
+        "validated_pain_point_share",
+        "message_test_ctr",
+        "segment_landing_cvr"
+      ],
+      "teams": [
+        "market",
+        "sourcing",
+        "listing"
+      ],
+      "applicability": "저가 경쟁 대신 고객 맥락으로 차별화",
+      "confidence": "medium"
+    },
+    {
+      "id": "MKT-019",
+      "pillar": "creative",
+      "tactic": "제품 사실·고객 언어·구조 참고를 넣은 AI 카피",
+      "action": "AI 카피에는 제품 사실표, 실제 리뷰 표현, 권리 침해 없는 랜딩 구조 참고를 입력하고 사람과 법률 검토 후 실험한다.",
+      "evidence": {
+        "video_id": "u36eK74YKv0",
+        "timestamp": "12:12-14:27",
+        "summary": "일반 프롬프트가 아니라 세 가지 구체 입력으로 카피 초안을 생산"
+      },
+      "prerequisites": [
+        "승인된 제품 사실표",
+        "고객 언어",
+        "브랜드 보이스",
+        "클레임 가드"
+      ],
+      "kpis": [
+        "copy_test_conversion_rate",
+        "add_to_cart_rate",
+        "claims_rejection_rate"
+      ],
+      "teams": [
+        "market",
+        "listing",
+        "legal"
+      ],
+      "applicability": "영문 PDP와 광고 변형 제작",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-020",
+      "pillar": "creative",
+      "tactic": "훅·형식·증거별 크리에이티브 테스트 체계",
+      "action": "UGC 데모, 텍스처, 루틴 교육, 리뷰, 성분 근거를 서로 다른 훅과 형식으로 제작하고 패자를 중단해 승자의 후속 버전을 만든다.",
+      "evidence": {
+        "video_id": "u36eK74YKv0",
+        "timestamp": "15:00-17:47",
+        "summary": "규칙적인 변형 제작과 승자 확장 중심의 광고 크리에이티브 운영"
+      },
+      "prerequisites": [
+        "전환 추적",
+        "테스트 예산 승인",
+        "크리에이티브 분류표",
+        "사람의 사실 검수"
+      ],
+      "kpis": [
+        "creative_ctr",
+        "cost_per_acquisition",
+        "mer",
+        "concept_win_rate"
+      ],
+      "teams": [
+        "market",
+        "design",
+        "listing",
+        "legal"
+      ],
+      "applicability": "유료 광고 승인 이후 실행, 현재는 유기 콘텐츠로 사전 검증",
+      "confidence": "high"
+    }
+  ],
+  "execution_experiments": [
+    {
+      "id": "EXP-001",
+      "phase": "prelaunch",
+      "priority": 1,
+      "name": "S상품 PDP 질문·이미지 증거 패키지",
+      "insight_ids": [
+        "MKT-002",
+        "MKT-003",
+        "MKT-004",
+        "MKT-016"
+      ],
+      "owner_teams": [
+        "listing",
+        "design",
+        "legal"
+      ],
+      "action": "상위 S상품부터 FAQ, 제형, 사용 순서, 고시 근거를 한 PDP 패키지로 만든다.",
+      "kpis": [
+        "pdp_completion_rate",
+        "claims_rejection_rate"
+      ],
+      "cost_mode": "free_local",
+      "status": "ready_for_draft"
+    },
+    {
+      "id": "EXP-002",
+      "phase": "prelaunch",
+      "priority": 2,
+      "name": "고민별 유기 랜딩페이지",
+      "insight_ids": [
+        "MKT-001",
+        "MKT-018",
+        "MKT-019"
+      ],
+      "owner_teams": [
+        "market",
+        "listing",
+        "design",
+        "legal"
+      ],
+      "action": "민감 피부·모공·탄력 중 근거가 충분한 한 가지 고민으로 랜딩 초안을 만들고 내부 트래픽에서 메시지를 검토한다.",
+      "kpis": [
+        "landing_completion_rate",
+        "legal_pass_rate"
+      ],
+      "cost_mode": "free_local",
+      "status": "ready_for_draft"
+    },
+    {
+      "id": "EXP-003",
+      "phase": "prelaunch",
+      "priority": 3,
+      "name": "번들·무료배송 손익표",
+      "insight_ids": [
+        "MKT-008",
+        "MKT-013",
+        "MKT-014",
+        "MKT-015"
+      ],
+      "owner_teams": [
+        "pricing",
+        "sourcing",
+        "market"
+      ],
+      "action": "낱개·스타터·루틴 세트별 기여이익과 무료배송 기준을 계산해 적자 오퍼를 제거한다.",
+      "kpis": [
+        "contribution_margin_per_order",
+        "bundle_margin"
+      ],
+      "cost_mode": "free_local",
+      "status": "ready_for_modeling"
+    },
+    {
+      "id": "EXP-004",
+      "phase": "launch",
+      "priority": 4,
+      "name": "검색형 숏폼 유기 테스트",
+      "insight_ids": [
+        "MKT-005",
+        "MKT-020"
+      ],
+      "owner_teams": [
+        "market",
+        "design",
+        "listing"
+      ],
+      "action": "광고비 없이 사용 장면·제형·루틴 순서 세 형식으로 게시해 클릭과 상품 페이지 유입을 비교한다.",
+      "kpis": [
+        "organic_video_sessions",
+        "shortform_link_ctr",
+        "pdp_sessions"
+      ],
+      "cost_mode": "free_organic",
+      "status": "ready_after_assets"
+    },
+    {
+      "id": "EXP-005",
+      "phase": "launch",
+      "priority": 5,
+      "name": "웰컴 이메일 5단계",
+      "insight_ids": [
+        "MKT-006"
+      ],
+      "owner_teams": [
+        "market",
+        "listing",
+        "legal"
+      ],
+      "action": "동의 기반 구독자에게 피부 고민별 웰컴 플로우를 구성하고 자체 성과만 측정한다.",
+      "kpis": [
+        "first_purchase_rate",
+        "welcome_flow_revenue",
+        "unsubscribe_rate"
+      ],
+      "cost_mode": "existing_stack_only",
+      "status": "ready_after_store"
+    },
+    {
+      "id": "EXP-006",
+      "phase": "launch",
+      "priority": 6,
+      "name": "전환 추적 QA",
+      "insight_ids": [
+        "MKT-007"
+      ],
+      "owner_teams": [
+        "market",
+        "legal"
+      ],
+      "action": "실제 광고 집행 전 테스트 주문으로 Shopify와 광고 플랫폼의 구매 이벤트 차이를 확인한다.",
+      "kpis": [
+        "event_match_quality",
+        "purchase_event_gap"
+      ],
+      "cost_mode": "no_paid_media",
+      "status": "blocked_until_store_and_consent"
+    },
+    {
+      "id": "EXP-007",
+      "phase": "postpurchase",
+      "priority": 7,
+      "name": "검증 구매 리뷰 수집",
+      "insight_ids": [
+        "MKT-017"
+      ],
+      "owner_teams": [
+        "market",
+        "listing",
+        "legal"
+      ],
+      "action": "첫 주문부터 피부타입·제형·향·재구매 의향을 구조적으로 수집한다.",
+      "kpis": [
+        "review_capture_rate",
+        "verified_reviews_per_sku"
+      ],
+      "cost_mode": "existing_stack_only",
+      "status": "ready_after_first_order"
+    },
+    {
+      "id": "EXP-008",
+      "phase": "postpurchase",
+      "priority": 8,
+      "name": "보상·재구매 이메일",
+      "insight_ids": [
+        "MKT-009",
+        "MKT-010",
+        "MKT-011"
+      ],
+      "owner_teams": [
+        "market",
+        "pricing",
+        "legal"
+      ],
+      "action": "재구매 주기가 관찰된 후 포인트 가치, 보상 사용, 실제 만료 알림을 순서대로 검증한다.",
+      "kpis": [
+        "second_purchase_rate_90d",
+        "reward_redemption_rate",
+        "incremental_repeat_rate"
+      ],
+      "cost_mode": "existing_stack_only",
+      "status": "blocked_until_repeat_data"
+    },
+    {
+      "id": "EXP-009",
+      "phase": "paid_scale",
+      "priority": 9,
+      "name": "유료 크리에이티브 테스트",
+      "insight_ids": [
+        "MKT-001",
+        "MKT-020"
+      ],
+      "owner_teams": [
+        "market",
+        "design",
+        "legal"
+      ],
+      "action": "명시적 비용 승인 이후에만 훅·형식·증거별 소액 광고 실험을 실행한다.",
+      "kpis": [
+        "cost_per_acquisition",
+        "mer",
+        "concept_win_rate"
+      ],
+      "cost_mode": "paid_requires_explicit_approval",
+      "status": "blocked_by_cost_policy"
+    }
+  ],
+  "product_playbooks": [
+    {
+      "canonical_product_id": "CP000107",
+      "pd_no": "1049276",
+      "product": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
+      "bucket": "스킨케어",
+      "grade": "S",
+      "score": 100,
+      "agent_ready": true,
+      "public_ready": false,
+      "recommended_insight_ids": [
+        "MKT-002",
+        "MKT-003",
+        "MKT-004",
+        "MKT-016",
+        "MKT-013",
+        "MKT-014",
+        "MKT-015"
+      ],
+      "organic_first_actions": [
+        "구매 질문형 PDP/FAQ 초안",
+        "제품 제형·사용 순서 숏폼 콘티",
+        "무료배송 임계값을 고려한 루틴 또는 수량 세트 손익 계산"
+      ],
+      "paid_action_status": "blocked_until_explicit_cost_approval",
+      "claim_guardrail": "사용 주의·제품 사실을 먼저 제시하고 자극·치료 효능을 단정하지 않음"
+    },
+    {
+      "canonical_product_id": "CP000130",
+      "pd_no": "1055167",
+      "product": "본셉 레티놀 500 IU 세럼 30 ml",
+      "bucket": "스킨케어",
+      "grade": "S",
+      "score": 98,
+      "agent_ready": true,
+      "public_ready": false,
+      "recommended_insight_ids": [
+        "MKT-002",
+        "MKT-003",
+        "MKT-004",
+        "MKT-016",
+        "MKT-013",
+        "MKT-014",
+        "MKT-015"
+      ],
+      "organic_first_actions": [
+        "구매 질문형 PDP/FAQ 초안",
+        "제품 제형·사용 순서 숏폼 콘티",
+        "무료배송 임계값을 고려한 루틴 또는 수량 세트 손익 계산"
+      ],
+      "paid_action_status": "blocked_until_explicit_cost_approval",
+      "claim_guardrail": "사용 주의·제품 사실을 먼저 제시하고 자극·치료 효능을 단정하지 않음"
+    },
+    {
+      "canonical_product_id": "CP000106",
+      "pd_no": "1049275",
+      "product": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
+      "bucket": "스킨케어",
+      "grade": "S",
+      "score": 98,
+      "agent_ready": true,
+      "public_ready": false,
+      "recommended_insight_ids": [
+        "MKT-002",
+        "MKT-003",
+        "MKT-004",
+        "MKT-016",
+        "MKT-013",
+        "MKT-014",
+        "MKT-015"
+      ],
+      "organic_first_actions": [
+        "구매 질문형 PDP/FAQ 초안",
+        "제품 제형·사용 순서 숏폼 콘티",
+        "무료배송 임계값을 고려한 루틴 또는 수량 세트 손익 계산"
+      ],
+      "paid_action_status": "blocked_until_explicit_cost_approval",
+      "claim_guardrail": "사용 주의·제품 사실을 먼저 제시하고 자극·치료 효능을 단정하지 않음"
+    },
+    {
+      "canonical_product_id": "CP000216",
+      "pd_no": "1067498",
+      "product": "[영양광채]VT PDRN 광채 크림 50 ml",
+      "bucket": "스킨케어",
+      "grade": "S",
+      "score": 96,
+      "agent_ready": true,
+      "public_ready": false,
+      "recommended_insight_ids": [
+        "MKT-002",
+        "MKT-003",
+        "MKT-004",
+        "MKT-016",
+        "MKT-013",
+        "MKT-014",
+        "MKT-015"
+      ],
+      "organic_first_actions": [
+        "구매 질문형 PDP/FAQ 초안",
+        "제품 제형·사용 순서 숏폼 콘티",
+        "무료배송 임계값을 고려한 루틴 또는 수량 세트 손익 계산"
+      ],
+      "paid_action_status": "blocked_until_explicit_cost_approval",
+      "claim_guardrail": "사용 주의·제품 사실을 먼저 제시하고 자극·치료 효능을 단정하지 않음"
+    },
+    {
+      "canonical_product_id": "CP000251",
+      "pd_no": "1072554",
+      "product": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
+      "bucket": "스킨케어",
+      "grade": "S",
+      "score": 96,
+      "agent_ready": false,
+      "public_ready": false,
+      "recommended_insight_ids": [
+        "MKT-002",
+        "MKT-003",
+        "MKT-004",
+        "MKT-016",
+        "MKT-013",
+        "MKT-014",
+        "MKT-015"
+      ],
+      "organic_first_actions": [
+        "구매 질문형 PDP/FAQ 초안",
+        "제품 제형·사용 순서 숏폼 콘티",
+        "무료배송 임계값을 고려한 루틴 또는 수량 세트 손익 계산"
+      ],
+      "paid_action_status": "blocked_until_explicit_cost_approval",
+      "claim_guardrail": "사용 주의·제품 사실을 먼저 제시하고 자극·치료 효능을 단정하지 않음"
+    },
+    {
+      "canonical_product_id": "CP000270",
+      "pd_no": "1075857",
+      "product": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
+      "bucket": "스킨케어",
+      "grade": "S",
+      "score": 94,
+      "agent_ready": true,
+      "public_ready": false,
+      "recommended_insight_ids": [
+        "MKT-002",
+        "MKT-003",
+        "MKT-004",
+        "MKT-016",
+        "MKT-012",
+        "MKT-014",
+        "MKT-015"
+      ],
+      "organic_first_actions": [
+        "구매 질문형 PDP/FAQ 초안",
+        "제품 제형·사용 순서 숏폼 콘티",
+        "무료배송 임계값을 고려한 루틴 또는 수량 세트 손익 계산"
+      ],
+      "paid_action_status": "blocked_until_explicit_cost_approval",
+      "claim_guardrail": "사용 주의·제품 사실을 먼저 제시하고 자극·치료 효능을 단정하지 않음"
+    },
+    {
+      "canonical_product_id": "CP000109",
+      "pd_no": "1049285",
+      "product": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
+      "bucket": "스킨케어",
+      "grade": "S",
+      "score": 92,
+      "agent_ready": true,
+      "public_ready": false,
+      "recommended_insight_ids": [
+        "MKT-002",
+        "MKT-003",
+        "MKT-004",
+        "MKT-016",
+        "MKT-012",
+        "MKT-014",
+        "MKT-015"
+      ],
+      "organic_first_actions": [
+        "구매 질문형 PDP/FAQ 초안",
+        "제품 제형·사용 순서 숏폼 콘티",
+        "무료배송 임계값을 고려한 루틴 또는 수량 세트 손익 계산"
+      ],
+      "paid_action_status": "blocked_until_explicit_cost_approval",
+      "claim_guardrail": "고시·영문 라벨·법률 게이트가 확인한 사실만 사용"
+    },
+    {
+      "canonical_product_id": "CP000151",
+      "pd_no": "1059834",
+      "product": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+      "bucket": "마스크팩",
+      "grade": "S",
+      "score": 90,
+      "agent_ready": true,
+      "public_ready": false,
+      "recommended_insight_ids": [
+        "MKT-002",
+        "MKT-003",
+        "MKT-004",
+        "MKT-016",
+        "MKT-012",
+        "MKT-014",
+        "MKT-015"
+      ],
+      "organic_first_actions": [
+        "구매 질문형 PDP/FAQ 초안",
+        "제품 제형·사용 순서 숏폼 콘티",
+        "무료배송 임계값을 고려한 루틴 또는 수량 세트 손익 계산"
+      ],
+      "paid_action_status": "blocked_until_explicit_cost_approval",
+      "claim_guardrail": "고시·영문 라벨·법률 게이트가 확인한 사실만 사용"
+    },
+    {
+      "canonical_product_id": "CP000075",
+      "pd_no": "1042619",
+      "product": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
+      "bucket": "마스크팩",
+      "grade": "S",
+      "score": 89,
+      "agent_ready": false,
+      "public_ready": false,
+      "recommended_insight_ids": [
+        "MKT-002",
+        "MKT-003",
+        "MKT-004",
+        "MKT-016",
+        "MKT-012",
+        "MKT-014",
+        "MKT-015"
+      ],
+      "organic_first_actions": [
+        "구매 질문형 PDP/FAQ 초안",
+        "제품 제형·사용 순서 숏폼 콘티",
+        "무료배송 임계값을 고려한 루틴 또는 수량 세트 손익 계산"
+      ],
+      "paid_action_status": "blocked_until_explicit_cost_approval",
+      "claim_guardrail": "고시·영문 라벨·법률 게이트가 확인한 사실만 사용"
+    },
+    {
+      "canonical_product_id": "CP000125",
+      "pd_no": "1053482",
+      "product": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
+      "bucket": "스킨케어",
+      "grade": "S",
+      "score": 85,
+      "agent_ready": false,
+      "public_ready": false,
+      "recommended_insight_ids": [
+        "MKT-002",
+        "MKT-003",
+        "MKT-004",
+        "MKT-016",
+        "MKT-013",
+        "MKT-014",
+        "MKT-015"
+      ],
+      "organic_first_actions": [
+        "구매 질문형 PDP/FAQ 초안",
+        "제품 제형·사용 순서 숏폼 콘티",
+        "무료배송 임계값을 고려한 루틴 또는 수량 세트 손익 계산"
+      ],
+      "paid_action_status": "blocked_until_explicit_cost_approval",
+      "claim_guardrail": "고민 키워드는 탐색 태그로만 사용하고 임상·치료 효과로 확대하지 않음"
+    }
+  ],
+  "funnel": {
+    "discover": [
+      "MKT-005",
+      "MKT-016",
+      "MKT-020"
+    ],
+    "consider": [
+      "MKT-001",
+      "MKT-002",
+      "MKT-003",
+      "MKT-004",
+      "MKT-017"
+    ],
+    "convert": [
+      "MKT-008",
+      "MKT-012",
+      "MKT-013",
+      "MKT-014",
+      "MKT-015"
+    ],
+    "retain": [
+      "MKT-006",
+      "MKT-009",
+      "MKT-010",
+      "MKT-011"
+    ],
+    "measure": [
+      "MKT-007"
+    ]
+  },
+  "launch_order": [
+    "EXP-001",
+    "EXP-002",
+    "EXP-003",
+    "EXP-004",
+    "EXP-005",
+    "EXP-006",
+    "EXP-007",
+    "EXP-008",
+    "EXP-009"
+  ],
+  "guardrails": [
+    "listing_gate와 legal_full을 통과하지 않은 효능·성분 문구는 게시하지 않는다.",
+    "영상 제작자의 매출·전환 수치를 자사 목표치로 복사하지 않는다.",
+    "현재 비용 정책에 따라 유료 광고와 유료 API는 명시 승인 전 실행하지 않는다.",
+    "AI 산출물은 초안이며 제품 사실·고객 언어·법률 검토를 거친다.",
+    "성과는 Shopify 실제 주문·기여이익과 자체 UTM으로 판정한다."
+  ],
+  "rejected_claims": [
+    "영상 제작자의 매출 또는 전환 배수는 인과 근거로 사용하지 않음",
+    "llms.txt가 검색 순위를 올린다는 주장은 검증 부족으로 제외",
+    "AI 카피가 사람보다 우수하다는 일반화는 제외",
+    "경쟁 스토어 문구와 디자인 복제는 저작권·상표 위험으로 금지"
+  ],
+  "integrity": {
+    "listing_gate_generated_at": "2026-09-20T04:07:24.799698+00:00",
+    "s_product_count": 10,
+    "product_playbook_count": 10,
+    "public_ready_count": 0,
+    "agent_ready_count": 7
+  }
+}

@@ -15,8 +15,9 @@
   data/oliveyoung_us_products.json                 미국 베스트셀러 실수집 (403 시 0건)
   data/open_beauty_facts.json                      오픈데이터 상품 정보
   data/dashboard_runtime.json                      채널 상태 · Sephora/Ulta 대체 경쟁군
+  data/manual/shopify_youtube_insights.json         자막 타임스탬프 검토 근거
 
-출력 data/market_team.json
+출력 data/market_team.json + data/shopify_marketing_strategy.json
 
 원칙 (CLAUDE.md: 거짓말 데이터 금지 / 가짜 데이터 금지)
   - 근거가 없는 필드는 채우지 않고 비운 채 사유를 적는다.
@@ -247,7 +248,7 @@ def marketing_videos(limit: int = 25) -> list[dict]:
 
 
 def build_marketing_playbook() -> dict:
-    """마케팅 자료가 어느 주제에 쌓였는지만 센다. 전략 문장을 지어내지 않는다."""
+    """자료량과 검토된 전략 실행 항목을 함께 보여준다."""
     topics = {
         "광고·크리에이티브": ("ads", "ad creative", "creative", "광고", "ugc"),
         "전환·럜딩": ("conversion", "landing", "cro", "전환율", "럜딩"),
@@ -272,11 +273,21 @@ def build_marketing_playbook() -> dict:
                 "market": (b.get("team_actions") or {}).get("market", "")}
                for b in (briefings.get("items") or [])
                if "market" in (b.get("teams") or [])]
+    strategy = load(D / "shopify_marketing_strategy.json", {}) or {}
+    coverage = strategy.get("source_coverage") or {}
     return {
-        "설명": ("유튜브·브리핑에서 모은 마케팅 자료를 주제별로 묶은 것이다. "
-                 "전략 문장은 사람이 적는다. 수치는 수집된 실측값이다."),
+        "설명": ("영상 링크 수와 자막 타임스탬프를 검토한 실행 전략을 함께 제공한다. "
+                 "전략은 data/shopify_marketing_strategy.json에서 재생성된다."),
         "영상_총량": len(videos),
+        "자막_검토_영상": coverage.get("videos", 0),
+        "근거_인사이트": coverage.get("insights", 0),
         "주제": board,
+        "실행_실험": [
+            {"id": x.get("id"), "priority": x.get("priority"),
+             "name": x.get("name"), "status": x.get("status"),
+             "cost_mode": x.get("cost_mode"), "insight_ids": x.get("insight_ids")}
+            for x in (strategy.get("execution_experiments") or [])
+        ],
         "적용_브리핑": applied,
     }
 
@@ -499,6 +510,10 @@ def main() -> int:
     runtime = load(D / "dashboard_runtime.json", {}) or {}
     action_queue = load(D / "shopify_action_queue.json", {}) or {}
 
+    # 같은 실행에서 자막 근거 전략을 먼저 재생성한다. 외부·유료 호출은 없다.
+    from build_shopify_marketing_strategy import build_strategy
+    shopify_strategy = build_strategy(write=True)
+
     detail = {str(x["pd_no"]): x for x in (score.get("all_scored") or [])}
     oy_products = oy.get("products") or []
     status = runtime.get("global_channels_status") or {}
@@ -586,6 +601,14 @@ def main() -> int:
             },
         },
         "marketing_playbook": build_marketing_playbook(),
+        "shopify_strategy": {
+            "status": shopify_strategy.get("status"),
+            "cost_policy": shopify_strategy.get("cost_policy"),
+            "source_coverage": shopify_strategy.get("source_coverage"),
+            "quality_gate": shopify_strategy.get("quality_gate"),
+            "launch_order": shopify_strategy.get("launch_order"),
+            "strategy_file": "data/shopify_marketing_strategy.json",
+        },
         "keyword_board": build_keyword_board(s_rows, oy_products),
         "s_grade_priority": s_rows,
         "competitor_watch": competitor_watch,
