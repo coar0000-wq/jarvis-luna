@@ -2,7 +2,7 @@
 title: "Record a25fc239d5 · Every-Tretinoin-Hack-You-Need-To-Know"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T09:11:18.394934+00:00
+updated_at: 2026-09-20T11:26:59.641896+00:00
 tags: [record, real-data]
 ---
 

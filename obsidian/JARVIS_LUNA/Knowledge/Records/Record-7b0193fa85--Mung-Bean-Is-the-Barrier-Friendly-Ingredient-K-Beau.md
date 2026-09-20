@@ -2,7 +2,7 @@
 title: "Record 7b0193fa85 · Mung-Bean-Is-the-Barrier-Friendly-Ingredient-K-Beau"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T09:11:17.835407+00:00
+updated_at: 2026-09-20T11:26:59.123491+00:00
 tags: [record, real-data]
 ---
 

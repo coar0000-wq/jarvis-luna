@@ -2,7 +2,7 @@
 title: "Record ac8ab7f14c · Reviewers-Say-This-18-K-Beauty-Cream-Softened-Crepe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T09:11:18.010315+00:00
+updated_at: 2026-09-20T11:26:59.279552+00:00
 tags: [record, real-data]
 ---
 

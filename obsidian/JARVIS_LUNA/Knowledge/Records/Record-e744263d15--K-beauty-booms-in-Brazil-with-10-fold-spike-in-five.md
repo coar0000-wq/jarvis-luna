@@ -2,7 +2,7 @@
 title: "Record e744263d15 · K-beauty-booms-in-Brazil-with-10-fold-spike-in-five"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T09:11:18.046298+00:00
+updated_at: 2026-09-20T11:26:59.314695+00:00
 tags: [record, real-data]
 ---
 

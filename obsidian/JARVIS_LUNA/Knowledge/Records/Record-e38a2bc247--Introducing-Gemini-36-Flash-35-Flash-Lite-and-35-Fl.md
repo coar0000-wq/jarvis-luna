@@ -2,7 +2,7 @@
 title: "Record e38a2bc247 · Introducing-Gemini-36-Flash-35-Flash-Lite-and-35-Fl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T09:11:17.558990+00:00
+updated_at: 2026-09-20T11:26:58.847282+00:00
 tags: [record, real-data]
 ---
 

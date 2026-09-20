@@ -2,7 +2,7 @@
 title: "Record f6ae48c545 · Low-emission-operation-of-an-NH-3--diesel-dual-fuel"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T09:11:17.657213+00:00
+updated_at: 2026-09-20T11:26:58.945466+00:00
 tags: [record, real-data]
 ---
 

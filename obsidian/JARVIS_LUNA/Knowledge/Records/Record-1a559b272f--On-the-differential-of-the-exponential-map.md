@@ -2,7 +2,7 @@
 title: "Record 1a559b272f · On-the-differential-of-the-exponential-map"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T09:11:17.446914+00:00
+updated_at: 2026-09-20T11:26:58.735694+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record a43b0ee8c0 · 선크림-QA아무도-알려주지-않았던-선크림에-관한-궁금증-모두-답해드립니다"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T09:11:18.399521+00:00
+updated_at: 2026-09-20T11:26:59.646193+00:00
 tags: [record, real-data]
 ---
 

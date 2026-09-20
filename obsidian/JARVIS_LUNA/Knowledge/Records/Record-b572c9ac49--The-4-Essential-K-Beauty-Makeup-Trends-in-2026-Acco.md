@@ -2,7 +2,7 @@
 title: "Record b572c9ac49 · The-4-Essential-K-Beauty-Makeup-Trends-in-2026-Acco"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T09:11:17.848485+00:00
+updated_at: 2026-09-20T11:26:59.134826+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiYkFVX3lxTE5pTUNPb1lXUmJXalJNeE5FNFNWYjB5WmFIUjFNUERJLVVkSzZNN0VZWmYtbWw1SDJqSWRtVU82bVJyd0FuMHFqUmJ0Y3lqeV9lVFlRcGJJZklEUlA0TzhoelBR?oc=5)
 
-**제목:** The 4 Essential K-Beauty Makeup Trends in 2026, According to Experts - Vogue
+**제목:** The 4 Essential K-Beauty Makeup Trends in 2026, According to Experts - vogue.com
 
-The 4 Essential K-Beauty Makeup Trends in 2026, According to Experts - Vogue
+The 4 Essential K-Beauty Makeup Trends in 2026, According to Experts - vogue.com
 
 **출처:** Source · Google Search
 

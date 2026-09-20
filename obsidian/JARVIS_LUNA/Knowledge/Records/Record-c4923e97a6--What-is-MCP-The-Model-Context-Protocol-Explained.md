@@ -2,7 +2,7 @@
 title: "Record c4923e97a6 · What-is-MCP-The-Model-Context-Protocol-Explained"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T09:11:17.554853+00:00
+updated_at: 2026-09-20T11:26:58.843561+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 5a46ed2329 · The-Year-in-Viral-TikTok-Beauty-Products---The-Cut"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T09:11:17.947518+00:00
+updated_at: 2026-09-20T11:26:59.221039+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiggFBVV95cUxPbGk0RzBleFhiQ2JZYk1LSWlkUDJUdXoxVHhONE5jMU84dXM0RTdZOFo1UDFhV1lheWdxeHNBQURZdVd1NWRxMmJPUWoxdWY4ZUhGdXlUMFdOUFlZbENLVkd1QnEyUFplMzF5WktIcGV2NG90RTh6VGZkU195cWJWdmNR?oc=5)
 
-**제목:** The Year in Viral TikTok Beauty Products - The Cut
+**제목:** The Year in Viral TikTok Beauty Products - thecut.com
 
-The Year in Viral TikTok Beauty Products - The Cut
+The Year in Viral TikTok Beauty Products - thecut.com
 
 **출처:** Source · Google Search
 

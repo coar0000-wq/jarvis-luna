@@ -2,7 +2,7 @@
 title: "Record 31791dab02 · Foreign-shoppers-power-Musinsa-Beautys-strong-Hongd"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T09:11:17.820696+00:00
+updated_at: 2026-09-20T11:26:59.110031+00:00
 tags: [record, real-data]
 ---
 

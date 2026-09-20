@@ -2,7 +2,7 @@
 title: "Record 040b2f078b · Maura-Higginss-Hair-Is-Proof-That-Time-Travel-Is-Re"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T09:11:18.197080+00:00
+updated_at: 2026-09-20T11:26:59.464833+00:00
 tags: [record, real-data]
 ---
 

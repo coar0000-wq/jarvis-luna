@@ -2,7 +2,7 @@
 title: "Record 7a94d581cc · Native-AI-Search-Is-Only-Half-the-Battle-for-E-Comm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T09:11:18.054225+00:00
+updated_at: 2026-09-20T11:26:59.322717+00:00
 tags: [record, real-data]
 ---
 

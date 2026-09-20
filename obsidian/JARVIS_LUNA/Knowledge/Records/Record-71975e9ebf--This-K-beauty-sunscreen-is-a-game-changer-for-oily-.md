@@ -2,7 +2,7 @@
 title: "Record 71975e9ebf · This-K-beauty-sunscreen-is-a-game-changer-for-oily-skin---The-Independ"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T09:11:18.075154+00:00
+updated_at: 2026-09-20T11:26:59.341618+00:00
 tags: [record, real-data]
 ---
 
@@ -13,9 +13,10 @@ tags: [record, real-data]
 **제목:** This K-beauty sunscreen is a game-changer for oily skin - The Independent
 
 This K-beauty sunscreen is a game-changer for oily skin - The Independent
+This K-beauty sunscreen is a game-changer for oily skin - The Independent
 
-**출처:** Source · Google Search
+**출처:** Source · us_beauty
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

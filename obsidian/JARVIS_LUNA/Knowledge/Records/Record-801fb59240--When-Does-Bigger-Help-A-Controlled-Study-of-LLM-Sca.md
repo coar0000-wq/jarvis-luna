@@ -2,7 +2,7 @@
 title: "Record 801fb59240 · When-Does-Bigger-Help-A-Controlled-Study-of-LLM-Sca"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T09:11:17.422912+00:00
+updated_at: 2026-09-20T11:26:58.709116+00:00
 tags: [record, real-data]
 ---
 

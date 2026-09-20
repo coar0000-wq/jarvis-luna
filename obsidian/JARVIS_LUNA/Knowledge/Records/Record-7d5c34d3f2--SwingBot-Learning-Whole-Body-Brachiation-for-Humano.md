@@ -2,7 +2,7 @@
 title: "Record 7d5c34d3f2 · SwingBot-Learning-Whole-Body-Brachiation-for-Humano"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T09:11:17.488167+00:00
+updated_at: 2026-09-20T11:26:58.777950+00:00
 tags: [record, real-data]
 ---
 

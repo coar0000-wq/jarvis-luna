@@ -2,7 +2,7 @@
 title: "Record 52c1c2def0 · Anthropic-Invests-50-Billion-In-American-Ai-Infrast"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T09:11:18.230972+00:00
+updated_at: 2026-09-20T11:26:59.495619+00:00
 tags: [record, real-data]
 ---
 

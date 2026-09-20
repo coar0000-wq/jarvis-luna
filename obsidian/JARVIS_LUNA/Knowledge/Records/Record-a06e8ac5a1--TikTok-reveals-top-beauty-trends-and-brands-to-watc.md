@@ -2,7 +2,7 @@
 title: "Record a06e8ac5a1 · TikTok-reveals-top-beauty-trends-and-brands-to-watc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T09:11:18.035927+00:00
+updated_at: 2026-09-20T11:26:59.304310+00:00
 tags: [record, real-data]
 ---
 

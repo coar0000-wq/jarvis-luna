@@ -2,7 +2,7 @@
 title: "Record 4c4566752e · From-spandex-to-skin-care-Hyosung-bets-big-on-K-bea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T09:11:18.076960+00:00
+updated_at: 2026-09-20T11:26:59.343379+00:00
 tags: [record, real-data]
 ---
 

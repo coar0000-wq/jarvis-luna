@@ -2,7 +2,7 @@
 title: "Record 8704658b1f · My-On-The-Go-Travel-Skin-Care-Routine"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T09:11:18.402848+00:00
+updated_at: 2026-09-20T11:26:59.649285+00:00
 tags: [record, real-data]
 ---
 
