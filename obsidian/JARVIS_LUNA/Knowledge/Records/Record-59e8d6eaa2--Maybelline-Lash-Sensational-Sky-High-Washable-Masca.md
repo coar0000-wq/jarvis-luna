@@ -2,7 +2,7 @@
 title: "Record 59e8d6eaa2 · Maybelline-Lash-Sensational-Sky-High-Washable-Masca"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T22:21:10.702480+00:00
+updated_at: 2026-09-20T03:15:40.700075+00:00
 tags: [record, real-data]
 ---
 

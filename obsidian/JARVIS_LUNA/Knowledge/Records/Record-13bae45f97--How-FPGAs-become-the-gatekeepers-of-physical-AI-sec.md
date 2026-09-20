@@ -2,7 +2,7 @@
 title: "Record 13bae45f97 · How-FPGAs-become-the-gatekeepers-of-physical-AI-sec"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T22:21:10.754406+00:00
+updated_at: 2026-09-20T03:15:40.783381+00:00
 tags: [record, real-data]
 ---
 

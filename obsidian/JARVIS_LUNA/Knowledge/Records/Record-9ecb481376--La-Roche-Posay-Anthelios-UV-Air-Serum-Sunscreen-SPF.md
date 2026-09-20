@@ -2,7 +2,7 @@
 title: "Record 9ecb481376 · La-Roche-Posay-Anthelios-UV-Air-Serum-Sunscreen-SPF"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T22:21:10.679727+00:00
+updated_at: 2026-09-20T03:15:40.665042+00:00
 tags: [record, real-data]
 ---
 

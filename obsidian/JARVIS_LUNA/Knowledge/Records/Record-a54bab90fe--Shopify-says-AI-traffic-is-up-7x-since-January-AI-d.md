@@ -2,7 +2,7 @@
 title: "Record a54bab90fe · Shopify-says-AI-traffic-is-up-7x-since-January-AI-d"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-19T22:21:10.618899+00:00
+updated_at: 2026-09-20T03:15:40.581321+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMirgFBVV95cUxPcUV2Q3lMR2NhdmJyRF9jUGNxWi1NcVdpck11RmVTbXQ3THhDTnB3Z3diYUplazRFQUpkbDFXMkg1U29yNGFoQUFHOEg3cF9BeDJfQVotTm02Njc1VkNRZUVucDNYR3dxRGRWa0RPV1BsSlpxdGN4RWNudjB2cWdZZy02SFBRN2NlQ1dEUkp4RTJRVHJodzVGNWtraVVrMWlSUEZZdjJmM3BJWTVTN1E?oc=5)
 
-**제목:** Shopify says AI traffic is up 7x since January, AI-driven orders are up 11x - techcrunch.com
+**제목:** Shopify says AI traffic is up 7x since January, AI-driven orders are up 11x - TechCrunch
 
-Shopify says AI traffic is up 7x since January, AI-driven orders are up 11x - techcrunch.com
+Shopify says AI traffic is up 7x since January, AI-driven orders are up 11x - TechCrunch
 
 **출처:** Source · Google Search
 
