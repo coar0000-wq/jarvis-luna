@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T13:08:58.643516+09:00",
+  "generated_at": "2026-09-20T13:14:50.368697+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
@@ -30,9 +30,9 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-09-20T13:08:53.584246+09:00",
-      "summary": "S등급 10개 · 고시 판독 남음 2건 · 유튜브 자막 6편 · 근거 20개 · 실험 9개 · 새 자료 36건",
-      "action": "고시 표 2건 판독 남음 (비전 판독 상태 ok) — 1072554 [탄력리프팅]본셉 레티놀 탄력샷  https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072554 / 1053482 메디필 엑스트라 슈퍼 9 플러스  https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1053482",
+      "when": "2026-09-20T13:14:32.532546+09:00",
+      "summary": "S등급 10개 · 고시 판독 남음 0건 · 유튜브 자막 6편 · 근거 20개 · 실험 9개 · 새 자료 36건",
+      "action": null,
       "status": "ok",
       "phase": "always",
       "phase_label": "상시 · 시장 감시",
@@ -42,9 +42,9 @@
     {
       "id": "listing",
       "name": "리스팅 제작팀",
-      "when": "2026-09-20T04:08:53.429944+00:00",
-      "summary": "AI 입력 7/10 · 초안 준비 7/10 · 공개 준비 0/10 · Action 6건 · CP 10 · 카피 7 · 고시 8 · 가격 10 · 법률 7",
-      "action": "카피 3건, 고시 2건, 영문라벨 2건 이 초안을 막고 있음 · MoCRA/FPLA 풀스키마가 공개 판매를 막고 있음 · Shopify Draft Action 6건 사람 승인 대기",
+      "when": "2026-09-20T04:14:32.251435+00:00",
+      "summary": "AI 입력 9/10 · 초안 준비 7/10 · 공개 준비 0/10 · Action 6건 · CP 10 · 카피 7 · 고시 10 · 가격 10 · 법률 9",
+      "action": "카피 3건, 법률 1건 이 초안을 막고 있음 · MoCRA/FPLA 풀스키마가 공개 판매를 막고 있음 · Shopify Draft Action 6건 사람 승인 대기",
       "status": "ok",
       "phase": "ready",
       "phase_label": "2단계 · 가입 후 등록",
@@ -66,9 +66,9 @@
     {
       "id": "legal",
       "name": "법률·규제팀",
-      "when": "2026-09-20T04:08:53.267527+00:00",
-      "summary": "자동 점검 9건 · 통과 0 · 등록 차단 2 · 참고 주의 9 · MoCRA 준비 0/7 · 수출서류 HS 10건 · 라벨 1/6항목 자동 · 새 자료 24건",
-      "action": "차단 2건: [탄력리프팅]본셉 레티놀 탄력(자동 점검 미통과: lab), 메디필 엑스트라 슈퍼 9 플러(자동 점검 미통과: lab) — 라벨 갖추기 전엔 못 올림",
+      "when": "2026-09-20T04:13:58.433971+00:00",
+      "summary": "자동 점검 9건 · 통과 0 · 등록 차단 0 · 참고 주의 9 · MoCRA 준비 0/7 · 수출서류 HS 10건 · 라벨 1/6항목 자동 · 새 자료 24건",
+      "action": "MoCRA 남은 항목: 책임자(Responsible Person) 지정과 라벨 표기, 제조시설 등록(2년 주기 갱신), FDA 제품 리스팅(연 1회 갱신)",
       "status": "ok",
       "phase": "ready",
       "phase_label": "2단계 · 가입 후 등록",
@@ -126,7 +126,7 @@
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-09-20T13:08:26.895876+09:00",
+      "when": "2026-09-20T13:05:30.780872+09:00",
       "summary": "81,954노트 · 330,449링크 · 끊어진 링크 0건 · 개인 노트 16건 별도",
       "action": null,
       "status": "ok",
@@ -140,45 +140,45 @@
     "id": "secretary",
     "name": "비서실장",
     "badge": "총괄",
-    "when": "2026-09-20T13:08:23.601881+09:00",
-    "summary": "30분 주기 · 고시 25건 · US라벨 25건 · 카피 10건 · 등록 가능 7건 · 법률 차단 2건",
-    "action": "갱신 지연 고시 수집 — 2시간 넘게 변경 없음(실패로 단정하지 않음)",
-    "status": "warning",
+    "when": "2026-09-20T13:14:05.323941+09:00",
+    "summary": "30분 주기 · 고시 25건 · US라벨 25건 · 카피 10건 · 등록 가능 7건 · 법률 차단 0건",
+    "action": null,
+    "status": "ok",
     "steps": [
       {
         "단계": "고시 수집",
         "산출물": "gosi.json",
-        "갱신": "2026-09-13T07:50:40.431569+00:00",
-        "몇시간전": 164.3
+        "갱신": "2026-09-20T04:13:41.802Z",
+        "몇시간전": 0.0
       },
       {
         "단계": "고시 비전 추출",
         "산출물": "gosi.json",
-        "갱신": "2026-09-20T13:08:23.601881+09:00",
+        "갱신": "2026-09-20T13:13:41.806307+09:00",
         "몇시간전": 0.0
       },
       {
         "단계": "US 라벨 동기화",
         "산출물": "daiso_us_labels.json",
-        "갱신": "2026-09-20T13:08:23.038834+09:00",
+        "갱신": "2026-09-20T13:14:05.323941+09:00",
         "몇시간전": 0.0
       },
       {
         "단계": "리스팅 카피",
         "산출물": "shopify_listing_copy.json",
         "갱신": "2026-09-20T04:08:53.167238+00:00",
-        "몇시간전": 0.0
+        "몇시간전": 0.1
       },
       {
         "단계": "등록 게이트",
         "산출물": "listing_gate.json",
-        "갱신": "2026-09-20T04:08:53.429944+00:00",
+        "갱신": "2026-09-20T04:14:32.251435+00:00",
         "몇시간전": 0.0
       },
       {
         "단계": "법률 점검",
         "산출물": "legal_products.json",
-        "갱신": "2026-09-20T04:08:53.267527+00:00",
+        "갱신": "2026-09-20T04:13:58.433971+00:00",
         "몇시간전": 0.0
       }
     ],
@@ -451,7 +451,7 @@
     "status": "completed",
     "record_count": 3956,
     "source_counts": {},
-    "updated_at": "2026-09-20T13:08:23.616882+09:00"
+    "updated_at": "2026-09-20T13:05:27.776843+09:00"
   },
   "shopify_marketing_strategy": {
     "status": "evidence_ready",
@@ -715,7 +715,7 @@
     "topics": 28,
     "orgs": 35,
     "audit": "passed",
-    "last_generated": "2026-09-20T13:08:26.895876+09:00"
+    "last_generated": "2026-09-20T13:05:30.780872+09:00"
   },
   "training": {
     "status": "completed",
@@ -1993,7 +1993,7 @@
       "collected_at": "2026-09-19T22:28:40.655933+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 5.7,
+      "age_hours": 5.8,
       "stale": false
     },
     "walmart_beauty": {
@@ -2003,7 +2003,7 @@
       "collected_at": "2026-09-19T22:28:40.656535+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 5.7,
+      "age_hours": 5.8,
       "stale": false
     },
     "oliveyoung_us": {
@@ -2013,7 +2013,7 @@
       "collected_at": "2026-09-19T22:15:47.655225+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 5.9,
+      "age_hours": 6.0,
       "stale": false
     },
     "google_trends_us": {
@@ -2023,7 +2023,7 @@
       "collected_at": "2026-09-19T22:16:24.080562+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 5.9,
+      "age_hours": 6.0,
       "stale": false
     },
     "wikipedia_interest": {
@@ -2034,7 +2034,7 @@
       "count": 8,
       "trust": "verified",
       "note": "2026-08-19 ~ 2026-09-17 일별 조회수. 후반 15일 대비 전반 15일 증감률",
-      "age_hours": 5.8,
+      "age_hours": 5.9,
       "stale": false
     },
     "allure_media": {
@@ -2045,7 +2045,7 @@
       "count": 15,
       "trust": "verified",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
-      "age_hours": 5.8,
+      "age_hours": 5.9,
       "stale": false
     },
     "openfda_sunscreen": {
@@ -2056,7 +2056,7 @@
       "count": 15,
       "trust": "verified",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다.",
-      "age_hours": 5.8,
+      "age_hours": 5.9,
       "stale": false
     },
     "shopify_demand_matching": {
@@ -2082,7 +2082,7 @@
       "collected_at": "2026-09-19T22:28:40.657087+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 5.7,
+      "age_hours": 5.8,
       "stale": false
     },
     "sephora": {
@@ -2092,7 +2092,7 @@
       "collected_at": "2026-09-19T22:28:40.657087+00:00",
       "count": 14,
       "trust": "verified",
-      "age_hours": 5.7,
+      "age_hours": 5.8,
       "stale": false
     },
     "open_beauty_facts": {
@@ -2102,7 +2102,7 @@
       "collected_at": "2026-09-19T22:15:28.742229+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 5.9,
+      "age_hours": 6.0,
       "stale": false
     }
   },

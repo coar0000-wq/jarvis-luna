@@ -38,7 +38,7 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-20T04:08:53.429944+00:00",
+      "gate_generated_at": "2026-09-20T04:14:32.251435+00:00",
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -93,7 +93,7 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-20T04:08:53.429944+00:00",
+      "gate_generated_at": "2026-09-20T04:14:32.251435+00:00",
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -147,7 +147,7 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-20T04:08:53.429944+00:00",
+      "gate_generated_at": "2026-09-20T04:14:32.251435+00:00",
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -202,7 +202,7 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-20T04:08:53.429944+00:00",
+      "gate_generated_at": "2026-09-20T04:14:32.251435+00:00",
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -250,27 +250,17 @@
       },
       "registerable": false,
       "registerable_source": "data/listing_gate.json",
-      "agent_ready": false,
-      "agent_blocked_by": [
-        "gosi",
-        "us_label",
-        "legal"
-      ],
+      "agent_ready": true,
+      "agent_blocked_by": [],
       "blocked_by": [
-        "copy",
-        "gosi",
-        "us_label",
-        "legal"
+        "copy"
       ],
       "public_ready": false,
       "public_blocked_by": [
         "copy",
-        "gosi",
-        "us_label",
-        "legal",
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-20T04:08:53.429944+00:00",
+      "gate_generated_at": "2026-09-20T04:14:32.251435+00:00",
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -278,19 +268,17 @@
         "source": "deterministic_local",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "hold",
-        "legal_gate_advisory": "block",
-        "risk_level": "critical",
-        "risk_points": 8,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "review",
+        "risk_level": "high",
+        "risk_points": 2,
         "team_routes": [
           "legal",
-          "sourcing",
           "listing"
         ],
         "findings": [
-          "draft blockers: copy, gosi, us_label, legal",
-          "public blockers: copy, gosi, us_label, legal, legal_full",
-          "legal hard block"
+          "draft blockers: copy",
+          "public blockers: copy, legal_full"
         ],
         "confidence": null,
         "usage": null
@@ -329,7 +317,7 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-20T04:08:53.429944+00:00",
+      "gate_generated_at": "2026-09-20T04:14:32.251435+00:00",
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -384,7 +372,7 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-20T04:08:53.429944+00:00",
+      "gate_generated_at": "2026-09-20T04:14:32.251435+00:00",
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -439,7 +427,7 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-20T04:08:53.429944+00:00",
+      "gate_generated_at": "2026-09-20T04:14:32.251435+00:00",
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -501,7 +489,7 @@
         "legal",
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-20T04:08:53.429944+00:00",
+      "gate_generated_at": "2026-09-20T04:14:32.251435+00:00",
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -551,27 +539,17 @@
       },
       "registerable": false,
       "registerable_source": "data/listing_gate.json",
-      "agent_ready": false,
-      "agent_blocked_by": [
-        "gosi",
-        "us_label",
-        "legal"
-      ],
+      "agent_ready": true,
+      "agent_blocked_by": [],
       "blocked_by": [
-        "copy",
-        "gosi",
-        "us_label",
-        "legal"
+        "copy"
       ],
       "public_ready": false,
       "public_blocked_by": [
         "copy",
-        "gosi",
-        "us_label",
-        "legal",
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-20T04:08:53.429944+00:00",
+      "gate_generated_at": "2026-09-20T04:14:32.251435+00:00",
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -579,26 +557,24 @@
         "source": "deterministic_local",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "hold",
-        "legal_gate_advisory": "block",
-        "risk_level": "critical",
-        "risk_points": 9,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "review",
+        "risk_level": "high",
+        "risk_points": 3,
         "team_routes": [
           "legal",
-          "sourcing",
           "listing"
         ],
         "findings": [
-          "draft blockers: copy, gosi, us_label, legal",
-          "public blockers: copy, gosi, us_label, legal, legal_full",
-          "legal hard block"
+          "draft blockers: copy",
+          "public blockers: copy, legal_full"
         ],
         "confidence": null,
         "usage": null
       }
     }
   ],
-  "agent_ready_count": 7,
+  "agent_ready_count": 9,
   "registerable_count": 7,
   "registerable_source": "data/listing_gate.json"
 }

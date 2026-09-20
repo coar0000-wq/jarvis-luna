@@ -1,36 +1,34 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-09-20T04:08:53.429944+00:00",
+  "generated_at": "2026-09-20T04:14:32.251435+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "semantic_sources": {
       "data/product_master.json": "e8411f3e1a6f90f501bd89643545ae348c933c5d06ae5990d3f8165a034c3de2",
-      "data/gosi.json": "78a4a60cfe2a7cf591c34f57f309d4ec3432b9d8a85c4e482bd0a16a034164fd",
-      "data/daiso_real/daiso_us_labels.json": "cce2b9f5e071510f50576141f8e493affe5eb6a3cd54b6f55bbde097dc046117",
+      "data/gosi.json": "1a16390713319c2cff37c217042c233ffca49d14246473ddc59121066aafb749",
+      "data/daiso_real/daiso_us_labels.json": "46454532bcc057eb3724151d97c99197a66ecef51e16d4a9bc465279f893bb8f",
       "data/pricing_model.json": "c7f2c5179d7f6668eaa3800a22097325e7c66df0d5cd17d3798550c88839ce49",
-      "data/legal_products.json": "5d6a36db97d6fcf924ed639fd0c65c0df4824a0e1d3e612ee1f195c8a081da1a"
+      "data/legal_products.json": "06b3628f262b3b175eac3f1dad40056600b2334823e63b670cec556573b9b91a"
     },
     "recommendations_sha256": "346ccf38f029563b72b84f44b39f0fdc127f6d0fc6730e773e8252e007a2a8af"
   },
   "total": 10,
-  "agent_ready": 7,
+  "agent_ready": 9,
   "ready": 7,
   "draft_ready": 7,
   "public_ready": 0,
   "counts": {
     "ontology": 10,
     "copy": 7,
-    "gosi": 8,
-    "us_label": 8,
+    "gosi": 10,
+    "us_label": 10,
     "price": 10,
-    "legal": 7,
+    "legal": 9,
     "legal_full": 0
   },
   "blockers": {
     "copy": 3,
-    "gosi": 2,
-    "us_label": 2,
-    "legal": 3
+    "legal": 1
   },
   "typesafe_summary": {
     "framework": "typesafe_system_one_compatible",
@@ -381,17 +379,17 @@
       "copy_status": "skipped_prerequisite",
       "gosi": {
         "volume": "100ml",
-        "maker": "",
+        "maker": "화장품제조업자: (주)메가코스 / 화장품책임판매업자: (주)토니모리",
         "origin": "한국",
-        "ingredients": "",
-        "gosi_ok": false
+        "ingredients": "정제수, 글리세린, 부틸렌글라이콜, 다이메티콘, 세테아릴알코올, 세틸에틸헥사노에이트, 바쿠치올, 레티놀(100 IU/g), 폴리글리세릴-3메틸글루코오스다이스테아레이트, 글리세릴스테아레이트, 하이드록시아세토페논, 트로",
+        "gosi_ok": true
       },
       "us_label": {
         "net_contents": "100ml",
-        "manufacturer": "",
+        "manufacturer": "화장품제조업자: (주)메가코스 / 화장품책임판매업자: (주)토니모리",
         "country_of_origin": "Korea",
-        "ingredients_inci": "",
-        "us_label_ok": false
+        "ingredients_inci": "Water, Glycerin, Butylene Glycol, Dimethicone, Cetearyl Alcohol, Cetyl Ethylhexanoate, Bakuchiol, Retinol, Polyglyceryl-3 Methylglucose Distearate, Glyceryl Stearate, Hydroxyacetophenone, Tromethamine, Carbomer, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Biosaccharide Gum-1, Ethylhexylglycerin, 1,2-Hexanediol, Glyceryl Acrylate/Acrylic Acid Copolymer, Xanthan Gum, Hydroxypropyl Guar, Disodium EDTA, Phaseolus Radiatus Seed Extract, Hydroxyethylcellulose, Caprylic/Capric Triglyceride, Hydrogenated Lecithin, Polyglyceryl-10 Myristate, Tocopheryl Acetate, Squalane, Panthenol, Adenosine, Allantoin, Centella Asiatica Extract, Sodium Hyaluronate, Phytosteryl/Octyldodecyl Lauroyl Glutamate, Ceramide NP, Fragrance|Perfume|Parfum",
+        "us_label_ok": true
       },
       "price": {
         "price_usd": 25.99,
@@ -400,28 +398,18 @@
       },
       "legal": {
         "status": "auto_checked",
-        "hard_block": true,
-        "hard_block_reason": "자동 점검 미통과: label_fields"
+        "hard_block": false,
+        "hard_block_reason": ""
       },
-      "agent_ready": false,
-      "agent_blocked_by": [
-        "gosi",
-        "us_label",
-        "legal"
-      ],
+      "agent_ready": true,
+      "agent_blocked_by": [],
       "ready": false,
       "blocked_by": [
-        "copy",
-        "gosi",
-        "us_label",
-        "legal"
+        "copy"
       ],
       "public_ready": false,
       "public_blocked_by": [
         "copy",
-        "gosi",
-        "us_label",
-        "legal",
         "legal_full"
       ],
       "legal_full_complete": false,
@@ -432,19 +420,17 @@
         "source": "deterministic_local",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "hold",
-        "legal_gate_advisory": "block",
-        "risk_level": "critical",
-        "risk_points": 8,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "review",
+        "risk_level": "high",
+        "risk_points": 2,
         "team_routes": [
           "legal",
-          "sourcing",
           "listing"
         ],
         "findings": [
-          "draft blockers: copy, gosi, us_label, legal",
-          "public blockers: copy, gosi, us_label, legal, legal_full",
-          "legal hard block"
+          "draft blockers: copy",
+          "public blockers: copy, legal_full"
         ],
         "confidence": null,
         "usage": null
@@ -782,17 +768,17 @@
       "copy_status": "skipped_prerequisite",
       "gosi": {
         "volume": "200ml",
-        "maker": "",
+        "maker": "화장품제조업자: 제품 내 별도표기 / 화장품책임판매업자: 주식회사 스킨이데아",
         "origin": "한국",
-        "ingredients": "",
-        "gosi_ok": false
+        "ingredients": "정제수, 다이프로필렌글라이콜, 글리세린, 프로판다이올, 솔비톨, 부틸렌글라이콜, 나이아신아마이드, 아이소펜틸다이올, 글리세레스-25피씨에이아이소스테아레이트, 판테놀, 글리세릴글루코사이드, 하이드록시아세토페논, 1,2",
+        "gosi_ok": true
       },
       "us_label": {
         "net_contents": "200ml",
-        "manufacturer": "",
+        "manufacturer": "화장품제조업자: 제품 내 별도표기 / 화장품책임판매업자: 주식회사 스킨이데아",
         "country_of_origin": "Korea",
-        "ingredients_inci": "",
-        "us_label_ok": false
+        "ingredients_inci": "Water, Dipropylene Glycol, Glycerin, Propanediol, Sorbitol, Butylene Glycol, Niacinamide, Isopentyldiol, Glycereth-25 PCA Isostearate, Panthenol, Glyceryl Glucoside, Hydroxyacetophenone, 1,2-Hexanediol, Caprylyl Glycol, Ectoin, Fagus Sylvatica Bud Extract, Chamomilla Recutita (Matricaria) Flower Extract, Enantia Chlorantha Bark Extract, Hamamelis Virginiana (Witch Hazel) Extract, Betaine, Citric Acid, Gluconolactone, Lactic Acid, Salicylic Acid, Capryloyl Salicylic Acid, Xylitylglucoside, Anhydroxylitol, Xylitol, Vitis Vinifera (Grape) Fruit Extract, Diospyros Kaki Leaf Extract, Coffea Arabica (Coffee) Seed Extract, Polygonum Cuspidatum Root Extract, Carthamus Tinctorius (Safflower) Flower Extract, Camellia Sinensis Leaf Extract, Castanea Crenata (Chestnut) Shell Extract Castanea Crenata Shell Extract, Zanthoxylum Piperitum Fruit Extract, Butyl Avocadate, Centella Asiatica Extract, Ethylhexylglycerin, Glucose, Oleanolic Acid, Prunus Mume Fruit Extract, Malus Domestica Fruit Extract, Carica Papaya (Papaya) Fruit Extract, Citrus Junos Fruit Extract, Pinus Densiflora Leaf Extract, Artemisia Annua Extract, Polyglyceryl-10 Laurate, Benzyl Glycol, Hydrolyzed Glycosaminoglycans, Sodium Hyaluronate, Tocopherol, Lactobacillus/Soybean Ferment Extract, Portulaca Oleracea Extract, Origanum Vulgare Leaf Extract, Cinnamomum Cassia Bark Extract, Salix Alba (Willow) Bark Extract, Scutellaria Baicalensis Root Extract, Sodium Hyaluronate Crosspolymer, Chamaecyparis Obtusa Leaf Extract, Hydrolyzed Hyaluronic Acid, Acetyl Hexapeptide-8, Copper Tripeptide-1, Tripeptide-1, Palmitoyl Pentapeptide-4, Hydroxypropyltrimonium Hyaluronate, Alanine/Histidine/Lysine Polypeptide Copper HCl, Palmitoyl Tripeptide-1, Hexapeptide-9, Hyaluronic Acid, Sodium Acetylated Hyaluronate, Solanum Melongena (Eggplant) Fruit Extract, Magnolia Kobus Bark Extract, Terminalia Ferdinandiana Fruit Extract, Myrciaria Dubia Fruit Extract, Gardenia Florida Fruit Extract, Adenosine, Disodium EDTA, Allantoin, Mentha Piperita (Peppermint) Oil, Dipotassium Glycyrrhizate",
+        "us_label_ok": true
       },
       "price": {
         "price_usd": 25.99,
@@ -801,28 +787,18 @@
       },
       "legal": {
         "status": "auto_checked",
-        "hard_block": true,
-        "hard_block_reason": "자동 점검 미통과: label_fields"
+        "hard_block": false,
+        "hard_block_reason": ""
       },
-      "agent_ready": false,
-      "agent_blocked_by": [
-        "gosi",
-        "us_label",
-        "legal"
-      ],
+      "agent_ready": true,
+      "agent_blocked_by": [],
       "ready": false,
       "blocked_by": [
-        "copy",
-        "gosi",
-        "us_label",
-        "legal"
+        "copy"
       ],
       "public_ready": false,
       "public_blocked_by": [
         "copy",
-        "gosi",
-        "us_label",
-        "legal",
         "legal_full"
       ],
       "legal_full_complete": false,
@@ -833,19 +809,17 @@
         "source": "deterministic_local",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "hold",
-        "legal_gate_advisory": "block",
-        "risk_level": "critical",
-        "risk_points": 9,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "review",
+        "risk_level": "high",
+        "risk_points": 3,
         "team_routes": [
           "legal",
-          "sourcing",
           "listing"
         ],
         "findings": [
-          "draft blockers: copy, gosi, us_label, legal",
-          "public blockers: copy, gosi, us_label, legal, legal_full",
-          "legal hard block"
+          "draft blockers: copy",
+          "public blockers: copy, legal_full"
         ],
         "confidence": null,
         "usage": null
