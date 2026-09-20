@@ -2,7 +2,7 @@
 title: "Record f8e42127a5 · How-To-Start-a-Business-Using-AI-in-6-Steps-2026---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T17:26:41.822434+00:00
+updated_at: 2026-09-20T20:24:56.423054+00:00
 tags: [record, real-data]
 ---
 

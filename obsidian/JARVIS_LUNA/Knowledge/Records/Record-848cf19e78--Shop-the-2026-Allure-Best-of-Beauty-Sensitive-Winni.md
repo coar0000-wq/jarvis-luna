@@ -2,7 +2,7 @@
 title: "Record 848cf19e78 · Shop-the-2026-Allure-Best-of-Beauty-Sensitive-Winning-Products"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T17:26:42.081758+00:00
+updated_at: 2026-09-20T20:24:56.636257+00:00
 tags: [record, real-data]
 ---
 

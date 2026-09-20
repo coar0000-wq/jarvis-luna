@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T17:25:22.003513+00:00",
+  "generated_at": "2026-09-20T20:23:31.302738+00:00",
   "generator": "scripts/discover_channels.py",
   "정책": "후보를 자동으로 등록하지 않는다. robots.txt 를 확인하고 실제로 호출해 본 뒤 진짜 데이터가 나오는 것만 제안한다. 붙일지 말지는 대화로 지시하면 자비스가 수집기를 만들어 연동한다. 이미 가동 중인 소스는 already_live 로 표시한다.",
   "판정기준": [
@@ -97,12 +97,12 @@
       "url": "https://trends.google.com/trending/rss?geo=US",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 21029,
+      "bytes": 21368,
       "items": 40,
       "samples": [
-        "saquon barkley injury",
-        "Saquon Barkley Leaves Week 2 With an Injury",
-        "NFL Week 2 predictions: Upsets, fantasy sleepers, stat lines"
+        "afc north",
+        "AFC North Week 2: What we learned from the opener, what we’re overreacting to and what’s next - The Athletic",
+        "AFC North Preview, Week 2: Ravens, Bengals and Steelers seek 2-0 starts"
       ],
       "verdict": "가능",
       "reason": "40건 파싱 성공, 값이 서로 다름",

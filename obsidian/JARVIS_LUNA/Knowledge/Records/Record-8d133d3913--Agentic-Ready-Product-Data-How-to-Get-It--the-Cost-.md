@@ -2,7 +2,7 @@
 title: "Record 8d133d3913 · Agentic-Ready-Product-Data-How-to-Get-It--the-Cost-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T17:26:41.827645+00:00
+updated_at: 2026-09-20T20:24:56.428367+00:00
 tags: [record, real-data]
 ---
 

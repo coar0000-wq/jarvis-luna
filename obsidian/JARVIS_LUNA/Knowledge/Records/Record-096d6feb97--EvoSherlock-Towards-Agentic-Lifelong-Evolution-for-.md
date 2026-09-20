@@ -2,7 +2,7 @@
 title: "Record 096d6feb97 · EvoSherlock-Towards-Agentic-Lifelong-Evolution-for-Unseen-Long-Tailed-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T17:26:41.545225+00:00
+updated_at: 2026-09-20T20:24:56.160228+00:00
 tags: [record, real-data]
 ---
 

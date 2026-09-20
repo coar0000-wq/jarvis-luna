@@ -2,7 +2,7 @@
 title: "Record 18c4b83f3c · FOREVER-SKIN-GLOW-24h-wear-radiant-foundation-Perfe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T17:26:41.446850+00:00
+updated_at: 2026-09-20T20:24:56.057800+00:00
 tags: [record, real-data]
 ---
 

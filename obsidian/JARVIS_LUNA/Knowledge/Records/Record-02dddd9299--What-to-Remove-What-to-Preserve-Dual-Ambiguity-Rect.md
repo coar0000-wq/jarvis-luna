@@ -2,7 +2,7 @@
 title: "Record 02dddd9299 · What-to-Remove-What-to-Preserve-Dual-Ambiguity-Rect"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T17:26:41.672331+00:00
+updated_at: 2026-09-20T20:24:56.285737+00:00
 tags: [record, real-data]
 ---
 

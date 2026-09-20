@@ -2,7 +2,7 @@
 title: "Record 56284e5fef · Gen-Zs-Inclined-To-Pay-Over-Face-Value-For-Tickets-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T17:26:41.729173+00:00
+updated_at: 2026-09-20T20:24:56.337785+00:00
 tags: [record, real-data]
 ---
 

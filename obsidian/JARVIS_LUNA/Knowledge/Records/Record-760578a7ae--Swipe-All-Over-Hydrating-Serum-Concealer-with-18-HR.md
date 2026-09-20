@@ -2,7 +2,7 @@
 title: "Record 760578a7ae · Swipe-All-Over-Hydrating-Serum-Concealer-with-18-HR"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T17:26:42.191193+00:00
+updated_at: 2026-09-20T20:24:56.745065+00:00
 tags: [record, real-data]
 ---
 

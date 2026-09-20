@@ -2,7 +2,7 @@
 title: "Record 1ab98f9cc8 · Instance-Segmentation-and-Fine-grained-Classification-for-Urban-Buildi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T17:26:41.691944+00:00
+updated_at: 2026-09-20T20:24:56.304045+00:00
 tags: [record, real-data]
 ---
 
