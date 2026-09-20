@@ -2,7 +2,7 @@
 title: "Record f4c7cebea8 · Olive-Young-is-bringing-its-K-beauty-festival-to-th"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T20:24:56.472257+00:00
+updated_at: 2026-09-20T20:52:08.710619+00:00
 tags: [record, real-data]
 ---
 

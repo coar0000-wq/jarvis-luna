@@ -2,7 +2,7 @@
 title: "Record 062fe44cff · Ingu-Skin-Founder-Chayadhorn-Ing-Kitiyadisai-On-Making-Viral-Skincare-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T20:24:56.474552+00:00
+updated_at: 2026-09-20T20:52:08.713418+00:00
 tags: [record, real-data]
 ---
 

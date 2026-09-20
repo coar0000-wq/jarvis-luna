@@ -2,7 +2,7 @@
 title: "Record 19b77c570c · I-Tried-320-Of-Medicube-Korean-Skincare---Now-I-Get"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T20:24:56.423898+00:00
+updated_at: 2026-09-20T20:52:08.647146+00:00
 tags: [record, real-data]
 ---
 

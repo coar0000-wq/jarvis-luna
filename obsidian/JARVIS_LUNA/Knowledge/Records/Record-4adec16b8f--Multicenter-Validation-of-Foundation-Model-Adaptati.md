@@ -2,7 +2,7 @@
 title: "Record 4adec16b8f · Multicenter-Validation-of-Foundation-Model-Adaptati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T20:24:56.275482+00:00
+updated_at: 2026-09-20T20:52:08.443989+00:00
 tags: [record, real-data]
 ---
 

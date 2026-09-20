@@ -2,7 +2,7 @@
 title: "Record 2083e9b230 · Thoughts-On-The-Market-Credit-Outlook"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T20:24:56.730274+00:00
+updated_at: 2026-09-20T20:52:09.040133+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 12d274188d · ViD-Vision-Dominant-Gender-Bias-Mitigation-for-Large-Vision-Language-M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T20:24:56.290987+00:00
+updated_at: 2026-09-20T20:52:08.465185+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1b2ee042f6 · Shopify-Integrates-AI-Product-Discovery---Practical"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T20:24:56.443186+00:00
+updated_at: 2026-09-20T20:52:08.674207+00:00
 tags: [record, real-data]
 ---
 

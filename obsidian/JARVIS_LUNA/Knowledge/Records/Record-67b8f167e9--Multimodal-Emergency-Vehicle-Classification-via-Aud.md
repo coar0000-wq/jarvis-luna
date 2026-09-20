@@ -2,7 +2,7 @@
 title: "Record 67b8f167e9 · Multimodal-Emergency-Vehicle-Classification-via-Audio-Visual-Transform"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T20:24:56.290782+00:00
+updated_at: 2026-09-20T20:52:08.464900+00:00
 tags: [record, real-data]
 ---
 

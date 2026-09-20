@@ -2,7 +2,7 @@
 title: "Record c9cf6f6714 · Leidos-autonomy-earns-its-place-at-RIMPAC-and-with-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T20:24:56.347148+00:00
+updated_at: 2026-09-20T20:52:08.542564+00:00
 tags: [record, real-data]
 ---
 

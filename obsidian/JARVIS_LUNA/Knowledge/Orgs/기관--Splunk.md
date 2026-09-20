@@ -2,7 +2,7 @@
 title: "기관 · Splunk"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T20:24:57.078076+00:00
+updated_at: 2026-09-20T20:52:09.478796+00:00
 tags: [org, real-data]
 ---
 

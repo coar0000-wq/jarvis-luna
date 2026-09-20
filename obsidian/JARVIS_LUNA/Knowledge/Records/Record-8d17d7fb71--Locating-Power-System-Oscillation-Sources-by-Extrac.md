@@ -2,7 +2,7 @@
 title: "Record 8d17d7fb71 · Locating-Power-System-Oscillation-Sources-by-Extrac"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T20:24:56.071998+00:00
+updated_at: 2026-09-20T20:52:08.188440+00:00
 tags: [record, real-data]
 ---
 

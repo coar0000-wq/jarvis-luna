@@ -2,7 +2,7 @@
 title: "Record 20955b51a1 · 9-Best-Tinted-Lip-Balms-for-Sheer-Color-and-Lasting-Hydration"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T20:24:56.638496+00:00
+updated_at: 2026-09-20T20:52:08.917989+00:00
 tags: [record, real-data]
 ---
 

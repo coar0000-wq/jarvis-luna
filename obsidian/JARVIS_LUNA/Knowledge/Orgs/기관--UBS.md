@@ -2,7 +2,7 @@
 title: "기관 · UBS"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T20:24:57.080567+00:00
+updated_at: 2026-09-20T20:52:09.481812+00:00
 tags: [org, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 66ec664714 · Your-K-Beauty-Skin-Care-Cheat-Sheet---Bustle"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T20:24:56.444073+00:00
+updated_at: 2026-09-20T20:52:08.675344+00:00
 tags: [record, real-data]
 ---
 

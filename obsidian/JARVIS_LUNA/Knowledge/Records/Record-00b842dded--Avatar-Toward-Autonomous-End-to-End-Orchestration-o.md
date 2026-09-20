@@ -2,7 +2,7 @@
 title: "Record 00b842dded · Avatar-Toward-Autonomous-End-to-End-Orchestration-of-Scientific-Workfl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T20:24:56.124625+00:00
+updated_at: 2026-09-20T20:52:08.253969+00:00
 tags: [record, real-data]
 ---
 
