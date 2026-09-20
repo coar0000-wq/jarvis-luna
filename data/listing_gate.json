@@ -1,14 +1,14 @@
 {
-  "schema_version": 3,
-  "generated_at": "2026-09-19T22:43:07.680339+00:00",
+  "schema_version": 4,
+  "generated_at": "2026-09-20T03:21:57.677581+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "semantic_sources": {
       "data/product_master.json": "e8411f3e1a6f90f501bd89643545ae348c933c5d06ae5990d3f8165a034c3de2",
-      "data/gosi.json": "38edc36485b0bae8b069d0f3db91f71f0e10a1f8daa2b41cf553c63083c11598",
-      "data/daiso_real/daiso_us_labels.json": "2f9ae877770aad01a2099a06c01763a9769871846c5fd26ceb899b6b4a7846f8",
+      "data/gosi.json": "78a4a60cfe2a7cf591c34f57f309d4ec3432b9d8a85c4e482bd0a16a034164fd",
+      "data/daiso_real/daiso_us_labels.json": "cce2b9f5e071510f50576141f8e493affe5eb6a3cd54b6f55bbde097dc046117",
       "data/pricing_model.json": "e20fe5dbbb93c48a19ba917459b3b4334d0507bd0b2d690b7a8754a864ded1bc",
-      "data/legal_products.json": "885aed08a9c6507f6be366939983dc25901099cca426709398674abcedb73282"
+      "data/legal_products.json": "3e4fa93d50fcd502bd03933b15a8cf3c9421995e290b72afda3f3e75039c1831"
     },
     "recommendations_sha256": "346ccf38f029563b72b84f44b39f0fdc127f6d0fc6730e773e8252e007a2a8af"
   },
@@ -31,6 +31,15 @@
     "gosi": 2,
     "us_label": 2,
     "legal": 2
+  },
+  "typesafe_summary": {
+    "framework": "typesafe_system_one_compatible",
+    "mode_counts": {
+      "disabled_local_advisory": 10
+    },
+    "paid_api_calls": 0,
+    "enforced": 0,
+    "note": "기본은 비용 없는 로컬 advisory. 실제 TypeSafe 호출은 TYPESAFE_ENABLED=1 및 TYPESAFE_ALLOW_PAID=1 동시 설정 때만 가능."
   },
   "count": 10,
   "note": "ontology=CP 정본 조인, gosi=한국 고시 4항목, us_label=영문 라벨(플레이스홀더 제외), legal=자동 하드블록, legal_full=MoCRA/FPLA 공개 필드. agent_ready는 LLM 입력 자격, ready는 Shopify 초안 준비, public_ready는 공개 판매 준비 건수.",
@@ -94,7 +103,27 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "legal_full_complete": false
+      "legal_full_complete": false,
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "review",
+        "risk_level": "medium",
+        "risk_points": 1,
+        "team_routes": [
+          "legal"
+        ],
+        "findings": [
+          "public blockers: legal_full"
+        ],
+        "confidence": null,
+        "usage": null
+      }
     },
     {
       "rank": 2,
@@ -154,7 +183,27 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "legal_full_complete": false
+      "legal_full_complete": false,
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "review",
+        "risk_level": "medium",
+        "risk_points": 1,
+        "team_routes": [
+          "legal"
+        ],
+        "findings": [
+          "public blockers: legal_full"
+        ],
+        "confidence": null,
+        "usage": null
+      }
     },
     {
       "rank": 3,
@@ -215,7 +264,27 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "legal_full_complete": false
+      "legal_full_complete": false,
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "review",
+        "risk_level": "medium",
+        "risk_points": 1,
+        "team_routes": [
+          "legal"
+        ],
+        "findings": [
+          "public blockers: legal_full"
+        ],
+        "confidence": null,
+        "usage": null
+      }
     },
     {
       "rank": 4,
@@ -275,7 +344,27 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "legal_full_complete": false
+      "legal_full_complete": false,
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "review",
+        "risk_level": "medium",
+        "risk_points": 1,
+        "team_routes": [
+          "legal"
+        ],
+        "findings": [
+          "public blockers: legal_full"
+        ],
+        "confidence": null,
+        "usage": null
+      }
     },
     {
       "rank": 5,
@@ -334,7 +423,31 @@
         "legal",
         "legal_full"
       ],
-      "legal_full_complete": false
+      "legal_full_complete": false,
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "hold",
+        "legal_gate_advisory": "block",
+        "risk_level": "critical",
+        "risk_points": 8,
+        "team_routes": [
+          "legal",
+          "sourcing",
+          "listing"
+        ],
+        "findings": [
+          "draft blockers: copy, gosi, us_label, legal",
+          "public blockers: copy, gosi, us_label, legal, legal_full",
+          "legal hard block"
+        ],
+        "confidence": null,
+        "usage": null
+      }
     },
     {
       "rank": 6,
@@ -396,7 +509,27 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "legal_full_complete": false
+      "legal_full_complete": false,
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "review",
+        "risk_level": "medium",
+        "risk_points": 1,
+        "team_routes": [
+          "legal"
+        ],
+        "findings": [
+          "public blockers: legal_full"
+        ],
+        "confidence": null,
+        "usage": null
+      }
     },
     {
       "rank": 7,
@@ -457,7 +590,27 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "legal_full_complete": false
+      "legal_full_complete": false,
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "review",
+        "risk_level": "medium",
+        "risk_points": 1,
+        "team_routes": [
+          "legal"
+        ],
+        "findings": [
+          "public blockers: legal_full"
+        ],
+        "confidence": null,
+        "usage": null
+      }
     },
     {
       "rank": 8,
@@ -518,7 +671,27 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "legal_full_complete": false
+      "legal_full_complete": false,
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "review",
+        "risk_level": "medium",
+        "risk_points": 1,
+        "team_routes": [
+          "legal"
+        ],
+        "findings": [
+          "public blockers: legal_full"
+        ],
+        "confidence": null,
+        "usage": null
+      }
     },
     {
       "rank": 9,
@@ -580,7 +753,27 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "legal_full_complete": false
+      "legal_full_complete": false,
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "review",
+        "risk_level": "high",
+        "risk_points": 2,
+        "team_routes": [
+          "legal"
+        ],
+        "findings": [
+          "public blockers: legal_full"
+        ],
+        "confidence": null,
+        "usage": null
+      }
     },
     {
       "rank": 10,
@@ -639,7 +832,31 @@
         "legal",
         "legal_full"
       ],
-      "legal_full_complete": false
+      "legal_full_complete": false,
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "hold",
+        "legal_gate_advisory": "block",
+        "risk_level": "critical",
+        "risk_points": 9,
+        "team_routes": [
+          "legal",
+          "sourcing",
+          "listing"
+        ],
+        "findings": [
+          "draft blockers: copy, gosi, us_label, legal",
+          "public blockers: copy, gosi, us_label, legal, legal_full",
+          "legal hard block"
+        ],
+        "confidence": null,
+        "usage": null
+      }
     }
   ]
 }

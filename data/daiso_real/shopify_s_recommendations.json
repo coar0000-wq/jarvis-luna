@@ -38,7 +38,27 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T22:43:07.680339+00:00"
+      "gate_generated_at": "2026-09-20T03:21:57.677581+00:00",
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "review",
+        "risk_level": "medium",
+        "risk_points": 1,
+        "team_routes": [
+          "legal"
+        ],
+        "findings": [
+          "public blockers: legal_full"
+        ],
+        "confidence": null,
+        "usage": null
+      }
     },
     {
       "rank": 2,
@@ -73,7 +93,27 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T22:43:07.680339+00:00"
+      "gate_generated_at": "2026-09-20T03:21:57.677581+00:00",
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "review",
+        "risk_level": "medium",
+        "risk_points": 1,
+        "team_routes": [
+          "legal"
+        ],
+        "findings": [
+          "public blockers: legal_full"
+        ],
+        "confidence": null,
+        "usage": null
+      }
     },
     {
       "rank": 3,
@@ -107,7 +147,27 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T22:43:07.680339+00:00"
+      "gate_generated_at": "2026-09-20T03:21:57.677581+00:00",
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "review",
+        "risk_level": "medium",
+        "risk_points": 1,
+        "team_routes": [
+          "legal"
+        ],
+        "findings": [
+          "public blockers: legal_full"
+        ],
+        "confidence": null,
+        "usage": null
+      }
     },
     {
       "rank": 4,
@@ -142,7 +202,27 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T22:43:07.680339+00:00"
+      "gate_generated_at": "2026-09-20T03:21:57.677581+00:00",
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "review",
+        "risk_level": "medium",
+        "risk_points": 1,
+        "team_routes": [
+          "legal"
+        ],
+        "findings": [
+          "public blockers: legal_full"
+        ],
+        "confidence": null,
+        "usage": null
+      }
     },
     {
       "rank": 5,
@@ -190,7 +270,31 @@
         "legal",
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T22:43:07.680339+00:00"
+      "gate_generated_at": "2026-09-20T03:21:57.677581+00:00",
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "hold",
+        "legal_gate_advisory": "block",
+        "risk_level": "critical",
+        "risk_points": 8,
+        "team_routes": [
+          "legal",
+          "sourcing",
+          "listing"
+        ],
+        "findings": [
+          "draft blockers: copy, gosi, us_label, legal",
+          "public blockers: copy, gosi, us_label, legal, legal_full",
+          "legal hard block"
+        ],
+        "confidence": null,
+        "usage": null
+      }
     },
     {
       "rank": 6,
@@ -225,7 +329,27 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T22:43:07.680339+00:00"
+      "gate_generated_at": "2026-09-20T03:21:57.677581+00:00",
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "review",
+        "risk_level": "medium",
+        "risk_points": 1,
+        "team_routes": [
+          "legal"
+        ],
+        "findings": [
+          "public blockers: legal_full"
+        ],
+        "confidence": null,
+        "usage": null
+      }
     },
     {
       "rank": 7,
@@ -260,7 +384,27 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T22:43:07.680339+00:00"
+      "gate_generated_at": "2026-09-20T03:21:57.677581+00:00",
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "review",
+        "risk_level": "medium",
+        "risk_points": 1,
+        "team_routes": [
+          "legal"
+        ],
+        "findings": [
+          "public blockers: legal_full"
+        ],
+        "confidence": null,
+        "usage": null
+      }
     },
     {
       "rank": 8,
@@ -295,7 +439,27 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T22:43:07.680339+00:00"
+      "gate_generated_at": "2026-09-20T03:21:57.677581+00:00",
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "review",
+        "risk_level": "medium",
+        "risk_points": 1,
+        "team_routes": [
+          "legal"
+        ],
+        "findings": [
+          "public blockers: legal_full"
+        ],
+        "confidence": null,
+        "usage": null
+      }
     },
     {
       "rank": 9,
@@ -330,7 +494,27 @@
       "public_blocked_by": [
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T22:43:07.680339+00:00"
+      "gate_generated_at": "2026-09-20T03:21:57.677581+00:00",
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "review",
+        "risk_level": "high",
+        "risk_points": 2,
+        "team_routes": [
+          "legal"
+        ],
+        "findings": [
+          "public blockers: legal_full"
+        ],
+        "confidence": null,
+        "usage": null
+      }
     },
     {
       "rank": 10,
@@ -378,7 +562,31 @@
         "legal",
         "legal_full"
       ],
-      "gate_generated_at": "2026-09-19T22:43:07.680339+00:00"
+      "gate_generated_at": "2026-09-20T03:21:57.677581+00:00",
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "hold",
+        "legal_gate_advisory": "block",
+        "risk_level": "critical",
+        "risk_points": 9,
+        "team_routes": [
+          "legal",
+          "sourcing",
+          "listing"
+        ],
+        "findings": [
+          "draft blockers: copy, gosi, us_label, legal",
+          "public blockers: copy, gosi, us_label, legal, legal_full",
+          "legal hard block"
+        ],
+        "confidence": null,
+        "usage": null
+      }
     }
   ],
   "agent_ready_count": 8,
