@@ -1,91 +1,79 @@
 {
   "agent": "Listing-Draft",
-  "generated_at": "2026-09-18T03:14:35.799539+00:00",
+  "generated_at": "2026-09-20T04:17:51.441572+00:00",
   "s_count": 10,
-  "csv_path": "data/daiso_real/shopify_s_products_import.csv",
+  "registerable_count": 7,
+  "csv_path": "data/shopify_exports/products.csv",
+  "manifest_path": "data/shopify_exports/manifest.json",
   "items": [
     {
+      "canonical_product_id": "CP000107",
       "pd_no": "1049276",
       "name": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
-      "csv": "data/daiso_real/shopify_s_products_import.csv",
+      "csv": "data/shopify_exports/products.csv",
       "status_suggest": "draft",
-      "note": "Variant Price 비움 — 원가 모델 확인 후 입력. Cost per item·image·pd_no는 CSV에 있음."
+      "note": "listing_gate 통과분만 포함. 법률 풀스키마·실재고 확인 전 unpublished/inventory 0 유지."
     },
     {
+      "canonical_product_id": "CP000130",
       "pd_no": "1055167",
       "name": "본셉 레티놀 500 IU 세럼 30 ml",
-      "csv": "data/daiso_real/shopify_s_products_import.csv",
+      "csv": "data/shopify_exports/products.csv",
       "status_suggest": "draft",
-      "note": "Variant Price 비움 — 원가 모델 확인 후 입력. Cost per item·image·pd_no는 CSV에 있음."
+      "note": "listing_gate 통과분만 포함. 법률 풀스키마·실재고 확인 전 unpublished/inventory 0 유지."
     },
     {
+      "canonical_product_id": "CP000106",
       "pd_no": "1049275",
       "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
-      "csv": "data/daiso_real/shopify_s_products_import.csv",
+      "csv": "data/shopify_exports/products.csv",
       "status_suggest": "draft",
-      "note": "Variant Price 비움 — 원가 모델 확인 후 입력. Cost per item·image·pd_no는 CSV에 있음."
+      "note": "listing_gate 통과분만 포함. 법률 풀스키마·실재고 확인 전 unpublished/inventory 0 유지."
     },
     {
+      "canonical_product_id": "CP000216",
       "pd_no": "1067498",
       "name": "[영양광채]VT PDRN 광채 크림 50 ml",
-      "csv": "data/daiso_real/shopify_s_products_import.csv",
+      "csv": "data/shopify_exports/products.csv",
       "status_suggest": "draft",
-      "note": "Variant Price 비움 — 원가 모델 확인 후 입력. Cost per item·image·pd_no는 CSV에 있음."
+      "note": "listing_gate 통과분만 포함. 법률 풀스키마·실재고 확인 전 unpublished/inventory 0 유지."
     },
     {
-      "pd_no": "1072554",
-      "name": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
-      "csv": "data/daiso_real/shopify_s_products_import.csv",
-      "status_suggest": "draft",
-      "note": "Variant Price 비움 — 원가 모델 확인 후 입력. Cost per item·image·pd_no는 CSV에 있음."
-    },
-    {
+      "canonical_product_id": "CP000270",
       "pd_no": "1075857",
       "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
-      "csv": "data/daiso_real/shopify_s_products_import.csv",
+      "csv": "data/shopify_exports/products.csv",
       "status_suggest": "draft",
-      "note": "Variant Price 비움 — 원가 모델 확인 후 입력. Cost per item·image·pd_no는 CSV에 있음."
+      "note": "listing_gate 통과분만 포함. 법률 풀스키마·실재고 확인 전 unpublished/inventory 0 유지."
     },
     {
+      "canonical_product_id": "CP000109",
       "pd_no": "1049285",
       "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-      "csv": "data/daiso_real/shopify_s_products_import.csv",
+      "csv": "data/shopify_exports/products.csv",
       "status_suggest": "draft",
-      "note": "Variant Price 비움 — 원가 모델 확인 후 입력. Cost per item·image·pd_no는 CSV에 있음."
+      "note": "listing_gate 통과분만 포함. 법률 풀스키마·실재고 확인 전 unpublished/inventory 0 유지."
     },
     {
+      "canonical_product_id": "CP000151",
       "pd_no": "1059834",
       "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-      "csv": "data/daiso_real/shopify_s_products_import.csv",
+      "csv": "data/shopify_exports/products.csv",
       "status_suggest": "draft",
-      "note": "Variant Price 비움 — 원가 모델 확인 후 입력. Cost per item·image·pd_no는 CSV에 있음."
-    },
-    {
-      "pd_no": "1042619",
-      "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
-      "csv": "data/daiso_real/shopify_s_products_import.csv",
-      "status_suggest": "draft",
-      "note": "Variant Price 비움 — 원가 모델 확인 후 입력. Cost per item·image·pd_no는 CSV에 있음."
-    },
-    {
-      "pd_no": "1060211",
-      "name": "바세린 모이스처라이징 클렌징 밀크 140 ml",
-      "csv": "data/daiso_real/shopify_s_products_import.csv",
-      "status_suggest": "draft",
-      "note": "Variant Price 비움 — 원가 모델 확인 후 입력. Cost per item·image·pd_no는 CSV에 있음."
+      "note": "listing_gate 통과분만 포함. 법률 풀스키마·실재고 확인 전 unpublished/inventory 0 유지."
     }
   ],
   "legal_blocks": [
-    "차단 1건: [탄력리프팅]본셉 레티놀 탄력(자동 점검 미통과: lab) — 라벨 갖추기 전엔 못 올림"
+    "MoCRA 남은 항목: 책임자(Responsible Person) 지정과 라벨 표기, 제조시설 등록(2년 주기 갱신), FDA 제품 리스팅(연 1회 갱신)"
   ],
   "suggestions": [
     {
       "action": "import_csv_as_draft",
-      "detail": "S등급 10건 CSV → Shopify Admin Products Import (Published=false)"
+      "detail": "게이트 통과 7건 CSV → Shopify Admin Products Import (Published=false)"
     },
     {
       "action": "resolve_legal_blocks",
-      "detail": "차단 1건: [탄력리프팅]본셉 레티놀 탄력(자동 점검 미통과: lab) — 라벨 갖추기 전엔 못 올림"
+      "detail": "MoCRA 남은 항목: 책임자(Responsible Person) 지정과 라벨 표기, 제조시설 등록(2년 주기 갱신), FDA 제품 리스팅(연 1회 갱신)"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "agent": "Ops-Prioritizer",
-  "generated_at": "2026-09-18T03:14:35.799561+00:00",
+  "generated_at": "2026-09-20T04:17:51.441595+00:00",
   "risk": "medium",
   "task_count": 5,
   "tasks": [
@@ -15,10 +15,11 @@
     },
     {
       "priority": 3,
-      "title": "S등급 10건 Shopify draft 등록",
-      "detail": "CSV Import · legal 차단 SKU 제외 · Variant Price는 원가 모델 후 입력",
+      "title": "S등급 10건 중 게이트 통과분 Shopify draft 등록",
+      "detail": "운영 4종 Export · blocked SKU 제외 · 법률 풀스키마/실재고 전 공개 금지",
       "refs": [
-        "data/daiso_real/shopify_s_products_import.csv",
+        "data/shopify_exports/manifest.json",
+        "data/shopify_exports/products.csv",
         "data/agents/listing_notes.json"
       ],
       "approve": "사람: Admin Import + 가격·재고"
@@ -26,16 +27,7 @@
     {
       "priority": 4,
       "title": "팀 조치 · 상품 소싱팀",
-      "detail": "직전 실행 67건 받아 성공 38건 · 받아보고 뷰티 아니라 버림 29건 · 이미 판정해서 안 받음 1641건 · 후보 출처 queue, 큐 3155건",
-      "refs": [
-        "data/dashboard_runtime.json"
-      ],
-      "approve": "사람: 팀 카드 조치 확인"
-    },
-    {
-      "priority": 4,
-      "title": "팀 조치 · 마케팅 조사팀",
-      "detail": "고시 표 1건 필요 — 1072554 [탄력리프팅]본셉 레티놀 탄력샷  https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072554",
+      "detail": "직전 실행 26건 받아 성공 4건 · 받아보고 뷰티 아니라 버림 22건 · 이미 판정해서 안 받음 1704건 · 후보 출처 queue, 큐 3136건",
       "refs": [
         "data/dashboard_runtime.json"
       ],
@@ -44,7 +36,16 @@
     {
       "priority": 4,
       "title": "팀 조치 · 리스팅 제작팀",
-      "detail": "카피 2건, 고시 1건, us_label 1건 이 막고 있음",
+      "detail": "카피 3건, 법률 1건 이 초안을 막고 있음 · MoCRA/FPLA 풀스키마가 공개 판매를 막고 있음 · Shopify Draft Action 6건 사람 승인 대기",
+      "refs": [
+        "data/dashboard_runtime.json"
+      ],
+      "approve": "사람: 팀 카드 조치 확인"
+    },
+    {
+      "priority": 4,
+      "title": "팀 조치 · 법률·규제팀",
+      "detail": "MoCRA 남은 항목: 책임자(Responsible Person) 지정과 라벨 표기, 제조시설 등록(2년 주기 갱신), FDA 제품 리스팅(연 1회 갱신)",
       "refs": [
         "data/dashboard_runtime.json"
       ],
@@ -61,19 +62,19 @@
       },
       {
         "n": 2,
-        "text": "S등급 10건 Shopify draft 등록 — CSV Import · legal 차단 SKU 제외 · Variant Price는 원가 모델 후 입력"
+        "text": "S등급 10건 중 게이트 통과분 Shopify draft 등록 — 운영 4종 Export · blocked SKU 제외 · 법률 풀스키마/실재고 전 공개 금지"
       },
       {
         "n": 3,
-        "text": "팀 조치 · 상품 소싱팀 — 직전 실행 67건 받아 성공 38건 · 받아보고 뷰티 아니라 버림 29건 · 이미 판정해서 안 받음 1641건 · 후보 출처 queue, 큐 3"
+        "text": "팀 조치 · 상품 소싱팀 — 직전 실행 26건 받아 성공 4건 · 받아보고 뷰티 아니라 버림 22건 · 이미 판정해서 안 받음 1704건 · 후보 출처 queue, 큐 31"
       },
       {
         "n": 4,
-        "text": "팀 조치 · 마케팅 조사팀 — 고시 표 1건 필요 — 1072554 [탄력리프팅]본셉 레티놀 탄력샷  https://www.daisomall.co.kr/pd/pdr/SCR_P"
+        "text": "팀 조치 · 리스팅 제작팀 — 카피 3건, 법률 1건 이 초안을 막고 있음 · MoCRA/FPLA 풀스키마가 공개 판매를 막고 있음 · Shopify Draft Action "
       },
       {
         "n": 5,
-        "text": "팀 조치 · 리스팅 제작팀 — 카피 2건, 고시 1건, us_label 1건 이 막고 있음"
+        "text": "팀 조치 · 법률·규제팀 — MoCRA 남은 항목: 책임자(Responsible Person) 지정과 라벨 표기, 제조시설 등록(2년 주기 갱신), FDA 제품 리스팅(연 "
       }
     ]
   }
