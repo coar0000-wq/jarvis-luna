@@ -2,7 +2,7 @@
 title: "Record a8183db65c · Pâte-dargile"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T11:26:59.441734+00:00
+updated_at: 2026-09-20T14:07:04.959504+00:00
 tags: [record, real-data]
 ---
 

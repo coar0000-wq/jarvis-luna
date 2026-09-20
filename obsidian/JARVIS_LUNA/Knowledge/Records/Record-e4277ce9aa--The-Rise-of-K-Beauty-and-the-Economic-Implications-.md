@@ -2,7 +2,7 @@
 title: "Record e4277ce9aa · The-Rise-of-K-Beauty-and-the-Economic-Implications-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T11:26:59.278345+00:00
+updated_at: 2026-09-20T14:07:04.789581+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 874b7327e1 · Protecting-Dynamic-Industrial-Robot-Cable-Carriers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T11:26:59.412058+00:00
+updated_at: 2026-09-20T14:07:04.929101+00:00
 tags: [record, real-data]
 ---
 

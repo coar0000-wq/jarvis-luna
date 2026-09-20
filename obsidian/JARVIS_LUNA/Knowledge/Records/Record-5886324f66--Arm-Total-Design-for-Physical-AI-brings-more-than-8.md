@@ -2,7 +2,7 @@
 title: "Record 5886324f66 · Arm-Total-Design-for-Physical-AI-brings-more-than-80-developers-togeth"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T11:26:59.591825+00:00
+updated_at: 2026-09-20T14:07:05.108522+00:00
 tags: [record, real-data]
 ---
 

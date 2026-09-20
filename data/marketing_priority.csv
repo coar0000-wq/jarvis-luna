@@ -6,6 +6,6 @@ rank,canonical_product_id,pd_no,product,keyword,intent,score,shopify_action
 5,CP000251,1072554,[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml,,purchase,96,선행 증거 보강
 6,CP000270,1075857,셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매,celderma|pdrn-mask|radiance-cream,purchase,94,2차 Draft Action 검토
 7,CP000214,1067495,[퀵 수분충전]VT PDRN 광채 토너 200 ml,,purchase,93,선행 증거 보강
-8,CP000109,1049285,[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입,vt-cosmetics|sleeping-mask|hyaluronic-acid,purchase,92,2차 Draft Action 검토
-9,CP000151,1059834,셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g,celderma|sheet-mask|collagen-mask,purchase,89,2차 Draft Action 검토
-10,CP000075,1042619,셀더마데일리 콜라겐 에센스겔 마스크 29 g,,purchase,88,선행 증거 보강
+8,CP000109,1049285,[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입,vt-cosmetics|sleeping-mask|hyaluronic-acid,purchase,91,2차 Draft Action 검토
+9,CP000151,1059834,셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g,celderma|sheet-mask|collagen-mask,purchase,90,2차 Draft Action 검토
+10,CP000155,1060211,바세린 모이스처라이징 클렌징 밀크 140 ml,,purchase,87,카피 생성 재시도

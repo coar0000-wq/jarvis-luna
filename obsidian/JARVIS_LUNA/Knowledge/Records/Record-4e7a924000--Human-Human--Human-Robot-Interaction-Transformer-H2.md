@@ -2,7 +2,7 @@
 title: "Record 4e7a924000 · Human-Human--Human-Robot-Interaction-Transformer-H2"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T11:26:58.743990+00:00
+updated_at: 2026-09-20T14:07:04.219145+00:00
 tags: [record, real-data]
 ---
 

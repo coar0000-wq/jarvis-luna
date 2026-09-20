@@ -2,7 +2,7 @@
 title: "Record 271554b406 · Interconnect-diameter-effects-on-the-thermo-mechanical-reliability-of-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T11:26:58.945223+00:00
+updated_at: 2026-09-20T14:07:04.432711+00:00
 tags: [record, real-data]
 ---
 

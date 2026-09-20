@@ -2,7 +2,7 @@
 title: "Record c9b4c198d6 · 안-유명해도-정말-중요한-성분-성분표에서-그냥-지나치면-안-되는-보습-성분-3가지"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T11:26:59.654127+00:00
+updated_at: 2026-09-20T14:07:05.168127+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record d4276b2db9 · Biosecurity-at-the-frontier"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T11:26:59.663746+00:00
+updated_at: 2026-09-20T14:07:05.177309+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 29e993bcad · The-Korean-Makeup-Products-You-Should-Absolutely-Tr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T11:26:59.135245+00:00
+updated_at: 2026-09-20T14:07:04.638275+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiYkFVX3lxTE9mazhXejlTOE5YMTJFZmhhY05iNVRsYk5RcjZHR2NVcnBCdE9XNFhkbjAtSWgxaVBKUVQxeWNHZm1veWhTUkJCOTduU1RVTzZfcjBzQk5RZVZCcm54M1pqUXp3?oc=5)
 
-**제목:** The Korean Makeup Products You Should Absolutely Try - vogue.com
+**제목:** The Korean Makeup Products You Should Absolutely Try - Vogue
 
-The Korean Makeup Products You Should Absolutely Try - vogue.com
+The Korean Makeup Products You Should Absolutely Try - Vogue
 
 **출처:** Source · Google Search
 

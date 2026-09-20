@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-09-20T19:37:17.471080+09:00",
+    "updated_at": "2026-09-20T23:05:23.977861+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -16,10 +16,10 @@
       "Google Shopping"
     ],
     "price_band_usd": {
-      "min": 8.99,
-      "p25": 20.3,
-      "median": 24.5,
-      "max": 279.0,
+      "min": 7.5,
+      "p25": 19.19,
+      "median": 23.0,
+      "max": 102.0,
       "n": 100,
       "source": "us.oliveyoung.com/best-sellers 실수집 100건 (2026-09-20)"
     },
@@ -29,14 +29,6 @@
     "oliveyoung_us_top": [
       {
         "rank": 1,
-        "product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-        "brand": "MEDIHEAL",
-        "price_usd": 20.99,
-        "rating": 4.8,
-        "review_count": 1075
-      },
-      {
-        "rank": 2,
         "product": "[11types] CORINGCO Toktokhara No Glue Eyelash",
         "brand": "CORINGCO",
         "price_usd": 12.0,
@@ -44,31 +36,15 @@
         "review_count": 11994
       },
       {
-        "rank": 3,
-        "product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
-        "brand": "lilyeve",
-        "price_usd": 23.76,
-        "rating": 4.7,
-        "review_count": 9
-      },
-      {
-        "rank": 4,
-        "product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
-        "brand": "AESTURA",
-        "price_usd": 32.0,
-        "rating": 5,
-        "review_count": 2
-      },
-      {
-        "rank": 5,
-        "product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
-        "brand": "REJURAN",
-        "price_usd": 41.6,
+        "rank": 2,
+        "product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
+        "brand": "MEDIHEAL",
+        "price_usd": 20.99,
         "rating": 4.8,
-        "review_count": 12
+        "review_count": 1075
       },
       {
-        "rank": 6,
+        "rank": 3,
         "product": "[7types] MEDIHEAL Toner Pad 100 + 100 Pads Double Set",
         "brand": "MEDIHEAL",
         "price_usd": 39.99,
@@ -76,15 +52,7 @@
         "review_count": 16228
       },
       {
-        "rank": 7,
-        "product": "[30shades] JUNG SAEM MOOL Essential Skin Nuder Cushion 0.49 oz.(14g)",
-        "brand": "JUNG SAEM MOOL",
-        "price_usd": 30.4,
-        "rating": 4.7,
-        "review_count": 386
-      },
-      {
-        "rank": 8,
+        "rank": 4,
         "product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
         "brand": "Dr.Althea",
         "price_usd": 27.0,
@@ -92,15 +60,7 @@
         "review_count": 1642
       },
       {
-        "rank": 9,
-        "product": "S.NATURE Aqua Squalane Moisturizing Cream 2.02 fl. oz.(60ml)",
-        "brand": "S.NATURE",
-        "price_usd": 18.2,
-        "rating": 4.9,
-        "review_count": 18
-      },
-      {
-        "rank": 10,
+        "rank": 5,
         "product": "[2sizes] ILLIYOON Ceramide Ato Concentrate Cream",
         "brand": "ILLIYOON",
         "price_usd": 21.24,
@@ -108,7 +68,7 @@
         "review_count": 4
       },
       {
-        "rank": 11,
+        "rank": 6,
         "product": "UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)",
         "brand": "UNOVE",
         "price_usd": 24.7,
@@ -116,15 +76,7 @@
         "review_count": 4
       },
       {
-        "rank": 12,
-        "product": "LABO-H Scalp Strengthening Shampoo 13.5 fl. oz.(400ml)",
-        "brand": "LABO-H",
-        "price_usd": 25.65,
-        "rating": 5,
-        "review_count": 3
-      },
-      {
-        "rank": 13,
+        "rank": 7,
         "product": "Torriden Cellmazing Low Molecular Collagen Firming Gel Mask 4ct 1.27 oz.(36g)",
         "brand": "Torriden",
         "price_usd": 23.0,
@@ -132,20 +84,68 @@
         "review_count": 1
       },
       {
-        "rank": 14,
-        "product": "BIOHEAL BOH Probioderm 3D Lifting Cream 1.69 fl. oz.(50ml)",
-        "brand": "BIOHEAL BOH",
-        "price_usd": 26.99,
-        "rating": 4.8,
-        "review_count": 8
+        "rank": 8,
+        "product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
+        "brand": "lilyeve",
+        "price_usd": 23.76,
+        "rating": 4.7,
+        "review_count": 9
       },
       {
-        "rank": 15,
+        "rank": 9,
         "product": "Torriden Dive-in Low Molecular Hyaluronic Acid Mask Sheet 10ct 0.91 fl. oz.(27ml)",
         "brand": "Torriden",
         "price_usd": 33.0,
         "rating": 4.8,
         "review_count": 5
+      },
+      {
+        "rank": 10,
+        "product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+        "brand": "AESTURA",
+        "price_usd": 32.0,
+        "rating": 5,
+        "review_count": 2
+      },
+      {
+        "rank": 11,
+        "product": "[30shades] JUNG SAEM MOOL Essential Skin Nuder Cushion 0.49 oz.(14g)",
+        "brand": "JUNG SAEM MOOL",
+        "price_usd": 30.4,
+        "rating": 4.7,
+        "review_count": 386
+      },
+      {
+        "rank": 12,
+        "product": "[2sizes] UNOVE Deep Damage Repair Shampoo Sweet Breeze",
+        "brand": "UNOVE",
+        "price_usd": 22.0,
+        "rating": 4.9,
+        "review_count": 11
+      },
+      {
+        "rank": 13,
+        "product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
+        "brand": "REJURAN",
+        "price_usd": 41.6,
+        "rating": 4.8,
+        "review_count": 12
+      },
+      {
+        "rank": 14,
+        "product": "ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set",
+        "brand": "ROUND LAB",
+        "price_usd": 19.99,
+        "rating": 4.8,
+        "review_count": 4
+      },
+      {
+        "rank": 15,
+        "product": "Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)",
+        "brand": "Arencia",
+        "price_usd": 17.6,
+        "rating": 4.7,
+        "review_count": 198
       }
     ],
     "open_beauty_facts_top": [
@@ -242,33 +242,15 @@
     ],
     "alt_us_channels_top": [
       {
-        "product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-        "brand": "MEDIHEAL",
-        "price_usd": 20.99,
-        "source": "us.oliveyoung.com/best-sellers 실수집"
-      },
-      {
         "product": "[11types] CORINGCO Toktokhara No Glue Eyelash",
         "brand": "CORINGCO",
         "price_usd": 12.0,
         "source": "us.oliveyoung.com/best-sellers 실수집"
       },
       {
-        "product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
-        "brand": "lilyeve",
-        "price_usd": 23.76,
-        "source": "us.oliveyoung.com/best-sellers 실수집"
-      },
-      {
-        "product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
-        "brand": "AESTURA",
-        "price_usd": 32.0,
-        "source": "us.oliveyoung.com/best-sellers 실수집"
-      },
-      {
-        "product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
-        "brand": "REJURAN",
-        "price_usd": 41.6,
+        "product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
+        "brand": "MEDIHEAL",
+        "price_usd": 20.99,
         "source": "us.oliveyoung.com/best-sellers 실수집"
       },
       {
@@ -278,21 +260,9 @@
         "source": "us.oliveyoung.com/best-sellers 실수집"
       },
       {
-        "product": "[30shades] JUNG SAEM MOOL Essential Skin Nuder Cushion 0.49 oz.(14g)",
-        "brand": "JUNG SAEM MOOL",
-        "price_usd": 30.4,
-        "source": "us.oliveyoung.com/best-sellers 실수집"
-      },
-      {
         "product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
         "brand": "Dr.Althea",
         "price_usd": 27.0,
-        "source": "us.oliveyoung.com/best-sellers 실수집"
-      },
-      {
-        "product": "S.NATURE Aqua Squalane Moisturizing Cream 2.02 fl. oz.(60ml)",
-        "brand": "S.NATURE",
-        "price_usd": 18.2,
         "source": "us.oliveyoung.com/best-sellers 실수집"
       },
       {
@@ -308,21 +278,15 @@
         "source": "us.oliveyoung.com/best-sellers 실수집"
       },
       {
-        "product": "LABO-H Scalp Strengthening Shampoo 13.5 fl. oz.(400ml)",
-        "brand": "LABO-H",
-        "price_usd": 25.65,
-        "source": "us.oliveyoung.com/best-sellers 실수집"
-      },
-      {
         "product": "Torriden Cellmazing Low Molecular Collagen Firming Gel Mask 4ct 1.27 oz.(36g)",
         "brand": "Torriden",
         "price_usd": 23.0,
         "source": "us.oliveyoung.com/best-sellers 실수집"
       },
       {
-        "product": "BIOHEAL BOH Probioderm 3D Lifting Cream 1.69 fl. oz.(50ml)",
-        "brand": "BIOHEAL BOH",
-        "price_usd": 26.99,
+        "product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
+        "brand": "lilyeve",
+        "price_usd": 23.76,
         "source": "us.oliveyoung.com/best-sellers 실수집"
       },
       {
@@ -332,21 +296,27 @@
         "source": "us.oliveyoung.com/best-sellers 실수집"
       },
       {
-        "product": "Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)",
-        "brand": "Arencia",
-        "price_usd": 17.6,
+        "product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+        "brand": "AESTURA",
+        "price_usd": 32.0,
         "source": "us.oliveyoung.com/best-sellers 실수집"
       },
       {
-        "product": "SKIN1004 Madagascar Centella Hyalu-cica Water-fit Sun Serum UV 1.69 fl. oz.(50ml)",
-        "brand": "SKIN1004",
-        "price_usd": 26.0,
+        "product": "[30shades] JUNG SAEM MOOL Essential Skin Nuder Cushion 0.49 oz.(14g)",
+        "brand": "JUNG SAEM MOOL",
+        "price_usd": 30.4,
         "source": "us.oliveyoung.com/best-sellers 실수집"
       },
       {
-        "product": "sonatural Powder4room All Day Tight Make Up Setting Fixx 2.53 fl. oz.(75ml)",
-        "brand": "sonatural",
+        "product": "[2sizes] UNOVE Deep Damage Repair Shampoo Sweet Breeze",
+        "brand": "UNOVE",
         "price_usd": 22.0,
+        "source": "us.oliveyoung.com/best-sellers 실수집"
+      },
+      {
+        "product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
+        "brand": "REJURAN",
+        "price_usd": 41.6,
         "source": "us.oliveyoung.com/best-sellers 실수집"
       },
       {
@@ -356,9 +326,39 @@
         "source": "us.oliveyoung.com/best-sellers 실수집"
       },
       {
-        "product": "beplain Mung Bean pH-Balanced Cleansing Foam 5.41 fl. oz.(160ml)",
-        "brand": "beplain",
-        "price_usd": 15.9,
+        "product": "Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)",
+        "brand": "Arencia",
+        "price_usd": 17.6,
+        "source": "us.oliveyoung.com/best-sellers 실수집"
+      },
+      {
+        "product": "BIOHEAL BOH Probioderm 3D Lifting Cream 1.69 fl. oz.(50ml)",
+        "brand": "BIOHEAL BOH",
+        "price_usd": 26.99,
+        "source": "us.oliveyoung.com/best-sellers 실수집"
+      },
+      {
+        "product": "SKIN1004 Madagascar Centella Hyalu-cica Water-fit Sun Serum UV 1.69 fl. oz.(50ml)",
+        "brand": "SKIN1004",
+        "price_usd": 26.0,
+        "source": "us.oliveyoung.com/best-sellers 실수집"
+      },
+      {
+        "product": "Torriden Cellmazing Vita C Brightening Mask 10ct 0.88 fl. oz.(26ml)",
+        "brand": "Torriden",
+        "price_usd": 29.7,
+        "source": "us.oliveyoung.com/best-sellers 실수집"
+      },
+      {
+        "product": "S.NATURE Aqua Squalane Moisturizing Cream 2.02 fl. oz.(60ml)",
+        "brand": "S.NATURE",
+        "price_usd": 18.2,
+        "source": "us.oliveyoung.com/best-sellers 실수집"
+      },
+      {
+        "product": "medicube Zero Pore Pad 70ct 5.46 oz.(155g)",
+        "brand": "medicube",
+        "price_usd": 19.8,
         "source": "us.oliveyoung.com/best-sellers 실수집"
       }
     ],
@@ -545,10 +545,10 @@
         "source": "youtube_manual"
       },
       {
-        "title": "책은 가장 가성비 좋은 인풋입니다 📚  | 브랜드 대표가 직접 고른 브랜딩 필독서",
+        "title": "브랜딩 감각을 키우고 싶다면👀 | 사업부터 브랜딩까지 분야별 필독서 추천",
         "url": "https://www.youtube.com/watch?v=hikTGKo2kZE",
         "channel": null,
-        "views": 22000,
+        "views": 23000,
         "note": "",
         "teams": [
           "design"
@@ -964,47 +964,6 @@
   },
   "keyword_board": [
     {
-      "seed": "korean sheet mask",
-      "s_product_count": 4,
-      "from_terms": [
-        "마스크"
-      ],
-      "intent": "commercial",
-      "intent_basis": "제형·성분 기반 구매 의도 키워드",
-      "trend": null,
-      "search_volume": null,
-      "trend_unavailable_reason": "Google Trends 공식 API 가 승인제 alpha 라 미연동. 검색 추세를 추정하지 않는다.",
-      "us_market_examples": [
-        {
-          "product": "Torriden Dive-in Low Molecular Hyaluronic Acid Mask Sheet 10ct 0.91 fl. oz.(27ml)",
-          "brand": "Torriden",
-          "price_usd": 33.0,
-          "us_rank": 15
-        }
-      ],
-      "us_example_count": 1,
-      "gemini_tags": [
-        "collagen mask",
-        "face mask",
-        "facial mask",
-        "firming mask",
-        "hydrating mask"
-      ],
-      "linked_s_products": [
-        "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
-        "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-        "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-        "셀더마데일리 콜라겐 에센스겔 마스크 29 g"
-      ],
-      "linked_canonical_product_ids": [
-        "CP000270",
-        "CP000109",
-        "CP000151",
-        "CP000075"
-      ],
-      "source": "다이소 S등급 상품명 + OliveYoung US 실수집 대조"
-    },
-    {
       "seed": "pdrn",
       "s_product_count": 3,
       "from_terms": [
@@ -1017,22 +976,22 @@
       "trend_unavailable_reason": "Google Trends 공식 API 가 승인제 alpha 라 미연동. 검색 추세를 추정하지 않는다.",
       "us_market_examples": [
         {
+          "product": "medicube PDRN Pink Collagen Capsule Cream 1.94 oz.(55g)",
+          "brand": "medicube",
+          "price_usd": 23.0,
+          "us_rank": 23
+        },
+        {
           "product": "Anua PDRN Hyaluronic Acid Capsule 100 Serum Refill Set 2.02 fl. oz.(60ml)",
           "brand": "Anua",
           "price_usd": 45.05,
-          "us_rank": 34
+          "us_rank": 28
         },
         {
-          "product": "VT PDRN Reedle Shot Firming Eye Cream 0.50 fl. oz.(15ml) Refill Set (+ Eye Cream Refill 0.50 fl. oz.(15ml))",
-          "brand": "VT",
-          "price_usd": 36.29,
-          "us_rank": 37
-        },
-        {
-          "product": "Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
+          "product": "Anua PDRN Hyaluronic Acid Serum 1.01 fl. oz.(30ml) + PDRN Cream 2.02 fl. oz.(60ml) Set",
           "brand": "Anua",
-          "price_usd": 24.0,
-          "us_rank": 47
+          "price_usd": 44.2,
+          "us_rank": 29
         }
       ],
       "us_example_count": 3,
@@ -1054,6 +1013,45 @@
       "source": "다이소 S등급 상품명 + OliveYoung US 실수집 대조"
     },
     {
+      "seed": "korean sheet mask",
+      "s_product_count": 3,
+      "from_terms": [
+        "마스크"
+      ],
+      "intent": "commercial",
+      "intent_basis": "제형·성분 기반 구매 의도 키워드",
+      "trend": null,
+      "search_volume": null,
+      "trend_unavailable_reason": "Google Trends 공식 API 가 승인제 alpha 라 미연동. 검색 추세를 추정하지 않는다.",
+      "us_market_examples": [
+        {
+          "product": "Torriden Dive-in Low Molecular Hyaluronic Acid Mask Sheet 10ct 0.91 fl. oz.(27ml)",
+          "brand": "Torriden",
+          "price_usd": 33.0,
+          "us_rank": 9
+        }
+      ],
+      "us_example_count": 1,
+      "gemini_tags": [
+        "collagen mask",
+        "face mask",
+        "facial mask",
+        "firming mask",
+        "hydrating mask"
+      ],
+      "linked_s_products": [
+        "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
+        "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
+        "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g"
+      ],
+      "linked_canonical_product_ids": [
+        "CP000270",
+        "CP000109",
+        "CP000151"
+      ],
+      "source": "다이소 S등급 상품명 + OliveYoung US 실수집 대조"
+    },
+    {
       "seed": "korean ampoule",
       "s_product_count": 2,
       "from_terms": [
@@ -1069,19 +1067,19 @@
           "product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
           "brand": "lilyeve",
           "price_usd": 23.76,
-          "us_rank": 3
+          "us_rank": 8
         },
         {
           "product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
           "brand": "REJURAN",
           "price_usd": 41.6,
-          "us_rank": 5
+          "us_rank": 13
         },
         {
-          "product": "REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)",
-          "brand": "REJURAN",
-          "price_usd": 55.0,
-          "us_rank": 27
+          "product": "SKIN1004 Madagascar Centella Ampoule 3.38 fl. oz.(100ml)",
+          "brand": "SKIN1004",
+          "price_usd": 25.0,
+          "us_rank": 36
         }
       ],
       "us_example_count": 3,
@@ -1114,21 +1112,21 @@
       "trend_unavailable_reason": "Google Trends 공식 API 가 승인제 alpha 라 미연동. 검색 추세를 추정하지 않는다.",
       "us_market_examples": [
         {
+          "product": "ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set",
+          "brand": "ROUND LAB",
+          "price_usd": 19.99,
+          "us_rank": 14
+        },
+        {
           "product": "SKIN1004 Madagascar Centella Hyalu-cica Water-fit Sun Serum UV 1.69 fl. oz.(50ml)",
           "brand": "SKIN1004",
           "price_usd": 26.0,
           "us_rank": 17
         },
         {
-          "product": "ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set",
-          "brand": "ROUND LAB",
-          "price_usd": 19.99,
-          "us_rank": 19
-        },
-        {
-          "product": "Torriden Dive-in Low Molecule Hyaluronic Acid Serum 1.69 fl. oz.(50ml)",
-          "brand": "Torriden",
-          "price_usd": 24.0,
+          "product": "numbuzin No.5+ Glutathione Vitamin Concentrated Serum 1.01 fl. oz.(30ml)",
+          "brand": "numbuzin",
+          "price_usd": 15.0,
           "us_rank": 21
         }
       ],
@@ -1162,22 +1160,22 @@
       "trend_unavailable_reason": "Google Trends 공식 API 가 승인제 alpha 라 미연동. 검색 추세를 추정하지 않는다.",
       "us_market_examples": [
         {
-          "product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
-          "brand": "AESTURA",
-          "price_usd": 32.0,
-          "us_rank": 4
-        },
-        {
           "product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
           "brand": "Dr.Althea",
           "price_usd": 27.0,
-          "us_rank": 8
+          "us_rank": 4
         },
         {
-          "product": "S.NATURE Aqua Squalane Moisturizing Cream 2.02 fl. oz.(60ml)",
-          "brand": "S.NATURE",
-          "price_usd": 18.2,
-          "us_rank": 9
+          "product": "[2sizes] ILLIYOON Ceramide Ato Concentrate Cream",
+          "brand": "ILLIYOON",
+          "price_usd": 21.24,
+          "us_rank": 5
+        },
+        {
+          "product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+          "brand": "AESTURA",
+          "price_usd": 32.0,
+          "us_rank": 10
         }
       ],
       "us_example_count": 3,
@@ -1199,51 +1197,6 @@
       "source": "다이소 S등급 상품명 + OliveYoung US 실수집 대조"
     },
     {
-      "seed": "collagen",
-      "s_product_count": 2,
-      "from_terms": [
-        "콜라겐"
-      ],
-      "intent": "commercial",
-      "intent_basis": "제형·성분 기반 구매 의도 키워드",
-      "trend": null,
-      "search_volume": null,
-      "trend_unavailable_reason": "Google Trends 공식 API 가 승인제 alpha 라 미연동. 검색 추세를 추정하지 않는다.",
-      "us_market_examples": [
-        {
-          "product": "Torriden Cellmazing Low Molecular Collagen Firming Gel Mask 4ct 1.27 oz.(36g)",
-          "brand": "Torriden",
-          "price_usd": 23.0,
-          "us_rank": 13
-        },
-        {
-          "product": "[2types] MEDIHEAL Collagen Capsule Eye Patch 60ct 3.73 oz.(106g)",
-          "brand": "MEDIHEAL",
-          "price_usd": 24.5,
-          "us_rank": 54
-        },
-        {
-          "product": "Biodance Bio Collagen-Real Deep Mask 4ct 1.19 oz.(34g)",
-          "brand": "Biodance",
-          "price_usd": 19.0,
-          "us_rank": 78
-        }
-      ],
-      "us_example_count": 3,
-      "gemini_tags": [
-        "collagen mask"
-      ],
-      "linked_s_products": [
-        "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-        "셀더마데일리 콜라겐 에센스겔 마스크 29 g"
-      ],
-      "linked_canonical_product_ids": [
-        "CP000151",
-        "CP000075"
-      ],
-      "source": "다이소 S등급 상품명 + OliveYoung US 실수집 대조"
-    },
-    {
       "seed": "korean toner",
       "s_product_count": 1,
       "from_terms": [
@@ -1259,16 +1212,22 @@
           "product": "[7types] MEDIHEAL Toner Pad 100 + 100 Pads Double Set",
           "brand": "MEDIHEAL",
           "price_usd": 39.99,
-          "us_rank": 6
+          "us_rank": 3
         },
         {
           "product": "ROUND LAB 1025 Dokdo Toner 6.76 fl. oz.(200ml)",
           "brand": "ROUND LAB",
           "price_usd": 14.45,
-          "us_rank": 81
+          "us_rank": 52
+        },
+        {
+          "product": "Anua Rice 70 Glow Milky Toner 8.45 fl. oz.(250ml)",
+          "brand": "Anua",
+          "price_usd": 22.0,
+          "us_rank": 57
         }
       ],
-      "us_example_count": 2,
+      "us_example_count": 3,
       "gemini_tags": [],
       "linked_s_products": [
         "[퀵 수분충전]VT PDRN 광채 토너 200 ml"
@@ -1279,10 +1238,10 @@
       "source": "다이소 S등급 상품명 + OliveYoung US 실수집 대조"
     },
     {
-      "seed": "korean essence",
+      "seed": "collagen",
       "s_product_count": 1,
       "from_terms": [
-        "에센스"
+        "콜라겐"
       ],
       "intent": "commercial",
       "intent_basis": "제형·성분 기반 구매 의도 키워드",
@@ -1291,25 +1250,74 @@
       "trend_unavailable_reason": "Google Trends 공식 API 가 승인제 alpha 라 미연동. 검색 추세를 추정하지 않는다.",
       "us_market_examples": [
         {
-          "product": "VT PDRN Essence 100 1.69 fl. oz.(50ml) Set (+PDRN Essence 100 0.06 fl. oz.(2ml) + 100 Reedle Shot 0.06 fl. oz.(2ml))",
-          "brand": "VT",
-          "price_usd": 44.88,
-          "us_rank": 79
+          "product": "Torriden Cellmazing Low Molecular Collagen Firming Gel Mask 4ct 1.27 oz.(36g)",
+          "brand": "Torriden",
+          "price_usd": 23.0,
+          "us_rank": 7
         },
         {
-          "product": "Ryo Root:Gen Hair Loss Care Scalp Essence 2.7 fl. oz.(80ml)",
-          "brand": "Ryo",
-          "price_usd": 21.88,
-          "us_rank": 100
+          "product": "medicube PDRN Pink Collagen Capsule Cream 1.94 oz.(55g)",
+          "brand": "medicube",
+          "price_usd": 23.0,
+          "us_rank": 23
+        },
+        {
+          "product": "[2types] MEDIHEAL Collagen Capsule Eye Patch 60ct 3.73 oz.(106g)",
+          "brand": "MEDIHEAL",
+          "price_usd": 24.5,
+          "us_rank": 70
         }
       ],
-      "us_example_count": 2,
-      "gemini_tags": [],
+      "us_example_count": 3,
+      "gemini_tags": [
+        "collagen mask"
+      ],
       "linked_s_products": [
-        "셀더마데일리 콜라겐 에센스겔 마스크 29 g"
+        "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g"
       ],
       "linked_canonical_product_ids": [
-        "CP000075"
+        "CP000151"
+      ],
+      "source": "다이소 S등급 상품명 + OliveYoung US 실수집 대조"
+    },
+    {
+      "seed": "korean cleanser",
+      "s_product_count": 1,
+      "from_terms": [
+        "클렌징"
+      ],
+      "intent": "commercial",
+      "intent_basis": "제형·성분 기반 구매 의도 키워드",
+      "trend": null,
+      "search_volume": null,
+      "trend_unavailable_reason": "Google Trends 공식 API 가 승인제 alpha 라 미연동. 검색 추세를 추정하지 않는다.",
+      "us_market_examples": [
+        {
+          "product": "ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set",
+          "brand": "ROUND LAB",
+          "price_usd": 19.99,
+          "us_rank": 14
+        },
+        {
+          "product": "ROUND LAB 1025 Dokdo Cleanser 5.07 fl. oz.(150ml)",
+          "brand": "ROUND LAB",
+          "price_usd": 12.75,
+          "us_rank": 40
+        },
+        {
+          "product": "AESTURA Atobarrier365 Foaming Cleanser 5.07 fl. oz.(150ml)",
+          "brand": "AESTURA",
+          "price_usd": 21.0,
+          "us_rank": 62
+        }
+      ],
+      "us_example_count": 3,
+      "gemini_tags": [],
+      "linked_s_products": [
+        "바세린 모이스처라이징 클렌징 밀크 140 ml"
+      ],
+      "linked_canonical_product_ids": [
+        "CP000155"
       ],
       "source": "다이소 S등급 상품명 + OliveYoung US 실수집 대조"
     }
@@ -1328,7 +1336,7 @@
       "cost_krw": 3000,
       "landed_cost_usd": null,
       "breakeven_usd": null,
-      "suggested_price_usd": 20.3,
+      "suggested_price_usd": 19.19,
       "margin_pct": null,
       "shopify_action": "1차 Draft Action 검토",
       "ad_keywords": [
@@ -1358,7 +1366,7 @@
       "cost_krw": 5000,
       "landed_cost_usd": null,
       "breakeven_usd": null,
-      "suggested_price_usd": 20.3,
+      "suggested_price_usd": 19.19,
       "margin_pct": null,
       "shopify_action": "1차 Draft Action 검토",
       "ad_keywords": [
@@ -1388,7 +1396,7 @@
       "cost_krw": 3000,
       "landed_cost_usd": null,
       "breakeven_usd": null,
-      "suggested_price_usd": 20.3,
+      "suggested_price_usd": 19.19,
       "margin_pct": null,
       "shopify_action": "1차 Draft Action 검토",
       "ad_keywords": [
@@ -1418,7 +1426,7 @@
       "cost_krw": 5000,
       "landed_cost_usd": null,
       "breakeven_usd": null,
-      "suggested_price_usd": 20.3,
+      "suggested_price_usd": 19.19,
       "margin_pct": null,
       "shopify_action": "1차 Draft Action 검토",
       "ad_keywords": [
@@ -1448,7 +1456,7 @@
       "cost_krw": 5000,
       "landed_cost_usd": null,
       "breakeven_usd": null,
-      "suggested_price_usd": 20.3,
+      "suggested_price_usd": 19.19,
       "margin_pct": null,
       "shopify_action": "선행 증거 보강",
       "ad_keywords": [],
@@ -1475,7 +1483,7 @@
       "cost_krw": 2000,
       "landed_cost_usd": null,
       "breakeven_usd": null,
-      "suggested_price_usd": 20.3,
+      "suggested_price_usd": 19.19,
       "margin_pct": null,
       "shopify_action": "2차 Draft Action 검토",
       "ad_keywords": [
@@ -1505,7 +1513,7 @@
       "cost_krw": 5000,
       "landed_cost_usd": null,
       "breakeven_usd": null,
-      "suggested_price_usd": 20.3,
+      "suggested_price_usd": 19.19,
       "margin_pct": null,
       "shopify_action": "선행 증거 보강",
       "ad_keywords": [],
@@ -1526,13 +1534,13 @@
       "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
       "name_en": "VT Super Hyalon Sleeping Mask 4ml 6ea",
       "bucket": "스킨케어",
-      "score": 92,
+      "score": 91,
       "rating": 4.8,
       "review_count": 3884,
       "cost_krw": 3000,
       "landed_cost_usd": null,
       "breakeven_usd": null,
-      "suggested_price_usd": 20.3,
+      "suggested_price_usd": 19.19,
       "margin_pct": null,
       "shopify_action": "2차 Draft Action 검토",
       "ad_keywords": [
@@ -1556,13 +1564,13 @@
       "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
       "name_en": "Celderma Daily Transforming Firming Collagen Mask 28g",
       "bucket": "마스크팩",
-      "score": 89,
+      "score": 90,
       "rating": 4.8,
       "review_count": 1687,
       "cost_krw": 2000,
       "landed_cost_usd": null,
       "breakeven_usd": null,
-      "suggested_price_usd": 20.3,
+      "suggested_price_usd": 19.19,
       "margin_pct": null,
       "shopify_action": "2차 Draft Action 검토",
       "ad_keywords": [
@@ -1581,40 +1589,74 @@
     },
     {
       "rank": 10,
-      "canonical_product_id": "CP000075",
-      "pd_no": "1042619",
-      "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
+      "canonical_product_id": "CP000155",
+      "pd_no": "1060211",
+      "name": "바세린 모이스처라이징 클렌징 밀크 140 ml",
       "name_en": null,
-      "bucket": "마스크팩",
-      "score": 88,
-      "rating": 4.7,
-      "review_count": 2383,
-      "cost_krw": 1000,
+      "bucket": "클렌징",
+      "score": 87,
+      "rating": 4.8,
+      "review_count": 2832,
+      "cost_krw": 5000,
       "landed_cost_usd": null,
       "breakeven_usd": null,
-      "suggested_price_usd": 20.3,
+      "suggested_price_usd": 19.19,
       "margin_pct": null,
-      "shopify_action": "선행 증거 보강",
+      "shopify_action": "카피 생성 재시도",
       "ad_keywords": [],
-      "ad_keywords_source": "ontology 선행 게이트 차단",
-      "copy_status": "skipped_prerequisite",
-      "agent_blocked_by": [
-        "legal"
-      ],
+      "ad_keywords_source": "카피 미생성",
+      "copy_status": "missing",
+      "agent_blocked_by": [],
       "listing_ready": false,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619"
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060211"
     }
   ],
   "competitor_watch": [
+    {
+      "name": "[7types] MEDIHEAL Toner Pad 100 + 100 Pads Double Set",
+      "brand": "MEDIHEAL",
+      "price_usd": 39.99,
+      "rating": 4.8,
+      "review_count": 16228,
+      "us_rank": 3,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 3위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA32407466",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
+      "brand": "Dr.Althea",
+      "price_usd": 27.0,
+      "rating": 4.8,
+      "review_count": 1642,
+      "us_rank": 4,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 4위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA73639757",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "[2sizes] ILLIYOON Ceramide Ato Concentrate Cream",
+      "brand": "ILLIYOON",
+      "price_usd": 21.24,
+      "rating": 5,
+      "review_count": 4,
+      "us_rank": 5,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 5위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA39684183",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
     {
       "name": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
       "brand": "MEDIHEAL",
       "price_usd": 20.99,
       "rating": 4.8,
       "review_count": 1075,
-      "us_rank": 1,
+      "us_rank": 2,
       "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 1위 · 마스크팩 동일 포지션",
+      "why": "us.oliveyoung.com/best-sellers 실수집 2위 · 마스크팩 동일 포지션",
       "url": "https://us.oliveyoung.com/products/UA48723304",
       "source": "us.oliveyoung.com/best-sellers 실수집"
     },
@@ -1624,9 +1666,9 @@
       "price_usd": 24.7,
       "rating": 5,
       "review_count": 4,
-      "us_rank": 11,
+      "us_rank": 6,
       "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 11위 · 마스크팩 동일 포지션",
+      "why": "us.oliveyoung.com/best-sellers 실수집 6위 · 마스크팩 동일 포지션",
       "url": "https://us.oliveyoung.com/products/UA39329211",
       "source": "us.oliveyoung.com/best-sellers 실수집"
     },
@@ -1636,53 +1678,54 @@
       "price_usd": 23.0,
       "rating": 3,
       "review_count": 1,
-      "us_rank": 13,
+      "us_rank": 7,
       "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 13위 · 마스크팩 동일 포지션",
+      "why": "us.oliveyoung.com/best-sellers 실수집 7위 · 마스크팩 동일 포지션",
       "url": "https://us.oliveyoung.com/products/UA79357553",
       "source": "us.oliveyoung.com/best-sellers 실수집"
     },
     {
-      "name": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
-      "brand": "lilyeve",
-      "price_usd": 23.76,
-      "rating": 4.7,
-      "review_count": 9,
-      "us_rank": 3,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 3위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA98417491",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
-      "brand": "AESTURA",
-      "price_usd": 32.0,
-      "rating": 5,
-      "review_count": 2,
-      "us_rank": 4,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 4위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA71026007",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
-      "brand": "REJURAN",
-      "price_usd": 41.6,
+      "name": "ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set",
+      "brand": "ROUND LAB",
+      "price_usd": 19.99,
       "rating": 4.8,
-      "review_count": 12,
-      "us_rank": 5,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 5위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA67698081",
+      "review_count": 4,
+      "us_rank": 14,
+      "daiso_bucket": "클렌징",
+      "why": "us.oliveyoung.com/best-sellers 실수집 14위 · 클렌징 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA40428614",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "beplain Mung Bean pH-Balanced Cleansing Foam 5.41 fl. oz.(160ml)",
+      "brand": "beplain",
+      "price_usd": 15.9,
+      "rating": 4.6,
+      "review_count": 17,
+      "us_rank": 22,
+      "daiso_bucket": "클렌징",
+      "why": "us.oliveyoung.com/best-sellers 실수집 22위 · 클렌징 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA34557979",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "ROUND LAB 1025 Dokdo Cleanser 5.07 fl. oz.(150ml)",
+      "brand": "ROUND LAB",
+      "price_usd": 12.75,
+      "rating": 4.7,
+      "review_count": 10,
+      "us_rank": 40,
+      "daiso_bucket": "클렌징",
+      "why": "us.oliveyoung.com/best-sellers 실수집 40위 · 클렌징 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA10245858",
       "source": "us.oliveyoung.com/best-sellers 실수집"
     }
   ],
   "weekly_actions": [
     "Shopify Draft Action 6건의 payload hash를 검토하고 사람 승인",
-    "AI 선행 게이트 차단 3건의 증거 보강: gosi, legal, us_label",
-    "시장 가격대 100건 기준 중앙값 $24.5 주 1회 확인",
+    "AI 선행 게이트 차단 2건의 증거 보강: gosi, legal, us_label",
+    "카피 생성 실패 1건만 shopify-listing-copy 재실행",
+    "시장 가격대 100건 기준 중앙값 $23.0 주 1회 확인",
     "묶음 구매 유도용 무료배송 최소 주문금액 설정 (낱개 배송 시 적자 구조라 필수)"
   ],
   "health": {

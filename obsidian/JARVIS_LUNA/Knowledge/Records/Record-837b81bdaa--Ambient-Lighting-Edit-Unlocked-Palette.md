@@ -2,7 +2,7 @@
 title: "Record 837b81bdaa · Ambient-Lighting-Edit-Unlocked-Palette"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T11:26:59.585793+00:00
+updated_at: 2026-09-20T14:07:05.102734+00:00
 tags: [record, real-data]
 ---
 

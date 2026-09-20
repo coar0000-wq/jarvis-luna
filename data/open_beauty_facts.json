@@ -3,7 +3,7 @@
   "license": "Open Database License (ODbL) - 재사용 허용",
   "auth_required": false,
   "note": "수요 신호가 아니라 상품 정보 보강용 오픈데이터. 각 항목은 바코드(code)와 원본 URL 로 검증 가능하다.",
-  "collected_at": "2026-09-20T09:03:42.758494+00:00",
+  "collected_at": "2026-09-20T13:58:52.427086+00:00",
   "category_map": {
     "스킨케어": "skin-care",
     "마스크팩": "face-masks",
@@ -232,30 +232,30 @@
       "url": "https://world.openbeautyfacts.org/product/8683420170045"
     },
     {
-      "code": "4260199896983",
-      "product_name": "Eye Pad Mask Paradise Punch",
-      "brands": "Yeauty",
+      "code": "9341106912899",
+      "product_name": "OXX Coconut face mask",
+      "brands": "Anko",
       "category": "마스크팩",
       "obf_category": "face-masks",
       "countries": [
-        "Netherlands"
+        "Australia"
       ],
-      "ingredients_text": "Glycerin, Carrageenan, 1,2-Hexanediol, Xanthan Gum, Propylene Glycol, Sodium Benzoate, Citrullus Lanatus Fruit Extract, Citrulline, Caprylyl Glycol, Potassium Sorbate, Butylene Glycol, Caprylhydroxamic Acid, Sodium Hyaluronate, Carica Papaya Fruit Extract, CI 15985, CI 77007, CI 77891, CI 73360, CI 77492, CI 74160, Parfum, Polysorbate 80, Caprylyl Glycol",
-      "image_url": "https://images.openbeautyfacts.org/images/products/426/019/989/6983/front_en.8.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/4260199896983"
+      "ingredients_text": "Aqua, Glycerin, Glycereth-26, 1,2-Hexanediol, Hydroxyacetophenone, Cocos Nucifera (Coconut) Oil, Xanthan Gum, Polysorbate 20, Allantoin, Disodium EDTA, Fragrance, Coumarin.",
+      "image_url": "https://images.openbeautyfacts.org/images/products/934/110/691/2899/front_en.3.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/9341106912899"
     },
     {
-      "code": "0690864505263",
-      "product_name": "KOREACO Matcha Mucize Bubble Clay Yüz Maskesi",
-      "brands": "KOREACO",
+      "code": "5902853395195",
+      "product_name": "Activator of Youth",
+      "brands": "Biotaniqe Professional",
       "category": "마스크팩",
       "obf_category": "face-masks",
       "countries": [
-        "Turkey"
+        "Poland"
       ],
-      "ingredients_text": "Aqua, Sodium Laureth Sulfate, Disiloxane, Kaolin, Acrylates Copolymer, Glycerin, Cocamide DEA, Cocamidopropyl Betaine, Decyl Glucoside, PEG-7 Glyceryl Cocoate, Parfum, Triethanolamine, CI 11710, CI 74260, Tetrasodium EDTA, Camellia Sinensis Leaf Extract, Hydrolyzed Collagen, Triethylene Glycol, Benzyl Alcohol, Propylene Glycol, Sodium Hyaluronate, Tocopherol, Magnesium Nitrate, Magnesium Chloride, Methylchloroisothiazolinone, Methylisothiazolinone, Phenoxyethanol, Tetramethyl Acetyloctahydronaphthalenes, Benzyl Salicylate.",
-      "image_url": "https://images.openbeautyfacts.org/images/products/069/086/450/5263/front_tr.9.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/0690864505263"
+      "ingredients_text": "Aqua, Propylene Glycol, Glycerin, Lactobacillus Ferment, Trehalose, Retinol, Acacia Seyal Gum Extract, Lactobacillus/Acerola Cherry Ferment. Leuconostoc/Radish Root Ferment Filtrate, Phospholipids, 1,2-Hexanediol, Hydroxyacetophenone, Caprylic/Capric Triglyceride, Ethylhexylglycerin, Caprylyl Glycol, Dipropylene Glycol, Chondrus Crispus, Glucomannan, Chondrus Crispus Powder, Xanthan Gum, Polysorbate 80, Sodium Laureth Sulfate, Synthetic Fluorphlogopite, Tin Oxide, Benzoic Acid, Phenoxyethanol, Potassium Sorbate, Potassium Chloride, Chlorphenesin, CI 12490, CI 77491, CI 77891, CI 73360.",
+      "image_url": "",
+      "url": "https://world.openbeautyfacts.org/product/5902853395195"
     },
     {
       "code": "3337875597333",
@@ -1427,19 +1427,6 @@
       "url": "https://world.openbeautyfacts.org/product/4005900243553"
     },
     {
-      "code": "59095842",
-      "product_name": "Dove Advanced Care Anti-Transpirant Deodorant Roller Original 50 ML",
-      "brands": "Dove",
-      "category": "데오드란트",
-      "obf_category": "deodorants",
-      "countries": [
-        "Netherlands"
-      ],
-      "ingredients_text": "Aqua, Glycerin, Aluminum Sesquichlorohydrate, Helianthus Annuus Seed Oil, Steareth-2, Parfum, Steareth-20, Calcium Chloride, Glycine, Disodium EDTA, Pentaerythrity Tetra-di-butyl Hydroxyhydrocinnamate, Alpha-Isomethyl Ionone, Benzyl Alcohol, Benzyl Benzoate, Benzyl Salicylate, Citronellol, Eugenol, Geraniol, Hexyl Cinnamal, Hydroxycitronellal, Limonene, Linalool",
-      "image_url": "https://images.openbeautyfacts.org/images/products/000/005/909/5842/front_en.41.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/59095842"
-    },
-    {
       "code": "8714789913919",
       "product_name": "Dermo Protector",
       "brands": "Sanex",
@@ -1469,6 +1456,19 @@
       "ingredients_text": "ISOBUTANE\nALUMINUM CHLOROHYDRATE\nISODODECANE\nCOCOS NUCIFERA OIL / COCONUT OIL  PARFUM / FRAGRANCE\nISOPROPYL PALMITATE\nPANTHENOL\nDISTEARDIMONIUM HECTORITE\nPROPYLENE CARBONATE\nDIMETHICONE\nDIMETHICONOL\nBENZYL ALCOHOL\nBENZYL SALICYLATE\nCITRONELLOL\nGERANIOL\nHEXYL CINNAMAL\nLIMONENE\nLINALOOL\n(F.I.L. C267387/1)",
       "image_url": "https://images.openbeautyfacts.org/images/products/360/055/114/6188/front_fr.13.400.jpg",
       "url": "https://world.openbeautyfacts.org/product/3600551146188"
+    },
+    {
+      "code": "59095842",
+      "product_name": "Dove Advanced Care Anti-Transpirant Deodorant Roller Original 50 ML",
+      "brands": "Dove",
+      "category": "데오드란트",
+      "obf_category": "deodorants",
+      "countries": [
+        "Netherlands"
+      ],
+      "ingredients_text": "Aqua, Glycerin, Aluminum Sesquichlorohydrate, Helianthus Annuus Seed Oil, Steareth-2, Parfum, Steareth-20, Calcium Chloride, Glycine, Disodium EDTA, Pentaerythrity Tetra-di-butyl Hydroxyhydrocinnamate, Alpha-Isomethyl Ionone, Benzyl Alcohol, Benzyl Benzoate, Benzyl Salicylate, Citronellol, Eugenol, Geraniol, Hexyl Cinnamal, Hydroxycitronellal, Limonene, Linalool",
+      "image_url": "https://images.openbeautyfacts.org/images/products/000/005/909/5842/front_en.41.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/59095842"
     },
     {
       "code": "0012044038918",

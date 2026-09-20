@@ -2,7 +2,7 @@
 title: "Record 9e554997cd · Technical-Report-One-Step-Drifting-Action-Heads-for-GR00T-N17"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T11:26:59.008253+00:00
+updated_at: 2026-09-20T14:07:04.500502+00:00
 tags: [record, real-data]
 ---
 

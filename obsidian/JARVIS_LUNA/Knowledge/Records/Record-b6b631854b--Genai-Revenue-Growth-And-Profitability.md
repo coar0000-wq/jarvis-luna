@@ -2,7 +2,7 @@
 title: "Record b6b631854b · Genai-Revenue-Growth-And-Profitability"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T11:26:59.577273+00:00
+updated_at: 2026-09-20T14:07:05.094622+00:00
 tags: [record, real-data]
 ---
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T09:03:03.926496+00:00",
+  "generated_at": "2026-09-20T13:58:21.091162+00:00",
   "generator": "scripts/ingest_youtube_channels.py",
   "입력": "data/manual/youtube_channels.txt",
   "robots": "youtube.com/robots.txt 의 Disallow 목록에 /@ 와 /channel/ 은 없다. 막힌 것은 /feeds/videos.xml, /results, /youtubei/ 등이다. 지정된 채널만 하나씩 본다. 2026-09-06 확인.",
@@ -17,7 +17,16 @@
     "listing": 30
   },
   "팀_고정": "한 번 정한 팀은 유지한다. 유튜브가 제목을 A/B 로 돌려서 같은 영상이 회차마다 다른 팀으로 가는 일이 있었다.",
-  "제목_바뀐_영상": [],
+  "제목_바뀐_영상": [
+    {
+      "video_id": "hikTGKo2kZE",
+      "before": "책은 가장 가성비 좋은 인풋입니다 📚  | 브랜드 대표가 직접 고른 브랜딩 필독서",
+      "after": "브랜딩 감각을 키우고 싶다면👀 | 사업부터 브랜딩까지 분야별 필독서 추천",
+      "kept_teams": [
+        "design"
+      ]
+    }
+  ],
   "top_by_views": [
     {
       "video_id": "m_RWLfHCA2I",
@@ -82,8 +91,8 @@
     {
       "video_id": "IKQg1JCx5uY",
       "title": "캐리어 구매 체크리스트👍 ! 이것만 알면 된다!😍 여행용✈ 캐리어👜 브랜드 Top3 추천👍! 리모와라고 다 좋은게 아니다?!",
-      "views_text": "492K",
-      "published_text": "6y ago",
+      "views_text": "492K views",
+      "published_text": "6 years ago",
       "views": 492000,
       "url": "https://www.youtube.com/watch?v=IKQg1JCx5uY",
       "channel": "땡스큐레이터",
@@ -106,9 +115,9 @@
     {
       "video_id": "GGg61sdEjeI",
       "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
-      "views_text": "307K views",
+      "views_text": "310K views",
       "published_text": "3 weeks ago",
-      "views": 307000,
+      "views": 310000,
       "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
       "channel": "uxpeak",
       "teams": [
@@ -203,7 +212,7 @@
   "items": [
     {
       "stale": false,
-      "last_ok_at": "2026-09-20T09:02:42.982406+00:00",
+      "last_ok_at": "2026-09-20T13:57:59.923207+00:00",
       "url": "https://www.youtube.com/@uxpeak",
       "note": "UX/UI 리디자인·전환율 (사용자 지정)",
       "team_hint": "design",
@@ -212,14 +221,14 @@
       "subscribers": "124K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-20T09:02:42.982427+00:00",
+      "checked_at": "2026-09-20T13:57:59.923233+00:00",
       "videos": [
         {
           "video_id": "GGg61sdEjeI",
           "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
-          "views_text": "307K views",
+          "views_text": "310K views",
           "published_text": "3 weeks ago",
-          "views": 307000,
+          "views": 310000,
           "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
           "channel": "uxpeak",
           "teams": [
@@ -470,7 +479,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-20T09:02:48.266962+00:00",
+      "last_ok_at": "2026-09-20T13:58:05.301192+00:00",
       "url": "https://www.youtube.com/@%EB%95%A1%ED%81%90%EC%B1%84%EB%84%90",
       "note": "땡스큐레이터 - 스몰 브랜드 브랜딩·수출·견적. 팀은 영상마다 자동 분류",
       "team_hint": "",
@@ -479,14 +488,14 @@
       "subscribers": "18.5K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-20T09:02:48.266977+00:00",
+      "checked_at": "2026-09-20T13:58:05.301208+00:00",
       "videos": [
         {
           "video_id": "hikTGKo2kZE",
-          "title": "책은 가장 가성비 좋은 인풋입니다 📚  | 브랜드 대표가 직접 고른 브랜딩 필독서",
-          "views_text": "22K",
-          "published_text": "2d ago",
-          "views": 22000,
+          "title": "브랜딩 감각을 키우고 싶다면👀 | 사업부터 브랜딩까지 분야별 필독서 추천",
+          "views_text": "23K views",
+          "published_text": "3 days ago",
+          "views": 23000,
           "url": "https://www.youtube.com/watch?v=hikTGKo2kZE",
           "channel": "땡스큐레이터",
           "teams": [
@@ -496,8 +505,8 @@
         {
           "video_id": "CSr4DYGUPOM",
           "title": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
-          "views_text": "84K",
-          "published_text": "2w ago",
+          "views_text": "84K views",
+          "published_text": "2 weeks ago",
           "views": 84000,
           "url": "https://www.youtube.com/watch?v=CSr4DYGUPOM",
           "channel": "땡스큐레이터",
@@ -509,8 +518,8 @@
         {
           "video_id": "l6VfFik0rHI",
           "title": "스몰 브랜드 대표가 밝히는 브랜딩 실전편 | 계속 성장 중인 리솔츠 이야기🛁",
-          "views_text": "5.5K",
-          "published_text": "4w ago",
+          "views_text": "5.5K views",
+          "published_text": "1 month ago",
           "views": 5500,
           "url": "https://www.youtube.com/watch?v=l6VfFik0rHI",
           "channel": "땡스큐레이터",
@@ -522,8 +531,8 @@
         {
           "video_id": "ctBFjJ0ujKs",
           "title": "🚨견적서가 너무 어려운 사장님들 주목! | 견적 책정 기준부터 세부 항목까지 자세하게 뜯어보기 👀",
-          "views_text": "4.3K",
-          "published_text": "1mo ago",
+          "views_text": "4.3K views",
+          "published_text": "1 month ago",
           "views": 4300,
           "url": "https://www.youtube.com/watch?v=ctBFjJ0ujKs",
           "channel": "땡스큐레이터",
@@ -534,8 +543,8 @@
         {
           "video_id": "8Fj-Q-3EF4Q",
           "title": "스타트업 대표 밀착 취재 | 3시간 자고 무료 강의하러가는 대표 브이로그",
-          "views_text": "2.9K",
-          "published_text": "1mo ago",
+          "views_text": "2.9K views",
+          "published_text": "1 month ago",
           "views": 2900,
           "url": "https://www.youtube.com/watch?v=8Fj-Q-3EF4Q",
           "channel": "땡스큐레이터",
@@ -546,8 +555,8 @@
         {
           "video_id": "nPbZ6lK2K08",
           "title": "스몰 브랜드도 해외 수출은 필수인거 아시죠? ✈️ | 가성비 있게 해외 수출 할 수 있는 팁 알려드립니다! 💸",
-          "views_text": "6.5K",
-          "published_text": "2mo ago",
+          "views_text": "6.5K views",
+          "published_text": "2 months ago",
           "views": 6500,
           "url": "https://www.youtube.com/watch?v=nPbZ6lK2K08",
           "channel": "땡스큐레이터",
@@ -559,8 +568,8 @@
         {
           "video_id": "rM6gwEyfKZ8",
           "title": "🧐브랜딩을 잘하고 싶다면 리서치가 가장 중요합니다 | 인풋 쌓는 과정부터 시장조사 노하우까지! 일단 시작부터!",
-          "views_text": "90K",
-          "published_text": "2mo ago",
+          "views_text": "90K views",
+          "published_text": "2 months ago",
           "views": 90000,
           "url": "https://www.youtube.com/watch?v=rM6gwEyfKZ8",
           "channel": "땡스큐레이터",
@@ -572,8 +581,8 @@
         {
           "video_id": "VY3vXUfKMEI",
           "title": "비즈니스 선물로 \"감각 있다\" 소리 듣는 법 🎁 | 10만원 이하 내돈내산 선물 추천템 공개",
-          "views_text": "22K",
-          "published_text": "3mo ago",
+          "views_text": "22K views",
+          "published_text": "3 months ago",
           "views": 22000,
           "url": "https://www.youtube.com/watch?v=VY3vXUfKMEI",
           "channel": "땡스큐레이터",
@@ -584,8 +593,8 @@
         {
           "video_id": "8DXShoYTbeA",
           "title": "🫧AI가 발달할수록 웰니스가 더 커지는 이유 | 지금 가장 강력한 소비 트렌드를 뜯어봤습니다",
-          "views_text": "26K",
-          "published_text": "3mo ago",
+          "views_text": "26K views",
+          "published_text": "3 months ago",
           "views": 26000,
           "url": "https://www.youtube.com/watch?v=8DXShoYTbeA",
           "channel": "땡스큐레이터",
@@ -596,8 +605,8 @@
         {
           "video_id": "s04NYW3nOxA",
           "title": "🔑 브랜딩 잘하면 영업 안 해도 됩니다 | MD가 먼저 연락 오는 브랜드, 뭐가 다를까요",
-          "views_text": "94K",
-          "published_text": "4mo ago",
+          "views_text": "94K views",
+          "published_text": "4 months ago",
           "views": 94000,
           "url": "https://www.youtube.com/watch?v=s04NYW3nOxA",
           "channel": "땡스큐레이터",
@@ -609,8 +618,8 @@
         {
           "video_id": "iknGXOzT2KI",
           "title": "AI 공격 제대로 맞은 대행사 사장의 팩트 폭로🔥 | 수익률 50% 올린 클로드 AI 대시보드 직접 공개 (AI 시대 생존법👀)",
-          "views_text": "47K",
-          "published_text": "4mo ago",
+          "views_text": "47K views",
+          "published_text": "4 months ago",
           "views": 47000,
           "url": "https://www.youtube.com/watch?v=iknGXOzT2KI",
           "channel": "땡스큐레이터",
@@ -621,8 +630,8 @@
         {
           "video_id": "7Zt2t_SRyP8",
           "title": "정부지원사업, 안하면 손해🚨 | 지원사업으로 미국까지 간 스몰브랜드 대표의 팩트 기반 노하우 공유 (헌터아님)",
-          "views_text": "5.3K",
-          "published_text": "5mo ago",
+          "views_text": "5.3K views",
+          "published_text": "5 months ago",
           "views": 5300,
           "url": "https://www.youtube.com/watch?v=7Zt2t_SRyP8",
           "channel": "땡스큐레이터",
@@ -633,8 +642,8 @@
         {
           "video_id": "zxPZ1Fcff20",
           "title": "💸가격대별 안경🕶 브랜드 추천👍안경 입문자 맞춤 안경부터 패션트렌드 안경추천까지💕🎉  이것만 보면 내가 바로 안경👓 전문가!!",
-          "views_text": "162K",
-          "published_text": "6y ago",
+          "views_text": "162K views",
+          "published_text": "6 years ago",
           "views": 162000,
           "url": "https://www.youtube.com/watch?v=zxPZ1Fcff20",
           "channel": "땡스큐레이터",
@@ -645,8 +654,8 @@
         {
           "video_id": "IKQg1JCx5uY",
           "title": "캐리어 구매 체크리스트👍 ! 이것만 알면 된다!😍 여행용✈ 캐리어👜 브랜드 Top3 추천👍! 리모와라고 다 좋은게 아니다?!",
-          "views_text": "492K",
-          "published_text": "6y ago",
+          "views_text": "492K views",
+          "published_text": "6 years ago",
           "views": 492000,
           "url": "https://www.youtube.com/watch?v=IKQg1JCx5uY",
           "channel": "땡스큐레이터",
@@ -657,9 +666,9 @@
         {
           "video_id": "4ru4xgZfDPA",
           "title": "VLOG 직장인 브이로그ㅣ 연남동 퇴근길😍 콤콤오락실,달링스푼,스튜디오그림비,오월상점,소이연남,동백양과점,소품샵,카페투어ㅣ퇴근길 브이로그❤️",
-          "views_text": "580",
-          "published_text": "6y ago",
-          "views": 580,
+          "views_text": "581 views",
+          "published_text": "6 years ago",
+          "views": 581,
           "url": "https://www.youtube.com/watch?v=4ru4xgZfDPA",
           "channel": "땡스큐레이터",
           "teams": [
@@ -669,8 +678,8 @@
         {
           "video_id": "SOVrRAZ_FSo",
           "title": "실패없는 호캉스👍! 호텔 예약 부킹부터 호텔 즐기기 꿀팁까지🙌! 이대로만 따라하면 성공👉! /호텔/호캉스/안다즈호텔",
-          "views_text": "10K",
-          "published_text": "6y ago",
+          "views_text": "10K views",
+          "published_text": "6 years ago",
           "views": 10000,
           "url": "https://www.youtube.com/watch?v=SOVrRAZ_FSo",
           "channel": "땡스큐레이터",
@@ -681,8 +690,8 @@
         {
           "video_id": "t6pdHr6GO88",
           "title": "호캉스 VLOG / 1박 35만원! 안다즈Andaz 서울 호캉스 💝 뭐하고 놀까? 연차내고 럭셔리호텔 즐기기 / 블루보틀,고급오복수산,치즈룸,수영장,조식 [땡큐VLOG]",
-          "views_text": "1.3K",
-          "published_text": "6y ago",
+          "views_text": "1.3K views",
+          "published_text": "6 years ago",
           "views": 1300,
           "url": "https://www.youtube.com/watch?v=t6pdHr6GO88",
           "channel": "땡스큐레이터",
@@ -693,8 +702,8 @@
         {
           "video_id": "Tu8Ziv_y_Cc",
           "title": "마케팅에 속지않는 화장품 구매팁! 👌 ❌화장품 마케팅 싫어 🔥땡큐한 화장품 추천 ✔️ 솔직리뷰! 마케팅 썰 대방출 / 천연 화장품 /유기농 화장품 / 더마 화장품 [땡큐]",
-          "views_text": "1K",
-          "published_text": "6y ago",
+          "views_text": "1K views",
+          "published_text": "6 years ago",
           "views": 1000,
           "url": "https://www.youtube.com/watch?v=Tu8Ziv_y_Cc",
           "channel": "땡스큐레이터",
@@ -705,8 +714,8 @@
         {
           "video_id": "TD0IwmmugoI",
           "title": "미국 출장 하울 / 1만원대 미국 선물템!! (★소확행 소비명품 하울★) / 미국 힙스터 아이템 소개! by 22일간의 출장 전리품! [땡큐]",
-          "views_text": "5.4K",
-          "published_text": "6y ago",
+          "views_text": "5.4K views",
+          "published_text": "6 years ago",
           "views": 5400,
           "url": "https://www.youtube.com/watch?v=TD0IwmmugoI",
           "channel": "땡스큐레이터",
@@ -717,8 +726,8 @@
         {
           "video_id": "aIG5u5xJs6g",
           "title": "해외구매 아이폰 장점 / 아이폰 11 Pro 512GB 미드나잇 그린ㅣ굳이 미국에서 구매한 K의 하울!  영롱한 자태. 실물 감상 [땡큐]",
-          "views_text": "673",
-          "published_text": "6y ago",
+          "views_text": "673 views",
+          "published_text": "6 years ago",
           "views": 673,
           "url": "https://www.youtube.com/watch?v=aIG5u5xJs6g",
           "channel": "땡스큐레이터",
@@ -729,8 +738,8 @@
         {
           "video_id": "iBulbMbLD4A",
           "title": "테슬라 모델3 장단점 비교 / 차알못의 롱레인지 구매 / 살까?말까? 테슬라 모델3 좋아?vs안좋아? [땡큐]",
-          "views_text": "3.2K",
-          "published_text": "6y ago",
+          "views_text": "3.2K views",
+          "published_text": "6 years ago",
           "views": 3200,
           "url": "https://www.youtube.com/watch?v=iBulbMbLD4A",
           "channel": "땡스큐레이터",
@@ -742,7 +751,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-20T09:02:53.618693+00:00",
+      "last_ok_at": "2026-09-20T13:58:10.730168+00:00",
       "url": "https://www.youtube.com/@learnwithshopify",
       "note": "Shopify 공식 - 마케팅·전환·스토어 운영",
       "team_hint": "market,listing,design",
@@ -751,7 +760,7 @@
       "subscribers": "907K",
       "video_count": 30,
       "error": "",
-      "checked_at": "2026-09-20T09:02:53.618707+00:00",
+      "checked_at": "2026-09-20T13:58:10.730182+00:00",
       "videos": [
         {
           "video_id": "-jLkh1-vxg8",
@@ -798,9 +807,9 @@
         {
           "video_id": "gugo50_VbjE",
           "title": "How to Use Claude to Safely Rebrand Your Shopify Store",
-          "views_text": "9.6K views",
+          "views_text": "9.7K views",
           "published_text": "2 weeks ago",
-          "views": 9600,
+          "views": 9700,
           "url": "https://www.youtube.com/watch?v=gugo50_VbjE",
           "channel": "Learn With Shopify",
           "teams": [
@@ -939,7 +948,7 @@
           "video_id": "NbTHyB-nqHQ",
           "title": "The Official Shopify Sidekick Tutorial (Part 2)",
           "views_text": "3.8K views",
-          "published_text": "1 month ago",
+          "published_text": "2 months ago",
           "views": 3800,
           "url": "https://www.youtube.com/watch?v=NbTHyB-nqHQ",
           "channel": "Learn With Shopify",
@@ -1148,9 +1157,9 @@
         {
           "video_id": "ujFo99CsP0Q",
           "title": "How to Start A Luxury Brand",
-          "views_text": "8.7K views",
+          "views_text": "8.8K views",
           "published_text": "5 months ago",
-          "views": 8700,
+          "views": 8800,
           "url": "https://www.youtube.com/watch?v=ujFo99CsP0Q",
           "channel": "Learn With Shopify",
           "teams": [
@@ -1177,7 +1186,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-20T09:02:58.926225+00:00",
+      "last_ok_at": "2026-09-20T13:58:16.090880+00:00",
       "url": "https://www.youtube.com/@shopify",
       "note": "Shopify 본채널 - 브랜드 성장 사례",
       "team_hint": "market",
@@ -1186,7 +1195,7 @@
       "subscribers": "488K",
       "video_count": 30,
       "error": "",
-      "checked_at": "2026-09-20T09:02:58.926239+00:00",
+      "checked_at": "2026-09-20T13:58:16.090897+00:00",
       "videos": [
         {
           "video_id": "KsujQDvKdHk",

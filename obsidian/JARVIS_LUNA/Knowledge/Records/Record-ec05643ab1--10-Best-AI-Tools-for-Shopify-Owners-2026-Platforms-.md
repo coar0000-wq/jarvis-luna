@@ -2,7 +2,7 @@
 title: "Record ec05643ab1 · 10-Best-AI-Tools-for-Shopify-Owners-2026-Platforms-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T11:26:59.147839+00:00
+updated_at: 2026-09-20T14:07:04.655466+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMia0FVX3lxTE5ZQU1rdC05UlJ3bDRuMFlrMWdWN3NlMXBUT1VRTUxxdW1HZDBCdnpYWU9lQlRSSkJ4cjA3MExEc1N4RVlKNGJBblZlbGd0OGhEcFVzLUtBU1lNT2ZWNjVySDRpbC1rR0ozVnJB?oc=5)
 
-**제목:** 10 Best AI Tools for Shopify Owners 2026: Platforms Ranked by Intelligence Depth - ask-luca.com
+**제목:** 10 Best AI Tools for Shopify Owners 2026: Platforms Ranked by Intelligence Depth - Ask Luca
 
-10 Best AI Tools for Shopify Owners 2026: Platforms Ranked by Intelligence Depth - ask-luca.com
+10 Best AI Tools for Shopify Owners 2026: Platforms Ranked by Intelligence Depth - Ask Luca
 
 **출처:** Source · Google Search
 

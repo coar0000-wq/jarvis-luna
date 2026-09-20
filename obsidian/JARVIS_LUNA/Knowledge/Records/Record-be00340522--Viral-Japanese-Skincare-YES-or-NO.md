@@ -2,7 +2,7 @@
 title: "Record be00340522 · Viral-Japanese-Skincare-YES-or-NO"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T11:26:59.622609+00:00
+updated_at: 2026-09-20T14:07:05.138827+00:00
 tags: [record, real-data]
 ---
 

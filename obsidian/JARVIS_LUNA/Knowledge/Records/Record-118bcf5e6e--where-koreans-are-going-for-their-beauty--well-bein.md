@@ -2,7 +2,7 @@
 title: "Record 118bcf5e6e · where-koreans-are-going-for-their-beauty--well-bein"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T11:26:59.627596+00:00
+updated_at: 2026-09-20T14:07:05.143545+00:00
 tags: [record, real-data]
 ---
 

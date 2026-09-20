@@ -2,7 +2,7 @@
 title: "Record 86bb366158 · Wix-vs-Shopify-2026-Which-Ecommerce-Website-Builder"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T11:26:59.118108+00:00
+updated_at: 2026-09-20T14:07:04.619336+00:00
 tags: [record, real-data]
 ---
 

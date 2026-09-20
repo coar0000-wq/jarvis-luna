@@ -2,7 +2,7 @@
 title: "Record 5e61f5910d · This-Makeup-Trend-Is-Convincing-Beauty-Fans-to-Beli"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T11:26:59.251568+00:00
+updated_at: 2026-09-20T14:07:04.765112+00:00
 tags: [record, real-data]
 ---
 

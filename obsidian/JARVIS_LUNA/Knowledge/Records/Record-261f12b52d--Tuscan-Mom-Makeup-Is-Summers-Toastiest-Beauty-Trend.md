@@ -2,7 +2,7 @@
 title: "Record 261f12b52d · Tuscan-Mom-Makeup-Is-Summers-Toastiest-Beauty-Trend"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T11:26:59.118978+00:00
+updated_at: 2026-09-20T14:07:04.620172+00:00
 tags: [record, real-data]
 ---
 

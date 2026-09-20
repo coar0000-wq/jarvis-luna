@@ -2,7 +2,7 @@
 title: "Record 0fd9157cbb · NEXUS-Speeding-Up-the-Next-Wave-of-AI-Workloads-GNN"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T11:26:58.941541+00:00
+updated_at: 2026-09-20T14:07:04.428787+00:00
 tags: [record, real-data]
 ---
 

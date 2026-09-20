@@ -2,7 +2,7 @@
 title: "Record 4ed47fbe8d · 6-Steps-to-Glass-Skin-According-to-K-Beauty-Experts"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T11:26:59.133446+00:00
+updated_at: 2026-09-20T14:07:04.636116+00:00
 tags: [record, real-data]
 ---
 

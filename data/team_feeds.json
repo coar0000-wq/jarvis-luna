@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-20T09:03:11.406593+00:00",
+  "generated_at": "2026-09-20T13:58:27.846290+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
   "pool_size": 2357,
   "제목없어_버림": 38,
-  "unrouted": 11,
+  "unrouted": 8,
   "summary": {
     "sourcing": {
       "total": 346,
@@ -15,38 +15,38 @@
       "products": 342
     },
     "market": {
-      "total": 550,
-      "recent": 38,
-      "material": 550,
-      "material_recent": 38,
+      "total": 554,
+      "recent": 40,
+      "material": 554,
+      "material_recent": 40,
       "products": 0
     },
     "listing": {
-      "total": 70,
+      "total": 69,
       "recent": 15,
-      "material": 70,
+      "material": 69,
       "material_recent": 15,
       "products": 0
     },
     "pricing": {
-      "total": 16,
-      "recent": 8,
-      "material": 16,
-      "material_recent": 8,
+      "total": 17,
+      "recent": 9,
+      "material": 17,
+      "material_recent": 9,
       "products": 0
     },
     "legal": {
-      "total": 153,
+      "total": 152,
       "recent": 24,
-      "material": 153,
+      "material": 152,
       "material_recent": 24,
       "products": 0
     },
     "design": {
-      "total": 401,
-      "recent": 98,
-      "material": 401,
-      "material_recent": 98,
+      "total": 397,
+      "recent": 97,
+      "material": 397,
+      "material_recent": 97,
       "products": 0
     },
     "robotics": {
@@ -57,17 +57,17 @@
       "products": 0
     },
     "knowledge": {
-      "total": 189,
-      "recent": 83,
-      "material": 189,
-      "material_recent": 83,
+      "total": 192,
+      "recent": 84,
+      "material": 192,
+      "material_recent": 84,
       "products": 0
     },
     "institutions": {
-      "total": 1061,
-      "recent": 261,
-      "material": 1061,
-      "material_recent": 261,
+      "total": 1062,
+      "recent": 266,
+      "material": 1062,
+      "material_recent": 266,
       "products": 0
     }
   },
@@ -1417,6 +1417,13 @@
         "by_hand": true
       },
       {
+        "title": "Constrained Bayesian Neural Network utility in the design of price promotions",
+        "url": "https://doi.org/10.1016/j.jocm.2026.100633",
+        "pool": "institutions",
+        "date": "2026-09-19",
+        "by_hand": false
+      },
+      {
         "title": "Tracking International Payments Midsize Firms Responding Continued Tariff Pressure",
         "url": "https://www.jpmorgan.com/insights/markets-and-economy/tracking-international-payments-midsize-firms-responding-continued-tariff-pressure",
         "pool": "institutions",
@@ -1511,28 +1518,28 @@
       },
       {
         "title": "SenseFuse: Label-Free Fusion of Image and Shape Encoders for Open-Vocabulary 3D Instance Segmentation",
-        "url": "https://doi.org/10.48550/arxiv.2609.20475",
+        "url": "https://arxiv.org/abs/2609.20475",
         "pool": "arxiv",
         "date": "2026-09-17",
         "by_hand": false
       },
       {
         "title": "FreqCondNorm: Towards Cross-domain Predictive Maintenance through a Frequency-Conditioned Transformer Foundation Model",
-        "url": "https://doi.org/10.48550/arxiv.2609.20535",
+        "url": "https://arxiv.org/abs/2609.20535",
         "pool": "arxiv",
         "date": "2026-09-17",
         "by_hand": false
       },
       {
         "title": "Cross-Architecture Foundation-Model Distillation for Edge Flood Segmentation",
-        "url": "https://doi.org/10.48550/arxiv.2609.20441",
+        "url": "https://arxiv.org/abs/2609.20441",
         "pool": "arxiv",
         "date": "2026-09-17",
         "by_hand": false
       },
       {
         "title": "On-Demand Attention: Language Models Know When to Recall",
-        "url": "https://doi.org/10.48550/arxiv.2609.20734",
+        "url": "https://arxiv.org/abs/2609.20734",
         "pool": "arxiv",
         "date": "2026-09-17",
         "by_hand": false
@@ -1546,7 +1553,7 @@
       },
       {
         "title": "EvoSherlock: Towards Agentic Lifelong Evolution for Unseen Long-Tailed Security-Critical Events in Videos",
-        "url": "https://doi.org/10.48550/arxiv.2609.19201",
+        "url": "https://arxiv.org/abs/2609.19201",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
@@ -2146,7 +2153,7 @@
         "by_hand": true
       },
       {
-        "title": "책은 가장 가성비 좋은 인풋입니다 📚  | 브랜드 대표가 직접 고른 브랜딩 필독서",
+        "title": "브랜딩 감각을 키우고 싶다면👀 | 사업부터 브랜딩까지 분야별 필독서 추천",
         "url": "https://www.youtube.com/watch?v=hikTGKo2kZE",
         "pool": "youtube_channel",
         "date": "",
@@ -2344,6 +2351,13 @@
     ],
     "robotics": [
       {
+        "title": "Simulation code for \"Real-Time AI Service Economy: A Framework for Agentic Computing Across the Continuum\"",
+        "url": "https://arxiv.org/abs/2603.05614",
+        "pool": "robotics",
+        "date": "2026-09-19",
+        "by_hand": false
+      },
+      {
         "title": "Hirebotics adds line tracking and linear rail capabilities to its cobots",
         "url": "https://www.therobotreport.com/hirebotics-adds-line-tracking-linear-rail-capabilities-cobots/",
         "pool": "robotics",
@@ -2394,42 +2408,42 @@
       },
       {
         "title": "SenseFuse: Label-Free Fusion of Image and Shape Encoders for Open-Vocabulary 3D Instance Segmentation",
-        "url": "https://doi.org/10.48550/arxiv.2609.20475",
+        "url": "https://arxiv.org/abs/2609.20475",
         "pool": "arxiv",
         "date": "2026-09-17",
         "by_hand": false
       },
       {
         "title": "Selective Cotton Boll Localization for Robotic Harvesting: Evaluation of Deep Learning Vision Models Under Field Conditions",
-        "url": "https://doi.org/10.48550/arxiv.2609.19592",
+        "url": "https://arxiv.org/abs/2609.19592",
         "pool": "arxiv",
         "date": "2026-09-17",
         "by_hand": false
       },
       {
         "title": "Recovering Aggressively Pruned Vision-Language-Action Models with Offline Hidden-State Distillation",
-        "url": "https://doi.org/10.48550/arxiv.2609.19579",
+        "url": "https://arxiv.org/abs/2609.19579",
         "pool": "arxiv",
         "date": "2026-09-17",
         "by_hand": false
       },
       {
         "title": "Co-VLA: Consensus-based Federated Training for Vision-Language-Action Models",
-        "url": "https://doi.org/10.48550/arxiv.2609.19923",
+        "url": "https://arxiv.org/abs/2609.19923",
         "pool": "arxiv",
         "date": "2026-09-17",
         "by_hand": false
       },
       {
         "title": "FLARE: an open-source data workflow orchestration tool",
-        "url": "https://doi.org/10.48550/arxiv.2609.19809",
+        "url": "https://arxiv.org/abs/2609.19809",
         "pool": "robotics",
         "date": "2026-09-17",
         "by_hand": false
       },
       {
         "title": "VERA: Reinforcement Learning for Dynamic Memory Scaling of HPC Workloads in Kubernetes",
-        "url": "https://doi.org/10.48550/arxiv.2609.19936",
+        "url": "https://arxiv.org/abs/2609.19936",
         "pool": "robotics",
         "date": "2026-09-17",
         "by_hand": false
@@ -2673,13 +2687,6 @@
         "by_hand": false
       },
       {
-        "title": "Quality-Constrained Routing over a Fixed Pool of Quantized Mixture-of-Experts Instances",
-        "url": "https://arxiv.org/abs/2609.12550",
-        "pool": "robotics",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
         "title": "Video Friday: Humanoid Robot Takes On Monkey Bars",
         "url": "https://spectrum.ieee.org/video-friday-disaster-response-robots",
         "pool": "robotics",
@@ -2736,7 +2743,7 @@
         "by_hand": false
       },
       {
-        "title": "10 Best AI-Powered Analytics Tools for Ecommerce in 2026: Chat Interfaces, Autonomous Analysts and Vertical Tools Compared - Ask Luca",
+        "title": "10 Best AI-Powered Analytics Tools for Ecommerce in 2026: Chat Interfaces, Autonomous Analysts and Vertical Tools Compared - ask-luca.com",
         "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1aYVpPVndBZV9leHQ1N2NObW9TbUNZTVEtT2prTFpocXB2N0ktVGRoSWs0dXdJa1Jid05lNGI0LU91UGN0R1ppYUo2Zm1JdGwxUVR2ZTBoUThfaTNkR2puLUFNdw?oc=5",
         "pool": "google",
         "date": "2026-09-03",
@@ -2832,6 +2839,13 @@
         "by_hand": true
       },
       {
+        "title": "Simulation code for \"Real-Time AI Service Economy: A Framework for Agentic Computing Across the Continuum\"",
+        "url": "https://arxiv.org/abs/2603.05614",
+        "pool": "robotics",
+        "date": "2026-09-19",
+        "by_hand": false
+      },
+      {
         "title": "Consumer Agents Signal New Phase For Ai Growth",
         "url": "https://www.goldmansachs.com/insights/articles/consumer-agents-signal-new-phase-for-ai-growth",
         "pool": "institutions",
@@ -2840,203 +2854,203 @@
       },
       {
         "title": "SenseFuse: Label-Free Fusion of Image and Shape Encoders for Open-Vocabulary 3D Instance Segmentation",
-        "url": "https://doi.org/10.48550/arxiv.2609.20475",
+        "url": "https://arxiv.org/abs/2609.20475",
         "pool": "arxiv",
         "date": "2026-09-17",
         "by_hand": false
       },
       {
         "title": "Selective Cotton Boll Localization for Robotic Harvesting: Evaluation of Deep Learning Vision Models Under Field Conditions",
-        "url": "https://doi.org/10.48550/arxiv.2609.19592",
+        "url": "https://arxiv.org/abs/2609.19592",
         "pool": "arxiv",
         "date": "2026-09-17",
         "by_hand": false
       },
       {
         "title": "Socialized UAV Cross-Task Learning: Towards Cross-Granularity Collaboration through Hierarchical Interaction",
-        "url": "https://doi.org/10.48550/arxiv.2609.19867",
+        "url": "https://arxiv.org/abs/2609.19867",
         "pool": "arxiv",
         "date": "2026-09-17",
         "by_hand": false
       },
       {
         "title": "Recovering Aggressively Pruned Vision-Language-Action Models with Offline Hidden-State Distillation",
-        "url": "https://doi.org/10.48550/arxiv.2609.19579",
+        "url": "https://arxiv.org/abs/2609.19579",
         "pool": "arxiv",
         "date": "2026-09-17",
         "by_hand": false
       },
       {
         "title": "Towards Active Cross-View Object Geo-Localization",
-        "url": "https://doi.org/10.48550/arxiv.2609.19662",
+        "url": "https://arxiv.org/abs/2609.19662",
         "pool": "arxiv",
         "date": "2026-09-17",
         "by_hand": false
       },
       {
         "title": "A Multi-Modal Generative Model for Tomato Disease Leaves Understanding",
-        "url": "https://doi.org/10.48550/arxiv.2609.19555",
+        "url": "https://arxiv.org/abs/2609.19555",
         "pool": "arxiv",
         "date": "2026-09-17",
         "by_hand": false
       },
       {
         "title": "Co-VLA: Consensus-based Federated Training for Vision-Language-Action Models",
-        "url": "https://doi.org/10.48550/arxiv.2609.19923",
+        "url": "https://arxiv.org/abs/2609.19923",
         "pool": "arxiv",
         "date": "2026-09-17",
         "by_hand": false
       },
       {
         "title": "Region-Level Policy Optimization for Fine-grained MLLM Perception",
-        "url": "https://doi.org/10.48550/arxiv.2609.19745",
+        "url": "https://arxiv.org/abs/2609.19745",
         "pool": "arxiv",
         "date": "2026-09-17",
         "by_hand": false
       },
       {
         "title": "FreqCondNorm: Towards Cross-domain Predictive Maintenance through a Frequency-Conditioned Transformer Foundation Model",
-        "url": "https://doi.org/10.48550/arxiv.2609.20535",
+        "url": "https://arxiv.org/abs/2609.20535",
         "pool": "arxiv",
         "date": "2026-09-17",
         "by_hand": false
       },
       {
         "title": "Cross-Architecture Foundation-Model Distillation for Edge Flood Segmentation",
-        "url": "https://doi.org/10.48550/arxiv.2609.20441",
+        "url": "https://arxiv.org/abs/2609.20441",
         "pool": "arxiv",
         "date": "2026-09-17",
         "by_hand": false
       },
       {
         "title": "AgriScope: Pixel-Grounded Multimodal Understanding for Agricultural Images",
-        "url": "https://doi.org/10.48550/arxiv.2609.20325",
+        "url": "https://arxiv.org/abs/2609.20325",
         "pool": "arxiv",
         "date": "2026-09-17",
         "by_hand": false
       },
       {
         "title": "G^2RA-NET: Graph-based Cross-Slice Relation Modeling with Attention Gating for Medical Image Segmentation",
-        "url": "https://doi.org/10.48550/arxiv.2609.20088",
+        "url": "https://arxiv.org/abs/2609.20088",
         "pool": "arxiv",
         "date": "2026-09-17",
         "by_hand": false
       },
       {
         "title": "PerSeM: Persistent Semantic Memory for Long-Horizon Open-Vocabulary UAV Mapping",
-        "url": "https://doi.org/10.48550/arxiv.2609.19542",
+        "url": "https://arxiv.org/abs/2609.19542",
         "pool": "arxiv",
         "date": "2026-09-17",
         "by_hand": false
       },
       {
         "title": "PointEvent: Rethinking Event-based Tiny Object Detection via Serialized Motion Evidence Accumulation",
-        "url": "https://doi.org/10.48550/arxiv.2609.20066",
+        "url": "https://arxiv.org/abs/2609.20066",
         "pool": "arxiv",
         "date": "2026-09-17",
         "by_hand": false
       },
       {
         "title": "Dense Feature Representation over Sequence Modeling: A Solution to the KDD Cup 2026 UniRec Challenge",
-        "url": "https://doi.org/10.48550/arxiv.2609.19787",
+        "url": "https://arxiv.org/abs/2609.19787",
         "pool": "arxiv",
         "date": "2026-09-17",
         "by_hand": false
       },
       {
         "title": "Training Neural Networks to Approach the Optimum Bayes Estimator in Dense Multi-Emitter Localization",
-        "url": "https://doi.org/10.48550/arxiv.2609.20465",
+        "url": "https://arxiv.org/abs/2609.20465",
         "pool": "arxiv",
         "date": "2026-09-17",
         "by_hand": false
       },
       {
         "title": "EmbodiedMind: Adaptive Data Curation and Prefix-Tree Reinforcement Learning for Efficient Embodied Intelligence",
-        "url": "https://doi.org/10.48550/arxiv.2609.19659",
+        "url": "https://arxiv.org/abs/2609.19659",
         "pool": "arxiv",
         "date": "2026-09-17",
         "by_hand": false
       },
       {
         "title": "PixelFlow: Token-Level Workload Management for Efficient Distributed DiT Serving",
-        "url": "https://doi.org/10.48550/arxiv.2609.20723",
+        "url": "https://arxiv.org/abs/2609.20723",
         "pool": "arxiv",
         "date": "2026-09-17",
         "by_hand": false
       },
       {
         "title": "Instance Segmentation and Fine-grained Classification for Urban Buildings with Adaptive Region Dividing and Spatially-Supervised Contrastive Learning",
-        "url": "https://doi.org/10.48550/arxiv.2609.19631",
+        "url": "https://arxiv.org/abs/2609.19631",
         "pool": "arxiv",
         "date": "2026-09-17",
         "by_hand": false
       },
       {
         "title": "QCPruner: Query-Conditioned Population Coverage for Visual Token Pruning",
-        "url": "https://doi.org/10.48550/arxiv.2609.19990",
+        "url": "https://arxiv.org/abs/2609.19990",
         "pool": "arxiv",
         "date": "2026-09-17",
         "by_hand": false
       },
       {
         "title": "MiX: Micro-Inverted-Scaling for End-to-End Low-Bit Vision-Language Model Acceleration",
-        "url": "https://doi.org/10.48550/arxiv.2609.19683",
+        "url": "https://arxiv.org/abs/2609.19683",
         "pool": "arxiv",
         "date": "2026-09-17",
         "by_hand": false
       },
       {
         "title": "Beyond the Foreground: FOV-Aware Polyp Image Synthesis via Lesion-Guided Adaptive Mucosal Context Propagation",
-        "url": "https://doi.org/10.48550/arxiv.2609.19966",
+        "url": "https://arxiv.org/abs/2609.19966",
         "pool": "arxiv",
         "date": "2026-09-17",
         "by_hand": false
       },
       {
         "title": "Enhanced Knowledge Distillation for Detection Transformer via Teacher Prediction Refinement",
-        "url": "https://doi.org/10.48550/arxiv.2609.19964",
+        "url": "https://arxiv.org/abs/2609.19964",
         "pool": "arxiv",
         "date": "2026-09-17",
         "by_hand": false
       },
       {
         "title": "A Dual-Stream Regulated Reconstruction and Segmentation Network with Hierarchical Artifact-Prior Modeling for Ultra-Low-Field Pediatric Neuroimaging",
-        "url": "https://doi.org/10.48550/arxiv.2609.20562",
+        "url": "https://arxiv.org/abs/2609.20562",
         "pool": "arxiv",
         "date": "2026-09-17",
         "by_hand": false
       },
       {
         "title": "On-Demand Attention: Language Models Know When to Recall",
-        "url": "https://doi.org/10.48550/arxiv.2609.20734",
+        "url": "https://arxiv.org/abs/2609.20734",
         "pool": "arxiv",
         "date": "2026-09-17",
         "by_hand": false
       },
       {
         "title": "Robust Multi-Task Learning for Principal Component Analysis",
-        "url": "https://doi.org/10.48550/arxiv.2609.20733",
+        "url": "https://arxiv.org/abs/2609.20733",
         "pool": "arxiv",
         "date": "2026-09-17",
         "by_hand": false
       },
       {
         "title": "Local Sparsity Enables Unsupervised LLM Safety Detection",
-        "url": "https://doi.org/10.48550/arxiv.2609.20129",
+        "url": "https://arxiv.org/abs/2609.20129",
         "pool": "arxiv",
         "date": "2026-09-17",
         "by_hand": false
       },
       {
         "title": "Semantic Layer Induction from Raw Telemetry via Hierarchical LLM and RAG Abstraction",
-        "url": "https://doi.org/10.48550/arxiv.2609.19615",
+        "url": "https://arxiv.org/abs/2609.19615",
         "pool": "arxiv",
         "date": "2026-09-17",
         "by_hand": false
       },
       {
         "title": "VERA: Reinforcement Learning for Dynamic Memory Scaling of HPC Workloads in Kubernetes",
-        "url": "https://doi.org/10.48550/arxiv.2609.19936",
+        "url": "https://arxiv.org/abs/2609.19936",
         "pool": "robotics",
         "date": "2026-09-17",
         "by_hand": false
@@ -3071,7 +3085,7 @@
       },
       {
         "title": "EvoSherlock: Towards Agentic Lifelong Evolution for Unseen Long-Tailed Security-Critical Events in Videos",
-        "url": "https://doi.org/10.48550/arxiv.2609.19201",
+        "url": "https://arxiv.org/abs/2609.19201",
         "pool": "arxiv",
         "date": "2026-09-16",
         "by_hand": false
@@ -3180,13 +3194,6 @@
         "pool": "arxiv",
         "date": "2026-09-14",
         "by_hand": false
-      },
-      {
-        "title": "Knowledge Distillation of a Normalising Flow for Real-Time Anomaly Detection at LHC Level-1 Trigger",
-        "url": "https://doi.org/10.48550/arxiv.2609.15295",
-        "pool": "arxiv",
-        "date": "2026-09-14",
-        "by_hand": false
       }
     ],
     "institutions": [
@@ -3212,8 +3219,29 @@
         "by_hand": false
       },
       {
+        "title": "Twenty-one years of three-way hybrid breeding shaped diversity and complementarity of male and female gene pools in sugar beet",
+        "url": "https://doi.org/10.1007/s00122-026-05366-8",
+        "pool": "institutions",
+        "date": "2026-09-19",
+        "by_hand": false
+      },
+      {
         "title": "Beyond direct AI exposure: Measuring network-mediated labor risk through multilayer occupational networks",
         "url": "https://doi.org/10.21203/rs.3.rs-10965551/v1",
+        "pool": "institutions",
+        "date": "2026-09-19",
+        "by_hand": false
+      },
+      {
+        "title": "Dry‐Processed Dual‐Layer Thick Cathodes With Distinct Ni Compositions to Mitigate Degradation in Lithium‐Ion Batteries",
+        "url": "https://doi.org/10.1002/ece2.70134",
+        "pool": "institutions",
+        "date": "2026-09-19",
+        "by_hand": false
+      },
+      {
+        "title": "Constrained Bayesian Neural Network utility in the design of price promotions",
+        "url": "https://doi.org/10.1016/j.jocm.2026.100633",
         "pool": "institutions",
         "date": "2026-09-19",
         "by_hand": false
@@ -3340,6 +3368,13 @@
       {
         "title": "Vertex Ventures Investing In Physical Ais Next Frontier",
         "url": "https://www.jpmorgan.com/insights/banking/financing/vertex-ventures-investing-in-physical-ais-next-frontier",
+        "pool": "institutions",
+        "date": "2026-09-18",
+        "by_hand": false
+      },
+      {
+        "title": "Segmentação de plantas daninhas em canaviais a partir de ortomosaicos de VANT com redes neurais convolucionais e anotação promptável de mascaras",
+        "url": "https://doi.org/10.52641/cadcajv11i13.3805",
         "pool": "institutions",
         "date": "2026-09-18",
         "by_hand": false
@@ -3578,34 +3613,6 @@
       {
         "title": "Our framework for reporting model misalignment",
         "url": "https://openai.com/index/model-misalignment-reporting-framework",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "How workers are unlocking new ways of working",
-        "url": "https://openai.com/index/unlocking-new-ways-of-working",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Mistral and Mozilla are bringing open, private and multilingual AI to your web browser",
-        "url": "https://mistral.ai/news/mistral-x-mozilla/",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Samsung Begins Official Rollout of One UI 9, Bringing the Latest Galaxy Experiences to More Devices",
-        "url": "https://news.samsung.com/global/samsung-begins-official-rollout-of-one-ui-9-bringing-the-latest-galaxy-experiences-to-more-devices",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "[Interview] The People Behind the Galaxy Z Series’ Camera Innovations ②: How Portrait Video Recreates the Look of Professional Camera Lenses",
-        "url": "https://news.samsung.com/global/interview-the-people-behind-the-galaxy-z-series-camera-innovations-%e2%91%a1-how-portrait-video-recreates-the-look-of-professional-camera-lenses",
         "pool": "institutions",
         "date": "2026-09-16",
         "by_hand": false

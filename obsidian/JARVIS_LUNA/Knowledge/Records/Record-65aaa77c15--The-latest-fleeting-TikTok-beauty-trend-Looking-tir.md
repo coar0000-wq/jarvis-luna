@@ -2,7 +2,7 @@
 title: "Record 65aaa77c15 · The-latest-fleeting-TikTok-beauty-trend-Looking-tir"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T11:26:59.234606+00:00
+updated_at: 2026-09-20T14:07:04.747516+00:00
 tags: [record, real-data]
 ---
 

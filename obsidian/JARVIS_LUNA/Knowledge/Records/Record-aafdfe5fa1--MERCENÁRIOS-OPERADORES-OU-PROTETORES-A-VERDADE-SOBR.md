@@ -2,7 +2,7 @@
 title: "Record aafdfe5fa1 · MERCENÁRIOS-OPERADORES-OU-PROTETORES-A-VERDADE-SOBRE-PMC-PSD-E-CPO"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T11:26:58.988032+00:00
+updated_at: 2026-09-20T14:07:04.478188+00:00
 tags: [record, real-data]
 ---
 

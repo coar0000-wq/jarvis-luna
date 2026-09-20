@@ -1,16 +1,16 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-09-20T10:37:17.344325+00:00",
+  "generated_at": "2026-09-20T14:05:21.389159+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "semantic_sources": {
       "data/product_master.json": "e8411f3e1a6f90f501bd89643545ae348c933c5d06ae5990d3f8165a034c3de2",
       "data/gosi.json": "cc12c2e913e376093ac40c87cf84c30382bb6c1a8043ab1da8cf7275fefca7d6",
       "data/daiso_real/daiso_us_labels.json": "a2bf449337203bbb4b238001c4c423788ac4407ded97eddfcc6c7651df3557a9",
-      "data/pricing_model.json": "0ed615d6989171bcb351bd811727ca8c0cad6d004fb9094b0a3eec9b9c3b64d7",
-      "data/legal_products.json": "62616421cad39f98256580f368f64f7819248c6b4ffdc1880507bef5b81c3453"
+      "data/pricing_model.json": "fada82eacd025cadc507a356765af6fc1b2e5010412ad7a1510384b16cfc817e",
+      "data/legal_products.json": "340359a9a8bd286ddb859ecc9c7d6942fd274ebb76ae98408631466fb4417d10"
     },
-    "recommendations_sha256": "58fea4d9b4121f277cd9ac1c338014925a389f387118877b2f7947e18fb05331"
+    "recommendations_sha256": "651d5a6bad948d753a0cc3072660e89259bdcfa67758120e5231f8325cecc032"
   },
   "total": 10,
   "agent_ready": 9,
@@ -86,8 +86,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 24.99,
-        "margin_pct": 58.4,
+        "price_usd": 23.99,
+        "margin_pct": 57.0,
         "register_blocked": false
       },
       "legal": {
@@ -167,8 +167,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 24.99,
-        "margin_pct": 51.7,
+        "price_usd": 23.99,
+        "margin_pct": 50.0,
         "register_blocked": false
       },
       "legal": {
@@ -394,8 +394,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 24.99,
-        "margin_pct": 48.8,
+        "price_usd": 23.99,
+        "margin_pct": 47.0,
         "register_blocked": false
       },
       "legal": {
@@ -546,8 +546,8 @@
         "us_label_ok": false
       },
       "price": {
-        "price_usd": 24.99,
-        "margin_pct": 43.0,
+        "price_usd": 23.99,
+        "margin_pct": 40.9,
         "register_blocked": false
       },
       "legal": {
@@ -610,7 +610,7 @@
       "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
       "category": "스킨케어",
       "price_krw": 3000,
-      "shopify_score": 92,
+      "shopify_score": 91,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285",
       "copy": {
         "title": "VT Super Hyalon Sleeping Mask 4ml 6ea",
@@ -644,8 +644,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 24.99,
-        "margin_pct": 58.4,
+        "price_usd": 23.99,
+        "margin_pct": 57.0,
         "register_blocked": false
       },
       "legal": {
@@ -691,7 +691,7 @@
       "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
       "category": "마스크팩",
       "price_krw": 2000,
-      "shopify_score": 89,
+      "shopify_score": 90,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
       "copy": {
         "title": "Celderma Daily Transforming Firming Collagen Mask 28g",
@@ -725,8 +725,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 24.99,
-        "margin_pct": 61.7,
+        "price_usd": 23.99,
+        "margin_pct": 60.4,
         "register_blocked": false
       },
       "legal": {
@@ -752,8 +752,8 @@
         "enforced": false,
         "grade_advisory": "keep_s",
         "legal_gate_advisory": "review",
-        "risk_level": "high",
-        "risk_points": 2,
+        "risk_level": "medium",
+        "risk_points": 1,
         "team_routes": [
           "legal"
         ],
@@ -766,33 +766,33 @@
     },
     {
       "rank": 10,
-      "canonical_product_id": "CP000075",
-      "pd_no": "1042619",
-      "product_id": "1042619",
-      "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
-      "category": "마스크팩",
-      "price_krw": 1000,
-      "shopify_score": 88,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
+      "canonical_product_id": "CP000155",
+      "pd_no": "1060211",
+      "product_id": "1060211",
+      "name": "바세린 모이스처라이징 클렌징 밀크 140 ml",
+      "category": "클렌징",
+      "price_krw": 5000,
+      "shopify_score": 87,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060211",
       "copy": {},
-      "copy_status": "skipped_prerequisite",
+      "copy_status": "missing",
       "gosi": {
-        "volume": "29g",
-        "maker": "㈜제닉 (충청남도 논산시 성동면 산업단지로5길 5)",
+        "volume": "140ml",
+        "maker": "화장품제조업자: ㈜우신화장품 (경기도 부천시 오정구 수도로 125번길 33) / 화장품책임판매업자: 애경산업㈜ (충남 청양군 정산면 충의로 1547-9)",
         "origin": "한국",
-        "ingredients": "정제수, 글리세린, 나이아신아마이드, 캐롭검, 아이리쉬모스추출물, 1,2-헥산다이올, 펜틸렌글라이콜, 에틸헥실글리세린, 콜라겐추출물(686,000ppb), 아데노신, 다이소듐이디티에이, 글리세릴글루코사이드, 폴리글리",
+        "ingredients": "정제수, 에틸헥실팔미테이트, 글리세린, 라우릴글루코사이드, 아라키딜알코올, 1,2-헥산다이올, 글리세릴스테아레이트에스이, 베헤닐알코올, 팔미틱애씨드, 스테아릭애씨드, 아라키딜글루코사이드, 카프릴릴글라이콜, 글리세릴카",
         "gosi_ok": true
       },
       "us_label": {
-        "net_contents": "29g",
-        "manufacturer": "㈜제닉 (충청남도 논산시 성동면 산업단지로5길 5)",
+        "net_contents": "140ml",
+        "manufacturer": "화장품제조업자: ㈜우신화장품 (경기도 부천시 오정구 수도로 125번길 33) / 화장품책임판매업자: 애경산업㈜ (충남 청양군 정산면 충의로 1547-9)",
         "country_of_origin": "Korea",
-        "ingredients_inci": "Water, Glycerin, Niacinamide, Ceratonia Siliqua (Carob) Gum, Chondrus Crispus Extract, 1,2-Hexanediol, Pentylene Glycol, Ethylhexylglycerin, Collagen Extract, Adenosine, Disodium EDTA, Glyceryl Glucoside, Polyglyceryl-6 Caprylate, Polyglyceryl-4 Caprate, Tocopherol",
+        "ingredients_inci": "Water, Ethylhexyl Palmitate, Glycerin, Lauryl Glucoside, Arachidyl Alcohol, 1,2-Hexanediol, Glyceryl Stearate SE, Behenyl Alcohol, Palmitic Acid, Stearic Acid, Arachidyl Glucoside, Caprylyl Glycol, Glyceryl Caprylate, Carbomer, Petrolatum, Xanthan Gum, Ammonium Polyacryloyldimethyl Taurate, Glyceryl Stearate, Glucose, t-Butyl Alcohol, Sodium Hyaluronate, Tocopherol, Fragrance|Perfume|Parfum, Limonene, Hexyl Cinnamal",
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 24.99,
-        "margin_pct": 65.0,
+        "price_usd": 23.99,
+        "margin_pct": 44.0,
         "register_blocked": false
       },
       "legal": {

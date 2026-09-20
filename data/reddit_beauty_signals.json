@@ -1,14 +1,14 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-20T09:04:02.382702+00:00",
+  "collected_at": "2026-09-20T13:59:24.826135+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
     "SkincareAddiction",
     "AsianBeautyAdvice"
   ],
-  "post_count": 27,
+  "post_count": 25,
   "per_subreddit": [
     {
       "subreddit": "AsianBeauty",
@@ -35,20 +35,21 @@
     },
     {
       "subreddit": "AsianBeautyAdvice",
-      "post_count": 2,
+      "post_count": 0,
       "errors": [
-        "hot: HTTPError: HTTP Error 429: Too Many Requests"
+        "hot: HTTPError: HTTP Error 429: Too Many Requests",
+        "top_week: HTTPError: HTTP Error 429: Too Many Requests"
       ]
     }
   ],
   "hot_keywords": [
     {
       "keyword": "september",
-      "score": 5
+      "score": 4
     },
     {
       "keyword": "2026",
-      "score": 5
+      "score": 4
     },
     {
       "keyword": "beauty",
@@ -63,35 +64,39 @@
       "score": 4
     },
     {
-      "keyword": "skincare",
-      "score": 4
-    },
-    {
       "keyword": "haul",
       "score": 3
     },
     {
-      "keyword": "anything",
-      "score": 3
-    },
-    {
-      "keyword": "goes",
-      "score": 3
-    },
-    {
-      "keyword": "products",
-      "score": 3
-    },
-    {
-      "keyword": "thursday",
+      "keyword": "colored",
       "score": 2
     },
     {
-      "keyword": "cushion",
+      "keyword": "cleanser",
+      "score": 2
+    },
+    {
+      "keyword": "anyone",
       "score": 2
     },
     {
       "keyword": "thai",
+      "score": 2
+    },
+    {
+      "keyword": "lenses",
+      "score": 2
+    },
+    {
+      "keyword": "anything",
+      "score": 2
+    },
+    {
+      "keyword": "goes",
+      "score": 2
+    },
+    {
+      "keyword": "cushion",
       "score": 2
     },
     {
@@ -100,6 +105,10 @@
     },
     {
       "keyword": "review",
+      "score": 2
+    },
+    {
+      "keyword": "products",
       "score": 2
     },
     {
@@ -115,19 +124,15 @@
       "score": 2
     },
     {
+      "keyword": "skincare",
+      "score": 2
+    },
+    {
       "keyword": "moisturizers",
       "score": 2
     },
     {
       "keyword": "moisturizer",
-      "score": 2
-    },
-    {
-      "keyword": "kbeauty",
-      "score": 2
-    },
-    {
-      "keyword": "sunscreen",
       "score": 2
     },
     {
@@ -159,6 +164,10 @@
       "score": 1
     },
     {
+      "keyword": "thursday",
+      "score": 1
+    },
+    {
       "keyword": "achieve",
       "score": 1
     },
@@ -167,39 +176,31 @@
       "score": 1
     },
     {
-      "keyword": "anyone",
+      "keyword": "websites",
       "score": 1
     },
     {
-      "keyword": "try",
+      "keyword": "buy",
       "score": 1
     },
     {
-      "keyword": "these",
+      "keyword": "contacts",
       "score": 1
     },
     {
-      "keyword": "hera",
+      "keyword": "lens",
       "score": 1
     },
     {
-      "keyword": "blushes",
+      "keyword": "ship",
       "score": 1
     },
     {
-      "keyword": "found",
+      "keyword": "usa",
       "score": 1
     },
     {
-      "keyword": "foundations",
-      "score": 1
-    },
-    {
-      "keyword": "aren",
-      "score": 1
-    },
-    {
-      "keyword": "standardized",
+      "keyword": "bonkorea",
       "score": 1
     }
   ],
@@ -213,8 +214,8 @@
       "score": 4
     },
     {
-      "keyword": "skincare",
-      "score": 4
+      "keyword": "cleanser",
+      "score": 2
     },
     {
       "keyword": "cushion",
@@ -237,19 +238,15 @@
       "score": 2
     },
     {
+      "keyword": "skincare",
+      "score": 2
+    },
+    {
       "keyword": "moisturizers",
       "score": 2
     },
     {
       "keyword": "moisturizer",
-      "score": 2
-    },
-    {
-      "keyword": "kbeauty",
-      "score": 2
-    },
-    {
-      "keyword": "sunscreen",
       "score": 2
     }
   ],
@@ -276,16 +273,23 @@
       "feed": "hot"
     },
     {
-      "title": "Anyone try these Hera blushes?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wku1ar/anyone_try_these_hera_blushes/",
-      "published": "2026-09-19T18:43:37+00:00",
+      "title": "Websites to buy colored contacts lens that ship to the USA",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wlhojy/websites_to_buy_colored_contacts_lens_that_ship/",
+      "published": "2026-09-20T13:53:05+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Have any of you found that cushion foundations aren't standardized shades?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wla2t9/have_any_of_you_found_that_cushion_foundations/",
-      "published": "2026-09-20T07:09:53+00:00",
+      "title": "bonkorea Angel’s Powder Enzyme Cleanser",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wlgw70/bonkorea_angels_powder_enzyme_cleanser/",
+      "published": "2026-09-20T13:18:33+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Anyone try these Hera blushes?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wku1ar/anyone_try_these_hera_blushes/",
+      "published": "2026-09-19T18:43:37+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -297,16 +301,9 @@
       "feed": "hot"
     },
     {
-      "title": "Thann Aromatic Wood",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wl13s7/thann_aromatic_wood/",
-      "published": "2026-09-19T23:35:58+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Is there a difference between sheet masks and gel masks?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wkyxpa/is_there_a_difference_between_sheet_masks_and_gel/",
-      "published": "2026-09-19T22:01:12+00:00",
+      "title": "has anyone ever bought colored eye lenses on aliexpress?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wlesm1/has_anyone_ever_bought_colored_eye_lenses_on/",
+      "published": "2026-09-20T11:38:54+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -314,6 +311,27 @@
       "title": "Anything Goes Saturday: September 19, 2026",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wkwyln/anything_goes_saturday_september_19_2026/",
       "published": "2026-09-19T20:39:17+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Thann Aromatic Wood",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wl13s7/thann_aromatic_wood/",
+      "published": "2026-09-19T23:35:58+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Have any of you found that cushion foundations aren't standardized shades?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wla2t9/have_any_of_you_found_that_cushion_foundations/",
+      "published": "2026-09-20T07:09:53+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Is there a difference between sheet masks and gel masks?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wkyxpa/is_there_a_difference_between_sheet_masks_and_gel/",
+      "published": "2026-09-19T22:01:12+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -360,16 +378,16 @@
       "feed": "hot"
     },
     {
-      "title": "Tirtir Waterism Glow Tint swatches",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjnk51/tirtir_waterism_glow_tint_swatches/",
-      "published": "2026-09-18T11:25:37+00:00",
+      "title": "Korean products for eczema dark scars hyperpigmentation",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjl8iy/korean_products_for_eczema_dark_scars/",
+      "published": "2026-09-18T09:16:10+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Korean products for eczema dark scars hyperpigmentation",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjl8iy/korean_products_for_eczema_dark_scars/",
-      "published": "2026-09-18T09:16:10+00:00",
+      "title": "Tirtir Waterism Glow Tint swatches",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjnk51/tirtir_waterism_glow_tint_swatches/",
+      "published": "2026-09-18T11:25:37+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -407,41 +425,6 @@
       "published": "2026-09-18T02:49:07+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
-    },
-    {
-      "title": "What are the best affordable stores to buy kbeauty makeup and skincare products??",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wizxy1/what_are_the_best_affordable_stores_to_buy/",
-      "published": "2026-09-17T17:10:05+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "My Holy Grail Sunscreen",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wi6akm/my_holy_grail_sunscreen/",
-      "published": "2026-09-16T18:56:37+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Anything Goes Thursday: September 17, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wj5n8c/anything_goes_thursday_september_17_2026/",
-      "published": "2026-09-17T20:39:13+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "I know it’s not AB, but...",
-      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1whwk8f/i_know_its_not_ab_but/",
-      "published": "2026-09-16T13:00:12+00:00",
-      "subreddit": "AsianBeautyAdvice",
-      "feed": "top_week"
-    },
-    {
-      "title": "Random AB thoughts",
-      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1wkln2c/random_ab_thoughts/",
-      "published": "2026-09-19T13:00:26+00:00",
-      "subreddit": "AsianBeautyAdvice",
-      "feed": "top_week"
     }
   ],
   "note": "커뮤니티 실수요 시그널. 광고 키워드·S등급 코칭 보강용. 판매 순위 아님.",

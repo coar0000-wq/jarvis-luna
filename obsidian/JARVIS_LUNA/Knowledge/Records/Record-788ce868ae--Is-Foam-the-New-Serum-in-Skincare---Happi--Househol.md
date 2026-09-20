@@ -2,7 +2,7 @@
 title: "Record 788ce868ae · Is-Foam-the-New-Serum-in-Skincare---Happi--Househol"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T11:26:59.153925+00:00
+updated_at: 2026-09-20T14:07:04.662131+00:00
 tags: [record, real-data]
 ---
 

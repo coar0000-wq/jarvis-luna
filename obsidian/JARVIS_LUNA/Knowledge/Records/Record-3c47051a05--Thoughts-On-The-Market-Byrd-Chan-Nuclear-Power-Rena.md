@@ -2,7 +2,7 @@
 title: "Record 3c47051a05 · Thoughts-On-The-Market-Byrd-Chan-Nuclear-Power-Renaissance"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T11:26:59.569701+00:00
+updated_at: 2026-09-20T14:07:05.087323+00:00
 tags: [record, real-data]
 ---
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T09:01:29.885593+00:00",
+  "generated_at": "2026-09-20T13:56:33.555134+00:00",
   "generator": "scripts/collect_robotics.py",
   "목적": "옵시디언 주제 '로보틱스' 가 3건뿐이던 문제를 해결한다. 분류기는 정상이었고 수집원에 로봇 자료가 없었던 것이 원인이다.",
   "접근_정책": "arXiv 은 프로그램 접근용 export.arxiv.org 를 제공하며 그 주소만 사용하고 요청 간 3초를 둔다. RSS 두 곳은 robots.txt 허용을 확인했다.",
@@ -420,6 +420,14 @@
           "source": "rss"
         },
         {
+          "title": "What do you do with a humanoid robot when it breaks down?",
+          "summary": "<p>Decommissioning a humanoid robot is not a matter of traditional scrapping. It's a highly technical, high-stakes surgical endeavor.</p> <p>The post <a href=\"https://www.therobotreport.com/what-do-you-do-with-a-humanoid-robot-when-it-breaks-down/\">What do you do with a humanoid robot when it breaks down?</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+          "published": "Sun, 20 Sep 2026 12:45:45 +0000",
+          "url": "https://www.therobotreport.com/what-do-you-do-with-a-humanoid-robot-when-it-breaks-down/",
+          "feed": "The Robot Report",
+          "source": "rss"
+        },
+        {
           "title": "Hirebotics adds line tracking and linear rail capabilities to its cobots",
           "summary": "<p>Hirebotics said these new capabilities extend the working range of the cobots, giving manufacturers greater flexibility.</p> <p>The post <a href=\"https://www.therobotreport.com/hirebotics-adds-line-tracking-linear-rail-capabilities-cobots/\">Hirebotics adds line tracking and linear rail capabilities to its cobots</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>",
           "published": "Sat, 19 Sep 2026 12:40:50 +0000",
@@ -528,14 +536,6 @@
           "summary": "<p>At RoboBusiness 2026, a panel of robotics business leaders will examine the practical playbook behind Robots-as-a-Service or RaaS offerings. </p> <p>The post <a href=\"https://www.therobotreport.com/why-raas-needs-more-than-a-subscription-model/\">Why RaaS needs more than a subscription model </a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
           "published": "Mon, 14 Sep 2026 21:45:57 +0000",
           "url": "https://www.therobotreport.com/why-raas-needs-more-than-a-subscription-model/",
-          "feed": "The Robot Report",
-          "source": "rss"
-        },
-        {
-          "title": "Report covers advances in surgical robots, deploying warehouse automation in the real world",
-          "summary": "<p>Learn from a surgical robotics case study and a discussion of how to best deploy mobile robots in the warehouse in this issue.</p> <p>The post <a href=\"https://www.therobotreport.com/report-covers-surgical-robot-advances-deploying-warehouse-automation-real-world/\">Report covers advances in surgical robots, deploying warehouse automation in the real world</a> appeared first on <a href=\"https://w",
-          "published": "Mon, 14 Sep 2026 21:01:59 +0000",
-          "url": "https://www.therobotreport.com/report-covers-surgical-robot-advances-deploying-warehouse-automation-real-world/",
           "feed": "The Robot Report",
           "source": "rss"
         }

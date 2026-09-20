@@ -2,7 +2,7 @@
 title: "Record 6f7d50c757 · New-Booz-Allen-Survey-Finds-Federal-Agencies-Are-Ac"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T11:26:59.072733+00:00
+updated_at: 2026-09-20T14:07:04.571163+00:00
 tags: [record, real-data]
 ---
 
