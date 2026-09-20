@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T13:57:12.968257+09:00",
+  "generated_at": "2026-09-20T14:55:38.952843+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
@@ -30,7 +30,7 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-09-20T13:55:00.543935+09:00",
+      "when": "2026-09-20T14:54:22.308810+09:00",
       "summary": "S등급 10개 · 고시 판독 남음 0건 · 유튜브 자막 6편 · 근거 20개 · 실험 9개 · 새 자료 36건",
       "action": null,
       "status": "ok",
@@ -126,7 +126,7 @@
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-09-20T13:56:05.091827+09:00",
+      "when": "2026-09-20T14:54:25.427128+09:00",
       "summary": "81,954노트 · 330,419링크 · 끊어진 링크 0건 · 개인 노트 16건 별도",
       "action": null,
       "status": "ok",
@@ -140,7 +140,7 @@
     "id": "secretary",
     "name": "비서실장",
     "badge": "총괄",
-    "when": "2026-09-20T13:55:00.526694+09:00",
+    "when": "2026-09-20T14:54:22.284054+09:00",
     "summary": "30분 주기 · 고시 25건 · US라벨 25건 · 카피 10건 · 등록 가능 7건 · 법률 차단 0건",
     "action": null,
     "status": "ok",
@@ -149,37 +149,37 @@
         "단계": "고시 수집",
         "산출물": "gosi.json",
         "갱신": "2026-09-20T04:13:41.802Z",
-        "몇시간전": 0.7
+        "몇시간전": 1.7
       },
       {
         "단계": "고시 비전 추출",
         "산출물": "gosi.json",
-        "갱신": "2026-09-20T13:55:00.526694+09:00",
+        "갱신": "2026-09-20T14:54:22.284054+09:00",
         "몇시간전": 0.0
       },
       {
         "단계": "US 라벨 동기화",
         "산출물": "daiso_us_labels.json",
-        "갱신": "2026-09-20T13:55:00.138697+09:00",
+        "갱신": "2026-09-20T14:54:21.737058+09:00",
         "몇시간전": 0.0
       },
       {
         "단계": "리스팅 카피",
         "산출물": "shopify_listing_copy.json",
         "갱신": "2026-09-20T04:08:53.167238+00:00",
-        "몇시간전": 0.8
+        "몇시간전": 1.8
       },
       {
         "단계": "등록 게이트",
         "산출물": "listing_gate.json",
         "갱신": "2026-09-20T04:14:32.251435+00:00",
-        "몇시간전": 0.7
+        "몇시간전": 1.7
       },
       {
         "단계": "법률 점검",
         "산출물": "legal_products.json",
         "갱신": "2026-09-20T04:13:58.433971+00:00",
-        "몇시간전": 0.7
+        "몇시간전": 1.7
       }
     ],
     "_근거": "chief_of_staff.yml 이 30분마다 부르는 스크립트들의 산출물 갱신 시각을 읽는다. 돌았다는 말이 아니라 결과가 바뀌었는지를 본다. chief_of_staff.py 파일은 어느 워크플로도 부르지 않는 고아라서 근거로 쓰지 않는다."
@@ -451,7 +451,7 @@
     "status": "completed",
     "record_count": 3956,
     "source_counts": {},
-    "updated_at": "2026-09-20T13:55:49.602604+09:00"
+    "updated_at": "2026-09-20T14:54:22.299054+09:00"
   },
   "shopify_marketing_strategy": {
     "status": "evidence_ready",
@@ -715,7 +715,7 @@
     "topics": 28,
     "orgs": 35,
     "audit": "passed",
-    "last_generated": "2026-09-20T13:56:05.091827+09:00"
+    "last_generated": "2026-09-20T14:54:25.427128+09:00"
   },
   "training": {
     "status": "completed",
@@ -1993,7 +1993,7 @@
       "collected_at": "2026-09-19T22:28:40.655933+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 6.5,
+      "age_hours": 7.4,
       "stale": false
     },
     "walmart_beauty": {
@@ -2003,7 +2003,7 @@
       "collected_at": "2026-09-19T22:28:40.656535+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 6.5,
+      "age_hours": 7.4,
       "stale": false
     },
     "oliveyoung_us": {
@@ -2013,7 +2013,7 @@
       "collected_at": "2026-09-19T22:15:47.655225+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 6.7,
+      "age_hours": 7.7,
       "stale": false
     },
     "google_trends_us": {
@@ -2023,7 +2023,7 @@
       "collected_at": "2026-09-19T22:16:24.080562+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 6.7,
+      "age_hours": 7.7,
       "stale": false
     },
     "wikipedia_interest": {
@@ -2034,7 +2034,7 @@
       "count": 8,
       "trust": "verified",
       "note": "2026-08-19 ~ 2026-09-17 일별 조회수. 후반 15일 대비 전반 15일 증감률",
-      "age_hours": 6.6,
+      "age_hours": 7.6,
       "stale": false
     },
     "allure_media": {
@@ -2045,7 +2045,7 @@
       "count": 15,
       "trust": "verified",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
-      "age_hours": 6.6,
+      "age_hours": 7.6,
       "stale": false
     },
     "openfda_sunscreen": {
@@ -2056,7 +2056,7 @@
       "count": 15,
       "trust": "verified",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다.",
-      "age_hours": 6.6,
+      "age_hours": 7.6,
       "stale": false
     },
     "shopify_demand_matching": {
@@ -2082,7 +2082,7 @@
       "collected_at": "2026-09-19T22:28:40.657087+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 6.5,
+      "age_hours": 7.4,
       "stale": false
     },
     "sephora": {
@@ -2092,7 +2092,7 @@
       "collected_at": "2026-09-19T22:28:40.657087+00:00",
       "count": 14,
       "trust": "verified",
-      "age_hours": 6.5,
+      "age_hours": 7.4,
       "stale": false
     },
     "open_beauty_facts": {
@@ -2102,7 +2102,7 @@
       "collected_at": "2026-09-19T22:15:28.742229+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 6.7,
+      "age_hours": 7.7,
       "stale": false
     }
   },
