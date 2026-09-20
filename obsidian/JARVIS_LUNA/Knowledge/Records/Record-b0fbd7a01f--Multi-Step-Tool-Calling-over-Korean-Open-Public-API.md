@@ -2,7 +2,7 @@
 title: "Record b0fbd7a01f · Multi-Step-Tool-Calling-over-Korean-Open-Public-API"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T03:15:40.141226+00:00
+updated_at: 2026-09-20T04:56:03.629964+00:00
 tags: [record, real-data]
 ---
 

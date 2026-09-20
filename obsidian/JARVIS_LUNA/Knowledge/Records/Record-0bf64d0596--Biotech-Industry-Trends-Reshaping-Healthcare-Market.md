@@ -2,7 +2,7 @@
 title: "Record 0bf64d0596 · Biotech-Industry-Trends-Reshaping-Healthcare-Market"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T03:15:40.769463+00:00
+updated_at: 2026-09-20T04:56:04.823477+00:00
 tags: [record, real-data]
 ---
 

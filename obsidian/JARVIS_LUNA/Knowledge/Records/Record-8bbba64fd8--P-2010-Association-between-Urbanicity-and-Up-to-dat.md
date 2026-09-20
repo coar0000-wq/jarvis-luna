@@ -2,7 +2,7 @@
 title: "Record 8bbba64fd8 · P-2010-Association-between-Urbanicity-and-Up-to-dat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T03:15:40.263301+00:00
+updated_at: 2026-09-20T04:56:03.707623+00:00
 tags: [record, real-data]
 ---
 

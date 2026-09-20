@@ -2,7 +2,7 @@
 title: "Record 8b0404025e · Filipinos-rebelling-against-extreme-TikTok-beauty-t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T03:15:40.561173+00:00
+updated_at: 2026-09-20T04:56:04.692779+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMingFBVV95cUxQdTBmMFFFRG9JVkdQNDc1U2hGV2RleTBNZTh6MUtGcDludDFxYmtUNUJPLURVb2FTQjdxTnhhSGhVMW5KTzRndDdnRzVCdHVHVzVuX2kwWXltaWk4bW1CNl9LbnhGOHhibXc3NVprMEtlekI1S1FQQVRERDRrY1M4ZUNtcUZiMkQybDBuWGNXM2V1Z2NHLVhSY2tkQThsZw?oc=5)
 
-**제목:** Filipinos rebelling against extreme TikTok beauty trends — doctor - Daily Tribune
+**제목:** Filipinos rebelling against extreme TikTok beauty trends — doctor - tribune.net.ph
 
-Filipinos rebelling against extreme TikTok beauty trends — doctor - Daily Tribune
+Filipinos rebelling against extreme TikTok beauty trends — doctor - tribune.net.ph
 
 **출처:** Source · Google Search
 

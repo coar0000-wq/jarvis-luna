@@ -2,7 +2,7 @@
 title: "Record 7feb8b8991 · Shopify-wants-to-put-commerce-inside-every-AI-conve"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T03:15:40.517502+00:00
+updated_at: 2026-09-20T04:56:04.663752+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 3035372992 · In-Conversation-with-Charlotte-Cho-on-K-Beauty-Righ"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T03:15:40.471567+00:00
+updated_at: 2026-09-20T04:56:04.637458+00:00
 tags: [record, real-data]
 ---
 

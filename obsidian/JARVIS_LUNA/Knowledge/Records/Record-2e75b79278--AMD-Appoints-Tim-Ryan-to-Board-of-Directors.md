@@ -2,7 +2,7 @@
 title: "Record 2e75b79278 · AMD-Appoints-Tim-Ryan-to-Board-of-Directors"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T03:15:40.397596+00:00
+updated_at: 2026-09-20T04:56:04.593563+00:00
 tags: [record, real-data]
 ---
 

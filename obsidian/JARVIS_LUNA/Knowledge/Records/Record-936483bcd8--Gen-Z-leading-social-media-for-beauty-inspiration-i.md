@@ -2,7 +2,7 @@
 title: "Record 936483bcd8 · Gen-Z-leading-social-media-for-beauty-inspiration-i"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T03:15:40.587622+00:00
+updated_at: 2026-09-20T04:56:04.708212+00:00
 tags: [record, real-data]
 ---
 

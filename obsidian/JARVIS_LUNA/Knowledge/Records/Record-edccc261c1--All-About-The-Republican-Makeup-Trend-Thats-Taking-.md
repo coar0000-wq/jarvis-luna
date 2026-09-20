@@ -2,7 +2,7 @@
 title: "Record edccc261c1 · All-About-The-Republican-Makeup-Trend-Thats-Taking-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T03:15:40.510675+00:00
+updated_at: 2026-09-20T04:56:04.659879+00:00
 tags: [record, real-data]
 ---
 

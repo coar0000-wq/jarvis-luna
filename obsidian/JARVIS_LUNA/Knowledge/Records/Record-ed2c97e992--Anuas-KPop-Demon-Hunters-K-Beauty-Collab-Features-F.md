@@ -2,7 +2,7 @@
 title: "Record ed2c97e992 · Anuas-KPop-Demon-Hunters-K-Beauty-Collab-Features-F"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T03:15:40.549247+00:00
+updated_at: 2026-09-20T04:56:04.683256+00:00
 tags: [record, real-data]
 ---
 

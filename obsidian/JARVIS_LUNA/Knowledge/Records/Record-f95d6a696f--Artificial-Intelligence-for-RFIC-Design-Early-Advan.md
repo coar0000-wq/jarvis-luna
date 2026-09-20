@@ -2,7 +2,7 @@
 title: "Record f95d6a696f · Artificial-Intelligence-for-RFIC-Design-Early-Advan"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T03:15:40.273907+00:00
+updated_at: 2026-09-20T04:56:03.713739+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record b7fae6cf06 · Koopman-Based-Model-Predictive-Control-for-Simultan"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T03:15:40.146767+00:00
+updated_at: 2026-09-20T04:56:03.633398+00:00
 tags: [record, real-data]
 ---
 

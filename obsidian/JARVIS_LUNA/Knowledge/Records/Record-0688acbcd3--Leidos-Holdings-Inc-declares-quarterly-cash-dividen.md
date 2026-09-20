@@ -2,7 +2,7 @@
 title: "Record 0688acbcd3 · Leidos-Holdings-Inc-declares-quarterly-cash-dividen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T03:15:40.392456+00:00
+updated_at: 2026-09-20T04:56:04.590028+00:00
 tags: [record, real-data]
 ---
 

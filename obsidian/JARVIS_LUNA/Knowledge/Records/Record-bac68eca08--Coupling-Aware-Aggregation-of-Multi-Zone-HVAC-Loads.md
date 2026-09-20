@@ -2,7 +2,7 @@
 title: "Record bac68eca08 · Coupling-Aware-Aggregation-of-Multi-Zone-HVAC-Loads"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T03:15:40.119117+00:00
+updated_at: 2026-09-20T04:56:03.614907+00:00
 tags: [record, real-data]
 ---
 

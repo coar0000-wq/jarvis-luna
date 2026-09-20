@@ -2,7 +2,7 @@
 title: "Record a44030e011 · Looking-tired-is-the-new-trend---CBS-News"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T03:15:40.489246+00:00
+updated_at: 2026-09-20T04:56:04.647195+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMieEFVX3lxTE54T0M0X2tpR2gwQjNpWnB6WjRFay1VSTNPQzZqMmotWldaX0J6OWtWTzhGTWp6ZmoxRFFqTHd2a0ozMUlNVTNJSFV3elVEZUtFN01GR0l4amlCUDluS3EyZnZFR1ZvR0RFWUQyRzFYSzYtY1JLQ1doVA?oc=5)
 
-**제목:** Looking tired is the new trend - CBS News
+**제목:** Looking tired is the new trend - cbsnews.com
 
-Looking tired is the new trend - CBS News
+Looking tired is the new trend - cbsnews.com
 
 **출처:** Source · Google Search
 

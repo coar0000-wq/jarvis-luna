@@ -2,7 +2,7 @@
 title: "Record a157bac407 · Pocket-Bronze-Long-Wearing-Cream-Bronzer"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T03:15:40.777870+00:00
+updated_at: 2026-09-20T04:56:04.829005+00:00
 tags: [record, real-data]
 ---
 
