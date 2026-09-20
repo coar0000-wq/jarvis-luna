@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T02:25:08.292133+09:00",
+  "generated_at": "2026-09-21T05:23:15.454829+09:00",
   "generator": "scripts/build_shopify_marketing_strategy.py",
   "status": "evidence_ready",
   "scope": "US K-Beauty Shopify launch marketing",
@@ -1113,12 +1113,12 @@
       "claim_guardrail": "고시·영문 라벨·법률 게이트가 확인한 사실만 사용"
     },
     {
-      "canonical_product_id": "CP000155",
-      "pd_no": "1060211",
-      "product": "바세린 모이스처라이징 클렌징 밀크 140 ml",
-      "bucket": "클렌징",
+      "canonical_product_id": "CP000075",
+      "pd_no": "1042619",
+      "product": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
+      "bucket": "마스크팩",
       "grade": "S",
-      "score": 87,
+      "score": 89,
       "agent_ready": true,
       "public_ready": false,
       "recommended_insight_ids": [
@@ -1126,7 +1126,7 @@
         "MKT-003",
         "MKT-004",
         "MKT-016",
-        "MKT-013",
+        "MKT-012",
         "MKT-014",
         "MKT-015"
       ],
@@ -1194,7 +1194,7 @@
     "경쟁 스토어 문구와 디자인 복제는 저작권·상표 위험으로 금지"
   ],
   "integrity": {
-    "listing_gate_generated_at": "2026-09-20T17:25:05.704132+00:00",
+    "listing_gate_generated_at": "2026-09-20T20:23:12.600979+00:00",
     "s_product_count": 10,
     "product_playbook_count": 10,
     "public_ready_count": 0,

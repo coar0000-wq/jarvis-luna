@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-20T17:19:40.311434+00:00",
+  "collected_at": "2026-09-20T20:17:41.001948+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -56,6 +56,10 @@
       "score": 4
     },
     {
+      "keyword": "sheet",
+      "score": 4
+    },
+    {
       "keyword": "masks",
       "score": 4
     },
@@ -84,6 +88,14 @@
       "score": 2
     },
     {
+      "keyword": "gel",
+      "score": 2
+    },
+    {
+      "keyword": "sunscreen",
+      "score": 2
+    },
+    {
       "keyword": "colored",
       "score": 2
     },
@@ -92,27 +104,11 @@
       "score": 2
     },
     {
-      "keyword": "serum",
-      "score": 2
-    },
-    {
-      "keyword": "toner",
-      "score": 2
-    },
-    {
-      "keyword": "eyes",
-      "score": 2
-    },
-    {
       "keyword": "anyone",
       "score": 2
     },
     {
       "keyword": "thai",
-      "score": 2
-    },
-    {
-      "keyword": "sheet",
       "score": 2
     },
     {
@@ -136,6 +132,10 @@
       "score": 2
     },
     {
+      "keyword": "review",
+      "score": 2
+    },
+    {
       "keyword": "products",
       "score": 2
     },
@@ -145,6 +145,10 @@
     },
     {
       "keyword": "spf50+",
+      "score": 2
+    },
+    {
+      "keyword": "mask",
       "score": 2
     },
     {
@@ -160,11 +164,15 @@
       "score": 1
     },
     {
-      "keyword": "achieve",
+      "keyword": "by365",
       "score": 1
     },
     {
-      "keyword": "look",
+      "keyword": "powdery",
+      "score": 1
+    },
+    {
+      "keyword": "yes",
       "score": 1
     },
     {
@@ -173,6 +181,14 @@
     },
     {
       "keyword": "pick",
+      "score": 1
+    },
+    {
+      "keyword": "achieve",
+      "score": 1
+    },
+    {
+      "keyword": "look",
       "score": 1
     },
     {
@@ -186,43 +202,23 @@
     {
       "keyword": "contacts",
       "score": 1
-    },
-    {
-      "keyword": "lens",
-      "score": 1
-    },
-    {
-      "keyword": "ship",
-      "score": 1
-    },
-    {
-      "keyword": "usa",
-      "score": 1
-    },
-    {
-      "keyword": "bonkorea",
-      "score": 1
     }
   ],
   "beauty_keywords": [
+    {
+      "keyword": "sheet",
+      "score": 4
+    },
     {
       "keyword": "masks",
       "score": 4
     },
     {
+      "keyword": "sunscreen",
+      "score": 2
+    },
+    {
       "keyword": "cleanser",
-      "score": 2
-    },
-    {
-      "keyword": "serum",
-      "score": 2
-    },
-    {
-      "keyword": "toner",
-      "score": 2
-    },
-    {
-      "keyword": "sheet",
       "score": 2
     },
     {
@@ -239,6 +235,10 @@
     },
     {
       "keyword": "spf50+",
+      "score": 2
+    },
+    {
+      "keyword": "mask",
       "score": 2
     }
   ],
@@ -258,9 +258,9 @@
       "feed": "hot"
     },
     {
-      "title": "how to achieve this look?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wl37db/how_to_achieve_this_look/",
-      "published": "2026-09-20T01:13:40+00:00",
+      "title": "By365 Powdery Gel sunscreen - YES!",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wln6im/by365_powdery_gel_sunscreen_yes/",
+      "published": "2026-09-20T17:29:37+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -268,6 +268,13 @@
       "title": "If you had to pick 3",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wlkijr/if_you_had_to_pick_3/",
       "published": "2026-09-20T15:47:32+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "how to achieve this look?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wl37db/how_to_achieve_this_look/",
+      "published": "2026-09-20T01:13:40+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -282,20 +289,6 @@
       "title": "bonkorea Angel’s Powder Enzyme Cleanser",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wlgw70/bonkorea_angels_powder_enzyme_cleanser/",
       "published": "2026-09-20T13:18:33+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Best vitamin C serum",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wlmg8c/best_vitamin_c_serum/",
-      "published": "2026-09-20T17:01:30+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Round lab dokdo toner burning my eyes when it accidentally gets into my eyes",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wlif3l/round_lab_dokdo_toner_burning_my_eyes_when_it/",
-      "published": "2026-09-20T14:23:34+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -415,6 +408,13 @@
       "title": "HAVE A QUESTION? ASK HERE! Alter-Daily Help and Questions: September 18, 2026",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjsthh/have_a_question_ask_here_alterdaily_help_and/",
       "published": "2026-09-18T15:09:22+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Cream sheet mask review",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjdn0k/cream_sheet_mask_review/",
+      "published": "2026-09-18T02:22:45+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

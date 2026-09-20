@@ -2,7 +2,7 @@
 title: "Record 21b4d26214 · PointEvent-Rethinking-Event-based-Tiny-Object-Detection-via-Serialized"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T17:26:41.694951+00:00
+updated_at: 2026-09-20T20:24:56.306862+00:00
 tags: [record, real-data]
 ---
 

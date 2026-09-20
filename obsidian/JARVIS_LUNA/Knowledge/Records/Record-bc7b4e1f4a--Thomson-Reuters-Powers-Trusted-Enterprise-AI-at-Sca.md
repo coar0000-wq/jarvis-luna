@@ -2,7 +2,7 @@
 title: "Record bc7b4e1f4a · Thomson-Reuters-Powers-Trusted-Enterprise-AI-at-Sca"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T17:26:41.744183+00:00
+updated_at: 2026-09-20T20:24:56.351535+00:00
 tags: [record, real-data]
 ---
 

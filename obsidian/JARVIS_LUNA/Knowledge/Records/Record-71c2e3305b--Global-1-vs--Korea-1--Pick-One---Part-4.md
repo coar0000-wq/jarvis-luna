@@ -2,7 +2,7 @@
 title: "Record 71c2e3305b · Global-1-vs--Korea-1--Pick-One---Part-4"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T17:26:42.215684+00:00
+updated_at: 2026-09-20T20:24:56.770880+00:00
 tags: [record, real-data]
 ---
 

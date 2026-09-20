@@ -2,7 +2,7 @@
 title: "Record 17066278bc · The-Base-Face-Milk-SPF-20"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T17:26:42.155069+00:00
+updated_at: 2026-09-20T20:24:56.707647+00:00
 tags: [record, real-data]
 ---
 

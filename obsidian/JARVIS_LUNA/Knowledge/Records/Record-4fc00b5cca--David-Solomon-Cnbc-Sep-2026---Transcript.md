@@ -2,7 +2,7 @@
 title: "Record 4fc00b5cca · David-Solomon-Cnbc-Sep-2026---Transcript"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T17:26:42.153701+00:00
+updated_at: 2026-09-20T20:24:56.706269+00:00
 tags: [record, real-data]
 ---
 

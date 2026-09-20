@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T17:18:55.233098+00:00",
+  "generated_at": "2026-09-20T20:16:53.845862+00:00",
   "generator": "scripts/ingest_youtube_channels.py",
   "입력": "data/manual/youtube_channels.txt",
   "robots": "youtube.com/robots.txt 의 Disallow 목록에 /@ 와 /channel/ 은 없다. 막힌 것은 /feeds/videos.xml, /results, /youtubei/ 등이다. 지정된 채널만 하나씩 본다. 2026-09-06 확인.",
@@ -70,9 +70,9 @@
     {
       "video_id": "2TlIg3VokY8",
       "title": "The UX Psychology Behind Apps People Can’t Stop Using",
-      "views_text": "513K views",
+      "views_text": "514K views",
       "published_text": "2 months ago",
-      "views": 513000,
+      "views": 514000,
       "url": "https://www.youtube.com/watch?v=2TlIg3VokY8",
       "channel": "uxpeak",
       "teams": [
@@ -106,9 +106,9 @@
     {
       "video_id": "GGg61sdEjeI",
       "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
-      "views_text": "312K views",
+      "views_text": "315K views",
       "published_text": "3 weeks ago",
-      "views": 312000,
+      "views": 315000,
       "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
       "channel": "uxpeak",
       "teams": [
@@ -203,7 +203,7 @@
   "items": [
     {
       "stale": false,
-      "last_ok_at": "2026-09-20T17:18:34.349655+00:00",
+      "last_ok_at": "2026-09-20T20:16:32.399694+00:00",
       "url": "https://www.youtube.com/@uxpeak",
       "note": "UX/UI 리디자인·전환율 (사용자 지정)",
       "team_hint": "design",
@@ -212,14 +212,14 @@
       "subscribers": "124K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-20T17:18:34.349676+00:00",
+      "checked_at": "2026-09-20T20:16:32.399717+00:00",
       "videos": [
         {
           "video_id": "GGg61sdEjeI",
           "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
-          "views_text": "312K views",
+          "views_text": "315K views",
           "published_text": "3 weeks ago",
-          "views": 312000,
+          "views": 315000,
           "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
           "channel": "uxpeak",
           "teams": [
@@ -229,9 +229,9 @@
         {
           "video_id": "2TlIg3VokY8",
           "title": "The UX Psychology Behind Apps People Can’t Stop Using",
-          "views_text": "513K views",
+          "views_text": "514K views",
           "published_text": "2 months ago",
-          "views": 513000,
+          "views": 514000,
           "url": "https://www.youtube.com/watch?v=2TlIg3VokY8",
           "channel": "uxpeak",
           "teams": [
@@ -470,7 +470,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-20T17:18:39.619413+00:00",
+      "last_ok_at": "2026-09-20T20:16:37.869584+00:00",
       "url": "https://www.youtube.com/@%EB%95%A1%ED%81%90%EC%B1%84%EB%84%90",
       "note": "땡스큐레이터 - 스몰 브랜드 브랜딩·수출·견적. 팀은 영상마다 자동 분류",
       "team_hint": "",
@@ -479,7 +479,7 @@
       "subscribers": "18.5K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-20T17:18:39.619429+00:00",
+      "checked_at": "2026-09-20T20:16:37.869600+00:00",
       "videos": [
         {
           "video_id": "hikTGKo2kZE",
@@ -559,9 +559,9 @@
         {
           "video_id": "rM6gwEyfKZ8",
           "title": "🧐브랜딩을 잘하고 싶다면 리서치가 가장 중요합니다 | 인풋 쌓는 과정부터 시장조사 노하우까지! 일단 시작부터!",
-          "views_text": "90K views",
+          "views_text": "91K views",
           "published_text": "2 months ago",
-          "views": 90000,
+          "views": 91000,
           "url": "https://www.youtube.com/watch?v=rM6gwEyfKZ8",
           "channel": "땡스큐레이터",
           "teams": [
@@ -742,7 +742,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-20T17:18:44.958930+00:00",
+      "last_ok_at": "2026-09-20T20:16:43.366440+00:00",
       "url": "https://www.youtube.com/@learnwithshopify",
       "note": "Shopify 공식 - 마케팅·전환·스토어 운영",
       "team_hint": "market,listing,design",
@@ -751,7 +751,7 @@
       "subscribers": "907K",
       "video_count": 30,
       "error": "",
-      "checked_at": "2026-09-20T17:18:44.958946+00:00",
+      "checked_at": "2026-09-20T20:16:43.366459+00:00",
       "videos": [
         {
           "video_id": "-jLkh1-vxg8",
@@ -784,9 +784,9 @@
         {
           "video_id": "vdUtt0qZ4W4",
           "title": "How to Build a Shopify Store Using Only Your PHONE",
-          "views_text": "8.9K views",
+          "views_text": "9K views",
           "published_text": "13 days ago",
-          "views": 8900,
+          "views": 9000,
           "url": "https://www.youtube.com/watch?v=vdUtt0qZ4W4",
           "channel": "Learn With Shopify",
           "teams": [
@@ -868,9 +868,9 @@
         {
           "video_id": "4ulpu2uos8I",
           "title": "7 Faceless Business Ideas for Beginners",
-          "views_text": "5.6K views",
+          "views_text": "5.7K views",
           "published_text": "1 month ago",
-          "views": 5600,
+          "views": 5700,
           "url": "https://www.youtube.com/watch?v=4ulpu2uos8I",
           "channel": "Learn With Shopify",
           "teams": [
@@ -1177,7 +1177,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-20T17:18:50.232868+00:00",
+      "last_ok_at": "2026-09-20T20:16:48.845579+00:00",
       "url": "https://www.youtube.com/@shopify",
       "note": "Shopify 본채널 - 브랜드 성장 사례",
       "team_hint": "market",
@@ -1186,7 +1186,7 @@
       "subscribers": "488K",
       "video_count": 30,
       "error": "",
-      "checked_at": "2026-09-20T17:18:50.232884+00:00",
+      "checked_at": "2026-09-20T20:16:48.845596+00:00",
       "videos": [
         {
           "video_id": "KsujQDvKdHk",

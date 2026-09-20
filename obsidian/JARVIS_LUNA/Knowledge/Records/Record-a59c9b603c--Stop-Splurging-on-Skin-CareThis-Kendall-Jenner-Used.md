@@ -2,7 +2,7 @@
 title: "Record a59c9b603c · Stop-Splurging-on-Skin-CareThis-Kendall-Jenner-Used-K-Beauty-Brand-Giv"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T17:26:41.861285+00:00
+updated_at: 2026-09-20T20:24:56.464660+00:00
 tags: [record, real-data]
 ---
 
