@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-20T20:23:09.903757+00:00",
-  "total_products": 342,
+  "generated_at": "2026-09-20T22:34:01.388463+00:00",
+  "total_products": 345,
   "grade_summary": {
     "S": 10,
-    "A": 72,
-    "B": 53,
-    "C": 207
+    "A": 73,
+    "B": 54,
+    "C": 208
   },
   "s_slot_limit": 10,
   "s_slot_open": 0,
   "category_avg_score": {
-    "클렌징": 76.2,
+    "클렌징": 74.9,
     "스킨케어": 65.8,
     "바디케어": 62.8,
     "마스크팩": 54.4,
@@ -30,7 +30,7 @@
     "walmart_beauty"
   ],
   "global_demand_signals": 89,
-  "products_with_global_match": 121,
+  "products_with_global_match": 134,
   "canonical": "shopify_s_recommendations.json",
   "priority_note": "S등급만 Shopify 1차 등록. 펫/노이즈/약한 단일토큰 제외.",
   "scoring_model": {
@@ -111,21 +111,21 @@
           "channel": "oliveyoung_us",
           "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
           "similarity": 0.667,
-          "demand_weight": 0.784,
+          "demand_weight": 0.637,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.523
+          "match_score": 0.425
         },
         {
           "channel": "oliveyoung_us",
           "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
           "similarity": 0.733,
-          "demand_weight": 0.539,
+          "demand_weight": 0.49,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.395
+          "match_score": 0.359
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule",
@@ -256,21 +256,21 @@
           "channel": "oliveyoung_us",
           "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
           "similarity": 0.667,
-          "demand_weight": 0.784,
+          "demand_weight": 0.637,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.523
+          "match_score": 0.425
         },
         {
           "channel": "oliveyoung_us",
           "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
           "similarity": 0.733,
-          "demand_weight": 0.539,
+          "demand_weight": 0.49,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.395
+          "match_score": 0.359
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule",
@@ -643,7 +643,7 @@
         "keyword": 0,
         "us_market_fit": 24.6,
         "rebucket_note": "",
-        "global_similarity_reference_only": 14,
+        "global_similarity_reference_only": 16,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -651,17 +651,28 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Biodance Bio-Collagen Real Deep Mask",
-        "similarity": 0.88,
-        "demand_weight": 0.6,
+        "channel": "oliveyoung_us",
+        "global_product": "Torriden Cellmazing Low Molecular Collagen Firming Gel Mask 4ct 1.27 oz.(36g)",
+        "similarity": 0.853,
+        "demand_weight": 0.686,
         "matched_tokens": [
           "collagen",
           "mask"
         ],
-        "match_score": 0.528
+        "match_score": 0.585
       },
       "global_matches": [
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Torriden Cellmazing Low Molecular Collagen Firming Gel Mask 4ct 1.27 oz.(36g)",
+          "similarity": 0.853,
+          "demand_weight": 0.686,
+          "matched_tokens": [
+            "collagen",
+            "mask"
+          ],
+          "match_score": 0.585
+        },
         {
           "channel": "tiktok_shop_us",
           "global_product": "Biodance Bio-Collagen Real Deep Mask",
@@ -685,7 +696,7 @@
           "match_score": 0.36
         }
       ],
-      "recommend_reason": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 88% · 토큰 collagen, mask",
+      "recommend_reason": "글로벌 'Torriden Cellmazing Low Molecular Collagen Firming Gel Mask 4ct 1.27 oz.(36g)' (oliveyoung_us) 유사 85% · 토큰 collagen, mask",
       "canonical_product_id": "CP000151",
       "s_rank": 9
     },
@@ -804,21 +815,21 @@
           "channel": "oliveyoung_us",
           "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
           "similarity": 0.667,
-          "demand_weight": 0.784,
+          "demand_weight": 0.637,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.523
+          "match_score": 0.425
         },
         {
           "channel": "oliveyoung_us",
           "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
           "similarity": 0.733,
-          "demand_weight": 0.539,
+          "demand_weight": 0.49,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.395
+          "match_score": 0.359
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule",
@@ -984,21 +995,21 @@
           "channel": "oliveyoung_us",
           "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
           "similarity": 0.667,
-          "demand_weight": 0.784,
+          "demand_weight": 0.637,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.523
+          "match_score": 0.425
         },
         {
           "channel": "oliveyoung_us",
           "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
           "similarity": 0.733,
-          "demand_weight": 0.539,
+          "demand_weight": 0.49,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.395
+          "match_score": 0.359
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule",
@@ -1060,21 +1071,21 @@
           "channel": "oliveyoung_us",
           "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
           "similarity": 0.667,
-          "demand_weight": 0.784,
+          "demand_weight": 0.637,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.523
+          "match_score": 0.425
         },
         {
           "channel": "oliveyoung_us",
           "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
           "similarity": 0.733,
-          "demand_weight": 0.539,
+          "demand_weight": 0.49,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.395
+          "match_score": 0.359
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule",
@@ -1136,21 +1147,21 @@
           "channel": "oliveyoung_us",
           "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
           "similarity": 0.667,
-          "demand_weight": 0.784,
+          "demand_weight": 0.637,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.523
+          "match_score": 0.425
         },
         {
           "channel": "oliveyoung_us",
           "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
           "similarity": 0.733,
-          "demand_weight": 0.539,
+          "demand_weight": 0.49,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.395
+          "match_score": 0.359
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule",
@@ -1212,21 +1223,21 @@
           "channel": "oliveyoung_us",
           "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
           "similarity": 0.667,
-          "demand_weight": 0.784,
+          "demand_weight": 0.637,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.523
+          "match_score": 0.425
         },
         {
           "channel": "oliveyoung_us",
           "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
           "similarity": 0.733,
-          "demand_weight": 0.539,
+          "demand_weight": 0.49,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.395
+          "match_score": 0.359
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule",
@@ -1285,16 +1296,6 @@
           "match_score": 0.225
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
-          "similarity": 0.267,
-          "demand_weight": 0.784,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.209
-        },
-        {
           "channel": "tiktok_shop_us",
           "global_product": "Goodal Green Tangerine Vita C Dark Spot Serum",
           "similarity": 0.377,
@@ -1303,6 +1304,16 @@
             "vitaminc"
           ],
           "match_score": 0.207
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)",
+          "similarity": 0.42,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "vitaminc"
+          ],
+          "match_score": 0.206
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 30% · 토큰 ampoule · S제외:match_too_weak",
@@ -1363,21 +1374,21 @@
           "channel": "oliveyoung_us",
           "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
           "similarity": 0.667,
-          "demand_weight": 0.784,
+          "demand_weight": 0.637,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.523
+          "match_score": 0.425
         },
         {
           "channel": "oliveyoung_us",
           "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
           "similarity": 0.733,
-          "demand_weight": 0.539,
+          "demand_weight": 0.49,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.395
+          "match_score": 0.359
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule",
@@ -1587,11 +1598,11 @@
           "channel": "oliveyoung_us",
           "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
           "similarity": 0.367,
-          "demand_weight": 0.784,
+          "demand_weight": 0.637,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.287
+          "match_score": 0.234
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 40% · 토큰 ampoule · S제외:match_too_weak",
@@ -1649,16 +1660,6 @@
           "match_score": 0.3
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
-          "similarity": 0.367,
-          "demand_weight": 0.784,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.287
-        },
-        {
           "channel": "tiktok_shop_us",
           "global_product": "Goodal Green Tangerine Vita C Dark Spot Serum",
           "similarity": 0.477,
@@ -1667,6 +1668,16 @@
             "vitaminc"
           ],
           "match_score": 0.262
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)",
+          "similarity": 0.52,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "vitaminc"
+          ],
+          "match_score": 0.255
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 40% · 토큰 ampoule · S제외:match_too_weak",
@@ -1727,21 +1738,21 @@
           "channel": "oliveyoung_us",
           "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
           "similarity": 0.367,
-          "demand_weight": 0.784,
+          "demand_weight": 0.637,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.287
+          "match_score": 0.234
         },
         {
           "channel": "oliveyoung_us",
           "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
           "similarity": 0.433,
-          "demand_weight": 0.539,
+          "demand_weight": 0.49,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.234
+          "match_score": 0.212
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 40% · 토큰 ampoule · S제외:match_too_weak",
@@ -1778,26 +1789,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "oliveyoung_us",
-        "global_product": "ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set",
-        "similarity": 0.26,
-        "demand_weight": 0.588,
+        "channel": "tiktok_shop_us",
+        "global_product": "Goodal Green Tangerine Vita C Dark Spot Serum",
+        "similarity": 0.263,
+        "demand_weight": 0.55,
         "matched_tokens": [
           "serum"
         ],
-        "match_score": 0.153
+        "match_score": 0.145
       },
       "global_matches": [
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set",
-          "similarity": 0.26,
-          "demand_weight": 0.588,
-          "matched_tokens": [
-            "serum"
-          ],
-          "match_score": 0.153
-        },
         {
           "channel": "tiktok_shop_us",
           "global_product": "Goodal Green Tangerine Vita C Dark Spot Serum",
@@ -1817,9 +1818,19 @@
             "serum"
           ],
           "match_score": 0.14
+        },
+        {
+          "channel": "tiktok_shop_us",
+          "global_product": "Some By Mi Retinol Intense Reactivating Serum",
+          "similarity": 0.272,
+          "demand_weight": 0.5,
+          "matched_tokens": [
+            "serum"
+          ],
+          "match_score": 0.136
         }
       ],
-      "recommend_reason": "글로벌 'ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set' (oliveyoung_us) 유사 26% · 토큰 serum · S제외:weak_solo_token",
+      "recommend_reason": "글로벌 'Goodal Green Tangerine Vita C Dark Spot Serum' (tiktok_shop_us) 유사 26% · 토큰 serum · S제외:weak_solo_token",
       "canonical_product_id": "CP000198"
     },
     {
@@ -2030,22 +2041,22 @@
         "channel": "oliveyoung_us",
         "global_product": "[7types] MEDIHEAL Toner Pad 100 + 100 Pads Double Set",
         "similarity": 0.38,
-        "demand_weight": 0.931,
+        "demand_weight": 0.882,
         "matched_tokens": [
           "toner"
         ],
-        "match_score": 0.354
+        "match_score": 0.335
       },
       "global_matches": [
         {
           "channel": "oliveyoung_us",
           "global_product": "[7types] MEDIHEAL Toner Pad 100 + 100 Pads Double Set",
           "similarity": 0.38,
-          "demand_weight": 0.931,
+          "demand_weight": 0.882,
           "matched_tokens": [
             "toner"
           ],
-          "match_score": 0.354
+          "match_score": 0.335
         },
         {
           "channel": "amazon_best_sellers",
@@ -2084,7 +2095,7 @@
         "keyword": 0,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 10,
+        "global_similarity_reference_only": 9,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -2115,17 +2126,6 @@
           "match_score": 0.372
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "ROUND LAB Birch Juice Moisturizing Cream 2.70 fl. oz.(80ml) + Cream 0.67 fl. oz.(20ml) + OUWR Keychain Set",
-          "similarity": 0.714,
-          "demand_weight": 0.49,
-          "matched_tokens": [
-            "cream",
-            "moisturizer"
-          ],
-          "match_score": 0.35
-        },
-        {
           "channel": "ulta_beauty",
           "global_product": "Toleriane Double Repair Face Moisturizer with Niacinamide",
           "similarity": 0.344,
@@ -2134,6 +2134,16 @@
             "moisturizer"
           ],
           "match_score": 0.264
+        },
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Toleriane Double Repair Face Moisturizer UV SPF 30",
+          "similarity": 0.344,
+          "demand_weight": 0.595,
+          "matched_tokens": [
+            "moisturizer"
+          ],
+          "match_score": 0.205
         }
       ],
       "recommend_reason": "글로벌 'ANUA PDRN Hyaluronic Acid 100 Moisturizing Cream, 2.02 fl oz | Lightweight, Non-Greasy Hydrating Face Moisturizer with Salmon DNA for Glass Skin, Korean Skincare' (amazon_best_sellers) 유사 65% · 토큰 cream, moisturizer",
@@ -2298,6 +2308,116 @@
       "s_rank": 7
     },
     {
+      "pd_no": "1061920",
+      "name": "본셉 비타씨 크림 50 ml",
+      "bucket": "스킨케어",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 4.8,
+      "review_count": 4077,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061920",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251216/LlNJt6NzAf654AyvuGWm1061920_00_00LlNJt6NzAf654AyvuGWm.jpg",
+      "shopify_score": 93,
+      "grade": "A",
+      "s_rule": "match_too_weak",
+      "us_market_hits": 21,
+      "us_median_price_usd": 30.6,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 13.3,
+        "reviews": 20.0,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 25.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 6,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "oliveyoung_us",
+        "global_product": "Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)",
+        "similarity": 0.52,
+        "demand_weight": 0.49,
+        "matched_tokens": [
+          "vitaminc"
+        ],
+        "match_score": 0.255
+      },
+      "global_matches": [
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)",
+          "similarity": 0.52,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "vitaminc"
+          ],
+          "match_score": 0.255
+        }
+      ],
+      "recommend_reason": "글로벌 'Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 52% · 토큰 vitaminc · S제외:match_too_weak",
+      "canonical_product_id": "CP000179"
+    },
+    {
+      "pd_no": "1068721",
+      "name": "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml",
+      "bucket": "스킨케어",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 4.8,
+      "review_count": 2980,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068721",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251205/6yxxYklOEqrkfhPkdQXB1068721_00_006yxxYklOEqrkfhPkdQXB.jpg",
+      "shopify_score": 93,
+      "grade": "A",
+      "s_rule": "match_too_weak",
+      "us_market_hits": 23,
+      "us_median_price_usd": 30.6,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 13.3,
+        "reviews": 20.0,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 25.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 4,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "oliveyoung_us",
+        "global_product": "Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)",
+        "similarity": 0.42,
+        "demand_weight": 0.49,
+        "matched_tokens": [
+          "vitaminc"
+        ],
+        "match_score": 0.206
+      },
+      "global_matches": [
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)",
+          "similarity": 0.42,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "vitaminc"
+          ],
+          "match_score": 0.206
+        }
+      ],
+      "recommend_reason": "글로벌 'Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 42% · 토큰 vitaminc · S제외:match_too_weak",
+      "canonical_product_id": "CP000230"
+    },
+    {
       "pd_no": "1044554",
       "name": "마데카21 테카 솔루션 수딩 크림 50 ml",
       "bucket": "스킨케어",
@@ -2329,7 +2449,7 @@
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
         "channel": "oliveyoung_us",
-        "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+        "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
         "similarity": 0.293,
         "demand_weight": 0.833,
         "matched_tokens": [
@@ -2340,7 +2460,7 @@
       "global_matches": [
         {
           "channel": "oliveyoung_us",
-          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
           "similarity": 0.293,
           "demand_weight": 0.833,
           "matched_tokens": [
@@ -2369,7 +2489,7 @@
           "match_score": 0.222
         }
       ],
-      "recommend_reason": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token",
+      "recommend_reason": "글로벌 'Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token",
       "canonical_product_id": "CP000084"
     },
     {
@@ -2404,7 +2524,7 @@
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
         "channel": "oliveyoung_us",
-        "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+        "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
         "similarity": 0.293,
         "demand_weight": 0.833,
         "matched_tokens": [
@@ -2415,7 +2535,7 @@
       "global_matches": [
         {
           "channel": "oliveyoung_us",
-          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
           "similarity": 0.293,
           "demand_weight": 0.833,
           "matched_tokens": [
@@ -2444,7 +2564,7 @@
           "match_score": 0.222
         }
       ],
-      "recommend_reason": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token",
+      "recommend_reason": "글로벌 'Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token",
       "canonical_product_id": "CP000054"
     },
     {
@@ -2479,7 +2599,7 @@
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
         "channel": "oliveyoung_us",
-        "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+        "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
         "similarity": 0.293,
         "demand_weight": 0.833,
         "matched_tokens": [
@@ -2490,7 +2610,7 @@
       "global_matches": [
         {
           "channel": "oliveyoung_us",
-          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
           "similarity": 0.293,
           "demand_weight": 0.833,
           "matched_tokens": [
@@ -2519,7 +2639,7 @@
           "match_score": 0.222
         }
       ],
-      "recommend_reason": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token",
+      "recommend_reason": "글로벌 'Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token",
       "canonical_product_id": "CP000171"
     },
     {
@@ -2554,7 +2674,7 @@
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
         "channel": "oliveyoung_us",
-        "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+        "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
         "similarity": 0.293,
         "demand_weight": 0.833,
         "matched_tokens": [
@@ -2565,7 +2685,7 @@
       "global_matches": [
         {
           "channel": "oliveyoung_us",
-          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
           "similarity": 0.293,
           "demand_weight": 0.833,
           "matched_tokens": [
@@ -2594,43 +2714,8 @@
           "match_score": 0.222
         }
       ],
-      "recommend_reason": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token",
+      "recommend_reason": "글로벌 'Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token",
       "canonical_product_id": "CP000118"
-    },
-    {
-      "pd_no": "1061920",
-      "name": "본셉 비타씨 크림 50 ml",
-      "bucket": "스킨케어",
-      "rebucketed": false,
-      "price_krw": 5000,
-      "rating": 4.8,
-      "review_count": 4077,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061920",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251216/LlNJt6NzAf654AyvuGWm1061920_00_00LlNJt6NzAf654AyvuGWm.jpg",
-      "shopify_score": 93,
-      "grade": "A",
-      "s_rule": "no_global_match",
-      "us_market_hits": 21,
-      "us_median_price_usd": 30.6,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 13.3,
-        "reviews": 20.0,
-        "price": 10.0,
-        "keyword": 0,
-        "us_market_fit": 25.0,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 0,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": null,
-      "global_matches": [],
-      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 4,077건 (글로벌 시그널 약함)",
-      "canonical_product_id": "CP000179"
     },
     {
       "pd_no": "1055169",
@@ -2701,41 +2786,6 @@
       "global_matches": [],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 3,012건 (글로벌 시그널 약함)",
       "canonical_product_id": "CP000129"
-    },
-    {
-      "pd_no": "1068721",
-      "name": "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml",
-      "bucket": "스킨케어",
-      "rebucketed": false,
-      "price_krw": 5000,
-      "rating": 4.8,
-      "review_count": 2980,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068721",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251205/6yxxYklOEqrkfhPkdQXB1068721_00_006yxxYklOEqrkfhPkdQXB.jpg",
-      "shopify_score": 93,
-      "grade": "A",
-      "s_rule": "no_global_match",
-      "us_market_hits": 23,
-      "us_median_price_usd": 30.6,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 13.3,
-        "reviews": 20.0,
-        "price": 10.0,
-        "keyword": 0,
-        "us_market_fit": 25.0,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 0,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": null,
-      "global_matches": [],
-      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 2,980건 (글로벌 시그널 약함)",
-      "canonical_product_id": "CP000230"
     },
     {
       "pd_no": "1076121",
@@ -2861,21 +2911,21 @@
           "channel": "oliveyoung_us",
           "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
           "similarity": 0.367,
-          "demand_weight": 0.784,
+          "demand_weight": 0.637,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.287
+          "match_score": 0.234
         },
         {
           "channel": "oliveyoung_us",
           "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
           "similarity": 0.433,
-          "demand_weight": 0.539,
+          "demand_weight": 0.49,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.234
+          "match_score": 0.212
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 40% · 토큰 ampoule · S제외:match_too_weak",
@@ -2935,16 +2985,6 @@
           "match_score": 0.69
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
-          "similarity": 0.367,
-          "demand_weight": 0.784,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.287
-        },
-        {
           "channel": "tiktok_shop_us",
           "global_product": "Purito Centella Unscented Serum",
           "similarity": 0.52,
@@ -2953,11 +2993,79 @@
             "centella"
           ],
           "match_score": 0.26
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
+          "similarity": 0.367,
+          "demand_weight": 0.637,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.234
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 92% · 토큰 ampoule, centella",
       "canonical_product_id": "CP000067",
       "downgrade_reason": "동일 제형(앰플) 상위 2개에 밀림"
+    },
+    {
+      "pd_no": "1071640",
+      "name": "파티온 노스카나인 퍼스트스텝 세럼클렌저 100 ml",
+      "bucket": "클렌징",
+      "rebucketed": false,
+      "price_krw": 3000,
+      "rating": 4.8,
+      "review_count": 827,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1071640",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251015/AR8EgQM3gsJer4GplnCY1071640_00_00AR8EgQM3gsJer4GplnCY.png",
+      "shopify_score": 91,
+      "grade": "A",
+      "s_rule": "form_cap",
+      "us_market_hits": 24,
+      "us_median_price_usd": 24.0,
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 13.3,
+        "reviews": 17.7,
+        "price": 10.0,
+        "keyword": 5,
+        "us_market_fit": 24.6,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 8,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "oliveyoung_us",
+        "global_product": "ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set",
+        "similarity": 0.7,
+        "demand_weight": 0.49,
+        "matched_tokens": [
+          "cleanser",
+          "serum"
+        ],
+        "match_score": 0.343
+      },
+      "global_matches": [
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set",
+          "similarity": 0.7,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "cleanser",
+            "serum"
+          ],
+          "match_score": 0.343
+        }
+      ],
+      "recommend_reason": "글로벌 'ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set' (oliveyoung_us) 유사 70% · 토큰 cleanser, serum",
+      "canonical_product_id": "CP000344",
+      "downgrade_reason": "동일 제형(세럼) 상위 2개에 밀림"
     },
     {
       "pd_no": "1049285",
@@ -3048,26 +3156,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "oliveyoung_us",
-        "global_product": "ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set",
-        "similarity": 0.26,
-        "demand_weight": 0.588,
+        "channel": "tiktok_shop_us",
+        "global_product": "Goodal Green Tangerine Vita C Dark Spot Serum",
+        "similarity": 0.263,
+        "demand_weight": 0.55,
         "matched_tokens": [
           "serum"
         ],
-        "match_score": 0.153
+        "match_score": 0.145
       },
       "global_matches": [
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set",
-          "similarity": 0.26,
-          "demand_weight": 0.588,
-          "matched_tokens": [
-            "serum"
-          ],
-          "match_score": 0.153
-        },
         {
           "channel": "tiktok_shop_us",
           "global_product": "Goodal Green Tangerine Vita C Dark Spot Serum",
@@ -3087,9 +3185,19 @@
             "serum"
           ],
           "match_score": 0.14
+        },
+        {
+          "channel": "tiktok_shop_us",
+          "global_product": "Some By Mi Retinol Intense Reactivating Serum",
+          "similarity": 0.272,
+          "demand_weight": 0.5,
+          "matched_tokens": [
+            "serum"
+          ],
+          "match_score": 0.136
         }
       ],
-      "recommend_reason": "글로벌 'ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set' (oliveyoung_us) 유사 26% · 토큰 serum · S제외:weak_solo_token",
+      "recommend_reason": "글로벌 'Goodal Green Tangerine Vita C Dark Spot Serum' (tiktok_shop_us) 유사 26% · 토큰 serum · S제외:weak_solo_token",
       "canonical_product_id": "CP000184"
     },
     {
@@ -3150,7 +3258,7 @@
         "keyword": 0,
         "us_market_fit": 24.6,
         "rebucket_note": "",
-        "global_similarity_reference_only": 14,
+        "global_similarity_reference_only": 16,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -3158,17 +3266,28 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Biodance Bio-Collagen Real Deep Mask",
-        "similarity": 0.88,
-        "demand_weight": 0.6,
+        "channel": "oliveyoung_us",
+        "global_product": "Torriden Cellmazing Low Molecular Collagen Firming Gel Mask 4ct 1.27 oz.(36g)",
+        "similarity": 0.853,
+        "demand_weight": 0.686,
         "matched_tokens": [
           "collagen",
           "mask"
         ],
-        "match_score": 0.528
+        "match_score": 0.585
       },
       "global_matches": [
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Torriden Cellmazing Low Molecular Collagen Firming Gel Mask 4ct 1.27 oz.(36g)",
+          "similarity": 0.853,
+          "demand_weight": 0.686,
+          "matched_tokens": [
+            "collagen",
+            "mask"
+          ],
+          "match_score": 0.585
+        },
         {
           "channel": "tiktok_shop_us",
           "global_product": "Biodance Bio-Collagen Real Deep Mask",
@@ -3192,7 +3311,7 @@
           "match_score": 0.36
         }
       ],
-      "recommend_reason": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 88% · 토큰 collagen, mask",
+      "recommend_reason": "글로벌 'Torriden Cellmazing Low Molecular Collagen Firming Gel Mask 4ct 1.27 oz.(36g)' (oliveyoung_us) 유사 85% · 토큰 collagen, mask",
       "canonical_product_id": "CP000151",
       "s_rank": 9
     },
@@ -3466,7 +3585,7 @@
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
         "channel": "oliveyoung_us",
-        "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+        "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
         "similarity": 0.293,
         "demand_weight": 0.833,
         "matched_tokens": [
@@ -3477,7 +3596,7 @@
       "global_matches": [
         {
           "channel": "oliveyoung_us",
-          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
           "similarity": 0.293,
           "demand_weight": 0.833,
           "matched_tokens": [
@@ -3506,7 +3625,7 @@
           "match_score": 0.222
         }
       ],
-      "recommend_reason": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token",
+      "recommend_reason": "글로벌 'Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token",
       "canonical_product_id": "CP000261"
     },
     {
@@ -3587,7 +3706,7 @@
         "keyword": 3,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 4,
+        "global_similarity_reference_only": 6,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -3595,16 +3714,26 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Biodance Bio-Collagen Real Deep Mask",
+        "channel": "oliveyoung_us",
+        "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
         "similarity": 0.272,
-        "demand_weight": 0.6,
+        "demand_weight": 0.931,
         "matched_tokens": [
           "mask"
         ],
-        "match_score": 0.163
+        "match_score": 0.253
       },
       "global_matches": [
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
+          "similarity": 0.272,
+          "demand_weight": 0.931,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.253
+        },
         {
           "channel": "tiktok_shop_us",
           "global_product": "Biodance Bio-Collagen Real Deep Mask",
@@ -3617,16 +3746,16 @@
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-          "similarity": 0.272,
-          "demand_weight": 0.49,
+          "global_product": "Torriden Dive-in Low Molecular Hyaluronic Acid Mask Sheet 10ct 0.91 fl. oz.(27ml)",
+          "similarity": 0.263,
+          "demand_weight": 0.588,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.133
+          "match_score": 0.155
         }
       ],
-      "recommend_reason": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 27% · 토큰 mask · S제외:weak_solo_token",
+      "recommend_reason": "글로벌 '[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)' (oliveyoung_us) 유사 27% · 토큰 mask · S제외:weak_solo_token",
       "canonical_product_id": "CP000029"
     },
     {
@@ -3757,7 +3886,7 @@
         "keyword": 0,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 10,
+        "global_similarity_reference_only": 9,
         "penalty": 0,
         "us_block_kind": "claim_risk",
         "us_block_reason": "미백 - 미국에서 OTC 의약품 주장",
@@ -3788,17 +3917,6 @@
           "match_score": 0.372
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "ROUND LAB Birch Juice Moisturizing Cream 2.70 fl. oz.(80ml) + Cream 0.67 fl. oz.(20ml) + OUWR Keychain Set",
-          "similarity": 0.714,
-          "demand_weight": 0.49,
-          "matched_tokens": [
-            "cream",
-            "moisturizer"
-          ],
-          "match_score": 0.35
-        },
-        {
           "channel": "ulta_beauty",
           "global_product": "Toleriane Double Repair Face Moisturizer with Niacinamide",
           "similarity": 0.344,
@@ -3807,6 +3925,16 @@
             "moisturizer"
           ],
           "match_score": 0.264
+        },
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Toleriane Double Repair Face Moisturizer UV SPF 30",
+          "similarity": 0.344,
+          "demand_weight": 0.595,
+          "matched_tokens": [
+            "moisturizer"
+          ],
+          "match_score": 0.205
         }
       ],
       "recommend_reason": "미국 판매 제약: 미백 - 미국에서 OTC 의약품 주장",
@@ -4080,7 +4208,7 @@
         "keyword": 0,
         "us_market_fit": 21.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 10,
+        "global_similarity_reference_only": 9,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -4091,24 +4219,24 @@
         "channel": "oliveyoung_us",
         "global_product": "ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set",
         "similarity": 0.7,
-        "demand_weight": 0.588,
+        "demand_weight": 0.49,
         "matched_tokens": [
           "cleanser",
           "moisturizer"
         ],
-        "match_score": 0.412
+        "match_score": 0.343
       },
       "global_matches": [
         {
           "channel": "oliveyoung_us",
           "global_product": "ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set",
           "similarity": 0.7,
-          "demand_weight": 0.588,
+          "demand_weight": 0.49,
           "matched_tokens": [
             "cleanser",
             "moisturizer"
           ],
-          "match_score": 0.412
+          "match_score": 0.343
         },
         {
           "channel": "ulta_beauty",
@@ -4236,7 +4364,7 @@
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
         "channel": "oliveyoung_us",
-        "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+        "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
         "similarity": 0.293,
         "demand_weight": 0.833,
         "matched_tokens": [
@@ -4247,7 +4375,7 @@
       "global_matches": [
         {
           "channel": "oliveyoung_us",
-          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
           "similarity": 0.293,
           "demand_weight": 0.833,
           "matched_tokens": [
@@ -4276,7 +4404,7 @@
           "match_score": 0.222
         }
       ],
-      "recommend_reason": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token",
+      "recommend_reason": "글로벌 'Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token",
       "canonical_product_id": "CP000267"
     },
     {
@@ -4302,7 +4430,7 @@
         "keyword": 0,
         "us_market_fit": 21.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 5,
+        "global_similarity_reference_only": 4,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -4334,11 +4462,11 @@
           "channel": "oliveyoung_us",
           "global_product": "ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set",
           "similarity": 0.26,
-          "demand_weight": 0.588,
+          "demand_weight": 0.49,
           "matched_tokens": [
             "cleanser"
           ],
-          "match_score": 0.153
+          "match_score": 0.127
         },
         {
           "channel": "amazon_best_sellers",
@@ -4377,7 +4505,7 @@
         "keyword": 0,
         "us_market_fit": 21.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 5,
+        "global_similarity_reference_only": 4,
         "penalty": 0,
         "us_block_kind": "claim_risk",
         "us_block_reason": "여드름 치료 - 미국에서 OTC 의약품",
@@ -4409,11 +4537,11 @@
           "channel": "oliveyoung_us",
           "global_product": "ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set",
           "similarity": 0.26,
-          "demand_weight": 0.588,
+          "demand_weight": 0.49,
           "matched_tokens": [
             "cleanser"
           ],
-          "match_score": 0.153
+          "match_score": 0.127
         },
         {
           "channel": "amazon_best_sellers",
@@ -4452,7 +4580,7 @@
         "keyword": 0,
         "us_market_fit": 21.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 5,
+        "global_similarity_reference_only": 4,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -4484,11 +4612,11 @@
           "channel": "oliveyoung_us",
           "global_product": "ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set",
           "similarity": 0.26,
-          "demand_weight": 0.588,
+          "demand_weight": 0.49,
           "matched_tokens": [
             "cleanser"
           ],
-          "match_score": 0.153
+          "match_score": 0.127
         },
         {
           "channel": "amazon_best_sellers",
@@ -4527,7 +4655,7 @@
         "keyword": 0,
         "us_market_fit": 21.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 5,
+        "global_similarity_reference_only": 4,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -4559,11 +4687,11 @@
           "channel": "oliveyoung_us",
           "global_product": "ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set",
           "similarity": 0.26,
-          "demand_weight": 0.588,
+          "demand_weight": 0.49,
           "matched_tokens": [
             "cleanser"
           ],
-          "match_score": 0.153
+          "match_score": 0.127
         },
         {
           "channel": "amazon_best_sellers",
@@ -4814,16 +4942,6 @@
           "match_score": 0.225
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
-          "similarity": 0.267,
-          "demand_weight": 0.784,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.209
-        },
-        {
           "channel": "tiktok_shop_us",
           "global_product": "Goodal Green Tangerine Vita C Dark Spot Serum",
           "similarity": 0.377,
@@ -4832,6 +4950,16 @@
             "vitaminc"
           ],
           "match_score": 0.207
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)",
+          "similarity": 0.42,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "vitaminc"
+          ],
+          "match_score": 0.206
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 30% · 토큰 ampoule · S제외:match_too_weak",
@@ -4869,7 +4997,7 @@
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
         "channel": "oliveyoung_us",
-        "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+        "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
         "similarity": 0.293,
         "demand_weight": 0.833,
         "matched_tokens": [
@@ -4880,7 +5008,7 @@
       "global_matches": [
         {
           "channel": "oliveyoung_us",
-          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
           "similarity": 0.293,
           "demand_weight": 0.833,
           "matched_tokens": [
@@ -4909,7 +5037,7 @@
           "match_score": 0.222
         }
       ],
-      "recommend_reason": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token",
+      "recommend_reason": "글로벌 'Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token",
       "canonical_product_id": "CP000090"
     },
     {
@@ -5291,7 +5419,7 @@
         "keyword": 0,
         "us_market_fit": 21.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 5,
+        "global_similarity_reference_only": 4,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -5323,11 +5451,11 @@
           "channel": "oliveyoung_us",
           "global_product": "ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set",
           "similarity": 0.26,
-          "demand_weight": 0.588,
+          "demand_weight": 0.49,
           "matched_tokens": [
             "cleanser"
           ],
-          "match_score": 0.153
+          "match_score": 0.127
         },
         {
           "channel": "amazon_best_sellers",
@@ -6026,7 +6154,7 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 7,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -6055,24 +6183,24 @@
           "match_score": 0.293
         },
         {
-          "channel": "tiktok_shop_us",
-          "global_product": "Biodance Bio-Collagen Real Deep Mask",
-          "similarity": 0.272,
-          "demand_weight": 0.6,
-          "matched_tokens": [
-            "mask"
-          ],
-          "match_score": 0.163
-        },
-        {
           "channel": "oliveyoung_us",
           "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
           "similarity": 0.272,
-          "demand_weight": 0.49,
+          "demand_weight": 0.931,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.133
+          "match_score": 0.253
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Torriden Cellmazing Low Molecular Collagen Firming Gel Mask 4ct 1.27 oz.(36g)",
+          "similarity": 0.267,
+          "demand_weight": 0.686,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.183
         }
       ],
       "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 29% · 토큰 mask · S제외:score_below_82",
@@ -6171,7 +6299,7 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 7,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -6200,24 +6328,24 @@
           "match_score": 0.293
         },
         {
-          "channel": "tiktok_shop_us",
-          "global_product": "Biodance Bio-Collagen Real Deep Mask",
-          "similarity": 0.272,
-          "demand_weight": 0.6,
-          "matched_tokens": [
-            "mask"
-          ],
-          "match_score": 0.163
-        },
-        {
           "channel": "oliveyoung_us",
           "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
           "similarity": 0.272,
-          "demand_weight": 0.49,
+          "demand_weight": 0.931,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.133
+          "match_score": 0.253
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Torriden Cellmazing Low Molecular Collagen Firming Gel Mask 4ct 1.27 oz.(36g)",
+          "similarity": 0.267,
+          "demand_weight": 0.686,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.183
         }
       ],
       "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 29% · 토큰 mask · S제외:score_below_82",
@@ -6278,21 +6406,21 @@
           "channel": "oliveyoung_us",
           "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
           "similarity": 0.667,
-          "demand_weight": 0.784,
+          "demand_weight": 0.637,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.523
+          "match_score": 0.425
         },
         {
           "channel": "oliveyoung_us",
           "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
           "similarity": 0.733,
-          "demand_weight": 0.539,
+          "demand_weight": 0.49,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.395
+          "match_score": 0.359
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule · S제외:score_below_82",
@@ -6353,21 +6481,21 @@
           "channel": "oliveyoung_us",
           "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
           "similarity": 0.667,
-          "demand_weight": 0.784,
+          "demand_weight": 0.637,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.523
+          "match_score": 0.425
         },
         {
           "channel": "oliveyoung_us",
           "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
           "similarity": 0.733,
-          "demand_weight": 0.539,
+          "demand_weight": 0.49,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.395
+          "match_score": 0.359
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule · S제외:score_below_82",
@@ -6428,21 +6556,21 @@
           "channel": "oliveyoung_us",
           "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
           "similarity": 0.667,
-          "demand_weight": 0.784,
+          "demand_weight": 0.637,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.523
+          "match_score": 0.425
         },
         {
           "channel": "oliveyoung_us",
           "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
           "similarity": 0.733,
-          "demand_weight": 0.539,
+          "demand_weight": 0.49,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.395
+          "match_score": 0.359
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule · S제외:score_below_82",
@@ -6510,14 +6638,14 @@
           "match_score": 0.383
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set",
-          "similarity": 0.65,
-          "demand_weight": 0.588,
+          "channel": "amazon_best_sellers",
+          "global_product": "ANUA PDRN Hyaluronic Acid 100 Moisturizing Cream, 2.02 fl oz | Lightweight, Non-Greasy Hydrating Face Moisturizer with Salmon DNA for Glass Skin, Korean Skincare",
+          "similarity": 0.627,
+          "demand_weight": 0.57,
           "matched_tokens": [
             "moisturizer"
           ],
-          "match_score": 0.382
+          "match_score": 0.357
         }
       ],
       "recommend_reason": "글로벌 'Toleriane Double Repair Face Moisturizer with Niacinamide' (ulta_beauty) 유사 64% · 토큰 moisturizer · S제외:score_below_82",
@@ -6546,7 +6674,7 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 8,
+        "global_similarity_reference_only": 9,
         "penalty": 0,
         "us_block_kind": "claim_risk",
         "us_block_reason": "미백 - 미국에서 OTC 의약품 주장",
@@ -6575,6 +6703,16 @@
             "vitaminc"
           ],
           "match_score": 0.349
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)",
+          "similarity": 0.42,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "vitaminc"
+          ],
+          "match_score": 0.206
         }
       ],
       "recommend_reason": "미국 판매 제약: 미백 - 미국에서 OTC 의약품 주장",
@@ -6635,21 +6773,21 @@
           "channel": "oliveyoung_us",
           "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
           "similarity": 0.367,
-          "demand_weight": 0.784,
+          "demand_weight": 0.637,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.287
+          "match_score": 0.234
         },
         {
           "channel": "oliveyoung_us",
           "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
           "similarity": 0.433,
-          "demand_weight": 0.539,
+          "demand_weight": 0.49,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.234
+          "match_score": 0.212
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 40% · 토큰 ampoule · S제외:score_below_82",
@@ -6686,26 +6824,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "oliveyoung_us",
-        "global_product": "ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set",
-        "similarity": 0.26,
-        "demand_weight": 0.588,
+        "channel": "tiktok_shop_us",
+        "global_product": "Goodal Green Tangerine Vita C Dark Spot Serum",
+        "similarity": 0.263,
+        "demand_weight": 0.55,
         "matched_tokens": [
           "serum"
         ],
-        "match_score": 0.153
+        "match_score": 0.145
       },
       "global_matches": [
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set",
-          "similarity": 0.26,
-          "demand_weight": 0.588,
-          "matched_tokens": [
-            "serum"
-          ],
-          "match_score": 0.153
-        },
         {
           "channel": "tiktok_shop_us",
           "global_product": "Goodal Green Tangerine Vita C Dark Spot Serum",
@@ -6725,9 +6853,19 @@
             "serum"
           ],
           "match_score": 0.14
+        },
+        {
+          "channel": "tiktok_shop_us",
+          "global_product": "Some By Mi Retinol Intense Reactivating Serum",
+          "similarity": 0.272,
+          "demand_weight": 0.5,
+          "matched_tokens": [
+            "serum"
+          ],
+          "match_score": 0.136
         }
       ],
-      "recommend_reason": "글로벌 'ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set' (oliveyoung_us) 유사 26% · 토큰 serum · S제외:score_below_82",
+      "recommend_reason": "글로벌 'Goodal Green Tangerine Vita C Dark Spot Serum' (tiktok_shop_us) 유사 26% · 토큰 serum · S제외:score_below_82",
       "canonical_product_id": "CP000239"
     },
     {
@@ -7066,6 +7204,41 @@
       "canonical_product_id": "CP000152"
     },
     {
+      "pd_no": "1067023",
+      "name": "포인트 딥 클린 퀵 마스카라 리무버 9 ml",
+      "bucket": "클렌징",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 4.8,
+      "review_count": 1257,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067023",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260730/SFDZ6oZlpQ3a1jskIN0G1067023_00_00SFDZ6oZlpQ3a1jskIN0G.jpg",
+      "shopify_score": 62,
+      "grade": "B",
+      "s_rule": "score_below_82",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 13.3,
+        "reviews": 18.8,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 0.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "클렌징 카테고리 · 평점 4.8 · 리뷰 1,257건 (글로벌 시그널 약함)",
+      "canonical_product_id": "CP000343"
+    },
+    {
       "pd_no": "1051797",
       "name": "제일 파프 쿨 5매입",
       "bucket": "마스크팩",
@@ -7206,6 +7379,116 @@
       "canonical_product_id": "CP000245"
     },
     {
+      "pd_no": "1061922",
+      "name": "본셉 비타씨 젤리 마스크 1매 23 g",
+      "bucket": "마스크팩",
+      "rebucketed": false,
+      "price_krw": 1000,
+      "rating": 4.8,
+      "review_count": 992,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061922",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251216/ZRf7Iq7VTPUseTWDgKu21061922_00_00ZRf7Iq7VTPUseTWDgKu2.jpg",
+      "shopify_score": 61,
+      "grade": "B",
+      "s_rule": "score_below_82",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 22.6,
+        "rating": 13.3,
+        "reviews": 18.2,
+        "price": 7.0,
+        "keyword": 0,
+        "us_market_fit": 0.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 6,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "oliveyoung_us",
+        "global_product": "Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)",
+        "similarity": 0.52,
+        "demand_weight": 0.49,
+        "matched_tokens": [
+          "vitaminc"
+        ],
+        "match_score": 0.255
+      },
+      "global_matches": [
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)",
+          "similarity": 0.52,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "vitaminc"
+          ],
+          "match_score": 0.255
+        }
+      ],
+      "recommend_reason": "글로벌 'Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 52% · 토큰 vitaminc · S제외:score_below_82",
+      "canonical_product_id": "CP000180"
+    },
+    {
+      "pd_no": "1049035",
+      "name": "RGIII 레드진생 스칼프 샴푸 300 ml",
+      "bucket": "헤어케어",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 4.8,
+      "review_count": 3297,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049035",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251002/Zi50v5cG0lStH5PUjoT21049035_00_00Zi50v5cG0lStH5PUjoT2.png",
+      "shopify_score": 61,
+      "grade": "B",
+      "s_rule": "score_below_82",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 17.9,
+        "rating": 13.3,
+        "reviews": 20.0,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 0.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 4,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "oliveyoung_us",
+        "global_product": "[2sizes] UNOVE Deep Damage Repair Shampoo Sweet Breeze",
+        "similarity": 0.35,
+        "demand_weight": 0.49,
+        "matched_tokens": [
+          "shampoo"
+        ],
+        "match_score": 0.171
+      },
+      "global_matches": [
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[2sizes] UNOVE Deep Damage Repair Shampoo Sweet Breeze",
+          "similarity": 0.35,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "shampoo"
+          ],
+          "match_score": 0.171
+        }
+      ],
+      "recommend_reason": "글로벌 '[2sizes] UNOVE Deep Damage Repair Shampoo Sweet Breeze' (oliveyoung_us) 유사 35% · 토큰 shampoo · S제외:score_below_82",
+      "canonical_product_id": "CP000103"
+    },
+    {
       "pd_no": "1068720",
       "name": "클리덤 리포좀 비타민C 잡티광 앰플 30 ml",
       "bucket": "스킨케어",
@@ -7257,16 +7540,6 @@
           "match_score": 0.225
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
-          "similarity": 0.267,
-          "demand_weight": 0.784,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.209
-        },
-        {
           "channel": "tiktok_shop_us",
           "global_product": "Goodal Green Tangerine Vita C Dark Spot Serum",
           "similarity": 0.377,
@@ -7275,6 +7548,16 @@
             "vitaminc"
           ],
           "match_score": 0.207
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)",
+          "similarity": 0.42,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "vitaminc"
+          ],
+          "match_score": 0.206
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 30% · 토큰 ampoule · S제외:score_below_82",
@@ -7316,41 +7599,6 @@
       "canonical_product_id": "CP000104"
     },
     {
-      "pd_no": "1049035",
-      "name": "RGIII 레드진생 스칼프 샴푸 300 ml",
-      "bucket": "헤어케어",
-      "rebucketed": false,
-      "price_krw": 5000,
-      "rating": 4.8,
-      "review_count": 3297,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049035",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251002/Zi50v5cG0lStH5PUjoT21049035_00_00Zi50v5cG0lStH5PUjoT2.png",
-      "shopify_score": 61,
-      "grade": "B",
-      "s_rule": "score_below_82",
-      "us_market_hits": 0,
-      "us_median_price_usd": 0.0,
-      "score_breakdown": {
-        "category": 17.9,
-        "rating": 13.3,
-        "reviews": 20.0,
-        "price": 10.0,
-        "keyword": 0,
-        "us_market_fit": 0.0,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 0,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": null,
-      "global_matches": [],
-      "recommend_reason": "헤어케어 카테고리 · 평점 4.8 · 리뷰 3,297건 (글로벌 시그널 약함)",
-      "canonical_product_id": "CP000103"
-    },
-    {
       "pd_no": "1048918",
       "name": "손앤박 아티 스프레드 컬러 밤(03 멜로우)",
       "bucket": "메이크업",
@@ -7384,41 +7632,6 @@
       "global_matches": [],
       "recommend_reason": "메이크업 카테고리 · 평점 4.7 · 리뷰 2,025건 (글로벌 시그널 약함)",
       "canonical_product_id": "CP000102"
-    },
-    {
-      "pd_no": "1061922",
-      "name": "본셉 비타씨 젤리 마스크 1매 23 g",
-      "bucket": "마스크팩",
-      "rebucketed": false,
-      "price_krw": 1000,
-      "rating": 4.8,
-      "review_count": 992,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061922",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251216/ZRf7Iq7VTPUseTWDgKu21061922_00_00ZRf7Iq7VTPUseTWDgKu2.jpg",
-      "shopify_score": 61,
-      "grade": "B",
-      "s_rule": "score_below_82",
-      "us_market_hits": 0,
-      "us_median_price_usd": 0.0,
-      "score_breakdown": {
-        "category": 22.6,
-        "rating": 13.3,
-        "reviews": 18.2,
-        "price": 7.0,
-        "keyword": 0,
-        "us_market_fit": 0.0,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 0,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": null,
-      "global_matches": [],
-      "recommend_reason": "마스크팩 카테고리 · 평점 4.8 · 리뷰 992건 (글로벌 시그널 약함)",
-      "canonical_product_id": "CP000180"
     },
     {
       "pd_no": "1072420",
@@ -7791,7 +8004,7 @@
         "keyword": 0,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 10,
+        "global_similarity_reference_only": 9,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -7822,17 +8035,6 @@
           "match_score": 0.372
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "ROUND LAB Birch Juice Moisturizing Cream 2.70 fl. oz.(80ml) + Cream 0.67 fl. oz.(20ml) + OUWR Keychain Set",
-          "similarity": 0.714,
-          "demand_weight": 0.49,
-          "matched_tokens": [
-            "cream",
-            "moisturizer"
-          ],
-          "match_score": 0.35
-        },
-        {
           "channel": "ulta_beauty",
           "global_product": "Toleriane Double Repair Face Moisturizer with Niacinamide",
           "similarity": 0.344,
@@ -7841,6 +8043,16 @@
             "moisturizer"
           ],
           "match_score": 0.264
+        },
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Toleriane Double Repair Face Moisturizer UV SPF 30",
+          "similarity": 0.344,
+          "demand_weight": 0.595,
+          "matched_tokens": [
+            "moisturizer"
+          ],
+          "match_score": 0.205
         }
       ],
       "recommend_reason": "글로벌 'ANUA PDRN Hyaluronic Acid 100 Moisturizing Cream, 2.02 fl oz | Lightweight, Non-Greasy Hydrating Face Moisturizer with Salmon DNA for Glass Skin, Korean Skincare' (amazon_best_sellers) 유사 65% · 토큰 cream, moisturizer · S제외:score_below_82",
@@ -7901,21 +8113,21 @@
           "channel": "oliveyoung_us",
           "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
           "similarity": 0.367,
-          "demand_weight": 0.784,
+          "demand_weight": 0.637,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.287
+          "match_score": 0.234
         },
         {
           "channel": "oliveyoung_us",
           "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
           "similarity": 0.433,
-          "demand_weight": 0.539,
+          "demand_weight": 0.49,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.234
+          "match_score": 0.212
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 40% · 토큰 ampoule · S제외:score_below_82",
@@ -7953,7 +8165,7 @@
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
         "channel": "oliveyoung_us",
-        "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+        "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
         "similarity": 0.293,
         "demand_weight": 0.833,
         "matched_tokens": [
@@ -7964,7 +8176,7 @@
       "global_matches": [
         {
           "channel": "oliveyoung_us",
-          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
           "similarity": 0.293,
           "demand_weight": 0.833,
           "matched_tokens": [
@@ -7993,7 +8205,7 @@
           "match_score": 0.222
         }
       ],
-      "recommend_reason": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:score_below_82",
+      "recommend_reason": "글로벌 'Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:score_below_82",
       "canonical_product_id": "CP000166"
     },
     {
@@ -8058,14 +8270,14 @@
           "match_score": 0.175
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
-          "similarity": 0.283,
-          "demand_weight": 0.539,
+          "channel": "ulta_beauty",
+          "global_product": "Retinol Youth Renewal Serum",
+          "similarity": 0.337,
+          "demand_weight": 0.425,
           "matched_tokens": [
-            "ampoule"
+            "retinol"
           ],
-          "match_score": 0.153
+          "match_score": 0.143
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 25% · 토큰 ampoule · S제외:score_below_82",
@@ -8457,6 +8669,61 @@
       "canonical_product_id": "CP000176"
     },
     {
+      "pd_no": "1067022",
+      "name": "온더바디 국민뷰티템 익스트림쿨링 풋샴푸 390 ml",
+      "bucket": "헤어케어",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 4.8,
+      "review_count": 720,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067022",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250627/J7K4sYnwGsl1zb77o4Bh1067022_00_01J7K4sYnwGsl1zb77o4Bh.jpg",
+      "shopify_score": 58,
+      "grade": "C",
+      "s_rule": "score_below_82",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 17.9,
+        "rating": 13.3,
+        "reviews": 17.3,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 0.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 7,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "oliveyoung_us",
+        "global_product": "[2sizes] UNOVE Deep Damage Repair Shampoo Sweet Breeze",
+        "similarity": 0.65,
+        "demand_weight": 0.49,
+        "matched_tokens": [
+          "shampoo"
+        ],
+        "match_score": 0.319
+      },
+      "global_matches": [
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[2sizes] UNOVE Deep Damage Repair Shampoo Sweet Breeze",
+          "similarity": 0.65,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "shampoo"
+          ],
+          "match_score": 0.319
+        }
+      ],
+      "recommend_reason": "글로벌 '[2sizes] UNOVE Deep Damage Repair Shampoo Sweet Breeze' (oliveyoung_us) 유사 65% · 토큰 shampoo · S제외:score_below_82",
+      "canonical_product_id": "CP000209"
+    },
+    {
       "pd_no": "1079292",
       "name": "후시덤 베리어 리페어 수분크림 50 ml",
       "bucket": "스킨케어",
@@ -8576,16 +8843,6 @@
           "match_score": 0.264
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set",
-          "similarity": 0.35,
-          "demand_weight": 0.588,
-          "matched_tokens": [
-            "moisturizer"
-          ],
-          "match_score": 0.206
-        },
-        {
           "channel": "ulta_beauty",
           "global_product": "Toleriane Double Repair Face Moisturizer UV SPF 30",
           "similarity": 0.344,
@@ -8594,6 +8851,16 @@
             "moisturizer"
           ],
           "match_score": 0.205
+        },
+        {
+          "channel": "amazon_best_sellers",
+          "global_product": "ANUA PDRN Hyaluronic Acid 100 Moisturizing Cream, 2.02 fl oz | Lightweight, Non-Greasy Hydrating Face Moisturizer with Salmon DNA for Glass Skin, Korean Skincare",
+          "similarity": 0.327,
+          "demand_weight": 0.57,
+          "matched_tokens": [
+            "moisturizer"
+          ],
+          "match_score": 0.186
         }
       ],
       "recommend_reason": "글로벌 'Toleriane Double Repair Face Moisturizer with Niacinamide' (ulta_beauty) 유사 34% · 토큰 moisturizer · S제외:score_below_82",
@@ -8622,7 +8889,7 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 7,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -8651,24 +8918,24 @@
           "match_score": 0.293
         },
         {
-          "channel": "tiktok_shop_us",
-          "global_product": "Biodance Bio-Collagen Real Deep Mask",
-          "similarity": 0.272,
-          "demand_weight": 0.6,
-          "matched_tokens": [
-            "mask"
-          ],
-          "match_score": 0.163
-        },
-        {
           "channel": "oliveyoung_us",
           "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
           "similarity": 0.272,
-          "demand_weight": 0.49,
+          "demand_weight": 0.931,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.133
+          "match_score": 0.253
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Torriden Cellmazing Low Molecular Collagen Firming Gel Mask 4ct 1.27 oz.(36g)",
+          "similarity": 0.267,
+          "demand_weight": 0.686,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.183
         }
       ],
       "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 29% · 토큰 mask · S제외:score_below_82",
@@ -8743,41 +9010,6 @@
       "global_matches": [],
       "recommend_reason": "메이크업 카테고리 · 평점 4.8 · 리뷰 1,227건 (글로벌 시그널 약함)",
       "canonical_product_id": "CP000069"
-    },
-    {
-      "pd_no": "1067022",
-      "name": "온더바디 국민뷰티템 익스트림쿨링 풋샴푸 390 ml",
-      "bucket": "헤어케어",
-      "rebucketed": false,
-      "price_krw": 5000,
-      "rating": 4.8,
-      "review_count": 720,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067022",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250627/J7K4sYnwGsl1zb77o4Bh1067022_00_01J7K4sYnwGsl1zb77o4Bh.jpg",
-      "shopify_score": 58,
-      "grade": "C",
-      "s_rule": "score_below_82",
-      "us_market_hits": 0,
-      "us_median_price_usd": 0.0,
-      "score_breakdown": {
-        "category": 17.9,
-        "rating": 13.3,
-        "reviews": 17.3,
-        "price": 10.0,
-        "keyword": 0,
-        "us_market_fit": 0.0,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 0,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": null,
-      "global_matches": [],
-      "recommend_reason": "헤어케어 카테고리 · 평점 4.8 · 리뷰 720건 (글로벌 시그널 약함)",
-      "canonical_product_id": "CP000209"
     },
     {
       "pd_no": "1030152",
@@ -9012,7 +9244,7 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 7,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -9041,24 +9273,24 @@
           "match_score": 0.293
         },
         {
-          "channel": "tiktok_shop_us",
-          "global_product": "Biodance Bio-Collagen Real Deep Mask",
-          "similarity": 0.272,
-          "demand_weight": 0.6,
-          "matched_tokens": [
-            "mask"
-          ],
-          "match_score": 0.163
-        },
-        {
           "channel": "oliveyoung_us",
           "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
           "similarity": 0.272,
-          "demand_weight": 0.49,
+          "demand_weight": 0.931,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.133
+          "match_score": 0.253
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Torriden Cellmazing Low Molecular Collagen Firming Gel Mask 4ct 1.27 oz.(36g)",
+          "similarity": 0.267,
+          "demand_weight": 0.686,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.183
         }
       ],
       "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 29% · 토큰 mask · S제외:score_below_82",
@@ -9096,7 +9328,7 @@
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
         "channel": "oliveyoung_us",
-        "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+        "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
         "similarity": 0.293,
         "demand_weight": 0.833,
         "matched_tokens": [
@@ -9107,7 +9339,7 @@
       "global_matches": [
         {
           "channel": "oliveyoung_us",
-          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
           "similarity": 0.293,
           "demand_weight": 0.833,
           "matched_tokens": [
@@ -9136,7 +9368,7 @@
           "match_score": 0.222
         }
       ],
-      "recommend_reason": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:score_below_82",
+      "recommend_reason": "글로벌 'Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:score_below_82",
       "canonical_product_id": "CP000272"
     },
     {
@@ -9171,7 +9403,7 @@
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
         "channel": "oliveyoung_us",
-        "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+        "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
         "similarity": 0.293,
         "demand_weight": 0.833,
         "matched_tokens": [
@@ -9182,7 +9414,7 @@
       "global_matches": [
         {
           "channel": "oliveyoung_us",
-          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
           "similarity": 0.293,
           "demand_weight": 0.833,
           "matched_tokens": [
@@ -9211,7 +9443,7 @@
           "match_score": 0.222
         }
       ],
-      "recommend_reason": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:score_below_82",
+      "recommend_reason": "글로벌 'Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:score_below_82",
       "canonical_product_id": "CP000191"
     },
     {
@@ -9512,21 +9744,21 @@
           "channel": "oliveyoung_us",
           "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
           "similarity": 0.667,
-          "demand_weight": 0.784,
+          "demand_weight": 0.637,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.523
+          "match_score": 0.425
         },
         {
           "channel": "oliveyoung_us",
           "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
           "similarity": 0.733,
-          "demand_weight": 0.539,
+          "demand_weight": 0.49,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.395
+          "match_score": 0.359
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule · S제외:score_below_82",
@@ -9587,21 +9819,21 @@
           "channel": "oliveyoung_us",
           "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
           "similarity": 0.667,
-          "demand_weight": 0.784,
+          "demand_weight": 0.637,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.523
+          "match_score": 0.425
         },
         {
           "channel": "oliveyoung_us",
           "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
           "similarity": 0.733,
-          "demand_weight": 0.539,
+          "demand_weight": 0.49,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.395
+          "match_score": 0.359
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule · S제외:score_below_82",
@@ -9662,21 +9894,21 @@
           "channel": "oliveyoung_us",
           "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
           "similarity": 0.667,
-          "demand_weight": 0.784,
+          "demand_weight": 0.637,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.523
+          "match_score": 0.425
         },
         {
           "channel": "oliveyoung_us",
           "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
           "similarity": 0.733,
-          "demand_weight": 0.539,
+          "demand_weight": 0.49,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.395
+          "match_score": 0.359
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule · S제외:score_below_82",
@@ -9737,21 +9969,21 @@
           "channel": "oliveyoung_us",
           "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
           "similarity": 0.667,
-          "demand_weight": 0.784,
+          "demand_weight": 0.637,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.523
+          "match_score": 0.425
         },
         {
           "channel": "oliveyoung_us",
           "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
           "similarity": 0.733,
-          "demand_weight": 0.539,
+          "demand_weight": 0.49,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.395
+          "match_score": 0.359
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule · S제외:score_below_82",
@@ -9812,21 +10044,21 @@
           "channel": "oliveyoung_us",
           "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
           "similarity": 0.667,
-          "demand_weight": 0.784,
+          "demand_weight": 0.637,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.523
+          "match_score": 0.425
         },
         {
           "channel": "oliveyoung_us",
           "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
           "similarity": 0.733,
-          "demand_weight": 0.539,
+          "demand_weight": 0.49,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.395
+          "match_score": 0.359
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule · S제외:score_below_82",
@@ -9887,21 +10119,21 @@
           "channel": "oliveyoung_us",
           "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
           "similarity": 0.667,
-          "demand_weight": 0.784,
+          "demand_weight": 0.637,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.523
+          "match_score": 0.425
         },
         {
           "channel": "oliveyoung_us",
           "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
           "similarity": 0.733,
-          "demand_weight": 0.539,
+          "demand_weight": 0.49,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.395
+          "match_score": 0.359
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule · S제외:score_below_82",
@@ -9998,7 +10230,7 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 8,
+        "global_similarity_reference_only": 9,
         "penalty": 0,
         "us_block_kind": "claim_risk",
         "us_block_reason": "미백 - 미국에서 OTC 의약품 주장",
@@ -10027,6 +10259,16 @@
             "vitaminc"
           ],
           "match_score": 0.349
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)",
+          "similarity": 0.42,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "vitaminc"
+          ],
+          "match_score": 0.206
         }
       ],
       "recommend_reason": "미국 판매 제약: 미백 - 미국에서 OTC 의약품 주장",
@@ -10087,21 +10329,21 @@
           "channel": "oliveyoung_us",
           "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
           "similarity": 0.367,
-          "demand_weight": 0.784,
+          "demand_weight": 0.637,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.287
+          "match_score": 0.234
         },
         {
           "channel": "oliveyoung_us",
           "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
           "similarity": 0.433,
-          "demand_weight": 0.539,
+          "demand_weight": 0.49,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.234
+          "match_score": 0.212
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 40% · 토큰 ampoule · S제외:score_below_82",
@@ -10159,16 +10401,6 @@
           "match_score": 0.3
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
-          "similarity": 0.367,
-          "demand_weight": 0.784,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.287
-        },
-        {
           "channel": "tiktok_shop_us",
           "global_product": "Goodal Green Tangerine Vita C Dark Spot Serum",
           "similarity": 0.477,
@@ -10177,6 +10409,16 @@
             "vitaminc"
           ],
           "match_score": 0.262
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)",
+          "similarity": 0.52,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "vitaminc"
+          ],
+          "match_score": 0.255
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 40% · 토큰 ampoule · S제외:score_below_82",
@@ -10234,16 +10476,6 @@
           "match_score": 0.3
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
-          "similarity": 0.367,
-          "demand_weight": 0.784,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.287
-        },
-        {
           "channel": "tiktok_shop_us",
           "global_product": "Goodal Green Tangerine Vita C Dark Spot Serum",
           "similarity": 0.477,
@@ -10252,6 +10484,16 @@
             "vitaminc"
           ],
           "match_score": 0.262
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)",
+          "similarity": 0.52,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "vitaminc"
+          ],
+          "match_score": 0.255
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 40% · 토큰 ampoule · S제외:score_below_82",
@@ -10280,7 +10522,7 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 4,
+        "global_similarity_reference_only": 6,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -10288,16 +10530,36 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Biodance Bio-Collagen Real Deep Mask",
+        "channel": "oliveyoung_us",
+        "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
         "similarity": 0.272,
-        "demand_weight": 0.6,
+        "demand_weight": 0.931,
         "matched_tokens": [
           "mask"
         ],
-        "match_score": 0.163
+        "match_score": 0.253
       },
       "global_matches": [
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
+          "similarity": 0.272,
+          "demand_weight": 0.931,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.253
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Torriden Cellmazing Low Molecular Collagen Firming Gel Mask 4ct 1.27 oz.(36g)",
+          "similarity": 0.267,
+          "demand_weight": 0.686,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.183
+        },
         {
           "channel": "tiktok_shop_us",
           "global_product": "Biodance Bio-Collagen Real Deep Mask",
@@ -10307,29 +10569,9 @@
             "mask"
           ],
           "match_score": 0.163
-        },
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-          "similarity": 0.272,
-          "demand_weight": 0.49,
-          "matched_tokens": [
-            "mask"
-          ],
-          "match_score": 0.133
-        },
-        {
-          "channel": "amazon_best_sellers",
-          "global_product": "BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Plumping, Travel Essentials & Self Care Gifts for Women, Korean Skin Care | 1.19oz(34g) x 4ea",
-          "similarity": 0.248,
-          "demand_weight": 0.475,
-          "matched_tokens": [
-            "mask"
-          ],
-          "match_score": 0.118
         }
       ],
-      "recommend_reason": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 27% · 토큰 mask · S제외:score_below_82",
+      "recommend_reason": "글로벌 '[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)' (oliveyoung_us) 유사 27% · 토큰 mask · S제외:score_below_82",
       "canonical_product_id": "CP000177"
     },
     {
@@ -10363,26 +10605,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "oliveyoung_us",
-        "global_product": "ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set",
-        "similarity": 0.26,
-        "demand_weight": 0.588,
+        "channel": "tiktok_shop_us",
+        "global_product": "Goodal Green Tangerine Vita C Dark Spot Serum",
+        "similarity": 0.263,
+        "demand_weight": 0.55,
         "matched_tokens": [
           "serum"
         ],
-        "match_score": 0.153
+        "match_score": 0.145
       },
       "global_matches": [
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set",
-          "similarity": 0.26,
-          "demand_weight": 0.588,
-          "matched_tokens": [
-            "serum"
-          ],
-          "match_score": 0.153
-        },
         {
           "channel": "tiktok_shop_us",
           "global_product": "Goodal Green Tangerine Vita C Dark Spot Serum",
@@ -10402,9 +10634,19 @@
             "serum"
           ],
           "match_score": 0.14
+        },
+        {
+          "channel": "tiktok_shop_us",
+          "global_product": "Some By Mi Retinol Intense Reactivating Serum",
+          "similarity": 0.272,
+          "demand_weight": 0.5,
+          "matched_tokens": [
+            "serum"
+          ],
+          "match_score": 0.136
         }
       ],
-      "recommend_reason": "글로벌 'ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set' (oliveyoung_us) 유사 26% · 토큰 serum · S제외:score_below_82",
+      "recommend_reason": "글로벌 'Goodal Green Tangerine Vita C Dark Spot Serum' (tiktok_shop_us) 유사 26% · 토큰 serum · S제외:score_below_82",
       "canonical_product_id": "CP000300"
     },
     {
@@ -10844,16 +11086,6 @@
           "match_score": 0.3
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
-          "similarity": 0.367,
-          "demand_weight": 0.784,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.287
-        },
-        {
           "channel": "tiktok_shop_us",
           "global_product": "Some By Mi Retinol Intense Reactivating Serum",
           "similarity": 0.5,
@@ -10862,6 +11094,16 @@
             "retinol"
           ],
           "match_score": 0.25
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
+          "similarity": 0.367,
+          "demand_weight": 0.637,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.234
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 40% · 토큰 ampoule · S제외:score_below_82",
@@ -11922,11 +12164,11 @@
           "channel": "oliveyoung_us",
           "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
           "similarity": 0.367,
-          "demand_weight": 0.784,
+          "demand_weight": 0.637,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.287
+          "match_score": 0.234
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 40% · 토큰 ampoule · S제외:score_below_82",
@@ -12276,22 +12518,22 @@
         "channel": "oliveyoung_us",
         "global_product": "[7types] MEDIHEAL Toner Pad 100 + 100 Pads Double Set",
         "similarity": 0.38,
-        "demand_weight": 0.931,
+        "demand_weight": 0.882,
         "matched_tokens": [
           "toner"
         ],
-        "match_score": 0.354
+        "match_score": 0.335
       },
       "global_matches": [
         {
           "channel": "oliveyoung_us",
           "global_product": "[7types] MEDIHEAL Toner Pad 100 + 100 Pads Double Set",
           "similarity": 0.38,
-          "demand_weight": 0.931,
+          "demand_weight": 0.882,
           "matched_tokens": [
             "toner"
           ],
-          "match_score": 0.354
+          "match_score": 0.335
         },
         {
           "channel": "amazon_best_sellers",
@@ -12330,7 +12572,7 @@
         "keyword": 3,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 4,
+        "global_similarity_reference_only": 6,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -12338,16 +12580,26 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Biodance Bio-Collagen Real Deep Mask",
+        "channel": "oliveyoung_us",
+        "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
         "similarity": 0.272,
-        "demand_weight": 0.6,
+        "demand_weight": 0.931,
         "matched_tokens": [
           "mask"
         ],
-        "match_score": 0.163
+        "match_score": 0.253
       },
       "global_matches": [
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
+          "similarity": 0.272,
+          "demand_weight": 0.931,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.253
+        },
         {
           "channel": "tiktok_shop_us",
           "global_product": "Biodance Bio-Collagen Real Deep Mask",
@@ -12360,16 +12612,16 @@
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-          "similarity": 0.272,
-          "demand_weight": 0.49,
+          "global_product": "Torriden Dive-in Low Molecular Hyaluronic Acid Mask Sheet 10ct 0.91 fl. oz.(27ml)",
+          "similarity": 0.263,
+          "demand_weight": 0.588,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.133
+          "match_score": 0.155
         }
       ],
-      "recommend_reason": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 27% · 토큰 mask · S제외:score_below_82",
+      "recommend_reason": "글로벌 '[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)' (oliveyoung_us) 유사 27% · 토큰 mask · S제외:score_below_82",
       "canonical_product_id": "CP000289"
     },
     {
@@ -12667,25 +12919,192 @@
           "channel": "oliveyoung_us",
           "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
           "similarity": 0.667,
-          "demand_weight": 0.784,
+          "demand_weight": 0.637,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.523
+          "match_score": 0.425
         },
         {
           "channel": "oliveyoung_us",
           "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
           "similarity": 0.733,
-          "demand_weight": 0.539,
+          "demand_weight": 0.49,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.395
+          "match_score": 0.359
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule · S제외:score_below_82",
       "canonical_product_id": "CP000312"
+    },
+    {
+      "pd_no": "B202605201969",
+      "name": "파티온 노스카나인 퍼스트스텝 세럼클렌저 100 ml",
+      "bucket": "클렌징",
+      "rebucketed": false,
+      "price_krw": 36000,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202605201969&recmYn=N",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251015/AR8EgQM3gsJer4GplnCY1071640_00_00AR8EgQM3gsJer4GplnCY.png",
+      "shopify_score": 51,
+      "grade": "C",
+      "s_rule": "score_below_82",
+      "us_market_hits": 24,
+      "us_median_price_usd": 24.0,
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 1.0,
+        "keyword": 5,
+        "us_market_fit": 24.6,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 8,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "oliveyoung_us",
+        "global_product": "ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set",
+        "similarity": 0.7,
+        "demand_weight": 0.49,
+        "matched_tokens": [
+          "cleanser",
+          "serum"
+        ],
+        "match_score": 0.343
+      },
+      "global_matches": [
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set",
+          "similarity": 0.7,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "cleanser",
+            "serum"
+          ],
+          "match_score": 0.343
+        }
+      ],
+      "recommend_reason": "글로벌 'ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set' (oliveyoung_us) 유사 70% · 토큰 cleanser, serum · S제외:score_below_82",
+      "canonical_product_id": "CP000345"
+    },
+    {
+      "pd_no": "1079875",
+      "name": "쿤달 리치퍼퓸 볼륨업 샴푸 385 ml",
+      "bucket": "헤어케어",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 4.7,
+      "review_count": 81,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1079875",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260723/ipvjXCN0wEhJtxskTmYV1079875_00_00ipvjXCN0wEhJtxskTmYV.jpg",
+      "shopify_score": 51,
+      "grade": "C",
+      "s_rule": "score_below_82",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 17.9,
+        "rating": 11.7,
+        "reviews": 11.6,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 0.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 7,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "oliveyoung_us",
+        "global_product": "[2sizes] UNOVE Deep Damage Repair Shampoo Sweet Breeze",
+        "similarity": 0.65,
+        "demand_weight": 0.49,
+        "matched_tokens": [
+          "shampoo"
+        ],
+        "match_score": 0.319
+      },
+      "global_matches": [
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[2sizes] UNOVE Deep Damage Repair Shampoo Sweet Breeze",
+          "similarity": 0.65,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "shampoo"
+          ],
+          "match_score": 0.319
+        }
+      ],
+      "recommend_reason": "글로벌 '[2sizes] UNOVE Deep Damage Repair Shampoo Sweet Breeze' (oliveyoung_us) 유사 65% · 토큰 shampoo · S제외:score_below_82",
+      "canonical_product_id": "CP000276"
+    },
+    {
+      "pd_no": "B202604026734",
+      "name": "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml",
+      "bucket": "스킨케어",
+      "rebucketed": false,
+      "price_krw": 60000,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026734&recmYn=N",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251205/6yxxYklOEqrkfhPkdQXB1068721_00_006yxxYklOEqrkfhPkdQXB.jpg",
+      "shopify_score": 51,
+      "grade": "C",
+      "s_rule": "score_below_82",
+      "us_market_hits": 23,
+      "us_median_price_usd": 30.6,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 1.0,
+        "keyword": 0,
+        "us_market_fit": 25.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 4,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "oliveyoung_us",
+        "global_product": "Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)",
+        "similarity": 0.42,
+        "demand_weight": 0.49,
+        "matched_tokens": [
+          "vitaminc"
+        ],
+        "match_score": 0.206
+      },
+      "global_matches": [
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)",
+          "similarity": 0.42,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "vitaminc"
+          ],
+          "match_score": 0.206
+        }
+      ],
+      "recommend_reason": "글로벌 'Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 42% · 토큰 vitaminc · S제외:score_below_82",
+      "canonical_product_id": "CP000318"
     },
     {
       "pd_no": "B202608127273",
@@ -12719,7 +13138,7 @@
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
         "channel": "oliveyoung_us",
-        "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+        "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
         "similarity": 0.293,
         "demand_weight": 0.833,
         "matched_tokens": [
@@ -12730,7 +13149,7 @@
       "global_matches": [
         {
           "channel": "oliveyoung_us",
-          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
           "similarity": 0.293,
           "demand_weight": 0.833,
           "matched_tokens": [
@@ -12759,7 +13178,7 @@
           "match_score": 0.222
         }
       ],
-      "recommend_reason": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:score_below_82",
+      "recommend_reason": "글로벌 'Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:score_below_82",
       "canonical_product_id": "CP000338"
     },
     {
@@ -12794,7 +13213,7 @@
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
         "channel": "oliveyoung_us",
-        "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+        "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
         "similarity": 0.293,
         "demand_weight": 0.833,
         "matched_tokens": [
@@ -12805,7 +13224,7 @@
       "global_matches": [
         {
           "channel": "oliveyoung_us",
-          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
           "similarity": 0.293,
           "demand_weight": 0.833,
           "matched_tokens": [
@@ -12834,7 +13253,7 @@
           "match_score": 0.222
         }
       ],
-      "recommend_reason": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:score_below_82",
+      "recommend_reason": "글로벌 'Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:score_below_82",
       "canonical_product_id": "CP000327"
     },
     {
@@ -12869,7 +13288,7 @@
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
         "channel": "oliveyoung_us",
-        "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+        "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
         "similarity": 0.293,
         "demand_weight": 0.833,
         "matched_tokens": [
@@ -12880,7 +13299,7 @@
       "global_matches": [
         {
           "channel": "oliveyoung_us",
-          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
           "similarity": 0.293,
           "demand_weight": 0.833,
           "matched_tokens": [
@@ -12909,7 +13328,7 @@
           "match_score": 0.222
         }
       ],
-      "recommend_reason": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:score_below_82",
+      "recommend_reason": "글로벌 'Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:score_below_82",
       "canonical_product_id": "CP000317"
     },
     {
@@ -12944,7 +13363,7 @@
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
         "channel": "oliveyoung_us",
-        "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+        "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
         "similarity": 0.293,
         "demand_weight": 0.833,
         "matched_tokens": [
@@ -12955,7 +13374,7 @@
       "global_matches": [
         {
           "channel": "oliveyoung_us",
-          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
           "similarity": 0.293,
           "demand_weight": 0.833,
           "matched_tokens": [
@@ -12984,7 +13403,7 @@
           "match_score": 0.222
         }
       ],
-      "recommend_reason": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:score_below_82",
+      "recommend_reason": "글로벌 'Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:score_below_82",
       "canonical_product_id": "CP000314"
     },
     {
@@ -13019,7 +13438,7 @@
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
         "channel": "oliveyoung_us",
-        "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+        "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
         "similarity": 0.293,
         "demand_weight": 0.833,
         "matched_tokens": [
@@ -13030,7 +13449,7 @@
       "global_matches": [
         {
           "channel": "oliveyoung_us",
-          "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+          "global_product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
           "similarity": 0.293,
           "demand_weight": 0.833,
           "matched_tokens": [
@@ -13059,7 +13478,7 @@
           "match_score": 0.222
         }
       ],
-      "recommend_reason": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:score_below_82",
+      "recommend_reason": "글로벌 'Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:score_below_82",
       "canonical_product_id": "CP000296"
     },
     {
@@ -13273,41 +13692,6 @@
       "canonical_product_id": "CP000094"
     },
     {
-      "pd_no": "1079875",
-      "name": "쿤달 리치퍼퓸 볼륨업 샴푸 385 ml",
-      "bucket": "헤어케어",
-      "rebucketed": false,
-      "price_krw": 5000,
-      "rating": 4.7,
-      "review_count": 81,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1079875",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260723/ipvjXCN0wEhJtxskTmYV1079875_00_00ipvjXCN0wEhJtxskTmYV.jpg",
-      "shopify_score": 51,
-      "grade": "C",
-      "s_rule": "score_below_82",
-      "us_market_hits": 0,
-      "us_median_price_usd": 0.0,
-      "score_breakdown": {
-        "category": 17.9,
-        "rating": 11.7,
-        "reviews": 11.6,
-        "price": 10.0,
-        "keyword": 0,
-        "us_market_fit": 0.0,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 0,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": null,
-      "global_matches": [],
-      "recommend_reason": "헤어케어 카테고리 · 평점 4.7 · 리뷰 81건 (글로벌 시그널 약함)",
-      "canonical_product_id": "CP000276"
-    },
-    {
       "pd_no": "1068497",
       "name": "하트 틴트 파티 안경 2개입",
       "bucket": "메이크업",
@@ -13446,41 +13830,6 @@
       "global_matches": [],
       "recommend_reason": "스킨케어 카테고리 (글로벌 시그널 약함)",
       "canonical_product_id": "CP000316"
-    },
-    {
-      "pd_no": "B202604026734",
-      "name": "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml",
-      "bucket": "스킨케어",
-      "rebucketed": false,
-      "price_krw": 60000,
-      "rating": 0.0,
-      "review_count": 0,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026734&recmYn=N",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251205/6yxxYklOEqrkfhPkdQXB1068721_00_006yxxYklOEqrkfhPkdQXB.jpg",
-      "shopify_score": 51,
-      "grade": "C",
-      "s_rule": "score_below_82",
-      "us_market_hits": 23,
-      "us_median_price_usd": 30.6,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 0.0,
-        "reviews": 0.0,
-        "price": 1.0,
-        "keyword": 0,
-        "us_market_fit": 25.0,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 0,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": null,
-      "global_matches": [],
-      "recommend_reason": "스킨케어 카테고리 (글로벌 시그널 약함)",
-      "canonical_product_id": "CP000318"
     },
     {
       "pd_no": "B202608126988",
@@ -13675,21 +14024,21 @@
           "channel": "oliveyoung_us",
           "global_product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
           "similarity": 0.367,
-          "demand_weight": 0.784,
+          "demand_weight": 0.637,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.287
+          "match_score": 0.234
         },
         {
           "channel": "oliveyoung_us",
           "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
           "similarity": 0.433,
-          "demand_weight": 0.539,
+          "demand_weight": 0.49,
           "matched_tokens": [
             "ampoule"
           ],
-          "match_score": 0.234
+          "match_score": 0.212
         }
       ],
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 40% · 토큰 ampoule · S제외:score_below_82",
@@ -14031,7 +14380,7 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 7,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -14060,24 +14409,24 @@
           "match_score": 0.293
         },
         {
-          "channel": "tiktok_shop_us",
-          "global_product": "Biodance Bio-Collagen Real Deep Mask",
-          "similarity": 0.272,
-          "demand_weight": 0.6,
-          "matched_tokens": [
-            "mask"
-          ],
-          "match_score": 0.163
-        },
-        {
           "channel": "oliveyoung_us",
           "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
           "similarity": 0.272,
-          "demand_weight": 0.49,
+          "demand_weight": 0.931,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.133
+          "match_score": 0.253
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Torriden Cellmazing Low Molecular Collagen Firming Gel Mask 4ct 1.27 oz.(36g)",
+          "similarity": 0.267,
+          "demand_weight": 0.686,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.183
         }
       ],
       "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 29% · 토큰 mask · S제외:score_below_82",
@@ -14421,7 +14770,7 @@
         "keyword": 0,
         "us_market_fit": 21.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 10,
+        "global_similarity_reference_only": 9,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -14432,24 +14781,24 @@
         "channel": "oliveyoung_us",
         "global_product": "ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set",
         "similarity": 0.7,
-        "demand_weight": 0.588,
+        "demand_weight": 0.49,
         "matched_tokens": [
           "cleanser",
           "moisturizer"
         ],
-        "match_score": 0.412
+        "match_score": 0.343
       },
       "global_matches": [
         {
           "channel": "oliveyoung_us",
           "global_product": "ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set",
           "similarity": 0.7,
-          "demand_weight": 0.588,
+          "demand_weight": 0.49,
           "matched_tokens": [
             "cleanser",
             "moisturizer"
           ],
-          "match_score": 0.412
+          "match_score": 0.343
         },
         {
           "channel": "ulta_beauty",
@@ -14761,6 +15110,61 @@
       "canonical_product_id": "CP000016"
     },
     {
+      "pd_no": "1070654",
+      "name": "모다모다 블루비오틴 스칼프샴푸 300 ml",
+      "bucket": "헤어케어",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1070654",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260707/YEw9uAeIOl1jI7HTK1WE1070654_00_00YEw9uAeIOl1jI7HTK1WE.png",
+      "shopify_score": 28,
+      "grade": "C",
+      "s_rule": "score_below_82",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 17.9,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 0.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 7,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "oliveyoung_us",
+        "global_product": "[2sizes] UNOVE Deep Damage Repair Shampoo Sweet Breeze",
+        "similarity": 0.65,
+        "demand_weight": 0.49,
+        "matched_tokens": [
+          "shampoo"
+        ],
+        "match_score": 0.319
+      },
+      "global_matches": [
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[2sizes] UNOVE Deep Damage Repair Shampoo Sweet Breeze",
+          "similarity": 0.65,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "shampoo"
+          ],
+          "match_score": 0.319
+        }
+      ],
+      "recommend_reason": "글로벌 '[2sizes] UNOVE Deep Damage Repair Shampoo Sweet Breeze' (oliveyoung_us) 유사 65% · 토큰 shampoo · S제외:score_below_82",
+      "canonical_product_id": "CP000238"
+    },
+    {
       "pd_no": "1041093",
       "name": "퍼프+거울케이스 기름종이",
       "bucket": "스킨케어",
@@ -14829,41 +15233,6 @@
       "global_matches": [],
       "recommend_reason": "헤어케어 카테고리 (글로벌 시그널 약함)",
       "canonical_product_id": "CP000160"
-    },
-    {
-      "pd_no": "1070654",
-      "name": "모다모다 블루비오틴 스칼프샴푸 300 ml",
-      "bucket": "헤어케어",
-      "rebucketed": false,
-      "price_krw": 5000,
-      "rating": 0.0,
-      "review_count": 0,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1070654",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260707/YEw9uAeIOl1jI7HTK1WE1070654_00_00YEw9uAeIOl1jI7HTK1WE.png",
-      "shopify_score": 28,
-      "grade": "C",
-      "s_rule": "score_below_82",
-      "us_market_hits": 0,
-      "us_median_price_usd": 0.0,
-      "score_breakdown": {
-        "category": 17.9,
-        "rating": 0.0,
-        "reviews": 0.0,
-        "price": 10.0,
-        "keyword": 0,
-        "us_market_fit": 0.0,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 0,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": null,
-      "global_matches": [],
-      "recommend_reason": "헤어케어 카테고리 (글로벌 시그널 약함)",
-      "canonical_product_id": "CP000238"
     },
     {
       "pd_no": "1047755",
@@ -15168,7 +15537,7 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 7,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -15197,24 +15566,24 @@
           "match_score": 0.293
         },
         {
-          "channel": "tiktok_shop_us",
-          "global_product": "Biodance Bio-Collagen Real Deep Mask",
-          "similarity": 0.272,
-          "demand_weight": 0.6,
-          "matched_tokens": [
-            "mask"
-          ],
-          "match_score": 0.163
-        },
-        {
           "channel": "oliveyoung_us",
           "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
           "similarity": 0.272,
-          "demand_weight": 0.49,
+          "demand_weight": 0.931,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.133
+          "match_score": 0.253
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Torriden Cellmazing Low Molecular Collagen Firming Gel Mask 4ct 1.27 oz.(36g)",
+          "similarity": 0.267,
+          "demand_weight": 0.686,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.183
         }
       ],
       "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 29% · 토큰 mask · S제외:score_below_82",
@@ -15501,6 +15870,181 @@
       "canonical_product_id": "CP000041"
     },
     {
+      "pd_no": "B202604026735",
+      "name": "모다모다 블루비오틴 스칼프샴푸 300 ml",
+      "bucket": "헤어케어",
+      "rebucketed": false,
+      "price_krw": 40000,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026735&recmYn=N",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260707/YEw9uAeIOl1jI7HTK1WE1070654_00_00YEw9uAeIOl1jI7HTK1WE.png",
+      "shopify_score": 19,
+      "grade": "C",
+      "s_rule": "score_below_82",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 17.9,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 1.0,
+        "keyword": 0,
+        "us_market_fit": 0.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 7,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "oliveyoung_us",
+        "global_product": "[2sizes] UNOVE Deep Damage Repair Shampoo Sweet Breeze",
+        "similarity": 0.65,
+        "demand_weight": 0.49,
+        "matched_tokens": [
+          "shampoo"
+        ],
+        "match_score": 0.319
+      },
+      "global_matches": [
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[2sizes] UNOVE Deep Damage Repair Shampoo Sweet Breeze",
+          "similarity": 0.65,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "shampoo"
+          ],
+          "match_score": 0.319
+        }
+      ],
+      "recommend_reason": "글로벌 '[2sizes] UNOVE Deep Damage Repair Shampoo Sweet Breeze' (oliveyoung_us) 유사 65% · 토큰 shampoo · S제외:score_below_82",
+      "canonical_product_id": "CP000319"
+    },
+    {
+      "pd_no": "B202604026746",
+      "name": "RGIII 레드진생 스칼프 샴푸 300ml",
+      "bucket": "헤어케어",
+      "rebucketed": false,
+      "price_krw": 30000,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026746&recmYn=N",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251002/Zi50v5cG0lStH5PUjoT21049035_00_00Zi50v5cG0lStH5PUjoT2.png",
+      "shopify_score": 19,
+      "grade": "C",
+      "s_rule": "score_below_82",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 17.9,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 1.0,
+        "keyword": 0,
+        "us_market_fit": 0.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 4,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "oliveyoung_us",
+        "global_product": "[2sizes] UNOVE Deep Damage Repair Shampoo Sweet Breeze",
+        "similarity": 0.35,
+        "demand_weight": 0.49,
+        "matched_tokens": [
+          "shampoo"
+        ],
+        "match_score": 0.171
+      },
+      "global_matches": [
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[2sizes] UNOVE Deep Damage Repair Shampoo Sweet Breeze",
+          "similarity": 0.35,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "shampoo"
+          ],
+          "match_score": 0.171
+        }
+      ],
+      "recommend_reason": "글로벌 '[2sizes] UNOVE Deep Damage Repair Shampoo Sweet Breeze' (oliveyoung_us) 유사 35% · 토큰 shampoo · S제외:score_below_82",
+      "canonical_product_id": "CP000322"
+    },
+    {
+      "pd_no": "B202604026774",
+      "name": "케라시스 어드밴스드 리페어 헤어 팩 150 ml",
+      "bucket": "헤어케어",
+      "rebucketed": false,
+      "price_krw": 36000,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026774&recmYn=N",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260129/qgTdnRguYR6oGojy18Td1032881_00_01qgTdnRguYR6oGojy18Td.jpg",
+      "shopify_score": 19,
+      "grade": "C",
+      "s_rule": "score_below_82",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 17.9,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 1.0,
+        "keyword": 0,
+        "us_market_fit": 0.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 5,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "oliveyoung_us",
+        "global_product": "UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)",
+        "similarity": 0.26,
+        "demand_weight": 0.735,
+        "matched_tokens": [
+          "repair"
+        ],
+        "match_score": 0.191
+      },
+      "global_matches": [
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)",
+          "similarity": 0.26,
+          "demand_weight": 0.735,
+          "matched_tokens": [
+            "repair"
+          ],
+          "match_score": 0.191
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[2sizes] UNOVE Deep Damage Repair Shampoo Sweet Breeze",
+          "similarity": 0.26,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "repair"
+          ],
+          "match_score": 0.127
+        }
+      ],
+      "recommend_reason": "글로벌 'UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)' (oliveyoung_us) 유사 26% · 토큰 repair · S제외:score_below_82",
+      "canonical_product_id": "CP000324"
+    },
+    {
       "pd_no": "1060069",
       "name": "노트북 공용 키스킨 36.8 X 13 cm",
       "bucket": "스킨케어",
@@ -15536,41 +16080,6 @@
       "canonical_product_id": "CP000153"
     },
     {
-      "pd_no": "B202604026746",
-      "name": "RGIII 레드진생 스칼프 샴푸 300ml",
-      "bucket": "헤어케어",
-      "rebucketed": false,
-      "price_krw": 30000,
-      "rating": 0.0,
-      "review_count": 0,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026746&recmYn=N",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251002/Zi50v5cG0lStH5PUjoT21049035_00_00Zi50v5cG0lStH5PUjoT2.png",
-      "shopify_score": 19,
-      "grade": "C",
-      "s_rule": "score_below_82",
-      "us_market_hits": 0,
-      "us_median_price_usd": 0.0,
-      "score_breakdown": {
-        "category": 17.9,
-        "rating": 0.0,
-        "reviews": 0.0,
-        "price": 1.0,
-        "keyword": 0,
-        "us_market_fit": 0.0,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 0,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": null,
-      "global_matches": [],
-      "recommend_reason": "헤어케어 카테고리 (글로벌 시그널 약함)",
-      "canonical_product_id": "CP000322"
-    },
-    {
       "pd_no": "B202604026763",
       "name": "RGIII 레드진생 스칼프 토닉 100ml",
       "bucket": "헤어케어",
@@ -15604,76 +16113,6 @@
       "global_matches": [],
       "recommend_reason": "헤어케어 카테고리 (글로벌 시그널 약함)",
       "canonical_product_id": "CP000323"
-    },
-    {
-      "pd_no": "B202604026735",
-      "name": "모다모다 블루비오틴 스칼프샴푸 300 ml",
-      "bucket": "헤어케어",
-      "rebucketed": false,
-      "price_krw": 40000,
-      "rating": 0.0,
-      "review_count": 0,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026735&recmYn=N",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260707/YEw9uAeIOl1jI7HTK1WE1070654_00_00YEw9uAeIOl1jI7HTK1WE.png",
-      "shopify_score": 19,
-      "grade": "C",
-      "s_rule": "score_below_82",
-      "us_market_hits": 0,
-      "us_median_price_usd": 0.0,
-      "score_breakdown": {
-        "category": 17.9,
-        "rating": 0.0,
-        "reviews": 0.0,
-        "price": 1.0,
-        "keyword": 0,
-        "us_market_fit": 0.0,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 0,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": null,
-      "global_matches": [],
-      "recommend_reason": "헤어케어 카테고리 (글로벌 시그널 약함)",
-      "canonical_product_id": "CP000319"
-    },
-    {
-      "pd_no": "B202604026774",
-      "name": "케라시스 어드밴스드 리페어 헤어 팩 150 ml",
-      "bucket": "헤어케어",
-      "rebucketed": false,
-      "price_krw": 36000,
-      "rating": 0.0,
-      "review_count": 0,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026774&recmYn=N",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260129/qgTdnRguYR6oGojy18Td1032881_00_01qgTdnRguYR6oGojy18Td.jpg",
-      "shopify_score": 19,
-      "grade": "C",
-      "s_rule": "score_below_82",
-      "us_market_hits": 0,
-      "us_median_price_usd": 0.0,
-      "score_breakdown": {
-        "category": 17.9,
-        "rating": 0.0,
-        "reviews": 0.0,
-        "price": 1.0,
-        "keyword": 0,
-        "us_market_fit": 0.0,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 0,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": null,
-      "global_matches": [],
-      "recommend_reason": "헤어케어 카테고리 (글로벌 시그널 약함)",
-      "canonical_product_id": "CP000324"
     },
     {
       "pd_no": "1046646",

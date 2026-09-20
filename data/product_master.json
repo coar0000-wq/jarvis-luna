@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-20T21:05:17.318245+00:00",
+  "generated_at": "2026-09-20T22:34:01.761862+00:00",
   "generator": "scripts/build_product_master.py",
   "source": "data/daiso_real/products.json",
   "id_policy": "pd_no에 최초 CP 발급 후 재사용·재번호 부여 금지",
-  "active_product_count": 342,
-  "registry_count": 342,
+  "active_product_count": 345,
+  "registry_count": 345,
   "pd_no_to_cp": {
     "1002220": "CP000019",
     "1002393": "CP000020",
@@ -205,6 +205,7 @@
     "1066221": "CP000207",
     "1066503": "CP000208",
     "1067022": "CP000209",
+    "1067023": "CP000343",
     "1067024": "CP000210",
     "1067395": "CP000211",
     "1067396": "CP000212",
@@ -236,6 +237,7 @@
     "1070654": "CP000238",
     "1070663": "CP000239",
     "1070756": "CP000240",
+    "1071640": "CP000344",
     "1071642": "CP000241",
     "1071644": "CP000242",
     "1072195": "CP000243",
@@ -336,6 +338,7 @@
     "B202604026763": "CP000323",
     "B202604026774": "CP000324",
     "B202604281021": "CP000325",
+    "B202605201969": "CP000345",
     "B202605202031": "CP000326",
     "B202605202033": "CP000327",
     "B202608126988": "CP000328",
@@ -481,7 +484,7 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 7,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -897,7 +900,7 @@
         "keyword": 3,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 4,
+        "global_similarity_reference_only": 6,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -1729,7 +1732,7 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 7,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -2197,7 +2200,7 @@
         "keyword": 0,
         "us_market_fit": 21.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 5,
+        "global_similarity_reference_only": 4,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -3414,9 +3417,11 @@
         "sku": "CP000075"
       },
       "listing": {
-        "ready": null,
-        "blocked_by": [],
-        "gate_generated_at": null
+        "ready": false,
+        "blocked_by": [
+          "copy"
+        ],
+        "gate_generated_at": "2026-09-20T22:34:01.695018+00:00"
       }
     },
     {
@@ -4849,17 +4854,17 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 0,
+        "global_similarity_reference_only": 4,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.0,
+        "match_score": 0.35,
         "demand_score": 0.4292,
         "review_score": 0.9514,
-        "final_score": 0.4357,
+        "final_score": 0.5582,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -5032,7 +5037,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-20T21:05:17.278531+00:00"
+        "gate_generated_at": "2026-09-20T22:34:01.695018+00:00"
       }
     },
     {
@@ -5088,7 +5093,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-20T21:05:17.278531+00:00"
+        "gate_generated_at": "2026-09-20T22:34:01.695018+00:00"
       }
     },
     {
@@ -5192,7 +5197,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-20T21:05:17.278531+00:00"
+        "gate_generated_at": "2026-09-20T22:34:01.695018+00:00"
       }
     },
     {
@@ -5481,7 +5486,7 @@
         "keyword": 0,
         "us_market_fit": 21.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 5,
+        "global_similarity_reference_only": 4,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -6053,7 +6058,7 @@
         "keyword": 0,
         "us_market_fit": 21.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 5,
+        "global_similarity_reference_only": 4,
         "penalty": 0,
         "us_block_kind": "claim_risk",
         "us_block_reason": "여드름 치료 - 미국에서 OTC 의약품",
@@ -6388,7 +6393,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-20T21:05:17.278531+00:00"
+        "gate_generated_at": "2026-09-20T22:34:01.695018+00:00"
       }
     },
     {
@@ -7197,7 +7202,7 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 7,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -7457,7 +7462,7 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 7,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -7509,17 +7514,17 @@
         "keyword": 0,
         "us_market_fit": 24.6,
         "rebucket_note": "",
-        "global_similarity_reference_only": 14,
+        "global_similarity_reference_only": 16,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.88,
+        "match_score": 0.853,
         "demand_score": 0.88,
         "review_score": 0.94,
-        "final_score": 0.898,
+        "final_score": 0.8885,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -7532,7 +7537,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-20T21:05:17.278531+00:00"
+        "gate_generated_at": "2026-09-20T22:34:01.695018+00:00"
       }
     },
     {
@@ -7717,7 +7722,7 @@
         "keyword": 0,
         "us_market_fit": 21.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 10,
+        "global_similarity_reference_only": 9,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -7738,13 +7743,9 @@
         "sku": "CP000155"
       },
       "listing": {
-        "ready": false,
-        "blocked_by": [
-          "copy",
-          "price",
-          "legal"
-        ],
-        "gate_generated_at": "2026-09-20T21:05:17.278531+00:00"
+        "ready": null,
+        "blocked_by": [],
+        "gate_generated_at": null
       }
     },
     {
@@ -7773,7 +7774,7 @@
         "keyword": 0,
         "us_market_fit": 21.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 5,
+        "global_similarity_reference_only": 4,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -7825,7 +7826,7 @@
         "keyword": 0,
         "us_market_fit": 21.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 5,
+        "global_similarity_reference_only": 4,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -8605,7 +8606,7 @@
         "keyword": 0,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 10,
+        "global_similarity_reference_only": 9,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -8969,7 +8970,7 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 4,
+        "global_similarity_reference_only": 6,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -9064,7 +9065,7 @@
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251216/LlNJt6NzAf654AyvuGWm1061920_00_00LlNJt6NzAf654AyvuGWm.jpg",
       "shopify_score": 93,
       "grade": "A",
-      "s_rule": "no_global_match",
+      "s_rule": "match_too_weak",
       "score_breakdown": {
         "category": 25.0,
         "rating": 13.3,
@@ -9073,17 +9074,17 @@
         "keyword": 0,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 0,
+        "global_similarity_reference_only": 6,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.0,
+        "match_score": 0.52,
         "demand_score": 0.9231,
         "review_score": 0.9514,
-        "final_score": 0.6085,
+        "final_score": 0.7905,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -9125,17 +9126,17 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 0,
+        "global_similarity_reference_only": 6,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.0,
+        "match_score": 0.52,
         "demand_score": 0.4554,
         "review_score": 0.9,
-        "final_score": 0.4294,
+        "final_score": 0.6114,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -9340,10 +9341,10 @@
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.26,
+        "match_score": 0.263,
         "demand_score": 1.0,
         "review_score": 0.7371,
-        "final_score": 0.6621,
+        "final_score": 0.6632,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -9385,7 +9386,7 @@
         "keyword": 0,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 10,
+        "global_similarity_reference_only": 9,
         "penalty": 0,
         "us_block_kind": "claim_risk",
         "us_block_reason": "미백 - 미국에서 OTC 의약품 주장",
@@ -9593,7 +9594,7 @@
         "keyword": 0,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 10,
+        "global_similarity_reference_only": 9,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -10068,10 +10069,10 @@
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.26,
+        "match_score": 0.263,
         "demand_score": 1.0,
         "review_score": 0.9,
-        "final_score": 0.711,
+        "final_score": 0.712,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -10633,17 +10634,17 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 0,
+        "global_similarity_reference_only": 7,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.0,
+        "match_score": 0.65,
         "demand_score": 0.4292,
         "review_score": 0.8743,
-        "final_score": 0.4125,
+        "final_score": 0.64,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -10652,6 +10653,58 @@
         "option_name": "Title",
         "option_value": "390ml",
         "sku": "CP000209"
+      },
+      "listing": {
+        "ready": null,
+        "blocked_by": [],
+        "gate_generated_at": null
+      }
+    },
+    {
+      "canonical_product_id": "CP000343",
+      "pd_no": "1067023",
+      "name_ko": "포인트 딥 클린 퀵 마스카라 리무버 9 ml",
+      "brand": "포인트",
+      "category": "클렌징",
+      "source": {
+        "system": "daisomall.co.kr",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067023",
+        "collected_at": "2026-09-20T21:46:41.498029+00:00"
+      },
+      "price_krw": 5000,
+      "rating": 4.8,
+      "review_count": 1257,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260730/SFDZ6oZlpQ3a1jskIN0G1067023_00_00SFDZ6oZlpQ3a1jskIN0G.jpg",
+      "shopify_score": 62,
+      "grade": "B",
+      "s_rule": "score_below_82",
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 13.3,
+        "reviews": 18.8,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 0.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "component_scores": {
+        "match_score": 0.0,
+        "demand_score": 0.4646,
+        "review_score": 0.9171,
+        "final_score": 0.4378,
+        "model": "parallel_v1_observational",
+        "used_for_grade": false
+      },
+      "variant": {
+        "group_id": "VG-CP000343",
+        "option_name": "Title",
+        "option_value": "9ml",
+        "sku": "CP000343"
       },
       "listing": {
         "ready": null,
@@ -10920,7 +10973,7 @@
           "us_label",
           "legal"
         ],
-        "gate_generated_at": "2026-09-20T21:05:17.278531+00:00"
+        "gate_generated_at": "2026-09-20T22:34:01.695018+00:00"
       }
     },
     {
@@ -11024,7 +11077,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-20T21:05:17.278531+00:00"
+        "gate_generated_at": "2026-09-20T22:34:01.695018+00:00"
       }
     },
     {
@@ -11720,7 +11773,7 @@
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251205/6yxxYklOEqrkfhPkdQXB1068721_00_006yxxYklOEqrkfhPkdQXB.jpg",
       "shopify_score": 93,
       "grade": "A",
-      "s_rule": "no_global_match",
+      "s_rule": "match_too_weak",
       "score_breakdown": {
         "category": 25.0,
         "rating": 13.3,
@@ -11729,17 +11782,17 @@
         "keyword": 0,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 0,
+        "global_similarity_reference_only": 4,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.0,
+        "match_score": 0.42,
         "demand_score": 0.9231,
         "review_score": 0.9514,
-        "final_score": 0.6085,
+        "final_score": 0.7555,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -12145,17 +12198,17 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 0,
+        "global_similarity_reference_only": 7,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.0,
+        "match_score": 0.65,
         "demand_score": 0.4292,
         "review_score": 0.0,
-        "final_score": 0.1502,
+        "final_score": 0.3777,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -12204,10 +12257,10 @@
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.26,
+        "match_score": 0.263,
         "demand_score": 1.0,
         "review_score": 0.0,
-        "final_score": 0.441,
+        "final_score": 0.442,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -12268,6 +12321,58 @@
         "option_name": "Title",
         "option_value": "50ml",
         "sku": "CP000240"
+      },
+      "listing": {
+        "ready": null,
+        "blocked_by": [],
+        "gate_generated_at": null
+      }
+    },
+    {
+      "canonical_product_id": "CP000344",
+      "pd_no": "1071640",
+      "name_ko": "파티온 노스카나인 퍼스트스텝 세럼클렌저 100 ml",
+      "brand": "파티온",
+      "category": "클렌징",
+      "source": {
+        "system": "daisomall.co.kr",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1071640",
+        "collected_at": "2026-09-20T21:47:43.634246+00:00"
+      },
+      "price_krw": 3000,
+      "rating": 4.8,
+      "review_count": 827,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251015/AR8EgQM3gsJer4GplnCY1071640_00_00AR8EgQM3gsJer4GplnCY.png",
+      "shopify_score": 91,
+      "grade": "A",
+      "s_rule": "form_cap",
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 13.3,
+        "reviews": 17.7,
+        "price": 10.0,
+        "keyword": 5,
+        "us_market_fit": 24.6,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 8,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "component_scores": {
+        "match_score": 0.7,
+        "demand_score": 0.92,
+        "review_score": 0.8857,
+        "final_score": 0.8327,
+        "model": "parallel_v1_observational",
+        "used_for_grade": false
+      },
+      "variant": {
+        "group_id": "VG-CP000344",
+        "option_name": "Title",
+        "option_value": "100ml",
+        "sku": "CP000344"
       },
       "listing": {
         "ready": null,
@@ -12846,7 +12951,7 @@
         "blocked_by": [
           "copy"
         ],
-        "gate_generated_at": "2026-09-20T21:05:17.278531+00:00"
+        "gate_generated_at": "2026-09-20T22:34:01.695018+00:00"
       }
     },
     {
@@ -12875,7 +12980,7 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 8,
+        "global_similarity_reference_only": 9,
         "penalty": 0,
         "us_block_kind": "claim_risk",
         "us_block_reason": "미백 - 미국에서 OTC 의약품 주장",
@@ -13834,7 +13939,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-20T21:05:17.278531+00:00"
+        "gate_generated_at": "2026-09-20T22:34:01.695018+00:00"
       }
     },
     {
@@ -14123,17 +14228,17 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 0,
+        "global_similarity_reference_only": 7,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.0,
+        "match_score": 0.65,
         "demand_score": 0.4292,
         "review_score": 0.6657,
-        "final_score": 0.3499,
+        "final_score": 0.5774,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -14747,7 +14852,7 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 7,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -15319,7 +15424,7 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 7,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -15579,7 +15684,7 @@
         "keyword": 3,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 4,
+        "global_similarity_reference_only": 6,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -15839,7 +15944,7 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 8,
+        "global_similarity_reference_only": 9,
         "penalty": 0,
         "us_block_kind": "claim_risk",
         "us_block_reason": "미백 - 미국에서 OTC 의약품 주장",
@@ -16158,10 +16263,10 @@
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.26,
+        "match_score": 0.263,
         "demand_score": 0.8615,
         "review_score": 0.0,
-        "final_score": 0.3925,
+        "final_score": 0.3936,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -17087,17 +17192,17 @@
         "keyword": 0,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 0,
+        "global_similarity_reference_only": 4,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.0,
+        "match_score": 0.42,
         "demand_score": 0.7846,
         "review_score": 0.0,
-        "final_score": 0.2746,
+        "final_score": 0.4216,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -17139,17 +17244,17 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 0,
+        "global_similarity_reference_only": 7,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.0,
+        "match_score": 0.65,
         "demand_score": 0.2908,
         "review_score": 0.0,
-        "final_score": 0.1018,
+        "final_score": 0.3293,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -17295,17 +17400,17 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 0,
+        "global_similarity_reference_only": 4,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.0,
+        "match_score": 0.35,
         "demand_score": 0.2908,
         "review_score": 0.0,
-        "final_score": 0.1018,
+        "final_score": 0.2243,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -17399,17 +17504,17 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 0,
+        "global_similarity_reference_only": 5,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.0,
+        "match_score": 0.26,
         "demand_score": 0.2908,
         "review_score": 0.0,
-        "final_score": 0.1018,
+        "final_score": 0.1928,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -17478,6 +17583,58 @@
       }
     },
     {
+      "canonical_product_id": "CP000345",
+      "pd_no": "B202605201969",
+      "name_ko": "파티온 노스카나인 퍼스트스텝 세럼클렌저 100 ml",
+      "brand": "파티온",
+      "category": "클렌징",
+      "source": {
+        "system": "daisomall.co.kr",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202605201969&recmYn=N",
+        "collected_at": "2026-09-20T21:48:15.381111+00:00"
+      },
+      "price_krw": 36000,
+      "rating": null,
+      "review_count": null,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251015/AR8EgQM3gsJer4GplnCY1071640_00_00AR8EgQM3gsJer4GplnCY.png",
+      "shopify_score": 51,
+      "grade": "C",
+      "s_rule": "score_below_82",
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 1.0,
+        "keyword": 5,
+        "us_market_fit": 24.6,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 8,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "component_scores": {
+        "match_score": 0.7,
+        "demand_score": 0.7815,
+        "review_score": 0.0,
+        "final_score": 0.5185,
+        "model": "parallel_v1_observational",
+        "used_for_grade": false
+      },
+      "variant": {
+        "group_id": "VG-CP000345",
+        "option_name": "Title",
+        "option_value": "100ml",
+        "sku": "CP000345"
+      },
+      "listing": {
+        "ready": null,
+        "blocked_by": [],
+        "gate_generated_at": null
+      }
+    },
+    {
       "canonical_product_id": "CP000326",
       "pd_no": "B202605202031",
       "name_ko": "바세린 모이스처라이징 클렌징 밀크 140 ml",
@@ -17503,7 +17660,7 @@
         "keyword": 0,
         "us_market_fit": 21.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 10,
+        "global_similarity_reference_only": 9,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",

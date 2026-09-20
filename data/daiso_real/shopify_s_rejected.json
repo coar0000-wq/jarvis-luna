@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-20T20:23:09.903757+00:00",
+  "generated_at": "2026-09-20T22:34:01.388463+00:00",
   "note": "점수는 높았으나 S에서 탈락한 후보. 등록하지 말 것.",
-  "count": 62,
+  "count": 63,
   "items": [
     {
       "canonical_product_id": "CP000215",
@@ -101,7 +101,7 @@
       "shopify_score": 96,
       "s_rule": "weak_solo_token",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set' (oliveyoung_us) 유사 26% · 토큰 serum · S제외:weak_solo_token"
+      "recommend_reason": "글로벌 'Goodal Green Tangerine Vita C Dark Spot Serum' (tiktok_shop_us) 유사 26% · 토큰 serum · S제외:weak_solo_token"
     },
     {
       "canonical_product_id": "CP000083",
@@ -164,6 +164,26 @@
       "recommend_reason": "글로벌 'ANUA PDRN Hyaluronic Acid 100 Moisturizing Cream, 2.02 fl oz | Lightweight, Non-Greasy Hydrating Face Moisturizer with Salmon DNA for Glass Skin, Korean Skincare' (amazon_best_sellers) 유사 57% · 토큰 cream, pdrn"
     },
     {
+      "canonical_product_id": "CP000179",
+      "pd_no": "1061920",
+      "name": "본셉 비타씨 크림 50 ml",
+      "bucket": "스킨케어",
+      "shopify_score": 93,
+      "s_rule": "match_too_weak",
+      "downgrade_reason": null,
+      "recommend_reason": "글로벌 'Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 52% · 토큰 vitaminc · S제외:match_too_weak"
+    },
+    {
+      "canonical_product_id": "CP000230",
+      "pd_no": "1068721",
+      "name": "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml",
+      "bucket": "스킨케어",
+      "shopify_score": 93,
+      "s_rule": "match_too_weak",
+      "downgrade_reason": null,
+      "recommend_reason": "글로벌 'Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 42% · 토큰 vitaminc · S제외:match_too_weak"
+    },
+    {
       "canonical_product_id": "CP000084",
       "pd_no": "1044554",
       "name": "마데카21 테카 솔루션 수딩 크림 50 ml",
@@ -171,7 +191,7 @@
       "shopify_score": 93,
       "s_rule": "weak_solo_token",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token"
+      "recommend_reason": "글로벌 'Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token"
     },
     {
       "canonical_product_id": "CP000054",
@@ -181,7 +201,7 @@
       "shopify_score": 93,
       "s_rule": "weak_solo_token",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token"
+      "recommend_reason": "글로벌 'Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token"
     },
     {
       "canonical_product_id": "CP000171",
@@ -191,7 +211,7 @@
       "shopify_score": 93,
       "s_rule": "weak_solo_token",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token"
+      "recommend_reason": "글로벌 'Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token"
     },
     {
       "canonical_product_id": "CP000118",
@@ -201,17 +221,7 @@
       "shopify_score": 93,
       "s_rule": "weak_solo_token",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token"
-    },
-    {
-      "canonical_product_id": "CP000179",
-      "pd_no": "1061920",
-      "name": "본셉 비타씨 크림 50 ml",
-      "bucket": "스킨케어",
-      "shopify_score": 93,
-      "s_rule": "no_global_match",
-      "downgrade_reason": null,
-      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 4,077건 (글로벌 시그널 약함)"
+      "recommend_reason": "글로벌 'Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token"
     },
     {
       "canonical_product_id": "CP000132",
@@ -232,16 +242,6 @@
       "s_rule": "no_global_match",
       "downgrade_reason": null,
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 3,012건 (글로벌 시그널 약함)"
-    },
-    {
-      "canonical_product_id": "CP000230",
-      "pd_no": "1068721",
-      "name": "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml",
-      "bucket": "스킨케어",
-      "shopify_score": 93,
-      "s_rule": "no_global_match",
-      "downgrade_reason": null,
-      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 2,980건 (글로벌 시그널 약함)"
     },
     {
       "canonical_product_id": "CP000271",
@@ -274,6 +274,16 @@
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 92% · 토큰 ampoule, centella"
     },
     {
+      "canonical_product_id": "CP000344",
+      "pd_no": "1071640",
+      "name": "파티온 노스카나인 퍼스트스텝 세럼클렌저 100 ml",
+      "bucket": "클렌징",
+      "shopify_score": 91,
+      "s_rule": "form_cap",
+      "downgrade_reason": "동일 제형(세럼) 상위 2개에 밀림",
+      "recommend_reason": "글로벌 'ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set' (oliveyoung_us) 유사 70% · 토큰 cleanser, serum"
+    },
+    {
       "canonical_product_id": "CP000184",
       "pd_no": "1062135",
       "name": "네시픽 글로우 더블샷세럼 30 ml",
@@ -281,7 +291,7 @@
       "shopify_score": 91,
       "s_rule": "weak_solo_token",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set' (oliveyoung_us) 유사 26% · 토큰 serum · S제외:weak_solo_token"
+      "recommend_reason": "글로벌 'Goodal Green Tangerine Vita C Dark Spot Serum' (tiktok_shop_us) 유사 26% · 토큰 serum · S제외:weak_solo_token"
     },
     {
       "canonical_product_id": "CP000038",
@@ -331,7 +341,7 @@
       "shopify_score": 89,
       "s_rule": "weak_solo_token",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token"
+      "recommend_reason": "글로벌 'Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token"
     },
     {
       "canonical_product_id": "CP000340",
@@ -351,7 +361,7 @@
       "shopify_score": 89,
       "s_rule": "weak_solo_token",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 27% · 토큰 mask · S제외:weak_solo_token"
+      "recommend_reason": "글로벌 '[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)' (oliveyoung_us) 유사 27% · 토큰 mask · S제외:weak_solo_token"
     },
     {
       "canonical_product_id": "CP000135",
@@ -392,16 +402,6 @@
       "s_rule": "rank_cap",
       "downgrade_reason": "상위 10위 밖",
       "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 60% · 토큰 calming, toner"
-    },
-    {
-      "canonical_product_id": "CP000108",
-      "pd_no": "1049277",
-      "name": "[진정보습]VT 시카 슬리핑 마스크 4 ml 6개입",
-      "bucket": "스킨케어",
-      "shopify_score": 86,
-      "s_rule": "match_too_weak",
-      "downgrade_reason": null,
-      "recommend_reason": "글로벌 'Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream' (ulta_beauty) 유사 49% · 토큰 calming, centella · S제외:match_too_weak"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T17:25:03.232708+00:00",
+  "generated_at": "2026-09-20T22:34:01.388463+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
@@ -58,7 +58,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-20T21:05:17.278531+00:00"
+      "gate_generated_at": "2026-09-20T22:34:01.695018+00:00"
     },
     {
       "rank": 2,
@@ -113,7 +113,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-20T21:05:17.278531+00:00"
+      "gate_generated_at": "2026-09-20T22:34:01.695018+00:00"
     },
     {
       "rank": 3,
@@ -167,7 +167,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-20T21:05:17.278531+00:00"
+      "gate_generated_at": "2026-09-20T22:34:01.695018+00:00"
     },
     {
       "rank": 4,
@@ -222,7 +222,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-20T21:05:17.278531+00:00"
+      "gate_generated_at": "2026-09-20T22:34:01.695018+00:00"
     },
     {
       "rank": 5,
@@ -282,7 +282,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-20T21:05:17.278531+00:00"
+      "gate_generated_at": "2026-09-20T22:34:01.695018+00:00"
     },
     {
       "rank": 6,
@@ -337,7 +337,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-20T21:05:17.278531+00:00"
+      "gate_generated_at": "2026-09-20T22:34:01.695018+00:00"
     },
     {
       "rank": 7,
@@ -405,7 +405,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-20T21:05:17.278531+00:00"
+      "gate_generated_at": "2026-09-20T22:34:01.695018+00:00"
     },
     {
       "rank": 8,
@@ -460,7 +460,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-20T21:05:17.278531+00:00"
+      "gate_generated_at": "2026-09-20T22:34:01.695018+00:00"
     },
     {
       "rank": 9,
@@ -515,49 +515,42 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-20T21:05:17.278531+00:00"
+      "gate_generated_at": "2026-09-20T22:34:01.695018+00:00"
     },
     {
       "rank": 10,
-      "canonical_product_id": "CP000155",
-      "pd_no": "1060211",
-      "name": "바세린 모이스처라이징 클렌징 밀크 140 ml",
-      "bucket": "클렌징",
-      "price_krw": 5000,
-      "shopify_score": 87,
+      "canonical_product_id": "CP000075",
+      "pd_no": "1042619",
+      "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
+      "bucket": "마스크팩",
+      "price_krw": 1000,
+      "shopify_score": 89,
       "grade": "S",
-      "s_rule": "multi_token",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060211",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250311/QGjtoQh4Tv8bUcOEAchc1060211_00_01QGjtoQh4Tv8bUcOEAchc.jpg",
-      "recommend_reason": "글로벌 'ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set' (oliveyoung_us) 유사 70% · 토큰 cleanser, moisturizer",
+      "s_rule": "ingredient+form",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240109/8IB1YBxg81UqZXiKzXFM1042619_00_008IB1YBxg81UqZXiKzXFM.jpg",
+      "recommend_reason": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 68% · 토큰 collagen, mask",
       "matched_global": {
-        "channel": "oliveyoung_us",
-        "global_product": "ROUND LAB Birch Juice Moisturizing Sun Serum 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Keychain Set",
-        "similarity": 0.7,
-        "demand_weight": 0.49,
+        "channel": "tiktok_shop_us",
+        "global_product": "Biodance Bio-Collagen Real Deep Mask",
+        "similarity": 0.68,
+        "demand_weight": 0.6,
         "matched_tokens": [
-          "cleanser",
-          "moisturizer"
+          "collagen",
+          "mask"
         ],
-        "match_score": 0.343
+        "match_score": 0.408
       },
       "registerable": false,
       "registerable_source": "data/listing_gate.json",
-      "agent_ready": false,
-      "agent_blocked_by": [
-        "price",
-        "legal"
-      ],
+      "agent_ready": true,
+      "agent_blocked_by": [],
       "blocked_by": [
-        "copy",
-        "price",
-        "legal"
+        "copy"
       ],
       "public_ready": false,
       "public_blocked_by": [
         "copy",
-        "price",
-        "legal",
         "legal_full"
       ],
       "typesafe": {
@@ -567,26 +560,25 @@
         "source": "deterministic_local",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "hold",
+        "grade_advisory": "keep_s",
         "legal_gate_advisory": "review",
-        "risk_level": "critical",
-        "risk_points": 5,
+        "risk_level": "high",
+        "risk_points": 3,
         "team_routes": [
           "legal",
-          "pricing",
           "listing"
         ],
         "findings": [
-          "draft blockers: copy, price, legal",
-          "public blockers: copy, price, legal, legal_full"
+          "draft blockers: copy",
+          "public blockers: copy, legal_full"
         ],
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-20T21:05:17.278531+00:00"
+      "gate_generated_at": "2026-09-20T22:34:01.695018+00:00"
     }
   ],
-  "agent_ready_count": 8,
+  "agent_ready_count": 9,
   "registerable_count": 7,
   "registerable_source": "data/listing_gate.json"
 }
