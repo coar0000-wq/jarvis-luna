@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T08:59:28.664655+09:00",
+  "generated_at": "2026-09-21T12:14:49.998597+09:00",
   "generator": "scripts/build_shopify_marketing_strategy.py",
   "status": "evidence_ready",
   "scope": "US K-Beauty Shopify launch marketing",
@@ -1194,7 +1194,7 @@
     "경쟁 스토어 문구와 디자인 복제는 저작권·상표 위험으로 금지"
   ],
   "integrity": {
-    "listing_gate_generated_at": "2026-09-20T23:59:26.054828+00:00",
+    "listing_gate_generated_at": "2026-09-21T03:14:49.867505+00:00",
     "s_product_count": 10,
     "product_playbook_count": 10,
     "public_ready_count": 0,
