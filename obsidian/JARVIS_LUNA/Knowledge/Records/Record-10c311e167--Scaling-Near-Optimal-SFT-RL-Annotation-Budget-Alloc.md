@@ -2,7 +2,7 @@
 title: "Record 10c311e167 · Scaling-Near-Optimal-SFT-RL-Annotation-Budget-Alloc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T03:12:18.985343+00:00
+updated_at: 2026-09-21T04:58:30.661912+00:00
 tags: [record, real-data]
 ---
 

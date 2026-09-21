@@ -2,7 +2,7 @@
 title: "Record f637e24cd4 · Correlating-atomic-structure-with-carrier-transport-in-defective-MoS2-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T03:12:19.173840+00:00
+updated_at: 2026-09-21T04:58:30.792975+00:00
 tags: [record, real-data]
 ---
 

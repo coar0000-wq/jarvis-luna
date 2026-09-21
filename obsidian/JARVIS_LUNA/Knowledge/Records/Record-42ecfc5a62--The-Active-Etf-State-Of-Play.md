@@ -2,7 +2,7 @@
 title: "Record 42ecfc5a62 · The-Active-Etf-State-Of-Play"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T03:12:19.849740+00:00
+updated_at: 2026-09-21T04:58:31.250278+00:00
 tags: [record, real-data]
 ---
 

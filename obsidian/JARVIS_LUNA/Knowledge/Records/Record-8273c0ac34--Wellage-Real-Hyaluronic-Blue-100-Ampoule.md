@@ -2,7 +2,7 @@
 title: "Record 8273c0ac34 · Wellage-Real-Hyaluronic-Blue-100-Ampoule"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T03:12:19.793533+00:00
+updated_at: 2026-09-21T04:58:31.173687+00:00
 tags: [record, real-data]
 ---
 

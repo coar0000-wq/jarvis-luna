@@ -2,7 +2,7 @@
 title: "Record 6c72dced7a · Medtronic-invests-700M-in-surgical-partner-Cornerst"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T03:12:19.876697+00:00
+updated_at: 2026-09-21T04:58:31.286029+00:00
 tags: [record, real-data]
 ---
 

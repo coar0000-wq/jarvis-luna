@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-21T03:10:00.043134+00:00",
-  "real_records": 4019,
+  "updated_at": "2026-09-21T05:00:18.280442+00:00",
+  "real_records": 4022,
   "source_labels": {
     "ai-image": 198,
-    "ai-research": 3525,
-    "shopify-commerce-image": 296
+    "ai-research": 3527,
+    "shopify-commerce-image": 297
   },
-  "corpus_sha256": "ccedc3d78b3f9ba9fc26154d31e679c399472ad326b4def5be0b5acdffa58985",
+  "corpus_sha256": "3d90d0e912be488380d9369daea491e2bde1d96668e973931e3b77eeaadf5b4a",
   "training_performed": true,
   "weights_updated": true,
   "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
@@ -14,29 +14,17 @@
   "top_k_inference": 2,
   "model_file": "data/knowledge/real_knowledge_moe.npz",
   "compatibility_model_file": "data/knowledge/real_knowledge_router.npz",
-  "training_accuracy_on_corpus": 0.8770838517044041,
+  "training_accuracy_on_corpus": 0.8769269020387866,
   "mean_gate_load": [
-    0.293318,
-    0.327429,
-    0.379253
+    0.293124,
+    0.327369,
+    0.379507
   ],
-  "note": "실제 수집 데이터 누적 코퍼스. URL 기준 중복 제거하며 기존 레코드는 보존한다. 가중치 갱신은 학습기가 별도로 수행한다.",
-  "trained_corpus_sha256": "ccedc3d78b3f9ba9fc26154d31e679c399472ad326b4def5be0b5acdffa58985",
+  "note": "This is a text knowledge-routing MoE, not an image foundation model.",
+  "trained_corpus_sha256": "3d90d0e912be488380d9369daea491e2bde1d96668e973931e3b77eeaadf5b4a",
   "tuning_promoted": true,
   "tuning_steps": 500,
-  "tuning_validation_accuracy": 0.8800521512385919,
-  "tuning_final_loss": 0.4290913801714576,
-  "tuning_gate_load_std": 0.0954552522236014,
-  "records_before": 4018,
-  "records_added": 1,
-  "source_status": {
-    "arxiv": "ok",
-    "robotics": "ok",
-    "institutions": "ok",
-    "organic_skincare": "ok",
-    "google": "ok",
-    "us_beauty": "ok"
-  },
-  "corpus": "data/knowledge/training_corpus.jsonl",
-  "말뭉치": "바뀌었다. 지금 가중치는 이 말뭉치로 학습한 것이 아니다. 학습기가 돌아야 다시 참이 된다."
+  "tuning_validation_accuracy": 0.8802083333333334,
+  "tuning_final_loss": 0.4292894448722102,
+  "tuning_gate_load_std": 0.09680793842002157
 }

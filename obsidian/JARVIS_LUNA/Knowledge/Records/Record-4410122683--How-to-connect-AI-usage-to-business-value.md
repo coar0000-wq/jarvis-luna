@@ -2,7 +2,7 @@
 title: "Record 4410122683 · How-to-connect-AI-usage-to-business-value"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T03:12:19.671481+00:00
+updated_at: 2026-09-21T04:58:31.124852+00:00
 tags: [record, real-data]
 ---
 

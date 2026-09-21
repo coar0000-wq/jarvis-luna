@@ -2,7 +2,7 @@
 title: "기관 · AMD"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T03:12:20.256036+00:00
+updated_at: 2026-09-21T04:58:31.560620+00:00
 tags: [org, real-data]
 ---
 

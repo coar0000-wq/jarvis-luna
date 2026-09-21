@@ -2,7 +2,7 @@
 title: "Record 1207fc1892 · Efficient-Quantization-Aware-Distillation-with-Cross-Modal-Alignment-f"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T03:12:19.227112+00:00
+updated_at: 2026-09-21T04:58:30.875953+00:00
 tags: [record, real-data]
 ---
 

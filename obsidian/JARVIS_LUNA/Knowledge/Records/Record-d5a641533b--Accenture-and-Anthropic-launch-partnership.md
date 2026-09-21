@@ -2,7 +2,7 @@
 title: "Record d5a641533b · Accenture-and-Anthropic-launch-partnership"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T03:12:19.824475+00:00
+updated_at: 2026-09-21T04:58:31.214528+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 270cceb24d · Designing-for-use-Embedding-data-usability-into-Earth-science-mission-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T03:12:19.210034+00:00
+updated_at: 2026-09-21T04:58:30.854963+00:00
 tags: [record, real-data]
 ---
 

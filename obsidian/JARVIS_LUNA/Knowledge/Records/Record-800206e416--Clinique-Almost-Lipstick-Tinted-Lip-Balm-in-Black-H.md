@@ -2,7 +2,7 @@
 title: "Record 800206e416 · Clinique-Almost-Lipstick-Tinted-Lip-Balm-in-Black-Honey--Sheer--Lightw"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T03:12:19.815199+00:00
+updated_at: 2026-09-21T04:58:31.200122+00:00
 tags: [record, real-data]
 ---
 

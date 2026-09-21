@@ -2,7 +2,7 @@
 title: "Record 998ec23e53 · Insider-Law-Aspects-in-the-Issuance-of-Bonds"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T03:12:19.209325+00:00
+updated_at: 2026-09-21T04:58:30.854194+00:00
 tags: [record, real-data]
 ---
 

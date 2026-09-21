@@ -2,7 +2,7 @@
 title: "Record 887b26f48f · Quantizing-gravitational-fields-with-an-entropy-cor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T03:12:19.679187+00:00
+updated_at: 2026-09-21T04:58:31.134904+00:00
 tags: [record, real-data]
 ---
 
