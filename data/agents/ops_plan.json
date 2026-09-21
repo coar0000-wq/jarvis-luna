@@ -1,6 +1,6 @@
 {
   "agent": "Ops-Prioritizer",
-  "generated_at": "2026-09-21T10:25:02.334620+00:00",
+  "generated_at": "2026-09-21T11:00:49.639134+00:00",
   "risk": "low",
   "task_count": 4,
   "tasks": [
@@ -18,7 +18,7 @@
     {
       "priority": 5,
       "title": "팀 대기 · 리스팅 제작팀",
-      "detail": "카피 3건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 6건 사람 승인 대기",
+      "detail": "카피 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 8건 사람 승인 대기",
       "refs": [
         "data/dashboard_runtime.json",
         "data/agents/remediation_state.json"
@@ -28,7 +28,7 @@
     {
       "priority": 5,
       "title": "팀 대기 · 법률·규제팀",
-      "detail": "차단 1건: [퀵 수분충전]VT PDRN (자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기",
+      "detail": "차단 1건: [퀵 수분충전]VT PDRN (자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 5종(경북, 아시아이드, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
       "refs": [
         "data/dashboard_runtime.json",
         "data/agents/remediation_state.json"
@@ -56,11 +56,11 @@
       },
       {
         "n": 2,
-        "text": "팀 대기 · 리스팅 제작팀 — 카피 3건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Sho"
+        "text": "팀 대기 · 리스팅 제작팀 — 카피 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Sho"
       },
       {
         "n": 3,
-        "text": "팀 대기 · 법률·규제팀 — 차단 1건: [퀵 수분충전]VT PDRN (자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기"
+        "text": "팀 대기 · 법률·규제팀 — 차단 1건: [퀵 수분충전]VT PDRN (자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 "
       },
       {
         "n": 4,

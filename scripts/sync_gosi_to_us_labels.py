@@ -56,6 +56,12 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from inci_resolver import InciResolver, load_manual_overrides  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 
@@ -68,6 +74,15 @@ REQUIRED_LABEL_FIELDS = (
     "ingredients_inci",
     "manufacturer",
     "country_of_origin",
+)
+
+# 이 스크립트가 고시에서 옮겨 쓰는 칸이다. 사람이 넣는 칸은 여기 없다.
+MACHINE_FIELDS = (
+    "product_name_kr",
+    "net_contents",
+    "manufacturer",
+    "country_of_origin",
+    "ingredients_inci",
 )
 
 # 사람이 나중에 채우라고 넣어 둔 안내문. 값이 아니라 빈 칸으로 본다.
@@ -174,31 +189,39 @@ def nospace_index(table: dict) -> dict:
     return idx
 
 
-def to_inci(raw: str, table: dict) -> tuple[str, list[str]]:
+def to_inci(raw: str, resolver: InciResolver) -> tuple[str, list[str], list[dict], list[dict]]:
     """한국어 전성분을 영문 INCI 로 바꾼다.
 
-    하나라도 사전에 없으면 빈 문자열을 돌려준다.
+    하나라도 정본으로 못 이으면 빈 문자열을 돌려준다.
     일부만 영문인 성분표는 쓸 수 없다. 미국에서 라벨 위반이다.
 
-    그대로 못 찾으면 공백만 떼고 한 번 더 본다.
-    지어내는 것이 아니라 같은 이름을 알아보는 것이다.
+    그대로 못 찾으면 공백, 표기 규칙, 한두 글자 차이, 앞뒤 순서까지
+    본다. 판단은 inci_resolver 가 하고 여기서는 결과만 모은다.
+    지어내는 것이 아니라 같은 이름을 알아보는 것이다. 되돌린 자리는
+    전부 남겨 사람이 뒤집을 수 있게 한다.
     """
     parts = split_ingredients(raw)
     if not parts:
-        return "", []
+        return "", [], [], []
 
-    idx = nospace_index(table)
-    out, missing = [], []
+    out: list[str] = []
+    missing: list[str] = []
+    fixed: list[dict] = []
+    review: list[dict] = []
+
     for p in parts:
-        hit = table.get(p) or idx.get(_nospace(p))
-        if hit:
-            out.append(hit)
-        else:
-            missing.append(p)
+        r = resolver.resolve(p)
+        if r.ok:
+            out.append(r.value)
+            if r.method not in ("exact", "nospace"):
+                fixed.append(r.as_record())
+            continue
+        missing.append(p)
+        review.append(r.as_record())
 
     if missing:
-        return "", missing
-    return ", ".join(out), []
+        return "", missing, fixed, review
+    return ", ".join(out), [], fixed, review
 
 
 def main() -> int:
@@ -209,6 +232,10 @@ def main() -> int:
     table = dict_doc.get("kr_to_inci") or {}
     if not table:
         print("INCI 사전이 비어 있다. data/inci_dictionary.json 을 확인한다.")
+    overrides = load_manual_overrides(ROOT)
+    resolver = InciResolver(table, overrides)
+    if overrides:
+        print(f"사람이 확인한 표기 {len(overrides)}건을 먼저 볼 것이다.")
 
     items = gosi_doc.get("items") or {}
     if isinstance(items, list):
@@ -229,6 +256,8 @@ def main() -> int:
     now = datetime.now(timezone.utc).isoformat()
     filled, replaced, complete = 0, 0, 0
     missing_all: dict[str, list[str]] = {}
+    fixed_all: dict[str, list[dict]] = {}
+    review_all: dict[str, list[dict]] = {}
     report = []
 
     for raw_id, source in items.items():
@@ -237,16 +266,38 @@ def main() -> int:
         pd_no = str(source.get("product_id") or raw_id)
         target = registry.setdefault(pd_no, {})
 
+        # 이 스크립트가 채운 칸을 적어 둔다.
+        #
+        # 예전에는 "값이 있으면 안 덮는다" 만 있었다. 그러면 사람이 확인한
+        # 값은 지켜지지만, 기계가 예전 고시로 채운 값도 같이 남는다. 고시가
+        # 다시 수집돼 더 정확해져도 라벨은 옛말을 하고 있었다.
+        # 이제 기계가 채운 칸은 적어 두고, 원문이 바뀜 때만 다시 쓴다.
+        # 사람이 넣은 칸은 이 목록에 없으므로 여전히 건드리지 않는다.
+        derived = target.get("_자동으로_채운_칸")
+        if not isinstance(derived, list):
+            # 목록이 생기기 전에 만든 기록을 한 번 메운다.
+            # source_type 이 고시이고 사람이 넣는 칸(책임자·사용법 등)이
+            # 하나도 없으면 이 스크립트가 쓴 기록이다.
+            derived = []
+            if target.get("source_type") == "daiso_product_notice":
+                derived = [f for f in MACHINE_FIELDS if text(target.get(f))]
+
         def put(key: str, value: str) -> None:
             """실제 값이 있고 지금 칸이 비었거나 안내문이면 채운다."""
             nonlocal filled, replaced
             if not text(value):
                 return
             cur = target.get(key)
-            if real(cur):
+            if real(cur) and key not in derived:
                 return                      # 사람이 확인한 값은 안 건드린다
-            was_placeholder = bool(text(cur))
+            if text(cur) == text(value):
+                if key not in derived:
+                    derived.append(key)
+                return
+            was_placeholder = bool(text(cur)) and not real(cur)
             target[key] = text(value)
+            if key not in derived:
+                derived.append(key)
             if was_placeholder:
                 replaced += 1
             else:
@@ -259,6 +310,19 @@ def main() -> int:
         origin = text(source.get("origin"))
         put("country_of_origin", ORIGIN_EN.get(origin.lower(), origin))
 
+        # 원문이 바뀜으면 사전으로 옮겨 놓은 값은 버린다.
+        #
+        # 2026-09-21 에 앞에서 고친 전성분으로 만든 영문 표기가 그대로
+        # 남아 있었다. put() 은 값이 들어 있으면 덮지 않기 때문이다.
+        # 그 규칙은 사람이 확인한 값을 지키려는 것이지, 기계가 만든 값을
+        # 영원히 지키려는 것이 아니다. 원문과 짝이 안 맞으면 다시 계산한다.
+        new_source = text(source.get("ingredients"))
+        if (new_source
+                and target.get("ingredients_inci_source") == "kr_notice_via_dictionary"
+                and text(target.get("ingredients_source")) != new_source):
+            target.pop("ingredients_inci", None)
+            target.pop("ingredients_inci_source", None)
+
         # 한국어 원문은 근거로 늘 남긴다
         if real(source.get("ingredients")):
             target["ingredients_source"] = text(source["ingredients"])
@@ -266,16 +330,23 @@ def main() -> int:
         if real(source.get("warnings")):
             target["warnings_source"] = text(source["warnings"])
 
-        inci, missing = to_inci(text(source.get("ingredients")), table)
+        inci, missing, fixed, review = to_inci(
+            text(source.get("ingredients")), resolver)
         if missing:
             missing_all[pd_no] = missing
+        if fixed:
+            fixed_all[pd_no] = fixed
+        if review:
+            review_all[pd_no] = review
         if inci:
             put("ingredients_inci", inci)
-            target.setdefault("ingredients_inci_source", "kr_notice_via_dictionary")
+            target["ingredients_inci_source"] = "kr_notice_via_dictionary"
 
         # 안내문에 속지 않는다. real() 로 본다.
         ok = all(real(target.get(f)) for f in REQUIRED_LABEL_FIELDS)
         target["gosi_ok"] = ok
+        if derived:
+            target["_자동으로_채운_칸"] = derived
         target["last_gosi_sync_at"] = now
         target.setdefault("source_type", "daiso_product_notice")
 
@@ -287,6 +358,7 @@ def main() -> int:
             "빠진_칸": [f for f in REQUIRED_LABEL_FIELDS
                       if not real(target.get(f))],
             "못_옮긴_성분": missing[:12],
+            "표기_되돌림": fixed[:12],
         })
 
     if wrapped:
@@ -315,12 +387,30 @@ def main() -> int:
                "확인한 값이 아니다. 확인하면 그 값이 우선이고 "
                "이 스크립트는 덮지 않는다."),
         "못_옮긴_성분": missing_all,
+        "표기_되돌림": fixed_all,
+        "사람확인_필요": review_all,
+        "되돌림_규칙": (
+            "scripts/inci_resolver.py 가 정본에 있는 표준명으로만 잇는다. "
+            "후보의 영문 표기가 갈리면 잇지 않고 사람확인_필요 에 남긴다."
+        ),
         "상품별": report,
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     print(f"고시 {len(items)}건 → 영문 라벨")
     print(f"  새로 채운 칸 {filled} · 안내문을 덮은 칸 {replaced}")
     print(f"  4항목 완성 {complete}/{len(items)}")
+    if fixed_all:
+        total_fixed = sum(len(v) for v in fixed_all.values())
+        print(f"  표기 되돌림 {total_fixed}건 (정본 표준명으로 연결)")
+        seen = set()
+        for records in fixed_all.values():
+            for rec in records:
+                pair = (rec.get("원문"), rec.get("표준명"))
+                if pair in seen:
+                    continue
+                seen.add(pair)
+                print(f"    {rec.get('원문')} → {rec.get('표준명')}"
+                      f" [{rec.get('방법')}] {rec.get('영문')}")
     if missing_all:
         total = sum(len(v) for v in missing_all.values())
         uniq = sorted({x for v in missing_all.values() for x in v})

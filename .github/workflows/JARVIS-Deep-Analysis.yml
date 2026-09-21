@@ -271,6 +271,19 @@ jobs:
           python -u scripts/build_product_master.py --inject-s
           python -u scripts/pricing_model.py
 
+      # ------------------------------------------------------------
+      # 고시 → 영문 라벨
+      #
+      # 사전이 늘어나거나 고시가 다시 수집되면 어제 막혔던 상품이
+      # 풀린다. 여기서 돌리지 않으면 고시 수집 워크플로가 돌 때까지
+      # 라벨이 예전 상태로 남아 게이트를 똑같이 막는다.
+      # 표기가 흔들린 성분은 inci_resolver 가 정본 표준명으로 되돌리고,
+      # 판단이 갈리는 것은 사람확인_필요 로 남는다.
+      # ------------------------------------------------------------
+      - name: 고시 → 영문 라벨 동기화 (표기 되돌림 포함)
+        continue-on-error: true
+        run: python -u scripts/sync_gosi_to_us_labels.py
+
       - name: Legal auto-check (claims / functional / OTC / label)
         run: |
           python -u scripts/check_legal_products.py
@@ -279,6 +292,20 @@ jobs:
 
       - name: Build listing gate (copy/gosi/price/legal)
         run: python scripts/build_listing_gate.py
+
+      # ------------------------------------------------------------
+      # 빈 영문 카피 보완 (무료·로컬)
+      #
+      # 고시·라벨·법률이 늦게 풀려 agent_ready 가 된 상품은 카피가
+      # 비어 있다. 예전에는 S등급 정본이 바뀔 때만 카피 워크플로가 돌아
+      # 그 칸이 몇 주씩 비어 있었다. 2시간마다 여기서 채운다.
+      # 유료 모델은 부르지 않는다. 검증된 카피는 덮지 않는다.
+      # ------------------------------------------------------------
+      - name: 빈 영문 카피 무료 보완
+        continue-on-error: true
+        run: |
+          python -u scripts/build_listing_copy_local.py
+          python -u scripts/build_listing_gate.py
 
       - name: 수출 서류 자동 준비 (HS코드·라벨 시안)
         continue-on-error: true

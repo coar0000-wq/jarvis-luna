@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T09:42:05.408537+00:00",
-  "source_gate_generated_at": "2026-09-21T09:42:05.227409+00:00",
+  "generated_at": "2026-09-21T11:00:31.436289+00:00",
+  "source_gate_generated_at": "2026-09-21T11:00:31.076192+00:00",
   "ontology_source": "data/product_master.json",
   "approval_source": "data/manual/shopify_action_approvals.json",
   "policy": {
@@ -9,15 +9,47 @@
     "public": "public_ready + legal approval + verified physical inventory + separate publish approval",
     "idempotency": "action_id + payload_hash"
   },
-  "draft_action_count": 6,
+  "draft_action_count": 8,
   "states": {
-    "WAITING_HUMAN_APPROVAL": 6
+    "WAITING_HUMAN_APPROVAL": 8
   },
   "public_ready_item_count": 0,
   "public_actions": [],
   "public_blocked": true,
   "public_block_reason": "public_ready 상품 없음",
   "draft_actions": [
+    {
+      "action_id": "shopify:draft:CP000075",
+      "action_type": "CREATE_OR_UPDATE_SHOPIFY_DRAFT",
+      "object_type": "CanonicalProduct",
+      "object_id": "CP000075",
+      "shopify_group_key": "VG-CP000075",
+      "canonical_product_ids": [
+        "CP000075"
+      ],
+      "excluded_members": [],
+      "pd_nos": [
+        "1042619"
+      ],
+      "variant_count": 1,
+      "payload_hash": "885a47f2c86e7fc25ba2554fab95e723870c1036129329c87659723a76d2bff3",
+      "state": "WAITING_HUMAN_APPROVAL",
+      "approval_required": true,
+      "approved_by": "",
+      "approved_at": "",
+      "execution": {
+        "enabled": false,
+        "reason": "Shopify 쓰기 실행기는 별도 승인·자격증명·read-after-write 검증 후 연결"
+      },
+      "safety": {
+        "status": "draft",
+        "published": false,
+        "inventory": 0,
+        "inventory_policy": "deny"
+      },
+      "shopify_ids": {},
+      "last_error": ""
+    },
     {
       "action_id": "shopify:draft:CP000109",
       "action_type": "CREATE_OR_UPDATE_SHOPIFY_DRAFT",
@@ -147,6 +179,38 @@
       "last_error": ""
     },
     {
+      "action_id": "shopify:draft:CP000251",
+      "action_type": "CREATE_OR_UPDATE_SHOPIFY_DRAFT",
+      "object_type": "CanonicalProduct",
+      "object_id": "CP000251",
+      "shopify_group_key": "VG-CP000251",
+      "canonical_product_ids": [
+        "CP000251"
+      ],
+      "excluded_members": [],
+      "pd_nos": [
+        "1072554"
+      ],
+      "variant_count": 1,
+      "payload_hash": "67c4af22f850c717868190767df06c925f3e11efdedecde418dfffe16a8fdb29",
+      "state": "WAITING_HUMAN_APPROVAL",
+      "approval_required": true,
+      "approved_by": "",
+      "approved_at": "",
+      "execution": {
+        "enabled": false,
+        "reason": "Shopify 쓰기 실행기는 별도 승인·자격증명·read-after-write 검증 후 연결"
+      },
+      "safety": {
+        "status": "draft",
+        "published": false,
+        "inventory": 0,
+        "inventory_policy": "deny"
+      },
+      "shopify_ids": {},
+      "last_error": ""
+    },
+    {
       "action_id": "shopify:draft:CP000270",
       "action_type": "CREATE_OR_UPDATE_SHOPIFY_DRAFT",
       "object_type": "CanonicalProduct",
@@ -160,7 +224,7 @@
         "1075857"
       ],
       "variant_count": 1,
-      "payload_hash": "00cd4263e54fe8566d4de086de697a6478bc015ceb7907498894022943683eac",
+      "payload_hash": "3a3d4ab638744ec37de25f084a0638dbc2082dd70b4e93b0b47e31d60d37bebf",
       "state": "WAITING_HUMAN_APPROVAL",
       "approval_required": true,
       "approved_by": "",

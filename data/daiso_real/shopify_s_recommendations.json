@@ -58,7 +58,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-21T09:42:05.227409+00:00"
+      "gate_generated_at": "2026-09-21T11:00:31.076192+00:00"
     },
     {
       "rank": 2,
@@ -113,7 +113,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-21T09:42:05.227409+00:00"
+      "gate_generated_at": "2026-09-21T11:00:31.076192+00:00"
     },
     {
       "rank": 3,
@@ -167,7 +167,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-21T09:42:05.227409+00:00"
+      "gate_generated_at": "2026-09-21T11:00:31.076192+00:00"
     },
     {
       "rank": 4,
@@ -222,7 +222,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-21T09:42:05.227409+00:00"
+      "gate_generated_at": "2026-09-21T11:00:31.076192+00:00"
     },
     {
       "rank": 5,
@@ -248,16 +248,13 @@
         ],
         "match_score": 0.34
       },
-      "registerable": false,
+      "registerable": true,
       "registerable_source": "data/listing_gate.json",
       "agent_ready": true,
       "agent_blocked_by": [],
-      "blocked_by": [
-        "copy"
-      ],
+      "blocked_by": [],
       "public_ready": false,
       "public_blocked_by": [
-        "copy",
         "legal_full"
       ],
       "typesafe": {
@@ -269,20 +266,18 @@
         "enforced": false,
         "grade_advisory": "keep_s",
         "legal_gate_advisory": "review",
-        "risk_level": "high",
-        "risk_points": 2,
+        "risk_level": "medium",
+        "risk_points": 1,
         "team_routes": [
-          "legal",
-          "listing"
+          "legal"
         ],
         "findings": [
-          "draft blockers: copy",
-          "public blockers: copy, legal_full"
+          "public blockers: legal_full"
         ],
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-21T09:42:05.227409+00:00"
+      "gate_generated_at": "2026-09-21T11:00:31.076192+00:00"
     },
     {
       "rank": 6,
@@ -337,7 +332,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-21T09:42:05.227409+00:00"
+      "gate_generated_at": "2026-09-21T11:00:31.076192+00:00"
     },
     {
       "rank": 7,
@@ -392,7 +387,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-21T09:42:05.227409+00:00"
+      "gate_generated_at": "2026-09-21T11:00:31.076192+00:00"
     },
     {
       "rank": 8,
@@ -460,7 +455,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-21T09:42:05.227409+00:00"
+      "gate_generated_at": "2026-09-21T11:00:31.076192+00:00"
     },
     {
       "rank": 9,
@@ -515,7 +510,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-21T09:42:05.227409+00:00"
+      "gate_generated_at": "2026-09-21T11:00:31.076192+00:00"
     },
     {
       "rank": 10,
@@ -541,16 +536,13 @@
         ],
         "match_score": 0.408
       },
-      "registerable": false,
+      "registerable": true,
       "registerable_source": "data/listing_gate.json",
       "agent_ready": true,
       "agent_blocked_by": [],
-      "blocked_by": [
-        "copy"
-      ],
+      "blocked_by": [],
       "public_ready": false,
       "public_blocked_by": [
-        "copy",
         "legal_full"
       ],
       "typesafe": {
@@ -563,22 +555,20 @@
         "grade_advisory": "keep_s",
         "legal_gate_advisory": "review",
         "risk_level": "high",
-        "risk_points": 3,
+        "risk_points": 2,
         "team_routes": [
-          "legal",
-          "listing"
+          "legal"
         ],
         "findings": [
-          "draft blockers: copy",
-          "public blockers: copy, legal_full"
+          "public blockers: legal_full"
         ],
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-21T09:42:05.227409+00:00"
+      "gate_generated_at": "2026-09-21T11:00:31.076192+00:00"
     }
   ],
   "agent_ready_count": 9,
-  "registerable_count": 7,
+  "registerable_count": 9,
   "registerable_source": "data/listing_gate.json"
 }

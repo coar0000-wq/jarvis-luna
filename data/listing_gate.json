@@ -1,25 +1,25 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-09-21T09:42:05.227409+00:00",
+  "generated_at": "2026-09-21T11:00:31.076192+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "semantic_sources": {
       "data/product_master.json": "5b885a69526f6b217b487cfdd8400a6ba8c4a1d13d39ce2fe9ab81f4c2ea7aec",
-      "data/gosi.json": "a63d1f7c89bbddfdaa369b19b8650a395c07f5426bde6797f77beb86e6aa54a5",
-      "data/daiso_real/daiso_us_labels.json": "eb596b6b1957545ac23800bd0cf47782809d369054637f531a280cea6496944e",
+      "data/gosi.json": "d1b5837f4ff183cfe82f573c8d733bb76a7731d2e3b3a625c4e56ace20d7e032",
+      "data/daiso_real/daiso_us_labels.json": "7f7a3f08836ca7f75cee7b8d9db1ac2a9c87ba0cb59b63c806149acc73fece6b",
       "data/pricing_model.json": "6b2694bca708f55158e9738cd6bd60a372bc4347f43558217664e9c2c01d34fb",
-      "data/legal_products.json": "14449857f0795ddd9557d0164390dd1ac4bfdab1cf1a9b43505f0f1a56cbccf6"
+      "data/legal_products.json": "c6e34b64255fb3cc803567c8b573d2f52e2519847ed8ff11adb1b71b4b868d95"
     },
     "recommendations_sha256": "a0bcc3d25f99d040eb8257d00f4d93158b03568c79df49cf183945569a27172b"
   },
   "total": 10,
   "agent_ready": 9,
-  "ready": 7,
-  "draft_ready": 7,
+  "ready": 9,
+  "draft_ready": 9,
   "public_ready": 0,
   "counts": {
     "ontology": 10,
-    "copy": 7,
+    "copy": 9,
     "gosi": 10,
     "us_label": 9,
     "price": 10,
@@ -27,7 +27,7 @@
     "legal_full": 0
   },
   "blockers": {
-    "copy": 3,
+    "copy": 1,
     "us_label": 1,
     "legal": 1
   },
@@ -376,8 +376,21 @@
       "price_krw": 5000,
       "shopify_score": 96,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072554",
-      "copy": {},
-      "copy_status": "skipped_prerequisite",
+      "copy": {
+        "title": "VONSEP Retinol Body Serum 100ml",
+        "description_html": "<p>VONSEP Retinol Body Serum 100ml is a Korean beauty body serum in a 100ml size. This draft uses only the verified product identity and package information.</p><p>Review the ingredient list, directions, and final US label before publication.</p>",
+        "seo_title": "VONSEP Retinol Body Serum 100ml",
+        "seo_description": "View VONSEP Retinol Body Serum 100ml. Product identity and size are based on the source product notice. Review ingredients, directions, and the final label before purchase.",
+        "tags": [
+          "vonsep",
+          "retinol",
+          "body-serum",
+          "k-beauty",
+          "korean-beauty"
+        ],
+        "product_type": "Body Serum"
+      },
+      "copy_status": "ok",
       "gosi": {
         "volume": "100ml",
         "maker": "화장품제조업자: (주)메가코스 / 화장품책임판매업자: (주)토니모리",
@@ -404,13 +417,10 @@
       },
       "agent_ready": true,
       "agent_blocked_by": [],
-      "ready": false,
-      "blocked_by": [
-        "copy"
-      ],
+      "ready": true,
+      "blocked_by": [],
       "public_ready": false,
       "public_blocked_by": [
-        "copy",
         "legal_full"
       ],
       "legal_full_complete": false,
@@ -423,15 +433,13 @@
         "enforced": false,
         "grade_advisory": "keep_s",
         "legal_gate_advisory": "review",
-        "risk_level": "high",
-        "risk_points": 2,
+        "risk_level": "medium",
+        "risk_points": 1,
         "team_routes": [
-          "legal",
-          "listing"
+          "legal"
         ],
         "findings": [
-          "draft blockers: copy",
-          "public blockers: copy, legal_full"
+          "public blockers: legal_full"
         ],
         "confidence": null,
         "usage": null
@@ -475,7 +483,7 @@
         "net_contents": "18g",
         "manufacturer": "(주)제닉",
         "country_of_origin": "Korea",
-        "ingredients_inci": "Water, Methylpropanediol, Glycerin, Caprylic/Capric Triglyceride, Niacinamide, Polyglyceryl-3 Distearate, Cetearyl Alcohol, Hydroxyacetophenone, Arginine, Carbomer, Ammonium Acryloyldimethyltaurate/VP Copolymer, Glyceryl Stearate Citrate, Allantoin, Xanthan Gum, Sodium DNA, Adenosine, Disodium EDTA, Gluconolactone, Fragrance, Pogostemon Cablin Oil",
+        "ingredients_inci": "Water, Methylpropanediol, Glycerin, Caprylic/Capric Triglyceride, Niacinamide, Polyglyceryl-3 Distearate, Cetearyl Alcohol, Hydroxyacetophenone, Arginine, Carbomer, Ammonium Acryloyldimethyltaurate/VP Copolymer, Glyceryl Stearate Citrate, Allantoin, Xanthan Gum, Sodium DNA, Adenosine, Disodium EDTA, Gluconolactone, Fragrance|Perfume|Parfum, Pogostemon Cablin Oil",
         "us_label_ok": true
       },
       "price": {
@@ -610,17 +618,17 @@
       "shopify_score": 92,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067495",
       "copy": {},
-      "copy_status": "missing",
+      "copy_status": "skipped_prerequisite",
       "gosi": {
         "volume": "200ml",
-        "maker": "및 화장품제조업자: (주)이앤씨",
+        "maker": "화장품제조업자: (주)이앤씨 / 화장품책임판매업자: (주)브이티코스메틱",
         "origin": "한국",
         "ingredients": "정제수, 부틸렌글라이콜, 글리세린, 나이아신아마이드, 아시아이드, 아이소펜틸다이올, C12-14알케스-12, 카프릴릴글라이콜, 에틸헥실글리세린, 에틸헥실팔미테이트, 세틸에틸헥사노에이트, 폴리글리세릴-2스테아레이트, ",
         "gosi_ok": true
       },
       "us_label": {
         "net_contents": "200ml",
-        "manufacturer": "및 화장품제조업자: (주)이앤씨",
+        "manufacturer": "화장품제조업자: (주)이앤씨 / 화장품책임판매업자: (주)브이티코스메틱",
         "country_of_origin": "Korea",
         "ingredients_inci": "",
         "us_label_ok": false
@@ -769,8 +777,21 @@
       "price_krw": 1000,
       "shopify_score": 88,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
-      "copy": {},
-      "copy_status": "skipped_prerequisite",
+      "copy": {
+        "title": "CELDERMA Daily Collagen Gel Sheet Mask 29g",
+        "description_html": "<p>CELDERMA Daily Collagen Gel Sheet Mask 29g is a Korean beauty gel sheet mask in a 29g size. This draft uses only the verified product identity and package information.</p><p>Review the ingredient list, directions, and final US label before publication.</p>",
+        "seo_title": "CELDERMA Daily Collagen Gel Sheet Mask 29g",
+        "seo_description": "View CELDERMA Daily Collagen Gel Sheet Mask 29g. Product identity and size are based on the source product notice. Review ingredients, directions, and the final label before purchase.",
+        "tags": [
+          "celderma-daily",
+          "collagen",
+          "gel-sheet-mask",
+          "k-beauty",
+          "korean-beauty"
+        ],
+        "product_type": "Gel Sheet Mask"
+      },
+      "copy_status": "ok",
       "gosi": {
         "volume": "29g",
         "maker": "㈜제닉 (충청남도 논산시 성동면 산업단지로5길 5)",
@@ -797,13 +818,10 @@
       },
       "agent_ready": true,
       "agent_blocked_by": [],
-      "ready": false,
-      "blocked_by": [
-        "copy"
-      ],
+      "ready": true,
+      "blocked_by": [],
       "public_ready": false,
       "public_blocked_by": [
-        "copy",
         "legal_full"
       ],
       "legal_full_complete": false,
@@ -817,14 +835,12 @@
         "grade_advisory": "keep_s",
         "legal_gate_advisory": "review",
         "risk_level": "high",
-        "risk_points": 3,
+        "risk_points": 2,
         "team_routes": [
-          "legal",
-          "listing"
+          "legal"
         ],
         "findings": [
-          "draft blockers: copy",
-          "public blockers: copy, legal_full"
+          "public blockers: legal_full"
         ],
         "confidence": null,
         "usage": null

@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-21T09:42:05.288529+00:00",
+  "generated_at": "2026-09-21T11:00:31.198806+00:00",
   "generator": "scripts/build_product_master.py",
   "source": "data/daiso_real/products.json",
   "id_policy": "pd_no에 최초 CP 발급 후 재사용·재번호 부여 금지",
@@ -3417,11 +3417,9 @@
         "sku": "CP000075"
       },
       "listing": {
-        "ready": false,
-        "blocked_by": [
-          "copy"
-        ],
-        "gate_generated_at": "2026-09-21T09:42:05.227409+00:00"
+        "ready": true,
+        "blocked_by": [],
+        "gate_generated_at": "2026-09-21T11:00:31.076192+00:00"
       }
     },
     {
@@ -5037,7 +5035,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-21T09:42:05.227409+00:00"
+        "gate_generated_at": "2026-09-21T11:00:31.076192+00:00"
       }
     },
     {
@@ -5093,7 +5091,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-21T09:42:05.227409+00:00"
+        "gate_generated_at": "2026-09-21T11:00:31.076192+00:00"
       }
     },
     {
@@ -5197,7 +5195,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-21T09:42:05.227409+00:00"
+        "gate_generated_at": "2026-09-21T11:00:31.076192+00:00"
       }
     },
     {
@@ -6393,7 +6391,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-21T09:42:05.227409+00:00"
+        "gate_generated_at": "2026-09-21T11:00:31.076192+00:00"
       }
     },
     {
@@ -7537,7 +7535,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-21T09:42:05.227409+00:00"
+        "gate_generated_at": "2026-09-21T11:00:31.076192+00:00"
       }
     },
     {
@@ -10973,7 +10971,7 @@
           "us_label",
           "legal"
         ],
-        "gate_generated_at": "2026-09-21T09:42:05.227409+00:00"
+        "gate_generated_at": "2026-09-21T11:00:31.076192+00:00"
       }
     },
     {
@@ -11077,7 +11075,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-21T09:42:05.227409+00:00"
+        "gate_generated_at": "2026-09-21T11:00:31.076192+00:00"
       }
     },
     {
@@ -12947,11 +12945,9 @@
         "sku": "CP000251"
       },
       "listing": {
-        "ready": false,
-        "blocked_by": [
-          "copy"
-        ],
-        "gate_generated_at": "2026-09-21T09:42:05.227409+00:00"
+        "ready": true,
+        "blocked_by": [],
+        "gate_generated_at": "2026-09-21T11:00:31.076192+00:00"
       }
     },
     {
@@ -13939,7 +13935,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-21T09:42:05.227409+00:00"
+        "gate_generated_at": "2026-09-21T11:00:31.076192+00:00"
       }
     },
     {

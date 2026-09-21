@@ -1,8 +1,8 @@
 {
   "agent": "Listing-Draft",
-  "generated_at": "2026-09-21T10:25:02.334599+00:00",
+  "generated_at": "2026-09-21T11:00:49.639113+00:00",
   "s_count": 10,
-  "registerable_count": 7,
+  "registerable_count": 9,
   "csv_path": "data/shopify_exports/products.csv",
   "manifest_path": "data/shopify_exports/manifest.json",
   "items": [
@@ -39,6 +39,14 @@
       "note": "listing_gate 통과분만 포함. 법률 풀스키마·실재고 확인 전 unpublished/inventory 0 유지."
     },
     {
+      "canonical_product_id": "CP000251",
+      "pd_no": "1072554",
+      "name": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
+      "csv": "data/shopify_exports/products.csv",
+      "status_suggest": "draft",
+      "note": "listing_gate 통과분만 포함. 법률 풀스키마·실재고 확인 전 unpublished/inventory 0 유지."
+    },
+    {
       "canonical_product_id": "CP000270",
       "pd_no": "1075857",
       "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
@@ -61,19 +69,27 @@
       "csv": "data/shopify_exports/products.csv",
       "status_suggest": "draft",
       "note": "listing_gate 통과분만 포함. 법률 풀스키마·실재고 확인 전 unpublished/inventory 0 유지."
+    },
+    {
+      "canonical_product_id": "CP000075",
+      "pd_no": "1042619",
+      "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
+      "csv": "data/shopify_exports/products.csv",
+      "status_suggest": "draft",
+      "note": "listing_gate 통과분만 포함. 법률 풀스키마·실재고 확인 전 unpublished/inventory 0 유지."
     }
   ],
   "legal_blocks": [
-    "차단 1건: [퀵 수분충전]VT PDRN (자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기"
+    "차단 1건: [퀵 수분충전]VT PDRN (자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 5종(경북, 아시아이드, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기"
   ],
   "suggestions": [
     {
       "action": "import_csv_as_draft",
-      "detail": "게이트 통과 7건 CSV → Shopify Admin Products Import (Published=false)"
+      "detail": "게이트 통과 9건 CSV → Shopify Admin Products Import (Published=false)"
     },
     {
       "action": "resolve_legal_blocks",
-      "detail": "차단 1건: [퀵 수분충전]VT PDRN (자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기"
+      "detail": "차단 1건: [퀵 수분충전]VT PDRN (자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 5종(경북, 아시아이드, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기"
     }
   ]
 }

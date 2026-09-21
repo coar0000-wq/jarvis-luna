@@ -12,11 +12,20 @@ name: Shopify 영문 리스팅 카피 생성
 #
 # 수동 실행도 계속 지원한다.
 #
-# 필요한 시크릿:
+# 쓰면 좋은 시크릿:
 # GEMINI_API_KEY
 #
-# 없으면 실행은 중단하고 안내만 남긴다.
-# 가짜 카피는 만들지 않는다.
+# 없어도 멈추지 않는다. 무료 로컬 생성기가 정본 사실(제품명·용량·원산지)
+# 만으로 초안 카피를 채운다. 효능·인증·임상 문구는 어느 경로로도
+# 지어내지 않는다.
+#
+# 2026-09-21 에 고쳤다.
+#   예전에는 키가 없거나 선행 게이트에 막힌 상품은 카피가
+#   영원히 비었다. 이 워크플로는 S등급 정본이 바뀔 때만 돌았고,
+#   고시·라벨·법률이 늦게 풀려 agent_ready 가 된 상품은 다시 보지
+#   않았다. 그래서 대시보드에 "카피 3건 대기" 가 몇 주 남아 있었다.
+#   이제 이 워크플로는 키 없이도 끝까지 돌고, 2시간 주기의 Deep
+#   Analysis 가 빈 카피를 매번 다시 채운다.
 
 on:
   workflow_dispatch:
@@ -84,8 +93,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           if [ -z "$GEMINI_API_KEY" ]; then
-            echo "GEMINI_API_KEY 시크릿이 없습니다." >> "$GITHUB_STEP_SUMMARY"
-            echo "GitHub Settings > Secrets and variables > Actions 에 GEMINI_API_KEY를 등록하세요." >> "$GITHUB_STEP_SUMMARY"
+            echo "GEMINI_API_KEY 시크릿이 없어 무료 로컬 생성기로만 채웁니다." >> "$GITHUB_STEP_SUMMARY"
             echo "ready=false" >> "$GITHUB_OUTPUT"
           else
             echo "GEMINI_API_KEY 확인 완료"
@@ -96,7 +104,6 @@ jobs:
       # S등급 입력 확인
       # -------------------------------------------------------
       - name: S등급 정본 확인
-        if: steps.guard.outputs.ready == 'true'
         run: |
           python3 - <<'PY'
           import json
@@ -137,7 +144,6 @@ jobs:
       # 환율 갱신
       # -------------------------------------------------------
       - name: 환율 갱신
-        if: steps.guard.outputs.ready == 'true'
         continue-on-error: true
         run: |
           python -c "import sync_channels as s; s.fetch_and_update_fx_status()"
@@ -146,7 +152,6 @@ jobs:
       # OliveYoung US 시장가
       # -------------------------------------------------------
       - name: OliveYoung US 시장가 수집
-        if: steps.guard.outputs.ready == 'true'
         continue-on-error: true
         run: |
           python scripts/collect_oliveyoung_us.py
@@ -155,7 +160,6 @@ jobs:
       # 실배송 원가 모델
       # -------------------------------------------------------
       - name: 실배송 원가 모델 계산
-        if: steps.guard.outputs.ready == 'true'
         run: |
           python scripts/pricing_model.py
 
@@ -165,9 +169,11 @@ jobs:
       # CP 정본과 고시·영문라벨·가격·법률 증거를 먼저 조인한다.
       # Gemini는 agent_ready 상품만 보며 차단 상품은 API로 보내지 않는다.
       # -------------------------------------------------------
+      # 고시→영문 라벨 동기화를 먼저 돌린다. 이걸 안 하면 선행 게이트가
+      # 예전 라벨을 보고 같은 상품을 또 막는다.
       - name: LLM 선행 ontology 게이트 갱신
-        if: steps.guard.outputs.ready == 'true'
         run: |
+          python scripts/sync_gosi_to_us_labels.py
           python scripts/build_product_master.py --inject-s
           python scripts/check_legal_products.py
           python scripts/build_listing_gate.py
@@ -184,10 +190,19 @@ jobs:
           python scripts/gemini_listing_copy.py
 
       # -------------------------------------------------------
+      # 빈 칸 보완 (무료·로컬)
+      #
+      # Gemini 가 없거나 할당량에 걸려 빠진 상품을 정본 사실만으로 채운다.
+      # 이미 검증된 카피는 그대로 둔다.
+      # -------------------------------------------------------
+      - name: 빈 카피 무료 보완
+        run: |
+          python scripts/build_listing_copy_local.py
+
+      # -------------------------------------------------------
       # 생성 결과 검증
       # -------------------------------------------------------
       - name: 영문 카피 결과 검증
-        if: steps.guard.outputs.ready == 'true'
         run: |
           python3 - <<'PY'
           import json
@@ -239,7 +254,6 @@ jobs:
       # Shopify CSV
       # -------------------------------------------------------
       - name: Shopify 임포트 CSV 생성
-        if: steps.guard.outputs.ready == 'true'
         env:
           SHOPIFY_BUNDLE: ${{ github.event.inputs.bundle || '5개_묶음배송' }}
           SHOPIFY_VENDOR: ${{ github.event.inputs.vendor || 'MD family' }}
@@ -258,7 +272,6 @@ jobs:
       # 결과 요약
       # -------------------------------------------------------
       - name: 결과 요약
-        if: steps.guard.outputs.ready == 'true'
         run: |
           python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
           import json
@@ -449,9 +462,8 @@ jobs:
       # 변경 파일만 안전하게 얹는다.
       # -------------------------------------------------------
       - name: 산출물 발행
-        if: steps.guard.outputs.ready == 'true'
         uses: ./.github/actions/publish
         with:
-          paths: data/shopify_listing_copy.json data/shopify_import.csv data/shopify_import_report.json data/pricing_model.json data/daiso_real/collection_status.json data/product_master.json data/legal_products.json data/legal_full.json
+          paths: data/shopify_listing_copy.json data/shopify_import.csv data/shopify_import_report.json data/pricing_model.json data/daiso_real/collection_status.json data/product_master.json data/legal_products.json data/legal_full.json data/daiso_real/daiso_us_labels.json data/daiso_real/us_label_sync_report.json
             data/mocra_readiness.json data/listing_gate.json data/daiso_real/shopify_s_recommendations.json data/market_team.json data/shopify_marketing_strategy.json data/marketing_priority.csv data/coaching_loop.json data/shopify_exports data/shopify_action_queue.json data/dashboard_runtime.json data/knowledge/cumulative_history.json
           message: Shopify 영문 리스팅 카피 자동 갱신

@@ -854,16 +854,41 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
             if mo.get("exempt_count"):
                 mocra_txt += f'(면제 {mo["exempt_count"]})'
 
+        # 고시를 영문 라벨로 옮긴 결과도 같은 카드에서 본다.
+        # 표기만 흔들린 성분은 기계가 정본 표준명으로 되돌렸고,
+        # 원문이 깨져 무엇인지 모를 성분만 사람에게 남긴다.
+        lab = load_json(D / "daiso_real" / "us_label_sync_report.json", None) or {}
+        label_txt = ""
+        review_terms: list[str] = []
+        if lab.get("고시_건수"):
+            label_txt = (f' · 영문라벨 {lab.get("라벨_완성", 0)}/'
+                         f'{lab["고시_건수"]}')
+            fixed = lab.get("표기_되돌림") or {}
+            if fixed:
+                label_txt += (' · 표기 되돌림 '
+                              f'{sum(len(v) for v in fixed.values())}건')
+            review_terms = sorted({
+                str(r.get("원문")) for rows in (lab.get("사람확인_필요") or {}).values()
+                for r in rows if r.get("원문")
+            })
+            if review_terms:
+                label_txt += f' · 성분표기 확인 {len(review_terms)}종'
+
         legal_waiting = ((f'차단 {hard}건: ' + ', '.join(hard_names[:2])
                           + ' — 검증 가능한 라벨·사업자 자료 입력 대기') if hard else
                          ('MoCRA 남은 항목: ' + ', '.join((mo.get("blocking") or [])[:3])
                           if mo.get("blocking") else None))
+        if review_terms:
+            term_txt = (f'고시 원문이 깨진 성분 {len(review_terms)}종('
+                        + ', '.join(review_terms[:3])
+                        + ') — data/manual/inci_overrides.json 확인 대기')
+            legal_waiting = f'{legal_waiting} · {term_txt}' if legal_waiting else term_txt
         cards.append(_team(
             "legal", "법률·규제팀", lp.get("auto_checked_at"),
             # 규제번호와 사업자 정보는 자동 생성하지 않는다. 그래서 노란
             # 자동조치가 아니라 명시적인 사람 입력 대기로 보낸다.
             f'자동 점검 {n_chk}건 · 통과 {a.get("clean", 0)} · '
-            f'등록 차단 {hard} · 참고 주의 {att}' + mocra_txt + exp_txt
+            f'등록 차단 {hard} · 참고 주의 {att}' + mocra_txt + label_txt + exp_txt
             + feed_tail("legal"),
             None,
             "ok" if n_chk else "failed",

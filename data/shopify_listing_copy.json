@@ -1,15 +1,17 @@
 {
-  "generated_at": "2026-09-20T04:08:53.167238+00:00",
-  "generator": "scripts/gemini_listing_copy.py",
-  "model": "gemini-flash-lite-latest",
-  "model_selection": "ListModels 자동 선택 (41개 중)",
-  "source": "data/daiso_real/shopify_s_recommendations.json (다이소 실크롤링 S등급)",
-  "note": "CP·고시·영문라벨·가격·법률 선행 게이트를 통과한 상품만 Gemini에 전달한다. 영문 카피는 게시 전 사람이 검수해야 하며, 실패·차단 항목은 비워 둔다.",
+  "generated_at": "2026-09-21T11:00:30.923828+00:00",
+  "generator": "scripts/build_listing_copy_local.py",
+  "model": "none_local_deterministic",
+  "paid_api_called": false,
+  "source": "data/daiso_real/shopify_s_recommendations.json",
+  "note": "기존 검증 카피를 보존하고 누락분만 제품명·용량·원산지 기반의 보수적 영문 초안으로 생성한다. 효능·인증·임상 결과는 생성하지 않는다.",
   "total": 10,
-  "eligible": 7,
-  "ok": 7,
+  "eligible": 9,
+  "ok": 9,
   "failed": 0,
-  "skipped_prerequisite": 3,
+  "skipped_prerequisite": 1,
+  "carried_forward": 9,
+  "generated_local": 0,
   "items": [
     {
       "canonical_product_id": "CP000107",
@@ -17,8 +19,8 @@
       "name_ko": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
       "bucket": "스킨케어",
       "price_krw": 3000,
-      "rating": 4.9,
-      "review_count": 16253,
+      "rating": null,
+      "review_count": null,
       "shopify_score": 100,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049276",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/biuEYxzjCmX6JMJEi1e01049276_00_01biuEYxzjCmX6JMJEi1e0.jpg",
@@ -39,6 +41,7 @@
         "product_type": "Face Serum"
       },
       "copy_status": "ok",
+      "generation_mode": "carried_verified_copy",
       "agent_blocked_by": [],
       "error": ""
     },
@@ -48,8 +51,8 @@
       "name_ko": "본셉 레티놀 500 IU 세럼 30 ml",
       "bucket": "스킨케어",
       "price_krw": 5000,
-      "rating": 4.8,
-      "review_count": 7438,
+      "rating": null,
+      "review_count": null,
       "shopify_score": 98,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055167",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251216/0lOXklS1nx5HxNuMya731055167_00_000lOXklS1nx5HxNuMya73.jpg",
@@ -70,6 +73,7 @@
         "product_type": "Face Serum"
       },
       "copy_status": "ok",
+      "generation_mode": "carried_verified_copy",
       "agent_blocked_by": [],
       "error": ""
     },
@@ -79,8 +83,8 @@
       "name_ko": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
       "bucket": "스킨케어",
       "price_krw": 3000,
-      "rating": 4.8,
-      "review_count": 16857,
+      "rating": null,
+      "review_count": null,
       "shopify_score": 98,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049275",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/0XsdymYj3PJyHpuxNOsm1049275_00_010XsdymYj3PJyHpuxNOsm.jpg",
@@ -100,6 +104,7 @@
         "product_type": "Face Serum"
       },
       "copy_status": "ok",
+      "generation_mode": "carried_verified_copy",
       "agent_blocked_by": [],
       "error": ""
     },
@@ -109,8 +114,8 @@
       "name_ko": "[영양광채]VT PDRN 광채 크림 50 ml",
       "bucket": "스킨케어",
       "price_krw": 5000,
-      "rating": 4.8,
-      "review_count": 5650,
+      "rating": null,
+      "review_count": null,
       "shopify_score": 96,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067498",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/wj1JQs4g8q0tBuz4c7jF1067498_00_01wj1JQs4g8q0tBuz4c7jF.jpg",
@@ -131,6 +136,7 @@
         "product_type": "Face Cream"
       },
       "copy_status": "ok",
+      "generation_mode": "carried_verified_copy",
       "agent_blocked_by": [],
       "error": ""
     },
@@ -140,19 +146,29 @@
       "name_ko": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
       "bucket": "스킨케어",
       "price_krw": 5000,
-      "rating": 4.7,
-      "review_count": 1649,
+      "rating": null,
+      "review_count": null,
       "shopify_score": 96,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072554",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260909/3UnEEcWgQD0IKB2N7HaJ1072554_00_013UnEEcWgQD0IKB2N7HaJ.jpg",
-      "copy": null,
-      "copy_status": "skipped_prerequisite",
-      "agent_blocked_by": [
-        "gosi",
-        "us_label",
-        "legal"
-      ],
-      "error": "ontology 선행 게이트 미통과: gosi, us_label, legal"
+      "copy": {
+        "title": "VONSEP Retinol Body Serum 100ml",
+        "description_html": "<p>VONSEP Retinol Body Serum 100ml is a Korean beauty body serum in a 100ml size. This draft uses only the verified product identity and package information.</p><p>Review the ingredient list, directions, and final US label before publication.</p>",
+        "seo_title": "VONSEP Retinol Body Serum 100ml",
+        "seo_description": "View VONSEP Retinol Body Serum 100ml. Product identity and size are based on the source product notice. Review ingredients, directions, and the final label before purchase.",
+        "tags": [
+          "vonsep",
+          "retinol",
+          "body-serum",
+          "k-beauty",
+          "korean-beauty"
+        ],
+        "product_type": "Body Serum"
+      },
+      "copy_status": "ok",
+      "generation_mode": "deterministic_local_template_v1",
+      "agent_blocked_by": [],
+      "error": ""
     },
     {
       "canonical_product_id": "CP000270",
@@ -160,8 +176,8 @@
       "name_ko": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
       "bucket": "스킨케어",
       "price_krw": 2000,
-      "rating": 4.8,
-      "review_count": 701,
+      "rating": null,
+      "review_count": null,
       "shopify_score": 94,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1075857",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260205/Cg7pPAF0QMRSGGKdsWZw1075857_00_01Cg7pPAF0QMRSGGKdsWZw.jpg",
@@ -182,6 +198,7 @@
         "product_type": "Face Mask"
       },
       "copy_status": "ok",
+      "generation_mode": "carried_verified_copy",
       "agent_blocked_by": [],
       "error": ""
     },
@@ -191,8 +208,8 @@
       "name_ko": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
       "bucket": "스킨케어",
       "price_krw": 3000,
-      "rating": 4.8,
-      "review_count": 3884,
+      "rating": null,
+      "review_count": null,
       "shopify_score": 92,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20250929/gblFwiiyQbV92ezzjLMk1049285_00_01gblFwiiyQbV92ezzjLMk.jpg",
@@ -213,8 +230,29 @@
         "product_type": "Face Mask"
       },
       "copy_status": "ok",
+      "generation_mode": "carried_verified_copy",
       "agent_blocked_by": [],
       "error": ""
+    },
+    {
+      "canonical_product_id": "CP000214",
+      "pd_no": "1067495",
+      "name_ko": "[퀵 수분충전]VT PDRN 광채 토너 200 ml",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "rating": null,
+      "review_count": null,
+      "shopify_score": 92,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067495",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260908/3J2IVmbWFVgnei1tyfv71067495_00_003J2IVmbWFVgnei1tyfv7.jpg",
+      "copy": null,
+      "copy_status": "skipped_prerequisite",
+      "generation_mode": "none",
+      "agent_blocked_by": [
+        "us_label",
+        "legal"
+      ],
+      "error": "ontology 선행 게이트 미통과: us_label, legal"
     },
     {
       "canonical_product_id": "CP000151",
@@ -222,8 +260,8 @@
       "name_ko": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
       "bucket": "마스크팩",
       "price_krw": 2000,
-      "rating": 4.8,
-      "review_count": 1687,
+      "rating": null,
+      "review_count": null,
       "shopify_score": 90,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20250429/dEtwcu53V3cOWvQ0SnSL1059834_00_01dEtwcu53V3cOWvQ0SnSL.jpg",
@@ -244,6 +282,7 @@
         "product_type": "Sheet Mask"
       },
       "copy_status": "ok",
+      "generation_mode": "carried_verified_copy",
       "agent_blocked_by": [],
       "error": ""
     },
@@ -253,37 +292,29 @@
       "name_ko": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
       "bucket": "마스크팩",
       "price_krw": 1000,
-      "rating": 4.7,
-      "review_count": 2383,
-      "shopify_score": 89,
+      "rating": null,
+      "review_count": null,
+      "shopify_score": 88,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20240109/8IB1YBxg81UqZXiKzXFM1042619_00_008IB1YBxg81UqZXiKzXFM.jpg",
-      "copy": null,
-      "copy_status": "skipped_prerequisite",
-      "agent_blocked_by": [
-        "legal"
-      ],
-      "error": "ontology 선행 게이트 미통과: legal"
-    },
-    {
-      "canonical_product_id": "CP000125",
-      "pd_no": "1053482",
-      "name_ko": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "rating": 4.8,
-      "review_count": 592,
-      "shopify_score": 85,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1053482",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/S3WHamdJK4z5s7WVkYus1053482_00_00S3WHamdJK4z5s7WVkYus.jpg",
-      "copy": null,
-      "copy_status": "skipped_prerequisite",
-      "agent_blocked_by": [
-        "gosi",
-        "us_label",
-        "legal"
-      ],
-      "error": "ontology 선행 게이트 미통과: gosi, us_label, legal"
+      "copy": {
+        "title": "CELDERMA Daily Collagen Gel Sheet Mask 29g",
+        "description_html": "<p>CELDERMA Daily Collagen Gel Sheet Mask 29g is a Korean beauty gel sheet mask in a 29g size. This draft uses only the verified product identity and package information.</p><p>Review the ingredient list, directions, and final US label before publication.</p>",
+        "seo_title": "CELDERMA Daily Collagen Gel Sheet Mask 29g",
+        "seo_description": "View CELDERMA Daily Collagen Gel Sheet Mask 29g. Product identity and size are based on the source product notice. Review ingredients, directions, and the final label before purchase.",
+        "tags": [
+          "celderma-daily",
+          "collagen",
+          "gel-sheet-mask",
+          "k-beauty",
+          "korean-beauty"
+        ],
+        "product_type": "Gel Sheet Mask"
+      },
+      "copy_status": "ok",
+      "generation_mode": "deterministic_local_template_v1",
+      "agent_blocked_by": [],
+      "error": ""
     }
   ]
 }
