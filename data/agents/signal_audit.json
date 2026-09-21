@@ -1,23 +1,10 @@
 {
   "agent": "Signal-Audit",
-  "generated_at": "2026-09-20T04:17:51.441548+00:00",
+  "generated_at": "2026-09-21T10:25:02.334575+00:00",
   "live_channels": 11,
-  "total_channels": 12,
-  "empty_or_failed": [
-    {
-      "channel": "shopify_demand_matching",
-      "count": 0,
-      "status": "disabled"
-    }
-  ],
+  "total_channels": 11,
+  "empty_or_failed": [],
   "stale_or_manual": [],
-  "severity": true,
-  "suggestions": [
-    {
-      "action": "investigate_empty_channels",
-      "channels": [
-        "shopify_demand_matching"
-      ]
-    }
-  ]
+  "severity": false,
+  "suggestions": []
 }

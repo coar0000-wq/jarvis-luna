@@ -27,8 +27,8 @@
 
 무엇을 재나
 
-  팀 카드에는 조치(action) 칸이 있다. 막힌 것이 있으면 거기 뜬다.
-  그 칸을 회차마다 적어두고 비교한다.
+  팀 카드의 자동조치(action)와 사람·외부 대기(waiting)를 읽는다.
+  종류를 함께 저장해 자동조치와 승인 대기를 섞지 않고 비교한다.
 
     조치가 없다가 생김        후퇴
     조치가 있다가 없어짐      개선
@@ -106,12 +106,16 @@ def main() -> int:
         if not tid:
             continue
         name = norm(card.get("name"))
-        action = norm(card.get("action"))
+        raw_action = card.get("action")
+        raw_waiting = card.get("waiting")
+        action = norm(raw_action or raw_waiting)
+        kind = norm(card.get("action_kind") if raw_action else card.get("waiting_kind"))
         summary = norm(card.get("summary"))
         status = norm(card.get("status"))
 
         old = prev_teams.get(tid) or {}
         old_action = norm(old.get("open_action"))
+        old_kind = norm(old.get("open_kind"))
         old_streak = int(old.get("streak") or 0)
         old_since = old.get("since") or ""
 
@@ -119,7 +123,7 @@ def main() -> int:
             state, streak, since = "후퇴", 1, now
             regressed.append((tid, name, action))
         elif action and old_action:
-            if action == old_action:
+            if action == old_action and kind == old_kind:
                 bump = 0 if same_runtime else 1
                 state = "정체"
                 streak = max(old_streak + bump, 1)
@@ -140,9 +144,12 @@ def main() -> int:
             "name": name,
             "state": state,
             "open_action": action,
+            "open_kind": kind,
             "streak": streak,
             "since": since,
-            "stale": bool(action and streak > STALE_AFTER),
+            # 사람 승인·외부 조건 대기는 오래 걸려도 자동화 장애가 아니다.
+            "stale": bool(action and kind in {"auto_remediable", "revalidate_only"}
+                          and streak > STALE_AFTER),
             "status": status,
             "summary": summary,
             "checked_at": now,
@@ -173,9 +180,9 @@ def main() -> int:
         "runtime_at": runtime_at,
         "generator": "scripts/build_team_improvement.py",
         "무엇을_재나": (
-            "팀 카드의 조치(action) 칸을 회차마다 비교한다. 없다가 생기면 후퇴, "
-            "있다가 없어지면 개선, 같은 것이 계속 있으면 정체로 세고 회차를 센다. "
-            "숫자를 새로 지어내지 않고 각 팀이 이미 내놓은 조치 문구를 쓴다."
+            "팀 카드의 자동조치(action)와 사람·외부 대기(waiting)를 종류와 함께 "
+            "회차마다 비교한다. 없다가 생기면 후퇴, 있다가 없어지면 개선, 같은 "
+            "것이 계속 있으면 정체로 센다. 승인 대기는 자동화 장애로 승격하지 않는다."
         ),
         "정체_기준": f"같은 조치가 {STALE_AFTER}회차를 넘으면 오래된 것으로 표시한다",
         "왜_필요했나": (

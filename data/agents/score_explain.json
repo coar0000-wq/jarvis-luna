@@ -1,6 +1,6 @@
 {
   "agent": "Score-Explain",
-  "generated_at": "2026-09-20T04:17:51.441561+00:00",
+  "generated_at": "2026-09-21T10:25:02.334588+00:00",
   "s_count": 10,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
   "items": [
@@ -87,6 +87,18 @@
       ]
     },
     {
+      "pd_no": "1067495",
+      "name": "[퀵 수분충전]VT PDRN 광채 토너 200 ml",
+      "score": 92,
+      "why": "글로벌 'Hydrating Milky Toner' (ulta_beauty) 유사 56% · 토큰 hydrating, toner",
+      "global": "Hydrating Milky Toner",
+      "channel": "ulta_beauty",
+      "tokens": [
+        "hydrating",
+        "toner"
+      ]
+    },
+    {
       "pd_no": "1059834",
       "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
       "score": 90,
@@ -101,25 +113,13 @@
     {
       "pd_no": "1042619",
       "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
-      "score": 89,
+      "score": 88,
       "why": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 68% · 토큰 collagen, mask",
       "global": "Biodance Bio-Collagen Real Deep Mask",
       "channel": "tiktok_shop_us",
       "tokens": [
         "collagen",
         "mask"
-      ]
-    },
-    {
-      "pd_no": "1053482",
-      "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
-      "score": 85,
-      "why": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 60% · 토큰 calming, toner",
-      "global": "ANUA Heartleaf 77 Soothing Toner",
-      "channel": "tiktok_shop_us",
-      "tokens": [
-        "calming",
-        "toner"
       ]
     }
   ],

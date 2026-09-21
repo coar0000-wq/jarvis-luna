@@ -86,11 +86,17 @@ runs:
       run: |
         set -e
 
-        echo "📦 Publish paths:"
-        echo "${{ inputs.paths }}"
+        PUBLISH_PATHS="${{ inputs.paths }}"
+        if [ "${{ inputs.regenerate-dashboard }}" = "true" ]; then
+          PUBLISH_PATHS="$PUBLISH_PATHS data/dashboard_runtime.json"
+        fi
 
-        # paths를 줄바꿈/공백으로 분리하여 git add
-        echo "${{ inputs.paths }}" |
+        echo "📦 Publish paths:"
+        echo "$PUBLISH_PATHS"
+
+        # paths를 줄바꿈/공백으로 분리하여 git add. 대시보드를 재생성했다면
+        # 호출자가 좁은 경로만 넘겼어도 runtime은 반드시 함께 발행한다.
+        echo "$PUBLISH_PATHS" |
           tr ' ' '\n' |
           while read -r p; do
             p=$(echo "$p" | xargs)
@@ -141,6 +147,9 @@ runs:
         # 단, 발행 경로 밖에서 충돌이 나면 사람이 봐야 하므로 중단한다.
         # --------------------------------------------------------
         PUBLISH_PATHS="${{ inputs.paths }}"
+        if [ "${{ inputs.regenerate-dashboard }}" = "true" ]; then
+          PUBLISH_PATHS="$PUBLISH_PATHS data/dashboard_runtime.json"
+        fi
 
         for i in 1 2 3; do
 

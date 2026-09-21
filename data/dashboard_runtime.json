@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T19:19:15.497197+09:00",
+  "generated_at": "2026-09-21T19:25:02.214623+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
@@ -194,50 +194,50 @@
         "단계": "고시 수집",
         "산출물": "gosi.json",
         "갱신": "2026-09-20T21:05:17.040479+00:00",
-        "몇시간전": 13.2
+        "몇시간전": 13.3
       },
       {
         "단계": "고시 비전 추출",
         "산출물": "gosi.json",
         "갱신": "2026-09-21T18:46:47.406203+09:00",
-        "몇시간전": 0.5
+        "몇시간전": 0.6
       },
       {
         "단계": "US 라벨 동기화",
         "산출물": "daiso_us_labels.json",
         "갱신": "2026-09-21T18:46:47.352203+09:00",
-        "몇시간전": 0.5
+        "몇시간전": 0.6
       },
       {
         "단계": "리스팅 카피",
         "산출물": "shopify_listing_copy.json",
         "갱신": "2026-09-20T04:08:53.167238+00:00",
-        "몇시간전": 30.2
+        "몇시간전": 30.3
       },
       {
         "단계": "등록 게이트",
         "산출물": "listing_gate.json",
         "갱신": "2026-09-21T09:42:05.227409+00:00",
-        "몇시간전": 0.6
+        "몇시간전": 0.7
       },
       {
         "단계": "법률 점검",
         "산출물": "legal_products.json",
         "갱신": "2026-09-21T09:42:02.861992+00:00",
-        "몇시간전": 0.6
+        "몇시간전": 0.7
       }
     ],
     "_근거": "JARVIS Deep Analysis가 2시간마다 남기는 Safe Auto-Fix 보고서를 heartbeat로 본다. 개별 파생 파일은 입력 무변경 시 mtime이 유지되므로 지연 판정에 쓰지 않는다."
   },
   "remediation_state": {
     "schema_version": 1,
-    "generated_at": "2026-09-21T10:14:49.339621+00:00",
+    "generated_at": "2026-09-21T10:24:44.825768+00:00",
     "check_interval": "2_hours",
     "escalate_after_detected_runs": 3,
-    "active_count": 3,
+    "active_count": 4,
     "auto_remediable_count": 0,
     "waiting_human_count": 2,
-    "waiting_external_count": 1,
+    "waiting_external_count": 2,
     "issues": {
       "dashboard:listing:TEAM_WAITING_LISTING": {
         "key": "dashboard:listing:TEAM_WAITING_LISTING",
@@ -248,8 +248,8 @@
         "state": "waiting_human_approval",
         "reason": "카피 3건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 6건 사람 승인 대기",
         "first_seen_at": "2026-09-21T10:13:44.774659+00:00",
-        "last_seen_at": "2026-09-21T10:14:49.339621+00:00",
-        "detected_runs": 2,
+        "last_seen_at": "2026-09-21T10:24:44.825768+00:00",
+        "detected_runs": 3,
         "auto_attempts": 0,
         "resolved_at": null
       },
@@ -262,8 +262,8 @@
         "state": "waiting_human_approval",
         "reason": "차단 1건: [퀵 수분충전]VT PDRN (자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기",
         "first_seen_at": "2026-09-21T10:13:44.774659+00:00",
-        "last_seen_at": "2026-09-21T10:14:49.339621+00:00",
-        "detected_runs": 2,
+        "last_seen_at": "2026-09-21T10:24:44.825768+00:00",
+        "detected_runs": 3,
         "auto_attempts": 0,
         "resolved_at": null
       },
@@ -276,8 +276,22 @@
         "state": "waiting_external_dependency",
         "reason": "다음 단계: Shopify 스토어 개설 및 기본 설정",
         "first_seen_at": "2026-09-21T10:13:44.774659+00:00",
-        "last_seen_at": "2026-09-21T10:14:49.339621+00:00",
-        "detected_runs": 2,
+        "last_seen_at": "2026-09-21T10:24:44.825768+00:00",
+        "detected_runs": 3,
+        "auto_attempts": 0,
+        "resolved_at": null
+      },
+      "external_sources:TRACK_EXTERNAL_SOURCE_ERRORS": {
+        "key": "external_sources:TRACK_EXTERNAL_SOURCE_ERRORS",
+        "area": "external_sources",
+        "action": "TRACK_EXTERNAL_SOURCE_ERRORS",
+        "priority": "P4",
+        "classification": "external_dependency",
+        "state": "waiting_external_dependency",
+        "reason": "외부 소스 고장 5건 추적 중 (기관 수집팀:Deutsche Bank 사이트, 기관 수집팀:TSMC 뉴스룸, 기관 수집팀:Marvell·Intel·Qualcomm·ASML IR RSS, 채널 운영팀:FDA 화장품 리콜·조치 이력)",
+        "first_seen_at": "2026-09-21T10:24:44.825768+00:00",
+        "last_seen_at": "2026-09-21T10:24:44.825768+00:00",
+        "detected_runs": 1,
         "auto_attempts": 0,
         "resolved_at": null
       }
@@ -2071,7 +2085,7 @@
       "collected_at": "2026-09-20T22:41:54.267284+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 11.6,
+      "age_hours": 11.7,
       "stale": false
     },
     "walmart_beauty": {
@@ -2081,7 +2095,7 @@
       "collected_at": "2026-09-20T22:41:54.268072+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 11.6,
+      "age_hours": 11.7,
       "stale": false
     },
     "oliveyoung_us": {
@@ -2091,7 +2105,7 @@
       "collected_at": "2026-09-21T09:36:15.249729+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 0.7,
+      "age_hours": 0.8,
       "stale": false
     },
     "google_trends_us": {
@@ -2101,7 +2115,7 @@
       "collected_at": "2026-09-21T09:36:51.528077+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 0.7,
+      "age_hours": 0.8,
       "stale": false
     },
     "wikipedia_interest": {
@@ -2112,7 +2126,7 @@
       "count": 8,
       "trust": "verified",
       "note": "2026-08-21 ~ 2026-09-19 일별 조회수. 후반 15일 대비 전반 15일 증감률",
-      "age_hours": 7.1,
+      "age_hours": 7.2,
       "stale": false
     },
     "allure_media": {
@@ -2123,7 +2137,7 @@
       "count": 15,
       "trust": "verified",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
-      "age_hours": 7.1,
+      "age_hours": 7.2,
       "stale": false
     },
     "openfda_sunscreen": {
@@ -2134,7 +2148,7 @@
       "count": 15,
       "trust": "verified",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다.",
-      "age_hours": 7.1,
+      "age_hours": 7.2,
       "stale": false
     },
     "shopify_demand_matching": {
@@ -2160,7 +2174,7 @@
       "collected_at": "2026-09-20T22:41:54.268662+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 11.6,
+      "age_hours": 11.7,
       "stale": false
     },
     "sephora": {
@@ -2170,7 +2184,7 @@
       "collected_at": "2026-09-20T22:41:54.268662+00:00",
       "count": 14,
       "trust": "verified",
-      "age_hours": 11.6,
+      "age_hours": 11.7,
       "stale": false
     },
     "open_beauty_facts": {
@@ -2180,7 +2194,7 @@
       "collected_at": "2026-09-21T09:36:14.782768+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 0.7,
+      "age_hours": 0.8,
       "stale": false
     }
   },
@@ -2190,5 +2204,14 @@
     "source": "https://open.er-api.com/v6/latest/USD",
     "updated_at": "2026-09-21"
   },
-  "last_synced": "09. 21. 오후 06:41 KST"
+  "last_synced": "09. 21. 오후 06:41 KST",
+  "commit_summary": {
+    "line": "agents: 조치후보 4건 · risk low · force",
+    "agents_line": "agents: 조치후보 4건 · risk low · force"
+  },
+  "agents_ops": {
+    "risk": "low",
+    "task_count": 4,
+    "at": "2026-09-21T10:25:02.338909+00:00"
+  }
 }

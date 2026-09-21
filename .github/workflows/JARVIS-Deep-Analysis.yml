@@ -394,6 +394,11 @@ jobs:
         run: |
           python scripts/generate_dashboard_runtime.py
 
+      - name: Refresh typed ops plan and team improvement
+        run: |
+          python -u scripts/run_jarvis_agents.py --force
+          python -u scripts/build_team_improvement.py
+
       # =========================
       # AUTOFIX REPORT VALIDATION
       # =========================

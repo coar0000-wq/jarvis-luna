@@ -46,6 +46,7 @@ def channel_live_count(runtime: dict) -> tuple[int, int, list[dict]]:
     gc = runtime.get("global_channels") or {}
     keys = list(st.keys()) or list(gc.keys())
     live = []
+    active = []
     stale = []
     for k in keys:
         meta = st.get(k) or {}
@@ -53,7 +54,11 @@ def channel_live_count(runtime: dict) -> tuple[int, int, list[dict]]:
         if n is None:
             n = len(gc.get(k) or [])
         status = (meta.get("status") or "").lower()
-        if status in ("disabled", "failed"):
+        # 의도적으로 끈 채널은 활성 분모와 장애 목록에서 제외한다.
+        if status == "disabled":
+            continue
+        active.append(k)
+        if status == "failed":
             continue
         if int(n or 0) > 0:
             live.append(k)
@@ -61,7 +66,7 @@ def channel_live_count(runtime: dict) -> tuple[int, int, list[dict]]:
         src = meta.get("source") or meta.get("note") or ""
         if "수동" in str(src) or "fallback" in str(src).lower() or status == "empty":
             stale.append({"channel": k, "count": n, "status": status or "unknown", "note": str(src)[:120]})
-    return len(live), len(keys) or 12, stale
+    return len(live), len(active), stale
 
 
 def agent_collector(coll: dict, queue: dict) -> dict:
@@ -123,6 +128,8 @@ def agent_signal(runtime: dict) -> dict:
     for k, meta in st.items():
         n = int((meta or {}).get("count") or 0)
         status = ((meta or {}).get("status") or "").lower()
+        if status == "disabled":
+            continue
         if n == 0 or status in ("empty", "failed"):
             empty.append({"channel": k, "count": n, "status": status or "empty"})
     return {
@@ -177,7 +184,7 @@ def agent_listing(srec: dict, runtime: dict) -> dict:
     blocked = []
     for t in runtime.get("teams") or []:
         if t.get("id") == "legal" or "법률" in str(t.get("name") or ""):
-            act = t.get("action") or ""
+            act = t.get("action") or t.get("waiting") or ""
             if act:
                 blocked.append(act[:200])
     notes = []
@@ -255,18 +262,28 @@ def agent_ops(collector: dict, signal: dict, score: dict, listing: dict, runtime
             "approve": "사람: Admin Import + 가격·재고",
         })
 
-    # team actions from runtime
+    # typed team actions/waits from runtime
     for t in runtime.get("teams") or []:
-        act = (t.get("action") or "").strip()
-        if not act:
-            continue
-        tasks.append({
-            "priority": 4,
-            "title": f"팀 조치 · {t.get('name') or t.get('id')}",
-            "detail": act[:180],
-            "refs": ["data/dashboard_runtime.json"],
-            "approve": "사람: 팀 카드 조치 확인",
-        })
+        act = str(t.get("action") or "").strip()
+        waiting = str(t.get("waiting") or "").strip()
+        if act:
+            tasks.append({
+                "priority": 4,
+                "title": f"팀 자동조치 감시 · {t.get('name') or t.get('id')}",
+                "detail": act[:180],
+                "refs": ["data/dashboard_runtime.json", "data/agents/remediation_state.json"],
+                "approve": "비서실장: 다음 주기 재검증",
+            })
+        if waiting:
+            kind = str(t.get("waiting_kind") or "human_approval_required")
+            tasks.append({
+                "priority": 5,
+                "title": f"팀 대기 · {t.get('name') or t.get('id')}",
+                "detail": waiting[:180],
+                "refs": ["data/dashboard_runtime.json", "data/agents/remediation_state.json"],
+                "approve": ("사람: 한 번만 승인·원본 정보 제공" if kind == "human_approval_required"
+                            else "외부 조건 충족 시 비서실장이 자동 재검증"),
+            })
 
     # dedupe by title, sort, cap 5
     seen = set()
@@ -306,10 +323,11 @@ def should_run(force: bool, coll: dict, srec: dict, runtime: dict) -> tuple[bool
     live, total, _ = channel_live_count(runtime)
     if total and live < 8:
         return True, f"live_channels={live}<8"
-    # also run lightly if team actions exist
-    acts = sum(1 for t in (runtime.get("teams") or []) if t.get("action"))
-    if acts >= 3:
-        return True, f"team_actions={acts}"
+    # typed action/wait가 있으면 운영 계획도 최신 상태로 유지한다.
+    acts = sum(1 for t in (runtime.get("teams") or [])
+               if t.get("action") or t.get("waiting"))
+    if acts >= 1:
+        return True, f"team_flags={acts}"
     return False, "skip_healthy"
 
 

@@ -1,6 +1,6 @@
 {
   "agent": "Listing-Draft",
-  "generated_at": "2026-09-20T04:17:51.441572+00:00",
+  "generated_at": "2026-09-21T10:25:02.334599+00:00",
   "s_count": 10,
   "registerable_count": 7,
   "csv_path": "data/shopify_exports/products.csv",
@@ -64,7 +64,7 @@
     }
   ],
   "legal_blocks": [
-    "MoCRA 남은 항목: 책임자(Responsible Person) 지정과 라벨 표기, 제조시설 등록(2년 주기 갱신), FDA 제품 리스팅(연 1회 갱신)"
+    "차단 1건: [퀵 수분충전]VT PDRN (자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기"
   ],
   "suggestions": [
     {
@@ -73,7 +73,7 @@
     },
     {
       "action": "resolve_legal_blocks",
-      "detail": "MoCRA 남은 항목: 책임자(Responsible Person) 지정과 라벨 표기, 제조시설 등록(2년 주기 갱신), FDA 제품 리스팅(연 1회 갱신)"
+      "detail": "차단 1건: [퀵 수분충전]VT PDRN (자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기"
     }
   ]
 }

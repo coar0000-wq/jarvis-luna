@@ -1,12 +1,22 @@
 {
   "agent": "Chief-of-Staff",
   "role": "전체 JARVIS 운영상태를 종합하여 우선순위와 Safe Auto-Fix 실행 여부를 결정",
-  "generated_at": "2026-09-21T10:14:49.337308+00:00",
+  "generated_at": "2026-09-21T10:24:44.823443+00:00",
   "risk": "low",
   "overall_priority": "P4",
-  "overall_action": "TEAM_WAITING_LISTING",
-  "overall_reason": "카피 3건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 6건 사람 승인 대기",
+  "overall_action": "TRACK_EXTERNAL_SOURCE_ERRORS",
+  "overall_reason": "외부 소스 고장 5건 추적 중 (기관 수집팀:Deutsche Bank 사이트, 기관 수집팀:TSMC 뉴스룸, 기관 수집팀:Marvell·Intel·Qualcomm·ASML IR RSS, 채널 운영팀:FDA 화장품 리콜·조치 이력)",
   "decisions": [
+    {
+      "priority": "P4",
+      "severity_score": 18,
+      "area": "external_sources",
+      "action": "TRACK_EXTERNAL_SOURCE_ERRORS",
+      "reason": "외부 소스 고장 5건 추적 중 (기관 수집팀:Deutsche Bank 사이트, 기관 수집팀:TSMC 뉴스룸, 기관 수집팀:Marvell·Intel·Qualcomm·ASML IR RSS, 채널 운영팀:FDA 화장품 리콜·조치 이력)",
+      "remediation_class": "external_dependency",
+      "auto_execute": false,
+      "requires_user_action": false
+    },
     {
       "priority": "P4",
       "severity_score": 15,
@@ -67,6 +77,16 @@
     }
   ],
   "monitored_actions": [
+    {
+      "priority": "P4",
+      "severity_score": 18,
+      "area": "external_sources",
+      "action": "TRACK_EXTERNAL_SOURCE_ERRORS",
+      "reason": "외부 소스 고장 5건 추적 중 (기관 수집팀:Deutsche Bank 사이트, 기관 수집팀:TSMC 뉴스룸, 기관 수집팀:Marvell·Intel·Qualcomm·ASML IR RSS, 채널 운영팀:FDA 화장품 리콜·조치 이력)",
+      "remediation_class": "external_dependency",
+      "auto_execute": false,
+      "requires_user_action": false
+    },
     {
       "priority": "P4",
       "severity_score": 15,
@@ -382,6 +402,37 @@
         "text": "다음 단계: Shopify 스토어 개설 및 기본 설정",
         "source": "waiting"
       }
-    ]
+    ],
+    "source_errors": {
+      "broken": 5,
+      "generated_at": "2026-09-21T09:43:15.085969+00:00",
+      "items": [
+        {
+          "team": "기관 수집팀",
+          "item": "Deutsche Bank 사이트",
+          "reason": "사이트맵 하위 파일에 URL 0건"
+        },
+        {
+          "team": "기관 수집팀",
+          "item": "TSMC 뉴스룸",
+          "reason": "HTTP 403"
+        },
+        {
+          "team": "기관 수집팀",
+          "item": "Marvell·Intel·Qualcomm·ASML IR RSS",
+          "reason": "IR 피드 URL 없음"
+        },
+        {
+          "team": "채널 운영팀",
+          "item": "FDA 화장품 리콜·조치 이력",
+          "reason": "요청 실패: HTTP 404"
+        },
+        {
+          "team": "마케팅 조사팀",
+          "item": "1067495",
+          "reason": "groq meta-llama/llama-4-scout-17b-16e-instruct HTTP 403: error code: 1010\n | gemini: gemini-pro-latest RuntimeError: HTTP 429: {\n  \"error\": {\n   "
+        }
+      ]
+    }
   }
 }

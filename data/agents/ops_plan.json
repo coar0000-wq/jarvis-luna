@@ -1,18 +1,9 @@
 {
   "agent": "Ops-Prioritizer",
-  "generated_at": "2026-09-20T04:17:51.441595+00:00",
-  "risk": "medium",
-  "task_count": 5,
+  "generated_at": "2026-09-21T10:25:02.334620+00:00",
+  "risk": "low",
+  "task_count": 4,
   "tasks": [
-    {
-      "priority": 2,
-      "title": "채널 시그널 점검 (11/12 라이브)",
-      "detail": "empty/수동·낡은 채널 갱신",
-      "refs": [
-        "data/agents/signal_audit.json"
-      ],
-      "approve": "사람: 해당 채널 수집기 또는 수동 JSON 갱신"
-    },
     {
       "priority": 3,
       "title": "S등급 10건 중 게이트 통과분 Shopify draft 등록",
@@ -25,31 +16,34 @@
       "approve": "사람: Admin Import + 가격·재고"
     },
     {
-      "priority": 4,
-      "title": "팀 조치 · 상품 소싱팀",
-      "detail": "직전 실행 26건 받아 성공 4건 · 받아보고 뷰티 아니라 버림 22건 · 이미 판정해서 안 받음 1704건 · 후보 출처 queue, 큐 3136건",
+      "priority": 5,
+      "title": "팀 대기 · 리스팅 제작팀",
+      "detail": "카피 3건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 6건 사람 승인 대기",
       "refs": [
-        "data/dashboard_runtime.json"
+        "data/dashboard_runtime.json",
+        "data/agents/remediation_state.json"
       ],
-      "approve": "사람: 팀 카드 조치 확인"
+      "approve": "사람: 한 번만 승인·원본 정보 제공"
     },
     {
-      "priority": 4,
-      "title": "팀 조치 · 리스팅 제작팀",
-      "detail": "카피 3건, 법률 1건 이 초안을 막고 있음 · MoCRA/FPLA 풀스키마가 공개 판매를 막고 있음 · Shopify Draft Action 6건 사람 승인 대기",
+      "priority": 5,
+      "title": "팀 대기 · 법률·규제팀",
+      "detail": "차단 1건: [퀵 수분충전]VT PDRN (자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기",
       "refs": [
-        "data/dashboard_runtime.json"
+        "data/dashboard_runtime.json",
+        "data/agents/remediation_state.json"
       ],
-      "approve": "사람: 팀 카드 조치 확인"
+      "approve": "사람: 한 번만 승인·원본 정보 제공"
     },
     {
-      "priority": 4,
-      "title": "팀 조치 · 법률·규제팀",
-      "detail": "MoCRA 남은 항목: 책임자(Responsible Person) 지정과 라벨 표기, 제조시설 등록(2년 주기 갱신), FDA 제품 리스팅(연 1회 갱신)",
+      "priority": 5,
+      "title": "팀 대기 · 디자인팀",
+      "detail": "다음 단계: Shopify 스토어 개설 및 기본 설정",
       "refs": [
-        "data/dashboard_runtime.json"
+        "data/dashboard_runtime.json",
+        "data/agents/remediation_state.json"
       ],
-      "approve": "사람: 팀 카드 조치 확인"
+      "approve": "외부 조건 충족 시 비서실장이 자동 재검증"
     }
   ],
   "note": "제안만 수행. 데이터 플레인 JSON은 수정하지 않음. 승인 후 기존 스크립트/수동 작업.",
@@ -58,23 +52,19 @@
     "items": [
       {
         "n": 1,
-        "text": "채널 시그널 점검 (11/12 라이브) — empty/수동·낡은 채널 갱신"
-      },
-      {
-        "n": 2,
         "text": "S등급 10건 중 게이트 통과분 Shopify draft 등록 — 운영 4종 Export · blocked SKU 제외 · 법률 풀스키마/실재고 전 공개 금지"
       },
       {
+        "n": 2,
+        "text": "팀 대기 · 리스팅 제작팀 — 카피 3건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Sho"
+      },
+      {
         "n": 3,
-        "text": "팀 조치 · 상품 소싱팀 — 직전 실행 26건 받아 성공 4건 · 받아보고 뷰티 아니라 버림 22건 · 이미 판정해서 안 받음 1704건 · 후보 출처 queue, 큐 31"
+        "text": "팀 대기 · 법률·규제팀 — 차단 1건: [퀵 수분충전]VT PDRN (자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기"
       },
       {
         "n": 4,
-        "text": "팀 조치 · 리스팅 제작팀 — 카피 3건, 법률 1건 이 초안을 막고 있음 · MoCRA/FPLA 풀스키마가 공개 판매를 막고 있음 · Shopify Draft Action "
-      },
-      {
-        "n": 5,
-        "text": "팀 조치 · 법률·규제팀 — MoCRA 남은 항목: 책임자(Responsible Person) 지정과 라벨 표기, 제조시설 등록(2년 주기 갱신), FDA 제품 리스팅(연 "
+        "text": "팀 대기 · 디자인팀 — 다음 단계: Shopify 스토어 개설 및 기본 설정"
       }
     ]
   }

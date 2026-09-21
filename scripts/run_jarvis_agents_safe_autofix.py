@@ -514,12 +514,15 @@ def get_source_snapshot() -> dict:
     collection = load_json(COLLECTION_STATUS, {})
     queue = load_json(BEAUTY_QUEUE, {})
     runtime = load_json(RUNTIME, {})
+    error_report = load_json(ROOT / "data" / "error_report.json", {})
     if not isinstance(collection, dict):
         collection = {}
     if not isinstance(queue, dict):
         queue = {}
     if not isinstance(runtime, dict):
         runtime = {}
+    if not isinstance(error_report, dict):
+        error_report = {}
 
     last_run = get_collection_last_run(collection)
     parse_failed = int(last_run.get("parse_failed") or 0)
@@ -629,6 +632,19 @@ def get_source_snapshot() -> dict:
         "shopify": {"s_count": s_count},
         "queue": {"blacklist_count": len(get_blacklist(queue)[0])},
         "dashboard_issues": dashboard_issues,
+        "source_errors": {
+            "broken": int((error_report.get("counts") or {}).get("고장") or 0),
+            "generated_at": error_report.get("generated_at"),
+            "items": [
+                {
+                    "team": x.get("team"),
+                    "item": x.get("item"),
+                    "reason": str(x.get("reason") or "")[:240],
+                }
+                for x in (error_report.get("고쳐야_할_것") or [])[:12]
+                if isinstance(x, dict)
+            ],
+        },
     }
 
 
@@ -1023,6 +1039,26 @@ def build_chief_of_staff_decision(snapshot: dict) -> dict:
 
     # 전체 팀 건강상태를 Chief 판단에 통합
     append_team_decisions(decisions, team_health)
+
+    # 공개 소스의 403/404·RSS 부재·외부 모델 제한도 잊지 않고 추적한다.
+    # Safe Auto-Fix가 임의 URL이나 유료 호출을 만들지는 않는다.
+    source_errors = snapshot.get("source_errors") or {}
+    if int(source_errors.get("broken") or 0) > 0:
+        sample = ", ".join(
+            f'{x.get("team")}:{x.get("item")}'
+            for x in (source_errors.get("items") or [])[:4]
+            if isinstance(x, dict)
+        )
+        decisions.append({
+            "priority": "P4",
+            "severity_score": 18,
+            "area": "external_sources",
+            "action": "TRACK_EXTERNAL_SOURCE_ERRORS",
+            "reason": f'외부 소스 고장 {source_errors.get("broken")}건 추적 중'
+                      + (f' ({sample})' if sample else ''),
+            "remediation_class": "external_dependency",
+            "auto_execute": False,
+        })
 
     # 대시보드에 표시되는 사람/외부 대기도 실행 간 장부에 남긴다. 시스템이
     # 매번 잊지 않고 감시하되, 규제번호나 Shopify 승인을 임의 생성하지 않는다.

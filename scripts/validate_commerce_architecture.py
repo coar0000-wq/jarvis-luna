@@ -44,6 +44,9 @@ def main() -> int:
     dashboard = load(D / "dashboard_runtime.json")
     chief = load(D / "agents" / "chief_of_staff.json")
     remediation = load(D / "agents" / "remediation_state.json")
+    ops_plan = load(D / "agents" / "ops_plan.json")
+    improvement = load(D / "team_improvement.json")
+    error_report = load(D / "error_report.json")
 
     # 게이트가 낡았으면 그 아래 조인은 전부 낡은 판정 위에 서 있다.
     # 이 검사가 없어서 예전에는 낡은 ready 로 만든 Action 도 OK 가 나왔다.
@@ -263,6 +266,20 @@ def main() -> int:
             "지속 해결 장부 schema v1 필요")
     require(remediation.get("check_interval") == "2_hours",
             "비서실장 지속 재검증 주기 누락")
+    if int((error_report.get("counts") or {}).get("고장") or 0) > 0:
+        require("external_sources:TRACK_EXTERNAL_SOURCE_ERRORS" in
+                (remediation.get("issues") or {}),
+                "외부 소스 고장이 비서실장 장부에서 누락됨")
+
+    # 최종 runtime 뒤에 무료 규칙 기반 운영 계획과 팀 개선 집계를 갱신한다.
+    require(ops_plan.get("generated_at") and (dashboard.get("agents_ops") or {}).get("at"),
+            "운영 계획이 최종 runtime 뒤에 갱신되지 않음")
+    require(improvement.get("runtime_at") == dashboard.get("generated_at"),
+            "팀 개선 집계가 현재 dashboard runtime과 불일치")
+    for team_id, state in (improvement.get("teams") or {}).items():
+        if state.get("open_action"):
+            require(state.get("open_kind") in classes,
+                    f"{team_id} 팀 개선 분류 누락")
 
     print("COMMERCE_ARCHITECTURE_OK")
     print(f"master={len(products)} S={len(recs)} gate_ready={len(ready_ids)} "

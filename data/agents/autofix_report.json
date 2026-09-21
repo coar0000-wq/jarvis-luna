@@ -1,12 +1,12 @@
 {
   "agent": "Safe-Auto-Fix",
-  "generated_at": "2026-09-21T10:14:49.341450+00:00",
+  "generated_at": "2026-09-21T10:24:44.827857+00:00",
   "status": "success",
   "enabled": true,
   "chief_of_staff": {
     "report_path": "data\\agents\\chief_of_staff.json",
     "overall_priority": "P4",
-    "overall_action": "TEAM_WAITING_LISTING",
+    "overall_action": "TRACK_EXTERNAL_SOURCE_ERRORS",
     "risk": "low"
   },
   "snapshot_before": {
@@ -160,7 +160,38 @@
         "text": "다음 단계: Shopify 스토어 개설 및 기본 설정",
         "source": "waiting"
       }
-    ]
+    ],
+    "source_errors": {
+      "broken": 5,
+      "generated_at": "2026-09-21T09:43:15.085969+00:00",
+      "items": [
+        {
+          "team": "기관 수집팀",
+          "item": "Deutsche Bank 사이트",
+          "reason": "사이트맵 하위 파일에 URL 0건"
+        },
+        {
+          "team": "기관 수집팀",
+          "item": "TSMC 뉴스룸",
+          "reason": "HTTP 403"
+        },
+        {
+          "team": "기관 수집팀",
+          "item": "Marvell·Intel·Qualcomm·ASML IR RSS",
+          "reason": "IR 피드 URL 없음"
+        },
+        {
+          "team": "채널 운영팀",
+          "item": "FDA 화장품 리콜·조치 이력",
+          "reason": "요청 실패: HTTP 404"
+        },
+        {
+          "team": "마케팅 조사팀",
+          "item": "1067495",
+          "reason": "groq meta-llama/llama-4-scout-17b-16e-instruct HTTP 403: error code: 1010\n | gemini: gemini-pro-latest RuntimeError: HTTP 429: {\n  \"error\": {\n   "
+        }
+      ]
+    }
   },
   "snapshot_after": {
     "collection": {
@@ -313,7 +344,38 @@
         "text": "다음 단계: Shopify 스토어 개설 및 기본 설정",
         "source": "waiting"
       }
-    ]
+    ],
+    "source_errors": {
+      "broken": 5,
+      "generated_at": "2026-09-21T09:43:15.085969+00:00",
+      "items": [
+        {
+          "team": "기관 수집팀",
+          "item": "Deutsche Bank 사이트",
+          "reason": "사이트맵 하위 파일에 URL 0건"
+        },
+        {
+          "team": "기관 수집팀",
+          "item": "TSMC 뉴스룸",
+          "reason": "HTTP 403"
+        },
+        {
+          "team": "기관 수집팀",
+          "item": "Marvell·Intel·Qualcomm·ASML IR RSS",
+          "reason": "IR 피드 URL 없음"
+        },
+        {
+          "team": "채널 운영팀",
+          "item": "FDA 화장품 리콜·조치 이력",
+          "reason": "요청 실패: HTTP 404"
+        },
+        {
+          "team": "마케팅 조사팀",
+          "item": "1067495",
+          "reason": "groq meta-llama/llama-4-scout-17b-16e-instruct HTTP 403: error code: 1010\n | gemini: gemini-pro-latest RuntimeError: HTTP 429: {\n  \"error\": {\n   "
+        }
+      ]
+    }
   },
   "improvement": {
     "graph_dangling_before": 0,
@@ -527,13 +589,13 @@
   },
   "remediation_state": {
     "schema_version": 1,
-    "generated_at": "2026-09-21T10:14:49.339621+00:00",
+    "generated_at": "2026-09-21T10:24:44.825768+00:00",
     "check_interval": "2_hours",
     "escalate_after_detected_runs": 3,
-    "active_count": 3,
+    "active_count": 4,
     "auto_remediable_count": 0,
     "waiting_human_count": 2,
-    "waiting_external_count": 1,
+    "waiting_external_count": 2,
     "issues": {
       "dashboard:listing:TEAM_WAITING_LISTING": {
         "key": "dashboard:listing:TEAM_WAITING_LISTING",
@@ -544,8 +606,8 @@
         "state": "waiting_human_approval",
         "reason": "카피 3건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 6건 사람 승인 대기",
         "first_seen_at": "2026-09-21T10:13:44.774659+00:00",
-        "last_seen_at": "2026-09-21T10:14:49.339621+00:00",
-        "detected_runs": 2,
+        "last_seen_at": "2026-09-21T10:24:44.825768+00:00",
+        "detected_runs": 3,
         "auto_attempts": 0,
         "resolved_at": null
       },
@@ -558,8 +620,8 @@
         "state": "waiting_human_approval",
         "reason": "차단 1건: [퀵 수분충전]VT PDRN (자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기",
         "first_seen_at": "2026-09-21T10:13:44.774659+00:00",
-        "last_seen_at": "2026-09-21T10:14:49.339621+00:00",
-        "detected_runs": 2,
+        "last_seen_at": "2026-09-21T10:24:44.825768+00:00",
+        "detected_runs": 3,
         "auto_attempts": 0,
         "resolved_at": null
       },
@@ -572,8 +634,22 @@
         "state": "waiting_external_dependency",
         "reason": "다음 단계: Shopify 스토어 개설 및 기본 설정",
         "first_seen_at": "2026-09-21T10:13:44.774659+00:00",
-        "last_seen_at": "2026-09-21T10:14:49.339621+00:00",
-        "detected_runs": 2,
+        "last_seen_at": "2026-09-21T10:24:44.825768+00:00",
+        "detected_runs": 3,
+        "auto_attempts": 0,
+        "resolved_at": null
+      },
+      "external_sources:TRACK_EXTERNAL_SOURCE_ERRORS": {
+        "key": "external_sources:TRACK_EXTERNAL_SOURCE_ERRORS",
+        "area": "external_sources",
+        "action": "TRACK_EXTERNAL_SOURCE_ERRORS",
+        "priority": "P4",
+        "classification": "external_dependency",
+        "state": "waiting_external_dependency",
+        "reason": "외부 소스 고장 5건 추적 중 (기관 수집팀:Deutsche Bank 사이트, 기관 수집팀:TSMC 뉴스룸, 기관 수집팀:Marvell·Intel·Qualcomm·ASML IR RSS, 채널 운영팀:FDA 화장품 리콜·조치 이력)",
+        "first_seen_at": "2026-09-21T10:24:44.825768+00:00",
+        "last_seen_at": "2026-09-21T10:24:44.825768+00:00",
+        "detected_runs": 1,
         "auto_attempts": 0,
         "resolved_at": null
       }
