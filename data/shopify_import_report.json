@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-21T11:00:31.523679+00:00",
+  "generated_at": "2026-09-21T11:02:32.289020+00:00",
   "csv": "data/shopify_import.csv",
   "rows": 0,
-  "listing_gate": "listing_gate.json 2026-09-21T11:00:31 기준 등록 가능 9/10",
+  "listing_gate": "listing_gate.json 2026-09-21T11:02:31 기준 등록 가능 9/10",
   "skipped": [
     {
       "pd_no": "1049276",
@@ -55,7 +55,7 @@
       "reason": "원가 모델에 해당 상품이 없어 가격 산출 불가"
     }
   ],
-  "exchange_rate": "1386.02 KRW/USD (2026-09-21) ExchangeRate-API",
+  "exchange_rate": "1386.02 KRW/USD (2026-09-21) https://open.er-api.com/v6/latest/USD",
   "pricing_model": "5개_묶음배송 기준 · 관세 15% - 미국 화장품 HTS 3304 한국산 상호관세 · 우체국 국제통상 소형포장물 미국행 요금표 (ems.epost.go.kr, 2026-08-31 조회)",
   "bundle_assumption": "5개_묶음배송",
   "sell_price_usd": 19.9,
