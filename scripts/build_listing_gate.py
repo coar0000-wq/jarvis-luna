@@ -42,6 +42,15 @@ GOSI = DATA / "gosi.json"
 PRODUCT_MASTER = DATA / "product_master.json"
 OUTPUT = DATA / "listing_gate.json"
 
+# Jev 가 실제로 내린 판정을 따로 보관한다.
+#
+# 왜 필요한가 (2026-09-21)
+#   로컬에서는 키가 있어 진짜 판정을 받았는데, 키 없는 CI 가 게이트를
+#   다시 만들면서 그 판정을 통째로 지웠다. 같은 상태에 대한 판정은 다시 부를
+#   이유가 없으므로 보관해 두고 그대로 이어 쓴다. 상품 상태가 바뀌면
+#   그건 낡은 판정이므로 쓰지 않고 무료 로컬 판정으로 돌아간다.
+TYPESAFE_STORE = DATA / "typesafe_advisory.json"
+
 # 사람이 아직 안 채운 가짜 값 — 있으면 미완료로 본다
 _PLACEHOLDER_RE = re.compile(
     r"(실제\s*확인|실제\s*포장|placeholder|TODO|TBD|미입력|확인\s*필요|작성\s*필요)",
@@ -54,6 +63,20 @@ _CP_RE = re.compile(r"^CP\d{6}$")
 
 def _sha256_bytes(value: bytes) -> str:
     return hashlib.sha256(value).hexdigest()
+
+
+def _typesafe_state_signature(context: dict[str, Any]) -> str:
+    """판정의 근거가 된 상태를 한 줄로 줄여 담는다."""
+    semantic = {
+        "blocked_by": sorted(context.get("blocked_by") or []),
+        "public_blocked_by": sorted(context.get("public_blocked_by") or []),
+        "grade": context.get("grade"),
+        "shopify_score": context.get("shopify_score"),
+        "hard_block": bool((context.get("legal") or {}).get("hard_block")),
+        "legal_full_complete": bool(context.get("legal_full_complete")),
+    }
+    return _sha256_bytes(
+        json.dumps(semantic, ensure_ascii=False, sort_keys=True).encode("utf-8"))
 
 
 def _recommendation_signature(rows: list[dict]) -> str:
@@ -122,6 +145,12 @@ def main() -> int:
         str(k): str(v) for k, v in
         ((master_doc.get("pd_no_to_cp") or {}).items()
          if isinstance(master_doc, dict) else [])
+    }
+
+    typesafe_store_doc = load_json(TYPESAFE_STORE, {})
+    typesafe_store = {
+        str(k): v for k, v in (typesafe_store_doc.get("items") or {}).items()
+        if isinstance(v, dict)
     }
 
     recommendations = [
@@ -266,7 +295,7 @@ def main() -> int:
         # 네트워크 호출도 비용도 없다. 실제 TypeSafe 호출은
         # TYPESAFE_ENABLED=1 + TYPESAFE_ALLOW_PAID=1 이 둘 다 있어야 한다.
         # 기존 점수·법률·게이트가 정본이며, 보조 판단은 이를 덮지 않는다.
-        typesafe = typesafe_decision_support.evaluate({
+        typesafe_context = {
             "canonical_product_id": canonical_product_id,
             "pd_no": pd_no,
             "name": product.get("name", ""),
@@ -287,7 +316,24 @@ def main() -> int:
                 "hard_block_reason": legal.get("hard_block_reason", ""),
             },
             "legal_full_complete": bool(legal_full.get("complete")),
-        })
+        }
+        typesafe = typesafe_decision_support.evaluate(typesafe_context)
+        state_signature = _typesafe_state_signature(typesafe_context)
+
+        if typesafe.get("source") == "typesafe":
+            typesafe["state_signature"] = state_signature
+            typesafe["decided_at"] = datetime.now(timezone.utc).isoformat()
+            typesafe_store[pd_no] = typesafe
+        else:
+            kept = typesafe_store.get(pd_no) or {}
+            if (kept.get("source") == "typesafe"
+                    and kept.get("state_signature") == state_signature):
+                typesafe = {
+                    **kept,
+                    "mode": "typesafe_carried",
+                    "carried_from": kept.get("decided_at"),
+                }
+
         results.append({
             "rank": product.get("rank", rank),
             "canonical_product_id": canonical_product_id,
@@ -343,6 +389,16 @@ def main() -> int:
     for row in results:
         mode = str((row.get("typesafe") or {}).get("mode") or "missing")
         typesafe_modes[mode] = typesafe_modes.get(mode, 0) + 1
+    TYPESAFE_STORE.write_text(
+        json.dumps({
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "왜": ("Jev 가 실제로 내린 판정을 보관한다. 키 없는 회차는 같은 상태일 때"
+                  " 이걸 이어 쓴다. 상태가 바뀐 상품은 무료 로컬 판정으로 돌아간다."),
+            "items": typesafe_store,
+        }, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
     usage_ledger = typesafe_decision_support.ledger()
     typesafe_summary = {
         "framework": "typesafe_system_one_compatible",

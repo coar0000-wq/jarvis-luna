@@ -768,11 +768,16 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
             ts = gate.get("typesafe_summary") or {}
             ts_usage = ts.get("usage") or {}
             jev_txt = ""
+            carried = int((ts.get("mode_counts") or {}).get("typesafe_carried") or 0)
             if ts.get("typesafe_calls"):
                 jev_txt = (f' · Jev 판정 {ts["typesafe_calls"]}건'
                            f'(입력 {ts_usage.get("input_tokens", 0):,}토큰 · '
                            f'${ts_usage.get("estimated_cost_usd", 0):.4f}')
                 jev_txt += ', 무료 크레딧)' if ts.get("free_credits_only") else ')'
+            elif carried:
+                # 이번 회차에는 키가 없어 안 불렀다. 직전 판정을 그대로 쓴다는 뜻이고,
+                # 상태가 바뀐 상품은 여기 안 세어진다.
+                jev_txt = f' · Jev 판정 {carried}건(이어쓴 판정 · 호출 0)'
 
             action_bits = []
             waiting_bits = []
