@@ -181,8 +181,11 @@ jobs:
       # -------------------------------------------------------
       # Gemini 영문 카피
       # -------------------------------------------------------
+      # 할당량(429)이 끝나도 여기서 멈추지 않는다. 다음 단계의 무료
+      # 로컬 생성기가 빈 칸을 메우고, 검증 단계가 결과를 다시 본다.
       - name: Gemini 영문 카피 생성
         if: steps.guard.outputs.ready == 'true'
+        continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
