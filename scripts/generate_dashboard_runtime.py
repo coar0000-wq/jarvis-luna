@@ -763,6 +763,17 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
                 f'{LABEL.get(k, k)} {blk.get(k, 0)}건'
                 for k in ("copy", "gosi", "us_label", "legal") if blk.get(k, 0)
             )
+            # Jev(TypeSafe System One) 보조 판정을 쓴 회차만 적는다.
+            # 비용이 드는 일이므로 몇 건을 얼마에 썼는지 눈에 보여야 한다.
+            ts = gate.get("typesafe_summary") or {}
+            ts_usage = ts.get("usage") or {}
+            jev_txt = ""
+            if ts.get("typesafe_calls"):
+                jev_txt = (f' · Jev 판정 {ts["typesafe_calls"]}건'
+                           f'(입력 {ts_usage.get("input_tokens", 0):,}토큰 · '
+                           f'${ts_usage.get("estimated_cost_usd", 0):.4f}')
+                jev_txt += ', 무료 크레딧)' if ts.get("free_credits_only") else ')'
+
             action_bits = []
             waiting_bits = []
             if auto_top:
@@ -781,7 +792,8 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
                 f'AI 입력 {gate.get("agent_ready", 0)}/{gate.get("total", 0)} · '
                 f'초안 준비 {gate.get("ready", 0)}/{gate.get("total", 0)} · '
                 f'공개 준비 {public_ready}/{gate.get("total", 0)} · '
-                f'Action {action_queue.get("draft_action_count", 0)}건 · {detail}',
+                f'Action {action_queue.get("draft_action_count", 0)}건 · {detail}'
+                + jev_txt,
                 " · ".join(action_bits) if action_bits else None,
                 "ok" if gate.get("total") else "failed",
                 action_kind="auto_remediable",

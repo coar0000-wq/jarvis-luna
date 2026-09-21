@@ -40,14 +40,14 @@
       ],
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
-        "enabled": false,
-        "mode": "disabled_local_advisory",
-        "source": "deterministic_local",
+        "enabled": true,
+        "mode": "typesafe_observational_free_credits",
+        "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "keep_s",
+        "grade_advisory": "hold",
         "legal_gate_advisory": "review",
-        "risk_level": "medium",
+        "risk_level": "high",
         "risk_points": 1,
         "team_routes": [
           "legal"
@@ -55,10 +55,16 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": null,
-        "usage": null
+        "confidence": 0.655,
+        "usage": {
+          "input_tokens": 961,
+          "output_tokens": 161
+        },
+        "free_credits_only": true,
+        "risk_score": 1.66,
+        "model": "jev-1.13.0"
       },
-      "gate_generated_at": "2026-09-21T11:02:31.940224+00:00"
+      "gate_generated_at": "2026-09-21T11:13:43.642922+00:00"
     },
     {
       "rank": 2,
@@ -95,14 +101,14 @@
       ],
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
-        "enabled": false,
-        "mode": "disabled_local_advisory",
-        "source": "deterministic_local",
+        "enabled": true,
+        "mode": "typesafe_observational_free_credits",
+        "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "keep_s",
+        "grade_advisory": "review",
         "legal_gate_advisory": "review",
-        "risk_level": "medium",
+        "risk_level": "high",
         "risk_points": 1,
         "team_routes": [
           "legal"
@@ -110,10 +116,16 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": null,
-        "usage": null
+        "confidence": 0.67,
+        "usage": {
+          "input_tokens": 941,
+          "output_tokens": 161
+        },
+        "free_credits_only": true,
+        "risk_score": 1.65,
+        "model": "jev-1.13.0"
       },
-      "gate_generated_at": "2026-09-21T11:02:31.940224+00:00"
+      "gate_generated_at": "2026-09-21T11:13:43.642922+00:00"
     },
     {
       "rank": 3,
@@ -149,14 +161,14 @@
       ],
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
-        "enabled": false,
-        "mode": "disabled_local_advisory",
-        "source": "deterministic_local",
+        "enabled": true,
+        "mode": "typesafe_observational_free_credits",
+        "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "keep_s",
+        "grade_advisory": "hold",
         "legal_gate_advisory": "review",
-        "risk_level": "medium",
+        "risk_level": "high",
         "risk_points": 1,
         "team_routes": [
           "legal"
@@ -164,10 +176,16 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": null,
-        "usage": null
+        "confidence": 0.65,
+        "usage": {
+          "input_tokens": 960,
+          "output_tokens": 161
+        },
+        "free_credits_only": true,
+        "risk_score": 1.59,
+        "model": "jev-1.13.0"
       },
-      "gate_generated_at": "2026-09-21T11:02:31.940224+00:00"
+      "gate_generated_at": "2026-09-21T11:13:43.642922+00:00"
     },
     {
       "rank": 4,
@@ -204,14 +222,14 @@
       ],
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
-        "enabled": false,
-        "mode": "disabled_local_advisory",
-        "source": "deterministic_local",
+        "enabled": true,
+        "mode": "typesafe_observational_free_credits",
+        "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "keep_s",
+        "grade_advisory": "hold",
         "legal_gate_advisory": "review",
-        "risk_level": "medium",
+        "risk_level": "high",
         "risk_points": 1,
         "team_routes": [
           "legal"
@@ -219,10 +237,16 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": null,
-        "usage": null
+        "confidence": 0.665,
+        "usage": {
+          "input_tokens": 942,
+          "output_tokens": 161
+        },
+        "free_credits_only": true,
+        "risk_score": 1.59,
+        "model": "jev-1.13.0"
       },
-      "gate_generated_at": "2026-09-21T11:02:31.940224+00:00"
+      "gate_generated_at": "2026-09-21T11:13:43.642922+00:00"
     },
     {
       "rank": 5,
@@ -259,14 +283,14 @@
       ],
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
-        "enabled": false,
-        "mode": "disabled_local_advisory",
-        "source": "deterministic_local",
+        "enabled": true,
+        "mode": "typesafe_observational_free_credits",
+        "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "keep_s",
+        "grade_advisory": "review",
         "legal_gate_advisory": "review",
-        "risk_level": "medium",
+        "risk_level": "high",
         "risk_points": 1,
         "team_routes": [
           "legal"
@@ -274,10 +298,16 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": null,
-        "usage": null
+        "confidence": 0.6375,
+        "usage": {
+          "input_tokens": 953,
+          "output_tokens": 161
+        },
+        "free_credits_only": true,
+        "risk_score": 1.62,
+        "model": "jev-1.13.0"
       },
-      "gate_generated_at": "2026-09-21T11:02:31.940224+00:00"
+      "gate_generated_at": "2026-09-21T11:13:43.642922+00:00"
     },
     {
       "rank": 6,
@@ -314,12 +344,12 @@
       ],
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
-        "enabled": false,
-        "mode": "disabled_local_advisory",
-        "source": "deterministic_local",
+        "enabled": true,
+        "mode": "typesafe_observational_free_credits",
+        "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "keep_s",
+        "grade_advisory": "review",
         "legal_gate_advisory": "review",
         "risk_level": "medium",
         "risk_points": 1,
@@ -329,10 +359,16 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": null,
-        "usage": null
+        "confidence": 0.625,
+        "usage": {
+          "input_tokens": 946,
+          "output_tokens": 161
+        },
+        "free_credits_only": true,
+        "risk_score": 1.48,
+        "model": "jev-1.13.0"
       },
-      "gate_generated_at": "2026-09-21T11:02:31.940224+00:00"
+      "gate_generated_at": "2026-09-21T11:13:43.642922+00:00"
     },
     {
       "rank": 7,
@@ -369,14 +405,14 @@
       ],
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
-        "enabled": false,
-        "mode": "disabled_local_advisory",
-        "source": "deterministic_local",
+        "enabled": true,
+        "mode": "typesafe_observational_free_credits",
+        "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "keep_s",
+        "grade_advisory": "review",
         "legal_gate_advisory": "review",
-        "risk_level": "medium",
+        "risk_level": "high",
         "risk_points": 1,
         "team_routes": [
           "legal"
@@ -384,10 +420,16 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": null,
-        "usage": null
+        "confidence": 0.625,
+        "usage": {
+          "input_tokens": 952,
+          "output_tokens": 161
+        },
+        "free_credits_only": true,
+        "risk_score": 1.5,
+        "model": "jev-1.13.0"
       },
-      "gate_generated_at": "2026-09-21T11:02:31.940224+00:00"
+      "gate_generated_at": "2026-09-21T11:13:43.642922+00:00"
     },
     {
       "rank": 8,
@@ -434,9 +476,9 @@
       ],
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
-        "enabled": false,
-        "mode": "disabled_local_advisory",
-        "source": "deterministic_local",
+        "enabled": true,
+        "mode": "typesafe_observational_free_credits",
+        "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
         "grade_advisory": "hold",
@@ -452,10 +494,16 @@
           "public blockers: copy, us_label, legal, legal_full",
           "legal hard block"
         ],
-        "confidence": null,
-        "usage": null
+        "confidence": 0.875,
+        "usage": {
+          "input_tokens": 980,
+          "output_tokens": 161
+        },
+        "free_credits_only": true,
+        "risk_score": 2.56,
+        "model": "jev-1.13.0"
       },
-      "gate_generated_at": "2026-09-21T11:02:31.940224+00:00"
+      "gate_generated_at": "2026-09-21T11:13:43.642922+00:00"
     },
     {
       "rank": 9,
@@ -492,12 +540,12 @@
       ],
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
-        "enabled": false,
-        "mode": "disabled_local_advisory",
-        "source": "deterministic_local",
+        "enabled": true,
+        "mode": "typesafe_observational_free_credits",
+        "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "keep_s",
+        "grade_advisory": "review",
         "legal_gate_advisory": "review",
         "risk_level": "medium",
         "risk_points": 1,
@@ -507,10 +555,16 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": null,
-        "usage": null
+        "confidence": 0.6375,
+        "usage": {
+          "input_tokens": 950,
+          "output_tokens": 161
+        },
+        "free_credits_only": true,
+        "risk_score": 1.48,
+        "model": "jev-1.13.0"
       },
-      "gate_generated_at": "2026-09-21T11:02:31.940224+00:00"
+      "gate_generated_at": "2026-09-21T11:13:43.642922+00:00"
     },
     {
       "rank": 10,
@@ -547,14 +601,14 @@
       ],
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
-        "enabled": false,
-        "mode": "disabled_local_advisory",
-        "source": "deterministic_local",
+        "enabled": true,
+        "mode": "typesafe_observational_free_credits",
+        "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "keep_s",
+        "grade_advisory": "review",
         "legal_gate_advisory": "review",
-        "risk_level": "high",
+        "risk_level": "medium",
         "risk_points": 2,
         "team_routes": [
           "legal"
@@ -562,10 +616,16 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": null,
-        "usage": null
+        "confidence": 0.65,
+        "usage": {
+          "input_tokens": 947,
+          "output_tokens": 161
+        },
+        "free_credits_only": true,
+        "risk_score": 1.48,
+        "model": "jev-1.13.0"
       },
-      "gate_generated_at": "2026-09-21T11:02:31.940224+00:00"
+      "gate_generated_at": "2026-09-21T11:13:43.642922+00:00"
     }
   ],
   "agent_ready_count": 9,

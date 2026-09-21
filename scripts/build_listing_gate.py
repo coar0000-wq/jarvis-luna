@@ -343,18 +343,25 @@ def main() -> int:
     for row in results:
         mode = str((row.get("typesafe") or {}).get("mode") or "missing")
         typesafe_modes[mode] = typesafe_modes.get(mode, 0) + 1
+    usage_ledger = typesafe_decision_support.ledger()
     typesafe_summary = {
         "framework": "typesafe_system_one_compatible",
         "mode_counts": typesafe_modes,
+        "typesafe_calls": usage_ledger["calls"],
+        "free_credits_only": sum(
+            1 for row in results if (row.get("typesafe") or {}).get("free_credits_only")
+        ),
         "paid_api_calls": sum(
             1 for row in results if (row.get("typesafe") or {}).get("paid_api_called")
         ),
         "enforced": sum(
             1 for row in results if (row.get("typesafe") or {}).get("enforced")
         ),
+        "usage": usage_ledger,
         "note": (
-            "기본은 비용 없는 로컬 advisory. 실제 TypeSafe 호출은 "
-            "TYPESAFE_ENABLED=1 및 TYPESAFE_ALLOW_PAID=1 동시 설정 때만 가능."
+            "기본은 비용 없는 로컬 advisory. 실제 호출은 TYPESAFE_ENABLED=1 과 "
+            "TYPESAFE_FREE_CREDITS_ONLY=1(무료 크레딧 한도 내) 또는 "
+            "TYPESAFE_ALLOW_PAID=1(유료 승인) 일 때만 한다. 크레딧 구매는 하지 않는다."
         ),
     }
 

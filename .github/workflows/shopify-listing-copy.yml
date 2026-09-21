@@ -58,6 +58,12 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
 
+    # 게이트가 돌 때 Jev 보조 판정도 같이 남긴다. 무료 크레딧 한도 안에서만 한다.
+    env:
+      TYPESAFE_ENABLED: '1'
+      TYPESAFE_FREE_CREDITS_ONLY: '1'
+      TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_API_KEY }}
+
     steps:
 
       # -------------------------------------------------------
