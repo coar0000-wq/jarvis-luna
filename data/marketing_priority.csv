@@ -1,9 +1,9 @@
 rank,canonical_product_id,pd_no,product,keyword,intent,score,shopify_action
 1,CP000107,1049276,[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입,vt-cosmetics|reedle-shot|facial-ampoule,purchase,100,1차 Draft Action 검토
-2,CP000130,1055167,본셉 레티놀 500 IU 세럼 30 ml,vonsep|retinol-serum|korean-skincare,purchase,98,1차 Draft Action 검토
+2,CP000130,1055167,본셉 레티놀 500 IU 세럼 30 ml,vonsep|retinol-serum|face-serum,purchase,98,1차 Draft Action 검토
 3,CP000106,1049275,[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입,vt-cosmetics|reedle-shot|facial-ampoule,purchase,98,1차 Draft Action 검토
-4,CP000216,1067498,[영양광채]VT PDRN 광채 크림 50 ml,vt-cosmetics|pdrn-cream|radiance-cream,purchase,96,1차 Draft Action 검토
-5,CP000251,1072554,[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml,body-serum|retinol-serum|gua-sha,purchase,96,1차 Draft Action 검토
+4,CP000216,1067498,[영양광채]VT PDRN 광채 크림 50 ml,vt-pdrn|radiance-cream|korean-skincare,purchase,96,1차 Draft Action 검토
+5,CP000251,1072554,[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml,bonsep|retinol-serum|body-serum,purchase,96,1차 Draft Action 검토
 6,CP000270,1075857,셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매,celderma|pdrn-mask|sheet-mask,purchase,94,2차 Draft Action 검토
 7,CP000109,1049285,[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입,vt-cosmetics|sleeping-mask|hyaluronic-acid,purchase,92,2차 Draft Action 검토
 8,CP000214,1067495,[퀵 수분충전]VT PDRN 광채 토너 200 ml,,purchase,92,선행 증거 보강

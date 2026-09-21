@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-09-21T20:16:55.370590+09:00",
+    "updated_at": "2026-09-21T20:27:15.368010+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -41,7 +41,7 @@
         "brand": "CORINGCO",
         "price_usd": 12.0,
         "rating": 4.8,
-        "review_count": 11926
+        "review_count": 11995
       },
       {
         "rank": 3,
@@ -121,7 +121,7 @@
         "brand": "Dr.Althea",
         "price_usd": 27.0,
         "rating": 4.8,
-        "review_count": 1640
+        "review_count": 1642
       },
       {
         "rank": 13,
@@ -668,10 +668,10 @@
     ],
     "note": "실수집 가능한 소스만 반영한다. OliveYoung US 가 Actions 403 이면 Sephora/Ulta 등으로 경쟁군을 채운다. OY 는 주 1회 로컬·브라우저 수집을 권장한다.",
     "sources": {
-      "oliveyoung_us": "us.oliveyoung.com/best-sellers (실수집)",
+      "oliveyoung_us": "수집 실패: HTTP 403 · 이전 수집분 유지(2026-09-21)",
       "open_beauty_facts": "world.openbeautyfacts.org /api/v2/search",
       "competitor_pool_size": 159,
-      "competitor_fallback": "oliveyoung_us primary"
+      "competitor_fallback": "sephora+ulta+amazon+walmart"
     }
   },
   "marketing_playbook": {
@@ -997,7 +997,7 @@
         "collagen mask",
         "essence gel mask",
         "facial mask",
-        "firming mask",
+        "hydrating mask",
         "korean skincare"
       ],
       "linked_s_products": [
@@ -1047,8 +1047,8 @@
       ],
       "us_example_count": 3,
       "gemini_tags": [
-        "pdrn cream",
-        "pdrn mask"
+        "pdrn mask",
+        "vt pdrn"
       ],
       "linked_s_products": [
         "[영양광채]VT PDRN 광채 크림 50 ml",
@@ -1144,9 +1144,9 @@
       "gemini_tags": [
         "body serum",
         "face serum",
+        "facial serum",
         "firming serum",
-        "korean skincare",
-        "retinol serum"
+        "guasha serum"
       ],
       "linked_s_products": [
         "본셉 레티놀 500 IU 세럼 30 ml",
@@ -1193,7 +1193,6 @@
       "gemini_tags": [
         "face cream",
         "korean skincare",
-        "pdrn cream",
         "radiance cream"
       ],
       "linked_s_products": [
@@ -1346,7 +1345,7 @@
         "vt-cosmetics",
         "reedle-shot",
         "facial-ampoule",
-        "korean-skincare",
+        "k-beauty",
         "skin-texture",
         "boosting-ampoule"
       ],
@@ -1361,7 +1360,7 @@
       "canonical_product_id": "CP000130",
       "pd_no": "1055167",
       "name": "본셉 레티놀 500 IU 세럼 30 ml",
-      "name_en": "VONSEP Retinol 500 IU Serum 30ml",
+      "name_en": "VONSEP Retinol 500 IU Serum 30 ml",
       "bucket": "스킨케어",
       "score": 98,
       "rating": 4.8,
@@ -1375,10 +1374,10 @@
       "ad_keywords": [
         "vonsep",
         "retinol-serum",
-        "korean-skincare",
         "face-serum",
+        "korean-skincare",
         "k-beauty",
-        "retinol-500-iu"
+        "facial-serum"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
@@ -1406,9 +1405,9 @@
         "vt-cosmetics",
         "reedle-shot",
         "facial-ampoule",
-        "k-beauty",
-        "skin-texture",
-        "boosting-ampoule"
+        "korean-skincare",
+        "boosting-ampoule",
+        "skincare-set"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
@@ -1433,12 +1432,12 @@
       "margin_pct": null,
       "shopify_action": "1차 Draft Action 검토",
       "ad_keywords": [
-        "vt-cosmetics",
-        "pdrn-cream",
+        "vt-pdrn",
         "radiance-cream",
         "korean-skincare",
         "face-cream",
-        "moisturizer"
+        "moisturizer",
+        "k-beauty"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
@@ -1451,7 +1450,7 @@
       "canonical_product_id": "CP000251",
       "pd_no": "1072554",
       "name": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
-      "name_en": "Bongseop Retinol Firming Shot Body Gua Sha Serum 100ml",
+      "name_en": "Bonsep Retinol Firming Shot Body Guasha Serum 100ml",
       "bucket": "스킨케어",
       "score": 96,
       "rating": 4.7,
@@ -1463,12 +1462,12 @@
       "margin_pct": null,
       "shopify_action": "1차 Draft Action 검토",
       "ad_keywords": [
-        "body-serum",
+        "bonsep",
         "retinol-serum",
-        "gua-sha",
+        "body-serum",
+        "guasha-serum",
         "firming-serum",
-        "k-beauty",
-        "body-care"
+        "korean-beauty"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
@@ -1497,7 +1496,7 @@
         "pdrn-mask",
         "sheet-mask",
         "k-beauty",
-        "radiance-mask",
+        "radiance-cream",
         "facial-mask"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
@@ -1511,7 +1510,7 @@
       "canonical_product_id": "CP000109",
       "pd_no": "1049285",
       "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-      "name_en": "VT Super Hyalon Sleeping Mask 4ml x 6ea",
+      "name_en": "VT Super Hyalon Sleeping Mask 4ml 6ea",
       "bucket": "스킨케어",
       "score": 92,
       "rating": 4.8,
@@ -1526,9 +1525,9 @@
         "vt-cosmetics",
         "sleeping-mask",
         "hyaluronic-acid",
-        "k-beauty",
+        "korean-skincare",
         "facial-mask",
-        "night-skincare"
+        "hydrating-mask"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
@@ -1583,8 +1582,8 @@
         "collagen-mask",
         "sheet-mask",
         "k-beauty",
-        "firming-mask",
-        "facial-mask"
+        "facial-mask",
+        "korean-skincare"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
@@ -1614,7 +1613,7 @@
         "essence-gel-mask",
         "sheet-mask",
         "korean-skincare",
-        "facial-mask"
+        "hydrating-mask"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
