@@ -437,9 +437,9 @@ def secretary_card() -> dict:
 
     무엇을 보나
 
-      chief_of_staff.yml 이 30분마다 부르는 스크립트 일곱 개의 산출물을 본다.
-      스크립트가 돌았다는 말을 믿지 않고 결과 파일이 언제 바뀌었는지를 본다.
-      파일이 안 바뀌었으면 안 돈 것이다.
+      JARVIS Deep Analysis가 2시간마다 남기는 Safe Auto-Fix 보고서를
+      heartbeat로 본다. 개별 산출물은 입력이 같으면 파일이 안 바뀌는 것이
+      정상이므로, 데이터 mtime만으로 자동화가 멈췄다고 판단하지 않는다.
 
     주의
 
@@ -479,7 +479,6 @@ def secretary_card() -> dict:
 
     steps = []
     newest = None
-    stale = []
     for label, path, key in STEPS:
         w = when_of(path, key)
         h = hours_since(w)
@@ -487,10 +486,14 @@ def secretary_card() -> dict:
                       "몇시간전": round(h, 1) if h is not None else None})
         if w and (newest is None or str(w) > str(newest)):
             newest = w
-        # 산출물이 오래 안 바뀐 것은 수집 실패 증거가 아니라 무변경/지연이다.
-        # 파일 누락·파싱 실패처럼 실제 예외만 failed로 올리고, 여기서는 warning이다.
-        if h is None or h > 2:
-            stale.append(label)
+
+    # 파생 파일은 입력이 같으면 오래 안 바뀌어도 정상이다. 자동화 생존 여부는
+    # Safe Auto-Fix 자체의 실행 보고서를 heartbeat로 판정한다.
+    autofix = load_json(D / "agents" / "autofix_report.json", {}) or {}
+    heartbeat = autofix.get("generated_at")
+    heartbeat_age = hours_since(heartbeat)
+    if heartbeat and (newest is None or str(heartbeat) > str(newest)):
+        newest = heartbeat
 
     # 이번에 무엇을 했는지. 건수는 전부 산출 파일에서 읽은 실측값이다.
     gosi = (load_json(D / "gosi.json", None) or {}).get("items") or {}
@@ -518,15 +521,17 @@ def secretary_card() -> dict:
         ready = sum(1 for v in (rows or [])
                     if isinstance(v, dict) and v.get("ready"))
 
-    summary = (f"30분 주기 · 고시 {len(gosi)}건 · US라벨 {n_labels}건 · "
+    summary = (f"2시간 주기 · 고시 {len(gosi)}건 · US라벨 {n_labels}건 · "
                f"카피 {len(copies)}건 · 등록 가능 {ready}건 · "
                f"법률 차단 {hard}건")
 
     action = None
-    if stale:
-        action = ("갱신 지연 " + ", ".join(stale[:3])
-                  + (f" 외 {len(stale) - 3}개" if len(stale) > 3 else "")
-                  + " — 2시간 넘게 변경 없음(실패로 단정하지 않음)")
+    # 스케줄 지연을 허용해 주기의 두 배보다 긴 4시간 30분부터 경고한다.
+    if heartbeat_age is None or heartbeat_age > 4.5:
+        action = ("비서실장 감시 루프 갱신 지연 — Safe Auto-Fix 보고서가 "
+                  "4시간 30분 넘게 확인되지 않음")
+    elif str(autofix.get("status") or "").lower() == "failed":
+        action = "비서실장 Safe Auto-Fix 직전 실행 실패 — 다음 주기 재검증 중"
 
     # 실제 실패는 수집기가 명시적으로 남긴 상태만 쓴다. 오래 안 바뀐 것과
     # HTTP/파싱 실패를 섞지 않는다.
@@ -547,12 +552,12 @@ def secretary_card() -> dict:
         "when": newest,
         "summary": summary,
         "action": action,
-        "status": "failed" if collection_failed else "warning" if stale else "ok",
+        "action_kind": "revalidate_only" if action else None,
+        "status": "failed" if collection_failed else "warning" if action else "ok",
         "steps": steps,
-        "_근거": ("chief_of_staff.yml 이 30분마다 부르는 스크립트들의 산출물 "
-                "갱신 시각을 읽는다. 돌았다는 말이 아니라 결과가 바뀌었는지를 "
-                "본다. chief_of_staff.py 파일은 어느 워크플로도 부르지 않는 "
-                "고아라서 근거로 쓰지 않는다."),
+        "_근거": ("JARVIS Deep Analysis가 2시간마다 남기는 Safe Auto-Fix "
+                "보고서를 heartbeat로 본다. 개별 파생 파일은 입력 무변경 시 "
+                "mtime이 유지되므로 지연 판정에 쓰지 않는다."),
     }
 
 
