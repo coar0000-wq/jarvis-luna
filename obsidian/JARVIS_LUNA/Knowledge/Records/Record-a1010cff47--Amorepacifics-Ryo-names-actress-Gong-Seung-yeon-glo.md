@@ -2,7 +2,7 @@
 title: "Record a1010cff47 · Amorepacifics-Ryo-names-actress-Gong-Seung-yeon-glo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T00:01:06.819579+00:00
+updated_at: 2026-09-21T03:12:19.441939+00:00
 tags: [record, real-data]
 ---
 

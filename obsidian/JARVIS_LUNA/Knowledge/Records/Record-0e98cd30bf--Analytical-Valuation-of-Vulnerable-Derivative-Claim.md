@@ -2,7 +2,7 @@
 title: "Record 0e98cd30bf · Analytical-Valuation-of-Vulnerable-Derivative-Claim"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T00:01:06.598986+00:00
+updated_at: 2026-09-21T03:12:19.177259+00:00
 tags: [record, real-data]
 ---
 

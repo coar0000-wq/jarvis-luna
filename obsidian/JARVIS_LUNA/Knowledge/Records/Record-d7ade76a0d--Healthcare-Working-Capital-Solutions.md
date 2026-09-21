@@ -2,7 +2,7 @@
 title: "Record d7ade76a0d · Healthcare-Working-Capital-Solutions"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T00:01:07.152180+00:00
+updated_at: 2026-09-21T03:12:19.853691+00:00
 tags: [record, real-data]
 ---
 

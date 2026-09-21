@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-20T23:52:58.882443+00:00",
+  "generated_at": "2026-09-21T03:05:00.208208+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
   "pool_size": 2360,
   "제목없어_버림": 38,
-  "unrouted": 8,
+  "unrouted": 10,
   "summary": {
     "sourcing": {
       "total": 349,
@@ -15,38 +15,38 @@
       "products": 345
     },
     "market": {
-      "total": 556,
-      "recent": 37,
-      "material": 556,
-      "material_recent": 37,
+      "total": 553,
+      "recent": 34,
+      "material": 553,
+      "material_recent": 34,
       "products": 0
     },
     "listing": {
       "total": 69,
-      "recent": 15,
+      "recent": 11,
       "material": 69,
-      "material_recent": 15,
+      "material_recent": 11,
       "products": 0
     },
     "pricing": {
       "total": 17,
-      "recent": 9,
+      "recent": 8,
       "material": 17,
-      "material_recent": 9,
+      "material_recent": 8,
       "products": 0
     },
     "legal": {
-      "total": 152,
-      "recent": 24,
-      "material": 152,
-      "material_recent": 24,
+      "total": 153,
+      "recent": 23,
+      "material": 153,
+      "material_recent": 23,
       "products": 0
     },
     "design": {
-      "total": 400,
-      "recent": 97,
-      "material": 400,
-      "material_recent": 97,
+      "total": 401,
+      "recent": 92,
+      "material": 401,
+      "material_recent": 92,
       "products": 0
     },
     "robotics": {
@@ -57,17 +57,17 @@
       "products": 0
     },
     "knowledge": {
-      "total": 191,
-      "recent": 84,
-      "material": 191,
-      "material_recent": 84,
+      "total": 190,
+      "recent": 80,
+      "material": 190,
+      "material_recent": 80,
       "products": 0
     },
     "institutions": {
       "total": 1062,
-      "recent": 266,
+      "recent": 263,
       "material": 1062,
-      "material_recent": 266,
+      "material_recent": 263,
       "products": 0
     }
   },
@@ -669,7 +669,7 @@
         "by_hand": true
       },
       {
-        "title": "The COMPLETE Meta AI Tutorial",
+        "title": "How To Use Meta AI For Beginners",
         "url": "https://www.youtube.com/watch?v=-jLkh1-vxg8",
         "pool": "youtube_channel",
         "date": "",
@@ -1033,7 +1033,7 @@
         "by_hand": true
       },
       {
-        "title": "The COMPLETE Meta AI Tutorial",
+        "title": "How To Use Meta AI For Beginners",
         "url": "https://www.youtube.com/watch?v=-jLkh1-vxg8",
         "pool": "youtube_channel",
         "date": "",
@@ -2006,7 +2006,7 @@
         "by_hand": true
       },
       {
-        "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
+        "title": "This UI/UX Redesign Will Teach You More Than 200 Tutorials Combined",
         "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
         "pool": "youtube_channel",
         "date": "",
@@ -2188,7 +2188,7 @@
         "by_hand": true
       },
       {
-        "title": "The COMPLETE Meta AI Tutorial",
+        "title": "How To Use Meta AI For Beginners",
         "url": "https://www.youtube.com/watch?v=-jLkh1-vxg8",
         "pool": "youtube_channel",
         "date": "",

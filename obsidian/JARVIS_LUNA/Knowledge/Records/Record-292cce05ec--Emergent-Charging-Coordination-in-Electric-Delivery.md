@@ -2,7 +2,7 @@
 title: "Record 292cce05ec · Emergent-Charging-Coordination-in-Electric-Delivery"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T00:01:06.469178+00:00
+updated_at: 2026-09-21T03:12:19.080116+00:00
 tags: [record, real-data]
 ---
 

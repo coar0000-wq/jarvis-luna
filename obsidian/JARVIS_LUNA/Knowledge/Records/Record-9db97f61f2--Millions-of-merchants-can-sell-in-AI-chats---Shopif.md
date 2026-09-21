@@ -2,7 +2,7 @@
 title: "Record 9db97f61f2 · Millions-of-merchants-can-sell-in-AI-chats---Shopif"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T00:01:06.801733+00:00
+updated_at: 2026-09-21T03:12:19.431158+00:00
 tags: [record, real-data]
 ---
 

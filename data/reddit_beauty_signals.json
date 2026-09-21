@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-20T23:53:40.983951+00:00",
+  "collected_at": "2026-09-21T03:05:52.488340+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -52,6 +52,10 @@
       "score": 5
     },
     {
+      "keyword": "moisturizer",
+      "score": 4
+    },
+    {
       "keyword": "beauty",
       "score": 4
     },
@@ -80,23 +84,15 @@
       "score": 2
     },
     {
-      "keyword": "serums",
-      "score": 2
-    },
-    {
       "keyword": "skin",
       "score": 2
     },
     {
-      "keyword": "dark",
+      "keyword": "cleanser",
       "score": 2
     },
     {
       "keyword": "colored",
-      "score": 2
-    },
-    {
-      "keyword": "cleanser",
       "score": 2
     },
     {
@@ -121,14 +117,6 @@
     },
     {
       "keyword": "sunscreens",
-      "score": 2
-    },
-    {
-      "keyword": "products",
-      "score": 2
-    },
-    {
-      "keyword": "korean",
       "score": 2
     },
     {
@@ -176,45 +164,57 @@
       "score": 1
     },
     {
-      "keyword": "actually",
+      "keyword": "share",
       "score": 1
     },
     {
-      "keyword": "work",
+      "keyword": "barrier",
       "score": 1
     },
     {
-      "keyword": "specific",
+      "keyword": "repair",
       "score": 1
     },
     {
-      "keyword": "issues",
+      "keyword": "combination",
       "score": 1
     },
     {
-      "keyword": "texture",
+      "keyword": "oily",
       "score": 1
     },
     {
-      "keyword": "dehydration",
+      "keyword": "sekkisei",
       "score": 1
     },
     {
-      "keyword": "spots",
+      "keyword": "defense",
+      "score": 1
+    },
+    {
+      "keyword": "packaging",
+      "score": 1
+    },
+    {
+      "keyword": "quality",
+      "score": 1
+    },
+    {
+      "keyword": "gone",
       "score": 1
     }
   ],
   "beauty_keywords": [
+    {
+      "keyword": "moisturizer",
+      "score": 4
+    },
     {
       "keyword": "masks",
       "score": 4
     },
     {
       "keyword": "sunscreen",
-      "score": 2
-    },
-    {
-      "keyword": "serums",
       "score": 2
     },
     {
@@ -235,10 +235,6 @@
     },
     {
       "keyword": "sunscreens",
-      "score": 2
-    },
-    {
-      "keyword": "korean",
       "score": 2
     }
   ],
@@ -265,9 +261,23 @@
       "feed": "hot"
     },
     {
-      "title": "4 serums that actually work for specific skin issues (texture, dehydration, dark spots, barrier)",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wlvhsw/4_serums_that_actually_work_for_specific_skin/",
-      "published": "2026-09-20T22:52:12+00:00",
+      "title": "Share your HG barrier repair moisturizer for combination- oily skin",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wm05d4/share_your_hg_barrier_repair_moisturizer_for/",
+      "published": "2026-09-21T02:23:12+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Sekkisei uv defense - packaging quality gone downhill",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wlxzk4/sekkisei_uv_defense_packaging_quality_gone/",
+      "published": "2026-09-21T00:41:51+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Looking for a new moisturizer",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wm0t7v/looking_for_a_new_moisturizer/",
+      "published": "2026-09-21T02:55:23+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -286,13 +296,6 @@
       "feed": "hot"
     },
     {
-      "title": "Chicago AB Storefronts",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wlth88/chicago_ab_storefronts/",
-      "published": "2026-09-20T21:27:27+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
       "title": "how to achieve this look?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wl37db/how_to_achieve_this_look/",
       "published": "2026-09-20T01:13:40+00:00",
@@ -300,9 +303,9 @@
       "feed": "hot"
     },
     {
-      "title": "Websites to buy colored contacts lens that ship to the USA",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wlhojy/websites_to_buy_colored_contacts_lens_that_ship/",
-      "published": "2026-09-20T13:53:05+00:00",
+      "title": "Chicago AB Storefronts",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wlth88/chicago_ab_storefronts/",
+      "published": "2026-09-20T21:27:27+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -310,6 +313,13 @@
       "title": "bonkorea Angel’s Powder Enzyme Cleanser",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wlgw70/bonkorea_angels_powder_enzyme_cleanser/",
       "published": "2026-09-20T13:18:33+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Websites to buy colored contacts lens that ship to the USA",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wlhojy/websites_to_buy_colored_contacts_lens_that_ship/",
+      "published": "2026-09-20T13:53:05+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -401,20 +411,6 @@
       "title": "Anything Goes Friday: September 18, 2026",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wk1r5o/anything_goes_friday_september_18_2026/",
       "published": "2026-09-18T20:39:05+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Korean products for eczema dark scars hyperpigmentation",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjl8iy/korean_products_for_eczema_dark_scars/",
-      "published": "2026-09-18T09:16:10+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Tirtir Waterism Glow Tint swatches",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjnk51/tirtir_waterism_glow_tint_swatches/",
-      "published": "2026-09-18T11:25:37+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

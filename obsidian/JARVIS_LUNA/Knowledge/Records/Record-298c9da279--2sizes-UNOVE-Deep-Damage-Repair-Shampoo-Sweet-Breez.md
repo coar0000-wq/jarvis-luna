@@ -2,7 +2,7 @@
 title: "Record 298c9da279 · 2sizes-UNOVE-Deep-Damage-Repair-Shampoo-Sweet-Breeze"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T00:01:07.038209+00:00
+updated_at: 2026-09-21T03:12:19.699650+00:00
 tags: [record, real-data]
 ---
 

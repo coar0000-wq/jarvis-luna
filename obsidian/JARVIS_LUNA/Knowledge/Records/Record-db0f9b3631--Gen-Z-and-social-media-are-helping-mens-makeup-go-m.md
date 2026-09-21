@@ -2,7 +2,7 @@
 title: "Record db0f9b3631 · Gen-Z-and-social-media-are-helping-mens-makeup-go-m"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T00:01:06.883893+00:00
+updated_at: 2026-09-21T03:12:19.482603+00:00
 tags: [record, real-data]
 ---
 

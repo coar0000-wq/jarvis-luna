@@ -2,7 +2,7 @@
 title: "Record bfc5a390c2 · Matcha-Make-up-the-new-natural-and-sophisticated-be"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T00:01:06.833105+00:00
+updated_at: 2026-09-21T03:12:19.451526+00:00
 tags: [record, real-data]
 ---
 

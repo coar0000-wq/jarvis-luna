@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T23:59:21.726446+00:00",
+  "generated_at": "2026-09-21T03:10:37.068965+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "inter miami",
+          "keyword": "carlie irsay-gordon",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Sun, 20 Sep 2026 16:30:00 -0700",
-          "source_name": "Inter Miami CF",
-          "url": "https://trends.google.com/trending?geo=US&q=inter%20miami"
-        },
-        {
-          "keyword": "jadarian price",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Sun, 20 Sep 2026 16:10:00 -0700",
+          "published": "Sun, 20 Sep 2026 19:40:00 -0700",
           "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=jadarian%20price"
+          "url": "https://trends.google.com/trending?geo=US&q=carlie%20irsay-gordon"
         },
         {
-          "keyword": "milwaukee brewers",
+          "keyword": "presley gerber",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Sun, 20 Sep 2026 19:40:00 -0700",
+          "source_name": "Extra",
+          "url": "https://trends.google.com/trending?geo=US&q=presley%20gerber"
+        },
+        {
+          "keyword": "emmett johnson",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Sun, 20 Sep 2026 16:30:00 -0700",
+          "published": "Sun, 20 Sep 2026 19:20:00 -0700",
           "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=milwaukee%20brewers"
+          "url": "https://trends.google.com/trending?geo=US&q=emmett%20johnson"
         },
         {
-          "keyword": "mlb playoff picture",
+          "keyword": "asteroid",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Sun, 20 Sep 2026 19:20:00 -0700",
+          "source_name": "SciTechDaily",
+          "url": "https://trends.google.com/trending?geo=US&q=asteroid"
+        },
+        {
+          "keyword": "walmart near me",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Sun, 20 Sep 2026 19:20:00 -0700",
+          "source_name": "The Guardian",
+          "url": "https://trends.google.com/trending?geo=US&q=walmart%20near%20me"
+        },
+        {
+          "keyword": "weather tornado warning",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sun, 20 Sep 2026 16:10:00 -0700",
-          "source_name": "Bleacher Report",
-          "url": "https://trends.google.com/trending?geo=US&q=mlb%20playoff%20picture"
+          "published": "Sun, 20 Sep 2026 19:40:00 -0700",
+          "source_name": "KSL News",
+          "url": "https://trends.google.com/trending?geo=US&q=weather%20tornado%20warning"
         },
         {
-          "keyword": "xavier worthy",
+          "keyword": "kahlil benson",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sun, 20 Sep 2026 16:40:00 -0700",
-          "source_name": "Heavy.com",
-          "url": "https://trends.google.com/trending?geo=US&q=xavier%20worthy"
+          "published": "Sun, 20 Sep 2026 19:30:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=kahlil%20benson"
         },
         {
-          "keyword": "shergar",
+          "keyword": "cooper webb",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sun, 20 Sep 2026 16:40:00 -0700",
-          "source_name": "CBS News",
-          "url": "https://trends.google.com/trending?geo=US&q=shergar"
+          "published": "Sun, 20 Sep 2026 19:30:00 -0700",
+          "source_name": "Racer X",
+          "url": "https://trends.google.com/trending?geo=US&q=cooper%20webb"
         },
         {
-          "keyword": "alec pierce",
+          "keyword": "lanterns episode 6",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sun, 20 Sep 2026 16:30:00 -0700",
-          "source_name": "IndyStar",
-          "url": "https://trends.google.com/trending?geo=US&q=alec%20pierce"
+          "published": "Sun, 20 Sep 2026 19:20:00 -0700",
+          "source_name": "IndieWire",
+          "url": "https://trends.google.com/trending?geo=US&q=lanterns%20episode%206"
         },
         {
-          "keyword": "tyler warren",
+          "keyword": "chief",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sun, 20 Sep 2026 16:20:00 -0700",
-          "source_name": "Arrowhead Addict",
-          "url": "https://trends.google.com/trending?geo=US&q=tyler%20warren"
-        },
-        {
-          "keyword": "kurt warner",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Sun, 20 Sep 2026 16:20:00 -0700",
-          "source_name": "Baltimore Ravens",
-          "url": "https://trends.google.com/trending?geo=US&q=kurt%20warner"
-        },
-        {
-          "keyword": "hezekiah masses",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Sun, 20 Sep 2026 16:00:00 -0700",
-          "source_name": "NFL.com",
-          "url": "https://trends.google.com/trending?geo=US&q=hezekiah%20masses"
+          "published": "Sun, 20 Sep 2026 19:20:00 -0700",
+          "source_name": "South China Morning Post",
+          "url": "https://trends.google.com/trending?geo=US&q=chief"
         }
       ]
     },
@@ -96,88 +96,88 @@
       "status": "ok",
       "reason": "",
       "source": "wikimedia.org REST pageviews API (공식)",
-      "note": "2026-08-20 ~ 2026-09-18 일별 조회수. 후반 15일 대비 전반 15일 증감률",
+      "note": "2026-08-21 ~ 2026-09-19 일별 조회수. 후반 15일 대비 전반 15일 증감률",
       "errors": [],
       "items": [
         {
           "topic": "Niacinamide",
           "days": 30,
-          "total_views": 2082,
+          "total_views": 2058,
           "avg_daily": 69,
           "recent_avg": 85,
-          "prev_avg": 53,
-          "change_pct": 59.6,
+          "prev_avg": 52,
+          "change_pct": 61.5,
           "url": "https://en.wikipedia.org/wiki/Niacinamide"
         },
         {
           "topic": "Hyaluronic acid",
           "days": 30,
-          "total_views": 18642,
-          "avg_daily": 621,
-          "recent_avg": 679,
-          "prev_avg": 564,
-          "change_pct": 20.5,
+          "total_views": 18518,
+          "avg_daily": 617,
+          "recent_avg": 674,
+          "prev_avg": 560,
+          "change_pct": 20.3,
           "url": "https://en.wikipedia.org/wiki/Hyaluronic_acid"
-        },
-        {
-          "topic": "Retinol",
-          "days": 30,
-          "total_views": 11702,
-          "avg_daily": 390,
-          "recent_avg": 405,
-          "prev_avg": 375,
-          "change_pct": 7.9,
-          "url": "https://en.wikipedia.org/wiki/Retinol"
         },
         {
           "topic": "Centella asiatica",
           "days": 30,
-          "total_views": 15399,
-          "avg_daily": 513,
-          "recent_avg": 520,
-          "prev_avg": 506,
-          "change_pct": 2.7,
+          "total_views": 15417,
+          "avg_daily": 514,
+          "recent_avg": 525,
+          "prev_avg": 503,
+          "change_pct": 4.5,
           "url": "https://en.wikipedia.org/wiki/Centella_asiatica"
+        },
+        {
+          "topic": "Retinol",
+          "days": 30,
+          "total_views": 11652,
+          "avg_daily": 388,
+          "recent_avg": 393,
+          "prev_avg": 384,
+          "change_pct": 2.2,
+          "url": "https://en.wikipedia.org/wiki/Retinol"
         },
         {
           "topic": "Cosmetics",
           "days": 30,
-          "total_views": 20817,
-          "avg_daily": 694,
-          "recent_avg": 687,
-          "prev_avg": 701,
-          "change_pct": -2.1,
+          "total_views": 20916,
+          "avg_daily": 697,
+          "recent_avg": 700,
+          "prev_avg": 695,
+          "change_pct": 0.7,
           "url": "https://en.wikipedia.org/wiki/Cosmetics"
         },
         {
           "topic": "Sunscreen",
           "days": 30,
-          "total_views": 15567,
-          "avg_daily": 519,
-          "recent_avg": 511,
-          "prev_avg": 527,
-          "change_pct": -3.0,
+          "total_views": 15488,
+          "avg_daily": 516,
+          "recent_avg": 506,
+          "prev_avg": 526,
+          "change_pct": -3.8,
           "url": "https://en.wikipedia.org/wiki/Sunscreen"
-        },
-        {
-          "topic": "Snail slime",
-          "days": 30,
-          "total_views": 2210,
-          "avg_daily": 74,
-          "recent_avg": 70,
-          "prev_avg": 78,
-          "change_pct": -10.1,
-          "url": "https://en.wikipedia.org/wiki/Snail_slime"
         },
         {
           "topic": "K-beauty",
           "days": 30,
-          "total_views": 3863,
-          "avg_daily": 129,
-          "recent_avg": 121,
+          "total_views": 3834,
+          "avg_daily": 128,
+          "recent_avg": 120,
           "prev_avg": 136,
-          "change_pct": -11.0,
+          "change_pct": -12.0,
           "url": "https://en.wikipedia.org/wiki/K-beauty"
+        },
+        {
+          "topic": "Snail slime",
+          "days": 30,
+          "total_views": 2220,
+          "avg_daily": 74,
+          "recent_avg": 69,
+          "prev_avg": 79,
+          "change_pct": -13.6,
+          "url": "https://en.wikipedia.org/wiki/Snail_slime"
         }
       ]
     },

@@ -2,7 +2,7 @@
 title: "Record 9b54e1eefb · These-Korean-Skin-Care-Essentials-Are-on-Sale-Right"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T00:01:06.815978+00:00
+updated_at: 2026-09-21T03:12:19.439727+00:00
 tags: [record, real-data]
 ---
 
