@@ -1,14 +1,14 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-09-21T11:21:32.400788+00:00",
+  "generated_at": "2026-09-21T11:22:52.223971+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "semantic_sources": {
       "data/product_master.json": "5b885a69526f6b217b487cfdd8400a6ba8c4a1d13d39ce2fe9ab81f4c2ea7aec",
       "data/gosi.json": "d1b5837f4ff183cfe82f573c8d733bb76a7731d2e3b3a625c4e56ace20d7e032",
-      "data/daiso_real/daiso_us_labels.json": "21e646f8d157158470e0acc3df0524cd39d7a0b1935447303694c54ba5aa917e",
+      "data/daiso_real/daiso_us_labels.json": "0b0127622bf1392fac838bc97ff390e58bf9b54599dbeb0d985f0cf141903b97",
       "data/pricing_model.json": "6b2694bca708f55158e9738cd6bd60a372bc4347f43558217664e9c2c01d34fb",
-      "data/legal_products.json": "1c8d1c06bf7bb98f079a93bde6c0d506fb201d44df58615549914f0ccebd80df"
+      "data/legal_products.json": "91cd3328530f0cddda2ba8514616f6a0ad7e01da560f9293420df4c138e5378a"
     },
     "recommendations_sha256": "a0bcc3d25f99d040eb8257d00f4d93158b03568c79df49cf183945569a27172b"
   },
@@ -68,17 +68,17 @@
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049276",
       "copy": {
         "title": "VT Reedle Shot 300 Facial Boosting First Ampoule 2ml x 6",
-        "description_html": "<p>Discover the VT Reedle Shot 300 Facial Boosting First Ampoule, designed for targeted skin texture care in a convenient multi-pack.</p><p>Each box contains six 2ml ampoules to help prep your skin and support a smoother, more refined appearance.</p>",
+        "description_html": "<p>Discover the VT Reedle Shot 300 Facial Boosting First Ampoule, designed to help refine the look of skin texture. This set includes six convenient 2ml ampoules for your daily skincare routine.</p><p>Apply gently to clean skin to help prep your complexion for the next steps of your routine, leaving your skin looking smooth and refreshed.</p>",
         "seo_title": "VT Reedle Shot 300 Facial Boosting First Ampoule 2ml x 6",
-        "seo_description": "Shop the VT Reedle Shot 300 Facial Boosting First Ampoule 2ml x 6 for daily skin texture care. Convenient single-use ampoules from Korea.",
+        "seo_description": "Shop the VT Reedle Shot 300 Facial Boosting First Ampoule 2ml x 6 for smooth skin texture and daily facial care. Convenient travel-friendly ampoules.",
         "tags": [
           "vt-cosmetics",
           "reedle-shot",
           "facial-ampoule",
-          "k-beauty",
+          "korean-skincare",
           "skin-texture",
           "boosting-ampoule",
-          "korean-skincare"
+          "face-serum"
         ],
         "product_type": "Face Serum"
       },
@@ -133,16 +133,16 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.6825,
+        "confidence": 0.6425,
         "usage": {
           "input_tokens": 961,
           "output_tokens": 161
         },
         "free_credits_only": true,
-        "risk_score": 1.67,
+        "risk_score": 1.61,
         "model": "jev-1.13.0",
         "state_signature": "59e14c03c39369d980c9aae8b238f3d10bf6385d08bb1f4f876e4bc37114a68b",
-        "decided_at": "2026-09-21T11:21:27.358670+00:00"
+        "decided_at": "2026-09-21T11:22:47.417524+00:00"
       }
     },
     {
@@ -156,18 +156,18 @@
       "shopify_score": 98,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055167",
       "copy": {
-        "title": "VONSEP Retinol 500 IU Serum 30 ml",
-        "description_html": "<p>Discover the VONSEP Retinol 500 IU Serum in a convenient 30 ml size, designed to enhance your daily skincare routine.</p><p>This nourishing facial serum helps promote a smoother-looking complexion for daily radiance.</p>",
-        "seo_title": "VONSEP Retinol 500 IU Serum 30 ml",
-        "seo_description": "Shop the VONSEP Retinol 500 IU Serum 30 ml. A gentle facial serum designed for a smoother-looking and brighter-looking complexion in your daily routine.",
+        "title": "VONSEP Retinol 500 IU Serum 30ml",
+        "description_html": "<p>Discover the VONSEP Retinol 500 IU Serum in a convenient 30 ml size, formulated for your daily skincare routine.</p><p>This facial serum helps improve the look of your skin for a smoother and more radiant-looking complexion.</p>",
+        "seo_title": "VONSEP Retinol 500 IU Serum 30ml",
+        "seo_description": "Shop the VONSEP Retinol 500 IU Serum 30 ml. A lightweight facial serum designed to help support a smooth and bright-looking complexion.",
         "tags": [
-          "korean-beauty",
-          "face-serum",
-          "retinol-serum",
           "vonsep",
-          "skincare",
+          "retinol-serum",
+          "korean-skincare",
+          "face-serum",
           "k-beauty",
-          "facial-serum"
+          "retinol-500-iu",
+          "brightening-serum"
         ],
         "product_type": "Face Serum"
       },
@@ -222,16 +222,16 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.6725,
+        "confidence": 0.6525,
         "usage": {
           "input_tokens": 941,
           "output_tokens": 161
         },
         "free_credits_only": true,
-        "risk_score": 1.61,
+        "risk_score": 1.7,
         "model": "jev-1.13.0",
         "state_signature": "469080b62103f13e319b2ffc4f59da241b6378aeacb13a6bed6e9749889620aa",
-        "decided_at": "2026-09-21T11:21:27.913899+00:00"
+        "decided_at": "2026-09-21T11:22:47.983127+00:00"
       }
     },
     {
@@ -246,9 +246,9 @@
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049275",
       "copy": {
         "title": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6ea",
-        "description_html": "<p>Experience smooth skin texture with the VT Reedle Shot 100 Facial Boosting First Ampoule. This set includes six convenient 2ml daily ampoules designed to prep your skin care routine.</p><p>Apply gently to clean skin as a first step to help your complexion look refreshed, balanced, and radiant throughout the day.</p>",
-        "seo_title": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml 6pk",
-        "seo_description": "Shop the VT Reedle Shot 100 Facial Boosting First Ampoule set. Convenient 2ml ampoules designed to help smooth skin texture and enhance your daily routine.",
+        "description_html": "<p>Experience smooth skin texture care with the VT Reedle Shot 100 Facial Boosting First Ampoule. This convenient set includes six individual 2ml ampoules designed to prep your skin as the first step in your daily routine.</p><p>Gently massage onto the face to help prep the complexion for the rest of your skincare routine, leaving skin feeling refreshed, soft, and balanced.</p>",
+        "seo_title": "VT Reedle Shot 100 Facial Boosting First Ampoule 6x2ml",
+        "seo_description": "Enhance your daily skincare routine with VT Reedle Shot 100 Facial Boosting First Ampoule. Includes six 2ml ampoules for smooth skin texture care.",
         "tags": [
           "vt-cosmetics",
           "reedle-shot",
@@ -311,7 +311,7 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.67,
+        "confidence": 0.645,
         "usage": {
           "input_tokens": 960,
           "output_tokens": 161
@@ -320,7 +320,7 @@
         "risk_score": 1.6,
         "model": "jev-1.13.0",
         "state_signature": "469080b62103f13e319b2ffc4f59da241b6378aeacb13a6bed6e9749889620aa",
-        "decided_at": "2026-09-21T11:21:28.457540+00:00"
+        "decided_at": "2026-09-21T11:22:48.524807+00:00"
       }
     },
     {
@@ -335,16 +335,16 @@
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067498",
       "copy": {
         "title": "VT PDRN Radiance Cream 50 ml",
-        "description_html": "<p>Discover the nourishing radiance of VT PDRN Radiance Cream. This 50 ml facial cream delivers rich hydration for a glowing complexion.</p><p>Add this nourishing formula to your daily skincare routine to help keep your skin looking luminous and well-hydrated all day long.</p>",
+        "description_html": "<p>Discover the nourishing radiance of the VT PDRN Radiance Cream, designed to deliver a glowing complexion.</p><p>This 50 ml cream provides rich moisture for a smooth and luminous look every day.</p>",
         "seo_title": "VT PDRN Radiance Cream 50 ml",
-        "seo_description": "Shop the VT PDRN Radiance Cream 50 ml for a nourished, glowing complexion. A daily moisturizing cream for radiant-looking skin.",
+        "seo_description": "Shop the VT PDRN Radiance Cream 50 ml for a glowing and radiant complexion. Nourishing formula for daily hydration and a luminous look.",
         "tags": [
           "vt-cosmetics",
           "pdrn-cream",
           "radiance-cream",
           "korean-skincare",
           "face-cream",
-          "moisturizing-cream"
+          "moisturizer"
         ],
         "product_type": "Face Cream"
       },
@@ -399,16 +399,16 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.6475,
+        "confidence": 0.66,
         "usage": {
           "input_tokens": 942,
           "output_tokens": 161
         },
         "free_credits_only": true,
-        "risk_score": 1.59,
+        "risk_score": 1.6,
         "model": "jev-1.13.0",
         "state_signature": "480b0f99a7432c901ccf1cece2b9a5b10fd7b076363676d4a5f5af4ccf7fa895",
-        "decided_at": "2026-09-21T11:21:29.095770+00:00"
+        "decided_at": "2026-09-21T11:22:49.025017+00:00"
       }
     },
     {
@@ -422,17 +422,16 @@
       "shopify_score": 96,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072554",
       "copy": {
-        "title": "Bonsep Retinol Firming Body Guasha Serum 100ml",
-        "description_html": "<p>Discover the Bonsep Retinol Firming Body Guasha Serum in a convenient 100ml size, designed to help care for your skin's elasticity.</p><p>This convenient body serum glides smoothly onto the skin to support a firm and smooth-looking appearance for your daily body care routine.</p>",
-        "seo_title": "Bonsep Retinol Firming Body Guasha Serum 100ml",
-        "seo_description": "Shop the Bonsep Retinol Firming Body Guasha Serum 100ml. A body care serum formulated to help support skin elasticity and a smooth-looking appearance.",
+        "title": "Bongseop Retinol Firming Shot Body Gua Sha Serum 100ml",
+        "description_html": "<p>Experience daily body care with the Bongseop Retinol Firming Shot Body Gua Sha Serum, presented in a convenient 100 ml size. Designed to help smooth the look of fine lines for a more resilient-looking appearance.</p><p>This unique body serum combines targeted care with an easy-to-use application method to help you maintain a smoother and firmer-looking silhouette every day.</p>",
+        "seo_title": "Bongseop Retinol Firming Shot Body Gua Sha Serum 100ml",
+        "seo_description": "Discover the Bongseop Retinol Firming Shot Body Gua Sha Serum 100ml. Designed to help smooth the look of fine lines for a firmer appearance.",
         "tags": [
           "body-serum",
           "retinol-serum",
-          "body-guasha",
+          "gua-sha",
           "firming-serum",
-          "korean-skincare",
-          "bonsep",
+          "k-beauty",
           "body-care"
         ],
         "product_type": "Body Serum"
@@ -488,16 +487,16 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.6525,
+        "confidence": 0.6575,
         "usage": {
           "input_tokens": 953,
           "output_tokens": 161
         },
         "free_credits_only": true,
-        "risk_score": 1.58,
+        "risk_score": 1.63,
         "model": "jev-1.13.0",
         "state_signature": "480b0f99a7432c901ccf1cece2b9a5b10fd7b076363676d4a5f5af4ccf7fa895",
-        "decided_at": "2026-09-21T11:21:29.694830+00:00"
+        "decided_at": "2026-09-21T11:22:49.506988+00:00"
       }
     },
     {
@@ -512,16 +511,15 @@
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1075857",
       "copy": {
         "title": "Celderma Daily PDRN Radiance Cream Wrapping Mask 1ea",
-        "description_html": "<p>Discover the Celderma Daily PDRN Radiance Cream Wrapping Mask, designed to give your skin a radiant and glowing appearance. This single-use sheet mask helps lock in moisture for a dewy look.</p><p>Apply gently to clean skin and relax as the nourishing formula helps enhance your natural glow. Perfect for your daily skincare routine.</p>",
-        "seo_title": "Celderma Daily PDRN Radiance Cream Wrapping Mask 1ea",
-        "seo_description": "Shop the Celderma Daily PDRN Radiance Cream Wrapping Mask for a radiant, glowing complexion. Single-use sheet mask for your daily skincare routine.",
+        "description_html": "<p>Experience a radiant-looking complexion with the Celderma Daily PDRN Radiance Cream Wrapping Mask. This single-use sheet mask helps deliver deep moisture and a glowing look to the skin.</p><p>Simply apply the wrapping mask to clean skin for a smooth, luminous finish and a comfortable skincare routine.</p>",
+        "seo_title": "Celderma Daily PDRN Radiance Cream Wrapping Mask",
+        "seo_description": "Discover the Celderma Daily PDRN Radiance Cream Wrapping Mask for a hydrated, glowing complexion. Convenient single-use sheet mask from Korea.",
         "tags": [
           "celderma",
           "pdrn-mask",
-          "radiance-cream",
-          "wrapping-mask",
-          "k-beauty",
           "sheet-mask",
+          "k-beauty",
+          "radiance-mask",
           "facial-mask",
           "skincare"
         ],
@@ -568,9 +566,9 @@
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "hold",
+        "grade_advisory": "review",
         "legal_gate_advisory": "review",
-        "risk_level": "medium",
+        "risk_level": "high",
         "risk_points": 1,
         "team_routes": [
           "legal"
@@ -578,16 +576,16 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.6225,
+        "confidence": 0.6275,
         "usage": {
           "input_tokens": 946,
           "output_tokens": 161
         },
         "free_credits_only": true,
-        "risk_score": 1.49,
+        "risk_score": 1.58,
         "model": "jev-1.13.0",
         "state_signature": "51aabc9b6eff9c358c9e4531b3e735d799716a64eceda3a439a728488efee044",
-        "decided_at": "2026-09-21T11:21:30.245930+00:00"
+        "decided_at": "2026-09-21T11:22:50.047632+00:00"
       }
     },
     {
@@ -601,19 +599,18 @@
       "shopify_score": 92,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285",
       "copy": {
-        "title": "VT Super Hyalon Sleeping Mask 4ml 6 Pack",
-        "description_html": "<p>Discover the VT Super Hyalon Sleeping Mask, designed to deliver deep moisture and hydration while you sleep. Each pack contains 6 convenient 4ml pouches for easy, on-the-go skincare.</p><p>Apply gently before bed as the final step of your evening routine to wake up with a refreshed and hydrated-looking complexion.</p>",
+        "title": "VT Super Hyalon Sleeping Mask 4ml x 6ea",
+        "description_html": "<p>Experience intensive moisture and hydration overnight with the VT Super Hyalon Sleeping Mask. Designed to deliver deep moisture while you rest, this formula helps keep your skin feeling hydrated and refreshed by morning.</p><p>This convenient set includes 6 individual 4 ml packs, making it easy to incorporate into your nightly routine for a smooth and hydrated complexion.</p>",
         "seo_title": "VT Super Hyalon Sleeping Mask 4ml 6 Pack",
-        "seo_description": "Shop the VT Super Hyalon Sleeping Mask 4ml 6 pack for deep moisture and hydration overnight. Wake up with a refreshed and hydrated-looking complexion.",
+        "seo_description": "Discover intensive overnight moisture with the VT Super Hyalon Sleeping Mask. Includes 6 individual 4 ml packs for a hydrated and refreshed complexion.",
         "tags": [
           "vt-cosmetics",
           "sleeping-mask",
           "hyaluronic-acid",
           "k-beauty",
           "facial-mask",
-          "hydrating-mask",
-          "skincare",
-          "night-mask"
+          "night-skincare",
+          "moisturizing-mask"
         ],
         "product_type": "Face Mask"
       },
@@ -668,16 +665,16 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.65,
+        "confidence": 0.6325,
         "usage": {
           "input_tokens": 952,
           "output_tokens": 161
         },
         "free_credits_only": true,
-        "risk_score": 1.6,
+        "risk_score": 1.53,
         "model": "jev-1.13.0",
         "state_signature": "63e27861078d80ade8e6c8599045f8b55ca559c58c0a6c9424dbf8387febf12a",
-        "decided_at": "2026-09-21T11:21:30.727388+00:00"
+        "decided_at": "2026-09-21T11:22:50.591055+00:00"
       }
     },
     {
@@ -755,16 +752,16 @@
           "public blockers: copy, us_label, legal, legal_full",
           "legal hard block"
         ],
-        "confidence": 0.88,
+        "confidence": 0.89,
         "usage": {
           "input_tokens": 980,
           "output_tokens": 161
         },
         "free_credits_only": true,
-        "risk_score": 2.58,
+        "risk_score": 2.62,
         "model": "jev-1.13.0",
         "state_signature": "e619f3dace5c36eb0fedec139f4c317165dfbb1516cf93de4afc67f5e7939574",
-        "decided_at": "2026-09-21T11:21:31.249416+00:00"
+        "decided_at": "2026-09-21T11:22:51.110386+00:00"
       }
     },
     {
@@ -779,17 +776,17 @@
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
       "copy": {
         "title": "Celderma Daily Transforming Firming Collagen Mask 28g",
-        "description_html": "<p>Discover the Celderma Daily Transforming Firming Collagen Mask, designed to give your skin a pampered and refreshed feel.</p><p>This 28g sheet mask helps deliver a smooth appearance and a radiant glow for your daily skincare routine.</p>",
+        "description_html": "<p>Discover the Celderma Daily Transforming Firming Collagen Mask, formulated to help support a firm and glowing appearance. This 28g sheet mask delivers deep hydration for a smooth-looking and radiant complexion.</p><p>Incorporate this collagen-infused mask into your daily skincare routine for a refreshed feel and visibly supple skin throughout the day.</p>",
         "seo_title": "Celderma Daily Transforming Firming Collagen Mask 28g",
-        "seo_description": "Shop the Celderma Daily Transforming Firming Collagen Mask 28g for a refreshed and radiant-looking complexion in your daily routine.",
+        "seo_description": "Shop the Celderma Daily Transforming Firming Collagen Mask 28g for deep hydration and a firm, radiant-looking complexion. Perfect for your daily skincare routine.",
         "tags": [
           "celderma",
           "collagen-mask",
           "sheet-mask",
           "k-beauty",
-          "korean-skincare",
           "firming-mask",
-          "face-mask"
+          "facial-mask",
+          "korean-skincare"
         ],
         "product_type": "Face Mask"
       },
@@ -836,7 +833,7 @@
         "enforced": false,
         "grade_advisory": "hold",
         "legal_gate_advisory": "review",
-        "risk_level": "high",
+        "risk_level": "medium",
         "risk_points": 1,
         "team_routes": [
           "legal"
@@ -850,10 +847,10 @@
           "output_tokens": 161
         },
         "free_credits_only": true,
-        "risk_score": 1.52,
+        "risk_score": 1.48,
         "model": "jev-1.13.0",
         "state_signature": "7a85a92485762ad23e7deaa4758bacea7321ca5b26aabcd1fcc12a4426b1d901",
-        "decided_at": "2026-09-21T11:21:31.819960+00:00"
+        "decided_at": "2026-09-21T11:22:51.638263+00:00"
       }
     },
     {
@@ -867,16 +864,16 @@
       "shopify_score": 88,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
       "copy": {
-        "title": "Celderma Daily Collagen Essence Gel Mask 29g",
-        "description_html": "<p>Experience a refreshing skincare routine with the Celderma Daily Collagen Essence Gel Mask. Designed to fit comfortably on the face, this 29g hydrogel sheet mask helps deliver a burst of moisture for a supple and hydrated appearance.</p><p>Incorporate this collagen-infused essence mask into your daily regimen to help maintain a smooth, glowing, and refreshed complexion with ease.</p>",
-        "seo_title": "Celderma Daily Collagen Essence Gel Mask 29g",
-        "seo_description": "Discover the Celderma Daily Collagen Essence Gel Mask 29g for a hydrated, smooth, and glowing complexion. Simple daily skincare from Korea.",
+        "title": "Celderma Daily Collagen Essence Gel Mask 29 g",
+        "description_html": "<p>Discover the Celderma Daily Collagen Essence Gel Mask, a refreshing 29 g facial sheet mask designed to deliver rich moisture to your skin.</p><p>Formulated with collagen, this essence gel mask helps provide a smooth-looking and radiant complexion for your daily skincare routine.</p>",
+        "seo_title": "Celderma Daily Collagen Essence Gel Mask 29 g",
+        "seo_description": "Shop the Celderma Daily Collagen Essence Gel Mask 29 g for a deeply hydrated, smooth-looking, and radiant complexion.",
         "tags": [
           "celderma",
           "collagen-mask",
-          "gel-mask",
+          "essence-gel-mask",
           "sheet-mask",
-          "k-beauty",
+          "korean-skincare",
           "facial-mask",
           "hydrating-mask"
         ],
@@ -925,7 +922,7 @@
         "enforced": false,
         "grade_advisory": "review",
         "legal_gate_advisory": "review",
-        "risk_level": "medium",
+        "risk_level": "high",
         "risk_points": 2,
         "team_routes": [
           "legal"
@@ -933,16 +930,16 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.65,
+        "confidence": 0.6575,
         "usage": {
           "input_tokens": 947,
           "output_tokens": 161
         },
         "free_credits_only": true,
-        "risk_score": 1.49,
+        "risk_score": 1.52,
         "model": "jev-1.13.0",
         "state_signature": "8ebfbb2ebe5496e23f32b95566cbff3c787daded3d34f889ce9c107d009f841e",
-        "decided_at": "2026-09-21T11:21:32.400756+00:00"
+        "decided_at": "2026-09-21T11:22:52.223922+00:00"
       }
     }
   ]
