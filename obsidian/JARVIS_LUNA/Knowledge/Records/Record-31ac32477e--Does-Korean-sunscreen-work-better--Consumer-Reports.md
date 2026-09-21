@@ -2,7 +2,7 @@
 title: "Record 31ac32477e · Does-Korean-sunscreen-work-better--Consumer-Reports"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T20:52:08.811589+00:00
+updated_at: 2026-09-21T00:01:06.967082+00:00
 tags: [record, real-data]
 ---
 

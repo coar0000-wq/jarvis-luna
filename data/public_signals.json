@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T20:23:08.141208+00:00",
+  "generated_at": "2026-09-20T23:59:21.726446+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "raiders",
-          "approx_traffic": "10000+",
-          "traffic_num": 10000,
-          "published": "Sun, 20 Sep 2026 13:00:00 -0700",
-          "source_name": "Las Vegas Raiders",
-          "url": "https://trends.google.com/trending?geo=US&q=raiders"
-        },
-        {
-          "keyword": "nfl standings",
+          "keyword": "inter miami",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Sun, 20 Sep 2026 13:00:00 -0700",
-          "source_name": "CBS Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=nfl%20standings"
+          "published": "Sun, 20 Sep 2026 16:30:00 -0700",
+          "source_name": "Inter Miami CF",
+          "url": "https://trends.google.com/trending?geo=US&q=inter%20miami"
         },
         {
-          "keyword": "howie rose",
+          "keyword": "jadarian price",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Sun, 20 Sep 2026 16:10:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=jadarian%20price"
+        },
+        {
+          "keyword": "milwaukee brewers",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Sun, 20 Sep 2026 13:10:00 -0700",
-          "source_name": "The New York Times",
-          "url": "https://trends.google.com/trending?geo=US&q=howie%20rose"
+          "published": "Sun, 20 Sep 2026 16:30:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=milwaukee%20brewers"
         },
         {
-          "keyword": "deshaun watson",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Sun, 20 Sep 2026 13:00:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=deshaun%20watson"
+          "keyword": "mlb playoff picture",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Sun, 20 Sep 2026 16:10:00 -0700",
+          "source_name": "Bleacher Report",
+          "url": "https://trends.google.com/trending?geo=US&q=mlb%20playoff%20picture"
         },
         {
-          "keyword": "afc north",
+          "keyword": "xavier worthy",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sun, 20 Sep 2026 13:10:00 -0700",
-          "source_name": "The New York Times",
-          "url": "https://trends.google.com/trending?geo=US&q=afc%20north"
+          "published": "Sun, 20 Sep 2026 16:40:00 -0700",
+          "source_name": "Heavy.com",
+          "url": "https://trends.google.com/trending?geo=US&q=xavier%20worthy"
         },
         {
-          "keyword": "cardinals football",
+          "keyword": "shergar",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sun, 20 Sep 2026 13:10:00 -0700",
-          "source_name": "CBS Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=cardinals%20football"
+          "published": "Sun, 20 Sep 2026 16:40:00 -0700",
+          "source_name": "CBS News",
+          "url": "https://trends.google.com/trending?geo=US&q=shergar"
         },
         {
-          "keyword": "tampa bay weather",
+          "keyword": "alec pierce",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sun, 20 Sep 2026 13:10:00 -0700",
-          "source_name": "OregonLive.com",
-          "url": "https://trends.google.com/trending?geo=US&q=tampa%20bay%20weather"
+          "published": "Sun, 20 Sep 2026 16:30:00 -0700",
+          "source_name": "IndyStar",
+          "url": "https://trends.google.com/trending?geo=US&q=alec%20pierce"
         },
         {
-          "keyword": "anaheim ducks",
+          "keyword": "tyler warren",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sun, 20 Sep 2026 13:10:00 -0700",
-          "source_name": "NHL.com",
-          "url": "https://trends.google.com/trending?geo=US&q=anaheim%20ducks"
+          "published": "Sun, 20 Sep 2026 16:20:00 -0700",
+          "source_name": "Arrowhead Addict",
+          "url": "https://trends.google.com/trending?geo=US&q=tyler%20warren"
         },
         {
-          "keyword": "jets coach",
+          "keyword": "kurt warner",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sun, 20 Sep 2026 13:10:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=jets%20coach"
+          "published": "Sun, 20 Sep 2026 16:20:00 -0700",
+          "source_name": "Baltimore Ravens",
+          "url": "https://trends.google.com/trending?geo=US&q=kurt%20warner"
         },
         {
-          "keyword": "san jose sharks",
+          "keyword": "hezekiah masses",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sun, 20 Sep 2026 13:10:00 -0700",
-          "source_name": "The Mercury News",
-          "url": "https://trends.google.com/trending?geo=US&q=san%20jose%20sharks"
+          "published": "Sun, 20 Sep 2026 16:00:00 -0700",
+          "source_name": "NFL.com",
+          "url": "https://trends.google.com/trending?geo=US&q=hezekiah%20masses"
         }
       ]
     },

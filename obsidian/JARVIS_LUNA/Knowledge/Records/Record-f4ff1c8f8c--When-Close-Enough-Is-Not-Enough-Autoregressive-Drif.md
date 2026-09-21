@@ -2,7 +2,7 @@
 title: "Record f4ff1c8f8c · When-Close-Enough-Is-Not-Enough-Autoregressive-Drif"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T20:52:08.864824+00:00
+updated_at: 2026-09-21T00:01:07.017876+00:00
 tags: [record, real-data]
 ---
 

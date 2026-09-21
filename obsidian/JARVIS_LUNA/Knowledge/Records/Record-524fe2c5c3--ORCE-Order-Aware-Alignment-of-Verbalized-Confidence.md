@@ -2,7 +2,7 @@
 title: "Record 524fe2c5c3 · ORCE-Order-Aware-Alignment-of-Verbalized-Confidence"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T20:52:08.852081+00:00
+updated_at: 2026-09-21T00:01:07.005869+00:00
 tags: [record, real-data]
 ---
 

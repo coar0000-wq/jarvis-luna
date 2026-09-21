@@ -2,7 +2,7 @@
 title: "Record cd2403170c · Shop-the-2026-Allure-Best-of-Beauty-Fragrance-Winning-Products"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T20:52:08.914952+00:00
+updated_at: 2026-09-21T00:01:07.058247+00:00
 tags: [record, real-data]
 ---
 

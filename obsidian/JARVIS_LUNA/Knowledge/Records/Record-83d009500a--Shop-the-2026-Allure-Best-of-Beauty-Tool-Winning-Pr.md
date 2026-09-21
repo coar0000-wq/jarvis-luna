@@ -2,7 +2,7 @@
 title: "Record 83d009500a · Shop-the-2026-Allure-Best-of-Beauty-Tool-Winning-Products"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T20:52:08.915901+00:00
+updated_at: 2026-09-21T00:01:07.059037+00:00
 tags: [record, real-data]
 ---
 

@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-20T20:17:41.001948+00:00",
+  "collected_at": "2026-09-20T23:53:40.983951+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -56,36 +56,20 @@
       "score": 4
     },
     {
-      "keyword": "sheet",
-      "score": 4
-    },
-    {
       "keyword": "masks",
       "score": 4
     },
     {
-      "keyword": "haul",
+      "keyword": "anything",
       "score": 3
     },
     {
-      "keyword": "question",
-      "score": 2
+      "keyword": "goes",
+      "score": 3
     },
     {
-      "keyword": "ask",
-      "score": 2
-    },
-    {
-      "keyword": "here",
-      "score": 2
-    },
-    {
-      "keyword": "alter-daily",
-      "score": 2
-    },
-    {
-      "keyword": "questions",
-      "score": 2
+      "keyword": "haul",
+      "score": 3
     },
     {
       "keyword": "gel",
@@ -93,6 +77,18 @@
     },
     {
       "keyword": "sunscreen",
+      "score": 2
+    },
+    {
+      "keyword": "serums",
+      "score": 2
+    },
+    {
+      "keyword": "skin",
+      "score": 2
+    },
+    {
+      "keyword": "dark",
       "score": 2
     },
     {
@@ -112,15 +108,11 @@
       "score": 2
     },
     {
+      "keyword": "sheet",
+      "score": 2
+    },
+    {
       "keyword": "lenses",
-      "score": 2
-    },
-    {
-      "keyword": "anything",
-      "score": 2
-    },
-    {
-      "keyword": "goes",
       "score": 2
     },
     {
@@ -132,10 +124,6 @@
       "score": 2
     },
     {
-      "keyword": "review",
-      "score": 2
-    },
-    {
       "keyword": "products",
       "score": 2
     },
@@ -144,12 +132,24 @@
       "score": 2
     },
     {
-      "keyword": "spf50+",
-      "score": 2
+      "keyword": "question",
+      "score": 1
     },
     {
-      "keyword": "mask",
-      "score": 2
+      "keyword": "ask",
+      "score": 1
+    },
+    {
+      "keyword": "here",
+      "score": 1
+    },
+    {
+      "keyword": "alter-daily",
+      "score": 1
+    },
+    {
+      "keyword": "questions",
+      "score": 1
     },
     {
       "keyword": "product",
@@ -176,39 +176,35 @@
       "score": 1
     },
     {
-      "keyword": "had",
+      "keyword": "actually",
       "score": 1
     },
     {
-      "keyword": "pick",
+      "keyword": "work",
       "score": 1
     },
     {
-      "keyword": "achieve",
+      "keyword": "specific",
       "score": 1
     },
     {
-      "keyword": "look",
+      "keyword": "issues",
       "score": 1
     },
     {
-      "keyword": "websites",
+      "keyword": "texture",
       "score": 1
     },
     {
-      "keyword": "buy",
+      "keyword": "dehydration",
       "score": 1
     },
     {
-      "keyword": "contacts",
+      "keyword": "spots",
       "score": 1
     }
   ],
   "beauty_keywords": [
-    {
-      "keyword": "sheet",
-      "score": 4
-    },
     {
       "keyword": "masks",
       "score": 4
@@ -218,7 +214,19 @@
       "score": 2
     },
     {
+      "keyword": "serums",
+      "score": 2
+    },
+    {
+      "keyword": "skin",
+      "score": 2
+    },
+    {
       "keyword": "cleanser",
+      "score": 2
+    },
+    {
+      "keyword": "sheet",
       "score": 2
     },
     {
@@ -231,14 +239,6 @@
     },
     {
       "keyword": "korean",
-      "score": 2
-    },
-    {
-      "keyword": "spf50+",
-      "score": 2
-    },
-    {
-      "keyword": "mask",
       "score": 2
     }
   ],
@@ -265,9 +265,30 @@
       "feed": "hot"
     },
     {
+      "title": "4 serums that actually work for specific skin issues (texture, dehydration, dark spots, barrier)",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wlvhsw/4_serums_that_actually_work_for_specific_skin/",
+      "published": "2026-09-20T22:52:12+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Anything Goes Sunday: September 20, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wls8b3/anything_goes_sunday_september_20_2026/",
+      "published": "2026-09-20T20:39:07+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "If you had to pick 3",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wlkijr/if_you_had_to_pick_3/",
       "published": "2026-09-20T15:47:32+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Chicago AB Storefronts",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wlth88/chicago_ab_storefronts/",
+      "published": "2026-09-20T21:27:27+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -314,16 +335,16 @@
       "feed": "hot"
     },
     {
-      "title": "has anyone ever bought colored eye lenses on aliexpress?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wlesm1/has_anyone_ever_bought_colored_eye_lenses_on/",
-      "published": "2026-09-20T11:38:54+00:00",
+      "title": "Anything Goes Saturday: September 19, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wkwyln/anything_goes_saturday_september_19_2026/",
+      "published": "2026-09-19T20:39:17+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Anything Goes Saturday: September 19, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wkwyln/anything_goes_saturday_september_19_2026/",
-      "published": "2026-09-19T20:39:17+00:00",
+      "title": "has anyone ever bought colored eye lenses on aliexpress?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wlesm1/has_anyone_ever_bought_colored_eye_lenses_on/",
+      "published": "2026-09-20T11:38:54+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -394,27 +415,6 @@
       "title": "Tirtir Waterism Glow Tint swatches",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjnk51/tirtir_waterism_glow_tint_swatches/",
       "published": "2026-09-18T11:25:37+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Allie Sheer Ecru SPF50+ PA++++: Great for Rosacea, But Beware the Creases!",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjfv0r/allie_sheer_ecru_spf50_pa_great_for_rosacea_but/",
-      "published": "2026-09-18T04:09:00+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "HAVE A QUESTION? ASK HERE! Alter-Daily Help and Questions: September 18, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjsthh/have_a_question_ask_here_alterdaily_help_and/",
-      "published": "2026-09-18T15:09:22+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Cream sheet mask review",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjdn0k/cream_sheet_mask_review/",
-      "published": "2026-09-18T02:22:45+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

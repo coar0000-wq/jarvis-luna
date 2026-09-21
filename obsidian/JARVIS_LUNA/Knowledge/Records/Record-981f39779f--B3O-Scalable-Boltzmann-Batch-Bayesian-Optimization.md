@@ -2,7 +2,7 @@
 title: "Record 981f39779f · B3O-Scalable-Boltzmann-Batch-Bayesian-Optimization"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T20:52:08.861120+00:00
+updated_at: 2026-09-21T00:01:07.014346+00:00
 tags: [record, real-data]
 ---
 

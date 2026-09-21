@@ -2,7 +2,7 @@
 title: "Record b4beb968e8 · Our-Favorite-Korean-Skin-Care-Is-Up-to-45-Off-Durin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T20:52:08.669168+00:00
+updated_at: 2026-09-21T00:01:06.847173+00:00
 tags: [record, real-data]
 ---
 

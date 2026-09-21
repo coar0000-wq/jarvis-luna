@@ -2,7 +2,7 @@
 title: "Record d162a64fb6 · Enhanced-Knowledge-Distillation-for-Detection-Transformer-via-Teacher-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T20:52:08.302662+00:00
+updated_at: 2026-09-21T00:01:06.540151+00:00
 tags: [record, real-data]
 ---
 

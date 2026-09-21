@@ -2,7 +2,7 @@
 title: "Record f9d921f13b · Support-Size-of-ε-Capacity-Achieving-Inputs-for-the-Amplitude-Constrai"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T20:52:08.444961+00:00
+updated_at: 2026-09-21T00:01:06.663036+00:00
 tags: [record, real-data]
 ---
 

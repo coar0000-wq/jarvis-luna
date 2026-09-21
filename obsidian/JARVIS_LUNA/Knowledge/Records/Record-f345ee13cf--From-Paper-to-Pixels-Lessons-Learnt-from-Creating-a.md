@@ -2,7 +2,7 @@
 title: "Record f345ee13cf · From-Paper-to-Pixels-Lessons-Learnt-from-Creating-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T20:52:08.328586+00:00
+updated_at: 2026-09-21T00:01:06.560470+00:00
 tags: [record, real-data]
 ---
 

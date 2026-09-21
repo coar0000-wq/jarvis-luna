@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T22:34:01.388463+00:00",
+  "generated_at": "2026-09-20T23:59:23.004489+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
@@ -58,7 +58,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-20T22:34:01.695018+00:00"
+      "gate_generated_at": "2026-09-20T23:59:26.054828+00:00"
     },
     {
       "rank": 2,
@@ -113,7 +113,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-20T22:34:01.695018+00:00"
+      "gate_generated_at": "2026-09-20T23:59:26.054828+00:00"
     },
     {
       "rank": 3,
@@ -167,7 +167,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-20T22:34:01.695018+00:00"
+      "gate_generated_at": "2026-09-20T23:59:26.054828+00:00"
     },
     {
       "rank": 4,
@@ -181,17 +181,17 @@
       "s_rule": "ingredient+form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067498",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/wj1JQs4g8q0tBuz4c7jF1067498_00_01wj1JQs4g8q0tBuz4c7jF.jpg",
-      "recommend_reason": "글로벌 'ANUA PDRN Hyaluronic Acid 100 Moisturizing Cream, 2.02 fl oz | Lightweight, Non-Greasy Hydrating Face Moisturizer with Salmon DNA for Glass Skin, Korean Skincare' (amazon_best_sellers) 유사 77% · 토큰 cream, pdrn",
+      "recommend_reason": "글로벌 'Lacto-PDRN 4% + B9 Eye Cream' (ulta_beauty) 유사 88% · 토큰 cream, pdrn",
       "matched_global": {
-        "channel": "amazon_best_sellers",
-        "global_product": "ANUA PDRN Hyaluronic Acid 100 Moisturizing Cream, 2.02 fl oz | Lightweight, Non-Greasy Hydrating Face Moisturizer with Salmon DNA for Glass Skin, Korean Skincare",
-        "similarity": 0.773,
-        "demand_weight": 0.57,
+        "channel": "ulta_beauty",
+        "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+        "similarity": 0.88,
+        "demand_weight": 0.425,
         "matched_tokens": [
           "cream",
           "pdrn"
         ],
-        "match_score": 0.441
+        "match_score": 0.374
       },
       "registerable": true,
       "registerable_source": "data/listing_gate.json",
@@ -222,7 +222,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-20T22:34:01.695018+00:00"
+      "gate_generated_at": "2026-09-20T23:59:26.054828+00:00"
     },
     {
       "rank": 5,
@@ -282,7 +282,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-20T22:34:01.695018+00:00"
+      "gate_generated_at": "2026-09-20T23:59:26.054828+00:00"
     },
     {
       "rank": 6,
@@ -296,17 +296,17 @@
       "s_rule": "ingredient+form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1075857",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260205/Cg7pPAF0QMRSGGKdsWZw1075857_00_01Cg7pPAF0QMRSGGKdsWZw.jpg",
-      "recommend_reason": "글로벌 'ANUA PDRN Hyaluronic Acid 100 Moisturizing Cream, 2.02 fl oz | Lightweight, Non-Greasy Hydrating Face Moisturizer with Salmon DNA for Glass Skin, Korean Skincare' (amazon_best_sellers) 유사 57% · 토큰 cream, pdrn",
+      "recommend_reason": "글로벌 'Lacto-PDRN 4% + B9 Eye Cream' (ulta_beauty) 유사 68% · 토큰 cream, pdrn",
       "matched_global": {
-        "channel": "amazon_best_sellers",
-        "global_product": "ANUA PDRN Hyaluronic Acid 100 Moisturizing Cream, 2.02 fl oz | Lightweight, Non-Greasy Hydrating Face Moisturizer with Salmon DNA for Glass Skin, Korean Skincare",
-        "similarity": 0.573,
-        "demand_weight": 0.57,
+        "channel": "ulta_beauty",
+        "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+        "similarity": 0.68,
+        "demand_weight": 0.425,
         "matched_tokens": [
           "cream",
           "pdrn"
         ],
-        "match_score": 0.327
+        "match_score": 0.289
       },
       "registerable": true,
       "registerable_source": "data/listing_gate.json",
@@ -337,7 +337,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-20T22:34:01.695018+00:00"
+      "gate_generated_at": "2026-09-20T23:59:26.054828+00:00"
     },
     {
       "rank": 7,
@@ -405,7 +405,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-20T22:34:01.695018+00:00"
+      "gate_generated_at": "2026-09-20T23:59:26.054828+00:00"
     },
     {
       "rank": 8,
@@ -460,7 +460,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-20T22:34:01.695018+00:00"
+      "gate_generated_at": "2026-09-20T23:59:26.054828+00:00"
     },
     {
       "rank": 9,
@@ -474,17 +474,17 @@
       "s_rule": "ingredient+form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20250429/dEtwcu53V3cOWvQ0SnSL1059834_00_01dEtwcu53V3cOWvQ0SnSL.jpg",
-      "recommend_reason": "글로벌 'Torriden Cellmazing Low Molecular Collagen Firming Gel Mask 4ct 1.27 oz.(36g)' (oliveyoung_us) 유사 85% · 토큰 collagen, mask",
+      "recommend_reason": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 88% · 토큰 collagen, mask",
       "matched_global": {
-        "channel": "oliveyoung_us",
-        "global_product": "Torriden Cellmazing Low Molecular Collagen Firming Gel Mask 4ct 1.27 oz.(36g)",
-        "similarity": 0.853,
-        "demand_weight": 0.686,
+        "channel": "tiktok_shop_us",
+        "global_product": "Biodance Bio-Collagen Real Deep Mask",
+        "similarity": 0.88,
+        "demand_weight": 0.6,
         "matched_tokens": [
           "collagen",
           "mask"
         ],
-        "match_score": 0.585
+        "match_score": 0.528
       },
       "registerable": true,
       "registerable_source": "data/listing_gate.json",
@@ -515,7 +515,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-20T22:34:01.695018+00:00"
+      "gate_generated_at": "2026-09-20T23:59:26.054828+00:00"
     },
     {
       "rank": 10,
@@ -575,7 +575,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-09-20T22:34:01.695018+00:00"
+      "gate_generated_at": "2026-09-20T23:59:26.054828+00:00"
     }
   ],
   "agent_ready_count": 9,

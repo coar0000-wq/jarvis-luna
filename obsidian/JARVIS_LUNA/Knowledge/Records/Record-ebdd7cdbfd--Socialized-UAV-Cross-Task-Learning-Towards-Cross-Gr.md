@@ -2,7 +2,7 @@
 title: "Record ebdd7cdbfd · Socialized-UAV-Cross-Task-Learning-Towards-Cross-Granularity-Collabora"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T20:52:08.485320+00:00
+updated_at: 2026-09-21T00:01:06.697392+00:00
 tags: [record, real-data]
 ---
 

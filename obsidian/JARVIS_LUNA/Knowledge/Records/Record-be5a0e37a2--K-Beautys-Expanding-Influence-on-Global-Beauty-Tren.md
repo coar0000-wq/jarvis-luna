@@ -2,7 +2,7 @@
 title: "Record be5a0e37a2 · K-Beautys-Expanding-Influence-on-Global-Beauty-Tren"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T20:52:08.757366+00:00
+updated_at: 2026-09-21T00:01:06.915896+00:00
 tags: [record, real-data]
 ---
 

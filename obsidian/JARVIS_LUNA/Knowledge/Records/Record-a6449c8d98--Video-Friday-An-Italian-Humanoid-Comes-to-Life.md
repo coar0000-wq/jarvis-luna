@@ -2,7 +2,7 @@
 title: "Record a6449c8d98 · Video-Friday-An-Italian-Humanoid-Comes-to-Life"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T20:52:08.883072+00:00
+updated_at: 2026-09-21T00:01:07.033769+00:00
 tags: [record, real-data]
 ---
 

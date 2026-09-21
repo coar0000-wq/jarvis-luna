@@ -2,7 +2,7 @@
 title: "Record 2aff9c439d · How-Ai-Debt-Is-Reshaping-The-Credit-Market"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T20:52:08.999841+00:00
+updated_at: 2026-09-21T00:01:07.136171+00:00
 tags: [record, real-data]
 ---
 

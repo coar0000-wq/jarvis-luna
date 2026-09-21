@@ -2,7 +2,7 @@
 title: "Record 0ff952cb1d · Digit-5-May-Be-the-First-Humanoid-Robot-Worker-Thats-Truly-Safe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T20:52:08.877464+00:00
+updated_at: 2026-09-21T00:01:07.028424+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1484b01127 · Thoughts-On-The-Market-Disruption-Ai-Vishy-Tirupattur"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T20:52:09.040877+00:00
+updated_at: 2026-09-21T00:01:07.168390+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 303c98b553 · A-Randomized-Placebo-Controlled-Trial-to-Evaluate-t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T20:52:08.385559+00:00
+updated_at: 2026-09-21T00:01:06.607887+00:00
 tags: [record, real-data]
 ---
 

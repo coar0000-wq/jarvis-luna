@@ -2,7 +2,7 @@
 title: "Record 0e21bbebc7 · The-Rise-in-Systematic-Credit-Investing"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-20T20:52:08.452065+00:00
+updated_at: 2026-09-21T00:01:06.667733+00:00
 tags: [record, real-data]
 ---
 
