@@ -2,7 +2,7 @@
 title: "Record b9804862b7 · things-ive-learned-getting-rich-in-my-20s"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T12:51:25.208526+00:00
+updated_at: 2026-09-21T22:01:01.791705+00:00
 tags: [record, real-data]
 ---
 

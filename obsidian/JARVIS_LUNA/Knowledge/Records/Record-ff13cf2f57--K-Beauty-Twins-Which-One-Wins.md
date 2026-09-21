@@ -2,7 +2,7 @@
 title: "Record ff13cf2f57 · K-Beauty-Twins-Which-One-Wins"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T12:51:25.195008+00:00
+updated_at: 2026-09-21T22:01:01.770181+00:00
 tags: [record, real-data]
 ---
 

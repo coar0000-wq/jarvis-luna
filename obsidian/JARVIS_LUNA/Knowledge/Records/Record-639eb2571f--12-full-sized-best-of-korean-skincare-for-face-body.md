@@ -2,7 +2,7 @@
 title: "Record 639eb2571f · 12-full-sized-best-of-korean-skincare-for-face-body"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T12:51:25.207973+00:00
+updated_at: 2026-09-21T22:01:01.790831+00:00
 tags: [record, real-data]
 ---
 

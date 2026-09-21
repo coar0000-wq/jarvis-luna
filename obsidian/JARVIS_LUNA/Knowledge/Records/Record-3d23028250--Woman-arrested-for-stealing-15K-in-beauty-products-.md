@@ -2,7 +2,7 @@
 title: "Record 3d23028250 · Woman-arrested-for-stealing-15K-in-beauty-products-in-series-of-Southe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T12:51:24.963915+00:00
+updated_at: 2026-09-21T22:01:01.426134+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 88c48e99b1 · Walmart-has-Laneige-Estee-Lauder-more-skincare-up-t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T12:51:24.993548+00:00
+updated_at: 2026-09-21T22:01:01.474513+00:00
 tags: [record, real-data]
 ---
 

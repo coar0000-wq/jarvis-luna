@@ -2,7 +2,7 @@
 title: "Record 0990773e7c · Vertex-Ventures-Investing-In-Physical-Ais-Next-Frontier"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T12:51:25.135574+00:00
+updated_at: 2026-09-21T22:01:01.678737+00:00
 tags: [record, real-data]
 ---
 

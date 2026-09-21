@@ -2,7 +2,7 @@
 title: "Record 7d2872733a · How-workers-are-unlocking-new-ways-of-working"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T12:51:25.018100+00:00
+updated_at: 2026-09-21T22:01:01.508681+00:00
 tags: [record, real-data]
 ---
 

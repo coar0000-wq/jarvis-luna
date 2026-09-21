@@ -2,7 +2,7 @@
 title: "Record 3e27ac58bd · Carbonzugglieder-unter-statischer-und-nicht-ruhende"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T12:51:24.674393+00:00
+updated_at: 2026-09-21T22:01:00.982807+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record e2f1f663de · Semantic-Layer-Induction-from-Raw-Telemetry-via-Hierarchical-LLM-and-R"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T12:51:24.659599+00:00
+updated_at: 2026-09-21T22:01:00.958987+00:00
 tags: [record, real-data]
 ---
 

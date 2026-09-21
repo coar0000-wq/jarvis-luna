@@ -2,7 +2,7 @@
 title: "Record 45a16ec024 · Inside-BoF-and-Shopifys-Knowledge-Breakfast-on-the-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T12:51:24.991394+00:00
+updated_at: 2026-09-21T22:01:01.470901+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1525383766 · 2026-Midterm-Elections-Market-Impact-Investor-Outlo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T12:51:25.155042+00:00
+updated_at: 2026-09-21T22:01:01.709958+00:00
 tags: [record, real-data]
 ---
 

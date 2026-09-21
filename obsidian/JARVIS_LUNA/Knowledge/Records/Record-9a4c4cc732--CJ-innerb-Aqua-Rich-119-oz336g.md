@@ -2,7 +2,7 @@
 title: "Record 9a4c4cc732 · CJ-innerb-Aqua-Rich-119-oz336g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T12:51:25.065278+00:00
+updated_at: 2026-09-21T22:01:01.570282+00:00
 tags: [record, real-data]
 ---
 

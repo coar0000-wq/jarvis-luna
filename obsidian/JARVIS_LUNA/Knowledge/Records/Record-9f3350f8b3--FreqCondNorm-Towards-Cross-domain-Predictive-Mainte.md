@@ -2,7 +2,7 @@
 title: "Record 9f3350f8b3 · FreqCondNorm-Towards-Cross-domain-Predictive-Maintenance-through-a-Fre"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T12:51:24.783882+00:00
+updated_at: 2026-09-21T22:01:01.149992+00:00
 tags: [record, real-data]
 ---
 

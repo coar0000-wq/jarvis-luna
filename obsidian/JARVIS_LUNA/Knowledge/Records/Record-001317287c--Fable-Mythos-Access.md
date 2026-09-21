@@ -2,7 +2,7 @@
 title: "Record 001317287c · Fable-Mythos-Access"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T12:51:25.110998+00:00
+updated_at: 2026-09-21T22:01:01.640274+00:00
 tags: [record, real-data]
 ---
 

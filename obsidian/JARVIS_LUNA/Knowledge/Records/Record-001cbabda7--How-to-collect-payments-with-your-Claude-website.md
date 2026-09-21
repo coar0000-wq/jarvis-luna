@@ -2,7 +2,7 @@
 title: "Record 001cbabda7 · How-to-collect-payments-with-your-Claude-website"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T12:51:25.220868+00:00
+updated_at: 2026-09-21T22:01:01.810502+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record c9b1f8f29f · 올영세일X레이어랩-오늘이-마지막-완전히-달라진-레이어랩-초고보습-D판테놀-크림--어떻게-더-개선됐는지-철저-분석해-드릴게요"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T12:51:25.210082+00:00
+updated_at: 2026-09-21T22:01:01.794107+00:00
 tags: [record, real-data]
 ---
 

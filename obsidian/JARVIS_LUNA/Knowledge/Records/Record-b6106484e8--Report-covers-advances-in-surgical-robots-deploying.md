@@ -2,7 +2,7 @@
 title: "Record b6106484e8 · Report-covers-advances-in-surgical-robots-deploying-warehouse-automati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T12:51:25.172559+00:00
+updated_at: 2026-09-21T22:01:01.735795+00:00
 tags: [record, real-data]
 ---
 

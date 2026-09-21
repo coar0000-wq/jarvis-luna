@@ -2,7 +2,7 @@
 title: "Record b83c08f333 · Construction-of-Control-Lyapunov-Barrier-Functions-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T12:51:24.631257+00:00
+updated_at: 2026-09-21T22:01:00.925815+00:00
 tags: [record, real-data]
 ---
 

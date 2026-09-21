@@ -2,7 +2,7 @@
 title: "Record 175b90667a · The-best-slow-aging-tips-by-my-Korean-mother-in-law"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T12:51:25.202846+00:00
+updated_at: 2026-09-21T22:01:01.782597+00:00
 tags: [record, real-data]
 ---
 

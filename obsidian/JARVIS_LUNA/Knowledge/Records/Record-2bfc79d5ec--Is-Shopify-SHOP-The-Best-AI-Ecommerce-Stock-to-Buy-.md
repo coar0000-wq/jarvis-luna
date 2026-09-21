@@ -2,7 +2,7 @@
 title: "Record 2bfc79d5ec · Is-Shopify-SHOP-The-Best-AI-Ecommerce-Stock-to-Buy-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T12:51:24.918121+00:00
+updated_at: 2026-09-21T22:01:01.353687+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record b5dfcab4ae · These-Are-the-8-Best-Beauty-Trends-of-2025---Vogue"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T12:51:24.863245+00:00
+updated_at: 2026-09-21T22:01:01.259156+00:00
 tags: [record, real-data]
 ---
 

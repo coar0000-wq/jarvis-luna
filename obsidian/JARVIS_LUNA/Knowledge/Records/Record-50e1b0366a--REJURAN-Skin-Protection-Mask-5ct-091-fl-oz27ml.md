@@ -2,7 +2,7 @@
 title: "Record 50e1b0366a · REJURAN-Skin-Protection-Mask-5ct-091-fl-oz27ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T12:51:25.063770+00:00
+updated_at: 2026-09-21T22:01:01.567674+00:00
 tags: [record, real-data]
 ---
 
