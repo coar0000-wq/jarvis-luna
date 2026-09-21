@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T11:02:32.255840+00:00",
-  "source_gate_generated_at": "2026-09-21T11:02:31.940224+00:00",
+  "generated_at": "2026-09-21T11:16:55.513458+00:00",
+  "source_gate_generated_at": "2026-09-21T11:16:55.238899+00:00",
   "ontology_source": "data/product_master.json",
   "approval_source": "data/manual/shopify_action_approvals.json",
   "policy": {
@@ -32,7 +32,7 @@
         "1042619"
       ],
       "variant_count": 1,
-      "payload_hash": "002e946496eadd581b38b550f841d1f4b7c6f70c40c8cf200e62792fbf8e356f",
+      "payload_hash": "4c28db3ca89924c458d049291b35412c87cc772c9e1411cb74af204e592ed179",
       "state": "WAITING_HUMAN_APPROVAL",
       "approval_required": true,
       "approved_by": "",
@@ -64,7 +64,7 @@
         "1049285"
       ],
       "variant_count": 1,
-      "payload_hash": "0182d5017c546d3acfd12ee849123ad3bb1985d13915ce7d5ba4c43474f87e04",
+      "payload_hash": "fe6e255e22cb431b4be25ae8b2c904b6564dc2d3460ffbd81b32a7db89acf4d2",
       "state": "WAITING_HUMAN_APPROVAL",
       "approval_required": true,
       "approved_by": "",
@@ -96,7 +96,7 @@
         "1055167"
       ],
       "variant_count": 1,
-      "payload_hash": "0f6f055ed2bef2a86c00fbce2d34d0476101e6d244e27883658d84c6bd653ddc",
+      "payload_hash": "a55d451710949a2f6db7372c82c7af0e529bfbbca3d4fe027703aefc8a9e10f8",
       "state": "WAITING_HUMAN_APPROVAL",
       "approval_required": true,
       "approved_by": "",
@@ -128,7 +128,7 @@
         "1059834"
       ],
       "variant_count": 1,
-      "payload_hash": "191fd5baeff2165cd21b06fb3d7058bea07cd44439c3017d8d00447a3ceaf743",
+      "payload_hash": "f2300fc87f8b5ffc5927f473d0336369cf6254fab8bce3e95745674f143b82da",
       "state": "WAITING_HUMAN_APPROVAL",
       "approval_required": true,
       "approved_by": "",
@@ -160,7 +160,7 @@
         "1067498"
       ],
       "variant_count": 1,
-      "payload_hash": "9f91228ee2b2520adf9f1e1324b9ac99f18c99b00424d60770547e4f21bd7596",
+      "payload_hash": "5dc324dcf40b83579431f7738618e1bf0075619e82ca2aa12409643bf683b8ee",
       "state": "WAITING_HUMAN_APPROVAL",
       "approval_required": true,
       "approved_by": "",
@@ -192,7 +192,7 @@
         "1072554"
       ],
       "variant_count": 1,
-      "payload_hash": "e4eac8b6ffa432bd3a25b55b0296347f270492d322b04cb034e053c130401d22",
+      "payload_hash": "25f205930d606c180aa1158e78df28f1874293785748cf462d085fc49ad53766",
       "state": "WAITING_HUMAN_APPROVAL",
       "approval_required": true,
       "approved_by": "",
@@ -224,7 +224,7 @@
         "1075857"
       ],
       "variant_count": 1,
-      "payload_hash": "598ac166784fcc5a2c1c6bf58e7062e56a118f9b921b7389993e139d9354204c",
+      "payload_hash": "68988de3a79e7620d310cef076290f8529d995e1b9ec10fcfb85acb5c5f8c191",
       "state": "WAITING_HUMAN_APPROVAL",
       "approval_required": true,
       "approved_by": "",
@@ -258,7 +258,7 @@
         "1049276"
       ],
       "variant_count": 2,
-      "payload_hash": "c4510541d8fd2e8e4366393415927e9bfcd0afa5db65087bea0764eab70dddd4",
+      "payload_hash": "20fe1e399c5082f5ce76bfc061b89f3dbdbd483bcb59c5bacc27a03e5c312539",
       "state": "WAITING_HUMAN_APPROVAL",
       "approval_required": true,
       "approved_by": "",

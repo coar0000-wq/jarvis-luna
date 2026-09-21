@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T20:14:36.682522+09:00",
+  "generated_at": "2026-09-21T20:16:59.027979+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
@@ -38,7 +38,7 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-09-21T20:04:21.348649+09:00",
+      "when": "2026-09-21T20:16:55.379145+09:00",
       "summary": "S등급 10개 · 고시 판독 남음 0건 · 유튜브 자막 6편 · 근거 20개 · 실험 9개 · 새 자료 41건",
       "action": null,
       "action_kind": null,
@@ -54,8 +54,8 @@
     {
       "id": "listing",
       "name": "리스팅 제작팀",
-      "when": "2026-09-21T11:13:43.642922+00:00",
-      "summary": "AI 입력 9/10 · 초안 준비 9/10 · 공개 준비 0/10 · Action 8건 · CP 10 · 카피 9 · 고시 10 · 가격 10 · 법률 9 · Jev 판정 10건(입력 9,532토큰 · $0.0004, 무료 크레딧)",
+      "when": "2026-09-21T11:16:55.238899+00:00",
+      "summary": "AI 입력 9/10 · 초안 준비 9/10 · 공개 준비 0/10 · Action 8건 · CP 10 · 카피 9 · 고시 10 · 가격 10 · 법률 9",
       "action": null,
       "action_kind": null,
       "waiting": "카피 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 8건 사람 승인 대기",
@@ -70,7 +70,7 @@
     {
       "id": "pricing",
       "name": "가격 정책팀",
-      "when": "2026-09-21T11:02:00.059983+00:00",
+      "when": "2026-09-21T11:16:23.610040+00:00",
       "summary": "개당 배송비 $6.07~$8.25 · 무게 43~360g (고시용량 10) · DDU/DDP 4개 · 새 자료 9건",
       "action": null,
       "action_kind": null,
@@ -86,7 +86,7 @@
     {
       "id": "legal",
       "name": "법률·규제팀",
-      "when": "2026-09-21T11:02:31.779766+00:00",
+      "when": "2026-09-21T11:16:55.086865+00:00",
       "summary": "자동 점검 10건 · 통과 0 · 등록 차단 1 · 참고 주의 10 · MoCRA 준비 0/7 · 영문라벨 22/26 · 표기 되돌림 6건 · 성분표기 확인 5종 · 수출서류 HS 10건 · 라벨 4/6항목 자동 · 새 자료 25건",
       "action": null,
       "action_kind": null,
@@ -166,7 +166,7 @@
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-09-21T18:46:50.619487+09:00",
+      "when": "2026-09-21T20:16:18.082657+09:00",
       "summary": "82,023노트 · 331,193링크 · 끊어진 링크 0건 · 개인 노트 16건 별도",
       "action": null,
       "action_kind": null,
@@ -184,7 +184,7 @@
     "id": "secretary",
     "name": "비서실장",
     "badge": "총괄",
-    "when": "2026-09-21T20:04:21.302462+09:00",
+    "when": "2026-09-21T20:16:24.488157+09:00",
     "summary": "2시간 주기 · 고시 26건 · US라벨 26건 · 카피 10건 · 등록 가능 9건 · 법률 차단 1건",
     "action": null,
     "action_kind": null,
@@ -199,32 +199,32 @@
       {
         "단계": "고시 비전 추출",
         "산출물": "gosi.json",
-        "갱신": "2026-09-21T19:57:45.833880+09:00",
-        "몇시간전": 0.3
+        "갱신": "2026-09-21T20:16:16.073585+09:00",
+        "몇시간전": 0.0
       },
       {
         "단계": "US 라벨 동기화",
         "산출물": "daiso_us_labels.json",
-        "갱신": "2026-09-21T20:04:21.302462+09:00",
-        "몇시간전": 0.2
+        "갱신": "2026-09-21T20:16:24.488157+09:00",
+        "몇시간전": 0.0
       },
       {
         "단계": "리스팅 카피",
         "산출물": "shopify_listing_copy.json",
-        "갱신": "2026-09-21T11:02:31.687478+00:00",
-        "몇시간전": 0.2
+        "갱신": "2026-09-21T11:16:55.006738+00:00",
+        "몇시간전": 0.0
       },
       {
         "단계": "등록 게이트",
         "산출물": "listing_gate.json",
-        "갱신": "2026-09-21T11:13:43.642922+00:00",
+        "갱신": "2026-09-21T11:16:55.238899+00:00",
         "몇시간전": 0.0
       },
       {
         "단계": "법률 점검",
         "산출물": "legal_products.json",
-        "갱신": "2026-09-21T11:02:31.779766+00:00",
-        "몇시간전": 0.2
+        "갱신": "2026-09-21T11:16:55.086865+00:00",
+        "몇시간전": 0.0
       }
     ],
     "_근거": "JARVIS Deep Analysis가 2시간마다 남기는 Safe Auto-Fix 보고서를 heartbeat로 본다. 개별 파생 파일은 입력 무변경 시 mtime이 유지되므로 지연 판정에 쓰지 않는다."
@@ -543,7 +543,7 @@
     "status": "completed",
     "record_count": 4025,
     "source_counts": {},
-    "updated_at": "2026-09-21T18:46:47.432200+09:00"
+    "updated_at": "2026-09-21T20:16:16.091468+09:00"
   },
   "shopify_marketing_strategy": {
     "status": "evidence_ready",
@@ -807,7 +807,7 @@
     "topics": 28,
     "orgs": 35,
     "audit": "passed",
-    "last_generated": "2026-09-21T18:46:50.619487+09:00"
+    "last_generated": "2026-09-21T20:16:18.082657+09:00"
   },
   "training": {
     "status": "completed",
@@ -2085,7 +2085,7 @@
       "collected_at": "2026-09-20T22:41:54.267284+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 12.5,
+      "age_hours": 12.6,
       "stale": false
     },
     "walmart_beauty": {
@@ -2095,7 +2095,7 @@
       "collected_at": "2026-09-20T22:41:54.268072+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 12.5,
+      "age_hours": 12.6,
       "stale": false
     },
     "oliveyoung_us": {
@@ -2105,7 +2105,7 @@
       "collected_at": "2026-09-21T09:36:15.249729+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 1.6,
+      "age_hours": 1.7,
       "stale": false
     },
     "google_trends_us": {
@@ -2115,7 +2115,7 @@
       "collected_at": "2026-09-21T09:36:51.528077+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 1.6,
+      "age_hours": 1.7,
       "stale": false
     },
     "wikipedia_interest": {
@@ -2174,7 +2174,7 @@
       "collected_at": "2026-09-20T22:41:54.268662+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 12.5,
+      "age_hours": 12.6,
       "stale": false
     },
     "sephora": {
@@ -2184,7 +2184,7 @@
       "collected_at": "2026-09-20T22:41:54.268662+00:00",
       "count": 14,
       "trust": "verified",
-      "age_hours": 12.5,
+      "age_hours": 12.6,
       "stale": false
     },
     "open_beauty_facts": {
@@ -2194,7 +2194,7 @@
       "collected_at": "2026-09-21T09:36:14.782768+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 1.6,
+      "age_hours": 1.7,
       "stale": false
     }
   },
@@ -2204,14 +2204,5 @@
     "source": "https://open.er-api.com/v6/latest/USD",
     "updated_at": "2026-09-21"
   },
-  "last_synced": "09. 21. 오후 06:41 KST",
-  "commit_summary": {
-    "line": "agents: 조치후보 4건 · risk low · force",
-    "agents_line": "agents: 조치후보 4건 · risk low · force"
-  },
-  "agents_ops": {
-    "risk": "low",
-    "task_count": 4,
-    "at": "2026-09-21T11:14:36.888672+00:00"
-  }
+  "last_synced": "09. 21. 오후 06:41 KST"
 }

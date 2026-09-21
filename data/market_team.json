@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-09-21T20:02:32.087905+09:00",
+    "updated_at": "2026-09-21T20:16:55.370590+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -995,10 +995,10 @@
       "us_example_count": 1,
       "gemini_tags": [
         "collagen mask",
+        "essence gel mask",
         "facial mask",
         "firming mask",
-        "gel mask",
-        "hydrating mask"
+        "korean skincare"
       ],
       "linked_s_products": [
         "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
@@ -1096,7 +1096,8 @@
       "us_example_count": 3,
       "gemini_tags": [
         "boosting ampoule",
-        "facial ampoule"
+        "facial ampoule",
+        "korean skincare"
       ],
       "linked_s_products": [
         "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
@@ -1144,8 +1145,8 @@
         "body serum",
         "face serum",
         "firming serum",
-        "korean beauty",
-        "korean skincare"
+        "korean skincare",
+        "retinol serum"
       ],
       "linked_s_products": [
         "본셉 레티놀 500 IU 세럼 30 ml",
@@ -1192,7 +1193,6 @@
       "gemini_tags": [
         "face cream",
         "korean skincare",
-        "moisturizing cream",
         "pdrn cream",
         "radiance cream"
       ],
@@ -1312,7 +1312,10 @@
         }
       ],
       "us_example_count": 1,
-      "gemini_tags": [],
+      "gemini_tags": [
+        "essence gel mask",
+        "korean skincare"
+      ],
       "linked_s_products": [
         "셀더마데일리 콜라겐 에센스겔 마스크 29 g"
       ],
@@ -1343,7 +1346,7 @@
         "vt-cosmetics",
         "reedle-shot",
         "facial-ampoule",
-        "k-beauty",
+        "korean-skincare",
         "skin-texture",
         "boosting-ampoule"
       ],
@@ -1358,7 +1361,7 @@
       "canonical_product_id": "CP000130",
       "pd_no": "1055167",
       "name": "본셉 레티놀 500 IU 세럼 30 ml",
-      "name_en": "VONSEP Retinol 500 IU Serum 30 ml",
+      "name_en": "VONSEP Retinol 500 IU Serum 30ml",
       "bucket": "스킨케어",
       "score": 98,
       "rating": 4.8,
@@ -1370,12 +1373,12 @@
       "margin_pct": null,
       "shopify_action": "1차 Draft Action 검토",
       "ad_keywords": [
-        "korean-beauty",
-        "face-serum",
-        "retinol-serum",
         "vonsep",
-        "skincare",
-        "k-beauty"
+        "retinol-serum",
+        "korean-skincare",
+        "face-serum",
+        "k-beauty",
+        "retinol-500-iu"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
@@ -1435,7 +1438,7 @@
         "radiance-cream",
         "korean-skincare",
         "face-cream",
-        "moisturizing-cream"
+        "moisturizer"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
@@ -1448,7 +1451,7 @@
       "canonical_product_id": "CP000251",
       "pd_no": "1072554",
       "name": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
-      "name_en": "Bonsep Retinol Firming Body Guasha Serum 100ml",
+      "name_en": "Bongseop Retinol Firming Shot Body Gua Sha Serum 100ml",
       "bucket": "스킨케어",
       "score": 96,
       "rating": 4.7,
@@ -1462,10 +1465,10 @@
       "ad_keywords": [
         "body-serum",
         "retinol-serum",
-        "body-guasha",
+        "gua-sha",
         "firming-serum",
-        "korean-skincare",
-        "bonsep"
+        "k-beauty",
+        "body-care"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
@@ -1492,10 +1495,10 @@
       "ad_keywords": [
         "celderma",
         "pdrn-mask",
-        "radiance-cream",
-        "wrapping-mask",
+        "sheet-mask",
         "k-beauty",
-        "sheet-mask"
+        "radiance-mask",
+        "facial-mask"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
@@ -1508,7 +1511,7 @@
       "canonical_product_id": "CP000109",
       "pd_no": "1049285",
       "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-      "name_en": "VT Super Hyalon Sleeping Mask 4ml 6 Pack",
+      "name_en": "VT Super Hyalon Sleeping Mask 4ml x 6ea",
       "bucket": "스킨케어",
       "score": 92,
       "rating": 4.8,
@@ -1525,7 +1528,7 @@
         "hyaluronic-acid",
         "k-beauty",
         "facial-mask",
-        "hydrating-mask"
+        "night-skincare"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
@@ -1580,8 +1583,8 @@
         "collagen-mask",
         "sheet-mask",
         "k-beauty",
-        "korean-skincare",
-        "firming-mask"
+        "firming-mask",
+        "facial-mask"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
@@ -1594,7 +1597,7 @@
       "canonical_product_id": "CP000075",
       "pd_no": "1042619",
       "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
-      "name_en": "Celderma Daily Collagen Essence Gel Mask 29g",
+      "name_en": "Celderma Daily Collagen Essence Gel Mask 29 g",
       "bucket": "마스크팩",
       "score": 88,
       "rating": 4.7,
@@ -1608,9 +1611,9 @@
       "ad_keywords": [
         "celderma",
         "collagen-mask",
-        "gel-mask",
+        "essence-gel-mask",
         "sheet-mask",
-        "k-beauty",
+        "korean-skincare",
         "facial-mask"
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
@@ -1621,42 +1624,6 @@
     }
   ],
   "competitor_watch": [
-    {
-      "name": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-      "brand": "MEDIHEAL",
-      "price_usd": 20.99,
-      "rating": 4.8,
-      "review_count": 1075,
-      "us_rank": 4,
-      "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 4위 · 마스크팩 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA48723304",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)",
-      "brand": "UNOVE",
-      "price_usd": 24.7,
-      "rating": 5,
-      "review_count": 4,
-      "us_rank": 17,
-      "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 17위 · 마스크팩 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA39329211",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "Biodance Bio Collagen-Real Deep Mask 16ct 1.19 oz.(34g)",
-      "brand": "Biodance",
-      "price_usd": 62.0,
-      "rating": 5,
-      "review_count": 2,
-      "us_rank": 24,
-      "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 24위 · 마스크팩 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA22731950",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
     {
       "name": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
       "brand": "REJURAN",
@@ -1691,6 +1658,42 @@
       "daiso_bucket": "스킨케어",
       "why": "us.oliveyoung.com/best-sellers 실수집 6위 · 스킨케어 동일 포지션",
       "url": "https://us.oliveyoung.com/products/UA98417491",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
+      "brand": "MEDIHEAL",
+      "price_usd": 20.99,
+      "rating": 4.8,
+      "review_count": 1075,
+      "us_rank": 4,
+      "daiso_bucket": "마스크팩",
+      "why": "us.oliveyoung.com/best-sellers 실수집 4위 · 마스크팩 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA48723304",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)",
+      "brand": "UNOVE",
+      "price_usd": 24.7,
+      "rating": 5,
+      "review_count": 4,
+      "us_rank": 17,
+      "daiso_bucket": "마스크팩",
+      "why": "us.oliveyoung.com/best-sellers 실수집 17위 · 마스크팩 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA39329211",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "Biodance Bio Collagen-Real Deep Mask 16ct 1.19 oz.(34g)",
+      "brand": "Biodance",
+      "price_usd": 62.0,
+      "rating": 5,
+      "review_count": 2,
+      "us_rank": 24,
+      "daiso_bucket": "마스크팩",
+      "why": "us.oliveyoung.com/best-sellers 실수집 24위 · 마스크팩 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA22731950",
       "source": "us.oliveyoung.com/best-sellers 실수집"
     }
   ],
