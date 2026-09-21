@@ -2,7 +2,7 @@
 title: "Record 83a73ffe5e · Anthropic-Raises-Series-F-At-Usd183B-Post-Money-Val"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T09:43:53.611656+00:00
+updated_at: 2026-09-21T12:51:25.106564+00:00
 tags: [record, real-data]
 ---
 

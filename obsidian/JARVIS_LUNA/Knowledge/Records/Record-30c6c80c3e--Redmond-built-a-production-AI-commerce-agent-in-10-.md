@@ -2,7 +2,7 @@
 title: "Record 30c6c80c3e · Redmond-built-a-production-AI-commerce-agent-in-10-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T09:43:53.192216+00:00
+updated_at: 2026-09-21T12:51:24.851197+00:00
 tags: [record, real-data]
 ---
 

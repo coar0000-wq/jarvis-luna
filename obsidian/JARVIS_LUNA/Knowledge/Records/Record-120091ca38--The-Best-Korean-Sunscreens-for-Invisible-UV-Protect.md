@@ -2,7 +2,7 @@
 title: "Record 120091ca38 · The-Best-Korean-Sunscreens-for-Invisible-UV-Protect"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T09:43:53.315930+00:00
+updated_at: 2026-09-21T12:51:24.919681+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,10 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMigwFBVV95cUxObVNqeHpLQ3ZVc29jQ0JxTnpaTXhTTklfME5rN3QzakpIajB2Q09jekF5Q0dVYTN3M3ZiUklmWDZ5RTFGMnRwU1kzYWNMWGlybVNIYUZ1R1huUGYzTEJnanhBQzhqWXh3MFZYVFpLRWJSeTVBWEFiMm0tVlpMb19XZDVkbw?oc=5)
 
-**제목:** The Best Korean Sunscreens for Invisible UV Protection - The Daily Beast
+**제목:** The Best Korean Sunscreens for Invisible UV Protection - thelooker.thedailybeast.com
 
-The Best Korean Sunscreens for Invisible UV Protection - The Daily Beast
-The Best Korean Sunscreens for Invisible UV Protection - The Daily Beast
+The Best Korean Sunscreens for Invisible UV Protection - thelooker.thedailybeast.com
+The Best Korean Sunscreens for Invisible UV Protection - thelooker.thedailybeast.com
 
 **출처:** Source · us_beauty
 

@@ -2,7 +2,7 @@
 title: "Record 7e8c10d6ca · FOODOLOGY-Coleology-Cutting-Jelly-088-oz25g-x-10ea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T09:43:53.538759+00:00
+updated_at: 2026-09-21T12:51:25.062270+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** FOODOLOGY Coleology Cutting Jelly 0.88 oz.(25g) x 10ea
 
 FOODOLOGY Coleology Cutting Jelly 0.88 oz.(25g) x 10ea
-FOODOLOGY Coleology Cutting Jelly 0.88 oz.(25g) x 10ea · 평점 4.6 · 리뷰 8
+FOODOLOGY Coleology Cutting Jelly 0.88 oz.(25g) x 10ea · 평점 4.7 · 리뷰 10
 
 **출처:** Source · us_beauty
 

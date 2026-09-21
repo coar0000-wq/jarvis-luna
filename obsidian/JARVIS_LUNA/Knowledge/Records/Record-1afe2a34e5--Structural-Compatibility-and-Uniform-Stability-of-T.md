@@ -2,7 +2,7 @@
 title: "Record 1afe2a34e5 · Structural-Compatibility-and-Uniform-Stability-of-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T09:43:52.774037+00:00
+updated_at: 2026-09-21T12:51:24.577506+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 87cdc82b56 · The-Top-Trends-That-Will-Define-Beauty-in-2026---Th"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T09:43:53.360784+00:00
+updated_at: 2026-09-21T12:51:24.944050+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMikwFBVV95cUxORnZkQ2hmazl2clNmRWhpT29BSzhuSGp5UXduRzZpU3NFdWFrdWdvRFdDZF9BeXEwaVR1MkdwR1U3WVRoNDNNN2VLRHpKZks0VGJ5ZnRUa2tYZVJPZ0tWYy1lZHlER2dlN2FTQnRKNTRoMDByQVpzSTNnLXpJQlBZWXhqMzVxYTFJRHpwaUlpZWRuSlE?oc=5)
 
-**제목:** The Top Trends That Will Define Beauty in 2026 - businessoffashion.com
+**제목:** The Top Trends That Will Define Beauty in 2026 - The Business of Fashion
 
-The Top Trends That Will Define Beauty in 2026 - businessoffashion.com
+The Top Trends That Will Define Beauty in 2026 - The Business of Fashion
 
 **출처:** Source · Google Search
 

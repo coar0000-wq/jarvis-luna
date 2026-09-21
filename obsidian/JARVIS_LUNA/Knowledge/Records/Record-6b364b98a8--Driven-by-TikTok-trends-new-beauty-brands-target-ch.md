@@ -2,7 +2,7 @@
 title: "Record 6b364b98a8 · Driven-by-TikTok-trends-new-beauty-brands-target-ch"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T09:43:53.407606+00:00
+updated_at: 2026-09-21T12:51:24.972667+00:00
 tags: [record, real-data]
 ---
 

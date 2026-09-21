@@ -2,7 +2,7 @@
 title: "Record 05f2de6287 · Korea-overtakes-US-to-become-worlds-No-2-cosmetics-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T09:43:53.256657+00:00
+updated_at: 2026-09-21T12:51:24.885078+00:00
 tags: [record, real-data]
 ---
 

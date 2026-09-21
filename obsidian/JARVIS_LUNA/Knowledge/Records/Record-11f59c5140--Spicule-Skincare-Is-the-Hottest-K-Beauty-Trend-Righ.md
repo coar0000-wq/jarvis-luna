@@ -2,7 +2,7 @@
 title: "Record 11f59c5140 · Spicule-Skincare-Is-the-Hottest-K-Beauty-Trend-Righ"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T09:43:53.179804+00:00
+updated_at: 2026-09-21T12:51:24.843388+00:00
 tags: [record, real-data]
 ---
 

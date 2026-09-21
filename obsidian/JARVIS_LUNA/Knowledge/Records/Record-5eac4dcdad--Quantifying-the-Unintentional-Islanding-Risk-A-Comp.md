@@ -2,7 +2,7 @@
 title: "Record 5eac4dcdad · Quantifying-the-Unintentional-Islanding-Risk-A-Comp"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T09:43:52.850407+00:00
+updated_at: 2026-09-21T12:51:24.626597+00:00
 tags: [record, real-data]
 ---
 

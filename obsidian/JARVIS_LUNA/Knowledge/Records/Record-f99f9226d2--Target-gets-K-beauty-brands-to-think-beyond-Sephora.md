@@ -2,7 +2,7 @@
 title: "Record f99f9226d2 · Target-gets-K-beauty-brands-to-think-beyond-Sephora-Ulta-with-new-Beau"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T09:43:53.433112+00:00
+updated_at: 2026-09-21T12:51:24.987501+00:00
 tags: [record, real-data]
 ---
 
@@ -13,9 +13,10 @@ tags: [record, real-data]
 **제목:** Target gets K-beauty brands to think beyond Sephora, Ulta with new Beauty Studio - Modern Retail
 
 Target gets K-beauty brands to think beyond Sephora, Ulta with new Beauty Studio - Modern Retail
+Target gets K-beauty brands to think beyond Sephora, Ulta with new Beauty Studio - Modern Retail
 
-**출처:** Source · Google Search
+**출처:** Source · us_beauty
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

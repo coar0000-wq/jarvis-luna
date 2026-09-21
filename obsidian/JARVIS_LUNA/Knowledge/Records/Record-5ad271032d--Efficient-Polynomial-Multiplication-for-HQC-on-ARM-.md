@@ -2,7 +2,7 @@
 title: "Record 5ad271032d · Efficient-Polynomial-Multiplication-for-HQC-on-ARM-Cortex-M4"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T09:43:53.060600+00:00
+updated_at: 2026-09-21T12:51:24.757540+00:00
 tags: [record, real-data]
 ---
 

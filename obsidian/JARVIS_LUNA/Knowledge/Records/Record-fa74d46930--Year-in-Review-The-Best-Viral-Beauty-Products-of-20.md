@@ -2,7 +2,7 @@
 title: "Record fa74d46930 · Year-in-Review-The-Best-Viral-Beauty-Products-of-20"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T09:43:53.366714+00:00
+updated_at: 2026-09-21T12:51:24.947606+00:00
 tags: [record, real-data]
 ---
 

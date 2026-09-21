@@ -2,7 +2,7 @@
 title: "Record eb45301276 · Biodance-Rejuvenating-Caviar-PDRN-Real-Deep-Mask-4c"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T09:43:53.545141+00:00
+updated_at: 2026-09-21T12:51:25.065729+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 0ef633c856 · Project-Pan-Is-the-Beauty-Communitys-Answer-to-Cons"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T09:43:53.395804+00:00
+updated_at: 2026-09-21T12:51:24.965484+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record f34cf6ec9a · Scale-Cant-Overcome-Pragmatics-The-Impact-of-Report"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T09:43:53.012166+00:00
+updated_at: 2026-09-21T12:51:24.727958+00:00
 tags: [record, real-data]
 ---
 
