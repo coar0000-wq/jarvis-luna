@@ -1,65 +1,75 @@
 {
-  "generated_at": "2026-09-17T22:37:16.577315+00:00",
+  "generated_at": "2026-09-21T22:59:05.031627+00:00",
   "generator": "scripts/collect_serpapi_market.py",
   "plan": "SerpApi free 250 searches/month, 50/hour (2026-09-05 확인)",
   "정책": "월 상한 200 회. 넘으면 호출하지 않고 사유만 남긴다. 주 1회만 실행한다.",
   "usage": {
     "month": "2026-09",
-    "used": 116,
+    "used": 132,
     "cap": 200,
-    "spent_this_run": 13
+    "spent_this_run": 11
   },
   "prices": {
     "status": "ok",
     "reason": "",
-    "count": 5,
+    "count": 3,
     "failures": [
       {
         "pd_no": "1049276",
         "query": "VT Reedle Shot 300 Facial Boosting First Ampoule 2ml x 6",
-        "reason": "Google hasn't returned any results for this query."
+        "reason": "TimeoutError: The read operation timed out"
       },
       {
-        "pd_no": "1055167",
-        "query": "VONSEP Retinol 500 IU Serum 30 ml",
-        "reason": "Google hasn't returned any results for this query."
+        "pd_no": "1049275",
+        "query": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6",
+        "reason": "TimeoutError: The read operation timed out"
+      },
+      {
+        "pd_no": "1067498",
+        "query": "VT PDRN Radiance Cream 50 ml",
+        "reason": "TimeoutError: The read operation timed out"
       },
       {
         "pd_no": "1049285",
         "query": "VT Super Hyalon Sleeping Mask 4ml 6ea",
-        "reason": "Google hasn't returned any results for this query."
+        "reason": "TimeoutError: The read operation timed out"
+      },
+      {
+        "pd_no": "1067495",
+        "query": "[퀵 수분충전]VT PDRN 광채 토너 200 ml",
+        "reason": "TimeoutError: The read operation timed out"
       },
       {
         "pd_no": "1059834",
         "query": "Celderma Daily Transforming Firming Collagen Mask 28g",
-        "reason": "Google hasn't returned any results for this query."
+        "reason": "TimeoutError: The read operation timed out"
       },
       {
         "pd_no": "1042619",
-        "query": "Celderma Daily Collagen Essence Gel Mask 29g",
+        "query": "Celderma Daily Collagen Essence Gel Mask 29 g",
         "reason": "Google hasn't returned any results for this query."
       }
     ],
     "items": [
       {
-        "pd_no": "1049275",
-        "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
-        "query": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6ea",
+        "pd_no": "1055167",
+        "name": "본셉 레티놀 500 IU 세럼 30 ml",
+        "query": "VONSEPT Retinol 500 IU Serum 30 ml",
         "n": 20,
-        "min_usd": 5.99,
-        "median_usd": 17.44,
-        "max_usd": 42.99,
+        "min_usd": 5.96,
+        "median_usd": 18.85,
+        "max_usd": 58.81,
         "engine": "google_shopping",
         "cached": false
       },
       {
-        "pd_no": "1067498",
-        "name": "[영양광채]VT PDRN 광채 크림 50 ml",
-        "query": "VT PDRN Glow Cream 50 ml",
-        "n": 20,
-        "min_usd": 10.0,
-        "median_usd": 23.0,
-        "max_usd": 75.88,
+        "pd_no": "1072554",
+        "name": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
+        "query": "Bongseop Retinol Firming Shot Body Gua Sha Serum 100ml",
+        "n": 14,
+        "min_usd": 7.64,
+        "median_usd": 19.94,
+        "max_usd": 35.0,
         "engine": "google_shopping",
         "cached": false
       },
@@ -67,32 +77,10 @@
         "pd_no": "1075857",
         "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
         "query": "Celderma Daily PDRN Radiance Cream Wrapping Mask 1ea",
-        "n": 10,
+        "n": 5,
         "min_usd": 5.14,
-        "median_usd": 12.63,
-        "max_usd": 29.99,
-        "engine": "google_shopping",
-        "cached": false
-      },
-      {
-        "pd_no": "1041403",
-        "name": "채비공간 어성초 추출물 비건 토너 150 ml",
-        "query": "Chaebi Gongan Heartleaf Extract Vegan Toner 150ml",
-        "n": 7,
-        "min_usd": 6.54,
-        "median_usd": 8.97,
-        "max_usd": 23.99,
-        "engine": "google_shopping",
-        "cached": false
-      },
-      {
-        "pd_no": "1060211",
-        "name": "바세린 모이스처라이징 클렌징 밀크 140 ml",
-        "query": "Vaseline Moisturizing Cleansing Milk 140 ml",
-        "n": 3,
-        "min_usd": 29.99,
-        "median_usd": 29.99,
-        "max_usd": 29.99,
+        "median_usd": 16.13,
+        "max_usd": 17.43,
         "engine": "google_shopping",
         "cached": false
       }
@@ -107,30 +95,8 @@
       {
         "seed": "korean sheet mask",
         "points": 53,
-        "avg_recent_8w": 7.0,
-        "avg_base_8w": 10.5,
-        "peak": 100,
-        "engine": "google_trends",
-        "geo": "US",
-        "window": "today 12-m",
-        "cached": false
-      },
-      {
-        "seed": "korean ampoule",
-        "points": 53,
-        "avg_recent_8w": 18.6,
-        "avg_base_8w": 17.2,
-        "peak": 100,
-        "engine": "google_trends",
-        "geo": "US",
-        "window": "today 12-m",
-        "cached": false
-      },
-      {
-        "seed": "korean face cream",
-        "points": 53,
-        "avg_recent_8w": 20.9,
-        "avg_base_8w": 16.9,
+        "avg_recent_8w": 4.2,
+        "avg_base_8w": 11.4,
         "peak": 100,
         "engine": "google_trends",
         "geo": "US",
@@ -140,8 +106,8 @@
       {
         "seed": "pdrn",
         "points": 53,
-        "avg_recent_8w": 35.5,
-        "avg_base_8w": 10.6,
+        "avg_recent_8w": 34.9,
+        "avg_base_8w": 11.6,
         "peak": 100,
         "engine": "google_trends",
         "geo": "US",
@@ -149,10 +115,10 @@
         "cached": false
       },
       {
-        "seed": "collagen",
+        "seed": "korean ampoule",
         "points": 53,
-        "avg_recent_8w": 35.4,
-        "avg_base_8w": 30.0,
+        "avg_recent_8w": 16.5,
+        "avg_base_8w": 17.8,
         "peak": 100,
         "engine": "google_trends",
         "geo": "US",
@@ -162,8 +128,30 @@
       {
         "seed": "korean serum",
         "points": 53,
-        "avg_recent_8w": 23.2,
-        "avg_base_8w": 16.6,
+        "avg_recent_8w": 23.1,
+        "avg_base_8w": 17.9,
+        "peak": 100,
+        "engine": "google_trends",
+        "geo": "US",
+        "window": "today 12-m",
+        "cached": false
+      },
+      {
+        "seed": "korean face cream",
+        "points": 53,
+        "avg_recent_8w": 21.0,
+        "avg_base_8w": 17.6,
+        "peak": 100,
+        "engine": "google_trends",
+        "geo": "US",
+        "window": "today 12-m",
+        "cached": false
+      },
+      {
+        "seed": "collagen",
+        "points": 53,
+        "avg_recent_8w": 35.5,
+        "avg_base_8w": 31.6,
         "peak": 100,
         "engine": "google_trends",
         "geo": "US",
@@ -173,8 +161,8 @@
       {
         "seed": "korean toner",
         "points": 53,
-        "avg_recent_8w": 21.0,
-        "avg_base_8w": 25.6,
+        "avg_recent_8w": 20.0,
+        "avg_base_8w": 26.2,
         "peak": 100,
         "engine": "google_trends",
         "geo": "US",
@@ -182,10 +170,10 @@
         "cached": false
       },
       {
-        "seed": "heartleaf",
+        "seed": "korean essence",
         "points": 53,
-        "avg_recent_8w": 13.5,
-        "avg_base_8w": 10.4,
+        "avg_recent_8w": 11.9,
+        "avg_base_8w": 12.5,
         "peak": 100,
         "engine": "google_trends",
         "geo": "US",
