@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-21T11:27:15.497161+00:00",
+  "generated_at": "2026-09-21T11:35:48.270037+00:00",
   "csv": "data/shopify_import.csv",
   "rows": 0,
-  "listing_gate": "listing_gate.json 2026-09-21T11:27:15 기준 등록 가능 9/10",
+  "listing_gate": "listing_gate.json 2026-09-21T11:35:47 기준 등록 가능 9/10",
   "skipped": [
     {
       "pd_no": "1049276",
