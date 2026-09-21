@@ -294,11 +294,23 @@ TEAM_PHASE = {
 
 
 def _team(tid: str, name: str, when: str | None, summary: str,
-          action: str | None = None, status: str = "ok") -> dict:
+          action: str | None = None, status: str = "ok",
+          action_kind: str = "auto_remediable",
+          waiting: str | None = None,
+          waiting_kind: str = "human_approval_required",
+          notice: str | None = None) -> dict:
+    """팀 카드의 자동조치와 사람/외부 대기를 분리한다.
+
+    노란색은 비서실장이 실제로 반복 해결할 수 있는 action에만 쓴다.
+    사용자의 승인·사업자 정보·외부 계정처럼 자동화가 만들면 안 되는 값은
+    waiting으로 분리하고, 정상 실행 통계는 notice로 표시한다.
+    """
     icon = TEAM_ICONS.get(tid, {"color": "#555", "glyph": "dot"})
     phase, phase_label = TEAM_PHASE.get(tid, ("now", ""))
     return {"id": tid, "name": name, "when": when, "summary": summary,
-            "action": action, "status": status,
+            "action": action, "action_kind": action_kind if action else None,
+            "waiting": waiting, "waiting_kind": waiting_kind if waiting else None,
+            "notice": notice, "status": status,
             "phase": phase, "phase_label": phase_label,
             "color": icon["color"], "glyph": icon["glyph"]}
 
@@ -627,8 +639,9 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
             "sourcing", "상품 소싱팀",
             (score or {}).get("generated_at") or (prod or {}).get("updated_at"),
             (f'{n}개 상품 · 등급 {grade}' if grade else f'{n}개 상품') + feed_tail("sourcing"),
-            act,
-            "ok" if n else "failed"))
+            None,
+            "ok" if n else "failed",
+            notice=act))
     else:
         cards.append(_team("sourcing", "상품 소싱팀", None,
                            "data/daiso_real/products.json 없음", None, "missing"))
@@ -734,14 +747,30 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
             public_ready = gate.get("public_ready")
             if public_ready is None:
                 public_ready = gate.get("ready", 0)
+            # 자동 생성기로 다시 만들 수 있는 누락과, 임의로 만들면 안 되는
+            # 규제/승인 값을 같은 노란 경고로 섞지 않는다.
+            auto_keys = ("ontology", "price")
+            auto_top = ", ".join(
+                f'{LABEL.get(k, k)} {blk.get(k, 0)}건'
+                for k in auto_keys if blk.get(k, 0)
+            )
+            human_top = ", ".join(
+                f'{LABEL.get(k, k)} {blk.get(k, 0)}건'
+                for k in ("copy", "gosi", "us_label", "legal") if blk.get(k, 0)
+            )
             action_bits = []
-            if top:
-                action_bits.append(f"{top} 이 초안을 막고 있음")
+            waiting_bits = []
+            if auto_top:
+                action_bits.append(f"{auto_top} 자동 재생성·재검증 필요")
+            if human_top:
+                waiting_bits.append(
+                    f"{human_top} 원본 자료 또는 무료 생성 경로 확보 대기"
+                )
             if public_ready < gate.get("ready", 0):
-                action_bits.append("MoCRA/FPLA 풀스키마가 공개 판매를 막고 있음")
+                waiting_bits.append("MoCRA/FPLA 사업자·규제 정보 확인 대기")
             waiting_actions = (action_queue.get("states") or {}).get("WAITING_HUMAN_APPROVAL", 0)
             if waiting_actions:
-                action_bits.append(f"Shopify Draft Action {waiting_actions}건 사람 승인 대기")
+                waiting_bits.append(f"Shopify Draft Action {waiting_actions}건 사람 승인 대기")
             cards.append(_team(
                 "listing", "리스팅 제작팀", gate.get("generated_at"),
                 f'AI 입력 {gate.get("agent_ready", 0)}/{gate.get("total", 0)} · '
@@ -749,7 +778,10 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
                 f'공개 준비 {public_ready}/{gate.get("total", 0)} · '
                 f'Action {action_queue.get("draft_action_count", 0)}건 · {detail}',
                 " · ".join(action_bits) if action_bits else None,
-                "ok" if gate.get("total") else "failed"))
+                "ok" if gate.get("total") else "failed",
+                action_kind="auto_remediable",
+                waiting=" · ".join(waiting_bits) if waiting_bits else None,
+                waiting_kind="human_approval_required"))
         else:
             cards.append(_team(
                 "listing", "리스팅 제작팀", copy.get("generated_at"),
@@ -817,18 +849,21 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
             if mo.get("exempt_count"):
                 mocra_txt += f'(면제 {mo["exempt_count"]})'
 
+        legal_waiting = ((f'차단 {hard}건: ' + ', '.join(hard_names[:2])
+                          + ' — 검증 가능한 라벨·사업자 자료 입력 대기') if hard else
+                         ('MoCRA 남은 항목: ' + ', '.join((mo.get("blocking") or [])[:3])
+                          if mo.get("blocking") else None))
         cards.append(_team(
             "legal", "법률·규제팀", lp.get("auto_checked_at"),
-            # 자동 점검이 깨끗하면 통과가 정상 경로다. 사람을 부르는 건
-            # 실제로 막힌 건(hard_block)뿐이다. 예전에는 주의 표시만 떠도
-            # "PASS 판정 필요" 라고 적어 매번 사람이 해야 할 일처럼 보였다.
+            # 규제번호와 사업자 정보는 자동 생성하지 않는다. 그래서 노란
+            # 자동조치가 아니라 명시적인 사람 입력 대기로 보낸다.
             f'자동 점검 {n_chk}건 · 통과 {a.get("clean", 0)} · '
             f'등록 차단 {hard} · 참고 주의 {att}' + mocra_txt + exp_txt
             + feed_tail("legal"),
-            (f'차단 {hard}건: ' + ', '.join(hard_names[:2])
-             + ' — 라벨 갖추기 전엔 못 올림') if hard else
-            ('MoCRA 남은 항목: ' + ', '.join((mo.get("blocking") or [])[:3])
-             if mo.get("blocking") else None)))
+            None,
+            "ok" if n_chk else "failed",
+            waiting=legal_waiting,
+            waiting_kind="human_approval_required"))
     else:
         cards.append(_team("legal", "법률·규제팀", None,
                            "legal_products.json 없음", None, "missing"))
@@ -875,7 +910,10 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
             "design", "디자인팀", ds.get("generated_at") or dt.get("generated_at"),
             f'스토어 {c.get("done", 0)}/{c.get("total", 0)}단계 · 레퍼런스 {refs}건'
             + src_txt + feed_tail("design"),
-            f'다음 단계: {first}' if waiting and first else None))
+            None,
+            "ok",
+            waiting=f'다음 단계: {first}' if waiting and first else None,
+            waiting_kind="external_dependency"))
     else:
         cards.append(_team("design", "디자인팀", None,
                            "design_team.json 없음", None, "missing"))
@@ -1041,6 +1079,9 @@ def main() -> None:
         ),
         "teams": teams,
         "secretary": secretary,
+        "remediation_state": load_json(
+            ROOT / "data" / "agents" / "remediation_state.json", {}
+        ) or {},
         # 단계별 묶음. 화면이 팀을 순서대로 보여줄 수 있게 한다.
         "phases": {
             "now": {"label": "1단계 · 지금 돌면서 후보를 좁힌다",

@@ -398,14 +398,26 @@ jobs:
       # AUTOFIX REPORT VALIDATION
       # =========================
 
-      - name: Validate Safe Auto-Fix report
+      - name: Validate Safe Auto-Fix report and remediation ledger
         run: |
-          if [ -f data/agents/autofix_report.json ]; then
-            python -m json.tool data/agents/autofix_report.json >/dev/null
-            echo "Safe Auto-Fix report OK"
-          else
-            echo "Safe Auto-Fix report not found — continuing"
-          fi
+          python -m json.tool data/agents/autofix_report.json >/dev/null
+          python -m json.tool data/agents/remediation_state.json >/dev/null
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          state = json.loads(Path("data/agents/remediation_state.json").read_text(encoding="utf-8"))
+          assert state.get("schema_version") == 1
+          assert state.get("check_interval") == "2_hours"
+          allowed = {
+              "auto_remediable", "revalidate_only", "human_approval_required",
+              "external_dependency", "informational",
+          }
+          for issue in (state.get("issues") or {}).values():
+              assert issue.get("classification") in allowed
+              assert int(issue.get("detected_runs") or 0) >= 1
+          print("Safe Auto-Fix report and remediation ledger OK")
+          PY
 
       # =========================
       # REAL-DATA VALIDATION

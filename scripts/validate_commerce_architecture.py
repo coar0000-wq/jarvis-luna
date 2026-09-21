@@ -41,6 +41,9 @@ def main() -> int:
     strategy = load(D / "shopify_marketing_strategy.json")
     insight_source = load(D / "manual" / "shopify_youtube_insights.json")
     action_queue = load(D / "shopify_action_queue.json")
+    dashboard = load(D / "dashboard_runtime.json")
+    chief = load(D / "agents" / "chief_of_staff.json")
+    remediation = load(D / "agents" / "remediation_state.json")
 
     # 게이트가 낡았으면 그 아래 조인은 전부 낡은 판정 위에 서 있다.
     # 이 검사가 없어서 예전에는 낡은 ready 로 만든 Action 도 OK 가 나왔다.
@@ -228,6 +231,38 @@ def main() -> int:
     for script in ("build_legal_full.py", "export_shopify_operational.py",
                    "build_shopify_action_queue.py"):
         require((ROOT / "scripts" / script).exists(), f"workflow 참조 스크립트 없음: {script}")
+
+    # 노란색은 비서실장이 실제로 처리하는 항목에만 허용한다. 사용자 승인,
+    # 외부 계정, 정상 실행 통계를 다시 '조치 필요'로 섞는 회귀를 막는다.
+    classes = {"auto_remediable", "revalidate_only", "human_approval_required",
+               "external_dependency", "informational"}
+    teams = dashboard.get("teams") or []
+    for team in teams:
+        if team.get("action"):
+            require(team.get("action_kind") in classes,
+                    f'{team.get("id")} action 분류 누락')
+        if team.get("waiting"):
+            require(team.get("waiting_kind") in {
+                "human_approval_required", "external_dependency"
+            }, f'{team.get("id")} waiting 분류 오류')
+    sourcing = next((x for x in teams if x.get("id") == "sourcing"), {})
+    require(not sourcing.get("action") and bool(sourcing.get("notice")),
+            "정상 소싱 통계가 다시 노란 조치로 분류됨")
+
+    for decision in chief.get("decisions") or []:
+        require(decision.get("remediation_class") in classes,
+                f'비서실장 결정 분류 누락: {decision.get("action")}')
+    disabled = ((chief.get("snapshot") or {}).get("channels") or {}).get(
+        "disabled_expected") or []
+    empty = ((chief.get("snapshot") or {}).get("channels") or {}).get("empty") or []
+    disabled_names = {x.get("channel") for x in disabled}
+    empty_names = {x.get("channel") for x in empty}
+    require(not disabled_names.intersection(empty_names),
+            "의도적 disabled 채널이 빈 채널 장애로 분류됨")
+    require(remediation.get("schema_version") == 1,
+            "지속 해결 장부 schema v1 필요")
+    require(remediation.get("check_interval") == "2_hours",
+            "비서실장 지속 재검증 주기 누락")
 
     print("COMMERCE_ARCHITECTURE_OK")
     print(f"master={len(products)} S={len(recs)} gate_ready={len(ready_ids)} "

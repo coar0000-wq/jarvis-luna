@@ -108,6 +108,7 @@ TEAM_HUB_SCRIPT = ROOT / "scripts" / "build_team_hubs.py"
 
 REPORT = AGENTS_DIR / "autofix_report.json"
 CHIEF_REPORT = AGENTS_DIR / "chief_of_staff.json"
+REMEDIATION_STATE = AGENTS_DIR / "remediation_state.json"
 
 WIKILINK_RE = re.compile(r"\[\[([^\]|#]+)")
 
@@ -528,15 +529,26 @@ def get_source_snapshot() -> dict:
     live_channels = 0
     total_channels = 0
     empty_channels: list[dict] = []
+    disabled_channels: list[dict] = []
     channel_status = runtime.get("global_channels_status") or {}
     if isinstance(channel_status, dict):
-        total_channels = len(channel_status)
         for name, meta in channel_status.items():
             if not isinstance(meta, dict):
                 continue
             count = int(meta.get("count") or 0)
             status = str(meta.get("status") or "").lower()
-            if count > 0 and status not in {"failed", "disabled"}:
+            # 조작 지표 제거처럼 의도적으로 끈 채널은 장애도, 복구 대상도
+            # 아니다. 활성 채널 분모와 빈 채널 경고에서 모두 제외한다.
+            if status == "disabled":
+                disabled_channels.append({
+                    "channel": name,
+                    "count": count,
+                    "status": status,
+                    "reason": meta.get("reason"),
+                })
+                continue
+            total_channels += 1
+            if count > 0 and status != "failed":
                 live_channels += 1
             if count == 0 or status in {"empty", "failed"}:
                 empty_channels.append({
@@ -545,6 +557,26 @@ def get_source_snapshot() -> dict:
                     "status": status or "empty",
                     "reason": meta.get("reason"),
                 })
+
+    dashboard_issues: list[dict] = []
+    for team in runtime.get("teams") or []:
+        if not isinstance(team, dict):
+            continue
+        team_id = str(team.get("id") or "unknown")
+        if team.get("action"):
+            dashboard_issues.append({
+                "team": team_id,
+                "kind": str(team.get("action_kind") or "revalidate_only"),
+                "text": str(team.get("action")),
+                "source": "action",
+            })
+        if team.get("waiting"):
+            dashboard_issues.append({
+                "team": team_id,
+                "kind": str(team.get("waiting_kind") or "human_approval_required"),
+                "text": str(team.get("waiting")),
+                "source": "waiting",
+            })
 
     runtime_graph = runtime.get("graph") or {}
     if not isinstance(runtime_graph, dict):
@@ -578,7 +610,12 @@ def get_source_snapshot() -> dict:
             "parse_failed": parse_failed,
             "finished_at": last_run.get("finished_at"),
         },
-        "channels": {"live": live_channels, "total": total_channels, "empty": empty_channels},
+        "channels": {
+            "live": live_channels,
+            "total": total_channels,
+            "empty": empty_channels,
+            "disabled_expected": disabled_channels,
+        },
         "graph": {
             # Chief가 사용할 graph 값은 실제 볼트 스캔 값을 우선한다.
             "nodes": graph_truth["actual_nodes"],
@@ -591,6 +628,7 @@ def get_source_snapshot() -> dict:
         },
         "shopify": {"s_count": s_count},
         "queue": {"blacklist_count": len(get_blacklist(queue)[0])},
+        "dashboard_issues": dashboard_issues,
     }
 
 
@@ -725,13 +763,14 @@ def build_team_health(snapshot: dict) -> dict:
         "auto_execute": False,
     }
 
-    ops_attention = blacklist_count > 0
+    # blacklist는 안전 필터가 정상 작동한 결과다. 건수가 있다는 이유만으로
+    # 매 실행마다 경고를 만들지 않고 운영 현황으로만 기록한다.
     team["ops"] = {
         **TEAM_DEFINITIONS["ops"],
-        "status": "attention" if ops_attention else "ok",
-        "priority": "P3" if ops_attention else "P4",
+        "status": "ok",
+        "priority": "P4",
         "evidence": {"blacklist_count": blacklist_count},
-        "recommended_action": "MONITOR_BLACKLIST" if ops_attention else "MONITOR",
+        "recommended_action": "MONITOR",
         "auto_execute": False,
     }
 
@@ -820,6 +859,21 @@ def build_team_health(snapshot: dict) -> dict:
     return team
 
 
+def remediation_class_for(action: str) -> str:
+    """경고를 실행 책임에 따라 분류한다."""
+    if action in {"SAFE_BLACKLIST_SYNC", "NORMALIZE_AND_REBUILD_GRAPH"}:
+        return "auto_remediable"
+    if action in {"REVIEW_LISTING_GATE", "REVIEW_LEGAL_PIPELINE", "SHOPIFY_ADMIN_WRITE"}:
+        return "human_approval_required"
+    if action in {"REFRESH_LOW_SIGNAL_CHANNELS", "INVESTIGATE_EMPTY_CHANNELS"}:
+        return "external_dependency"
+    if action in {"REVIEW_SCORE_PIPELINE", "REVIEW_KNOWLEDGE_PIPELINE", "REVIEW_PRICING_PIPELINE"}:
+        return "revalidate_only"
+    if action in {"MONITOR", "MONITOR_BLACKLIST"}:
+        return "informational"
+    return "human_approval_required"
+
+
 def append_team_decisions(decisions: list[dict], team_health: dict) -> list[dict]:
     """팀별 장애를 Chief 판단 목록에 통합한다."""
     existing_actions = {(x.get("area"), x.get("action")) for x in decisions if isinstance(x, dict)}
@@ -852,6 +906,7 @@ def append_team_decisions(decisions: list[dict], team_health: dict) -> list[dict
             "action": action,
             "reason": reason,
             "evidence": item.get("evidence", {}),
+            "remediation_class": remediation_class_for(action),
             "auto_execute": bool(item.get("auto_execute") and action in {
                 "SAFE_BLACKLIST_SYNC",
                 "NORMALIZE_AND_REBUILD_GRAPH",
@@ -964,20 +1019,40 @@ def build_chief_of_staff_decision(snapshot: dict) -> dict:
             "auto_execute": False,
         })
 
-    # P3
-    blacklist_count = int(snapshot["queue"].get("blacklist_count") or 0)
-    if blacklist_count > 0:
-        decisions.append({
-            "priority": "P3",
-            "severity_score": 45,
-            "area": "daiso_queue",
-            "action": "MONITOR_BLACKLIST",
-            "reason": f"현재 blacklist가 {blacklist_count}건이다.",
-            "auto_execute": False,
-        })
+    # blacklist 건수는 안전 필터의 정상 현황이다. 장애 판단에는 넣지 않는다.
 
     # 전체 팀 건강상태를 Chief 판단에 통합
     append_team_decisions(decisions, team_health)
+
+    # 대시보드에 표시되는 사람/외부 대기도 실행 간 장부에 남긴다. 시스템이
+    # 매번 잊지 않고 감시하되, 규제번호나 Shopify 승인을 임의 생성하지 않는다.
+    for alert in snapshot.get("dashboard_issues") or []:
+        if not isinstance(alert, dict):
+            continue
+        team_id = str(alert.get("team") or "unknown")
+        klass = str(alert.get("kind") or "revalidate_only")
+        if klass not in {
+            "auto_remediable", "revalidate_only", "human_approval_required",
+            "external_dependency", "informational",
+        }:
+            klass = "revalidate_only"
+        if klass == "informational":
+            continue
+        # 현재 safe whitelist에 직접 실행기가 없는 팀 action은 재검증 루프로
+        # 강등한다. 노란색을 띄워 놓고 실행하지 않는 거짓 자동화를 막는다.
+        if klass == "auto_remediable":
+            klass = "revalidate_only"
+        action_name = f'TEAM_{str(alert.get("source") or "ACTION").upper()}_{team_id.upper()}'
+        decisions.append({
+            "priority": "P3" if klass == "revalidate_only" else "P4",
+            "severity_score": 35 if klass == "revalidate_only" else 15,
+            "area": f"dashboard:{team_id}",
+            "team": team_id,
+            "action": action_name,
+            "reason": str(alert.get("text") or "대시보드 대기 항목"),
+            "remediation_class": klass,
+            "auto_execute": False,
+        })
 
     if not decisions:
         decisions.append({
@@ -989,10 +1064,17 @@ def build_chief_of_staff_decision(snapshot: dict) -> dict:
             "auto_execute": False,
         })
 
+    for item in decisions:
+        item.setdefault("remediation_class", remediation_class_for(str(item.get("action") or "")))
+        item["requires_user_action"] = item["remediation_class"] == "human_approval_required"
+
     decisions.sort(key=chief_priority_sort_key)
     top = decisions[0]
     auto_actions = [x for x in decisions if x.get("auto_execute")]
-    hold_actions = [x for x in decisions if not x.get("auto_execute")]
+    hold_actions = [x for x in decisions if x.get("remediation_class") == "human_approval_required"]
+    monitored_actions = [x for x in decisions if x.get("remediation_class") in {
+        "revalidate_only", "external_dependency", "informational"
+    }]
 
     risk = {"P0": "critical", "P1": "high", "P2": "medium"}.get(top.get("priority"), "low")
 
@@ -1007,6 +1089,7 @@ def build_chief_of_staff_decision(snapshot: dict) -> dict:
         "decisions": decisions,
         "approved_auto_actions": auto_actions,
         "human_review_actions": hold_actions,
+        "monitored_actions": monitored_actions,
         "policy": {
             "may_modify_data": True,
             "may_modify_code": False,
@@ -1052,6 +1135,108 @@ def should_run_queue_autofix(chief: dict) -> bool:
 
 def should_run_obsidian_autofix(chief: dict) -> bool:
     return "NORMALIZE_AND_REBUILD_GRAPH" in approved_action_names(chief)
+
+
+# ============================================================================
+# PERSISTENT REMEDIATION LEDGER
+# ============================================================================
+
+def remediation_issue_key(item: dict) -> str:
+    return f'{item.get("area") or "system"}:{item.get("action") or "UNKNOWN"}'
+
+
+def update_remediation_state(chief_after: dict, executed_actions: set[str]) -> dict:
+    """실행 간 경고 수명·시도·해결 여부를 보존한다.
+
+    동일 이슈가 다음 2시간 주기에도 남으면 처음부터 잊지 않고 발생 횟수를
+    올린다. 자동조치 항목은 시도 횟수를 기록하고, 재검증 항목은 3회 연속이면
+    비서실장 내부 에스컬레이션 상태로 바꾼다. 사람 승인과 외부 의존성은
+    자동으로 값을 꾸며 해결하지 않는다.
+    """
+    previous = load_json(REMEDIATION_STATE, {})
+    if not isinstance(previous, dict):
+        previous = {}
+    old_issues = previous.get("issues") or {}
+    if not isinstance(old_issues, dict):
+        old_issues = {}
+
+    now = now_iso()
+    issues = dict(old_issues)
+    current_keys: set[str] = set()
+    decisions = chief_after.get("decisions") or []
+
+    for item in decisions:
+        if not isinstance(item, dict):
+            continue
+        klass = str(item.get("remediation_class") or remediation_class_for(
+            str(item.get("action") or "")
+        ))
+        if klass == "informational":
+            continue
+        key = remediation_issue_key(item)
+        current_keys.add(key)
+        prior = issues.get(key) if isinstance(issues.get(key), dict) else {}
+        seen = int(prior.get("detected_runs") or 0) + 1
+        attempts = int(prior.get("auto_attempts") or 0)
+        if str(item.get("action") or "") in executed_actions:
+            attempts += 1
+
+        if klass == "auto_remediable":
+            state = "retry_scheduled" if attempts else "detected"
+        elif klass == "revalidate_only":
+            state = "escalated_monitoring" if seen >= 3 else "monitoring"
+        elif klass == "human_approval_required":
+            state = "waiting_human_approval"
+        else:
+            state = "waiting_external_dependency"
+
+        issues[key] = {
+            "key": key,
+            "area": item.get("area"),
+            "action": item.get("action"),
+            "priority": item.get("priority"),
+            "classification": klass,
+            "state": state,
+            "reason": item.get("reason"),
+            "first_seen_at": prior.get("first_seen_at") or now,
+            "last_seen_at": now,
+            "detected_runs": seen,
+            "auto_attempts": attempts,
+            "resolved_at": None,
+        }
+
+    # 이전 실행에 있었지만 재검증 후 사라진 이슈는 해결로 닫는다.
+    for key, prior in list(issues.items()):
+        if key in current_keys or not isinstance(prior, dict):
+            continue
+        if prior.get("state") != "resolved":
+            prior = dict(prior)
+            prior["state"] = "resolved"
+            prior["resolved_at"] = now
+            prior["last_seen_at"] = prior.get("last_seen_at") or now
+            issues[key] = prior
+
+    active = [v for v in issues.values()
+              if isinstance(v, dict) and v.get("state") != "resolved"]
+    state = {
+        "schema_version": 1,
+        "generated_at": now,
+        "check_interval": "2_hours",
+        "escalate_after_detected_runs": 3,
+        "active_count": len(active),
+        "auto_remediable_count": sum(
+            1 for x in active if x.get("classification") == "auto_remediable"
+        ),
+        "waiting_human_count": sum(
+            1 for x in active if x.get("classification") == "human_approval_required"
+        ),
+        "waiting_external_count": sum(
+            1 for x in active if x.get("classification") == "external_dependency"
+        ),
+        "issues": issues,
+    }
+    save_json(REMEDIATION_STATE, state)
+    return state
 
 
 # ============================================================================
@@ -1108,12 +1293,14 @@ def main() -> int:
         print("[INFO] JARVIS_AUTOFIX_FORCE detected. Force only bypasses trigger gating; it does not bypass Safe Auto-Fix policy.")
 
     if not autofix_enabled:
+        remediation_state = update_remediation_state(chief, set())
         report = {
             "agent": "Safe-Auto-Fix",
             "generated_at": now_iso(),
             "status": "disabled",
             "enabled": False,
             "chief_of_staff": chief,
+            "remediation_state": remediation_state,
             "changes": [],
             "policy": safe_policy(),
         }
@@ -1245,6 +1432,12 @@ def main() -> int:
     # G. Chief report refresh
     chief_after = build_chief_of_staff_decision(after_snapshot)
     save_json(CHIEF_REPORT, chief_after)
+    executed_actions: set[str] = set()
+    if not queue_report.get("skipped"):
+        executed_actions.add("SAFE_BLACKLIST_SYNC")
+    if not obsidian_report.get("skipped"):
+        executed_actions.add("NORMALIZE_AND_REBUILD_GRAPH")
+    remediation_state = update_remediation_state(chief_after, executed_actions)
 
     # H. Report
     report = {
@@ -1261,6 +1454,8 @@ def main() -> int:
         "snapshot_before": snapshot,
         "snapshot_after": after_snapshot,
         "improvement": improvement,
+        "remediation_state": remediation_state,
+        "remediation_state_path": str(REMEDIATION_STATE.relative_to(ROOT)),
         "changes": changes,
         "queue": queue_report,
         "queue_validation": queue_validation,
@@ -1273,6 +1468,7 @@ def main() -> int:
             "data/dashboard_runtime.json",
             "data/agents/chief_of_staff.json",
             "data/agents/autofix_report.json",
+            "data/agents/remediation_state.json",
         ],
         "never_modified": [
             "Python source code",

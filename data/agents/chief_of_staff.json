@@ -1,68 +1,82 @@
 {
   "agent": "Chief-of-Staff",
   "role": "전체 JARVIS 운영상태를 종합하여 우선순위와 Safe Auto-Fix 실행 여부를 결정",
-  "generated_at": "2026-09-21T09:43:27.154456+00:00",
-  "risk": "medium",
-  "overall_priority": "P2",
-  "overall_action": "INVESTIGATE_EMPTY_CHANNELS",
-  "overall_reason": "비어 있거나 실패 상태인 채널이 1개 존재한다.",
+  "generated_at": "2026-09-21T10:14:49.337308+00:00",
+  "risk": "low",
+  "overall_priority": "P4",
+  "overall_action": "TEAM_WAITING_LISTING",
+  "overall_reason": "카피 3건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 6건 사람 승인 대기",
   "decisions": [
     {
-      "priority": "P2",
-      "severity_score": 72,
-      "area": "signals",
-      "action": "INVESTIGATE_EMPTY_CHANNELS",
-      "reason": "비어 있거나 실패 상태인 채널이 1개 존재한다.",
-      "channels": [
-        "shopify_demand_matching"
-      ],
-      "auto_execute": false
+      "priority": "P4",
+      "severity_score": 15,
+      "area": "dashboard:listing",
+      "team": "listing",
+      "action": "TEAM_WAITING_LISTING",
+      "reason": "카피 3건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 6건 사람 승인 대기",
+      "remediation_class": "human_approval_required",
+      "auto_execute": false,
+      "requires_user_action": true
     },
     {
-      "priority": "P2",
-      "severity_score": 50,
-      "area": "market",
-      "team": "market",
-      "action": "INVESTIGATE_EMPTY_CHANNELS",
-      "reason": "글로벌 신호 채널 저하",
-      "evidence": {
-        "live_channels": 11,
-        "total_channels": 12,
-        "empty_channels": [
-          "shopify_demand_matching"
-        ]
-      },
-      "auto_execute": false
+      "priority": "P4",
+      "severity_score": 15,
+      "area": "dashboard:legal",
+      "team": "legal",
+      "action": "TEAM_WAITING_LEGAL",
+      "reason": "차단 1건: [퀵 수분충전]VT PDRN (자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기",
+      "remediation_class": "human_approval_required",
+      "auto_execute": false,
+      "requires_user_action": true
+    },
+    {
+      "priority": "P4",
+      "severity_score": 15,
+      "area": "dashboard:design",
+      "team": "design",
+      "action": "TEAM_WAITING_DESIGN",
+      "reason": "다음 단계: Shopify 스토어 개설 및 기본 설정",
+      "remediation_class": "external_dependency",
+      "auto_execute": false,
+      "requires_user_action": false
     }
   ],
   "approved_auto_actions": [],
   "human_review_actions": [
     {
-      "priority": "P2",
-      "severity_score": 72,
-      "area": "signals",
-      "action": "INVESTIGATE_EMPTY_CHANNELS",
-      "reason": "비어 있거나 실패 상태인 채널이 1개 존재한다.",
-      "channels": [
-        "shopify_demand_matching"
-      ],
-      "auto_execute": false
+      "priority": "P4",
+      "severity_score": 15,
+      "area": "dashboard:listing",
+      "team": "listing",
+      "action": "TEAM_WAITING_LISTING",
+      "reason": "카피 3건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 6건 사람 승인 대기",
+      "remediation_class": "human_approval_required",
+      "auto_execute": false,
+      "requires_user_action": true
     },
     {
-      "priority": "P2",
-      "severity_score": 50,
-      "area": "market",
-      "team": "market",
-      "action": "INVESTIGATE_EMPTY_CHANNELS",
-      "reason": "글로벌 신호 채널 저하",
-      "evidence": {
-        "live_channels": 11,
-        "total_channels": 12,
-        "empty_channels": [
-          "shopify_demand_matching"
-        ]
-      },
-      "auto_execute": false
+      "priority": "P4",
+      "severity_score": 15,
+      "area": "dashboard:legal",
+      "team": "legal",
+      "action": "TEAM_WAITING_LEGAL",
+      "reason": "차단 1건: [퀵 수분충전]VT PDRN (자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기",
+      "remediation_class": "human_approval_required",
+      "auto_execute": false,
+      "requires_user_action": true
+    }
+  ],
+  "monitored_actions": [
+    {
+      "priority": "P4",
+      "severity_score": 15,
+      "area": "dashboard:design",
+      "team": "design",
+      "action": "TEAM_WAITING_DESIGN",
+      "reason": "다음 단계: Shopify 스토어 개설 및 기본 설정",
+      "remediation_class": "external_dependency",
+      "auto_execute": false,
+      "requires_user_action": false
     }
   ],
   "policy": {
@@ -92,16 +106,14 @@
     "market": {
       "name": "Signal-Audit",
       "description": "Amazon/TikTok/Trends/Walmart/OliveYoung 등 글로벌 신호 채널을 감시",
-      "status": "attention",
-      "priority": "P2",
+      "status": "ok",
+      "priority": "P4",
       "evidence": {
         "live_channels": 11,
-        "total_channels": 12,
-        "empty_channels": [
-          "shopify_demand_matching"
-        ]
+        "total_channels": 11,
+        "empty_channels": []
       },
-      "recommended_action": "INVESTIGATE_EMPTY_CHANNELS",
+      "recommended_action": "MONITOR",
       "auto_execute": false
     },
     "score": {
@@ -111,7 +123,7 @@
       "priority": "P4",
       "evidence": {
         "s_grade_count": 10,
-        "recommendation_source": "data/daiso_real/shopify_s_recommendations.json"
+        "recommendation_source": "data\\daiso_real\\shopify_s_recommendations.json"
       },
       "recommended_action": "MONITOR",
       "auto_execute": false
@@ -167,7 +179,7 @@
       "priority": "P4",
       "evidence": {
         "s_grade_count": 10,
-        "recommendation_source": "data/daiso_real/shopify_s_recommendations.json"
+        "recommendation_source": "data\\daiso_real\\shopify_s_recommendations.json"
       },
       "recommended_action": "MONITOR",
       "auto_execute": false
@@ -196,7 +208,7 @@
         "training_performed": true,
         "weights_updated": true,
         "corpus_present": true,
-        "training_status_source": "data/knowledge/training_status.json"
+        "training_status_source": "data\\knowledge\\training_status.json"
       },
       "recommended_action": "MONITOR",
       "auto_execute": false
@@ -228,8 +240,9 @@
     },
     "channels": {
       "live": 11,
-      "total": 12,
-      "empty": [
+      "total": 11,
+      "empty": [],
+      "disabled_expected": [
         {
           "channel": "shopify_demand_matching",
           "count": 0,
@@ -246,7 +259,7 @@
       "runtime_links": 331193,
       "runtime_dangling_generated": 0,
       "truth_guard": {
-        "vault": "obsidian/JARVIS_LUNA",
+        "vault": "obsidian\\JARVIS_LUNA",
         "actual_nodes": 82023,
         "actual_links": 331193,
         "actual_dangling_generated": 0,
@@ -254,83 +267,83 @@
         "generated_dangling_samples": [],
         "personal_dangling_samples": [
           {
-            "source": "Personal/Claude/Projects/kms/JARVIS_그래프데이터화_심도있는작업계획.md",
+            "source": "Personal\\Claude\\Projects\\kms\\_JARVIS_미디어학습_자동화파이프라인.md",
+            "target": "{metadata['channel'"
+          },
+          {
+            "source": "Personal\\Claude\\Projects\\kms\\JARVIS_그래프데이터화_심도있는작업계획.md",
             "target": "phase-x"
           },
           {
-            "source": "Personal/Claude/Projects/kms/JARVIS_기술구현_동적가격_예측모델.md",
+            "source": "Personal\\Claude\\Projects\\kms\\JARVIS_기술구현_동적가격_예측모델.md",
             "target": "group_a_conversions, group_a_impressions - group_a_conversions"
           },
           {
-            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
+            "source": "Personal\\Claude\\Projects\\kms\\Obsidian_notes\\YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
             "target": "jarvis_level3.5_10명전문가_협력"
           },
           {
-            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
+            "source": "Personal\\Claude\\Projects\\kms\\Obsidian_notes\\YouTube_Elementor_Marketing_Strategy.md",
             "target": "satellite ai 콘텐츠 마케팅"
           },
           {
-            "source": "Personal/Claude/Projects/kms/_JARVIS_미디어학습_자동화파이프라인.md",
+            "source": "Personal\\templates\\kms\\_JARVIS_미디어학습_자동화파이프라인.md",
             "target": "{metadata['channel'"
           },
           {
-            "source": "Personal/templates/kms/JARVIS_기술구현_동적가격_예측모델.md",
+            "source": "Personal\\templates\\kms\\JARVIS_기술구현_동적가격_예측모델.md",
             "target": "group_a_conversions, group_a_impressions - group_a_conversions"
           },
           {
-            "source": "Personal/templates/kms/_JARVIS_미디어학습_자동화파이프라인.md",
-            "target": "{metadata['channel'"
-          },
-          {
-            "source": "Personal/templates/kms/🎯_JARVIS_그래프데이터화_심도있는작업계획.md",
+            "source": "Personal\\templates\\kms\\🎯_JARVIS_그래프데이터화_심도있는작업계획.md",
             "target": "phase-x"
           },
           {
-            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
+            "source": "Personal\\Claude\\Projects\\kms\\_JARVIS_미디어학습_자동화파이프라인.md",
+            "target": "youtube_integration_{metadata['video_id'"
+          },
+          {
+            "source": "Personal\\Claude\\Projects\\kms\\Obsidian_notes\\YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
             "target": "youtube_마케팅_전략"
           },
           {
-            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
+            "source": "Personal\\Claude\\Projects\\kms\\Obsidian_notes\\YouTube_Elementor_Marketing_Strategy.md",
             "target": "youtube 마케팅 전략"
           },
           {
-            "source": "Personal/Claude/Projects/kms/_JARVIS_미디어학습_자동화파이프라인.md",
+            "source": "Personal\\templates\\kms\\_JARVIS_미디어학습_자동화파이프라인.md",
             "target": "youtube_integration_{metadata['video_id'"
           },
           {
-            "source": "Personal/templates/kms/_JARVIS_미디어학습_자동화파이프라인.md",
-            "target": "youtube_integration_{metadata['video_id'"
-          },
-          {
-            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
+            "source": "Personal\\Claude\\Projects\\kms\\Obsidian_notes\\YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
             "target": "kb증권_api_튜토리얼_전략"
           },
           {
-            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
+            "source": "Personal\\Claude\\Projects\\kms\\Obsidian_notes\\YouTube_Elementor_Marketing_Strategy.md",
             "target": "satellite ai 콘텐츠 마케팅"
           },
           {
-            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
+            "source": "Personal\\Claude\\Projects\\kms\\Obsidian_notes\\YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
             "target": "satellite_ai_saas_비즈니스_모델"
           },
           {
-            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
+            "source": "Personal\\Claude\\Projects\\kms\\Obsidian_notes\\YouTube_Elementor_Marketing_Strategy.md",
             "target": "saas 무료+프리미엄 비즈니스 모델"
           },
           {
-            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
+            "source": "Personal\\Claude\\Projects\\kms\\Obsidian_notes\\YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
             "target": "series_b_투자_전략"
           },
           {
-            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
+            "source": "Personal\\Claude\\Projects\\kms\\Obsidian_notes\\YouTube_Elementor_Marketing_Strategy.md",
             "target": "seo 키워드 최적화"
           },
           {
-            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
+            "source": "Personal\\Claude\\Projects\\kms\\Obsidian_notes\\YouTube_Elementor_Marketing_Strategy.md",
             "target": "웹 영상 마케팅"
           },
           {
-            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
+            "source": "Personal\\Claude\\Projects\\kms\\Obsidian_notes\\YouTube_Elementor_Marketing_Strategy.md",
             "target": "satellite ai 사용 사례"
           }
         ],
@@ -349,6 +362,26 @@
     },
     "queue": {
       "blacklist_count": 0
-    }
+    },
+    "dashboard_issues": [
+      {
+        "team": "listing",
+        "kind": "human_approval_required",
+        "text": "카피 3건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 6건 사람 승인 대기",
+        "source": "waiting"
+      },
+      {
+        "team": "legal",
+        "kind": "human_approval_required",
+        "text": "차단 1건: [퀵 수분충전]VT PDRN (자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기",
+        "source": "waiting"
+      },
+      {
+        "team": "design",
+        "kind": "external_dependency",
+        "text": "다음 단계: Shopify 스토어 개설 및 기본 설정",
+        "source": "waiting"
+      }
+    ]
   }
 }

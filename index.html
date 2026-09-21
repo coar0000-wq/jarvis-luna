@@ -95,6 +95,8 @@ box-shadow:inset 0 0 60px rgba(0,0,0,0.5),0 8px 32px rgba(0,0,0,0.3);}
 .team-when{font-size:12px;color:#6e7681;white-space:nowrap;margin-left:auto;padding-left:12px;}
 .team-summary{font-size:12.5px;color:#8b949e;margin-top:3px;line-height:1.5;}
 .team-action{display:inline-block;margin-top:6px;font-size:11.5px;color:#e3b341;background:rgba(210,153,34,0.12);border:1px solid rgba(210,153,34,0.35);border-radius:5px;padding:3px 9px;}
+.team-action.wait{color:#58a6ff;background:rgba(88,166,255,0.10);border-color:rgba(88,166,255,0.35);}
+.team-action.info{color:#8b949e;background:rgba(139,148,158,0.08);border-color:rgba(139,148,158,0.25);font-weight:400;}
 .team-badge{font-size:10px;letter-spacing:0.5px;border-radius:4px;padding:1px 6px;border:1px solid;}
 .team-badge.miss{color:#f85149;border-color:rgba(248,81,73,0.4);background:rgba(248,81,73,0.1);}
 .team-badge.fail{color:#f85149;border-color:rgba(248,81,73,0.4);background:rgba(248,81,73,0.1);}
@@ -857,8 +859,17 @@ const secBadge = (sec && sec.status==='failed')
   ? '<span class="team-badge fail">수집 실패</span>'
   : (sec && sec.status==='warning')
     ? '<span class="team-badge warn">갱신 지연</span>' : '';
+function teamFlag(text, kind){
+  const k=kind||'auto_remediable';
+  const wait=k==='human_approval_required'||k==='external_dependency';
+  const info=k==='informational';
+  const cls=wait?' wait':(info?' info':'');
+  const label=info?'현황':(k==='human_approval_required'?'사용자 승인·입력 대기':
+    (k==='external_dependency'?'외부 조건 대기':'비서실장 처리 중'));
+  return '<div><span class="team-action'+cls+'">← '+label+' · '+text+'</span></div>';
+}
 const secAct = (sec && sec.action)
-  ? '<div><span class="team-action">← 조치 · '+esc(sec.action)+'</span></div>' : '';
+  ? teamFlag(esc(sec.action), sec.action_kind) : '';
 const secretary = '<li class="team-row secretary-row">'+
   '<div class="team-icon"><img src="images/teams/secretary.png" alt="비서실장" loading="lazy" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\';" style="border-radius:11px;" />'+
   '<div class="team-icon-fb secretary-fallback" style="display:none;background:#2a2a2a;"><svg viewBox="0 0 24 24">'+TEAM_GLYPH.robot+'</svg></div></div>'+
@@ -884,19 +895,26 @@ function linkify(s){
   return s.replace(/https:\/\/www\.daisomall\.co\.kr\/[^\s]+/g,
     function(u){ return '<a href="'+u+'" target="_blank" rel="noopener" class="team-link">열기</a>'; });
 }
-const act = t.action ? '<div><span class="team-action">← 조치 · '+linkify(esc(t.action))+'</span></div>' : '';
+const act = t.action ? teamFlag(linkify(esc(t.action)), t.action_kind) : '';
+const wait = t.waiting ? teamFlag(linkify(esc(t.waiting)), t.waiting_kind) : '';
+const notice = t.notice ? teamFlag(linkify(esc(t.notice)), 'informational') : '';
 return '<li class="team-row">'
 +'<div class="team-icon">'+mark+'</div>'
 +'<div class="team-body">'
 +'<div class="team-name">'+esc(t.name)+badge+'<span class="team-when">'+esc(teamWhen(t.when))+'</span></div>'
-+'<div class="team-summary">'+esc(t.summary||'')+'</div>'+act
++'<div class="team-summary">'+esc(t.summary||'')+'</div>'+act+wait+notice
 +'</div></li>';
 }).join('');
-// 비서실장 조치도 센다. 안 세면 비서실장이 멈췄을 때 위 숫자가 0 이 되어
-// 다 잘 돌고 있는 것처럼 보인다.
-const act=teams.filter(t=>t.action).length + ((sec && sec.action) ? 1 : 0);
+// 노란색 숫자는 비서실장이 자동 해결·재검증할 항목만 센다.
+// 사용자 승인과 외부 조건은 파란색 대기로 분리해 영구 경고처럼 보이지 않게 한다.
+const autoKinds=['auto_remediable','revalidate_only'];
+const isAuto=t=>t&&t.action&&(!t.action_kind||autoKinds.includes(t.action_kind));
+const isWaiting=t=>t&&(t.waiting||(t.action&&['human_approval_required','external_dependency'].includes(t.action_kind)));
+const act=teams.filter(isAuto).length + ((sec && isAuto(sec)) ? 1 : 0);
+const waiting=teams.filter(isWaiting).length;
 const el=$('team-updated');
-if(el) el.textContent = act ? ('조치 필요 '+act+'건') : '조치 필요 없음';
+if(el) el.textContent = act ? ('비서실장 자동 조치 '+act+'건'+(waiting?' · 입력 대기 '+waiting+'건':''))
+  : (waiting ? ('자동 조치 없음 · 입력 대기 '+waiting+'건') : '조치 필요 없음');
 }
 
 function renderPipeline(rt){
