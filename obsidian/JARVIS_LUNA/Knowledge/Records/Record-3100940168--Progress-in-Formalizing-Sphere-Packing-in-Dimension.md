@@ -2,7 +2,7 @@
 title: "Record 3100940168 · Progress-in-Formalizing-Sphere-Packing-in-Dimension"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T04:58:31.134139+00:00
+updated_at: 2026-09-21T09:43:53.485357+00:00
 tags: [record, real-data]
 ---
 

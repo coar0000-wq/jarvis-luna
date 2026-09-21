@@ -2,7 +2,7 @@
 title: "Record 472a31218c · Room-temperature-aqueous-growth-of-Ag2SeZnSe-Coresh"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T04:58:30.779530+00:00
+updated_at: 2026-09-21T09:43:52.946016+00:00
 tags: [record, real-data]
 ---
 

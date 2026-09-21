@@ -2,7 +2,7 @@
 title: "Record 01799767bf · Bella-Hadids-Gingham-Headscarf-Carries-Summer-Picnic-Vibes-Into-Fall--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T04:58:31.183354+00:00
+updated_at: 2026-09-21T09:43:53.561523+00:00
 tags: [record, real-data]
 ---
 

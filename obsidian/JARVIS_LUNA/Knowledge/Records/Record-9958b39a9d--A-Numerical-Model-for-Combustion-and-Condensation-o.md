@@ -2,7 +2,7 @@
 title: "Record 9958b39a9d · A-Numerical-Model-for-Combustion-and-Condensation-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T04:58:30.770223+00:00
+updated_at: 2026-09-21T09:43:52.930521+00:00
 tags: [record, real-data]
 ---
 

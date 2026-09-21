@@ -2,7 +2,7 @@
 title: "Record f076e1a34c · Toleriane-Hydrating-Gentle-Face-Cleanser-for-Dry-Skin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T04:58:31.295286+00:00
+updated_at: 2026-09-21T09:43:53.733547+00:00
 tags: [record, real-data]
 ---
 

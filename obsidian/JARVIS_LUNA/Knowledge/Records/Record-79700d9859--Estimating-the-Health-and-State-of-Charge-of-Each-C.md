@@ -2,7 +2,7 @@
 title: "Record 79700d9859 · Estimating-the-Health-and-State-of-Charge-of-Each-C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T04:58:30.676469+00:00
+updated_at: 2026-09-21T09:43:52.790881+00:00
 tags: [record, real-data]
 ---
 

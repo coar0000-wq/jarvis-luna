@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T03:10:37.068965+00:00",
+  "generated_at": "2026-09-21T09:42:01.535186+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "carlie irsay-gordon",
+          "keyword": "sports scores today",
+          "approx_traffic": "50000+",
+          "traffic_num": 50000,
+          "published": "Mon, 21 Sep 2026 01:10:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=sports%20scores%20today"
+        },
+        {
+          "keyword": "goal",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Sun, 20 Sep 2026 19:40:00 -0700",
-          "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=carlie%20irsay-gordon"
+          "published": "Mon, 21 Sep 2026 02:20:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=goal"
         },
         {
-          "keyword": "presley gerber",
+          "keyword": "technology news",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Sun, 20 Sep 2026 19:40:00 -0700",
-          "source_name": "Extra",
-          "url": "https://trends.google.com/trending?geo=US&q=presley%20gerber"
+          "published": "Mon, 21 Sep 2026 01:10:00 -0700",
+          "source_name": "Yahoo Finance",
+          "url": "https://trends.google.com/trending?geo=US&q=technology%20news"
         },
         {
-          "keyword": "emmett johnson",
+          "keyword": "stock market today",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Sun, 20 Sep 2026 19:20:00 -0700",
-          "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=emmett%20johnson"
+          "published": "Mon, 21 Sep 2026 01:20:00 -0700",
+          "source_name": "Yahoo Finance",
+          "url": "https://trends.google.com/trending?geo=US&q=stock%20market%20today"
         },
         {
-          "keyword": "asteroid",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Sun, 20 Sep 2026 19:20:00 -0700",
-          "source_name": "SciTechDaily",
-          "url": "https://trends.google.com/trending?geo=US&q=asteroid"
-        },
-        {
-          "keyword": "walmart near me",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Sun, 20 Sep 2026 19:20:00 -0700",
-          "source_name": "The Guardian",
-          "url": "https://trends.google.com/trending?geo=US&q=walmart%20near%20me"
-        },
-        {
-          "keyword": "weather tornado warning",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Sun, 20 Sep 2026 19:40:00 -0700",
-          "source_name": "KSL News",
-          "url": "https://trends.google.com/trending?geo=US&q=weather%20tornado%20warning"
-        },
-        {
-          "keyword": "kahlil benson",
+          "keyword": "sports",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sun, 20 Sep 2026 19:30:00 -0700",
-          "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=kahlil%20benson"
+          "published": "Mon, 21 Sep 2026 01:50:00 -0700",
+          "source_name": "The Boston Globe",
+          "url": "https://trends.google.com/trending?geo=US&q=sports"
         },
         {
-          "keyword": "cooper webb",
+          "keyword": "bet365 free bet",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sun, 20 Sep 2026 19:30:00 -0700",
-          "source_name": "Racer X",
-          "url": "https://trends.google.com/trending?geo=US&q=cooper%20webb"
+          "published": "Mon, 21 Sep 2026 01:30:00 -0700",
+          "source_name": "CBS Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=bet365%20free%20bet"
         },
         {
-          "keyword": "lanterns episode 6",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Sun, 20 Sep 2026 19:20:00 -0700",
-          "source_name": "IndieWire",
-          "url": "https://trends.google.com/trending?geo=US&q=lanterns%20episode%206"
+          "keyword": "thescore bet promo code",
+          "approx_traffic": "100+",
+          "traffic_num": 100,
+          "published": "Mon, 21 Sep 2026 01:50:00 -0700",
+          "source_name": "Covers.com",
+          "url": "https://trends.google.com/trending?geo=US&q=thescore%20bet%20promo%20code"
         },
         {
-          "keyword": "chief",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Sun, 20 Sep 2026 19:20:00 -0700",
-          "source_name": "South China Morning Post",
-          "url": "https://trends.google.com/trending?geo=US&q=chief"
+          "keyword": "draftkings free bet",
+          "approx_traffic": "100+",
+          "traffic_num": 100,
+          "published": "Mon, 21 Sep 2026 01:40:00 -0700",
+          "source_name": "The New York Times",
+          "url": "https://trends.google.com/trending?geo=US&q=draftkings%20free%20bet"
+        },
+        {
+          "keyword": "fanduel promo code",
+          "approx_traffic": "100+",
+          "traffic_num": 100,
+          "published": "Mon, 21 Sep 2026 01:30:00 -0700",
+          "source_name": "CBS Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=fanduel%20promo%20code"
+        },
+        {
+          "keyword": "draftkings sportsbook",
+          "approx_traffic": "100+",
+          "traffic_num": 100,
+          "published": "Mon, 21 Sep 2026 01:30:00 -0700",
+          "source_name": "CBS Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=draftkings%20sportsbook"
         }
       ]
     },

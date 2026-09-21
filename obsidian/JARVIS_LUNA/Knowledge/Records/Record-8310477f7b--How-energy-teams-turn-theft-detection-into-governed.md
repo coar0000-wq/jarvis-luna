@@ -2,7 +2,7 @@
 title: "Record 8310477f7b · How-energy-teams-turn-theft-detection-into-governed-action-with-Genie-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T04:58:31.237994+00:00
+updated_at: 2026-09-21T09:43:53.642470+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 0bafdd0635 · Quantum-counterdiabatic-driving-enhanced-by-two-sta"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T04:58:30.792644+00:00
+updated_at: 2026-09-21T09:43:52.967400+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 4c4566752e · From-spandex-to-skin-care-Hyosung-bets-big-on-K-bea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T04:58:31.104625+00:00
+updated_at: 2026-09-21T09:43:53.443578+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMizAFBVV95cUxOVDV0LU55a2lyX3FOdWlNZ1JYaEltVGFOTkExeWxvWXg3S3RuZk5FampFNnlrN0VUY1p4OFJlNHg3VXBoak9qVC0wSUp4NnQzcFVfaFNrU3U5bEYtT2J1QndjelM4UGhaTElKSnl2Zm1KcDlWZ0VORkVaRWVjQVJxZTBhUVJwd3hnVmVsam4xTmwtNmpjbmRqWjdUVXB0ZTlCTkJacFV5N3pVc3hFa0JEenJlb01mREk1alA2S2lfb3VRcjdVaFR0c2ZJeVk?oc=5)
 
-**제목:** From spandex to skin care: Hyosung bets big on K-beauty through new supply chains - Korea JoongAng Daily
+**제목:** From spandex to skin care: Hyosung bets big on K-beauty through new supply chains - koreajoongangdaily.com
 
-From spandex to skin care: Hyosung bets big on K-beauty through new supply chains - Korea JoongAng Daily
+From spandex to skin care: Hyosung bets big on K-beauty through new supply chains - koreajoongangdaily.com
 
 **출처:** Source · Google Search
 

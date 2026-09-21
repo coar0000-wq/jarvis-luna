@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-21T03:04:08.859965+00:00",
+  "collected_at": "2026-09-21T09:35:05.569676+00:00",
   "total": 1063,
   "organizations": 35,
   "by_org": {
@@ -54,19 +54,19 @@
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-09-21T03:03:06.151612+00:00"
+      "collected_at": "2026-09-21T09:34:17.969607+00:00"
     },
     "sitemap": {
       "status": "ok",
       "count": 140,
       "failures": [],
-      "collected_at": "2026-09-21T03:03:40.521714+00:00"
+      "collected_at": "2026-09-21T09:34:48.383053+00:00"
     },
     "openalex": {
       "status": "ok",
       "count": 713,
       "failures": [],
-      "collected_at": "2026-09-21T03:04:08.859095+00:00"
+      "collected_at": "2026-09-21T09:35:05.568074+00:00"
     }
   },
   "not_collected": {
@@ -3595,6 +3595,19 @@
       "feed": "https://www.asml.com/sitemap.xml"
     },
     {
+      "url": "https://home.barclays/news/press-releases/20260/090/barclays-strengthens-presence-in-uk-communities-with-ongoing-inv/",
+      "date": "2026-09-21",
+      "date_raw": "2026-09-21T09:31:01+01:00",
+      "title_source": "page",
+      "title": "Barclays strengthens presence in UK communities with ongoing investment across branches | Barclays",
+      "summary": "The investment is part of a broader programme to modernise and evolve the bank's physical network.",
+      "org": "Barclays",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://home.barclays/sitemap.xml"
+    },
+    {
       "url": "https://home.barclays/news/press-releases/20260/090/-nine-in-10-uk-manufacturers-turn-to-automation-to-navigate-geop0/",
       "date": "2026-09-17",
       "date_raw": "2026-09-17T08:27:47+01:00",
@@ -3715,9 +3728,9 @@
       "url": "https://home.barclays/news/press-releases/20260/080/uk-businesses-welcome-political-reset-but-seek-greater-policy-ce/",
       "date": "2026-08-27",
       "date_raw": "2026-08-27T09:42:56+01:00",
-      "title_source": "page",
-      "title": "UK businesses welcome political reset but seek greater policy certainty | Barclays",
-      "summary": "Barclays’ Q2 2026 Business Prosperity Index1 reveals that business confidence has rebounded following changes in the Government.",
+      "title_source": "url-slug",
+      "title": "Uk Businesses Welcome Political Reset But Seek Greater Policy Ce",
+      "summary": "",
       "org": "Barclays",
       "category": "투자은행",
       "kind": "발표물",
@@ -3842,19 +3855,6 @@
       "feed": "https://home.barclays/sitemap.xml"
     },
     {
-      "url": "https://home.barclays/news/press-releases/20260/070/uk-businesses-see-defence-investment-plan-as-catalyst-for-growth/",
-      "date": "2026-07-22",
-      "date_raw": "2026-07-22T09:34:22+01:00",
-      "title_source": "url-slug",
-      "title": "Uk Businesses See Defence Investment Plan As Catalyst For Growth",
-      "summary": "",
-      "org": "Barclays",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://home.barclays/sitemap.xml"
-    },
-    {
       "url": "https://www.goldmansachs.com/what-we-do/ayco/insights/summer-review-fall-preview-market-insights",
       "date": "2026-09-19",
       "date_raw": "2026-09-19T00:43:08.000Z",
@@ -3868,11 +3868,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/articles/consumer-agents-signal-new-phase-for-ai-growth",
+      "url": "https://www.goldmansachs.com/insights/the-markets/the-opportunities-for-investors-amid-higher-for-longer-interest-rates",
       "date": "2026-09-18",
-      "date_raw": "2026-09-18T11:02:53.000Z",
+      "date_raw": "2026-09-18T13:08:39.000Z",
       "title_source": "url-slug",
-      "title": "Consumer Agents Signal New Phase For Ai Growth",
+      "title": "The Opportunities For Investors Amid Higher For Longer Interest Rates",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -3894,11 +3894,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/the-markets/the-opportunities-for-investors-amid-higher-for-longer-interest-rates",
+      "url": "https://www.goldmansachs.com/insights/articles/consumer-agents-signal-new-phase-for-ai-growth",
       "date": "2026-09-18",
-      "date_raw": "2026-09-18T13:08:39.000Z",
+      "date_raw": "2026-09-18T11:02:53.000Z",
       "title_source": "url-slug",
-      "title": "The Opportunities For Investors Amid Higher For Longer Interest Rates",
+      "title": "Consumer Agents Signal New Phase For Ai Growth",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -4050,24 +4050,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/articles/how-automation-impacts-the-lives-and-careers-of-displaced-workers",
+      "url": "https://www.goldmansachs.com/insights/the-markets/what-a-fed-rate-hike-could-mean-for-us-stocks",
       "date": "2026-09-11",
-      "date_raw": "2026-09-11T18:56:42.000Z",
+      "date_raw": "2026-09-11T22:03:30.000Z",
       "title_source": "url-slug",
-      "title": "How Automation Impacts The Lives And Careers Of Displaced Workers",
-      "summary": "",
-      "org": "Goldman Sachs",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.goldmansachs.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.goldmansachs.com/insights/articles/why-global-bond-yields-are-expected-to-stay-elevated",
-      "date": "2026-09-11",
-      "date_raw": "2026-09-11T18:33:49.000Z",
-      "title_source": "url-slug",
-      "title": "Why Global Bond Yields Are Expected To Stay Elevated",
+      "title": "What A Fed Rate Hike Could Mean For Us Stocks",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -4089,11 +4076,24 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/the-markets/what-a-fed-rate-hike-could-mean-for-us-stocks",
+      "url": "https://www.goldmansachs.com/insights/articles/how-automation-impacts-the-lives-and-careers-of-displaced-workers",
       "date": "2026-09-11",
-      "date_raw": "2026-09-11T22:03:30.000Z",
+      "date_raw": "2026-09-11T18:56:42.000Z",
       "title_source": "url-slug",
-      "title": "What A Fed Rate Hike Could Mean For Us Stocks",
+      "title": "How Automation Impacts The Lives And Careers Of Displaced Workers",
+      "summary": "",
+      "org": "Goldman Sachs",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.goldmansachs.com/sitemap.xml"
+    },
+    {
+      "url": "https://www.goldmansachs.com/insights/articles/why-global-bond-yields-are-expected-to-stay-elevated",
+      "date": "2026-09-11",
+      "date_raw": "2026-09-11T18:33:49.000Z",
+      "title_source": "url-slug",
+      "title": "Why Global Bond Yields Are Expected To Stay Elevated",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",

@@ -2,7 +2,7 @@
 title: "Record ce9e056500 · Carry-Through-Checksum-A-Lightweight-Fault-Detection-for-CNN-Inference"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T04:58:30.876170+00:00
+updated_at: 2026-09-21T09:43:53.073410+00:00
 tags: [record, real-data]
 ---
 

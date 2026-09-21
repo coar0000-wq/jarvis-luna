@@ -2,7 +2,7 @@
 title: "Record 2432594827 · Mixed-integer-optimization-for-multi-year-military-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T04:58:30.721605+00:00
+updated_at: 2026-09-21T09:43:52.856492+00:00
 tags: [record, real-data]
 ---
 

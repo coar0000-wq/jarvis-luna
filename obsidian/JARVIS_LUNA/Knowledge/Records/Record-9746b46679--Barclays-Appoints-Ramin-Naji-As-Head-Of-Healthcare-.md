@@ -2,7 +2,7 @@
 title: "Record 9746b46679 · Barclays-Appoints-Ramin-Naji-As-Head-Of-Healthcare-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T04:58:31.232529+00:00
+updated_at: 2026-09-21T09:43:53.634654+00:00
 tags: [record, real-data]
 ---
 

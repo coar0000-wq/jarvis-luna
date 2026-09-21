@@ -2,7 +2,7 @@
 title: "Record 7c09ed7b0f · UK-businesses-welcome-political-reset-but-seek-grea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T04:58:30.921773+00:00
+updated_at: 2026-09-21T09:43:53.145480+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [home.barclays](https://home.barclays/news/press-releases/20260/080/uk-businesses-welcome-political-reset-but-seek-greater-policy-ce/)
 
-**제목:** UK businesses welcome political reset but seek greater policy certainty | Barclays
+**제목:** Uk Businesses Welcome Political Reset But Seek Greater Policy Ce
 
-UK businesses welcome political reset but seek greater policy certainty | Barclays
-Barclays’ Q2 2026 Business Prosperity Index1 reveals that business confidence has rebounded following changes in the Government.
+Uk Businesses Welcome Political Reset But Seek Greater Policy Ce
 
 **출처:** Source · institutions
 

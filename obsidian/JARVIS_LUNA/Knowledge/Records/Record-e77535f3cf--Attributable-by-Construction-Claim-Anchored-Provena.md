@@ -2,7 +2,7 @@
 title: "Record e77535f3cf · Attributable-by-Construction-Claim-Anchored-Provena"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T04:58:31.140594+00:00
+updated_at: 2026-09-21T09:43:53.495417+00:00
 tags: [record, real-data]
 ---
 

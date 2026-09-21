@@ -2,7 +2,7 @@
 title: "Record 1f841ad1fa · Physics-AI-research-thats-shaping-the-industry"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T04:58:30.939665+00:00
+updated_at: 2026-09-21T09:43:53.172158+00:00
 tags: [record, real-data]
 ---
 

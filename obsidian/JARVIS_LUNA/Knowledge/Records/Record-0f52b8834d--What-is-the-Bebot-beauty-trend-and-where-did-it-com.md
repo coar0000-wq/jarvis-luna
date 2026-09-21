@@ -2,7 +2,7 @@
 title: "Record 0f52b8834d · What-is-the-Bebot-beauty-trend-and-where-did-it-com"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T04:58:30.997949+00:00
+updated_at: 2026-09-21T09:43:53.270147+00:00
 tags: [record, real-data]
 ---
 

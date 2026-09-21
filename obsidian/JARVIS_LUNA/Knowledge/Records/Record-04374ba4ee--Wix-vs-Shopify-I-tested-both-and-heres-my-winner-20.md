@@ -2,7 +2,7 @@
 title: "Record 04374ba4ee · Wix-vs-Shopify-I-tested-both-and-heres-my-winner-20"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T04:58:30.974023+00:00
+updated_at: 2026-09-21T09:43:53.228233+00:00
 tags: [record, real-data]
 ---
 

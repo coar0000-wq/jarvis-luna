@@ -2,7 +2,7 @@
 title: "Record b400018965 · A-Photonic-CXL-Memory-Appliance-for-Scalable-KV-Cac"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T04:58:31.147400+00:00
+updated_at: 2026-09-21T09:43:53.506026+00:00
 tags: [record, real-data]
 ---
 

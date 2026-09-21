@@ -2,7 +2,7 @@
 title: "Record 12923ae830 · Rapid-detection-and-quantification-of-glyphosate-in"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T04:58:30.791093+00:00
+updated_at: 2026-09-21T09:43:52.965037+00:00
 tags: [record, real-data]
 ---
 

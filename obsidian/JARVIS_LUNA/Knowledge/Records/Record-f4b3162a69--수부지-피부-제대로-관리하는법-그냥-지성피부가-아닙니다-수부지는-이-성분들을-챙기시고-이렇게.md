@@ -2,7 +2,7 @@
 title: "Record f4b3162a69 · 수부지-피부-제대로-관리하는법-그냥-지성피부가-아닙니다-수부지는-이-성분들을-챙기시고-이렇게-관리하셔야-합니다"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T04:58:31.312774+00:00
+updated_at: 2026-09-21T09:43:53.764480+00:00
 tags: [record, real-data]
 ---
 

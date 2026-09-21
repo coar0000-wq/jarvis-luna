@@ -2,7 +2,7 @@
 title: "Record 6ad6a2589a · How-Google-Shopify-Partnership-Could-Spur-Agentic-C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T04:58:31.042986+00:00
+updated_at: 2026-09-21T09:43:53.348107+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 4f7a011773 · How-Databricks-marketers-use-data-3x-more-with-Genie-an-AI-analytics-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T04:58:31.236480+00:00
+updated_at: 2026-09-21T09:43:53.640379+00:00
 tags: [record, real-data]
 ---
 

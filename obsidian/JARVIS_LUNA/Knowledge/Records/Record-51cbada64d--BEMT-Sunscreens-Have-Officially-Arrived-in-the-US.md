@@ -2,7 +2,7 @@
 title: "Record 51cbada64d · BEMT-Sunscreens-Have-Officially-Arrived-in-the-US"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T04:58:31.186908+00:00
+updated_at: 2026-09-21T09:43:53.567540+00:00
 tags: [record, real-data]
 ---
 

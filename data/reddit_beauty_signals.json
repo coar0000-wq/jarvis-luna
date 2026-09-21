@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-21T03:05:52.488340+00:00",
+  "collected_at": "2026-09-21T09:36:28.280168+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -45,14 +45,10 @@
   "hot_keywords": [
     {
       "keyword": "september",
-      "score": 5
+      "score": 4
     },
     {
       "keyword": "2026",
-      "score": 5
-    },
-    {
-      "keyword": "moisturizer",
       "score": 4
     },
     {
@@ -62,14 +58,6 @@
     {
       "keyword": "masks",
       "score": 4
-    },
-    {
-      "keyword": "anything",
-      "score": 3
-    },
-    {
-      "keyword": "goes",
-      "score": 3
     },
     {
       "keyword": "haul",
@@ -85,6 +73,14 @@
     },
     {
       "keyword": "skin",
+      "score": 2
+    },
+    {
+      "keyword": "anything",
+      "score": 2
+    },
+    {
+      "keyword": "goes",
       "score": 2
     },
     {
@@ -104,11 +100,11 @@
       "score": 2
     },
     {
-      "keyword": "sheet",
+      "keyword": "lenses",
       "score": 2
     },
     {
-      "keyword": "lenses",
+      "keyword": "sheet",
       "score": 2
     },
     {
@@ -140,15 +136,11 @@
       "score": 1
     },
     {
-      "keyword": "product",
+      "keyword": "makeup",
       "score": 1
     },
     {
-      "keyword": "authenticity",
-      "score": 1
-    },
-    {
-      "keyword": "thursday",
+      "keyword": "monday",
       "score": 1
     },
     {
@@ -164,7 +156,15 @@
       "score": 1
     },
     {
-      "keyword": "share",
+      "keyword": "seasonal",
+      "score": 1
+    },
+    {
+      "keyword": "transition",
+      "score": 1
+    },
+    {
+      "keyword": "hydration",
       "score": 1
     },
     {
@@ -172,43 +172,39 @@
       "score": 1
     },
     {
-      "keyword": "repair",
+      "keyword": "care",
       "score": 1
     },
     {
-      "keyword": "combination",
+      "keyword": "products",
       "score": 1
     },
     {
-      "keyword": "oily",
+      "keyword": "olens",
       "score": 1
     },
     {
-      "keyword": "sekkisei",
+      "keyword": "going",
       "score": 1
     },
     {
-      "keyword": "defense",
+      "keyword": "business",
       "score": 1
     },
     {
-      "keyword": "packaging",
+      "keyword": "jung",
       "score": 1
     },
     {
-      "keyword": "quality",
+      "keyword": "saem",
       "score": 1
     },
     {
-      "keyword": "gone",
+      "keyword": "mool",
       "score": 1
     }
   ],
   "beauty_keywords": [
-    {
-      "keyword": "moisturizer",
-      "score": 4
-    },
     {
       "keyword": "masks",
       "score": 4
@@ -247,9 +243,9 @@
       "feed": "hot"
     },
     {
-      "title": "Product Authenticity Thursday September 17, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wipqis/product_authenticity_thursday_september_17_2026/",
-      "published": "2026-09-17T10:01:11+00:00",
+      "title": "Makeup Monday September 21, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wm23wb/makeup_monday_september_21_2026/",
+      "published": "2026-09-21T04:00:26+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -261,9 +257,30 @@
       "feed": "hot"
     },
     {
-      "title": "Share your HG barrier repair moisturizer for combination- oily skin",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wm05d4/share_your_hg_barrier_repair_moisturizer_for/",
-      "published": "2026-09-21T02:23:12+00:00",
+      "title": "Seasonal transition skin: my HG hydration & barrier care products",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wm5b90/seasonal_transition_skin_my_hg_hydration_barrier/",
+      "published": "2026-09-21T06:54:42+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Is Olens going out of business?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wm2mc1/is_olens_going_out_of_business/",
+      "published": "2026-09-21T04:26:31+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Jung Saem Mool Rose Light",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wm6r7m/jung_saem_mool_rose_light/",
+      "published": "2026-09-21T08:19:21+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "olive young global",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wlx8uh/olive_young_global/",
+      "published": "2026-09-21T00:08:19+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -275,9 +292,9 @@
       "feed": "hot"
     },
     {
-      "title": "Looking for a new moisturizer",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wm0t7v/looking_for_a_new_moisturizer/",
-      "published": "2026-09-21T02:55:23+00:00",
+      "title": "Chicago AB Storefronts",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wlth88/chicago_ab_storefronts/",
+      "published": "2026-09-20T21:27:27+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -299,13 +316,6 @@
       "title": "how to achieve this look?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wl37db/how_to_achieve_this_look/",
       "published": "2026-09-20T01:13:40+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Chicago AB Storefronts",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wlth88/chicago_ab_storefronts/",
-      "published": "2026-09-20T21:27:27+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -338,13 +348,6 @@
       "feed": "hot"
     },
     {
-      "title": "Is there a difference between sheet masks and gel masks?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wkyxpa/is_there_a_difference_between_sheet_masks_and_gel/",
-      "published": "2026-09-19T22:01:12+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
       "title": "Anything Goes Saturday: September 19, 2026",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wkwyln/anything_goes_saturday_september_19_2026/",
       "published": "2026-09-19T20:39:17+00:00",
@@ -355,6 +358,13 @@
       "title": "has anyone ever bought colored eye lenses on aliexpress?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wlesm1/has_anyone_ever_bought_colored_eye_lenses_on/",
       "published": "2026-09-20T11:38:54+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Is there a difference between sheet masks and gel masks?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wkyxpa/is_there_a_difference_between_sheet_masks_and_gel/",
+      "published": "2026-09-19T22:01:12+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -397,20 +407,6 @@
       "title": "Thim Artist Touch Long Lash Mascara in Brown",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wjrouq/thim_artist_touch_long_lash_mascara_in_brown/",
       "published": "2026-09-18T14:25:54+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "I need to find some products...",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wk3n2a/i_need_to_find_some_products/",
-      "published": "2026-09-18T21:53:38+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Anything Goes Friday: September 18, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wk1r5o/anything_goes_friday_september_18_2026/",
-      "published": "2026-09-18T20:39:05+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

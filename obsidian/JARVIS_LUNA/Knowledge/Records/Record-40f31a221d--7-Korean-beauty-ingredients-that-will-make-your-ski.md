@@ -2,7 +2,7 @@
 title: "Record 40f31a221d · 7-Korean-beauty-ingredients-that-will-make-your-ski"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T04:58:31.019659+00:00
+updated_at: 2026-09-21T09:43:53.304528+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 64c0af06c9 · Peripheral-human-mAb-therapy-yields-modulation-of-neuroinflammation-an"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T04:58:30.798157+00:00
+updated_at: 2026-09-21T09:43:52.975755+00:00
 tags: [record, real-data]
 ---
 

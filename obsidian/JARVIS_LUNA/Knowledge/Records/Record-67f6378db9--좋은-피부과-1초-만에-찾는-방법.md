@@ -2,7 +2,7 @@
 title: "Record 67f6378db9 · 좋은-피부과-1초-만에-찾는-방법"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T04:58:31.299621+00:00
+updated_at: 2026-09-21T09:43:53.740337+00:00
 tags: [record, real-data]
 ---
 
