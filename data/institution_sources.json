@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-20T23:52:07.347546+00:00",
+  "collected_at": "2026-09-21T03:04:08.859965+00:00",
   "total": 1063,
   "organizations": 35,
   "by_org": {
@@ -54,19 +54,19 @@
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-09-20T23:51:05.279608+00:00"
+      "collected_at": "2026-09-21T03:03:06.151612+00:00"
     },
     "sitemap": {
       "status": "ok",
       "count": 140,
       "failures": [],
-      "collected_at": "2026-09-20T23:51:43.283542+00:00"
+      "collected_at": "2026-09-21T03:03:40.521714+00:00"
     },
     "openalex": {
       "status": "ok",
       "count": 713,
       "failures": [],
-      "collected_at": "2026-09-20T23:52:07.346645+00:00"
+      "collected_at": "2026-09-21T03:04:08.859095+00:00"
     }
   },
   "not_collected": {
@@ -1775,6 +1775,19 @@
       "title_source": "feed"
     },
     {
+      "title": "SK hynix Hosts ‘2026 Global Forum,’ Sharing Its Technology Vision and Future Strategy for the AI Era",
+      "url": "https://news.skhynix.com/en/2026-global-forum/",
+      "date": "2026-09-20",
+      "date_raw": "Sun, 20 Sep 2026 23:59:55 +0000",
+      "summary": "On the 18th (local time), SK hynix hosted its ‘2026 Global Forum’ at the Marriott Hotel in Santa Clara, California, US. SK hynix has held the forum every year since 2012 to introduce its technology vision and growth direction to",
+      "org": "SK hynix",
+      "category": "반도체",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://news.skhynix.com/feed/",
+      "title_source": "feed"
+    },
+    {
       "title": "SK hynix Launches ‘SK hynix Ventures’ in Silicon Valley to Expand Global AI Ecosystem Investment",
       "url": "https://news.skhynix.com/en/sk-hynix-ventures/",
       "date": "2026-09-18",
@@ -1884,19 +1897,6 @@
       "date": "2026-09-09",
       "date_raw": "Wed, 09 Sep 2026 01:34:12 +0000",
       "summary": "▲ Industry experts taking part in the panel discussion, together with SK hynix Vice President Hyungsoo Kim, head of the DRAM Design department (first from left)",
-      "org": "SK hynix",
-      "category": "반도체",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://news.skhynix.com/feed/",
-      "title_source": "feed"
-    },
-    {
-      "title": "SK hynix Charts Its Business and Technology Direction at the 2026 Future Forum—”Now Is the Golden Time to Leap Forward”",
-      "url": "https://news.skhynix.com/en/future-forum-2026-6/",
-      "date": "2026-09-09",
-      "date_raw": "Wed, 09 Sep 2026 01:33:23 +0000",
-      "summary": "▲ SK hynix Vice President Kyunghoon Kim, head of the Design Research Lab, delivering the third keynote presentation",
       "org": "SK hynix",
       "category": "반도체",
       "kind": "발표물",

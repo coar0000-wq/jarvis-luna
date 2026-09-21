@@ -2,7 +2,7 @@
 title: "Record d8082eec60 · THOME-The-Glow-Signature"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T00:01:07.047827+00:00
+updated_at: 2026-09-21T03:12:19.706489+00:00
 tags: [record, real-data]
 ---
 

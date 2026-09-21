@@ -2,7 +2,7 @@
 title: "Record da2861f0ef · Amorepacific-builds-holistic-longevity-strategy-aro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T00:01:06.836133+00:00
+updated_at: 2026-09-21T03:12:19.453307+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record e3de27fa0d · Masque-Purifiant-Naturel-à-LArgile-Verte"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T00:01:07.053545+00:00
+updated_at: 2026-09-21T03:12:19.794854+00:00
 tags: [record, real-data]
 ---
 

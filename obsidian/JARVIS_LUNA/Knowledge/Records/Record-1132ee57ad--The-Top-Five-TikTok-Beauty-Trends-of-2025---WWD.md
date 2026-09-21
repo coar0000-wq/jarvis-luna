@@ -2,7 +2,7 @@
 title: "Record 1132ee57ad · The-Top-Five-TikTok-Beauty-Trends-of-2025---WWD"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T00:01:06.877574+00:00
+updated_at: 2026-09-21T03:12:19.479103+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiigFBVV95cUxNNlprRXZLTEhfRUFBeGpmWlFkekV2Q2N0Q05sV0d5V0puaFB3NWlaTnRLY0ROUk1RSE5xcEdHeDhadjlocFY4dTZDUnk0aUpLWFRPcXl0c3pEVzdBMG1oUFVNLVNKUGVRdWxxZzJLaHdjVHVjakJtNGFGMm1DQnRqaHdWcjJXbEtGU0E?oc=5)
 
-**제목:** The Top Five TikTok Beauty Trends of 2025 - WWD
+**제목:** The Top Five TikTok Beauty Trends of 2025 - wwd.com
 
-The Top Five TikTok Beauty Trends of 2025 - WWD
+The Top Five TikTok Beauty Trends of 2025 - wwd.com
 
 **출처:** Source · Google Search
 
