@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-09-21T18:42:07.704318+09:00",
+    "updated_at": "2026-09-21T18:47:15.017348+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -905,6 +905,16 @@
         "title": "Anua 성장 전략: 다각화 유통·번들 AOV·트렌드 성분·단순 랜딩",
         "date": "2026-09-19",
         "market": "Meta 단일 의존도를 낮추고 SEO·Amazon·TikTok Shop·오프라인 리테일의 채널별 수요와 경쟁 신호를 함께 추적한다."
+      },
+      {
+        "title": "쇼츠 스토리·프리미엄 이미지 제작 원칙",
+        "date": "2026-09-20",
+        "market": "S상품별로 갈등형·증거형·비교형 3개 콘셉트를 만들되 훅과 결론은 실제 제품 사실과 촬영 가능한 증거만 사용한다. 조회수 외에 2초 유지율, 완주율, 링크 클릭, 댓글 질문을 기록한다."
+      },
+      {
+        "title": "고객 문제·포지셔닝·신뢰·수익구조·운영 루프 정의",
+        "date": "2026-09-20",
+        "market": "브랜드 한 문장을 고객·상황·결과 형식으로 3개 만들고 인터뷰와 랜딩 테스트로 검증한다. 의료효능과 규제 상태는 가치제안 문구에서 제외한다."
       }
     ]
   },
@@ -1606,42 +1616,6 @@
   ],
   "competitor_watch": [
     {
-      "name": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-      "brand": "MEDIHEAL",
-      "price_usd": 20.99,
-      "rating": 4.8,
-      "review_count": 1075,
-      "us_rank": 4,
-      "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 4위 · 마스크팩 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA48723304",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)",
-      "brand": "UNOVE",
-      "price_usd": 24.7,
-      "rating": 5,
-      "review_count": 4,
-      "us_rank": 17,
-      "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 17위 · 마스크팩 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA39329211",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "Biodance Bio Collagen-Real Deep Mask 16ct 1.19 oz.(34g)",
-      "brand": "Biodance",
-      "price_usd": 62.0,
-      "rating": 5,
-      "review_count": 2,
-      "us_rank": 24,
-      "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 24위 · 마스크팩 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA22731950",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
       "name": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
       "brand": "REJURAN",
       "price_usd": 41.6,
@@ -1675,6 +1649,42 @@
       "daiso_bucket": "스킨케어",
       "why": "us.oliveyoung.com/best-sellers 실수집 6위 · 스킨케어 동일 포지션",
       "url": "https://us.oliveyoung.com/products/UA98417491",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
+      "brand": "MEDIHEAL",
+      "price_usd": 20.99,
+      "rating": 4.8,
+      "review_count": 1075,
+      "us_rank": 4,
+      "daiso_bucket": "마스크팩",
+      "why": "us.oliveyoung.com/best-sellers 실수집 4위 · 마스크팩 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA48723304",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)",
+      "brand": "UNOVE",
+      "price_usd": 24.7,
+      "rating": 5,
+      "review_count": 4,
+      "us_rank": 17,
+      "daiso_bucket": "마스크팩",
+      "why": "us.oliveyoung.com/best-sellers 실수집 17위 · 마스크팩 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA39329211",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "Biodance Bio Collagen-Real Deep Mask 16ct 1.19 oz.(34g)",
+      "brand": "Biodance",
+      "price_usd": 62.0,
+      "rating": 5,
+      "review_count": 2,
+      "us_rank": 24,
+      "daiso_bucket": "마스크팩",
+      "why": "us.oliveyoung.com/best-sellers 실수집 24위 · 마스크팩 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA22731950",
       "source": "us.oliveyoung.com/best-sellers 실수집"
     }
   ],
