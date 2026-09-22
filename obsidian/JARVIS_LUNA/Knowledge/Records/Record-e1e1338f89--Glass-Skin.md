@@ -2,7 +2,7 @@
 title: "Record e1e1338f89 · Glass-Skin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T04:59:03.924905+00:00
+updated_at: 2026-09-22T11:41:15.381151+00:00
 tags: [record, real-data]
 ---
 

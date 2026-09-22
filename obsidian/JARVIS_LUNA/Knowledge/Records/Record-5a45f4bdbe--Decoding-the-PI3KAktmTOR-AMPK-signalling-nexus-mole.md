@@ -2,7 +2,7 @@
 title: "Record 5a45f4bdbe · Decoding-the-PI3KAktmTOR-AMPK-signalling-nexus-mole"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T04:59:03.326493+00:00
+updated_at: 2026-09-22T11:41:14.810869+00:00
 tags: [record, real-data]
 ---
 

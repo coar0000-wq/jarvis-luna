@@ -2,7 +2,7 @@
 title: "Record cbc94c1a06 · PerSeM-Persistent-Semantic-Memory-for-Long-Horizon-Open-Vocabulary-UAV"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T04:59:03.440900+00:00
+updated_at: 2026-09-22T11:41:14.928439+00:00
 tags: [record, real-data]
 ---
 

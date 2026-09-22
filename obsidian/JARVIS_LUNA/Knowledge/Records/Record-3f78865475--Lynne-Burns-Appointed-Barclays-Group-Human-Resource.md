@@ -2,7 +2,7 @@
 title: "Record 3f78865475 · Lynne-Burns-Appointed-Barclays-Group-Human-Resource"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T04:59:03.495054+00:00
+updated_at: 2026-09-22T11:41:14.989315+00:00
 tags: [record, real-data]
 ---
 

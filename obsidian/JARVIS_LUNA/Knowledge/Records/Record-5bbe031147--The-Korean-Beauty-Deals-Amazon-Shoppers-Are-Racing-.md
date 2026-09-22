@@ -2,7 +2,7 @@
 title: "Record 5bbe031147 · The-Korean-Beauty-Deals-Amazon-Shoppers-Are-Racing-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T04:59:03.767442+00:00
+updated_at: 2026-09-22T11:41:15.234136+00:00
 tags: [record, real-data]
 ---
 

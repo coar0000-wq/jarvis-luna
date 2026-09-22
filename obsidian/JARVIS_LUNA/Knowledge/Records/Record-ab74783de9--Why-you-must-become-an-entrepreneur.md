@@ -2,7 +2,7 @@
 title: "Record ab74783de9 · Why-you-must-become-an-entrepreneur"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T04:59:04.142518+00:00
+updated_at: 2026-09-22T11:41:15.586207+00:00
 tags: [record, real-data]
 ---
 

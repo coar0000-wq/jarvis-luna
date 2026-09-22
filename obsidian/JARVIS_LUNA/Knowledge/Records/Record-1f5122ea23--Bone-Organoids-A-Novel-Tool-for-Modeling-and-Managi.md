@@ -2,7 +2,7 @@
 title: "Record 1f5122ea23 · Bone-Organoids-A-Novel-Tool-for-Modeling-and-Managi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T04:59:03.265698+00:00
+updated_at: 2026-09-22T11:41:14.749828+00:00
 tags: [record, real-data]
 ---
 

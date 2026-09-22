@@ -2,7 +2,7 @@
 title: "Record 7b0b52c63b · Q4-2025-Financial-Results"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T04:59:04.010484+00:00
+updated_at: 2026-09-22T11:41:15.466535+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 20b040f8e5 · Introducing-agentic-video-understanding-with-Gemini"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T04:59:03.258280+00:00
+updated_at: 2026-09-22T11:41:14.742929+00:00
 tags: [record, real-data]
 ---
 

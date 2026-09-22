@@ -2,7 +2,7 @@
 title: "Record 48ec7de986 · What-your-skin-needs-at-every-age-with-K-pharmacy-s"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T04:59:03.780816+00:00
+updated_at: 2026-09-22T11:41:15.245596+00:00
 tags: [record, real-data]
 ---
 

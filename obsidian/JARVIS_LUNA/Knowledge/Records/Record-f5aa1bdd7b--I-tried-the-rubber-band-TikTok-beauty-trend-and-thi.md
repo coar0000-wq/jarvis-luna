@@ -2,7 +2,7 @@
 title: "Record f5aa1bdd7b · I-tried-the-rubber-band-TikTok-beauty-trend-and-thi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T04:59:03.699505+00:00
+updated_at: 2026-09-22T11:41:15.173259+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2360678440 · Group-incentives-and-rational-voting"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T04:59:03.363092+00:00
+updated_at: 2026-09-22T11:41:14.849537+00:00
 tags: [record, real-data]
 ---
 
