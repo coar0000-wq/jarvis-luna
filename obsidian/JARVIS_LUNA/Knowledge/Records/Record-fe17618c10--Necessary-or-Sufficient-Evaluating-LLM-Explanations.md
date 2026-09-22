@@ -2,7 +2,7 @@
 title: "Record fe17618c10 · Necessary-or-Sufficient-Evaluating-LLM-Explanations"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T16:59:41.884249+00:00
+updated_at: 2026-09-22T21:21:21.096997+00:00
 tags: [record, real-data]
 ---
 

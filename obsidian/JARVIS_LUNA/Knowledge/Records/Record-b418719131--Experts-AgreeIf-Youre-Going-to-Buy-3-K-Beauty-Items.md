@@ -2,7 +2,7 @@
 title: "Record b418719131 · Experts-AgreeIf-Youre-Going-to-Buy-3-K-Beauty-Items"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T16:59:42.342948+00:00
+updated_at: 2026-09-22T21:21:24.162947+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMijAFBVV95cUxQRFphcVFHRzN2c1NxWFVtSTI2bld6Uk9MUlRHVWc4NU00UFQ2d2RFNVRoYjFCd0c0VkpZTzNHbTJJZmI3VjBjbnpjWlZ0aG1CZUhNT213bXJ1Qjlta1hpaFJXLU9UNm9YUU41S3JCWmlYODVMSnJTRk03Y0p4MFZJUWFuMUw2VzdMdXdNSw?oc=5)
 
-**제목:** Experts Agree—If You're Going to Buy 3 K-Beauty Items This Summer, It Should Be This, This, and This - whowhatwear.com
+**제목:** Experts Agree—If You're Going to Buy 3 K-Beauty Items This Summer, It Should Be This, This, and This - Who What Wear
 
-Experts Agree—If You're Going to Buy 3 K-Beauty Items This Summer, It Should Be This, This, and This - whowhatwear.com
+Experts Agree—If You're Going to Buy 3 K-Beauty Items This Summer, It Should Be This, This, and This - Who What Wear
 
 **출처:** Source · Google Search
 

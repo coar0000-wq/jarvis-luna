@@ -2,7 +2,7 @@
 title: "Record 463c1d7581 · What-Is-A-Rhino-Nose-Piercing-TikTok-Beauty-Trend-E"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T16:59:42.375673+00:00
+updated_at: 2026-09-22T21:21:24.215811+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMingFBVV95cUxNNkRTTE5EOXZJaEtEMTJvWlVmeEc0ZUpONFlFTkEwVTZTNUNUSHlwUXV0bHpuNk1tX0ZleUNwZTZjaGNjeEdiX05QZmRVNkR3a2RIYW5RTzQ0Wk1KT0daSTkyUFQ3bGI0dEJ5cGZJREVteE1RZHpFZTVwQV9pZWJQRlUzLW9HbERYaGVZUW9FYzJrWTN2cElIZlpFd2Jydw?oc=5)
 
-**제목:** WTF Is The Rhino Piercing? The Latest TikTok Beauty Trend To Grace Our FYP - betches.com
+**제목:** WTF Is The Rhino Piercing? The Latest TikTok Beauty Trend To Grace Our FYP - Betches
 
-WTF Is The Rhino Piercing? The Latest TikTok Beauty Trend To Grace Our FYP - betches.com
+WTF Is The Rhino Piercing? The Latest TikTok Beauty Trend To Grace Our FYP - Betches
 
 **출처:** Source · Google Search
 

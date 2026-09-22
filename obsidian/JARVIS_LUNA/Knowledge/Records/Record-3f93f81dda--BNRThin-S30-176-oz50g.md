@@ -2,7 +2,7 @@
 title: "Record 3f93f81dda · BNRThin-S30-176-oz50g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T16:59:42.495303+00:00
+updated_at: 2026-09-22T21:21:24.393844+00:00
 tags: [record, real-data]
 ---
 

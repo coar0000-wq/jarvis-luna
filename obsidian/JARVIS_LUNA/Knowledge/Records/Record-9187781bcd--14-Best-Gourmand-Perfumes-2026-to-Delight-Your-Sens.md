@@ -2,7 +2,7 @@
 title: "Record 9187781bcd · 14-Best-Gourmand-Perfumes-2026-to-Delight-Your-Sens"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T16:59:42.520433+00:00
+updated_at: 2026-09-22T21:21:24.432116+00:00
 tags: [record, real-data]
 ---
 

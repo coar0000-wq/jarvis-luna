@@ -2,7 +2,7 @@
 title: "Record 90e2a2e67f · ANUA-PDRN-Hyaluronic-Acid-100-Moisturizing-Cream-20"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T16:59:42.533092+00:00
+updated_at: 2026-09-22T21:21:24.451267+00:00
 tags: [record, real-data]
 ---
 

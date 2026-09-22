@@ -2,7 +2,7 @@
 title: "Record cb1880bf41 · Why-Global-Bond-Yields-Are-Surging---Transcript"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T16:59:42.598806+00:00
+updated_at: 2026-09-22T21:21:24.548105+00:00
 tags: [record, real-data]
 ---
 

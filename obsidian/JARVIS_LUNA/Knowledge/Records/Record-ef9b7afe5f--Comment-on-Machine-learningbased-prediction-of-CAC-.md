@@ -2,7 +2,7 @@
 title: "Record ef9b7afe5f · Comment-on-Machine-learningbased-prediction-of-CAC-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T16:59:42.004226+00:00
+updated_at: 2026-09-22T21:21:23.630301+00:00
 tags: [record, real-data]
 ---
 

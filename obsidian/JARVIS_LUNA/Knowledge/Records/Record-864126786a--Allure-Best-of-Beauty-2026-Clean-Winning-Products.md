@@ -2,7 +2,7 @@
 title: "Record 864126786a · Allure-Best-of-Beauty-2026-Clean-Winning-Products"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T16:59:42.514645+00:00
+updated_at: 2026-09-22T21:21:24.423345+00:00
 tags: [record, real-data]
 ---
 

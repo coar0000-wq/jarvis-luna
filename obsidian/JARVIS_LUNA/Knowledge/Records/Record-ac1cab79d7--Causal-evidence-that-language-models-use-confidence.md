@@ -2,7 +2,7 @@
 title: "Record ac1cab79d7 · Causal-evidence-that-language-models-use-confidence"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T16:59:42.025413+00:00
+updated_at: 2026-09-22T21:21:23.661585+00:00
 tags: [record, real-data]
 ---
 

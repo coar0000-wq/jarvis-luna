@@ -2,7 +2,7 @@
 title: "Record 6bbeae4c6c · Shopping-that-gets-you"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T16:59:42.713546+00:00
+updated_at: 2026-09-22T21:21:24.720542+00:00
 tags: [record, real-data]
 ---
 

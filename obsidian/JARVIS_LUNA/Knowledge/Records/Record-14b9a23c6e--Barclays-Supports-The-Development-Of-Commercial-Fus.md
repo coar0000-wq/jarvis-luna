@@ -2,7 +2,7 @@
 title: "Record 14b9a23c6e · Barclays-Supports-The-Development-Of-Commercial-Fus"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T16:59:42.581705+00:00
+updated_at: 2026-09-22T21:21:24.521589+00:00
 tags: [record, real-data]
 ---
 

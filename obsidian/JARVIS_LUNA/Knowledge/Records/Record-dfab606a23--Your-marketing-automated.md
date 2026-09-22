@@ -2,7 +2,7 @@
 title: "Record dfab606a23 · Your-marketing-automated"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T16:59:42.714633+00:00
+updated_at: 2026-09-22T21:21:24.722372+00:00
 tags: [record, real-data]
 ---
 

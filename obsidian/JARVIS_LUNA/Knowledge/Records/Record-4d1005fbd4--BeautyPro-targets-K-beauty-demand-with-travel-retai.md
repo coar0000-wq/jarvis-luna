@@ -2,7 +2,7 @@
 title: "Record 4d1005fbd4 · BeautyPro-targets-K-beauty-demand-with-travel-retai"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T16:59:42.409448+00:00
+updated_at: 2026-09-22T21:21:24.270151+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 39842fa0b3 · How-a-researcher-uses-Codex-and-ChatGPT-to-search-f"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T16:59:42.454422+00:00
+updated_at: 2026-09-22T21:21:24.332891+00:00
 tags: [record, real-data]
 ---
 

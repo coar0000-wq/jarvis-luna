@@ -2,7 +2,7 @@
 title: "Record e5fe5e0ec3 · Цифровое-сопровождение-клиентов-при-посещении-торговых-центров-стратег"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T16:59:42.097847+00:00
+updated_at: 2026-09-22T21:21:23.770008+00:00
 tags: [record, real-data]
 ---
 

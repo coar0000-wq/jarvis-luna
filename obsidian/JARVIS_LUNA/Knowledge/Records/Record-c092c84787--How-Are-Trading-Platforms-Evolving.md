@@ -2,7 +2,7 @@
 title: "Record c092c84787 · How-Are-Trading-Platforms-Evolving"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T16:59:42.605307+00:00
+updated_at: 2026-09-22T21:21:24.559296+00:00
 tags: [record, real-data]
 ---
 
