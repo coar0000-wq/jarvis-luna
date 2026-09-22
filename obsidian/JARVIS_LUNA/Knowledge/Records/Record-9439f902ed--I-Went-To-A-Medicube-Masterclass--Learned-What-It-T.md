@@ -2,7 +2,7 @@
 title: "Record 9439f902ed · I-Went-To-A-Medicube-Masterclass--Learned-What-It-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T22:01:01.328662+00:00
+updated_at: 2026-09-22T04:59:03.646667+00:00
 tags: [record, real-data]
 ---
 

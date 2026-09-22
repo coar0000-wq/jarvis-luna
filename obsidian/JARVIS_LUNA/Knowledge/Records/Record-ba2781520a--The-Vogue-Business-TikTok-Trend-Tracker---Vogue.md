@@ -2,7 +2,7 @@
 title: "Record ba2781520a · The-Vogue-Business-TikTok-Trend-Tracker---Vogue"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T22:01:01.327296+00:00
+updated_at: 2026-09-22T04:59:03.645117+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMieEFVX3lxTE9nc2ktNnQxVzlMTjl1MjR5MFYwSkMtVjI1Z0VhZlBLU0JqVlBjdHUyejJCVDV3OE9xYmF3ckhxR2VXLTk1Y3ZScXZfN0VPSU1ManFXYmFUWWxKTDN6cjFXTzk2OGxSVWxDOHIyeXZmRG9jUktfd2FIMg?oc=5)
 
-**제목:** The Vogue Business TikTok Trend Tracker - Vogue
+**제목:** The Vogue Business TikTok Trend Tracker - vogue.com
 
-The Vogue Business TikTok Trend Tracker - Vogue
+The Vogue Business TikTok Trend Tracker - vogue.com
 
 **출처:** Source · Google Search
 

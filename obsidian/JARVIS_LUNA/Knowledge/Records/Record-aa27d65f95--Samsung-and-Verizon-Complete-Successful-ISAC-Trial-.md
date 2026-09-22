@@ -2,7 +2,7 @@
 title: "Record aa27d65f95 · Samsung-and-Verizon-Complete-Successful-ISAC-Trial-Over-Virtualized-Ne"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T22:01:01.479358+00:00
+updated_at: 2026-09-22T04:59:03.815223+00:00
 tags: [record, real-data]
 ---
 

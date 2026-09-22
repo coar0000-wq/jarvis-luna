@@ -2,7 +2,7 @@
 title: "Record 8c1c4fcd52 · Two-new-sunscreens-bring-the-K-beauty-inspired-upgrade-weve-been-waiti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T22:01:01.387339+00:00
+updated_at: 2026-09-22T04:59:03.710540+00:00
 tags: [record, real-data]
 ---
 

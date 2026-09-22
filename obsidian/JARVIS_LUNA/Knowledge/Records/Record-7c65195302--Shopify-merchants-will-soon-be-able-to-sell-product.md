@@ -2,7 +2,7 @@
 title: "Record 7c65195302 · Shopify-merchants-will-soon-be-able-to-sell-product"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T22:01:01.314901+00:00
+updated_at: 2026-09-22T04:59:03.630912+00:00
 tags: [record, real-data]
 ---
 

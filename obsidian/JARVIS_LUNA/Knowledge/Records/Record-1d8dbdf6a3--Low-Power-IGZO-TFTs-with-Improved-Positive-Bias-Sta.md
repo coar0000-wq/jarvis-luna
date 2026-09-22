@@ -2,7 +2,7 @@
 title: "Record 1d8dbdf6a3 · Low-Power-IGZO-TFTs-with-Improved-Positive-Bias-Sta"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T22:01:01.107293+00:00
+updated_at: 2026-09-22T04:59:03.401663+00:00
 tags: [record, real-data]
 ---
 

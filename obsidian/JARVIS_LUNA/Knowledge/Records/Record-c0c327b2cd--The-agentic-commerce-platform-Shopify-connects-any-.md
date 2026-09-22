@@ -2,7 +2,7 @@
 title: "Record c0c327b2cd · The-agentic-commerce-platform-Shopify-connects-any-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T22:01:01.256324+00:00
+updated_at: 2026-09-22T04:59:03.564278+00:00
 tags: [record, real-data]
 ---
 

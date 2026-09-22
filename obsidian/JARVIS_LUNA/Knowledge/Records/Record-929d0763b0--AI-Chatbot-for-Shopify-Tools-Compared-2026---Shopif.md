@@ -2,7 +2,7 @@
 title: "Record 929d0763b0 · AI-Chatbot-for-Shopify-Tools-Compared-2026---Shopify-India---shopifyco"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T22:01:01.241897+00:00
+updated_at: 2026-09-22T04:59:03.548272+00:00
 tags: [record, real-data]
 ---
 

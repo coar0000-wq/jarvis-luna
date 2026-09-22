@@ -2,7 +2,7 @@
 title: "Record d457078910 · AI-Infrastructure-Insight-Why-faster-GPUs-alone-can"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T22:01:01.489767+00:00
+updated_at: 2026-09-22T04:59:03.826460+00:00
 tags: [record, real-data]
 ---
 

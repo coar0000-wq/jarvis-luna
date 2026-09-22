@@ -2,7 +2,7 @@
 title: "Record 9f5be056bd · Unmanned-Aerial-Vehicle-UAV-Flight-Strategies-for-Post-Earthquake-Insp"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T22:01:01.539854+00:00
+updated_at: 2026-09-22T04:59:03.882273+00:00
 tags: [record, real-data]
 ---
 

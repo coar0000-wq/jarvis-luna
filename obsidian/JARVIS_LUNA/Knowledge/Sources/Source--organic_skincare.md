@@ -2,7 +2,7 @@
 title: "Source · organic_skincare"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T22:01:01.975114+00:00
+updated_at: 2026-09-22T04:59:04.345925+00:00
 tags: [source, real-data]
 ---
 

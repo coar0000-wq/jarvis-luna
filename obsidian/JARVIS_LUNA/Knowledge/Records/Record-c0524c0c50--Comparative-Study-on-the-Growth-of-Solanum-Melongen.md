@@ -2,7 +2,7 @@
 title: "Record c0524c0c50 · Comparative-Study-on-the-Growth-of-Solanum-Melongen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T22:01:01.173891+00:00
+updated_at: 2026-09-22T04:59:03.475422+00:00
 tags: [record, real-data]
 ---
 

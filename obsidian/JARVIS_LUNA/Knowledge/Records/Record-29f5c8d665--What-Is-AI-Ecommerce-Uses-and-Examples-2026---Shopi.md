@@ -2,7 +2,7 @@
 title: "Record 29f5c8d665 · What-Is-AI-Ecommerce-Uses-and-Examples-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T22:01:01.242564+00:00
+updated_at: 2026-09-22T04:59:03.549022+00:00
 tags: [record, real-data]
 ---
 

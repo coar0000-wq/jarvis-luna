@@ -2,7 +2,7 @@
 title: "Record 4453848cfe · Toleriane-Double-Repair-Face-Moisturizer-with-Niacinamide"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T22:01:01.747445+00:00
+updated_at: 2026-09-22T04:59:04.117131+00:00
 tags: [record, real-data]
 ---
 

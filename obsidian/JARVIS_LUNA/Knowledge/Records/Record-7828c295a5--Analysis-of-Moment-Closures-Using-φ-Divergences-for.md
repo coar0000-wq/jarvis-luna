@@ -2,7 +2,7 @@
 title: "Record 7828c295a5 · Analysis-of-Moment-Closures-Using-φ-Divergences-for-Rarefied-Dynamics-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T22:01:01.536263+00:00
+updated_at: 2026-09-22T04:59:03.878265+00:00
 tags: [record, real-data]
 ---
 

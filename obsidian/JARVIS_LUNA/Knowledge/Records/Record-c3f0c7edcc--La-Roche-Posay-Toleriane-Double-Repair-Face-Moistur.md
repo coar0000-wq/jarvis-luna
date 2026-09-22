@@ -2,7 +2,7 @@
 title: "Record c3f0c7edcc · La-Roche-Posay-Toleriane-Double-Repair-Face-Moisturizer--Daily-face-cr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T22:01:01.622752+00:00
+updated_at: 2026-09-22T04:59:03.978927+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record b348258574 · Low-Latency-Global-Carbon-Budget-Reveals-Late-2024-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T22:01:00.980615+00:00
+updated_at: 2026-09-22T04:59:03.265962+00:00
 tags: [record, real-data]
 ---
 

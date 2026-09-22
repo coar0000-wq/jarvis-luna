@@ -2,7 +2,7 @@
 title: "Record d73c155baa · 민감성-피부에-클렌징오일-쓸까-말까"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T22:01:01.796751+00:00
+updated_at: 2026-09-22T04:59:04.169755+00:00
 tags: [record, real-data]
 ---
 

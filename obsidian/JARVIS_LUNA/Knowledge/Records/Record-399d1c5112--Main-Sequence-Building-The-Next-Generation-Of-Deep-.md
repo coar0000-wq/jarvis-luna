@@ -2,7 +2,7 @@
 title: "Record 399d1c5112 · Main-Sequence-Building-The-Next-Generation-Of-Deep-Tech"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T22:01:01.678518+00:00
+updated_at: 2026-09-22T04:59:04.042803+00:00
 tags: [record, real-data]
 ---
 

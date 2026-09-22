@@ -2,7 +2,7 @@
 title: "Record 9dba62cbb9 · Adaptive-Instructed-Retriever-Frontier-Quality-Sear"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-21T22:01:01.658634+00:00
+updated_at: 2026-09-22T04:59:04.020432+00:00
 tags: [record, real-data]
 ---
 
