@@ -1,15 +1,15 @@
 {
   "generator": "scripts/collect_us_retail.py",
   "method": "Playwright chromium · Ulta/Sephora 카드 파싱",
-  "collected_at": "2026-09-21T23:33:45.525723+00:00",
+  "collected_at": "2026-09-22T23:15:16.485621+00:00",
   "country": "US",
   "market": "beauty",
-  "count": 69,
+  "count": 68,
   "is_stale": false,
   "stale_from": "",
   "by_store": {
     "Ulta": {
-      "count": 55,
+      "count": 54,
       "source_url": "https://www.ulta.com/shop/skin-care",
       "reason": ""
     },
@@ -20,35 +20,23 @@
     }
   },
   "price_stats": {
-    "n": 69,
+    "n": 68,
     "min": 4.8,
-    "p25": 15.74,
-    "median": 24,
+    "p25": 12.74,
+    "median": 21.9,
     "max": 269
   },
   "products": [
     {
       "source": "Ulta Bestsellers",
       "store": "Ulta",
-      "title": "Toleriane Purifying Foaming Face Wash for Oily Skin",
-      "brand": "La Roche-Posay",
-      "price_usd": 12.74,
-      "rating": 4.6,
-      "review_count": 3330,
-      "category": "Beauty",
-      "rank": 1,
-      "url": "https://www.ulta.com/p/toleriane-purifying-foaming-face-wash-oily-skin-xlsImpprod15321287"
-    },
-    {
-      "source": "Ulta Bestsellers",
-      "store": "Ulta",
       "title": "345 Relief Cream",
       "brand": "Dr. Althea",
       "price_usd": 18.9,
-      "rating": 4,
-      "review_count": 56,
+      "rating": 3.9,
+      "review_count": 63,
       "category": "Beauty",
-      "rank": 2,
+      "rank": 1,
       "url": "https://www.ulta.com/p/345-relief-cream-pimprod2056740"
     },
     {
@@ -60,8 +48,20 @@
       "rating": 4,
       "review_count": 2013,
       "category": "Beauty",
-      "rank": 3,
+      "rank": 2,
       "url": "https://www.ulta.com/p/toleriane-double-repair-face-moisturizer-with-niacinamide-xlsImpprod16011007"
+    },
+    {
+      "source": "Ulta Bestsellers",
+      "store": "Ulta",
+      "title": "Toleriane Purifying Foaming Face Wash for Oily Skin",
+      "brand": "La Roche-Posay",
+      "price_usd": 12.74,
+      "rating": 4.6,
+      "review_count": 3331,
+      "category": "Beauty",
+      "rank": 3,
+      "url": "https://www.ulta.com/p/toleriane-purifying-foaming-face-wash-oily-skin-xlsImpprod15321287"
     },
     {
       "source": "Ulta Bestsellers",
@@ -70,7 +70,7 @@
       "brand": "La Roche-Posay",
       "price_usd": 7.49,
       "rating": 4.4,
-      "review_count": 2695,
+      "review_count": 2696,
       "category": "Beauty",
       "rank": 4,
       "url": "https://www.ulta.com/p/toleriane-hydrating-gentle-face-cleanser-dry-skin-xlsImpprod15321285"
@@ -82,7 +82,7 @@
       "brand": "SACHEU",
       "price_usd": 12,
       "rating": 4.4,
-      "review_count": 486,
+      "review_count": 487,
       "category": "Beauty",
       "rank": 5,
       "url": "https://www.ulta.com/p/doubledown-lip-definer-2-in-1-liner-balm-pimprod2059017"
@@ -94,7 +94,7 @@
       "brand": "La Roche-Posay",
       "price_usd": 15.74,
       "rating": 4.7,
-      "review_count": 3108,
+      "review_count": 3111,
       "category": "Beauty",
       "rank": 6,
       "url": "https://www.ulta.com/p/cicaplast-balm-b5-soothing-therapeutic-multi-purpose-cream-pimprod2018263"
@@ -106,7 +106,7 @@
       "brand": "La Roche-Posay",
       "price_usd": 21.74,
       "rating": 4.1,
-      "review_count": 1725,
+      "review_count": 1726,
       "category": "Beauty",
       "rank": 7,
       "url": "https://www.ulta.com/p/toleriane-double-repair-face-moisturizer-uv-spf-30-xlsImpprod15681007"
@@ -118,7 +118,7 @@
       "brand": "BYOMA",
       "price_usd": 7.49,
       "rating": 4.3,
-      "review_count": 440,
+      "review_count": 441,
       "category": "Beauty",
       "rank": 8,
       "url": "https://www.ulta.com/p/hydrating-milky-toner-pimprod2043230"
@@ -130,7 +130,7 @@
       "brand": "Good Molecules",
       "price_usd": 9.6,
       "rating": 4.2,
-      "review_count": 4547,
+      "review_count": 4548,
       "category": "Beauty",
       "rank": 9,
       "url": "https://www.ulta.com/p/discoloration-correcting-serum-pimprod2023928"
@@ -142,7 +142,7 @@
       "brand": "Good Molecules",
       "price_usd": 14.4,
       "rating": 3.7,
-      "review_count": 861,
+      "review_count": 863,
       "category": "Beauty",
       "rank": 10,
       "url": "https://www.ulta.com/p/caffeine-energizing-hydrogel-eye-patches-pimprod2023938"
@@ -166,7 +166,7 @@
       "brand": "Good Molecules",
       "price_usd": 4.8,
       "rating": 4.7,
-      "review_count": 2195,
+      "review_count": 2196,
       "category": "Beauty",
       "rank": 12,
       "url": "https://www.ulta.com/p/hyaluronic-acid-serum-pimprod2023925"
@@ -178,7 +178,7 @@
       "brand": "PEACH & LILY",
       "price_usd": 59,
       "rating": 3.7,
-      "review_count": 58,
+      "review_count": 63,
       "category": "Beauty",
       "rank": 13,
       "url": "https://www.ulta.com/p/advanced-rebound-bioglow-zombie-cream-pimprod2059736"
@@ -190,7 +190,7 @@
       "brand": "Murad",
       "price_usd": 37,
       "rating": 4.7,
-      "review_count": 188,
+      "review_count": 204,
       "category": "Beauty",
       "rank": 14,
       "url": "https://www.ulta.com/p/retinol-youth-renewal-serum-pimprod2059715"
@@ -202,7 +202,7 @@
       "brand": "The Ordinary",
       "price_usd": 9.5,
       "rating": 4.8,
-      "review_count": 93,
+      "review_count": 96,
       "category": "Beauty",
       "rank": 15,
       "url": "https://www.ulta.com/p/lacto-pdrn-4-b9-eye-cream-pimprod2061032"
@@ -226,7 +226,7 @@
       "brand": "NYX Professional Makeup",
       "price_usd": 13,
       "rating": 4.8,
-      "review_count": 393,
+      "review_count": 397,
       "category": "Beauty",
       "rank": 17,
       "url": "https://www.ulta.com/p/smushy-sos-hydrating-lip-mask-pimprod2060421"
@@ -250,7 +250,7 @@
       "brand": "Clarins",
       "price_usd": 86,
       "rating": 4.5,
-      "review_count": 2452,
+      "review_count": 2495,
       "category": "Beauty",
       "rank": 19,
       "url": "https://www.ulta.com/p/double-serum-eye-anti-aging-concentrate-pimprod2059820"
@@ -318,38 +318,26 @@
     {
       "source": "Ulta Bestsellers",
       "store": "Ulta",
-      "title": "Pout Preserve Hydrating Peptide Lip Treatment",
-      "brand": "OLEHENRIKSEN",
+      "title": "Protini Polypeptide Firming Moisturizer",
+      "brand": "Drunk Elephant",
       "price_usd": 24,
       "rating": 4.5,
-      "review_count": 912,
+      "review_count": 4312,
       "category": "Beauty",
       "rank": 25,
-      "url": "https://www.ulta.com/p/pout-preserve-hydrating-peptide-lip-treatment-pimprod2042281"
+      "url": "https://www.ulta.com/p/protini-polypeptide-firming-moisturizer-pimprod2028061"
     },
     {
       "source": "Ulta Bestsellers",
       "store": "Ulta",
-      "title": "Dramatically Different Moisturizing Lotion+ For Face",
+      "title": "Moisture Surge 100H Auto-Replenishing Hydrator Gel Moisturizer with Hyaluronic Acid",
       "brand": "Clinique",
-      "price_usd": 7,
-      "rating": 4.5,
-      "review_count": 9334,
+      "price_usd": 18,
+      "rating": 4.6,
+      "review_count": 4282,
       "category": "Beauty",
       "rank": 26,
-      "url": "https://www.ulta.com/p/dramatically-different-moisturizing-lotion-face-xlsImpprod10791743"
-    },
-    {
-      "source": "Ulta Bestsellers",
-      "store": "Ulta",
-      "title": "Glycolic Acid 7% Exfoliating and Brightening Daily Toner",
-      "brand": "The Ordinary",
-      "price_usd": 9,
-      "rating": 4.2,
-      "review_count": 2156,
-      "category": "Beauty",
-      "rank": 27,
-      "url": "https://www.ulta.com/p/glycolic-acid-7-exfoliating-brightening-daily-toner-pimprod2007097"
+      "url": "https://www.ulta.com/p/moisture-surge-100h-auto-replenishing-hydrator-gel-moisturizer-with-hyaluronic-acid-pimprod2021615"
     },
     {
       "source": "Ulta Bestsellers",
@@ -358,46 +346,10 @@
       "brand": "PEACH & LILY",
       "price_usd": 8,
       "rating": 4.2,
-      "review_count": 520,
+      "review_count": 522,
       "category": "Beauty",
-      "rank": 28,
+      "rank": 27,
       "url": "https://www.ulta.com/p/glass-skin-ginseng-collagen-mask-pimprod2048072"
-    },
-    {
-      "source": "Ulta Bestsellers",
-      "store": "Ulta",
-      "title": "Glowscreen SPF 40 Sunscreen with Hyaluronic Acid + Niacinamide",
-      "brand": "Supergoop!",
-      "price_usd": 38,
-      "rating": 4.5,
-      "review_count": 3787,
-      "category": "Beauty",
-      "rank": 29,
-      "url": "https://www.ulta.com/p/glowscreen-spf-40-sunscreen-with-hyaluronic-acid-niacinamide-pimprod2049123"
-    },
-    {
-      "source": "Ulta Bestsellers",
-      "store": "Ulta",
-      "title": "DOUBLE SERUM Age-Defying Concentrate",
-      "brand": "Clarins",
-      "price_usd": 96,
-      "rating": 4.5,
-      "review_count": 7858,
-      "category": "Beauty",
-      "rank": 30,
-      "url": "https://www.ulta.com/p/double-serum-age-defying-concentrate-pimprod2046943"
-    },
-    {
-      "source": "Ulta Bestsellers",
-      "store": "Ulta",
-      "title": "Rénergie Multi-Action Lift And Firm Anti-Aging Night Cream Moisturizer",
-      "brand": "Lancôme",
-      "price_usd": 140,
-      "rating": 4.8,
-      "review_count": 1332,
-      "category": "Beauty",
-      "rank": 31,
-      "url": "https://www.ulta.com/p/renergie-multi-action-lift-firm-anti-aging-night-cream-moisturizer-xlsImpprod4700071"
     },
     {
       "source": "Ulta Bestsellers",
@@ -408,8 +360,20 @@
       "rating": 4.5,
       "review_count": 3644,
       "category": "Beauty",
-      "rank": 32,
+      "rank": 28,
       "url": "https://www.ulta.com/p/renergie-hcf-triple-serum-pimprod2030158"
+    },
+    {
+      "source": "Ulta Bestsellers",
+      "store": "Ulta",
+      "title": "Glowscreen SPF 40 Sunscreen with Hyaluronic Acid + Niacinamide",
+      "brand": "Supergoop!",
+      "price_usd": 38,
+      "rating": 4.5,
+      "review_count": 3790,
+      "category": "Beauty",
+      "rank": 29,
+      "url": "https://www.ulta.com/p/glowscreen-spf-40-sunscreen-with-hyaluronic-acid-niacinamide-pimprod2049123"
     },
     {
       "source": "Ulta Bestsellers",
@@ -420,20 +384,44 @@
       "rating": 4.3,
       "review_count": 1324,
       "category": "Beauty",
-      "rank": 33,
+      "rank": 30,
       "url": "https://www.ulta.com/p/hyaluronic-acid-2-b5-hydrating-serum-with-ceramides-pimprod2043525"
     },
     {
       "source": "Ulta Bestsellers",
       "store": "Ulta",
-      "title": "Do It All Hydrating Sheer Tinted Moisturizer Balm",
-      "brand": "IT Cosmetics",
-      "price_usd": 34,
+      "title": "DOUBLE SERUM Age-Defying Concentrate",
+      "brand": "Clarins",
+      "price_usd": 96,
       "rating": 4.5,
-      "review_count": 3775,
+      "review_count": 7866,
       "category": "Beauty",
-      "rank": 34,
-      "url": "https://www.ulta.com/p/do-it-all-hydrating-sheer-tinted-moisturizer-balm-pimprod2056858"
+      "rank": 31,
+      "url": "https://www.ulta.com/p/double-serum-age-defying-concentrate-pimprod2046943"
+    },
+    {
+      "source": "Ulta Bestsellers",
+      "store": "Ulta",
+      "title": "All About Eyes Eye Cream with Vitamin C",
+      "brand": "Clinique",
+      "price_usd": 39,
+      "rating": 4.5,
+      "review_count": 2161,
+      "category": "Beauty",
+      "rank": 32,
+      "url": "https://www.ulta.com/p/all-about-eyes-eye-cream-with-vitamin-c-xlsImpprod10791765"
+    },
+    {
+      "source": "Ulta Bestsellers",
+      "store": "Ulta",
+      "title": "Glycolic Acid 7% Exfoliating and Brightening Daily Toner",
+      "brand": "The Ordinary",
+      "price_usd": 9,
+      "rating": 4.2,
+      "review_count": 2157,
+      "category": "Beauty",
+      "rank": 33,
+      "url": "https://www.ulta.com/p/glycolic-acid-7-exfoliating-brightening-daily-toner-pimprod2007097"
     },
     {
       "source": "Ulta Bestsellers",
@@ -444,7 +432,7 @@
       "rating": 3.7,
       "review_count": 10,
       "category": "Beauty",
-      "rank": 35,
+      "rank": 34,
       "url": "https://www.ulta.com/p/kojic-acid-turmeric-pad-pimprod2057308"
     },
     {
@@ -456,7 +444,7 @@
       "rating": 4.2,
       "review_count": 1701,
       "category": "Beauty",
-      "rank": 36,
+      "rank": 35,
       "url": "https://www.ulta.com/p/mighty-patch-micropoint-blemishes-patches-pimprod2034651"
     },
     {
@@ -466,9 +454,9 @@
       "brand": "ANUA",
       "price_usd": 14,
       "rating": 4.6,
-      "review_count": 140,
+      "review_count": 141,
       "category": "Beauty",
-      "rank": 37,
+      "rank": 36,
       "url": "https://www.ulta.com/p/pdrn-hyaluronic-acid-hydrating-capsule-mist-pimprod2055946"
     },
     {
@@ -480,7 +468,7 @@
       "rating": 4.8,
       "review_count": 21,
       "category": "Beauty",
-      "rank": 38,
+      "rank": 37,
       "url": "https://www.ulta.com/p/madeca-cream-time-reverse-pimprod2058852"
     },
     {
@@ -490,9 +478,9 @@
       "brand": "COSRX",
       "price_usd": 21,
       "rating": 4.6,
-      "review_count": 5340,
+      "review_count": 5341,
       "category": "Beauty",
-      "rank": 39,
+      "rank": 38,
       "url": "https://www.ulta.com/p/6-peptide-skin-booster-serum-with-niacinamide-hyaluronic-acid-pimprod2042968"
     },
     {
@@ -504,7 +492,7 @@
       "rating": 4.5,
       "review_count": 260,
       "category": "Beauty",
-      "rank": 40,
+      "rank": 39,
       "url": "https://www.ulta.com/p/true-cream-aqua-bomb-hydrating-moisturizer-pimprod2043259"
     },
     {
@@ -516,7 +504,7 @@
       "rating": 3.5,
       "review_count": 33,
       "category": "Beauty",
-      "rank": 41,
+      "rank": 40,
       "url": "https://www.ulta.com/p/pdrn-pink-collagen-volume-multi-balm-pimprod2059072"
     },
     {
@@ -528,7 +516,7 @@
       "rating": 4.6,
       "review_count": 110,
       "category": "Beauty",
-      "rank": 42,
+      "rank": 41,
       "url": "https://www.ulta.com/p/smoothing-solution-ingrown-hair-treatment-pimprod2045703"
     },
     {
@@ -540,7 +528,7 @@
       "rating": 4.7,
       "review_count": 184,
       "category": "Beauty",
-      "rank": 43,
+      "rank": 42,
       "url": "https://www.ulta.com/p/advanced-pdrn-rejuvenating-mask-pimprod2059294"
     },
     {
@@ -552,32 +540,44 @@
       "rating": 4.2,
       "review_count": 460,
       "category": "Beauty",
-      "rank": 44,
+      "rank": 43,
       "url": "https://www.ulta.com/p/toned-firming-body-massage-roller-creme-with-caffeine-peptides-pimprod2057851"
     },
     {
       "source": "Ulta Bestsellers",
       "store": "Ulta",
-      "title": "Big Lil Gift Set",
-      "brand": "STARFACE",
-      "price_usd": 19.99,
-      "rating": 5,
-      "review_count": 1,
+      "title": "Super Fade Discoloration Serum",
+      "brand": "Peach Slices",
+      "price_usd": 11.99,
+      "rating": 4.4,
+      "review_count": 140,
       "category": "Beauty",
-      "rank": 45,
-      "url": "https://www.ulta.com/p/big-lil-gift-set-pimprod2060919"
+      "rank": 44,
+      "url": "https://www.ulta.com/p/super-fade-discoloration-serum-pimprod2049581"
     },
     {
       "source": "Ulta Bestsellers",
       "store": "Ulta",
-      "title": "The Dewy Skin Cream Line-Plumping Moisturizer",
-      "brand": "TATCHA",
-      "price_usd": 25,
+      "title": "Self-Dissolving Microneedle Patches",
+      "brand": "Wrinkles Schminkles",
+      "price_usd": 55,
+      "rating": 4.7,
+      "review_count": 108,
+      "category": "Beauty",
+      "rank": 45,
+      "url": "https://www.ulta.com/p/self-dissolving-microneedle-patches-mkt77000662"
+    },
+    {
+      "source": "Ulta Bestsellers",
+      "store": "Ulta",
+      "title": "Retinol + HPR Ceramide Capsules Rapid Skin Renewing Serum",
+      "brand": "Elizabeth Arden",
+      "price_usd": 56,
       "rating": 4.6,
-      "review_count": 1243,
+      "review_count": 5897,
       "category": "Beauty",
       "rank": 46,
-      "url": "https://www.ulta.com/p/dewy-skin-cream-line-plumping-moisturizer-pimprod2049087"
+      "url": "https://www.ulta.com/p/retinol-hpr-ceramide-capsules-rapid-skin-renewing-serum-pimprod2046171"
     },
     {
       "source": "Ulta Bestsellers",
@@ -586,10 +586,46 @@
       "brand": "ELEMIS",
       "price_usd": 25,
       "rating": 4.8,
-      "review_count": 3323,
+      "review_count": 3324,
       "category": "Beauty",
       "rank": 47,
       "url": "https://www.ulta.com/p/dynamic-resurfacing-facial-pads-pimprod2034133"
+    },
+    {
+      "source": "Ulta Bestsellers",
+      "store": "Ulta",
+      "title": "Mighty Patch Invisible+ Daytime Hydrocolloid Acne Pimple Patches",
+      "brand": "Hero Cosmetics",
+      "price_usd": 10.99,
+      "rating": 4.8,
+      "review_count": 1572,
+      "category": "Beauty",
+      "rank": 48,
+      "url": "https://www.ulta.com/p/mighty-patch-invisible-daytime-hydrocolloid-acne-pimple-patches-pimprod2034652"
+    },
+    {
+      "source": "Ulta Bestsellers",
+      "store": "Ulta",
+      "title": "Even Tone Cleansing Bar 3-in-1 Treatment",
+      "brand": "Urban Skin Rx",
+      "price_usd": 11.19,
+      "rating": 4.5,
+      "review_count": 2305,
+      "category": "Beauty",
+      "rank": 49,
+      "url": "https://www.ulta.com/p/even-tone-cleansing-bar-3-in-1-treatment-pimprod2004077"
+    },
+    {
+      "source": "Ulta Bestsellers",
+      "store": "Ulta",
+      "title": "TL Advanced Tightening Neck Cream Plus",
+      "brand": "StriVectin",
+      "price_usd": 15,
+      "rating": 4.3,
+      "review_count": 1458,
+      "category": "Beauty",
+      "rank": 50,
+      "url": "https://www.ulta.com/p/tl-advanced-tightening-neck-cream-plus-pimprod2039923"
     },
     {
       "source": "Ulta Bestsellers",
@@ -600,92 +636,44 @@
       "rating": 4.3,
       "review_count": 279,
       "category": "Beauty",
-      "rank": 48,
+      "rank": 51,
       "url": "https://www.ulta.com/p/ginzing-glow-boosting-serum-pimprod2018144"
     },
     {
       "source": "Ulta Bestsellers",
       "store": "Ulta",
-      "title": "Benefiance Wrinkle Smoothing Day Cream SPF 23",
-      "brand": "Shiseido",
-      "price_usd": 79,
-      "rating": 4.7,
-      "review_count": 613,
-      "category": "Beauty",
-      "rank": 49,
-      "url": "https://www.ulta.com/p/benefiance-wrinkle-smoothing-day-cream-spf-23-pimprod2008182"
-    },
-    {
-      "source": "Ulta Bestsellers",
-      "store": "Ulta",
-      "title": "Tallow & Honey Balm",
-      "brand": "Tallow Me Pretty",
-      "price_usd": 32,
-      "rating": 4.9,
-      "review_count": 91,
-      "category": "Beauty",
-      "rank": 50,
-      "url": "https://www.ulta.com/p/tallow-honey-balm-mkt77003851"
-    },
-    {
-      "source": "Ulta Bestsellers",
-      "store": "Ulta",
-      "title": "High Potency Classics: Face Finishing & Firming Moisturizer",
-      "brand": "Perricone MD",
-      "price_usd": 75,
-      "rating": 4.4,
-      "review_count": 758,
-      "category": "Beauty",
-      "rank": 51,
-      "url": "https://www.ulta.com/p/high-potency-classics-face-finishing-firming-moisturizer-xlsImpprod19011039"
-    },
-    {
-      "source": "Ulta Bestsellers",
-      "store": "Ulta",
-      "title": "The Rice Wash Skin-Softening Cleanser",
-      "brand": "TATCHA",
-      "price_usd": 19,
-      "rating": 4.7,
-      "review_count": 504,
+      "title": "Niacinamide Brightening Toner",
+      "brand": "Good Molecules",
+      "price_usd": 4.8,
+      "rating": 4.6,
+      "review_count": 2252,
       "category": "Beauty",
       "rank": 52,
-      "url": "https://www.ulta.com/p/rice-wash-skin-softening-cleanser-pimprod2049116"
+      "url": "https://www.ulta.com/p/niacinamide-brightening-toner-pimprod2023929"
     },
     {
       "source": "Ulta Bestsellers",
       "store": "Ulta",
-      "title": "Luminosity Eye Serum",
-      "brand": "DIME",
-      "price_usd": 38,
-      "rating": 4.7,
-      "review_count": 4985,
+      "title": "Acne Foaming Wash with 10% Benzoyl Peroxide",
+      "brand": "PanOxyl",
+      "price_usd": 8.49,
+      "rating": 4.5,
+      "review_count": 731,
       "category": "Beauty",
       "rank": 53,
-      "url": "https://www.ulta.com/p/luminosity-eye-serum-pimprod2053361"
+      "url": "https://www.ulta.com/p/acne-foaming-wash-with-10-benzoyl-peroxide-pimprod2041851"
     },
     {
       "source": "Ulta Bestsellers",
       "store": "Ulta",
-      "title": "Ultra Facial Meltdown Recovery Cream Medicated",
-      "brand": "Kiehl's Since 1851",
-      "price_usd": 30,
-      "rating": 4.7,
-      "review_count": 744,
+      "title": "Fur Oil",
+      "brand": "Fur",
+      "price_usd": 28,
+      "rating": 4.8,
+      "review_count": 1625,
       "category": "Beauty",
       "rank": 54,
-      "url": "https://www.ulta.com/p/ultra-facial-meltdown-recovery-cream-medicated-pimprod2055934"
-    },
-    {
-      "source": "Ulta Bestsellers",
-      "store": "Ulta",
-      "title": "Renergie C.R.x Triple Serum Retinol",
-      "brand": "Lancôme",
-      "price_usd": 73,
-      "rating": 4.6,
-      "review_count": 1422,
-      "category": "Beauty",
-      "rank": 55,
-      "url": "https://www.ulta.com/p/renergie-crx-triple-serum-retinol-pimprod2051917"
+      "url": "https://www.ulta.com/p/fur-oil-pimprod2004294"
     },
     {
       "source": "Sephora Bestsellers",
