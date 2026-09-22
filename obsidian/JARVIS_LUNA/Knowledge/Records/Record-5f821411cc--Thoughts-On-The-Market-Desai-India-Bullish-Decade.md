@@ -2,7 +2,7 @@
 title: "Record 5f821411cc · Thoughts-On-The-Market-Desai-India-Bullish-Decade"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T11:41:15.521818+00:00
+updated_at: 2026-09-22T16:59:42.623556+00:00
 tags: [record, real-data]
 ---
 

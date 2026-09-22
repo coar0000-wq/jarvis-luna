@@ -2,7 +2,7 @@
 title: "Record 1c19259226 · G2RA-NET-Graph-based-Cross-Slice-Relation-Modeling-with-Attention-Gati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T11:41:14.934749+00:00
+updated_at: 2026-09-22T16:59:42.129418+00:00
 tags: [record, real-data]
 ---
 

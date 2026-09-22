@@ -2,7 +2,7 @@
 title: "Record 0eba69c720 · Shopify-President-Agentic-AI-Drives-11x-Spike-in-Or"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T11:41:15.232776+00:00
+updated_at: 2026-09-22T16:59:42.389971+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMipgFBVV95cUxPSHpVM2Y0NklOV3Y2OEFORmVNc1E4NUR3UkxiWFRLTlU4clVDenMyd0pBTkQ1NVRvMVd0YmpEczVBWHBuSmtTYWg2ZFJVLWpuY0JQX1pRWUFnMlRnaDl3V3N1Y3Y4SV84T3QzbU1tdVM1M3oyNmFyTExReUtMazFVdlJnNDhKSElNWjBDaUZfcTRLOWlpRjVmdWI5Y1NQb3AwNDBuUWZB?oc=5)
 
-**제목:** Shopify President: Agentic AI Drives 11x Spike in Orders - PYMNTS.com
+**제목:** Shopify President: Agentic AI Drives 11x Spike in Orders - pymnts.com
 
-Shopify President: Agentic AI Drives 11x Spike in Orders - PYMNTS.com
+Shopify President: Agentic AI Drives 11x Spike in Orders - pymnts.com
 
 **출처:** Source · Google Search
 

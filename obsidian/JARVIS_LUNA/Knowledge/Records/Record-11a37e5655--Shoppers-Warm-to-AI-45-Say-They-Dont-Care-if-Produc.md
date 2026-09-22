@@ -2,7 +2,7 @@
 title: "Record 11a37e5655 · Shoppers-Warm-to-AI-45-Say-They-Dont-Care-if-Produc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T11:41:15.171943+00:00
+updated_at: 2026-09-22T16:59:42.338585+00:00
 tags: [record, real-data]
 ---
 

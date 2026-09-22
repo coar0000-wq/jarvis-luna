@@ -2,7 +2,7 @@
 title: "Record c617649841 · Unifying-governance-across-engines-and-catalogs-in-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T11:41:15.482960+00:00
+updated_at: 2026-09-22T16:59:42.592110+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record e4bfd4fdc5 · Synthesis-of-MetalQuantum-Dot-CoreSatellite-Nanopar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T11:41:14.793074+00:00
+updated_at: 2026-09-22T16:59:42.017559+00:00
 tags: [record, real-data]
 ---
 

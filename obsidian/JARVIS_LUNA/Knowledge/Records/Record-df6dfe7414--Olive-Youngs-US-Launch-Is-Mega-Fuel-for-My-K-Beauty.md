@@ -2,7 +2,7 @@
 title: "Record df6dfe7414 · Olive-Youngs-US-Launch-Is-Mega-Fuel-for-My-K-Beauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T11:41:15.177888+00:00
+updated_at: 2026-09-22T16:59:42.343548+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMijAFBVV95cUxQbjlOMmNqTi0yZlhEb0NuUEtwckxCX09FLUx2anVTV2x5TktLOFlqejRuTjJPQ1JLTlBNUFVnV0Y0WFlIQ01fNUdDcWIxZ0cwVndMdW4wRzU2Tk4wc0FKMU40WlRaSnBnSjZfYUdpcXhVZlJYYW5nMVNrci1EQ0Y5dWJfRUdiV2l3akk4Vg?oc=5)
 
-**제목:** Olive Young’s U.S. Launch Is Mega Fuel for My K-Beauty Obsession - marieclaire.com
+**제목:** Olive Young’s U.S. Launch Is Mega Fuel for My K-Beauty Obsession - Marie Claire
 
-Olive Young’s U.S. Launch Is Mega Fuel for My K-Beauty Obsession - marieclaire.com
+Olive Young’s U.S. Launch Is Mega Fuel for My K-Beauty Obsession - Marie Claire
 
 **출처:** Source · Google Search
 

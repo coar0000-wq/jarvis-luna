@@ -2,7 +2,7 @@
 title: "Record eac6c4d283 · The-US-Interconnection-Queue-System-Cascading-Vulne"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T11:41:14.673650+00:00
+updated_at: 2026-09-22T16:59:41.917131+00:00
 tags: [record, real-data]
 ---
 

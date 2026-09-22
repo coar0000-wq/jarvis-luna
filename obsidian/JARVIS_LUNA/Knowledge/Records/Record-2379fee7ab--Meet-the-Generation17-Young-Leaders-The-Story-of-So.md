@@ -2,7 +2,7 @@
 title: "Record 2379fee7ab · Meet-the-Generation17-Young-Leaders-The-Story-of-So"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T11:41:15.275304+00:00
+updated_at: 2026-09-22T16:59:42.427175+00:00
 tags: [record, real-data]
 ---
 

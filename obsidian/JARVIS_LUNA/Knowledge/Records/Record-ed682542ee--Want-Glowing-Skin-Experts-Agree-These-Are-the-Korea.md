@@ -2,7 +2,7 @@
 title: "Record ed682542ee · Want-Glowing-Skin-Experts-Agree-These-Are-the-Korea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T11:41:15.181694+00:00
+updated_at: 2026-09-22T16:59:42.346901+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMijwFBVV95cUxNaTZSWTRqb1czcGk1R0RnZ2pBZVBmRFhBSGU3YlRISUhrMklDUHpaVmlmc0ZmaWNuMVNTeS1FTzRhekVJMW5kdHFOR3ROMUlUb2JBeHJ6TzBKdUJYOU5ubnFJNllyMFhScUZ2SERJS1lvTVpEZHl1dTlFdFFfVG9QUEhfVDRHVy1XUFZ6bkdRUQ?oc=5)
 
-**제목:** Want Glowing Skin? Experts Agree These Are the Korean Beauty Essentials for Every Skin Type - oprahdaily.com
+**제목:** Want Glowing Skin? Experts Agree These Are the Korean Beauty Essentials for Every Skin Type - Oprah Daily
 
-Want Glowing Skin? Experts Agree These Are the Korean Beauty Essentials for Every Skin Type - oprahdaily.com
+Want Glowing Skin? Experts Agree These Are the Korean Beauty Essentials for Every Skin Type - Oprah Daily
 
 **출처:** Source · Google Search
 

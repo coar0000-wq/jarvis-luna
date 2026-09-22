@@ -2,7 +2,7 @@
 title: "Record 4954b093dd · REJURAN-COSMETICS-Brings-K-Beauty-to-LAFC-Korean-Heritage-Night-as-Pro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T11:41:15.024584+00:00
+updated_at: 2026-09-22T16:59:42.207191+00:00
 tags: [record, real-data]
 ---
 

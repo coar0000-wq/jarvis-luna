@@ -2,7 +2,7 @@
 title: "Record adac20baa5 · Stabilizing-Repair-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T11:41:15.562738+00:00
+updated_at: 2026-09-22T16:59:42.659202+00:00
 tags: [record, real-data]
 ---
 

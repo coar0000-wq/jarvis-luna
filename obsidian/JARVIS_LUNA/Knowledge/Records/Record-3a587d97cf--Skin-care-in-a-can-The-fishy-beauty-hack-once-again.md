@@ -2,7 +2,7 @@
 title: "Record 3a587d97cf · Skin-care-in-a-can-The-fishy-beauty-hack-once-again"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T11:41:15.194363+00:00
+updated_at: 2026-09-22T16:59:42.357708+00:00
 tags: [record, real-data]
 ---
 

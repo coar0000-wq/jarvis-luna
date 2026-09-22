@@ -2,7 +2,7 @@
 title: "Record 9c9576a235 · Healthy-Feet-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T11:41:15.375331+00:00
+updated_at: 2026-09-22T16:59:42.508798+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "AI 에이전트"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T11:41:15.843296+00:00
+updated_at: 2026-09-22T16:59:42.949610+00:00
 tags: [topic, real-data]
 ---
 

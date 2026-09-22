@@ -2,7 +2,7 @@
 title: "Record a711ac99b3 · Boston-Dynamics-veteran-launches-Dynamic-Creatures-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T11:41:15.542368+00:00
+updated_at: 2026-09-22T16:59:42.640294+00:00
 tags: [record, real-data]
 ---
 

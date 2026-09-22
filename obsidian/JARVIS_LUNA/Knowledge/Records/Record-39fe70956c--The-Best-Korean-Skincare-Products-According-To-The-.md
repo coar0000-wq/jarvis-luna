@@ -2,7 +2,7 @@
 title: "Record 39fe70956c · The-Best-Korean-Skincare-Products-According-To-The-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T11:41:15.093492+00:00
+updated_at: 2026-09-22T16:59:42.266297+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMibkFVX3lxTE5nbEFCdlNKMXNxclNnazVZQnZ1Q3Y1dzVDME5sVjhWMTdTMkdnTno0TXVLS2ZHa1FvQmZGOE9SUWtYbVpnRkpwZjFQX3NvYldDc2loZld5aGRCWGNKcjFNMnpjRHhLNUkyVTdrdkFB?oc=5)
 
-**제목:** The Best Korean Skincare Products, According To The Experts - British Vogue
+**제목:** The Best Korean Skincare Products, According To The Experts - vogue.co.uk
 
-The Best Korean Skincare Products, According To The Experts - British Vogue
+The Best Korean Skincare Products, According To The Experts - vogue.co.uk
 
 **출처:** Source · Google Search
 

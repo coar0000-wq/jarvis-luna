@@ -2,7 +2,7 @@
 title: "Record bf2f1d100c · Korean-Skincare-Really-Is-Living-In-the-FutureThese"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T11:41:15.156586+00:00
+updated_at: 2026-09-22T16:59:42.325581+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMihAFBVV95cUxPZngzOVM1NVd0V0NhUEFpbDU1SFN0Vk9sWm1vY200S3pCRHhVWWJ1MmNNSDl0VXN0amQ3OHNRaWIzOTBueTZ2RDlUQl9tX0VQcFpZaUdTQ3Q2MjRMTU9aNGN0Nkd4UlRuQ1BIanE4ZXVYRmh4RmZsaEtIb2Q0RkNUMjU5ZFA?oc=5)
 
-**제목:** Korean Skincare Really Is Living In the Future—These 9 Products Are Proof - Who What Wear
+**제목:** Korean Skincare Really Is Living In the Future—These 9 Products Are Proof - whowhatwear.com
 
-Korean Skincare Really Is Living In the Future—These 9 Products Are Proof - Who What Wear
+Korean Skincare Really Is Living In the Future—These 9 Products Are Proof - whowhatwear.com
 
 **출처:** Source · Google Search
 

@@ -2,7 +2,7 @@
 title: "Source · YouTube"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T11:41:15.696768+00:00
+updated_at: 2026-09-22T16:59:42.788120+00:00
 tags: [source, real-data]
 ---
 

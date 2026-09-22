@@ -2,7 +2,7 @@
 title: "Record ea927a5c56 · De-GAN---Dynamic-Parameter-Tuned-GAN-for-3D-Medical-Image-Segmentation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T11:41:14.911851+00:00
+updated_at: 2026-09-22T16:59:42.109331+00:00
 tags: [record, real-data]
 ---
 
