@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-24T07:09:33.204778+09:00",
+  "generated_at": "2026-09-24T08:07:26.658411+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
@@ -38,7 +38,7 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-09-24T07:08:21.657719+09:00",
+      "when": "2026-09-24T08:06:03.671044+09:00",
       "summary": "S등급 10개 · 고시 판독 남음 0건 · 유튜브 자막 6편 · 근거 20개 · 실험 9개 · 새 자료 41건",
       "action": null,
       "action_kind": null,
@@ -166,7 +166,7 @@
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-09-24T07:08:25.337991+09:00",
+      "when": "2026-09-24T08:06:06.877565+09:00",
       "summary": "82,187노트 · 332,778링크 · 끊어진 링크 0건 · 개인 노트 16건 별도",
       "action": null,
       "action_kind": null,
@@ -184,7 +184,7 @@
     "id": "secretary",
     "name": "비서실장",
     "badge": "총괄",
-    "when": "2026-09-24T07:08:21.628719+09:00",
+    "when": "2026-09-24T08:06:03.644608+09:00",
     "summary": "2시간 주기 · 고시 26건 · US라벨 26건 · 카피 10건 · 등록 가능 9건 · 법률 차단 1건",
     "action": "비서실장 감시 루프 갱신 지연 — Safe Auto-Fix 보고서가 4시간 30분 넘게 확인되지 않음",
     "action_kind": "revalidate_only",
@@ -194,37 +194,37 @@
         "단계": "고시 수집",
         "산출물": "gosi.json",
         "갱신": "2026-09-20T21:05:17.040479+00:00",
-        "몇시간전": 73.1
+        "몇시간전": 74.0
       },
       {
         "단계": "고시 비전 추출",
         "산출물": "gosi.json",
-        "갱신": "2026-09-24T07:08:21.628719+09:00",
+        "갱신": "2026-09-24T08:06:03.644608+09:00",
         "몇시간전": 0.0
       },
       {
         "단계": "US 라벨 동기화",
         "산출물": "daiso_us_labels.json",
-        "갱신": "2026-09-24T07:08:20.987724+09:00",
+        "갱신": "2026-09-24T08:06:03.070604+09:00",
         "몇시간전": 0.0
       },
       {
         "단계": "리스팅 카피",
         "산출물": "shopify_listing_copy.json",
         "갱신": "2026-09-21T11:35:43.894907+00:00",
-        "몇시간전": 58.6
+        "몇시간전": 59.5
       },
       {
         "단계": "등록 게이트",
         "산출물": "listing_gate.json",
         "갱신": "2026-09-21T11:54:53.583368+00:00",
-        "몇시간전": 58.2
+        "몇시간전": 59.2
       },
       {
         "단계": "법률 점검",
         "산출물": "legal_products.json",
         "갱신": "2026-09-21T11:54:53.406872+00:00",
-        "몇시간전": 58.2
+        "몇시간전": 59.2
       }
     ],
     "_근거": "JARVIS Deep Analysis가 2시간마다 남기는 Safe Auto-Fix 보고서를 heartbeat로 본다. 개별 파생 파일은 입력 무변경 시 mtime이 유지되므로 지연 판정에 쓰지 않는다."
@@ -543,7 +543,7 @@
     "status": "completed",
     "record_count": 4189,
     "source_counts": {},
-    "updated_at": "2026-09-24T07:08:21.646719+09:00"
+    "updated_at": "2026-09-24T08:06:03.660608+09:00"
   },
   "shopify_marketing_strategy": {
     "status": "evidence_ready",
@@ -807,7 +807,7 @@
     "topics": 28,
     "orgs": 35,
     "audit": "passed",
-    "last_generated": "2026-09-24T07:08:25.337991+09:00"
+    "last_generated": "2026-09-24T08:06:06.877565+09:00"
   },
   "training": {
     "status": "completed",
@@ -857,9 +857,9 @@
         "badge": "$9.97",
         "price": 9.97,
         "rating": 4.7,
-        "review_count": 78580,
+        "review_count": 78674,
         "rank": 1,
-        "url": "https://www.amazon.com/eos-Cashmere-Moisture-Lightweight-Non-Greasy/dp/B08KT2Z93D/ref=zg_bs_g_beauty_d_sccl_1/133-9075271-3334349",
+        "url": "https://www.amazon.com/eos-Cashmere-Moisture-Lightweight-Non-Greasy/dp/B08KT2Z93D/ref=zg_bs_g_beauty_d_sccl_1/147-9490890-8327709",
         "extraction_method": "catalog_file"
       },
       {
@@ -869,9 +869,9 @@
         "badge": "$18.90",
         "price": 18.9,
         "rating": 4.6,
-        "review_count": 32636,
+        "review_count": 32696,
         "rank": 2,
-        "url": "https://www.amazon.com/Medicube-Zero-Pore-Pads-Dual-Textured/dp/B09V7Z4TJG/ref=zg_bs_g_beauty_d_sccl_2/133-9075271-3334349",
+        "url": "https://www.amazon.com/Medicube-Zero-Pore-Pads-Dual-Textured/dp/B09V7Z4TJG/ref=zg_bs_g_beauty_d_sccl_2/147-9490890-8327709",
         "extraction_method": "catalog_file"
       },
       {
@@ -881,9 +881,9 @@
         "badge": "$17.95",
         "price": 17.95,
         "rating": 4.8,
-        "review_count": 43153,
+        "review_count": 43164,
         "rank": 3,
-        "url": "https://www.amazon.com/Clean-Skin-Club-Disposable-Sensitive/dp/B07PBXXNCY/ref=zg_bs_g_beauty_d_sccl_3/133-9075271-3334349",
+        "url": "https://www.amazon.com/Clean-Skin-Club-Disposable-Sensitive/dp/B07PBXXNCY/ref=zg_bs_g_beauty_d_sccl_3/147-9490890-8327709",
         "extraction_method": "catalog_file"
       },
       {
@@ -893,21 +893,9 @@
         "badge": "$7.61",
         "price": 7.61,
         "rating": 4.7,
-        "review_count": 130078,
+        "review_count": 130107,
         "rank": 4,
-        "url": "https://www.amazon.com/Mrs-Meyers-Clean-Refill-Verbena/dp/B00F1U0YB4/ref=zg_bs_g_beauty_d_sccl_4/133-9075271-3334349",
-        "extraction_method": "catalog_file"
-      },
-      {
-        "product": "Amazon Essentials 100% Cotton Rounds, 100 Count (Previously Amazon Basics)",
-        "brand": "",
-        "sub": "",
-        "badge": "$2.96",
-        "price": 2.96,
-        "rating": 4.7,
-        "review_count": 54246,
-        "rank": 5,
-        "url": "https://www.amazon.com/Amazon-Basics-Cotton-Rounds-Count/dp/B09542G9ZN/ref=zg_bs_g_beauty_d_sccl_5/133-9075271-3334349",
+        "url": "https://www.amazon.com/Mrs-Meyers-Clean-Refill-Verbena/dp/B00F1U0YB4/ref=zg_bs_g_beauty_d_sccl_4/147-9490890-8327709",
         "extraction_method": "catalog_file"
       },
       {
@@ -917,9 +905,21 @@
         "badge": "$2.67",
         "price": 2.67,
         "rating": 4.7,
-        "review_count": 73950,
+        "review_count": 74016,
+        "rank": 5,
+        "url": "https://www.amazon.com/Amazon-Basics-Cotton-Swabs-500ct/dp/B09541P9WH/ref=zg_bs_g_beauty_d_sccl_5/147-9490890-8327709",
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "Amazon Essentials 100% Cotton Rounds, 100 Count (Previously Amazon Basics)",
+        "brand": "",
+        "sub": "",
+        "badge": "$2.96",
+        "price": 2.96,
+        "rating": 4.7,
+        "review_count": 54289,
         "rank": 6,
-        "url": "https://www.amazon.com/Amazon-Basics-Cotton-Swabs-500ct/dp/B09541P9WH/ref=zg_bs_g_beauty_d_sccl_6/133-9075271-3334349",
+        "url": "https://www.amazon.com/Amazon-Basics-Cotton-Rounds-Count/dp/B09542G9ZN/ref=zg_bs_g_beauty_d_sccl_6/147-9490890-8327709",
         "extraction_method": "catalog_file"
       },
       {
@@ -929,9 +929,9 @@
         "badge": "$12.99",
         "price": 12.99,
         "rating": 4.6,
-        "review_count": 185323,
+        "review_count": 186058,
         "rank": 7,
-        "url": "https://www.amazon.com/Mighty-Patch-Hydrocolloid-Absorbing-count/dp/B074PVTPBW/ref=zg_bs_g_beauty_d_sccl_7/133-9075271-3334349",
+        "url": "https://www.amazon.com/Mighty-Patch-Hydrocolloid-Absorbing-count/dp/B074PVTPBW/ref=zg_bs_g_beauty_d_sccl_7/147-9490890-8327709",
         "extraction_method": "catalog_file"
       },
       {
@@ -941,9 +941,9 @@
         "badge": "$9.97",
         "price": 9.97,
         "rating": 4.8,
-        "review_count": 121873,
+        "review_count": 121890,
         "rank": 8,
-        "url": "https://www.amazon.com/Neutrogena-Makeup-Remover-Micellar-Wipes/dp/B00U2VQZDS/ref=zg_bs_g_beauty_d_sccl_8/133-9075271-3334349",
+        "url": "https://www.amazon.com/Neutrogena-Makeup-Remover-Micellar-Wipes/dp/B00U2VQZDS/ref=zg_bs_g_beauty_d_sccl_8/147-9490890-8327709",
         "extraction_method": "catalog_file"
       },
       {
@@ -953,9 +953,9 @@
         "badge": "$19.49",
         "price": 19.49,
         "rating": 4.6,
-        "review_count": 51785,
+        "review_count": 51798,
         "rank": 9,
-        "url": "https://www.amazon.com/Roche-Posay-Toleriane-Double-Repair-Moisturizer/dp/B01N9SPQHQ/ref=zg_bs_g_beauty_d_sccl_9/133-9075271-3334349",
+        "url": "https://www.amazon.com/Roche-Posay-Toleriane-Double-Repair-Moisturizer/dp/B01N9SPQHQ/ref=zg_bs_g_beauty_d_sccl_9/147-9490890-8327709",
         "extraction_method": "catalog_file"
       },
       {
@@ -965,9 +965,9 @@
         "badge": "$10.82",
         "price": 10.82,
         "rating": 4.5,
-        "review_count": 189468,
+        "review_count": 189527,
         "rank": 10,
-        "url": "https://www.amazon.com/Maybelline-Volumizing-Buildable-Lengthening-Multiplying/dp/B08H3JPH74/ref=zg_bs_g_beauty_d_sccl_10/133-9075271-3334349",
+        "url": "https://www.amazon.com/Maybelline-Volumizing-Buildable-Lengthening-Multiplying/dp/B08H3JPH74/ref=zg_bs_g_beauty_d_sccl_10/147-9490890-8327709",
         "extraction_method": "catalog_file"
       },
       {
@@ -977,21 +977,9 @@
         "badge": "$13.50",
         "price": 13.5,
         "rating": 4.7,
-        "review_count": 64751,
+        "review_count": 64872,
         "rank": 11,
-        "url": "https://www.amazon.com/Ordinary-Exfoliating-Brightening-Smoothing-Even-Looking/dp/B071914GGL/ref=zg_bs_g_beauty_d_sccl_11/133-9075271-3334349",
-        "extraction_method": "catalog_file"
-      },
-      {
-        "product": "BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Plumping, Travel Essentials & Self Care Gifts for Women, Korean Skin Care | 1.19oz(34g) x 4ea",
-        "brand": "",
-        "sub": "",
-        "badge": "$19.00",
-        "price": 19,
-        "rating": 4.5,
-        "review_count": 48201,
-        "rank": 12,
-        "url": "https://www.amazon.com/Biodance-Bio-Collagen-Tightening-Hydrating-Molecular/dp/B0B2RM68G2/ref=zg_bs_g_beauty_d_sccl_12/133-9075271-3334349",
+        "url": "https://www.amazon.com/Ordinary-Exfoliating-Brightening-Smoothing-Even-Looking/dp/B071914GGL/ref=zg_bs_g_beauty_d_sccl_11/147-9490890-8327709",
         "extraction_method": "catalog_file"
       },
       {
@@ -1001,9 +989,21 @@
         "badge": "$10.19",
         "price": 10.19,
         "rating": 4.6,
-        "review_count": 83492,
+        "review_count": 83520,
+        "rank": 12,
+        "url": "https://www.amazon.com/PanOxyl-Foaming-Peroxide-Strength-Antimicrobial/dp/B081KL2QYJ/ref=zg_bs_g_beauty_d_sccl_12/147-9490890-8327709",
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Plumping, Travel Essentials & Self Care Gifts for Women, Korean Skin Care | 1.19oz(34g) x 4ea",
+        "brand": "",
+        "sub": "",
+        "badge": "$19.00",
+        "price": 19,
+        "rating": 4.5,
+        "review_count": 48287,
         "rank": 13,
-        "url": "https://www.amazon.com/PanOxyl-Foaming-Peroxide-Strength-Antimicrobial/dp/B081KL2QYJ/ref=zg_bs_g_beauty_d_sccl_13/133-9075271-3334349",
+        "url": "https://www.amazon.com/Biodance-Bio-Collagen-Tightening-Hydrating-Molecular/dp/B0B2RM68G2/ref=zg_bs_g_beauty_d_sccl_13/147-9490890-8327709",
         "extraction_method": "catalog_file"
       },
       {
@@ -1013,9 +1013,9 @@
         "badge": "$9.98",
         "price": 9.98,
         "rating": 4.8,
-        "review_count": 22905,
+        "review_count": 22949,
         "rank": 14,
-        "url": "https://www.amazon.com/eos-Moisturizing-Nourishing-Phthalate-Sensitive/dp/B0DPHQRLJC/ref=zg_bs_g_beauty_d_sccl_14/133-9075271-3334349",
+        "url": "https://www.amazon.com/eos-Moisturizing-Nourishing-Phthalate-Sensitive/dp/B0DPHQRLJC/ref=zg_bs_g_beauty_d_sccl_14/147-9490890-8327709",
         "extraction_method": "catalog_file"
       },
       {
@@ -1025,9 +1025,9 @@
         "badge": "$16.88",
         "price": 16.88,
         "rating": 4.6,
-        "review_count": 112851,
+        "review_count": 116396,
         "rank": 15,
-        "url": "https://www.amazon.com/Nizoral-Anti-Dandruff-Shampoo-Ketoconazole-Dandruff/dp/B00AINMFAC/ref=zg_bs_g_beauty_d_sccl_15/133-9075271-3334349",
+        "url": "https://www.amazon.com/Nizoral-Anti-Dandruff-Shampoo-Ketoconazole-Dandruff/dp/B00AINMFAC/ref=zg_bs_g_beauty_d_sccl_15/147-9490890-8327709",
         "extraction_method": "catalog_file"
       }
     ],
@@ -1779,13 +1779,6 @@
     ],
     "ulta_beauty": [
       {
-        "product": "345 Relief Cream",
-        "brand": "Dr. Althea",
-        "price": 18.9,
-        "category": "Beauty",
-        "url": "https://www.ulta.com/p/345-relief-cream-pimprod2056740"
-      },
-      {
         "product": "Toleriane Double Repair Face Moisturizer with Niacinamide",
         "brand": "La Roche-Posay",
         "price": 9.74,
@@ -1793,11 +1786,25 @@
         "url": "https://www.ulta.com/p/toleriane-double-repair-face-moisturizer-with-niacinamide-xlsImpprod16011007"
       },
       {
+        "product": "345 Relief Cream",
+        "brand": "Dr. Althea",
+        "price": 18.9,
+        "category": "Beauty",
+        "url": "https://www.ulta.com/p/345-relief-cream-pimprod2056740"
+      },
+      {
         "product": "Toleriane Purifying Foaming Face Wash for Oily Skin",
         "brand": "La Roche-Posay",
         "price": 12.74,
         "category": "Beauty",
         "url": "https://www.ulta.com/p/toleriane-purifying-foaming-face-wash-oily-skin-xlsImpprod15321287"
+      },
+      {
+        "product": "Moisture Surge 100H Auto-Replenishing Hydrator Gel Moisturizer with Hyaluronic Acid",
+        "brand": "Clinique",
+        "price": 18,
+        "category": "Beauty",
+        "url": "https://www.ulta.com/p/moisture-surge-100h-auto-replenishing-hydrator-gel-moisturizer-with-hyaluronic-acid-pimprod2021615"
       },
       {
         "product": "Toleriane Hydrating Gentle Face Cleanser for Dry Skin",
@@ -1814,13 +1821,6 @@
         "url": "https://www.ulta.com/p/doubledown-lip-definer-2-in-1-liner-balm-pimprod2059017"
       },
       {
-        "product": "Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream",
-        "brand": "La Roche-Posay",
-        "price": 15.74,
-        "category": "Beauty",
-        "url": "https://www.ulta.com/p/cicaplast-balm-b5-soothing-therapeutic-multi-purpose-cream-pimprod2018263"
-      },
-      {
         "product": "Toleriane Double Repair Face Moisturizer UV SPF 30",
         "brand": "La Roche-Posay",
         "price": 21.74,
@@ -1833,6 +1833,13 @@
         "price": 7.49,
         "category": "Beauty",
         "url": "https://www.ulta.com/p/hydrating-milky-toner-pimprod2043230"
+      },
+      {
+        "product": "Moisture Surge Sheertint Hydrator Broad Spectrum SPF 25 Tinted Moisturizer",
+        "brand": "Clinique",
+        "price": 37.6,
+        "category": "Beauty",
+        "url": "https://www.ulta.com/p/moisture-surge-sheertint-hydrator-broad-spectrum-spf-25-tinted-moisturizer-pimprod2013655"
       },
       {
         "product": "Discoloration Correcting Serum",
@@ -1854,13 +1861,6 @@
         "price": 32.24,
         "category": "Beauty",
         "url": "https://www.ulta.com/p/hyalu-b5-pure-hyaluronic-acid-face-serum-pimprod2012178"
-      },
-      {
-        "product": "Hyaluronic Acid Serum",
-        "brand": "Good Molecules",
-        "price": 4.8,
-        "category": "Beauty",
-        "url": "https://www.ulta.com/p/hyaluronic-acid-serum-pimprod2023925"
       },
       {
         "product": "Advanced Rebound Bioglow Zombie Cream",
@@ -2082,73 +2082,73 @@
       "status": "ok",
       "source": "amazon.com/gp/bestsellers/beauty (실수집)",
       "reason": "",
-      "collected_at": "2026-09-22T23:15:16.484319+00:00",
+      "collected_at": "2026-09-23T23:07:21.702980+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 22.9,
+      "age_hours": 0.0,
       "stale": false
     },
     "walmart_beauty": {
       "status": "ok",
       "source": "walmart.com/browse/beauty/1085666 (실수집)",
       "reason": "",
-      "collected_at": "2026-09-22T23:15:16.485103+00:00",
+      "collected_at": "2026-09-23T23:07:21.703937+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 22.9,
+      "age_hours": 0.0,
       "stale": false
     },
     "oliveyoung_us": {
       "status": "stale",
       "source": "us.oliveyoung.com/best-sellers 실수집",
-      "reason": "2026-09-21 이후 갱신 없음 (2.5일). 2026-09-21 이후 갱신 없음 (2.5일). 2026-09-21 이후 갱신 없음 (2.5일). 2026-09-21 이후 갱신 없음 (2.4일). 2026-09-21 이후 갱신 없음 (2.3일). 2026-09-21 이후 갱신 없음 (2.3일). 2026-09-21 이후 갱신 없음 (2.2일). 2026-09-21 이후 갱신 없음 (2.1일). 2026-09-21 이후 갱신 없음 (2.1일).",
+      "reason": "2026-09-21 이후 갱신 없음 (2.6일).",
       "collected_at": "2026-09-21T09:36:15.249729+00:00",
       "count": 15,
       "trust": "stale",
-      "age_hours": 60.6,
+      "age_hours": 61.5,
       "stale": true
     },
     "google_trends_us": {
       "status": "stale",
       "source": "google news rss (beauty queries) + trends daily filtered",
-      "reason": "2026-09-21 이후 갱신 없음 (2.5일). 2026-09-21 이후 갱신 없음 (2.5일). 2026-09-21 이후 갱신 없음 (2.5일). 2026-09-21 이후 갱신 없음 (2.4일). 2026-09-21 이후 갱신 없음 (2.3일). 2026-09-21 이후 갱신 없음 (2.3일). 2026-09-21 이후 갱신 없음 (2.2일). 2026-09-21 이후 갱신 없음 (2.1일). 2026-09-21 이후 갱신 없음 (2.1일).",
+      "reason": "2026-09-21 이후 갱신 없음 (2.6일).",
       "collected_at": "2026-09-21T09:36:51.528077+00:00",
       "count": 15,
       "trust": "stale",
-      "age_hours": 60.5,
+      "age_hours": 61.5,
       "stale": true
     },
     "wikipedia_interest": {
       "status": "stale",
       "source": "wikimedia.org REST pageviews API (공식)",
-      "reason": "2026-09-21 이후 갱신 없음 (2.5일). 2026-09-21 이후 갱신 없음 (2.5일). 2026-09-21 이후 갱신 없음 (2.5일). 2026-09-21 이후 갱신 없음 (2.4일). 2026-09-21 이후 갱신 없음 (2.3일). 2026-09-21 이후 갱신 없음 (2.3일). 2026-09-21 이후 갱신 없음 (2.2일). 2026-09-21 이후 갱신 없음 (2.1일). 2026-09-21 이후 갱신 없음 (2.1일).",
+      "reason": "2026-09-21 이후 갱신 없음 (2.6일).",
       "collected_at": "2026-09-21T09:42:01.535186+00:00",
       "count": 8,
       "trust": "stale",
       "note": "2026-08-21 ~ 2026-09-19 일별 조회수. 후반 15일 대비 전반 15일 증감률",
-      "age_hours": 60.5,
+      "age_hours": 61.4,
       "stale": true
     },
     "allure_media": {
       "status": "stale",
       "source": "allure.com/feed/rss",
-      "reason": "2026-09-21 이후 갱신 없음 (2.5일). 2026-09-21 이후 갱신 없음 (2.5일). 2026-09-21 이후 갱신 없음 (2.5일). 2026-09-21 이후 갱신 없음 (2.4일). 2026-09-21 이후 갱신 없음 (2.3일). 2026-09-21 이후 갱신 없음 (2.3일). 2026-09-21 이후 갱신 없음 (2.2일). 2026-09-21 이후 갱신 없음 (2.1일). 2026-09-21 이후 갱신 없음 (2.1일).",
+      "reason": "2026-09-21 이후 갱신 없음 (2.6일).",
       "collected_at": "2026-09-21T09:42:01.535186+00:00",
       "count": 15,
       "trust": "stale",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
-      "age_hours": 60.5,
+      "age_hours": 61.4,
       "stale": true
     },
     "openfda_sunscreen": {
       "status": "stale",
       "source": "api.fda.gov/drug/label (openFDA 공식)",
-      "reason": "2026-09-21 이후 갱신 없음 (2.5일). 2026-09-21 이후 갱신 없음 (2.5일). 2026-09-21 이후 갱신 없음 (2.5일). 2026-09-21 이후 갱신 없음 (2.4일). 2026-09-21 이후 갱신 없음 (2.3일). 2026-09-21 이후 갱신 없음 (2.3일). 2026-09-21 이후 갱신 없음 (2.2일). 2026-09-21 이후 갱신 없음 (2.1일). 2026-09-21 이후 갱신 없음 (2.1일).",
+      "reason": "2026-09-21 이후 갱신 없음 (2.6일).",
       "collected_at": "2026-09-21T09:42:01.535186+00:00",
       "count": 15,
       "trust": "stale",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다.",
-      "age_hours": 60.5,
+      "age_hours": 61.4,
       "stale": true
     },
     "shopify_demand_matching": {
@@ -2171,38 +2171,38 @@
       "status": "ok",
       "source": "공개 페이지 직접 파싱",
       "reason": "",
-      "collected_at": "2026-09-22T23:15:16.485621+00:00",
+      "collected_at": "2026-09-23T23:07:21.704684+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 22.9,
+      "age_hours": 0.0,
       "stale": false
     },
     "sephora": {
       "status": "ok",
       "source": "공개 페이지 직접 파싱",
       "reason": "",
-      "collected_at": "2026-09-22T23:15:16.485621+00:00",
+      "collected_at": "2026-09-23T23:07:21.704684+00:00",
       "count": 14,
       "trust": "verified",
-      "age_hours": 22.9,
+      "age_hours": 0.0,
       "stale": false
     },
     "open_beauty_facts": {
       "status": "stale",
       "source": "world.openbeautyfacts.org /api/v2 (오픈데이터)",
-      "reason": "2026-09-21 이후 갱신 없음 (2.5일). 2026-09-21 이후 갱신 없음 (2.5일). 2026-09-21 이후 갱신 없음 (2.5일). 2026-09-21 이후 갱신 없음 (2.4일). 2026-09-21 이후 갱신 없음 (2.3일). 2026-09-21 이후 갱신 없음 (2.3일). 2026-09-21 이후 갱신 없음 (2.2일). 2026-09-21 이후 갱신 없음 (2.1일). 2026-09-21 이후 갱신 없음 (2.1일).",
+      "reason": "2026-09-21 이후 갱신 없음 (2.6일).",
       "collected_at": "2026-09-21T09:36:14.782768+00:00",
       "count": 15,
       "trust": "stale",
-      "age_hours": 60.6,
+      "age_hours": 61.5,
       "stale": true
     }
   },
   "exchange_rate": {
-    "rate": 1375.64,
-    "as_of": "2026-09-22",
+    "rate": 1353.7,
+    "as_of": "2026-09-23",
     "source": "https://open.er-api.com/v6/latest/USD",
-    "updated_at": "2026-09-23"
+    "updated_at": "2026-09-24"
   },
-  "last_synced": "09. 23. 오전 08:15 KST"
+  "last_synced": "09. 24. 오전 08:07 KST"
 }
