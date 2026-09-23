@@ -2,7 +2,7 @@
 title: "Record c0364833b4 · Healthcare-organizations-can-now-connect-EHR-and-ad"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T11:39:52.175186+00:00
+updated_at: 2026-09-23T17:02:03.238865+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 84fb3d732a · Flint-A-visualization-language-for-the-AI-era"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T11:39:52.398354+00:00
+updated_at: 2026-09-23T17:02:03.454175+00:00
 tags: [record, real-data]
 ---
 

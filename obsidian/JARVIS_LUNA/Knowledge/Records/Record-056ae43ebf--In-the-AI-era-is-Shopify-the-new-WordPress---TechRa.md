@@ -2,7 +2,7 @@
 title: "Record 056ae43ebf · In-the-AI-era-is-Shopify-the-new-WordPress---TechRa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T11:39:52.016182+00:00
+updated_at: 2026-09-23T17:02:03.079558+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMifEFVX3lxTE1YekdrNENob0dOTEd5UERjMTBXYWVEWDZQTWtzOGNXc0tyN0s0ejdDT3JQRUdhdExCel9pTUNKRmV5M1FaMlM5TWRrdHAydU1nenZOWVl0Rlo1VGxDM1ZJeGJzR09ncDZnQVRVZVBFTExGUXFaNXppVF9aN2E?oc=5)
 
-**제목:** In the AI era, is Shopify the new WordPress? - techradar.com
+**제목:** In the AI era, is Shopify the new WordPress? - TechRadar
 
-In the AI era, is Shopify the new WordPress? - techradar.com
+In the AI era, is Shopify the new WordPress? - TechRadar
 
 **출처:** Source · Google Search
 

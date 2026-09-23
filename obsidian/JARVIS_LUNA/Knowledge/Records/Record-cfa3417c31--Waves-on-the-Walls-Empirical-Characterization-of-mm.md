@@ -2,7 +2,7 @@
 title: "Record cfa3417c31 · Waves-on-the-Walls-Empirical-Characterization-of-mm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T11:39:51.500305+00:00
+updated_at: 2026-09-23T17:02:02.557390+00:00
 tags: [record, real-data]
 ---
 

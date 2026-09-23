@@ -2,7 +2,7 @@
 title: "Record 4f87380360 · K-Beauty-Product-Market-to-Reach-USD-2799943-Millio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T11:39:52.128971+00:00
+updated_at: 2026-09-23T17:02:03.192812+00:00
 tags: [record, real-data]
 ---
 

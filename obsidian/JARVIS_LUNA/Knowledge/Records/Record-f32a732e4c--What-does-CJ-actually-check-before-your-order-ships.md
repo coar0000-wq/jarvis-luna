@@ -2,7 +2,7 @@
 title: "Record f32a732e4c · What-does-CJ-actually-check-before-your-order-ships"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T11:39:52.463212+00:00
+updated_at: 2026-09-23T17:02:03.519258+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record a6b02c9688 · Foreign-Tourists-Pharmacy-Payments-Surge-Tenfold-fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T11:39:52.044840+00:00
+updated_at: 2026-09-23T17:02:03.108565+00:00
 tags: [record, real-data]
 ---
 

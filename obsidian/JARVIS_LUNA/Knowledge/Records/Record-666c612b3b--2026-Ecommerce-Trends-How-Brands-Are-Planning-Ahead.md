@@ -2,7 +2,7 @@
 title: "Record 666c612b3b · 2026-Ecommerce-Trends-How-Brands-Are-Planning-Ahead"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T11:39:51.965592+00:00
+updated_at: 2026-09-23T17:02:03.027840+00:00
 tags: [record, real-data]
 ---
 

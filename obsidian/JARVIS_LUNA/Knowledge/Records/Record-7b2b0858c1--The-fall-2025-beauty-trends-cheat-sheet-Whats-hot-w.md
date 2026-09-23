@@ -2,7 +2,7 @@
 title: "Record 7b2b0858c1 · The-fall-2025-beauty-trends-cheat-sheet-Whats-hot-whats-wearable-and-w"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T11:39:52.094448+00:00
+updated_at: 2026-09-23T17:02:03.158854+00:00
 tags: [record, real-data]
 ---
 

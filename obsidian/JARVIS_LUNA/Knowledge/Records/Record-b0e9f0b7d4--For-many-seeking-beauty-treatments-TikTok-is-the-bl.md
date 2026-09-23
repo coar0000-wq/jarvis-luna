@@ -2,7 +2,7 @@
 title: "Record b0e9f0b7d4 · For-many-seeking-beauty-treatments-TikTok-is-the-bl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T11:39:52.008574+00:00
+updated_at: 2026-09-23T17:02:03.071979+00:00
 tags: [record, real-data]
 ---
 

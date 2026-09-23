@@ -2,7 +2,7 @@
 title: "Record 7f24980991 · Toleriane-Double-Repair-Face-Moisturizer-UV-SPF-30"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T11:39:52.454053+00:00
+updated_at: 2026-09-23T17:02:03.510127+00:00
 tags: [record, real-data]
 ---
 

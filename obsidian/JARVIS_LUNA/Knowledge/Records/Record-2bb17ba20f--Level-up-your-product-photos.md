@@ -2,7 +2,7 @@
 title: "Record 2bb17ba20f · Level-up-your-product-photos"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T11:39:52.517193+00:00
+updated_at: 2026-09-23T17:02:03.571736+00:00
 tags: [record, real-data]
 ---
 

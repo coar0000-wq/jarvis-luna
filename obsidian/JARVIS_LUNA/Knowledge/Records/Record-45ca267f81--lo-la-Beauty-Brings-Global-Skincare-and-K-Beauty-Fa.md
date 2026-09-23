@@ -2,7 +2,7 @@
 title: "Record 45ca267f81 · lo-la-Beauty-Brings-Global-Skincare-and-K-Beauty-Favorites-to-Egyptian"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T11:39:52.145643+00:00
+updated_at: 2026-09-23T17:02:03.209333+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeDdtMjNWcTRHeVFBM3ljQXc5ODlBanRnV19PaERHZWpUWG15QlUyU2psQnd6OVRyME9yNWhyaEV2eXJ5aU5OYVBzNmdIcGlzY2NVYzlucnNING1zY1JzZUJfeGtlZFp4SkNrN0NPSFdzWExaTVJQWmxLdGVqR1kyVVdHQVVUY2dUbDhOUF8yZG9JMF94YVhSLVlUcVdjc1Z3aHloeG5adWM4R0NnOGEtdS1KQ0VValZUdUU0cjdCcVA?oc=5)
 
-**제목:** lo la Beauty Brings Global Skincare and K-Beauty Favorites to Egyptian Shoppers - Egyptian Gazette
+**제목:** lo la Beauty Brings Global Skincare and K-Beauty Favorites to Egyptian Shoppers - egyptian-gazette.com
 
-lo la Beauty Brings Global Skincare and K-Beauty Favorites to Egyptian Shoppers - Egyptian Gazette
+lo la Beauty Brings Global Skincare and K-Beauty Favorites to Egyptian Shoppers - egyptian-gazette.com
 
 **출처:** Source · Google Search
 

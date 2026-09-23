@@ -2,7 +2,7 @@
 title: "Record 666416aad0 · 파워-미스트-손-소독제"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T11:39:52.426606+00:00
+updated_at: 2026-09-23T17:02:03.482672+00:00
 tags: [record, real-data]
 ---
 

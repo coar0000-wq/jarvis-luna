@@ -2,7 +2,7 @@
 title: "Record da66b663f1 · Edit-your-store-in-the-Shopify-app"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T11:39:52.519237+00:00
+updated_at: 2026-09-23T17:02:03.573839+00:00
 tags: [record, real-data]
 ---
 

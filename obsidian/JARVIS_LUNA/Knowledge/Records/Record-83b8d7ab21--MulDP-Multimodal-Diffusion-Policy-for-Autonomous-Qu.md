@@ -2,7 +2,7 @@
 title: "Record 83b8d7ab21 · MulDP-Multimodal-Diffusion-Policy-for-Autonomous-Qu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T11:39:51.494687+00:00
+updated_at: 2026-09-23T17:02:02.551454+00:00
 tags: [record, real-data]
 ---
 

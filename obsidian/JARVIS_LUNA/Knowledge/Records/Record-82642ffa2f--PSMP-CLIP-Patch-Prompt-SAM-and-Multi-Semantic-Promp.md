@@ -2,7 +2,7 @@
 title: "Record 82642ffa2f · PSMP-CLIP-Patch-Prompt-SAM-and-Multi-Semantic-Prompting-for-CLIP-Based"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T11:39:51.588951+00:00
+updated_at: 2026-09-23T17:02:02.647633+00:00
 tags: [record, real-data]
 ---
 

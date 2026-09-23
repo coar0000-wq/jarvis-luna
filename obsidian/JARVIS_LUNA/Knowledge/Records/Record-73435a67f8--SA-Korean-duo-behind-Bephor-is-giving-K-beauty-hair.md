@@ -2,7 +2,7 @@
 title: "Record 73435a67f8 · SA-Korean-duo-behind-Bephor-is-giving-K-beauty-hair-care-Mzansi-flair-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T11:39:52.136083+00:00
+updated_at: 2026-09-23T17:02:03.199809+00:00
 tags: [record, real-data]
 ---
 

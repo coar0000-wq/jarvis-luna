@@ -2,7 +2,7 @@
 title: "Record 7d87adb300 · How-Automation-Impacts-The-Lives-And-Careers-Of-Dis"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T11:39:52.374752+00:00
+updated_at: 2026-09-23T17:02:03.428282+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record af85db5755 · Boundary-value-problem-for-a-degenerate-high-order-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T11:39:51.752056+00:00
+updated_at: 2026-09-23T17:02:02.814129+00:00
 tags: [record, real-data]
 ---
 

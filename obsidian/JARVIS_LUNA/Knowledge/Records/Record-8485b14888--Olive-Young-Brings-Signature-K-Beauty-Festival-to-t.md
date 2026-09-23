@@ -2,7 +2,7 @@
 title: "Record 8485b14888 · Olive-Young-Brings-Signature-K-Beauty-Festival-to-t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T11:39:52.115373+00:00
+updated_at: 2026-09-23T17:02:03.179270+00:00
 tags: [record, real-data]
 ---
 

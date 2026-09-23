@@ -2,7 +2,7 @@
 title: "Record 09d431d9b8 · Nanostructured-ZnMgO-Charge-Generation-Layers-for-E"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T11:39:51.648278+00:00
+updated_at: 2026-09-23T17:02:02.709191+00:00
 tags: [record, real-data]
 ---
 

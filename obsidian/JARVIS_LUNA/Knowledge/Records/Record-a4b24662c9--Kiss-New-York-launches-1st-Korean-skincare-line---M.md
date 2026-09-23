@@ -2,7 +2,7 @@
 title: "Record a4b24662c9 · Kiss-New-York-launches-1st-Korean-skincare-line---M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T11:39:52.042706+00:00
+updated_at: 2026-09-23T17:02:03.106430+00:00
 tags: [record, real-data]
 ---
 
