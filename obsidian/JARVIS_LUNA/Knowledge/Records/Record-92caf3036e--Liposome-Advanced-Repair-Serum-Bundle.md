@@ -2,7 +2,7 @@
 title: "Record 92caf3036e · Liposome-Advanced-Repair-Serum-Bundle"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T04:47:38.187933+00:00
+updated_at: 2026-09-23T11:39:52.452954+00:00
 tags: [record, real-data]
 ---
 

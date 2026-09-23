@@ -2,7 +2,7 @@
 title: "Record c38f4b0f8f · Hirebotics-adds-line-tracking-and-linear-rail-capabilities-to-its-cobo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T04:47:38.163994+00:00
+updated_at: 2026-09-23T11:39:52.435475+00:00
 tags: [record, real-data]
 ---
 

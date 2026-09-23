@@ -2,7 +2,7 @@
 title: "Record fccaa0c5a6 · Trump-Tariffs-Stock-Market-Crash-How-To-Invest"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T04:47:38.133085+00:00
+updated_at: 2026-09-23T11:39:52.413494+00:00
 tags: [record, real-data]
 ---
 

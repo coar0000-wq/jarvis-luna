@@ -2,7 +2,7 @@
 title: "Record e43111fac6 · Technical-Report-One-Step-Drifting-Action-Heads-for-GR00T-N17"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T04:47:37.081155+00:00
+updated_at: 2026-09-23T11:39:51.597628+00:00
 tags: [record, real-data]
 ---
 

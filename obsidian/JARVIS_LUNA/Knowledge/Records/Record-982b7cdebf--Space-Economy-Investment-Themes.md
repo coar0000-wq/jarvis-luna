@@ -2,7 +2,7 @@
 title: "Record 982b7cdebf · Space-Economy-Investment-Themes"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T04:47:38.125544+00:00
+updated_at: 2026-09-23T11:39:52.408068+00:00
 tags: [record, real-data]
 ---
 

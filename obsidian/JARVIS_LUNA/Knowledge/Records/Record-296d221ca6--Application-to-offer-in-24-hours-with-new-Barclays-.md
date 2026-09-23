@@ -2,7 +2,7 @@
 title: "Record 296d221ca6 · Application-to-offer-in-24-hours-with-new-Barclays-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T04:47:37.427049+00:00
+updated_at: 2026-09-23T11:39:51.866271+00:00
 tags: [record, real-data]
 ---
 

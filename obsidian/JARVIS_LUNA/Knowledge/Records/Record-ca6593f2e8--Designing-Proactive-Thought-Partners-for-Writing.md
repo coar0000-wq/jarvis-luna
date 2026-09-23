@@ -2,7 +2,7 @@
 title: "Record ca6593f2e8 · Designing-Proactive-Thought-Partners-for-Writing"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T04:47:36.936594+00:00
+updated_at: 2026-09-23T11:39:51.478467+00:00
 tags: [record, real-data]
 ---
 

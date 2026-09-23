@@ -2,7 +2,7 @@
 title: "Record 382e6610d8 · 25-K-Beauty-Favorites-Our-Editors-Are-Eyeing-at-Ama"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T04:47:37.785759+00:00
+updated_at: 2026-09-23T11:39:52.133933+00:00
 tags: [record, real-data]
 ---
 

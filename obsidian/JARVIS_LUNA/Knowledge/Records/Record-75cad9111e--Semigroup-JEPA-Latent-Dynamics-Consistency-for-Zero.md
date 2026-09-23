@@ -2,7 +2,7 @@
 title: "Record 75cad9111e · Semigroup-JEPA-Latent-Dynamics-Consistency-for-Zero"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T04:47:37.031300+00:00
+updated_at: 2026-09-23T11:39:51.554060+00:00
 tags: [record, real-data]
 ---
 

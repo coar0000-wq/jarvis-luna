@@ -2,7 +2,7 @@
 title: "Record fd5633ab74 · C3-AI-Board-Member-Jim-Hagemann-Snabe-Appointed-Eur"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T04:47:37.454227+00:00
+updated_at: 2026-09-23T11:39:51.885914+00:00
 tags: [record, real-data]
 ---
 

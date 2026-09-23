@@ -2,7 +2,7 @@
 title: "Record 7fcb3de937 · Modality-Autoregressive-World-Action-Models"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T04:47:37.336748+00:00
+updated_at: 2026-09-23T11:39:51.785979+00:00
 tags: [record, real-data]
 ---
 

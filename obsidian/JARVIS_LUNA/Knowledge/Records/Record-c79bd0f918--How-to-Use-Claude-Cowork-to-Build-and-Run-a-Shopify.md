@@ -2,7 +2,7 @@
 title: "Record c79bd0f918 · How-to-Use-Claude-Cowork-to-Build-and-Run-a-Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T04:47:38.240214+00:00
+updated_at: 2026-09-23T11:39:52.489191+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record a02da9fad3 · For-Soft-Hydrated-Skin-I-Turn-to-These-Korean-Moist"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T04:47:37.511775+00:00
+updated_at: 2026-09-23T11:39:51.930457+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiXkFVX3lxTE52YmtUSU1WbkkwMTdxTUNYZzM0VlpGcl9rMlJ6TnFQTDJMU0xISEVFdF9hbmdOZ1lwNWx3RTVqR1lNR2R1Sm1Mckw1eXJGTVBIdXN1Z2tKaDlkQ1VzNUE?oc=5)
 
-**제목:** For Soft, Hydrated Skin, I Turn to These Korean Moisturizers - vogue.com
+**제목:** For Soft, Hydrated Skin, I Turn to These Korean Moisturizers - Vogue
 
-For Soft, Hydrated Skin, I Turn to These Korean Moisturizers - vogue.com
+For Soft, Hydrated Skin, I Turn to These Korean Moisturizers - Vogue
 
 **출처:** Source · Google Search
 

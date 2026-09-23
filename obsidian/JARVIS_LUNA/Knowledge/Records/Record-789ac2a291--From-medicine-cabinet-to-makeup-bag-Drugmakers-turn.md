@@ -2,7 +2,7 @@
 title: "Record 789ac2a291 · From-medicine-cabinet-to-makeup-bag-Drugmakers-turn"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T04:47:37.464705+00:00
+updated_at: 2026-09-23T11:39:51.894024+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record df78675d45 · Economic-Slowdown-Growth-Scare-2025"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T04:47:38.116489+00:00
+updated_at: 2026-09-23T11:39:52.401340+00:00
 tags: [record, real-data]
 ---
 

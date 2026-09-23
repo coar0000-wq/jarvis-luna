@@ -2,7 +2,7 @@
 title: "Record de3e906a43 · Amorepacific-expands-K-beauty-portfolio-in-India-wi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T04:47:37.763476+00:00
+updated_at: 2026-09-23T11:39:52.118633+00:00
 tags: [record, real-data]
 ---
 
