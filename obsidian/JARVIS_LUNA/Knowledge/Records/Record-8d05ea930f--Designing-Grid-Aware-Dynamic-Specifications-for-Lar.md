@@ -2,7 +2,7 @@
 title: "Record 8d05ea930f · Designing-Grid-Aware-Dynamic-Specifications-for-Large-Data-Center-Load"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T21:21:23.520992+00:00
+updated_at: 2026-09-23T04:47:37.089083+00:00
 tags: [record, real-data]
 ---
 

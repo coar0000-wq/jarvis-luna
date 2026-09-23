@@ -2,7 +2,7 @@
 title: "Record f5ebdde1a2 · Post-Earthquake-Damage-Assessment-Using-a-UAV-Acquired-Photogrammetry-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T21:21:24.372963+00:00
+updated_at: 2026-09-23T04:47:37.896469+00:00
 tags: [record, real-data]
 ---
 

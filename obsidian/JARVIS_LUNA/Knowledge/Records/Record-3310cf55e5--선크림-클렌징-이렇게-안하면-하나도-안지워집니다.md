@@ -2,7 +2,7 @@
 title: "Record 3310cf55e5 · 선크림-클렌징-이렇게-안하면-하나도-안지워집니다"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T21:21:24.700986+00:00
+updated_at: 2026-09-23T04:47:38.256679+00:00
 tags: [record, real-data]
 ---
 

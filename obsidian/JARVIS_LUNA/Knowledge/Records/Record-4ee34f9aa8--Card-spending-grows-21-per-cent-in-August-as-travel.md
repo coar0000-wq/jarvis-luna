@@ -2,7 +2,7 @@
 title: "Record 4ee34f9aa8 · Card-spending-grows-21-per-cent-in-August-as-travel"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T21:21:23.919004+00:00
+updated_at: 2026-09-23T04:47:37.429436+00:00
 tags: [record, real-data]
 ---
 

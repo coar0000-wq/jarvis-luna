@@ -2,7 +2,7 @@
 title: "Record 57c077f038 · The-Hudson-Williams-Effect-K-Beauty-Brand-SKIN1004-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T21:21:24.146721+00:00
+updated_at: 2026-09-23T04:47:37.666584+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record eac6dd9104 · Prestige-K-Beauty-Retail-mixsoon-Brings-Its-Korean-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T21:21:24.033659+00:00
+updated_at: 2026-09-23T04:47:37.551808+00:00
 tags: [record, real-data]
 ---
 

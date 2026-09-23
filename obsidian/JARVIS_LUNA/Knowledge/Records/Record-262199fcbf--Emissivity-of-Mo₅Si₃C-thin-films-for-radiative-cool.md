@@ -2,7 +2,7 @@
 title: "Record 262199fcbf · Emissivity-of-Mo₅Si₃C-thin-films-for-radiative-cooling-in-EUV-pellicle"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T21:21:23.639241+00:00
+updated_at: 2026-09-23T04:47:37.172420+00:00
 tags: [record, real-data]
 ---
 

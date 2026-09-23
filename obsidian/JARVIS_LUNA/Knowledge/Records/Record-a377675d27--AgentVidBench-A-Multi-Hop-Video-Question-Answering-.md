@@ -2,7 +2,7 @@
 title: "Record a377675d27 · AgentVidBench-A-Multi-Hop-Video-Question-Answering-Benchmark-for-Evalu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T21:21:23.577000+00:00
+updated_at: 2026-09-23T04:47:37.103715+00:00
 tags: [record, real-data]
 ---
 

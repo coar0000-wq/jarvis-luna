@@ -2,7 +2,7 @@
 title: "Record ecf1c2363f · la-Rosée-lait-solaire-spf-50"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T21:21:24.419545+00:00
+updated_at: 2026-09-23T04:47:37.944907+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record ccbbf186e5 · 30colors-JUNG-SAEM-MOOL-Essential-Skin-Nuder-Cushio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T21:21:24.412594+00:00
+updated_at: 2026-09-23T04:47:37.938067+00:00
 tags: [record, real-data]
 ---
 

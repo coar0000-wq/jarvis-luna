@@ -2,7 +2,7 @@
 title: "Record c14f0f8863 · GeoMesh-Workload-Balanced-and-Sign-Compressed-Geo-Distributed-LLM-Trai"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-22T21:21:23.835070+00:00
+updated_at: 2026-09-23T04:47:37.344143+00:00
 tags: [record, real-data]
 ---
 
