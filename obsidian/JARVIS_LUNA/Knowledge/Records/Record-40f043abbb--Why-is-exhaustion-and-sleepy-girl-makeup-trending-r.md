@@ -2,7 +2,7 @@
 title: "Record 40f043abbb · Why-is-exhaustion-and-sleepy-girl-makeup-trending-r"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T17:02:02.982339+00:00
+updated_at: 2026-09-23T21:32:00.288653+00:00
 tags: [record, real-data]
 ---
 

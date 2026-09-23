@@ -2,7 +2,7 @@
 title: "Record 0f14f84f4e · ARC-CT-Anatomy-Routed-Contrastive-Vision-Language-L"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T17:02:02.526701+00:00
+updated_at: 2026-09-23T21:31:59.952348+00:00
 tags: [record, real-data]
 ---
 

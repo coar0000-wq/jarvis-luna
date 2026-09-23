@@ -2,7 +2,7 @@
 title: "Record ddbf5fcf7a · Whats-Better-Than-K-Beauty-Award-Winning-K-Beauty-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T17:02:03.050069+00:00
+updated_at: 2026-09-23T21:32:00.339432+00:00
 tags: [record, real-data]
 ---
 

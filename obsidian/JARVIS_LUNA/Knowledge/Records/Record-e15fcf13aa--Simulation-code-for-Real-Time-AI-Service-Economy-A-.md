@@ -2,7 +2,7 @@
 title: "Record e15fcf13aa · Simulation-code-for-Real-Time-AI-Service-Economy-A-Framework-for-Agent"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T17:02:02.524572+00:00
+updated_at: 2026-09-23T21:31:59.950864+00:00
 tags: [record, real-data]
 ---
 

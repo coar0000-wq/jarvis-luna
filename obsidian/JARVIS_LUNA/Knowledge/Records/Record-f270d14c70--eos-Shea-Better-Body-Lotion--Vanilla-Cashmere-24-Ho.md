@@ -2,7 +2,7 @@
 title: "Record f270d14c70 · eos-Shea-Better-Body-Lotion--Vanilla-Cashmere-24-Hour-Moisture-16-fl-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T17:02:03.377128+00:00
+updated_at: 2026-09-23T21:32:00.581873+00:00
 tags: [record, real-data]
 ---
 

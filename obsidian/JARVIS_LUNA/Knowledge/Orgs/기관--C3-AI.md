@@ -2,7 +2,7 @@
 title: "기관 · C3 AI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T17:02:03.854657+00:00
+updated_at: 2026-09-23T21:32:00.949685+00:00
 tags: [org, real-data]
 ---
 

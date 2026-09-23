@@ -2,7 +2,7 @@
 title: "Record cac637942e · 이번-올영세일-살안타템-추천이니스프리-노세범-선-파우더-올영추천템"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T17:02:03.536122+00:00
+updated_at: 2026-09-23T21:32:00.692015+00:00
 tags: [record, real-data]
 ---
 

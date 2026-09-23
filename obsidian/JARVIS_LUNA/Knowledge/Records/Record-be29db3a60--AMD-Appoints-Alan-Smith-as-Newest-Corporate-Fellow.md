@@ -2,7 +2,7 @@
 title: "Record be29db3a60 · AMD-Appoints-Alan-Smith-as-Newest-Corporate-Fellow"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T17:02:02.943747+00:00
+updated_at: 2026-09-23T21:32:00.257622+00:00
 tags: [record, real-data]
 ---
 

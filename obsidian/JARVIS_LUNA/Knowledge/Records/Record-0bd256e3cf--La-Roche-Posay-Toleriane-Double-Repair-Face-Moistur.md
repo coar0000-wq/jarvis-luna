@@ -2,7 +2,7 @@
 title: "Record 0bd256e3cf · La-Roche-Posay-Toleriane-Double-Repair-Face-Moistur"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T17:02:03.374591+00:00
+updated_at: 2026-09-23T21:32:00.580339+00:00
 tags: [record, real-data]
 ---
 

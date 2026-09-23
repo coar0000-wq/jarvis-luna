@@ -2,7 +2,7 @@
 title: "Record cd417ad008 · The-future-of-large-scale-experiments-and-their-challenges-in-the-digi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T17:02:02.740816+00:00
+updated_at: 2026-09-23T21:32:00.098969+00:00
 tags: [record, real-data]
 ---
 

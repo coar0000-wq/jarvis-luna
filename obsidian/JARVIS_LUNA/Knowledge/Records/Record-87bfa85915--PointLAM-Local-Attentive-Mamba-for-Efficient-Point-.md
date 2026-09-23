@@ -2,7 +2,7 @@
 title: "Record 87bfa85915 · PointLAM-Local-Attentive-Mamba-for-Efficient-Point-based-3D-Object-Det"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T17:02:02.873105+00:00
+updated_at: 2026-09-23T21:32:00.200966+00:00
 tags: [record, real-data]
 ---
 

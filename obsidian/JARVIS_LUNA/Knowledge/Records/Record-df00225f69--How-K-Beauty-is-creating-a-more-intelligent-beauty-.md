@@ -2,7 +2,7 @@
 title: "Record df00225f69 · How-K-Beauty-is-creating-a-more-intelligent-beauty-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T17:02:03.171371+00:00
+updated_at: 2026-09-23T21:32:00.427408+00:00
 tags: [record, real-data]
 ---
 

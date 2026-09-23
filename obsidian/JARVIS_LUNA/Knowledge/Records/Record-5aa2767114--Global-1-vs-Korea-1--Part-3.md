@@ -2,7 +2,7 @@
 title: "Record 5aa2767114 · Global-1-vs-Korea-1--Part-3"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T17:02:03.520562+00:00
+updated_at: 2026-09-23T21:32:00.679036+00:00
 tags: [record, real-data]
 ---
 
