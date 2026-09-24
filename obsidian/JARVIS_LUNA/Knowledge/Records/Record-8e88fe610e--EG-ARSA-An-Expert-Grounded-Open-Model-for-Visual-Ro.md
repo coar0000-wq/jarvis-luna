@@ -2,7 +2,7 @@
 title: "Record 8e88fe610e · EG-ARSA-An-Expert-Grounded-Open-Model-for-Visual-Ro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T17:14:07.772688+00:00
+updated_at: 2026-09-24T21:33:10.661999+00:00
 tags: [record, real-data]
 ---
 

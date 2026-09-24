@@ -2,7 +2,7 @@
 title: "Record 1c6de0516f · Florence-Pugh-Elevated-the-Messiest-Bun-With-the-Fa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T17:14:07.433762+00:00
+updated_at: 2026-09-24T21:33:10.364444+00:00
 tags: [record, real-data]
 ---
 

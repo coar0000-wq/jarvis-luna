@@ -2,7 +2,7 @@
 title: "Record 84103de97e · AI-for-Business-How-to-Use-It-and-Get-Started-2025-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T17:14:06.931773+00:00
+updated_at: 2026-09-24T21:33:09.933405+00:00
 tags: [record, real-data]
 ---
 

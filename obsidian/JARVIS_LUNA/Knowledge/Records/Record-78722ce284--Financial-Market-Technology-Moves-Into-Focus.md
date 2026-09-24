@@ -2,7 +2,7 @@
 title: "Record 78722ce284 · Financial-Market-Technology-Moves-Into-Focus"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T17:14:07.575372+00:00
+updated_at: 2026-09-24T21:33:10.486386+00:00
 tags: [record, real-data]
 ---
 

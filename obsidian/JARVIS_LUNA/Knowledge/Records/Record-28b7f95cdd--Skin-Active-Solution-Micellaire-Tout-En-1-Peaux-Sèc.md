@@ -2,7 +2,7 @@
 title: "Record 28b7f95cdd · Skin-Active-Solution-Micellaire-Tout-En-1-Peaux-Sèches-et-Sensibles"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T17:14:07.410618+00:00
+updated_at: 2026-09-24T21:33:10.344338+00:00
 tags: [record, real-data]
 ---
 

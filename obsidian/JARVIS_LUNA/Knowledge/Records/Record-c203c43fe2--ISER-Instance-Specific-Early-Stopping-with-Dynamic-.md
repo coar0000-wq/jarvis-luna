@@ -2,7 +2,7 @@
 title: "Record c203c43fe2 · ISER-Instance-Specific-Early-Stopping-with-Dynamic-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T17:14:06.692797+00:00
+updated_at: 2026-09-24T21:33:09.733615+00:00
 tags: [record, real-data]
 ---
 

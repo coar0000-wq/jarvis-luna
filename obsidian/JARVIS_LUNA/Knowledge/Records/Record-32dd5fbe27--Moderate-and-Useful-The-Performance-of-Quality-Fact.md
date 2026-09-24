@@ -2,7 +2,7 @@
 title: "Record 32dd5fbe27 · Moderate-and-Useful-The-Performance-of-Quality-Fact"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T17:14:06.642060+00:00
+updated_at: 2026-09-24T21:33:09.694064+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 6c45473b46 · Supporting-the-Assumption-that-Space-Time-is-an-Eme"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T17:14:06.811684+00:00
+updated_at: 2026-09-24T21:33:09.833006+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 95775a6567 · Im-on-My-47th-Bottle-of-a-Game-Changing-Serum-by-the-K-Beauty-Brand-Th"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T17:14:07.171347+00:00
+updated_at: 2026-09-24T21:33:10.135980+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMimAFBVV95cUxOWVBRc0ZUQ2MyczNyRFdKZ1ZpVFJmLUtqWXZvUm1fZkRuZlJXSmNORU5Nd29VbGFCZU9YLWxGczl5RzBQaWhCanpnLTFKWnhhUFZSekZxSXhxSTZIeVR2Y3Jqdlkxb3dlcDRQanF5TDhoTGJUM3djNG0tZ2VrSzNGdkYxdVhfNE1OSkZMVlFpUnF6bEJMdEtZWQ?oc=5)
 
-**제목:** I’m on My 47th Bottle of a Game-Changing Serum by the K-Beauty Brand That Changed My Skin From Reactive to Calm - Real Simple
+**제목:** I’m on My 47th Bottle of a Game-Changing Serum by the K-Beauty Brand That Changed My Skin From Reactive to Calm - realsimple.com
 
-I’m on My 47th Bottle of a Game-Changing Serum by the K-Beauty Brand That Changed My Skin From Reactive to Calm - Real Simple
+I’m on My 47th Bottle of a Game-Changing Serum by the K-Beauty Brand That Changed My Skin From Reactive to Calm - realsimple.com
 
 **출처:** Source · Google Search
 

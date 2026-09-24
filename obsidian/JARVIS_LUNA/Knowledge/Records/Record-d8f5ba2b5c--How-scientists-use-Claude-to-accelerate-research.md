@@ -2,7 +2,7 @@
 title: "Record d8f5ba2b5c · How-scientists-use-Claude-to-accelerate-research"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T17:14:07.494381+00:00
+updated_at: 2026-09-24T21:33:10.418735+00:00
 tags: [record, real-data]
 ---
 

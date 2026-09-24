@@ -2,7 +2,7 @@
 title: "Record 04d72561ba · Dr-Forhair-Lands-At-Sephora-As-K-Beautys-Haircare-W"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T17:14:07.048015+00:00
+updated_at: 2026-09-24T21:33:10.029396+00:00
 tags: [record, real-data]
 ---
 

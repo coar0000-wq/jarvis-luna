@@ -2,7 +2,7 @@
 title: "Record 220251f8ce · FlowATC-Aircraft-Trajectory-Prediction-via-Flow-Matching"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T17:14:06.719672+00:00
+updated_at: 2026-09-24T21:33:09.756524+00:00
 tags: [record, real-data]
 ---
 

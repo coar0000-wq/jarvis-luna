@@ -2,7 +2,7 @@
 title: "Record 8822a96a20 · K-beauty-giant-Cosmax-moves-a-gentler-retinol-into-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T17:14:07.016235+00:00
+updated_at: 2026-09-24T21:33:10.002638+00:00
 tags: [record, real-data]
 ---
 

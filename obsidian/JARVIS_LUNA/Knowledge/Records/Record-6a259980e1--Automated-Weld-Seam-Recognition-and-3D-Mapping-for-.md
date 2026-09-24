@@ -2,7 +2,7 @@
 title: "Record 6a259980e1 · Automated-Weld-Seam-Recognition-and-3D-Mapping-for-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T17:14:06.341793+00:00
+updated_at: 2026-09-24T21:33:09.422137+00:00
 tags: [record, real-data]
 ---
 

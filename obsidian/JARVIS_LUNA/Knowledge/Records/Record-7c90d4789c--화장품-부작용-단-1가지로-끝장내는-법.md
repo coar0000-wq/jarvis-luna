@@ -2,7 +2,7 @@
 title: "Record 7c90d4789c · 화장품-부작용-단-1가지로-끝장내는-법"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T17:14:07.714981+00:00
+updated_at: 2026-09-24T21:33:10.613463+00:00
 tags: [record, real-data]
 ---
 

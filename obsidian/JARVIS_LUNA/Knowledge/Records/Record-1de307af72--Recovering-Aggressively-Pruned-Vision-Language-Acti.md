@@ -2,7 +2,7 @@
 title: "Record 1de307af72 · Recovering-Aggressively-Pruned-Vision-Language-Action-Models-with-Offl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T17:14:06.475242+00:00
+updated_at: 2026-09-24T21:33:09.542332+00:00
 tags: [record, real-data]
 ---
 

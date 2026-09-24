@@ -2,7 +2,7 @@
 title: "Record 98b10c9ff5 · LOréal-and-Cosmax-pen-agreement-to-collaborate-on-next-generation-beau"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T17:14:07.091123+00:00
+updated_at: 2026-09-24T21:33:10.065399+00:00
 tags: [record, real-data]
 ---
 

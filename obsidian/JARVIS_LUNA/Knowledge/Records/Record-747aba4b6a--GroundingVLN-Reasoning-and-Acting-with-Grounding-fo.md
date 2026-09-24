@@ -2,7 +2,7 @@
 title: "Record 747aba4b6a · GroundingVLN-Reasoning-and-Acting-with-Grounding-for-Vision-Language-N"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T17:14:06.739168+00:00
+updated_at: 2026-09-24T21:33:09.773293+00:00
 tags: [record, real-data]
 ---
 

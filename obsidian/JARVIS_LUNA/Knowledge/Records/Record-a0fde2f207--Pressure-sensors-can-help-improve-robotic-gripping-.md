@@ -2,7 +2,7 @@
 title: "Record a0fde2f207 · Pressure-sensors-can-help-improve-robotic-gripping-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T17:14:07.652732+00:00
+updated_at: 2026-09-24T21:33:10.553762+00:00
 tags: [record, real-data]
 ---
 

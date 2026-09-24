@@ -2,7 +2,7 @@
 title: "Record 31736a88c6 · Nonmonotonic-Li-Content-Evolution-and-Size-Dependen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T17:14:06.569461+00:00
+updated_at: 2026-09-24T21:33:09.627532+00:00
 tags: [record, real-data]
 ---
 

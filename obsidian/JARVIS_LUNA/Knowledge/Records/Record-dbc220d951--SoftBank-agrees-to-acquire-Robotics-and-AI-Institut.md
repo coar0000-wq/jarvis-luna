@@ -2,7 +2,7 @@
 title: "Record dbc220d951 · SoftBank-agrees-to-acquire-Robotics-and-AI-Institute"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T17:14:07.654509+00:00
+updated_at: 2026-09-24T21:33:10.555524+00:00
 tags: [record, real-data]
 ---
 

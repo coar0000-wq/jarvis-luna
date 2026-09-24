@@ -2,7 +2,7 @@
 title: "Record 27c53c4e78 · Gold-Is-Forecast-To-Climb-As-Central-Banks-Buy-The-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T17:14:07.556268+00:00
+updated_at: 2026-09-24T21:33:10.468618+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 847679a2af · Why-Nicole-Kidmans-Practical-Magic-2-Wig-Had-to-Be-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T17:14:07.441366+00:00
+updated_at: 2026-09-24T21:33:10.371420+00:00
 tags: [record, real-data]
 ---
 

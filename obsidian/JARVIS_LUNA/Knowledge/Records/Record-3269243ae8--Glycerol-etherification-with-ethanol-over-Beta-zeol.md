@@ -2,7 +2,7 @@
 title: "Record 3269243ae8 · Glycerol-etherification-with-ethanol-over-Beta-zeol"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T17:14:06.551216+00:00
+updated_at: 2026-09-24T21:33:09.610882+00:00
 tags: [record, real-data]
 ---
 

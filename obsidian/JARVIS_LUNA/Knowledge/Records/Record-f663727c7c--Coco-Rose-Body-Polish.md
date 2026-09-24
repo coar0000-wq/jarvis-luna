@@ -2,7 +2,7 @@
 title: "Record f663727c7c · Coco-Rose-Body-Polish"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T17:14:07.569030+00:00
+updated_at: 2026-09-24T21:33:10.480222+00:00
 tags: [record, real-data]
 ---
 
