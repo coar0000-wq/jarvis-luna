@@ -2,7 +2,7 @@
 title: "Record dd8071822a · We-asked-Gen-Z-whats-actually-cool-in-the-beauty-wo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T21:32:00.395801+00:00
+updated_at: 2026-09-24T04:53:59.217689+00:00
 tags: [record, real-data]
 ---
 

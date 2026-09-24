@@ -2,7 +2,7 @@
 title: "Record d7500f02f0 · From-wearable-AI-to-TikTok-Shop-how-beauty-is-rewri"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T21:32:00.316783+00:00
+updated_at: 2026-09-24T04:53:59.075892+00:00
 tags: [record, real-data]
 ---
 

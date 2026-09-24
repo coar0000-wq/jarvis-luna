@@ -2,7 +2,7 @@
 title: "Record b2a8f992de · JUNG-KWAN-JANG-Ginseng-Honey-Paste-Daily-Stick-035-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T21:32:00.530424+00:00
+updated_at: 2026-09-24T04:53:59.446551+00:00
 tags: [record, real-data]
 ---
 

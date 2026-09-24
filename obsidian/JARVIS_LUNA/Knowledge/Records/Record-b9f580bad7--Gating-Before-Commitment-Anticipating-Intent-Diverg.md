@@ -2,7 +2,7 @@
 title: "Record b9f580bad7 · Gating-Before-Commitment-Anticipating-Intent-Diverg"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T21:32:00.736301+00:00
+updated_at: 2026-09-24T04:53:59.806276+00:00
 tags: [record, real-data]
 ---
 

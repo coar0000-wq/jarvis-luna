@@ -2,7 +2,7 @@
 title: "Record 3f4ead722a · Perplexity-Shopping-How-to-Optimize-Your-Store-for-AI---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T21:32:00.302673+00:00
+updated_at: 2026-09-24T04:53:59.050093+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 287b43296e · Broadening-access-to-Skala-creates-a-faster-path-to"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-23T21:32:00.629772+00:00
+updated_at: 2026-09-24T04:53:59.630622+00:00
 tags: [record, real-data]
 ---
 
