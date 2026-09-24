@@ -2,7 +2,7 @@
 title: "Record b1ce1165c0 · Finally-A-K-Beauty-Advent-Calendar-Has-Just-Dropped-And-Its-Already-Se"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T04:53:59.247409+00:00
+updated_at: 2026-09-24T11:48:47.187118+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMimgFBVV95cUxNWTIyWDNXQl9lUno5TXd3VHp4enF4emNXSjBXRFo3Smh2bVNxQU0xbjVsTzYxTXo2cDlUT1VXWHJkdGxWWTl1N095MFVqNEZ3VnI0SWlQSXV4WlZuV1BTS3FGMkJGWGh6b09GNTg2MkNsMVF3MDlqdGUyajlFeDFyTEtyaFVsUUhzQ01uTzhoWV9lSzFEODkycFRn?oc=5)
 
-**제목:** Finally! A K-Beauty Advent Calendar Has Just Dropped, And It’s Already Selling Fast - Grazia Daily UK
+**제목:** Finally! A K-Beauty Advent Calendar Has Just Dropped, And It’s Already Selling Fast - graziadaily.co.uk
 
-Finally! A K-Beauty Advent Calendar Has Just Dropped, And It’s Already Selling Fast - Grazia Daily UK
+Finally! A K-Beauty Advent Calendar Has Just Dropped, And It’s Already Selling Fast - graziadaily.co.uk
 
 **출처:** Source · Google Search
 

@@ -2,7 +2,7 @@
 title: "Record 14f4c8cb6a · TikTok-launches-Beauty-Fest-2026-with-Own-Your-Beau"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T04:53:58.992639+00:00
+updated_at: 2026-09-24T11:48:46.996633+00:00
 tags: [record, real-data]
 ---
 

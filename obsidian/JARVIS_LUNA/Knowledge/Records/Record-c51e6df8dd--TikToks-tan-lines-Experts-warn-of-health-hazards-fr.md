@@ -2,7 +2,7 @@
 title: "Record c51e6df8dd · TikToks-tan-lines-Experts-warn-of-health-hazards-fr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T04:53:59.174343+00:00
+updated_at: 2026-09-24T11:48:47.137152+00:00
 tags: [record, real-data]
 ---
 

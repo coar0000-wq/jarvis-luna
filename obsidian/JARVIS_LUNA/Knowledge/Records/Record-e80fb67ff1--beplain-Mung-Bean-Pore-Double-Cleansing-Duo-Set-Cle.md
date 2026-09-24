@@ -2,7 +2,7 @@
 title: "Record e80fb67ff1 · beplain-Mung-Bean-Pore-Double-Cleansing-Duo-Set-Cle"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T04:53:59.446871+00:00
+updated_at: 2026-09-24T11:48:47.323828+00:00
 tags: [record, real-data]
 ---
 

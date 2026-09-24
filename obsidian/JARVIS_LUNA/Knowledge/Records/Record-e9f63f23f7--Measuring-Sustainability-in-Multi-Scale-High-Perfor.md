@@ -2,7 +2,7 @@
 title: "Record e9f63f23f7 · Measuring-Sustainability-in-Multi-Scale-High-Perfor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T04:53:58.834544+00:00
+updated_at: 2026-09-24T11:48:46.875543+00:00
 tags: [record, real-data]
 ---
 

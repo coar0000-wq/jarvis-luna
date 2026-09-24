@@ -2,7 +2,7 @@
 title: "Record 39437df7c1 · Ipo-Process-Founders-Going-Public"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T04:53:59.659501+00:00
+updated_at: 2026-09-24T11:48:47.473565+00:00
 tags: [record, real-data]
 ---
 

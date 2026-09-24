@@ -2,7 +2,7 @@
 title: "Record df55ed26c0 · Beauty-fans-nab-40-off-Medicube-Korean-collagen-skincare-kit---Liverpo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T04:53:59.216421+00:00
+updated_at: 2026-09-24T11:48:47.166014+00:00
 tags: [record, real-data]
 ---
 

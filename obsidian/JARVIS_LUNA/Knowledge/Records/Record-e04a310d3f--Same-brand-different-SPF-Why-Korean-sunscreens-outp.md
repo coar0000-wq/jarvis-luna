@@ -2,7 +2,7 @@
 title: "Record e04a310d3f · Same-brand-different-SPF-Why-Korean-sunscreens-outp"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T04:53:59.324750+00:00
+updated_at: 2026-09-24T11:48:47.237578+00:00
 tags: [record, real-data]
 ---
 

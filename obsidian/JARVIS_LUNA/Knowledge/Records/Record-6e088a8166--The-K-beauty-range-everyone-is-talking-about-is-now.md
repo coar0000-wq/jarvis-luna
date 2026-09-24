@@ -2,7 +2,7 @@
 title: "Record 6e088a8166 · The-K-beauty-range-everyone-is-talking-about-is-now"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T04:53:59.304355+00:00
+updated_at: 2026-09-24T11:48:47.223542+00:00
 tags: [record, real-data]
 ---
 

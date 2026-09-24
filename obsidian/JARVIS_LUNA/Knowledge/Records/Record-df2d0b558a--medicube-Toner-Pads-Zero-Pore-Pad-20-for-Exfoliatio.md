@@ -2,7 +2,7 @@
 title: "Record df2d0b558a · medicube-Toner-Pads-Zero-Pore-Pad-20-for-Exfoliation-and-Pore-Care--Du"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T04:53:59.520365+00:00
+updated_at: 2026-09-24T11:48:47.375966+00:00
 tags: [record, real-data]
 ---
 

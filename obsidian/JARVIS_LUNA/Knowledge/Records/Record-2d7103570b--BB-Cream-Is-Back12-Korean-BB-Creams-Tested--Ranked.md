@@ -2,7 +2,7 @@
 title: "Record 2d7103570b · BB-Cream-Is-Back12-Korean-BB-Creams-Tested--Ranked"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T04:53:59.750947+00:00
+updated_at: 2026-09-24T11:48:47.538191+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 37cbc33e11 · Do-NOT-Go-to-a-Korean-Sauna-Without-Watching-This-K"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T04:53:59.738179+00:00
+updated_at: 2026-09-24T11:48:47.529363+00:00
 tags: [record, real-data]
 ---
 

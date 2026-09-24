@@ -2,7 +2,7 @@
 title: "Record cb1c984986 · Lightweight-Vision-Transformer-Compression-for-On-Device-Plant-Disease"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T04:53:59.422348+00:00
+updated_at: 2026-09-24T11:48:47.305828+00:00
 tags: [record, real-data]
 ---
 

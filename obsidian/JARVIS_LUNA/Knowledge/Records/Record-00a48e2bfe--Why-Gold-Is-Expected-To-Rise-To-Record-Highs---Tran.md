@@ -2,7 +2,7 @@
 title: "Record 00a48e2bfe · Why-Gold-Is-Expected-To-Rise-To-Record-Highs---Tran"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T04:53:59.609046+00:00
+updated_at: 2026-09-24T11:48:47.440607+00:00
 tags: [record, real-data]
 ---
 

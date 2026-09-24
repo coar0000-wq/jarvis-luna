@@ -2,7 +2,7 @@
 title: "Record c2d2cba88e · The-Clock-Is-Ticking-on-These-K-Beauty-Prime-Day-De"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T04:53:59.192913+00:00
+updated_at: 2026-09-24T11:48:47.150232+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSHIwZEVqNlV1N0paengwM2Znc3dlNk1nX1FSb2RuRmNaQlFOajZpdDdJSVQ2Wmc0SWp4TTNUZ3FpY1ZKQkhtckZmVUtBT1RoQlZRRHFxOC13MXJVQXlsbFZzVC1rZWhqMWNWanQ3TUJCSGtZa2p0eHh3a0FBVVJMckJ6dDAyTzFB?oc=5)
 
-**제목:** Quick: K-Beauty Favorites Are Already on Sale for Prime Day - allure.com
+**제목:** Quick: K-Beauty Favorites Are Already on Sale for Prime Day - Allure
 
-Quick: K-Beauty Favorites Are Already on Sale for Prime Day - allure.com
+Quick: K-Beauty Favorites Are Already on Sale for Prime Day - Allure
 
 **출처:** Source · Google Search
 
