@@ -2,7 +2,7 @@
 title: "Record a677b2322b · Periodic-GFN2--x-TB-in-CP2K-Multipolar-Ewald-Electr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T11:48:46.780035+00:00
+updated_at: 2026-09-24T17:14:06.565740+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 7494598fe2 · Guaiaazulene-the-Korean-skincare-ingredient-that-soothes-sensitive-ski"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T11:48:47.177310+00:00
+updated_at: 2026-09-24T17:14:07.160253+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 12cef60bc8 · Underrated-Korean-Skin-Care-You-Need-To-Try"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T11:48:47.549549+00:00
+updated_at: 2026-09-24T17:14:07.733826+00:00
 tags: [record, real-data]
 ---
 

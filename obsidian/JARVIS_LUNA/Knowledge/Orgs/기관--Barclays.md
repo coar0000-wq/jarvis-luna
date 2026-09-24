@@ -2,7 +2,7 @@
 title: "기관 · Barclays"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T11:48:47.855123+00:00
+updated_at: 2026-09-24T17:14:08.047519+00:00
 tags: [org, real-data]
 ---
 

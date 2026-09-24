@@ -2,7 +2,7 @@
 title: "Record c282101636 · Catalogue-Photography-as-a-Cold-Start-Toward-Deploy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T11:48:46.623881+00:00
+updated_at: 2026-09-24T17:14:06.342603+00:00
 tags: [record, real-data]
 ---
 

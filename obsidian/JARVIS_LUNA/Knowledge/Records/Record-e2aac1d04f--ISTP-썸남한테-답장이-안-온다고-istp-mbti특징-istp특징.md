@@ -2,7 +2,7 @@
 title: "Record e2aac1d04f · ISTP-썸남한테-답장이-안-온다고-istp-mbti특징-istp특징"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T11:48:47.527342+00:00
+updated_at: 2026-09-24T17:14:07.701102+00:00
 tags: [record, real-data]
 ---
 

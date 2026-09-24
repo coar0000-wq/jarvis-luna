@@ -2,7 +2,7 @@
 title: "Record d2dfd9de85 · The-Allure-2026-Best-of-Beauty-Box-Review"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T11:48:47.349605+00:00
+updated_at: 2026-09-24T17:14:07.427427+00:00
 tags: [record, real-data]
 ---
 

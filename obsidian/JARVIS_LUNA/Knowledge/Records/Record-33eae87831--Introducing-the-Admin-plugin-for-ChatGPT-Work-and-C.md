@@ -2,7 +2,7 @@
 title: "Record 33eae87831 · Introducing-the-Admin-plugin-for-ChatGPT-Work-and-C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T11:48:47.272433+00:00
+updated_at: 2026-09-24T17:14:07.306153+00:00
 tags: [record, real-data]
 ---
 

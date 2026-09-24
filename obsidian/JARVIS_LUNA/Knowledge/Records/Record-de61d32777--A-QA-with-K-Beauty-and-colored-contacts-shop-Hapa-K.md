@@ -2,7 +2,7 @@
 title: "Record de61d32777 · A-QA-with-K-Beauty-and-colored-contacts-shop-Hapa-Kristin---225-Magazi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T11:48:47.217467+00:00
+updated_at: 2026-09-24T17:14:07.220739+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTFNwMllkRGg4M3VtbGE5b3RLLWRxakNXWDlIT3JKNEIzOEp2NHE4LVlqd3JaRlRQUGRvSmp1MkVuME5nMjB1NkJXNS1Eem5uNnFwSFVKYWltdUc5WDNDSTFZTlh6UG10WXJjNkk5N1RxZUladnQ0aHlwS1c3QXBKTzF2WE1ITV9QdWQzZjFxM0NSbF9hQzRzTWJ4Y2ZTN3g0YWZEUEdKTjVpdw?oc=5)
 
-**제목:** A Q&A with K-Beauty and colored contacts shop Hapa Kristin - 225batonrouge.com
+**제목:** A Q&A with K-Beauty and colored contacts shop Hapa Kristin - 225 Magazine
 
-A Q&A with K-Beauty and colored contacts shop Hapa Kristin - 225batonrouge.com
+A Q&A with K-Beauty and colored contacts shop Hapa Kristin - 225 Magazine
 
 **출처:** Source · Google Search
 

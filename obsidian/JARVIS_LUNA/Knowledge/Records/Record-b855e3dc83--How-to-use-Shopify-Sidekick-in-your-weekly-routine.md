@@ -2,7 +2,7 @@
 title: "Record b855e3dc83 · How-to-use-Shopify-Sidekick-in-your-weekly-routine"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T11:48:47.563470+00:00
+updated_at: 2026-09-24T17:14:07.758903+00:00
 tags: [record, real-data]
 ---
 

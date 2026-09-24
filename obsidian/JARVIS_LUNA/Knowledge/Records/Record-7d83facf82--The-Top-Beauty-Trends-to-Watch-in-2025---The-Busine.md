@@ -2,7 +2,7 @@
 title: "Record 7d83facf82 · The-Top-Beauty-Trends-to-Watch-in-2025---The-Busine"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T11:48:47.173630+00:00
+updated_at: 2026-09-24T17:14:07.154897+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record e492483871 · 10-Online-Shopping-Trends-Shaping-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T11:48:47.118870+00:00
+updated_at: 2026-09-24T17:14:07.075198+00:00
 tags: [record, real-data]
 ---
 

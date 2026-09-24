@@ -2,7 +2,7 @@
 title: "Record d05254432c · LED-Red-Light-Therapy-Panel"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T11:48:47.504147+00:00
+updated_at: 2026-09-24T17:14:07.666288+00:00
 tags: [record, real-data]
 ---
 

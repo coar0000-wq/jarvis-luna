@@ -2,7 +2,7 @@
 title: "Record bcc894491d · K-beautys-China-retreat-boosts-Amorepacific-and-LG-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T11:48:47.081207+00:00
+updated_at: 2026-09-24T17:14:07.035527+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMid0FVX3lxTFBzY1ljc2xfa0RodHNDaHBNOEdETkJzTmQzaG9TUXZtSEpQaG9xU3dNdDNVazBXX091eWhWYktCUTRKUHRMTEwzMTZZYk5Bb09hS0ZObVByUXAwdEs4ZGVWLURoVjlFQU1uZEpBSnZRVHI4ZG40WTNJ?oc=5)
 
-**제목:** K-beauty’s China retreat boosts Amorepacific and LG H&H profits - personalcareinsights.com
+**제목:** K-beauty’s China retreat boosts Amorepacific and LG H&H profits - Personal Care Insights
 
-K-beauty’s China retreat boosts Amorepacific and LG H&H profits - personalcareinsights.com
+K-beauty’s China retreat boosts Amorepacific and LG H&H profits - Personal Care Insights
 
 **출처:** Source · Google Search
 

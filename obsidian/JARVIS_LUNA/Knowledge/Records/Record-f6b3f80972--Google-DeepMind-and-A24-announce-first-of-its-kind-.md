@@ -2,7 +2,7 @@
 title: "Record f6b3f80972 · Google-DeepMind-and-A24-announce-first-of-its-kind-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T11:48:46.739080+00:00
+updated_at: 2026-09-24T17:14:06.508097+00:00
 tags: [record, real-data]
 ---
 

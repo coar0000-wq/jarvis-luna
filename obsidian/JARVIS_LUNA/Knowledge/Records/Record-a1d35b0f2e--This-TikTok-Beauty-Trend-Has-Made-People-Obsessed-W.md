@@ -2,7 +2,7 @@
 title: "Record a1d35b0f2e · This-TikTok-Beauty-Trend-Has-Made-People-Obsessed-W"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T11:48:47.147040+00:00
+updated_at: 2026-09-24T17:14:07.114425+00:00
 tags: [record, real-data]
 ---
 

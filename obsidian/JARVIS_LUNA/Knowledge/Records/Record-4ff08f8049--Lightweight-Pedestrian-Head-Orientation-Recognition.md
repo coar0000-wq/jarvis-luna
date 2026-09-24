@@ -2,7 +2,7 @@
 title: "Record 4ff08f8049 · Lightweight-Pedestrian-Head-Orientation-Recognition-Network-for-Safe-P"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T11:48:46.915866+00:00
+updated_at: 2026-09-24T17:14:06.771762+00:00
 tags: [record, real-data]
 ---
 

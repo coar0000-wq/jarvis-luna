@@ -2,7 +2,7 @@
 title: "Record 983e8cf1fe · Constrained-Bayesian-Neural-Network-utility-in-the-design-of-price-pro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T11:48:46.770655+00:00
+updated_at: 2026-09-24T17:14:06.553560+00:00
 tags: [record, real-data]
 ---
 
