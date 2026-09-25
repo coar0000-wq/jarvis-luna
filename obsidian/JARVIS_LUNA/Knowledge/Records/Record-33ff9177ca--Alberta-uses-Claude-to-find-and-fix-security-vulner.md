@@ -2,7 +2,7 @@
 title: "Record 33ff9177ca · Alberta-uses-Claude-to-find-and-fix-security-vulner"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T05:00:35.376291+00:00
+updated_at: 2026-09-25T11:53:51.248855+00:00
 tags: [record, real-data]
 ---
 

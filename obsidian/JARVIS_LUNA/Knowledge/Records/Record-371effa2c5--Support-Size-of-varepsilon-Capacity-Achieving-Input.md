@@ -2,7 +2,7 @@
 title: "Record 371effa2c5 · Support-Size-of-varepsilon-Capacity-Achieving-Input"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T05:00:35.203360+00:00
+updated_at: 2026-09-25T11:53:51.074259+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 8a3639fb02 · MiX-Micro-Inverted-Scaling-for-End-to-End-Low-Bit-Vision-Language-Mode"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T05:00:34.373156+00:00
+updated_at: 2026-09-25T11:53:50.264267+00:00
 tags: [record, real-data]
 ---
 

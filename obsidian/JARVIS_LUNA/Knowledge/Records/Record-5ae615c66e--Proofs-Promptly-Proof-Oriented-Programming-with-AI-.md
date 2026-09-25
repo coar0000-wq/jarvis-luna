@@ -2,7 +2,7 @@
 title: "Record 5ae615c66e · Proofs-Promptly-Proof-Oriented-Programming-with-AI-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T05:00:34.533490+00:00
+updated_at: 2026-09-25T11:53:50.426886+00:00
 tags: [record, real-data]
 ---
 

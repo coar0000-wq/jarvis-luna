@@ -2,7 +2,7 @@
 title: "Record c0dc8a0a41 · Semantically-Guided-Domain-Randomization-for-Industrial-Object-Detecti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T05:00:34.675511+00:00
+updated_at: 2026-09-25T11:53:50.563523+00:00
 tags: [record, real-data]
 ---
 

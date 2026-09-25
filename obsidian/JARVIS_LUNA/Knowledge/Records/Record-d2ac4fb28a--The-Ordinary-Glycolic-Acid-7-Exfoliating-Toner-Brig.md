@@ -2,7 +2,7 @@
 title: "Record d2ac4fb28a · The-Ordinary-Glycolic-Acid-7-Exfoliating-Toner-Brig"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T05:00:35.359487+00:00
+updated_at: 2026-09-25T11:53:51.231558+00:00
 tags: [record, real-data]
 ---
 

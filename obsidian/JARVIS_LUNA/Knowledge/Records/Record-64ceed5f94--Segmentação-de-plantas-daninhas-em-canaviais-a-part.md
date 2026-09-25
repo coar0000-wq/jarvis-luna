@@ -2,7 +2,7 @@
 title: "Record 64ceed5f94 · Segmentação-de-plantas-daninhas-em-canaviais-a-partir-de-ortomosaicos-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T05:00:34.679114+00:00
+updated_at: 2026-09-25T11:53:50.567064+00:00
 tags: [record, real-data]
 ---
 

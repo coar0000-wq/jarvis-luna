@@ -2,7 +2,7 @@
 title: "Record 9a48468c90 · K-Beauty-Trends-Redefining-The-Future-Of-Luxury-Ski"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T05:00:35.081038+00:00
+updated_at: 2026-09-25T11:53:50.959833+00:00
 tags: [record, real-data]
 ---
 

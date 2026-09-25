@@ -2,7 +2,7 @@
 title: "Record 1537c2474f · Financing-Resilience-Energy-Supply-Disruption"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T05:00:35.460724+00:00
+updated_at: 2026-09-25T11:53:51.330210+00:00
 tags: [record, real-data]
 ---
 

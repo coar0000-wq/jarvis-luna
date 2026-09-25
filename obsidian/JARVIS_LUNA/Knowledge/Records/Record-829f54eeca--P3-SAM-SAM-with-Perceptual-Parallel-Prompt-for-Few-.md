@@ -2,7 +2,7 @@
 title: "Record 829f54eeca · P3-SAM-SAM-with-Perceptual-Parallel-Prompt-for-Few-Shot-Strip-Steel-Su"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T05:00:34.649609+00:00
+updated_at: 2026-09-25T11:53:50.538783+00:00
 tags: [record, real-data]
 ---
 

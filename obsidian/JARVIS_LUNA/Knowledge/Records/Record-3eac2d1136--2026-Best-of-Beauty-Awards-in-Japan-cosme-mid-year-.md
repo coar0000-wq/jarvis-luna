@@ -2,7 +2,7 @@
 title: "Record 3eac2d1136 · 2026-Best-of-Beauty-Awards-in-Japan-cosme-mid-year-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T05:00:35.606192+00:00
+updated_at: 2026-09-25T11:53:51.482642+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 63da2a13ad · K-Beauty-Brand-Botari-Launches-With-Biotech-Hand-Care---BeautyNewsDail"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T05:00:34.931488+00:00
+updated_at: 2026-09-25T11:53:50.811144+00:00
 tags: [record, real-data]
 ---
 

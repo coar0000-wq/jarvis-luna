@@ -2,7 +2,7 @@
 title: "Record 24448d18d3 · Integrating-ex-situ-biomimetic-extraction-analyses-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T05:00:34.494779+00:00
+updated_at: 2026-09-25T11:53:50.389900+00:00
 tags: [record, real-data]
 ---
 

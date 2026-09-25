@@ -2,7 +2,7 @@
 title: "Record 4f3df231a0 · 선스틱-정량-직접-측정해봤습니다"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T05:00:35.576124+00:00
+updated_at: 2026-09-25T11:53:51.450959+00:00
 tags: [record, real-data]
 ---
 

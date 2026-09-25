@@ -2,7 +2,7 @@
 title: "Record 14b1ab5191 · Torriden-Cellmazing-Low-Molecular-Collagen-Firming-Gel-Mask-4ct-127-oz"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T05:00:35.276839+00:00
+updated_at: 2026-09-25T11:53:51.147896+00:00
 tags: [record, real-data]
 ---
 

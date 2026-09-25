@@ -2,7 +2,7 @@
 title: "Record 1f86ab9bdd · Fake-K-beauty-products-busted---The-Korea-Herald"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T05:00:34.808331+00:00
+updated_at: 2026-09-25T11:53:50.691551+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record b987fd5fb3 · Optical-Tech-Would-Update-a-Robots-AI-on-the-Fly"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T05:00:35.240701+00:00
+updated_at: 2026-09-25T11:53:51.110975+00:00
 tags: [record, real-data]
 ---
 

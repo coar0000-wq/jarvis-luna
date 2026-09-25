@@ -2,7 +2,7 @@
 title: "Record c4d43c37d0 · Shopify-Opens-to-Meta-Muse-Amazon-Balks---Practical-Ecommerce"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T05:00:34.940769+00:00
+updated_at: 2026-09-25T11:53:50.820501+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMif0FVX3lxTE1lbkxjMDJzY3JLTUdSQnJ4NEhNMHI0cThjdWhLaU1aTG1wSW1oSU5UOU82cFA4YndIVXhnTHprVHdjUkNETGpKOTViQUJBTjRiX19hUDNFRTcwRlJKUWxjcVZ5NmNfTmxjYnRmVVVQOG5LNmZHZTEzSTMxbkFvTGM?oc=5)
 
-**제목:** Shopify Opens to Meta Muse; Amazon Balks - practicalecommerce.com
+**제목:** Shopify Opens to Meta Muse; Amazon Balks - Practical Ecommerce
 
-Shopify Opens to Meta Muse; Amazon Balks - practicalecommerce.com
+Shopify Opens to Meta Muse; Amazon Balks - Practical Ecommerce
 
 **출처:** Source · Google Search
 
