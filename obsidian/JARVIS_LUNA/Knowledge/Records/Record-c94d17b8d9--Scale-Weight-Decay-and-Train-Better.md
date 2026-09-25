@@ -2,7 +2,7 @@
 title: "Record c94d17b8d9 · Scale-Weight-Decay-and-Train-Better"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T11:53:51.100850+00:00
+updated_at: 2026-09-25T17:14:03.264828+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2073d1d048 · On-the-Role-of-Prose-in-Specifications-Invited-Talk"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T11:53:50.487651+00:00
+updated_at: 2026-09-25T17:14:02.596572+00:00
 tags: [record, real-data]
 ---
 

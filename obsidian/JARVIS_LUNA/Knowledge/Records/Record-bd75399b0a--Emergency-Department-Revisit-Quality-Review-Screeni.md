@@ -2,7 +2,7 @@
 title: "Record bd75399b0a · Emergency-Department-Revisit-Quality-Review-Screeni"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T11:53:50.196223+00:00
+updated_at: 2026-09-25T17:14:02.289100+00:00
 tags: [record, real-data]
 ---
 

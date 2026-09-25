@@ -2,7 +2,7 @@
 title: "Record 8fb214b82e · Polishing-Charcoal--Black-Sugar-Gel-Mask--Scrub"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T11:53:51.155976+00:00
+updated_at: 2026-09-25T17:14:03.327390+00:00
 tags: [record, real-data]
 ---
 

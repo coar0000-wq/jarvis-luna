@@ -2,7 +2,7 @@
 title: "Record 138d43ba9c · VPRune-Efficient-Training-free-Pre-LLM-Visual-Token-Pruning"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T11:53:50.552599+00:00
+updated_at: 2026-09-25T17:14:02.666336+00:00
 tags: [record, real-data]
 ---
 

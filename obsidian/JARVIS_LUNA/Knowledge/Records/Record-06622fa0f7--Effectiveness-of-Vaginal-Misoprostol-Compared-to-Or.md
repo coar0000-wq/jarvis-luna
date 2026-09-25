@@ -2,7 +2,7 @@
 title: "Record 06622fa0f7 · Effectiveness-of-Vaginal-Misoprostol-Compared-to-Or"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T11:53:50.482465+00:00
+updated_at: 2026-09-25T17:14:02.590784+00:00
 tags: [record, real-data]
 ---
 

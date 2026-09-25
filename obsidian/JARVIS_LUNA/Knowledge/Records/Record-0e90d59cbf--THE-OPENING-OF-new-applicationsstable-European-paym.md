@@ -2,7 +2,7 @@
 title: "Record 0e90d59cbf · THE-OPENING-OF-new-applicationsstable-European-paym"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T11:53:51.438094+00:00
+updated_at: 2026-09-25T17:14:03.645749+00:00
 tags: [record, real-data]
 ---
 

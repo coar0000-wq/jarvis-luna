@@ -2,7 +2,7 @@
 title: "Record 291652c923 · Thoughts-On-The-Market-Carpenter-Housing-Prices-Update"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T11:53:51.354341+00:00
+updated_at: 2026-09-25T17:14:03.552981+00:00
 tags: [record, real-data]
 ---
 

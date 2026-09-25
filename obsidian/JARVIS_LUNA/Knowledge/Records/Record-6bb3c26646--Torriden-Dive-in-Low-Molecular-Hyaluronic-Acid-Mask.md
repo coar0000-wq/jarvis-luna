@@ -2,7 +2,7 @@
 title: "Record 6bb3c26646 · Torriden-Dive-in-Low-Molecular-Hyaluronic-Acid-Mask"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T11:53:51.138080+00:00
+updated_at: 2026-09-25T17:14:03.311383+00:00
 tags: [record, real-data]
 ---
 

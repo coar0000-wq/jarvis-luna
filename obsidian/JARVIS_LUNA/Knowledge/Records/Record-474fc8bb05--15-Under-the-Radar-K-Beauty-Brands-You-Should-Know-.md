@@ -2,7 +2,7 @@
 title: "Record 474fc8bb05 · 15-Under-the-Radar-K-Beauty-Brands-You-Should-Know-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T11:53:50.910025+00:00
+updated_at: 2026-09-25T17:14:03.058765+00:00
 tags: [record, real-data]
 ---
 

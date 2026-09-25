@@ -2,7 +2,7 @@
 title: "Record 8cacba714b · Dutch-Books-for-Language-Models"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T11:53:50.107270+00:00
+updated_at: 2026-09-25T17:14:02.194698+00:00
 tags: [record, real-data]
 ---
 

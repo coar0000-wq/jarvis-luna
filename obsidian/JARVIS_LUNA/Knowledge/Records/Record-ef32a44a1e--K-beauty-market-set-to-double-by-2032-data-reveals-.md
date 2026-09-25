@@ -2,7 +2,7 @@
 title: "Record ef32a44a1e · K-beauty-market-set-to-double-by-2032-data-reveals-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T11:53:50.858601+00:00
+updated_at: 2026-09-25T17:14:03.004200+00:00
 tags: [record, real-data]
 ---
 

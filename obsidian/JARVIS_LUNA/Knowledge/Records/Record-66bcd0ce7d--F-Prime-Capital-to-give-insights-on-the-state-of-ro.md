@@ -2,7 +2,7 @@
 title: "Record 66bcd0ce7d · F-Prime-Capital-to-give-insights-on-the-state-of-robotics-investments-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T11:53:51.389408+00:00
+updated_at: 2026-09-25T17:14:03.595677+00:00
 tags: [record, real-data]
 ---
 
