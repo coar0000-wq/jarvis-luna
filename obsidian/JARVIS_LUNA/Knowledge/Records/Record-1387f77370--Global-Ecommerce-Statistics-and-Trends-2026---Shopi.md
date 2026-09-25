@@ -2,7 +2,7 @@
 title: "Record 1387f77370 · Global-Ecommerce-Statistics-and-Trends-2026---Shopi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T17:14:02.941344+00:00
+updated_at: 2026-09-25T21:37:43.316725+00:00
 tags: [record, real-data]
 ---
 

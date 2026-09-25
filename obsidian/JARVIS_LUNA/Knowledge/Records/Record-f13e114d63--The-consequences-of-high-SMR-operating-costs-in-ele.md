@@ -2,7 +2,7 @@
 title: "Record f13e114d63 · The-consequences-of-high-SMR-operating-costs-in-ele"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T17:14:02.264447+00:00
+updated_at: 2026-09-25T21:37:42.654969+00:00
 tags: [record, real-data]
 ---
 

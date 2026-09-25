@@ -2,7 +2,7 @@
 title: "Record bdb56837c1 · Thoughts-On-The-Market-Fixed-Income-Roller-Coaster-Bonds"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T17:14:03.555204+00:00
+updated_at: 2026-09-25T21:37:43.904892+00:00
 tags: [record, real-data]
 ---
 

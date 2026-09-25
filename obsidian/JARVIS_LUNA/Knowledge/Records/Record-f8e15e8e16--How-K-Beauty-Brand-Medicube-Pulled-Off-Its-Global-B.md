@@ -2,7 +2,7 @@
 title: "Record f8e15e8e16 · How-K-Beauty-Brand-Medicube-Pulled-Off-Its-Global-B"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T17:14:03.055684+00:00
+updated_at: 2026-09-25T21:37:43.422521+00:00
 tags: [record, real-data]
 ---
 

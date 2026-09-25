@@ -2,7 +2,7 @@
 title: "Record e4296684e9 · Clear-Acne-Spot-Treatment"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T17:14:02.179576+00:00
+updated_at: 2026-09-25T21:37:42.571979+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 8753fe6c69 · This-60-K-beauty-kit-is-the-easiest-way-to-build-an"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T17:14:02.999593+00:00
+updated_at: 2026-09-25T21:37:43.371014+00:00
 tags: [record, real-data]
 ---
 

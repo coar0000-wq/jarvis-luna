@@ -2,7 +2,7 @@
 title: "Record 5aa36d266b · Daisy-Edgar-Jones-Skincare-Routine-Is-WILD"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T17:14:03.674092+00:00
+updated_at: 2026-09-25T21:37:44.013196+00:00
 tags: [record, real-data]
 ---
 

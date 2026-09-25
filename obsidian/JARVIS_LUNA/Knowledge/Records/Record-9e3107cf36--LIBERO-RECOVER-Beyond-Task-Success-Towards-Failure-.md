@@ -2,7 +2,7 @@
 title: "Record 9e3107cf36 · LIBERO-RECOVER-Beyond-Task-Success-Towards-Failure-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T17:14:02.230450+00:00
+updated_at: 2026-09-25T21:37:42.625143+00:00
 tags: [record, real-data]
 ---
 

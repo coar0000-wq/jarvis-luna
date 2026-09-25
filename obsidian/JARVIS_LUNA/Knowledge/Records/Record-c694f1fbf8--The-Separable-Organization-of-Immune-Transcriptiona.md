@@ -2,7 +2,7 @@
 title: "Record c694f1fbf8 · The-Separable-Organization-of-Immune-Transcriptional-Responses"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T17:14:02.737479+00:00
+updated_at: 2026-09-25T21:37:43.123476+00:00
 tags: [record, real-data]
 ---
 

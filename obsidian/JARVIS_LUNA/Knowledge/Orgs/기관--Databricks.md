@@ -2,7 +2,7 @@
 title: "기관 · Databricks"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T17:14:03.958242+00:00
+updated_at: 2026-09-25T21:37:44.357847+00:00
 tags: [org, real-data]
 ---
 

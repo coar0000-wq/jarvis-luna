@@ -2,7 +2,7 @@
 title: "Record bae1021cf3 · 6-Types-of-Eyelid-Bumps-and-How-to-Treat-Them-Accor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T17:14:03.352085+00:00
+updated_at: 2026-09-25T21:37:43.712251+00:00
 tags: [record, real-data]
 ---
 

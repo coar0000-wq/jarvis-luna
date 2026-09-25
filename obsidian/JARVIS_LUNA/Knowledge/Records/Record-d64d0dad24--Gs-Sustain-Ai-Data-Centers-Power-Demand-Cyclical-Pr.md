@@ -2,7 +2,7 @@
 title: "Record d64d0dad24 · Gs-Sustain-Ai-Data-Centers-Power-Demand-Cyclical-Pr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T17:14:03.498734+00:00
+updated_at: 2026-09-25T21:37:43.853571+00:00
 tags: [record, real-data]
 ---
 

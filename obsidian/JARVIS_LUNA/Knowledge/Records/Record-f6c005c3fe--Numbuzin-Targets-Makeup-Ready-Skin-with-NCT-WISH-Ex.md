@@ -2,7 +2,7 @@
 title: "Record f6c005c3fe · Numbuzin-Targets-Makeup-Ready-Skin-with-NCT-WISH-Ex"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T17:14:02.988205+00:00
+updated_at: 2026-09-25T21:37:43.360782+00:00
 tags: [record, real-data]
 ---
 

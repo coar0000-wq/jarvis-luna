@@ -2,7 +2,7 @@
 title: "Record 052e055fd8 · Analysis-of-the-dynamics-and-current-state-of-innov"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T17:14:02.571778+00:00
+updated_at: 2026-09-25T21:37:42.953562+00:00
 tags: [record, real-data]
 ---
 

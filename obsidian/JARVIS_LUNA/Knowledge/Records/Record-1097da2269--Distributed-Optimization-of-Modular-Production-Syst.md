@@ -2,7 +2,7 @@
 title: "Record 1097da2269 · Distributed-Optimization-of-Modular-Production-Syst"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T17:14:02.306568+00:00
+updated_at: 2026-09-25T21:37:42.696137+00:00
 tags: [record, real-data]
 ---
 

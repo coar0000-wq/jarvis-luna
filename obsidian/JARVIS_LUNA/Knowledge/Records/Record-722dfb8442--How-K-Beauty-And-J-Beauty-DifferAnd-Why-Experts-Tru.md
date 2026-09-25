@@ -2,7 +2,7 @@
 title: "Record 722dfb8442 · How-K-Beauty-And-J-Beauty-DifferAnd-Why-Experts-Tru"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T17:14:03.156235+00:00
+updated_at: 2026-09-25T21:37:43.519524+00:00
 tags: [record, real-data]
 ---
 

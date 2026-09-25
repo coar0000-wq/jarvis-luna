@@ -2,7 +2,7 @@
 title: "Record db710372e6 · Barriers-to-the-Creation-of-Social-Value-Perspectives-of-Multinational"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T17:14:02.570800+00:00
+updated_at: 2026-09-25T21:37:42.952561+00:00
 tags: [record, real-data]
 ---
 

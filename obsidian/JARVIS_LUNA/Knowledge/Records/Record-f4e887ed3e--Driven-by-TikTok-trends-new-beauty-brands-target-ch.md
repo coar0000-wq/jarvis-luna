@@ -2,7 +2,7 @@
 title: "Record f4e887ed3e · Driven-by-TikTok-trends-new-beauty-brands-target-ch"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T17:14:03.130453+00:00
+updated_at: 2026-09-25T21:37:43.493852+00:00
 tags: [record, real-data]
 ---
 

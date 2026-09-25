@@ -2,7 +2,7 @@
 title: "Record 5df30084a0 · A-3--3-Multi-Chip-Ka-Band-Phased-Array-With-2-D-Sca"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T17:14:02.505391+00:00
+updated_at: 2026-09-25T21:37:42.889917+00:00
 tags: [record, real-data]
 ---
 

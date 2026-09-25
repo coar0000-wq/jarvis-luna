@@ -2,7 +2,7 @@
 title: "Record 2c78e499f0 · ChatGPT-Prompts-for-Ecommerce-Tips-and-Examples---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T17:14:02.836690+00:00
+updated_at: 2026-09-25T21:37:43.218400+00:00
 tags: [record, real-data]
 ---
 

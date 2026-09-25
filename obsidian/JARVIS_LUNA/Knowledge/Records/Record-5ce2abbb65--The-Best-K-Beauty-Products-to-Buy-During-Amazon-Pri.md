@@ -2,7 +2,7 @@
 title: "Record 5ce2abbb65 · The-Best-K-Beauty-Products-to-Buy-During-Amazon-Pri"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T17:14:02.856660+00:00
+updated_at: 2026-09-25T21:37:43.236431+00:00
 tags: [record, real-data]
 ---
 

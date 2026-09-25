@@ -2,7 +2,7 @@
 title: "Record d4f440286a · GAD-MambaUNet-Direction-Group-Mamba-with-Gradient-Adaptive-DINOv3-Dist"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T17:14:02.680750+00:00
+updated_at: 2026-09-25T21:37:43.062315+00:00
 tags: [record, real-data]
 ---
 

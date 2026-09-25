@@ -2,7 +2,7 @@
 title: "Record 39b23bd8a8 · Review-on-State-of-the-art-Energy-Systems-in-Arctic"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T17:14:02.275891+00:00
+updated_at: 2026-09-25T21:37:42.666044+00:00
 tags: [record, real-data]
 ---
 

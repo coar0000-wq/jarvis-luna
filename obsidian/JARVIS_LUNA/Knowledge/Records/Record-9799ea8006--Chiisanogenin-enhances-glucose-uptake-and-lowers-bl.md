@@ -2,7 +2,7 @@
 title: "Record 9799ea8006 · Chiisanogenin-enhances-glucose-uptake-and-lowers-bl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T17:14:02.423475+00:00
+updated_at: 2026-09-25T21:37:42.812416+00:00
 tags: [record, real-data]
 ---
 

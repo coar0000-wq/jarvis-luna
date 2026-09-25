@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T17:15:55.006246+00:00",
+  "updated_at": "2026-09-25T21:39:42.946779+00:00",
   "real_records": 4314,
   "source_labels": {
     "ai-image": 274,
@@ -25,6 +25,6 @@
   "tuning_promoted": true,
   "tuning_steps": 500,
   "tuning_validation_accuracy": 0.8651960784313726,
-  "tuning_final_loss": 0.4691455468309192,
-  "tuning_gate_load_std": 0.08824021197258235
+  "tuning_final_loss": 0.46914554683091914,
+  "tuning_gate_load_std": 0.08824021197258236
 }

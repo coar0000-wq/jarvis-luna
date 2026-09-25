@@ -2,7 +2,7 @@
 title: "Record fbecc61381 · Cosmax-LOreal-expand-partnership-on-next-generation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T17:14:02.825703+00:00
+updated_at: 2026-09-25T21:37:43.207406+00:00
 tags: [record, real-data]
 ---
 

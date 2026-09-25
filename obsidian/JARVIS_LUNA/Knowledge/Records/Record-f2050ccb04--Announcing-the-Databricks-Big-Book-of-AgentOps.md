@@ -2,7 +2,7 @@
 title: "Record f2050ccb04 · Announcing-the-Databricks-Big-Book-of-AgentOps"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T17:14:03.480933+00:00
+updated_at: 2026-09-25T21:37:43.835478+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 12376a800d · ILO-Mucin-Collagen-Jelly-10-Days-705-oz200g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T17:14:03.317430+00:00
+updated_at: 2026-09-25T21:37:43.678137+00:00
 tags: [record, real-data]
 ---
 

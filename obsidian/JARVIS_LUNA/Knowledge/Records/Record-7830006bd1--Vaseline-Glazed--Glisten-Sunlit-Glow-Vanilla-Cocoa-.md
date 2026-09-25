@@ -2,7 +2,7 @@
 title: "Record 7830006bd1 · Vaseline-Glazed--Glisten-Sunlit-Glow-Vanilla-Cocoa-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T17:14:03.632272+00:00
+updated_at: 2026-09-25T21:37:43.972591+00:00
 tags: [record, real-data]
 ---
 
