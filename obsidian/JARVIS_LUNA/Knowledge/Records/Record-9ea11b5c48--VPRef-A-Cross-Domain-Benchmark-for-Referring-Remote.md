@@ -2,7 +2,7 @@
 title: "Record 9ea11b5c48 · VPRef-A-Cross-Domain-Benchmark-for-Referring-Remote-Sensing-Image-Segm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T21:33:09.755492+00:00
+updated_at: 2026-09-25T05:00:34.611718+00:00
 tags: [record, real-data]
 ---
 

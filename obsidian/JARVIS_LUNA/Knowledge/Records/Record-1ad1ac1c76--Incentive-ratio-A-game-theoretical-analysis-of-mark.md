@@ -2,7 +2,7 @@
 title: "Record 1ad1ac1c76 · Incentive-ratio-A-game-theoretical-analysis-of-mark"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T21:33:09.608358+00:00
+updated_at: 2026-09-25T05:00:34.445921+00:00
 tags: [record, real-data]
 ---
 

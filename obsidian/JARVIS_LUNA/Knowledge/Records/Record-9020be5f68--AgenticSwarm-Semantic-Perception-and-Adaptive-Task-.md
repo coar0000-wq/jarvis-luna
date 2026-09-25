@@ -2,7 +2,7 @@
 title: "Record 9020be5f68 · AgenticSwarm-Semantic-Perception-and-Adaptive-Task-Allocation-for-Hete"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T21:33:09.557222+00:00
+updated_at: 2026-09-25T05:00:34.387624+00:00
 tags: [record, real-data]
 ---
 

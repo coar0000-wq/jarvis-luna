@@ -2,7 +2,7 @@
 title: "Record 30c654111e · Plasma-double-layer-development-during-high-power-E"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T21:33:10.284445+00:00
+updated_at: 2026-09-25T05:00:35.222148+00:00
 tags: [record, real-data]
 ---
 

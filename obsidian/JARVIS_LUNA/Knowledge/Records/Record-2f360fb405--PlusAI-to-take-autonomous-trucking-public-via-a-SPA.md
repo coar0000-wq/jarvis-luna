@@ -2,7 +2,7 @@
 title: "Record 2f360fb405 · PlusAI-to-take-autonomous-trucking-public-via-a-SPA"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T21:33:10.553394+00:00
+updated_at: 2026-09-25T05:00:35.527928+00:00
 tags: [record, real-data]
 ---
 

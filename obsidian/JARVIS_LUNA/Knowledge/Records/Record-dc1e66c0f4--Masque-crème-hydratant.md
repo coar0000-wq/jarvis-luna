@@ -2,7 +2,7 @@
 title: "Record dc1e66c0f4 · Masque-crème-hydratant"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T21:33:10.343510+00:00
+updated_at: 2026-09-25T05:00:35.285327+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 471011faee · SWE-Gate-Passing-Functional-Tests-Is-Not-Enough-for"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T21:33:09.425707+00:00
+updated_at: 2026-09-25T05:00:34.238953+00:00
 tags: [record, real-data]
 ---
 

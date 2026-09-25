@@ -1,0 +1,22 @@
+---
+title: "Record d01d114f7c · Amazon-Essentials-Cotton-Swabs-500-Count-Previously-Amazon-Basics"
+type: knowledge-graph
+status: generated-from-real-data
+updated_at: 2026-09-25T05:00:35.328473+00:00
+tags: [record, real-data]
+---
+
+# Record d01d114f7c · Amazon-Essentials-Cotton-Swabs-500-Count-Previously-Amazon-Basics
+
+> 실제 수집 레코드입니다. 원문: [www.amazon.com](https://www.amazon.com/Amazon-Basics-Cotton-Swabs-500ct/dp/B09541P9WH/ref=zg_bs_g_beauty_d_sccl_5/137-0342716-6935301)
+
+**제목:** Amazon Essentials Cotton Swabs, 500 Count (Previously Amazon Basics)
+
+Amazon Essentials Cotton Swabs, 500 Count (Previously Amazon Basics)
+Amazon Essentials Cotton Swabs, 500 Count (Previously Amazon Basics) · $2.67 · 평점 4.7 · 리뷰 81,877
+
+**출처:** Source · us_beauty
+
+## Connected nodes
+
+[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

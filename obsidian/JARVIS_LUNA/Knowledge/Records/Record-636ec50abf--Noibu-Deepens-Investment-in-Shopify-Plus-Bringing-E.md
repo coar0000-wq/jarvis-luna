@@ -2,7 +2,7 @@
 title: "Record 636ec50abf · Noibu-Deepens-Investment-in-Shopify-Plus-Bringing-E"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T21:33:10.113282+00:00
+updated_at: 2026-09-25T05:00:35.020123+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 14894d9bc4 · 목표--올영에-입점된-제품들-다-써보기1일차-올영깡"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T21:33:10.584815+00:00
+updated_at: 2026-09-25T05:00:35.561036+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record e5eea88f42 · CJ-Olive-Young-targets-US-K-beauty-growth-with-12-t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T21:33:10.094168+00:00
+updated_at: 2026-09-25T05:00:34.997819+00:00
 tags: [record, real-data]
 ---
 

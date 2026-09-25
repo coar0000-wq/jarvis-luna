@@ -2,7 +2,7 @@
 title: "Record 2389e9940a · Shopify-AI-Traffic-Tripled-but-Classic-Search-Keeps"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T21:33:10.074886+00:00
+updated_at: 2026-09-25T05:00:34.974064+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMihAFBVV95cUxOSF9RZzlnRWhvRVlYeE9nQVFXM255Q1c1TGdaRFV3WTBJeV9GM1g3dk9jcEk1M0RtYlFWcGh4SjZZa0hzUnE0TUVELXRXVTlaSW4xejNBU3BicjlfVjFkWjdDazE1U2xtcDBnMXBUV2RxNTFjdzNYLThtZl8yR3FmbE9FMmg?oc=5)
 
-**제목:** Shopify: AI Traffic Tripled, but Classic Search Keeps Growing - Pasquale Pillitteri
+**제목:** Shopify: AI Traffic Tripled, but Classic Search Keeps Growing - pasqualepillitteri.it
 
-Shopify: AI Traffic Tripled, but Classic Search Keeps Growing - Pasquale Pillitteri
+Shopify: AI Traffic Tripled, but Classic Search Keeps Growing - pasqualepillitteri.it
 
 **출처:** Source · Google Search
 

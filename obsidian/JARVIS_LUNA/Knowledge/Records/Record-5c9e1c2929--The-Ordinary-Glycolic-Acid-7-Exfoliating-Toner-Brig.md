@@ -2,7 +2,7 @@
 title: "Record 5c9e1c2929 · The-Ordinary-Glycolic-Acid-7-Exfoliating-Toner-Brightening-and-Smoothi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T21:33:10.404726+00:00
+updated_at: 2026-09-25T05:00:35.357606+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 8c83addebd · Germany-is-A-Reliable-AND-Strategic-Partner-OF-Uzbe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T21:33:10.273582+00:00
+updated_at: 2026-09-25T05:00:35.208857+00:00
 tags: [record, real-data]
 ---
 

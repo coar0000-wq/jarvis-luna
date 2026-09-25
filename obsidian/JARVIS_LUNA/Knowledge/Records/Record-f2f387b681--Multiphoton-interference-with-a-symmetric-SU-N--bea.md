@@ -2,7 +2,7 @@
 title: "Record f2f387b681 · Multiphoton-interference-with-a-symmetric-SU-N--bea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T21:33:09.662223+00:00
+updated_at: 2026-09-25T05:00:34.504436+00:00
 tags: [record, real-data]
 ---
 

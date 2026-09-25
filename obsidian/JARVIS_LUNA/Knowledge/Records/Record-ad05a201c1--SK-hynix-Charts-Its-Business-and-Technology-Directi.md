@@ -2,7 +2,7 @@
 title: "Record ad05a201c1 · SK-hynix-Charts-Its-Business-and-Technology-Directi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T21:33:10.244497+00:00
+updated_at: 2026-09-25T05:00:35.174487+00:00
 tags: [record, real-data]
 ---
 

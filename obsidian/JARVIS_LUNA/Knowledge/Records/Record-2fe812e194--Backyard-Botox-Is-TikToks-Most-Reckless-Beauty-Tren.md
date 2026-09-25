@@ -2,7 +2,7 @@
 title: "Record 2fe812e194 · Backyard-Botox-Is-TikToks-Most-Reckless-Beauty-Tren"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T21:33:10.010084+00:00
+updated_at: 2026-09-25T05:00:34.899112+00:00
 tags: [record, real-data]
 ---
 

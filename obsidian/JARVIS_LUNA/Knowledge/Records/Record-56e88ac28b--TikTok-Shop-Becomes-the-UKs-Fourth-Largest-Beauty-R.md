@@ -2,7 +2,7 @@
 title: "Record 56e88ac28b · TikTok-Shop-Becomes-the-UKs-Fourth-Largest-Beauty-R"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T21:33:10.047159+00:00
+updated_at: 2026-09-25T05:00:34.941658+00:00
 tags: [record, real-data]
 ---
 

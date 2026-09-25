@@ -2,7 +2,7 @@
 title: "Record 51f296de12 · Near-field-treatment-to-maintain-supercooling-and-i"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T21:33:09.608927+00:00
+updated_at: 2026-09-25T05:00:34.446531+00:00
 tags: [record, real-data]
 ---
 

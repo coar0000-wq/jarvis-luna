@@ -2,7 +2,7 @@
 title: "Record 37d8fd338b · TikToks-Latest-Beauty-Obsession-May-Be-the-Most-Dan"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T21:33:10.158104+00:00
+updated_at: 2026-09-25T05:00:35.072763+00:00
 tags: [record, real-data]
 ---
 

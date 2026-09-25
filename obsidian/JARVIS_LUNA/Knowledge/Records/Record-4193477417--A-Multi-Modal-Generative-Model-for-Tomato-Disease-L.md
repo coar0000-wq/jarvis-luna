@@ -2,7 +2,7 @@
 title: "Record 4193477417 · A-Multi-Modal-Generative-Model-for-Tomato-Disease-Leaves-Understanding"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T21:33:09.541990+00:00
+updated_at: 2026-09-25T05:00:34.370371+00:00
 tags: [record, real-data]
 ---
 

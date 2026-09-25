@@ -2,7 +2,7 @@
 title: "Record 30b64a36a5 · Recession-Soft-Landing-2024-Investor-Playbook"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T21:33:10.509418+00:00
+updated_at: 2026-09-25T05:00:35.480004+00:00
 tags: [record, real-data]
 ---
 

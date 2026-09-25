@@ -2,7 +2,7 @@
 title: "Record 86783d94e8 · Hyaluronic-Acid-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-24T21:33:10.565680+00:00
+updated_at: 2026-09-25T05:00:35.541369+00:00
 tags: [record, real-data]
 ---
 
