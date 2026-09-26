@@ -2,7 +2,7 @@
 title: "Record a9e419a266 · Invitation-Galaxy-Event-August-2026"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T05:00:44.504426+00:00
+updated_at: 2026-09-26T11:28:00.965350+00:00
 tags: [record, real-data]
 ---
 

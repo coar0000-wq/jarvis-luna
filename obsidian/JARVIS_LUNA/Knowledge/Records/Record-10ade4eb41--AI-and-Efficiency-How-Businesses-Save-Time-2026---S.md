@@ -2,7 +2,7 @@
 title: "Record 10ade4eb41 · AI-and-Efficiency-How-Businesses-Save-Time-2026---S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T05:00:44.213519+00:00
+updated_at: 2026-09-26T11:28:00.562567+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiaEFVX3lxTE9MLUZhQzRwMWM3VVhUNTg4RDRqaVdfMkVYQ20zNW5iNDRhVldkeXIzNmxHRHR5bGJUaVVmdGxlcU5TWGVrWHhxS1loUktYNWxqNElxNzlsZ0NiSGVpX2d0cHROenNvLXpG?oc=5)
 
-**제목:** AI and Efficiency: How Businesses Save Time (2026) - shopify.com
+**제목:** AI and Efficiency: How Businesses Save Time (2026) - Shopify
 
-AI and Efficiency: How Businesses Save Time (2026) - shopify.com
+AI and Efficiency: How Businesses Save Time (2026) - Shopify
 
 **출처:** Source · Google Search
 

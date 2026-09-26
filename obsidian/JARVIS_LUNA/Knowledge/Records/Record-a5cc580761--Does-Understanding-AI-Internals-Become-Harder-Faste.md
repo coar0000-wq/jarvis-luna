@@ -2,7 +2,7 @@
 title: "Record a5cc580761 · Does-Understanding-AI-Internals-Become-Harder-Faster-Than-Models-Becom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T05:00:44.048840+00:00
+updated_at: 2026-09-26T11:28:00.349395+00:00
 tags: [record, real-data]
 ---
 

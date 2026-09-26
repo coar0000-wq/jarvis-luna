@@ -2,7 +2,7 @@
 title: "Record b2b1d54881 · Full-field-laser-Doppler-vibrometry-FRF-dataset-for"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T05:00:43.562577+00:00
+updated_at: 2026-09-26T11:27:59.739234+00:00
 tags: [record, real-data]
 ---
 

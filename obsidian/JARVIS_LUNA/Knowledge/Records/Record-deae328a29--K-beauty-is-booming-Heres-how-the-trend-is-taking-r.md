@@ -2,7 +2,7 @@
 title: "Record deae328a29 · K-beauty-is-booming-Heres-how-the-trend-is-taking-r"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T05:00:44.434121+00:00
+updated_at: 2026-09-26T11:28:00.865243+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 16d1b3ff82 · Asset-Manager-Considerations-For-Building-An-Etf-Wrapper"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T05:00:44.806348+00:00
+updated_at: 2026-09-26T11:28:01.373027+00:00
 tags: [record, real-data]
 ---
 

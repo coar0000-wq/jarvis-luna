@@ -2,7 +2,7 @@
 title: "Record 1797fb629e · K-Beautys-Global-Boom-Is-Fueling-Investments-in-Factories-Automation-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T05:00:44.124737+00:00
+updated_at: 2026-09-26T11:28:00.452251+00:00
 tags: [record, real-data]
 ---
 

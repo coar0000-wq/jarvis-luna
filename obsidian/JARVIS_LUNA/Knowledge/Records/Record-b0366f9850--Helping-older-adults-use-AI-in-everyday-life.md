@@ -2,7 +2,7 @@
 title: "Record b0366f9850 · Helping-older-adults-use-AI-in-everyday-life"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T05:00:44.532325+00:00
+updated_at: 2026-09-26T11:28:01.002465+00:00
 tags: [record, real-data]
 ---
 

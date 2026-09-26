@@ -2,7 +2,7 @@
 title: "Record 84e834a768 · Marangoni-Flow-Control-Framework-for-Uniform-Thin-F"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T05:00:43.781461+00:00
+updated_at: 2026-09-26T11:28:00.013363+00:00
 tags: [record, real-data]
 ---
 

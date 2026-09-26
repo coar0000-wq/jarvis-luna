@@ -2,7 +2,7 @@
 title: "Record 066dc02345 · The-Best-K-Beauty-Brands-On-Amazon-Right-Now-Accord"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T05:00:44.290485+00:00
+updated_at: 2026-09-26T11:28:00.668561+00:00
 tags: [record, real-data]
 ---
 

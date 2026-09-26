@@ -2,7 +2,7 @@
 title: "Record 99bf13d1ff · 8-Tips-to-Prepare-Your-Product-Data-for-AI-Channels"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T05:00:44.296686+00:00
+updated_at: 2026-09-26T11:28:00.678168+00:00
 tags: [record, real-data]
 ---
 

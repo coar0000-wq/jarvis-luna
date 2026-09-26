@@ -2,7 +2,7 @@
 title: "Record eea1bb7eca · AI-Influencers-What-They-Are-and-How-They-Work-2025"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T05:00:44.158235+00:00
+updated_at: 2026-09-26T11:28:00.501174+00:00
 tags: [record, real-data]
 ---
 

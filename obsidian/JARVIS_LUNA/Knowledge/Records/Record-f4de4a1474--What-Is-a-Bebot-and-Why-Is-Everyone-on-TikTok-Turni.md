@@ -2,7 +2,7 @@
 title: "Record f4de4a1474 · What-Is-a-Bebot-and-Why-Is-Everyone-on-TikTok-Turni"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T05:00:44.309575+00:00
+updated_at: 2026-09-26T11:28:00.695438+00:00
 tags: [record, real-data]
 ---
 

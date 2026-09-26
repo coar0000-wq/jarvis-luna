@@ -2,7 +2,7 @@
 title: "Record a4e6f01b99 · Stealthy-in-Semantics-Antagonistic-in-Space-Attacking-Visible-Infrared"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T05:00:43.954792+00:00
+updated_at: 2026-09-26T11:28:00.228314+00:00
 tags: [record, real-data]
 ---
 

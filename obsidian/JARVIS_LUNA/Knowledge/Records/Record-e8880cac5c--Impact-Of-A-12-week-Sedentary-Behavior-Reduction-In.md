@@ -2,7 +2,7 @@
 title: "Record e8880cac5c · Impact-Of-A-12-week-Sedentary-Behavior-Reduction-Intervention-On-Self-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T05:00:43.867368+00:00
+updated_at: 2026-09-26T11:28:00.121388+00:00
 tags: [record, real-data]
 ---
 
