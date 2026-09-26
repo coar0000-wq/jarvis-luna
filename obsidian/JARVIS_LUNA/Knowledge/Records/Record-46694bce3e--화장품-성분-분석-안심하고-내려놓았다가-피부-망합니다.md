@@ -2,7 +2,7 @@
 title: "Record 46694bce3e · 화장품-성분-분석-안심하고-내려놓았다가-피부-망합니다"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T11:28:01.512862+00:00
+updated_at: 2026-09-26T16:26:05.042609+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 9fd3f9fa4e · K-Beauty-Retailer-Olive-Young-Debuts-Pasadena-Store"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T11:28:00.837729+00:00
+updated_at: 2026-09-26T16:26:04.525938+00:00
 tags: [record, real-data]
 ---
 

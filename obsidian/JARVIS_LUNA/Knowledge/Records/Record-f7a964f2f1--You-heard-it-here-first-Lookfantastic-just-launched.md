@@ -2,7 +2,7 @@
 title: "Record f7a964f2f1 · You-heard-it-here-first-Lookfantastic-just-launched-its-first-ever-K-b"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T11:28:00.894729+00:00
+updated_at: 2026-09-26T16:26:04.562661+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbmxSbWVYdWtiVDZlM1I3enhVQUg1YTJLdEVPOEFEWVdhNDA3YTVuTUFqaUdJWXlxbU9GcU5JRGxLczVsdXJrSG5hTTNBbHdwVzVUYk5ZUkd4Qmx5dVhlTmdtbGl2Rmp2TDVINEZuOE9KLW4yZUhkbWdTNDQyakgxY1JrOHF4VXdpa01sZWpIOEdZUzBtd0s3dFI4UkVzZWIwWWlyckVhS0QzQQ?oc=5)
 
-**제목:** You heard it here first: Lookfantastic just launched its first-ever K-beauty advent calendar - Yahoo
+**제목:** You heard it here first: Lookfantastic just launched its first-ever K-beauty advent calendar - shopping.yahoo.com
 
-You heard it here first: Lookfantastic just launched its first-ever K-beauty advent calendar - Yahoo
+You heard it here first: Lookfantastic just launched its first-ever K-beauty advent calendar - shopping.yahoo.com
 
 **출처:** Source · Google Search
 

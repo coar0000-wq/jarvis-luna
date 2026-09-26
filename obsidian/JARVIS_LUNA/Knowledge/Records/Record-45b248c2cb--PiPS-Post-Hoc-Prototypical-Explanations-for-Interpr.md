@@ -2,7 +2,7 @@
 title: "Record 45b248c2cb · PiPS-Post-Hoc-Prototypical-Explanations-for-Interpretable-Semantic-Seg"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T11:28:00.217766+00:00
+updated_at: 2026-09-26T16:26:04.046810+00:00
 tags: [record, real-data]
 ---
 

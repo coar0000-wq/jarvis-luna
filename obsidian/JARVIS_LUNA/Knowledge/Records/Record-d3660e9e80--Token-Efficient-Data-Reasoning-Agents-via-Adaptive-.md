@@ -2,7 +2,7 @@
 title: "Record d3660e9e80 · Token-Efficient-Data-Reasoning-Agents-via-Adaptive-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T11:27:59.678288+00:00
+updated_at: 2026-09-26T16:26:03.606614+00:00
 tags: [record, real-data]
 ---
 

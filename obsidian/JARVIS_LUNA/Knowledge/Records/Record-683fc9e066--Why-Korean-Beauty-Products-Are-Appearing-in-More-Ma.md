@@ -2,7 +2,7 @@
 title: "Record 683fc9e066 · Why-Korean-Beauty-Products-Are-Appearing-in-More-Ma"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T11:28:00.899908+00:00
+updated_at: 2026-09-26T16:26:04.566398+00:00
 tags: [record, real-data]
 ---
 

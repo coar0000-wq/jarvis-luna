@@ -2,7 +2,7 @@
 title: "Record 11b5077a47 · Prescriptive-SVD-Inspired-Attention-via-Spectral-Energy-Retention"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T11:28:00.272345+00:00
+updated_at: 2026-09-26T16:26:04.102652+00:00
 tags: [record, real-data]
 ---
 

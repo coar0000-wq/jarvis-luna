@@ -2,7 +2,7 @@
 title: "Record 56b44490e2 · SEAM-Submap-Anchored-Evidence-for-Lifelong-LiDAR-Mapping-under-Traject"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T11:27:59.876635+00:00
+updated_at: 2026-09-26T16:26:03.778718+00:00
 tags: [record, real-data]
 ---
 

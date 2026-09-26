@@ -2,7 +2,7 @@
 title: "Record 4f1705de6b · renk-Korean-Skincare-Debuts-at-Costco---Beauty-Packaging"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T11:28:00.753693+00:00
+updated_at: 2026-09-26T16:26:04.468446+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMijAFBVV95cUxOX2NCaTNRUFBCWTZFTXFlRVJfNmxrYjdlTG5RbTZjZ3FvcHRXWjBEUlhZcnEyUDFHTXpxa2IzcmRCcTNTOFZBcV9VaU02UlBiczRHR2RMN0ZuU28tamFvd3JtSTRRM01DM3JrRFhHbzRjRlNrUkpCY2J0c19OYmVtemtRRTFMM2FzX244ZQ?oc=5)
 
-**제목:** re:nk Korean Skincare Debuts at Costco - Beauty Packaging
+**제목:** re:nk Korean Skincare Debuts at Costco - beautypackaging.com
 
-re:nk Korean Skincare Debuts at Costco - Beauty Packaging
+re:nk Korean Skincare Debuts at Costco - beautypackaging.com
 
 **출처:** Source · Google Search
 

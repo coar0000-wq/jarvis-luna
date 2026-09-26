@@ -2,7 +2,7 @@
 title: "Record a5061daa61 · Visual-Tripwires-Anticipating-Failure-in-Deep-Vision-Systems"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T11:27:59.918062+00:00
+updated_at: 2026-09-26T16:26:03.815939+00:00
 tags: [record, real-data]
 ---
 

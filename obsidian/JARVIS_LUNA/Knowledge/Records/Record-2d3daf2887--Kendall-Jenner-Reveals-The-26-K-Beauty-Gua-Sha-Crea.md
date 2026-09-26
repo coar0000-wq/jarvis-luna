@@ -2,7 +2,7 @@
 title: "Record 2d3daf2887 · Kendall-Jenner-Reveals-The-26-K-Beauty-Gua-Sha-Cream-She-Uses-To-De-Pu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T11:28:00.729395+00:00
+updated_at: 2026-09-26T16:26:04.450156+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMihwFBVV95cUxPb3praFYzWUhqT3VOV0RsSnFkWGZob1dRenZWOU5mQXI4bHJDOXRYTHMzNV9HcG1UNUZpeWcwYk1vMm9GUm9ucHBKVEdMQVVJVkkwdGxFRWpud0lSdWdzMUlpektJQ3duTDJFQ1piTWtpU19EN1R0YU1RRzlwb1dHZDRldjduNFU?oc=5)
 
-**제목:** Kendall Jenner Reveals The £26 K-Beauty Gua Sha Cream She Uses To De-Puff, Sculpt And Define - elle.com
+**제목:** Kendall Jenner Reveals The £26 K-Beauty Gua Sha Cream She Uses To De-Puff, Sculpt And Define - ELLE
 
-Kendall Jenner Reveals The £26 K-Beauty Gua Sha Cream She Uses To De-Puff, Sculpt And Define - elle.com
+Kendall Jenner Reveals The £26 K-Beauty Gua Sha Cream She Uses To De-Puff, Sculpt And Define - ELLE
 
 **출처:** Source · Google Search
 

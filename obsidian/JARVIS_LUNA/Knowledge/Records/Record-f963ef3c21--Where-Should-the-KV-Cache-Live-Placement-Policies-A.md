@@ -2,7 +2,7 @@
 title: "Record f963ef3c21 · Where-Should-the-KV-Cache-Live-Placement-Policies-Across-GPU-CPU-and-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T11:27:59.842745+00:00
+updated_at: 2026-09-26T16:26:03.751068+00:00
 tags: [record, real-data]
 ---
 

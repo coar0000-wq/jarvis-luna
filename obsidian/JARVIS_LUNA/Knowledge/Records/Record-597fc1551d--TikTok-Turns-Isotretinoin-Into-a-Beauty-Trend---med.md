@@ -2,7 +2,7 @@
 title: "Record 597fc1551d · TikTok-Turns-Isotretinoin-Into-a-Beauty-Trend---med"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T11:28:00.781781+00:00
+updated_at: 2026-09-26T16:26:04.485363+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMikgFBVV95cUxOUTk5ekdEeUhrcTRRUVlJaXoyTldPOXpFQmIxZ0V0SnpxdkU1NGRFZEdYSklpVG1Sczk5WXZYenkwanU2REdHWmRyOFRNcE5jWTRtekdpSHFGWHpTN2E1ODhqenlicHhkc0VFVEtZRG50MGpNcVVUU3Qzem5Yamt5bnlBQ0tHZklMQXBCUkhaSnM3dw?oc=5)
 
-**제목:** TikTok Turns Isotretinoin Into a Beauty Trend - Medscape
+**제목:** TikTok Turns Isotretinoin Into a Beauty Trend - medscape.com
 
-TikTok Turns Isotretinoin Into a Beauty Trend - Medscape
+TikTok Turns Isotretinoin Into a Beauty Trend - medscape.com
 
 **출처:** Source · Google Search
 

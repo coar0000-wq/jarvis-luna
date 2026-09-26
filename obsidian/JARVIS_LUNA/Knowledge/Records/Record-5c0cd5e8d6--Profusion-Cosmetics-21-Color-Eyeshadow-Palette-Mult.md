@@ -2,7 +2,7 @@
 title: "Record 5c0cd5e8d6 · Profusion-Cosmetics-21-Color-Eyeshadow-Palette-Mult"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T11:28:01.501352+00:00
+updated_at: 2026-09-26T16:26:05.033004+00:00
 tags: [record, real-data]
 ---
 

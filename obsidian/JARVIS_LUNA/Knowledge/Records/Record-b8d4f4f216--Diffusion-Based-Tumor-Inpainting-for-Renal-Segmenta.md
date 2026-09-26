@@ -2,7 +2,7 @@
 title: "Record b8d4f4f216 · Diffusion-Based-Tumor-Inpainting-for-Renal-Segmentation-under-Clinical"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T11:28:00.259963+00:00
+updated_at: 2026-09-26T16:26:04.091802+00:00
 tags: [record, real-data]
 ---
 

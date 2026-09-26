@@ -2,7 +2,7 @@
 title: "Record 05691e57ea · K-Beauty-Product-Market---Future-Market-Insights"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T11:28:00.619212+00:00
+updated_at: 2026-09-26T16:26:04.373950+00:00
 tags: [record, real-data]
 ---
 
