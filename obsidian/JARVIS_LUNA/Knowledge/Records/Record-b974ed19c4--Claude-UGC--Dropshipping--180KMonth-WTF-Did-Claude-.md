@@ -2,7 +2,7 @@
 title: "Record b974ed19c4 · Claude-UGC--Dropshipping--180KMonth-WTF-Did-Claude-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T16:26:05.075896+00:00
+updated_at: 2026-09-26T21:12:53.562491+00:00
 tags: [record, real-data]
 ---
 

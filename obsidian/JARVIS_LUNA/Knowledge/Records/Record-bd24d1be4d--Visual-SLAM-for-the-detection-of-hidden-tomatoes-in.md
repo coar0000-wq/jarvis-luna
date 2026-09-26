@@ -2,7 +2,7 @@
 title: "Record bd24d1be4d · Visual-SLAM-for-the-detection-of-hidden-tomatoes-in"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T16:26:03.735030+00:00
+updated_at: 2026-09-26T21:12:52.225970+00:00
 tags: [record, real-data]
 ---
 

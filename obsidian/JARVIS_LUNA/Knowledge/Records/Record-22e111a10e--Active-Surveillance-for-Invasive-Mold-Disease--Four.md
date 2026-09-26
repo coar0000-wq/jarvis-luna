@@ -2,7 +2,7 @@
 title: "Record 22e111a10e · Active-Surveillance-for-Invasive-Mold-Disease--Four"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T16:26:03.982400+00:00
+updated_at: 2026-09-26T21:12:52.472869+00:00
 tags: [record, real-data]
 ---
 

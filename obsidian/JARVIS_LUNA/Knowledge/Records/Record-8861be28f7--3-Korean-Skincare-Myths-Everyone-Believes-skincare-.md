@@ -2,7 +2,7 @@
 title: "Record 8861be28f7 · 3-Korean-Skincare-Myths-Everyone-Believes-skincare-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T16:26:05.043205+00:00
+updated_at: 2026-09-26T21:12:53.530234+00:00
 tags: [record, real-data]
 ---
 

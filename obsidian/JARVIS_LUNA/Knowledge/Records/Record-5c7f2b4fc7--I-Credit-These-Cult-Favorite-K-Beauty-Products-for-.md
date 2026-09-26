@@ -2,7 +2,7 @@
 title: "Record 5c7f2b4fc7 · I-Credit-These-Cult-Favorite-K-Beauty-Products-for-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T16:26:04.447185+00:00
+updated_at: 2026-09-26T21:12:52.936614+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMihwFBVV95cUxNZmNfZERUOVVhRFhXNkN6QUVfY3VILUctQmF6VzlpZ0NvTV90dmZGWktJbGpkV3A0Yms4Nk9DV0xVS3g5d3pnajlOQXlJVnJrQ2IzTjR1WTZPVWZRdjRzU0NINUQwZS1OYUpxYmM5ZHJZNGV4Zk5pRElaTWJ6TWMtbkYzWEkxc2M?oc=5)
 
-**제목:** I Credit These Cult-Favorite K-Beauty Products for My Skin's Glassy Glow - marieclaire.com
+**제목:** I Credit These Cult-Favorite K-Beauty Products for My Skin's Glassy Glow - Marie Claire
 
-I Credit These Cult-Favorite K-Beauty Products for My Skin's Glassy Glow - marieclaire.com
+I Credit These Cult-Favorite K-Beauty Products for My Skin's Glassy Glow - Marie Claire
 
 **출처:** Source · Google Search
 

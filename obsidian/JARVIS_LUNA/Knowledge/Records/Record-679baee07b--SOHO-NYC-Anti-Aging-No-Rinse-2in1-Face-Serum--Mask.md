@@ -2,7 +2,7 @@
 title: "Record 679baee07b · SOHO-NYC-Anti-Aging-No-Rinse-2in1-Face-Serum--Mask"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T16:26:04.756250+00:00
+updated_at: 2026-09-26T21:12:53.255067+00:00
 tags: [record, real-data]
 ---
 

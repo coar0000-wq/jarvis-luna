@@ -2,7 +2,7 @@
 title: "Record aa1050ac4f · ESupNNet-An-Error-Supervising-Neural-Network-architecture-for-error-de"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T16:26:04.113677+00:00
+updated_at: 2026-09-26T21:12:52.599293+00:00
 tags: [record, real-data]
 ---
 

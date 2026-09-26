@@ -2,7 +2,7 @@
 title: "Record 3f9cc96626 · Squalane--Omega-Repair-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T16:26:04.900437+00:00
+updated_at: 2026-09-26T21:12:53.391410+00:00
 tags: [record, real-data]
 ---
 

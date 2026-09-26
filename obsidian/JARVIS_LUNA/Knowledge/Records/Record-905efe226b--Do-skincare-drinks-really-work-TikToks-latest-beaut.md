@@ -2,7 +2,7 @@
 title: "Record 905efe226b · Do-skincare-drinks-really-work-TikToks-latest-beaut"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T16:26:04.413581+00:00
+updated_at: 2026-09-26T21:12:52.900795+00:00
 tags: [record, real-data]
 ---
 
