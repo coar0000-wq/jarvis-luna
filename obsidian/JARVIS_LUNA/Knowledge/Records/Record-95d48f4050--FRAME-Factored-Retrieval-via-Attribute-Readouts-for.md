@@ -2,7 +2,7 @@
 title: "Record 95d48f4050 · FRAME-Factored-Retrieval-via-Attribute-Readouts-for"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T21:37:42.653840+00:00
+updated_at: 2026-09-26T05:00:43.581846+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record bd2d3ac830 · Moisture-Surge-100H-Auto-Replenishing-Hydrator-Gel-Moisturizer-with-Hy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T21:37:43.961702+00:00
+updated_at: 2026-09-26T05:00:44.901043+00:00
 tags: [record, real-data]
 ---
 

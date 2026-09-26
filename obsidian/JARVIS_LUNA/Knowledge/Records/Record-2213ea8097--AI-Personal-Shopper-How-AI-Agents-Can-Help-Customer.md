@@ -2,7 +2,7 @@
 title: "Record 2213ea8097 · AI-Personal-Shopper-How-AI-Agents-Can-Help-Customers-Shop-2026---Shopi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T21:37:43.229169+00:00
+updated_at: 2026-09-26T05:00:44.169630+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiXEFVX3lxTE85WUV4U2xrMWhzZTduZ0tFVmFwLVM3eUx3dUx6emIta3dIMGNncEE1cVdRS3hLLVhPc0ZXTVpMZUo1SG5tQkRZT2ZNVEdqMnp0SkhFbnlXSklhN2Fy?oc=5)
 
-**제목:** AI Personal Shopper: How AI Agents Can Help Customers Shop (2026) - Shopify
+**제목:** AI Personal Shopper: How AI Agents Can Help Customers Shop (2026) - shopify.com
 
-AI Personal Shopper: How AI Agents Can Help Customers Shop (2026) - Shopify
+AI Personal Shopper: How AI Agents Can Help Customers Shop (2026) - shopify.com
 
 **출처:** Source · Google Search
 

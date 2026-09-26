@@ -2,7 +2,7 @@
 title: "Record 49f4869991 · Viral-K-beauty-brand-Medicube-brings-must-have-products-to-LA-Pop-Up--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T21:37:43.480039+00:00
+updated_at: 2026-09-26T05:00:44.433512+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiowFBVV95cUxOeGFVSWszUHNlUXdDdXViMGxPTWFiZG5kaDl6OGZ2Y0dzVldMVU1YMTNrT1lLa1ZRdlUzcTFWV1VhWEY1VEcyUFV3QWJQNC11TENicS0weGZCQ3lJWDJZeFNZLXNTeS1Ycm9hMFZENlNOLWc2MEtMNHVleGtIMDBYTXktbXlRdkxHSFNLRFFwVE9FNnZCb29TTXVGSGJvVGo3a0Jn?oc=5)
 
-**제목:** Viral K-beauty brand Medicube brings must-have products to LA Pop-Up - ktla.com
+**제목:** Viral K-beauty brand Medicube brings must-have products to LA Pop-Up - KTLA
 
-Viral K-beauty brand Medicube brings must-have products to LA Pop-Up - ktla.com
+Viral K-beauty brand Medicube brings must-have products to LA Pop-Up - KTLA
 
 **출처:** Source · Google Search
 

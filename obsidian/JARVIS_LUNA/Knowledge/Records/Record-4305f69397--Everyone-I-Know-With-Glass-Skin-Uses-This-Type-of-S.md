@@ -2,7 +2,7 @@
 title: "Record 4305f69397 · Everyone-I-Know-With-Glass-Skin-Uses-This-Type-of-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T21:37:43.279095+00:00
+updated_at: 2026-09-26T05:00:44.226920+00:00
 tags: [record, real-data]
 ---
 

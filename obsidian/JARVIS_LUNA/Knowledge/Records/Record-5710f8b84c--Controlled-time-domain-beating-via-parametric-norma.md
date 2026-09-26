@@ -2,7 +2,7 @@
 title: "Record 5710f8b84c · Controlled-time-domain-beating-via-parametric-norma"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T21:37:42.815242+00:00
+updated_at: 2026-09-26T05:00:43.755278+00:00
 tags: [record, real-data]
 ---
 

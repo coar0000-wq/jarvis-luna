@@ -2,7 +2,7 @@
 title: "Record e64548e2e2 · THG-revenues-rise-as-new-brands-and-K-beauty-attrac"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T21:37:43.429519+00:00
+updated_at: 2026-09-26T05:00:44.382544+00:00
 tags: [record, real-data]
 ---
 

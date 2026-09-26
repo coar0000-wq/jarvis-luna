@@ -2,7 +2,7 @@
 title: "Record fb7c39e36a · Paloma-Elsesser-Isnt-Falling-for-TikTok-Beauty-Tren"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T21:37:43.456045+00:00
+updated_at: 2026-09-26T05:00:44.410939+00:00
 tags: [record, real-data]
 ---
 

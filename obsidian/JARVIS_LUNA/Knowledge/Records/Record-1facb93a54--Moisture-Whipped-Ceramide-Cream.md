@@ -2,7 +2,7 @@
 title: "Record 1facb93a54 · Moisture-Whipped-Ceramide-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T21:37:43.962330+00:00
+updated_at: 2026-09-26T05:00:44.901681+00:00
 tags: [record, real-data]
 ---
 

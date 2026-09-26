@@ -2,7 +2,7 @@
 title: "Record a0063183ce · S-SPPO-Semantic-Calibrated-Self-Play-Preference-Opt"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T21:37:43.612970+00:00
+updated_at: 2026-09-26T05:00:44.558457+00:00
 tags: [record, real-data]
 ---
 

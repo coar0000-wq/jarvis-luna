@@ -2,7 +2,7 @@
 title: "Record bdc120f6c2 · AI-Now-Summit-2026"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T21:37:43.166781+00:00
+updated_at: 2026-09-26T05:00:44.109396+00:00
 tags: [record, real-data]
 ---
 

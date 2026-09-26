@@ -2,7 +2,7 @@
 title: "Record 4178eca903 · Commodities-In-The-New-Geopolitical-Age"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T21:37:43.880149+00:00
+updated_at: 2026-09-26T05:00:44.820255+00:00
 tags: [record, real-data]
 ---
 

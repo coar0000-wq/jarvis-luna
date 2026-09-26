@@ -2,7 +2,7 @@
 title: "Record 33a81d6ccb · AI-Data-Strategy-How-to-Build-a-Framework-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T21:37:43.248663+00:00
+updated_at: 2026-09-26T05:00:44.192598+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBDLWlNclhvdThSa2J5THR1eDlfbERQWXFFM3M2UDZBZFh1NHk3NVlENUd1cTAxWDRDQ3dMeTFraDRlbk44VTRKUTRsSmllZDduVXRtM0NzQmdMQjNpMnpmUm5qTUlFX1k?oc=5)
 
-**제목:** AI Data Strategy: How to Build a Framework (2026) - Shopify
+**제목:** AI Data Strategy: How to Build a Framework (2026) - shopify.com
 
-AI Data Strategy: How to Build a Framework (2026) - Shopify
+AI Data Strategy: How to Build a Framework (2026) - shopify.com
 
 **출처:** Source · Google Search
 

@@ -2,7 +2,7 @@
 title: "Record b44c829b27 · How-Claude-is-uplifting-biomolecular-modeling"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T21:37:43.813152+00:00
+updated_at: 2026-09-26T05:00:44.757752+00:00
 tags: [record, real-data]
 ---
 

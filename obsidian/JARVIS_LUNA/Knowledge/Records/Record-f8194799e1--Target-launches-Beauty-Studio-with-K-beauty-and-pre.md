@@ -2,7 +2,7 @@
 title: "Record f8194799e1 · Target-launches-Beauty-Studio-with-K-beauty-and-pre"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T21:37:43.341659+00:00
+updated_at: 2026-09-26T05:00:44.292332+00:00
 tags: [record, real-data]
 ---
 

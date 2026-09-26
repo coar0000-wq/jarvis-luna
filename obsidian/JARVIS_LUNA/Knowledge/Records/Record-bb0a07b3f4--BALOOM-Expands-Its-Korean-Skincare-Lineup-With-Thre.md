@@ -2,7 +2,7 @@
 title: "Record bb0a07b3f4 · BALOOM-Expands-Its-Korean-Skincare-Lineup-With-Three-Booster-Gel-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T21:37:43.188331+00:00
+updated_at: 2026-09-26T05:00:44.129412+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMi5gFBVV95cUxPeUVOS0dtdGxtWWQzX3VLTUZBeGNoa3hTeWhNTFE0MlY1bkNvWTRpSlFGRWw2Q3RTMnkzRk5aUTRtWHZwQXJjbGV6SThnRFJhUDFaSVRCU2gyWllvM1M0cW5rMk5XeXZaRTRVUlpZMk5MYnhFSDZfZGlQcU9nRXpVR2dPVVdsbjJMTTlaYUhiRnlGbHBabkxOb2podnpTUDBueUI1UUpiSlMxaDFlSGw4U2JMMldRMjdyZUtvaG1EcjRFdEtseWpWZko0NW5DcklmUjBSZkdGQUNfaFQ2XzJ6VGJ1Rk5Sdw?oc=5)
 
-**제목:** BALOOM Expands Its Korean Skincare Lineup With Three Booster Gel Creams and a Weightless SPF 50 Sunscreen - prweb.com
+**제목:** BALOOM Expands Its Korean Skincare Lineup With Three Booster Gel Creams and a Weightless SPF 50 Sunscreen - PRWeb
 
-BALOOM Expands Its Korean Skincare Lineup With Three Booster Gel Creams and a Weightless SPF 50 Sunscreen - prweb.com
+BALOOM Expands Its Korean Skincare Lineup With Three Booster Gel Creams and a Weightless SPF 50 Sunscreen - PRWeb
 
 **출처:** Source · Google Search
 

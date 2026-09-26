@@ -2,7 +2,7 @@
 title: "Record 9cbe074c73 · Totalenergies-Patrick-Pouyanne-Exceptional-Leaders-Exceptional-Ideas"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T21:37:43.905509+00:00
+updated_at: 2026-09-26T05:00:44.847313+00:00
 tags: [record, real-data]
 ---
 

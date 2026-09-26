@@ -2,7 +2,7 @@
 title: "Record 8f9dcfcf55 · my-top-5-MOST-used-Korean-Sunscreens"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T21:37:44.010434+00:00
+updated_at: 2026-09-26T05:00:44.949596+00:00
 tags: [record, real-data]
 ---
 

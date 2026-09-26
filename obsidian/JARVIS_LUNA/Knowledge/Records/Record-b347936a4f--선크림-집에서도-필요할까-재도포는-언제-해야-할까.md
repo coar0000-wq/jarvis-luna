@@ -2,7 +2,7 @@
 title: "Record b347936a4f · 선크림-집에서도-필요할까-재도포는-언제-해야-할까"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T21:37:43.983365+00:00
+updated_at: 2026-09-26T05:00:44.920938+00:00
 tags: [record, real-data]
 ---
 

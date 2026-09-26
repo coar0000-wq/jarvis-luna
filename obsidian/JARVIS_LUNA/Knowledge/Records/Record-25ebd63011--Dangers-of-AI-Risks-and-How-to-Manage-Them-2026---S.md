@@ -2,7 +2,7 @@
 title: "Record 25ebd63011 · Dangers-of-AI-Risks-and-How-to-Manage-Them-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T21:37:43.218727+00:00
+updated_at: 2026-09-26T05:00:44.157082+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiWEFVX3lxTE1FYWpFVnZ5OFN0Nk9CUWFwaXd4TXhFbV9jR1FaT1g1N1Qydl9BTzRCcFJYTFk5c3JjbXhoVlJmcnB0ajEwN0hkWDBiS3lpVWt5YTlfRkJlNkE?oc=5)
 
-**제목:** Dangers of AI: Risks and How to Manage Them (2026) - Shopify
+**제목:** Dangers of AI: Risks and How to Manage Them (2026) - shopify.com
 
-Dangers of AI: Risks and How to Manage Them (2026) - Shopify
+Dangers of AI: Risks and How to Manage Them (2026) - shopify.com
 
 **출처:** Source · Google Search
 

@@ -2,7 +2,7 @@
 title: "Record cb145a11eb · Morphe-Signature-Lip-Pencil-Review"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T21:37:43.705355+00:00
+updated_at: 2026-09-26T05:00:44.646627+00:00
 tags: [record, real-data]
 ---
 

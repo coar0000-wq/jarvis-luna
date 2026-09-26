@@ -2,7 +2,7 @@
 title: "Record d78a24ee63 · How-Brands-Use-AI-Examples-and-Strategies-2025---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T21:37:43.221143+00:00
+updated_at: 2026-09-26T05:00:44.159366+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiWkFVX3lxTE5WeXNFMmFRRHp4ODQ4QkFHVjlvSlNXMmxGYkZiNFVkMFN5MVBIMFMzQWpON1dqVWRVSWVYNFRIaW11blhLUkRHTlgtVTRTazZISGdJNmZrMlpoUQ?oc=5)
 
-**제목:** How Brands Use AI: Examples and Strategies (2025) - Shopify
+**제목:** How Brands Use AI: Examples and Strategies (2025) - shopify.com
 
-How Brands Use AI: Examples and Strategies (2025) - Shopify
+How Brands Use AI: Examples and Strategies (2025) - shopify.com
 
 **출처:** Source · Google Search
 

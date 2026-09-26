@@ -2,7 +2,7 @@
 title: "Record b5b4faf87e · A-Decade-of-Apache-Spark-Structured-Streaming-How-We-Evolved-The-Archi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T21:37:42.934110+00:00
+updated_at: 2026-09-26T05:00:43.876598+00:00
 tags: [record, real-data]
 ---
 

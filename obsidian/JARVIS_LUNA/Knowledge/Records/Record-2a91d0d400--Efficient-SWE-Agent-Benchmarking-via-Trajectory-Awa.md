@@ -2,7 +2,7 @@
 title: "Record 2a91d0d400 · Efficient-SWE-Agent-Benchmarking-via-Trajectory-Awa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T21:37:42.586716+00:00
+updated_at: 2026-09-26T05:00:43.516285+00:00
 tags: [record, real-data]
 ---
 

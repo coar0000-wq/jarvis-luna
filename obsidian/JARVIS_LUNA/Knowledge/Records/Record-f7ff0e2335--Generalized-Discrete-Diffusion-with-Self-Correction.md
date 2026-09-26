@@ -2,7 +2,7 @@
 title: "Record f7ff0e2335 · Generalized-Discrete-Diffusion-with-Self-Correction"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-25T21:37:43.600762+00:00
+updated_at: 2026-09-26T05:00:44.546997+00:00
 tags: [record, real-data]
 ---
 
