@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-27T06:15:01.084088+09:00",
+  "generated_at": "2026-09-27T08:08:31.088361+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
@@ -38,7 +38,7 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-09-27T06:11:36.981838+09:00",
+      "when": "2026-09-27T08:07:06.285093+09:00",
       "summary": "S등급 10개 · 고시 판독 남음 0건 · 유튜브 자막 6편 · 근거 20개 · 실험 9개 · 새 자료 41건",
       "action": null,
       "action_kind": null,
@@ -166,7 +166,7 @@
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-09-27T06:12:53.968950+09:00",
+      "when": "2026-09-27T08:07:09.074272+09:00",
       "summary": "82,399노트 · 334,882링크 · 끊어진 링크 0건 · 개인 노트 16건 별도",
       "action": null,
       "action_kind": null,
@@ -184,7 +184,7 @@
     "id": "secretary",
     "name": "비서실장",
     "badge": "총괄",
-    "when": "2026-09-27T06:11:36.956838+09:00",
+    "when": "2026-09-27T08:07:06.261060+09:00",
     "summary": "2시간 주기 · 고시 26건 · US라벨 26건 · 카피 10건 · 등록 가능 9건 · 법률 차단 1건",
     "action": "비서실장 감시 루프 갱신 지연 — Safe Auto-Fix 보고서가 4시간 30분 넘게 확인되지 않음",
     "action_kind": "revalidate_only",
@@ -194,37 +194,37 @@
         "단계": "고시 수집",
         "산출물": "gosi.json",
         "갱신": "2026-09-20T21:05:17.040479+00:00",
-        "몇시간전": 144.2
+        "몇시간전": 146.1
       },
       {
         "단계": "고시 비전 추출",
         "산출물": "gosi.json",
-        "갱신": "2026-09-27T06:11:36.956838+09:00",
-        "몇시간전": 0.1
+        "갱신": "2026-09-27T08:07:06.261060+09:00",
+        "몇시간전": 0.0
       },
       {
         "단계": "US 라벨 동기화",
         "산출물": "daiso_us_labels.json",
-        "갱신": "2026-09-27T06:11:36.381834+09:00",
-        "몇시간전": 0.1
+        "갱신": "2026-09-27T08:07:05.729046+09:00",
+        "몇시간전": 0.0
       },
       {
         "단계": "리스팅 카피",
         "산출물": "shopify_listing_copy.json",
         "갱신": "2026-09-21T11:35:43.894907+00:00",
-        "몇시간전": 129.7
+        "몇시간전": 131.5
       },
       {
         "단계": "등록 게이트",
         "산출물": "listing_gate.json",
         "갱신": "2026-09-21T11:54:53.583368+00:00",
-        "몇시간전": 129.3
+        "몇시간전": 131.2
       },
       {
         "단계": "법률 점검",
         "산출물": "legal_products.json",
         "갱신": "2026-09-21T11:54:53.406872+00:00",
-        "몇시간전": 129.3
+        "몇시간전": 131.2
       }
     ],
     "_근거": "JARVIS Deep Analysis가 2시간마다 남기는 Safe Auto-Fix 보고서를 heartbeat로 본다. 개별 파생 파일은 입력 무변경 시 mtime이 유지되므로 지연 판정에 쓰지 않는다."
@@ -543,7 +543,7 @@
     "status": "completed",
     "record_count": 4401,
     "source_counts": {},
-    "updated_at": "2026-09-27T06:12:24.530907+09:00"
+    "updated_at": "2026-09-27T08:07:06.276060+09:00"
   },
   "shopify_marketing_strategy": {
     "status": "evidence_ready",
@@ -807,7 +807,7 @@
     "topics": 28,
     "orgs": 35,
     "audit": "passed",
-    "last_generated": "2026-09-27T06:12:53.968950+09:00"
+    "last_generated": "2026-09-27T08:07:09.074272+09:00"
   },
   "training": {
     "status": "completed",
@@ -857,9 +857,9 @@
         "badge": "$9.97",
         "price": 9.97,
         "rating": 4.7,
-        "review_count": 78868,
+        "review_count": 78902,
         "rank": 1,
-        "url": "https://www.amazon.com/eos-Cashmere-Moisture-Lightweight-Non-Greasy/dp/B08KT2Z93D/ref=zg_bs_g_beauty_d_sccl_1/144-2162321-0004104",
+        "url": "https://www.amazon.com/eos-Cashmere-Moisture-Lightweight-Non-Greasy/dp/B08KT2Z93D/ref=zg_bs_g_beauty_d_sccl_1/135-3069219-4630266",
         "extraction_method": "catalog_file"
       },
       {
@@ -869,9 +869,9 @@
         "badge": "$18.90",
         "price": 18.9,
         "rating": 4.6,
-        "review_count": 32838,
+        "review_count": 32916,
         "rank": 2,
-        "url": "https://www.amazon.com/Medicube-Zero-Pore-Pads-Dual-Textured/dp/B09V7Z4TJG/ref=zg_bs_g_beauty_d_sccl_2/144-2162321-0004104",
+        "url": "https://www.amazon.com/Medicube-Zero-Pore-Pads-Dual-Textured/dp/B09V7Z4TJG/ref=zg_bs_g_beauty_d_sccl_2/135-3069219-4630266",
         "extraction_method": "catalog_file"
       },
       {
@@ -881,9 +881,9 @@
         "badge": "$17.95",
         "price": 17.95,
         "rating": 4.8,
-        "review_count": 43194,
+        "review_count": 43222,
         "rank": 3,
-        "url": "https://www.amazon.com/Clean-Skin-Club-Disposable-Sensitive/dp/B07PBXXNCY/ref=zg_bs_g_beauty_d_sccl_3/144-2162321-0004104",
+        "url": "https://www.amazon.com/Clean-Skin-Club-Disposable-Sensitive/dp/B07PBXXNCY/ref=zg_bs_g_beauty_d_sccl_3/135-3069219-4630266",
         "extraction_method": "catalog_file"
       },
       {
@@ -893,9 +893,9 @@
         "badge": "$7.61",
         "price": 7.61,
         "rating": 4.7,
-        "review_count": 111685,
+        "review_count": 112283,
         "rank": 4,
-        "url": "https://www.amazon.com/Mrs-Meyers-Clean-Refill-Verbena/dp/B00F1U0YB4/ref=zg_bs_g_beauty_d_sccl_4/144-2162321-0004104",
+        "url": "https://www.amazon.com/Mrs-Meyers-Clean-Refill-Verbena/dp/B00F1U0YB4/ref=zg_bs_g_beauty_d_sccl_4/135-3069219-4630266",
         "extraction_method": "catalog_file"
       },
       {
@@ -905,9 +905,9 @@
         "badge": "$2.67",
         "price": 2.67,
         "rating": 4.7,
-        "review_count": 81916,
+        "review_count": 81979,
         "rank": 5,
-        "url": "https://www.amazon.com/Amazon-Basics-Cotton-Swabs-500ct/dp/B09541P9WH/ref=zg_bs_g_beauty_d_sccl_5/144-2162321-0004104",
+        "url": "https://www.amazon.com/Amazon-Basics-Cotton-Swabs-500ct/dp/B09541P9WH/ref=zg_bs_g_beauty_d_sccl_5/135-3069219-4630266",
         "extraction_method": "catalog_file"
       },
       {
@@ -917,9 +917,9 @@
         "badge": "$9.97",
         "price": 9.97,
         "rating": 4.8,
-        "review_count": 121937,
+        "review_count": 121953,
         "rank": 6,
-        "url": "https://www.amazon.com/Neutrogena-Makeup-Remover-Micellar-Wipes/dp/B00U2VQZDS/ref=zg_bs_g_beauty_d_sccl_6/144-2162321-0004104",
+        "url": "https://www.amazon.com/Neutrogena-Makeup-Remover-Micellar-Wipes/dp/B00U2VQZDS/ref=zg_bs_g_beauty_d_sccl_6/135-3069219-4630266",
         "extraction_method": "catalog_file"
       },
       {
@@ -929,9 +929,9 @@
         "badge": "$2.96",
         "price": 2.96,
         "rating": 4.7,
-        "review_count": 54349,
+        "review_count": 54384,
         "rank": 7,
-        "url": "https://www.amazon.com/Amazon-Basics-Cotton-Rounds-Count/dp/B09542G9ZN/ref=zg_bs_g_beauty_d_sccl_7/144-2162321-0004104",
+        "url": "https://www.amazon.com/Amazon-Basics-Cotton-Rounds-Count/dp/B09542G9ZN/ref=zg_bs_g_beauty_d_sccl_7/135-3069219-4630266",
         "extraction_method": "catalog_file"
       },
       {
@@ -941,21 +941,21 @@
         "badge": "$19.49",
         "price": 19.49,
         "rating": 4.6,
-        "review_count": 51831,
+        "review_count": 51850,
         "rank": 8,
-        "url": "https://www.amazon.com/Roche-Posay-Toleriane-Double-Repair-Moisturizer/dp/B01N9SPQHQ/ref=zg_bs_g_beauty_d_sccl_8/144-2162321-0004104",
+        "url": "https://www.amazon.com/Roche-Posay-Toleriane-Double-Repair-Moisturizer/dp/B01N9SPQHQ/ref=zg_bs_g_beauty_d_sccl_8/135-3069219-4630266",
         "extraction_method": "catalog_file"
       },
       {
-        "product": "Mighty Patch Hero Cosmetics Original Nighttime Acne Pimple Patches, 36 Ct | #1 Hydrocolloid Acne Patches, Shrinking Zits & Whiteheads in 1 Use, Spot Treatment, Pimple Stickers for Face",
+        "product": "Mighty Patch Hero Cosmetics Original Nighttime Acne Pimple Patches, 75 Ct | #1 Hydrocolloid Acne Patches, Shrinks Zits & Whiteheads in 1 Use, Spot Treatment Pimple Stickers for Face, Korean Skincare",
         "brand": "",
         "sub": "",
-        "badge": "$12.99",
-        "price": 12.99,
+        "badge": "$22.90",
+        "price": 22.9,
         "rating": 4.6,
-        "review_count": 186113,
+        "review_count": 186128,
         "rank": 9,
-        "url": "https://www.amazon.com/Mighty-Patch-Hydrocolloid-Absorbing-count/dp/B074PVTPBW/ref=zg_bs_g_beauty_d_sccl_9/144-2162321-0004104",
+        "url": "https://www.amazon.com/Mighty-PatchTM-Original-Patch-Hydrocolloid/dp/B0DNR8RF83/ref=zg_bs_g_beauty_d_sccl_9/135-3069219-4630266",
         "extraction_method": "catalog_file"
       },
       {
@@ -965,21 +965,9 @@
         "badge": "$10.82",
         "price": 10.82,
         "rating": 4.5,
-        "review_count": 189634,
+        "review_count": 189686,
         "rank": 10,
-        "url": "https://www.amazon.com/Maybelline-Volumizing-Buildable-Lengthening-Multiplying/dp/B08H3JPH74/ref=zg_bs_g_beauty_d_sccl_10/144-2162321-0004104",
-        "extraction_method": "catalog_file"
-      },
-      {
-        "product": "PanOxyl 10% Benzoyl Peroxide Acne Foaming Wash, Maximum Strength, Daily Acne-Fighting Face and Body Cleanser, Face Wash to Clear, Treat and Prevent Acne Pimples and Stubborn Breakouts, 5.5 Oz Tube",
-        "brand": "",
-        "sub": "",
-        "badge": "$10.19",
-        "price": 10.19,
-        "rating": 4.6,
-        "review_count": 83575,
-        "rank": 11,
-        "url": "https://www.amazon.com/PanOxyl-Foaming-Peroxide-Strength-Antimicrobial/dp/B081KL2QYJ/ref=zg_bs_g_beauty_d_sccl_11/144-2162321-0004104",
+        "url": "https://www.amazon.com/Maybelline-Volumizing-Buildable-Lengthening-Multiplying/dp/B08H3JPH74/ref=zg_bs_g_beauty_d_sccl_10/135-3069219-4630266",
         "extraction_method": "catalog_file"
       },
       {
@@ -989,9 +977,21 @@
         "badge": "$12.15",
         "price": 12.15,
         "rating": 4.7,
-        "review_count": 65092,
+        "review_count": 65207,
+        "rank": 11,
+        "url": "https://www.amazon.com/Ordinary-Exfoliating-Brightening-Smoothing-Even-Looking/dp/B071914GGL/ref=zg_bs_g_beauty_d_sccl_11/135-3069219-4630266",
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "PanOxyl 10% Benzoyl Peroxide Acne Foaming Wash, Maximum Strength, Daily Acne-Fighting Face and Body Cleanser, Face Wash to Clear, Treat and Prevent Acne Pimples and Stubborn Breakouts, 5.5 Oz Tube",
+        "brand": "",
+        "sub": "",
+        "badge": "$10.19",
+        "price": 10.19,
+        "rating": 4.6,
+        "review_count": 83600,
         "rank": 12,
-        "url": "https://www.amazon.com/Ordinary-Exfoliating-Brightening-Smoothing-Even-Looking/dp/B071914GGL/ref=zg_bs_g_beauty_d_sccl_12/144-2162321-0004104",
+        "url": "https://www.amazon.com/PanOxyl-Foaming-Peroxide-Strength-Antimicrobial/dp/B081KL2QYJ/ref=zg_bs_g_beauty_d_sccl_12/135-3069219-4630266",
         "extraction_method": "catalog_file"
       },
       {
@@ -1001,9 +1001,9 @@
         "badge": "$19.00",
         "price": 19,
         "rating": 4.5,
-        "review_count": 48482,
+        "review_count": 48565,
         "rank": 13,
-        "url": "https://www.amazon.com/Biodance-Bio-Collagen-Tightening-Hydrating-Molecular/dp/B0B2RM68G2/ref=zg_bs_g_beauty_d_sccl_13/144-2162321-0004104",
+        "url": "https://www.amazon.com/Biodance-Bio-Collagen-Tightening-Hydrating-Molecular/dp/B0B2RM68G2/ref=zg_bs_g_beauty_d_sccl_13/135-3069219-4630266",
         "extraction_method": "catalog_file"
       },
       {
@@ -1013,9 +1013,9 @@
         "badge": "$9.98",
         "price": 9.98,
         "rating": 4.8,
-        "review_count": 23065,
+        "review_count": 23110,
         "rank": 14,
-        "url": "https://www.amazon.com/eos-Moisturizing-Nourishing-Phthalate-Sensitive/dp/B0DPHQRLJC/ref=zg_bs_g_beauty_d_sccl_14/144-2162321-0004104",
+        "url": "https://www.amazon.com/eos-Moisturizing-Nourishing-Phthalate-Sensitive/dp/B0DPHQRLJC/ref=zg_bs_g_beauty_d_sccl_14/135-3069219-4630266",
         "extraction_method": "catalog_file"
       },
       {
@@ -1025,13 +1025,25 @@
         "badge": "$16.88",
         "price": 16.88,
         "rating": 4.6,
-        "review_count": 113032,
+        "review_count": 113051,
         "rank": 15,
-        "url": "https://www.amazon.com/Nizoral-Anti-Dandruff-Shampoo-Ketoconazole-Dandruff/dp/B00AINMFAC/ref=zg_bs_g_beauty_d_sccl_15/144-2162321-0004104",
+        "url": "https://www.amazon.com/Nizoral-Anti-Dandruff-Shampoo-Ketoconazole-Dandruff/dp/B00AINMFAC/ref=zg_bs_g_beauty_d_sccl_15/135-3069219-4630266",
         "extraction_method": "catalog_file"
       }
     ],
     "walmart_beauty": [
+      {
+        "product": "L.A. COLORS Color Craze Nail Polish, Tropical Paradise, 0.44 fl. oz",
+        "brand": "",
+        "sub": "",
+        "badge": "",
+        "price": null,
+        "rating": 4.5,
+        "review_count": 2071,
+        "rank": 1,
+        "url": "https://www.walmart.com/ip/L-A-COLORS-Color-Craze-Nail-Polish-Tropical-Paradise-0-44-fl-oz/219702622",
+        "extraction_method": "catalog_file"
+      },
       {
         "product": "L'Oreal Paris Colour Riche Original Satin Lipstick for Moisturized Lips, Plum Explosion, 0.13 oz",
         "brand": "",
@@ -1039,177 +1051,165 @@
         "badge": "$7.97",
         "price": 7.97,
         "rating": 4.4,
-        "review_count": 7940,
-        "rank": 1,
+        "review_count": 8036,
+        "rank": 2,
         "url": "https://www.walmart.com/ip/L-Oreal-Paris-Colour-Riche-Lipcolour-Plum-Explosion-776/19416466",
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "L'Oreal Paris Infallible 3-Second Setting Spray Mist 36H Wear Natural Finish 1.76 oz, Clear",
+        "brand": "",
+        "sub": "",
+        "badge": "$12.12",
+        "price": 12.12,
+        "rating": 4.5,
+        "review_count": 3432,
+        "rank": 3,
+        "url": "https://www.walmart.com/ip/L-Oreal-Paris-Infallible-3-Second-Setting-Mist-with-Microfine-up-to-36H-Wear-Clear-1-76-fl-oz/5216421750",
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "Wet Line Xtreme Clear Styling Hair Gel for Men and Women, Frizz Control, 8.8 oz",
+        "brand": "",
+        "sub": "",
+        "badge": "",
+        "price": null,
+        "rating": 4.4,
+        "review_count": 431,
+        "rank": 4,
+        "url": "https://www.walmart.com/ip/Wet-Line-Xtreme-Clear-Styling-Hair-Gel-Jar-Men-and-Women-Frizz-Control-8-8-oz/37649948",
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "Giftesty Cream-to-Powder Eyeshadow Stick, 10 Hours Long Lasting Waterproof & Crease-proof, Smooth Texture for Natural All-day Eye Makeup",
+        "brand": "",
+        "sub": "",
+        "badge": "$0.99",
+        "price": 0.99,
+        "rating": 4.5,
+        "review_count": 2,
+        "rank": 5,
+        "url": "https://www.walmart.com/ip/Giftesty-Cream-to-Powder-Eyeshadow-Stick-10-Hours-Long-Lasting-Waterproof-Crease-proof-Smooth-Texture-for-Natural-All-day-Eye-Makeup/20391067612",
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "Equate Nourishing Nail Polish Remover, 6 fl oz",
+        "brand": "",
+        "sub": "",
+        "badge": "",
+        "price": null,
+        "rating": 4.6,
+        "review_count": 4196,
+        "rank": 6,
+        "url": "https://www.walmart.com/ip/Equate-Nourishing-Nail-Polish-Remover-6-Fluid-Ounces/1206898283",
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "Gem Skin-Loving Body Wash Coconut Vanilla 500mL 16.9 fl oz",
+        "brand": "",
+        "sub": "",
+        "badge": "",
+        "price": null,
+        "rating": 5,
+        "review_count": 2,
+        "rank": 7,
+        "url": "https://www.walmart.com/ip/Gem-Skin-Loving-Body-Wash-Coconut-Vanilla-500mL-16-9-fl-oz/20282564828",
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "Sally Hansen Insta-Dri Nail Color Polish, Asap Apple, 0.31 fl oz, Quick Dry",
+        "brand": "",
+        "sub": "",
+        "badge": "$5.44",
+        "price": 5.44,
+        "rating": 4.4,
+        "review_count": 15346,
+        "rank": 8,
+        "url": "https://www.walmart.com/ip/Sally-Hansen-Insta-Dri-Nail-Color-Polish-Asap-Apple-0-31-fl-oz-Quick-Dry/159739147",
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "Human Hair Topper for Women Thinning Hair 100% Remy Human Hair Invisible Lace Base with Adjustable Clips for Adding Volume Cover, 10inch",
+        "brand": "",
+        "sub": "",
+        "badge": "$28.56",
+        "price": 28.56,
+        "rating": 4.1,
+        "review_count": 13,
+        "rank": 9,
+        "url": "https://www.walmart.com/ip/Human-Hair-Hair-Topper-for-Women-Thinning-Hair-Invisible-Lace-Base-with-Adjustable-Clips-for-Adding-Volume-Cover-100-Remy-Human-Hair-10inch/19412364822",
         "extraction_method": "catalog_file"
       },
       {
         "product": "Vaseline Glazed & Glisten Sunlit Glow Vanilla Cocoa Shimmering Body Gel Oil with Ultra-Hydrating Lipids and 100% Pure Cocoa Butter, 6.8 fl Oz",
         "brand": "",
         "sub": "",
-        "badge": "$8.97",
-        "price": 8.97,
+        "badge": "$9.97",
+        "price": 9.97,
         "rating": 4.5,
-        "review_count": 1133,
-        "rank": 2,
+        "review_count": 1174,
+        "rank": 10,
         "url": "https://www.walmart.com/ip/Vaseline-Lip-Therapy-Cocoa-Butter-0-25-oz/15620264700",
         "extraction_method": "catalog_file"
       },
       {
-        "product": "TRESemm Instant Fix Styling Stick for Fixing Flyaways & Control Frizz Stylist, A-List Collection Developed & Safe for All Hair Types, 1.05 oz",
-        "brand": "",
-        "sub": "",
-        "badge": "",
-        "price": null,
-        "rating": 4.5,
-        "review_count": 455,
-        "rank": 3,
-        "url": "https://www.walmart.com/ip/Tresemme-A-List-Collection-Instant-Fix-Styling-Stick-Hair-Wax-Golden-Vanilla-Sandalwood-Scent-1-05oz/15641615102",
-        "extraction_method": "catalog_file"
-      },
-      {
-        "product": "L.A. COLORS Gel-like Nail Polish, Flashy, 0.44 fl oz",
-        "brand": "",
-        "sub": "",
-        "badge": "$2.24",
-        "price": 2.24,
-        "rating": 4.3,
-        "review_count": 3848,
-        "rank": 4,
-        "url": "https://www.walmart.com/ip/L-A-COLORS-Gel-like-Nail-Polish-Flashy-0-44-fl-oz/55331794",
-        "extraction_method": "catalog_file"
-      },
-      {
-        "product": "Profusion Cosmetics Peanuts 75th Charlie Brown & Snoopy Bouncy Blush Cream to Powder Duo",
-        "brand": "",
-        "sub": "",
-        "badge": "",
-        "price": null,
-        "rating": 4.7,
-        "review_count": 16,
-        "rank": 5,
-        "url": "https://www.walmart.com/ip/Profusion-Cosmetics-Peanuts-Bouncy-Blush-Duo/15199721744",
-        "extraction_method": "catalog_file"
-      },
-      {
-        "product": "Tanologist Express Dark Self Tan Mousse, 6.76 fl.oz/ 200 ml Bottle",
+        "product": "SheaMoisture Deodorant Stick 72h Odor Control Coconut & Hibiscus Fresh Aluminum Free ,2.6 oz",
         "brand": "",
         "sub": "",
         "badge": "",
         "price": null,
         "rating": 4.6,
-        "review_count": 76,
-        "rank": 6,
-        "url": "https://www.walmart.com/ip/Tanologist-Express-Dark-Self-Tan-Mousse-6-76-fl-oz-200-ml-Bottle/387748161",
-        "extraction_method": "catalog_file"
-      },
-      {
-        "product": "L.A. COLORS Browie Wowie Lasting & Smudge-Proof Creamy Brow Promade, Soft Brown, 0.11 oz",
-        "brand": "",
-        "sub": "",
-        "badge": "",
-        "price": null,
-        "rating": 4.5,
-        "review_count": 19,
-        "rank": 7,
-        "url": "https://www.walmart.com/ip/L-A-COLORS-Browie-Wowie-Lasting-Smudge-Proof-Creamy-Brow-Promade-Soft-Brown/18850252262",
-        "extraction_method": "catalog_file"
-      },
-      {
-        "product": "Walmart Smudge Cosmetic & Makeup Brush for Softening Effect, Black, 1 Count",
-        "brand": "",
-        "sub": "",
-        "badge": "",
-        "price": null,
-        "rating": 4.4,
-        "review_count": 5,
-        "rank": 8,
-        "url": "https://www.walmart.com/ip/Makeup-and-Cosmetic-Smudge-Brush-Black-1-Count/2485496311",
-        "extraction_method": "catalog_file"
-      },
-      {
-        "product": "Profusion Cosmetics 21 Color Eyeshadow Palette, Multi Finish Blendable Pigmented Shades Includes Pro Series Brush Travel-Friendly Makeup, Pro Pigment",
-        "brand": "",
-        "sub": "",
-        "badge": "",
-        "price": null,
-        "rating": 4.1,
-        "review_count": 44,
-        "rank": 9,
-        "url": "https://www.walmart.com/ip/Profusion-Cosmetics-Eye-Shadow-Pro-Pigment-21-Shade-Palette/777688187",
-        "extraction_method": "catalog_file"
-      },
-      {
-        "product": "Vince Camuto Eau de Parfum, Fragrance Collection for Women, 3 Piece",
-        "brand": "",
-        "sub": "",
-        "badge": "",
-        "price": null,
-        "rating": 5,
-        "review_count": 1,
-        "rank": 10,
-        "url": "https://www.walmart.com/ip/Vince-Camuto-Eau-de-Parfum-Fragrance-Collection-for-Women-3-Piece/3590703368",
-        "extraction_method": "catalog_file"
-      },
-      {
-        "product": "Profusion Cosmetics 21 Shade Eyeshadow Palette - Nude Bliss",
-        "brand": "",
-        "sub": "",
-        "badge": "$9.97",
-        "price": 9.97,
-        "rating": 4.2,
-        "review_count": 99,
+        "review_count": 535,
         "rank": 11,
-        "url": "https://www.walmart.com/ip/Profusion-Cosmetics-21-Shade-Eyeshadow-Palette-Nude-Bliss/9739766228",
+        "url": "https://www.walmart.com/ip/SheaMoisture-Deodorant-Stick-for-Women-Fresh-Coconut-Hibiscus-Aluminum-Free-2-6-oz/14488816570",
         "extraction_method": "catalog_file"
       },
       {
-        "product": "Profusion Cosmetics Moonstone 42 Shade Eyeshadow Palette, Highly Pigmented, Long-Lasting and Blendable",
+        "product": "Carmex Comfort Care Lip Balm Stick with Beeswax Peppermint Lip Balm 2-Count 0.15 oz",
+        "brand": "",
+        "sub": "",
+        "badge": "$8.56",
+        "price": 8.56,
+        "rating": 4.7,
+        "review_count": 172,
+        "rank": 12,
+        "url": "https://www.walmart.com/ip/Carmex-Comfort-Care-Lip-Balm-2-Pack-Peppermint/878664177",
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "Holler Beach Vacay Coconut Scented Body and Hair Fragrance Mist, 2.7 fl oz",
         "brand": "",
         "sub": "",
         "badge": "",
         "price": null,
-        "rating": 4.4,
-        "review_count": 66,
-        "rank": 12,
-        "url": "https://www.walmart.com/ip/Profusion-Cosmetics-Moonstone-42-Shade-Eyeshadow-Palette-Highly-Pigmented-Long-Lasting-and-Blendable/637830701",
+        "rating": 4.6,
+        "review_count": 407,
+        "rank": 13,
+        "url": "https://www.walmart.com/ip/Holler-Beach-Vacay-Body-Mist/19458268188",
+        "extraction_method": "catalog_file"
+      },
+      {
+        "product": "ChapStick Classic Cherry Flavored Lip Protectant Stick, Prevent Chapping, 24 Hour Moisturizing Lip Balm, Relieves Dryness, 0.15 oz",
+        "brand": "",
+        "sub": "",
+        "badge": "",
+        "price": null,
+        "rating": 4.6,
+        "review_count": 160,
+        "rank": 14,
+        "url": "https://www.walmart.com/ip/ChapStick-Classic-Moisturizer-and-Skin-Protectant-Classic-Cherry-Lip-Balm-0-15-oz-1-Pack/19922116327",
         "extraction_method": "catalog_file"
       },
       {
         "product": "Q-tips Cotton Swabs, Original, For Home, First Aid and Beauty, 100% Cotton, 500 Count",
         "brand": "",
         "sub": "",
-        "badge": "$3.50",
-        "price": 3.5,
+        "badge": "$3.87",
+        "price": 3.87,
         "rating": 4.8,
-        "review_count": 45591,
-        "rank": 13,
-        "url": "https://www.walmart.com/ip/Q-tips-Cotton-Swabs-Original-for-Hygiene-and-Beauty-Care-Made-with-100-Cotton-500-Count/10452580",
-        "extraction_method": "catalog_file"
-      },
-      {
-        "product": "Smart Care Scented Hand Sanitizer Spray, Watermelon, 1.35 fl oz",
-        "brand": "",
-        "sub": "",
-        "badge": "",
-        "price": null,
-        "rating": 4.5,
-        "review_count": 319,
-        "rank": 14,
-        "url": "https://www.walmart.com/ip/Smart-Care-Scented-Hand-Sanitizer-Spray-Watermelon-1-35-fl-oz/12281808034",
-        "extraction_method": "catalog_file"
-      },
-      {
-        "product": "Broadway by Kiss Press On Nails Almond, October Whispers, Black, Medium, 24 Count",
-        "brand": "",
-        "sub": "",
-        "badge": "$3.99",
-        "price": 3.99,
-        "rating": null,
-        "review_count": null,
+        "review_count": 46184,
         "rank": 15,
-        "url": "https://www.walmart.com/ip/BWY-October-Whispers/19377209501",
+        "url": "https://www.walmart.com/ip/Q-tips-Cotton-Swabs-Original-for-Hygiene-and-Beauty-Care-Made-with-100-Cotton-500-Count/10452580",
         "extraction_method": "catalog_file"
       }
     ],
@@ -1779,20 +1779,6 @@
     ],
     "ulta_beauty": [
       {
-        "product": "Toleriane Double Repair Face Moisturizer with Niacinamide",
-        "brand": "La Roche-Posay",
-        "price": 9.74,
-        "category": "Beauty",
-        "url": "https://www.ulta.com/p/toleriane-double-repair-face-moisturizer-with-niacinamide-xlsImpprod16011007"
-      },
-      {
-        "product": "Toleriane Purifying Foaming Face Wash for Oily Skin",
-        "brand": "La Roche-Posay",
-        "price": 12.74,
-        "category": "Beauty",
-        "url": "https://www.ulta.com/p/toleriane-purifying-foaming-face-wash-oily-skin-xlsImpprod15321287"
-      },
-      {
         "product": "Moisture Surge 100H Auto-Replenishing Hydrator Gel Moisturizer with Hyaluronic Acid",
         "brand": "Clinique",
         "price": 18,
@@ -1805,6 +1791,20 @@
         "price": 18.9,
         "category": "Beauty",
         "url": "https://www.ulta.com/p/345-relief-cream-pimprod2056740"
+      },
+      {
+        "product": "Toleriane Double Repair Face Moisturizer with Niacinamide",
+        "brand": "La Roche-Posay",
+        "price": 9.74,
+        "category": "Beauty",
+        "url": "https://www.ulta.com/p/toleriane-double-repair-face-moisturizer-with-niacinamide-xlsImpprod16011007"
+      },
+      {
+        "product": "Toleriane Purifying Foaming Face Wash for Oily Skin",
+        "brand": "La Roche-Posay",
+        "price": 12.74,
+        "category": "Beauty",
+        "url": "https://www.ulta.com/p/toleriane-purifying-foaming-face-wash-oily-skin-xlsImpprod15321287"
       },
       {
         "product": "Toleriane Hydrating Gentle Face Cleanser for Dry Skin",
@@ -1842,6 +1842,13 @@
         "url": "https://www.ulta.com/p/hydrating-milky-toner-pimprod2043230"
       },
       {
+        "product": "Caffeine Energizing Hydrogel Eye Patches",
+        "brand": "Good Molecules",
+        "price": 14.4,
+        "category": "Beauty",
+        "url": "https://www.ulta.com/p/caffeine-energizing-hydrogel-eye-patches-pimprod2023938"
+      },
+      {
         "product": "Moisture Surge Sheertint Hydrator Broad Spectrum SPF 25 Tinted Moisturizer",
         "brand": "Clinique",
         "price": 37.6,
@@ -1854,13 +1861,6 @@
         "price": 9.6,
         "category": "Beauty",
         "url": "https://www.ulta.com/p/discoloration-correcting-serum-pimprod2023928"
-      },
-      {
-        "product": "Caffeine Energizing Hydrogel Eye Patches",
-        "brand": "Good Molecules",
-        "price": 14.4,
-        "category": "Beauty",
-        "url": "https://www.ulta.com/p/caffeine-energizing-hydrogel-eye-patches-pimprod2023938"
       },
       {
         "product": "Lacto-PDRN 4% + B9 Eye Cream",
@@ -2082,73 +2082,73 @@
       "status": "ok",
       "source": "amazon.com/gp/bestsellers/beauty (실수집)",
       "reason": "",
-      "collected_at": "2026-09-25T23:30:33.506557+00:00",
+      "collected_at": "2026-09-26T23:08:27.083179+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 21.7,
+      "age_hours": 0.0,
       "stale": false
     },
     "walmart_beauty": {
       "status": "ok",
       "source": "walmart.com/browse/beauty/1085666 (실수집)",
       "reason": "",
-      "collected_at": "2026-09-25T23:30:33.507740+00:00",
+      "collected_at": "2026-09-26T23:08:27.084122+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 21.7,
+      "age_hours": 0.0,
       "stale": false
     },
     "oliveyoung_us": {
       "status": "stale",
       "source": "us.oliveyoung.com/best-sellers 실수집",
-      "reason": "2026-09-21 이후 갱신 없음 (5.5일). 2026-09-21 이후 갱신 없음 (5.5일). 2026-09-21 이후 갱신 없음 (5.4일). 2026-09-21 이후 갱신 없음 (5.3일). 2026-09-21 이후 갱신 없음 (5.3일). 2026-09-21 이후 갱신 없음 (5.3일). 2026-09-21 이후 갱신 없음 (5.1일). 2026-09-21 이후 갱신 없음 (5.1일). 2026-09-21 이후 갱신 없음 (5.1일). 2026-09-21 이후 갱신 없음 (4.9일). 2026-09-21 이후 갱신 없음 (4.9일). 2026-09-21 이후 갱신 없음 (4.8일). 2026-09-21 이후 갱신 없음 (4.8일). 2026-09-21 이후 갱신 없음 (4.8일). 2026-09-21 이후 갱신 없음 (4.6일). 2026-09-21 이후 갱신 없음 (4.6일).",
+      "reason": "2026-09-21 이후 갱신 없음 (5.6일).",
       "collected_at": "2026-09-21T09:36:15.249729+00:00",
       "count": 15,
       "trust": "stale",
-      "age_hours": 131.6,
+      "age_hours": 133.5,
       "stale": true
     },
     "google_trends_us": {
       "status": "stale",
       "source": "google news rss (beauty queries) + trends daily filtered",
-      "reason": "2026-09-21 이후 갱신 없음 (5.5일). 2026-09-21 이후 갱신 없음 (5.5일). 2026-09-21 이후 갱신 없음 (5.4일). 2026-09-21 이후 갱신 없음 (5.3일). 2026-09-21 이후 갱신 없음 (5.3일). 2026-09-21 이후 갱신 없음 (5.3일). 2026-09-21 이후 갱신 없음 (5.1일). 2026-09-21 이후 갱신 없음 (5.1일). 2026-09-21 이후 갱신 없음 (5.1일). 2026-09-21 이후 갱신 없음 (4.9일). 2026-09-21 이후 갱신 없음 (4.9일). 2026-09-21 이후 갱신 없음 (4.8일). 2026-09-21 이후 갱신 없음 (4.8일). 2026-09-21 이후 갱신 없음 (4.8일). 2026-09-21 이후 갱신 없음 (4.6일). 2026-09-21 이후 갱신 없음 (4.6일).",
+      "reason": "2026-09-21 이후 갱신 없음 (5.6일).",
       "collected_at": "2026-09-21T09:36:51.528077+00:00",
       "count": 15,
       "trust": "stale",
-      "age_hours": 131.6,
+      "age_hours": 133.5,
       "stale": true
     },
     "wikipedia_interest": {
       "status": "stale",
       "source": "wikimedia.org REST pageviews API (공식)",
-      "reason": "2026-09-21 이후 갱신 없음 (5.5일). 2026-09-21 이후 갱신 없음 (5.5일). 2026-09-21 이후 갱신 없음 (5.4일). 2026-09-21 이후 갱신 없음 (5.3일). 2026-09-21 이후 갱신 없음 (5.3일). 2026-09-21 이후 갱신 없음 (5.3일). 2026-09-21 이후 갱신 없음 (5.1일). 2026-09-21 이후 갱신 없음 (5.1일). 2026-09-21 이후 갱신 없음 (5.1일). 2026-09-21 이후 갱신 없음 (4.9일). 2026-09-21 이후 갱신 없음 (4.9일). 2026-09-21 이후 갱신 없음 (4.8일). 2026-09-21 이후 갱신 없음 (4.8일). 2026-09-21 이후 갱신 없음 (4.8일). 2026-09-21 이후 갱신 없음 (4.6일). 2026-09-21 이후 갱신 없음 (4.6일).",
+      "reason": "2026-09-21 이후 갱신 없음 (5.6일).",
       "collected_at": "2026-09-21T09:42:01.535186+00:00",
       "count": 8,
       "trust": "stale",
       "note": "2026-08-21 ~ 2026-09-19 일별 조회수. 후반 15일 대비 전반 15일 증감률",
-      "age_hours": 131.5,
+      "age_hours": 133.4,
       "stale": true
     },
     "allure_media": {
       "status": "stale",
       "source": "allure.com/feed/rss",
-      "reason": "2026-09-21 이후 갱신 없음 (5.5일). 2026-09-21 이후 갱신 없음 (5.5일). 2026-09-21 이후 갱신 없음 (5.4일). 2026-09-21 이후 갱신 없음 (5.3일). 2026-09-21 이후 갱신 없음 (5.3일). 2026-09-21 이후 갱신 없음 (5.3일). 2026-09-21 이후 갱신 없음 (5.1일). 2026-09-21 이후 갱신 없음 (5.1일). 2026-09-21 이후 갱신 없음 (5.1일). 2026-09-21 이후 갱신 없음 (4.9일). 2026-09-21 이후 갱신 없음 (4.9일). 2026-09-21 이후 갱신 없음 (4.8일). 2026-09-21 이후 갱신 없음 (4.8일). 2026-09-21 이후 갱신 없음 (4.8일). 2026-09-21 이후 갱신 없음 (4.6일). 2026-09-21 이후 갱신 없음 (4.6일).",
+      "reason": "2026-09-21 이후 갱신 없음 (5.6일).",
       "collected_at": "2026-09-21T09:42:01.535186+00:00",
       "count": 15,
       "trust": "stale",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
-      "age_hours": 131.5,
+      "age_hours": 133.4,
       "stale": true
     },
     "openfda_sunscreen": {
       "status": "stale",
       "source": "api.fda.gov/drug/label (openFDA 공식)",
-      "reason": "2026-09-21 이후 갱신 없음 (5.5일). 2026-09-21 이후 갱신 없음 (5.5일). 2026-09-21 이후 갱신 없음 (5.4일). 2026-09-21 이후 갱신 없음 (5.3일). 2026-09-21 이후 갱신 없음 (5.3일). 2026-09-21 이후 갱신 없음 (5.3일). 2026-09-21 이후 갱신 없음 (5.1일). 2026-09-21 이후 갱신 없음 (5.1일). 2026-09-21 이후 갱신 없음 (5.1일). 2026-09-21 이후 갱신 없음 (4.9일). 2026-09-21 이후 갱신 없음 (4.9일). 2026-09-21 이후 갱신 없음 (4.8일). 2026-09-21 이후 갱신 없음 (4.8일). 2026-09-21 이후 갱신 없음 (4.8일). 2026-09-21 이후 갱신 없음 (4.6일). 2026-09-21 이후 갱신 없음 (4.6일).",
+      "reason": "2026-09-21 이후 갱신 없음 (5.6일).",
       "collected_at": "2026-09-21T09:42:01.535186+00:00",
       "count": 15,
       "trust": "stale",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다.",
-      "age_hours": 131.5,
+      "age_hours": 133.4,
       "stale": true
     },
     "shopify_demand_matching": {
@@ -2171,38 +2171,38 @@
       "status": "ok",
       "source": "공개 페이지 직접 파싱",
       "reason": "",
-      "collected_at": "2026-09-25T23:30:33.508644+00:00",
+      "collected_at": "2026-09-26T23:08:27.085051+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 21.7,
+      "age_hours": 0.0,
       "stale": false
     },
     "sephora": {
       "status": "ok",
       "source": "공개 페이지 직접 파싱",
       "reason": "",
-      "collected_at": "2026-09-25T23:30:33.508644+00:00",
+      "collected_at": "2026-09-26T23:08:27.085051+00:00",
       "count": 14,
       "trust": "verified",
-      "age_hours": 21.7,
+      "age_hours": 0.0,
       "stale": false
     },
     "open_beauty_facts": {
       "status": "stale",
       "source": "world.openbeautyfacts.org /api/v2 (오픈데이터)",
-      "reason": "2026-09-21 이후 갱신 없음 (5.5일). 2026-09-21 이후 갱신 없음 (5.5일). 2026-09-21 이후 갱신 없음 (5.4일). 2026-09-21 이후 갱신 없음 (5.3일). 2026-09-21 이후 갱신 없음 (5.3일). 2026-09-21 이후 갱신 없음 (5.3일). 2026-09-21 이후 갱신 없음 (5.1일). 2026-09-21 이후 갱신 없음 (5.1일). 2026-09-21 이후 갱신 없음 (5.1일). 2026-09-21 이후 갱신 없음 (4.9일). 2026-09-21 이후 갱신 없음 (4.9일). 2026-09-21 이후 갱신 없음 (4.8일). 2026-09-21 이후 갱신 없음 (4.8일). 2026-09-21 이후 갱신 없음 (4.8일). 2026-09-21 이후 갱신 없음 (4.6일). 2026-09-21 이후 갱신 없음 (4.6일).",
+      "reason": "2026-09-21 이후 갱신 없음 (5.6일).",
       "collected_at": "2026-09-21T09:36:14.782768+00:00",
       "count": 15,
       "trust": "stale",
-      "age_hours": 131.6,
+      "age_hours": 133.5,
       "stale": true
     }
   },
   "exchange_rate": {
-    "rate": 1368.6,
-    "as_of": "2026-09-25",
+    "rate": 1357.41,
+    "as_of": "2026-09-26",
     "source": "https://open.er-api.com/v6/latest/USD",
-    "updated_at": "2026-09-26"
+    "updated_at": "2026-09-27"
   },
-  "last_synced": "09. 26. 오전 08:30 KST"
+  "last_synced": "09. 27. 오전 08:08 KST"
 }
