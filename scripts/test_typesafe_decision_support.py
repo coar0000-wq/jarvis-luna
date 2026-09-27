@@ -42,6 +42,7 @@ class TypeSafeDecisionSupportTest(unittest.TestCase):
         self.assertFalse(result["paid_api_called"])
         self.assertEqual(result["grade_advisory"], "keep_s")
         self.assertIn("legal", result["team_routes"])
+        self.assertEqual(result["model_route"], "human")
 
     def test_enabled_without_paid_approval_stays_local(self):
         os.environ["TYPESAFE_ENABLED"] = "1"
@@ -61,6 +62,7 @@ class TypeSafeDecisionSupportTest(unittest.TestCase):
         self.assertEqual(result["legal_gate_advisory"], "block")
         self.assertEqual(result["risk_level"], "critical")
         self.assertEqual(result["team_routes"][0], "legal")
+        self.assertEqual(result["model_route"], "human")
 
     def test_paid_path_can_be_mocked_but_is_observational_by_default(self):
         os.environ["TYPESAFE_ENABLED"] = "1"

@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-09-27T23:36:00+09:00",
+  "title": "JARVIS LUNA System 1 → Gemini 조건부 에스컬레이션 정책",
+  "source_type": "notebooklm_youtube_analysis",
+  "source_url": "https://www.youtube.com/watch?v=BJeHhsMVc8A&t=34s",
+  "source_title": "[한영자막] Jev로 더 빠르고 스마트한 에이전트 하네스를 구축하는 방법입니다",
+  "source_claims": [
+    {
+      "timestamp": "01:38-02:45",
+      "claim": "Jev는 상태와 질문을 받아 typed answer와 확률을 반환하는 System 1 판단 모델이다."
+    },
+    {
+      "timestamp": "04:11-05:28",
+      "claim": "choice, score, boolean 유형과 단일 상태의 병렬 질문 처리를 지원한다."
+    },
+    {
+      "timestamp": "06:04-06:47",
+      "claim": "과제 복잡도에 따라 빠른 모델과 더 강한 모델을 선택하는 라우터로 사용할 수 있다."
+    },
+    {
+      "timestamp": "06:47-07:28",
+      "claim": "위험한 도구 호출을 런타임에 분류해 차단하는 Auto Mode에 사용할 수 있다."
+    },
+    {
+      "timestamp": "07:28-08:46",
+      "claim": "입력, 답변, 루브릭을 바탕으로 온라인 에이전트 평가에 사용할 수 있다."
+    }
+  ],
+  "vendor_claim_note": "20~200배 속도 및 40~400배 비용 주장은 영상 발표자의 분류 과제 비교 주장으로만 보관하며 JARVIS 성능 사실로 사용하지 않는다.",
+  "routing": {
+    "tier_0": "결정적 로컬 규칙과 정본 게이트",
+    "tier_1": "Jev/TypeSafe의 구조화된 분류·위험·팀 라우팅",
+    "tier_2": "열린 진단이나 복합 설명이 정말 필요할 때만 Gemini Flash-Lite 1회 호출",
+    "tier_3": "법률 자료, 외부 계정, 공개 게시, 결제는 모델 호출로 대체하지 않고 사람 승인 대기"
+  },
+  "gemini_escalation": {
+    "enabled": true,
+    "free_tier_only": true,
+    "model": "gemini-flash-lite-latest",
+    "max_calls_per_run": 1,
+    "max_output_tokens": 700,
+    "advisory_only": true,
+    "call_when_any": [
+      "Jev가 model_route=gemini로 분류하고 confidence가 0.60 이상",
+      "결정적 규칙으로 분류할 수 없는 수집 파싱 오류가 남음",
+      "자동복구 또는 재검증 항목이 3회 이상 반복됐지만 해결되지 않음",
+      "Jev가 오류·크레딧 중단 상태이고 로컬 운영 위험이 high 이상"
+    ],
+    "never_call_for": [
+      "사람 승인이나 원본 자료 제공만 남은 경우",
+      "외부 계정 개설이나 외부 서비스 복구만 남은 경우",
+      "공개 게시, 결제, 광고 집행 승인 대행",
+      "결정적 로컬 규칙으로 답이 확정된 정상 상태"
+    ]
+  },
+  "hard_gates": {
+    "may_execute_actions": false,
+    "may_change_canonical_gate": false,
+    "may_publish": false,
+    "may_pay": false,
+    "may_retry_on_401_402_403_429": false,
+    "human_approval_required_for_external_write": true
+  }
+}

@@ -120,6 +120,16 @@ def local_advisory(context: dict[str, Any]) -> dict[str, Any]:
     routes = _uniq(routes)
     routes.sort(key=lambda team: TEAM_ORDER.index(team) if team in TEAM_ORDER else 99)
 
+    # 모델 라우팅은 정본 게이트를 대신하지 않는다. 필수 자료·승인·외부 계정이
+    # 문제면 더 큰 모델을 불러도 해결되지 않으므로 사람/외부 대기로 보낸다.
+    mandatory = {"gosi", "us_label", "legal", "legal_full", "price", "ontology"}
+    if hard_legal or mandatory.intersection(blocked + public_blocked):
+        model_route = "human"
+    elif blocked or risk_level in {"high", "critical"}:
+        model_route = "gemini"
+    else:
+        model_route = "local"
+
     findings = []
     if blocked:
         findings.append("draft blockers: " + ", ".join(blocked))
@@ -142,6 +152,8 @@ def local_advisory(context: dict[str, Any]) -> dict[str, Any]:
         "risk_level": risk_level,
         "risk_points": risk_points,
         "team_routes": routes,
+        "model_route": model_route,
+        "model_route_confidence": None,
         "findings": findings,
         "confidence": None,
         "usage": None,
@@ -201,6 +213,15 @@ def _payload(context: dict[str, Any]) -> dict[str, Any]:
                     "market": "수요, 등급 또는 시장 근거 재검토",
                     "design": "브랜드와 디자인 자산 문제",
                     "knowledge": "특정 실행팀보다 지식 정리가 우선",
+                },
+            },
+            "model_route": {
+                "type": "choice",
+                "instructions": "다음 판단 단계를 local, gemini, human 중 하나로 고르라. 필수 자료나 승인이 없으면 human이다.",
+                "criteria": {
+                    "local": "결정적 정본 필드와 규칙만으로 충분히 판단 가능",
+                    "gemini": "필수 자료는 있으나 열린 진단 또는 복합 설명이 필요",
+                    "human": "법률 원본, 라벨, 가격, 외부 계정 또는 명시 승인이 필요",
                 },
             },
         },
@@ -285,12 +306,17 @@ def evaluate(context: dict[str, Any]) -> dict[str, Any]:
         grade, grade_conf = _choice(answers, "grade_advisory", fallback["grade_advisory"])
         legal, legal_conf = _choice(answers, "legal_gate_advisory", fallback["legal_gate_advisory"])
         route, route_conf = _choice(answers, "team_route", fallback["team_routes"][0])
+        model_route, model_route_conf = _choice(
+            answers, "model_route", fallback["model_route"])
         risk = answers.get("risk_level") or {}
         score = risk.get("score")
         levels = ("low", "medium", "high", "critical")
         risk_level = levels[min(len(levels) - 1, max(0, round(float(score or 0))))]
-        confidence_values = [x for x in (grade_conf, legal_conf, route_conf, risk.get("confidence"))
-                             if isinstance(x, (int, float))]
+        confidence_values = [
+            x for x in (grade_conf, legal_conf, route_conf,
+                        model_route_conf, risk.get("confidence"))
+            if isinstance(x, (int, float))
+        ]
         return {
             **fallback,
             "enabled": True,
@@ -305,6 +331,8 @@ def evaluate(context: dict[str, Any]) -> dict[str, Any]:
             "risk_level": risk_level,
             "risk_score": score,
             "team_routes": _uniq([route] + fallback["team_routes"]),
+            "model_route": model_route,
+            "model_route_confidence": model_route_conf,
             "confidence": (round(sum(confidence_values) / len(confidence_values), 4)
                            if confidence_values else None),
             "usage": response.get("usage"),

@@ -48,6 +48,8 @@ def main() -> int:
     improvement = load(D / "team_improvement.json")
     error_report = load(D / "error_report.json")
     marketing_pipeline = load(D / "manual" / "multi_agent_marketing_pipeline.json")
+    model_routing = load(D / "manual" / "model_routing_policy.json")
+    gemini_escalation = load(D / "agents" / "gemini_escalation.json")
 
     # 게이트가 낡았으면 그 아래 조인은 전부 낡은 판정 위에 서 있다.
     # 이 검사가 없어서 예전에는 낡은 ready 로 만든 Action 도 OK 가 나왔다.
@@ -254,7 +256,34 @@ def main() -> int:
     require((stages.get("design_media") or {}).get("implementation") ==
             "planning_and_reference_collection", "미디어 생성 구현 상태 오표기")
 
+    # Jev는 빠른 구조화 판단, Gemini는 정말 필요한 열린 진단에만 1회 쓴다.
+    # 어느 모델도 정본 게이트나 외부 쓰기 승인을 대신할 수 없다.
+    escalation_policy = model_routing.get("gemini_escalation") or {}
+    routing_gates = model_routing.get("hard_gates") or {}
+    require(escalation_policy.get("enabled") is True
+            and escalation_policy.get("free_tier_only") is True
+            and int(escalation_policy.get("max_calls_per_run") or 0) == 1
+            and escalation_policy.get("advisory_only") is True,
+            "Gemini 조건부 에스컬레이션 정책 위반")
+    require(routing_gates.get("may_execute_actions") is False
+            and routing_gates.get("may_change_canonical_gate") is False
+            and routing_gates.get("may_publish") is False
+            and routing_gates.get("may_pay") is False
+            and routing_gates.get("may_retry_on_401_402_403_429") is False,
+            "모델 라우팅 하드 게이트 위반")
+    require(int(gemini_escalation.get("call_count") or 0) <= 1
+            and gemini_escalation.get("advisory_only") is True
+            and gemini_escalation.get("paid_api_called") is False
+            and gemini_escalation.get("canonical_gate_changed") is False
+            and gemini_escalation.get("external_action_executed") is False,
+            "Gemini 진단 산출물 안전 속성 위반")
+    if gemini_escalation.get("called"):
+        require(gemini_escalation.get("free_tier_only") is True
+                and gemini_escalation.get("status") == "advisory_ready",
+                "Gemini 실제 호출의 무료·advisory 증적 누락")
+
     for script in ("build_legal_full.py", "export_shopify_operational.py",
+                    "gemini_escalation.py",
                    "build_shopify_action_queue.py"):
         require((ROOT / "scripts" / script).exists(), f"workflow 참조 스크립트 없음: {script}")
 

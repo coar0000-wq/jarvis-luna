@@ -5,8 +5,8 @@
 읽기: collection_status, products, S등급, runtime, CSV
 쓰기: data/agents/*.json 만
 
-LLM 없이 규칙 기반으로 동작 (토큰 0, Actions 안정).
-필요 시 나중에 Gemini 호출 훅만 붙이면 된다.
+이 단계 자체는 LLM 없이 규칙 기반으로 동작한다. 뒤의 gemini_escalation.py가
+Jev 라우팅·미분류 오류·반복 실패를 보고 정말 부족한 회차에만 1회 진단한다.
 """
 from __future__ import annotations
 

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-27T14:26:27.250312+00:00",
+  "generated_at": "2026-09-27T14:42:25.919474+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
-  "pool_size": 2364,
+  "pool_size": 2365,
   "제목없어_버림": 38,
   "unrouted": 9,
   "summary": {
@@ -15,17 +15,17 @@
       "products": 345
     },
     "market": {
-      "total": 554,
-      "recent": 43,
-      "material": 554,
-      "material_recent": 43,
+      "total": 555,
+      "recent": 44,
+      "material": 555,
+      "material_recent": 44,
       "products": 0
     },
     "listing": {
-      "total": 73,
-      "recent": 11,
-      "material": 73,
-      "material_recent": 11,
+      "total": 74,
+      "recent": 12,
+      "material": 74,
+      "material_recent": 12,
       "products": 0
     },
     "pricing": {
@@ -36,10 +36,10 @@
       "products": 0
     },
     "legal": {
-      "total": 157,
-      "recent": 26,
-      "material": 157,
-      "material_recent": 26,
+      "total": 158,
+      "recent": 27,
+      "material": 158,
+      "material_recent": 27,
       "products": 0
     },
     "design": {
@@ -57,10 +57,10 @@
       "products": 0
     },
     "knowledge": {
-      "total": 193,
-      "recent": 71,
-      "material": 193,
-      "material_recent": 71,
+      "total": 194,
+      "recent": 72,
+      "material": 194,
+      "material_recent": 72,
       "products": 0
     },
     "institutions": {
@@ -514,6 +514,14 @@
         "by_hand": true
       },
       {
+        "title": "Jev System 1 판단 후 Gemini 조건부 에스컬레이션",
+        "url": "https://www.youtube.com/watch?v=BJeHhsMVc8A&t=34s",
+        "pool": "team_briefing",
+        "summary": "Jev는 상태와 질문을 받아 choice·score·boolean 판단을 병렬로 반환하는 System 1 계층이며, 모델 라우팅(06:04~06:47), 위험 도구 차단(06:47~07:28), 온라인 평가(07:28~08:46)에 사용할 수 있다. JARVIS에서는 결정적 로컬 게이트를 먼저 적용하고 Jev가 열린 진단이 필요하다고 분류하거나 미분류 오류가 반복될 때만 Gemini Flash-Lite를 회차당 1회 호출한다. Gemini는 진단 초안만 만들며 정본 변경, 공개 게시, 결제, 광고, 법률 승인 대행은 할 수 없다.",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
         "title": "Digital Marketing 101: 10 Strategies Every Shopify Store Needs (Marketing Masterclass Part 1)",
         "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
         "pool": "youtube_manual",
@@ -930,13 +938,6 @@
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
-      },
-      {
-        "title": "Actionable insights for agentic selling",
-        "url": "https://www.youtube.com/watch?v=K1nR7pe49cM",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
       }
     ],
     "listing": [
@@ -945,6 +946,14 @@
         "url": "https://share.gemini.google/9PFLmGZM2rqu",
         "pool": "team_briefing",
         "summary": "제안된 8단계 흐름은 JARVIS의 수집→구조화→비서실장 라우팅→분석→카피→디자인→검수→채널 전달 구조와 방향이 맞다. 다만 실시간 수집, 고화질 미디어 자동 생성, SNS 자동 게시라는 표현은 현재 구현보다 앞서 있으므로 각각 주기 수집, 초안·레퍼런스 단계, 사람 승인 후 실행으로 정정한다. Shopify 카피 10건은 준비됐지만 공개 준비는 0건이며 외부 채널 쓰기는 연결하지 않는다.",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "Jev System 1 판단 후 Gemini 조건부 에스컬레이션",
+        "url": "https://www.youtube.com/watch?v=BJeHhsMVc8A&t=34s",
+        "pool": "team_briefing",
+        "summary": "Jev는 상태와 질문을 받아 choice·score·boolean 판단을 병렬로 반환하는 System 1 계층이며, 모델 라우팅(06:04~06:47), 위험 도구 차단(06:47~07:28), 온라인 평가(07:28~08:46)에 사용할 수 있다. JARVIS에서는 결정적 로컬 게이트를 먼저 적용하고 Jev가 열린 진단이 필요하다고 분류하거나 미분류 오류가 반복될 때만 Gemini Flash-Lite를 회차당 1회 호출한다. Gemini는 진단 초안만 만들며 정본 변경, 공개 게시, 결제, 광고, 법률 승인 대행은 할 수 없다.",
         "date": "2026-09-27",
         "by_hand": true
       },
@@ -1367,13 +1376,6 @@
         "pool": "fda",
         "date": "2025-08-21",
         "by_hand": false
-      },
-      {
-        "title": "[Rule] Listing of Color Additives Exempt From Certification; Gardenia (Genipin) Blue",
-        "url": "https://www.federalregister.gov/documents/2025/07/15/2025-13175/listing-of-color-additives-exempt-from-certification-gardenia-genipin-blue",
-        "pool": "fda",
-        "date": "2025-07-15",
-        "by_hand": false
       }
     ],
     "pricing": [
@@ -1515,6 +1517,14 @@
         "url": "https://share.gemini.google/9PFLmGZM2rqu",
         "pool": "team_briefing",
         "summary": "제안된 8단계 흐름은 JARVIS의 수집→구조화→비서실장 라우팅→분석→카피→디자인→검수→채널 전달 구조와 방향이 맞다. 다만 실시간 수집, 고화질 미디어 자동 생성, SNS 자동 게시라는 표현은 현재 구현보다 앞서 있으므로 각각 주기 수집, 초안·레퍼런스 단계, 사람 승인 후 실행으로 정정한다. Shopify 카피 10건은 준비됐지만 공개 준비는 0건이며 외부 채널 쓰기는 연결하지 않는다.",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "Jev System 1 판단 후 Gemini 조건부 에스컬레이션",
+        "url": "https://www.youtube.com/watch?v=BJeHhsMVc8A&t=34s",
+        "pool": "team_briefing",
+        "summary": "Jev는 상태와 질문을 받아 choice·score·boolean 판단을 병렬로 반환하는 System 1 계층이며, 모델 라우팅(06:04~06:47), 위험 도구 차단(06:47~07:28), 온라인 평가(07:28~08:46)에 사용할 수 있다. JARVIS에서는 결정적 로컬 게이트를 먼저 적용하고 Jev가 열린 진단이 필요하다고 분류하거나 미분류 오류가 반복될 때만 Gemini Flash-Lite를 회차당 1회 호출한다. Gemini는 진단 초안만 만들며 정본 변경, 공개 게시, 결제, 광고, 법률 승인 대행은 할 수 없다.",
         "date": "2026-09-27",
         "by_hand": true
       },
@@ -1924,13 +1934,6 @@
         "url": "https://www.federalregister.gov/documents/2025/12/18/2025-23249/questions-and-answers-regarding-mandatory-cosmetics-recalls-draft-guidance-for-industry-availability",
         "pool": "fda",
         "date": "2025-12-18",
-        "by_hand": false
-      },
-      {
-        "title": "[Proposed Rule] Testing Methods for Detecting and Identifying Asbestos in Talc-Containing Cosmetic Products; Withdrawal",
-        "url": "https://www.federalregister.gov/documents/2025/11/28/2025-21407/testing-methods-for-detecting-and-identifying-asbestos-in-talc-containing-cosmetic-products",
-        "pool": "fda",
-        "date": "2025-11-28",
         "by_hand": false
       }
     ],
@@ -2802,6 +2805,14 @@
         "by_hand": true
       },
       {
+        "title": "Jev System 1 판단 후 Gemini 조건부 에스컬레이션",
+        "url": "https://www.youtube.com/watch?v=BJeHhsMVc8A&t=34s",
+        "pool": "team_briefing",
+        "summary": "Jev는 상태와 질문을 받아 choice·score·boolean 판단을 병렬로 반환하는 System 1 계층이며, 모델 라우팅(06:04~06:47), 위험 도구 차단(06:47~07:28), 온라인 평가(07:28~08:46)에 사용할 수 있다. JARVIS에서는 결정적 로컬 게이트를 먼저 적용하고 Jev가 열린 진단이 필요하다고 분류하거나 미분류 오류가 반복될 때만 Gemini Flash-Lite를 회차당 1회 호출한다. Gemini는 진단 초안만 만들며 정본 변경, 공개 게시, 결제, 광고, 법률 승인 대행은 할 수 없다.",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
         "title": "고객 문제·포지셔닝·신뢰·수익구조·운영 루프 정의",
         "url": "",
         "pool": "team_briefing",
@@ -3207,13 +3218,6 @@
       {
         "title": "Interpretable Multi-Hypersphere Deep Anomaly Detection for Open-set Supervised Anomaly Detection",
         "url": "https://arxiv.org/abs/2609.23008",
-        "pool": "arxiv",
-        "date": "2026-09-19",
-        "by_hand": false
-      },
-      {
-        "title": "DriveReferee: Geometric Safety Verdicts Need Not Be Learned for Driving World-Action Models",
-        "url": "https://arxiv.org/abs/2609.22762",
         "pool": "arxiv",
         "date": "2026-09-19",
         "by_hand": false

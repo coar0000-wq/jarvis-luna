@@ -63,6 +63,9 @@ jobs:
       TYPESAFE_ENABLED: '1'
       TYPESAFE_FREE_CREDITS_ONLY: '1'
       TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_API_KEY }}
+      GEMINI_FALLBACK_ENABLED: '1'
+      GEMINI_FREE_TIER_ONLY: '1'
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
     steps:
 
@@ -473,6 +476,7 @@ jobs:
         run: |
           python -u scripts/generate_dashboard_runtime.py
           python -u scripts/run_jarvis_agents.py --force
+          python -u scripts/gemini_escalation.py
           python -u scripts/build_team_improvement.py
 
       # 게이트/승인/온톨로지 위반 산출물을 공개 저장소에 올리지 않는다.

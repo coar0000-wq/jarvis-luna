@@ -68,6 +68,8 @@ def _sha256_bytes(value: bytes) -> str:
 def _typesafe_state_signature(context: dict[str, Any]) -> str:
     """판정의 근거가 된 상태를 한 줄로 줄여 담는다."""
     semantic = {
+        # Jev 질문 스키마가 바뀌면 같은 상품 상태라도 새 판정을 받아야 한다.
+        "advisory_schema": 2,
         "blocked_by": sorted(context.get("blocked_by") or []),
         "public_blocked_by": sorted(context.get("public_blocked_by") or []),
         "grade": context.get("grade"),

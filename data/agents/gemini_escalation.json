@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-27T14:40:57.235514+00:00",
+  "generator": "scripts/gemini_escalation.py",
+  "policy": "data\\manual\\model_routing_policy.json",
+  "enabled": true,
+  "free_tier_only": true,
+  "model": "gemini-flash-lite-latest",
+  "max_calls_per_run": 1,
+  "max_output_tokens": 700,
+  "advisory_only": true,
+  "paid_api_called": false,
+  "canonical_gate_changed": false,
+  "external_action_executed": false,
+  "call_count": 0,
+  "called": false,
+  "reasons": [],
+  "advice": null,
+  "usage": null,
+  "error": "",
+  "policy_schema_version": 1,
+  "status": "not_needed"
+}

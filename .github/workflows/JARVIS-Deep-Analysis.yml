@@ -43,6 +43,11 @@ jobs:
       TYPESAFE_ENABLED: '1'
       TYPESAFE_FREE_CREDITS_ONLY: '1'
       TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_API_KEY }}
+      # Jev/로컬 판정이 부족하다고 구조적으로 확인된 회차에만 1회 호출한다.
+      # 결과는 진단 advisory뿐이며 외부 실행·게시·결제에는 사용하지 않는다.
+      GEMINI_FALLBACK_ENABLED: '1'
+      GEMINI_FREE_TIER_ONLY: '1'
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
     steps:
 
@@ -430,9 +435,10 @@ jobs:
         run: |
           python scripts/generate_dashboard_runtime.py
 
-      - name: Refresh typed ops plan and team improvement
+      - name: Refresh typed ops plan and conditional Gemini escalation
         run: |
           python -u scripts/run_jarvis_agents.py --force
+          python -u scripts/gemini_escalation.py
           python -u scripts/build_team_improvement.py
 
       # =========================
