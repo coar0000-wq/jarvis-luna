@@ -2,7 +2,7 @@
 title: "Record 2a05cca31c · LABO-H-Scalp-Strengthening-Tonic-Serum-33-fl-oz100ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T05:21:29.333963+00:00
+updated_at: 2026-09-27T12:05:29.160585+00:00
 tags: [record, real-data]
 ---
 

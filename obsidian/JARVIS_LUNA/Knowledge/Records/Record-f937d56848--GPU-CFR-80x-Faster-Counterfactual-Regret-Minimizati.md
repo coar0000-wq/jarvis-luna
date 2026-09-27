@@ -2,7 +2,7 @@
 title: "Record f937d56848 · GPU-CFR-80x-Faster-Counterfactual-Regret-Minimizati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T05:21:28.351713+00:00
+updated_at: 2026-09-27T12:05:28.158632+00:00
 tags: [record, real-data]
 ---
 

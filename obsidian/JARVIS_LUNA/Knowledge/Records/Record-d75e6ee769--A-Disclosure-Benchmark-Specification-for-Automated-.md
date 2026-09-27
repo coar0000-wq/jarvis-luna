@@ -2,7 +2,7 @@
 title: "Record d75e6ee769 · A-Disclosure-Benchmark-Specification-for-Automated-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T05:21:28.756487+00:00
+updated_at: 2026-09-27T12:05:28.587397+00:00
 tags: [record, real-data]
 ---
 

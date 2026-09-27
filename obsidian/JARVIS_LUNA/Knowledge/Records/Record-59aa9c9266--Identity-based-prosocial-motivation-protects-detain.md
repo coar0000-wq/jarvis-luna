@@ -2,7 +2,7 @@
 title: "Record 59aa9c9266 · Identity-based-prosocial-motivation-protects-detain"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T05:21:28.497310+00:00
+updated_at: 2026-09-27T12:05:28.318860+00:00
 tags: [record, real-data]
 ---
 

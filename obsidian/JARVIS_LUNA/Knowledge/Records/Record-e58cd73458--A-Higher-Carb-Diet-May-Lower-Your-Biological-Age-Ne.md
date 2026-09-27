@@ -2,7 +2,7 @@
 title: "Record e58cd73458 · A-Higher-Carb-Diet-May-Lower-Your-Biological-Age-New-Study-Suggests"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T05:21:29.373923+00:00
+updated_at: 2026-09-27T12:05:29.202060+00:00
 tags: [record, real-data]
 ---
 

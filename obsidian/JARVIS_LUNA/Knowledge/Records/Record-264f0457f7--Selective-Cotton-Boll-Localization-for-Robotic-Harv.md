@@ -2,7 +2,7 @@
 title: "Record 264f0457f7 · Selective-Cotton-Boll-Localization-for-Robotic-Harvesting-Evaluation-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T05:21:28.385881+00:00
+updated_at: 2026-09-27T12:05:28.193426+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 0eb0a6da6f · Discoloration-Correcting-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T05:21:29.627750+00:00
+updated_at: 2026-09-27T12:05:29.453426+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 83859f9001 · Implementation-and-Evaluation-of-BitNet-Inference-on-a-CGLA-by-Signed-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T05:21:28.710175+00:00
+updated_at: 2026-09-27T12:05:28.538977+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 947e89eaa8 · Introducing-Gemini-38-Live-and-38-Live-Extended-Thinking"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T05:21:28.432827+00:00
+updated_at: 2026-09-27T12:05:28.250941+00:00
 tags: [record, real-data]
 ---
 

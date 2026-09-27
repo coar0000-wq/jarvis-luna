@@ -2,7 +2,7 @@
 title: "Record d3239e7a79 · Therapeutic-NAMPT-inhibition-reveals-a-targetable-m"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T05:21:28.567650+00:00
+updated_at: 2026-09-27T12:05:28.390185+00:00
 tags: [record, real-data]
 ---
 

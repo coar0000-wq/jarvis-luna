@@ -2,7 +2,7 @@
 title: "Record 2f36a9bc24 · Macquarie-bets-on-K-beauty-manufacturing-with-220M-ODM-deal---Dealroom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T05:21:29.116734+00:00
+updated_at: 2026-09-27T12:05:28.938575+00:00
 tags: [record, real-data]
 ---
 

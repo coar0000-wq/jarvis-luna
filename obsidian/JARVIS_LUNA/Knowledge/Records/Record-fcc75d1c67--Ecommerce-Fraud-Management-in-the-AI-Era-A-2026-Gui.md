@@ -2,7 +2,7 @@
 title: "Record fcc75d1c67 · Ecommerce-Fraud-Management-in-the-AI-Era-A-2026-Guide---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T05:21:28.993944+00:00
+updated_at: 2026-09-27T12:05:28.819896+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMieEFVX3lxTE9SUHBuMjVoQzNLUjFYcHE0ZXB2eFF4TV9NcnBjdEdBTnlzUjcwVExlbGRLMFkxTjdVSWpLeHgyUXczTjZCLXJEWURBZEpBUVVfdng3Z2dWSUNrWmpEdmVqanVVQWxyQUtrNHBPbjZSNUhOeE01T1BLUg?oc=5)
 
-**제목:** Ecommerce Fraud Management in the AI Era: A 2026 Guide - shopify.com
+**제목:** Ecommerce Fraud Management in the AI Era: A 2026 Guide - Shopify
 
-Ecommerce Fraud Management in the AI Era: A 2026 Guide - shopify.com
+Ecommerce Fraud Management in the AI Era: A 2026 Guide - Shopify
 
 **출처:** Source · Google Search
 

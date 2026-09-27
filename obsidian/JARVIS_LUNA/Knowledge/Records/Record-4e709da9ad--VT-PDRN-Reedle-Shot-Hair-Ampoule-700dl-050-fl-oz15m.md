@@ -2,7 +2,7 @@
 title: "Record 4e709da9ad · VT-PDRN-Reedle-Shot-Hair-Ampoule-700dl-050-fl-oz15m"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T05:21:29.338062+00:00
+updated_at: 2026-09-27T12:05:29.162985+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record cd0bf2e5a7 · Assessing-bioaccumulation-with-biomagnification-fac"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T05:21:28.522473+00:00
+updated_at: 2026-09-27T12:05:28.345174+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record d778e66342 · This-Week-In-E-Commerce---Shopifys-2026-Shareholder-Meeting-Highlights"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T05:21:29.124616+00:00
+updated_at: 2026-09-27T12:05:28.946249+00:00
 tags: [record, real-data]
 ---
 

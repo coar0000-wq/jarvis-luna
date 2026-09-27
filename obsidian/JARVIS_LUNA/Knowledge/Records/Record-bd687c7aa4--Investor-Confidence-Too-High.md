@@ -2,7 +2,7 @@
 title: "Record bd687c7aa4 · Investor-Confidence-Too-High"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T05:21:29.567985+00:00
+updated_at: 2026-09-27T12:05:29.388694+00:00
 tags: [record, real-data]
 ---
 

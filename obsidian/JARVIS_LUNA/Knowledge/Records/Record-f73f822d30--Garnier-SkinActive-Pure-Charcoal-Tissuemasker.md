@@ -2,7 +2,7 @@
 title: "Record f73f822d30 · Garnier-SkinActive-Pure-Charcoal-Tissuemasker"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T05:21:29.354992+00:00
+updated_at: 2026-09-27T12:05:29.180997+00:00
 tags: [record, real-data]
 ---
 

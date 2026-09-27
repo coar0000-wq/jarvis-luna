@@ -2,7 +2,7 @@
 title: "Record dae7d1b0dd · AMD-Reports-Second-Quarter-2026-Financial-Results"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T05:21:28.816224+00:00
+updated_at: 2026-09-27T12:05:28.651861+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 77c571d75e · Passivation-Dependent-Device-Level-Thermal-Robustne"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T05:21:28.492187+00:00
+updated_at: 2026-09-27T12:05:28.313140+00:00
 tags: [record, real-data]
 ---
 

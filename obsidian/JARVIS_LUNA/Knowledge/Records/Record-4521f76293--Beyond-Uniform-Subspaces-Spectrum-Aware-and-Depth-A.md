@@ -2,7 +2,7 @@
 title: "Record 4521f76293 · Beyond-Uniform-Subspaces-Spectrum-Aware-and-Depth-Adaptive-Fusion-for-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T05:21:28.695977+00:00
+updated_at: 2026-09-27T12:05:28.521377+00:00
 tags: [record, real-data]
 ---
 

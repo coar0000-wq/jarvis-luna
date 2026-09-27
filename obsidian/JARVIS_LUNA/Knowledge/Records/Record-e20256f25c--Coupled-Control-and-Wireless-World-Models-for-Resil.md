@@ -2,7 +2,7 @@
 title: "Record e20256f25c · Coupled-Control-and-Wireless-World-Models-for-Resil"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T05:21:28.266867+00:00
+updated_at: 2026-09-27T12:05:28.060566+00:00
 tags: [record, real-data]
 ---
 

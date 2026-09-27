@@ -2,7 +2,7 @@
 title: "Record d70ca999d1 · On-the-Nature-of-Curvature-A-Transport-Based-Ontolo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T05:21:28.741240+00:00
+updated_at: 2026-09-27T12:05:28.571821+00:00
 tags: [record, real-data]
 ---
 

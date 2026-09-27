@@ -2,7 +2,7 @@
 title: "Record 3d74e3a1d9 · Pamela-Anderson-Brought-Classic-Movie-Star-Hair-to-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T05:21:29.386514+00:00
+updated_at: 2026-09-27T12:05:29.213437+00:00
 tags: [record, real-data]
 ---
 

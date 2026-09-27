@@ -2,7 +2,7 @@
 title: "Record e969dddfcd · Beyond-Exact-Match-Task-Aware-GRPO-for-Cross-Domain-PCBA-Visual-Questi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T05:21:28.673453+00:00
+updated_at: 2026-09-27T12:05:28.500316+00:00
 tags: [record, real-data]
 ---
 

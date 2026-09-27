@@ -2,7 +2,7 @@
 title: "Record f287deb8ba · Predicting-Lakehouse-Performance-in-Clouds-An-Empir"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T05:21:29.278522+00:00
+updated_at: 2026-09-27T12:05:29.102866+00:00
 tags: [record, real-data]
 ---
 

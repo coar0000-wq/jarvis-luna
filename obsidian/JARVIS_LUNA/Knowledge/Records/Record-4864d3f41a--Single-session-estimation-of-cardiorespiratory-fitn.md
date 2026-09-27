@@ -2,7 +2,7 @@
 title: "Record 4864d3f41a · Single-session-estimation-of-cardiorespiratory-fitn"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T05:21:28.506565+00:00
+updated_at: 2026-09-27T12:05:28.328794+00:00
 tags: [record, real-data]
 ---
 

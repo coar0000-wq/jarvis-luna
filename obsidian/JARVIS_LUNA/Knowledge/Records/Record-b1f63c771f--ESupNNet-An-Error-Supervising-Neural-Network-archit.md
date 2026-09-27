@@ -2,7 +2,7 @@
 title: "Record b1f63c771f · ESupNNet-An-Error-Supervising-Neural-Network-architecture-for-error-de"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T05:21:28.411204+00:00
+updated_at: 2026-09-27T12:05:28.220732+00:00
 tags: [record, real-data]
 ---
 
