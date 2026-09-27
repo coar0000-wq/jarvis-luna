@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-27T14:03:48.422467+00:00",
+  "generated_at": "2026-09-27T14:08:50.081883+00:00",
   "csv": "data/shopify_import.csv",
   "rows": 0,
-  "listing_gate": "listing_gate.json 2026-09-27T14:03:48 기준 등록 가능 9/10",
+  "listing_gate": "listing_gate.json 2026-09-27T14:08:49 기준 등록 가능 10/10",
   "skipped": [
     {
       "pd_no": "1049276",
@@ -42,7 +42,7 @@
     {
       "pd_no": "1067495",
       "name_ko": "[퀵 수분충전]VT PDRN 광채 토너 200 ml",
-      "reason": "등록 게이트 미통과 - 카피, us_label, 법률 검토 미완료"
+      "reason": "원가 모델에 해당 상품이 없어 가격 산출 불가"
     },
     {
       "pd_no": "1059834",

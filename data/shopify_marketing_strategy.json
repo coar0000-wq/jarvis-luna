@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-27T23:03:48.230419+09:00",
+  "generated_at": "2026-09-27T23:08:49.923463+09:00",
   "generator": "scripts/build_shopify_marketing_strategy.py",
   "status": "evidence_ready",
   "scope": "US K-Beauty Shopify launch marketing",
@@ -1067,7 +1067,7 @@
       "bucket": "스킨케어",
       "grade": "S",
       "score": 92,
-      "agent_ready": false,
+      "agent_ready": true,
       "public_ready": false,
       "recommended_insight_ids": [
         "MKT-002",
@@ -1194,10 +1194,10 @@
     "경쟁 스토어 문구와 디자인 복제는 저작권·상표 위험으로 금지"
   ],
   "integrity": {
-    "listing_gate_generated_at": "2026-09-27T14:03:48.095590+00:00",
+    "listing_gate_generated_at": "2026-09-27T14:08:49.813131+00:00",
     "s_product_count": 10,
     "product_playbook_count": 10,
     "public_ready_count": 0,
-    "agent_ready_count": 9
+    "agent_ready_count": 10
   }
 }
