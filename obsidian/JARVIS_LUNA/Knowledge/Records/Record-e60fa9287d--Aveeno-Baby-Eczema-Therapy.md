@@ -2,7 +2,7 @@
 title: "Record e60fa9287d · Aveeno-Baby-Eczema-Therapy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T14:58:02.781526+00:00
+updated_at: 2026-09-27T17:00:05.136204+00:00
 tags: [record, real-data]
 ---
 

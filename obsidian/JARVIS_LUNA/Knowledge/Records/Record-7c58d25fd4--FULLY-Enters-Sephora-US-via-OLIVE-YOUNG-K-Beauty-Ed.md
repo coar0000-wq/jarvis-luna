@@ -2,7 +2,7 @@
 title: "Record 7c58d25fd4 · FULLY-Enters-Sephora-US-via-OLIVE-YOUNG-K-Beauty-Ed"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T14:58:02.362719+00:00
+updated_at: 2026-09-27T17:00:04.757927+00:00
 tags: [record, real-data]
 ---
 

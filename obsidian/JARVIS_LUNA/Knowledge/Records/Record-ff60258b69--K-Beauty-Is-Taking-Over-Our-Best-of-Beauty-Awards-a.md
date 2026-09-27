@@ -2,7 +2,7 @@
 title: "Record ff60258b69 · K-Beauty-Is-Taking-Over-Our-Best-of-Beauty-Awards-and-for-Good-Reason-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T14:58:02.392046+00:00
+updated_at: 2026-09-27T17:00:04.776134+00:00
 tags: [record, real-data]
 ---
 
@@ -13,9 +13,10 @@ tags: [record, real-data]
 **제목:** K-Beauty Is Taking Over Our Best of Beauty Awards, and for Good Reason - Allure
 
 K-Beauty Is Taking Over Our Best of Beauty Awards, and for Good Reason - Allure
+K-Beauty Is Taking Over Our Best of Beauty Awards, and for Good Reason - Allure
 
-**출처:** Source · Google Search
+**출처:** Source · us_beauty
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

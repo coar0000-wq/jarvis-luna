@@ -2,7 +2,7 @@
 title: "Record c6422e3afc · 오늘-올리브영-단-하루-특가속건조-싹-잡는-판테놀-11-혜택"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T14:58:03.110839+00:00
+updated_at: 2026-09-27T17:00:05.439621+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record f67542c704 · Finding-and-using-interpretable-latents-in-a-neutri"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T14:58:03.220649+00:00
+updated_at: 2026-09-27T17:00:05.541747+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record c9ec89d619 · Toleriane-Purifying-Foaming-Face-Wash-for-Oily-Skin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T14:58:03.096084+00:00
+updated_at: 2026-09-27T17:00:05.428011+00:00
 tags: [record, real-data]
 ---
 

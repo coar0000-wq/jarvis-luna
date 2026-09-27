@@ -2,7 +2,7 @@
 title: "Record 6bd6216c06 · K-Beauty--How-One-New-York-Pop-Up-Stunned-Investors"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T14:58:02.348871+00:00
+updated_at: 2026-09-27T17:00:04.742110+00:00
 tags: [record, real-data]
 ---
 

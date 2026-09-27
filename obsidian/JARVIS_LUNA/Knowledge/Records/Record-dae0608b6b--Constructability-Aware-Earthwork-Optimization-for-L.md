@@ -2,7 +2,7 @@
 title: "Record dae0608b6b · Constructability-Aware-Earthwork-Optimization-for-Large-Scale-Site-Gra"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T14:58:01.985674+00:00
+updated_at: 2026-09-27T17:00:04.386496+00:00
 tags: [record, real-data]
 ---
 

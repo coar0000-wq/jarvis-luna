@@ -2,7 +2,7 @@
 title: "Record a540d2ee70 · AESTURA-Atobarrier365-Cream-270-fl-oz-80ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T14:58:02.772603+00:00
+updated_at: 2026-09-27T17:00:05.127639+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)
 
 AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)
-AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml) · 평점 5 · 리뷰 2
+AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml) · 평점 5 · 리뷰 4
 
 **출처:** Source · us_beauty
 

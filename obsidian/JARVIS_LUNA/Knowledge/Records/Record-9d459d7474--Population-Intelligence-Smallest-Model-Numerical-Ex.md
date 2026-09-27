@@ -2,7 +2,7 @@
 title: "Record 9d459d7474 · Population-Intelligence-Smallest-Model-Numerical-Experiment"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T14:58:02.175781+00:00
+updated_at: 2026-09-27T17:00:04.571908+00:00
 tags: [record, real-data]
 ---
 

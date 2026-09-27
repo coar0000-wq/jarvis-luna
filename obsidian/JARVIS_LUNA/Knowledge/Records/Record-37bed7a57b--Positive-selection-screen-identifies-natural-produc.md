@@ -2,7 +2,7 @@
 title: "Record 37bed7a57b · Positive-selection-screen-identifies-natural-product-β-catenin-inactiv"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T14:58:01.857843+00:00
+updated_at: 2026-09-27T17:00:04.262833+00:00
 tags: [record, real-data]
 ---
 

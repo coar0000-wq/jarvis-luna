@@ -2,7 +2,7 @@
 title: "Record 81386dd8c4 · Freehand-Sketching-for-End-User-Programming-of-Robo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T14:58:01.632079+00:00
+updated_at: 2026-09-27T17:00:04.048420+00:00
 tags: [record, real-data]
 ---
 

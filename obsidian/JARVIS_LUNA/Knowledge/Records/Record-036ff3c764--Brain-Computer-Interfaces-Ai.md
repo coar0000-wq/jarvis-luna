@@ -2,7 +2,7 @@
 title: "Record 036ff3c764 · Brain-Computer-Interfaces-Ai"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T14:58:03.010558+00:00
+updated_at: 2026-09-27T17:00:05.343390+00:00
 tags: [record, real-data]
 ---
 

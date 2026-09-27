@@ -2,7 +2,7 @@
 title: "Record ead2b3fd8f · Neutrogena-launches-two-BEMT-sunscreens-with-a-K-beauty-inspired-twist"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T14:58:02.524746+00:00
+updated_at: 2026-09-27T17:00:04.901175+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 9f3bdbdd4a · RODAN-AI---Część-IV---Ku-architekturze-RODAN-2-Lokalny-STTTTS-rozprosz"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T14:58:02.146066+00:00
+updated_at: 2026-09-27T17:00:04.539717+00:00
 tags: [record, real-data]
 ---
 

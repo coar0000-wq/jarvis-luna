@@ -2,7 +2,7 @@
 title: "Record da026f7986 · Bridging-the-Vendor-Gap-Enabling-AMD-GPU-Support-for-Awkward-Array-via"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T14:58:01.718329+00:00
+updated_at: 2026-09-27T17:00:04.130864+00:00
 tags: [record, real-data]
 ---
 

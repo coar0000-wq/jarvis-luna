@@ -2,7 +2,7 @@
 title: "Record 96900feeaa · From-Grid-to-Chip-Power-Architecture-Stability-and-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T14:58:01.643174+00:00
+updated_at: 2026-09-27T17:00:04.058557+00:00
 tags: [record, real-data]
 ---
 

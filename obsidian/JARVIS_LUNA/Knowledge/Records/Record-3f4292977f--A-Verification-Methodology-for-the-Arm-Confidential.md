@@ -2,7 +2,7 @@
 title: "Record 3f4292977f · A-Verification-Methodology-for-the-Arm-Confidential-Computing-Architec"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T14:58:01.920468+00:00
+updated_at: 2026-09-27T17:00:04.323064+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record b1897493fd · Your-Prompts-and-Skills-need-a-system-of-record"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T14:58:02.223345+00:00
+updated_at: 2026-09-27T17:00:04.622313+00:00
 tags: [record, real-data]
 ---
 

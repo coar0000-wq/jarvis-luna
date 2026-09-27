@@ -2,7 +2,7 @@
 title: "Record 56a8b28ab6 · China-Next-Industrial-Revolution-Industry-5-Outlook"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T14:58:03.034774+00:00
+updated_at: 2026-09-27T17:00:05.367878+00:00
 tags: [record, real-data]
 ---
 

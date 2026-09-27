@@ -2,7 +2,7 @@
 title: "Record 7826a36191 · Why-The-Ecb-Is-Unlikely-To-Keep-Rates-Higher-Than-3-Percent"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T14:58:02.958506+00:00
+updated_at: 2026-09-27T17:00:05.303468+00:00
 tags: [record, real-data]
 ---
 

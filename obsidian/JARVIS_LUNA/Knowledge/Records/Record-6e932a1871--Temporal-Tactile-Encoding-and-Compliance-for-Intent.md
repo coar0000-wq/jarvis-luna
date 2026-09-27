@@ -2,7 +2,7 @@
 title: "Record 6e932a1871 · Temporal-Tactile-Encoding-and-Compliance-for-Intent"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T14:58:01.574159+00:00
+updated_at: 2026-09-27T17:00:03.991961+00:00
 tags: [record, real-data]
 ---
 

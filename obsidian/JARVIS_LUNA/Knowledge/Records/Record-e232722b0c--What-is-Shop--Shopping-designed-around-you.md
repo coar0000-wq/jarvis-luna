@@ -2,7 +2,7 @@
 title: "Record e232722b0c · What-is-Shop--Shopping-designed-around-you"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T14:58:03.197230+00:00
+updated_at: 2026-09-27T17:00:05.519868+00:00
 tags: [record, real-data]
 ---
 

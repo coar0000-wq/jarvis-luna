@@ -2,7 +2,7 @@
 title: "Record 267f1955b8 · Theory-meets-Practice-worst-case-behavior-of-quanti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T14:58:02.685514+00:00
+updated_at: 2026-09-27T17:00:05.047991+00:00
 tags: [record, real-data]
 ---
 

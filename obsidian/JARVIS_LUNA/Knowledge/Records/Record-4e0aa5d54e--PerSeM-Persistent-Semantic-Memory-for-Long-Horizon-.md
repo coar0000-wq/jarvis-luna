@@ -2,7 +2,7 @@
 title: "Record 4e0aa5d54e · PerSeM-Persistent-Semantic-Memory-for-Long-Horizon-Open-Vocabulary-UAV"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T14:58:01.691405+00:00
+updated_at: 2026-09-27T17:00:04.104578+00:00
 tags: [record, real-data]
 ---
 

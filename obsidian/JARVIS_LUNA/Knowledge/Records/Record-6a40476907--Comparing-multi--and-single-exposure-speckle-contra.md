@@ -2,7 +2,7 @@
 title: "Record 6a40476907 · Comparing-multi--and-single-exposure-speckle-contrast-optical-spectros"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T14:58:01.910011+00:00
+updated_at: 2026-09-27T17:00:04.313704+00:00
 tags: [record, real-data]
 ---
 

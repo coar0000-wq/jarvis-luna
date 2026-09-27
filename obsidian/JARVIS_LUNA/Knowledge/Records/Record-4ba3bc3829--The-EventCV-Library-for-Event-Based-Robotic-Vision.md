@@ -2,7 +2,7 @@
 title: "Record 4ba3bc3829 · The-EventCV-Library-for-Event-Based-Robotic-Vision"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T14:58:02.061346+00:00
+updated_at: 2026-09-27T17:00:04.457923+00:00
 tags: [record, real-data]
 ---
 

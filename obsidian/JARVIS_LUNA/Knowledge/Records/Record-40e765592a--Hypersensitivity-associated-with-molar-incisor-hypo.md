@@ -2,7 +2,7 @@
 title: "Record 40e765592a · Hypersensitivity-associated-with-molar-incisor-hypomineralisation-MIH-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T14:58:01.786336+00:00
+updated_at: 2026-09-27T17:00:04.198421+00:00
 tags: [record, real-data]
 ---
 

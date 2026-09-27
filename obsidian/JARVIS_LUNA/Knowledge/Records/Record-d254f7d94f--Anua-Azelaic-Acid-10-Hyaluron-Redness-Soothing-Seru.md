@@ -2,7 +2,7 @@
 title: "Record d254f7d94f · Anua-Azelaic-Acid-10-Hyaluron-Redness-Soothing-Seru"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T14:58:02.774935+00:00
+updated_at: 2026-09-27T17:00:05.129865+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** Anua Azelaic Acid 10 Hyaluron Redness Soothing Serum 1.01 fl. oz.(30ml)
 
 Anua Azelaic Acid 10 Hyaluron Redness Soothing Serum 1.01 fl. oz.(30ml)
-Anua Azelaic Acid 10 Hyaluron Redness Soothing Serum 1.01 fl. oz.(30ml) · 평점 4.9 · 리뷰 19
+Anua Azelaic Acid 10 Hyaluron Redness Soothing Serum 1.01 fl. oz.(30ml) · 평점 4.9 · 리뷰 21
 
 **출처:** Source · us_beauty
 

@@ -2,7 +2,7 @@
 title: "Record 81481aa316 · Gemini-38-text-to-speech-says-hello"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T14:58:01.758008+00:00
+updated_at: 2026-09-27T17:00:04.170007+00:00
 tags: [record, real-data]
 ---
 

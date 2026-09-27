@@ -2,7 +2,7 @@
 title: "Record 242b0d0561 · Generative-KI-in-der-Finanzbranche-Strategische-technologische-und-org"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T14:58:01.941307+00:00
+updated_at: 2026-09-27T17:00:04.343049+00:00
 tags: [record, real-data]
 ---
 

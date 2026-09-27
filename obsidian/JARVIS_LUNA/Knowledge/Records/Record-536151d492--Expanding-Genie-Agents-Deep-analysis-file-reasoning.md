@@ -2,7 +2,7 @@
 title: "Record 536151d492 · Expanding-Genie-Agents-Deep-analysis-file-reasoning"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T14:58:02.945972+00:00
+updated_at: 2026-09-27T17:00:05.289358+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record eec73a1832 · Seungri-ties-reignite-boycott-against-K-beauty-brand-JM-Solution---The"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T14:58:02.256928+00:00
+updated_at: 2026-09-27T17:00:04.656784+00:00
 tags: [record, real-data]
 ---
 

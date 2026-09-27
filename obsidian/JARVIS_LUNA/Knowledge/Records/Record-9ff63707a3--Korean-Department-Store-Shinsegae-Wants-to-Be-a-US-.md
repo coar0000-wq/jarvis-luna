@@ -2,7 +2,7 @@
 title: "Record 9ff63707a3 · Korean-Department-Store-Shinsegae-Wants-to-Be-a-US-Beauty-Player-Too--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T14:58:02.565745+00:00
+updated_at: 2026-09-27T17:00:04.938911+00:00
 tags: [record, real-data]
 ---
 
@@ -13,9 +13,10 @@ tags: [record, real-data]
 **제목:** Korean Department Store Shinsegae Wants to Be a U.S. Beauty Player, Too - WWD
 
 Korean Department Store Shinsegae Wants to Be a U.S. Beauty Player, Too - WWD
+Korean Department Store Shinsegae Wants to Be a U.S. Beauty Player, Too - WWD
 
-**출처:** Source · Google Search
+**출처:** Source · us_beauty
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

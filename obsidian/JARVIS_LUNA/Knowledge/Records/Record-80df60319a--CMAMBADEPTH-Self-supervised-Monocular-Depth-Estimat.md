@@ -2,7 +2,7 @@
 title: "Record 80df60319a · CMAMBADEPTH-Self-supervised-Monocular-Depth-Estimation-with-Channel-Ma"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T14:58:02.078392+00:00
+updated_at: 2026-09-27T17:00:04.473702+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 0ada0cb907 · Stealthy-in-Semantics-Antagonistic-in-Space-Attacking-Visible-Infrared"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T14:58:01.682763+00:00
+updated_at: 2026-09-27T17:00:04.096646+00:00
 tags: [record, real-data]
 ---
 

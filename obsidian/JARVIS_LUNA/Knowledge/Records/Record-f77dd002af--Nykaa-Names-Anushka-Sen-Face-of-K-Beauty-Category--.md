@@ -2,7 +2,7 @@
 title: "Record f77dd002af · Nykaa-Names-Anushka-Sen-Face-of-K-Beauty-Category---Global-Cosmetics-N"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T14:58:02.489690+00:00
+updated_at: 2026-09-27T17:00:04.868106+00:00
 tags: [record, real-data]
 ---
 

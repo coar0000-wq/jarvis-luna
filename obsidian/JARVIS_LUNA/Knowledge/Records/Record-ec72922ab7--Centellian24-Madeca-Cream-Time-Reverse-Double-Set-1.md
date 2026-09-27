@@ -2,7 +2,7 @@
 title: "Record ec72922ab7 · Centellian24-Madeca-Cream-Time-Reverse-Double-Set-1"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T14:58:02.762921+00:00
+updated_at: 2026-09-27T17:00:05.118788+00:00
 tags: [record, real-data]
 ---
 
