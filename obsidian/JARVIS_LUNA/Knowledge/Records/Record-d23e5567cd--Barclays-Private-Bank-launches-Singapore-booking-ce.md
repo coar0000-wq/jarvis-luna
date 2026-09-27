@@ -2,7 +2,7 @@
 title: "Record d23e5567cd · Barclays-Private-Bank-launches-Singapore-booking-ce"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T17:00:04.591932+00:00
+updated_at: 2026-09-27T21:22:55.658643+00:00
 tags: [record, real-data]
 ---
 

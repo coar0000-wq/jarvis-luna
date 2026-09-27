@@ -2,7 +2,7 @@
 title: "Record f2694bfa96 · Path-to-Astra-critical-capabilities-and-frontier-sa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T17:00:05.038210+00:00
+updated_at: 2026-09-27T21:22:56.084261+00:00
 tags: [record, real-data]
 ---
 

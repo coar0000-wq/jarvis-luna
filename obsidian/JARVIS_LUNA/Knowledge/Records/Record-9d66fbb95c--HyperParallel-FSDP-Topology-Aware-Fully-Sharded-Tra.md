@@ -2,7 +2,7 @@
 title: "Record 9d66fbb95c · HyperParallel-FSDP-Topology-Aware-Fully-Sharded-Training-with-Layout-D"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T17:00:04.121088+00:00
+updated_at: 2026-09-27T21:22:55.276340+00:00
 tags: [record, real-data]
 ---
 

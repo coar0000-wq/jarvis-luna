@@ -2,7 +2,7 @@
 title: "Record 4ed7889eba · NL-FRA-A-MATLAB-package-for-nonlinear-frequency-res"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T17:00:04.012693+00:00
+updated_at: 2026-09-27T21:22:55.192758+00:00
 tags: [record, real-data]
 ---
 

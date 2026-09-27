@@ -2,7 +2,7 @@
 title: "Record 1131b70208 · Ryan-Serhant-On-The-Art-Of-Selling-Luxury-Real-Estate"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T17:00:05.308336+00:00
+updated_at: 2026-09-27T21:22:56.314089+00:00
 tags: [record, real-data]
 ---
 

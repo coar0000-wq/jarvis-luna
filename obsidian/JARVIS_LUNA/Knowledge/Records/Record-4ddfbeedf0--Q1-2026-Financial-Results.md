@@ -2,7 +2,7 @@
 title: "Record 4ddfbeedf0 · Q1-2026-Financial-Results"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T17:00:05.272218+00:00
+updated_at: 2026-09-27T21:22:56.283912+00:00
 tags: [record, real-data]
 ---
 

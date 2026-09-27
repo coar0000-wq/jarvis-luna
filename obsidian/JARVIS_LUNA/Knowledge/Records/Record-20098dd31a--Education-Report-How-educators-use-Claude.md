@@ -2,7 +2,7 @@
 title: "Record 20098dd31a · Education-Report-How-educators-use-Claude"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T17:00:05.262202+00:00
+updated_at: 2026-09-27T21:22:56.275296+00:00
 tags: [record, real-data]
 ---
 

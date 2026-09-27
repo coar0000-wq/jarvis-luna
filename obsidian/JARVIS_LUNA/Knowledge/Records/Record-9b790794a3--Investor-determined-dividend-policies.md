@@ -2,7 +2,7 @@
 title: "Record 9b790794a3 · Investor-determined-dividend-policies"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T17:00:04.189913+00:00
+updated_at: 2026-09-27T21:22:55.339430+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 7ba03aa8a7 · MCP-Under-Attack---Security-Risks-in-the-Model-Cont"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T17:00:04.537383+00:00
+updated_at: 2026-09-27T21:22:55.619569+00:00
 tags: [record, real-data]
 ---
 

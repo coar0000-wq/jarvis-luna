@@ -2,7 +2,7 @@
 title: "Record 13d82c04ed · ArrayLevel-Integration-of-MoS-2-Hf-05-Zr-05-O-2-Ferroelectric-Memristo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T17:00:04.185556+00:00
+updated_at: 2026-09-27T21:22:55.335719+00:00
 tags: [record, real-data]
 ---
 

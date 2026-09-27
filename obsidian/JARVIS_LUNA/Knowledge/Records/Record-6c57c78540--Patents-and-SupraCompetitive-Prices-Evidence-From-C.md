@@ -2,7 +2,7 @@
 title: "Record 6c57c78540 · Patents-and-SupraCompetitive-Prices-Evidence-From-Consumer-Products"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T17:00:04.312053+00:00
+updated_at: 2026-09-27T21:22:55.434464+00:00
 tags: [record, real-data]
 ---
 

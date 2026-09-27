@@ -2,7 +2,7 @@
 title: "Record cd3f75671f · BIODANCE-Bio-Collagen-Real-Deep-Mask-Hydrating-Overnight-Hydrogel-Face"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T17:00:05.188987+00:00
+updated_at: 2026-09-27T21:22:56.214188+00:00
 tags: [record, real-data]
 ---
 

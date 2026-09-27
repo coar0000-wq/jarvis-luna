@@ -2,7 +2,7 @@
 title: "Record d2cfa26e4e · Observability-for-Delegated-Execution-in-Agentic-AI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T17:00:05.063078+00:00
+updated_at: 2026-09-27T21:22:56.103640+00:00
 tags: [record, real-data]
 ---
 

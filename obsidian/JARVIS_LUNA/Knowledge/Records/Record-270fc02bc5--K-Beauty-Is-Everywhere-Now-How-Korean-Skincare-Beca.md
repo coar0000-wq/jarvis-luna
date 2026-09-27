@@ -2,7 +2,7 @@
 title: "Record 270fc02bc5 · K-Beauty-Is-Everywhere-Now-How-Korean-Skincare-Beca"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T17:00:04.914446+00:00
+updated_at: 2026-09-27T21:22:55.975420+00:00
 tags: [record, real-data]
 ---
 

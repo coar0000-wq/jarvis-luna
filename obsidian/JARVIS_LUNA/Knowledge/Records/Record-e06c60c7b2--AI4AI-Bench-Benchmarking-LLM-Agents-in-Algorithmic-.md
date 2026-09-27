@@ -2,7 +2,7 @@
 title: "Record e06c60c7b2 · AI4AI-Bench-Benchmarking-LLM-Agents-in-Algorithmic-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T17:00:05.505900+00:00
+updated_at: 2026-09-27T21:22:56.480994+00:00
 tags: [record, real-data]
 ---
 

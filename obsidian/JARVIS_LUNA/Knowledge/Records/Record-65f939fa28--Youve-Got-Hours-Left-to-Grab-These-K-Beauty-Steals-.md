@@ -2,7 +2,7 @@
 title: "Record 65f939fa28 · Youve-Got-Hours-Left-to-Grab-These-K-Beauty-Steals-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T17:00:04.833128+00:00
+updated_at: 2026-09-27T21:22:55.881599+00:00
 tags: [record, real-data]
 ---
 

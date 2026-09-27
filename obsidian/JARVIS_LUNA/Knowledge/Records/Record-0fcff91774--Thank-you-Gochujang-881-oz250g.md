@@ -2,7 +2,7 @@
 title: "Record 0fcff91774 · Thank-you-Gochujang-881-oz250g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T17:00:05.113695+00:00
+updated_at: 2026-09-27T21:22:56.144256+00:00
 tags: [record, real-data]
 ---
 

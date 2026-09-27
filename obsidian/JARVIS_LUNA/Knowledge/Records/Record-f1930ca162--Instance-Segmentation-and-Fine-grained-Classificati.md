@@ -2,7 +2,7 @@
 title: "Record f1930ca162 · Instance-Segmentation-and-Fine-grained-Classification-for-Urban-Buildi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T17:00:04.106507+00:00
+updated_at: 2026-09-27T21:22:55.264872+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 45ca267f81 · lo-la-Beauty-Brings-Global-Skincare-and-K-Beauty-Favorites-to-Egyptian"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T17:00:04.981510+00:00
+updated_at: 2026-09-27T21:22:56.037163+00:00
 tags: [record, real-data]
 ---
 

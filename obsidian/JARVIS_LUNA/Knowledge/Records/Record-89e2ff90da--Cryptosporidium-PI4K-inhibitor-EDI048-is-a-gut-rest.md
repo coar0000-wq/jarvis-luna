@@ -2,7 +2,7 @@
 title: "Record 89e2ff90da · Cryptosporidium-PI4K-inhibitor-EDI048-is-a-gut-restricted-parasiticida"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T17:00:04.247940+00:00
+updated_at: 2026-09-27T21:22:55.382864+00:00
 tags: [record, real-data]
 ---
 

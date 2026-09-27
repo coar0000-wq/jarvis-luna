@@ -2,7 +2,7 @@
 title: "Record 26cd8a6c2c · JUSTIFICATION-OF-THE-SCIENTIFIC-AND-THEORETICAL-NATURE-OF-THE-SUBJECT-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T17:00:04.519275+00:00
+updated_at: 2026-09-27T21:22:55.608561+00:00
 tags: [record, real-data]
 ---
 

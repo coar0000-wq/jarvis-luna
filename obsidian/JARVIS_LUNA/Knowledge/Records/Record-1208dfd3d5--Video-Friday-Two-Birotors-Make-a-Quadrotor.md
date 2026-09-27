@@ -2,7 +2,7 @@
 title: "Record 1208dfd3d5 · Video-Friday-Two-Birotors-Make-a-Quadrotor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T17:00:05.103171+00:00
+updated_at: 2026-09-27T21:22:56.134996+00:00
 tags: [record, real-data]
 ---
 

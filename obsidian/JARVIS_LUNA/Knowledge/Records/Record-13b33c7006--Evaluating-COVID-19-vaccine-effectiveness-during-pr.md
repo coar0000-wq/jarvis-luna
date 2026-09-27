@@ -2,7 +2,7 @@
 title: "Record 13b33c7006 · Evaluating-COVID-19-vaccine-effectiveness-during-pr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T17:00:04.320380+00:00
+updated_at: 2026-09-27T21:22:55.441615+00:00
 tags: [record, real-data]
 ---
 

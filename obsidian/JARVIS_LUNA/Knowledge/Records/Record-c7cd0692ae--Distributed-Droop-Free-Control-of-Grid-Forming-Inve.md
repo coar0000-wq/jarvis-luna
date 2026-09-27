@@ -2,7 +2,7 @@
 title: "Record c7cd0692ae · Distributed-Droop-Free-Control-of-Grid-Forming-Inve"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T17:00:04.005954+00:00
+updated_at: 2026-09-27T21:22:55.187533+00:00
 tags: [record, real-data]
 ---
 

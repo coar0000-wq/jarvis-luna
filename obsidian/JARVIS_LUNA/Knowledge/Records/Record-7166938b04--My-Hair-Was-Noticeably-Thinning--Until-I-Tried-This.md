@@ -2,7 +2,7 @@
 title: "Record 7166938b04 · My-Hair-Was-Noticeably-Thinning--Until-I-Tried-This-K-Beauty-Scalp-Ton"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T17:00:04.907120+00:00
+updated_at: 2026-09-27T21:22:55.969409+00:00
 tags: [record, real-data]
 ---
 

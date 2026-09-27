@@ -2,7 +2,7 @@
 title: "Record 4773e869e4 · Why-RaaS-needs-more-than-a-subscription-model"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T17:00:05.417534+00:00
+updated_at: 2026-09-27T21:22:56.401333+00:00
 tags: [record, real-data]
 ---
 

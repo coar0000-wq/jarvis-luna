@@ -2,7 +2,7 @@
 title: "Record f41fc4f32a · Heros-Ju-Rhyu-Mainstreamed-Pimple-Patches-Can-She-Do-It-Again-With-K-B"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T17:00:04.834364+00:00
+updated_at: 2026-09-27T21:22:55.882629+00:00
 tags: [record, real-data]
 ---
 

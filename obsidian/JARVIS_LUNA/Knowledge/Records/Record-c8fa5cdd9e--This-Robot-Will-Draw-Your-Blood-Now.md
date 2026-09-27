@@ -2,7 +2,7 @@
 title: "Record c8fa5cdd9e · This-Robot-Will-Draw-Your-Blood-Now"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T17:00:05.093125+00:00
+updated_at: 2026-09-27T21:22:56.126924+00:00
 tags: [record, real-data]
 ---
 
