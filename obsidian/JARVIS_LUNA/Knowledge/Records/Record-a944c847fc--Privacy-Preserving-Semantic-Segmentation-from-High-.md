@@ -2,7 +2,7 @@
 title: "Record a944c847fc · Privacy-Preserving-Semantic-Segmentation-from-High-Resolution-Depth-an"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T12:05:28.229942+00:00
+updated_at: 2026-09-27T14:58:01.729939+00:00
 tags: [record, real-data]
 ---
 

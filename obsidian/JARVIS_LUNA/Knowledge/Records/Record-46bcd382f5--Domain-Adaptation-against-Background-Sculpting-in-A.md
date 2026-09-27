@@ -2,7 +2,7 @@
 title: "Record 46bcd382f5 · Domain-Adaptation-against-Background-Sculpting-in-Anomaly-Detection-at"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T12:05:28.181179+00:00
+updated_at: 2026-09-27T14:58:01.679506+00:00
 tags: [record, real-data]
 ---
 

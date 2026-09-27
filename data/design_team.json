@@ -1,6 +1,6 @@
 {
   "team": "디자인팀",
-  "generated_at": "2026-09-21T09:35:18.833742+00:00",
+  "generated_at": "2026-09-27T14:47:19.647653+00:00",
   "scope": "Shopify 스토어 디자인 사양 관리 + 디자인 레퍼런스 수집",
   "checklist": {
     "total": 12,
@@ -146,6 +146,48 @@
     "failures": [],
     "items": [
       {
+        "title": "Tax is now calculated on return shipping fees",
+        "url": "https://changelog.shopify.com/posts/tax-is-now-calculated-on-return-shipping-fees",
+        "date": "2026-09-25",
+        "summary": "Starting October 23, 2026, for merchants using Shopify Tax or Tax Platform in the United States, return shipping fees will be taxed like any other shipping charge. Shopify calculates and applies the tax automatically, so you don’t need to fix under-collection on returns. When you create a return, yo",
+        "feed": "Shopify Changelog"
+      },
+      {
+        "title": "Filterable logs and health metrics for custom apps are now in the Developer Dashboard",
+        "url": "https://changelog.shopify.com/posts/filterable-logs-and-health-metrics-for-custom-apps-are-now-in-the-developer-dashboard",
+        "date": "2026-09-25",
+        "summary": "The Developer Dashboard shows how your custom apps perform, not only how they are set up. Open any custom app to see its API request volume, error rates, webhook delivery health, and embedded admin page load speed. Each measurement has a clear threshold, so you can tell good from bad at a glance. A ",
+        "feed": "Shopify Changelog"
+      },
+      {
+        "title": "Improved shipping and duty data in Analytics",
+        "url": "https://changelog.shopify.com/posts/improved-shipping-and-duty-data-in-analytics",
+        "date": "2026-09-23",
+        "summary": "We now provides a more complete and timely view of shipping costs and duties. What's changed: Profitability data includes both duties and other shipping costs when they apply to the same order & better supports orders in different currencies. What to expect: You might notice changes to shipping cost",
+        "feed": "Shopify Changelog"
+      },
+      {
+        "title": "Plan launches, events, and tests with clearer and more granular controls in Rollouts",
+        "url": "https://changelog.shopify.com/posts/plan-launches-events-and-tests-with-clearer-and-more-granular-controls-in-rollouts",
+        "date": "2026-09-22",
+        "summary": "Rollouts has a redesigned setup experience that makes it easier to plan a launch, run a temporary event, or test changes to your store. Reflect your intent : Choose the timing and traffic percentage for your rollout. Rollout settings will adjust to reflect your intent as a launch, temporary event, o",
+        "feed": "Shopify Changelog"
+      },
+      {
+        "title": "Shop Pay Installments can now be enabled on multiple business entities",
+        "url": "https://changelog.shopify.com/posts/shop-pay-installments-can-now-be-enabled-on-multiple-business-entities",
+        "date": "2026-09-22",
+        "summary": "Shop Pay Installments, Shop Pay’s built-in buy now, pay later solution, is available for merchants and buyers located in the United States, Canada, and the United Kingdom. Merchants who operate multiple business entities in these supported countries can now enable Shop Pay Installments on all entiti",
+        "feed": "Shopify Changelog"
+      },
+      {
+        "title": "Shopify Analytics session measurement improvements",
+        "url": "https://changelog.shopify.com/posts/shopify-analytics-session-measurement-improvements",
+        "date": "2026-09-21",
+        "summary": "Starting September 21, 2026, Shopify is improving the sessions experience in Analytics to give merchants a cleaner view of real shopper activity. As a result, sessions, conversion rate, and other session-based metrics might look different after this update. This doesn't necessarily mean that your tr",
+        "feed": "Shopify Changelog"
+      },
+      {
         "title": "Payouts page redesign: see all your payouts in one view",
         "url": "https://changelog.shopify.com/posts/payouts-page-redesign-see-all-your-payouts-in-one-view",
         "date": "2026-09-16",
@@ -209,46 +251,74 @@
         "feed": "Shopify Changelog"
       },
       {
-        "title": "Check connectivity status from POS Home",
-        "url": "https://changelog.shopify.com/posts/check-connectivity-status-from-pos-home",
-        "date": "2026-09-01",
-        "summary": "You can now check your device’s connectivity status directly from POS Home. A new status icon makes it easier for staff to confirm that their device is connected and ready to sell before starting checkout. What’s new? Connectivity status has moved from the POS side navigation to POS Home, where it’s",
-        "feed": "Shopify Changelog"
+        "title": "AI Toolkit skills have been consolidated to `shopify`",
+        "url": "https://shopify.dev/changelog/ai-toolkit-skills-have-been-consolidated",
+        "date": "2026-09-25",
+        "summary": "With today's release of AI Toolkit , all existing shopify- skills are consolidated into a single shopify skill. If you use AI Toolkit skills with agents or npx skills , you might need to update your environment. What changed Shopify skills content in AI Toolkit was previously distributed across many",
+        "feed": "Shopify Dev Changelog"
       },
       {
-        "title": "Shopify Payments in the United Arab Emirates now available on the Advanced plan",
-        "url": "https://changelog.shopify.com/posts/shopify-payments-in-the-united-arab-emirates-available-on-shopify-advanced-plan",
-        "date": "2026-08-26",
-        "summary": "Merchants on the Advanced plan in the United Arab Emirates can now accept payments through Shopify Payments, with no third-party gateway required. Shopify Payments was previously available only to merchants on the Plus plan. Set up Shopify Payments in your Shopify admin. Review eligibility and onboa",
-        "feed": "Shopify Changelog"
+        "title": "The new Dev Dashboard: your command center for building",
+        "url": "https://shopify.dev/changelog/the-new-dev-dashboard",
+        "date": "2026-09-25",
+        "summary": "Today we're sharing the newest wave of improvements to the Dev Dashboard. You told us, in the community forums and in support conversations, that common work like managing collaborator access or understanding app health took too much juggling. This release brings that work into one home for your app",
+        "feed": "Shopify Dev Changelog"
       },
       {
-        "title": "US tax calculation accuracy improvements based on fulfillment location",
-        "url": "https://changelog.shopify.com/posts/shopify-tax-is-now-compatible-with-order-routing",
-        "date": "2026-08-24",
-        "summary": "Tax accuracy has improved for orders shipping to customers in the United States. Tax is now calculated using the fulfillment location that your order routing settings select for each order. For local pickup orders, tax is calculated from the pickup location. Now, if you fulfill orders from multiple ",
-        "feed": "Shopify Changelog"
+        "title": "Shopify Payments Balance Transaction GraphQL type supports currency conversion type",
+        "url": "https://shopify.dev/changelog/shopify-payments-balance-transaction-graphql-type-supports-currency-conversion-type",
+        "date": "2026-09-25",
+        "summary": "As of GraphQL Admin API version 2026-10 , ShopifyPaymentsTransactionType now includes CURRENCY_CONVERSION type. Learn more about ShopifyPaymentsTransactionType on Shopify.dev .",
+        "feed": "Shopify Dev Changelog"
       },
       {
-        "title": "Review Shopify Payments balance activity with the new activity report",
-        "url": "https://changelog.shopify.com/posts/review-shopify-payments-balance-activity-with-the-new-activity-report",
-        "date": "2026-08-22",
-        "summary": "The Shopify Payments activity report gives you a clearer way to understand how money moved through your Shopify Payments balance over a selected date range. You can open it from Finance > Documents > Shopify Payments activity report or from the Payouts page, then generate a report that brings togeth",
-        "feed": "Shopify Changelog"
+        "title": "Polaris 2.0 release candidate",
+        "url": "https://shopify.dev/changelog/polaris-2-0-release-candidate",
+        "date": "2026-09-24",
+        "summary": "The Polaris 2.0 release candidate is now available for embedded App Home interfaces. It includes the Shopify admin’s new visual styles, allowing your app to adopt the new look. The new Shopify admin design began rolling out progressively to merchants on September 15, 2026. You can adopt the release ",
+        "feed": "Shopify Dev Changelog"
       },
       {
-        "title": "Checkout now defaults to last used payment method for signed-in customers",
-        "url": "https://changelog.shopify.com/posts/checkout-now-defaults-to-last-used-payment-method-for-signed-in-customers",
-        "date": "2026-08-21",
-        "summary": "Checkout now remembers a signed-in customer's last-used payment method and pre-selects it on future purchases. This feature is only enabled for checkout flows where saved payment methods are enabled on D2C and B2B .",
-        "feed": "Shopify Changelog"
+        "title": "Query SP Fee Details with the GraphQL Admin API",
+        "url": "https://shopify.dev/changelog/query-sp-fee-details-with-the-graphql-admin-api",
+        "date": "2026-09-23",
+        "summary": "As of API version 2026-10, the GraphQL Admin API includes a feeDetails query for retrieving specialized fees charged to a shop. No action is required for existing apps. What changed The new feeDetails query returns a connection of FeeDetails objects. Each FeeDetails object includes: feeName and amou",
+        "feed": "Shopify Dev Changelog"
       },
       {
-        "title": "Bulk staff setup with CSV import",
-        "url": "https://changelog.shopify.com/posts/bulk-staff-setup-with-csv-import",
-        "date": "2026-08-21",
-        "summary": "You can now create, suspend, and reactivate staff accounts in bulk by uploading a CSV file in Shopify admin. This update helps reduce manual setup for larger teams by letting you bulk create admin or POS staff accounts with assigned PINs and suspend or reactivate existing users in one upload. It’s e",
-        "feed": "Shopify Changelog"
+        "title": "Events subscription query complexity limit is changing to 100 points",
+        "url": "https://shopify.dev/changelog/events-subscription-query-complexity-limit-is-changing-to-100-points",
+        "date": "2026-09-22",
+        "summary": "We’re reducing the query complexity limit for Events subscriptions from 250 to 100 points. This change does not affect Classic Webhooks. Shopify assigns each Events query a complexity score based on the fields it selects, the types of data those fields return, and the number of items requested in co",
+        "feed": "Shopify Dev Changelog"
+      },
+      {
+        "title": "Polaris CDN 1.1 is now stable",
+        "url": "https://shopify.dev/changelog/polaris-cdn-1-1-is-now-stable",
+        "date": "2026-09-22",
+        "summary": "Polaris Web Components 1.1 is now available on the stable Polaris CDN channels. This is the first minor release under the CDN's new semantic versioning model . The following URLs now serve Polaris 1.1 <script src=\"https://cdn.shopify.com/shopifycloud/polaris.js\"></script> <script src=\"https://cdn.sh",
+        "feed": "Shopify Dev Changelog"
+      },
+      {
+        "title": "Removing marketCurrencySettingsUpdate mutation",
+        "url": "https://shopify.dev/changelog/removing-marketcurrencysettingsupdate-mutation",
+        "date": "2026-09-22",
+        "summary": "As of GraphQL Admin API version 2027-01 , the marketCurrencySettingsUpdate mutation is removed, along with the MarketCurrencySettingsUpdatePayload , MarketCurrencySettingsUserError , and MarketCurrencySettingsUserErrorCode types. The mutation already returns an error for every request, so this remov",
+        "feed": "Shopify Dev Changelog"
+      },
+      {
+        "title": "Unlimited private plans and target stores in Shopify App Pricing",
+        "url": "https://shopify.dev/changelog/unlimited-private-plans-and-target-stores-in-shopify-app-pricing",
+        "date": "2026-09-21",
+        "summary": "Developers using Shopify App Pricing can now create unlimited private plans per app and add unlimited target stores to each plan, replacing the previous limits of 15 private plans and 20 stores per plan. No action is required to continue using existing plans. What changed A private plan is an app pr",
+        "feed": "Shopify Dev Changelog"
+      },
+      {
+        "title": "New translatable boolean field for Metafield GraphQL Object",
+        "url": "https://shopify.dev/changelog/is-translatable-metafield-field",
+        "date": "2026-09-21",
+        "summary": "API version 2026-10 adds a non-null translatable field to the Metafield object in the GraphQL Admin API. Apps that fetch translatable metafields and migrate to 2026-10 can now see whether a metafield’s value is translatable directly on the metafield itself. If your app doesn’t query for translatable",
+        "feed": "Shopify Dev Changelog"
       },
       {
         "title": "The `automaticDiscounts` query is removed in API version 2027-01",
@@ -286,74 +356,11 @@
         "feed": "Shopify Dev Changelog"
       },
       {
-        "title": "New Pricing audit trail for contextual product variant prices",
-        "url": "https://shopify.dev/changelog/pricing-audit-trail-for-contextual-product-variant-prices",
-        "date": "2026-09-17",
-        "summary": "The GraphQL Admin API now includes the auditTrail field on ProductVariantContextualPricing in API version 2026-10 . Apps with the read_products access scope can use this field to inspect the ordered adjustments that Shopify applied to a contextual product variant price. Existing apps do not need to ",
-        "feed": "Shopify Dev Changelog"
-      },
-      {
-        "title": "Updates to Events payloads and subscription configuration",
-        "url": "https://shopify.dev/changelog/updates-to-events-payloads-and-subscription-configuration",
-        "date": "2026-09-16",
-        "summary": "Starting today, we're updating Events payloads, trigger syntax, and delivery headers. Classic Webhook subscriptions are unaffected. What's changed fields_changed now describes how each path changed The flat array becomes an object containing three arrays: added , updated , and removed . Developers c",
-        "feed": "Shopify Dev Changelog"
-      },
-      {
-        "title": "Filter Catalog search results by media type",
-        "url": "https://shopify.dev/changelog/filter-catalog-search-results-by-media-type",
-        "date": "2026-09-15",
-        "summary": "The Catalog API now returns video and 3D model media on products that have it, and supports filtering search results by media type. You can request only products that have video or 3D model media attached, and matching products return links to those assets in the same response. The new filter is opt",
-        "feed": "Shopify Dev Changelog"
-      },
-      {
-        "title": "Dynamic complexity cost for `metafieldsSet` mutation",
-        "url": "https://shopify.dev/changelog/dynamic-complexity-cost-for-metafieldsset-mutation",
-        "date": "2026-09-15",
-        "summary": "The metafieldsSet mutation now uses dynamic complexity costing. Instead of a flat cost for every call, a request's cost reflects how many distinct resources metafields were changed. Most apps need no changes, as updating a single resource remains cheap. Apps setting many metafields across many diffe",
-        "feed": "Shopify Dev Changelog"
-      },
-      {
-        "title": "Prepare your app for the Shopify admin's new look",
-        "url": "https://shopify.dev/changelog/prepare-your-app-for-the-shopify-admins-new-look",
-        "date": "2026-09-15",
-        "summary": "Starting September 15, 2026, the Shopify admin has a new look, rolling out progressively to merchants. Apps that use Admin UI extensions and App Home UI extensions pick up the new styles automatically. Apps that render their own interface in App Home keep their current styles until you choose to mov",
-        "feed": "Shopify Dev Changelog"
-      },
-      {
-        "title": "family_name is optional for B2B orders in Payments Apps API requests",
-        "url": "https://shopify.dev/changelog/family_name-is-optional-for-b2b-orders-in-payments-apps-api-requests",
-        "date": "2026-09-15",
-        "summary": "B2B checkout treats the buyer’s surname as optional, so payment session requests for B2B orders can omit family_name in shipping_address and billing_address . This affects payments apps that handle B2B orders through the Payments Apps API and currently require family_name in these addresses. What ch",
-        "feed": "Shopify Dev Changelog"
-      },
-      {
-        "title": "Delivery options in Shopify Functions input now expose their metafields",
-        "url": "https://shopify.dev/changelog/delivery-options-in-shopify-functions-input-now-expose-their-metafields",
-        "date": "2026-09-15",
-        "summary": "Shopify Functions can now read metafields attached to delivery options in the cart. On API version 2026-10 , you can call metafield(namespace:, key:) on any option in cart.deliveryGroups.deliveryOptions . This affects apps that build Delivery Customization Functions and any other function whose inpu",
-        "feed": "Shopify Dev Changelog"
-      },
-      {
-        "title": "Discounts Allocator Function API developer preview has ended",
-        "url": "https://shopify.dev/changelog/discounts-allocator-function-api-developer-preview-has-ended",
-        "date": "2026-09-10",
-        "summary": "The Discounts Allocator Function API, available only through the Discounts Allocator developer preview, has been removed and won’t be released. The developer preview is closed. Most developers don’t need to take action. The one exception is an app that still declares the purchase.discounts-allocator",
-        "feed": "Shopify Dev Changelog"
-      },
-      {
-        "title": "Create and delete dev stores in Shopify CLI",
-        "url": "https://shopify.dev/changelog/create-and-delete-dev-stores-in-shopify-cli",
-        "date": "2026-09-09",
-        "summary": "Shopify CLI 4.8 adds shopify store commands that let you create and manage dev stores from your terminal or coding agent. These commands are available after you update to Shopify CLI 4.8. What changed You can now use the following commands to manage dev stores in your Dev Dashboard organization: sho",
-        "feed": "Shopify Dev Changelog"
-      },
-      {
-        "title": "Variants now support multiple barcodes",
-        "url": "https://shopify.dev/changelog/product-variant-barcode-is-being-replaced-by-barcodes",
-        "date": "2026-09-08",
-        "summary": "Merchants often sell the same variant under more than one identifier: a manufacturer UPC alongside a private-label EAN, a GTIN, a reissued ISBN, or an ASIN for a marketplace listing. Until now a variant held a single barcode value, so the extras ended up in metafields, tags, or outside Shopify entir",
-        "feed": "Shopify Dev Changelog"
+        "title": "Helix: The internal tool powering our Shopify app's native migration",
+        "url": "https://shopify.engineering/helix",
+        "date": "2026-09-21",
+        "summary": "We built Helix to help LLMs rebuild the Shopify app in Swift and Kotlin, using small checkpoints and strict quality gates to keep the code shippable.",
+        "feed": "Shopify Engineering"
       },
       {
         "title": "Migrating Shop app from React Native to native",
@@ -451,13 +458,6 @@
         "url": "https://shopify.engineering/scaling-inventory-reservations",
         "date": "2026-05-12",
         "summary": "How we used SKIP LOCKED, composite primary keys, and connection visibility to hit our scale targets.",
-        "feed": "Shopify Engineering"
-      },
-      {
-        "title": "Flow generation through natural language: An agentic modeling approach",
-        "url": "https://shopify.engineering/fine-tuning-agent-shopify-flow",
-        "date": "2026-04-22",
-        "summary": "We fine-tuned Qwen3-32B into a tool-calling agent that generates Flow automations from natural language—faster, cheaper, and more accurate than the frontier model it replaced, with a weekly retraining flywheel built on real merchant data.",
         "feed": "Shopify Engineering"
       },
       {

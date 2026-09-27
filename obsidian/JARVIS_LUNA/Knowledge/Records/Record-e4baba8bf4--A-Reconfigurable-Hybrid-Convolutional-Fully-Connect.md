@@ -2,7 +2,7 @@
 title: "Record e4baba8bf4 · A-Reconfigurable-Hybrid-Convolutional-Fully-Connect"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T12:05:28.034564+00:00
+updated_at: 2026-09-27T14:58:01.541671+00:00
 tags: [record, real-data]
 ---
 

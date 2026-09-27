@@ -2,7 +2,7 @@
 title: "Record b93239e3b0 · Nykaas-K-Beauty-Festival-Brings-Korean-Skincare-Makeup-And-Haircare-To"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T12:05:28.728307+00:00
+updated_at: 2026-09-27T14:58:02.295757+00:00
 tags: [record, real-data]
 ---
 

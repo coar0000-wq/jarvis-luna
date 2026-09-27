@@ -1,8 +1,8 @@
 {
   "agent": "Ops-Prioritizer",
-  "generated_at": "2026-09-27T14:11:33.895530+00:00",
+  "generated_at": "2026-09-27T14:58:08.307509+00:00",
   "risk": "low",
-  "task_count": 4,
+  "task_count": 5,
   "tasks": [
     {
       "priority": 3,
@@ -16,9 +16,19 @@
       "approve": "사람: Admin Import + 가격·재고"
     },
     {
+      "priority": 4,
+      "title": "팀 자동조치 감시 · 마케팅 조사팀",
+      "detail": "고시 표 1건 판독 남음 (비전 판독 상태 ok) — 1027327 바세린 마스크팩 집중보습 https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027327",
+      "refs": [
+        "data/dashboard_runtime.json",
+        "data/agents/remediation_state.json"
+      ],
+      "approve": "비서실장: 다음 주기 재검증"
+    },
+    {
       "priority": 5,
       "title": "팀 대기 · 리스팅 제작팀",
-      "detail": "MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 9건 사람 승인 대기",
+      "detail": "카피 1건, 고시 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 8건 사람 승인 대기",
       "refs": [
         "data/dashboard_runtime.json",
         "data/agents/remediation_state.json"
@@ -28,7 +38,7 @@
     {
       "priority": 5,
       "title": "팀 대기 · 법률·규제팀",
-      "detail": "MoCRA 남은 항목: 책임자(Responsible Person) 지정과 라벨 표기, 제조시설 등록(2년 주기 갱신), FDA 제품 리스팅(연 1회 갱신) · 고시 원문이 깨진 성분 4종(경북, 테트라데칸에이트, 피이지-20글리세릴-12) — data/manual/inci_overrides.json 확인 대기",
+      "detail": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 4종(경북, 테트라데칸에이트, 피이지-20글리세릴-12) — data/manual/inci_overrides.json 확인 대기",
       "refs": [
         "data/dashboard_runtime.json",
         "data/agents/remediation_state.json"
@@ -56,14 +66,18 @@
       },
       {
         "n": 2,
-        "text": "팀 대기 · 리스팅 제작팀 — MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 9건 사람 승인 대기"
+        "text": "팀 자동조치 감시 · 마케팅 조사팀 — 고시 표 1건 판독 남음 (비전 판독 상태 ok) — 1027327 바세린 마스크팩 집중보습 https://www.daisomall.co.kr/"
       },
       {
         "n": 3,
-        "text": "팀 대기 · 법률·규제팀 — MoCRA 남은 항목: 책임자(Responsible Person) 지정과 라벨 표기, 제조시설 등록(2년 주기 갱신), FDA 제품 리스팅(연 "
+        "text": "팀 대기 · 리스팅 제작팀 — 카피 1건, 고시 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대"
       },
       {
         "n": 4,
+        "text": "팀 대기 · 법률·규제팀 — 차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 4종("
+      },
+      {
+        "n": 5,
         "text": "팀 대기 · 디자인팀 — 다음 단계: Shopify 스토어 개설 및 기본 설정"
       }
     ]

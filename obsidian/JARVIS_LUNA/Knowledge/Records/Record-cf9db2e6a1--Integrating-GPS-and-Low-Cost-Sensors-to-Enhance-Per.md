@@ -2,7 +2,7 @@
 title: "Record cf9db2e6a1 · Integrating-GPS-and-Low-Cost-Sensors-to-Enhance-Personal-PM25-Exposure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T12:05:28.289127+00:00
+updated_at: 2026-09-27T14:58:01.797458+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.envpol.2026.129149)
 
-**제목:** Integrating GPS and Low-Cost Sensors to Enhance Personal PM2.5 Exposure Modeling for Schoolchildren
+**제목:** Integrating GPS and low-cost sensors to enhance personal PM2.5 exposure modeling for schoolchildren
 
-Integrating GPS and Low-Cost Sensors to Enhance Personal PM2.5 Exposure Modeling for Schoolchildren
+Integrating GPS and low-cost sensors to enhance personal PM2.5 exposure modeling for schoolchildren
 
 **출처:** Source · institutions
 

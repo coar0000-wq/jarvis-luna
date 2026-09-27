@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-18T03:02:46.234395+00:00",
+  "generated_at": "2026-09-27T14:56:08.350914+00:00",
   "generator": "scripts/daiso/prune_excluded_products.py",
   "왜_남기나": "규칙이 다시 바뀌어 되살려야 할 때 근거가 필요하다. 지우면 왜 뺐는지도 같이 사라진다.",
   "규칙_출처": "scripts/daiso/category_map.json 의 exclude",
-  "count": 14,
+  "count": 15,
   "items": {
     "1044428": {
       "name": "2080 닥터크리닉 잇몸 치약 120 g",
@@ -311,6 +311,46 @@
         "collected_at": "2026-08-24T20:41:25.414695+00:00",
         "source": "daisomall.co.kr 상품 상세 페이지",
         "bucket": "스킨케어"
+      }
+    },
+    "1067495": {
+      "name": "[퀵 수분충전]VT PDRN 광채 토너 200 ml",
+      "뺀_규칙": "손익·마진 미달",
+      "왜": "가장 나은 형태(bundle 2개) 마진 13.6% · 순익 $3.55 — 최저선 마진 15.0% · 순익 $1.5 미달",
+      "그때_숫자": {
+        "form": "bundle",
+        "qty": 2,
+        "price_usd": 25.99,
+        "landed_cost_total_usd": 20.52,
+        "fee_usd": 1.92,
+        "net_profit_usd": 3.55,
+        "margin_pct": 13.6,
+        "market_median_usd": 15.75
+      },
+      "기준": {
+        "min_margin_pct": 15.0,
+        "min_net_profit_usd": 1.5
+      },
+      "뺀_시각": "2026-09-27T14:56:08.350914+00:00",
+      "되돌리는_법": "scripts/daiso/exclude_unprofitable.py --restore --apply",
+      "원본": {
+        "pd_no": "1067495",
+        "name": "[퀵 수분충전]VT PDRN 광채 토너 200 ml",
+        "brand": "VT",
+        "site_category": "스킨/토너",
+        "price_krw": 5000,
+        "price_source": "json:price",
+        "sold_out": false,
+        "stock_note": "판매 중",
+        "stock_checked_at": "2026-09-15T22:19:18.772740+00:00",
+        "rating": 4.8,
+        "review_count": 14285,
+        "image_url": "https://cdn.daisomall.co.kr/file/PD/20260908/3J2IVmbWFVgnei1tyfv71067495_00_003J2IVmbWFVgnei1tyfv7.jpg",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067495",
+        "collected_at": "2026-09-15T22:19:18.772755+00:00",
+        "source": "daisomall.co.kr 상품 상세 페이지",
+        "bucket": "스킨케어",
+        "detailed_http_status": 200
       }
     }
   },

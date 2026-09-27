@@ -2,7 +2,7 @@
 title: "Record 9856cf389e · Carmex-Comfort-Care-Lip-Balm-Stick-with-Beeswax-Peppermint-Lip-Balm-2-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T12:05:29.462940+00:00
+updated_at: 2026-09-27T14:58:03.098470+00:00
 tags: [record, real-data]
 ---
 

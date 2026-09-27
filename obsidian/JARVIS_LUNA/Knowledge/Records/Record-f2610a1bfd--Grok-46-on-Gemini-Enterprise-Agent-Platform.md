@@ -2,7 +2,7 @@
 title: "Record f2610a1bfd · Grok-46-on-Gemini-Enterprise-Agent-Platform"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T12:05:29.541955+00:00
+updated_at: 2026-09-27T14:58:03.176985+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [x.ai](https://x.ai/news/grok-4-6-vertex-ai)
 
-**제목:** Grok 4.6 on Gemini Enterprise Agent Platform
+**제목:** Grok 4 6 Vertex Ai
 
-Grok 4.6 on Gemini Enterprise Agent Platform
-Grok 4.6 is now available via Gemini Enterprise Agent Platform.
+Grok 4 6 Vertex Ai
 
 **출처:** Source · institutions
 

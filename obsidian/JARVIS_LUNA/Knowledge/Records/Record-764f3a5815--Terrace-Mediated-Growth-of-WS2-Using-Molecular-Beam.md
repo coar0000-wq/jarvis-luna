@@ -2,7 +2,7 @@
 title: "Record 764f3a5815 · Terrace-Mediated-Growth-of-WS2-Using-Molecular-Beam"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T12:05:28.312771+00:00
+updated_at: 2026-09-27T14:58:01.824459+00:00
 tags: [record, real-data]
 ---
 

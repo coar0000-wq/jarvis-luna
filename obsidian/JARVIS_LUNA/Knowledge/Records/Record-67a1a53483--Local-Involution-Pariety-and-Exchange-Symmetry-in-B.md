@@ -2,7 +2,7 @@
 title: "Record 67a1a53483 · Local-Involution-Pariety-and-Exchange-Symmetry-in-B"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T12:05:28.580287+00:00
+updated_at: 2026-09-27T14:58:02.142318+00:00
 tags: [record, real-data]
 ---
 

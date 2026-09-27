@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-21T09:35:40.124197+00:00",
+  "generated_at": "2026-09-27T14:48:00.389095+00:00",
   "generator": "scripts/ingest_youtube_links.py",
   "입력": "data/manual/youtube_links.txt",
   "robots": "youtube.com/robots.txt 는 /feeds/videos.xml 을 막지만 /watch 는 막지 않는다. 목록을 긁는 게 아니라 사람이 지정한 것만 받는다.",
-  "total": 20,
-  "ok": 20,
+  "total": 25,
+  "ok": 25,
   "failed": 0,
-  "fetched_this_run": 0,
+  "fetched_this_run": 5,
   "bad_lines": [],
   "by_team": {
-    "listing": 11,
-    "pricing": 3,
-    "market": 9,
+    "listing": 14,
+    "pricing": 4,
+    "market": 14,
     "knowledge": 3,
-    "design": 10,
+    "design": 11,
     "sourcing": 2
   },
   "학습금지_표시": [
@@ -450,6 +450,111 @@
       ],
       "team_source": "사람 지정",
       "collected_at": "2026-09-20T04:05:59.124392+00:00",
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
+    },
+    {
+      "video_id": "UcG2v8i6Y2E",
+      "url": "https://www.youtube.com/watch?v=UcG2v8i6Y2E",
+      "note": "할인 중첩·만료·무료배송을 기여이익 기준으로 감사",
+      "title": "13",
+      "channel": "",
+      "views": null,
+      "length_sec": null,
+      "published": "",
+      "description": "",
+      "error": "",
+      "ai_training_allowed": null,
+      "rights_marks": [],
+      "teams": [
+        "pricing",
+        "market"
+      ],
+      "team_source": "사람 지정",
+      "collected_at": "2026-09-27T14:47:42.078307+00:00",
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
+    },
+    {
+      "video_id": "kFWPkoOx_ao",
+      "url": "https://www.youtube.com/watch?v=kFWPkoOx_ao",
+      "note": "Shopify 공식 모바일 게스트 체크아웃 CRO",
+      "title": "Like",
+      "channel": "",
+      "views": null,
+      "length_sec": null,
+      "published": "",
+      "description": "",
+      "error": "",
+      "ai_training_allowed": null,
+      "rights_marks": [],
+      "teams": [
+        "market",
+        "listing"
+      ],
+      "team_source": "사람 지정",
+      "collected_at": "2026-09-27T14:47:46.048242+00:00",
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
+    },
+    {
+      "video_id": "Knjixb392Is",
+      "url": "https://www.youtube.com/watch?v=Knjixb392Is",
+      "note": "제품·변형·컬렉션·FAQ 구조화 데이터 검증",
+      "title": "7",
+      "channel": "",
+      "views": null,
+      "length_sec": null,
+      "published": "",
+      "description": "",
+      "error": "",
+      "ai_training_allowed": null,
+      "rights_marks": [],
+      "teams": [
+        "market",
+        "listing"
+      ],
+      "team_source": "사람 지정",
+      "collected_at": "2026-09-27T14:47:49.899321+00:00",
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
+    },
+    {
+      "video_id": "v7DT2yhi9Ac",
+      "url": "https://www.youtube.com/watch?v=v7DT2yhi9Ac",
+      "note": "Klaviyo 공식 배송 지연·선셋 리텐션 자동화",
+      "title": "3",
+      "channel": "",
+      "views": null,
+      "length_sec": null,
+      "published": "",
+      "description": "",
+      "error": "",
+      "ai_training_allowed": null,
+      "rights_marks": [],
+      "teams": [
+        "market"
+      ],
+      "team_source": "사람 지정",
+      "collected_at": "2026-09-27T14:47:53.644626+00:00",
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
+    },
+    {
+      "video_id": "_pKECd9m25U",
+      "url": "https://www.youtube.com/watch?v=_pKECd9m25U",
+      "note": "UGC 스크립트와 문장별 B-roll 샷리스트",
+      "title": "23",
+      "channel": "",
+      "views": null,
+      "length_sec": null,
+      "published": "",
+      "description": "",
+      "error": "",
+      "ai_training_allowed": null,
+      "rights_marks": [],
+      "teams": [
+        "market",
+        "design",
+        "listing"
+      ],
+      "team_source": "사람 지정",
+      "collected_at": "2026-09-27T14:47:57.388862+00:00",
       "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
     }
   ]

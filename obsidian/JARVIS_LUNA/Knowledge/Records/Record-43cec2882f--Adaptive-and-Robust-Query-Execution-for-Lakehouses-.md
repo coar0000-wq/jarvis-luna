@@ -2,7 +2,7 @@
 title: "Record 43cec2882f · Adaptive-and-Robust-Query-Execution-for-Lakehouses-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T12:05:28.400496+00:00
+updated_at: 2026-09-27T14:58:01.946987+00:00
 tags: [record, real-data]
 ---
 

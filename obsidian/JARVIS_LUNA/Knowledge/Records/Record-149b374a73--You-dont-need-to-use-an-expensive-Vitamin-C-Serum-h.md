@@ -2,7 +2,7 @@
 title: "Record 149b374a73 · You-dont-need-to-use-an-expensive-Vitamin-C-Serum-h"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T12:05:29.491079+00:00
+updated_at: 2026-09-27T14:58:03.129744+00:00
 tags: [record, real-data]
 ---
 

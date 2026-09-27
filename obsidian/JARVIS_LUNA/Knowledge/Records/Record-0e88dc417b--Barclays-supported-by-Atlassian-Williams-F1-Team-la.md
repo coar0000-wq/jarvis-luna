@@ -2,7 +2,7 @@
 title: "Record 0e88dc417b · Barclays-supported-by-Atlassian-Williams-F1-Team-la"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T12:05:28.623001+00:00
+updated_at: 2026-09-27T14:58:02.189548+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [home.barclays](https://home.barclays/news/press-releases/20260/080/barclays--supported-by-atlassian-williams-f1-team--launches-nati/)
 
-**제목:** Barclays, supported by Atlassian Williams F1 Team, launches national competition to help young people build the human skills needed for an AI-powered future | Barclays
+**제목:** Barclays Supported By Atlassian Williams F1 Team Launches Nati
 
-Barclays, supported by Atlassian Williams F1 Team, launches national competition to help young people build the human skills needed for an AI-powered future | Barclays
-Barclays LifeSkills, supported by Atlassian Williams F1 Team, announce the launch of Accelerate your skills.
+Barclays Supported By Atlassian Williams F1 Team Launches Nati
 
 **출처:** Source · institutions
 

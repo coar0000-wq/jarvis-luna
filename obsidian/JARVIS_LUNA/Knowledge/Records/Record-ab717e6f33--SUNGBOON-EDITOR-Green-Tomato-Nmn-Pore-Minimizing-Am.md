@@ -2,7 +2,7 @@
 title: "Record ab717e6f33 · SUNGBOON-EDITOR-Green-Tomato-Nmn-Pore-Minimizing-Am"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T12:05:29.172050+00:00
+updated_at: 2026-09-27T14:58:02.778433+00:00
 tags: [record, real-data]
 ---
 

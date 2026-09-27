@@ -2,7 +2,7 @@
 title: "Record e5540b9f6f · One-Word-Different-Action-A-Real-Robot-Benchmark-fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T12:05:28.069481+00:00
+updated_at: 2026-09-27T14:58:01.573398+00:00
 tags: [record, real-data]
 ---
 

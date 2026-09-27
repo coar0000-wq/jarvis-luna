@@ -2,7 +2,7 @@
 title: "Record 296d221ca6 · Application-to-offer-in-24-hours-with-new-Barclays-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T12:05:28.625439+00:00
+updated_at: 2026-09-27T14:58:02.191897+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [home.barclays](https://home.barclays/news/press-releases/20260/090/-application-to-offer-in-24-hours-with-new-barclays-fast-track-r/)
 
-**제목:** Application to offer in 24 hours with new Barclays Fast-Track Remortgage | Barclays
+**제목:** Application To Offer In 24 Hours With New Barclays Fast Track R
 
-Application to offer in 24 hours with new Barclays Fast-Track Remortgage | Barclays
-The new Fast-Track Remortgage service is designed to make remortgaging to Barclays faster and more straightforward, with completion in as little as 5 days.
+Application To Offer In 24 Hours With New Barclays Fast Track R
 
 **출처:** Source · institutions
 

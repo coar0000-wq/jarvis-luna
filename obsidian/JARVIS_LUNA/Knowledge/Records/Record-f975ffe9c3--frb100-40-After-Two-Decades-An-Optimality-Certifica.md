@@ -2,7 +2,7 @@
 title: "Record f975ffe9c3 · frb100-40-After-Two-Decades-An-Optimality-Certifica"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T12:05:28.029992+00:00
+updated_at: 2026-09-27T14:58:01.537324+00:00
 tags: [record, real-data]
 ---
 

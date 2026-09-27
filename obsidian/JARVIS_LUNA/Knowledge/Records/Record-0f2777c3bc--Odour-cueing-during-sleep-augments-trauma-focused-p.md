@@ -2,7 +2,7 @@
 title: "Record 0f2777c3bc · Odour-cueing-during-sleep-augments-trauma-focused-psychotherapy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T12:05:28.611326+00:00
+updated_at: 2026-09-27T14:58:02.176433+00:00
 tags: [record, real-data]
 ---
 

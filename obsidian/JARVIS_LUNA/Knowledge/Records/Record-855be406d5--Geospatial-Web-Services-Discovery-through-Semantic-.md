@@ -2,7 +2,7 @@
 title: "Record 855be406d5 · Geospatial-Web-Services-Discovery-through-Semantic-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T12:05:28.437630+00:00
+updated_at: 2026-09-27T14:58:01.991647+00:00
 tags: [record, real-data]
 ---
 

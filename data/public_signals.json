@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T09:42:01.535186+00:00",
+  "generated_at": "2026-09-27T14:56:07.469822+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "sports scores today",
-          "approx_traffic": "50000+",
-          "traffic_num": 50000,
-          "published": "Mon, 21 Sep 2026 01:10:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=sports%20scores%20today"
-        },
-        {
-          "keyword": "goal",
+          "keyword": "zay flowers",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Mon, 21 Sep 2026 02:20:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=goal"
+          "published": "Sun, 27 Sep 2026 07:40:00 -0700",
+          "source_name": "Baltimore Ravens",
+          "url": "https://trends.google.com/trending?geo=US&q=zay%20flowers"
         },
         {
-          "keyword": "technology news",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Mon, 21 Sep 2026 01:10:00 -0700",
-          "source_name": "Yahoo Finance",
-          "url": "https://trends.google.com/trending?geo=US&q=technology%20news"
-        },
-        {
-          "keyword": "stock market today",
+          "keyword": "national hurricane center",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Mon, 21 Sep 2026 01:20:00 -0700",
-          "source_name": "Yahoo Finance",
-          "url": "https://trends.google.com/trending?geo=US&q=stock%20market%20today"
+          "published": "Sun, 27 Sep 2026 07:30:00 -0700",
+          "source_name": "WPDE",
+          "url": "https://trends.google.com/trending?geo=US&q=national%20hurricane%20center"
         },
         {
-          "keyword": "sports",
+          "keyword": "portugal vs norway",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Sun, 27 Sep 2026 07:10:00 -0700",
+          "source_name": "BBC",
+          "url": "https://trends.google.com/trending?geo=US&q=portugal%20vs%20norway"
+        },
+        {
+          "keyword": "is dj moore playing today",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Sun, 27 Sep 2026 07:00:00 -0700",
+          "source_name": "Buffalo Bills",
+          "url": "https://trends.google.com/trending?geo=US&q=is%20dj%20moore%20playing%20today"
+        },
+        {
+          "keyword": "espn fpi after week 4",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Sun, 27 Sep 2026 07:40:00 -0700",
+          "source_name": "Saturday Down South",
+          "url": "https://trends.google.com/trending?geo=US&q=espn%20fpi%20after%20week%204"
+        },
+        {
+          "keyword": "patrick herbert",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Sun, 27 Sep 2026 07:40:00 -0700",
+          "source_name": "NBC Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=patrick%20herbert"
+        },
+        {
+          "keyword": "bill gates",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Sun, 27 Sep 2026 07:40:00 -0700",
+          "source_name": "The Guardian",
+          "url": "https://trends.google.com/trending?geo=US&q=bill%20gates"
+        },
+        {
+          "keyword": "hurricanes weather",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Sun, 27 Sep 2026 07:30:00 -0700",
+          "source_name": "The Weather Channel",
+          "url": "https://trends.google.com/trending?geo=US&q=hurricanes%20weather"
+        },
+        {
+          "keyword": "target pokemon event",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Sun, 27 Sep 2026 07:20:00 -0700",
+          "source_name": "Mashable",
+          "url": "https://trends.google.com/trending?geo=US&q=target%20pokemon%20event"
+        },
+        {
+          "keyword": "icc",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Mon, 21 Sep 2026 01:50:00 -0700",
-          "source_name": "The Boston Globe",
-          "url": "https://trends.google.com/trending?geo=US&q=sports"
-        },
-        {
-          "keyword": "bet365 free bet",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Mon, 21 Sep 2026 01:30:00 -0700",
-          "source_name": "CBS Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=bet365%20free%20bet"
-        },
-        {
-          "keyword": "thescore bet promo code",
-          "approx_traffic": "100+",
-          "traffic_num": 100,
-          "published": "Mon, 21 Sep 2026 01:50:00 -0700",
-          "source_name": "Covers.com",
-          "url": "https://trends.google.com/trending?geo=US&q=thescore%20bet%20promo%20code"
-        },
-        {
-          "keyword": "draftkings free bet",
-          "approx_traffic": "100+",
-          "traffic_num": 100,
-          "published": "Mon, 21 Sep 2026 01:40:00 -0700",
-          "source_name": "The New York Times",
-          "url": "https://trends.google.com/trending?geo=US&q=draftkings%20free%20bet"
-        },
-        {
-          "keyword": "fanduel promo code",
-          "approx_traffic": "100+",
-          "traffic_num": 100,
-          "published": "Mon, 21 Sep 2026 01:30:00 -0700",
-          "source_name": "CBS Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=fanduel%20promo%20code"
-        },
-        {
-          "keyword": "draftkings sportsbook",
-          "approx_traffic": "100+",
-          "traffic_num": 100,
-          "published": "Mon, 21 Sep 2026 01:30:00 -0700",
-          "source_name": "CBS Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=draftkings%20sportsbook"
+          "published": "Sun, 27 Sep 2026 07:20:00 -0700",
+          "source_name": "Reuters",
+          "url": "https://trends.google.com/trending?geo=US&q=icc"
         }
       ]
     },
@@ -96,88 +96,88 @@
       "status": "ok",
       "reason": "",
       "source": "wikimedia.org REST pageviews API (공식)",
-      "note": "2026-08-21 ~ 2026-09-19 일별 조회수. 후반 15일 대비 전반 15일 증감률",
+      "note": "2026-08-27 ~ 2026-09-25 일별 조회수. 후반 15일 대비 전반 15일 증감률",
       "errors": [],
       "items": [
         {
           "topic": "Niacinamide",
           "days": 30,
-          "total_views": 2058,
-          "avg_daily": 69,
+          "total_views": 1895,
+          "avg_daily": 63,
           "recent_avg": 85,
-          "prev_avg": 52,
-          "change_pct": 61.5,
+          "prev_avg": 41,
+          "change_pct": 107.1,
           "url": "https://en.wikipedia.org/wiki/Niacinamide"
-        },
-        {
-          "topic": "Hyaluronic acid",
-          "days": 30,
-          "total_views": 18518,
-          "avg_daily": 617,
-          "recent_avg": 674,
-          "prev_avg": 560,
-          "change_pct": 20.3,
-          "url": "https://en.wikipedia.org/wiki/Hyaluronic_acid"
-        },
-        {
-          "topic": "Centella asiatica",
-          "days": 30,
-          "total_views": 15417,
-          "avg_daily": 514,
-          "recent_avg": 525,
-          "prev_avg": 503,
-          "change_pct": 4.5,
-          "url": "https://en.wikipedia.org/wiki/Centella_asiatica"
-        },
-        {
-          "topic": "Retinol",
-          "days": 30,
-          "total_views": 11652,
-          "avg_daily": 388,
-          "recent_avg": 393,
-          "prev_avg": 384,
-          "change_pct": 2.2,
-          "url": "https://en.wikipedia.org/wiki/Retinol"
         },
         {
           "topic": "Cosmetics",
           "days": 30,
-          "total_views": 20916,
-          "avg_daily": 697,
-          "recent_avg": 700,
-          "prev_avg": 695,
-          "change_pct": 0.7,
+          "total_views": 21511,
+          "avg_daily": 717,
+          "recent_avg": 735,
+          "prev_avg": 699,
+          "change_pct": 5.2,
           "url": "https://en.wikipedia.org/wiki/Cosmetics"
         },
         {
-          "topic": "Sunscreen",
+          "topic": "Centella asiatica",
           "days": 30,
-          "total_views": 15488,
-          "avg_daily": 516,
-          "recent_avg": 506,
-          "prev_avg": 526,
-          "change_pct": -3.8,
-          "url": "https://en.wikipedia.org/wiki/Sunscreen"
+          "total_views": 15369,
+          "avg_daily": 512,
+          "recent_avg": 524,
+          "prev_avg": 500,
+          "change_pct": 4.8,
+          "url": "https://en.wikipedia.org/wiki/Centella_asiatica"
+        },
+        {
+          "topic": "Hyaluronic acid",
+          "days": 30,
+          "total_views": 18720,
+          "avg_daily": 624,
+          "recent_avg": 630,
+          "prev_avg": 618,
+          "change_pct": 1.9,
+          "url": "https://en.wikipedia.org/wiki/Hyaluronic_acid"
+        },
+        {
+          "topic": "Retinol",
+          "days": 30,
+          "total_views": 11742,
+          "avg_daily": 391,
+          "recent_avg": 390,
+          "prev_avg": 393,
+          "change_pct": -0.9,
+          "url": "https://en.wikipedia.org/wiki/Retinol"
         },
         {
           "topic": "K-beauty",
           "days": 30,
-          "total_views": 3834,
-          "avg_daily": 128,
-          "recent_avg": 120,
-          "prev_avg": 136,
-          "change_pct": -12.0,
+          "total_views": 3911,
+          "avg_daily": 130,
+          "recent_avg": 129,
+          "prev_avg": 132,
+          "change_pct": -2.7,
           "url": "https://en.wikipedia.org/wiki/K-beauty"
         },
         {
           "topic": "Snail slime",
           "days": 30,
-          "total_views": 2220,
-          "avg_daily": 74,
+          "total_views": 2241,
+          "avg_daily": 75,
           "recent_avg": 69,
-          "prev_avg": 79,
-          "change_pct": -13.6,
+          "prev_avg": 80,
+          "change_pct": -13.1,
           "url": "https://en.wikipedia.org/wiki/Snail_slime"
+        },
+        {
+          "topic": "Sunscreen",
+          "days": 30,
+          "total_views": 14943,
+          "avg_daily": 498,
+          "recent_avg": 463,
+          "prev_avg": 534,
+          "change_pct": -13.3,
+          "url": "https://en.wikipedia.org/wiki/Sunscreen"
         }
       ]
     },
@@ -188,154 +188,154 @@
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
       "items": [
         {
-          "title": "6 Best Lotions for Rough and Bumpy Skin for KP, Strawberry Skin, and More",
-          "published": "Sat, 19 Sep 2026 12:00:00 +0000",
-          "url": "https://www.allure.com/story/best-lotion-for-rough-and-bumpy-skin"
+          "title": "8 Best Night Creams 2026 for Softer, Plumper Skin by Morning",
+          "published": "Sat, 26 Sep 2026 12:00:00 +0000",
+          "url": "https://www.allure.com/gallery/best-night-cream"
         },
         {
-          "title": "A Higher Carb Diet May Lower Your Biological Age, New Study Suggests",
-          "published": "Fri, 18 Sep 2026 20:16:48 +0000",
-          "url": "https://www.allure.com/story/carbs-diet-biological-age-study"
+          "title": "6 Best Clinical-Strength Deodorants for All-Day Freshness",
+          "published": "Fri, 25 Sep 2026 19:02:39 +0000",
+          "url": "https://www.allure.com/story/best-clinical-strength-deodorants"
         },
         {
-          "title": "Anne Hathaway's Moody Mani-Pedi Is a Forever Fall Nail Trend—See the Photos",
-          "published": "Fri, 18 Sep 2026 19:36:09 +0000",
-          "url": "https://www.allure.com/story/anne-hathaway-dark-manicure-pedicure"
+          "title": "14 Best Early Amazon Prime Day Mature Beauty Deals 2026",
+          "published": "Fri, 25 Sep 2026 18:32:13 +0000",
+          "url": "https://www.allure.com/story/best-early-amazon-prime-day-mature-beauty-deals"
         },
         {
-          "title": "Shop Top Hair, Skin Care, and Makeup Products and Tools, Vetted by Allure Experts",
-          "published": "Fri, 18 Sep 2026 18:27:32 +0000",
-          "url": "https://www.allure.com/shopping"
-        },
-        {
-          "title": "13 Best Skin Tints for Lightweight, Natural-Looking Coverage",
-          "published": "Fri, 18 Sep 2026 14:56:14 +0000",
-          "url": "https://www.allure.com/gallery/best-skin-tints"
-        },
-        {
-          "title": "Selena Gomez Has Me Seriously Reconsidering the Middle Part—See the Photos",
-          "published": "Fri, 18 Sep 2026 13:20:04 +0000",
-          "url": "https://www.allure.com/story/selena-gomez-middle-part-long-hair"
-        },
-        {
-          "title": "10 Best Concealers for Dry Skin That Don’t Cake, Crack, or Crease",
-          "published": "Fri, 18 Sep 2026 13:00:00 +0000",
-          "url": "https://www.allure.com/story/concealer-for-dry-skin"
-        },
-        {
-          "title": "Why Curtain Bangs Look Amazing on Everyone",
-          "published": "Thu, 17 Sep 2026 20:00:00 +0000",
-          "url": "https://www.allure.com/story/curtain-bangs-trend-hairstyles"
-        },
-        {
-          "title": "Allure Best of Beauty Awards: Hall of Fame Winners Skin, Makeup, Hair Products—Reviews, Photos for 2026",
-          "published": "Thu, 17 Sep 2026 17:45:37 +0000",
-          "url": "https://www.allure.com/gallery/best-of-beauty-hall-of-fame-winners"
-        },
-        {
-          "title": "How to Treat Eczema and Milia at the Same Time",
-          "published": "Thu, 17 Sep 2026 17:20:45 +0000",
-          "url": "https://www.allure.com/story/treating-eczema-milia-simultaneously"
+          "title": "Dakota Johnson Matched Her Nails to Her Visible Underwear—See the Photos",
+          "published": "Fri, 25 Sep 2026 17:52:45 +0000",
+          "url": "https://www.allure.com/story/dakota-johnson-black-nails-sheer-dress"
         },
         {
           "title": "The Allure 2026 Best of Beauty Box Review",
-          "published": "Thu, 17 Sep 2026 17:00:00 +0000",
+          "published": "Fri, 25 Sep 2026 16:35:46 +0000",
           "url": "https://www.allure.com/story/best-of-beauty-limited-edition-box-2026"
         },
         {
-          "title": "9 Best Tinted Lip Balms for Sheer Color and Lasting Hydration",
-          "published": "Thu, 17 Sep 2026 14:30:00 +0000",
-          "url": "https://www.allure.com/gallery/best-tinted-lip-balm"
+          "title": "Olandria Turned a Waist-Length Mullet Into a High-Fashion Moment — See Photos",
+          "published": "Fri, 25 Sep 2026 14:57:29 +0000",
+          "url": "https://www.allure.com/story/olandria-mullet-milan-fashion-week"
         },
         {
-          "title": "Bella Hadid’s Gingham Headscarf Carries Summer Picnic Vibes Into Fall — See Photos",
-          "published": "Thu, 17 Sep 2026 14:24:46 +0000",
-          "url": "https://www.allure.com/story/bella-hadid-gingham-headscarf"
+          "title": "9 Best Serums for Aging Skin That Target Dryness, Fine Lines, and Laxity",
+          "published": "Thu, 24 Sep 2026 18:26:26 +0000",
+          "url": "https://www.allure.com/story/serums-for-mature-skin"
         },
         {
-          "title": "9 Best Moisturizers for Mature Skin for Fine Lines and Deep Wrinkles",
-          "published": "Thu, 17 Sep 2026 14:00:00 +0000",
-          "url": "https://www.allure.com/gallery/best-creams-serums-mature-skin-dermatologist-recommendations"
+          "title": "11 K-Beauty Best of Beauty Winners 2026 That Earned Glowing Reviews",
+          "published": "Thu, 24 Sep 2026 18:22:00 +0000",
+          "url": "https://www.allure.com/story/korean-beauty-best-of-beauty-award-winners"
         },
         {
-          "title": "BEMT Sunscreens Have Officially Arrived in the U.S.",
-          "published": "Thu, 17 Sep 2026 13:02:22 +0000",
-          "url": "https://www.allure.com/story/fda-approves-new-suncreen-filter-bemotrizinol-bemt"
+          "title": "Zara Larsson Put Her Spin on Pink Hair for the \"Allure\" Cover—See the Photos",
+          "published": "Thu, 24 Sep 2026 17:14:46 +0000",
+          "url": "https://www.allure.com/story/zara-larsson-pink-hair-allure-cover"
         },
         {
-          "title": "This Is Exactly How a Product Becomes an Allure Best of Beauty Winner",
-          "published": "Thu, 17 Sep 2026 12:47:24 +0000",
-          "url": "https://www.allure.com/story/how-allure-best-of-beauty-judging-process-works"
+          "title": "Patchology Moodpatch Perk Up Eye Gels Review",
+          "published": "Thu, 24 Sep 2026 15:23:06 +0000",
+          "url": "https://www.allure.com/review/patchology-moodpatch-perk-up-eye-gels-review-2026"
         },
         {
-          "title": "Amelia Gray and Gabbriette Address the Copycat Rumors—Interview",
-          "published": "Thu, 17 Sep 2026 12:34:01 +0000",
-          "url": "https://www.allure.com/story/amelia-gray-gabbriette-cover-interview"
+          "title": "Derma E Vitamin C Concentrated Serum Review",
+          "published": "Thu, 24 Sep 2026 15:15:12 +0000",
+          "url": "https://www.allure.com/review/dermae-vitamin-c-concentrated-serum-review-2026"
         },
         {
-          "title": "Shop the 2026 Allure Best of Beauty Sensitive Winning Products",
-          "published": "Thu, 17 Sep 2026 11:35:29 +0000",
-          "url": "https://www.allure.com/best-of-beauty-2026-winners/sensitive"
+          "title": "Dr. Pawpaw Multipurpose Tinted Rich Mocha Balm Review",
+          "published": "Thu, 24 Sep 2026 15:02:49 +0000",
+          "url": "https://www.allure.com/review/drpawpaw-multipurpose-tinted-balm-review-2026"
         },
         {
-          "title": "Shop the 2026 Allure Best of Beauty Nail Winning Products",
-          "published": "Thu, 17 Sep 2026 11:33:56 +0000",
-          "url": "https://www.allure.com/best-of-beauty-2026-winners/nails"
+          "title": "Swedish Pop Star Zara Larsson Reveals Her Plans for a Global Takeover—Interview",
+          "published": "Thu, 24 Sep 2026 12:00:00 +0000",
+          "url": "https://www.allure.com/story/zara-larsson-cover-interview"
         },
         {
-          "title": "Shop the 2026 Allure Best of Beauty Body Winning Products",
-          "published": "Thu, 17 Sep 2026 11:32:15 +0000",
-          "url": "https://www.allure.com/best-of-beauty-2026-winners/body"
+          "title": "16 Best Early Amazon Prime Day K-Beauty Deals 2026",
+          "published": "Wed, 23 Sep 2026 20:40:23 +0000",
+          "url": "https://www.allure.com/story/best-amazon-prime-day-korean-beauty-deals-06-26-2026"
         },
         {
-          "title": "Allure Best of Beauty 2026 Clean Winning Products",
-          "published": "Thu, 17 Sep 2026 11:30:29 +0000",
-          "url": "https://www.allure.com/best-of-beauty-2026-winners/clean"
+          "title": "This Fall’s Top Nail Trends Remix 2026’s Biggest Looks",
+          "published": "Wed, 23 Sep 2026 20:00:00 +0000",
+          "url": "https://www.allure.com/story/fall-nail-art-trends-2026"
         },
         {
-          "title": "Shop the 2026 Allure Best of Beauty Fragrance Winning Products",
-          "published": "Thu, 17 Sep 2026 11:28:44 +0000",
-          "url": "https://www.allure.com/best-of-beauty-2026-winners/scent"
+          "title": "Usher in Cozy Season With Our Favorite Woody Perfumes",
+          "published": "Wed, 23 Sep 2026 19:41:17 +0000",
+          "url": "https://www.allure.com/story/best-woody-perfume"
         },
         {
-          "title": "Allure Best of Beauty 2026 Splurge Winning Beauty Products",
-          "published": "Thu, 17 Sep 2026 11:27:10 +0000",
-          "url": "https://www.allure.com/best-of-beauty-2026-winners/splurges"
+          "title": "Frances Bean Cobain's '90s Makeup Is a Low-Key Tribute to Grunge",
+          "published": "Wed, 23 Sep 2026 16:04:34 +0000",
+          "url": "https://www.allure.com/story/frances-bean-cobain-90s-makeup"
         },
         {
-          "title": "Allure Best of Beauty 2026 Steals: Shop the Best Beauty Drugstore Winners",
-          "published": "Thu, 17 Sep 2026 11:23:00 +0000",
-          "url": "https://www.allure.com/best-of-beauty-2026-winners/steals"
+          "title": "Cardi B’s Vogue World Eye Makeup Is Glittery Magenta Magic—See the Photos",
+          "published": "Wed, 23 Sep 2026 13:25:23 +0000",
+          "url": "https://www.allure.com/story/cardi-b-vogue-world-pink-glitter-makeup"
         },
         {
-          "title": "Shop the 2026 Allure Best of Beauty Tool Winning Products",
-          "published": "Thu, 17 Sep 2026 11:21:22 +0000",
-          "url": "https://www.allure.com/best-of-beauty-2026-winners/tools"
+          "title": "More Women Are Getting Hair Transplants in Turkey",
+          "published": "Wed, 23 Sep 2026 12:30:00 +0000",
+          "url": "https://www.allure.com/story/hair-transplant-turkey-women-experiences"
         },
         {
-          "title": "Allure Best of Beauty 2026: Shop the Breakthroughs Winning Products",
-          "published": "Thu, 17 Sep 2026 11:19:48 +0000",
-          "url": "https://www.allure.com/best-of-beauty-2026-winners/breakthroughs"
+          "title": "Lili Reinhart’s Hair Transformation for The Love Hypothesis Was Both an Art and a Science",
+          "published": "Wed, 23 Sep 2026 12:00:00 +0000",
+          "url": "https://www.allure.com/story/love-hypothesis-lili-reinhart-hair-interview"
         },
         {
-          "title": "Shop the 2026 Allure Best of Beauty Eye Makeup Winning Products",
-          "published": "Thu, 17 Sep 2026 11:18:18 +0000",
-          "url": "https://www.allure.com/best-of-beauty-2026-winners/eyes"
+          "title": "We Tested Dyson's Airsmooth on 4 Different Hair Types",
+          "published": "Tue, 22 Sep 2026 21:00:00 +0000",
+          "url": "https://www.allure.com/story/dyson-airsmooth-review"
         },
         {
-          "title": "Allure Best of Beauty 2026 Lip Winning Products: Shop Our Favorites",
-          "published": "Thu, 17 Sep 2026 11:16:12 +0000",
-          "url": "https://www.allure.com/best-of-beauty-2026-winners/lips"
+          "title": "Pamela Anderson Hasn't Worn This Much Eyeliner In Years—See the Photos",
+          "published": "Tue, 22 Sep 2026 20:51:05 +0000",
+          "url": "https://www.allure.com/story/pamela-anderson-smoky-eye-vogue-world"
         },
         {
-          "title": "Allure Best of Beauty Winners 2026: Shop the Best Base Makeup Products",
-          "published": "Thu, 17 Sep 2026 11:14:34 +0000",
-          "url": "https://www.allure.com/best-of-beauty-2026-winners/base"
+          "title": "11 Best Skin-Tightening Creams for Sagging and Crepey Skin",
+          "published": "Tue, 22 Sep 2026 15:48:03 +0000",
+          "url": "https://www.allure.com/story/best-skin-tightening-cream"
         },
         {
-          "title": "Allure Best of Beauty Awards 2026: Shop Our Hair Winners",
-          "published": "Thu, 17 Sep 2026 11:12:47 +0000",
-          "url": "https://www.allure.com/best-of-beauty-2026-winners/hair"
+          "title": "8 Best Round Brushes for Salon-Quality Blowouts at Home",
+          "published": "Tue, 22 Sep 2026 15:37:09 +0000",
+          "url": "https://www.allure.com/story/best-round-brushes"
+        },
+        {
+          "title": "The Concealer Drama Between YISE and Bobbi Brown's Jones Road, Explained",
+          "published": "Tue, 22 Sep 2026 14:47:37 +0000",
+          "url": "https://www.allure.com/story/yise-wake-awake-jones-road-molly-sims-bobbi-brown"
+        },
+        {
+          "title": "How a Rise in GLP-1 Prescriptions Is Changing This Plastic Surgeon’s Job",
+          "published": "Tue, 22 Sep 2026 14:40:16 +0000",
+          "url": "https://www.allure.com/story/lisa-cassileth-perspectives-podcast"
+        },
+        {
+          "title": "The 2026 Allure Best of Beauty Mature Skin-Care Winners Are Time-Tested and Deliver Results",
+          "published": "Tue, 22 Sep 2026 12:00:00 +0000",
+          "url": "https://www.allure.com/story/story/best-of-beauty-2026-mature-beauty-product-winners"
+        },
+        {
+          "title": "7 Best Face Moisturizers for Eczema That Repair, Hydrate, and Calm",
+          "published": "Mon, 21 Sep 2026 14:32:59 +0000",
+          "url": "https://www.allure.com/story/best-face-moisturizers-for-eczema"
+        },
+        {
+          "title": "Do You Need to Optimize Your Vagina? The Longevity Industry Wants You to Think So.",
+          "published": "Mon, 21 Sep 2026 14:00:00 +0000",
+          "url": "https://www.allure.com/story/vagina-aging-menopause-longevity"
+        },
+        {
+          "title": "6 Best Lotions for Rough and Bumpy Skin for KP, Strawberry Skin, and More",
+          "published": "Sat, 19 Sep 2026 12:00:00 +0000",
+          "url": "https://www.allure.com/story/best-lotion-for-rough-and-bumpy-skin"
         }
       ]
     },

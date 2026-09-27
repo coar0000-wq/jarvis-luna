@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-21T09:34:08.047549+00:00",
+  "generated_at": "2026-09-27T14:45:45.566608+00:00",
   "generator": "scripts/collect_robotics.py",
   "목적": "옵시디언 주제 '로보틱스' 가 3건뿐이던 문제를 해결한다. 분류기는 정상이었고 수집원에 로봇 자료가 없었던 것이 원인이다.",
   "접근_정책": "arXiv 은 프로그램 접근용 export.arxiv.org 를 제공하며 그 주소만 사용하고 요청 간 3초를 둔다. RSS 두 곳은 robots.txt 허용을 확인했다.",
-  "total": 65,
+  "total": 66,
   "sources": {
     "arxiv": {
       "status": "ok",
@@ -11,10 +11,98 @@
       "경로": "api.openalex.org (robots Allow: /) · export.arxiv.org 에는 요청하지 않는다",
       "items": [
         {
+          "title": "HBF-Sim: An Extensible HBF Simulator for Large-scale GPU Memory Systems",
+          "summary": "High-bandwidth flash (HBF) is introduced to address the memory wall, which can co-package a dense NAND stack with the GPU, targeting the performance gap between near-accelerator bandwidth and flash density. HBF, however, is neither a large HBM nor a fast NVMe SSD. Its usable bandwidth depends on how GPU cache-line requests map onto NAND pages, how concurrency spreads across channel-affine die sets",
+          "published": "2026-09-24",
+          "url": "https://arxiv.org/abs/2609.29246",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "MQSS-Selector: RL-Guided Pass Selection for an MLIR Compilation Pipeline",
+          "summary": "High Performance Computing (HPC) and Quantum Computing (QC) systems are increasingly converging towards unified High Performance Computing-Quantum Computing (HPCQC) infrastructures, driven by a growing need to bridge classical and quantum workflows, which affects all levels of the system stack, from the hardware to compilers and runtimes, all the way to applications. However, today's QC devices ar",
+          "published": "2026-09-24",
+          "url": "https://arxiv.org/abs/2609.30104",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "KREX: Concurrent Kernel Benchmarking on Shared GPUs via Region-Granular Exclusivity",
+          "summary": "LLM agents automate GPU kernel optimization by repeatedly composing candidates and measuring their duration on real GPUs. Existing systems preserve measurement fidelity by reserving a GPU for an entire agent session or benchmarking command. However, this results in poor utilization because only a small fraction of command execution requires exclusive GPU access. Sharing GPUs could recover this idl",
+          "published": "2026-09-24",
+          "url": "https://arxiv.org/abs/2609.30057",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "Strong NP-Hardness and Approximation Algorithm for Weighted Tardiness with Release Dates and Identical Processing Times",
+          "summary": "We study nonpreemptive scheduling on a single machine with release dates, due dates, positive job weights, and a common processing time. The objective is to minimize total weighted tardiness. Although closely related equal-processing-time problems admit polynomial-time algorithms, the complexity of this problem has remained open in the literature since 2010. We prove that its decision version is s",
+          "published": "2026-09-23",
+          "url": "https://arxiv.org/abs/2609.28751",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "Optimal Operation Method for Computing Power-Electric Power Coordination Considering End-to-End Completion Latency of Computing Tasks",
+          "summary": "With the rapid growth of computing demand and the large-scale integration of renewable energy, how to realize the coordinated optimal operation of computing networks and power networks has become an important issue to be addressed. However, existing studies mainly focus on the impacts of spatiotemporal migration of computing loads on power system operation, while the internal task processing proce",
+          "published": "2026-09-22",
+          "url": "https://arxiv.org/abs/2609.25594",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "Adaptive Parallel-in-Time Integration with Dynamic Resource Management",
+          "summary": "As computational resources continue to grow, the strong-scaling limitations of spatial parallelism motivate the pursuit of additional concurrency in the temporal dimension, particularly for applications with hard time constraints, such as weather and climate simulations. The Parallel Full Approximation Scheme in Space and Time (PFASST) is a parallel-in-time method based on Spectral Deferred Correc",
+          "published": "2026-09-21",
+          "url": "https://arxiv.org/abs/2609.24434",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "Bridging the Vendor Gap: Enabling AMD GPU Support for Awkward Array via ROCm/HIP for the HL-LHC Era",
+          "summary": "The High-Luminosity LHC (HL-LHC) will demand order-of-magnitude gains in analysis throughput, and increasingly those gains must come from GPUs that are not made by a single vendor. Leadership-class systems such as El Capitan, Frontier and LUMI are built on AMD accelerators, yet the Scikit-HEP analysis stack---and Awkward Array in particular---has grown up CUDA-first. We report on $rawkward$, a Rus",
+          "published": "2026-09-21",
+          "url": "https://arxiv.org/abs/2609.24628",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "Toward GPU-Resident Climate Models: A Feasibility Study on Lossy Compression for the Spherical Harmonic Transform's Communication Bottleneck",
+          "summary": "Operational pseudospectral atmospheric models such as the ECMWF Integrated Forecasting System (IFS) run today almost exclusively on CPUs; GPU ports are under active development but not yet used in production. These models rely on the Spherical Harmonic Transform (SHT). Each time-step requires forward and inverse SHTs, and both passes depend on global pencil transposition that redistribute multi-di",
+          "published": "2026-09-21",
+          "url": "https://arxiv.org/abs/2609.24294",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "Accurate Simulation of Distributed Training Jobs with Network Contention Modeling",
+          "summary": "Trace-driven simulation is widely used to evaluate distributed training (DT) jobs in GPU clusters, but existing simulators either ignore network contention or approximate it with a fixed penalty. This misses how scheduling decisions determine which jobs share server network interfaces and inter-server links, thereby changing networking time during training. As a result, our motivating experiments ",
+          "published": "2026-09-20",
+          "url": "https://arxiv.org/abs/2609.23278",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "SemDHT: Certified Semantic Discovery for Peer-to-Peer Agent Networks over Exact-Key DHTs",
+          "summary": "Agents may need capabilities exposed through external agent endpoints or service APIs. When a requester is not already bound to a provider, it must discover advertised capabilities matching its task and interface requirements. Over exact-key distributed hash tables (DHTs), broad retrieval transfers large candidate lists, whereas selective retrieval may miss relevant providers or require more repli",
+          "published": "2026-09-20",
+          "url": "https://arxiv.org/abs/2609.23539",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
           "title": "Simulation code for \"Real-Time AI Service Economy: A Framework for Agentic Computing Across the Continuum\"",
           "summary": "R + targets pipeline reproducing the experiments in the arXiv preprint arXiv:2603.05614, \"Real-Time AI Service Economy: A Framework for Agentic Computing Across the Continuum\": the topology x load ablation grid, the DSIC strategic-bidding test, a measured agentic LLM workload, and the integrator faithfulness and encapsulation-overhead studies. Reproduce all results with targets::tar_make().",
           "published": "2026-09-19",
           "url": "https://arxiv.org/abs/2603.05614",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "HyperParallel-FSDP: Topology-Aware Fully Sharded Training with Layout-Driven Muon on Ascend SuperPods",
+          "summary": "Declarative SPMD programming uses tensor sharding descriptions to drive distributed execution, separating parallelization from model code. However, the evaluated PyTorch DTensor stack dispatches every operator below autograd, incurring repeated dispatch and metadata costs, while lacking an inexpensive end-to-end validation path. Existing FSDP and distributed Muon implementations also mismatch two-",
+          "published": "2026-09-18",
+          "url": "https://arxiv.org/abs/2609.21594",
           "primary_category": "로보틱스",
           "source_detail": "arXiv via OpenAlex"
         },
@@ -52,9 +140,9 @@
         },
         {
           "title": "PipeSwift: Revisiting Pipeline Parallelism for Large-Scale Completion-Oriented Agentic LLM Serving",
-          "summary": "LLM agents execute long-horizon workflows where each model response determines the progress of subsequent tool interactions and environment transitions. Unlike chatbot serving, where TTFT and TPOT SLO constraints are critical, agentic workloads are increasingly governed by completion time. This shift challenges existing LLM serving designs, which are optimized around token-level SLOs. We revisit s",
+          "summary": "LLM agents execute long-horizon workflows where each model response determines the progress of subsequent tool interactions and environment transitions. Unlike chatbot serving, where TTFT and TPOT SLO constraints are critical, agentic workloads are completion-oriented and increasingly governed by job completion time (JCT). This shift challenges existing LLM serving designs optimized around token S",
           "published": "2026-09-15",
-          "url": "https://doi.org/10.48550/arxiv.2609.16491",
+          "url": "https://arxiv.org/abs/2609.16491",
           "primary_category": "로보틱스",
           "source_detail": "arXiv via OpenAlex"
         },
@@ -75,10 +163,10 @@
           "source_detail": "arXiv via OpenAlex"
         },
         {
-          "title": "PipeSwift: Revisiting Pipeline Parallelism for Large-Scale Completion-Oriented Agentic LLM Serving",
-          "summary": "LLM agents execute long-horizon workflows where each model response determines the progress of subsequent tool interactions and environment transitions. Unlike chatbot serving, where TTFT and TPOT SLO constraints are critical, agentic workloads are increasingly governed by completion time. This shift challenges existing LLM serving designs, which are optimized around token-level SLOs. We revisit s",
-          "published": "2026-09-15",
-          "url": "https://arxiv.org/abs/2609.16491",
+          "title": "A Threshold Constant for Exact Community Recovery in the Degree-Corrected Poisson Stochastic Block Model",
+          "summary": "We study exact community recovery in the Degree-Corrected Poisson Stochastic Block Model (DC-SBM) through the maximum profile likelihood estimator. Our main contribution is identifying an explicit complexity constant $C(π,S)$, which closely captures the exact recovery threshold. This constant combines a weighted Chernoff--Hellinger separation between communities with a Kullback--Leibler correction",
+          "published": "2026-09-14",
+          "url": "https://arxiv.org/abs/2609.15793",
           "primary_category": "로보틱스",
           "source_detail": "arXiv via OpenAlex"
         },
@@ -86,15 +174,7 @@
           "title": "Cloud Workflow Scheduling Based on Graph Attention-Driven Hierarchical Reinforcement Learning",
           "summary": "Dynamic cloud workflow scheduling must balance deadline satisfaction, container utilization, and energy consumption while dealing with stochastic task-execution speeds, placement-dependent communication, and coupled task and container decisions. Workflows are naturally modeled as directed acyclic graphs (DAGs), but conventional vector- or matrix-based states do not fully capture their dependency t",
           "published": "2026-09-14",
-          "url": "https://doi.org/10.48550/arxiv.2609.14952",
-          "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
-        },
-        {
-          "title": "Stability-Aware Proactive Autoscaling Using a Double Deep Q-Network in Cloud Computing Environments",
-          "summary": "Dynamic workloads and latency-sensitive applications require efficient autoscaling in cloud computing environments. However, most existing approaches rely on reactive mechanisms based on static thresholds, resulting in delayed responses and scaling oscillations under workload uncertainty. To address these limitations, we propose a double deep Q-Network-based proactive autoscaling approach (DDQN-Pr",
-          "published": "2026-09-14",
-          "url": "https://doi.org/10.48550/arxiv.2609.14894",
+          "url": "https://arxiv.org/abs/2609.14952",
           "primary_category": "로보틱스",
           "source_detail": "arXiv via OpenAlex"
         },
@@ -115,42 +195,10 @@
           "source_detail": "arXiv via OpenAlex"
         },
         {
-          "title": "Cloud Workflow Scheduling Based on Graph Attention-Driven Hierarchical Reinforcement Learning",
-          "summary": "Dynamic cloud workflow scheduling must balance deadline satisfaction, container utilization, and energy consumption while dealing with stochastic task-execution speeds, placement-dependent communication, and coupled task and container decisions. Workflows are naturally modeled as directed acyclic graphs (DAGs), but conventional vector- or matrix-based states do not fully capture their dependency t",
-          "published": "2026-09-14",
-          "url": "https://arxiv.org/abs/2609.14952",
-          "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
-        },
-        {
-          "title": "A Threshold Constant for Exact Community Recovery in the Degree-Corrected Poisson Stochastic Block Model",
-          "summary": "We study exact community recovery in the Degree-Corrected Poisson Stochastic Block Model (DC-SBM) through the maximum profile likelihood estimator. Our main contribution is identifying an explicit complexity constant $C(π,S)$, which closely captures the exact recovery threshold. This constant combines a weighted Chernoff--Hellinger separation between communities with a Kullback--Leibler correction",
-          "published": "2026-09-14",
-          "url": "https://arxiv.org/abs/2609.15793",
-          "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
-        },
-        {
           "title": "Where Should the KV Cache Live? Placement Policies Across GPU, CPU, and SSD for Long-Lived Sessions",
           "summary": "GPU high bandwidth memory is scarce and expensive, and KV caches consume much of it as chats, agent loops, and document question answering accumulate state. Systems such as Mooncake, LMCache, FlexGen, InfiniGen, and AttentionStore extend GPU memory with CPU DRAM and SSD. The harder question is which blocks belong in each tier, when to move or evict them, and whether prefetching helps. We study the",
           "published": "2026-09-14",
           "url": "https://arxiv.org/abs/2609.16215",
-          "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
-        },
-        {
-          "title": "ECAS: An Edge-Controlled Agentic System for Validation-Gated Scientific Application Execution",
-          "summary": "Scientific applications increasingly rely on high-performance computing (HPC), yet translating a scientist's high-level goal into a correct target-scale execution remains brittle and labor-intensive. Large language model (LLM) agents promise to automate this, but two obstacles remain: granting a cloud-hosted model direct HPC access exposes credentials and execution authority, while withholding it ",
-          "published": "2026-09-13",
-          "url": "https://doi.org/10.48550/arxiv.2609.14211",
-          "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
-        },
-        {
-          "title": "When does a scaling result justify a different allocation? A critical review of resource-allocation evidence for AI systems",
-          "summary": "AI scaling studies increasingly evaluate systems that combine a pretrained model with retrieval, search, verification, tools, and interaction. Yet a higher score under a larger budget does not by itself show where additional resources are best spent. This critical integrative review asks when a reported scaling result supports a resource-allocation decision. It compares evidence across pretraining",
-          "published": "2026-09-13",
-          "url": "https://doi.org/10.48550/arxiv.2609.14500",
           "primary_category": "로보틱스",
           "source_detail": "arXiv via OpenAlex"
         },
@@ -163,51 +211,11 @@
           "source_detail": "arXiv via OpenAlex"
         },
         {
-          "title": "When does a scaling result justify a different allocation? A critical review of resource-allocation evidence for AI systems",
-          "summary": "AI scaling studies increasingly evaluate systems that combine a pretrained model with retrieval, search, verification, tools, and interaction. Yet a higher score under a larger budget does not by itself show where additional resources are best spent. This critical integrative review asks when a reported scaling result supports a resource-allocation decision. It compares evidence across pretraining",
-          "published": "2026-09-13",
-          "url": "https://arxiv.org/abs/2609.14500",
-          "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
-        },
-        {
-          "title": "Leakage-Safe and Scheduler-Aware Machine Learning for Grid Job Runtime Prediction",
-          "summary": "Accurate job runtime prediction can improve scheduling-aware resource management in grid and distributed computing environments, but prediction models must be evaluated under realistic deployment constraints. This paper revisits CPU burst time prediction on the GWA-T-4 AuverGrid workload trace and reformulates it as leakage-safe pre-execution job runtime prediction. We define the target as job-lev",
-          "published": "2026-09-12",
-          "url": "https://doi.org/10.48550/arxiv.2609.13701",
-          "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
-        },
-        {
-          "title": "Grouper: Scheduling Groups for Multi-Tenant Microsecond-Scale Microservices",
-          "summary": "Microsecond-scale core allocation makes colocating latency-critical services with batch work worthwhile. A thread that finds no work parks within microseconds and its core goes to a batch task. Putting one back costs $\\sim$18 $μ$s, as the allocator must discover that a core is wanted and then take it from the batch task holding it. A monolith pays that tax once per request, a microservice chain pa",
-          "published": "2026-09-12",
-          "url": "https://doi.org/10.48550/arxiv.2609.14123",
-          "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
-        },
-        {
-          "title": "Leakage-Safe and Scheduler-Aware Machine Learning for Grid Job Runtime Prediction",
-          "summary": "Accurate job runtime prediction can improve scheduling-aware resource management in grid and distributed computing environments, but prediction models must be evaluated under realistic deployment constraints. This paper revisits CPU burst time prediction on the GWA-T-4 AuverGrid workload trace and reformulates it as leakage-safe pre-execution job runtime prediction. We define the target as job-lev",
-          "published": "2026-09-12",
-          "url": "https://arxiv.org/abs/2609.13701",
-          "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
-        },
-        {
-          "title": "Grouper: Scheduling Groups for Multi-Tenant Microsecond-Scale Microservices",
-          "summary": "Microsecond-scale core allocation makes colocating latency-critical services with batch work worthwhile. A thread that finds no work parks within microseconds and its core goes to a batch task. Putting one back costs $\\sim$18 $μ$s, as the allocator must discover that a core is wanted and then take it from the batch task holding it. A monolith pays that tax once per request, a microservice chain pa",
-          "published": "2026-09-12",
-          "url": "https://arxiv.org/abs/2609.14123",
-          "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
-        },
-        {
-          "title": "A Dynamic Vertical Scaling Strategy for Distributed Stream Processing Applications in Edge Computing",
-          "summary": "Distributed Stream Processing applications at the edge must reconcile low latency and high throughput with limited and heterogeneous resources. This paper presents a dynamic vertical scaling strategy based on Proximal Policy Optimization, formulated as a Partially Observable Markov Decision Process. The policy jointly adjusts task allocations and prioritizes compliance with a p95 end-to-end latenc",
-          "published": "2026-09-11",
-          "url": "https://arxiv.org/abs/2609.12975",
-          "primary_category": "로보틱스",
+          "title": "New perspectives for the fitness fatigue model: how to revisit questions about the science of sports training from the perspective of systems control theory",
+          "summary": "The Fitness-Fatigue model (FFM) was initially designed to gain a better physiological understanding of the impact of training loads on sports performance. For almost 50 years, simulations have been compared with the observed response of sports performance to training loads. Understanding the relationship between training load and performance should have answered some fundamental questions for the ",
+          "published": "2026-09-22",
+          "url": "https://arxiv.org/abs/2609.26506",
+          "primary_category": "제어·자율주행",
           "source_detail": "arXiv via OpenAlex"
         }
       ],
@@ -219,6 +227,30 @@
       "source": "IEEE Spectrum Robotics, The Robot Report",
       "errors": [],
       "items": [
+        {
+          "title": "Video Friday: Life’s Better With a Little Robot Goose",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/mobile-assistive-robot-with-articulated-arm-beside-coffee-table-in-cozy-living-room.png?id=67853191&width=1245&height=700&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcomi",
+          "published": "Fri, 25 Sep 2026 16:00:04 +0000",
+          "url": "https://spectrum.ieee.org/video-friday-goose-household-robots",
+          "feed": "IEEE Spectrum Robotics",
+          "source": "rss"
+        },
+        {
+          "title": "Mexican EPICS in IEEE Team Builds Portable Educational Platform",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/four-young-adult-students-laugh-together-while-one-of-them-holds-a-robot-shaped-like-a-hexagonal-cylinder.jpg?id=67845427&width=1245&height=700&coordinates=0%2C156%2C0%2C157\"/><br/><br/><p>In Guadalajara, Mexico, many high schools have motivated teachers and talented students with an interest in science, technology, engineering, and mathematics, bu",
+          "published": "Thu, 24 Sep 2026 18:00:04 +0000",
+          "url": "https://spectrum.ieee.org/epics-in-ieee-portable-educational",
+          "feed": "IEEE Spectrum Robotics",
+          "source": "rss"
+        },
+        {
+          "title": "Barbara Mazzolai Wants to Build a New Field of Robotics",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/photo-of-a-woman-standing-in-front-of-greenery-holding-a-device-shaped-like-a-small-octopus-arm.png?id=67787635&width=1245&height=700&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p>Throughout her career, roboticist <a href=\"https://www.iit.it/people-details/-/people/barbara-mazzolai\" rel=\"noopener noreferrer\" target=\"_blank\">Barbara Mazzolai</a> has turn",
+          "published": "Tue, 22 Sep 2026 14:00:04 +0000",
+          "url": "https://spectrum.ieee.org/sustainability-robotics-barbara-mazzolai",
+          "feed": "IEEE Spectrum Robotics",
+          "source": "rss"
+        },
         {
           "title": "Video Friday: Two Birotors Make a Quadrotor",
           "summary": "<img src=\"https://spectrum.ieee.org/media-library/two-small-dual-propeller-robots-facing-each-other-connected-by-a-loose-green-cord.png?id=67790149&width=1245&height=700&coordinates=103%2C0%2C103%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upco",
@@ -396,146 +428,122 @@
           "source": "rss"
         },
         {
-          "title": "Optical Tech Would Update a Robot’s AI on the Fly",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/an-asian-man-positions-the-lens-of-an-optical-receiver-a-meter-away-from-a-beam-of-led-light-in-a-lab.jpg?id=67530602&width=1245&height=700&coordinates=0%2C469%2C0%2C470\"/><br/><br/><p>Atop a lab bench, <a href=\"https://tech.cornell.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">Cornell Tech</a> postdoctoral researcher <a href=\"https://www.linkedi",
-          "published": "Sun, 26 Jul 2026 13:00:01 +0000",
-          "url": "https://spectrum.ieee.org/ai-in-robotics",
-          "feed": "IEEE Spectrum Robotics",
-          "source": "rss"
-        },
-        {
-          "title": "Video Friday: An Italian Humanoid Comes to Life",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-with-red-armor-and-glowing-lights-stands-against-a-dark-background.png?id=67531350&width=1245&height=700&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming",
-          "published": "Fri, 24 Jul 2026 15:30:01 +0000",
-          "url": "https://spectrum.ieee.org/video-friday-physical-ai-robotics",
-          "feed": "IEEE Spectrum Robotics",
-          "source": "rss"
-        },
-        {
-          "title": "This Graduate Student Equips NASA’s Robots With Assembly Skills",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/a-young-woman-with-blonde-hair-softly-smiling-next-to-a-pair-of-collaborative-robot-arms.jpg?id=67499761&width=1245&height=700&coordinates=0%2C156%2C0%2C157\"/><br/><br/><p>Like many engineers, <a href=\"https://www.linkedin.com/in/sarahdownsprofile\" rel=\"noopener noreferrer\" target=\"_blank\">Sarah Downs</a> says she knew she wanted to pursue a STEM c",
-          "published": "Fri, 17 Jul 2026 18:00:01 +0000",
-          "url": "https://spectrum.ieee.org/graduate-student-nasas-robots-assembly",
-          "feed": "IEEE Spectrum Robotics",
-          "source": "rss"
-        },
-        {
-          "title": "What do you do with a humanoid robot when it breaks down?",
-          "summary": "<p>Decommissioning a humanoid robot is not a matter of traditional scrapping. It's a highly technical, high-stakes surgical endeavor.</p> <p>The post <a href=\"https://www.therobotreport.com/what-do-you-do-with-a-humanoid-robot-when-it-breaks-down/\">What do you do with a humanoid robot when it breaks down?</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
-          "published": "Sun, 20 Sep 2026 12:45:45 +0000",
-          "url": "https://www.therobotreport.com/what-do-you-do-with-a-humanoid-robot-when-it-breaks-down/",
+          "title": "Asimov’s laws are not enough to keep robotics and AI safe",
+          "summary": "<p>Asimov's fictional Three Laws of Robotics famously set safeguards, and tech observers today raise similar concerns about AI.</p> <p>The post <a href=\"https://www.therobotreport.com/asimovs-laws-are-not-enough-keep-robotics-ai-safe/\">Asimov&#8217;s laws are not enough to keep robotics and AI safe</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+          "published": "Sun, 27 Sep 2026 12:26:44 +0000",
+          "url": "https://www.therobotreport.com/asimovs-laws-are-not-enough-keep-robotics-ai-safe/",
           "feed": "The Robot Report",
           "source": "rss"
         },
         {
-          "title": "Hirebotics adds line tracking and linear rail capabilities to its cobots",
-          "summary": "<p>Hirebotics said these new capabilities extend the working range of the cobots, giving manufacturers greater flexibility.</p> <p>The post <a href=\"https://www.therobotreport.com/hirebotics-adds-line-tracking-linear-rail-capabilities-cobots/\">Hirebotics adds line tracking and linear rail capabilities to its cobots</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>",
-          "published": "Sat, 19 Sep 2026 12:40:50 +0000",
-          "url": "https://www.therobotreport.com/hirebotics-adds-line-tracking-linear-rail-capabilities-cobots/",
+          "title": "From 14 cities to 15,000: What it will take to scale robotaxis?",
+          "summary": "<p>While robotaxis prove their driving ability, scaling the industry globally requires solving the unglamorous challenge of fast, local vehicle servicing.</p> <p>The post <a href=\"https://www.therobotreport.com/from-14-cities-to-15000-what-it-will-take-to-scale-robotaxis/\">From 14 cities to 15,000: What it will take to scale robotaxis?</a> appeared first on <a href=\"https://www.therobotreport.com\"",
+          "published": "Sat, 26 Sep 2026 12:34:55 +0000",
+          "url": "https://www.therobotreport.com/from-14-cities-to-15000-what-it-will-take-to-scale-robotaxis/",
           "feed": "The Robot Report",
           "source": "rss"
         },
         {
-          "title": "The picks-and-shovels strategy behind the robotics boom",
-          "summary": "<p>The real robotics opportunity isn’t a humanoid in every home—it’s packaging robots for the jobs businesses need done today.</p> <p>The post <a href=\"https://www.therobotreport.com/the-picks-and-shovels-strategy-behind-the-robotics-boom/\">The picks-and-shovels strategy behind the robotics boom</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
-          "published": "Fri, 18 Sep 2026 18:57:36 +0000",
-          "url": "https://www.therobotreport.com/the-picks-and-shovels-strategy-behind-the-robotics-boom/",
+          "title": "Amazon to invest $100M in new Indiana manufacturing facility",
+          "summary": "<p>The new facility will produce products that power Amazon's fulfillment and robotics network across North America.</p> <p>The post <a href=\"https://www.therobotreport.com/amazon-to-invest-100m-in-new-indiana-manufacturing-facility/\">Amazon to invest $100M in new Indiana manufacturing facility</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+          "published": "Fri, 25 Sep 2026 18:59:01 +0000",
+          "url": "https://www.therobotreport.com/amazon-to-invest-100m-in-new-indiana-manufacturing-facility/",
           "feed": "The Robot Report",
           "source": "rss"
         },
         {
-          "title": "SoftBank agrees to acquire Robotics and AI Institute",
-          "summary": "<p>The deal has been rumored for a couple of months, but it is now being reviewed by the Committee on Foreign Investment in the United States.</p> <p>The post <a href=\"https://www.therobotreport.com/softbank-agrees-to-acquire-robotics-and-ai-institute/\">SoftBank agrees to acquire Robotics and AI Institute</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
-          "published": "Fri, 18 Sep 2026 17:14:32 +0000",
-          "url": "https://www.therobotreport.com/softbank-agrees-to-acquire-robotics-and-ai-institute/",
+          "title": "General Robotics is betting on modular intelligence, not one robot brain",
+          "summary": "<p>Rather than training one model to do everything, General Robotics composes specialized capabilities—helping robots adapt across tasks and form factors.</p> <p>The post <a href=\"https://www.therobotreport.com/general-robotics-is-betting-on-modular-intelligence-not-one-robot-brain/\">General Robotics is betting on modular intelligence, not one robot brain</a> appeared first on <a href=\"https://www",
+          "published": "Fri, 25 Sep 2026 18:43:22 +0000",
+          "url": "https://www.therobotreport.com/general-robotics-is-betting-on-modular-intelligence-not-one-robot-brain/",
           "feed": "The Robot Report",
           "source": "rss"
         },
         {
-          "title": "F-Prime Capital to give insights on the state of robotics investments at RoboBusiness",
-          "summary": "<p>Sanjay Aggarwal and Betsy Mulé of F-Prime Capital will unveil the firm's State of Robotics Investments report at RoboBusiness.</p> <p>The post <a href=\"https://www.therobotreport.com/f-prime-capital-give-insights-state-robotics-investments-robobusiness/\">F-Prime Capital to give insights on the state of robotics investments at RoboBusiness</a> appeared first on <a href=\"https://www.therobotrepor",
-          "published": "Fri, 18 Sep 2026 16:16:44 +0000",
-          "url": "https://www.therobotreport.com/f-prime-capital-give-insights-state-robotics-investments-robobusiness/",
+          "title": "Agility Robotics, maker of Digit humanoid, exploring wheeled robots",
+          "summary": "<p>Agility Robotics is exploring a range of robot designs and form factors, including wheels, to address different operating environments and customer needs.</p> <p>The post <a href=\"https://www.therobotreport.com/agility-robotics-maker-of-digit-humanoid-exploring-wheeled-robots/\">Agility Robotics, maker of Digit humanoid, exploring wheeled robots</a> appeared first on <a href=\"https://www.therobo",
+          "published": "Fri, 25 Sep 2026 14:08:27 +0000",
+          "url": "https://www.therobotreport.com/agility-robotics-maker-of-digit-humanoid-exploring-wheeled-robots/",
           "feed": "The Robot Report",
           "source": "rss"
         },
         {
-          "title": "Neptune Medical earns FDA clearance for its Triton 1 robotic system",
-          "summary": "<p>Neptune said Triton can elevate any endoscopist's capabilities for screening, surveillance, and diagnostic colonoscopies.</p> <p>The post <a href=\"https://www.therobotreport.com/neptune-medical-earns-fda-clearance-triton-1-robotic-system/\">Neptune Medical earns FDA clearance for its Triton 1 robotic system</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
-          "published": "Fri, 18 Sep 2026 13:22:16 +0000",
-          "url": "https://www.therobotreport.com/neptune-medical-earns-fda-clearance-triton-1-robotic-system/",
+          "title": "Farmers are facing more pressure; CNH says robotics can help",
+          "summary": "<p>Labor availability, costs, productivity, and efficiency are common concerns of farmers that technology can address, according to CNH. </p> <p>The post <a href=\"https://www.therobotreport.com/farmers-are-facing-more-pressure-cnh-says-robotics-can-help/\">Farmers are facing more pressure; CNH says robotics can help</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>",
+          "published": "Fri, 25 Sep 2026 12:18:36 +0000",
+          "url": "https://www.therobotreport.com/farmers-are-facing-more-pressure-cnh-says-robotics-can-help/",
           "feed": "The Robot Report",
           "source": "rss"
         },
         {
-          "title": "Icarus Robotics flies ISS-bound robot in microgravity for the first time",
-          "summary": "<p>This is the last major test of the system before Icarus Robotics will be sending JOY the the ISS in early 2027.</p> <p>The post <a href=\"https://www.therobotreport.com/icarus-robotics-flies-iss-bound-robot-in-microgravity-for-the-first-time/\">Icarus Robotics flies ISS-bound robot in microgravity for the first time</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</",
-          "published": "Fri, 18 Sep 2026 13:07:45 +0000",
-          "url": "https://www.therobotreport.com/icarus-robotics-flies-iss-bound-robot-in-microgravity-for-the-first-time/",
+          "title": "5 million robots are now at work in factories worldwide, reports the IFR",
+          "summary": "<p>China still leads the world in industrial robot installations, but the U.S. and Germany are also significant markets, found the IFR.</p> <p>The post <a href=\"https://www.therobotreport.com/5-million-robots-now-working-factories-worldwide-ifr-reports/\">5 million robots are now at work in factories worldwide, reports the IFR</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot",
+          "published": "Thu, 24 Sep 2026 20:15:51 +0000",
+          "url": "https://www.therobotreport.com/5-million-robots-now-working-factories-worldwide-ifr-reports/",
           "feed": "The Robot Report",
           "source": "rss"
         },
         {
-          "title": "Designing long-travel axes: When rack and pinion outperforms ball screws and linear motors",
-          "summary": "<p>When long-travel motion demands more than ball screws and linear motors can deliver, rack-and-pinion systems can offer a compelling combination of speed, precision, scalability, and cost. Here’s when engineers should consider the tradeoff.</p> <p>The post <a href=\"https://www.therobotreport.com/designing-long-travel-axes-when-rack-and-pinion-outperforms-ball-screws-and-linear-motors/\">Designing",
-          "published": "Thu, 17 Sep 2026 18:34:16 +0000",
-          "url": "https://www.therobotreport.com/designing-long-travel-axes-when-rack-and-pinion-outperforms-ball-screws-and-linear-motors/",
+          "title": "Why you should look beyond the spec sheet when choosing motion architecture",
+          "summary": "<p>Choosing the right motion architecture is about understanding how the entire system will behave in use, explains Kollmorgen.</p> <p>The post <a href=\"https://www.therobotreport.com/why-you-should-look-beyond-spec-sheet-when-choosing-motion-architecture/\">Why you should look beyond the spec sheet when choosing motion architecture</a> appeared first on <a href=\"https://www.therobotreport.com\">The",
+          "published": "Thu, 24 Sep 2026 16:39:14 +0000",
+          "url": "https://www.therobotreport.com/why-you-should-look-beyond-spec-sheet-when-choosing-motion-architecture/",
           "feed": "The Robot Report",
           "source": "rss"
         },
         {
-          "title": "Robotics investments reach $4.9B in August 2026",
-          "summary": "<p>The August 2026 Robotics Investments Report includes a table with all 162 investments rounds, complete with breakdowns by technology, country, funding stage, and more.</p> <p>The post <a href=\"https://www.therobotreport.com/robotics-investments-reach-4-9b-in-august-2026/\">Robotics investments reach $4.9B in August 2026</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Rep",
-          "published": "Thu, 17 Sep 2026 16:18:55 +0000",
-          "url": "https://www.therobotreport.com/robotics-investments-reach-4-9b-in-august-2026/",
+          "title": "Epson introduces AX6 cobot with compact design, no-code programming",
+          "summary": "<p>Epson Robots has expanded its six-axis robot line with the AX6, a lightweight force- and power-limited arm.</p> <p>The post <a href=\"https://www.therobotreport.com/epson-introduces-ax6-cobot-compact-design-no-code-programming/\">Epson introduces AX6 cobot with compact design, no-code programming</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+          "published": "Thu, 24 Sep 2026 14:51:07 +0000",
+          "url": "https://www.therobotreport.com/epson-introduces-ax6-cobot-compact-design-no-code-programming/",
           "feed": "The Robot Report",
           "source": "rss"
         },
         {
-          "title": "Arm Total Design for Physical AI brings more than 80 developers together",
-          "summary": "<p>With its new program and its Robotics Capability Framework, Arm aims to bring more clarity and unity to the robotics industry.</p> <p>The post <a href=\"https://www.therobotreport.com/arm-total-design-for-physical-ai-brings-more-than-80-developers-together/\">Arm Total Design for Physical AI brings more than 80 developers together</a> appeared first on <a href=\"https://www.therobotreport.com\">The",
-          "published": "Thu, 17 Sep 2026 12:30:13 +0000",
-          "url": "https://www.therobotreport.com/arm-total-design-for-physical-ai-brings-more-than-80-developers-together/",
+          "title": "ANYbotics opens the door for inspections with ANYmal robots",
+          "summary": "<p>ANYbotics partnered with dormakaba and LEGIC Identsystems to enable the ANYmal quadruped to gain access like a badged employee.</p> <p>The post <a href=\"https://www.therobotreport.com/anybotics-opens-the-door-for-inspections-with-anymal-robots/\">ANYbotics opens the door for inspections with ANYmal robots</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+          "published": "Thu, 24 Sep 2026 13:27:58 +0000",
+          "url": "https://www.therobotreport.com/anybotics-opens-the-door-for-inspections-with-anymal-robots/",
           "feed": "The Robot Report",
           "source": "rss"
         },
         {
-          "title": "OLogic to share how robots can learn from human demonstrations at RoboBusiness",
-          "summary": "<p>OLogic CEO Ted Larson will explore the foundations of egocentric robot learning and the technical challenges involved in building these systems.</p> <p>The post <a href=\"https://www.therobotreport.com/ologic-to-share-how-robots-can-learn-from-human-demonstrations-at-robobusiness/\">OLogic to share how robots can learn from human demonstrations at RoboBusiness</a> appeared first on <a href=\"https",
-          "published": "Wed, 16 Sep 2026 20:31:29 +0000",
-          "url": "https://www.therobotreport.com/ologic-to-share-how-robots-can-learn-from-human-demonstrations-at-robobusiness/",
+          "title": "With the new VENTUNO Q board, Arduino hopes to make robotics development easier",
+          "summary": "<p>While this is the first intentional step by Arduino into robotics, the company has over 20 years of experience working with robotics developers.</p> <p>The post <a href=\"https://www.therobotreport.com/new-ventuno-q-board-arduino-hopes-make-robotics-development-easier/\">With the new VENTUNO Q board, Arduino hopes to make robotics development easier</a> appeared first on <a href=\"https://www.ther",
+          "published": "Wed, 23 Sep 2026 18:04:35 +0000",
+          "url": "https://www.therobotreport.com/new-ventuno-q-board-arduino-hopes-make-robotics-development-easier/",
           "feed": "The Robot Report",
           "source": "rss"
         },
         {
-          "title": "The evolution of Digit: Agility Robotics’ journey from Cassie to Digit 5",
-          "summary": "<p>From Cassie, to five different versions of Digit, Agility Robotics has adapted its technology to fit industrial tasks. </p> <p>The post <a href=\"https://www.therobotreport.com/the-evolution-of-digit-agility-robotics-journey-from-cassie-to-digit-5/\">The evolution of Digit: Agility Robotics&#8217; journey from Cassie to Digit 5</a> appeared first on <a href=\"https://www.therobotreport.com\">The Ro",
-          "published": "Wed, 16 Sep 2026 17:45:50 +0000",
-          "url": "https://www.therobotreport.com/the-evolution-of-digit-agility-robotics-journey-from-cassie-to-digit-5/",
+          "title": "Helicon brings automation to high-volume composites manufacturing",
+          "summary": "<p>Helicon has obtained seed funding to use automation to cut composite manufacturing lead times from months to weeks.</p> <p>The post <a href=\"https://www.therobotreport.com/helicon-brings-automation-high-volume-composites-manufacturing/\">Helicon brings automation to high-volume composites manufacturing</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+          "published": "Wed, 23 Sep 2026 12:30:48 +0000",
+          "url": "https://www.therobotreport.com/helicon-brings-automation-high-volume-composites-manufacturing/",
           "feed": "The Robot Report",
           "source": "rss"
         },
         {
-          "title": "InOrbit.AI releases OpenRobOps ISO 21423 reference implementation",
-          "summary": "<p>OpenRobOps gives robotics developers a foundation to deliver a fleet manager with support for the upcoming interoperability standard. </p> <p>The post <a href=\"https://www.therobotreport.com/inorbit-ai-releases-openrobops-iso-21423-reference-implementation/\">InOrbit.AI releases OpenRobOps ISO 21423 reference implementation</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot",
-          "published": "Tue, 15 Sep 2026 12:58:29 +0000",
-          "url": "https://www.therobotreport.com/inorbit-ai-releases-openrobops-iso-21423-reference-implementation/",
+          "title": "State of Humanoids keynote brings industry leaders to RoboBusiness",
+          "summary": "<p>At RoboBusiness, industry leaders will discuss the state of humanoids as the robots transition from demos to real industrial deployments.</p> <p>The post <a href=\"https://www.therobotreport.com/state-of-humanoids-keynote-brings-industry-leaders-robobusiness/\">State of Humanoids keynote brings industry leaders to RoboBusiness</a> appeared first on <a href=\"https://www.therobotreport.com\">The Rob",
+          "published": "Wed, 23 Sep 2026 12:25:11 +0000",
+          "url": "https://www.therobotreport.com/state-of-humanoids-keynote-brings-industry-leaders-robobusiness/",
           "feed": "The Robot Report",
           "source": "rss"
         },
         {
-          "title": "Agility’s Digit 5 humanoid has new legs, batteries, and safety upgrades",
-          "summary": "<p>The latest version of Digit includes new knees, upgraded batteries, and more comprehensive safety architecture.</p> <p>The post <a href=\"https://www.therobotreport.com/agilitys-digit-5-humanoid-has-new-legs-batteries-safety-upgrades/\">Agility’s Digit 5 humanoid has new legs, batteries, and safety upgrades</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
-          "published": "Tue, 15 Sep 2026 10:55:15 +0000",
-          "url": "https://www.therobotreport.com/agilitys-digit-5-humanoid-has-new-legs-batteries-safety-upgrades/",
+          "title": "Qualcomm to acquire PickNik Robotics and keep MoveIt open-source",
+          "summary": "<p>Qualcomm plans to integrate the Dragonwing and Arduino platforms with the MoveIt open-source manipulation framework.</p> <p>The post <a href=\"https://www.therobotreport.com/qualcomm-acquires-picknik-robotics-keep-moveit-open-source/\">Qualcomm to acquire PickNik Robotics and keep MoveIt open-source</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+          "published": "Wed, 23 Sep 2026 11:29:32 +0000",
+          "url": "https://www.therobotreport.com/qualcomm-acquires-picknik-robotics-keep-moveit-open-source/",
           "feed": "The Robot Report",
           "source": "rss"
         },
         {
-          "title": "Why RaaS needs more than a subscription model",
-          "summary": "<p>At RoboBusiness 2026, a panel of robotics business leaders will examine the practical playbook behind Robots-as-a-Service or RaaS offerings. </p> <p>The post <a href=\"https://www.therobotreport.com/why-raas-needs-more-than-a-subscription-model/\">Why RaaS needs more than a subscription model </a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
-          "published": "Mon, 14 Sep 2026 21:45:57 +0000",
-          "url": "https://www.therobotreport.com/why-raas-needs-more-than-a-subscription-model/",
+          "title": "Intel to discuss the infrastructure needed to scale physical AI at RoboBusiness",
+          "summary": "<p>Intel's Nagesh Puppala will discuss why the next phase of robotics innovation depends on more than bigger models or better simulations.</p> <p>The post <a href=\"https://www.therobotreport.com/intel-discusses-infrastructure-needed-to-scale-physical-ai-robobusiness/\">Intel to discuss the infrastructure needed to scale physical AI at RoboBusiness</a> appeared first on <a href=\"https://www.therobot",
+          "published": "Tue, 22 Sep 2026 21:31:19 +0000",
+          "url": "https://www.therobotreport.com/intel-discusses-infrastructure-needed-to-scale-physical-ai-robobusiness/",
           "feed": "The Robot Report",
           "source": "rss"
         }

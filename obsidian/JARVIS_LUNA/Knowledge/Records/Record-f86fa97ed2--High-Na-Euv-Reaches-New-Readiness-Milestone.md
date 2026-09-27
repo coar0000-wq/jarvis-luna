@@ -2,7 +2,7 @@
 title: "Record f86fa97ed2 · High-Na-Euv-Reaches-New-Readiness-Milestone"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T12:05:29.316174+00:00
+updated_at: 2026-09-27T14:58:02.927786+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [www.asml.com](https://www.asml.com/en/news/press-releases/2026/high-na-euv-reaches-new-readiness-milestone)
 
-**제목:** High Na Euv Reaches New Readiness Milestone
+**제목:** High NA EUV reaches new readiness milestone with first high-volume Logic product
 
-High Na Euv Reaches New Readiness Milestone
+High NA EUV reaches new readiness milestone with first high-volume Logic product
 
 **출처:** Source · institutions
 

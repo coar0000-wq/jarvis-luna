@@ -2,7 +2,7 @@
 title: "Record ee9baf6eef · Managing-Elasticsearch-Reindex-at-Scale-Performance"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T12:05:28.241719+00:00
+updated_at: 2026-09-27T14:58:01.745888+00:00
 tags: [record, real-data]
 ---
 

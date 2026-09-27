@@ -2,7 +2,7 @@
 title: "Record bd647c68a1 · Anthropic-Economic-Index-Insights-from-Claude-37-So"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T12:05:29.307594+00:00
+updated_at: 2026-09-27T14:58:02.917850+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [www.anthropic.com](https://www.anthropic.com/research/anthropic-economic-index-insights-from-claude-sonnet-3-7)
 
-**제목:** Anthropic Economic Index: Insights from Claude 3.7 Sonnet
+**제목:** Anthropic Economic Index Insights From Claude Sonnet 3 7
 
-Anthropic Economic Index: Insights from Claude 3.7 Sonnet
-The second update from the Anthropic Economic Index
+Anthropic Economic Index Insights From Claude Sonnet 3 7
 
 **출처:** Source · institutions
 

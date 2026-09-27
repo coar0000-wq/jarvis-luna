@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-27T23:11:33.765954+09:00",
+  "generated_at": "2026-09-27T23:58:13.319117+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
       "id": "sourcing",
       "name": "상품 소싱팀",
-      "when": "2026-09-21T09:42:02.662701+00:00",
-      "summary": "345개 상품 · 등급 S 10 / A 78 / B 46 / C 211 · 새 자료 3건",
+      "when": "2026-09-27T14:56:08.588787+00:00",
+      "summary": "344개 상품 · 등급 S 10 / A 72 / B 52 / C 210 · 새 자료 3건",
       "action": null,
       "action_kind": null,
       "waiting": null,
@@ -22,8 +22,8 @@
     {
       "id": "institutions",
       "name": "기관 수집팀",
-      "when": "2026-09-21T09:35:05.569676+00:00",
-      "summary": "35곳 1,063건 · 미수집 12건 사유 기록 · 새 자료 149건",
+      "when": "2026-09-27T14:46:57.077634+00:00",
+      "summary": "35곳 1,055건 · 미수집 12건 사유 기록 · 새 자료 149건",
       "action": null,
       "action_kind": null,
       "waiting": null,
@@ -38,10 +38,10 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-09-27T23:11:14.030655+09:00",
-      "summary": "S등급 10개 · 고시 판독 남음 0건 · 유튜브 자막 12편 · 근거 29개 · 실험 12개 · 새 자료 42건",
-      "action": null,
-      "action_kind": null,
+      "when": "2026-09-27T23:56:19.167370+09:00",
+      "summary": "S등급 10개 · 고시 판독 남음 1건 · 유튜브 자막 12편 · 근거 29개 · 실험 12개 · 새 자료 49건",
+      "action": "고시 표 1건 판독 남음 (비전 판독 상태 ok) — 1027327 바세린 마스크팩 집중보습 https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027327",
+      "action_kind": "auto_remediable",
       "waiting": null,
       "waiting_kind": null,
       "notice": null,
@@ -54,11 +54,11 @@
     {
       "id": "listing",
       "name": "리스팅 제작팀",
-      "when": "2026-09-27T14:08:49.813131+00:00",
-      "summary": "AI 입력 10/10 · 초안 준비 10/10 · 공개 준비 0/10 · Action 9건 · CP 10 · 카피 10 · 고시 10 · 가격 10 · 법률 10 · Jev 판정 10건(입력 9,497토큰 · $0.0004, 무료 크레딧)",
+      "when": "2026-09-27T14:56:16.576171+00:00",
+      "summary": "AI 입력 9/10 · 초안 준비 9/10 · 공개 준비 0/10 · Action 8건 · CP 10 · 카피 9 · 고시 9 · 가격 10 · 법률 9 · Jev 판정 10건(입력 10,971토큰 · $0.0005, 무료 크레딧)",
       "action": null,
       "action_kind": null,
-      "waiting": "MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 9건 사람 승인 대기",
+      "waiting": "카피 1건, 고시 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 8건 사람 승인 대기",
       "waiting_kind": "human_approval_required",
       "notice": null,
       "status": "ok",
@@ -70,8 +70,8 @@
     {
       "id": "pricing",
       "name": "가격 정책팀",
-      "when": "2026-09-27T14:08:03.630600+00:00",
-      "summary": "개당 배송비 $6.20~$8.43 · 무게 43~360g (고시용량 10) · DDU/DDP 4개 · 새 자료 9건",
+      "when": "2026-09-27T14:56:08.735366+00:00",
+      "summary": "개당 배송비 $6.20~$6.94 · 무게 43~200g (이름추정 1 / 고시용량 9) · DDU/DDP 4개 · 새 자료 11건",
       "action": null,
       "action_kind": null,
       "waiting": null,
@@ -86,11 +86,11 @@
     {
       "id": "legal",
       "name": "법률·규제팀",
-      "when": "2026-09-27T14:08:47.874599+00:00",
-      "summary": "자동 점검 10건 · 통과 0 · 등록 차단 0 · 참고 주의 10 · MoCRA 준비 0/7 · 영문라벨 23/26 · 표기 되돌림 6건 · 성분표기 확인 4종 · 수출서류 HS 10건 · 라벨 4/6항목 자동 · 새 자료 25건",
+      "when": "2026-09-27T14:56:09.757811+00:00",
+      "summary": "자동 점검 10건 · 통과 0 · 등록 차단 1 · 참고 주의 10 · MoCRA 준비 0/7 · 영문라벨 23/26 · 표기 되돌림 6건 · 성분표기 확인 4종 · 수출서류 HS 10건 · 라벨 1/6항목 자동 · 새 자료 27건",
       "action": null,
       "action_kind": null,
-      "waiting": "MoCRA 남은 항목: 책임자(Responsible Person) 지정과 라벨 표기, 제조시설 등록(2년 주기 갱신), FDA 제품 리스팅(연 1회 갱신) · 고시 원문이 깨진 성분 4종(경북, 테트라데칸에이트, 피이지-20글리세릴-12) — data/manual/inci_overrides.json 확인 대기",
+      "waiting": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 4종(경북, 테트라데칸에이트, 피이지-20글리세릴-12) — data/manual/inci_overrides.json 확인 대기",
       "waiting_kind": "human_approval_required",
       "notice": null,
       "status": "ok",
@@ -102,8 +102,8 @@
     {
       "id": "robotics",
       "name": "로보틱스 수집",
-      "when": "2026-09-21T09:34:08.047549+00:00",
-      "summary": "65건 · arxiv 25 / rss 40 · 새 자료 45건",
+      "when": "2026-09-27T14:45:45.566608+00:00",
+      "summary": "66건 · arxiv 26 / rss 40 · 새 자료 45건",
       "action": null,
       "action_kind": null,
       "waiting": null,
@@ -118,8 +118,8 @@
     {
       "id": "design",
       "name": "디자인팀",
-      "when": "2026-09-21T09:35:13.771160+00:00",
-      "summary": "스토어 2/12단계 · 레퍼런스 85건 · 폰트 1946개(한글 38) · 팔레트 13색조 · 디자인 기사 60건 · 영상 66건 · 새 자료 76건",
+      "when": "2026-09-27T14:47:05.372308+00:00",
+      "summary": "스토어 2/12단계 · 레퍼런스 85건 · 폰트 1946개(한글 38) · 팔레트 13색조 · 디자인 기사 60건 · 영상 67건 · 새 자료 88건",
       "action": null,
       "action_kind": null,
       "waiting": "다음 단계: Shopify 스토어 개설 및 기본 설정",
@@ -134,8 +134,8 @@
     {
       "id": "channels",
       "name": "채널 운영팀",
-      "when": "2026-09-21T09:42:22.011092+00:00",
-      "summary": "가동 5/12채널 · 낡음 6건 · 수동 입력 32건 · 후보 7건 검사, 미연동 0건",
+      "when": "2026-09-27T14:56:32.324889+00:00",
+      "summary": "가동 8/12채널 · 낡음 3건 · 수동 입력 32건 · 후보 7건 검사, 미연동 0건",
       "action": null,
       "action_kind": null,
       "waiting": null,
@@ -150,7 +150,7 @@
     {
       "id": "knowledge",
       "name": "지식 수집팀",
-      "when": "2026-09-27T12:05:00.091751+00:00",
+      "when": "2026-09-27T14:48:10.064985+00:00",
       "summary": "537건 · arXiv 50 / 유기농스킨 30 / Google 300 / US뷰티 157",
       "action": null,
       "action_kind": null,
@@ -166,8 +166,8 @@
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-09-27T22:50:28.117311+09:00",
-      "summary": "82,458노트 · 335,465링크 · 끊어진 링크 0건 · 개인 노트 16건 별도",
+      "when": "2026-09-27T23:58:03.778340+09:00",
+      "summary": "82,783노트 · 339,573링크 · 끊어진 링크 0건 · 개인 노트 16건 별도",
       "action": null,
       "action_kind": null,
       "waiting": null,
@@ -184,46 +184,46 @@
     "id": "secretary",
     "name": "비서실장",
     "badge": "총괄",
-    "when": "2026-09-27T23:10:54.442531+09:00",
-    "summary": "2시간 주기 · 고시 26건 · US라벨 26건 · 카피 10건 · 등록 가능 10건 · 법률 차단 0건",
-    "action": "비서실장 감시 루프 갱신 지연 — Safe Auto-Fix 보고서가 4시간 30분 넘게 확인되지 않음",
-    "action_kind": "revalidate_only",
-    "status": "warning",
+    "when": "2026-09-27T23:56:09.673268+09:00",
+    "summary": "2시간 주기 · 고시 26건 · US라벨 26건 · 카피 10건 · 등록 가능 9건 · 법률 차단 1건",
+    "action": null,
+    "action_kind": null,
+    "status": "ok",
     "steps": [
       {
         "단계": "고시 수집",
         "산출물": "gosi.json",
         "갱신": "2026-09-20T21:05:17.040479+00:00",
-        "몇시간전": 161.1
+        "몇시간전": 161.9
       },
       {
         "단계": "고시 비전 추출",
         "산출물": "gosi.json",
-        "갱신": "2026-09-27T23:08:26.083323+09:00",
-        "몇시간전": 0.1
+        "갱신": "2026-09-27T23:43:54.001501+09:00",
+        "몇시간전": 0.2
       },
       {
         "단계": "US 라벨 동기화",
         "산출물": "daiso_us_labels.json",
-        "갱신": "2026-09-27T23:10:54.442531+09:00",
+        "갱신": "2026-09-27T23:56:09.673268+09:00",
         "몇시간전": 0.0
       },
       {
         "단계": "리스팅 카피",
         "산출물": "shopify_listing_copy.json",
-        "갱신": "2026-09-27T14:08:47.789535+00:00",
+        "갱신": "2026-09-27T14:56:11.324741+00:00",
         "몇시간전": 0.0
       },
       {
         "단계": "등록 게이트",
         "산출물": "listing_gate.json",
-        "갱신": "2026-09-27T14:08:49.813131+00:00",
+        "갱신": "2026-09-27T14:56:16.576171+00:00",
         "몇시간전": 0.0
       },
       {
         "단계": "법률 점검",
         "산출물": "legal_products.json",
-        "갱신": "2026-09-27T14:08:47.874599+00:00",
+        "갱신": "2026-09-27T14:56:09.757811+00:00",
         "몇시간전": 0.0
       }
     ],
@@ -231,10 +231,10 @@
   },
   "remediation_state": {
     "schema_version": 1,
-    "generated_at": "2026-09-21T10:24:44.825768+00:00",
+    "generated_at": "2026-09-27T14:57:33.826917+00:00",
     "check_interval": "2_hours",
     "escalate_after_detected_runs": 3,
-    "active_count": 4,
+    "active_count": 5,
     "auto_remediable_count": 0,
     "waiting_human_count": 2,
     "waiting_external_count": 2,
@@ -246,10 +246,10 @@
         "priority": "P4",
         "classification": "human_approval_required",
         "state": "waiting_human_approval",
-        "reason": "카피 3건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 6건 사람 승인 대기",
+        "reason": "카피 1건, 고시 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 8건 사람 승인 대기",
         "first_seen_at": "2026-09-21T10:13:44.774659+00:00",
-        "last_seen_at": "2026-09-21T10:24:44.825768+00:00",
-        "detected_runs": 3,
+        "last_seen_at": "2026-09-27T14:57:33.826917+00:00",
+        "detected_runs": 4,
         "auto_attempts": 0,
         "resolved_at": null
       },
@@ -260,10 +260,10 @@
         "priority": "P4",
         "classification": "human_approval_required",
         "state": "waiting_human_approval",
-        "reason": "차단 1건: [퀵 수분충전]VT PDRN (자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기",
+        "reason": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 4종(경북, 테트라데칸에이트, 피이지-20글리세릴-12) — data/manual/inci_overrides.json 확인 대기",
         "first_seen_at": "2026-09-21T10:13:44.774659+00:00",
-        "last_seen_at": "2026-09-21T10:24:44.825768+00:00",
-        "detected_runs": 3,
+        "last_seen_at": "2026-09-27T14:57:33.826917+00:00",
+        "detected_runs": 4,
         "auto_attempts": 0,
         "resolved_at": null
       },
@@ -276,8 +276,8 @@
         "state": "waiting_external_dependency",
         "reason": "다음 단계: Shopify 스토어 개설 및 기본 설정",
         "first_seen_at": "2026-09-21T10:13:44.774659+00:00",
-        "last_seen_at": "2026-09-21T10:24:44.825768+00:00",
-        "detected_runs": 3,
+        "last_seen_at": "2026-09-27T14:57:33.826917+00:00",
+        "detected_runs": 4,
         "auto_attempts": 0,
         "resolved_at": null
       },
@@ -290,7 +290,21 @@
         "state": "waiting_external_dependency",
         "reason": "외부 소스 고장 5건 추적 중 (기관 수집팀:Deutsche Bank 사이트, 기관 수집팀:TSMC 뉴스룸, 기관 수집팀:Marvell·Intel·Qualcomm·ASML IR RSS, 채널 운영팀:FDA 화장품 리콜·조치 이력)",
         "first_seen_at": "2026-09-21T10:24:44.825768+00:00",
-        "last_seen_at": "2026-09-21T10:24:44.825768+00:00",
+        "last_seen_at": "2026-09-27T14:57:33.826917+00:00",
+        "detected_runs": 2,
+        "auto_attempts": 0,
+        "resolved_at": null
+      },
+      "dashboard:market:TEAM_ACTION_MARKET": {
+        "key": "dashboard:market:TEAM_ACTION_MARKET",
+        "area": "dashboard:market",
+        "action": "TEAM_ACTION_MARKET",
+        "priority": "P3",
+        "classification": "revalidate_only",
+        "state": "monitoring",
+        "reason": "고시 표 1건 판독 남음 (비전 판독 상태 ok) — 1027327 바세린 마스크팩 집중보습 https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027327",
+        "first_seen_at": "2026-09-27T14:57:33.826917+00:00",
+        "last_seen_at": "2026-09-27T14:57:33.826917+00:00",
         "detected_runs": 1,
         "auto_attempts": 0,
         "resolved_at": null
@@ -326,11 +340,11 @@
     }
   },
   "errors": {
-    "generated_at": "2026-09-21T09:43:15.085969+00:00",
-    "total": 34,
+    "generated_at": "2026-09-27T14:57:21.258664+00:00",
+    "total": 37,
     "counts": {
       "고장": 5,
-      "대기": 9,
+      "대기": 12,
       "대체됨": 5,
       "막힘": 11,
       "보류": 4
@@ -385,6 +399,21 @@
       },
       {
         "team": "법률·규제팀",
+        "item": "내용량",
+        "fix": "한 번 알려주면 라벨과 정책 페이지 양쪽에 들어간다"
+      },
+      {
+        "team": "법률·규제팀",
+        "item": "원산지",
+        "fix": "한 번 알려주면 라벨과 정책 페이지 양쪽에 들어간다"
+      },
+      {
+        "team": "법률·규제팀",
+        "item": "전성분",
+        "fix": "한 번 알려주면 라벨과 정책 페이지 양쪽에 들어간다"
+      },
+      {
+        "team": "법률·규제팀",
         "item": "제품 정체 표시",
         "fix": "한 번 알려주면 라벨과 정책 페이지 양쪽에 들어간다"
       },
@@ -411,7 +440,7 @@
     ]
   },
   "health": {
-    "generated_at": "2026-09-21T09:43:15.136083+00:00",
+    "generated_at": "2026-09-27T14:57:21.310047+00:00",
     "overall_status": "failed",
     "status_legend": {
       "success": "정상",
@@ -420,7 +449,7 @@
       "failed": "예외 - 사람 개입 필요"
     },
     "kpi": {
-      "last_success": "2026-09-21T09:43:15.136073+00:00",
+      "last_success": "2026-09-27T14:57:21.310036+00:00",
       "failed_jobs": 1,
       "queue": 3061,
       "stale_source": "marketing",
@@ -429,25 +458,25 @@
         "legal_full": "1 min ago",
         "pricing": "1 min ago",
         "marketing": "1 min ago",
-        "gosi": "12.6 hours ago",
+        "gosi": "6.7 days ago",
         "product_discovery": "1 min ago",
-        "daiso": "11.2 hours ago"
+        "daiso": "6.7 days ago"
       }
     },
     "summary": {
-      "success": 5,
-      "warning": 1,
+      "success": 3,
+      "warning": 3,
       "degraded": 0,
       "failed": 1,
-      "no_change": 0,
+      "no_change": 2,
       "real_failures": 1
     },
     "checks": [
       {
         "team": "product_master",
         "status": "success",
-        "reason": "운영 상품 345개, CP 345개, S 10개",
-        "count": 345,
+        "reason": "운영 상품 344개, CP 345개, S 10개",
+        "count": 344,
         "s_count": 10,
         "freshness": "1 min ago",
         "is_failure": false
@@ -475,10 +504,11 @@
       },
       {
         "team": "gosi",
-        "status": "success",
-        "reason": "정상 12.6h 전",
+        "status": "warning",
+        "reason": "161.9h 전 갱신 - 변경 없음으로 처리",
         "is_failure": false,
-        "freshness": "12.6 hours ago"
+        "is_no_change": true,
+        "freshness": "6.7 days ago"
       },
       {
         "team": "product_discovery",
@@ -489,10 +519,11 @@
       },
       {
         "team": "daiso",
-        "status": "success",
-        "reason": "정상 11.2h 전",
+        "status": "warning",
+        "reason": "160.4h 전 갱신 - 변경 없음으로 처리",
         "is_failure": false,
-        "freshness": "11.2 hours ago"
+        "is_no_change": true,
+        "freshness": "6.7 days ago"
       }
     ],
     "architecture_p0": {
@@ -503,7 +534,7 @@
     }
   },
   "team_summary": {
-    "corpus_records": 4460,
+    "corpus_records": 4785,
     "pipeline_done": 5,
     "pipeline_total": 5
   },
@@ -512,13 +543,13 @@
       "id": "collect",
       "title": "실제 데이터 수집",
       "status": "completed",
-      "detail": "4460개 코퍼스 레코드"
+      "detail": "4785개 코퍼스 레코드"
     },
     {
       "id": "graph",
       "title": "Obsidian 그래프 반영·검증",
       "status": "completed",
-      "detail": "82458개 노트 · 335465개 링크 · 끊어진 링크 0개 · 개인 노트 16개 별도"
+      "detail": "82783개 노트 · 339573개 링크 · 끊어진 링크 0개 · 개인 노트 16개 별도"
     },
     {
       "id": "dashboard",
@@ -530,7 +561,7 @@
       "id": "train",
       "title": "실제 데이터 MoE 학습",
       "status": "completed",
-      "detail": "4460건 · 3 experts · 정확도 85.58%"
+      "detail": "4785건 · 3 experts · 정확도 86.14%"
     },
     {
       "id": "publish",
@@ -541,9 +572,9 @@
   ],
   "sources": {
     "status": "completed",
-    "record_count": 4460,
+    "record_count": 4785,
     "source_counts": {},
-    "updated_at": "2026-09-27T22:50:24.683088+09:00"
+    "updated_at": "2026-09-27T23:48:10.082259+09:00"
   },
   "shopify_marketing_strategy": {
     "status": "evidence_ready",
@@ -871,44 +902,44 @@
     "strategy_file": "data/shopify_marketing_strategy.json"
   },
   "graph": {
-    "notes": 82458,
-    "links": 335465,
+    "notes": 82783,
+    "links": 339573,
     "dangling_links": 0,
     "dangling_personal": 16,
     "dangling_personal_note": "사용자가 직접 넣은 Personal 노트의 내부 링크. 원본 볼트에서 일부만 가져와 대상 노트가 없는 것으로, 파이프라인 오류가 아니다.",
     "dangling_warn_threshold": 300,
-    "records": 81618,
+    "records": 81943,
     "sources": 7,
     "topics": 28,
     "orgs": 35,
     "audit": "passed",
-    "last_generated": "2026-09-27T22:50:28.117311+09:00"
+    "last_generated": "2026-09-27T23:58:03.778340+09:00"
   },
   "training": {
     "status": "completed",
     "training_performed": true,
     "weights_updated": true,
-    "records": 4460,
+    "records": 4785,
     "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
     "experts": 3,
-    "accuracy": 0.8558295964125561,
-    "validation_accuracy": 0.8608799048751486,
-    "final_loss": 0.48470656072969276,
-    "gate_load_std": 0.08655665699841232,
+    "accuracy": 0.8614420062695924,
+    "validation_accuracy": 0.8679245283018868,
+    "final_loss": 0.4753403142708487,
+    "gate_load_std": 0.07613207451888997,
     "tuning_promoted": true,
     "tuning_steps": 500,
-    "updated_at": "2026-09-27T12:07:38.414359+00:00"
+    "updated_at": "2026-09-27T14:55:31.626704+00:00"
   },
   "cumulative": {
     "totals": {
-      "records": 4460,
-      "notes": 83046,
-      "links": 354711
+      "records": 4785,
+      "notes": 83371,
+      "links": 358819
     },
     "prior_totals": {
-      "records": 4460,
-      "notes": 83046,
-      "links": 354711
+      "records": 4785,
+      "notes": 83371,
+      "links": 358819
     },
     "added_this_run": {
       "records": 0,
@@ -916,9 +947,9 @@
       "links": 0
     },
     "current_snapshot": {
-      "records": 4460,
-      "notes": 82458,
-      "links": 335465
+      "records": 4785,
+      "notes": 82783,
+      "links": 339573
     },
     "since": "2026-08-23T05:21:53.378147+00:00",
     "runs_recorded": 90
@@ -1290,130 +1321,130 @@
     ],
     "oliveyoung_us": [
       {
-        "product": "THOME The Glow Signature",
-        "sub": "THOME",
-        "badge": "$279.00",
+        "product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
+        "sub": "MEDIHEAL",
+        "badge": "$20.99",
         "rank": 1,
-        "rating": 4.7,
-        "review_count": 25,
-        "url": "https://us.oliveyoung.com/products/UA66893538"
+        "rating": 4.8,
+        "review_count": 1080,
+        "url": "https://us.oliveyoung.com/products/UA48723304"
+      },
+      {
+        "product": "JUNG KWAN JANG Ginseng Honey Paste Daily Stick 0.35 oz.(10g) x 30ea",
+        "sub": "JUNG KWAN JANG",
+        "badge": "$36.39",
+        "rank": 2,
+        "rating": 0,
+        "review_count": 0,
+        "url": "https://us.oliveyoung.com/products/UA37986574"
       },
       {
         "product": "[11types] CORINGCO Toktokhara No Glue Eyelash",
         "sub": "CORINGCO",
-        "badge": "$12.00",
-        "rank": 2,
+        "badge": "$12.99",
+        "rank": 3,
         "rating": 4.8,
-        "review_count": 11995,
+        "review_count": 11936,
         "url": "https://us.oliveyoung.com/products/UA29855490"
       },
       {
-        "product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
-        "sub": "REJURAN",
-        "badge": "$41.60",
-        "rank": 3,
-        "rating": 4.8,
-        "review_count": 12,
-        "url": "https://us.oliveyoung.com/products/UA67698081"
-      },
-      {
-        "product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-        "sub": "MEDIHEAL",
-        "badge": "$20.99",
+        "product": "Torriden Dive-in Low Molecule Hyaluronic Acid Serum 1.69 fl. oz.(50ml)",
+        "sub": "Torriden",
+        "badge": "$24.00",
         "rank": 4,
-        "rating": 4.8,
-        "review_count": 1075,
-        "url": "https://us.oliveyoung.com/products/UA48723304"
-      },
-      {
-        "product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
-        "sub": "AESTURA",
-        "badge": "$32.00",
-        "rank": 5,
         "rating": 5,
-        "review_count": 2,
-        "url": "https://us.oliveyoung.com/products/UA71026007"
-      },
-      {
-        "product": "lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)",
-        "sub": "lilyeve",
-        "badge": "$23.76",
-        "rank": 6,
-        "rating": 4.7,
-        "review_count": 10,
-        "url": "https://us.oliveyoung.com/products/UA98417491"
+        "review_count": 13,
+        "url": "https://us.oliveyoung.com/products/UA56625219"
       },
       {
         "product": "[30shades] JUNG SAEM MOOL Essential Skin Nuder Cushion 0.49 oz.(14g)",
         "sub": "JUNG SAEM MOOL",
         "badge": "$30.40",
-        "rank": 7,
+        "rank": 5,
         "rating": 4.7,
-        "review_count": 386,
+        "review_count": 390,
         "url": "https://us.oliveyoung.com/products/UA97366320"
       },
       {
-        "product": "[2sizes] ILLIYOON Ceramide Ato Concentrate Cream",
-        "sub": "ILLIYOON",
-        "badge": "$21.24",
-        "rank": 8,
-        "rating": 5,
-        "review_count": 5,
-        "url": "https://us.oliveyoung.com/products/UA39684183"
-      },
-      {
-        "product": "JUNG KWAN JANG Korean Red Ginseng Extract 2,000mg 0.34 fl. oz.(10ml) x 10ea",
-        "sub": "JUNG KWAN JANG",
-        "badge": "$28.79",
-        "rank": 9,
-        "rating": 5,
-        "review_count": 2,
-        "url": "https://us.oliveyoung.com/products/UA48741165"
-      },
-      {
-        "product": "REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)",
+        "product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
         "sub": "REJURAN",
-        "badge": "$55.00",
-        "rank": 10,
+        "badge": "$41.60",
+        "rank": 6,
+        "rating": 4.8,
+        "review_count": 12,
+        "url": "https://us.oliveyoung.com/products/UA67698081"
+      },
+      {
+        "product": "THOME The Glow Signature",
+        "sub": "THOME",
+        "badge": "$279.00",
+        "rank": 7,
         "rating": 4.7,
-        "review_count": 13,
-        "url": "https://us.oliveyoung.com/products/UA44060194"
+        "review_count": 25,
+        "url": "https://us.oliveyoung.com/products/UA66893538"
       },
       {
         "product": "FOODOLOGY Coleology Cutting Jelly 0.88 oz.(25g) x 10ea",
         "sub": "FOODOLOGY",
         "badge": "$22.50",
-        "rank": 11,
+        "rank": 8,
         "rating": 4.7,
         "review_count": 10,
         "url": "https://us.oliveyoung.com/products/UA61972333"
       },
       {
-        "product": "Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)",
-        "sub": "Dr.Althea",
-        "badge": "$27.00",
-        "rank": 12,
-        "rating": 4.8,
-        "review_count": 1642,
-        "url": "https://us.oliveyoung.com/products/UA73639757"
+        "product": "S.NATURE Aqua Squalane Moisturizing Cream 2.02 fl. oz.(60ml)",
+        "sub": "S.NATURE",
+        "badge": "$18.20",
+        "rank": 9,
+        "rating": 4.9,
+        "review_count": 20,
+        "url": "https://us.oliveyoung.com/products/UA16733220"
       },
       {
-        "product": "JUNG KWAN JANG Glpro Double Cut 0.85 fl. oz.(25ml) x 8ea",
-        "sub": "JUNG KWAN JANG",
-        "badge": "$39.89",
-        "rank": 13,
-        "rating": 5,
-        "review_count": 1,
-        "url": "https://us.oliveyoung.com/products/UA42781889"
-      },
-      {
-        "product": "ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl. oz.(20ml) + OUWR Scrunchie Set",
-        "sub": "ROUND LAB",
-        "badge": "$21.24",
-        "rank": 14,
+        "product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+        "sub": "AESTURA",
+        "badge": "$32.00",
+        "rank": 10,
         "rating": 5,
         "review_count": 4,
-        "url": "https://us.oliveyoung.com/products/UA38918945"
+        "url": "https://us.oliveyoung.com/products/UA71026007"
+      },
+      {
+        "product": "Anua Azelaic Acid 10 Hyaluron Redness Soothing Serum 1.01 fl. oz.(30ml)",
+        "sub": "Anua",
+        "badge": "$23.00",
+        "rank": 11,
+        "rating": 4.9,
+        "review_count": 21,
+        "url": "https://us.oliveyoung.com/products/UA76124836"
+      },
+      {
+        "product": "GOODAL Green Tangerine Vita C Dark Spot Care Serum Alpha 1.35 fl. oz.(40ml)",
+        "sub": "GOODAL",
+        "badge": "$31.00",
+        "rank": 12,
+        "rating": 5,
+        "review_count": 2082,
+        "url": "https://us.oliveyoung.com/products/UA20006708"
+      },
+      {
+        "product": "Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
+        "sub": "Anua",
+        "badge": "$24.00",
+        "rank": 13,
+        "rating": 4.7,
+        "review_count": 404,
+        "url": "https://us.oliveyoung.com/products/UA21182672"
+      },
+      {
+        "product": "Anua Heartleaf Pore Control Cleansing Oil 6.76 fl. oz.(200ml)",
+        "sub": "Anua",
+        "badge": "$21.00",
+        "rank": 14,
+        "rating": 4.7,
+        "review_count": 3805,
+        "url": "https://us.oliveyoung.com/products/UA68069151"
       },
       {
         "product": "LABO-H Scalp Strengthening Shampoo 13.5 fl. oz.(400ml)",
@@ -1421,45 +1452,59 @@
         "badge": "$25.65",
         "rank": 15,
         "rating": 5,
-        "review_count": 3,
+        "review_count": 4,
         "url": "https://us.oliveyoung.com/products/UA47370528"
       }
     ],
     "google_trends_us": [
       {
-        "keyword": "Target gets K-beauty brands to think beyond Sephora, Ulta with new Beauty Studio - Modern Retail",
-        "product": "Target gets K-beauty brands to think beyond Sephora, Ulta with new Beauty Studio - Modern Retail",
+        "keyword": "K-Beauty Is Taking Over Our Best of Beauty Awards, and for Good Reason - Allure",
+        "product": "K-Beauty Is Taking Over Our Best of Beauty Awards, and for Good Reason - Allure",
         "sub": "K-beauty",
         "badge": "news",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNjZ1cU5YVUZOY19tVmxCU0VMdk5MdVcwZC1PVHFHSUFhZzdtRGN6NjYtQ1BxUWk3NXNWVnZhdUdic3hKOFFDTzFod083RjVyVWJrZWVtak1XVnpGcVNIYjNNQjZjMENtRkpUbkZ5TGhKdF9kZDNpTGdGNTBQcWFxaVduRFc0d3ZQMlBXV2tiSjUzS0RWUmlheEtxMDZtUHVEYkdpVTZFdkRxWVh2YVVEN1BoNGVFelBQcU1F?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9OMWRrWlZETWZ3NUNIUFhIZU1GcVl1OFJmMEkzemlwMVRfVWs4NTFpLUd0VFNxR0xFN09IajZxUDQzakRZcHp5cVVGTUplNzA2VW1QWXBWbkdSX0RRLUtHOTROZGtSdGpZV3hOQkRVaVpJZnFtZ2NNcHd5cw?oc=5"
       },
       {
-        "keyword": "Seungri ties reignite boycott against K-beauty brand JM Solution - The Korea Herald",
-        "product": "Seungri ties reignite boycott against K-beauty brand JM Solution - The Korea Herald",
+        "keyword": "An Expert Guide To Planning a K-Beauty Trip To South Korea - Condé Nast Traveler",
+        "product": "An Expert Guide To Planning a K-Beauty Trip To South Korea - Condé Nast Traveler",
         "sub": "K-beauty",
         "badge": "news",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5XdG9ROGc0cFlfVTJxeDQ2M3AxOFd3Y2YySG9HVDNGenV6N0JwNmJPV1VpVm1MMXFUNkpLRXYtT0hGdkZwVEg1Q3NCeU1FRzh5LW1oVGdWZw?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRklscGFHby1EaWMzUTJ6RWhIVUF2WVR2engybHpwYVZnM2t2aWE1RFBMbmVLNi0xbXp5QVdxWWxSNmRPRFFic2RJZDFZd1VYWWpHZV81V2pua2psUlhEbFVEZGdBaHNsYjNISlVrUmVmZFp3WWpyOEN3T3libF9ISXczYkd2UlJWZTYzMFJlVTlwVjlOeFE?oc=5"
       },
       {
-        "keyword": "Macquarie bets on K-beauty manufacturing with ~$220M ODM deal - Dealroom",
-        "product": "Macquarie bets on K-beauty manufacturing with ~$220M ODM deal - Dealroom",
+        "keyword": "I Went to Seoul to Find the Korean Skin-Care Products People Actually Buy - vogue.com",
+        "product": "I Went to Seoul to Find the Korean Skin-Care Products People Actually Buy - vogue.com",
         "sub": "K-beauty",
         "badge": "news",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYWxveHpCYzRsS29FaE1TdldBUHc3RlZvOEUzR2dldlRiTi1wUWlvdVQwcllLZ2UxcEZ1czM3eGFpX2xFZVFkOXctSFVtX3k3T1d4bU9NLVBfY0JXMzdGMEVnU2UzSUVWZnQ4ZUdSNlBnQll2TWNqX29tc0p0M21MWmlpcVROalFfTzRjM0VVQ0c2anRGSlBwTQ?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1JSEZleGFOZTlfbmlCTTRTbWZOZXJMWS1ZVkhnZy16cHdVNDM1Qnl4X0RGR19LcGNSQjNyLVpWQXZ0RTU0TWU2T2xfOW1VeDU0UGNsN0RkRXRNMWxqNVh1VnpKMmszdw?oc=5"
       },
       {
-        "keyword": "This Viral K-Beauty Moisturizer Gave Me My Glow Back - Coveteur",
-        "product": "This Viral K-Beauty Moisturizer Gave Me My Glow Back - Coveteur",
+        "keyword": "Medicube Won Social Media - Coveteur",
+        "product": "Medicube Won Social Media - Coveteur",
         "sub": "K-beauty",
         "badge": "news",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1lMW1VRnVJQk1yMnVKTDVJQzRtYlU4WHJSd3dta0c0QXV5MXBWV01pMExrc0kzRTRVLVd0NzdnZlF1dmppbFQ2TUprX1JJOUdFT0lpWE5jdF9lZXQweHdJanBtcw?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE10LS00QlNJUkVhS0ZWZE8wTEwxTGJvaEFUX0lhVzFGaEF1bzBlQjRweFYwZHJVNHdiOFhaaFFaYnltelcyYkt4R2xGSWdlamNSc0lR?oc=5"
       },
       {
-        "keyword": "I Used to Import Korean Face Masks From Seoul—These Are the Ones I’d Buy Now - Who What Wear",
-        "product": "I Used to Import Korean Face Masks From Seoul—These Are the Ones I’d Buy Now - Who What Wear",
+        "keyword": "K-Beauty Companies Target Hospital Medical Devices for Growth - 조선일보",
+        "product": "K-Beauty Companies Target Hospital Medical Devices for Growth - 조선일보",
         "sub": "K-beauty",
         "badge": "news",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5BRjcxUXVRbVlVU1lPOW5PRFd4MVhTeWZVaXZYTGFHNE4wWGlMSmM1MWVyUnVpaEsycTJPWU9GUktVcmJJSGxLc0d5alUteDFGd3hRRFhMUkFyNE9EWGpZWk1fbnBRUzltZlJnVGNoN09DSlk?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQb21Oa2w0N0ZMdlp3aVdlSjExWUhKQU9sb0RHNF9ieVhrQlpJNmRWc05nei1iaGh2YVFwQXc5cnFUUVlHYnVkSmFMb0lfNFBjSzRSMkZ3YlhYVjZ2d21lTXpvQ1cySzFRNHg1UGJSc0FNRF9hSHdtdEM0ZHZzUE52bW0tWnpzcmV3?oc=5"
+      },
+      {
+        "keyword": "K-Beauty Expert Brings Industry Experience to Auburn Through Sejong Culture Academy - Auburn University",
+        "product": "K-Beauty Expert Brings Industry Experience to Auburn Through Sejong Culture Academy - Auburn University",
+        "sub": "K-beauty",
+        "badge": "news",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbzZRdkpENUt3eUNvcng1SDdLcUw4Qk5XX1pxYlVhSERHNlp4Wm95Q2V0dHJLYVB6YnpQQjY4MHlwTFN1T1FVa28tUURHZE1IWTVJeUxKOW5kNzhVVEJhN0RqRFF3UjJibVFhLTBNb0h2VHB0NzNmdW9XX0Z5OWZ6VXo2bmlfZmxtUGNXWFJyTEFucEs3LTdiUkFVZXFiR0pEQ2ZGRVhhd2RLSUMydS1vdnZ1bDM?oc=5"
+      },
+      {
+        "keyword": "Korean Department Store Shinsegae Wants to Be a U.S. Beauty Player, Too - WWD",
+        "product": "Korean Department Store Shinsegae Wants to Be a U.S. Beauty Player, Too - WWD",
+        "sub": "K-beauty",
+        "badge": "news",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORlR1RUpYVVZlSlotVVZzTS1yYXpZOV9pdjVFUHZvbzAxeGIydWNib2U5ekxCYkxzaXFXZ1JjeTI4SmxaWHdJdmliYzlRWFZkVHhGb3p1akJ3ZFVfWFpLT0o0YzNQYlZOOWY2bERlem5VckVDak9pbWZIXzFnMnhQYVR1VTdMT2thZUQwMnkzOXRuWFk1MUM2Q29OUWtZRE1rR2RrUUhhbw?oc=5"
       },
       {
         "keyword": "K-Beauty Isn’t Just For Gen Z. These Korean Skin Care Picks Are Made For Mature Skin - HuffPost",
@@ -1469,18 +1514,18 @@
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRURKYS1ZekRkbWVwN2g1TTFWd3VkUmtReXFsVFFlbEFlR0cxTXFXd2k5Zkw5WGM0TmRWc0tSS21fWjROdHZMYVI2S3pqOF90QnJNQ242blFzLTNFd0V1NlhQQ1h5UkFYZS1qQ21RQnN0bW5oenpibURlTi1XVmE2R255Mm5Ga0NEUEwyVEhhUzk1LVhKeEVXbm14NNIBoAFBVV95cUxOWVE3UVVwRWxaYWpnVDgxUHdiWUF1YzVsMkJZVFpJZGlOOEpCdXNxX1hjWGJfY0MtelJjZkREVzhMX2VZdkVDd1hJVWdYcHRHenU2Ylh5Z25kN2lGWm5WZTJTeWthWldFbndJTjNYODdlV0FqaFpnYXVFQ0hlU1NSSjhONXZtQmloUndlT3FrVW1tSEV4b3FPNHEycWI3VjZj?oc=5"
       },
       {
-        "keyword": "Kendall Jenner’s K-Beauty Routine Is on Sale—Here’s Where to Find It - E! News",
-        "product": "Kendall Jenner’s K-Beauty Routine Is on Sale—Here’s Where to Find It - E! News",
-        "sub": "K-beauty",
+        "keyword": "Yes, Korean Sunscreens Are Better. But Dermatologists Warn You Shouldn’t Buy Them Online—Here’s Why. - Women's Health",
+        "product": "Yes, Korean Sunscreens Are Better. But Dermatologists Warn You Shouldn’t Buy Them Online—Here’s Why. - Women's Health",
+        "sub": "Korean sunscreen",
         "badge": "news",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSGx3d2hKVFRVbm14VUJVTTJQOHZ5STQ5SEROU2lBcDFmdmRndWZzRFQ2bGlVQ0N6eXpCYm02a1UzczUzLUdHZERFb1NuSlF6Z19uakswWWlyVzZJd2JRMVhGMVlOMXNnVHlmaFBhZ3FvOGhGbmc5SXdlWVJ6R1JTcmxhc0lrS1dUYmhERg?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZHBXQzBDZ2dGRHdEeXdtSXk5NkpMbW5vZzYzdGVWWVk1RllId3RCaUtPVnRIUVVEME84QmUzYTRBcGt5SE9rd3VpU0NZcWhBak1tMjVNR2lPd050RUdwaUJQbHB6TU81UDVmejBkVElrcnFKdnY1UHZ6SjVOMmtCNjNod3AtYm5Qb3c?oc=5"
       },
       {
-        "keyword": "Macquarie PE Acquires Hwasung Cosmetics and Nowcos for ₩300 Billion, Securing K-Beauty Manufacturing Infrastructure - finance.biggo.com",
-        "product": "Macquarie PE Acquires Hwasung Cosmetics and Nowcos for ₩300 Billion, Securing K-Beauty Manufacturing Infrastructure - finance.biggo.com",
-        "sub": "K-beauty",
+        "keyword": "The Korean Sunscreen Ingredient We’ve Been Waiting for Is Finally Here - Oprah Daily",
+        "product": "The Korean Sunscreen Ingredient We’ve Been Waiting for Is Finally Here - Oprah Daily",
+        "sub": "Korean sunscreen",
         "badge": "news",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5hY19OdlFoRkRFTWUzdnBNLTF1c09kNkNoWlJLUkxWcHNaeVV2WEQ0UVE5LS1PcVVGdGNCUUFCLUZmLUg2ZFY5Y0JsSTFEMmxBc1hqVnVZSzdYZk5aZDVMU3Y0QkxKZjNVMVJ6al9kaUJoLWk4Y0E?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdjVaVE1LTV9uenRyWlJQbWs0R0I5SkVMaUJMZ2RFOXZMa3hUdmJvamxtQkdoMTNGbk1xR1RvTkltMW8yS2NtVkNHUGdGbG9uN0NfNXQzbzU5SjJXMzNzY3lhbEVQM2YyX1FpVXpDSUp4RGQ3ajdTT1BJdGRod0Nrd3NEdE9LUWFZZmlvZTkxMDJteGh3?oc=5"
       },
       {
         "keyword": "Are K-Beauty sunscreens as good as ones sold in the US? Consumer Reports puts them to the test - 6abc Philadelphia",
@@ -1490,32 +1535,11 @@
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWWx5RGl5d3ZxTkl1azFmbEN0V1JVclVXa2UxeEJmd0xNZEYzREppbVBaOGdZYjJ5SWg4cXp5UXJUdklLM3ZyNEV5LWNmQzl0WkMwdWdlS0FydGJjUkZkQmZvanlhWnlaY1hzSWVkXzFRelJQU2JTbGhNWEZCNjVjSktoc2JIUGpOVFpHZDkwMkRHdnd4T3RCc25NcVlwVnPSAaQBQVVfeXFMTVN6dkcyQmI4N1B5bFZTVnZVMlhFd1JUM3FyRmFSUHNSOUZFSGNrME4wV2N0eVlWelJJZlp2OE85ZmVsWnlHMjBEZHlDWW5UakptR3BZWTRsRDdGV1pKUU1YOXBMSmprckxtcFlEdW92OG9iUW0xWTdxUDBWelRmQjFTcUppNWY5R1lkekY1bjhkMDJ4NEpab01OZUFoOUI2WVhFemY?oc=5"
       },
       {
-        "keyword": "US and Korean sunscreens are not created equal, study says - WTOP News",
-        "product": "US and Korean sunscreens are not created equal, study says - WTOP News",
+        "keyword": "US and Korean sunscreens are not created equal, study says - wtop.com",
+        "product": "US and Korean sunscreens are not created equal, study says - wtop.com",
         "sub": "Korean sunscreen",
         "badge": "news",
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMnpvNUR0bm0tV2E0M183TDZLUVUwal9NRHduZ21ULUtPZFl2SnFoVS1WVFVZTjJtZjFfX1R5Um1Lajk0TXZzbnVpbkdpMXdMbno4dHo0Y3g4R3lYbV9rRkcyY0VsSjRVSFFPWVV5cTNNWG0tVC0zZ0tER251cDRCM3A0ZEJnNTBjWjBrYnp2dHRHSXd2UkNMckJqQ1JmUmFkX1RCeElDdmtzMGJ4X3V6SjJYbTQyUlNvazMycGw4b2k4aG44YkdN?oc=5"
-      },
-      {
-        "keyword": "This K-beauty sunscreen is a game-changer for oily skin - independent.co.uk",
-        "product": "This K-beauty sunscreen is a game-changer for oily skin - independent.co.uk",
-        "sub": "Korean sunscreen",
-        "badge": "news",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOajJuaWhEU0dCRWFaQ1FzWUpwbUtPRXJET1NmRUFJR01Qb2VoaUREUzBtZFZZLVB0elVmZmFpOENqdldFZXd2TkJGX3UzWXFzQ2RJRWpOb1ZtTFpfcGxYYkNDMUt0NmNzdmg2YzJWYTg3UmZ4RlotVjZ3UDdNQnRXMGtBVEgtU2FzY1BJb2JMY1RBa0pSeWpZLWdhZlVPWDh1ZXBady1DRjBaUkdFemdyZG1menFpSlc0VWZrMlQ0VF9vY0dqZkxVYg?oc=5"
-      },
-      {
-        "keyword": "Same brand, different SPF: Why Korean sunscreens outperform US versions - The Korea Times",
-        "product": "Same brand, different SPF: Why Korean sunscreens outperform US versions - The Korea Times",
-        "sub": "Korean sunscreen",
-        "badge": "news",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdXEyV1k2UDNvY01GVEFoVE01MldFRjlqaGlJY3kzRjliamkxcEV3aXFJeS1WRDJpbzI2OGVfTDFoTGR3Ny0tUkNRMXJ0RmJvRktpM2FDN0h4aE1uSHItVVNMWFNycnM1aDR4NW1TUVVQdjRhTmNIUXQxUmlVM253Z2NCNmIwbW9xVHJFLWd0R0tyZ2k4TWtqTzFoeDJUNDE5ZVpfeUZHNWtqNjVsOEhQRjUzSlZ0LTNN0gG-AUFVX3lxTE9teTR0RHBndWpfVGJ2OElRU1NCVDNSaVdZTjcwLWZpcU9ubEJma1FEeU9SbFRmc0hWd3hCTUhoUjlsb05Sek53VlI3RVF4dTI0MlFYRXpScmw4bFM1WVpjVEpnSFMtUllTWm9xYkxkbXVIM2RUaHQ3UlpXcGZJTHMxYkQ4aUlBdmFxQllQZF9YbG9yYVk5ay0yTUlVYTBjS3dZTnlkdzVLRzQxMGkzM0FzOERMOEo3d1RDOURmUnc?oc=5"
-      },
-      {
-        "keyword": "Yes, Korean Sunscreens Are Better. But Dermatologists Warn You Shouldn’t Buy Them Online—Here’s Why. - Women's Health",
-        "product": "Yes, Korean Sunscreens Are Better. But Dermatologists Warn You Shouldn’t Buy Them Online—Here’s Why. - Women's Health",
-        "sub": "Korean sunscreen",
-        "badge": "news",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZHBXQzBDZ2dGRHdEeXdtSXk5NkpMbW5vZzYzdGVWWVk1RllId3RCaUtPVnRIUVVEME84QmUzYTRBcGt5SE9rd3VpU0NZcWhBak1tMjVNR2lPd050RUdwaUJQbHB6TU81UDVmejBkVElrcnFKdnY1UHZ6SjVOMmtCNjNod3AtYm5Qb3c?oc=5"
       },
       {
         "keyword": "11 Of The Best Clear Sunscreens For Black & Brown Skin - Coveteur",
@@ -1525,11 +1549,18 @@
         "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ZTWU0R2c2bXdNckV1N29mSDJWb201UGxUT2ZOajNjZ0oyRkJHTWVQdzdSME5YT0M2M0g2YXFrSnZGZWk3Mmx2S3VkVUx3bk9jMVV5dQ?oc=5"
       },
       {
-        "keyword": "The Best Korean Sunscreens for Invisible UV Protection - thelooker.thedailybeast.com",
-        "product": "The Best Korean Sunscreens for Invisible UV Protection - thelooker.thedailybeast.com",
+        "keyword": "Is Korean sunscreen worth the hype? - WAFB",
+        "product": "Is Korean sunscreen worth the hype? - WAFB",
         "sub": "Korean sunscreen",
         "badge": "news",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObVNqeHpLQ3ZVc29jQ0JxTnpaTXhTTklfME5rN3QzakpIajB2Q09jekF5Q0dVYTN3M3ZiUklmWDZ5RTFGMnRwU1kzYWNMWGlybVNIYUZ1R1huUGYzTEJnanhBQzhqWXh3MFZYVFpLRWJSeTVBWEFiMm0tVlpMb19XZDVkbw?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBjenlzd2RLQUd1RWtfc0V4dlZIeldiM3FfOTJ4S08wdmplNUdTVUZrUXhrU25oOVpTeVFPSGgxYXpBNWpIbTVQSlRHQlV6MW4wVkNHTzhSQlYtSmJrQmQ1bkRCc3dMOUF0OUpyZlRNQnhvMXdmMFprTQ?oc=5"
+      },
+      {
+        "keyword": "Why Dermatologists Say Korean Sunscreens Are a Game-Changer for Your Skin - TODAY.com",
+        "product": "Why Dermatologists Say Korean Sunscreens Are a Game-Changer for Your Skin - TODAY.com",
+        "sub": "Korean sunscreen",
+        "badge": "news",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBYSVhpV19HSHdPNzdPX2JLRjJvdWxIOVRBa3NSX2NfMUw3Tkc3MWJwa0s4ZERHUzFHcWNXSnByV2lYN09jMEJ2a3pjaGNzMzRsSjMzWktsMllRS2laWVZnMl9YQVBMLXA4Sm1rVQ?oc=5"
       }
     ],
     "wikipedia_interest": [
@@ -2160,7 +2191,7 @@
       "collected_at": "2026-09-26T23:08:27.083179+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 15.1,
+      "age_hours": 15.8,
       "stale": false
     },
     "walmart_beauty": {
@@ -2170,60 +2201,60 @@
       "collected_at": "2026-09-26T23:08:27.084122+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 15.1,
+      "age_hours": 15.8,
       "stale": false
     },
     "oliveyoung_us": {
-      "status": "stale",
+      "status": "ok",
       "source": "us.oliveyoung.com/best-sellers 실수집",
-      "reason": "2026-09-21 이후 갱신 없음 (6.2일). 2026-09-21 이후 갱신 없음 (6.2일). 2026-09-21 이후 갱신 없음 (6.2일). 2026-09-21 이후 갱신 없음 (6.1일). 2026-09-21 이후 갱신 없음 (6.1일). 2026-09-21 이후 갱신 없음 (6.1일). 2026-09-21 이후 갱신 없음 (5.9일). 2026-09-21 이후 갱신 없음 (5.9일). 2026-09-21 이후 갱신 없음 (5.9일). 2026-09-21 이후 갱신 없음 (5.8일). 2026-09-21 이후 갱신 없음 (5.8일). 2026-09-21 이후 갱신 없음 (5.6일). 2026-09-21 이후 갱신 없음 (5.6일).",
-      "collected_at": "2026-09-21T09:36:15.249729+00:00",
+      "reason": "",
+      "collected_at": "2026-09-27T14:48:42.108589+00:00",
       "count": 15,
-      "trust": "stale",
-      "age_hours": 148.6,
-      "stale": true
+      "trust": "verified",
+      "age_hours": 0.2,
+      "stale": false
     },
     "google_trends_us": {
-      "status": "stale",
+      "status": "ok",
       "source": "google news rss (beauty queries) + trends daily filtered",
-      "reason": "2026-09-21 이후 갱신 없음 (6.2일). 2026-09-21 이후 갱신 없음 (6.2일). 2026-09-21 이후 갱신 없음 (6.2일). 2026-09-21 이후 갱신 없음 (6.1일). 2026-09-21 이후 갱신 없음 (6.1일). 2026-09-21 이후 갱신 없음 (6.1일). 2026-09-21 이후 갱신 없음 (5.9일). 2026-09-21 이후 갱신 없음 (5.9일). 2026-09-21 이후 갱신 없음 (5.9일). 2026-09-21 이후 갱신 없음 (5.8일). 2026-09-21 이후 갱신 없음 (5.8일). 2026-09-21 이후 갱신 없음 (5.6일). 2026-09-21 이후 갱신 없음 (5.6일).",
-      "collected_at": "2026-09-21T09:36:51.528077+00:00",
+      "reason": "",
+      "collected_at": "2026-09-27T14:49:23.761203+00:00",
       "count": 15,
-      "trust": "stale",
-      "age_hours": 148.6,
-      "stale": true
+      "trust": "verified",
+      "age_hours": 0.1,
+      "stale": false
     },
     "wikipedia_interest": {
       "status": "stale",
       "source": "wikimedia.org REST pageviews API (공식)",
-      "reason": "2026-09-21 이후 갱신 없음 (6.2일). 2026-09-21 이후 갱신 없음 (6.2일). 2026-09-21 이후 갱신 없음 (6.2일). 2026-09-21 이후 갱신 없음 (6.1일). 2026-09-21 이후 갱신 없음 (6.1일). 2026-09-21 이후 갱신 없음 (6.1일). 2026-09-21 이후 갱신 없음 (5.9일). 2026-09-21 이후 갱신 없음 (5.9일). 2026-09-21 이후 갱신 없음 (5.9일). 2026-09-21 이후 갱신 없음 (5.8일). 2026-09-21 이후 갱신 없음 (5.8일). 2026-09-21 이후 갱신 없음 (5.6일). 2026-09-21 이후 갱신 없음 (5.6일).",
+      "reason": "2026-09-21 이후 갱신 없음 (6.2일). 2026-09-21 이후 갱신 없음 (6.2일). 2026-09-21 이후 갱신 없음 (6.2일).",
       "collected_at": "2026-09-21T09:42:01.535186+00:00",
       "count": 8,
       "trust": "stale",
       "note": "2026-08-21 ~ 2026-09-19 일별 조회수. 후반 15일 대비 전반 15일 증감률",
-      "age_hours": 148.5,
+      "age_hours": 149.3,
       "stale": true
     },
     "allure_media": {
       "status": "stale",
       "source": "allure.com/feed/rss",
-      "reason": "2026-09-21 이후 갱신 없음 (6.2일). 2026-09-21 이후 갱신 없음 (6.2일). 2026-09-21 이후 갱신 없음 (6.2일). 2026-09-21 이후 갱신 없음 (6.1일). 2026-09-21 이후 갱신 없음 (6.1일). 2026-09-21 이후 갱신 없음 (6.1일). 2026-09-21 이후 갱신 없음 (5.9일). 2026-09-21 이후 갱신 없음 (5.9일). 2026-09-21 이후 갱신 없음 (5.9일). 2026-09-21 이후 갱신 없음 (5.8일). 2026-09-21 이후 갱신 없음 (5.8일). 2026-09-21 이후 갱신 없음 (5.6일). 2026-09-21 이후 갱신 없음 (5.6일).",
+      "reason": "2026-09-21 이후 갱신 없음 (6.2일). 2026-09-21 이후 갱신 없음 (6.2일). 2026-09-21 이후 갱신 없음 (6.2일).",
       "collected_at": "2026-09-21T09:42:01.535186+00:00",
       "count": 15,
       "trust": "stale",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
-      "age_hours": 148.5,
+      "age_hours": 149.3,
       "stale": true
     },
     "openfda_sunscreen": {
       "status": "stale",
       "source": "api.fda.gov/drug/label (openFDA 공식)",
-      "reason": "2026-09-21 이후 갱신 없음 (6.2일). 2026-09-21 이후 갱신 없음 (6.2일). 2026-09-21 이후 갱신 없음 (6.2일). 2026-09-21 이후 갱신 없음 (6.1일). 2026-09-21 이후 갱신 없음 (6.1일). 2026-09-21 이후 갱신 없음 (6.1일). 2026-09-21 이후 갱신 없음 (5.9일). 2026-09-21 이후 갱신 없음 (5.9일). 2026-09-21 이후 갱신 없음 (5.9일). 2026-09-21 이후 갱신 없음 (5.8일). 2026-09-21 이후 갱신 없음 (5.8일). 2026-09-21 이후 갱신 없음 (5.6일). 2026-09-21 이후 갱신 없음 (5.6일).",
+      "reason": "2026-09-21 이후 갱신 없음 (6.2일). 2026-09-21 이후 갱신 없음 (6.2일). 2026-09-21 이후 갱신 없음 (6.2일).",
       "collected_at": "2026-09-21T09:42:01.535186+00:00",
       "count": 15,
       "trust": "stale",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다.",
-      "age_hours": 148.5,
+      "age_hours": 149.3,
       "stale": true
     },
     "shopify_demand_matching": {
@@ -2249,7 +2280,7 @@
       "collected_at": "2026-09-26T23:08:27.085051+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 15.1,
+      "age_hours": 15.8,
       "stale": false
     },
     "sephora": {
@@ -2259,34 +2290,25 @@
       "collected_at": "2026-09-26T23:08:27.085051+00:00",
       "count": 14,
       "trust": "verified",
-      "age_hours": 15.1,
+      "age_hours": 15.8,
       "stale": false
     },
     "open_beauty_facts": {
-      "status": "stale",
+      "status": "ok",
       "source": "world.openbeautyfacts.org /api/v2 (오픈데이터)",
-      "reason": "2026-09-21 이후 갱신 없음 (6.2일). 2026-09-21 이후 갱신 없음 (6.2일). 2026-09-21 이후 갱신 없음 (6.2일). 2026-09-21 이후 갱신 없음 (6.1일). 2026-09-21 이후 갱신 없음 (6.1일). 2026-09-21 이후 갱신 없음 (6.1일). 2026-09-21 이후 갱신 없음 (5.9일). 2026-09-21 이후 갱신 없음 (5.9일). 2026-09-21 이후 갱신 없음 (5.9일). 2026-09-21 이후 갱신 없음 (5.8일). 2026-09-21 이후 갱신 없음 (5.8일). 2026-09-21 이후 갱신 없음 (5.6일). 2026-09-21 이후 갱신 없음 (5.6일).",
-      "collected_at": "2026-09-21T09:36:14.782768+00:00",
+      "reason": "",
+      "collected_at": "2026-09-27T14:48:41.227319+00:00",
       "count": 15,
-      "trust": "stale",
-      "age_hours": 148.6,
-      "stale": true
+      "trust": "verified",
+      "age_hours": 0.2,
+      "stale": false
     }
   },
   "exchange_rate": {
-    "rate": 1357.41,
-    "as_of": "2026-09-26",
+    "rate": 1357.05,
+    "as_of": "2026-09-27",
     "source": "https://open.er-api.com/v6/latest/USD",
     "updated_at": "2026-09-27"
   },
-  "last_synced": "09. 27. 오전 08:08 KST",
-  "commit_summary": {
-    "line": "agents: 조치후보 4건 · risk low · force",
-    "agents_line": "agents: 조치후보 4건 · risk low · force"
-  },
-  "agents_ops": {
-    "risk": "low",
-    "task_count": 4,
-    "at": "2026-09-27T14:11:33.899691+00:00"
-  }
+  "last_synced": "09. 27. 오후 11:55 KST"
 }

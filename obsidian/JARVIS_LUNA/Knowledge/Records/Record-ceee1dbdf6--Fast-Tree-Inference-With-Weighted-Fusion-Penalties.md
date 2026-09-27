@@ -2,7 +2,7 @@
 title: "Record ceee1dbdf6 · Fast-Tree-Inference-With-Weighted-Fusion-Penalties"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T12:05:28.338901+00:00
+updated_at: 2026-09-27T14:58:01.861166+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 587df2b985 · Barclays-strengthens-Japan-Cash-Equities-franchise-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T12:05:28.627079+00:00
+updated_at: 2026-09-27T14:58:02.194396+00:00
 tags: [record, real-data]
 ---
 
@@ -10,13 +10,12 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [home.barclays](https://home.barclays/news/press-releases/20260/090/barclays-strengthens-japan-cash-equities-franchise-with-senior-s/)
 
-**제목:** Barclays strengthens Japan Cash Equities franchise with senior sales trading appointments | Barclays
+**제목:** Barclays Strengthens Japan Cash Equities Franchise With Senior S
 
-Barclays strengthens Japan Cash Equities franchise with senior sales trading appointments | Barclays
-Barclays today announced the appointments of Takeo Kamai as Head of High-Touch Sales Trading, Japan, and Warren Kim, to its Cash Equities business.
+Barclays Strengthens Japan Cash Equities Franchise With Senior S
 
 **출처:** Source · institutions
 
 ## Connected nodes
 
-[[Source--institutions]] [[경영전략]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

@@ -2,7 +2,7 @@
 title: "Record d2c30bb7fe · Digital-social-capital-and-performance-of-initial-c"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T12:05:28.304891+00:00
+updated_at: 2026-09-27T14:58:01.816667+00:00
 tags: [record, real-data]
 ---
 

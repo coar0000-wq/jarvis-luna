@@ -2,7 +2,7 @@
 title: "Record 48fda4b356 · How-to-create-your-brand-in-Claude-Design"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T12:05:29.503673+00:00
+updated_at: 2026-09-27T14:58:03.141824+00:00
 tags: [record, real-data]
 ---
 

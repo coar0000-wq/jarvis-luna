@@ -2,7 +2,7 @@
 title: "Record 9cf2bf2d1b · From-253-Grams-to-201-Grams-The-Engineering-Behind-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T12:05:29.042996+00:00
+updated_at: 2026-09-27T14:58:02.627083+00:00
 tags: [record, real-data]
 ---
 

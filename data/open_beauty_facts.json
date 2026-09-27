@@ -3,7 +3,7 @@
   "license": "Open Database License (ODbL) - 재사용 허용",
   "auth_required": false,
   "note": "수요 신호가 아니라 상품 정보 보강용 오픈데이터. 각 항목은 바코드(code)와 원본 URL 로 검증 가능하다.",
-  "collected_at": "2026-09-21T09:36:14.782768+00:00",
+  "collected_at": "2026-09-27T14:48:41.227319+00:00",
   "category_map": {
     "스킨케어": "skin-care",
     "마스크팩": "face-masks",
@@ -232,30 +232,30 @@
       "url": "https://world.openbeautyfacts.org/product/8683420170045"
     },
     {
-      "code": "9341106912899",
-      "product_name": "OXX Coconut face mask",
-      "brands": "Anko",
+      "code": "8809990942121",
+      "product_name": "purple rice PDRN bubble mask",
+      "brands": "Over The Moon Global Co. Ltd., tokki on the moon",
       "category": "마스크팩",
       "obf_category": "face-masks",
       "countries": [
-        "Australia"
+        "Singapore"
       ],
-      "ingredients_text": "Aqua, Glycerin, Glycereth-26, 1,2-Hexanediol, Hydroxyacetophenone, Cocos Nucifera (Coconut) Oil, Xanthan Gum, Polysorbate 20, Allantoin, Disodium EDTA, Fragrance, Coumarin.",
-      "image_url": "https://images.openbeautyfacts.org/images/products/934/110/691/2899/front_en.3.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/9341106912899"
+      "ingredients_text": "",
+      "image_url": "https://images.openbeautyfacts.org/images/products/880/999/094/2121/front_en.5.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/8809990942121"
     },
     {
-      "code": "5902853395195",
-      "product_name": "Activator of Youth",
-      "brands": "Biotaniqe Professional",
+      "code": "4066447967678",
+      "product_name": "Glass Skin Collagen Maske",
+      "brands": "Balea",
       "category": "마스크팩",
       "obf_category": "face-masks",
       "countries": [
-        "Poland"
+        "Germany"
       ],
-      "ingredients_text": "Aqua, Propylene Glycol, Glycerin, Lactobacillus Ferment, Trehalose, Retinol, Acacia Seyal Gum Extract, Lactobacillus/Acerola Cherry Ferment. Leuconostoc/Radish Root Ferment Filtrate, Phospholipids, 1,2-Hexanediol, Hydroxyacetophenone, Caprylic/Capric Triglyceride, Ethylhexylglycerin, Caprylyl Glycol, Dipropylene Glycol, Chondrus Crispus, Glucomannan, Chondrus Crispus Powder, Xanthan Gum, Polysorbate 80, Sodium Laureth Sulfate, Synthetic Fluorphlogopite, Tin Oxide, Benzoic Acid, Phenoxyethanol, Potassium Sorbate, Potassium Chloride, Chlorphenesin, CI 12490, CI 77491, CI 77891, CI 73360.",
-      "image_url": "",
-      "url": "https://world.openbeautyfacts.org/product/5902853395195"
+      "ingredients_text": "AQUA, GLYCERIN, CAPRYLIC/CAPRIC TRIGLYCERIDE, PROPYLENE GLYCOL, XANTHAN GUM, SODIUM HYALURONATE, HYDROLYZED COLLAGEN, HYDROLYZED SODIUM HYALURONATE, 3-O-ETHYL ASCORBIC ACID, EUGLENA GRACILIS POLYSACCHARIDE, NIACINAMIDE, CARRAGEENAN, 1,2-HEXANEDIOL, GLYCERYL STEARATE CITRATE, HYDROXYACETOPHENONE, CAPRYLYL GLYCOL, ETHYLHEXYLGLYCERIN. Vers.001",
+      "image_url": "https://images.openbeautyfacts.org/images/products/406/644/796/7678/front_de.4.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/4066447967678"
     },
     {
       "code": "3337875597333",
@@ -450,19 +450,6 @@
       "url": "https://world.openbeautyfacts.org/product/3600551125305"
     },
     {
-      "code": "3600542520454",
-      "product_name": "Sensitive expert + Spf 50+",
-      "brands": "Garnier, Garnier ambre solaire",
-      "category": "선케어",
-      "obf_category": "sunscreens",
-      "countries": [
-        "France"
-      ],
-      "ingredients_text": "AQUA/WATER, ALCOHOL DENAT., ETHYLHEXYL SALICYLATE, ETHYLHEXYL TRIAZONE, BUTYL METHOXYDIBENZOYLMETHANE. BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, ISOPROPYL PALMITATE, DIISOPROPYL ADIPATE, GLYCERIN, PROPANEDIOL, PHENYLBENZIMIDAZOLE SULFONIC ACID, DICAPRYLYL ETHER, TRIETHANOLAMINE, C12-22 ALKYL ACRYLATE/HYDROXYETHYLACRYLATE COPOLYMER, TOCOPHEROL, HYDROXYACETOPHENONE, SODIUM POLYACRYLATE, SODIUM BENZOATE, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, DROMETRIZOLE TRISILOXANE, ALOE BARBADENSIS LEAF JUICE, CAPRYLYL GLYCOL, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, CERAMIDE NP, CITRIC ACID, POTASSIUM SORBATE.",
-      "image_url": "https://images.openbeautyfacts.org/images/products/360/054/252/0454/front_fr.3.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/3600542520454"
-    },
-    {
       "code": "3282770396331",
       "product_name": "Spray Solare Protezione alta SPF 50 - Corpo",
       "brands": "Avène",
@@ -475,6 +462,19 @@
       "ingredients_text": "AVENE THERMAL SPRING WATER (AVENE AQUA), DIETHYLAMINO HYDROXYBENZOYL HEXYL BENZOATE, DIISOPROPYL SEBACATE, COCO CAPRYLATE/CAPRATE, DICAPRYLYL CARBONATE DIETHYLHEXYL BUTAMIDO TRIAZONE, GLYCERIN, BISETHYLHEXY LOXYPHENOL METHOXYPHENYL TRIAZINE, GLYCERIN, STEARATE CITRATE, ORYZA SATIVA (RICE) STARCH (ORYZA SATIVA STARCH), PENTYLENE GLYCOL, C12-15 ALKYL BENZOATE, VP/EICOSENE COPOLYMER BENZOIC ACID, CAPRYLIC/CAPRIC TRIGLYCERIDE, CELLULOSE GUM, FRAGRANCE (PARFUM), GLYCINE SOJA (SOYBEAN) OIL (GLYCINE SOJA OIL), HELIANTHUS ANNUUS (SUNFLOWER) SEED OIL (HELIANTHUS SEED OIL), MICROCRYSTALLINE CELLULOSE, SODIUM HYDROXIDE, TOCOPHEROL TOCOPHERYL GLUCOSIDE.",
       "image_url": "https://images.openbeautyfacts.org/images/products/328/277/039/6331/front_it.8.400.jpg",
       "url": "https://world.openbeautyfacts.org/product/3282770396331"
+    },
+    {
+      "code": "3600542520454",
+      "product_name": "Sensitive expert + Spf 50+",
+      "brands": "Garnier, Garnier ambre solaire",
+      "category": "선케어",
+      "obf_category": "sunscreens",
+      "countries": [
+        "France"
+      ],
+      "ingredients_text": "AQUA/WATER, ALCOHOL DENAT., ETHYLHEXYL SALICYLATE, ETHYLHEXYL TRIAZONE, BUTYL METHOXYDIBENZOYLMETHANE. BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, ISOPROPYL PALMITATE, DIISOPROPYL ADIPATE, GLYCERIN, PROPANEDIOL, PHENYLBENZIMIDAZOLE SULFONIC ACID, DICAPRYLYL ETHER, TRIETHANOLAMINE, C12-22 ALKYL ACRYLATE/HYDROXYETHYLACRYLATE COPOLYMER, TOCOPHEROL, HYDROXYACETOPHENONE, SODIUM POLYACRYLATE, SODIUM BENZOATE, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, DROMETRIZOLE TRISILOXANE, ALOE BARBADENSIS LEAF JUICE, CAPRYLYL GLYCOL, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, CERAMIDE NP, CITRIC ACID, POTASSIUM SORBATE.",
+      "image_url": "https://images.openbeautyfacts.org/images/products/360/054/252/0454/front_fr.3.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/3600542520454"
     },
     {
       "code": "3504105036751",
@@ -744,19 +744,6 @@
       "url": "https://world.openbeautyfacts.org/product/0856017000126"
     },
     {
-      "code": "3600541204638",
-      "product_name": "L'huile merveilleuse aux huiles d'argan et de camelia",
-      "brands": "Garnier, Ultra Doux",
-      "category": "헤어케어",
-      "obf_category": "hair-care",
-      "countries": [
-        "France"
-      ],
-      "ingredients_text": "cyclopentasiloxane, dimethiconol, argania spinosa oil/argania spinosa kernel oil, ethylhexyl methoxycinnamate, camellia oleifera seed oil, limonene, linalool, benzyl alcohol, geraniol, citronellol, hexyl cinnamal, parfum / fragrance. (FIL C51607/1)",
-      "image_url": "https://images.openbeautyfacts.org/images/products/360/054/120/4638/front_fr.6.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/3600541204638"
-    },
-    {
       "code": "4005808130573",
       "product_name": "NIVEA Men sensitive douchegel 3-in-1",
       "brands": "NIVEA",
@@ -768,6 +755,19 @@
       "ingredients_text": "Aqua, Cocamidopropyl Betaine, Sodium Myreth Sulfate, Sodium Laureth Sulfate, Coco-Glucoside, Sodium Hyaluronate, Tocopherol, Glycerin, Sodium Chloride, Citric Acid, Glycol Distearate, Hydrogenated Castor Oil, Sodium Benzoate, Benzoic Acid, Parfum",
       "image_url": "https://images.openbeautyfacts.org/images/products/400/580/813/0573/front_en.8.400.jpg",
       "url": "https://world.openbeautyfacts.org/product/4005808130573"
+    },
+    {
+      "code": "3600541204638",
+      "product_name": "L'huile merveilleuse aux huiles d'argan et de camelia",
+      "brands": "Garnier, Ultra Doux",
+      "category": "헤어케어",
+      "obf_category": "hair-care",
+      "countries": [
+        "France"
+      ],
+      "ingredients_text": "cyclopentasiloxane, dimethiconol, argania spinosa oil/argania spinosa kernel oil, ethylhexyl methoxycinnamate, camellia oleifera seed oil, limonene, linalool, benzyl alcohol, geraniol, citronellol, hexyl cinnamal, parfum / fragrance. (FIL C51607/1)",
+      "image_url": "https://images.openbeautyfacts.org/images/products/360/054/120/4638/front_fr.6.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/3600541204638"
     },
     {
       "code": "3331300062656",
@@ -1303,20 +1303,6 @@
       "url": "https://world.openbeautyfacts.org/product/3337872412684"
     },
     {
-      "code": "3549621020426",
-      "product_name": "Crème mains réparatrice beurre de karité",
-      "brands": "Le Petit Olivier",
-      "category": "핸드케어",
-      "obf_category": "hand-creams",
-      "countries": [
-        "France",
-        "fr:Montbrison"
-      ],
-      "ingredients_text": "Aqua (water) ; glycerin ; butyrospermum parkii (shea) butter ; polyglyceryl-3 dicitrate/stearate ; stearyl alcohol ; glyceryl stearate ; coco-caprylate ; tocopherol ; tocopheryl acetate ; carbomer ; xanthan gum ; parfum (fragrance) ; ethylhexylglycerin ; decylene glycol ; sodium benzoate ; sodium hydroxide ; limonene ; alpha-isomethyl ionone ; coumarin ; linalool",
-      "image_url": "https://images.openbeautyfacts.org/images/products/354/962/102/0426/front_fr.7.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/3549621020426"
-    },
-    {
       "code": "3574661365305",
       "product_name": "Nutrition peaux très sèches",
       "brands": "Le Petit Marseillais",
@@ -1342,6 +1328,20 @@
       "ingredients_text": "GEL ALOE VERA PURO Aloe Vera Atlantia: Procede de plantaciones ecológicas de las Islas Canarias. Estabilizado en frio. Mantiene todas las propiedades de la planta. Composición: Rico en vitaminas, aminoácidos, oligoelementos, enzimas, etc. Propiedades: Hidratante y regeneradora celular. Calmante de quemaduras solares, picaduras de insectos, picores en la piel, cortes menores, quemaduras, etc. • Modo de empleo: Aplicar sobre la piel realizando un suave masaje hasta su completa absorción. Se recomienda su utilización 2-3 veces al dia. Puro jugo de aloe vera bio sin agua añadida.",
       "image_url": "https://images.openbeautyfacts.org/images/products/843/602/479/0016/front_en.20.400.jpg",
       "url": "https://world.openbeautyfacts.org/product/8436024790016"
+    },
+    {
+      "code": "3549621020426",
+      "product_name": "Crème mains réparatrice beurre de karité",
+      "brands": "Le Petit Olivier",
+      "category": "핸드케어",
+      "obf_category": "hand-creams",
+      "countries": [
+        "France",
+        "fr:Montbrison"
+      ],
+      "ingredients_text": "Aqua (water) ; glycerin ; butyrospermum parkii (shea) butter ; polyglyceryl-3 dicitrate/stearate ; stearyl alcohol ; glyceryl stearate ; coco-caprylate ; tocopherol ; tocopheryl acetate ; carbomer ; xanthan gum ; parfum (fragrance) ; ethylhexylglycerin ; decylene glycol ; sodium benzoate ; sodium hydroxide ; limonene ; alpha-isomethyl ionone ; coumarin ; linalool",
+      "image_url": "https://images.openbeautyfacts.org/images/products/354/962/102/0426/front_fr.7.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/3549621020426"
     },
     {
       "code": "4305615609997",
@@ -1413,20 +1413,6 @@
       "url": "https://world.openbeautyfacts.org/product/4005900035745"
     },
     {
-      "code": "4005900243553",
-      "product_name": "Nivea men Protect & Care",
-      "brands": "Nivea Men",
-      "category": "데오드란트",
-      "obf_category": "deodorants",
-      "countries": [
-        "France",
-        "Morocco"
-      ],
-      "ingredients_text": "Aqua, Aluminium chlorohydrate, PPG-15 stearyl ether, Steareth-2, Steareth-21, Parfum, Glycerin, Panthenol, Octyldodecanol, Persea Gratissima oil, Trisodium EDTA, Limoene, Linalool, Coumarin, Geraniol",
-      "image_url": "https://images.openbeautyfacts.org/images/products/400/590/024/3553/front_en.13.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/4005900243553"
-    },
-    {
       "code": "8714789913919",
       "product_name": "Dermo Protector",
       "brands": "Sanex",
@@ -1442,6 +1428,20 @@
       "ingredients_text": "Propylene Glycol, Aqua, Sodium Stearate, Parfum, Sodium Chloride, Stearyl Alcohol, Tetrasodium EDTA.",
       "image_url": "https://images.openbeautyfacts.org/images/products/871/478/991/3919/front_en.52.400.jpg",
       "url": "https://world.openbeautyfacts.org/product/8714789913919"
+    },
+    {
+      "code": "4005900243553",
+      "product_name": "Nivea men Protect & Care",
+      "brands": "Nivea Men",
+      "category": "데오드란트",
+      "obf_category": "deodorants",
+      "countries": [
+        "France",
+        "Morocco"
+      ],
+      "ingredients_text": "Aqua, Aluminium chlorohydrate, PPG-15 stearyl ether, Steareth-2, Steareth-21, Parfum, Glycerin, Panthenol, Octyldodecanol, Persea Gratissima oil, Trisodium EDTA, Limoene, Linalool, Coumarin, Geraniol",
+      "image_url": "https://images.openbeautyfacts.org/images/products/400/590/024/3553/front_en.13.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/4005900243553"
     },
     {
       "code": "3600551146188",
@@ -1628,14 +1628,14 @@
     {
       "code": "8901138509231",
       "product_name": "Lip Balm",
-      "brands": "himalaya",
+      "brands": "Himalaya",
       "category": "립케어",
       "obf_category": "lip-balms",
       "countries": [
         "India"
       ],
       "ingredients_text": "OILS: Eranda (Ricinus communis)* Sd. 10 mg, Garijara (Daucus carota) Sd. 10 mg, Godhuma (Triticum sativum) Gr. 10 mg, Hyamaraka (Wrightia tinctoria)* Lf. 10 mg, Narikela (Cocos nucifera) Endos. 10 mg.",
-      "image_url": "https://images.openbeautyfacts.org/images/products/890/113/850/9231/front_en.18.400.jpg",
+      "image_url": "https://images.openbeautyfacts.org/images/products/890/113/850/9231/front_en.34.400.jpg",
       "url": "https://world.openbeautyfacts.org/product/8901138509231"
     },
     {
@@ -1653,19 +1653,6 @@
       "url": "https://world.openbeautyfacts.org/product/30070349"
     },
     {
-      "code": "3058320048117",
-      "product_name": "Soin des lèvres Antidessèchement",
-      "brands": "Mixa, Mixa Intensif, Mixa Intensif Peaux sèches",
-      "category": "립케어",
-      "obf_category": "lip-balms",
-      "countries": [
-        "France"
-      ],
-      "ingredients_text": "603777 6 - INGREDIENTS : CERA MICROCRISTALLINA / MICROCRYSTALLINE WAX, POLYBUTENE, HYDROGENATED POLYISOBUTENE, RICINUS COMMUNIS / CASTOR SEED OIL, MYRISTYL MYRISTATE, OCTYLDODECANOL, PEG-5 PENTAERYTHRITYL ETHER, PPG-5 PENTAERYTHRITYL ETHER, POLYGLYCERYL-3 BEESWAX, BUTYROSPERMUM PARKII / SHEA BUTTER, OZOKERITE, CETYL PALMITATE, GLYCINE SOJA / SOYBEAN STEROLS, ALLANTOIN, ASCORBYL PALMITATE, CITRONELLOL, ETHYLHEXYL METHOXYCINNAMATE, LINALOOL, TOCOPHERYL ACETATE, PARFUM / FRAGRANCE, CI 77891 / TITANIUM DIOXIDE. (F.I.L B12113/1).",
-      "image_url": "https://images.openbeautyfacts.org/images/products/305/832/004/8117/front_fr.7.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/3058320048117"
-    },
-    {
       "code": "3415900031486",
       "product_name": "Stick lèvres anti-dessèchement bio",
       "brands": "Dermophil",
@@ -1677,6 +1664,19 @@
       "ingredients_text": "helianthus annuus seed oil, cera alba, sesamum indicum seed oil, glyceryl/polyglyceryl-6 isostearate/behenate esters, papaver somniferum seed oil, simmondsia chinensis seed oil, theobroma cacao seed butter, copernicia cerifera cera, aroma, limonene, topcopherol, rosmarinus officinalis extract, linalool",
       "image_url": "https://images.openbeautyfacts.org/images/products/341/590/003/1486/front_fr.27.400.jpg",
       "url": "https://world.openbeautyfacts.org/product/3415900031486"
+    },
+    {
+      "code": "3058320048117",
+      "product_name": "Soin des lèvres Antidessèchement",
+      "brands": "Mixa, Mixa Intensif, Mixa Intensif Peaux sèches",
+      "category": "립케어",
+      "obf_category": "lip-balms",
+      "countries": [
+        "France"
+      ],
+      "ingredients_text": "603777 6 - INGREDIENTS : CERA MICROCRISTALLINA / MICROCRYSTALLINE WAX, POLYBUTENE, HYDROGENATED POLYISOBUTENE, RICINUS COMMUNIS / CASTOR SEED OIL, MYRISTYL MYRISTATE, OCTYLDODECANOL, PEG-5 PENTAERYTHRITYL ETHER, PPG-5 PENTAERYTHRITYL ETHER, POLYGLYCERYL-3 BEESWAX, BUTYROSPERMUM PARKII / SHEA BUTTER, OZOKERITE, CETYL PALMITATE, GLYCINE SOJA / SOYBEAN STEROLS, ALLANTOIN, ASCORBYL PALMITATE, CITRONELLOL, ETHYLHEXYL METHOXYCINNAMATE, LINALOOL, TOCOPHERYL ACETATE, PARFUM / FRAGRANCE, CI 77891 / TITANIUM DIOXIDE. (F.I.L B12113/1).",
+      "image_url": "https://images.openbeautyfacts.org/images/products/305/832/004/8117/front_fr.7.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/3058320048117"
     },
     {
       "code": "3660005432212",

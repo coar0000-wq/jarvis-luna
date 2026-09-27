@@ -1,7 +1,7 @@
 {
   "updated_at": "2026-09-20T22:34:01.104985+00:00",
   "source": "Daiso Korea",
-  "count": 345,
+  "count": 344,
   "products": [
     {
       "pd_no": "1030674",
@@ -2643,25 +2643,6 @@
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260909/ZROxKS1RUTZ9GNQ8icsL1072556_00_01ZROxKS1RUTZ9GNQ8icsL.jpg",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072556",
       "collected_at": "2026-09-16T23:02:37.963702+00:00",
-      "source": "daisomall.co.kr 상품 상세 페이지",
-      "bucket": "스킨케어",
-      "detailed_http_status": 200
-    },
-    {
-      "pd_no": "1067495",
-      "name": "[퀵 수분충전]VT PDRN 광채 토너 200 ml",
-      "brand": "VT",
-      "site_category": "스킨/토너",
-      "price_krw": 5000,
-      "price_source": "json:price",
-      "sold_out": false,
-      "stock_note": "판매 중",
-      "stock_checked_at": "2026-09-15T22:19:18.772740+00:00",
-      "rating": 4.8,
-      "review_count": 14285,
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260908/3J2IVmbWFVgnei1tyfv71067495_00_003J2IVmbWFVgnei1tyfv7.jpg",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067495",
-      "collected_at": "2026-09-15T22:19:18.772755+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
       "bucket": "스킨케어",
       "detailed_http_status": 200

@@ -2,7 +2,7 @@
 title: "Record 36ac7bed39 · Managing-Volatility-As-A-Market-Condition"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T12:05:29.366682+00:00
+updated_at: 2026-09-27T14:58:02.994356+00:00
 tags: [record, real-data]
 ---
 

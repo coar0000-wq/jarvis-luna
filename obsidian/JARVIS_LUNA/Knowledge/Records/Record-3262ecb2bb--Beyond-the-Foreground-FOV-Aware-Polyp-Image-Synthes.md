@@ -2,7 +2,7 @@
 title: "Record 3262ecb2bb · Beyond-the-Foreground-FOV-Aware-Polyp-Image-Synthesis-via-Lesion-Guide"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T12:05:28.492411+00:00
+updated_at: 2026-09-27T14:58:02.053466+00:00
 tags: [record, real-data]
 ---
 

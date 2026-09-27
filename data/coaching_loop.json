@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-27T23:11:14.106796+09:00",
+  "generated_at": "2026-09-27T23:56:19.211033+09:00",
   "role": "coaching",
   "principle": "AI는 체크리스트·A/B 초안만. 등록·광고 집행은 사람 승인.",
   "source": "scripts/build_coaching_loop.py",
   "scope": "S등급 상위 15개",
   "summary": {
     "ready_to_list": 0,
-    "ready_with_notes": 10,
-    "fix_then_list": 0,
+    "ready_with_notes": 9,
+    "fix_then_list": 1,
     "hold": 0,
     "reddit_signal": {
       "status": "ok",
       "post_count": 25,
-      "collected_at": "2026-09-21T09:36:28.280168+00:00",
+      "collected_at": "2026-09-27T14:48:55.759947+00:00",
       "keyword_pool": 40
     }
   },
@@ -78,14 +78,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'skin']",
+          "evidence": "matched=['skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "VT Reedle Shot 300 Facial Boosting First Ampoule 2ml x 6 — beauty · K-beauty",
+          "primary_text": "VT Reedle Shot 300 Facial Boosting First Ampoule 2ml x 6 — skin · K-beauty",
           "headline": "VT Reedle Shot 300 Facial Boosting First",
           "description": "Discover the VT Reedle Shot 300 Facial Boosting First Ampoule, designed for your daily skincare routine. This convenient set includes six 2ml ampoules to help prep and smooth your complexion. Apply ge",
           "cta": "Shop now"
@@ -94,7 +94,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Ampoule — Daiso Find — Affordable hydrating pick",
           "headline": "Ampoule — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: REJURAN Turnover Ampoule 1.01 fl. oz.(30.",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: Torriden Dive-in Low Molecule Hyaluronic.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -102,24 +102,24 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "beauty",
-          "skin"
+          "skin",
+          "skincare"
         ],
         "reddit_keywords_used": [
-          "beauty",
-          "skin"
+          "skin",
+          "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "beauty",
-          "skin"
+          "skin",
+          "skincare"
         ],
         "score": 2,
         "status": "pass",
-        "evidence": "matched=['beauty', 'skin']",
+        "evidence": "matched=['skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -190,14 +190,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'skin']",
+          "evidence": "matched=['serum', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "VONSEP Retinol 500 IU Serum 30ml — beauty · K-beauty",
+          "primary_text": "VONSEP Retinol 500 IU Serum 30ml — serum · K-beauty",
           "headline": "VONSEP Retinol 500 IU Serum 30ml",
           "description": "Discover the VONSEP Retinol 500 IU Serum in a convenient 30 ml size, designed to enhance your daily skincare routine. This facial serum helps improve the look of skin texture and promotes a brighter-l",
           "cta": "Shop now"
@@ -206,7 +206,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Serum — Daiso Find — Affordable hydrating pick",
           "headline": "Serum — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: REJURAN Turnover Ampoule 1.01 fl. oz.(30.",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: Torriden Dive-in Low Molecule Hyaluronic.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -214,24 +214,26 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "beauty",
-          "skin"
+          "skin",
+          "skincare"
         ],
         "reddit_keywords_used": [
-          "beauty",
-          "skin"
+          "serum",
+          "skin",
+          "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "beauty",
-          "skin"
+          "serum",
+          "skin",
+          "skincare"
         ],
-        "score": 2,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['beauty', 'skin']",
+        "evidence": "matched=['serum', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -302,14 +304,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'skin']",
+          "evidence": "matched=['skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6ea — beauty · K-beauty",
+          "primary_text": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6ea — skin · K-beauty",
           "headline": "VT Reedle Shot 100 Facial Boosting First",
           "description": "Experience smooth skin texture with the VT Reedle Shot 100 Facial Boosting First Ampoule. This Korean skincare essential comes in a convenient pack of six 2ml ampoules designed for your daily routine.",
           "cta": "Shop now"
@@ -318,7 +320,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Ampoule — Daiso Find — Affordable hydrating pick",
           "headline": "Ampoule — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: REJURAN Turnover Ampoule 1.01 fl. oz.(30.",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: Torriden Dive-in Low Molecule Hyaluronic.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -326,24 +328,24 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "beauty",
-          "skin"
+          "skin",
+          "skincare"
         ],
         "reddit_keywords_used": [
-          "beauty",
-          "skin"
+          "skin",
+          "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "beauty",
-          "skin"
+          "skin",
+          "skincare"
         ],
         "score": 2,
         "status": "pass",
-        "evidence": "matched=['beauty', 'skin']",
+        "evidence": "matched=['skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -400,7 +402,7 @@
           "id": "global_signal",
           "label": "글로벌 수요 시그널",
           "status": "pass",
-          "evidence": "글로벌 'Lacto-PDRN 4% + B9 Eye Cream' (ulta_beauty) 유사 88% · 토큰 cream, pdrn",
+          "evidence": "글로벌 'Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 85% · 토큰 cream, pdrn",
           "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
         },
         {
@@ -414,14 +416,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'skin']",
+          "evidence": "matched=['cream', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "VT PDRN Radiance Cream 50 ml — beauty · K-beauty",
+          "primary_text": "VT PDRN Radiance Cream 50 ml — cream · K-beauty",
           "headline": "VT PDRN Radiance Cream 50 ml",
           "description": "Discover the VT PDRN Radiance Cream in a convenient 50 ml size, formulated to help you achieve a glowing and radiant complexion. Apply this nourishing cream daily as part of your skincare routine to k",
           "cta": "Shop now"
@@ -430,7 +432,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Cream Pdrn — Daiso Find — Affordable hydrating pick",
           "headline": "Cream Pdrn — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: REJURAN Turnover Ampoule 1.01 fl. oz.(30.",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: Torriden Dive-in Low Molecule Hyaluronic.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -439,24 +441,26 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "beauty",
-          "skin"
+          "skin",
+          "skincare"
         ],
         "reddit_keywords_used": [
-          "beauty",
-          "skin"
+          "cream",
+          "skin",
+          "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "beauty",
-          "skin"
+          "cream",
+          "skin",
+          "skincare"
         ],
-        "score": 2,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['beauty', 'skin']",
+        "evidence": "matched=['cream', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -527,14 +531,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'skin']",
+          "evidence": "matched=['serum', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Bongseop Retinol Firming Shot Body Guasha Serum 100ml — beauty · K-beauty",
+          "primary_text": "Bongseop Retinol Firming Shot Body Guasha Serum 100ml — serum · K-beauty",
           "headline": "Bongseop Retinol Firming Shot Body Guash",
           "description": "Experience daily body care with the Bongseop Retinol Firming Shot Body Guasha Serum. This 100 ml serum helps smooth the look of fine lines for a more refined skin appearance. Designed for easy applica",
           "cta": "Shop now"
@@ -543,7 +547,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Serum — Daiso Find — Affordable hydrating pick",
           "headline": "Serum — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: REJURAN Turnover Ampoule 1.01 fl. oz.(30.",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: Torriden Dive-in Low Molecule Hyaluronic.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -551,24 +555,26 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "beauty",
-          "skin"
+          "skin",
+          "skincare"
         ],
         "reddit_keywords_used": [
-          "beauty",
-          "skin"
+          "serum",
+          "skin",
+          "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "beauty",
-          "skin"
+          "serum",
+          "skin",
+          "skincare"
         ],
-        "score": 2,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['beauty', 'skin']",
+        "evidence": "matched=['serum', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -625,7 +631,7 @@
           "id": "global_signal",
           "label": "글로벌 수요 시그널",
           "status": "pass",
-          "evidence": "글로벌 'Lacto-PDRN 4% + B9 Eye Cream' (ulta_beauty) 유사 68% · 토큰 cream, pdrn",
+          "evidence": "글로벌 'Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 65% · 토큰 cream, pdrn",
           "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
         },
         {
@@ -639,7 +645,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['ask', 'beauty', 'masks', 'sheet', 'skin']",
+          "evidence": "matched=['ask', 'cream', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -655,7 +661,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Cream Mask Pdrn — Daiso Find — Affordable hydrating pick",
           "headline": "Cream Mask Pdrn — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: REJURAN Turnover Ampoule 1.01 fl. oz.(30.",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: Torriden Dive-in Low Molecule Hyaluronic.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -666,16 +672,14 @@
           "glass skin",
           "hydrating",
           "ask",
-          "beauty",
-          "masks",
-          "sheet"
+          "skin",
+          "skincare"
         ],
         "reddit_keywords_used": [
           "ask",
-          "beauty",
-          "masks",
-          "sheet",
-          "skin"
+          "cream",
+          "skin",
+          "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
@@ -683,14 +687,13 @@
       "reddit_match": {
         "matched": [
           "ask",
-          "beauty",
-          "masks",
-          "sheet",
-          "skin"
+          "cream",
+          "skin",
+          "skincare"
         ],
-        "score": 5,
+        "score": 4,
         "status": "pass",
-        "evidence": "matched=['ask', 'beauty', 'masks', 'sheet', 'skin']",
+        "evidence": "matched=['ask', 'cream', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -704,7 +707,7 @@
       "pd_no": "1049285",
       "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
       "bucket": "스킨케어",
-      "shopify_score": 92,
+      "shopify_score": 93,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285",
       "readiness": "ready_with_notes",
       "checklist": [
@@ -712,7 +715,7 @@
           "id": "grade_s",
           "label": "S등급 유지",
           "status": "pass",
-          "evidence": "grade=S, score=92",
+          "evidence": "grade=S, score=93",
           "tip": "S가 아니면 1차 등록 보류"
         },
         {
@@ -747,7 +750,7 @@
           "id": "global_signal",
           "label": "글로벌 수요 시그널",
           "status": "pass",
-          "evidence": "글로벌 'BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Plumping",
+          "evidence": "글로벌 'Smushy SOS Hydrating Lip Mask' (ulta_beauty) 유사 73% · 토큰 hydrating, mask",
           "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
         },
         {
@@ -761,7 +764,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['ask', 'beauty', 'masks', 'sheet', 'skin']",
+          "evidence": "matched=['ask', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -777,7 +780,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Mask — Daiso Find — Affordable hydrating pick",
           "headline": "Mask — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: REJURAN Turnover Ampoule 1.01 fl. oz.(30.",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: Torriden Dive-in Low Molecule Hyaluronic.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -786,17 +789,13 @@
           "glass skin",
           "hydrating",
           "ask",
-          "beauty",
-          "masks",
-          "sheet",
-          "skin"
+          "skin",
+          "skincare"
         ],
         "reddit_keywords_used": [
           "ask",
-          "beauty",
-          "masks",
-          "sheet",
-          "skin"
+          "skin",
+          "skincare"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
@@ -804,14 +803,12 @@
       "reddit_match": {
         "matched": [
           "ask",
-          "beauty",
-          "masks",
-          "sheet",
-          "skin"
+          "skin",
+          "skincare"
         ],
-        "score": 5,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['ask', 'beauty', 'masks', 'sheet', 'skin']",
+        "evidence": "matched=['ask', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -822,18 +819,18 @@
       }
     },
     {
-      "pd_no": "1067495",
-      "name": "[퀵 수분충전]VT PDRN 광채 토너 200 ml",
-      "bucket": "스킨케어",
-      "shopify_score": 92,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067495",
-      "readiness": "ready_with_notes",
+      "pd_no": "1027327",
+      "name": "바세린 마스크팩 집중보습",
+      "bucket": "마스크팩",
+      "shopify_score": 91,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027327&recmYn=N",
+      "readiness": "fix_then_list",
       "checklist": [
         {
           "id": "grade_s",
           "label": "S등급 유지",
           "status": "pass",
-          "evidence": "grade=S, score=92",
+          "evidence": "grade=S, score=91",
           "tip": "S가 아니면 1차 등록 보류"
         },
         {
@@ -853,8 +850,8 @@
         {
           "id": "listing_copy",
           "label": "영문 리스팅 카피",
-          "status": "pass",
-          "evidence": "Gemini 카피 있음",
+          "status": "fail",
+          "evidence": "카피 미생성",
           "tip": "shopify-listing-copy 워크플로 실행"
         },
         {
@@ -868,70 +865,66 @@
           "id": "global_signal",
           "label": "글로벌 수요 시그널",
           "status": "pass",
-          "evidence": "글로벌 'Hydrating Milky Toner' (ulta_beauty) 유사 56% · 토큰 hydrating, toner",
+          "evidence": "글로벌 'Smushy SOS Hydrating Lip Mask' (ulta_beauty) 유사 73% · 토큰 hydrating, mask",
           "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
         },
         {
           "id": "social_proof",
           "label": "국내 리뷰(대리지표)",
           "status": "pass",
-          "evidence": "review_count=14285",
+          "evidence": "review_count=3692",
           "tip": "리뷰 적으면 첫 광고 예산을 더 보수적으로"
         },
         {
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['beauty', 'skin']",
-          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+          "evidence": "matched=['ask']",
+          "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "VT PDRN Glow Toner 200 ml — beauty · K-beauty",
-          "headline": "VT PDRN Glow Toner 200 ml",
-          "description": "Experience quick moisture replenishment with VT PDRN Glow Toner. This 200 ml toner helps hydrate your skin for a fresh and glowing appearance. Gently apply to the face as part of your daily skincare r",
+          "primary_text": "Mask — Daiso Find — ask · sheet mask",
+          "headline": "Mask — Daiso Find",
+          "description": "Daiso-sourced sheet mask. Lightweight daily use. Target US shoppers searching overnight mask.",
           "cta": "Shop now"
         },
         "variant_b": {
           "label": "B · 가성비/가격 후킹",
-          "primary_text": "Toner Pdrn — Daiso Find — Affordable hydrating pick",
-          "headline": "Toner Pdrn — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: REJURAN Turnover Ampoule 1.01 fl. oz.(30.",
+          "primary_text": "Mask — Daiso Find — Affordable collagen mask pick",
+          "headline": "Mask — Daiso Find",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable collagen mask pick. Nearby US ref: [7types] MEDIHEAL Essential Face Mask 10.",
           "cta": "See price"
         },
         "suggested_keywords": [
-          "toner",
-          "PDRN",
-          "K-beauty",
-          "glass skin",
-          "hydrating",
-          "beauty",
-          "skin"
+          "mask",
+          "sheet mask",
+          "overnight mask",
+          "collagen mask",
+          "ask"
         ],
         "reddit_keywords_used": [
-          "beauty",
-          "skin"
+          "ask"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "beauty",
-          "skin"
+          "ask"
         ],
-        "score": 2,
+        "score": 1,
         "status": "pass",
-        "evidence": "matched=['beauty', 'skin']",
-        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+        "evidence": "matched=['ask']",
+        "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
       },
       "coach_summary": {
-        "pass": 5,
+        "pass": 4,
         "warn": 3,
-        "fail": 0,
-        "next_action": "경고 항목 보완 후 등록"
+        "fail": 1,
+        "next_action": "실패 항목 수정"
       }
     },
     {
@@ -995,8 +988,8 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['ask', 'masks', 'sheet']",
-          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+          "evidence": "matched=['ask']",
+          "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
         }
       ],
       "ad_copy_ab": {
@@ -1020,28 +1013,22 @@
           "sheet mask",
           "overnight mask",
           "collagen mask",
-          "ask",
-          "masks",
-          "sheet"
+          "ask"
         ],
         "reddit_keywords_used": [
-          "ask",
-          "masks",
-          "sheet"
+          "ask"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "ask",
-          "masks",
-          "sheet"
+          "ask"
         ],
-        "score": 3,
+        "score": 1,
         "status": "pass",
-        "evidence": "matched=['ask', 'masks', 'sheet']",
-        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+        "evidence": "matched=['ask']",
+        "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
       },
       "coach_summary": {
         "pass": 5,
@@ -1111,8 +1098,8 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['ask', 'masks', 'sheet']",
-          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+          "evidence": "matched=['ask']",
+          "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
         }
       ],
       "ad_copy_ab": {
@@ -1137,28 +1124,22 @@
           "sheet mask",
           "overnight mask",
           "collagen mask",
-          "ask",
-          "masks",
-          "sheet"
+          "ask"
         ],
         "reddit_keywords_used": [
-          "ask",
-          "masks",
-          "sheet"
+          "ask"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "ask",
-          "masks",
-          "sheet"
+          "ask"
         ],
-        "score": 3,
+        "score": 1,
         "status": "pass",
-        "evidence": "matched=['ask', 'masks', 'sheet']",
-        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+        "evidence": "matched=['ask']",
+        "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
       },
       "coach_summary": {
         "pass": 5,

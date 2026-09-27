@@ -2,7 +2,7 @@
 title: "Record 53ad893ddb · Our-approach-to-bioresilience"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T12:05:28.251557+00:00
+updated_at: 2026-09-27T14:58:01.756765+00:00
 tags: [record, real-data]
 ---
 

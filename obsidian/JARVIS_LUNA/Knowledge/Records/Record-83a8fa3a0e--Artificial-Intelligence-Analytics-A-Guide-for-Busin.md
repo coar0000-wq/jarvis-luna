@@ -2,7 +2,7 @@
 title: "Record 83a8fa3a0e · Artificial-Intelligence-Analytics-A-Guide-for-Business-Owners-2026---S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T12:05:28.762135+00:00
+updated_at: 2026-09-27T14:58:02.329836+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMib0FVX3lxTE0xcnBLUlFOZ3pUbHNOajA2Z2hUaldQMlVvM0trTDRtMHdKcGJHcElmaGFOc1RiVEc0ZkkwUklNeGlCcG1VeXJLbXdxTk1wNDI5eUU0MDlQY2NWbjF0ajlhd3dPeHRScTRKU2JJZ2w1Yw?oc=5)
 
-**제목:** Artificial Intelligence Analytics: A Guide for Business Owners (2026) - Shopify
+**제목:** Artificial Intelligence Analytics: A Guide for Business Owners (2026) - shopify.com
 
-Artificial Intelligence Analytics: A Guide for Business Owners (2026) - Shopify
+Artificial Intelligence Analytics: A Guide for Business Owners (2026) - shopify.com
 
 **출처:** Source · Google Search
 

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-27T14:42:25.919474+00:00",
+  "generated_at": "2026-09-27T14:48:07.087772+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
-  "pool_size": 2365,
+  "pool_size": 2370,
   "제목없어_버림": 38,
   "unrouted": 9,
   "summary": {
@@ -15,38 +15,38 @@
       "products": 345
     },
     "market": {
-      "total": 555,
-      "recent": 44,
-      "material": 555,
-      "material_recent": 44,
+      "total": 557,
+      "recent": 49,
+      "material": 557,
+      "material_recent": 49,
       "products": 0
     },
     "listing": {
-      "total": 74,
-      "recent": 12,
-      "material": 74,
-      "material_recent": 12,
+      "total": 76,
+      "recent": 15,
+      "material": 76,
+      "material_recent": 15,
       "products": 0
     },
     "pricing": {
-      "total": 18,
-      "recent": 9,
-      "material": 18,
-      "material_recent": 9,
+      "total": 20,
+      "recent": 11,
+      "material": 20,
+      "material_recent": 11,
       "products": 0
     },
     "legal": {
-      "total": 158,
+      "total": 157,
       "recent": 27,
-      "material": 158,
+      "material": 157,
       "material_recent": 27,
       "products": 0
     },
     "design": {
-      "total": 410,
-      "recent": 77,
-      "material": 410,
-      "material_recent": 77,
+      "total": 411,
+      "recent": 88,
+      "material": 411,
+      "material_recent": 88,
       "products": 0
     },
     "robotics": {
@@ -58,9 +58,9 @@
     },
     "knowledge": {
       "total": 194,
-      "recent": 72,
+      "recent": 75,
       "material": 194,
-      "material_recent": 72,
+      "material_recent": 75,
       "products": 0
     },
     "institutions": {
@@ -506,6 +506,46 @@
     ],
     "market": [
       {
+        "title": "13",
+        "url": "https://www.youtube.com/watch?v=UcG2v8i6Y2E",
+        "pool": "youtube_manual",
+        "summary": "할인 중첩·만료·무료배송을 기여이익 기준으로 감사",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "Like",
+        "url": "https://www.youtube.com/watch?v=kFWPkoOx_ao",
+        "pool": "youtube_manual",
+        "summary": "Shopify 공식 모바일 게스트 체크아웃 CRO",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "7",
+        "url": "https://www.youtube.com/watch?v=Knjixb392Is",
+        "pool": "youtube_manual",
+        "summary": "제품·변형·컬렉션·FAQ 구조화 데이터 검증",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "3",
+        "url": "https://www.youtube.com/watch?v=v7DT2yhi9Ac",
+        "pool": "youtube_manual",
+        "summary": "Klaviyo 공식 배송 지연·선셋 리텐션 자동화",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "23",
+        "url": "https://www.youtube.com/watch?v=_pKECd9m25U",
+        "pool": "youtube_manual",
+        "summary": "UGC 스크립트와 문장별 B-roll 샷리스트",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
         "title": "JARVIS LUNA Multi-Agent 마케팅 워크플로우 검토·안전 적용",
         "url": "https://share.gemini.google/9PFLmGZM2rqu",
         "pool": "team_briefing",
@@ -702,6 +742,20 @@
         "by_hand": true
       },
       {
+        "title": "How to Use TikTok to Drive Shopify Sales",
+        "url": "https://www.youtube.com/watch?v=nIOn_726Rxk",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "How to Start a Business From Scratch With NO MONEY",
+        "url": "https://www.youtube.com/watch?v=o0LdVO6XrqE",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
         "title": "The COMPLETE Meta AI Tutorial",
         "url": "https://www.youtube.com/watch?v=-jLkh1-vxg8",
         "pool": "youtube_channel",
@@ -889,58 +943,33 @@
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
-      },
-      {
-        "title": "How to Start A Luxury Brand",
-        "url": "https://www.youtube.com/watch?v=ujFo99CsP0Q",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "The Complete Instagram For Business Tutorial 2026",
-        "url": "https://www.youtube.com/watch?v=JkMhBKi12q4",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "What is Shop? | Shopping designed around you",
-        "url": "https://www.youtube.com/watch?v=KsujQDvKdHk",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "This is life on Shopify",
-        "url": "https://www.youtube.com/watch?v=qajaXseoF7Q",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Spring ’26 Edition rundown",
-        "url": "https://www.youtube.com/watch?v=sf7zUi_8bhs",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Build with Catalog API and UCP",
-        "url": "https://www.youtube.com/watch?v=mWRMjEIh4hE",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Enhanced inventory management",
-        "url": "https://www.youtube.com/watch?v=dsW4E40Y0UI",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
       }
     ],
     "listing": [
+      {
+        "title": "Like",
+        "url": "https://www.youtube.com/watch?v=kFWPkoOx_ao",
+        "pool": "youtube_manual",
+        "summary": "Shopify 공식 모바일 게스트 체크아웃 CRO",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "7",
+        "url": "https://www.youtube.com/watch?v=Knjixb392Is",
+        "pool": "youtube_manual",
+        "summary": "제품·변형·컬렉션·FAQ 구조화 데이터 검증",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "23",
+        "url": "https://www.youtube.com/watch?v=_pKECd9m25U",
+        "pool": "youtube_manual",
+        "summary": "UGC 스크립트와 문장별 B-roll 샷리스트",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
       {
         "title": "JARVIS LUNA Multi-Agent 마케팅 워크플로우 검토·안전 적용",
         "url": "https://share.gemini.google/9PFLmGZM2rqu",
@@ -1070,6 +1099,20 @@
         "by_hand": true
       },
       {
+        "title": "How to Use TikTok to Drive Shopify Sales",
+        "url": "https://www.youtube.com/watch?v=nIOn_726Rxk",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "How to Start a Business From Scratch With NO MONEY",
+        "url": "https://www.youtube.com/watch?v=o0LdVO6XrqE",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
         "title": "The COMPLETE Meta AI Tutorial",
         "url": "https://www.youtube.com/watch?v=-jLkh1-vxg8",
         "pool": "youtube_channel",
@@ -1245,20 +1288,6 @@
         "by_hand": true
       },
       {
-        "title": "How to Start A Luxury Brand",
-        "url": "https://www.youtube.com/watch?v=ujFo99CsP0Q",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "The Complete Instagram For Business Tutorial 2026",
-        "url": "https://www.youtube.com/watch?v=JkMhBKi12q4",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
         "title": "I Went to Seoul to Find the Korean Skin-Care Products People Actually Buy - Vogue",
         "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1JSEZleGFOZTlfbmlCTTRTbWZOZXJMWS1ZVkhnZy16cHdVNDM1Qnl4X0RGR19LcGNSQjNyLVpWQXZ0RTU0TWU2T2xfOW1VeDU0UGNsN0RkRXRNMWxqNVh1VnpKMmszdw?oc=5",
         "pool": "google",
@@ -1268,13 +1297,6 @@
       {
         "title": "Product variants now support multiple barcodes",
         "url": "https://changelog.shopify.com/posts/multiple-barcodes-in-variants",
-        "pool": "design_refs",
-        "date": "2026-09-08",
-        "by_hand": false
-      },
-      {
-        "title": "Variants now support multiple barcodes",
-        "url": "https://shopify.dev/changelog/product-variant-barcode-is-being-replaced-by-barcodes",
         "pool": "design_refs",
         "date": "2026-09-08",
         "by_hand": false
@@ -1362,23 +1384,17 @@
         "pool": "fda",
         "date": "2025-08-21",
         "by_hand": false
-      },
-      {
-        "title": "[Rule] Listing of Color Additives Exempt From Certification; Galdieria Extract Blue; Confirmation of Effective Date",
-        "url": "https://www.federalregister.gov/documents/2025/08/21/2025-16046/listing-of-color-additives-exempt-from-certification-galdieria-extract-blue-confirmation-of",
-        "pool": "fda",
-        "date": "2025-08-21",
-        "by_hand": false
-      },
-      {
-        "title": "[Rule] Listing of Color Additives Exempt From Certification; Butterfly Pea Flower Extract; Confirmation of Effective Date",
-        "url": "https://www.federalregister.gov/documents/2025/08/21/2025-16045/listing-of-color-additives-exempt-from-certification-butterfly-pea-flower-extract-confirmation-of",
-        "pool": "fda",
-        "date": "2025-08-21",
-        "by_hand": false
       }
     ],
     "pricing": [
+      {
+        "title": "13",
+        "url": "https://www.youtube.com/watch?v=UcG2v8i6Y2E",
+        "pool": "youtube_manual",
+        "summary": "할인 중첩·만료·무료배송을 기여이익 기준으로 감사",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
       {
         "title": "Increase Your Shopify Average Order Value: Quantity Breaks, Bundles & Upsells",
         "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
@@ -1434,6 +1450,20 @@
         "by_hand": true
       },
       {
+        "title": "Improved shipping and duty data in Analytics",
+        "url": "https://changelog.shopify.com/posts/improved-shipping-and-duty-data-in-analytics",
+        "pool": "design_refs",
+        "date": "2026-09-23",
+        "by_hand": false
+      },
+      {
+        "title": "Unlimited private plans and target stores in Shopify App Pricing",
+        "url": "https://shopify.dev/changelog/unlimited-private-plans-and-target-stores-in-shopify-app-pricing",
+        "pool": "design_refs",
+        "date": "2026-09-21",
+        "by_hand": false
+      },
+      {
         "title": "Constrained Bayesian Neural Network utility in the design of price promotions",
         "url": "https://doi.org/10.1016/j.jocm.2026.100633",
         "pool": "institutions",
@@ -1444,13 +1474,6 @@
         "title": "Tracking International Payments Midsize Firms Responding Continued Tariff Pressure",
         "url": "https://www.jpmorgan.com/insights/markets-and-economy/tracking-international-payments-midsize-firms-responding-continued-tariff-pressure",
         "pool": "institutions",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "New Pricing audit trail for contextual product variant prices",
-        "url": "https://shopify.dev/changelog/pricing-audit-trail-for-contextual-product-variant-prices",
-        "pool": "design_refs",
         "date": "2026-09-17",
         "by_hand": false
       },
@@ -1748,13 +1771,6 @@
         "by_hand": false
       },
       {
-        "title": "Variants now support multiple barcodes",
-        "url": "https://shopify.dev/changelog/product-variant-barcode-is-being-replaced-by-barcodes",
-        "pool": "design_refs",
-        "date": "2026-09-08",
-        "by_hand": false
-      },
-      {
         "title": "FreshPoint Issues Recall Due to an Improperly Declared Allergen (Egg) in Chicken Salad Wedge Sandwiches",
         "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/freshpoint-issues-recall-due-improperly-declared-allergen-egg-chicken-salad-wedge-sandwiches",
         "pool": "fda",
@@ -1935,9 +1951,24 @@
         "pool": "fda",
         "date": "2025-12-18",
         "by_hand": false
+      },
+      {
+        "title": "[Proposed Rule] Testing Methods for Detecting and Identifying Asbestos in Talc-Containing Cosmetic Products; Withdrawal",
+        "url": "https://www.federalregister.gov/documents/2025/11/28/2025-21407/testing-methods-for-detecting-and-identifying-asbestos-in-talc-containing-cosmetic-products",
+        "pool": "fda",
+        "date": "2025-11-28",
+        "by_hand": false
       }
     ],
     "design": [
+      {
+        "title": "23",
+        "url": "https://www.youtube.com/watch?v=_pKECd9m25U",
+        "pool": "youtube_manual",
+        "summary": "UGC 스크립트와 문장별 B-roll 샷리스트",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
       {
         "title": "JARVIS LUNA Multi-Agent 마케팅 워크플로우 검토·안전 적용",
         "url": "https://share.gemini.google/9PFLmGZM2rqu",
@@ -2233,6 +2264,20 @@
         "by_hand": true
       },
       {
+        "title": "How to Use TikTok to Drive Shopify Sales",
+        "url": "https://www.youtube.com/watch?v=nIOn_726Rxk",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "How to Start a Business From Scratch With NO MONEY",
+        "url": "https://www.youtube.com/watch?v=o0LdVO6XrqE",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
         "title": "The COMPLETE Meta AI Tutorial",
         "url": "https://www.youtube.com/watch?v=-jLkh1-vxg8",
         "pool": "youtube_channel",
@@ -2347,27 +2392,6 @@
       {
         "title": "How to Start a Clothing Resale Business on Shopify",
         "url": "https://www.youtube.com/watch?v=RUwznTHGexY",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "How to Start Affiliate Marketing in 2026",
-        "url": "https://www.youtube.com/watch?v=HnV5JXBWCeQ",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "The Official Shopify Sidekick Tutorial (Part 1)",
-        "url": "https://www.youtube.com/watch?v=rGlVduB0T5s",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "How to Find Winning Products with AI 🤖 (Shopify Tutorial)",
-        "url": "https://www.youtube.com/watch?v=QsxT7MuyRfk",
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
@@ -2887,6 +2911,13 @@
         "by_hand": true
       },
       {
+        "title": "AI Toolkit skills have been consolidated to `shopify`",
+        "url": "https://shopify.dev/changelog/ai-toolkit-skills-have-been-consolidated",
+        "pool": "design_refs",
+        "date": "2026-09-25",
+        "by_hand": false
+      },
+      {
         "title": "BiCC: Bidirectional Connected-Component Loss for Instance-Aware Segmentation",
         "url": "https://arxiv.org/abs/2609.30223",
         "pool": "arxiv",
@@ -3174,6 +3205,13 @@
         "by_hand": false
       },
       {
+        "title": "Shop Pay Installments can now be enabled on multiple business entities",
+        "url": "https://changelog.shopify.com/posts/shop-pay-installments-can-now-be-enabled-on-multiple-business-entities",
+        "pool": "design_refs",
+        "date": "2026-09-22",
+        "by_hand": false
+      },
+      {
         "title": "SAFe: Segment-guided Aggregation of Feature Densities for Anomaly-aware Segmentation",
         "url": "https://arxiv.org/abs/2609.24204",
         "pool": "arxiv",
@@ -3195,31 +3233,17 @@
         "by_hand": false
       },
       {
+        "title": "Helix: The internal tool powering our Shopify app's native migration",
+        "url": "https://shopify.engineering/helix",
+        "pool": "design_refs",
+        "date": "2026-09-21",
+        "by_hand": false
+      },
+      {
         "title": "ARGUS: an experiment-agnostic framework for detector-health monitoring in particle physics",
         "url": "https://arxiv.org/abs/2609.23329",
         "pool": "arxiv",
         "date": "2026-09-20",
-        "by_hand": false
-      },
-      {
-        "title": "Collaborative Streaming Anomaly Detection with Interactive Explanations and Ensemble Consensus",
-        "url": "https://arxiv.org/abs/2609.23883",
-        "pool": "arxiv",
-        "date": "2026-09-20",
-        "by_hand": false
-      },
-      {
-        "title": "Signal2Symbol: Neuro-Symbolic Temporal Reasoning for Explainable Physiological Time-Series Anomaly Detection",
-        "url": "https://arxiv.org/abs/2609.26820",
-        "pool": "arxiv",
-        "date": "2026-09-20",
-        "by_hand": false
-      },
-      {
-        "title": "Interpretable Multi-Hypersphere Deep Anomaly Detection for Open-set Supervised Anomaly Detection",
-        "url": "https://arxiv.org/abs/2609.23008",
-        "pool": "arxiv",
-        "date": "2026-09-19",
         "by_hand": false
       }
     ],

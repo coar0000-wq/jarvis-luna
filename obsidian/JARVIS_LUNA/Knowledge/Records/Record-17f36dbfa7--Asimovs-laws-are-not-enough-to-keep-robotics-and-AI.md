@@ -1,0 +1,22 @@
+---
+title: "Record 17f36dbfa7 · Asimovs-laws-are-not-enough-to-keep-robotics-and-AI-safe"
+type: knowledge-graph
+status: generated-from-real-data
+updated_at: 2026-09-27T14:58:03.061123+00:00
+tags: [record, real-data]
+---
+
+# Record 17f36dbfa7 · Asimovs-laws-are-not-enough-to-keep-robotics-and-AI-safe
+
+> 실제 수집 레코드입니다. 원문: [www.therobotreport.com](https://www.therobotreport.com/asimovs-laws-are-not-enough-keep-robotics-ai-safe/)
+
+**제목:** Asimov’s laws are not enough to keep robotics and AI safe
+
+Asimov’s laws are not enough to keep robotics and AI safe
+<p>Asimov's fictional Three Laws of Robotics famously set safeguards, and tech observers today raise similar concerns about AI.</p> <p>The post <a href="https://www.therobotreport.com/asimovs-laws-are-not-enough-keep-robotics-ai-safe/">Asimov&#8217;s laws are not enough to keep robotics and AI safe</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
+
+**출처:** Source · robotics
+
+## Connected nodes
+
+[[Source--robotics]] [[법률규제]] [[로보틱스]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

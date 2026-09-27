@@ -2,7 +2,7 @@
 title: "Record a68f4a2bcd · Grok-Bot-is-now-included-with-more-plans"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T12:05:29.542881+00:00
+updated_at: 2026-09-27T14:58:03.178666+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [x.ai](https://x.ai/news/grok-bot-more-plans)
 
-**제목:** Grok Bot is now included with more plans
+**제목:** Grok Bot More Plans
 
-Grok Bot is now included with more plans
-Grok Bot is now available for SuperGrok, Cursor Pro, and all Cursor Teams plans.
+Grok Bot More Plans
 
 **출처:** Source · institutions
 

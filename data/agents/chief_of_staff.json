@@ -1,12 +1,23 @@
 {
   "agent": "Chief-of-Staff",
   "role": "전체 JARVIS 운영상태를 종합하여 우선순위와 Safe Auto-Fix 실행 여부를 결정",
-  "generated_at": "2026-09-21T10:24:44.823443+00:00",
+  "generated_at": "2026-09-27T14:57:33.825948+00:00",
   "risk": "low",
-  "overall_priority": "P4",
-  "overall_action": "TRACK_EXTERNAL_SOURCE_ERRORS",
-  "overall_reason": "외부 소스 고장 5건 추적 중 (기관 수집팀:Deutsche Bank 사이트, 기관 수집팀:TSMC 뉴스룸, 기관 수집팀:Marvell·Intel·Qualcomm·ASML IR RSS, 채널 운영팀:FDA 화장품 리콜·조치 이력)",
+  "overall_priority": "P3",
+  "overall_action": "TEAM_ACTION_MARKET",
+  "overall_reason": "고시 표 1건 판독 남음 (비전 판독 상태 ok) — 1027327 바세린 마스크팩 집중보습 https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027327",
   "decisions": [
+    {
+      "priority": "P3",
+      "severity_score": 35,
+      "area": "dashboard:market",
+      "team": "market",
+      "action": "TEAM_ACTION_MARKET",
+      "reason": "고시 표 1건 판독 남음 (비전 판독 상태 ok) — 1027327 바세린 마스크팩 집중보습 https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027327",
+      "remediation_class": "revalidate_only",
+      "auto_execute": false,
+      "requires_user_action": false
+    },
     {
       "priority": "P4",
       "severity_score": 18,
@@ -23,7 +34,7 @@
       "area": "dashboard:listing",
       "team": "listing",
       "action": "TEAM_WAITING_LISTING",
-      "reason": "카피 3건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 6건 사람 승인 대기",
+      "reason": "카피 1건, 고시 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 8건 사람 승인 대기",
       "remediation_class": "human_approval_required",
       "auto_execute": false,
       "requires_user_action": true
@@ -34,7 +45,7 @@
       "area": "dashboard:legal",
       "team": "legal",
       "action": "TEAM_WAITING_LEGAL",
-      "reason": "차단 1건: [퀵 수분충전]VT PDRN (자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기",
+      "reason": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 4종(경북, 테트라데칸에이트, 피이지-20글리세릴-12) — data/manual/inci_overrides.json 확인 대기",
       "remediation_class": "human_approval_required",
       "auto_execute": false,
       "requires_user_action": true
@@ -59,7 +70,7 @@
       "area": "dashboard:listing",
       "team": "listing",
       "action": "TEAM_WAITING_LISTING",
-      "reason": "카피 3건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 6건 사람 승인 대기",
+      "reason": "카피 1건, 고시 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 8건 사람 승인 대기",
       "remediation_class": "human_approval_required",
       "auto_execute": false,
       "requires_user_action": true
@@ -70,13 +81,24 @@
       "area": "dashboard:legal",
       "team": "legal",
       "action": "TEAM_WAITING_LEGAL",
-      "reason": "차단 1건: [퀵 수분충전]VT PDRN (자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기",
+      "reason": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 4종(경북, 테트라데칸에이트, 피이지-20글리세릴-12) — data/manual/inci_overrides.json 확인 대기",
       "remediation_class": "human_approval_required",
       "auto_execute": false,
       "requires_user_action": true
     }
   ],
   "monitored_actions": [
+    {
+      "priority": "P3",
+      "severity_score": 35,
+      "area": "dashboard:market",
+      "team": "market",
+      "action": "TEAM_ACTION_MARKET",
+      "reason": "고시 표 1건 판독 남음 (비전 판독 상태 ok) — 1027327 바세린 마스크팩 집중보습 https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027327",
+      "remediation_class": "revalidate_only",
+      "auto_execute": false,
+      "requires_user_action": false
+    },
     {
       "priority": "P4",
       "severity_score": 18,
@@ -143,7 +165,7 @@
       "priority": "P4",
       "evidence": {
         "s_grade_count": 10,
-        "recommendation_source": "data\\daiso_real\\shopify_s_recommendations.json"
+        "recommendation_source": "data/daiso_real/shopify_s_recommendations.json"
       },
       "recommended_action": "MONITOR",
       "auto_execute": false
@@ -199,7 +221,7 @@
       "priority": "P4",
       "evidence": {
         "s_grade_count": 10,
-        "recommendation_source": "data\\daiso_real\\shopify_s_recommendations.json"
+        "recommendation_source": "data/daiso_real/shopify_s_recommendations.json"
       },
       "recommended_action": "MONITOR",
       "auto_execute": false
@@ -210,8 +232,8 @@
       "status": "ok",
       "priority": "P4",
       "evidence": {
-        "nodes": 82023,
-        "links": 331193,
+        "nodes": 82783,
+        "links": 339573,
         "dangling_generated": 0,
         "truth_guard_anomaly": false,
         "anomaly_reasons": []
@@ -228,7 +250,7 @@
         "training_performed": true,
         "weights_updated": true,
         "corpus_present": true,
-        "training_status_source": "data\\knowledge\\training_status.json"
+        "training_status_source": "data/knowledge/training_status.json"
       },
       "recommended_action": "MONITOR",
       "auto_execute": false
@@ -272,105 +294,105 @@
       ]
     },
     "graph": {
-      "nodes": 82023,
-      "links": 331193,
+      "nodes": 82783,
+      "links": 339573,
       "dangling_generated": 0,
-      "runtime_nodes": 82023,
-      "runtime_links": 331193,
+      "runtime_nodes": 82783,
+      "runtime_links": 339573,
       "runtime_dangling_generated": 0,
       "truth_guard": {
-        "vault": "obsidian\\JARVIS_LUNA",
-        "actual_nodes": 82023,
-        "actual_links": 331193,
+        "vault": "obsidian/JARVIS_LUNA",
+        "actual_nodes": 82783,
+        "actual_links": 339573,
         "actual_dangling_generated": 0,
         "actual_dangling_personal": 21,
         "generated_dangling_samples": [],
         "personal_dangling_samples": [
           {
-            "source": "Personal\\Claude\\Projects\\kms\\_JARVIS_미디어학습_자동화파이프라인.md",
-            "target": "{metadata['channel'"
-          },
-          {
-            "source": "Personal\\Claude\\Projects\\kms\\JARVIS_그래프데이터화_심도있는작업계획.md",
+            "source": "Personal/Claude/Projects/kms/JARVIS_그래프데이터화_심도있는작업계획.md",
             "target": "phase-x"
           },
           {
-            "source": "Personal\\Claude\\Projects\\kms\\JARVIS_기술구현_동적가격_예측모델.md",
+            "source": "Personal/Claude/Projects/kms/JARVIS_기술구현_동적가격_예측모델.md",
             "target": "group_a_conversions, group_a_impressions - group_a_conversions"
           },
           {
-            "source": "Personal\\Claude\\Projects\\kms\\Obsidian_notes\\YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
+            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
             "target": "jarvis_level3.5_10명전문가_협력"
           },
           {
-            "source": "Personal\\Claude\\Projects\\kms\\Obsidian_notes\\YouTube_Elementor_Marketing_Strategy.md",
+            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
             "target": "satellite ai 콘텐츠 마케팅"
           },
           {
-            "source": "Personal\\templates\\kms\\_JARVIS_미디어학습_자동화파이프라인.md",
+            "source": "Personal/Claude/Projects/kms/_JARVIS_미디어학습_자동화파이프라인.md",
             "target": "{metadata['channel'"
           },
           {
-            "source": "Personal\\templates\\kms\\JARVIS_기술구현_동적가격_예측모델.md",
+            "source": "Personal/templates/kms/JARVIS_기술구현_동적가격_예측모델.md",
             "target": "group_a_conversions, group_a_impressions - group_a_conversions"
           },
           {
-            "source": "Personal\\templates\\kms\\🎯_JARVIS_그래프데이터화_심도있는작업계획.md",
+            "source": "Personal/templates/kms/_JARVIS_미디어학습_자동화파이프라인.md",
+            "target": "{metadata['channel'"
+          },
+          {
+            "source": "Personal/templates/kms/🎯_JARVIS_그래프데이터화_심도있는작업계획.md",
             "target": "phase-x"
           },
           {
-            "source": "Personal\\Claude\\Projects\\kms\\_JARVIS_미디어학습_자동화파이프라인.md",
-            "target": "youtube_integration_{metadata['video_id'"
-          },
-          {
-            "source": "Personal\\Claude\\Projects\\kms\\Obsidian_notes\\YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
+            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
             "target": "youtube_마케팅_전략"
           },
           {
-            "source": "Personal\\Claude\\Projects\\kms\\Obsidian_notes\\YouTube_Elementor_Marketing_Strategy.md",
+            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
             "target": "youtube 마케팅 전략"
           },
           {
-            "source": "Personal\\templates\\kms\\_JARVIS_미디어학습_자동화파이프라인.md",
+            "source": "Personal/Claude/Projects/kms/_JARVIS_미디어학습_자동화파이프라인.md",
             "target": "youtube_integration_{metadata['video_id'"
           },
           {
-            "source": "Personal\\Claude\\Projects\\kms\\Obsidian_notes\\YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
+            "source": "Personal/templates/kms/_JARVIS_미디어학습_자동화파이프라인.md",
+            "target": "youtube_integration_{metadata['video_id'"
+          },
+          {
+            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
             "target": "kb증권_api_튜토리얼_전략"
           },
           {
-            "source": "Personal\\Claude\\Projects\\kms\\Obsidian_notes\\YouTube_Elementor_Marketing_Strategy.md",
+            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
             "target": "satellite ai 콘텐츠 마케팅"
           },
           {
-            "source": "Personal\\Claude\\Projects\\kms\\Obsidian_notes\\YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
+            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
             "target": "satellite_ai_saas_비즈니스_모델"
           },
           {
-            "source": "Personal\\Claude\\Projects\\kms\\Obsidian_notes\\YouTube_Elementor_Marketing_Strategy.md",
+            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
             "target": "saas 무료+프리미엄 비즈니스 모델"
           },
           {
-            "source": "Personal\\Claude\\Projects\\kms\\Obsidian_notes\\YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
+            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_AI_Agents_Ontology_분석_2026-08-09.md",
             "target": "series_b_투자_전략"
           },
           {
-            "source": "Personal\\Claude\\Projects\\kms\\Obsidian_notes\\YouTube_Elementor_Marketing_Strategy.md",
+            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
             "target": "seo 키워드 최적화"
           },
           {
-            "source": "Personal\\Claude\\Projects\\kms\\Obsidian_notes\\YouTube_Elementor_Marketing_Strategy.md",
+            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
             "target": "웹 영상 마케팅"
           },
           {
-            "source": "Personal\\Claude\\Projects\\kms\\Obsidian_notes\\YouTube_Elementor_Marketing_Strategy.md",
+            "source": "Personal/Claude/Projects/kms/Obsidian_notes/YouTube_Elementor_Marketing_Strategy.md",
             "target": "satellite ai 사용 사례"
           }
         ],
         "generated_dangling_sample_source_count": 0,
         "personal_dangling_sample_source_count": 8,
-        "runtime_nodes": 82023,
-        "runtime_links": 331193,
+        "runtime_nodes": 82783,
+        "runtime_links": 339573,
         "runtime_dangling_generated": 0,
         "runtime_consistent": true,
         "anomaly": false,
@@ -385,15 +407,21 @@
     },
     "dashboard_issues": [
       {
+        "team": "market",
+        "kind": "auto_remediable",
+        "text": "고시 표 1건 판독 남음 (비전 판독 상태 ok) — 1027327 바세린 마스크팩 집중보습 https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027327",
+        "source": "action"
+      },
+      {
         "team": "listing",
         "kind": "human_approval_required",
-        "text": "카피 3건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 6건 사람 승인 대기",
+        "text": "카피 1건, 고시 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 8건 사람 승인 대기",
         "source": "waiting"
       },
       {
         "team": "legal",
         "kind": "human_approval_required",
-        "text": "차단 1건: [퀵 수분충전]VT PDRN (자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기",
+        "text": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 4종(경북, 테트라데칸에이트, 피이지-20글리세릴-12) — data/manual/inci_overrides.json 확인 대기",
         "source": "waiting"
       },
       {
@@ -405,7 +433,7 @@
     ],
     "source_errors": {
       "broken": 5,
-      "generated_at": "2026-09-21T09:43:15.085969+00:00",
+      "generated_at": "2026-09-27T14:57:21.258664+00:00",
       "items": [
         {
           "team": "기관 수집팀",

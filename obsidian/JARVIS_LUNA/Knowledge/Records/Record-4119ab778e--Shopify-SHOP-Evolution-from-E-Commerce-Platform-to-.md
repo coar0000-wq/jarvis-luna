@@ -2,7 +2,7 @@
 title: "Record 4119ab778e · Shopify-SHOP-Evolution-from-E-Commerce-Platform-to-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T12:05:28.961131+00:00
+updated_at: 2026-09-27T14:58:02.543036+00:00
 tags: [record, real-data]
 ---
 

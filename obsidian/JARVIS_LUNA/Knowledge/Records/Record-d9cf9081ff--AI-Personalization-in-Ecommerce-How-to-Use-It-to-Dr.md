@@ -2,7 +2,7 @@
 title: "Record d9cf9081ff · AI-Personalization-in-Ecommerce-How-to-Use-It-to-Dr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T12:05:28.753396+00:00
+updated_at: 2026-09-27T14:58:02.320102+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiaEFVX3lxTE1DdS1obWlnVE50NW9OTDRrVnQxTlVpVnRTNVZaUFY0TjRKdWhYa1hhQ3VDbzBIbWRhQTlMQmotTHlZb1BFckZ2eDZVeUFKV21obTZsSTdrZWxfY040eXlMWXpLQkkxdmMy?oc=5)
 
-**제목:** AI Personalization in Ecommerce: How to Use It to Drive Growth (2026) - Shopify
+**제목:** AI Personalization in Ecommerce: How to Use It to Drive Growth (2026) - shopify.com
 
-AI Personalization in Ecommerce: How to Use It to Drive Growth (2026) - Shopify
+AI Personalization in Ecommerce: How to Use It to Drive Growth (2026) - shopify.com
 
 **출처:** Source · Google Search
 

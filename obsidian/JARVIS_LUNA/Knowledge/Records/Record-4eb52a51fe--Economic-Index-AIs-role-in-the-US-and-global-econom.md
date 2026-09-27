@@ -2,7 +2,7 @@
 title: "Record 4eb52a51fe · Economic-Index-AIs-role-in-the-US-and-global-econom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T12:05:29.309272+00:00
+updated_at: 2026-09-27T14:58:02.919366+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [www.anthropic.com](https://www.anthropic.com/research/economic-index-geography)
 
-**제목:** Economic Index: AI's role in the US and global economy
+**제목:** Economic Index Geography
 
-Economic Index: AI's role in the US and global economy
-New research from the Anthropic Economic Index exploring geographic patterns of AI use across the US and the global economy.
+Economic Index Geography
 
 **출처:** Source · institutions
 

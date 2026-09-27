@@ -2,7 +2,7 @@
 title: "Record 20098dd31a · Education-Report-How-educators-use-Claude"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T12:05:29.307925+00:00
+updated_at: 2026-09-27T14:58:02.918144+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [www.anthropic.com](https://www.anthropic.com/research/anthropic-education-report-how-educators-use-claude)
 
-**제목:** Education Report: How educators use Claude
+**제목:** Anthropic Education Report How Educators Use Claude
 
-Education Report: How educators use Claude
-Research on 74,000 educator conversations shows how faculty use Claude for teaching, research, and building interactive learning tools.
+Anthropic Education Report How Educators Use Claude
 
 **출처:** Source · institutions
 

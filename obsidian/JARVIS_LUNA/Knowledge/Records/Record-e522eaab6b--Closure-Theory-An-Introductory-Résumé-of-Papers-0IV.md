@@ -2,7 +2,7 @@
 title: "Record e522eaab6b · Closure-Theory-An-Introductory-Résumé-of-Papers-0IV"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T12:05:28.575867+00:00
+updated_at: 2026-09-27T14:58:02.138203+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record ac0c713cd4 · You-Can-Try-to-Vibe-Code-Your-Commerce-Stack-but-Sh"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T12:05:28.837958+00:00
+updated_at: 2026-09-27T14:58:02.417899+00:00
 tags: [record, real-data]
 ---
 

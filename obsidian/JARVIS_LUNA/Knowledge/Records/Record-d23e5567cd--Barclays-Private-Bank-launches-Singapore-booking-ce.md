@@ -2,7 +2,7 @@
 title: "Record d23e5567cd · Barclays-Private-Bank-launches-Singapore-booking-ce"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T12:05:28.626746+00:00
+updated_at: 2026-09-27T14:58:02.193963+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [home.barclays](https://home.barclays/news/press-releases/20260/090/barclays-private-bank-launches-singapore--booking-centre-to-serv/)
 
-**제목:** Barclays Private Bank launches Singapore booking centre to serve globally connected clients | Barclays
+**제목:** Barclays Private Bank Launches Singapore Booking Centre To Serv
 
-Barclays Private Bank launches Singapore booking centre to serve globally connected clients | Barclays
-Barclays today announces the launch of its Private Bank booking centre in Singapore.
+Barclays Private Bank Launches Singapore Booking Centre To Serv
 
 **출처:** Source · institutions
 
