@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T20:54:53.781589+09:00",
+  "generated_at": "2026-09-27T23:03:48.287807+09:00",
   "role": "coaching",
   "principle": "AI는 체크리스트·A/B 초안만. 등록·광고 집행은 사람 승인.",
   "source": "scripts/build_coaching_loop.py",
@@ -87,14 +87,14 @@
           "label": "A · 성분/커뮤니티 후킹",
           "primary_text": "VT Reedle Shot 300 Facial Boosting First Ampoule 2ml x 6 — beauty · K-beauty",
           "headline": "VT Reedle Shot 300 Facial Boosting First",
-          "description": "Discover the VT Reedle Shot 300 Facial Boosting First Ampoule, designed for your daily skincare routine. This convenient set includes six 2ml ampoules to help prep your skin for subsequent steps. Form",
+          "description": "Discover the VT Reedle Shot 300 Facial Boosting First Ampoule, designed for your daily skincare routine. This convenient set includes six 2ml ampoules to help prep your skin for the next steps of your",
           "cta": "Shop now"
         },
         "variant_b": {
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Ampoule — Daiso Find — Affordable hydrating pick",
           "headline": "Ampoule — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: REJURAN Turnover Ampoule 1.01 fl. oz.(30.",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: Torriden Dive-in Low Molecule Hyaluronic.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -197,16 +197,16 @@
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "VONSEPT Retinol 500 IU Serum 30 ml — beauty · K-beauty",
-          "headline": "VONSEPT Retinol 500 IU Serum 30 ml",
-          "description": "Discover the VONSEPT Retinol 500 IU Serum in a convenient 30 ml size, designed to help smooth the look of fine lines for a more refined appearance. This gentle facial serum is easy to incorporate into",
+          "primary_text": "VONSEP Retinol 500 IU Serum 30 ml — beauty · K-beauty",
+          "headline": "VONSEP Retinol 500 IU Serum 30 ml",
+          "description": "Discover the VONSEP Retinol 500 IU Serum in a convenient 30 ml size, designed to enhance your daily skincare routine. This nourishing serum applies smoothly to help support a radiant and refreshed-loo",
           "cta": "Shop now"
         },
         "variant_b": {
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Serum — Daiso Find — Affordable hydrating pick",
           "headline": "Serum — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: REJURAN Turnover Ampoule 1.01 fl. oz.(30.",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: Torriden Dive-in Low Molecule Hyaluronic.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -309,16 +309,16 @@
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6 — beauty · K-beauty",
+          "primary_text": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6ea — beauty · K-beauty",
           "headline": "VT Reedle Shot 100 Facial Boosting First",
-          "description": "Discover the VT Reedle Shot 100 Facial Boosting First Ampoule, designed for your daily skincare routine. This convenient pack contains six 2ml ampoules to help prep and care for your skin texture. App",
+          "description": "Experience smooth skin texture with the VT Reedle Shot 100 Facial Boosting First Ampoule. This set includes six convenient 2ml ampoules designed to prep your skin. Incorporate this first step into you",
           "cta": "Shop now"
         },
         "variant_b": {
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Ampoule — Daiso Find — Affordable hydrating pick",
           "headline": "Ampoule — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: REJURAN Turnover Ampoule 1.01 fl. oz.(30.",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: Torriden Dive-in Low Molecule Hyaluronic.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -423,14 +423,14 @@
           "label": "A · 성분/커뮤니티 후킹",
           "primary_text": "VT PDRN Radiance Cream 50 ml — beauty · K-beauty",
           "headline": "VT PDRN Radiance Cream 50 ml",
-          "description": "Discover the nourishing and luminous benefits of VT PDRN Radiance Cream. This 50 ml facial cream is designed to give your skin a vibrant and glowing appearance. Incorporate this lightweight cream into",
+          "description": "Discover the nourishing radiance of VT PDRN Radiance Cream. This rich facial cream provides deep moisture to help you achieve a glowing, luminous complexion. Formulated with PDRN, the 50 ml cream abso",
           "cta": "Shop now"
         },
         "variant_b": {
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Cream Pdrn — Daiso Find — Affordable hydrating pick",
           "headline": "Cream Pdrn — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: REJURAN Turnover Ampoule 1.01 fl. oz.(30.",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: Torriden Dive-in Low Molecule Hyaluronic.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -534,16 +534,16 @@
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Bongseop Retinol Firming Shot Body Gua Sha Serum 100ml — beauty · K-beauty",
-          "headline": "Bongseop Retinol Firming Shot Body Gua S",
-          "description": "Experience an easy massage routine with the Bongseop Retinol Firming Shot Body Gua Sha Serum. This 100ml body serum combines the benefits of a smooth applicator and a nourishing formula for your daily",
+          "primary_text": "Bongseop Retinol Firming Shot Body Guasha Serum 100ml — beauty · K-beauty",
+          "headline": "Bongseop Retinol Firming Shot Body Guash",
+          "description": "Experience the convenience of a body serum and massager in one with this firming formula. Designed for easy application, it helps smooth the look of skin texture for a more toned appearance. Infused w",
           "cta": "Shop now"
         },
         "variant_b": {
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Serum — Daiso Find — Affordable hydrating pick",
           "headline": "Serum — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: REJURAN Turnover Ampoule 1.01 fl. oz.(30.",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: Torriden Dive-in Low Molecule Hyaluronic.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -648,14 +648,14 @@
           "label": "A · 성분/커뮤니티 후킹",
           "primary_text": "Celderma Daily PDRN Radiance Cream Wrapping Mask 1ea — ask · K-beauty",
           "headline": "Celderma Daily PDRN Radiance Cream Wrapp",
-          "description": "Discover the Celderma Daily PDRN Radiance Cream Wrapping Mask, designed to give your skin a radiant and glowing appearance. This convenient single-use sheet mask helps lock in moisture for a dewy look",
+          "description": "Discover the Celderma Daily PDRN Radiance Cream Wrapping Mask, designed to give your skin a radiant and glowing appearance. This single-use sheet mask helps lock in moisture for a dewy, smooth look. S",
           "cta": "Shop now"
         },
         "variant_b": {
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Cream Mask Pdrn — Daiso Find — Affordable hydrating pick",
           "headline": "Cream Mask Pdrn — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: REJURAN Turnover Ampoule 1.01 fl. oz.(30.",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: Torriden Dive-in Low Molecule Hyaluronic.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -770,14 +770,14 @@
           "label": "A · 성분/커뮤니티 후킹",
           "primary_text": "VT Super Hyalon Sleeping Mask 4ml 6ea — ask · K-beauty",
           "headline": "VT Super Hyalon Sleeping Mask 4ml 6ea",
-          "description": "Discover the VT Super Hyalon Sleeping Mask, designed to deliver deep moisture and hydration to your skin overnight. This convenient set includes six 4ml pouches for easy, on-the-go skincare that leave",
+          "description": "Discover the VT Super Hyalon Sleeping Mask, designed to deliver deep hydration to your skin while you sleep. Each pack contains six convenient 4ml individual portions for easy daily use. Apply this no",
           "cta": "Shop now"
         },
         "variant_b": {
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Mask — Daiso Find — Affordable hydrating pick",
           "headline": "Mask — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: REJURAN Turnover Ampoule 1.01 fl. oz.(30.",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: Torriden Dive-in Low Molecule Hyaluronic.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -898,7 +898,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Toner Pdrn — Daiso Find — Affordable hydrating pick",
           "headline": "Toner Pdrn — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: REJURAN Turnover Ampoule 1.01 fl. oz.(30.",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: Torriden Dive-in Low Molecule Hyaluronic.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -1004,7 +1004,7 @@
           "label": "A · 성분/커뮤니티 후킹",
           "primary_text": "Celderma Daily Transforming Firming Collagen Mask 28g — ask · sheet mask",
           "headline": "Celderma Daily Transforming Firming Coll",
-          "description": "Discover the Celderma Daily Transforming Firming Collagen Mask, formulated to help support a firmer-looking complexion. Each 28g sheet mask delivers convenient skincare for your daily routine. Apply t",
+          "description": "Discover the Celderma Daily Transforming Firming Collagen Mask, a 28g sheet mask designed for your daily skincare routine. Infused with collagen, this mask helps hydrate and smooth the look of fine li",
           "cta": "Shop now"
         },
         "variant_b": {
@@ -1118,9 +1118,9 @@
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Celderma Daily Collagen Essence Gel Mask 29 g — ask · sheet mask",
+          "primary_text": "Celderma Daily Collagen Essence Gel Mask 29g — ask · sheet mask",
           "headline": "Celderma Daily Collagen Essence Gel Mask",
-          "description": "Discover the Celderma Daily Collagen Essence Gel Mask, a refreshing 29 g sheet mask designed to deliver essential moisture to your skin. Formulated with collagen, this essence gel mask helps support a",
+          "description": "Experience a refreshing skincare routine with the Celderma Daily Collagen Essence Gel Mask. Designed to fit comfortably on the face, this 29g hydrogel sheet mask helps deliver moisture for a glowing a",
           "cta": "Shop now"
         },
         "variant_b": {
