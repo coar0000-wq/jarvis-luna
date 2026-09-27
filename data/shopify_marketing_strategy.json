@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-27T23:08:49.923463+09:00",
+  "generated_at": "2026-09-27T23:11:14.005053+09:00",
   "generator": "scripts/build_shopify_marketing_strategy.py",
   "status": "evidence_ready",
   "scope": "US K-Beauty Shopify launch marketing",
@@ -11,28 +11,28 @@
   },
   "source_coverage": {
     "method": "YouTube 검색 후 자막을 직접 검토하고 타임스탬프 근거가 있는 실행 항목만 채택",
-    "videos": 6,
-    "insights": 20,
+    "videos": 12,
+    "insights": 29,
     "pillars": {
-      "acquisition": 1,
-      "aov": 5,
-      "creative": 2,
-      "cro": 3,
+      "acquisition": 2,
+      "aov": 7,
+      "creative": 3,
+      "cro": 4,
       "measurement": 1,
       "positioning": 1,
-      "retention": 4,
-      "seo_geo": 2,
+      "retention": 6,
+      "seo_geo": 4,
       "social_proof": 1
     },
-    "oldest_video_date": "2026-04-30",
-    "newest_video_date": "2026-09-14",
+    "oldest_video_date": "2025-09-03",
+    "newest_video_date": "2026-09-22",
     "source_file": "data/manual/shopify_youtube_insights.json"
   },
   "quality_gate": {
     "passed": true,
-    "video_count": 6,
-    "insight_count": 20,
-    "timestamped_evidence_count": 20,
+    "video_count": 12,
+    "insight_count": 29,
+    "timestamped_evidence_count": 29,
     "uncited_video_count": 0,
     "required_pillars_present": [
       "acquisition",
@@ -91,6 +91,54 @@
       "published_at": "2026-09-13",
       "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
       "role": "포지셔닝·AI 크리에이티브 테스트"
+    },
+    {
+      "video_id": "UcG2v8i6Y2E",
+      "title": "Discounts are Your Biggest Ad Spend | Talking Shopify September 2026",
+      "channel": "ethercycle",
+      "published_at": "2026-09-22",
+      "url": "https://www.youtube.com/watch?v=UcG2v8i6Y2E",
+      "role": "할인·무료배송 기여이익 통제"
+    },
+    {
+      "video_id": "jUxSAGCaJIU",
+      "title": "Shopify Just Changed How You Sell (Spring 2026 Editions Explained)",
+      "channel": "Learn With Shopify",
+      "published_at": "2026-07-06",
+      "url": "https://www.youtube.com/watch?v=jUxSAGCaJIU",
+      "role": "공식 Shopify AI 카탈로그·캠페인 승인 가드레일"
+    },
+    {
+      "video_id": "kFWPkoOx_ao",
+      "title": "How to Optimize Your Shopify Store for Higher Conversions",
+      "channel": "Learn With Shopify",
+      "published_at": "2025-11-10",
+      "url": "https://www.youtube.com/watch?v=kFWPkoOx_ao",
+      "role": "공식 Shopify 모바일 체크아웃 CRO"
+    },
+    {
+      "video_id": "Knjixb392Is",
+      "title": "How to Optimise Your Shopify Pages for SEO & AEO (AI Search Ready)",
+      "channel": "Shopify Experts - On The Road Agency",
+      "published_at": "2026-01-28",
+      "url": "https://www.youtube.com/watch?v=Knjixb392Is",
+      "role": "Shopify 제품·컬렉션·FAQ 구조화 데이터"
+    },
+    {
+      "video_id": "v7DT2yhi9Ac",
+      "title": "Boost Retention & Loyalty with Smart Automations",
+      "channel": "Klaviyo",
+      "published_at": "2025-09-03",
+      "url": "https://www.youtube.com/watch?v=v7DT2yhi9Ac",
+      "role": "공식 Klaviyo 운영 이벤트·선셋 자동화"
+    },
+    {
+      "video_id": "_pKECd9m25U",
+      "title": "How to Make Viral UGC Ads for Shopify (2026)",
+      "channel": "Judge.me",
+      "published_at": "2026-03-05",
+      "url": "https://www.youtube.com/watch?v=_pKECd9m25U",
+      "role": "UGC 스크립트·샷리스트 제작 절차"
     }
   ],
   "evidence_insights": [
@@ -668,6 +716,267 @@
       ],
       "applicability": "유료 광고 승인 이후 실행, 현재는 유기 콘텐츠로 사전 검증",
       "confidence": "high"
+    },
+    {
+      "id": "MKT-021",
+      "pillar": "aov",
+      "tactic": "할인 중첩·누수 정기 감사",
+      "action": "활성 할인마다 중첩 허용, 사용기한, 사용횟수, 유입 파트너, 주문 기여이익을 기록하고 적자 조합과 방치 코드를 비활성화한다.",
+      "evidence": {
+        "video_id": "UcG2v8i6Y2E",
+        "timestamp": "04:18-11:00",
+        "summary": "할인 중첩 설정과 만료 없는 코드가 마진 누수로 이어지므로 할인도 광고비처럼 비용 항목으로 감사"
+      },
+      "prerequisites": [
+        "할인 코드 목록",
+        "주문별 할인액",
+        "원가·배송비",
+        "파트너 코드 소유자"
+      ],
+      "kpis": [
+        "discount_cost_rate",
+        "stacked_discount_orders",
+        "negative_margin_order_rate"
+      ],
+      "teams": [
+        "pricing",
+        "market"
+      ],
+      "applicability": "웰컴·인플루언서·시즌 할인 운영 전후",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-022",
+      "pillar": "aov",
+      "tactic": "기여이익 기반 무료배송 대 할인 비교",
+      "action": "상품군별 배송원가와 장바구니 금액을 넣어 무료배송, 정액 할인, 퍼센트 할인 시나리오의 주문 기여이익을 비교한 뒤 손실이 가장 낮은 오퍼만 테스트한다.",
+      "evidence": {
+        "video_id": "UcG2v8i6Y2E",
+        "timestamp": "13:22-16:34",
+        "summary": "무료배송과 퍼센트 할인 중 무엇이 유리한지는 주문별 배송비·할인액·기여이익 계산으로 결정"
+      },
+      "prerequisites": [
+        "상품 원가",
+        "실배송비",
+        "결제 수수료",
+        "현재 AOV"
+      ],
+      "kpis": [
+        "contribution_margin_per_order",
+        "shipping_incentive_cost",
+        "offer_take_rate"
+      ],
+      "teams": [
+        "pricing",
+        "market",
+        "sourcing"
+      ],
+      "applicability": "무료배송 임계값과 프로모션 설계",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-023",
+      "pillar": "seo_geo",
+      "tactic": "Shopify AI 카탈로그 자격·질의 QA",
+      "action": "제품 가격·재고·정책이 Shopify 카탈로그와 동기화되는지 확인하고 대표 구매 질문을 테스트해 누락된 정책, 메타데이터, 상품 정보를 수정한다.",
+      "evidence": {
+        "video_id": "jUxSAGCaJIU",
+        "timestamp": "00:16-01:45",
+        "summary": "Shopify 카탈로그가 AI 채널에 구조화된 가격·재고를 제공하며 동기화·정책 준수와 테스트 질의를 확인할 수 있음"
+      },
+      "prerequisites": [
+        "미국 판매 자격 확인",
+        "정확한 가격·재고",
+        "배송·반품 정책",
+        "로그인 없는 체크아웃"
+      ],
+      "kpis": [
+        "catalog_eligible_sku_rate",
+        "ai_query_product_coverage",
+        "policy_sync_errors"
+      ],
+      "teams": [
+        "market",
+        "listing",
+        "legal"
+      ],
+      "applicability": "공개 준비가 끝난 Shopify 상품",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-024",
+      "pillar": "creative",
+      "tactic": "AI 캠페인 제안 승인 큐와 비용 가드레일",
+      "action": "AI가 제안한 이메일·광고 캠페인은 대상, 예산, 일정, 클레임을 사람이 검토하고 유료 집행은 명시적 사용자 승인 전까지 보류한다.",
+      "evidence": {
+        "video_id": "jUxSAGCaJIU",
+        "timestamp": "03:13-04:43",
+        "summary": "Campaign Autopilot은 전술을 제안하지만 승인 전에는 게시되지 않으며 예산·규칙·권한 가드레일을 설정"
+      },
+      "prerequisites": [
+        "제품 사실표",
+        "법률 승인 카피",
+        "예산 상한",
+        "승인 로그"
+      ],
+      "kpis": [
+        "campaign_approval_rate",
+        "claims_rejection_rate",
+        "unapproved_spend"
+      ],
+      "teams": [
+        "market",
+        "design",
+        "listing",
+        "legal"
+      ],
+      "applicability": "이메일은 기존 스택에서 초안 검토, 유료 광고는 승인 전 차단",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-025",
+      "pillar": "cro",
+      "tactic": "모바일 게스트 체크아웃 마찰 제거",
+      "action": "게스트 체크아웃, 주소 자동완성, 진행 단계, 모바일 지갑 노출을 실제 휴대폰 테스트 주문으로 점검하고 막히는 단계를 기록한다.",
+      "evidence": {
+        "video_id": "kFWPkoOx_ao",
+        "timestamp": "07:57-08:39",
+        "summary": "계정 생성을 강제하지 않고 빠른 결제수단과 모바일 최적화로 체크아웃 단계를 단순화"
+      },
+      "prerequisites": [
+        "Shopify 테스트 스토어",
+        "테스트 주문 절차",
+        "모바일 기기",
+        "환불 가능한 테스트 결제 또는 Shopify 테스트 모드"
+      ],
+      "kpis": [
+        "checkout_completion_rate",
+        "checkout_step_dropoff",
+        "wallet_share"
+      ],
+      "teams": [
+        "listing",
+        "market",
+        "legal"
+      ],
+      "applicability": "스토어 공개 전 체크아웃 QA",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-026",
+      "pillar": "seo_geo",
+      "tactic": "제품·변형·컬렉션·FAQ 스키마 검증",
+      "action": "제품과 변형의 가격·통화·재고·배송·반품, 컬렉션 ItemList, 실제 FAQ를 구조화 데이터로 출력하고 Search Console 오류를 수정한다.",
+      "evidence": {
+        "video_id": "Knjixb392Is",
+        "timestamp": "05:29-09:45",
+        "summary": "제품 변형·배송·반품, 컬렉션 목록, FAQ 스키마를 schema.org 기준과 Search Console 피드백으로 검증"
+      },
+      "prerequisites": [
+        "정확한 상품 데이터",
+        "배송·반품 정책",
+        "실제 FAQ",
+        "테마 코드 검토"
+      ],
+      "kpis": [
+        "structured_data_valid_rate",
+        "merchant_listing_errors",
+        "faq_schema_errors"
+      ],
+      "teams": [
+        "listing",
+        "market",
+        "legal"
+      ],
+      "applicability": "상위 S상품과 핵심 컬렉션부터 적용",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-027",
+      "pillar": "acquisition",
+      "tactic": "UGC 훅-발견-혜택-소프트 CTA 샷리스트",
+      "action": "실제 제품 사실과 고객 맥락으로 훅, 발견, 혜택, 소프트 CTA를 작성하고 각 문장을 증명하는 세로형 B-roll 샷을 연결해 유기 숏폼으로 먼저 검증한다.",
+      "evidence": {
+        "video_id": "_pKECd9m25U",
+        "timestamp": "01:30-04:38",
+        "summary": "UGC 스크립트를 훅-발견-혜택-소프트 CTA로 구성하고 문장별 제품 사용 B-roll을 사전 지정"
+      },
+      "prerequisites": [
+        "승인된 제품 사실",
+        "출연·사용 권한",
+        "세로 영상 원본",
+        "자막 사실 검수"
+      ],
+      "kpis": [
+        "organic_video_completion_rate",
+        "shortform_link_ctr",
+        "concept_save_rate"
+      ],
+      "teams": [
+        "market",
+        "design",
+        "listing",
+        "legal"
+      ],
+      "applicability": "유료 광고비 없이 유기 콘텐츠로 사전 검증",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-028",
+      "pillar": "retention",
+      "tactic": "실제 배송 지연 트리거 안내",
+      "action": "주문이 약속한 처리기간을 넘을 때만 현재 상태, 다음 업데이트 시점, 문의 경로를 브랜드 톤으로 자동 안내한다.",
+      "evidence": {
+        "video_id": "v7DT2yhi9Ac",
+        "timestamp": "00:57-01:20",
+        "summary": "주문량 증가로 출고가 늦어진 주문에 지연 상태를 먼저 알리는 운영 이벤트 기반 이메일"
+      },
+      "prerequisites": [
+        "주문·출고 이벤트",
+        "공개된 처리기간",
+        "고객지원 경로",
+        "브랜드 톤"
+      ],
+      "kpis": [
+        "where_is_my_order_rate",
+        "delay_email_open_rate",
+        "pre_fulfillment_cancel_rate"
+      ],
+      "teams": [
+        "market",
+        "listing",
+        "legal"
+      ],
+      "applicability": "성수기 또는 실제 출고 지연 시에만 발송",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-029",
+      "pillar": "retention",
+      "tactic": "저참여 선셋 플로우와 목록 정리",
+      "action": "최근 열람·클릭·구매가 없는 구독자에게 누락 콘텐츠와 선호 재설정 기회를 제공하고 반응이 없으면 마케팅 발송 대상에서 제외한다.",
+      "evidence": {
+        "video_id": "v7DT2yhi9Ac",
+        "timestamp": "01:51-02:20",
+        "summary": "저참여 고객에게 재참여 메시지를 보낸 뒤 반응이 없으면 목록에서 제거해 발송 대상을 정리"
+      },
+      "prerequisites": [
+        "마케팅 수신 동의",
+        "참여 이벤트",
+        "제외 규칙",
+        "재구독 경로"
+      ],
+      "kpis": [
+        "reactivation_rate",
+        "unengaged_profile_rate",
+        "deliverability_rate"
+      ],
+      "teams": [
+        "market",
+        "legal"
+      ],
+      "applicability": "충분한 이메일 이력과 참여 데이터가 쌓인 뒤",
+      "confidence": "high"
     }
   ],
   "execution_experiments": [
@@ -680,16 +989,18 @@
         "MKT-002",
         "MKT-003",
         "MKT-004",
-        "MKT-016"
+        "MKT-016",
+        "MKT-026"
       ],
       "owner_teams": [
         "listing",
         "design",
         "legal"
       ],
-      "action": "상위 S상품부터 FAQ, 제형, 사용 순서, 고시 근거를 한 PDP 패키지로 만든다.",
+      "action": "상위 S상품부터 FAQ, 제형, 사용 순서, 고시 근거와 유효한 구조화 데이터를 한 PDP 패키지로 만든다.",
       "kpis": [
         "pdp_completion_rate",
+        "structured_data_valid_rate",
         "claims_rejection_rate"
       ],
       "cost_mode": "free_local",
@@ -723,22 +1034,25 @@
       "id": "EXP-003",
       "phase": "prelaunch",
       "priority": 3,
-      "name": "번들·무료배송 손익표",
+      "name": "번들·할인·무료배송 손익표",
       "insight_ids": [
         "MKT-008",
         "MKT-013",
         "MKT-014",
-        "MKT-015"
+        "MKT-015",
+        "MKT-021",
+        "MKT-022"
       ],
       "owner_teams": [
         "pricing",
         "sourcing",
         "market"
       ],
-      "action": "낱개·스타터·루틴 세트별 기여이익과 무료배송 기준을 계산해 적자 오퍼를 제거한다.",
+      "action": "낱개·스타터·루틴 세트와 할인 중첩·무료배송 시나리오별 기여이익을 계산해 적자 오퍼를 제거한다.",
       "kpis": [
         "contribution_margin_per_order",
-        "bundle_margin"
+        "bundle_margin",
+        "discount_cost_rate"
       ],
       "cost_mode": "free_local",
       "status": "ready_for_modeling"
@@ -750,14 +1064,15 @@
       "name": "검색형 숏폼 유기 테스트",
       "insight_ids": [
         "MKT-005",
-        "MKT-020"
+        "MKT-020",
+        "MKT-027"
       ],
       "owner_teams": [
         "market",
         "design",
         "listing"
       ],
-      "action": "광고비 없이 사용 장면·제형·루틴 순서 세 형식으로 게시해 클릭과 상품 페이지 유입을 비교한다.",
+      "action": "광고비 없이 훅-발견-혜택-소프트 CTA와 문장별 B-roll을 사용 장면·제형·루틴 순서 형식으로 게시해 반응을 비교한다.",
       "kpis": [
         "organic_video_sessions",
         "shortform_link_ctr",
@@ -874,7 +1189,76 @@
         "concept_win_rate"
       ],
       "cost_mode": "paid_requires_explicit_approval",
-      "status": "blocked_by_cost_policy"
+      "status": "blocked_until_explicit_user_approval"
+    },
+    {
+      "id": "EXP-010",
+      "phase": "prelaunch",
+      "priority": 10,
+      "name": "AI 카탈로그·구조화 데이터 QA",
+      "insight_ids": [
+        "MKT-023",
+        "MKT-026"
+      ],
+      "owner_teams": [
+        "market",
+        "listing",
+        "legal"
+      ],
+      "action": "공개 준비 상품의 가격·재고·정책·스키마를 검증하고 대표 구매 질문에서 상품 노출 누락을 기록한다.",
+      "kpis": [
+        "catalog_eligible_sku_rate",
+        "structured_data_valid_rate",
+        "ai_query_product_coverage"
+      ],
+      "cost_mode": "free_local",
+      "status": "ready_after_store"
+    },
+    {
+      "id": "EXP-011",
+      "phase": "postpurchase",
+      "priority": 11,
+      "name": "운영 이벤트 기반 리텐션",
+      "insight_ids": [
+        "MKT-028",
+        "MKT-029"
+      ],
+      "owner_teams": [
+        "market",
+        "legal"
+      ],
+      "action": "실제 배송 지연에는 선제 안내를 보내고 저참여 구독자는 재참여 후 선셋 처리해 고객 경험과 목록 품질을 함께 관리한다.",
+      "kpis": [
+        "where_is_my_order_rate",
+        "pre_fulfillment_cancel_rate",
+        "reactivation_rate",
+        "deliverability_rate"
+      ],
+      "cost_mode": "existing_stack_only",
+      "status": "ready_after_store"
+    },
+    {
+      "id": "EXP-012",
+      "phase": "paid_scale",
+      "priority": 12,
+      "name": "AI 캠페인 승인 큐",
+      "insight_ids": [
+        "MKT-024"
+      ],
+      "owner_teams": [
+        "market",
+        "design",
+        "listing",
+        "legal"
+      ],
+      "action": "AI 캠페인 제안의 대상·클레임·예산·일정을 승인 큐에서 검토하며 유료 집행은 명시적 사용자 승인 전까지 차단한다.",
+      "kpis": [
+        "campaign_approval_rate",
+        "claims_rejection_rate",
+        "unapproved_spend"
+      ],
+      "cost_mode": "paid_requires_explicit_approval",
+      "status": "blocked_until_explicit_user_approval"
     }
   ],
   "product_playbooks": [
@@ -892,6 +1276,9 @@
         "MKT-003",
         "MKT-004",
         "MKT-016",
+        "MKT-023",
+        "MKT-025",
+        "MKT-026",
         "MKT-013",
         "MKT-014",
         "MKT-015"
@@ -901,7 +1288,7 @@
         "제품 제형·사용 순서 숏폼 콘티",
         "무료배송 임계값을 고려한 루틴 또는 수량 세트 손익 계산"
       ],
-      "paid_action_status": "blocked_until_explicit_cost_approval",
+      "paid_action_status": "blocked_until_explicit_user_approval",
       "claim_guardrail": "사용 주의·제품 사실을 먼저 제시하고 자극·치료 효능을 단정하지 않음"
     },
     {
@@ -918,6 +1305,9 @@
         "MKT-003",
         "MKT-004",
         "MKT-016",
+        "MKT-023",
+        "MKT-025",
+        "MKT-026",
         "MKT-013",
         "MKT-014",
         "MKT-015"
@@ -927,7 +1317,7 @@
         "제품 제형·사용 순서 숏폼 콘티",
         "무료배송 임계값을 고려한 루틴 또는 수량 세트 손익 계산"
       ],
-      "paid_action_status": "blocked_until_explicit_cost_approval",
+      "paid_action_status": "blocked_until_explicit_user_approval",
       "claim_guardrail": "사용 주의·제품 사실을 먼저 제시하고 자극·치료 효능을 단정하지 않음"
     },
     {
@@ -944,6 +1334,9 @@
         "MKT-003",
         "MKT-004",
         "MKT-016",
+        "MKT-023",
+        "MKT-025",
+        "MKT-026",
         "MKT-013",
         "MKT-014",
         "MKT-015"
@@ -953,7 +1346,7 @@
         "제품 제형·사용 순서 숏폼 콘티",
         "무료배송 임계값을 고려한 루틴 또는 수량 세트 손익 계산"
       ],
-      "paid_action_status": "blocked_until_explicit_cost_approval",
+      "paid_action_status": "blocked_until_explicit_user_approval",
       "claim_guardrail": "사용 주의·제품 사실을 먼저 제시하고 자극·치료 효능을 단정하지 않음"
     },
     {
@@ -970,6 +1363,9 @@
         "MKT-003",
         "MKT-004",
         "MKT-016",
+        "MKT-023",
+        "MKT-025",
+        "MKT-026",
         "MKT-013",
         "MKT-014",
         "MKT-015"
@@ -979,7 +1375,7 @@
         "제품 제형·사용 순서 숏폼 콘티",
         "무료배송 임계값을 고려한 루틴 또는 수량 세트 손익 계산"
       ],
-      "paid_action_status": "blocked_until_explicit_cost_approval",
+      "paid_action_status": "blocked_until_explicit_user_approval",
       "claim_guardrail": "사용 주의·제품 사실을 먼저 제시하고 자극·치료 효능을 단정하지 않음"
     },
     {
@@ -996,6 +1392,9 @@
         "MKT-003",
         "MKT-004",
         "MKT-016",
+        "MKT-023",
+        "MKT-025",
+        "MKT-026",
         "MKT-013",
         "MKT-014",
         "MKT-015"
@@ -1005,7 +1404,7 @@
         "제품 제형·사용 순서 숏폼 콘티",
         "무료배송 임계값을 고려한 루틴 또는 수량 세트 손익 계산"
       ],
-      "paid_action_status": "blocked_until_explicit_cost_approval",
+      "paid_action_status": "blocked_until_explicit_user_approval",
       "claim_guardrail": "사용 주의·제품 사실을 먼저 제시하고 자극·치료 효능을 단정하지 않음"
     },
     {
@@ -1022,6 +1421,9 @@
         "MKT-003",
         "MKT-004",
         "MKT-016",
+        "MKT-023",
+        "MKT-025",
+        "MKT-026",
         "MKT-012",
         "MKT-014",
         "MKT-015"
@@ -1031,7 +1433,7 @@
         "제품 제형·사용 순서 숏폼 콘티",
         "무료배송 임계값을 고려한 루틴 또는 수량 세트 손익 계산"
       ],
-      "paid_action_status": "blocked_until_explicit_cost_approval",
+      "paid_action_status": "blocked_until_explicit_user_approval",
       "claim_guardrail": "사용 주의·제품 사실을 먼저 제시하고 자극·치료 효능을 단정하지 않음"
     },
     {
@@ -1048,6 +1450,9 @@
         "MKT-003",
         "MKT-004",
         "MKT-016",
+        "MKT-023",
+        "MKT-025",
+        "MKT-026",
         "MKT-012",
         "MKT-014",
         "MKT-015"
@@ -1057,7 +1462,7 @@
         "제품 제형·사용 순서 숏폼 콘티",
         "무료배송 임계값을 고려한 루틴 또는 수량 세트 손익 계산"
       ],
-      "paid_action_status": "blocked_until_explicit_cost_approval",
+      "paid_action_status": "blocked_until_explicit_user_approval",
       "claim_guardrail": "고시·영문 라벨·법률 게이트가 확인한 사실만 사용"
     },
     {
@@ -1074,6 +1479,9 @@
         "MKT-003",
         "MKT-004",
         "MKT-016",
+        "MKT-023",
+        "MKT-025",
+        "MKT-026",
         "MKT-013",
         "MKT-014",
         "MKT-015"
@@ -1083,7 +1491,7 @@
         "제품 제형·사용 순서 숏폼 콘티",
         "무료배송 임계값을 고려한 루틴 또는 수량 세트 손익 계산"
       ],
-      "paid_action_status": "blocked_until_explicit_cost_approval",
+      "paid_action_status": "blocked_until_explicit_user_approval",
       "claim_guardrail": "사용 주의·제품 사실을 먼저 제시하고 자극·치료 효능을 단정하지 않음"
     },
     {
@@ -1100,6 +1508,9 @@
         "MKT-003",
         "MKT-004",
         "MKT-016",
+        "MKT-023",
+        "MKT-025",
+        "MKT-026",
         "MKT-012",
         "MKT-014",
         "MKT-015"
@@ -1109,7 +1520,7 @@
         "제품 제형·사용 순서 숏폼 콘티",
         "무료배송 임계값을 고려한 루틴 또는 수량 세트 손익 계산"
       ],
-      "paid_action_status": "blocked_until_explicit_cost_approval",
+      "paid_action_status": "blocked_until_explicit_user_approval",
       "claim_guardrail": "고시·영문 라벨·법률 게이트가 확인한 사실만 사용"
     },
     {
@@ -1126,6 +1537,9 @@
         "MKT-003",
         "MKT-004",
         "MKT-016",
+        "MKT-023",
+        "MKT-025",
+        "MKT-026",
         "MKT-012",
         "MKT-014",
         "MKT-015"
@@ -1135,7 +1549,7 @@
         "제품 제형·사용 순서 숏폼 콘티",
         "무료배송 임계값을 고려한 루틴 또는 수량 세트 손익 계산"
       ],
-      "paid_action_status": "blocked_until_explicit_cost_approval",
+      "paid_action_status": "blocked_until_explicit_user_approval",
       "claim_guardrail": "고시·영문 라벨·법률 게이트가 확인한 사실만 사용"
     }
   ],
@@ -1143,30 +1557,39 @@
     "discover": [
       "MKT-005",
       "MKT-016",
-      "MKT-020"
+      "MKT-020",
+      "MKT-023",
+      "MKT-027"
     ],
     "consider": [
       "MKT-001",
       "MKT-002",
       "MKT-003",
       "MKT-004",
-      "MKT-017"
+      "MKT-017",
+      "MKT-025",
+      "MKT-026"
     ],
     "convert": [
       "MKT-008",
       "MKT-012",
       "MKT-013",
       "MKT-014",
-      "MKT-015"
+      "MKT-015",
+      "MKT-021",
+      "MKT-022"
     ],
     "retain": [
       "MKT-006",
       "MKT-009",
       "MKT-010",
-      "MKT-011"
+      "MKT-011",
+      "MKT-028",
+      "MKT-029"
     ],
     "measure": [
-      "MKT-007"
+      "MKT-007",
+      "MKT-024"
     ]
   },
   "launch_order": [
@@ -1178,7 +1601,10 @@
     "EXP-006",
     "EXP-007",
     "EXP-008",
-    "EXP-009"
+    "EXP-009",
+    "EXP-010",
+    "EXP-011",
+    "EXP-012"
   ],
   "guardrails": [
     "listing_gate와 legal_full을 통과하지 않은 효능·성분 문구는 게시하지 않는다.",
@@ -1191,7 +1617,11 @@
     "영상 제작자의 매출 또는 전환 배수는 인과 근거로 사용하지 않음",
     "llms.txt가 검색 순위를 올린다는 주장은 검증 부족으로 제외",
     "AI 카피가 사람보다 우수하다는 일반화는 제외",
-    "경쟁 스토어 문구와 디자인 복제는 저작권·상표 위험으로 금지"
+    "경쟁 스토어 문구와 디자인 복제는 저작권·상표 위험으로 금지",
+    "Shopify가 인용한 AI 검색 전환 배수는 독립 검증이 없어 제외",
+    "일반 CRO 평균·페이지 지연 전환 손실 수치는 자사 목표 근거에서 제외",
+    "영상에 언급된 유료 앱·크리에이터 마켓·광고 집행 권유는 채택하지 않음",
+    "무료배송 코드가 일반 임계값보다 항상 우수하다는 일화는 보편 근거로 채택하지 않음"
   ],
   "integrity": {
     "listing_gate_generated_at": "2026-09-27T14:08:49.813131+00:00",

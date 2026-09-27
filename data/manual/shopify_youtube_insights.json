@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-20T08:45:00+09:00",
+  "updated_at": "2026-09-27T22:53:28+09:00",
   "method": "YouTube 검색 후 자막을 직접 검토하고 타임스탬프 근거가 있는 실행 항목만 채택",
   "policy": "영상의 매출·전환 과장 수치는 전략 근거로 사용하지 않는다. 실제 제품 사실, 법률 게이트, 자사 측정값을 우선한다.",
   "videos": [
@@ -51,6 +51,54 @@
       "published_at": "2026-09-13",
       "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
       "role": "포지셔닝·AI 크리에이티브 테스트"
+    },
+    {
+      "video_id": "UcG2v8i6Y2E",
+      "title": "Discounts are Your Biggest Ad Spend | Talking Shopify September 2026",
+      "channel": "ethercycle",
+      "published_at": "2026-09-22",
+      "url": "https://www.youtube.com/watch?v=UcG2v8i6Y2E",
+      "role": "할인·무료배송 기여이익 통제"
+    },
+    {
+      "video_id": "jUxSAGCaJIU",
+      "title": "Shopify Just Changed How You Sell (Spring 2026 Editions Explained)",
+      "channel": "Learn With Shopify",
+      "published_at": "2026-07-06",
+      "url": "https://www.youtube.com/watch?v=jUxSAGCaJIU",
+      "role": "공식 Shopify AI 카탈로그·캠페인 승인 가드레일"
+    },
+    {
+      "video_id": "kFWPkoOx_ao",
+      "title": "How to Optimize Your Shopify Store for Higher Conversions",
+      "channel": "Learn With Shopify",
+      "published_at": "2025-11-10",
+      "url": "https://www.youtube.com/watch?v=kFWPkoOx_ao",
+      "role": "공식 Shopify 모바일 체크아웃 CRO"
+    },
+    {
+      "video_id": "Knjixb392Is",
+      "title": "How to Optimise Your Shopify Pages for SEO & AEO (AI Search Ready)",
+      "channel": "Shopify Experts - On The Road Agency",
+      "published_at": "2026-01-28",
+      "url": "https://www.youtube.com/watch?v=Knjixb392Is",
+      "role": "Shopify 제품·컬렉션·FAQ 구조화 데이터"
+    },
+    {
+      "video_id": "v7DT2yhi9Ac",
+      "title": "Boost Retention & Loyalty with Smart Automations",
+      "channel": "Klaviyo",
+      "published_at": "2025-09-03",
+      "url": "https://www.youtube.com/watch?v=v7DT2yhi9Ac",
+      "role": "공식 Klaviyo 운영 이벤트·선셋 자동화"
+    },
+    {
+      "video_id": "_pKECd9m25U",
+      "title": "How to Make Viral UGC Ads for Shopify (2026)",
+      "channel": "Judge.me",
+      "published_at": "2026-03-05",
+      "url": "https://www.youtube.com/watch?v=_pKECd9m25U",
+      "role": "UGC 스크립트·샷리스트 제작 절차"
     }
   ],
   "insights": [
@@ -59,10 +107,28 @@
       "pillar": "cro",
       "tactic": "광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
       "action": "광고 훅과 피부 고민마다 별도 랜딩페이지를 만들고 가치제안, 실제 리뷰, FAQ, 배송·반품 정보를 한 흐름에 배치한다.",
-      "evidence": {"video_id": "2Azr4Cihay4", "timestamp": "00:29-03:16", "summary": "일반 PDP 대신 광고와 메시지가 일치하는 전용 랜딩페이지를 판매원처럼 설계"},
-      "prerequisites": ["UTM 규칙", "실제 고객 후기", "배송·반품 정책", "법률 검토된 효능 문구"],
-      "kpis": ["landing_conversion_rate", "cost_per_acquisition", "bounce_rate"],
-      "teams": ["market", "listing", "design", "legal"],
+      "evidence": {
+        "video_id": "2Azr4Cihay4",
+        "timestamp": "00:29-03:16",
+        "summary": "일반 PDP 대신 광고와 메시지가 일치하는 전용 랜딩페이지를 판매원처럼 설계"
+      },
+      "prerequisites": [
+        "UTM 규칙",
+        "실제 고객 후기",
+        "배송·반품 정책",
+        "법률 검토된 효능 문구"
+      ],
+      "kpis": [
+        "landing_conversion_rate",
+        "cost_per_acquisition",
+        "bounce_rate"
+      ],
+      "teams": [
+        "market",
+        "listing",
+        "design",
+        "legal"
+      ],
       "applicability": "민감 피부, 모공, 탄력 등 고객 고민별 진입 경로",
       "confidence": "high"
     },
@@ -71,10 +137,26 @@
       "pillar": "cro",
       "tactic": "피부 고민·루틴 중심 탐색 구조",
       "action": "메뉴와 컬렉션을 제품명보다 피부 고민, 제형, 루틴 단계 중심으로 구성하고 검색창을 전면에 둔다.",
-      "evidence": {"video_id": "2Azr4Cihay4", "timestamp": "04:16-06:16", "summary": "상품 발견 경로를 단순화하고 검색과 컬렉션 카드를 강화"},
-      "prerequisites": ["피부 고민 태그", "제형·루틴 메타필드", "사이트 검색 추적"],
-      "kpis": ["product_view_rate", "site_search_usage", "search_to_purchase_rate"],
-      "teams": ["listing", "design", "market"],
+      "evidence": {
+        "video_id": "2Azr4Cihay4",
+        "timestamp": "04:16-06:16",
+        "summary": "상품 발견 경로를 단순화하고 검색과 컬렉션 카드를 강화"
+      },
+      "prerequisites": [
+        "피부 고민 태그",
+        "제형·루틴 메타필드",
+        "사이트 검색 추적"
+      ],
+      "kpis": [
+        "product_view_rate",
+        "site_search_usage",
+        "search_to_purchase_rate"
+      ],
+      "teams": [
+        "listing",
+        "design",
+        "market"
+      ],
       "applicability": "K-뷰티 초보 고객의 상품 선택 부담 감소",
       "confidence": "high"
     },
@@ -83,10 +165,26 @@
       "pillar": "cro",
       "tactic": "PDP 이미지 캐러셀을 판매 스토리로 구성",
       "action": "제품컷, 피부 고민 맥락, 제형·사용법, 성분 근거, 후기, 사용 장면, 배송·반품 순으로 이미지 세트를 만든다.",
-      "evidence": {"video_id": "2Azr4Cihay4", "timestamp": "12:46-14:25", "summary": "각도만 다른 이미지 대신 구매 질문에 순서대로 답하는 이미지 흐름"},
-      "prerequisites": ["고해상도 제품컷", "사용 허가된 UGC", "검증된 성분·사용법"],
-      "kpis": ["pdp_add_to_cart_rate", "image_interaction_rate", "pdp_exit_rate"],
-      "teams": ["design", "listing", "legal"],
+      "evidence": {
+        "video_id": "2Azr4Cihay4",
+        "timestamp": "12:46-14:25",
+        "summary": "각도만 다른 이미지 대신 구매 질문에 순서대로 답하는 이미지 흐름"
+      },
+      "prerequisites": [
+        "고해상도 제품컷",
+        "사용 허가된 UGC",
+        "검증된 성분·사용법"
+      ],
+      "kpis": [
+        "pdp_add_to_cart_rate",
+        "image_interaction_rate",
+        "pdp_exit_rate"
+      ],
+      "teams": [
+        "design",
+        "listing",
+        "legal"
+      ],
       "applicability": "텍스처와 사용 순서가 중요한 스킨케어 전 상품",
       "confidence": "high"
     },
@@ -95,10 +193,27 @@
       "pillar": "seo_geo",
       "tactic": "제품명·설명·FAQ를 구매 질문형 SEO로 작성",
       "action": "제품명에 검증된 성분·제형·사용 맥락을 넣고 중복 없는 설명과 FAQ로 실제 구매 질문에 답한다.",
-      "evidence": {"video_id": "yBAlSKfI9F8", "timestamp": "02:56-03:40", "summary": "구체적인 제품명과 고유 설명이 검색과 구매 이해를 돕는다"},
-      "prerequisites": ["고시·라벨 데이터", "사용법", "피부타입", "법률 승인 문구"],
-      "kpis": ["organic_pdp_sessions", "non_brand_impressions", "pdp_conversion_rate"],
-      "teams": ["listing", "market", "legal"],
+      "evidence": {
+        "video_id": "yBAlSKfI9F8",
+        "timestamp": "02:56-03:40",
+        "summary": "구체적인 제품명과 고유 설명이 검색과 구매 이해를 돕는다"
+      },
+      "prerequisites": [
+        "고시·라벨 데이터",
+        "사용법",
+        "피부타입",
+        "법률 승인 문구"
+      ],
+      "kpis": [
+        "organic_pdp_sessions",
+        "non_brand_impressions",
+        "pdp_conversion_rate"
+      ],
+      "teams": [
+        "listing",
+        "market",
+        "legal"
+      ],
       "applicability": "성분·제형 수요가 뚜렷한 S등급 상품",
       "confidence": "high"
     },
@@ -107,10 +222,27 @@
       "pillar": "acquisition",
       "tactic": "검색형 숏폼을 TikTok·Reels·Shorts에 교차 게시",
       "action": "사용 장면, 세 가지 사용법, 루틴 순서, 포장 비하인드 영상을 만들고 채널별 제목·자막을 현지화한다.",
-      "evidence": {"video_id": "yBAlSKfI9F8", "timestamp": "06:46-08:14", "summary": "검색되는 짧은 제품 콘텐츠를 여러 숏폼 채널에 재활용"},
-      "prerequisites": ["UGC 제작 권한", "영문 자막", "추적 링크", "콘텐츠 캘린더"],
-      "kpis": ["shortform_link_ctr", "organic_video_sessions", "assisted_orders"],
-      "teams": ["market", "design", "listing"],
+      "evidence": {
+        "video_id": "yBAlSKfI9F8",
+        "timestamp": "06:46-08:14",
+        "summary": "검색되는 짧은 제품 콘텐츠를 여러 숏폼 채널에 재활용"
+      },
+      "prerequisites": [
+        "UGC 제작 권한",
+        "영문 자막",
+        "추적 링크",
+        "콘텐츠 캘린더"
+      ],
+      "kpis": [
+        "shortform_link_ctr",
+        "organic_video_sessions",
+        "assisted_orders"
+      ],
+      "teams": [
+        "market",
+        "design",
+        "listing"
+      ],
       "applicability": "제형·사용법을 시각적으로 보여줄 수 있는 상품",
       "confidence": "high"
     },
@@ -119,10 +251,27 @@
       "pillar": "retention",
       "tactic": "14일 신규 구독자 웰컴 플로우",
       "action": "인센티브 또는 피부 퀴즈 결과, 브랜드 스토리, 검증 리뷰, 베스트셀러 이유, 정가 구매 제안을 다섯 통으로 구성한다.",
-      "evidence": {"video_id": "yBAlSKfI9F8", "timestamp": "08:16-09:33", "summary": "신규 구독자를 단계적으로 교육하고 첫 구매로 전환하는 이메일 순서"},
-      "prerequisites": ["수신 동의", "세분화 가능한 이메일 도구", "실제 리뷰", "피부 고민 태그"],
-      "kpis": ["welcome_flow_revenue", "first_purchase_rate", "unsubscribe_rate"],
-      "teams": ["market", "listing", "legal"],
+      "evidence": {
+        "video_id": "yBAlSKfI9F8",
+        "timestamp": "08:16-09:33",
+        "summary": "신규 구독자를 단계적으로 교육하고 첫 구매로 전환하는 이메일 순서"
+      },
+      "prerequisites": [
+        "수신 동의",
+        "세분화 가능한 이메일 도구",
+        "실제 리뷰",
+        "피부 고민 태그"
+      ],
+      "kpis": [
+        "welcome_flow_revenue",
+        "first_purchase_rate",
+        "unsubscribe_rate"
+      ],
+      "teams": [
+        "market",
+        "listing",
+        "legal"
+      ],
       "applicability": "스토어 개장 직후 첫 구매 확보",
       "confidence": "high"
     },
@@ -131,10 +280,27 @@
       "pillar": "measurement",
       "tactic": "Shopify와 Meta CAPI 전환 신호 검증",
       "action": "스토어 개설 후 테스트 주문으로 Pixel과 서버 이벤트의 중복·누락을 점검하고 Shopify 주문값과 비교한다.",
-      "evidence": {"video_id": "yBAlSKfI9F8", "timestamp": "14:27-15:46", "summary": "서버 측 전환 추적으로 광고 측정 손실을 줄이는 기본 연결"},
-      "prerequisites": ["Shopify 스토어", "Meta Business 계정", "쿠키·개인정보 동의", "테스트 주문"],
-      "kpis": ["event_match_quality", "purchase_event_gap", "attributed_revenue_gap"],
-      "teams": ["market", "listing", "legal"],
+      "evidence": {
+        "video_id": "yBAlSKfI9F8",
+        "timestamp": "14:27-15:46",
+        "summary": "서버 측 전환 추적으로 광고 측정 손실을 줄이는 기본 연결"
+      },
+      "prerequisites": [
+        "Shopify 스토어",
+        "Meta Business 계정",
+        "쿠키·개인정보 동의",
+        "테스트 주문"
+      ],
+      "kpis": [
+        "event_match_quality",
+        "purchase_event_gap",
+        "attributed_revenue_gap"
+      ],
+      "teams": [
+        "market",
+        "listing",
+        "legal"
+      ],
       "applicability": "유료 광고 집행 전 필수 측정 준비",
       "confidence": "high"
     },
@@ -143,10 +309,27 @@
       "pillar": "aov",
       "tactic": "번들·사은품 임계값 AOV 테스트",
       "action": "구성품 이미지와 실제 절감액을 보여주는 루틴 번들 및 사은품 해금 기준을 테스트한다.",
-      "evidence": {"video_id": "2Azr4Cihay4", "timestamp": "11:19-12:25", "summary": "명확한 번들 구성과 해금 기준으로 장바구니 금액을 높임"},
-      "prerequisites": ["마진 계산", "배송원가", "구성품 재고", "기간 비교 또는 A/B 설계"],
-      "kpis": ["average_order_value", "bundle_take_rate", "contribution_margin_per_order"],
-      "teams": ["pricing", "market", "listing"],
+      "evidence": {
+        "video_id": "2Azr4Cihay4",
+        "timestamp": "11:19-12:25",
+        "summary": "명확한 번들 구성과 해금 기준으로 장바구니 금액을 높임"
+      },
+      "prerequisites": [
+        "마진 계산",
+        "배송원가",
+        "구성품 재고",
+        "기간 비교 또는 A/B 설계"
+      ],
+      "kpis": [
+        "average_order_value",
+        "bundle_take_rate",
+        "contribution_margin_per_order"
+      ],
+      "teams": [
+        "pricing",
+        "market",
+        "listing"
+      ],
       "applicability": "낱개 배송이 적자인 현재 구조에 최우선",
       "confidence": "high"
     },
@@ -155,10 +338,26 @@
       "pillar": "retention",
       "tactic": "구매 후 적립 가치 이메일",
       "action": "구매 직후 추상 포인트 대신 원화 환산 가치, 현재 잔액, 다음 보상까지 남은 금액을 알린다.",
-      "evidence": {"video_id": "Dh5uNMvlSug", "timestamp": "00:41-04:52", "summary": "구매 후 보상 잔액과 다음 목표를 구체적으로 표시"},
-      "prerequisites": ["로열티 원장", "적립·사용 규칙", "트랜잭션 이메일"],
-      "kpis": ["reward_email_ctr", "reward_redemption_rate", "second_purchase_rate_90d"],
-      "teams": ["market", "listing", "pricing"],
+      "evidence": {
+        "video_id": "Dh5uNMvlSug",
+        "timestamp": "00:41-04:52",
+        "summary": "구매 후 보상 잔액과 다음 목표를 구체적으로 표시"
+      },
+      "prerequisites": [
+        "로열티 원장",
+        "적립·사용 규칙",
+        "트랜잭션 이메일"
+      ],
+      "kpis": [
+        "reward_email_ctr",
+        "reward_redemption_rate",
+        "second_purchase_rate_90d"
+      ],
+      "teams": [
+        "market",
+        "listing",
+        "pricing"
+      ],
       "applicability": "반복 구매형 스킨케어",
       "confidence": "medium"
     },
@@ -167,10 +366,26 @@
       "pillar": "retention",
       "tactic": "리워드 사용 직후 재구매 컬렉션 연결",
       "action": "보상 코드와 가치를 상단에 표시하고 해당 보상을 쓸 수 있는 루틴·재구매 컬렉션으로 바로 연결한다.",
-      "evidence": {"video_id": "Dh5uNMvlSug", "timestamp": "05:33-06:38", "summary": "보상을 받은 순간 사용 가능한 상품으로 이동시키는 전환 이메일"},
-      "prerequisites": ["고유 코드", "대상 상품 규칙", "모바일 이메일"],
-      "kpis": ["reward_code_use_rate", "revenue_per_redemption", "redemption_to_order_time"],
-      "teams": ["market", "listing", "pricing"],
+      "evidence": {
+        "video_id": "Dh5uNMvlSug",
+        "timestamp": "05:33-06:38",
+        "summary": "보상을 받은 순간 사용 가능한 상품으로 이동시키는 전환 이메일"
+      },
+      "prerequisites": [
+        "고유 코드",
+        "대상 상품 규칙",
+        "모바일 이메일"
+      ],
+      "kpis": [
+        "reward_code_use_rate",
+        "revenue_per_redemption",
+        "redemption_to_order_time"
+      ],
+      "teams": [
+        "market",
+        "listing",
+        "pricing"
+      ],
       "applicability": "재구매 주기가 확인된 뒤 적용",
       "confidence": "medium"
     },
@@ -179,10 +394,25 @@
       "pillar": "retention",
       "tactic": "실제 만료일 기반 윈백 이메일",
       "action": "공개된 포인트 만료 규칙이 있을 때만 잔액 가치와 사용처를 보여주는 만료 전 알림을 발송한다.",
-      "evidence": {"video_id": "Dh5uNMvlSug", "timestamp": "09:32-10:46", "summary": "가짜 긴급성이 아닌 실제 보상 만료를 재방문 계기로 사용"},
-      "prerequisites": ["고지된 만료 규칙", "정확한 잔액", "마케팅 수신 동의"],
-      "kpis": ["winback_redemption_rate", "reactivated_revenue", "incremental_repeat_rate"],
-      "teams": ["market", "legal"],
+      "evidence": {
+        "video_id": "Dh5uNMvlSug",
+        "timestamp": "09:32-10:46",
+        "summary": "가짜 긴급성이 아닌 실제 보상 만료를 재방문 계기로 사용"
+      },
+      "prerequisites": [
+        "고지된 만료 규칙",
+        "정확한 잔액",
+        "마케팅 수신 동의"
+      ],
+      "kpis": [
+        "winback_redemption_rate",
+        "reactivated_revenue",
+        "incremental_repeat_rate"
+      ],
+      "teams": [
+        "market",
+        "legal"
+      ],
       "applicability": "휴면 고객 데이터가 생긴 이후",
       "confidence": "medium"
     },
@@ -191,10 +421,27 @@
       "pillar": "aov",
       "tactic": "소모품 수량별 단계 할인",
       "action": "1개, 2개, 3개 옵션과 단위당 가격을 PDP에서 비교하되 할인 후 마진과 배송비를 통과한 상품에만 적용한다.",
-      "evidence": {"video_id": "6cVSU2C06Zw", "timestamp": "01:55-03:58", "summary": "소모품에 점진적 수량 할인으로 주문당 수량을 증가"},
-      "prerequisites": ["수량 수요", "유통기한", "재고", "할인 후 기여이익"],
-      "kpis": ["units_per_order", "quantity_tier_mix", "gross_margin_per_order"],
-      "teams": ["pricing", "listing", "market"],
+      "evidence": {
+        "video_id": "6cVSU2C06Zw",
+        "timestamp": "01:55-03:58",
+        "summary": "소모품에 점진적 수량 할인으로 주문당 수량을 증가"
+      },
+      "prerequisites": [
+        "수량 수요",
+        "유통기한",
+        "재고",
+        "할인 후 기여이익"
+      ],
+      "kpis": [
+        "units_per_order",
+        "quantity_tier_mix",
+        "gross_margin_per_order"
+      ],
+      "teams": [
+        "pricing",
+        "listing",
+        "market"
+      ],
       "applicability": "토너패드, 마스크, 립, 리필 등 반복 소모품",
       "confidence": "high"
     },
@@ -203,10 +450,30 @@
       "pillar": "aov",
       "tactic": "고객 결과 중심 루틴 번들",
       "action": "무작위 추가 상품이 아니라 클렌징-트리트먼트-보습처럼 한 루틴을 완성하는 구성으로 번들을 만든다.",
-      "evidence": {"video_id": "6cVSU2C06Zw", "timestamp": "04:40-07:33", "summary": "서로 보완하는 상품을 고객 목표 기준으로 묶음"},
-      "prerequisites": ["제형 호환성", "사용 순서", "번들 재고", "법률 검토"],
-      "kpis": ["bundle_attach_rate", "bundle_aov", "bundle_margin", "repeat_rate"],
-      "teams": ["sourcing", "pricing", "listing", "market", "legal"],
+      "evidence": {
+        "video_id": "6cVSU2C06Zw",
+        "timestamp": "04:40-07:33",
+        "summary": "서로 보완하는 상품을 고객 목표 기준으로 묶음"
+      },
+      "prerequisites": [
+        "제형 호환성",
+        "사용 순서",
+        "번들 재고",
+        "법률 검토"
+      ],
+      "kpis": [
+        "bundle_attach_rate",
+        "bundle_aov",
+        "bundle_margin",
+        "repeat_rate"
+      ],
+      "teams": [
+        "sourcing",
+        "pricing",
+        "listing",
+        "market",
+        "legal"
+      ],
       "applicability": "장벽 케어, 탄력, 모공 등 고민별 루틴",
       "confidence": "high"
     },
@@ -215,10 +482,26 @@
       "pillar": "aov",
       "tactic": "good-better-best 세트 구조",
       "action": "스타터, 2개월분, 전체 루틴 세트로 약정 수준을 나누고 상위 세트에는 실제 가치가 있는 샘플이나 도구만 추가한다.",
-      "evidence": {"video_id": "6cVSU2C06Zw", "timestamp": "07:42-09:02", "summary": "고객의 지출 의향에 맞춘 단계형 오퍼"},
-      "prerequisites": ["세트별 손익", "정확한 기준가격", "사은품 재고"],
-      "kpis": ["top_tier_selection_rate", "average_order_value", "refund_rate"],
-      "teams": ["pricing", "market", "listing"],
+      "evidence": {
+        "video_id": "6cVSU2C06Zw",
+        "timestamp": "07:42-09:02",
+        "summary": "고객의 지출 의향에 맞춘 단계형 오퍼"
+      },
+      "prerequisites": [
+        "세트별 손익",
+        "정확한 기준가격",
+        "사은품 재고"
+      ],
+      "kpis": [
+        "top_tier_selection_rate",
+        "average_order_value",
+        "refund_rate"
+      ],
+      "teams": [
+        "pricing",
+        "market",
+        "listing"
+      ],
       "applicability": "무료배송 임계값과 함께 설계",
       "confidence": "high"
     },
@@ -227,10 +510,26 @@
       "pillar": "aov",
       "tactic": "카트 드로어 보완 상품 업셀",
       "action": "장바구니에 담은 상품과 직접 호환되는 소수의 보완 상품만 추천하고 체크아웃을 방해하지 않게 한다.",
-      "evidence": {"video_id": "6cVSU2C06Zw", "timestamp": "09:02-11:15", "summary": "구매 직전 관련 상품을 제한적으로 제안"},
-      "prerequisites": ["상품 페어링 규칙", "재고 연동", "카트 UI"],
-      "kpis": ["upsell_attach_rate", "cart_aov", "checkout_conversion_rate"],
-      "teams": ["listing", "pricing", "market"],
+      "evidence": {
+        "video_id": "6cVSU2C06Zw",
+        "timestamp": "09:02-11:15",
+        "summary": "구매 직전 관련 상품을 제한적으로 제안"
+      },
+      "prerequisites": [
+        "상품 페어링 규칙",
+        "재고 연동",
+        "카트 UI"
+      ],
+      "kpis": [
+        "upsell_attach_rate",
+        "cart_aov",
+        "checkout_conversion_rate"
+      ],
+      "teams": [
+        "listing",
+        "pricing",
+        "market"
+      ],
       "applicability": "세럼-크림, 토너-화장솜 등 명확한 조합",
       "confidence": "high"
     },
@@ -239,10 +538,26 @@
       "pillar": "seo_geo",
       "tactic": "질문형 FAQ와 히어로 SKU 토픽 클러스터",
       "action": "피부타입, 제형, 향, 루틴 순서, 성분 질문은 PDP FAQ로 답하고 넓은 주제는 가이드와 컬렉션으로 연결한다.",
-      "evidence": {"video_id": "UBSveo_tao8", "timestamp": "05:53-13:24", "summary": "질문 FAQ와 성분·사용 사례·가이드의 내부 링크 구조로 주제 권위 형성"},
-      "prerequisites": ["고객 질문 기록", "검증된 제품 문서", "내부 링크 설계"],
-      "kpis": ["question_query_clicks", "cluster_to_pdp_ctr", "organic_assisted_revenue"],
-      "teams": ["market", "listing", "legal"],
+      "evidence": {
+        "video_id": "UBSveo_tao8",
+        "timestamp": "05:53-13:24",
+        "summary": "질문 FAQ와 성분·사용 사례·가이드의 내부 링크 구조로 주제 권위 형성"
+      },
+      "prerequisites": [
+        "고객 질문 기록",
+        "검증된 제품 문서",
+        "내부 링크 설계"
+      ],
+      "kpis": [
+        "question_query_clicks",
+        "cluster_to_pdp_ctr",
+        "organic_assisted_revenue"
+      ],
+      "teams": [
+        "market",
+        "listing",
+        "legal"
+      ],
       "applicability": "상위 S상품부터 콘텐츠 클러스터 구축",
       "confidence": "high"
     },
@@ -251,10 +566,26 @@
       "pillar": "social_proof",
       "tactic": "검증 구매 리뷰를 전환 자산으로 사용",
       "action": "구매 후 피부타입, 제형, 향, 사용 순서, 재구매 의향을 구조적으로 수집하고 PDP와 광고에 허가 범위 내 재사용한다.",
-      "evidence": {"video_id": "UBSveo_tao8", "timestamp": "13:34-15:03", "summary": "리뷰 수와 평점을 눈에 띄게 보여주고 실제 구매 증거를 콘텐츠에 활용"},
-      "prerequisites": ["구매자 리뷰 플로우", "검증 구매 표시", "UGC 재사용 동의"],
-      "kpis": ["review_capture_rate", "reviews_per_sku", "review_led_conversion_rate"],
-      "teams": ["market", "listing", "legal"],
+      "evidence": {
+        "video_id": "UBSveo_tao8",
+        "timestamp": "13:34-15:03",
+        "summary": "리뷰 수와 평점을 눈에 띄게 보여주고 실제 구매 증거를 콘텐츠에 활용"
+      },
+      "prerequisites": [
+        "구매자 리뷰 플로우",
+        "검증 구매 표시",
+        "UGC 재사용 동의"
+      ],
+      "kpis": [
+        "review_capture_rate",
+        "reviews_per_sku",
+        "review_led_conversion_rate"
+      ],
+      "teams": [
+        "market",
+        "listing",
+        "legal"
+      ],
       "applicability": "스토어 주문 발생 후 즉시 구축",
       "confidence": "high"
     },
@@ -263,10 +594,26 @@
       "pillar": "positioning",
       "tactic": "리뷰에서 좁은 미충족 고객군을 찾기",
       "action": "자사·경쟁 리뷰를 AI로 묶어 구매자, 가치, 불만을 찾고 작은 설문이나 인터뷰로 확인한 뒤 포지셔닝 가설로 사용한다.",
-      "evidence": {"video_id": "u36eK74YKv0", "timestamp": "07:53-09:30", "summary": "큰 시장 안에서 기존 상품이 만족시키지 못한 좁은 집단을 리뷰로 탐색"},
-      "prerequisites": ["합법적으로 수집한 리뷰", "사람의 테마 검토", "고객 검증"],
-      "kpis": ["validated_pain_point_share", "message_test_ctr", "segment_landing_cvr"],
-      "teams": ["market", "sourcing", "listing"],
+      "evidence": {
+        "video_id": "u36eK74YKv0",
+        "timestamp": "07:53-09:30",
+        "summary": "큰 시장 안에서 기존 상품이 만족시키지 못한 좁은 집단을 리뷰로 탐색"
+      },
+      "prerequisites": [
+        "합법적으로 수집한 리뷰",
+        "사람의 테마 검토",
+        "고객 검증"
+      ],
+      "kpis": [
+        "validated_pain_point_share",
+        "message_test_ctr",
+        "segment_landing_cvr"
+      ],
+      "teams": [
+        "market",
+        "sourcing",
+        "listing"
+      ],
       "applicability": "저가 경쟁 대신 고객 맥락으로 차별화",
       "confidence": "medium"
     },
@@ -275,10 +622,27 @@
       "pillar": "creative",
       "tactic": "제품 사실·고객 언어·구조 참고를 넣은 AI 카피",
       "action": "AI 카피에는 제품 사실표, 실제 리뷰 표현, 권리 침해 없는 랜딩 구조 참고를 입력하고 사람과 법률 검토 후 실험한다.",
-      "evidence": {"video_id": "u36eK74YKv0", "timestamp": "12:12-14:27", "summary": "일반 프롬프트가 아니라 세 가지 구체 입력으로 카피 초안을 생산"},
-      "prerequisites": ["승인된 제품 사실표", "고객 언어", "브랜드 보이스", "클레임 가드"],
-      "kpis": ["copy_test_conversion_rate", "add_to_cart_rate", "claims_rejection_rate"],
-      "teams": ["market", "listing", "legal"],
+      "evidence": {
+        "video_id": "u36eK74YKv0",
+        "timestamp": "12:12-14:27",
+        "summary": "일반 프롬프트가 아니라 세 가지 구체 입력으로 카피 초안을 생산"
+      },
+      "prerequisites": [
+        "승인된 제품 사실표",
+        "고객 언어",
+        "브랜드 보이스",
+        "클레임 가드"
+      ],
+      "kpis": [
+        "copy_test_conversion_rate",
+        "add_to_cart_rate",
+        "claims_rejection_rate"
+      ],
+      "teams": [
+        "market",
+        "listing",
+        "legal"
+      ],
       "applicability": "영문 PDP와 광고 변형 제작",
       "confidence": "high"
     },
@@ -287,11 +651,291 @@
       "pillar": "creative",
       "tactic": "훅·형식·증거별 크리에이티브 테스트 체계",
       "action": "UGC 데모, 텍스처, 루틴 교육, 리뷰, 성분 근거를 서로 다른 훅과 형식으로 제작하고 패자를 중단해 승자의 후속 버전을 만든다.",
-      "evidence": {"video_id": "u36eK74YKv0", "timestamp": "15:00-17:47", "summary": "규칙적인 변형 제작과 승자 확장 중심의 광고 크리에이티브 운영"},
-      "prerequisites": ["전환 추적", "테스트 예산 승인", "크리에이티브 분류표", "사람의 사실 검수"],
-      "kpis": ["creative_ctr", "cost_per_acquisition", "mer", "concept_win_rate"],
-      "teams": ["market", "design", "listing", "legal"],
+      "evidence": {
+        "video_id": "u36eK74YKv0",
+        "timestamp": "15:00-17:47",
+        "summary": "규칙적인 변형 제작과 승자 확장 중심의 광고 크리에이티브 운영"
+      },
+      "prerequisites": [
+        "전환 추적",
+        "테스트 예산 승인",
+        "크리에이티브 분류표",
+        "사람의 사실 검수"
+      ],
+      "kpis": [
+        "creative_ctr",
+        "cost_per_acquisition",
+        "mer",
+        "concept_win_rate"
+      ],
+      "teams": [
+        "market",
+        "design",
+        "listing",
+        "legal"
+      ],
       "applicability": "유료 광고 승인 이후 실행, 현재는 유기 콘텐츠로 사전 검증",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-021",
+      "pillar": "aov",
+      "tactic": "할인 중첩·누수 정기 감사",
+      "action": "활성 할인마다 중첩 허용, 사용기한, 사용횟수, 유입 파트너, 주문 기여이익을 기록하고 적자 조합과 방치 코드를 비활성화한다.",
+      "evidence": {
+        "video_id": "UcG2v8i6Y2E",
+        "timestamp": "04:18-11:00",
+        "summary": "할인 중첩 설정과 만료 없는 코드가 마진 누수로 이어지므로 할인도 광고비처럼 비용 항목으로 감사"
+      },
+      "prerequisites": [
+        "할인 코드 목록",
+        "주문별 할인액",
+        "원가·배송비",
+        "파트너 코드 소유자"
+      ],
+      "kpis": [
+        "discount_cost_rate",
+        "stacked_discount_orders",
+        "negative_margin_order_rate"
+      ],
+      "teams": [
+        "pricing",
+        "market"
+      ],
+      "applicability": "웰컴·인플루언서·시즌 할인 운영 전후",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-022",
+      "pillar": "aov",
+      "tactic": "기여이익 기반 무료배송 대 할인 비교",
+      "action": "상품군별 배송원가와 장바구니 금액을 넣어 무료배송, 정액 할인, 퍼센트 할인 시나리오의 주문 기여이익을 비교한 뒤 손실이 가장 낮은 오퍼만 테스트한다.",
+      "evidence": {
+        "video_id": "UcG2v8i6Y2E",
+        "timestamp": "13:22-16:34",
+        "summary": "무료배송과 퍼센트 할인 중 무엇이 유리한지는 주문별 배송비·할인액·기여이익 계산으로 결정"
+      },
+      "prerequisites": [
+        "상품 원가",
+        "실배송비",
+        "결제 수수료",
+        "현재 AOV"
+      ],
+      "kpis": [
+        "contribution_margin_per_order",
+        "shipping_incentive_cost",
+        "offer_take_rate"
+      ],
+      "teams": [
+        "pricing",
+        "market",
+        "sourcing"
+      ],
+      "applicability": "무료배송 임계값과 프로모션 설계",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-023",
+      "pillar": "seo_geo",
+      "tactic": "Shopify AI 카탈로그 자격·질의 QA",
+      "action": "제품 가격·재고·정책이 Shopify 카탈로그와 동기화되는지 확인하고 대표 구매 질문을 테스트해 누락된 정책, 메타데이터, 상품 정보를 수정한다.",
+      "evidence": {
+        "video_id": "jUxSAGCaJIU",
+        "timestamp": "00:16-01:45",
+        "summary": "Shopify 카탈로그가 AI 채널에 구조화된 가격·재고를 제공하며 동기화·정책 준수와 테스트 질의를 확인할 수 있음"
+      },
+      "prerequisites": [
+        "미국 판매 자격 확인",
+        "정확한 가격·재고",
+        "배송·반품 정책",
+        "로그인 없는 체크아웃"
+      ],
+      "kpis": [
+        "catalog_eligible_sku_rate",
+        "ai_query_product_coverage",
+        "policy_sync_errors"
+      ],
+      "teams": [
+        "market",
+        "listing",
+        "legal"
+      ],
+      "applicability": "공개 준비가 끝난 Shopify 상품",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-024",
+      "pillar": "creative",
+      "tactic": "AI 캠페인 제안 승인 큐와 비용 가드레일",
+      "action": "AI가 제안한 이메일·광고 캠페인은 대상, 예산, 일정, 클레임을 사람이 검토하고 유료 집행은 명시적 사용자 승인 전까지 보류한다.",
+      "evidence": {
+        "video_id": "jUxSAGCaJIU",
+        "timestamp": "03:13-04:43",
+        "summary": "Campaign Autopilot은 전술을 제안하지만 승인 전에는 게시되지 않으며 예산·규칙·권한 가드레일을 설정"
+      },
+      "prerequisites": [
+        "제품 사실표",
+        "법률 승인 카피",
+        "예산 상한",
+        "승인 로그"
+      ],
+      "kpis": [
+        "campaign_approval_rate",
+        "claims_rejection_rate",
+        "unapproved_spend"
+      ],
+      "teams": [
+        "market",
+        "design",
+        "listing",
+        "legal"
+      ],
+      "applicability": "이메일은 기존 스택에서 초안 검토, 유료 광고는 승인 전 차단",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-025",
+      "pillar": "cro",
+      "tactic": "모바일 게스트 체크아웃 마찰 제거",
+      "action": "게스트 체크아웃, 주소 자동완성, 진행 단계, 모바일 지갑 노출을 실제 휴대폰 테스트 주문으로 점검하고 막히는 단계를 기록한다.",
+      "evidence": {
+        "video_id": "kFWPkoOx_ao",
+        "timestamp": "07:57-08:39",
+        "summary": "계정 생성을 강제하지 않고 빠른 결제수단과 모바일 최적화로 체크아웃 단계를 단순화"
+      },
+      "prerequisites": [
+        "Shopify 테스트 스토어",
+        "테스트 주문 절차",
+        "모바일 기기",
+        "환불 가능한 테스트 결제 또는 Shopify 테스트 모드"
+      ],
+      "kpis": [
+        "checkout_completion_rate",
+        "checkout_step_dropoff",
+        "wallet_share"
+      ],
+      "teams": [
+        "listing",
+        "market",
+        "legal"
+      ],
+      "applicability": "스토어 공개 전 체크아웃 QA",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-026",
+      "pillar": "seo_geo",
+      "tactic": "제품·변형·컬렉션·FAQ 스키마 검증",
+      "action": "제품과 변형의 가격·통화·재고·배송·반품, 컬렉션 ItemList, 실제 FAQ를 구조화 데이터로 출력하고 Search Console 오류를 수정한다.",
+      "evidence": {
+        "video_id": "Knjixb392Is",
+        "timestamp": "05:29-09:45",
+        "summary": "제품 변형·배송·반품, 컬렉션 목록, FAQ 스키마를 schema.org 기준과 Search Console 피드백으로 검증"
+      },
+      "prerequisites": [
+        "정확한 상품 데이터",
+        "배송·반품 정책",
+        "실제 FAQ",
+        "테마 코드 검토"
+      ],
+      "kpis": [
+        "structured_data_valid_rate",
+        "merchant_listing_errors",
+        "faq_schema_errors"
+      ],
+      "teams": [
+        "listing",
+        "market",
+        "legal"
+      ],
+      "applicability": "상위 S상품과 핵심 컬렉션부터 적용",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-027",
+      "pillar": "acquisition",
+      "tactic": "UGC 훅-발견-혜택-소프트 CTA 샷리스트",
+      "action": "실제 제품 사실과 고객 맥락으로 훅, 발견, 혜택, 소프트 CTA를 작성하고 각 문장을 증명하는 세로형 B-roll 샷을 연결해 유기 숏폼으로 먼저 검증한다.",
+      "evidence": {
+        "video_id": "_pKECd9m25U",
+        "timestamp": "01:30-04:38",
+        "summary": "UGC 스크립트를 훅-발견-혜택-소프트 CTA로 구성하고 문장별 제품 사용 B-roll을 사전 지정"
+      },
+      "prerequisites": [
+        "승인된 제품 사실",
+        "출연·사용 권한",
+        "세로 영상 원본",
+        "자막 사실 검수"
+      ],
+      "kpis": [
+        "organic_video_completion_rate",
+        "shortform_link_ctr",
+        "concept_save_rate"
+      ],
+      "teams": [
+        "market",
+        "design",
+        "listing",
+        "legal"
+      ],
+      "applicability": "유료 광고비 없이 유기 콘텐츠로 사전 검증",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-028",
+      "pillar": "retention",
+      "tactic": "실제 배송 지연 트리거 안내",
+      "action": "주문이 약속한 처리기간을 넘을 때만 현재 상태, 다음 업데이트 시점, 문의 경로를 브랜드 톤으로 자동 안내한다.",
+      "evidence": {
+        "video_id": "v7DT2yhi9Ac",
+        "timestamp": "00:57-01:20",
+        "summary": "주문량 증가로 출고가 늦어진 주문에 지연 상태를 먼저 알리는 운영 이벤트 기반 이메일"
+      },
+      "prerequisites": [
+        "주문·출고 이벤트",
+        "공개된 처리기간",
+        "고객지원 경로",
+        "브랜드 톤"
+      ],
+      "kpis": [
+        "where_is_my_order_rate",
+        "delay_email_open_rate",
+        "pre_fulfillment_cancel_rate"
+      ],
+      "teams": [
+        "market",
+        "listing",
+        "legal"
+      ],
+      "applicability": "성수기 또는 실제 출고 지연 시에만 발송",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-029",
+      "pillar": "retention",
+      "tactic": "저참여 선셋 플로우와 목록 정리",
+      "action": "최근 열람·클릭·구매가 없는 구독자에게 누락 콘텐츠와 선호 재설정 기회를 제공하고 반응이 없으면 마케팅 발송 대상에서 제외한다.",
+      "evidence": {
+        "video_id": "v7DT2yhi9Ac",
+        "timestamp": "01:51-02:20",
+        "summary": "저참여 고객에게 재참여 메시지를 보낸 뒤 반응이 없으면 목록에서 제거해 발송 대상을 정리"
+      },
+      "prerequisites": [
+        "마케팅 수신 동의",
+        "참여 이벤트",
+        "제외 규칙",
+        "재구독 경로"
+      ],
+      "kpis": [
+        "reactivation_rate",
+        "unengaged_profile_rate",
+        "deliverability_rate"
+      ],
+      "teams": [
+        "market",
+        "legal"
+      ],
+      "applicability": "충분한 이메일 이력과 참여 데이터가 쌓인 뒤",
       "confidence": "high"
     }
   ],
@@ -299,6 +943,10 @@
     "영상 제작자의 매출 또는 전환 배수는 인과 근거로 사용하지 않음",
     "llms.txt가 검색 순위를 올린다는 주장은 검증 부족으로 제외",
     "AI 카피가 사람보다 우수하다는 일반화는 제외",
-    "경쟁 스토어 문구와 디자인 복제는 저작권·상표 위험으로 금지"
+    "경쟁 스토어 문구와 디자인 복제는 저작권·상표 위험으로 금지",
+    "Shopify가 인용한 AI 검색 전환 배수는 독립 검증이 없어 제외",
+    "일반 CRO 평균·페이지 지연 전환 손실 수치는 자사 목표 근거에서 제외",
+    "영상에 언급된 유료 앱·크리에이터 마켓·광고 집행 권유는 채택하지 않음",
+    "무료배송 코드가 일반 임계값보다 항상 우수하다는 일화는 보편 근거로 채택하지 않음"
   ]
 }

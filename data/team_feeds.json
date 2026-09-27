@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-09-21T09:47:14.854556+00:00",
+  "generated_at": "2026-09-27T14:11:13.890692+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
-  "pool_size": 2362,
+  "pool_size": 2363,
   "제목없어_버림": 38,
-  "unrouted": 10,
+  "unrouted": 9,
   "summary": {
     "sourcing": {
       "total": 350,
-      "recent": 349,
+      "recent": 348,
       "material": 5,
-      "material_recent": 4,
+      "material_recent": 3,
       "products": 345
     },
     "market": {
-      "total": 552,
-      "recent": 41,
-      "material": 552,
-      "material_recent": 41,
+      "total": 553,
+      "recent": 42,
+      "material": 553,
+      "material_recent": 42,
       "products": 0
     },
     "listing": {
-      "total": 71,
-      "recent": 13,
-      "material": 71,
-      "material_recent": 13,
+      "total": 72,
+      "recent": 10,
+      "material": 72,
+      "material_recent": 10,
       "products": 0
     },
     "pricing": {
@@ -36,38 +36,38 @@
       "products": 0
     },
     "legal": {
-      "total": 155,
+      "total": 156,
       "recent": 25,
-      "material": 155,
+      "material": 156,
       "material_recent": 25,
       "products": 0
     },
     "design": {
-      "total": 404,
-      "recent": 94,
-      "material": 404,
-      "material_recent": 94,
+      "total": 409,
+      "recent": 76,
+      "material": 409,
+      "material_recent": 76,
       "products": 0
     },
     "robotics": {
-      "total": 89,
-      "recent": 52,
-      "material": 89,
-      "material_recent": 52,
+      "total": 91,
+      "recent": 45,
+      "material": 91,
+      "material_recent": 45,
       "products": 0
     },
     "knowledge": {
-      "total": 190,
-      "recent": 81,
-      "material": 190,
-      "material_recent": 81,
+      "total": 192,
+      "recent": 70,
+      "material": 192,
+      "material_recent": 70,
       "products": 0
     },
     "institutions": {
-      "total": 1061,
-      "recent": 264,
-      "material": 1061,
-      "material_recent": 264,
+      "total": 1062,
+      "recent": 149,
+      "material": 1062,
+      "material_recent": 149,
       "products": 0
     }
   },
@@ -1241,6 +1241,13 @@
         "by_hand": true
       },
       {
+        "title": "I Went to Seoul to Find the Korean Skin-Care Products People Actually Buy - Vogue",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1JSEZleGFOZTlfbmlCTTRTbWZOZXJMWS1ZVkhnZy16cHdVNDM1Qnl4X0RGR19LcGNSQjNyLVpWQXZ0RTU0TWU2T2xfOW1VeDU0UGNsN0RkRXRNMWxqNVh1VnpKMmszdw?oc=5",
+        "pool": "google",
+        "date": "2026-09-25",
+        "by_hand": false
+      },
+      {
         "title": "Product variants now support multiple barcodes",
         "url": "https://changelog.shopify.com/posts/multiple-barcodes-in-variants",
         "pool": "design_refs",
@@ -1297,7 +1304,7 @@
         "by_hand": false
       },
       {
-        "title": "K-beauty: top 10 innovative launches spotted at Cosmobeauty Seoul 2026 - Premium Beauty News",
+        "title": "K-beauty: top 10 innovative launches spotted at Cosmobeauty Seoul 2026 - premiumbeautynews.com",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1na3Q5UzFpZk02M1lSWWF3NmZyWWxiaXRudHc3blhnR0tCVGRicWlxQmtsbWJOVmtqSTdkVHZlejV3clZpeXk0bDJZNzdEc3dZMHdsN2NZQWVkVTNqOURiSEFsN2dPZ21SNktjaFpCQmMtN0RrdE51Sg?oc=5",
         "pool": "google",
         "date": "2026-06-06",
@@ -1315,13 +1322,6 @@
         "url": "https://www.federalregister.gov/documents/2026/02/06/2026-02313/listing-of-color-additives-exempt-from-certification-beetroot-red",
         "pool": "fda",
         "date": "2026-02-06",
-        "by_hand": false
-      },
-      {
-        "title": "Best AI SEO Tools for Ecommerce in 2026 - Shopify",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE16bDVPVFB6bGd5Q3RRRmJFRW5kR0xLTG9lUDRLaDdjN1FOSE5va2FSWkZZcW84TWh5SDlxckwwSjBJRzdGTENXVUpQZnQ3ZjJSLXZacUYxaw?oc=5",
-        "pool": "google",
-        "date": "2025-10-08",
         "by_hand": false
       },
       {
@@ -1532,6 +1532,90 @@
         "by_hand": true
       },
       {
+        "title": "G. L. Mezzetta Inc. Announces Recall of Mezzetta Brand Golden Greek Peperoncini (Medium Heat) Due to Presence of Pest Contaminant in the Jar",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/g-l-mezzetta-inc-announces-recall-mezzetta-brand-golden-greek-peperoncini-medium-heat-due-presence",
+        "pool": "fda",
+        "date": "2026-09-26",
+        "by_hand": false
+      },
+      {
+        "title": "Exploiting Target Knowledge from MLLMs for Robust Few-Shot Segmentation",
+        "url": "https://arxiv.org/abs/2609.28949",
+        "pool": "arxiv",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "ConPro: Contrast Projection Pretraining for Label-Efficient Vessel Segmentation in DSA Sequences",
+        "url": "https://arxiv.org/abs/2609.30043",
+        "pool": "arxiv",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "Continuous Online Fault Detection for Mobile Robots via Adaptive Edge Models",
+        "url": "https://arxiv.org/abs/2609.29194",
+        "pool": "arxiv",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "Deano’s Pasta Issue Allergy Alert on Undeclared Lobster in Pear and Pecorino Triangoli Ravioli",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/deanos-pasta-issue-allergy-alert-undeclared-lobster-pear-and-pecorino-triangoli-ravioli",
+        "pool": "fda",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "Galil Importing Corp Recalls Lior Cinnamon Ground Seasoning Due to Elevated Lead Levels",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/galil-importing-corp-recalls-lior-cinnamon-ground-seasoning-due-elevated-lead-levels",
+        "pool": "fda",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "When Labels Are Scarce: An Oscillatory State Space Model for Vibration Diagnosis",
+        "url": "https://arxiv.org/abs/2609.27411",
+        "pool": "arxiv",
+        "date": "2026-09-23",
+        "by_hand": false
+      },
+      {
+        "title": "Berlin Seeds Recalls Alfalfa Sprouting Seed Because of Possible Health Risk",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/berlin-seeds-recalls-alfalfa-sprouting-seed-because-possible-health-risk",
+        "pool": "fda",
+        "date": "2026-09-23",
+        "by_hand": false
+      },
+      {
+        "title": "Can We Predict Anomaly Detection Performance from Embedding-Space Geometry?",
+        "url": "https://arxiv.org/abs/2609.26460",
+        "pool": "arxiv",
+        "date": "2026-09-22",
+        "by_hand": false
+      },
+      {
+        "title": "Action-Slot: Structured Action-Centric Representation Learning for Multi-Agent Atomic Activity Understanding",
+        "url": "https://arxiv.org/abs/2609.24127",
+        "pool": "arxiv",
+        "date": "2026-09-21",
+        "by_hand": false
+      },
+      {
+        "title": "Global Mix Inc. Recalls Niwali Tejocote Capsules and Niwali Tejocote Pieces Because of Possible Health Risk",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/global-mix-inc-recalls-niwali-tejocote-capsules-and-niwali-tejocote-pieces-because-possible-health",
+        "pool": "fda",
+        "date": "2026-09-21",
+        "by_hand": false
+      },
+      {
+        "title": "Interpretable Multi-Hypersphere Deep Anomaly Detection for Open-set Supervised Anomaly Detection",
+        "url": "https://arxiv.org/abs/2609.23008",
+        "pool": "arxiv",
+        "date": "2026-09-19",
+        "by_hand": false
+      },
+      {
         "title": "Neptune Medical earns FDA clearance for its Triton 1 robotic system",
         "url": "https://www.therobotreport.com/neptune-medical-earns-fda-clearance-triton-1-robotic-system/",
         "pool": "robotics",
@@ -1546,45 +1630,17 @@
         "by_hand": false
       },
       {
-        "title": "SenseFuse: Label-Free Fusion of Image and Shape Encoders for Open-Vocabulary 3D Instance Segmentation",
-        "url": "https://arxiv.org/abs/2609.20475",
-        "pool": "arxiv",
+        "title": "Par Health Issues Voluntary Nationwide Recall of Two Lots of Dexmedetomidine HCl in 0.9% Sodium Chloride Injection Due to the Presence of Particulate Matter",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/par-health-issues-voluntary-nationwide-recall-two-lots-dexmedetomidine-hcl-09-sodium-chloride",
+        "pool": "fda",
+        "date": "2026-09-18",
+        "by_hand": false
+      },
+      {
+        "title": "Otsuka ICU Medical LLC Issues Voluntary Nationwide Recall of 0.9% Sodium Chloride Injection, USP Due To a Product Mix-up with 10 mEq Potassium Chloride Injection",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/otsuka-icu-medical-llc-issues-voluntary-nationwide-recall-09-sodium-chloride-injection-usp-due",
+        "pool": "fda",
         "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "FreqCondNorm: Towards Cross-domain Predictive Maintenance through a Frequency-Conditioned Transformer Foundation Model",
-        "url": "https://arxiv.org/abs/2609.20535",
-        "pool": "arxiv",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "Cross-Architecture Foundation-Model Distillation for Edge Flood Segmentation",
-        "url": "https://arxiv.org/abs/2609.20441",
-        "pool": "arxiv",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "On-Demand Attention: Language Models Know When to Recall",
-        "url": "https://arxiv.org/abs/2609.20734",
-        "pool": "arxiv",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "Copy What Is Seen, Generate What Is Not: Training-Free Anomaly-Aware Video Restoration",
-        "url": "https://arxiv.org/abs/2609.18836",
-        "pool": "arxiv",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "EvoSherlock: Towards Agentic Lifelong Evolution for Unseen Long-Tailed Security-Critical Events in Videos",
-        "url": "https://arxiv.org/abs/2609.19201",
-        "pool": "arxiv",
-        "date": "2026-09-16",
         "by_hand": false
       },
       {
@@ -1592,13 +1648,6 @@
         "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/saratoga-potato-chips-issues-allergy-alert-undeclared-soy-j-higgs-loaded-bacon-and-cheddar-potato",
         "pool": "fda",
         "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "FlowATC: Aircraft Trajectory Prediction via Flow Matching",
-        "url": "https://arxiv.org/abs/2609.16528",
-        "pool": "arxiv",
-        "date": "2026-09-15",
         "by_hand": false
       },
       {
@@ -1632,6 +1681,13 @@
       {
         "title": "A&P Creations LLC Issues Nationwide Recall of X10 Natural Enhancement Supplement Due to Undeclared Sildenafil and Tadalafil",
         "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ap-creations-llc-issues-nationwide-recall-x10-natural-enhancement-supplement-due-undeclared",
+        "pool": "fda",
+        "date": "2026-09-14",
+        "by_hand": false
+      },
+      {
+        "title": "Wakefern Food Corp. Voluntarily Recalls Wholesome Pantry Organic Unsweetened Apple Sauce",
+        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/wakefern-food-corp-voluntarily-recalls-wholesome-pantry-organic-unsweetened-apple-sauce",
         "pool": "fda",
         "date": "2026-09-14",
         "by_hand": false
@@ -1697,62 +1753,6 @@
         "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/made-fresh-salads-inc-recalls-ready-eat-deli-style-salads-and-cream-cheese-because-possible-health",
         "pool": "fda",
         "date": "2026-09-06",
-        "by_hand": false
-      },
-      {
-        "title": "Foods Alive Recalls Organic Moringa Leaf Powder Because of Possible Health Risk",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/foods-alive-recalls-organic-moringa-leaf-powder-because-possible-health-risk",
-        "pool": "fda",
-        "date": "2026-09-04",
-        "by_hand": false
-      },
-      {
-        "title": "American Regent, Inc. Issues Voluntary Nationwide Recall of Three Lots of Epinephrine Injection, USP 30 mg/ 30 mL (1 mg/mL) Due to the Presence of Particulate Matter and Lack of Assurance of Sterility",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/american-regent-inc-issues-voluntary-nationwide-recall-three-lots-epinephrine-injection-usp-30-mg-30",
-        "pool": "fda",
-        "date": "2026-09-03",
-        "by_hand": false
-      },
-      {
-        "title": "B. Braun Medical Inc. Issues Voluntary Nationwide Recall of 0.9% Sodium Chloride Injection USP, 100 mL, in a 150 mL PAB® Container Due to the Presence of Particulate Matter",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/b-braun-medical-inc-issues-voluntary-nationwide-recall-09-sodium-chloride-injection-usp-100-ml-150",
-        "pool": "fda",
-        "date": "2026-09-03",
-        "by_hand": false
-      },
-      {
-        "title": "Fi Recalls Supplements for Dogs Because of Possible Salmonella Contamination",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/fi-recalls-supplements-dogs-because-possible-salmonella-contamination",
-        "pool": "fda",
-        "date": "2026-09-03",
-        "by_hand": false
-      },
-      {
-        "title": "SUPPLX.com Issues Voluntary Nationwide Recall of Business Pill and Branch Manager for Men Due to Undeclared Yohimbine",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/supplxcom-issues-voluntary-nationwide-recall-business-pill-and-branch-manager-men-due-undeclared",
-        "pool": "fda",
-        "date": "2026-09-03",
-        "by_hand": false
-      },
-      {
-        "title": "Frutas y Hortalizas Del Sur S.A. Expands Recall to Include One Lot of Great Value Frozen Organic Triple Berry Blend Because of Potential Contamination with Escherichia Coli 0145 (E. Coli O145)",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/frutas-y-hortalizas-del-sur-sa-expands-recall-include-one-lot-great-value-frozen-organic-triple",
-        "pool": "fda",
-        "date": "2026-09-02",
-        "by_hand": false
-      },
-      {
-        "title": "Crystal Temptations Issues Allergy Alert on Undeclared Milk in Chocolatey Eyeballs",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/crystal-temptations-issues-allergy-alert-undeclared-milk-chocolatey-eyeballs",
-        "pool": "fda",
-        "date": "2026-08-31",
-        "by_hand": false
-      },
-      {
-        "title": "LMSI LLC/Kofinas Olive Oil Issues a Voluntary Recall of its Garlic Mediterranean Infused Extra Virgin Olive Oil for Using a Garlic Essential Oil Not Approved for Culinary Use",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/lmsi-llckofinas-olive-oil-issues-voluntary-recall-its-garlic-mediterranean-infused-extra-virgin",
-        "pool": "fda",
-        "date": "2026-08-31",
         "by_hand": false
       },
       {
@@ -2368,6 +2368,55 @@
     ],
     "robotics": [
       {
+        "title": "SARFusion: Scene-Aware Routing Fusion for Robust Camera-LiDAR 3D Object Detection",
+        "url": "https://arxiv.org/abs/2609.29235",
+        "pool": "arxiv",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "Dense Coverage, Sparse Refinement: Byte-Constrained Cooperative Perception",
+        "url": "https://arxiv.org/abs/2609.29456",
+        "pool": "arxiv",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "EIB-Net: Entropy-Guided Information Bottleneck for Generalizable AI-Generated Image Detection",
+        "url": "https://arxiv.org/abs/2609.29064",
+        "pool": "arxiv",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "AI-based detection of worsening heart failure from low-resolution telemonitoring data",
+        "url": "https://arxiv.org/abs/2609.29742",
+        "pool": "arxiv",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "Continuous Online Fault Detection for Mobile Robots via Adaptive Edge Models",
+        "url": "https://arxiv.org/abs/2609.29194",
+        "pool": "arxiv",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "SAFe: Segment-guided Aggregation of Feature Densities for Anomaly-aware Segmentation",
+        "url": "https://arxiv.org/abs/2609.24204",
+        "pool": "arxiv",
+        "date": "2026-09-21",
+        "by_hand": false
+      },
+      {
+        "title": "High-Dimensional Online Change Point Detection with Adaptive Thresholding and Interpretability",
+        "url": "https://arxiv.org/abs/2609.24278",
+        "pool": "arxiv",
+        "date": "2026-09-21",
+        "by_hand": false
+      },
+      {
         "title": "What do you do with a humanoid robot when it breaks down?",
         "url": "https://www.therobotreport.com/what-do-you-do-with-a-humanoid-robot-when-it-breaks-down/",
         "pool": "robotics",
@@ -2431,34 +2480,6 @@
         "by_hand": false
       },
       {
-        "title": "SenseFuse: Label-Free Fusion of Image and Shape Encoders for Open-Vocabulary 3D Instance Segmentation",
-        "url": "https://arxiv.org/abs/2609.20475",
-        "pool": "arxiv",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "Selective Cotton Boll Localization for Robotic Harvesting: Evaluation of Deep Learning Vision Models Under Field Conditions",
-        "url": "https://arxiv.org/abs/2609.19592",
-        "pool": "arxiv",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "Recovering Aggressively Pruned Vision-Language-Action Models with Offline Hidden-State Distillation",
-        "url": "https://arxiv.org/abs/2609.19579",
-        "pool": "arxiv",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "Co-VLA: Consensus-based Federated Training for Vision-Language-Action Models",
-        "url": "https://arxiv.org/abs/2609.19923",
-        "pool": "arxiv",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
         "title": "FLARE: an open-source data workflow orchestration tool",
         "url": "https://arxiv.org/abs/2609.19809",
         "pool": "robotics",
@@ -2519,13 +2540,6 @@
         "url": "https://www.therobotreport.com/the-evolution-of-digit-agility-robotics-journey-from-cassie-to-digit-5/",
         "pool": "robotics",
         "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "RoboVAD: A Large Cross-Domain Evaluation Benchmark for Anomaly Detection in Robotic Arm Manipulation Videos",
-        "url": "https://arxiv.org/abs/2609.17843",
-        "pool": "arxiv",
-        "date": "2026-09-15",
         "by_hand": false
       },
       {
@@ -2772,20 +2786,6 @@
         "pool": "institutions",
         "date": "2026-09-02",
         "by_hand": false
-      },
-      {
-        "title": "How River takes security work from a fix to merge",
-        "url": "https://shopify.engineering/river-vulnerability-remediation",
-        "pool": "design_refs",
-        "date": "2026-09-02",
-        "by_hand": false
-      },
-      {
-        "title": "Broadcom Delivers End-to-End Security, Identity, and Observability for Agentic AI",
-        "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-delivers-end-end-security-identity-and-observability",
-        "pool": "institutions",
-        "date": "2026-08-31",
-        "by_hand": false
       }
     ],
     "knowledge": [
@@ -2864,353 +2864,353 @@
         "by_hand": true
       },
       {
-        "title": "Simulation code for \"Real-Time AI Service Economy: A Framework for Agentic Computing Across the Continuum\"",
-        "url": "https://arxiv.org/abs/2603.05614",
-        "pool": "robotics",
+        "title": "BiCC: Bidirectional Connected-Component Loss for Instance-Aware Segmentation",
+        "url": "https://arxiv.org/abs/2609.30223",
+        "pool": "arxiv",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "C3M: Cross-Session Multimodal Memory Maintenance for Long-Horizon Tasks",
+        "url": "https://arxiv.org/abs/2609.29735",
+        "pool": "arxiv",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "SARFusion: Scene-Aware Routing Fusion for Robust Camera-LiDAR 3D Object Detection",
+        "url": "https://arxiv.org/abs/2609.29235",
+        "pool": "arxiv",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "Not All Confusion Is Equal: A Source-Aware Uncertainty Diagnosis for Fine-Grained Aircraft Detection",
+        "url": "https://arxiv.org/abs/2609.29959",
+        "pool": "arxiv",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "Dense Coverage, Sparse Refinement: Byte-Constrained Cooperative Perception",
+        "url": "https://arxiv.org/abs/2609.29456",
+        "pool": "arxiv",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "Learning a Flow to Self-Supervised Representations",
+        "url": "https://arxiv.org/abs/2609.29350",
+        "pool": "arxiv",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "FlashLoop: Fast and Memory-Efficient Looped Transformers via Lazy Updates",
+        "url": "https://arxiv.org/abs/2609.29812",
+        "pool": "arxiv",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "Smartphone-Based Method for Automated Speed Enforcement",
+        "url": "https://arxiv.org/abs/2609.30107",
+        "pool": "arxiv",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "Exploiting Target Knowledge from MLLMs for Robust Few-Shot Segmentation",
+        "url": "https://arxiv.org/abs/2609.28949",
+        "pool": "arxiv",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "Lightweight Vision Transformer-Based U-Net for Brain Tumor Segmentation from MRI",
+        "url": "https://arxiv.org/abs/2609.29785",
+        "pool": "arxiv",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "Exploiting answer-invariant redundancies in satellite imagery for efficient VLM inference on edge",
+        "url": "https://arxiv.org/abs/2609.29029",
+        "pool": "arxiv",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "RGBD20K: A Large-Scale Benchmark for RGB-D Semantic Segmentation",
+        "url": "https://arxiv.org/abs/2609.29028",
+        "pool": "arxiv",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "ImCorr: Sub-pixel Semantic Correspondence via Implicit Feature Decoding",
+        "url": "https://arxiv.org/abs/2609.29193",
+        "pool": "arxiv",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "Concurrent Split Learning Through Stable Client Clustering",
+        "url": "https://arxiv.org/abs/2609.29395",
+        "pool": "arxiv",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "IronViT: Toward Efficient Generalist Visual Representation Learning",
+        "url": "https://arxiv.org/abs/2609.29252",
+        "pool": "arxiv",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "AgriCountDINO: Parameter-Efficient Exemplar-Guided Counting and Localization in Agriculture",
+        "url": "https://arxiv.org/abs/2609.29460",
+        "pool": "arxiv",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "NebulaSD: Many-for-Many Speculative Decoding",
+        "url": "https://arxiv.org/abs/2609.29364",
+        "pool": "arxiv",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "MoVISA: Multi-Token Reasoning for Video Object Segmentation",
+        "url": "https://arxiv.org/abs/2609.28956",
+        "pool": "arxiv",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "TRACE: Interactive Bi-Directional Tracing of Monochrome Cables Amid Clutter",
+        "url": "https://arxiv.org/abs/2609.29103",
+        "pool": "arxiv",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "ConPro: Contrast Projection Pretraining for Label-Efficient Vessel Segmentation in DSA Sequences",
+        "url": "https://arxiv.org/abs/2609.30043",
+        "pool": "arxiv",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "Frame-to-Panorama Localization and Context-Aware Sampling for Scene-Specific Ship Detection in a Smart Marina Testbed",
+        "url": "https://arxiv.org/abs/2609.29447",
+        "pool": "arxiv",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "Seeing Is Not Measuring: Tool-Augmented Metric Spatial Reasoning for Vision-Language Models",
+        "url": "https://arxiv.org/abs/2609.29073",
+        "pool": "arxiv",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "KernelOPT: Dispatch-Aware Agentic Search for GPU Kernel Optimization",
+        "url": "https://arxiv.org/abs/2609.30059",
+        "pool": "arxiv",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "Baseline Shape Decides the Verdict: A Controlled Re-Examination of Ternary Language Models at 60K Parameters",
+        "url": "https://doi.org/10.48550/arxiv.2609.29397",
+        "pool": "arxiv",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "EIB-Net: Entropy-Guided Information Bottleneck for Generalizable AI-Generated Image Detection",
+        "url": "https://arxiv.org/abs/2609.29064",
+        "pool": "arxiv",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "Relative Mismatch: Local-Reference Calibration of Feature-Space Flows for Anomalous Sound Detection",
+        "url": "https://arxiv.org/abs/2609.29746",
+        "pool": "arxiv",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "AI-based detection of worsening heart failure from low-resolution telemonitoring data",
+        "url": "https://arxiv.org/abs/2609.29742",
+        "pool": "arxiv",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "Industrial Anomaly Detection via Defect-Grounded Reasoning in Visual Latent Space",
+        "url": "https://arxiv.org/abs/2609.29457",
+        "pool": "arxiv",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "Continuous Online Fault Detection for Mobile Robots via Adaptive Edge Models",
+        "url": "https://arxiv.org/abs/2609.29194",
+        "pool": "arxiv",
+        "date": "2026-09-24",
+        "by_hand": false
+      },
+      {
+        "title": "SAGEGAN: Style-Based Anomaly Detection with Gaussian Embeddings using Generative Adversarial Networks",
+        "url": "https://arxiv.org/abs/2609.27357",
+        "pool": "arxiv",
+        "date": "2026-09-23",
+        "by_hand": false
+      },
+      {
+        "title": "Anomaly-Free Self-Optimization via AUC Bounds",
+        "url": "https://arxiv.org/abs/2609.27362",
+        "pool": "arxiv",
+        "date": "2026-09-23",
+        "by_hand": false
+      },
+      {
+        "title": "Visual Tripwires: Anticipating Failure in Deep Vision Systems",
+        "url": "https://arxiv.org/abs/2609.28099",
+        "pool": "arxiv",
+        "date": "2026-09-23",
+        "by_hand": false
+      },
+      {
+        "title": "DrGait: Biomechanically Grounded Visual Reasoning for Interpretable Clinical Gait Analysis",
+        "url": "https://arxiv.org/abs/2609.28796",
+        "pool": "arxiv",
+        "date": "2026-09-23",
+        "by_hand": false
+      },
+      {
+        "title": "When Does Unsupervised Learning Succeed or Fail? A PoS Perspective on Reconstruction-Based Anomaly Detection",
+        "url": "https://arxiv.org/abs/2609.28832",
+        "pool": "arxiv",
+        "date": "2026-09-23",
+        "by_hand": false
+      },
+      {
+        "title": "When Labels Are Scarce: An Oscillatory State Space Model for Vibration Diagnosis",
+        "url": "https://arxiv.org/abs/2609.27411",
+        "pool": "arxiv",
+        "date": "2026-09-23",
+        "by_hand": false
+      },
+      {
+        "title": "When Point Clouds Outperform Pixels: Rethinking Zero-Shot Multimodal Anomaly Detection",
+        "url": "https://arxiv.org/abs/2609.25793",
+        "pool": "arxiv",
+        "date": "2026-09-22",
+        "by_hand": false
+      },
+      {
+        "title": "Can We Predict Anomaly Detection Performance from Embedding-Space Geometry?",
+        "url": "https://arxiv.org/abs/2609.26460",
+        "pool": "arxiv",
+        "date": "2026-09-22",
+        "by_hand": false
+      },
+      {
+        "title": "ESupNNet: An Error Supervising Neural Network architecture for error detection against soft errors in parameters",
+        "url": "https://arxiv.org/abs/2609.26374",
+        "pool": "arxiv",
+        "date": "2026-09-22",
+        "by_hand": false
+      },
+      {
+        "title": "AT3D-AD: Anomaly Type-Aware 3D Anomaly Detection via Hierarchical Point-Language Alignment",
+        "url": "https://arxiv.org/abs/2609.25930",
+        "pool": "arxiv",
+        "date": "2026-09-22",
+        "by_hand": false
+      },
+      {
+        "title": "Confidence-Guided Cross-Modal Knowledge Transfer for Multimodal Anomaly Detection in Microservice Systems",
+        "url": "https://arxiv.org/abs/2609.25856",
+        "pool": "arxiv",
+        "date": "2026-09-22",
+        "by_hand": false
+      },
+      {
+        "title": "Shopify Brings Shop Pay Checkout Solution to Meta’s Muse AI Agent - PYMNTS.com",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWk82eU1RdnRfMXM1WDc4VE9aNFJLOVM4WFBkYlNmU2h4STdrcmJzdXV0d3p0WDNrbXQ4Rnh2QkxnbGxUcDROWFV3UjJyMFJXdEhCQmFua3hXc2lvUEF3UnFJeWRUdzZWdFY5QjZCbEJ5RUc2SHF3SHdTOUtZNWFTaUFXeGZLTWtKT0RHeWhaTWh1RDJvYjVBcjFobE55Y2R5dEdNMTA1TnY3ZHFpZlVEX1R3?oc=5",
+        "pool": "google",
+        "date": "2026-09-22",
+        "by_hand": false
+      },
+      {
+        "title": "SAFe: Segment-guided Aggregation of Feature Densities for Anomaly-aware Segmentation",
+        "url": "https://arxiv.org/abs/2609.24204",
+        "pool": "arxiv",
+        "date": "2026-09-21",
+        "by_hand": false
+      },
+      {
+        "title": "Action-Slot: Structured Action-Centric Representation Learning for Multi-Agent Atomic Activity Understanding",
+        "url": "https://arxiv.org/abs/2609.24127",
+        "pool": "arxiv",
+        "date": "2026-09-21",
+        "by_hand": false
+      },
+      {
+        "title": "High-Dimensional Online Change Point Detection with Adaptive Thresholding and Interpretability",
+        "url": "https://arxiv.org/abs/2609.24278",
+        "pool": "arxiv",
+        "date": "2026-09-21",
+        "by_hand": false
+      },
+      {
+        "title": "ARGUS: an experiment-agnostic framework for detector-health monitoring in particle physics",
+        "url": "https://arxiv.org/abs/2609.23329",
+        "pool": "arxiv",
+        "date": "2026-09-20",
+        "by_hand": false
+      },
+      {
+        "title": "Collaborative Streaming Anomaly Detection with Interactive Explanations and Ensemble Consensus",
+        "url": "https://arxiv.org/abs/2609.23883",
+        "pool": "arxiv",
+        "date": "2026-09-20",
+        "by_hand": false
+      },
+      {
+        "title": "Signal2Symbol: Neuro-Symbolic Temporal Reasoning for Explainable Physiological Time-Series Anomaly Detection",
+        "url": "https://arxiv.org/abs/2609.26820",
+        "pool": "arxiv",
+        "date": "2026-09-20",
+        "by_hand": false
+      },
+      {
+        "title": "Interpretable Multi-Hypersphere Deep Anomaly Detection for Open-set Supervised Anomaly Detection",
+        "url": "https://arxiv.org/abs/2609.23008",
+        "pool": "arxiv",
         "date": "2026-09-19",
         "by_hand": false
       },
       {
-        "title": "Consumer Agents Signal New Phase For Ai Growth",
-        "url": "https://www.goldmansachs.com/insights/articles/consumer-agents-signal-new-phase-for-ai-growth",
-        "pool": "institutions",
-        "date": "2026-09-18",
-        "by_hand": false
-      },
-      {
-        "title": "SenseFuse: Label-Free Fusion of Image and Shape Encoders for Open-Vocabulary 3D Instance Segmentation",
-        "url": "https://arxiv.org/abs/2609.20475",
+        "title": "DriveReferee: Geometric Safety Verdicts Need Not Be Learned for Driving World-Action Models",
+        "url": "https://arxiv.org/abs/2609.22762",
         "pool": "arxiv",
-        "date": "2026-09-17",
+        "date": "2026-09-19",
         "by_hand": false
       },
       {
-        "title": "Selective Cotton Boll Localization for Robotic Harvesting: Evaluation of Deep Learning Vision Models Under Field Conditions",
-        "url": "https://arxiv.org/abs/2609.19592",
+        "title": "CrowdCue: Specialist-Cue Conditioning for Vision-Language Crowd Counting",
+        "url": "https://arxiv.org/abs/2609.23012",
         "pool": "arxiv",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "Socialized UAV Cross-Task Learning: Towards Cross-Granularity Collaboration through Hierarchical Interaction",
-        "url": "https://arxiv.org/abs/2609.19867",
-        "pool": "arxiv",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "Recovering Aggressively Pruned Vision-Language-Action Models with Offline Hidden-State Distillation",
-        "url": "https://arxiv.org/abs/2609.19579",
-        "pool": "arxiv",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "Towards Active Cross-View Object Geo-Localization",
-        "url": "https://arxiv.org/abs/2609.19662",
-        "pool": "arxiv",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "A Multi-Modal Generative Model for Tomato Disease Leaves Understanding",
-        "url": "https://arxiv.org/abs/2609.19555",
-        "pool": "arxiv",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "Co-VLA: Consensus-based Federated Training for Vision-Language-Action Models",
-        "url": "https://arxiv.org/abs/2609.19923",
-        "pool": "arxiv",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "Region-Level Policy Optimization for Fine-grained MLLM Perception",
-        "url": "https://arxiv.org/abs/2609.19745",
-        "pool": "arxiv",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "FreqCondNorm: Towards Cross-domain Predictive Maintenance through a Frequency-Conditioned Transformer Foundation Model",
-        "url": "https://arxiv.org/abs/2609.20535",
-        "pool": "arxiv",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "Cross-Architecture Foundation-Model Distillation for Edge Flood Segmentation",
-        "url": "https://arxiv.org/abs/2609.20441",
-        "pool": "arxiv",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "AgriScope: Pixel-Grounded Multimodal Understanding for Agricultural Images",
-        "url": "https://arxiv.org/abs/2609.20325",
-        "pool": "arxiv",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "G^2RA-NET: Graph-based Cross-Slice Relation Modeling with Attention Gating for Medical Image Segmentation",
-        "url": "https://arxiv.org/abs/2609.20088",
-        "pool": "arxiv",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "PerSeM: Persistent Semantic Memory for Long-Horizon Open-Vocabulary UAV Mapping",
-        "url": "https://arxiv.org/abs/2609.19542",
-        "pool": "arxiv",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "PointEvent: Rethinking Event-based Tiny Object Detection via Serialized Motion Evidence Accumulation",
-        "url": "https://arxiv.org/abs/2609.20066",
-        "pool": "arxiv",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "Dense Feature Representation over Sequence Modeling: A Solution to the KDD Cup 2026 UniRec Challenge",
-        "url": "https://arxiv.org/abs/2609.19787",
-        "pool": "arxiv",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "Training Neural Networks to Approach the Optimum Bayes Estimator in Dense Multi-Emitter Localization",
-        "url": "https://arxiv.org/abs/2609.20465",
-        "pool": "arxiv",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "EmbodiedMind: Adaptive Data Curation and Prefix-Tree Reinforcement Learning for Efficient Embodied Intelligence",
-        "url": "https://arxiv.org/abs/2609.19659",
-        "pool": "arxiv",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "PixelFlow: Token-Level Workload Management for Efficient Distributed DiT Serving",
-        "url": "https://arxiv.org/abs/2609.20723",
-        "pool": "arxiv",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "Instance Segmentation and Fine-grained Classification for Urban Buildings with Adaptive Region Dividing and Spatially-Supervised Contrastive Learning",
-        "url": "https://arxiv.org/abs/2609.19631",
-        "pool": "arxiv",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "QCPruner: Query-Conditioned Population Coverage for Visual Token Pruning",
-        "url": "https://arxiv.org/abs/2609.19990",
-        "pool": "arxiv",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "MiX: Micro-Inverted-Scaling for End-to-End Low-Bit Vision-Language Model Acceleration",
-        "url": "https://arxiv.org/abs/2609.19683",
-        "pool": "arxiv",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "Beyond the Foreground: FOV-Aware Polyp Image Synthesis via Lesion-Guided Adaptive Mucosal Context Propagation",
-        "url": "https://arxiv.org/abs/2609.19966",
-        "pool": "arxiv",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "Enhanced Knowledge Distillation for Detection Transformer via Teacher Prediction Refinement",
-        "url": "https://arxiv.org/abs/2609.19964",
-        "pool": "arxiv",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "A Dual-Stream Regulated Reconstruction and Segmentation Network with Hierarchical Artifact-Prior Modeling for Ultra-Low-Field Pediatric Neuroimaging",
-        "url": "https://arxiv.org/abs/2609.20562",
-        "pool": "arxiv",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "On-Demand Attention: Language Models Know When to Recall",
-        "url": "https://arxiv.org/abs/2609.20734",
-        "pool": "arxiv",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "Robust Multi-Task Learning for Principal Component Analysis",
-        "url": "https://arxiv.org/abs/2609.20733",
-        "pool": "arxiv",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "Local Sparsity Enables Unsupervised LLM Safety Detection",
-        "url": "https://arxiv.org/abs/2609.20129",
-        "pool": "arxiv",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "Semantic Layer Induction from Raw Telemetry via Hierarchical LLM and RAG Abstraction",
-        "url": "https://arxiv.org/abs/2609.19615",
-        "pool": "arxiv",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "VERA: Reinforcement Learning for Dynamic Memory Scaling of HPC Workloads in Kubernetes",
-        "url": "https://arxiv.org/abs/2609.19936",
-        "pool": "robotics",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "Database for AI Agents: 5 Evaluation Criteria",
-        "url": "https://www.databricks.com/blog/database-for-ai-agents",
-        "pool": "institutions",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "The Web Search Your Agent Inherited Isn't Good Enough",
-        "url": "https://www.databricks.com/blog/web-search-your-agent-inherited-isnt-good-enough",
-        "pool": "institutions",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "Anomaly Detection in General Ledger Data: Results from a Hybrid Approach",
-        "url": "https://arxiv.org/abs/2609.18228",
-        "pool": "arxiv",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Copy What Is Seen, Generate What Is Not: Training-Free Anomaly-Aware Video Restoration",
-        "url": "https://arxiv.org/abs/2609.18836",
-        "pool": "arxiv",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "EvoSherlock: Towards Agentic Lifelong Evolution for Unseen Long-Tailed Security-Critical Events in Videos",
-        "url": "https://arxiv.org/abs/2609.19201",
-        "pool": "arxiv",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Designing Grid-Aware Dynamic Specifications for Large Data Center Loads",
-        "url": "https://arxiv.org/abs/2609.18888",
-        "pool": "robotics",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Reimagining advertising with AI",
-        "url": "https://openai.com/index/reimagining-advertising-with-ai",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
-        "url": "https://openai.com/index/hex-gpt-6-astra",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Modality-Autoregressive World-Action Models",
-        "url": "https://arxiv.org/abs/2609.17524",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Probe-VAD: Ordinal Likelihood Probing for Training-Free Video Anomaly Detection",
-        "url": "https://arxiv.org/abs/2609.17211",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "FlowATC: Aircraft Trajectory Prediction via Flow Matching",
-        "url": "https://arxiv.org/abs/2609.16528",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "PSMP-CLIP: Patch-Prompt SAM and Multi-Semantic Prompting for CLIP-Based Zero-Shot Anomaly Detection",
-        "url": "https://arxiv.org/abs/2609.16785",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Domain Adaptation against Background Sculpting in Anomaly Detection at the LHC",
-        "url": "https://arxiv.org/abs/2609.17659",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "RoboVAD: A Large Cross-Domain Evaluation Benchmark for Anomaly Detection in Robotic Arm Manipulation Videos",
-        "url": "https://arxiv.org/abs/2609.17843",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Physics-Constrained Digital Twins for Sensor Integrity in Urban Pedestrian Flow: Detecting Stealthy False Data Injection with Conformal Guarantees",
-        "url": "https://arxiv.org/abs/2609.17635",
-        "pool": "arxiv",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "PipeSwift: Revisiting Pipeline Parallelism for Large-Scale Completion-Oriented Agentic LLM Serving",
-        "url": "https://doi.org/10.48550/arxiv.2609.16491",
-        "pool": "robotics",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "FlashVector: Agent for Hierarchical Model Serving Stack Optimization",
-        "url": "https://arxiv.org/abs/2609.17391",
-        "pool": "robotics",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "PipeSwift: Revisiting Pipeline Parallelism for Large-Scale Completion-Oriented Agentic LLM Serving",
-        "url": "https://arxiv.org/abs/2609.16491",
-        "pool": "robotics",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Multiscale Visibility Theory: A Task-Relative Operator-Geometric Framework for Observation, Robustness, and Detectability",
-        "url": "https://doi.org/10.48550/arxiv.2609.15948",
-        "pool": "arxiv",
-        "date": "2026-09-14",
+        "date": "2026-09-19",
         "by_hand": false
       }
     ],
@@ -3454,6 +3454,13 @@
         "by_hand": false
       },
       {
+        "title": "Shopify becomes OpenAI’s first e-commerce partner with ChatGPT Ads integration - BetaKit",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUDhuanlLZVBFSTJZaWRKZXdnYjFtb3QzMV9qbzJYMWJ0Y0gtUFRvMkxtSWJFbU1pLXAzRFBLdHI0QXRoY3pTcENyLW9ZQml0bG1ERkRrNk9FcTJweXJ0RE1XdkFJOU5LUkVNQXdBenc4NTZxQXFpRUFaTmRFclVxa3h0VGJGWEJxU091UEFCbmRERnJqd2VMM0hvUTYzZlU?oc=5",
+        "pool": "google",
+        "date": "2026-09-18",
+        "by_hand": false
+      },
+      {
         "title": "How Cooley is accelerating IPO work with ChatGPT",
         "url": "https://openai.com/index/cooley-gopublic",
         "pool": "institutions",
@@ -3624,13 +3631,6 @@
       {
         "title": "Reimagining advertising with AI",
         "url": "https://openai.com/index/reimagining-advertising-with-ai",
-        "pool": "institutions",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
-        "url": "https://openai.com/index/hex-gpt-6-astra",
         "pool": "institutions",
         "date": "2026-09-16",
         "by_hand": false

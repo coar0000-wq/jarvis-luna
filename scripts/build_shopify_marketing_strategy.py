@@ -104,13 +104,14 @@ def product_fit(row: dict) -> dict:
         "score": row.get("shopify_score"),
         "agent_ready": bool(row.get("agent_ready")),
         "public_ready": bool(row.get("public_ready")),
-        "recommended_insight_ids": ["MKT-002", "MKT-003", "MKT-004", "MKT-016"] + aov,
+        "recommended_insight_ids": ["MKT-002", "MKT-003", "MKT-004", "MKT-016",
+                                    "MKT-023", "MKT-025", "MKT-026"] + aov,
         "organic_first_actions": [
             "구매 질문형 PDP/FAQ 초안",
             "제품 제형·사용 순서 숏폼 콘티",
             "무료배송 임계값을 고려한 루틴 또는 수량 세트 손익 계산",
         ],
-        "paid_action_status": "blocked_until_explicit_cost_approval",
+        "paid_action_status": "blocked_until_explicit_user_approval",
         "claim_guardrail": guardrail,
     }
 
@@ -120,10 +121,10 @@ def build_experiments() -> list[dict]:
         {
             "id": "EXP-001", "phase": "prelaunch", "priority": 1,
             "name": "S상품 PDP 질문·이미지 증거 패키지",
-            "insight_ids": ["MKT-002", "MKT-003", "MKT-004", "MKT-016"],
+            "insight_ids": ["MKT-002", "MKT-003", "MKT-004", "MKT-016", "MKT-026"],
             "owner_teams": ["listing", "design", "legal"],
-            "action": "상위 S상품부터 FAQ, 제형, 사용 순서, 고시 근거를 한 PDP 패키지로 만든다.",
-            "kpis": ["pdp_completion_rate", "claims_rejection_rate"],
+            "action": "상위 S상품부터 FAQ, 제형, 사용 순서, 고시 근거와 유효한 구조화 데이터를 한 PDP 패키지로 만든다.",
+            "kpis": ["pdp_completion_rate", "structured_data_valid_rate", "claims_rejection_rate"],
             "cost_mode": "free_local", "status": "ready_for_draft"
         },
         {
@@ -137,19 +138,19 @@ def build_experiments() -> list[dict]:
         },
         {
             "id": "EXP-003", "phase": "prelaunch", "priority": 3,
-            "name": "번들·무료배송 손익표",
-            "insight_ids": ["MKT-008", "MKT-013", "MKT-014", "MKT-015"],
+            "name": "번들·할인·무료배송 손익표",
+            "insight_ids": ["MKT-008", "MKT-013", "MKT-014", "MKT-015", "MKT-021", "MKT-022"],
             "owner_teams": ["pricing", "sourcing", "market"],
-            "action": "낱개·스타터·루틴 세트별 기여이익과 무료배송 기준을 계산해 적자 오퍼를 제거한다.",
-            "kpis": ["contribution_margin_per_order", "bundle_margin"],
+            "action": "낱개·스타터·루틴 세트와 할인 중첩·무료배송 시나리오별 기여이익을 계산해 적자 오퍼를 제거한다.",
+            "kpis": ["contribution_margin_per_order", "bundle_margin", "discount_cost_rate"],
             "cost_mode": "free_local", "status": "ready_for_modeling"
         },
         {
             "id": "EXP-004", "phase": "launch", "priority": 4,
             "name": "검색형 숏폼 유기 테스트",
-            "insight_ids": ["MKT-005", "MKT-020"],
+            "insight_ids": ["MKT-005", "MKT-020", "MKT-027"],
             "owner_teams": ["market", "design", "listing"],
-            "action": "광고비 없이 사용 장면·제형·루틴 순서 세 형식으로 게시해 클릭과 상품 페이지 유입을 비교한다.",
+            "action": "광고비 없이 훅-발견-혜택-소프트 CTA와 문장별 B-roll을 사용 장면·제형·루틴 순서 형식으로 게시해 반응을 비교한다.",
             "kpis": ["organic_video_sessions", "shortform_link_ctr", "pdp_sessions"],
             "cost_mode": "free_organic", "status": "ready_after_assets"
         },
@@ -196,7 +197,34 @@ def build_experiments() -> list[dict]:
             "owner_teams": ["market", "design", "legal"],
             "action": "명시적 비용 승인 이후에만 훅·형식·증거별 소액 광고 실험을 실행한다.",
             "kpis": ["cost_per_acquisition", "mer", "concept_win_rate"],
-            "cost_mode": "paid_requires_explicit_approval", "status": "blocked_by_cost_policy"
+            "cost_mode": "paid_requires_explicit_approval", "status": "blocked_until_explicit_user_approval"
+        },
+        {
+            "id": "EXP-010", "phase": "prelaunch", "priority": 10,
+            "name": "AI 카탈로그·구조화 데이터 QA",
+            "insight_ids": ["MKT-023", "MKT-026"],
+            "owner_teams": ["market", "listing", "legal"],
+            "action": "공개 준비 상품의 가격·재고·정책·스키마를 검증하고 대표 구매 질문에서 상품 노출 누락을 기록한다.",
+            "kpis": ["catalog_eligible_sku_rate", "structured_data_valid_rate", "ai_query_product_coverage"],
+            "cost_mode": "free_local", "status": "ready_after_store"
+        },
+        {
+            "id": "EXP-011", "phase": "postpurchase", "priority": 11,
+            "name": "운영 이벤트 기반 리텐션",
+            "insight_ids": ["MKT-028", "MKT-029"],
+            "owner_teams": ["market", "legal"],
+            "action": "실제 배송 지연에는 선제 안내를 보내고 저참여 구독자는 재참여 후 선셋 처리해 고객 경험과 목록 품질을 함께 관리한다.",
+            "kpis": ["where_is_my_order_rate", "pre_fulfillment_cancel_rate", "reactivation_rate", "deliverability_rate"],
+            "cost_mode": "existing_stack_only", "status": "ready_after_store"
+        },
+        {
+            "id": "EXP-012", "phase": "paid_scale", "priority": 12,
+            "name": "AI 캠페인 승인 큐",
+            "insight_ids": ["MKT-024"],
+            "owner_teams": ["market", "design", "listing", "legal"],
+            "action": "AI 캠페인 제안의 대상·클레임·예산·일정을 승인 큐에서 검토하며 유료 집행은 명시적 사용자 승인 전까지 차단한다.",
+            "kpis": ["campaign_approval_rate", "claims_rejection_rate", "unapproved_spend"],
+            "cost_mode": "paid_requires_explicit_approval", "status": "blocked_until_explicit_user_approval"
         }
     ]
 
@@ -249,11 +277,11 @@ def build_strategy(write: bool = True) -> dict:
         "execution_experiments": experiments,
         "product_playbooks": [product_fit(x) for x in recs],
         "funnel": {
-            "discover": ["MKT-005", "MKT-016", "MKT-020"],
-            "consider": ["MKT-001", "MKT-002", "MKT-003", "MKT-004", "MKT-017"],
-            "convert": ["MKT-008", "MKT-012", "MKT-013", "MKT-014", "MKT-015"],
-            "retain": ["MKT-006", "MKT-009", "MKT-010", "MKT-011"],
-            "measure": ["MKT-007"],
+            "discover": ["MKT-005", "MKT-016", "MKT-020", "MKT-023", "MKT-027"],
+            "consider": ["MKT-001", "MKT-002", "MKT-003", "MKT-004", "MKT-017", "MKT-025", "MKT-026"],
+            "convert": ["MKT-008", "MKT-012", "MKT-013", "MKT-014", "MKT-015", "MKT-021", "MKT-022"],
+            "retain": ["MKT-006", "MKT-009", "MKT-010", "MKT-011", "MKT-028", "MKT-029"],
+            "measure": ["MKT-007", "MKT-024"],
         },
         "launch_order": [x["id"] for x in experiments],
         "guardrails": [
