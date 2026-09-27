@@ -2,7 +2,7 @@
 title: "Record d1e93778c7 · What-is-MCP-for-AI-Agents-When-the-Protocol-Is-Enou"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T21:12:52.316401+00:00
+updated_at: 2026-09-27T05:21:28.426691+00:00
 tags: [record, real-data]
 ---
 

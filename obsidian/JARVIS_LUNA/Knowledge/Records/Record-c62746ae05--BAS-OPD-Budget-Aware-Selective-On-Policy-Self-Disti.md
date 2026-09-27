@@ -2,7 +2,7 @@
 title: "Record c62746ae05 · BAS-OPD-Budget-Aware-Selective-On-Policy-Self-Distillation-for-Fine-Gr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T21:12:52.597245+00:00
+updated_at: 2026-09-27T05:21:28.700959+00:00
 tags: [record, real-data]
 ---
 

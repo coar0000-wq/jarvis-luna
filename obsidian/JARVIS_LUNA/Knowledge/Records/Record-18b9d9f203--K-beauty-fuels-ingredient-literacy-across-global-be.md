@@ -2,7 +2,7 @@
 title: "Record 18b9d9f203 · K-beauty-fuels-ingredient-literacy-across-global-beauty-says-Kiss-New-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T21:12:52.917147+00:00
+updated_at: 2026-09-27T05:21:29.028660+00:00
 tags: [record, real-data]
 ---
 

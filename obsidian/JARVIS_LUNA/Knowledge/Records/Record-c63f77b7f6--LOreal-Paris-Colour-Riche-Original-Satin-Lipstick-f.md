@@ -2,7 +2,7 @@
 title: "Record c63f77b7f6 · LOreal-Paris-Colour-Riche-Original-Satin-Lipstick-f"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T21:12:53.518874+00:00
+updated_at: 2026-09-27T05:21:29.639902+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** L'Oreal Paris Colour Riche Original Satin Lipstick for Moisturized Lips, Plum Explosion, 0.13 oz
 
 L'Oreal Paris Colour Riche Original Satin Lipstick for Moisturized Lips, Plum Explosion, 0.13 oz
-L'Oreal Paris Colour Riche Original Satin Lipstick for Moisturized Lips, Plum Explosion, 0.13 oz · $7.97 · 평점 4.4 · 리뷰 7,940
+L'Oreal Paris Colour Riche Original Satin Lipstick for Moisturized Lips, Plum Explosion, 0.13 oz · $7.97 · 평점 4.4 · 리뷰 8,036
 
 **출처:** Source · us_beauty
 

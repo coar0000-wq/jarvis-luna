@@ -2,7 +2,7 @@
 title: "Record 3e19109fe9 · An-activation-biased-2B4-costimulatory-domain-enhances-IFN-γ-productio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T21:12:52.342138+00:00
+updated_at: 2026-09-27T05:21:28.450172+00:00
 tags: [record, real-data]
 ---
 

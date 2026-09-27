@@ -2,7 +2,7 @@
 title: "Record 587df2b985 · Barclays-strengthens-Japan-Cash-Equities-franchise-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T21:12:52.688409+00:00
+updated_at: 2026-09-27T05:21:28.796049+00:00
 tags: [record, real-data]
 ---
 

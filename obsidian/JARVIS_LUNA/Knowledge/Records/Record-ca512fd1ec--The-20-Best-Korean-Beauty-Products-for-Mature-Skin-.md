@@ -2,7 +2,7 @@
 title: "Record ca512fd1ec · The-20-Best-Korean-Beauty-Products-for-Mature-Skin-According-to-a-K-Be"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T21:12:53.041688+00:00
+updated_at: 2026-09-27T05:21:29.150799+00:00
 tags: [record, real-data]
 ---
 

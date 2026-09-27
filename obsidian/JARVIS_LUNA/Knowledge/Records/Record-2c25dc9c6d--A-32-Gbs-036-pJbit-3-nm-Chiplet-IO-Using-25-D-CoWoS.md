@@ -2,7 +2,7 @@
 title: "Record 2c25dc9c6d · A-32-Gbs-036-pJbit-3-nm-Chiplet-IO-Using-25-D-CoWoS"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T21:12:52.429907+00:00
+updated_at: 2026-09-27T05:21:28.535501+00:00
 tags: [record, real-data]
 ---
 

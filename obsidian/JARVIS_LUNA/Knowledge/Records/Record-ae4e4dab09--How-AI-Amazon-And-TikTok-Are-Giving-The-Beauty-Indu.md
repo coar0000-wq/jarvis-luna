@@ -2,7 +2,7 @@
 title: "Record ae4e4dab09 · How-AI-Amazon-And-TikTok-Are-Giving-The-Beauty-Indu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T21:12:53.103396+00:00
+updated_at: 2026-09-27T05:21:29.207779+00:00
 tags: [record, real-data]
 ---
 

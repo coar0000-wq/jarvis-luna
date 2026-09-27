@@ -2,7 +2,7 @@
 title: "Record e7f9feb26e · Q-tips-Cotton-Swabs-Original-For-Home-First-Aid-and"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T21:12:53.520907+00:00
+updated_at: 2026-09-27T05:21:29.642228+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** Q-tips Cotton Swabs, Original, For Home, First Aid and Beauty, 100% Cotton, 500 Count
 
 Q-tips Cotton Swabs, Original, For Home, First Aid and Beauty, 100% Cotton, 500 Count
-Q-tips Cotton Swabs, Original, For Home, First Aid and Beauty, 100% Cotton, 500 Count · $3.5 · 평점 4.8 · 리뷰 45,591
+Q-tips Cotton Swabs, Original, For Home, First Aid and Beauty, 100% Cotton, 500 Count · $3.87 · 평점 4.8 · 리뷰 46,184
 
 **출처:** Source · us_beauty
 

@@ -2,7 +2,7 @@
 title: "Record ea02ee7c48 · Visible-Reachable-Workspace-for-Perception-Aware-Hu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T21:12:52.174853+00:00
+updated_at: 2026-09-27T05:21:28.299205+00:00
 tags: [record, real-data]
 ---
 

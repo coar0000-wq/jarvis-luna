@@ -2,7 +2,7 @@
 title: "Record 14eec204c3 · Macquarie-PE-Acquires-Hwasung-Cosmetics-and-Nowcos-for-300-Billion-Sec"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T21:12:52.864241+00:00
+updated_at: 2026-09-27T05:21:28.978800+00:00
 tags: [record, real-data]
 ---
 

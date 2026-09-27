@@ -2,7 +2,7 @@
 title: "Record 76c95cd852 · How-loveholidays-is-making-everyone-a-builder-with-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-26T21:12:53.147040+00:00
+updated_at: 2026-09-27T05:21:29.257365+00:00
 tags: [record, real-data]
 ---
 
