@@ -119,6 +119,29 @@
         "legal": "시설 ID와 제품 리스팅은 mocra_profile의 실증 자료와 대조한다. 번호를 생성하거나 FDA 승인으로 표현하는 콘텐츠를 차단한다.",
         "knowledge": "고객 문제→후보 추천→규제·마진·콘텐츠 검증→승인→성과→실패 원인 학습의 운영 루프를 문서화하고 각 단계의 입력·출력·사람 승인 지점을 관리한다."
       }
+    },
+    {
+      "id": "2026-09-27-multi-agent-marketing-pipeline-review",
+      "date": "2026-09-27",
+      "title": "JARVIS LUNA Multi-Agent 마케팅 워크플로우 검토·안전 적용",
+      "source": "user_provided_gemini_app",
+      "source_url": "https://share.gemini.google/9PFLmGZM2rqu",
+      "verification_status": "architecture_review_with_safe_execution_gates",
+      "teams": [
+        "market",
+        "listing",
+        "design",
+        "legal",
+        "knowledge"
+      ],
+      "summary": "제안된 8단계 흐름은 JARVIS의 수집→구조화→비서실장 라우팅→분석→카피→디자인→검수→채널 전달 구조와 방향이 맞다. 다만 실시간 수집, 고화질 미디어 자동 생성, SNS 자동 게시라는 표현은 현재 구현보다 앞서 있으므로 각각 주기 수집, 초안·레퍼런스 단계, 사람 승인 후 실행으로 정정한다. Shopify 카피 10건은 준비됐지만 공개 준비는 0건이며 외부 채널 쓰기는 연결하지 않는다.",
+      "team_actions": {
+        "market": "S등급을 매출 보장이 아닌 내부 우선순위로 유지하고 채널별 성과 데이터가 실제 수집된 뒤에만 다음 가설을 갱신한다.",
+        "listing": "canonical_product_id, 출처, 고시·라벨·가격·법률 게이트가 포함된 구조화 JSON만 카피 입력으로 사용한다.",
+        "design": "AI 시각물은 초안으로만 만들고 제품 용량·색·제형·라벨·포장·전후 결과의 실물 일치 검수를 필수화한다.",
+        "legal": "MoCRA/FPLA, 책임자, 실재고, 라벨 증거가 없으면 공개 준비나 게시 승인으로 전환하지 않는다.",
+        "knowledge": "data/manual/multi_agent_marketing_pipeline.json을 8단계 운영 정본으로 사용하고 구현 상태와 외부 쓰기 승인 지점을 계속 기록한다."
+      }
     }
   ]
 }

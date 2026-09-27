@@ -47,6 +47,7 @@ def main() -> int:
     ops_plan = load(D / "agents" / "ops_plan.json")
     improvement = load(D / "team_improvement.json")
     error_report = load(D / "error_report.json")
+    marketing_pipeline = load(D / "manual" / "multi_agent_marketing_pipeline.json")
 
     # 게이트가 낡았으면 그 아래 조인은 전부 낡은 판정 위에 서 있다.
     # 이 검사가 없어서 예전에는 낡은 ready 로 만든 Action 도 OK 가 나왔다.
@@ -230,6 +231,28 @@ def main() -> int:
             "blocked_until_explicit_user_approval", "유료 마케팅 기본 차단 정책 위반")
     require((market.get("shopify_strategy") or {}).get("status") == strategy.get("status"),
             "market_team 전략 요약과 정본 불일치")
+
+    # Gemini 앱의 8단계 마케팅 설계는 방향 정본으로 쓰되, 구현되지 않은
+    # 실시간 수집·시각물 생성·SNS 공개 게시를 완료처럼 보이지 않게 고정한다.
+    stages = {str(x.get("id")): x for x in marketing_pipeline.get("stages") or []}
+    require(len(stages) == 8, "Multi-Agent 마케팅 8단계 정본 누락")
+    delivery = stages.get("channel_delivery") or {}
+    global_policy = marketing_pipeline.get("global_policy") or {}
+    require(delivery.get("implementation") == "blocked_safe_default"
+            and delivery.get("execution_mode") == "human_approval_only"
+            and delivery.get("auto_publish") is False
+            and delivery.get("connector_status") == "disabled",
+            "SNS·이커머스 외부 게시 안전 기본값 위반")
+    require(global_policy.get("paid_api_allowed") is False
+            and global_policy.get("paid_media_allowed") is False
+            and global_policy.get("public_auto_publish_allowed") is False
+            and global_policy.get("human_approval_required_for_external_write") is True
+            and global_policy.get("read_after_write_required") is True,
+            "Multi-Agent 마케팅 전역 비용·승인 정책 위반")
+    require((stages.get("data_engine") or {}).get("implementation") ==
+            "implemented_scheduled", "주기 수집을 실시간으로 오표기함")
+    require((stages.get("design_media") or {}).get("implementation") ==
+            "planning_and_reference_collection", "미디어 생성 구현 상태 오표기")
 
     for script in ("build_legal_full.py", "export_shopify_operational.py",
                    "build_shopify_action_queue.py"):

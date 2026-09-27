@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-27T14:11:13.890692+00:00",
+  "generated_at": "2026-09-27T14:26:27.250312+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
-  "pool_size": 2363,
+  "pool_size": 2364,
   "제목없어_버림": 38,
   "unrouted": 9,
   "summary": {
@@ -15,17 +15,17 @@
       "products": 345
     },
     "market": {
-      "total": 553,
-      "recent": 42,
-      "material": 553,
-      "material_recent": 42,
+      "total": 554,
+      "recent": 43,
+      "material": 554,
+      "material_recent": 43,
       "products": 0
     },
     "listing": {
-      "total": 72,
-      "recent": 10,
-      "material": 72,
-      "material_recent": 10,
+      "total": 73,
+      "recent": 11,
+      "material": 73,
+      "material_recent": 11,
       "products": 0
     },
     "pricing": {
@@ -36,17 +36,17 @@
       "products": 0
     },
     "legal": {
-      "total": 156,
-      "recent": 25,
-      "material": 156,
-      "material_recent": 25,
+      "total": 157,
+      "recent": 26,
+      "material": 157,
+      "material_recent": 26,
       "products": 0
     },
     "design": {
-      "total": 409,
-      "recent": 76,
-      "material": 409,
-      "material_recent": 76,
+      "total": 410,
+      "recent": 77,
+      "material": 410,
+      "material_recent": 77,
       "products": 0
     },
     "robotics": {
@@ -57,10 +57,10 @@
       "products": 0
     },
     "knowledge": {
-      "total": 192,
-      "recent": 70,
-      "material": 192,
-      "material_recent": 70,
+      "total": 193,
+      "recent": 71,
+      "material": 193,
+      "material_recent": 71,
       "products": 0
     },
     "institutions": {
@@ -506,6 +506,14 @@
     ],
     "market": [
       {
+        "title": "JARVIS LUNA Multi-Agent 마케팅 워크플로우 검토·안전 적용",
+        "url": "https://share.gemini.google/9PFLmGZM2rqu",
+        "pool": "team_briefing",
+        "summary": "제안된 8단계 흐름은 JARVIS의 수집→구조화→비서실장 라우팅→분석→카피→디자인→검수→채널 전달 구조와 방향이 맞다. 다만 실시간 수집, 고화질 미디어 자동 생성, SNS 자동 게시라는 표현은 현재 구현보다 앞서 있으므로 각각 주기 수집, 초안·레퍼런스 단계, 사람 승인 후 실행으로 정정한다. Shopify 카피 10건은 준비됐지만 공개 준비는 0건이며 외부 채널 쓰기는 연결하지 않는다.",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
         "title": "Digital Marketing 101: 10 Strategies Every Shopify Store Needs (Marketing Masterclass Part 1)",
         "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
         "pool": "youtube_manual",
@@ -929,16 +937,17 @@
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
-      },
-      {
-        "title": "Better context for your store's data",
-        "url": "https://www.youtube.com/watch?v=DiJc9gsgzn8",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
       }
     ],
     "listing": [
+      {
+        "title": "JARVIS LUNA Multi-Agent 마케팅 워크플로우 검토·안전 적용",
+        "url": "https://share.gemini.google/9PFLmGZM2rqu",
+        "pool": "team_briefing",
+        "summary": "제안된 8단계 흐름은 JARVIS의 수집→구조화→비서실장 라우팅→분석→카피→디자인→검수→채널 전달 구조와 방향이 맞다. 다만 실시간 수집, 고화질 미디어 자동 생성, SNS 자동 게시라는 표현은 현재 구현보다 앞서 있으므로 각각 주기 수집, 초안·레퍼런스 단계, 사람 승인 후 실행으로 정정한다. Shopify 카피 10건은 준비됐지만 공개 준비는 0건이며 외부 채널 쓰기는 연결하지 않는다.",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
       {
         "title": "Digital Marketing 101: 10 Strategies Every Shopify Store Needs (Marketing Masterclass Part 1)",
         "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
@@ -1365,13 +1374,6 @@
         "pool": "fda",
         "date": "2025-07-15",
         "by_hand": false
-      },
-      {
-        "title": "[Rule] Listing of Color Additives; Myoglobin; Confirmation of Effective Date",
-        "url": "https://www.federalregister.gov/documents/2025/05/29/2025-09680/listing-of-color-additives-myoglobin-confirmation-of-effective-date",
-        "pool": "fda",
-        "date": "2025-05-29",
-        "by_hand": false
       }
     ],
     "pricing": [
@@ -1508,6 +1510,14 @@
       }
     ],
     "legal": [
+      {
+        "title": "JARVIS LUNA Multi-Agent 마케팅 워크플로우 검토·안전 적용",
+        "url": "https://share.gemini.google/9PFLmGZM2rqu",
+        "pool": "team_briefing",
+        "summary": "제안된 8단계 흐름은 JARVIS의 수집→구조화→비서실장 라우팅→분석→카피→디자인→검수→채널 전달 구조와 방향이 맞다. 다만 실시간 수집, 고화질 미디어 자동 생성, SNS 자동 게시라는 표현은 현재 구현보다 앞서 있으므로 각각 주기 수집, 초안·레퍼런스 단계, 사람 승인 후 실행으로 정정한다. Shopify 카피 10건은 준비됐지만 공개 준비는 0건이며 외부 채널 쓰기는 연결하지 않는다.",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
       {
         "title": "쇼츠 스토리·프리미엄 이미지 제작 원칙",
         "url": "",
@@ -1922,16 +1932,17 @@
         "pool": "fda",
         "date": "2025-11-28",
         "by_hand": false
-      },
-      {
-        "title": "Reef Kids SPF 30 Oxybenzone Free",
-        "url": "https://api.fda.gov/drug/label.json",
-        "pool": "fda",
-        "date": "2025-11-04",
-        "by_hand": false
       }
     ],
     "design": [
+      {
+        "title": "JARVIS LUNA Multi-Agent 마케팅 워크플로우 검토·안전 적용",
+        "url": "https://share.gemini.google/9PFLmGZM2rqu",
+        "pool": "team_briefing",
+        "summary": "제안된 8단계 흐름은 JARVIS의 수집→구조화→비서실장 라우팅→분석→카피→디자인→검수→채널 전달 구조와 방향이 맞다. 다만 실시간 수집, 고화질 미디어 자동 생성, SNS 자동 게시라는 표현은 현재 구현보다 앞서 있으므로 각각 주기 수집, 초안·레퍼런스 단계, 사람 승인 후 실행으로 정정한다. Shopify 카피 10건은 준비됐지만 공개 준비는 0건이며 외부 채널 쓰기는 연결하지 않는다.",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
       {
         "title": "I Studied 1,000 Shopify Stores, Here’s What Works in 2026",
         "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
@@ -2354,13 +2365,6 @@
       {
         "title": "How to Find Winning Products with AI 🤖 (Shopify Tutorial)",
         "url": "https://www.youtube.com/watch?v=QsxT7MuyRfk",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Google Gemini in Google Workspace Complete Tutorial (+ NotebookLM & Gemini Enterprise)",
-        "url": "https://www.youtube.com/watch?v=SUlf_JpbHjc",
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
@@ -2790,6 +2794,14 @@
     ],
     "knowledge": [
       {
+        "title": "JARVIS LUNA Multi-Agent 마케팅 워크플로우 검토·안전 적용",
+        "url": "https://share.gemini.google/9PFLmGZM2rqu",
+        "pool": "team_briefing",
+        "summary": "제안된 8단계 흐름은 JARVIS의 수집→구조화→비서실장 라우팅→분석→카피→디자인→검수→채널 전달 구조와 방향이 맞다. 다만 실시간 수집, 고화질 미디어 자동 생성, SNS 자동 게시라는 표현은 현재 구현보다 앞서 있으므로 각각 주기 수집, 초안·레퍼런스 단계, 사람 승인 후 실행으로 정정한다. Shopify 카피 10건은 준비됐지만 공개 준비는 0건이며 외부 채널 쓰기는 연결하지 않는다.",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
         "title": "고객 문제·포지셔닝·신뢰·수익구조·운영 루프 정의",
         "url": "",
         "pool": "team_briefing",
@@ -3202,13 +3214,6 @@
       {
         "title": "DriveReferee: Geometric Safety Verdicts Need Not Be Learned for Driving World-Action Models",
         "url": "https://arxiv.org/abs/2609.22762",
-        "pool": "arxiv",
-        "date": "2026-09-19",
-        "by_hand": false
-      },
-      {
-        "title": "CrowdCue: Specialist-Cue Conditioning for Vision-Language Crowd Counting",
-        "url": "https://arxiv.org/abs/2609.23012",
         "pool": "arxiv",
         "date": "2026-09-19",
         "by_hand": false
