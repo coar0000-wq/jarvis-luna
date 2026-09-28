@@ -81,6 +81,8 @@ def main() -> int:
     legal = rows_by_id(load(D / "legal_products.json", {}))
     copies = rows_by_id(load(D / "shopify_listing_copy.json", {}))
     responsible = rp_presence(clean_rp(load(D / "manual" / "legal_responsible_person.json", {})))
+    # 제조사·판매처 공식 원문에서 확인한 라벨 텍스트 (2026-09-28). 출처 URL 이 붙어 있다.
+    official = (load(D / "manual" / "official_label_text.json", {}) or {}).get("items") or {}
     overrides_doc = load(D / "manual" / "legal_product_overrides.json", {}) or {}
     overrides = overrides_doc.get("items", overrides_doc) if isinstance(overrides_doc, dict) else {}
     previous = load(OUT, {}) or {}
@@ -107,11 +109,12 @@ def main() -> int:
         identity = identity_raw if real(identity_raw) else ""
         inci = us.get("ingredients_inci") if real(us.get("ingredients_inci")) else ""
         ingredients = split_inci(str(inci))
-        net_raw = override.get("net_contents") or us.get("net_contents")
+        net_raw = override.get("net_contents") or (official.get(pd_no) or {}).get("net_contents_en") or us.get("net_contents")
         net = net_raw if real(net_raw) else ""
-        directions_raw = override.get("directions") or us.get("directions_en")
+        off = official.get(pd_no) or {}
+        directions_raw = override.get("directions") or us.get("directions_en") or off.get("directions_en")
         directions = directions_raw if real(directions_raw) else ""
-        warnings_raw = override.get("warnings") or us.get("warnings_en")
+        warnings_raw = override.get("warnings") or us.get("warnings_en") or off.get("warnings_en")
         warnings = warnings_raw if real(warnings_raw) else ""
         item_rp = responsible.copy()
         item_rp.update({k: MASK for k, v in clean_rp(override.get("responsible_person", {})).items() if v})
@@ -150,10 +153,15 @@ def main() -> int:
                 "identity": "manual_override" if override.get("identity") else "shopify_listing_copy.json" if identity else "human_required",
                 "ingredients": "daiso_us_labels.json" if ingredients else "human_required",
                 "net_contents": "manual_override" if override.get("net_contents") else "daiso_us_labels.json" if net else "human_required",
-                "directions": "manual_override" if override.get("directions") else "daiso_us_labels.json" if directions else "human_translation_required",
-                "warnings": "manual_override" if override.get("warnings") else "daiso_us_labels.json" if warnings else "human_translation_required",
+                "directions": ("manual_override" if override.get("directions") else "daiso_us_labels.json" if us.get("directions_en")
+                               else "official_label_text.json" if directions else "human_translation_required"),
+                "warnings": ("manual_override" if override.get("warnings") else "daiso_us_labels.json" if us.get("warnings_en")
+                             else "official_label_text.json" if warnings else "human_translation_required"),
+                "official_text": [s.get("url") for s in off.get("sources") or []],
+                "ingredients_verification": off.get("verification", ""),
                 "responsible_person": "manual_verified" if not missing_rp else "human_required",
             },
+            "translation_status": off.get("translation_status") if off else None,
             "auto_legal_status": check.get("status", "missing"),
             "hard_block": bool(check.get("hard_block")),
             "hard_block_reason": check.get("hard_block_reason", ""),

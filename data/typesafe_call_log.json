@@ -1,0 +1,130 @@
+{
+  "generated_at": "2026-09-28T12:34:14.025327+00:00",
+  "note": "Jev(TypeSafe) 실호출 근거. HTTP 상태·모델·토큰·공급자 요청 ID. 키는 기록하지 않는다.",
+  "total_ok_calls": 11,
+  "total_failed_calls": 0,
+  "last_ok_call_at": "2026-09-28T12:34:14.025327+00:00",
+  "calls": [
+    {
+      "at": "2026-09-27T14:08:49.446133+00:00",
+      "pd_no": "1067495",
+      "http": null,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 945,
+      "output_tokens": 161,
+      "request_id": "",
+      "evidence": "typesafe_advisory.json 기록(공급자 응답 토큰). 요청 ID 수집 전"
+    },
+    {
+      "at": "2026-09-28T12:34:12.835915+00:00",
+      "pd_no": "1049276",
+      "http": null,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1105,
+      "output_tokens": 198,
+      "request_id": "",
+      "evidence": "typesafe_advisory.json 기록(공급자 응답 토큰). 요청 ID 수집 전"
+    },
+    {
+      "at": "2026-09-28T12:34:12.952697+00:00",
+      "pd_no": "1055167",
+      "http": null,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1085,
+      "output_tokens": 198,
+      "request_id": "",
+      "evidence": "typesafe_advisory.json 기록(공급자 응답 토큰). 요청 ID 수집 전"
+    },
+    {
+      "at": "2026-09-28T12:34:13.083531+00:00",
+      "pd_no": "1049275",
+      "http": null,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1104,
+      "output_tokens": 198,
+      "request_id": "",
+      "evidence": "typesafe_advisory.json 기록(공급자 응답 토큰). 요청 ID 수집 전"
+    },
+    {
+      "at": "2026-09-28T12:34:13.234544+00:00",
+      "pd_no": "1067498",
+      "http": null,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1086,
+      "output_tokens": 198,
+      "request_id": "",
+      "evidence": "typesafe_advisory.json 기록(공급자 응답 토큰). 요청 ID 수집 전"
+    },
+    {
+      "at": "2026-09-28T12:34:13.330287+00:00",
+      "pd_no": "1072554",
+      "http": null,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1097,
+      "output_tokens": 198,
+      "request_id": "",
+      "evidence": "typesafe_advisory.json 기록(공급자 응답 토큰). 요청 ID 수집 전"
+    },
+    {
+      "at": "2026-09-28T12:34:13.487472+00:00",
+      "pd_no": "1075857",
+      "http": null,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1090,
+      "output_tokens": 198,
+      "request_id": "",
+      "evidence": "typesafe_advisory.json 기록(공급자 응답 토큰). 요청 ID 수집 전"
+    },
+    {
+      "at": "2026-09-28T12:34:13.609243+00:00",
+      "pd_no": "1059834",
+      "http": null,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1094,
+      "output_tokens": 198,
+      "request_id": "",
+      "evidence": "typesafe_advisory.json 기록(공급자 응답 토큰). 요청 ID 수집 전"
+    },
+    {
+      "at": "2026-09-28T12:34:13.744154+00:00",
+      "pd_no": "1049285",
+      "http": null,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1096,
+      "output_tokens": 198,
+      "request_id": "",
+      "evidence": "typesafe_advisory.json 기록(공급자 응답 토큰). 요청 ID 수집 전"
+    },
+    {
+      "at": "2026-09-28T12:34:13.893178+00:00",
+      "pd_no": "1027327",
+      "http": null,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1113,
+      "output_tokens": 198,
+      "request_id": "",
+      "evidence": "typesafe_advisory.json 기록(공급자 응답 토큰). 요청 ID 수집 전"
+    },
+    {
+      "at": "2026-09-28T12:34:14.025327+00:00",
+      "pd_no": "1042619",
+      "http": null,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1091,
+      "output_tokens": 198,
+      "request_id": "",
+      "evidence": "typesafe_advisory.json 기록(공급자 응답 토큰). 요청 ID 수집 전"
+    }
+  ]
+}

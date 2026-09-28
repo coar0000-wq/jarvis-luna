@@ -18,6 +18,7 @@ import json
 import os
 import urllib.error
 import urllib.request
+from datetime import datetime, timezone
 from typing import Any
 
 ENDPOINT = "https://api.typesafe.ai/v1/systemone"
@@ -39,6 +40,9 @@ _LEDGER: dict[str, Any] = {
     "input_tokens": 0,
     "output_tokens": 0,
     "stopped": "",
+    # 호출 하나하나의 근거 (2026-09-28). "키만 있고 실호출이 없다" 는 의심에
+    # 답할 수 있게 HTTP 상태·모델·토큰·공급자 요청 ID 를 남긴다. 키는 남기지 않는다.
+    "call_log": [],
 }
 
 
@@ -248,8 +252,15 @@ def _request(payload: dict[str, Any], api_key: str) -> dict[str, Any]:
     )
     try:
         with urllib.request.urlopen(request, timeout=TIMEOUT) as response:
-            return json.loads(response.read().decode("utf-8"))
+            body = json.loads(response.read().decode("utf-8"))
+            rid = (response.headers.get("x-request-id") or response.headers.get("request-id")
+                   or body.get("id") or "")
+            body["_http"] = {"status": response.status, "request_id": str(rid)[:80]}
+            return body
     except urllib.error.HTTPError as exc:
+        _LEDGER["call_log"].append({"at": datetime.now(timezone.utc).isoformat(),
+                                    "http": exc.code, "ok": False})
+        print(f"TypeSafe 실호출 HTTP {exc.code} (실패)")
         # 공급자 본문은 산출물에 남기지 않는다. 진단 내용에 민감 정보가
         # 섞일 가능성을 막고 상태 코드만 보존한다.
         if exc.code in STOP_STATUSES:
@@ -299,6 +310,20 @@ def evaluate(context: dict[str, Any]) -> dict[str, Any]:
     try:
         response = _request(_payload(context), api_key)
         usage = response.get("usage") or {}
+        http = response.pop("_http", {}) or {}
+        _LEDGER["call_log"].append({
+            "at": datetime.now(timezone.utc).isoformat(),
+            "pd_no": str(context.get("pd_no") or ""),
+            "http": http.get("status"), "ok": True,
+            "model": response.get("model") or MODEL,
+            "input_tokens": int(usage.get("input_tokens") or 0),
+            "output_tokens": int(usage.get("output_tokens") or 0),
+            "request_id": http.get("request_id") or "",
+        })
+        print(f"TypeSafe 실호출 #{_LEDGER['calls'] + 1} HTTP {http.get('status')} "
+              f"model={response.get('model') or MODEL} pd_no={context.get('pd_no')} "
+              f"in={usage.get('input_tokens')} out={usage.get('output_tokens')} "
+              f"req={http.get('request_id') or '-'}")
         _LEDGER["calls"] += 1
         _LEDGER["input_tokens"] += int(usage.get("input_tokens") or 0)
         _LEDGER["output_tokens"] += int(usage.get("output_tokens") or 0)

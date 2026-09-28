@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-28T21:36:08.186856+09:00",
+  "generated_at": "2026-09-28T21:45:59.942155+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
@@ -89,7 +89,7 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-09-28T21:34:16.658831+09:00",
+      "when": "2026-09-28T21:38:57.482586+09:00",
       "summary": "S등급 10개 · 고시 판독 남음 0건 · 유튜브 자막 12편 · 근거 29개 · 실험 12개 · 새 자료 83건 · 영상 학습 30개",
       "action": null,
       "action_kind": null,
@@ -132,8 +132,8 @@
     {
       "id": "listing",
       "name": "리스팅 제작팀",
-      "when": "2026-09-28T12:34:14.025360+00:00",
-      "summary": "AI 입력 9/10 · 초안 준비 9/10 · 공개 준비 0/10 · Action 8건 · CP 10 · 카피 9 · 고시 10 · 가격 10 · 법률 9 · Jev 판정 10건(입력 10,961토큰 · $0.0005, 무료 크레딧) · 영상 학습 27개",
+      "when": "2026-09-28T12:45:39.122818+00:00",
+      "summary": "AI 입력 9/10 · 초안 준비 9/10 · 공개 준비 0/10 · Action 8건 · CP 10 · 카피 9 · 고시 10 · 가격 10 · 법률 9 · Jev 판정 10건(이번 회차 재사용 · 누적 실호출 11회 · 마지막 09-28 21:34) · 영상 학습 27개",
       "action": null,
       "action_kind": null,
       "waiting": "카피 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 8건 사람 승인 대기",
@@ -217,7 +217,7 @@
       "id": "legal",
       "name": "법률·규제팀",
       "when": "2026-09-28T12:34:07.996297+00:00",
-      "summary": "자동 점검 10건 · 통과 0 · 등록 차단 1 · 참고 주의 10 · MoCRA 준비 0/7 · 영문라벨 23/27 · 표기 되돌림 6건 · 성분표기 확인 6종 · 수출서류 HS 10건 · 라벨 4/6항목 자동 · 새 자료 46건 · 영상 학습 19개",
+      "summary": "자동 점검 10건 · 통과 0 · 등록 차단 1 · 참고 주의 10 · MoCRA 준비 1/7(면제 3) · 영문라벨 23/27 · 표기 되돌림 6건 · 성분표기 확인 6종 · 수출서류 HS 10건 · 라벨 4/6항목 자동 · 새 자료 46건 · 영상 학습 19개",
       "action": null,
       "action_kind": null,
       "waiting": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
@@ -398,7 +398,7 @@
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-09-28T21:36:03.816336+09:00",
+      "when": "2026-09-28T21:39:01.888951+09:00",
       "summary": "83,173노트 · 343,807링크 · 끊어진 링크 0건 · 개인 노트 16건 별도 · 미분류 8.4% · 학습 키워드 9개 · 영상 30편 자막 검토 대기",
       "action": null,
       "action_kind": null,
@@ -422,7 +422,7 @@
     "id": "secretary",
     "name": "비서실장",
     "badge": "총괄",
-    "when": "2026-09-28T21:34:07.916361+09:00",
+    "when": "2026-09-28T21:38:57.424586+09:00",
     "summary": "2시간 주기 · 고시 27건 · US라벨 27건 · 카피 10건 · 등록 가능 9건 · 법률 차단 1건",
     "action": null,
     "action_kind": null,
@@ -432,37 +432,37 @@
         "단계": "고시 수집",
         "산출물": "gosi.json",
         "갱신": "2026-09-28T09:45:25.294372+00:00",
-        "몇시간전": 2.8
+        "몇시간전": 3.0
       },
       {
         "단계": "고시 비전 추출",
         "산출물": "gosi.json",
-        "갱신": "2026-09-28T21:21:38.575581+09:00",
-        "몇시간전": 0.2
+        "갱신": "2026-09-28T18:54:32.268064+09:00",
+        "몇시간전": 2.9
       },
       {
         "단계": "US 라벨 동기화",
         "산출물": "daiso_us_labels.json",
-        "갱신": "2026-09-28T21:34:07.916361+09:00",
-        "몇시간전": 0.0
+        "갱신": "2026-09-28T21:38:57.424586+09:00",
+        "몇시간전": 0.1
       },
       {
         "단계": "리스팅 카피",
         "산출물": "shopify_listing_copy.json",
         "갱신": "2026-09-28T12:34:09.432102+00:00",
-        "몇시간전": 0.0
+        "몇시간전": 0.2
       },
       {
         "단계": "등록 게이트",
         "산출물": "listing_gate.json",
-        "갱신": "2026-09-28T12:34:14.025360+00:00",
+        "갱신": "2026-09-28T12:45:39.122818+00:00",
         "몇시간전": 0.0
       },
       {
         "단계": "법률 점검",
         "산출물": "legal_products.json",
         "갱신": "2026-09-28T12:34:07.996297+00:00",
-        "몇시간전": 0.0
+        "몇시간전": 0.2
       }
     ],
     "_근거": "JARVIS Deep Analysis가 2시간마다 남기는 Safe Auto-Fix 보고서를 heartbeat로 본다. 개별 파생 파일은 입력 무변경 시 mtime이 유지되므로 지연 판정에 쓰지 않는다."
@@ -795,7 +795,7 @@
     "status": "completed",
     "record_count": 5175,
     "source_counts": {},
-    "updated_at": "2026-09-28T21:26:42.100780+09:00"
+    "updated_at": "2026-09-28T21:38:57.456606+09:00"
   },
   "shopify_marketing_strategy": {
     "status": "evidence_ready",
@@ -1134,7 +1134,7 @@
     "topics": 28,
     "orgs": 35,
     "audit": "passed",
-    "last_generated": "2026-09-28T21:36:03.816336+09:00"
+    "last_generated": "2026-09-28T21:39:01.888951+09:00"
   },
   "training": {
     "status": "completed",
@@ -2422,7 +2422,7 @@
       "collected_at": "2026-09-27T23:23:29.610468+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 13.2,
+      "age_hours": 13.4,
       "stale": false
     },
     "walmart_beauty": {
@@ -2432,7 +2432,7 @@
       "collected_at": "2026-09-27T23:23:29.611493+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 13.2,
+      "age_hours": 13.4,
       "stale": false
     },
     "oliveyoung_us": {
@@ -2442,7 +2442,7 @@
       "collected_at": "2026-09-28T12:27:04.906003+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 0.2,
+      "age_hours": 0.3,
       "stale": false
     },
     "google_trends_us": {
@@ -2452,7 +2452,7 @@
       "collected_at": "2026-09-28T12:27:47.877262+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 0.1,
+      "age_hours": 0.3,
       "stale": false
     },
     "wikipedia_interest": {
@@ -2463,7 +2463,7 @@
       "count": 8,
       "trust": "verified",
       "note": "2026-08-28 ~ 2026-09-26 일별 조회수. 후반 15일 대비 전반 15일 증감률",
-      "age_hours": 2.0,
+      "age_hours": 2.1,
       "stale": false
     },
     "allure_media": {
@@ -2474,7 +2474,7 @@
       "count": 15,
       "trust": "verified",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
-      "age_hours": 2.0,
+      "age_hours": 2.1,
       "stale": false
     },
     "openfda_sunscreen": {
@@ -2485,7 +2485,7 @@
       "count": 15,
       "trust": "verified",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다.",
-      "age_hours": 2.0,
+      "age_hours": 2.1,
       "stale": false
     },
     "shopify_demand_matching": {
@@ -2511,7 +2511,7 @@
       "collected_at": "2026-09-27T23:23:29.612193+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 13.2,
+      "age_hours": 13.4,
       "stale": false
     },
     "sephora": {
@@ -2521,7 +2521,7 @@
       "collected_at": "2026-09-27T23:23:29.612193+00:00",
       "count": 14,
       "trust": "verified",
-      "age_hours": 13.2,
+      "age_hours": 13.4,
       "stale": false
     },
     "open_beauty_facts": {
@@ -2531,7 +2531,7 @@
       "collected_at": "2026-09-28T12:27:04.204567+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 0.2,
+      "age_hours": 0.3,
       "stale": false
     }
   },
@@ -2541,14 +2541,5 @@
     "source": "https://open.er-api.com/v6/latest/USD",
     "updated_at": "2026-09-28"
   },
-  "last_synced": "09. 28. 오후 09:33 KST",
-  "commit_summary": {
-    "line": "agents: 조치후보 4건 · risk low · force",
-    "agents_line": "agents: 조치후보 4건 · risk low · force"
-  },
-  "agents_ops": {
-    "risk": "low",
-    "task_count": 4,
-    "at": "2026-09-28T12:36:08.266205+00:00"
-  }
+  "last_synced": "09. 28. 오후 09:33 KST"
 }

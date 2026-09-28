@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-28T12:34:12.637012+00:00",
+  "generated_at": "2026-09-28T12:45:28.386967+00:00",
   "generator": "scripts/build_legal_full.py",
   "scope": "현재 S등급 상품별 미국 화장품 라벨/MoCRA 공개 준비 상태",
   "truth_policy": "미확인 값은 빈칸으로 두며 예시 주소·전화·성분을 사용하지 않는다",
@@ -22,10 +22,10 @@
   "complete": 0,
   "blocked": 10,
   "responsible_person": {
-    "name": "",
+    "name": "(비공개 보관)",
     "address": "",
-    "email": "",
-    "phone": ""
+    "email": "(비공개 보관)",
+    "phone": "(비공개 보관)"
   },
   "manual_product_overrides": "data/manual/legal_product_overrides.json",
   "extensions": {},
@@ -80,14 +80,14 @@
         "Cysteine"
       ],
       "ingredients_inci_raw": "Water, Dipropylene Glycol, Glycerin, Niacinamide, Butylene Glycol, Macadamia Ternifolia Seed Oil, 1,2-Hexanediol, Ethylhexyl Palmitate, Silica, Sodium Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Polyisobutene, Glycereth-26, Ethylhexylglycerin, Caprylyl Glycol, Adenosine, Sodium Polyacrylate, Centella Asiatica Extract, Sodium Hyaluronate, Caprylyl/Capryl Glucoside, Sorbitan Oleate, Xanthan Gum, Propolis Extract, Asiaticoside, Madecassoside, Madecassic Acid, Asiatic Acid, Glycine, Serine, Glutamic Acid, Aspartic Acid, Leucine, Alanine, Lysine, Arginine, Tyrosine, Phenylalanine, Threonine, Proline, Valine, Isoleucine, Histidine, Methionine, Cysteine",
-      "net_contents": "2ml",
-      "directions": "",
-      "warnings": "",
+      "net_contents": "2 mL × 6",
+      "directions": "During your evening skincare routine, take an appropriate amount onto clean, bare skin after cleansing and spread it by pressing gently with your fingertips. After Reedle Shot 300 is absorbed, finish with a moisturizing skincare product or a skincare product containing the active ingredients you want to enhance.",
+      "warnings": "Stop use and consult a dermatologist if redness, swelling, itching or other irritation occurs during or after use, including after sun exposure. Do not apply to wounds or broken skin. Avoid contact with eyes and lips. Do not use with beauty devices or after laser or other skin procedures. A tingling sensation may occur and varies by individual. If you have allergic or sensitive skin, patch test on a small area before use. Use sunscreen when exposed to sunlight after use. Keep out of reach of children. Store away from direct sunlight.",
       "responsible_person": {
-        "name": "",
+        "name": "(비공개 보관)",
         "address": "",
-        "email": "",
-        "phone": ""
+        "email": "(비공개 보관)",
+        "phone": "(비공개 보관)"
       },
       "manufacturer": "화장품제조업자: ㈜이앤씨 / 화장품책임판매업자: ㈜브이티코스메틱",
       "country_of_origin": "Korea",
@@ -95,21 +95,22 @@
         "identity": "shopify_listing_copy.json",
         "ingredients": "daiso_us_labels.json",
         "net_contents": "daiso_us_labels.json",
-        "directions": "human_translation_required",
-        "warnings": "human_translation_required",
+        "directions": "official_label_text.json",
+        "warnings": "official_label_text.json",
+        "official_text": [
+          "https://vt-cosmetics.com/product/%EB%A6%AC%EB%93%A4%EC%83%B7-300/770",
+          "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049276"
+        ],
+        "ingredients_verification": "다이소 고시 이미지 판독 전성분 42개가 제조사 공식 전성분 42개와 순서까지 글자 단위로 일치 (2026-09-28)",
         "responsible_person": "human_required"
       },
+      "translation_status": "draft",
       "auto_legal_status": "auto_checked",
       "hard_block": false,
       "hard_block_reason": "",
       "complete": false,
       "blockers": [
-        "directions",
-        "warnings",
-        "responsible_person.name",
-        "responsible_person.address",
-        "responsible_person.email",
-        "responsible_person.phone"
+        "responsible_person.address"
       ]
     },
     "1055167": {
@@ -163,10 +164,10 @@
       "directions": "",
       "warnings": "",
       "responsible_person": {
-        "name": "",
+        "name": "(비공개 보관)",
         "address": "",
-        "email": "",
-        "phone": ""
+        "email": "(비공개 보관)",
+        "phone": "(비공개 보관)"
       },
       "manufacturer": "화장품제조업자: (주)메가코스 / 화장품책임판매업자: (주)토니모리",
       "country_of_origin": "Korea",
@@ -176,8 +177,11 @@
         "net_contents": "daiso_us_labels.json",
         "directions": "human_translation_required",
         "warnings": "human_translation_required",
+        "official_text": [],
+        "ingredients_verification": "",
         "responsible_person": "human_required"
       },
+      "translation_status": null,
       "auto_legal_status": "auto_checked",
       "hard_block": false,
       "hard_block_reason": "",
@@ -185,10 +189,7 @@
       "blockers": [
         "directions",
         "warnings",
-        "responsible_person.name",
-        "responsible_person.address",
-        "responsible_person.email",
-        "responsible_person.phone"
+        "responsible_person.address"
       ]
     },
     "1049275": {
@@ -241,14 +242,14 @@
         "Cysteine"
       ],
       "ingredients_inci_raw": "Water, Dipropylene Glycol, Glycerin, Niacinamide, Butylene Glycol, Macadamia Ternifolia Seed Oil, 1,2-Hexanediol, Ethylhexyl Palmitate, Sodium Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Polyisobutene, Silica, Glycereth-26, Ethylhexylglycerin, Caprylyl Glycol, Adenosine, Sodium Polyacrylate, Sodium Hyaluronate, Centella Asiatica Extract, Caprylyl/Capryl Glucoside, Sorbitan Oleate, Xanthan Gum, Propolis Extract, Asiaticoside, Madecassoside, Madecassic Acid, Asiatic Acid, Glycine, Serine, Glutamic Acid, Aspartic Acid, Leucine, Alanine, Lysine, Arginine, Tyrosine, Phenylalanine, Threonine, Proline, Valine, Isoleucine, Histidine, Methionine, Cysteine",
-      "net_contents": "2ml",
-      "directions": "",
-      "warnings": "",
+      "net_contents": "2 mL × 6",
+      "directions": "During your evening skincare routine, take an appropriate amount onto clean, bare skin after cleansing and spread it by pressing gently with your fingertips. After Reedle Shot 100 is absorbed, finish with a moisturizing skincare product or a skincare product containing the active ingredients you want to enhance.",
+      "warnings": "Stop use and consult a dermatologist if redness, swelling, itching or other irritation occurs during or after use, including after sun exposure. Do not apply to wounds or broken skin. If you have allergic or sensitive skin, patch test on a small area before use. Use sunscreen when exposed to sunlight after use. Keep out of reach of children. Store away from direct sunlight.",
       "responsible_person": {
-        "name": "",
+        "name": "(비공개 보관)",
         "address": "",
-        "email": "",
-        "phone": ""
+        "email": "(비공개 보관)",
+        "phone": "(비공개 보관)"
       },
       "manufacturer": "화장품제조업자: ㈜이앤씨 / 화장품책임판매업자: ㈜브이티코스메틱",
       "country_of_origin": "Korea",
@@ -256,21 +257,21 @@
         "identity": "shopify_listing_copy.json",
         "ingredients": "daiso_us_labels.json",
         "net_contents": "daiso_us_labels.json",
-        "directions": "human_translation_required",
-        "warnings": "human_translation_required",
+        "directions": "official_label_text.json",
+        "warnings": "official_label_text.json",
+        "official_text": [
+          "https://vt-cosmetics.com/product/detail.html?product_no=769"
+        ],
+        "ingredients_verification": "다이소 고시 이미지 판독 전성분 42개가 제조사 공식 전성분 42개와 순서까지 글자 단위로 일치 (2026-09-28)",
         "responsible_person": "human_required"
       },
+      "translation_status": "draft",
       "auto_legal_status": "auto_checked",
       "hard_block": false,
       "hard_block_reason": "",
       "complete": false,
       "blockers": [
-        "directions",
-        "warnings",
-        "responsible_person.name",
-        "responsible_person.address",
-        "responsible_person.email",
-        "responsible_person.phone"
+        "responsible_person.address"
       ]
     },
     "1067498": {
@@ -351,10 +352,10 @@
       "directions": "",
       "warnings": "",
       "responsible_person": {
-        "name": "",
+        "name": "(비공개 보관)",
         "address": "",
-        "email": "",
-        "phone": ""
+        "email": "(비공개 보관)",
+        "phone": "(비공개 보관)"
       },
       "manufacturer": "화장품제조업자: (주)예그리나 / 화장품책임판매업자: (주)브이티코스메틱",
       "country_of_origin": "Korea",
@@ -364,8 +365,11 @@
         "net_contents": "daiso_us_labels.json",
         "directions": "human_translation_required",
         "warnings": "human_translation_required",
+        "official_text": [],
+        "ingredients_verification": "",
         "responsible_person": "human_required"
       },
+      "translation_status": null,
       "auto_legal_status": "auto_checked",
       "hard_block": false,
       "hard_block_reason": "",
@@ -373,10 +377,7 @@
       "blockers": [
         "directions",
         "warnings",
-        "responsible_person.name",
-        "responsible_person.address",
-        "responsible_person.email",
-        "responsible_person.phone"
+        "responsible_person.address"
       ]
     },
     "1072554": {
@@ -426,10 +427,10 @@
       "directions": "",
       "warnings": "",
       "responsible_person": {
-        "name": "",
+        "name": "(비공개 보관)",
         "address": "",
-        "email": "",
-        "phone": ""
+        "email": "(비공개 보관)",
+        "phone": "(비공개 보관)"
       },
       "manufacturer": "화장품제조업자: (주)메가코스 / 화장품책임판매업자: (주)토니모리",
       "country_of_origin": "Korea",
@@ -439,8 +440,11 @@
         "net_contents": "daiso_us_labels.json",
         "directions": "human_translation_required",
         "warnings": "human_translation_required",
+        "official_text": [],
+        "ingredients_verification": "",
         "responsible_person": "human_required"
       },
+      "translation_status": null,
       "auto_legal_status": "auto_checked",
       "hard_block": false,
       "hard_block_reason": "",
@@ -448,10 +452,7 @@
       "blockers": [
         "directions",
         "warnings",
-        "responsible_person.name",
-        "responsible_person.address",
-        "responsible_person.email",
-        "responsible_person.phone"
+        "responsible_person.address"
       ]
     },
     "1075857": {
@@ -486,10 +487,10 @@
       "directions": "",
       "warnings": "",
       "responsible_person": {
-        "name": "",
+        "name": "(비공개 보관)",
         "address": "",
-        "email": "",
-        "phone": ""
+        "email": "(비공개 보관)",
+        "phone": "(비공개 보관)"
       },
       "manufacturer": "(주)제닉",
       "country_of_origin": "Korea",
@@ -499,8 +500,11 @@
         "net_contents": "daiso_us_labels.json",
         "directions": "human_translation_required",
         "warnings": "human_translation_required",
+        "official_text": [],
+        "ingredients_verification": "",
         "responsible_person": "human_required"
       },
+      "translation_status": null,
       "auto_legal_status": "auto_checked",
       "hard_block": false,
       "hard_block_reason": "",
@@ -508,10 +512,7 @@
       "blockers": [
         "directions",
         "warnings",
-        "responsible_person.name",
-        "responsible_person.address",
-        "responsible_person.email",
-        "responsible_person.phone"
+        "responsible_person.address"
       ]
     },
     "1059834": {
@@ -560,10 +561,10 @@
       "directions": "",
       "warnings": "",
       "responsible_person": {
-        "name": "",
+        "name": "(비공개 보관)",
         "address": "",
-        "email": "",
-        "phone": ""
+        "email": "(비공개 보관)",
+        "phone": "(비공개 보관)"
       },
       "manufacturer": "(주)제닉 / 충청남도 논산시 성동면 산업단지로5길 5",
       "country_of_origin": "Korea",
@@ -572,9 +573,12 @@
         "ingredients": "daiso_us_labels.json",
         "net_contents": "daiso_us_labels.json",
         "directions": "human_translation_required",
-        "warnings": "human_translation_required",
+        "warnings": "daiso_us_labels.json",
+        "official_text": [],
+        "ingredients_verification": "",
         "responsible_person": "human_required"
       },
+      "translation_status": null,
       "auto_legal_status": "auto_checked",
       "hard_block": false,
       "hard_block_reason": "",
@@ -582,10 +586,7 @@
       "blockers": [
         "directions",
         "warnings",
-        "responsible_person.name",
-        "responsible_person.address",
-        "responsible_person.email",
-        "responsible_person.phone"
+        "responsible_person.address"
       ]
     },
     "1049285": {
@@ -656,10 +657,10 @@
       "directions": "",
       "warnings": "",
       "responsible_person": {
-        "name": "",
+        "name": "(비공개 보관)",
         "address": "",
-        "email": "",
-        "phone": ""
+        "email": "(비공개 보관)",
+        "phone": "(비공개 보관)"
       },
       "manufacturer": "화장품제조업자: ㈜이앤씨 / 화장품책임판매업자: ㈜브이티코스메틱",
       "country_of_origin": "Korea",
@@ -669,8 +670,11 @@
         "net_contents": "daiso_us_labels.json",
         "directions": "human_translation_required",
         "warnings": "human_translation_required",
+        "official_text": [],
+        "ingredients_verification": "",
         "responsible_person": "human_required"
       },
+      "translation_status": null,
       "auto_legal_status": "auto_checked",
       "hard_block": false,
       "hard_block_reason": "",
@@ -678,10 +682,7 @@
       "blockers": [
         "directions",
         "warnings",
-        "responsible_person.name",
-        "responsible_person.address",
-        "responsible_person.email",
-        "responsible_person.phone"
+        "responsible_person.address"
       ]
     },
     "1027327": {
@@ -695,10 +696,10 @@
       "directions": "",
       "warnings": "",
       "responsible_person": {
-        "name": "",
+        "name": "(비공개 보관)",
         "address": "",
-        "email": "",
-        "phone": ""
+        "email": "(비공개 보관)",
+        "phone": "(비공개 보관)"
       },
       "manufacturer": "(주)메가코스 / 유니레버코리아(주)",
       "country_of_origin": "Korea",
@@ -708,8 +709,11 @@
         "net_contents": "daiso_us_labels.json",
         "directions": "human_translation_required",
         "warnings": "human_translation_required",
+        "official_text": [],
+        "ingredients_verification": "",
         "responsible_person": "human_required"
       },
+      "translation_status": null,
       "auto_legal_status": "auto_checked",
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields",
@@ -719,10 +723,7 @@
         "ingredients",
         "directions",
         "warnings",
-        "responsible_person.name",
         "responsible_person.address",
-        "responsible_person.email",
-        "responsible_person.phone",
         "legal_hard_block"
       ]
     },
@@ -753,10 +754,10 @@
       "directions": "",
       "warnings": "",
       "responsible_person": {
-        "name": "",
+        "name": "(비공개 보관)",
         "address": "",
-        "email": "",
-        "phone": ""
+        "email": "(비공개 보관)",
+        "phone": "(비공개 보관)"
       },
       "manufacturer": "㈜제닉 (충청남도 논산시 성동면 산업단지로5길 5)",
       "country_of_origin": "Korea",
@@ -766,8 +767,11 @@
         "net_contents": "daiso_us_labels.json",
         "directions": "human_translation_required",
         "warnings": "human_translation_required",
+        "official_text": [],
+        "ingredients_verification": "",
         "responsible_person": "human_required"
       },
+      "translation_status": null,
       "auto_legal_status": "auto_checked",
       "hard_block": false,
       "hard_block_reason": "",
@@ -775,10 +779,7 @@
       "blockers": [
         "directions",
         "warnings",
-        "responsible_person.name",
-        "responsible_person.address",
-        "responsible_person.email",
-        "responsible_person.phone"
+        "responsible_person.address"
       ]
     }
   }

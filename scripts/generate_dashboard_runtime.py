@@ -826,9 +826,19 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
                            f'${ts_usage.get("estimated_cost_usd", 0):.4f}')
                 jev_txt += ', 무료 크레딧)' if ts.get("free_credits_only") else ')'
             elif carried:
-                # 이번 회차에는 키가 없어 안 불렀다. 직전 판정을 그대로 쓴다는 뜻이고,
-                # 상태가 바뀐 상품은 여기 안 세어진다.
-                jev_txt = f' · Jev 판정 {carried}건(이어쓴 판정 · 호출 0)'
+                # 키가 없는 워크플로(다이소 수집)가 게이트를 다시 만든 회차다.
+                # "호출 0" 만 적으면 실호출이 없는 것처럼 보였다 (2026-09-28).
+                # 누적 실호출 장부의 마지막 호출 시각을 같이 적는다.
+                log = load_json(D / "typesafe_call_log.json", {}) or {}
+                last = log.get("last_ok_call_at")
+                last_txt = ""
+                if last:
+                    try:
+                        last_txt = datetime.fromisoformat(last).astimezone(KST).strftime("%m-%d %H:%M")
+                    except ValueError:
+                        last_txt = str(last)[:16]
+                jev_txt = (f' · Jev 판정 {carried}건(이번 회차 재사용 · 누적 실호출 '
+                           f'{log.get("total_ok_calls", 0)}회' + (f' · 마지막 {last_txt}' if last_txt else '') + ')')
 
             action_bits = []
             waiting_bits = []

@@ -402,6 +402,28 @@ def main() -> int:
     )
 
     usage_ledger = typesafe_decision_support.ledger()
+    # 실호출 누적 장부 (2026-09-28).
+    # 이 게이트는 키가 있는 2시간 루프와 키가 없는 다이소 수집에서 모두 돈다.
+    # 키가 없는 쪽이 나중에 돌면 "호출 0" 으로 덮어써져 실호출이 없는 것처럼
+    # 보였다. 호출 근거는 따로 쌓아 두고 덮어쓰지 않는다.
+    call_log = usage_ledger.pop("call_log", []) or []
+    log_path = ROOT / "data" / "typesafe_call_log.json"
+    try:
+        call_doc = json.loads(log_path.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        call_doc = {}
+    calls_all = (call_doc.get("calls") or []) + call_log
+    ok_calls = [c for c in calls_all if c.get("ok")]
+    call_doc = {
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "note": "Jev(TypeSafe) 실호출 근거. HTTP 상태·모델·토큰·공급자 요청 ID. 키는 기록하지 않는다.",
+        "total_ok_calls": len(ok_calls),
+        "total_failed_calls": len(calls_all) - len(ok_calls),
+        "last_ok_call_at": ok_calls[-1]["at"] if ok_calls else None,
+        "calls": calls_all[-500:],
+    }
+    if call_log or not log_path.exists():
+        log_path.write_text(json.dumps(call_doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     typesafe_summary = {
         "framework": "typesafe_system_one_compatible",
         "mode_counts": typesafe_modes,
@@ -416,6 +438,8 @@ def main() -> int:
             1 for row in results if (row.get("typesafe") or {}).get("enforced")
         ),
         "usage": usage_ledger,
+        "cumulative_ok_calls": call_doc["total_ok_calls"],
+        "last_ok_call_at": call_doc["last_ok_call_at"],
         "note": (
             "기본은 비용 없는 로컬 advisory. 실제 호출은 TYPESAFE_ENABLED=1 과 "
             "TYPESAFE_FREE_CREDITS_ONLY=1(무료 크레딧 한도 내) 또는 "
