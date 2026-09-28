@@ -2,7 +2,7 @@
 title: "Record be86b846ce · BrainFocus-EEG-Guided-ROI-Selection-for-Efficient-Vision-Language-Mode"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T21:22:55.253420+00:00
+updated_at: 2026-09-28T05:26:55.194537+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record c24b8f1d57 · 선크림-QA잘못-알고-있던-선크림-상식-20가지"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T21:22:56.473223+00:00
+updated_at: 2026-09-28T05:26:56.648368+00:00
 tags: [record, real-data]
 ---
 

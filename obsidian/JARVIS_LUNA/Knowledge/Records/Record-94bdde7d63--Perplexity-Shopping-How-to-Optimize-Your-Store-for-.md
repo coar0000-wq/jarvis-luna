@@ -2,7 +2,7 @@
 title: "Record 94bdde7d63 · Perplexity-Shopping-How-to-Optimize-Your-Store-for-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T21:22:55.744655+00:00
+updated_at: 2026-09-28T05:26:55.812538+00:00
 tags: [record, real-data]
 ---
 

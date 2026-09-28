@@ -2,7 +2,7 @@
 title: "Record 8ca98172c8 · Changes-in-kidney-health-before-during-and-after-the-COVID-19-pandemic"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T21:22:55.512107+00:00
+updated_at: 2026-09-28T05:26:55.515090+00:00
 tags: [record, real-data]
 ---
 

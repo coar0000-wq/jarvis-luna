@@ -2,7 +2,7 @@
 title: "Record 0c7767f363 · O-dilema-do-poderO-SisGAAz-e-a-defesa-marítima-brasileira"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T21:22:55.489346+00:00
+updated_at: 2026-09-28T05:26:55.488465+00:00
 tags: [record, real-data]
 ---
 

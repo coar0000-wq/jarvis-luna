@@ -2,7 +2,7 @@
 title: "Record 6a81e2926c · Shopify-SHOP-GMV-Growth-Reaccelerates-as-AI-Integration-Strengthens-In"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T21:22:55.859088+00:00
+updated_at: 2026-09-28T05:26:55.925864+00:00
 tags: [record, real-data]
 ---
 

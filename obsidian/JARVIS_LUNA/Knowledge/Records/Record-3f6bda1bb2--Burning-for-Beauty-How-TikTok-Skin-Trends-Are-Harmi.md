@@ -2,7 +2,7 @@
 title: "Record 3f6bda1bb2 · Burning-for-Beauty-How-TikTok-Skin-Trends-Are-Harmi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T21:22:55.780330+00:00
+updated_at: 2026-09-28T05:26:55.849255+00:00
 tags: [record, real-data]
 ---
 

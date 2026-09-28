@@ -2,7 +2,7 @@
 title: "Record 7bba43c33d · Grounding-Generated-Video-Plans-in-Simulation-Towar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T21:22:55.206465+00:00
+updated_at: 2026-09-28T05:26:55.132999+00:00
 tags: [record, real-data]
 ---
 

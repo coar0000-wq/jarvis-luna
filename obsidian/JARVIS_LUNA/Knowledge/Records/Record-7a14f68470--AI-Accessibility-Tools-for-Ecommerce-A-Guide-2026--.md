@@ -2,7 +2,7 @@
 title: "Record 7a14f68470 · AI-Accessibility-Tools-for-Ecommerce-A-Guide-2026---shopifycom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T21:22:55.743496+00:00
+updated_at: 2026-09-28T05:26:55.810968+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiYEFVX3lxTE5FRFp4aXJrTFA4NHdnYWtoUkJjQTByZzcxU1diREtPSjF2d0lmVktSWjVWclRvUWZuNXlNaGFfdjRiTFJadDFfX0o0LUM2WllYTmJNNU05Q2NLd3hESUtGNg?oc=5)
 
-**제목:** AI Accessibility Tools for Ecommerce: A Guide (2026) - Shopify
+**제목:** AI Accessibility Tools for Ecommerce: A Guide (2026) - shopify.com
 
-AI Accessibility Tools for Ecommerce: A Guide (2026) - Shopify
+AI Accessibility Tools for Ecommerce: A Guide (2026) - shopify.com
 
 **출처:** Source · Google Search
 

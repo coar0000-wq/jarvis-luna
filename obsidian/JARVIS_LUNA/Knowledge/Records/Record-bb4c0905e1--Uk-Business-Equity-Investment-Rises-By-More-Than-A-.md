@@ -2,7 +2,7 @@
 title: "Record bb4c0905e1 · Uk-Business-Equity-Investment-Rises-By-More-Than-A-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T21:22:56.288581+00:00
+updated_at: 2026-09-28T05:26:56.420314+00:00
 tags: [record, real-data]
 ---
 

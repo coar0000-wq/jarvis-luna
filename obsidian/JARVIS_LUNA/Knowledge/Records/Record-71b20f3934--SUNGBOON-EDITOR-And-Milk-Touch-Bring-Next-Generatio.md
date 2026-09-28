@@ -2,7 +2,7 @@
 title: "Record 71b20f3934 · SUNGBOON-EDITOR-And-Milk-Touch-Bring-Next-Generation-K-Beauty-To-Targe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T21:22:55.990830+00:00
+updated_at: 2026-09-28T05:26:56.045851+00:00
 tags: [record, real-data]
 ---
 

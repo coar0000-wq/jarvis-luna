@@ -2,7 +2,7 @@
 title: "Record 7830006bd1 · Vaseline-Glazed--Glisten-Sunlit-Glow-Vanilla-Cocoa-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T21:22:56.423646+00:00
+updated_at: 2026-09-28T05:26:56.584913+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** Vaseline Glazed & Glisten Sunlit Glow Vanilla Cocoa Shimmering Body Gel Oil with Ultra-Hydrating Lipids and 100% Pure Cocoa Butter, 6.8 fl Oz
 
 Vaseline Glazed & Glisten Sunlit Glow Vanilla Cocoa Shimmering Body Gel Oil with Ultra-Hydrating Lipids and 100% Pure Cocoa Butter, 6.8 fl Oz
-Vaseline Glazed & Glisten Sunlit Glow Vanilla Cocoa Shimmering Body Gel Oil with Ultra-Hydrating Lipids and 100% Pure Cocoa Butter, 6.8 fl Oz · $9.97 · 평점 4.5 · 리뷰 1,174
+Vaseline Glazed & Glisten Sunlit Glow Vanilla Cocoa Shimmering Body Gel Oil with Ultra-Hydrating Lipids and 100% Pure Cocoa Butter, 6.8 fl Oz · $8.97 · 평점 4.5 · 리뷰 1,133
 
 **출처:** Source · us_beauty
 

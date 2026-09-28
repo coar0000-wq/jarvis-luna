@@ -2,7 +2,7 @@
 title: "Record 22c13c6d27 · Insiderrechtliche-Praxisfragen-bei-der-Emission-von"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T21:22:55.479731+00:00
+updated_at: 2026-09-28T05:26:55.476341+00:00
 tags: [record, real-data]
 ---
 

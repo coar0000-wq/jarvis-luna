@@ -2,7 +2,7 @@
 title: "Record 388879e9d6 · Us-Election-60-Seconds-Michael-Zezas-Debate"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T21:22:56.358998+00:00
+updated_at: 2026-09-28T05:26:56.510170+00:00
 tags: [record, real-data]
 ---
 

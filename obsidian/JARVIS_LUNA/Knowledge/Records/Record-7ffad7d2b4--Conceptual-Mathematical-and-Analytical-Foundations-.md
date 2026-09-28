@@ -2,7 +2,7 @@
 title: "Record 7ffad7d2b4 · Conceptual-Mathematical-and-Analytical-Foundations-for-Mission-Enginee"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T21:22:55.421449+00:00
+updated_at: 2026-09-28T05:26:55.406252+00:00
 tags: [record, real-data]
 ---
 

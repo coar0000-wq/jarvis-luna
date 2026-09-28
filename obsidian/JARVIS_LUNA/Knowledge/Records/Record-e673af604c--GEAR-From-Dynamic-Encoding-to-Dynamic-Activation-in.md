@@ -2,7 +2,7 @@
 title: "Record e673af604c · GEAR-From-Dynamic-Encoding-to-Dynamic-Activation-in-Social-Trajectory-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T21:22:55.519563+00:00
+updated_at: 2026-09-28T05:26:55.524188+00:00
 tags: [record, real-data]
 ---
 

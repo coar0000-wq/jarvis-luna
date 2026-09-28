@@ -2,7 +2,7 @@
 title: "Record 12d18e8bc5 · Climate-Inspired-K-Beauty-Retail-AXIS-Y-Brings-Its-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T21:22:55.793564+00:00
+updated_at: 2026-09-28T05:26:55.865555+00:00
 tags: [record, real-data]
 ---
 

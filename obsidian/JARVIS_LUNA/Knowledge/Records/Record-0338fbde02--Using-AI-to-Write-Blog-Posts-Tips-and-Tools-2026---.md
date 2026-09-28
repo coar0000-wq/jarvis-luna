@@ -2,7 +2,7 @@
 title: "Record 0338fbde02 · Using-AI-to-Write-Blog-Posts-Tips-and-Tools-2026---shopifycom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T21:22:55.773830+00:00
+updated_at: 2026-09-28T05:26:55.841269+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiaEFVX3lxTFBRQmp1N0hRUWpFOW81YndtTWJUZjVaUHFGMFRFNFYtRk9aRHM2dTZCVG9zVXhJaXpMYUJGQ3IzOENubktkNk1FVVhXcVhDaV9DakRFQjBvbElONl9kZEloQUxIZ3lxRnZU?oc=5)
 
-**제목:** Using AI to Write Blog Posts: Tips and Tools (2026) - Shopify
+**제목:** Using AI to Write Blog Posts: Tips and Tools (2026) - shopify.com
 
-Using AI to Write Blog Posts: Tips and Tools (2026) - Shopify
+Using AI to Write Blog Posts: Tips and Tools (2026) - shopify.com
 
 **출처:** Source · Google Search
 

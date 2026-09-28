@@ -2,7 +2,7 @@
 title: "Record 40944aab33 · Meet-the-K-beauty-masks-skincare-lovers-swear-by-fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T21:22:55.814765+00:00
+updated_at: 2026-09-28T05:26:55.869724+00:00
 tags: [record, real-data]
 ---
 

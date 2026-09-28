@@ -2,7 +2,7 @@
 title: "Record 8c17b9a7e2 · General-Robotics-is-betting-on-modular-intelligence-not-one-robot-brai"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T21:22:56.387379+00:00
+updated_at: 2026-09-28T05:26:56.545233+00:00
 tags: [record, real-data]
 ---
 

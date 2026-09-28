@@ -2,7 +2,7 @@
 title: "Record 5d5cedc70d · PDRN-make-up-How-K-beautys-trending-skin-care-ingredient-is-moving-int"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T21:22:55.835629+00:00
+updated_at: 2026-09-28T05:26:55.895170+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 38758fe5fe · Event-based-Selective-Attention-for-Multi-resolution-Fast-Region-of-In"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T21:22:55.530608+00:00
+updated_at: 2026-09-28T05:26:55.537407+00:00
 tags: [record, real-data]
 ---
 

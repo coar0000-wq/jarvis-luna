@@ -2,7 +2,7 @@
 title: "Record 9cb6081b02 · Move-Over-K-BeautyA-Beauty-Is-the-Next-Skin-Care-Tr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-27T21:22:55.854780+00:00
+updated_at: 2026-09-28T05:26:55.920366+00:00
 tags: [record, real-data]
 ---
 
