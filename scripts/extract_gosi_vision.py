@@ -550,13 +550,22 @@ def main() -> int:
         1 for r in items.values()
         if isinstance(r, dict) and all(str(r.get(f) or "").strip() for f in NEED)
     )
-    # 할당량을 다 써서 못 읽은 것을 ok 라고 적지 않는다.
-    # 그렇게 적으면 다음 사람이 왜 안 채워졌는지 몰라 같은 자리를 또 혀매게 된다.
-    doc["vision_status"] = "quota_exhausted" if quota_hit else "ok"
+    incomplete = max(0, len(items) - done)
+    # 할당량뿐 아니라 모델이 빈 결과를 돌려 미완성 상품이 남은 경우도
+    # ok라고 쓰지 않는다. 전체 vision_status=ok 하나 때문에 특정 상품의
+    # 전성분 누락이 정상 판독으로 보였던 오경고를 막는다.
+    if quota_hit:
+        doc["vision_status"] = "quota_exhausted"
+    elif incomplete:
+        doc["vision_status"] = "partial"
+    else:
+        doc["vision_status"] = "ok"
     doc["vision_note"] = (
         "용량·전성분은 상세 이미지에만 있어 Gemini 비전으로 읽었다. "
         "읽기이지 생성이 아니다. 표에 없는 항목은 빈칸. "
         "verified 는 사람이 원본 이미지와 대조한 뒤 true 로 바꾼다."
+        + (f" 필수 4항목 미완성 {incomplete}건은 브라우저 alt 원문 수집 또는 다음 회차 재판독 대상이다."
+           if incomplete else "")
         + (" 이번 회차는 Gemini 할당량(429)이 소진되어 중단했다. "
            "할당량이 돌아오면 다음 실행이 이어받는다." if quota_hit else "")
     )

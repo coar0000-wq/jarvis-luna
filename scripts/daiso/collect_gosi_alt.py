@@ -91,10 +91,11 @@ ALT_JS = (
 # alt 안에서 찾을 이름들. 앞에 있는 것부터 본다.
 # 다이소 상세 이미지는 "라벨: 값" 또는 "라벨\n값" 두 형태를 섞어 쓴다.
 LABELS: list[tuple[str, tuple[str, ...]]] = [
-    ("volume", ("내용물의 용량 또는 중량", "내용량", "용량", "중량")),
+    ("volume", ("내용물의 용량 또는 중량", "용량 또는 중량", "내용량", "용량", "중량")),
     ("ingredients", ("기재·표시하여야 하는 모든 성분", "전성분", "모든 성분")),
-    ("maker", ("화장품제조업자", "화장품책임판매업자", "제조업자",
-               "책임판매업자", "제조판매업자", "제조원")),
+    ("maker", ("제조업자 및 책임(제조) 판매업자", "화장품제조업자",
+               "화장품책임판매업자", "제조업자", "책임판매업자",
+               "제조판매업자", "제조원")),
     ("origin", ("제조국", "원산지")),
     ("expiry", ("사용기한 또는 개봉 후 사용기간", "제조번호및사용기간",
                 "사용기한", "개봉 후 사용기간")),
@@ -134,9 +135,23 @@ def parse_alt(alt: str) -> dict[str, str]:
             if field in out:
                 continue
             for nm in names:
-                if not line.startswith(nm):
+                # 고시 이미지에는 "화장품법에 따라 기재·표시하여야 하는
+                # 모든 성분(전성분)"처럼 법령 안내가 라벨 앞에 붙기도 한다.
+                # startswith만 쓰면 원문이 있는데도 전성분을 영원히 놓친다.
+                # 마케팅 본문 오인 방지를 위해 라벨이 줄 앞 24자 안에 있을
+                # 때만 고시 라벨로 인정한다.
+                pos = line.find(nm)
+                if pos < 0 or pos > 24 or (pos > 0 and line[pos - 1] == "("):
                     continue
-                rest = line[len(nm):].lstrip(" :：·-").strip()
+                tail = line[pos + len(nm):].strip()
+                # 긴 정식 라벨 뒤의 '(전성분):'은 값이 아니라 같은 라벨의
+                # 반복 표기다. 이를 값으로 저장하지 말고 다음 줄을 읽는다.
+                if re.fullmatch(r"\([^)]*(?:전성분|모든 성분)[^)]*\)\s*[:：]?", tail):
+                    rest = ""
+                else:
+                    # 값이 '(주)메가코스'처럼 괄호로 시작할 수 있으므로
+                    # 구분자만 제거하고 값의 괄호는 보존한다.
+                    rest = tail.lstrip(" :：·-").strip()
                 if rest:
                     out[field] = rest
                 else:
@@ -147,7 +162,7 @@ def parse_alt(alt: str) -> dict[str, str]:
                             if buf:
                                 break
                             continue
-                        if any(nxt.startswith(x) for x in all_names):
+                        if any(0 <= nxt.find(x) <= 24 for x in all_names):
                             break
                         buf.append(nxt)
                     if buf:

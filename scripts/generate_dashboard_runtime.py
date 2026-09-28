@@ -684,26 +684,40 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
         act = None
         if pending:
             bits = []
+            failures = {
+                str(x.get("pd_no")): str(x.get("reason") or "")
+                for x in (gosi_doc.get("vision_failures") or [])
+                if isinstance(x, dict)
+            }
+            deferred = {str(x) for x in (gosi_doc.get("vision_deferred") or [])}
+            field_name = {
+                "ingredients": "전성분", "volume": "용량",
+                "maker": "제조사", "origin": "원산지",
+            }
             for p in pending[:4]:
                 pid = str(p.get("pd_no"))
                 nm = str(p.get("name") or "")[:18]
-                bits.append(f"{pid} {nm} {DAISO}{pid}")
+                row = gosi.get(pid) if isinstance(gosi.get(pid), dict) else {}
+                missing = [field_name[f] for f in REQ
+                           if not str(row.get(f) or "").strip()]
+                if pid in failures:
+                    cause = failures[pid][:70]
+                elif pid in deferred:
+                    cause = "비전 예산/할당량으로 다음 회차 재판독"
+                elif row.get("alt_collected_at"):
+                    cause = "브라우저 원문 수집 후 남은 항목 재파싱 대상"
+                elif row:
+                    cause = "고시 대상 생성됨, 원문 수집·판독 재시도 대상"
+                else:
+                    cause = "고시 대상 미생성, 다음 2시간 회차에서 자동 수집"
+                bits.append(
+                    f"{pid} {nm} [{','.join(missing)} · {cause}] {DAISO}{pid}"
+                )
             more = f" 외 {len(pending) - 4}건" if len(pending) > 4 else ""
 
-            # 다이소 고시는 모든 상품에 있다. 빈 칸은 "고시 없음"이 아니라
-            # 상세 이미지를 아직 읽지 못한 것이다. 그 사유를 그대로 보여준다.
-            # 없으면 사람이 다시 페이지를 열어 같은 확인을 반복하게 된다.
-            vision_status = str(gosi_doc.get("vision_status") or "")
-            if vision_status.startswith("quota"):
-                cause = "상세 이미지는 받았으나 비전 할당량 소진(429)으로 판독 대기"
-            elif vision_status.startswith("skipped"):
-                cause = "비전 키가 없어 판독을 건너뜀"
-            elif vision_status:
-                cause = f"비전 판독 상태 {vision_status}"
-            else:
-                cause = "상세 이미지 판독 미완료"
-
-            act = (f"고시 표 {len(pending)}건 판독 남음 ({cause}) — "
+            # 전체 vision_status가 ok여도 특정 상품의 필수 칸이 비면 완료가
+            # 아니다. 상품별 빠진 칸과 실제 다음 조치를 표시한다.
+            act = (f"고시 표 {len(pending)}건 판독 남음 — "
                    + " / ".join(bits) + more)
         coverage = shopify_strategy.get("source_coverage") or {}
         strategy_tail = (

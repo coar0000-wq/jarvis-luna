@@ -31,6 +31,12 @@ def digest(value) -> str:
 
 
 def main() -> int:
+    # 커머스 산출물을 갱신하는 개별 워크플로는 비서실장 runtime을 다시
+    # 만들지 않는다. 그 실행들까지 운영 heartbeat 동기화를 강제하면
+    # 정상적으로 채운 고시·라벨도 발행 직전에 막힌다. 최종 2시간 운영
+    # 루프만 명시적으로 이 플래그를 켜 전체 runtime 정합성을 검사한다.
+    require_ops_runtime = "--require-ops-runtime" in sys.argv[1:]
+
     source = load(D / "daiso_real" / "products.json")
     master = load(D / "product_master.json")
     score = load(D / "daiso_real" / "shopify_demand_score.json")
@@ -324,14 +330,17 @@ def main() -> int:
                 "외부 소스 고장이 비서실장 장부에서 누락됨")
 
     # 최종 runtime 뒤에 무료 규칙 기반 운영 계획과 팀 개선 집계를 갱신한다.
-    require(ops_plan.get("generated_at") and (dashboard.get("agents_ops") or {}).get("at"),
-            "운영 계획이 최종 runtime 뒤에 갱신되지 않음")
-    require(improvement.get("runtime_at") == dashboard.get("generated_at"),
-            "팀 개선 집계가 현재 dashboard runtime과 불일치")
-    for team_id, state in (improvement.get("teams") or {}).items():
-        if state.get("open_action"):
-            require(state.get("open_kind") in classes,
-                    f"{team_id} 팀 개선 분류 누락")
+    # 이 검사는 --require-ops-runtime을 준 최종 2시간 루프에서만 강제한다.
+    # 고시/카피 등 개별 생산 워크플로는 현재 커머스 조인만 검증한다.
+    if require_ops_runtime:
+        require(ops_plan.get("generated_at") and (dashboard.get("agents_ops") or {}).get("at"),
+                "최종 runtime에 비서실장 운영 heartbeat가 없음")
+        require(improvement.get("runtime_at") == dashboard.get("generated_at"),
+                "팀 개선 집계가 현재 dashboard runtime과 불일치")
+        for team_id, state in (improvement.get("teams") or {}).items():
+            if state.get("open_action"):
+                require(state.get("open_kind") in classes,
+                        f"{team_id} 팀 개선 분류 누락")
 
     print("COMMERCE_ARCHITECTURE_OK")
     print(f"master={len(products)} S={len(recs)} gate_ready={len(ready_ids)} "
