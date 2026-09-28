@@ -32,7 +32,9 @@ JSON_PATH = ROOT / "data" / "dashboard_runtime.json"
 DATA = ROOT / "data"
 
 KST = timezone(timedelta(hours=9))
-MAX_ITEMS = 15
+# 2026-09-28: 15 → 60. Amazon 46·Walmart 39·Ulta 57건을 받아도 점수 매칭에는
+# 15건만 들어가고 나머지는 버려지고 있었다. 받은 만큼 쓴다.
+MAX_ITEMS = 60
 
 JUNK_PATTERNS = re.compile(
     r"(join\s*/?\s*sign|sign\s*in|log\s*in|cookie|privacy|menu|cart|"
@@ -559,6 +561,10 @@ def build_global_channels():
     wm_rows, wm_at, wm_src = from_catalog_file(
         "walmart_products.json", "https://www.walmart.com")
     gt_rows, gt_at, gt_src = from_google_trends_beauty()
+    # 2026-09-28 추가 판매 채널 (robots 허용 확인)
+    sg_rows, sg_at, sg_src = from_catalog_file("sokoglam_products.json", "https://sokoglam.com")
+    mv_rows, mv_at, mv_src = from_catalog_file("amazon_movers_products.json", "https://www.amazon.com")
+    nw_rows, nw_at, nw_src = from_catalog_file("amazon_new_products.json", "https://www.amazon.com")
 
     return {
         "amazon_best_sellers": (
@@ -578,6 +584,12 @@ def build_global_channels():
             channel(gt_rows, gt_src, collected_at=gt_at)
             if gt_rows else public_channel("google_trends_us")
         ),
+        "sokoglam_us": channel(sg_rows, sg_src or "sokoglam.com", collected_at=sg_at,
+                                 reason="수집기 미실행" if not sg_rows else ""),
+        "amazon_movers_beauty": channel(mv_rows, mv_src or "amazon movers", collected_at=mv_at,
+                                           reason="수집기 미실행" if not mv_rows else ""),
+        "amazon_new_beauty": channel(nw_rows, nw_src or "amazon new releases", collected_at=nw_at,
+                                        reason="수집기 미실행" if not nw_rows else ""),
         "wikipedia_interest": public_channel("wikipedia_interest"),
         "allure_media": public_channel("allure_media"),
         "openfda_sunscreen": public_channel("openfda_sunscreen"),

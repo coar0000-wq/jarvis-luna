@@ -50,6 +50,10 @@ CHANNEL_WEIGHT = {
     "sephora": 0.9,
     "ulta_beauty": 0.85,
     "walmart_beauty": 0.8,
+    # 2026-09-28 추가: 미국 K뷰티 편집숍, Amazon 급상승·신상품
+    "sokoglam_us": 0.95,
+    "amazon_movers_beauty": 0.85,
+    "amazon_new_beauty": 0.75,
 }
 
 CORE_BUCKETS = {
@@ -61,6 +65,7 @@ CORE_BUCKETS = {
 MATCH_CHANNELS = (
     "oliveyoung_us", "tiktok_shop_us", "sephora", "ulta_beauty",
     "amazon_best_sellers", "walmart_beauty",
+    "sokoglam_us", "amazon_movers_beauty", "amazon_new_beauty",
 )
 
 # 한·영 → 공통 정규 토큰. 짧은 '립'은 넣지 않는다 (논슬립 → lip 사고).
@@ -91,6 +96,9 @@ LEXICON: list[tuple[str, str]] = [
     ("마스크팩", "mask"), ("시트팩", "mask"), ("마스크", "mask"), ("mask", "mask"),
     ("선크림", "sunscreen"), ("선쿠션", "sunscreen"), ("sunscreen", "sunscreen"),
     ("spf", "sunscreen"), ("자외선", "sunscreen"), ("무기자차", "sunscreen"),
+    # 2026-09-28: ROUND LAB "UVLOCK" 선크림이 클렌징 밀크와 매칭됐다. 선크림 표기를 더 잡는다.
+    ("uvlock", "sunscreen"), ("uv lock", "sunscreen"), ("sun cream", "sunscreen"),
+    ("sunblock", "sunscreen"), ("sun stick", "sunscreen"), ("sun serum", "sunscreen"),
     ("쿠션", "cushion"), ("cushion", "cushion"),
     ("프라이머", "primer"), ("primer", "primer"),
     ("블러쉬", "blush"), ("블러시", "blush"), ("blush", "blush"),
@@ -282,6 +290,10 @@ def extract_signals(global_channels: dict) -> list[dict]:
             sig_bucket, _ = rebucket(blob, "스킨케어")
             cans = to_canonical(blob)
             if not cans:
+                continue
+            # 선크림은 미국 OTC 의약품이라 우리가 팔지 않는다. 다른 상품의 매칭 근거로도
+            # 쓰지 않는다 (보습 토큰 하나로 클렌저와 이어지는 일을 막는다).
+            if "sunscreen" in cans:
                 continue
             rank_w = max(0.5, 1.0 - rank * 0.05)
             signals.append({

@@ -64,6 +64,10 @@ jobs:
           # 전부 실패면 수집기가 1 을 주고 여기서 멈춘다.
           python -u scripts/collect_us_retail.py
 
+      - name: Soko Glam 수집 (미국 K뷰티 편집숍, 공개 상품 JSON)
+        continue-on-error: true
+        run: python -u scripts/collect_sokoglam.py
+
       - name: 채널 상태 갱신
         shell: bash
         run: |

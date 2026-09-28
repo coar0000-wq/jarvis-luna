@@ -313,6 +313,26 @@ SITES = {
         "robots": "Disallow 는 /community/groups 둘뿐. /shop/ 허용 (2026-09-15 확인)",
         "note": "/shop/bestsellers 는 차단 페이지만 돌아와 카테고리 경로를 쓴다",
     },
+    # 2026-09-28 추가. robots.txt 의 User-agent: * 규칙을 와일드카드까지 해석해 허용 확인.
+    # 같은 베스트셀러 그리드 구조라 JS_AMAZON 을 그대로 쓴다.
+    "amazon_movers": {
+        "url": "https://www.amazon.com/gp/movers-and-shakers/beauty/",
+        "label": "amazon.com/gp/movers-and-shakers/beauty",
+        "js": JS_AMAZON,
+        "robots": "/gp/movers-and-shakers/ 허용 (2026-09-28 확인)",
+    },
+    "amazon_new": {
+        "url": "https://www.amazon.com/gp/new-releases/beauty/",
+        "label": "amazon.com/gp/new-releases/beauty",
+        "js": JS_AMAZON,
+        "robots": "/gp/new-releases/ 허용 (2026-09-28 확인)",
+    },
+    "ulta_kbeauty": {
+        "url": "https://www.ulta.com/shop/k-beauty",
+        "label": "ulta.com/shop/k-beauty",
+        "js": JS_ULTA,
+        "robots": "Ulta robots.txt 의 * 규칙에 Disallow 없음 (2026-09-28 확인)",
+    },
     "sephora": {
         "url": "https://www.sephora.com/beauty/beauty-best-sellers",
         "label": "sephora.com/beauty/beauty-best-sellers",
@@ -526,7 +546,9 @@ def write_catalog(out: Path, entry: dict, robots: str, note: str = "") -> int:
         "assist_at": entry.get("assist_at", ""),
         "source_url": entry["url"],
         "robots_note": robots,
-        "collected_at": now_iso(),
+        # 보강 파일로 채운 경우 수집 시각은 보강 시점이다 (2026-09-28).
+        # 전에는 지금 시각을 적어 9-15 자료가 매일 최신처럼 보였다.
+        "collected_at": (entry.get("assist_at") or now_iso()) if entry.get("assisted") else now_iso(),
         "count": len(rows),
         "reason": reason,
         "is_stale": bool(stale_from),
@@ -629,6 +651,16 @@ def main() -> int:
                          SITES["amazon"]["robots"])
     n_wm = write_catalog(OUT_WALMART, got["walmart"],
                          SITES["walmart"]["robots"])
+    # 급상승·신상품은 별도 채널 파일로 둔다 (순위 의미가 베스트셀러와 다르다).
+    for key in ("amazon_movers", "amazon_new"):
+        if key in got:
+            write_catalog(DATA / f"{key}_products.json", got[key], SITES[key]["robots"])
+    # Ulta K뷰티 카테고리는 Ulta 채널에 합친다. 같은 상품은 한 번만.
+    if got.get("ulta_kbeauty", {}).get("rows"):
+        seen = {r.get("url") for r in got["ulta"]["rows"]}
+        extra = [r for r in got["ulta_kbeauty"]["rows"] if r.get("url") not in seen]
+        got["ulta"]["rows"] = got["ulta"]["rows"] + extra
+        print(f"  ulta k-beauty {len(extra)}건을 Ulta 채널에 합쳤다")
     n_ub = write_us_beauty(got["ulta"], got["sephora"])
 
     print("\n" + "=" * 46)

@@ -245,6 +245,11 @@ jobs:
       # GLOBAL CHANNELS
       # =========================
 
+      # 미국 K뷰티 편집숍 판매 목록 (2026-09-28, 공개 상품 JSON · robots 허용)
+      - name: Collect Soko Glam (미국 K뷰티 편집숍)
+        continue-on-error: true
+        run: python -u scripts/collect_sokoglam.py
+
       - name: Sync Global Channels and Fix Dashboard UI
         run: |
           if [ -f sync_channels.py ]; then
