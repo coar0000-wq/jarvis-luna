@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-28T12:27:18.590838+00:00",
+  "collected_at": "2026-09-28T19:14:23.847916+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -44,8 +44,8 @@
   ],
   "hot_keywords": [
     {
-      "keyword": "sunscreens",
-      "score": 4
+      "keyword": "skin",
+      "score": 6
     },
     {
       "keyword": "september",
@@ -56,11 +56,31 @@
       "score": 3
     },
     {
+      "keyword": "japanese",
+      "score": 3
+    },
+    {
+      "keyword": "which",
+      "score": 3
+    },
+    {
+      "keyword": "like",
+      "score": 3
+    },
+    {
       "keyword": "using",
       "score": 3
     },
     {
-      "keyword": "alternative",
+      "keyword": "makeup",
+      "score": 2
+    },
+    {
+      "keyword": "blush",
+      "score": 2
+    },
+    {
+      "keyword": "does",
       "score": 2
     },
     {
@@ -84,10 +104,6 @@
       "score": 2
     },
     {
-      "keyword": "like",
-      "score": 2
-    },
-    {
       "keyword": "k-beauty",
       "score": 2
     },
@@ -100,10 +116,6 @@
       "score": 2
     },
     {
-      "keyword": "look",
-      "score": 2
-    },
-    {
       "keyword": "k-skincare",
       "score": 2
     },
@@ -112,11 +124,11 @@
       "score": 2
     },
     {
-      "keyword": "while",
+      "keyword": "korean",
       "score": 2
     },
     {
-      "keyword": "korean",
+      "keyword": "sunscreens",
       "score": 2
     },
     {
@@ -128,27 +140,7 @@
       "score": 2
     },
     {
-      "keyword": "japanese",
-      "score": 2
-    },
-    {
       "keyword": "toners",
-      "score": 2
-    },
-    {
-      "keyword": "eyeshadow",
-      "score": 2
-    },
-    {
-      "keyword": "muji",
-      "score": 2
-    },
-    {
-      "keyword": "skin",
-      "score": 2
-    },
-    {
-      "keyword": "mist",
       "score": 2
     },
     {
@@ -172,42 +164,50 @@
       "score": 1
     },
     {
-      "keyword": "makeup",
-      "score": 1
-    },
-    {
       "keyword": "monday",
       "score": 1
     },
     {
-      "keyword": "shade",
+      "keyword": "dry",
       "score": 1
     },
     {
-      "keyword": "chestnut",
+      "keyword": "lippie",
       "score": 1
     },
     {
-      "keyword": "nude",
+      "keyword": "rec",
       "score": 1
     },
     {
-      "keyword": "ink",
+      "keyword": "bath",
       "score": 1
     },
     {
-      "keyword": "velvet",
+      "keyword": "powder",
       "score": 1
     },
     {
-      "keyword": "bbia",
+      "keyword": "salt",
+      "score": 1
+    },
+    {
+      "keyword": "recommendations",
+      "score": 1
+    },
+    {
+      "keyword": "glycols",
+      "score": 1
+    },
+    {
+      "keyword": "ones",
       "score": 1
     }
   ],
   "beauty_keywords": [
     {
-      "keyword": "sunscreens",
-      "score": 4
+      "keyword": "skin",
+      "score": 6
     },
     {
       "keyword": "spf",
@@ -234,6 +234,10 @@
       "score": 2
     },
     {
+      "keyword": "sunscreens",
+      "score": 2
+    },
+    {
       "keyword": "skincare",
       "score": 2
     },
@@ -244,17 +248,13 @@
     {
       "keyword": "toners",
       "score": 2
-    },
-    {
-      "keyword": "skin",
-      "score": 2
     }
   ],
   "posts": [
     {
-      "title": "HAVE A QUESTION? ASK HERE! Alter-Daily Help and Questions: September 26, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wqswhi/have_a_question_ask_here_alterdaily_help_and/",
-      "published": "2026-09-26T15:09:26+00:00",
+      "title": "HAVE A QUESTION? ASK HERE! Alter-Daily Help and Questions: September 28, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wsh6jh/have_a_question_ask_here_alterdaily_help_and/",
+      "published": "2026-09-28T15:09:19+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -266,9 +266,44 @@
       "feed": "hot"
     },
     {
+      "title": "Makeup for dry skin?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wseorh/makeup_for_dry_skin/",
+      "published": "2026-09-28T13:30:21+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Blush and lippie rec",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wsiar3/blush_and_lippie_rec/",
+      "published": "2026-09-28T15:51:04+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "japanese bath powder/salt recommendations",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wsjehd/japanese_bath_powdersalt_recommendations/",
+      "published": "2026-09-28T16:30:52+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Which Glycols you like and which ones don't go with your skin? does Propylene Glycol irritate your skin?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wsjqah/which_glycols_you_like_and_which_ones_dont_go/",
+      "published": "2026-09-28T16:43:12+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Shade alternative for the 44 chestnut nude of Peripera Ink Velvet",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1ws4ch8/shade_alternative_for_the_44_chestnut_nude_of/",
       "published": "2026-09-28T03:56:30+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Why are there four diameters printed on my contact lenses instead of two?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wsm0f4/why_are_there_four_diameters_printed_on_my/",
+      "published": "2026-09-28T18:06:04+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -301,16 +336,16 @@
       "feed": "hot"
     },
     {
-      "title": "does anyone knows what is this called?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wroben/does_anyone_knows_what_is_this_called/",
-      "published": "2026-09-27T16:17:17+00:00",
+      "title": "Acne-prone. Mild or moderate acne, which ingredients do you avoid in moisturizers?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1ws5jyd/acneprone_mild_or_moderate_acne_which_ingredients/",
+      "published": "2026-09-28T05:01:29+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Acne-prone. Mild or moderate acne, which ingredients do you avoid in moisturizers?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1ws5jyd/acneprone_mild_or_moderate_acne_which_ingredients/",
-      "published": "2026-09-28T05:01:29+00:00",
+      "title": "does anyone knows what is this called?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wroben/does_anyone_knows_what_is_this_called/",
+      "published": "2026-09-27T16:17:17+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -388,41 +423,6 @@
       "title": "Disappointing: Muji Sensitive Toning Water Deep Moisture",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wr4f6u/disappointing_muji_sensitive_toning_water_deep/",
       "published": "2026-09-26T23:11:17+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Looking for a white eyeshadow or highlight with this sort of shine",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wqdlq9/looking_for_a_white_eyeshadow_or_highlight_with/",
-      "published": "2026-09-26T01:21:53+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "What kind of procedures create this \"plump face\" look?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wrs2en/what_kind_of_procedures_create_this_plump_face/",
-      "published": "2026-09-27T18:44:55+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "What is your skin prep?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wr8n9q/what_is_your_skin_prep/",
-      "published": "2026-09-27T02:38:49+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Sunscreens I used while traveling",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wqk9cd/sunscreens_i_used_while_traveling/",
-      "published": "2026-09-26T07:25:19+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "What would be an alternative for the Muji cream mist / touch up mist?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wr1awk/what_would_be_an_alternative_for_the_muji_cream/",
-      "published": "2026-09-26T20:52:18+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

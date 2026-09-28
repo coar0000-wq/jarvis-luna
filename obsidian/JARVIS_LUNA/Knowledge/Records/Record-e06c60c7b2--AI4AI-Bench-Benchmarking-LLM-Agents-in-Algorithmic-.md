@@ -2,7 +2,7 @@
 title: "Record e06c60c7b2 · AI4AI-Bench-Benchmarking-LLM-Agents-in-Algorithmic-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T13:58:18.824138+00:00
+updated_at: 2026-09-28T19:25:20.337933+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Recursive self-improvement (RSI) asks whether an AI system can improve the proce
 
 ## Connected nodes
 
-[[Source--arXiv]] [[AI-에이전트]] [[LLM언어모델]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[AI-에이전트]] [[LLM언어모델]] [[머신러닝-연구]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

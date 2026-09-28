@@ -842,6 +842,18 @@
       "고시_위치": "텍스트 API는 '상세페이지 참조'만 반환. 실제 고시 표는 상품설명 더보기 상세 이미지에 있음. 비전/OCR 또는 수동 입력이 필요.",
       "captured_at": "2026-09-28T12:50:04.292205+00:00",
       "텍스트_미수집": []
+    },
+    "1060489": {
+      "usage": "STEP1 눈가, 입주위를 제외한 얼굴전체에 5g 또는 500원 크기만큼 적당량을 도포해줍니다. STEP2 약 20-30분후 투명한 코팅막이 생길때까지 충분히 건조해줍니다. STEP3 가장자리부터 천천히 떼어내 줍니다.",
+      "warnings": "세안후 토너와 크림까지 충분히 바른후 사용해주세요.",
+      "volume": "4ml, 0.13oz",
+      "name": "",
+      "alt_source": "rendered_page_img_alt",
+      "alt_len": 1298,
+      "alt_expand": "already_open",
+      "alt_reached_end": false,
+      "alt_collected_at": "2026-09-28T19:23:22.454827+00:00",
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060489"
     }
   },
   "사람이_할_일": "gosi_image 를 열면 제품명·용량·사용기한·기능성·제조업자·제조국·전성분이 한 표에 인쇄되어 있다. 그것을 보고 volume, ingredients, maker 를 채운다. 표를 그대로 옮겨 적고 요약하지 않는다.",
@@ -860,33 +872,29 @@
   ],
   "vision_at": "2026-09-28T12:50:04.380909+00:00",
   "수집_설명": "공식 고시 API는 대부분 '상세페이지 참조'. 사용자가 보는 고시 표는 상품설명 더보기 상세 이미지. 이미지는 data/daiso_real/gosi_img/ 에 저장. 전성분·제조사는 비전 추출 또는 수동 입력이 필요하다.",
-  "updated_at": "2026-09-28T09:45:25.294372+00:00",
+  "updated_at": "2026-09-28T19:23:22.569324+00:00",
   "source": "daisomall.co.kr",
   "alt_수집": {
     "generator": "scripts/daiso/collect_gosi_alt.py",
     "방식": "렌더링된 페이지의 img alt 에서 글자를 꺼낸다. 이미지를 내려받아 비전으로 읽지 않는다. alt 가 이미 글자다.",
     "robots": "/pd/pdr/ Allow · Crawl-delay 30 준수",
-    "ran_at": "2026-09-28T09:45:25.294386+00:00",
+    "ran_at": "2026-09-28T19:23:22.569336+00:00",
     "대상": 1,
     "채움": 1,
     "못찾음": [],
     "상품별": [
       {
-        "pd_no": "1027327",
-        "alt_len": 5074,
+        "pd_no": "1060489",
+        "alt_len": 1298,
         "찾음": [
-          "ingredients",
-          "maker",
-          "origin",
+          "usage",
           "volume",
           "warnings"
         ],
         "채움": [
-          "volume",
-          "maker",
-          "origin",
-          "ingredients",
-          "warnings"
+          "usage",
+          "warnings",
+          "volume"
         ],
         "더보기": "already_open",
         "끝까지": false

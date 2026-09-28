@@ -1,58 +1,59 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-09-28T12:50:05.581209+00:00",
+  "generated_at": "2026-09-28T19:23:32.196350+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "semantic_sources": {
       "data/product_master.json": "111b2a727e4c975897ecd10a8480da741f02966caa58d123944d63fa5befc365",
-      "data/gosi.json": "3ad91c101aa6472466393cdf6b8e1db379d6401f73321746c2f3a3ff1a191e5f",
-      "data/daiso_real/daiso_us_labels.json": "18390a4b5fcf3ceb4918a9e4e86e9776bb3431896e4c01f350bc24bfe20afb94",
-      "data/pricing_model.json": "609ba075a33be8ea93b65874d5e1f4f7a574acb38d5a319abc34dfefddf1df9b",
-      "data/legal_products.json": "7d6bbee79f5b8d9d577ed85c3f8d1cb53aa3b24c96e4a5806adbf0f88787d69c"
+      "data/gosi.json": "0f1904c72a89a25f8132963b11f561e9510e12d3344164e8ac79f8d83d64a155",
+      "data/daiso_real/daiso_us_labels.json": "ff58aea62a8e16f1423d1e566b54ac826a20b0668be98b361e68603e710a99da",
+      "data/pricing_model.json": "54c08106f9640ecbf2282c99d7ca9988e1a64232adbc3cf20bc98411971bb498",
+      "data/legal_products.json": "2df8c0cd38ef789939fc7f84a699f3e938fea468f7fcc4cfeccc55e682992d73"
     },
-    "recommendations_sha256": "4db0503746099158c934c3be0bbe27c3ad40cfe922a81e9876b7ff3ced03a30c"
+    "recommendations_sha256": "451f474aecd3282e84df379fc447f3619e3c315d8e33aaa647d5d93050bdbd04"
   },
   "total": 10,
-  "agent_ready": 9,
-  "ready": 9,
-  "draft_ready": 9,
+  "agent_ready": 8,
+  "ready": 8,
+  "draft_ready": 8,
   "public_ready": 0,
   "counts": {
     "ontology": 10,
-    "copy": 9,
-    "gosi": 10,
-    "us_label": 9,
+    "copy": 8,
+    "gosi": 9,
+    "us_label": 8,
     "price": 10,
-    "legal": 9,
+    "legal": 8,
     "legal_full": 0
   },
   "blockers": {
-    "copy": 1,
-    "us_label": 1,
-    "legal": 1
+    "copy": 2,
+    "gosi": 1,
+    "us_label": 2,
+    "legal": 2
   },
   "typesafe_summary": {
     "framework": "typesafe_system_one_compatible",
     "mode_counts": {
-      "typesafe_carried": 10
+      "typesafe_observational_free_credits": 10
     },
-    "typesafe_calls": 0,
+    "typesafe_calls": 10,
     "free_credits_only": 10,
     "paid_api_calls": 0,
     "enforced": 0,
     "usage": {
-      "calls": 0,
-      "input_tokens": 0,
-      "output_tokens": 0,
+      "calls": 10,
+      "input_tokens": 11009,
+      "output_tokens": 1980,
       "stopped": "",
       "max_calls": 40,
       "max_input_tokens": 60000,
       "input_token_price_per_mtok_usd": 0.042,
-      "estimated_cost_usd": 0.0,
+      "estimated_cost_usd": 0.000462,
       "purchased_credits": false
     },
-    "cumulative_ok_calls": 11,
-    "last_ok_call_at": "2026-09-28T12:34:14.025327+00:00",
+    "cumulative_ok_calls": 41,
+    "last_ok_call_at": "2026-09-28T19:23:32.196186+00:00",
     "note": "기본은 비용 없는 로컬 advisory. 실제 호출은 TYPESAFE_ENABLED=1 과 TYPESAFE_FREE_CREDITS_ONLY=1(무료 크레딧 한도 내) 또는 TYPESAFE_ALLOW_PAID=1(유료 승인) 일 때만 한다. 크레딧 구매는 하지 않는다."
   },
   "count": 10,
@@ -100,7 +101,7 @@
       },
       "price": {
         "price_usd": 24.99,
-        "margin_pct": 57.6,
+        "margin_pct": 57.7,
         "register_blocked": false
       },
       "legal": {
@@ -120,7 +121,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -132,21 +133,20 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.92,
+        "model_route_confidence": 0.93,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.698,
+        "confidence": 0.706,
         "usage": {
           "input_tokens": 1105,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.6,
+        "risk_score": 1.69,
         "model": "jev-1.13.0",
         "state_signature": "cdb95028555fb2cc1091059f8cd86fe4a993cc1cce6206584626e7d74b6ea8c6",
-        "decided_at": "2026-09-28T12:34:12.835915+00:00",
-        "carried_from": "2026-09-28T12:34:12.835915+00:00"
+        "decided_at": "2026-09-28T19:23:30.442062+00:00"
       }
     },
     {
@@ -212,7 +212,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -224,21 +224,20 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.94,
+        "model_route_confidence": 0.93,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.702,
+        "confidence": 0.704,
         "usage": {
           "input_tokens": 1085,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.67,
+        "risk_score": 1.68,
         "model": "jev-1.13.0",
         "state_signature": "51d0e73d5ba5ed41de4d4bf02811433e8f7ef09ef764ae07bb5b94a8cc530ea7",
-        "decided_at": "2026-09-28T12:34:12.952697+00:00",
-        "carried_from": "2026-09-28T12:34:12.952697+00:00"
+        "decided_at": "2026-09-28T19:23:30.610228+00:00"
       }
     },
     {
@@ -284,7 +283,7 @@
       },
       "price": {
         "price_usd": 14.99,
-        "margin_pct": 34.2,
+        "margin_pct": 34.4,
         "register_blocked": false
       },
       "legal": {
@@ -304,7 +303,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -316,21 +315,20 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.93,
+        "model_route_confidence": 0.91,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.718,
+        "confidence": 0.692,
         "usage": {
           "input_tokens": 1104,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.59,
+        "risk_score": 1.54,
         "model": "jev-1.13.0",
         "state_signature": "51d0e73d5ba5ed41de4d4bf02811433e8f7ef09ef764ae07bb5b94a8cc530ea7",
-        "decided_at": "2026-09-28T12:34:13.083531+00:00",
-        "carried_from": "2026-09-28T12:34:13.083531+00:00"
+        "decided_at": "2026-09-28T19:23:30.801598+00:00"
       }
     },
     {
@@ -376,7 +374,7 @@
       },
       "price": {
         "price_usd": 21.99,
-        "margin_pct": 41.7,
+        "margin_pct": 41.8,
         "register_blocked": false
       },
       "legal": {
@@ -396,7 +394,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -412,17 +410,16 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.692,
+        "confidence": 0.702,
         "usage": {
           "input_tokens": 1086,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.55,
+        "risk_score": 1.59,
         "model": "jev-1.13.0",
         "state_signature": "a235a30f46906db0e3e7198e8f998dc4cfdaf92ceac3f46d1cef17739f39ea0f",
-        "decided_at": "2026-09-28T12:34:13.234544+00:00",
-        "carried_from": "2026-09-28T12:34:13.234544+00:00"
+        "decided_at": "2026-09-28T19:23:31.026616+00:00"
       }
     },
     {
@@ -469,7 +466,7 @@
       },
       "price": {
         "price_usd": 18.99,
-        "margin_pct": 33.7,
+        "margin_pct": 33.8,
         "register_blocked": false
       },
       "legal": {
@@ -489,11 +486,11 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "review",
+        "grade_advisory": "hold",
         "legal_gate_advisory": "review",
         "risk_level": "high",
         "risk_points": 1,
@@ -501,21 +498,20 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.94,
+        "model_route_confidence": 0.93,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.698,
+        "confidence": 0.702,
         "usage": {
           "input_tokens": 1097,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.61,
+        "risk_score": 1.62,
         "model": "jev-1.13.0",
         "state_signature": "a235a30f46906db0e3e7198e8f998dc4cfdaf92ceac3f46d1cef17739f39ea0f",
-        "decided_at": "2026-09-28T12:34:13.330287+00:00",
-        "carried_from": "2026-09-28T12:34:13.330287+00:00"
+        "decided_at": "2026-09-28T19:23:31.245440+00:00"
       }
     },
     {
@@ -581,7 +577,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -597,7 +593,7 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.69,
+        "confidence": 0.686,
         "usage": {
           "input_tokens": 1090,
           "output_tokens": 198
@@ -606,111 +602,18 @@
         "risk_score": 1.58,
         "model": "jev-1.13.0",
         "state_signature": "9cd2800fc8d4cac3636219a503b910fbb2b0924bd299e98e77065bc73dc4dcbb",
-        "decided_at": "2026-09-28T12:34:13.487472+00:00",
-        "carried_from": "2026-09-28T12:34:13.487472+00:00"
+        "decided_at": "2026-09-28T19:23:31.460428+00:00"
       }
     },
     {
       "rank": 7,
-      "canonical_product_id": "CP000151",
-      "pd_no": "1059834",
-      "product_id": "1059834",
-      "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-      "category": "마스크팩",
-      "price_krw": 2000,
-      "shopify_score": 90,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
-      "copy": {
-        "title": "Celderma Daily Transforming Firming Collagen Mask 28g",
-        "description_html": "<p>Experience the nourishing care of the Celderma Daily Transforming Firming Collagen Mask. This sheet mask is designed to help smooth the look of fine lines and deliver a fresh, radiant glow to your skin.</p><p>Simply apply the 28g mask to clean skin, relax for a few minutes, and gently pat in the remaining essence for a hydrated and firmer-looking complexion.</p>",
-        "seo_title": "Celderma Daily Transforming Firming Collagen Mask 28g",
-        "seo_description": "Discover the Celderma Daily Transforming Firming Collagen Mask 28g for a hydrated, smoother-looking, and glowing complexion. Easy daily K-beauty skincare.",
-        "tags": [
-          "celderma",
-          "collagen-mask",
-          "sheet-mask",
-          "korean-beauty",
-          "k-beauty",
-          "firming-mask",
-          "facial-mask"
-        ],
-        "product_type": "Sheet Mask"
-      },
-      "copy_status": "ok",
-      "gosi": {
-        "volume": "28 g",
-        "maker": "(주)제닉 / 충청남도 논산시 성동면 산업단지로5길 5",
-        "origin": "한국",
-        "ingredients": "정제수, 글리세린, 세틸에틸헥사노에이트, 시어버터, 아크릴레이트코폴리머, 아이리쉬모스추출물, 캐롭검, 다이프로필렌글라이콜, 베타인, 포타슘클로라이드, 하이드록시아세토페논, 수크로오스, 세틸하이드록시에틸셀룰로오스, 카",
-        "gosi_ok": true
-      },
-      "us_label": {
-        "net_contents": "28 g",
-        "manufacturer": "(주)제닉 / 충청남도 논산시 성동면 산업단지로5길 5",
-        "country_of_origin": "Korea",
-        "ingredients_inci": "Water, Glycerin, Cetyl Ethylhexanoate, Butyrospermum Parkii (Shea) Butter, Acrylates Copolymer, Chondrus Crispus Extract, Ceratonia Siliqua Gum, Dipropylene Glycol, Betaine, Potassium Chloride, Hydroxyacetophenone, Sucrose, Cetyl Hydroxyethylcellulose, Caprylyl Glycol, Allantoin, Ethylhexylglycerin, Polyglyceryl-6 Caprylate, Polyglyceryl-4 Caprate, Adenosine, Hydrolyzed Vegetable Protein, 1,2-Hexanediol, Disodium EDTA, Fragrance, Ultramarines, Hydrated Silica, Disodium Phosphate, Silica Dimethyl Silylate, Dipotassium Glycyrrhizate, Butylene Glycol, Sodium Phosphate, Vigna Radiata Sprout Extract, Brassica Oleracea Italica (Broccoli) Sprout Extract, Brassica Campestris (Rapeseed) Sprout Extract, CI 17200, Tocopherol",
-        "us_label_ok": true
-      },
-      "price": {
-        "price_usd": 12.99,
-        "margin_pct": 31.8,
-        "register_blocked": false
-      },
-      "legal": {
-        "status": "auto_checked",
-        "hard_block": false,
-        "hard_block_reason": ""
-      },
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "ready": true,
-      "blocked_by": [],
-      "public_ready": false,
-      "public_blocked_by": [
-        "legal_full"
-      ],
-      "legal_full_complete": false,
-      "typesafe": {
-        "framework": "typesafe_system_one_compatible",
-        "enabled": true,
-        "mode": "typesafe_carried",
-        "source": "typesafe",
-        "paid_api_called": false,
-        "enforced": false,
-        "grade_advisory": "hold",
-        "legal_gate_advisory": "review",
-        "risk_level": "high",
-        "risk_points": 1,
-        "team_routes": [
-          "legal"
-        ],
-        "model_route": "human",
-        "model_route_confidence": 0.94,
-        "findings": [
-          "public blockers: legal_full"
-        ],
-        "confidence": 0.696,
-        "usage": {
-          "input_tokens": 1094,
-          "output_tokens": 198
-        },
-        "free_credits_only": true,
-        "risk_score": 1.5,
-        "model": "jev-1.13.0",
-        "state_signature": "72531625bdb11b67ee797df5b076b36210e54f4a386ed65f9afe25a575270ba5",
-        "decided_at": "2026-09-28T12:34:13.609243+00:00",
-        "carried_from": "2026-09-28T12:34:13.609243+00:00"
-      }
-    },
-    {
-      "rank": 8,
       "canonical_product_id": "CP000109",
       "pd_no": "1049285",
       "product_id": "1049285",
       "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
       "category": "스킨케어",
       "price_krw": 3000,
-      "shopify_score": 89,
+      "shopify_score": 93,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285",
       "copy": {
         "title": "VT Super Hyalon Sleeping Mask 4 ml 6 Pack",
@@ -745,7 +648,7 @@
       },
       "price": {
         "price_usd": 24.99,
-        "margin_pct": 57.6,
+        "margin_pct": 57.7,
         "register_blocked": false
       },
       "legal": {
@@ -765,11 +668,99 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
         "grade_advisory": "review",
+        "legal_gate_advisory": "review",
+        "risk_level": "high",
+        "risk_points": 1,
+        "team_routes": [
+          "legal"
+        ],
+        "model_route": "human",
+        "model_route_confidence": 0.93,
+        "findings": [
+          "public blockers: legal_full"
+        ],
+        "confidence": 0.702,
+        "usage": {
+          "input_tokens": 1096,
+          "output_tokens": 198
+        },
+        "free_credits_only": true,
+        "risk_score": 1.5,
+        "model": "jev-1.13.0",
+        "state_signature": "e05a0e27591e0c95f4d9b69ae7367544fdcdf352632872cce305bc9033dca5a5",
+        "decided_at": "2026-09-28T19:23:31.627419+00:00"
+      }
+    },
+    {
+      "rank": 8,
+      "canonical_product_id": "CP000125",
+      "pd_no": "1053482",
+      "product_id": "1053482",
+      "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
+      "category": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 88,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1053482",
+      "copy": {
+        "title": "MEDI-PEEL Face Toner 200ml",
+        "description_html": "<p>MEDI-PEEL Face Toner 200ml is a Korean beauty face toner in a 200ml size. This draft uses only the verified product identity and package information.</p><p>Review the ingredient list, directions, and final US label before publication.</p>",
+        "seo_title": "MEDI-PEEL Face Toner 200ml",
+        "seo_description": "View MEDI-PEEL Face Toner 200ml. Product identity and size are based on the source product notice. Review ingredients, directions, and the final label before purchase.",
+        "tags": [
+          "medi-peel",
+          "face-toner",
+          "k-beauty",
+          "korean-beauty"
+        ],
+        "product_type": "Face Toner"
+      },
+      "copy_status": "ok",
+      "gosi": {
+        "volume": "200ml",
+        "maker": "화장품제조업자: 제품 내 별도표기 / 화장품책임판매업자: 주식회사 스킨이데아",
+        "origin": "한국",
+        "ingredients": "정제수, 다이프로필렌글라이콜, 글리세린, 프로판다이올, 솔비톨, 부틸렌글라이콜, 나이아신아마이드, 아이소펜틸다이올, 글리세레스-25피씨에이아이소스테아레이트, 판테놀, 글리세릴글루코사이드, 하이드록시아세토페논, 1,2",
+        "gosi_ok": true
+      },
+      "us_label": {
+        "net_contents": "200ml",
+        "manufacturer": "화장품제조업자: 제품 내 별도표기 / 화장품책임판매업자: 주식회사 스킨이데아",
+        "country_of_origin": "Korea",
+        "ingredients_inci": "Water, Dipropylene Glycol, Glycerin, Propanediol, Sorbitol, Butylene Glycol, Niacinamide, Isopentyldiol, Glycereth-25 PCA Isostearate, Panthenol, Glyceryl Glucoside, Hydroxyacetophenone, 1,2-Hexanediol, Caprylyl Glycol, Ectoin, Fagus Sylvatica Bud Extract, Chamomilla Recutita (Matricaria) Flower Extract, Enantia Chlorantha Bark Extract, Hamamelis Virginiana (Witch Hazel) Extract, Betaine, Citric Acid, Gluconolactone, Lactic Acid, Salicylic Acid, Capryloyl Salicylic Acid, Xylitylglucoside, Anhydroxylitol, Xylitol, Vitis Vinifera (Grape) Fruit Extract, Diospyros Kaki Leaf Extract, Coffea Arabica (Coffee) Seed Extract, Polygonum Cuspidatum Root Extract, Carthamus Tinctorius (Safflower) Flower Extract, Camellia Sinensis Leaf Extract, Castanea Crenata (Chestnut) Shell Extract Castanea Crenata Shell Extract, Zanthoxylum Piperitum Fruit Extract, Butyl Avocadate, Centella Asiatica Extract, Ethylhexylglycerin, Glucose, Oleanolic Acid, Prunus Mume Fruit Extract, Malus Domestica Fruit Extract, Carica Papaya (Papaya) Fruit Extract, Citrus Junos Fruit Extract, Pinus Densiflora Leaf Extract, Artemisia Annua Extract, Polyglyceryl-10 Laurate, Benzyl Glycol, Hydrolyzed Glycosaminoglycans, Sodium Hyaluronate, Tocopherol, Lactobacillus/Soybean Ferment Extract, Portulaca Oleracea Extract, Origanum Vulgare Leaf Extract, Cinnamomum Cassia Bark Extract, Salix Alba (Willow) Bark Extract, Scutellaria Baicalensis Root Extract, Sodium Hyaluronate Crosspolymer, Chamaecyparis Obtusa Leaf Extract, Hydrolyzed Hyaluronic Acid, Acetyl Hexapeptide-8, Copper Tripeptide-1, Tripeptide-1, Palmitoyl Pentapeptide-4, Hydroxypropyltrimonium Hyaluronate, Alanine/Histidine/Lysine Polypeptide Copper HCl, Palmitoyl Tripeptide-1, Hexapeptide-9, Hyaluronic Acid, Sodium Acetylated Hyaluronate, Solanum Melongena (Eggplant) Fruit Extract, Magnolia Kobus Bark Extract, Terminalia Ferdinandiana Fruit Extract, Myrciaria Dubia Fruit Extract, Gardenia Florida Fruit Extract, Adenosine, Disodium EDTA, Allantoin, Mentha Piperita (Peppermint) Oil, Dipotassium Glycyrrhizate",
+        "us_label_ok": true
+      },
+      "price": {
+        "price_usd": 24.99,
+        "margin_pct": 41.9,
+        "register_blocked": false
+      },
+      "legal": {
+        "status": "auto_checked",
+        "hard_block": false,
+        "hard_block_reason": ""
+      },
+      "agent_ready": true,
+      "agent_blocked_by": [],
+      "ready": true,
+      "blocked_by": [],
+      "public_ready": false,
+      "public_blocked_by": [
+        "legal_full"
+      ],
+      "legal_full_complete": false,
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": true,
+        "mode": "typesafe_observational_free_credits",
+        "source": "typesafe",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "hold",
         "legal_gate_advisory": "review",
         "risk_level": "high",
         "risk_points": 2,
@@ -781,17 +772,16 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.702,
+        "confidence": 0.734,
         "usage": {
-          "input_tokens": 1096,
+          "input_tokens": 1097,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.51,
+        "risk_score": 1.64,
         "model": "jev-1.13.0",
-        "state_signature": "e370dff839120acc27ebfdefe0d9905a87a2ce0c6e34a9ae66036956848cc7e1",
-        "decided_at": "2026-09-28T12:34:13.744154+00:00",
-        "carried_from": "2026-09-28T12:34:13.744154+00:00"
+        "state_signature": "056b49377500e8706a467cb391d5c4e59863606a6588d742d745395c1c4e14fa",
+        "decided_at": "2026-09-28T19:23:31.834000+00:00"
       }
     },
     {
@@ -802,7 +792,7 @@
       "name": "바세린 마스크팩 집중보습",
       "category": "마스크팩",
       "price_krw": 1000,
-      "shopify_score": 89,
+      "shopify_score": 87,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027327&recmYn=N",
       "copy": {},
       "copy_status": "skipped_prerequisite",
@@ -852,7 +842,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -865,115 +855,115 @@
           "listing"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.93,
+        "model_route_confidence": 0.91,
         "findings": [
           "draft blockers: copy, us_label, legal",
           "public blockers: copy, us_label, legal, legal_full",
           "legal hard block"
         ],
-        "confidence": 0.906,
+        "confidence": 0.908,
         "usage": {
           "input_tokens": 1113,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 2.66,
+        "risk_score": 2.7,
         "model": "jev-1.13.0",
-        "state_signature": "6a8717070ad2bca1105bb9417b1c344a694d4ce599eb319fe88ce4fd91ae93ff",
-        "decided_at": "2026-09-28T12:34:13.893178+00:00",
-        "carried_from": "2026-09-28T12:34:13.893178+00:00"
+        "state_signature": "076ec9b1377ea4920113fc63027f92494c8df4d701076bc225da628764857456",
+        "decided_at": "2026-09-28T19:23:32.006899+00:00"
       }
     },
     {
       "rank": 10,
-      "canonical_product_id": "CP000075",
-      "pd_no": "1042619",
-      "product_id": "1042619",
-      "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
+      "canonical_product_id": "CP000158",
+      "pd_no": "1060489",
+      "product_id": "1060489",
+      "name": "메디필 시카 쿨링 진정 랩핑 마스크 4 ml 4개입",
       "category": "마스크팩",
-      "price_krw": 1000,
-      "shopify_score": 85,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
-      "copy": {
-        "title": "Celderma Daily Collagen Essence Gel Mask 29g",
-        "description_html": "<p>Experience the cooling and hydrating benefits of the Celderma Daily Collagen Essence Gel Mask. This 29g hydrogel mask delivers rich moisture to help keep your skin looking plump, soft, and refreshed throughout the day.</p><p>Simply apply the essence gel mask to clean skin, relax as it adheres closely to your facial contours, and enjoy a revitalized, radiant-looking complexion after every use.</p>",
-        "seo_title": "Celderma Daily Collagen Essence Gel Mask 29g",
-        "seo_description": "Shop the Celderma Daily Collagen Essence Gel Mask 29g. A hydrating hydrogel sheet mask designed to deliver moisture for a soft and radiant-looking complexion.",
-        "tags": [
-          "celderma",
-          "collagen-mask",
-          "essence-gel-mask",
-          "sheet-mask",
-          "korean-skincare",
-          "hydrating-mask",
-          "face-mask"
-        ],
-        "product_type": "Face Mask"
-      },
-      "copy_status": "ok",
+      "price_krw": 3000,
+      "shopify_score": 87,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060489",
+      "copy": {},
+      "copy_status": "skipped_prerequisite",
       "gosi": {
-        "volume": "29g",
-        "maker": "㈜제닉 (충청남도 논산시 성동면 산업단지로5길 5)",
-        "origin": "한국",
-        "ingredients": "정제수, 글리세린, 나이아신아마이드, 캐롭검, 아이리쉬모스추출물, 1,2-헥산다이올, 펜틸렌글라이콜, 에틸헥실글리세린, 콜라겐추출물(686,000ppb), 아데노신, 다이소듐이디티에이, 글리세릴글루코사이드, 폴리글리",
-        "gosi_ok": true
+        "volume": "4ml, 0.13oz",
+        "maker": "",
+        "origin": "",
+        "ingredients": "",
+        "gosi_ok": false
       },
       "us_label": {
-        "net_contents": "29g",
-        "manufacturer": "㈜제닉 (충청남도 논산시 성동면 산업단지로5길 5)",
-        "country_of_origin": "Korea",
-        "ingredients_inci": "Water, Glycerin, Niacinamide, Ceratonia Siliqua (Carob) Gum, Chondrus Crispus Extract, 1,2-Hexanediol, Pentylene Glycol, Ethylhexylglycerin, Collagen Extract, Adenosine, Disodium EDTA, Glyceryl Glucoside, Polyglyceryl-6 Caprylate, Polyglyceryl-4 Caprate, Tocopherol",
-        "us_label_ok": true
+        "net_contents": "4ml, 0.13oz",
+        "manufacturer": "",
+        "country_of_origin": "",
+        "ingredients_inci": "",
+        "us_label_ok": false
       },
       "price": {
-        "price_usd": 12.99,
-        "margin_pct": 38.3,
+        "price_usd": 24.99,
+        "margin_pct": 57.7,
         "register_blocked": false
       },
       "legal": {
         "status": "auto_checked",
-        "hard_block": false,
-        "hard_block_reason": ""
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields"
       },
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "ready": true,
-      "blocked_by": [],
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "gosi",
+        "us_label",
+        "legal"
+      ],
+      "ready": false,
+      "blocked_by": [
+        "copy",
+        "gosi",
+        "us_label",
+        "legal"
+      ],
       "public_ready": false,
       "public_blocked_by": [
+        "copy",
+        "gosi",
+        "us_label",
+        "legal",
         "legal_full"
       ],
       "legal_full_complete": false,
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
         "grade_advisory": "hold",
-        "legal_gate_advisory": "review",
-        "risk_level": "high",
-        "risk_points": 2,
+        "legal_gate_advisory": "block",
+        "risk_level": "critical",
+        "risk_points": 9,
         "team_routes": [
-          "legal"
+          "legal",
+          "sourcing",
+          "listing"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.93,
+        "model_route_confidence": 0.88,
         "findings": [
-          "public blockers: legal_full"
+          "draft blockers: copy, gosi, us_label, legal",
+          "public blockers: copy, gosi, us_label, legal, legal_full",
+          "legal hard block"
         ],
-        "confidence": 0.684,
+        "confidence": 0.932,
         "usage": {
-          "input_tokens": 1091,
+          "input_tokens": 1136,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.53,
+        "risk_score": 2.82,
         "model": "jev-1.13.0",
-        "state_signature": "5e2f905da436816b542b94ec498c05c939ebf779832f7f7ab48cf741dc0a99c4",
-        "decided_at": "2026-09-28T12:34:14.025327+00:00",
-        "carried_from": "2026-09-28T12:34:14.025327+00:00"
+        "state_signature": "dde31c10e5a124a988452c35c89827158335f637f4ba35f152d3b99b3a8502d8",
+        "decided_at": "2026-09-28T19:23:32.196312+00:00"
       }
     }
   ]

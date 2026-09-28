@@ -2,7 +2,7 @@
 title: "Record ccd044b4b4 · Pore-Cleansing-Oil-PHA"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T13:58:18.024635+00:00
+updated_at: 2026-09-28T19:25:19.540573+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Pore Cleansing Oil [PHA] · HANSKIN · $19.9
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

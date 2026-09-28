@@ -1,11 +1,20 @@
 {
   "source": "google news rss (beauty queries) + trends daily filtered",
-  "collected_at": "2026-09-28T12:27:47.877262+00:00",
+  "collected_at": "2026-09-28T19:14:51.526036+00:00",
   "status": "ok",
   "note": "뷰티 키워드만. 채점 MATCH_CHANNELS 에는 넣지 않음. 대시보드 키워드 보드용.",
   "query_count": 12,
   "count": 95,
   "items": [
+    {
+      "keyword": "Korean Department Store Shinsegae Wants to Be a U.S. Beauty Player, Too - WWD",
+      "product": "Korean Department Store Shinsegae Wants to Be a U.S. Beauty Player, Too - WWD",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORlR1RUpYVVZlSlotVVZzTS1yYXpZOV9pdjVFUHZvbzAxeGIydWNib2U5ekxCYkxzaXFXZ1JjeTI4SmxaWHdJdmliYzlRWFZkVHhGb3p1akJ3ZFVfWFpLT0o0YzNQYlZOOWY2bERlem5VckVDak9pbWZIXzFnMnhQYVR1VTdMT2thZUQwMnkzOXRuWFk1MUM2Q29OUWtZRE1rR2RrUUhhbw?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
     {
       "keyword": "Evonik: What K-beauty teaches formulators about efficacy and speed - Personal Care Insights",
       "product": "Evonik: What K-beauty teaches formulators about efficacy and speed - Personal Care Insights",
@@ -25,15 +34,6 @@
       "beauty": true
     },
     {
-      "keyword": "Shinsegae Targets US Beauty Market with K-Beauty Retail Platform - globalcosmeticsnews.com",
-      "product": "Shinsegae Targets US Beauty Market with K-Beauty Retail Platform - globalcosmeticsnews.com",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOLUgzOFAzc1hpSHFab3ZWZ2NPSWNXcTliOHpqakQ1R3M4enBUVEtsbXpjZXdKd2lleHM2ODVWSUZOTkNoX1RYeWtBbmhqRUxOS1l5UnVMQV94WHpLN3VUWkJxMjFISzBJOEpaYmdtSVYybVVta2x5ZzcwRGZDeTJ1Vm93dlNqaUZZdWwyc1JMdmNydmY1OHI1ODdDSGY2VURIWV9B?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
       "keyword": "K-Beauty Is Taking Over Our Best of Beauty Awards, and for Good Reason - Allure",
       "product": "K-Beauty Is Taking Over Our Best of Beauty Awards, and for Good Reason - Allure",
       "sub": "K-beauty",
@@ -43,20 +43,11 @@
       "beauty": true
     },
     {
-      "keyword": "K Beauty Products Market Forecast to Expand Through 2035, Driven by Demand for Science-Backed Skincare Routines - IndexBox",
-      "product": "K Beauty Products Market Forecast to Expand Through 2035, Driven by Demand for Science-Backed Skincare Routines - IndexBox",
+      "keyword": "Shinsegae Targets US Beauty Market with K-Beauty Retail Platform - Global Cosmetics News",
+      "product": "Shinsegae Targets US Beauty Market with K-Beauty Retail Platform - Global Cosmetics News",
       "sub": "K-beauty",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbW03dnVrX003cF9PNzdzWFNjaVJaVWVqQUU3U3dIc0tCVFJiZTV2SmtOTFdzX1pSNU9NNVBIYlJLZzJpTFBYUkExTExxbGNxem5UN3ZxQUpqR2x0dUFuaDV0X3J2Y0Y4YVFRMkpwcWxYRy1xWm9QeGNNQmZ4RUpmX2JUM05YU1E2ODZwdkNxTUNTZ1hjQ2hKam50bEhrWHhGSmpyTE0xNktYSUpvMkVrbHFLQ21RcmRfejRkUjBYd083eFN2SC1IM282b0ZLYUtrQi1uZ25oWQ?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "How The Eye-Patch Grinder Packaging Ended Up Everywhere At Once - Beauty Independent",
-      "product": "How The Eye-Patch Grinder Packaging Ended Up Everywhere At Once - Beauty Independent",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbm1kNTFMSThEM3g3Q1hnNHFYV0xXcURsRXo3emE1RzVmc3pDT1ZBanFlUzgyY1JkZ3llQllaa0NRbTVaNUdqYWt5SEZiU2E1SzF4S1ZZb2VPRjZ1cmdtQXhnSHB1VlBxZGZ3dHczTF9wdTVkYXFTRG81WUlyZE5TUWh5Q3lUX182dHl4V3dsQ3k?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOLUgzOFAzc1hpSHFab3ZWZ2NPSWNXcTliOHpqakQ1R3M4enBUVEtsbXpjZXdKd2lleHM2ODVWSUZOTkNoX1RYeWtBbmhqRUxOS1l5UnVMQV94WHpLN3VUWkJxMjFISzBJOEpaYmdtSVYybVVta2x5ZzcwRGZDeTJ1Vm93dlNqaUZZdWwyc1JMdmNydmY1OHI1ODdDSGY2VURIWV9B?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -70,11 +61,20 @@
       "beauty": true
     },
     {
-      "keyword": "I Went to Seoul to Find the Korean Skin-Care Products People Actually Buy - vogue.com",
-      "product": "I Went to Seoul to Find the Korean Skin-Care Products People Actually Buy - vogue.com",
+      "keyword": "K Beauty Products Market Forecast to Expand Through 2035, Driven by Demand for Science-Backed Skincare Routines - IndexBox",
+      "product": "K Beauty Products Market Forecast to Expand Through 2035, Driven by Demand for Science-Backed Skincare Routines - IndexBox",
       "sub": "K-beauty",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1JSEZleGFOZTlfbmlCTTRTbWZOZXJMWS1ZVkhnZy16cHdVNDM1Qnl4X0RGR19LcGNSQjNyLVpWQXZ0RTU0TWU2T2xfOW1VeDU0UGNsN0RkRXRNMWxqNVh1VnpKMmszdw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbW03dnVrX003cF9PNzdzWFNjaVJaVWVqQUU3U3dIc0tCVFJiZTV2SmtOTFdzX1pSNU9NNVBIYlJLZzJpTFBYUkExTExxbGNxem5UN3ZxQUpqR2x0dUFuaDV0X3J2Y0Y4YVFRMkpwcWxYRy1xWm9QeGNNQmZ4RUpmX2JUM05YU1E2ODZwdkNxTUNTZ1hjQ2hKam50bEhrWHhGSmpyTE0xNktYSUpvMkVrbHFLQ21RcmRfejRkUjBYd083eFN2SC1IM282b0ZLYUtrQi1uZ25oWQ?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "How The Eye-Patch Grinder Packaging Ended Up Everywhere At Once - beautyindependent.com",
+      "product": "How The Eye-Patch Grinder Packaging Ended Up Everywhere At Once - beautyindependent.com",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbm1kNTFMSThEM3g3Q1hnNHFYV0xXcURsRXo3emE1RzVmc3pDT1ZBanFlUzgyY1JkZ3llQllaa0NRbTVaNUdqYWt5SEZiU2E1SzF4S1ZZb2VPRjZ1cmdtQXhnSHB1VlBxZGZ3dHczTF9wdTVkYXFTRG81WUlyZE5TUWh5Q3lUX182dHl4V3dsQ3k?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -88,11 +88,11 @@
       "beauty": true
     },
     {
-      "keyword": "Are K-Beauty sunscreens as good as ones sold in the US? Consumer Reports puts them to the test - 6abc Philadelphia",
-      "product": "Are K-Beauty sunscreens as good as ones sold in the US? Consumer Reports puts them to the test - 6abc Philadelphia",
+      "keyword": "Consumer Reports puts K-Beauty sunscreens to the test - WRAL",
+      "product": "Consumer Reports puts K-Beauty sunscreens to the test - WRAL",
       "sub": "Korean sunscreen",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWWx5RGl5d3ZxTkl1azFmbEN0V1JVclVXa2UxeEJmd0xNZEYzREppbVBaOGdZYjJ5SWg4cXp5UXJUdklLM3ZyNEV5LWNmQzl0WkMwdWdlS0FydGJjUkZkQmZvanlhWnlaY1hzSWVkXzFRelJQU2JTbGhNWEZCNjVjSktoc2JIUGpOVFpHZDkwMkRHdnd4T3RCc25NcVlwVnPSAaQBQVVfeXFMTVN6dkcyQmI4N1B5bFZTVnZVMlhFd1JUM3FyRmFSUHNSOUZFSGNrME4wV2N0eVlWelJJZlp2OE85ZmVsWnlHMjBEZHlDWW5UakptR3BZWTRsRDdGV1pKUU1YOXBMSmprckxtcFlEdW92OG9iUW0xWTdxUDBWelRmQjFTcUppNWY5R1lkekY1bjhkMDJ4NEpab01OZUFoOUI2WVhFemY?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMHhPYk45c2xzWEw3Mmx2akplQWJZS1F1SnJSbnZJV3RmV0hLTktMUnl4cDBQak5jdDQ0LWlUWWtGODZSbkFfU0Q3MDZ0S0FtVFNDSjUyaldtU0l6WjhiZXpjN1MxVjdRNGVXeEUyZkNqY29aeXBqckFYYWxTYkF4TkpFVUFsZjFRMk9EU1N3?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -115,20 +115,20 @@
       "beauty": true
     },
     {
-      "keyword": "Is Korean sunscreen worth the hype? - WAFB",
-      "product": "Is Korean sunscreen worth the hype? - WAFB",
-      "sub": "Korean sunscreen",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBjenlzd2RLQUd1RWtfc0V4dlZIeldiM3FfOTJ4S08wdmplNUdTVUZrUXhrU25oOVpTeVFPSGgxYXpBNWpIbTVQSlRHQlV6MW4wVkNHTzhSQlYtSmJrQmQ1bkRCc3dMOUF0OUpyZlRNQnhvMXdmMFprTQ?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
       "keyword": "Why Dermatologists Say Korean Sunscreens Are a Game-Changer for Your Skin - TODAY.com",
       "product": "Why Dermatologists Say Korean Sunscreens Are a Game-Changer for Your Skin - TODAY.com",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBYSVhpV19HSHdPNzdPX2JLRjJvdWxIOVRBa3NSX2NfMUw3Tkc3MWJwa0s4ZERHUzFHcWNXSnByV2lYN09jMEJ2a3pjaGNzMzRsSjMzWktsMllRS2laWVZnMl9YQVBMLXA4Sm1rVQ?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Is Korean sunscreen worth the hype? - WAFB",
+      "product": "Is Korean sunscreen worth the hype? - WAFB",
+      "sub": "Korean sunscreen",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBjenlzd2RLQUd1RWtfc0V4dlZIeldiM3FfOTJ4S08wdmplNUdTVUZrUXhrU25oOVpTeVFPSGgxYXpBNWpIbTVQSlRHQlV6MW4wVkNHTzhSQlYtSmJrQmQ1bkRCc3dMOUF0OUpyZlRNQnhvMXdmMFprTQ?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -142,8 +142,8 @@
       "beauty": true
     },
     {
-      "keyword": "Is the new U.S. regulation an open door or obstacle for K-sunscreens? - Korea JoongAng Daily",
-      "product": "Is the new U.S. regulation an open door or obstacle for K-sunscreens? - Korea JoongAng Daily",
+      "keyword": "Is the new U.S. regulation an open door or obstacle for K-sunscreens? - koreajoongangdaily.com",
+      "product": "Is the new U.S. regulation an open door or obstacle for K-sunscreens? - koreajoongangdaily.com",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUDh6Z0llM0RRMDYyeWdpSlhyaTRUdjREYUloeWMzUjQtbnBud0NaaWluNGs2akdaT2NZbnhlbElONjJUVzE2QU5TV2NTMkRhVnlQaHlXaUJTdTZScTE0Y0pqblFlYnlNa1dseHB3M09Fb3RQN0hCclZYS1B1RXotaERGS29IQmZlbFI2RzNBTXFreExrUnE5MzhaV3ZsclBHRkpXRlEtQnQxbk5INngtdURoWVlPRmtGcGc?oc=5",
@@ -156,15 +156,6 @@
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdm52RDduRjhGVVR4YWZ2MlVJRVpMLWxYaHVqdHVES3IxQV9ObF83blgzMm16ODY5UWFtRVJrY3dqZ2VTVTdtSEVHVzBQQnZEMzRCakJDSWRmZF9zTi1uVFVzN2hTYUVlT0ZFMkFkaTRJSlI1RHdzOVpsYTBPbC1DS1B5WVJrTmdzT2VHVE53UGtYdUxRNmZzeVZZTGM?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "The Not-So-Secret Ingredient in This $20 Moisturizer Gives Shoppers in Their 50s ‘10 Times Better’ Skin - People.com",
-      "product": "The Not-So-Secret Ingredient in This $20 Moisturizer Gives Shoppers in Their 50s ‘10 Times Better’ Skin - People.com",
-      "sub": "snail mucin",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9qcURhUHFrZjVWdGV6OWpfQTgwZ3dXb0hzcnNFNHZZX05ST09mVHd0Yk16TDhCYW0yelZXSTlIekZtTG50SU1TN2xidWd6b0JWRFVJdUtuRUIzQkZrdXdqckpIQjNCTUNHbmVyTE52LWFmMVpiWXRiMg?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -187,6 +178,15 @@
       "beauty": true
     },
     {
+      "keyword": "The Not-So-Secret Ingredient in This $20 Moisturizer Gives Shoppers in Their 50s ‘10 Times Better’ Skin - People.com",
+      "product": "The Not-So-Secret Ingredient in This $20 Moisturizer Gives Shoppers in Their 50s ‘10 Times Better’ Skin - People.com",
+      "sub": "snail mucin",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9qcURhUHFrZjVWdGV6OWpfQTgwZ3dXb0hzcnNFNHZZX05ST09mVHd0Yk16TDhCYW0yelZXSTlIekZtTG50SU1TN2xidWd6b0JWRFVJdUtuRUIzQkZrdXdqckpIQjNCTUNHbmVyTE52LWFmMVpiWXRiMg?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
       "keyword": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - vogue.com",
       "product": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - vogue.com",
       "sub": "snail mucin",
@@ -205,8 +205,8 @@
       "beauty": true
     },
     {
-      "keyword": "Madison LeCroy uses this $13 snail mucin skin care ‘every single night’: ‘Really does work’ - pagesix.com",
-      "product": "Madison LeCroy uses this $13 snail mucin skin care ‘every single night’: ‘Really does work’ - pagesix.com",
+      "keyword": "Madison LeCroy uses this $13 snail mucin skin care ‘every single night’: ‘Really does work’ - Page Six",
+      "product": "Madison LeCroy uses this $13 snail mucin skin care ‘every single night’: ‘Really does work’ - Page Six",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOVFOcDNSNU5FazZmWTllWXZrM0ZPdE0zcll3Qk9WbWFhdEIzZmhpVVZRY29xbE8xMDZ5VjNIR083a0FrbEUxU2RSNHkxNWFnczE0U0dDenNXdlMzOU50cmdBM1JxcmxYbHEtZFpXQ1FXNXY0Smxnb3ZxYWdoTEFIY3BaZkJucHhWMEJZTVAtV2ZpWEtZTmdNZUkxbXotelFLOUxWLVJ3?oc=5",
@@ -214,8 +214,8 @@
       "beauty": true
     },
     {
-      "keyword": "Snails are masters of mucus chemistry - Chemical & Engineering News",
-      "product": "Snails are masters of mucus chemistry - Chemical & Engineering News",
+      "keyword": "Snails are masters of mucus chemistry - cen.acs.org",
+      "product": "Snails are masters of mucus chemistry - cen.acs.org",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdWxLYWM0V1J4VkM4aWpQRXRGM2h2RTFYYUg4NmdNd0RFbEtpZlNTdHc1Rkg5alNqbzByMEkycVh1bnJSby1seFpNc3JZMkgzUVBmOUJQT0pxYTI2RnA4bHh5U0lQdzZDa1E4eUxXZnBUa3FVUE55T0JsaXFIbTZnbkZFRFVtNmJNRVNLNlN0SVNaXzM1UVVqNmVjTjlmRkk?oc=5",
@@ -250,8 +250,8 @@
       "beauty": true
     },
     {
-      "keyword": "My K-Beauty 'glass skin' routine isn't complete without this toner - glamourmagazine.co.uk",
-      "product": "My K-Beauty 'glass skin' routine isn't complete without this toner - glamourmagazine.co.uk",
+      "keyword": "My K-Beauty 'glass skin' routine isn't complete without this toner - Glamour UK",
+      "product": "My K-Beauty 'glass skin' routine isn't complete without this toner - Glamour UK",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9oVkRxekx6R29ydjRMWTNEOXR3TzNCWnJOUjRPVVVQN1NXOUxBcmJkUFhhcnBnZXIzZmFBNnJ3Uk9RSEp2Q3lXRUZMV0UxbE5kUzZXcTZ5VVdMcTY4dEtBb0l5MDdSdFFtaFg1cQ?oc=5",

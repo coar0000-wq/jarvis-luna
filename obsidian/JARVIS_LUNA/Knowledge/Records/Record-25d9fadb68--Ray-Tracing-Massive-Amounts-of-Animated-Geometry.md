@@ -2,7 +2,7 @@
 title: "Record 25d9fadb68 · Ray-Tracing-Massive-Amounts-of-Animated-Geometry"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T13:58:16.788215+00:00
+updated_at: 2026-09-28T19:25:18.371994+00:00
 tags: [record, real-data]
 ---
 

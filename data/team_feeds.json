@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-28T12:26:39.298447+00:00",
+  "generated_at": "2026-09-28T19:13:48.423959+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
-  "pool_size": 2690,
+  "pool_size": 3057,
   "제목없어_버림": 38,
   "unrouted": 9,
   "summary": {
@@ -15,59 +15,59 @@
       "products": 346
     },
     "market": {
-      "total": 591,
-      "recent": 83,
-      "material": 591,
-      "material_recent": 83,
+      "total": 915,
+      "recent": 79,
+      "material": 915,
+      "material_recent": 79,
       "products": 0
     },
     "listing": {
-      "total": 103,
-      "recent": 44,
-      "material": 103,
-      "material_recent": 44,
+      "total": 104,
+      "recent": 45,
+      "material": 104,
+      "material_recent": 45,
       "products": 0
     },
     "pricing": {
-      "total": 64,
+      "total": 65,
       "recent": 24,
-      "material": 64,
+      "material": 65,
       "material_recent": 24,
       "products": 0
     },
     "legal": {
-      "total": 207,
+      "total": 223,
       "recent": 46,
-      "material": 207,
+      "material": 223,
       "material_recent": 46,
       "products": 0
     },
     "design": {
-      "total": 412,
-      "recent": 117,
-      "material": 412,
-      "material_recent": 117,
+      "total": 444,
+      "recent": 120,
+      "material": 444,
+      "material_recent": 120,
       "products": 0
     },
     "robotics": {
-      "total": 154,
+      "total": 152,
       "recent": 55,
-      "material": 154,
+      "material": 152,
       "material_recent": 55,
       "products": 0
     },
     "knowledge": {
-      "total": 257,
-      "recent": 93,
-      "material": 257,
-      "material_recent": 93,
+      "total": 259,
+      "recent": 95,
+      "material": 259,
+      "material_recent": 95,
       "products": 0
     },
     "institutions": {
-      "total": 1099,
-      "recent": 225,
-      "material": 1099,
-      "material_recent": 225,
+      "total": 1123,
+      "recent": 221,
+      "material": 1123,
+      "material_recent": 221,
       "products": 0
     },
     "channels": {
@@ -1362,6 +1362,13 @@
         "by_hand": true
       },
       {
+        "title": "What Are Claude Design Skills and How to Use Them",
+        "url": "https://www.youtube.com/watch?v=psUJ14KmwpI",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
         "title": "Beyond TikTok Shop: How to Use TikTok to Drive Shopify Sales",
         "url": "https://www.youtube.com/watch?v=nIOn_726Rxk",
         "pool": "youtube_channel",
@@ -1448,13 +1455,6 @@
       {
         "title": "Winning Pricing Strategies: 10 Plays Every Shopify Store Needs (Beginner to Pro)",
         "url": "https://www.youtube.com/watch?v=c37NGZtSJPM",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "The Official Shopify Sidekick Tutorial (Part 2)",
-        "url": "https://www.youtube.com/watch?v=NbTHyB-nqHQ",
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
@@ -2538,7 +2538,7 @@
         "by_hand": true
       },
       {
-        "title": "This UI/UX Redesign Will Teach You More Than Figma 100 Tutorials Combined",
+        "title": "These UI/UX Design Mistakes Will Break Your UI Designs",
         "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
         "pool": "youtube_channel",
         "date": "",
@@ -2720,6 +2720,13 @@
         "by_hand": true
       },
       {
+        "title": "What Are Claude Design Skills and How to Use Them",
+        "url": "https://www.youtube.com/watch?v=psUJ14KmwpI",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
         "title": "Beyond TikTok Shop: How to Use TikTok to Drive Shopify Sales",
         "url": "https://www.youtube.com/watch?v=nIOn_726Rxk",
         "pool": "youtube_channel",
@@ -2778,13 +2785,6 @@
       {
         "title": "How to Start a 1-Person Business with Claude",
         "url": "https://www.youtube.com/watch?v=irtf9-m-9uc",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "How to use Claude to Create Digital Products",
-        "url": "https://www.youtube.com/watch?v=tZW0x_tDhSk",
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true

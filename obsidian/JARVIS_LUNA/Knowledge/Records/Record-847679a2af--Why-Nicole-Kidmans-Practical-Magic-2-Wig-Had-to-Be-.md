@@ -2,7 +2,7 @@
 title: "Record 847679a2af · Why-Nicole-Kidmans-Practical-Magic-2-Wig-Had-to-Be-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T13:58:18.193346+00:00
+updated_at: 2026-09-28T19:25:19.708835+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Why Nicole Kidman’s "Practical Magic 2" Wig Had to Be So Different From the Or
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

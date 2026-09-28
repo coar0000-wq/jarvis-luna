@@ -1,20 +1,57 @@
 {
-  "generated_at": "2026-09-28T12:27:49.903531+00:00",
+  "generated_at": "2026-09-28T19:14:53.700873+00:00",
   "generator": "scripts/self_improve.py",
   "principle": "무료·설정만 변경·그림자 평가 후 채택·실측 악화 시 자동 롤백",
   "loops": {
     "topics": {
       "metric": "uncategorized_rate",
-      "records": 5175,
-      "base_uncategorized": 680,
-      "before": 0.0837,
-      "after_shadow": 0.0837,
-      "uncategorized_before": 433,
-      "uncategorized_after_shadow": 433,
-      "adopted": 0,
-      "learned_keywords": 9,
-      "decisions": [],
-      "status": "no_change"
+      "records": 5497,
+      "base_uncategorized": 867,
+      "before": 0.0915,
+      "after_shadow": 0.089,
+      "uncategorized_before": 503,
+      "uncategorized_after_shadow": 489,
+      "adopted": 3,
+      "learned_keywords": 12,
+      "decisions": [
+        {
+          "loop": "topics",
+          "action": "adopt",
+          "keyword": "cleansing",
+          "topic": "뷰티·스킨케어",
+          "precision": 1.0,
+          "support": 16,
+          "uncategorized_hits": 7,
+          "source": "us_beauty",
+          "source_fit": 0.884,
+          "newly_classified": 7
+        },
+        {
+          "loop": "topics",
+          "action": "adopt",
+          "keyword": "smoothing",
+          "topic": "뷰티·스킨케어",
+          "precision": 0.938,
+          "support": 16,
+          "uncategorized_hits": 4,
+          "source": "us_beauty",
+          "source_fit": 0.884,
+          "newly_classified": 4
+        },
+        {
+          "loop": "topics",
+          "action": "adopt",
+          "keyword": "original",
+          "topic": "뷰티·스킨케어",
+          "precision": 0.857,
+          "support": 21,
+          "uncategorized_hits": 4,
+          "source": "us_beauty",
+          "source_fit": 0.884,
+          "newly_classified": 3
+        }
+      ],
+      "status": "adopted"
     },
     "sourcing": {
       "metric": "useful_fetch_rate",
@@ -41,13 +78,23 @@
       "before": 0.435,
       "relevant": 37,
       "items": 85,
-      "feed_caps": {},
+      "feed_caps": {
+        "web.dev": 3
+      },
       "offline_drafts": 2,
       "store_done": 2,
       "steps_total": 12,
-      "decisions": [],
-      "status": "no_change"
+      "decisions": [
+        {
+          "loop": "design",
+          "action": "adopt",
+          "feed": "web.dev",
+          "cap": 3,
+          "reason": "최근 3회 관련 비율 10% < 30%. 관련 글은 모두 남기고 나머지만 줄인다."
+        }
+      ],
+      "status": "adopt"
     }
   },
-  "decisions_total": 10
+  "decisions_total": 14
 }

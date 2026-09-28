@@ -2,7 +2,7 @@
 title: "Record 1a14c17416 · Gastric-Mucosa-Cancer-Risk-The-Operative-Link-on-Ga"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T13:58:17.253873+00:00
+updated_at: 2026-09-28T19:25:18.809468+00:00
 tags: [record, real-data]
 ---
 

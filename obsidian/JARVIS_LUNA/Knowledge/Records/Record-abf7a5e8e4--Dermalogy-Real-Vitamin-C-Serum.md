@@ -2,7 +2,7 @@
 title: "Record abf7a5e8e4 · Dermalogy-Real-Vitamin-C-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T13:58:18.031947+00:00
+updated_at: 2026-09-28T19:25:19.549771+00:00
 tags: [record, real-data]
 ---
 

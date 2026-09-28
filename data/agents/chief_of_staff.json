@@ -1,12 +1,54 @@
 {
   "agent": "Chief-of-Staff",
   "role": "전체 JARVIS 운영상태를 종합하여 우선순위와 Safe Auto-Fix 실행 여부를 결정",
-  "generated_at": "2026-09-28T12:35:31.245500+00:00",
-  "risk": "low",
-  "overall_priority": "P4",
-  "overall_action": "TRACK_EXTERNAL_SOURCE_ERRORS",
-  "overall_reason": "외부 소스 고장 5건 추적 중 (기관 수집팀:Deutsche Bank 사이트, 기관 수집팀:TSMC 뉴스룸, 기관 수집팀:Marvell·Intel·Qualcomm·ASML IR RSS, 채널 운영팀:FDA 화장품 리콜·조치 이력)",
+  "generated_at": "2026-09-28T19:24:48.332503+00:00",
+  "risk": "medium",
+  "overall_priority": "P2",
+  "overall_action": "INVESTIGATE_EMPTY_CHANNELS",
+  "overall_reason": "비어 있거나 실패 상태인 채널이 1개 존재한다.",
   "decisions": [
+    {
+      "priority": "P2",
+      "severity_score": 72,
+      "area": "signals",
+      "action": "INVESTIGATE_EMPTY_CHANNELS",
+      "reason": "비어 있거나 실패 상태인 채널이 1개 존재한다.",
+      "channels": [
+        "amazon_movers_beauty"
+      ],
+      "auto_execute": false,
+      "remediation_class": "external_dependency",
+      "requires_user_action": false
+    },
+    {
+      "priority": "P2",
+      "severity_score": 50,
+      "area": "market",
+      "team": "market",
+      "action": "INVESTIGATE_EMPTY_CHANNELS",
+      "reason": "글로벌 신호 채널 저하",
+      "evidence": {
+        "live_channels": 13,
+        "total_channels": 14,
+        "empty_channels": [
+          "amazon_movers_beauty"
+        ]
+      },
+      "remediation_class": "external_dependency",
+      "auto_execute": false,
+      "requires_user_action": false
+    },
+    {
+      "priority": "P3",
+      "severity_score": 35,
+      "area": "dashboard:market",
+      "team": "market",
+      "action": "TEAM_ACTION_MARKET",
+      "reason": "고시 표 1건 판독 남음 — 1060489 메디필 시카 쿨링 진정 랩핑 마스 [전성분,제조사,원산지 · 브라우저 원문 수집 후 남은 항목 재파싱 대상] https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060489",
+      "remediation_class": "revalidate_only",
+      "auto_execute": false,
+      "requires_user_action": false
+    },
     {
       "priority": "P4",
       "severity_score": 18,
@@ -23,7 +65,7 @@
       "area": "dashboard:listing",
       "team": "listing",
       "action": "TEAM_WAITING_LISTING",
-      "reason": "카피 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 8건 사람 승인 대기",
+      "reason": "카피 2건, 고시 1건, 영문라벨 2건, 법률 2건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 7건 사람 승인 대기",
       "remediation_class": "human_approval_required",
       "auto_execute": false,
       "requires_user_action": true
@@ -34,7 +76,7 @@
       "area": "dashboard:legal",
       "team": "legal",
       "action": "TEAM_WAITING_LEGAL",
-      "reason": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
+      "reason": "차단 2건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab), 메디필 시카 쿨링 진정 랩핑 (자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
       "remediation_class": "human_approval_required",
       "auto_execute": false,
       "requires_user_action": true
@@ -59,7 +101,7 @@
       "area": "dashboard:listing",
       "team": "listing",
       "action": "TEAM_WAITING_LISTING",
-      "reason": "카피 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 8건 사람 승인 대기",
+      "reason": "카피 2건, 고시 1건, 영문라벨 2건, 법률 2건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 7건 사람 승인 대기",
       "remediation_class": "human_approval_required",
       "auto_execute": false,
       "requires_user_action": true
@@ -70,13 +112,55 @@
       "area": "dashboard:legal",
       "team": "legal",
       "action": "TEAM_WAITING_LEGAL",
-      "reason": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
+      "reason": "차단 2건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab), 메디필 시카 쿨링 진정 랩핑 (자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
       "remediation_class": "human_approval_required",
       "auto_execute": false,
       "requires_user_action": true
     }
   ],
   "monitored_actions": [
+    {
+      "priority": "P2",
+      "severity_score": 72,
+      "area": "signals",
+      "action": "INVESTIGATE_EMPTY_CHANNELS",
+      "reason": "비어 있거나 실패 상태인 채널이 1개 존재한다.",
+      "channels": [
+        "amazon_movers_beauty"
+      ],
+      "auto_execute": false,
+      "remediation_class": "external_dependency",
+      "requires_user_action": false
+    },
+    {
+      "priority": "P2",
+      "severity_score": 50,
+      "area": "market",
+      "team": "market",
+      "action": "INVESTIGATE_EMPTY_CHANNELS",
+      "reason": "글로벌 신호 채널 저하",
+      "evidence": {
+        "live_channels": 13,
+        "total_channels": 14,
+        "empty_channels": [
+          "amazon_movers_beauty"
+        ]
+      },
+      "remediation_class": "external_dependency",
+      "auto_execute": false,
+      "requires_user_action": false
+    },
+    {
+      "priority": "P3",
+      "severity_score": 35,
+      "area": "dashboard:market",
+      "team": "market",
+      "action": "TEAM_ACTION_MARKET",
+      "reason": "고시 표 1건 판독 남음 — 1060489 메디필 시카 쿨링 진정 랩핑 마스 [전성분,제조사,원산지 · 브라우저 원문 수집 후 남은 항목 재파싱 대상] https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060489",
+      "remediation_class": "revalidate_only",
+      "auto_execute": false,
+      "requires_user_action": false
+    },
     {
       "priority": "P4",
       "severity_score": 18,
@@ -126,14 +210,16 @@
     "market": {
       "name": "Signal-Audit",
       "description": "Amazon/TikTok/Trends/Walmart/OliveYoung 등 글로벌 신호 채널을 감시",
-      "status": "ok",
-      "priority": "P4",
+      "status": "attention",
+      "priority": "P2",
       "evidence": {
-        "live_channels": 11,
-        "total_channels": 11,
-        "empty_channels": []
+        "live_channels": 13,
+        "total_channels": 14,
+        "empty_channels": [
+          "amazon_movers_beauty"
+        ]
       },
-      "recommended_action": "MONITOR",
+      "recommended_action": "INVESTIGATE_EMPTY_CHANNELS",
       "auto_execute": false
     },
     "score": {
@@ -210,8 +296,8 @@
       "status": "ok",
       "priority": "P4",
       "evidence": {
-        "nodes": 83173,
-        "links": 343807,
+        "nodes": 83495,
+        "links": 346509,
         "dangling_generated": 0,
         "truth_guard_anomaly": false,
         "anomaly_reasons": []
@@ -259,9 +345,16 @@
       "finished_at": "2026-09-28T12:00:31.054613+00:00"
     },
     "channels": {
-      "live": 11,
-      "total": 11,
-      "empty": [],
+      "live": 13,
+      "total": 14,
+      "empty": [
+        {
+          "channel": "amazon_movers_beauty",
+          "count": 0,
+          "status": "empty",
+          "reason": "수집기 미실행"
+        }
+      ],
       "disabled_expected": [
         {
           "channel": "shopify_demand_matching",
@@ -272,16 +365,16 @@
       ]
     },
     "graph": {
-      "nodes": 83173,
-      "links": 343807,
+      "nodes": 83495,
+      "links": 346509,
       "dangling_generated": 0,
-      "runtime_nodes": 83173,
-      "runtime_links": 343807,
+      "runtime_nodes": 83495,
+      "runtime_links": 346509,
       "runtime_dangling_generated": 0,
       "truth_guard": {
         "vault": "obsidian/JARVIS_LUNA",
-        "actual_nodes": 83173,
-        "actual_links": 343807,
+        "actual_nodes": 83495,
+        "actual_links": 346509,
         "actual_dangling_generated": 0,
         "actual_dangling_personal": 21,
         "generated_dangling_samples": [],
@@ -369,8 +462,8 @@
         ],
         "generated_dangling_sample_source_count": 0,
         "personal_dangling_sample_source_count": 8,
-        "runtime_nodes": 83173,
-        "runtime_links": 343807,
+        "runtime_nodes": 83495,
+        "runtime_links": 346509,
         "runtime_dangling_generated": 0,
         "runtime_consistent": true,
         "anomaly": false,
@@ -385,15 +478,21 @@
     },
     "dashboard_issues": [
       {
+        "team": "market",
+        "kind": "auto_remediable",
+        "text": "고시 표 1건 판독 남음 — 1060489 메디필 시카 쿨링 진정 랩핑 마스 [전성분,제조사,원산지 · 브라우저 원문 수집 후 남은 항목 재파싱 대상] https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060489",
+        "source": "action"
+      },
+      {
         "team": "listing",
         "kind": "human_approval_required",
-        "text": "카피 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 8건 사람 승인 대기",
+        "text": "카피 2건, 고시 1건, 영문라벨 2건, 법률 2건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 7건 사람 승인 대기",
         "source": "waiting"
       },
       {
         "team": "legal",
         "kind": "human_approval_required",
-        "text": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
+        "text": "차단 2건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab), 메디필 시카 쿨링 진정 랩핑 (자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
         "source": "waiting"
       },
       {
@@ -405,7 +504,7 @@
     ],
     "source_errors": {
       "broken": 5,
-      "generated_at": "2026-09-28T12:35:19.099505+00:00",
+      "generated_at": "2026-09-28T19:24:35.711767+00:00",
       "items": [
         {
           "team": "기관 수집팀",

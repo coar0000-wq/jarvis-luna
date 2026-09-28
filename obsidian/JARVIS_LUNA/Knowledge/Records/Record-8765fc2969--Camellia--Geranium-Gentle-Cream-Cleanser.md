@@ -2,7 +2,7 @@
 title: "Record 8765fc2969 · Camellia--Geranium-Gentle-Cream-Cleanser"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T13:58:18.602786+00:00
+updated_at: 2026-09-28T19:25:20.123645+00:00
 tags: [record, real-data]
 ---
 

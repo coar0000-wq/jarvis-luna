@@ -2,7 +2,7 @@
 title: "Record f82abccd24 · Counsel-A-Meta-Evaluation-Dataset-for-Agentic-Tasks"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T13:58:17.984994+00:00
+updated_at: 2026-09-28T19:25:19.503547+00:00
 tags: [record, real-data]
 ---
 

@@ -1,6 +1,6 @@
 {
   "agent": "Ops-Prioritizer",
-  "generated_at": "2026-09-28T18:34:13.862006+00:00",
+  "generated_at": "2026-09-28T19:25:26.153747+00:00",
   "risk": "medium",
   "task_count": 5,
   "tasks": [
@@ -25,9 +25,19 @@
       "approve": "사람: Admin Import + 가격·재고"
     },
     {
+      "priority": 4,
+      "title": "팀 자동조치 감시 · 마케팅 조사팀",
+      "detail": "고시 표 1건 판독 남음 — 1060489 메디필 시카 쿨링 진정 랩핑 마스 [전성분,제조사,원산지 · 브라우저 원문 수집 후 남은 항목 재파싱 대상] https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060489",
+      "refs": [
+        "data/dashboard_runtime.json",
+        "data/agents/remediation_state.json"
+      ],
+      "approve": "비서실장: 다음 주기 재검증"
+    },
+    {
       "priority": 5,
       "title": "팀 대기 · 리스팅 제작팀",
-      "detail": "카피 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 8건 사람 승인 대기",
+      "detail": "카피 2건, 고시 1건, 영문라벨 2건, 법률 2건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 7건 사람 승인 대기",
       "refs": [
         "data/dashboard_runtime.json",
         "data/agents/remediation_state.json"
@@ -37,22 +47,12 @@
     {
       "priority": 5,
       "title": "팀 대기 · 법률·규제팀",
-      "detail": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
+      "detail": "차단 2건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab), 메디필 시카 쿨링 진정 랩핑 (자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
       "refs": [
         "data/dashboard_runtime.json",
         "data/agents/remediation_state.json"
       ],
       "approve": "사람: 한 번만 승인·원본 정보 제공"
-    },
-    {
-      "priority": 5,
-      "title": "팀 대기 · 디자인팀",
-      "detail": "다음 단계: Shopify 스토어 개설 및 기본 설정",
-      "refs": [
-        "data/dashboard_runtime.json",
-        "data/agents/remediation_state.json"
-      ],
-      "approve": "외부 조건 충족 시 비서실장이 자동 재검증"
     }
   ],
   "note": "제안만 수행. 데이터 플레인 JSON은 수정하지 않음. 승인 후 기존 스크립트/수동 작업.",
@@ -69,15 +69,15 @@
       },
       {
         "n": 3,
-        "text": "팀 대기 · 리스팅 제작팀 — 카피 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Sho"
+        "text": "팀 자동조치 감시 · 마케팅 조사팀 — 고시 표 1건 판독 남음 — 1060489 메디필 시카 쿨링 진정 랩핑 마스 [전성분,제조사,원산지 · 브라우저 원문 수집 후 남은 항목 재파싱"
       },
       {
         "n": 4,
-        "text": "팀 대기 · 법률·규제팀 — 차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종("
+        "text": "팀 대기 · 리스팅 제작팀 — 카피 2건, 고시 1건, 영문라벨 2건, 법률 2건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대"
       },
       {
         "n": 5,
-        "text": "팀 대기 · 디자인팀 — 다음 단계: Shopify 스토어 개설 및 기본 설정"
+        "text": "팀 대기 · 법률·규제팀 — 차단 2건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab), 메디필 시카 쿨링 진정 랩핑 (자동 점검 미통과: lab) — 검증 가능한 "
       }
     ]
   }

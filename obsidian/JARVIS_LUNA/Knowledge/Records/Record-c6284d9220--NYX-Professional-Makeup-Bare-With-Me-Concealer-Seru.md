@@ -2,7 +2,7 @@
 title: "Record c6284d9220 · NYX-Professional-Makeup-Bare-With-Me-Concealer-Serum-Light"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T13:58:18.707972+00:00
+updated_at: 2026-09-28T19:25:20.228387+00:00
 tags: [record, real-data]
 ---
 

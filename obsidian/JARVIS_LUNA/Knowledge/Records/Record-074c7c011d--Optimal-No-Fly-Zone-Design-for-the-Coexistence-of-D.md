@@ -2,7 +2,7 @@
 title: "Record 074c7c011d · Optimal-No-Fly-Zone-Design-for-the-Coexistence-of-Drone-and-Satellite-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T13:58:16.748197+00:00
+updated_at: 2026-09-28T19:25:18.336394+00:00
 tags: [record, real-data]
 ---
 

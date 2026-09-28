@@ -2,7 +2,7 @@
 title: "Record 0e5dfd9398 · spray-invisible-haute-protection-vinosun-pritect-indice-50"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T13:58:18.130019+00:00
+updated_at: 2026-09-28T19:25:19.647729+00:00
 tags: [record, real-data]
 ---
 

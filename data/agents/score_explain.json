@@ -1,6 +1,6 @@
 {
   "agent": "Score-Explain",
-  "generated_at": "2026-09-28T18:34:13.861970+00:00",
+  "generated_at": "2026-09-28T19:25:26.153703+00:00",
   "s_count": 10,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
   "items": [
@@ -42,9 +42,9 @@
       "pd_no": "1067498",
       "name": "[영양광채]VT PDRN 광채 크림 50 ml",
       "score": 96,
-      "why": "글로벌 'Lacto-PDRN 4% + B9 Eye Cream' (ulta_beauty) 유사 88% · 토큰 cream, pdrn",
-      "global": "Lacto-PDRN 4% + B9 Eye Cream",
-      "channel": "ulta_beauty",
+      "why": "글로벌 'medicube PDRN Pink Collagen Capsule Cream 1.94 oz.(55g)' (oliveyoung_us) 유사 85% · 토큰 cream, pdrn",
+      "global": "medicube PDRN Pink Collagen Capsule Cream 1.94 oz.(55g)",
+      "channel": "oliveyoung_us",
       "tokens": [
         "cream",
         "pdrn"
@@ -66,42 +66,42 @@
       "pd_no": "1075857",
       "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
       "score": 94,
-      "why": "글로벌 'Lacto-PDRN 4% + B9 Eye Cream' (ulta_beauty) 유사 68% · 토큰 cream, pdrn",
-      "global": "Lacto-PDRN 4% + B9 Eye Cream",
-      "channel": "ulta_beauty",
+      "why": "글로벌 'medicube PDRN Pink Collagen Capsule Cream 1.94 oz.(55g)' (oliveyoung_us) 유사 65% · 토큰 cream, pdrn",
+      "global": "medicube PDRN Pink Collagen Capsule Cream 1.94 oz.(55g)",
+      "channel": "oliveyoung_us",
       "tokens": [
         "cream",
         "pdrn"
       ]
     },
     {
-      "pd_no": "1059834",
-      "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-      "score": 90,
-      "why": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 88% · 토큰 collagen, mask",
-      "global": "Biodance Bio-Collagen Real Deep Mask",
-      "channel": "tiktok_shop_us",
-      "tokens": [
-        "collagen",
-        "mask"
-      ]
-    },
-    {
       "pd_no": "1049285",
       "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-      "score": 89,
+      "score": 93,
       "why": "글로벌 'Smushy SOS Hydrating Lip Mask' (ulta_beauty) 유사 73% · 토큰 hydrating, mask",
       "global": "Smushy SOS Hydrating Lip Mask",
       "channel": "ulta_beauty",
       "tokens": [
         "hydrating",
         "mask"
+      ]
+    },
+    {
+      "pd_no": "1053482",
+      "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
+      "score": 88,
+      "why": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 60% · 토큰 calming, toner",
+      "global": "ANUA Heartleaf 77 Soothing Toner",
+      "channel": "tiktok_shop_us",
+      "tokens": [
+        "calming",
+        "toner"
       ]
     },
     {
       "pd_no": "1027327",
       "name": "바세린 마스크팩 집중보습",
-      "score": 89,
+      "score": 87,
       "why": "글로벌 'Smushy SOS Hydrating Lip Mask' (ulta_beauty) 유사 73% · 토큰 hydrating, mask",
       "global": "Smushy SOS Hydrating Lip Mask",
       "channel": "ulta_beauty",
@@ -111,15 +111,15 @@
       ]
     },
     {
-      "pd_no": "1042619",
-      "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
-      "score": 85,
-      "why": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 68% · 토큰 collagen, mask",
-      "global": "Biodance Bio-Collagen Real Deep Mask",
-      "channel": "tiktok_shop_us",
+      "pd_no": "1060489",
+      "name": "메디필 시카 쿨링 진정 랩핑 마스크 4 ml 4개입",
+      "score": 87,
+      "why": "글로벌 'Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream' (ulta_beauty) 유사 59% · 토큰 calming, centella",
+      "global": "Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream",
+      "channel": "ulta_beauty",
       "tokens": [
-        "collagen",
-        "mask"
+        "calming",
+        "centella"
       ]
     }
   ],

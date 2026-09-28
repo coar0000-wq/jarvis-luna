@@ -2,7 +2,7 @@
 title: "Record d838431f9b · FlashLoop-Fast-and-Memory-Efficient-Looped-Transformers-via-Lazy-Updat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T13:58:16.479089+00:00
+updated_at: 2026-09-28T19:25:18.058593+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record b255987903 · Double-Serum-All-In-One-Multi-Balm-Stick"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T13:58:18.673502+00:00
+updated_at: 2026-09-28T19:25:20.192909+00:00
 tags: [record, real-data]
 ---
 

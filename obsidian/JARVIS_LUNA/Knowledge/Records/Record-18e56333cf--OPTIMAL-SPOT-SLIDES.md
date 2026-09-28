@@ -2,7 +2,7 @@
 title: "Record 18e56333cf · OPTIMAL-SPOT-SLIDES"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T13:58:16.771740+00:00
+updated_at: 2026-09-28T19:25:18.357495+00:00
 tags: [record, real-data]
 ---
 

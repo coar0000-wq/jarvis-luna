@@ -2,7 +2,7 @@
 title: "Record 613a3b2fdf · Green-Innovation-and-Conservative-Financial-Reporting-Empirical-Eviden"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T13:58:16.928666+00:00
+updated_at: 2026-09-28T19:25:18.499625+00:00
 tags: [record, real-data]
 ---
 

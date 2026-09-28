@@ -2,7 +2,7 @@
 title: "Record bb1609f0ea · SEPHORA-Introduces-OLIVE-YOUNG-Curated-K-Beauty-to-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T13:58:17.822971+00:00
+updated_at: 2026-09-28T19:25:19.348958+00:00
 tags: [record, real-data]
 ---
 

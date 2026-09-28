@@ -2,7 +2,7 @@
 title: "Record dc99b856c8 · Democratic-Election-Ticket-Market-Outlook-2024"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T13:58:18.540205+00:00
+updated_at: 2026-09-28T19:25:20.062930+00:00
 tags: [record, real-data]
 ---
 

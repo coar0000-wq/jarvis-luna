@@ -2,7 +2,7 @@
 title: "Record f4d0d3303d · K-Pharmacy-Skincare---Trend-Hunter"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T13:58:17.407840+00:00
+updated_at: 2026-09-28T19:25:18.958036+00:00
 tags: [record, real-data]
 ---
 

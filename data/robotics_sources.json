@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T12:23:39.447512+00:00",
+  "generated_at": "2026-09-28T19:11:11.061771+00:00",
   "generator": "scripts/collect_robotics.py",
   "목적": "옵시디언 주제 '로보틱스' 가 3건뿐이던 문제를 해결한다. 분류기는 정상이었고 수집원에 로봇 자료가 없었던 것이 원인이다.",
   "접근_정책": "arXiv 은 프로그램 접근용 export.arxiv.org 를 제공하며 그 주소만 사용하고 요청 간 3초를 둔다. RSS 두 곳은 robots.txt 허용을 확인했다.",
@@ -428,6 +428,22 @@
           "source": "rss"
         },
         {
+          "title": "Gecko Robotics works with NVIDIA to add AI agent security and control",
+          "summary": "<p>Gecko Robotics is using the new NVIDIA Open Agent Safety Platform to ensure the secure autonomous control of systems.</p> <p>The post <a href=\"https://www.therobotreport.com/gecko-robotics-works-with-nvidia-adds-ai-agent-security-and-control/\">Gecko Robotics works with NVIDIA to add AI agent security and control</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>",
+          "published": "Mon, 28 Sep 2026 17:41:32 +0000",
+          "url": "https://www.therobotreport.com/gecko-robotics-works-with-nvidia-adds-ai-agent-security-and-control/",
+          "feed": "The Robot Report",
+          "source": "rss"
+        },
+        {
+          "title": "Raise Robotics to discuss scaling field robots at RoboBusiness",
+          "summary": "<p>Raise Robotics said attendees will learn a decision rule for allocating engineering capacity and a vocabulary for two hidden failure modes.</p> <p>The post <a href=\"https://www.therobotreport.com/raise-robotics-discuss-scaling-field-robots-robobusiness/\">Raise Robotics to discuss scaling field robots at RoboBusiness</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report",
+          "published": "Mon, 28 Sep 2026 13:22:53 +0000",
+          "url": "https://www.therobotreport.com/raise-robotics-discuss-scaling-field-robots-robobusiness/",
+          "feed": "The Robot Report",
+          "source": "rss"
+        },
+        {
           "title": "Asimov’s laws are not enough to keep robotics and AI safe",
           "summary": "<p>Asimov's fictional Three Laws of Robotics famously set safeguards, and tech observers today raise similar concerns about AI.</p> <p>The post <a href=\"https://www.therobotreport.com/asimovs-laws-are-not-enough-keep-robotics-ai-safe/\">Asimov&#8217;s laws are not enough to keep robotics and AI safe</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
           "published": "Sun, 27 Sep 2026 12:26:44 +0000",
@@ -528,22 +544,6 @@
           "summary": "<p>At RoboBusiness, industry leaders will discuss the state of humanoids as the robots transition from demos to real industrial deployments.</p> <p>The post <a href=\"https://www.therobotreport.com/state-of-humanoids-keynote-brings-industry-leaders-robobusiness/\">State of Humanoids keynote brings industry leaders to RoboBusiness</a> appeared first on <a href=\"https://www.therobotreport.com\">The Rob",
           "published": "Wed, 23 Sep 2026 12:25:11 +0000",
           "url": "https://www.therobotreport.com/state-of-humanoids-keynote-brings-industry-leaders-robobusiness/",
-          "feed": "The Robot Report",
-          "source": "rss"
-        },
-        {
-          "title": "Qualcomm to acquire PickNik Robotics and keep MoveIt open-source",
-          "summary": "<p>Qualcomm plans to integrate the Dragonwing and Arduino platforms with the MoveIt open-source manipulation framework.</p> <p>The post <a href=\"https://www.therobotreport.com/qualcomm-acquires-picknik-robotics-keep-moveit-open-source/\">Qualcomm to acquire PickNik Robotics and keep MoveIt open-source</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
-          "published": "Wed, 23 Sep 2026 11:29:32 +0000",
-          "url": "https://www.therobotreport.com/qualcomm-acquires-picknik-robotics-keep-moveit-open-source/",
-          "feed": "The Robot Report",
-          "source": "rss"
-        },
-        {
-          "title": "Intel to discuss the infrastructure needed to scale physical AI at RoboBusiness",
-          "summary": "<p>Intel's Nagesh Puppala will discuss why the next phase of robotics innovation depends on more than bigger models or better simulations.</p> <p>The post <a href=\"https://www.therobotreport.com/intel-discusses-infrastructure-needed-to-scale-physical-ai-robobusiness/\">Intel to discuss the infrastructure needed to scale physical AI at RoboBusiness</a> appeared first on <a href=\"https://www.therobot",
-          "published": "Tue, 22 Sep 2026 21:31:19 +0000",
-          "url": "https://www.therobotreport.com/intel-discusses-infrastructure-needed-to-scale-physical-ai-robobusiness/",
           "feed": "The Robot Report",
           "source": "rss"
         }

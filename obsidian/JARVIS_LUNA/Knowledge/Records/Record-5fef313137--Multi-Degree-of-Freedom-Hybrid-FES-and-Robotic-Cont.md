@@ -2,7 +2,7 @@
 title: "Record 5fef313137 · Multi-Degree-of-Freedom-Hybrid-FES-and-Robotic-Control-of-the-Upper-Li"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T13:58:16.745424+00:00
+updated_at: 2026-09-28T19:25:18.333752+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 31e98828a5 · Physiogel-Dmt-Hydrating-Facial-Cream-507-fl-oz150ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T13:58:18.110100+00:00
+updated_at: 2026-09-28T19:25:19.628697+00:00
 tags: [record, real-data]
 ---
 

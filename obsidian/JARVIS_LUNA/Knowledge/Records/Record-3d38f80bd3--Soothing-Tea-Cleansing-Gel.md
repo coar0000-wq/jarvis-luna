@@ -2,7 +2,7 @@
 title: "Record 3d38f80bd3 · Soothing-Tea-Cleansing-Gel"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T13:58:18.037663+00:00
+updated_at: 2026-09-28T19:25:19.557978+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Soothing Tea Cleansing Gel · Then I Met You · $31.0
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

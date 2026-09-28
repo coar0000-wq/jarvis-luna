@@ -2,7 +2,7 @@
 title: "Record 333ccaae81 · GPT-6-Astra-The-next-generation-in-intelligence-for"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T13:58:17.925299+00:00
+updated_at: 2026-09-28T19:25:19.447727+00:00
 tags: [record, real-data]
 ---
 

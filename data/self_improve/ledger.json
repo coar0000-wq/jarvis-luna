@@ -132,5 +132,52 @@
     "expected_useful_policy": 12,
     "would_skip_expected_full": 1245,
     "batch": 110
+  },
+  {
+    "at": "2026-09-28T19:14:53.700873+00:00",
+    "loop": "topics",
+    "action": "adopt",
+    "keyword": "cleansing",
+    "topic": "뷰티·스킨케어",
+    "precision": 1.0,
+    "support": 16,
+    "uncategorized_hits": 7,
+    "source": "us_beauty",
+    "source_fit": 0.884,
+    "newly_classified": 7
+  },
+  {
+    "at": "2026-09-28T19:14:53.700873+00:00",
+    "loop": "topics",
+    "action": "adopt",
+    "keyword": "smoothing",
+    "topic": "뷰티·스킨케어",
+    "precision": 0.938,
+    "support": 16,
+    "uncategorized_hits": 4,
+    "source": "us_beauty",
+    "source_fit": 0.884,
+    "newly_classified": 4
+  },
+  {
+    "at": "2026-09-28T19:14:53.700873+00:00",
+    "loop": "topics",
+    "action": "adopt",
+    "keyword": "original",
+    "topic": "뷰티·스킨케어",
+    "precision": 0.857,
+    "support": 21,
+    "uncategorized_hits": 4,
+    "source": "us_beauty",
+    "source_fit": 0.884,
+    "newly_classified": 3
+  },
+  {
+    "at": "2026-09-28T19:14:53.700873+00:00",
+    "loop": "design",
+    "action": "adopt",
+    "feed": "web.dev",
+    "cap": 3,
+    "reason": "최근 3회 관련 비율 10% < 30%. 관련 글은 모두 남기고 나머지만 줄인다."
   }
 ]

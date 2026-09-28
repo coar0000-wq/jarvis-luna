@@ -2,7 +2,7 @@
 title: "Record 4a7eb9c0df · Batiste-Original-Droogshampoo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T13:58:18.126347+00:00
+updated_at: 2026-09-28T19:25:19.643956+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Batiste Original Droogshampoo · Batiste
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

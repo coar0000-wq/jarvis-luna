@@ -2,7 +2,7 @@
 title: "Record a297c23a9d · Supermelts-Cleanse-Meltaway-Cleansing-Balm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T13:58:18.529768+00:00
+updated_at: 2026-09-28T19:25:20.053283+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Supermelts Cleanse Meltaway Cleansing Balm · Kinship · Cleanser · $28.0 · cl
 
 ## Connected nodes
 
-[[Source--organic_skincare]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--organic_skincare]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,7 +2,7 @@
 title: "Record 2d440ecb24 · PDRN-Hyaluronic-Acid-100-Moisturizing-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T13:58:18.685823+00:00
+updated_at: 2026-09-28T19:25:20.205692+00:00
 tags: [record, real-data]
 ---
 

@@ -1,0 +1,10 @@
+{
+  "enabled": true,
+  "version": 1,
+  "updated_at": "2026-09-28T19:14:53.700631+00:00",
+  "generator": "scripts/self_improve.py",
+  "rule": "피드 관련 비율이 3회 연속 30% 미만이면 관련 높은 순으로 상한을 둔다. 관련 글이 상한에 닿으면 자동 해제.",
+  "feed_caps": {
+    "web.dev": 3
+  }
+}

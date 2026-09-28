@@ -2,7 +2,7 @@
 title: "Record 489b99c656 · K-Beauty-Experience-Medical-Spa-celebrates-grand-opening---Cottage-Gro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T13:58:17.795746+00:00
+updated_at: 2026-09-28T19:25:19.324186+00:00
 tags: [record, real-data]
 ---
 

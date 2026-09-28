@@ -2,7 +2,7 @@
 title: "Record c894cddd32 · Camouflaged-Object-Detection-with-boundary-localization-in-complex-bac"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T13:58:16.571934+00:00
+updated_at: 2026-09-28T19:25:18.155575+00:00
 tags: [record, real-data]
 ---
 

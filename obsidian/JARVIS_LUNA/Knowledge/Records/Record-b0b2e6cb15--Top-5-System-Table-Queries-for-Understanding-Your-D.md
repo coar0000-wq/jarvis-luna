@@ -2,7 +2,7 @@
 title: "Record b0b2e6cb15 · Top-5-System-Table-Queries-for-Understanding-Your-Databricks-Costs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T13:58:18.474166+00:00
+updated_at: 2026-09-28T19:25:19.989583+00:00
 tags: [record, real-data]
 ---
 

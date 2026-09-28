@@ -2,7 +2,7 @@
 title: "Record 4837b11b58 · Lip--Cheek-Cream-Blush-Stick-and-Lip-Color-Satin-Finish"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T13:58:18.682625+00:00
+updated_at: 2026-09-28T19:25:20.202439+00:00
 tags: [record, real-data]
 ---
 

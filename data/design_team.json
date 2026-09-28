@@ -1,6 +1,6 @@
 {
   "team": "디자인팀",
-  "generated_at": "2026-09-28T12:25:11.599811+00:00",
+  "generated_at": "2026-09-28T19:12:20.993323+00:00",
   "scope": "Shopify 스토어 디자인 사양 관리 + 디자인 레퍼런스 수집",
   "checklist": {
     "total": 12,
@@ -152,11 +152,11 @@
       "per_feed": {
         "Shopify Changelog": {
           "items": 15,
-          "relevant": 9
+          "relevant": 8
         },
         "Shopify Dev Changelog": {
           "items": 15,
-          "relevant": 8
+          "relevant": 9
         },
         "Shopify Engineering": {
           "items": 15,
@@ -180,6 +180,22 @@
       "applied": false
     },
     "items": [
+      {
+        "title": "Use metaobject fields in Analytics reports",
+        "url": "https://changelog.shopify.com/posts/use-metaobject-fields-in-analytics-reports",
+        "date": "2026-09-28",
+        "summary": "If you attach a metaobject to a product, variant, customer, or order through a metafield, those fields can now be used in Analytics. A designer country, a warranty term, or a loyalty tier can group and filter a report the same way a custom metafield can. Merchant-owned metaobjects are already enable",
+        "feed": "Shopify Changelog",
+        "relevance": 0
+      },
+      {
+        "title": "Category metafields are now available in Analytics",
+        "url": "https://changelog.shopify.com/posts/category-metafields-are-now-available-in-analytics",
+        "date": "2026-09-28",
+        "summary": "Until now, the color, material, fit, and other attributes you set when you categorize a product stayed on the product page. To see which materials or colors actually sell, you had to export. Those category metafields now show up in Analytics as dimensions and filters, next to your custom metafields.",
+        "feed": "Shopify Changelog",
+        "relevance": 2
+      },
       {
         "title": "Tax is now calculated on return shipping fees",
         "url": "https://changelog.shopify.com/posts/tax-is-now-calculated-on-return-shipping-fees",
@@ -285,20 +301,12 @@
         "relevance": 4
       },
       {
-        "title": "Permitted store staff can now see an identified customer's online cart in POS",
-        "url": "https://changelog.shopify.com/posts/permitted-store-staff-can-now-see-an-identified-customer-s-online-cart-in-pos",
-        "date": "2026-09-03",
-        "summary": "Authorized staff can now view items from an identified customer's abandoned online checkout in Shopify POS. When a known customer shops in store, store staff can look them up in POS and see if they have any items in their online cart. Using this information they can offer to assist the customer with",
-        "feed": "Shopify Changelog",
+        "title": "WebMCP support for checkout",
+        "url": "https://shopify.dev/changelog/webmcp-support-for-checkout",
+        "date": "2026-09-28",
+        "summary": "Browser agents can now read and update Shopify checkouts using WebMCP tools for checkout . The tools let agents interact with the active checkout in the buyer’s browser session. When the buyer’s input is required, such as 3D Secure authentication or for blocking UI extensions, the tools hand back co",
+        "feed": "Shopify Dev Changelog",
         "relevance": 3
-      },
-      {
-        "title": "Scan and search variants with multiple barcodes",
-        "url": "https://changelog.shopify.com/posts/scan-and-search-variants-with-multiple-barcodes",
-        "date": "2026-09-01",
-        "summary": "Shopify POS can now identify a product variant using any barcode associated with it, making it easier for staff to find the right product when items have different barcodes across suppliers, channels, or packaging. What’s new? Staff can now scan or search for a product variant using any of its assoc",
-        "feed": "Shopify Changelog",
-        "relevance": 1
       },
       {
         "title": "AI Toolkit skills have been consolidated to `shopify`",
@@ -331,14 +339,6 @@
         "summary": "The Polaris 2.0 release candidate is now available for embedded App Home interfaces. It includes the Shopify admin’s new visual styles, allowing your app to adopt the new look. The new Shopify admin design began rolling out progressively to merchants on September 15, 2026. You can adopt the release ",
         "feed": "Shopify Dev Changelog",
         "relevance": 1
-      },
-      {
-        "title": "Query SP Fee Details with the GraphQL Admin API",
-        "url": "https://shopify.dev/changelog/query-sp-fee-details-with-the-graphql-admin-api",
-        "date": "2026-09-23",
-        "summary": "As of API version 2026-10, the GraphQL Admin API includes a feeDetails query for retrieving specialized fees charged to a shop. No action is required for existing apps. What changed The new feeDetails query returns a connection of FeeDetails objects. Each FeeDetails object includes: feeName and amou",
-        "feed": "Shopify Dev Changelog",
-        "relevance": 0
       },
       {
         "title": "Events subscription query complexity limit is changing to 100 points",

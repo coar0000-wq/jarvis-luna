@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-28T12:27:48.035053+00:00",
+  "generated_at": "2026-09-28T19:14:51.696117+00:00",
   "generator": "scripts/ingest_manual_channels.py",
   "input_dir": "data/manual/",
   "trust_note": "사람이 실제 페이지를 보고 넣은 값이다. 자동 수집이 불가능한 채널을 채우는 정식 경로다. 특정 시점 스냅샷이라 30일이 지나면 오래된 데이터로 표시한다.",
   "stale_days": 30,
-  "files_seen": 14,
+  "files_seen": 17,
   "total": 32,
   "channels_without_source_url": [
     "amazon_best_sellers",
@@ -26,6 +26,14 @@
       "error": "표에 행이 없음"
     },
     {
+      "file": "legal_rp_status.json",
+      "error": "표에 행이 없음"
+    },
+    {
+      "file": "mocra_business.json",
+      "error": "표에 행이 없음"
+    },
+    {
       "file": "mocra_profile.example.json",
       "error": "표에 행이 없음"
     },
@@ -36,6 +44,10 @@
     {
       "file": "multi_agent_marketing_pipeline.json",
       "error": "표에 행이 없음"
+    },
+    {
+      "file": "official_label_text.json",
+      "error": "captured_at 이 없습니다. 파일명에 날짜를 넣거나 필드로 넣어주세요"
     },
     {
       "file": "shopify_action_approvals.example.json",

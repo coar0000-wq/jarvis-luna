@@ -2,7 +2,7 @@
 title: "Record 1e1b8bda2d · Real-Fresh-Green-Tea-Cleansing-Stick"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T13:58:18.032540+00:00
+updated_at: 2026-09-28T19:25:19.550524+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Real Fresh Green Tea Cleansing Stick · NEOGEN · $22.0
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

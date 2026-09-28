@@ -2,7 +2,7 @@
 title: "Record 006d9e5e67 · SWE-Refactor-Bench-Can-Coding-Agents-Complete-a-Lon"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T13:58:18.868946+00:00
+updated_at: 2026-09-28T19:25:20.382311+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Modern software systems accumulate technical debt over decades of development, w
 
 ## Connected nodes
 
-[[Source--arXiv]] [[AI-에이전트]] [[LLM언어모델]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[AI-에이전트]] [[LLM언어모델]] [[머신러닝-연구]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
