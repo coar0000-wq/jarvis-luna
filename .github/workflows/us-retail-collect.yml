@@ -124,6 +124,9 @@ jobs:
           paths: >-
             data/amazon_products.json
             data/walmart_products.json
+            data/amazon_movers_products.json
+            data/amazon_new_products.json
+            data/sokoglam_products.json
             data/us_beauty_products.json
             data/dashboard_runtime.json
             data/market_team.json
