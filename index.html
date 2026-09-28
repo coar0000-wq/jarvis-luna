@@ -1394,8 +1394,10 @@ function renderMarketingChannels(d){
       'tiktok-list': 'tiktok_shop_us',
       'ulta-list': 'ulta_beauty',
       'sephora-list': 'sephora',
-      'obf-list': 'open_beauty_facts',
-      'shopify-demand-list': 'shopify_demand_matching'
+      'obf-list': 'open_beauty_facts'
+      // Shopify S등급 카드는 별도 추천 정본으로 렌더링된다. 조작값을
+      // 폐기한 예전 shopify_demand_matching 채널의 disabled 뱃지를
+      // 여기 붙이면 정상 후보도 '중단'으로 잘못 표시된다.
     };
     Object.keys(map).forEach(listId=>{
       const key = map[listId];
