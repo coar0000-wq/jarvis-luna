@@ -2,7 +2,7 @@
 title: "Record 3b7d9ab514 · 7-Color-LED-Photon-Super-Mask--NIR-Technology"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:20.183208+00:00
+updated_at: 2026-09-28T23:18:53.148933+00:00
 tags: [record, real-data]
 ---
 

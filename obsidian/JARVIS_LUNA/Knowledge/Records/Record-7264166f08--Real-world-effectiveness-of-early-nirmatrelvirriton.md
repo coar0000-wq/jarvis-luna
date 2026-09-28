@@ -2,7 +2,7 @@
 title: "Record 7264166f08 · Real-world-effectiveness-of-early-nirmatrelvirriton"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:18.385963+00:00
+updated_at: 2026-09-28T23:18:51.285490+00:00
 tags: [record, real-data]
 ---
 

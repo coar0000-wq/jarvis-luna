@@ -2,7 +2,7 @@
 title: "Record 38a6a3847c · Designing-a-Zero-Trust-Identity-Architecture-for-Securing-Distributed-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:18.727824+00:00
+updated_at: 2026-09-28T23:18:51.626695+00:00
 tags: [record, real-data]
 ---
 

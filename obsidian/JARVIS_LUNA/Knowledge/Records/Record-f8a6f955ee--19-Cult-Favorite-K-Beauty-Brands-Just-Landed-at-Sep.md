@@ -2,7 +2,7 @@
 title: "Record f8a6f955ee · 19-Cult-Favorite-K-Beauty-Brands-Just-Landed-at-Sep"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:19.002786+00:00
+updated_at: 2026-09-28T23:18:51.920139+00:00
 tags: [record, real-data]
 ---
 

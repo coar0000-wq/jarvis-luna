@@ -2,7 +2,7 @@
 title: "Record 7628782f80 · Gold-Prices-Steady-Rise-Amy-Gower"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:20.109168+00:00
+updated_at: 2026-09-28T23:18:53.073415+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 4829d73d23 · Milani-Highly-Rated-Lash-Extensions-Tubing-Mascara-Black"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:20.227909+00:00
+updated_at: 2026-09-28T23:18:53.193814+00:00
 tags: [record, real-data]
 ---
 

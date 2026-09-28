@@ -2,7 +2,7 @@
 title: "Record 152adcb62d · ANYbotics-opens-the-door-for-inspections-with-ANYmal-robots"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:20.138215+00:00
+updated_at: 2026-09-28T23:18:53.103276+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record b02076286e · Sephora-and-Olive-Young-are-bringing-20-Korean-beau"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:19.226770+00:00
+updated_at: 2026-09-28T23:18:52.168078+00:00
 tags: [record, real-data]
 ---
 

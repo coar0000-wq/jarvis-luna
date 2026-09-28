@@ -2,7 +2,7 @@
 title: "Record 0a9180731a · The-Impact-of-Health-Insurance-Expansions-on-Labor-Outcomes-Evidence-f"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:18.414319+00:00
+updated_at: 2026-09-28T23:18:51.313154+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 5c4251edeb · Health-careassociated-infections-studies-project-An-American-Journal-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:18.138513+00:00
+updated_at: 2026-09-28T23:18:51.052001+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record c2c7206821 · Torriden-Dive-in-Hyaluronic-Acid-Soothing-Cream-338"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:19.633871+00:00
+updated_at: 2026-09-28T23:18:52.608739+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** Torriden Dive-in Hyaluronic Acid Soothing Cream 3.38 fl. oz.(100ml)
 
 Torriden Dive-in Hyaluronic Acid Soothing Cream 3.38 fl. oz.(100ml)
-Torriden Dive-in Hyaluronic Acid Soothing Cream 3.38 fl. oz.(100ml) · 평점 5 · 리뷰 1
+Torriden Dive-in Hyaluronic Acid Soothing Cream 3.38 fl. oz.(100ml) · 평점 5 · 리뷰 2
 
 **출처:** Source · us_beauty
 

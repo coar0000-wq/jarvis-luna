@@ -2,7 +2,7 @@
 title: "Record 6edb0f179f · Nail-Defense-Strengthening-Protein-Treatment-by-Orly-for-Women---06-oz"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:20.229394+00:00
+updated_at: 2026-09-28T23:18:53.195284+00:00
 tags: [record, real-data]
 ---
 

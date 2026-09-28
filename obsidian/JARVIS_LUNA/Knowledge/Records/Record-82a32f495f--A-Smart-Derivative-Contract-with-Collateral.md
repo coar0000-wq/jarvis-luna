@@ -2,7 +2,7 @@
 title: "Record 82a32f495f · A-Smart-Derivative-Contract-with-Collateral"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:18.440756+00:00
+updated_at: 2026-09-28T23:18:51.338883+00:00
 tags: [record, real-data]
 ---
 

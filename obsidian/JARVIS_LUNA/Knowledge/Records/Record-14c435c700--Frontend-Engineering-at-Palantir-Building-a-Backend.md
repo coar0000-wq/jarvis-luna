@@ -2,7 +2,7 @@
 title: "Record 14c435c700 · Frontend-Engineering-at-Palantir-Building-a-Backend"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:18.065311+00:00
+updated_at: 2026-09-28T23:18:50.981556+00:00
 tags: [record, real-data]
 ---
 

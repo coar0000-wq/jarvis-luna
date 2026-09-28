@@ -2,7 +2,7 @@
 title: "Record b9037bd7a6 · Age-and-generational-differences-in-anthropomorphism-and-trust-in-larg"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:18.476458+00:00
+updated_at: 2026-09-28T23:18:51.372896+00:00
 tags: [record, real-data]
 ---
 

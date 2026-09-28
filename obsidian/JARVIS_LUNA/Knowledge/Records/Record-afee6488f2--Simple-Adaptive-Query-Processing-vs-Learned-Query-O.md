@@ -2,7 +2,7 @@
 title: "Record afee6488f2 · Simple-Adaptive-Query-Processing-vs-Learned-Query-Optimizers-Observati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:18.116564+00:00
+updated_at: 2026-09-28T23:18:51.032039+00:00
 tags: [record, real-data]
 ---
 

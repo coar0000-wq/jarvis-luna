@@ -2,7 +2,7 @@
 title: "Record 2f26f884c6 · COSRX-Becomes-the-First-K-Beauty-Patron-of-the-Brit"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:19.371421+00:00
+updated_at: 2026-09-28T23:18:52.324428+00:00
 tags: [record, real-data]
 ---
 

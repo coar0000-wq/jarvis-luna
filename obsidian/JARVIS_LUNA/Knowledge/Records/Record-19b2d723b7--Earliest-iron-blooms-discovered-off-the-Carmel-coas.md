@@ -2,7 +2,7 @@
 title: "Record 19b2d723b7 · Earliest-iron-blooms-discovered-off-the-Carmel-coas"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:18.217779+00:00
+updated_at: 2026-09-28T23:18:51.122574+00:00
 tags: [record, real-data]
 ---
 

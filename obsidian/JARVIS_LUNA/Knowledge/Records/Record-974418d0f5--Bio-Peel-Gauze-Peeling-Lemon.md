@@ -2,7 +2,7 @@
 title: "Record 974418d0f5 · Bio-Peel-Gauze-Peeling-Lemon"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:19.548239+00:00
+updated_at: 2026-09-28T23:18:52.513549+00:00
 tags: [record, real-data]
 ---
 

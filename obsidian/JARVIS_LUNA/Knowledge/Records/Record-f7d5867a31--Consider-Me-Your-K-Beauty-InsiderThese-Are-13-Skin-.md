@@ -2,7 +2,7 @@
 title: "Record f7d5867a31 · Consider-Me-Your-K-Beauty-InsiderThese-Are-13-Skin-Care-Products-I-Saw"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:19.040503+00:00
+updated_at: 2026-09-28T23:18:51.961978+00:00
 tags: [record, real-data]
 ---
 

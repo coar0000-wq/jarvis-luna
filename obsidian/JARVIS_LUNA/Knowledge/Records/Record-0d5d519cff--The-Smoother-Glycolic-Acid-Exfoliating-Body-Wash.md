@@ -2,7 +2,7 @@
 title: "Record 0d5d519cff · The-Smoother-Glycolic-Acid-Exfoliating-Body-Wash"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:19.555158+00:00
+updated_at: 2026-09-28T23:18:52.520823+00:00
 tags: [record, real-data]
 ---
 

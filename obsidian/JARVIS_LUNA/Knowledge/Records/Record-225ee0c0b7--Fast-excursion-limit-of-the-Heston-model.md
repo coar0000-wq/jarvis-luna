@@ -2,7 +2,7 @@
 title: "Record 225ee0c0b7 · Fast-excursion-limit-of-the-Heston-model"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:19.497937+00:00
+updated_at: 2026-09-28T23:18:52.460818+00:00
 tags: [record, real-data]
 ---
 

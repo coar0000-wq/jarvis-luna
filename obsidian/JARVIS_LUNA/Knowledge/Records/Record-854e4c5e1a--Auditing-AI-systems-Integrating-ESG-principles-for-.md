@@ -2,7 +2,7 @@
 title: "Record 854e4c5e1a · Auditing-AI-systems-Integrating-ESG-principles-for-sustainable-and-eth"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:18.188828+00:00
+updated_at: 2026-09-28T23:18:51.094998+00:00
 tags: [record, real-data]
 ---
 

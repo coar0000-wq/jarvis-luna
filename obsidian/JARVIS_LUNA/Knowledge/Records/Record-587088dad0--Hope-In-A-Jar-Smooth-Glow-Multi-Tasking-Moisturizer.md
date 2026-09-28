@@ -2,7 +2,7 @@
 title: "Record 587088dad0 · Hope-In-A-Jar-Smooth-Glow-Multi-Tasking-Moisturizer"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:20.198220+00:00
+updated_at: 2026-09-28T23:18:53.163717+00:00
 tags: [record, real-data]
 ---
 

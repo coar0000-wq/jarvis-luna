@@ -2,7 +2,7 @@
 title: "Record dc6d4cf7b7 · FOCI-Policy-Focus-on-Object-Centric-Interactions-fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:17.816807+00:00
+updated_at: 2026-09-28T23:18:50.741797+00:00
 tags: [record, real-data]
 ---
 

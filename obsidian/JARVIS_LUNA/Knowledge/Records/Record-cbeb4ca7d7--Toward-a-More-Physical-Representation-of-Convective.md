@@ -2,7 +2,7 @@
 title: "Record cbeb4ca7d7 · Toward-a-More-Physical-Representation-of-Convective-Gravity-Waves-in-G"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:18.214953+00:00
+updated_at: 2026-09-28T23:18:51.119956+00:00
 tags: [record, real-data]
 ---
 

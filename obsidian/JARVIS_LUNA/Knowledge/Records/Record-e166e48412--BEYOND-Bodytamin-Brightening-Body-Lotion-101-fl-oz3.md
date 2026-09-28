@@ -2,7 +2,7 @@
 title: "Record e166e48412 · BEYOND-Bodytamin-Brightening-Body-Lotion-101-fl-oz3"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:19.592815+00:00
+updated_at: 2026-09-28T23:18:52.560418+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** BEYOND Bodytamin Brightening Body Lotion 10.1 fl. oz.(300ml)
 
 BEYOND Bodytamin Brightening Body Lotion 10.1 fl. oz.(300ml)
-BEYOND Bodytamin Brightening Body Lotion 10.1 fl. oz.(300ml) · 평점 4.7 · 리뷰 603
+BEYOND Bodytamin Brightening Body Lotion 10.1 fl. oz.(300ml) · 평점 4.7 · 리뷰 590
 
 **출처:** Source · us_beauty
 

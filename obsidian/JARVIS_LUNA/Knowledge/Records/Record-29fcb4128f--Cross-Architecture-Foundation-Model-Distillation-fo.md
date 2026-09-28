@@ -2,7 +2,7 @@
 title: "Record 29fcb4128f · Cross-Architecture-Foundation-Model-Distillation-for-Edge-Flood-Segmen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:17.983687+00:00
+updated_at: 2026-09-28T23:18:50.906689+00:00
 tags: [record, real-data]
 ---
 

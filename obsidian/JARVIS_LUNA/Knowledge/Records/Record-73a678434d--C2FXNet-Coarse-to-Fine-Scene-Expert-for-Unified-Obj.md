@@ -2,7 +2,7 @@
 title: "Record 73a678434d · C2FXNet-Coarse-to-Fine-Scene-Expert-for-Unified-Object-Detection-acros"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:18.641090+00:00
+updated_at: 2026-09-28T23:18:51.536660+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 8f935fbc43 · Your-Favorite-Celebritys-K-Beauty-Brand-Is-Now-at-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:19.012769+00:00
+updated_at: 2026-09-28T23:18:51.931551+00:00
 tags: [record, real-data]
 ---
 

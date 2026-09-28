@@ -2,7 +2,7 @@
 title: "Record 043dc4ea3c · Glycolic-Acid-7-Exfoliating-and-Brightening-Daily-Toner"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:20.196077+00:00
+updated_at: 2026-09-28T23:18:53.161694+00:00
 tags: [record, real-data]
 ---
 

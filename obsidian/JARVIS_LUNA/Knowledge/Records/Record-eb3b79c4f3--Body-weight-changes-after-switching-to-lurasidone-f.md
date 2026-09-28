@@ -2,7 +2,7 @@
 title: "Record eb3b79c4f3 · Body-weight-changes-after-switching-to-lurasidone-for-antipsychotic-in"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:18.387028+00:00
+updated_at: 2026-09-28T23:18:51.286552+00:00
 tags: [record, real-data]
 ---
 

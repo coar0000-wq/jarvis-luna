@@ -2,7 +2,7 @@
 title: "Record a22dfea12a · Air-Cushion-SPF-50"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:19.542431+00:00
+updated_at: 2026-09-28T23:18:52.506484+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 990acaae09 · 2024-was-TikTok-Shops-beauty-moment---glossyco"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:19.042873+00:00
+updated_at: 2026-09-28T23:18:51.964587+00:00
 tags: [record, real-data]
 ---
 

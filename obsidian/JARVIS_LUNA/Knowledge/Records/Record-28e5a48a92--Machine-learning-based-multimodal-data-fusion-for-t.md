@@ -2,7 +2,7 @@
 title: "Record 28e5a48a92 · Machine-learning-based-multimodal-data-fusion-for-the-Swiss-land-use-s"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:18.266082+00:00
+updated_at: 2026-09-28T23:18:51.166968+00:00
 tags: [record, real-data]
 ---
 

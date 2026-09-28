@@ -2,7 +2,7 @@
 title: "Record 3784d7aba9 · Research-acceleration-The-view-inside-OpenAI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:19.464310+00:00
+updated_at: 2026-09-28T23:18:52.427866+00:00
 tags: [record, real-data]
 ---
 

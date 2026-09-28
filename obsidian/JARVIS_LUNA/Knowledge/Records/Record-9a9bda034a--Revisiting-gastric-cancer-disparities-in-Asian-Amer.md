@@ -2,7 +2,7 @@
 title: "Record 9a9bda034a · Revisiting-gastric-cancer-disparities-in-Asian-American-subgroups-insi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:18.479707+00:00
+updated_at: 2026-09-28T23:18:51.376057+00:00
 tags: [record, real-data]
 ---
 

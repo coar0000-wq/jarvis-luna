@@ -2,7 +2,7 @@
 title: "Record 90638a8b37 · beplain-Mung-Bean-Cleansing-Oil-676-fl-oz200ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:19.624546+00:00
+updated_at: 2026-09-28T23:18:52.597443+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** beplain Mung Bean Cleansing Oil 6.76 fl. oz.(200ml)
 
 beplain Mung Bean Cleansing Oil 6.76 fl. oz.(200ml)
-beplain Mung Bean Cleansing Oil 6.76 fl. oz.(200ml) · 평점 5 · 리뷰 4
+beplain Mung Bean Cleansing Oil 6.76 fl. oz.(200ml) · 평점 5 · 리뷰 5
 
 **출처:** Source · us_beauty
 

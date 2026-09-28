@@ -2,7 +2,7 @@
 title: "Record 57856a2c00 · How-The-Eye-Patch-Grinder-Packaging-Ended-Up-Everywhere-At-Once---Beau"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:19.210016+00:00
+updated_at: 2026-09-28T23:18:52.151326+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,10 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMikAFBVV95cUxNbm1kNTFMSThEM3g3Q1hnNHFYV0xXcURsRXo3emE1RzVmc3pDT1ZBanFlUzgyY1JkZ3llQllaa0NRbTVaNUdqYWt5SEZiU2E1SzF4S1ZZb2VPRjZ1cmdtQXhnSHB1VlBxZGZ3dHczTF9wdTVkYXFTRG81WUlyZE5TUWh5Q3lUX182dHl4V3dsQ3k?oc=5)
 
-**제목:** How The Eye-Patch Grinder Packaging Ended Up Everywhere At Once - Beauty Independent
+**제목:** How The Eye-Patch Grinder Packaging Ended Up Everywhere At Once - beautyindependent.com
 
-How The Eye-Patch Grinder Packaging Ended Up Everywhere At Once - Beauty Independent
-How The Eye-Patch Grinder Packaging Ended Up Everywhere At Once - Beauty Independent
+How The Eye-Patch Grinder Packaging Ended Up Everywhere At Once - beautyindependent.com
+How The Eye-Patch Grinder Packaging Ended Up Everywhere At Once - beautyindependent.com
 
 **출처:** Source · us_beauty
 

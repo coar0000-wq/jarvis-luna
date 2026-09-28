@@ -2,7 +2,7 @@
 title: "Record cee9bc4be9 · Patient-safety-as-a-measure-of-resilience-in-US-hospitals-central-line"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:18.197634+00:00
+updated_at: 2026-09-28T23:18:51.104047+00:00
 tags: [record, real-data]
 ---
 

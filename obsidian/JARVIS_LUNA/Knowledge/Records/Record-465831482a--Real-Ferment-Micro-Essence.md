@@ -2,7 +2,7 @@
 title: "Record 465831482a · Real-Ferment-Micro-Essence"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:19.550152+00:00
+updated_at: 2026-09-28T23:18:52.515623+00:00
 tags: [record, real-data]
 ---
 

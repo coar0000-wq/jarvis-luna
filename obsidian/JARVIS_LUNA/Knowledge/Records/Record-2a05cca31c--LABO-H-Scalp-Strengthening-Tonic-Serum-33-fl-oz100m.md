@@ -2,7 +2,7 @@
 title: "Record 2a05cca31c · LABO-H-Scalp-Strengthening-Tonic-Serum-33-fl-oz100ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:19.613490+00:00
+updated_at: 2026-09-28T23:18:52.583948+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** LABO-H Scalp Strengthening Tonic Serum 3.3 fl. oz.(100ml)
 
 LABO-H Scalp Strengthening Tonic Serum 3.3 fl. oz.(100ml)
-LABO-H Scalp Strengthening Tonic Serum 3.3 fl. oz.(100ml) · 평점 4.8 · 리뷰 61
+LABO-H Scalp Strengthening Tonic Serum 3.3 fl. oz.(100ml) · 평점 4.8 · 리뷰 119
 
 **출처:** Source · us_beauty
 

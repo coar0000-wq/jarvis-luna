@@ -2,7 +2,7 @@
 title: "Record 761870be3e · I-Went-to-Seoul-to-Find-the-Korean-Skin-Care-Products-People-Actually-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:18.985582+00:00
+updated_at: 2026-09-28T23:18:51.900109+00:00
 tags: [record, real-data]
 ---
 
@@ -13,10 +13,9 @@ tags: [record, real-data]
 **제목:** I Went to Seoul to Find the Korean Skin-Care Products People Actually Buy - vogue.com
 
 I Went to Seoul to Find the Korean Skin-Care Products People Actually Buy - vogue.com
-I Went to Seoul to Find the Korean Skin-Care Products People Actually Buy - vogue.com
 
-**출처:** Source · us_beauty
+**출처:** Source · Google Search
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[마케팅광고]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[마케팅광고]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

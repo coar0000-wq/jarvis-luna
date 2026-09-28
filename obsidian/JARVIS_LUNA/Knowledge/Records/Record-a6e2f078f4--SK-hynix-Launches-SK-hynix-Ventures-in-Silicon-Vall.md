@@ -2,7 +2,7 @@
 title: "Record a6e2f078f4 · SK-hynix-Launches-SK-hynix-Ventures-in-Silicon-Valley-to-Expand-Global"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:19.433508+00:00
+updated_at: 2026-09-28T23:18:52.389681+00:00
 tags: [record, real-data]
 ---
 

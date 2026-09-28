@@ -2,7 +2,7 @@
 title: "Record c722a09c56 · Luxury-Goods-Market-Trends-Arunima-Sinha-Eduoard-Aubin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T19:25:20.110883+00:00
+updated_at: 2026-09-28T23:18:53.074873+00:00
 tags: [record, real-data]
 ---
 
