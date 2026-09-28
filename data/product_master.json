@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-28T10:38:23.514964+00:00",
+  "generated_at": "2026-09-28T12:00:31.737717+00:00",
   "generator": "scripts/build_product_master.py",
   "source": "data/daiso_real/products.json",
   "id_policy": "pd_no에 최초 CP 발급 후 재사용·재번호 부여 금지",
-  "active_product_count": 344,
-  "registry_count": 345,
+  "active_product_count": 346,
+  "registry_count": 347,
   "pd_no_to_cp": {
     "1002220": "CP000019",
     "1002393": "CP000020",
@@ -145,6 +145,7 @@
     "1059674": "CP000149",
     "1059832": "CP000150",
     "1059834": "CP000151",
+    "1059837": "CP000346",
     "1060015": "CP000152",
     "1060069": "CP000153",
     "1060208": "CP000154",
@@ -327,6 +328,7 @@
     "B202604026651": "CP000312",
     "B202604026661": "CP000313",
     "B202604026671": "CP000314",
+    "B202604026672": "CP000347",
     "B202604026681": "CP000315",
     "B202604026723": "CP000316",
     "B202604026733": "CP000317",
@@ -1395,7 +1397,7 @@
           "us_label",
           "legal"
         ],
-        "gate_generated_at": "2026-09-28T10:38:23.466365+00:00"
+        "gate_generated_at": "2026-09-28T12:00:31.671159+00:00"
       }
     },
     {
@@ -3423,7 +3425,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-28T10:38:23.466365+00:00"
+        "gate_generated_at": "2026-09-28T12:00:31.671159+00:00"
       }
     },
     {
@@ -5039,7 +5041,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-28T10:38:23.466365+00:00"
+        "gate_generated_at": "2026-09-28T12:00:31.671159+00:00"
       }
     },
     {
@@ -5095,7 +5097,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-28T10:38:23.466365+00:00"
+        "gate_generated_at": "2026-09-28T12:00:31.671159+00:00"
       }
     },
     {
@@ -5199,7 +5201,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-28T10:38:23.466365+00:00"
+        "gate_generated_at": "2026-09-28T12:00:31.671159+00:00"
       }
     },
     {
@@ -6395,7 +6397,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-28T10:38:23.466365+00:00"
+        "gate_generated_at": "2026-09-28T12:00:31.671159+00:00"
       }
     },
     {
@@ -7539,7 +7541,59 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-28T10:38:23.466365+00:00"
+        "gate_generated_at": "2026-09-28T12:00:31.671159+00:00"
+      }
+    },
+    {
+      "canonical_product_id": "CP000346",
+      "pd_no": "1059837",
+      "name_ko": "소미썸 쌀뜬물 클렌징 워터 패드 50매입",
+      "brand": "소미썸",
+      "category": "클렌징",
+      "source": {
+        "system": "daisomall.co.kr",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059837",
+        "collected_at": "2026-09-28T11:43:37.046793+00:00"
+      },
+      "price_krw": 5000,
+      "rating": 4.7,
+      "review_count": 910,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251104/BfdIqndT8MJHGwGXrg4i1059837_00_00BfdIqndT8MJHGwGXrg4i.png",
+      "shopify_score": 83,
+      "grade": "A",
+      "s_rule": "no_global_match",
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 11.7,
+        "reviews": 17.9,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 23.1,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "component_scores": {
+        "match_score": 0.0,
+        "demand_score": 0.82,
+        "review_score": 0.8457,
+        "final_score": 0.5407,
+        "model": "parallel_v1_observational",
+        "used_for_grade": false
+      },
+      "variant": {
+        "group_id": "VG-CP000346",
+        "option_name": "Title",
+        "option_value": "Default Title",
+        "sku": "CP000346"
+      },
+      "listing": {
+        "ready": null,
+        "blocked_by": [],
+        "gate_generated_at": null
       }
     },
     {
@@ -11023,7 +11077,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-28T10:38:23.466365+00:00"
+        "gate_generated_at": "2026-09-28T12:00:31.671159+00:00"
       }
     },
     {
@@ -12895,7 +12949,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-28T10:38:23.466365+00:00"
+        "gate_generated_at": "2026-09-28T12:00:31.671159+00:00"
       }
     },
     {
@@ -13883,7 +13937,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-28T10:38:23.466365+00:00"
+        "gate_generated_at": "2026-09-28T12:00:31.671159+00:00"
       }
     },
     {
@@ -16947,6 +17001,58 @@
         "option_name": "Title",
         "option_value": "50ml",
         "sku": "CP000314"
+      },
+      "listing": {
+        "ready": null,
+        "blocked_by": [],
+        "gate_generated_at": null
+      }
+    },
+    {
+      "canonical_product_id": "CP000347",
+      "pd_no": "B202604026672",
+      "name_ko": "본셉 레티놀 아이 크림 25 ml",
+      "brand": "본셉 스킨케어",
+      "category": "스킨케어",
+      "source": {
+        "system": "daisomall.co.kr",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026672&recmYn=N",
+        "collected_at": "2026-09-28T11:05:39.222161+00:00"
+      },
+      "price_krw": 36000,
+      "rating": null,
+      "review_count": null,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251216/WDWpO8PGIXVy4Iuc74nd1055165_00_00WDWpO8PGIXVy4Iuc74nd.jpg",
+      "shopify_score": 51,
+      "grade": "C",
+      "s_rule": "score_below_82",
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 1.0,
+        "keyword": 0,
+        "us_market_fit": 25.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "component_scores": {
+        "match_score": 0.0,
+        "demand_score": 0.7846,
+        "review_score": 0.0,
+        "final_score": 0.2746,
+        "model": "parallel_v1_observational",
+        "used_for_grade": false
+      },
+      "variant": {
+        "group_id": "VG-CP000347",
+        "option_name": "Title",
+        "option_value": "25ml",
+        "sku": "CP000347"
       },
       "listing": {
         "ready": null,
