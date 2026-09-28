@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-29T04:23:34.884892+09:00",
+  "generated_at": "2026-09-29T07:57:27.060255+09:00",
   "generator": "scripts/build_shopify_marketing_strategy.py",
   "status": "evidence_ready",
   "scope": "US K-Beauty Shopify launch marketing",
@@ -1624,7 +1624,7 @@
     "무료배송 코드가 일반 임계값보다 항상 우수하다는 일화는 보편 근거로 채택하지 않음"
   ],
   "integrity": {
-    "listing_gate_generated_at": "2026-09-28T19:23:32.196350+00:00",
+    "listing_gate_generated_at": "2026-09-28T22:57:26.909688+00:00",
     "s_product_count": 10,
     "product_playbook_count": 10,
     "public_ready_count": 0,

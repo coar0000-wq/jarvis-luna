@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-28T19:23:23.679575+00:00",
+  "generated_at": "2026-09-28T22:57:26.820728+00:00",
   "면책": "법률 자문이 아니다. 무엇이 남았는지 보여주는 점검표다.",
   "기준": "MoCRA (Modernization of Cosmetics Regulation Act of 2022)",
   "profile_present": true,
@@ -57,7 +57,7 @@
       "id": "safety_substantiation",
       "label": "제품별 안전성 입증 자료 보유",
       "status": "not_ready",
-      "detail": "미확보 10건: 1027327, 1042619, 1049275, 1049276, 1049285 외",
+      "detail": "미확보 10건: 1027327, 1049275, 1049276, 1049285, 1053482 외",
       "evidence": "data/manual/mocra_profile.json"
     },
     {
@@ -78,7 +78,7 @@
       "id": "label_fields",
       "label": "영문 라벨 필수 항목(성분·용량·책임자·사용법·주의사항)",
       "status": "not_ready",
-      "detail": "완비 0/10건 · 부족 항목 directions 8건, identity 3건, ingredients 2건, legal_hard_block 2건, responsible_person.address 10건, warnings 8건",
+      "detail": "완비 0/10건 · 부족 항목 directions 8건, identity 2건, ingredients 2건, legal_hard_block 2건, responsible_person.address 10건, warnings 8건",
       "evidence": "data/legal_full.json"
     }
   ]

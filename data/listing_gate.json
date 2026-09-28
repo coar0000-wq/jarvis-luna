@@ -1,14 +1,14 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-09-28T19:23:32.196350+00:00",
+  "generated_at": "2026-09-28T22:57:26.909688+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "semantic_sources": {
       "data/product_master.json": "111b2a727e4c975897ecd10a8480da741f02966caa58d123944d63fa5befc365",
-      "data/gosi.json": "0f1904c72a89a25f8132963b11f561e9510e12d3344164e8ac79f8d83d64a155",
-      "data/daiso_real/daiso_us_labels.json": "ff58aea62a8e16f1423d1e566b54ac826a20b0668be98b361e68603e710a99da",
+      "data/gosi.json": "bc5a686c719a6a01ac3ea339a02c2f7c0efb13e8319966aaa8f235a9916f846c",
+      "data/daiso_real/daiso_us_labels.json": "46013704379f325d0a816a62645bd17954f9dd8937b11202d05529e99879eed1",
       "data/pricing_model.json": "54c08106f9640ecbf2282c99d7ca9988e1a64232adbc3cf20bc98411971bb498",
-      "data/legal_products.json": "2df8c0cd38ef789939fc7f84a699f3e938fea468f7fcc4cfeccc55e682992d73"
+      "data/legal_products.json": "60b13f23afab55c636972061e0055f11b183f90a37535ccb6baa91bd701b2ac7"
     },
     "recommendations_sha256": "451f474aecd3282e84df379fc447f3619e3c315d8e33aaa647d5d93050bdbd04"
   },
@@ -35,21 +35,21 @@
   "typesafe_summary": {
     "framework": "typesafe_system_one_compatible",
     "mode_counts": {
-      "typesafe_observational_free_credits": 10
+      "typesafe_carried": 10
     },
-    "typesafe_calls": 10,
+    "typesafe_calls": 0,
     "free_credits_only": 10,
     "paid_api_calls": 0,
     "enforced": 0,
     "usage": {
-      "calls": 10,
-      "input_tokens": 11009,
-      "output_tokens": 1980,
+      "calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
       "stopped": "",
       "max_calls": 40,
       "max_input_tokens": 60000,
       "input_token_price_per_mtok_usd": 0.042,
-      "estimated_cost_usd": 0.000462,
+      "estimated_cost_usd": 0.0,
       "purchased_credits": false
     },
     "cumulative_ok_calls": 41,
@@ -121,7 +121,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -146,7 +146,8 @@
         "risk_score": 1.69,
         "model": "jev-1.13.0",
         "state_signature": "cdb95028555fb2cc1091059f8cd86fe4a993cc1cce6206584626e7d74b6ea8c6",
-        "decided_at": "2026-09-28T19:23:30.442062+00:00"
+        "decided_at": "2026-09-28T19:23:30.442062+00:00",
+        "carried_from": "2026-09-28T19:23:30.442062+00:00"
       }
     },
     {
@@ -212,7 +213,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -237,7 +238,8 @@
         "risk_score": 1.68,
         "model": "jev-1.13.0",
         "state_signature": "51d0e73d5ba5ed41de4d4bf02811433e8f7ef09ef764ae07bb5b94a8cc530ea7",
-        "decided_at": "2026-09-28T19:23:30.610228+00:00"
+        "decided_at": "2026-09-28T19:23:30.610228+00:00",
+        "carried_from": "2026-09-28T19:23:30.610228+00:00"
       }
     },
     {
@@ -303,7 +305,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -328,7 +330,8 @@
         "risk_score": 1.54,
         "model": "jev-1.13.0",
         "state_signature": "51d0e73d5ba5ed41de4d4bf02811433e8f7ef09ef764ae07bb5b94a8cc530ea7",
-        "decided_at": "2026-09-28T19:23:30.801598+00:00"
+        "decided_at": "2026-09-28T19:23:30.801598+00:00",
+        "carried_from": "2026-09-28T19:23:30.801598+00:00"
       }
     },
     {
@@ -394,7 +397,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -419,7 +422,8 @@
         "risk_score": 1.59,
         "model": "jev-1.13.0",
         "state_signature": "a235a30f46906db0e3e7198e8f998dc4cfdaf92ceac3f46d1cef17739f39ea0f",
-        "decided_at": "2026-09-28T19:23:31.026616+00:00"
+        "decided_at": "2026-09-28T19:23:31.026616+00:00",
+        "carried_from": "2026-09-28T19:23:31.026616+00:00"
       }
     },
     {
@@ -486,7 +490,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -511,7 +515,8 @@
         "risk_score": 1.62,
         "model": "jev-1.13.0",
         "state_signature": "a235a30f46906db0e3e7198e8f998dc4cfdaf92ceac3f46d1cef17739f39ea0f",
-        "decided_at": "2026-09-28T19:23:31.245440+00:00"
+        "decided_at": "2026-09-28T19:23:31.245440+00:00",
+        "carried_from": "2026-09-28T19:23:31.245440+00:00"
       }
     },
     {
@@ -577,7 +582,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -602,7 +607,8 @@
         "risk_score": 1.58,
         "model": "jev-1.13.0",
         "state_signature": "9cd2800fc8d4cac3636219a503b910fbb2b0924bd299e98e77065bc73dc4dcbb",
-        "decided_at": "2026-09-28T19:23:31.460428+00:00"
+        "decided_at": "2026-09-28T19:23:31.460428+00:00",
+        "carried_from": "2026-09-28T19:23:31.460428+00:00"
       }
     },
     {
@@ -668,7 +674,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -693,7 +699,8 @@
         "risk_score": 1.5,
         "model": "jev-1.13.0",
         "state_signature": "e05a0e27591e0c95f4d9b69ae7367544fdcdf352632872cce305bc9033dca5a5",
-        "decided_at": "2026-09-28T19:23:31.627419+00:00"
+        "decided_at": "2026-09-28T19:23:31.627419+00:00",
+        "carried_from": "2026-09-28T19:23:31.627419+00:00"
       }
     },
     {
@@ -756,7 +763,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -781,7 +788,8 @@
         "risk_score": 1.64,
         "model": "jev-1.13.0",
         "state_signature": "056b49377500e8706a467cb391d5c4e59863606a6588d742d745395c1c4e14fa",
-        "decided_at": "2026-09-28T19:23:31.834000+00:00"
+        "decided_at": "2026-09-28T19:23:31.834000+00:00",
+        "carried_from": "2026-09-28T19:23:31.834000+00:00"
       }
     },
     {
@@ -842,7 +850,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -870,7 +878,8 @@
         "risk_score": 2.7,
         "model": "jev-1.13.0",
         "state_signature": "076ec9b1377ea4920113fc63027f92494c8df4d701076bc225da628764857456",
-        "decided_at": "2026-09-28T19:23:32.006899+00:00"
+        "decided_at": "2026-09-28T19:23:32.006899+00:00",
+        "carried_from": "2026-09-28T19:23:32.006899+00:00"
       }
     },
     {
@@ -888,14 +897,14 @@
       "gosi": {
         "volume": "4ml, 0.13oz",
         "maker": "",
-        "origin": "",
+        "origin": "한국",
         "ingredients": "",
         "gosi_ok": false
       },
       "us_label": {
         "net_contents": "4ml, 0.13oz",
         "manufacturer": "",
-        "country_of_origin": "",
+        "country_of_origin": "Korea",
         "ingredients_inci": "",
         "us_label_ok": false
       },
@@ -934,7 +943,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -963,7 +972,8 @@
         "risk_score": 2.82,
         "model": "jev-1.13.0",
         "state_signature": "dde31c10e5a124a988452c35c89827158335f637f4ba35f152d3b99b3a8502d8",
-        "decided_at": "2026-09-28T19:23:32.196312+00:00"
+        "decided_at": "2026-09-28T19:23:32.196312+00:00",
+        "carried_from": "2026-09-28T19:23:32.196312+00:00"
       }
     }
   ]
