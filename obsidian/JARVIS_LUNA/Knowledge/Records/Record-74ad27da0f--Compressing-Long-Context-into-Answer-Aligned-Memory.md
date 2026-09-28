@@ -2,7 +2,7 @@
 title: "Record 74ad27da0f · Compressing-Long-Context-into-Answer-Aligned-Memory-Embeddings-for-LLM"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T05:26:55.589844+00:00
+updated_at: 2026-09-28T09:47:22.010981+00:00
 tags: [record, real-data]
 ---
 

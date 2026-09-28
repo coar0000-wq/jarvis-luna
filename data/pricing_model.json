@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-27T14:56:08.735366+00:00",
+  "generated_at": "2026-09-28T09:43:51.985514+00:00",
   "exchange_rate": {
-    "usd_to_krw": 1357.05,
-    "as_of": "2026-09-27",
+    "usd_to_krw": 1356.04,
+    "as_of": "2026-09-28",
     "source": "ExchangeRate-API"
   },
   "cost_basis": {
@@ -22,11 +22,11 @@
   },
   "market_benchmark": {
     "min": 2.8,
-    "p25": 17.1,
-    "median": 23.0,
+    "p25": 18.5,
+    "median": 24.5,
     "max": 279.0,
     "n": 100,
-    "source": "us.oliveyoung.com/best-sellers 실수집 100건 (2026-09-27)"
+    "source": "us.oliveyoung.com/best-sellers 실수집 100건 (2026-09-28)"
   },
   "offers_by_product": {
     "규칙": "상품별 미국 실판매 중앙값의 95% 를 기준가로 잡는다. 신규 스토어라 시장 중앙값보다 살짝 아래로 들어간다. 상품별 시장가가 없으면 종전 하위25% 벤치마크를 쓴다.",
@@ -35,13 +35,13 @@
         "pd_no": "1049276",
         "name": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
         "qty": 1,
-        "price_usd": 23.99,
-        "unit_price_usd": 23.99,
-        "landed_cost_total_usd": 8.74,
-        "fee_usd": 1.78,
-        "net_profit_usd": 13.47,
-        "margin_pct": 56.2,
-        "market_median_usd": 23.0,
+        "price_usd": 24.99,
+        "unit_price_usd": 24.99,
+        "landed_cost_total_usd": 8.75,
+        "fee_usd": 1.85,
+        "net_profit_usd": 14.39,
+        "margin_pct": 57.6,
+        "market_median_usd": 24.5,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -52,9 +52,9 @@
         "qty": 1,
         "price_usd": 35.99,
         "unit_price_usd": 35.99,
-        "landed_cost_total_usd": 10.43,
+        "landed_cost_total_usd": 10.44,
         "fee_usd": 2.66,
-        "net_profit_usd": 22.9,
+        "net_profit_usd": 22.89,
         "margin_pct": 63.6,
         "market_median_usd": 37.53,
         "market_price_source": "serpapi_google_shopping",
@@ -67,10 +67,10 @@
         "qty": 1,
         "price_usd": 14.99,
         "unit_price_usd": 14.99,
-        "landed_cost_total_usd": 8.74,
+        "landed_cost_total_usd": 8.75,
         "fee_usd": 1.11,
-        "net_profit_usd": 5.14,
-        "margin_pct": 34.3,
+        "net_profit_usd": 5.13,
+        "margin_pct": 34.2,
         "market_median_usd": 14.84,
         "market_price_source": "serpapi_google_shopping",
         "register_blocked": false,
@@ -82,10 +82,10 @@
         "qty": 1,
         "price_usd": 21.99,
         "unit_price_usd": 21.99,
-        "landed_cost_total_usd": 11.18,
+        "landed_cost_total_usd": 11.19,
         "fee_usd": 1.63,
-        "net_profit_usd": 9.18,
-        "margin_pct": 41.8,
+        "net_profit_usd": 9.17,
+        "margin_pct": 41.7,
         "market_median_usd": 23.0,
         "market_price_source": "serpapi_google_shopping",
         "register_blocked": false,
@@ -97,9 +97,9 @@
         "qty": 1,
         "price_usd": 18.99,
         "unit_price_usd": 18.99,
-        "landed_cost_total_usd": 11.18,
+        "landed_cost_total_usd": 11.19,
         "fee_usd": 1.41,
-        "net_profit_usd": 6.4,
+        "net_profit_usd": 6.39,
         "margin_pct": 33.7,
         "market_median_usd": 19.94,
         "market_price_source": "serpapi_google_shopping",
@@ -110,43 +110,13 @@
         "pd_no": "1075857",
         "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
         "qty": 1,
-        "price_usd": 23.99,
-        "unit_price_usd": 23.99,
-        "landed_cost_total_usd": 7.89,
-        "fee_usd": 1.78,
-        "net_profit_usd": 14.32,
-        "margin_pct": 59.7,
-        "market_median_usd": 23.0,
-        "market_price_source": "oliveyoung_us_benchmark",
-        "register_blocked": false,
-        "block_reason": ""
-      },
-      {
-        "pd_no": "1049285",
-        "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-        "qty": 1,
-        "price_usd": 23.99,
-        "unit_price_usd": 23.99,
-        "landed_cost_total_usd": 8.74,
-        "fee_usd": 1.78,
-        "net_profit_usd": 13.47,
-        "margin_pct": 56.2,
-        "market_median_usd": 23.0,
-        "market_price_source": "oliveyoung_us_benchmark",
-        "register_blocked": false,
-        "block_reason": ""
-      },
-      {
-        "pd_no": "1027327",
-        "name": "바세린 마스크팩 집중보습",
-        "qty": 1,
-        "price_usd": 23.99,
-        "unit_price_usd": 23.99,
-        "landed_cost_total_usd": 7.79,
-        "fee_usd": 1.78,
-        "net_profit_usd": 14.42,
-        "margin_pct": 60.1,
-        "market_median_usd": 23.0,
+        "price_usd": 24.99,
+        "unit_price_usd": 24.99,
+        "landed_cost_total_usd": 7.9,
+        "fee_usd": 1.85,
+        "net_profit_usd": 15.24,
+        "margin_pct": 61.0,
+        "market_median_usd": 24.5,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -157,12 +127,42 @@
         "qty": 1,
         "price_usd": 12.99,
         "unit_price_usd": 12.99,
-        "landed_cost_total_usd": 7.89,
+        "landed_cost_total_usd": 7.9,
         "fee_usd": 0.96,
-        "net_profit_usd": 4.14,
-        "margin_pct": 31.9,
+        "net_profit_usd": 4.13,
+        "margin_pct": 31.8,
         "market_median_usd": 13.0,
         "market_price_source": "serpapi_google_shopping",
+        "register_blocked": false,
+        "block_reason": ""
+      },
+      {
+        "pd_no": "1049285",
+        "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
+        "qty": 1,
+        "price_usd": 24.99,
+        "unit_price_usd": 24.99,
+        "landed_cost_total_usd": 8.75,
+        "fee_usd": 1.85,
+        "net_profit_usd": 14.39,
+        "margin_pct": 57.6,
+        "market_median_usd": 24.5,
+        "market_price_source": "oliveyoung_us_benchmark",
+        "register_blocked": false,
+        "block_reason": ""
+      },
+      {
+        "pd_no": "1027327",
+        "name": "바세린 마스크팩 집중보습",
+        "qty": 1,
+        "price_usd": 24.99,
+        "unit_price_usd": 24.99,
+        "landed_cost_total_usd": 7.79,
+        "fee_usd": 1.85,
+        "net_profit_usd": 15.35,
+        "margin_pct": 61.4,
+        "market_median_usd": 24.5,
+        "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
       },
@@ -172,10 +172,10 @@
         "qty": 1,
         "price_usd": 12.99,
         "unit_price_usd": 12.99,
-        "landed_cost_total_usd": 7.04,
+        "landed_cost_total_usd": 7.05,
         "fee_usd": 0.96,
-        "net_profit_usd": 4.99,
-        "margin_pct": 38.4,
+        "net_profit_usd": 4.98,
+        "margin_pct": 38.3,
         "market_median_usd": 12.99,
         "market_price_source": "serpapi_google_shopping",
         "register_blocked": false,
@@ -187,13 +187,13 @@
         "pd_no": "1049276",
         "name": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
         "qty": 2,
-        "price_usd": 39.99,
-        "unit_price_usd": 20.0,
-        "landed_cost_total_usd": 11.28,
-        "fee_usd": 2.96,
-        "net_profit_usd": 25.75,
-        "margin_pct": 64.4,
-        "market_median_usd": 23.0,
+        "price_usd": 41.99,
+        "unit_price_usd": 21.0,
+        "landed_cost_total_usd": 11.3,
+        "fee_usd": 3.11,
+        "net_profit_usd": 27.58,
+        "margin_pct": 65.7,
+        "market_median_usd": 24.5,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -219,10 +219,10 @@
         "qty": 2,
         "price_usd": 23.99,
         "unit_price_usd": 11.99,
-        "landed_cost_total_usd": 11.28,
+        "landed_cost_total_usd": 11.3,
         "fee_usd": 1.78,
-        "net_profit_usd": 10.93,
-        "margin_pct": 45.6,
+        "net_profit_usd": 10.91,
+        "margin_pct": 45.5,
         "market_median_usd": 14.84,
         "market_price_source": "serpapi_google_shopping",
         "register_blocked": false,
@@ -234,10 +234,10 @@
         "qty": 2,
         "price_usd": 37.99,
         "unit_price_usd": 19.0,
-        "landed_cost_total_usd": 16.16,
+        "landed_cost_total_usd": 16.18,
         "fee_usd": 2.81,
-        "net_profit_usd": 19.02,
-        "margin_pct": 50.1,
+        "net_profit_usd": 19.0,
+        "margin_pct": 50.0,
         "market_median_usd": 23.0,
         "market_price_source": "serpapi_google_shopping",
         "register_blocked": false,
@@ -249,10 +249,10 @@
         "qty": 2,
         "price_usd": 32.99,
         "unit_price_usd": 16.5,
-        "landed_cost_total_usd": 16.9,
+        "landed_cost_total_usd": 16.92,
         "fee_usd": 2.44,
-        "net_profit_usd": 13.65,
-        "margin_pct": 41.4,
+        "net_profit_usd": 13.63,
+        "margin_pct": 41.3,
         "market_median_usd": 19.94,
         "market_price_source": "serpapi_google_shopping",
         "register_blocked": false,
@@ -262,43 +262,13 @@
         "pd_no": "1075857",
         "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
         "qty": 2,
-        "price_usd": 39.99,
-        "unit_price_usd": 20.0,
+        "price_usd": 41.99,
+        "unit_price_usd": 21.0,
         "landed_cost_total_usd": 10.34,
-        "fee_usd": 2.96,
-        "net_profit_usd": 26.69,
-        "margin_pct": 66.7,
-        "market_median_usd": 23.0,
-        "market_price_source": "oliveyoung_us_benchmark",
-        "register_blocked": false,
-        "block_reason": ""
-      },
-      {
-        "pd_no": "1049285",
-        "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-        "qty": 2,
-        "price_usd": 39.99,
-        "unit_price_usd": 20.0,
-        "landed_cost_total_usd": 11.28,
-        "fee_usd": 2.96,
-        "net_profit_usd": 25.75,
-        "margin_pct": 64.4,
-        "market_median_usd": 23.0,
-        "market_price_source": "oliveyoung_us_benchmark",
-        "register_blocked": false,
-        "block_reason": ""
-      },
-      {
-        "pd_no": "1027327",
-        "name": "바세린 마스크팩 집중보습",
-        "qty": 2,
-        "price_usd": 39.99,
-        "unit_price_usd": 20.0,
-        "landed_cost_total_usd": 10.12,
-        "fee_usd": 2.96,
-        "net_profit_usd": 26.91,
-        "margin_pct": 67.3,
-        "market_median_usd": 23.0,
+        "fee_usd": 3.11,
+        "net_profit_usd": 28.54,
+        "margin_pct": 68.0,
+        "market_median_usd": 24.5,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -315,6 +285,36 @@
         "margin_pct": 43.3,
         "market_median_usd": 13.0,
         "market_price_source": "serpapi_google_shopping",
+        "register_blocked": false,
+        "block_reason": ""
+      },
+      {
+        "pd_no": "1049285",
+        "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
+        "qty": 2,
+        "price_usd": 41.99,
+        "unit_price_usd": 21.0,
+        "landed_cost_total_usd": 11.3,
+        "fee_usd": 3.11,
+        "net_profit_usd": 27.58,
+        "margin_pct": 65.7,
+        "market_median_usd": 24.5,
+        "market_price_source": "oliveyoung_us_benchmark",
+        "register_blocked": false,
+        "block_reason": ""
+      },
+      {
+        "pd_no": "1027327",
+        "name": "바세린 마스크팩 집중보습",
+        "qty": 2,
+        "price_usd": 41.99,
+        "unit_price_usd": 21.0,
+        "landed_cost_total_usd": 10.14,
+        "fee_usd": 3.11,
+        "net_profit_usd": 28.74,
+        "margin_pct": 68.5,
+        "market_median_usd": 24.5,
+        "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
       },
@@ -352,15 +352,15 @@
     "single": {
       "qty": 1,
       "discount_pct": 0,
-      "price_usd": 23.99,
-      "unit_price_usd": 23.99,
-      "landed_cost_total_usd": 8.96,
-      "shipping_in_cost_usd": 6.42,
-      "fee_usd": 1.78,
-      "net_profit_usd": 13.25,
-      "margin_pct": 55.2,
+      "price_usd": 24.99,
+      "unit_price_usd": 24.99,
+      "landed_cost_total_usd": 8.97,
+      "shipping_in_cost_usd": 6.43,
+      "fee_usd": 1.85,
+      "net_profit_usd": 14.17,
+      "margin_pct": 56.7,
       "free_shipping": false,
-      "orders_for_500usd": 38,
+      "orders_for_500usd": 35,
       "price_basis": "상품별 권장가의 중앙값",
       "price_range_usd": [
         12.99,
@@ -370,15 +370,15 @@
     "bundle": {
       "qty": 2,
       "discount_pct": 15,
-      "price_usd": 39.99,
-      "unit_price_usd": 20.0,
-      "landed_cost_total_usd": 12.18,
-      "shipping_in_cost_usd": 7.09,
-      "fee_usd": 2.96,
-      "net_profit_usd": 24.85,
-      "margin_pct": 62.2,
+      "price_usd": 41.99,
+      "unit_price_usd": 21.0,
+      "landed_cost_total_usd": 12.19,
+      "shipping_in_cost_usd": 7.1,
+      "fee_usd": 3.11,
+      "net_profit_usd": 26.69,
+      "margin_pct": 63.6,
       "free_shipping": true,
-      "orders_for_500usd": 20,
+      "orders_for_500usd": 19,
       "price_basis": "상품별 권장가의 중앙값",
       "price_range_usd": [
         20.99,
@@ -407,31 +407,31 @@
         "shipping_order_usd": 6.2,
         "tariff_usd": 0.33,
         "duty_mode": "ddu",
-        "landed_cost_usd": 8.74,
-        "landed_cost_ddu_usd": 8.74,
+        "landed_cost_usd": 8.75,
+        "landed_cost_ddu_usd": 8.75,
         "landed_cost_ddp_usd": 8.41,
         "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 9.44,
         "at_2_2x": {
-          "sell": 4.86,
+          "sell": 4.87,
           "fee": 0.36,
           "profit": -4.24,
           "margin_pct": -87.1
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 7.1,
-          "margin_pct": 41.5
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 8.38,
+          "margin_pct": 45.3
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 12.56,
-          "margin_pct": 54.6
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 13.94,
+          "margin_pct": 56.9
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -445,16 +445,16 @@
         "weight_note": "고시 용량 30ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 3.68,
+        "unit_cost_usd": 3.69,
         "shipping_unit_usd": 6.2,
         "shipping_order_usd": 6.2,
         "tariff_usd": 0.55,
         "duty_mode": "ddu",
-        "landed_cost_usd": 10.43,
-        "landed_cost_ddu_usd": 10.43,
-        "landed_cost_ddp_usd": 9.88,
+        "landed_cost_usd": 10.44,
+        "landed_cost_ddu_usd": 10.44,
+        "landed_cost_ddp_usd": 9.89,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 11.27,
+        "breakeven_usd": 11.28,
         "at_2_2x": {
           "sell": 8.11,
           "fee": 0.6,
@@ -462,16 +462,16 @@
           "margin_pct": -36.1
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 5.4,
-          "margin_pct": 31.6
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 6.69,
+          "margin_pct": 36.2
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 10.86,
-          "margin_pct": 47.2
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 12.24,
+          "margin_pct": 50.0
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 37.53,
@@ -479,7 +479,7 @@
         "at_product_market": {
           "sell": 37.53,
           "fee": 2.78,
-          "profit": 24.32,
+          "profit": 24.31,
           "margin_pct": 64.8
         }
       },
@@ -498,28 +498,28 @@
         "shipping_order_usd": 6.2,
         "tariff_usd": 0.33,
         "duty_mode": "ddu",
-        "landed_cost_usd": 8.74,
-        "landed_cost_ddu_usd": 8.74,
+        "landed_cost_usd": 8.75,
+        "landed_cost_ddu_usd": 8.75,
         "landed_cost_ddp_usd": 8.41,
         "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 9.44,
         "at_2_2x": {
-          "sell": 4.86,
+          "sell": 4.87,
           "fee": 0.36,
           "profit": -4.24,
           "margin_pct": -87.1
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 7.1,
-          "margin_pct": 41.5
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 8.38,
+          "margin_pct": 45.3
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 12.56,
-          "margin_pct": 54.6
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 13.94,
+          "margin_pct": 56.9
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 14.84,
@@ -541,33 +541,33 @@
         "weight_note": "고시 용량 50ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 3.68,
-        "shipping_unit_usd": 6.94,
-        "shipping_order_usd": 6.94,
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 6.95,
+        "shipping_order_usd": 6.95,
         "tariff_usd": 0.55,
         "duty_mode": "ddu",
-        "landed_cost_usd": 11.18,
-        "landed_cost_ddu_usd": 11.18,
+        "landed_cost_usd": 11.19,
+        "landed_cost_ddu_usd": 11.19,
         "landed_cost_ddp_usd": 10.63,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 12.07,
+        "breakeven_usd": 12.08,
         "at_2_2x": {
           "sell": 8.11,
           "fee": 0.6,
-          "profit": -3.67,
+          "profit": -3.68,
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 4.66,
-          "margin_pct": 27.2
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 5.94,
+          "margin_pct": 32.1
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 10.12,
-          "margin_pct": 44.0
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 11.5,
+          "margin_pct": 46.9
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 23.0,
@@ -575,7 +575,7 @@
         "at_product_market": {
           "sell": 23.0,
           "fee": 1.7,
-          "profit": 10.12,
+          "profit": 10.11,
           "margin_pct": 44.0
         }
       },
@@ -589,33 +589,33 @@
         "weight_note": "고시 용량 100ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 3.68,
-        "shipping_unit_usd": 6.94,
-        "shipping_order_usd": 6.94,
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 6.95,
+        "shipping_order_usd": 6.95,
         "tariff_usd": 0.55,
         "duty_mode": "ddu",
-        "landed_cost_usd": 11.18,
-        "landed_cost_ddu_usd": 11.18,
+        "landed_cost_usd": 11.19,
+        "landed_cost_ddu_usd": 11.19,
         "landed_cost_ddp_usd": 10.63,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 12.07,
+        "breakeven_usd": 12.08,
         "at_2_2x": {
           "sell": 8.11,
           "fee": 0.6,
-          "profit": -3.67,
+          "profit": -3.68,
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 4.66,
-          "margin_pct": 27.2
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 5.94,
+          "margin_pct": 32.1
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 10.12,
-          "margin_pct": 44.0
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 11.5,
+          "margin_pct": 46.9
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 19.94,
@@ -623,7 +623,7 @@
         "at_product_market": {
           "sell": 19.94,
           "fee": 1.48,
-          "profit": 7.29,
+          "profit": 7.28,
           "margin_pct": 36.5
         }
       },
@@ -642,11 +642,11 @@
         "shipping_order_usd": 6.2,
         "tariff_usd": 0.22,
         "duty_mode": "ddu",
-        "landed_cost_usd": 7.89,
-        "landed_cost_ddu_usd": 7.89,
-        "landed_cost_ddp_usd": 7.67,
+        "landed_cost_usd": 7.9,
+        "landed_cost_ddu_usd": 7.9,
+        "landed_cost_ddp_usd": 7.68,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.52,
+        "breakeven_usd": 8.53,
         "at_2_2x": {
           "sell": 3.24,
           "fee": 0.24,
@@ -654,105 +654,19 @@
           "margin_pct": -150.8
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 7.94,
-          "margin_pct": 46.4
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 9.23,
+          "margin_pct": 49.9
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 13.41,
-          "margin_pct": 58.3
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 14.79,
+          "margin_pct": 60.4
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1049285",
-        "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-        "bucket": "스킨케어",
-        "shopify_score": 93,
-        "price_krw": 3000,
-        "weight_g_est": 46,
-        "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 2.21,
-        "shipping_unit_usd": 6.2,
-        "shipping_order_usd": 6.2,
-        "tariff_usd": 0.33,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 8.74,
-        "landed_cost_ddu_usd": 8.74,
-        "landed_cost_ddp_usd": 8.41,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 9.44,
-        "at_2_2x": {
-          "sell": 4.86,
-          "fee": 0.36,
-          "profit": -4.24,
-          "margin_pct": -87.1
-        },
-        "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 7.1,
-          "margin_pct": 41.5
-        },
-        "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 12.56,
-          "margin_pct": 54.6
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1027327",
-        "name": "바세린 마스크팩 집중보습",
-        "bucket": "마스크팩",
-        "shopify_score": 91,
-        "price_krw": 1000,
-        "weight_g_est": 190,
-        "weight_note": "용량 표기 없음 - 150g 가정",
-        "weight_source": "estimated",
-        "weigh_needed": true,
-        "unit_cost_usd": 0.74,
-        "shipping_unit_usd": 6.94,
-        "shipping_order_usd": 6.94,
-        "tariff_usd": 0.11,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 7.79,
-        "landed_cost_ddu_usd": 7.79,
-        "landed_cost_ddp_usd": 7.68,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.41,
-        "at_2_2x": {
-          "sell": 1.62,
-          "fee": 0.12,
-          "profit": -6.29,
-          "margin_pct": -387.9
-        },
-        "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 8.05,
-          "margin_pct": 47.1
-        },
-        "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 13.51,
-          "margin_pct": 58.7
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -771,11 +685,11 @@
         "shipping_order_usd": 6.2,
         "tariff_usd": 0.22,
         "duty_mode": "ddu",
-        "landed_cost_usd": 7.89,
-        "landed_cost_ddu_usd": 7.89,
-        "landed_cost_ddp_usd": 7.67,
+        "landed_cost_usd": 7.9,
+        "landed_cost_ddu_usd": 7.9,
+        "landed_cost_ddp_usd": 7.68,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.52,
+        "breakeven_usd": 8.53,
         "at_2_2x": {
           "sell": 3.24,
           "fee": 0.24,
@@ -783,16 +697,16 @@
           "margin_pct": -150.8
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 7.94,
-          "margin_pct": 46.4
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 9.23,
+          "margin_pct": 49.9
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 13.41,
-          "margin_pct": 58.3
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 14.79,
+          "margin_pct": 60.4
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 13.0,
@@ -800,15 +714,101 @@
         "at_product_market": {
           "sell": 13.0,
           "fee": 0.96,
-          "profit": 4.15,
-          "margin_pct": 31.9
+          "profit": 4.14,
+          "margin_pct": 31.8
         }
+      },
+      {
+        "pd_no": "1049285",
+        "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 3000,
+        "weight_g_est": 46,
+        "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 2.21,
+        "shipping_unit_usd": 6.2,
+        "shipping_order_usd": 6.2,
+        "tariff_usd": 0.33,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 8.75,
+        "landed_cost_ddu_usd": 8.75,
+        "landed_cost_ddp_usd": 8.41,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 9.44,
+        "at_2_2x": {
+          "sell": 4.87,
+          "fee": 0.36,
+          "profit": -4.24,
+          "margin_pct": -87.1
+        },
+        "at_market_p25": {
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 8.38,
+          "margin_pct": 45.3
+        },
+        "at_market_median": {
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 13.94,
+          "margin_pct": 56.9
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.5,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1027327",
+        "name": "바세린 마스크팩 집중보습",
+        "bucket": "마스크팩",
+        "shopify_score": 89,
+        "price_krw": 1000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "weight_source": "estimated",
+        "weigh_needed": true,
+        "unit_cost_usd": 0.74,
+        "shipping_unit_usd": 6.95,
+        "shipping_order_usd": 6.95,
+        "tariff_usd": 0.11,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 7.79,
+        "landed_cost_ddu_usd": 7.79,
+        "landed_cost_ddp_usd": 7.68,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 8.42,
+        "at_2_2x": {
+          "sell": 1.62,
+          "fee": 0.12,
+          "profit": -6.29,
+          "margin_pct": -387.9
+        },
+        "at_market_p25": {
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 9.34,
+          "margin_pct": 50.5
+        },
+        "at_market_median": {
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 14.89,
+          "margin_pct": 60.8
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.5,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1042619",
         "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
         "bucket": "마스크팩",
-        "shopify_score": 88,
+        "shopify_score": 85,
         "price_krw": 1000,
         "weight_g_est": 86,
         "weight_note": "고시 용량 29g x 1.6(용기) + 40g(포장)",
@@ -819,28 +819,28 @@
         "shipping_order_usd": 6.2,
         "tariff_usd": 0.11,
         "duty_mode": "ddu",
-        "landed_cost_usd": 7.04,
-        "landed_cost_ddu_usd": 7.04,
-        "landed_cost_ddp_usd": 6.93,
+        "landed_cost_usd": 7.05,
+        "landed_cost_ddu_usd": 7.05,
+        "landed_cost_ddp_usd": 6.94,
         "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 7.61,
         "at_2_2x": {
           "sell": 1.62,
           "fee": 0.12,
-          "profit": -5.54,
+          "profit": -5.55,
           "margin_pct": -341.9
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 8.79,
-          "margin_pct": 51.4
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 10.08,
+          "margin_pct": 54.5
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 14.25,
-          "margin_pct": 62.0
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 15.64,
+          "margin_pct": 63.8
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 12.99,
@@ -849,7 +849,7 @@
           "sell": 12.99,
           "fee": 0.96,
           "profit": 4.98,
-          "margin_pct": 38.4
+          "margin_pct": 38.3
         }
       }
     ],
@@ -869,31 +869,31 @@
         "shipping_order_usd": 6.2,
         "tariff_usd": 0.33,
         "duty_mode": "ddu",
-        "landed_cost_usd": 5.64,
-        "landed_cost_ddu_usd": 5.64,
+        "landed_cost_usd": 5.65,
+        "landed_cost_ddu_usd": 5.65,
         "landed_cost_ddp_usd": 5.31,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 6.09,
+        "breakeven_usd": 6.1,
         "at_2_2x": {
-          "sell": 4.86,
+          "sell": 4.87,
           "fee": 0.36,
           "profit": -1.14,
           "margin_pct": -23.4
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 10.19,
-          "margin_pct": 59.6
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 11.49,
+          "margin_pct": 62.1
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 15.66,
-          "margin_pct": 68.1
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 17.04,
+          "margin_pct": 69.6
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -907,16 +907,16 @@
         "weight_note": "고시 용량 30ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 3.68,
+        "unit_cost_usd": 3.69,
         "shipping_unit_usd": 3.47,
-        "shipping_order_usd": 6.94,
+        "shipping_order_usd": 6.95,
         "tariff_usd": 0.55,
         "duty_mode": "ddu",
         "landed_cost_usd": 7.71,
         "landed_cost_ddu_usd": 7.71,
         "landed_cost_ddp_usd": 7.16,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.32,
+        "breakeven_usd": 8.33,
         "at_2_2x": {
           "sell": 8.11,
           "fee": 0.6,
@@ -924,16 +924,16 @@
           "margin_pct": -2.5
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 8.13,
-          "margin_pct": 47.5
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 9.42,
+          "margin_pct": 50.9
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 13.59,
-          "margin_pct": 59.1
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 14.97,
+          "margin_pct": 61.1
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 37.53,
@@ -942,7 +942,7 @@
           "sell": 37.53,
           "fee": 2.78,
           "profit": 27.04,
-          "margin_pct": 72.1
+          "margin_pct": 72.0
         }
       },
       {
@@ -960,28 +960,28 @@
         "shipping_order_usd": 6.2,
         "tariff_usd": 0.33,
         "duty_mode": "ddu",
-        "landed_cost_usd": 5.64,
-        "landed_cost_ddu_usd": 5.64,
+        "landed_cost_usd": 5.65,
+        "landed_cost_ddu_usd": 5.65,
         "landed_cost_ddp_usd": 5.31,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 6.09,
+        "breakeven_usd": 6.1,
         "at_2_2x": {
-          "sell": 4.86,
+          "sell": 4.87,
           "fee": 0.36,
           "profit": -1.14,
           "margin_pct": -23.4
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 10.19,
-          "margin_pct": 59.6
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 11.49,
+          "margin_pct": 62.1
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 15.66,
-          "margin_pct": 68.1
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 17.04,
+          "margin_pct": 69.6
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 14.84,
@@ -1003,13 +1003,13 @@
         "weight_note": "고시 용량 50ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 3.68,
-        "shipping_unit_usd": 3.84,
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 3.85,
         "shipping_order_usd": 7.69,
         "tariff_usd": 0.55,
         "duty_mode": "ddu",
-        "landed_cost_usd": 8.08,
-        "landed_cost_ddu_usd": 8.08,
+        "landed_cost_usd": 8.09,
+        "landed_cost_ddu_usd": 8.09,
         "landed_cost_ddp_usd": 7.53,
         "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 8.73,
@@ -1020,16 +1020,16 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 7.75,
-          "margin_pct": 45.3
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 9.04,
+          "margin_pct": 48.9
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 13.22,
-          "margin_pct": 57.5
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 14.6,
+          "margin_pct": 59.6
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 23.0,
@@ -1037,8 +1037,8 @@
         "at_product_market": {
           "sell": 23.0,
           "fee": 1.7,
-          "profit": 13.22,
-          "margin_pct": 57.5
+          "profit": 13.21,
+          "margin_pct": 57.4
         }
       },
       {
@@ -1051,14 +1051,14 @@
         "weight_note": "고시 용량 100ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 3.68,
+        "unit_cost_usd": 3.69,
         "shipping_unit_usd": 4.22,
-        "shipping_order_usd": 8.43,
+        "shipping_order_usd": 8.44,
         "tariff_usd": 0.55,
         "duty_mode": "ddu",
-        "landed_cost_usd": 8.45,
-        "landed_cost_ddu_usd": 8.45,
-        "landed_cost_ddp_usd": 7.9,
+        "landed_cost_usd": 8.46,
+        "landed_cost_ddu_usd": 8.46,
+        "landed_cost_ddp_usd": 7.91,
         "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 9.13,
         "at_2_2x": {
@@ -1068,16 +1068,16 @@
           "margin_pct": -11.7
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 7.38,
-          "margin_pct": 43.2
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 8.67,
+          "margin_pct": 46.9
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 12.85,
-          "margin_pct": 55.9
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 14.23,
+          "margin_pct": 58.1
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 19.94,
@@ -1101,12 +1101,12 @@
         "weigh_needed": false,
         "unit_cost_usd": 1.47,
         "shipping_unit_usd": 3.47,
-        "shipping_order_usd": 6.94,
+        "shipping_order_usd": 6.95,
         "tariff_usd": 0.22,
         "duty_mode": "ddu",
         "landed_cost_usd": 5.17,
         "landed_cost_ddu_usd": 5.17,
-        "landed_cost_ddp_usd": 4.94,
+        "landed_cost_ddp_usd": 4.95,
         "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 5.58,
         "at_2_2x": {
@@ -1116,105 +1116,19 @@
           "margin_pct": -66.7
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 10.67,
-          "margin_pct": 62.4
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 11.96,
+          "margin_pct": 64.7
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 16.13,
-          "margin_pct": 70.1
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 17.52,
+          "margin_pct": 71.5
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1049285",
-        "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-        "bucket": "스킨케어",
-        "shopify_score": 93,
-        "price_krw": 3000,
-        "weight_g_est": 46,
-        "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 2.21,
-        "shipping_unit_usd": 3.1,
-        "shipping_order_usd": 6.2,
-        "tariff_usd": 0.33,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 5.64,
-        "landed_cost_ddu_usd": 5.64,
-        "landed_cost_ddp_usd": 5.31,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 6.09,
-        "at_2_2x": {
-          "sell": 4.86,
-          "fee": 0.36,
-          "profit": -1.14,
-          "margin_pct": -23.4
-        },
-        "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 10.19,
-          "margin_pct": 59.6
-        },
-        "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 15.66,
-          "margin_pct": 68.1
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1027327",
-        "name": "바세린 마스크팩 집중보습",
-        "bucket": "마스크팩",
-        "shopify_score": 91,
-        "price_krw": 1000,
-        "weight_g_est": 190,
-        "weight_note": "용량 표기 없음 - 150g 가정",
-        "weight_source": "estimated",
-        "weigh_needed": true,
-        "unit_cost_usd": 0.74,
-        "shipping_unit_usd": 4.22,
-        "shipping_order_usd": 8.43,
-        "tariff_usd": 0.11,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 5.06,
-        "landed_cost_ddu_usd": 5.06,
-        "landed_cost_ddp_usd": 4.95,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 5.47,
-        "at_2_2x": {
-          "sell": 1.62,
-          "fee": 0.12,
-          "profit": -3.56,
-          "margin_pct": -219.7
-        },
-        "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 10.77,
-          "margin_pct": 63.0
-        },
-        "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 16.24,
-          "margin_pct": 70.6
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1230,12 +1144,12 @@
         "weigh_needed": true,
         "unit_cost_usd": 1.47,
         "shipping_unit_usd": 3.47,
-        "shipping_order_usd": 6.94,
+        "shipping_order_usd": 6.95,
         "tariff_usd": 0.22,
         "duty_mode": "ddu",
         "landed_cost_usd": 5.17,
         "landed_cost_ddu_usd": 5.17,
-        "landed_cost_ddp_usd": 4.94,
+        "landed_cost_ddp_usd": 4.95,
         "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 5.58,
         "at_2_2x": {
@@ -1245,16 +1159,16 @@
           "margin_pct": -66.7
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 10.67,
-          "margin_pct": 62.4
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 11.96,
+          "margin_pct": 64.7
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 16.13,
-          "margin_pct": 70.1
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 17.52,
+          "margin_pct": 71.5
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 13.0,
@@ -1263,14 +1177,100 @@
           "sell": 13.0,
           "fee": 0.96,
           "profit": 6.87,
-          "margin_pct": 52.9
+          "margin_pct": 52.8
         }
+      },
+      {
+        "pd_no": "1049285",
+        "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 3000,
+        "weight_g_est": 46,
+        "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 2.21,
+        "shipping_unit_usd": 3.1,
+        "shipping_order_usd": 6.2,
+        "tariff_usd": 0.33,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 5.65,
+        "landed_cost_ddu_usd": 5.65,
+        "landed_cost_ddp_usd": 5.31,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 6.1,
+        "at_2_2x": {
+          "sell": 4.87,
+          "fee": 0.36,
+          "profit": -1.14,
+          "margin_pct": -23.4
+        },
+        "at_market_p25": {
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 11.49,
+          "margin_pct": 62.1
+        },
+        "at_market_median": {
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 17.04,
+          "margin_pct": 69.6
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.5,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1027327",
+        "name": "바세린 마스크팩 집중보습",
+        "bucket": "마스크팩",
+        "shopify_score": 89,
+        "price_krw": 1000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "weight_source": "estimated",
+        "weigh_needed": true,
+        "unit_cost_usd": 0.74,
+        "shipping_unit_usd": 4.22,
+        "shipping_order_usd": 8.44,
+        "tariff_usd": 0.11,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 5.07,
+        "landed_cost_ddu_usd": 5.07,
+        "landed_cost_ddp_usd": 4.96,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 5.47,
+        "at_2_2x": {
+          "sell": 1.62,
+          "fee": 0.12,
+          "profit": -3.56,
+          "margin_pct": -219.7
+        },
+        "at_market_p25": {
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 12.06,
+          "margin_pct": 65.2
+        },
+        "at_market_median": {
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 17.62,
+          "margin_pct": 71.9
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.5,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1042619",
         "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
         "bucket": "마스크팩",
-        "shopify_score": 88,
+        "shopify_score": 85,
         "price_krw": 1000,
         "weight_g_est": 86,
         "weight_note": "고시 용량 29g x 1.6(용기) + 40g(포장)",
@@ -1278,14 +1278,14 @@
         "weigh_needed": true,
         "unit_cost_usd": 0.74,
         "shipping_unit_usd": 3.47,
-        "shipping_order_usd": 6.94,
+        "shipping_order_usd": 6.95,
         "tariff_usd": 0.11,
         "duty_mode": "ddu",
         "landed_cost_usd": 4.32,
         "landed_cost_ddu_usd": 4.32,
         "landed_cost_ddp_usd": 4.21,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 4.66,
+        "breakeven_usd": 4.67,
         "at_2_2x": {
           "sell": 1.62,
           "fee": 0.12,
@@ -1293,16 +1293,16 @@
           "margin_pct": -173.8
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 11.52,
-          "margin_pct": 67.3
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 12.81,
+          "margin_pct": 69.2
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 16.98,
-          "margin_pct": 73.8
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 18.37,
+          "margin_pct": 75.0
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 12.99,
@@ -1311,7 +1311,7 @@
           "sell": 12.99,
           "fee": 0.96,
           "profit": 7.71,
-          "margin_pct": 59.4
+          "margin_pct": 59.3
         }
       }
     ]
@@ -1333,31 +1333,31 @@
         "shipping_order_usd": 6.2,
         "tariff_usd": 0.33,
         "duty_mode": "ddu",
-        "landed_cost_usd": 8.74,
-        "landed_cost_ddu_usd": 8.74,
+        "landed_cost_usd": 8.75,
+        "landed_cost_ddu_usd": 8.75,
         "landed_cost_ddp_usd": 8.41,
         "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 9.44,
         "at_2_2x": {
-          "sell": 4.86,
+          "sell": 4.87,
           "fee": 0.36,
           "profit": -4.24,
           "margin_pct": -87.1
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 7.1,
-          "margin_pct": 41.5
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 8.38,
+          "margin_pct": 45.3
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 12.56,
-          "margin_pct": 54.6
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 13.94,
+          "margin_pct": 56.9
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1371,16 +1371,16 @@
         "weight_note": "고시 용량 30ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 3.68,
+        "unit_cost_usd": 3.69,
         "shipping_unit_usd": 6.2,
         "shipping_order_usd": 6.2,
         "tariff_usd": 0.55,
         "duty_mode": "ddu",
-        "landed_cost_usd": 10.43,
-        "landed_cost_ddu_usd": 10.43,
-        "landed_cost_ddp_usd": 9.88,
+        "landed_cost_usd": 10.44,
+        "landed_cost_ddu_usd": 10.44,
+        "landed_cost_ddp_usd": 9.89,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 11.27,
+        "breakeven_usd": 11.28,
         "at_2_2x": {
           "sell": 8.11,
           "fee": 0.6,
@@ -1388,16 +1388,16 @@
           "margin_pct": -36.1
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 5.4,
-          "margin_pct": 31.6
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 6.69,
+          "margin_pct": 36.2
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 10.86,
-          "margin_pct": 47.2
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 12.24,
+          "margin_pct": 50.0
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 37.53,
@@ -1405,7 +1405,7 @@
         "at_product_market": {
           "sell": 37.53,
           "fee": 2.78,
-          "profit": 24.32,
+          "profit": 24.31,
           "margin_pct": 64.8
         }
       },
@@ -1424,28 +1424,28 @@
         "shipping_order_usd": 6.2,
         "tariff_usd": 0.33,
         "duty_mode": "ddu",
-        "landed_cost_usd": 8.74,
-        "landed_cost_ddu_usd": 8.74,
+        "landed_cost_usd": 8.75,
+        "landed_cost_ddu_usd": 8.75,
         "landed_cost_ddp_usd": 8.41,
         "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 9.44,
         "at_2_2x": {
-          "sell": 4.86,
+          "sell": 4.87,
           "fee": 0.36,
           "profit": -4.24,
           "margin_pct": -87.1
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 7.1,
-          "margin_pct": 41.5
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 8.38,
+          "margin_pct": 45.3
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 12.56,
-          "margin_pct": 54.6
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 13.94,
+          "margin_pct": 56.9
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 14.84,
@@ -1467,33 +1467,33 @@
         "weight_note": "고시 용량 50ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 3.68,
-        "shipping_unit_usd": 6.94,
-        "shipping_order_usd": 6.94,
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 6.95,
+        "shipping_order_usd": 6.95,
         "tariff_usd": 0.55,
         "duty_mode": "ddu",
-        "landed_cost_usd": 11.18,
-        "landed_cost_ddu_usd": 11.18,
+        "landed_cost_usd": 11.19,
+        "landed_cost_ddu_usd": 11.19,
         "landed_cost_ddp_usd": 10.63,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 12.07,
+        "breakeven_usd": 12.08,
         "at_2_2x": {
           "sell": 8.11,
           "fee": 0.6,
-          "profit": -3.67,
+          "profit": -3.68,
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 4.66,
-          "margin_pct": 27.2
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 5.94,
+          "margin_pct": 32.1
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 10.12,
-          "margin_pct": 44.0
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 11.5,
+          "margin_pct": 46.9
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 23.0,
@@ -1501,7 +1501,7 @@
         "at_product_market": {
           "sell": 23.0,
           "fee": 1.7,
-          "profit": 10.12,
+          "profit": 10.11,
           "margin_pct": 44.0
         }
       },
@@ -1515,33 +1515,33 @@
         "weight_note": "고시 용량 100ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 3.68,
-        "shipping_unit_usd": 6.94,
-        "shipping_order_usd": 6.94,
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 6.95,
+        "shipping_order_usd": 6.95,
         "tariff_usd": 0.55,
         "duty_mode": "ddu",
-        "landed_cost_usd": 11.18,
-        "landed_cost_ddu_usd": 11.18,
+        "landed_cost_usd": 11.19,
+        "landed_cost_ddu_usd": 11.19,
         "landed_cost_ddp_usd": 10.63,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 12.07,
+        "breakeven_usd": 12.08,
         "at_2_2x": {
           "sell": 8.11,
           "fee": 0.6,
-          "profit": -3.67,
+          "profit": -3.68,
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 4.66,
-          "margin_pct": 27.2
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 5.94,
+          "margin_pct": 32.1
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 10.12,
-          "margin_pct": 44.0
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 11.5,
+          "margin_pct": 46.9
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 19.94,
@@ -1549,7 +1549,7 @@
         "at_product_market": {
           "sell": 19.94,
           "fee": 1.48,
-          "profit": 7.29,
+          "profit": 7.28,
           "margin_pct": 36.5
         }
       },
@@ -1568,11 +1568,11 @@
         "shipping_order_usd": 6.2,
         "tariff_usd": 0.22,
         "duty_mode": "ddu",
-        "landed_cost_usd": 7.89,
-        "landed_cost_ddu_usd": 7.89,
-        "landed_cost_ddp_usd": 7.67,
+        "landed_cost_usd": 7.9,
+        "landed_cost_ddu_usd": 7.9,
+        "landed_cost_ddp_usd": 7.68,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.52,
+        "breakeven_usd": 8.53,
         "at_2_2x": {
           "sell": 3.24,
           "fee": 0.24,
@@ -1580,105 +1580,19 @@
           "margin_pct": -150.8
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 7.94,
-          "margin_pct": 46.4
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 9.23,
+          "margin_pct": 49.9
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 13.41,
-          "margin_pct": 58.3
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 14.79,
+          "margin_pct": 60.4
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1049285",
-        "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-        "bucket": "스킨케어",
-        "shopify_score": 93,
-        "price_krw": 3000,
-        "weight_g_est": 46,
-        "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 2.21,
-        "shipping_unit_usd": 6.2,
-        "shipping_order_usd": 6.2,
-        "tariff_usd": 0.33,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 8.74,
-        "landed_cost_ddu_usd": 8.74,
-        "landed_cost_ddp_usd": 8.41,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 9.44,
-        "at_2_2x": {
-          "sell": 4.86,
-          "fee": 0.36,
-          "profit": -4.24,
-          "margin_pct": -87.1
-        },
-        "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 7.1,
-          "margin_pct": 41.5
-        },
-        "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 12.56,
-          "margin_pct": 54.6
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1027327",
-        "name": "바세린 마스크팩 집중보습",
-        "bucket": "마스크팩",
-        "shopify_score": 91,
-        "price_krw": 1000,
-        "weight_g_est": 190,
-        "weight_note": "용량 표기 없음 - 150g 가정",
-        "weight_source": "estimated",
-        "weigh_needed": true,
-        "unit_cost_usd": 0.74,
-        "shipping_unit_usd": 6.94,
-        "shipping_order_usd": 6.94,
-        "tariff_usd": 0.11,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 7.79,
-        "landed_cost_ddu_usd": 7.79,
-        "landed_cost_ddp_usd": 7.68,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.41,
-        "at_2_2x": {
-          "sell": 1.62,
-          "fee": 0.12,
-          "profit": -6.29,
-          "margin_pct": -387.9
-        },
-        "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 8.05,
-          "margin_pct": 47.1
-        },
-        "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 13.51,
-          "margin_pct": 58.7
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1697,11 +1611,11 @@
         "shipping_order_usd": 6.2,
         "tariff_usd": 0.22,
         "duty_mode": "ddu",
-        "landed_cost_usd": 7.89,
-        "landed_cost_ddu_usd": 7.89,
-        "landed_cost_ddp_usd": 7.67,
+        "landed_cost_usd": 7.9,
+        "landed_cost_ddu_usd": 7.9,
+        "landed_cost_ddp_usd": 7.68,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.52,
+        "breakeven_usd": 8.53,
         "at_2_2x": {
           "sell": 3.24,
           "fee": 0.24,
@@ -1709,16 +1623,16 @@
           "margin_pct": -150.8
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 7.94,
-          "margin_pct": 46.4
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 9.23,
+          "margin_pct": 49.9
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 13.41,
-          "margin_pct": 58.3
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 14.79,
+          "margin_pct": 60.4
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 13.0,
@@ -1726,15 +1640,101 @@
         "at_product_market": {
           "sell": 13.0,
           "fee": 0.96,
-          "profit": 4.15,
-          "margin_pct": 31.9
+          "profit": 4.14,
+          "margin_pct": 31.8
         }
+      },
+      {
+        "pd_no": "1049285",
+        "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 3000,
+        "weight_g_est": 46,
+        "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 2.21,
+        "shipping_unit_usd": 6.2,
+        "shipping_order_usd": 6.2,
+        "tariff_usd": 0.33,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 8.75,
+        "landed_cost_ddu_usd": 8.75,
+        "landed_cost_ddp_usd": 8.41,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 9.44,
+        "at_2_2x": {
+          "sell": 4.87,
+          "fee": 0.36,
+          "profit": -4.24,
+          "margin_pct": -87.1
+        },
+        "at_market_p25": {
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 8.38,
+          "margin_pct": 45.3
+        },
+        "at_market_median": {
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 13.94,
+          "margin_pct": 56.9
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.5,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1027327",
+        "name": "바세린 마스크팩 집중보습",
+        "bucket": "마스크팩",
+        "shopify_score": 89,
+        "price_krw": 1000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "weight_source": "estimated",
+        "weigh_needed": true,
+        "unit_cost_usd": 0.74,
+        "shipping_unit_usd": 6.95,
+        "shipping_order_usd": 6.95,
+        "tariff_usd": 0.11,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 7.79,
+        "landed_cost_ddu_usd": 7.79,
+        "landed_cost_ddp_usd": 7.68,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 8.42,
+        "at_2_2x": {
+          "sell": 1.62,
+          "fee": 0.12,
+          "profit": -6.29,
+          "margin_pct": -387.9
+        },
+        "at_market_p25": {
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 9.34,
+          "margin_pct": 50.5
+        },
+        "at_market_median": {
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 14.89,
+          "margin_pct": 60.8
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.5,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1042619",
         "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
         "bucket": "마스크팩",
-        "shopify_score": 88,
+        "shopify_score": 85,
         "price_krw": 1000,
         "weight_g_est": 86,
         "weight_note": "고시 용량 29g x 1.6(용기) + 40g(포장)",
@@ -1745,28 +1745,28 @@
         "shipping_order_usd": 6.2,
         "tariff_usd": 0.11,
         "duty_mode": "ddu",
-        "landed_cost_usd": 7.04,
-        "landed_cost_ddu_usd": 7.04,
-        "landed_cost_ddp_usd": 6.93,
+        "landed_cost_usd": 7.05,
+        "landed_cost_ddu_usd": 7.05,
+        "landed_cost_ddp_usd": 6.94,
         "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 7.61,
         "at_2_2x": {
           "sell": 1.62,
           "fee": 0.12,
-          "profit": -5.54,
+          "profit": -5.55,
           "margin_pct": -341.9
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 8.79,
-          "margin_pct": 51.4
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 10.08,
+          "margin_pct": 54.5
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 14.25,
-          "margin_pct": 62.0
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 15.64,
+          "margin_pct": 63.8
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 12.99,
@@ -1775,7 +1775,7 @@
           "sell": 12.99,
           "fee": 0.96,
           "profit": 4.98,
-          "margin_pct": 38.4
+          "margin_pct": 38.3
         }
       }
     ],
@@ -1795,31 +1795,31 @@
         "shipping_order_usd": 6.2,
         "tariff_usd": 0.33,
         "duty_mode": "ddu",
-        "landed_cost_usd": 5.64,
-        "landed_cost_ddu_usd": 5.64,
+        "landed_cost_usd": 5.65,
+        "landed_cost_ddu_usd": 5.65,
         "landed_cost_ddp_usd": 5.31,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 6.09,
+        "breakeven_usd": 6.1,
         "at_2_2x": {
-          "sell": 4.86,
+          "sell": 4.87,
           "fee": 0.36,
           "profit": -1.14,
           "margin_pct": -23.4
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 10.19,
-          "margin_pct": 59.6
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 11.49,
+          "margin_pct": 62.1
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 15.66,
-          "margin_pct": 68.1
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 17.04,
+          "margin_pct": 69.6
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1833,16 +1833,16 @@
         "weight_note": "고시 용량 30ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 3.68,
+        "unit_cost_usd": 3.69,
         "shipping_unit_usd": 3.47,
-        "shipping_order_usd": 6.94,
+        "shipping_order_usd": 6.95,
         "tariff_usd": 0.55,
         "duty_mode": "ddu",
         "landed_cost_usd": 7.71,
         "landed_cost_ddu_usd": 7.71,
         "landed_cost_ddp_usd": 7.16,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.32,
+        "breakeven_usd": 8.33,
         "at_2_2x": {
           "sell": 8.11,
           "fee": 0.6,
@@ -1850,16 +1850,16 @@
           "margin_pct": -2.5
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 8.13,
-          "margin_pct": 47.5
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 9.42,
+          "margin_pct": 50.9
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 13.59,
-          "margin_pct": 59.1
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 14.97,
+          "margin_pct": 61.1
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 37.53,
@@ -1868,7 +1868,7 @@
           "sell": 37.53,
           "fee": 2.78,
           "profit": 27.04,
-          "margin_pct": 72.1
+          "margin_pct": 72.0
         }
       },
       {
@@ -1886,28 +1886,28 @@
         "shipping_order_usd": 6.2,
         "tariff_usd": 0.33,
         "duty_mode": "ddu",
-        "landed_cost_usd": 5.64,
-        "landed_cost_ddu_usd": 5.64,
+        "landed_cost_usd": 5.65,
+        "landed_cost_ddu_usd": 5.65,
         "landed_cost_ddp_usd": 5.31,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 6.09,
+        "breakeven_usd": 6.1,
         "at_2_2x": {
-          "sell": 4.86,
+          "sell": 4.87,
           "fee": 0.36,
           "profit": -1.14,
           "margin_pct": -23.4
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 10.19,
-          "margin_pct": 59.6
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 11.49,
+          "margin_pct": 62.1
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 15.66,
-          "margin_pct": 68.1
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 17.04,
+          "margin_pct": 69.6
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 14.84,
@@ -1929,13 +1929,13 @@
         "weight_note": "고시 용량 50ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 3.68,
-        "shipping_unit_usd": 3.84,
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 3.85,
         "shipping_order_usd": 7.69,
         "tariff_usd": 0.55,
         "duty_mode": "ddu",
-        "landed_cost_usd": 8.08,
-        "landed_cost_ddu_usd": 8.08,
+        "landed_cost_usd": 8.09,
+        "landed_cost_ddu_usd": 8.09,
         "landed_cost_ddp_usd": 7.53,
         "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 8.73,
@@ -1946,16 +1946,16 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 7.75,
-          "margin_pct": 45.3
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 9.04,
+          "margin_pct": 48.9
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 13.22,
-          "margin_pct": 57.5
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 14.6,
+          "margin_pct": 59.6
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 23.0,
@@ -1963,8 +1963,8 @@
         "at_product_market": {
           "sell": 23.0,
           "fee": 1.7,
-          "profit": 13.22,
-          "margin_pct": 57.5
+          "profit": 13.21,
+          "margin_pct": 57.4
         }
       },
       {
@@ -1977,14 +1977,14 @@
         "weight_note": "고시 용량 100ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 3.68,
+        "unit_cost_usd": 3.69,
         "shipping_unit_usd": 4.22,
-        "shipping_order_usd": 8.43,
+        "shipping_order_usd": 8.44,
         "tariff_usd": 0.55,
         "duty_mode": "ddu",
-        "landed_cost_usd": 8.45,
-        "landed_cost_ddu_usd": 8.45,
-        "landed_cost_ddp_usd": 7.9,
+        "landed_cost_usd": 8.46,
+        "landed_cost_ddu_usd": 8.46,
+        "landed_cost_ddp_usd": 7.91,
         "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 9.13,
         "at_2_2x": {
@@ -1994,16 +1994,16 @@
           "margin_pct": -11.7
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 7.38,
-          "margin_pct": 43.2
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 8.67,
+          "margin_pct": 46.9
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 12.85,
-          "margin_pct": 55.9
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 14.23,
+          "margin_pct": 58.1
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 19.94,
@@ -2027,12 +2027,12 @@
         "weigh_needed": false,
         "unit_cost_usd": 1.47,
         "shipping_unit_usd": 3.47,
-        "shipping_order_usd": 6.94,
+        "shipping_order_usd": 6.95,
         "tariff_usd": 0.22,
         "duty_mode": "ddu",
         "landed_cost_usd": 5.17,
         "landed_cost_ddu_usd": 5.17,
-        "landed_cost_ddp_usd": 4.94,
+        "landed_cost_ddp_usd": 4.95,
         "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 5.58,
         "at_2_2x": {
@@ -2042,105 +2042,19 @@
           "margin_pct": -66.7
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 10.67,
-          "margin_pct": 62.4
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 11.96,
+          "margin_pct": 64.7
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 16.13,
-          "margin_pct": 70.1
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 17.52,
+          "margin_pct": 71.5
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1049285",
-        "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-        "bucket": "스킨케어",
-        "shopify_score": 93,
-        "price_krw": 3000,
-        "weight_g_est": 46,
-        "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 2.21,
-        "shipping_unit_usd": 3.1,
-        "shipping_order_usd": 6.2,
-        "tariff_usd": 0.33,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 5.64,
-        "landed_cost_ddu_usd": 5.64,
-        "landed_cost_ddp_usd": 5.31,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 6.09,
-        "at_2_2x": {
-          "sell": 4.86,
-          "fee": 0.36,
-          "profit": -1.14,
-          "margin_pct": -23.4
-        },
-        "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 10.19,
-          "margin_pct": 59.6
-        },
-        "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 15.66,
-          "margin_pct": 68.1
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1027327",
-        "name": "바세린 마스크팩 집중보습",
-        "bucket": "마스크팩",
-        "shopify_score": 91,
-        "price_krw": 1000,
-        "weight_g_est": 190,
-        "weight_note": "용량 표기 없음 - 150g 가정",
-        "weight_source": "estimated",
-        "weigh_needed": true,
-        "unit_cost_usd": 0.74,
-        "shipping_unit_usd": 4.22,
-        "shipping_order_usd": 8.43,
-        "tariff_usd": 0.11,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 5.06,
-        "landed_cost_ddu_usd": 5.06,
-        "landed_cost_ddp_usd": 4.95,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 5.47,
-        "at_2_2x": {
-          "sell": 1.62,
-          "fee": 0.12,
-          "profit": -3.56,
-          "margin_pct": -219.7
-        },
-        "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 10.77,
-          "margin_pct": 63.0
-        },
-        "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 16.24,
-          "margin_pct": 70.6
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2156,12 +2070,12 @@
         "weigh_needed": true,
         "unit_cost_usd": 1.47,
         "shipping_unit_usd": 3.47,
-        "shipping_order_usd": 6.94,
+        "shipping_order_usd": 6.95,
         "tariff_usd": 0.22,
         "duty_mode": "ddu",
         "landed_cost_usd": 5.17,
         "landed_cost_ddu_usd": 5.17,
-        "landed_cost_ddp_usd": 4.94,
+        "landed_cost_ddp_usd": 4.95,
         "customer_pays_duty_at_checkout": false,
         "breakeven_usd": 5.58,
         "at_2_2x": {
@@ -2171,16 +2085,16 @@
           "margin_pct": -66.7
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 10.67,
-          "margin_pct": 62.4
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 11.96,
+          "margin_pct": 64.7
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 16.13,
-          "margin_pct": 70.1
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 17.52,
+          "margin_pct": 71.5
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 13.0,
@@ -2189,14 +2103,100 @@
           "sell": 13.0,
           "fee": 0.96,
           "profit": 6.87,
-          "margin_pct": 52.9
+          "margin_pct": 52.8
         }
+      },
+      {
+        "pd_no": "1049285",
+        "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 3000,
+        "weight_g_est": 46,
+        "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 2.21,
+        "shipping_unit_usd": 3.1,
+        "shipping_order_usd": 6.2,
+        "tariff_usd": 0.33,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 5.65,
+        "landed_cost_ddu_usd": 5.65,
+        "landed_cost_ddp_usd": 5.31,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 6.1,
+        "at_2_2x": {
+          "sell": 4.87,
+          "fee": 0.36,
+          "profit": -1.14,
+          "margin_pct": -23.4
+        },
+        "at_market_p25": {
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 11.49,
+          "margin_pct": 62.1
+        },
+        "at_market_median": {
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 17.04,
+          "margin_pct": 69.6
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.5,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1027327",
+        "name": "바세린 마스크팩 집중보습",
+        "bucket": "마스크팩",
+        "shopify_score": 89,
+        "price_krw": 1000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "weight_source": "estimated",
+        "weigh_needed": true,
+        "unit_cost_usd": 0.74,
+        "shipping_unit_usd": 4.22,
+        "shipping_order_usd": 8.44,
+        "tariff_usd": 0.11,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 5.07,
+        "landed_cost_ddu_usd": 5.07,
+        "landed_cost_ddp_usd": 4.96,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 5.47,
+        "at_2_2x": {
+          "sell": 1.62,
+          "fee": 0.12,
+          "profit": -3.56,
+          "margin_pct": -219.7
+        },
+        "at_market_p25": {
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 12.06,
+          "margin_pct": 65.2
+        },
+        "at_market_median": {
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 17.62,
+          "margin_pct": 71.9
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.5,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1042619",
         "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
         "bucket": "마스크팩",
-        "shopify_score": 88,
+        "shopify_score": 85,
         "price_krw": 1000,
         "weight_g_est": 86,
         "weight_note": "고시 용량 29g x 1.6(용기) + 40g(포장)",
@@ -2204,14 +2204,14 @@
         "weigh_needed": true,
         "unit_cost_usd": 0.74,
         "shipping_unit_usd": 3.47,
-        "shipping_order_usd": 6.94,
+        "shipping_order_usd": 6.95,
         "tariff_usd": 0.11,
         "duty_mode": "ddu",
         "landed_cost_usd": 4.32,
         "landed_cost_ddu_usd": 4.32,
         "landed_cost_ddp_usd": 4.21,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 4.66,
+        "breakeven_usd": 4.67,
         "at_2_2x": {
           "sell": 1.62,
           "fee": 0.12,
@@ -2219,16 +2219,16 @@
           "margin_pct": -173.8
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 11.52,
-          "margin_pct": 67.3
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 12.81,
+          "margin_pct": 69.2
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 16.98,
-          "margin_pct": 73.8
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 18.37,
+          "margin_pct": 75.0
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 12.99,
@@ -2237,7 +2237,7 @@
           "sell": 12.99,
           "fee": 0.96,
           "profit": 7.71,
-          "margin_pct": 59.4
+          "margin_pct": 59.3
         }
       }
     ],
@@ -2258,30 +2258,30 @@
         "tariff_usd": 0.33,
         "duty_mode": "ddp",
         "landed_cost_usd": 8.41,
-        "landed_cost_ddu_usd": 8.74,
+        "landed_cost_ddu_usd": 8.75,
         "landed_cost_ddp_usd": 8.41,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 9.08,
+        "breakeven_usd": 9.09,
         "at_2_2x": {
-          "sell": 4.86,
+          "sell": 4.87,
           "fee": 0.36,
-          "profit": -3.9,
+          "profit": -3.91,
           "margin_pct": -80.3
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 7.43,
-          "margin_pct": 43.4
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 8.72,
+          "margin_pct": 47.1
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 12.89,
-          "margin_pct": 56.0
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 14.27,
+          "margin_pct": 58.3
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2295,16 +2295,16 @@
         "weight_note": "고시 용량 30ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 3.68,
+        "unit_cost_usd": 3.69,
         "shipping_unit_usd": 6.2,
         "shipping_order_usd": 6.2,
         "tariff_usd": 0.55,
         "duty_mode": "ddp",
-        "landed_cost_usd": 9.88,
-        "landed_cost_ddu_usd": 10.43,
-        "landed_cost_ddp_usd": 9.88,
+        "landed_cost_usd": 9.89,
+        "landed_cost_ddu_usd": 10.44,
+        "landed_cost_ddp_usd": 9.89,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 10.67,
+        "breakeven_usd": 10.68,
         "at_2_2x": {
           "sell": 8.11,
           "fee": 0.6,
@@ -2312,16 +2312,16 @@
           "margin_pct": -29.3
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 5.95,
-          "margin_pct": 34.8
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 7.24,
+          "margin_pct": 39.1
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 11.42,
-          "margin_pct": 49.6
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 12.8,
+          "margin_pct": 52.2
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 37.53,
@@ -2329,7 +2329,7 @@
         "at_product_market": {
           "sell": 37.53,
           "fee": 2.78,
-          "profit": 24.87,
+          "profit": 24.86,
           "margin_pct": 66.3
         }
       },
@@ -2349,27 +2349,27 @@
         "tariff_usd": 0.33,
         "duty_mode": "ddp",
         "landed_cost_usd": 8.41,
-        "landed_cost_ddu_usd": 8.74,
+        "landed_cost_ddu_usd": 8.75,
         "landed_cost_ddp_usd": 8.41,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 9.08,
+        "breakeven_usd": 9.09,
         "at_2_2x": {
-          "sell": 4.86,
+          "sell": 4.87,
           "fee": 0.36,
-          "profit": -3.9,
+          "profit": -3.91,
           "margin_pct": -80.3
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 7.43,
-          "margin_pct": 43.4
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 8.72,
+          "margin_pct": 47.1
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 12.89,
-          "margin_pct": 56.0
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 14.27,
+          "margin_pct": 58.3
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 14.84,
@@ -2391,13 +2391,13 @@
         "weight_note": "고시 용량 50ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 3.68,
-        "shipping_unit_usd": 6.94,
-        "shipping_order_usd": 6.94,
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 6.95,
+        "shipping_order_usd": 6.95,
         "tariff_usd": 0.55,
         "duty_mode": "ddp",
         "landed_cost_usd": 10.63,
-        "landed_cost_ddu_usd": 11.18,
+        "landed_cost_ddu_usd": 11.19,
         "landed_cost_ddp_usd": 10.63,
         "customer_pays_duty_at_checkout": true,
         "breakeven_usd": 11.48,
@@ -2408,16 +2408,16 @@
           "margin_pct": -38.5
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 5.21,
-          "margin_pct": 30.5
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 6.5,
+          "margin_pct": 35.1
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 10.67,
-          "margin_pct": 46.4
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 12.05,
+          "margin_pct": 49.2
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 23.0,
@@ -2425,7 +2425,7 @@
         "at_product_market": {
           "sell": 23.0,
           "fee": 1.7,
-          "profit": 10.67,
+          "profit": 10.66,
           "margin_pct": 46.4
         }
       },
@@ -2439,13 +2439,13 @@
         "weight_note": "고시 용량 100ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 3.68,
-        "shipping_unit_usd": 6.94,
-        "shipping_order_usd": 6.94,
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 6.95,
+        "shipping_order_usd": 6.95,
         "tariff_usd": 0.55,
         "duty_mode": "ddp",
         "landed_cost_usd": 10.63,
-        "landed_cost_ddu_usd": 11.18,
+        "landed_cost_ddu_usd": 11.19,
         "landed_cost_ddp_usd": 10.63,
         "customer_pays_duty_at_checkout": true,
         "breakeven_usd": 11.48,
@@ -2456,16 +2456,16 @@
           "margin_pct": -38.5
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 5.21,
-          "margin_pct": 30.5
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 6.5,
+          "margin_pct": 35.1
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 10.67,
-          "margin_pct": 46.4
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 12.05,
+          "margin_pct": 49.2
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 19.94,
@@ -2473,7 +2473,7 @@
         "at_product_market": {
           "sell": 19.94,
           "fee": 1.48,
-          "profit": 7.84,
+          "profit": 7.83,
           "margin_pct": 39.3
         }
       },
@@ -2492,11 +2492,11 @@
         "shipping_order_usd": 6.2,
         "tariff_usd": 0.22,
         "duty_mode": "ddp",
-        "landed_cost_usd": 7.67,
-        "landed_cost_ddu_usd": 7.89,
-        "landed_cost_ddp_usd": 7.67,
+        "landed_cost_usd": 7.68,
+        "landed_cost_ddu_usd": 7.9,
+        "landed_cost_ddp_usd": 7.68,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 8.28,
+        "breakeven_usd": 8.29,
         "at_2_2x": {
           "sell": 3.24,
           "fee": 0.24,
@@ -2504,105 +2504,19 @@
           "margin_pct": -144.0
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 8.16,
-          "margin_pct": 47.7
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 9.45,
+          "margin_pct": 51.1
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 13.63,
-          "margin_pct": 59.2
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 15.01,
+          "margin_pct": 61.3
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1049285",
-        "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-        "bucket": "스킨케어",
-        "shopify_score": 93,
-        "price_krw": 3000,
-        "weight_g_est": 46,
-        "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 2.21,
-        "shipping_unit_usd": 6.2,
-        "shipping_order_usd": 6.2,
-        "tariff_usd": 0.33,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 8.41,
-        "landed_cost_ddu_usd": 8.74,
-        "landed_cost_ddp_usd": 8.41,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 9.08,
-        "at_2_2x": {
-          "sell": 4.86,
-          "fee": 0.36,
-          "profit": -3.9,
-          "margin_pct": -80.3
-        },
-        "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 7.43,
-          "margin_pct": 43.4
-        },
-        "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 12.89,
-          "margin_pct": 56.0
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1027327",
-        "name": "바세린 마스크팩 집중보습",
-        "bucket": "마스크팩",
-        "shopify_score": 91,
-        "price_krw": 1000,
-        "weight_g_est": 190,
-        "weight_note": "용량 표기 없음 - 150g 가정",
-        "weight_source": "estimated",
-        "weigh_needed": true,
-        "unit_cost_usd": 0.74,
-        "shipping_unit_usd": 6.94,
-        "shipping_order_usd": 6.94,
-        "tariff_usd": 0.11,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 7.68,
-        "landed_cost_ddu_usd": 7.79,
-        "landed_cost_ddp_usd": 7.68,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 8.29,
-        "at_2_2x": {
-          "sell": 1.62,
-          "fee": 0.12,
-          "profit": -6.18,
-          "margin_pct": -381.0
-        },
-        "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 8.16,
-          "margin_pct": 47.7
-        },
-        "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 13.62,
-          "margin_pct": 59.2
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2621,11 +2535,11 @@
         "shipping_order_usd": 6.2,
         "tariff_usd": 0.22,
         "duty_mode": "ddp",
-        "landed_cost_usd": 7.67,
-        "landed_cost_ddu_usd": 7.89,
-        "landed_cost_ddp_usd": 7.67,
+        "landed_cost_usd": 7.68,
+        "landed_cost_ddu_usd": 7.9,
+        "landed_cost_ddp_usd": 7.68,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 8.28,
+        "breakeven_usd": 8.29,
         "at_2_2x": {
           "sell": 3.24,
           "fee": 0.24,
@@ -2633,16 +2547,16 @@
           "margin_pct": -144.0
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 8.16,
-          "margin_pct": 47.7
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 9.45,
+          "margin_pct": 51.1
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 13.63,
-          "margin_pct": 59.2
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 15.01,
+          "margin_pct": 61.3
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 13.0,
@@ -2650,15 +2564,101 @@
         "at_product_market": {
           "sell": 13.0,
           "fee": 0.96,
-          "profit": 4.37,
-          "margin_pct": 33.6
+          "profit": 4.36,
+          "margin_pct": 33.5
         }
+      },
+      {
+        "pd_no": "1049285",
+        "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 3000,
+        "weight_g_est": 46,
+        "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 2.21,
+        "shipping_unit_usd": 6.2,
+        "shipping_order_usd": 6.2,
+        "tariff_usd": 0.33,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 8.41,
+        "landed_cost_ddu_usd": 8.75,
+        "landed_cost_ddp_usd": 8.41,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 9.09,
+        "at_2_2x": {
+          "sell": 4.87,
+          "fee": 0.36,
+          "profit": -3.91,
+          "margin_pct": -80.3
+        },
+        "at_market_p25": {
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 8.72,
+          "margin_pct": 47.1
+        },
+        "at_market_median": {
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 14.27,
+          "margin_pct": 58.3
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.5,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1027327",
+        "name": "바세린 마스크팩 집중보습",
+        "bucket": "마스크팩",
+        "shopify_score": 89,
+        "price_krw": 1000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "weight_source": "estimated",
+        "weigh_needed": true,
+        "unit_cost_usd": 0.74,
+        "shipping_unit_usd": 6.95,
+        "shipping_order_usd": 6.95,
+        "tariff_usd": 0.11,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 7.68,
+        "landed_cost_ddu_usd": 7.79,
+        "landed_cost_ddp_usd": 7.68,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 8.3,
+        "at_2_2x": {
+          "sell": 1.62,
+          "fee": 0.12,
+          "profit": -6.18,
+          "margin_pct": -381.0
+        },
+        "at_market_p25": {
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 9.45,
+          "margin_pct": 51.1
+        },
+        "at_market_median": {
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 15.0,
+          "margin_pct": 61.2
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.5,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1042619",
         "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
         "bucket": "마스크팩",
-        "shopify_score": 88,
+        "shopify_score": 85,
         "price_krw": 1000,
         "weight_g_est": 86,
         "weight_note": "고시 용량 29g x 1.6(용기) + 40g(포장)",
@@ -2669,28 +2669,28 @@
         "shipping_order_usd": 6.2,
         "tariff_usd": 0.11,
         "duty_mode": "ddp",
-        "landed_cost_usd": 6.93,
-        "landed_cost_ddu_usd": 7.04,
-        "landed_cost_ddp_usd": 6.93,
+        "landed_cost_usd": 6.94,
+        "landed_cost_ddu_usd": 7.05,
+        "landed_cost_ddp_usd": 6.94,
         "customer_pays_duty_at_checkout": true,
         "breakeven_usd": 7.49,
         "at_2_2x": {
           "sell": 1.62,
           "fee": 0.12,
-          "profit": -5.43,
+          "profit": -5.44,
           "margin_pct": -335.1
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 8.9,
-          "margin_pct": 52.0
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 10.19,
+          "margin_pct": 55.1
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 14.36,
-          "margin_pct": 62.5
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 15.75,
+          "margin_pct": 64.3
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 12.99,
@@ -2720,30 +2720,30 @@
         "tariff_usd": 0.33,
         "duty_mode": "ddp",
         "landed_cost_usd": 5.31,
-        "landed_cost_ddu_usd": 5.64,
+        "landed_cost_ddu_usd": 5.65,
         "landed_cost_ddp_usd": 5.31,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 5.73,
+        "breakeven_usd": 5.74,
         "at_2_2x": {
-          "sell": 4.86,
+          "sell": 4.87,
           "fee": 0.36,
           "profit": -0.81,
           "margin_pct": -16.6
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 10.53,
-          "margin_pct": 61.6
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 11.82,
+          "margin_pct": 63.9
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 15.99,
-          "margin_pct": 69.5
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 17.37,
+          "margin_pct": 70.9
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2757,9 +2757,9 @@
         "weight_note": "고시 용량 30ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 3.68,
+        "unit_cost_usd": 3.69,
         "shipping_unit_usd": 3.47,
-        "shipping_order_usd": 6.94,
+        "shipping_order_usd": 6.95,
         "tariff_usd": 0.55,
         "duty_mode": "ddp",
         "landed_cost_usd": 7.16,
@@ -2774,16 +2774,16 @@
           "margin_pct": 4.3
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 8.68,
-          "margin_pct": 50.8
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 9.97,
+          "margin_pct": 53.9
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 14.14,
-          "margin_pct": 61.5
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 15.53,
+          "margin_pct": 63.4
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 37.53,
@@ -2791,7 +2791,7 @@
         "at_product_market": {
           "sell": 37.53,
           "fee": 2.78,
-          "profit": 27.6,
+          "profit": 27.59,
           "margin_pct": 73.5
         }
       },
@@ -2811,27 +2811,27 @@
         "tariff_usd": 0.33,
         "duty_mode": "ddp",
         "landed_cost_usd": 5.31,
-        "landed_cost_ddu_usd": 5.64,
+        "landed_cost_ddu_usd": 5.65,
         "landed_cost_ddp_usd": 5.31,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 5.73,
+        "breakeven_usd": 5.74,
         "at_2_2x": {
-          "sell": 4.86,
+          "sell": 4.87,
           "fee": 0.36,
           "profit": -0.81,
           "margin_pct": -16.6
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 10.53,
-          "margin_pct": 61.6
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 11.82,
+          "margin_pct": 63.9
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 15.99,
-          "margin_pct": 69.5
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 17.37,
+          "margin_pct": 70.9
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 14.84,
@@ -2853,13 +2853,13 @@
         "weight_note": "고시 용량 50ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 3.68,
-        "shipping_unit_usd": 3.84,
+        "unit_cost_usd": 3.69,
+        "shipping_unit_usd": 3.85,
         "shipping_order_usd": 7.69,
         "tariff_usd": 0.55,
         "duty_mode": "ddp",
         "landed_cost_usd": 7.53,
-        "landed_cost_ddu_usd": 8.08,
+        "landed_cost_ddu_usd": 8.09,
         "landed_cost_ddp_usd": 7.53,
         "customer_pays_duty_at_checkout": true,
         "breakeven_usd": 8.13,
@@ -2870,16 +2870,16 @@
           "margin_pct": -0.3
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 8.31,
-          "margin_pct": 48.6
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 9.6,
+          "margin_pct": 51.9
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 13.77,
-          "margin_pct": 59.9
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 15.15,
+          "margin_pct": 61.9
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 23.0,
@@ -2888,7 +2888,7 @@
           "sell": 23.0,
           "fee": 1.7,
           "profit": 13.77,
-          "margin_pct": 59.9
+          "margin_pct": 59.8
         }
       },
       {
@@ -2901,16 +2901,16 @@
         "weight_note": "고시 용량 100ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 3.68,
+        "unit_cost_usd": 3.69,
         "shipping_unit_usd": 4.22,
-        "shipping_order_usd": 8.43,
+        "shipping_order_usd": 8.44,
         "tariff_usd": 0.55,
         "duty_mode": "ddp",
-        "landed_cost_usd": 7.9,
-        "landed_cost_ddu_usd": 8.45,
-        "landed_cost_ddp_usd": 7.9,
+        "landed_cost_usd": 7.91,
+        "landed_cost_ddu_usd": 8.46,
+        "landed_cost_ddp_usd": 7.91,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 8.53,
+        "breakeven_usd": 8.54,
         "at_2_2x": {
           "sell": 8.11,
           "fee": 0.6,
@@ -2918,16 +2918,16 @@
           "margin_pct": -4.9
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 7.94,
-          "margin_pct": 46.4
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 9.23,
+          "margin_pct": 49.9
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 13.4,
-          "margin_pct": 58.3
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 14.78,
+          "margin_pct": 60.3
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 19.94,
@@ -2951,12 +2951,12 @@
         "weigh_needed": false,
         "unit_cost_usd": 1.47,
         "shipping_unit_usd": 3.47,
-        "shipping_order_usd": 6.94,
+        "shipping_order_usd": 6.95,
         "tariff_usd": 0.22,
         "duty_mode": "ddp",
-        "landed_cost_usd": 4.94,
+        "landed_cost_usd": 4.95,
         "landed_cost_ddu_usd": 5.17,
-        "landed_cost_ddp_usd": 4.94,
+        "landed_cost_ddp_usd": 4.95,
         "customer_pays_duty_at_checkout": true,
         "breakeven_usd": 5.34,
         "at_2_2x": {
@@ -2966,105 +2966,19 @@
           "margin_pct": -59.9
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 10.89,
-          "margin_pct": 63.7
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 12.18,
+          "margin_pct": 65.9
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 16.35,
-          "margin_pct": 71.1
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 17.74,
+          "margin_pct": 72.4
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1049285",
-        "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-        "bucket": "스킨케어",
-        "shopify_score": 93,
-        "price_krw": 3000,
-        "weight_g_est": 46,
-        "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 2.21,
-        "shipping_unit_usd": 3.1,
-        "shipping_order_usd": 6.2,
-        "tariff_usd": 0.33,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 5.31,
-        "landed_cost_ddu_usd": 5.64,
-        "landed_cost_ddp_usd": 5.31,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 5.73,
-        "at_2_2x": {
-          "sell": 4.86,
-          "fee": 0.36,
-          "profit": -0.81,
-          "margin_pct": -16.6
-        },
-        "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 10.53,
-          "margin_pct": 61.6
-        },
-        "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 15.99,
-          "margin_pct": 69.5
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.0,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1027327",
-        "name": "바세린 마스크팩 집중보습",
-        "bucket": "마스크팩",
-        "shopify_score": 91,
-        "price_krw": 1000,
-        "weight_g_est": 190,
-        "weight_note": "용량 표기 없음 - 150g 가정",
-        "weight_source": "estimated",
-        "weigh_needed": true,
-        "unit_cost_usd": 0.74,
-        "shipping_unit_usd": 4.22,
-        "shipping_order_usd": 8.43,
-        "tariff_usd": 0.11,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 4.95,
-        "landed_cost_ddu_usd": 5.06,
-        "landed_cost_ddp_usd": 4.95,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 5.35,
-        "at_2_2x": {
-          "sell": 1.62,
-          "fee": 0.12,
-          "profit": -3.45,
-          "margin_pct": -212.9
-        },
-        "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 10.88,
-          "margin_pct": 63.6
-        },
-        "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 16.35,
-          "margin_pct": 71.1
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 23.0,
+        "market_median_usd": 24.5,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -3080,12 +2994,12 @@
         "weigh_needed": true,
         "unit_cost_usd": 1.47,
         "shipping_unit_usd": 3.47,
-        "shipping_order_usd": 6.94,
+        "shipping_order_usd": 6.95,
         "tariff_usd": 0.22,
         "duty_mode": "ddp",
-        "landed_cost_usd": 4.94,
+        "landed_cost_usd": 4.95,
         "landed_cost_ddu_usd": 5.17,
-        "landed_cost_ddp_usd": 4.94,
+        "landed_cost_ddp_usd": 4.95,
         "customer_pays_duty_at_checkout": true,
         "breakeven_usd": 5.34,
         "at_2_2x": {
@@ -3095,16 +3009,16 @@
           "margin_pct": -59.9
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 10.89,
-          "margin_pct": 63.7
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 12.18,
+          "margin_pct": 65.9
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 16.35,
-          "margin_pct": 71.1
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 17.74,
+          "margin_pct": 72.4
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 13.0,
@@ -3113,14 +3027,100 @@
           "sell": 13.0,
           "fee": 0.96,
           "profit": 7.09,
-          "margin_pct": 54.6
+          "margin_pct": 54.5
         }
+      },
+      {
+        "pd_no": "1049285",
+        "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
+        "bucket": "스킨케어",
+        "shopify_score": 89,
+        "price_krw": 3000,
+        "weight_g_est": 46,
+        "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 2.21,
+        "shipping_unit_usd": 3.1,
+        "shipping_order_usd": 6.2,
+        "tariff_usd": 0.33,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 5.31,
+        "landed_cost_ddu_usd": 5.65,
+        "landed_cost_ddp_usd": 5.31,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 5.74,
+        "at_2_2x": {
+          "sell": 4.87,
+          "fee": 0.36,
+          "profit": -0.81,
+          "margin_pct": -16.6
+        },
+        "at_market_p25": {
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 11.82,
+          "margin_pct": 63.9
+        },
+        "at_market_median": {
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 17.37,
+          "margin_pct": 70.9
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.5,
+        "market_sample_n": 100,
+        "at_product_market": null
+      },
+      {
+        "pd_no": "1027327",
+        "name": "바세린 마스크팩 집중보습",
+        "bucket": "마스크팩",
+        "shopify_score": 89,
+        "price_krw": 1000,
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
+        "weight_source": "estimated",
+        "weigh_needed": true,
+        "unit_cost_usd": 0.74,
+        "shipping_unit_usd": 4.22,
+        "shipping_order_usd": 8.44,
+        "tariff_usd": 0.11,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 4.96,
+        "landed_cost_ddu_usd": 5.07,
+        "landed_cost_ddp_usd": 4.96,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 5.35,
+        "at_2_2x": {
+          "sell": 1.62,
+          "fee": 0.12,
+          "profit": -3.45,
+          "margin_pct": -212.9
+        },
+        "at_market_p25": {
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 12.18,
+          "margin_pct": 65.8
+        },
+        "at_market_median": {
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 17.73,
+          "margin_pct": 72.4
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 24.5,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1042619",
         "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
         "bucket": "마스크팩",
-        "shopify_score": 88,
+        "shopify_score": 85,
         "price_krw": 1000,
         "weight_g_est": 86,
         "weight_note": "고시 용량 29g x 1.6(용기) + 40g(포장)",
@@ -3128,14 +3128,14 @@
         "weigh_needed": true,
         "unit_cost_usd": 0.74,
         "shipping_unit_usd": 3.47,
-        "shipping_order_usd": 6.94,
+        "shipping_order_usd": 6.95,
         "tariff_usd": 0.11,
         "duty_mode": "ddp",
         "landed_cost_usd": 4.21,
         "landed_cost_ddu_usd": 4.32,
         "landed_cost_ddp_usd": 4.21,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 4.54,
+        "breakeven_usd": 4.55,
         "at_2_2x": {
           "sell": 1.62,
           "fee": 0.12,
@@ -3143,16 +3143,16 @@
           "margin_pct": -166.9
         },
         "at_market_p25": {
-          "sell": 17.1,
-          "fee": 1.27,
-          "profit": 11.63,
-          "margin_pct": 68.0
+          "sell": 18.5,
+          "fee": 1.37,
+          "profit": 12.92,
+          "margin_pct": 69.8
         },
         "at_market_median": {
-          "sell": 23.0,
-          "fee": 1.7,
-          "profit": 17.09,
-          "margin_pct": 74.3
+          "sell": 24.5,
+          "fee": 1.81,
+          "profit": 18.48,
+          "margin_pct": 75.4
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 12.99,

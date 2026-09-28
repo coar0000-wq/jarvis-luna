@@ -2,7 +2,7 @@
 title: "Record cad4e4d334 · CryoGlow-Red-Blue--Infrared-iQLED-Face-Mask--Under-Eye-Cooling"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T05:26:56.566383+00:00
+updated_at: 2026-09-28T09:47:22.976440+00:00
 tags: [record, real-data]
 ---
 

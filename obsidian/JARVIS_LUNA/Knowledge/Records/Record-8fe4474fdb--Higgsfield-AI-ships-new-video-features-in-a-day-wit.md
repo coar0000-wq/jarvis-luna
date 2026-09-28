@@ -2,7 +2,7 @@
 title: "Record 8fe4474fdb · Higgsfield-AI-ships-new-video-features-in-a-day-with-GPT-6-Astra"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T05:26:56.156079+00:00
+updated_at: 2026-09-28T09:47:22.574480+00:00
 tags: [record, real-data]
 ---
 

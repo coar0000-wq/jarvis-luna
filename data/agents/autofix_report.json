@@ -1,12 +1,12 @@
 {
   "agent": "Safe-Auto-Fix",
-  "generated_at": "2026-09-27T14:57:33.827324+00:00",
+  "generated_at": "2026-09-28T09:46:53.454634+00:00",
   "status": "success",
   "enabled": true,
   "chief_of_staff": {
     "report_path": "data/agents/chief_of_staff.json",
-    "overall_priority": "P3",
-    "overall_action": "TEAM_ACTION_MARKET",
+    "overall_priority": "P4",
+    "overall_action": "TRACK_EXTERNAL_SOURCE_ERRORS",
     "risk": "low"
   },
   "snapshot_before": {
@@ -30,16 +30,16 @@
       ]
     },
     "graph": {
-      "nodes": 82783,
-      "links": 339573,
+      "nodes": 82874,
+      "links": 340536,
       "dangling_generated": 0,
-      "runtime_nodes": 82783,
-      "runtime_links": 339573,
+      "runtime_nodes": 82874,
+      "runtime_links": 340536,
       "runtime_dangling_generated": 0,
       "truth_guard": {
         "vault": "obsidian/JARVIS_LUNA",
-        "actual_nodes": 82783,
-        "actual_links": 339573,
+        "actual_nodes": 82874,
+        "actual_links": 340536,
         "actual_dangling_generated": 0,
         "actual_dangling_personal": 21,
         "generated_dangling_samples": [],
@@ -127,8 +127,8 @@
         ],
         "generated_dangling_sample_source_count": 0,
         "personal_dangling_sample_source_count": 8,
-        "runtime_nodes": 82783,
-        "runtime_links": 339573,
+        "runtime_nodes": 82874,
+        "runtime_links": 340536,
         "runtime_dangling_generated": 0,
         "runtime_consistent": true,
         "anomaly": false,
@@ -143,21 +143,15 @@
     },
     "dashboard_issues": [
       {
-        "team": "market",
-        "kind": "auto_remediable",
-        "text": "고시 표 1건 판독 남음 (비전 판독 상태 ok) — 1027327 바세린 마스크팩 집중보습 https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027327",
-        "source": "action"
-      },
-      {
         "team": "listing",
         "kind": "human_approval_required",
-        "text": "카피 1건, 고시 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 8건 사람 승인 대기",
+        "text": "카피 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 8건 사람 승인 대기",
         "source": "waiting"
       },
       {
         "team": "legal",
         "kind": "human_approval_required",
-        "text": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 4종(경북, 테트라데칸에이트, 피이지-20글리세릴-12) — data/manual/inci_overrides.json 확인 대기",
+        "text": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
         "source": "waiting"
       },
       {
@@ -169,7 +163,7 @@
     ],
     "source_errors": {
       "broken": 5,
-      "generated_at": "2026-09-27T14:57:21.258664+00:00",
+      "generated_at": "2026-09-28T09:46:40.680630+00:00",
       "items": [
         {
           "team": "기관 수집팀",
@@ -220,16 +214,16 @@
       ]
     },
     "graph": {
-      "nodes": 82783,
-      "links": 339573,
+      "nodes": 82874,
+      "links": 340536,
       "dangling_generated": 0,
-      "runtime_nodes": 82783,
-      "runtime_links": 339573,
+      "runtime_nodes": 82874,
+      "runtime_links": 340536,
       "runtime_dangling_generated": 0,
       "truth_guard": {
         "vault": "obsidian/JARVIS_LUNA",
-        "actual_nodes": 82783,
-        "actual_links": 339573,
+        "actual_nodes": 82874,
+        "actual_links": 340536,
         "actual_dangling_generated": 0,
         "actual_dangling_personal": 21,
         "generated_dangling_samples": [],
@@ -317,8 +311,8 @@
         ],
         "generated_dangling_sample_source_count": 0,
         "personal_dangling_sample_source_count": 8,
-        "runtime_nodes": 82783,
-        "runtime_links": 339573,
+        "runtime_nodes": 82874,
+        "runtime_links": 340536,
         "runtime_dangling_generated": 0,
         "runtime_consistent": true,
         "anomaly": false,
@@ -333,21 +327,15 @@
     },
     "dashboard_issues": [
       {
-        "team": "market",
-        "kind": "auto_remediable",
-        "text": "고시 표 1건 판독 남음 (비전 판독 상태 ok) — 1027327 바세린 마스크팩 집중보습 https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027327",
-        "source": "action"
-      },
-      {
         "team": "listing",
         "kind": "human_approval_required",
-        "text": "카피 1건, 고시 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 8건 사람 승인 대기",
+        "text": "카피 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 8건 사람 승인 대기",
         "source": "waiting"
       },
       {
         "team": "legal",
         "kind": "human_approval_required",
-        "text": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 4종(경북, 테트라데칸에이트, 피이지-20글리세릴-12) — data/manual/inci_overrides.json 확인 대기",
+        "text": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
         "source": "waiting"
       },
       {
@@ -359,7 +347,7 @@
     ],
     "source_errors": {
       "broken": 5,
-      "generated_at": "2026-09-27T14:57:21.258664+00:00",
+      "generated_at": "2026-09-28T09:46:40.680630+00:00",
       "items": [
         {
           "team": "기관 수집팀",
@@ -392,10 +380,10 @@
   "improvement": {
     "graph_dangling_before": 0,
     "graph_dangling_after": 0,
-    "graph_nodes_before": 82783,
-    "graph_nodes_after": 82783,
-    "graph_links_before": 339573,
-    "graph_links_after": 339573,
+    "graph_nodes_before": 82874,
+    "graph_nodes_after": 82874,
+    "graph_links_before": 340536,
+    "graph_links_after": 340536,
     "parse_failed_before": 0,
     "parse_failed_after": 0,
     "s_count_before": 10,
@@ -404,8 +392,8 @@
     "channels_live_after": 11,
     "obsidian_truth_before": {
       "vault": "obsidian/JARVIS_LUNA",
-      "actual_nodes": 82783,
-      "actual_links": 339573,
+      "actual_nodes": 82874,
+      "actual_links": 340536,
       "actual_dangling_generated": 0,
       "actual_dangling_personal": 21,
       "generated_dangling_samples": [],
@@ -493,8 +481,8 @@
       ],
       "generated_dangling_sample_source_count": 0,
       "personal_dangling_sample_source_count": 8,
-      "runtime_nodes": 82783,
-      "runtime_links": 339573,
+      "runtime_nodes": 82874,
+      "runtime_links": 340536,
       "runtime_dangling_generated": 0,
       "runtime_consistent": true,
       "anomaly": false,
@@ -502,8 +490,8 @@
     },
     "obsidian_truth_after": {
       "vault": "obsidian/JARVIS_LUNA",
-      "actual_nodes": 82783,
-      "actual_links": 339573,
+      "actual_nodes": 82874,
+      "actual_links": 340536,
       "actual_dangling_generated": 0,
       "actual_dangling_personal": 21,
       "generated_dangling_samples": [],
@@ -591,8 +579,8 @@
       ],
       "generated_dangling_sample_source_count": 0,
       "personal_dangling_sample_source_count": 8,
-      "runtime_nodes": 82783,
-      "runtime_links": 339573,
+      "runtime_nodes": 82874,
+      "runtime_links": 340536,
       "runtime_dangling_generated": 0,
       "runtime_consistent": true,
       "anomaly": false,
@@ -601,10 +589,10 @@
   },
   "remediation_state": {
     "schema_version": 1,
-    "generated_at": "2026-09-27T14:57:33.826917+00:00",
+    "generated_at": "2026-09-28T09:46:53.454204+00:00",
     "check_interval": "2_hours",
     "escalate_after_detected_runs": 3,
-    "active_count": 5,
+    "active_count": 4,
     "auto_remediable_count": 0,
     "waiting_human_count": 2,
     "waiting_external_count": 2,
@@ -616,10 +604,10 @@
         "priority": "P4",
         "classification": "human_approval_required",
         "state": "waiting_human_approval",
-        "reason": "카피 1건, 고시 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 8건 사람 승인 대기",
+        "reason": "카피 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 8건 사람 승인 대기",
         "first_seen_at": "2026-09-21T10:13:44.774659+00:00",
-        "last_seen_at": "2026-09-27T14:57:33.826917+00:00",
-        "detected_runs": 4,
+        "last_seen_at": "2026-09-28T09:46:53.454204+00:00",
+        "detected_runs": 5,
         "auto_attempts": 0,
         "resolved_at": null
       },
@@ -630,10 +618,10 @@
         "priority": "P4",
         "classification": "human_approval_required",
         "state": "waiting_human_approval",
-        "reason": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 4종(경북, 테트라데칸에이트, 피이지-20글리세릴-12) — data/manual/inci_overrides.json 확인 대기",
+        "reason": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
         "first_seen_at": "2026-09-21T10:13:44.774659+00:00",
-        "last_seen_at": "2026-09-27T14:57:33.826917+00:00",
-        "detected_runs": 4,
+        "last_seen_at": "2026-09-28T09:46:53.454204+00:00",
+        "detected_runs": 5,
         "auto_attempts": 0,
         "resolved_at": null
       },
@@ -646,8 +634,8 @@
         "state": "waiting_external_dependency",
         "reason": "다음 단계: Shopify 스토어 개설 및 기본 설정",
         "first_seen_at": "2026-09-21T10:13:44.774659+00:00",
-        "last_seen_at": "2026-09-27T14:57:33.826917+00:00",
-        "detected_runs": 4,
+        "last_seen_at": "2026-09-28T09:46:53.454204+00:00",
+        "detected_runs": 5,
         "auto_attempts": 0,
         "resolved_at": null
       },
@@ -660,8 +648,8 @@
         "state": "waiting_external_dependency",
         "reason": "외부 소스 고장 5건 추적 중 (기관 수집팀:Deutsche Bank 사이트, 기관 수집팀:TSMC 뉴스룸, 기관 수집팀:Marvell·Intel·Qualcomm·ASML IR RSS, 채널 운영팀:FDA 화장품 리콜·조치 이력)",
         "first_seen_at": "2026-09-21T10:24:44.825768+00:00",
-        "last_seen_at": "2026-09-27T14:57:33.826917+00:00",
-        "detected_runs": 2,
+        "last_seen_at": "2026-09-28T09:46:53.454204+00:00",
+        "detected_runs": 3,
         "auto_attempts": 0,
         "resolved_at": null
       },
@@ -671,13 +659,13 @@
         "action": "TEAM_ACTION_MARKET",
         "priority": "P3",
         "classification": "revalidate_only",
-        "state": "monitoring",
+        "state": "resolved",
         "reason": "고시 표 1건 판독 남음 (비전 판독 상태 ok) — 1027327 바세린 마스크팩 집중보습 https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027327",
         "first_seen_at": "2026-09-27T14:57:33.826917+00:00",
         "last_seen_at": "2026-09-27T14:57:33.826917+00:00",
         "detected_runs": 1,
         "auto_attempts": 0,
-        "resolved_at": null
+        "resolved_at": "2026-09-28T09:46:53.454204+00:00"
       }
     }
   },

@@ -2,7 +2,7 @@
 title: "Record e339d94481 · Adaptive-Parallel-in-Time-Integration-with-Dynamic-Resource-Management"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T05:26:55.232084+00:00
+updated_at: 2026-09-28T09:47:21.658295+00:00
 tags: [record, real-data]
 ---
 

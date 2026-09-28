@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T14:47:41.305151+00:00",
+  "generated_at": "2026-09-28T09:34:37.843280+00:00",
   "generator": "scripts/ingest_youtube_channels.py",
   "입력": "data/manual/youtube_channels.txt",
   "robots": "youtube.com/robots.txt 의 Disallow 목록에 /@ 와 /channel/ 은 없다. 막힌 것은 /feeds/videos.xml, /results, /youtubei/ 등이다. 지정된 채널만 하나씩 본다. 2026-09-06 확인.",
@@ -46,9 +46,9 @@
     {
       "video_id": "6lSvKk7lTl0",
       "title": "Horizontal and Vertical Scroll in Figma - Quick Prototyping Tutorial",
-      "views_text": "777K",
+      "views_text": "778K",
       "published_text": "3y ago",
-      "views": 777000,
+      "views": 778000,
       "url": "https://www.youtube.com/watch?v=6lSvKk7lTl0",
       "channel": "uxpeak",
       "teams": [
@@ -70,9 +70,9 @@
     {
       "video_id": "2TlIg3VokY8",
       "title": "The UX Psychology Behind Apps People Can’t Stop Using",
-      "views_text": "537K",
+      "views_text": "540K",
       "published_text": "2mo ago",
-      "views": 537000,
+      "views": 540000,
       "url": "https://www.youtube.com/watch?v=2TlIg3VokY8",
       "channel": "uxpeak",
       "teams": [
@@ -93,10 +93,10 @@
     },
     {
       "video_id": "GGg61sdEjeI",
-      "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
-      "views_text": "381K",
+      "title": "This UI/UX Redesign Will Teach You More Than Figma 100 Tutorials Combined",
+      "views_text": "386K",
       "published_text": "1mo ago",
-      "views": 381000,
+      "views": 386000,
       "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
       "channel": "uxpeak",
       "teams": [
@@ -166,9 +166,9 @@
     {
       "video_id": "wLJ40GV2XEc",
       "title": "Top UI/UX Design Tips - How to Design a Great Bottom Mobile Navigation Bar",
-      "views_text": "215K",
+      "views_text": "216K",
       "published_text": "1y ago",
-      "views": 215000,
+      "views": 216000,
       "url": "https://www.youtube.com/watch?v=wLJ40GV2XEc",
       "channel": "uxpeak",
       "teams": [
@@ -203,7 +203,7 @@
   "items": [
     {
       "stale": false,
-      "last_ok_at": "2026-09-27T14:47:20.171145+00:00",
+      "last_ok_at": "2026-09-28T09:34:16.824610+00:00",
       "url": "https://www.youtube.com/@uxpeak",
       "note": "UX/UI 리디자인·전환율 (사용자 지정)",
       "team_hint": "design",
@@ -212,14 +212,14 @@
       "subscribers": "128K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-27T14:47:20.171167+00:00",
+      "checked_at": "2026-09-28T09:34:16.824634+00:00",
       "videos": [
         {
           "video_id": "GGg61sdEjeI",
-          "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
-          "views_text": "381K",
+          "title": "This UI/UX Redesign Will Teach You More Than Figma 100 Tutorials Combined",
+          "views_text": "386K",
           "published_text": "1mo ago",
-          "views": 381000,
+          "views": 386000,
           "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
           "channel": "uxpeak",
           "teams": [
@@ -229,9 +229,9 @@
         {
           "video_id": "2TlIg3VokY8",
           "title": "The UX Psychology Behind Apps People Can’t Stop Using",
-          "views_text": "537K",
+          "views_text": "540K",
           "published_text": "2mo ago",
-          "views": 537000,
+          "views": 540000,
           "url": "https://www.youtube.com/watch?v=2TlIg3VokY8",
           "channel": "uxpeak",
           "teams": [
@@ -265,9 +265,9 @@
         {
           "video_id": "_kUq8p94NnU",
           "title": "3D Animated Hamburger Website Figma Tutorial  Smart Animate Scroll Effect",
-          "views_text": "20K",
+          "views_text": "21K",
           "published_text": "1y ago",
-          "views": 20000,
+          "views": 21000,
           "url": "https://www.youtube.com/watch?v=_kUq8p94NnU",
           "channel": "uxpeak",
           "teams": [
@@ -289,9 +289,9 @@
         {
           "video_id": "wLJ40GV2XEc",
           "title": "Top UI/UX Design Tips - How to Design a Great Bottom Mobile Navigation Bar",
-          "views_text": "215K",
+          "views_text": "216K",
           "published_text": "1y ago",
-          "views": 215000,
+          "views": 216000,
           "url": "https://www.youtube.com/watch?v=wLJ40GV2XEc",
           "channel": "uxpeak",
           "teams": [
@@ -409,9 +409,9 @@
         {
           "video_id": "J6DjxHXXZGw",
           "title": "3D Interactive Animation With a Rotating Effect - Figma Prototyping Tutorial",
-          "views_text": "171K",
+          "views_text": "172K",
           "published_text": "3y ago",
-          "views": 171000,
+          "views": 172000,
           "url": "https://www.youtube.com/watch?v=J6DjxHXXZGw",
           "channel": "uxpeak",
           "teams": [
@@ -445,9 +445,9 @@
         {
           "video_id": "6lSvKk7lTl0",
           "title": "Horizontal and Vertical Scroll in Figma - Quick Prototyping Tutorial",
-          "views_text": "777K",
+          "views_text": "778K",
           "published_text": "3y ago",
-          "views": 777000,
+          "views": 778000,
           "url": "https://www.youtube.com/watch?v=6lSvKk7lTl0",
           "channel": "uxpeak",
           "teams": [
@@ -470,7 +470,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-27T14:47:25.477965+00:00",
+      "last_ok_at": "2026-09-28T09:34:22.136180+00:00",
       "url": "https://www.youtube.com/@%EB%95%A1%ED%81%90%EC%B1%84%EB%84%90",
       "note": "땡스큐레이터 - 스몰 브랜드 브랜딩·수출·견적. 팀은 영상마다 자동 분류",
       "team_hint": "",
@@ -479,7 +479,7 @@
       "subscribers": "19.6K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-27T14:47:25.477981+00:00",
+      "checked_at": "2026-09-28T09:34:22.136197+00:00",
       "videos": [
         {
           "video_id": "hikTGKo2kZE",
@@ -496,9 +496,9 @@
         {
           "video_id": "CSr4DYGUPOM",
           "title": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
-          "views_text": "96K",
+          "views_text": "97K",
           "published_text": "3w ago",
-          "views": 96000,
+          "views": 97000,
           "url": "https://www.youtube.com/watch?v=CSr4DYGUPOM",
           "channel": "땡스큐레이터",
           "teams": [
@@ -657,9 +657,9 @@
         {
           "video_id": "4ru4xgZfDPA",
           "title": "VLOG 직장인 브이로그ㅣ 연남동 퇴근길😍 콤콤오락실,달링스푼,스튜디오그림비,오월상점,소이연남,동백양과점,소품샵,카페투어ㅣ퇴근길 브이로그❤️",
-          "views_text": "586",
+          "views_text": "587",
           "published_text": "6y ago",
-          "views": 586,
+          "views": 587,
           "url": "https://www.youtube.com/watch?v=4ru4xgZfDPA",
           "channel": "땡스큐레이터",
           "teams": [
@@ -717,9 +717,9 @@
         {
           "video_id": "aIG5u5xJs6g",
           "title": "해외구매 아이폰 장점 / 아이폰 11 Pro 512GB 미드나잇 그린ㅣ굳이 미국에서 구매한 K의 하울!  영롱한 자태. 실물 감상 [땡큐]",
-          "views_text": "676",
+          "views_text": "677",
           "published_text": "6y ago",
-          "views": 676,
+          "views": 677,
           "url": "https://www.youtube.com/watch?v=aIG5u5xJs6g",
           "channel": "땡스큐레이터",
           "teams": [
@@ -742,7 +742,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-27T14:47:30.867480+00:00",
+      "last_ok_at": "2026-09-28T09:34:27.480202+00:00",
       "url": "https://www.youtube.com/@learnwithshopify",
       "note": "Shopify 공식 - 마케팅·전환·스토어 운영",
       "team_hint": "market,listing,design",
@@ -751,14 +751,14 @@
       "subscribers": "909K",
       "video_count": 30,
       "error": "",
-      "checked_at": "2026-09-27T14:47:30.867496+00:00",
+      "checked_at": "2026-09-28T09:34:27.480218+00:00",
       "videos": [
         {
           "video_id": "nIOn_726Rxk",
           "title": "How to Use TikTok to Drive Shopify Sales",
-          "views_text": "5.2K",
-          "published_text": "2d ago",
-          "views": 5200,
+          "views_text": "5.6K",
+          "published_text": "3d ago",
+          "views": 5600,
           "url": "https://www.youtube.com/watch?v=nIOn_726Rxk",
           "channel": "Learn With Shopify",
           "teams": [
@@ -770,9 +770,9 @@
         {
           "video_id": "o0LdVO6XrqE",
           "title": "How to Start a Business From Scratch With NO MONEY",
-          "views_text": "7.6K",
+          "views_text": "7.8K",
           "published_text": "6d ago",
-          "views": 7600,
+          "views": 7800,
           "url": "https://www.youtube.com/watch?v=o0LdVO6XrqE",
           "channel": "Learn With Shopify",
           "teams": [
@@ -784,9 +784,9 @@
         {
           "video_id": "-jLkh1-vxg8",
           "title": "The COMPLETE Meta AI Tutorial",
-          "views_text": "8.9K",
-          "published_text": "12d ago",
-          "views": 8900,
+          "views_text": "9K",
+          "published_text": "13d ago",
+          "views": 9000,
           "url": "https://www.youtube.com/watch?v=-jLkh1-vxg8",
           "channel": "Learn With Shopify",
           "teams": [
@@ -812,9 +812,9 @@
         {
           "video_id": "vdUtt0qZ4W4",
           "title": "How to Build a Shopify Store Using Only Your PHONE",
-          "views_text": "10K",
+          "views_text": "11K",
           "published_text": "2w ago",
-          "views": 10000,
+          "views": 11000,
           "url": "https://www.youtube.com/watch?v=vdUtt0qZ4W4",
           "channel": "Learn With Shopify",
           "teams": [
@@ -840,9 +840,9 @@
         {
           "video_id": "IQDtl0Dacjo",
           "title": "How to Use Claude Cowork to Build and Run a Shopify Store",
-          "views_text": "33K",
+          "views_text": "34K",
           "published_text": "3w ago",
-          "views": 33000,
+          "views": 34000,
           "url": "https://www.youtube.com/watch?v=IQDtl0Dacjo",
           "channel": "Learn With Shopify",
           "teams": [
@@ -953,7 +953,7 @@
           "video_id": "yBAlSKfI9F8",
           "title": "Digital Marketing 101: 10 Strategies Every Shopify Store Needs (Marketing Masterclass Part 1)",
           "views_text": "9.3K",
-          "published_text": "1mo ago",
+          "published_text": "2mo ago",
           "views": 9300,
           "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
           "channel": "Learn With Shopify",
@@ -980,9 +980,9 @@
         {
           "video_id": "Ih5RapM8XKw",
           "title": "How to Use Claude to Build and Run a Shopify Store",
-          "views_text": "126K",
+          "views_text": "127K",
           "published_text": "2mo ago",
-          "views": 126000,
+          "views": 127000,
           "url": "https://www.youtube.com/watch?v=Ih5RapM8XKw",
           "channel": "Learn With Shopify",
           "teams": [
@@ -1093,7 +1093,7 @@
           "video_id": "XGrvSwlmZo0",
           "title": "Google’s AI Changed How People Shop and Buy Online Forever. Here's How.",
           "views_text": "20K",
-          "published_text": "3mo ago",
+          "published_text": "4mo ago",
           "views": 20000,
           "url": "https://www.youtube.com/watch?v=XGrvSwlmZo0",
           "channel": "Learn With Shopify",
@@ -1148,9 +1148,9 @@
         {
           "video_id": "_1caEZ7t3UY",
           "title": "The COMPLETE Shopify Tutorial 2026",
-          "views_text": "73K",
-          "published_text": "4mo ago",
-          "views": 73000,
+          "views_text": "74K",
+          "published_text": "5mo ago",
+          "views": 74000,
           "url": "https://www.youtube.com/watch?v=_1caEZ7t3UY",
           "channel": "Learn With Shopify",
           "teams": [
@@ -1177,7 +1177,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-27T14:47:36.304840+00:00",
+      "last_ok_at": "2026-09-28T09:34:32.842955+00:00",
       "url": "https://www.youtube.com/@shopify",
       "note": "Shopify 본채널 - 브랜드 성장 사례",
       "team_hint": "market",
@@ -1186,7 +1186,7 @@
       "subscribers": "489K",
       "video_count": 30,
       "error": "",
-      "checked_at": "2026-09-27T14:47:36.304855+00:00",
+      "checked_at": "2026-09-28T09:34:32.842970+00:00",
       "videos": [
         {
           "video_id": "KsujQDvKdHk",
@@ -1335,9 +1335,9 @@
         {
           "video_id": "sqaxqH_GPFQ",
           "title": "Open-sourcing Shopify's Autoresearch contribution",
-          "views_text": "882",
+          "views_text": "883",
           "published_text": "5mo ago",
-          "views": 882,
+          "views": 883,
           "url": "https://www.youtube.com/watch?v=sqaxqH_GPFQ",
           "channel": "Shopify",
           "teams": [

@@ -2,7 +2,7 @@
 title: "Record cd03132bf5 · Genie-One-MCP-Give-any-AI-Agent-the-Right-Business-Context"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T05:26:56.433340+00:00
+updated_at: 2026-09-28T09:47:22.846421+00:00
 tags: [record, real-data]
 ---
 

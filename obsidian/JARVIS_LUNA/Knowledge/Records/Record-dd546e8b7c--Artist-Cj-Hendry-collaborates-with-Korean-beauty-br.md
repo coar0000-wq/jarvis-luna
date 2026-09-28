@@ -2,7 +2,7 @@
 title: "Record dd546e8b7c · Artist-Cj-Hendry-collaborates-with-Korean-beauty-brand-Sulwhasoo-on-Se"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T05:26:56.110190+00:00
+updated_at: 2026-09-28T09:47:22.529034+00:00
 tags: [record, real-data]
 ---
 

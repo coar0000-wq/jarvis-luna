@@ -2,7 +2,7 @@
 title: "Record 0f059b0341 · Us-Soccers-Jt-Batson-On-The-World-Cup-And-Scaling-The-Game"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T05:26:56.451404+00:00
+updated_at: 2026-09-28T09:47:22.862869+00:00
 tags: [record, real-data]
 ---
 

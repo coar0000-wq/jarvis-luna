@@ -2,7 +2,7 @@
 title: "Record 4a36ea7ba6 · OpenAI-expands-initiatives-to-support-journalism-fr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T05:26:56.168615+00:00
+updated_at: 2026-09-28T09:47:22.586698+00:00
 tags: [record, real-data]
 ---
 

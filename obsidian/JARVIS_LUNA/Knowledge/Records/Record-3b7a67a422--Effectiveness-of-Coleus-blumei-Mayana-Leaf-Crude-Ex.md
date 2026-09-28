@@ -2,7 +2,7 @@
 title: "Record 3b7a67a422 · Effectiveness-of-Coleus-blumei-Mayana-Leaf-Crude-Extract-as-an-Alterna"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T05:26:55.689612+00:00
+updated_at: 2026-09-28T09:47:22.107824+00:00
 tags: [record, real-data]
 ---
 

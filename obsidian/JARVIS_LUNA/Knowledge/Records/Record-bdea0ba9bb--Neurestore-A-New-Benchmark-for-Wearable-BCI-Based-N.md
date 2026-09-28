@@ -2,7 +2,7 @@
 title: "Record bdea0ba9bb · Neurestore-A-New-Benchmark-for-Wearable-BCI-Based-Neuromotor-Training-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T05:26:55.402437+00:00
+updated_at: 2026-09-28T09:47:21.825442+00:00
 tags: [record, real-data]
 ---
 

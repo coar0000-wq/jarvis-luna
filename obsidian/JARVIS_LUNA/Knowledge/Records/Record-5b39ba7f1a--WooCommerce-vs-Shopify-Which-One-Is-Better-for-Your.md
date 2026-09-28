@@ -2,7 +2,7 @@
 title: "Record 5b39ba7f1a · WooCommerce-vs-Shopify-Which-One-Is-Better-for-Your"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T05:26:55.846328+00:00
+updated_at: 2026-09-28T09:47:22.263958+00:00
 tags: [record, real-data]
 ---
 
