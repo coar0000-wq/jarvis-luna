@@ -2,7 +2,7 @@
 title: "Record 461333ec22 · Samsung-at-the-Forefront-of-Koreas-AI-RAN-Projects-with-KT-and-SK-Tele"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T09:47:22.540243+00:00
+updated_at: 2026-09-28T10:39:54.526479+00:00
 tags: [record, real-data]
 ---
 

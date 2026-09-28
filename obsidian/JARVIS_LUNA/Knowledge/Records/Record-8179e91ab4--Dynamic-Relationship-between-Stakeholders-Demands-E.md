@@ -2,7 +2,7 @@
 title: "Record 8179e91ab4 · Dynamic-Relationship-between-Stakeholders-Demands-Environmental-Accoun"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T09:47:21.912778+00:00
+updated_at: 2026-09-28T10:39:54.015249+00:00
 tags: [record, real-data]
 ---
 

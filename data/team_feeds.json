@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-28T09:34:44.572317+00:00",
+  "generated_at": "2026-09-28T10:32:27.278634+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
-  "pool_size": 2362,
+  "pool_size": 2321,
   "제목없어_버림": 38,
   "unrouted": 9,
   "summary": {
@@ -15,10 +15,10 @@
       "products": 344
     },
     "market": {
-      "total": 558,
-      "recent": 52,
-      "material": 558,
-      "material_recent": 52,
+      "total": 560,
+      "recent": 51,
+      "material": 560,
+      "material_recent": 51,
       "products": 0
     },
     "listing": {
@@ -29,24 +29,24 @@
       "products": 0
     },
     "pricing": {
-      "total": 30,
-      "recent": 17,
-      "material": 30,
-      "material_recent": 17,
+      "total": 26,
+      "recent": 13,
+      "material": 26,
+      "material_recent": 13,
       "products": 0
     },
     "legal": {
-      "total": 153,
+      "total": 154,
       "recent": 26,
-      "material": 153,
+      "material": 154,
       "material_recent": 26,
       "products": 0
     },
     "design": {
-      "total": 409,
-      "recent": 106,
-      "material": 409,
-      "material_recent": 106,
+      "total": 411,
+      "recent": 110,
+      "material": 411,
+      "material_recent": 110,
       "products": 0
     },
     "robotics": {
@@ -57,17 +57,17 @@
       "products": 0
     },
     "knowledge": {
-      "total": 190,
-      "recent": 89,
-      "material": 190,
-      "material_recent": 89,
+      "total": 193,
+      "recent": 91,
+      "material": 193,
+      "material_recent": 91,
       "products": 0
     },
     "institutions": {
-      "total": 1053,
-      "recent": 217,
-      "material": 1053,
-      "material_recent": 217,
+      "total": 1012,
+      "recent": 221,
+      "material": 1012,
+      "material_recent": 221,
       "products": 0
     }
   },
@@ -742,7 +742,7 @@
         "by_hand": true
       },
       {
-        "title": "How to Use TikTok to Drive Shopify Sales",
+        "title": "Beyond TikTok Shop: How to Use TikTok to Drive Sales",
         "url": "https://www.youtube.com/watch?v=nIOn_726Rxk",
         "pool": "youtube_channel",
         "date": "",
@@ -1099,7 +1099,7 @@
         "by_hand": true
       },
       {
-        "title": "How to Use TikTok to Drive Shopify Sales",
+        "title": "Beyond TikTok Shop: How to Use TikTok to Drive Sales",
         "url": "https://www.youtube.com/watch?v=nIOn_726Rxk",
         "pool": "youtube_channel",
         "date": "",
@@ -1288,7 +1288,7 @@
         "by_hand": true
       },
       {
-        "title": "Korean beauty product trend: Why what works in Seoul does not always work in Tel Aviv - jpost.com",
+        "title": "Korean beauty product trend: Why what works in Seoul does not always work in Tel Aviv - The Jerusalem Post",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNLUljZGVfV0VQM2MtYU9JS0VlWUExeXk5OEFNZ2t1TElRWk04bFdWQmVEY3BXal9TWXBkakxPc2MzWjhNaU5NMW0yUUJYc01FVDFRQmhYVkFpTlNCVmtkMXZXN2ptc04yQTlBdlY5elRRUHFpaUhZNmdXcnhtdXU4b2RxZGZleEticGhMZ0ppNjkzbWpndmR6dw?oc=5",
         "pool": "google",
         "date": "2026-09-28",
@@ -1466,34 +1466,6 @@
       {
         "title": "Why Markets May Be Pricing In Too Many Fed Rate Hikes   Transcript",
         "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/why-markets-may-be-pricing-in-too-many-fed-rate-hikes/transcript.pdf",
-        "pool": "institutions",
-        "date": "2026-09-23",
-        "by_hand": false
-      },
-      {
-        "title": "Tariffs Rewiring Tech Hardware Industry",
-        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/tariffs-rewiring-tech-hardware-industry",
-        "pool": "institutions",
-        "date": "2026-09-23",
-        "by_hand": false
-      },
-      {
-        "title": "Gold Prices Steady Rise Amy Gower",
-        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/gold-prices-steady-rise-amy-gower",
-        "pool": "institutions",
-        "date": "2026-09-23",
-        "by_hand": false
-      },
-      {
-        "title": "Products Affected By Tariffs Lasting Impact Michael Zezas Rajeev Sibal",
-        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/products-affected-by-tariffs-lasting-impact-michael-zezas-rajeev-sibal",
-        "pool": "institutions",
-        "date": "2026-09-23",
-        "by_hand": false
-      },
-      {
-        "title": "Reciprocal Tariffs Court Rulings Michael Zezas Michael Gapen",
-        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/reciprocal-tariffs-court-rulings-michael-zezas-michael-gapen",
         "pool": "institutions",
         "date": "2026-09-23",
         "by_hand": false
@@ -2016,17 +1988,17 @@
         "by_hand": false
       },
       {
+        "title": "Ethical implications of artificial intelligence in financial compliance: Balancing innovation and responsibility",
+        "url": "https://doi.org/10.69554/wxlj2994",
+        "pool": "institutions",
+        "date": "2025-11-19",
+        "by_hand": false
+      },
+      {
         "title": "Reef Kids SPF 30 Oxybenzone Free",
         "url": "https://api.fda.gov/drug/label.json",
         "pool": "fda",
         "date": "2025-11-04",
-        "by_hand": false
-      },
-      {
-        "title": "MediChoice Moisturizing Lip Balm SPF15",
-        "url": "https://api.fda.gov/drug/label.json",
-        "pool": "fda",
-        "date": "2025-10-09",
         "by_hand": false
       }
     ],
@@ -2152,7 +2124,7 @@
         "by_hand": true
       },
       {
-        "title": "This UI/UX Redesign Will Teach You More Than Figma 100 Tutorials Combined",
+        "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
         "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
         "pool": "youtube_channel",
         "date": "",
@@ -2334,7 +2306,7 @@
         "by_hand": true
       },
       {
-        "title": "How to Use TikTok to Drive Shopify Sales",
+        "title": "Beyond TikTok Shop: How to Use TikTok to Drive Sales",
         "url": "https://www.youtube.com/watch?v=nIOn_726Rxk",
         "pool": "youtube_channel",
         "date": "",
@@ -2981,6 +2953,20 @@
         "by_hand": true
       },
       {
+        "title": "Plans Work in Mysterious Ways: Evaluating A Plan Mode for Spreadsheet Agents - Supplementary Material",
+        "url": "https://doi.org/10.5281/zenodo.21564169",
+        "pool": "institutions",
+        "date": "2026-09-30",
+        "by_hand": false
+      },
+      {
+        "title": "Anthropic and Infosys build AI agents",
+        "url": "https://www.anthropic.com/news/anthropic-infosys",
+        "pool": "institutions",
+        "date": "2026-09-28",
+        "by_hand": false
+      },
+      {
         "title": "Amazon to invest $100M in new Indiana manufacturing facility",
         "url": "https://www.therobotreport.com/amazon-to-invest-100m-in-new-indiana-manufacturing-facility/",
         "pool": "robotics",
@@ -3301,33 +3287,68 @@
         "pool": "institutions",
         "date": "2026-09-23",
         "by_hand": false
-      },
-      {
-        "title": "Offloaded inference for real-world physical AI robotics",
-        "url": "https://www.microsoft.com/en-us/research/blog/offloaded-inference-for-real-world-physical-ai-robotics/",
-        "pool": "institutions",
-        "date": "2026-09-23",
-        "by_hand": false
-      },
-      {
-        "title": "How Concurrence governs clinical AI at a trillion-token scale with Unity Gateway",
-        "url": "https://www.databricks.com/blog/how-concurrence-governs-clinical-ai-trillion-token-scale-unity-gateway",
-        "pool": "institutions",
-        "date": "2026-09-23",
-        "by_hand": false
       }
     ],
     "institutions": [
       {
-        "title": "Claude has improved on a longstanding lower bound for the fraction of zeros of the Riemann zeta function that satisfy the Riemann hypothesis",
-        "url": "https://www.anthropic.com/research/riemann-zeta",
+        "title": "Plans Work in Mysterious Ways: Evaluating A Plan Mode for Spreadsheet Agents - Supplementary Material",
+        "url": "https://doi.org/10.5281/zenodo.21564169",
         "pool": "institutions",
-        "date": "2026-09-26",
+        "date": "2026-09-30",
         "by_hand": false
       },
       {
-        "title": "Explainable AI driven Credit Risk Assessment for Basel III compliant Banking Risk Management",
-        "url": "https://doi.org/10.37547/tajiir/volume08issue09-06",
+        "title": "Samsung TV Plus Expands Global Creator Lineup to More Markets",
+        "url": "https://news.samsung.com/global/samsung-tv-plus-expands-global-creator-lineup-to-more-markets",
+        "pool": "institutions",
+        "date": "2026-09-28",
+        "by_hand": false
+      },
+      {
+        "title": "Samsung, SK Telecom, and Hana Financial Group Build Korea’s First Private 5G Smart Office in the Financial Sector",
+        "url": "https://news.samsung.com/global/samsung-sk-telecom-and-hana-financial-group-buildkoreas-first-private-5g-smart-office-in-the-financial-sector",
+        "pool": "institutions",
+        "date": "2026-09-28",
+        "by_hand": false
+      },
+      {
+        "title": "“Behind AI’s Rapid Growth Lies Memory” — SK hynix Shares Its Next-Generation Memory Portfolio at the TSMC OIP Conference",
+        "url": "https://news.skhynix.com/en/tsmc-oip-conference-2026/",
+        "pool": "institutions",
+        "date": "2026-09-28",
+        "by_hand": false
+      },
+      {
+        "title": "Anthropic and Infosys build AI agents",
+        "url": "https://www.anthropic.com/news/anthropic-infosys",
+        "pool": "institutions",
+        "date": "2026-09-28",
+        "by_hand": false
+      },
+      {
+        "title": "Sign up for ASML news alerts",
+        "url": "https://www.asml.com/en/news/news-subscription",
+        "pool": "institutions",
+        "date": "2026-09-28",
+        "by_hand": false
+      },
+      {
+        "title": "UK Attracts Nearly £10bn of Foreign-Backed Investment into High-Growth Businesses in H1 2026",
+        "url": "https://home.barclays/news/press-releases/20260/090/uk-attracts-nearly-p10bn-of-foreign-backed-investment-into-high-/",
+        "pool": "institutions",
+        "date": "2026-09-28",
+        "by_hand": false
+      },
+      {
+        "title": "Promoter-Targeted CRISPR Correction of PMP22 Gene Dosage Restores Schwann Cell Homeostasis in Charcot–Marie–Tooth Disease Type 1A",
+        "url": "https://doi.org/10.1007/s13770-026-00837-x",
+        "pool": "institutions",
+        "date": "2026-09-27",
+        "by_hand": false
+      },
+      {
+        "title": "Claude has improved on a longstanding lower bound for the fraction of zeros of the Riemann zeta function that satisfy the Riemann hypothesis",
+        "url": "https://www.anthropic.com/research/riemann-zeta",
         "pool": "institutions",
         "date": "2026-09-26",
         "by_hand": false
@@ -3417,20 +3438,6 @@
         "by_hand": false
       },
       {
-        "title": "Fed Rate Cuts 2024",
-        "url": "https://www.morganstanley.com/ideas/fed-rate-cuts-2024",
-        "pool": "institutions",
-        "date": "2026-09-25",
-        "by_hand": false
-      },
-      {
-        "title": "Thoughts On The Market",
-        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market",
-        "pool": "institutions",
-        "date": "2026-09-25",
-        "by_hand": false
-      },
-      {
         "title": "Democratic Election Ticket Market Outlook 2024",
         "url": "https://www.morganstanley.com/ideas/democratic-election-ticket-market-outlook-2024",
         "pool": "institutions",
@@ -3438,8 +3445,15 @@
         "by_hand": false
       },
       {
-        "title": "Brain Computer Interfaces Ai",
-        "url": "https://www.morganstanley.com/ideas/brain-computer-interfaces-ai",
+        "title": "Ai Meets Real Economy Michelle Weaver Ravi Shanker Dave Arcaro",
+        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/ai-meets-real-economy-michelle-weaver-ravi-shanker-dave-arcaro",
+        "pool": "institutions",
+        "date": "2026-09-25",
+        "by_hand": false
+      },
+      {
+        "title": "Insights",
+        "url": "https://www.morganstanley.com/insights",
         "pool": "institutions",
         "date": "2026-09-25",
         "by_hand": false
@@ -3452,8 +3466,22 @@
         "by_hand": false
       },
       {
-        "title": "Insights",
-        "url": "https://www.morganstanley.com/insights",
+        "title": "Brain Computer Interfaces Ai",
+        "url": "https://www.morganstanley.com/ideas/brain-computer-interfaces-ai",
+        "pool": "institutions",
+        "date": "2026-09-25",
+        "by_hand": false
+      },
+      {
+        "title": "Thoughts On The Market",
+        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market",
+        "pool": "institutions",
+        "date": "2026-09-25",
+        "by_hand": false
+      },
+      {
+        "title": "Fed Rate Cuts 2024",
+        "url": "https://www.morganstanley.com/ideas/fed-rate-cuts-2024",
         "pool": "institutions",
         "date": "2026-09-25",
         "by_hand": false
@@ -3634,15 +3662,15 @@
         "by_hand": false
       },
       {
-        "title": "Diesel Fuel Market Spotlight Global Supply Andrew Sheets Martijn Rats",
-        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/diesel-fuel-market-spotlight-global-supply-andrew-sheets-martijn-rats",
+        "title": "Global Healthcare Conference",
+        "url": "https://www.morganstanley.com/insights/themes/global-healthcare-conference",
         "pool": "institutions",
         "date": "2026-09-24",
         "by_hand": false
       },
       {
-        "title": "Global Healthcare Conference",
-        "url": "https://www.morganstanley.com/insights/themes/global-healthcare-conference",
+        "title": "Diesel Fuel Market Spotlight Global Supply Andrew Sheets Martijn Rats",
+        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/diesel-fuel-market-spotlight-global-supply-andrew-sheets-martijn-rats",
         "pool": "institutions",
         "date": "2026-09-24",
         "by_hand": false
@@ -3678,62 +3706,6 @@
       {
         "title": "Sam Altman’s remarks at the United Nations Security Council",
         "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
-        "pool": "institutions",
-        "date": "2026-09-23",
-        "by_hand": false
-      },
-      {
-        "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-        "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-        "pool": "institutions",
-        "date": "2026-09-23",
-        "by_hand": false
-      },
-      {
-        "title": "How invideo improves color grading 3x with GPT‑6 Astra",
-        "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-        "pool": "institutions",
-        "date": "2026-09-23",
-        "by_hand": false
-      },
-      {
-        "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-        "url": "https://openai.com/index/ringg",
-        "pool": "institutions",
-        "date": "2026-09-23",
-        "by_hand": false
-      },
-      {
-        "title": "Introducing MentalHealthBench",
-        "url": "https://openai.com/index/introducing-mentalhealthbench",
-        "pool": "institutions",
-        "date": "2026-09-23",
-        "by_hand": false
-      },
-      {
-        "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
-        "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
-        "pool": "institutions",
-        "date": "2026-09-23",
-        "by_hand": false
-      },
-      {
-        "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
-        "url": "https://openai.com/index/airbnb-gpt-6-astra",
-        "pool": "institutions",
-        "date": "2026-09-23",
-        "by_hand": false
-      },
-      {
-        "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
-        "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
-        "pool": "institutions",
-        "date": "2026-09-23",
-        "by_hand": false
-      },
-      {
-        "title": "Advancing Private AI Compute with secure, server-side memory",
-        "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
         "pool": "institutions",
         "date": "2026-09-23",
         "by_hand": false

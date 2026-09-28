@@ -2,7 +2,7 @@
 title: "Record cecc078f29 · 올영에서-사고싶은거-매일-하나씩-써보기-2일차-올리브영"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T09:47:23.004733+00:00
+updated_at: 2026-09-28T10:39:55.051932+00:00
 tags: [record, real-data]
 ---
 

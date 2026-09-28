@@ -2,7 +2,7 @@
 title: "Record cf2879a4f8 · Chris-Olahs-remarks-on-Pope-Leo-XIVs-encyclical"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T09:47:22.801613+00:00
+updated_at: 2026-09-28T10:39:54.731139+00:00
 tags: [record, real-data]
 ---
 

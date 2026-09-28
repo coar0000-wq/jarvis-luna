@@ -2,7 +2,7 @@
 title: "Record 8296f97495 · Application-To-Offer-In-24-Hours-With-New-Barclays-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T09:47:22.838925+00:00
+updated_at: 2026-09-28T10:39:54.756413+00:00
 tags: [record, real-data]
 ---
 

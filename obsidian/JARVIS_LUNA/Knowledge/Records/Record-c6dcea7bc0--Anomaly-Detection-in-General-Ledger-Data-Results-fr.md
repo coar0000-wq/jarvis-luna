@@ -2,7 +2,7 @@
 title: "Record c6dcea7bc0 · Anomaly-Detection-in-General-Ledger-Data-Results-from-a-Hybrid-Approac"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T09:47:21.622428+00:00
+updated_at: 2026-09-28T10:39:53.751522+00:00
 tags: [record, real-data]
 ---
 

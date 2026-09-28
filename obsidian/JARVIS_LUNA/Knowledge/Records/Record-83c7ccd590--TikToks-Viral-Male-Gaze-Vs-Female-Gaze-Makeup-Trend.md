@@ -2,7 +2,7 @@
 title: "Record 83c7ccd590 · TikToks-Viral-Male-Gaze-Vs-Female-Gaze-Makeup-Trend"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T09:47:22.335400+00:00
+updated_at: 2026-09-28T10:39:54.364846+00:00
 tags: [record, real-data]
 ---
 

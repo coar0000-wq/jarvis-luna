@@ -2,7 +2,7 @@
 title: "Record d72cabcc68 · Privacy-Preserving-Semantic-Segmentation-from-High-Resolution-Depth-an"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T09:47:22.030310+00:00
+updated_at: 2026-09-28T10:39:54.110734+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 4000d1adc0 · Active-Etfs-Unwrapped"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T09:47:22.877963+00:00
+updated_at: 2026-09-28T10:39:54.810037+00:00
 tags: [record, real-data]
 ---
 

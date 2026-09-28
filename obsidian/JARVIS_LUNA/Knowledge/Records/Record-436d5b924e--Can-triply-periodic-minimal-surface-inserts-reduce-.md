@@ -2,7 +2,7 @@
 title: "Record 436d5b924e · Can-triply-periodic-minimal-surface-inserts-reduce-turbulence-induced-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T09:47:21.796669+00:00
+updated_at: 2026-09-28T10:39:53.885991+00:00
 tags: [record, real-data]
 ---
 

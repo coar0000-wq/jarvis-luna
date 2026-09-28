@@ -2,7 +2,7 @@
 title: "Record 6dc0d4c5a8 · Sound-based-Multi-Person-3D-Pose-Estimation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T09:47:21.508396+00:00
+updated_at: 2026-09-28T10:39:53.654163+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 7b3948f64f · Boots-shoppers-snap-up-K-beauty-rivalling-skincare-gift-set-reduced-fr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T09:47:22.425970+00:00
+updated_at: 2026-09-28T10:39:54.434531+00:00
 tags: [record, real-data]
 ---
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T09:34:37.843280+00:00",
+  "generated_at": "2026-09-28T10:32:20.549522+00:00",
   "generator": "scripts/ingest_youtube_channels.py",
   "입력": "data/manual/youtube_channels.txt",
   "robots": "youtube.com/robots.txt 의 Disallow 목록에 /@ 와 /channel/ 은 없다. 막힌 것은 /feeds/videos.xml, /results, /youtubei/ 등이다. 지정된 채널만 하나씩 본다. 2026-09-06 확인.",
@@ -93,10 +93,10 @@
     },
     {
       "video_id": "GGg61sdEjeI",
-      "title": "This UI/UX Redesign Will Teach You More Than Figma 100 Tutorials Combined",
-      "views_text": "386K",
+      "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
+      "views_text": "387K",
       "published_text": "1mo ago",
-      "views": 386000,
+      "views": 387000,
       "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
       "channel": "uxpeak",
       "teams": [
@@ -203,7 +203,7 @@
   "items": [
     {
       "stale": false,
-      "last_ok_at": "2026-09-28T09:34:16.824610+00:00",
+      "last_ok_at": "2026-09-28T10:31:59.452703+00:00",
       "url": "https://www.youtube.com/@uxpeak",
       "note": "UX/UI 리디자인·전환율 (사용자 지정)",
       "team_hint": "design",
@@ -212,14 +212,14 @@
       "subscribers": "128K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-28T09:34:16.824634+00:00",
+      "checked_at": "2026-09-28T10:31:59.452729+00:00",
       "videos": [
         {
           "video_id": "GGg61sdEjeI",
-          "title": "This UI/UX Redesign Will Teach You More Than Figma 100 Tutorials Combined",
-          "views_text": "386K",
+          "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
+          "views_text": "387K",
           "published_text": "1mo ago",
-          "views": 386000,
+          "views": 387000,
           "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
           "channel": "uxpeak",
           "teams": [
@@ -470,7 +470,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-28T09:34:22.136180+00:00",
+      "last_ok_at": "2026-09-28T10:32:04.840733+00:00",
       "url": "https://www.youtube.com/@%EB%95%A1%ED%81%90%EC%B1%84%EB%84%90",
       "note": "땡스큐레이터 - 스몰 브랜드 브랜딩·수출·견적. 팀은 영상마다 자동 분류",
       "team_hint": "",
@@ -479,13 +479,13 @@
       "subscribers": "19.6K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-28T09:34:22.136197+00:00",
+      "checked_at": "2026-09-28T10:32:04.840750+00:00",
       "videos": [
         {
           "video_id": "hikTGKo2kZE",
           "title": "브랜딩 감각을 키우고 싶다면👀 | 사업부터 브랜딩까지 분야별 필독서 추천",
           "views_text": "33K",
-          "published_text": "10d ago",
+          "published_text": "11d ago",
           "views": 33000,
           "url": "https://www.youtube.com/watch?v=hikTGKo2kZE",
           "channel": "땡스큐레이터",
@@ -596,9 +596,9 @@
         {
           "video_id": "s04NYW3nOxA",
           "title": "🔑 브랜딩 잘하면 영업 안 해도 됩니다 | MD가 먼저 연락 오는 브랜드, 뭐가 다를까요",
-          "views_text": "96K",
+          "views_text": "97K",
           "published_text": "4mo ago",
-          "views": 96000,
+          "views": 97000,
           "url": "https://www.youtube.com/watch?v=s04NYW3nOxA",
           "channel": "땡스큐레이터",
           "teams": [
@@ -742,7 +742,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-28T09:34:27.480202+00:00",
+      "last_ok_at": "2026-09-28T10:32:10.166408+00:00",
       "url": "https://www.youtube.com/@learnwithshopify",
       "note": "Shopify 공식 - 마케팅·전환·스토어 운영",
       "team_hint": "market,listing,design",
@@ -751,11 +751,11 @@
       "subscribers": "909K",
       "video_count": 30,
       "error": "",
-      "checked_at": "2026-09-28T09:34:27.480218+00:00",
+      "checked_at": "2026-09-28T10:32:10.166428+00:00",
       "videos": [
         {
           "video_id": "nIOn_726Rxk",
-          "title": "How to Use TikTok to Drive Shopify Sales",
+          "title": "Beyond TikTok Shop: How to Use TikTok to Drive Sales",
           "views_text": "5.6K",
           "published_text": "3d ago",
           "views": 5600,
@@ -1177,7 +1177,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-28T09:34:32.842955+00:00",
+      "last_ok_at": "2026-09-28T10:32:15.549247+00:00",
       "url": "https://www.youtube.com/@shopify",
       "note": "Shopify 본채널 - 브랜드 성장 사례",
       "team_hint": "market",
@@ -1186,7 +1186,7 @@
       "subscribers": "489K",
       "video_count": 30,
       "error": "",
-      "checked_at": "2026-09-28T09:34:32.842970+00:00",
+      "checked_at": "2026-09-28T10:32:15.549266+00:00",
       "videos": [
         {
           "video_id": "KsujQDvKdHk",

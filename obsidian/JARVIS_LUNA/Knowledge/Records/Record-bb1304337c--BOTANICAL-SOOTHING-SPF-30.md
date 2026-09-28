@@ -2,7 +2,7 @@
 title: "Record bb1304337c · BOTANICAL-SOOTHING-SPF-30"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T09:47:21.462421+00:00
+updated_at: 2026-09-28T10:39:53.607883+00:00
 tags: [record, real-data]
 ---
 

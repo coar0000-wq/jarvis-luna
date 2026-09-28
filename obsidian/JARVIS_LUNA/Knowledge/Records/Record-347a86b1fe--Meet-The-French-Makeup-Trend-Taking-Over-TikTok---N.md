@@ -2,7 +2,7 @@
 title: "Record 347a86b1fe · Meet-The-French-Makeup-Trend-Taking-Over-TikTok---N"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T09:47:22.253566+00:00
+updated_at: 2026-09-28T10:39:54.290902+00:00
 tags: [record, real-data]
 ---
 

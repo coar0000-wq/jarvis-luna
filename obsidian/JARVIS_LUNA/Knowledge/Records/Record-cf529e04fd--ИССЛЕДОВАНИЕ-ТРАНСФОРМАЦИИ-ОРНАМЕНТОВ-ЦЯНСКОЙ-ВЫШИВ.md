@@ -2,7 +2,7 @@
 title: "Record cf529e04fd · ИССЛЕДОВАНИЕ-ТРАНСФОРМАЦИИ-ОРНАМЕНТОВ-ЦЯНСКОЙ-ВЫШИВКИ-С-ИСПОЛЬЗОВАНИЕМ"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T09:47:22.093090+00:00
+updated_at: 2026-09-28T10:39:54.169177+00:00
 tags: [record, real-data]
 ---
 

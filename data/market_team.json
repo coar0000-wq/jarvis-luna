@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-09-28T18:56:26.641498+09:00",
+    "updated_at": "2026-09-28T19:38:25.958916+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -33,7 +33,7 @@
         "brand": "CORINGCO",
         "price_usd": 12.99,
         "rating": 4.8,
-        "review_count": 11936
+        "review_count": 11863
       },
       {
         "rank": 2,
@@ -89,7 +89,7 @@
         "brand": "Dr.Althea",
         "price_usd": 27.0,
         "rating": 4.8,
-        "review_count": 1652
+        "review_count": 1651
       },
       {
         "rank": 9,
@@ -121,7 +121,7 @@
         "brand": "Anua",
         "price_usd": 25.0,
         "rating": 4.6,
-        "review_count": 1843
+        "review_count": 1838
       },
       {
         "rank": 13,
@@ -129,7 +129,7 @@
         "brand": "Dr.G",
         "price_usd": 46.0,
         "rating": 4.8,
-        "review_count": 1174
+        "review_count": 1170
       },
       {
         "rank": 14,
@@ -479,7 +479,7 @@
         "title": "🔑 브랜딩 잘하면 영업 안 해도 됩니다 | MD가 먼저 연락 오는 브랜드, 뭐가 다를까요",
         "url": "https://www.youtube.com/watch?v=s04NYW3nOxA",
         "channel": null,
-        "views": 96000,
+        "views": 97000,
         "note": "",
         "teams": [
           "design",
@@ -653,7 +653,7 @@
     "sources": {
       "oliveyoung_us": "us.oliveyoung.com/best-sellers (실수집)",
       "open_beauty_facts": "world.openbeautyfacts.org /api/v2/search",
-      "competitor_pool_size": 160,
+      "competitor_pool_size": 159,
       "competitor_fallback": "oliveyoung_us primary"
     }
   },
@@ -738,17 +738,12 @@
         "자료": []
       },
       "채널 확장": {
-        "자료_수": 2,
+        "자료_수": 1,
         "자료": [
           {
             "title": "Digital Marketing 101: 10 Strategies Every Shopify Store Needs (Marketing Masterclass Part 1)",
             "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
             "note": "Learn With Shopify - SEO·콘텐츠·숏폼·웰컴 이메일·Meta CAPI를 묶은 공식 마케팅 기본기"
-          },
-          {
-            "title": "How to Use TikTok to Drive Shopify Sales",
-            "url": "https://www.youtube.com/watch?v=nIOn_726Rxk",
-            "note": ""
           }
         ]
       },
@@ -1620,42 +1615,6 @@
   ],
   "competitor_watch": [
     {
-      "name": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
-      "brand": "AESTURA",
-      "price_usd": 32.0,
-      "rating": 5,
-      "review_count": 4,
-      "us_rank": 2,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 2위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA71026007",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
-      "brand": "REJURAN",
-      "price_usd": 41.6,
-      "rating": 4.8,
-      "review_count": 12,
-      "us_rank": 3,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 3위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA67698081",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "[7types] MEDIHEAL Toner Pad 100 + 100 Pads Double Set",
-      "brand": "MEDIHEAL",
-      "price_usd": 39.99,
-      "rating": 4.8,
-      "review_count": 16482,
-      "us_rank": 7,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 7위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA32407466",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
       "name": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
       "brand": "MEDIHEAL",
       "price_usd": 20.99,
@@ -1689,6 +1648,42 @@
       "daiso_bucket": "마스크팩",
       "why": "us.oliveyoung.com/best-sellers 실수집 30위 · 마스크팩 동일 포지션",
       "url": "https://us.oliveyoung.com/products/UA49579943",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+      "brand": "AESTURA",
+      "price_usd": 32.0,
+      "rating": 5,
+      "review_count": 4,
+      "us_rank": 2,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 2위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA71026007",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
+      "brand": "REJURAN",
+      "price_usd": 41.6,
+      "rating": 4.8,
+      "review_count": 12,
+      "us_rank": 3,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 3위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA67698081",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "[7types] MEDIHEAL Toner Pad 100 + 100 Pads Double Set",
+      "brand": "MEDIHEAL",
+      "price_usd": 39.99,
+      "rating": 4.8,
+      "review_count": 16482,
+      "us_rank": 7,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 7위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA32407466",
       "source": "us.oliveyoung.com/best-sellers 실수집"
     }
   ],

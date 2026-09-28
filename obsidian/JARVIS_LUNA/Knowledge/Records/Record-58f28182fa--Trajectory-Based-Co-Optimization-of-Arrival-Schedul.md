@@ -2,7 +2,7 @@
 title: "Record 58f28182fa · Trajectory-Based-Co-Optimization-of-Arrival-Schedul"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T09:47:21.483647+00:00
+updated_at: 2026-09-28T10:39:53.635348+00:00
 tags: [record, real-data]
 ---
 

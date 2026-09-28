@@ -2,7 +2,7 @@
 title: "Record 00375356c0 · Japan-Ai-Playbook-Robert-Feldman"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T09:47:22.930993+00:00
+updated_at: 2026-09-28T10:39:54.869821+00:00
 tags: [record, real-data]
 ---
 

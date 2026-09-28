@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-28T09:47:28.363649+00:00",
+  "generated_at": "2026-09-28T10:39:58.189526+00:00",
   "generator": "scripts/gemini_escalation.py",
   "policy": "data/manual/model_routing_policy.json",
   "enabled": true,

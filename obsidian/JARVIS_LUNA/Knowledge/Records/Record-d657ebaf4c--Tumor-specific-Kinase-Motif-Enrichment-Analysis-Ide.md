@@ -2,7 +2,7 @@
 title: "Record d657ebaf4c · Tumor-specific-Kinase-Motif-Enrichment-Analysis-Ide"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T09:47:22.102159+00:00
+updated_at: 2026-09-28T10:39:54.176565+00:00
 tags: [record, real-data]
 ---
 

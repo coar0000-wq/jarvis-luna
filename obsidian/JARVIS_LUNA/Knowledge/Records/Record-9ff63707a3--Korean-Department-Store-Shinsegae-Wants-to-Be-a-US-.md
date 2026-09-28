@@ -2,7 +2,7 @@
 title: "Record 9ff63707a3 · Korean-Department-Store-Shinsegae-Wants-to-Be-a-US-Beauty-Player-Too--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T09:47:22.480042+00:00
+updated_at: 2026-09-28T10:39:54.476277+00:00
 tags: [record, real-data]
 ---
 

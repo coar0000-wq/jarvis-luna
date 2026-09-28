@@ -2,7 +2,7 @@
 title: "Record 025b0cab3b · Contact-Aware-Incremental-Model-Predictive-Control-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T09:47:21.583461+00:00
+updated_at: 2026-09-28T10:39:53.722842+00:00
 tags: [record, real-data]
 ---
 

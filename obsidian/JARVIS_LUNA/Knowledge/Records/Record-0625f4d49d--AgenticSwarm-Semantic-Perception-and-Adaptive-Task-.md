@@ -2,7 +2,7 @@
 title: "Record 0625f4d49d · AgenticSwarm-Semantic-Perception-and-Adaptive-Task-Allocation-for-Hete"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T09:47:21.994484+00:00
+updated_at: 2026-09-28T10:39:54.082709+00:00
 tags: [record, real-data]
 ---
 

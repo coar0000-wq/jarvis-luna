@@ -2,7 +2,7 @@
 title: "Record 192794312f · Introducing-Astra-for-Law"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T09:47:22.565802+00:00
+updated_at: 2026-09-28T10:39:54.546371+00:00
 tags: [record, real-data]
 ---
 

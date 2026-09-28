@@ -2,7 +2,7 @@
 title: "Record fcaff89d10 · Drones-With-Claws-Perch-on-Arctic-Icebergs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T09:47:22.635137+00:00
+updated_at: 2026-09-28T10:39:54.608810+00:00
 tags: [record, real-data]
 ---
 

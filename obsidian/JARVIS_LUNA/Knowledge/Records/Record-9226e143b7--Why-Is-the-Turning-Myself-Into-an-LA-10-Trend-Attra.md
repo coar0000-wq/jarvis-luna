@@ -2,7 +2,7 @@
 title: "Record 9226e143b7 · Why-Is-the-Turning-Myself-Into-an-LA-10-Trend-Attra"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T09:47:22.510352+00:00
+updated_at: 2026-09-28T10:39:54.499529+00:00
 tags: [record, real-data]
 ---
 

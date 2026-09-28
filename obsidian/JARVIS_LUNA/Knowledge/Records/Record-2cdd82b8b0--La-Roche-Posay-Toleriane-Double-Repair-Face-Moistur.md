@@ -2,7 +2,7 @@
 title: "Record 2cdd82b8b0 · La-Roche-Posay-Toleriane-Double-Repair-Face-Moisturizer"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T09:47:22.778698+00:00
+updated_at: 2026-09-28T10:39:54.715044+00:00
 tags: [record, real-data]
 ---
 

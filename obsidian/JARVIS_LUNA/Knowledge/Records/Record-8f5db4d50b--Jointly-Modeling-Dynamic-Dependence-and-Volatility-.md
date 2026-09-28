@@ -2,7 +2,7 @@
 title: "Record 8f5db4d50b · Jointly-Modeling-Dynamic-Dependence-and-Volatility-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T09:47:21.731696+00:00
+updated_at: 2026-09-28T10:39:53.833051+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record e2a75765d8 · Iso-20022-Migration"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T09:47:22.883477+00:00
+updated_at: 2026-09-28T10:39:54.814228+00:00
 tags: [record, real-data]
 ---
 

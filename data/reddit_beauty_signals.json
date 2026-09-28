@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-28T09:35:33.246536+00:00",
+  "collected_at": "2026-09-28T10:33:20.947371+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -392,16 +392,16 @@
       "feed": "hot"
     },
     {
-      "title": "What kind of procedures create this \"plump face\" look?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wrs2en/what_kind_of_procedures_create_this_plump_face/",
-      "published": "2026-09-27T18:44:55+00:00",
+      "title": "Looking for a white eyeshadow or highlight with this sort of shine",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wqdlq9/looking_for_a_white_eyeshadow_or_highlight_with/",
+      "published": "2026-09-26T01:21:53+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Looking for a white eyeshadow or highlight with this sort of shine",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wqdlq9/looking_for_a_white_eyeshadow_or_highlight_with/",
-      "published": "2026-09-26T01:21:53+00:00",
+      "title": "What kind of procedures create this \"plump face\" look?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wrs2en/what_kind_of_procedures_create_this_plump_face/",
+      "published": "2026-09-27T18:44:55+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },

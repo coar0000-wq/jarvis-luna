@@ -2,7 +2,7 @@
 title: "Record 0eb5ec97f4 · China-Ai-Playbook-Shawn-Kim"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T09:47:22.927047+00:00
+updated_at: 2026-09-28T10:39:54.858293+00:00
 tags: [record, real-data]
 ---
 

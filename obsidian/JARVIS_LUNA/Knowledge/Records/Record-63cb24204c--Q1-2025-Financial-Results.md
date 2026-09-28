@@ -2,7 +2,7 @@
 title: "Record 63cb24204c · Q1-2025-Financial-Results"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T09:47:22.825497+00:00
+updated_at: 2026-09-28T10:39:54.746490+00:00
 tags: [record, real-data]
 ---
 

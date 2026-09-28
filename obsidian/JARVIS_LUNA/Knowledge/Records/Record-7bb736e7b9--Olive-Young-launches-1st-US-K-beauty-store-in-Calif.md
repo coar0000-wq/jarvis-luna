@@ -2,7 +2,7 @@
 title: "Record 7bb736e7b9 · Olive-Young-launches-1st-US-K-beauty-store-in-Calif"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T09:47:22.281354+00:00
+updated_at: 2026-09-28T10:39:54.313423+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record ec02dff03a · 21shades-espoir-Be-Velvet-Cover-Cushion-046-oz13g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T09:47:22.673385+00:00
+updated_at: 2026-09-28T10:39:54.638326+00:00
 tags: [record, real-data]
 ---
 

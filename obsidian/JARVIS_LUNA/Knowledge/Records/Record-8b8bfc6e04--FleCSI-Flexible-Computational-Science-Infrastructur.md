@@ -2,7 +2,7 @@
 title: "Record 8b8bfc6e04 · FleCSI-Flexible-Computational-Science-Infrastructur"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T09:47:21.887116+00:00
+updated_at: 2026-09-28T10:39:53.990335+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ FleCSI: Flexible Computational Science Infrastructure
 
 ## Connected nodes
 
-[[Source--institutions]] [[인프라클라우드]] [[데이터분석]] [[기관--Microsoft]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[인프라클라우드]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

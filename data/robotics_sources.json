@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T09:32:21.291425+00:00",
+  "generated_at": "2026-09-28T10:29:09.633202+00:00",
   "generator": "scripts/collect_robotics.py",
   "목적": "옵시디언 주제 '로보틱스' 가 3건뿐이던 문제를 해결한다. 분류기는 정상이었고 수집원에 로봇 자료가 없었던 것이 원인이다.",
   "접근_정책": "arXiv 은 프로그램 접근용 export.arxiv.org 를 제공하며 그 주소만 사용하고 요청 간 3초를 둔다. RSS 두 곳은 robots.txt 허용을 확인했다.",
@@ -91,8 +91,8 @@
           "source_detail": "arXiv via OpenAlex"
         },
         {
-          "title": "Simulation code for \"Real-Time AI Service Economy: A Framework for Agentic Computing Across the Continuum\"",
-          "summary": "R + targets pipeline reproducing the experiments in the arXiv preprint arXiv:2603.05614, \"Real-Time AI Service Economy: A Framework for Agentic Computing Across the Continuum\": the topology x load ablation grid, the DSIC strategic-bidding test, a measured agentic LLM workload, and the integrator faithfulness and encapsulation-overhead studies. Reproduce all results with targets::tar_make().",
+          "title": "Simulation code for \"Agentic Service Markets Across the Computing Continuum: A Polymatroidal Architecture\"",
+          "summary": "R + targets pipeline reproducing the experiments in the arXiv preprint arXiv:2603.05614, \"Agentic Service Markets Across the Computing Continuum: A Polymatroidal Architecture\": the topology x load ablation grid, the DSIC strategic-bidding test, a measured agentic LLM workload, and the integrator faithfulness and encapsulation-overhead studies. Reproduce all results with targets::tar_make().",
           "published": "2026-09-19",
           "url": "https://arxiv.org/abs/2603.05614",
           "primary_category": "로보틱스",
