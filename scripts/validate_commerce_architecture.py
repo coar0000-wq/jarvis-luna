@@ -307,7 +307,10 @@ def main() -> int:
                 "human_approval_required", "external_dependency"
             }, f'{team.get("id")} waiting 분류 오류')
     sourcing = next((x for x in teams if x.get("id") == "sourcing"), {})
-    require(not sourcing.get("action") and bool(sourcing.get("notice")),
+    # 정상 수집 통계는 notice 로만 둔다. 단, 수집이 36시간 넘게 발행되지 않은
+    # 경우는 실제 장애라 조치로 올린다 (2026-09-28, 9-21~27 미발행을 못 잡았다).
+    s_action = str(sourcing.get("action") or "")
+    require((not s_action or "발행되지 않음" in s_action) and bool(sourcing.get("notice")),
             "정상 소싱 통계가 다시 노란 조치로 분류됨")
 
     for decision in chief.get("decisions") or []:
