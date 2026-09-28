@@ -36,6 +36,7 @@ audit 은 "숫자가 안 맞는다"를 사후에 잡는다.
     python scripts/build_artifact_graph.py            # 그래프 요약 출력
     python scripts/build_artifact_graph.py --check    # 위반 있으면 exit 1
     python scripts/build_artifact_graph.py --json     # 그래프를 JSON 으로
+    python scripts/build_artifact_graph.py --mermaid # Mermaid 다이어그램을 stdout 으로
     python scripts/build_artifact_graph.py --write    # data/artifact_graph.json 저장
 
 짐작하지 않는 것
@@ -49,6 +50,7 @@ from __future__ import annotations
 
 import argparse
 import ast
+import hashlib
 import json
 import re
 import sys
@@ -458,6 +460,64 @@ def build_graph() -> dict:
 # ──────────────────────────────────────────────────────────────
 
 
+def render_mermaid(g: dict) -> str:
+    """정본 그래프만 읽어 결정적 Mermaid 텍스트를 만든다. 파일/네트워크 쓰기 없음."""
+    def node_id(kind: str, name: str) -> str:
+        digest = hashlib.sha256(f"{kind}:{name}".encode("utf-8")).hexdigest()[:16]
+        return f"n_{kind}_{digest}"
+
+    def label(name: str) -> str:
+        # Mermaid의 따옴표/대괄호/HTML/간선 구문을 라벨 밖으로 새지 않게 한다.
+        entities = {"&": "#38;", '"': "#34;", "'": "#39;", "[": "#91;",
+                    "]": "#93;", "<": "#60;", ">": "#62;", "`": "#96;",
+                    "|": "#124;", "\\": "#92;"}
+        return "".join(entities.get(ch, " " if ch in "\r\n" else ch)
+                       for ch in name)
+
+    nodes: set[tuple[str, str]] = set()
+    edges: set[tuple[tuple[str, str], tuple[str, str], str]] = set()
+    for workflow, meta in g["workflows"].items():
+        w = ("workflow", workflow)
+        nodes.add(w)
+        for script in meta["effective"]:
+            s = ("script", script)
+            nodes.add(s)
+            edges.add((w, s, "execute"))
+    for script, info in g["scripts"].items():
+        s = ("script", script)
+        nodes.add(s)
+        for artifact in info["writes"]:
+            a = ("artifact", artifact)
+            nodes.add(a)
+            edges.add((s, a, "write"))
+        for artifact in info["reads"]:
+            a = ("artifact", artifact)
+            nodes.add(a)
+            edges.add((a, s, "read"))
+    stale: set[tuple[str, str]] = set()
+    for violation in g["violations"]:
+        w = ("workflow", violation["workflow"])
+        a = ("artifact", violation["stale_artifact"])
+        nodes.update((w, a))
+        stale.add(a)
+        edges.add((w, a, "stale"))
+
+    lines = ["flowchart LR",
+             "  classDef workflow fill:#e7f0ff,stroke:#3265aa;",
+             "  classDef script fill:#e5f6ee,stroke:#36765b;",
+             "  classDef artifact fill:#fff4df,stroke:#956c20;",
+             "  classDef stale fill:#ffe8e8,stroke:#c12d2d,stroke-width:2px;"]
+    for kind, name in sorted(nodes):
+        ident = node_id(kind, name)
+        lines.append(f'  {ident}["{label(name)}"]')
+        lines.append(f"  class {ident} {'stale' if (kind, name) in stale else kind};")
+    symbols = {"execute": "==>", "write": "-->", "read": "-->",
+               "stale": "-.->|stale|"}
+    for source, target, relation in sorted(edges):
+        lines.append(f"  {node_id(*source)} {symbols[relation]} {node_id(*target)}")
+    return "\n".join(lines) + "\n"
+
+
 def print_summary(g: dict) -> None:
     print("=" * 56)
     print("JARVIS 산출물 의존 그래프")
@@ -504,6 +564,8 @@ def main() -> int:
                     help="위반이 있으면 exit 1")
     ap.add_argument("--json", action="store_true",
                     help="그래프를 JSON 으로 출력")
+    ap.add_argument("--mermaid", action="store_true",
+                    help="정본 그래프를 Mermaid 로 stdout 에만 출력")
     ap.add_argument("--write", action="store_true",
                     help="data/artifact_graph.json 으로 저장")
     args = ap.parse_args()
@@ -512,6 +574,10 @@ def main() -> int:
 
     if args.json:
         print(json.dumps(g, ensure_ascii=False, indent=2))
+        return 0
+
+    if args.mermaid:
+        sys.stdout.write(render_mermaid(g))
         return 0
 
     if args.write:
