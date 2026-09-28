@@ -574,6 +574,10 @@ jobs:
         uses: ./.github/actions/publish
         with:
           paths: data obsidian
+          # 최종 runtime·운영 계획·팀 개선 집계를 위에서 이미 만들고
+          # 정합성까지 검사했다. 공통 발행 액션이 runtime을 또 만들면
+          # agents_ops heartbeat와 improvement.runtime_at이 사라진다.
+          regenerate-dashboard: 'false'
           message: Run JARVIS Daiso + US Beauty Shopify Pipeline & Sync Channels
 
       # =========================

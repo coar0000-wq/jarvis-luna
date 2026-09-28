@@ -48,6 +48,23 @@ runs:
 
         python -u scripts/generate_dashboard_runtime.py
 
+        # Runtime 재생성은 기존 agents_ops를 지운다. 다른 수집 워크플로가
+        # 2시간 비서실장 회차 뒤에 발행해도 운영 heartbeat/계획과 팀 개선
+        # 정합성이 끊기지 않도록 무료 로컬 규칙으로 바로 다시 계산한다.
+        python -u scripts/run_jarvis_agents.py --force
+        python -u scripts/build_team_improvement.py
+        python - <<'PY'
+        import json
+        from pathlib import Path
+        d = Path('data')
+        rt = json.loads((d / 'dashboard_runtime.json').read_text(encoding='utf-8'))
+        plan = json.loads((d / 'agents/ops_plan.json').read_text(encoding='utf-8'))
+        improvement = json.loads((d / 'team_improvement.json').read_text(encoding='utf-8'))
+        assert plan.get('generated_at') and (rt.get('agents_ops') or {}).get('at')
+        assert improvement.get('runtime_at') == rt.get('generated_at')
+        print('PUBLISH_RUNTIME_HEARTBEAT_OK')
+        PY
+
         echo "==================================="
 
     # ------------------------------------------------------------
@@ -88,7 +105,7 @@ runs:
 
         PUBLISH_PATHS="${{ inputs.paths }}"
         if [ "${{ inputs.regenerate-dashboard }}" = "true" ]; then
-          PUBLISH_PATHS="$PUBLISH_PATHS data/dashboard_runtime.json"
+          PUBLISH_PATHS="$PUBLISH_PATHS data/dashboard_runtime.json data/agents/ops_plan.json data/agents/last_run.json data/agents/collector_audit.json data/agents/signal_audit.json data/agents/score_explain.json data/agents/listing_notes.json data/team_improvement.json"
         fi
 
         echo "📦 Publish paths:"
@@ -148,7 +165,7 @@ runs:
         # --------------------------------------------------------
         PUBLISH_PATHS="${{ inputs.paths }}"
         if [ "${{ inputs.regenerate-dashboard }}" = "true" ]; then
-          PUBLISH_PATHS="$PUBLISH_PATHS data/dashboard_runtime.json"
+          PUBLISH_PATHS="$PUBLISH_PATHS data/dashboard_runtime.json data/agents/ops_plan.json data/agents/last_run.json data/agents/collector_audit.json data/agents/signal_audit.json data/agents/score_explain.json data/agents/listing_notes.json data/team_improvement.json"
         fi
 
         for i in 1 2 3; do
