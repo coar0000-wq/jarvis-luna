@@ -27,7 +27,57 @@ import numpy as np
 #   15분 타임아웃에 계속 걸리던 이유가 이것이다. 계산식은 그대로다.
 #   검증 정확도 0.8800 / 학습 0.8740 으로 기존(0.8798 / 0.8739)과 같다.
 
-from train_real_knowledge import build_features, label, load_records, softmax
+from train_real_knowledge import TOKEN_RE, label, load_records, softmax
+
+# ── 2026-09-28 학습이 실제로 안 되고 있었다 ───────────────────────────────────────
+# 저장된 모델은 5,041건 전부를 ai-research 로 예측했다. 정확도 0.8675 는
+# ai-research 비율(4373/5041) 과 소수점 여섯째 자리까지 같았고 나머지 두 클래스
+# 재현율은 0/335, 0/333 이었다. 검증 정확도로 고르니 찍기 모델이 항상 이겼다.
+#
+# 원인 두 가지
+#   1) 특징을 합이 1이 되게(L1) 나눠 값이 0.01 안팎이라 기울기가 거의 없었다
+#   2) 클래스 불균형(87:7:7)을 보정하지 않았다
+# 바꾼 것: TF-IDF + L2 정규화, 클래스 균형 가중치, 검증 매크로 F1 로 선택.
+# 같은 300스텝에서 검증 정확도 0.875 -> 0.961, 매크로 F1 0.311 -> 0.892 (로컬 실험).
+# 다수 클래스 기준선을 넘지 못하면 운영 가중치를 바꾸지 않는다.
+MIN_DF = 3
+MIN_MACRO_F1_GAIN = 0.10
+
+
+def build_features(rows: list[dict]):
+    docs = [TOKEN_RE.findall((row.get("title", "") + " " + row["text"]).lower()) for row in rows]
+    df: dict[str, int] = {}
+    for d in docs:
+        for w in set(d):
+            df[w] = df.get(w, 0) + 1
+    vocab = sorted(w for w, c in df.items() if c >= MIN_DF)
+    if not vocab:
+        raise SystemExit("No usable tokens in real corpus; refusing to train.")
+    index = {w: i for i, w in enumerate(vocab)}
+    X = np.zeros((len(rows), len(vocab)), dtype=np.float32)
+    for r, d in enumerate(docs):
+        for w in d:
+            j = index.get(w)
+            if j is not None:
+                X[r, j] += 1.0
+    idf = np.log(len(rows) / (1.0 + np.array([df[w] for w in vocab], dtype=np.float32)))
+    X = np.log1p(X) * idf[None, :]
+    X /= np.maximum(np.linalg.norm(X, axis=1, keepdims=True), 1e-9)
+    return X, vocab, idf
+
+
+def class_metrics(pred: np.ndarray, true: np.ndarray, classes: list[str]) -> dict:
+    f1s, recall = [], {}
+    for c, name in enumerate(classes):
+        tp = int(np.sum((pred == c) & (true == c)))
+        fp = int(np.sum((pred == c) & (true != c)))
+        fn = int(np.sum((pred != c) & (true == c)))
+        p = tp / (tp + fp) if tp + fp else 0.0
+        r = tp / (tp + fn) if tp + fn else 0.0
+        f1s.append(2 * p * r / (p + r) if p + r else 0.0)
+        recall[name] = round(r, 4)
+    return {"accuracy": float((pred == true).mean()) if len(true) else 0.0,
+            "macro_f1": float(np.mean(f1s)), "recall": recall}
 
 ROOT = Path(__file__).resolve().parent
 CORPUS = ROOT / "data" / "knowledge" / "training_corpus.jsonl"
@@ -72,12 +122,16 @@ def cross_entropy(y: np.ndarray, logits: np.ndarray) -> float:
 def train(X: np.ndarray, y: np.ndarray, k: int, steps: int, lr: float, l2: float, temperature: float):
     n, d, c = X.shape[0], X.shape[1], y.shape[1]
     params = list(init_params(d, c, k))
+    # 클래스 균형 가중치. 적은 클래스를 틀리면 더 크게 벌점한다.
+    counts = np.maximum(y.sum(axis=0), 1.0)
+    row_w = (y @ (n / (c * counts)))
+    row_w = row_w / row_w.sum()
     loss_history = []
     for step in range(steps):
         expert_w, expert_b, gate_w, gate_b = params
         logits, gate = predict(X, tuple(params), temperature)
         probs = softmax(logits)
-        grad_logits = (probs - y) / max(n, 1)
+        grad_logits = (probs - y) * row_w[:, None]
         grad_expert_logits = gate[:, :, None] * grad_logits[:, None, :]
         grad_expert_w = np.einsum("nd,nkc->kdc", X, grad_expert_logits, optimize=True) + l2 * expert_w
         grad_expert_b = grad_expert_logits.sum(axis=0)
@@ -114,12 +168,14 @@ def main() -> int:
     parser.add_argument("--model-out", type=Path, default=DEFAULT_MODEL)
     parser.add_argument("--report-out", type=Path, default=DEFAULT_REPORT)
     args = parser.parse_args()
+    args.model_out = args.model_out.resolve()
+    args.report_out = args.report_out.resolve()
 
     rows = load_records()
     labels = [label(row) for row in rows]
     classes = sorted(set(labels))
-    X, vocab = build_features(rows)
-    y = np.zeros((len(rows), len(classes)), dtype=np.float64)
+    X, vocab, idf = build_features(rows)
+    y = np.zeros((len(rows), len(classes)), dtype=np.float32)
     for i, value in enumerate(labels):
         y[i, classes.index(value)] = 1.0
     train_mask, valid_mask = split_rows(rows)
@@ -135,19 +191,38 @@ def main() -> int:
                     params, loss_history = train(X[train_mask], y[train_mask], experts, args.steps, lr, l2, temperature)
                     train_acc = accuracy(X[train_mask], y[train_mask], params, temperature)
                     valid_acc = accuracy(X[valid_mask], y[valid_mask], params, temperature)
+                    v_logits, _ = predict(X[valid_mask], params, temperature)
+                    v_metrics = class_metrics(np.argmax(v_logits, axis=1), np.argmax(y[valid_mask], axis=1), classes)
                     final_loss = loss_history[-1]
                     expert_w, expert_b, gate_w, gate_b = params
                     _, gate_train = predict(X[train_mask], params, temperature)
-                    candidates.append({"experts": experts, "lr": lr, "l2": l2, "temperature": temperature, "train_accuracy": train_acc, "validation_accuracy": valid_acc, "initial_loss": loss_history[0]["total_loss"], "final_loss": final_loss["total_loss"], "best_loss": min(item["total_loss"] for item in loss_history), "expert_weight_l2": float(np.linalg.norm(expert_w)), "gate_weight_l2": float(np.linalg.norm(gate_w)), "gate_load_std": float(np.std(gate_train.mean(axis=0))), "loss_history": loss_history, "params": params})
-    best = max(candidates, key=lambda item: (item["validation_accuracy"], item["train_accuracy"], -item["final_loss"], -item["experts"]))
+                    candidates.append({"experts": experts, "lr": lr, "l2": l2, "temperature": temperature, "train_accuracy": train_acc, "validation_accuracy": valid_acc, "validation_macro_f1": v_metrics["macro_f1"], "validation_recall": v_metrics["recall"], "initial_loss": loss_history[0]["total_loss"], "final_loss": final_loss["total_loss"], "best_loss": min(item["total_loss"] for item in loss_history), "expert_weight_l2": float(np.linalg.norm(expert_w)), "gate_weight_l2": float(np.linalg.norm(gate_w)), "gate_load_std": float(np.std(gate_train.mean(axis=0))), "loss_history": loss_history, "params": params})
+    # 정확도가 아니라 매크로 F1 로 고른다. 정확도로 고르면 다수 클래스 찍기가 이긴다.
+    best = max(candidates, key=lambda item: (item["validation_macro_f1"], item["validation_accuracy"], -item["final_loss"], -item["experts"]))
     params = best.pop("params")
+    y_valid = np.argmax(y[valid_mask], axis=1)
+    majority = int(np.argmax(y[train_mask].sum(axis=0)))
+    baseline = class_metrics(np.full_like(y_valid, majority), y_valid, classes)
+    effective = (best["validation_macro_f1"] >= baseline["macro_f1"] + MIN_MACRO_F1_GAIN
+                 and min(best["validation_recall"].values()) > 0)
+    verdict = ("기준선보다 나음: 운영 가중치 교체" if effective else
+               "다수 클래스 찍기 기준선을 넘지 못함: 운영 가중치 유지")
     expert_w, expert_b, gate_w, gate_b = params
     _, gate = predict(X, params, best["temperature"])
     args.model_out.parent.mkdir(parents=True, exist_ok=True)
-    np.savez_compressed(args.model_out, expert_weights=expert_w, expert_bias=expert_b, gate_weights=gate_w, gate_bias=gate_b, vocabulary=np.array(vocab), classes=np.array(classes), num_experts=np.array([best["experts"]]), top_k=np.array([min(2, best["experts"])]), tuning_temperature=np.array([best["temperature"]]))
-    report = {"updated_at": datetime.now(timezone.utc).isoformat(), "real_records": len(rows), "train_records": int(train_mask.sum()), "validation_records": int(valid_mask.sum()), "steps_per_candidate": args.steps, "search_space": {"experts": expert_values, "learning_rates": learning_rates, "l2_values": l2_values, "temperatures": temperatures}, "candidates": len(candidates), "best": best, "mean_gate_load": gate.mean(axis=0).round(6).tolist(), "model_file": str(args.model_out.relative_to(ROOT)), "promoted": bool(args.promote), "note": "All candidates use only real records from training_corpus.jsonl; no synthetic data."}
+    np.savez_compressed(args.model_out, expert_weights=expert_w, expert_bias=expert_b, gate_weights=gate_w, gate_bias=gate_b, vocabulary=np.array(vocab), idf=idf, features=np.array(["tfidf-l2"]), classes=np.array(classes), num_experts=np.array([best["experts"]]), top_k=np.array([min(2, best["experts"])]), tuning_temperature=np.array([best["temperature"]]))
+    promote = bool(args.promote) and effective
+    report = {"updated_at": datetime.now(timezone.utc).isoformat(), "real_records": len(rows), "train_records": int(train_mask.sum()), "validation_records": int(valid_mask.sum()), "steps_per_candidate": args.steps, "features": f"TF-IDF + L2 (min_df {MIN_DF}, 어휘 {len(vocab)})", "class_weighting": "balanced", "search_space": {"experts": expert_values, "learning_rates": learning_rates, "l2_values": l2_values, "temperatures": temperatures}, "candidates": len(candidates), "best": best, "baseline_majority": baseline, "effective": effective, "verdict": verdict, "mean_gate_load": gate.mean(axis=0).round(6).tolist(), "model_file": str(args.model_out.relative_to(ROOT)), "promoted": promote, "note": "All candidates use only real records from training_corpus.jsonl; no synthetic data."}
     args.report_out.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    if args.promote:
+    if args.promote and not effective:
+        status_path = ROOT / "data/knowledge/training_status.json"
+        status = json.loads(status_path.read_text(encoding="utf-8")) if status_path.exists() else {}
+        status.update({"updated_at": report["updated_at"], "training_effective": False, "tuning_promoted": False,
+                       "학습_판정": verdict, "baseline_majority": baseline,
+                       "tuning_validation_macro_f1": best["validation_macro_f1"],
+                       "tuning_validation_recall": best["validation_recall"]})
+        status_path.write_text(json.dumps(status, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    if promote:
         for target in (ROOT / "data/knowledge/real_knowledge_moe.npz", ROOT / "data/knowledge/real_knowledge_router.npz"):
             target.write_bytes(args.model_out.read_bytes())
         status_path = ROOT / "data/knowledge/training_status.json"
@@ -176,6 +251,13 @@ def main() -> int:
             "tuning_promoted": True,
             "tuning_steps": args.steps,
             "tuning_validation_accuracy": best["validation_accuracy"],
+            "tuning_validation_macro_f1": best["validation_macro_f1"],
+            "tuning_validation_recall": best["validation_recall"],
+            "baseline_majority": baseline,
+            "training_effective": True,
+            "학습_판정": verdict,
+            "features": report["features"],
+            "말뭉치": "이 말뭉치로 학습한 가중치다.",
             "tuning_final_loss": best["final_loss"],
             "tuning_gate_load_std": best["gate_load_std"],
             "model_file": "data/knowledge/real_knowledge_moe.npz",

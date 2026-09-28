@@ -218,10 +218,10 @@ jobs:
         run: |
           python -u tune_real_knowledge_moe.py \
             --experts 3,4 \
-            --learning-rates 0.7,1.2 \
+            --learning-rates 5.0 \
             --l2-values 0.0001 \
             --temperatures 0.9 \
-            --steps 500 \
+            --steps 300 \
             --promote
 
       # =========================

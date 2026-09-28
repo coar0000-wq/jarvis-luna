@@ -1599,7 +1599,8 @@ renderMarketingChannels(d);
 if(d.graph) set('side-dangling',d.graph.dangling_links+'건');
 if(d.training){
 set('stat-accuracy',(d.training.accuracy*100).toFixed(1)+'%');
-set('side-val',(d.training.validation_accuracy*100).toFixed(1)+'%');
+// 정확도만 보면 다수 클래스 찍기도 87%로 보인다. 매크로 F1과 기준선을 같이 적는다.
+set('side-val',(d.training.validation_accuracy*100).toFixed(1)+'%'+(d.training.validation_macro_f1!=null?' · F1 '+d.training.validation_macro_f1.toFixed(2)+(d.training.baseline_macro_f1!=null?' (기준 '+d.training.baseline_macro_f1.toFixed(2)+')':''):' · 기준선 비교 없음'));
 set('side-experts',d.training.experts+'개');
 set('side-loss',d.training.final_loss!=null?d.training.final_loss.toFixed(4):'–');
 }

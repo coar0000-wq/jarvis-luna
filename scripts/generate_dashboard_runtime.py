@@ -175,9 +175,21 @@ def training_metrics() -> dict:
     """MoE 모델의 최신 학습 상태 및 메트릭을 로드합니다."""
     status = load_json(KNOWLEDGE / "training_status.json", {})
     trained = bool(status.get("training_performed") and status.get("weights_updated"))
+    # 2026-09-28: 정확도만 보면 다수 클래스 찍기(87%)도 학습 완료로 보였다.
+    # 기준선을 넘지 못했거나 판정 기록이 없으면 '효과 미확인' 으로 둔다.
+    effective = status.get("training_effective")
+    base = status.get("baseline_majority") or {}
+    if trained and effective is not True:
+        trained = False
 
     return {
         "status": "completed" if trained else "not_verified",
+        "training_effective": effective,
+        "verdict": status.get("학습_판정") or "기준선 비교 기록 없음",
+        "validation_macro_f1": status.get("tuning_validation_macro_f1"),
+        "validation_recall": status.get("tuning_validation_recall"),
+        "baseline_accuracy": base.get("accuracy"),
+        "baseline_macro_f1": base.get("macro_f1"),
         "training_performed": bool(status.get("training_performed")),
         "weights_updated": bool(status.get("weights_updated")),
         "records": status.get("real_records", 0),
