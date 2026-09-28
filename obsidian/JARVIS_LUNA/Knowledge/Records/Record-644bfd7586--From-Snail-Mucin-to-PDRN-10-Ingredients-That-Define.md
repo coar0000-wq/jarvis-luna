@@ -2,7 +2,7 @@
 title: "Record 644bfd7586 · From-Snail-Mucin-to-PDRN-10-Ingredients-That-Define"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:01.367803+00:00
+updated_at: 2026-09-28T13:58:17.460562+00:00
 tags: [record, real-data]
 ---
 
@@ -13,9 +13,10 @@ tags: [record, real-data]
 **제목:** From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - vogue.com
 
 From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - vogue.com
+From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - vogue.com
 
-**출처:** Source · Google Search
+**출처:** Source · us_beauty
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

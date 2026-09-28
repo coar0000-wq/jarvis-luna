@@ -2,7 +2,7 @@
 title: "Record f9543321ad · BIOHEAL-BOH-Probioderm-3D-Lifting-Cream-169-fl-oz50"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:01.992447+00:00
+updated_at: 2026-09-28T13:58:18.081282+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** BIOHEAL BOH Probioderm 3D Lifting Cream 1.69 fl. oz.(50ml)
 
 BIOHEAL BOH Probioderm 3D Lifting Cream 1.69 fl. oz.(50ml)
-BIOHEAL BOH Probioderm 3D Lifting Cream 1.69 fl. oz.(50ml) · 평점 4.8 · 리뷰 8
+BIOHEAL BOH Probioderm 3D Lifting Cream 1.69 fl. oz.(50ml) · 평점 4.8 · 리뷰 9
 
 **출처:** Source · us_beauty
 

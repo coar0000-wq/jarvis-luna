@@ -2,7 +2,7 @@
 title: "Record b2974ae6cd · How-AI-Shopping-Could-Turn-Fashion-Advertising-on-i"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:01.587729+00:00
+updated_at: 2026-09-28T13:58:17.679763+00:00
 tags: [record, real-data]
 ---
 

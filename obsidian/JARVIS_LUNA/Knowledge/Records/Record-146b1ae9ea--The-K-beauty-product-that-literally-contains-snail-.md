@@ -2,7 +2,7 @@
 title: "Record 146b1ae9ea · The-K-beauty-product-that-literally-contains-snail-snot-is-a-viral-bes"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:01.653500+00:00
+updated_at: 2026-09-28T13:58:17.738159+00:00
 tags: [record, real-data]
 ---
 
@@ -13,9 +13,10 @@ tags: [record, real-data]
 **제목:** The K-beauty product that *literally* contains snail snot is a viral bestseller that I actually use - New York Post
 
 The K-beauty product that *literally* contains snail snot is a viral bestseller that I actually use - New York Post
+The K-beauty product that *literally* contains snail snot is a viral bestseller that I actually use - New York Post
 
-**출처:** Source · Google Search
+**출처:** Source · us_beauty
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[마케팅광고]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[마케팅광고]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

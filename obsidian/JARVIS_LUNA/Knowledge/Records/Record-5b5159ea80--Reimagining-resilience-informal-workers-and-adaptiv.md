@@ -2,7 +2,7 @@
 title: "Record 5b5159ea80 · Reimagining-resilience-informal-workers-and-adaptiv"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:00.569918+00:00
+updated_at: 2026-09-28T13:58:16.706868+00:00
 tags: [record, real-data]
 ---
 

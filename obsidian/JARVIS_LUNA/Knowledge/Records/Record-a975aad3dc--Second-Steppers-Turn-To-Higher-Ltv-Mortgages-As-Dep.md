@@ -2,7 +2,7 @@
 title: "Record a975aad3dc · Second-Steppers-Turn-To-Higher-Ltv-Mortgages-As-Dep"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:02.291438+00:00
+updated_at: 2026-09-28T13:58:18.448010+00:00
 tags: [record, real-data]
 ---
 

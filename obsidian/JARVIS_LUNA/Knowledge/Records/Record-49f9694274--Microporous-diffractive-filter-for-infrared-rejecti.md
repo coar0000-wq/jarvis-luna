@@ -2,7 +2,7 @@
 title: "Record 49f9694274 · Microporous-diffractive-filter-for-infrared-rejecti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:00.680501+00:00
+updated_at: 2026-09-28T13:58:16.816967+00:00
 tags: [record, real-data]
 ---
 

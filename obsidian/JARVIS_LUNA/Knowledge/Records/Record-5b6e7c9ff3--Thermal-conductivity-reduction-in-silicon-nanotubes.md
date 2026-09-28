@@ -2,7 +2,7 @@
 title: "Record 5b6e7c9ff3 · Thermal-conductivity-reduction-in-silicon-nanotubes-through-phonon-loc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:00.441088+00:00
+updated_at: 2026-09-28T13:58:16.595099+00:00
 tags: [record, real-data]
 ---
 

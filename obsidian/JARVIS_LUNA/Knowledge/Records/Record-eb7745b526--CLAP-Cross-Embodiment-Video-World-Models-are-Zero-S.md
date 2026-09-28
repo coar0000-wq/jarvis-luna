@@ -2,7 +2,7 @@
 title: "Record eb7745b526 · CLAP-Cross-Embodiment-Video-World-Models-are-Zero-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:02.730934+00:00
+updated_at: 2026-09-28T13:58:18.899030+00:00
 tags: [record, real-data]
 ---
 

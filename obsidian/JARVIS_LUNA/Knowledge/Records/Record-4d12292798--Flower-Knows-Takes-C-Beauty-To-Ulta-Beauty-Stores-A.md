@@ -2,7 +2,7 @@
 title: "Record 4d12292798 · Flower-Knows-Takes-C-Beauty-To-Ulta-Beauty-Stores-As-Brand-Turns-10---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:01.762836+00:00
+updated_at: 2026-09-28T13:58:17.837130+00:00
 tags: [record, real-data]
 ---
 

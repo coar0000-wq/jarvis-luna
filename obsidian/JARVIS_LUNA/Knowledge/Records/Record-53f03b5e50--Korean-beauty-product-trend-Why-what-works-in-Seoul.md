@@ -2,7 +2,7 @@
 title: "Record 53f03b5e50 · Korean-beauty-product-trend-Why-what-works-in-Seoul-does-not-always-wo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:01.623711+00:00
+updated_at: 2026-09-28T13:58:17.714220+00:00
 tags: [record, real-data]
 ---
 

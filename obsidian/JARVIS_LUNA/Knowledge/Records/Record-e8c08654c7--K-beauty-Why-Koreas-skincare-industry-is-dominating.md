@@ -2,7 +2,7 @@
 title: "Record e8c08654c7 · K-beauty-Why-Koreas-skincare-industry-is-dominating"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:01.758063+00:00
+updated_at: 2026-09-28T13:58:17.832340+00:00
 tags: [record, real-data]
 ---
 

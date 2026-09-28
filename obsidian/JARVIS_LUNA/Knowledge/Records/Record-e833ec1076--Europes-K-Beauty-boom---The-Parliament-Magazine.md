@@ -2,7 +2,7 @@
 title: "Record e833ec1076 · Europes-K-Beauty-boom---The-Parliament-Magazine"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:01.465068+00:00
+updated_at: 2026-09-28T13:58:17.556323+00:00
 tags: [record, real-data]
 ---
 

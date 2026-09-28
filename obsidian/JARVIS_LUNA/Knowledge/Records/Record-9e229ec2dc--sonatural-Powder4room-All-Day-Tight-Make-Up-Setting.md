@@ -2,7 +2,7 @@
 title: "Record 9e229ec2dc · sonatural-Powder4room-All-Day-Tight-Make-Up-Setting"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:01.990736+00:00
+updated_at: 2026-09-28T13:58:18.078910+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** sonatural Powder4room All Day Tight Make Up Setting Fixx 2.53 fl. oz.(75ml)
 
 sonatural Powder4room All Day Tight Make Up Setting Fixx 2.53 fl. oz.(75ml)
-sonatural Powder4room All Day Tight Make Up Setting Fixx 2.53 fl. oz.(75ml) · 평점 4.7 · 리뷰 3
+sonatural Powder4room All Day Tight Make Up Setting Fixx 2.53 fl. oz.(75ml) · 평점 4.8 · 리뷰 5
 
 **출처:** Source · us_beauty
 

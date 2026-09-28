@@ -2,7 +2,7 @@
 title: "Record 18bed07f30 · dAlba-Vegan-Tone-up-Sunscreen-169-fl-oz50ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:01.987879+00:00
+updated_at: 2026-09-28T13:58:18.074981+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1cfc035f99 · Think-Build-Heal-Also-tell-the-story"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:00.556826+00:00
+updated_at: 2026-09-28T13:58:16.694894+00:00
 tags: [record, real-data]
 ---
 

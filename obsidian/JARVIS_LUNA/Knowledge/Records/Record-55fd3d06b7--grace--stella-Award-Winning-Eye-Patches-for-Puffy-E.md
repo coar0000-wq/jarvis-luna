@@ -1,0 +1,22 @@
+---
+title: "Record 55fd3d06b7 · grace--stella-Award-Winning-Eye-Patches-for-Puffy-Eyes---Birthday-Gift"
+type: knowledge-graph
+status: generated-from-real-data
+updated_at: 2026-09-28T13:58:18.368294+00:00
+tags: [record, real-data]
+---
+
+# Record 55fd3d06b7 · grace--stella-Award-Winning-Eye-Patches-for-Puffy-Eyes---Birthday-Gift
+
+> 실제 수집 레코드입니다. 원문: [www.amazon.com](https://www.amazon.com/Under-Eye-Patches-Gold-24-Pairs/dp/B014E2D6BY/ref=zg_bs_g_beauty_d_sccl_24/146-2119587-8197020)
+
+**제목:** grace & stella Award Winning Eye Patches for Puffy Eyes - Birthday Gifts for Women - Under Eye Mask for Dark Circles and Undereye Bags - Gifts for Mom - Vegan Cruelty-Free Self Care (24 Pairs, Gold)
+
+grace & stella Award Winning Eye Patches for Puffy Eyes - Birthday Gifts for Women - Under Eye Mask for Dark Circles and Undereye Bags - Gifts for Mom - Vegan Cruelty-Free Self Care (24 Pairs, Gold)
+grace & stella Award Winning Eye Patches for Puffy Eyes - Birthday Gifts for Women - Under Eye Mask for Dark Circles and Undereye Bags - Gifts for Mom - Vegan Cruelty-Free Self Care (24 Pairs, Gold) · $21.56 · 평점 4.4 · 리뷰 48,976
+
+**출처:** Source · us_beauty
+
+## Connected nodes
+
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

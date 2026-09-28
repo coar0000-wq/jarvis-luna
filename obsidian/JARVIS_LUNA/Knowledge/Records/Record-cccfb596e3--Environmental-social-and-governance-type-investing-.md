@@ -2,7 +2,7 @@
 title: "Record cccfb596e3 · Environmental-social-and-governance-type-investing-a-multi-stakeholder"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:00.573365+00:00
+updated_at: 2026-09-28T13:58:16.710097+00:00
 tags: [record, real-data]
 ---
 

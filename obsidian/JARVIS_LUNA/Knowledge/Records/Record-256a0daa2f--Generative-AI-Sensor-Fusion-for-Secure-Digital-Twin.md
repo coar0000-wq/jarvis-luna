@@ -2,7 +2,7 @@
 title: "Record 256a0daa2f · Generative-AI-Sensor-Fusion-for-Secure-Digital-Twin-Ecosystems-A-Stand"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:00.593063+00:00
+updated_at: 2026-09-28T13:58:16.730174+00:00
 tags: [record, real-data]
 ---
 

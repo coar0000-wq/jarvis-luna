@@ -2,7 +2,7 @@
 title: "Record 29f9e61ab4 · 15-Editor-Loved-K-Beauty-Products-on-Major-Prime-Da"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:01.612779+00:00
+updated_at: 2026-09-28T13:58:17.704080+00:00
 tags: [record, real-data]
 ---
 

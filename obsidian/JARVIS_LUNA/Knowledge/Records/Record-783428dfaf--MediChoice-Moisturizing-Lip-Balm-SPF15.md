@@ -2,7 +2,7 @@
 title: "Record 783428dfaf · MediChoice-Moisturizing-Lip-Balm-SPF15"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:35:59.926945+00:00
+updated_at: 2026-09-28T13:58:16.108355+00:00
 tags: [record, real-data]
 ---
 

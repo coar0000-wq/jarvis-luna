@@ -2,7 +2,7 @@
 title: "Record c10c5dafd0 · Beyond-Exact-Match-Task-Aware-GRPO-for-Cross-Domain-PCBA-Visual-Questi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:00.239731+00:00
+updated_at: 2026-09-28T13:58:16.417046+00:00
 tags: [record, real-data]
 ---
 

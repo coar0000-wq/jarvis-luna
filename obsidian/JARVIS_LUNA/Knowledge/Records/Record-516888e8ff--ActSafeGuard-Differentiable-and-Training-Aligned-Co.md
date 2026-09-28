@@ -2,7 +2,7 @@
 title: "Record 516888e8ff · ActSafeGuard-Differentiable-and-Training-Aligned-Co"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:00.137563+00:00
+updated_at: 2026-09-28T13:58:16.319868+00:00
 tags: [record, real-data]
 ---
 

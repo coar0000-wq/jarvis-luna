@@ -2,7 +2,7 @@
 title: "Record a47598209a · Inference-on-strongly-identified-functionals-of-weakly-identified-func"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:00.549684+00:00
+updated_at: 2026-09-28T13:58:16.688388+00:00
 tags: [record, real-data]
 ---
 

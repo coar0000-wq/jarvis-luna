@@ -2,7 +2,7 @@
 title: "Record 66b3c5bba3 · Samsung-Expands-the-Galaxy-Book6-Lineup-Making-Gala"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:01.802689+00:00
+updated_at: 2026-09-28T13:58:17.876342+00:00
 tags: [record, real-data]
 ---
 

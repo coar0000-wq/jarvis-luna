@@ -2,7 +2,7 @@
 title: "Record 6866650908 · Multi-viewpoint-Geo-localization-with-Event-Cameras"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:00.237729+00:00
+updated_at: 2026-09-28T13:58:16.414569+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record f2ff7f7605 · How-invideo-improves-color-grading-3x-with-GPT6-Astra"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:01.859172+00:00
+updated_at: 2026-09-28T13:58:17.932982+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2eb66e41fe · Video-Generative-Models-as-Geometry-Learner"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:35:59.938049+00:00
+updated_at: 2026-09-28T13:58:16.128813+00:00
 tags: [record, real-data]
 ---
 

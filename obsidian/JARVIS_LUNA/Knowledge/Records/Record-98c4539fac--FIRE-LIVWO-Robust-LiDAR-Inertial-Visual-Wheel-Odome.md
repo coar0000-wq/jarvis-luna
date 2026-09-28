@@ -2,7 +2,7 @@
 title: "Record 98c4539fac · FIRE-LIVWO-Robust-LiDAR-Inertial-Visual-Wheel-Odome"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:00.017437+00:00
+updated_at: 2026-09-28T13:58:16.207607+00:00
 tags: [record, real-data]
 ---
 

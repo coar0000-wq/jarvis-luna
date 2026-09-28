@@ -2,7 +2,7 @@
 title: "Record 00340d4cb6 · Does-Paper-Oil-Matter-Energy-Markets-Financialization-and-Co-Movements"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:00.791357+00:00
+updated_at: 2026-09-28T13:58:16.913196+00:00
 tags: [record, real-data]
 ---
 

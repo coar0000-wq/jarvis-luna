@@ -2,7 +2,7 @@
 title: "Record 1469a6adc6 · ZVeC-A-Zero-Shot-Framework-for-Instance-Level-Vehicle-Extraction-and-G"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:00.956581+00:00
+updated_at: 2026-09-28T13:58:17.075933+00:00
 tags: [record, real-data]
 ---
 

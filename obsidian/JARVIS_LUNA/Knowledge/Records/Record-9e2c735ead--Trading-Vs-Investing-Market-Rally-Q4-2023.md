@@ -2,7 +2,7 @@
 title: "Record 9e2c735ead · Trading-Vs-Investing-Market-Rally-Q4-2023"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:02.414490+00:00
+updated_at: 2026-09-28T13:58:18.563765+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record a577f205a7 · Claude-Science-an-AI-workbench-for-scientists"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:02.247202+00:00
+updated_at: 2026-09-28T13:58:18.410143+00:00
 tags: [record, real-data]
 ---
 

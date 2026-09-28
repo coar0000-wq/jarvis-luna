@@ -2,7 +2,7 @@
 title: "Record 5fc692db57 · Are-K-Beauty-sunscreens-as-good-as-ones-sold-in-the-US-Consumer-Report"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:01.671412+00:00
+updated_at: 2026-09-28T13:58:17.754783+00:00
 tags: [record, real-data]
 ---
 

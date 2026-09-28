@@ -2,7 +2,7 @@
 title: "Record 5a9b90740c · Leveraging-inter-organizational-agility-for-innovation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:00.574861+00:00
+updated_at: 2026-09-28T13:58:16.711344+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record de7bbc7d17 · 25-Korean-Beauty-brands-that-need-to-be-on-your-radar---RUSSH"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:01.283384+00:00
+updated_at: 2026-09-28T13:58:17.373798+00:00
 tags: [record, real-data]
 ---
 

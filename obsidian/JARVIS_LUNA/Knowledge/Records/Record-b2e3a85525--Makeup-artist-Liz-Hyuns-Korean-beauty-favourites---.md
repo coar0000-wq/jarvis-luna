@@ -2,7 +2,7 @@
 title: "Record b2e3a85525 · Makeup-artist-Liz-Hyuns-Korean-beauty-favourites---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:01.335840+00:00
+updated_at: 2026-09-28T13:58:17.425473+00:00
 tags: [record, real-data]
 ---
 

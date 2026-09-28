@@ -2,7 +2,7 @@
 title: "Record a00fc889a2 · The-Work-Now-Within-Reach"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:01.879836+00:00
+updated_at: 2026-09-28T13:58:17.948343+00:00
 tags: [record, real-data]
 ---
 

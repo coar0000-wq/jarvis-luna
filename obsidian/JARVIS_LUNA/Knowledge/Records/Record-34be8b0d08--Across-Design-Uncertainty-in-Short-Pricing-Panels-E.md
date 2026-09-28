@@ -2,7 +2,7 @@
 title: "Record 34be8b0d08 · Across-Design-Uncertainty-in-Short-Pricing-Panels-E"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:02.680606+00:00
+updated_at: 2026-09-28T13:58:18.849755+00:00
 tags: [record, real-data]
 ---
 

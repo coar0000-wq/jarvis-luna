@@ -2,7 +2,7 @@
 title: "Record 13e188013e · Amazon-Essentials-Cotton-Swabs-500-Count-Previously-Amazon-Basics"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:02.105524+00:00
+updated_at: 2026-09-28T13:58:18.220780+00:00
 tags: [record, real-data]
 ---
 

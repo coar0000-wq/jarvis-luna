@@ -2,7 +2,7 @@
 title: "Record 7222ad4260 · Multi-Category-Beauty-Debuts-MONCLOS-Launches-11-Products-at-Target-Be"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:01.394434+00:00
+updated_at: 2026-09-28T13:58:17.487421+00:00
 tags: [record, real-data]
 ---
 

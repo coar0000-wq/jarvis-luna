@@ -2,7 +2,7 @@
 title: "Record bfe361ab17 · DIFTA-3D-Depth-Consistent-Instance-Level-Feature-Transfer-and-Adaptati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:00.974686+00:00
+updated_at: 2026-09-28T13:58:17.091629+00:00
 tags: [record, real-data]
 ---
 

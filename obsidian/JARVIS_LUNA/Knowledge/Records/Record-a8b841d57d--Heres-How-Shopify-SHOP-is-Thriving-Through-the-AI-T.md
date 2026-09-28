@@ -2,7 +2,7 @@
 title: "Record a8b841d57d · Heres-How-Shopify-SHOP-is-Thriving-Through-the-AI-Transition---Yahoo-F"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:01.675926+00:00
+updated_at: 2026-09-28T13:58:17.759238+00:00
 tags: [record, real-data]
 ---
 

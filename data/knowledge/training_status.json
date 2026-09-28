@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-28T12:31:52.300983+00:00",
-  "real_records": 5175,
+  "updated_at": "2026-09-28T14:01:14.847623+00:00",
+  "real_records": 5480,
   "source_labels": {
     "ai-image": 336,
-    "ai-research": 4506,
+    "ai-research": 4811,
     "shopify-commerce-image": 333
   },
-  "corpus_sha256": "1715289e09050c7874cae792eddb4914a45f535f929dda9f8c3f4634617cb15e",
+  "corpus_sha256": "55a1feb75f57b59827c4e43df7abb4ddbe10dfb8585fc5dc5816c440f8e9ed06",
   "training_performed": true,
   "weights_updated": true,
   "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
@@ -14,40 +14,26 @@
   "top_k_inference": 2,
   "model_file": "data/knowledge/real_knowledge_moe.npz",
   "compatibility_model_file": "data/knowledge/real_knowledge_router.npz",
-  "training_accuracy_on_corpus": 0.9727536231884057,
+  "training_accuracy_on_corpus": 0.9713503649635037,
   "mean_gate_load": [
-    0.299713,
-    0.329062,
-    0.371226
+    0.301618,
+    0.329549,
+    0.368833
   ],
-  "note": "실제 수집 데이터 누적 코퍼스. URL 기준 중복 제거하며 기존 레코드는 보존한다. 가중치 갱신은 학습기가 별도로 수행한다.",
-  "trained_corpus_sha256": "1715289e09050c7874cae792eddb4914a45f535f929dda9f8c3f4634617cb15e",
+  "note": "This is a text knowledge-routing MoE, not an image foundation model.",
+  "trained_corpus_sha256": "55a1feb75f57b59827c4e43df7abb4ddbe10dfb8585fc5dc5816c440f8e9ed06",
   "tuning_promoted": true,
   "tuning_steps": 300,
-  "tuning_validation_accuracy": 0.9620512820512821,
-  "tuning_final_loss": 0.23863219538577224,
-  "tuning_gate_load_std": 0.4699389972729063,
-  "records_before": 5041,
-  "records_added": 134,
-  "source_status": {
-    "arxiv": "ok",
-    "robotics": "ok",
-    "institutions": "ok",
-    "organic_skincare": "ok",
-    "google": "ok",
-    "us_beauty": "ok"
-  },
-  "corpus": "data/knowledge/training_corpus.jsonl",
-  "말뭉치": "이 말뭉치로 학습한 가중치다.",
-  "tuning_validation_macro_f1": 0.893692259899851,
+  "tuning_validation_accuracy": 0.9591439688715954,
+  "tuning_validation_macro_f1": 0.8837961181925736,
   "tuning_validation_recall": {
     "ai-image": 0.8333,
-    "ai-research": 0.9696,
+    "ai-research": 0.9659,
     "shopify-commerce-image": 0.9697
   },
   "baseline_majority": {
-    "accuracy": 0.8769230769230769,
-    "macro_f1": 0.3114754098360656,
+    "accuracy": 0.8832684824902723,
+    "macro_f1": 0.31267217630853994,
     "recall": {
       "ai-image": 0.0,
       "ai-research": 1.0,
@@ -56,5 +42,8 @@
   },
   "training_effective": true,
   "학습_판정": "기준선보다 나음: 운영 가중치 교체",
-  "features": "TF-IDF + L2 (min_df 3, 어휘 5363)"
+  "features": "TF-IDF + L2 (min_df 3, 어휘 5551)",
+  "말뭉치": "이 말뭉치로 학습한 가중치다.",
+  "tuning_final_loss": 0.23581913930995513,
+  "tuning_gate_load_std": 0.4699278472996079
 }

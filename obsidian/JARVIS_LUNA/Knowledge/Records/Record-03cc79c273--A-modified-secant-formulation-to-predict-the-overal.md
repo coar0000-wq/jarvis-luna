@@ -2,7 +2,7 @@
 title: "Record 03cc79c273 · A-modified-secant-formulation-to-predict-the-overall-behavior-of-elast"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:00.431059+00:00
+updated_at: 2026-09-28T13:58:16.586586+00:00
 tags: [record, real-data]
 ---
 

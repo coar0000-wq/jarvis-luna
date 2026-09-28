@@ -2,7 +2,7 @@
 title: "Record 4a9183bd8a · Transparency-Practices-in-Selected-Local-Government-Units-Basis-for-De"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:00.813267+00:00
+updated_at: 2026-09-28T13:58:16.935011+00:00
 tags: [record, real-data]
 ---
 

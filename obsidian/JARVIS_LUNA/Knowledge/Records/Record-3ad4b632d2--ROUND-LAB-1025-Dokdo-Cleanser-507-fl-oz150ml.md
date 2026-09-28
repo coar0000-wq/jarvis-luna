@@ -2,7 +2,7 @@
 title: "Record 3ad4b632d2 · ROUND-LAB-1025-Dokdo-Cleanser-507-fl-oz150ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:01.979131+00:00
+updated_at: 2026-09-28T13:58:18.064839+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** ROUND LAB 1025 Dokdo Cleanser 5.07 fl. oz.(150ml)
 
 ROUND LAB 1025 Dokdo Cleanser 5.07 fl. oz.(150ml)
-ROUND LAB 1025 Dokdo Cleanser 5.07 fl. oz.(150ml) · 평점 4.8 · 리뷰 9
+ROUND LAB 1025 Dokdo Cleanser 5.07 fl. oz.(150ml) · 평점 4.7 · 리뷰 11
 
 **출처:** Source · us_beauty
 

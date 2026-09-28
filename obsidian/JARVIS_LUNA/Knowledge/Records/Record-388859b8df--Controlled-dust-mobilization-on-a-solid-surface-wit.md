@@ -2,7 +2,7 @@
 title: "Record 388859b8df · Controlled-dust-mobilization-on-a-solid-surface-with-grazing-electron-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:00.565549+00:00
+updated_at: 2026-09-28T13:58:16.702604+00:00
 tags: [record, real-data]
 ---
 

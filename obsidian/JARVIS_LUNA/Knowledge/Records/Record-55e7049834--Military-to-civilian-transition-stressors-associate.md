@@ -2,7 +2,7 @@
 title: "Record 55e7049834 · Military-to-civilian-transition-stressors-associated-with-couples-inti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:00.478117+00:00
+updated_at: 2026-09-28T13:58:16.629240+00:00
 tags: [record, real-data]
 ---
 

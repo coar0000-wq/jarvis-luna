@@ -2,7 +2,7 @@
 title: "Record e43d50716f · Anua-Heartleaf-Pore-Control-Cleansing-Oil-676-fl-oz200ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:02.010759+00:00
+updated_at: 2026-09-28T13:58:18.105096+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** Anua Heartleaf Pore Control Cleansing Oil 6.76 fl. oz.(200ml)
 
 Anua Heartleaf Pore Control Cleansing Oil 6.76 fl. oz.(200ml)
-Anua Heartleaf Pore Control Cleansing Oil 6.76 fl. oz.(200ml) · 평점 4.7 · 리뷰 3,805
+Anua Heartleaf Pore Control Cleansing Oil 6.76 fl. oz.(200ml) · 평점 4.7 · 리뷰 3,798
 
 **출처:** Source · us_beauty
 

@@ -2,7 +2,7 @@
 title: "Record 6c33163cb7 · Renegotiating-the-Social-Contract-of-Search"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:00.591296+00:00
+updated_at: 2026-09-28T13:58:16.728378+00:00
 tags: [record, real-data]
 ---
 

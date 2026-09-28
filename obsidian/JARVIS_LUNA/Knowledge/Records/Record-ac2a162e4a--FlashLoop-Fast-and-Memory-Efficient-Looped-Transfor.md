@@ -2,7 +2,7 @@
 title: "Record ac2a162e4a · FlashLoop-Fast-and-Memory-Efficient-Looped-Transformers-via-Lazy-Updat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T12:36:01.015792+00:00
+updated_at: 2026-09-28T13:58:17.130440+00:00
 tags: [record, real-data]
 ---
 
