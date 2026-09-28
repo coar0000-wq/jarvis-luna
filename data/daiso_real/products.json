@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-20T22:34:01.104985+00:00",
+  "updated_at": "2026-09-28T12:00:31.039669+00:00",
   "source": "Daiso Korea",
-  "count": 344,
+  "count": 346,
   "products": [
     {
       "pd_no": "1030674",
@@ -3958,6 +3958,25 @@
       "bucket": "스킨케어"
     },
     {
+      "pd_no": "B202604026672",
+      "name": "본셉 레티놀 아이 크림 25 ml",
+      "brand": "본셉 스킨케어",
+      "site_category": "크림",
+      "price_krw": 36000,
+      "price_source": "json:price",
+      "sold_out": false,
+      "stock_note": "판매 중",
+      "stock_checked_at": "2026-09-28T11:05:39.222148+00:00",
+      "rating": null,
+      "review_count": null,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251216/WDWpO8PGIXVy4Iuc74nd1055165_00_00WDWpO8PGIXVy4Iuc74nd.jpg",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026672&recmYn=N",
+      "collected_at": "2026-09-28T11:05:39.222161+00:00",
+      "source": "daisomall.co.kr 상품 상세 페이지",
+      "bucket": "스킨케어",
+      "detailed_http_status": 200
+    },
+    {
       "pd_no": "B202604016239",
       "name": "본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
       "brand": "본셉 스킨케어",
@@ -4966,6 +4985,25 @@
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20240924/OstV4nwe449zyzV9njAU1060215_00_00OstV4nwe449zyzV9njAU.jpg",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060215",
       "collected_at": "2026-09-19T21:53:44.204527+00:00",
+      "source": "daisomall.co.kr 상품 상세 페이지",
+      "bucket": "클렌징",
+      "detailed_http_status": 200
+    },
+    {
+      "pd_no": "1059837",
+      "name": "소미썸 쌀뜬물 클렌징 워터 패드 50매입",
+      "brand": "소미썸",
+      "site_category": "티슈/패드",
+      "price_krw": 5000,
+      "price_source": "json:price",
+      "sold_out": false,
+      "stock_note": "판매 중",
+      "stock_checked_at": "2026-09-28T11:43:37.046781+00:00",
+      "rating": 4.7,
+      "review_count": 910,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251104/BfdIqndT8MJHGwGXrg4i1059837_00_00BfdIqndT8MJHGwGXrg4i.png",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059837",
+      "collected_at": "2026-09-28T11:43:37.046793+00:00",
       "source": "daisomall.co.kr 상품 상세 페이지",
       "bucket": "클렌징",
       "detailed_http_status": 200
