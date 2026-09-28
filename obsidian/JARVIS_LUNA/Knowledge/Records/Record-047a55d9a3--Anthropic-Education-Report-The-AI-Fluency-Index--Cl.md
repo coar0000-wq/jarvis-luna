@@ -2,7 +2,7 @@
 title: "Record 047a55d9a3 · Anthropic-Education-Report-The-AI-Fluency-Index--Cl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T05:26:56.402004+00:00
+updated_at: 2026-09-28T09:47:22.813181+00:00
 tags: [record, real-data]
 ---
 
@@ -10,13 +10,12 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [www.anthropic.com](https://www.anthropic.com/research/AI-fluency-index)
 
-**제목:** Anthropic Education Report: The AI Fluency Index · Claude Academy
+**제목:** Ai Fluency Index
 
-Anthropic Education Report: The AI Fluency Index · Claude Academy
-Anthropic's AI Fluency Index measures 11 observable behaviors across thousands of Claude.ai conversations to understand how people develop AI collaboration skills.
+Ai Fluency Index
 
 **출처:** Source · institutions
 
 ## Connected nodes
 
-[[Source--institutions]] [[LLM언어모델]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

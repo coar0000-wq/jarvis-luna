@@ -2,7 +2,7 @@
 title: "Record 7d949bcf52 · MindTopo-Can-Foundation-Models-Reason-in-Topologica"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T05:26:55.172662+00:00
+updated_at: 2026-09-28T09:47:21.591530+00:00
 tags: [record, real-data]
 ---
 

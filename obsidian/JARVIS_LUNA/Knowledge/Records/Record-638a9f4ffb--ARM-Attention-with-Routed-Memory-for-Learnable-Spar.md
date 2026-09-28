@@ -2,7 +2,7 @@
 title: "Record 638a9f4ffb · ARM-Attention-with-Routed-Memory-for-Learnable-Sparse-Control"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T05:26:55.582283+00:00
+updated_at: 2026-09-28T09:47:22.005189+00:00
 tags: [record, real-data]
 ---
 

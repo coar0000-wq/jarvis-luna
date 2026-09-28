@@ -2,7 +2,7 @@
 title: "Record ecc5882ee1 · Aerodynamic-Prior-Free-Coordinated-Trajectory-Gener"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T05:26:55.165869+00:00
+updated_at: 2026-09-28T09:47:21.584278+00:00
 tags: [record, real-data]
 ---
 

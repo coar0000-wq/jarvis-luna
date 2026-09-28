@@ -2,7 +2,7 @@
 title: "Record 84ad7bd42e · Learn-why-food-is-physical-AIs-hardest-problem-at-R"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T05:26:56.551146+00:00
+updated_at: 2026-09-28T09:47:22.961232+00:00
 tags: [record, real-data]
 ---
 

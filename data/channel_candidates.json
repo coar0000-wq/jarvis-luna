@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T14:56:32.324889+00:00",
+  "generated_at": "2026-09-28T09:45:51.045146+00:00",
   "generator": "scripts/discover_channels.py",
   "정책": "후보를 자동으로 등록하지 않는다. robots.txt 를 확인하고 실제로 호출해 본 뒤 진짜 데이터가 나오는 것만 제안한다. 붙일지 말지는 대화로 지시하면 자비스가 수집기를 만들어 연동한다. 이미 가동 중인 소스는 already_live 로 표시한다.",
   "판정기준": [
@@ -65,12 +65,12 @@
       "url": "https://www.allure.com/feed/rss",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 25913,
+      "bytes": 25594,
       "items": 30,
       "samples": [
-        "8 Best Night Creams 2026 for Softer, Plumper Skin by Morning",
-        "6 Best Clinical-Strength Deodorants for All-Day Freshness",
-        "14 Best Early Amazon Prime Day Mature Beauty Deals 2026"
+        "Lisa Just Brought a New Nail Shape to the VMAs 2026 Red Carpet—See the Photos",
+        "Taylor Swift's Diamond Frost Nails Made the VMAs 2026 Shimmer—See the Photos",
+        "Taylor Swift Put a Subtle Spin on Her Signature Cat-Eye Liner at the VMAs 2026—See the Photos"
       ],
       "verdict": "가능",
       "reason": "30건 파싱 성공, 값이 서로 다름",
@@ -97,12 +97,12 @@
       "url": "https://trends.google.com/trending/rss?geo=US",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 21435,
+      "bytes": 21181,
       "items": 40,
       "samples": [
-        "zay flowers",
-        "Zay Flowers Has a 'Real Opportunity' to Play vs. Cowboys; Nnamdi Madubuike Poised for Debut",
-        "Is Zay Flowers playing today? Ravens injury update for Week 3"
+        "japón - venezuela",
+        "¿Cómo y dónde ver? Japón vs Venezuela | EN VIVO | Copa Kirin",
+        "Aramburu y Yangel Herrera ante el Japón de Kubo hoy en Hiroshima"
       ],
       "verdict": "가능",
       "reason": "40건 파싱 성공, 값이 서로 다름",

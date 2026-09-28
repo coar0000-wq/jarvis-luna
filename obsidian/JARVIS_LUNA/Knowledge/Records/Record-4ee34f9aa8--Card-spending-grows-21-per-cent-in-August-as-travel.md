@@ -2,7 +2,7 @@
 title: "Record 4ee34f9aa8 · Card-spending-grows-21-per-cent-in-August-as-travel"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T05:26:55.709388+00:00
+updated_at: 2026-09-28T09:47:22.127147+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [home.barclays](https://home.barclays/news/press-releases/20260/090/card-spending-grows-2-1-per-cent-in-august--as-travel-rebounds-a/)
 
-**제목:** Card spending grows 2.1 per cent in August, as travel rebounds and confidence in household finances improves | Barclays
+**제목:** Card Spending Grows 2 1 Per Cent In August As Travel Rebounds A
 
-Card spending grows 2.1 per cent in August, as travel rebounds and confidence in household finances improves | Barclays
-Consumers’ confidence in their household finances, ability to live within their means, and spend on non-essentials all improved in August
+Card Spending Grows 2 1 Per Cent In August As Travel Rebounds A
 
 **출처:** Source · institutions
 

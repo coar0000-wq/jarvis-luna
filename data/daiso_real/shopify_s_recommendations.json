@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T14:56:08.588787+00:00",
+  "generated_at": "2026-09-28T09:43:51.831412+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
@@ -23,11 +23,11 @@
         "channel": "oliveyoung_us",
         "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
         "similarity": 0.733,
-        "demand_weight": 0.735,
+        "demand_weight": 0.882,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.539
+        "match_score": 0.647
       },
       "registerable": true,
       "registerable_source": "data/listing_gate.json",
@@ -53,22 +53,22 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.93,
+        "model_route_confidence": 0.91,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.702,
+        "confidence": 0.706,
         "usage": {
           "input_tokens": 1105,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.62,
+        "risk_score": 1.69,
         "model": "jev-1.13.0",
         "state_signature": "cdb95028555fb2cc1091059f8cd86fe4a993cc1cce6206584626e7d74b6ea8c6",
-        "decided_at": "2026-09-27T14:56:15.472211+00:00"
+        "decided_at": "2026-09-28T09:45:32.971736+00:00"
       },
-      "gate_generated_at": "2026-09-27T14:56:16.576171+00:00"
+      "gate_generated_at": "2026-09-28T09:45:34.713486+00:00"
     },
     {
       "rank": 2,
@@ -118,22 +118,22 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.94,
+        "model_route_confidence": 0.91,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.704,
+        "confidence": 0.72,
         "usage": {
           "input_tokens": 1085,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.69,
+        "risk_score": 1.58,
         "model": "jev-1.13.0",
         "state_signature": "51d0e73d5ba5ed41de4d4bf02811433e8f7ef09ef764ae07bb5b94a8cc530ea7",
-        "decided_at": "2026-09-27T14:56:15.567745+00:00"
+        "decided_at": "2026-09-28T09:45:33.140213+00:00"
       },
-      "gate_generated_at": "2026-09-27T14:56:16.576171+00:00"
+      "gate_generated_at": "2026-09-28T09:45:34.713486+00:00"
     },
     {
       "rank": 3,
@@ -152,11 +152,11 @@
         "channel": "oliveyoung_us",
         "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
         "similarity": 0.733,
-        "demand_weight": 0.735,
+        "demand_weight": 0.882,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.539
+        "match_score": 0.647
       },
       "registerable": true,
       "registerable_source": "data/listing_gate.json",
@@ -182,22 +182,22 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.91,
+        "model_route_confidence": 0.92,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.706,
+        "confidence": 0.718,
         "usage": {
           "input_tokens": 1104,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.59,
+        "risk_score": 1.6,
         "model": "jev-1.13.0",
         "state_signature": "51d0e73d5ba5ed41de4d4bf02811433e8f7ef09ef764ae07bb5b94a8cc530ea7",
-        "decided_at": "2026-09-27T14:56:15.669527+00:00"
+        "decided_at": "2026-09-28T09:45:33.333512+00:00"
       },
-      "gate_generated_at": "2026-09-27T14:56:16.576171+00:00"
+      "gate_generated_at": "2026-09-28T09:45:34.713486+00:00"
     },
     {
       "rank": 4,
@@ -211,17 +211,17 @@
       "s_rule": "ingredient+form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067498",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/wj1JQs4g8q0tBuz4c7jF1067498_00_01wj1JQs4g8q0tBuz4c7jF.jpg",
-      "recommend_reason": "글로벌 'Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 85% · 토큰 cream, pdrn",
+      "recommend_reason": "글로벌 'Lacto-PDRN 4% + B9 Eye Cream' (ulta_beauty) 유사 88% · 토큰 cream, pdrn",
       "matched_global": {
-        "channel": "oliveyoung_us",
-        "global_product": "Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
-        "similarity": 0.853,
-        "demand_weight": 0.49,
+        "channel": "ulta_beauty",
+        "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+        "similarity": 0.88,
+        "demand_weight": 0.425,
         "matched_tokens": [
           "cream",
           "pdrn"
         ],
-        "match_score": 0.418
+        "match_score": 0.374
       },
       "registerable": true,
       "registerable_source": "data/listing_gate.json",
@@ -247,22 +247,22 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.91,
+        "model_route_confidence": 0.92,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.694,
+        "confidence": 0.702,
         "usage": {
           "input_tokens": 1086,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.56,
+        "risk_score": 1.57,
         "model": "jev-1.13.0",
         "state_signature": "a235a30f46906db0e3e7198e8f998dc4cfdaf92ceac3f46d1cef17739f39ea0f",
-        "decided_at": "2026-09-27T14:56:15.807930+00:00"
+        "decided_at": "2026-09-28T09:45:33.527999+00:00"
       },
-      "gate_generated_at": "2026-09-27T14:56:16.576171+00:00"
+      "gate_generated_at": "2026-09-28T09:45:34.713486+00:00"
     },
     {
       "rank": 5,
@@ -316,18 +316,18 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.712,
+        "confidence": 0.698,
         "usage": {
           "input_tokens": 1097,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.6,
+        "risk_score": 1.56,
         "model": "jev-1.13.0",
         "state_signature": "a235a30f46906db0e3e7198e8f998dc4cfdaf92ceac3f46d1cef17739f39ea0f",
-        "decided_at": "2026-09-27T14:56:15.924086+00:00"
+        "decided_at": "2026-09-28T09:45:33.692778+00:00"
       },
-      "gate_generated_at": "2026-09-27T14:56:16.576171+00:00"
+      "gate_generated_at": "2026-09-28T09:45:34.713486+00:00"
     },
     {
       "rank": 6,
@@ -341,17 +341,17 @@
       "s_rule": "ingredient+form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1075857",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260205/Cg7pPAF0QMRSGGKdsWZw1075857_00_01Cg7pPAF0QMRSGGKdsWZw.jpg",
-      "recommend_reason": "글로벌 'Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 65% · 토큰 cream, pdrn",
+      "recommend_reason": "글로벌 'Lacto-PDRN 4% + B9 Eye Cream' (ulta_beauty) 유사 68% · 토큰 cream, pdrn",
       "matched_global": {
-        "channel": "oliveyoung_us",
-        "global_product": "Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
-        "similarity": 0.653,
-        "demand_weight": 0.49,
+        "channel": "ulta_beauty",
+        "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+        "similarity": 0.68,
+        "demand_weight": 0.425,
         "matched_tokens": [
           "cream",
           "pdrn"
         ],
-        "match_score": 0.32
+        "match_score": 0.289
       },
       "registerable": true,
       "registerable_source": "data/listing_gate.json",
@@ -377,172 +377,25 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.9,
+        "model_route_confidence": 0.91,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.686,
+        "confidence": 0.684,
         "usage": {
           "input_tokens": 1090,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.57,
+        "risk_score": 1.6,
         "model": "jev-1.13.0",
         "state_signature": "9cd2800fc8d4cac3636219a503b910fbb2b0924bd299e98e77065bc73dc4dcbb",
-        "decided_at": "2026-09-27T14:56:16.076355+00:00"
+        "decided_at": "2026-09-28T09:45:33.874966+00:00"
       },
-      "gate_generated_at": "2026-09-27T14:56:16.576171+00:00"
+      "gate_generated_at": "2026-09-28T09:45:34.713486+00:00"
     },
     {
       "rank": 7,
-      "canonical_product_id": "CP000109",
-      "pd_no": "1049285",
-      "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-      "bucket": "스킨케어",
-      "price_krw": 3000,
-      "shopify_score": 93,
-      "grade": "S",
-      "s_rule": "multi_token",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250929/gblFwiiyQbV92ezzjLMk1049285_00_01gblFwiiyQbV92ezzjLMk.jpg",
-      "recommend_reason": "글로벌 'Smushy SOS Hydrating Lip Mask' (ulta_beauty) 유사 73% · 토큰 hydrating, mask",
-      "matched_global": {
-        "channel": "ulta_beauty",
-        "global_product": "Smushy SOS Hydrating Lip Mask",
-        "similarity": 0.733,
-        "demand_weight": 0.425,
-        "matched_tokens": [
-          "hydrating",
-          "mask"
-        ],
-        "match_score": 0.312
-      },
-      "registerable": true,
-      "registerable_source": "data/listing_gate.json",
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "blocked_by": [],
-      "public_ready": false,
-      "public_blocked_by": [
-        "legal_full"
-      ],
-      "typesafe": {
-        "framework": "typesafe_system_one_compatible",
-        "enabled": true,
-        "mode": "typesafe_observational_free_credits",
-        "source": "typesafe",
-        "paid_api_called": false,
-        "enforced": false,
-        "grade_advisory": "hold",
-        "legal_gate_advisory": "review",
-        "risk_level": "high",
-        "risk_points": 1,
-        "team_routes": [
-          "legal"
-        ],
-        "model_route": "human",
-        "model_route_confidence": 0.95,
-        "findings": [
-          "public blockers: legal_full"
-        ],
-        "confidence": 0.692,
-        "usage": {
-          "input_tokens": 1096,
-          "output_tokens": 198
-        },
-        "free_credits_only": true,
-        "risk_score": 1.54,
-        "model": "jev-1.13.0",
-        "state_signature": "e05a0e27591e0c95f4d9b69ae7367544fdcdf352632872cce305bc9033dca5a5",
-        "decided_at": "2026-09-27T14:56:16.216846+00:00"
-      },
-      "gate_generated_at": "2026-09-27T14:56:16.576171+00:00"
-    },
-    {
-      "rank": 8,
-      "canonical_product_id": "CP000038",
-      "pd_no": "1027327",
-      "name": "바세린 마스크팩 집중보습",
-      "bucket": "마스크팩",
-      "price_krw": 1000,
-      "shopify_score": 91,
-      "grade": "S",
-      "s_rule": "multi_token",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027327&recmYn=N",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251231/a1rTbe8LgoPw9mu5HABd1027327_00_00a1rTbe8LgoPw9mu5HABd.jpg",
-      "recommend_reason": "글로벌 'Smushy SOS Hydrating Lip Mask' (ulta_beauty) 유사 73% · 토큰 hydrating, mask",
-      "matched_global": {
-        "channel": "ulta_beauty",
-        "global_product": "Smushy SOS Hydrating Lip Mask",
-        "similarity": 0.733,
-        "demand_weight": 0.425,
-        "matched_tokens": [
-          "hydrating",
-          "mask"
-        ],
-        "match_score": 0.312
-      },
-      "registerable": false,
-      "registerable_source": "data/listing_gate.json",
-      "agent_ready": false,
-      "agent_blocked_by": [
-        "gosi",
-        "us_label",
-        "legal"
-      ],
-      "blocked_by": [
-        "copy",
-        "gosi",
-        "us_label",
-        "legal"
-      ],
-      "public_ready": false,
-      "public_blocked_by": [
-        "copy",
-        "gosi",
-        "us_label",
-        "legal",
-        "legal_full"
-      ],
-      "typesafe": {
-        "framework": "typesafe_system_one_compatible",
-        "enabled": true,
-        "mode": "typesafe_observational_free_credits",
-        "source": "typesafe",
-        "paid_api_called": false,
-        "enforced": false,
-        "grade_advisory": "hold",
-        "legal_gate_advisory": "block",
-        "risk_level": "critical",
-        "risk_points": 8,
-        "team_routes": [
-          "legal",
-          "sourcing",
-          "listing"
-        ],
-        "model_route": "human",
-        "model_route_confidence": 0.91,
-        "findings": [
-          "draft blockers: copy, gosi, us_label, legal",
-          "public blockers: copy, gosi, us_label, legal, legal_full",
-          "legal hard block"
-        ],
-        "confidence": 0.95,
-        "usage": {
-          "input_tokens": 1123,
-          "output_tokens": 198
-        },
-        "free_credits_only": true,
-        "risk_score": 2.87,
-        "model": "jev-1.13.0",
-        "state_signature": "d61ecd04d1d116381a0d0586489ed0463e0219c7fa62516b3702e91d14aa12af",
-        "decided_at": "2026-09-27T14:56:16.313115+00:00"
-      },
-      "gate_generated_at": "2026-09-27T14:56:16.576171+00:00"
-    },
-    {
-      "rank": 9,
       "canonical_product_id": "CP000151",
       "pd_no": "1059834",
       "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
@@ -581,30 +434,173 @@
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "hold",
+        "grade_advisory": "review",
         "legal_gate_advisory": "review",
-        "risk_level": "high",
+        "risk_level": "medium",
         "risk_points": 1,
         "team_routes": [
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.94,
+        "model_route_confidence": 0.95,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.704,
+        "confidence": 0.72,
         "usage": {
           "input_tokens": 1094,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.5,
+        "risk_score": 1.45,
         "model": "jev-1.13.0",
         "state_signature": "72531625bdb11b67ee797df5b076b36210e54f4a386ed65f9afe25a575270ba5",
-        "decided_at": "2026-09-27T14:56:16.463280+00:00"
+        "decided_at": "2026-09-28T09:45:34.123335+00:00"
       },
-      "gate_generated_at": "2026-09-27T14:56:16.576171+00:00"
+      "gate_generated_at": "2026-09-28T09:45:34.713486+00:00"
+    },
+    {
+      "rank": 8,
+      "canonical_product_id": "CP000109",
+      "pd_no": "1049285",
+      "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
+      "bucket": "스킨케어",
+      "price_krw": 3000,
+      "shopify_score": 89,
+      "grade": "S",
+      "s_rule": "multi_token",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250929/gblFwiiyQbV92ezzjLMk1049285_00_01gblFwiiyQbV92ezzjLMk.jpg",
+      "recommend_reason": "글로벌 'Smushy SOS Hydrating Lip Mask' (ulta_beauty) 유사 73% · 토큰 hydrating, mask",
+      "matched_global": {
+        "channel": "ulta_beauty",
+        "global_product": "Smushy SOS Hydrating Lip Mask",
+        "similarity": 0.733,
+        "demand_weight": 0.425,
+        "matched_tokens": [
+          "hydrating",
+          "mask"
+        ],
+        "match_score": 0.312
+      },
+      "registerable": true,
+      "registerable_source": "data/listing_gate.json",
+      "agent_ready": true,
+      "agent_blocked_by": [],
+      "blocked_by": [],
+      "public_ready": false,
+      "public_blocked_by": [
+        "legal_full"
+      ],
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": true,
+        "mode": "typesafe_observational_free_credits",
+        "source": "typesafe",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "review",
+        "legal_gate_advisory": "review",
+        "risk_level": "high",
+        "risk_points": 2,
+        "team_routes": [
+          "legal"
+        ],
+        "model_route": "human",
+        "model_route_confidence": 0.93,
+        "findings": [
+          "public blockers: legal_full"
+        ],
+        "confidence": 0.696,
+        "usage": {
+          "input_tokens": 1096,
+          "output_tokens": 198
+        },
+        "free_credits_only": true,
+        "risk_score": 1.53,
+        "model": "jev-1.13.0",
+        "state_signature": "e370dff839120acc27ebfdefe0d9905a87a2ce0c6e34a9ae66036956848cc7e1",
+        "decided_at": "2026-09-28T09:45:34.334780+00:00"
+      },
+      "gate_generated_at": "2026-09-28T09:45:34.713486+00:00"
+    },
+    {
+      "rank": 9,
+      "canonical_product_id": "CP000038",
+      "pd_no": "1027327",
+      "name": "바세린 마스크팩 집중보습",
+      "bucket": "마스크팩",
+      "price_krw": 1000,
+      "shopify_score": 89,
+      "grade": "S",
+      "s_rule": "multi_token",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027327&recmYn=N",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251231/a1rTbe8LgoPw9mu5HABd1027327_00_00a1rTbe8LgoPw9mu5HABd.jpg",
+      "recommend_reason": "글로벌 'Smushy SOS Hydrating Lip Mask' (ulta_beauty) 유사 73% · 토큰 hydrating, mask",
+      "matched_global": {
+        "channel": "ulta_beauty",
+        "global_product": "Smushy SOS Hydrating Lip Mask",
+        "similarity": 0.733,
+        "demand_weight": 0.425,
+        "matched_tokens": [
+          "hydrating",
+          "mask"
+        ],
+        "match_score": 0.312
+      },
+      "registerable": false,
+      "registerable_source": "data/listing_gate.json",
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "us_label",
+        "legal"
+      ],
+      "blocked_by": [
+        "copy",
+        "us_label",
+        "legal"
+      ],
+      "public_ready": false,
+      "public_blocked_by": [
+        "copy",
+        "us_label",
+        "legal",
+        "legal_full"
+      ],
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": true,
+        "mode": "typesafe_observational_free_credits",
+        "source": "typesafe",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "hold",
+        "legal_gate_advisory": "block",
+        "risk_level": "critical",
+        "risk_points": 8,
+        "team_routes": [
+          "legal",
+          "listing"
+        ],
+        "model_route": "human",
+        "model_route_confidence": 0.88,
+        "findings": [
+          "draft blockers: copy, us_label, legal",
+          "public blockers: copy, us_label, legal, legal_full",
+          "legal hard block"
+        ],
+        "confidence": 0.89,
+        "usage": {
+          "input_tokens": 1113,
+          "output_tokens": 198
+        },
+        "free_credits_only": true,
+        "risk_score": 2.64,
+        "model": "jev-1.13.0",
+        "state_signature": "6a8717070ad2bca1105bb9417b1c344a694d4ce599eb319fe88ce4fd91ae93ff",
+        "decided_at": "2026-09-28T09:45:34.540904+00:00"
+      },
+      "gate_generated_at": "2026-09-28T09:45:34.713486+00:00"
     },
     {
       "rank": 10,
@@ -613,7 +609,7 @@
       "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
       "bucket": "마스크팩",
       "price_krw": 1000,
-      "shopify_score": 88,
+      "shopify_score": 85,
       "grade": "S",
       "s_rule": "ingredient+form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
@@ -648,28 +644,28 @@
         "enforced": false,
         "grade_advisory": "review",
         "legal_gate_advisory": "review",
-        "risk_level": "medium",
+        "risk_level": "high",
         "risk_points": 2,
         "team_routes": [
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.92,
+        "model_route_confidence": 0.94,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.716,
+        "confidence": 0.704,
         "usage": {
           "input_tokens": 1091,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.47,
+        "risk_score": 1.54,
         "model": "jev-1.13.0",
-        "state_signature": "056b49377500e8706a467cb391d5c4e59863606a6588d742d745395c1c4e14fa",
-        "decided_at": "2026-09-27T14:56:16.576137+00:00"
+        "state_signature": "5e2f905da436816b542b94ec498c05c939ebf779832f7f7ab48cf741dc0a99c4",
+        "decided_at": "2026-09-28T09:45:34.713446+00:00"
       },
-      "gate_generated_at": "2026-09-27T14:56:16.576171+00:00"
+      "gate_generated_at": "2026-09-28T09:45:34.713486+00:00"
     }
   ],
   "agent_ready_count": 9,

@@ -2,7 +2,7 @@
 title: "Record 437fea8e7c · DPed-VLN-A-Benchmark-for-Socially-Compliant-Vision-and-Language-Naviga"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T05:26:55.568846+00:00
+updated_at: 2026-09-28T09:47:21.992990+00:00
 tags: [record, real-data]
 ---
 

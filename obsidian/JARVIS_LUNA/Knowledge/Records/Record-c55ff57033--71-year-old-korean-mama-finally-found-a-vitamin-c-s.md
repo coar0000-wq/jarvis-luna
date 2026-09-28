@@ -2,7 +2,7 @@
 title: "Record c55ff57033 · 71-year-old-korean-mama-finally-found-a-vitamin-c-s"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T05:26:56.593437+00:00
+updated_at: 2026-09-28T09:47:23.002724+00:00
 tags: [record, real-data]
 ---
 

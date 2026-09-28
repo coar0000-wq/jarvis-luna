@@ -2,7 +2,7 @@
 title: "Record c35fbe3e8d · The-effective-use-of-artificial-intelligence-in-patent-searches-A-case"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T05:26:55.337472+00:00
+updated_at: 2026-09-28T09:47:21.763005+00:00
 tags: [record, real-data]
 ---
 

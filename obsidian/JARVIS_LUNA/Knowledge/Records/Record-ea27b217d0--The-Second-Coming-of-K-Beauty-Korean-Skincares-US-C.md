@@ -2,7 +2,7 @@
 title: "Record ea27b217d0 · The-Second-Coming-of-K-Beauty-Korean-Skincares-US-C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T05:26:55.845770+00:00
+updated_at: 2026-09-28T09:47:22.263335+00:00
 tags: [record, real-data]
 ---
 

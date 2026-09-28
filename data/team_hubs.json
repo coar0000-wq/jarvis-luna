@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-27T14:58:03.661482+00:00",
+  "generated_at": "2026-09-28T09:47:23.548480+00:00",
   "generator": "scripts/build_team_hubs.py",
   "왜": "Records 가 볼트의 98.6% 라 그래프뷰가 허브 몇 개에 점 수만 개가 매달린 모습이었다. Record -> Topic -> 팀 으로 층을 하나 넣는다.",
   "방식": "Record 파일 3만 7천 개는 건드리지 않는다. Topic 노트에 팀 링크를 한 줄 더하는 것으로 층이 생긴다. 파일을 3만 개 고쳐 쓰면 커밋이 터진다.",
   "vault": {
     "ref": "origin/main",
-    "records": 81618,
+    "records": 81984,
     "topics": 28,
     "orgs": 35
   },
   "corpus_by_source": {
     "arxiv": 601,
-    "us_beauty": 589,
+    "us_beauty": 626,
     "robotics": 395,
-    "institutions": 1892,
+    "institutions": 1942,
     "organic_skincare": 15,
-    "google": 1066,
+    "google": 1070,
     "youtube": 227
   },
   "teams": 10,
@@ -25,6 +25,19 @@
   ],
   "topics_missing": [],
   "items": [
+    {
+      "team": "기관 수집팀",
+      "topics": [
+        "투자은행금융",
+        "반도체하드웨어",
+        "경영전략"
+      ],
+      "corpus_now": 1942,
+      "sources": [
+        "institutions"
+      ],
+      "note": "obsidian/JARVIS_LUNA/Knowledge/Teams/팀 · 기관 수집팀.md"
+    },
     {
       "team": "지식 수집팀",
       "topics": [
@@ -44,26 +57,13 @@
         "인프라클라우드",
         "과학수학"
       ],
-      "corpus_now": 1894,
+      "corpus_now": 1898,
       "sources": [
         "arxiv",
         "google",
         "youtube"
       ],
       "note": "obsidian/JARVIS_LUNA/Knowledge/Teams/팀 · 지식 수집팀.md"
-    },
-    {
-      "team": "기관 수집팀",
-      "topics": [
-        "투자은행금융",
-        "반도체하드웨어",
-        "경영전략"
-      ],
-      "corpus_now": 1892,
-      "sources": [
-        "institutions"
-      ],
-      "note": "obsidian/JARVIS_LUNA/Knowledge/Teams/팀 · 기관 수집팀.md"
     },
     {
       "team": "마케팅 조사팀",
@@ -74,7 +74,7 @@
         "이커머스Shopify",
         "Shopify-Commerce"
       ],
-      "corpus_now": 1655,
+      "corpus_now": 1696,
       "sources": [
         "google",
         "us_beauty"
@@ -86,7 +86,7 @@
       "topics": [
         "뷰티스킨케어"
       ],
-      "corpus_now": 589,
+      "corpus_now": 626,
       "sources": [
         "us_beauty"
       ],

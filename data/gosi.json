@@ -812,6 +812,20 @@
       "alt_reached_end": false,
       "alt_collected_at": "2026-09-20T21:05:16.977340+00:00",
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067495"
+    },
+    "1027327": {
+      "volume": "23 ml / 0.78 fl. oz.",
+      "maker": "(주)메가코스 / 유니레버코리아(주)",
+      "origin": "대한민국",
+      "ingredients": "정제수, 글리세린, 세틸에틸헥사노에이트, 메틸프로판다이올, 1,2-헥사다이올, 부틸렌글라이콜, 세테아릴알코올, 글리세릴스테아레이트, 다이메티콘, 폴리솔베이트20, 피이지-100 스테아레이트, 페트롤라툼(1000 ppm), 카보머, 트로메타민, 에틸헥실글리세린, 잔탄검, 아데노신, 다이소듐이디티에이, 세라마이드엔피, 자몽껍질오일, 트라이에틸헥사노인, 하이드로제네이티드폴리데센, 콜레스테롤, 토코페놀, 리모넨",
+      "warnings": "1) 화장품 사용 시 또는 사용 후 직사광선에 의하여 사용 부위가 붉은 반점, 부어오름 또는 가려움증 등의 이상 증상이나 부작용이 있는 경우 전문의 등과 상담할 것 2) 상처가 있는 부위 등에는 사용을 자제할 것",
+      "name": "",
+      "alt_source": "rendered_page_img_alt",
+      "alt_len": 5074,
+      "alt_expand": "already_open",
+      "alt_reached_end": false,
+      "alt_collected_at": "2026-09-28T09:45:25.168242+00:00",
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027327"
     }
   },
   "사람이_할_일": "gosi_image 를 열면 제품명·용량·사용기한·기능성·제조업자·제조국·전성분이 한 표에 인쇄되어 있다. 그것을 보고 volume, ingredients, maker 를 채운다. 표를 그대로 옮겨 적고 요약하지 않는다.",
@@ -830,33 +844,31 @@
   ],
   "vision_at": "2026-09-21T11:54:52.414585+00:00",
   "수집_설명": "공식 고시 API는 대부분 '상세페이지 참조'. 사용자가 보는 고시 표는 상품설명 더보기 상세 이미지. 이미지는 data/daiso_real/gosi_img/ 에 저장. 전성분·제조사는 비전 추출 또는 수동 입력이 필요하다.",
-  "updated_at": "2026-09-20T21:05:17.040479+00:00",
+  "updated_at": "2026-09-28T09:45:25.294372+00:00",
   "source": "daisomall.co.kr",
   "alt_수집": {
     "generator": "scripts/daiso/collect_gosi_alt.py",
     "방식": "렌더링된 페이지의 img alt 에서 글자를 꺼낸다. 이미지를 내려받아 비전으로 읽지 않는다. alt 가 이미 글자다.",
     "robots": "/pd/pdr/ Allow · Crawl-delay 30 준수",
-    "ran_at": "2026-09-20T21:05:17.040493+00:00",
+    "ran_at": "2026-09-28T09:45:25.294386+00:00",
     "대상": 1,
     "채움": 1,
     "못찾음": [],
     "상품별": [
       {
-        "pd_no": "1067495",
-        "alt_len": 5574,
+        "pd_no": "1027327",
+        "alt_len": 5074,
         "찾음": [
-          "expiry",
           "ingredients",
           "maker",
           "origin",
-          "usage",
           "volume",
           "warnings"
         ],
         "채움": [
-          "expiry",
-          "usage",
+          "volume",
           "maker",
+          "origin",
           "ingredients",
           "warnings"
         ],

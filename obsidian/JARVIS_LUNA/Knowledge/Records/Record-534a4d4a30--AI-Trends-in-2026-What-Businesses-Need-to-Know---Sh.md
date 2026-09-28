@@ -2,7 +2,7 @@
 title: "Record 534a4d4a30 · AI-Trends-in-2026-What-Businesses-Need-to-Know---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T05:26:55.761549+00:00
+updated_at: 2026-09-28T09:47:22.179617+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiT0FVX3lxTE9ITEZObjdZOElpeHQ2eGJoYUdRZGZHbjBwWXVWN0FzeWtSQzRfVmJwVGNranRhR2M4akY1NFEtOEFQMksyX1N6WjZkQi14TlE?oc=5)
 
-**제목:** AI Trends in 2026: What Businesses Need to Know - shopify.com
+**제목:** AI Trends in 2026: What Businesses Need to Know - Shopify
 
-AI Trends in 2026: What Businesses Need to Know - shopify.com
+AI Trends in 2026: What Businesses Need to Know - Shopify
 
 **출처:** Source · Google Search
 

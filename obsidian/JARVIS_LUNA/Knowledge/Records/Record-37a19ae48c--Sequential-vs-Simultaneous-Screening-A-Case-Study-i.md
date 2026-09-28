@@ -2,7 +2,7 @@
 title: "Record 37a19ae48c · Sequential-vs-Simultaneous-Screening-A-Case-Study-in-Quality-Investing"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T05:26:55.512332+00:00
+updated_at: 2026-09-28T09:47:21.934984+00:00
 tags: [record, real-data]
 ---
 

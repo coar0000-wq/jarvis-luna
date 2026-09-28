@@ -2,7 +2,7 @@
 title: "기관 · Dataiku"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T05:26:57.011604+00:00
+updated_at: 2026-09-28T09:47:23.428044+00:00
 tags: [org, real-data]
 ---
 

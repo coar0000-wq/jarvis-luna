@@ -2,7 +2,7 @@
 title: "Record 7f1d0764e6 · How-ByUR-Wins-in-the-Crowded-KBeauty-Market---US-Ch"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T05:26:55.951902+00:00
+updated_at: 2026-09-28T09:47:22.370172+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMihgFBVV95cUxOaUFyQndDRVVtQ2RoM2VkbFFrZkNUWnhyRG1fa3pScFRnNWp3WU1BMU1jckpsaDdoMkYxRGxZcXk4UlZ1WkZ3UVFUOW8wck1KRU03Z0hsVEMtYlI4U0xyblA1aFdxM09vV2VzeFc3YVdXVkhnaHVQMjNRZ3J3aUgtQlUzMzBndw?oc=5)
 
-**제목:** How ByUR Wins in the Crowded K‑Beauty Market - uschamber.com
+**제목:** How ByUR Wins in the Crowded K‑Beauty Market - US Chamber
 
-How ByUR Wins in the Crowded K‑Beauty Market - uschamber.com
+How ByUR Wins in the Crowded K‑Beauty Market - US Chamber
 
 **출처:** Source · Google Search
 

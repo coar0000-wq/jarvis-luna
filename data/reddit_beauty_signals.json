@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-27T14:48:55.759947+00:00",
+  "collected_at": "2026-09-28T09:35:33.246536+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -48,14 +48,6 @@
       "score": 4
     },
     {
-      "keyword": "routine",
-      "score": 4
-    },
-    {
-      "keyword": "skin",
-      "score": 4
-    },
-    {
       "keyword": "september",
       "score": 3
     },
@@ -64,31 +56,23 @@
       "score": 3
     },
     {
-      "keyword": "which",
+      "keyword": "using",
+      "score": 3
+    },
+    {
+      "keyword": "alternative",
       "score": 2
     },
     {
-      "keyword": "one",
+      "keyword": "peripera",
       "score": 2
     },
     {
-      "keyword": "better",
+      "keyword": "anyone",
       "score": 2
     },
     {
-      "keyword": "retinol",
-      "score": 2
-    },
-    {
-      "keyword": "body",
-      "score": 2
-    },
-    {
-      "keyword": "cream",
-      "score": 2
-    },
-    {
-      "keyword": "korean",
+      "keyword": "spf",
       "score": 2
     },
     {
@@ -96,15 +80,43 @@
       "score": 2
     },
     {
-      "keyword": "txa",
+      "keyword": "collagen",
       "score": 2
     },
     {
-      "keyword": "affordable",
+      "keyword": "like",
       "score": 2
     },
     {
-      "keyword": "who",
+      "keyword": "k-beauty",
+      "score": 2
+    },
+    {
+      "keyword": "moisturizers",
+      "score": 2
+    },
+    {
+      "keyword": "water",
+      "score": 2
+    },
+    {
+      "keyword": "look",
+      "score": 2
+    },
+    {
+      "keyword": "k-skincare",
+      "score": 2
+    },
+    {
+      "keyword": "sure",
+      "score": 2
+    },
+    {
+      "keyword": "while",
+      "score": 2
+    },
+    {
+      "keyword": "korean",
       "score": 2
     },
     {
@@ -112,7 +124,7 @@
       "score": 2
     },
     {
-      "keyword": "favorite",
+      "keyword": "routine",
       "score": 2
     },
     {
@@ -120,11 +132,11 @@
       "score": 2
     },
     {
-      "keyword": "eyeshadow",
+      "keyword": "toners",
       "score": 2
     },
     {
-      "keyword": "toners",
+      "keyword": "eyeshadow",
       "score": 2
     },
     {
@@ -132,23 +144,11 @@
       "score": 2
     },
     {
+      "keyword": "skin",
+      "score": 2
+    },
+    {
       "keyword": "mist",
-      "score": 2
-    },
-    {
-      "keyword": "asian",
-      "score": 2
-    },
-    {
-      "keyword": "hair",
-      "score": 2
-    },
-    {
-      "keyword": "cushion",
-      "score": 2
-    },
-    {
-      "keyword": "serum",
       "score": 2
     },
     {
@@ -172,35 +172,35 @@
       "score": 1
     },
     {
-      "keyword": "product",
+      "keyword": "makeup",
       "score": 1
     },
     {
-      "keyword": "authenticity",
+      "keyword": "monday",
       "score": 1
     },
     {
-      "keyword": "thursday",
+      "keyword": "shade",
       "score": 1
     },
     {
-      "keyword": "baking",
+      "keyword": "chestnut",
       "score": 1
     },
     {
-      "keyword": "purposes",
+      "keyword": "nude",
       "score": 1
     },
     {
-      "keyword": "brighter",
+      "keyword": "ink",
       "score": 1
     },
     {
-      "keyword": "blush",
+      "keyword": "velvet",
       "score": 1
     },
     {
-      "keyword": "sunburnt",
+      "keyword": "bbia",
       "score": 1
     }
   ],
@@ -210,15 +210,23 @@
       "score": 4
     },
     {
-      "keyword": "routine",
-      "score": 4
+      "keyword": "spf",
+      "score": 2
     },
     {
-      "keyword": "skin",
-      "score": 4
+      "keyword": "collagen",
+      "score": 2
     },
     {
-      "keyword": "retinol",
+      "keyword": "k-beauty",
+      "score": 2
+    },
+    {
+      "keyword": "moisturizers",
+      "score": 2
+    },
+    {
+      "keyword": "k-skincare",
       "score": 2
     },
     {
@@ -230,15 +238,15 @@
       "score": 2
     },
     {
+      "keyword": "routine",
+      "score": 2
+    },
+    {
       "keyword": "toners",
       "score": 2
     },
     {
-      "keyword": "cushion",
-      "score": 2
-    },
-    {
-      "keyword": "serum",
+      "keyword": "skin",
       "score": 2
     }
   ],
@@ -251,16 +259,65 @@
       "feed": "hot"
     },
     {
-      "title": "Product Authenticity Thursday September 24, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1woxj3j/product_authenticity_thursday_september_24_2026/",
-      "published": "2026-09-24T10:00:47+00:00",
+      "title": "Makeup Monday September 28, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1ws4f6t/makeup_monday_september_28_2026/",
+      "published": "2026-09-28T04:00:29+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "which one is better for baking purposes,brighter",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wrgtsp/which_one_is_better_for_baking_purposesbrighter/",
-      "published": "2026-09-27T10:29:14+00:00",
+      "title": "Shade alternative for the 44 chestnut nude of Peripera Ink Velvet",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1ws4ch8/shade_alternative_for_the_44_chestnut_nude_of/",
+      "published": "2026-09-28T03:56:30+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Anyone have Bbia Downy Apple Red?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1ws2i1z/anyone_have_bbia_downy_apple_red/",
+      "published": "2026-09-28T02:20:35+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Handcream with SPF",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wrrqub/handcream_with_spf/",
+      "published": "2026-09-27T18:32:28+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "At what specific age, did you guys starting using anti-aging products with peptides, hydrolyzed collagen, and the like.",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wrsu45/at_what_specific_age_did_you_guys_starting_using/",
+      "published": "2026-09-27T19:14:43+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "K-beauty lip contour stain",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1ws5xtt/kbeauty_lip_contour_stain/",
+      "published": "2026-09-28T05:23:17+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "does anyone knows what is this called?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wroben/does_anyone_knows_what_is_this_called/",
+      "published": "2026-09-27T16:17:17+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Acne-prone. Mild or moderate acne, which ingredients do you avoid in moisturizers?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1ws5jyd/acneprone_mild_or_moderate_acne_which_ingredients/",
+      "published": "2026-09-28T05:01:29+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Peripera water bare tint #11 Hip Rose but better formula?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wro93w/peripera_water_bare_tint_11_hip_rose_but_better/",
+      "published": "2026-09-27T16:14:40+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -272,9 +329,16 @@
       "feed": "hot"
     },
     {
-      "title": "Thoughts on Some By MI Retinol Retinal Firming Body Cream",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wrixoo/thoughts_on_some_by_mi_retinol_retinal_firming/",
-      "published": "2026-09-27T12:25:40+00:00",
+      "title": "Anything Goes Sunday: September 27, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wruzzo/anything_goes_sunday_september_27_2026/",
+      "published": "2026-09-27T20:39:10+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Recently discovered k-skincare and I like them. I'm not sure the preservative system is sufficient to make sure the product is free of bacteria, yeast, mold, fungi after opening and while using it.",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1ws6wr4/recently_discovered_kskincare_and_i_like_them_im/",
+      "published": "2026-09-28T06:19:38+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -282,13 +346,6 @@
       "title": "Korean products using western techniques",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wqosqc/korean_products_using_western_techniques/",
       "published": "2026-09-26T12:02:07+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Cos De Baha 5% TXA vs 10% TXA. Which one is better for reducing hyperpigmentation?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wralp8/cos_de_baha_5_txa_vs_10_txa_which_one_is_better/",
-      "published": "2026-09-27T04:21:53+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -314,13 +371,6 @@
       "feed": "hot"
     },
     {
-      "title": "Your favorite Japanese eyeshadow?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wqpsqo/your_favorite_japanese_eyeshadow/",
-      "published": "2026-09-26T12:52:49+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
       "title": "Jumbo size Japanese Toners Review",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wqq6lx/jumbo_size_japanese_toners_review/",
       "published": "2026-09-26T13:10:34+00:00",
@@ -328,9 +378,9 @@
       "feed": "hot"
     },
     {
-      "title": "What is your skin prep?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wr8n9q/what_is_your_skin_prep/",
-      "published": "2026-09-27T02:38:49+00:00",
+      "title": "Your favorite Japanese eyeshadow?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wqpsqo/your_favorite_japanese_eyeshadow/",
+      "published": "2026-09-26T12:52:49+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -342,9 +392,23 @@
       "feed": "hot"
     },
     {
+      "title": "What kind of procedures create this \"plump face\" look?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wrs2en/what_kind_of_procedures_create_this_plump_face/",
+      "published": "2026-09-27T18:44:55+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Looking for a white eyeshadow or highlight with this sort of shine",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wqdlq9/looking_for_a_white_eyeshadow_or_highlight_with/",
       "published": "2026-09-26T01:21:53+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "What is your skin prep?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wr8n9q/what_is_your_skin_prep/",
+      "published": "2026-09-27T02:38:49+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -359,62 +423,6 @@
       "title": "What would be an alternative for the Muji cream mist / touch up mist?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wr1awk/what_would_be_an_alternative_for_the_muji_cream/",
       "published": "2026-09-26T20:52:18+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Your favorite Asian MUA with hooded eyes and epicanthic fold?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wqyz7q/your_favorite_asian_mua_with_hooded_eyes_and/",
-      "published": "2026-09-26T19:16:09+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Anything Goes Saturday: September 26, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wr0zq3/anything_goes_saturday_september_26_2026/",
-      "published": "2026-09-26T20:39:13+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Does pilling occur if you aren't wearing makeup?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wqkz2z/does_pilling_occur_if_you_arent_wearing_makeup/",
-      "published": "2026-09-26T08:10:09+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "affordable volumising hair products for asian hair",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wqn1c7/affordable_volumising_hair_products_for_asian_hair/",
-      "published": "2026-09-26T10:21:41+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Pinkflash face palette (Caramel 3)",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wqp3vc/pinkflash_face_palette_caramel_3/",
-      "published": "2026-09-26T12:18:15+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Bottled foundation similar to Jung saem mool essential skin nuder cushion?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wqhg34/bottled_foundation_similar_to_jung_saem_mool/",
-      "published": "2026-09-26T04:43:06+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "How do you wear light pink/peach lip colors if your natural lips are quite dark/pigmented?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wpplh9/how_do_you_wear_light_pinkpeach_lip_colors_if/",
-      "published": "2026-09-25T07:04:57+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Dear to dr Althea and to everyone who uses the 345 serum in their routine , pls be careful :(",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wrcsok/dear_to_dr_althea_and_to_everyone_who_uses_the/",
-      "published": "2026-09-27T06:26:06+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }
