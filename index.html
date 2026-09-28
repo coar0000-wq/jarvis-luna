@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
@@ -1019,6 +1019,7 @@ function getPreviousMonthRevenue(){
 }
 
 function previousMonthRevenueTile(t){
+  const data = window.__monthlyRevenue || {};
   const info = getPreviousMonthRevenue();
   if(!info){
     return t('dz-slate','전달 수입','미연동','monthly_revenue.json 없음');
@@ -1027,6 +1028,10 @@ function previousMonthRevenueTile(t){
   const amt = row && row.revenue_usd != null ? Number(row.revenue_usd) : null;
   if(amt == null || isNaN(amt)){
     return t('dz-slate','전달 수입 ('+info.label+')','실매출 없음','Shopify 월 매출 입력 필요');
+  }
+  // 임시·수동 추정값은 실측으로 보이면 안 된다 (2026-09-28: 임시값 $7,113 이 '실측 매출'로 떠 있었다).
+  if(String(data.source||'').indexOf('temporary')>=0 || String(row.source||'').indexOf('temporary')>=0){
+    return t('dz-slate','전달 수입 ('+info.label+')','임시값','실매출 아님 · 표시 안 함');
   }
   const orders = row.orders != null ? ('주문 '+row.orders+'건') : '실측 매출';
   return t('dz-green','전달 수입 ('+info.label+')','$'+amt.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}), orders);

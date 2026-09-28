@@ -1,24 +1,10 @@
 {
-  "updated_at": "2026-09-02T11:11:27.319067+00:00",
+  "updated_at": "2026-09-28T13:00:00+00:00",
   "currency": "USD",
-  "source": "manual_temporary",
-  "truth_note": "8월 매출",
+  "source": "none",
+  "truth_note": "미국 판매 개시 전. 2026-08 에 적혀 있던 $7,113 은 임시 기재값이라고 사용자 확인(2026-09-28) 후 지웠다. 실매출이 생기면 Shopify 월 매출만 넣는다.",
   "months": [
-    {
-      "year": 2026,
-      "month": 8,
-      "label": "2026-08",
-      "revenue_usd": 7113.0,
-      "orders": null,
-      "note": ""
-    }
+    {"year": 2026, "month": 8, "label": "2026-08", "revenue_usd": null, "orders": null, "note": "임시 기재값 삭제 (사용자 확인 2026-09-28)"}
   ],
-  "last_month": {
-    "year": 2026,
-    "month": 8,
-    "label": "2026-08",
-    "revenue_usd": 7113.0,
-    "orders": null,
-    "note": ""
-  }
+  "last_month": {"year": 2026, "month": 8, "label": "2026-08", "revenue_usd": null, "orders": null, "note": "임시 기재값 삭제"}
 }

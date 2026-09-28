@@ -1,0 +1,18 @@
+{
+  "_설명": "공개용 책임자 입력 상태. 실값은 비공개 로컬 파일 data/manual/legal_responsible_person.json 에만 있다. 여기에는 입력 여부만 적는다.",
+  "confirmed_at": "2026-09-28",
+  "source": "사용자 직접 입력",
+  "fields": {
+    "name": true,
+    "email": true,
+    "phone": true,
+    "address": false
+  },
+  "name_en": false,
+  "masked": {
+    "name": "김*서",
+    "email": "c*******@naver.com",
+    "phone": "+82-10-****-0629"
+  },
+  "missing": ["address", "name_en(영문 라벨 표기)"]
+}

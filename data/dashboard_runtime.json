@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-28T21:14:46.006541+09:00",
+  "generated_at": "2026-09-28T21:34:01.347029+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
@@ -51,7 +51,7 @@
       "id": "institutions",
       "name": "기관 수집팀",
       "when": "2026-09-28T10:31:37.923062+00:00",
-      "summary": "34곳 1,009건 · 미수집 12건 사유 기록 · 새 자료 224건 · 영상 90편 자막 검토 대기",
+      "summary": "34곳 1,009건 · 미수집 12건 사유 기록 · 새 자료 224건 · 영상 학습 1개",
       "action": null,
       "action_kind": null,
       "waiting": null,
@@ -63,17 +63,34 @@
       "color": "#2f7d6b",
       "glyph": "bank",
       "youtube_learning": {
-        "status": "영상 수집됨 · 자막 검토 대기",
-        "insights": 0,
+        "status": "학습 중",
+        "insights": 1,
         "videos_available": 90,
-        "this_week_action": null
+        "this_week_action": {
+          "id": "INS-20260928-01",
+          "tactic": "생성형 AI와 검증기(Verifier) 결합 체계",
+          "action": "사내 AI 에이전트 구축 시 아이디어/카피를 생성하는 LLM과 이를 검증 가이드라인에 따라 필터링하는 검증기(Verifier) 하네스를 결합하여 환각 및 오류를 방지한다.",
+          "confidence": "high",
+          "kpis": [
+            "AI 생성 결과물 환각/오류 발생률",
+            "검증 자동화 비율"
+          ],
+          "prerequisites": [
+            "사내 에이전트 검증 가이드라인 및 제약 규칙 세팅"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=qoinGjj60Fo",
+            "timestamp": "36:10-38:15",
+            "summary": "LLM의 생성 기능(Conjecture)과 엄격한 검증기(Verifier/Refutation)를 결합하여 오류와 환각을 필터링하는 에이전트 하네스 구조."
+          }
+        }
       }
     },
     {
       "id": "market",
       "name": "마케팅 조사팀",
       "when": "2026-09-28T21:14:18.040027+09:00",
-      "summary": "S등급 10개 · 고시 판독 남음 0건 · 유튜브 자막 12편 · 근거 29개 · 실험 12개 · 새 자료 81건 · 영상 학습 28개",
+      "summary": "S등급 10개 · 고시 판독 남음 0건 · 유튜브 자막 12편 · 근거 29개 · 실험 12개 · 새 자료 81건 · 영상 학습 30개",
       "action": null,
       "action_kind": null,
       "waiting": null,
@@ -86,7 +103,7 @@
       "glyph": "chart",
       "youtube_learning": {
         "status": "학습 중",
-        "insights": 28,
+        "insights": 30,
         "videos_available": 85,
         "this_week_action": {
           "id": "MKT-001",
@@ -116,7 +133,7 @@
       "id": "listing",
       "name": "리스팅 제작팀",
       "when": "2026-09-28T12:00:31.671159+00:00",
-      "summary": "AI 입력 9/10 · 초안 준비 9/10 · 공개 준비 0/10 · Action 8건 · CP 10 · 카피 9 · 고시 10 · 가격 10 · 법률 9 · Jev 판정 10건(이어쓴 판정 · 호출 0) · 영상 학습 25개",
+      "summary": "AI 입력 9/10 · 초안 준비 9/10 · 공개 준비 0/10 · Action 8건 · CP 10 · 카피 9 · 고시 10 · 가격 10 · 법률 9 · Jev 판정 10건(이어쓴 판정 · 호출 0) · 영상 학습 27개",
       "action": null,
       "action_kind": null,
       "waiting": "카피 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 8건 사람 승인 대기",
@@ -129,28 +146,26 @@
       "glyph": "doc",
       "youtube_learning": {
         "status": "학습 중",
-        "insights": 25,
+        "insights": 27,
         "videos_available": 44,
         "this_week_action": {
-          "id": "MKT-001",
-          "tactic": "광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
-          "action": "광고 훅과 피부 고민마다 별도 랜딩페이지를 만들고 가치제안, 실제 리뷰, FAQ, 배송·반품 정보를 한 흐름에 배치한다.",
+          "id": "LST-20260928-01",
+          "tactic": "Claude 프롬프트 기반 Shopify 상세페이지 구축",
+          "action": "경쟁사 스토어 와이어프레임을 추출한 뒤 Claude AI 프롬프트로 자사 브랜드 컬러, 카피, AI 목업을 적용하여 Shopify 상세페이지 및 바이박스를 일괄 구축한다.",
           "confidence": "high",
           "kpis": [
-            "landing_conversion_rate",
-            "cost_per_acquisition",
-            "bounce_rate"
+            "상세페이지 제작 소요 시간",
+            "상품 페이지 등록 수",
+            "상세페이지 전환율"
           ],
           "prerequisites": [
-            "UTM 규칙",
-            "실제 고객 후기",
-            "배송·반품 정책",
-            "법률 검토된 효능 문구"
+            "White Labeler 및 AI 이미지 생성 툴 연동",
+            "Shopify 파트너 계정 세팅"
           ],
           "evidence": {
-            "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
-            "timestamp": "00:29-03:16",
-            "summary": "일반 PDP 대신 광고와 메시지가 일치하는 전용 랜딩페이지를 판매원처럼 설계"
+            "url": "https://www.youtube.com/watch?v=dPPd65Kvh7Y",
+            "timestamp": "18:40-20:15",
+            "summary": "경쟁사 레이아웃 캡처 후 AI 프롬프트로 브랜드 스타일과 목업 이미지를 적용하여 Shopify 상품 리스팅을 자동 생성하는 가이드."
           }
         }
       }
@@ -159,7 +174,7 @@
       "id": "pricing",
       "name": "가격 정책팀",
       "when": "2026-09-28T10:38:15.298579+00:00",
-      "summary": "개당 배송비 $6.20~$6.95 · 무게 43~200g (고시용량 10) · DDU/DDP 4개 · 새 자료 22건 · 영상 학습 9개",
+      "summary": "개당 배송비 $6.20~$6.95 · 무게 43~200g (고시용량 10) · DDU/DDP 4개 · 새 자료 22건 · 영상 학습 11개",
       "action": null,
       "action_kind": null,
       "waiting": null,
@@ -172,7 +187,7 @@
       "glyph": "tag",
       "youtube_learning": {
         "status": "학습 중",
-        "insights": 9,
+        "insights": 11,
         "videos_available": 36,
         "this_week_action": {
           "id": "MKT-008",
@@ -202,7 +217,7 @@
       "id": "legal",
       "name": "법률·규제팀",
       "when": "2026-09-28T12:00:31.484011+00:00",
-      "summary": "자동 점검 10건 · 통과 0 · 등록 차단 1 · 참고 주의 10 · MoCRA 준비 0/7 · 영문라벨 23/27 · 표기 되돌림 6건 · 성분표기 확인 6종 · 수출서류 HS 10건 · 라벨 4/6항목 자동 · 새 자료 45건 · 영상 학습 18개",
+      "summary": "자동 점검 10건 · 통과 0 · 등록 차단 1 · 참고 주의 10 · MoCRA 준비 1/7(면제 3) · 영문라벨 23/27 · 표기 되돌림 6건 · 성분표기 확인 6종 · 수출서류 HS 10건 · 라벨 4/6항목 자동 · 새 자료 45건 · 영상 학습 19개",
       "action": null,
       "action_kind": null,
       "waiting": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
@@ -215,28 +230,25 @@
       "glyph": "scale",
       "youtube_learning": {
         "status": "학습 중",
-        "insights": 18,
+        "insights": 19,
         "videos_available": 31,
         "this_week_action": {
-          "id": "MKT-001",
-          "tactic": "광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
-          "action": "광고 훅과 피부 고민마다 별도 랜딩페이지를 만들고 가치제안, 실제 리뷰, FAQ, 배송·반품 정보를 한 흐름에 배치한다.",
+          "id": "LEG-20260928-01",
+          "tactic": "수출 규제 서류 사전 완비 및 조건부 등록",
+          "action": "FDA 등 해외 규제 제출 서류는 사전에 완비하되 유지비가 발생하는 정식 수수료 등록은 바이어 실구매 시점으로 유예하고, 포장재 부피를 축소하여 물류비를 절감한다.",
           "confidence": "high",
           "kpis": [
-            "landing_conversion_rate",
-            "cost_per_acquisition",
-            "bounce_rate"
+            "규제 유지 비용 절감액",
+            "단위당 해외 물류비 비율"
           ],
           "prerequisites": [
-            "UTM 규칙",
-            "실제 고객 후기",
-            "배송·반품 정책",
-            "법률 검토된 효능 문구"
+            "미국 FDA 등 법률/규제 원문 가이드라인 직접 검토 및 인허가 요구사항 확인 필요",
+            "현지 3PL 물류 파트너 확보"
           ],
           "evidence": {
-            "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
-            "timestamp": "00:29-03:16",
-            "summary": "일반 PDP 대신 광고와 메시지가 일치하는 전용 랜딩페이지를 판매원처럼 설계"
+            "url": "https://www.youtube.com/watch?v=nPbZ6lK2K08",
+            "timestamp": "00:40-02:10",
+            "summary": "해외 수출 행정 서류는 사전 완비하되 정식 라이선스 등록은 바이어 오더 발생 시점에 진행하는 비용 최적화 전략."
           }
         }
       }
@@ -267,7 +279,7 @@
       "id": "design",
       "name": "디자인팀",
       "when": "2026-09-28T10:31:46.387257+00:00",
-      "summary": "스토어 2/12단계 · 오프라인 초안 2단계 · 레퍼런스 85건 (관련 44%) · 폰트 1946개(한글 38) · 팔레트 13색조 · 디자인 기사 60건 · 영상 67건 · 새 자료 115건 · 영상 학습 7개",
+      "summary": "스토어 2/12단계 · 오프라인 초안 2단계 · 레퍼런스 85건 (관련 44%) · 폰트 1946개(한글 38) · 팔레트 13색조 · 디자인 기사 60건 · 영상 67건 · 새 자료 115건 · 영상 학습 9개",
       "action": null,
       "action_kind": null,
       "waiting": "다음 단계: Shopify 스토어 개설 및 기본 설정",
@@ -280,28 +292,26 @@
       "glyph": "design",
       "youtube_learning": {
         "status": "학습 중",
-        "insights": 7,
+        "insights": 9,
         "videos_available": 67,
         "this_week_action": {
-          "id": "MKT-001",
-          "tactic": "광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
-          "action": "광고 훅과 피부 고민마다 별도 랜딩페이지를 만들고 가치제안, 실제 리뷰, FAQ, 배송·반품 정보를 한 흐름에 배치한다.",
+          "id": "DSN-20260928-01",
+          "tactic": "스크롤 드라이브 인터랙티브 랜딩페이지 구축",
+          "action": "Claude Code 기반 Scrollcraft 기법을 활용해 고객 스크롤 연동 모션과 성분/효과 카운터를 갖춘 Shopify 랜딩페이지를 개발한다.",
           "confidence": "high",
           "kpis": [
-            "landing_conversion_rate",
-            "cost_per_acquisition",
-            "bounce_rate"
+            "랜딩페이지 체류 시간",
+            "스크롤 깊이(Scroll Depth)",
+            "전환율(CVR)"
           ],
           "prerequisites": [
-            "UTM 규칙",
-            "실제 고객 후기",
-            "배송·반품 정책",
-            "법률 검토된 효능 문구"
+            "Claude Code 개발 환경 구성",
+            "키프레임 검증용 API 키 세팅"
           ],
           "evidence": {
-            "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
-            "timestamp": "00:29-03:16",
-            "summary": "일반 PDP 대신 광고와 메시지가 일치하는 전용 랜딩페이지를 판매원처럼 설계"
+            "url": "https://www.youtube.com/watch?v=QUI6Ug4cHnE",
+            "timestamp": "03:16-04:02",
+            "summary": "스크롤 동작과 인터페이스 모션을 동기화하고 로컬 스크린샷 검증 패스를 거쳐 몰입감 높은 랜딩페이지를 제작하는 프로세스."
           }
         }
       }
@@ -310,7 +320,7 @@
       "id": "channels",
       "name": "채널 운영팀",
       "when": "2026-09-28T12:00:45.677257+00:00",
-      "summary": "가동 11/12채널 · 수동 입력 32건 · 후보 7건 검사, 미연동 0건 · 영상 30편 자막 검토 대기",
+      "summary": "가동 11/12채널 · 수동 입력 32건 · 후보 7건 검사, 미연동 0건 · 영상 학습 2개",
       "action": null,
       "action_kind": null,
       "waiting": null,
@@ -322,17 +332,35 @@
       "color": "#0369a1",
       "glyph": "antenna",
       "youtube_learning": {
-        "status": "영상 수집됨 · 자막 검토 대기",
-        "insights": 0,
+        "status": "학습 중",
+        "insights": 2,
         "videos_available": 30,
-        "this_week_action": null
+        "this_week_action": {
+          "id": "CHN-20260928-01",
+          "tactic": "Amazon FBA 입고 규격 준수 및 수수료 사전 검증",
+          "action": "아마존 입점 시 FBA 가이드에 따라 상품 프렙, 라벨링 및 포장 요건을 준수하고, Revenue Calculator로 단위당 물류·보관 수수료를 사전에 산출하여 수익성을 검증한다.",
+          "confidence": "high",
+          "kpis": [
+            "FBA 재고 회전율",
+            "단위당 FBA 물류비용 비율"
+          ],
+          "prerequisites": [
+            "Amazon Seller Central 계정 보유",
+            "FBA 상품 적격성(Eligibility) 가이드 확인 (FDA/규제 원문 확인 필요)"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=fKjgRQ8tIRs",
+            "timestamp": "00:30-01:40",
+            "summary": "Amazon FBA 물류 센터 입고 가이드(프렙, 라벨링) 및 Revenue Calculator를 통한 단위당 보관/물류 수수료 추정 프로세스."
+          }
+        }
       }
     },
     {
       "id": "knowledge",
       "name": "지식 수집팀",
       "when": "2026-09-28T10:32:36.108841+00:00",
-      "summary": "537건 · arXiv 50 / 유기농스킨 30 / Google 300 / US뷰티 157 · 영상 69편 자막 검토 대기",
+      "summary": "537건 · arXiv 50 / 유기농스킨 30 / Google 300 / US뷰티 157 · 영상 학습 1개",
       "action": null,
       "action_kind": null,
       "waiting": null,
@@ -344,10 +372,27 @@
       "color": "#a16207",
       "glyph": "book",
       "youtube_learning": {
-        "status": "영상 수집됨 · 자막 검토 대기",
-        "insights": 0,
+        "status": "학습 중",
+        "insights": 1,
         "videos_available": 69,
-        "this_week_action": null
+        "this_week_action": {
+          "id": "KNW-20260928-01",
+          "tactic": "3단 위계 건축물 구조화 지식 요약",
+          "action": "시장 조사 및 경쟁사 연구 보고서 작성 시 최상위 논지(지붕), 핵심 근거(기둥), 근본 전제(기단)의 3단 위계 구조로 상위 범주화하여 요약 자산화한다.",
+          "confidence": "high",
+          "kpis": [
+            "보고서 작성 시간 단축률",
+            "사내 지식 자산 재활용률"
+          ],
+          "prerequisites": [
+            "사내 정보 요약 문서 템플릿 제정"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=ehmoVENJEB0",
+            "timestamp": "01:30-03:45",
+            "summary": "상위 범주화, 패러프레이징, 위계적 재구성을 통해 방대한 정보를 건축물 구조로 요약하는 지식 체계화 기법."
+          }
+        }
       }
     },
     {
@@ -387,37 +432,37 @@
         "단계": "고시 수집",
         "산출물": "gosi.json",
         "갱신": "2026-09-28T09:45:25.294372+00:00",
-        "몇시간전": 2.5
+        "몇시간전": 2.8
       },
       {
         "단계": "고시 비전 추출",
         "산출물": "gosi.json",
         "갱신": "2026-09-28T18:54:32.268064+09:00",
-        "몇시간전": 2.3
+        "몇시간전": 2.7
       },
       {
         "단계": "US 라벨 동기화",
         "산출물": "daiso_us_labels.json",
         "갱신": "2026-09-28T19:51:36.662093+09:00",
-        "몇시간전": 1.4
+        "몇시간전": 1.7
       },
       {
         "단계": "리스팅 카피",
         "산출물": "shopify_listing_copy.json",
         "갱신": "2026-09-28T10:38:17.966363+00:00",
-        "몇시간전": 1.6
+        "몇시간전": 1.9
       },
       {
         "단계": "등록 게이트",
         "산출물": "listing_gate.json",
         "갱신": "2026-09-28T12:00:31.671159+00:00",
-        "몇시간전": 0.2
+        "몇시간전": 0.6
       },
       {
         "단계": "법률 점검",
         "산출물": "legal_products.json",
         "갱신": "2026-09-28T12:00:31.484011+00:00",
-        "몇시간전": 0.2
+        "몇시간전": 0.6
       }
     ],
     "_근거": "JARVIS Deep Analysis가 2시간마다 남기는 Safe Auto-Fix 보고서를 heartbeat로 본다. 개별 파생 파일은 입력 무변경 시 mtime이 유지되므로 지연 판정에 쓰지 않는다."
@@ -2374,7 +2419,7 @@
       "collected_at": "2026-09-27T23:23:29.610468+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 12.9,
+      "age_hours": 13.2,
       "stale": false
     },
     "walmart_beauty": {
@@ -2384,7 +2429,7 @@
       "collected_at": "2026-09-27T23:23:29.611493+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 12.9,
+      "age_hours": 13.2,
       "stale": false
     },
     "oliveyoung_us": {
@@ -2394,7 +2439,7 @@
       "collected_at": "2026-09-28T10:33:07.147455+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 1.7,
+      "age_hours": 2.0,
       "stale": false
     },
     "google_trends_us": {
@@ -2404,7 +2449,7 @@
       "collected_at": "2026-09-28T10:33:46.758693+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 1.7,
+      "age_hours": 2.0,
       "stale": false
     },
     "wikipedia_interest": {
@@ -2415,7 +2460,7 @@
       "count": 8,
       "trust": "verified",
       "note": "2026-08-28 ~ 2026-09-26 일별 조회수. 후반 15일 대비 전반 15일 증감률",
-      "age_hours": 2.5,
+      "age_hours": 2.8,
       "stale": false
     },
     "allure_media": {
@@ -2426,7 +2471,7 @@
       "count": 15,
       "trust": "verified",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
-      "age_hours": 2.5,
+      "age_hours": 2.8,
       "stale": false
     },
     "openfda_sunscreen": {
@@ -2437,7 +2482,7 @@
       "count": 15,
       "trust": "verified",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다.",
-      "age_hours": 2.5,
+      "age_hours": 2.8,
       "stale": false
     },
     "shopify_demand_matching": {
@@ -2463,7 +2508,7 @@
       "collected_at": "2026-09-27T23:23:29.612193+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 12.9,
+      "age_hours": 13.2,
       "stale": false
     },
     "sephora": {
@@ -2473,7 +2518,7 @@
       "collected_at": "2026-09-27T23:23:29.612193+00:00",
       "count": 14,
       "trust": "verified",
-      "age_hours": 12.9,
+      "age_hours": 13.2,
       "stale": false
     },
     "open_beauty_facts": {
@@ -2483,7 +2528,7 @@
       "collected_at": "2026-09-28T10:33:06.194685+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 1.7,
+      "age_hours": 2.0,
       "stale": false
     }
   },

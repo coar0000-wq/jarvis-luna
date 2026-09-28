@@ -61,6 +61,10 @@ D = ROOT / "data"
 OUT = D / "mocra_readiness.json"
 PROFILE = D / "manual" / "mocra_profile.json"
 RP_FILE = D / "manual" / "legal_responsible_person.json"
+# 공개용 입력 (2026-09-28). 위 두 파일은 .gitignore 대상이라 GitHub 자동화가 못 본다.
+# 개인정보는 가린 값만 둔 공개 파일을 같이 읽고, 로컬 파일이 있으면 그것이 우선한다.
+BUSINESS = D / "manual" / "mocra_business.json"
+RP_STATUS = D / "manual" / "legal_rp_status.json"
 
 # 소규모 면제에서 빠지는 제품군. 한국어 분류·상품명에서 찾는다.
 EXCLUDED_KEYWORDS = {
@@ -95,8 +99,13 @@ def check(check_id: str, label: str, ready: bool, detail: str,
 
 
 def main() -> int:
-    profile = load(PROFILE, {}) or {}
-    rp_manual = load(RP_FILE, {}) or {}
+    profile = dict(load(BUSINESS, {}) or {})
+    profile.update(load(PROFILE, {}) or {})
+    rp_local = load(RP_FILE, {}) or {}
+    rp_fields_status = (load(RP_STATUS, {}) or {}).get("fields") or {}
+    # 실값을 여기 적지 않는다. 있음/없음만 넘긴다.
+    rp_manual = {f: "(비공개 보관)" for f in ("name", "address", "email", "phone")
+                 if filled(rp_local.get(f)) or rp_fields_status.get(f) is True}
     legal_full = load(D / "legal_full.json", {}) or {}
     gate = load(D / "listing_gate.json", {}) or {}
     master = load(D / "product_master.json", {}) or {}
@@ -241,7 +250,7 @@ def main() -> int:
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "면책": "법률 자문이 아니다. 무엇이 남았는지 보여주는 점검표다.",
         "기준": "MoCRA (Modernization of Cosmetics Regulation Act of 2022)",
-        "profile_present": PROFILE.exists(),
+        "profile_present": PROFILE.exists() or BUSINESS.exists(),
         "profile_hint": "data/manual/mocra_profile.example.json 을 복사해 채우세요",
         "business": {
             "role": profile.get("role") or "",

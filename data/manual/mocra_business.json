@@ -1,0 +1,24 @@
+{
+  "_설명": "공개용 MoCRA 사업 프로필. 개인 연락처는 가린 값만 둔다. 비공개 로컬 파일 data/manual/mocra_profile.json 이 있으면 그 값이 우선한다.",
+  "confirmed_at": "2026-09-28",
+  "source": "사용자 확인 (채팅)",
+  "role": "reseller",
+  "annual_revenue_usd": 0,
+  "revenue_basis": "미국 판매 개시 전. data/monthly_revenue.json 의 2026-08 금액은 임시 기재값이라고 사용자 확인",
+  "facility_registration": {"registered": false, "verified_at": ""},
+  "product_listing": {"submitted": false, "last_submitted_at": ""},
+  "safety_substantiation": {
+    "covered_pd_nos": [],
+    "note": "사용자 확인: 제조사 안전성 입증 자료 없음 (2026-09-28)"
+  },
+  "adverse_event": {
+    "us_contact": {
+      "type": "email",
+      "value": "c*******@naver.com",
+      "basis": "21 U.S.C. 364e: domestic address, domestic phone, 또는 electronic contact information(웹사이트 포함) 중 하나. 이메일은 전자 연락처로 본다(법률 자문 아님)"
+    },
+    "process_documented": true,
+    "process_doc": "data/manual/mocra_adverse_event_sop.md"
+  },
+  "gmp": {"supplier_gmp_confirmed": false, "recall_contact": ""}
+}
