@@ -2,7 +2,7 @@
 title: "Record 0953ead64d · What-Experts-Really-Think-of-the-10-Step-Korean-Ski"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.282106+00:00
+updated_at: 2026-09-28T12:36:01.343747+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ What Experts Really Think of the 10-Step Korean Skin-Care Routine - Vogue
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[모델-라우팅MoE]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[모델-라우팅MoE]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

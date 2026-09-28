@@ -2,7 +2,7 @@
 title: "Record e49fc2d01e · Second-Order-Smooth-Planning-with-Optimal-Transport"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.669033+00:00
+updated_at: 2026-09-28T12:36:00.032081+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Second-Order Smooth Planning with Optimal-Transport Bellman Smoothing
 
 ## Connected nodes
 
-[[Source--arXiv]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

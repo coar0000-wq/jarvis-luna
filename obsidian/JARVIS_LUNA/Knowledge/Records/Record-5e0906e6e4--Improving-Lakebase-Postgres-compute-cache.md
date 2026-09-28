@@ -2,7 +2,7 @@
 title: "Record 5e0906e6e4 · Improving-Lakebase-Postgres-compute-cache"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.778855+00:00
+updated_at: 2026-09-28T12:36:02.314632+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ The disaggregated storage model of Lakebase Postgres provides a feature rich, fl
 
 ## Connected nodes
 
-[[Source--institutions]] [[LLM언어모델]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

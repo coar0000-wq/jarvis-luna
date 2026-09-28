@@ -2,7 +2,7 @@
 title: "Record 9db326f1b9 · Nizoral-Anti-Dandruff-Shampoo-with-1-Ketoconazole-Fresh-Scent-7-Fl-Oz-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.706943+00:00
+updated_at: 2026-09-28T12:36:02.178038+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Nizoral Anti-Dandruff Shampoo with 1% Ketoconazole, Fresh Scent, 7 Fl Oz | Anti-
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

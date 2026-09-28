@@ -2,7 +2,7 @@
 title: "Record a02da9fad3 · For-Soft-Hydrated-Skin-I-Turn-to-These-Korean-Moist"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.264744+00:00
+updated_at: 2026-09-28T12:36:01.314778+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ For Soft, Hydrated Skin, I Turn to These Korean Moisturizers - vogue.com
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

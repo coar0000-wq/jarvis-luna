@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-09-28T21:00:31.820369+09:00",
+    "updated_at": "2026-09-28T21:34:16.642900+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -33,7 +33,7 @@
         "brand": "CORINGCO",
         "price_usd": 12.99,
         "rating": 4.8,
-        "review_count": 11863
+        "review_count": 11862
       },
       {
         "rank": 2,
@@ -738,12 +738,17 @@
         "자료": []
       },
       "채널 확장": {
-        "자료_수": 1,
+        "자료_수": 2,
         "자료": [
           {
             "title": "Digital Marketing 101: 10 Strategies Every Shopify Store Needs (Marketing Masterclass Part 1)",
             "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
             "note": "Learn With Shopify - SEO·콘텐츠·숏폼·웰컴 이메일·Meta CAPI를 묶은 공식 마케팅 기본기"
+          },
+          {
+            "title": "Beyond TikTok Shop: How to Use TikTok to Drive Shopify Sales",
+            "url": "https://www.youtube.com/watch?v=nIOn_726Rxk",
+            "note": ""
           }
         ]
       },
@@ -1615,42 +1620,6 @@
   ],
   "competitor_watch": [
     {
-      "name": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-      "brand": "MEDIHEAL",
-      "price_usd": 20.99,
-      "rating": 4.8,
-      "review_count": 1080,
-      "us_rank": 6,
-      "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 6위 · 마스크팩 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA48723304",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)",
-      "brand": "UNOVE",
-      "price_usd": 24.7,
-      "rating": 5,
-      "review_count": 6,
-      "us_rank": 25,
-      "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 25위 · 마스크팩 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA39329211",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "Biodance Hydro Cera-nol Real Deep Mask 4ct 1.19 oz.(34g)",
-      "brand": "Biodance",
-      "price_usd": 19.0,
-      "rating": 4.7,
-      "review_count": 3,
-      "us_rank": 30,
-      "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 30위 · 마스크팩 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA49579943",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
       "name": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
       "brand": "AESTURA",
       "price_usd": 32.0,
@@ -1684,6 +1653,42 @@
       "daiso_bucket": "스킨케어",
       "why": "us.oliveyoung.com/best-sellers 실수집 7위 · 스킨케어 동일 포지션",
       "url": "https://us.oliveyoung.com/products/UA32407466",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
+      "brand": "MEDIHEAL",
+      "price_usd": 20.99,
+      "rating": 4.8,
+      "review_count": 1080,
+      "us_rank": 6,
+      "daiso_bucket": "마스크팩",
+      "why": "us.oliveyoung.com/best-sellers 실수집 6위 · 마스크팩 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA48723304",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)",
+      "brand": "UNOVE",
+      "price_usd": 24.7,
+      "rating": 5,
+      "review_count": 6,
+      "us_rank": 25,
+      "daiso_bucket": "마스크팩",
+      "why": "us.oliveyoung.com/best-sellers 실수집 25위 · 마스크팩 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA39329211",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "Biodance Hydro Cera-nol Real Deep Mask 4ct 1.19 oz.(34g)",
+      "brand": "Biodance",
+      "price_usd": 19.0,
+      "rating": 4.7,
+      "review_count": 3,
+      "us_rank": 30,
+      "daiso_bucket": "마스크팩",
+      "why": "us.oliveyoung.com/best-sellers 실수집 30위 · 마스크팩 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA49579943",
       "source": "us.oliveyoung.com/best-sellers 실수집"
     }
   ],

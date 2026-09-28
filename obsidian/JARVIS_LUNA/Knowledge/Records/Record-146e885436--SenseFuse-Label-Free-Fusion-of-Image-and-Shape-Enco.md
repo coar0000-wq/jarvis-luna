@@ -2,7 +2,7 @@
 title: "Record 146e885436 · SenseFuse-Label-Free-Fusion-of-Image-and-Shape-Encoders-for-Open-Vocab"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.763781+00:00
+updated_at: 2026-09-28T12:36:00.232427+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Open-vocabulary scene understanding is fundamental for robotics, laying the grou
 
 ## Connected nodes
 
-[[Source--arXiv]] [[LLM언어모델]] [[컴퓨터-비전]] [[로보틱스]] [[데이터분석]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[컴퓨터-비전]] [[로보틱스]] [[데이터분석]] [[JARVIS Real Knowledge Index]]

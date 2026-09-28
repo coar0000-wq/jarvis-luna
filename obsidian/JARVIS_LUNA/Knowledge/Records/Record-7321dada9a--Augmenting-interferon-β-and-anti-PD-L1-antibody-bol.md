@@ -2,7 +2,7 @@
 title: "Record 7321dada9a · Augmenting-interferon-β-and-anti-PD-L1-antibody-bolsters-non-ablative-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.017939+00:00
+updated_at: 2026-09-28T12:36:00.782147+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Augmenting interferon-β and anti-PD-L1 antibody bolsters non-ablative radiother
 
 ## Connected nodes
 
-[[Source--institutions]] [[LLM언어모델]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

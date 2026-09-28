@@ -2,7 +2,7 @@
 title: "Record 33ad23b0ba · CHA-Bio-FCs-EVERCELL-launches-probiotic-exosome-PDRN-hydrogel-mask---K"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.309163+00:00
+updated_at: 2026-09-28T12:36:01.387590+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ CHA Bio F&C’s EVERCELL launches probiotic exosome PDRN hydrogel mask - Korea B
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[의료바이오]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[의료바이오]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

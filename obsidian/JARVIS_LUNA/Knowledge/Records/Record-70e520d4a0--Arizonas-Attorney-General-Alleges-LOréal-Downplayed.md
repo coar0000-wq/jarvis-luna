@@ -2,7 +2,7 @@
 title: "Record 70e520d4a0 · Arizonas-Attorney-General-Alleges-LOréal-Downplayed-Cancer-Risks-in-Ne"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.665915+00:00
+updated_at: 2026-09-28T12:36:02.069274+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Arizona’s Attorney General Alleges L’Oréal Downplayed Cancer Risks in New L
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[법률규제]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[법률규제]] [[JARVIS Real Knowledge Index]]

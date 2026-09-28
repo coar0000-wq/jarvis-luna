@@ -2,7 +2,7 @@
 title: "Record e80fb67ff1 · beplain-Mung-Bean-Pore-Double-Cleansing-Duo-Set-Cle"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.627548+00:00
+updated_at: 2026-09-28T12:36:01.994980+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ beplain Mung Bean Pore Double Cleansing Duo Set (Cleansing Oil 6.76 fl. oz.(200m
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

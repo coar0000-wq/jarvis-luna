@@ -2,7 +2,7 @@
 title: "Record f1930ca162 · Instance-Segmentation-and-Fine-grained-Classification-for-Urban-Buildi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.758400+00:00
+updated_at: 2026-09-28T12:36:00.219068+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Accurate instance-level and functional understanding of urban buildings in large
 
 ## Connected nodes
 
-[[Source--arXiv]] [[LLM언어모델]] [[머신러닝-연구]] [[컴퓨터-비전]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[머신러닝-연구]] [[컴퓨터-비전]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

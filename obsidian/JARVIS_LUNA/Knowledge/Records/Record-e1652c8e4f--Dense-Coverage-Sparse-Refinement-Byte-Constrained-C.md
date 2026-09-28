@@ -2,7 +2,7 @@
 title: "Record e1652c8e4f · Dense-Coverage-Sparse-Refinement-Byte-Constrained-Cooperative-Percepti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.116750+00:00
+updated_at: 2026-09-28T12:36:01.011054+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Collaborative perception improves autonomous perception by sharing intermediate 
 
 ## Connected nodes
 
-[[Source--arXiv]] [[AI-에이전트]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

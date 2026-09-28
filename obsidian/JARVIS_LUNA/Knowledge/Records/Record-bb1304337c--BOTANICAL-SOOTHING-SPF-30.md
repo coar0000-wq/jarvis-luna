@@ -2,7 +2,7 @@
 title: "Record bb1304337c · BOTANICAL-SOOTHING-SPF-30"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.607883+00:00
+updated_at: 2026-09-28T12:35:59.928175+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ BOTANICAL SOOTHING SPF-30
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

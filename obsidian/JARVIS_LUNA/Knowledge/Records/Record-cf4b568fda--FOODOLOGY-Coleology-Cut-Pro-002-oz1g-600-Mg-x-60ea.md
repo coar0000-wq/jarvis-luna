@@ -2,7 +2,7 @@
 title: "Record cf4b568fda · FOODOLOGY-Coleology-Cut-Pro-002-oz1g-600-Mg-x-60ea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.619842+00:00
+updated_at: 2026-09-28T12:36:01.979644+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ FOODOLOGY Coleology Cut Pro 0.02 oz.(1g) (600 Mg) x 60ea · 평점 5 · 리뷰 3
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

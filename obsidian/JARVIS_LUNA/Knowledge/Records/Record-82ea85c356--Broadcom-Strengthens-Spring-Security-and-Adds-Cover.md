@@ -2,7 +2,7 @@
 title: "Record 82ea85c356 · Broadcom-Strengthens-Spring-Security-and-Adds-Cover"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.202097+00:00
+updated_at: 2026-09-28T12:36:01.185405+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ New Offerings Expand Open Source Coverage with an Extensive Catalog of Secure, V
 
 ## Connected nodes
 
-[[Source--institutions]] [[LLM언어모델]] [[컴퓨터-비전]] [[보안프라이버시]] [[반도체하드웨어]] [[기관--Broadcom]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[컴퓨터-비전]] [[보안프라이버시]] [[반도체하드웨어]] [[기관--Broadcom]] [[JARVIS Real Knowledge Index]]

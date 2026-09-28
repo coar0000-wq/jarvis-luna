@@ -2,7 +2,7 @@
 title: "Record 2a19786f61 · CeraVe-Hydraterende-Reinigingscrème"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.643959+00:00
+updated_at: 2026-09-28T12:36:02.027257+00:00
 tags: [record, real-data]
 ---
 

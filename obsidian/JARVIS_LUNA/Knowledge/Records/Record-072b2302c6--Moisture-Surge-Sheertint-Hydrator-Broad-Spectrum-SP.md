@@ -2,7 +2,7 @@
 title: "Record 072b2302c6 · Moisture-Surge-Sheertint-Hydrator-Broad-Spectrum-SPF-25-Tinted-Moistur"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.958739+00:00
+updated_at: 2026-09-28T12:36:02.524653+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Moisture Surge Sheertint Hydrator Broad Spectrum SPF 25 Tinted Moisturizer · Cl
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

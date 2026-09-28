@@ -2,7 +2,7 @@
 title: "Record d27904bd6a · Korea-eundan-Vitamin-C-1000-120-Tablets-4-month-Sup"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.634749+00:00
+updated_at: 2026-09-28T12:36:02.009325+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Korea eundan Vitamin C 1000 120 Tablets (4-month Supply) 4.24 oz.(120g) · 평�
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

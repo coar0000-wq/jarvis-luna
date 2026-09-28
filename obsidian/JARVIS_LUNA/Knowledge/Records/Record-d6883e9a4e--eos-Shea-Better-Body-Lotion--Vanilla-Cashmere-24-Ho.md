@@ -2,7 +2,7 @@
 title: "Record d6883e9a4e · eos-Shea-Better-Body-Lotion--Vanilla-Cashmere-24-Hour-Moisture-16-fl-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.717959+00:00
+updated_at: 2026-09-28T12:36:02.213093+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ eos Shea Better Body Lotion- Vanilla Cashmere, 24-Hour Moisture, 16 fl oz | Natu
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

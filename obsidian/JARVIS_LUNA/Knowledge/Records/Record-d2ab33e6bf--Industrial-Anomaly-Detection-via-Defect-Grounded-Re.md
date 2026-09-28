@@ -2,7 +2,7 @@
 title: "Record d2ab33e6bf · Industrial-Anomaly-Detection-via-Defect-Grounded-Reasoning-in-Visual-L"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.117055+00:00
+updated_at: 2026-09-28T12:36:01.011691+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 73e599065a · TRESemm-Instant-Fix-Styling-Stick-for-Fixing-Flyawa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:55.042259+00:00
+updated_at: 2026-09-28T12:36:02.548315+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ TRESemm Instant Fix Styling Stick for Fixing Flyaways & Control Frizz Stylist, A
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

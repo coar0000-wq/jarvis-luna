@@ -2,7 +2,7 @@
 title: "Record 0993984fb8 · Fine-Tuning-Fragility"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.155048+00:00
+updated_at: 2026-09-28T12:36:01.082383+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Fine-Tuning Fragility
 
 ## Connected nodes
 
-[[Source--institutions]] [[LLM언어모델]] [[머신러닝-연구]] [[데이터분석]] [[기관--Microsoft]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[머신러닝-연구]] [[데이터분석]] [[기관--Microsoft]] [[JARVIS Real Knowledge Index]]

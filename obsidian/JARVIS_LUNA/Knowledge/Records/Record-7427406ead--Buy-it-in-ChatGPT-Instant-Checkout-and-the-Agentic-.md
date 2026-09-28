@@ -2,7 +2,7 @@
 title: "Record 7427406ead · Buy-it-in-ChatGPT-Instant-Checkout-and-the-Agentic-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.248541+00:00
+updated_at: 2026-09-28T12:36:01.283789+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Buy it in ChatGPT: Instant Checkout and the Agentic Commerce Protocol - OpenAI
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[이커머스Shopify]] [[AI-에이전트]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[이커머스Shopify]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

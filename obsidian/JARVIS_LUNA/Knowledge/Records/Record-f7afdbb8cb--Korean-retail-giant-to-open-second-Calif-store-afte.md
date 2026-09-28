@@ -2,7 +2,7 @@
 title: "Record f7afdbb8cb · Korean-retail-giant-to-open-second-Calif-store-afte"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.335603+00:00
+updated_at: 2026-09-28T12:36:01.431606+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Korean retail giant to open second Calif. store after blockbuster launch - SFGAT
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,7 +2,7 @@
 title: "Record c99f994803 · Brownian-Heads-for-Deep-ReLU-Representations-Activation-Mass-and-the-C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.768073+00:00
+updated_at: 2026-09-28T12:36:00.242432+00:00
 tags: [record, real-data]
 ---
 

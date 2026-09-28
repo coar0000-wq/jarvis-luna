@@ -2,7 +2,7 @@
 title: "Record 031bdd9394 · ILLIYOON-Ceramide-Ato-60-Top-To-Toe-Wash-169-fl-oz5"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.622026+00:00
+updated_at: 2026-09-28T12:36:01.983951+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ ILLIYOON Ceramide Ato 6.0 Top To Toe Wash 16.9 fl. oz.(500ml) · 평점 4.8 · �
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

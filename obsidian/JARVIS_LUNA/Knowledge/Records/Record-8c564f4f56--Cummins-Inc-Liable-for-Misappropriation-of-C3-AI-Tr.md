@@ -2,7 +2,7 @@
 title: "Record 8c564f4f56 · Cummins-Inc-Liable-for-Misappropriation-of-C3-AI-Tr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.215989+00:00
+updated_at: 2026-09-28T12:36:01.219335+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Jury Awards C3 AI $23.3 Million in Damages REDWOOD CITY, Calif. --(BUSINESS WIRE
 
 ## Connected nodes
 
-[[Source--institutions]] [[경영전략]] [[법률규제]] [[데이터분석]] [[기관--C3-AI]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[경영전략]] [[데이터분석]] [[기관--C3-AI]] [[JARVIS Real Knowledge Index]]

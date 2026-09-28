@@ -2,7 +2,7 @@
 title: "Record d6c083acf7 · Dermo-protect-spf-50"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.646518+00:00
+updated_at: 2026-09-28T12:36:02.032078+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Dermo protect spf 50+ · Mixa
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

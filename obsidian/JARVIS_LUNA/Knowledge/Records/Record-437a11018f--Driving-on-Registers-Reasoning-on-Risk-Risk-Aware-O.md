@@ -2,7 +2,7 @@
 title: "Record 437a11018f · Driving-on-Registers-Reasoning-on-Risk-Risk-Aware-Occupancy-for-Regist"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.768951+00:00
+updated_at: 2026-09-28T12:36:00.244539+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Multimodal trajectory prediction improves behavioral coverage in end-to-end auto
 
 ## Connected nodes
 
-[[Source--arXiv]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

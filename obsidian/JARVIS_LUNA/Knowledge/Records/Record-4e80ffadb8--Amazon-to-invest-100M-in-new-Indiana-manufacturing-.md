@@ -2,7 +2,7 @@
 title: "Record 4e80ffadb8 · Amazon-to-invest-100M-in-new-Indiana-manufacturing-facility"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.883778+00:00
+updated_at: 2026-09-28T12:36:02.465245+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Amazon to invest $100M in new Indiana manufacturing facility
 
 ## Connected nodes
 
-[[Source--robotics]] [[물류통관]] [[LLM언어모델]] [[로보틱스]] [[JARVIS Real Knowledge Index]]
+[[Source--robotics]] [[물류통관]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

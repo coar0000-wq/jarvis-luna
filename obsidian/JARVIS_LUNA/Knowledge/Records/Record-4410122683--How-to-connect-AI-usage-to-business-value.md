@@ -2,7 +2,7 @@
 title: "Record 4410122683 · How-to-connect-AI-usage-to-business-value"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.554498+00:00
+updated_at: 2026-09-28T12:36:01.854631+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Learn how ChatGPT Work and Codex analytics help teams understand AI usage and sp
 
 ## Connected nodes
 
-[[Source--institutions]] [[경영전략]] [[LLM언어모델]] [[머신러닝-연구]] [[데이터분석]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[경영전략]] [[머신러닝-연구]] [[데이터분석]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

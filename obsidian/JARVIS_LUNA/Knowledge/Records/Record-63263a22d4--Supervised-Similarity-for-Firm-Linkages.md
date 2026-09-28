@@ -2,7 +2,7 @@
 title: "Record 63263a22d4 · Supervised-Similarity-for-Firm-Linkages"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.999565+00:00
+updated_at: 2026-09-28T12:36:00.726870+00:00
 tags: [record, real-data]
 ---
 

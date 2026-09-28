@@ -2,7 +2,7 @@
 title: "Record 65d2751e8e · Sensitive-expert--Spf-50"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.646087+00:00
+updated_at: 2026-09-28T12:36:02.031148+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Sensitive expert + Spf 50+ · Garnier, Garnier ambre solaire
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[모델-라우팅MoE]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[모델-라우팅MoE]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

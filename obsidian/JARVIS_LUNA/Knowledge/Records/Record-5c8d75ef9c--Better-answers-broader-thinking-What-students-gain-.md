@@ -2,7 +2,7 @@
 title: "Record 5c8d75ef9c · Better-answers-broader-thinking-What-students-gain-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.572669+00:00
+updated_at: 2026-09-28T12:36:01.882423+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ A randomized study of more than 1,000 students examines ChatGPT, critical thinki
 
 ## Connected nodes
 
-[[Source--institutions]] [[LLM언어모델]] [[머신러닝-연구]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[머신러닝-연구]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

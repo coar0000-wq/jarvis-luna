@@ -2,7 +2,7 @@
 title: "Record eac6c4d283 · The-US-Interconnection-Queue-System-Cascading-Vulne"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.709292+00:00
+updated_at: 2026-09-28T12:36:00.106340+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ As of 2025, the U.S. interconnection queues, the grid-access gateway for new gen
 
 ## Connected nodes
 
-[[Source--robotics]] [[LLM언어모델]] [[보안프라이버시]] [[JARVIS Real Knowledge Index]]
+[[Source--robotics]] [[보안프라이버시]] [[JARVIS Real Knowledge Index]]

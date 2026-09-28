@@ -2,7 +2,7 @@
 title: "Record 12376a800d · ILO-Mucin-Collagen-Jelly-10-Days-705-oz200g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.634478+00:00
+updated_at: 2026-09-28T12:36:02.008706+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ ILO Mucin Collagen Jelly 10 Days 7.05 oz.(200g) · 평점 4.5 · 리뷰 23
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,7 +2,7 @@
 title: "Record 66f2a89c64 · LABO-H-Scalp-Strengthening-Shampoo-135-fl-oz400ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.630236+00:00
+updated_at: 2026-09-28T12:36:02.000875+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ LABO-H Scalp Strengthening Shampoo 13.5 fl. oz.(400ml) · 평점 5 · 리뷰 4
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

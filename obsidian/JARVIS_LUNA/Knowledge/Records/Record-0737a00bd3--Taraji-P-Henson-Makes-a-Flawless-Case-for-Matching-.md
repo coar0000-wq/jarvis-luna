@@ -2,7 +2,7 @@
 title: "Record 0737a00bd3 · Taraji-P-Henson-Makes-a-Flawless-Case-for-Matching-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.672260+00:00
+updated_at: 2026-09-28T12:36:02.083540+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Taraji P. Henson Makes a Flawless Case for Matching Your Manicure to Your Jewelr
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[법률규제]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

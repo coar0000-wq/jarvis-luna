@@ -1,6 +1,6 @@
 {
   "source": "google news rss (beauty queries) + trends daily filtered",
-  "collected_at": "2026-09-28T10:33:46.758693+00:00",
+  "collected_at": "2026-09-28T12:27:47.877262+00:00",
   "status": "ok",
   "note": "뷰티 키워드만. 채점 MATCH_CHANNELS 에는 넣지 않음. 대시보드 키워드 보드용.",
   "query_count": 12,
@@ -25,20 +25,11 @@
       "beauty": true
     },
     {
-      "keyword": "Shinsegae Targets US Beauty Market with K-Beauty Retail Platform - Global Cosmetics News",
-      "product": "Shinsegae Targets US Beauty Market with K-Beauty Retail Platform - Global Cosmetics News",
+      "keyword": "Shinsegae Targets US Beauty Market with K-Beauty Retail Platform - globalcosmeticsnews.com",
+      "product": "Shinsegae Targets US Beauty Market with K-Beauty Retail Platform - globalcosmeticsnews.com",
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOLUgzOFAzc1hpSHFab3ZWZ2NPSWNXcTliOHpqakQ1R3M4enBUVEtsbXpjZXdKd2lleHM2ODVWSUZOTkNoX1RYeWtBbmhqRUxOS1l5UnVMQV94WHpLN3VUWkJxMjFISzBJOEpaYmdtSVYybVVta2x5ZzcwRGZDeTJ1Vm93dlNqaUZZdWwyc1JMdmNydmY1OHI1ODdDSGY2VURIWV9B?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "K Beauty Products Market Forecast to Expand Through 2035, Driven by Demand for Science-Backed Skincare Routines - IndexBox",
-      "product": "K Beauty Products Market Forecast to Expand Through 2035, Driven by Demand for Science-Backed Skincare Routines - IndexBox",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbW03dnVrX003cF9PNzdzWFNjaVJaVWVqQUU3U3dIc0tCVFJiZTV2SmtOTFdzX1pSNU9NNVBIYlJLZzJpTFBYUkExTExxbGNxem5UN3ZxQUpqR2x0dUFuaDV0X3J2Y0Y4YVFRMkpwcWxYRy1xWm9QeGNNQmZ4RUpmX2JUM05YU1E2ODZwdkNxTUNTZ1hjQ2hKam50bEhrWHhGSmpyTE0xNktYSUpvMkVrbHFLQ21RcmRfejRkUjBYd083eFN2SC1IM282b0ZLYUtrQi1uZ25oWQ?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -48,6 +39,15 @@
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9OMWRrWlZETWZ3NUNIUFhIZU1GcVl1OFJmMEkzemlwMVRfVWs4NTFpLUd0VFNxR0xFN09IajZxUDQzakRZcHp5cVVGTUplNzA2VW1QWXBWbkdSX0RRLUtHOTROZGtSdGpZV3hOQkRVaVpJZnFtZ2NNcHd5cw?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "K Beauty Products Market Forecast to Expand Through 2035, Driven by Demand for Science-Backed Skincare Routines - IndexBox",
+      "product": "K Beauty Products Market Forecast to Expand Through 2035, Driven by Demand for Science-Backed Skincare Routines - IndexBox",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbW03dnVrX003cF9PNzdzWFNjaVJaVWVqQUU3U3dIc0tCVFJiZTV2SmtOTFdzX1pSNU9NNVBIYlJLZzJpTFBYUkExTExxbGNxem5UN3ZxQUpqR2x0dUFuaDV0X3J2Y0Y4YVFRMkpwcWxYRy1xWm9QeGNNQmZ4RUpmX2JUM05YU1E2ODZwdkNxTUNTZ1hjQ2hKam50bEhrWHhGSmpyTE0xNktYSUpvMkVrbHFLQ21RcmRfejRkUjBYd083eFN2SC1IM282b0ZLYUtrQi1uZ25oWQ?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -205,8 +205,8 @@
       "beauty": true
     },
     {
-      "keyword": "Madison LeCroy uses this $13 snail mucin skin care ‘every single night’: ‘Really does work’ - Page Six",
-      "product": "Madison LeCroy uses this $13 snail mucin skin care ‘every single night’: ‘Really does work’ - Page Six",
+      "keyword": "Madison LeCroy uses this $13 snail mucin skin care ‘every single night’: ‘Really does work’ - pagesix.com",
+      "product": "Madison LeCroy uses this $13 snail mucin skin care ‘every single night’: ‘Really does work’ - pagesix.com",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOVFOcDNSNU5FazZmWTllWXZrM0ZPdE0zcll3Qk9WbWFhdEIzZmhpVVZRY29xbE8xMDZ5VjNIR083a0FrbEUxU2RSNHkxNWFnczE0U0dDenNXdlMzOU50cmdBM1JxcmxYbHEtZFpXQ1FXNXY0Smxnb3ZxYWdoTEFIY3BaZkJucHhWMEJZTVAtV2ZpWEtZTmdNZUkxbXotelFLOUxWLVJ3?oc=5",
@@ -250,8 +250,8 @@
       "beauty": true
     },
     {
-      "keyword": "My K-Beauty 'glass skin' routine isn't complete without this toner - Glamour UK",
-      "product": "My K-Beauty 'glass skin' routine isn't complete without this toner - Glamour UK",
+      "keyword": "My K-Beauty 'glass skin' routine isn't complete without this toner - glamourmagazine.co.uk",
+      "product": "My K-Beauty 'glass skin' routine isn't complete without this toner - glamourmagazine.co.uk",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9oVkRxekx6R29ydjRMWTNEOXR3TzNCWnJOUjRPVVVQN1NXOUxBcmJkUFhhcnBnZXIzZmFBNnJ3Uk9RSEp2Q3lXRUZMV0UxbE5kUzZXcTZ5VVdMcTY4dEtBb0l5MDdSdFFtaFg1cQ?oc=5",

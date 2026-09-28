@@ -2,7 +2,7 @@
 title: "Record 7586da7cd1 · JUNG-KWAN-JANG-Korean-Red-Ginseng-Extract-2000mg-034-fl-oz10ml-x-10ea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.630996+00:00
+updated_at: 2026-09-28T12:36:02.002304+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ JUNG KWAN JANG Korean Red Ginseng Extract 2,000mg 0.34 fl. oz.(10ml) x 10ea · �
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

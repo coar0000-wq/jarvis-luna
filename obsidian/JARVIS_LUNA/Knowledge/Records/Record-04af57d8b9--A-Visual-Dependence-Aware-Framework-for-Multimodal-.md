@@ -2,7 +2,7 @@
 title: "Record 04af57d8b9 · A-Visual-Dependence-Aware-Framework-for-Multimodal-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:55.127893+00:00
+updated_at: 2026-09-28T12:36:02.728858+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ In this paper, we explore a novel task of Multimodal Unsupervised Continual Post
 
 ## Connected nodes
 
-[[Source--arXiv]] [[LLM언어모델]] [[머신러닝-연구]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[머신러닝-연구]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

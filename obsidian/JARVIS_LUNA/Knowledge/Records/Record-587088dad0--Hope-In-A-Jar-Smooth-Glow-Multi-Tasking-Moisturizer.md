@@ -2,7 +2,7 @@
 title: "Record 587088dad0 · Hope-In-A-Jar-Smooth-Glow-Multi-Tasking-Moisturizer"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.956215+00:00
+updated_at: 2026-09-28T12:36:02.519817+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Hope In A Jar Smooth-Glow Multi-Tasking Moisturizer · Philosophy · $19
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

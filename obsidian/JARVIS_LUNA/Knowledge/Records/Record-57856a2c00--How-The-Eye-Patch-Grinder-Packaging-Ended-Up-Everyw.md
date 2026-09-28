@@ -2,7 +2,7 @@
 title: "Record 57856a2c00 · How-The-Eye-Patch-Grinder-Packaging-Ended-Up-Everywhere-At-Once---Beau"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.420307+00:00
+updated_at: 2026-09-28T12:36:01.582480+00:00
 tags: [record, real-data]
 ---
 
@@ -13,9 +13,10 @@ tags: [record, real-data]
 **제목:** How The Eye-Patch Grinder Packaging Ended Up Everywhere At Once - Beauty Independent
 
 How The Eye-Patch Grinder Packaging Ended Up Everywhere At Once - Beauty Independent
+How The Eye-Patch Grinder Packaging Ended Up Everywhere At Once - Beauty Independent
 
-**출처:** Source · Google Search
+**출처:** Source · us_beauty
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[뷰티스킨케어]] [[반도체하드웨어]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[반도체하드웨어]] [[JARVIS Real Knowledge Index]]

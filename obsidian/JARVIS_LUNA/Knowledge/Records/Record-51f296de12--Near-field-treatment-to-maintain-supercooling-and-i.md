@@ -2,7 +2,7 @@
 title: "Record 51f296de12 · Near-field-treatment-to-maintain-supercooling-and-i"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.843519+00:00
+updated_at: 2026-09-28T12:36:00.421843+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Near-field treatment to maintain supercooling and improve beef quality during su
 
 ## Connected nodes
 
-[[Source--institutions]] [[LLM언어모델]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

@@ -2,7 +2,7 @@
 title: "Record 832a12c8f3 · Learning-never-stops-How-AI-makes-learning-continuo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.557431+00:00
+updated_at: 2026-09-28T12:36:01.860351+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ OpenAI’s new report explores how students and educators use ChatGPT to make le
 
 ## Connected nodes
 
-[[Source--institutions]] [[LLM언어모델]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

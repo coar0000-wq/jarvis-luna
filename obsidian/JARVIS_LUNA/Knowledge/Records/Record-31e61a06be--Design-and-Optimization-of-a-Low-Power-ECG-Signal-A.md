@@ -2,7 +2,7 @@
 title: "Record 31e61a06be · Design-and-Optimization-of-a-Low-Power-ECG-Signal-Amplifier-using-Self"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.994904+00:00
+updated_at: 2026-09-28T12:36:00.715625+00:00
 tags: [record, real-data]
 ---
 

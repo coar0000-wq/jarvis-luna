@@ -2,7 +2,7 @@
 title: "Record 560fe2aae7 · Biodance-Bio-Collagen-Real-Deep-Mask-4ct-119-oz34g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.638543+00:00
+updated_at: 2026-09-28T12:36:02.017520+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Biodance Bio Collagen-Real Deep Mask 4ct 1.19 oz.(34g) · 평점 5 · 리뷰 3
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[의료바이오]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[의료바이오]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

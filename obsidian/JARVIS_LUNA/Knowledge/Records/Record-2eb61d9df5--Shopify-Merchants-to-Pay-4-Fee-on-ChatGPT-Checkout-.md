@@ -2,7 +2,7 @@
 title: "Record 2eb61d9df5 · Shopify-Merchants-to-Pay-4-Fee-on-ChatGPT-Checkout-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.513101+00:00
+updated_at: 2026-09-28T12:36:01.769953+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Shopify Merchants to Pay 4% Fee on ChatGPT Checkout Sales - PYMNTS.com
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[이커머스Shopify]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

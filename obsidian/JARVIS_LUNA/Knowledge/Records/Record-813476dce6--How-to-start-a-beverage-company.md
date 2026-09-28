@@ -2,7 +2,7 @@
 title: "Record 813476dce6 · How-to-start-a-beverage-company"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:55.104823+00:00
+updated_at: 2026-09-28T12:36:02.665671+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ How to start a beverage company
 
 ## Connected nodes
 
-[[Source--YouTube]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]
+[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

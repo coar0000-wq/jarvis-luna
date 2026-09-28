@@ -2,7 +2,7 @@
 title: "Record 96d9405002 · Q1-2024-Financial-Results"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.745896+00:00
+updated_at: 2026-09-28T12:36:02.273978+00:00
 tags: [record, real-data]
 ---
 

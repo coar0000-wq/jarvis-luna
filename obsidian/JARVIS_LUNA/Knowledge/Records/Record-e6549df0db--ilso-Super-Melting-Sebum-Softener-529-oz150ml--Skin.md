@@ -2,7 +2,7 @@
 title: "Record e6549df0db · ilso-Super-Melting-Sebum-Softener-529-oz150ml--Skin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.622278+00:00
+updated_at: 2026-09-28T12:36:01.984428+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ ilso Super Melting Sebum Softener 5.29 oz.(150ml) + Skin Fit Wrap Pad (40ct) · 
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

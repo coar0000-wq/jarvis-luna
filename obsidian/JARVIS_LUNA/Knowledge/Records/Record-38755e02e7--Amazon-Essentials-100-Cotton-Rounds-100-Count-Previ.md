@@ -2,7 +2,7 @@
 title: "Record 38755e02e7 · Amazon-Essentials-100-Cotton-Rounds-100-Count-Previously-Amazon-Basics"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.677532+00:00
+updated_at: 2026-09-28T12:36:02.100504+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Amazon Essentials 100% Cotton Rounds, 100 Count (Previously Amazon Basics) · $2
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

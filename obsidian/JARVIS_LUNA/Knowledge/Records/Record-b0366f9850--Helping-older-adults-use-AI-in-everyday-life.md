@@ -2,7 +2,7 @@
 title: "Record b0366f9850 · Helping-older-adults-use-AI-in-everyday-life"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.553684+00:00
+updated_at: 2026-09-28T12:36:01.853145+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adu
 
 ## Connected nodes
 
-[[Source--institutions]] [[LLM언어모델]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

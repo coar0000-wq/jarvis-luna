@@ -2,7 +2,7 @@
 title: "Record b66967fb02 · G-CARL-Grounded-Checklist-Aligned-Reward-Learning-f"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:55.102062+00:00
+updated_at: 2026-09-28T12:36:02.660250+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Personalized interpretation of medical reports has emerged as an increasingly im
 
 ## Connected nodes
 
-[[Source--arXiv]] [[LLM언어모델]] [[머신러닝-연구]] [[컴퓨터-비전]] [[의료바이오]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[머신러닝-연구]] [[컴퓨터-비전]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

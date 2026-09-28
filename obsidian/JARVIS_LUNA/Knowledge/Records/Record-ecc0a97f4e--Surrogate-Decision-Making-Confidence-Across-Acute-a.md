@@ -2,7 +2,7 @@
 title: "Record ecc0a97f4e · Surrogate-Decision-Making-Confidence-Across-Acute-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.996171+00:00
+updated_at: 2026-09-28T12:36:00.718375+00:00
 tags: [record, real-data]
 ---
 

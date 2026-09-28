@@ -2,7 +2,7 @@
 title: "Record 38413b3892 · Lakebase-Serverless-Postgres-over-Open-Lake-Storage"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.986669+00:00
+updated_at: 2026-09-28T12:36:00.697082+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Lakebase: Serverless Postgres over Open Lake Storage
 
 ## Connected nodes
 
-[[Source--institutions]] [[LLM언어모델]] [[인프라클라우드]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[인프라클라우드]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

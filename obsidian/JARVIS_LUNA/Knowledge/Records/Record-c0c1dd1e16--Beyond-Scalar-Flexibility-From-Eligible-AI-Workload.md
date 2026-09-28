@@ -2,7 +2,7 @@
 title: "Record c0c1dd1e16 · Beyond-Scalar-Flexibility-From-Eligible-AI-Workload"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.667408+00:00
+updated_at: 2026-09-28T12:36:00.028828+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Grid studies often represent data-center flexibility as a fixed percentage of lo
 
 ## Connected nodes
 
-[[Source--robotics]] [[LLM언어모델]] [[반도체하드웨어]] [[JARVIS Real Knowledge Index]]
+[[Source--robotics]] [[반도체하드웨어]] [[JARVIS Real Knowledge Index]]

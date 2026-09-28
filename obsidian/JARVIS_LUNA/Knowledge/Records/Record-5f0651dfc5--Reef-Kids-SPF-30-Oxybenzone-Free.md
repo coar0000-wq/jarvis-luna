@@ -2,7 +2,7 @@
 title: "Record 5f0651dfc5 · Reef-Kids-SPF-30-Oxybenzone-Free"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.606367+00:00
+updated_at: 2026-09-28T12:35:59.927345+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Reef Kids SPF 30 Oxybenzone Free
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

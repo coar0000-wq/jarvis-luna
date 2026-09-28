@@ -2,7 +2,7 @@
 title: "Record 17f36dbfa7 · Asimovs-laws-are-not-enough-to-keep-robotics-and-AI-safe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.885264+00:00
+updated_at: 2026-09-28T12:36:02.468781+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Asimov’s laws are not enough to keep robotics and AI safe
 
 ## Connected nodes
 
-[[Source--robotics]] [[법률규제]] [[로보틱스]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]
+[[Source--robotics]] [[법률규제]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

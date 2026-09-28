@@ -2,7 +2,7 @@
 title: "Record 8f85fe6629 · Holler-Beach-Vacay-Coconut-Scented-Body-and-Hair-Fragrance-Mist-27-fl-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:55.034931+00:00
+updated_at: 2026-09-28T12:36:02.538430+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Holler Beach Vacay Coconut Scented Body and Hair Fragrance Mist, 2.7 fl oz · �
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

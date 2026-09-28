@@ -2,7 +2,7 @@
 title: "Record 17cc2445ba · Corner-Cases-Headland-Coverage-Path-Planning-for-Au"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.646842+00:00
+updated_at: 2026-09-28T12:35:59.984898+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ This paper presents a new method for headland coverage path planning for arable 
 
 ## Connected nodes
 
-[[Source--robotics]] [[LLM언어모델]] [[반도체하드웨어]] [[JARVIS Real Knowledge Index]]
+[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

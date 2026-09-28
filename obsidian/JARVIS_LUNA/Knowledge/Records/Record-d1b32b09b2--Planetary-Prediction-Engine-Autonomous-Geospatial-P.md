@@ -2,7 +2,7 @@
 title: "Record d1b32b09b2 · Planetary-Prediction-Engine-Autonomous-Geospatial-P"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:55.126041+00:00
+updated_at: 2026-09-28T12:36:02.723155+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Addressing critical global challenges, from food security and disaster risk to d
 
 ## Connected nodes
 
-[[Source--arXiv]] [[AI-에이전트]] [[LLM언어모델]] [[모델-라우팅MoE]] [[머신러닝-연구]] [[보안프라이버시]] [[인프라클라우드]] [[데이터분석]] [[의료바이오]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[AI-에이전트]] [[모델-라우팅MoE]] [[머신러닝-연구]] [[보안프라이버시]] [[인프라클라우드]] [[데이터분석]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

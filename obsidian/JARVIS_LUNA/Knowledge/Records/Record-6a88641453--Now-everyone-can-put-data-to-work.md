@@ -2,7 +2,7 @@
 title: "Record 6a88641453 · Now-everyone-can-put-data-to-work"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.561574+00:00
+updated_at: 2026-09-28T12:36:01.873327+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and
 
 ## Connected nodes
 
-[[Source--institutions]] [[AI-에이전트]] [[LLM언어모델]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

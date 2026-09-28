@@ -2,7 +2,7 @@
 title: "Record f42a5386fd · SKINFOOD-Carrot-Carotene-Calming-Water-Pad-60ct-881-oz250g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.619340+00:00
+updated_at: 2026-09-28T12:36:01.978587+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ SKINFOOD Carrot Carotene Calming Water Pad 60ct 8.81 oz.(250g) · 평점 4.8 · 
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

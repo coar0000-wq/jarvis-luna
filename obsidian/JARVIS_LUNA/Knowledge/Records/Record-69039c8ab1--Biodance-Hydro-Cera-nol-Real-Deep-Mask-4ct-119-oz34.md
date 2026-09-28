@@ -2,7 +2,7 @@
 title: "Record 69039c8ab1 · Biodance-Hydro-Cera-nol-Real-Deep-Mask-4ct-119-oz34"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.631526+00:00
+updated_at: 2026-09-28T12:36:02.003268+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Biodance Hydro Cera-nol Real Deep Mask 4ct 1.19 oz.(34g) · 평점 4.7 · 리뷰
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[의료바이오]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[의료바이오]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

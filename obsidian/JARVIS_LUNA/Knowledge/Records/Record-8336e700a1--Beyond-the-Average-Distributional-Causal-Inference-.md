@@ -2,7 +2,7 @@
 title: "Record 8336e700a1 · Beyond-the-Average-Distributional-Causal-Inference-under-Imperfect-Com"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.000279+00:00
+updated_at: 2026-09-28T12:36:00.728680+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Beyond the Average: Distributional Causal Inference under Imperfect Compliance
 
 ## Connected nodes
 
-[[Source--institutions]] [[법률규제]] [[LLM언어모델]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[법률규제]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

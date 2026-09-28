@@ -2,7 +2,7 @@
 title: "Record ab668e20f3 · Inovação-desenvolvimento-e-tecnologias-uma-revisão-integrativa-sobre-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.008884+00:00
+updated_at: 2026-09-28T12:36:00.760293+00:00
 tags: [record, real-data]
 ---
 

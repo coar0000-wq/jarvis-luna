@@ -2,7 +2,7 @@
 title: "Record cfa3417c31 · Waves-on-the-Walls-Empirical-Characterization-of-mm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.650410+00:00
+updated_at: 2026-09-28T12:35:59.991895+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ High-frequency millimeter-wave (mmWave) communication systems are constrained by
 
 ## Connected nodes
 
-[[Source--robotics]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]
+[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

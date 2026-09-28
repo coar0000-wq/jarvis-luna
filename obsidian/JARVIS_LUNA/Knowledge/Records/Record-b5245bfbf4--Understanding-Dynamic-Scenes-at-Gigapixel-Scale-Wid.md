@@ -2,7 +2,7 @@
 title: "Record b5245bfbf4 · Understanding-Dynamic-Scenes-at-Gigapixel-Scale-Wide-Area-Spatio-Tempo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.062698+00:00
+updated_at: 2026-09-28T12:36:00.883645+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ UAV-borne imaging has advanced from megapixel to gigapixel sensors, shifting aer
 
 ## Connected nodes
 
-[[Source--arXiv]] [[LLM언어모델]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

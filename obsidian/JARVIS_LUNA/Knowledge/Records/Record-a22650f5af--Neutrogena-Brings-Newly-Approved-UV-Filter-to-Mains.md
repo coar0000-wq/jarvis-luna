@@ -2,7 +2,7 @@
 title: "Record a22650f5af · Neutrogena-Brings-Newly-Approved-UV-Filter-to-Mainstream-SPF---America"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.463559+00:00
+updated_at: 2026-09-28T12:36:01.674108+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Neutrogena Brings Newly Approved UV Filter to Mainstream SPF - americanspa.com
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

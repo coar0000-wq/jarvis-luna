@@ -2,7 +2,7 @@
 title: "Record 34be8b0d08 · Across-Design-Uncertainty-in-Short-Pricing-Panels-E"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:55.111134+00:00
+updated_at: 2026-09-28T12:36:02.680606+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Short observational pricing panels can contain many observations while offering 
 
 ## Connected nodes
 
-[[Source--arXiv]] [[경영전략]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[경영전략]] [[JARVIS Real Knowledge Index]]

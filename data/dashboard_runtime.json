@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-28T21:14:46.006541+09:00",
+  "generated_at": "2026-09-28T21:36:08.186856+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
       "id": "sourcing",
       "name": "상품 소싱팀",
-      "when": "2026-09-28T12:00:31.327988+00:00",
+      "when": "2026-09-28T12:34:06.791137+00:00",
       "summary": "346개 상품 · 등급 S 10 / A 77 / B 48 / C 211 · 새 자료 6건 · 영상 학습 3개",
       "action": null,
       "action_kind": null,
@@ -50,8 +50,8 @@
     {
       "id": "institutions",
       "name": "기관 수집팀",
-      "when": "2026-09-28T10:31:37.923062+00:00",
-      "summary": "34곳 1,009건 · 미수집 12건 사유 기록 · 새 자료 224건 · 영상 90편 자막 검토 대기",
+      "when": "2026-09-28T12:24:49.407069+00:00",
+      "summary": "34곳 1,035건 · 미수집 12건 사유 기록 · 새 자료 225건 · 영상 학습 1개",
       "action": null,
       "action_kind": null,
       "waiting": null,
@@ -63,17 +63,34 @@
       "color": "#2f7d6b",
       "glyph": "bank",
       "youtube_learning": {
-        "status": "영상 수집됨 · 자막 검토 대기",
-        "insights": 0,
+        "status": "학습 중",
+        "insights": 1,
         "videos_available": 90,
-        "this_week_action": null
+        "this_week_action": {
+          "id": "INS-20260928-01",
+          "tactic": "생성형 AI와 검증기(Verifier) 결합 체계",
+          "action": "사내 AI 에이전트 구축 시 아이디어/카피를 생성하는 LLM과 이를 검증 가이드라인에 따라 필터링하는 검증기(Verifier) 하네스를 결합하여 환각 및 오류를 방지한다.",
+          "confidence": "high",
+          "kpis": [
+            "AI 생성 결과물 환각/오류 발생률",
+            "검증 자동화 비율"
+          ],
+          "prerequisites": [
+            "사내 에이전트 검증 가이드라인 및 제약 규칙 세팅"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=qoinGjj60Fo",
+            "timestamp": "36:10-38:15",
+            "summary": "LLM의 생성 기능(Conjecture)과 엄격한 검증기(Verifier/Refutation)를 결합하여 오류와 환각을 필터링하는 에이전트 하네스 구조."
+          }
+        }
       }
     },
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-09-28T21:14:18.040027+09:00",
-      "summary": "S등급 10개 · 고시 판독 남음 0건 · 유튜브 자막 12편 · 근거 29개 · 실험 12개 · 새 자료 81건 · 영상 학습 28개",
+      "when": "2026-09-28T21:34:16.658831+09:00",
+      "summary": "S등급 10개 · 고시 판독 남음 0건 · 유튜브 자막 12편 · 근거 29개 · 실험 12개 · 새 자료 83건 · 영상 학습 30개",
       "action": null,
       "action_kind": null,
       "waiting": null,
@@ -86,7 +103,7 @@
       "glyph": "chart",
       "youtube_learning": {
         "status": "학습 중",
-        "insights": 28,
+        "insights": 30,
         "videos_available": 85,
         "this_week_action": {
           "id": "MKT-001",
@@ -115,8 +132,8 @@
     {
       "id": "listing",
       "name": "리스팅 제작팀",
-      "when": "2026-09-28T12:00:31.671159+00:00",
-      "summary": "AI 입력 9/10 · 초안 준비 9/10 · 공개 준비 0/10 · Action 8건 · CP 10 · 카피 9 · 고시 10 · 가격 10 · 법률 9 · Jev 판정 10건(이어쓴 판정 · 호출 0) · 영상 학습 25개",
+      "when": "2026-09-28T12:34:14.025360+00:00",
+      "summary": "AI 입력 9/10 · 초안 준비 9/10 · 공개 준비 0/10 · Action 8건 · CP 10 · 카피 9 · 고시 10 · 가격 10 · 법률 9 · Jev 판정 10건(입력 10,961토큰 · $0.0005, 무료 크레딧) · 영상 학습 27개",
       "action": null,
       "action_kind": null,
       "waiting": "카피 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 8건 사람 승인 대기",
@@ -129,28 +146,26 @@
       "glyph": "doc",
       "youtube_learning": {
         "status": "학습 중",
-        "insights": 25,
+        "insights": 27,
         "videos_available": 44,
         "this_week_action": {
-          "id": "MKT-001",
-          "tactic": "광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
-          "action": "광고 훅과 피부 고민마다 별도 랜딩페이지를 만들고 가치제안, 실제 리뷰, FAQ, 배송·반품 정보를 한 흐름에 배치한다.",
+          "id": "LST-20260928-01",
+          "tactic": "Claude 프롬프트 기반 Shopify 상세페이지 구축",
+          "action": "경쟁사 스토어 와이어프레임을 추출한 뒤 Claude AI 프롬프트로 자사 브랜드 컬러, 카피, AI 목업을 적용하여 Shopify 상세페이지 및 바이박스를 일괄 구축한다.",
           "confidence": "high",
           "kpis": [
-            "landing_conversion_rate",
-            "cost_per_acquisition",
-            "bounce_rate"
+            "상세페이지 제작 소요 시간",
+            "상품 페이지 등록 수",
+            "상세페이지 전환율"
           ],
           "prerequisites": [
-            "UTM 규칙",
-            "실제 고객 후기",
-            "배송·반품 정책",
-            "법률 검토된 효능 문구"
+            "White Labeler 및 AI 이미지 생성 툴 연동",
+            "Shopify 파트너 계정 세팅"
           ],
           "evidence": {
-            "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
-            "timestamp": "00:29-03:16",
-            "summary": "일반 PDP 대신 광고와 메시지가 일치하는 전용 랜딩페이지를 판매원처럼 설계"
+            "url": "https://www.youtube.com/watch?v=dPPd65Kvh7Y",
+            "timestamp": "18:40-20:15",
+            "summary": "경쟁사 레이아웃 캡처 후 AI 프롬프트로 브랜드 스타일과 목업 이미지를 적용하여 Shopify 상품 리스팅을 자동 생성하는 가이드."
           }
         }
       }
@@ -158,8 +173,8 @@
     {
       "id": "pricing",
       "name": "가격 정책팀",
-      "when": "2026-09-28T10:38:15.298579+00:00",
-      "summary": "개당 배송비 $6.20~$6.95 · 무게 43~200g (고시용량 10) · DDU/DDP 4개 · 새 자료 22건 · 영상 학습 9개",
+      "when": "2026-09-28T12:34:06.938322+00:00",
+      "summary": "개당 배송비 $6.20~$6.95 · 무게 43~200g (고시용량 10) · DDU/DDP 4개 · 새 자료 24건 · 영상 학습 11개",
       "action": null,
       "action_kind": null,
       "waiting": null,
@@ -172,7 +187,7 @@
       "glyph": "tag",
       "youtube_learning": {
         "status": "학습 중",
-        "insights": 9,
+        "insights": 11,
         "videos_available": 36,
         "this_week_action": {
           "id": "MKT-008",
@@ -201,8 +216,8 @@
     {
       "id": "legal",
       "name": "법률·규제팀",
-      "when": "2026-09-28T12:00:31.484011+00:00",
-      "summary": "자동 점검 10건 · 통과 0 · 등록 차단 1 · 참고 주의 10 · MoCRA 준비 0/7 · 영문라벨 23/27 · 표기 되돌림 6건 · 성분표기 확인 6종 · 수출서류 HS 10건 · 라벨 4/6항목 자동 · 새 자료 45건 · 영상 학습 18개",
+      "when": "2026-09-28T12:34:07.996297+00:00",
+      "summary": "자동 점검 10건 · 통과 0 · 등록 차단 1 · 참고 주의 10 · MoCRA 준비 0/7 · 영문라벨 23/27 · 표기 되돌림 6건 · 성분표기 확인 6종 · 수출서류 HS 10건 · 라벨 4/6항목 자동 · 새 자료 46건 · 영상 학습 19개",
       "action": null,
       "action_kind": null,
       "waiting": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
@@ -215,28 +230,25 @@
       "glyph": "scale",
       "youtube_learning": {
         "status": "학습 중",
-        "insights": 18,
+        "insights": 19,
         "videos_available": 31,
         "this_week_action": {
-          "id": "MKT-001",
-          "tactic": "광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
-          "action": "광고 훅과 피부 고민마다 별도 랜딩페이지를 만들고 가치제안, 실제 리뷰, FAQ, 배송·반품 정보를 한 흐름에 배치한다.",
+          "id": "LEG-20260928-01",
+          "tactic": "수출 규제 서류 사전 완비 및 조건부 등록",
+          "action": "FDA 등 해외 규제 제출 서류는 사전에 완비하되 유지비가 발생하는 정식 수수료 등록은 바이어 실구매 시점으로 유예하고, 포장재 부피를 축소하여 물류비를 절감한다.",
           "confidence": "high",
           "kpis": [
-            "landing_conversion_rate",
-            "cost_per_acquisition",
-            "bounce_rate"
+            "규제 유지 비용 절감액",
+            "단위당 해외 물류비 비율"
           ],
           "prerequisites": [
-            "UTM 규칙",
-            "실제 고객 후기",
-            "배송·반품 정책",
-            "법률 검토된 효능 문구"
+            "미국 FDA 등 법률/규제 원문 가이드라인 직접 검토 및 인허가 요구사항 확인 필요",
+            "현지 3PL 물류 파트너 확보"
           ],
           "evidence": {
-            "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
-            "timestamp": "00:29-03:16",
-            "summary": "일반 PDP 대신 광고와 메시지가 일치하는 전용 랜딩페이지를 판매원처럼 설계"
+            "url": "https://www.youtube.com/watch?v=nPbZ6lK2K08",
+            "timestamp": "00:40-02:10",
+            "summary": "해외 수출 행정 서류는 사전 완비하되 정식 라이선스 등록은 바이어 오더 발생 시점에 진행하는 비용 최적화 전략."
           }
         }
       }
@@ -244,7 +256,7 @@
     {
       "id": "robotics",
       "name": "로보틱스 수집",
-      "when": "2026-09-28T10:29:09.633202+00:00",
+      "when": "2026-09-28T12:23:39.447512+00:00",
       "summary": "66건 · arxiv 26 / rss 40 · 새 자료 55건 · 영상 60편 자막 검토 대기",
       "action": null,
       "action_kind": null,
@@ -266,8 +278,8 @@
     {
       "id": "design",
       "name": "디자인팀",
-      "when": "2026-09-28T10:31:46.387257+00:00",
-      "summary": "스토어 2/12단계 · 오프라인 초안 2단계 · 레퍼런스 85건 (관련 44%) · 폰트 1946개(한글 38) · 팔레트 13색조 · 디자인 기사 60건 · 영상 67건 · 새 자료 115건 · 영상 학습 7개",
+      "when": "2026-09-28T12:24:58.046868+00:00",
+      "summary": "스토어 2/12단계 · 오프라인 초안 2단계 · 레퍼런스 85건 (관련 44%) · 폰트 1946개(한글 38) · 팔레트 13색조 · 디자인 기사 60건 · 영상 67건 · 새 자료 117건 · 영상 학습 9개",
       "action": null,
       "action_kind": null,
       "waiting": "다음 단계: Shopify 스토어 개설 및 기본 설정",
@@ -280,28 +292,26 @@
       "glyph": "design",
       "youtube_learning": {
         "status": "학습 중",
-        "insights": 7,
+        "insights": 9,
         "videos_available": 67,
         "this_week_action": {
-          "id": "MKT-001",
-          "tactic": "광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
-          "action": "광고 훅과 피부 고민마다 별도 랜딩페이지를 만들고 가치제안, 실제 리뷰, FAQ, 배송·반품 정보를 한 흐름에 배치한다.",
+          "id": "DSN-20260928-01",
+          "tactic": "스크롤 드라이브 인터랙티브 랜딩페이지 구축",
+          "action": "Claude Code 기반 Scrollcraft 기법을 활용해 고객 스크롤 연동 모션과 성분/효과 카운터를 갖춘 Shopify 랜딩페이지를 개발한다.",
           "confidence": "high",
           "kpis": [
-            "landing_conversion_rate",
-            "cost_per_acquisition",
-            "bounce_rate"
+            "랜딩페이지 체류 시간",
+            "스크롤 깊이(Scroll Depth)",
+            "전환율(CVR)"
           ],
           "prerequisites": [
-            "UTM 규칙",
-            "실제 고객 후기",
-            "배송·반품 정책",
-            "법률 검토된 효능 문구"
+            "Claude Code 개발 환경 구성",
+            "키프레임 검증용 API 키 세팅"
           ],
           "evidence": {
-            "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
-            "timestamp": "00:29-03:16",
-            "summary": "일반 PDP 대신 광고와 메시지가 일치하는 전용 랜딩페이지를 판매원처럼 설계"
+            "url": "https://www.youtube.com/watch?v=QUI6Ug4cHnE",
+            "timestamp": "03:16-04:02",
+            "summary": "스크롤 동작과 인터페이스 모션을 동기화하고 로컬 스크린샷 검증 패스를 거쳐 몰입감 높은 랜딩페이지를 제작하는 프로세스."
           }
         }
       }
@@ -309,8 +319,8 @@
     {
       "id": "channels",
       "name": "채널 운영팀",
-      "when": "2026-09-28T12:00:45.677257+00:00",
-      "summary": "가동 11/12채널 · 수동 입력 32건 · 후보 7건 검사, 미연동 0건 · 영상 30편 자막 검토 대기",
+      "when": "2026-09-28T12:34:29.930347+00:00",
+      "summary": "가동 11/12채널 · 수동 입력 32건 · 후보 7건 검사, 미연동 0건 · 영상 학습 2개",
       "action": null,
       "action_kind": null,
       "waiting": null,
@@ -322,17 +332,35 @@
       "color": "#0369a1",
       "glyph": "antenna",
       "youtube_learning": {
-        "status": "영상 수집됨 · 자막 검토 대기",
-        "insights": 0,
+        "status": "학습 중",
+        "insights": 2,
         "videos_available": 30,
-        "this_week_action": null
+        "this_week_action": {
+          "id": "CHN-20260928-01",
+          "tactic": "Amazon FBA 입고 규격 준수 및 수수료 사전 검증",
+          "action": "아마존 입점 시 FBA 가이드에 따라 상품 프렙, 라벨링 및 포장 요건을 준수하고, Revenue Calculator로 단위당 물류·보관 수수료를 사전에 산출하여 수익성을 검증한다.",
+          "confidence": "high",
+          "kpis": [
+            "FBA 재고 회전율",
+            "단위당 FBA 물류비용 비율"
+          ],
+          "prerequisites": [
+            "Amazon Seller Central 계정 보유",
+            "FBA 상품 적격성(Eligibility) 가이드 확인 (FDA/규제 원문 확인 필요)"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=fKjgRQ8tIRs",
+            "timestamp": "00:30-01:40",
+            "summary": "Amazon FBA 물류 센터 입고 가이드(프렙, 라벨링) 및 Revenue Calculator를 통한 단위당 보관/물류 수수료 추정 프로세스."
+          }
+        }
       }
     },
     {
       "id": "knowledge",
       "name": "지식 수집팀",
-      "when": "2026-09-28T10:32:36.108841+00:00",
-      "summary": "537건 · arXiv 50 / 유기농스킨 30 / Google 300 / US뷰티 157 · 영상 69편 자막 검토 대기",
+      "when": "2026-09-28T12:26:42.084698+00:00",
+      "summary": "537건 · arXiv 50 / 유기농스킨 30 / Google 300 / US뷰티 157 · 영상 학습 1개",
       "action": null,
       "action_kind": null,
       "waiting": null,
@@ -344,17 +372,34 @@
       "color": "#a16207",
       "glyph": "book",
       "youtube_learning": {
-        "status": "영상 수집됨 · 자막 검토 대기",
-        "insights": 0,
+        "status": "학습 중",
+        "insights": 1,
         "videos_available": 69,
-        "this_week_action": null
+        "this_week_action": {
+          "id": "KNW-20260928-01",
+          "tactic": "3단 위계 건축물 구조화 지식 요약",
+          "action": "시장 조사 및 경쟁사 연구 보고서 작성 시 최상위 논지(지붕), 핵심 근거(기둥), 근본 전제(기단)의 3단 위계 구조로 상위 범주화하여 요약 자산화한다.",
+          "confidence": "high",
+          "kpis": [
+            "보고서 작성 시간 단축률",
+            "사내 지식 자산 재활용률"
+          ],
+          "prerequisites": [
+            "사내 정보 요약 문서 템플릿 제정"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=ehmoVENJEB0",
+            "timestamp": "01:30-03:45",
+            "summary": "상위 범주화, 패러프레이징, 위계적 재구성을 통해 방대한 정보를 건축물 구조로 요약하는 지식 체계화 기법."
+          }
+        }
       }
     },
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-09-28T19:51:40.878011+09:00",
-      "summary": "83,039노트 · 342,535링크 · 끊어진 링크 0건 · 개인 노트 16건 별도 · 미분류 13.4% · 학습 키워드 9개 · 영상 30편 자막 검토 대기",
+      "when": "2026-09-28T21:36:03.816336+09:00",
+      "summary": "83,173노트 · 343,807링크 · 끊어진 링크 0건 · 개인 노트 16건 별도 · 미분류 8.4% · 학습 키워드 9개 · 영상 30편 자막 검토 대기",
       "action": null,
       "action_kind": null,
       "waiting": null,
@@ -377,7 +422,7 @@
     "id": "secretary",
     "name": "비서실장",
     "badge": "총괄",
-    "when": "2026-09-28T19:51:36.662093+09:00",
+    "when": "2026-09-28T21:34:07.916361+09:00",
     "summary": "2시간 주기 · 고시 27건 · US라벨 27건 · 카피 10건 · 등록 가능 9건 · 법률 차단 1건",
     "action": null,
     "action_kind": null,
@@ -387,44 +432,44 @@
         "단계": "고시 수집",
         "산출물": "gosi.json",
         "갱신": "2026-09-28T09:45:25.294372+00:00",
-        "몇시간전": 2.5
+        "몇시간전": 2.8
       },
       {
         "단계": "고시 비전 추출",
         "산출물": "gosi.json",
-        "갱신": "2026-09-28T18:54:32.268064+09:00",
-        "몇시간전": 2.3
+        "갱신": "2026-09-28T21:21:38.575581+09:00",
+        "몇시간전": 0.2
       },
       {
         "단계": "US 라벨 동기화",
         "산출물": "daiso_us_labels.json",
-        "갱신": "2026-09-28T19:51:36.662093+09:00",
-        "몇시간전": 1.4
+        "갱신": "2026-09-28T21:34:07.916361+09:00",
+        "몇시간전": 0.0
       },
       {
         "단계": "리스팅 카피",
         "산출물": "shopify_listing_copy.json",
-        "갱신": "2026-09-28T10:38:17.966363+00:00",
-        "몇시간전": 1.6
+        "갱신": "2026-09-28T12:34:09.432102+00:00",
+        "몇시간전": 0.0
       },
       {
         "단계": "등록 게이트",
         "산출물": "listing_gate.json",
-        "갱신": "2026-09-28T12:00:31.671159+00:00",
-        "몇시간전": 0.2
+        "갱신": "2026-09-28T12:34:14.025360+00:00",
+        "몇시간전": 0.0
       },
       {
         "단계": "법률 점검",
         "산출물": "legal_products.json",
-        "갱신": "2026-09-28T12:00:31.484011+00:00",
-        "몇시간전": 0.2
+        "갱신": "2026-09-28T12:34:07.996297+00:00",
+        "몇시간전": 0.0
       }
     ],
     "_근거": "JARVIS Deep Analysis가 2시간마다 남기는 Safe Auto-Fix 보고서를 heartbeat로 본다. 개별 파생 파일은 입력 무변경 시 mtime이 유지되므로 지연 판정에 쓰지 않는다."
   },
   "remediation_state": {
     "schema_version": 1,
-    "generated_at": "2026-09-28T10:39:36.304493+00:00",
+    "generated_at": "2026-09-28T12:35:31.249112+00:00",
     "check_interval": "2_hours",
     "escalate_after_detected_runs": 3,
     "active_count": 4,
@@ -441,8 +486,8 @@
         "state": "waiting_human_approval",
         "reason": "카피 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 8건 사람 승인 대기",
         "first_seen_at": "2026-09-21T10:13:44.774659+00:00",
-        "last_seen_at": "2026-09-28T10:39:36.304493+00:00",
-        "detected_runs": 6,
+        "last_seen_at": "2026-09-28T12:35:31.249112+00:00",
+        "detected_runs": 7,
         "auto_attempts": 0,
         "resolved_at": null
       },
@@ -455,8 +500,8 @@
         "state": "waiting_human_approval",
         "reason": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
         "first_seen_at": "2026-09-21T10:13:44.774659+00:00",
-        "last_seen_at": "2026-09-28T10:39:36.304493+00:00",
-        "detected_runs": 6,
+        "last_seen_at": "2026-09-28T12:35:31.249112+00:00",
+        "detected_runs": 7,
         "auto_attempts": 0,
         "resolved_at": null
       },
@@ -469,8 +514,8 @@
         "state": "waiting_external_dependency",
         "reason": "다음 단계: Shopify 스토어 개설 및 기본 설정",
         "first_seen_at": "2026-09-21T10:13:44.774659+00:00",
-        "last_seen_at": "2026-09-28T10:39:36.304493+00:00",
-        "detected_runs": 6,
+        "last_seen_at": "2026-09-28T12:35:31.249112+00:00",
+        "detected_runs": 7,
         "auto_attempts": 0,
         "resolved_at": null
       },
@@ -483,8 +528,8 @@
         "state": "waiting_external_dependency",
         "reason": "외부 소스 고장 5건 추적 중 (기관 수집팀:Deutsche Bank 사이트, 기관 수집팀:TSMC 뉴스룸, 기관 수집팀:Marvell·Intel·Qualcomm·ASML IR RSS, 채널 운영팀:FDA 화장품 리콜·조치 이력)",
         "first_seen_at": "2026-09-21T10:24:44.825768+00:00",
-        "last_seen_at": "2026-09-28T10:39:36.304493+00:00",
-        "detected_runs": 4,
+        "last_seen_at": "2026-09-28T12:35:31.249112+00:00",
+        "detected_runs": 5,
         "auto_attempts": 0,
         "resolved_at": null
       },
@@ -533,7 +578,7 @@
     }
   },
   "errors": {
-    "generated_at": "2026-09-28T10:39:28.999105+00:00",
+    "generated_at": "2026-09-28T12:35:19.099505+00:00",
     "total": 34,
     "counts": {
       "고장": 5,
@@ -618,7 +663,7 @@
     ]
   },
   "health": {
-    "generated_at": "2026-09-28T10:39:29.035057+00:00",
+    "generated_at": "2026-09-28T12:35:19.151448+00:00",
     "overall_status": "failed",
     "status_legend": {
       "success": "정상",
@@ -627,34 +672,34 @@
       "failed": "예외 - 사람 개입 필요"
     },
     "kpi": {
-      "last_success": "2026-09-28T10:39:29.035045+00:00",
+      "last_success": "2026-09-28T12:35:19.151435+00:00",
       "failed_jobs": 1,
-      "queue": 3061,
+      "queue": 2925,
       "stale_source": "marketing",
       "freshness_summary": {
         "product_master": "1 min ago",
         "legal_full": "1 min ago",
         "pricing": "1 min ago",
         "marketing": "1 min ago",
-        "gosi": "54 min ago",
+        "gosi": "2.8 hours ago",
         "product_discovery": "1 min ago",
-        "daiso": "7.5 days ago"
+        "daiso": "34 min ago"
       }
     },
     "summary": {
-      "success": 4,
-      "warning": 2,
+      "success": 5,
+      "warning": 1,
       "degraded": 0,
       "failed": 1,
-      "no_change": 1,
+      "no_change": 0,
       "real_failures": 1
     },
     "checks": [
       {
         "team": "product_master",
         "status": "success",
-        "reason": "운영 상품 344개, CP 345개, S 10개",
-        "count": 344,
+        "reason": "운영 상품 346개, CP 347개, S 10개",
+        "count": 346,
         "s_count": 10,
         "freshness": "1 min ago",
         "is_failure": false
@@ -683,9 +728,9 @@
       {
         "team": "gosi",
         "status": "success",
-        "reason": "정상 0.9h 전",
+        "reason": "정상 2.8h 전",
         "is_failure": false,
-        "freshness": "54 min ago"
+        "freshness": "2.8 hours ago"
       },
       {
         "team": "product_discovery",
@@ -696,11 +741,10 @@
       },
       {
         "team": "daiso",
-        "status": "warning",
-        "reason": "180.1h 전 갱신 - 변경 없음으로 처리",
+        "status": "success",
+        "reason": "정상 0.6h 전",
         "is_failure": false,
-        "is_no_change": true,
-        "freshness": "7.5 days ago"
+        "freshness": "34 min ago"
       }
     ],
     "architecture_p0": {
@@ -711,8 +755,8 @@
     }
   },
   "team_summary": {
-    "corpus_records": 5041,
-    "pipeline_done": 3,
+    "corpus_records": 5175,
+    "pipeline_done": 5,
     "pipeline_total": 5
   },
   "pipeline": [
@@ -720,13 +764,13 @@
       "id": "collect",
       "title": "실제 데이터 수집",
       "status": "completed",
-      "detail": "5041개 코퍼스 레코드"
+      "detail": "5175개 코퍼스 레코드"
     },
     {
       "id": "graph",
       "title": "Obsidian 그래프 반영·검증",
       "status": "completed",
-      "detail": "83039개 노트 · 342535개 링크 · 끊어진 링크 0개 · 개인 노트 16개 별도"
+      "detail": "83173개 노트 · 343807개 링크 · 끊어진 링크 0개 · 개인 노트 16개 별도"
     },
     {
       "id": "dashboard",
@@ -737,21 +781,21 @@
     {
       "id": "train",
       "title": "실제 데이터 MoE 학습",
-      "status": "not_verified",
-      "detail": "5041건 · 3 experts · 정확도 86.75%"
+      "status": "completed",
+      "detail": "5175건 · 3 experts · 정확도 97.28%"
     },
     {
       "id": "publish",
       "title": "저장소·Pages 반영",
-      "status": "pending_workflow",
+      "status": "ready_for_pages",
       "detail": "GitHub Actions Pages 배포 워크플로에서 반영"
     }
   ],
   "sources": {
     "status": "completed",
-    "record_count": 5041,
+    "record_count": 5175,
     "source_counts": {},
-    "updated_at": "2026-09-28T19:51:36.696093+09:00"
+    "updated_at": "2026-09-28T21:26:42.100780+09:00"
   },
   "shopify_marketing_strategy": {
     "status": "evidence_ready",
@@ -1079,50 +1123,54 @@
     "strategy_file": "data/shopify_marketing_strategy.json"
   },
   "graph": {
-    "notes": 83039,
-    "links": 342535,
+    "notes": 83173,
+    "links": 343807,
     "dangling_links": 0,
     "dangling_personal": 16,
     "dangling_personal_note": "사용자가 직접 넣은 Personal 노트의 내부 링크. 원본 볼트에서 일부만 가져와 대상 노트가 없는 것으로, 파이프라인 오류가 아니다.",
     "dangling_warn_threshold": 300,
-    "records": 82199,
+    "records": 82333,
     "sources": 7,
     "topics": 28,
     "orgs": 35,
     "audit": "passed",
-    "last_generated": "2026-09-28T19:51:40.878011+09:00"
+    "last_generated": "2026-09-28T21:36:03.816336+09:00"
   },
   "training": {
-    "status": "not_verified",
-    "training_effective": null,
-    "verdict": "기준선 비교 기록 없음",
-    "validation_macro_f1": null,
-    "validation_recall": null,
-    "baseline_accuracy": null,
-    "baseline_macro_f1": null,
+    "status": "completed",
+    "training_effective": true,
+    "verdict": "기준선보다 나음: 운영 가중치 교체",
+    "validation_macro_f1": 0.893692259899851,
+    "validation_recall": {
+      "ai-image": 0.8333,
+      "ai-research": 0.9696,
+      "shopify-commerce-image": 0.9697
+    },
+    "baseline_accuracy": 0.8769230769230769,
+    "baseline_macro_f1": 0.3114754098360656,
     "training_performed": true,
     "weights_updated": true,
-    "records": 5041,
+    "records": 5175,
     "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
     "experts": 3,
-    "accuracy": 0.867486609799643,
-    "validation_accuracy": 0.8748685594111462,
-    "final_loss": 0.4624529798124425,
-    "gate_load_std": 0.07275759288849802,
+    "accuracy": 0.9727536231884057,
+    "validation_accuracy": 0.9620512820512821,
+    "final_loss": 0.23863219538577224,
+    "gate_load_std": 0.4699389972729063,
     "tuning_promoted": true,
-    "tuning_steps": 500,
-    "updated_at": "2026-09-28T10:37:37.615011+00:00"
+    "tuning_steps": 300,
+    "updated_at": "2026-09-28T12:31:52.300983+00:00"
   },
   "cumulative": {
     "totals": {
-      "records": 5041,
-      "notes": 83627,
-      "links": 361781
+      "records": 5175,
+      "notes": 83761,
+      "links": 363053
     },
     "prior_totals": {
-      "records": 5041,
-      "notes": 83627,
-      "links": 361781
+      "records": 5175,
+      "notes": 83761,
+      "links": 363053
     },
     "added_this_run": {
       "records": 0,
@@ -1130,9 +1178,9 @@
       "links": 0
     },
     "current_snapshot": {
-      "records": 5041,
-      "notes": 83039,
-      "links": 342535
+      "records": 5175,
+      "notes": 83173,
+      "links": 343807
     },
     "since": "2026-08-23T05:21:53.378147+00:00",
     "runs_recorded": 90
@@ -1509,7 +1557,7 @@
         "badge": "$12.99",
         "rank": 1,
         "rating": 4.8,
-        "review_count": 11863,
+        "review_count": 11862,
         "url": "https://us.oliveyoung.com/products/UA29855490"
       },
       {
@@ -1655,18 +1703,11 @@
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNLUljZGVfV0VQM2MtYU9JS0VlWUExeXk5OEFNZ2t1TElRWk04bFdWQmVEY3BXal9TWXBkakxPc2MzWjhNaU5NMW0yUUJYc01FVDFRQmhYVkFpTlNCVmtkMXZXN2ptc04yQTlBdlY5elRRUHFpaUhZNmdXcnhtdXU4b2RxZGZleEticGhMZ0ppNjkzbWpndmR6dw?oc=5"
       },
       {
-        "keyword": "Shinsegae Targets US Beauty Market with K-Beauty Retail Platform - Global Cosmetics News",
-        "product": "Shinsegae Targets US Beauty Market with K-Beauty Retail Platform - Global Cosmetics News",
+        "keyword": "Shinsegae Targets US Beauty Market with K-Beauty Retail Platform - globalcosmeticsnews.com",
+        "product": "Shinsegae Targets US Beauty Market with K-Beauty Retail Platform - globalcosmeticsnews.com",
         "sub": "K-beauty",
         "badge": "news",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOLUgzOFAzc1hpSHFab3ZWZ2NPSWNXcTliOHpqakQ1R3M4enBUVEtsbXpjZXdKd2lleHM2ODVWSUZOTkNoX1RYeWtBbmhqRUxOS1l5UnVMQV94WHpLN3VUWkJxMjFISzBJOEpaYmdtSVYybVVta2x5ZzcwRGZDeTJ1Vm93dlNqaUZZdWwyc1JMdmNydmY1OHI1ODdDSGY2VURIWV9B?oc=5"
-      },
-      {
-        "keyword": "K Beauty Products Market Forecast to Expand Through 2035, Driven by Demand for Science-Backed Skincare Routines - IndexBox",
-        "product": "K Beauty Products Market Forecast to Expand Through 2035, Driven by Demand for Science-Backed Skincare Routines - IndexBox",
-        "sub": "K-beauty",
-        "badge": "news",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbW03dnVrX003cF9PNzdzWFNjaVJaVWVqQUU3U3dIc0tCVFJiZTV2SmtOTFdzX1pSNU9NNVBIYlJLZzJpTFBYUkExTExxbGNxem5UN3ZxQUpqR2x0dUFuaDV0X3J2Y0Y4YVFRMkpwcWxYRy1xWm9QeGNNQmZ4RUpmX2JUM05YU1E2ODZwdkNxTUNTZ1hjQ2hKam50bEhrWHhGSmpyTE0xNktYSUpvMkVrbHFLQ21RcmRfejRkUjBYd083eFN2SC1IM282b0ZLYUtrQi1uZ25oWQ?oc=5"
       },
       {
         "keyword": "K-Beauty Is Taking Over Our Best of Beauty Awards, and for Good Reason - Allure",
@@ -1674,6 +1715,13 @@
         "sub": "K-beauty",
         "badge": "news",
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9OMWRrWlZETWZ3NUNIUFhIZU1GcVl1OFJmMEkzemlwMVRfVWs4NTFpLUd0VFNxR0xFN09IajZxUDQzakRZcHp5cVVGTUplNzA2VW1QWXBWbkdSX0RRLUtHOTROZGtSdGpZV3hOQkRVaVpJZnFtZ2NNcHd5cw?oc=5"
+      },
+      {
+        "keyword": "K Beauty Products Market Forecast to Expand Through 2035, Driven by Demand for Science-Backed Skincare Routines - IndexBox",
+        "product": "K Beauty Products Market Forecast to Expand Through 2035, Driven by Demand for Science-Backed Skincare Routines - IndexBox",
+        "sub": "K-beauty",
+        "badge": "news",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbW03dnVrX003cF9PNzdzWFNjaVJaVWVqQUU3U3dIc0tCVFJiZTV2SmtOTFdzX1pSNU9NNVBIYlJLZzJpTFBYUkExTExxbGNxem5UN3ZxQUpqR2x0dUFuaDV0X3J2Y0Y4YVFRMkpwcWxYRy1xWm9QeGNNQmZ4RUpmX2JUM05YU1E2ODZwdkNxTUNTZ1hjQ2hKam50bEhrWHhGSmpyTE0xNktYSUpvMkVrbHFLQ21RcmRfejRkUjBYd083eFN2SC1IM282b0ZLYUtrQi1uZ25oWQ?oc=5"
       },
       {
         "keyword": "How The Eye-Patch Grinder Packaging Ended Up Everywhere At Once - Beauty Independent",
@@ -1806,6 +1854,12 @@
     ],
     "allure_media": [
       {
+        "product": "\"The Swan:\" Behind the Scenes of the Polarizing First Season",
+        "sub": "Mon, 28 Sep 2026",
+        "badge": "28 Sep",
+        "url": "https://www.allure.com/story/the-secrets-of-the-swan-first-season-interviews"
+      },
+      {
         "product": "Lisa Just Brought a New Nail Shape to the VMAs 2026 Red Carpet—See the Photos",
         "sub": "Mon, 28 Sep 2026",
         "badge": "28 Sep",
@@ -1888,12 +1942,6 @@
         "sub": "Thu, 24 Sep 2026",
         "badge": "24 Sep",
         "url": "https://www.allure.com/story/korean-beauty-best-of-beauty-award-winners"
-      },
-      {
-        "product": "Zara Larsson Put Her Spin on Pink Hair for the \"Allure\" Cover—See the Photos",
-        "sub": "Thu, 24 Sep 2026",
-        "badge": "24 Sep",
-        "url": "https://www.allure.com/story/zara-larsson-pink-hair-allure-cover"
       }
     ],
     "openfda_sunscreen": [
@@ -2374,7 +2422,7 @@
       "collected_at": "2026-09-27T23:23:29.610468+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 12.9,
+      "age_hours": 13.2,
       "stale": false
     },
     "walmart_beauty": {
@@ -2384,60 +2432,60 @@
       "collected_at": "2026-09-27T23:23:29.611493+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 12.9,
+      "age_hours": 13.2,
       "stale": false
     },
     "oliveyoung_us": {
       "status": "ok",
       "source": "us.oliveyoung.com/best-sellers 실수집",
       "reason": "",
-      "collected_at": "2026-09-28T10:33:07.147455+00:00",
+      "collected_at": "2026-09-28T12:27:04.906003+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 1.7,
+      "age_hours": 0.2,
       "stale": false
     },
     "google_trends_us": {
       "status": "ok",
       "source": "google news rss (beauty queries) + trends daily filtered",
       "reason": "",
-      "collected_at": "2026-09-28T10:33:46.758693+00:00",
+      "collected_at": "2026-09-28T12:27:47.877262+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 1.7,
+      "age_hours": 0.1,
       "stale": false
     },
     "wikipedia_interest": {
       "status": "ok",
       "source": "wikimedia.org REST pageviews API (공식)",
       "reason": "",
-      "collected_at": "2026-09-28T09:43:46.842769+00:00",
+      "collected_at": "2026-09-28T10:38:14.105931+00:00",
       "count": 8,
       "trust": "verified",
       "note": "2026-08-28 ~ 2026-09-26 일별 조회수. 후반 15일 대비 전반 15일 증감률",
-      "age_hours": 2.5,
+      "age_hours": 2.0,
       "stale": false
     },
     "allure_media": {
       "status": "ok",
       "source": "allure.com/feed/rss",
       "reason": "",
-      "collected_at": "2026-09-28T09:43:46.842769+00:00",
+      "collected_at": "2026-09-28T10:38:14.105931+00:00",
       "count": 15,
       "trust": "verified",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
-      "age_hours": 2.5,
+      "age_hours": 2.0,
       "stale": false
     },
     "openfda_sunscreen": {
       "status": "ok",
       "source": "api.fda.gov/drug/label (openFDA 공식)",
       "reason": "",
-      "collected_at": "2026-09-28T09:43:46.842769+00:00",
+      "collected_at": "2026-09-28T10:38:14.105931+00:00",
       "count": 15,
       "trust": "verified",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다.",
-      "age_hours": 2.5,
+      "age_hours": 2.0,
       "stale": false
     },
     "shopify_demand_matching": {
@@ -2463,7 +2511,7 @@
       "collected_at": "2026-09-27T23:23:29.612193+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 12.9,
+      "age_hours": 13.2,
       "stale": false
     },
     "sephora": {
@@ -2473,17 +2521,17 @@
       "collected_at": "2026-09-27T23:23:29.612193+00:00",
       "count": 14,
       "trust": "verified",
-      "age_hours": 12.9,
+      "age_hours": 13.2,
       "stale": false
     },
     "open_beauty_facts": {
       "status": "ok",
       "source": "world.openbeautyfacts.org /api/v2 (오픈데이터)",
       "reason": "",
-      "collected_at": "2026-09-28T10:33:06.194685+00:00",
+      "collected_at": "2026-09-28T12:27:04.204567+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 1.7,
+      "age_hours": 0.2,
       "stale": false
     }
   },
@@ -2493,5 +2541,14 @@
     "source": "https://open.er-api.com/v6/latest/USD",
     "updated_at": "2026-09-28"
   },
-  "last_synced": "09. 28. 오후 07:37 KST"
+  "last_synced": "09. 28. 오후 09:33 KST",
+  "commit_summary": {
+    "line": "agents: 조치후보 4건 · risk low · force",
+    "agents_line": "agents: 조치후보 4건 · risk low · force"
+  },
+  "agents_ops": {
+    "risk": "low",
+    "task_count": 4,
+    "at": "2026-09-28T12:36:08.266205+00:00"
+  }
 }

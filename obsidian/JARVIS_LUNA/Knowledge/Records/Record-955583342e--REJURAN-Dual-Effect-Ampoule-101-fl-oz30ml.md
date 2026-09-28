@@ -2,7 +2,7 @@
 title: "Record 955583342e · REJURAN-Dual-Effect-Ampoule-101-fl-oz30ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.629718+00:00
+updated_at: 2026-09-28T12:36:01.999810+00:00
 tags: [record, real-data]
 ---
 
@@ -13,10 +13,10 @@ tags: [record, real-data]
 **제목:** REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)
 
 REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)
-REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml) · 평점 4.7 · 리뷰 13
+REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml) · 평점 4.7 · 리뷰 14
 
 **출처:** Source · us_beauty
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,7 +2,7 @@
 title: "Record 963f7be73b · Measuring-the-Liquidity-Risk-Premium-in-Credit-Mark"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.033494+00:00
+updated_at: 2026-09-28T12:36:00.816974+00:00
 tags: [record, real-data]
 ---
 

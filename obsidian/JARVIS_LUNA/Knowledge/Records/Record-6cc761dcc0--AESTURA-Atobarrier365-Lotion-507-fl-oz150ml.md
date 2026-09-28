@@ -2,7 +2,7 @@
 title: "Record 6cc761dcc0 · AESTURA-Atobarrier365-Lotion-507-fl-oz150ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.629017+00:00
+updated_at: 2026-09-28T12:36:01.998317+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ AESTURA Atobarrier365 Lotion 5.07 fl. oz.(150ml) · 평점 4 · 리뷰 1
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

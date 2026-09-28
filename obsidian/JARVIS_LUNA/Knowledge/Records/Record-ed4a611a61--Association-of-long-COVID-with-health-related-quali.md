@@ -2,7 +2,7 @@
 title: "Record ed4a611a61 · Association-of-long-COVID-with-health-related-quali"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.876791+00:00
+updated_at: 2026-09-28T12:36:00.495032+00:00
 tags: [record, real-data]
 ---
 

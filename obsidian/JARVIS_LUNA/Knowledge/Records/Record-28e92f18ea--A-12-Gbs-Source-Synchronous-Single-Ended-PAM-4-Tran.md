@@ -2,7 +2,7 @@
 title: "Record 28e92f18ea · A-12-Gbs-Source-Synchronous-Single-Ended-PAM-4-Transceiver-With-Backgr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.923801+00:00
+updated_at: 2026-09-28T12:36:00.584694+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ A 12-Gb/s Source-Synchronous Single-Ended PAM-4 Transceiver With Background Adap
 
 ## Connected nodes
 
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Marvell-Technology]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

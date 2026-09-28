@@ -2,7 +2,7 @@
 title: "Record ed4b71aa26 · Botnia-Gentle-Sun-SPF-30"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.609453+00:00
+updated_at: 2026-09-28T12:35:59.929264+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Botnia Gentle Sun SPF 30
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

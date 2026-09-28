@@ -2,7 +2,7 @@
 title: "Record aa4f62e3e5 · Entropy-Regularized-Optimal-Transport-for-Time-Vary"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.694561+00:00
+updated_at: 2026-09-28T12:36:00.075805+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ This paper addresses time-varying coverage control for multi-agent systems, form
 
 ## Connected nodes
 
-[[Source--robotics]] [[AI-에이전트]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]
+[[Source--robotics]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

@@ -2,7 +2,7 @@
 title: "Record ee40ff867b · Does-PDRN-Really-Do-Anything"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:55.091155+00:00
+updated_at: 2026-09-28T12:36:02.633401+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Does PDRN Really Do Anything?
 
 ## Connected nodes
 
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

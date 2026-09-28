@@ -2,7 +2,7 @@
 title: "Record 7e8c10d6ca · FOODOLOGY-Coleology-Cutting-Jelly-088-oz25g-x-10ea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.633895+00:00
+updated_at: 2026-09-28T12:36:02.007741+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ FOODOLOGY Coleology Cutting Jelly 0.88 oz.(25g) x 10ea · 평점 4.7 · 리뷰 1
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,7 +2,7 @@
 title: "Record 08938b3aaa · This-ONE-simple-step-is-keeping-u-away-from-that-GL"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:55.068532+00:00
+updated_at: 2026-09-28T12:36:02.592012+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ This ONE simple step is keeping u away from that GLASS SKIN~!
 
 ## Connected nodes
 
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

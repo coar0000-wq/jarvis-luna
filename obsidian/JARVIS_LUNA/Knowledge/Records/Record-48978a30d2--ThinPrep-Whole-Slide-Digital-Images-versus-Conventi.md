@@ -2,7 +2,7 @@
 title: "Record 48978a30d2 · ThinPrep-Whole-Slide-Digital-Images-versus-Conventional-Microscopy-in-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.966891+00:00
+updated_at: 2026-09-28T12:36:00.656046+00:00
 tags: [record, real-data]
 ---
 

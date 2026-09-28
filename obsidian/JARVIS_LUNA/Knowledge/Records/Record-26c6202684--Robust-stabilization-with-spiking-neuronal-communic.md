@@ -2,7 +2,7 @@
 title: "Record 26c6202684 · Robust-stabilization-with-spiking-neuronal-communic"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.656090+00:00
+updated_at: 2026-09-28T12:36:00.004295+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Neuromorphic engineering develops hardware and software systems inspired by biol
 
 ## Connected nodes
 
-[[Source--robotics]] [[LLM언어모델]] [[의료바이오]] [[JARVIS Real Knowledge Index]]
+[[Source--robotics]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

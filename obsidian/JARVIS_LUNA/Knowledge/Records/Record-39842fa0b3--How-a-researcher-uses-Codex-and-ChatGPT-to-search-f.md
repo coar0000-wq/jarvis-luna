@@ -2,7 +2,7 @@
 title: "Record 39842fa0b3 · How-a-researcher-uses-Codex-and-ChatGPT-to-search-f"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.572147+00:00
+updated_at: 2026-09-28T12:36:01.881332+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct 
 
 ## Connected nodes
 
-[[Source--institutions]] [[LLM언어모델]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

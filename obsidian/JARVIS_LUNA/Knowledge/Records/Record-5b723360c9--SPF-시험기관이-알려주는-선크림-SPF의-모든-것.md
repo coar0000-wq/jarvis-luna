@@ -2,7 +2,7 @@
 title: "Record 5b723360c9 · SPF-시험기관이-알려주는-선크림-SPF의-모든-것"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:55.075377+00:00
+updated_at: 2026-09-28T12:36:02.604812+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ SPF 시험기관이 알려주는 선크림 SPF의 모든 것
 
 ## Connected nodes
 
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

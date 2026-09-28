@@ -2,7 +2,7 @@
 title: "Record 8e26254cb0 · Sex-Differences-in-Helicobacter-pylori-Antimicrobial-Resistance-among-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.120626+00:00
+updated_at: 2026-09-28T12:36:01.019618+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Sex Differences in Helicobacter pylori Antimicrobial Resistance among 890 Subjec
 
 ## Connected nodes
 
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[뷰티스킨케어]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

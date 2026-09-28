@@ -2,7 +2,7 @@
 title: "Record 81eac9efbd · MECAIL-Communication-Aware-Incremental-Learning-for-Object-Detection-w"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.091315+00:00
+updated_at: 2026-09-28T12:36:00.949135+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Intelligent transportation systems require Incremental Learning (IL) to continua
 
 ## Connected nodes
 
-[[Source--arXiv]] [[LLM언어모델]] [[모델-라우팅MoE]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[모델-라우팅MoE]] [[JARVIS Real Knowledge Index]]

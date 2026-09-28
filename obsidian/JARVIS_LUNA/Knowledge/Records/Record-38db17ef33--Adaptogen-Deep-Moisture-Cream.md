@@ -2,7 +2,7 @@
 title: "Record 38db17ef33 · Adaptogen-Deep-Moisture-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:55.043816+00:00
+updated_at: 2026-09-28T12:36:02.550889+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Adaptogen Deep Moisture Cream · Youth To The People · Moisturizer · $58.0 · 
 
 ## Connected nodes
 
-[[Source--organic_skincare]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--organic_skincare]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

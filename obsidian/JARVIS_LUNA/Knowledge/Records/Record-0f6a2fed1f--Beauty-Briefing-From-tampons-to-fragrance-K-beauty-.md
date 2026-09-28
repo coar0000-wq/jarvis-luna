@@ -2,7 +2,7 @@
 title: "Record 0f6a2fed1f · Beauty-Briefing-From-tampons-to-fragrance-K-beauty-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.448614+00:00
+updated_at: 2026-09-28T12:36:01.640494+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Beauty Briefing: From tampons to fragrance, K-beauty is everywhere - glossy.co
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[뷰티스킨케어]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

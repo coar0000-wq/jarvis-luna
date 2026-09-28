@@ -2,7 +2,7 @@
 title: "Record dab0203648 · K-Beautys-Brazil-Push-Signals-a-New-Type-of-Korean-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.441392+00:00
+updated_at: 2026-09-28T12:36:01.625586+00:00
 tags: [record, real-data]
 ---
 

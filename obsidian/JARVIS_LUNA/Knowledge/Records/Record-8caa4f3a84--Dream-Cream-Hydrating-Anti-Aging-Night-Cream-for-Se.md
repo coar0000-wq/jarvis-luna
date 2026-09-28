@@ -2,7 +2,7 @@
 title: "Record 8caa4f3a84 · Dream-Cream-Hydrating-Anti-Aging-Night-Cream-for-Se"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.955699+00:00
+updated_at: 2026-09-28T12:36:02.518850+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Dream Cream Hydrating Anti-Aging Night Cream for Sensitive Skin · Onekind · $2
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

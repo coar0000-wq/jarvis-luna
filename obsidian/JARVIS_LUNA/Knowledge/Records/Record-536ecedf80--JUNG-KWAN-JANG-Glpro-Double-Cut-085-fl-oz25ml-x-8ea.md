@@ -2,7 +2,7 @@
 title: "Record 536ecedf80 · JUNG-KWAN-JANG-Glpro-Double-Cut-085-fl-oz25ml-x-8ea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.629245+00:00
+updated_at: 2026-09-28T12:36:01.998863+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ JUNG KWAN JANG Glpro Double Cut 0.85 fl. oz.(25ml) x 8ea · 평점 5 · 리뷰 1
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

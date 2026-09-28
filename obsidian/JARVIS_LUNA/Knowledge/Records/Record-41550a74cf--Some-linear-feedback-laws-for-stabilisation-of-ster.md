@@ -2,7 +2,7 @@
 title: "Record 41550a74cf · Some-linear-feedback-laws-for-stabilisation-of-ster"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.043027+00:00
+updated_at: 2026-09-28T12:36:00.836733+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Some linear feedback laws for stabilisation of sterile insect technique control 
 
 ## Connected nodes
 
-[[Source--institutions]] [[법률규제]] [[인프라클라우드]] [[데이터분석]] [[기관--CACI-International]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[법률규제]] [[데이터분석]] [[기관--CACI-International]] [[JARVIS Real Knowledge Index]]

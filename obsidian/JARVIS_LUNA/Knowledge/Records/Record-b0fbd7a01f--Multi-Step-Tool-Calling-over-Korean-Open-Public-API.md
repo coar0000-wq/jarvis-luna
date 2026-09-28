@@ -2,7 +2,7 @@
 title: "Record b0fbd7a01f · Multi-Step-Tool-Calling-over-Korean-Open-Public-API"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.665720+00:00
+updated_at: 2026-09-28T12:36:00.025413+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Multi-Step Tool-Calling over Korean Open Public APIs: A Benchmark and a Data-Syn
 
 ## Connected nodes
 
-[[Source--arXiv]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[머신러닝-연구]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

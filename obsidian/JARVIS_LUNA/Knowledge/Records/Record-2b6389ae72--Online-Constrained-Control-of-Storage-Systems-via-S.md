@@ -2,7 +2,7 @@
 title: "Record 2b6389ae72 · Online-Constrained-Control-of-Storage-Systems-via-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.671084+00:00
+updated_at: 2026-09-28T12:36:00.036319+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ We study online control of a scalar storage system with nonnegative adversarial 
 
 ## Connected nodes
 
-[[Source--robotics]] [[LLM언어모델]] [[보안프라이버시]] [[JARVIS Real Knowledge Index]]
+[[Source--robotics]] [[보안프라이버시]] [[JARVIS Real Knowledge Index]]

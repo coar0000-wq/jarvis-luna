@@ -2,7 +2,7 @@
 title: "Record 2771bbdcb5 · We-Asked-Dermatologists-If-the-Viral-Sardine-Skin-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.456654+00:00
+updated_at: 2026-09-28T12:36:01.659766+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ We Asked Dermatologists If the Viral Sardine Skin Trend Is Actually the Secret t
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[마케팅광고]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[마케팅광고]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

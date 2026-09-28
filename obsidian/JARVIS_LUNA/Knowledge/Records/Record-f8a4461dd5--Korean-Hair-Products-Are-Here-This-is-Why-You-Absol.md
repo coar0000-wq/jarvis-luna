@@ -2,7 +2,7 @@
 title: "Record f8a4461dd5 · Korean-Hair-Products-Are-Here-This-is-Why-You-Absol"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.390835+00:00
+updated_at: 2026-09-28T12:36:01.521220+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Korean Hair Products Are Here. This is Why You Absolutely Need to Try Them. - Wo
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[의료바이오]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[의료바이오]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

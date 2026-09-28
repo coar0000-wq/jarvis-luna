@@ -2,7 +2,7 @@
 title: "Record 175b90667a · The-best-slow-aging-tips-by-my-Korean-mother-in-law"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:55.076316+00:00
+updated_at: 2026-09-28T12:36:02.606941+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ The best slow-aging tips by my Korean mother-in-law with glass skin! #antiaging 
 
 ## Connected nodes
 
-[[Source--YouTube]] [[법률규제]] [[JARVIS Real Knowledge Index]]
+[[Source--YouTube]] [[법률규제]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

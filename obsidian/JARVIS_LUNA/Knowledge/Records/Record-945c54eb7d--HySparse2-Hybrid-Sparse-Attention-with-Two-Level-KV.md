@@ -2,7 +2,7 @@
 title: "Record 945c54eb7d · HySparse2-Hybrid-Sparse-Attention-with-Two-Level-KV-Sharing"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.099041+00:00
+updated_at: 2026-09-28T12:36:00.969308+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Long-horizon and multi-turn agents typically generate short actions and process 
 
 ## Connected nodes
 
-[[Source--arXiv]] [[AI-에이전트]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

@@ -2,7 +2,7 @@
 title: "Record 50e1b0366a · REJURAN-Skin-Protection-Mask-5ct-091-fl-oz27ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.636885+00:00
+updated_at: 2026-09-28T12:36:02.013876+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ REJURAN Skin Protection Mask 5ct 0.91 fl. oz.(27ml)
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,7 +2,7 @@
 title: "Record 54e2fafbd4 · Why-you-should-look-beyond-the-spec-sheet-when-choosing-motion-archite"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.903690+00:00
+updated_at: 2026-09-28T12:36:02.512520+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Why you should look beyond the spec sheet when choosing motion architecture
 
 ## Connected nodes
 
-[[Source--robotics]] [[LLM언어모델]] [[로보틱스]] [[JARVIS Real Knowledge Index]]
+[[Source--robotics]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

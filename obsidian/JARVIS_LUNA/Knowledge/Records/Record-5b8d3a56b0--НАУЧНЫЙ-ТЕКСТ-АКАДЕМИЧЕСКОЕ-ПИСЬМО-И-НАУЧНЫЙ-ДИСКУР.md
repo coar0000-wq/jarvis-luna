@@ -2,7 +2,7 @@
 title: "Record 5b8d3a56b0 · НАУЧНЫЙ-ТЕКСТ-АКАДЕМИЧЕСКОЕ-ПИСЬМО-И-НАУЧНЫЙ-ДИСКУРС-ЛИНГВИСТИЧЕСКАЯ-И"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.183756+00:00
+updated_at: 2026-09-28T12:36:01.147379+00:00
 tags: [record, real-data]
 ---
 

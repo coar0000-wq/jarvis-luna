@@ -2,7 +2,7 @@
 title: "Record 166d05e6d2 · current-non-sponsored-skincare-routine"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:55.077920+00:00
+updated_at: 2026-09-28T12:36:02.609847+00:00
 tags: [record, real-data]
 ---
 

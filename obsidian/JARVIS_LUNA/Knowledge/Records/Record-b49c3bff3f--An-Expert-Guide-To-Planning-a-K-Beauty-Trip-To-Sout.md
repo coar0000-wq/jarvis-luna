@@ -2,7 +2,7 @@
 title: "Record b49c3bff3f · An-Expert-Guide-To-Planning-a-K-Beauty-Trip-To-South-Korea---Condé-Nas"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.433805+00:00
+updated_at: 2026-09-28T12:36:01.610285+00:00
 tags: [record, real-data]
 ---
 
@@ -13,10 +13,9 @@ tags: [record, real-data]
 **제목:** An Expert Guide To Planning a K-Beauty Trip To South Korea - Condé Nast Traveler
 
 An Expert Guide To Planning a K-Beauty Trip To South Korea - Condé Nast Traveler
-An Expert Guide To Planning a K-Beauty Trip To South Korea - Condé Nast Traveler
 
-**출처:** Source · us_beauty
+**출처:** Source · Google Search
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[뷰티스킨케어]] [[모델-라우팅MoE]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[뷰티스킨케어]] [[모델-라우팅MoE]] [[JARVIS Real Knowledge Index]]

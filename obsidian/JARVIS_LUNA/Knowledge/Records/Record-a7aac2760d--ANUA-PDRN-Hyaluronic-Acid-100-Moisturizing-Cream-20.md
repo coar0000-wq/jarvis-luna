@@ -2,7 +2,7 @@
 title: "Record a7aac2760d · ANUA-PDRN-Hyaluronic-Acid-100-Moisturizing-Cream-202-fl-oz--Lightweigh"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.674453+00:00
+updated_at: 2026-09-28T12:36:02.092527+00:00
 tags: [record, real-data]
 ---
 

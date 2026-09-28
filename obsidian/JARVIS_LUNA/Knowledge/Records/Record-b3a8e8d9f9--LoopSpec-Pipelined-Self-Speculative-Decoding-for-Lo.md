@@ -2,7 +2,7 @@
 title: "Record b3a8e8d9f9 · LoopSpec-Pipelined-Self-Speculative-Decoding-for-Looped-Transformers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.056918+00:00
+updated_at: 2026-09-28T12:36:00.870375+00:00
 tags: [record, real-data]
 ---
 

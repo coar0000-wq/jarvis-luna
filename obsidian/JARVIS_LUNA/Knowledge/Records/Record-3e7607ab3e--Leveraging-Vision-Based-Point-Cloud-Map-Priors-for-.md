@@ -2,7 +2,7 @@
 title: "Record 3e7607ab3e · Leveraging-Vision-Based-Point-Cloud-Map-Priors-for-Camera-Based-3D-Obj"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.098452+00:00
+updated_at: 2026-09-28T12:36:00.967870+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Camera-based 3D object detection and online vectorized HD mapping provide compac
 
 ## Connected nodes
 
-[[Source--arXiv]] [[LLM언어모델]] [[컴퓨터-비전]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[컴퓨터-비전]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

@@ -2,7 +2,7 @@
 title: "Record ae3e0a3481 · Improving-Cross-Problem-Vehicle-Routing-with-Locall"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:55.121833+00:00
+updated_at: 2026-09-28T12:36:02.710437+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Multi-task vehicle routing problem (VRP) solvers seek to handle multiple VRP var
 
 ## Connected nodes
 
-[[Source--arXiv]] [[경영전략]] [[LLM언어모델]] [[모델-라우팅MoE]] [[머신러닝-연구]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[경영전략]] [[모델-라우팅MoE]] [[머신러닝-연구]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

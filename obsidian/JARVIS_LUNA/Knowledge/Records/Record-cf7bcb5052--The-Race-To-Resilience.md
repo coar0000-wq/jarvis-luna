@@ -2,7 +2,7 @@
 title: "Record cf7bcb5052 · The-Race-To-Resilience"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.817880+00:00
+updated_at: 2026-09-28T12:36:02.373176+00:00
 tags: [record, real-data]
 ---
 

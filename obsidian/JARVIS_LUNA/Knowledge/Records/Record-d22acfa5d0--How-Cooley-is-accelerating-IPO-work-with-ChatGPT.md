@@ -2,7 +2,7 @@
 title: "Record d22acfa5d0 · How-Cooley-is-accelerating-IPO-work-with-ChatGPT"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.549913+00:00
+updated_at: 2026-09-28T12:36:01.846074+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO proces
 
 ## Connected nodes
 
-[[Source--institutions]] [[법률규제]] [[LLM언어모델]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[법률규제]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

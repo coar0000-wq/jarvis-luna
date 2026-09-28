@@ -2,7 +2,7 @@
 title: "Record b2c9e38d97 · Meiyume-bets-on-longevity-skinification-and-alcohol"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.329635+00:00
+updated_at: 2026-09-28T12:36:01.422760+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Meiyume bets on longevity, skinification and alcohol-free fragrance for AW26 - P
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[뷰티스킨케어]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

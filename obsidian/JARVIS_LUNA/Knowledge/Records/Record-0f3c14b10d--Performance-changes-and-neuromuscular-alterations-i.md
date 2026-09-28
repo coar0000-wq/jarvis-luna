@@ -2,7 +2,7 @@
 title: "Record 0f3c14b10d · Performance-changes-and-neuromuscular-alterations-in-sprague-dawley-ra"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.982150+00:00
+updated_at: 2026-09-28T12:36:00.687767+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Performance changes and neuromuscular alterations in sprague dawley rats followi
 
 ## Connected nodes
 
-[[Source--institutions]] [[LLM언어모델]] [[데이터분석]] [[기관--Leidos]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[데이터분석]] [[기관--Leidos]] [[JARVIS Real Knowledge Index]]

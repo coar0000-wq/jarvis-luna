@@ -2,7 +2,7 @@
 title: "Record 5cf10e072c · K-Beauty-Products-Market-Forecast-to-Expand-Through-2035-Driven-by-Dem"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.226631+00:00
+updated_at: 2026-09-28T12:36:01.239135+00:00
 tags: [record, real-data]
 ---
 
@@ -13,9 +13,10 @@ tags: [record, real-data]
 **제목:** K Beauty Products Market Forecast to Expand Through 2035, Driven by Demand for Science-Backed Skincare Routines - IndexBox
 
 K Beauty Products Market Forecast to Expand Through 2035, Driven by Demand for Science-Backed Skincare Routines - IndexBox
+K Beauty Products Market Forecast to Expand Through 2035, Driven by Demand for Science-Backed Skincare Routines - IndexBox
 
-**출처:** Source · Google Search
+**출처:** Source · us_beauty
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

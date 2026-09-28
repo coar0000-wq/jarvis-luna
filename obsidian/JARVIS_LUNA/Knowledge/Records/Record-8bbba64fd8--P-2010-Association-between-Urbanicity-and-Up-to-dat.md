@@ -2,7 +2,7 @@
 title: "Record 8bbba64fd8 · P-2010-Association-between-Urbanicity-and-Up-to-dat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.901110+00:00
+updated_at: 2026-09-28T12:36:00.553105+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ P-2010. Association between Urbanicity and Up-to-date COVID-19 Vaccination Cover
 
 ## Connected nodes
 
-[[Source--institutions]] [[LLM언어모델]] [[의료바이오]] [[데이터분석]] [[기관--CACI-International]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[의료바이오]] [[데이터분석]] [[기관--CACI-International]] [[JARVIS Real Knowledge Index]]

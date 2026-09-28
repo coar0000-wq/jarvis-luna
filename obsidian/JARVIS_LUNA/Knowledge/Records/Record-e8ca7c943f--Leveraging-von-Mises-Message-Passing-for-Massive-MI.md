@@ -2,7 +2,7 @@
 title: "Record e8ca7c943f · Leveraging-von-Mises-Message-Passing-for-Massive-MI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.598250+00:00
+updated_at: 2026-09-28T12:36:01.930909+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Leveraging von Mises Message-Passing for Massive MIMO Detection
 
 ## Connected nodes
 
-[[Source--institutions]] [[LLM언어모델]] [[투자은행금융]] [[기관--Citigroup]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[투자은행금융]] [[기관--Citigroup]] [[JARVIS Real Knowledge Index]]

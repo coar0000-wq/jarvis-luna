@@ -2,7 +2,7 @@
 title: "Record 2508388bd7 · Instant-Checkout-OpenAI-Bringing-E-Commerce-to-Chat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.403165+00:00
+updated_at: 2026-09-28T12:36:01.547473+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Instant Checkout: OpenAI Bringing E-Commerce to ChatGPT - AI Magazine
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[이커머스Shopify]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

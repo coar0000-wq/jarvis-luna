@@ -2,7 +2,7 @@
 title: "Record 09720d6891 · Shopify-Stock-Draws-Wave-Of-AI-Focused-Upgrades---S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.335151+00:00
+updated_at: 2026-09-28T12:36:01.430627+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Shopify Stock Draws Wave Of AI-Focused Upgrades - StocksToTrade
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[이커머스Shopify]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

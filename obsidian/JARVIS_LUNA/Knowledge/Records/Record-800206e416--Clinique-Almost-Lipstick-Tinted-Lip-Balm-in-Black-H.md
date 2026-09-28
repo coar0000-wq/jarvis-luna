@@ -2,7 +2,7 @@
 title: "Record 800206e416 · Clinique-Almost-Lipstick-Tinted-Lip-Balm-in-Black-Honey--Sheer--Lightw"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.689613+00:00
+updated_at: 2026-09-28T12:36:02.130900+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Clinique Almost Lipstick Tinted Lip Balm in Black Honey | Sheer + Lightweight Mo
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

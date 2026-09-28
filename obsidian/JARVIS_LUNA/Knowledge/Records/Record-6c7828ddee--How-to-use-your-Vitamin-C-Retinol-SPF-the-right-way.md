@@ -2,7 +2,7 @@
 title: "Record 6c7828ddee · How-to-use-your-Vitamin-C-Retinol-SPF-the-right-way"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:55.055645+00:00
+updated_at: 2026-09-28T12:36:02.569648+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ How to use your Vitamin C, Retinol, SPF the right way for the best way to age gr
 
 ## Connected nodes
 
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

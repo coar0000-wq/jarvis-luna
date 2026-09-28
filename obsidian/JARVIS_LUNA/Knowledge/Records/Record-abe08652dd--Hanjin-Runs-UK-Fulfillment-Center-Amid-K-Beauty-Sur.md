@@ -2,7 +2,7 @@
 title: "Record abe08652dd · Hanjin-Runs-UK-Fulfillment-Center-Amid-K-Beauty-Surge---Businesskorea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.334112+00:00
+updated_at: 2026-09-28T12:36:01.428610+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Hanjin Runs UK Fulfillment Center Amid K-Beauty Surge - Businesskorea
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[경영전략]] [[뷰티스킨케어]] [[물류통관]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[경영전략]] [[뷰티스킨케어]] [[물류통관]] [[JARVIS Real Knowledge Index]]

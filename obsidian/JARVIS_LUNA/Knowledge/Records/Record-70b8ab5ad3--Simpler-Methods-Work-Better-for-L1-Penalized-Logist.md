@@ -2,7 +2,7 @@
 title: "Record 70b8ab5ad3 · Simpler-Methods-Work-Better-for-L1-Penalized-Logistic-Models-and-Large"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.087437+00:00
+updated_at: 2026-09-28T12:36:00.940181+00:00
 tags: [record, real-data]
 ---
 

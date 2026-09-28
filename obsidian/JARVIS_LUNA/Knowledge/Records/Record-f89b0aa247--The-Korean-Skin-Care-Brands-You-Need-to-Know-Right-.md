@@ -2,7 +2,7 @@
 title: "Record f89b0aa247 · The-Korean-Skin-Care-Brands-You-Need-to-Know-Right-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.293367+00:00
+updated_at: 2026-09-28T12:36:01.362158+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ The Korean Skin-Care Brands You Need to Know Right Now - Allure
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,7 +2,7 @@
 title: "Record 0f1ce903cd · HowToRobot-and-Robotics-Australia-Group-partner-on-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.891354+00:00
+updated_at: 2026-09-28T12:36:02.483535+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ HowToRobot and Robotics Australia Group partner on platform to encourage robot a
 
 ## Connected nodes
 
-[[Source--robotics]] [[경영전략]] [[LLM언어모델]] [[로보틱스]] [[JARVIS Real Knowledge Index]]
+[[Source--robotics]] [[경영전략]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

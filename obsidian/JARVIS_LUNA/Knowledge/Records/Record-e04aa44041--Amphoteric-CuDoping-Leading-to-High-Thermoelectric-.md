@@ -2,7 +2,7 @@
 title: "Record e04aa44041 · Amphoteric-CuDoping-Leading-to-High-Thermoelectric-Performance-in-p-Ty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.810394+00:00
+updated_at: 2026-09-28T12:36:00.344254+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Amphoteric Cu‐Doping Leading to High Thermoelectric Performance in p ‐Type B
 
 ## Connected nodes
 
-[[Source--institutions]] [[모델-라우팅MoE]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

@@ -2,7 +2,7 @@
 title: "Record bb71e409dd · ChatGPT-Ads-expands-to-Southeast-Asia-and-Taiwan"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.547942+00:00
+updated_at: 2026-09-28T12:36:01.843740+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesse
 
 ## Connected nodes
 
-[[Source--institutions]] [[경영전략]] [[LLM언어모델]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[경영전략]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

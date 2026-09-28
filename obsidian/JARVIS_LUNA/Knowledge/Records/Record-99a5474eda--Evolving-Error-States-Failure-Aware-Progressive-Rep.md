@@ -2,7 +2,7 @@
 title: "Record 99a5474eda · Evolving-Error-States-Failure-Aware-Progressive-Repair-for-Ultrasound-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.063536+00:00
+updated_at: 2026-09-28T12:36:00.885761+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Reliability under sparse and heterogeneous failures remains a fundamental challe
 
 ## Connected nodes
 
-[[Source--arXiv]] [[LLM언어모델]] [[컴퓨터-비전]] [[의료바이오]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[컴퓨터-비전]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

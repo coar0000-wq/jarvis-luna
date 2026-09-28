@@ -2,7 +2,7 @@
 title: "Record faae06df65 · Calendula-Face-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:55.043533+00:00
+updated_at: 2026-09-28T12:36:02.550481+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Calendula Face Cream · Weleda · Moisturizer · $22.0 · calendula, sensitive
 
 ## Connected nodes
 
-[[Source--organic_skincare]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--organic_skincare]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

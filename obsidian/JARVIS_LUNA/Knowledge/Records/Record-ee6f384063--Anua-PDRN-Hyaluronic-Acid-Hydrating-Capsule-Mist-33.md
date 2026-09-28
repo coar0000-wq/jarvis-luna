@@ -2,7 +2,7 @@
 title: "Record ee6f384063 · Anua-PDRN-Hyaluronic-Acid-Hydrating-Capsule-Mist-33"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.632082+00:00
+updated_at: 2026-09-28T12:36:02.004247+00:00
 tags: [record, real-data]
 ---
 
@@ -13,10 +13,10 @@ tags: [record, real-data]
 **제목:** Anua PDRN Hyaluronic Acid Hydrating Capsule Mist 3.38 fl. oz.(100ml)
 
 Anua PDRN Hyaluronic Acid Hydrating Capsule Mist 3.38 fl. oz.(100ml)
-Anua PDRN Hyaluronic Acid Hydrating Capsule Mist 3.38 fl. oz.(100ml) · 평점 4.6 · 리뷰 1,773
+Anua PDRN Hyaluronic Acid Hydrating Capsule Mist 3.38 fl. oz.(100ml) · 평점 4.6 · 리뷰 1,838
 
 **출처:** Source · us_beauty
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

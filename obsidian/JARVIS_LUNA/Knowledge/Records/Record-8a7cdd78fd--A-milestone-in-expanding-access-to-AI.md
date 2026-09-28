@@ -2,7 +2,7 @@
 title: "Record 8a7cdd78fd · A-milestone-in-expanding-access-to-AI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.550724+00:00
+updated_at: 2026-09-28T12:36:01.847538+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands global
 
 ## Connected nodes
 
-[[Source--institutions]] [[경영전략]] [[LLM언어모델]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[경영전략]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

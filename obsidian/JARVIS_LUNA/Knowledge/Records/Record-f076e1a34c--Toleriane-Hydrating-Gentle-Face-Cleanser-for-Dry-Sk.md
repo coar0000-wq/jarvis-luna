@@ -2,7 +2,7 @@
 title: "Record f076e1a34c · Toleriane-Hydrating-Gentle-Face-Cleanser-for-Dry-Skin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.960590+00:00
+updated_at: 2026-09-28T12:36:02.528366+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Toleriane Hydrating Gentle Face Cleanser for Dry Skin · La Roche-Posay · $7.49
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

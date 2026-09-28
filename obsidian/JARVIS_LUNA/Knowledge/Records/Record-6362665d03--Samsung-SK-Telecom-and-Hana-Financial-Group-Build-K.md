@@ -2,7 +2,7 @@
 title: "Record 6362665d03 · Samsung-SK-Telecom-and-Hana-Financial-Group-Build-Koreas-First-Private"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.532451+00:00
+updated_at: 2026-09-28T12:36:01.811459+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Samsung Electronics today announced that the company serves as the sole vendor t
 
 ## Connected nodes
 
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[뷰티스킨케어]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

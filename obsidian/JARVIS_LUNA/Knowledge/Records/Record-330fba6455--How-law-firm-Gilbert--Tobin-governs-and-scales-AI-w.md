@@ -2,7 +2,7 @@
 title: "Record 330fba6455 · How-law-firm-Gilbert--Tobin-governs-and-scales-AI-w"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.552090+00:00
+updated_at: 2026-09-28T12:36:01.850071+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and hu
 
 ## Connected nodes
 
-[[Source--institutions]] [[법률규제]] [[LLM언어모델]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[법률규제]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

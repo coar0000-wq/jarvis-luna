@@ -2,7 +2,7 @@
 title: "Record 202b3aaaa0 · Region-Level-Policy-Optimization-for-Fine-grained-MLLM-Perception"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.759511+00:00
+updated_at: 2026-09-28T12:36:00.221733+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Fine-grained visual perception in MLLMs is commonly improved by raising the reso
 
 ## Connected nodes
 
-[[Source--arXiv]] [[소셜콘텐츠]] [[LLM언어모델]] [[컴퓨터-비전]] [[의료바이오]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[소셜콘텐츠]] [[컴퓨터-비전]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

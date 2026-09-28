@@ -2,7 +2,7 @@
 title: "Record b8c8e43360 · Eminence-Radiant-Protection-SPF-Fluid"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.603593+00:00
+updated_at: 2026-09-28T12:35:59.925186+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Eminence Radiant Protection SPF Fluid
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

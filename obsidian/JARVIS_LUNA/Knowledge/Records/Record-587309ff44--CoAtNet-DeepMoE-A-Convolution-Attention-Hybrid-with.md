@@ -2,7 +2,7 @@
 title: "Record 587309ff44 · CoAtNet-DeepMoE-A-Convolution-Attention-Hybrid-with-DeepSeek-Mixture-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.060501+00:00
+updated_at: 2026-09-28T12:36:00.878902+00:00
 tags: [record, real-data]
 ---
 

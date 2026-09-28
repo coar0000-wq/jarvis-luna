@@ -2,7 +2,7 @@
 title: "Record 1c9180a280 · Arencia-Vitamin-C-Booster-Shot-101-fl-oz30ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.624624+00:00
+updated_at: 2026-09-28T12:36:01.989225+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Arencia Vitamin C Booster Shot 1.01 fl. oz.(30ml) · 평점 4.7 · 리뷰 198
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

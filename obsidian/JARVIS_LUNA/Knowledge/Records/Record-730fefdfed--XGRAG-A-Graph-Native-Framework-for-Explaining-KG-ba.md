@@ -2,7 +2,7 @@
 title: "Record 730fefdfed · XGRAG-A-Graph-Native-Framework-for-Explaining-KG-ba"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.579582+00:00
+updated_at: 2026-09-28T12:36:01.895949+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ XGRAG: A Graph-Native Framework for Explaining KG-based Retrieval-Augmented Gene
 
 ## Connected nodes
 
-[[Source--institutions]] [[LLM언어모델]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

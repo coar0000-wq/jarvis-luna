@@ -2,7 +2,7 @@
 title: "Record 67da717226 · ReToken-One-Token-to-Improve-Vision-Language-Models"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.602033+00:00
+updated_at: 2026-09-28T12:36:01.938372+00:00
 tags: [record, real-data]
 ---
 

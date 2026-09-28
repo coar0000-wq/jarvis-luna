@@ -2,7 +2,7 @@
 title: "Record fe409aa3d7 · On-Device-Privacy-and-Zero-Knowledge-Storage-in-Mobile-Applications-A-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.187321+00:00
+updated_at: 2026-09-28T12:36:01.154956+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ On-Device Privacy and Zero-Knowledge Storage in Mobile Applications: A Review wi
 
 ## Connected nodes
 
-[[Source--institutions]] [[LLM언어모델]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

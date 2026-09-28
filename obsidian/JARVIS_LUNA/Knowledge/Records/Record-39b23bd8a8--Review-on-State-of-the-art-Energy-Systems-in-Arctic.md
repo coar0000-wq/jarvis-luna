@@ -2,7 +2,7 @@
 title: "Record 39b23bd8a8 · Review-on-State-of-the-art-Energy-Systems-in-Arctic"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.697235+00:00
+updated_at: 2026-09-28T12:36:00.079416+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ The Arctic regions remain heavily dependent on fossil fuels for energy generatio
 
 ## Connected nodes
 
-[[Source--robotics]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]
+[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

@@ -2,7 +2,7 @@
 title: "Record 5424cfda8b · Why-Are-People-Suddenly-Asking-ChatGPT-for-Beauty-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.398496+00:00
+updated_at: 2026-09-28T12:36:01.537960+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Why Are People Suddenly Asking ChatGPT for Beauty Advice? - Hypebae
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[뷰티스킨케어]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

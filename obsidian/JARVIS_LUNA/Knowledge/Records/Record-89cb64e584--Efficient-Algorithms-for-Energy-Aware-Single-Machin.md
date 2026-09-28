@@ -2,7 +2,7 @@
 title: "Record 89cb64e584 · Efficient-Algorithms-for-Energy-Aware-Single-Machine-Scheduling-with-B"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.719223+00:00
+updated_at: 2026-09-28T12:36:00.128902+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Energy-aware scheduling has become a central challenge in modern manufacturing e
 
 ## Connected nodes
 
-[[Source--robotics]] [[물류통관]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]
+[[Source--robotics]] [[물류통관]] [[JARVIS Real Knowledge Index]]

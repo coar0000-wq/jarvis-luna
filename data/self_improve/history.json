@@ -6,11 +6,23 @@
         "items": 15,
         "relevant": 9,
         "capped": false
+      },
+      {
+        "at": "2026-09-28T12:25:11.599811+00:00",
+        "items": 15,
+        "relevant": 9,
+        "capped": false
       }
     ],
     "Shopify Dev Changelog": [
       {
         "at": "2026-09-28T11:10:04.571344+00:00",
+        "items": 15,
+        "relevant": 8,
+        "capped": false
+      },
+      {
+        "at": "2026-09-28T12:25:11.599811+00:00",
         "items": 15,
         "relevant": 8,
         "capped": false
@@ -22,11 +34,23 @@
         "items": 15,
         "relevant": 8,
         "capped": false
+      },
+      {
+        "at": "2026-09-28T12:25:11.599811+00:00",
+        "items": 15,
+        "relevant": 8,
+        "capped": false
       }
     ],
     "Smashing Magazine": [
       {
         "at": "2026-09-28T11:10:04.571344+00:00",
+        "items": 15,
+        "relevant": 6,
+        "capped": false
+      },
+      {
+        "at": "2026-09-28T12:25:11.599811+00:00",
         "items": 15,
         "relevant": 6,
         "capped": false
@@ -38,11 +62,23 @@
         "items": 15,
         "relevant": 5,
         "capped": false
+      },
+      {
+        "at": "2026-09-28T12:25:11.599811+00:00",
+        "items": 15,
+        "relevant": 5,
+        "capped": false
       }
     ],
     "web.dev": [
       {
         "at": "2026-09-28T11:10:04.571344+00:00",
+        "items": 10,
+        "relevant": 1,
+        "capped": false
+      },
+      {
+        "at": "2026-09-28T12:25:11.599811+00:00",
         "items": 10,
         "relevant": 1,
         "capped": false
@@ -59,6 +95,21 @@
       "sourcing": {
         "status": "adopt",
         "before": 0.02727272727272727
+      },
+      "design": {
+        "status": "no_change",
+        "before": 0.435
+      }
+    },
+    {
+      "at": "2026-09-28T12:27:49.903531+00:00",
+      "topics": {
+        "status": "no_change",
+        "before": 0.0837
+      },
+      "sourcing": {
+        "status": "active",
+        "before": 0.01818181818181818
       },
       "design": {
         "status": "no_change",

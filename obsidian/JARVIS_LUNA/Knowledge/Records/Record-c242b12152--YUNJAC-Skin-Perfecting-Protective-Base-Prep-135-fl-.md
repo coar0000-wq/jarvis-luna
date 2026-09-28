@@ -2,7 +2,7 @@
 title: "Record c242b12152 · YUNJAC-Skin-Perfecting-Protective-Base-Prep-135-fl-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.629492+00:00
+updated_at: 2026-09-28T12:36:01.999331+00:00
 tags: [record, real-data]
 ---
 
@@ -13,10 +13,10 @@ tags: [record, real-data]
 **제목:** YUNJAC Skin Perfecting Protective Base Prep 1.35 fl. oz.(40ml)
 
 YUNJAC Skin Perfecting Protective Base Prep 1.35 fl. oz.(40ml)
-YUNJAC Skin Perfecting Protective Base Prep 1.35 fl. oz.(40ml) · 평점 4.8 · 리뷰 269
+YUNJAC Skin Perfecting Protective Base Prep 1.35 fl. oz.(40ml) · 평점 4.8 · 리뷰 267
 
 **출처:** Source · us_beauty
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

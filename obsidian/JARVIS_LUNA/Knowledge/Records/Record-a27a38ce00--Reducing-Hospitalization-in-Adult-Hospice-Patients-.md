@@ -2,7 +2,7 @@
 title: "Record a27a38ce00 · Reducing-Hospitalization-in-Adult-Hospice-Patients-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.912494+00:00
+updated_at: 2026-09-28T12:36:00.559173+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Reducing Hospitalization in Adult Hospice Patients by Leveraging End‑of‑Life
 
 ## Connected nodes
 
-[[Source--institutions]] [[LLM언어모델]] [[의료바이오]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[의료바이오]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

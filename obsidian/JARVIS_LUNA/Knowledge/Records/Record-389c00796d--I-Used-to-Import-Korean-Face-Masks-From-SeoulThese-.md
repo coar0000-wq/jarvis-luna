@@ -2,7 +2,7 @@
 title: "Record 389c00796d · I-Used-to-Import-Korean-Face-Masks-From-SeoulThese-Are-the-Ones-Id-Buy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.319061+00:00
+updated_at: 2026-09-28T12:36:01.401614+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ I Used to Import Korean Face Masks From Seoul—These Are the Ones I’d Buy Now
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[마케팅광고]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[마케팅광고]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

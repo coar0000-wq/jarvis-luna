@@ -2,7 +2,7 @@
 title: "Record 5635fa8c5c · Coupang-Pilots-Brand-Hotline-to-Fight-Counterfeit-K-Beauty---Seoul-Eco"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.465173+00:00
+updated_at: 2026-09-28T12:36:01.677345+00:00
 tags: [record, real-data]
 ---
 

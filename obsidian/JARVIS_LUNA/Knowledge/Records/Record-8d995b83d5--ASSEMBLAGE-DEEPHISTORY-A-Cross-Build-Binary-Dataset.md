@@ -2,7 +2,7 @@
 title: "Record 8d995b83d5 · ASSEMBLAGE-DEEPHISTORY-A-Cross-Build-Binary-Dataset"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.584382+00:00
+updated_at: 2026-09-28T12:36:01.905263+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ ASSEMBLAGE-DEEPHISTORY: A Cross-Build Binary Dataset with Temporal Coverage
 
 ## Connected nodes
 
-[[Source--institutions]] [[LLM언어모델]] [[머신러닝-연구]] [[데이터분석]] [[기관--Booz-Allen-Hamilton]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[머신러닝-연구]] [[데이터분석]] [[기관--Booz-Allen-Hamilton]] [[JARVIS Real Knowledge Index]]

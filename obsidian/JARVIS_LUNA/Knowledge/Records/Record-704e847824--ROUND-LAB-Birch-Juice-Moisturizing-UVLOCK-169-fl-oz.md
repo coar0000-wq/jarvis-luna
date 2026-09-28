@@ -2,7 +2,7 @@
 title: "Record 704e847824 · ROUND-LAB-Birch-Juice-Moisturizing-UVLOCK-169-fl-oz"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.627832+00:00
+updated_at: 2026-09-28T12:36:01.995581+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ ROUND LAB Birch Juice Moisturizing UVLOCK 1.69 fl. oz.(50ml) + Cleanser 0.67 fl.
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

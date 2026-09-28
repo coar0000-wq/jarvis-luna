@@ -2,7 +2,7 @@
 title: "Record 3f9cc96626 · Squalane--Omega-Repair-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.757304+00:00
+updated_at: 2026-09-28T12:36:02.297559+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Squalane + Omega Repair Cream · Biossance · Moisturizer · $54.0 · squalane, 
 
 ## Connected nodes
 
-[[Source--organic_skincare]] [[의료바이오]] [[JARVIS Real Knowledge Index]]
+[[Source--organic_skincare]] [[의료바이오]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

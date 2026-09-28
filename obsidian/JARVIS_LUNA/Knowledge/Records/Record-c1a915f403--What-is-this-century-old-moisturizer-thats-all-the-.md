@@ -2,7 +2,7 @@
 title: "Record c1a915f403 · What-is-this-century-old-moisturizer-thats-all-the-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.466164+00:00
+updated_at: 2026-09-28T12:36:01.679380+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ What is this century-old moisturizer that’s all the rage on TikTok called Bag 
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[소셜콘텐츠]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[소셜콘텐츠]] [[LLM언어모델]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

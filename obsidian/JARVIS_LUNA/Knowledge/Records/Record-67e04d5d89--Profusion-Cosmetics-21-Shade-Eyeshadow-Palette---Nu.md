@@ -2,7 +2,7 @@
 title: "Record 67e04d5d89 · Profusion-Cosmetics-21-Shade-Eyeshadow-Palette---Nu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:55.038284+00:00
+updated_at: 2026-09-28T12:36:02.543053+00:00
 tags: [record, real-data]
 ---
 

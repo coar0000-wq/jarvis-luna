@@ -2,7 +2,7 @@
 title: "Record fd1a1e2f8d · 17-Witchy-Fragrances-That-Will-Have-You-in-Your-Cov"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.673156+00:00
+updated_at: 2026-09-28T12:36:02.086267+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ tags: [record, real-data]
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

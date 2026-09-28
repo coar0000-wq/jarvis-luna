@@ -2,7 +2,7 @@
 title: "Record 4bbeb2f448 · Food-environment-and-profitability-exploring-the-triple-bottom-line-in"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.919067+00:00
+updated_at: 2026-09-28T12:36:00.573820+00:00
 tags: [record, real-data]
 ---
 

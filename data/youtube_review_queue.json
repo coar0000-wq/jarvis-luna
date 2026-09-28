@@ -1,27 +1,15 @@
 {
-  "generated_at": "2026-09-28T12:13:45.321029+00:00",
+  "generated_at": "2026-09-28T12:33:28.762973+00:00",
   "generator": "scripts/build_youtube_review_queue.py",
   "purpose": "Gemini Notebook(NotebookLM) 주간 자막 검토 대상. 검토 결과는 ingest_notebook_review.py 로만 합친다.",
-  "already_reviewed": 12,
-  "candidates_unreviewed": 441,
+  "already_reviewed": 32,
+  "candidates_unreviewed": 421,
   "videos": [
     {
-      "video_id": "CVEe0HAd--I",
-      "url": "https://www.youtube.com/watch?v=CVEe0HAd--I",
-      "title": "유대인들이 지금 돈 쓸어모으고 있는 사기급 스킬",
-      "channel": "머니스웨거 Money Swagger",
-      "teams": [
-        "knowledge"
-      ],
-      "team_source": "사람 지정",
-      "review_for": "knowledge",
-      "origin": "사람이 넣은 링크"
-    },
-    {
-      "video_id": "QUI6Ug4cHnE",
-      "url": "https://www.youtube.com/watch?v=QUI6Ug4cHnE",
-      "title": "I Built The Ultimate Claude Website Design Skill (steal this)",
-      "channel": "Nate Herk | AI Automation",
+      "video_id": "SihnYUTfxR8",
+      "url": "https://www.youtube.com/watch?v=SihnYUTfxR8",
+      "title": "구글이 무료로 뿌리는 디자인AI '스티치' 요약정리",
+      "channel": "찍봇",
       "teams": [
         "design"
       ],
@@ -30,172 +18,169 @@
       "origin": "사람이 넣은 링크"
     },
     {
-      "video_id": "k520NhbFhIE",
-      "url": "https://www.youtube.com/watch?v=k520NhbFhIE",
-      "title": "The Psychology of Making People Buy",
-      "channel": "The Futur",
+      "video_id": "uTr2yXMeL9w",
+      "url": "https://www.youtube.com/watch?v=uTr2yXMeL9w",
+      "title": "100 Product Command Prompts to Boost Productivity (ChatGPT & Google Flow)",
+      "channel": "Desire",
+      "teams": [
+        "design"
+      ],
+      "team_source": "사람 지정",
+      "review_for": "design",
+      "origin": "사람이 넣은 링크"
+    },
+    {
+      "video_id": "dNUXhId7XfE",
+      "url": "https://www.youtube.com/watch?v=dNUXhId7XfE",
+      "title": "정부가 1.6조 들인 AI 학습데이터 977개, 쓸 만한 것만 골라 받아봤습니다 | AI허브 무료",
+      "channel": "방구석컴퍼니",
+      "teams": [
+        "knowledge"
+      ],
+      "team_source": "사람 지정",
+      "review_for": "knowledge",
+      "origin": "사람이 넣은 링크"
+    },
+    {
+      "video_id": "oWOyUMJWptc",
+      "url": "https://www.youtube.com/watch?v=oWOyUMJWptc",
+      "title": "Unitree Unveils: GD01, A Manned Transformable Mecha, from $650,000",
+      "channel": "Unitree Robotics",
+      "teams": [
+        "robotics"
+      ],
+      "team_source": "사람 지정 채널",
+      "review_for": "robotics",
+      "origin": "지정 채널"
+    },
+    {
+      "video_id": "srPz8TRpZ_8",
+      "url": "https://www.youtube.com/watch?v=srPz8TRpZ_8",
+      "title": "Heard some people like wheels？😁",
+      "channel": "Unitree Robotics",
+      "teams": [
+        "robotics"
+      ],
+      "team_source": "사람 지정 채널",
+      "review_for": "robotics",
+      "origin": "지정 채널"
+    },
+    {
+      "video_id": "m_RWLfHCA2I",
+      "url": "https://www.youtube.com/watch?v=m_RWLfHCA2I",
+      "title": "Entrepreneurs: we're built different",
+      "channel": "Shopify",
+      "teams": [
+        "market"
+      ],
+      "team_source": "사람 지정 채널",
+      "review_for": "market",
+      "origin": "지정 채널"
+    },
+    {
+      "video_id": "KAYuqH7igfY",
+      "url": "https://www.youtube.com/watch?v=KAYuqH7igfY",
+      "title": "SNEAK PEEK: How the Ideaverse in Obsidian is evolving (PRIVATE)",
+      "channel": "Linking Your Thinking with Nick Milo",
+      "teams": [
+        "graph"
+      ],
+      "team_source": "사람 지정 채널",
+      "review_for": "graph",
+      "origin": "지정 채널"
+    },
+    {
+      "video_id": "9TQ41CxG8pA",
+      "url": "https://www.youtube.com/watch?v=9TQ41CxG8pA",
+      "title": "Obsidian Triad: Properties, Bases, Workspaces (Behind the Scenes)",
+      "channel": "Linking Your Thinking with Nick Milo",
+      "teams": [
+        "graph"
+      ],
+      "team_source": "사람 지정 채널",
+      "review_for": "graph",
+      "origin": "지정 채널"
+    },
+    {
+      "video_id": "ZXpm1X7-PFM",
+      "url": "https://www.youtube.com/watch?v=ZXpm1X7-PFM",
+      "title": "Shopify on Sphere in Las Vegas",
+      "channel": "Shopify",
+      "teams": [
+        "market"
+      ],
+      "team_source": "사람 지정 채널",
+      "review_for": "market",
+      "origin": "지정 채널"
+    },
+    {
+      "video_id": "Spuza-KwTJ4",
+      "url": "https://www.youtube.com/watch?v=Spuza-KwTJ4",
+      "title": "GPT 6 Astra, so good even OpenAI are worried",
+      "channel": "AI Explained",
+      "teams": [
+        "knowledge"
+      ],
+      "team_source": "사람 지정 채널",
+      "review_for": "knowledge",
+      "origin": "지정 채널"
+    },
+    {
+      "video_id": "Cnuj24PjWrQ",
+      "url": "https://www.youtube.com/watch?v=Cnuj24PjWrQ",
+      "title": "Using AI to outsmart drug-resistant bacteria",
+      "channel": "Google DeepMind",
+      "teams": [
+        "institutions"
+      ],
+      "team_source": "사람 지정 채널",
+      "review_for": "institutions",
+      "origin": "지정 채널"
+    },
+    {
+      "video_id": "wd5ZZV8if54",
+      "url": "https://www.youtube.com/watch?v=wd5ZZV8if54",
+      "title": "Predicting a historic storm earlier with WeatherNext",
+      "channel": "Google DeepMind",
+      "teams": [
+        "institutions"
+      ],
+      "team_source": "사람 지정 채널",
+      "review_for": "institutions",
+      "origin": "지정 채널"
+    },
+    {
+      "video_id": "Ih5RapM8XKw",
+      "url": "https://www.youtube.com/watch?v=Ih5RapM8XKw",
+      "title": "How to Use Claude to Build and Run a Shopify Store",
+      "channel": "Learn With Shopify",
       "teams": [
         "market",
         "listing",
         "design"
       ],
-      "team_source": "사람 지정",
-      "review_for": "market",
-      "origin": "사람이 넣은 링크"
-    },
-    {
-      "video_id": "O4Z5KklVR5I",
-      "url": "https://www.youtube.com/watch?v=O4Z5KklVR5I",
-      "title": "패션 비전공자가 25살에 창업해 100억 브랜드를 키워낸 '미친 실행력' | 스몰톡라운지 스퀘어129 남주미",
-      "channel": "채널톡",
-      "teams": [
-        "pricing",
-        "market"
-      ],
-      "team_source": "사람 지정",
-      "review_for": "pricing",
-      "origin": "사람이 넣은 링크"
-    },
-    {
-      "video_id": "ehmoVENJEB0",
-      "url": "https://www.youtube.com/watch?v=ehmoVENJEB0",
-      "title": "천재들은 \"어떻게\" 이미지로 요약하는 걸까?",
-      "channel": "언어의 정원",
-      "teams": [
-        "knowledge"
-      ],
-      "team_source": "사람 지정",
-      "review_for": "knowledge",
-      "origin": "사람이 넣은 링크"
-    },
-    {
-      "video_id": "dPPd65Kvh7Y",
-      "url": "https://www.youtube.com/watch?v=dPPd65Kvh7Y",
-      "title": "Claude Copies $2m Shopify Store & Replaces Everything With My Brand (Full Course)",
-      "channel": "Ali Akbar | White-Label Ecommerce",
-      "teams": [
-        "listing",
-        "design",
-        "sourcing"
-      ],
-      "team_source": "사람 지정",
+      "team_source": "사람 지정 채널",
       "review_for": "listing",
-      "origin": "사람이 넣은 링크"
+      "origin": "지정 채널"
     },
     {
-      "video_id": "9RUcYdww138",
-      "url": "https://www.youtube.com/watch?v=9RUcYdww138",
-      "title": "요즘 클로드 디자인에 미쳐있는 이유 #티안나는AI디자인 #designsystems #ClaudeDesign",
-      "channel": "IDEAiPlus_AI와 함께 문서, 디자인, 개발까지!",
-      "teams": [
-        "design"
-      ],
-      "team_source": "사람 지정",
-      "review_for": "design",
-      "origin": "사람이 넣은 링크"
-    },
-    {
-      "video_id": "gugo50_VbjE",
-      "url": "https://www.youtube.com/watch?v=gugo50_VbjE",
-      "title": "How to Use Claude to Safely Rebrand Your Shopify Store",
+      "video_id": "VbSF8TUpsjE",
+      "url": "https://www.youtube.com/watch?v=VbSF8TUpsjE",
+      "title": "Claude Tutorial for Beginners: The Complete 2026 Masterclass",
       "channel": "Learn With Shopify",
       "teams": [
-        "listing"
-      ],
-      "team_source": "자동 분류",
-      "review_for": "listing",
-      "origin": "사람이 넣은 링크"
-    },
-    {
-      "video_id": "IG0V7o6Z3ZE",
-      "url": "https://www.youtube.com/watch?v=IG0V7o6Z3ZE",
-      "title": "쇼피파이 드랍쉬핑은 브랜딩이 답입니다. 진짜 잘 되는 스토어 5곳 까봤습니다",
-      "channel": "G-ROAD",
-      "teams": [
+        "market",
         "listing",
-        "design",
-        "market"
-      ],
-      "team_source": "사람 지정",
-      "review_for": "market",
-      "origin": "사람이 넣은 링크"
-    },
-    {
-      "video_id": "eQpyvR-B7hc",
-      "url": "https://www.youtube.com/watch?v=eQpyvR-B7hc",
-      "title": "Unitree Kung Fu Bot   Pray for Blessings at the Temple of Heaven: Wish Everyone All the Best",
-      "channel": "Unitree Robotics",
-      "teams": [
-        "robotics"
+        "design"
       ],
       "team_source": "사람 지정 채널",
-      "review_for": "robotics",
+      "review_for": "listing",
       "origin": "지정 채널"
     },
     {
-      "video_id": "1ONE4l_pgHw",
-      "url": "https://www.youtube.com/watch?v=1ONE4l_pgHw",
-      "title": "Unitree Introducing | Unitree As2  Your Companion",
-      "channel": "Unitree Robotics",
-      "teams": [
-        "robotics"
-      ],
-      "team_source": "사람 지정 채널",
-      "review_for": "robotics",
-      "origin": "지정 채널"
-    },
-    {
-      "video_id": "RBvaL5NEoPE",
-      "url": "https://www.youtube.com/watch?v=RBvaL5NEoPE",
-      "title": "EXTENDED CUT: Everything New in Obsidian! October 2025 (Groups, Summaries, List View)",
-      "channel": "Linking Your Thinking with Nick Milo",
-      "teams": [
-        "graph"
-      ],
-      "team_source": "사람 지정 채널",
-      "review_for": "graph",
-      "origin": "지정 채널"
-    },
-    {
-      "video_id": "zql7E09r7yA",
-      "url": "https://www.youtube.com/watch?v=zql7E09r7yA",
-      "title": "EXTENDED CUT: Deep-Dive into 10 Digital Tools I Use Daily",
-      "channel": "Linking Your Thinking with Nick Milo",
-      "teams": [
-        "graph"
-      ],
-      "team_source": "사람 지정 채널",
-      "review_for": "graph",
-      "origin": "지정 채널"
-    },
-    {
-      "video_id": "aSY_vFFmkW0",
-      "url": "https://www.youtube.com/watch?v=aSY_vFFmkW0",
-      "title": "Generating novel scientific hypotheses with Co-Scientist",
-      "channel": "Google DeepMind",
-      "teams": [
-        "institutions"
-      ],
-      "team_source": "사람 지정 채널",
-      "review_for": "institutions",
-      "origin": "지정 채널"
-    },
-    {
-      "video_id": "qoinGjj60Fo",
-      "url": "https://www.youtube.com/watch?v=qoinGjj60Fo",
-      "title": "10 years of AlphaGo: The turning point for AI | Thore Graepel & Pushmeet Kohli",
-      "channel": "Google DeepMind",
-      "teams": [
-        "institutions"
-      ],
-      "team_source": "사람 지정 채널",
-      "review_for": "institutions",
-      "origin": "지정 채널"
-    },
-    {
-      "video_id": "iknGXOzT2KI",
-      "url": "https://www.youtube.com/watch?v=iknGXOzT2KI",
-      "title": "AI 공격 제대로 맞은 대행사 사장의 팩트 폭로🔥 | 수익률 50% 올린 클로드 AI 대시보드 직접 공개 (AI 시대 생존법👀)",
+      "video_id": "ctBFjJ0ujKs",
+      "url": "https://www.youtube.com/watch?v=ctBFjJ0ujKs",
+      "title": "🚨견적서가 너무 어려운 사장님들 주목! | 견적 책정 기준부터 세부 항목까지 자세하게 뜯어보기 👀",
       "channel": "땡스큐레이터",
       "teams": [
         "pricing"
@@ -205,34 +190,9 @@
       "origin": "지정 채널"
     },
     {
-      "video_id": "fKjgRQ8tIRs",
-      "url": "https://www.youtube.com/watch?v=fKjgRQ8tIRs",
-      "title": "Intro to Fulfillment by Amazon (FBA)",
-      "channel": "Amazon Seller University",
-      "teams": [
-        "channels"
-      ],
-      "team_source": "사람 지정 채널",
-      "review_for": "channels",
-      "origin": "지정 채널"
-    },
-    {
-      "video_id": "nPbZ6lK2K08",
-      "url": "https://www.youtube.com/watch?v=nPbZ6lK2K08",
-      "title": "스몰 브랜드도 해외 수출은 필수인거 아시죠? ✈️ | 가성비 있게 해외 수출 할 수 있는 팁 알려드립니다! 💸",
-      "channel": "땡스큐레이터",
-      "teams": [
-        "market",
-        "legal"
-      ],
-      "team_source": "자동 분류",
-      "review_for": "legal",
-      "origin": "지정 채널"
-    },
-    {
-      "video_id": "Bxrhk5FgKz4",
-      "url": "https://www.youtube.com/watch?v=Bxrhk5FgKz4",
-      "title": "Expedited Investigational New Drug (IND) pilot program webinar",
+      "video_id": "N25K080mYE8",
+      "url": "https://www.youtube.com/watch?v=N25K080mYE8",
+      "title": "Navigating the FDA Bayesian Draft Guidance: Design, Analysis, and Review Considerations",
       "channel": "U.S. Food and Drug Administration",
       "teams": [
         "legal"
@@ -242,15 +202,51 @@
       "origin": "지정 채널"
     },
     {
-      "video_id": "5cfz46esofo",
-      "url": "https://www.youtube.com/watch?v=5cfz46esofo",
-      "title": "Should You Spend on Amazon Ads? Why PPC Is Essential for Sellers | Amazon Seller Insights",
+      "video_id": "BOT3kMcuvRk",
+      "url": "https://www.youtube.com/watch?v=BOT3kMcuvRk",
+      "title": "How to Use AI Tools to Optimize Amazon Product Listings in 2026 | Amazon Seller Insights",
       "channel": "Amazon Seller University",
       "teams": [
         "channels"
       ],
       "team_source": "사람 지정 채널",
       "review_for": "channels",
+      "origin": "지정 채널"
+    },
+    {
+      "video_id": "KDI73nLbYk4",
+      "url": "https://www.youtube.com/watch?v=KDI73nLbYk4",
+      "title": "Amazon AI Studio: Create Product Photos & Videos in Minutes | Amazon Seller Insights",
+      "channel": "Amazon Seller University",
+      "teams": [
+        "channels"
+      ],
+      "team_source": "사람 지정 채널",
+      "review_for": "channels",
+      "origin": "지정 채널"
+    },
+    {
+      "video_id": "n6oboWBI_Ec",
+      "url": "https://www.youtube.com/watch?v=n6oboWBI_Ec",
+      "title": "FDA Patient-Focused Drug Development Meeting for Nonhealing Chronic Wounds",
+      "channel": "U.S. Food and Drug Administration",
+      "teams": [
+        "legal"
+      ],
+      "team_source": "사람 지정 채널",
+      "review_for": "legal",
+      "origin": "지정 채널"
+    },
+    {
+      "video_id": "7VeooS_ZSN8",
+      "url": "https://www.youtube.com/watch?v=7VeooS_ZSN8",
+      "title": "Flexport The Video Game",
+      "channel": "Flexport",
+      "teams": [
+        "pricing"
+      ],
+      "team_source": "사람 지정 채널",
+      "review_for": "pricing",
       "origin": "지정 채널"
     }
   ],
@@ -287,5 +283,5 @@
     "graph": "옵시디언 그래프"
   },
   "output_file": "data/manual/notebook_reviews/<YYYY-MM-DD>.json",
-  "notebook_prompt": "너는 JARVIS(다이소 K뷰티 상품을 미국 Shopify 에서 파는 사업)의 검토자다.\n이 노트북의 영상 자막만 근거로, 각 영상이 지정된 팀(channels, design, graph, institutions, knowledge, legal, listing, market, pricing, robotics)에 실제로 적용할 수 있는 실행 항목을 뽑아라.\n규칙:\n1) 자막에 있는 내용만. 각 항목에 영상 ID 와 타임스탬프(mm:ss-mm:ss)를 반드시 단다.\n2) 영상 제작자의 매출·ROAS·전환 '몇 배' 같은 수치는 근거로 쓰지 말고 rejected_claims 에 적는다.\n3) 우리 사업에 쓸 수 없는 영상은 verdict 를 no_actionable 로 두고 항목을 만들지 않는다.\n4) 법률·규제·의약품 효능 주장은 만들지 않는다. 규제 내용은 원문 확인이 필요하다고 prerequisites 에 적는다.\n5) 아래 JSON 하나만 답한다. 다른 문장은 쓰지 않는다.\n{\"videos\":[{\"video_id\":\"...\",\"verdict\":\"adopted|no_actionable|unavailable\",\"note\":\"한 줄\"}],\n \"insights\":[{\"pillar\":\"cro|content|ads|retention|pricing|compliance|design|operations|research\",\n   \"tactic\":\"짧은 이름\",\"action\":\"우리 팀이 할 일을 한두 문장\",\n   \"evidence\":{\"video_id\":\"...\",\"timestamp\":\"mm:ss-mm:ss\",\"summary\":\"자막 근거 요약\"},\n   \"prerequisites\":[\"...\"],\"kpis\":[\"...\"],\"teams\":[\"팀코드\"],\"applicability\":\"어디에 쓰나\",\n   \"confidence\":\"high|medium|low\"}],\n \"rejected_claims\":[\"...\"]}\n팀 코드: sourcing, institutions, market, listing, pricing, legal, robotics, design, channels, knowledge, graph\n영상별 담당 팀:\n- CVEe0HAd--I -> knowledge (유대인들이 지금 돈 쓸어모으고 있는 사기급 스킬)\n- QUI6Ug4cHnE -> design (I Built The Ultimate Claude Website Design Skill (steal this)\n- k520NhbFhIE -> market (The Psychology of Making People Buy)\n- O4Z5KklVR5I -> pricing (패션 비전공자가 25살에 창업해 100억 브랜드를 키워낸 '미친 실행력' | 스몰톡라운지 스퀘어129 남주미)\n- ehmoVENJEB0 -> knowledge (천재들은 \"어떻게\" 이미지로 요약하는 걸까?)\n- dPPd65Kvh7Y -> listing (Claude Copies $2m Shopify Store & Replaces Everything With M)\n- 9RUcYdww138 -> design (요즘 클로드 디자인에 미쳐있는 이유 #티안나는AI디자인 #designsystems #ClaudeDesign)\n- gugo50_VbjE -> listing (How to Use Claude to Safely Rebrand Your Shopify Store)\n- IG0V7o6Z3ZE -> market (쇼피파이 드랍쉬핑은 브랜딩이 답입니다. 진짜 잘 되는 스토어 5곳 까봤습니다)\n- eQpyvR-B7hc -> robotics (Unitree Kung Fu Bot   Pray for Blessings at the Temple of He)\n- 1ONE4l_pgHw -> robotics (Unitree Introducing | Unitree As2  Your Companion)\n- RBvaL5NEoPE -> graph (EXTENDED CUT: Everything New in Obsidian! October 2025 (Grou)\n- zql7E09r7yA -> graph (EXTENDED CUT: Deep-Dive into 10 Digital Tools I Use Daily)\n- aSY_vFFmkW0 -> institutions (Generating novel scientific hypotheses with Co-Scientist)\n- qoinGjj60Fo -> institutions (10 years of AlphaGo: The turning point for AI | Thore Graepe)\n- iknGXOzT2KI -> pricing (AI 공격 제대로 맞은 대행사 사장의 팩트 폭로🔥 | 수익률 50% 올린 클로드 AI 대시보드 직접 공개 ()\n- fKjgRQ8tIRs -> channels (Intro to Fulfillment by Amazon (FBA))\n- nPbZ6lK2K08 -> legal (스몰 브랜드도 해외 수출은 필수인거 아시죠? ✈️ | 가성비 있게 해외 수출 할 수 있는 팁 알려드립니다! )\n- Bxrhk5FgKz4 -> legal (Expedited Investigational New Drug (IND) pilot program webin)\n- 5cfz46esofo -> channels (Should You Spend on Amazon Ads? Why PPC Is Essential for Sel)"
+  "notebook_prompt": "너는 JARVIS(다이소 K뷰티 상품을 미국 Shopify 에서 파는 사업)의 검토자다.\n이 노트북의 영상 자막만 근거로, 각 영상이 지정된 팀(channels, design, graph, institutions, knowledge, legal, listing, market, pricing, robotics)에 실제로 적용할 수 있는 실행 항목을 뽑아라.\n규칙:\n1) 자막에 있는 내용만. 각 항목에 영상 ID 와 타임스탬프(mm:ss-mm:ss)를 반드시 단다.\n2) 영상 제작자의 매출·ROAS·전환 '몇 배' 같은 수치는 근거로 쓰지 말고 rejected_claims 에 적는다.\n3) 우리 사업에 쓸 수 없는 영상은 verdict 를 no_actionable 로 두고 항목을 만들지 않는다.\n4) 법률·규제·의약품 효능 주장은 만들지 않는다. 규제 내용은 원문 확인이 필요하다고 prerequisites 에 적는다.\n5) 아래 JSON 하나만 답한다. 다른 문장은 쓰지 않는다.\n{\"videos\":[{\"video_id\":\"...\",\"verdict\":\"adopted|no_actionable|unavailable\",\"note\":\"한 줄\"}],\n \"insights\":[{\"pillar\":\"cro|content|ads|retention|pricing|compliance|design|operations|research\",\n   \"tactic\":\"짧은 이름\",\"action\":\"우리 팀이 할 일을 한두 문장\",\n   \"evidence\":{\"video_id\":\"...\",\"timestamp\":\"mm:ss-mm:ss\",\"summary\":\"자막 근거 요약\"},\n   \"prerequisites\":[\"...\"],\"kpis\":[\"...\"],\"teams\":[\"팀코드\"],\"applicability\":\"어디에 쓰나\",\n   \"confidence\":\"high|medium|low\"}],\n \"rejected_claims\":[\"...\"]}\n팀 코드: sourcing, institutions, market, listing, pricing, legal, robotics, design, channels, knowledge, graph\n영상별 담당 팀:\n- SihnYUTfxR8 -> design (구글이 무료로 뿌리는 디자인AI '스티치' 요약정리)\n- uTr2yXMeL9w -> design (100 Product Command Prompts to Boost Productivity (ChatGPT &)\n- dNUXhId7XfE -> knowledge (정부가 1.6조 들인 AI 학습데이터 977개, 쓸 만한 것만 골라 받아봤습니다 | AI허브 무료)\n- oWOyUMJWptc -> robotics (Unitree Unveils: GD01, A Manned Transformable Mecha, from $6)\n- srPz8TRpZ_8 -> robotics (Heard some people like wheels？😁)\n- m_RWLfHCA2I -> market (Entrepreneurs: we're built different)\n- KAYuqH7igfY -> graph (SNEAK PEEK: How the Ideaverse in Obsidian is evolving (PRIVA)\n- 9TQ41CxG8pA -> graph (Obsidian Triad: Properties, Bases, Workspaces (Behind the Sc)\n- ZXpm1X7-PFM -> market (Shopify on Sphere in Las Vegas)\n- Spuza-KwTJ4 -> knowledge (GPT 6 Astra, so good even OpenAI are worried)\n- Cnuj24PjWrQ -> institutions (Using AI to outsmart drug-resistant bacteria)\n- wd5ZZV8if54 -> institutions (Predicting a historic storm earlier with WeatherNext)\n- Ih5RapM8XKw -> listing (How to Use Claude to Build and Run a Shopify Store)\n- VbSF8TUpsjE -> listing (Claude Tutorial for Beginners: The Complete 2026 Masterclass)\n- ctBFjJ0ujKs -> pricing (🚨견적서가 너무 어려운 사장님들 주목! | 견적 책정 기준부터 세부 항목까지 자세하게 뜯어보기 👀)\n- N25K080mYE8 -> legal (Navigating the FDA Bayesian Draft Guidance: Design, Analysis)\n- BOT3kMcuvRk -> channels (How to Use AI Tools to Optimize Amazon Product Listings in 2)\n- KDI73nLbYk4 -> channels (Amazon AI Studio: Create Product Photos & Videos in Minutes )\n- n6oboWBI_Ec -> legal (FDA Patient-Focused Drug Development Meeting for Nonhealing )\n- 7VeooS_ZSN8 -> pricing (Flexport The Video Game)"
 }

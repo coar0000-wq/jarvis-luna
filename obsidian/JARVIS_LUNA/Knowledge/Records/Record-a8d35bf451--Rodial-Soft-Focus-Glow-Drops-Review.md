@@ -2,7 +2,7 @@
 title: "Record a8d35bf451 · Rodial-Soft-Focus-Glow-Drops-Review"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.655125+00:00
+updated_at: 2026-09-28T12:36:02.047662+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Rodial Soft Focus Glow Drops Review
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

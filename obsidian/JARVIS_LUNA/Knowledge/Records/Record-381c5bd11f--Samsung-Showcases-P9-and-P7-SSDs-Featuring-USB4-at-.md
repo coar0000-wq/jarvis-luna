@@ -2,7 +2,7 @@
 title: "Record 381c5bd11f · Samsung-Showcases-P9-and-P7-SSDs-Featuring-USB4-at-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.532112+00:00
+updated_at: 2026-09-28T12:36:01.810677+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Samsung Electronics a global leader in advanced memory technology, today unveile
 
 ## Connected nodes
 
-[[Source--institutions]] [[LLM언어모델]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

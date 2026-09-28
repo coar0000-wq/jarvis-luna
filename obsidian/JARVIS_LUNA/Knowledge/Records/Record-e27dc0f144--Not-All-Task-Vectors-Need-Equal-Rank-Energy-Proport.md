@@ -2,7 +2,7 @@
 title: "Record e27dc0f144 · Not-All-Task-Vectors-Need-Equal-Rank-Energy-Proportional-Allocation-fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.092193+00:00
+updated_at: 2026-09-28T12:36:00.951090+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Model merging aims to combine multiple fine-tuned models derived from a common p
 
 ## Connected nodes
 
-[[Source--arXiv]] [[LLM언어모델]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

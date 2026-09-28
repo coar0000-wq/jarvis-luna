@@ -2,7 +2,7 @@
 title: "Record 9856cf389e · Carmex-Comfort-Care-Lip-Balm-Stick-with-Beeswax-Peppermint-Lip-Balm-2-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:55.033495+00:00
+updated_at: 2026-09-28T12:36:02.535493+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Carmex Comfort Care Lip Balm Stick with Beeswax Peppermint Lip Balm 2-Count 0.15
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

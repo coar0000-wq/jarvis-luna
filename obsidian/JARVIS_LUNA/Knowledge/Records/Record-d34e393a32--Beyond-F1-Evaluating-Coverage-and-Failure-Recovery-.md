@@ -2,7 +2,7 @@
 title: "Record d34e393a32 · Beyond-F1-Evaluating-Coverage-and-Failure-Recovery-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:55.129570+00:00
+updated_at: 2026-09-28T12:36:02.733520+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Beyond F1: Evaluating Coverage and Failure Recovery in AI Model Security Scanner
 
 ## Connected nodes
 
-[[Source--arXiv]] [[LLM언어모델]] [[보안프라이버시]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[보안프라이버시]] [[JARVIS Real Knowledge Index]]

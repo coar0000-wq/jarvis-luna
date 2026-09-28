@@ -2,7 +2,7 @@
 title: "Record 3206ef743a · AI-Infrastructure-Insight-Why-faster-GPUs-alone-can"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.540803+00:00
+updated_at: 2026-09-28T12:36:01.828183+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ AI is no longer defined by a single model or chip. For AI to operate effectively
 
 ## Connected nodes
 
-[[Source--institutions]] [[LLM언어모델]] [[인프라클라우드]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[인프라클라우드]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

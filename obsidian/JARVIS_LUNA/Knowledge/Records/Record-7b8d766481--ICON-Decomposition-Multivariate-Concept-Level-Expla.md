@@ -2,7 +2,7 @@
 title: "Record 7b8d766481 · ICON-Decomposition-Multivariate-Concept-Level-Expla"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:55.125030+00:00
+updated_at: 2026-09-28T12:36:02.720154+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Deep neural networks often exploit spurious associations in their training data,
 
 ## Connected nodes
 
-[[Source--arXiv]] [[머신러닝-연구]] [[의료바이오]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[머신러닝-연구]] [[의료바이오]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

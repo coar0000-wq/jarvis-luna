@@ -2,7 +2,7 @@
 title: "Record 07f17d24eb · Primal-Acceleration-of-Newtons-Method"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:55.114006+00:00
+updated_at: 2026-09-28T12:36:02.688274+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ We develop a new direct accelerated Newton method for minimizing convex function
 
 ## Connected nodes
 
-[[Source--arXiv]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

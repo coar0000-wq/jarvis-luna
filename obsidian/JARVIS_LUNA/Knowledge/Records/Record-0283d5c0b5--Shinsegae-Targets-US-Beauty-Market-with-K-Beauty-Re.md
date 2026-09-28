@@ -2,7 +2,7 @@
 title: "Record 0283d5c0b5 · Shinsegae-Targets-US-Beauty-Market-with-K-Beauty-Retail-Platform---Glo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.467814+00:00
+updated_at: 2026-09-28T12:36:01.682805+00:00
 tags: [record, real-data]
 ---
 
@@ -13,9 +13,10 @@ tags: [record, real-data]
 **제목:** Shinsegae Targets US Beauty Market with K-Beauty Retail Platform - Global Cosmetics News
 
 Shinsegae Targets US Beauty Market with K-Beauty Retail Platform - Global Cosmetics News
+Shinsegae Targets US Beauty Market with K-Beauty Retail Platform - Global Cosmetics News
 
-**출처:** Source · Google Search
+**출처:** Source · us_beauty
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

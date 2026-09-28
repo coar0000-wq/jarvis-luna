@@ -2,7 +2,7 @@
 title: "Record e0dee6c8c5 · Multi-Robot-Scanner-for-Automated-Full-Body-Dermosc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.700300+00:00
+updated_at: 2026-09-28T12:36:00.086489+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ This paper outlines the specifications and design approach used to construct a f
 
 ## Connected nodes
 
-[[Source--robotics]] [[컴퓨터-비전]] [[로보틱스]] [[JARVIS Real Knowledge Index]]
+[[Source--robotics]] [[컴퓨터-비전]] [[로보틱스]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

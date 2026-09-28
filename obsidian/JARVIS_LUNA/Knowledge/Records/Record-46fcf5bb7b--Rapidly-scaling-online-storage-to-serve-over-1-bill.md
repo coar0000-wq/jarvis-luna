@@ -2,7 +2,7 @@
 title: "Record 46fcf5bb7b · Rapidly-scaling-online-storage-to-serve-over-1-bill"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.569460+00:00
+updated_at: 2026-09-28T12:36:01.876286+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Learn how OpenAI evolved Habitat from a Python library into a globally distribut
 
 ## Connected nodes
 
-[[Source--institutions]] [[LLM언어모델]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

@@ -2,7 +2,7 @@
 title: "Record c04c0659e4 · Bephor-brings-K-Beauty-science-to-the-Type-4-hair-market---Bizcommunit"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.471473+00:00
+updated_at: 2026-09-28T12:36:01.690544+00:00
 tags: [record, real-data]
 ---
 

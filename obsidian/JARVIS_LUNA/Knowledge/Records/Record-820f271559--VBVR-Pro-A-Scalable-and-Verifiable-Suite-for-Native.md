@@ -2,7 +2,7 @@
 title: "Record 820f271559 · VBVR-Pro-A-Scalable-and-Verifiable-Suite-for-Native"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:55.128402+00:00
+updated_at: 2026-09-28T12:36:02.730487+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Native visual reasoning treats visual generation as the medium of reasoning itse
 
 ## Connected nodes
 
-[[Source--arXiv]] [[소셜콘텐츠]] [[LLM언어모델]] [[머신러닝-연구]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[소셜콘텐츠]] [[머신러닝-연구]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

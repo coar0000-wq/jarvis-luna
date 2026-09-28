@@ -2,7 +2,7 @@
 title: "Record aa54fa572b · Arencia-Retinal-Booster-Shot-101-fl-oz30ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.633643+00:00
+updated_at: 2026-09-28T12:36:02.007286+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Arencia Retinal Booster Shot 1.01 fl. oz.(30ml) · 평점 4.7 · 리뷰 58
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

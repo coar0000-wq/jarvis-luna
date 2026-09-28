@@ -2,7 +2,7 @@
 title: "Record 7a282fa6b9 · Does-Olive-Young-US-Live-Up-to-the-Hype---Allure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.378107+00:00
+updated_at: 2026-09-28T12:36:01.497823+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Does Olive Young US Live Up to the Hype? - Allure
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

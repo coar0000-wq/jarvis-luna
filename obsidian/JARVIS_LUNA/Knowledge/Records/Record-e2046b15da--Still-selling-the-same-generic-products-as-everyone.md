@@ -2,7 +2,7 @@
 title: "Record e2046b15da · Still-selling-the-same-generic-products-as-everyone"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:55.053375+00:00
+updated_at: 2026-09-28T12:36:02.565882+00:00
 tags: [record, real-data]
 ---
 

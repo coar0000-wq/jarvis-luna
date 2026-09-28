@@ -2,7 +2,7 @@
 title: "Record ec72922ab7 · Centellian24-Madeca-Cream-Time-Reverse-Double-Set-1"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.628538+00:00
+updated_at: 2026-09-28T12:36:01.997271+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Centellian24 Madeca Cream Time Reverse Double Set 1.69 fl. oz.(50ml) x 2ea (+ 0.
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

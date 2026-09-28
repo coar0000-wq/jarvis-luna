@@ -2,7 +2,7 @@
 title: "Record 2dccbccab9 · Human-Hair-Topper-for-Women-Thinning-Hair-100-Remy-Human-Hair-Invisibl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:55.035219+00:00
+updated_at: 2026-09-28T12:36:02.539231+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Human Hair Topper for Women Thinning Hair 100% Remy Human Hair Invisible Lace Ba
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

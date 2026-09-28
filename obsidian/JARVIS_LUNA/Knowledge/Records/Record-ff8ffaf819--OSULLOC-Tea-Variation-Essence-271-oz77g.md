@@ -2,7 +2,7 @@
 title: "Record ff8ffaf819 · OSULLOC-Tea-Variation-Essence-271-oz77g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.638794+00:00
+updated_at: 2026-09-28T12:36:02.017955+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ OSULLOC Tea Variation Essence 2.71 oz.(77g) · 평점 5 · 리뷰 1
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

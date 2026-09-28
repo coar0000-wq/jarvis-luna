@@ -2,7 +2,7 @@
 title: "Record 37483060b6 · PointEvent-Rethinking-Event-based-Tiny-Object-Detection-via-Serialized"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.762110+00:00
+updated_at: 2026-09-28T12:36:00.228169+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Event cameras offer high temporal resolution and motion sensitivity for tiny UAV
 
 ## Connected nodes
 
-[[Source--arXiv]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

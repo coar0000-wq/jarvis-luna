@@ -2,7 +2,7 @@
 title: "Record 39b7c9f264 · Hydrating-Facial-Mask-with-Honey"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.757509+00:00
+updated_at: 2026-09-28T12:36:02.298057+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Hydrating Facial Mask with Honey · Burt's Bees · Mask · $14.0 · honey, hydra
 
 ## Connected nodes
 
-[[Source--organic_skincare]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--organic_skincare]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

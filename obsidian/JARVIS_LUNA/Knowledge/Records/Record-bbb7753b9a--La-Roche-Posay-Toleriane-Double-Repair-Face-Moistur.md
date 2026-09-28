@@ -2,7 +2,7 @@
 title: "Record bbb7753b9a · La-Roche-Posay-Toleriane-Double-Repair-Face-Moisturizer--Daily-face-cr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.716498+00:00
+updated_at: 2026-09-28T12:36:02.208179+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ La Roche-Posay Toleriane Double Repair Face Moisturizer | Daily face cream with 
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

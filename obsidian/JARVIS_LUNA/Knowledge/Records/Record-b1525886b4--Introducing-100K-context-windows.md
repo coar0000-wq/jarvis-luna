@@ -2,7 +2,7 @@
 title: "Record b1525886b4 · Introducing-100K-context-windows"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.723305+00:00
+updated_at: 2026-09-28T12:36:02.227553+00:00
 tags: [record, real-data]
 ---
 

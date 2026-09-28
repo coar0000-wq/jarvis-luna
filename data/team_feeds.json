@@ -1,52 +1,52 @@
 {
-  "generated_at": "2026-09-28T12:11:59.166769+00:00",
+  "generated_at": "2026-09-28T12:26:39.298447+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
-  "pool_size": 2675,
+  "pool_size": 2690,
   "제목없어_버림": 38,
   "unrouted": 9,
   "summary": {
     "sourcing": {
-      "total": 352,
-      "recent": 350,
+      "total": 354,
+      "recent": 352,
       "material": 8,
       "material_recent": 6,
-      "products": 344
+      "products": 346
     },
     "market": {
-      "total": 589,
-      "recent": 81,
-      "material": 589,
-      "material_recent": 81,
+      "total": 591,
+      "recent": 83,
+      "material": 591,
+      "material_recent": 83,
       "products": 0
     },
     "listing": {
-      "total": 101,
-      "recent": 42,
-      "material": 101,
-      "material_recent": 42,
+      "total": 103,
+      "recent": 44,
+      "material": 103,
+      "material_recent": 44,
       "products": 0
     },
     "pricing": {
-      "total": 62,
-      "recent": 22,
-      "material": 62,
-      "material_recent": 22,
+      "total": 64,
+      "recent": 24,
+      "material": 64,
+      "material_recent": 24,
       "products": 0
     },
     "legal": {
-      "total": 206,
-      "recent": 45,
-      "material": 206,
-      "material_recent": 45,
+      "total": 207,
+      "recent": 46,
+      "material": 207,
+      "material_recent": 46,
       "products": 0
     },
     "design": {
-      "total": 410,
-      "recent": 115,
-      "material": 410,
-      "material_recent": 115,
+      "total": 412,
+      "recent": 117,
+      "material": 412,
+      "material_recent": 117,
       "products": 0
     },
     "robotics": {
@@ -57,24 +57,24 @@
       "products": 0
     },
     "knowledge": {
-      "total": 256,
-      "recent": 92,
-      "material": 256,
-      "material_recent": 92,
+      "total": 257,
+      "recent": 93,
+      "material": 257,
+      "material_recent": 93,
       "products": 0
     },
     "institutions": {
-      "total": 1098,
-      "recent": 224,
-      "material": 1098,
-      "material_recent": 224,
+      "total": 1099,
+      "recent": 225,
+      "material": 1099,
+      "material_recent": 225,
       "products": 0
     },
     "channels": {
-      "total": 30,
-      "recent": 0,
-      "material": 30,
-      "material_recent": 0,
+      "total": 32,
+      "recent": 2,
+      "material": 32,
+      "material_recent": 2,
       "products": 0
     },
     "graph": {
@@ -160,368 +160,384 @@
         "title": "A 초미세모 칫솔 2개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1030674",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "더블 라인 치실 50개입 420D",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1047504",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "디즈니 칫솔 캡",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1022934",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "원터치 케이스 치실 100P",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=98800",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "일본제 타나베 장인 칫솔 미세모 2개입 핑크그린",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=10530041",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "작은 헤드 미세모 칫솔 4개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042265",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "토끼모양 어린이 칫솔 3개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1030673",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "SNP 프렙 팔자 주름패치 12개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072420",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "VT PDRN 광채리프팅마스크 1매 27 g+광채에센스 1.5 ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604016022&recmYn=N",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "VT PDRN 광채시트마스크 1매 25 g",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604016029&recmYn=N",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "[수분충전]VT PDRN 광채 시트 마스크 1매 25 g",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067499",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "[영양광채버블]VT 프로그로스 버블 스파클링 부스터 10 g 4개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049294",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "[이중턱리프팅]VT PDRN 광채리프팅마스크 1매 27 g+광채에센스 1.5 ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067500",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "[진정수분버블]VT 시카 버블 스파클링 부스터 10 g 4개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049295",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "[펫] 퍼팩트 미니 비트 50g",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=69525",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "깔창형 핫팩 2개입 260~280 mm",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059674",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "돌림형 스마트폰 방수팩",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1063312",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "랩잇 by 닥터지 포어 젤리 마스크 50 ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061917",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "랩잇 by 닥터지 포어 코팩",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1051736",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "리노이아 워터 트리트먼트 200 ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061927",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060487",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "메디필 시카 쿨링 진정 랩핑 마스크 4 ml 4개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060489",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "바세린 마스크팩 집중보습",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027327&recmYn=N",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "바세린 마스크팩 집중보습",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604015989&recmYn=N",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "본셉 레티놀 세럼 마스크 23 g",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1054672",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "본셉 레티놀 세럼 마스크 23 g",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604016020&recmYn=N",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "본셉 비타씨 젤리 마스크 1매 23 g",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061922",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "셀더마데일리 트랜스포밍 아줄렌카밍 마스크 28 g",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059832",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "셀더마데일리 트랜스포밍 아줄렌카밍 마스크 28 g",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604016010&recmYn=N",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "손가락 씌우개 30매입 중형",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1058854",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "스마트폰 방수팩 화이트",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068269",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "스팀베이스 데일리 아이워머 카모마일 향",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060015",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "식물원 병풀 클리어 마스크 시트",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1038603",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "안내표지 (마스크를 착용하세요)",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1030736",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "에센셜 마스크시트 그린티",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1004153",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "에코팩 유리 저장 용기 230ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027208",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "여행용 간편 롤업 압축팩 25 X 35 cm 2개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=65686",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "이불용 밸브 압축팩 130x100cm",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1009201",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "이불용 밸브 압축팩 90x110cm",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1009199",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "일본제 콤팩트 이중 미세모 칫솔 2개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=913192170",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "정직한실험실 트루랩 엔젤링 워터 트리트먼트 210 ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060496",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "제이엠솔루션 B5 히아 모이스처라이징 마스크 30 ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1038593",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "제일 파프 쿨 5매입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1051797",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "참조은 덴탈 마스크 컬러 대형 10매입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1038192",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "캐릭터 팩트형 누드 쌍꺼풀 테이프 슬림 156개입",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1065375",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "쿤달 콜라겐 데미지 케어 트리트먼트 150 ml",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060208",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "팩미인 하이드로겔 브이 마스크팩",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1018161",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "팩미인 하이드로겔 브이 마스크팩",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604016032&recmYn=N",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "프리모팩토리 헤어 블리치(2개입/80ml)",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1039235",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       },
       {
         "title": "핫팩아이마스크1P",
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=61773",
         "pool": "daiso",
-        "date": "2026-09-20",
+        "date": "2026-09-28",
         "by_hand": false
       }
     ],
     "market": [
+      {
+        "title": "[영상 학습 MKT-20260928-01] PAS 프레임워크 및 페르소나 카테고리 재정의",
+        "url": "https://www.youtube.com/watch?v=k520NhbFhIE",
+        "pool": "youtube_insight",
+        "summary": "상세페이지와 광고 카피에 문제제기-심화-해결(PAS) 구조를 적용하고, 가격 경쟁을 넘어 고객의 정체성과 연결되는 독자적 유즈케이스를 제안한다. (근거 07:15-08:45)",
+        "date": "2026-09-28",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-20260928-02] 명품 연상 포지셔닝 및 경계선 타깃팅",
+        "url": "https://www.youtube.com/watch?v=IG0V7o6Z3ZE",
+        "pool": "youtube_insight",
+        "summary": "가성비 K뷰티 제품을 하이엔드 오프라인/라이프스타일 비주얼과 매칭하여 제품 가치를 높이고, 특정 타깃층의 전용 언어로 경계선(Boundary) 감성 필터를 구축한다. (근거 01:10-02:40)",
+        "date": "2026-09-28",
+        "by_hand": true
+      },
       {
         "title": "13",
         "url": "https://www.youtube.com/watch?v=UcG2v8i6Y2E",
@@ -974,23 +990,25 @@
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
-      },
-      {
-        "title": "해외구매 아이폰 장점 / 아이폰 11 Pro 512GB 미드나잇 그린ㅣ굳이 미국에서 구매한 K의 하울!  영롱한 자태. 실물 감상 [땡큐]",
-        "url": "https://www.youtube.com/watch?v=aIG5u5xJs6g",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Beyond TikTok Shop: How to Use TikTok to Drive Sales",
-        "url": "https://www.youtube.com/watch?v=nIOn_726Rxk",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
       }
     ],
     "listing": [
+      {
+        "title": "[영상 학습 LST-20260928-01] Claude 프롬프트 기반 Shopify 상세페이지 구축",
+        "url": "https://www.youtube.com/watch?v=dPPd65Kvh7Y",
+        "pool": "youtube_insight",
+        "summary": "경쟁사 스토어 와이어프레임을 추출한 뒤 Claude AI 프롬프트로 자사 브랜드 컬러, 카피, AI 목업을 적용하여 Shopify 상세페이지 및 바이박스를 일괄 구축한다. (근거 18:40-20:15)",
+        "date": "2026-09-28",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 LST-20260928-02] 하중지지(Load-bearing) SEO 보존 리브랜딩",
+        "url": "https://www.youtube.com/watch?v=gugo50_VbjE",
+        "pool": "youtube_insight",
+        "summary": "Claude Shopify 커넥터로 검색 유입을 견인하는 하중지지 키워드를 식별하여 보호하고, 복제 테마(Duplicate Theme)에서 상품 카피 수정 및 301 리다이렉트 맵을 구축한다. (근거 01:40-03:10)",
+        "date": "2026-09-28",
+        "by_hand": true
+      },
       {
         "title": "Like",
         "url": "https://www.youtube.com/watch?v=kFWPkoOx_ao",
@@ -1344,7 +1362,7 @@
         "by_hand": true
       },
       {
-        "title": "Beyond TikTok Shop: How to Use TikTok to Drive Sales",
+        "title": "Beyond TikTok Shop: How to Use TikTok to Drive Shopify Sales",
         "url": "https://www.youtube.com/watch?v=nIOn_726Rxk",
         "pool": "youtube_channel",
         "date": "",
@@ -1440,23 +1458,25 @@
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
-      },
-      {
-        "title": "How to Use Claude to Build and Run a Shopify Store",
-        "url": "https://www.youtube.com/watch?v=Ih5RapM8XKw",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "How to Start a Clothing Resale Business on Shopify",
-        "url": "https://www.youtube.com/watch?v=RUwznTHGexY",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
       }
     ],
     "pricing": [
+      {
+        "title": "[영상 학습 PRC-20260928-01] 초기 노출 프로모션 및 소싱처 이원화",
+        "url": "https://www.youtube.com/watch?v=O4Z5KklVR5I",
+        "pool": "youtube_insight",
+        "summary": "신규 입점 초기 노출과 랭킹을 확보하기 위해 한시적 저마진 프로모션을 집행하고, 대량 유통재와 디자인 우위재의 제조 소싱처를 분리해 원가율을 관리한다. (근거 10:45-11:40)",
+        "date": "2026-09-28",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 PRC-20260928-02] Claude AI 에이전트 대시보드 운영 자동화",
+        "url": "https://www.youtube.com/watch?v=iknGXOzT2KI",
+        "pool": "youtube_insight",
+        "summary": "사내 시장 조사 및 행정 업무(슬랙 연동 문서·지출 증빙)에 Claude 기반 에이전트 대시보드를 구축하여 프로젝트 인력 투입을 효율화하고 운영비를 절감한다. (근거 02:50-03:40)",
+        "date": "2026-09-28",
+        "by_hand": true
+      },
       {
         "title": "13",
         "url": "https://www.youtube.com/watch?v=UcG2v8i6Y2E",
@@ -1877,23 +1897,17 @@
         "pool": "institutions",
         "date": "2026-07-15",
         "by_hand": false
-      },
-      {
-        "title": "Forecasts of residential property price indices for Hong Kong through machine learning",
-        "url": "https://doi.org/10.1108/fs-04-2025-0083",
-        "pool": "institutions",
-        "date": "2026-06-05",
-        "by_hand": false
-      },
-      {
-        "title": "Patents and Supra‐Competitive Prices: Evidence From Consumer Products",
-        "url": "https://doi.org/10.1111/jels.70028",
-        "pool": "institutions",
-        "date": "2026-03-26",
-        "by_hand": false
       }
     ],
     "legal": [
+      {
+        "title": "[영상 학습 LEG-20260928-01] 수출 규제 서류 사전 완비 및 조건부 등록",
+        "url": "https://www.youtube.com/watch?v=nPbZ6lK2K08",
+        "pool": "youtube_insight",
+        "summary": "FDA 등 해외 규제 제출 서류는 사전에 완비하되 유지비가 발생하는 정식 수수료 등록은 바이어 실구매 시점으로 유예하고, 포장재 부피를 축소하여 물류비를 절감한다. (근거 00:40-02:10)",
+        "date": "2026-09-28",
+        "by_hand": true
+      },
       {
         "title": "JARVIS LUNA Multi-Agent 마케팅 워크플로우 검토·안전 적용",
         "url": "https://share.gemini.google/9PFLmGZM2rqu",
@@ -2328,16 +2342,25 @@
         "pool": "fda",
         "date": "2026-09-24",
         "by_hand": false
-      },
-      {
-        "title": "Galil Importing Corp Recalls Lior Cinnamon Ground Seasoning Due to Elevated Lead Levels",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/galil-importing-corp-recalls-lior-cinnamon-ground-seasoning-due-elevated-lead-levels",
-        "pool": "fda",
-        "date": "2026-09-24",
-        "by_hand": false
       }
     ],
     "design": [
+      {
+        "title": "[영상 학습 DSN-20260928-01] 스크롤 드라이브 인터랙티브 랜딩페이지 구축",
+        "url": "https://www.youtube.com/watch?v=QUI6Ug4cHnE",
+        "pool": "youtube_insight",
+        "summary": "Claude Code 기반 Scrollcraft 기법을 활용해 고객 스크롤 연동 모션과 성분/효과 카운터를 갖춘 Shopify 랜딩페이지를 개발한다. (근거 03:16-04:02)",
+        "date": "2026-09-28",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 DSN-20260928-02] Claude Design 및 PRD 기반 디자인 시스템 구축",
+        "url": "https://www.youtube.com/watch?v=9RUcYdww138",
+        "pool": "youtube_insight",
+        "summary": "Figma UI Kit 및 스타일 레퍼런스를 Claude Design에 학습시켜 디자인 시스템을 구축하고, PRD 문서를 기반으로 모바일 UI 화면을 자동 생성한다. (근거 02:20-04:10)",
+        "date": "2026-09-28",
+        "by_hand": true
+      },
       {
         "title": "23",
         "url": "https://www.youtube.com/watch?v=_pKECd9m25U",
@@ -2697,7 +2720,7 @@
         "by_hand": true
       },
       {
-        "title": "Beyond TikTok Shop: How to Use TikTok to Drive Sales",
+        "title": "Beyond TikTok Shop: How to Use TikTok to Drive Shopify Sales",
         "url": "https://www.youtube.com/watch?v=nIOn_726Rxk",
         "pool": "youtube_channel",
         "date": "",
@@ -2762,20 +2785,6 @@
       {
         "title": "How to use Claude to Create Digital Products",
         "url": "https://www.youtube.com/watch?v=tZW0x_tDhSk",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "7 Faceless Business Ideas for Beginners",
-        "url": "https://www.youtube.com/watch?v=4ulpu2uos8I",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "10 Shopify Promotion Strategies That Grow Repeat Sales (Marketing Masterclass Part 4)",
-        "url": "https://www.youtube.com/watch?v=zU4FI-deDwA",
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
@@ -3205,6 +3214,14 @@
     ],
     "knowledge": [
       {
+        "title": "[영상 학습 KNW-20260928-01] 3단 위계 건축물 구조화 지식 요약",
+        "url": "https://www.youtube.com/watch?v=ehmoVENJEB0",
+        "pool": "youtube_insight",
+        "summary": "시장 조사 및 경쟁사 연구 보고서 작성 시 최상위 논지(지붕), 핵심 근거(기둥), 근본 전제(기단)의 3단 위계 구조로 상위 범주화하여 요약 자산화한다. (근거 01:30-03:45)",
+        "date": "2026-09-28",
+        "by_hand": true
+      },
+      {
         "title": "JARVIS LUNA Multi-Agent 마케팅 워크플로우 검토·안전 적용",
         "url": "https://share.gemini.google/9PFLmGZM2rqu",
         "pool": "team_briefing",
@@ -3622,18 +3639,19 @@
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
-      },
-      {
-        "title": "Deadline Day for Autonomous AI Weapons & Mass Surveillance",
-        "url": "https://www.youtube.com/watch?v=Cru804JMjPI",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
       }
     ],
     "institutions": [
       {
-        "title": "10 Years of NVIDIA DGX: From One System to AI Factories",
+        "title": "[영상 학습 INS-20260928-01] 생성형 AI와 검증기(Verifier) 결합 체계",
+        "url": "https://www.youtube.com/watch?v=qoinGjj60Fo",
+        "pool": "youtube_insight",
+        "summary": "사내 AI 에이전트 구축 시 아이디어/카피를 생성하는 LLM과 이를 검증 가이드라인에 따라 필터링하는 검증기(Verifier) 하네스를 결합하여 환각 및 오류를 방지한다. (근거 36:10-38:15)",
+        "date": "2026-09-28",
+        "by_hand": true
+      },
+      {
+        "title": "Decade of NVIDIA DGX: From A Single System to AI Factories",
         "url": "https://www.youtube.com/watch?v=xAgq8ByWK0M",
         "pool": "youtube_channel",
         "date": "",
@@ -4044,16 +4062,25 @@
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
-      },
-      {
-        "title": "Project Genie | Shine and Seek",
-        "url": "https://www.youtube.com/watch?v=FZ9RQVQsDts",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
       }
     ],
     "channels": [
+      {
+        "title": "[영상 학습 CHN-20260928-01] Amazon FBA 입고 규격 준수 및 수수료 사전 검증",
+        "url": "https://www.youtube.com/watch?v=fKjgRQ8tIRs",
+        "pool": "youtube_insight",
+        "summary": "아마존 입점 시 FBA 가이드에 따라 상품 프렙, 라벨링 및 포장 요건을 준수하고, Revenue Calculator로 단위당 물류·보관 수수료를 사전에 산출하여 수익성을 검증한다. (근거 00:30-01:40)",
+        "date": "2026-09-28",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 CHN-20260928-02] Amazon PPC 광고 기반 데이터 수집 및 퍼널 운영",
+        "url": "https://www.youtube.com/watch?v=5cfz46esofo",
+        "pool": "youtube_insight",
+        "summary": "아마존 PPC 광고를 디스커버리부터 타깃팅까지 퍼널별로 운영하여 고전환 키워드 및 최적 이미지 데이터를 확보하고 이를 상세페이지 및 A+ 콘텐츠 개선에 환류한다. (근거 00:15-00:55)",
+        "date": "2026-09-28",
+        "by_hand": true
+      },
       {
         "title": "Featured Offer eligibility and strategies",
         "url": "https://www.youtube.com/watch?v=oXWHIQ_Bg9c",

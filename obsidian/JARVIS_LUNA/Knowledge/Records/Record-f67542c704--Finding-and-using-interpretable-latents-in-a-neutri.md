@@ -2,7 +2,7 @@
 title: "Record f67542c704 · Finding-and-using-interpretable-latents-in-a-neutri"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:55.126439+00:00
+updated_at: 2026-09-28T12:36:02.724284+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ We present a first application of sparse-autoencoder-based mechanistic interpret
 
 ## Connected nodes
 
-[[Source--arXiv]] [[머신러닝-연구]] [[인프라클라우드]] [[과학수학]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[머신러닝-연구]] [[과학수학]] [[JARVIS Real Knowledge Index]]

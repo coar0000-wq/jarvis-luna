@@ -2,7 +2,7 @@
 title: "Record 7721bd06ea · Us-Credit-Outlook-Midyear-2025-Andrew-Sheets-Vishwas-Patkar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.873859+00:00
+updated_at: 2026-09-28T12:36:02.445745+00:00
 tags: [record, real-data]
 ---
 

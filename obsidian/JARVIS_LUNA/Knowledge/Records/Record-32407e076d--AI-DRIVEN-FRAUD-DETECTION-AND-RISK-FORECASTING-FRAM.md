@@ -2,7 +2,7 @@
 title: "Record 32407e076d · AI-DRIVEN-FRAUD-DETECTION-AND-RISK-FORECASTING-FRAMEWORK-FOR-REAL-TIME"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.136590+00:00
+updated_at: 2026-09-28T12:36:01.044833+00:00
 tags: [record, real-data]
 ---
 

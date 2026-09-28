@@ -2,7 +2,7 @@
 title: "Record abc632ed28 · Assembling-Two-Parts-in-One-Hand"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.699700+00:00
+updated_at: 2026-09-28T12:36:00.085061+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ A hallmark of human dexterity is the cooperative use of fingers, where different
 
 ## Connected nodes
 
-[[Source--robotics]] [[LLM언어모델]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]
+[[Source--robotics]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

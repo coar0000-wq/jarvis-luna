@@ -2,7 +2,7 @@
 title: "Record 57dcb19cd6 · Wet-Line-Xtreme-Clear-Styling-Hair-Gel-for-Men-and-Women-Frizz-Control"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:55.043161+00:00
+updated_at: 2026-09-28T12:36:02.550083+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Wet Line Xtreme Clear Styling Hair Gel for Men and Women, Frizz Control, 8.8 oz 
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

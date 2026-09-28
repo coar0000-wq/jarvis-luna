@@ -2,7 +2,7 @@
 title: "Record 461333ec22 · Samsung-at-the-Forefront-of-Koreas-AI-RAN-Projects-with-KT-and-SK-Tele"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.526479+00:00
+updated_at: 2026-09-28T12:36:01.798337+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Samsung Electronics today announced it has signed contracts with KT and SK Telec
 
 ## Connected nodes
 
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[뷰티스킨케어]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

@@ -2,7 +2,7 @@
 title: "Record cfeb416b37 · Samsung-and-Mistral-AI-Announce-Strategic-Partnersh"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.525819+00:00
+updated_at: 2026-09-28T12:36:01.796779+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1dcea8b0f8 · Introducing-ChatGPT-Images-25"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.555536+00:00
+updated_at: 2026-09-28T12:36:01.856571+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into mo
 
 ## Connected nodes
 
-[[Source--institutions]] [[LLM언어모델]] [[컴퓨터-비전]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[컴퓨터-비전]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

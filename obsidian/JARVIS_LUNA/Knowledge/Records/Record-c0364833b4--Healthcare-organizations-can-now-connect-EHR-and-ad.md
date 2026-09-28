@@ -2,7 +2,7 @@
 title: "Record c0364833b4 · Healthcare-organizations-can-now-connect-EHR-and-ad"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.548228+00:00
+updated_at: 2026-09-28T12:36:01.844301+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ ChatGPT can now connect to trusted healthcare data, helping clinicians securely 
 
 ## Connected nodes
 
-[[Source--institutions]] [[LLM언어모델]] [[의료바이오]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[의료바이오]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

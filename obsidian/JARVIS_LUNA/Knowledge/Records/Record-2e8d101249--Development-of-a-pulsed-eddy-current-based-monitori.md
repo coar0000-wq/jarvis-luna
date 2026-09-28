@@ -2,7 +2,7 @@
 title: "Record 2e8d101249 · Development-of-a-pulsed-eddy-current-based-monitoring-system-for-tensi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.851174+00:00
+updated_at: 2026-09-28T12:36:00.438055+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Development of a pulsed eddy current-based monitoring system for tension force e
 
 ## Connected nodes
 
-[[Source--institutions]] [[LLM언어모델]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

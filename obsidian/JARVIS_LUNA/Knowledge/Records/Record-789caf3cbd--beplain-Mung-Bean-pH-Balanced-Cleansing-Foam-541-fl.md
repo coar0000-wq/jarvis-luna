@@ -2,7 +2,7 @@
 title: "Record 789caf3cbd · beplain-Mung-Bean-pH-Balanced-Cleansing-Foam-541-fl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.626109+00:00
+updated_at: 2026-09-28T12:36:01.992017+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ beplain Mung Bean pH-Balanced Cleansing Foam 5.41 fl. oz.(160ml) · 평점 4.6 �
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

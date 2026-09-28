@@ -2,7 +2,7 @@
 title: "Record 67084f8ff4 · Interview-The-People-Behind-the-Galaxy-Z-Fold8-Seri"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.523784+00:00
+updated_at: 2026-09-28T12:36:01.792420+00:00
 tags: [record, real-data]
 ---
 

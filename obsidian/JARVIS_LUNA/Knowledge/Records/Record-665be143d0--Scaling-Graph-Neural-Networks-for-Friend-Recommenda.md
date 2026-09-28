@@ -2,7 +2,7 @@
 title: "Record 665be143d0 · Scaling-Graph-Neural-Networks-for-Friend-Recommenda"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:55.129132+00:00
+updated_at: 2026-09-28T12:36:02.732603+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Friend recommendation is inherently graph-structured: the relevance of a potenti
 
 ## Connected nodes
 
-[[Source--arXiv]] [[LLM언어모델]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

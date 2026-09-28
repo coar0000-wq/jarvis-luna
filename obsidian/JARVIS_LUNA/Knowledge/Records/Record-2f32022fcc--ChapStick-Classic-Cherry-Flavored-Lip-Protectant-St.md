@@ -2,7 +2,7 @@
 title: "Record 2f32022fcc · ChapStick-Classic-Cherry-Flavored-Lip-Protectant-Stick-Prevent-Chappin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:55.033832+00:00
+updated_at: 2026-09-28T12:36:02.536148+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ ChapStick Classic Cherry Flavored Lip Protectant Stick, Prevent Chapping, 24 Hou
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

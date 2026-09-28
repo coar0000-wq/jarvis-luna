@@ -2,7 +2,7 @@
 title: "Record 14daebc735 · Pureseoul-Partners-with-Primark-to-Launch-Accessibl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.486174+00:00
+updated_at: 2026-09-28T12:36:01.719684+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Pureseoul Partners with Primark to Launch Accessible K-Beauty Mini Mart - Global
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[마케팅광고]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,7 +2,7 @@
 title: "Record d400c24125 · Smartphone-Based-Method-for-Automated-Speed-Enforcement"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.120096+00:00
+updated_at: 2026-09-28T12:36:01.018496+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Smartphone cameras and computer vision (CV) hold significant promise in assistin
 
 ## Connected nodes
 
-[[Source--arXiv]] [[법률규제]] [[컴퓨터-비전]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[법률규제]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

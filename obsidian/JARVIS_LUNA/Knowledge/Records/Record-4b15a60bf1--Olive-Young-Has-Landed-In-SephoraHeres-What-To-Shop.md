@@ -2,7 +2,7 @@
 title: "Record 4b15a60bf1 · Olive-Young-Has-Landed-In-SephoraHeres-What-To-Shop"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.455414+00:00
+updated_at: 2026-09-28T12:36:01.657256+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Olive Young Has Landed In Sephora—Here’s What To Shop According To Your Skin
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

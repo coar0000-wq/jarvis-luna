@@ -2,7 +2,7 @@
 title: "Record 604dd984d6 · Latency-Optimal-Geo-Distributed-Storage-over-Struct"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.659453+00:00
+updated_at: 2026-09-28T12:36:00.011823+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ We study latency-optimal file assignment in geo-distributed storage systems mode
 
 ## Connected nodes
 
-[[Source--robotics]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]
+[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

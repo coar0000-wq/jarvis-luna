@@ -2,7 +2,7 @@
 title: "Record 4ba182cc2b · Agent-World-Model-Infinity-Synthetic-Environments-for-Agentic-Reinforc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.575111+00:00
+updated_at: 2026-09-28T12:36:01.886947+00:00
 tags: [record, real-data]
 ---
 

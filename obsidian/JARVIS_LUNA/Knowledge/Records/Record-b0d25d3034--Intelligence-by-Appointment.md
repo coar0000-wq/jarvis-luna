@@ -2,7 +2,7 @@
 title: "Record b0d25d3034 · Intelligence-by-Appointment"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.598412+00:00
+updated_at: 2026-09-28T12:35:59.923233+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Intelligent systems increasingly have more decision-relevant capabilities and re
 
 ## Connected nodes
 
-[[Source--arXiv]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

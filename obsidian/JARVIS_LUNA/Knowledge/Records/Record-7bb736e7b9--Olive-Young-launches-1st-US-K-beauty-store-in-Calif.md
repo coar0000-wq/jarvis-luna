@@ -2,7 +2,7 @@
 title: "Record 7bb736e7b9 · Olive-Young-launches-1st-US-K-beauty-store-in-Calif"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.313423+00:00
+updated_at: 2026-09-28T12:36:01.392238+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Olive Young launches 1st US K-beauty store in California as Sephora and Ulta exp
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[뷰티스킨케어]] [[의료바이오]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

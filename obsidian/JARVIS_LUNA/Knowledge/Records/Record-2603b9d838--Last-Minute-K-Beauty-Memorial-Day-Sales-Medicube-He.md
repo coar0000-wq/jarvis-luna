@@ -2,7 +2,7 @@
 title: "Record 2603b9d838 · Last-Minute-K-Beauty-Memorial-Day-Sales-Medicube-He"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.443558+00:00
+updated_at: 2026-09-28T12:36:01.630101+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Last-Minute K-Beauty Memorial Day Sales: Medicube, Hero Cosmetics, Beauty of Jos
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[마케팅광고]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

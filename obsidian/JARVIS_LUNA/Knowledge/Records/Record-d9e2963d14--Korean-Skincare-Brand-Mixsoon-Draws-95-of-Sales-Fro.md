@@ -2,7 +2,7 @@
 title: "Record d9e2963d14 · Korean-Skincare-Brand-Mixsoon-Draws-95-of-Sales-From-Overseas---Seoul-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.470985+00:00
+updated_at: 2026-09-28T12:36:01.689515+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Korean Skincare Brand Mixsoon Draws 95% of Sales From Overseas - Seoul Economic 
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[마케팅광고]] [[뷰티스킨케어]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[마케팅광고]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

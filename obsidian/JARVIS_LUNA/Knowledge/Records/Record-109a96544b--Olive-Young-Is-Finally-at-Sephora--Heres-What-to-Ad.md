@@ -2,7 +2,7 @@
 title: "Record 109a96544b · Olive-Young-Is-Finally-at-Sephora--Heres-What-to-Add-to-Cart---The-Cut"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.335896+00:00
+updated_at: 2026-09-28T12:36:01.432039+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Olive Young Is Finally at Sephora — Here’s What to Add to Cart - The Cut
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

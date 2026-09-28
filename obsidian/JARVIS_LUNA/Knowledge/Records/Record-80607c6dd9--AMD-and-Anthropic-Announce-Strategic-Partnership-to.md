@@ -2,7 +2,7 @@
 title: "Record 80607c6dd9 · AMD-and-Anthropic-Announce-Strategic-Partnership-to"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.211351+00:00
+updated_at: 2026-09-28T12:36:01.209703+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ AMD and Anthropic Announce Strategic Partnership to Deploy Up to 2 Gigawatts of 
 
 ## Connected nodes
 
-[[Source--institutions]] [[음성오디오]] [[반도체하드웨어]] [[기관--AMD]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[반도체하드웨어]] [[기관--AMD]] [[JARVIS Real Knowledge Index]]

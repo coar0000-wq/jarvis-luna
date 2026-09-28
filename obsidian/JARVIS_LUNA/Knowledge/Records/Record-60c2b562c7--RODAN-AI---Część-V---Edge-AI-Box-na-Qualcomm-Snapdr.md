@@ -2,7 +2,7 @@
 title: "Record 60c2b562c7 · RODAN-AI---Część-V---Edge-AI-Box-na-Qualcomm-Snapdragon-6s-4G-Gen1-Oct"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.156473+00:00
+updated_at: 2026-09-28T12:36:01.085384+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ RODAN AI - Część V - Edge AI Box na "Qualcomm Snapdragon 6s 4G Gen1 Octa-core
 
 ## Connected nodes
 
-[[Source--institutions]] [[LLM언어모델]] [[음성오디오]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[음성오디오]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

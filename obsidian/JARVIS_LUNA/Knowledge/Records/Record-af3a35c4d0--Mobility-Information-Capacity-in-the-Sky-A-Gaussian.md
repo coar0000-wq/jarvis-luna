@@ -2,7 +2,7 @@
 title: "Record af3a35c4d0 · Mobility-Information-Capacity-in-the-Sky-A-Gaussian"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.708284+00:00
+updated_at: 2026-09-28T12:36:00.104229+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Existing airspace capacity metrics mainly quantify occupancy or flow, although t
 
 ## Connected nodes
 
-[[Source--robotics]] [[반도체하드웨어]] [[JARVIS Real Knowledge Index]]
+[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

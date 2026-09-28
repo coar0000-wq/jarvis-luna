@@ -2,7 +2,7 @@
 title: "Record 22c13c6d27 · Insiderrechtliche-Praxisfragen-bei-der-Emission-von"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.004171+00:00
+updated_at: 2026-09-28T12:36:00.736368+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Insiderrechtliche Praxisfragen bei der Emission von Anleihen
 
 ## Connected nodes
 
-[[Source--institutions]] [[LLM언어모델]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

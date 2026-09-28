@@ -2,7 +2,7 @@
 title: "Record 3780858886 · K-Beauty-boom-Korean-skincare-sales-surge-as-glass-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.490694+00:00
+updated_at: 2026-09-28T12:36:01.728059+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record b9aab524ab · Bellman-Calibration-for-Marginalized-Importance-Wei"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:55.121312+00:00
+updated_at: 2026-09-28T12:36:02.708873+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Marginalized importance weighting evaluates a target policy by reweighting offli
 
 ## Connected nodes
 
-[[Source--arXiv]] [[경영전략]] [[LLM언어모델]] [[머신러닝-연구]] [[의료바이오]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[경영전략]] [[머신러닝-연구]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

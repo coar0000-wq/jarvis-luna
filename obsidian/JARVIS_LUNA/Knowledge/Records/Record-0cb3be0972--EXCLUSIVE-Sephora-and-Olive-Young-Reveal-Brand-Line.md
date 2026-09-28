@@ -2,7 +2,7 @@
 title: "Record 0cb3be0972 · EXCLUSIVE-Sephora-and-Olive-Young-Reveal-Brand-Line"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.501713+00:00
+updated_at: 2026-09-28T12:36:01.750238+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ EXCLUSIVE: Sephora and Olive Young Reveal Brand Lineup for Partnership - WWD
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

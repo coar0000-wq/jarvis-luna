@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T10:37:57.610786+00:00",
+  "generated_at": "2026-09-28T12:33:48.158492+00:00",
   "generator": "scripts/collect_kbeauty_news.py",
   "출처": "Google News RSS (키 불필요). 기사 제목만 읽는다.",
   "성격": "판매 데이터가 아니라 매체 노출 신호다. 점수의 us_market_fit 에는 넣지 않는다. 어떤 상품군을 더 모을지 정하는 데 쓴다.",
@@ -37,23 +37,23 @@
       "용도": "구매자"
     }
   ],
-  "articles": 391,
+  "articles": 389,
   "질의용도별_기사수": {
-    "상품군": 236,
-    "구매자": 155
+    "상품군": 235,
+    "구매자": 154
   },
   "failed_queries": [],
   "bucket_mentions": {
     "스킨케어": 70,
-    "메이크업": 5,
+    "메이크업": 6,
     "헤어케어": 3,
-    "마스크팩": 8
+    "마스크팩": 9
   },
   "bucket_share_pct": {
-    "스킨케어": 81.4,
-    "마스크팩": 9.3,
-    "메이크업": 5.8,
-    "헤어케어": 3.5
+    "스킨케어": 79.5,
+    "마스크팩": 10.2,
+    "메이크업": 6.8,
+    "헤어케어": 3.4
   },
   "_비중_계산_범위": "상품군 질의로 받은 기사만 센다. 구매자 질의 기사를 섞으면 상품 인기와 무관한 이유로 비중이 흔들리고, 이 비중이 category_map.json 의 bucket_targets 근거라서 수집 목표가 바뀐다.",
   "ingredient_mentions": {
@@ -159,10 +159,10 @@
       "용도": "상품군"
     },
     {
-      "title": "K-Beauty Sales Surge Across the Globe - Beauty Packaging",
+      "title": "K-Beauty Sales Surge Across the Globe - beautypackaging.com",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSkI1S1dVbjBfNDI0Vkd5a2s0Q0M1Sl9nb3lGd3NVellYRTFpN0pkT0FDeW5qdnFkbDU0MlBKS2NXZkg1LUZfM0xYY0M4YjFHOERqcnI4R3RMQzBUZllCNFpEUWxLblBJMkdWMnh1MDhaSld1Y3gyREhxRy1oUXY5ZWZMdFNpcEtrMTZDcw?oc=5",
       "published": "Thu, 16 Jul 2026 07:00:00 GMT",
-      "source": "Beauty Packaging",
+      "source": "beautypackaging.com",
       "query": "\"K-beauty\" skincare US sales",
       "용도": "상품군"
     },
@@ -183,10 +183,10 @@
       "용도": "상품군"
     },
     {
-      "title": "How K-Beauty Conquered 2025 Through TikTok Shop and Product Innovation - Cosmetics & Toiletries",
+      "title": "How K-Beauty Conquered 2025 Through TikTok Shop and Product Innovation - cosmeticsandtoiletries.com",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNLW1mTFNjT0g5aXFPaDZ2MFY5c1NfZk0zTXlFUHY3TDVmMkR5NjQ4R0xGcE9PeUczaEFDLS1feWlJRWhtWTcwU1ZubkY5UHpVbFVvWVpvY2pvdVcySnlNRlBySTFGYzhSajNPR1FGRE81MzYzVUNhb2wtb0I1WkxxMVhtcHZDWUZvWWw5WVJwU2hSVkROYUhBZThTbWgxaHlsekFSZlhvai1VLUh0czNiZXIxcGtQNFo3OEJvLUN5YV9tbzF3NDhjaTYyRWhZWnU2TmM3VDlVMnFZQlpRTkxrZ2xn?oc=5",
       "published": "Mon, 22 Dec 2025 08:00:00 GMT",
-      "source": "Cosmetics & Toiletries",
+      "source": "cosmeticsandtoiletries.com",
       "query": "\"K-beauty\" skincare US sales",
       "용도": "상품군"
     },
@@ -239,14 +239,6 @@
       "용도": "상품군"
     },
     {
-      "title": "K-Beauty Retailer Olive Young Debuts Pasadena Store - LAmag",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeDVya3BtNzM4a1g1XzItaVVxR01DNWh6eGNyYUs0OVVXNjF3ejNuQTY4YTU0UEd2LTZvdmJDcEEzX1UzMDBuRTRwZHNIY09CbmUxQjltUGNTSGFqWmJXa2VDbW1yZWVOQmVsWDlzby1KNU5nenEtWnR0OFhVdUkwcjItZ0ltc2taQzdHeWplNHFseU5pdjlJM1M3OWQ?oc=5",
-      "published": "Fri, 29 May 2026 07:00:00 GMT",
-      "source": "LAmag",
-      "query": "\"K-beauty\" skincare US sales",
-      "용도": "상품군"
-    },
-    {
       "title": "K-beauty's next formula: Makeup that works like skincare - The Korea Herald",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1PYnJCNTJIVmFKVEZlQWtpaXZZaUYyT2k3d1M1M3hLN3AxR25hczVMMDBnQUlSN3FOUDA4NkEwQlg2SGFVOVpwd1JhRXF1SEVYX1FSMHp5bw?oc=5",
       "published": "Sat, 23 May 2026 07:00:00 GMT",
@@ -263,10 +255,10 @@
       "용도": "상품군"
     },
     {
-      "title": "Salmon Sperm, Snail Mucin Fuel K-Beauty’s US Push - Bloomberg.com",
+      "title": "Salmon Sperm, Snail Mucin Fuel K-Beauty’s US Push - Bloomberg",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOc1hwODY4QjVVSC1FWldxck04WF95Snl0aGdwcjUzTjFxd1FaZUQ1NTFkOWFDX05lV0tCWXllRWd6MmFiT0preVFCTUVfbmdjZ2k5YlE0V2lVYmtDcExBOFYwVlltbzhFQVVqWVNVU3Rpc2hhM1Y0QmZxU3VKYnFHbFpxYVBWMjlORVJ6elFYWTR1YTBpT1gwYjNCWEZEWTlJanhMUg?oc=5",
       "published": "Sun, 01 Mar 2026 08:00:00 GMT",
-      "source": "Bloomberg.com",
+      "source": "Bloomberg",
       "query": "\"K-beauty\" skincare US sales",
       "용도": "상품군"
     },
@@ -279,10 +271,18 @@
       "용도": "상품군"
     },
     {
-      "title": "Five of the best Korean skincare brands you can actually find in the US - The Guardian",
+      "title": "K-Beauty Retailer Olive Young Debuts Pasadena Store - LAmag",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeDVya3BtNzM4a1g1XzItaVVxR01DNWh6eGNyYUs0OVVXNjF3ejNuQTY4YTU0UEd2LTZvdmJDcEEzX1UzMDBuRTRwZHNIY09CbmUxQjltUGNTSGFqWmJXa2VDbW1yZWVOQmVsWDlzby1KNU5nenEtWnR0OFhVdUkwcjItZ0ltc2taQzdHeWplNHFseU5pdjlJM1M3OWQ?oc=5",
+      "published": "Fri, 29 May 2026 07:00:00 GMT",
+      "source": "LAmag",
+      "query": "\"K-beauty\" skincare US sales",
+      "용도": "상품군"
+    },
+    {
+      "title": "Five of the best Korean skincare brands you can actually find in the US - theguardian.com",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTWc4TWUxblZCeDRxX2NHVEdYUEY3Q09yeUFDclFySVZheFhyZUY2eW95NjduTTJBYWxHdjdOTk1IYzdrVVFsVzVsZ0VfcVN3NzIzLWlZaV82VXJFNENFSVp0am5yVHlxYnZjckQxMTRaNnFzZWdpa0VYUm01UGVjY3VzdUkzQ2E1UDZRdE1tZFIxbEU?oc=5",
       "published": "Fri, 10 Jul 2026 07:00:00 GMT",
-      "source": "The Guardian",
+      "source": "theguardian.com",
       "query": "\"K-beauty\" skincare US sales",
       "용도": "상품군"
     },
@@ -535,10 +535,10 @@
       "용도": "상품군"
     },
     {
-      "title": "Flower Knows enters Ulta Beauty, challenges K-beauty in US color cosmetics - CHOSUNBIZ - biz.chosun.com",
+      "title": "Flower Knows enters Ulta Beauty, challenges K-beauty in US color cosmetics - CHOSUNBIZ - Chosunbiz",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE85YmxVTkRjNk1rSnlDSUMwNW5GbjhneTI4YnFrbkx3emJJeFl6SGpfNlhtOGx3UFZNT0RLTmh4UUk3RTRGN3N4MEV0VVNzZEpuNUo4ejJXc2pxQXhQTk0tRW91R1hvel91SVFoLUlwWHR5NGYyZDllR2JwMXBXS0nSAZMBQVVfeXFMUGFNMnRHUDAxaW1IQXowSTY5cEh6WENlb2N1VjJYbnF5RG9mSk8tRnJFVFh4MHk1TDQxSzVDQ3dfMDd5V2FWdzh3bnlobE1ZV3c1YlZtMTlMZmN5el82Y2dUUlZtVV9EY0tiSXp5VDY0Rko1cEJDQkRpWk5zNmMzSTZVY19EWExJYnF6bGZURFg1elE0?oc=5",
       "published": "Fri, 19 Dec 2025 08:00:00 GMT",
-      "source": "biz.chosun.com",
+      "source": "Chosunbiz",
       "query": "\"K-beauty\" skincare US sales",
       "용도": "상품군"
     },
@@ -655,10 +655,10 @@
       "용도": "상품군"
     },
     {
-      "title": "Kendall Jenner’s $14 ‘must-have’ highlighter is on sale pre-Prime Day, along with more beauty finds - Page Six",
+      "title": "Kendall Jenner’s $14 ‘must-have’ highlighter is on sale pre-Prime Day, along with more beauty finds - pagesix.com",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1jRHdYSnUyb2k2RlZVMEFJQW9WeXk4b25lbGtPaGVUV085a2d1VTV0dE9TZGs4UjVQMjRndWtUeW1xQWpqSWtaUDl6cENPaF9UTDYtbWduc196MjJoTHZkRHR0MEhCTEZTamhwdmxqOWo1Q012aVctd0E5aThBVzg?oc=5",
       "published": "Tue, 09 Jun 2026 07:00:00 GMT",
-      "source": "Page Six",
+      "source": "pagesix.com",
       "query": "\"K-beauty\" skincare US sales",
       "용도": "상품군"
     },
@@ -679,10 +679,10 @@
       "용도": "상품군"
     },
     {
-      "title": "Biggest discounts on Medicube K-beauty skincare as brand drops into huge spring sale - mirror.co.uk",
+      "title": "Biggest discounts on Medicube K-beauty skincare as brand drops into huge spring sale - The Mirror",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOX0RHdTk3OEJwVUNVaXBOcVNHbGZXRnF0bU1VZEU0YUVYc0h4ZHItX0lXUGhEamRSMk01SGtneVFBR2kzREN3OVNSQUJiTjBnQ0NSaUJmc1FlT3ZNTmt2empJREpYU2kzc0h2M204dW1zUlkxMWlTRV92VGRDM256LUM5eVhCMDBqOHpoSjZ5am9nY2Zy0gGaAUFVX3lxTFBPa3dTNkV0X2RFQ2VkYVFlVzF1WHpTc2ZENUZZMmhjajdxa3JQYWpaSWhQbl9pSTI5c3F1QmxmVmFHNDBWN01haUt5NFRXLXJIUGlERjI2Q3pIQ1F0N3FJSnpsWjZ0ODU0b1R1SGt2aVl1U1lpTDFzeEp6SndIM0ZEbkpRQ0tMc21yd0x2ZFJmbXBNVjF1VW8ybWc?oc=5",
       "published": "Tue, 10 Mar 2026 07:00:00 GMT",
-      "source": "mirror.co.uk",
+      "source": "The Mirror",
       "query": "\"K-beauty\" skincare US sales",
       "용도": "상품군"
     },
@@ -735,10 +735,10 @@
       "용도": "상품군"
     },
     {
-      "title": "K-Beauty Product Market - futuremarketinsights.com",
+      "title": "K-Beauty Product Market - Future Market Insights",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB5UVZlalphakhPSUhzTEM0cVFGS3JlZWlFeC1VZlB5aVFFaTJjb2tKXzlnbVpnWW5CSW5hUTVBbS1TZWZDb0ZsTFNZUlZkTk5ReUVVbnRSRnlibGp1MGZla01ZbUwzNXA3cnVuTHYtcTZnbTczcXdF?oc=5",
       "published": "Thu, 12 Feb 2026 08:00:00 GMT",
-      "source": "futuremarketinsights.com",
+      "source": "Future Market Insights",
       "query": "Korean skincare essence serum trend United States",
       "용도": "상품군"
     },
@@ -767,10 +767,10 @@
       "용도": "상품군"
     },
     {
-      "title": "K-Beauty Products Used Locally Surge Globally - 조선일보",
+      "title": "K-Beauty Products Used Locally Surge Globally - chosun.com",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZW9OSnFIeHBPdWdlZUxlUTl5MXNxMlRMVWFPdnh0VmF1ZkN2UHBoQ0JlVWh1YXluNDRiRmp3dFFBX01TeGlxX1BlV0xyTDNHMGd3UHRBX2VabXRjM2ZMZVhNcHFCNnJ4THMyUEk0OG5BSjRZMmJUNW0wSmJpZ1gzVHprTU42OVN4WDZERw?oc=5",
       "published": "Sat, 02 May 2026 07:00:00 GMT",
-      "source": "조선일보",
+      "source": "chosun.com",
       "query": "Korean skincare essence serum trend United States",
       "용도": "상품군"
     },
@@ -847,14 +847,6 @@
       "용도": "상품군"
     },
     {
-      "title": "These Hydrating Essences Are the Key to Glass Skin - Allure",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5QMHRiRWhqMFJhRWo1aWxHUTVLR1paMzVfUER4QWxtNHN3cWNKZmQ3eWtUM3prYlhHTGRlSzZ4MF9PLWRtR0M3MzdySTRsUE9aTkNEd19FSTFaSDFYQkp4dg?oc=5",
-      "published": "Sat, 06 Jul 2024 07:00:00 GMT",
-      "source": "Allure",
-      "query": "Korean skincare essence serum trend United States",
-      "용도": "상품군"
-    },
-    {
       "title": "The Biggest Skin-Care Trends of 2026 Have Us Going Back to Basics - Allure",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5aS3EzTzVLRW92dHVHUzBZNWhXZElzbTJOYVNGZVVDbmNwS2VaT3FCNkJ5RHo1R0o4N3gtNHpUeERxQmRkb3NTeDFTZFhGUno5TGZIVTh6YV9MaFhxcHln?oc=5",
       "published": "Wed, 07 Jan 2026 08:00:00 GMT",
@@ -911,6 +903,14 @@
       "용도": "상품군"
     },
     {
+      "title": "Is NAD+ Skin Care the Secret to Aging Backward? - vogue.com",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9yOXJqNEFzNDA0VFJ3cnJjT3JoT1JBTUZDWDJOWGhxRTRwTkY3MG5NQ3htYW01RWk3NTgtazZqWUlpd1NtU1JDdDBFeUpHTVJjV0dZTw?oc=5",
+      "published": "Thu, 21 Aug 2025 07:00:00 GMT",
+      "source": "vogue.com",
+      "query": "Korean skincare essence serum trend United States",
+      "용도": "상품군"
+    },
+    {
       "title": "The secret to perfect skin is ... salmon sperm? What derms want you to know - NBC News",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBPeGFocVV2NVRnRjBOUWlILVlmVTB4a2hnbW9ZSDd1T3REc25GTThzRFJuSDNCa2ZNNHpYOUZVRDFabE5LWklENFNqTWdpcUpzbmozVDdPZWdHV1ZwNGl3bFEyeDR4azNrZXRTeE53WDdkdkIzRHVfbFhGdmVKdw?oc=5",
       "published": "Thu, 28 Aug 2025 07:00:00 GMT",
@@ -951,18 +951,18 @@
       "용도": "상품군"
     },
     {
-      "title": "5 Tips A Korean Beauty Expert Swears By For Glowing Skin In Winter - Refinery29",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9ueThvNmU4TzZwQzBzZGlrMzJZNmExZVlCeXdnYW5kVm5xckloeWk0LWgzQ3pNeTZQZlRaVFpZUHFzTnpaWnpUZ1IzMXhHMFBpdnlWTHBneUhNWXRwRXlmQ3FKTWxJejBYMUo1ZlAzLTIyNEFObWlzSXhaNmY?oc=5",
-      "published": "Thu, 21 Oct 2021 07:00:00 GMT",
-      "source": "Refinery29",
+      "title": "Black Women Are Making Korean Beauty Their Own, One Sheet Mask at a Time - highsnobiety.com",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE53TGpCZFRsaDRNNDBCdk1faFZhMzBxSE5UVFBYd1NYMGJtY0RpdW1reFMyX2Q4NVFlV1VSd0podV9YMUFFbHNXSUh3MC00cS1xcHZ2OG5BUjZ6cm1iMzBrb05ZcXg3bk95LUxPakotUVVhRk9Z?oc=5",
+      "published": "Thu, 20 Jul 2023 07:00:00 GMT",
+      "source": "highsnobiety.com",
       "query": "Korean skincare essence serum trend United States",
       "용도": "상품군"
     },
     {
-      "title": "Black Women Are Making Korean Beauty Their Own, One Sheet Mask at a Time - Highsnobiety",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE53TGpCZFRsaDRNNDBCdk1faFZhMzBxSE5UVFBYd1NYMGJtY0RpdW1reFMyX2Q4NVFlV1VSd0podV9YMUFFbHNXSUh3MC00cS1xcHZ2OG5BUjZ6cm1iMzBrb05ZcXg3bk95LUxPakotUVVhRk9Z?oc=5",
-      "published": "Thu, 20 Jul 2023 07:00:00 GMT",
-      "source": "Highsnobiety",
+      "title": "5 Tips A Korean Beauty Expert Swears By For Glowing Skin In Winter - Refinery29",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9ueThvNmU4TzZwQzBzZGlrMzJZNmExZVlCeXdnYW5kVm5xckloeWk0LWgzQ3pNeTZQZlRaVFpZUHFzTnpaWnpUZ1IzMXhHMFBpdnlWTHBneUhNWXRwRXlmQ3FKTWxJejBYMUo1ZlAzLTIyNEFObWlzSXhaNmY?oc=5",
+      "published": "Thu, 21 Oct 2021 07:00:00 GMT",
+      "source": "Refinery29",
       "query": "Korean skincare essence serum trend United States",
       "용도": "상품군"
     },
@@ -991,18 +991,18 @@
       "용도": "상품군"
     },
     {
-      "title": "Korean Skin Care Brand Saranghae Launches 3 New Products in North America: Has Korean Skin Care Finally Found a Category Leader? - newswire.com",
+      "title": "Korean Skin Care Brand Saranghae Launches 3 New Products in North America: Has Korean Skin Care Finally Found a Category Leader? - Newswire.com",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQLUpqOTlOSGNpRHhhZ3pfZ0VUSVhsX0dPQ09sT1hQVXU2SVlzb1Y2T3dNalJ4U3cwUEl3VlFkSXdxbkxkSzZTbDhleUJKQW9SN0pWM2ZsTTFsdy1yZzNKMWI4eEt0X0lNREN6aWMxU3JUWW5WemxDdjBhLUNYcEVuZldBWlNmdDhsREFzLUx0Rm9jVFZZaUI1Q1BWUnk1QjdVMEpVcVpRYw?oc=5",
       "published": "Tue, 08 Aug 2017 07:00:00 GMT",
-      "source": "newswire.com",
+      "source": "Newswire.com",
       "query": "Korean skincare essence serum trend United States",
       "용도": "상품군"
     },
     {
-      "title": "From watery lotions to snail slime, why better skincare counts - South China Morning Post",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOek1OT21mN29qU1pfZ1BjM0tjQjlVc3c0akNvbkgtS1pNZi1rMWZwQ1F6ZGp5bGtSaW1Eem5DbjUxQ0hmbW5JZmRnZGw1WXNOWUJCdkFMTkJjRUlmWHowRFJlZEktTlpIUWw4cGRPdGo2VE9MU2R2V2hYS2lsSjVtYkpqbURvVXhudlpHeTY1dmoxRXpIeFYyR0xqUUZCLTBJQ0s1WS1lOVQxdW5yODl3MGhESVPSAbQBQVVfeXFMTjhyYlhJMnpnU0NSOGpEOVBNajNvMEpDV0x5ZmtUX2czYnNnUS1UbXpaMGJSUzJ6YlJoM09pdnJ5ZUVXNXlGNWotMVBMX29sNi1VNldfWkpOS2NQWDFXR3JkNXR0Y1FMbEl3MFdPcWgtT0RyZXlqODhkUkRsUEo3TW1leHBnMVlzM2dpSEZhTWRDcTBVSkc5dmVtUmJ6YkZoZm03aFI1MHc5Q0paclZxUGRTSUxk?oc=5",
-      "published": "Mon, 11 Mar 2019 07:00:00 GMT",
-      "source": "South China Morning Post",
+      "title": "What Is PDRN, and Should You Add It to Your Skincare Routine? Experts Weigh In - Harper's BAZAAR",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1iVVR1YzFpdm95QnJVQ2ZBNXNpWHNHdkppUmhNcEhfczl3YWQ5WDgwNkFIenhnd0hHbGFpbGNUODlKc0ZNSXJpNHBQeFM2bkFqMHlMSmpEUXNkYWlTQktVeGpmbGF0eHVxV2lINzY3NzRYRlZYM1huNGgtWl9ZUQ?oc=5",
+      "published": "Tue, 23 Sep 2025 07:00:00 GMT",
+      "source": "Harper's BAZAAR",
       "query": "Korean skincare essence serum trend United States",
       "용도": "상품군"
     },
@@ -1015,10 +1015,10 @@
       "용도": "상품군"
     },
     {
-      "title": "What Is PDRN, and Should You Add It to Your Skincare Routine? Experts Weigh In - Harper's BAZAAR",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1iVVR1YzFpdm95QnJVQ2ZBNXNpWHNHdkppUmhNcEhfczl3YWQ5WDgwNkFIenhnd0hHbGFpbGNUODlKc0ZNSXJpNHBQeFM2bkFqMHlMSmpEUXNkYWlTQktVeGpmbGF0eHVxV2lINzY3NzRYRlZYM1huNGgtWl9ZUQ?oc=5",
-      "published": "Tue, 23 Sep 2025 07:00:00 GMT",
-      "source": "Harper's BAZAAR",
+      "title": "From watery lotions to snail slime, why better skincare counts - South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOek1OT21mN29qU1pfZ1BjM0tjQjlVc3c0akNvbkgtS1pNZi1rMWZwQ1F6ZGp5bGtSaW1Eem5DbjUxQ0hmbW5JZmRnZGw1WXNOWUJCdkFMTkJjRUlmWHowRFJlZEktTlpIUWw4cGRPdGo2VE9MU2R2V2hYS2lsSjVtYkpqbURvVXhudlpHeTY1dmoxRXpIeFYyR0xqUUZCLTBJQ0s1WS1lOVQxdW5yODl3MGhESVPSAbQBQVVfeXFMTjhyYlhJMnpnU0NSOGpEOVBNajNvMEpDV0x5ZmtUX2czYnNnUS1UbXpaMGJSUzJ6YlJoM09pdnJ5ZUVXNXlGNWotMVBMX29sNi1VNldfWkpOS2NQWDFXR3JkNXR0Y1FMbEl3MFdPcWgtT0RyZXlqODhkUkRsUEo3TW1leHBnMVlzM2dpSEZhTWRDcTBVSkc5dmVtUmJ6YkZoZm03aFI1MHc5Q0paclZxUGRTSUxk?oc=5",
+      "published": "Mon, 11 Mar 2019 07:00:00 GMT",
+      "source": "South China Morning Post",
       "query": "Korean skincare essence serum trend United States",
       "용도": "상품군"
     },
@@ -1037,14 +1037,6 @@
       "source": "ELLE",
       "query": "Korean skincare essence serum trend United States",
       "용도": "상품군"
-    },
-    {
-      "title": "Sarelly Projects $15M In Sales This Year As It Goes From Mexico To The World - Beauty Independent",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQaFpPMkZIWnVtcjE2YXRDaXBuNnNhZnk2cHViLVNfdjBCQ2pHa2N0TFBELUM0a0xmV1pTbnA3Tk9ibV9Lc2Z3UDVWc1R1RUlGVjRiQmprcTZvd2JHc3ZsWXRjWXNIeWhCQjhfc3UtZWhRU0lBYWlabDhBZjlwSHhrb0drSm83VEpuNHdhV0JoWVY0eVE?oc=5",
-      "published": "Fri, 25 Sep 2026 04:01:44 GMT",
-      "source": "Beauty Independent",
-      "query": "K-beauty Hispanic Latino consumers United States",
-      "용도": "구매자"
     },
     {
       "title": "LG Household & Health Care Targets K-Beauty Market in Mexico as CEO Sunjoo Lee Visits Expo in Person - 아시아경제",
@@ -1087,18 +1079,26 @@
       "용도": "구매자"
     },
     {
-      "title": "K-beauty's global success built on nontraditional approaches to products, consumers and sales - Korea JoongAng Daily",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNMkFKRU9xcmNpZV9NcThpSmR3Ukt4NzlialNZZ0R3dUsxVVoya2ZJSDlHYmFManUwLWFkbjJaaE53TmNoamt1cnk3V09hZUJ2MVpSeDVMdW5ONFVUVGNJbGdXdFNUWl80M25zZlhHbVpqMWlzZG9GcmRGREkycEFONjMtckx2d0lXRFNFYm5VanJsQjR3Zmx4UGloU1VWckpJdUx2UGI4QlRQd3Z0UUIwY2FFYkgyQ25TcG9Wd2tDZElhWHBGVjZ4NXJWWENXVzVtODJvSk1pMUo2Q214?oc=5",
-      "published": "Sun, 30 Nov 2025 08:00:00 GMT",
-      "source": "Korea JoongAng Daily",
-      "query": "K-beauty Hispanic Latino consumers United States",
-      "용도": "구매자"
-    },
-    {
       "title": "How Inclusivity Is Driving K-Beauty’s Second Wave - vogue.com",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5aaEFkUWFEN2dvUFlselk3dGhuR2taLTN6Rnhhb2gwUTVzNnFkUGs3MmtUa2dIUW9DeGtSREFTRFkzQy1VRUtUVEtYS1hwelFwYkJRYlRDR0NNem9najBldUFBUEU4M0ZZaWY4Q1RVdw?oc=5",
       "published": "Thu, 21 Nov 2024 08:00:00 GMT",
       "source": "vogue.com",
+      "query": "K-beauty Hispanic Latino consumers United States",
+      "용도": "구매자"
+    },
+    {
+      "title": "Forthcoming E-Tailer The Jefas Aspires To Be Sephora For Latina-Founded Brands - Beauty Independent",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZUhNZ3ZaMTJSTWViZ2htR2MxMVBUclBPNWUwUDk4N0JOVHlwejk2bDQwQjJCNkRZZFhZc292RDdLaWFpVlY1dU5jczZOQS1CcTRyUS10endCR3pUT3kySm02eS1GX1NCbF9qdXRINkRFV0ptbDZwajZiMU1QSFFlTDFPVnZjeUhjMGFJNHhNa20xcEZ4UmZNRVFkX0hXT3h1?oc=5",
+      "published": "Wed, 02 Aug 2023 07:00:00 GMT",
+      "source": "Beauty Independent",
+      "query": "K-beauty Hispanic Latino consumers United States",
+      "용도": "구매자"
+    },
+    {
+      "title": "K-beauty's global success built on nontraditional approaches to products, consumers and sales - Korea JoongAng Daily",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNMkFKRU9xcmNpZV9NcThpSmR3Ukt4NzlialNZZ0R3dUsxVVoya2ZJSDlHYmFManUwLWFkbjJaaE53TmNoamt1cnk3V09hZUJ2MVpSeDVMdW5ONFVUVGNJbGdXdFNUWl80M25zZlhHbVpqMWlzZG9GcmRGREkycEFONjMtckx2d0lXRFNFYm5VanJsQjR3Zmx4UGloU1VWckpJdUx2UGI4QlRQd3Z0UUIwY2FFYkgyQ25TcG9Wd2tDZElhWHBGVjZ4NXJWWENXVzVtODJvSk1pMUo2Q214?oc=5",
+      "published": "Sun, 30 Nov 2025 08:00:00 GMT",
+      "source": "Korea JoongAng Daily",
       "query": "K-beauty Hispanic Latino consumers United States",
       "용도": "구매자"
     },
@@ -1127,18 +1127,18 @@
       "용도": "구매자"
     },
     {
-      "title": "Creating a Latina Beauty Brand That’s by and for Latinas - Beauty Packaging",
+      "title": "Creating a Latina Beauty Brand That’s by and for Latinas - beautypackaging.com",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNLTNONldGNFFLVkc3elBsdEFFSi1XdzFUcDVhN2RQQXdxakl6dTRyY0M5MllmRlRRNTd4M3lTbkVrbjB2VXR2Qi0wLVZhTGxmZUdKMTZiNHBaZENKb3dxeGV3dzd4dGFiXzhaamg1TkJqdEdLNGh2Ym5EUk0tUHBXdUdmZ092aTJnaTM0NlZnSmE1TG91TW5iMkRZRHk1c3di?oc=5",
       "published": "Sat, 29 Mar 2025 20:33:31 GMT",
-      "source": "Beauty Packaging",
+      "source": "beautypackaging.com",
       "query": "K-beauty Hispanic Latino consumers United States",
       "용도": "구매자"
     },
     {
-      "title": "Idaho's Latino population on the rise - ktvb.com",
+      "title": "Idaho's Latino population on the rise - KTVB",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdFVKbmd0NVZrYkY4ZUJ0czU2bGtOQmNJc0NYUHV1SFdKUUxmX2laSjNOZnBiVUU1d1hITFBJOHJ3WlNHRjZJQ2pGaGJHdEtWa0wyS2o2c2kxNkhrWHhvTmdSQkxxSVljdFlzZzAybmgtQU5JTEQ3b0kyck5kSmtaYmd1azF2dGIxNGtyYmozNHhJdzJWbUZrb0Zhc0V2Q0dvdVUzdWh1aERuWkRuYXRySmVsWXctY05M?oc=5",
       "published": "Tue, 12 Oct 2021 07:00:00 GMT",
-      "source": "ktvb.com",
+      "source": "KTVB",
       "query": "K-beauty Hispanic Latino consumers United States",
       "용도": "구매자"
     },
@@ -1167,14 +1167,6 @@
       "용도": "구매자"
     },
     {
-      "title": "Forthcoming E-Tailer The Jefas Aspires To Be Sephora For Latina-Founded Brands - Beauty Independent",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZUhNZ3ZaMTJSTWViZ2htR2MxMVBUclBPNWUwUDk4N0JOVHlwejk2bDQwQjJCNkRZZFhZc292RDdLaWFpVlY1dU5jczZOQS1CcTRyUS10endCR3pUT3kySm02eS1GX1NCbF9qdXRINkRFV0ptbDZwajZiMU1QSFFlTDFPVnZjeUhjMGFJNHhNa20xcEZ4UmZNRVFkX0hXT3h1?oc=5",
-      "published": "Wed, 02 Aug 2023 07:00:00 GMT",
-      "source": "Beauty Independent",
-      "query": "K-beauty Hispanic Latino consumers United States",
-      "용도": "구매자"
-    },
-    {
       "title": "Olive Young launches global online mall for foreign shoppers - The Korea Herald",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9xRkNpMkZGYnJybzFDb2hMTmlMbUxHM3YtdF9JUm11Ty1HZ2hhQ1NvM0pRY25QWUpZb0pYOFlkaFVzWEdjRGpPYTJUa3BPWWVrd05tRTNR?oc=5",
       "published": "Mon, 10 Jun 2019 07:00:00 GMT",
@@ -1183,10 +1175,18 @@
       "용도": "구매자"
     },
     {
-      "title": "Janet Gardner Obituary - Rome, GA - dignitymemorial.com",
+      "title": "Janet Gardner Obituary - Rome, GA - Dignity Memorial",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA5ZGNiMjhKVk9oVWx6Znc0M1c1b1p3VmpMVkdhUnVKUjYxZE95OXA2Y3JsdTNQSmFJaXMtQURZOGRzZnR1WDFGZ3lEd0pHXzhRaHlaamxNVXg1TG5YMWdGTUtsR2RCNlh5M0NLd1ptcWVYWlN5NHFfZmthRDlsZw?oc=5",
       "published": "Sat, 17 May 2025 07:00:00 GMT",
-      "source": "dignitymemorial.com",
+      "source": "Dignity Memorial",
+      "query": "K-beauty Hispanic Latino consumers United States",
+      "용도": "구매자"
+    },
+    {
+      "title": "U.S. Hispanics Spend 32 Hours a Week Listening to Music: Nielsen Report - Billboard",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWm5POVdSMXExZzRDeWJjNWJIdktzcm14TDBNWTZqYk5IZVktNVZnX256azdiQU5Ed3RnZ0lHNExZdGsyOU5LdVJpY2FWaWdVSUFOcEd6NnVmUGllTi1ER0dIeHRlYlNjbUxDS3VlVGJUZTBuMnFLNThVMFA3TVpoZWR6NE9rdzRSZjhsenJjejhHQmQ1?oc=5",
+      "published": "Wed, 29 Aug 2018 07:00:00 GMT",
+      "source": "Billboard",
       "query": "K-beauty Hispanic Latino consumers United States",
       "용도": "구매자"
     },
@@ -1199,18 +1199,10 @@
       "용도": "구매자"
     },
     {
-      "title": "U.S. Hispanics Spend 32 Hours a Week Listening to Music: Nielsen Report - billboard.com",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWm5POVdSMXExZzRDeWJjNWJIdktzcm14TDBNWTZqYk5IZVktNVZnX256azdiQU5Ed3RnZ0lHNExZdGsyOU5LdVJpY2FWaWdVSUFOcEd6NnVmUGllTi1ER0dIeHRlYlNjbUxDS3VlVGJUZTBuMnFLNThVMFA3TVpoZWR6NE9rdzRSZjhsenJjejhHQmQ1?oc=5",
-      "published": "Wed, 29 Aug 2018 07:00:00 GMT",
-      "source": "billboard.com",
-      "query": "K-beauty Hispanic Latino consumers United States",
-      "용도": "구매자"
-    },
-    {
-      "title": "Why Latinos Look So Good - Beauty Packaging",
+      "title": "Why Latinos Look So Good - beautypackaging.com",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1aWVlKRjlqbEF2U19QZHNrZ1dWTTItdk5SSG9DU0hGQTZySENZaHVDTlhoY3lVX1c1b3gxTWxFYTlOS1VTTjBKZ1VUM2prbmZPTkx3Mi1pdW1MTUVWX2Q2ZXFteUtKNUs1eHFEXzhPS0I2Wm9oSU1B?oc=5",
       "published": "Wed, 23 Mar 2011 07:00:00 GMT",
-      "source": "Beauty Packaging",
+      "source": "beautypackaging.com",
       "query": "K-beauty Hispanic Latino consumers United States",
       "용도": "구매자"
     },
@@ -1223,10 +1215,10 @@
       "용도": "구매자"
     },
     {
-      "title": "30 Korean beauty secrets every Latina should try - mamaslatinas.com",
+      "title": "30 Korean beauty secrets every Latina should try - MamasLatinas.com",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYUFacFRqS0E1Vk43cTktVW93UGVHb0lGN1AwNUNwQzNtMkZBUU5vNkhRLXhVVnhJR2ZnVUlwZEp0X096bjRIVmRFdGFFUkQ0NEtmOTV5Y1BXcThCSHhJMm5laTBDOU0tdExaQ0plQWg1VDJITmUyTWh0MzNuZjNKRmR0RGE4bzROVE1xMEIxLUVwQnNT?oc=5",
       "published": "Wed, 09 Sep 2020 07:00:00 GMT",
-      "source": "mamaslatinas.com",
+      "source": "MamasLatinas.com",
       "query": "K-beauty Hispanic Latino consumers United States",
       "용도": "구매자"
     },
@@ -1255,10 +1247,10 @@
       "용도": "구매자"
     },
     {
-      "title": "United States: skin care routine among Gen Z and Millennials 2021 - statista.com",
+      "title": "United States: skin care routine among Gen Z and Millennials 2021 - Statista",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMlFRRW1SN0dzb09TZU9YR1huRTQ3bzlMbndyUEl3NngtZm5QYXRtZ1JpZkRncllEaVUyZ2dMSmE0UXkxZUljRjd6aElMWDRoTnVNbkY0N1FxeFIwVXotLUZwQzVKUXgxUGtpWlRQZksxamlPckEzYlZ0WkhFQVF5NWNSQnlWXzg2bzAwM0phZVlPbmJJaXV3Vzc4V0NDZE1za0g1cm5GVEltMVg4SkYxZ29n?oc=5",
       "published": "Tue, 25 Nov 2025 08:00:00 GMT",
-      "source": "statista.com",
+      "source": "Statista",
       "query": "Korean skincare Gen Z spending America",
       "용도": "구매자"
     },
@@ -1391,18 +1383,18 @@
       "용도": "구매자"
     },
     {
-      "title": "How Tomorrow’s Beauty Consumer Will Shop - businessoffashion.com",
+      "title": "How Tomorrow’s Beauty Consumer Will Shop - The Business of Fashion",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNHg0Y05FbFVLOVRfbWg2NGRWamhWeWtMam5jUEhQWHB6UGo0UnZVQ09qWDlNQWwyRmMxZjJlRlM1WWoxckRnTnNxWnNOQ0hrTXRLRlo5UHpJZDdzZmpueDM2YnVvYXRvOGFxWWN5X1dZRC0xLUtSNmxtZHdEWUUzZUNJMkQ3N0FlZE9xSlBXdnVESlB1MkMyWHdrcDFJQXBIemZjZ1g3cDFMVXJMTUJYYU5UUVNwV2NHcFVN?oc=5",
       "published": "Tue, 22 Jul 2025 07:00:00 GMT",
-      "source": "businessoffashion.com",
+      "source": "The Business of Fashion",
       "query": "Korean skincare Gen Z spending America",
       "용도": "구매자"
     },
     {
-      "title": "The beauty boom and beyond: Can the industry maintain its growth? - McKinsey & Company",
+      "title": "The beauty boom and beyond: Can the industry maintain its growth? - mckinsey.com",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMms5Rkoxb21DLWkzdmxTUmJRcXY5RmVkNFVoQzcwSmh5TXBPTFZ1MUYzS2xKVU00dlc4VFlwcVRRSGZQN25VbUpWYVRoYzhXSHF5M0lWZll0a1BpeHowdHlHWGFaeHhaT213cDFzeE5JUmhvZ1FTNlJNVXZBQlA2NU53MGVHbDdiaWd4Vk9weXozWFhIMGM0MEhWbjVNUkdpNUpFdkthSWRpRzB2RUJZVkdKNS1kUWZPRVJvMFU2ZEhWanVzWGU4alRMRWY3R1dVa3c?oc=5",
       "published": "Wed, 11 Sep 2024 07:00:00 GMT",
-      "source": "McKinsey & Company",
+      "source": "mckinsey.com",
       "query": "Korean skincare Gen Z spending America",
       "용도": "구매자"
     },
@@ -1447,10 +1439,10 @@
       "용도": "구매자"
     },
     {
-      "title": "‘People think that looking better means you will have a better life’: why gen Z spends so much on beauty - The Guardian",
+      "title": "‘People think that looking better means you will have a better life’: why gen Z spends so much on beauty - theguardian.com",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTTEwbUxMaTQtdUhFeG9QV1lsbll5RnllaUdtZlBMLVk1SnNBVnpyV1pTSWV3TkJxVE9MWWNPbFllV3gzOUVJdVM0cE1SZVRucGxTbGE3UnRIa0dQOUtCUEYtRkpUZHRPYjhqUktFTTlNNEtfd09zanh1bGptT2VvQnp2SDJWQ3FDOE5CV1JuSzY1MllM?oc=5",
       "published": "Mon, 26 Aug 2024 07:00:00 GMT",
-      "source": "The Guardian",
+      "source": "theguardian.com",
       "query": "Korean skincare Gen Z spending America",
       "용도": "구매자"
     },
@@ -1511,10 +1503,10 @@
       "용도": "구매자"
     },
     {
-      "title": "The 2025 Top 100: Riding the K-Craze - wwd.com",
+      "title": "The 2025 Top 100: Riding the K-Craze - WWD",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOajQ1NU9Lc1VvbjJCSnVhc19hQW1RRVQ3SDMxcWQwQmh4aWprSlZfS05QNWxaLVVrekZ0dU9XSDF2WGpEVXMwbW8xc0xBLVlMNjhsMWRkOEhRSXg2V216S0JZV3UwelRDaU56WGtZalZ1a2FiYk9jd2lvcmhxX1lfamhoOUVubkFMZzRVTGZBdUp1TlY2MXBXQWlsbHlmSmZlVVRyMXlsVjN1Rmxwc0U0ODJUN0pJamRtX0V3R05XSQ?oc=5",
       "published": "Fri, 17 Apr 2026 07:00:00 GMT",
-      "source": "wwd.com",
+      "source": "WWD",
       "query": "Korean skincare Gen Z spending America",
       "용도": "구매자"
     },
@@ -1559,10 +1551,10 @@
       "용도": "구매자"
     },
     {
-      "title": "Dissecting the K-beauty global export boom - Jing Daily",
+      "title": "Dissecting the K-beauty global export boom - jingdaily.com",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcmtjcUQtdWp2d2dNQzQwN2hiRTM3bk85cFBhZjM1UzlIVEJORE5xNjJpUHVwQzRRNDJuc0tiMXNPdEEyUkJWYXQ4RTF1a3hkS2RsRVVzMThyYXJGTks5ZE9iZ3dBUGxRbE9PVVZJRGtBWDFpcjNRZFNqQjF6Y0ZIMndMdV9qZ25ZQks4MEFkbmV2dTlNU2pvSG56MWlWSkgtOEV0NGJFQQ?oc=5",
       "published": "Wed, 10 Apr 2024 07:00:00 GMT",
-      "source": "Jing Daily",
+      "source": "jingdaily.com",
       "query": "Korean skincare Gen Z spending America",
       "용도": "구매자"
     },
@@ -1583,10 +1575,10 @@
       "용도": "구매자"
     },
     {
-      "title": "Global luxury market projected to reach €1.5 trillion in 2023, a new record for the sector, as consumers seek luxury experiences - Bain",
+      "title": "Global luxury market projected to reach €1.5 trillion in 2023, a new record for the sector, as consumers seek luxury experiences - bain.com",
       "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNT19kLTRISklJS1VIYzdpS0FtUTh0cHBtckczMGQ0R194UExvN0kyTHp1YTJSeC1GY0g0NWVEWVlCbkM3VmpPUUlHeGl2Z1RwbW1xTklkUFBtQkF6dHAwb0t3MTZ4Z1hDU25MT3lIVWxXV3NzaXVBWkFKZEJKVElJY0toNTdfYmp2Z0xfQUFtVkpRT2RIN2RibnpVckxkOG5VeFpyZzBLMEU2cEozOXNUS0o1STdKSjFRRlA4M2tpbl9NVjhLekN4aUFPeTNnOG9EcGdFWmhEMUx0ZkYzNjNwVmVINTZQejhjZWZWc29YNW94VWh0TV8wVFdGM1R1RDB3M1JEUnFQWDFNSnRwZlNoM3o4Zw?oc=5",
       "published": "Tue, 14 Nov 2023 08:00:00 GMT",
-      "source": "Bain",
+      "source": "bain.com",
       "query": "Korean skincare Gen Z spending America",
       "용도": "구매자"
     },
@@ -1639,18 +1631,18 @@
       "용도": "구매자"
     },
     {
-      "title": "Still feeling good: The US wellness market continues to boom - McKinsey & Company",
+      "title": "Still feeling good: The US wellness market continues to boom - mckinsey.com",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNa1JnOU1TNUNvSVMxUVBuaGZ0MzNEM2FQemxndW1sZUhRWHp3M05LMlRSQWl6MGdZa2RINzRfRDlnRDJwRncxVDdhSThnVHJXUVJ6QmhKVnFfZnlxdXZndVNBUm5VV3poNE5FNHlWdWxoZzljS3dyekpzdkZXRi13cmpMaU1QN2RHTndrYnFvRFdBbzNTNVo2ZVdmTU1ZWS1QSEJ3eE5FNU5Ca0R4THBSZnVEUC0zVUZtYWhRZWhVTmh0Vll5ZFNFUWxocU4?oc=5",
       "published": "Mon, 19 Sep 2022 07:00:00 GMT",
-      "source": "McKinsey & Company",
+      "source": "mckinsey.com",
       "query": "Korean skincare Gen Z spending America",
       "용도": "구매자"
     },
     {
-      "title": "Korean duty free sales suffer as Chinese tourists spend on home turf - Global Cosmetics News",
+      "title": "Korean duty free sales suffer as Chinese tourists spend on home turf - globalcosmeticsnews.com",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNM2VXX1FacWxEWmFGTkp3SllocmlsVGVSTlJ5UjNFSkg5eTN4Ym1uODczVVJPM0R0QTNrdWxhV1RfcXVPc3Bvay1kcEJtZGZaQUlQdFRabmNfaVQxUWx1elJuY21NQTZhS2FwbXVDbUVGQW1RdU5UMkxoVDlQX3duXzVHTlZCR0xMSkh5am5oZTNGa2FHT1lLNFRkRjRQQ0FaS043ODFaMlM?oc=5",
       "published": "Thu, 21 Nov 2024 08:00:00 GMT",
-      "source": "Global Cosmetics News",
+      "source": "globalcosmeticsnews.com",
       "query": "Korean skincare Gen Z spending America",
       "용도": "구매자"
     },
@@ -1671,10 +1663,18 @@
       "용도": "구매자"
     },
     {
-      "title": "K-pop supergroup BTS set to trigger US economic boom with tour: ‘Every stop is going to see a boost’ - The Guardian",
+      "title": "K-pop supergroup BTS set to trigger US economic boom with tour: ‘Every stop is going to see a boost’ - theguardian.com",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE11TlJvUXRsQTVPV2lpdU8tRlgwQm40RVRGZ3NCWk05YWUyMUNFVnNvaGZoTk84UmlBWk9adlBmaWhaTlI0R245V3BkXzJ4bFdmM3NYci1KeTNPS0RPM1p1RnVuejVIWTFzYzdkbHFVMXg4blo3Zy0zbQ?oc=5",
       "published": "Thu, 22 Jan 2026 08:00:00 GMT",
-      "source": "The Guardian",
+      "source": "theguardian.com",
+      "query": "Korean skincare Gen Z spending America",
+      "용도": "구매자"
+    },
+    {
+      "title": "South Korea's skincare innovation attracts shoppers and Australian brands - ABC News & Headlines – Australian Broadcasting Corporation",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQY3F0bE1aQUhfM1Z0QzdjcUdjZ1REc09HMjBmaXY4TmZOZk5QOXhPMmw5dHgxT1hKRHhMMldTWE1rWFFxMkRlRFpSenBfZVF4YlFyODRETnJzM1R6cHR4UTZCSUtrNEtEMVRFemNxdlpndmJsS3hNeG5rSWl1M01rb29IUWpCazJaeEJCaEVRRjFxb245VnBJUi10WUpFYkdxbXRn?oc=5",
+      "published": "Wed, 10 Sep 2025 07:00:00 GMT",
+      "source": "ABC News & Headlines – Australian Broadcasting Corporation",
       "query": "Korean skincare Gen Z spending America",
       "용도": "구매자"
     }
@@ -1693,8 +1693,8 @@
       "용도": "상품군"
     },
     {
-      "title": "Black Women Are Making Korean Beauty Their Own, One Sheet Mask at a Time - Highsnobiety",
-      "source": "Highsnobiety",
+      "title": "Black Women Are Making Korean Beauty Their Own, One Sheet Mask at a Time - highsnobiety.com",
+      "source": "highsnobiety.com",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE53TGpCZFRsaDRNNDBCdk1faFZhMzBxSE5UVFBYd1NYMGJtY0RpdW1reFMyX2Q4NVFlV1VSd0podV9YMUFFbHNXSUh3MC00cS1xcHZ2OG5BUjZ6cm1iMzBrb05ZcXg3bk95LUxPakotUVVhRk9Z?oc=5",
       "용도": "상품군"
     },
@@ -1735,6 +1735,12 @@
       "용도": "구매자"
     },
     {
+      "title": "Forthcoming E-Tailer The Jefas Aspires To Be Sephora For Latina-Founded Brands - Beauty Independent",
+      "source": "Beauty Independent",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZUhNZ3ZaMTJSTWViZ2htR2MxMVBUclBPNWUwUDk4N0JOVHlwejk2bDQwQjJCNkRZZFhZc292RDdLaWFpVlY1dU5jczZOQS1CcTRyUS10endCR3pUT3kySm02eS1GX1NCbF9qdXRINkRFV0ptbDZwajZiMU1QSFFlTDFPVnZjeUhjMGFJNHhNa20xcEZ4UmZNRVFkX0hXT3h1?oc=5",
+      "용도": "구매자"
+    },
+    {
       "title": "With Eye On Live Events Growth, Endeavor Unveils Latino-Focused Consumer Report (Exclusive) - The Hollywood Reporter",
       "source": "The Hollywood Reporter",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOemFpcXVJSWh1UEZVODBOQXdKTUVnc1RKajNGQ3Y0ZmJBajZ6LVBDQ2luMHJsMC1TY09ab09nT0lsM0JuTEo1QlVUWHc4YmdRT3BOcGl2M0VzdWhnRFFJNHRkN1E0YTJ4SWhuWGZqTF96Y2FnTXgtcmNMUDFzVHRURmhhOHBETWVXTmM1WUh1c3laN2t0MkhOLTk5VktpMmRX?oc=5",
@@ -1753,14 +1759,14 @@
       "용도": "구매자"
     },
     {
-      "title": "Creating a Latina Beauty Brand That’s by and for Latinas - Beauty Packaging",
-      "source": "Beauty Packaging",
+      "title": "Creating a Latina Beauty Brand That’s by and for Latinas - beautypackaging.com",
+      "source": "beautypackaging.com",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNLTNONldGNFFLVkc3elBsdEFFSi1XdzFUcDVhN2RQQXdxakl6dTRyY0M5MllmRlRRNTd4M3lTbkVrbjB2VXR2Qi0wLVZhTGxmZUdKMTZiNHBaZENKb3dxeGV3dzd4dGFiXzhaamg1TkJqdEdLNGh2Ym5EUk0tUHBXdUdmZ092aTJnaTM0NlZnSmE1TG91TW5iMkRZRHk1c3di?oc=5",
       "용도": "구매자"
     },
     {
-      "title": "Idaho's Latino population on the rise - ktvb.com",
-      "source": "ktvb.com",
+      "title": "Idaho's Latino population on the rise - KTVB",
+      "source": "KTVB",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdFVKbmd0NVZrYkY4ZUJ0czU2bGtOQmNJc0NYUHV1SFdKUUxmX2laSjNOZnBiVUU1d1hITFBJOHJ3WlNHRjZJQ2pGaGJHdEtWa0wyS2o2c2kxNkhrWHhvTmdSQkxxSVljdFlzZzAybmgtQU5JTEQ3b0kyck5kSmtaYmd1azF2dGIxNGtyYmozNHhJdzJWbUZrb0Zhc0V2Q0dvdVUzdWh1aERuWkRuYXRySmVsWXctY05M?oc=5",
       "용도": "구매자"
     },
@@ -1777,9 +1783,9 @@
       "용도": "구매자"
     },
     {
-      "title": "Forthcoming E-Tailer The Jefas Aspires To Be Sephora For Latina-Founded Brands - Beauty Independent",
-      "source": "Beauty Independent",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZUhNZ3ZaMTJSTWViZ2htR2MxMVBUclBPNWUwUDk4N0JOVHlwejk2bDQwQjJCNkRZZFhZc292RDdLaWFpVlY1dU5jczZOQS1CcTRyUS10endCR3pUT3kySm02eS1GX1NCbF9qdXRINkRFV0ptbDZwajZiMU1QSFFlTDFPVnZjeUhjMGFJNHhNa20xcEZ4UmZNRVFkX0hXT3h1?oc=5",
+      "title": "U.S. Hispanics Spend 32 Hours a Week Listening to Music: Nielsen Report - Billboard",
+      "source": "Billboard",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWm5POVdSMXExZzRDeWJjNWJIdktzcm14TDBNWTZqYk5IZVktNVZnX256azdiQU5Ed3RnZ0lHNExZdGsyOU5LdVJpY2FWaWdVSUFOcEd6NnVmUGllTi1ER0dIeHRlYlNjbUxDS3VlVGJUZTBuMnFLNThVMFA3TVpoZWR6NE9rdzRSZjhsenJjejhHQmQ1?oc=5",
       "용도": "구매자"
     },
     {
@@ -1789,20 +1795,14 @@
       "용도": "구매자"
     },
     {
-      "title": "U.S. Hispanics Spend 32 Hours a Week Listening to Music: Nielsen Report - billboard.com",
-      "source": "billboard.com",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWm5POVdSMXExZzRDeWJjNWJIdktzcm14TDBNWTZqYk5IZVktNVZnX256azdiQU5Ed3RnZ0lHNExZdGsyOU5LdVJpY2FWaWdVSUFOcEd6NnVmUGllTi1ER0dIeHRlYlNjbUxDS3VlVGJUZTBuMnFLNThVMFA3TVpoZWR6NE9rdzRSZjhsenJjejhHQmQ1?oc=5",
-      "용도": "구매자"
-    },
-    {
-      "title": "Why Latinos Look So Good - Beauty Packaging",
-      "source": "Beauty Packaging",
+      "title": "Why Latinos Look So Good - beautypackaging.com",
+      "source": "beautypackaging.com",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1aWVlKRjlqbEF2U19QZHNrZ1dWTTItdk5SSG9DU0hGQTZySENZaHVDTlhoY3lVX1c1b3gxTWxFYTlOS1VTTjBKZ1VUM2prbmZPTkx3Mi1pdW1MTUVWX2Q2ZXFteUtKNUs1eHFEXzhPS0I2Wm9oSU1B?oc=5",
       "용도": "구매자"
     },
     {
-      "title": "30 Korean beauty secrets every Latina should try - mamaslatinas.com",
-      "source": "mamaslatinas.com",
+      "title": "30 Korean beauty secrets every Latina should try - MamasLatinas.com",
+      "source": "MamasLatinas.com",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYUFacFRqS0E1Vk43cTktVW93UGVHb0lGN1AwNUNwQzNtMkZBUU5vNkhRLXhVVnhJR2ZnVUlwZEp0X096bjRIVmRFdGFFUkQ0NEtmOTV5Y1BXcThCSHhJMm5laTBDOU0tdExaQ0plQWg1VDJITmUyTWh0MzNuZjNKRmR0RGE4bzROVE1xMEIxLUVwQnNT?oc=5",
       "용도": "구매자"
     },
@@ -1813,8 +1813,8 @@
       "용도": "구매자"
     },
     {
-      "title": "United States: skin care routine among Gen Z and Millennials 2021 - statista.com",
-      "source": "statista.com",
+      "title": "United States: skin care routine among Gen Z and Millennials 2021 - Statista",
+      "source": "Statista",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMlFRRW1SN0dzb09TZU9YR1huRTQ3bzlMbndyUEl3NngtZm5QYXRtZ1JpZkRncllEaVUyZ2dMSmE0UXkxZUljRjd6aElMWDRoTnVNbkY0N1FxeFIwVXotLUZwQzVKUXgxUGtpWlRQZksxamlPckEzYlZ0WkhFQVF5NWNSQnlWXzg2bzAwM0phZVlPbmJJaXV3Vzc4V0NDZE1za0g1cm5GVEltMVg4SkYxZ29n?oc=5",
       "용도": "구매자"
     },
@@ -1891,8 +1891,8 @@
       "용도": "구매자"
     },
     {
-      "title": "‘People think that looking better means you will have a better life’: why gen Z spends so much on beauty - The Guardian",
-      "source": "The Guardian",
+      "title": "‘People think that looking better means you will have a better life’: why gen Z spends so much on beauty - theguardian.com",
+      "source": "theguardian.com",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTTEwbUxMaTQtdUhFeG9QV1lsbll5RnllaUdtZlBMLVk1SnNBVnpyV1pTSWV3TkJxVE9MWWNPbFllV3gzOUVJdVM0cE1SZVRucGxTbGE3UnRIa0dQOUtCUEYtRkpUZHRPYjhqUktFTTlNNEtfd09zanh1bGptT2VvQnp2SDJWQ3FDOE5CV1JuSzY1MllM?oc=5",
       "용도": "구매자"
     },

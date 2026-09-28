@@ -2,7 +2,7 @@
 title: "Record 74cca55d37 · The-Legendary-Korean-Brand---Beauty-of-Joseon-Is-Now-Exclusively-Avail"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.468851+00:00
+updated_at: 2026-09-28T12:36:01.685048+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ The Legendary Korean Brand — Beauty of Joseon Is Now Exclusively Available at 
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[마케팅광고]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

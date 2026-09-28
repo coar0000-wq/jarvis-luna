@@ -2,7 +2,7 @@
 title: "Record 28b7f95cdd · Skin-Active-Solution-Micellaire-Tout-En-1-Peaux-Sèches-et-Sensibles"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.645647+00:00
+updated_at: 2026-09-28T12:36:02.030126+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Skin Active Solution Micellaire Tout En 1 Peaux Sèches et Sensibles · Garnier
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

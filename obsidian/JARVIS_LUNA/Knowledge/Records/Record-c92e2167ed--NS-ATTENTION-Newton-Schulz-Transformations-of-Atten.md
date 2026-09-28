@@ -2,7 +2,7 @@
 title: "Record c92e2167ed · NS-ATTENTION-Newton-Schulz-Transformations-of-Attention-Outputs-in-Vis"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.106910+00:00
+updated_at: 2026-09-28T12:36:00.987804+00:00
 tags: [record, real-data]
 ---
 

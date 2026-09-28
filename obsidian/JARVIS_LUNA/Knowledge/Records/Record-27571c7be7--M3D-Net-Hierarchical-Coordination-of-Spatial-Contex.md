@@ -2,7 +2,7 @@
 title: "Record 27571c7be7 · M3D-Net-Hierarchical-Coordination-of-Spatial-Context-Feature-Reuse-and"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.105444+00:00
+updated_at: 2026-09-28T12:36:00.984334+00:00
 tags: [record, real-data]
 ---
 

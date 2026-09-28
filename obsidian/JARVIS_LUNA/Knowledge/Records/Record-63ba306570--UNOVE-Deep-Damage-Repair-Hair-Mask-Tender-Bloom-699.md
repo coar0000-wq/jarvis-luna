@@ -2,7 +2,7 @@
 title: "Record 63ba306570 · UNOVE-Deep-Damage-Repair-Hair-Mask-Tender-Bloom-699"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.628070+00:00
+updated_at: 2026-09-28T12:36:01.996075+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml) · 평점 5 
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,7 +2,7 @@
 title: "Record 095c4ef399 · Sally-Hansen-Insta-Dri-Nail-Color-Polish-Asap-Apple-031-fl-oz-Quick-Dr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:55.041120+00:00
+updated_at: 2026-09-28T12:36:02.545933+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Sally Hansen Insta-Dri Nail Color Polish, Asap Apple, 0.31 fl oz, Quick Dry · $
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,7 +2,7 @@
 title: "Record 09f5747ce1 · Some-experts-have-beef-with-the-latest-TikTok-beaut"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.414533+00:00
+updated_at: 2026-09-28T12:36:01.570422+00:00
 tags: [record, real-data]
 ---
 

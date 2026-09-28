@@ -2,7 +2,7 @@
 title: "Record f2261c82e3 · Effaclar-Purifying-Foaming-Gel-Cleanser-for-Oily-Sk"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.643714+00:00
+updated_at: 2026-09-28T12:36:02.026870+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Effaclar Purifying Foaming Gel Cleanser for Oily Skin · Alani
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

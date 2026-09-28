@@ -2,7 +2,7 @@
 title: "Record 4cab12fe71 · Amazon-Essentials-Cotton-Swabs-500-Count-Previously-Amazon-Basics"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.681630+00:00
+updated_at: 2026-09-28T12:36:02.109614+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Amazon Essentials Cotton Swabs, 500 Count (Previously Amazon Basics) · $2.67 ·
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

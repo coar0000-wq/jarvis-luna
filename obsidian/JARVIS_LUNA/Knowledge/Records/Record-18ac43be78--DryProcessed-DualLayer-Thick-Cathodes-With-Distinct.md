@@ -2,7 +2,7 @@
 title: "Record 18ac43be78 · DryProcessed-DualLayer-Thick-Cathodes-With-Distinct-Ni-Compositions-to"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.818000+00:00
+updated_at: 2026-09-28T12:36:00.353807+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 604ea75354 · Latest-TikTok-fad-touting-miracle-oil-to-remove-hai"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.340162+00:00
+updated_at: 2026-09-28T12:36:01.440274+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Latest TikTok fad touting ‘miracle oil’ to remove hair is flawed | Opinion -
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[소셜콘텐츠]] [[법률규제]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

@@ -2,7 +2,7 @@
 title: "Record 79c7038ab3 · Amazon-Basics-Double-Tipped-Cotton-Swabs-for-Person"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.679237+00:00
+updated_at: 2026-09-28T12:36:02.104378+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Amazon Basics Double-Tipped Cotton Swabs for Personal Hygiene and Baby Care, Cot
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

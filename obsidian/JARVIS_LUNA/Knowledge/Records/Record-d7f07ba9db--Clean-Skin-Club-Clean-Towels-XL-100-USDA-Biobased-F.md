@@ -2,7 +2,7 @@
 title: "Record d7f07ba9db · Clean-Skin-Club-Clean-Towels-XL-100-USDA-Biobased-F"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.688870+00:00
+updated_at: 2026-09-28T12:36:02.129084+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record fa8ad83690 · Shopify-AI--The-Features-Shaping-the-Future-of-Ecom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.517978+00:00
+updated_at: 2026-09-28T12:36:01.780379+00:00
 tags: [record, real-data]
 ---
 

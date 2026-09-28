@@ -2,7 +2,7 @@
 title: "Record e201a1f015 · StoreClaw-Aims-to-Unify-AI-Powered-Cross-Border-E-C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.317385+00:00
+updated_at: 2026-09-28T12:36:01.398767+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ StoreClaw Aims to Unify AI-Powered Cross-Border E-Commerce Operations Across Ama
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[이커머스Shopify]] [[소셜콘텐츠]] [[법률규제]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[이커머스Shopify]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

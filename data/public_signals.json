@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T10:38:14.105931+00:00",
+  "generated_at": "2026-09-28T12:34:05.229165+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "mortgage rates today",
-          "approx_traffic": "10000+",
-          "traffic_num": 10000,
-          "published": "Mon, 28 Sep 2026 03:00:00 -0700",
-          "source_name": "WSJ",
-          "url": "https://trends.google.com/trending?geo=US&q=mortgage%20rates%20today"
-        },
-        {
-          "keyword": "stock market today",
-          "approx_traffic": "10000+",
-          "traffic_num": 10000,
-          "published": "Mon, 28 Sep 2026 03:00:00 -0700",
-          "source_name": "Reuters",
-          "url": "https://trends.google.com/trending?geo=US&q=stock%20market%20today"
-        },
-        {
-          "keyword": "weather forecast today",
-          "approx_traffic": "10000+",
-          "traffic_num": 10000,
-          "published": "Mon, 28 Sep 2026 03:00:00 -0700",
-          "source_name": "The New York Times",
-          "url": "https://trends.google.com/trending?geo=US&q=weather%20forecast%20today"
-        },
-        {
-          "keyword": "netflix new releases",
+          "keyword": "brian burns",
           "approx_traffic": "5000+",
           "traffic_num": 5000,
-          "published": "Mon, 28 Sep 2026 03:00:00 -0700",
-          "source_name": "Netflix",
-          "url": "https://trends.google.com/trending?geo=US&q=netflix%20new%20releases"
+          "published": "Mon, 28 Sep 2026 04:40:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=brian%20burns"
         },
         {
-          "keyword": "south korea vs uruguay",
+          "keyword": "nvda stock",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Mon, 28 Sep 2026 05:10:00 -0700",
+          "source_name": "CNBC",
+          "url": "https://trends.google.com/trending?geo=US&q=nvda%20stock"
+        },
+        {
+          "keyword": "2026 winter forecast heavy snow regions",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Mon, 28 Sep 2026 03:10:00 -0700",
-          "source_name": "Chosunbiz",
-          "url": "https://trends.google.com/trending?geo=US&q=south%20korea%20vs%20uruguay"
+          "published": "Mon, 28 Sep 2026 05:00:00 -0700",
+          "source_name": "Autoblog",
+          "url": "https://trends.google.com/trending?geo=US&q=2026%20winter%20forecast%20heavy%20snow%20regions"
         },
         {
-          "keyword": "한국 대 우루과이",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Mon, 28 Sep 2026 03:20:00 -0700",
-          "source_name": "조선일보",
-          "url": "https://trends.google.com/trending?geo=US&q=%ED%95%9C%EA%B5%AD%20%EB%8C%80%20%EC%9A%B0%EB%A3%A8%EA%B3%BC%EC%9D%B4"
+          "keyword": "the walking dead: dead city",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Mon, 28 Sep 2026 04:30:00 -0700",
+          "source_name": "Undead Walking",
+          "url": "https://trends.google.com/trending?geo=US&q=the%20walking%20dead%3A%20dead%20city"
         },
         {
-          "keyword": "temperature",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Mon, 28 Sep 2026 03:10:00 -0700",
-          "source_name": "graziamagazine.com",
-          "url": "https://trends.google.com/trending?geo=US&q=temperature"
-        },
-        {
-          "keyword": "tsla stock",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Mon, 28 Sep 2026 03:10:00 -0700",
-          "source_name": "Seeking Alpha",
-          "url": "https://trends.google.com/trending?geo=US&q=tsla%20stock"
-        },
-        {
-          "keyword": "trial",
-          "approx_traffic": "100+",
-          "traffic_num": 100,
-          "published": "Mon, 28 Sep 2026 03:20:00 -0700",
+          "keyword": "politician",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Mon, 28 Sep 2026 04:10:00 -0700",
           "source_name": "Fox News",
-          "url": "https://trends.google.com/trending?geo=US&q=trial"
+          "url": "https://trends.google.com/trending?geo=US&q=politician"
         },
         {
-          "keyword": "fat bear",
-          "approx_traffic": "100+",
-          "traffic_num": 100,
-          "published": "Mon, 28 Sep 2026 03:10:00 -0700",
-          "source_name": "The New York Times",
-          "url": "https://trends.google.com/trending?geo=US&q=fat%20bear"
+          "keyword": "witcher 3 remastered",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Mon, 28 Sep 2026 04:10:00 -0700",
+          "source_name": "IGN",
+          "url": "https://trends.google.com/trending?geo=US&q=witcher%203%20remastered"
+        },
+        {
+          "keyword": "hubert hurkacz",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Mon, 28 Sep 2026 05:20:00 -0700",
+          "source_name": "Przegląd Sportowy",
+          "url": "https://trends.google.com/trending?geo=US&q=hubert%20hurkacz"
+        },
+        {
+          "keyword": "daniil medvedev",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Mon, 28 Sep 2026 05:00:00 -0700",
+          "source_name": "ATP Tour",
+          "url": "https://trends.google.com/trending?geo=US&q=daniil%20medvedev"
+        },
+        {
+          "keyword": "evan gershkovich",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Mon, 28 Sep 2026 04:30:00 -0700",
+          "source_name": "The New Yorker",
+          "url": "https://trends.google.com/trending?geo=US&q=evan%20gershkovich"
+        },
+        {
+          "keyword": "susie wiles",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Mon, 28 Sep 2026 04:50:00 -0700",
+          "source_name": "USA Today",
+          "url": "https://trends.google.com/trending?geo=US&q=susie%20wiles"
         }
       ]
     },

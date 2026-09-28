@@ -2,7 +2,7 @@
 title: "Record 7c02bd6bd2 · Glass-Skin-Treatments-A-Top-Korean-Aesthetic-Doctor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.480561+00:00
+updated_at: 2026-09-28T12:36:01.708343+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ tags: [record, real-data]
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[의료바이오]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[의료바이오]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

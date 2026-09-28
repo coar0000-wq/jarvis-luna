@@ -2,7 +2,7 @@
 title: "Record 692050b44c · Golden-State-Glow--Hydrate-Facial-Oil-with-Rosehip-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.955965+00:00
+updated_at: 2026-09-28T12:36:02.519309+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Golden State Glow & Hydrate Facial Oil with Rosehip + Carrot Seed · Onekind · 
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,7 +2,7 @@
 title: "Record 10ae2a63ed · Olive-Young-Has-Landed-In-Sephora-MalaysiaHeres-Wha"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.283670+00:00
+updated_at: 2026-09-28T12:36:01.346213+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Olive Young Has Landed In Sephora Malaysia—Here’s What To Shop According To 
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

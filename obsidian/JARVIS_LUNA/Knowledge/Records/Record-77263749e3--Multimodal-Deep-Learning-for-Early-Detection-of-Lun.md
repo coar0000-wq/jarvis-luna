@@ -2,7 +2,7 @@
 title: "Record 77263749e3 · Multimodal-Deep-Learning-for-Early-Detection-of-Lun"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.181058+00:00
+updated_at: 2026-09-28T12:36:01.140765+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Multimodal Deep Learning for Early Detection of Lung, Breast, and Skin Cancer
 
 ## Connected nodes
 
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Broadcom]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[뷰티스킨케어]] [[반도체하드웨어]] [[기관--Broadcom]] [[JARVIS Real Knowledge Index]]

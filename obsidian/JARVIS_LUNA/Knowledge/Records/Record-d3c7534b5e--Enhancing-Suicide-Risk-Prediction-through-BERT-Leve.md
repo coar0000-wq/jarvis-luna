@@ -2,7 +2,7 @@
 title: "Record d3c7534b5e · Enhancing-Suicide-Risk-Prediction-through-BERT-Leveraging-Textual-Biom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.166598+00:00
+updated_at: 2026-09-28T12:36:01.107667+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Enhancing Suicide Risk Prediction through BERT: Leveraging Textual Biomarkers fo
 
 ## Connected nodes
 
-[[Source--institutions]] [[LLM언어모델]] [[의료바이오]] [[데이터분석]] [[기관--Snowflake]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[의료바이오]] [[데이터분석]] [[기관--Snowflake]] [[JARVIS Real Knowledge Index]]

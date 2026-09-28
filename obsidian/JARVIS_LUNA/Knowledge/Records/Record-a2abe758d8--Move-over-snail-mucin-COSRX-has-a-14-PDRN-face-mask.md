@@ -2,7 +2,7 @@
 title: "Record a2abe758d8 · Move-over-snail-mucin-COSRX-has-a-14-PDRN-face-mask"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.406822+00:00
+updated_at: 2026-09-28T12:36:01.555619+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Move over, snail mucin: COSRX has a $14 PDRN face mask thousands are buying - Ne
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

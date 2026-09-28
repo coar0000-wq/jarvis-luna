@@ -2,7 +2,7 @@
 title: "Record 90638a8b37 · beplain-Mung-Bean-Cleansing-Oil-676-fl-oz200ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.635923+00:00
+updated_at: 2026-09-28T12:36:02.011880+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ beplain Mung Bean Cleansing Oil 6.76 fl. oz.(200ml) · 평점 5 · 리뷰 4
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

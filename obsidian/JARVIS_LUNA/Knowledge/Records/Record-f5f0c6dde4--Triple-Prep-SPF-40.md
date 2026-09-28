@@ -2,7 +2,7 @@
 title: "Record f5f0c6dde4 · Triple-Prep-SPF-40"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.608464+00:00
+updated_at: 2026-09-28T12:35:59.928505+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Triple Prep SPF 40
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

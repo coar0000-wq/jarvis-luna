@@ -2,7 +2,7 @@
 title: "Record ab717e6f33 · SUNGBOON-EDITOR-Green-Tomato-Nmn-Pore-Minimizing-Am"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.639748+00:00
+updated_at: 2026-09-28T12:36:02.019891+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ SUNGBOON EDITOR Green Tomato Nmn Pore Minimizing Ampoule 1.35 fl. oz.(40ml) · �
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

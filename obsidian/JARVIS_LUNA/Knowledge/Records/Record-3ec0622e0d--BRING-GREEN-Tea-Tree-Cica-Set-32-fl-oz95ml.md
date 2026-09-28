@@ -2,7 +2,7 @@
 title: "Record 3ec0622e0d · BRING-GREEN-Tea-Tree-Cica-Set-32-fl-oz95ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.636389+00:00
+updated_at: 2026-09-28T12:36:02.012768+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ BRING GREEN Tea Tree Cica Set 3.2 fl. oz.(95ml) · 평점 4.7 · 리뷰 3
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

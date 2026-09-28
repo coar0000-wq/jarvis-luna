@@ -2,7 +2,7 @@
 title: "Record c5653d26e9 · ROUND-LAB-Birch-Juice-Moisturizing-Cream-270-fl-oz8"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.624910+00:00
+updated_at: 2026-09-28T12:36:01.989798+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ ROUND LAB Birch Juice Moisturizing Cream 2.70 fl. oz.(80ml) + Cream 0.67 fl. oz.
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

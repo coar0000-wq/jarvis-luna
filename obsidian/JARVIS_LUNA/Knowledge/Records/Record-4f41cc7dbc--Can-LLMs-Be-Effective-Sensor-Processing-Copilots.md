@@ -2,7 +2,7 @@
 title: "Record 4f41cc7dbc · Can-LLMs-Be-Effective-Sensor-Processing-Copilots"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.030811+00:00
+updated_at: 2026-09-28T12:36:00.810497+00:00
 tags: [record, real-data]
 ---
 

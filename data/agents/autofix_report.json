@@ -1,6 +1,6 @@
 {
   "agent": "Safe-Auto-Fix",
-  "generated_at": "2026-09-28T10:39:36.304877+00:00",
+  "generated_at": "2026-09-28T12:35:31.249644+00:00",
   "status": "success",
   "enabled": true,
   "chief_of_staff": {
@@ -12,9 +12,9 @@
   "snapshot_before": {
     "collection": {
       "requested": 110,
-      "ok": 3,
+      "ok": 2,
       "parse_failed": 0,
-      "finished_at": "2026-09-20T22:34:01.119717+00:00"
+      "finished_at": "2026-09-28T12:00:31.054613+00:00"
     },
     "channels": {
       "live": 11,
@@ -30,16 +30,16 @@
       ]
     },
     "graph": {
-      "nodes": 83039,
-      "links": 342535,
+      "nodes": 83173,
+      "links": 343807,
       "dangling_generated": 0,
-      "runtime_nodes": 83039,
-      "runtime_links": 342535,
+      "runtime_nodes": 83173,
+      "runtime_links": 343807,
       "runtime_dangling_generated": 0,
       "truth_guard": {
         "vault": "obsidian/JARVIS_LUNA",
-        "actual_nodes": 83039,
-        "actual_links": 342535,
+        "actual_nodes": 83173,
+        "actual_links": 343807,
         "actual_dangling_generated": 0,
         "actual_dangling_personal": 21,
         "generated_dangling_samples": [],
@@ -127,8 +127,8 @@
         ],
         "generated_dangling_sample_source_count": 0,
         "personal_dangling_sample_source_count": 8,
-        "runtime_nodes": 83039,
-        "runtime_links": 342535,
+        "runtime_nodes": 83173,
+        "runtime_links": 343807,
         "runtime_dangling_generated": 0,
         "runtime_consistent": true,
         "anomaly": false,
@@ -163,7 +163,7 @@
     ],
     "source_errors": {
       "broken": 5,
-      "generated_at": "2026-09-28T10:39:28.999105+00:00",
+      "generated_at": "2026-09-28T12:35:19.099505+00:00",
       "items": [
         {
           "team": "기관 수집팀",
@@ -196,9 +196,9 @@
   "snapshot_after": {
     "collection": {
       "requested": 110,
-      "ok": 3,
+      "ok": 2,
       "parse_failed": 0,
-      "finished_at": "2026-09-20T22:34:01.119717+00:00"
+      "finished_at": "2026-09-28T12:00:31.054613+00:00"
     },
     "channels": {
       "live": 11,
@@ -214,16 +214,16 @@
       ]
     },
     "graph": {
-      "nodes": 83039,
-      "links": 342535,
+      "nodes": 83173,
+      "links": 343807,
       "dangling_generated": 0,
-      "runtime_nodes": 83039,
-      "runtime_links": 342535,
+      "runtime_nodes": 83173,
+      "runtime_links": 343807,
       "runtime_dangling_generated": 0,
       "truth_guard": {
         "vault": "obsidian/JARVIS_LUNA",
-        "actual_nodes": 83039,
-        "actual_links": 342535,
+        "actual_nodes": 83173,
+        "actual_links": 343807,
         "actual_dangling_generated": 0,
         "actual_dangling_personal": 21,
         "generated_dangling_samples": [],
@@ -311,8 +311,8 @@
         ],
         "generated_dangling_sample_source_count": 0,
         "personal_dangling_sample_source_count": 8,
-        "runtime_nodes": 83039,
-        "runtime_links": 342535,
+        "runtime_nodes": 83173,
+        "runtime_links": 343807,
         "runtime_dangling_generated": 0,
         "runtime_consistent": true,
         "anomaly": false,
@@ -347,7 +347,7 @@
     ],
     "source_errors": {
       "broken": 5,
-      "generated_at": "2026-09-28T10:39:28.999105+00:00",
+      "generated_at": "2026-09-28T12:35:19.099505+00:00",
       "items": [
         {
           "team": "기관 수집팀",
@@ -380,10 +380,10 @@
   "improvement": {
     "graph_dangling_before": 0,
     "graph_dangling_after": 0,
-    "graph_nodes_before": 83039,
-    "graph_nodes_after": 83039,
-    "graph_links_before": 342535,
-    "graph_links_after": 342535,
+    "graph_nodes_before": 83173,
+    "graph_nodes_after": 83173,
+    "graph_links_before": 343807,
+    "graph_links_after": 343807,
     "parse_failed_before": 0,
     "parse_failed_after": 0,
     "s_count_before": 10,
@@ -392,8 +392,8 @@
     "channels_live_after": 11,
     "obsidian_truth_before": {
       "vault": "obsidian/JARVIS_LUNA",
-      "actual_nodes": 83039,
-      "actual_links": 342535,
+      "actual_nodes": 83173,
+      "actual_links": 343807,
       "actual_dangling_generated": 0,
       "actual_dangling_personal": 21,
       "generated_dangling_samples": [],
@@ -481,8 +481,8 @@
       ],
       "generated_dangling_sample_source_count": 0,
       "personal_dangling_sample_source_count": 8,
-      "runtime_nodes": 83039,
-      "runtime_links": 342535,
+      "runtime_nodes": 83173,
+      "runtime_links": 343807,
       "runtime_dangling_generated": 0,
       "runtime_consistent": true,
       "anomaly": false,
@@ -490,8 +490,8 @@
     },
     "obsidian_truth_after": {
       "vault": "obsidian/JARVIS_LUNA",
-      "actual_nodes": 83039,
-      "actual_links": 342535,
+      "actual_nodes": 83173,
+      "actual_links": 343807,
       "actual_dangling_generated": 0,
       "actual_dangling_personal": 21,
       "generated_dangling_samples": [],
@@ -579,8 +579,8 @@
       ],
       "generated_dangling_sample_source_count": 0,
       "personal_dangling_sample_source_count": 8,
-      "runtime_nodes": 83039,
-      "runtime_links": 342535,
+      "runtime_nodes": 83173,
+      "runtime_links": 343807,
       "runtime_dangling_generated": 0,
       "runtime_consistent": true,
       "anomaly": false,
@@ -589,7 +589,7 @@
   },
   "remediation_state": {
     "schema_version": 1,
-    "generated_at": "2026-09-28T10:39:36.304493+00:00",
+    "generated_at": "2026-09-28T12:35:31.249112+00:00",
     "check_interval": "2_hours",
     "escalate_after_detected_runs": 3,
     "active_count": 4,
@@ -606,8 +606,8 @@
         "state": "waiting_human_approval",
         "reason": "카피 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 8건 사람 승인 대기",
         "first_seen_at": "2026-09-21T10:13:44.774659+00:00",
-        "last_seen_at": "2026-09-28T10:39:36.304493+00:00",
-        "detected_runs": 6,
+        "last_seen_at": "2026-09-28T12:35:31.249112+00:00",
+        "detected_runs": 7,
         "auto_attempts": 0,
         "resolved_at": null
       },
@@ -620,8 +620,8 @@
         "state": "waiting_human_approval",
         "reason": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
         "first_seen_at": "2026-09-21T10:13:44.774659+00:00",
-        "last_seen_at": "2026-09-28T10:39:36.304493+00:00",
-        "detected_runs": 6,
+        "last_seen_at": "2026-09-28T12:35:31.249112+00:00",
+        "detected_runs": 7,
         "auto_attempts": 0,
         "resolved_at": null
       },
@@ -634,8 +634,8 @@
         "state": "waiting_external_dependency",
         "reason": "다음 단계: Shopify 스토어 개설 및 기본 설정",
         "first_seen_at": "2026-09-21T10:13:44.774659+00:00",
-        "last_seen_at": "2026-09-28T10:39:36.304493+00:00",
-        "detected_runs": 6,
+        "last_seen_at": "2026-09-28T12:35:31.249112+00:00",
+        "detected_runs": 7,
         "auto_attempts": 0,
         "resolved_at": null
       },
@@ -648,8 +648,8 @@
         "state": "waiting_external_dependency",
         "reason": "외부 소스 고장 5건 추적 중 (기관 수집팀:Deutsche Bank 사이트, 기관 수집팀:TSMC 뉴스룸, 기관 수집팀:Marvell·Intel·Qualcomm·ASML IR RSS, 채널 운영팀:FDA 화장품 리콜·조치 이력)",
         "first_seen_at": "2026-09-21T10:24:44.825768+00:00",
-        "last_seen_at": "2026-09-28T10:39:36.304493+00:00",
-        "detected_runs": 4,
+        "last_seen_at": "2026-09-28T12:35:31.249112+00:00",
+        "detected_runs": 5,
         "auto_attempts": 0,
         "resolved_at": null
       },

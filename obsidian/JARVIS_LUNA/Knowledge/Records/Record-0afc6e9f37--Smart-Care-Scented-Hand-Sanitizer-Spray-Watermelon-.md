@@ -2,7 +2,7 @@
 title: "Record 0afc6e9f37 · Smart-Care-Scented-Hand-Sanitizer-Spray-Watermelon-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:55.041686+00:00
+updated_at: 2026-09-28T12:36:02.547061+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Smart Care Scented Hand Sanitizer Spray, Watermelon, 1.35 fl oz · 평점 4.5 ·
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

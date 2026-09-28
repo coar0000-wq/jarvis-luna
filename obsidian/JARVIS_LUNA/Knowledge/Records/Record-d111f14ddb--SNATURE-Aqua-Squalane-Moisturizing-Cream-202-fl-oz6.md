@@ -2,7 +2,7 @@
 title: "Record d111f14ddb · SNATURE-Aqua-Squalane-Moisturizing-Cream-202-fl-oz6"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.621551+00:00
+updated_at: 2026-09-28T12:36:01.983017+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ S.NATURE Aqua Squalane Moisturizing Cream 2.02 fl. oz.(60ml) · 평점 4.9 · �
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

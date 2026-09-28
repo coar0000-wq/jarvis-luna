@@ -2,7 +2,7 @@
 title: "Record 79700d9859 · Estimating-the-Health-and-State-of-Charge-of-Each-C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.650776+00:00
+updated_at: 2026-09-28T12:35:59.992592+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Effective use of battery storage depends on reliable estimation of its state of 
 
 ## Connected nodes
 
-[[Source--robotics]] [[LLM언어모델]] [[의료바이오]] [[JARVIS Real Knowledge Index]]
+[[Source--robotics]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

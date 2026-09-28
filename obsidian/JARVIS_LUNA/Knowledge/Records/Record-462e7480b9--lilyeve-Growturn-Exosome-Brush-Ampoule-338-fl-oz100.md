@@ -2,7 +2,7 @@
 title: "Record 462e7480b9 · lilyeve-Growturn-Exosome-Brush-Ampoule-338-fl-oz100"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.641586+00:00
+updated_at: 2026-09-28T12:36:02.023331+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml) · 평점 4.7 · 리
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

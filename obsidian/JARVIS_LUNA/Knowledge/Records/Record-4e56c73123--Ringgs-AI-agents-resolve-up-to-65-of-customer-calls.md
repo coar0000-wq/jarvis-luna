@@ -2,7 +2,7 @@
 title: "Record 4e56c73123 · Ringgs-AI-agents-resolve-up-to-65-of-customer-calls-with-OpenAI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.562425+00:00
+updated_at: 2026-09-28T12:36:01.874742+00:00
 tags: [record, real-data]
 ---
 

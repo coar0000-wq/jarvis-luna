@@ -2,7 +2,7 @@
 title: "Record bf2e3b83e5 · Inertial-Manifold-Neural-Operator-for-Dissipative-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:55.114644+00:00
+updated_at: 2026-09-28T12:36:02.689840+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ In this paper, we introduce the Inertial Manifold Neural Operator (IMNO) for sol
 
 ## Connected nodes
 
-[[Source--arXiv]] [[LLM언어모델]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

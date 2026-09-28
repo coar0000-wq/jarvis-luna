@@ -2,7 +2,7 @@
 title: "Record dd67d965cf · 선크림-SPF-50-저희-연구원에서는-이렇게-확인합니다"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:55.066066+00:00
+updated_at: 2026-09-28T12:36:02.587272+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ tags: [record, real-data]
 
 ## Connected nodes
 
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

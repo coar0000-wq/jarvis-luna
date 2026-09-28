@@ -2,7 +2,7 @@
 title: "Record c6d0818e92 · The-New-Galaxy-Z-Series-Earns-Strong-Early-Reviews-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.534031+00:00
+updated_at: 2026-09-28T12:36:01.814967+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Samsung Electronics’ new Galaxy Z Fold8 Ultra, Galaxy Z Fold8, and Galaxy Z Fl
 
 ## Connected nodes
 
-[[Source--institutions]] [[LLM언어모델]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

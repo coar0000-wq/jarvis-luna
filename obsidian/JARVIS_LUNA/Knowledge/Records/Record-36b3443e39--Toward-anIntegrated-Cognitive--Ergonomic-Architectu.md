@@ -2,7 +2,7 @@
 title: "Record 36b3443e39 · Toward-anIntegrated-Cognitive--Ergonomic-Architectu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.639291+00:00
+updated_at: 2026-09-28T12:35:59.969146+00:00
 tags: [record, real-data]
 ---
 

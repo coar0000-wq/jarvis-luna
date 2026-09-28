@@ -2,7 +2,7 @@
 title: "Record 1342afe65e · Mrs-Meyers-Clean-Day-Hand-Soap-Refill-Lemon-Verbena-Scent-33-Fl-Oz"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.700520+00:00
+updated_at: 2026-09-28T12:36:02.161054+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Mrs. Meyer's Clean Day, Hand Soap Refill, Lemon Verbena Scent, 33 Fl Oz · $7.61
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

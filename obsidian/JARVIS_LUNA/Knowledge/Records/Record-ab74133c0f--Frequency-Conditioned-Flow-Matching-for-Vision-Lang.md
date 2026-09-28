@@ -2,7 +2,7 @@
 title: "Record ab74133c0f · Frequency-Conditioned-Flow-Matching-for-Vision-Lang"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.706530+00:00
+updated_at: 2026-09-28T12:36:00.100395+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Robot actions are temporally correlated trajectories whose frequency components 
 
 ## Connected nodes
 
-[[Source--robotics]] [[LLM언어모델]] [[컴퓨터-비전]] [[로보틱스]] [[JARVIS Real Knowledge Index]]
+[[Source--robotics]] [[컴퓨터-비전]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

@@ -2,7 +2,7 @@
 title: "Record 19bf3dca63 · A-Mathematical-Theory-of-Pragmatic-Information"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.712402+00:00
+updated_at: 2026-09-28T12:36:00.112734+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ We propose a pragmatic information theory unifying communication, control, and d
 
 ## Connected nodes
 
-[[Source--robotics]] [[LLM언어모델]] [[과학수학]] [[JARVIS Real Knowledge Index]]
+[[Source--robotics]] [[과학수학]] [[JARVIS Real Knowledge Index]]

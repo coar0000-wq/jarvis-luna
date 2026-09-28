@@ -2,7 +2,7 @@
 title: "Record 34a0b97407 · fedlora-partition-variance-code-configurations-and-run-artifacts-for-P"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.731610+00:00
+updated_at: 2026-09-28T12:36:00.156360+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Pre-registered 204-run study decomposing held-out-loss variance in federated LoR
 
 ## Connected nodes
 
-[[Source--arXiv]] [[머신러닝-연구]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]
+[[Source--arXiv]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

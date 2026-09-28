@@ -2,7 +2,7 @@
 title: "Record 3358774211 · Leveraging-gated-architectures-for-enhanced-long-ra"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.849935+00:00
+updated_at: 2026-09-28T12:36:00.435308+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Leveraging gated architectures for enhanced long-range dependency learning in no
 
 ## Connected nodes
 
-[[Source--institutions]] [[LLM언어모델]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

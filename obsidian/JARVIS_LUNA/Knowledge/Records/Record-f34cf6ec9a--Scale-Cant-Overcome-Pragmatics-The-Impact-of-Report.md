@@ -2,7 +2,7 @@
 title: "Record f34cf6ec9a · Scale-Cant-Overcome-Pragmatics-The-Impact-of-Report"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.967641+00:00
+updated_at: 2026-09-28T12:36:00.657764+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Scale Can’t Overcome Pragmatics: The Impact of Reporting Bias on Vision-Langua
 
 ## Connected nodes
 
-[[Source--institutions]] [[LLM언어모델]] [[컴퓨터-비전]] [[AI-에이전트]] [[기관--Mistral-AI]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[컴퓨터-비전]] [[AI-에이전트]] [[기관--Mistral-AI]] [[JARVIS Real Knowledge Index]]

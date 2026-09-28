@@ -2,7 +2,7 @@
 title: "Record f31a75c177 · UK-Attracts-Nearly-10bn-of-Foreign-Backed-Investment-into-High-Growth-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.196870+00:00
+updated_at: 2026-09-28T12:36:01.173150+00:00
 tags: [record, real-data]
 ---
 

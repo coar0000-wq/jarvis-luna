@@ -2,7 +2,7 @@
 title: "Record ae0a3419cf · Radically-Rejuvenating-Whipped-Night-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.649164+00:00
+updated_at: 2026-09-28T12:36:02.036659+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Radically Rejuvenating Whipped Night Cream · Acure · Moisturizer · $20.0 · n
 
 ## Connected nodes
 
-[[Source--organic_skincare]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--organic_skincare]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

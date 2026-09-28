@@ -2,7 +2,7 @@
 title: "Record 96f1f48cfe · Performanceeinbruch-in-der-mündlichen-Zweitsprachproduktion-akademisch"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.138838+00:00
+updated_at: 2026-09-28T12:36:01.049373+00:00
 tags: [record, real-data]
 ---
 

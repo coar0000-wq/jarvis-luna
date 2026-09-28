@@ -2,7 +2,7 @@
 title: "Record 9f6777cc83 · ETV5-reduces-androgen-receptor-expression-and-induc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:53.886515+00:00
+updated_at: 2026-09-28T12:36:00.521369+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2e7d4587f7 · ROUND-LAB-Birch-Juice-Moisturizing-Sun-Serum-169-fl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.628798+00:00
+updated_at: 2026-09-28T12:36:01.997882+00:00
 tags: [record, real-data]
 ---
 

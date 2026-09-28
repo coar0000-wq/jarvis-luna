@@ -2,7 +2,7 @@
 title: "Record 625696bd84 · Machine-Learning-and-Artificial-Intelligence-in-Credit-Risk-Management"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.003686+00:00
+updated_at: 2026-09-28T12:36:00.735554+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Machine Learning and Artificial Intelligence in Credit Risk Management: A Review
 
 ## Connected nodes
 
-[[Source--institutions]] [[투자은행금융]] [[기관--Bank-of-America]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[투자은행금융]] [[기관--Citigroup]] [[JARVIS Real Knowledge Index]]

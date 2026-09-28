@@ -2,7 +2,7 @@
 title: "Record 91a4b458c2 · Anua-PDRN-Hyaluronic-Acid-100-Moisturizing-Cream-20"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.622759+00:00
+updated_at: 2026-09-28T12:36:01.985364+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml) · 평점 4.
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

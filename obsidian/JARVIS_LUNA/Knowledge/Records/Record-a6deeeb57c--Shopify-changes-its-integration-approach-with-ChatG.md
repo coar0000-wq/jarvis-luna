@@ -2,7 +2,7 @@
 title: "Record a6deeeb57c · Shopify-changes-its-integration-approach-with-ChatG"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.420793+00:00
+updated_at: 2026-09-28T12:36:01.583349+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Shopify changes its integration approach with ChatGPT - Digital Commerce 360
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[이커머스Shopify]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

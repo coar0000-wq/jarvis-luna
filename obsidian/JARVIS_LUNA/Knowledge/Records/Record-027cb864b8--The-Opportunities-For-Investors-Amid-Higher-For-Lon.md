@@ -2,7 +2,7 @@
 title: "Record 027cb864b8 · The-Opportunities-For-Investors-Amid-Higher-For-Longer-Interest-Rates"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.798523+00:00
+updated_at: 2026-09-28T12:36:02.335834+00:00
 tags: [record, real-data]
 ---
 

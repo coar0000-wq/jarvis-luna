@@ -2,7 +2,7 @@
 title: "Record 85e8d1ecfa · Invitation-Design-Miami-Seoul-2026-Opening-of-Samsu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T10:39:54.524849+00:00
+updated_at: 2026-09-28T12:36:01.794748+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Samsung Electronics invites you to experience its special exhibition at Design M
 
 ## Connected nodes
 
-[[Source--institutions]] [[마케팅광고]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[마케팅광고]] [[뷰티스킨케어]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]
