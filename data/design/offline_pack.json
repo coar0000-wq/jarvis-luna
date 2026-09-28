@@ -1,0 +1,138 @@
+{
+  "generated_at": "2026-09-28T11:10:04.569216+00:00",
+  "generator": "scripts/build_design_team.py",
+  "scope": "스토어 없이 만들고 검증할 수 있는 디자인 준비물. 스토어에 적용된 것은 아니다.",
+  "design_system": {
+    "status": "초안 완료",
+    "source": "data/brand_kit.json",
+    "colors": {
+      "primary": "#0071e3",
+      "text": "#1d1d1f",
+      "text_muted": "#86868b",
+      "bg": "#ffffff"
+    },
+    "fonts": {
+      "제목": "Cormorant Garamond",
+      "본문": "Cormorant Garamond",
+      "한글": "Noto Sans KR"
+    },
+    "spacing_px": [
+      4,
+      8,
+      12,
+      16,
+      24,
+      32,
+      48,
+      64
+    ],
+    "note": "간격은 4px 배수 규칙. 로고는 만들지 않는다 (brand_kit 의 만들지_않는_것)."
+  },
+  "sections": {
+    "status": "초안 완료",
+    "source": "S등급 추천 + brand_kit.image_spec",
+    "home": [
+      {
+        "section": "hero",
+        "image": "1920 x 1080",
+        "content": "브랜드 한 줄 + 대표 컬렉션 버튼"
+      },
+      {
+        "section": "featured-collection",
+        "collection": "스킨케어",
+        "products": [
+          "1049276",
+          "1055167",
+          "1049275",
+          "1067498"
+        ]
+      },
+      {
+        "section": "featured-collection",
+        "collection": "마스크팩",
+        "products": [
+          "1059834",
+          "1027327",
+          "1042619"
+        ]
+      },
+      {
+        "section": "shipping-notice",
+        "content": "한국 발송·예상 소요일·관세 부담 (배송 정책 확정 후)"
+      }
+    ],
+    "product_page": [
+      "gallery (정사각 2048 x 2048 정사각)",
+      "title·price",
+      "description",
+      "ingredients (INCI)·US label",
+      "shipping·duties",
+      "related products"
+    ]
+  },
+  "seo": {
+    "status": "보완 필요",
+    "source": "data/shopify_listing_copy.json",
+    "rule": "seo_title ≤60자, seo_description 70~160자",
+    "passed": 7,
+    "eligible": 9,
+    "items": [
+      {
+        "pd_no": "1049276",
+        "ok": true,
+        "issues": []
+      },
+      {
+        "pd_no": "1055167",
+        "ok": false,
+        "issues": [
+          "seo_description 166자 (70~160)"
+        ]
+      },
+      {
+        "pd_no": "1049275",
+        "ok": false,
+        "issues": [
+          "seo_description 161자 (70~160)"
+        ]
+      },
+      {
+        "pd_no": "1067498",
+        "ok": true,
+        "issues": []
+      },
+      {
+        "pd_no": "1072554",
+        "ok": true,
+        "issues": []
+      },
+      {
+        "pd_no": "1075857",
+        "ok": true,
+        "issues": []
+      },
+      {
+        "pd_no": "1059834",
+        "ok": true,
+        "issues": []
+      },
+      {
+        "pd_no": "1049285",
+        "ok": true,
+        "issues": []
+      },
+      {
+        "pd_no": "1042619",
+        "ok": true,
+        "issues": []
+      }
+    ]
+  },
+  "assets": {
+    "status": "대기",
+    "source": "S등급 추천 image_url",
+    "original_images": 10,
+    "processed_square_white": 0,
+    "note": "원본 이미지는 있으나 흰 배경 정사각 가공은 아직 없다. 가공본이 생기면 완료로 올린다."
+  }
+}

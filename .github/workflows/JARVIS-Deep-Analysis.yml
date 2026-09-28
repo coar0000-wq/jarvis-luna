@@ -177,6 +177,15 @@ jobs:
       - name: Prepare transparent real-data corpus
         run: python prepare_real_training_corpus.py
 
+      # 팀 자기개선 루프 (2026-09-28)
+      # 측정 -> 후보 -> 그림자 평가 -> 채택/보류 -> 실측 악화 시 자동 롤백.
+      # 무료·외부 호출 없음·data/self_improve 정책 파일만 바꾼다.
+      # 그래프 재생성 앞에 둔다. 채택한 분류 키워드가 같은 회차에 바로 반영된다.
+      # 한 루프가 죽어도 발행은 막지 않는다. status.json 에 error 로 남는다.
+      - name: 팀 자기개선 루프
+        continue-on-error: true
+        run: python -u scripts/self_improve.py
+
       - name: Normalize Obsidian wikilinks
         continue-on-error: true
         run: |
@@ -209,10 +218,10 @@ jobs:
         run: |
           python -u tune_real_knowledge_moe.py \
             --experts 3,4 \
-            --learning-rates 0.7,1.2 \
+            --learning-rates 5.0 \
             --l2-values 0.0001 \
             --temperatures 0.9 \
-            --steps 500 \
+            --steps 300 \
             --promote
 
       # =========================

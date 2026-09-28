@@ -1,0 +1,31 @@
+{
+  "enabled": true,
+  "version": 1,
+  "adopted_at": "2026-09-28T11:12:52.863118+00:00",
+  "generator": "scripts/self_improve.py",
+  "skip_full_expected_bucket": true,
+  "open_buckets_first": true,
+  "why": "목표를 채운 카테고리를 받아 버리는 낭비를 받기 전에 막는다.",
+  "baseline": {
+    "started_at": "2026-09-20T21:36:32.468524+00:00",
+    "requested": 110,
+    "ok": 3,
+    "useful_rate": 0.02727272727272727
+  },
+  "evidence": {
+    "prediction_precision": 0.852,
+    "prediction_samples": 189,
+    "unknown_bucket_beauty_rate": 0.159,
+    "open_slots": {
+      "클렌징": 11,
+      "스킨케어": 1
+    },
+    "fresh_queue": 2408,
+    "expected_useful_baseline": 1.94,
+    "expected_useful_policy": 12,
+    "would_skip_expected_full": 1245,
+    "batch": 110
+  },
+  "observations": [],
+  "rollback_rule": "적용된 실제 실행 2회 연속 기존 적중률 이하면 자동 해제"
+}

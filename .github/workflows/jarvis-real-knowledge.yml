@@ -87,10 +87,10 @@ jobs:
           if [ -f tune_real_knowledge_moe.py ]; then
             python tune_real_knowledge_moe.py \
               --experts 3 \
-              --learning-rates 1.2 \
+              --learning-rates 5.0 \
               --l2-values 0.0001 \
               --temperatures 0.9 \
-              --steps 500 \
+              --steps 300 \
               --promote || echo "tune step soft-failed"
           else
             echo "tune_real_knowledge_moe.py 없음 – 건너뜀"
