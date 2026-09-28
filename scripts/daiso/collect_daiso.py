@@ -2605,6 +2605,72 @@ def load_queue_ids() -> list[str]:
 
 
 # ============================================================
+# SELF-IMPROVE: 받기 전 정책 (scripts/self_improve.py 가 채택·해제)
+#
+# 2026-09-20 실행은 110건을 받아 3건만 남겼다. 75건은 이미 목표 수를
+# 채운 카테고리였다. 큐는 주문 많은 순이라 꽉 찬 메이크업·마스크팩이
+# 앞을 차지했다. 이름으로 본 예상 버킷이 실제와 85% 맞으므로 받기 전에
+# 거를 수 있다.
+#
+# 정책 파일이 없거나 enabled 가 아니면 아무것도 바꾸지 않는다.
+# 거른 상품은 visited 에 넣지 않는다. 목표가 바뀌면 다시 후보가 된다.
+# ============================================================
+
+SOURCING_POLICY = ROOT / "data" / "self_improve" / "sourcing_policy.json"
+
+
+def apply_sourcing_policy(
+    items: list[tuple[str, str]],
+    existing_products: list,
+) -> tuple[list[tuple[str, str]], dict]:
+    policy = load_json(SOURCING_POLICY, {})
+    if not isinstance(policy, dict) or not policy.get("enabled"):
+        return items, {"applied": False}
+
+    queue = load_json(QUEUE, {})
+    expected = {}
+    if isinstance(queue, dict):
+        for row in queue.get("items") or []:
+            if isinstance(row, dict) and row.get("pdNo"):
+                expected[str(row["pdNo"])] = str(row.get("예상버킷") or "")
+
+    counts: dict[str, int] = {}
+    for p in existing_products:
+        if isinstance(p, dict) and p.get("bucket"):
+            counts[p["bucket"]] = counts.get(p["bucket"], 0) + 1
+    open_buckets = {
+        b for b, t in BUCKET_TARGETS.items() if counts.get(b, 0) < t
+    }
+
+    open_first, unknown, rest = [], [], []
+    skipped = 0
+    for item in items:
+        bucket = expected.get(item[0], "")
+        if not bucket:
+            unknown.append(item)
+        elif bucket in open_buckets:
+            open_first.append(item)
+        elif policy.get("skip_full_expected_bucket"):
+            skipped += 1
+        else:
+            rest.append(item)
+
+    if policy.get("open_buckets_first"):
+        ordered = open_first + unknown + rest
+    else:
+        keep = set(open_first) | set(unknown) | set(rest)
+        ordered = [i for i in items if i in keep]
+    return ordered, {
+        "applied": True,
+        "policy_version": policy.get("version"),
+        "open_buckets": sorted(open_buckets),
+        "open_bucket_candidates": len(open_first),
+        "unknown_bucket_candidates": len(unknown),
+        "skipped_expected_full": skipped,
+    }
+
+
+# ============================================================
 # COLLECTION STATS
 # ============================================================
 
@@ -2916,6 +2982,8 @@ def main() -> int:
 
     queue_ids = load_queue_ids()
 
+    prefetch_policy: dict = {"applied": False}
+
     queue_size = len(
         queue_ids
     )
@@ -2972,7 +3040,12 @@ def main() -> int:
         # '큐가 비었다' 와 '큐를 다 봤다' 는 다른 상태다.
         # 전에 이 둘을 같이 다뤄서, 큐를 다 본 경우에 재방문을 못 하고
         # 사이트맵 안내문만 찍고 0건으로 끝났다. 시험 4번이 그걸 잡았다.
-        ordered_items = queued_items
+        ordered_items, prefetch_policy = apply_sourcing_policy(
+            queued_items,
+            existing_products,
+        )
+        if prefetch_policy.get("applied"):
+            print(f"받기 전 정책 적용: {prefetch_policy}")
         url_source = "queue"
 
     else:
@@ -3742,6 +3815,7 @@ def main() -> int:
         "fallback_price_fixed": fallback_price_fixed,
         "skipped_not_beauty": skipped_not_beauty,
         "skipped_bucket_full": skipped_bucket_full,
+        "prefetch_policy": prefetch_policy,
         "skipped_excluded": skipped_excluded,
         "pruned_existing": {},
         # 2026-09-13 이전에는 이 두 칸이 0 과 "sitemap" 로 박혀 있었다.

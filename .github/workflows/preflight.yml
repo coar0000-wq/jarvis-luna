@@ -50,6 +50,7 @@ jobs:
         continue-on-error: true
         run: |
           python scripts/test_build_artifact_graph_mermaid.py
+          python scripts/test_self_improve.py
           python scripts/build_artifact_graph.py --check | tee /tmp/graph.txt
           echo "rc=${PIPESTATUS[0]}" >> $GITHUB_OUTPUT
 

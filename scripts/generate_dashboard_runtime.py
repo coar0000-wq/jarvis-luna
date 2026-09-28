@@ -622,6 +622,13 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
         sold_txt = f" · 품절·판매종료 {sold}건" if sold else ""
         # 받아 놓고 버린 것. 이 값이 크면 후보를 잘못 고르고 있다는 뜻이다.
         notb_txt = f" · 받아보고 뷰티 아니라 버림 {notb}건" if notb else ""
+        # 목표를 채운 카테고리라 버린 것. 2026-09-20 에는 110건 중 75건이었는데
+        # 화면에 없어서 낭비가 안 보였다 (2026-09-28).
+        full = run.get("skipped_bucket_full") or 0
+        notb_txt += f" · 목표 채운 카테고리라 버림 {full}건" if full else ""
+        pp = run.get("prefetch_policy") or {}
+        if pp.get("applied"):
+            notb_txt += f" · 자기개선 정책으로 받기 전 제외 {pp.get('skipped_expected_full', 0)}건"
         # 아예 안 받고 건너뛴 것. 이 값이 커지는 것은 정상이다.
         seen_txt = f" · 이미 판정해서 안 받음 {seen}건" if seen else ""
         src_txt = ((f" · 후보 출처 {src}" + (f", 큐 {qsize}건" if qsize else ""))
@@ -634,17 +641,35 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
         elif ok == 0:
             act = (f'직전 실행 성공 0건 · {fetched}건 받음'
                    + notb_txt + seen_txt + src_txt)
-        elif sold or notb:
+        elif sold or notb or full:
             act = (f'직전 실행 {fetched}건 받아 성공 {ok}건'
                    + sold_txt + notb_txt + seen_txt + src_txt)
         else:
             act = None
 
+        # 수집이 멈춰도 카드가 '양호' 로 남았다 (2026-09-28).
+        # 9-21~9-27 다이소 수집이 매일 검증 단계에서 죽어 발행되지 않았는데
+        # 카드는 지난 값으로 정상처럼 보였다. 마지막 수집이 36시간을 넘으면
+        # 자동조치 대상으로 올린다. 매일 도는 수집이라 36시간이면 한 번 이상 빠진 것이다.
+        stale_act = None
+        fin = run.get("finished_at")
+        try:
+            fin_dt = datetime.fromisoformat(str(fin).replace("Z", "+00:00")) if fin else None
+        except ValueError:
+            fin_dt = None
+        if fin_dt is not None:
+            if fin_dt.tzinfo is None:
+                fin_dt = fin_dt.replace(tzinfo=timezone.utc)
+            age_h = (datetime.now(timezone.utc) - fin_dt).total_seconds() / 3600
+            if age_h > 36:
+                stale_act = (f"다이소 수집이 {age_h / 24:.1f}일째 발행되지 않음 "
+                             f"(마지막 수집 {str(fin)[:10]}) · Daiso Real Product Collection 실행 결과 확인")
+
         cards.append(_team(
             "sourcing", "상품 소싱팀",
             (score or {}).get("generated_at") or (prod or {}).get("updated_at"),
             (f'{n}개 상품 · 등급 {grade}' if grade else f'{n}개 상품') + feed_tail("sourcing"),
-            None,
+            stale_act,
             "ok" if n else "failed",
             notice=act))
     else:
@@ -969,7 +994,11 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
         src_txt = (" · " + " · ".join(bits)) if bits else ""
         cards.append(_team(
             "design", "디자인팀", ds.get("generated_at") or dt.get("generated_at"),
-            f'스토어 {c.get("done", 0)}/{c.get("total", 0)}단계 · 레퍼런스 {refs}건'
+            f'스토어 {c.get("done", 0)}/{c.get("total", 0)}단계'
+            + (f' · 오프라인 초안 {c["draft_done"]}단계' if c.get("draft_done") else "")
+            + f' · 레퍼런스 {refs}건'
+            + (f' (관련 {round(100 * q["relevant_ratio"])}%)'
+               if (q := ((dt.get("references") or {}).get("quality") or {})).get("relevant_ratio") is not None else "")
             + src_txt + feed_tail("design"),
             None,
             "ok",
@@ -1083,6 +1112,12 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
         + (f' · 개인 노트 {personal:,}건 별도' if personal else '')
         + (f' · 경고 통과(임계 {graph.get("dangling_warn_threshold", 300)})' if audit_ok and dang else '')
     )
+    # 자기개선 루프(scripts/self_improve.py)의 미분류 지표
+    si_topics = ((load_json(D / "self_improve" / "status.json", {}) or {}).get("loops") or {}).get("topics") or {}
+    if si_topics.get("before") is not None:
+        graph_summary += (f' · 미분류 {100 * si_topics["before"]:.1f}%'
+                          + (f' · 학습 키워드 {si_topics["learned_keywords"]}개'
+                             if si_topics.get("learned_keywords") else ''))
     cards.append(_team(
         "graph", "옵시디언 그래프", graph.get("last_generated"),
         graph_summary,

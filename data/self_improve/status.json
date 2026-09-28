@@ -1,0 +1,180 @@
+{
+  "generated_at": "2026-09-28T11:12:52.865869+00:00",
+  "generator": "scripts/self_improve.py",
+  "principle": "무료·설정만 변경·그림자 평가 후 채택·실측 악화 시 자동 롤백",
+  "loops": {
+    "topics": {
+      "metric": "uncategorized_rate",
+      "records": 5041,
+      "base_uncategorized": 675,
+      "before": 0.1339,
+      "after_shadow": 0.0853,
+      "uncategorized_before": 675,
+      "uncategorized_after_shadow": 430,
+      "adopted": 9,
+      "learned_keywords": 9,
+      "decisions": [
+        {
+          "loop": "topics",
+          "action": "adopt",
+          "keyword": "리뷰",
+          "topic": "뷰티·스킨케어",
+          "precision": 0.968,
+          "support": 124,
+          "uncategorized_hits": 176,
+          "source": "us_beauty",
+          "source_fit": 0.908,
+          "newly_classified": 176
+        },
+        {
+          "loop": "topics",
+          "action": "adopt",
+          "keyword": "skin",
+          "topic": "뷰티·스킨케어",
+          "precision": 0.965,
+          "support": 171,
+          "uncategorized_hits": 48,
+          "source": "us_beauty",
+          "source_fit": 0.908,
+          "newly_classified": 25
+        },
+        {
+          "loop": "topics",
+          "action": "adopt",
+          "keyword": "moisturizer",
+          "topic": "뷰티·스킨케어",
+          "precision": 0.857,
+          "support": 14,
+          "uncategorized_hits": 21,
+          "source": "us_beauty",
+          "source_fit": 0.908,
+          "newly_classified": 8
+        },
+        {
+          "loop": "topics",
+          "action": "adopt",
+          "keyword": "korean",
+          "topic": "뷰티·스킨케어",
+          "precision": 0.933,
+          "support": 179,
+          "uncategorized_hits": 13,
+          "source": "google",
+          "source_fit": 0.656,
+          "newly_classified": 9
+        },
+        {
+          "loop": "topics",
+          "action": "adopt",
+          "keyword": "spf",
+          "topic": "뷰티·스킨케어",
+          "precision": 0.889,
+          "support": 9,
+          "uncategorized_hits": 13,
+          "source": "us_beauty",
+          "source_fit": 0.908,
+          "newly_classified": 11
+        },
+        {
+          "loop": "topics",
+          "action": "adopt",
+          "keyword": "hydrating",
+          "topic": "뷰티·스킨케어",
+          "precision": 1.0,
+          "support": 27,
+          "uncategorized_hits": 9,
+          "source": "us_beauty",
+          "source_fit": 0.908,
+          "newly_classified": 5
+        },
+        {
+          "loop": "topics",
+          "action": "adopt",
+          "keyword": "olive",
+          "topic": "뷰티·스킨케어",
+          "precision": 1.0,
+          "support": 30,
+          "uncategorized_hits": 7,
+          "source": "google",
+          "source_fit": 0.656,
+          "newly_classified": 5
+        },
+        {
+          "loop": "topics",
+          "action": "adopt",
+          "keyword": "pdrn",
+          "topic": "뷰티·스킨케어",
+          "precision": 0.875,
+          "support": 16,
+          "uncategorized_hits": 7,
+          "source": "us_beauty",
+          "source_fit": 0.908,
+          "newly_classified": 3
+        },
+        {
+          "loop": "topics",
+          "action": "adopt",
+          "keyword": "glow",
+          "topic": "뷰티·스킨케어",
+          "precision": 1.0,
+          "support": 21,
+          "uncategorized_hits": 6,
+          "source": "us_beauty",
+          "source_fit": 0.908,
+          "newly_classified": 3
+        }
+      ],
+      "status": "adopted"
+    },
+    "sourcing": {
+      "metric": "useful_fetch_rate",
+      "before": 0.02727272727272727,
+      "policy_enabled": true,
+      "evidence": {
+        "prediction_precision": 0.852,
+        "prediction_samples": 189,
+        "unknown_bucket_beauty_rate": 0.159,
+        "open_slots": {
+          "클렌징": 11,
+          "스킨케어": 1
+        },
+        "fresh_queue": 2408,
+        "expected_useful_baseline": 1.94,
+        "expected_useful_policy": 12,
+        "would_skip_expected_full": 1245,
+        "batch": 110
+      },
+      "decisions": [
+        {
+          "loop": "sourcing",
+          "action": "adopt",
+          "prediction_precision": 0.852,
+          "prediction_samples": 189,
+          "unknown_bucket_beauty_rate": 0.159,
+          "open_slots": {
+            "클렌징": 11,
+            "스킨케어": 1
+          },
+          "fresh_queue": 2408,
+          "expected_useful_baseline": 1.94,
+          "expected_useful_policy": 12,
+          "would_skip_expected_full": 1245,
+          "batch": 110
+        }
+      ],
+      "status": "adopt"
+    },
+    "design": {
+      "metric": "reference_relevant_ratio",
+      "before": 0.435,
+      "relevant": 37,
+      "items": 85,
+      "feed_caps": {},
+      "offline_drafts": 2,
+      "store_done": 2,
+      "steps_total": 12,
+      "decisions": [],
+      "status": "no_change"
+    }
+  },
+  "decisions_total": 10
+}
