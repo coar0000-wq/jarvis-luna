@@ -52,6 +52,21 @@ def clean_rp(doc: Any) -> dict[str, str]:
             for field in RP_FIELDS}
 
 
+MASK = "(비공개 보관)"
+
+
+def rp_presence(local: dict[str, str]) -> dict[str, str]:
+    """책임자 실값은 공개 산출물에 쓰지 않는다 (2026-09-28).
+
+    legal_full.json 은 공개 저장소에 올라간다. 이름·이메일·전화를 그대로 적으면
+    개인정보가 공개된다. 로컬 비공개 파일이나 공개용 상태 파일로 '입력됨'만
+    확인하고, 값 자리에는 MASK 를 둔다. 실제 라벨 인쇄는 로컬 파일을 직접 읽는다.
+    """
+    status = load(D / "manual" / "legal_rp_status.json", {}) or {}
+    fields = status.get("fields") or {}
+    return {f: MASK if (local.get(f) or fields.get(f) is True) else "" for f in RP_FIELDS}
+
+
 def split_inci(value: str) -> list[str]:
     """숫자 안의 쉼표(예: 1,2-Hexanediol)는 성분 구분자로 보지 않는다."""
     return [x.strip() for x in re.split(r"(?<!\d),(?!\d)", value or "") if x.strip()]
@@ -65,7 +80,7 @@ def main() -> int:
     labels = rows_by_id(load(D / "daiso_real" / "daiso_us_labels.json", {}))
     legal = rows_by_id(load(D / "legal_products.json", {}))
     copies = rows_by_id(load(D / "shopify_listing_copy.json", {}))
-    responsible = clean_rp(load(D / "manual" / "legal_responsible_person.json", {}))
+    responsible = rp_presence(clean_rp(load(D / "manual" / "legal_responsible_person.json", {})))
     overrides_doc = load(D / "manual" / "legal_product_overrides.json", {}) or {}
     overrides = overrides_doc.get("items", overrides_doc) if isinstance(overrides_doc, dict) else {}
     previous = load(OUT, {}) or {}
@@ -99,7 +114,7 @@ def main() -> int:
         warnings_raw = override.get("warnings") or us.get("warnings_en")
         warnings = warnings_raw if real(warnings_raw) else ""
         item_rp = responsible.copy()
-        item_rp.update({k: v for k, v in clean_rp(override.get("responsible_person", {})).items() if v})
+        item_rp.update({k: MASK for k, v in clean_rp(override.get("responsible_person", {})).items() if v})
 
         blockers = []
         if not identity:
