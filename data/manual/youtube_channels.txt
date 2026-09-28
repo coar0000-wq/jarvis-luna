@@ -8,3 +8,17 @@ https://www.youtube.com/@uxpeak | design | UX/UI 리디자인·전환율 (사용
 https://www.youtube.com/@%EB%95%A1%ED%81%90%EC%B1%84%EB%84%90 |  | 땡스큐레이터 - 스몰 브랜드 브랜딩·수출·견적. 팀은 영상마다 자동 분류
 https://www.youtube.com/@learnwithshopify | market,listing,design | Shopify 공식 - 마케팅·전환·스토어 운영
 https://www.youtube.com/@shopify | market | Shopify 본채널 - 브랜드 성장 사례
+
+# 2026-09-28 모든 팀이 영상으로 배우도록 공식 채널을 팀마다 붙였다.
+# 채널 페이지(robots.txt 허용 경로)를 직접 열어 실재와 이름을 확인했다.
+https://www.youtube.com/@BostonDynamics | robotics | Boston Dynamics 공식
+https://www.youtube.com/@unitreerobotics | robotics | Unitree Robotics 공식
+https://www.youtube.com/@NVIDIA | institutions | NVIDIA 공식
+https://www.youtube.com/@GoogleDeepMind | institutions | Google DeepMind 공식
+https://www.youtube.com/@GoldmanSachs | institutions | Goldman Sachs 공식
+https://www.youtube.com/@TwoMinutePapers | knowledge | 최신 AI 논문 해설
+https://www.youtube.com/@AIExplained-official | knowledge | AI 모델·연구 해설
+https://www.youtube.com/@AmazonSellerUniversity | channels | Amazon 셀러 공식 교육
+https://www.youtube.com/@US_FDA | legal | U.S. FDA 공식 (화장품·MoCRA)
+https://www.youtube.com/@linkingyourthinking | graph | Obsidian·개인 지식관리(PKM)
+https://www.youtube.com/@Flexport | pricing | Flexport 공식 - 관세·국제 물류 비용

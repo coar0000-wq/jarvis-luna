@@ -78,6 +78,16 @@ TEAM_TERMS: dict[str, list[str]] = {
         "수출", "통관", "관세", "규제", "라벨", "성분표시",
         "kc인증", "안전인증", "수입인증", "인증기관",
     ],
+    # 2026-09-28 모든 팀이 영상으로 배우게 로보틱스·채널 운영 낱말을 넣었다.
+    # 기관·그래프 팀은 낱말로 고르지 않고 사람이 지정한 채널로만 받는다.
+    "robotics": [
+        "robot", "robots", "robotics", "humanoid", "humanoids", "embodied", "quadruped", "manipulation",
+        "로봇", "휴머노이드",
+    ],
+    "channels": [
+        "amazon seller", "seller central", "fba", "tiktok shop", "walmart marketplace",
+        "marketplace", "오픈마켓", "스마트스토어", "쿠팡", "셀러",
+    ],
     "sourcing": [
         "daiso", "sourcing", "supplier", "wholesale",
         "다이소", "화장품", "뷰티", "스킨케어", "소싱", "도매", "사입",
@@ -90,7 +100,7 @@ TEAM_TERMS: dict[str, list[str]] = {
 # 나중에 팀 자료를 열었을 때 쓸 게 없다.
 NOISE_TERMS = ("브이로그", "vlog", "호캉스", "먹방")
 
-KNOWN_TEAMS = set(TEAM_TERMS) | {"knowledge"}
+KNOWN_TEAMS = set(TEAM_TERMS) | {"knowledge", "institutions", "graph"}
 
 
 def _matcher(term: str):
@@ -124,4 +134,26 @@ def route(text: str, forced: list[str] | str | None = None) -> list[str]:
     if any(m(low) for m in _NOISE_MATCHERS):
         return ["knowledge"]
     hit = [t for t, ms in _TEAM_MATCHERS.items() if any(m(low) for m in ms)]
-    return hit or ["knowledge"]
+    if hit:
+        return hit
+    # 낱말이 하나도 안 걸리면 MoE 팀 배정기에 묻는다 (2026-09-28).
+    # 검증 정밀도 0.80 이상인 팀으로, 확률 0.60 이상일 때만 쓴다.
+    # 모델이 없거나 numpy 가 없는 환경이면 예전처럼 knowledge 로 둔다.
+    guess = moe_team(text)
+    return [guess] if guess else ["knowledge"]
+
+
+def moe_team(text: str) -> str | None:
+    try:
+        import sys
+        from pathlib import Path
+        here = str(Path(__file__).resolve().parent)
+        if here not in sys.path:
+            sys.path.insert(0, here)
+        from team_router_moe import predict
+        out = predict([text or ""])
+    except Exception:
+        return None
+    if out and out[0].get("usable"):
+        return out[0]["team"]
+    return None

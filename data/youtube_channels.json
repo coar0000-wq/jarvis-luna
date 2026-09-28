@@ -1,24 +1,88 @@
 {
-  "generated_at": "2026-09-28T10:32:20.549522+00:00",
+  "generated_at": "2026-09-28T12:08:47.405451+00:00",
   "generator": "scripts/ingest_youtube_channels.py",
-  "입력": "data/manual/youtube_channels.txt",
+  "입력": "data\\manual\\youtube_channels.txt",
   "robots": "youtube.com/robots.txt 의 Disallow 목록에 /@ 와 /channel/ 은 없다. 막힌 것은 /feeds/videos.xml, /results, /youtubei/ 등이다. 지정된 채널만 하나씩 본다. 2026-09-06 확인.",
-  "channels": 4,
-  "videos": 102,
+  "channels": 15,
+  "videos": 432,
   "failed": [],
   "지난결과_유지": [],
   "by_team": {
     "design": 56,
     "market": 71,
-    "pricing": 2,
-    "knowledge": 6,
-    "legal": 1,
+    "pricing": 32,
+    "knowledge": 66,
+    "legal": 31,
     "sourcing": 1,
-    "listing": 30
+    "listing": 30,
+    "robotics": 60,
+    "institutions": 90,
+    "channels": 30,
+    "graph": 30
   },
   "팀_고정": "한 번 정한 팀은 유지한다. 유튜브가 제목을 A/B 로 돌려서 같은 영상이 회차마다 다른 팀으로 가는 일이 있었다.",
   "제목_바뀐_영상": [],
   "top_by_views": [
+    {
+      "video_id": "eQpyvR-B7hc",
+      "title": "Unitree Kung Fu Bot   Pray for Blessings at the Temple of Heaven: Wish Everyone All the Best",
+      "views_text": "27M",
+      "published_text": "7mo ago",
+      "views": 27000000,
+      "url": "https://www.youtube.com/watch?v=eQpyvR-B7hc",
+      "channel": "Unitree Robotics",
+      "teams": [
+        "robotics"
+      ]
+    },
+    {
+      "video_id": "1ONE4l_pgHw",
+      "title": "Unitree Introducing | Unitree As2  Your Companion",
+      "views_text": "23M",
+      "published_text": "7mo ago",
+      "views": 23000000,
+      "url": "https://www.youtube.com/watch?v=1ONE4l_pgHw",
+      "channel": "Unitree Robotics",
+      "teams": [
+        "robotics"
+      ]
+    },
+    {
+      "video_id": "oWOyUMJWptc",
+      "title": "Unitree Unveils: GD01, A Manned Transformable Mecha, from $650,000",
+      "views_text": "22M",
+      "published_text": "4mo ago",
+      "views": 22000000,
+      "url": "https://www.youtube.com/watch?v=oWOyUMJWptc",
+      "channel": "Unitree Robotics",
+      "teams": [
+        "robotics"
+      ]
+    },
+    {
+      "video_id": "srPz8TRpZ_8",
+      "title": "Heard some people like wheels？😁",
+      "views_text": "21M",
+      "published_text": "5mo ago",
+      "views": 21000000,
+      "url": "https://www.youtube.com/watch?v=srPz8TRpZ_8",
+      "channel": "Unitree Robotics",
+      "teams": [
+        "robotics"
+      ]
+    },
+    {
+      "video_id": "zoMDadPQLKA",
+      "title": "10m/s!! Unitree Breaks the World Record Again😊",
+      "views_text": "15M",
+      "published_text": "5mo ago",
+      "views": 15000000,
+      "url": "https://www.youtube.com/watch?v=zoMDadPQLKA",
+      "channel": "Unitree Robotics",
+      "teams": [
+        "robotics"
+      ]
+    },
     {
       "video_id": "m_RWLfHCA2I",
       "title": "Entrepreneurs: we're built different",
@@ -32,178 +96,118 @@
       ]
     },
     {
-      "video_id": "ZXpm1X7-PFM",
-      "title": "Shopify on Sphere in Las Vegas",
-      "views_text": "2.1M",
-      "published_text": "9mo ago",
-      "views": 2100000,
-      "url": "https://www.youtube.com/watch?v=ZXpm1X7-PFM",
-      "channel": "Shopify",
+      "video_id": "B-a8TB8ttII",
+      "title": "Voice‑driven, real‑time arbitrary action generation😁",
+      "views_text": "12M",
+      "published_text": "4mo ago",
+      "views": 12000000,
+      "url": "https://www.youtube.com/watch?v=B-a8TB8ttII",
+      "channel": "Unitree Robotics",
       "teams": [
-        "market"
+        "robotics"
       ]
     },
     {
-      "video_id": "6lSvKk7lTl0",
-      "title": "Horizontal and Vertical Scroll in Figma - Quick Prototyping Tutorial",
-      "views_text": "778K",
-      "published_text": "3y ago",
-      "views": 778000,
-      "url": "https://www.youtube.com/watch?v=6lSvKk7lTl0",
-      "channel": "uxpeak",
-      "teams": [
-        "design"
-      ]
-    },
-    {
-      "video_id": "xgk5N4rCJIw",
-      "title": "3D Carousel in Figma Using Smart Animate | Prototyping Tutorial",
-      "views_text": "542K",
-      "published_text": "3y ago",
-      "views": 542000,
-      "url": "https://www.youtube.com/watch?v=xgk5N4rCJIw",
-      "channel": "uxpeak",
-      "teams": [
-        "design"
-      ]
-    },
-    {
-      "video_id": "2TlIg3VokY8",
-      "title": "The UX Psychology Behind Apps People Can’t Stop Using",
-      "views_text": "540K",
+      "video_id": "Xha2TJ_1C6Q",
+      "title": "Unitree Super Athlete AS2-W",
+      "views_text": "11M",
       "published_text": "2mo ago",
-      "views": 540000,
-      "url": "https://www.youtube.com/watch?v=2TlIg3VokY8",
-      "channel": "uxpeak",
+      "views": 11000000,
+      "url": "https://www.youtube.com/watch?v=Xha2TJ_1C6Q",
+      "channel": "Unitree Robotics",
       "teams": [
-        "design"
+        "robotics"
       ]
     },
     {
-      "video_id": "IKQg1JCx5uY",
-      "title": "캐리어 구매 체크리스트👍 ! 이것만 알면 된다!😍 여행용✈ 캐리어👜 브랜드 Top3 추천👍! 리모와라고 다 좋은게 아니다?!",
-      "views_text": "492K",
-      "published_text": "6y ago",
-      "views": 492000,
-      "url": "https://www.youtube.com/watch?v=IKQg1JCx5uY",
-      "channel": "땡스큐레이터",
+      "video_id": "mTMYfVD4zCw",
+      "title": "Unitree R1 | Price from $4,900, Ready Stock",
+      "views_text": "11M",
+      "published_text": "3mo ago",
+      "views": 11000000,
+      "url": "https://www.youtube.com/watch?v=mTMYfVD4zCw",
+      "channel": "Unitree Robotics",
       "teams": [
-        "market"
+        "robotics"
       ]
     },
     {
-      "video_id": "GGg61sdEjeI",
-      "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
-      "views_text": "387K",
-      "published_text": "1mo ago",
-      "views": 387000,
-      "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
-      "channel": "uxpeak",
+      "video_id": "pN_bj5-QyW8",
+      "title": "Unitree Open‑Source: High‑Quality Real‑Robot Dataset for Humanoid Robots",
+      "views_text": "11M",
+      "published_text": "6mo ago",
+      "views": 11000000,
+      "url": "https://www.youtube.com/watch?v=pN_bj5-QyW8",
+      "channel": "Unitree Robotics",
       "teams": [
-        "design"
+        "robotics"
       ]
     },
     {
-      "video_id": "BZ0QER_0ZWI",
-      "title": "UI Design Trends Everyone Is Talking About",
-      "views_text": "370K",
-      "published_text": "3y ago",
-      "views": 370000,
-      "url": "https://www.youtube.com/watch?v=BZ0QER_0ZWI",
-      "channel": "uxpeak",
+      "video_id": "RBvaL5NEoPE",
+      "title": "EXTENDED CUT: Everything New in Obsidian! October 2025 (Groups, Summaries, List View)",
+      "views_text": "11mo ago",
+      "published_text": "",
+      "views": 11000000,
+      "url": "https://www.youtube.com/watch?v=RBvaL5NEoPE",
+      "channel": "Linking Your Thinking with Nick Milo",
       "teams": [
-        "design"
+        "graph"
       ]
     },
     {
-      "video_id": "8pMUkEbAM7g",
-      "title": "Top 5 UX/UI Design Tips and Tricks Every Designer Needs to Know About, part 1",
-      "views_text": "273K",
-      "published_text": "2y ago",
-      "views": 273000,
-      "url": "https://www.youtube.com/watch?v=8pMUkEbAM7g",
-      "channel": "uxpeak",
+      "video_id": "zql7E09r7yA",
+      "title": "EXTENDED CUT: Deep-Dive into 10 Digital Tools I Use Daily",
+      "views_text": "11mo ago",
+      "published_text": "",
+      "views": 11000000,
+      "url": "https://www.youtube.com/watch?v=zql7E09r7yA",
+      "channel": "Linking Your Thinking with Nick Milo",
       "teams": [
-        "design"
+        "graph"
       ]
     },
     {
-      "video_id": "YlN28RNChl0",
-      "title": "This Video Will Take You From Junior to Senior UX/UI Designer",
-      "views_text": "255K",
-      "published_text": "1y ago",
-      "views": 255000,
-      "url": "https://www.youtube.com/watch?v=YlN28RNChl0",
-      "channel": "uxpeak",
+      "video_id": "24h4FTH7plY",
+      "title": "Embodied Avatar: Full-body Teleoperation Platform",
+      "views_text": "10M",
+      "published_text": "10mo ago",
+      "views": 10000000,
+      "url": "https://www.youtube.com/watch?v=24h4FTH7plY",
+      "channel": "Unitree Robotics",
       "teams": [
-        "design"
+        "robotics"
       ]
     },
     {
-      "video_id": "5cqpf1rdeFc",
-      "title": "Create a 3D Animated Website with Figma & Dora - No Code Required",
-      "views_text": "251K",
-      "published_text": "3y ago",
-      "views": 251000,
-      "url": "https://www.youtube.com/watch?v=5cqpf1rdeFc",
-      "channel": "uxpeak",
+      "video_id": "KAYuqH7igfY",
+      "title": "SNEAK PEEK: How the Ideaverse in Obsidian is evolving (PRIVATE)",
+      "views_text": "10mo ago",
+      "published_text": "",
+      "views": 10000000,
+      "url": "https://www.youtube.com/watch?v=KAYuqH7igfY",
+      "channel": "Linking Your Thinking with Nick Milo",
       "teams": [
-        "design"
+        "graph"
       ]
     },
     {
-      "video_id": "kDpckwYZgZI",
-      "title": "Shopify Editions Winter ’26 | Trailer",
-      "views_text": "218K",
-      "published_text": "9mo ago",
-      "views": 218000,
-      "url": "https://www.youtube.com/watch?v=kDpckwYZgZI",
-      "channel": "Shopify",
+      "video_id": "9TQ41CxG8pA",
+      "title": "Obsidian Triad: Properties, Bases, Workspaces (Behind the Scenes)",
+      "views_text": "10mo ago",
+      "published_text": "",
+      "views": 10000000,
+      "url": "https://www.youtube.com/watch?v=9TQ41CxG8pA",
+      "channel": "Linking Your Thinking with Nick Milo",
       "teams": [
-        "market"
-      ]
-    },
-    {
-      "video_id": "wLJ40GV2XEc",
-      "title": "Top UI/UX Design Tips - How to Design a Great Bottom Mobile Navigation Bar",
-      "views_text": "216K",
-      "published_text": "1y ago",
-      "views": 216000,
-      "url": "https://www.youtube.com/watch?v=wLJ40GV2XEc",
-      "channel": "uxpeak",
-      "teams": [
-        "design"
-      ]
-    },
-    {
-      "video_id": "SIoOS6tFw1Y",
-      "title": "UX/UI Design Tutorial in Figma  - Design Modern Website from Scratch",
-      "views_text": "210K",
-      "published_text": "2y ago",
-      "views": 210000,
-      "url": "https://www.youtube.com/watch?v=SIoOS6tFw1Y",
-      "channel": "uxpeak",
-      "teams": [
-        "design"
-      ]
-    },
-    {
-      "video_id": "rI4A7whqvgo",
-      "title": "Animated Navigation Bar in Figma - Prototyping Tutorial",
-      "views_text": "192K",
-      "published_text": "3y ago",
-      "views": 192000,
-      "url": "https://www.youtube.com/watch?v=rI4A7whqvgo",
-      "channel": "uxpeak",
-      "teams": [
-        "design"
+        "graph"
       ]
     }
   ],
   "items": [
     {
       "stale": false,
-      "last_ok_at": "2026-09-28T10:31:59.452703+00:00",
+      "last_ok_at": "2026-09-28T12:07:24.645821+00:00",
       "url": "https://www.youtube.com/@uxpeak",
       "note": "UX/UI 리디자인·전환율 (사용자 지정)",
       "team_hint": "design",
@@ -212,11 +216,11 @@
       "subscribers": "128K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-28T10:31:59.452729+00:00",
+      "checked_at": "2026-09-28T12:07:24.645832+00:00",
       "videos": [
         {
           "video_id": "GGg61sdEjeI",
-          "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
+          "title": "This UI/UX Redesign Will Teach You More Than Figma 100 Tutorials Combined",
           "views_text": "387K",
           "published_text": "1mo ago",
           "views": 387000,
@@ -301,9 +305,9 @@
         {
           "video_id": "YlN28RNChl0",
           "title": "This Video Will Take You From Junior to Senior UX/UI Designer",
-          "views_text": "255K",
+          "views_text": "256K",
           "published_text": "1y ago",
-          "views": 255000,
+          "views": 256000,
           "url": "https://www.youtube.com/watch?v=YlN28RNChl0",
           "channel": "uxpeak",
           "teams": [
@@ -470,16 +474,16 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-28T10:32:04.840733+00:00",
+      "last_ok_at": "2026-09-28T12:07:30.103711+00:00",
       "url": "https://www.youtube.com/@%EB%95%A1%ED%81%90%EC%B1%84%EB%84%90",
       "note": "땡스큐레이터 - 스몰 브랜드 브랜딩·수출·견적. 팀은 영상마다 자동 분류",
       "team_hint": "",
       "channel_name": "땡스큐레이터",
       "channel_id": "UCTBhYGg_U_pBOKLydoZrhwg",
-      "subscribers": "19.6K",
+      "subscribers": "19.7K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-28T10:32:04.840750+00:00",
+      "checked_at": "2026-09-28T12:07:30.103723+00:00",
       "videos": [
         {
           "video_id": "hikTGKo2kZE",
@@ -657,9 +661,9 @@
         {
           "video_id": "4ru4xgZfDPA",
           "title": "VLOG 직장인 브이로그ㅣ 연남동 퇴근길😍 콤콤오락실,달링스푼,스튜디오그림비,오월상점,소이연남,동백양과점,소품샵,카페투어ㅣ퇴근길 브이로그❤️",
-          "views_text": "587",
+          "views_text": "588",
           "published_text": "6y ago",
-          "views": 587,
+          "views": 588,
           "url": "https://www.youtube.com/watch?v=4ru4xgZfDPA",
           "channel": "땡스큐레이터",
           "teams": [
@@ -742,7 +746,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-28T10:32:10.166408+00:00",
+      "last_ok_at": "2026-09-28T12:07:35.566380+00:00",
       "url": "https://www.youtube.com/@learnwithshopify",
       "note": "Shopify 공식 - 마케팅·전환·스토어 운영",
       "team_hint": "market,listing,design",
@@ -751,7 +755,7 @@
       "subscribers": "909K",
       "video_count": 30,
       "error": "",
-      "checked_at": "2026-09-28T10:32:10.166428+00:00",
+      "checked_at": "2026-09-28T12:07:35.566391+00:00",
       "videos": [
         {
           "video_id": "nIOn_726Rxk",
@@ -1177,7 +1181,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-28T10:32:15.549247+00:00",
+      "last_ok_at": "2026-09-28T12:07:42.257512+00:00",
       "url": "https://www.youtube.com/@shopify",
       "note": "Shopify 본채널 - 브랜드 성장 사례",
       "team_hint": "market",
@@ -1186,7 +1190,7 @@
       "subscribers": "489K",
       "video_count": 30,
       "error": "",
-      "checked_at": "2026-09-28T10:32:15.549266+00:00",
+      "checked_at": "2026-09-28T12:07:42.257523+00:00",
       "videos": [
         {
           "video_id": "KsujQDvKdHk",
@@ -1546,6 +1550,4131 @@
           "channel": "Shopify",
           "teams": [
             "market"
+          ]
+        }
+      ]
+    },
+    {
+      "stale": false,
+      "last_ok_at": "2026-09-28T12:07:47.725214+00:00",
+      "url": "https://www.youtube.com/@BostonDynamics",
+      "note": "Boston Dynamics 공식",
+      "team_hint": "robotics",
+      "channel_name": "Boston Dynamics",
+      "channel_id": "UC7vVhkEfw4nOGp8TyDk7RcQ",
+      "subscribers": "3.43M",
+      "video_count": 30,
+      "error": "",
+      "checked_at": "2026-09-28T12:07:47.725227+00:00",
+      "videos": [
+        {
+          "video_id": "KywMP9_SyRg",
+          "title": "Spot at Mariana Minerals | Boston Dynamics",
+          "views_text": "72K",
+          "published_text": "2mo ago",
+          "views": 72000,
+          "url": "https://www.youtube.com/watch?v=KywMP9_SyRg",
+          "channel": "Boston Dynamics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "cCNkgD3qXvg",
+          "title": "Atlas' Journey to FIFA World Cup 2026™ | Boston Dynamics",
+          "views_text": "66K",
+          "published_text": "2mo ago",
+          "views": 66000,
+          "url": "https://www.youtube.com/watch?v=cCNkgD3qXvg",
+          "channel": "Boston Dynamics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "EI1zFxLVkrs",
+          "title": "Going the Extra Mile with Spot | Boston Dynamics",
+          "views_text": "78K",
+          "published_text": "2mo ago",
+          "views": 78000,
+          "url": "https://www.youtube.com/watch?v=EI1zFxLVkrs",
+          "channel": "Boston Dynamics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "tw0uJ1T5bzE",
+          "title": "Viking Row | Atlas | Boston Dynamics",
+          "views_text": "206K",
+          "published_text": "2mo ago",
+          "views": 206000,
+          "url": "https://www.youtube.com/watch?v=tw0uJ1T5bzE",
+          "channel": "Boston Dynamics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "em5RQCq5zyc",
+          "title": "Spot at Coca-Cola Europacific Partners | Boston Dynamics",
+          "views_text": "40K",
+          "published_text": "2mo ago",
+          "views": 40000,
+          "url": "https://www.youtube.com/watch?v=em5RQCq5zyc",
+          "channel": "Boston Dynamics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "ezPLXk78Cfk",
+          "title": "Atlas at the FIFA World Cup 2026™",
+          "views_text": "172K",
+          "published_text": "2mo ago",
+          "views": 172000,
+          "url": "https://www.youtube.com/watch?v=ezPLXk78Cfk",
+          "channel": "Boston Dynamics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "qYy-BwBpxBI",
+          "title": "School of Football | Making Of | Boston Dynamics x Hyundai",
+          "views_text": "70K",
+          "published_text": "3mo ago",
+          "views": 70000,
+          "url": "https://www.youtube.com/watch?v=qYy-BwBpxBI",
+          "channel": "Boston Dynamics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "V1Lxp-Q6Y9g",
+          "title": "School of Football | The Ghost Rabona | Boston Dynamics x Hyundai",
+          "views_text": "151K",
+          "published_text": "3mo ago",
+          "views": 151000,
+          "url": "https://www.youtube.com/watch?v=V1Lxp-Q6Y9g",
+          "channel": "Boston Dynamics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "mCcv90sUNbY",
+          "title": "School of Football | The Rabona | Boston Dynamics x Hyundai",
+          "views_text": "330K",
+          "published_text": "3mo ago",
+          "views": 330000,
+          "url": "https://www.youtube.com/watch?v=mCcv90sUNbY",
+          "channel": "Boston Dynamics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "kc-9GQB8EXQ",
+          "title": "School of Football | The Kicks | Boston Dynamics x Hyundai",
+          "views_text": "95K",
+          "published_text": "4mo ago",
+          "views": 95000,
+          "url": "https://www.youtube.com/watch?v=kc-9GQB8EXQ",
+          "channel": "Boston Dynamics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "ITCklufC25Y",
+          "title": "School of Football | The Basics | Boston Dynamics x Hyundai",
+          "views_text": "159K",
+          "published_text": "4mo ago",
+          "views": 159000,
+          "url": "https://www.youtube.com/watch?v=ITCklufC25Y",
+          "channel": "Boston Dynamics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "qaqzZK7ZrZk",
+          "title": "School of Football | Can football teach a robot to move? | Boston Dynamics x Hyundai",
+          "views_text": "143K",
+          "published_text": "4mo ago",
+          "views": 143000,
+          "url": "https://www.youtube.com/watch?v=qaqzZK7ZrZk",
+          "channel": "Boston Dynamics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "xKK5ze3FukQ",
+          "title": "How does Atlas learn? | Inside the Lab | Boston Dynamics",
+          "views_text": "959K",
+          "published_text": "4mo ago",
+          "views": 959000,
+          "url": "https://www.youtube.com/watch?v=xKK5ze3FukQ",
+          "channel": "Boston Dynamics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "3aQWvdCac9o",
+          "title": "Atlas, can you bring me a drink? | Boston Dynamics",
+          "views_text": "364K",
+          "published_text": "4mo ago",
+          "views": 364000,
+          "url": "https://www.youtube.com/watch?v=3aQWvdCac9o",
+          "channel": "Boston Dynamics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "kBwxmlI2yHQ",
+          "title": "Smarter Inspections Powered by Google Gemini Robotics | Boston Dynamics",
+          "views_text": "83K",
+          "published_text": "5mo ago",
+          "views": 83000,
+          "url": "https://www.youtube.com/watch?v=kBwxmlI2yHQ",
+          "channel": "Boston Dynamics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "LP4-c5AK30g",
+          "title": "The To Do List with Spot | Boston Dynamics",
+          "views_text": "300K",
+          "published_text": "5mo ago",
+          "views": 300000,
+          "url": "https://www.youtube.com/watch?v=LP4-c5AK30g",
+          "channel": "Boston Dynamics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "wL0-Pu_8F0U",
+          "title": "Form & Function of Enterprise Humanoid Design | Boston Dynamics Tech Talk | Atlas",
+          "views_text": "154K",
+          "published_text": "6mo ago",
+          "views": 154000,
+          "url": "https://www.youtube.com/watch?v=wL0-Pu_8F0U",
+          "channel": "Boston Dynamics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "mH4NLGI64MM",
+          "title": "ST Engineering MRAS | Boston Dynamics",
+          "views_text": "117K",
+          "published_text": "7mo ago",
+          "views": 117000,
+          "url": "https://www.youtube.com/watch?v=mH4NLGI64MM",
+          "channel": "Boston Dynamics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "UNorxwlZlFk",
+          "title": "Atlas Airborne | Boston Dynamics & @rai-inst",
+          "views_text": "Boston Dynamics",
+          "published_text": "and RAI Institute",
+          "views": null,
+          "url": "https://www.youtube.com/watch?v=UNorxwlZlFk",
+          "channel": "Boston Dynamics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "de06_CLqrM0",
+          "title": "Spot Cam 2  | Boston Dynamics",
+          "views_text": "138K",
+          "published_text": "8mo ago",
+          "views": 138000,
+          "url": "https://www.youtube.com/watch?v=de06_CLqrM0",
+          "channel": "Boston Dynamics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "rrUHZKlrxms",
+          "title": "Atlas | Product Features | Boston Dynamics",
+          "views_text": "560K",
+          "published_text": "8mo ago",
+          "views": 560000,
+          "url": "https://www.youtube.com/watch?v=rrUHZKlrxms",
+          "channel": "Boston Dynamics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "sd8ivhpjI6g",
+          "title": "The Beginning of Your Tomorrow I Boston Dynamics",
+          "views_text": "647K",
+          "published_text": "8mo ago",
+          "views": 647000,
+          "url": "https://www.youtube.com/watch?v=sd8ivhpjI6g",
+          "channel": "Boston Dynamics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "vbLd_nq0_7A",
+          "title": "Happy Holidays from Boston Dynamics | 2025",
+          "views_text": "136K",
+          "published_text": "9mo ago",
+          "views": 136000,
+          "url": "https://www.youtube.com/watch?v=vbLd_nq0_7A",
+          "channel": "Boston Dynamics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "SRZ9E48B6aM",
+          "title": "The Humanoid Mission in Manufacturing | Boston Dynamics Tech Talk",
+          "views_text": "143K",
+          "published_text": "9mo ago",
+          "views": 143000,
+          "url": "https://www.youtube.com/watch?v=SRZ9E48B6aM",
+          "channel": "Boston Dynamics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "laexcnaTrDM",
+          "title": "Why Humanoids Are the Future of Manufacturing | Boston Dynamics Webinar",
+          "views_text": "120K",
+          "published_text": "10mo ago",
+          "views": 120000,
+          "url": "https://www.youtube.com/watch?v=laexcnaTrDM",
+          "channel": "Boston Dynamics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "RpvSMqOT7ls",
+          "title": "Inside the Stretch Test Lab | Boston Dynamics",
+          "views_text": "117K",
+          "published_text": "10mo ago",
+          "views": 117000,
+          "url": "https://www.youtube.com/watch?v=RpvSMqOT7ls",
+          "channel": "Boston Dynamics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "gS4rOqNDTBk",
+          "title": "What's in a humanoid hand? | Boston Dynamics",
+          "views_text": "1.5M",
+          "published_text": "11mo ago",
+          "views": 1500000,
+          "url": "https://www.youtube.com/watch?v=gS4rOqNDTBk",
+          "channel": "Boston Dynamics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "LMPxtcEgtds",
+          "title": "Air Spot | RL Behavior Research | Boston Dynamics",
+          "views_text": "1.3M",
+          "published_text": "1y ago",
+          "views": 1300000,
+          "url": "https://www.youtube.com/watch?v=LMPxtcEgtds",
+          "channel": "Boston Dynamics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "HYwekersccY",
+          "title": "Getting a Leg up with End-to-end Neural Networks | Boston Dynamics",
+          "views_text": "1.3M",
+          "published_text": "1y ago",
+          "views": 1300000,
+          "url": "https://www.youtube.com/watch?v=HYwekersccY",
+          "channel": "Boston Dynamics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "V7D7jXF2pj8",
+          "title": "Spot at POSCO | Boston Dynamics",
+          "views_text": "98K",
+          "published_text": "1y ago",
+          "views": 98000,
+          "url": "https://www.youtube.com/watch?v=V7D7jXF2pj8",
+          "channel": "Boston Dynamics",
+          "teams": [
+            "robotics"
+          ]
+        }
+      ]
+    },
+    {
+      "stale": false,
+      "last_ok_at": "2026-09-28T12:07:53.161617+00:00",
+      "url": "https://www.youtube.com/@unitreerobotics",
+      "note": "Unitree Robotics 공식",
+      "team_hint": "robotics",
+      "channel_name": "Unitree Robotics",
+      "channel_id": "UCsMbp4V8oxzHCMdOUP-3oWw",
+      "subscribers": "2.25M",
+      "video_count": 30,
+      "error": "",
+      "checked_at": "2026-09-28T12:07:53.161629+00:00",
+      "videos": [
+        {
+          "video_id": "bYkyz9QwqCw",
+          "title": "The World's Largest-Scale Full-Size Humanoid Robot Real-Time Livestream Performance",
+          "views_text": "539K",
+          "published_text": "4d ago",
+          "views": 539000,
+          "url": "https://www.youtube.com/watch?v=bYkyz9QwqCw",
+          "channel": "Unitree Robotics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "LAT2RIKjhTo",
+          "title": "Unitree Introducing: Unitree Dex5-S Dexterous Hand 22 Degrees of Freedom 1:1 Real-Hand Size",
+          "views_text": "2.5M",
+          "published_text": "7d ago",
+          "views": 2500000,
+          "url": "https://www.youtube.com/watch?v=LAT2RIKjhTo",
+          "channel": "Unitree Robotics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "GHySQMMrIa4",
+          "title": "Unitree General-Purpose Humanoid Foundation Model Fully Upgrade Major Open Source",
+          "views_text": "4.5M",
+          "published_text": "2w ago",
+          "views": 4500000,
+          "url": "https://www.youtube.com/watch?v=GHySQMMrIa4",
+          "channel": "Unitree Robotics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "qkIJELDgULA",
+          "title": "Unitree Breakthrough: The World’s First Fully Autonomous Humanoid Robot Combat",
+          "views_text": "2.4M",
+          "published_text": "3w ago",
+          "views": 2400000,
+          "url": "https://www.youtube.com/watch?v=qkIJELDgULA",
+          "channel": "Unitree Robotics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "O7OkiZfIlS4",
+          "title": "Unitree New Robot Preview: “Superman” Breaking the Limits of Humanity",
+          "views_text": "3.7M",
+          "published_text": "1mo ago",
+          "views": 3700000,
+          "url": "https://www.youtube.com/watch?v=O7OkiZfIlS4",
+          "channel": "Unitree Robotics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "Xha2TJ_1C6Q",
+          "title": "Unitree Super Athlete AS2-W",
+          "views_text": "11M",
+          "published_text": "2mo ago",
+          "views": 11000000,
+          "url": "https://www.youtube.com/watch?v=Xha2TJ_1C6Q",
+          "channel": "Unitree Robotics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "IiNbFPOUrz8",
+          "title": "Real-Time Omni-Modal Interaction Driven Whole-Body Mobile Manipulation",
+          "views_text": "5.6M",
+          "published_text": "2mo ago",
+          "views": 5600000,
+          "url": "https://www.youtube.com/watch?v=IiNbFPOUrz8",
+          "channel": "Unitree Robotics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "P8U_4v8SUOQ",
+          "title": "Unitree Invites You to Witness the 2026 Humanoid Robot Combat Competition",
+          "views_text": "2.7M",
+          "published_text": "2mo ago",
+          "views": 2700000,
+          "url": "https://www.youtube.com/watch?v=P8U_4v8SUOQ",
+          "channel": "Unitree Robotics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "mTMYfVD4zCw",
+          "title": "Unitree R1 | Price from $4,900, Ready Stock",
+          "views_text": "11M",
+          "published_text": "3mo ago",
+          "views": 11000000,
+          "url": "https://www.youtube.com/watch?v=mTMYfVD4zCw",
+          "channel": "Unitree Robotics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "zqqIpVsMYkE",
+          "title": "Conference Room Mess Cleanup Test: Unitree WVLA 2.0 Model🎉",
+          "views_text": "4.1M",
+          "published_text": "4mo ago",
+          "views": 4099999,
+          "url": "https://www.youtube.com/watch?v=zqqIpVsMYkE",
+          "channel": "Unitree Robotics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "B-a8TB8ttII",
+          "title": "Voice‑driven, real‑time arbitrary action generation😁",
+          "views_text": "12M",
+          "published_text": "4mo ago",
+          "views": 12000000,
+          "url": "https://www.youtube.com/watch?v=B-a8TB8ttII",
+          "channel": "Unitree Robotics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "oWOyUMJWptc",
+          "title": "Unitree Unveils: GD01, A Manned Transformable Mecha, from $650,000",
+          "views_text": "22M",
+          "published_text": "4mo ago",
+          "views": 22000000,
+          "url": "https://www.youtube.com/watch?v=oWOyUMJWptc",
+          "channel": "Unitree Robotics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "srPz8TRpZ_8",
+          "title": "Heard some people like wheels？😁",
+          "views_text": "21M",
+          "published_text": "5mo ago",
+          "views": 21000000,
+          "url": "https://www.youtube.com/watch?v=srPz8TRpZ_8",
+          "channel": "Unitree Robotics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "zoMDadPQLKA",
+          "title": "10m/s!! Unitree Breaks the World Record Again😊",
+          "views_text": "15M",
+          "published_text": "5mo ago",
+          "views": 15000000,
+          "url": "https://www.youtube.com/watch?v=zoMDadPQLKA",
+          "channel": "Unitree Robotics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "pN_bj5-QyW8",
+          "title": "Unitree Open‑Source: High‑Quality Real‑Robot Dataset for Humanoid Robots",
+          "views_text": "11M",
+          "published_text": "6mo ago",
+          "views": 11000000,
+          "url": "https://www.youtube.com/watch?v=pN_bj5-QyW8",
+          "channel": "Unitree Robotics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "Q5qL7qAASBc",
+          "title": "Great Honor to Welcome German Chancellor Merz",
+          "views_text": "1M",
+          "published_text": "7mo ago",
+          "views": 1000000,
+          "url": "https://www.youtube.com/watch?v=Q5qL7qAASBc",
+          "channel": "Unitree Robotics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "1ONE4l_pgHw",
+          "title": "Unitree Introducing | Unitree As2  Your Companion",
+          "views_text": "23M",
+          "published_text": "7mo ago",
+          "views": 23000000,
+          "url": "https://www.youtube.com/watch?v=1ONE4l_pgHw",
+          "channel": "Unitree Robotics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "eQpyvR-B7hc",
+          "title": "Unitree Kung Fu Bot   Pray for Blessings at the Temple of Heaven: Wish Everyone All the Best",
+          "views_text": "27M",
+          "published_text": "7mo ago",
+          "views": 27000000,
+          "url": "https://www.youtube.com/watch?v=eQpyvR-B7hc",
+          "channel": "Unitree Robotics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "w4IOJH9Akhg",
+          "title": "A Whole Bunch of Robots Sending New Year Greetings to Everyone!",
+          "views_text": "2M",
+          "published_text": "7mo ago",
+          "views": 2000000,
+          "url": "https://www.youtube.com/watch?v=w4IOJH9Akhg",
+          "channel": "Unitree Robotics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "Ykiuz1ZdGBc",
+          "title": "Unitree Spring Festival Gala Robots —a Full Release of Additional Details",
+          "views_text": "6.5M",
+          "published_text": "7mo ago",
+          "views": 6500000,
+          "url": "https://www.youtube.com/watch?v=Ykiuz1ZdGBc",
+          "channel": "Unitree Robotics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "ub2gWviKZpk",
+          "title": "Unitree Embodied AI Model Manufactures Robots in Factory🤩",
+          "views_text": "3M",
+          "published_text": "7mo ago",
+          "views": 3000000,
+          "url": "https://www.youtube.com/watch?v=ub2gWviKZpk",
+          "channel": "Unitree Robotics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "SX4WKUHAP4E",
+          "title": "World's First: Unitree Humanoid Robot Autonomous Walking Challenge in −47.4°C Extreme Cold",
+          "views_text": "1.2M",
+          "published_text": "7mo ago",
+          "views": 1200000,
+          "url": "https://www.youtube.com/watch?v=SX4WKUHAP4E",
+          "channel": "Unitree Robotics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "JZllfrHRc4g",
+          "title": "Unitree Humanoid Robot Daily Training 🥳",
+          "views_text": "8.5M",
+          "published_text": "8mo ago",
+          "views": 8500000,
+          "url": "https://www.youtube.com/watch?v=JZllfrHRc4g",
+          "channel": "Unitree Robotics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "AEhnXtBEC_E",
+          "title": "Unitree Debuts the World’s First Humanoid Robot “App Store”",
+          "views_text": "60K",
+          "published_text": "9mo ago",
+          "views": 60000,
+          "url": "https://www.youtube.com/watch?v=AEhnXtBEC_E",
+          "channel": "Unitree Robotics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "kjJeQZECPcQ",
+          "title": "Unitree 1.8m Humanoid Robot  Every Punch Comes Through！🥰",
+          "views_text": "3.4M",
+          "published_text": "9mo ago",
+          "views": 3400000,
+          "url": "https://www.youtube.com/watch?v=kjJeQZECPcQ",
+          "channel": "Unitree Robotics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "24h4FTH7plY",
+          "title": "Embodied Avatar: Full-body Teleoperation Platform",
+          "views_text": "10M",
+          "published_text": "10mo ago",
+          "views": 10000000,
+          "url": "https://www.youtube.com/watch?v=24h4FTH7plY",
+          "channel": "Unitree Robotics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "eUdBIFkMh-M",
+          "title": "Unitree Introducing | Unitree H2 Destiny Awakening!🥳",
+          "views_text": "4.7M",
+          "published_text": "11mo ago",
+          "views": 4700000,
+          "url": "https://www.youtube.com/watch?v=eUdBIFkMh-M",
+          "channel": "Unitree Robotics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "O5GphCrjx98",
+          "title": "Unitree G1 Kungfu Kid V6.0",
+          "views_text": "5.8M",
+          "published_text": "11mo ago",
+          "views": 5800000,
+          "url": "https://www.youtube.com/watch?v=O5GphCrjx98",
+          "channel": "Unitree Robotics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "bPSLMX_V38E",
+          "title": "Unitree G1 has mastered more quirky skills",
+          "views_text": "5.5M",
+          "published_text": "1y ago",
+          "views": 5500000,
+          "url": "https://www.youtube.com/watch?v=bPSLMX_V38E",
+          "channel": "Unitree Robotics",
+          "teams": [
+            "robotics"
+          ]
+        },
+        {
+          "video_id": "WjBXhdSkx4g",
+          "title": "Unitree Combat Robot✖️UFC🥳",
+          "views_text": "673K",
+          "published_text": "1y ago",
+          "views": 673000,
+          "url": "https://www.youtube.com/watch?v=WjBXhdSkx4g",
+          "channel": "Unitree Robotics",
+          "teams": [
+            "robotics"
+          ]
+        }
+      ]
+    },
+    {
+      "stale": false,
+      "last_ok_at": "2026-09-28T12:07:58.616784+00:00",
+      "url": "https://www.youtube.com/@NVIDIA",
+      "note": "NVIDIA 공식",
+      "team_hint": "institutions",
+      "channel_name": "NVIDIA",
+      "channel_id": "UCHuiy8bXnmK5nisYHUd1J5g",
+      "subscribers": "2.24M",
+      "video_count": 30,
+      "error": "",
+      "checked_at": "2026-09-28T12:07:58.616795+00:00",
+      "videos": [
+        {
+          "video_id": "xAgq8ByWK0M",
+          "title": "10 Years of NVIDIA DGX: From One System to AI Factories",
+          "views_text": "28K",
+          "published_text": "3d ago",
+          "views": 28000,
+          "url": "https://www.youtube.com/watch?v=xAgq8ByWK0M",
+          "channel": "NVIDIA",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "cr61seCie_c",
+          "title": "Build Custom AI Infrastructure with NVIDIA NVLink Fusion",
+          "views_text": "12K",
+          "published_text": "10d ago",
+          "views": 12000,
+          "url": "https://www.youtube.com/watch?v=cr61seCie_c",
+          "channel": "NVIDIA",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "RuXF7ck32b8",
+          "title": "Advancing Infrastructure for the Era of Agentic AI | Ian Buck at AI Infra Summit 2026",
+          "views_text": "27K",
+          "published_text": "11d ago",
+          "views": 27000,
+          "url": "https://www.youtube.com/watch?v=RuXF7ck32b8",
+          "channel": "NVIDIA",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "KT89PEe9d7U",
+          "title": "The Infrastructure of Intelligence: NVIDIA and OpenAI on a Decade of Building Frontier AI",
+          "views_text": "12K",
+          "published_text": "11d ago",
+          "views": 12000,
+          "url": "https://www.youtube.com/watch?v=KT89PEe9d7U",
+          "channel": "NVIDIA",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "4O1Gl4_xk3w",
+          "title": "Building More Energy Efficient AI Factories With NVIDIA DSX",
+          "views_text": "22K",
+          "published_text": "12d ago",
+          "views": 22000,
+          "url": "https://www.youtube.com/watch?v=4O1Gl4_xk3w",
+          "channel": "NVIDIA",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "V0Hx37EqcMI",
+          "title": "Editing Faster in Adobe Premiere with NVIDIA RTX Spark",
+          "views_text": "33K",
+          "published_text": "2w ago",
+          "views": 33000,
+          "url": "https://www.youtube.com/watch?v=V0Hx37EqcMI",
+          "channel": "NVIDIA",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "4GY-x4WAafc",
+          "title": "Building Europe's AI Stack — Inside the Barcelona Supercomputing Center",
+          "views_text": "NVIDIA",
+          "published_text": "and BSC AI Factory",
+          "views": null,
+          "url": "https://www.youtube.com/watch?v=4GY-x4WAafc",
+          "channel": "NVIDIA",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "3eNtVFTEys4",
+          "title": "The Industrialization of Intelligence",
+          "views_text": "88K",
+          "published_text": "3w ago",
+          "views": 88000,
+          "url": "https://www.youtube.com/watch?v=3eNtVFTEys4",
+          "channel": "NVIDIA",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "MkbepPfaeMU",
+          "title": "Tokenomics 101: What Are Tokens & Why They Matter | AI Factory Insider Ep. 4",
+          "views_text": "84K",
+          "published_text": "3w ago",
+          "views": 84000,
+          "url": "https://www.youtube.com/watch?v=MkbepPfaeMU",
+          "channel": "NVIDIA",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "WCRNR1Ve9s0",
+          "title": "Debugging with a Local Agent While You Get Coffee, Powered by NVIDIA RTX Spark",
+          "views_text": "65K",
+          "published_text": "1mo ago",
+          "views": 65000,
+          "url": "https://www.youtube.com/watch?v=WCRNR1Ve9s0",
+          "channel": "NVIDIA",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "VihWpoINpgE",
+          "title": "More Tokens per Second per Megawatt: The Economics of NVIDIA Vera Rubin",
+          "views_text": "8.1K",
+          "published_text": "1mo ago",
+          "views": 8100,
+          "url": "https://www.youtube.com/watch?v=VihWpoINpgE",
+          "channel": "NVIDIA",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "CNM6Mmqrfeg",
+          "title": "NVIDIA Spectrum-X Ethernet Photonics | Now in Full Production",
+          "views_text": "40K",
+          "published_text": "1mo ago",
+          "views": 40000,
+          "url": "https://www.youtube.com/watch?v=CNM6Mmqrfeg",
+          "channel": "NVIDIA",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "pmiN5Nj1-K8",
+          "title": "GTC SJ 2026: Healthcare Reimagined - Bridging Digital Intelligence and Physical Autonomy",
+          "views_text": "2.6K",
+          "published_text": "1mo ago",
+          "views": 2600,
+          "url": "https://www.youtube.com/watch?v=pmiN5Nj1-K8",
+          "channel": "NVIDIA",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "rRkucx0KwcI",
+          "title": "GTC SJ 2026: Physical AI for Healthcare Robotics - Simulation-First Design & Accelerated Development",
+          "views_text": "4.6K",
+          "published_text": "1mo ago",
+          "views": 4600,
+          "url": "https://www.youtube.com/watch?v=rRkucx0KwcI",
+          "channel": "NVIDIA",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "xcTRTotS9-A",
+          "title": "Firebird Launches CIS Region’s Largest AI Factory in Armenia",
+          "views_text": "38K",
+          "published_text": "1mo ago",
+          "views": 38000,
+          "url": "https://www.youtube.com/watch?v=xcTRTotS9-A",
+          "channel": "NVIDIA",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "eV1Z2xQZGvA",
+          "title": "Next-Gen Enterprise AI: Powered by Infosys & NVIDIA",
+          "views_text": "3.5K",
+          "published_text": "1mo ago",
+          "views": 3500,
+          "url": "https://www.youtube.com/watch?v=eV1Z2xQZGvA",
+          "channel": "NVIDIA",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "Np0afRWtdp8",
+          "title": "Why AI Agents Need More Than One Model",
+          "views_text": "11K",
+          "published_text": "1mo ago",
+          "views": 11000,
+          "url": "https://www.youtube.com/watch?v=Np0afRWtdp8",
+          "channel": "NVIDIA",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "xySgVPLYnsc",
+          "title": "NVIDIA Alpamayo 2 Super: The Frontier Open Model for Robotaxis and Autonomous Vehicle",
+          "views_text": "18K",
+          "published_text": "1mo ago",
+          "views": 18000,
+          "url": "https://www.youtube.com/watch?v=xySgVPLYnsc",
+          "channel": "NVIDIA",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "3sDEcfO2cQU",
+          "title": "Real-Time Neurological Insights: Scaling NeuroDX AI with NVIDIA Inception",
+          "views_text": "2.7K",
+          "published_text": "1mo ago",
+          "views": 2700,
+          "url": "https://www.youtube.com/watch?v=3sDEcfO2cQU",
+          "channel": "NVIDIA",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "8TQYkjViaBQ",
+          "title": "Securely Deploy Autonomous Agents in Your AI Factory | AI Factory Insider Ep. 3",
+          "views_text": "2.8K",
+          "published_text": "1mo ago",
+          "views": 2800,
+          "url": "https://www.youtube.com/watch?v=8TQYkjViaBQ",
+          "channel": "NVIDIA",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "iWsKSxyfRIA",
+          "title": "GTC SJ 2026: The AI Native Digital Health Stack A Developer's Guide to 2026",
+          "views_text": "2.8K",
+          "published_text": "1mo ago",
+          "views": 2800,
+          "url": "https://www.youtube.com/watch?v=iWsKSxyfRIA",
+          "channel": "NVIDIA",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "rpQPBCDv5Pc",
+          "title": "How BharatGen is building India AI with NVIDIA Nemotron",
+          "views_text": "3.5K",
+          "published_text": "2mo ago",
+          "views": 3500,
+          "url": "https://www.youtube.com/watch?v=rpQPBCDv5Pc",
+          "channel": "NVIDIA",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "P3VzeHtat70",
+          "title": "How Autonomous AI Is Transforming Chip and System Design",
+          "views_text": "18K",
+          "published_text": "2mo ago",
+          "views": 18000,
+          "url": "https://www.youtube.com/watch?v=P3VzeHtat70",
+          "channel": "NVIDIA",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "z1b8DRFwWgo",
+          "title": "GTC SJ 2026: Next Generation Intelligent Surgical Robots",
+          "views_text": "5.1K",
+          "published_text": "2mo ago",
+          "views": 5100,
+          "url": "https://www.youtube.com/watch?v=z1b8DRFwWgo",
+          "channel": "NVIDIA",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "TY2EilHUR1c",
+          "title": "Powering Agentic AI with AI-Ready Data Platforms That Turn Data Into Intelligence",
+          "views_text": "3.4K",
+          "published_text": "2mo ago",
+          "views": 3400,
+          "url": "https://www.youtube.com/watch?v=TY2EilHUR1c",
+          "channel": "NVIDIA",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "ZAVVfZ_mwnw",
+          "title": "NVIDIA & Wistron: Reindustrializing America With Advanced Manufacturing",
+          "views_text": "NVIDIA",
+          "published_text": "and Wistron Marcom",
+          "views": null,
+          "url": "https://www.youtube.com/watch?v=ZAVVfZ_mwnw",
+          "channel": "NVIDIA",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "1QPh70Es_oU",
+          "title": "Turning Compute Into Data for Physical AI With NVIDIA Cosmos",
+          "views_text": "NVIDIA",
+          "published_text": "and NVIDIA Developer",
+          "views": null,
+          "url": "https://www.youtube.com/watch?v=1QPh70Es_oU",
+          "channel": "NVIDIA",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "XdtQbMXHDjQ",
+          "title": "Bringing Agent-Ready Simulation Into Blender",
+          "views_text": "NVIDIA",
+          "published_text": "and NVIDIA Omniverse",
+          "views": null,
+          "url": "https://www.youtube.com/watch?v=XdtQbMXHDjQ",
+          "channel": "NVIDIA",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "Jpsq_-1kJTo",
+          "title": "How NVIDIA Runs Its Own AI Factory | AI Factory Insider Ep. 2",
+          "views_text": "6K",
+          "published_text": "2mo ago",
+          "views": 6000,
+          "url": "https://www.youtube.com/watch?v=Jpsq_-1kJTo",
+          "channel": "NVIDIA",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "vXWs3Xq-ke0",
+          "title": "NVIDIA and Japan: Building the Next Industrial Revolution",
+          "views_text": "117K",
+          "published_text": "2mo ago",
+          "views": 117000,
+          "url": "https://www.youtube.com/watch?v=vXWs3Xq-ke0",
+          "channel": "NVIDIA",
+          "teams": [
+            "institutions"
+          ]
+        }
+      ]
+    },
+    {
+      "stale": false,
+      "last_ok_at": "2026-09-28T12:08:04.042180+00:00",
+      "url": "https://www.youtube.com/@GoogleDeepMind",
+      "note": "Google DeepMind 공식",
+      "team_hint": "institutions",
+      "channel_name": "Google DeepMind",
+      "channel_id": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+      "subscribers": "927K",
+      "video_count": 30,
+      "error": "",
+      "checked_at": "2026-09-28T12:08:04.042193+00:00",
+      "videos": [
+        {
+          "video_id": "FL6mI_Br-mc",
+          "title": "Create your own voices with Gemini 3.8 text-to-speech",
+          "views_text": "116K",
+          "published_text": "4d ago",
+          "views": 116000,
+          "url": "https://www.youtube.com/watch?v=FL6mI_Br-mc",
+          "channel": "Google DeepMind",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "O_EWbnkjXdk",
+          "title": "How AI is transforming weather prediction",
+          "views_text": "231K",
+          "published_text": "2w ago",
+          "views": 231000,
+          "url": "https://www.youtube.com/watch?v=O_EWbnkjXdk",
+          "channel": "Google DeepMind",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "U0aToL5C-bQ",
+          "title": "AlphaGenome Atlas: Understanding the human genome",
+          "views_text": "226K",
+          "published_text": "2w ago",
+          "views": 226000,
+          "url": "https://www.youtube.com/watch?v=U0aToL5C-bQ",
+          "channel": "Google DeepMind",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "_6jZlnRsXXQ",
+          "title": "WeatherNext 3: More accurate, timely, and local weather forecasts",
+          "views_text": "390K",
+          "published_text": "3w ago",
+          "views": 390000,
+          "url": "https://www.youtube.com/watch?v=_6jZlnRsXXQ",
+          "channel": "Google DeepMind",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "tBjgCj_dGZM",
+          "title": "The mathematics of AI uncertainty",
+          "views_text": "391K",
+          "published_text": "1mo ago",
+          "views": 391000,
+          "url": "https://www.youtube.com/watch?v=tBjgCj_dGZM",
+          "channel": "Google DeepMind",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "fo9WirRIaVs",
+          "title": "Robots working together with Gemini Robotics 2",
+          "views_text": "15K",
+          "published_text": "1mo ago",
+          "views": 15000,
+          "url": "https://www.youtube.com/watch?v=fo9WirRIaVs",
+          "channel": "Google DeepMind",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "nBftSI5mmHA",
+          "title": "Tasks that require whole-body control with Gemini Robotics 2",
+          "views_text": "18K",
+          "published_text": "1mo ago",
+          "views": 18000,
+          "url": "https://www.youtube.com/watch?v=nBftSI5mmHA",
+          "channel": "Google DeepMind",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "wYVHxw2-DP4",
+          "title": "Tough dexterity tasks with Gemini Robotics 2",
+          "views_text": "13K",
+          "published_text": "1mo ago",
+          "views": 13000,
+          "url": "https://www.youtube.com/watch?v=wYVHxw2-DP4",
+          "channel": "Google DeepMind",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "9MNLEAzA59o",
+          "title": "Intelligent whole-body control with Gemini Robotics 2",
+          "views_text": "99K",
+          "published_text": "1mo ago",
+          "views": 99000,
+          "url": "https://www.youtube.com/watch?v=9MNLEAzA59o",
+          "channel": "Google DeepMind",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "CiTPDm7PKW0",
+          "title": "Multi-robot collaboration with Gemini Robotics 2",
+          "views_text": "25K",
+          "published_text": "1mo ago",
+          "views": 25000,
+          "url": "https://www.youtube.com/watch?v=CiTPDm7PKW0",
+          "channel": "Google DeepMind",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "O9-650iHAls",
+          "title": "Advanced dexterity with Gemini Robotics 2",
+          "views_text": "37K",
+          "published_text": "1mo ago",
+          "views": 37000,
+          "url": "https://www.youtube.com/watch?v=O9-650iHAls",
+          "channel": "Google DeepMind",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "4lSQnrMC6nY",
+          "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+          "views_text": "Google DeepMind",
+          "published_text": "and Apptronik",
+          "views": null,
+          "url": "https://www.youtube.com/watch?v=4lSQnrMC6nY",
+          "channel": "Google DeepMind",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "R-Yqes8AotY",
+          "title": "Reconstructing Pelé’s lost goal",
+          "views_text": "Google DeepMind",
+          "published_text": "and 3 more",
+          "views": null,
+          "url": "https://www.youtube.com/watch?v=R-Yqes8AotY",
+          "channel": "Google DeepMind",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "1DtMiRKg-cs",
+          "title": "Understanding the inner thoughts of AI",
+          "views_text": "233K",
+          "published_text": "2mo ago",
+          "views": 233000,
+          "url": "https://www.youtube.com/watch?v=1DtMiRKg-cs",
+          "channel": "Google DeepMind",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "V04bm-3d6EQ",
+          "title": "When millions of AI agents meet",
+          "views_text": "194K",
+          "published_text": "3mo ago",
+          "views": 194000,
+          "url": "https://www.youtube.com/watch?v=V04bm-3d6EQ",
+          "channel": "Google DeepMind",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "aSY_vFFmkW0",
+          "title": "Generating novel scientific hypotheses with Co-Scientist",
+          "views_text": "4.6M",
+          "published_text": "4mo ago",
+          "views": 4600000,
+          "url": "https://www.youtube.com/watch?v=aSY_vFFmkW0",
+          "channel": "Google DeepMind",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "Cnuj24PjWrQ",
+          "title": "Using AI to outsmart drug-resistant bacteria",
+          "views_text": "565K",
+          "published_text": "4mo ago",
+          "views": 565000,
+          "url": "https://www.youtube.com/watch?v=Cnuj24PjWrQ",
+          "channel": "Google DeepMind",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "exh1vwGlrSo",
+          "title": "Understanding cancer at a genetic level with AI",
+          "views_text": "88K",
+          "published_text": "4mo ago",
+          "views": 88000,
+          "url": "https://www.youtube.com/watch?v=exh1vwGlrSo",
+          "channel": "Google DeepMind",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "wd5ZZV8if54",
+          "title": "Predicting a historic storm earlier with WeatherNext",
+          "views_text": "545K",
+          "published_text": "4mo ago",
+          "views": 545000,
+          "url": "https://www.youtube.com/watch?v=wd5ZZV8if54",
+          "channel": "Google DeepMind",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "pZNzfQLgGsA",
+          "title": "Reimagining the mouse pointer with AI",
+          "views_text": "92K",
+          "published_text": "4mo ago",
+          "views": 92000,
+          "url": "https://www.youtube.com/watch?v=pZNzfQLgGsA",
+          "channel": "Google DeepMind",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "udnhu43tTfk",
+          "title": "Teaching the foundations of AI in the classroom",
+          "views_text": "8.5K",
+          "published_text": "5mo ago",
+          "views": 8500,
+          "url": "https://www.youtube.com/watch?v=udnhu43tTfk",
+          "channel": "Google DeepMind",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "hv8ZI7foGZk",
+          "title": "Introducing Lyria 3 Pro",
+          "views_text": "42K",
+          "published_text": "6mo ago",
+          "views": 42000,
+          "url": "https://www.youtube.com/watch?v=hv8ZI7foGZk",
+          "channel": "Google DeepMind",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "qoinGjj60Fo",
+          "title": "10 years of AlphaGo: The turning point for AI | Thore Graepel & Pushmeet Kohli",
+          "views_text": "592K",
+          "published_text": "6mo ago",
+          "views": 592000,
+          "url": "https://www.youtube.com/watch?v=qoinGjj60Fo",
+          "channel": "Google DeepMind",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "l5Wpm4o6k1A",
+          "title": "Music AI Sandbox | AI x Creativity: Wyclef Jean",
+          "views_text": "11K",
+          "published_text": "7mo ago",
+          "views": 11000,
+          "url": "https://www.youtube.com/watch?v=l5Wpm4o6k1A",
+          "channel": "Google DeepMind",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "IE0BmXsIzTI",
+          "title": "Gemini 3 Deep Think: Optimizing 2D semiconductor fabrication",
+          "views_text": "37K",
+          "published_text": "7mo ago",
+          "views": 37000,
+          "url": "https://www.youtube.com/watch?v=IE0BmXsIzTI",
+          "channel": "Google DeepMind",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "bNrbxCvFrKA",
+          "title": "Gemini 3 Deep Think: Identifying logical errors in complex mathematics research",
+          "views_text": "68K",
+          "published_text": "7mo ago",
+          "views": 68000,
+          "url": "https://www.youtube.com/watch?v=bNrbxCvFrKA",
+          "channel": "Google DeepMind",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "eAOaRJj02HU",
+          "title": "Gemini 3 Deep Think: Accelerating mechanical engineering and rapid prototyping",
+          "views_text": "51K",
+          "published_text": "7mo ago",
+          "views": 51000,
+          "url": "https://www.youtube.com/watch?v=eAOaRJj02HU",
+          "channel": "Google DeepMind",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "wIE3-E9EN4g",
+          "title": "Project Genie | Skydiving",
+          "views_text": "9.9K",
+          "published_text": "7mo ago",
+          "views": 9900,
+          "url": "https://www.youtube.com/watch?v=wIE3-E9EN4g",
+          "channel": "Google DeepMind",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "U6wb-zgYylk",
+          "title": "Project Genie | Silver Sphere",
+          "views_text": "6.6K",
+          "published_text": "7mo ago",
+          "views": 6600,
+          "url": "https://www.youtube.com/watch?v=U6wb-zgYylk",
+          "channel": "Google DeepMind",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "FZ9RQVQsDts",
+          "title": "Project Genie | Shine and Seek",
+          "views_text": "4.8K",
+          "published_text": "7mo ago",
+          "views": 4800,
+          "url": "https://www.youtube.com/watch?v=FZ9RQVQsDts",
+          "channel": "Google DeepMind",
+          "teams": [
+            "institutions"
+          ]
+        }
+      ]
+    },
+    {
+      "stale": false,
+      "last_ok_at": "2026-09-28T12:08:09.509536+00:00",
+      "url": "https://www.youtube.com/@GoldmanSachs",
+      "note": "Goldman Sachs 공식",
+      "team_hint": "institutions",
+      "channel_name": "Goldman Sachs",
+      "channel_id": "UCyz6-taovlaOkPsPtK4KNEg",
+      "subscribers": "321K",
+      "video_count": 30,
+      "error": "",
+      "checked_at": "2026-09-28T12:08:09.509548+00:00",
+      "videos": [
+        {
+          "video_id": "P2Aulz9wCbU",
+          "title": "U.S. Soccer's JT Batson in the World Cup and Scaling the Game",
+          "views_text": "2.5K",
+          "published_text": "2d ago",
+          "views": 2500,
+          "url": "https://www.youtube.com/watch?v=P2Aulz9wCbU",
+          "channel": "Goldman Sachs",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "OiVqpczNbvw",
+          "title": "Why the Bond Market May Be the Stock Market's Biggest Risk",
+          "views_text": "48K",
+          "published_text": "3d ago",
+          "views": 48000,
+          "url": "https://www.youtube.com/watch?v=OiVqpczNbvw",
+          "channel": "Goldman Sachs",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "JluXVn2TOmQ",
+          "title": "Why Markets May Be Pricing in Too Many Fed Rate Hikes",
+          "views_text": "30K",
+          "published_text": "4d ago",
+          "views": 30000,
+          "url": "https://www.youtube.com/watch?v=JluXVn2TOmQ",
+          "channel": "Goldman Sachs",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "7h8a-wObTe4",
+          "title": "David Solomon’s Remarks at the 2026 FDNY Foundation Dinner",
+          "views_text": "2.6K",
+          "published_text": "6d ago",
+          "views": 2600,
+          "url": "https://www.youtube.com/watch?v=7h8a-wObTe4",
+          "channel": "Goldman Sachs",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "1-TMZvDoOjE",
+          "title": "Ryan Serhant on the Art of Selling Luxury Real Estate",
+          "views_text": "78K",
+          "published_text": "6d ago",
+          "views": 78000,
+          "url": "https://www.youtube.com/watch?v=1-TMZvDoOjE",
+          "channel": "Goldman Sachs",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "JCbDQh2GokQ",
+          "title": "Can Stocks Rally With a Hawkish Fed?",
+          "views_text": "56K",
+          "published_text": "9d ago",
+          "views": 56000,
+          "url": "https://www.youtube.com/watch?v=JCbDQh2GokQ",
+          "channel": "Goldman Sachs",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "yH67oD6_lYs",
+          "title": "The Opportunities for Investors amid Higher-for-Longer Interest Rates",
+          "views_text": "38K",
+          "published_text": "10d ago",
+          "views": 38000,
+          "url": "https://www.youtube.com/watch?v=yH67oD6_lYs",
+          "channel": "Goldman Sachs",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "KrZatIdXaUU",
+          "title": "Rich Friedman on the Rise of Private Markets and AI Investing",
+          "views_text": "17K",
+          "published_text": "10d ago",
+          "views": 17000,
+          "url": "https://www.youtube.com/watch?v=KrZatIdXaUU",
+          "channel": "Goldman Sachs",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "toSiNa42GE0",
+          "title": "Why Global Bond Yields Are Surging",
+          "views_text": "60K",
+          "published_text": "12d ago",
+          "views": 60000,
+          "url": "https://www.youtube.com/watch?v=toSiNa42GE0",
+          "channel": "Goldman Sachs",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "SLww08lBLIg",
+          "title": "What a Fed Rate Hike Could Mean for US Stocks",
+          "views_text": "77K",
+          "published_text": "2w ago",
+          "views": 77000,
+          "url": "https://www.youtube.com/watch?v=SLww08lBLIg",
+          "channel": "Goldman Sachs",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "Bp-Nsh5K7dA",
+          "title": "How Will Less Fed Transparency Affect Markets and the Economy?",
+          "views_text": "18K",
+          "published_text": "2w ago",
+          "views": 18000,
+          "url": "https://www.youtube.com/watch?v=Bp-Nsh5K7dA",
+          "channel": "Goldman Sachs",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "rrUQl_AoV3U",
+          "title": "How AI is Affecting GDP Growth, Productivity, and Jobs",
+          "views_text": "73K",
+          "published_text": "2w ago",
+          "views": 73000,
+          "url": "https://www.youtube.com/watch?v=rrUQl_AoV3U",
+          "channel": "Goldman Sachs",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "0_Q_sProWjw",
+          "title": "Why Gold Is Expected to Rise to Record Highs",
+          "views_text": "116K",
+          "published_text": "3w ago",
+          "views": 116000,
+          "url": "https://www.youtube.com/watch?v=0_Q_sProWjw",
+          "channel": "Goldman Sachs",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "KInzRPEzalU",
+          "title": "Dipan Patel on Permira’s ‘Artisanal’ Approach to Private Equity",
+          "views_text": "39K",
+          "published_text": "3w ago",
+          "views": 39000,
+          "url": "https://www.youtube.com/watch?v=KInzRPEzalU",
+          "channel": "Goldman Sachs",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "jXcrNaMbwgk",
+          "title": "Why AI Spending is Driving Rates Higher",
+          "views_text": "64K",
+          "published_text": "3w ago",
+          "views": 64000,
+          "url": "https://www.youtube.com/watch?v=jXcrNaMbwgk",
+          "channel": "Goldman Sachs",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "zWn6Q9qGBGA",
+          "title": "Chairman and CEO David Solomon Joins CNBC to Discuss His Outlook for the US Economy",
+          "views_text": "37K",
+          "published_text": "3w ago",
+          "views": 37000,
+          "url": "https://www.youtube.com/watch?v=zWn6Q9qGBGA",
+          "channel": "Goldman Sachs",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "FmswURvExaA",
+          "title": "The Outlook for Data Center Power Demand as AI Token Use Grows",
+          "views_text": "29K",
+          "published_text": "3w ago",
+          "views": 29000,
+          "url": "https://www.youtube.com/watch?v=FmswURvExaA",
+          "channel": "Goldman Sachs",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "IEHu2yz7LD8",
+          "title": "What Is the Outlook for Diesel and Gasoline Supplies?",
+          "views_text": "15K",
+          "published_text": "1mo ago",
+          "views": 15000,
+          "url": "https://www.youtube.com/watch?v=IEHu2yz7LD8",
+          "channel": "Goldman Sachs",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "yHe4SMiK3PU",
+          "title": "Building AI Systems for Capital Markets",
+          "views_text": "11K",
+          "published_text": "1mo ago",
+          "views": 11000,
+          "url": "https://www.youtube.com/watch?v=yHe4SMiK3PU",
+          "channel": "Goldman Sachs",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "_UNIdy2K2fI",
+          "title": "Why US Equity Returns Are Broadening Beyond AI Stocks",
+          "views_text": "23K",
+          "published_text": "1mo ago",
+          "views": 23000,
+          "url": "https://www.youtube.com/watch?v=_UNIdy2K2fI",
+          "channel": "Goldman Sachs",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "IywrZRAySFY",
+          "title": "The Journey to the SpaceX IPO with Goldman Sachs",
+          "views_text": "4.2K",
+          "published_text": "1mo ago",
+          "views": 4200,
+          "url": "https://www.youtube.com/watch?v=IywrZRAySFY",
+          "channel": "Goldman Sachs",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "n4ZwTSQKETs",
+          "title": "How New Models Are Changing the AI Investment Landscape",
+          "views_text": "45K",
+          "published_text": "1mo ago",
+          "views": 45000,
+          "url": "https://www.youtube.com/watch?v=n4ZwTSQKETs",
+          "channel": "Goldman Sachs",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "til3Dhw8u4k",
+          "title": "Wellington’s Jean Hynes on the Art of Investing and Finding New Markets",
+          "views_text": "11K",
+          "published_text": "1mo ago",
+          "views": 11000,
+          "url": "https://www.youtube.com/watch?v=til3Dhw8u4k",
+          "channel": "Goldman Sachs",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "27x5goQn0-4",
+          "title": "How Inflation and Fiscal Policy Are Driving US Treasury Markets",
+          "views_text": "13K",
+          "published_text": "1mo ago",
+          "views": 13000,
+          "url": "https://www.youtube.com/watch?v=27x5goQn0-4",
+          "channel": "Goldman Sachs",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "iV51YcDgY5w",
+          "title": "What the US-Japan Currency Intervention Means for the Yen, Rates, and the Dollar",
+          "views_text": "55K",
+          "published_text": "1mo ago",
+          "views": 55000,
+          "url": "https://www.youtube.com/watch?v=iV51YcDgY5w",
+          "channel": "Goldman Sachs",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "-shlgW5IZg4",
+          "title": "Why US Stocks May ‘Grind Higher’",
+          "views_text": "15K",
+          "published_text": "1mo ago",
+          "views": 15000,
+          "url": "https://www.youtube.com/watch?v=-shlgW5IZg4",
+          "channel": "Goldman Sachs",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "OdJWDUiup_o",
+          "title": "Steven Tananbaum: The Evolution of Credit Investing and AI Opportunities",
+          "views_text": "11K",
+          "published_text": "1mo ago",
+          "views": 11000,
+          "url": "https://www.youtube.com/watch?v=OdJWDUiup_o",
+          "channel": "Goldman Sachs",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "MbArCYT6Y1I",
+          "title": "Energy Disruptions Are Here to Stay",
+          "views_text": "10K",
+          "published_text": "1mo ago",
+          "views": 10000,
+          "url": "https://www.youtube.com/watch?v=MbArCYT6Y1I",
+          "channel": "Goldman Sachs",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "NHS2R3_1uzM",
+          "title": "Demond Martin on Purpose, Community, and Giving What You Have",
+          "views_text": "1.5K",
+          "published_text": "1mo ago",
+          "views": 1500,
+          "url": "https://www.youtube.com/watch?v=NHS2R3_1uzM",
+          "channel": "Goldman Sachs",
+          "teams": [
+            "institutions"
+          ]
+        },
+        {
+          "video_id": "K7l9TooGgF8",
+          "title": "How AI Debt Is Reshaping Credit Markets",
+          "views_text": "14K",
+          "published_text": "1mo ago",
+          "views": 14000,
+          "url": "https://www.youtube.com/watch?v=K7l9TooGgF8",
+          "channel": "Goldman Sachs",
+          "teams": [
+            "institutions"
+          ]
+        }
+      ]
+    },
+    {
+      "stale": false,
+      "last_ok_at": "2026-09-28T12:08:14.951945+00:00",
+      "url": "https://www.youtube.com/@TwoMinutePapers",
+      "note": "최신 AI 논문 해설",
+      "team_hint": "knowledge",
+      "channel_name": "Two Minute Papers",
+      "channel_id": "UCbfYPyITQ-7l4upoX8nvctg",
+      "subscribers": "1.84M",
+      "video_count": 30,
+      "error": "",
+      "checked_at": "2026-09-28T12:08:14.951958+00:00",
+      "videos": [
+        {
+          "video_id": "SA9kdAX2Zj0",
+          "title": "Claude Opus 5.5 AI: An Incredible Leap Forward",
+          "views_text": "325K",
+          "published_text": "4d ago",
+          "views": 325000,
+          "url": "https://www.youtube.com/watch?v=SA9kdAX2Zj0",
+          "channel": "Two Minute Papers",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "qBBRRsH0rQc",
+          "title": "Yes, Jev Is Insane, But There's A Catch",
+          "views_text": "264K",
+          "published_text": "6d ago",
+          "views": 264000,
+          "url": "https://www.youtube.com/watch?v=qBBRRsH0rQc",
+          "channel": "Two Minute Papers",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "vIHw_2VjSUw",
+          "title": "DeepSeek’s Insane New Architecture",
+          "views_text": "328K",
+          "published_text": "10d ago",
+          "views": 328000,
+          "url": "https://www.youtube.com/watch?v=vIHw_2VjSUw",
+          "channel": "Two Minute Papers",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "YoEWjZSwoys",
+          "title": "Claude Is Now Leaving Invisible Fingerprints In Its Text",
+          "views_text": "104K",
+          "published_text": "13d ago",
+          "views": 104000,
+          "url": "https://www.youtube.com/watch?v=YoEWjZSwoys",
+          "channel": "Two Minute Papers",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "mOvtumfyjCs",
+          "title": "I Never Thought I’d See This Happen",
+          "views_text": "386K",
+          "published_text": "2w ago",
+          "views": 386000,
+          "url": "https://www.youtube.com/watch?v=mOvtumfyjCs",
+          "channel": "Two Minute Papers",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "eVBJIUxv8N8",
+          "title": "GPT-6 Astra Changes Everything",
+          "views_text": "576K",
+          "published_text": "2w ago",
+          "views": 576000,
+          "url": "https://www.youtube.com/watch?v=eVBJIUxv8N8",
+          "channel": "Two Minute Papers",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "B3LXEW4Pc-w",
+          "title": "Claude Fable AI Is Much Stranger Than The Headlines Suggest",
+          "views_text": "203K",
+          "published_text": "3w ago",
+          "views": 203000,
+          "url": "https://www.youtube.com/watch?v=B3LXEW4Pc-w",
+          "channel": "Two Minute Papers",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "w9RDunJACkc",
+          "title": "GLM 5.3: Powerful AI Is Becoming Almost Free",
+          "views_text": "180K",
+          "published_text": "3w ago",
+          "views": 180000,
+          "url": "https://www.youtube.com/watch?v=w9RDunJACkc",
+          "channel": "Two Minute Papers",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "LBiNcdGNgrg",
+          "title": "The Billion Dollar AI Gap Is Collapsing",
+          "views_text": "143K",
+          "published_text": "1mo ago",
+          "views": 143000,
+          "url": "https://www.youtube.com/watch?v=LBiNcdGNgrg",
+          "channel": "Two Minute Papers",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "L9mMfAFwbl4",
+          "title": "DeepSeek’s New AI System Shouldn’t Be Possible",
+          "views_text": "110K",
+          "published_text": "1mo ago",
+          "views": 110000,
+          "url": "https://www.youtube.com/watch?v=L9mMfAFwbl4",
+          "channel": "Two Minute Papers",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "wMl6c_r0ubw",
+          "title": "This Small AI Will Change Everything",
+          "views_text": "111K",
+          "published_text": "1mo ago",
+          "views": 111000,
+          "url": "https://www.youtube.com/watch?v=wMl6c_r0ubw",
+          "channel": "Two Minute Papers",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "kyYepbhe1g8",
+          "title": "DeepSeek Just Made Closed AI Look Ridiculous",
+          "views_text": "178K",
+          "published_text": "1mo ago",
+          "views": 178000,
+          "url": "https://www.youtube.com/watch?v=kyYepbhe1g8",
+          "channel": "Two Minute Papers",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "QnGNF8k_uoc",
+          "title": "Claude AI Failed 650 Times…Then Beat The Human Record",
+          "views_text": "57K",
+          "published_text": "1mo ago",
+          "views": 57000,
+          "url": "https://www.youtube.com/watch?v=QnGNF8k_uoc",
+          "channel": "Two Minute Papers",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "JQ97GiDwPxc",
+          "title": "How OpenAI Hacked HuggingFace",
+          "views_text": "68K",
+          "published_text": "1mo ago",
+          "views": 68000,
+          "url": "https://www.youtube.com/watch?v=JQ97GiDwPxc",
+          "channel": "Two Minute Papers",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "vO6SWG-jxvE",
+          "title": "DeepMind Just Changed How AI Sees The World",
+          "views_text": "130K",
+          "published_text": "1mo ago",
+          "views": 130000,
+          "url": "https://www.youtube.com/watch?v=vO6SWG-jxvE",
+          "channel": "Two Minute Papers",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "ppQh4Tc9BmM",
+          "title": "The Billion Dollar AI Race Just Broke",
+          "views_text": "128K",
+          "published_text": "1mo ago",
+          "views": 128000,
+          "url": "https://www.youtube.com/watch?v=ppQh4Tc9BmM",
+          "channel": "Two Minute Papers",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "bm1BjOjS7sQ",
+          "title": "Another DeepSeek Moment Has Arrived",
+          "views_text": "129K",
+          "published_text": "1mo ago",
+          "views": 129000,
+          "url": "https://www.youtube.com/watch?v=bm1BjOjS7sQ",
+          "channel": "Two Minute Papers",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "8B05cy3UuSE",
+          "title": "NVIDIA's AI Learns Why Copying Humans Isn't Enough",
+          "views_text": "49K",
+          "published_text": "1mo ago",
+          "views": 49000,
+          "url": "https://www.youtube.com/watch?v=8B05cy3UuSE",
+          "channel": "Two Minute Papers",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "Xj-QdEUxJkE",
+          "title": "Kimi K3 Just Broke The Economics Of AI",
+          "views_text": "107K",
+          "published_text": "1mo ago",
+          "views": 107000,
+          "url": "https://www.youtube.com/watch?v=Xj-QdEUxJkE",
+          "channel": "Two Minute Papers",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "axOcn--n_lM",
+          "title": "Claude Just Revealed AI's Biggest Problem",
+          "views_text": "84K",
+          "published_text": "2mo ago",
+          "views": 84000,
+          "url": "https://www.youtube.com/watch?v=axOcn--n_lM",
+          "channel": "Two Minute Papers",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "0CqLVnx-2UM",
+          "title": "Anthropic Found Something That Shouldn't Exist",
+          "views_text": "72K",
+          "published_text": "2mo ago",
+          "views": 72000,
+          "url": "https://www.youtube.com/watch?v=0CqLVnx-2UM",
+          "channel": "Two Minute Papers",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "Ae9q7KsRbuI",
+          "title": "Minecraft Was Missing One Brilliant Idea",
+          "views_text": "246K",
+          "published_text": "2mo ago",
+          "views": 246000,
+          "url": "https://www.youtube.com/watch?v=Ae9q7KsRbuI",
+          "channel": "Two Minute Papers",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "1yBU41auQhw",
+          "title": "DeepSeek's Absolutely Insane AI Speed Hack (DSpark)",
+          "views_text": "67K",
+          "published_text": "2mo ago",
+          "views": 67000,
+          "url": "https://www.youtube.com/watch?v=1yBU41auQhw",
+          "channel": "Two Minute Papers",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "uO5cvkzh3P0",
+          "title": "They Said This Will Never Run In Real Time",
+          "views_text": "39K",
+          "published_text": "2mo ago",
+          "views": 39000,
+          "url": "https://www.youtube.com/watch?v=uO5cvkzh3P0",
+          "channel": "Two Minute Papers",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "qks6dGQFd_c",
+          "title": "AI Just Entered A New Era",
+          "views_text": "96K",
+          "published_text": "2mo ago",
+          "views": 96000,
+          "url": "https://www.youtube.com/watch?v=qks6dGQFd_c",
+          "channel": "Two Minute Papers",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "mG4SmhWyeFA",
+          "title": "DeepSeek Just Solved AI's Billion Dollar Problem",
+          "views_text": "231K",
+          "published_text": "3mo ago",
+          "views": 231000,
+          "url": "https://www.youtube.com/watch?v=mG4SmhWyeFA",
+          "channel": "Two Minute Papers",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "dUmT0OIGoqE",
+          "title": "Scientists Found A Better Language For AI Agents",
+          "views_text": "121K",
+          "published_text": "3mo ago",
+          "views": 121000,
+          "url": "https://www.youtube.com/watch?v=dUmT0OIGoqE",
+          "channel": "Two Minute Papers",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "l72ufA-4SzE",
+          "title": "They Looked Inside Claude’s AI's Mind. It Got Weird",
+          "views_text": "92K",
+          "published_text": "3mo ago",
+          "views": 92000,
+          "url": "https://www.youtube.com/watch?v=l72ufA-4SzE",
+          "channel": "Two Minute Papers",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "zJvN8PDX1is",
+          "title": "NVIDIA's New Free AI - A Gift To Humanity",
+          "views_text": "71K",
+          "published_text": "3mo ago",
+          "views": 71000,
+          "url": "https://www.youtube.com/watch?v=zJvN8PDX1is",
+          "channel": "Two Minute Papers",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "Dkqzqw8rxXI",
+          "title": "DeepMind’s New AI Found A Strange New Way To Think",
+          "views_text": "155K",
+          "published_text": "3mo ago",
+          "views": 155000,
+          "url": "https://www.youtube.com/watch?v=Dkqzqw8rxXI",
+          "channel": "Two Minute Papers",
+          "teams": [
+            "knowledge"
+          ]
+        }
+      ]
+    },
+    {
+      "stale": false,
+      "last_ok_at": "2026-09-28T12:08:20.382136+00:00",
+      "url": "https://www.youtube.com/@AIExplained-official",
+      "note": "AI 모델·연구 해설",
+      "team_hint": "knowledge",
+      "channel_name": "AI Explained",
+      "channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
+      "subscribers": "452K",
+      "video_count": 30,
+      "error": "",
+      "checked_at": "2026-09-28T12:08:20.382148+00:00",
+      "videos": [
+        {
+          "video_id": "R9momwXV9w4",
+          "title": "Opus 5.5: How Close Are We to Automated AI Research?",
+          "views_text": "248K",
+          "published_text": "3d ago",
+          "views": 248000,
+          "url": "https://www.youtube.com/watch?v=R9momwXV9w4",
+          "channel": "AI Explained",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "J3ljHm57yU0",
+          "title": "What AI Researchers Saw, Before Their Demand to ‘Pace’ AI",
+          "views_text": "218K",
+          "published_text": "11d ago",
+          "views": 218000,
+          "url": "https://www.youtube.com/watch?v=J3ljHm57yU0",
+          "channel": "AI Explained",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "Spuza-KwTJ4",
+          "title": "GPT 6 Astra, so good even OpenAI are worried",
+          "views_text": "851K",
+          "published_text": "3w ago",
+          "views": 851000,
+          "url": "https://www.youtube.com/watch?v=Spuza-KwTJ4",
+          "channel": "AI Explained",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "KL9_1GbmCic",
+          "title": "Sam Altman :‘AGI in 2026’, just as Models Start to [Mis]Train Themselves",
+          "views_text": "207K",
+          "published_text": "1mo ago",
+          "views": 207000,
+          "url": "https://www.youtube.com/watch?v=KL9_1GbmCic",
+          "channel": "AI Explained",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "xGzseSSStnw",
+          "title": "AI is getting a little out of control",
+          "views_text": "109K",
+          "published_text": "1mo ago",
+          "views": 109000,
+          "url": "https://www.youtube.com/watch?v=xGzseSSStnw",
+          "channel": "AI Explained",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "wzY2fV4Mp3U",
+          "title": "GPT-6 Goes Rogue? The HuggingFace Incident, Sans Hype",
+          "views_text": "127K",
+          "published_text": "2mo ago",
+          "views": 127000,
+          "url": "https://www.youtube.com/watch?v=wzY2fV4Mp3U",
+          "channel": "AI Explained",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "mWlCituW7wo",
+          "title": "A Model Explosion: GPT 5.6 Sol, Grok 4.5 and Meta Muse Rewrite the Rules",
+          "views_text": "88K",
+          "published_text": "2mo ago",
+          "views": 88000,
+          "url": "https://www.youtube.com/watch?v=mWlCituW7wo",
+          "channel": "AI Explained",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "y24lF1q4SFY",
+          "title": "Fable 5 vs GPT 5.6 Sol: The Early Results",
+          "views_text": "122K",
+          "published_text": "2mo ago",
+          "views": 122000,
+          "url": "https://www.youtube.com/watch?v=y24lF1q4SFY",
+          "channel": "AI Explained",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "Qj71N0tBzRo",
+          "title": "Claude Fable Blocked - 11 Quiet Details on What’s Next",
+          "views_text": "77K",
+          "published_text": "3mo ago",
+          "views": 77000,
+          "url": "https://www.youtube.com/watch?v=Qj71N0tBzRo",
+          "channel": "AI Explained",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "haK1KoQWm18",
+          "title": "Claude Fable 5 - Full 319 page Breakdown",
+          "views_text": "115K",
+          "published_text": "3mo ago",
+          "views": 115000,
+          "url": "https://www.youtube.com/watch?v=haK1KoQWm18",
+          "channel": "AI Explained",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "aJvP3nXWkwM",
+          "title": "New Claude Opus 4.8: 15 Things You May’ve Missed",
+          "views_text": "87K",
+          "published_text": "3mo ago",
+          "views": 87000,
+          "url": "https://www.youtube.com/watch?v=aJvP3nXWkwM",
+          "channel": "AI Explained",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "o_av1b9rs2g",
+          "title": "Two Rival Bets on AGI: Google I/O Highlights",
+          "views_text": "75K",
+          "published_text": "4mo ago",
+          "views": 75000,
+          "url": "https://www.youtube.com/watch?v=o_av1b9rs2g",
+          "channel": "AI Explained",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "jz0rNhfAKo8",
+          "title": "GPT 5.5 Arrives, DeepSeek V4 Drops, and the Compute War Intensifies",
+          "views_text": "108K",
+          "published_text": "5mo ago",
+          "views": 108000,
+          "url": "https://www.youtube.com/watch?v=jz0rNhfAKo8",
+          "channel": "AI Explained",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "QVJcdfkRpH8",
+          "title": "Claude Opus 4.7 - A New Frontier, in Performance … and Drama",
+          "views_text": "89K",
+          "published_text": "5mo ago",
+          "views": 89000,
+          "url": "https://www.youtube.com/watch?v=QVJcdfkRpH8",
+          "channel": "AI Explained",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "txx6ec6MLNY",
+          "title": "Claude Mythos: Highlights from 244-page Release",
+          "views_text": "152K",
+          "published_text": "5mo ago",
+          "views": 152000,
+          "url": "https://www.youtube.com/watch?v=txx6ec6MLNY",
+          "channel": "AI Explained",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "s4tptozUJ8Y",
+          "title": "Two AI Models Set to “stir government urgency”, But Will This Challenge Undo Them?",
+          "views_text": "74K",
+          "published_text": "6mo ago",
+          "views": 74000,
+          "url": "https://www.youtube.com/watch?v=s4tptozUJ8Y",
+          "channel": "AI Explained",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "zizoDORjmlQ",
+          "title": "What the New ChatGPT 5.4 Means for the World",
+          "views_text": "92K",
+          "published_text": "6mo ago",
+          "views": 92000,
+          "url": "https://www.youtube.com/watch?v=zizoDORjmlQ",
+          "channel": "AI Explained",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "Cru804JMjPI",
+          "title": "Deadline Day for Autonomous AI Weapons & Mass Surveillance",
+          "views_text": "41K",
+          "published_text": "7mo ago",
+          "views": 41000,
+          "url": "https://www.youtube.com/watch?v=Cru804JMjPI",
+          "channel": "AI Explained",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "2_DPnzoiHaY",
+          "title": "Gemini 3.1 Pro and the Downfall of Benchmarks: Welcome to the Vibe Era of AI",
+          "views_text": "109K",
+          "published_text": "7mo ago",
+          "views": 109000,
+          "url": "https://www.youtube.com/watch?v=2_DPnzoiHaY",
+          "channel": "AI Explained",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "1PxEziv5XIU",
+          "title": "The Two Best AI Models/Enemies Just Got Released Simultaneously",
+          "views_text": "81K",
+          "published_text": "7mo ago",
+          "views": 81000,
+          "url": "https://www.youtube.com/watch?v=1PxEziv5XIU",
+          "channel": "AI Explained",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "Iar4yweKGoI",
+          "title": "Claude AI Co-founder Publishes 4 Big Claims about Near Future: Breakdown",
+          "views_text": "73K",
+          "published_text": "7mo ago",
+          "views": 73000,
+          "url": "https://www.youtube.com/watch?v=Iar4yweKGoI",
+          "channel": "AI Explained",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "wYs6HWZ2FdM",
+          "title": "Anthropic: Our AI just created a tool that can ‘automate all white collar work’, Me:",
+          "views_text": "106K",
+          "published_text": "8mo ago",
+          "views": 106000,
+          "url": "https://www.youtube.com/watch?v=wYs6HWZ2FdM",
+          "channel": "AI Explained",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "FMMpUO1uAYk",
+          "title": "What the Freakiness of 2025 in AI Tells Us About 2026",
+          "views_text": "126K",
+          "published_text": "9mo ago",
+          "views": 126000,
+          "url": "https://www.youtube.com/watch?v=FMMpUO1uAYk",
+          "channel": "AI Explained",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "WHqaF4jbUYU",
+          "title": "Gemini Exponential, Demis Hassabis' ‘Proto-AGI’ coming, but …",
+          "views_text": "90K",
+          "published_text": "9mo ago",
+          "views": 90000,
+          "url": "https://www.youtube.com/watch?v=WHqaF4jbUYU",
+          "channel": "AI Explained",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "4p73Uu_jZ10",
+          "title": "GPT 5.2: OpenAI Strikes Back",
+          "views_text": "89K",
+          "published_text": "9mo ago",
+          "views": 89000,
+          "url": "https://www.youtube.com/watch?v=4p73Uu_jZ10",
+          "channel": "AI Explained",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "iO844izo9kw",
+          "title": "You Are Being Told Contradictory Things About AI",
+          "views_text": "76K",
+          "published_text": "9mo ago",
+          "views": 76000,
+          "url": "https://www.youtube.com/watch?v=iO844izo9kw",
+          "channel": "AI Explained",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "9hv4nr_46Ao",
+          "title": "Nano Banana Pro: But Did You Catch These 10 Details?",
+          "views_text": "60K",
+          "published_text": "10mo ago",
+          "views": 60000,
+          "url": "https://www.youtube.com/watch?v=9hv4nr_46Ao",
+          "channel": "AI Explained",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "chr2I7CZTfk",
+          "title": "Gemini 3 Pro: Breakdown",
+          "views_text": "119K",
+          "published_text": "10mo ago",
+          "views": 119000,
+          "url": "https://www.youtube.com/watch?v=chr2I7CZTfk",
+          "channel": "AI Explained",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "8eqdMpCz9tc",
+          "title": "Is GPT-5.1 Really an Upgrade? But Models Can Auto-Hack Govts, so … there’s that",
+          "views_text": "62K",
+          "published_text": "10mo ago",
+          "views": 62000,
+          "url": "https://www.youtube.com/watch?v=8eqdMpCz9tc",
+          "channel": "AI Explained",
+          "teams": [
+            "knowledge"
+          ]
+        },
+        {
+          "video_id": "Dl3Olh29_nY",
+          "title": "Bubble or No Bubble, AI Keeps Progressing (ft. Relentless Learning + Introspection)",
+          "views_text": "61K",
+          "published_text": "10mo ago",
+          "views": 61000,
+          "url": "https://www.youtube.com/watch?v=Dl3Olh29_nY",
+          "channel": "AI Explained",
+          "teams": [
+            "knowledge"
+          ]
+        }
+      ]
+    },
+    {
+      "stale": false,
+      "last_ok_at": "2026-09-28T12:08:25.825117+00:00",
+      "url": "https://www.youtube.com/@AmazonSellerUniversity",
+      "note": "Amazon 셀러 공식 교육",
+      "team_hint": "channels",
+      "channel_name": "Amazon Seller University",
+      "channel_id": "UCUG5BEHfTZXPLwSHl4NSy3Q",
+      "subscribers": "238K",
+      "video_count": 30,
+      "error": "",
+      "checked_at": "2026-09-28T12:08:25.825130+00:00",
+      "videos": [
+        {
+          "video_id": "oXWHIQ_Bg9c",
+          "title": "Featured Offer eligibility and strategies",
+          "views_text": "1.6K",
+          "published_text": "2mo ago",
+          "views": 1600,
+          "url": "https://www.youtube.com/watch?v=oXWHIQ_Bg9c",
+          "channel": "Amazon Seller University",
+          "teams": [
+            "channels"
+          ]
+        },
+        {
+          "video_id": "fKjgRQ8tIRs",
+          "title": "Intro to Fulfillment by Amazon (FBA)",
+          "views_text": "12K",
+          "published_text": "4mo ago",
+          "views": 12000,
+          "url": "https://www.youtube.com/watch?v=fKjgRQ8tIRs",
+          "channel": "Amazon Seller University",
+          "teams": [
+            "channels"
+          ]
+        },
+        {
+          "video_id": "vqr_qJjghNk",
+          "title": "Configure your Amazon Seller Central account",
+          "views_text": "2.5K",
+          "published_text": "4mo ago",
+          "views": 2500,
+          "url": "https://www.youtube.com/watch?v=vqr_qJjghNk",
+          "channel": "Amazon Seller University",
+          "teams": [
+            "channels"
+          ]
+        },
+        {
+          "video_id": "sUYXfDalJRY",
+          "title": "Which Amazon fulfillment method is right for me?",
+          "views_text": "1.1K",
+          "published_text": "4mo ago",
+          "views": 1100,
+          "url": "https://www.youtube.com/watch?v=sUYXfDalJRY",
+          "channel": "Amazon Seller University",
+          "teams": [
+            "channels"
+          ]
+        },
+        {
+          "video_id": "USIlc93mbW8",
+          "title": "Compare Amazon's Professional and Individual selling plans",
+          "views_text": "911",
+          "published_text": "4mo ago",
+          "views": 911,
+          "url": "https://www.youtube.com/watch?v=USIlc93mbW8",
+          "channel": "Amazon Seller University",
+          "teams": [
+            "channels"
+          ]
+        },
+        {
+          "video_id": "fP-7K_jrds0",
+          "title": "Sell in the Amazon store: 5-minute overview for beginners",
+          "views_text": "1.4K",
+          "published_text": "4mo ago",
+          "views": 1400,
+          "url": "https://www.youtube.com/watch?v=fP-7K_jrds0",
+          "channel": "Amazon Seller University",
+          "teams": [
+            "channels"
+          ]
+        },
+        {
+          "video_id": "6SGjwdCo_Ns",
+          "title": "Create product variations one at a time",
+          "views_text": "1K",
+          "published_text": "4mo ago",
+          "views": 1000,
+          "url": "https://www.youtube.com/watch?v=6SGjwdCo_Ns",
+          "channel": "Amazon Seller University",
+          "teams": [
+            "channels"
+          ]
+        },
+        {
+          "video_id": "E5EAD1kKEPc",
+          "title": "Maximize Your Amazon B2B Sales with Fee Discounts",
+          "views_text": "494",
+          "published_text": "4mo ago",
+          "views": 494,
+          "url": "https://www.youtube.com/watch?v=E5EAD1kKEPc",
+          "channel": "Amazon Seller University",
+          "teams": [
+            "channels"
+          ]
+        },
+        {
+          "video_id": "DvDn0PKz8A4",
+          "title": "Add business certifications to your profile",
+          "views_text": "531",
+          "published_text": "4mo ago",
+          "views": 531,
+          "url": "https://www.youtube.com/watch?v=DvDn0PKz8A4",
+          "channel": "Amazon Seller University",
+          "teams": [
+            "channels"
+          ]
+        },
+        {
+          "video_id": "xNY8v4O8ExM",
+          "title": "How I Hit $100K in Sales Without Building a Warehouse | Amazon Seller Insights",
+          "views_text": "1.6K",
+          "published_text": "5mo ago",
+          "views": 1600,
+          "url": "https://www.youtube.com/watch?v=xNY8v4O8ExM",
+          "channel": "Amazon Seller University",
+          "teams": [
+            "channels"
+          ]
+        },
+        {
+          "video_id": "5cfz46esofo",
+          "title": "Should You Spend on Amazon Ads? Why PPC Is Essential for Sellers | Amazon Seller Insights",
+          "views_text": "2.9K",
+          "published_text": "5mo ago",
+          "views": 2900,
+          "url": "https://www.youtube.com/watch?v=5cfz46esofo",
+          "channel": "Amazon Seller University",
+          "teams": [
+            "channels"
+          ]
+        },
+        {
+          "video_id": "YI9Oar-NT_8",
+          "title": "Amazon Vine Program Explained: How to Get Early Reviews for New Products | Amazon Seller Insights",
+          "views_text": "1.4K",
+          "published_text": "5mo ago",
+          "views": 1400,
+          "url": "https://www.youtube.com/watch?v=YI9Oar-NT_8",
+          "channel": "Amazon Seller University",
+          "teams": [
+            "channels"
+          ]
+        },
+        {
+          "video_id": "KDI73nLbYk4",
+          "title": "Amazon AI Studio: Create Product Photos & Videos in Minutes | Amazon Seller Insights",
+          "views_text": "2.6K",
+          "published_text": "5mo ago",
+          "views": 2600,
+          "url": "https://www.youtube.com/watch?v=KDI73nLbYk4",
+          "channel": "Amazon Seller University",
+          "teams": [
+            "channels"
+          ]
+        },
+        {
+          "video_id": "hHSJvgFzqxM",
+          "title": "First-Time Amazon Seller Tips: How to Prioritize Your Business for Success | Amazon Seller Insights",
+          "views_text": "1.2K",
+          "published_text": "5mo ago",
+          "views": 1200,
+          "url": "https://www.youtube.com/watch?v=hHSJvgFzqxM",
+          "channel": "Amazon Seller University",
+          "teams": [
+            "channels"
+          ]
+        },
+        {
+          "video_id": "an-Jd5bi_J0",
+          "title": "What I'd tell every new Amazon seller  | Amazon Seller Insights",
+          "views_text": "665",
+          "published_text": "5mo ago",
+          "views": 665,
+          "url": "https://www.youtube.com/watch?v=an-Jd5bi_J0",
+          "channel": "Amazon Seller University",
+          "teams": [
+            "channels"
+          ]
+        },
+        {
+          "video_id": "eWPneoeo6sA",
+          "title": "Intro to promoting your products on Amazon",
+          "views_text": "779",
+          "published_text": "5mo ago",
+          "views": 779,
+          "url": "https://www.youtube.com/watch?v=eWPneoeo6sA",
+          "channel": "Amazon Seller University",
+          "teams": [
+            "channels"
+          ]
+        },
+        {
+          "video_id": "yQnj0fJEDc0",
+          "title": "How to create a Deal in the Amazon store",
+          "views_text": "860",
+          "published_text": "5mo ago",
+          "views": 860,
+          "url": "https://www.youtube.com/watch?v=yQnj0fJEDc0",
+          "channel": "Amazon Seller University",
+          "teams": [
+            "channels"
+          ]
+        },
+        {
+          "video_id": "DCJjDJKjWs0",
+          "title": "Amazon Brand Registry Explained: How to Protect Your Brand & Stop Copycats | Amazon Seller Insights",
+          "views_text": "751",
+          "published_text": "6mo ago",
+          "views": 751,
+          "url": "https://www.youtube.com/watch?v=DCJjDJKjWs0",
+          "channel": "Amazon Seller University",
+          "teams": [
+            "channels"
+          ]
+        },
+        {
+          "video_id": "SsJySSbv5wA",
+          "title": "How to Grow Your Amazon Catalog with Variations & Bundles | Amazon Seller Insights",
+          "views_text": "594",
+          "published_text": "6mo ago",
+          "views": 594,
+          "url": "https://www.youtube.com/watch?v=SsJySSbv5wA",
+          "channel": "Amazon Seller University",
+          "teams": [
+            "channels"
+          ]
+        },
+        {
+          "video_id": "WLWHAkr4abc",
+          "title": "Manage your payment information on your Amazon selling account",
+          "views_text": "995",
+          "published_text": "6mo ago",
+          "views": 995,
+          "url": "https://www.youtube.com/watch?v=WLWHAkr4abc",
+          "channel": "Amazon Seller University",
+          "teams": [
+            "channels"
+          ]
+        },
+        {
+          "video_id": "U_8CBzdgEl4",
+          "title": "New Seller Central: Manage Shipments",
+          "views_text": "560",
+          "published_text": "6mo ago",
+          "views": 560,
+          "url": "https://www.youtube.com/watch?v=U_8CBzdgEl4",
+          "channel": "Amazon Seller University",
+          "teams": [
+            "channels"
+          ]
+        },
+        {
+          "video_id": "NGg89omsLHY",
+          "title": "Benefits of adding a video to an Amazon product listing",
+          "views_text": "586",
+          "published_text": "6mo ago",
+          "views": 586,
+          "url": "https://www.youtube.com/watch?v=NGg89omsLHY",
+          "channel": "Amazon Seller University",
+          "teams": [
+            "channels"
+          ]
+        },
+        {
+          "video_id": "BPnEVgsWulQ",
+          "title": "Amazon Brand Tailored Promotions: Discount Smarter Without Hurting Margins | Amazon Seller Insights",
+          "views_text": "386",
+          "published_text": "6mo ago",
+          "views": 386,
+          "url": "https://www.youtube.com/watch?v=BPnEVgsWulQ",
+          "channel": "Amazon Seller University",
+          "teams": [
+            "channels"
+          ]
+        },
+        {
+          "video_id": "TBa7sNhf8LI",
+          "title": "How to Sell Globally Without Costly Mistakes (Lessons Learned) | Amazon Seller Insights",
+          "views_text": "586",
+          "published_text": "6mo ago",
+          "views": 586,
+          "url": "https://www.youtube.com/watch?v=TBa7sNhf8LI",
+          "channel": "Amazon Seller University",
+          "teams": [
+            "channels"
+          ]
+        },
+        {
+          "video_id": "BOT3kMcuvRk",
+          "title": "How to Use AI Tools to Optimize Amazon Product Listings in 2026 | Amazon Seller Insights",
+          "views_text": "2.9K",
+          "published_text": "6mo ago",
+          "views": 2900,
+          "url": "https://www.youtube.com/watch?v=BOT3kMcuvRk",
+          "channel": "Amazon Seller University",
+          "teams": [
+            "channels"
+          ]
+        },
+        {
+          "video_id": "GeM_uDdUHow",
+          "title": "How I Scaled Amazon to $10M+ in 2 Years | Amazon Seller Insights",
+          "views_text": "474",
+          "published_text": "6mo ago",
+          "views": 474,
+          "url": "https://www.youtube.com/watch?v=GeM_uDdUHow",
+          "channel": "Amazon Seller University",
+          "teams": [
+            "channels"
+          ]
+        },
+        {
+          "video_id": "KT3hhBmT0wg",
+          "title": "How to Use Amazon Coupons & Promotions to Stand Out in Search | Amazon Seller Insights",
+          "views_text": "626",
+          "published_text": "6mo ago",
+          "views": 626,
+          "url": "https://www.youtube.com/watch?v=KT3hhBmT0wg",
+          "channel": "Amazon Seller University",
+          "teams": [
+            "channels"
+          ]
+        },
+        {
+          "video_id": "RfZOi_chU14",
+          "title": "How to Optimize Amazon Listings for More Sales in 2026 | Amazon Seller Insights",
+          "views_text": "671",
+          "published_text": "6mo ago",
+          "views": 671,
+          "url": "https://www.youtube.com/watch?v=RfZOi_chU14",
+          "channel": "Amazon Seller University",
+          "teams": [
+            "channels"
+          ]
+        },
+        {
+          "video_id": "dLwTSKX2QvQ",
+          "title": "Meet Amazon's compliance requirements",
+          "views_text": "821",
+          "published_text": "6mo ago",
+          "views": 821,
+          "url": "https://www.youtube.com/watch?v=dLwTSKX2QvQ",
+          "channel": "Amazon Seller University",
+          "teams": [
+            "channels"
+          ]
+        },
+        {
+          "video_id": "4--uIEnpiHw",
+          "title": "Track and respond to customer reviews on Amazon",
+          "views_text": "935",
+          "published_text": "6mo ago",
+          "views": 935,
+          "url": "https://www.youtube.com/watch?v=4--uIEnpiHw",
+          "channel": "Amazon Seller University",
+          "teams": [
+            "channels"
+          ]
+        }
+      ]
+    },
+    {
+      "stale": false,
+      "last_ok_at": "2026-09-28T12:08:31.504254+00:00",
+      "url": "https://www.youtube.com/@US_FDA",
+      "note": "U.S. FDA 공식 (화장품·MoCRA)",
+      "team_hint": "legal",
+      "channel_name": "U.S. Food and Drug Administration",
+      "channel_id": "UC_giJ3xlEL9jUF1YfJdzzuQ",
+      "subscribers": "199K",
+      "video_count": 30,
+      "error": "",
+      "checked_at": "2026-09-28T12:08:31.504265+00:00",
+      "videos": [
+        {
+          "video_id": "ZJJiLao0eVw",
+          "title": "Part Three: Substantial Equivalence (SE): The Predicate Review Process, Amendments, and Outcomes",
+          "views_text": "506",
+          "published_text": "6d ago",
+          "views": 506,
+          "url": "https://www.youtube.com/watch?v=ZJJiLao0eVw",
+          "channel": "U.S. Food and Drug Administration",
+          "teams": [
+            "legal"
+          ]
+        },
+        {
+          "video_id": "yIJs3G8T8Ks",
+          "title": "Part Two: Substantial Equivalence (SE): Reviewing Predicate Tobacco Eligibility",
+          "views_text": "394",
+          "published_text": "6d ago",
+          "views": 394,
+          "url": "https://www.youtube.com/watch?v=yIJs3G8T8Ks",
+          "channel": "U.S. Food and Drug Administration",
+          "teams": [
+            "legal"
+          ]
+        },
+        {
+          "video_id": "I-pkoMqe9B4",
+          "title": "Part One: Substantial Equivalence (SE): Key Concepts and Overview of The SE Review Process",
+          "views_text": "519",
+          "published_text": "6d ago",
+          "views": 519,
+          "url": "https://www.youtube.com/watch?v=I-pkoMqe9B4",
+          "channel": "U.S. Food and Drug Administration",
+          "teams": [
+            "legal"
+          ]
+        },
+        {
+          "video_id": "ldOjG94FwRI",
+          "title": "Tips to Stay Safe in the Sun",
+          "views_text": "680",
+          "published_text": "2w ago",
+          "views": 680,
+          "url": "https://www.youtube.com/watch?v=ldOjG94FwRI",
+          "channel": "U.S. Food and Drug Administration",
+          "teams": [
+            "legal"
+          ]
+        },
+        {
+          "video_id": "lG8Vhfqpsn0",
+          "title": "Sun Safety for Baby: Protect your little ones",
+          "views_text": "657",
+          "published_text": "2w ago",
+          "views": 657,
+          "url": "https://www.youtube.com/watch?v=lG8Vhfqpsn0",
+          "channel": "U.S. Food and Drug Administration",
+          "teams": [
+            "legal"
+          ]
+        },
+        {
+          "video_id": "n6oboWBI_Ec",
+          "title": "FDA Patient-Focused Drug Development Meeting for Nonhealing Chronic Wounds",
+          "views_text": "2.6K",
+          "published_text": "1mo ago",
+          "views": 2600,
+          "url": "https://www.youtube.com/watch?v=n6oboWBI_Ec",
+          "channel": "U.S. Food and Drug Administration",
+          "teams": [
+            "legal"
+          ]
+        },
+        {
+          "video_id": "bFr8HiRPaWs",
+          "title": "FDA Draft Guidance on Potency Assessment of Active Immunotherapy Products",
+          "views_text": "1.7K",
+          "published_text": "1mo ago",
+          "views": 1700,
+          "url": "https://www.youtube.com/watch?v=bFr8HiRPaWs",
+          "channel": "U.S. Food and Drug Administration",
+          "teams": [
+            "legal"
+          ]
+        },
+        {
+          "video_id": "N25K080mYE8",
+          "title": "Navigating the FDA Bayesian Draft Guidance: Design, Analysis, and Review Considerations",
+          "views_text": "3.2K",
+          "published_text": "1mo ago",
+          "views": 3200,
+          "url": "https://www.youtube.com/watch?v=N25K080mYE8",
+          "channel": "U.S. Food and Drug Administration",
+          "teams": [
+            "legal"
+          ]
+        },
+        {
+          "video_id": "izDzhj9Ah2c",
+          "title": "FDA Grand Rounds-The Role of FDA in Preventing Medication Errors",
+          "views_text": "907",
+          "published_text": "1mo ago",
+          "views": 907,
+          "url": "https://www.youtube.com/watch?v=izDzhj9Ah2c",
+          "channel": "U.S. Food and Drug Administration",
+          "teams": [
+            "legal"
+          ]
+        },
+        {
+          "video_id": "Bxrhk5FgKz4",
+          "title": "Expedited Investigational New Drug (IND) pilot program webinar",
+          "views_text": "6.4K",
+          "published_text": "1mo ago",
+          "views": 6400,
+          "url": "https://www.youtube.com/watch?v=Bxrhk5FgKz4",
+          "channel": "U.S. Food and Drug Administration",
+          "teams": [
+            "legal"
+          ]
+        },
+        {
+          "video_id": "D7-t4DzJRII",
+          "title": "Draft Guidance: Leveraging Prior Knowledge in the Development of Human GT Products Incorporating GE",
+          "views_text": "1.5K",
+          "published_text": "1mo ago",
+          "views": 1500,
+          "url": "https://www.youtube.com/watch?v=D7-t4DzJRII",
+          "channel": "U.S. Food and Drug Administration",
+          "teams": [
+            "legal"
+          ]
+        },
+        {
+          "video_id": "UexxgCjHZV0",
+          "title": "GDF2026 - Closing Remarks",
+          "views_text": "1K",
+          "published_text": "1mo ago",
+          "views": 1000,
+          "url": "https://www.youtube.com/watch?v=UexxgCjHZV0",
+          "channel": "U.S. Food and Drug Administration",
+          "teams": [
+            "legal"
+          ]
+        },
+        {
+          "video_id": "m9Ww8tUFWfk",
+          "title": "GDF2026 - Q&A Discussion Panel Eight",
+          "views_text": "305",
+          "published_text": "1mo ago",
+          "views": 305,
+          "url": "https://www.youtube.com/watch?v=m9Ww8tUFWfk",
+          "channel": "U.S. Food and Drug Administration",
+          "teams": [
+            "legal"
+          ]
+        },
+        {
+          "video_id": "oyiX0Czfwyw",
+          "title": "GDF2026 - Manufacturing Deficiencies in Liquid Drug Products: The Top Ten Issues",
+          "views_text": "871",
+          "published_text": "1mo ago",
+          "views": 871,
+          "url": "https://www.youtube.com/watch?v=oyiX0Czfwyw",
+          "channel": "U.S. Food and Drug Administration",
+          "teams": [
+            "legal"
+          ]
+        },
+        {
+          "video_id": "3fgnBFwf1ZE",
+          "title": "GDF2026 - Recent Trends in Pharmaceutical Freeze-Drying and Control Strategies",
+          "views_text": "538",
+          "published_text": "1mo ago",
+          "views": 538,
+          "url": "https://www.youtube.com/watch?v=3fgnBFwf1ZE",
+          "channel": "U.S. Food and Drug Administration",
+          "teams": [
+            "legal"
+          ]
+        },
+        {
+          "video_id": "JkRKxB3xwdQ",
+          "title": "GDF2026 - Bioanalysis of Endogenous Drugs Using Surrogate Matrix Approach in ANDAs",
+          "views_text": "424",
+          "published_text": "1mo ago",
+          "views": 424,
+          "url": "https://www.youtube.com/watch?v=JkRKxB3xwdQ",
+          "channel": "U.S. Food and Drug Administration",
+          "teams": [
+            "legal"
+          ]
+        },
+        {
+          "video_id": "owEVCzDHr3k",
+          "title": "GDF2026 - ICH M13A High-Risk vs. Low-Risk Case Studies – Bioequivalence (BE) Implications",
+          "views_text": "416",
+          "published_text": "1mo ago",
+          "views": 416,
+          "url": "https://www.youtube.com/watch?v=owEVCzDHr3k",
+          "channel": "U.S. Food and Drug Administration",
+          "teams": [
+            "legal"
+          ]
+        },
+        {
+          "video_id": "RPagNxJipNw",
+          "title": "GDF2026 - Q&A Discussion Panel Seven",
+          "views_text": "215",
+          "published_text": "1mo ago",
+          "views": 215,
+          "url": "https://www.youtube.com/watch?v=RPagNxJipNw",
+          "channel": "U.S. Food and Drug Administration",
+          "teams": [
+            "legal"
+          ]
+        },
+        {
+          "video_id": "dRjMrE5X7Vs",
+          "title": "GDF2026 - Quality and Safety Assessment of Extractables/Leachables in Generic Drug Products",
+          "views_text": "696",
+          "published_text": "1mo ago",
+          "views": 696,
+          "url": "https://www.youtube.com/watch?v=dRjMrE5X7Vs",
+          "channel": "U.S. Food and Drug Administration",
+          "teams": [
+            "legal"
+          ]
+        },
+        {
+          "video_id": "resgk9xULEs",
+          "title": "GDF2026 - Updates on Nitrosamines/ Nitrosamine Mitigation Strategies for Pharmaceuticals",
+          "views_text": "564",
+          "published_text": "1mo ago",
+          "views": 564,
+          "url": "https://www.youtube.com/watch?v=resgk9xULEs",
+          "channel": "U.S. Food and Drug Administration",
+          "teams": [
+            "legal"
+          ]
+        },
+        {
+          "video_id": "U4fMQ4s-m30",
+          "title": "GDF2026 - Bioequivalence (BE) Recommendations for Bridging Pre- and Post-Mitigation Formulations",
+          "views_text": "324",
+          "published_text": "1mo ago",
+          "views": 324,
+          "url": "https://www.youtube.com/watch?v=U4fMQ4s-m30",
+          "channel": "U.S. Food and Drug Administration",
+          "teams": [
+            "legal"
+          ]
+        },
+        {
+          "video_id": "K7_sI0KE0s4",
+          "title": "GDF2026 - Best Practices for Safety Assessment of Nitrosamines in Generic Drugs",
+          "views_text": "215",
+          "published_text": "1mo ago",
+          "views": 215,
+          "url": "https://www.youtube.com/watch?v=K7_sI0KE0s4",
+          "channel": "U.S. Food and Drug Administration",
+          "teams": [
+            "legal"
+          ]
+        },
+        {
+          "video_id": "gXJVCAYUrXM",
+          "title": "GDF2026 - Q&A Discussion Panel Six",
+          "views_text": "219",
+          "published_text": "1mo ago",
+          "views": 219,
+          "url": "https://www.youtube.com/watch?v=gXJVCAYUrXM",
+          "channel": "U.S. Food and Drug Administration",
+          "teams": [
+            "legal"
+          ]
+        },
+        {
+          "video_id": "LeX8xwKyy2c",
+          "title": "GDF2026 - Q&A Discussion Panel Two",
+          "views_text": "100",
+          "published_text": "1mo ago",
+          "views": 100,
+          "url": "https://www.youtube.com/watch?v=LeX8xwKyy2c",
+          "channel": "U.S. Food and Drug Administration",
+          "teams": [
+            "legal"
+          ]
+        },
+        {
+          "video_id": "9xGEFgj5sno",
+          "title": "GDF2026 - Common Microbiology Deficiencies for Ophthalmic Suspension Drug Products",
+          "views_text": "304",
+          "published_text": "1mo ago",
+          "views": 304,
+          "url": "https://www.youtube.com/watch?v=9xGEFgj5sno",
+          "channel": "U.S. Food and Drug Administration",
+          "teams": [
+            "legal"
+          ]
+        },
+        {
+          "video_id": "nRE7vCS67cc",
+          "title": "GDF2026 - Data Integrity in ANDA Applications",
+          "views_text": "187",
+          "published_text": "1mo ago",
+          "views": 187,
+          "url": "https://www.youtube.com/watch?v=nRE7vCS67cc",
+          "channel": "U.S. Food and Drug Administration",
+          "teams": [
+            "legal"
+          ]
+        },
+        {
+          "video_id": "v_N1crA5oZ4",
+          "title": "GDF2026 - Common Manufacturing Deficiencies for Complex Dosage Forms",
+          "views_text": "309",
+          "published_text": "1mo ago",
+          "views": 309,
+          "url": "https://www.youtube.com/watch?v=v_N1crA5oZ4",
+          "channel": "U.S. Food and Drug Administration",
+          "teams": [
+            "legal"
+          ]
+        },
+        {
+          "video_id": "TdztZ0tgs84",
+          "title": "GDF2026 - Managing Your Letters of Authorization (LOAs)",
+          "views_text": "208",
+          "published_text": "1mo ago",
+          "views": 208,
+          "url": "https://www.youtube.com/watch?v=TdztZ0tgs84",
+          "channel": "U.S. Food and Drug Administration",
+          "teams": [
+            "legal"
+          ]
+        },
+        {
+          "video_id": "HSwvc-OHhX8",
+          "title": "GDF2026 - Regulatory Review Process for Type II Secondary DMFs",
+          "views_text": "116",
+          "published_text": "1mo ago",
+          "views": 116,
+          "url": "https://www.youtube.com/watch?v=HSwvc-OHhX8",
+          "channel": "U.S. Food and Drug Administration",
+          "teams": [
+            "legal"
+          ]
+        },
+        {
+          "video_id": "9t00CGZxt9c",
+          "title": "GDF2026 - Pre-Abbreviated New Drug Application (ANDA) Meetings for Complex Drug Products",
+          "views_text": "96",
+          "published_text": "1mo ago",
+          "views": 96,
+          "url": "https://www.youtube.com/watch?v=9t00CGZxt9c",
+          "channel": "U.S. Food and Drug Administration",
+          "teams": [
+            "legal"
+          ]
+        }
+      ]
+    },
+    {
+      "stale": false,
+      "last_ok_at": "2026-09-28T12:08:36.957216+00:00",
+      "url": "https://www.youtube.com/@linkingyourthinking",
+      "note": "Obsidian·개인 지식관리(PKM)",
+      "team_hint": "graph",
+      "channel_name": "Linking Your Thinking with Nick Milo",
+      "channel_id": "UC85D7ERwhke7wVqskV_DZUA",
+      "subscribers": "375K",
+      "video_count": 30,
+      "error": "",
+      "checked_at": "2026-09-28T12:08:36.957228+00:00",
+      "videos": [
+        {
+          "video_id": "l878ahBkx68",
+          "title": "The Obsidian Theme I've Refined for 3 Years...",
+          "views_text": "48K",
+          "published_text": "3mo ago",
+          "views": 48000,
+          "url": "https://www.youtube.com/watch?v=l878ahBkx68",
+          "channel": "Linking Your Thinking with Nick Milo",
+          "teams": [
+            "graph"
+          ]
+        },
+        {
+          "video_id": "rRa9td4oe7k",
+          "title": "How I Use Obsidian + Claude Cowork to Run My Life",
+          "views_text": "319K",
+          "published_text": "3mo ago",
+          "views": 319000,
+          "url": "https://www.youtube.com/watch?v=rRa9td4oe7k",
+          "channel": "Linking Your Thinking with Nick Milo",
+          "teams": [
+            "graph"
+          ]
+        },
+        {
+          "video_id": "63jRQuGossE",
+          "title": "The BEST Way to Capture Into Obsidian (just got better)",
+          "views_text": "89K",
+          "published_text": "4mo ago",
+          "views": 89000,
+          "url": "https://www.youtube.com/watch?v=63jRQuGossE",
+          "channel": "Linking Your Thinking with Nick Milo",
+          "teams": [
+            "graph"
+          ]
+        },
+        {
+          "video_id": "jbHB-rzKBAs",
+          "title": "The 3-File AI System That Works With ANY MODEL",
+          "views_text": "194K",
+          "published_text": "5mo ago",
+          "views": 194000,
+          "url": "https://www.youtube.com/watch?v=jbHB-rzKBAs",
+          "channel": "Linking Your Thinking with Nick Milo",
+          "teams": [
+            "graph"
+          ]
+        },
+        {
+          "video_id": "s3ccD6m6WKc",
+          "title": "Give Me 20 Minutes. I'll Teach You 80% of Claude Cowork",
+          "views_text": "209K",
+          "published_text": "6mo ago",
+          "views": 209000,
+          "url": "https://www.youtube.com/watch?v=s3ccD6m6WKc",
+          "channel": "Linking Your Thinking with Nick Milo",
+          "teams": [
+            "graph"
+          ]
+        },
+        {
+          "video_id": "ac30885Y_38",
+          "title": "How to Organize Your Files Better Than 99% of People",
+          "views_text": "56K",
+          "published_text": "7mo ago",
+          "views": 56000,
+          "url": "https://www.youtube.com/watch?v=ac30885Y_38",
+          "channel": "Linking Your Thinking with Nick Milo",
+          "teams": [
+            "graph"
+          ]
+        },
+        {
+          "video_id": "H8Et852HxTA",
+          "title": "3 Factors to Consider When Using AI",
+          "views_text": "7mo ago",
+          "published_text": "",
+          "views": 7000000,
+          "url": "https://www.youtube.com/watch?v=H8Et852HxTA",
+          "channel": "Linking Your Thinking with Nick Milo",
+          "teams": [
+            "graph"
+          ]
+        },
+        {
+          "video_id": "646GdYl2nKs",
+          "title": "Give Me 13 Minutes. I'll Teach You 80% of NotebookLM",
+          "views_text": "186K",
+          "published_text": "7mo ago",
+          "views": 186000,
+          "url": "https://www.youtube.com/watch?v=646GdYl2nKs",
+          "channel": "Linking Your Thinking with Nick Milo",
+          "teams": [
+            "graph"
+          ]
+        },
+        {
+          "video_id": "y6YTk0C5pBY",
+          "title": "Obsidian Just Won",
+          "views_text": "188K",
+          "published_text": "7mo ago",
+          "views": 188000,
+          "url": "https://www.youtube.com/watch?v=y6YTk0C5pBY",
+          "channel": "Linking Your Thinking with Nick Milo",
+          "teams": [
+            "graph"
+          ]
+        },
+        {
+          "video_id": "Sv7DgGr7xP4",
+          "title": "This Book Will Help You Finish What You Start (Intentional by Chris Bailey)",
+          "views_text": "15K",
+          "published_text": "8mo ago",
+          "views": 15000,
+          "url": "https://www.youtube.com/watch?v=Sv7DgGr7xP4",
+          "channel": "Linking Your Thinking with Nick Milo",
+          "teams": [
+            "graph"
+          ]
+        },
+        {
+          "video_id": "kU23J6uoV_8",
+          "title": "Things, Pings, Pongs, & Wongs: I added to my daily note",
+          "views_text": "8mo ago",
+          "published_text": "",
+          "views": 8000000,
+          "url": "https://www.youtube.com/watch?v=kU23J6uoV_8",
+          "channel": "Linking Your Thinking with Nick Milo",
+          "teams": [
+            "graph"
+          ]
+        },
+        {
+          "video_id": "ROFFaUZftJE",
+          "title": "This Obsidian update will make you STOP SCROLLING. (Mobile 2.0)",
+          "views_text": "85K",
+          "published_text": "9mo ago",
+          "views": 85000,
+          "url": "https://www.youtube.com/watch?v=ROFFaUZftJE",
+          "channel": "Linking Your Thinking with Nick Milo",
+          "teams": [
+            "graph"
+          ]
+        },
+        {
+          "video_id": "j64YOie4bIw",
+          "title": "Build a Year Map and Finally Be Prepared",
+          "views_text": "168K",
+          "published_text": "9mo ago",
+          "views": 168000,
+          "url": "https://www.youtube.com/watch?v=j64YOie4bIw",
+          "channel": "Linking Your Thinking with Nick Milo",
+          "teams": [
+            "graph"
+          ]
+        },
+        {
+          "video_id": "1Ym3ZtH0DFo",
+          "title": "Obsidian Mobile - First Look (Behind the Scenes)",
+          "views_text": "9mo ago",
+          "published_text": "",
+          "views": 9000000,
+          "url": "https://www.youtube.com/watch?v=1Ym3ZtH0DFo",
+          "channel": "Linking Your Thinking with Nick Milo",
+          "teams": [
+            "graph"
+          ]
+        },
+        {
+          "video_id": "KekL4cLtpuc",
+          "title": "The Biggest Obsidian Upgrade I’ve Made in Years…",
+          "views_text": "68K",
+          "published_text": "10mo ago",
+          "views": 68000,
+          "url": "https://www.youtube.com/watch?v=KekL4cLtpuc",
+          "channel": "Linking Your Thinking with Nick Milo",
+          "teams": [
+            "graph"
+          ]
+        },
+        {
+          "video_id": "KAYuqH7igfY",
+          "title": "SNEAK PEEK: How the Ideaverse in Obsidian is evolving (PRIVATE)",
+          "views_text": "10mo ago",
+          "published_text": "",
+          "views": 10000000,
+          "url": "https://www.youtube.com/watch?v=KAYuqH7igfY",
+          "channel": "Linking Your Thinking with Nick Milo",
+          "teams": [
+            "graph"
+          ]
+        },
+        {
+          "video_id": "J3KHlz89cRs",
+          "title": "The 4 Levels of Obsidian",
+          "views_text": "38K",
+          "published_text": "10mo ago",
+          "views": 38000,
+          "url": "https://www.youtube.com/watch?v=J3KHlz89cRs",
+          "channel": "Linking Your Thinking with Nick Milo",
+          "teams": [
+            "graph"
+          ]
+        },
+        {
+          "video_id": "9TQ41CxG8pA",
+          "title": "Obsidian Triad: Properties, Bases, Workspaces (Behind the Scenes)",
+          "views_text": "10mo ago",
+          "published_text": "",
+          "views": 10000000,
+          "url": "https://www.youtube.com/watch?v=9TQ41CxG8pA",
+          "channel": "Linking Your Thinking with Nick Milo",
+          "teams": [
+            "graph"
+          ]
+        },
+        {
+          "video_id": "DLuMopQkNTU",
+          "title": "EXTENDED CUT: Five WEIRD Notebooks that I Love",
+          "views_text": "10mo ago",
+          "published_text": "",
+          "views": 10000000,
+          "url": "https://www.youtube.com/watch?v=DLuMopQkNTU",
+          "channel": "Linking Your Thinking with Nick Milo",
+          "teams": [
+            "graph"
+          ]
+        },
+        {
+          "video_id": "YGTFmKenoP0",
+          "title": "The Top 5 Notebooks I Use Every Day",
+          "views_text": "24K",
+          "published_text": "10mo ago",
+          "views": 24000,
+          "url": "https://www.youtube.com/watch?v=YGTFmKenoP0",
+          "channel": "Linking Your Thinking with Nick Milo",
+          "teams": [
+            "graph"
+          ]
+        },
+        {
+          "video_id": "RBvaL5NEoPE",
+          "title": "EXTENDED CUT: Everything New in Obsidian! October 2025 (Groups, Summaries, List View)",
+          "views_text": "11mo ago",
+          "published_text": "",
+          "views": 11000000,
+          "url": "https://www.youtube.com/watch?v=RBvaL5NEoPE",
+          "channel": "Linking Your Thinking with Nick Milo",
+          "teams": [
+            "graph"
+          ]
+        },
+        {
+          "video_id": "v3phAgaFs2M",
+          "title": "Everything New in Obsidian! October 2025 (Groups, Summaries, List View)",
+          "views_text": "28K",
+          "published_text": "11mo ago",
+          "views": 28000,
+          "url": "https://www.youtube.com/watch?v=v3phAgaFs2M",
+          "channel": "Linking Your Thinking with Nick Milo",
+          "teams": [
+            "graph"
+          ]
+        },
+        {
+          "video_id": "zql7E09r7yA",
+          "title": "EXTENDED CUT: Deep-Dive into 10 Digital Tools I Use Daily",
+          "views_text": "11mo ago",
+          "published_text": "",
+          "views": 11000000,
+          "url": "https://www.youtube.com/watch?v=zql7E09r7yA",
+          "channel": "Linking Your Thinking with Nick Milo",
+          "teams": [
+            "graph"
+          ]
+        },
+        {
+          "video_id": "caooQgeHKXA",
+          "title": "10 Digital Tools that Quietly Changed the Way I Work",
+          "views_text": "33K",
+          "published_text": "11mo ago",
+          "views": 33000,
+          "url": "https://www.youtube.com/watch?v=caooQgeHKXA",
+          "channel": "Linking Your Thinking with Nick Milo",
+          "teams": [
+            "graph"
+          ]
+        },
+        {
+          "video_id": "z4AbijUCoKU",
+          "title": "Give Me 15 Minutes. I'll Teach You  80% of Obsidian",
+          "views_text": "2.2M",
+          "published_text": "1y ago",
+          "views": 2200000,
+          "url": "https://www.youtube.com/watch?v=z4AbijUCoKU",
+          "channel": "Linking Your Thinking with Nick Milo",
+          "teams": [
+            "graph"
+          ]
+        },
+        {
+          "video_id": "a1FDaoF8Jog",
+          "title": "Obsidian + AI: How to Do It The Right Way (Claude Code + Obsidian)",
+          "views_text": "233K",
+          "published_text": "1y ago",
+          "views": 233000,
+          "url": "https://www.youtube.com/watch?v=a1FDaoF8Jog",
+          "channel": "Linking Your Thinking with Nick Milo",
+          "teams": [
+            "graph"
+          ]
+        },
+        {
+          "video_id": "a4AyDRpeXwM",
+          "title": "My Complete Obsidian Masterclass (FULL GUIDE + SETUP)",
+          "views_text": "168K",
+          "published_text": "1y ago",
+          "views": 168000,
+          "url": "https://www.youtube.com/watch?v=a4AyDRpeXwM",
+          "channel": "Linking Your Thinking with Nick Milo",
+          "teams": [
+            "graph"
+          ]
+        },
+        {
+          "video_id": "9Yt52zJIIG0",
+          "title": "Obsidian Bases: Obsidian's Biggest Upgrade (Complete Guide)",
+          "views_text": "160K",
+          "published_text": "1y ago",
+          "views": 160000,
+          "url": "https://www.youtube.com/watch?v=9Yt52zJIIG0",
+          "channel": "Linking Your Thinking with Nick Milo",
+          "teams": [
+            "graph"
+          ]
+        },
+        {
+          "video_id": "dKbV6isvXNo",
+          "title": "How to Think for Yourself in a Loud, Fast World (Lawrence Yeo)",
+          "views_text": "3.3K",
+          "published_text": "1y ago",
+          "views": 3300,
+          "url": "https://www.youtube.com/watch?v=dKbV6isvXNo",
+          "channel": "Linking Your Thinking with Nick Milo",
+          "teams": [
+            "graph"
+          ]
+        },
+        {
+          "video_id": "dtqMRucUts8",
+          "title": "Don’t Start Writing Before You’ve Done THIS",
+          "views_text": "7.2K",
+          "published_text": "1y ago",
+          "views": 7200,
+          "url": "https://www.youtube.com/watch?v=dtqMRucUts8",
+          "channel": "Linking Your Thinking with Nick Milo",
+          "teams": [
+            "graph"
+          ]
+        }
+      ]
+    },
+    {
+      "stale": false,
+      "last_ok_at": "2026-09-28T12:08:42.405060+00:00",
+      "url": "https://www.youtube.com/@Flexport",
+      "note": "Flexport 공식 - 관세·국제 물류 비용",
+      "team_hint": "pricing",
+      "channel_name": "Flexport",
+      "channel_id": "UCWT4cbEDHlCE9mMfjRJRX4w",
+      "subscribers": "7.06K",
+      "video_count": 30,
+      "error": "",
+      "checked_at": "2026-09-28T12:08:42.405072+00:00",
+      "videos": [
+        {
+          "video_id": "2NKi9pRzVAA",
+          "title": "Flexport Forward Copenhagen | Supply Chain AI, Ocean Resilience & Key Insights",
+          "views_text": "94",
+          "published_text": "6d ago",
+          "views": 94,
+          "url": "https://www.youtube.com/watch?v=2NKi9pRzVAA",
+          "channel": "Flexport",
+          "teams": [
+            "pricing"
+          ]
+        },
+        {
+          "video_id": "qFJ2DElxfXI",
+          "title": "Tariff Trends 2026: Expert Insights on the Evolving U.S. Tariff Landscape [September 16, 2026]",
+          "views_text": "504",
+          "published_text": "11d ago",
+          "views": 504,
+          "url": "https://www.youtube.com/watch?v=qFJ2DElxfXI",
+          "channel": "Flexport",
+          "teams": [
+            "pricing"
+          ]
+        },
+        {
+          "video_id": "72-MfumtOR4",
+          "title": "Tariff Trends 2026: Expert Insights on the Evolving U.S. Tariff Landscape [August 19, 2026]",
+          "views_text": "414",
+          "published_text": "1mo ago",
+          "views": 414,
+          "url": "https://www.youtube.com/watch?v=72-MfumtOR4",
+          "channel": "Flexport",
+          "teams": [
+            "pricing"
+          ]
+        },
+        {
+          "video_id": "mlsG9r32p2s",
+          "title": "Cocaine Bust in Portugal and More in Today's Flexport Atlas News Update",
+          "views_text": "182",
+          "published_text": "1mo ago",
+          "views": 182,
+          "url": "https://www.youtube.com/watch?v=mlsG9r32p2s",
+          "channel": "Flexport",
+          "teams": [
+            "pricing"
+          ]
+        },
+        {
+          "video_id": "3GEgoBnMBD8",
+          "title": "Navigating Peak Season 2026: Essential Omnichannel & Fulfillment Strategies for Success",
+          "views_text": "167",
+          "published_text": "1mo ago",
+          "views": 167,
+          "url": "https://www.youtube.com/watch?v=3GEgoBnMBD8",
+          "channel": "Flexport",
+          "teams": [
+            "pricing"
+          ]
+        },
+        {
+          "video_id": "FbGsgddedYk",
+          "title": "Isochronic Map of Container Shipping from Flexport",
+          "views_text": "129",
+          "published_text": "1mo ago",
+          "views": 129,
+          "url": "https://www.youtube.com/watch?v=FbGsgddedYk",
+          "channel": "Flexport",
+          "teams": [
+            "pricing"
+          ]
+        },
+        {
+          "video_id": "7VeooS_ZSN8",
+          "title": "Flexport The Video Game",
+          "views_text": "1.6K",
+          "published_text": "1mo ago",
+          "views": 1600,
+          "url": "https://www.youtube.com/watch?v=7VeooS_ZSN8",
+          "channel": "Flexport",
+          "teams": [
+            "pricing"
+          ]
+        },
+        {
+          "video_id": "T4TxR53QzCY",
+          "title": "Global Logistics Chaos: A World Tour by Flexport Founder Ryan Petersen",
+          "views_text": "240",
+          "published_text": "1mo ago",
+          "views": 240,
+          "url": "https://www.youtube.com/watch?v=T4TxR53QzCY",
+          "channel": "Flexport",
+          "teams": [
+            "pricing"
+          ]
+        },
+        {
+          "video_id": "-G9ySFpVAsA",
+          "title": "Tariff Trends 2026: Expert Insights on the Evolving U.S. Tariff Landscape (July 24, 2026)",
+          "views_text": "375",
+          "published_text": "2mo ago",
+          "views": 375,
+          "url": "https://www.youtube.com/watch?v=-G9ySFpVAsA",
+          "channel": "Flexport",
+          "teams": [
+            "pricing"
+          ]
+        },
+        {
+          "video_id": "ucMPHyLcFSM",
+          "title": "Flexport Webinar: CAPE Phase 2 Explained",
+          "views_text": "220",
+          "published_text": "2mo ago",
+          "views": 220,
+          "url": "https://www.youtube.com/watch?v=ucMPHyLcFSM",
+          "channel": "Flexport",
+          "teams": [
+            "pricing"
+          ]
+        },
+        {
+          "video_id": "u6d_ZV5dqIs",
+          "title": "The Capacity Squeeze Nobody Budgets For: Air Cargo 2026–2030",
+          "views_text": "225",
+          "published_text": "2mo ago",
+          "views": 225,
+          "url": "https://www.youtube.com/watch?v=u6d_ZV5dqIs",
+          "channel": "Flexport",
+          "teams": [
+            "pricing"
+          ]
+        },
+        {
+          "video_id": "nSum0HMM5NQ",
+          "title": "July 1, 2026 | Trucking Market Outlook: Rates, Trends & Regulatory Impact",
+          "views_text": "268",
+          "published_text": "2mo ago",
+          "views": 268,
+          "url": "https://www.youtube.com/watch?v=nSum0HMM5NQ",
+          "channel": "Flexport",
+          "teams": [
+            "pricing"
+          ]
+        },
+        {
+          "video_id": "_bf3hThT2JE",
+          "title": "Supply Chain Therapy with Flexport and RTIC",
+          "views_text": "162",
+          "published_text": "3mo ago",
+          "views": 162,
+          "url": "https://www.youtube.com/watch?v=_bf3hThT2JE",
+          "channel": "Flexport",
+          "teams": [
+            "pricing"
+          ]
+        },
+        {
+          "video_id": "gAzocKsynNg",
+          "title": "Peak Season Prep: A CFO's Playbook for Cash Flow, Inventory, and Smarter Financing",
+          "views_text": "108",
+          "published_text": "3mo ago",
+          "views": 108,
+          "url": "https://www.youtube.com/watch?v=gAzocKsynNg",
+          "channel": "Flexport",
+          "teams": [
+            "pricing"
+          ]
+        },
+        {
+          "video_id": "WekJw1-w6Mw",
+          "title": "Tariff Trends 2026: Expert Insights on the Evolving U.S. Tariff Landscape [June 17, 2026]",
+          "views_text": "344",
+          "published_text": "3mo ago",
+          "views": 344,
+          "url": "https://www.youtube.com/watch?v=WekJw1-w6Mw",
+          "channel": "Flexport",
+          "teams": [
+            "pricing"
+          ]
+        },
+        {
+          "video_id": "TjoSWOm19rE",
+          "title": "Breaking Down Trump’s Executive Order on Foreign Importers of Record",
+          "views_text": "646",
+          "published_text": "3mo ago",
+          "views": 646,
+          "url": "https://www.youtube.com/watch?v=TjoSWOm19rE",
+          "channel": "Flexport",
+          "teams": [
+            "pricing"
+          ]
+        },
+        {
+          "video_id": "P579MD1sABw",
+          "title": "CPSC eFiling Is Almost Here. Are You Ready?",
+          "views_text": "659",
+          "published_text": "3mo ago",
+          "views": 659,
+          "url": "https://www.youtube.com/watch?v=P579MD1sABw",
+          "channel": "Flexport",
+          "teams": [
+            "pricing"
+          ]
+        },
+        {
+          "video_id": "tYYwOT_FqK0",
+          "title": "CAPE Explained: Refunds, Common Issues & Next Steps for Importers",
+          "views_text": "409",
+          "published_text": "3mo ago",
+          "views": 409,
+          "url": "https://www.youtube.com/watch?v=tYYwOT_FqK0",
+          "channel": "Flexport",
+          "teams": [
+            "pricing"
+          ]
+        },
+        {
+          "video_id": "_kxST18lVBw",
+          "title": "Tariff Trends 2026: Expert Insights on the Evolving U.S. Tariff Landscape [May 20, 2026]",
+          "views_text": "346",
+          "published_text": "4mo ago",
+          "views": 346,
+          "url": "https://www.youtube.com/watch?v=_kxST18lVBw",
+          "channel": "Flexport",
+          "teams": [
+            "pricing"
+          ]
+        },
+        {
+          "video_id": "-YxKMF3plEs",
+          "title": "Logistics for the AI Era: How to Move the World's Most Critical Infrastructure",
+          "views_text": "523",
+          "published_text": "4mo ago",
+          "views": 523,
+          "url": "https://www.youtube.com/watch?v=-YxKMF3plEs",
+          "channel": "Flexport",
+          "teams": [
+            "pricing"
+          ]
+        },
+        {
+          "video_id": "xO6jPPqnB2Q",
+          "title": "How to Cut your Supply Chain Emissions with Data-Driven Insights",
+          "views_text": "145",
+          "published_text": "4mo ago",
+          "views": 145,
+          "url": "https://www.youtube.com/watch?v=xO6jPPqnB2Q",
+          "channel": "Flexport",
+          "teams": [
+            "pricing"
+          ]
+        },
+        {
+          "video_id": "vC1lCsboEzg",
+          "title": "Tariff Trends 2026: Expert Insights on the Evolving U.S. Tariff Landscape",
+          "views_text": "285",
+          "published_text": "5mo ago",
+          "views": 285,
+          "url": "https://www.youtube.com/watch?v=vC1lCsboEzg",
+          "channel": "Flexport",
+          "teams": [
+            "pricing"
+          ]
+        },
+        {
+          "video_id": "VDuhQXekV9o",
+          "title": "Supply Chain Therapy with Flexport and goodr",
+          "views_text": "202",
+          "published_text": "5mo ago",
+          "views": 202,
+          "url": "https://www.youtube.com/watch?v=VDuhQXekV9o",
+          "channel": "Flexport",
+          "teams": [
+            "pricing"
+          ]
+        },
+        {
+          "video_id": "xtorVFI9g4c",
+          "title": "Audits & Drawback: What Every Importer Needs to Know Right Now",
+          "views_text": "598",
+          "published_text": "5mo ago",
+          "views": 598,
+          "url": "https://www.youtube.com/watch?v=xtorVFI9g4c",
+          "channel": "Flexport",
+          "teams": [
+            "pricing"
+          ]
+        },
+        {
+          "video_id": "i-7Z6eJqMK4",
+          "title": "From Visibility to Autonomy: What’s Next for Your Supply Chain?",
+          "views_text": "121",
+          "published_text": "5mo ago",
+          "views": 121,
+          "url": "https://www.youtube.com/watch?v=i-7Z6eJqMK4",
+          "channel": "Flexport",
+          "teams": [
+            "pricing"
+          ]
+        },
+        {
+          "video_id": "S3A0nNqkbiI",
+          "title": "Tariff Trends 2026: An Urgent Briefing on Section 232 Changes",
+          "views_text": "1.2K",
+          "published_text": "5mo ago",
+          "views": 1200,
+          "url": "https://www.youtube.com/watch?v=S3A0nNqkbiI",
+          "channel": "Flexport",
+          "teams": [
+            "pricing"
+          ]
+        },
+        {
+          "video_id": "dxJZTn1Nxh0",
+          "title": "Flexport Supply Chain Optimization Analysis: How to Cut Freight Costs with Data-Driven Insights",
+          "views_text": "383",
+          "published_text": "5mo ago",
+          "views": 383,
+          "url": "https://www.youtube.com/watch?v=dxJZTn1Nxh0",
+          "channel": "Flexport",
+          "teams": [
+            "pricing"
+          ]
+        },
+        {
+          "video_id": "YCFs_MVfVq0",
+          "title": "This was Forward Italy 2026",
+          "views_text": "104",
+          "published_text": "5mo ago",
+          "views": 104,
+          "url": "https://www.youtube.com/watch?v=YCFs_MVfVq0",
+          "channel": "Flexport",
+          "teams": [
+            "pricing"
+          ]
+        },
+        {
+          "video_id": "9zp2rRHoRG4",
+          "title": "Supply Chain Therapy with Flexport and Portland Leather Goods",
+          "views_text": "271",
+          "published_text": "6mo ago",
+          "views": 271,
+          "url": "https://www.youtube.com/watch?v=9zp2rRHoRG4",
+          "channel": "Flexport",
+          "teams": [
+            "pricing"
+          ]
+        },
+        {
+          "video_id": "6wswF1lfqv0",
+          "title": "Tariff Trends 2026: Expert Insights on the Evolving U.S. Tariff Landscape [March 18, 2026]",
+          "views_text": "436",
+          "published_text": "6mo ago",
+          "views": 436,
+          "url": "https://www.youtube.com/watch?v=6wswF1lfqv0",
+          "channel": "Flexport",
+          "teams": [
+            "pricing"
           ]
         }
       ]

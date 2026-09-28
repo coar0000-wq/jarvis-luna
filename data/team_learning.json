@@ -1,0 +1,1404 @@
+{
+  "generated_at": "2026-09-28T12:13:45.429024+00:00",
+  "generator": "scripts/build_team_learning.py",
+  "rule": "자막 타임스탬프 근거가 있고 과장 수치를 뺀 항목만 학습으로 센다. 영상 목록만 있는 것은 학습이 아니다.",
+  "total_insights": 29,
+  "reviewed_videos": 12,
+  "teams_learning": 6,
+  "teams_with_videos": 11,
+  "teams": {
+    "sourcing": {
+      "status": "학습 중",
+      "insights": 3,
+      "this_week_action": {
+        "id": "MKT-013",
+        "tactic": "고객 결과 중심 루틴 번들",
+        "action": "무작위 추가 상품이 아니라 클렌징-트리트먼트-보습처럼 한 루틴을 완성하는 구성으로 번들을 만든다.",
+        "confidence": "high",
+        "kpis": [
+          "bundle_attach_rate",
+          "bundle_aov",
+          "bundle_margin",
+          "repeat_rate"
+        ],
+        "prerequisites": [
+          "제형 호환성",
+          "사용 순서",
+          "번들 재고",
+          "법률 검토"
+        ],
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+          "timestamp": "04:40-07:33",
+          "summary": "서로 보완하는 상품을 고객 목표 기준으로 묶음"
+        }
+      },
+      "items": [
+        {
+          "id": "MKT-013",
+          "tactic": "고객 결과 중심 루틴 번들",
+          "action": "무작위 추가 상품이 아니라 클렌징-트리트먼트-보습처럼 한 루틴을 완성하는 구성으로 번들을 만든다.",
+          "confidence": "high",
+          "kpis": [
+            "bundle_attach_rate",
+            "bundle_aov",
+            "bundle_margin",
+            "repeat_rate"
+          ],
+          "prerequisites": [
+            "제형 호환성",
+            "사용 순서",
+            "번들 재고",
+            "법률 검토"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+            "timestamp": "04:40-07:33",
+            "summary": "서로 보완하는 상품을 고객 목표 기준으로 묶음"
+          }
+        },
+        {
+          "id": "MKT-022",
+          "tactic": "기여이익 기반 무료배송 대 할인 비교",
+          "action": "상품군별 배송원가와 장바구니 금액을 넣어 무료배송, 정액 할인, 퍼센트 할인 시나리오의 주문 기여이익을 비교한 뒤 손실이 가장 낮은 오퍼만 테스트한다.",
+          "confidence": "high",
+          "kpis": [
+            "contribution_margin_per_order",
+            "shipping_incentive_cost",
+            "offer_take_rate"
+          ],
+          "prerequisites": [
+            "상품 원가",
+            "실배송비",
+            "결제 수수료",
+            "현재 AOV"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=UcG2v8i6Y2E",
+            "timestamp": "13:22-16:34",
+            "summary": "무료배송과 퍼센트 할인 중 무엇이 유리한지는 주문별 배송비·할인액·기여이익 계산으로 결정"
+          }
+        },
+        {
+          "id": "MKT-018",
+          "tactic": "리뷰에서 좁은 미충족 고객군을 찾기",
+          "action": "자사·경쟁 리뷰를 AI로 묶어 구매자, 가치, 불만을 찾고 작은 설문이나 인터뷰로 확인한 뒤 포지셔닝 가설로 사용한다.",
+          "confidence": "medium",
+          "kpis": [
+            "validated_pain_point_share",
+            "message_test_ctr",
+            "segment_landing_cvr"
+          ],
+          "prerequisites": [
+            "합법적으로 수집한 리뷰",
+            "사람의 테마 검토",
+            "고객 검증"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
+            "timestamp": "07:53-09:30",
+            "summary": "큰 시장 안에서 기존 상품이 만족시키지 못한 좁은 집단을 리뷰로 탐색"
+          }
+        }
+      ],
+      "videos_available": 3,
+      "review_pending": [],
+      "last_review": "2026-09-27"
+    },
+    "institutions": {
+      "status": "영상 수집됨 · 자막 검토 대기",
+      "insights": 0,
+      "this_week_action": null,
+      "items": [],
+      "videos_available": 90,
+      "review_pending": [
+        {
+          "title": "Generating novel scientific hypotheses with Co-Scientist",
+          "url": "https://www.youtube.com/watch?v=aSY_vFFmkW0"
+        },
+        {
+          "title": "10 years of AlphaGo: The turning point for AI | Thore Graepel & Pushmeet Kohli",
+          "url": "https://www.youtube.com/watch?v=qoinGjj60Fo"
+        }
+      ],
+      "last_review": null
+    },
+    "market": {
+      "status": "학습 중",
+      "insights": 28,
+      "this_week_action": {
+        "id": "MKT-001",
+        "tactic": "광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
+        "action": "광고 훅과 피부 고민마다 별도 랜딩페이지를 만들고 가치제안, 실제 리뷰, FAQ, 배송·반품 정보를 한 흐름에 배치한다.",
+        "confidence": "high",
+        "kpis": [
+          "landing_conversion_rate",
+          "cost_per_acquisition",
+          "bounce_rate"
+        ],
+        "prerequisites": [
+          "UTM 규칙",
+          "실제 고객 후기",
+          "배송·반품 정책",
+          "법률 검토된 효능 문구"
+        ],
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+          "timestamp": "00:29-03:16",
+          "summary": "일반 PDP 대신 광고와 메시지가 일치하는 전용 랜딩페이지를 판매원처럼 설계"
+        }
+      },
+      "items": [
+        {
+          "id": "MKT-001",
+          "tactic": "광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
+          "action": "광고 훅과 피부 고민마다 별도 랜딩페이지를 만들고 가치제안, 실제 리뷰, FAQ, 배송·반품 정보를 한 흐름에 배치한다.",
+          "confidence": "high",
+          "kpis": [
+            "landing_conversion_rate",
+            "cost_per_acquisition",
+            "bounce_rate"
+          ],
+          "prerequisites": [
+            "UTM 규칙",
+            "실제 고객 후기",
+            "배송·반품 정책",
+            "법률 검토된 효능 문구"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+            "timestamp": "00:29-03:16",
+            "summary": "일반 PDP 대신 광고와 메시지가 일치하는 전용 랜딩페이지를 판매원처럼 설계"
+          }
+        },
+        {
+          "id": "MKT-002",
+          "tactic": "피부 고민·루틴 중심 탐색 구조",
+          "action": "메뉴와 컬렉션을 제품명보다 피부 고민, 제형, 루틴 단계 중심으로 구성하고 검색창을 전면에 둔다.",
+          "confidence": "high",
+          "kpis": [
+            "product_view_rate",
+            "site_search_usage",
+            "search_to_purchase_rate"
+          ],
+          "prerequisites": [
+            "피부 고민 태그",
+            "제형·루틴 메타필드",
+            "사이트 검색 추적"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+            "timestamp": "04:16-06:16",
+            "summary": "상품 발견 경로를 단순화하고 검색과 컬렉션 카드를 강화"
+          }
+        },
+        {
+          "id": "MKT-004",
+          "tactic": "제품명·설명·FAQ를 구매 질문형 SEO로 작성",
+          "action": "제품명에 검증된 성분·제형·사용 맥락을 넣고 중복 없는 설명과 FAQ로 실제 구매 질문에 답한다.",
+          "confidence": "high",
+          "kpis": [
+            "organic_pdp_sessions",
+            "non_brand_impressions",
+            "pdp_conversion_rate"
+          ],
+          "prerequisites": [
+            "고시·라벨 데이터",
+            "사용법",
+            "피부타입",
+            "법률 승인 문구"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
+            "timestamp": "02:56-03:40",
+            "summary": "구체적인 제품명과 고유 설명이 검색과 구매 이해를 돕는다"
+          }
+        },
+        {
+          "id": "MKT-005",
+          "tactic": "검색형 숏폼을 TikTok·Reels·Shorts에 교차 게시",
+          "action": "사용 장면, 세 가지 사용법, 루틴 순서, 포장 비하인드 영상을 만들고 채널별 제목·자막을 현지화한다.",
+          "confidence": "high",
+          "kpis": [
+            "shortform_link_ctr",
+            "organic_video_sessions",
+            "assisted_orders"
+          ],
+          "prerequisites": [
+            "UGC 제작 권한",
+            "영문 자막",
+            "추적 링크",
+            "콘텐츠 캘린더"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
+            "timestamp": "06:46-08:14",
+            "summary": "검색되는 짧은 제품 콘텐츠를 여러 숏폼 채널에 재활용"
+          }
+        },
+        {
+          "id": "MKT-006",
+          "tactic": "14일 신규 구독자 웰컴 플로우",
+          "action": "인센티브 또는 피부 퀴즈 결과, 브랜드 스토리, 검증 리뷰, 베스트셀러 이유, 정가 구매 제안을 다섯 통으로 구성한다.",
+          "confidence": "high",
+          "kpis": [
+            "welcome_flow_revenue",
+            "first_purchase_rate",
+            "unsubscribe_rate"
+          ],
+          "prerequisites": [
+            "수신 동의",
+            "세분화 가능한 이메일 도구",
+            "실제 리뷰",
+            "피부 고민 태그"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
+            "timestamp": "08:16-09:33",
+            "summary": "신규 구독자를 단계적으로 교육하고 첫 구매로 전환하는 이메일 순서"
+          }
+        },
+        {
+          "id": "MKT-007",
+          "tactic": "Shopify와 Meta CAPI 전환 신호 검증",
+          "action": "스토어 개설 후 테스트 주문으로 Pixel과 서버 이벤트의 중복·누락을 점검하고 Shopify 주문값과 비교한다.",
+          "confidence": "high",
+          "kpis": [
+            "event_match_quality",
+            "purchase_event_gap",
+            "attributed_revenue_gap"
+          ],
+          "prerequisites": [
+            "Shopify 스토어",
+            "Meta Business 계정",
+            "쿠키·개인정보 동의",
+            "테스트 주문"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
+            "timestamp": "14:27-15:46",
+            "summary": "서버 측 전환 추적으로 광고 측정 손실을 줄이는 기본 연결"
+          }
+        },
+        {
+          "id": "MKT-008",
+          "tactic": "번들·사은품 임계값 AOV 테스트",
+          "action": "구성품 이미지와 실제 절감액을 보여주는 루틴 번들 및 사은품 해금 기준을 테스트한다.",
+          "confidence": "high",
+          "kpis": [
+            "average_order_value",
+            "bundle_take_rate",
+            "contribution_margin_per_order"
+          ],
+          "prerequisites": [
+            "마진 계산",
+            "배송원가",
+            "구성품 재고",
+            "기간 비교 또는 A/B 설계"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+            "timestamp": "11:19-12:25",
+            "summary": "명확한 번들 구성과 해금 기준으로 장바구니 금액을 높임"
+          }
+        },
+        {
+          "id": "MKT-012",
+          "tactic": "소모품 수량별 단계 할인",
+          "action": "1개, 2개, 3개 옵션과 단위당 가격을 PDP에서 비교하되 할인 후 마진과 배송비를 통과한 상품에만 적용한다.",
+          "confidence": "high",
+          "kpis": [
+            "units_per_order",
+            "quantity_tier_mix",
+            "gross_margin_per_order"
+          ],
+          "prerequisites": [
+            "수량 수요",
+            "유통기한",
+            "재고",
+            "할인 후 기여이익"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+            "timestamp": "01:55-03:58",
+            "summary": "소모품에 점진적 수량 할인으로 주문당 수량을 증가"
+          }
+        },
+        {
+          "id": "MKT-013",
+          "tactic": "고객 결과 중심 루틴 번들",
+          "action": "무작위 추가 상품이 아니라 클렌징-트리트먼트-보습처럼 한 루틴을 완성하는 구성으로 번들을 만든다.",
+          "confidence": "high",
+          "kpis": [
+            "bundle_attach_rate",
+            "bundle_aov",
+            "bundle_margin",
+            "repeat_rate"
+          ],
+          "prerequisites": [
+            "제형 호환성",
+            "사용 순서",
+            "번들 재고",
+            "법률 검토"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+            "timestamp": "04:40-07:33",
+            "summary": "서로 보완하는 상품을 고객 목표 기준으로 묶음"
+          }
+        },
+        {
+          "id": "MKT-014",
+          "tactic": "good-better-best 세트 구조",
+          "action": "스타터, 2개월분, 전체 루틴 세트로 약정 수준을 나누고 상위 세트에는 실제 가치가 있는 샘플이나 도구만 추가한다.",
+          "confidence": "high",
+          "kpis": [
+            "top_tier_selection_rate",
+            "average_order_value",
+            "refund_rate"
+          ],
+          "prerequisites": [
+            "세트별 손익",
+            "정확한 기준가격",
+            "사은품 재고"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+            "timestamp": "07:42-09:02",
+            "summary": "고객의 지출 의향에 맞춘 단계형 오퍼"
+          }
+        }
+      ],
+      "videos_available": 85,
+      "review_pending": [
+        {
+          "title": "The Psychology of Making People Buy",
+          "url": "https://www.youtube.com/watch?v=k520NhbFhIE"
+        },
+        {
+          "title": "쇼피파이 드랍쉬핑은 브랜딩이 답입니다. 진짜 잘 되는 스토어 5곳 까봤습니다",
+          "url": "https://www.youtube.com/watch?v=IG0V7o6Z3ZE"
+        }
+      ],
+      "last_review": "2026-09-27"
+    },
+    "listing": {
+      "status": "학습 중",
+      "insights": 25,
+      "this_week_action": {
+        "id": "MKT-001",
+        "tactic": "광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
+        "action": "광고 훅과 피부 고민마다 별도 랜딩페이지를 만들고 가치제안, 실제 리뷰, FAQ, 배송·반품 정보를 한 흐름에 배치한다.",
+        "confidence": "high",
+        "kpis": [
+          "landing_conversion_rate",
+          "cost_per_acquisition",
+          "bounce_rate"
+        ],
+        "prerequisites": [
+          "UTM 규칙",
+          "실제 고객 후기",
+          "배송·반품 정책",
+          "법률 검토된 효능 문구"
+        ],
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+          "timestamp": "00:29-03:16",
+          "summary": "일반 PDP 대신 광고와 메시지가 일치하는 전용 랜딩페이지를 판매원처럼 설계"
+        }
+      },
+      "items": [
+        {
+          "id": "MKT-001",
+          "tactic": "광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
+          "action": "광고 훅과 피부 고민마다 별도 랜딩페이지를 만들고 가치제안, 실제 리뷰, FAQ, 배송·반품 정보를 한 흐름에 배치한다.",
+          "confidence": "high",
+          "kpis": [
+            "landing_conversion_rate",
+            "cost_per_acquisition",
+            "bounce_rate"
+          ],
+          "prerequisites": [
+            "UTM 규칙",
+            "실제 고객 후기",
+            "배송·반품 정책",
+            "법률 검토된 효능 문구"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+            "timestamp": "00:29-03:16",
+            "summary": "일반 PDP 대신 광고와 메시지가 일치하는 전용 랜딩페이지를 판매원처럼 설계"
+          }
+        },
+        {
+          "id": "MKT-002",
+          "tactic": "피부 고민·루틴 중심 탐색 구조",
+          "action": "메뉴와 컬렉션을 제품명보다 피부 고민, 제형, 루틴 단계 중심으로 구성하고 검색창을 전면에 둔다.",
+          "confidence": "high",
+          "kpis": [
+            "product_view_rate",
+            "site_search_usage",
+            "search_to_purchase_rate"
+          ],
+          "prerequisites": [
+            "피부 고민 태그",
+            "제형·루틴 메타필드",
+            "사이트 검색 추적"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+            "timestamp": "04:16-06:16",
+            "summary": "상품 발견 경로를 단순화하고 검색과 컬렉션 카드를 강화"
+          }
+        },
+        {
+          "id": "MKT-003",
+          "tactic": "PDP 이미지 캐러셀을 판매 스토리로 구성",
+          "action": "제품컷, 피부 고민 맥락, 제형·사용법, 성분 근거, 후기, 사용 장면, 배송·반품 순으로 이미지 세트를 만든다.",
+          "confidence": "high",
+          "kpis": [
+            "pdp_add_to_cart_rate",
+            "image_interaction_rate",
+            "pdp_exit_rate"
+          ],
+          "prerequisites": [
+            "고해상도 제품컷",
+            "사용 허가된 UGC",
+            "검증된 성분·사용법"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+            "timestamp": "12:46-14:25",
+            "summary": "각도만 다른 이미지 대신 구매 질문에 순서대로 답하는 이미지 흐름"
+          }
+        },
+        {
+          "id": "MKT-004",
+          "tactic": "제품명·설명·FAQ를 구매 질문형 SEO로 작성",
+          "action": "제품명에 검증된 성분·제형·사용 맥락을 넣고 중복 없는 설명과 FAQ로 실제 구매 질문에 답한다.",
+          "confidence": "high",
+          "kpis": [
+            "organic_pdp_sessions",
+            "non_brand_impressions",
+            "pdp_conversion_rate"
+          ],
+          "prerequisites": [
+            "고시·라벨 데이터",
+            "사용법",
+            "피부타입",
+            "법률 승인 문구"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
+            "timestamp": "02:56-03:40",
+            "summary": "구체적인 제품명과 고유 설명이 검색과 구매 이해를 돕는다"
+          }
+        },
+        {
+          "id": "MKT-005",
+          "tactic": "검색형 숏폼을 TikTok·Reels·Shorts에 교차 게시",
+          "action": "사용 장면, 세 가지 사용법, 루틴 순서, 포장 비하인드 영상을 만들고 채널별 제목·자막을 현지화한다.",
+          "confidence": "high",
+          "kpis": [
+            "shortform_link_ctr",
+            "organic_video_sessions",
+            "assisted_orders"
+          ],
+          "prerequisites": [
+            "UGC 제작 권한",
+            "영문 자막",
+            "추적 링크",
+            "콘텐츠 캘린더"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
+            "timestamp": "06:46-08:14",
+            "summary": "검색되는 짧은 제품 콘텐츠를 여러 숏폼 채널에 재활용"
+          }
+        },
+        {
+          "id": "MKT-006",
+          "tactic": "14일 신규 구독자 웰컴 플로우",
+          "action": "인센티브 또는 피부 퀴즈 결과, 브랜드 스토리, 검증 리뷰, 베스트셀러 이유, 정가 구매 제안을 다섯 통으로 구성한다.",
+          "confidence": "high",
+          "kpis": [
+            "welcome_flow_revenue",
+            "first_purchase_rate",
+            "unsubscribe_rate"
+          ],
+          "prerequisites": [
+            "수신 동의",
+            "세분화 가능한 이메일 도구",
+            "실제 리뷰",
+            "피부 고민 태그"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
+            "timestamp": "08:16-09:33",
+            "summary": "신규 구독자를 단계적으로 교육하고 첫 구매로 전환하는 이메일 순서"
+          }
+        },
+        {
+          "id": "MKT-007",
+          "tactic": "Shopify와 Meta CAPI 전환 신호 검증",
+          "action": "스토어 개설 후 테스트 주문으로 Pixel과 서버 이벤트의 중복·누락을 점검하고 Shopify 주문값과 비교한다.",
+          "confidence": "high",
+          "kpis": [
+            "event_match_quality",
+            "purchase_event_gap",
+            "attributed_revenue_gap"
+          ],
+          "prerequisites": [
+            "Shopify 스토어",
+            "Meta Business 계정",
+            "쿠키·개인정보 동의",
+            "테스트 주문"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
+            "timestamp": "14:27-15:46",
+            "summary": "서버 측 전환 추적으로 광고 측정 손실을 줄이는 기본 연결"
+          }
+        },
+        {
+          "id": "MKT-008",
+          "tactic": "번들·사은품 임계값 AOV 테스트",
+          "action": "구성품 이미지와 실제 절감액을 보여주는 루틴 번들 및 사은품 해금 기준을 테스트한다.",
+          "confidence": "high",
+          "kpis": [
+            "average_order_value",
+            "bundle_take_rate",
+            "contribution_margin_per_order"
+          ],
+          "prerequisites": [
+            "마진 계산",
+            "배송원가",
+            "구성품 재고",
+            "기간 비교 또는 A/B 설계"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+            "timestamp": "11:19-12:25",
+            "summary": "명확한 번들 구성과 해금 기준으로 장바구니 금액을 높임"
+          }
+        },
+        {
+          "id": "MKT-012",
+          "tactic": "소모품 수량별 단계 할인",
+          "action": "1개, 2개, 3개 옵션과 단위당 가격을 PDP에서 비교하되 할인 후 마진과 배송비를 통과한 상품에만 적용한다.",
+          "confidence": "high",
+          "kpis": [
+            "units_per_order",
+            "quantity_tier_mix",
+            "gross_margin_per_order"
+          ],
+          "prerequisites": [
+            "수량 수요",
+            "유통기한",
+            "재고",
+            "할인 후 기여이익"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+            "timestamp": "01:55-03:58",
+            "summary": "소모품에 점진적 수량 할인으로 주문당 수량을 증가"
+          }
+        },
+        {
+          "id": "MKT-013",
+          "tactic": "고객 결과 중심 루틴 번들",
+          "action": "무작위 추가 상품이 아니라 클렌징-트리트먼트-보습처럼 한 루틴을 완성하는 구성으로 번들을 만든다.",
+          "confidence": "high",
+          "kpis": [
+            "bundle_attach_rate",
+            "bundle_aov",
+            "bundle_margin",
+            "repeat_rate"
+          ],
+          "prerequisites": [
+            "제형 호환성",
+            "사용 순서",
+            "번들 재고",
+            "법률 검토"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+            "timestamp": "04:40-07:33",
+            "summary": "서로 보완하는 상품을 고객 목표 기준으로 묶음"
+          }
+        }
+      ],
+      "videos_available": 44,
+      "review_pending": [
+        {
+          "title": "Claude Copies $2m Shopify Store & Replaces Everything With My Brand (Full Course)",
+          "url": "https://www.youtube.com/watch?v=dPPd65Kvh7Y"
+        },
+        {
+          "title": "How to Use Claude to Safely Rebrand Your Shopify Store",
+          "url": "https://www.youtube.com/watch?v=gugo50_VbjE"
+        }
+      ],
+      "last_review": "2026-09-27"
+    },
+    "pricing": {
+      "status": "학습 중",
+      "insights": 9,
+      "this_week_action": {
+        "id": "MKT-008",
+        "tactic": "번들·사은품 임계값 AOV 테스트",
+        "action": "구성품 이미지와 실제 절감액을 보여주는 루틴 번들 및 사은품 해금 기준을 테스트한다.",
+        "confidence": "high",
+        "kpis": [
+          "average_order_value",
+          "bundle_take_rate",
+          "contribution_margin_per_order"
+        ],
+        "prerequisites": [
+          "마진 계산",
+          "배송원가",
+          "구성품 재고",
+          "기간 비교 또는 A/B 설계"
+        ],
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+          "timestamp": "11:19-12:25",
+          "summary": "명확한 번들 구성과 해금 기준으로 장바구니 금액을 높임"
+        }
+      },
+      "items": [
+        {
+          "id": "MKT-008",
+          "tactic": "번들·사은품 임계값 AOV 테스트",
+          "action": "구성품 이미지와 실제 절감액을 보여주는 루틴 번들 및 사은품 해금 기준을 테스트한다.",
+          "confidence": "high",
+          "kpis": [
+            "average_order_value",
+            "bundle_take_rate",
+            "contribution_margin_per_order"
+          ],
+          "prerequisites": [
+            "마진 계산",
+            "배송원가",
+            "구성품 재고",
+            "기간 비교 또는 A/B 설계"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+            "timestamp": "11:19-12:25",
+            "summary": "명확한 번들 구성과 해금 기준으로 장바구니 금액을 높임"
+          }
+        },
+        {
+          "id": "MKT-012",
+          "tactic": "소모품 수량별 단계 할인",
+          "action": "1개, 2개, 3개 옵션과 단위당 가격을 PDP에서 비교하되 할인 후 마진과 배송비를 통과한 상품에만 적용한다.",
+          "confidence": "high",
+          "kpis": [
+            "units_per_order",
+            "quantity_tier_mix",
+            "gross_margin_per_order"
+          ],
+          "prerequisites": [
+            "수량 수요",
+            "유통기한",
+            "재고",
+            "할인 후 기여이익"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+            "timestamp": "01:55-03:58",
+            "summary": "소모품에 점진적 수량 할인으로 주문당 수량을 증가"
+          }
+        },
+        {
+          "id": "MKT-013",
+          "tactic": "고객 결과 중심 루틴 번들",
+          "action": "무작위 추가 상품이 아니라 클렌징-트리트먼트-보습처럼 한 루틴을 완성하는 구성으로 번들을 만든다.",
+          "confidence": "high",
+          "kpis": [
+            "bundle_attach_rate",
+            "bundle_aov",
+            "bundle_margin",
+            "repeat_rate"
+          ],
+          "prerequisites": [
+            "제형 호환성",
+            "사용 순서",
+            "번들 재고",
+            "법률 검토"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+            "timestamp": "04:40-07:33",
+            "summary": "서로 보완하는 상품을 고객 목표 기준으로 묶음"
+          }
+        },
+        {
+          "id": "MKT-014",
+          "tactic": "good-better-best 세트 구조",
+          "action": "스타터, 2개월분, 전체 루틴 세트로 약정 수준을 나누고 상위 세트에는 실제 가치가 있는 샘플이나 도구만 추가한다.",
+          "confidence": "high",
+          "kpis": [
+            "top_tier_selection_rate",
+            "average_order_value",
+            "refund_rate"
+          ],
+          "prerequisites": [
+            "세트별 손익",
+            "정확한 기준가격",
+            "사은품 재고"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+            "timestamp": "07:42-09:02",
+            "summary": "고객의 지출 의향에 맞춘 단계형 오퍼"
+          }
+        },
+        {
+          "id": "MKT-015",
+          "tactic": "카트 드로어 보완 상품 업셀",
+          "action": "장바구니에 담은 상품과 직접 호환되는 소수의 보완 상품만 추천하고 체크아웃을 방해하지 않게 한다.",
+          "confidence": "high",
+          "kpis": [
+            "upsell_attach_rate",
+            "cart_aov",
+            "checkout_conversion_rate"
+          ],
+          "prerequisites": [
+            "상품 페어링 규칙",
+            "재고 연동",
+            "카트 UI"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+            "timestamp": "09:02-11:15",
+            "summary": "구매 직전 관련 상품을 제한적으로 제안"
+          }
+        },
+        {
+          "id": "MKT-021",
+          "tactic": "할인 중첩·누수 정기 감사",
+          "action": "활성 할인마다 중첩 허용, 사용기한, 사용횟수, 유입 파트너, 주문 기여이익을 기록하고 적자 조합과 방치 코드를 비활성화한다.",
+          "confidence": "high",
+          "kpis": [
+            "discount_cost_rate",
+            "stacked_discount_orders",
+            "negative_margin_order_rate"
+          ],
+          "prerequisites": [
+            "할인 코드 목록",
+            "주문별 할인액",
+            "원가·배송비",
+            "파트너 코드 소유자"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=UcG2v8i6Y2E",
+            "timestamp": "04:18-11:00",
+            "summary": "할인 중첩 설정과 만료 없는 코드가 마진 누수로 이어지므로 할인도 광고비처럼 비용 항목으로 감사"
+          }
+        },
+        {
+          "id": "MKT-022",
+          "tactic": "기여이익 기반 무료배송 대 할인 비교",
+          "action": "상품군별 배송원가와 장바구니 금액을 넣어 무료배송, 정액 할인, 퍼센트 할인 시나리오의 주문 기여이익을 비교한 뒤 손실이 가장 낮은 오퍼만 테스트한다.",
+          "confidence": "high",
+          "kpis": [
+            "contribution_margin_per_order",
+            "shipping_incentive_cost",
+            "offer_take_rate"
+          ],
+          "prerequisites": [
+            "상품 원가",
+            "실배송비",
+            "결제 수수료",
+            "현재 AOV"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=UcG2v8i6Y2E",
+            "timestamp": "13:22-16:34",
+            "summary": "무료배송과 퍼센트 할인 중 무엇이 유리한지는 주문별 배송비·할인액·기여이익 계산으로 결정"
+          }
+        },
+        {
+          "id": "MKT-009",
+          "tactic": "구매 후 적립 가치 이메일",
+          "action": "구매 직후 추상 포인트 대신 원화 환산 가치, 현재 잔액, 다음 보상까지 남은 금액을 알린다.",
+          "confidence": "medium",
+          "kpis": [
+            "reward_email_ctr",
+            "reward_redemption_rate",
+            "second_purchase_rate_90d"
+          ],
+          "prerequisites": [
+            "로열티 원장",
+            "적립·사용 규칙",
+            "트랜잭션 이메일"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
+            "timestamp": "00:41-04:52",
+            "summary": "구매 후 보상 잔액과 다음 목표를 구체적으로 표시"
+          }
+        },
+        {
+          "id": "MKT-010",
+          "tactic": "리워드 사용 직후 재구매 컬렉션 연결",
+          "action": "보상 코드와 가치를 상단에 표시하고 해당 보상을 쓸 수 있는 루틴·재구매 컬렉션으로 바로 연결한다.",
+          "confidence": "medium",
+          "kpis": [
+            "reward_code_use_rate",
+            "revenue_per_redemption",
+            "redemption_to_order_time"
+          ],
+          "prerequisites": [
+            "고유 코드",
+            "대상 상품 규칙",
+            "모바일 이메일"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
+            "timestamp": "05:33-06:38",
+            "summary": "보상을 받은 순간 사용 가능한 상품으로 이동시키는 전환 이메일"
+          }
+        }
+      ],
+      "videos_available": 36,
+      "review_pending": [
+        {
+          "title": "패션 비전공자가 25살에 창업해 100억 브랜드를 키워낸 '미친 실행력' | 스몰톡라운지 스퀘어129 남주미",
+          "url": "https://www.youtube.com/watch?v=O4Z5KklVR5I"
+        },
+        {
+          "title": "AI 공격 제대로 맞은 대행사 사장의 팩트 폭로🔥 | 수익률 50% 올린 클로드 AI 대시보드 직접 공개 (AI 시대 생존법👀)",
+          "url": "https://www.youtube.com/watch?v=iknGXOzT2KI"
+        }
+      ],
+      "last_review": "2026-09-27"
+    },
+    "legal": {
+      "status": "학습 중",
+      "insights": 18,
+      "this_week_action": {
+        "id": "MKT-001",
+        "tactic": "광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
+        "action": "광고 훅과 피부 고민마다 별도 랜딩페이지를 만들고 가치제안, 실제 리뷰, FAQ, 배송·반품 정보를 한 흐름에 배치한다.",
+        "confidence": "high",
+        "kpis": [
+          "landing_conversion_rate",
+          "cost_per_acquisition",
+          "bounce_rate"
+        ],
+        "prerequisites": [
+          "UTM 규칙",
+          "실제 고객 후기",
+          "배송·반품 정책",
+          "법률 검토된 효능 문구"
+        ],
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+          "timestamp": "00:29-03:16",
+          "summary": "일반 PDP 대신 광고와 메시지가 일치하는 전용 랜딩페이지를 판매원처럼 설계"
+        }
+      },
+      "items": [
+        {
+          "id": "MKT-001",
+          "tactic": "광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
+          "action": "광고 훅과 피부 고민마다 별도 랜딩페이지를 만들고 가치제안, 실제 리뷰, FAQ, 배송·반품 정보를 한 흐름에 배치한다.",
+          "confidence": "high",
+          "kpis": [
+            "landing_conversion_rate",
+            "cost_per_acquisition",
+            "bounce_rate"
+          ],
+          "prerequisites": [
+            "UTM 규칙",
+            "실제 고객 후기",
+            "배송·반품 정책",
+            "법률 검토된 효능 문구"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+            "timestamp": "00:29-03:16",
+            "summary": "일반 PDP 대신 광고와 메시지가 일치하는 전용 랜딩페이지를 판매원처럼 설계"
+          }
+        },
+        {
+          "id": "MKT-003",
+          "tactic": "PDP 이미지 캐러셀을 판매 스토리로 구성",
+          "action": "제품컷, 피부 고민 맥락, 제형·사용법, 성분 근거, 후기, 사용 장면, 배송·반품 순으로 이미지 세트를 만든다.",
+          "confidence": "high",
+          "kpis": [
+            "pdp_add_to_cart_rate",
+            "image_interaction_rate",
+            "pdp_exit_rate"
+          ],
+          "prerequisites": [
+            "고해상도 제품컷",
+            "사용 허가된 UGC",
+            "검증된 성분·사용법"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+            "timestamp": "12:46-14:25",
+            "summary": "각도만 다른 이미지 대신 구매 질문에 순서대로 답하는 이미지 흐름"
+          }
+        },
+        {
+          "id": "MKT-004",
+          "tactic": "제품명·설명·FAQ를 구매 질문형 SEO로 작성",
+          "action": "제품명에 검증된 성분·제형·사용 맥락을 넣고 중복 없는 설명과 FAQ로 실제 구매 질문에 답한다.",
+          "confidence": "high",
+          "kpis": [
+            "organic_pdp_sessions",
+            "non_brand_impressions",
+            "pdp_conversion_rate"
+          ],
+          "prerequisites": [
+            "고시·라벨 데이터",
+            "사용법",
+            "피부타입",
+            "법률 승인 문구"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
+            "timestamp": "02:56-03:40",
+            "summary": "구체적인 제품명과 고유 설명이 검색과 구매 이해를 돕는다"
+          }
+        },
+        {
+          "id": "MKT-006",
+          "tactic": "14일 신규 구독자 웰컴 플로우",
+          "action": "인센티브 또는 피부 퀴즈 결과, 브랜드 스토리, 검증 리뷰, 베스트셀러 이유, 정가 구매 제안을 다섯 통으로 구성한다.",
+          "confidence": "high",
+          "kpis": [
+            "welcome_flow_revenue",
+            "first_purchase_rate",
+            "unsubscribe_rate"
+          ],
+          "prerequisites": [
+            "수신 동의",
+            "세분화 가능한 이메일 도구",
+            "실제 리뷰",
+            "피부 고민 태그"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
+            "timestamp": "08:16-09:33",
+            "summary": "신규 구독자를 단계적으로 교육하고 첫 구매로 전환하는 이메일 순서"
+          }
+        },
+        {
+          "id": "MKT-007",
+          "tactic": "Shopify와 Meta CAPI 전환 신호 검증",
+          "action": "스토어 개설 후 테스트 주문으로 Pixel과 서버 이벤트의 중복·누락을 점검하고 Shopify 주문값과 비교한다.",
+          "confidence": "high",
+          "kpis": [
+            "event_match_quality",
+            "purchase_event_gap",
+            "attributed_revenue_gap"
+          ],
+          "prerequisites": [
+            "Shopify 스토어",
+            "Meta Business 계정",
+            "쿠키·개인정보 동의",
+            "테스트 주문"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
+            "timestamp": "14:27-15:46",
+            "summary": "서버 측 전환 추적으로 광고 측정 손실을 줄이는 기본 연결"
+          }
+        },
+        {
+          "id": "MKT-013",
+          "tactic": "고객 결과 중심 루틴 번들",
+          "action": "무작위 추가 상품이 아니라 클렌징-트리트먼트-보습처럼 한 루틴을 완성하는 구성으로 번들을 만든다.",
+          "confidence": "high",
+          "kpis": [
+            "bundle_attach_rate",
+            "bundle_aov",
+            "bundle_margin",
+            "repeat_rate"
+          ],
+          "prerequisites": [
+            "제형 호환성",
+            "사용 순서",
+            "번들 재고",
+            "법률 검토"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+            "timestamp": "04:40-07:33",
+            "summary": "서로 보완하는 상품을 고객 목표 기준으로 묶음"
+          }
+        },
+        {
+          "id": "MKT-016",
+          "tactic": "질문형 FAQ와 히어로 SKU 토픽 클러스터",
+          "action": "피부타입, 제형, 향, 루틴 순서, 성분 질문은 PDP FAQ로 답하고 넓은 주제는 가이드와 컬렉션으로 연결한다.",
+          "confidence": "high",
+          "kpis": [
+            "question_query_clicks",
+            "cluster_to_pdp_ctr",
+            "organic_assisted_revenue"
+          ],
+          "prerequisites": [
+            "고객 질문 기록",
+            "검증된 제품 문서",
+            "내부 링크 설계"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=UBSveo_tao8",
+            "timestamp": "05:53-13:24",
+            "summary": "질문 FAQ와 성분·사용 사례·가이드의 내부 링크 구조로 주제 권위 형성"
+          }
+        },
+        {
+          "id": "MKT-017",
+          "tactic": "검증 구매 리뷰를 전환 자산으로 사용",
+          "action": "구매 후 피부타입, 제형, 향, 사용 순서, 재구매 의향을 구조적으로 수집하고 PDP와 광고에 허가 범위 내 재사용한다.",
+          "confidence": "high",
+          "kpis": [
+            "review_capture_rate",
+            "reviews_per_sku",
+            "review_led_conversion_rate"
+          ],
+          "prerequisites": [
+            "구매자 리뷰 플로우",
+            "검증 구매 표시",
+            "UGC 재사용 동의"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=UBSveo_tao8",
+            "timestamp": "13:34-15:03",
+            "summary": "리뷰 수와 평점을 눈에 띄게 보여주고 실제 구매 증거를 콘텐츠에 활용"
+          }
+        },
+        {
+          "id": "MKT-019",
+          "tactic": "제품 사실·고객 언어·구조 참고를 넣은 AI 카피",
+          "action": "AI 카피에는 제품 사실표, 실제 리뷰 표현, 권리 침해 없는 랜딩 구조 참고를 입력하고 사람과 법률 검토 후 실험한다.",
+          "confidence": "high",
+          "kpis": [
+            "copy_test_conversion_rate",
+            "add_to_cart_rate",
+            "claims_rejection_rate"
+          ],
+          "prerequisites": [
+            "승인된 제품 사실표",
+            "고객 언어",
+            "브랜드 보이스",
+            "클레임 가드"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
+            "timestamp": "12:12-14:27",
+            "summary": "일반 프롬프트가 아니라 세 가지 구체 입력으로 카피 초안을 생산"
+          }
+        },
+        {
+          "id": "MKT-020",
+          "tactic": "훅·형식·증거별 크리에이티브 테스트 체계",
+          "action": "UGC 데모, 텍스처, 루틴 교육, 리뷰, 성분 근거를 서로 다른 훅과 형식으로 제작하고 패자를 중단해 승자의 후속 버전을 만든다.",
+          "confidence": "high",
+          "kpis": [
+            "creative_ctr",
+            "cost_per_acquisition",
+            "mer",
+            "concept_win_rate"
+          ],
+          "prerequisites": [
+            "전환 추적",
+            "테스트 예산 승인",
+            "크리에이티브 분류표",
+            "사람의 사실 검수"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
+            "timestamp": "15:00-17:47",
+            "summary": "규칙적인 변형 제작과 승자 확장 중심의 광고 크리에이티브 운영"
+          }
+        }
+      ],
+      "videos_available": 31,
+      "review_pending": [
+        {
+          "title": "스몰 브랜드도 해외 수출은 필수인거 아시죠? ✈️ | 가성비 있게 해외 수출 할 수 있는 팁 알려드립니다! 💸",
+          "url": "https://www.youtube.com/watch?v=nPbZ6lK2K08"
+        },
+        {
+          "title": "Expedited Investigational New Drug (IND) pilot program webinar",
+          "url": "https://www.youtube.com/watch?v=Bxrhk5FgKz4"
+        }
+      ],
+      "last_review": "2026-09-27"
+    },
+    "robotics": {
+      "status": "영상 수집됨 · 자막 검토 대기",
+      "insights": 0,
+      "this_week_action": null,
+      "items": [],
+      "videos_available": 60,
+      "review_pending": [
+        {
+          "title": "Unitree Kung Fu Bot   Pray for Blessings at the Temple of Heaven: Wish Everyone All the Best",
+          "url": "https://www.youtube.com/watch?v=eQpyvR-B7hc"
+        },
+        {
+          "title": "Unitree Introducing | Unitree As2  Your Companion",
+          "url": "https://www.youtube.com/watch?v=1ONE4l_pgHw"
+        }
+      ],
+      "last_review": null
+    },
+    "design": {
+      "status": "학습 중",
+      "insights": 7,
+      "this_week_action": {
+        "id": "MKT-001",
+        "tactic": "광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
+        "action": "광고 훅과 피부 고민마다 별도 랜딩페이지를 만들고 가치제안, 실제 리뷰, FAQ, 배송·반품 정보를 한 흐름에 배치한다.",
+        "confidence": "high",
+        "kpis": [
+          "landing_conversion_rate",
+          "cost_per_acquisition",
+          "bounce_rate"
+        ],
+        "prerequisites": [
+          "UTM 규칙",
+          "실제 고객 후기",
+          "배송·반품 정책",
+          "법률 검토된 효능 문구"
+        ],
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+          "timestamp": "00:29-03:16",
+          "summary": "일반 PDP 대신 광고와 메시지가 일치하는 전용 랜딩페이지를 판매원처럼 설계"
+        }
+      },
+      "items": [
+        {
+          "id": "MKT-001",
+          "tactic": "광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
+          "action": "광고 훅과 피부 고민마다 별도 랜딩페이지를 만들고 가치제안, 실제 리뷰, FAQ, 배송·반품 정보를 한 흐름에 배치한다.",
+          "confidence": "high",
+          "kpis": [
+            "landing_conversion_rate",
+            "cost_per_acquisition",
+            "bounce_rate"
+          ],
+          "prerequisites": [
+            "UTM 규칙",
+            "실제 고객 후기",
+            "배송·반품 정책",
+            "법률 검토된 효능 문구"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+            "timestamp": "00:29-03:16",
+            "summary": "일반 PDP 대신 광고와 메시지가 일치하는 전용 랜딩페이지를 판매원처럼 설계"
+          }
+        },
+        {
+          "id": "MKT-002",
+          "tactic": "피부 고민·루틴 중심 탐색 구조",
+          "action": "메뉴와 컬렉션을 제품명보다 피부 고민, 제형, 루틴 단계 중심으로 구성하고 검색창을 전면에 둔다.",
+          "confidence": "high",
+          "kpis": [
+            "product_view_rate",
+            "site_search_usage",
+            "search_to_purchase_rate"
+          ],
+          "prerequisites": [
+            "피부 고민 태그",
+            "제형·루틴 메타필드",
+            "사이트 검색 추적"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+            "timestamp": "04:16-06:16",
+            "summary": "상품 발견 경로를 단순화하고 검색과 컬렉션 카드를 강화"
+          }
+        },
+        {
+          "id": "MKT-003",
+          "tactic": "PDP 이미지 캐러셀을 판매 스토리로 구성",
+          "action": "제품컷, 피부 고민 맥락, 제형·사용법, 성분 근거, 후기, 사용 장면, 배송·반품 순으로 이미지 세트를 만든다.",
+          "confidence": "high",
+          "kpis": [
+            "pdp_add_to_cart_rate",
+            "image_interaction_rate",
+            "pdp_exit_rate"
+          ],
+          "prerequisites": [
+            "고해상도 제품컷",
+            "사용 허가된 UGC",
+            "검증된 성분·사용법"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+            "timestamp": "12:46-14:25",
+            "summary": "각도만 다른 이미지 대신 구매 질문에 순서대로 답하는 이미지 흐름"
+          }
+        },
+        {
+          "id": "MKT-005",
+          "tactic": "검색형 숏폼을 TikTok·Reels·Shorts에 교차 게시",
+          "action": "사용 장면, 세 가지 사용법, 루틴 순서, 포장 비하인드 영상을 만들고 채널별 제목·자막을 현지화한다.",
+          "confidence": "high",
+          "kpis": [
+            "shortform_link_ctr",
+            "organic_video_sessions",
+            "assisted_orders"
+          ],
+          "prerequisites": [
+            "UGC 제작 권한",
+            "영문 자막",
+            "추적 링크",
+            "콘텐츠 캘린더"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
+            "timestamp": "06:46-08:14",
+            "summary": "검색되는 짧은 제품 콘텐츠를 여러 숏폼 채널에 재활용"
+          }
+        },
+        {
+          "id": "MKT-020",
+          "tactic": "훅·형식·증거별 크리에이티브 테스트 체계",
+          "action": "UGC 데모, 텍스처, 루틴 교육, 리뷰, 성분 근거를 서로 다른 훅과 형식으로 제작하고 패자를 중단해 승자의 후속 버전을 만든다.",
+          "confidence": "high",
+          "kpis": [
+            "creative_ctr",
+            "cost_per_acquisition",
+            "mer",
+            "concept_win_rate"
+          ],
+          "prerequisites": [
+            "전환 추적",
+            "테스트 예산 승인",
+            "크리에이티브 분류표",
+            "사람의 사실 검수"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
+            "timestamp": "15:00-17:47",
+            "summary": "규칙적인 변형 제작과 승자 확장 중심의 광고 크리에이티브 운영"
+          }
+        },
+        {
+          "id": "MKT-024",
+          "tactic": "AI 캠페인 제안 승인 큐와 비용 가드레일",
+          "action": "AI가 제안한 이메일·광고 캠페인은 대상, 예산, 일정, 클레임을 사람이 검토하고 유료 집행은 명시적 사용자 승인 전까지 보류한다.",
+          "confidence": "high",
+          "kpis": [
+            "campaign_approval_rate",
+            "claims_rejection_rate",
+            "unapproved_spend"
+          ],
+          "prerequisites": [
+            "제품 사실표",
+            "법률 승인 카피",
+            "예산 상한",
+            "승인 로그"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=jUxSAGCaJIU",
+            "timestamp": "03:13-04:43",
+            "summary": "Campaign Autopilot은 전술을 제안하지만 승인 전에는 게시되지 않으며 예산·규칙·권한 가드레일을 설정"
+          }
+        },
+        {
+          "id": "MKT-027",
+          "tactic": "UGC 훅-발견-혜택-소프트 CTA 샷리스트",
+          "action": "실제 제품 사실과 고객 맥락으로 훅, 발견, 혜택, 소프트 CTA를 작성하고 각 문장을 증명하는 세로형 B-roll 샷을 연결해 유기 숏폼으로 먼저 검증한다.",
+          "confidence": "high",
+          "kpis": [
+            "organic_video_completion_rate",
+            "shortform_link_ctr",
+            "concept_save_rate"
+          ],
+          "prerequisites": [
+            "승인된 제품 사실",
+            "출연·사용 권한",
+            "세로 영상 원본",
+            "자막 사실 검수"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=_pKECd9m25U",
+            "timestamp": "01:30-04:38",
+            "summary": "UGC 스크립트를 훅-발견-혜택-소프트 CTA로 구성하고 문장별 제품 사용 B-roll을 사전 지정"
+          }
+        }
+      ],
+      "videos_available": 67,
+      "review_pending": [
+        {
+          "title": "I Built The Ultimate Claude Website Design Skill (steal this)",
+          "url": "https://www.youtube.com/watch?v=QUI6Ug4cHnE"
+        },
+        {
+          "title": "요즘 클로드 디자인에 미쳐있는 이유 #티안나는AI디자인 #designsystems #ClaudeDesign",
+          "url": "https://www.youtube.com/watch?v=9RUcYdww138"
+        }
+      ],
+      "last_review": "2026-09-27"
+    },
+    "channels": {
+      "status": "영상 수집됨 · 자막 검토 대기",
+      "insights": 0,
+      "this_week_action": null,
+      "items": [],
+      "videos_available": 30,
+      "review_pending": [
+        {
+          "title": "Intro to Fulfillment by Amazon (FBA)",
+          "url": "https://www.youtube.com/watch?v=fKjgRQ8tIRs"
+        },
+        {
+          "title": "Should You Spend on Amazon Ads? Why PPC Is Essential for Sellers | Amazon Seller Insights",
+          "url": "https://www.youtube.com/watch?v=5cfz46esofo"
+        }
+      ],
+      "last_review": null
+    },
+    "knowledge": {
+      "status": "영상 수집됨 · 자막 검토 대기",
+      "insights": 0,
+      "this_week_action": null,
+      "items": [],
+      "videos_available": 69,
+      "review_pending": [
+        {
+          "title": "유대인들이 지금 돈 쓸어모으고 있는 사기급 스킬",
+          "url": "https://www.youtube.com/watch?v=CVEe0HAd--I"
+        },
+        {
+          "title": "천재들은 \"어떻게\" 이미지로 요약하는 걸까?",
+          "url": "https://www.youtube.com/watch?v=ehmoVENJEB0"
+        }
+      ],
+      "last_review": null
+    },
+    "graph": {
+      "status": "영상 수집됨 · 자막 검토 대기",
+      "insights": 0,
+      "this_week_action": null,
+      "items": [],
+      "videos_available": 30,
+      "review_pending": [
+        {
+          "title": "EXTENDED CUT: Everything New in Obsidian! October 2025 (Groups, Summaries, List View)",
+          "url": "https://www.youtube.com/watch?v=RBvaL5NEoPE"
+        },
+        {
+          "title": "EXTENDED CUT: Deep-Dive into 10 Digital Tools I Use Daily",
+          "url": "https://www.youtube.com/watch?v=zql7E09r7yA"
+        }
+      ],
+      "last_review": null
+    }
+  }
+}

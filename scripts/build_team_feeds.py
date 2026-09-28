@@ -229,7 +229,7 @@ MONTHS = {m: f"{i:02d}" for i, m in enumerate(
 #
 # 다이소 상품은 사람이 넣은 것이 아니라 수집기가 긁어온 것이다.
 # by_hand 의 뜻 그대로 빼둔다. 상품은 아래 PRODUCT_POOLS 로 따로 센다.
-BY_HAND = ("papers", "youtube_manual", "youtube_channel", "team_briefing")
+BY_HAND = ("papers", "youtube_manual", "youtube_channel", "team_briefing", "youtube_insight")
 
 # 읽을거리가 아니라 상품 행인 풀.
 #
@@ -343,6 +343,24 @@ def main() -> int:
                       "pool": "team_briefing", "teams": it.get("teams") or [],
                       "summary": summary, "text": summary[:1200]})
 
+    # 자막을 검토해 채택한 YouTube 학습 항목 (2026-09-28).
+    # 전에는 마케팅팀 코드만 읽었다. 이제 검토자가 정한 팀 피드 맨 위에 올린다.
+    for src in (DATA / "manual" / "shopify_youtube_insights.json",
+                DATA / "manual" / "team_youtube_insights.json"):
+        doc = load(src) or {}
+        vids = {v.get("video_id"): v for v in (doc.get("videos") or []) if isinstance(v, dict)}
+        for ins in (doc.get("insights") or []):
+            ev = ins.get("evidence") or {}
+            v = vids.get(ev.get("video_id")) or {}
+            url = v.get("url") or (f"https://www.youtube.com/watch?v={ev.get('video_id')}" if ev.get("video_id") else "")
+            if not ins.get("tactic") or not ins.get("teams"):
+                continue
+            pools.append({"title": f"[영상 학습 {ins.get('id')}] {ins['tactic']}", "url": url,
+                          "date": str(doc.get("updated_at") or "")[:10], "pool": "youtube_insight",
+                          "teams": ins.get("teams") or [],
+                          "summary": f"{ins.get('action', '')} (근거 {ev.get('timestamp', '')})",
+                          "text": str(ins.get("action") or "")[:600]})
+
     yc = load(DATA / "youtube_channels.json")
     for c in ((yc or {}).get("items") or []):
         for it in (c.get("videos") or []):
@@ -392,7 +410,7 @@ def main() -> int:
             # 사람이 직접 넣은 것은 위에 둔다. 골라 넣은 자료가 자동
             # 수집분에 밀려 안 보이면 넣은 의미가 없다.
             row["by_hand"] = it.get("pool") in BY_HAND
-            teams[t].append(row)
+            teams.setdefault(t, []).append(row)
 
     cutoff = (datetime.now(timezone.utc) - timedelta(days=RECENT_DAYS)).strftime("%Y-%m-%d")
     summary = {}

@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-28T20:13:28.915318+09:00",
+  "generated_at": "2026-09-28T21:14:03.353307+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
       "id": "sourcing",
       "name": "상품 소싱팀",
       "when": "2026-09-28T10:38:15.202798+00:00",
-      "summary": "344개 상품 · 등급 S 10 / A 76 / B 48 / C 210 · 새 자료 3건",
-      "action": "다이소 수집이 7.5일째 발행되지 않음 (마지막 수집 2026-09-20) · Daiso Real Product Collection 실행 결과 확인",
+      "summary": "344개 상품 · 등급 S 10 / A 76 / B 48 / C 210 · 새 자료 6건 · 영상 학습 3개",
+      "action": "다이소 수집이 7.6일째 발행되지 않음 (마지막 수집 2026-09-20) · Daiso Real Product Collection 실행 결과 확인",
       "action_kind": "auto_remediable",
       "waiting": null,
       "waiting_kind": null,
@@ -17,13 +17,41 @@
       "phase": "now",
       "phase_label": "1단계 · 후보 선정",
       "color": "#15803d",
-      "glyph": "box"
+      "glyph": "box",
+      "youtube_learning": {
+        "status": "학습 중",
+        "insights": 3,
+        "videos_available": 3,
+        "this_week_action": {
+          "id": "MKT-013",
+          "tactic": "고객 결과 중심 루틴 번들",
+          "action": "무작위 추가 상품이 아니라 클렌징-트리트먼트-보습처럼 한 루틴을 완성하는 구성으로 번들을 만든다.",
+          "confidence": "high",
+          "kpis": [
+            "bundle_attach_rate",
+            "bundle_aov",
+            "bundle_margin",
+            "repeat_rate"
+          ],
+          "prerequisites": [
+            "제형 호환성",
+            "사용 순서",
+            "번들 재고",
+            "법률 검토"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+            "timestamp": "04:40-07:33",
+            "summary": "서로 보완하는 상품을 고객 목표 기준으로 묶음"
+          }
+        }
+      }
     },
     {
       "id": "institutions",
       "name": "기관 수집팀",
       "when": "2026-09-28T10:31:37.923062+00:00",
-      "summary": "34곳 1,009건 · 미수집 12건 사유 기록 · 새 자료 221건",
+      "summary": "34곳 1,009건 · 미수집 12건 사유 기록 · 새 자료 224건 · 영상 90편 자막 검토 대기",
       "action": null,
       "action_kind": null,
       "waiting": null,
@@ -33,13 +61,19 @@
       "phase": "now",
       "phase_label": "1단계 · 후보 선정",
       "color": "#2f7d6b",
-      "glyph": "bank"
+      "glyph": "bank",
+      "youtube_learning": {
+        "status": "영상 수집됨 · 자막 검토 대기",
+        "insights": 0,
+        "videos_available": 90,
+        "this_week_action": null
+      }
     },
     {
       "id": "market",
       "name": "마케팅 조사팀",
       "when": "2026-09-28T19:51:36.712095+09:00",
-      "summary": "S등급 10개 · 고시 판독 남음 0건 · 유튜브 자막 12편 · 근거 29개 · 실험 12개 · 새 자료 51건",
+      "summary": "S등급 10개 · 고시 판독 남음 0건 · 유튜브 자막 12편 · 근거 29개 · 실험 12개 · 새 자료 81건 · 영상 학습 28개",
       "action": null,
       "action_kind": null,
       "waiting": null,
@@ -49,13 +83,40 @@
       "phase": "always",
       "phase_label": "상시 · 시장 감시",
       "color": "#c2410c",
-      "glyph": "chart"
+      "glyph": "chart",
+      "youtube_learning": {
+        "status": "학습 중",
+        "insights": 28,
+        "videos_available": 85,
+        "this_week_action": {
+          "id": "MKT-001",
+          "tactic": "광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
+          "action": "광고 훅과 피부 고민마다 별도 랜딩페이지를 만들고 가치제안, 실제 리뷰, FAQ, 배송·반품 정보를 한 흐름에 배치한다.",
+          "confidence": "high",
+          "kpis": [
+            "landing_conversion_rate",
+            "cost_per_acquisition",
+            "bounce_rate"
+          ],
+          "prerequisites": [
+            "UTM 규칙",
+            "실제 고객 후기",
+            "배송·반품 정책",
+            "법률 검토된 효능 문구"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+            "timestamp": "00:29-03:16",
+            "summary": "일반 PDP 대신 광고와 메시지가 일치하는 전용 랜딩페이지를 판매원처럼 설계"
+          }
+        }
+      }
     },
     {
       "id": "listing",
       "name": "리스팅 제작팀",
       "when": "2026-09-28T10:38:23.466365+00:00",
-      "summary": "AI 입력 9/10 · 초안 준비 9/10 · 공개 준비 0/10 · Action 8건 · CP 10 · 카피 9 · 고시 10 · 가격 10 · 법률 9 · Jev 판정 10건(입력 10,961토큰 · $0.0005, 무료 크레딧)",
+      "summary": "AI 입력 9/10 · 초안 준비 9/10 · 공개 준비 0/10 · Action 8건 · CP 10 · 카피 9 · 고시 10 · 가격 10 · 법률 9 · Jev 판정 10건(입력 10,961토큰 · $0.0005, 무료 크레딧) · 영상 학습 25개",
       "action": null,
       "action_kind": null,
       "waiting": "카피 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 8건 사람 승인 대기",
@@ -65,13 +126,40 @@
       "phase": "ready",
       "phase_label": "2단계 · 가입 후 등록",
       "color": "#be185d",
-      "glyph": "doc"
+      "glyph": "doc",
+      "youtube_learning": {
+        "status": "학습 중",
+        "insights": 25,
+        "videos_available": 44,
+        "this_week_action": {
+          "id": "MKT-001",
+          "tactic": "광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
+          "action": "광고 훅과 피부 고민마다 별도 랜딩페이지를 만들고 가치제안, 실제 리뷰, FAQ, 배송·반품 정보를 한 흐름에 배치한다.",
+          "confidence": "high",
+          "kpis": [
+            "landing_conversion_rate",
+            "cost_per_acquisition",
+            "bounce_rate"
+          ],
+          "prerequisites": [
+            "UTM 규칙",
+            "실제 고객 후기",
+            "배송·반품 정책",
+            "법률 검토된 효능 문구"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+            "timestamp": "00:29-03:16",
+            "summary": "일반 PDP 대신 광고와 메시지가 일치하는 전용 랜딩페이지를 판매원처럼 설계"
+          }
+        }
+      }
     },
     {
       "id": "pricing",
       "name": "가격 정책팀",
       "when": "2026-09-28T10:38:15.298579+00:00",
-      "summary": "개당 배송비 $6.20~$6.95 · 무게 43~200g (고시용량 10) · DDU/DDP 4개 · 새 자료 13건",
+      "summary": "개당 배송비 $6.20~$6.95 · 무게 43~200g (고시용량 10) · DDU/DDP 4개 · 새 자료 22건 · 영상 학습 9개",
       "action": null,
       "action_kind": null,
       "waiting": null,
@@ -81,13 +169,40 @@
       "phase": "ready",
       "phase_label": "2단계 · 가입 후 등록",
       "color": "#7c3aed",
-      "glyph": "tag"
+      "glyph": "tag",
+      "youtube_learning": {
+        "status": "학습 중",
+        "insights": 9,
+        "videos_available": 36,
+        "this_week_action": {
+          "id": "MKT-008",
+          "tactic": "번들·사은품 임계값 AOV 테스트",
+          "action": "구성품 이미지와 실제 절감액을 보여주는 루틴 번들 및 사은품 해금 기준을 테스트한다.",
+          "confidence": "high",
+          "kpis": [
+            "average_order_value",
+            "bundle_take_rate",
+            "contribution_margin_per_order"
+          ],
+          "prerequisites": [
+            "마진 계산",
+            "배송원가",
+            "구성품 재고",
+            "기간 비교 또는 A/B 설계"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+            "timestamp": "11:19-12:25",
+            "summary": "명확한 번들 구성과 해금 기준으로 장바구니 금액을 높임"
+          }
+        }
+      }
     },
     {
       "id": "legal",
       "name": "법률·규제팀",
       "when": "2026-09-28T10:38:15.923105+00:00",
-      "summary": "자동 점검 10건 · 통과 0 · 등록 차단 1 · 참고 주의 10 · MoCRA 준비 0/7 · 영문라벨 23/27 · 표기 되돌림 6건 · 성분표기 확인 6종 · 수출서류 HS 10건 · 라벨 4/6항목 자동 · 새 자료 26건",
+      "summary": "자동 점검 10건 · 통과 0 · 등록 차단 1 · 참고 주의 10 · MoCRA 준비 0/7 · 영문라벨 23/27 · 표기 되돌림 6건 · 성분표기 확인 6종 · 수출서류 HS 10건 · 라벨 4/6항목 자동 · 새 자료 45건 · 영상 학습 18개",
       "action": null,
       "action_kind": null,
       "waiting": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
@@ -97,13 +212,40 @@
       "phase": "ready",
       "phase_label": "2단계 · 가입 후 등록",
       "color": "#b91c1c",
-      "glyph": "scale"
+      "glyph": "scale",
+      "youtube_learning": {
+        "status": "학습 중",
+        "insights": 18,
+        "videos_available": 31,
+        "this_week_action": {
+          "id": "MKT-001",
+          "tactic": "광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
+          "action": "광고 훅과 피부 고민마다 별도 랜딩페이지를 만들고 가치제안, 실제 리뷰, FAQ, 배송·반품 정보를 한 흐름에 배치한다.",
+          "confidence": "high",
+          "kpis": [
+            "landing_conversion_rate",
+            "cost_per_acquisition",
+            "bounce_rate"
+          ],
+          "prerequisites": [
+            "UTM 규칙",
+            "실제 고객 후기",
+            "배송·반품 정책",
+            "법률 검토된 효능 문구"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+            "timestamp": "00:29-03:16",
+            "summary": "일반 PDP 대신 광고와 메시지가 일치하는 전용 랜딩페이지를 판매원처럼 설계"
+          }
+        }
+      }
     },
     {
       "id": "robotics",
       "name": "로보틱스 수집",
       "when": "2026-09-28T10:29:09.633202+00:00",
-      "summary": "66건 · arxiv 26 / rss 40 · 새 자료 55건",
+      "summary": "66건 · arxiv 26 / rss 40 · 새 자료 55건 · 영상 60편 자막 검토 대기",
       "action": null,
       "action_kind": null,
       "waiting": null,
@@ -113,13 +255,19 @@
       "phase": "now",
       "phase_label": "1단계 · 지식",
       "color": "#1d4ed8",
-      "glyph": "robot"
+      "glyph": "robot",
+      "youtube_learning": {
+        "status": "영상 수집됨 · 자막 검토 대기",
+        "insights": 0,
+        "videos_available": 60,
+        "this_week_action": null
+      }
     },
     {
       "id": "design",
       "name": "디자인팀",
       "when": "2026-09-28T10:31:46.387257+00:00",
-      "summary": "스토어 2/12단계 · 오프라인 초안 2단계 · 레퍼런스 85건 (관련 44%) · 폰트 1946개(한글 38) · 팔레트 13색조 · 디자인 기사 60건 · 영상 67건 · 새 자료 110건",
+      "summary": "스토어 2/12단계 · 오프라인 초안 2단계 · 레퍼런스 85건 (관련 44%) · 폰트 1946개(한글 38) · 팔레트 13색조 · 디자인 기사 60건 · 영상 67건 · 새 자료 115건 · 영상 학습 7개",
       "action": null,
       "action_kind": null,
       "waiting": "다음 단계: Shopify 스토어 개설 및 기본 설정",
@@ -129,13 +277,40 @@
       "phase": "ready",
       "phase_label": "2단계 · 가입 후 등록",
       "color": "#0ea5e9",
-      "glyph": "design"
+      "glyph": "design",
+      "youtube_learning": {
+        "status": "학습 중",
+        "insights": 7,
+        "videos_available": 67,
+        "this_week_action": {
+          "id": "MKT-001",
+          "tactic": "광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
+          "action": "광고 훅과 피부 고민마다 별도 랜딩페이지를 만들고 가치제안, 실제 리뷰, FAQ, 배송·반품 정보를 한 흐름에 배치한다.",
+          "confidence": "high",
+          "kpis": [
+            "landing_conversion_rate",
+            "cost_per_acquisition",
+            "bounce_rate"
+          ],
+          "prerequisites": [
+            "UTM 규칙",
+            "실제 고객 후기",
+            "배송·반품 정책",
+            "법률 검토된 효능 문구"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+            "timestamp": "00:29-03:16",
+            "summary": "일반 PDP 대신 광고와 메시지가 일치하는 전용 랜딩페이지를 판매원처럼 설계"
+          }
+        }
+      }
     },
     {
       "id": "channels",
       "name": "채널 운영팀",
       "when": "2026-09-28T10:38:39.220904+00:00",
-      "summary": "가동 11/12채널 · 수동 입력 32건 · 후보 7건 검사, 미연동 0건",
+      "summary": "가동 11/12채널 · 수동 입력 32건 · 후보 7건 검사, 미연동 0건 · 영상 30편 자막 검토 대기",
       "action": null,
       "action_kind": null,
       "waiting": null,
@@ -145,13 +320,19 @@
       "phase": "now",
       "phase_label": "1단계 · 후보 선정",
       "color": "#0369a1",
-      "glyph": "antenna"
+      "glyph": "antenna",
+      "youtube_learning": {
+        "status": "영상 수집됨 · 자막 검토 대기",
+        "insights": 0,
+        "videos_available": 30,
+        "this_week_action": null
+      }
     },
     {
       "id": "knowledge",
       "name": "지식 수집팀",
       "when": "2026-09-28T10:32:36.108841+00:00",
-      "summary": "537건 · arXiv 50 / 유기농스킨 30 / Google 300 / US뷰티 157",
+      "summary": "537건 · arXiv 50 / 유기농스킨 30 / Google 300 / US뷰티 157 · 영상 69편 자막 검토 대기",
       "action": null,
       "action_kind": null,
       "waiting": null,
@@ -161,13 +342,19 @@
       "phase": "now",
       "phase_label": "1단계 · 후보 선정",
       "color": "#a16207",
-      "glyph": "book"
+      "glyph": "book",
+      "youtube_learning": {
+        "status": "영상 수집됨 · 자막 검토 대기",
+        "insights": 0,
+        "videos_available": 69,
+        "this_week_action": null
+      }
     },
     {
       "id": "graph",
       "name": "옵시디언 그래프",
       "when": "2026-09-28T19:51:40.878011+09:00",
-      "summary": "83,039노트 · 342,535링크 · 끊어진 링크 0건 · 개인 노트 16건 별도 · 미분류 13.4% · 학습 키워드 9개",
+      "summary": "83,039노트 · 342,535링크 · 끊어진 링크 0건 · 개인 노트 16건 별도 · 미분류 13.4% · 학습 키워드 9개 · 영상 30편 자막 검토 대기",
       "action": null,
       "action_kind": null,
       "waiting": null,
@@ -177,7 +364,13 @@
       "phase": "now",
       "phase_label": "",
       "color": "#0f766e",
-      "glyph": "graph"
+      "glyph": "graph",
+      "youtube_learning": {
+        "status": "영상 수집됨 · 자막 검토 대기",
+        "insights": 0,
+        "videos_available": 30,
+        "this_week_action": null
+      }
     }
   ],
   "secretary": {
@@ -194,37 +387,37 @@
         "단계": "고시 수집",
         "산출물": "gosi.json",
         "갱신": "2026-09-28T09:45:25.294372+00:00",
-        "몇시간전": 1.5
+        "몇시간전": 2.5
       },
       {
         "단계": "고시 비전 추출",
         "산출물": "gosi.json",
         "갱신": "2026-09-28T18:54:32.268064+09:00",
-        "몇시간전": 1.3
+        "몇시간전": 2.3
       },
       {
         "단계": "US 라벨 동기화",
         "산출물": "daiso_us_labels.json",
         "갱신": "2026-09-28T19:51:36.662093+09:00",
-        "몇시간전": 0.4
+        "몇시간전": 1.4
       },
       {
         "단계": "리스팅 카피",
         "산출물": "shopify_listing_copy.json",
         "갱신": "2026-09-28T10:38:17.966363+00:00",
-        "몇시간전": 0.6
+        "몇시간전": 1.6
       },
       {
         "단계": "등록 게이트",
         "산출물": "listing_gate.json",
         "갱신": "2026-09-28T10:38:23.466365+00:00",
-        "몇시간전": 0.6
+        "몇시간전": 1.6
       },
       {
         "단계": "법률 점검",
         "산출물": "legal_products.json",
         "갱신": "2026-09-28T10:38:15.923105+00:00",
-        "몇시간전": 0.6
+        "몇시간전": 1.6
       }
     ],
     "_근거": "JARVIS Deep Analysis가 2시간마다 남기는 Safe Auto-Fix 보고서를 heartbeat로 본다. 개별 파생 파일은 입력 무변경 시 mtime이 유지되므로 지연 판정에 쓰지 않는다."
@@ -519,7 +712,7 @@
   },
   "team_summary": {
     "corpus_records": 5041,
-    "pipeline_done": 5,
+    "pipeline_done": 3,
     "pipeline_total": 5
   },
   "pipeline": [
@@ -544,13 +737,13 @@
     {
       "id": "train",
       "title": "실제 데이터 MoE 학습",
-      "status": "completed",
+      "status": "not_verified",
       "detail": "5041건 · 3 experts · 정확도 86.75%"
     },
     {
       "id": "publish",
       "title": "저장소·Pages 반영",
-      "status": "ready_for_pages",
+      "status": "pending_workflow",
       "detail": "GitHub Actions Pages 배포 워크플로에서 반영"
     }
   ],
@@ -900,7 +1093,13 @@
     "last_generated": "2026-09-28T19:51:40.878011+09:00"
   },
   "training": {
-    "status": "completed",
+    "status": "not_verified",
+    "training_effective": null,
+    "verdict": "기준선 비교 기록 없음",
+    "validation_macro_f1": null,
+    "validation_recall": null,
+    "baseline_accuracy": null,
+    "baseline_macro_f1": null,
     "training_performed": true,
     "weights_updated": true,
     "records": 5041,
@@ -2175,7 +2374,7 @@
       "collected_at": "2026-09-27T23:23:29.610468+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 11.8,
+      "age_hours": 12.8,
       "stale": false
     },
     "walmart_beauty": {
@@ -2185,7 +2384,7 @@
       "collected_at": "2026-09-27T23:23:29.611493+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 11.8,
+      "age_hours": 12.8,
       "stale": false
     },
     "oliveyoung_us": {
@@ -2195,7 +2394,7 @@
       "collected_at": "2026-09-28T10:33:07.147455+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 0.7,
+      "age_hours": 1.7,
       "stale": false
     },
     "google_trends_us": {
@@ -2205,7 +2404,7 @@
       "collected_at": "2026-09-28T10:33:46.758693+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 0.7,
+      "age_hours": 1.7,
       "stale": false
     },
     "wikipedia_interest": {
@@ -2216,7 +2415,7 @@
       "count": 8,
       "trust": "verified",
       "note": "2026-08-28 ~ 2026-09-26 일별 조회수. 후반 15일 대비 전반 15일 증감률",
-      "age_hours": 1.5,
+      "age_hours": 2.5,
       "stale": false
     },
     "allure_media": {
@@ -2227,7 +2426,7 @@
       "count": 15,
       "trust": "verified",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
-      "age_hours": 1.5,
+      "age_hours": 2.5,
       "stale": false
     },
     "openfda_sunscreen": {
@@ -2238,7 +2437,7 @@
       "count": 15,
       "trust": "verified",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다.",
-      "age_hours": 1.5,
+      "age_hours": 2.5,
       "stale": false
     },
     "shopify_demand_matching": {
@@ -2264,7 +2463,7 @@
       "collected_at": "2026-09-27T23:23:29.612193+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 11.8,
+      "age_hours": 12.8,
       "stale": false
     },
     "sephora": {
@@ -2274,7 +2473,7 @@
       "collected_at": "2026-09-27T23:23:29.612193+00:00",
       "count": 14,
       "trust": "verified",
-      "age_hours": 11.8,
+      "age_hours": 12.8,
       "stale": false
     },
     "open_beauty_facts": {
@@ -2284,7 +2483,7 @@
       "collected_at": "2026-09-28T10:33:06.194685+00:00",
       "count": 15,
       "trust": "verified",
-      "age_hours": 0.7,
+      "age_hours": 1.7,
       "stale": false
     }
   },

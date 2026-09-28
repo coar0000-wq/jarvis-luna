@@ -1,0 +1,1 @@
+{"schema_version": 1, "updated_at": null, "method": "Gemini Notebook(NotebookLM)으로 자막을 검토하고 타임스탬프 근거가 있는 실행 항목만 채택", "policy": "영상의 매출·전환 과장 수치는 근거로 쓰지 않는다. 제품 사실·법률 게이트·자사 측정값을 우선한다.", "videos": [], "insights": [], "rejected_claims": [], "rejected_items": []}

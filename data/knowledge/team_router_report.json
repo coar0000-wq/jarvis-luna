@@ -1,0 +1,155 @@
+{
+  "generated_at": "2026-09-28T12:04:22.729602+00:00",
+  "generator": "scripts/team_router_moe.py",
+  "task": "자료·영상 -> 담당 팀 (11팀 중 정답 표본이 충분한 팀)",
+  "label_policy": "출처가 확실한 것만 정답으로 쓴다. 키워드 규칙이 붙인 팀은 쓰지 않는다.",
+  "classes": [
+    "design",
+    "institutions",
+    "knowledge",
+    "legal",
+    "listing",
+    "market",
+    "robotics",
+    "sourcing"
+  ],
+  "skipped_small_classes": {
+    "pricing": 13
+  },
+  "items": 4332,
+  "train_items": 3504,
+  "validation_items": 828,
+  "label_origins": {
+    "corpus:arxiv": 601,
+    "corpus:institutions": 2105,
+    "corpus:organic_skincare": 15,
+    "corpus:robotics": 395,
+    "corpus:us_beauty": 626,
+    "daiso": 344,
+    "design_refs": 85,
+    "fda": 30,
+    "insight": 29,
+    "youtube_channel": 81,
+    "youtube_manual": 21
+  },
+  "features": "TF-IDF + L2 (min_df 2, 어휘 6932)",
+  "model": "MoE experts 3, steps 300, lr 5.0, 클래스 균형",
+  "validation": {
+    "accuracy": 0.8998,
+    "macro_f1": 0.768,
+    "per_team": {
+      "design": {
+        "precision": 0.694,
+        "recall": 0.758,
+        "predicted": 36,
+        "support": 33
+      },
+      "institutions": {
+        "precision": 0.908,
+        "recall": 0.945,
+        "predicted": 413,
+        "support": 397
+      },
+      "knowledge": {
+        "precision": 0.811,
+        "recall": 0.833,
+        "predicted": 111,
+        "support": 108
+      },
+      "legal": {
+        "precision": 1.0,
+        "recall": 0.444,
+        "predicted": 4,
+        "support": 9
+      },
+      "listing": {
+        "precision": 0.5,
+        "recall": 0.286,
+        "predicted": 8,
+        "support": 14
+      },
+      "market": {
+        "precision": 0.991,
+        "recall": 0.776,
+        "predicted": 115,
+        "support": 147
+      },
+      "robotics": {
+        "precision": 0.915,
+        "recall": 0.867,
+        "predicted": 71,
+        "support": 75
+      },
+      "sourcing": {
+        "precision": 0.971,
+        "recall": 0.895,
+        "predicted": 70,
+        "support": 76
+      }
+    }
+  },
+  "baseline_majority": {
+    "accuracy": 0.4795,
+    "macro_f1": 0.081,
+    "per_team": {
+      "design": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "predicted": 0,
+        "support": 33
+      },
+      "institutions": {
+        "precision": 0.479,
+        "recall": 1.0,
+        "predicted": 828,
+        "support": 397
+      },
+      "knowledge": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "predicted": 0,
+        "support": 108
+      },
+      "legal": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "predicted": 0,
+        "support": 9
+      },
+      "listing": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "predicted": 0,
+        "support": 14
+      },
+      "market": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "predicted": 0,
+        "support": 147
+      },
+      "robotics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "predicted": 0,
+        "support": 75
+      },
+      "sourcing": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "predicted": 0,
+        "support": 76
+      }
+    }
+  },
+  "effective": true,
+  "trusted_teams": [
+    "institutions",
+    "knowledge",
+    "market",
+    "robotics",
+    "sourcing"
+  ],
+  "use_rule": "믿을 수 있는 팀(정밀도 ≥0.8, 예측 ≥5건)으로, 확률 ≥0.6 일 때만 쓴다.",
+  "promoted": true
+}

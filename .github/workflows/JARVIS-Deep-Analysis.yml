@@ -224,6 +224,23 @@ jobs:
             --steps 300 \
             --promote
 
+      # MoE 팀 배정기 (2026-09-28): 자료·영상이 어느 팀 일인지 배운다.
+      # 출처가 확실한 정답만 쓰고, 다수 클래스 기준선을 못 넘으면 승격하지 않는다.
+      # 다음 회차의 영상 팀 배정(team_routing.py)과 주간 검토 큐가 이 모델을 쓴다.
+      - name: MoE 팀 배정기 학습·조건부 승격
+        continue-on-error: true
+        timeout-minutes: 8
+        run: python -u scripts/team_router_moe.py --train
+
+      # 모든 팀 YouTube 학습 (2026-09-28)
+      # 주간 자막 검토 큐를 만들고 팀별 학습 보드를 갱신한다. 검토 자체는
+      # Aside 정기 루틴이 Gemini Notebook 으로 하고 ingest_notebook_review.py 로 합친다.
+      - name: YouTube 검토 큐·팀 학습 보드
+        continue-on-error: true
+        run: |
+          python -u scripts/build_youtube_review_queue.py
+          python -u scripts/build_team_learning.py
+
       # =========================
       # GLOBAL CHANNELS
       # =========================

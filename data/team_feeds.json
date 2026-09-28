@@ -1,73 +1,87 @@
 {
-  "generated_at": "2026-09-28T10:32:27.278634+00:00",
+  "generated_at": "2026-09-28T12:11:59.166769+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
-  "pool_size": 2321,
+  "pool_size": 2675,
   "제목없어_버림": 38,
   "unrouted": 9,
   "summary": {
     "sourcing": {
-      "total": 349,
-      "recent": 347,
-      "material": 5,
-      "material_recent": 3,
+      "total": 352,
+      "recent": 350,
+      "material": 8,
+      "material_recent": 6,
       "products": 344
     },
     "market": {
-      "total": 560,
-      "recent": 51,
-      "material": 560,
-      "material_recent": 51,
+      "total": 589,
+      "recent": 81,
+      "material": 589,
+      "material_recent": 81,
       "products": 0
     },
     "listing": {
-      "total": 76,
-      "recent": 17,
-      "material": 76,
-      "material_recent": 17,
+      "total": 101,
+      "recent": 42,
+      "material": 101,
+      "material_recent": 42,
       "products": 0
     },
     "pricing": {
-      "total": 26,
-      "recent": 13,
-      "material": 26,
-      "material_recent": 13,
+      "total": 62,
+      "recent": 22,
+      "material": 62,
+      "material_recent": 22,
       "products": 0
     },
     "legal": {
-      "total": 154,
-      "recent": 26,
-      "material": 154,
-      "material_recent": 26,
+      "total": 206,
+      "recent": 45,
+      "material": 206,
+      "material_recent": 45,
       "products": 0
     },
     "design": {
-      "total": 411,
-      "recent": 110,
-      "material": 411,
-      "material_recent": 110,
+      "total": 410,
+      "recent": 115,
+      "material": 410,
+      "material_recent": 115,
       "products": 0
     },
     "robotics": {
-      "total": 91,
+      "total": 154,
       "recent": 55,
-      "material": 91,
+      "material": 154,
       "material_recent": 55,
       "products": 0
     },
     "knowledge": {
-      "total": 193,
-      "recent": 91,
-      "material": 193,
-      "material_recent": 91,
+      "total": 256,
+      "recent": 92,
+      "material": 256,
+      "material_recent": 92,
       "products": 0
     },
     "institutions": {
-      "total": 1012,
-      "recent": 221,
-      "material": 1012,
-      "material_recent": 221,
+      "total": 1098,
+      "recent": 224,
+      "material": 1098,
+      "material_recent": 224,
+      "products": 0
+    },
+    "channels": {
+      "total": 30,
+      "recent": 0,
+      "material": 30,
+      "material_recent": 0,
+      "products": 0
+    },
+    "graph": {
+      "total": 30,
+      "recent": 0,
+      "material": 30,
+      "material_recent": 0,
       "products": 0
     }
   },
@@ -79,6 +93,30 @@
   },
   "teams": {
     "sourcing": [
+      {
+        "title": "[영상 학습 MKT-013] 고객 결과 중심 루틴 번들",
+        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+        "pool": "youtube_insight",
+        "summary": "무작위 추가 상품이 아니라 클렌징-트리트먼트-보습처럼 한 루틴을 완성하는 구성으로 번들을 만든다. (근거 04:40-07:33)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-018] 리뷰에서 좁은 미충족 고객군을 찾기",
+        "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
+        "pool": "youtube_insight",
+        "summary": "자사·경쟁 리뷰를 AI로 묶어 구매자, 가치, 불만을 찾고 작은 설문이나 인터뷰로 확인한 뒤 포지셔닝 가설로 사용한다. (근거 07:53-09:30)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-022] 기여이익 기반 무료배송 대 할인 비교",
+        "url": "https://www.youtube.com/watch?v=UcG2v8i6Y2E",
+        "pool": "youtube_insight",
+        "summary": "상품군별 배송원가와 장바구니 금액을 넣어 무료배송, 정액 할인, 퍼센트 할인 시나리오의 주문 기여이익을 비교한 뒤 손실이 가장 낮은 오퍼만 테스트한다. (근거 13:22-16:34)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
       {
         "title": "고객 문제·포지셔닝·신뢰·수익구조·운영 루프 정의",
         "url": "",
@@ -481,27 +519,6 @@
         "pool": "daiso",
         "date": "2026-09-20",
         "by_hand": false
-      },
-      {
-        "title": "3중날 일체형 면도기 2개입",
-        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042526",
-        "pool": "daiso",
-        "date": "2026-09-20",
-        "by_hand": false
-      },
-      {
-        "title": "[프레시시트러스]데일리콤마 오드 퍼퓸 30 ml",
-        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1043653",
-        "pool": "daiso",
-        "date": "2026-09-20",
-        "by_hand": false
-      },
-      {
-        "title": "기모조거팬츠(L)(블랙)",
-        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072195",
-        "pool": "daiso",
-        "date": "2026-09-20",
-        "by_hand": false
       }
     ],
     "market": [
@@ -558,6 +575,230 @@
         "url": "https://www.youtube.com/watch?v=BJeHhsMVc8A&t=34s",
         "pool": "team_briefing",
         "summary": "Jev는 상태와 질문을 받아 choice·score·boolean 판단을 병렬로 반환하는 System 1 계층이며, 모델 라우팅(06:04~06:47), 위험 도구 차단(06:47~07:28), 온라인 평가(07:28~08:46)에 사용할 수 있다. JARVIS에서는 결정적 로컬 게이트를 먼저 적용하고 Jev가 열린 진단이 필요하다고 분류하거나 미분류 오류가 반복될 때만 Gemini Flash-Lite를 회차당 1회 호출한다. Gemini는 진단 초안만 만들며 정본 변경, 공개 게시, 결제, 광고, 법률 승인 대행은 할 수 없다.",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-001] 광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
+        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+        "pool": "youtube_insight",
+        "summary": "광고 훅과 피부 고민마다 별도 랜딩페이지를 만들고 가치제안, 실제 리뷰, FAQ, 배송·반품 정보를 한 흐름에 배치한다. (근거 00:29-03:16)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-002] 피부 고민·루틴 중심 탐색 구조",
+        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+        "pool": "youtube_insight",
+        "summary": "메뉴와 컬렉션을 제품명보다 피부 고민, 제형, 루틴 단계 중심으로 구성하고 검색창을 전면에 둔다. (근거 04:16-06:16)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-004] 제품명·설명·FAQ를 구매 질문형 SEO로 작성",
+        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
+        "pool": "youtube_insight",
+        "summary": "제품명에 검증된 성분·제형·사용 맥락을 넣고 중복 없는 설명과 FAQ로 실제 구매 질문에 답한다. (근거 02:56-03:40)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-005] 검색형 숏폼을 TikTok·Reels·Shorts에 교차 게시",
+        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
+        "pool": "youtube_insight",
+        "summary": "사용 장면, 세 가지 사용법, 루틴 순서, 포장 비하인드 영상을 만들고 채널별 제목·자막을 현지화한다. (근거 06:46-08:14)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-006] 14일 신규 구독자 웰컴 플로우",
+        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
+        "pool": "youtube_insight",
+        "summary": "인센티브 또는 피부 퀴즈 결과, 브랜드 스토리, 검증 리뷰, 베스트셀러 이유, 정가 구매 제안을 다섯 통으로 구성한다. (근거 08:16-09:33)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-007] Shopify와 Meta CAPI 전환 신호 검증",
+        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
+        "pool": "youtube_insight",
+        "summary": "스토어 개설 후 테스트 주문으로 Pixel과 서버 이벤트의 중복·누락을 점검하고 Shopify 주문값과 비교한다. (근거 14:27-15:46)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-008] 번들·사은품 임계값 AOV 테스트",
+        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+        "pool": "youtube_insight",
+        "summary": "구성품 이미지와 실제 절감액을 보여주는 루틴 번들 및 사은품 해금 기준을 테스트한다. (근거 11:19-12:25)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-009] 구매 후 적립 가치 이메일",
+        "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
+        "pool": "youtube_insight",
+        "summary": "구매 직후 추상 포인트 대신 원화 환산 가치, 현재 잔액, 다음 보상까지 남은 금액을 알린다. (근거 00:41-04:52)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-010] 리워드 사용 직후 재구매 컬렉션 연결",
+        "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
+        "pool": "youtube_insight",
+        "summary": "보상 코드와 가치를 상단에 표시하고 해당 보상을 쓸 수 있는 루틴·재구매 컬렉션으로 바로 연결한다. (근거 05:33-06:38)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-011] 실제 만료일 기반 윈백 이메일",
+        "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
+        "pool": "youtube_insight",
+        "summary": "공개된 포인트 만료 규칙이 있을 때만 잔액 가치와 사용처를 보여주는 만료 전 알림을 발송한다. (근거 09:32-10:46)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-012] 소모품 수량별 단계 할인",
+        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+        "pool": "youtube_insight",
+        "summary": "1개, 2개, 3개 옵션과 단위당 가격을 PDP에서 비교하되 할인 후 마진과 배송비를 통과한 상품에만 적용한다. (근거 01:55-03:58)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-013] 고객 결과 중심 루틴 번들",
+        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+        "pool": "youtube_insight",
+        "summary": "무작위 추가 상품이 아니라 클렌징-트리트먼트-보습처럼 한 루틴을 완성하는 구성으로 번들을 만든다. (근거 04:40-07:33)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-014] good-better-best 세트 구조",
+        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+        "pool": "youtube_insight",
+        "summary": "스타터, 2개월분, 전체 루틴 세트로 약정 수준을 나누고 상위 세트에는 실제 가치가 있는 샘플이나 도구만 추가한다. (근거 07:42-09:02)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-015] 카트 드로어 보완 상품 업셀",
+        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+        "pool": "youtube_insight",
+        "summary": "장바구니에 담은 상품과 직접 호환되는 소수의 보완 상품만 추천하고 체크아웃을 방해하지 않게 한다. (근거 09:02-11:15)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-016] 질문형 FAQ와 히어로 SKU 토픽 클러스터",
+        "url": "https://www.youtube.com/watch?v=UBSveo_tao8",
+        "pool": "youtube_insight",
+        "summary": "피부타입, 제형, 향, 루틴 순서, 성분 질문은 PDP FAQ로 답하고 넓은 주제는 가이드와 컬렉션으로 연결한다. (근거 05:53-13:24)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-017] 검증 구매 리뷰를 전환 자산으로 사용",
+        "url": "https://www.youtube.com/watch?v=UBSveo_tao8",
+        "pool": "youtube_insight",
+        "summary": "구매 후 피부타입, 제형, 향, 사용 순서, 재구매 의향을 구조적으로 수집하고 PDP와 광고에 허가 범위 내 재사용한다. (근거 13:34-15:03)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-018] 리뷰에서 좁은 미충족 고객군을 찾기",
+        "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
+        "pool": "youtube_insight",
+        "summary": "자사·경쟁 리뷰를 AI로 묶어 구매자, 가치, 불만을 찾고 작은 설문이나 인터뷰로 확인한 뒤 포지셔닝 가설로 사용한다. (근거 07:53-09:30)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-019] 제품 사실·고객 언어·구조 참고를 넣은 AI 카피",
+        "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
+        "pool": "youtube_insight",
+        "summary": "AI 카피에는 제품 사실표, 실제 리뷰 표현, 권리 침해 없는 랜딩 구조 참고를 입력하고 사람과 법률 검토 후 실험한다. (근거 12:12-14:27)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-020] 훅·형식·증거별 크리에이티브 테스트 체계",
+        "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
+        "pool": "youtube_insight",
+        "summary": "UGC 데모, 텍스처, 루틴 교육, 리뷰, 성분 근거를 서로 다른 훅과 형식으로 제작하고 패자를 중단해 승자의 후속 버전을 만든다. (근거 15:00-17:47)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-021] 할인 중첩·누수 정기 감사",
+        "url": "https://www.youtube.com/watch?v=UcG2v8i6Y2E",
+        "pool": "youtube_insight",
+        "summary": "활성 할인마다 중첩 허용, 사용기한, 사용횟수, 유입 파트너, 주문 기여이익을 기록하고 적자 조합과 방치 코드를 비활성화한다. (근거 04:18-11:00)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-022] 기여이익 기반 무료배송 대 할인 비교",
+        "url": "https://www.youtube.com/watch?v=UcG2v8i6Y2E",
+        "pool": "youtube_insight",
+        "summary": "상품군별 배송원가와 장바구니 금액을 넣어 무료배송, 정액 할인, 퍼센트 할인 시나리오의 주문 기여이익을 비교한 뒤 손실이 가장 낮은 오퍼만 테스트한다. (근거 13:22-16:34)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-023] Shopify AI 카탈로그 자격·질의 QA",
+        "url": "https://www.youtube.com/watch?v=jUxSAGCaJIU",
+        "pool": "youtube_insight",
+        "summary": "제품 가격·재고·정책이 Shopify 카탈로그와 동기화되는지 확인하고 대표 구매 질문을 테스트해 누락된 정책, 메타데이터, 상품 정보를 수정한다. (근거 00:16-01:45)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-024] AI 캠페인 제안 승인 큐와 비용 가드레일",
+        "url": "https://www.youtube.com/watch?v=jUxSAGCaJIU",
+        "pool": "youtube_insight",
+        "summary": "AI가 제안한 이메일·광고 캠페인은 대상, 예산, 일정, 클레임을 사람이 검토하고 유료 집행은 명시적 사용자 승인 전까지 보류한다. (근거 03:13-04:43)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-025] 모바일 게스트 체크아웃 마찰 제거",
+        "url": "https://www.youtube.com/watch?v=kFWPkoOx_ao",
+        "pool": "youtube_insight",
+        "summary": "게스트 체크아웃, 주소 자동완성, 진행 단계, 모바일 지갑 노출을 실제 휴대폰 테스트 주문으로 점검하고 막히는 단계를 기록한다. (근거 07:57-08:39)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-026] 제품·변형·컬렉션·FAQ 스키마 검증",
+        "url": "https://www.youtube.com/watch?v=Knjixb392Is",
+        "pool": "youtube_insight",
+        "summary": "제품과 변형의 가격·통화·재고·배송·반품, 컬렉션 ItemList, 실제 FAQ를 구조화 데이터로 출력하고 Search Console 오류를 수정한다. (근거 05:29-09:45)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-027] UGC 훅-발견-혜택-소프트 CTA 샷리스트",
+        "url": "https://www.youtube.com/watch?v=_pKECd9m25U",
+        "pool": "youtube_insight",
+        "summary": "실제 제품 사실과 고객 맥락으로 훅, 발견, 혜택, 소프트 CTA를 작성하고 각 문장을 증명하는 세로형 B-roll 샷을 연결해 유기 숏폼으로 먼저 검증한다. (근거 01:30-04:38)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-028] 실제 배송 지연 트리거 안내",
+        "url": "https://www.youtube.com/watch?v=v7DT2yhi9Ac",
+        "pool": "youtube_insight",
+        "summary": "주문이 약속한 처리기간을 넘을 때만 현재 상태, 다음 업데이트 시점, 문의 경로를 브랜드 톤으로 자동 안내한다. (근거 00:57-01:20)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-029] 저참여 선셋 플로우와 목록 정리",
+        "url": "https://www.youtube.com/watch?v=v7DT2yhi9Ac",
+        "pool": "youtube_insight",
+        "summary": "최근 열람·클릭·구매가 없는 구독자에게 누락 콘텐츠와 선호 재설정 기회를 제공하고 반응이 없으면 마케팅 발송 대상에서 제외한다. (근거 01:51-02:20)",
         "date": "2026-09-27",
         "by_hand": true
       },
@@ -747,202 +988,6 @@
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
-      },
-      {
-        "title": "How to Start a Business From Scratch With NO MONEY",
-        "url": "https://www.youtube.com/watch?v=o0LdVO6XrqE",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "The COMPLETE Meta AI Tutorial",
-        "url": "https://www.youtube.com/watch?v=-jLkh1-vxg8",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "The New Way Google Finds Your Website (AI Search Explained)",
-        "url": "https://www.youtube.com/watch?v=VrC9olXdpIo",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "How to Build a Shopify Store Using Only Your PHONE",
-        "url": "https://www.youtube.com/watch?v=vdUtt0qZ4W4",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "How to Use Claude to Safely Rebrand Your Shopify Store",
-        "url": "https://www.youtube.com/watch?v=gugo50_VbjE",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "How to Use Claude Cowork to Build and Run a Shopify Store",
-        "url": "https://www.youtube.com/watch?v=IQDtl0Dacjo",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Instagram Changed Everything Again: New Updates You Need to Know in 2026",
-        "url": "https://www.youtube.com/watch?v=dU_U1Pmmu5c",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "How to Start a 1-Person Business with Claude",
-        "url": "https://www.youtube.com/watch?v=irtf9-m-9uc",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "How to use Claude to Create Digital Products",
-        "url": "https://www.youtube.com/watch?v=tZW0x_tDhSk",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "7 Faceless Business Ideas for Beginners",
-        "url": "https://www.youtube.com/watch?v=4ulpu2uos8I",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "10 Shopify Promotion Strategies That Grow Repeat Sales (Marketing Masterclass Part 4)",
-        "url": "https://www.youtube.com/watch?v=zU4FI-deDwA",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Winning Distribution Strategies: 10 Plays Every Shopify Store Needs (Beginner to Pro)",
-        "url": "https://www.youtube.com/watch?v=9SyZPimDdH4",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Winning Pricing Strategies: 10 Plays Every Shopify Store Needs (Beginner to Pro)",
-        "url": "https://www.youtube.com/watch?v=c37NGZtSJPM",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "The Official Shopify Sidekick Tutorial (Part 2)",
-        "url": "https://www.youtube.com/watch?v=NbTHyB-nqHQ",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "How to Use Claude to Build and Run a Shopify Store",
-        "url": "https://www.youtube.com/watch?v=Ih5RapM8XKw",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Shopify Just Changed How You Sell (Spring 2026 Editions Explained)",
-        "url": "https://www.youtube.com/watch?v=jUxSAGCaJIU",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "How to Start a Clothing Resale Business on Shopify",
-        "url": "https://www.youtube.com/watch?v=RUwznTHGexY",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "How to Start Affiliate Marketing in 2026",
-        "url": "https://www.youtube.com/watch?v=HnV5JXBWCeQ",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "The Official Shopify Sidekick Tutorial (Part 1)",
-        "url": "https://www.youtube.com/watch?v=rGlVduB0T5s",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "How to Find Winning Products with AI 🤖 (Shopify Tutorial)",
-        "url": "https://www.youtube.com/watch?v=QsxT7MuyRfk",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Google Gemini in Google Workspace Complete Tutorial (+ NotebookLM & Gemini Enterprise)",
-        "url": "https://www.youtube.com/watch?v=SUlf_JpbHjc",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "The COMPLETE Meta Tutorial (Meta Ads, Meta Business Suite, Meta AI, Facebook Ads & More!)",
-        "url": "https://www.youtube.com/watch?v=OE4WimLYVGE",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Google’s AI Changed How People Shop and Buy Online Forever. Here's How.",
-        "url": "https://www.youtube.com/watch?v=XGrvSwlmZo0",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "How To Build a Shopify Store With Lovable",
-        "url": "https://www.youtube.com/watch?v=SCCsgkPgqY0",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Claude Tutorial for Beginners: The Complete 2026 Masterclass",
-        "url": "https://www.youtube.com/watch?v=VbSF8TUpsjE",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "The AI Tool Stack You Need in 2026",
-        "url": "https://www.youtube.com/watch?v=EHWZNDj-pNU",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "The COMPLETE Shopify Tutorial 2026",
-        "url": "https://www.youtube.com/watch?v=_1caEZ7t3UY",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "10 HIGHLY EFFECTIVE Marketing Tactics in 2026",
-        "url": "https://www.youtube.com/watch?v=11jjuDF50dE",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
       }
     ],
     "listing": [
@@ -983,6 +1028,206 @@
         "url": "https://www.youtube.com/watch?v=BJeHhsMVc8A&t=34s",
         "pool": "team_briefing",
         "summary": "Jev는 상태와 질문을 받아 choice·score·boolean 판단을 병렬로 반환하는 System 1 계층이며, 모델 라우팅(06:04~06:47), 위험 도구 차단(06:47~07:28), 온라인 평가(07:28~08:46)에 사용할 수 있다. JARVIS에서는 결정적 로컬 게이트를 먼저 적용하고 Jev가 열린 진단이 필요하다고 분류하거나 미분류 오류가 반복될 때만 Gemini Flash-Lite를 회차당 1회 호출한다. Gemini는 진단 초안만 만들며 정본 변경, 공개 게시, 결제, 광고, 법률 승인 대행은 할 수 없다.",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-001] 광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
+        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+        "pool": "youtube_insight",
+        "summary": "광고 훅과 피부 고민마다 별도 랜딩페이지를 만들고 가치제안, 실제 리뷰, FAQ, 배송·반품 정보를 한 흐름에 배치한다. (근거 00:29-03:16)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-002] 피부 고민·루틴 중심 탐색 구조",
+        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+        "pool": "youtube_insight",
+        "summary": "메뉴와 컬렉션을 제품명보다 피부 고민, 제형, 루틴 단계 중심으로 구성하고 검색창을 전면에 둔다. (근거 04:16-06:16)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-003] PDP 이미지 캐러셀을 판매 스토리로 구성",
+        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+        "pool": "youtube_insight",
+        "summary": "제품컷, 피부 고민 맥락, 제형·사용법, 성분 근거, 후기, 사용 장면, 배송·반품 순으로 이미지 세트를 만든다. (근거 12:46-14:25)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-004] 제품명·설명·FAQ를 구매 질문형 SEO로 작성",
+        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
+        "pool": "youtube_insight",
+        "summary": "제품명에 검증된 성분·제형·사용 맥락을 넣고 중복 없는 설명과 FAQ로 실제 구매 질문에 답한다. (근거 02:56-03:40)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-005] 검색형 숏폼을 TikTok·Reels·Shorts에 교차 게시",
+        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
+        "pool": "youtube_insight",
+        "summary": "사용 장면, 세 가지 사용법, 루틴 순서, 포장 비하인드 영상을 만들고 채널별 제목·자막을 현지화한다. (근거 06:46-08:14)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-006] 14일 신규 구독자 웰컴 플로우",
+        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
+        "pool": "youtube_insight",
+        "summary": "인센티브 또는 피부 퀴즈 결과, 브랜드 스토리, 검증 리뷰, 베스트셀러 이유, 정가 구매 제안을 다섯 통으로 구성한다. (근거 08:16-09:33)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-007] Shopify와 Meta CAPI 전환 신호 검증",
+        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
+        "pool": "youtube_insight",
+        "summary": "스토어 개설 후 테스트 주문으로 Pixel과 서버 이벤트의 중복·누락을 점검하고 Shopify 주문값과 비교한다. (근거 14:27-15:46)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-008] 번들·사은품 임계값 AOV 테스트",
+        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+        "pool": "youtube_insight",
+        "summary": "구성품 이미지와 실제 절감액을 보여주는 루틴 번들 및 사은품 해금 기준을 테스트한다. (근거 11:19-12:25)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-009] 구매 후 적립 가치 이메일",
+        "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
+        "pool": "youtube_insight",
+        "summary": "구매 직후 추상 포인트 대신 원화 환산 가치, 현재 잔액, 다음 보상까지 남은 금액을 알린다. (근거 00:41-04:52)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-010] 리워드 사용 직후 재구매 컬렉션 연결",
+        "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
+        "pool": "youtube_insight",
+        "summary": "보상 코드와 가치를 상단에 표시하고 해당 보상을 쓸 수 있는 루틴·재구매 컬렉션으로 바로 연결한다. (근거 05:33-06:38)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-012] 소모품 수량별 단계 할인",
+        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+        "pool": "youtube_insight",
+        "summary": "1개, 2개, 3개 옵션과 단위당 가격을 PDP에서 비교하되 할인 후 마진과 배송비를 통과한 상품에만 적용한다. (근거 01:55-03:58)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-013] 고객 결과 중심 루틴 번들",
+        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+        "pool": "youtube_insight",
+        "summary": "무작위 추가 상품이 아니라 클렌징-트리트먼트-보습처럼 한 루틴을 완성하는 구성으로 번들을 만든다. (근거 04:40-07:33)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-014] good-better-best 세트 구조",
+        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+        "pool": "youtube_insight",
+        "summary": "스타터, 2개월분, 전체 루틴 세트로 약정 수준을 나누고 상위 세트에는 실제 가치가 있는 샘플이나 도구만 추가한다. (근거 07:42-09:02)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-015] 카트 드로어 보완 상품 업셀",
+        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+        "pool": "youtube_insight",
+        "summary": "장바구니에 담은 상품과 직접 호환되는 소수의 보완 상품만 추천하고 체크아웃을 방해하지 않게 한다. (근거 09:02-11:15)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-016] 질문형 FAQ와 히어로 SKU 토픽 클러스터",
+        "url": "https://www.youtube.com/watch?v=UBSveo_tao8",
+        "pool": "youtube_insight",
+        "summary": "피부타입, 제형, 향, 루틴 순서, 성분 질문은 PDP FAQ로 답하고 넓은 주제는 가이드와 컬렉션으로 연결한다. (근거 05:53-13:24)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-017] 검증 구매 리뷰를 전환 자산으로 사용",
+        "url": "https://www.youtube.com/watch?v=UBSveo_tao8",
+        "pool": "youtube_insight",
+        "summary": "구매 후 피부타입, 제형, 향, 사용 순서, 재구매 의향을 구조적으로 수집하고 PDP와 광고에 허가 범위 내 재사용한다. (근거 13:34-15:03)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-018] 리뷰에서 좁은 미충족 고객군을 찾기",
+        "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
+        "pool": "youtube_insight",
+        "summary": "자사·경쟁 리뷰를 AI로 묶어 구매자, 가치, 불만을 찾고 작은 설문이나 인터뷰로 확인한 뒤 포지셔닝 가설로 사용한다. (근거 07:53-09:30)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-019] 제품 사실·고객 언어·구조 참고를 넣은 AI 카피",
+        "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
+        "pool": "youtube_insight",
+        "summary": "AI 카피에는 제품 사실표, 실제 리뷰 표현, 권리 침해 없는 랜딩 구조 참고를 입력하고 사람과 법률 검토 후 실험한다. (근거 12:12-14:27)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-020] 훅·형식·증거별 크리에이티브 테스트 체계",
+        "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
+        "pool": "youtube_insight",
+        "summary": "UGC 데모, 텍스처, 루틴 교육, 리뷰, 성분 근거를 서로 다른 훅과 형식으로 제작하고 패자를 중단해 승자의 후속 버전을 만든다. (근거 15:00-17:47)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-023] Shopify AI 카탈로그 자격·질의 QA",
+        "url": "https://www.youtube.com/watch?v=jUxSAGCaJIU",
+        "pool": "youtube_insight",
+        "summary": "제품 가격·재고·정책이 Shopify 카탈로그와 동기화되는지 확인하고 대표 구매 질문을 테스트해 누락된 정책, 메타데이터, 상품 정보를 수정한다. (근거 00:16-01:45)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-024] AI 캠페인 제안 승인 큐와 비용 가드레일",
+        "url": "https://www.youtube.com/watch?v=jUxSAGCaJIU",
+        "pool": "youtube_insight",
+        "summary": "AI가 제안한 이메일·광고 캠페인은 대상, 예산, 일정, 클레임을 사람이 검토하고 유료 집행은 명시적 사용자 승인 전까지 보류한다. (근거 03:13-04:43)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-025] 모바일 게스트 체크아웃 마찰 제거",
+        "url": "https://www.youtube.com/watch?v=kFWPkoOx_ao",
+        "pool": "youtube_insight",
+        "summary": "게스트 체크아웃, 주소 자동완성, 진행 단계, 모바일 지갑 노출을 실제 휴대폰 테스트 주문으로 점검하고 막히는 단계를 기록한다. (근거 07:57-08:39)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-026] 제품·변형·컬렉션·FAQ 스키마 검증",
+        "url": "https://www.youtube.com/watch?v=Knjixb392Is",
+        "pool": "youtube_insight",
+        "summary": "제품과 변형의 가격·통화·재고·배송·반품, 컬렉션 ItemList, 실제 FAQ를 구조화 데이터로 출력하고 Search Console 오류를 수정한다. (근거 05:29-09:45)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-027] UGC 훅-발견-혜택-소프트 CTA 샷리스트",
+        "url": "https://www.youtube.com/watch?v=_pKECd9m25U",
+        "pool": "youtube_insight",
+        "summary": "실제 제품 사실과 고객 맥락으로 훅, 발견, 혜택, 소프트 CTA를 작성하고 각 문장을 증명하는 세로형 B-roll 샷을 연결해 유기 숏폼으로 먼저 검증한다. (근거 01:30-04:38)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-028] 실제 배송 지연 트리거 안내",
+        "url": "https://www.youtube.com/watch?v=v7DT2yhi9Ac",
+        "pool": "youtube_insight",
+        "summary": "주문이 약속한 처리기간을 넘을 때만 현재 상태, 다음 업데이트 시점, 문의 경로를 브랜드 톤으로 자동 안내한다. (근거 00:57-01:20)",
         "date": "2026-09-27",
         "by_hand": true
       },
@@ -1209,181 +1454,6 @@
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
-      },
-      {
-        "title": "How to Start Affiliate Marketing in 2026",
-        "url": "https://www.youtube.com/watch?v=HnV5JXBWCeQ",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "The Official Shopify Sidekick Tutorial (Part 1)",
-        "url": "https://www.youtube.com/watch?v=rGlVduB0T5s",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "How to Find Winning Products with AI 🤖 (Shopify Tutorial)",
-        "url": "https://www.youtube.com/watch?v=QsxT7MuyRfk",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Google Gemini in Google Workspace Complete Tutorial (+ NotebookLM & Gemini Enterprise)",
-        "url": "https://www.youtube.com/watch?v=SUlf_JpbHjc",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "The COMPLETE Meta Tutorial (Meta Ads, Meta Business Suite, Meta AI, Facebook Ads & More!)",
-        "url": "https://www.youtube.com/watch?v=OE4WimLYVGE",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Google’s AI Changed How People Shop and Buy Online Forever. Here's How.",
-        "url": "https://www.youtube.com/watch?v=XGrvSwlmZo0",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "How To Build a Shopify Store With Lovable",
-        "url": "https://www.youtube.com/watch?v=SCCsgkPgqY0",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Claude Tutorial for Beginners: The Complete 2026 Masterclass",
-        "url": "https://www.youtube.com/watch?v=VbSF8TUpsjE",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "The AI Tool Stack You Need in 2026",
-        "url": "https://www.youtube.com/watch?v=EHWZNDj-pNU",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "The COMPLETE Shopify Tutorial 2026",
-        "url": "https://www.youtube.com/watch?v=_1caEZ7t3UY",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "10 HIGHLY EFFECTIVE Marketing Tactics in 2026",
-        "url": "https://www.youtube.com/watch?v=11jjuDF50dE",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Korean beauty product trend: Why what works in Seoul does not always work in Tel Aviv - The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNLUljZGVfV0VQM2MtYU9JS0VlWUExeXk5OEFNZ2t1TElRWk04bFdWQmVEY3BXal9TWXBkakxPc2MzWjhNaU5NMW0yUUJYc01FVDFRQmhYVkFpTlNCVmtkMXZXN2ptc04yQTlBdlY5elRRUHFpaUhZNmdXcnhtdXU4b2RxZGZleEticGhMZ0ppNjkzbWpndmR6dw?oc=5",
-        "pool": "google",
-        "date": "2026-09-28",
-        "by_hand": false
-      },
-      {
-        "title": "I Went to Seoul to Find the Korean Skin-Care Products People Actually Buy - vogue.com",
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1JSEZleGFOZTlfbmlCTTRTbWZOZXJMWS1ZVkhnZy16cHdVNDM1Qnl4X0RGR19LcGNSQjNyLVpWQXZ0RTU0TWU2T2xfOW1VeDU0UGNsN0RkRXRNMWxqNVh1VnpKMmszdw?oc=5",
-        "pool": "google",
-        "date": "2026-09-25",
-        "by_hand": false
-      },
-      {
-        "title": "HyperParallel-FSDP: Topology-Aware Fully Sharded Training with Layout-Driven Muon on Ascend SuperPods",
-        "url": "https://arxiv.org/abs/2609.21594",
-        "pool": "robotics",
-        "date": "2026-09-18",
-        "by_hand": false
-      },
-      {
-        "title": "Product variants now support multiple barcodes",
-        "url": "https://changelog.shopify.com/posts/multiple-barcodes-in-variants",
-        "pool": "design_refs",
-        "date": "2026-09-08",
-        "by_hand": false
-      },
-      {
-        "title": "Immaculate Engineering Meets Artistic Imagination: Highlights From Design Miami Seoul 2026",
-        "url": "https://news.samsung.com/global/immaculate-engineering-meets-artistic-imagination-highlights-from-design-miami-seoul-2026",
-        "pool": "institutions",
-        "date": "2026-09-07",
-        "by_hand": false
-      },
-      {
-        "title": "Samsung Presents ‘Design Is an Act of Love’ at Design Miami Seoul 2026",
-        "url": "https://news.samsung.com/global/samsung-presents-design-is-an-act-of-love-at-design-miami-seoul-2026",
-        "pool": "institutions",
-        "date": "2026-09-01",
-        "by_hand": false
-      },
-      {
-        "title": "[Rule] Revocation of the Color Additive Listing for Use of Orange B on Casings or Surfaces of Frankfurters and Sausages",
-        "url": "https://www.federalregister.gov/documents/2026/07/23/2026-14910/revocation-of-the-color-additive-listing-for-use-of-orange-b-on-casings-or-surfaces-of-frankfurters",
-        "pool": "fda",
-        "date": "2026-07-23",
-        "by_hand": false
-      },
-      {
-        "title": "[Proposed Rule] Proposal To Revoke the Color Additive Listing for Use of Citrus Red No. 2 on the Skins of Mature Oranges",
-        "url": "https://www.federalregister.gov/documents/2026/07/23/2026-14909/proposal-to-revoke-the-color-additive-listing-for-use-of-citrus-red-no-2-on-the-skins-of-mature",
-        "pool": "fda",
-        "date": "2026-07-23",
-        "by_hand": false
-      },
-      {
-        "title": "Clustering billions of products for agentic commerce with Catalog API",
-        "url": "https://shopify.engineering/catalog-clustering",
-        "pool": "design_refs",
-        "date": "2026-06-17",
-        "by_hand": false
-      },
-      {
-        "title": "K-beauty: top 10 innovative launches spotted at Cosmobeauty Seoul 2026 - Premium Beauty News",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1na3Q5UzFpZk02M1lSWWF3NmZyWWxiaXRudHc3blhnR0tCVGRicWlxQmtsbWJOVmtqSTdkVHZlejV3clZpeXk0bDJZNzdEc3dZMHdsN2NZQWVkVTNqOURiSEFsN2dPZ21SNktjaFpCQmMtN0RrdE51Sg?oc=5",
-        "pool": "google",
-        "date": "2026-06-06",
-        "by_hand": false
-      },
-      {
-        "title": "[Rule] Listing of Color Additives Exempt From Certification; Spirulina Extract",
-        "url": "https://www.federalregister.gov/documents/2026/02/06/2026-02314/listing-of-color-additives-exempt-from-certification-spirulina-extract",
-        "pool": "fda",
-        "date": "2026-02-06",
-        "by_hand": false
-      },
-      {
-        "title": "[Rule] Listing of Color Additives Exempt From Certification; Beetroot Red",
-        "url": "https://www.federalregister.gov/documents/2026/02/06/2026-02313/listing-of-color-additives-exempt-from-certification-beetroot-red",
-        "pool": "fda",
-        "date": "2026-02-06",
-        "by_hand": false
-      },
-      {
-        "title": "[Rule] Listing of Color Additives Exempt From Certification; Gardenia (Genipin) Blue; Confirmation of Effective Date",
-        "url": "https://www.federalregister.gov/documents/2025/10/01/2025-19166/listing-of-color-additives-exempt-from-certification-gardenia-genipin-blue-confirmation-of-effective",
-        "pool": "fda",
-        "date": "2025-10-01",
-        "by_hand": false
-      },
-      {
-        "title": "[Proposed Rule] Proposal To Remove the Color Additive Listing for Use of Orange B on Casings or Surfaces of Frankfurters and Sausages",
-        "url": "https://www.federalregister.gov/documents/2025/09/17/2025-18023/proposal-to-remove-the-color-additive-listing-for-use-of-orange-b-on-casings-or-surfaces-of",
-        "pool": "fda",
-        "date": "2025-09-17",
-        "by_hand": false
       }
     ],
     "pricing": [
@@ -1392,6 +1462,78 @@
         "url": "https://www.youtube.com/watch?v=UcG2v8i6Y2E",
         "pool": "youtube_manual",
         "summary": "할인 중첩·만료·무료배송을 기여이익 기준으로 감사",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-008] 번들·사은품 임계값 AOV 테스트",
+        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+        "pool": "youtube_insight",
+        "summary": "구성품 이미지와 실제 절감액을 보여주는 루틴 번들 및 사은품 해금 기준을 테스트한다. (근거 11:19-12:25)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-009] 구매 후 적립 가치 이메일",
+        "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
+        "pool": "youtube_insight",
+        "summary": "구매 직후 추상 포인트 대신 원화 환산 가치, 현재 잔액, 다음 보상까지 남은 금액을 알린다. (근거 00:41-04:52)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-010] 리워드 사용 직후 재구매 컬렉션 연결",
+        "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
+        "pool": "youtube_insight",
+        "summary": "보상 코드와 가치를 상단에 표시하고 해당 보상을 쓸 수 있는 루틴·재구매 컬렉션으로 바로 연결한다. (근거 05:33-06:38)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-012] 소모품 수량별 단계 할인",
+        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+        "pool": "youtube_insight",
+        "summary": "1개, 2개, 3개 옵션과 단위당 가격을 PDP에서 비교하되 할인 후 마진과 배송비를 통과한 상품에만 적용한다. (근거 01:55-03:58)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-013] 고객 결과 중심 루틴 번들",
+        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+        "pool": "youtube_insight",
+        "summary": "무작위 추가 상품이 아니라 클렌징-트리트먼트-보습처럼 한 루틴을 완성하는 구성으로 번들을 만든다. (근거 04:40-07:33)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-014] good-better-best 세트 구조",
+        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+        "pool": "youtube_insight",
+        "summary": "스타터, 2개월분, 전체 루틴 세트로 약정 수준을 나누고 상위 세트에는 실제 가치가 있는 샘플이나 도구만 추가한다. (근거 07:42-09:02)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-015] 카트 드로어 보완 상품 업셀",
+        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+        "pool": "youtube_insight",
+        "summary": "장바구니에 담은 상품과 직접 호환되는 소수의 보완 상품만 추천하고 체크아웃을 방해하지 않게 한다. (근거 09:02-11:15)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-021] 할인 중첩·누수 정기 감사",
+        "url": "https://www.youtube.com/watch?v=UcG2v8i6Y2E",
+        "pool": "youtube_insight",
+        "summary": "활성 할인마다 중첩 허용, 사용기한, 사용횟수, 유입 파트너, 주문 기여이익을 기록하고 적자 조합과 방치 코드를 비활성화한다. (근거 04:18-11:00)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-022] 기여이익 기반 무료배송 대 할인 비교",
+        "url": "https://www.youtube.com/watch?v=UcG2v8i6Y2E",
+        "pool": "youtube_insight",
+        "summary": "상품군별 배송원가와 장바구니 금액을 넣어 무료배송, 정액 할인, 퍼센트 할인 시나리오의 주문 기여이익을 비교한 뒤 손실이 가장 낮은 오퍼만 테스트한다. (근거 13:22-16:34)",
         "date": "2026-09-27",
         "by_hand": true
       },
@@ -1445,6 +1587,216 @@
       {
         "title": "AI 공격 제대로 맞은 대행사 사장의 팩트 폭로🔥 | 수익률 50% 올린 클로드 AI 대시보드 직접 공개 (AI 시대 생존법👀)",
         "url": "https://www.youtube.com/watch?v=iknGXOzT2KI",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Flexport Forward Copenhagen | Supply Chain AI, Ocean Resilience & Key Insights",
+        "url": "https://www.youtube.com/watch?v=2NKi9pRzVAA",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Tariff Trends 2026: Expert Insights on the Evolving U.S. Tariff Landscape [September 16, 2026]",
+        "url": "https://www.youtube.com/watch?v=qFJ2DElxfXI",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Tariff Trends 2026: Expert Insights on the Evolving U.S. Tariff Landscape [August 19, 2026]",
+        "url": "https://www.youtube.com/watch?v=72-MfumtOR4",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Cocaine Bust in Portugal and More in Today's Flexport Atlas News Update",
+        "url": "https://www.youtube.com/watch?v=mlsG9r32p2s",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Navigating Peak Season 2026: Essential Omnichannel & Fulfillment Strategies for Success",
+        "url": "https://www.youtube.com/watch?v=3GEgoBnMBD8",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Isochronic Map of Container Shipping from Flexport",
+        "url": "https://www.youtube.com/watch?v=FbGsgddedYk",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Flexport The Video Game",
+        "url": "https://www.youtube.com/watch?v=7VeooS_ZSN8",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Global Logistics Chaos: A World Tour by Flexport Founder Ryan Petersen",
+        "url": "https://www.youtube.com/watch?v=T4TxR53QzCY",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Tariff Trends 2026: Expert Insights on the Evolving U.S. Tariff Landscape (July 24, 2026)",
+        "url": "https://www.youtube.com/watch?v=-G9ySFpVAsA",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Flexport Webinar: CAPE Phase 2 Explained",
+        "url": "https://www.youtube.com/watch?v=ucMPHyLcFSM",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "The Capacity Squeeze Nobody Budgets For: Air Cargo 2026–2030",
+        "url": "https://www.youtube.com/watch?v=u6d_ZV5dqIs",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "July 1, 2026 | Trucking Market Outlook: Rates, Trends & Regulatory Impact",
+        "url": "https://www.youtube.com/watch?v=nSum0HMM5NQ",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Supply Chain Therapy with Flexport and RTIC",
+        "url": "https://www.youtube.com/watch?v=_bf3hThT2JE",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Peak Season Prep: A CFO's Playbook for Cash Flow, Inventory, and Smarter Financing",
+        "url": "https://www.youtube.com/watch?v=gAzocKsynNg",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Tariff Trends 2026: Expert Insights on the Evolving U.S. Tariff Landscape [June 17, 2026]",
+        "url": "https://www.youtube.com/watch?v=WekJw1-w6Mw",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Breaking Down Trump’s Executive Order on Foreign Importers of Record",
+        "url": "https://www.youtube.com/watch?v=TjoSWOm19rE",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "CPSC eFiling Is Almost Here. Are You Ready?",
+        "url": "https://www.youtube.com/watch?v=P579MD1sABw",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "CAPE Explained: Refunds, Common Issues & Next Steps for Importers",
+        "url": "https://www.youtube.com/watch?v=tYYwOT_FqK0",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Tariff Trends 2026: Expert Insights on the Evolving U.S. Tariff Landscape [May 20, 2026]",
+        "url": "https://www.youtube.com/watch?v=_kxST18lVBw",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Logistics for the AI Era: How to Move the World's Most Critical Infrastructure",
+        "url": "https://www.youtube.com/watch?v=-YxKMF3plEs",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "How to Cut your Supply Chain Emissions with Data-Driven Insights",
+        "url": "https://www.youtube.com/watch?v=xO6jPPqnB2Q",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Tariff Trends 2026: Expert Insights on the Evolving U.S. Tariff Landscape",
+        "url": "https://www.youtube.com/watch?v=vC1lCsboEzg",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Supply Chain Therapy with Flexport and goodr",
+        "url": "https://www.youtube.com/watch?v=VDuhQXekV9o",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Audits & Drawback: What Every Importer Needs to Know Right Now",
+        "url": "https://www.youtube.com/watch?v=xtorVFI9g4c",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "From Visibility to Autonomy: What’s Next for Your Supply Chain?",
+        "url": "https://www.youtube.com/watch?v=i-7Z6eJqMK4",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Tariff Trends 2026: An Urgent Briefing on Section 232 Changes",
+        "url": "https://www.youtube.com/watch?v=S3A0nNqkbiI",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Flexport Supply Chain Optimization Analysis: How to Cut Freight Costs with Data-Driven Insights",
+        "url": "https://www.youtube.com/watch?v=dxJZTn1Nxh0",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "This was Forward Italy 2026",
+        "url": "https://www.youtube.com/watch?v=YCFs_MVfVq0",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Supply Chain Therapy with Flexport and Portland Leather Goods",
+        "url": "https://www.youtube.com/watch?v=9zp2rRHoRG4",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Tariff Trends 2026: Expert Insights on the Evolving U.S. Tariff Landscape [March 18, 2026]",
+        "url": "https://www.youtube.com/watch?v=6wswF1lfqv0",
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
@@ -1527,13 +1879,6 @@
         "by_hand": false
       },
       {
-        "title": "Residential Price Forecasting in Shaoxing using Gaussian Process Regression with Bayesian Optimisation",
-        "url": "https://doi.org/10.11113/intrest.v20n1.436",
-        "pool": "institutions",
-        "date": "2026-06-30",
-        "by_hand": false
-      },
-      {
         "title": "Forecasts of residential property price indices for Hong Kong through machine learning",
         "url": "https://doi.org/10.1108/fs-04-2025-0083",
         "pool": "institutions",
@@ -1545,34 +1890,6 @@
         "url": "https://doi.org/10.1111/jels.70028",
         "pool": "institutions",
         "date": "2026-03-26",
-        "by_hand": false
-      },
-      {
-        "title": "High-performance applications of the nonuniform fast Fourier transform to option pricing",
-        "url": "https://doi.org/10.21314/jcf.2026.005",
-        "pool": "institutions",
-        "date": "2026-01-01",
-        "by_hand": false
-      },
-      {
-        "title": "The Differential Impacts of Critical Mineral Prices and Oil Prices on the Economy",
-        "url": "https://doi.org/10.2139/ssrn.6246344",
-        "pool": "institutions",
-        "date": "2026-01-01",
-        "by_hand": false
-      },
-      {
-        "title": "The differential impacts of critical mineral prices and oil prices on the economy",
-        "url": "https://doi.org/10.1093/oxrep/grag011",
-        "pool": "institutions",
-        "date": "2026-01-01",
-        "by_hand": false
-      },
-      {
-        "title": "Optimal Exercise and Pricing of Swing Options with Global Constraints under the Regime-Switching Model",
-        "url": "https://doi.org/10.1007/s10614-025-10994-1",
-        "pool": "institutions",
-        "date": "2025-05-26",
         "by_hand": false
       }
     ],
@@ -1590,6 +1907,150 @@
         "url": "https://www.youtube.com/watch?v=BJeHhsMVc8A&t=34s",
         "pool": "team_briefing",
         "summary": "Jev는 상태와 질문을 받아 choice·score·boolean 판단을 병렬로 반환하는 System 1 계층이며, 모델 라우팅(06:04~06:47), 위험 도구 차단(06:47~07:28), 온라인 평가(07:28~08:46)에 사용할 수 있다. JARVIS에서는 결정적 로컬 게이트를 먼저 적용하고 Jev가 열린 진단이 필요하다고 분류하거나 미분류 오류가 반복될 때만 Gemini Flash-Lite를 회차당 1회 호출한다. Gemini는 진단 초안만 만들며 정본 변경, 공개 게시, 결제, 광고, 법률 승인 대행은 할 수 없다.",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-001] 광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
+        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+        "pool": "youtube_insight",
+        "summary": "광고 훅과 피부 고민마다 별도 랜딩페이지를 만들고 가치제안, 실제 리뷰, FAQ, 배송·반품 정보를 한 흐름에 배치한다. (근거 00:29-03:16)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-003] PDP 이미지 캐러셀을 판매 스토리로 구성",
+        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+        "pool": "youtube_insight",
+        "summary": "제품컷, 피부 고민 맥락, 제형·사용법, 성분 근거, 후기, 사용 장면, 배송·반품 순으로 이미지 세트를 만든다. (근거 12:46-14:25)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-004] 제품명·설명·FAQ를 구매 질문형 SEO로 작성",
+        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
+        "pool": "youtube_insight",
+        "summary": "제품명에 검증된 성분·제형·사용 맥락을 넣고 중복 없는 설명과 FAQ로 실제 구매 질문에 답한다. (근거 02:56-03:40)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-006] 14일 신규 구독자 웰컴 플로우",
+        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
+        "pool": "youtube_insight",
+        "summary": "인센티브 또는 피부 퀴즈 결과, 브랜드 스토리, 검증 리뷰, 베스트셀러 이유, 정가 구매 제안을 다섯 통으로 구성한다. (근거 08:16-09:33)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-007] Shopify와 Meta CAPI 전환 신호 검증",
+        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
+        "pool": "youtube_insight",
+        "summary": "스토어 개설 후 테스트 주문으로 Pixel과 서버 이벤트의 중복·누락을 점검하고 Shopify 주문값과 비교한다. (근거 14:27-15:46)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-011] 실제 만료일 기반 윈백 이메일",
+        "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
+        "pool": "youtube_insight",
+        "summary": "공개된 포인트 만료 규칙이 있을 때만 잔액 가치와 사용처를 보여주는 만료 전 알림을 발송한다. (근거 09:32-10:46)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-013] 고객 결과 중심 루틴 번들",
+        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+        "pool": "youtube_insight",
+        "summary": "무작위 추가 상품이 아니라 클렌징-트리트먼트-보습처럼 한 루틴을 완성하는 구성으로 번들을 만든다. (근거 04:40-07:33)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-016] 질문형 FAQ와 히어로 SKU 토픽 클러스터",
+        "url": "https://www.youtube.com/watch?v=UBSveo_tao8",
+        "pool": "youtube_insight",
+        "summary": "피부타입, 제형, 향, 루틴 순서, 성분 질문은 PDP FAQ로 답하고 넓은 주제는 가이드와 컬렉션으로 연결한다. (근거 05:53-13:24)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-017] 검증 구매 리뷰를 전환 자산으로 사용",
+        "url": "https://www.youtube.com/watch?v=UBSveo_tao8",
+        "pool": "youtube_insight",
+        "summary": "구매 후 피부타입, 제형, 향, 사용 순서, 재구매 의향을 구조적으로 수집하고 PDP와 광고에 허가 범위 내 재사용한다. (근거 13:34-15:03)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-019] 제품 사실·고객 언어·구조 참고를 넣은 AI 카피",
+        "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
+        "pool": "youtube_insight",
+        "summary": "AI 카피에는 제품 사실표, 실제 리뷰 표현, 권리 침해 없는 랜딩 구조 참고를 입력하고 사람과 법률 검토 후 실험한다. (근거 12:12-14:27)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-020] 훅·형식·증거별 크리에이티브 테스트 체계",
+        "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
+        "pool": "youtube_insight",
+        "summary": "UGC 데모, 텍스처, 루틴 교육, 리뷰, 성분 근거를 서로 다른 훅과 형식으로 제작하고 패자를 중단해 승자의 후속 버전을 만든다. (근거 15:00-17:47)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-023] Shopify AI 카탈로그 자격·질의 QA",
+        "url": "https://www.youtube.com/watch?v=jUxSAGCaJIU",
+        "pool": "youtube_insight",
+        "summary": "제품 가격·재고·정책이 Shopify 카탈로그와 동기화되는지 확인하고 대표 구매 질문을 테스트해 누락된 정책, 메타데이터, 상품 정보를 수정한다. (근거 00:16-01:45)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-024] AI 캠페인 제안 승인 큐와 비용 가드레일",
+        "url": "https://www.youtube.com/watch?v=jUxSAGCaJIU",
+        "pool": "youtube_insight",
+        "summary": "AI가 제안한 이메일·광고 캠페인은 대상, 예산, 일정, 클레임을 사람이 검토하고 유료 집행은 명시적 사용자 승인 전까지 보류한다. (근거 03:13-04:43)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-025] 모바일 게스트 체크아웃 마찰 제거",
+        "url": "https://www.youtube.com/watch?v=kFWPkoOx_ao",
+        "pool": "youtube_insight",
+        "summary": "게스트 체크아웃, 주소 자동완성, 진행 단계, 모바일 지갑 노출을 실제 휴대폰 테스트 주문으로 점검하고 막히는 단계를 기록한다. (근거 07:57-08:39)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-026] 제품·변형·컬렉션·FAQ 스키마 검증",
+        "url": "https://www.youtube.com/watch?v=Knjixb392Is",
+        "pool": "youtube_insight",
+        "summary": "제품과 변형의 가격·통화·재고·배송·반품, 컬렉션 ItemList, 실제 FAQ를 구조화 데이터로 출력하고 Search Console 오류를 수정한다. (근거 05:29-09:45)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-027] UGC 훅-발견-혜택-소프트 CTA 샷리스트",
+        "url": "https://www.youtube.com/watch?v=_pKECd9m25U",
+        "pool": "youtube_insight",
+        "summary": "실제 제품 사실과 고객 맥락으로 훅, 발견, 혜택, 소프트 CTA를 작성하고 각 문장을 증명하는 세로형 B-roll 샷을 연결해 유기 숏폼으로 먼저 검증한다. (근거 01:30-04:38)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-028] 실제 배송 지연 트리거 안내",
+        "url": "https://www.youtube.com/watch?v=v7DT2yhi9Ac",
+        "pool": "youtube_insight",
+        "summary": "주문이 약속한 처리기간을 넘을 때만 현재 상태, 다음 업데이트 시점, 문의 경로를 브랜드 톤으로 자동 안내한다. (근거 00:57-01:20)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-029] 저참여 선셋 플로우와 목록 정리",
+        "url": "https://www.youtube.com/watch?v=v7DT2yhi9Ac",
+        "pool": "youtube_insight",
+        "summary": "최근 열람·클릭·구매가 없는 구독자에게 누락 콘텐츠와 선호 재설정 기회를 제공하고 반응이 없으면 마케팅 발송 대상에서 제외한다. (근거 01:51-02:20)",
         "date": "2026-09-27",
         "by_hand": true
       },
@@ -1612,6 +2073,216 @@
       {
         "title": "스몰 브랜드도 해외 수출은 필수인거 아시죠? ✈️ | 가성비 있게 해외 수출 할 수 있는 팁 알려드립니다! 💸",
         "url": "https://www.youtube.com/watch?v=nPbZ6lK2K08",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Part Three: Substantial Equivalence (SE): The Predicate Review Process, Amendments, and Outcomes",
+        "url": "https://www.youtube.com/watch?v=ZJJiLao0eVw",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Part Two: Substantial Equivalence (SE): Reviewing Predicate Tobacco Eligibility",
+        "url": "https://www.youtube.com/watch?v=yIJs3G8T8Ks",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Part One: Substantial Equivalence (SE): Key Concepts and Overview of The SE Review Process",
+        "url": "https://www.youtube.com/watch?v=I-pkoMqe9B4",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Tips to Stay Safe in the Sun",
+        "url": "https://www.youtube.com/watch?v=ldOjG94FwRI",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Sun Safety for Baby: Protect your little ones",
+        "url": "https://www.youtube.com/watch?v=lG8Vhfqpsn0",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "FDA Patient-Focused Drug Development Meeting for Nonhealing Chronic Wounds",
+        "url": "https://www.youtube.com/watch?v=n6oboWBI_Ec",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "FDA Draft Guidance on Potency Assessment of Active Immunotherapy Products",
+        "url": "https://www.youtube.com/watch?v=bFr8HiRPaWs",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Navigating the FDA Bayesian Draft Guidance: Design, Analysis, and Review Considerations",
+        "url": "https://www.youtube.com/watch?v=N25K080mYE8",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "FDA Grand Rounds-The Role of FDA in Preventing Medication Errors",
+        "url": "https://www.youtube.com/watch?v=izDzhj9Ah2c",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Expedited Investigational New Drug (IND) pilot program webinar",
+        "url": "https://www.youtube.com/watch?v=Bxrhk5FgKz4",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Draft Guidance: Leveraging Prior Knowledge in the Development of Human GT Products Incorporating GE",
+        "url": "https://www.youtube.com/watch?v=D7-t4DzJRII",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "GDF2026 - Closing Remarks",
+        "url": "https://www.youtube.com/watch?v=UexxgCjHZV0",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "GDF2026 - Q&A Discussion Panel Eight",
+        "url": "https://www.youtube.com/watch?v=m9Ww8tUFWfk",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "GDF2026 - Manufacturing Deficiencies in Liquid Drug Products: The Top Ten Issues",
+        "url": "https://www.youtube.com/watch?v=oyiX0Czfwyw",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "GDF2026 - Recent Trends in Pharmaceutical Freeze-Drying and Control Strategies",
+        "url": "https://www.youtube.com/watch?v=3fgnBFwf1ZE",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "GDF2026 - Bioanalysis of Endogenous Drugs Using Surrogate Matrix Approach in ANDAs",
+        "url": "https://www.youtube.com/watch?v=JkRKxB3xwdQ",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "GDF2026 - ICH M13A High-Risk vs. Low-Risk Case Studies – Bioequivalence (BE) Implications",
+        "url": "https://www.youtube.com/watch?v=owEVCzDHr3k",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "GDF2026 - Q&A Discussion Panel Seven",
+        "url": "https://www.youtube.com/watch?v=RPagNxJipNw",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "GDF2026 - Quality and Safety Assessment of Extractables/Leachables in Generic Drug Products",
+        "url": "https://www.youtube.com/watch?v=dRjMrE5X7Vs",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "GDF2026 - Updates on Nitrosamines/ Nitrosamine Mitigation Strategies for Pharmaceuticals",
+        "url": "https://www.youtube.com/watch?v=resgk9xULEs",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "GDF2026 - Bioequivalence (BE) Recommendations for Bridging Pre- and Post-Mitigation Formulations",
+        "url": "https://www.youtube.com/watch?v=U4fMQ4s-m30",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "GDF2026 - Best Practices for Safety Assessment of Nitrosamines in Generic Drugs",
+        "url": "https://www.youtube.com/watch?v=K7_sI0KE0s4",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "GDF2026 - Q&A Discussion Panel Six",
+        "url": "https://www.youtube.com/watch?v=gXJVCAYUrXM",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "GDF2026 - Q&A Discussion Panel Two",
+        "url": "https://www.youtube.com/watch?v=LeX8xwKyy2c",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "GDF2026 - Common Microbiology Deficiencies for Ophthalmic Suspension Drug Products",
+        "url": "https://www.youtube.com/watch?v=9xGEFgj5sno",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "GDF2026 - Data Integrity in ANDA Applications",
+        "url": "https://www.youtube.com/watch?v=nRE7vCS67cc",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "GDF2026 - Common Manufacturing Deficiencies for Complex Dosage Forms",
+        "url": "https://www.youtube.com/watch?v=v_N1crA5oZ4",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "GDF2026 - Managing Your Letters of Authorization (LOAs)",
+        "url": "https://www.youtube.com/watch?v=TdztZ0tgs84",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "GDF2026 - Regulatory Review Process for Type II Secondary DMFs",
+        "url": "https://www.youtube.com/watch?v=HSwvc-OHhX8",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "GDF2026 - Pre-Abbreviated New Drug Application (ANDA) Meetings for Complex Drug Products",
+        "url": "https://www.youtube.com/watch?v=9t00CGZxt9c",
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
@@ -1664,342 +2335,6 @@
         "pool": "fda",
         "date": "2026-09-24",
         "by_hand": false
-      },
-      {
-        "title": "When Labels Are Scarce: An Oscillatory State Space Model for Vibration Diagnosis",
-        "url": "https://arxiv.org/abs/2609.27411",
-        "pool": "arxiv",
-        "date": "2026-09-23",
-        "by_hand": false
-      },
-      {
-        "title": "Berlin Seeds Recalls Alfalfa Sprouting Seed Because of Possible Health Risk",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/berlin-seeds-recalls-alfalfa-sprouting-seed-because-possible-health-risk",
-        "pool": "fda",
-        "date": "2026-09-23",
-        "by_hand": false
-      },
-      {
-        "title": "Can We Predict Anomaly Detection Performance from Embedding-Space Geometry?",
-        "url": "https://arxiv.org/abs/2609.26460",
-        "pool": "arxiv",
-        "date": "2026-09-22",
-        "by_hand": false
-      },
-      {
-        "title": "Action-Slot: Structured Action-Centric Representation Learning for Multi-Agent Atomic Activity Understanding",
-        "url": "https://arxiv.org/abs/2609.24127",
-        "pool": "arxiv",
-        "date": "2026-09-21",
-        "by_hand": false
-      },
-      {
-        "title": "Global Mix Inc. Recalls Niwali Tejocote Capsules and Niwali Tejocote Pieces Because of Possible Health Risk",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/global-mix-inc-recalls-niwali-tejocote-capsules-and-niwali-tejocote-pieces-because-possible-health",
-        "pool": "fda",
-        "date": "2026-09-21",
-        "by_hand": false
-      },
-      {
-        "title": "Interpretable Multi-Hypersphere Deep Anomaly Detection for Open-set Supervised Anomaly Detection",
-        "url": "https://arxiv.org/abs/2609.23008",
-        "pool": "arxiv",
-        "date": "2026-09-19",
-        "by_hand": false
-      },
-      {
-        "title": "GF Blends Recalls Truly AIP All Purpose Flour and Bread Mix, and EAT G.A.N.G.S.T.E.R. Flat Bread Pizza Mix Due to Potential Undeclared Wheat Gluten",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/gf-blends-recalls-truly-aip-all-purpose-flour-and-bread-mix-and-eat-gangster-flat-bread-pizza-mix",
-        "pool": "fda",
-        "date": "2026-09-18",
-        "by_hand": false
-      },
-      {
-        "title": "Par Health Issues Voluntary Nationwide Recall of Two Lots of Dexmedetomidine HCl in 0.9% Sodium Chloride Injection Due to the Presence of Particulate Matter",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/par-health-issues-voluntary-nationwide-recall-two-lots-dexmedetomidine-hcl-09-sodium-chloride",
-        "pool": "fda",
-        "date": "2026-09-18",
-        "by_hand": false
-      },
-      {
-        "title": "Otsuka ICU Medical LLC Issues Voluntary Nationwide Recall of 0.9% Sodium Chloride Injection, USP Due To a Product Mix-up with 10 mEq Potassium Chloride Injection",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/otsuka-icu-medical-llc-issues-voluntary-nationwide-recall-09-sodium-chloride-injection-usp-due",
-        "pool": "fda",
-        "date": "2026-09-17",
-        "by_hand": false
-      },
-      {
-        "title": "Saratoga Potato Chips Issues Allergy Alert on Undeclared Soy in J. HIGGS Loaded Bacon and Cheddar Potato Chips",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/saratoga-potato-chips-issues-allergy-alert-undeclared-soy-j-higgs-loaded-bacon-and-cheddar-potato",
-        "pool": "fda",
-        "date": "2026-09-16",
-        "by_hand": false
-      },
-      {
-        "title": "So Delicious Dairy Free® Issues Voluntary Recall of Salted Caramel Cluster Non-Dairy Frozen Dessert Pints Due to Potential Presence of Foreign Material",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/so-delicious-dairy-freer-issues-voluntary-recall-salted-caramel-cluster-non-dairy-frozen-dessert",
-        "pool": "fda",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Gias Foods, Inc. Recalls Bettergoods Authentic Italian Lemon Alfredo Fettuccine Because of Possible Health Risk",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/gias-foods-inc-recalls-bettergoods-authentic-italian-lemon-alfredo-fettuccine-because-possible",
-        "pool": "fda",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "A&P Creations LLC Issues Nationwide Recall of biQ-FEL Due to Undeclared Sildenafil and Tadalafil",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ap-creations-llc-issues-nationwide-recall-biq-fel-due-undeclared-sildenafil-and-tadalafil",
-        "pool": "fda",
-        "date": "2026-09-14",
-        "by_hand": false
-      },
-      {
-        "title": "A&P Creations LLC Issues Nationwide Recall of X10 Natural Enhancement Supplement Due to Undeclared Sildenafil and Tadalafil",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ap-creations-llc-issues-nationwide-recall-x10-natural-enhancement-supplement-due-undeclared",
-        "pool": "fda",
-        "date": "2026-09-14",
-        "by_hand": false
-      },
-      {
-        "title": "Wakefern Food Corp. Voluntarily Recalls Wholesome Pantry Organic Unsweetened Apple Sauce",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/wakefern-food-corp-voluntarily-recalls-wholesome-pantry-organic-unsweetened-apple-sauce",
-        "pool": "fda",
-        "date": "2026-09-14",
-        "by_hand": false
-      },
-      {
-        "title": "Whole Foods Market Issues Allergy Alert on Undeclared Egg in Cabricharme Cheese",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/whole-foods-market-issues-allergy-alert-undeclared-egg-cabricharme-cheese",
-        "pool": "fda",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "Centric Compounding Issues Nationwide Recall of Glutathione, Myer’s Cocktail, and Tri-Immune Boost Due to Elevated Endotoxin Levels",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/centric-compounding-issues-nationwide-recall-glutathione-myers-cocktail-and-tri-immune-boost-due",
-        "pool": "fda",
-        "date": "2026-09-11",
-        "by_hand": false
-      },
-      {
-        "title": "Evergreen Fresh Sprouts LLC Recalls Broccoli Sprouts Because of Possible Health Risk",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/evergreen-fresh-sprouts-llc-recalls-broccoli-sprouts-because-possible-health-risk",
-        "pool": "fda",
-        "date": "2026-09-10",
-        "by_hand": false
-      },
-      {
-        "title": "Product variants now support multiple barcodes",
-        "url": "https://changelog.shopify.com/posts/multiple-barcodes-in-variants",
-        "pool": "design_refs",
-        "date": "2026-09-08",
-        "by_hand": false
-      },
-      {
-        "title": "FreshPoint Issues Recall Due to an Improperly Declared Allergen (Egg) in Chicken Salad Wedge Sandwiches",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/freshpoint-issues-recall-due-improperly-declared-allergen-egg-chicken-salad-wedge-sandwiches",
-        "pool": "fda",
-        "date": "2026-09-08",
-        "by_hand": false
-      },
-      {
-        "title": "BMC Medical Co., Ltd. Recalls Luna G3 APAP (Model LG3600) with Firmware G3-2.00.76 Due to Firmware Defect",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/bmc-medical-co-ltd-recalls-luna-g3-apap-model-lg3600-firmware-g3-20076-due-firmware-defect",
-        "pool": "fda",
-        "date": "2026-09-07",
-        "by_hand": false
-      },
-      {
-        "title": "Made Fresh Salads, Inc. Recalls Ready to Eat Deli Style Salads and Cream Cheese Because of Possible Health Risk",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/made-fresh-salads-inc-recalls-ready-eat-deli-style-salads-and-cream-cheese-because-possible-health",
-        "pool": "fda",
-        "date": "2026-09-06",
-        "by_hand": false
-      },
-      {
-        "title": "New EU Guidelines For AI Labelling",
-        "url": "https://smashingmagazine.com/2026/08/eu-guidelines-ai-labelling/",
-        "pool": "design_refs",
-        "date": "2026-08-13",
-        "by_hand": false
-      },
-      {
-        "title": "Video Friday: Meet Google DeepMind’s Gemini Robotics 2",
-        "url": "https://spectrum.ieee.org/video-robot-gemini2-ai-robot",
-        "pool": "robotics",
-        "date": "2026-07-31",
-        "by_hand": false
-      },
-      {
-        "title": "[Rule] Revocation of the Color Additive Listing for Use of Orange B on Casings or Surfaces of Frankfurters and Sausages",
-        "url": "https://www.federalregister.gov/documents/2026/07/23/2026-14910/revocation-of-the-color-additive-listing-for-use-of-orange-b-on-casings-or-surfaces-of-frankfurters",
-        "pool": "fda",
-        "date": "2026-07-23",
-        "by_hand": false
-      },
-      {
-        "title": "[Proposed Rule] Proposal To Revoke the Color Additive Listing for Use of Citrus Red No. 2 on the Skins of Mature Oranges",
-        "url": "https://www.federalregister.gov/documents/2026/07/23/2026-14909/proposal-to-revoke-the-color-additive-listing-for-use-of-citrus-red-no-2-on-the-skins-of-mature",
-        "pool": "fda",
-        "date": "2026-07-23",
-        "by_hand": false
-      },
-      {
-        "title": "[Notice] Agency Information Collection Activities; Proposed Collection; Comment Request; Requirements for Cosmetic Products",
-        "url": "https://www.federalregister.gov/documents/2026/07/17/2026-14434/agency-information-collection-activities-proposed-collection-comment-request-requirements-for",
-        "pool": "fda",
-        "date": "2026-07-17",
-        "by_hand": false
-      },
-      {
-        "title": "Porphyrinic MOF-Confined Nanozyme Hydrogel with CuS-Mediated Photoregulation for Infected Wound Healing",
-        "url": "https://doi.org/10.1021/acsami.6c04886",
-        "pool": "institutions",
-        "date": "2026-05-07",
-        "by_hand": false
-      },
-      {
-        "title": "Dior Backstage Glow-Up Skin Tint Tinted Moisturizer SPF 20 9N Neutral",
-        "url": "https://api.fda.gov/drug/label.json",
-        "pool": "fda",
-        "date": "2026-05-06",
-        "by_hand": false
-      },
-      {
-        "title": "NATURIUM Dew-Glow Moisturizer SPF 50",
-        "url": "https://api.fda.gov/drug/label.json",
-        "pool": "fda",
-        "date": "2026-04-14",
-        "by_hand": false
-      },
-      {
-        "title": "Conceptual framework for AI governance, data privacy compliance, and financial sustainability in digital health",
-        "url": "https://doi.org/10.51594/csitrj.v7i4.2246",
-        "pool": "institutions",
-        "date": "2026-04-08",
-        "by_hand": false
-      },
-      {
-        "title": "Botnia Gentle Sun SPF 30",
-        "url": "https://api.fda.gov/drug/label.json",
-        "pool": "fda",
-        "date": "2026-03-03",
-        "by_hand": false
-      },
-      {
-        "title": "Democratizing High-Performance Computing: How Virtualization and Workload Mobility Enable AI/ML Accessibility Across Organizations",
-        "url": "https://doi.org/10.5281/zenodo.18813141",
-        "pool": "institutions",
-        "date": "2026-02-27",
-        "by_hand": false
-      },
-      {
-        "title": "Democratizing High-Performance Computing: How Virtualization and Workload Mobility Enable AI/ML Accessibility Across Organizations",
-        "url": "https://doi.org/10.5281/zenodo.18813142",
-        "pool": "institutions",
-        "date": "2026-02-27",
-        "by_hand": false
-      },
-      {
-        "title": "Democratizing High-Performance Computing: How Virtualization and Workload Mobility Enable AI/ML Accessibility Across Organizations",
-        "url": "https://doi.org/10.22399/ijcesen.4980",
-        "pool": "institutions",
-        "date": "2026-02-27",
-        "by_hand": false
-      },
-      {
-        "title": "[Rule] Revocation of Methods of Analysis Regulation",
-        "url": "https://www.federalregister.gov/documents/2026/02/19/2026-03285/revocation-of-methods-of-analysis-regulation",
-        "pool": "fda",
-        "date": "2026-02-19",
-        "by_hand": false
-      },
-      {
-        "title": "[Rule] Listing of Color Additives Exempt From Certification; Spirulina Extract",
-        "url": "https://www.federalregister.gov/documents/2026/02/06/2026-02314/listing-of-color-additives-exempt-from-certification-spirulina-extract",
-        "pool": "fda",
-        "date": "2026-02-06",
-        "by_hand": false
-      },
-      {
-        "title": "[Rule] Listing of Color Additives Exempt From Certification; Beetroot Red",
-        "url": "https://www.federalregister.gov/documents/2026/02/06/2026-02313/listing-of-color-additives-exempt-from-certification-beetroot-red",
-        "pool": "fda",
-        "date": "2026-02-06",
-        "by_hand": false
-      },
-      {
-        "title": "KIZO LAB UV DEFENSE CLEAR SUNSCREN SPF50",
-        "url": "https://api.fda.gov/drug/label.json",
-        "pool": "fda",
-        "date": "2026-01-28",
-        "by_hand": false
-      },
-      {
-        "title": "[Notice] FDA Records Access Authority for Cosmetics; Draft Guidance for Industry; Availability",
-        "url": "https://www.federalregister.gov/documents/2026/01/22/2026-01159/fda-records-access-authority-for-cosmetics-draft-guidance-for-industry-availability",
-        "pool": "fda",
-        "date": "2026-01-22",
-        "by_hand": false
-      },
-      {
-        "title": "Triple Prep SPF 40",
-        "url": "https://api.fda.gov/drug/label.json",
-        "pool": "fda",
-        "date": "2026-01-09",
-        "by_hand": false
-      },
-      {
-        "title": "Agentic AI Architecture, Regulation, and Systemic Integration for Investment Firms",
-        "url": "https://doi.org/10.2139/ssrn.6273078",
-        "pool": "institutions",
-        "date": "2026-01-01",
-        "by_hand": false
-      },
-      {
-        "title": "BOTANICAL SOOTHING SPF-30",
-        "url": "https://api.fda.gov/drug/label.json",
-        "pool": "fda",
-        "date": "2025-12-31",
-        "by_hand": false
-      },
-      {
-        "title": "Olay Regenerist Regenerating with Sunscreen Broad Spectrum SPF 15",
-        "url": "https://api.fda.gov/drug/label.json",
-        "pool": "fda",
-        "date": "2025-12-18",
-        "by_hand": false
-      },
-      {
-        "title": "[Notice] Questions and Answers Regarding Mandatory Cosmetics Recalls: Draft Guidance for Industry; Availability",
-        "url": "https://www.federalregister.gov/documents/2025/12/18/2025-23249/questions-and-answers-regarding-mandatory-cosmetics-recalls-draft-guidance-for-industry-availability",
-        "pool": "fda",
-        "date": "2025-12-18",
-        "by_hand": false
-      },
-      {
-        "title": "[Proposed Rule] Testing Methods for Detecting and Identifying Asbestos in Talc-Containing Cosmetic Products; Withdrawal",
-        "url": "https://www.federalregister.gov/documents/2025/11/28/2025-21407/testing-methods-for-detecting-and-identifying-asbestos-in-talc-containing-cosmetic-products",
-        "pool": "fda",
-        "date": "2025-11-28",
-        "by_hand": false
-      },
-      {
-        "title": "Ethical implications of artificial intelligence in financial compliance: Balancing innovation and responsibility",
-        "url": "https://doi.org/10.69554/wxlj2994",
-        "pool": "institutions",
-        "date": "2025-11-19",
-        "by_hand": false
-      },
-      {
-        "title": "Reef Kids SPF 30 Oxybenzone Free",
-        "url": "https://api.fda.gov/drug/label.json",
-        "pool": "fda",
-        "date": "2025-11-04",
-        "by_hand": false
       }
     ],
     "design": [
@@ -2016,6 +2351,62 @@
         "url": "https://share.gemini.google/9PFLmGZM2rqu",
         "pool": "team_briefing",
         "summary": "제안된 8단계 흐름은 JARVIS의 수집→구조화→비서실장 라우팅→분석→카피→디자인→검수→채널 전달 구조와 방향이 맞다. 다만 실시간 수집, 고화질 미디어 자동 생성, SNS 자동 게시라는 표현은 현재 구현보다 앞서 있으므로 각각 주기 수집, 초안·레퍼런스 단계, 사람 승인 후 실행으로 정정한다. Shopify 카피 10건은 준비됐지만 공개 준비는 0건이며 외부 채널 쓰기는 연결하지 않는다.",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-001] 광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
+        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+        "pool": "youtube_insight",
+        "summary": "광고 훅과 피부 고민마다 별도 랜딩페이지를 만들고 가치제안, 실제 리뷰, FAQ, 배송·반품 정보를 한 흐름에 배치한다. (근거 00:29-03:16)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-002] 피부 고민·루틴 중심 탐색 구조",
+        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+        "pool": "youtube_insight",
+        "summary": "메뉴와 컬렉션을 제품명보다 피부 고민, 제형, 루틴 단계 중심으로 구성하고 검색창을 전면에 둔다. (근거 04:16-06:16)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-003] PDP 이미지 캐러셀을 판매 스토리로 구성",
+        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+        "pool": "youtube_insight",
+        "summary": "제품컷, 피부 고민 맥락, 제형·사용법, 성분 근거, 후기, 사용 장면, 배송·반품 순으로 이미지 세트를 만든다. (근거 12:46-14:25)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-005] 검색형 숏폼을 TikTok·Reels·Shorts에 교차 게시",
+        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
+        "pool": "youtube_insight",
+        "summary": "사용 장면, 세 가지 사용법, 루틴 순서, 포장 비하인드 영상을 만들고 채널별 제목·자막을 현지화한다. (근거 06:46-08:14)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-020] 훅·형식·증거별 크리에이티브 테스트 체계",
+        "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
+        "pool": "youtube_insight",
+        "summary": "UGC 데모, 텍스처, 루틴 교육, 리뷰, 성분 근거를 서로 다른 훅과 형식으로 제작하고 패자를 중단해 승자의 후속 버전을 만든다. (근거 15:00-17:47)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-024] AI 캠페인 제안 승인 큐와 비용 가드레일",
+        "url": "https://www.youtube.com/watch?v=jUxSAGCaJIU",
+        "pool": "youtube_insight",
+        "summary": "AI가 제안한 이메일·광고 캠페인은 대상, 예산, 일정, 클레임을 사람이 검토하고 유료 집행은 명시적 사용자 승인 전까지 보류한다. (근거 03:13-04:43)",
+        "date": "2026-09-27",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-027] UGC 훅-발견-혜택-소프트 CTA 샷리스트",
+        "url": "https://www.youtube.com/watch?v=_pKECd9m25U",
+        "pool": "youtube_insight",
+        "summary": "실제 제품 사실과 고객 맥락으로 훅, 발견, 혜택, 소프트 CTA를 작성하고 각 문장을 증명하는 세로형 B-roll 샷을 연결해 유기 숏폼으로 먼저 검증한다. (근거 01:30-04:38)",
         "date": "2026-09-27",
         "by_hand": true
       },
@@ -2124,7 +2515,7 @@
         "by_hand": true
       },
       {
-        "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
+        "title": "This UI/UX Redesign Will Teach You More Than Figma 100 Tutorials Combined",
         "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
         "pool": "youtube_channel",
         "date": "",
@@ -2388,477 +2779,428 @@
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
-      },
-      {
-        "title": "Winning Distribution Strategies: 10 Plays Every Shopify Store Needs (Beginner to Pro)",
-        "url": "https://www.youtube.com/watch?v=9SyZPimDdH4",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Winning Pricing Strategies: 10 Plays Every Shopify Store Needs (Beginner to Pro)",
-        "url": "https://www.youtube.com/watch?v=c37NGZtSJPM",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Digital Marketing 101: 10 Strategies Every Shopify Store Needs (Marketing Masterclass Part 1)",
-        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "The Official Shopify Sidekick Tutorial (Part 2)",
-        "url": "https://www.youtube.com/watch?v=NbTHyB-nqHQ",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "How to Use Claude to Build and Run a Shopify Store",
-        "url": "https://www.youtube.com/watch?v=Ih5RapM8XKw",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Shopify Just Changed How You Sell (Spring 2026 Editions Explained)",
-        "url": "https://www.youtube.com/watch?v=jUxSAGCaJIU",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "How to Start a Clothing Resale Business on Shopify",
-        "url": "https://www.youtube.com/watch?v=RUwznTHGexY",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
       }
     ],
     "robotics": [
       {
-        "title": "Asimov’s laws are not enough to keep robotics and AI safe",
-        "url": "https://www.therobotreport.com/asimovs-laws-are-not-enough-keep-robotics-ai-safe/",
-        "pool": "robotics",
-        "date": "2026-09-27",
-        "by_hand": false
+        "title": "Spot at Mariana Minerals | Boston Dynamics",
+        "url": "https://www.youtube.com/watch?v=KywMP9_SyRg",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "From 14 cities to 15,000: What it will take to scale robotaxis?",
-        "url": "https://www.therobotreport.com/from-14-cities-to-15000-what-it-will-take-to-scale-robotaxis/",
-        "pool": "robotics",
-        "date": "2026-09-26",
-        "by_hand": false
+        "title": "Atlas' Journey to FIFA World Cup 2026™ | Boston Dynamics",
+        "url": "https://www.youtube.com/watch?v=cCNkgD3qXvg",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Video Friday: Life’s Better With a Little Robot Goose",
-        "url": "https://spectrum.ieee.org/video-friday-goose-household-robots",
-        "pool": "robotics",
-        "date": "2026-09-25",
-        "by_hand": false
+        "title": "Going the Extra Mile with Spot | Boston Dynamics",
+        "url": "https://www.youtube.com/watch?v=EI1zFxLVkrs",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Amazon to invest $100M in new Indiana manufacturing facility",
-        "url": "https://www.therobotreport.com/amazon-to-invest-100m-in-new-indiana-manufacturing-facility/",
-        "pool": "robotics",
-        "date": "2026-09-25",
-        "by_hand": false
+        "title": "Viking Row | Atlas | Boston Dynamics",
+        "url": "https://www.youtube.com/watch?v=tw0uJ1T5bzE",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "General Robotics is betting on modular intelligence, not one robot brain",
-        "url": "https://www.therobotreport.com/general-robotics-is-betting-on-modular-intelligence-not-one-robot-brain/",
-        "pool": "robotics",
-        "date": "2026-09-25",
-        "by_hand": false
+        "title": "Spot at Coca-Cola Europacific Partners | Boston Dynamics",
+        "url": "https://www.youtube.com/watch?v=em5RQCq5zyc",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Agility Robotics, maker of Digit humanoid, exploring wheeled robots",
-        "url": "https://www.therobotreport.com/agility-robotics-maker-of-digit-humanoid-exploring-wheeled-robots/",
-        "pool": "robotics",
-        "date": "2026-09-25",
-        "by_hand": false
+        "title": "Atlas at the FIFA World Cup 2026™",
+        "url": "https://www.youtube.com/watch?v=ezPLXk78Cfk",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Farmers are facing more pressure; CNH says robotics can help",
-        "url": "https://www.therobotreport.com/farmers-are-facing-more-pressure-cnh-says-robotics-can-help/",
-        "pool": "robotics",
-        "date": "2026-09-25",
-        "by_hand": false
+        "title": "School of Football | Making Of | Boston Dynamics x Hyundai",
+        "url": "https://www.youtube.com/watch?v=qYy-BwBpxBI",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "SARFusion: Scene-Aware Routing Fusion for Robust Camera-LiDAR 3D Object Detection",
-        "url": "https://arxiv.org/abs/2609.29235",
-        "pool": "arxiv",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "School of Football | The Ghost Rabona | Boston Dynamics x Hyundai",
+        "url": "https://www.youtube.com/watch?v=V1Lxp-Q6Y9g",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Dense Coverage, Sparse Refinement: Byte-Constrained Cooperative Perception",
-        "url": "https://arxiv.org/abs/2609.29456",
-        "pool": "arxiv",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "School of Football | The Rabona | Boston Dynamics x Hyundai",
+        "url": "https://www.youtube.com/watch?v=mCcv90sUNbY",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "EIB-Net: Entropy-Guided Information Bottleneck for Generalizable AI-Generated Image Detection",
-        "url": "https://arxiv.org/abs/2609.29064",
-        "pool": "arxiv",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "School of Football | The Kicks | Boston Dynamics x Hyundai",
+        "url": "https://www.youtube.com/watch?v=kc-9GQB8EXQ",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "AI-based detection of worsening heart failure from low-resolution telemonitoring data",
-        "url": "https://arxiv.org/abs/2609.29742",
-        "pool": "arxiv",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "School of Football | The Basics | Boston Dynamics x Hyundai",
+        "url": "https://www.youtube.com/watch?v=ITCklufC25Y",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Continuous Online Fault Detection for Mobile Robots via Adaptive Edge Models",
-        "url": "https://arxiv.org/abs/2609.29194",
-        "pool": "arxiv",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "School of Football | Can football teach a robot to move? | Boston Dynamics x Hyundai",
+        "url": "https://www.youtube.com/watch?v=qaqzZK7ZrZk",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "HBF-Sim: An Extensible HBF Simulator for Large-scale GPU Memory Systems",
-        "url": "https://arxiv.org/abs/2609.29246",
-        "pool": "robotics",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "How does Atlas learn? | Inside the Lab | Boston Dynamics",
+        "url": "https://www.youtube.com/watch?v=xKK5ze3FukQ",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "MQSS-Selector: RL-Guided Pass Selection for an MLIR Compilation Pipeline",
-        "url": "https://arxiv.org/abs/2609.30104",
-        "pool": "robotics",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "Atlas, can you bring me a drink? | Boston Dynamics",
+        "url": "https://www.youtube.com/watch?v=3aQWvdCac9o",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "KREX: Concurrent Kernel Benchmarking on Shared GPUs via Region-Granular Exclusivity",
-        "url": "https://arxiv.org/abs/2609.30057",
-        "pool": "robotics",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "Smarter Inspections Powered by Google Gemini Robotics | Boston Dynamics",
+        "url": "https://www.youtube.com/watch?v=kBwxmlI2yHQ",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Mexican EPICS in IEEE Team Builds Portable Educational Platform",
-        "url": "https://spectrum.ieee.org/epics-in-ieee-portable-educational",
-        "pool": "robotics",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "The To Do List with Spot | Boston Dynamics",
+        "url": "https://www.youtube.com/watch?v=LP4-c5AK30g",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "5 million robots are now at work in factories worldwide, reports the IFR",
-        "url": "https://www.therobotreport.com/5-million-robots-now-working-factories-worldwide-ifr-reports/",
-        "pool": "robotics",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "Form & Function of Enterprise Humanoid Design | Boston Dynamics Tech Talk | Atlas",
+        "url": "https://www.youtube.com/watch?v=wL0-Pu_8F0U",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Why you should look beyond the spec sheet when choosing motion architecture",
-        "url": "https://www.therobotreport.com/why-you-should-look-beyond-spec-sheet-when-choosing-motion-architecture/",
-        "pool": "robotics",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "ST Engineering MRAS | Boston Dynamics",
+        "url": "https://www.youtube.com/watch?v=mH4NLGI64MM",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Epson introduces AX6 cobot with compact design, no-code programming",
-        "url": "https://www.therobotreport.com/epson-introduces-ax6-cobot-compact-design-no-code-programming/",
-        "pool": "robotics",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "Atlas Airborne | Boston Dynamics & @rai-inst",
+        "url": "https://www.youtube.com/watch?v=UNorxwlZlFk",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "ANYbotics opens the door for inspections with ANYmal robots",
-        "url": "https://www.therobotreport.com/anybotics-opens-the-door-for-inspections-with-anymal-robots/",
-        "pool": "robotics",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "Spot Cam 2  | Boston Dynamics",
+        "url": "https://www.youtube.com/watch?v=de06_CLqrM0",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Strong NP-Hardness and Approximation Algorithm for Weighted Tardiness with Release Dates and Identical Processing Times",
-        "url": "https://arxiv.org/abs/2609.28751",
-        "pool": "robotics",
-        "date": "2026-09-23",
-        "by_hand": false
+        "title": "Atlas | Product Features | Boston Dynamics",
+        "url": "https://www.youtube.com/watch?v=rrUHZKlrxms",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "With the new VENTUNO Q board, Arduino hopes to make robotics development easier",
-        "url": "https://www.therobotreport.com/new-ventuno-q-board-arduino-hopes-make-robotics-development-easier/",
-        "pool": "robotics",
-        "date": "2026-09-23",
-        "by_hand": false
+        "title": "The Beginning of Your Tomorrow I Boston Dynamics",
+        "url": "https://www.youtube.com/watch?v=sd8ivhpjI6g",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Helicon brings automation to high-volume composites manufacturing",
-        "url": "https://www.therobotreport.com/helicon-brings-automation-high-volume-composites-manufacturing/",
-        "pool": "robotics",
-        "date": "2026-09-23",
-        "by_hand": false
+        "title": "Happy Holidays from Boston Dynamics | 2025",
+        "url": "https://www.youtube.com/watch?v=vbLd_nq0_7A",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "State of Humanoids keynote brings industry leaders to RoboBusiness",
-        "url": "https://www.therobotreport.com/state-of-humanoids-keynote-brings-industry-leaders-robobusiness/",
-        "pool": "robotics",
-        "date": "2026-09-23",
-        "by_hand": false
+        "title": "The Humanoid Mission in Manufacturing | Boston Dynamics Tech Talk",
+        "url": "https://www.youtube.com/watch?v=SRZ9E48B6aM",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Qualcomm to acquire PickNik Robotics and keep MoveIt open-source",
-        "url": "https://www.therobotreport.com/qualcomm-acquires-picknik-robotics-keep-moveit-open-source/",
-        "pool": "robotics",
-        "date": "2026-09-23",
-        "by_hand": false
+        "title": "Why Humanoids Are the Future of Manufacturing | Boston Dynamics Webinar",
+        "url": "https://www.youtube.com/watch?v=laexcnaTrDM",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Offloaded inference for real-world physical AI robotics",
-        "url": "https://www.microsoft.com/en-us/research/blog/offloaded-inference-for-real-world-physical-ai-robotics/",
-        "pool": "institutions",
-        "date": "2026-09-23",
-        "by_hand": false
+        "title": "Inside the Stretch Test Lab | Boston Dynamics",
+        "url": "https://www.youtube.com/watch?v=RpvSMqOT7ls",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Optimal Operation Method for Computing Power-Electric Power Coordination Considering End-to-End Completion Latency of Computing Tasks",
-        "url": "https://arxiv.org/abs/2609.25594",
-        "pool": "robotics",
-        "date": "2026-09-22",
-        "by_hand": false
+        "title": "What's in a humanoid hand? | Boston Dynamics",
+        "url": "https://www.youtube.com/watch?v=gS4rOqNDTBk",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "New perspectives for the fitness fatigue model: how to revisit questions about the science of sports training from the perspective of systems control theory",
-        "url": "https://arxiv.org/abs/2609.26506",
-        "pool": "robotics",
-        "date": "2026-09-22",
-        "by_hand": false
+        "title": "Air Spot | RL Behavior Research | Boston Dynamics",
+        "url": "https://www.youtube.com/watch?v=LMPxtcEgtds",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Barbara Mazzolai Wants to Build a New Field of Robotics",
-        "url": "https://spectrum.ieee.org/sustainability-robotics-barbara-mazzolai",
-        "pool": "robotics",
-        "date": "2026-09-22",
-        "by_hand": false
+        "title": "Getting a Leg up with End-to-end Neural Networks | Boston Dynamics",
+        "url": "https://www.youtube.com/watch?v=HYwekersccY",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Intel to discuss the infrastructure needed to scale physical AI at RoboBusiness",
-        "url": "https://www.therobotreport.com/intel-discusses-infrastructure-needed-to-scale-physical-ai-robobusiness/",
-        "pool": "robotics",
-        "date": "2026-09-22",
-        "by_hand": false
+        "title": "Spot at POSCO | Boston Dynamics",
+        "url": "https://www.youtube.com/watch?v=V7D7jXF2pj8",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "SAFe: Segment-guided Aggregation of Feature Densities for Anomaly-aware Segmentation",
-        "url": "https://arxiv.org/abs/2609.24204",
-        "pool": "arxiv",
-        "date": "2026-09-21",
-        "by_hand": false
+        "title": "The World's Largest-Scale Full-Size Humanoid Robot Real-Time Livestream Performance",
+        "url": "https://www.youtube.com/watch?v=bYkyz9QwqCw",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "High-Dimensional Online Change Point Detection with Adaptive Thresholding and Interpretability",
-        "url": "https://arxiv.org/abs/2609.24278",
-        "pool": "arxiv",
-        "date": "2026-09-21",
-        "by_hand": false
+        "title": "Unitree Introducing: Unitree Dex5-S Dexterous Hand 22 Degrees of Freedom 1:1 Real-Hand Size",
+        "url": "https://www.youtube.com/watch?v=LAT2RIKjhTo",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Adaptive Parallel-in-Time Integration with Dynamic Resource Management",
-        "url": "https://arxiv.org/abs/2609.24434",
-        "pool": "robotics",
-        "date": "2026-09-21",
-        "by_hand": false
+        "title": "Unitree General-Purpose Humanoid Foundation Model Fully Upgrade Major Open Source",
+        "url": "https://www.youtube.com/watch?v=GHySQMMrIa4",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Bridging the Vendor Gap: Enabling AMD GPU Support for Awkward Array via ROCm/HIP for the HL-LHC Era",
-        "url": "https://arxiv.org/abs/2609.24628",
-        "pool": "robotics",
-        "date": "2026-09-21",
-        "by_hand": false
+        "title": "Unitree Breakthrough: The World’s First Fully Autonomous Humanoid Robot Combat",
+        "url": "https://www.youtube.com/watch?v=qkIJELDgULA",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Toward GPU-Resident Climate Models: A Feasibility Study on Lossy Compression for the Spherical Harmonic Transform's Communication Bottleneck",
-        "url": "https://arxiv.org/abs/2609.24294",
-        "pool": "robotics",
-        "date": "2026-09-21",
-        "by_hand": false
+        "title": "Unitree New Robot Preview: “Superman” Breaking the Limits of Humanity",
+        "url": "https://www.youtube.com/watch?v=O7OkiZfIlS4",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Unified Semantic Reasoning and Planning for Autonomous Driving",
-        "url": "https://doi.org/10.3390/s26185973",
-        "pool": "institutions",
-        "date": "2026-09-21",
-        "by_hand": false
+        "title": "Unitree Super Athlete AS2-W",
+        "url": "https://www.youtube.com/watch?v=Xha2TJ_1C6Q",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Accurate Simulation of Distributed Training Jobs with Network Contention Modeling",
-        "url": "https://arxiv.org/abs/2609.23278",
-        "pool": "robotics",
-        "date": "2026-09-20",
-        "by_hand": false
+        "title": "Real-Time Omni-Modal Interaction Driven Whole-Body Mobile Manipulation",
+        "url": "https://www.youtube.com/watch?v=IiNbFPOUrz8",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "SemDHT: Certified Semantic Discovery for Peer-to-Peer Agent Networks over Exact-Key DHTs",
-        "url": "https://arxiv.org/abs/2609.23539",
-        "pool": "robotics",
-        "date": "2026-09-20",
-        "by_hand": false
+        "title": "Unitree Invites You to Witness the 2026 Humanoid Robot Combat Competition",
+        "url": "https://www.youtube.com/watch?v=P8U_4v8SUOQ",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Simulation code for \"Real-Time AI Service Economy: A Framework for Agentic Computing Across the Continuum\"",
-        "url": "https://arxiv.org/abs/2603.05614",
-        "pool": "robotics",
-        "date": "2026-09-19",
-        "by_hand": false
+        "title": "Unitree R1 | Price from $4,900, Ready Stock",
+        "url": "https://www.youtube.com/watch?v=mTMYfVD4zCw",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "HyperParallel-FSDP: Topology-Aware Fully Sharded Training with Layout-Driven Muon on Ascend SuperPods",
-        "url": "https://arxiv.org/abs/2609.21594",
-        "pool": "robotics",
-        "date": "2026-09-18",
-        "by_hand": false
+        "title": "Conference Room Mess Cleanup Test: Unitree WVLA 2.0 Model🎉",
+        "url": "https://www.youtube.com/watch?v=zqqIpVsMYkE",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Video Friday: Two Birotors Make a Quadrotor",
-        "url": "https://spectrum.ieee.org/video-friday-quadrotor-from-birotor",
-        "pool": "robotics",
-        "date": "2026-09-18",
-        "by_hand": false
+        "title": "Voice‑driven, real‑time arbitrary action generation😁",
+        "url": "https://www.youtube.com/watch?v=B-a8TB8ttII",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "FLARE: an open-source data workflow orchestration tool",
-        "url": "https://arxiv.org/abs/2609.19809",
-        "pool": "robotics",
-        "date": "2026-09-17",
-        "by_hand": false
+        "title": "Unitree Unveils: GD01, A Manned Transformable Mecha, from $650,000",
+        "url": "https://www.youtube.com/watch?v=oWOyUMJWptc",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "VERA: Reinforcement Learning for Dynamic Memory Scaling of HPC Workloads in Kubernetes",
-        "url": "https://arxiv.org/abs/2609.19936",
-        "pool": "robotics",
-        "date": "2026-09-17",
-        "by_hand": false
+        "title": "Heard some people like wheels？😁",
+        "url": "https://www.youtube.com/watch?v=srPz8TRpZ_8",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Designing Grid-Aware Dynamic Specifications for Large Data Center Loads",
-        "url": "https://arxiv.org/abs/2609.18888",
-        "pool": "robotics",
-        "date": "2026-09-16",
-        "by_hand": false
+        "title": "10m/s!! Unitree Breaks the World Record Again😊",
+        "url": "https://www.youtube.com/watch?v=zoMDadPQLKA",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Rethinking Robot Safety in the Age of AI",
-        "url": "https://spectrum.ieee.org/physical-ai-robot-cybersecurity-vicone",
-        "pool": "robotics",
-        "date": "2026-09-16",
-        "by_hand": false
+        "title": "Unitree Open‑Source: High‑Quality Real‑Robot Dataset for Humanoid Robots",
+        "url": "https://www.youtube.com/watch?v=pN_bj5-QyW8",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "XMPIaaS: Towards Cloud Native MPI via Cooperative Process Migration",
-        "url": "https://arxiv.org/abs/2609.16531",
-        "pool": "robotics",
-        "date": "2026-09-15",
-        "by_hand": false
+        "title": "Great Honor to Welcome German Chancellor Merz",
+        "url": "https://www.youtube.com/watch?v=Q5qL7qAASBc",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "PipeSwift: Revisiting Pipeline Parallelism for Large-Scale Completion-Oriented Agentic LLM Serving",
-        "url": "https://arxiv.org/abs/2609.16491",
-        "pool": "robotics",
-        "date": "2026-09-15",
-        "by_hand": false
+        "title": "Unitree Introducing | Unitree As2  Your Companion",
+        "url": "https://www.youtube.com/watch?v=1ONE4l_pgHw",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "FlashVector: Agent for Hierarchical Model Serving Stack Optimization",
-        "url": "https://arxiv.org/abs/2609.17391",
-        "pool": "robotics",
-        "date": "2026-09-15",
-        "by_hand": false
+        "title": "Unitree Kung Fu Bot   Pray for Blessings at the Temple of Heaven: Wish Everyone All the Best",
+        "url": "https://www.youtube.com/watch?v=eQpyvR-B7hc",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "DeepShare: Assurance-Driven Deep Learning Job Scheduling for Multi-Tenant Clusters",
-        "url": "https://arxiv.org/abs/2609.16682",
-        "pool": "robotics",
-        "date": "2026-09-15",
-        "by_hand": false
+        "title": "A Whole Bunch of Robots Sending New Year Greetings to Everyone!",
+        "url": "https://www.youtube.com/watch?v=w4IOJH9Akhg",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Digit 5 May Be the First Humanoid Robot Worker That’s Truly Safe",
-        "url": "https://spectrum.ieee.org/humanoid-robot-safety",
-        "pool": "robotics",
-        "date": "2026-09-15",
-        "by_hand": false
+        "title": "Unitree Spring Festival Gala Robots —a Full Release of Additional Details",
+        "url": "https://www.youtube.com/watch?v=Ykiuz1ZdGBc",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "A Threshold Constant for Exact Community Recovery in the Degree-Corrected Poisson Stochastic Block Model",
-        "url": "https://arxiv.org/abs/2609.15793",
-        "pool": "robotics",
-        "date": "2026-09-14",
-        "by_hand": false
+        "title": "Unitree Embodied AI Model Manufactures Robots in Factory🤩",
+        "url": "https://www.youtube.com/watch?v=ub2gWviKZpk",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Cloud Workflow Scheduling Based on Graph Attention-Driven Hierarchical Reinforcement Learning",
-        "url": "https://arxiv.org/abs/2609.14952",
-        "pool": "robotics",
-        "date": "2026-09-14",
-        "by_hand": false
+        "title": "World's First: Unitree Humanoid Robot Autonomous Walking Challenge in −47.4°C Extreme Cold",
+        "url": "https://www.youtube.com/watch?v=SX4WKUHAP4E",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Stability-Aware Proactive Autoscaling Using a Double Deep Q-Network in Cloud Computing Environments",
-        "url": "https://arxiv.org/abs/2609.14894",
-        "pool": "robotics",
-        "date": "2026-09-14",
-        "by_hand": false
+        "title": "Unitree Humanoid Robot Daily Training 🥳",
+        "url": "https://www.youtube.com/watch?v=JZllfrHRc4g",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Cnuas: A Software-Defined AI/HPC Rack-scale Emulation Platform and Hyperscale Data Center Facility Twin",
-        "url": "https://arxiv.org/abs/2609.15889",
-        "pool": "robotics",
-        "date": "2026-09-14",
-        "by_hand": false
+        "title": "Unitree Debuts the World’s First Humanoid Robot “App Store”",
+        "url": "https://www.youtube.com/watch?v=AEhnXtBEC_E",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Where Should the KV Cache Live? Placement Policies Across GPU, CPU, and SSD for Long-Lived Sessions",
-        "url": "https://arxiv.org/abs/2609.16215",
-        "pool": "robotics",
-        "date": "2026-09-14",
-        "by_hand": false
+        "title": "Unitree 1.8m Humanoid Robot  Every Punch Comes Through！🥰",
+        "url": "https://www.youtube.com/watch?v=kjJeQZECPcQ",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "ECAS: An Edge-Controlled Agentic System for Validation-Gated Scientific Application Execution",
-        "url": "https://arxiv.org/abs/2609.14211",
-        "pool": "robotics",
-        "date": "2026-09-13",
-        "by_hand": false
+        "title": "Embodied Avatar: Full-body Teleoperation Platform",
+        "url": "https://www.youtube.com/watch?v=24h4FTH7plY",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Video Friday: Humanoid Robot Takes On Monkey Bars",
-        "url": "https://spectrum.ieee.org/video-friday-disaster-response-robots",
-        "pool": "robotics",
-        "date": "2026-09-11",
-        "by_hand": false
+        "title": "Unitree Introducing | Unitree H2 Destiny Awakening!🥳",
+        "url": "https://www.youtube.com/watch?v=eUdBIFkMh-M",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Robots Are Learning to Feel",
-        "url": "https://spectrum.ieee.org/tactile-data-robots",
-        "pool": "robotics",
-        "date": "2026-09-10",
-        "by_hand": false
+        "title": "Unitree G1 Kungfu Kid V6.0",
+        "url": "https://www.youtube.com/watch?v=O5GphCrjx98",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "This Robot Will Draw Your Blood Now",
-        "url": "https://spectrum.ieee.org/blood-draw-robot-vitestro-aletta",
-        "pool": "robotics",
-        "date": "2026-09-07",
-        "by_hand": false
+        "title": "Unitree G1 has mastered more quirky skills",
+        "url": "https://www.youtube.com/watch?v=bPSLMX_V38E",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Cyborg Roaches Can Stab You With Needles",
-        "url": "https://spectrum.ieee.org/cyborg-rescue-roach",
-        "pool": "robotics",
-        "date": "2026-09-05",
-        "by_hand": false
+        "title": "Unitree Combat Robot✖️UFC🥳",
+        "url": "https://www.youtube.com/watch?v=WjBXhdSkx4g",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       }
     ],
     "knowledge": [
@@ -2953,762 +3295,1186 @@
         "by_hand": true
       },
       {
-        "title": "Plans Work in Mysterious Ways: Evaluating A Plan Mode for Spreadsheet Agents - Supplementary Material",
-        "url": "https://doi.org/10.5281/zenodo.21564169",
-        "pool": "institutions",
-        "date": "2026-09-30",
-        "by_hand": false
+        "title": "Claude Opus 5.5 AI: An Incredible Leap Forward",
+        "url": "https://www.youtube.com/watch?v=SA9kdAX2Zj0",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Anthropic and Infosys build AI agents",
-        "url": "https://www.anthropic.com/news/anthropic-infosys",
-        "pool": "institutions",
-        "date": "2026-09-28",
-        "by_hand": false
+        "title": "Yes, Jev Is Insane, But There's A Catch",
+        "url": "https://www.youtube.com/watch?v=qBBRRsH0rQc",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Amazon to invest $100M in new Indiana manufacturing facility",
-        "url": "https://www.therobotreport.com/amazon-to-invest-100m-in-new-indiana-manufacturing-facility/",
-        "pool": "robotics",
-        "date": "2026-09-25",
-        "by_hand": false
+        "title": "DeepSeek’s Insane New Architecture",
+        "url": "https://www.youtube.com/watch?v=vIHw_2VjSUw",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "From Data to Dialogue: How S&P Global Energy Made Its Structured Data Estate Conversational with Databricks Genie Agents and MCP",
-        "url": "https://www.databricks.com/blog/data-dialogue-how-sp-global-energy-made-its-structured-data-estate-conversational-databricks",
-        "pool": "institutions",
-        "date": "2026-09-25",
-        "by_hand": false
+        "title": "Claude Is Now Leaving Invisible Fingerprints In Its Text",
+        "url": "https://www.youtube.com/watch?v=YoEWjZSwoys",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Project Swap: What happens when agents trade for us?",
-        "url": "https://www.anthropic.com/research/project-swap",
-        "pool": "institutions",
-        "date": "2026-09-25",
-        "by_hand": false
+        "title": "I Never Thought I’d See This Happen",
+        "url": "https://www.youtube.com/watch?v=mOvtumfyjCs",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "AI Toolkit skills have been consolidated to `shopify`",
-        "url": "https://shopify.dev/changelog/ai-toolkit-skills-have-been-consolidated",
-        "pool": "design_refs",
-        "date": "2026-09-25",
-        "by_hand": false
+        "title": "GPT-6 Astra Changes Everything",
+        "url": "https://www.youtube.com/watch?v=eVBJIUxv8N8",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "BiCC: Bidirectional Connected-Component Loss for Instance-Aware Segmentation",
-        "url": "https://arxiv.org/abs/2609.30223",
-        "pool": "arxiv",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "Claude Fable AI Is Much Stranger Than The Headlines Suggest",
+        "url": "https://www.youtube.com/watch?v=B3LXEW4Pc-w",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "C3M: Cross-Session Multimodal Memory Maintenance for Long-Horizon Tasks",
-        "url": "https://arxiv.org/abs/2609.29735",
-        "pool": "arxiv",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "GLM 5.3: Powerful AI Is Becoming Almost Free",
+        "url": "https://www.youtube.com/watch?v=w9RDunJACkc",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "SARFusion: Scene-Aware Routing Fusion for Robust Camera-LiDAR 3D Object Detection",
-        "url": "https://arxiv.org/abs/2609.29235",
-        "pool": "arxiv",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "The Billion Dollar AI Gap Is Collapsing",
+        "url": "https://www.youtube.com/watch?v=LBiNcdGNgrg",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Not All Confusion Is Equal: A Source-Aware Uncertainty Diagnosis for Fine-Grained Aircraft Detection",
-        "url": "https://arxiv.org/abs/2609.29959",
-        "pool": "arxiv",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "DeepSeek’s New AI System Shouldn’t Be Possible",
+        "url": "https://www.youtube.com/watch?v=L9mMfAFwbl4",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Dense Coverage, Sparse Refinement: Byte-Constrained Cooperative Perception",
-        "url": "https://arxiv.org/abs/2609.29456",
-        "pool": "arxiv",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "This Small AI Will Change Everything",
+        "url": "https://www.youtube.com/watch?v=wMl6c_r0ubw",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Learning a Flow to Self-Supervised Representations",
-        "url": "https://arxiv.org/abs/2609.29350",
-        "pool": "arxiv",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "DeepSeek Just Made Closed AI Look Ridiculous",
+        "url": "https://www.youtube.com/watch?v=kyYepbhe1g8",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "FlashLoop: Fast and Memory-Efficient Looped Transformers via Lazy Updates",
-        "url": "https://arxiv.org/abs/2609.29812",
-        "pool": "arxiv",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "Claude AI Failed 650 Times…Then Beat The Human Record",
+        "url": "https://www.youtube.com/watch?v=QnGNF8k_uoc",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Smartphone-Based Method for Automated Speed Enforcement",
-        "url": "https://arxiv.org/abs/2609.30107",
-        "pool": "arxiv",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "How OpenAI Hacked HuggingFace",
+        "url": "https://www.youtube.com/watch?v=JQ97GiDwPxc",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Exploiting Target Knowledge from MLLMs for Robust Few-Shot Segmentation",
-        "url": "https://arxiv.org/abs/2609.28949",
-        "pool": "arxiv",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "DeepMind Just Changed How AI Sees The World",
+        "url": "https://www.youtube.com/watch?v=vO6SWG-jxvE",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Lightweight Vision Transformer-Based U-Net for Brain Tumor Segmentation from MRI",
-        "url": "https://arxiv.org/abs/2609.29785",
-        "pool": "arxiv",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "The Billion Dollar AI Race Just Broke",
+        "url": "https://www.youtube.com/watch?v=ppQh4Tc9BmM",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Exploiting answer-invariant redundancies in satellite imagery for efficient VLM inference on edge",
-        "url": "https://arxiv.org/abs/2609.29029",
-        "pool": "arxiv",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "Another DeepSeek Moment Has Arrived",
+        "url": "https://www.youtube.com/watch?v=bm1BjOjS7sQ",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "RGBD20K: A Large-Scale Benchmark for RGB-D Semantic Segmentation",
-        "url": "https://arxiv.org/abs/2609.29028",
-        "pool": "arxiv",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "NVIDIA's AI Learns Why Copying Humans Isn't Enough",
+        "url": "https://www.youtube.com/watch?v=8B05cy3UuSE",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "ImCorr: Sub-pixel Semantic Correspondence via Implicit Feature Decoding",
-        "url": "https://arxiv.org/abs/2609.29193",
-        "pool": "arxiv",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "Kimi K3 Just Broke The Economics Of AI",
+        "url": "https://www.youtube.com/watch?v=Xj-QdEUxJkE",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Concurrent Split Learning Through Stable Client Clustering",
-        "url": "https://arxiv.org/abs/2609.29395",
-        "pool": "arxiv",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "Claude Just Revealed AI's Biggest Problem",
+        "url": "https://www.youtube.com/watch?v=axOcn--n_lM",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "IronViT: Toward Efficient Generalist Visual Representation Learning",
-        "url": "https://arxiv.org/abs/2609.29252",
-        "pool": "arxiv",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "Anthropic Found Something That Shouldn't Exist",
+        "url": "https://www.youtube.com/watch?v=0CqLVnx-2UM",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "AgriCountDINO: Parameter-Efficient Exemplar-Guided Counting and Localization in Agriculture",
-        "url": "https://arxiv.org/abs/2609.29460",
-        "pool": "arxiv",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "Minecraft Was Missing One Brilliant Idea",
+        "url": "https://www.youtube.com/watch?v=Ae9q7KsRbuI",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "NebulaSD: Many-for-Many Speculative Decoding",
-        "url": "https://arxiv.org/abs/2609.29364",
-        "pool": "arxiv",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "DeepSeek's Absolutely Insane AI Speed Hack (DSpark)",
+        "url": "https://www.youtube.com/watch?v=1yBU41auQhw",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "MoVISA: Multi-Token Reasoning for Video Object Segmentation",
-        "url": "https://arxiv.org/abs/2609.28956",
-        "pool": "arxiv",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "They Said This Will Never Run In Real Time",
+        "url": "https://www.youtube.com/watch?v=uO5cvkzh3P0",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "TRACE: Interactive Bi-Directional Tracing of Monochrome Cables Amid Clutter",
-        "url": "https://arxiv.org/abs/2609.29103",
-        "pool": "arxiv",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "AI Just Entered A New Era",
+        "url": "https://www.youtube.com/watch?v=qks6dGQFd_c",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "ConPro: Contrast Projection Pretraining for Label-Efficient Vessel Segmentation in DSA Sequences",
-        "url": "https://arxiv.org/abs/2609.30043",
-        "pool": "arxiv",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "DeepSeek Just Solved AI's Billion Dollar Problem",
+        "url": "https://www.youtube.com/watch?v=mG4SmhWyeFA",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Frame-to-Panorama Localization and Context-Aware Sampling for Scene-Specific Ship Detection in a Smart Marina Testbed",
-        "url": "https://arxiv.org/abs/2609.29447",
-        "pool": "arxiv",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "Scientists Found A Better Language For AI Agents",
+        "url": "https://www.youtube.com/watch?v=dUmT0OIGoqE",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Seeing Is Not Measuring: Tool-Augmented Metric Spatial Reasoning for Vision-Language Models",
-        "url": "https://arxiv.org/abs/2609.29073",
-        "pool": "arxiv",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "They Looked Inside Claude’s AI's Mind. It Got Weird",
+        "url": "https://www.youtube.com/watch?v=l72ufA-4SzE",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "KernelOPT: Dispatch-Aware Agentic Search for GPU Kernel Optimization",
-        "url": "https://arxiv.org/abs/2609.30059",
-        "pool": "arxiv",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "NVIDIA's New Free AI - A Gift To Humanity",
+        "url": "https://www.youtube.com/watch?v=zJvN8PDX1is",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Baseline Shape Decides the Verdict: A Controlled Re-Examination of Ternary Language Models at 60K Parameters",
-        "url": "https://doi.org/10.48550/arxiv.2609.29397",
-        "pool": "arxiv",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "DeepMind’s New AI Found A Strange New Way To Think",
+        "url": "https://www.youtube.com/watch?v=Dkqzqw8rxXI",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "EIB-Net: Entropy-Guided Information Bottleneck for Generalizable AI-Generated Image Detection",
-        "url": "https://arxiv.org/abs/2609.29064",
-        "pool": "arxiv",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "Opus 5.5: How Close Are We to Automated AI Research?",
+        "url": "https://www.youtube.com/watch?v=R9momwXV9w4",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Relative Mismatch: Local-Reference Calibration of Feature-Space Flows for Anomalous Sound Detection",
-        "url": "https://arxiv.org/abs/2609.29746",
-        "pool": "arxiv",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "What AI Researchers Saw, Before Their Demand to ‘Pace’ AI",
+        "url": "https://www.youtube.com/watch?v=J3ljHm57yU0",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "AI-based detection of worsening heart failure from low-resolution telemonitoring data",
-        "url": "https://arxiv.org/abs/2609.29742",
-        "pool": "arxiv",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "GPT 6 Astra, so good even OpenAI are worried",
+        "url": "https://www.youtube.com/watch?v=Spuza-KwTJ4",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Industrial Anomaly Detection via Defect-Grounded Reasoning in Visual Latent Space",
-        "url": "https://arxiv.org/abs/2609.29457",
-        "pool": "arxiv",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "Sam Altman :‘AGI in 2026’, just as Models Start to [Mis]Train Themselves",
+        "url": "https://www.youtube.com/watch?v=KL9_1GbmCic",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Continuous Online Fault Detection for Mobile Robots via Adaptive Edge Models",
-        "url": "https://arxiv.org/abs/2609.29194",
-        "pool": "arxiv",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "AI is getting a little out of control",
+        "url": "https://www.youtube.com/watch?v=xGzseSSStnw",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "KREX: Concurrent Kernel Benchmarking on Shared GPUs via Region-Granular Exclusivity",
-        "url": "https://arxiv.org/abs/2609.30057",
-        "pool": "robotics",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "GPT-6 Goes Rogue? The HuggingFace Incident, Sans Hype",
+        "url": "https://www.youtube.com/watch?v=wzY2fV4Mp3U",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Why you should look beyond the spec sheet when choosing motion architecture",
-        "url": "https://www.therobotreport.com/why-you-should-look-beyond-spec-sheet-when-choosing-motion-architecture/",
-        "pool": "robotics",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "A Model Explosion: GPT 5.6 Sol, Grok 4.5 and Meta Muse Rewrite the Rules",
+        "url": "https://www.youtube.com/watch?v=mWlCituW7wo",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Deploy and manage coding agents at scale with the Unity Gateway CLI",
-        "url": "https://www.databricks.com/blog/deploy-and-manage-coding-agents-scale-unity-gateway-cli",
-        "pool": "institutions",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "Fable 5 vs GPT 5.6 Sol: The Early Results",
+        "url": "https://www.youtube.com/watch?v=y24lF1q4SFY",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "How I built agent-based security reviews on Databricks",
-        "url": "https://www.databricks.com/blog/how-i-built-agent-based-security-reviews-databricks",
-        "pool": "institutions",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "Claude Fable Blocked - 11 Quiet Details on What’s Next",
+        "url": "https://www.youtube.com/watch?v=Qj71N0tBzRo",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Claude discovers a novel enzyme system",
-        "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-        "pool": "institutions",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "Claude Fable 5 - Full 319 page Breakdown",
+        "url": "https://www.youtube.com/watch?v=haK1KoQWm18",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "SAGEGAN: Style-Based Anomaly Detection with Gaussian Embeddings using Generative Adversarial Networks",
-        "url": "https://arxiv.org/abs/2609.27357",
-        "pool": "arxiv",
-        "date": "2026-09-23",
-        "by_hand": false
+        "title": "New Claude Opus 4.8: 15 Things You May’ve Missed",
+        "url": "https://www.youtube.com/watch?v=aJvP3nXWkwM",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Anomaly-Free Self-Optimization via AUC Bounds",
-        "url": "https://arxiv.org/abs/2609.27362",
-        "pool": "arxiv",
-        "date": "2026-09-23",
-        "by_hand": false
+        "title": "Two Rival Bets on AGI: Google I/O Highlights",
+        "url": "https://www.youtube.com/watch?v=o_av1b9rs2g",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Visual Tripwires: Anticipating Failure in Deep Vision Systems",
-        "url": "https://arxiv.org/abs/2609.28099",
-        "pool": "arxiv",
-        "date": "2026-09-23",
-        "by_hand": false
+        "title": "GPT 5.5 Arrives, DeepSeek V4 Drops, and the Compute War Intensifies",
+        "url": "https://www.youtube.com/watch?v=jz0rNhfAKo8",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "DrGait: Biomechanically Grounded Visual Reasoning for Interpretable Clinical Gait Analysis",
-        "url": "https://arxiv.org/abs/2609.28796",
-        "pool": "arxiv",
-        "date": "2026-09-23",
-        "by_hand": false
+        "title": "Claude Opus 4.7 - A New Frontier, in Performance … and Drama",
+        "url": "https://www.youtube.com/watch?v=QVJcdfkRpH8",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "When Does Unsupervised Learning Succeed or Fail? A PoS Perspective on Reconstruction-Based Anomaly Detection",
-        "url": "https://arxiv.org/abs/2609.28832",
-        "pool": "arxiv",
-        "date": "2026-09-23",
-        "by_hand": false
+        "title": "Claude Mythos: Highlights from 244-page Release",
+        "url": "https://www.youtube.com/watch?v=txx6ec6MLNY",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "When Labels Are Scarce: An Oscillatory State Space Model for Vibration Diagnosis",
-        "url": "https://arxiv.org/abs/2609.27411",
-        "pool": "arxiv",
-        "date": "2026-09-23",
-        "by_hand": false
+        "title": "Two AI Models Set to “stir government urgency”, But Will This Challenge Undo Them?",
+        "url": "https://www.youtube.com/watch?v=s4tptozUJ8Y",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-        "url": "https://openai.com/index/ringg",
-        "pool": "institutions",
-        "date": "2026-09-23",
-        "by_hand": false
+        "title": "What the New ChatGPT 5.4 Means for the World",
+        "url": "https://www.youtube.com/watch?v=zizoDORjmlQ",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Introducing MentalHealthBench",
-        "url": "https://openai.com/index/introducing-mentalhealthbench",
-        "pool": "institutions",
-        "date": "2026-09-23",
-        "by_hand": false
+        "title": "Deadline Day for Autonomous AI Weapons & Mass Surveillance",
+        "url": "https://www.youtube.com/watch?v=Cru804JMjPI",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       }
     ],
     "institutions": [
       {
-        "title": "Plans Work in Mysterious Ways: Evaluating A Plan Mode for Spreadsheet Agents - Supplementary Material",
-        "url": "https://doi.org/10.5281/zenodo.21564169",
-        "pool": "institutions",
-        "date": "2026-09-30",
-        "by_hand": false
+        "title": "10 Years of NVIDIA DGX: From One System to AI Factories",
+        "url": "https://www.youtube.com/watch?v=xAgq8ByWK0M",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Samsung TV Plus Expands Global Creator Lineup to More Markets",
-        "url": "https://news.samsung.com/global/samsung-tv-plus-expands-global-creator-lineup-to-more-markets",
-        "pool": "institutions",
-        "date": "2026-09-28",
-        "by_hand": false
+        "title": "Build Custom AI Infrastructure with NVIDIA NVLink Fusion",
+        "url": "https://www.youtube.com/watch?v=cr61seCie_c",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Samsung, SK Telecom, and Hana Financial Group Build Korea’s First Private 5G Smart Office in the Financial Sector",
-        "url": "https://news.samsung.com/global/samsung-sk-telecom-and-hana-financial-group-buildkoreas-first-private-5g-smart-office-in-the-financial-sector",
-        "pool": "institutions",
-        "date": "2026-09-28",
-        "by_hand": false
+        "title": "Advancing Infrastructure for the Era of Agentic AI | Ian Buck at AI Infra Summit 2026",
+        "url": "https://www.youtube.com/watch?v=RuXF7ck32b8",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "“Behind AI’s Rapid Growth Lies Memory” — SK hynix Shares Its Next-Generation Memory Portfolio at the TSMC OIP Conference",
-        "url": "https://news.skhynix.com/en/tsmc-oip-conference-2026/",
-        "pool": "institutions",
-        "date": "2026-09-28",
-        "by_hand": false
+        "title": "The Infrastructure of Intelligence: NVIDIA and OpenAI on a Decade of Building Frontier AI",
+        "url": "https://www.youtube.com/watch?v=KT89PEe9d7U",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Anthropic and Infosys build AI agents",
-        "url": "https://www.anthropic.com/news/anthropic-infosys",
-        "pool": "institutions",
-        "date": "2026-09-28",
-        "by_hand": false
+        "title": "Building More Energy Efficient AI Factories With NVIDIA DSX",
+        "url": "https://www.youtube.com/watch?v=4O1Gl4_xk3w",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Sign up for ASML news alerts",
-        "url": "https://www.asml.com/en/news/news-subscription",
-        "pool": "institutions",
-        "date": "2026-09-28",
-        "by_hand": false
+        "title": "Editing Faster in Adobe Premiere with NVIDIA RTX Spark",
+        "url": "https://www.youtube.com/watch?v=V0Hx37EqcMI",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "UK Attracts Nearly £10bn of Foreign-Backed Investment into High-Growth Businesses in H1 2026",
-        "url": "https://home.barclays/news/press-releases/20260/090/uk-attracts-nearly-p10bn-of-foreign-backed-investment-into-high-/",
-        "pool": "institutions",
-        "date": "2026-09-28",
-        "by_hand": false
+        "title": "Building Europe's AI Stack — Inside the Barcelona Supercomputing Center",
+        "url": "https://www.youtube.com/watch?v=4GY-x4WAafc",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Promoter-Targeted CRISPR Correction of PMP22 Gene Dosage Restores Schwann Cell Homeostasis in Charcot–Marie–Tooth Disease Type 1A",
-        "url": "https://doi.org/10.1007/s13770-026-00837-x",
-        "pool": "institutions",
-        "date": "2026-09-27",
-        "by_hand": false
+        "title": "The Industrialization of Intelligence",
+        "url": "https://www.youtube.com/watch?v=3eNtVFTEys4",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Claude has improved on a longstanding lower bound for the fraction of zeros of the Riemann zeta function that satisfy the Riemann hypothesis",
-        "url": "https://www.anthropic.com/research/riemann-zeta",
-        "pool": "institutions",
-        "date": "2026-09-26",
-        "by_hand": false
+        "title": "Tokenomics 101: What Are Tokens & Why They Matter | AI Factory Insider Ep. 4",
+        "url": "https://www.youtube.com/watch?v=MkbepPfaeMU",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
-        "url": "https://openai.com/index/proaction",
-        "pool": "institutions",
-        "date": "2026-09-25",
-        "by_hand": false
+        "title": "Debugging with a Local Agent While You Get Coffee, Powered by NVIDIA RTX Spark",
+        "url": "https://www.youtube.com/watch?v=WCRNR1Ve9s0",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "From Data to Dialogue: How S&P Global Energy Made Its Structured Data Estate Conversational with Databricks Genie Agents and MCP",
-        "url": "https://www.databricks.com/blog/data-dialogue-how-sp-global-energy-made-its-structured-data-estate-conversational-databricks",
-        "pool": "institutions",
-        "date": "2026-09-25",
-        "by_hand": false
+        "title": "More Tokens per Second per Megawatt: The Economics of NVIDIA Vera Rubin",
+        "url": "https://www.youtube.com/watch?v=VihWpoINpgE",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Project Swap: What happens when agents trade for us?",
-        "url": "https://www.anthropic.com/research/project-swap",
-        "pool": "institutions",
-        "date": "2026-09-25",
-        "by_hand": false
+        "title": "NVIDIA Spectrum-X Ethernet Photonics | Now in Full Production",
+        "url": "https://www.youtube.com/watch?v=CNM6Mmqrfeg",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Claude computes a nine-loop amplitude in N=4 super-Yang-Mills",
-        "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
-        "pool": "institutions",
-        "date": "2026-09-25",
-        "by_hand": false
+        "title": "GTC SJ 2026: Healthcare Reimagined - Bridging Digital Intelligence and Physical Autonomy",
+        "url": "https://www.youtube.com/watch?v=pmiN5Nj1-K8",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Overseas spending rises as Brits prioritise travel, with Barclays launching fee-free FX for Premier customers  | Barclays",
-        "url": "https://home.barclays/news/press-releases/20260/090/overseas-spending-rises-as-brits-prioritise-travel--with-barclay/",
-        "pool": "institutions",
-        "date": "2026-09-25",
-        "by_hand": false
+        "title": "GTC SJ 2026: Physical AI for Healthcare Robotics - Simulation-First Design & Accelerated Development",
+        "url": "https://www.youtube.com/watch?v=rRkucx0KwcI",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Why The Bond Market May Be The Stock Markets Biggest Risk",
-        "url": "https://www.goldmansachs.com/insights/the-markets/why-the-bond-market-may-be-the-stock-markets-biggest-risk",
-        "pool": "institutions",
-        "date": "2026-09-25",
-        "by_hand": false
+        "title": "Firebird Launches CIS Region’s Largest AI Factory in Armenia",
+        "url": "https://www.youtube.com/watch?v=xcTRTotS9-A",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Why The Ecb Is Unlikely To Keep Rates Higher Than 3 Percent",
-        "url": "https://www.goldmansachs.com/insights/articles/why-the-ecb-is-unlikely-to-keep-rates-higher-than-3-percent",
-        "pool": "institutions",
-        "date": "2026-09-25",
-        "by_hand": false
+        "title": "Next-Gen Enterprise AI: Powered by Infosys & NVIDIA",
+        "url": "https://www.youtube.com/watch?v=eV1Z2xQZGvA",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Ryan Serhant On The Art Of Selling Luxury Real Estate",
-        "url": "https://www.goldmansachs.com/insights/talks-at-gs/ryan-serhant-on-the-art-of-selling-luxury-real-estate",
-        "pool": "institutions",
-        "date": "2026-09-25",
-        "by_hand": false
+        "title": "Why AI Agents Need More Than One Model",
+        "url": "https://www.youtube.com/watch?v=Np0afRWtdp8",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Us Soccers Jt Batson On The World Cup And Scaling The Game",
-        "url": "https://www.goldmansachs.com/insights/talks-at-gs/us-soccers-jt-batson-on-the-world-cup-and-scaling-the-game",
-        "pool": "institutions",
-        "date": "2026-09-25",
-        "by_hand": false
+        "title": "NVIDIA Alpamayo 2 Super: The Frontier Open Model for Robotaxis and Autonomous Vehicle",
+        "url": "https://www.youtube.com/watch?v=xySgVPLYnsc",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Why The Bond Market May Be The Stock Markets Biggest Risk   Transcript",
-        "url": "https://www.goldmansachs.com/pdfs/insights/the-markets/why-the-bond-market-may-be-the-stock-markets-biggest-risk/transcript.pdf",
-        "pool": "institutions",
-        "date": "2026-09-25",
-        "by_hand": false
+        "title": "Real-Time Neurological Insights: Scaling NeuroDX AI with NVIDIA Inception",
+        "url": "https://www.youtube.com/watch?v=3sDEcfO2cQU",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Jt Batson   Transcript",
-        "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-talks/jt-batson/transcript.pdf",
-        "pool": "institutions",
-        "date": "2026-09-25",
-        "by_hand": false
+        "title": "Securely Deploy Autonomous Agents in Your AI Factory | AI Factory Insider Ep. 3",
+        "url": "https://www.youtube.com/watch?v=8TQYkjViaBQ",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Future Of Superannuation Report",
-        "url": "https://www.jpmorgan.com/insights/securities-services/future-of-superannuation-report",
-        "pool": "institutions",
-        "date": "2026-09-25",
-        "by_hand": false
+        "title": "GTC SJ 2026: The AI Native Digital Health Stack A Developer's Guide to 2026",
+        "url": "https://www.youtube.com/watch?v=iWsKSxyfRIA",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Democratic Election Ticket Market Outlook 2024",
-        "url": "https://www.morganstanley.com/ideas/democratic-election-ticket-market-outlook-2024",
-        "pool": "institutions",
-        "date": "2026-09-25",
-        "by_hand": false
+        "title": "How BharatGen is building India AI with NVIDIA Nemotron",
+        "url": "https://www.youtube.com/watch?v=rpQPBCDv5Pc",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Ai Meets Real Economy Michelle Weaver Ravi Shanker Dave Arcaro",
-        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/ai-meets-real-economy-michelle-weaver-ravi-shanker-dave-arcaro",
-        "pool": "institutions",
-        "date": "2026-09-25",
-        "by_hand": false
+        "title": "How Autonomous AI Is Transforming Chip and System Design",
+        "url": "https://www.youtube.com/watch?v=P3VzeHtat70",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Insights",
-        "url": "https://www.morganstanley.com/insights",
-        "pool": "institutions",
-        "date": "2026-09-25",
-        "by_hand": false
+        "title": "GTC SJ 2026: Next Generation Intelligent Surgical Robots",
+        "url": "https://www.youtube.com/watch?v=z1b8DRFwWgo",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "China Next Industrial Revolution Industry 5 Outlook",
-        "url": "https://www.morganstanley.com/insights/articles/china-next-industrial-revolution-industry-5-outlook",
-        "pool": "institutions",
-        "date": "2026-09-25",
-        "by_hand": false
+        "title": "Powering Agentic AI with AI-Ready Data Platforms That Turn Data Into Intelligence",
+        "url": "https://www.youtube.com/watch?v=TY2EilHUR1c",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Brain Computer Interfaces Ai",
-        "url": "https://www.morganstanley.com/ideas/brain-computer-interfaces-ai",
-        "pool": "institutions",
-        "date": "2026-09-25",
-        "by_hand": false
+        "title": "NVIDIA & Wistron: Reindustrializing America With Advanced Manufacturing",
+        "url": "https://www.youtube.com/watch?v=ZAVVfZ_mwnw",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Thoughts On The Market",
-        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market",
-        "pool": "institutions",
-        "date": "2026-09-25",
-        "by_hand": false
+        "title": "Turning Compute Into Data for Physical AI With NVIDIA Cosmos",
+        "url": "https://www.youtube.com/watch?v=1QPh70Es_oU",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Fed Rate Cuts 2024",
-        "url": "https://www.morganstanley.com/ideas/fed-rate-cuts-2024",
-        "pool": "institutions",
-        "date": "2026-09-25",
-        "by_hand": false
+        "title": "Bringing Agent-Ready Simulation Into Blender",
+        "url": "https://www.youtube.com/watch?v=XdtQbMXHDjQ",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Gradient-Free Filter Importance for Structured Pruning of Compact EEG Networks",
-        "url": "https://doi.org/10.3390/s26196085",
-        "pool": "institutions",
-        "date": "2026-09-25",
-        "by_hand": false
+        "title": "How NVIDIA Runs Its Own AI Factory | AI Factory Insider Ep. 2",
+        "url": "https://www.youtube.com/watch?v=Jpsq_-1kJTo",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Multiplatform Genomic and Transcriptomic Profiling of Breast Carcinomas with an Invasive Micropapillary Component",
-        "url": "https://doi.org/10.3390/genes17101190",
-        "pool": "institutions",
-        "date": "2026-09-25",
-        "by_hand": false
+        "title": "NVIDIA and Japan: Building the Next Industrial Revolution",
+        "url": "https://www.youtube.com/watch?v=vXWs3Xq-ke0",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "From Age-Based Replacement to Condition-Based Life Extension of Distribution-Class GIS: A Dismantling-Informed CNAIM Case Study",
-        "url": "https://doi.org/10.1007/s42835-026-02955-x",
-        "pool": "institutions",
-        "date": "2026-09-25",
-        "by_hand": false
+        "title": "Create your own voices with Gemini 3.8 text-to-speech",
+        "url": "https://www.youtube.com/watch?v=FL6mI_Br-mc",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Integration of a Two-Terminal Memristor Array with a Vertical Floating-Gate Structure for Antagonistic Center–Surround Receptive Field Neural Networks",
-        "url": "https://doi.org/10.1021/acsnano.6c05509",
-        "pool": "institutions",
-        "date": "2026-09-25",
-        "by_hand": false
+        "title": "How AI is transforming weather prediction",
+        "url": "https://www.youtube.com/watch?v=O_EWbnkjXdk",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Positive selection screen identifies natural product β-catenin inactivators",
-        "url": "https://doi.org/10.1073/pnas.2625189123",
-        "pool": "institutions",
-        "date": "2026-09-25",
-        "by_hand": false
+        "title": "AlphaGenome Atlas: Understanding the human genome",
+        "url": "https://www.youtube.com/watch?v=U0aToL5C-bQ",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Introducing Gemini 3.8 Live with Live Avatar",
-        "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-        "pool": "institutions",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "WeatherNext 3: More accurate, timely, and local weather forecasts",
+        "url": "https://www.youtube.com/watch?v=_6jZlnRsXXQ",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Running open-Jev in SQL on Databricks",
-        "url": "https://www.databricks.com/blog/running-open-jev-sql-databricks",
-        "pool": "institutions",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "The mathematics of AI uncertainty",
+        "url": "https://www.youtube.com/watch?v=tBjgCj_dGZM",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Deploy and manage coding agents at scale with the Unity Gateway CLI",
-        "url": "https://www.databricks.com/blog/deploy-and-manage-coding-agents-scale-unity-gateway-cli",
-        "pool": "institutions",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "Robots working together with Gemini Robotics 2",
+        "url": "https://www.youtube.com/watch?v=fo9WirRIaVs",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "How I built agent-based security reviews on Databricks",
-        "url": "https://www.databricks.com/blog/how-i-built-agent-based-security-reviews-databricks",
-        "pool": "institutions",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "Tasks that require whole-body control with Gemini Robotics 2",
+        "url": "https://www.youtube.com/watch?v=nBftSI5mmHA",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Claude discovers a novel enzyme system",
-        "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-        "pool": "institutions",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "Tough dexterity tasks with Gemini Robotics 2",
+        "url": "https://www.youtube.com/watch?v=wYVHxw2-DP4",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Can Ai Investment Drive S And P 500 Earnings Even Higher",
-        "url": "https://www.goldmansachs.com/insights/articles/can-ai-investment-drive-s-and-p-500-earnings-even-higher",
-        "pool": "institutions",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "Intelligent whole-body control with Gemini Robotics 2",
+        "url": "https://www.youtube.com/watch?v=9MNLEAzA59o",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Summer Review Fall Preview Market Insights",
-        "url": "https://www.goldmansachs.com/what-we-do/ayco/insights/summer-review-fall-preview-market-insights",
-        "pool": "institutions",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "Multi-robot collaboration with Gemini Robotics 2",
+        "url": "https://www.youtube.com/watch?v=CiTPDm7PKW0",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Cyber Resilient Payments How To Protect The Full Payment Stack",
-        "url": "https://www.jpmorgan.com/insights/payments/security-trust/cyber-resilient-payments-how-to-protect-the-full-payment-stack",
-        "pool": "institutions",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "Advanced dexterity with Gemini Robotics 2",
+        "url": "https://www.youtube.com/watch?v=O9-650iHAls",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Ai Powered B2B Fraud Is Forcing Companies To Rethink Trust",
-        "url": "https://www.jpmorgan.com/insights/fraud/fraud-prevention/ai-powered-b2b-fraud-is-forcing-companies-to-rethink-trust",
-        "pool": "institutions",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+        "url": "https://www.youtube.com/watch?v=4lSQnrMC6nY",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Digital Trading Desk Human Touch",
-        "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/digital-trading-desk-human-touch",
-        "pool": "institutions",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "Reconstructing Pelé’s lost goal",
+        "url": "https://www.youtube.com/watch?v=R-Yqes8AotY",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Financial Market Technology Moves Into Focus",
-        "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/financial-market-technology-moves-into-focus",
-        "pool": "institutions",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "Understanding the inner thoughts of AI",
+        "url": "https://www.youtube.com/watch?v=1DtMiRKg-cs",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "How Are Trading Platforms Evolving",
-        "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/how-are-trading-platforms-evolving",
-        "pool": "institutions",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "When millions of AI agents meet",
+        "url": "https://www.youtube.com/watch?v=V04bm-3d6EQ",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Managing Volatility As A Market Condition",
-        "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/managing-volatility-as-a-market-condition",
-        "pool": "institutions",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "Generating novel scientific hypotheses with Co-Scientist",
+        "url": "https://www.youtube.com/watch?v=aSY_vFFmkW0",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Technology Overtakes Liquidity Market Structure",
-        "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/technology-overtakes-liquidity-market-structure",
-        "pool": "institutions",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "Using AI to outsmart drug-resistant bacteria",
+        "url": "https://www.youtube.com/watch?v=Cnuj24PjWrQ",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Commodities In A Changing Geopolitical Landscape",
-        "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/commodities-in-a-changing-geopolitical-landscape",
-        "pool": "institutions",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "Understanding cancer at a genetic level with AI",
+        "url": "https://www.youtube.com/watch?v=exh1vwGlrSo",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "The Rush For Resources",
-        "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/the-rush-for-resources",
-        "pool": "institutions",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "Predicting a historic storm earlier with WeatherNext",
+        "url": "https://www.youtube.com/watch?v=wd5ZZV8if54",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Etfs Trading Institutional Liquidity",
-        "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/etfs-trading-institutional-liquidity",
-        "pool": "institutions",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "Reimagining the mouse pointer with AI",
+        "url": "https://www.youtube.com/watch?v=pZNzfQLgGsA",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Machine Learning Guided By Expert Human Judgment",
-        "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/machine-learning-guided-by-expert-human-judgment",
-        "pool": "institutions",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "Teaching the foundations of AI in the classroom",
+        "url": "https://www.youtube.com/watch?v=udnhu43tTfk",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Machine Learning In Private Credit",
-        "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/machine-learning-in-private-credit",
-        "pool": "institutions",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "Introducing Lyria 3 Pro",
+        "url": "https://www.youtube.com/watch?v=hv8ZI7foGZk",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "When Liquidity Goes Digital",
-        "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/when-liquidity-goes-digital",
-        "pool": "institutions",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "10 years of AlphaGo: The turning point for AI | Thore Graepel & Pushmeet Kohli",
+        "url": "https://www.youtube.com/watch?v=qoinGjj60Fo",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Global Healthcare Conference",
-        "url": "https://www.morganstanley.com/insights/themes/global-healthcare-conference",
-        "pool": "institutions",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "Music AI Sandbox | AI x Creativity: Wyclef Jean",
+        "url": "https://www.youtube.com/watch?v=l5Wpm4o6k1A",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Diesel Fuel Market Spotlight Global Supply Andrew Sheets Martijn Rats",
-        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/diesel-fuel-market-spotlight-global-supply-andrew-sheets-martijn-rats",
-        "pool": "institutions",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "Gemini 3 Deep Think: Optimizing 2D semiconductor fabrication",
+        "url": "https://www.youtube.com/watch?v=IE0BmXsIzTI",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Research on online video culture and adolescent ideological and political education",
-        "url": "https://doi.org/10.62852/ytr/2026/315",
-        "pool": "institutions",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "Gemini 3 Deep Think: Identifying logical errors in complex mathematics research",
+        "url": "https://www.youtube.com/watch?v=bNrbxCvFrKA",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "EPIC: An open community challenge for sequence-based prediction of transcription initiation in five non-model metazoans",
-        "url": "https://doi.org/10.64898/2026.09.16.752171",
-        "pool": "institutions",
-        "date": "2026-09-24",
-        "by_hand": false
+        "title": "Gemini 3 Deep Think: Accelerating mechanical engineering and rapid prototyping",
+        "url": "https://www.youtube.com/watch?v=eAOaRJj02HU",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Two years of OpenAI Academy",
-        "url": "https://openai.com/index/two-years-of-openai-academy",
-        "pool": "institutions",
-        "date": "2026-09-23",
-        "by_hand": false
+        "title": "Project Genie | Skydiving",
+        "url": "https://www.youtube.com/watch?v=wIE3-E9EN4g",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "OpenAI extends cyber access to Ukraine for civilian defense",
-        "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
-        "pool": "institutions",
-        "date": "2026-09-23",
-        "by_hand": false
+        "title": "Project Genie | Silver Sphere",
+        "url": "https://www.youtube.com/watch?v=U6wb-zgYylk",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       },
       {
-        "title": "Sam Altman’s remarks at the United Nations Security Council",
-        "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
-        "pool": "institutions",
-        "date": "2026-09-23",
-        "by_hand": false
+        "title": "Project Genie | Shine and Seek",
+        "url": "https://www.youtube.com/watch?v=FZ9RQVQsDts",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      }
+    ],
+    "channels": [
+      {
+        "title": "Featured Offer eligibility and strategies",
+        "url": "https://www.youtube.com/watch?v=oXWHIQ_Bg9c",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Intro to Fulfillment by Amazon (FBA)",
+        "url": "https://www.youtube.com/watch?v=fKjgRQ8tIRs",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Configure your Amazon Seller Central account",
+        "url": "https://www.youtube.com/watch?v=vqr_qJjghNk",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Which Amazon fulfillment method is right for me?",
+        "url": "https://www.youtube.com/watch?v=sUYXfDalJRY",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Compare Amazon's Professional and Individual selling plans",
+        "url": "https://www.youtube.com/watch?v=USIlc93mbW8",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Sell in the Amazon store: 5-minute overview for beginners",
+        "url": "https://www.youtube.com/watch?v=fP-7K_jrds0",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Create product variations one at a time",
+        "url": "https://www.youtube.com/watch?v=6SGjwdCo_Ns",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Maximize Your Amazon B2B Sales with Fee Discounts",
+        "url": "https://www.youtube.com/watch?v=E5EAD1kKEPc",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Add business certifications to your profile",
+        "url": "https://www.youtube.com/watch?v=DvDn0PKz8A4",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "How I Hit $100K in Sales Without Building a Warehouse | Amazon Seller Insights",
+        "url": "https://www.youtube.com/watch?v=xNY8v4O8ExM",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Should You Spend on Amazon Ads? Why PPC Is Essential for Sellers | Amazon Seller Insights",
+        "url": "https://www.youtube.com/watch?v=5cfz46esofo",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Amazon Vine Program Explained: How to Get Early Reviews for New Products | Amazon Seller Insights",
+        "url": "https://www.youtube.com/watch?v=YI9Oar-NT_8",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Amazon AI Studio: Create Product Photos & Videos in Minutes | Amazon Seller Insights",
+        "url": "https://www.youtube.com/watch?v=KDI73nLbYk4",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "First-Time Amazon Seller Tips: How to Prioritize Your Business for Success | Amazon Seller Insights",
+        "url": "https://www.youtube.com/watch?v=hHSJvgFzqxM",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "What I'd tell every new Amazon seller  | Amazon Seller Insights",
+        "url": "https://www.youtube.com/watch?v=an-Jd5bi_J0",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Intro to promoting your products on Amazon",
+        "url": "https://www.youtube.com/watch?v=eWPneoeo6sA",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "How to create a Deal in the Amazon store",
+        "url": "https://www.youtube.com/watch?v=yQnj0fJEDc0",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Amazon Brand Registry Explained: How to Protect Your Brand & Stop Copycats | Amazon Seller Insights",
+        "url": "https://www.youtube.com/watch?v=DCJjDJKjWs0",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "How to Grow Your Amazon Catalog with Variations & Bundles | Amazon Seller Insights",
+        "url": "https://www.youtube.com/watch?v=SsJySSbv5wA",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Manage your payment information on your Amazon selling account",
+        "url": "https://www.youtube.com/watch?v=WLWHAkr4abc",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "New Seller Central: Manage Shipments",
+        "url": "https://www.youtube.com/watch?v=U_8CBzdgEl4",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Benefits of adding a video to an Amazon product listing",
+        "url": "https://www.youtube.com/watch?v=NGg89omsLHY",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Amazon Brand Tailored Promotions: Discount Smarter Without Hurting Margins | Amazon Seller Insights",
+        "url": "https://www.youtube.com/watch?v=BPnEVgsWulQ",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "How to Sell Globally Without Costly Mistakes (Lessons Learned) | Amazon Seller Insights",
+        "url": "https://www.youtube.com/watch?v=TBa7sNhf8LI",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "How to Use AI Tools to Optimize Amazon Product Listings in 2026 | Amazon Seller Insights",
+        "url": "https://www.youtube.com/watch?v=BOT3kMcuvRk",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "How I Scaled Amazon to $10M+ in 2 Years | Amazon Seller Insights",
+        "url": "https://www.youtube.com/watch?v=GeM_uDdUHow",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "How to Use Amazon Coupons & Promotions to Stand Out in Search | Amazon Seller Insights",
+        "url": "https://www.youtube.com/watch?v=KT3hhBmT0wg",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "How to Optimize Amazon Listings for More Sales in 2026 | Amazon Seller Insights",
+        "url": "https://www.youtube.com/watch?v=RfZOi_chU14",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Meet Amazon's compliance requirements",
+        "url": "https://www.youtube.com/watch?v=dLwTSKX2QvQ",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Track and respond to customer reviews on Amazon",
+        "url": "https://www.youtube.com/watch?v=4--uIEnpiHw",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      }
+    ],
+    "graph": [
+      {
+        "title": "The Obsidian Theme I've Refined for 3 Years...",
+        "url": "https://www.youtube.com/watch?v=l878ahBkx68",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "How I Use Obsidian + Claude Cowork to Run My Life",
+        "url": "https://www.youtube.com/watch?v=rRa9td4oe7k",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "The BEST Way to Capture Into Obsidian (just got better)",
+        "url": "https://www.youtube.com/watch?v=63jRQuGossE",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "The 3-File AI System That Works With ANY MODEL",
+        "url": "https://www.youtube.com/watch?v=jbHB-rzKBAs",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Give Me 20 Minutes. I'll Teach You 80% of Claude Cowork",
+        "url": "https://www.youtube.com/watch?v=s3ccD6m6WKc",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "How to Organize Your Files Better Than 99% of People",
+        "url": "https://www.youtube.com/watch?v=ac30885Y_38",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "3 Factors to Consider When Using AI",
+        "url": "https://www.youtube.com/watch?v=H8Et852HxTA",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Give Me 13 Minutes. I'll Teach You 80% of NotebookLM",
+        "url": "https://www.youtube.com/watch?v=646GdYl2nKs",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Obsidian Just Won",
+        "url": "https://www.youtube.com/watch?v=y6YTk0C5pBY",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "This Book Will Help You Finish What You Start (Intentional by Chris Bailey)",
+        "url": "https://www.youtube.com/watch?v=Sv7DgGr7xP4",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Things, Pings, Pongs, & Wongs: I added to my daily note",
+        "url": "https://www.youtube.com/watch?v=kU23J6uoV_8",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "This Obsidian update will make you STOP SCROLLING. (Mobile 2.0)",
+        "url": "https://www.youtube.com/watch?v=ROFFaUZftJE",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Build a Year Map and Finally Be Prepared",
+        "url": "https://www.youtube.com/watch?v=j64YOie4bIw",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Obsidian Mobile - First Look (Behind the Scenes)",
+        "url": "https://www.youtube.com/watch?v=1Ym3ZtH0DFo",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "The Biggest Obsidian Upgrade I’ve Made in Years…",
+        "url": "https://www.youtube.com/watch?v=KekL4cLtpuc",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "SNEAK PEEK: How the Ideaverse in Obsidian is evolving (PRIVATE)",
+        "url": "https://www.youtube.com/watch?v=KAYuqH7igfY",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "The 4 Levels of Obsidian",
+        "url": "https://www.youtube.com/watch?v=J3KHlz89cRs",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Obsidian Triad: Properties, Bases, Workspaces (Behind the Scenes)",
+        "url": "https://www.youtube.com/watch?v=9TQ41CxG8pA",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "EXTENDED CUT: Five WEIRD Notebooks that I Love",
+        "url": "https://www.youtube.com/watch?v=DLuMopQkNTU",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "The Top 5 Notebooks I Use Every Day",
+        "url": "https://www.youtube.com/watch?v=YGTFmKenoP0",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "EXTENDED CUT: Everything New in Obsidian! October 2025 (Groups, Summaries, List View)",
+        "url": "https://www.youtube.com/watch?v=RBvaL5NEoPE",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Everything New in Obsidian! October 2025 (Groups, Summaries, List View)",
+        "url": "https://www.youtube.com/watch?v=v3phAgaFs2M",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "EXTENDED CUT: Deep-Dive into 10 Digital Tools I Use Daily",
+        "url": "https://www.youtube.com/watch?v=zql7E09r7yA",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "10 Digital Tools that Quietly Changed the Way I Work",
+        "url": "https://www.youtube.com/watch?v=caooQgeHKXA",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Give Me 15 Minutes. I'll Teach You  80% of Obsidian",
+        "url": "https://www.youtube.com/watch?v=z4AbijUCoKU",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Obsidian + AI: How to Do It The Right Way (Claude Code + Obsidian)",
+        "url": "https://www.youtube.com/watch?v=a1FDaoF8Jog",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "My Complete Obsidian Masterclass (FULL GUIDE + SETUP)",
+        "url": "https://www.youtube.com/watch?v=a4AyDRpeXwM",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Obsidian Bases: Obsidian's Biggest Upgrade (Complete Guide)",
+        "url": "https://www.youtube.com/watch?v=9Yt52zJIIG0",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "How to Think for Yourself in a Loud, Fast World (Lawrence Yeo)",
+        "url": "https://www.youtube.com/watch?v=dKbV6isvXNo",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "Don’t Start Writing Before You’ve Done THIS",
+        "url": "https://www.youtube.com/watch?v=dtqMRucUts8",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
       }
     ]
   }

@@ -1135,6 +1135,20 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
         graph_summary,
         None, "ok" if audit_ok else "failed"))
 
+    # 팀별 YouTube 학습 (scripts/build_team_learning.py). 영상 목록만 있는 것과
+    # 자막을 검토해 배운 것을 구분해 적는다 (2026-09-28).
+    learning = (load_json(D / "team_learning.json", {}) or {}).get("teams") or {}
+    for card in cards:
+        lt = learning.get(card.get("id"))
+        if not lt:
+            continue
+        if lt.get("insights"):
+            card["summary"] += f' · 영상 학습 {lt["insights"]}개'
+        elif lt.get("videos_available"):
+            card["summary"] += f' · 영상 {lt["videos_available"]}편 자막 검토 대기'
+        card["youtube_learning"] = {k: lt.get(k) for k in
+                                    ("status", "insights", "videos_available", "this_week_action")}
+
     return cards
 
 
