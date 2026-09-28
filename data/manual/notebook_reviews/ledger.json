@@ -1,1 +1,125 @@
-{"videos": []}
+{
+  "videos": [
+    {
+      "video_id": "CVEe0HAd--I",
+      "verdict": "no_actionable",
+      "note": "오프라인 세차장 인프라 인수 및 롤업/구독 모델에 관한 내용으로 온라인 K뷰티 커머스 사업에 직접 적용 불가",
+      "reviewed_at": "2026-09-28"
+    },
+    {
+      "video_id": "QUI6Ug4cHnE",
+      "verdict": "adopted",
+      "note": "Claude Code 인터랙티브 스크롤 디자인 기법을 Shopify 랜딩페이지 제작에 적용",
+      "reviewed_at": "2026-09-28"
+    },
+    {
+      "video_id": "k520NhbFhIE",
+      "verdict": "adopted",
+      "note": "PAS 프레임워크 및 카테고리 재정의 마케팅 심리 기법을 K뷰티 카피라이팅에 적용",
+      "reviewed_at": "2026-09-28"
+    },
+    {
+      "video_id": "O4Z5KklVR5I",
+      "verdict": "adopted",
+      "note": "초기 입점 프로모션 전략 및 대량재/디자인재 소싱처 이원화 구조 채택",
+      "reviewed_at": "2026-09-28"
+    },
+    {
+      "video_id": "ehmoVENJEB0",
+      "verdict": "adopted",
+      "note": "지붕-기둥-기단 3단 위계 건축물 구조화 지식 요약법 사내 가이드 적용",
+      "reviewed_at": "2026-09-28"
+    },
+    {
+      "video_id": "dPPd65Kvh7Y",
+      "verdict": "adopted",
+      "note": "White Labeler 및 Claude 프롬프트 기반 Shopify 상세페이지 및 목업 자동 생성 적용",
+      "reviewed_at": "2026-09-28"
+    },
+    {
+      "video_id": "9RUcYdww138",
+      "verdict": "adopted",
+      "note": "Claude Design 및 PRD 기반 모바일 디자인 시스템 자동 구축 프로세스 채택",
+      "reviewed_at": "2026-09-28"
+    },
+    {
+      "video_id": "gugo50_VbjE",
+      "verdict": "adopted",
+      "note": "Claude Shopify 커넥터 기반 하중지지 SEO 보존 및 301 리다이렉트 구축 가이드 채택",
+      "reviewed_at": "2026-09-28"
+    },
+    {
+      "video_id": "IG0V7o6Z3ZE",
+      "verdict": "adopted",
+      "note": "명품 연상 포지셔닝 및 경계선(Boundary) 타깃 마케팅 전략 채택",
+      "reviewed_at": "2026-09-28"
+    },
+    {
+      "video_id": "eQpyvR-B7hc",
+      "verdict": "unavailable",
+      "note": "노트북 출처에 해당 영상 자막이 존재하지 않음",
+      "reviewed_at": "2026-09-28"
+    },
+    {
+      "video_id": "1ONE4l_pgHw",
+      "verdict": "no_actionable",
+      "note": "로봇 제품(Unitree As2) 홍보 영상으로 다이소 K뷰티 이커머스 사업에 적용 가능한 실행 항목 없음",
+      "reviewed_at": "2026-09-28"
+    },
+    {
+      "video_id": "RBvaL5NEoPE",
+      "verdict": "unavailable",
+      "note": "노트북 출처에 해당 영상 자막이 존재하지 않음",
+      "reviewed_at": "2026-09-28"
+    },
+    {
+      "video_id": "zql7E09r7yA",
+      "verdict": "unavailable",
+      "note": "노트북 출처에 해당 영상 자막이 존재하지 않음",
+      "reviewed_at": "2026-09-28"
+    },
+    {
+      "video_id": "aSY_vFFmkW0",
+      "verdict": "no_actionable",
+      "note": "의약품/생명과학 분야 신약 가설 생성 AI 시스템에 대한 내용으로 다이소 K뷰티 사업 적용 불가",
+      "reviewed_at": "2026-09-28"
+    },
+    {
+      "video_id": "qoinGjj60Fo",
+      "verdict": "adopted",
+      "note": "생성형 AI와 검증기(Verifier) 결합 체계를 통한 에이전트 오류 방지 구조 적용",
+      "reviewed_at": "2026-09-28"
+    },
+    {
+      "video_id": "iknGXOzT2KI",
+      "verdict": "adopted",
+      "note": "Claude AI 기반 에이전트 대시보드 및 행정/리서치 자동화 구축 채택",
+      "reviewed_at": "2026-09-28"
+    },
+    {
+      "video_id": "fKjgRQ8tIRs",
+      "verdict": "adopted",
+      "note": "Amazon FBA 프렙/라벨링 요건 준수 및 Revenue Calculator 사전 수수료 검증 채택",
+      "reviewed_at": "2026-09-28"
+    },
+    {
+      "video_id": "nPbZ6lK2K08",
+      "verdict": "adopted",
+      "note": "수출 규제 행정 서류 사전 준비 및 조건부 유전 정식 등록 가이드 채택",
+      "reviewed_at": "2026-09-28"
+    },
+    {
+      "video_id": "Bxrhk5FgKz4",
+      "verdict": "no_actionable",
+      "note": "의약품 임상시험(IND) 규제 관련 내용으로 화장품(K뷰티) 이커머스 사업에 직접 적용 불가",
+      "reviewed_at": "2026-09-28"
+    },
+    {
+      "video_id": "5cfz46esofo",
+      "verdict": "adopted",
+      "note": "Amazon PPC 퍼널 광고를 통한 키워드/이미지/가격 데이터 수집 및 리스팅 환류 채택",
+      "reviewed_at": "2026-09-28"
+    }
+  ],
+  "updated_at": "2026-09-28T12:19:33.892124+00:00"
+}

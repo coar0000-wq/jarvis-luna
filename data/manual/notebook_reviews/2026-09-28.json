@@ -1,112 +1,104 @@
 {
-  "schema_version": 1,
-  "updated_at": "2026-09-28T12:19:33.892124+00:00",
-  "method": "Gemini Notebook(NotebookLM)으로 자막을 검토하고 타임스탬프 근거가 있는 실행 항목만 채택",
-  "policy": "영상의 매출·전환 과장 수치는 근거로 쓰지 않는다. 제품 사실·법률 게이트·자사 측정값을 우선한다.",
   "videos": [
     {
-      "video_id": "QUI6Ug4cHnE",
-      "title": "I Built The Ultimate Claude Website Design Skill (steal this)",
-      "channel": "Nate Herk | AI Automation",
-      "url": "https://www.youtube.com/watch?v=QUI6Ug4cHnE",
-      "reviewed_at": "2026-09-28",
-      "role": "design 팀 검토"
+      "video_id": "CVEe0HAd--I",
+      "verdict": "no_actionable",
+      "note": "오프라인 세차장 인프라 인수 및 롤업/구독 모델에 관한 내용으로 온라인 K뷰티 커머스 사업에 직접 적용 불가"
     },
     {
-      "video_id": "O4Z5KklVR5I",
-      "title": "패션 비전공자가 25살에 창업해 100억 브랜드를 키워낸 '미친 실행력' | 스몰톡라운지 스퀘어129 남주미",
-      "channel": "채널톡",
-      "url": "https://www.youtube.com/watch?v=O4Z5KklVR5I",
-      "reviewed_at": "2026-09-28",
-      "role": "pricing 팀 검토"
+      "video_id": "QUI6Ug4cHnE",
+      "verdict": "adopted",
+      "note": "Claude Code 인터랙티브 스크롤 디자인 기법을 Shopify 랜딩페이지 제작에 적용"
     },
     {
       "video_id": "k520NhbFhIE",
-      "title": "The Psychology of Making People Buy",
-      "channel": "The Futur",
-      "url": "https://www.youtube.com/watch?v=k520NhbFhIE",
-      "reviewed_at": "2026-09-28",
-      "role": "market 팀 검토"
+      "verdict": "adopted",
+      "note": "PAS 프레임워크 및 카테고리 재정의 마케팅 심리 기법을 K뷰티 카피라이팅에 적용"
     },
     {
-      "video_id": "dPPd65Kvh7Y",
-      "title": "Claude Copies $2m Shopify Store & Replaces Everything With My Brand (Full Course)",
-      "channel": "Ali Akbar | White-Label Ecommerce",
-      "url": "https://www.youtube.com/watch?v=dPPd65Kvh7Y",
-      "reviewed_at": "2026-09-28",
-      "role": "listing 팀 검토"
-    },
-    {
-      "video_id": "gugo50_VbjE",
-      "title": "How to Use Claude to Safely Rebrand Your Shopify Store",
-      "channel": "Learn With Shopify",
-      "url": "https://www.youtube.com/watch?v=gugo50_VbjE",
-      "reviewed_at": "2026-09-28",
-      "role": "listing 팀 검토"
-    },
-    {
-      "video_id": "IG0V7o6Z3ZE",
-      "title": "쇼피파이 드랍쉬핑은 브랜딩이 답입니다. 진짜 잘 되는 스토어 5곳 까봤습니다",
-      "channel": "G-ROAD",
-      "url": "https://www.youtube.com/watch?v=IG0V7o6Z3ZE",
-      "reviewed_at": "2026-09-28",
-      "role": "market 팀 검토"
-    },
-    {
-      "video_id": "iknGXOzT2KI",
-      "title": "AI 공격 제대로 맞은 대행사 사장의 팩트 폭로🔥 | 수익률 50% 올린 클로드 AI 대시보드 직접 공개 (AI 시대 생존법👀)",
-      "channel": "땡스큐레이터",
-      "url": "https://www.youtube.com/watch?v=iknGXOzT2KI",
-      "reviewed_at": "2026-09-28",
-      "role": "pricing 팀 검토"
-    },
-    {
-      "video_id": "qoinGjj60Fo",
-      "title": "10 years of AlphaGo: The turning point for AI | Thore Graepel & Pushmeet Kohli",
-      "channel": "Google DeepMind",
-      "url": "https://www.youtube.com/watch?v=qoinGjj60Fo",
-      "reviewed_at": "2026-09-28",
-      "role": "institutions 팀 검토"
-    },
-    {
-      "video_id": "fKjgRQ8tIRs",
-      "title": "Intro to Fulfillment by Amazon (FBA)",
-      "channel": "Amazon Seller University",
-      "url": "https://www.youtube.com/watch?v=fKjgRQ8tIRs",
-      "reviewed_at": "2026-09-28",
-      "role": "channels 팀 검토"
-    },
-    {
-      "video_id": "5cfz46esofo",
-      "title": "Should You Spend on Amazon Ads? Why PPC Is Essential for Sellers | Amazon Seller Insights",
-      "channel": "Amazon Seller University",
-      "url": "https://www.youtube.com/watch?v=5cfz46esofo",
-      "reviewed_at": "2026-09-28",
-      "role": "channels 팀 검토"
+      "video_id": "O4Z5KklVR5I",
+      "verdict": "adopted",
+      "note": "초기 입점 프로모션 전략 및 대량재/디자인재 소싱처 이원화 구조 채택"
     },
     {
       "video_id": "ehmoVENJEB0",
-      "title": "천재들은 \"어떻게\" 이미지로 요약하는 걸까?",
-      "channel": "언어의 정원",
-      "url": "https://www.youtube.com/watch?v=ehmoVENJEB0",
-      "reviewed_at": "2026-09-28",
-      "role": "knowledge 팀 검토"
+      "verdict": "adopted",
+      "note": "지붕-기둥-기단 3단 위계 건축물 구조화 지식 요약법 사내 가이드 적용"
+    },
+    {
+      "video_id": "dPPd65Kvh7Y",
+      "verdict": "adopted",
+      "note": "White Labeler 및 Claude 프롬프트 기반 Shopify 상세페이지 및 목업 자동 생성 적용"
     },
     {
       "video_id": "9RUcYdww138",
-      "title": "요즘 클로드 디자인에 미쳐있는 이유 #티안나는AI디자인 #designsystems #ClaudeDesign",
-      "channel": "IDEAiPlus_AI와 함께 문서, 디자인, 개발까지!",
-      "url": "https://www.youtube.com/watch?v=9RUcYdww138",
-      "reviewed_at": "2026-09-28",
-      "role": "design 팀 검토"
+      "verdict": "adopted",
+      "note": "Claude Design 및 PRD 기반 모바일 디자인 시스템 자동 구축 프로세스 채택"
+    },
+    {
+      "video_id": "gugo50_VbjE",
+      "verdict": "adopted",
+      "note": "Claude Shopify 커넥터 기반 하중지지 SEO 보존 및 301 리다이렉트 구축 가이드 채택"
+    },
+    {
+      "video_id": "IG0V7o6Z3ZE",
+      "verdict": "adopted",
+      "note": "명품 연상 포지셔닝 및 경계선(Boundary) 타깃 마케팅 전략 채택"
+    },
+    {
+      "video_id": "eQpyvR-B7hc",
+      "verdict": "unavailable",
+      "note": "노트북 출처에 해당 영상 자막이 존재하지 않음"
+    },
+    {
+      "video_id": "1ONE4l_pgHw",
+      "verdict": "no_actionable",
+      "note": "로봇 제품(Unitree As2) 홍보 영상으로 다이소 K뷰티 이커머스 사업에 적용 가능한 실행 항목 없음"
+    },
+    {
+      "video_id": "RBvaL5NEoPE",
+      "verdict": "unavailable",
+      "note": "노트북 출처에 해당 영상 자막이 존재하지 않음"
+    },
+    {
+      "video_id": "zql7E09r7yA",
+      "verdict": "unavailable",
+      "note": "노트북 출처에 해당 영상 자막이 존재하지 않음"
+    },
+    {
+      "video_id": "aSY_vFFmkW0",
+      "verdict": "no_actionable",
+      "note": "의약품/생명과학 분야 신약 가설 생성 AI 시스템에 대한 내용으로 다이소 K뷰티 사업 적용 불가"
+    },
+    {
+      "video_id": "qoinGjj60Fo",
+      "verdict": "adopted",
+      "note": "생성형 AI와 검증기(Verifier) 결합 체계를 통한 에이전트 오류 방지 구조 적용"
+    },
+    {
+      "video_id": "iknGXOzT2KI",
+      "verdict": "adopted",
+      "note": "Claude AI 기반 에이전트 대시보드 및 행정/리서치 자동화 구축 채택"
+    },
+    {
+      "video_id": "fKjgRQ8tIRs",
+      "verdict": "adopted",
+      "note": "Amazon FBA 프렙/라벨링 요건 준수 및 Revenue Calculator 사전 수수료 검증 채택"
     },
     {
       "video_id": "nPbZ6lK2K08",
-      "title": "스몰 브랜드도 해외 수출은 필수인거 아시죠? ✈️ | 가성비 있게 해외 수출 할 수 있는 팁 알려드립니다! 💸",
-      "channel": "땡스큐레이터",
-      "url": "https://www.youtube.com/watch?v=nPbZ6lK2K08",
-      "reviewed_at": "2026-09-28",
-      "role": "legal 팀 검토"
+      "verdict": "adopted",
+      "note": "수출 규제 행정 서류 사전 준비 및 조건부 유전 정식 등록 가이드 채택"
+    },
+    {
+      "video_id": "Bxrhk5FgKz4",
+      "verdict": "no_actionable",
+      "note": "의약품 임상시험(IND) 규제 관련 내용으로 화장품(K뷰티) 이커머스 사업에 직접 적용 불가"
+    },
+    {
+      "video_id": "5cfz46esofo",
+      "verdict": "adopted",
+      "note": "Amazon PPC 퍼널 광고를 통한 키워드/이미지/가격 데이터 수집 및 리스팅 환류 채택"
     }
   ],
   "insights": [
@@ -132,10 +124,7 @@
         "design"
       ],
       "applicability": "Shopify K뷰티 메인 프로모션 및 주력 상품 랜딩페이지 디자인",
-      "confidence": "high",
-      "id": "DSN-20260928-01",
-      "reviewed_at": "2026-09-28",
-      "notebook_url": "https://notebook.google.com (JARVIS 주간 영상 검토 2026-09-28)"
+      "confidence": "high"
     },
     {
       "pillar": "content",
@@ -157,10 +146,7 @@
         "market"
       ],
       "applicability": "Shopify 상품 상세페이지 카피라이팅 및 메타 광고 소재 기획",
-      "confidence": "high",
-      "id": "MKT-20260928-01",
-      "reviewed_at": "2026-09-28",
-      "notebook_url": "https://notebook.google.com (JARVIS 주간 영상 검토 2026-09-28)"
+      "confidence": "high"
     },
     {
       "pillar": "pricing",
@@ -182,10 +168,7 @@
         "pricing"
       ],
       "applicability": "Shopify 및 입점 플랫폼 pricing 정책과 SKU 소싱 이원화",
-      "confidence": "high",
-      "id": "PRC-20260928-01",
-      "reviewed_at": "2026-09-28",
-      "notebook_url": "https://notebook.google.com (JARVIS 주간 영상 검토 2026-09-28)"
+      "confidence": "high"
     },
     {
       "pillar": "research",
@@ -207,10 +190,7 @@
         "knowledge"
       ],
       "applicability": "팀 내 시장/경쟁사 리서치 보고서 요약 가이드라인",
-      "confidence": "high",
-      "id": "KNW-20260928-01",
-      "reviewed_at": "2026-09-28",
-      "notebook_url": "https://notebook.google.com (JARVIS 주간 영상 검토 2026-09-28)"
+      "confidence": "high"
     },
     {
       "pillar": "cro",
@@ -234,10 +214,7 @@
         "listing"
       ],
       "applicability": "다이소 K뷰티 신규 제품의 Shopify 상세페이지 및 Buy Box 신속 구축",
-      "confidence": "high",
-      "id": "LST-20260928-01",
-      "reviewed_at": "2026-09-28",
-      "notebook_url": "https://notebook.google.com (JARVIS 주간 영상 검토 2026-09-28)"
+      "confidence": "high"
     },
     {
       "pillar": "design",
@@ -260,10 +237,7 @@
         "design"
       ],
       "applicability": "Shopify 자사몰 모바일 UI/UX 개편 및 모바일 전용 컴포넌트 디자인",
-      "confidence": "high",
-      "id": "DSN-20260928-02",
-      "reviewed_at": "2026-09-28",
-      "notebook_url": "https://notebook.google.com (JARVIS 주간 영상 검토 2026-09-28)"
+      "confidence": "high"
     },
     {
       "pillar": "compliance",
@@ -286,10 +260,7 @@
         "listing"
       ],
       "applicability": "Shopify 상품 상세페이지 카피 수정, 브랜드 리뉴얼 및 URL 변경",
-      "confidence": "high",
-      "id": "LST-20260928-02",
-      "reviewed_at": "2026-09-28",
-      "notebook_url": "https://notebook.google.com (JARVIS 주간 영상 검토 2026-09-28)"
+      "confidence": "high"
     },
     {
       "pillar": "cro",
@@ -312,10 +283,7 @@
         "market"
       ],
       "applicability": "Shopify K뷰티 브랜딩 포지셔닝 및 마케팅 비주얼 연출",
-      "confidence": "high",
-      "id": "MKT-20260928-02",
-      "reviewed_at": "2026-09-28",
-      "notebook_url": "https://notebook.google.com (JARVIS 주간 영상 검토 2026-09-28)"
+      "confidence": "high"
     },
     {
       "pillar": "research",
@@ -337,10 +305,7 @@
         "institutions"
       ],
       "applicability": "사내 마케팅/리스팅 자동화 에이전트 검증 파이프라인",
-      "confidence": "high",
-      "id": "INS-20260928-01",
-      "reviewed_at": "2026-09-28",
-      "notebook_url": "https://notebook.google.com (JARVIS 주간 영상 검토 2026-09-28)"
+      "confidence": "high"
     },
     {
       "pillar": "operations",
@@ -362,10 +327,7 @@
         "pricing"
       ],
       "applicability": "사내 운영/리서치 업무 자동화 및 고정비 관리",
-      "confidence": "high",
-      "id": "PRC-20260928-02",
-      "reviewed_at": "2026-09-28",
-      "notebook_url": "https://notebook.google.com (JARVIS 주간 영상 검토 2026-09-28)"
+      "confidence": "high"
     },
     {
       "pillar": "operations",
@@ -388,10 +350,7 @@
         "channels"
       ],
       "applicability": "미국 아마존 채널 입점 및 FBA 물류 운영 사전 검증",
-      "confidence": "high",
-      "id": "CHN-20260928-01",
-      "reviewed_at": "2026-09-28",
-      "notebook_url": "https://notebook.google.com (JARVIS 주간 영상 검토 2026-09-28)"
+      "confidence": "high"
     },
     {
       "pillar": "compliance",
@@ -414,10 +373,7 @@
         "legal"
       ],
       "applicability": "미국 시장 K뷰티 수출 규제 대응 및 용기/포장 규격 최적화",
-      "confidence": "high",
-      "id": "LEG-20260928-01",
-      "reviewed_at": "2026-09-28",
-      "notebook_url": "https://notebook.google.com (JARVIS 주간 영상 검토 2026-09-28)"
+      "confidence": "high"
     },
     {
       "pillar": "ads",
@@ -441,10 +397,7 @@
         "channels"
       ],
       "applicability": "미국 아마존 PPC 광고 집행 및 상세페이지/A+ 콘텐츠 데이터 기반 최적화",
-      "confidence": "high",
-      "id": "CHN-20260928-02",
-      "reviewed_at": "2026-09-28",
-      "notebook_url": "https://notebook.google.com (JARVIS 주간 영상 검토 2026-09-28)"
+      "confidence": "high"
     }
   ],
   "rejected_claims": [
@@ -458,5 +411,6 @@
     "Liquid Death / Method Soap 등 신규 카테고리 창출 기업들의 수천만 달러 매출 성장 수치 주장 (k520NhbFhIE)",
     "아마존 입점 시 플랫폼 수수료 30% + 창고비 15% 감안하여 한국 가격의 1.7배 설정 필수 수치 주장 (nPbZ6lK2K08)"
   ],
-  "rejected_items": []
+  "reviewed_at": "2026-09-28",
+  "notebook_url": "https://notebook.google.com (JARVIS 주간 영상 검토 2026-09-28)"
 }
