@@ -77,7 +77,7 @@
       "note": "",
       "auto_blockers": [],
       "needs_attention": false,
-      "auto_checked_at": "2026-09-28T22:57:26.714297+00:00",
+      "auto_checked_at": "2026-09-28T23:31:57.498371+00:00",
       "hard_block": false,
       "hard_block_reason": "",
       "hs_basis": "버킷 '스킨케어'",
@@ -104,7 +104,7 @@
       "needs_attention": false,
       "hard_block": false,
       "hard_block_reason": "",
-      "auto_checked_at": "2026-09-28T22:57:26.713819+00:00",
+      "auto_checked_at": "2026-09-28T23:31:57.497925+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
@@ -130,7 +130,7 @@
       "needs_attention": false,
       "hard_block": false,
       "hard_block_reason": "",
-      "auto_checked_at": "2026-09-28T22:57:26.713891+00:00",
+      "auto_checked_at": "2026-09-28T23:31:57.497997+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
@@ -156,7 +156,7 @@
       "needs_attention": false,
       "hard_block": false,
       "hard_block_reason": "",
-      "auto_checked_at": "2026-09-28T22:57:26.714090+00:00",
+      "auto_checked_at": "2026-09-28T23:31:57.498166+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
@@ -182,7 +182,7 @@
       "needs_attention": false,
       "hard_block": false,
       "hard_block_reason": "",
-      "auto_checked_at": "2026-09-28T22:57:26.714167+00:00",
+      "auto_checked_at": "2026-09-28T23:31:57.498242+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
@@ -208,7 +208,7 @@
       "needs_attention": false,
       "hard_block": false,
       "hard_block_reason": "",
-      "auto_checked_at": "2026-09-28T22:57:26.713951+00:00",
+      "auto_checked_at": "2026-09-28T23:31:57.498057+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
@@ -234,7 +234,7 @@
       "needs_attention": false,
       "hard_block": false,
       "hard_block_reason": "",
-      "auto_checked_at": "2026-09-28T22:57:26.714231+00:00",
+      "auto_checked_at": "2026-09-28T23:31:57.498306+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
@@ -262,7 +262,7 @@
       "needs_attention": true,
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields",
-      "auto_checked_at": "2026-09-28T22:57:26.713720+00:00",
+      "auto_checked_at": "2026-09-28T23:31:57.497837+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '마스크팩'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
@@ -288,7 +288,7 @@
       "needs_attention": false,
       "hard_block": false,
       "hard_block_reason": "",
-      "auto_checked_at": "2026-09-28T22:57:26.714030+00:00",
+      "auto_checked_at": "2026-09-28T23:31:57.498111+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
@@ -316,7 +316,7 @@
       "needs_attention": true,
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields",
-      "auto_checked_at": "2026-09-28T22:57:26.714110+00:00",
+      "auto_checked_at": "2026-09-28T23:31:57.498185+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '마스크팩'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)"
@@ -329,7 +329,7 @@
     "pass": 0,
     "out_of_scope": 16
   },
-  "auto_checked_at": "2026-09-28T22:57:26.714306+00:00",
+  "auto_checked_at": "2026-09-28T23:31:57.498378+00:00",
   "out_of_scope": {
     "1045146": {
       "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
