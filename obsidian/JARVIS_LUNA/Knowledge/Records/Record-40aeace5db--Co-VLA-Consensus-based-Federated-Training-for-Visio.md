@@ -2,7 +2,7 @@
 title: "Record 40aeace5db · Co-VLA-Consensus-based-Federated-Training-for-Vision-Language-Action-M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T00:25:30.612790+00:00
+updated_at: 2026-09-29T05:46:45.183029+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 9a01bd8127 · An-Iterative-Pathologist-in-the-Loop-Workflow-for-Generation-of-Clinic"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T00:25:31.123008+00:00
+updated_at: 2026-09-29T05:46:45.713833+00:00
 tags: [record, real-data]
 ---
 

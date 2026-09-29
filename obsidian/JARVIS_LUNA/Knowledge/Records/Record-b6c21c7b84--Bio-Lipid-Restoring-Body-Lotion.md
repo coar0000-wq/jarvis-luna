@@ -2,7 +2,7 @@
 title: "Record b6c21c7b84 · Bio-Lipid-Restoring-Body-Lotion"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T00:25:32.244974+00:00
+updated_at: 2026-09-29T05:46:46.917890+00:00
 tags: [record, real-data]
 ---
 

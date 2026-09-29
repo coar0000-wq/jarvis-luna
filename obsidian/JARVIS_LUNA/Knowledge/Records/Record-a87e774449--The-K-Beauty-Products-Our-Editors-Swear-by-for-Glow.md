@@ -2,7 +2,7 @@
 title: "Record a87e774449 · The-K-Beauty-Products-Our-Editors-Swear-by-for-Glow"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T00:25:31.853007+00:00
+updated_at: 2026-09-29T05:46:46.467248+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 8ca709ad51 · A-Note-on-Distance-Function-Weighted-Graph-Convolutional-Networks"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T00:25:31.076290+00:00
+updated_at: 2026-09-29T05:46:45.670001+00:00
 tags: [record, real-data]
 ---
 

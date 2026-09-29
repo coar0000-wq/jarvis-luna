@@ -2,7 +2,7 @@
 title: "Record 4e68913325 · When-Point-Clouds-Outperform-Pixels-Rethinking-Zero-Shot-Multimodal-An"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T00:25:30.653979+00:00
+updated_at: 2026-09-29T05:46:45.231783+00:00
 tags: [record, real-data]
 ---
 

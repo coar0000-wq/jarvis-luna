@@ -2,7 +2,7 @@
 title: "Record eb674100bb · Basis-completes-a-tax-workbook-2x-faster-with-GPT-6-Astra"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T00:25:32.143827+00:00
+updated_at: 2026-09-29T05:46:46.791477+00:00
 tags: [record, real-data]
 ---
 

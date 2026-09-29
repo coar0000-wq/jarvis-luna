@@ -2,7 +2,7 @@
 title: "Record 0283d5c0b5 · Shinsegae-Targets-US-Beauty-Market-with-K-Beauty-Retail-Platform---Glo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T00:25:31.994245+00:00
+updated_at: 2026-09-29T05:46:46.625714+00:00
 tags: [record, real-data]
 ---
 

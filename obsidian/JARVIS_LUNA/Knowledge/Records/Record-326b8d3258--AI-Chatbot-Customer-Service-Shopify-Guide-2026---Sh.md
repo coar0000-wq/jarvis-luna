@@ -2,7 +2,7 @@
 title: "Record 326b8d3258 · AI-Chatbot-Customer-Service-Shopify-Guide-2026---Shopify-India---Shopi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T00:25:31.680791+00:00
+updated_at: 2026-09-29T05:46:46.290792+00:00
 tags: [record, real-data]
 ---
 

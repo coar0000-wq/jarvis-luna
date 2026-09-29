@@ -2,7 +2,7 @@
 title: "Record 6009e1f46b · Physics-Constrained-Deep-Learning-Model-for-Contact"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T00:25:33.068691+00:00
+updated_at: 2026-09-29T05:46:47.901472+00:00
 tags: [record, real-data]
 ---
 

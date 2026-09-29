@@ -2,7 +2,7 @@
 title: "Record de9ec063d1 · Perfect-Cover-BB-Cream-SPF-42-PA"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T00:25:32.256936+00:00
+updated_at: 2026-09-29T05:46:46.963899+00:00
 tags: [record, real-data]
 ---
 

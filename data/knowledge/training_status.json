@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-29T00:18:55.548887+00:00",
+  "updated_at": "2026-09-29T05:50:16.929594+00:00",
   "real_records": 5545,
   "source_labels": {
     "ai-image": 336,
     "ai-research": 4874,
     "shopify-commerce-image": 335
   },
-  "corpus_sha256": "d116147b9b90bd37f2ed265d998a43d06ba1d74c11c1247276378e94ee446b28",
+  "corpus_sha256": "1c42b8b54672665a9ad3e0a4c0de0f17d4f6ff7ed8018b871e61867300e44702",
   "training_performed": true,
   "weights_updated": true,
   "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
@@ -16,12 +16,12 @@
   "compatibility_model_file": "data/knowledge/real_knowledge_router.npz",
   "training_accuracy_on_corpus": 0.9716862037871957,
   "mean_gate_load": [
-    0.301575,
-    0.32954,
-    0.368885
+    0.301552,
+    0.329535,
+    0.368914
   ],
-  "note": "실제 수집 데이터 누적 코퍼스. URL 기준 중복 제거하며 기존 레코드는 보존한다. 가중치 갱신은 학습기가 별도로 수행한다.",
-  "trained_corpus_sha256": "d116147b9b90bd37f2ed265d998a43d06ba1d74c11c1247276378e94ee446b28",
+  "note": "This is a text knowledge-routing MoE, not an image foundation model.",
+  "trained_corpus_sha256": "1c42b8b54672665a9ad3e0a4c0de0f17d4f6ff7ed8018b871e61867300e44702",
   "tuning_promoted": true,
   "tuning_steps": 300,
   "tuning_validation_accuracy": 0.9596928982725528,
@@ -42,19 +42,8 @@
   },
   "training_effective": true,
   "학습_판정": "기준선보다 나음: 운영 가중치 교체",
-  "features": "TF-IDF + L2 (min_df 3, 어휘 5594)",
+  "features": "TF-IDF + L2 (min_df 3, 어휘 5596)",
   "말뭉치": "이 말뭉치로 학습한 가중치다.",
-  "tuning_final_loss": 0.23525560297072576,
-  "tuning_gate_load_std": 0.4699266465288522,
-  "records_before": 5533,
-  "records_added": 12,
-  "source_status": {
-    "arxiv": "ok",
-    "robotics": "ok",
-    "institutions": "ok",
-    "organic_skincare": "ok",
-    "google": "ok",
-    "us_beauty": "ok"
-  },
-  "corpus": "data/knowledge/training_corpus.jsonl"
+  "tuning_final_loss": 0.23524946729576077,
+  "tuning_gate_load_std": 0.4699266981853362
 }

@@ -2,7 +2,7 @@
 title: "Record fd47750b74 · Are-People-Applying-This-Instead-of-Foundation-Thes"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T00:25:31.833669+00:00
+updated_at: 2026-09-29T05:46:46.446802+00:00
 tags: [record, real-data]
 ---
 

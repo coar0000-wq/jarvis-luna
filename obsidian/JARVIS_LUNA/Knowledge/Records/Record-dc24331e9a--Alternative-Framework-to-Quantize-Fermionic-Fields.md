@@ -2,7 +2,7 @@
 title: "Record dc24331e9a · Alternative-Framework-to-Quantize-Fermionic-Fields"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T00:25:30.757957+00:00
+updated_at: 2026-09-29T05:46:45.334204+00:00
 tags: [record, real-data]
 ---
 

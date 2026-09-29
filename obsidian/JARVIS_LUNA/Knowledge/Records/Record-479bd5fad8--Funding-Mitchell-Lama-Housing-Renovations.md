@@ -2,7 +2,7 @@
 title: "Record 479bd5fad8 · Funding-Mitchell-Lama-Housing-Renovations"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T00:25:32.745301+00:00
+updated_at: 2026-09-29T05:46:47.547568+00:00
 tags: [record, real-data]
 ---
 

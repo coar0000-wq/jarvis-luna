@@ -2,7 +2,7 @@
 title: "Record 7d19ff1eec · Asymmetric-Capacity-Allocation-in-Self-Refinement-P"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T00:25:33.054731+00:00
+updated_at: 2026-09-29T05:46:47.887371+00:00
 tags: [record, real-data]
 ---
 

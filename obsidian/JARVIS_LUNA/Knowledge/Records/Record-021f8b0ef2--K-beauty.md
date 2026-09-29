@@ -2,7 +2,7 @@
 title: "Record 021f8b0ef2 · K-beauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T00:25:31.480654+00:00
+updated_at: 2026-09-29T05:46:46.106294+00:00
 tags: [record, real-data]
 ---
 

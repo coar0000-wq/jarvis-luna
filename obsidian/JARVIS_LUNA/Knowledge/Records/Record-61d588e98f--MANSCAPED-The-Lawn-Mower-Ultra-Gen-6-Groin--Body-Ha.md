@@ -2,7 +2,7 @@
 title: "Record 61d588e98f · MANSCAPED-The-Lawn-Mower-Ultra-Gen-6-Groin--Body-Hair-Trimmer--SkinSaf"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T00:25:32.497856+00:00
+updated_at: 2026-09-29T05:46:47.260482+00:00
 tags: [record, real-data]
 ---
 

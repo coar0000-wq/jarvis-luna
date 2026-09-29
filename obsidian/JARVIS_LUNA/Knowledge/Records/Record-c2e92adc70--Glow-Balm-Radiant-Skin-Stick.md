@@ -2,7 +2,7 @@
 title: "Record c2e92adc70 · Glow-Balm-Radiant-Skin-Stick"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T00:25:32.889864+00:00
+updated_at: 2026-09-29T05:46:47.707187+00:00
 tags: [record, real-data]
 ---
 

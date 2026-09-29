@@ -2,7 +2,7 @@
 title: "Record 665be143d0 · Scaling-Graph-Neural-Networks-for-Friend-Recommenda"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T00:25:33.103563+00:00
+updated_at: 2026-09-29T05:46:47.937279+00:00
 tags: [record, real-data]
 ---
 

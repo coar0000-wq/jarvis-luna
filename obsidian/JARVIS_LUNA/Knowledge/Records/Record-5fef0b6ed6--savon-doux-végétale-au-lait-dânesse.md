@@ -2,7 +2,7 @@
 title: "Record 5fef0b6ed6 · savon-doux-végétale-au-lait-dânesse"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T00:25:32.361885+00:00
+updated_at: 2026-09-29T05:46:47.090489+00:00
 tags: [record, real-data]
 ---
 

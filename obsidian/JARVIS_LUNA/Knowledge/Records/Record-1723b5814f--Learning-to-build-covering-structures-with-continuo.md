@@ -2,7 +2,7 @@
 title: "Record 1723b5814f · Learning-to-build-covering-structures-with-continuo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T00:25:30.437792+00:00
+updated_at: 2026-09-29T05:46:45.000974+00:00
 tags: [record, real-data]
 ---
 

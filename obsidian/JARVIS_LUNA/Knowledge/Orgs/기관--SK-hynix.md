@@ -2,7 +2,7 @@
 title: "기관 · SK hynix"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T00:25:34.008972+00:00
+updated_at: 2026-09-29T05:46:48.813336+00:00
 tags: [org, real-data]
 ---
 

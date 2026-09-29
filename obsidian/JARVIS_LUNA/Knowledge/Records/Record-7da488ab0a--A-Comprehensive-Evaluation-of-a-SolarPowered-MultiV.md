@@ -2,7 +2,7 @@
 title: "Record 7da488ab0a · A-Comprehensive-Evaluation-of-a-SolarPowered-MultiVehicle-System-for-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T00:25:31.469714+00:00
+updated_at: 2026-09-29T05:46:46.095889+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1a95da3750 · Blue-Emitting-Colloidal-In1-x-Ga-x-P-Quantum-Dots-Synthesized-in-Molte"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T00:25:30.846984+00:00
+updated_at: 2026-09-29T05:46:45.429841+00:00
 tags: [record, real-data]
 ---
 

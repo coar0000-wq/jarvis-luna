@@ -2,7 +2,7 @@
 title: "Record 7e4cdb3cfe · Modelling-clinical-narrative-as-computable-knowledge-The-NICE-computab"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T00:25:30.737936+00:00
+updated_at: 2026-09-29T05:46:45.316757+00:00
 tags: [record, real-data]
 ---
 

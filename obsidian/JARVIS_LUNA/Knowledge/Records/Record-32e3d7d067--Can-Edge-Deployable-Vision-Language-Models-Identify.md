@@ -2,7 +2,7 @@
 title: "Record 32e3d7d067 · Can-Edge-Deployable-Vision-Language-Models-Identify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T00:25:30.542321+00:00
+updated_at: 2026-09-29T05:46:45.108744+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 01b172a5fb · K-Beauty-Companies-Target-Hospital-Medical-Devices-for-Growth---조선일보"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T00:25:31.872556+00:00
+updated_at: 2026-09-29T05:46:46.487790+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 03e443ab99 · Kolmar-Korea-puts-cosmetics-RD-on-display-at-Seoul-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T00:25:31.726596+00:00
+updated_at: 2026-09-29T05:46:46.340573+00:00
 tags: [record, real-data]
 ---
 

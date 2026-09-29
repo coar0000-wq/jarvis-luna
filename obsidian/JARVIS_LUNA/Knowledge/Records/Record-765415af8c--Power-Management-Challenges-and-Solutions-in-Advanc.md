@@ -2,7 +2,7 @@
 title: "Record 765415af8c · Power-Management-Challenges-and-Solutions-in-Advanced-Technology-Nodes"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T00:25:31.162846+00:00
+updated_at: 2026-09-29T05:46:45.752196+00:00
 tags: [record, real-data]
 ---
 

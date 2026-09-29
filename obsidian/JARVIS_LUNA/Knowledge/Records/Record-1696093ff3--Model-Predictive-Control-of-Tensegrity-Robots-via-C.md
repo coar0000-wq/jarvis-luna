@@ -2,7 +2,7 @@
 title: "Record 1696093ff3 · Model-Predictive-Control-of-Tensegrity-Robots-via-C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T00:25:30.452580+00:00
+updated_at: 2026-09-29T05:46:45.015579+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record c705601135 · MOEPA-A-Five-Layer-Cognitive-Architecture-for-Owned-Enterprise-AI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T00:25:31.414437+00:00
+updated_at: 2026-09-29T05:46:46.034860+00:00
 tags: [record, real-data]
 ---
 
