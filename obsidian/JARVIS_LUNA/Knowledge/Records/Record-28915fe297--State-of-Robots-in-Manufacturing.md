@@ -2,7 +2,7 @@
 title: "Record 28915fe297 · State-of-Robots-in-Manufacturing"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:35.795051+00:00
+updated_at: 2026-09-29T20:40:23.625995+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** State of Robots in Manufacturing
 
 State of Robots in Manufacturing
-<p>Report looks at advances in robots for manufacturing Robotics in manufacturing has evolved from the days of rigidly programmed robot arms on automotive production lines. Robot models are diversifying, widening applications for industrial automation are changing with improvements in perception, autonomy, and actuation. In addition, widespread shortages of skilled labor are driving demand in dive
+<p>The Robot Report looks at recent advances in automation for manufacturing, from improvements in technologies and use cases to the potential of humanoids and AI.</p> <p>The post <a href="https://www.therobotreport.com/state-of-robots-in-manufacturing/">State of Robots in Manufacturing</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
 
 **출처:** Source · robotics
 

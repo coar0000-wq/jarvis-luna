@@ -2,7 +2,7 @@
 title: "Record 8548da7dba · Prescribing-of-Outpatient-Antibiotics-Commonly-Used-for-Respiratory-In"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:33.650256+00:00
+updated_at: 2026-09-29T20:40:21.553613+00:00
 tags: [record, real-data]
 ---
 

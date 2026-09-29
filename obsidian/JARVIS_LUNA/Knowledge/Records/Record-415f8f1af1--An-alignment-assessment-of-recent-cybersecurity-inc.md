@@ -2,7 +2,7 @@
 title: "Record 415f8f1af1 · An-alignment-assessment-of-recent-cybersecurity-inc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:35.544854+00:00
+updated_at: 2026-09-29T20:40:23.386579+00:00
 tags: [record, real-data]
 ---
 
@@ -10,13 +10,12 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [www.anthropic.com](https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents)
 
-**제목:** An alignment assessment of recent cybersecurity incidents
+**제목:** Alignment Assessment Cybersecurity Incidents
 
-An alignment assessment of recent cybersecurity incidents
-We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems.
+Alignment Assessment Cybersecurity Incidents
 
 **출처:** Source · institutions
 
 ## Connected nodes
 
-[[Source--institutions]] [[LLM언어모델]] [[보안프라이버시]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[보안프라이버시]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

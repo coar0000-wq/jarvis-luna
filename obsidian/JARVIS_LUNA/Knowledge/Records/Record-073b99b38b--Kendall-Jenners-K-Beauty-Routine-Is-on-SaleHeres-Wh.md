@@ -2,7 +2,7 @@
 title: "Record 073b99b38b · Kendall-Jenners-K-Beauty-Routine-Is-on-SaleHeres-Where-to-Find-It---E-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:34.643223+00:00
+updated_at: 2026-09-29T20:40:22.529284+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 8e54905724 · Snails-are-masters-of-mucus-chemistry---Chemical--Engineering-News"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:34.744410+00:00
+updated_at: 2026-09-29T20:40:22.621106+00:00
 tags: [record, real-data]
 ---
 

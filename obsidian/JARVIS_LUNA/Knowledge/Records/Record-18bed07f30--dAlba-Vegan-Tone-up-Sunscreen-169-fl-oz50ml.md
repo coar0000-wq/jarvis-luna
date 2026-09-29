@@ -2,7 +2,7 @@
 title: "Record 18bed07f30 · dAlba-Vegan-Tone-up-Sunscreen-169-fl-oz50ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:35.095266+00:00
+updated_at: 2026-09-29T20:40:22.958532+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** d'Alba Vegan Tone-up Sunscreen 1.69 fl. oz.(50ml)
 
 d'Alba Vegan Tone-up Sunscreen 1.69 fl. oz.(50ml)
-d'Alba Vegan Tone-up Sunscreen 1.69 fl. oz.(50ml) · 평점 4.6 · 리뷰 7
+d'Alba Vegan Tone-up Sunscreen 1.69 fl. oz.(50ml) · 평점 4.6 · 리뷰 8
 
 **출처:** Source · us_beauty
 

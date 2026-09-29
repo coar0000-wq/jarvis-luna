@@ -2,7 +2,7 @@
 title: "Record 1632958f9d · Essence-Light-Sunscreen-SPF-50"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:35.050549+00:00
+updated_at: 2026-09-29T20:40:22.918319+00:00
 tags: [record, real-data]
 ---
 

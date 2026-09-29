@@ -2,7 +2,7 @@
 title: "Record 71ab2fc65c · Elections-Protest-and-Alternation-of-Power"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:33.644053+00:00
+updated_at: 2026-09-29T20:40:21.546857+00:00
 tags: [record, real-data]
 ---
 

@@ -1,20 +1,11 @@
 {
   "source": "google news rss (beauty queries) + trends daily filtered",
-  "collected_at": "2026-09-29T14:38:59.069805+00:00",
+  "collected_at": "2026-09-29T20:30:22.082684+00:00",
   "status": "ok",
   "note": "뷰티 키워드만. 채점 MATCH_CHANNELS 에는 넣지 않음. 대시보드 키워드 보드용.",
   "query_count": 12,
   "count": 94,
   "items": [
-    {
-      "keyword": "A massive K-beauty pop-up is taking over Hudson Yards this week with 30+ brands and $300 gift bags - Time Out Worldwide",
-      "product": "A massive K-beauty pop-up is taking over Hudson Yards this week with 30+ brands and $300 gift bags - Time Out Worldwide",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZlBQMzlpMkVnWThzam51YmVTcEVIR0daejY5ZElObmwzdHNqejNqWDVmYmRzME1mcDJEck85ODJyTEtLQjl2TjhOYWtIcmJ4SjIwUnNHdDJ0Nk1uOGhfcXZaMU90SHF3Y2FuaDFVeHBsN0RJd0NGaXFMNnVVZkh6TnNPR0FVeFlzU2J4cWRsRWt1UFY5aUJuOVVqZENMQXdfZ2JPLU1jbnVrVmFrenZFNk1IN0t5d3p6Vk9DY19TOUJGb1hNTG9qWkdjUEQ5bUZmUC1YVThrSQ?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
     {
       "keyword": "Why Mexico is K-beauty’s next big bet - The Korea Herald",
       "product": "Why Mexico is K-beauty’s next big bet - The Korea Herald",
@@ -25,11 +16,47 @@
       "beauty": true
     },
     {
+      "keyword": "The TikTok Creator Making K-Beauty More Inclusive - SUCCESS Magazine",
+      "product": "The TikTok Creator Making K-Beauty More Inclusive - SUCCESS Magazine",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5xQVB5LXJSbUpFZ3BnYkN4WTRqOWtpYWNSbWFORzFsNXVnREJkYU1hYlViZXRjdlQ0OHRrQUVOc2ZVS3doUlZkdzNFaldkM29uWXgxVDlKUFF2MEcxZ2V4Y1lLbWFVSVJTMllQd2tjM3RiYllwM0VvMTJHcUp4Zw?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Inside Seoul’s K-beauty ‘mecca’: I hunted for the best skincare at the world’s biggest Korean beauty store - The Guardian",
+      "product": "Inside Seoul’s K-beauty ‘mecca’: I hunted for the best skincare at the world’s biggest Korean beauty store - The Guardian",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBEaHdqd3dkWUpOVEtVUkNuQjE2dUZrOFVWbEUzaEN0UWRCYlBzSEcwcE1MYThfTHlOQ0N0dlpydmdwamNsdXlxTGJXY29MZWVITldxUFNjRUo5U1NLUHMyZDFkanEzekFUYnFXTzFRWHYzejFMRGI0a3JUQVlYdw?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "A massive K-beauty pop-up is taking over Hudson Yards this week with 30+ brands and $300 gift bags - Time Out Worldwide",
+      "product": "A massive K-beauty pop-up is taking over Hudson Yards this week with 30+ brands and $300 gift bags - Time Out Worldwide",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZlBQMzlpMkVnWThzam51YmVTcEVIR0daejY5ZElObmwzdHNqejNqWDVmYmRzME1mcDJEck85ODJyTEtLQjl2TjhOYWtIcmJ4SjIwUnNHdDJ0Nk1uOGhfcXZaMU90SHF3Y2FuaDFVeHBsN0RJd0NGaXFMNnVVZkh6TnNPR0FVeFlzU2J4cWRsRWt1UFY5aUJuOVVqZENMQXdfZ2JPLU1jbnVrVmFrenZFNk1IN0t5d3p6Vk9DY19TOUJGb1hNTG9qWkdjUEQ5bUZmUC1YVThrSQ?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
       "keyword": "This massive Korean beauty pop-up is giving away $300 gift bags in NYC this Friday - SILive.com",
       "product": "This massive Korean beauty pop-up is giving away $300 gift bags in NYC this Friday - SILive.com",
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQY2tISWprLUVaQ09PNXA5R2xMSUM1a3h0S29rSk16bjJ0Yi1hc1kwMHAxelY1Vm0wSkZ5MC1FOGhiQkViR05qN2JsOThQeElpQ3k0S0FlaC1GaFBLUWljNjFFMUp5ZHduVk90SVFRXzhtbEc0VTFqeGRrbWJqTk8xZk5leHBYWUdpZzRzNl9pMzhGQW44WmNldjNiOFMyQUk1eEF4dnZ1YkpwQnV6UThUNEU3NjhLcVlLSG9xdmk4bjM2ekZv?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "K-Style Takes Center Stage in Mexico City as 2026 K-EXPO MEXICO Concludes Successfully - Business Wire",
+      "product": "K-Style Takes Center Stage in Mexico City as 2026 K-EXPO MEXICO Concludes Successfully - Business Wire",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQMDh5UkF4MkpJUUVYTWZBREpJZHhUcTQyZTc5REQ1azY5a1JxNjBWbnJob19xSktVNXRZYkRtdE1TMjM3YkhteWZrUTMtX2d4dHpDZDBnTUQyMHlYLW1VeTVqYWpnN2xCdlRHdUdjQWFsbDRkVDNiQnByV3hfZnR5dFlHWDc2NTAtY2JTd3VhU3dPUE9PWDVYRjBSc2YtbnBrQjBrYVdVR0E4Y21WZEtTaS1mTm9TVW10UUlRcXQ0MXVnV2JycF8zSE5NX25vcnpMaGJ4UU11YlRjb0k?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -48,33 +75,6 @@
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9OMWRrWlZETWZ3NUNIUFhIZU1GcVl1OFJmMEkzemlwMVRfVWs4NTFpLUd0VFNxR0xFN09IajZxUDQzakRZcHp5cVVGTUplNzA2VW1QWXBWbkdSX0RRLUtHOTROZGtSdGpZV3hOQkRVaVpJZnFtZ2NNcHd5cw?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "K-Beauty Experience Medical Spa celebrates grand opening. - Cottage Grove Journal",
-      "product": "K-Beauty Experience Medical Spa celebrates grand opening. - Cottage Grove Journal",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNa1NiRVUwRmRyWEQ2TENNVnd2WC10Y1NtMzFkWE5RRUdGVmdnbUxQNEI3SURaMkl5UTNNYkxlcUdiQ0pERjIyQ205S1c2OUptSG5xTGZHZm9SamFKd0JnWHRlbjdwUnJTNmo3OWxjMXZyQWtIaEVuUS1oQng4eGo5NmoybHc1bDhFd3EySFV0Njg3aFNzY0c2WVl0SGtKOXZoQzFjTjBSQlZnM2RG?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "Evonik: What K-beauty teaches formulators about efficacy and speed - Personal Care Insights",
-      "product": "Evonik: What K-beauty teaches formulators about efficacy and speed - Personal Care Insights",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPc1MyeTNpOEVxemhSSnotMzItVzVoTWc3Sldqd1lIc0hmWHk0MWQwc28yV01PWEwwb2FIOF8zVGNfX2s1bFNCUXZDRHo4cHRma0lTNU03TUk2MXk4T1FLRFFnZjMxU3loNXIwRldHdlc4RVFveHNoVmxiQnhUNkZ5UkNwU1R2SDRkZVE?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "Korean Department Store Shinsegae Wants to Be a U.S. Beauty Player, Too - WWD",
-      "product": "Korean Department Store Shinsegae Wants to Be a U.S. Beauty Player, Too - WWD",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORlR1RUpYVVZlSlotVVZzTS1yYXpZOV9pdjVFUHZvbzAxeGIydWNib2U5ekxCYkxzaXFXZ1JjeTI4SmxaWHdJdmliYzlRWFZkVHhGb3p1akJ3ZFVfWFpLT0o0YzNQYlZOOWY2bERlem5VckVDak9pbWZIXzFnMnhQYVR1VTdMT2thZUQwMnkzOXRuWFk1MUM2Q29OUWtZRE1rR2RrUUhhbw?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -160,24 +160,6 @@
       "beauty": true
     },
     {
-      "keyword": "What to Know About Snail Mucin for Healthier, Glowing Skin - health.com",
-      "product": "What to Know About Snail Mucin for Healthier, Glowing Skin - health.com",
-      "sub": "snail mucin",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FajN1UnhmQjViQ0dWVW45QVF1blJPRnBKZUltUWRyRjVDcHFVVTBiVUpkQTZlZHNYbEFmSUFtVTRWT0Q2X3o4R3R0YXhyYUJhbHV6dVln?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - Good Housekeeping",
-      "product": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - Good Housekeeping",
-      "sub": "snail mucin",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaHNGOTRvaVF1V3FVRWxjLWo3T0NSN1Q5Tjk0X25hTU5iOEY4d3lGdTVTNngtV09hdldxWXcwYTA0OENIcElxQ1ZXUnBXQ3FIcGhfYm9zc2xTZkJlaFdjU2UxNHR1cmhicDdHYXZiOEZnTGZGNl9IQms5N1FxV1BpTjlFRzY0dGM?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
       "keyword": "The Not-So-Secret Ingredient in This $20 Moisturizer Gives Shoppers in Their 50s ‘10 Times Better’ Skin - People.com",
       "product": "The Not-So-Secret Ingredient in This $20 Moisturizer Gives Shoppers in Their 50s ‘10 Times Better’ Skin - People.com",
       "sub": "snail mucin",
@@ -187,8 +169,26 @@
       "beauty": true
     },
     {
-      "keyword": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - Vogue",
-      "product": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - Vogue",
+      "keyword": "What to Know About Snail Mucin for Healthier, Glowing Skin - health.com",
+      "product": "What to Know About Snail Mucin for Healthier, Glowing Skin - health.com",
+      "sub": "snail mucin",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FajN1UnhmQjViQ0dWVW45QVF1blJPRnBKZUltUWRyRjVDcHFVVTBiVUpkQTZlZHNYbEFmSUFtVTRWT0Q2X3o4R3R0YXhyYUJhbHV6dVln?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - goodhousekeeping.com",
+      "product": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - goodhousekeeping.com",
+      "sub": "snail mucin",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaHNGOTRvaVF1V3FVRWxjLWo3T0NSN1Q5Tjk0X25hTU5iOEY4d3lGdTVTNngtV09hdldxWXcwYTA0OENIcElxQ1ZXUnBXQ3FIcGhfYm9zc2xTZkJlaFdjU2UxNHR1cmhicDdHYXZiOEZnTGZGNl9IQms5N1FxV1BpTjlFRzY0dGM?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - vogue.com",
+      "product": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - vogue.com",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5LUmI0VzFqenBxYXlPcjlQVE4xOEVsbE8wYW4xdG1jSHRWbFQzWFZEOVRpTmN0bndubWptdUJqc3BRb2ExWUJCZmtRSVhSWDliZDN5RGhjVGhLSW1ieU45TVhMZVpKSFVYZWc?oc=5",
@@ -223,8 +223,8 @@
       "beauty": true
     },
     {
-      "keyword": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
-      "product": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
+      "keyword": "6 Steps to Glass Skin, According to K-Beauty Experts - vogue.com",
+      "product": "6 Steps to Glass Skin, According to K-Beauty Experts - vogue.com",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5",
@@ -286,8 +286,8 @@
       "beauty": true
     },
     {
-      "keyword": "Best toner: Discover which face toner best suits your skin type and budget - mamabella.uk",
-      "product": "Best toner: Discover which face toner best suits your skin type and budget - mamabella.uk",
+      "keyword": "Best toner: Discover which face toner best suits your skin type and budget - Mamabella",
+      "product": "Best toner: Discover which face toner best suits your skin type and budget - Mamabella",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5hcW5ZR2hNR0ZGQ2dvaTVvUTFyRmRhOTJfUXlkVlhicmYzT01PZzFPREtQSXJRZHRDZEc2M0RtazdoSkRucVlSdEZoZ1ZZRXV0eWpfZFY3TVZrN1ByQkNyeQ?oc=5",
@@ -322,8 +322,8 @@
       "beauty": true
     },
     {
-      "keyword": "Hudson Williams Swears By This K-Beauty Skincare Brand, and It’s Currently on Sale at Amazon - Yahoo",
-      "product": "Hudson Williams Swears By This K-Beauty Skincare Brand, and It’s Currently on Sale at Amazon - Yahoo",
+      "keyword": "Hudson Williams Swears By This K-Beauty Skincare Brand, and It’s Currently on Sale at Amazon - shopping.yahoo.com",
+      "product": "Hudson Williams Swears By This K-Beauty Skincare Brand, and It’s Currently on Sale at Amazon - shopping.yahoo.com",
       "sub": "centella serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVHdNS1c3RV9yU0MtZS1WUzBaLVZQS0JTSWU3TURkaHZlbkxzclFraGFTcEJfUlktUmcxTXg0RmEtM2M3cjhCUVB2eXRQcjV5VXlXQjJmbk9RUExjN184UWhnTE5IVGFKajlORWdhWWl1dTZxZl9paUo1RlpfWU9ROVZaSU1oY1N3M3FPdE5CdE0ycC0zTElfQlAwZXJRVE0?oc=5",

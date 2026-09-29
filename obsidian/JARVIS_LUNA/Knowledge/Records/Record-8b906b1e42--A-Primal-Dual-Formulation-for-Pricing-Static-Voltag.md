@@ -2,7 +2,7 @@
 title: "Record 8b906b1e42 · A-Primal-Dual-Formulation-for-Pricing-Static-Voltag"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:33.273810+00:00
+updated_at: 2026-09-29T20:40:21.161992+00:00
 tags: [record, real-data]
 ---
 

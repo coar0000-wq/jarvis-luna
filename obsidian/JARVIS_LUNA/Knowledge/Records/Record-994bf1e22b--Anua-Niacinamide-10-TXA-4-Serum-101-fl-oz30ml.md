@@ -2,7 +2,7 @@
 title: "Record 994bf1e22b · Anua-Niacinamide-10-TXA-4-Serum-101-fl-oz30ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:35.142528+00:00
+updated_at: 2026-09-29T20:40:23.006265+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** Anua Niacinamide 10 TXA 4 Serum 1.01 fl. oz.(30ml)
 
 Anua Niacinamide 10 TXA 4 Serum 1.01 fl. oz.(30ml)
-Anua Niacinamide 10 TXA 4 Serum 1.01 fl. oz.(30ml) · 평점 4.7 · 리뷰 1,502
+Anua Niacinamide 10 TXA 4 Serum 1.01 fl. oz.(30ml) · 평점 4.7 · 리뷰 1,503
 
 **출처:** Source · us_beauty
 

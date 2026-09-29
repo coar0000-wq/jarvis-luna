@@ -2,7 +2,7 @@
 title: "Record 7f025a697b · Korean-Skincare-Isnt-Just-for-Your-FaceThese-High-P"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:34.465463+00:00
+updated_at: 2026-09-29T20:40:22.367667+00:00
 tags: [record, real-data]
 ---
 

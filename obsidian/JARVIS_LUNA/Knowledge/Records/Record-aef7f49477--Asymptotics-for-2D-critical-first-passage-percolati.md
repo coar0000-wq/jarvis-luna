@@ -2,7 +2,7 @@
 title: "Record aef7f49477 · Asymptotics-for-2D-critical-first-passage-percolati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:33.774293+00:00
+updated_at: 2026-09-29T20:40:21.689529+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 33820c93e4 · The-top-3-most-influential-TikTok-trends-in-beauty-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:34.568600+00:00
+updated_at: 2026-09-29T20:40:22.458389+00:00
 tags: [record, real-data]
 ---
 

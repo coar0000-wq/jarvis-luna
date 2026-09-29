@@ -3,7 +3,7 @@
   "license": "Open Database License (ODbL) - 재사용 허용",
   "auth_required": false,
   "note": "수요 신호가 아니라 상품 정보 보강용 오픈데이터. 각 항목은 바코드(code)와 원본 URL 로 검증 가능하다.",
-  "collected_at": "2026-09-29T14:38:20.594263+00:00",
+  "collected_at": "2026-09-29T20:29:18.577344+00:00",
   "category_map": {
     "스킨케어": "skin-care",
     "마스크팩": "face-masks",
@@ -245,17 +245,17 @@
       "url": "https://world.openbeautyfacts.org/product/8809990942121"
     },
     {
-      "code": "4066447967678",
-      "product_name": "Glass Skin Collagen Maske",
+      "code": "4070765070989",
+      "product_name": "Tuchmaske Selfcare Moments",
       "brands": "Balea",
       "category": "마스크팩",
       "obf_category": "face-masks",
       "countries": [
         "Germany"
       ],
-      "ingredients_text": "AQUA, GLYCERIN, CAPRYLIC/CAPRIC TRIGLYCERIDE, PROPYLENE GLYCOL, XANTHAN GUM, SODIUM HYALURONATE, HYDROLYZED COLLAGEN, HYDROLYZED SODIUM HYALURONATE, 3-O-ETHYL ASCORBIC ACID, EUGLENA GRACILIS POLYSACCHARIDE, NIACINAMIDE, CARRAGEENAN, 1,2-HEXANEDIOL, GLYCERYL STEARATE CITRATE, HYDROXYACETOPHENONE, CAPRYLYL GLYCOL, ETHYLHEXYLGLYCERIN. Vers.001",
-      "image_url": "https://images.openbeautyfacts.org/images/products/406/644/796/7678/front_de.4.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/4066447967678"
+      "ingredients_text": "Aqua, Glycerin, Pentylene Glycol, Hydroxyacetophenone, Xanthan Gum, Caprylic/Capric Triglyceride, Sodium Citrate, Citric Acid, Sodium Phytate, Sodium Hyaluronate, Parfum, Albizia Julibrissin Flower Extract",
+      "image_url": "",
+      "url": "https://world.openbeautyfacts.org/product/4070765070989"
     },
     {
       "code": "3337875597333",

@@ -2,7 +2,7 @@
 title: "Record 5bd725a638 · From-Ozempic-Face-to-K-Beauty-Factories-The-Next-Beauty-Bet---TradingV"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:34.853363+00:00
+updated_at: 2026-09-29T20:40:22.731889+00:00
 tags: [record, real-data]
 ---
 

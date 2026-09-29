@@ -2,7 +2,7 @@
 title: "Record 83ece5c2f4 · Canada-Economic-Growth-Accelerates-Through-2030"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:35.707653+00:00
+updated_at: 2026-09-29T20:40:23.538744+00:00
 tags: [record, real-data]
 ---
 

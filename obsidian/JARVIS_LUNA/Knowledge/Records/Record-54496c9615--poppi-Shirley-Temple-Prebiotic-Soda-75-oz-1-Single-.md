@@ -2,7 +2,7 @@
 title: "Record 54496c9615 · poppi-Shirley-Temple-Prebiotic-Soda-75-oz-1-Single-Can"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:35.878968+00:00
+updated_at: 2026-09-29T20:40:23.703924+00:00
 tags: [record, real-data]
 ---
 

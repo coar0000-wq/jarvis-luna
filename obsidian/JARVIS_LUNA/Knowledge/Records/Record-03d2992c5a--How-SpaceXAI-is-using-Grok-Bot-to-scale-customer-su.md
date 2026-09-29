@@ -2,7 +2,7 @@
 title: "Record 03d2992c5a · How-SpaceXAI-is-using-Grok-Bot-to-scale-customer-support"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:35.967315+00:00
+updated_at: 2026-09-29T20:40:23.788043+00:00
 tags: [record, real-data]
 ---
 

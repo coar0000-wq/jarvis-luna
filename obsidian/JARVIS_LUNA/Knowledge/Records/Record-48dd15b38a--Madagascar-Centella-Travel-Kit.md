@@ -2,7 +2,7 @@
 title: "Record 48dd15b38a · Madagascar-Centella-Travel-Kit"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:35.834904+00:00
+updated_at: 2026-09-29T20:40:23.662677+00:00
 tags: [record, real-data]
 ---
 

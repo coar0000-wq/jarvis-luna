@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-29T14:47:25.244517+00:00",
+  "generated_at": "2026-09-29T20:38:16.986794+00:00",
   "generator": "scripts/shopify_sync_guard.py",
   "ok": true,
   "violations": [],
   "shortlist_status": "proposed",
-  "shortlist_units": 3,
+  "shortlist_units": 4,
   "baseline": {
     "file": "data/shopify_sync_state.json",
     "present": false,
@@ -15,17 +15,17 @@
   },
   "mode": "initial",
   "summary": {
-    "create": 3,
+    "create": 4,
     "update": 0,
     "unchanged": 0,
     "remove_proposed": 0
   },
   "delta_dir": "data/shopify_exports/delta",
   "delta_rows": {
-    "products.csv": 4,
-    "inventory.csv": 4,
-    "images.csv": 4,
-    "collections.csv": 3
+    "products.csv": 5,
+    "inventory.csv": 5,
+    "images.csv": 5,
+    "collections.csv": 4
   },
   "price_rule": "±$0.50 그리고 ±3% 안의 가격 변화는 변경으로 보지 않는다",
   "units": [
@@ -50,6 +50,17 @@
         "새 상품"
       ],
       "content_hash": "ddc61951604786449eff1db44a17f6adafad5dab22abe5e0b11b42347a8a24dc"
+    },
+    {
+      "handle": "vt-pdrn-radiance-cream-50-ml",
+      "pd_nos": [
+        "1067498"
+      ],
+      "action": "create",
+      "changed": [
+        "새 상품"
+      ],
+      "content_hash": "b3d4baec392ac9165b89d9c7cbddf78c930d6043b1520862fef31aefca98d8ba"
     },
     {
       "handle": "vt-reedle-shot",

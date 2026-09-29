@@ -1,6 +1,6 @@
 {
   "team": "디자인팀",
-  "generated_at": "2026-09-29T14:36:32.546225+00:00",
+  "generated_at": "2026-09-29T20:27:29.691740+00:00",
   "scope": "Shopify 스토어 디자인 사양 관리 + 디자인 레퍼런스 수집",
   "checklist": {
     "total": 12,
@@ -94,7 +94,7 @@
         "source": "IQDtl0Dacjo 5분 Optimize Shopify Product Pages for SEO and AI Search",
         "check": null,
         "status": "보완 필요",
-        "evidence": "data/design/offline_pack.json seo 5/9 통과"
+        "evidence": "data/design/offline_pack.json seo 4/8 통과"
       },
       {
         "id": "publish",
@@ -147,12 +147,12 @@
     "failures": [],
     "quality": {
       "items": 78,
-      "relevant": 37,
-      "relevant_ratio": 0.474,
+      "relevant": 36,
+      "relevant_ratio": 0.462,
       "per_feed": {
         "Shopify Changelog": {
           "items": 15,
-          "relevant": 8
+          "relevant": 7
         },
         "Shopify Dev Changelog": {
           "items": 15,
@@ -185,6 +185,14 @@
       "policy_version": 1
     },
     "items": [
+      {
+        "title": "Shop is now at shop.com",
+        "url": "https://changelog.shopify.com/posts/shop-is-now-at-shop-com",
+        "date": "2026-09-29",
+        "summary": "Shop's web experience has moved from shop.app to shop.com. Your store, products, and channel settings are unaffected — the change only affects the web address shoppers use to reach Shop. What's changing Shop's web experience now lives at shop.com instead of shop.app Existing shop.app links redirect ",
+        "feed": "Shopify Changelog",
+        "relevance": 0
+      },
       {
         "title": "Return window overrides now available",
         "url": "https://changelog.shopify.com/posts/return-window-overrides-now-available",
@@ -298,11 +306,19 @@
         "relevance": 3
       },
       {
-        "title": "Multi-currency payouts now available in Australia and France",
-        "url": "https://changelog.shopify.com/posts/multi-currency-payouts-now-available-in-australia-and-france",
-        "date": "2026-09-11",
-        "summary": "We've expanded Multi-Currency Payouts for eligible Shopify Payments merchants to Australia and France. Merchants in Australia can now receive payouts in 13 currencies: AUD, NZD, USD, EUR, GBP, CAD, NOK, SEK, DKK, CHF, JPY, SGD and HKD. All 13 can be paid into an Australian bank account, or you can a",
-        "feed": "Shopify Changelog",
+        "title": "More resilient token exchanges when migrating tokens without a user session",
+        "url": "https://shopify.dev/changelog/more-resilient-token-exchanges-when-migrating-tokens-without-a-user-session",
+        "date": "2026-09-29",
+        "summary": "More resilient token exchanges when migrating to expiring offline access tokens When you migrate an app from non-expiring offline tokens to expiring offline access tokens without a user session, you can now recover a lost migration response by retrying the exchange with the original non-expiring tok",
+        "feed": "Shopify Dev Changelog",
+        "relevance": 0
+      },
+      {
+        "title": "Manage packed product dimensions with the Admin GraphQL API",
+        "url": "https://shopify.dev/changelog/manage-packed-product-dimensions-with-the-admin-graphql-api",
+        "date": "2026-09-29",
+        "summary": "Starting with the 2027-01 Admin GraphQL API version, apps can read and write packed product dimensions using InventoryItemMeasurement.packedDimensions and InventoryItemMeasurementInput.packedDimensions in the Admin GraphQL API. Shopify uses these measurements for automatic package selection on eligi",
+        "feed": "Shopify Dev Changelog",
         "relevance": 1
       },
       {
@@ -406,22 +422,6 @@
         "url": "https://shopify.dev/changelog/automaticdiscounts-query-is-removed-in-api-version-2027-01",
         "date": "2026-09-18",
         "summary": "The deprecated automaticDiscounts query is removed from the GraphQL Admin API in version 2027-01 . If your app reads a shop’s automatic discounts through automaticDiscounts , you need to move to the discountNodes query with a method:automatic filter before you upgrade to 2027-01 . Apps on 2026-10 an",
-        "feed": "Shopify Dev Changelog",
-        "relevance": 0
-      },
-      {
-        "title": "Request a bundle size exception for existing UI extensions",
-        "url": "https://shopify.dev/changelog/request-a-bundle-size-exception-for-existing-ui-extensions",
-        "date": "2026-09-17",
-        "summary": "UI extensions using API version 2025-10 or later are limited to a 64 KB compressed JavaScript bundle per extension. Full page customer account extensions may use up to 128 KB. If your extension remains over the limit after optimization, run shopify app build and submit the minified bundle and its es",
-        "feed": "Shopify Dev Changelog",
-        "relevance": 2
-      },
-      {
-        "title": "Adding a canceled receive action to the inventory shipments API",
-        "url": "https://shopify.dev/changelog/adding-a-canceled-receive-action-to-the-inventory-shipments-api",
-        "date": "2026-09-17",
-        "summary": "The GraphQL Admin API now supports a CANCELED receive action for inventory shipments in version 2026-10 . You can mark inventory shipment line item units as canceled when they’ll never arrive, and you can read canceled quantities on shipments and their line items. This is an additive change to the 2",
         "feed": "Shopify Dev Changelog",
         "relevance": 0
       },

@@ -2,7 +2,7 @@
 title: "Record 72c805579f · Introducing-Claude-Corps"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:35.528342+00:00
+updated_at: 2026-09-29T20:40:23.371314+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [www.anthropic.com](https://www.anthropic.com/news/claude-corps)
 
-**제목:** Introducing Claude Corps
+**제목:** News   Claude Corps
 
-Introducing Claude Corps
-Claude Corps is a national fellowship for early-career people passionate about extending the benefits of AI to communities across America.
+News   Claude Corps
 
 **출처:** Source · institutions
 

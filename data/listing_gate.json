@@ -1,36 +1,35 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-09-29T14:47:25.083429+00:00",
+  "generated_at": "2026-09-29T20:38:16.837256+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "semantic_sources": {
       "data/product_master.json": "48a2d9076d3c3aae7fe1b8b5d98e6b349b1d24534b4d72ce80a837ba5063d86c",
       "data/gosi.json": "24e20515e838246fdc8ad16fdb713f0f539a25e374d6823c8bead9b9db575249",
-      "data/daiso_real/daiso_us_labels.json": "78793da25b5c50bd28d44822258ef44c9d026d9351f23931446f499a9d1ded3c",
-      "data/pricing_model.json": "1eccbc360a3502db3f6080d7cb3342e579b55c8fcaca810fcbc0805bbe65f245",
-      "data/legal_products.json": "73ed43af799ffd701821e709c37b4826cdc3388d8f2ed1b44f15f70eb0c742ad"
+      "data/daiso_real/daiso_us_labels.json": "b723faf8e83d684c765a49bc97f121b5f2c0984584ab93e124e73e702cf07b14",
+      "data/pricing_model.json": "f904d5b4292e4610cfa82056564aec814d690a6cce66962501bd1aba29009b06",
+      "data/legal_products.json": "85ae2337364bbec6b3da21362595d57d934459defca063dd6c07ffdc5b4c7873"
     },
-    "recommendations_sha256": "cd55ae347ca6027c095f047ba60ba40c149872d2017e3855172c20efffaccc34"
+    "recommendations_sha256": "4e3b6c8dd09c123c3eff4de87d334c813e0e9ab5781b8f31dcf4223f1f3379e9"
   },
   "total": 10,
-  "agent_ready": 8,
-  "ready": 8,
-  "draft_ready": 8,
+  "agent_ready": 9,
+  "ready": 9,
+  "draft_ready": 9,
   "public_ready": 0,
   "counts": {
     "ontology": 10,
-    "copy": 8,
-    "gosi": 9,
-    "us_label": 8,
+    "copy": 9,
+    "gosi": 10,
+    "us_label": 9,
     "price": 10,
-    "legal": 8,
+    "legal": 9,
     "legal_full": 0
   },
   "blockers": {
-    "copy": 2,
-    "gosi": 1,
-    "us_label": 2,
-    "legal": 2
+    "copy": 1,
+    "us_label": 1,
+    "legal": 1
   },
   "typesafe_summary": {
     "framework": "typesafe_system_one_compatible",
@@ -43,17 +42,17 @@
     "enforced": 0,
     "usage": {
       "calls": 10,
-      "input_tokens": 11000,
+      "input_tokens": 10960,
       "output_tokens": 1980,
       "stopped": "",
       "max_calls": 40,
       "max_input_tokens": 60000,
       "input_token_price_per_mtok_usd": 0.042,
-      "estimated_cost_usd": 0.000462,
+      "estimated_cost_usd": 0.00046,
       "purchased_credits": false
     },
-    "cumulative_ok_calls": 161,
-    "last_ok_call_at": "2026-09-29T14:47:25.083305+00:00",
+    "cumulative_ok_calls": 191,
+    "last_ok_call_at": "2026-09-29T20:38:16.837129+00:00",
     "note": "기본은 비용 없는 로컬 advisory. 실제 호출은 TYPESAFE_ENABLED=1 과 TYPESAFE_FREE_CREDITS_ONLY=1(무료 크레딧 한도 내) 또는 TYPESAFE_ALLOW_PAID=1(유료 승인) 일 때만 한다. 크레딧 구매는 하지 않는다."
   },
   "count": 10,
@@ -133,20 +132,20 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.92,
+        "model_route_confidence": 0.94,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.684,
+        "confidence": 0.716,
         "usage": {
           "input_tokens": 1105,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.57,
+        "risk_score": 1.66,
         "model": "jev-1.13.0",
         "state_signature": "cdb95028555fb2cc1091059f8cd86fe4a993cc1cce6206584626e7d74b6ea8c6",
-        "decided_at": "2026-09-29T14:47:23.452529+00:00"
+        "decided_at": "2026-09-29T20:38:15.325014+00:00"
       }
     },
     {
@@ -224,20 +223,20 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.93,
+        "model_route_confidence": 0.94,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.728,
+        "confidence": 0.716,
         "usage": {
           "input_tokens": 1085,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.63,
+        "risk_score": 1.69,
         "model": "jev-1.13.0",
         "state_signature": "51d0e73d5ba5ed41de4d4bf02811433e8f7ef09ef764ae07bb5b94a8cc530ea7",
-        "decided_at": "2026-09-29T14:47:23.608311+00:00"
+        "decided_at": "2026-09-29T20:38:15.499925+00:00"
       }
     },
     {
@@ -315,20 +314,20 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.92,
+        "model_route_confidence": 0.93,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.704,
+        "confidence": 0.714,
         "usage": {
           "input_tokens": 1104,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.61,
+        "risk_score": 1.62,
         "model": "jev-1.13.0",
         "state_signature": "51d0e73d5ba5ed41de4d4bf02811433e8f7ef09ef764ae07bb5b94a8cc530ea7",
-        "decided_at": "2026-09-29T14:47:23.795824+00:00"
+        "decided_at": "2026-09-29T20:38:15.665303+00:00"
       }
     },
     {
@@ -410,7 +409,7 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.712,
+        "confidence": 0.71,
         "usage": {
           "input_tokens": 1086,
           "output_tokens": 198
@@ -419,7 +418,7 @@
         "risk_score": 1.58,
         "model": "jev-1.13.0",
         "state_signature": "a235a30f46906db0e3e7198e8f998dc4cfdaf92ceac3f46d1cef17739f39ea0f",
-        "decided_at": "2026-09-29T14:47:23.944090+00:00"
+        "decided_at": "2026-09-29T20:38:15.838694+00:00"
       }
     },
     {
@@ -430,7 +429,7 @@
       "name": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
       "category": "스킨케어",
       "price_krw": 5000,
-      "shopify_score": 96,
+      "shopify_score": 95,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072554",
       "copy": {
         "title": "Bongseop Retinol Firming Shot Body Guasha Serum 100ml",
@@ -490,7 +489,7 @@
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "hold",
+        "grade_advisory": "review",
         "legal_gate_advisory": "review",
         "risk_level": "high",
         "risk_points": 1,
@@ -498,20 +497,20 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.93,
+        "model_route_confidence": 0.95,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.706,
+        "confidence": 0.716,
         "usage": {
           "input_tokens": 1097,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.63,
+        "risk_score": 1.64,
         "model": "jev-1.13.0",
-        "state_signature": "a235a30f46906db0e3e7198e8f998dc4cfdaf92ceac3f46d1cef17739f39ea0f",
-        "decided_at": "2026-09-29T14:47:24.127901+00:00"
+        "state_signature": "0ded8feeaaf7297418908f19c10ccd034e40cc2e5ea239768fd3019d964e0067",
+        "decided_at": "2026-09-29T20:38:16.025176+00:00"
       }
     },
     {
@@ -589,20 +588,20 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.92,
+        "model_route_confidence": 0.91,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.71,
+        "confidence": 0.688,
         "usage": {
           "input_tokens": 1089,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.64,
+        "risk_score": 1.57,
         "model": "jev-1.13.0",
         "state_signature": "9cd2800fc8d4cac3636219a503b910fbb2b0924bd299e98e77065bc73dc4dcbb",
-        "decided_at": "2026-09-29T14:47:24.314680+00:00"
+        "decided_at": "2026-09-29T20:38:16.177399+00:00"
       }
     },
     {
@@ -682,16 +681,16 @@
           "public blockers: copy, us_label, legal, legal_full",
           "legal hard block"
         ],
-        "confidence": 0.902,
+        "confidence": 0.912,
         "usage": {
           "input_tokens": 1113,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 2.67,
+        "risk_score": 2.72,
         "model": "jev-1.13.0",
         "state_signature": "b0582cacf994482e3059f0d2ae9df7f5c57a4a9358f95651c17206ce007a8ad0",
-        "decided_at": "2026-09-29T14:47:24.494032+00:00"
+        "decided_at": "2026-09-29T20:38:16.366812+00:00"
       }
     },
     {
@@ -759,7 +758,7 @@
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "review",
+        "grade_advisory": "hold",
         "legal_gate_advisory": "review",
         "risk_level": "medium",
         "risk_points": 1,
@@ -771,16 +770,16 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.706,
+        "confidence": 0.712,
         "usage": {
           "input_tokens": 1094,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.42,
+        "risk_score": 1.49,
         "model": "jev-1.13.0",
         "state_signature": "72531625bdb11b67ee797df5b076b36210e54f4a386ed65f9afe25a575270ba5",
-        "decided_at": "2026-09-29T14:47:24.678012+00:00"
+        "decided_at": "2026-09-29T20:38:16.514098+00:00"
       }
     },
     {
@@ -848,7 +847,7 @@
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "hold",
+        "grade_advisory": "review",
         "legal_gate_advisory": "review",
         "risk_level": "high",
         "risk_points": 2,
@@ -856,77 +855,77 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.93,
+        "model_route_confidence": 0.91,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.686,
+        "confidence": 0.716,
         "usage": {
           "input_tokens": 1091,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.54,
+        "risk_score": 1.5,
         "model": "jev-1.13.0",
         "state_signature": "056b49377500e8706a467cb391d5c4e59863606a6588d742d745395c1c4e14fa",
-        "decided_at": "2026-09-29T14:47:24.871879+00:00"
+        "decided_at": "2026-09-29T20:38:16.665592+00:00"
       }
     },
     {
       "rank": 10,
-      "canonical_product_id": "CP000158",
-      "pd_no": "1060489",
-      "product_id": "1060489",
-      "name": "메디필 시카 쿨링 진정 랩핑 마스크 4 ml 4개입",
-      "category": "마스크팩",
+      "canonical_product_id": "CP000109",
+      "pd_no": "1049285",
+      "product_id": "1049285",
+      "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
+      "category": "스킨케어",
       "price_krw": 3000,
       "shopify_score": 87,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060489",
-      "copy": {},
-      "copy_status": "skipped_prerequisite",
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285",
+      "copy": {
+        "title": "VT Hyaluron Sleeping Mask 4ml",
+        "description_html": "<p>VT Hyaluron Sleeping Mask 4ml is a Korean beauty sleeping mask in a 4ml size. This draft uses only the verified product identity and package information.</p><p>Review the ingredient list, directions, and final US label before publication.</p>",
+        "seo_title": "VT Hyaluron Sleeping Mask 4ml",
+        "seo_description": "View VT Hyaluron Sleeping Mask 4ml. Product identity and size are based on the source product notice. Review ingredients, directions, and the final label before purchase.",
+        "tags": [
+          "vt",
+          "hyaluron",
+          "sleeping-mask",
+          "k-beauty",
+          "korean-beauty"
+        ],
+        "product_type": "Sleeping Mask"
+      },
+      "copy_status": "ok",
       "gosi": {
-        "volume": "4ml, 0.13oz",
-        "maker": "제품 내 별도 표기 / 주식회사 스킨이데아",
+        "volume": "4ml",
+        "maker": "화장품제조업자: ㈜이앤씨 / 화장품책임판매업자: ㈜브이티코스메틱",
         "origin": "한국",
-        "ingredients": "",
-        "gosi_ok": false
+        "ingredients": "정제수, 글리세린, 다이프로필렌글라이콜, 사이클로펜타실록세인, 사이클로헥사실록세인, 글리세레스-26, 마카다미아씨오일, 암모늄아크릴로일다이메틸타우레이트/브이피코폴리머, 글리세릴글루코사이드, 1,2-헥산다이올, 동백나",
+        "gosi_ok": true
       },
       "us_label": {
-        "net_contents": "4ml, 0.13oz",
-        "manufacturer": "제품 내 별도 표기 / 주식회사 스킨이데아",
+        "net_contents": "4ml",
+        "manufacturer": "화장품제조업자: ㈜이앤씨 / 화장품책임판매업자: ㈜브이티코스메틱",
         "country_of_origin": "Korea",
-        "ingredients_inci": "",
-        "us_label_ok": false
+        "ingredients_inci": "Water, Glycerin, Dipropylene Glycol, Cyclopentasiloxane, Cyclohexasiloxane, Glycereth-26, Macadamia Ternifolia Seed Oil, Ammonium Acryloyldimethyltaurate/VP Copolymer, Glyceryl Glucoside, 1,2-Hexanediol, Camellia Japonica Seed Oil, Hydroxyacetophenone, Polysorbate 20, Hydroxyethyl Urea, Carbomer, Betaine, Allantoin, Trehalose, Butylene Glycol, Tromethamine, Dextrin, Propanediol, Disodium EDTA, Glucose, Fragrance|Perfume|Parfum, Sodium Hyaluronate, Sodium Polyacrylate, Gardenia Florida Fruit Extract, Malva Sylvestris (Mallow) Leaf Extract, Glycine, Serine, Glutamic Acid, Chlorella Vulgaris Extract, Panthenol, Aspartic Acid, Leucine, Alanine, Lysine, Arginine, Tyrosine, Phenylalanine, Proline, Threonine, Valine, Isoleucine, Histidine, Cysteine, Methionine, Polyglutamic Acid, Ethylhexylglycerin, Sodium Hyaluronate Crosspolymer, Potassium Hyaluronate, Hydroxypropyltrimonium Hyaluronate, Hyaluronic Acid, Hydrolyzed Sodium Hyaluronate, Hydrolyzed Hyaluronic Acid, Pentylene Glycol, Sodium Acetylated Hyaluronate",
+        "us_label_ok": true
       },
       "price": {
-        "price_usd": 24.99,
-        "margin_pct": 57.5,
+        "price_usd": 18.99,
+        "margin_pct": 46.5,
         "register_blocked": false
       },
       "legal": {
         "status": "auto_checked",
-        "hard_block": true,
-        "hard_block_reason": "자동 점검 미통과: label_fields"
+        "hard_block": false,
+        "hard_block_reason": ""
       },
-      "agent_ready": false,
-      "agent_blocked_by": [
-        "gosi",
-        "us_label",
-        "legal"
-      ],
-      "ready": false,
-      "blocked_by": [
-        "copy",
-        "gosi",
-        "us_label",
-        "legal"
-      ],
+      "agent_ready": true,
+      "agent_blocked_by": [],
+      "ready": true,
+      "blocked_by": [],
       "public_ready": false,
       "public_blocked_by": [
-        "copy",
-        "gosi",
-        "us_label",
-        "legal",
         "legal_full"
       ],
       "legal_full_complete": false,
@@ -938,31 +937,27 @@
         "paid_api_called": false,
         "enforced": false,
         "grade_advisory": "hold",
-        "legal_gate_advisory": "block",
-        "risk_level": "critical",
-        "risk_points": 9,
+        "legal_gate_advisory": "review",
+        "risk_level": "high",
+        "risk_points": 2,
         "team_routes": [
-          "legal",
-          "sourcing",
-          "listing"
+          "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.91,
+        "model_route_confidence": 0.94,
         "findings": [
-          "draft blockers: copy, gosi, us_label, legal",
-          "public blockers: copy, gosi, us_label, legal, legal_full",
-          "legal hard block"
+          "public blockers: legal_full"
         ],
-        "confidence": 0.936,
+        "confidence": 0.728,
         "usage": {
-          "input_tokens": 1136,
+          "input_tokens": 1096,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 2.82,
+        "risk_score": 1.6,
         "model": "jev-1.13.0",
-        "state_signature": "dde31c10e5a124a988452c35c89827158335f637f4ba35f152d3b99b3a8502d8",
-        "decided_at": "2026-09-29T14:47:25.083403+00:00"
+        "state_signature": "5d0f8517eb6d26b1be383ef5a31674ecba4cd3d16ebf65891ec60cb2c9634685",
+        "decided_at": "2026-09-29T20:38:16.837225+00:00"
       }
     }
   ]

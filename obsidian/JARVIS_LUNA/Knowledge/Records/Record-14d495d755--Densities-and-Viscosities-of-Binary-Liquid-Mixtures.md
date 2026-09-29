@@ -2,7 +2,7 @@
 title: "Record 14d495d755 · Densities-and-Viscosities-of-Binary-Liquid-Mixtures-of-Chlorobenzene-p"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:33.531471+00:00
+updated_at: 2026-09-29T20:40:21.415313+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.1016/j.ctta.2026.100376)
 
-**제목:** Densities and Viscosities of Binary Liquid Mixtures of Chlorobenzene, p-Xylene, Octane,1-Hexanol and Ethylbenzene at (293.15 and 298.15) K
+**제목:** Densities and viscosities of binary liquid mixtures of chlorobenzene, p-xylene, octane,1-hexanol and ethylbenzene at (293.15 and 298.15) K
 
-Densities and Viscosities of Binary Liquid Mixtures of Chlorobenzene, p-Xylene, Octane,1-Hexanol and Ethylbenzene at (293.15 and 298.15) K
+Densities and viscosities of binary liquid mixtures of chlorobenzene, p-xylene, octane,1-hexanol and ethylbenzene at (293.15 and 298.15) K
 
 **출처:** Source · institutions
 

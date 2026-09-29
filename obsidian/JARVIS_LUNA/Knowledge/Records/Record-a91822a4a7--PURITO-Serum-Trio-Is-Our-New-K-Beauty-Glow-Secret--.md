@@ -2,7 +2,7 @@
 title: "Record a91822a4a7 · PURITO-Serum-Trio-Is-Our-New-K-Beauty-Glow-Secret---glittermagazineco"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:34.675028+00:00
+updated_at: 2026-09-29T20:40:22.556893+00:00
 tags: [record, real-data]
 ---
 

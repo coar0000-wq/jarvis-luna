@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-29T14:47:19.355568+00:00",
+  "generated_at": "2026-09-29T20:38:11.273342+00:00",
   "generator": "scripts/build_listing_copy_local.py",
   "model": "none_local_deterministic",
   "paid_api_called": false,
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "note": "기존 검증 카피를 보존하고 누락분만 제품명·용량·원산지 기반의 보수적 영문 초안으로 생성한다. 효능·인증·임상 결과는 생성하지 않는다.",
   "total": 10,
-  "eligible": 8,
-  "ok": 8,
+  "eligible": 9,
+  "ok": 9,
   "failed": 0,
-  "skipped_prerequisite": 2,
+  "skipped_prerequisite": 1,
   "carried_forward": 8,
-  "generated_local": 0,
+  "generated_local": 1,
   "items": [
     {
       "canonical_product_id": "CP000107",
@@ -148,7 +148,7 @@
       "price_krw": 5000,
       "rating": null,
       "review_count": null,
-      "shopify_score": 96,
+      "shopify_score": 95,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072554",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260909/3UnEEcWgQD0IKB2N7HaJ1072554_00_013UnEEcWgQD0IKB2N7HaJ.jpg",
       "copy": {
@@ -286,25 +286,34 @@
       "error": ""
     },
     {
-      "canonical_product_id": "CP000158",
-      "pd_no": "1060489",
-      "name_ko": "메디필 시카 쿨링 진정 랩핑 마스크 4 ml 4개입",
-      "bucket": "마스크팩",
+      "canonical_product_id": "CP000109",
+      "pd_no": "1049285",
+      "name_ko": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
+      "bucket": "스킨케어",
       "price_krw": 3000,
       "rating": null,
       "review_count": null,
       "shopify_score": 87,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060489",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/uaaakIRgplIWVxAb7Zq11060489_00_00uaaakIRgplIWVxAb7Zq1.jpg",
-      "copy": null,
-      "copy_status": "skipped_prerequisite",
-      "generation_mode": "none",
-      "agent_blocked_by": [
-        "gosi",
-        "us_label",
-        "legal"
-      ],
-      "error": "ontology 선행 게이트 미통과: gosi, us_label, legal"
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250929/gblFwiiyQbV92ezzjLMk1049285_00_01gblFwiiyQbV92ezzjLMk.jpg",
+      "copy": {
+        "title": "VT Hyaluron Sleeping Mask 4ml",
+        "description_html": "<p>VT Hyaluron Sleeping Mask 4ml is a Korean beauty sleeping mask in a 4ml size. This draft uses only the verified product identity and package information.</p><p>Review the ingredient list, directions, and final US label before publication.</p>",
+        "seo_title": "VT Hyaluron Sleeping Mask 4ml",
+        "seo_description": "View VT Hyaluron Sleeping Mask 4ml. Product identity and size are based on the source product notice. Review ingredients, directions, and the final label before purchase.",
+        "tags": [
+          "vt",
+          "hyaluron",
+          "sleeping-mask",
+          "k-beauty",
+          "korean-beauty"
+        ],
+        "product_type": "Sleeping Mask"
+      },
+      "copy_status": "ok",
+      "generation_mode": "deterministic_local_template_v1",
+      "agent_blocked_by": [],
+      "error": ""
     }
   ]
 }

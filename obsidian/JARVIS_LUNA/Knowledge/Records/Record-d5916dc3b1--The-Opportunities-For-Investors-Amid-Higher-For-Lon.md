@@ -2,7 +2,7 @@
 title: "Record d5916dc3b1 · The-Opportunities-For-Investors-Amid-Higher-For-Longer-Interest-Rates-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:35.629584+00:00
+updated_at: 2026-09-29T20:40:23.460926+00:00
 tags: [record, real-data]
 ---
 

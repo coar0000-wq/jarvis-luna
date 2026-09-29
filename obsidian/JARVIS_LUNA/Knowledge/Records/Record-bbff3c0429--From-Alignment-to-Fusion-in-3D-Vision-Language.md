@@ -2,7 +2,7 @@
 title: "Record bbff3c0429 · From-Alignment-to-Fusion-in-3D-Vision-Language"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:33.424577+00:00
+updated_at: 2026-09-29T20:40:21.306418+00:00
 tags: [record, real-data]
 ---
 

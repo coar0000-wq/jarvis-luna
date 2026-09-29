@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-29T14:37:59.763623+00:00",
+  "generated_at": "2026-09-29T20:28:56.960756+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
-  "pool_size": 3069,
+  "pool_size": 3111,
   "제목없어_버림": 38,
   "unrouted": 9,
   "summary": {
@@ -22,52 +22,52 @@
       "products": 0
     },
     "listing": {
-      "total": 112,
-      "recent": 53,
-      "material": 112,
-      "material_recent": 53,
+      "total": 113,
+      "recent": 54,
+      "material": 113,
+      "material_recent": 54,
       "products": 0
     },
     "pricing": {
-      "total": 74,
-      "recent": 34,
-      "material": 74,
-      "material_recent": 34,
+      "total": 75,
+      "recent": 33,
+      "material": 75,
+      "material_recent": 33,
       "products": 0
     },
     "legal": {
       "total": 231,
-      "recent": 54,
+      "recent": 55,
       "material": 231,
-      "material_recent": 54,
+      "material_recent": 55,
       "products": 0
     },
     "design": {
-      "total": 430,
-      "recent": 123,
-      "material": 430,
-      "material_recent": 123,
+      "total": 438,
+      "recent": 127,
+      "material": 438,
+      "material_recent": 127,
       "products": 0
     },
     "robotics": {
-      "total": 152,
-      "recent": 51,
-      "material": 152,
-      "material_recent": 51,
+      "total": 153,
+      "recent": 52,
+      "material": 153,
+      "material_recent": 52,
       "products": 0
     },
     "knowledge": {
-      "total": 259,
-      "recent": 93,
-      "material": 259,
-      "material_recent": 93,
+      "total": 261,
+      "recent": 94,
+      "material": 261,
+      "material_recent": 94,
       "products": 0
     },
     "institutions": {
-      "total": 1119,
-      "recent": 220,
-      "material": 1119,
-      "material_recent": 220,
+      "total": 1161,
+      "recent": 223,
+      "material": 1161,
+      "material_recent": 223,
       "products": 0
     },
     "channels": {
@@ -1441,14 +1441,14 @@
         "by_hand": true
       },
       {
-        "title": "What Are Claude Design Skills and How to Use Them",
+        "title": "How to Get Better Designs Out of Claude",
         "url": "https://www.youtube.com/watch?v=psUJ14KmwpI",
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
       },
       {
-        "title": "Beyond TikTok Shop: How to Use TikTok to Drive Sales",
+        "title": "How to Use TikTok to Drive Shopify Sales",
         "url": "https://www.youtube.com/watch?v=nIOn_726Rxk",
         "pool": "youtube_channel",
         "date": "",
@@ -1675,6 +1675,13 @@
         "by_hand": true
       },
       {
+        "title": "Flexport 2026 Fall Technology Release Live Broadcast",
+        "url": "https://www.youtube.com/watch?v=z9czG_mcDBM",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
         "title": "Flexport Forward Copenhagen | Supply Chain AI, Ocean Resilience & Key Insights",
         "url": "https://www.youtube.com/watch?v=2NKi9pRzVAA",
         "pool": "youtube_channel",
@@ -1878,13 +1885,6 @@
         "by_hand": true
       },
       {
-        "title": "Tariff Trends 2026: Expert Insights on the Evolving U.S. Tariff Landscape [March 18, 2026]",
-        "url": "https://www.youtube.com/watch?v=6wswF1lfqv0",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
         "title": "Snowflake Prices Upsized Private Placement of $3.75 Billion of 0.00% Convertible Senior Notes",
         "url": "https://investors.snowflake.com/news/news-details/2026/Snowflake-Prices-Upsized-Private-Placement-of-3-75-Billion-of-0-00-Convertible-Senior-Notes/default.aspx",
         "pool": "institutions",
@@ -1920,8 +1920,8 @@
         "by_hand": false
       },
       {
-        "title": "Gold Prices Steady Rise Amy Gower",
-        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/gold-prices-steady-rise-amy-gower",
+        "title": "Middle East Conflict Oil Prices Martijn Rats",
+        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/middle-east-conflict-oil-prices-martijn-rats",
         "pool": "institutions",
         "date": "2026-09-23",
         "by_hand": false
@@ -2601,7 +2601,7 @@
         "by_hand": true
       },
       {
-        "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
+        "title": "These UI/UX Design Mistakes Will Break Your UI Designs",
         "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
         "pool": "youtube_channel",
         "date": "",
@@ -2783,14 +2783,14 @@
         "by_hand": true
       },
       {
-        "title": "What Are Claude Design Skills and How to Use Them",
+        "title": "How to Get Better Designs Out of Claude",
         "url": "https://www.youtube.com/watch?v=psUJ14KmwpI",
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
       },
       {
-        "title": "Beyond TikTok Shop: How to Use TikTok to Drive Sales",
+        "title": "How to Use TikTok to Drive Shopify Sales",
         "url": "https://www.youtube.com/watch?v=nIOn_726Rxk",
         "pool": "youtube_channel",
         "date": "",
@@ -3695,7 +3695,14 @@
         "by_hand": true
       },
       {
-        "title": "Decade of NVIDIA DGX: From A Single System to AI Factories",
+        "title": "Vertically Integrated, Horizontally Open | AI Factory Insider Ep 5",
+        "url": "https://www.youtube.com/watch?v=mFv4VRoFj-k",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
+        "title": "10 Years of NVIDIA DGX: From One System to AI Factories",
         "url": "https://www.youtube.com/watch?v=xAgq8ByWK0M",
         "pool": "youtube_channel",
         "date": "",
@@ -3893,13 +3900,6 @@
       {
         "title": "How NVIDIA Runs Its Own AI Factory | AI Factory Insider Ep. 2",
         "url": "https://www.youtube.com/watch?v=Jpsq_-1kJTo",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "NVIDIA and Japan: Building the Next Industrial Revolution",
-        "url": "https://www.youtube.com/watch?v=vXWs3Xq-ke0",
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true

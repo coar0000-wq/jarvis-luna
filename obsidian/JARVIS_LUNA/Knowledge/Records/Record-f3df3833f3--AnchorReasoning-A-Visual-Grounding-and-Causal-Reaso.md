@@ -2,7 +2,7 @@
 title: "Record f3df3833f3 · AnchorReasoning-A-Visual-Grounding-and-Causal-Reasoning-Dataset-in-Lon"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:33.427924+00:00
+updated_at: 2026-09-29T20:40:21.309643+00:00
 tags: [record, real-data]
 ---
 

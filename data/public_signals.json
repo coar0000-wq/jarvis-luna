@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T14:45:50.419050+00:00",
+  "generated_at": "2026-09-29T20:38:06.691474+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "royal news",
+          "keyword": "caleb flynn",
+          "approx_traffic": "50000+",
+          "traffic_num": 50000,
+          "published": "Tue, 29 Sep 2026 12:50:00 -0700",
+          "source_name": "ABC News - Breaking News, Latest News and Videos",
+          "url": "https://trends.google.com/trending?geo=US&q=caleb%20flynn"
+        },
+        {
+          "keyword": "polo storm",
           "approx_traffic": "5000+",
           "traffic_num": 5000,
-          "published": "Tue, 29 Sep 2026 06:30:00 -0700",
-          "source_name": "Fox News",
-          "url": "https://trends.google.com/trending?geo=US&q=royal%20news"
-        },
-        {
-          "keyword": "america.gov",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Tue, 29 Sep 2026 07:20:00 -0700",
+          "published": "Tue, 29 Sep 2026 13:20:00 -0700",
           "source_name": "The Washington Post",
-          "url": "https://trends.google.com/trending?geo=US&q=america.gov"
+          "url": "https://trends.google.com/trending?geo=US&q=polo%20storm"
         },
         {
-          "keyword": "huracán polo",
+          "keyword": "white sox vs astros",
+          "approx_traffic": "5000+",
+          "traffic_num": 5000,
+          "published": "Tue, 29 Sep 2026 13:00:00 -0700",
+          "source_name": "MLB.com",
+          "url": "https://trends.google.com/trending?geo=US&q=white%20sox%20vs%20astros"
+        },
+        {
+          "keyword": "nhl",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Tue, 29 Sep 2026 06:40:00 -0700",
-          "source_name": "The New York Times",
-          "url": "https://trends.google.com/trending?geo=US&q=hurac%C3%A1n%20polo"
-        },
-        {
-          "keyword": "brad keselowski",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Tue, 29 Sep 2026 07:30:00 -0700",
-          "source_name": "NASCAR.com",
-          "url": "https://trends.google.com/trending?geo=US&q=brad%20keselowski"
-        },
-        {
-          "keyword": "wnba playoffs bracket",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Tue, 29 Sep 2026 07:20:00 -0700",
+          "published": "Tue, 29 Sep 2026 13:20:00 -0700",
           "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=wnba%20playoffs%20bracket"
+          "url": "https://trends.google.com/trending?geo=US&q=nhl"
         },
         {
-          "keyword": "yankees wild card roster",
+          "keyword": "panthers vs hurricanes",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Tue, 29 Sep 2026 13:10:00 -0700",
+          "source_name": "NHL.com",
+          "url": "https://trends.google.com/trending?geo=US&q=panthers%20vs%20hurricanes"
+        },
+        {
+          "keyword": "pete buttigieg",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Tue, 29 Sep 2026 07:10:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=yankees%20wild%20card%20roster"
+          "published": "Tue, 29 Sep 2026 13:00:00 -0700",
+          "source_name": "Bloomberg",
+          "url": "https://trends.google.com/trending?geo=US&q=pete%20buttigieg"
         },
         {
-          "keyword": "spotify outage",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Tue, 29 Sep 2026 07:30:00 -0700",
-          "source_name": "Asbury Park Press",
-          "url": "https://trends.google.com/trending?geo=US&q=spotify%20outage"
+          "keyword": "españa fc",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Tue, 29 Sep 2026 12:40:00 -0700",
+          "source_name": "MARCA",
+          "url": "https://trends.google.com/trending?geo=US&q=espa%C3%B1a%20fc"
         },
         {
-          "keyword": "giancarlo stanton",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Tue, 29 Sep 2026 07:30:00 -0700",
-          "source_name": "New York Post",
-          "url": "https://trends.google.com/trending?geo=US&q=giancarlo%20stanton"
+          "keyword": "nathalie belizaire",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Tue, 29 Sep 2026 12:30:00 -0700",
+          "source_name": "Yahoo",
+          "url": "https://trends.google.com/trending?geo=US&q=nathalie%20belizaire"
         },
         {
-          "keyword": "mlb games today",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Tue, 29 Sep 2026 07:10:00 -0700",
-          "source_name": "MLB.com",
-          "url": "https://trends.google.com/trending?geo=US&q=mlb%20games%20today"
+          "keyword": "kristi noem",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Tue, 29 Sep 2026 12:30:00 -0700",
+          "source_name": "The Seattle Times",
+          "url": "https://trends.google.com/trending?geo=US&q=kristi%20noem"
         },
         {
-          "keyword": "africa cup of nations qualification",
+          "keyword": "alex mcfarlane",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Tue, 29 Sep 2026 06:50:00 -0700",
-          "source_name": "BBC",
-          "url": "https://trends.google.com/trending?geo=US&q=africa%20cup%20of%20nations%20qualification"
+          "published": "Tue, 29 Sep 2026 13:20:00 -0700",
+          "source_name": "Inquirer.com",
+          "url": "https://trends.google.com/trending?geo=US&q=alex%20mcfarlane"
         }
       ]
     },
@@ -187,6 +187,26 @@
       "source": "allure.com/feed/rss",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
       "items": [
+        {
+          "title": "Has Dyson Pulled the $499 CameraJet Toothbrush From Shelves?",
+          "published": "Tue, 29 Sep 2026 19:25:13 +0000",
+          "url": "https://www.allure.com/story/dyson-toothbrush-issues-glitch"
+        },
+        {
+          "title": "28 Bronde Hair Ideas That Look Amazing on Everyone—See Photos",
+          "published": "Tue, 29 Sep 2026 18:00:00 +0000",
+          "url": "https://www.allure.com/gallery/bronde-hair-color-ideas"
+        },
+        {
+          "title": "4 Best Korean Skin-Care Devices 2026 for Glass-Like Skin",
+          "published": "Tue, 29 Sep 2026 16:39:32 +0000",
+          "url": "https://www.allure.com/story/best-korean-skin-care-device"
+        },
+        {
+          "title": "Raven-Symoné on Body Image, Breast Reductions, and Ditching “Performative Hyperfemininity”",
+          "published": "Tue, 29 Sep 2026 14:56:41 +0000",
+          "url": "https://www.allure.com/story/raven-symone-perspectives-podcast-interview"
+        },
         {
           "title": "\"The Swan: Behind the Mirror\" Revisits the Rock Bottom of Reality TV—and Makeover Culture",
           "published": "Tue, 29 Sep 2026 10:30:00 +0000",
@@ -316,26 +336,6 @@
           "title": "Swedish Pop Star Zara Larsson Reveals Her Plans for a Global Takeover—Interview",
           "published": "Thu, 24 Sep 2026 12:00:00 +0000",
           "url": "https://www.allure.com/story/zara-larsson-cover-interview"
-        },
-        {
-          "title": "16 Best Early Amazon Prime Day K-Beauty Deals 2026",
-          "published": "Wed, 23 Sep 2026 20:40:23 +0000",
-          "url": "https://www.allure.com/story/best-amazon-prime-day-korean-beauty-deals-06-26-2026"
-        },
-        {
-          "title": "This Fall’s Top Nail Trends Remix 2026’s Biggest Looks",
-          "published": "Wed, 23 Sep 2026 20:00:00 +0000",
-          "url": "https://www.allure.com/story/fall-nail-art-trends-2026"
-        },
-        {
-          "title": "Usher in Cozy Season With Our Favorite Woody Perfumes",
-          "published": "Wed, 23 Sep 2026 19:41:17 +0000",
-          "url": "https://www.allure.com/story/best-woody-perfume"
-        },
-        {
-          "title": "Frances Bean Cobain's '90s Makeup Is a Low-Key Tribute to Grunge",
-          "published": "Wed, 23 Sep 2026 16:04:34 +0000",
-          "url": "https://www.allure.com/story/frances-bean-cobain-90s-makeup"
         }
       ]
     },

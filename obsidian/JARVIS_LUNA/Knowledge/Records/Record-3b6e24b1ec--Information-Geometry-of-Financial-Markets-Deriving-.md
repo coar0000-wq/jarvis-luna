@@ -2,7 +2,7 @@
 title: "Record 3b6e24b1ec · Information-Geometry-of-Financial-Markets-Deriving-Market-Constants-fr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:34.111404+00:00
+updated_at: 2026-09-29T20:40:22.042107+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 4bede39870 · Nutrafol-Womens-Balance-Hair-Growth-Supplements-Age-45"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:35.406139+00:00
+updated_at: 2026-09-29T20:40:23.257224+00:00
 tags: [record, real-data]
 ---
 

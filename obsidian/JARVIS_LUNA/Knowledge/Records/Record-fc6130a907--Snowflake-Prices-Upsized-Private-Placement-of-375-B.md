@@ -2,7 +2,7 @@
 title: "Record fc6130a907 · Snowflake-Prices-Upsized-Private-Placement-of-375-Billion-of-000-Conve"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:34.267735+00:00
+updated_at: 2026-09-29T20:40:22.189306+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record b0d25d3034 · Intelligence-by-Appointment"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:33.060793+00:00
+updated_at: 2026-09-29T20:40:20.971648+00:00
 tags: [record, real-data]
 ---
 

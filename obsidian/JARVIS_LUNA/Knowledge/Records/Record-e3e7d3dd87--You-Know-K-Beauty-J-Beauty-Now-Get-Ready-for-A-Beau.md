@@ -2,7 +2,7 @@
 title: "Record e3e7d3dd87 · You-Know-K-Beauty-J-Beauty-Now-Get-Ready-for-A-Beauty---KTLA"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:34.662069+00:00
+updated_at: 2026-09-29T20:40:22.545312+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 617704706c · Annatto-Hair-Oil"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:35.027824+00:00
+updated_at: 2026-09-29T20:40:22.897890+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record d4312164a2 · The-Standardization-Challenge-of-AI-Native-Networks"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:33.695323+00:00
+updated_at: 2026-09-29T20:40:21.599419+00:00
 tags: [record, real-data]
 ---
 

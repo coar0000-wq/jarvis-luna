@@ -2,7 +2,7 @@
 title: "Record 58411a0deb · Traffic-Sign-Recognition-for-Autonomous-Driving-Using-Branched-YOLOv2-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:34.008529+00:00
+updated_at: 2026-09-29T20:40:21.924529+00:00
 tags: [record, real-data]
 ---
 

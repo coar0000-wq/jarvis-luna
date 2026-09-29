@@ -1,6 +1,6 @@
 {
-  "collected_at": "2026-09-29T14:36:18.883510+00:00",
-  "total": 1072,
+  "collected_at": "2026-09-29T20:27:16.391082+00:00",
+  "total": 1071,
   "organizations": 35,
   "by_org": {
     "OpenAI": 50,
@@ -34,7 +34,7 @@
     "Splunk": 25,
     "Anthropic": 20,
     "xAI": 20,
-    "Dataiku": 17,
+    "Dataiku": 16,
     "Microsoft Research": 10,
     "C3 AI": 10,
     "DataWalk": 10
@@ -42,19 +42,19 @@
   "by_category": {
     "AI연구소": 200,
     "반도체": 305,
-    "데이터분석": 287,
+    "데이터분석": 286,
     "투자은행": 280
   },
   "by_kind": {
     "발표물": 330,
-    "논문": 742
+    "논문": 741
   },
   "sources": {
     "rss": {
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-09-29T14:35:37.572204+00:00"
+      "collected_at": "2026-09-29T20:26:36.337459+00:00"
     },
     "sitemap": {
       "status": "ok",
@@ -66,13 +66,13 @@
           "reason": "lastmod 있는 매칭 URL 0건"
         }
       ],
-      "collected_at": "2026-09-29T14:35:59.426074+00:00"
+      "collected_at": "2026-09-29T20:26:58.630088+00:00"
     },
     "openalex": {
       "status": "ok",
-      "count": 742,
+      "count": 741,
       "failures": [],
-      "collected_at": "2026-09-29T14:36:18.882388+00:00"
+      "collected_at": "2026-09-29T20:27:16.390201+00:00"
     }
   },
   "not_collected": {
@@ -91,11 +91,37 @@
   },
   "items": [
     {
-      "title": "How we will do better for Australia",
-      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
-      "date": "2026-09-28",
-      "date_raw": "Mon, 28 Sep 2026 19:00:00 GMT",
-      "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+      "title": "DevDay 2026 Recap",
+      "url": "https://openai.com/index/devday-2026-recap",
+      "date": "2026-09-29",
+      "date_raw": "Tue, 29 Sep 2026 10:00:00 GMT",
+      "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+      "org": "OpenAI",
+      "category": "AI연구소",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://openai.com/news/rss.xml",
+      "title_source": "feed"
+    },
+    {
+      "title": "Introducing GPT-6.1 Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "date": "2026-09-29",
+      "date_raw": "Tue, 29 Sep 2026 10:00:00 GMT",
+      "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+      "org": "OpenAI",
+      "category": "AI연구소",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://openai.com/news/rss.xml",
+      "title_source": "feed"
+    },
+    {
+      "title": "Introducing dots",
+      "url": "https://openai.com/index/introducing-dots",
+      "date": "2026-09-29",
+      "date_raw": "Tue, 29 Sep 2026 00:00:00 GMT",
+      "summary": "Dots by OpenAI are a proactive assistant that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -109,6 +135,19 @@
       "date": "2026-09-28",
       "date_raw": "Mon, 28 Sep 2026 19:00:00 GMT",
       "summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
+      "org": "OpenAI",
+      "category": "AI연구소",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://openai.com/news/rss.xml",
+      "title_source": "feed"
+    },
+    {
+      "title": "How we will do better for Australia",
+      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "date": "2026-09-28",
+      "date_raw": "Mon, 28 Sep 2026 19:00:00 GMT",
+      "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -208,11 +247,11 @@
       "title_source": "feed"
     },
     {
-      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-      "url": "https://openai.com/index/ringg",
+      "title": "Sam Altman’s remarks at the United Nations Security Council",
+      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
       "date": "2026-09-23",
       "date_raw": "Wed, 23 Sep 2026 12:00:00 GMT",
-      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -221,11 +260,11 @@
       "title_source": "feed"
     },
     {
-      "title": "Sam Altman’s remarks at the United Nations Security Council",
-      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "url": "https://openai.com/index/ringg",
       "date": "2026-09-23",
       "date_raw": "Wed, 23 Sep 2026 12:00:00 GMT",
-      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -351,19 +390,6 @@
       "title_source": "feed"
     },
     {
-      "title": "Advisory Group on Mathematics and Artificial Intelligence",
-      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-      "date": "2026-09-21",
-      "date_raw": "Mon, 21 Sep 2026 12:00:00 GMT",
-      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
-      "org": "OpenAI",
-      "category": "AI연구소",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://openai.com/news/rss.xml",
-      "title_source": "feed"
-    },
-    {
       "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
       "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
       "date": "2026-09-21",
@@ -377,37 +403,11 @@
       "title_source": "feed"
     },
     {
-      "title": "Building standards for the next phase of AI",
-      "url": "https://openai.com/index/building-standards-next-phase-ai",
+      "title": "Advisory Group on Mathematics and Artificial Intelligence",
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
       "date": "2026-09-21",
-      "date_raw": "Mon, 21 Sep 2026 10:00:00 GMT",
-      "summary": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
-      "org": "OpenAI",
-      "category": "AI연구소",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://openai.com/news/rss.xml",
-      "title_source": "feed"
-    },
-    {
-      "title": "Expanding OpenAI Academy with new learning paths",
-      "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
-      "date": "2026-09-21",
-      "date_raw": "Mon, 21 Sep 2026 07:00:00 GMT",
-      "summary": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
-      "org": "OpenAI",
-      "category": "AI연구소",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://openai.com/news/rss.xml",
-      "title_source": "feed"
-    },
-    {
-      "title": "V7 cuts costs 78% while boosting accuracy with GPT-5.6 Luna",
-      "url": "https://openai.com/index/v7",
-      "date": "2026-09-21",
-      "date_raw": "Mon, 21 Sep 2026 00:00:00 GMT",
-      "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
+      "date_raw": "Mon, 21 Sep 2026 12:00:00 GMT",
+      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -2301,8 +2301,21 @@
       "title_source": "feed"
     },
     {
+      "title": "Your data, your storage, your rules: a 2026 guide to storing Unity Catalog managed tables",
+      "url": "https://www.databricks.com/blog/your-data-your-storage-your-rules-2026-guide-storing-unity-catalog-managed-tables",
+      "date": "2026-09-29",
+      "date_raw": "Tue, 29 Sep 2026 16:40:16 GMT",
+      "summary": "Unity catalog managed tables allow you to control the placement of your data when...",
+      "org": "Databricks",
+      "category": "데이터분석",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://www.databricks.com/feed",
+      "title_source": "feed"
+    },
+    {
       "title": "How Databricks rolls out frontier models to 12,000 employees on Day 1",
-      "url": "https://www.databricks.com/blog/how-databricks-rolls-out-frontier-models-14000-employees-day-1",
+      "url": "https://www.databricks.com/blog/how-databricks-rolls-out-frontier-models-12000-employees-day-1",
       "date": "2026-09-28",
       "date_raw": "Mon, 28 Sep 2026 20:11:23 GMT",
       "summary": "Providing our employees access to frontier AI capabilities is a top priority at Databricks, and consequently...",
@@ -2410,19 +2423,6 @@
       "date": "2026-09-24",
       "date_raw": "Thu, 24 Sep 2026 02:00:00 GMT",
       "summary": "We already had automation in parts of our security review process. It was useful,...",
-      "org": "Databricks",
-      "category": "데이터분석",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://www.databricks.com/feed",
-      "title_source": "feed"
-    },
-    {
-      "title": "How Concurrence governs clinical AI at a trillion-token scale with Unity Gateway",
-      "url": "https://www.databricks.com/blog/how-concurrence-governs-clinical-ai-trillion-token-scale-unity-gateway",
-      "date": "2026-09-23",
-      "date_raw": "Wed, 23 Sep 2026 12:19:55 GMT",
-      "summary": "Healthcare AI has little margin for error. AI agents helping coordinate patient care...",
       "org": "Databricks",
       "category": "데이터분석",
       "kind": "발표물",
@@ -2821,6 +2821,32 @@
       "title_source": "feed"
     },
     {
+      "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+      "date": "2026-09-29",
+      "date_raw": "2026-09-29T19:28:51.000Z",
+      "title_source": "page",
+      "title": "GLM-5.3 and the spread of advanced cyber capabilities",
+      "summary": "GLM-5.3 can autonomously build end-to-end cyber exploits, but unlike other frontier models, it was released without meaningful safeguards to limit misuse.",
+      "org": "Anthropic",
+      "category": "AI연구소",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.anthropic.com/sitemap.xml"
+    },
+    {
+      "url": "https://www.anthropic.com/research/your-thoughts-on-ai",
+      "date": "2026-09-29",
+      "date_raw": "2026-09-29T19:10:51.000Z",
+      "title_source": "page",
+      "title": "What Do You Want from AI?",
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "org": "Anthropic",
+      "category": "AI연구소",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.anthropic.com/sitemap.xml"
+    },
+    {
       "url": "https://www.anthropic.com/news/anthropic-infosys",
       "date": "2026-09-28",
       "date_raw": "2026-09-28T03:20:50.000Z",
@@ -2928,9 +2954,9 @@
       "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
       "date": "2026-09-17",
       "date_raw": "2026-09-17T23:46:13.000Z",
-      "title_source": "page",
-      "title": "An alignment assessment of recent cybersecurity incidents",
-      "summary": "We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems.",
+      "title_source": "url-slug",
+      "title": "Alignment Assessment Cybersecurity Incidents",
+      "summary": "",
       "org": "Anthropic",
       "category": "AI연구소",
       "kind": "발표물",
@@ -2941,9 +2967,9 @@
       "url": "https://www.anthropic.com/news/claude-corps",
       "date": "2026-09-11",
       "date_raw": "2026-09-11T02:45:01.000Z",
-      "title_source": "page",
-      "title": "Introducing Claude Corps",
-      "summary": "Claude Corps is a national fellowship for early-career people passionate about extending the benefits of AI to communities across America.",
+      "title_source": "url-slug",
+      "title": "News   Claude Corps",
+      "summary": "",
       "org": "Anthropic",
       "category": "AI연구소",
       "kind": "발표물",
@@ -3047,32 +3073,6 @@
       "date_raw": "2026-09-11T16:57:50.000Z",
       "title_source": "url-slug",
       "title": "Enabling Independent Research",
-      "summary": "",
-      "org": "Anthropic",
-      "category": "AI연구소",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.anthropic.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.anthropic.com/research/impact-software-development",
-      "date": "2026-09-11",
-      "date_raw": "2026-09-11T11:56:53.000Z",
-      "title_source": "url-slug",
-      "title": "Impact Software Development",
-      "summary": "",
-      "org": "Anthropic",
-      "category": "AI연구소",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.anthropic.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
-      "date": "2026-09-11",
-      "date_raw": "2026-09-11T09:42:25.000Z",
-      "title_source": "url-slug",
-      "title": "Intelligence Targeting Conventional Weapons Capabilities",
       "summary": "",
       "org": "Anthropic",
       "category": "AI연구소",
@@ -3601,6 +3601,19 @@
       "feed": "https://home.barclays/sitemap.xml"
     },
     {
+      "url": "https://www.goldmansachs.com/community-transformation/10000-small-businesses/uk/insights/stories-of-generation-growth",
+      "date": "2026-09-29",
+      "date_raw": "2026-09-29T15:26:05.000Z",
+      "title_source": "url-slug",
+      "title": "Stories Of Generation Growth",
+      "summary": "",
+      "org": "Goldman Sachs",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.goldmansachs.com/sitemap.xml"
+    },
+    {
       "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/how-family-businesses-should-plan-for-generational-success",
       "date": "2026-09-29",
       "date_raw": "2026-09-29T12:45:44.000Z",
@@ -3640,11 +3653,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/the-markets/why-the-bond-market-may-be-the-stock-markets-biggest-risk",
+      "url": "https://www.goldmansachs.com/insights/talks-at-gs/ryan-serhant-on-the-art-of-selling-luxury-real-estate",
       "date": "2026-09-25",
-      "date_raw": "2026-09-25T13:02:40.000Z",
+      "date_raw": "2026-09-25T20:16:02.000Z",
       "title_source": "url-slug",
-      "title": "Why The Bond Market May Be The Stock Markets Biggest Risk",
+      "title": "Ryan Serhant On The Art Of Selling Luxury Real Estate",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -3666,11 +3679,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/talks-at-gs/ryan-serhant-on-the-art-of-selling-luxury-real-estate",
+      "url": "https://www.goldmansachs.com/insights/the-markets/why-the-bond-market-may-be-the-stock-markets-biggest-risk",
       "date": "2026-09-25",
-      "date_raw": "2026-09-25T20:16:02.000Z",
+      "date_raw": "2026-09-25T13:02:40.000Z",
       "title_source": "url-slug",
-      "title": "Ryan Serhant On The Art Of Selling Luxury Real Estate",
+      "title": "Why The Bond Market May Be The Stock Markets Biggest Risk",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -3796,11 +3809,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/rich-friedman-on-the-rise-of-private-markets-and-ai-investing",
+      "url": "https://www.goldmansachs.com/insights/articles/consumer-agents-signal-new-phase-for-ai-growth",
       "date": "2026-09-18",
-      "date_raw": "2026-09-18T13:16:24.000Z",
+      "date_raw": "2026-09-18T11:02:53.000Z",
       "title_source": "url-slug",
-      "title": "Rich Friedman On The Rise Of Private Markets And Ai Investing",
+      "title": "Consumer Agents Signal New Phase For Ai Growth",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -3809,11 +3822,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/articles/consumer-agents-signal-new-phase-for-ai-growth",
+      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/rich-friedman-on-the-rise-of-private-markets-and-ai-investing",
       "date": "2026-09-18",
-      "date_raw": "2026-09-18T11:02:53.000Z",
+      "date_raw": "2026-09-18T13:16:24.000Z",
       "title_source": "url-slug",
-      "title": "Consumer Agents Signal New Phase For Ai Growth",
+      "title": "Rich Friedman On The Rise Of Private Markets And Ai Investing",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -3848,17 +3861,43 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/goldentrees-steven-tananbaum-the-evolution-of-credit-investing",
-      "date": "2026-09-18",
-      "date_raw": "2026-09-18T16:29:31.000Z",
+      "url": "https://www.jpmorgan.com/insights/sustainability/climate/board-discussion-resilience",
+      "date": "2026-09-29",
+      "date_raw": "2026-09-29",
       "title_source": "url-slug",
-      "title": "Goldentrees Steven Tananbaum The Evolution Of Credit Investing",
+      "title": "Board Discussion Resilience",
       "summary": "",
-      "org": "Goldman Sachs",
+      "org": "JPMorgan Chase",
       "category": "투자은행",
       "kind": "발표물",
       "source": "sitemap",
-      "feed": "https://www.goldmansachs.com/sitemap.xml"
+      "feed": "https://www.jpmorgan.com/sitemap.xml"
+    },
+    {
+      "url": "https://www.jpmorgan.com/insights/securities-services/regulatory-solutions/custody-industry-regulatory-developments",
+      "date": "2026-09-29",
+      "date_raw": "2026-09-29",
+      "title_source": "url-slug",
+      "title": "Custody Industry Regulatory Developments",
+      "summary": "",
+      "org": "JPMorgan Chase",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.jpmorgan.com/sitemap.xml"
+    },
+    {
+      "url": "https://www.jpmorgan.com/insights/podcast-hub/making-sense/why-tokenization-is-gaining-momentum",
+      "date": "2026-09-28",
+      "date_raw": "2026-09-28",
+      "title_source": "url-slug",
+      "title": "Why Tokenization Is Gaining Momentum",
+      "summary": "",
+      "org": "JPMorgan Chase",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.jpmorgan.com/sitemap.xml"
     },
     {
       "url": "https://www.jpmorgan.com/insights/real-estate/community-development-banking/funding-mitchell-lama-housing-renovations",
@@ -3874,11 +3913,11 @@
       "feed": "https://www.jpmorgan.com/sitemap.xml"
     },
     {
-      "url": "https://www.jpmorgan.com/insights/sustainability/climate/board-discussion-resilience",
+      "url": "https://www.jpmorgan.com/insights/banking/commercial-banking/gecko-robotics-scaled-banking-for-a-critical-industries-startup",
       "date": "2026-09-28",
       "date_raw": "2026-09-28",
       "title_source": "url-slug",
-      "title": "Board Discussion Resilience",
+      "title": "Gecko Robotics Scaled Banking For A Critical Industries Startup",
       "summary": "",
       "org": "JPMorgan Chase",
       "category": "투자은행",
@@ -3887,11 +3926,11 @@
       "feed": "https://www.jpmorgan.com/sitemap.xml"
     },
     {
-      "url": "https://www.jpmorgan.com/insights/podcast-hub/making-sense/why-tokenization-is-gaining-momentum",
+      "url": "https://www.jpmorgan.com/insights/banking/commercial-banking/voyager-technologies-from-a-space-startup-to-a-440m-ipo",
       "date": "2026-09-28",
       "date_raw": "2026-09-28",
       "title_source": "url-slug",
-      "title": "Why Tokenization Is Gaining Momentum",
+      "title": "Voyager Technologies From A Space Startup To A 440M Ipo",
       "summary": "",
       "org": "JPMorgan Chase",
       "category": "투자은행",
@@ -4017,19 +4056,6 @@
       "feed": "https://www.jpmorgan.com/sitemap.xml"
     },
     {
-      "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/managing-volatility-as-a-market-condition",
-      "date": "2026-09-24",
-      "date_raw": "2026-09-24",
-      "title_source": "url-slug",
-      "title": "Managing Volatility As A Market Condition",
-      "summary": "",
-      "org": "JPMorgan Chase",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.jpmorgan.com/sitemap.xml"
-    },
-    {
       "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/technology-overtakes-liquidity-market-structure",
       "date": "2026-09-24",
       "date_raw": "2026-09-24",
@@ -4095,32 +4121,6 @@
       "feed": "https://www.jpmorgan.com/sitemap.xml"
     },
     {
-      "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/machine-learning-in-private-credit",
-      "date": "2026-09-24",
-      "date_raw": "2026-09-24",
-      "title_source": "url-slug",
-      "title": "Machine Learning In Private Credit",
-      "summary": "",
-      "org": "JPMorgan Chase",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.jpmorgan.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/when-liquidity-goes-digital",
-      "date": "2026-09-24",
-      "date_raw": "2026-09-24",
-      "title_source": "url-slug",
-      "title": "When Liquidity Goes Digital",
-      "summary": "",
-      "org": "JPMorgan Chase",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.jpmorgan.com/sitemap.xml"
-    },
-    {
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/market-breadth-shrinking-group-stocks-mike-wilson",
       "date": "2026-09-28",
       "date_raw": "2026-09-28T20:23:26Z",
@@ -4139,6 +4139,32 @@
       "date_raw": "2026-09-28T14:24:06Z",
       "title_source": "url-slug",
       "title": "Thoughts On The Market",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
+      "url": "https://www.morganstanley.com/ideas/brain-computer-interfaces-ai",
+      "date": "2026-09-25",
+      "date_raw": "2026-09-25T06:23:03Z",
+      "title_source": "url-slug",
+      "title": "Brain Computer Interfaces Ai",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/ai-meets-real-economy-michelle-weaver-ravi-shanker-dave-arcaro",
+      "date": "2026-09-25",
+      "date_raw": "2026-09-25T20:52:06Z",
+      "title_source": "url-slug",
+      "title": "Ai Meets Real Economy Michelle Weaver Ravi Shanker Dave Arcaro",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4173,37 +4199,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/brain-computer-interfaces-ai",
-      "date": "2026-09-25",
-      "date_raw": "2026-09-25T06:23:03Z",
-      "title_source": "url-slug",
-      "title": "Brain Computer Interfaces Ai",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
       "url": "https://www.morganstanley.com/insights",
       "date": "2026-09-25",
       "date_raw": "2026-09-25T15:44:43Z",
       "title_source": "url-slug",
       "title": "Insights",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
-      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/ai-meets-real-economy-michelle-weaver-ravi-shanker-dave-arcaro",
-      "date": "2026-09-25",
-      "date_raw": "2026-09-25T20:52:06Z",
-      "title_source": "url-slug",
-      "title": "Ai Meets Real Economy Michelle Weaver Ravi Shanker Dave Arcaro",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4225,19 +4225,6 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/diesel-fuel-market-spotlight-global-supply-andrew-sheets-martijn-rats",
-      "date": "2026-09-24",
-      "date_raw": "2026-09-24T21:31:16Z",
-      "title_source": "url-slug",
-      "title": "Diesel Fuel Market Spotlight Global Supply Andrew Sheets Martijn Rats",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
       "url": "https://www.morganstanley.com/insights/themes/global-healthcare-conference",
       "date": "2026-09-24",
       "date_raw": "2026-09-24T17:34:55Z",
@@ -4251,11 +4238,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/middle-east-conflict-oil-prices-martijn-rats",
-      "date": "2026-09-23",
-      "date_raw": "2026-09-23T09:55:10Z",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/diesel-fuel-market-spotlight-global-supply-andrew-sheets-martijn-rats",
+      "date": "2026-09-24",
+      "date_raw": "2026-09-24T21:31:16Z",
       "title_source": "url-slug",
-      "title": "Middle East Conflict Oil Prices Martijn Rats",
+      "title": "Diesel Fuel Market Spotlight Global Supply Andrew Sheets Martijn Rats",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4264,11 +4251,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/safe-have-assets-serena-tang-vishy-tirupattur",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/us-china-trade-truce-mike-wilson",
       "date": "2026-09-23",
-      "date_raw": "2026-09-23T11:38:53Z",
+      "date_raw": "2026-09-23T11:52:34Z",
       "title_source": "url-slug",
-      "title": "Safe Have Assets Serena Tang Vishy Tirupattur",
+      "title": "Us China Trade Truce Mike Wilson",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4277,11 +4264,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/taiwanese-dollar-surge-michael-zezas-james-lord",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/foreign-trade-policy-market-volatility-andrew-sheets",
       "date": "2026-09-23",
-      "date_raw": "2026-09-23T12:17:09Z",
+      "date_raw": "2026-09-23T07:58:31Z",
       "title_source": "url-slug",
-      "title": "Taiwanese Dollar Surge Michael Zezas James Lord",
+      "title": "Foreign Trade Policy Market Volatility Andrew Sheets",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4290,11 +4277,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/macroeconomic-uncertainty-how-investors-are-playing-defense",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/india-resurgence-tariffs-chetan-ahya",
       "date": "2026-09-23",
-      "date_raw": "2026-09-23T09:35:20Z",
+      "date_raw": "2026-09-23T09:13:44Z",
       "title_source": "url-slug",
-      "title": "Macroeconomic Uncertainty How Investors Are Playing Defense",
+      "title": "India Resurgence Tariffs Chetan Ahya",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4303,11 +4290,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/tariffs-us-dollar-ariana-salvatore",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/japan-summit-2025-outlook-chiwoong-lee-sho-nakazawa",
       "date": "2026-09-23",
-      "date_raw": "2026-09-23T12:36:07Z",
+      "date_raw": "2026-09-23T09:25:13Z",
       "title_source": "url-slug",
-      "title": "Tariffs Us Dollar Ariana Salvatore",
+      "title": "Japan Summit 2025 Outlook Chiwoong Lee Sho Nakazawa",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4316,11 +4303,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/morgan-stanley-midyear-outlook-part-two-seth-carpenter-serena-tang",
+      "url": "https://www.morganstanley.com/insights/videos/exceptional-leaders-exceptional-ideas/arista-networks-jayshree-ullal",
       "date": "2026-09-23",
-      "date_raw": "2026-09-23T10:04:48Z",
+      "date_raw": "2026-09-23T07:33:39Z",
       "title_source": "url-slug",
-      "title": "Morgan Stanley Midyear Outlook Part Two Seth Carpenter Serena Tang",
+      "title": "Arista Networks Jayshree Ullal",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4329,11 +4316,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/private-credit-market-risk-vishy-tirupattur-joyce-jiang",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/equities-market-optimistic-outlook-mike-wilson",
       "date": "2026-09-23",
-      "date_raw": "2026-09-23T11:22:46Z",
+      "date_raw": "2026-09-23T07:49:18Z",
       "title_source": "url-slug",
-      "title": "Private Credit Market Risk Vishy Tirupattur Joyce Jiang",
+      "title": "Equities Market Optimistic Outlook Mike Wilson",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4342,11 +4329,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/decline-alcohol-consumption-sarah-simon",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/tax-free-municipal-bonds-mark-schmidt-craig-brandon",
       "date": "2026-09-23",
-      "date_raw": "2026-09-23T07:44:04Z",
+      "date_raw": "2026-09-23T12:30:05Z",
       "title_source": "url-slug",
-      "title": "Decline Alcohol Consumption Sarah Simon",
+      "title": "Tax Free Municipal Bonds Mark Schmidt Craig Brandon",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4368,11 +4355,24 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/trump-immigration-policy-economic-impact-michael-gapen-sam-coffin",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/gold-prices-steady-rise-amy-gower",
       "date": "2026-09-23",
-      "date_raw": "2026-09-23T11:44:04Z",
+      "date_raw": "2026-09-23T09:08:46Z",
       "title_source": "url-slug",
-      "title": "Trump Immigration Policy Economic Impact Michael Gapen Sam Coffin",
+      "title": "Gold Prices Steady Rise Amy Gower",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/humanoid-robot-market-rising-adam-jonas-sheng-zhong",
+      "date": "2026-09-23",
+      "date_raw": "2026-09-23T09:11:43Z",
+      "title_source": "url-slug",
+      "title": "Humanoid Robot Market Rising Adam Jonas Sheng Zhong",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4798,7 +4798,7 @@
       "title_source": "openalex",
       "venue": "Communications Physics",
       "work_type": "article",
-      "cited_by": 0
+      "cited_by": 1
     },
     {
       "title": "NLM-CD: a regime-conditional neighbourhood linkage method for central counterparty risk classification",
@@ -5148,7 +5148,7 @@
       "title_source": "openalex",
       "venue": "International Journal of Contemporary Hospitality Management",
       "work_type": "article",
-      "cited_by": 13
+      "cited_by": 14
     },
     {
       "title": "Stock returns revisited and variances hedged by machine learning",
@@ -6296,7 +6296,7 @@
       "title_source": "openalex",
       "venue": "Strategy and Leadership",
       "work_type": "article",
-      "cited_by": 23
+      "cited_by": 24
     },
     {
       "title": "Forecasting inflation using sentiment",
@@ -6492,6 +6492,20 @@
       "title_source": "openalex",
       "venue": "Journal of Engineering Research and Reports",
       "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "AEGIS: An Auditable Evidence-Governed Interface for Cost-Aware AI Harness Selection in Finance",
+      "url": "https://openalex.org/W7208802205",
+      "date": "2026-09-02",
+      "summary": "",
+      "org": "Barclays",
+      "category": "투자은행",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "HAL (Le Centre pour la Communication Scientifique Directe)",
+      "work_type": "preprint",
       "cited_by": 0
     },
     {
@@ -6815,20 +6829,6 @@
       "venue": "SSRN Electronic Journal",
       "work_type": "preprint",
       "cited_by": 7
-    },
-    {
-      "title": "Fault-Tolerant Load Balancing in Cloud-based Financial Analytics: A Reinforcement Approach",
-      "url": "https://doi.org/10.2139/ssrn.5159087",
-      "date": "2025-01-01",
-      "summary": "",
-      "org": "Barclays",
-      "category": "투자은행",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "SSRN Electronic Journal",
-      "work_type": "preprint",
-      "cited_by": 0
     },
     {
       "title": "Board governance in Southeast Europe: towards stronger training and qualification standards for non-executive and supervisory board members",
@@ -7531,6 +7531,20 @@
       "cited_by": 0
     },
     {
+      "title": "Quantitative and Nondestructive 3D Localization of Thermally Active Electrical Defects Using Lock-in Thermography",
+      "url": "https://doi.org/10.1007/s11668-026-02591-7",
+      "date": "2026-09-27",
+      "summary": "",
+      "org": "Intel",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Journal of Failure Analysis and Prevention",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "Segmentação de plantas daninhas em canaviais a partir de ortomosaicos de VANT com redes neurais convolucionais e anotação promptável de mascaras",
       "url": "https://doi.org/10.52641/cadcajv11i13.3805",
       "date": "2026-09-18",
@@ -7867,20 +7881,6 @@
       "cited_by": 0
     },
     {
-      "title": "Effects of 5G frequencies on sperm parameters, mating success, and offspring outcomes in rats",
-      "url": "https://doi.org/10.25259/ijmr_3658_2025",
-      "date": "2026-07-28",
-      "summary": "",
-      "org": "Intel",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "The Indian Journal of Medical Research",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
       "title": "Perception of novel words in noise by cochlear implant users",
       "url": "https://doi.org/10.1121/10.0045379",
       "date": "2026-08-01",
@@ -8060,7 +8060,7 @@
       "title_source": "openalex",
       "venue": "Electronics",
       "work_type": "article",
-      "cited_by": 0
+      "cited_by": 1
     },
     {
       "title": "Macula Spatial Patterns and Their Association With Central Visual Field Progression in Glaucoma Using Artificial Intelligence",
@@ -8354,7 +8354,7 @@
       "title_source": "openalex",
       "venue": "Journal of Automated Reasoning",
       "work_type": "article",
-      "cited_by": 2
+      "cited_by": 3
     },
     {
       "title": "THE BENEFIT OF SOLVING BLINDFOLDED TACTICS IN YOUNG AND ADULT PLAYERS",
@@ -8886,7 +8886,7 @@
       "title_source": "openalex",
       "venue": "Light Science & Applications",
       "work_type": "article",
-      "cited_by": 9
+      "cited_by": 10
     },
     {
       "title": "AI-Enabled Emergency Communication Networks: Transforming Crisis Response Through Intelligent Connectivity",
@@ -9068,7 +9068,7 @@
       "title_source": "openalex",
       "venue": "Advances in Space Research",
       "work_type": "article",
-      "cited_by": 2
+      "cited_by": 3
     },
     {
       "title": "Power Management Challenges and Solutions in Advanced Technology Nodes: A Comprehensive Analysis",
@@ -9631,6 +9631,48 @@
       "cited_by": 0
     },
     {
+      "title": "Dual-Layer Microencapsulated Phase Change Material Composite with Enthalpy-Active Shell for Thermal Absorption and Directional Heat Management",
+      "url": "https://doi.org/10.1021/acsaem.6c02175",
+      "date": "2026-09-28",
+      "summary": "",
+      "org": "Samsung Electronics",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "ACS Applied Energy Materials",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "Character-Based Visual Agents for Enhancing Mobile Situation Awareness: Design, Implementation, and Evaluation",
+      "url": "https://doi.org/10.1080/10447318.2026.2737580",
+      "date": "2026-09-28",
+      "summary": "",
+      "org": "Samsung Electronics",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "International Journal of Human-Computer Interaction",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "CD44 Receptor-Guided Hyaluronic Acid Nanogels with Dual-Stimuli Responsiveness and Lysosomal Disruption Capability for In Vivo Protein Delivery in Lung Cancer Treatment",
+      "url": "https://doi.org/10.1021/acs.biomac.6c01379",
+      "date": "2026-09-28",
+      "summary": "",
+      "org": "Samsung Electronics",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Biomacromolecules",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "Promoter-Targeted CRISPR Correction of PMP22 Gene Dosage Restores Schwann Cell Homeostasis in Charcot–Marie–Tooth Disease Type 1A",
       "url": "https://doi.org/10.1007/s13770-026-00837-x",
       "date": "2026-09-27",
@@ -9641,6 +9683,20 @@
       "source": "openalex",
       "title_source": "openalex",
       "venue": "Tissue Engineering and Regenerative Medicine",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "Quantitative Optimization of Optical Beam Alignment for Throughput Enhancement in Dark-Field Wafer Inspection Systems",
+      "url": "https://doi.org/10.3390/photonics13100915",
+      "date": "2026-09-27",
+      "summary": "",
+      "org": "Samsung Electronics",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Photonics",
       "work_type": "article",
       "cited_by": 0
     },
@@ -9739,6 +9795,20 @@
       "source": "openalex",
       "title_source": "openalex",
       "venue": "Sensors",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "Band-engineered high-k oxide nanodots embedded in Si3N4 charge-trap layers for enhanced flash memory performance",
+      "url": "https://doi.org/10.1016/j.apsusc.2026.168392",
+      "date": "2026-09-20",
+      "summary": "",
+      "org": "Samsung Electronics",
+      "category": "반도체",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Applied Surface Science",
       "work_type": "article",
       "cited_by": 0
     },
@@ -9907,76 +9977,6 @@
       "source": "openalex",
       "title_source": "openalex",
       "venue": "ACS Nano",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Multi-stage suppression of Josephson junction variability with wafer-scale uniformity in 20-qubit superconducting circuits",
-      "url": "https://doi.org/10.1038/s41598-026-70944-1",
-      "date": "2026-09-15",
-      "summary": "",
-      "org": "Samsung Electronics",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Scientific Reports",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Plasma five-protein risk score for prognostic stratification in patients with advanced hepatocellular carcinoma treated with atezolizumab plus bevacizumab",
-      "url": "https://doi.org/10.1038/s41598-026-70815-9",
-      "date": "2026-09-15",
-      "summary": "",
-      "org": "Samsung Electronics",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Scientific Reports",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Body weight changes after switching to lurasidone for antipsychotic-induced weight gain in bipolar disorder: a multicenter retrospective study of a selected follow-up cohort",
-      "url": "https://doi.org/10.1186/s12888-026-08642-5",
-      "date": "2026-09-14",
-      "summary": "",
-      "org": "Samsung Electronics",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "BMC Psychiatry",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Physics‐Informed Agent‐Analytics Framework With Causal Validation for Crease Prediction in Multilayer Flexible Cover Stacks",
-      "url": "https://doi.org/10.1002/jsid.70101",
-      "date": "2026-09-13",
-      "summary": "",
-      "org": "Samsung Electronics",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Journal of the Society for Information Display",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Efficient Polynomial Multiplication for HQC on ARM Cortex-M4",
-      "url": "https://doi.org/10.46586/tches.v2026.i4.998-1021",
-      "date": "2026-09-11",
-      "summary": "",
-      "org": "Samsung Electronics",
-      "category": "반도체",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
       "work_type": "article",
       "cited_by": 0
     },
@@ -10650,7 +10650,7 @@
       "title_source": "openalex",
       "venue": "Journal of Artificial Intelligence Research",
       "work_type": "article",
-      "cited_by": 6
+      "cited_by": 5
     },
     {
       "title": "Primitive Geometry and the Constants π, c, and h: A Minimal Ontology for Closure Theory",
@@ -10677,6 +10677,20 @@
       "source": "openalex",
       "title_source": "openalex",
       "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
+      "title": "Generalizing equilibrium propagation to Lagrangian systems with arbitrary boundary conditions & equivalence with Hamiltonian echo learning",
+      "url": "https://doi.org/10.1088/2634-4386/aeac80",
+      "date": "2026-09-25",
+      "summary": "",
+      "org": "Google DeepMind",
+      "category": "AI연구소",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Neuromorphic Computing and Engineering",
       "work_type": "article",
       "cited_by": 0
     },
@@ -10975,6 +10989,20 @@
       "cited_by": 0
     },
     {
+      "title": "Bridging Algorithmic Information Theory and Machine Learning, Part IV: Solomonoff Gaussian Hilbert Spaces, Solomonoff Gaussian Processes, and Solomonoff Gaussian Fields",
+      "url": "https://doi.org/10.1016/j.physd.2026.135371",
+      "date": "2026-08-01",
+      "summary": "",
+      "org": "Google DeepMind",
+      "category": "AI연구소",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Physica D Nonlinear Phenomena",
+      "work_type": "article",
+      "cited_by": 1
+    },
+    {
       "title": "Bridging language and action: A survey of language-conditioned robot manipulation",
       "url": "https://doi.org/10.1177/02783649261468360",
       "date": "2026-07-29",
@@ -10999,34 +11027,6 @@
       "source": "openalex",
       "title_source": "openalex",
       "venue": "PRX Intelligence",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "AlphaFold Database expands to proteome-scale quaternary structures",
-      "url": "https://doi.org/10.21203/rs.3.rs-9890026/v1",
-      "date": "2026-07-23",
-      "summary": "",
-      "org": "Google DeepMind",
-      "category": "AI연구소",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Research Square",
-      "work_type": "preprint",
-      "cited_by": 0
-    },
-    {
-      "title": "Age and generational differences in anthropomorphism and trust in large language models",
-      "url": "https://doi.org/10.3389/fcogn.2026.1824836",
-      "date": "2026-07-20",
-      "summary": "",
-      "org": "Google DeepMind",
-      "category": "AI연구소",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Frontiers in Cognition",
       "work_type": "article",
       "cited_by": 0
     },
@@ -11409,6 +11409,20 @@
       "cited_by": 0
     },
     {
+      "title": "Explainability-Guided Multimodal Optimization for Arabic Music Genre Classification",
+      "url": "https://doi.org/10.3390/app16199613",
+      "date": "2026-09-28",
+      "summary": "",
+      "org": "Microsoft",
+      "category": "데이터분석",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Applied Sciences",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "Renegotiating the Social Contract of Search",
       "url": "https://doi.org/10.1109/mc.2026.3714248",
       "date": "2026-09-24",
@@ -11434,20 +11448,6 @@
       "title_source": "openalex",
       "venue": "Computer",
       "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "EPIC: An open community challenge for sequence-based prediction of transcription initiation in five non-model metazoans",
-      "url": "https://doi.org/10.64898/2026.09.16.752171",
-      "date": "2026-09-24",
-      "summary": "",
-      "org": "Microsoft",
-      "category": "데이터분석",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "work_type": "preprint",
       "cited_by": 0
     },
     {
@@ -11661,6 +11661,20 @@
       "cited_by": 0
     },
     {
+      "title": "Densities and viscosities of binary liquid mixtures of chlorobenzene, p-xylene, octane,1-hexanol and ethylbenzene at (293.15 and 298.15) K",
+      "url": "https://doi.org/10.1016/j.ctta.2026.100376",
+      "date": "2026-09-14",
+      "summary": "",
+      "org": "Microsoft",
+      "category": "데이터분석",
+      "kind": "논문",
+      "source": "openalex",
+      "title_source": "openalex",
+      "venue": "Chemical Thermodynamics and Thermal Analysis",
+      "work_type": "article",
+      "cited_by": 0
+    },
+    {
       "title": "Evaluating Large Language Models for Antisemitic Incident Classification",
       "url": "https://doi.org/10.66144/y2a6qps",
       "date": "2026-09-13",
@@ -11713,20 +11727,6 @@
       "source": "openalex",
       "title_source": "openalex",
       "venue": "Journal of Sleep Research",
-      "work_type": "article",
-      "cited_by": 0
-    },
-    {
-      "title": "Using Machine Learning to Identify Social Risk Factors of Hypertension and Diabetes in New York City: Evidence to Support the HealthyNYC Initiative",
-      "url": "https://doi.org/10.1161/jaha.125.049029",
-      "date": "2026-09-09",
-      "summary": "",
-      "org": "Microsoft",
-      "category": "데이터분석",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "Journal of the American Heart Association",
       "work_type": "article",
       "cited_by": 0
     },
@@ -12750,7 +12750,7 @@
       "title_source": "openalex",
       "venue": "Infection Control and Hospital Epidemiology",
       "work_type": "article",
-      "cited_by": 147
+      "cited_by": 146
     },
     {
       "title": "Health care-associated infections studies project: An American Journal of Infection Control and National Healthcare Safety Network Data Quality Collaboration Case Study – Chapter 9 Surgical site infection event (SSI) case study",
@@ -13100,7 +13100,7 @@
       "title_source": "openalex",
       "venue": "Communications of the ACM",
       "work_type": "article",
-      "cited_by": 292
+      "cited_by": 293
     },
     {
       "title": "Towards a Data Analysis Recommendation System",
@@ -13128,7 +13128,7 @@
       "title_source": "openalex",
       "venue": "Queue",
       "work_type": "article",
-      "cited_by": 46
+      "cited_by": 43
     },
     {
       "title": "FleCSI: Flexible Computational Science Infrastructure",
@@ -14514,7 +14514,7 @@
       "title_source": "openalex",
       "venue": "Aerospace",
       "work_type": "article",
-      "cited_by": 10
+      "cited_by": 9
     },
     {
       "title": "Inferring school district learning modalities during the COVID-19 pandemic with a hidden Markov model",
@@ -14668,21 +14668,7 @@
       "title_source": "openalex",
       "venue": "Software Impacts",
       "work_type": "article",
-      "cited_by": 3
-    },
-    {
-      "title": "An in silico drug repurposing pipeline to identify drugs with the potential to inhibit SARS-CoV-2 replication",
-      "url": "https://doi.org/10.48550/arxiv.2107.02905",
-      "date": "2021-07-05",
-      "summary": "",
-      "org": "Dataiku",
-      "category": "데이터분석",
-      "kind": "논문",
-      "source": "openalex",
-      "title_source": "openalex",
-      "venue": "arXiv (Cornell University)",
-      "work_type": "preprint",
-      "cited_by": 1
+      "cited_by": 4
     },
     {
       "title": "Die Wirtschaftlichkeit Künstlicher Intelligenz",
@@ -14710,7 +14696,7 @@
       "title_source": "openalex",
       "venue": "Proceedings of the National Academy of Sciences",
       "work_type": "article",
-      "cited_by": 335
+      "cited_by": 336
     },
     {
       "title": "Digital social capital and performance of initial coin offerings",
@@ -14752,7 +14738,7 @@
       "title_source": "openalex",
       "venue": "Journal of Computational and Graphical Statistics",
       "work_type": "article",
-      "cited_by": 24
+      "cited_by": 25
     },
     {
       "title": "Fast Tree Inference With Weighted Fusion Penalties",

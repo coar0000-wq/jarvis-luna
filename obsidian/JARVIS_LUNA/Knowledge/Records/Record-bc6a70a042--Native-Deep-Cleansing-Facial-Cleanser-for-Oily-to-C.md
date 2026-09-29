@@ -2,7 +2,7 @@
 title: "Record bc6a70a042 · Native-Deep-Cleansing-Facial-Cleanser-for-Oily-to-Combination-Skin-Sul"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:35.385689+00:00
+updated_at: 2026-09-29T20:40:23.239381+00:00
 tags: [record, real-data]
 ---
 

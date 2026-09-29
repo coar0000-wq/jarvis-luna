@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T14:35:27.537094+00:00",
+  "generated_at": "2026-09-29T20:26:26.714854+00:00",
   "generator": "scripts/collect_robotics.py",
   "목적": "옵시디언 주제 '로보틱스' 가 3건뿐이던 문제를 해결한다. 분류기는 정상이었고 수집원에 로봇 자료가 없었던 것이 원인이다.",
   "접근_정책": "arXiv 은 프로그램 접근용 export.arxiv.org 를 제공하며 그 주소만 사용하고 요청 간 3초를 둔다. RSS 두 곳은 robots.txt 허용을 확인했다.",
@@ -10,6 +10,22 @@
       "reason": "",
       "경로": "api.openalex.org (robots Allow: /) · export.arxiv.org 에는 요청하지 않는다",
       "items": [
+        {
+          "title": "Component Benchmark: Hierarchical Model Profiling for Large-scale Recommendation Systems",
+          "summary": "Large-scale recommendation models pose distinct, under-explored profiling challenges. Most recommendation model architectures are structurally heterogeneous, intermixing memory-bandwidth-bound operations, small compute-bound dense layers, dynamic shapes from jagged categorical features, and low-arithmetic-intensity operations. Recommendation models evolve rapidly as modeling engineers experiment w",
+          "published": "2026-09-25",
+          "url": "https://doi.org/10.48550/arxiv.2609.30656",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "DynBranch: Speculative Subgraph Reuse for Dynamic Agentic LLM Serving",
+          "summary": "Agentic LLM workflows decide their execution paths at runtime. Downstream computation may be predictable, or may have run before, yet it cannot begin until the model or the user resolves the branch. We call this serialization the branch-resolution barrier. Caching alone does not hide it: the key that identifies a reusable result is not known until then. In this paper, we propose DynBranch, which m",
+          "published": "2026-09-25",
+          "url": "https://doi.org/10.48550/arxiv.2609.31047",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
         {
           "title": "HBF-Sim: An Extensible HBF Simulator for Large-scale GPU Memory Systems",
           "summary": "High-bandwidth flash (HBF) is introduced to address the memory wall, which can co-package a dense NAND stack with the GPU, targeting the performance gap between near-accelerator bandwidth and flash density. HBF, however, is neither a large HBM nor a fast NVMe SSD. Its usable bandwidth depends on how GPU cache-line requests map onto NAND pages, how concurrency spreads across channel-affine die sets",
@@ -35,10 +51,26 @@
           "source_detail": "arXiv via OpenAlex"
         },
         {
+          "title": "Managing Iterative Hybrid Quantum-Classical Optimization as a First-Class Scientific Workflow",
+          "summary": "Today's Quantum Processing Units (QPUs) are too small and too noisy to solve large combinatorial optimization problems directly, so practical hybrid solvers split a problem into pieces and iterate a decompose-solve-aggregate loop over whatever backends are available: classical heuristics, simulators, emulators, or a QPU. In practice, the loop is a driver script. It sits on top of the quantum-HPC m",
+          "published": "2026-09-24",
+          "url": "https://doi.org/10.48550/arxiv.2609.30532",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
           "title": "Strong NP-Hardness and Approximation Algorithm for Weighted Tardiness with Release Dates and Identical Processing Times",
           "summary": "We study nonpreemptive scheduling on a single machine with release dates, due dates, positive job weights, and a common processing time. The objective is to minimize total weighted tardiness. Although closely related equal-processing-time problems admit polynomial-time algorithms, the complexity of this problem has remained open in the literature since 2010. We prove that its decision version is s",
           "published": "2026-09-23",
           "url": "https://arxiv.org/abs/2609.28751",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "Empty Intersection: Provenance Coverage Rose to 98% and Neither Verification Decision Moved",
+          "summary": "Two structural defenses for provenance, a grade on every row, so that a verification routine cannot mistake the system's own output for an observation, and a single write ingress, so that the grade is enforced rather than merely conventional, were measured against the production deployment that motivated them, over a frozen snapshot of 194,620 rows and the two verification decisions the snapshot s",
+          "published": "2026-09-23",
+          "url": "https://doi.org/10.48550/arxiv.2609.30308",
           "primary_category": "로보틱스",
           "source_detail": "arXiv via OpenAlex"
         },
@@ -175,38 +207,6 @@
           "summary": "Dynamic cloud workflow scheduling must balance deadline satisfaction, container utilization, and energy consumption while dealing with stochastic task-execution speeds, placement-dependent communication, and coupled task and container decisions. Workflows are naturally modeled as directed acyclic graphs (DAGs), but conventional vector- or matrix-based states do not fully capture their dependency t",
           "published": "2026-09-14",
           "url": "https://arxiv.org/abs/2609.14952",
-          "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
-        },
-        {
-          "title": "Stability-Aware Proactive Autoscaling Using a Double Deep Q-Network in Cloud Computing Environments",
-          "summary": "Dynamic workloads and latency-sensitive applications require efficient autoscaling in cloud computing environments. However, most existing approaches rely on reactive mechanisms based on static thresholds, resulting in delayed responses and scaling oscillations under workload uncertainty. To address these limitations, we propose a double deep Q-Network-based proactive autoscaling approach (DDQN-Pr",
-          "published": "2026-09-14",
-          "url": "https://arxiv.org/abs/2609.14894",
-          "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
-        },
-        {
-          "title": "Cnuas: A Software-Defined AI/HPC Rack-scale Emulation Platform and Hyperscale Data Center Facility Twin",
-          "summary": "Modern AI and HPC systems integrate accelerators, high-speed networks, and management controllers at rack scale. Developing software for this infrastructure typically requires access to scarce, costly hardware, while software abstractions can obscure how workloads depend on resources across servers and accelerators. This paper presents Cnuas, an open-source, experimental rack-scale emulation platf",
-          "published": "2026-09-14",
-          "url": "https://arxiv.org/abs/2609.15889",
-          "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
-        },
-        {
-          "title": "Where Should the KV Cache Live? Placement Policies Across GPU, CPU, and SSD for Long-Lived Sessions",
-          "summary": "GPU high bandwidth memory is scarce and expensive, and KV caches consume much of it as chats, agent loops, and document question answering accumulate state. Systems such as Mooncake, LMCache, FlexGen, InfiniGen, and AttentionStore extend GPU memory with CPU DRAM and SSD. The harder question is which blocks belong in each tier, when to move or evict them, and whether prefetching helps. We study the",
-          "published": "2026-09-14",
-          "url": "https://arxiv.org/abs/2609.16215",
-          "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
-        },
-        {
-          "title": "ECAS: An Edge-Controlled Agentic System for Validation-Gated Scientific Application Execution",
-          "summary": "Scientific applications increasingly rely on high-performance computing (HPC), yet translating a scientist's high-level goal into a correct target-scale execution remains brittle and labor-intensive. Large language model (LLM) agents promise to automate this, but two obstacles remain: granting a cloud-hosted model direct HPC access exposes credentials and execution authority, while withholding it ",
-          "published": "2026-09-13",
-          "url": "https://arxiv.org/abs/2609.14211",
           "primary_category": "로보틱스",
           "source_detail": "arXiv via OpenAlex"
         },
@@ -428,6 +428,14 @@
           "source": "rss"
         },
         {
+          "title": "ForceN to give a crash course on force and torque sensing for humanoids at RoboBusiness",
+          "summary": "<p>Attendees will learn about the many ways they can use force and torque sensors in humanoids and how to avoid breaking them while doing it.</p> <p>The post <a href=\"https://www.therobotreport.com/forcen-gives-crash-course-force-torque-sensing-humanoids-robobusiness-2026/\">ForceN to give a crash course on force and torque sensing for humanoids at RoboBusiness</a> appeared first on <a href=\"https:",
+          "published": "Tue, 29 Sep 2026 19:52:46 +0000",
+          "url": "https://www.therobotreport.com/forcen-gives-crash-course-force-torque-sensing-humanoids-robobusiness-2026/",
+          "feed": "The Robot Report",
+          "source": "rss"
+        },
+        {
           "title": "Meet Flourish One, the Raspberry Pi-powered humanoid built for busy parents",
           "summary": "<p>Flourish is releasing a $3,555 phone-trainable home robot, targeting busy parents with personalized, cloud-trained chore automation.</p> <p>The post <a href=\"https://www.therobotreport.com/meet-flourish-one-raspberry-pi-powered-humanoid-built-busy-parents/\">Meet Flourish One, the Raspberry Pi-powered humanoid built for busy parents</a> appeared first on <a href=\"https://www.therobotreport.com\">",
           "published": "Tue, 29 Sep 2026 14:00:12 +0000",
@@ -437,7 +445,7 @@
         },
         {
           "title": "State of Robots in Manufacturing",
-          "summary": "<p>Report looks at advances in robots for manufacturing Robotics in manufacturing has evolved from the days of rigidly programmed robot arms on automotive production lines. Robot models are diversifying, widening applications for industrial automation are changing with improvements in perception, autonomy, and actuation. In addition, widespread shortages of skilled labor are driving demand in dive",
+          "summary": "<p>The Robot Report looks at recent advances in automation for manufacturing, from improvements in technologies and use cases to the potential of humanoids and AI.</p> <p>The post <a href=\"https://www.therobotreport.com/state-of-robots-in-manufacturing/\">State of Robots in Manufacturing</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
           "published": "Tue, 29 Sep 2026 13:22:56 +0000",
           "url": "https://www.therobotreport.com/state-of-robots-in-manufacturing/",
           "feed": "The Robot Report",
@@ -536,14 +544,6 @@
           "summary": "<p>Epson Robots has expanded its six-axis robot line with the AX6, a lightweight force- and power-limited arm.</p> <p>The post <a href=\"https://www.therobotreport.com/epson-introduces-ax6-cobot-compact-design-no-code-programming/\">Epson introduces AX6 cobot with compact design, no-code programming</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
           "published": "Thu, 24 Sep 2026 14:51:07 +0000",
           "url": "https://www.therobotreport.com/epson-introduces-ax6-cobot-compact-design-no-code-programming/",
-          "feed": "The Robot Report",
-          "source": "rss"
-        },
-        {
-          "title": "ANYbotics opens the door for inspections with ANYmal robots",
-          "summary": "<p>ANYbotics partnered with dormakaba and LEGIC Identsystems to enable the ANYmal quadruped to gain access like a badged employee.</p> <p>The post <a href=\"https://www.therobotreport.com/anybotics-opens-the-door-for-inspections-with-anymal-robots/\">ANYbotics opens the door for inspections with ANYmal robots</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
-          "published": "Thu, 24 Sep 2026 13:27:58 +0000",
-          "url": "https://www.therobotreport.com/anybotics-opens-the-door-for-inspections-with-anymal-robots/",
           "feed": "The Robot Report",
           "source": "rss"
         }

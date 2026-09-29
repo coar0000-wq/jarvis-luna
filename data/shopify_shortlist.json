@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-29T14:47:25.228780+00:00",
+  "generated_at": "2026-09-29T20:38:16.971561+00:00",
   "generator": "scripts/build_shopify_shortlist.py",
   "status": "proposed",
   "source": "rules",
@@ -13,12 +13,13 @@
     "dedupe": "미국 근거 상품 하나당 단위 하나",
     "sticky": "기존 단위는 밀려나지 않음"
   },
-  "active_unit_count": 3,
+  "active_unit_count": 4,
   "active_pd_nos": [
     "1049275",
     "1049276",
     "1055167",
-    "1059834"
+    "1059834",
+    "1067498"
   ],
   "units": [
     {
@@ -37,9 +38,9 @@
       ],
       "score": 100,
       "evidence": {
-        "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
-        "channel": "oliveyoung_us",
-        "similarity": 0.733
+        "global_product": "Skin1004 Madagascar Centella Ampoule",
+        "channel": "tiktok_shop_us",
+        "similarity": 0.7
       },
       "added_at": "2026-09-29T10:03:26.384544+00:00",
       "status": "active",
@@ -79,27 +80,37 @@
       ],
       "score": 90,
       "evidence": {
-        "global_product": "Biodance Bio-Collagen Real Deep Mask",
-        "channel": "tiktok_shop_us",
+        "global_product": "Biodance Bio Collagen-Real Deep Mask 16ct 1.19 oz.(34g)",
+        "channel": "oliveyoung_us",
         "similarity": 0.88
       },
       "added_at": "2026-09-29T10:03:26.384568+00:00",
       "status": "active",
       "note": ""
-    }
-  ],
-  "not_selected": [
+    },
     {
       "unit_id": "VG-CP000216",
       "pd_nos": [
         "1067498"
       ],
+      "canonical_product_ids": [
+        "CP000216"
+      ],
       "names": [
         "[영양광채]VT PDRN 광채 크림 50 ml"
       ],
       "score": 96,
-      "reason": "매칭 근거 형태 불일치: 우리 ['얼굴'] vs 미국 ['eye'] (Lacto-PDRN 4% + B9 Eye Cream)"
-    },
+      "evidence": {
+        "global_product": "Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
+        "channel": "oliveyoung_us",
+        "similarity": 0.853
+      },
+      "added_at": "2026-09-29T20:38:16.971548+00:00",
+      "status": "active",
+      "note": "규칙 제안으로 새로 추가"
+    }
+  ],
+  "not_selected": [
     {
       "unit_id": "VG-CP000251",
       "pd_nos": [
@@ -108,7 +119,7 @@
       "names": [
         "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml"
       ],
-      "score": 96,
+      "score": 95,
       "reason": "미국 매칭 유사도 0.68 < 0.7"
     },
     {
@@ -120,7 +131,7 @@
         "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매"
       ],
       "score": 94,
-      "reason": "미국 매칭 유사도 0.68 < 0.7"
+      "reason": "미국 매칭 유사도 0.653 < 0.7"
     },
     {
       "unit_id": "VG-CP000038",
@@ -145,15 +156,15 @@
       "reason": "미국 매칭 유사도 0.68 < 0.7"
     },
     {
-      "unit_id": "VG-CP000158",
+      "unit_id": "VG-CP000109",
       "pd_nos": [
-        "1060489"
+        "1049285"
       ],
       "names": [
-        "메디필 시카 쿨링 진정 랩핑 마스크 4 ml 4개입"
+        "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입"
       ],
       "score": 87,
-      "reason": "게이트 초안 미준비: copy, gosi, legal, us_label"
+      "reason": "매칭 근거 형태 불일치: 우리 ['얼굴'] vs 미국 ['lip'] (Smushy SOS Hydrating Lip Mask)"
     }
   ],
   "how_to_confirm": "data/manual/shopify_shortlist.json 에 {\"units\": [\"VG-...\" 또는 pd_no], \"confirmed_by\": \"이름\", \"confirmed_at\": \"YYYY-MM-DD\"} 를 적으면 그 목록만 쓴다."

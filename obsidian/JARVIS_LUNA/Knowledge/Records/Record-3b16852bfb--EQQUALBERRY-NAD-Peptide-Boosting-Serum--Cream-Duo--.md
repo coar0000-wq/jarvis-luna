@@ -2,7 +2,7 @@
 title: "Record 3b16852bfb · EQQUALBERRY-NAD-Peptide-Boosting-Serum--Cream-Duo--Pink-Cream-for-Anti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:35.324309+00:00
+updated_at: 2026-09-29T20:40:23.177476+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record b90215384d · Balanced-Prompt-Adaptation-against-Entropy-Induced-Collapse-for-Test-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:33.391125+00:00
+updated_at: 2026-09-29T20:40:21.274048+00:00
 tags: [record, real-data]
 ---
 

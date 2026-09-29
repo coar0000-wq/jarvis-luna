@@ -2,7 +2,7 @@
 title: "Record 5971f6d013 · Patterns-in-firms-inventories-and-flexibility-levels-after-a-lowprobab"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:33.719990+00:00
+updated_at: 2026-09-29T20:40:21.626473+00:00
 tags: [record, real-data]
 ---
 

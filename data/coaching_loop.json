@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-29T23:47:27.732680+09:00",
+  "generated_at": "2026-09-30T05:38:19.504659+09:00",
   "role": "coaching",
   "principle": "AI는 체크리스트·A/B 초안만. 등록·광고 집행은 사람 승인.",
   "source": "scripts/build_coaching_loop.py",
   "scope": "S등급 상위 15개",
   "summary": {
     "ready_to_list": 0,
-    "ready_with_notes": 8,
-    "fix_then_list": 2,
+    "ready_with_notes": 9,
+    "fix_then_list": 1,
     "hold": 0,
     "reddit_signal": {
       "status": "ok",
       "post_count": 25,
-      "collected_at": "2026-09-29T14:38:34.240654+00:00",
+      "collected_at": "2026-09-29T20:29:32.100061+00:00",
       "keyword_pool": 40
     }
   },
@@ -64,7 +64,7 @@
           "id": "global_signal",
           "label": "글로벌 수요 시그널",
           "status": "pass",
-          "evidence": "글로벌 'REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 73% · 토큰 ampoule",
+          "evidence": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule",
           "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
         },
         {
@@ -78,7 +78,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['k-beauty', 'k-skincare', 'skin']",
+          "evidence": "matched=['k-beauty', 'skin']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -103,12 +103,10 @@
           "glass skin",
           "hydrating",
           "k-beauty",
-          "k-skincare",
           "skin"
         ],
         "reddit_keywords_used": [
           "k-beauty",
-          "k-skincare",
           "skin"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
@@ -117,12 +115,11 @@
       "reddit_match": {
         "matched": [
           "k-beauty",
-          "k-skincare",
           "skin"
         ],
-        "score": 3,
+        "score": 2,
         "status": "pass",
-        "evidence": "matched=['k-beauty', 'k-skincare', 'skin']",
+        "evidence": "matched=['k-beauty', 'skin']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -193,7 +190,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['k-beauty', 'k-skincare', 'skin']",
+          "evidence": "matched=['k-beauty', 'skin']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -218,12 +215,10 @@
           "glass skin",
           "hydrating",
           "k-beauty",
-          "k-skincare",
           "skin"
         ],
         "reddit_keywords_used": [
           "k-beauty",
-          "k-skincare",
           "skin"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
@@ -232,12 +227,11 @@
       "reddit_match": {
         "matched": [
           "k-beauty",
-          "k-skincare",
           "skin"
         ],
-        "score": 3,
+        "score": 2,
         "status": "pass",
-        "evidence": "matched=['k-beauty', 'k-skincare', 'skin']",
+        "evidence": "matched=['k-beauty', 'skin']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -294,7 +288,7 @@
           "id": "global_signal",
           "label": "글로벌 수요 시그널",
           "status": "pass",
-          "evidence": "글로벌 'REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 73% · 토큰 ampoule",
+          "evidence": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule",
           "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
         },
         {
@@ -308,7 +302,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['k-beauty', 'k-skincare', 'skin']",
+          "evidence": "matched=['k-beauty', 'skin']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -333,12 +327,10 @@
           "glass skin",
           "hydrating",
           "k-beauty",
-          "k-skincare",
           "skin"
         ],
         "reddit_keywords_used": [
           "k-beauty",
-          "k-skincare",
           "skin"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
@@ -347,12 +339,11 @@
       "reddit_match": {
         "matched": [
           "k-beauty",
-          "k-skincare",
           "skin"
         ],
-        "score": 3,
+        "score": 2,
         "status": "pass",
-        "evidence": "matched=['k-beauty', 'k-skincare', 'skin']",
+        "evidence": "matched=['k-beauty', 'skin']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -409,7 +400,7 @@
           "id": "global_signal",
           "label": "글로벌 수요 시그널",
           "status": "pass",
-          "evidence": "글로벌 'Lacto-PDRN 4% + B9 Eye Cream' (ulta_beauty) 유사 88% · 토큰 cream, pdrn",
+          "evidence": "글로벌 'Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 85% · 토큰 cream, pdrn",
           "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
         },
         {
@@ -423,14 +414,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['k-beauty', 'k-skincare', 'moisturizers', 'skin']",
+          "evidence": "matched=['creams', 'k-beauty', 'moisturizers', 'skin']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "VT PDRN Radiance Cream 50 ml — k-beauty · K-beauty",
+          "primary_text": "VT PDRN Radiance Cream 50 ml — creams · K-beauty",
           "headline": "VT PDRN Radiance Cream 50 ml",
           "description": "Discover the VT PDRN Radiance Cream in a convenient 50 ml size, formulated to help you achieve a glowing and radiant complexion. Apply this nourishing cream daily as part of your skincare routine to k",
           "cta": "Shop now"
@@ -448,14 +439,14 @@
           "K-beauty",
           "glass skin",
           "hydrating",
+          "creams",
           "k-beauty",
-          "k-skincare",
           "moisturizers",
           "skin"
         ],
         "reddit_keywords_used": [
+          "creams",
           "k-beauty",
-          "k-skincare",
           "moisturizers",
           "skin"
         ],
@@ -464,14 +455,14 @@
       },
       "reddit_match": {
         "matched": [
+          "creams",
           "k-beauty",
-          "k-skincare",
           "moisturizers",
           "skin"
         ],
         "score": 4,
         "status": "pass",
-        "evidence": "matched=['k-beauty', 'k-skincare', 'moisturizers', 'skin']",
+        "evidence": "matched=['creams', 'k-beauty', 'moisturizers', 'skin']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -485,7 +476,7 @@
       "pd_no": "1072554",
       "name": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
       "bucket": "스킨케어",
-      "shopify_score": 96,
+      "shopify_score": 95,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072554",
       "readiness": "ready_with_notes",
       "checklist": [
@@ -493,7 +484,7 @@
           "id": "grade_s",
           "label": "S등급 유지",
           "status": "pass",
-          "evidence": "grade=S, score=96",
+          "evidence": "grade=S, score=95",
           "tip": "S가 아니면 1차 등록 보류"
         },
         {
@@ -542,7 +533,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['k-beauty', 'k-skincare', 'skin']",
+          "evidence": "matched=['k-beauty', 'skin']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -567,12 +558,10 @@
           "glass skin",
           "hydrating",
           "k-beauty",
-          "k-skincare",
           "skin"
         ],
         "reddit_keywords_used": [
           "k-beauty",
-          "k-skincare",
           "skin"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
@@ -581,12 +570,11 @@
       "reddit_match": {
         "matched": [
           "k-beauty",
-          "k-skincare",
           "skin"
         ],
-        "score": 3,
+        "score": 2,
         "status": "pass",
-        "evidence": "matched=['k-beauty', 'k-skincare', 'skin']",
+        "evidence": "matched=['k-beauty', 'skin']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -643,7 +631,7 @@
           "id": "global_signal",
           "label": "글로벌 수요 시그널",
           "status": "pass",
-          "evidence": "글로벌 'Lacto-PDRN 4% + B9 Eye Cream' (ulta_beauty) 유사 68% · 토큰 cream, pdrn",
+          "evidence": "글로벌 'Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 65% · 토큰 cream, pdrn",
           "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
         },
         {
@@ -657,7 +645,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['ask', 'k-beauty', 'k-skincare', 'moisturizers', 'skin']",
+          "evidence": "matched=['ask', 'creams', 'k-beauty', 'moisturizers', 'skin']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -684,14 +672,14 @@
           "glass skin",
           "hydrating",
           "ask",
+          "creams",
           "k-beauty",
-          "k-skincare",
           "moisturizers"
         ],
         "reddit_keywords_used": [
           "ask",
+          "creams",
           "k-beauty",
-          "k-skincare",
           "moisturizers",
           "skin"
         ],
@@ -701,14 +689,14 @@
       "reddit_match": {
         "matched": [
           "ask",
+          "creams",
           "k-beauty",
-          "k-skincare",
           "moisturizers",
           "skin"
         ],
         "score": 5,
         "status": "pass",
-        "evidence": "matched=['ask', 'k-beauty', 'k-skincare', 'moisturizers', 'skin']",
+        "evidence": "matched=['ask', 'creams', 'k-beauty', 'moisturizers', 'skin']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -779,8 +767,8 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['ask', 'collagen']",
-          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+          "evidence": "matched=['ask']",
+          "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
         }
       ],
       "ad_copy_ab": {
@@ -803,25 +791,22 @@
           "sheet mask",
           "overnight mask",
           "collagen mask",
-          "ask",
-          "collagen"
+          "ask"
         ],
         "reddit_keywords_used": [
-          "ask",
-          "collagen"
+          "ask"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "ask",
-          "collagen"
+          "ask"
         ],
-        "score": 2,
+        "score": 1,
         "status": "pass",
-        "evidence": "matched=['ask', 'collagen']",
-        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+        "evidence": "matched=['ask']",
+        "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
       },
       "coach_summary": {
         "pass": 4,
@@ -877,7 +862,7 @@
           "id": "global_signal",
           "label": "글로벌 수요 시그널",
           "status": "pass",
-          "evidence": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 88% · 토큰 collagen, mask",
+          "evidence": "글로벌 'Biodance Bio Collagen-Real Deep Mask 16ct 1.19 oz.(34g)' (oliveyoung_us) 유사 88% · 토큰 collagen, mask",
           "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
         },
         {
@@ -891,8 +876,8 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['ask', 'collagen']",
-          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+          "evidence": "matched=['ask']",
+          "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
         }
       ],
       "ad_copy_ab": {
@@ -919,21 +904,19 @@
           "ask"
         ],
         "reddit_keywords_used": [
-          "ask",
-          "collagen"
+          "ask"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "ask",
-          "collagen"
+          "ask"
         ],
-        "score": 2,
+        "score": 1,
         "status": "pass",
-        "evidence": "matched=['ask', 'collagen']",
-        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+        "evidence": "matched=['ask']",
+        "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
       },
       "coach_summary": {
         "pass": 5,
@@ -989,7 +972,7 @@
           "id": "global_signal",
           "label": "글로벌 수요 시그널",
           "status": "pass",
-          "evidence": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 68% · 토큰 collagen, mask",
+          "evidence": "글로벌 'Biodance Bio Collagen-Real Deep Mask 16ct 1.19 oz.(34g)' (oliveyoung_us) 유사 68% · 토큰 collagen, mask",
           "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
         },
         {
@@ -1003,8 +986,8 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['ask', 'collagen']",
-          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+          "evidence": "matched=['ask']",
+          "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
         }
       ],
       "ad_copy_ab": {
@@ -1032,21 +1015,19 @@
           "ask"
         ],
         "reddit_keywords_used": [
-          "ask",
-          "collagen"
+          "ask"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "ask",
-          "collagen"
+          "ask"
         ],
-        "score": 2,
+        "score": 1,
         "status": "pass",
-        "evidence": "matched=['ask', 'collagen']",
-        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+        "evidence": "matched=['ask']",
+        "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
       },
       "coach_summary": {
         "pass": 5,
@@ -1056,12 +1037,12 @@
       }
     },
     {
-      "pd_no": "1060489",
-      "name": "메디필 시카 쿨링 진정 랩핑 마스크 4 ml 4개입",
-      "bucket": "마스크팩",
+      "pd_no": "1049285",
+      "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
+      "bucket": "스킨케어",
       "shopify_score": 87,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060489",
-      "readiness": "fix_then_list",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285",
+      "readiness": "ready_with_notes",
       "checklist": [
         {
           "id": "grade_s",
@@ -1087,8 +1068,8 @@
         {
           "id": "listing_copy",
           "label": "영문 리스팅 카피",
-          "status": "fail",
-          "evidence": "카피 미생성",
+          "status": "pass",
+          "evidence": "Gemini 카피 있음",
           "tip": "shopify-listing-copy 워크플로 실행"
         },
         {
@@ -1102,50 +1083,52 @@
           "id": "global_signal",
           "label": "글로벌 수요 시그널",
           "status": "pass",
-          "evidence": "글로벌 'Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream' (ulta_beauty) 유사 59% · 토큰 calming, centella",
+          "evidence": "글로벌 'Smushy SOS Hydrating Lip Mask' (ulta_beauty) 유사 73% · 토큰 hydrating, mask",
           "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
         },
         {
           "id": "social_proof",
           "label": "국내 리뷰(대리지표)",
           "status": "pass",
-          "evidence": "review_count=1062",
+          "evidence": "review_count=3884",
           "tip": "리뷰 적으면 첫 광고 예산을 더 보수적으로"
         },
         {
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['ask', 'collagen']",
+          "evidence": "matched=['ask', 'k-beauty', 'skin']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Mask — Daiso Find — ask · sheet mask",
-          "headline": "Mask — Daiso Find",
-          "description": "Daiso-sourced sheet mask. Lightweight daily use. Target US shoppers searching overnight mask.",
+          "primary_text": "VT Hyaluron Sleeping Mask 4ml — ask · K-beauty",
+          "headline": "VT Hyaluron Sleeping Mask 4ml",
+          "description": "VT Hyaluron Sleeping Mask 4ml is a Korean beauty sleeping mask in a 4ml size. This draft uses only the verified product identity and package information. Review the ingredient list, directions, and fi",
           "cta": "Shop now"
         },
         "variant_b": {
           "label": "B · 가성비/가격 후킹",
-          "primary_text": "Mask — Daiso Find — Affordable collagen mask pick",
+          "primary_text": "Mask — Daiso Find — Affordable hydrating pick",
           "headline": "Mask — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable collagen mask pick. Nearby US ref: [7types] MEDIHEAL Essential Face Mask 10.",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
           "cta": "See price"
         },
         "suggested_keywords": [
           "mask",
-          "sheet mask",
-          "overnight mask",
-          "collagen mask",
+          "K-beauty",
+          "glass skin",
+          "hydrating",
           "ask",
-          "collagen"
+          "k-beauty",
+          "skin"
         ],
         "reddit_keywords_used": [
           "ask",
-          "collagen"
+          "k-beauty",
+          "skin"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
@@ -1153,18 +1136,19 @@
       "reddit_match": {
         "matched": [
           "ask",
-          "collagen"
+          "k-beauty",
+          "skin"
         ],
-        "score": 2,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['ask', 'collagen']",
+        "evidence": "matched=['ask', 'k-beauty', 'skin']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
-        "pass": 4,
+        "pass": 5,
         "warn": 3,
-        "fail": 1,
-        "next_action": "실패 항목 수정"
+        "fail": 0,
+        "next_action": "경고 항목 보완 후 등록"
       }
     }
   ],

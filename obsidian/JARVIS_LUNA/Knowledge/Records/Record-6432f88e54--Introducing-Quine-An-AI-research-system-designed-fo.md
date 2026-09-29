@@ -2,7 +2,7 @@
 title: "Record 6432f88e54 · Introducing-Quine-An-AI-research-system-designed-for-the-complexity-of"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:35.669085+00:00
+updated_at: 2026-09-29T20:40:23.502743+00:00
 tags: [record, real-data]
 ---
 

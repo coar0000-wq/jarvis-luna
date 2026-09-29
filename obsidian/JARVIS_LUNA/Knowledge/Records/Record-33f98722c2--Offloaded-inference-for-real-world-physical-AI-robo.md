@@ -2,7 +2,7 @@
 title: "Record 33f98722c2 · Offloaded-inference-for-real-world-physical-AI-robotics"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:35.670455+00:00
+updated_at: 2026-09-29T20:40:23.503933+00:00
 tags: [record, real-data]
 ---
 

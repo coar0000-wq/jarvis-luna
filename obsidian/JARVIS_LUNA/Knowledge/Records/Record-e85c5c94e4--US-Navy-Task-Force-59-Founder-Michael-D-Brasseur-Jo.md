@@ -2,7 +2,7 @@
 title: "Record e85c5c94e4 · US-Navy-Task-Force-59-Founder-Michael-D-Brasseur-Joins-Booz-Allen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:34.247691+00:00
+updated_at: 2026-09-29T20:40:22.170821+00:00
 tags: [record, real-data]
 ---
 

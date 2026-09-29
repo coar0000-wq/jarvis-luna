@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-29T14:38:34.240654+00:00",
+  "collected_at": "2026-09-29T20:29:32.100061+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -72,11 +72,15 @@
       "score": 3
     },
     {
-      "keyword": "like",
-      "score": 3
+      "keyword": "monday",
+      "score": 2
     },
     {
-      "keyword": "monday",
+      "keyword": "why",
+      "score": 2
+    },
+    {
+      "keyword": "lip",
       "score": 2
     },
     {
@@ -108,27 +112,11 @@
       "score": 2
     },
     {
-      "keyword": "using",
-      "score": 2
-    },
-    {
-      "keyword": "collagen",
-      "score": 2
-    },
-    {
       "keyword": "moisturizers",
       "score": 2
     },
     {
       "keyword": "k-beauty",
-      "score": 2
-    },
-    {
-      "keyword": "k-skincare",
-      "score": 2
-    },
-    {
-      "keyword": "sure",
       "score": 2
     },
     {
@@ -152,6 +140,18 @@
       "score": 1
     },
     {
+      "keyword": "beige",
+      "score": 1
+    },
+    {
+      "keyword": "anti-blush",
+      "score": 1
+    },
+    {
+      "keyword": "comparison",
+      "score": 1
+    },
+    {
       "keyword": "recent",
       "score": 1
     },
@@ -172,35 +172,35 @@
       "score": 1
     },
     {
-      "keyword": "beige",
+      "keyword": "drop",
       "score": 1
     },
     {
-      "keyword": "anti-blush",
+      "keyword": "favorite",
       "score": 1
     },
     {
-      "keyword": "comparison",
+      "keyword": "hand",
       "score": 1
     },
     {
-      "keyword": "lippie",
+      "keyword": "creams",
       "score": 1
     },
     {
-      "keyword": "rec",
+      "keyword": "love",
       "score": 1
     },
     {
-      "keyword": "trying",
+      "keyword": "food",
       "score": 1
     },
     {
-      "keyword": "order",
+      "keyword": "drink-proof",
       "score": 1
     },
     {
-      "keyword": "pimple",
+      "keyword": "products",
       "score": 1
     }
   ],
@@ -214,19 +214,11 @@
       "score": 2
     },
     {
-      "keyword": "collagen",
-      "score": 2
-    },
-    {
       "keyword": "moisturizers",
       "score": 2
     },
     {
       "keyword": "k-beauty",
-      "score": 2
-    },
-    {
-      "keyword": "k-skincare",
       "score": 2
     }
   ],
@@ -246,13 +238,6 @@
       "feed": "hot"
     },
     {
-      "title": "My recent makeup looks with Cheeryep's Ambition palette",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wt8w39/my_recent_makeup_looks_with_cheeryeps_ambition/",
-      "published": "2026-09-29T12:33:17+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
       "title": "Beige blush / \"anti-blush\" comparison",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtbcwj/beige_blush_antiblush_comparison/",
       "published": "2026-09-29T14:17:59+00:00",
@@ -260,9 +245,23 @@
       "feed": "hot"
     },
     {
-      "title": "Blush and lippie rec",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wsiar3/blush_and_lippie_rec/",
-      "published": "2026-09-28T15:51:04+00:00",
+      "title": "My recent makeup looks with Cheeryep's Ambition palette",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wt8w39/my_recent_makeup_looks_with_cheeryeps_ambition/",
+      "published": "2026-09-29T12:33:17+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Please drop your favorite hand creams!! and why you love it thank you",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtg5vj/please_drop_your_favorite_hand_creams_and_why_you/",
+      "published": "2026-09-29T17:19:45+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Food/drink-proof lip products for contoured and ombré lips?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtgajo/fooddrinkproof_lip_products_for_contoured_and/",
+      "published": "2026-09-29T17:24:34+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -270,6 +269,13 @@
       "title": "TRYING to order this pimple patch brand",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wt4ubk/trying_to_order_this_pimple_patch_brand/",
       "published": "2026-09-29T08:44:29+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Blush and lippie rec",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wsiar3/blush_and_lippie_rec/",
+      "published": "2026-09-28T15:51:04+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -351,13 +357,6 @@
       "feed": "hot"
     },
     {
-      "title": "At what specific age, did you guys starting using anti-aging products with peptides, hydrolyzed collagen, and the like.",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wrsu45/at_what_specific_age_did_you_guys_starting_using/",
-      "published": "2026-09-27T19:14:43+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
       "title": "Acne-prone. Mild or moderate acne, which ingredients do you avoid in moisturizers?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1ws5jyd/acneprone_mild_or_moderate_acne_which_ingredients/",
       "published": "2026-09-28T05:01:29+00:00",
@@ -396,13 +395,6 @@
       "title": "Anything Goes Sunday: September 27, 2026",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wruzzo/anything_goes_sunday_september_27_2026/",
       "published": "2026-09-27T20:39:10+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Recently discovered k-skincare and I like them. I'm not sure the preservative system is sufficient to make sure the product is free of bacteria, yeast, mold, fungi after opening and while using it.",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1ws6wr4/recently_discovered_kskincare_and_i_like_them_im/",
-      "published": "2026-09-28T06:19:38+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

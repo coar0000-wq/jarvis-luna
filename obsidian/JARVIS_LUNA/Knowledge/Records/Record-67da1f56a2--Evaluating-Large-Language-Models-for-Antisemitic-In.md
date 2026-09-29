@@ -2,7 +2,7 @@
 title: "Record 67da1f56a2 · Evaluating-Large-Language-Models-for-Antisemitic-Incident-Classificati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:34.208472+00:00
+updated_at: 2026-09-29T20:40:22.132912+00:00
 tags: [record, real-data]
 ---
 

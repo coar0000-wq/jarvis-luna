@@ -2,7 +2,7 @@
 title: "Record 8083a94a1a · Baseline-Shape-Decides-the-Verdict-A-Controlled-Re-Examination-of-Tern"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:34.082261+00:00
+updated_at: 2026-09-29T20:40:21.992436+00:00
 tags: [record, real-data]
 ---
 

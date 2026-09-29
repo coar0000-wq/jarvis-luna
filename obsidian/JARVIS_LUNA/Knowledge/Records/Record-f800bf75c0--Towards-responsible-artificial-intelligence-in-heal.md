@@ -2,7 +2,7 @@
 title: "Record f800bf75c0 · Towards-responsible-artificial-intelligence-in-healthcaregetting-real-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:33.653798+00:00
+updated_at: 2026-09-29T20:40:21.557141+00:00
 tags: [record, real-data]
 ---
 

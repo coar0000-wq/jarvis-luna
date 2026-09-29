@@ -2,7 +2,7 @@
 title: "Record cb80aa71b0 · Achieving-fairness-with-a-simple-ridge-penalty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:33.510120+00:00
+updated_at: 2026-09-29T20:40:21.393536+00:00
 tags: [record, real-data]
 ---
 

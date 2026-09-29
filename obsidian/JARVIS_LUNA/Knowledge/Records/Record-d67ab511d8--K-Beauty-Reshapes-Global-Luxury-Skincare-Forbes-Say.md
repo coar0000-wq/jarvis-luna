@@ -2,7 +2,7 @@
 title: "Record d67ab511d8 · K-Beauty-Reshapes-Global-Luxury-Skincare-Forbes-Say"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:34.753471+00:00
+updated_at: 2026-09-29T20:40:22.629694+00:00
 tags: [record, real-data]
 ---
 

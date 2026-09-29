@@ -2,7 +2,7 @@
 title: "Record 64d4adba06 · Whats-So-Special-About-Korean-Sunscreens---Vogue"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:34.353941+00:00
+updated_at: 2026-09-29T20:40:22.265789+00:00
 tags: [record, real-data]
 ---
 

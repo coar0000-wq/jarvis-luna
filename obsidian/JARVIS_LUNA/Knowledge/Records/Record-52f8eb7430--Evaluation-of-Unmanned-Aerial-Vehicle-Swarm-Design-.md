@@ -2,7 +2,7 @@
 title: "Record 52f8eb7430 · Evaluation-of-Unmanned-Aerial-Vehicle-Swarm-Design-Through-Metrics-of-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:33.849271+00:00
+updated_at: 2026-09-29T20:40:21.770087+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record e1642be0d1 · EIB-Net-Entropy-Guided-Information-Bottleneck-for-Generalizable-AI-Gen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:34.075669+00:00
+updated_at: 2026-09-29T20:40:21.986163+00:00
 tags: [record, real-data]
 ---
 

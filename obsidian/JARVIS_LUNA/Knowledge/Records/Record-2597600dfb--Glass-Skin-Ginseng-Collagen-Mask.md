@@ -2,7 +2,7 @@
 title: "Record 2597600dfb · Glass-Skin-Ginseng-Collagen-Mask"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:35.823860+00:00
+updated_at: 2026-09-29T20:40:23.652595+00:00
 tags: [record, real-data]
 ---
 

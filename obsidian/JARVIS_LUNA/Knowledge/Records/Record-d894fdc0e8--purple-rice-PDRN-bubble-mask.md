@@ -2,7 +2,7 @@
 title: "Record d894fdc0e8 · purple-rice-PDRN-bubble-mask"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:35.179677+00:00
+updated_at: 2026-09-29T20:40:23.042381+00:00
 tags: [record, real-data]
 ---
 

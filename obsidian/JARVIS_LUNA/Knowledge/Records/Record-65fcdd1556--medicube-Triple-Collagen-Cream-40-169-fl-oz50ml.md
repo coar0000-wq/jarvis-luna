@@ -2,7 +2,7 @@
 title: "Record 65fcdd1556 · medicube-Triple-Collagen-Cream-40-169-fl-oz50ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:35.084749+00:00
+updated_at: 2026-09-29T20:40:22.948810+00:00
 tags: [record, real-data]
 ---
 

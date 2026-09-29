@@ -2,7 +2,7 @@
 title: "Record 031bdd9394 · ILLIYOON-Ceramide-Ato-60-Top-To-Toe-Wash-169-fl-oz5"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:35.089973+00:00
+updated_at: 2026-09-29T20:40:22.953415+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** ILLIYOON Ceramide Ato 6.0 Top To Toe Wash 16.9 fl. oz.(500ml)
 
 ILLIYOON Ceramide Ato 6.0 Top To Toe Wash 16.9 fl. oz.(500ml)
-ILLIYOON Ceramide Ato 6.0 Top To Toe Wash 16.9 fl. oz.(500ml) · 평점 4.8 · 리뷰 785
+ILLIYOON Ceramide Ato 6.0 Top To Toe Wash 16.9 fl. oz.(500ml) · 평점 4.8 · 리뷰 790
 
 **출처:** Source · us_beauty
 

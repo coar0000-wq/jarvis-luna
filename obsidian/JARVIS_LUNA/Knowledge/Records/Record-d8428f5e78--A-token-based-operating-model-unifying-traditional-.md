@@ -2,7 +2,7 @@
 title: "Record d8428f5e78 · A-token-based-operating-model-unifying-traditional-and-token-based-ope"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:34.209701+00:00
+updated_at: 2026-09-29T20:40:22.134148+00:00
 tags: [record, real-data]
 ---
 

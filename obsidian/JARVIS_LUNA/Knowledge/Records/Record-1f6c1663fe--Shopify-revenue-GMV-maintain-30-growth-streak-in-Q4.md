@@ -2,7 +2,7 @@
 title: "Record 1f6c1663fe · Shopify-revenue-GMV-maintain-30-growth-streak-in-Q4"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:34.550377+00:00
+updated_at: 2026-09-29T20:40:22.441859+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 9ccba13da5 · Optimal-input-design-via-Frank-Wolfe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T14:49:33.201630+00:00
+updated_at: 2026-09-29T20:40:21.093359+00:00
 tags: [record, real-data]
 ---
 
