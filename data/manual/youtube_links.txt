@@ -37,3 +37,6 @@ https://www.youtube.com/watch?v=kFWPkoOx_ao | market,listing | Shopify 공식 �
 https://www.youtube.com/watch?v=Knjixb392Is | market,listing | 제품·변형·컬렉션·FAQ 구조화 데이터 검증
 https://www.youtube.com/watch?v=v7DT2yhi9Ac | market | Klaviyo 공식 배송 지연·선셋 리텐션 자동화
 https://www.youtube.com/watch?v=_pKECd9m25U | market,design,listing | UGC 스크립트와 문장별 B-roll 샷리스트
+https://www.youtube.com/watch?v=Q0j1cpLu7pQ | market,pricing,legal | Brevo 공식 - 중복·동의·종료 조건이 있는 Shopify 장바구니 회수 QA
+https://www.youtube.com/watch?v=YoDGJV1XTls | market,listing,sourcing,legal,knowledge | Shopify SEO 리드 참여 - 상품 피드·리뷰·GEO·제3자 브랜드 가시성
+https://www.youtube.com/watch?v=_NHlOc919zs | market,listing,design,pricing,sourcing,legal | Shopify 전문 에이전시 - 고객 여정·연관상품·이메일 세그먼트 사례

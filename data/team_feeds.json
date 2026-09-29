@@ -1,52 +1,52 @@
 {
-  "generated_at": "2026-09-29T07:53:25.878496+00:00",
+  "generated_at": "2026-09-29T10:04:10.938603+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
-  "pool_size": 3102,
+  "pool_size": 3046,
   "제목없어_버림": 38,
   "unrouted": 9,
   "summary": {
     "sourcing": {
-      "total": 364,
-      "recent": 362,
-      "material": 8,
-      "material_recent": 6,
+      "total": 366,
+      "recent": 364,
+      "material": 10,
+      "material_recent": 8,
       "products": 356
     },
     "market": {
-      "total": 924,
-      "recent": 79,
-      "material": 924,
-      "material_recent": 79,
+      "total": 935,
+      "recent": 89,
+      "material": 935,
+      "material_recent": 89,
       "products": 0
     },
     "listing": {
-      "total": 104,
-      "recent": 45,
-      "material": 104,
-      "material_recent": 45,
+      "total": 110,
+      "recent": 51,
+      "material": 110,
+      "material_recent": 51,
       "products": 0
     },
     "pricing": {
-      "total": 66,
-      "recent": 24,
-      "material": 66,
-      "material_recent": 24,
+      "total": 71,
+      "recent": 31,
+      "material": 71,
+      "material_recent": 31,
       "products": 0
     },
     "legal": {
-      "total": 220,
-      "recent": 43,
-      "material": 220,
-      "material_recent": 43,
+      "total": 228,
+      "recent": 51,
+      "material": 228,
+      "material_recent": 51,
       "products": 0
     },
     "design": {
-      "total": 437,
-      "recent": 122,
-      "material": 437,
-      "material_recent": 122,
+      "total": 431,
+      "recent": 121,
+      "material": 431,
+      "material_recent": 121,
       "products": 0
     },
     "robotics": {
@@ -57,17 +57,17 @@
       "products": 0
     },
     "knowledge": {
-      "total": 259,
-      "recent": 91,
-      "material": 259,
-      "material_recent": 91,
+      "total": 256,
+      "recent": 92,
+      "material": 256,
+      "material_recent": 92,
       "products": 0
     },
     "institutions": {
-      "total": 1166,
-      "recent": 219,
-      "material": 1166,
-      "material_recent": 219,
+      "total": 1100,
+      "recent": 220,
+      "material": 1100,
+      "material_recent": 220,
       "products": 0
     },
     "channels": {
@@ -98,7 +98,7 @@
         "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
         "pool": "youtube_insight",
         "summary": "무작위 추가 상품이 아니라 클렌징-트리트먼트-보습처럼 한 루틴을 완성하는 구성으로 번들을 만든다. (근거 04:40-07:33)",
-        "date": "2026-09-27",
+        "date": "2026-09-29",
         "by_hand": true
       },
       {
@@ -106,7 +106,7 @@
         "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
         "pool": "youtube_insight",
         "summary": "자사·경쟁 리뷰를 AI로 묶어 구매자, 가치, 불만을 찾고 작은 설문이나 인터뷰로 확인한 뒤 포지셔닝 가설로 사용한다. (근거 07:53-09:30)",
-        "date": "2026-09-27",
+        "date": "2026-09-29",
         "by_hand": true
       },
       {
@@ -114,7 +114,23 @@
         "url": "https://www.youtube.com/watch?v=UcG2v8i6Y2E",
         "pool": "youtube_insight",
         "summary": "상품군별 배송원가와 장바구니 금액을 넣어 무료배송, 정액 할인, 퍼센트 할인 시나리오의 주문 기여이익을 비교한 뒤 손실이 가장 낮은 오퍼만 테스트한다. (근거 13:22-16:34)",
-        "date": "2026-09-27",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-033] Google Merchant Center 상품 피드 오류 큐",
+        "url": "https://www.youtube.com/watch?v=YoDGJV1XTls",
+        "pool": "youtube_insight",
+        "summary": "Shopify 상품 피드를 Merchant Center에 연결하고 누락 속성, 사이트와의 가격·재고 불일치, 검색 질의별 노출 정보를 정기 오류 큐로 관리한다. (근거 17:47-21:30)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-037] 고객 요청 기반 연관 상품 큐레이션",
+        "url": "https://www.youtube.com/watch?v=_NHlOc919zs",
+        "pool": "youtube_insight",
+        "summary": "고객이 반복 요청하는 연관 상품을 후보로 만들고 실제 사용·품질·마진 검증을 통과한 항목만 루틴 세트와 교차판매 후보에 포함한다. (근거 04:02-05:32)",
+        "date": "2026-09-29",
         "by_hand": true
       },
       {
@@ -505,23 +521,321 @@
         "pool": "daiso",
         "date": "2026-09-29",
         "by_hand": false
-      },
-      {
-        "title": "프리모팩토리 헤어 블리치(2개입/80ml)",
-        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1039235",
-        "pool": "daiso",
-        "date": "2026-09-29",
-        "by_hand": false
-      },
-      {
-        "title": "핫팩아이마스크1P",
-        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=61773",
-        "pool": "daiso",
-        "date": "2026-09-29",
-        "by_hand": false
       }
     ],
     "market": [
+      {
+        "title": "[영상 학습 MKT-001] 광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
+        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+        "pool": "youtube_insight",
+        "summary": "광고 훅과 피부 고민마다 별도 랜딩페이지를 만들고 가치제안, 실제 리뷰, FAQ, 배송·반품 정보를 한 흐름에 배치한다. (근거 00:29-03:16)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-002] 피부 고민·루틴 중심 탐색 구조",
+        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+        "pool": "youtube_insight",
+        "summary": "메뉴와 컬렉션을 제품명보다 피부 고민, 제형, 루틴 단계 중심으로 구성하고 검색창을 전면에 둔다. (근거 04:16-06:16)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-004] 제품명·설명·FAQ를 구매 질문형 SEO로 작성",
+        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
+        "pool": "youtube_insight",
+        "summary": "제품명에 검증된 성분·제형·사용 맥락을 넣고 중복 없는 설명과 FAQ로 실제 구매 질문에 답한다. (근거 02:56-03:40)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-005] 검색형 숏폼을 TikTok·Reels·Shorts에 교차 게시",
+        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
+        "pool": "youtube_insight",
+        "summary": "사용 장면, 세 가지 사용법, 루틴 순서, 포장 비하인드 영상을 만들고 채널별 제목·자막을 현지화한다. (근거 06:46-08:14)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-006] 14일 신규 구독자 웰컴 플로우",
+        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
+        "pool": "youtube_insight",
+        "summary": "인센티브 또는 피부 퀴즈 결과, 브랜드 스토리, 검증 리뷰, 베스트셀러 이유, 정가 구매 제안을 다섯 통으로 구성한다. (근거 08:16-09:33)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-007] Shopify와 Meta CAPI 전환 신호 검증",
+        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
+        "pool": "youtube_insight",
+        "summary": "스토어 개설 후 테스트 주문으로 Pixel과 서버 이벤트의 중복·누락을 점검하고 Shopify 주문값과 비교한다. (근거 14:27-15:46)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-008] 번들·사은품 임계값 AOV 테스트",
+        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+        "pool": "youtube_insight",
+        "summary": "구성품 이미지와 실제 절감액을 보여주는 루틴 번들 및 사은품 해금 기준을 테스트한다. (근거 11:19-12:25)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-009] 구매 후 적립 가치 이메일",
+        "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
+        "pool": "youtube_insight",
+        "summary": "구매 직후 추상 포인트 대신 원화 환산 가치, 현재 잔액, 다음 보상까지 남은 금액을 알린다. (근거 00:41-04:52)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-010] 리워드 사용 직후 재구매 컬렉션 연결",
+        "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
+        "pool": "youtube_insight",
+        "summary": "보상 코드와 가치를 상단에 표시하고 해당 보상을 쓸 수 있는 루틴·재구매 컬렉션으로 바로 연결한다. (근거 05:33-06:38)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-011] 실제 만료일 기반 윈백 이메일",
+        "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
+        "pool": "youtube_insight",
+        "summary": "공개된 포인트 만료 규칙이 있을 때만 잔액 가치와 사용처를 보여주는 만료 전 알림을 발송한다. (근거 09:32-10:46)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-012] 소모품 수량별 단계 할인",
+        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+        "pool": "youtube_insight",
+        "summary": "1개, 2개, 3개 옵션과 단위당 가격을 PDP에서 비교하되 할인 후 마진과 배송비를 통과한 상품에만 적용한다. (근거 01:55-03:58)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-013] 고객 결과 중심 루틴 번들",
+        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+        "pool": "youtube_insight",
+        "summary": "무작위 추가 상품이 아니라 클렌징-트리트먼트-보습처럼 한 루틴을 완성하는 구성으로 번들을 만든다. (근거 04:40-07:33)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-014] good-better-best 세트 구조",
+        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+        "pool": "youtube_insight",
+        "summary": "스타터, 2개월분, 전체 루틴 세트로 약정 수준을 나누고 상위 세트에는 실제 가치가 있는 샘플이나 도구만 추가한다. (근거 07:42-09:02)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-015] 카트 드로어 보완 상품 업셀",
+        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+        "pool": "youtube_insight",
+        "summary": "장바구니에 담은 상품과 직접 호환되는 소수의 보완 상품만 추천하고 체크아웃을 방해하지 않게 한다. (근거 09:02-11:15)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-016] 질문형 FAQ와 히어로 SKU 토픽 클러스터",
+        "url": "https://www.youtube.com/watch?v=UBSveo_tao8",
+        "pool": "youtube_insight",
+        "summary": "피부타입, 제형, 향, 루틴 순서, 성분 질문은 PDP FAQ로 답하고 넓은 주제는 가이드와 컬렉션으로 연결한다. (근거 05:53-13:24)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-017] 검증 구매 리뷰를 전환 자산으로 사용",
+        "url": "https://www.youtube.com/watch?v=UBSveo_tao8",
+        "pool": "youtube_insight",
+        "summary": "구매 후 피부타입, 제형, 향, 사용 순서, 재구매 의향을 구조적으로 수집하고 PDP와 광고에 허가 범위 내 재사용한다. (근거 13:34-15:03)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-018] 리뷰에서 좁은 미충족 고객군을 찾기",
+        "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
+        "pool": "youtube_insight",
+        "summary": "자사·경쟁 리뷰를 AI로 묶어 구매자, 가치, 불만을 찾고 작은 설문이나 인터뷰로 확인한 뒤 포지셔닝 가설로 사용한다. (근거 07:53-09:30)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-019] 제품 사실·고객 언어·구조 참고를 넣은 AI 카피",
+        "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
+        "pool": "youtube_insight",
+        "summary": "AI 카피에는 제품 사실표, 실제 리뷰 표현, 권리 침해 없는 랜딩 구조 참고를 입력하고 사람과 법률 검토 후 실험한다. (근거 12:12-14:27)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-020] 훅·형식·증거별 크리에이티브 테스트 체계",
+        "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
+        "pool": "youtube_insight",
+        "summary": "UGC 데모, 텍스처, 루틴 교육, 리뷰, 성분 근거를 서로 다른 훅과 형식으로 제작하고 패자를 중단해 승자의 후속 버전을 만든다. (근거 15:00-17:47)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-021] 할인 중첩·누수 정기 감사",
+        "url": "https://www.youtube.com/watch?v=UcG2v8i6Y2E",
+        "pool": "youtube_insight",
+        "summary": "활성 할인마다 중첩 허용, 사용기한, 사용횟수, 유입 파트너, 주문 기여이익을 기록하고 적자 조합과 방치 코드를 비활성화한다. (근거 04:18-11:00)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-022] 기여이익 기반 무료배송 대 할인 비교",
+        "url": "https://www.youtube.com/watch?v=UcG2v8i6Y2E",
+        "pool": "youtube_insight",
+        "summary": "상품군별 배송원가와 장바구니 금액을 넣어 무료배송, 정액 할인, 퍼센트 할인 시나리오의 주문 기여이익을 비교한 뒤 손실이 가장 낮은 오퍼만 테스트한다. (근거 13:22-16:34)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-023] Shopify AI 카탈로그 자격·질의 QA",
+        "url": "https://www.youtube.com/watch?v=jUxSAGCaJIU",
+        "pool": "youtube_insight",
+        "summary": "제품 가격·재고·정책이 Shopify 카탈로그와 동기화되는지 확인하고 대표 구매 질문을 테스트해 누락된 정책, 메타데이터, 상품 정보를 수정한다. (근거 00:16-01:45)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-024] AI 캠페인 제안 승인 큐와 비용 가드레일",
+        "url": "https://www.youtube.com/watch?v=jUxSAGCaJIU",
+        "pool": "youtube_insight",
+        "summary": "AI가 제안한 이메일·광고 캠페인은 대상, 예산, 일정, 클레임을 사람이 검토하고 유료 집행은 명시적 사용자 승인 전까지 보류한다. (근거 03:13-04:43)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-025] 모바일 게스트 체크아웃 마찰 제거",
+        "url": "https://www.youtube.com/watch?v=kFWPkoOx_ao",
+        "pool": "youtube_insight",
+        "summary": "게스트 체크아웃, 주소 자동완성, 진행 단계, 모바일 지갑 노출을 실제 휴대폰 테스트 주문으로 점검하고 막히는 단계를 기록한다. (근거 07:57-08:39)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-026] 제품·변형·컬렉션·FAQ 스키마 검증",
+        "url": "https://www.youtube.com/watch?v=Knjixb392Is",
+        "pool": "youtube_insight",
+        "summary": "제품과 변형의 가격·통화·재고·배송·반품, 컬렉션 ItemList, 실제 FAQ를 구조화 데이터로 출력하고 Search Console 오류를 수정한다. (근거 05:29-09:45)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-027] UGC 훅-발견-혜택-소프트 CTA 샷리스트",
+        "url": "https://www.youtube.com/watch?v=_pKECd9m25U",
+        "pool": "youtube_insight",
+        "summary": "실제 제품 사실과 고객 맥락으로 훅, 발견, 혜택, 소프트 CTA를 작성하고 각 문장을 증명하는 세로형 B-roll 샷을 연결해 유기 숏폼으로 먼저 검증한다. (근거 01:30-04:38)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-028] 실제 배송 지연 트리거 안내",
+        "url": "https://www.youtube.com/watch?v=v7DT2yhi9Ac",
+        "pool": "youtube_insight",
+        "summary": "주문이 약속한 처리기간을 넘을 때만 현재 상태, 다음 업데이트 시점, 문의 경로를 브랜드 톤으로 자동 안내한다. (근거 00:57-01:20)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-029] 저참여 선셋 플로우와 목록 정리",
+        "url": "https://www.youtube.com/watch?v=v7DT2yhi9Ac",
+        "pool": "youtube_insight",
+        "summary": "최근 열람·클릭·구매가 없는 구독자에게 누락 콘텐츠와 선호 재설정 기회를 제공하고 반응이 없으면 마케팅 발송 대상에서 제외한다. (근거 01:51-02:20)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-030] 중복 없는 동의 기반 장바구니 회수 진입",
+        "url": "https://www.youtube.com/watch?v=Q0j1cpLu7pQ",
+        "pool": "youtube_insight",
+        "summary": "Shopify 기본·레거시 장바구니 알림과 외부 자동화의 중복 여부를 먼저 감사하고, 마케팅 수신 동의가 필요한 지역에는 구독 필터를 적용한다. (근거 00:19-01:14)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-031] 할인 지연·구매 종료 조건이 있는 장바구니 회수 QA",
+        "url": "https://www.youtube.com/watch?v=Q0j1cpLu7pQ",
+        "pool": "youtube_insight",
+        "summary": "첫 메시지는 저장된 장바구니 안내에 집중하고 할인은 후속 메시지로 미루며, 구매·상품 삭제 시 종료하고 승인된 테스트 계정으로만 활성화 전 검증한다. (근거 01:11-02:47)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-032] SEO·GEO 공통 기반을 상품 진실원장으로 유지",
+        "url": "https://www.youtube.com/watch?v=YoDGJV1XTls",
+        "pool": "youtube_insight",
+        "summary": "유용한 콘텐츠, 크롤 가능성, 구조화 데이터, 정확한 상품 피드, 리뷰와 신뢰 신호를 하나의 상품 진실원장 기준으로 함께 관리한다. (근거 04:49-08:01)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-033] Google Merchant Center 상품 피드 오류 큐",
+        "url": "https://www.youtube.com/watch?v=YoDGJV1XTls",
+        "pool": "youtube_insight",
+        "summary": "Shopify 상품 피드를 Merchant Center에 연결하고 누락 속성, 사이트와의 가격·재고 불일치, 검색 질의별 노출 정보를 정기 오류 큐로 관리한다. (근거 17:47-21:30)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-034] 검증 리뷰 언어를 PDP 혜택·사용 맥락으로 환원",
+        "url": "https://www.youtube.com/watch?v=YoDGJV1XTls",
+        "pool": "youtube_insight",
+        "summary": "검증 구매 리뷰에서 반복되는 사용 맥락, 치수·제형 해석, 장점과 질문을 추출해 제품 사실 범위 안에서 PDP 설명과 피드 속성을 보강한다. (근거 23:40-29:11)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-035] 크롤 가능한 리뷰·구조화 데이터 노출",
+        "url": "https://www.youtube.com/watch?v=YoDGJV1XTls",
+        "pool": "youtube_insight",
+        "summary": "리뷰 점수와 핵심 리뷰 콘텐츠가 구조화 데이터에 포함되고 서버 렌더링 또는 봇이 읽을 수 있는 HTML에 노출되는지 검사한다. (근거 31:11-36:23)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-036] 제3자 접점 기반 브랜드 선호 구축",
+        "url": "https://www.youtube.com/watch?v=YoDGJV1XTls",
+        "pool": "youtube_insight",
+        "summary": "고객이 실제로 정보를 찾는 커뮤니티·미디어·소셜 접점을 인터뷰로 확인하고, 과장 없이 전문성 자료와 고객 경험이 제3자 문맥에서 언급되도록 유기 배포한다. (근거 42:32-43:48)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-037] 고객 요청 기반 연관 상품 큐레이션",
+        "url": "https://www.youtube.com/watch?v=_NHlOc919zs",
+        "pool": "youtube_insight",
+        "summary": "고객이 반복 요청하는 연관 상품을 후보로 만들고 실제 사용·품질·마진 검증을 통과한 항목만 루틴 세트와 교차판매 후보에 포함한다. (근거 04:02-05:32)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-038] 고객 단계별 질문·페이지·전환 지도",
+        "url": "https://www.youtube.com/watch?v=_NHlOc919zs",
+        "pool": "youtube_insight",
+        "summary": "고객 세그먼트마다 최초 접점, 첫 랜딩페이지, 예상 질문, 이메일 구독 또는 구매 전환, 재구매까지의 흐름을 한 장의 여정 지도로 만든다. (근거 26:25-28:40)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-039] 관심 행동 기반 이메일 세그먼트와 연관상품 후속",
+        "url": "https://www.youtube.com/watch?v=_NHlOc919zs",
+        "pool": "youtube_insight",
+        "summary": "열람 페이지와 구매 상품으로 관심군을 나누고 직접 연관된 보완 상품만 후속 안내하며 모든 캠페인을 할인으로 학습시키지 않는다. (근거 36:11-38:44)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-040] 시각적 연관상품으로 유기 획득 후 소모품 리텐션 연결",
+        "url": "https://www.youtube.com/watch?v=_NHlOc919zs",
+        "pool": "youtube_insight",
+        "summary": "광고비 없이 시각적으로 설명하기 쉬운 연관 상품과 교육 콘텐츠로 신규 관심을 얻고, 동의 기반 이메일에서 핵심 소모품·루틴 상품으로 연결되는지 검증한다. (근거 42:25-46:55)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
       {
         "title": "[영상 학습 MKT-20260928-01] PAS 프레임워크 및 페르소나 카테고리 재정의",
         "url": "https://www.youtube.com/watch?v=k520NhbFhIE",
@@ -591,230 +905,6 @@
         "url": "https://www.youtube.com/watch?v=BJeHhsMVc8A&t=34s",
         "pool": "team_briefing",
         "summary": "Jev는 상태와 질문을 받아 choice·score·boolean 판단을 병렬로 반환하는 System 1 계층이며, 모델 라우팅(06:04~06:47), 위험 도구 차단(06:47~07:28), 온라인 평가(07:28~08:46)에 사용할 수 있다. JARVIS에서는 결정적 로컬 게이트를 먼저 적용하고 Jev가 열린 진단이 필요하다고 분류하거나 미분류 오류가 반복될 때만 Gemini Flash-Lite를 회차당 1회 호출한다. Gemini는 진단 초안만 만들며 정본 변경, 공개 게시, 결제, 광고, 법률 승인 대행은 할 수 없다.",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-001] 광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
-        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
-        "pool": "youtube_insight",
-        "summary": "광고 훅과 피부 고민마다 별도 랜딩페이지를 만들고 가치제안, 실제 리뷰, FAQ, 배송·반품 정보를 한 흐름에 배치한다. (근거 00:29-03:16)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-002] 피부 고민·루틴 중심 탐색 구조",
-        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
-        "pool": "youtube_insight",
-        "summary": "메뉴와 컬렉션을 제품명보다 피부 고민, 제형, 루틴 단계 중심으로 구성하고 검색창을 전면에 둔다. (근거 04:16-06:16)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-004] 제품명·설명·FAQ를 구매 질문형 SEO로 작성",
-        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
-        "pool": "youtube_insight",
-        "summary": "제품명에 검증된 성분·제형·사용 맥락을 넣고 중복 없는 설명과 FAQ로 실제 구매 질문에 답한다. (근거 02:56-03:40)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-005] 검색형 숏폼을 TikTok·Reels·Shorts에 교차 게시",
-        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
-        "pool": "youtube_insight",
-        "summary": "사용 장면, 세 가지 사용법, 루틴 순서, 포장 비하인드 영상을 만들고 채널별 제목·자막을 현지화한다. (근거 06:46-08:14)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-006] 14일 신규 구독자 웰컴 플로우",
-        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
-        "pool": "youtube_insight",
-        "summary": "인센티브 또는 피부 퀴즈 결과, 브랜드 스토리, 검증 리뷰, 베스트셀러 이유, 정가 구매 제안을 다섯 통으로 구성한다. (근거 08:16-09:33)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-007] Shopify와 Meta CAPI 전환 신호 검증",
-        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
-        "pool": "youtube_insight",
-        "summary": "스토어 개설 후 테스트 주문으로 Pixel과 서버 이벤트의 중복·누락을 점검하고 Shopify 주문값과 비교한다. (근거 14:27-15:46)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-008] 번들·사은품 임계값 AOV 테스트",
-        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
-        "pool": "youtube_insight",
-        "summary": "구성품 이미지와 실제 절감액을 보여주는 루틴 번들 및 사은품 해금 기준을 테스트한다. (근거 11:19-12:25)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-009] 구매 후 적립 가치 이메일",
-        "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
-        "pool": "youtube_insight",
-        "summary": "구매 직후 추상 포인트 대신 원화 환산 가치, 현재 잔액, 다음 보상까지 남은 금액을 알린다. (근거 00:41-04:52)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-010] 리워드 사용 직후 재구매 컬렉션 연결",
-        "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
-        "pool": "youtube_insight",
-        "summary": "보상 코드와 가치를 상단에 표시하고 해당 보상을 쓸 수 있는 루틴·재구매 컬렉션으로 바로 연결한다. (근거 05:33-06:38)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-011] 실제 만료일 기반 윈백 이메일",
-        "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
-        "pool": "youtube_insight",
-        "summary": "공개된 포인트 만료 규칙이 있을 때만 잔액 가치와 사용처를 보여주는 만료 전 알림을 발송한다. (근거 09:32-10:46)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-012] 소모품 수량별 단계 할인",
-        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
-        "pool": "youtube_insight",
-        "summary": "1개, 2개, 3개 옵션과 단위당 가격을 PDP에서 비교하되 할인 후 마진과 배송비를 통과한 상품에만 적용한다. (근거 01:55-03:58)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-013] 고객 결과 중심 루틴 번들",
-        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
-        "pool": "youtube_insight",
-        "summary": "무작위 추가 상품이 아니라 클렌징-트리트먼트-보습처럼 한 루틴을 완성하는 구성으로 번들을 만든다. (근거 04:40-07:33)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-014] good-better-best 세트 구조",
-        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
-        "pool": "youtube_insight",
-        "summary": "스타터, 2개월분, 전체 루틴 세트로 약정 수준을 나누고 상위 세트에는 실제 가치가 있는 샘플이나 도구만 추가한다. (근거 07:42-09:02)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-015] 카트 드로어 보완 상품 업셀",
-        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
-        "pool": "youtube_insight",
-        "summary": "장바구니에 담은 상품과 직접 호환되는 소수의 보완 상품만 추천하고 체크아웃을 방해하지 않게 한다. (근거 09:02-11:15)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-016] 질문형 FAQ와 히어로 SKU 토픽 클러스터",
-        "url": "https://www.youtube.com/watch?v=UBSveo_tao8",
-        "pool": "youtube_insight",
-        "summary": "피부타입, 제형, 향, 루틴 순서, 성분 질문은 PDP FAQ로 답하고 넓은 주제는 가이드와 컬렉션으로 연결한다. (근거 05:53-13:24)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-017] 검증 구매 리뷰를 전환 자산으로 사용",
-        "url": "https://www.youtube.com/watch?v=UBSveo_tao8",
-        "pool": "youtube_insight",
-        "summary": "구매 후 피부타입, 제형, 향, 사용 순서, 재구매 의향을 구조적으로 수집하고 PDP와 광고에 허가 범위 내 재사용한다. (근거 13:34-15:03)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-018] 리뷰에서 좁은 미충족 고객군을 찾기",
-        "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
-        "pool": "youtube_insight",
-        "summary": "자사·경쟁 리뷰를 AI로 묶어 구매자, 가치, 불만을 찾고 작은 설문이나 인터뷰로 확인한 뒤 포지셔닝 가설로 사용한다. (근거 07:53-09:30)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-019] 제품 사실·고객 언어·구조 참고를 넣은 AI 카피",
-        "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
-        "pool": "youtube_insight",
-        "summary": "AI 카피에는 제품 사실표, 실제 리뷰 표현, 권리 침해 없는 랜딩 구조 참고를 입력하고 사람과 법률 검토 후 실험한다. (근거 12:12-14:27)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-020] 훅·형식·증거별 크리에이티브 테스트 체계",
-        "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
-        "pool": "youtube_insight",
-        "summary": "UGC 데모, 텍스처, 루틴 교육, 리뷰, 성분 근거를 서로 다른 훅과 형식으로 제작하고 패자를 중단해 승자의 후속 버전을 만든다. (근거 15:00-17:47)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-021] 할인 중첩·누수 정기 감사",
-        "url": "https://www.youtube.com/watch?v=UcG2v8i6Y2E",
-        "pool": "youtube_insight",
-        "summary": "활성 할인마다 중첩 허용, 사용기한, 사용횟수, 유입 파트너, 주문 기여이익을 기록하고 적자 조합과 방치 코드를 비활성화한다. (근거 04:18-11:00)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-022] 기여이익 기반 무료배송 대 할인 비교",
-        "url": "https://www.youtube.com/watch?v=UcG2v8i6Y2E",
-        "pool": "youtube_insight",
-        "summary": "상품군별 배송원가와 장바구니 금액을 넣어 무료배송, 정액 할인, 퍼센트 할인 시나리오의 주문 기여이익을 비교한 뒤 손실이 가장 낮은 오퍼만 테스트한다. (근거 13:22-16:34)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-023] Shopify AI 카탈로그 자격·질의 QA",
-        "url": "https://www.youtube.com/watch?v=jUxSAGCaJIU",
-        "pool": "youtube_insight",
-        "summary": "제품 가격·재고·정책이 Shopify 카탈로그와 동기화되는지 확인하고 대표 구매 질문을 테스트해 누락된 정책, 메타데이터, 상품 정보를 수정한다. (근거 00:16-01:45)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-024] AI 캠페인 제안 승인 큐와 비용 가드레일",
-        "url": "https://www.youtube.com/watch?v=jUxSAGCaJIU",
-        "pool": "youtube_insight",
-        "summary": "AI가 제안한 이메일·광고 캠페인은 대상, 예산, 일정, 클레임을 사람이 검토하고 유료 집행은 명시적 사용자 승인 전까지 보류한다. (근거 03:13-04:43)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-025] 모바일 게스트 체크아웃 마찰 제거",
-        "url": "https://www.youtube.com/watch?v=kFWPkoOx_ao",
-        "pool": "youtube_insight",
-        "summary": "게스트 체크아웃, 주소 자동완성, 진행 단계, 모바일 지갑 노출을 실제 휴대폰 테스트 주문으로 점검하고 막히는 단계를 기록한다. (근거 07:57-08:39)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-026] 제품·변형·컬렉션·FAQ 스키마 검증",
-        "url": "https://www.youtube.com/watch?v=Knjixb392Is",
-        "pool": "youtube_insight",
-        "summary": "제품과 변형의 가격·통화·재고·배송·반품, 컬렉션 ItemList, 실제 FAQ를 구조화 데이터로 출력하고 Search Console 오류를 수정한다. (근거 05:29-09:45)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-027] UGC 훅-발견-혜택-소프트 CTA 샷리스트",
-        "url": "https://www.youtube.com/watch?v=_pKECd9m25U",
-        "pool": "youtube_insight",
-        "summary": "실제 제품 사실과 고객 맥락으로 훅, 발견, 혜택, 소프트 CTA를 작성하고 각 문장을 증명하는 세로형 B-roll 샷을 연결해 유기 숏폼으로 먼저 검증한다. (근거 01:30-04:38)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-028] 실제 배송 지연 트리거 안내",
-        "url": "https://www.youtube.com/watch?v=v7DT2yhi9Ac",
-        "pool": "youtube_insight",
-        "summary": "주문이 약속한 처리기간을 넘을 때만 현재 상태, 다음 업데이트 시점, 문의 경로를 브랜드 톤으로 자동 안내한다. (근거 00:57-01:20)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-029] 저참여 선셋 플로우와 목록 정리",
-        "url": "https://www.youtube.com/watch?v=v7DT2yhi9Ac",
-        "pool": "youtube_insight",
-        "summary": "최근 열람·클릭·구매가 없는 구독자에게 누락 콘텐츠와 선호 재설정 기회를 제공하고 반응이 없으면 마케팅 발송 대상에서 제외한다. (근거 01:51-02:20)",
         "date": "2026-09-27",
         "by_hand": true
       },
@@ -913,86 +1003,257 @@
         "summary": "The Futur 크리스 두 - 가격 경쟁을 벗어나는 포지셔닝. Liquid Death 등 5개 브랜드 해부",
         "date": "2026-09-06",
         "by_hand": true
-      },
-      {
-        "title": "Scale, Concentration, and Entry Timing in the Shopify App Ecosystem: A Longitudinal Study of Platform Governance and Application Survival",
-        "url": "https://arxiv.org/abs/2608.23771",
-        "pool": "papers",
-        "date": "2026-08-24",
-        "by_hand": true
-      },
-      {
-        "title": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
-        "url": "https://www.youtube.com/watch?v=CSr4DYGUPOM",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "스몰 브랜드 대표가 밝히는 브랜딩 실전편 | 계속 성장 중인 리솔츠 이야기🛁",
-        "url": "https://www.youtube.com/watch?v=l6VfFik0rHI",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "스몰 브랜드도 해외 수출은 필수인거 아시죠? ✈️ | 가성비 있게 해외 수출 할 수 있는 팁 알려드립니다! 💸",
-        "url": "https://www.youtube.com/watch?v=nPbZ6lK2K08",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "🧐브랜딩을 잘하고 싶다면 리서치가 가장 중요합니다 | 인풋 쌓는 과정부터 시장조사 노하우까지! 일단 시작부터!",
-        "url": "https://www.youtube.com/watch?v=rM6gwEyfKZ8",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "🫧AI가 발달할수록 웰니스가 더 커지는 이유 | 지금 가장 강력한 소비 트렌드를 뜯어봤습니다",
-        "url": "https://www.youtube.com/watch?v=8DXShoYTbeA",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "🔑 브랜딩 잘하면 영업 안 해도 됩니다 | MD가 먼저 연락 오는 브랜드, 뭐가 다를까요",
-        "url": "https://www.youtube.com/watch?v=s04NYW3nOxA",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "정부지원사업, 안하면 손해🚨 | 지원사업으로 미국까지 간 스몰브랜드 대표의 팩트 기반 노하우 공유 (헌터아님)",
-        "url": "https://www.youtube.com/watch?v=7Zt2t_SRyP8",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "💸가격대별 안경🕶 브랜드 추천👍안경 입문자 맞춤 안경부터 패션트렌드 안경추천까지💕🎉  이것만 보면 내가 바로 안경👓 전문가!!",
-        "url": "https://www.youtube.com/watch?v=zxPZ1Fcff20",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "캐리어 구매 체크리스트👍 ! 이것만 알면 된다!😍 여행용✈ 캐리어👜 브랜드 Top3 추천👍! 리모와라고 다 좋은게 아니다?!",
-        "url": "https://www.youtube.com/watch?v=IKQg1JCx5uY",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "미국 출장 하울 / 1만원대 미국 선물템!! (★소확행 소비명품 하울★) / 미국 힙스터 아이템 소개! by 22일간의 출장 전리품! [땡큐]",
-        "url": "https://www.youtube.com/watch?v=TD0IwmmugoI",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
       }
     ],
     "listing": [
+      {
+        "title": "[영상 학습 MKT-001] 광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
+        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+        "pool": "youtube_insight",
+        "summary": "광고 훅과 피부 고민마다 별도 랜딩페이지를 만들고 가치제안, 실제 리뷰, FAQ, 배송·반품 정보를 한 흐름에 배치한다. (근거 00:29-03:16)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-002] 피부 고민·루틴 중심 탐색 구조",
+        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+        "pool": "youtube_insight",
+        "summary": "메뉴와 컬렉션을 제품명보다 피부 고민, 제형, 루틴 단계 중심으로 구성하고 검색창을 전면에 둔다. (근거 04:16-06:16)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-003] PDP 이미지 캐러셀을 판매 스토리로 구성",
+        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+        "pool": "youtube_insight",
+        "summary": "제품컷, 피부 고민 맥락, 제형·사용법, 성분 근거, 후기, 사용 장면, 배송·반품 순으로 이미지 세트를 만든다. (근거 12:46-14:25)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-004] 제품명·설명·FAQ를 구매 질문형 SEO로 작성",
+        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
+        "pool": "youtube_insight",
+        "summary": "제품명에 검증된 성분·제형·사용 맥락을 넣고 중복 없는 설명과 FAQ로 실제 구매 질문에 답한다. (근거 02:56-03:40)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-005] 검색형 숏폼을 TikTok·Reels·Shorts에 교차 게시",
+        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
+        "pool": "youtube_insight",
+        "summary": "사용 장면, 세 가지 사용법, 루틴 순서, 포장 비하인드 영상을 만들고 채널별 제목·자막을 현지화한다. (근거 06:46-08:14)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-006] 14일 신규 구독자 웰컴 플로우",
+        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
+        "pool": "youtube_insight",
+        "summary": "인센티브 또는 피부 퀴즈 결과, 브랜드 스토리, 검증 리뷰, 베스트셀러 이유, 정가 구매 제안을 다섯 통으로 구성한다. (근거 08:16-09:33)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-007] Shopify와 Meta CAPI 전환 신호 검증",
+        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
+        "pool": "youtube_insight",
+        "summary": "스토어 개설 후 테스트 주문으로 Pixel과 서버 이벤트의 중복·누락을 점검하고 Shopify 주문값과 비교한다. (근거 14:27-15:46)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-008] 번들·사은품 임계값 AOV 테스트",
+        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+        "pool": "youtube_insight",
+        "summary": "구성품 이미지와 실제 절감액을 보여주는 루틴 번들 및 사은품 해금 기준을 테스트한다. (근거 11:19-12:25)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-009] 구매 후 적립 가치 이메일",
+        "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
+        "pool": "youtube_insight",
+        "summary": "구매 직후 추상 포인트 대신 원화 환산 가치, 현재 잔액, 다음 보상까지 남은 금액을 알린다. (근거 00:41-04:52)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-010] 리워드 사용 직후 재구매 컬렉션 연결",
+        "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
+        "pool": "youtube_insight",
+        "summary": "보상 코드와 가치를 상단에 표시하고 해당 보상을 쓸 수 있는 루틴·재구매 컬렉션으로 바로 연결한다. (근거 05:33-06:38)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-012] 소모품 수량별 단계 할인",
+        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+        "pool": "youtube_insight",
+        "summary": "1개, 2개, 3개 옵션과 단위당 가격을 PDP에서 비교하되 할인 후 마진과 배송비를 통과한 상품에만 적용한다. (근거 01:55-03:58)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-013] 고객 결과 중심 루틴 번들",
+        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+        "pool": "youtube_insight",
+        "summary": "무작위 추가 상품이 아니라 클렌징-트리트먼트-보습처럼 한 루틴을 완성하는 구성으로 번들을 만든다. (근거 04:40-07:33)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-014] good-better-best 세트 구조",
+        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+        "pool": "youtube_insight",
+        "summary": "스타터, 2개월분, 전체 루틴 세트로 약정 수준을 나누고 상위 세트에는 실제 가치가 있는 샘플이나 도구만 추가한다. (근거 07:42-09:02)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-015] 카트 드로어 보완 상품 업셀",
+        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+        "pool": "youtube_insight",
+        "summary": "장바구니에 담은 상품과 직접 호환되는 소수의 보완 상품만 추천하고 체크아웃을 방해하지 않게 한다. (근거 09:02-11:15)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-016] 질문형 FAQ와 히어로 SKU 토픽 클러스터",
+        "url": "https://www.youtube.com/watch?v=UBSveo_tao8",
+        "pool": "youtube_insight",
+        "summary": "피부타입, 제형, 향, 루틴 순서, 성분 질문은 PDP FAQ로 답하고 넓은 주제는 가이드와 컬렉션으로 연결한다. (근거 05:53-13:24)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-017] 검증 구매 리뷰를 전환 자산으로 사용",
+        "url": "https://www.youtube.com/watch?v=UBSveo_tao8",
+        "pool": "youtube_insight",
+        "summary": "구매 후 피부타입, 제형, 향, 사용 순서, 재구매 의향을 구조적으로 수집하고 PDP와 광고에 허가 범위 내 재사용한다. (근거 13:34-15:03)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-018] 리뷰에서 좁은 미충족 고객군을 찾기",
+        "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
+        "pool": "youtube_insight",
+        "summary": "자사·경쟁 리뷰를 AI로 묶어 구매자, 가치, 불만을 찾고 작은 설문이나 인터뷰로 확인한 뒤 포지셔닝 가설로 사용한다. (근거 07:53-09:30)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-019] 제품 사실·고객 언어·구조 참고를 넣은 AI 카피",
+        "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
+        "pool": "youtube_insight",
+        "summary": "AI 카피에는 제품 사실표, 실제 리뷰 표현, 권리 침해 없는 랜딩 구조 참고를 입력하고 사람과 법률 검토 후 실험한다. (근거 12:12-14:27)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-020] 훅·형식·증거별 크리에이티브 테스트 체계",
+        "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
+        "pool": "youtube_insight",
+        "summary": "UGC 데모, 텍스처, 루틴 교육, 리뷰, 성분 근거를 서로 다른 훅과 형식으로 제작하고 패자를 중단해 승자의 후속 버전을 만든다. (근거 15:00-17:47)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-023] Shopify AI 카탈로그 자격·질의 QA",
+        "url": "https://www.youtube.com/watch?v=jUxSAGCaJIU",
+        "pool": "youtube_insight",
+        "summary": "제품 가격·재고·정책이 Shopify 카탈로그와 동기화되는지 확인하고 대표 구매 질문을 테스트해 누락된 정책, 메타데이터, 상품 정보를 수정한다. (근거 00:16-01:45)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-024] AI 캠페인 제안 승인 큐와 비용 가드레일",
+        "url": "https://www.youtube.com/watch?v=jUxSAGCaJIU",
+        "pool": "youtube_insight",
+        "summary": "AI가 제안한 이메일·광고 캠페인은 대상, 예산, 일정, 클레임을 사람이 검토하고 유료 집행은 명시적 사용자 승인 전까지 보류한다. (근거 03:13-04:43)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-025] 모바일 게스트 체크아웃 마찰 제거",
+        "url": "https://www.youtube.com/watch?v=kFWPkoOx_ao",
+        "pool": "youtube_insight",
+        "summary": "게스트 체크아웃, 주소 자동완성, 진행 단계, 모바일 지갑 노출을 실제 휴대폰 테스트 주문으로 점검하고 막히는 단계를 기록한다. (근거 07:57-08:39)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-026] 제품·변형·컬렉션·FAQ 스키마 검증",
+        "url": "https://www.youtube.com/watch?v=Knjixb392Is",
+        "pool": "youtube_insight",
+        "summary": "제품과 변형의 가격·통화·재고·배송·반품, 컬렉션 ItemList, 실제 FAQ를 구조화 데이터로 출력하고 Search Console 오류를 수정한다. (근거 05:29-09:45)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-027] UGC 훅-발견-혜택-소프트 CTA 샷리스트",
+        "url": "https://www.youtube.com/watch?v=_pKECd9m25U",
+        "pool": "youtube_insight",
+        "summary": "실제 제품 사실과 고객 맥락으로 훅, 발견, 혜택, 소프트 CTA를 작성하고 각 문장을 증명하는 세로형 B-roll 샷을 연결해 유기 숏폼으로 먼저 검증한다. (근거 01:30-04:38)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-028] 실제 배송 지연 트리거 안내",
+        "url": "https://www.youtube.com/watch?v=v7DT2yhi9Ac",
+        "pool": "youtube_insight",
+        "summary": "주문이 약속한 처리기간을 넘을 때만 현재 상태, 다음 업데이트 시점, 문의 경로를 브랜드 톤으로 자동 안내한다. (근거 00:57-01:20)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-032] SEO·GEO 공통 기반을 상품 진실원장으로 유지",
+        "url": "https://www.youtube.com/watch?v=YoDGJV1XTls",
+        "pool": "youtube_insight",
+        "summary": "유용한 콘텐츠, 크롤 가능성, 구조화 데이터, 정확한 상품 피드, 리뷰와 신뢰 신호를 하나의 상품 진실원장 기준으로 함께 관리한다. (근거 04:49-08:01)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-033] Google Merchant Center 상품 피드 오류 큐",
+        "url": "https://www.youtube.com/watch?v=YoDGJV1XTls",
+        "pool": "youtube_insight",
+        "summary": "Shopify 상품 피드를 Merchant Center에 연결하고 누락 속성, 사이트와의 가격·재고 불일치, 검색 질의별 노출 정보를 정기 오류 큐로 관리한다. (근거 17:47-21:30)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-034] 검증 리뷰 언어를 PDP 혜택·사용 맥락으로 환원",
+        "url": "https://www.youtube.com/watch?v=YoDGJV1XTls",
+        "pool": "youtube_insight",
+        "summary": "검증 구매 리뷰에서 반복되는 사용 맥락, 치수·제형 해석, 장점과 질문을 추출해 제품 사실 범위 안에서 PDP 설명과 피드 속성을 보강한다. (근거 23:40-29:11)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-035] 크롤 가능한 리뷰·구조화 데이터 노출",
+        "url": "https://www.youtube.com/watch?v=YoDGJV1XTls",
+        "pool": "youtube_insight",
+        "summary": "리뷰 점수와 핵심 리뷰 콘텐츠가 구조화 데이터에 포함되고 서버 렌더링 또는 봇이 읽을 수 있는 HTML에 노출되는지 검사한다. (근거 31:11-36:23)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-038] 고객 단계별 질문·페이지·전환 지도",
+        "url": "https://www.youtube.com/watch?v=_NHlOc919zs",
+        "pool": "youtube_insight",
+        "summary": "고객 세그먼트마다 최초 접점, 첫 랜딩페이지, 예상 질문, 이메일 구독 또는 구매 전환, 재구매까지의 흐름을 한 장의 여정 지도로 만든다. (근거 26:25-28:40)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-040] 시각적 연관상품으로 유기 획득 후 소모품 리텐션 연결",
+        "url": "https://www.youtube.com/watch?v=_NHlOc919zs",
+        "pool": "youtube_insight",
+        "summary": "광고비 없이 시각적으로 설명하기 쉬운 연관 상품과 교육 콘텐츠로 신규 관심을 얻고, 동의 기반 이메일에서 핵심 소모품·루틴 상품으로 연결되는지 검증한다. (근거 42:25-46:55)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
       {
         "title": "[영상 학습 LST-20260928-01] Claude 프롬프트 기반 Shopify 상세페이지 구축",
         "url": "https://www.youtube.com/watch?v=dPPd65Kvh7Y",
@@ -1046,206 +1307,6 @@
         "url": "https://www.youtube.com/watch?v=BJeHhsMVc8A&t=34s",
         "pool": "team_briefing",
         "summary": "Jev는 상태와 질문을 받아 choice·score·boolean 판단을 병렬로 반환하는 System 1 계층이며, 모델 라우팅(06:04~06:47), 위험 도구 차단(06:47~07:28), 온라인 평가(07:28~08:46)에 사용할 수 있다. JARVIS에서는 결정적 로컬 게이트를 먼저 적용하고 Jev가 열린 진단이 필요하다고 분류하거나 미분류 오류가 반복될 때만 Gemini Flash-Lite를 회차당 1회 호출한다. Gemini는 진단 초안만 만들며 정본 변경, 공개 게시, 결제, 광고, 법률 승인 대행은 할 수 없다.",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-001] 광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
-        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
-        "pool": "youtube_insight",
-        "summary": "광고 훅과 피부 고민마다 별도 랜딩페이지를 만들고 가치제안, 실제 리뷰, FAQ, 배송·반품 정보를 한 흐름에 배치한다. (근거 00:29-03:16)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-002] 피부 고민·루틴 중심 탐색 구조",
-        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
-        "pool": "youtube_insight",
-        "summary": "메뉴와 컬렉션을 제품명보다 피부 고민, 제형, 루틴 단계 중심으로 구성하고 검색창을 전면에 둔다. (근거 04:16-06:16)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-003] PDP 이미지 캐러셀을 판매 스토리로 구성",
-        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
-        "pool": "youtube_insight",
-        "summary": "제품컷, 피부 고민 맥락, 제형·사용법, 성분 근거, 후기, 사용 장면, 배송·반품 순으로 이미지 세트를 만든다. (근거 12:46-14:25)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-004] 제품명·설명·FAQ를 구매 질문형 SEO로 작성",
-        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
-        "pool": "youtube_insight",
-        "summary": "제품명에 검증된 성분·제형·사용 맥락을 넣고 중복 없는 설명과 FAQ로 실제 구매 질문에 답한다. (근거 02:56-03:40)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-005] 검색형 숏폼을 TikTok·Reels·Shorts에 교차 게시",
-        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
-        "pool": "youtube_insight",
-        "summary": "사용 장면, 세 가지 사용법, 루틴 순서, 포장 비하인드 영상을 만들고 채널별 제목·자막을 현지화한다. (근거 06:46-08:14)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-006] 14일 신규 구독자 웰컴 플로우",
-        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
-        "pool": "youtube_insight",
-        "summary": "인센티브 또는 피부 퀴즈 결과, 브랜드 스토리, 검증 리뷰, 베스트셀러 이유, 정가 구매 제안을 다섯 통으로 구성한다. (근거 08:16-09:33)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-007] Shopify와 Meta CAPI 전환 신호 검증",
-        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
-        "pool": "youtube_insight",
-        "summary": "스토어 개설 후 테스트 주문으로 Pixel과 서버 이벤트의 중복·누락을 점검하고 Shopify 주문값과 비교한다. (근거 14:27-15:46)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-008] 번들·사은품 임계값 AOV 테스트",
-        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
-        "pool": "youtube_insight",
-        "summary": "구성품 이미지와 실제 절감액을 보여주는 루틴 번들 및 사은품 해금 기준을 테스트한다. (근거 11:19-12:25)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-009] 구매 후 적립 가치 이메일",
-        "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
-        "pool": "youtube_insight",
-        "summary": "구매 직후 추상 포인트 대신 원화 환산 가치, 현재 잔액, 다음 보상까지 남은 금액을 알린다. (근거 00:41-04:52)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-010] 리워드 사용 직후 재구매 컬렉션 연결",
-        "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
-        "pool": "youtube_insight",
-        "summary": "보상 코드와 가치를 상단에 표시하고 해당 보상을 쓸 수 있는 루틴·재구매 컬렉션으로 바로 연결한다. (근거 05:33-06:38)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-012] 소모품 수량별 단계 할인",
-        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
-        "pool": "youtube_insight",
-        "summary": "1개, 2개, 3개 옵션과 단위당 가격을 PDP에서 비교하되 할인 후 마진과 배송비를 통과한 상품에만 적용한다. (근거 01:55-03:58)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-013] 고객 결과 중심 루틴 번들",
-        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
-        "pool": "youtube_insight",
-        "summary": "무작위 추가 상품이 아니라 클렌징-트리트먼트-보습처럼 한 루틴을 완성하는 구성으로 번들을 만든다. (근거 04:40-07:33)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-014] good-better-best 세트 구조",
-        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
-        "pool": "youtube_insight",
-        "summary": "스타터, 2개월분, 전체 루틴 세트로 약정 수준을 나누고 상위 세트에는 실제 가치가 있는 샘플이나 도구만 추가한다. (근거 07:42-09:02)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-015] 카트 드로어 보완 상품 업셀",
-        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
-        "pool": "youtube_insight",
-        "summary": "장바구니에 담은 상품과 직접 호환되는 소수의 보완 상품만 추천하고 체크아웃을 방해하지 않게 한다. (근거 09:02-11:15)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-016] 질문형 FAQ와 히어로 SKU 토픽 클러스터",
-        "url": "https://www.youtube.com/watch?v=UBSveo_tao8",
-        "pool": "youtube_insight",
-        "summary": "피부타입, 제형, 향, 루틴 순서, 성분 질문은 PDP FAQ로 답하고 넓은 주제는 가이드와 컬렉션으로 연결한다. (근거 05:53-13:24)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-017] 검증 구매 리뷰를 전환 자산으로 사용",
-        "url": "https://www.youtube.com/watch?v=UBSveo_tao8",
-        "pool": "youtube_insight",
-        "summary": "구매 후 피부타입, 제형, 향, 사용 순서, 재구매 의향을 구조적으로 수집하고 PDP와 광고에 허가 범위 내 재사용한다. (근거 13:34-15:03)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-018] 리뷰에서 좁은 미충족 고객군을 찾기",
-        "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
-        "pool": "youtube_insight",
-        "summary": "자사·경쟁 리뷰를 AI로 묶어 구매자, 가치, 불만을 찾고 작은 설문이나 인터뷰로 확인한 뒤 포지셔닝 가설로 사용한다. (근거 07:53-09:30)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-019] 제품 사실·고객 언어·구조 참고를 넣은 AI 카피",
-        "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
-        "pool": "youtube_insight",
-        "summary": "AI 카피에는 제품 사실표, 실제 리뷰 표현, 권리 침해 없는 랜딩 구조 참고를 입력하고 사람과 법률 검토 후 실험한다. (근거 12:12-14:27)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-020] 훅·형식·증거별 크리에이티브 테스트 체계",
-        "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
-        "pool": "youtube_insight",
-        "summary": "UGC 데모, 텍스처, 루틴 교육, 리뷰, 성분 근거를 서로 다른 훅과 형식으로 제작하고 패자를 중단해 승자의 후속 버전을 만든다. (근거 15:00-17:47)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-023] Shopify AI 카탈로그 자격·질의 QA",
-        "url": "https://www.youtube.com/watch?v=jUxSAGCaJIU",
-        "pool": "youtube_insight",
-        "summary": "제품 가격·재고·정책이 Shopify 카탈로그와 동기화되는지 확인하고 대표 구매 질문을 테스트해 누락된 정책, 메타데이터, 상품 정보를 수정한다. (근거 00:16-01:45)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-024] AI 캠페인 제안 승인 큐와 비용 가드레일",
-        "url": "https://www.youtube.com/watch?v=jUxSAGCaJIU",
-        "pool": "youtube_insight",
-        "summary": "AI가 제안한 이메일·광고 캠페인은 대상, 예산, 일정, 클레임을 사람이 검토하고 유료 집행은 명시적 사용자 승인 전까지 보류한다. (근거 03:13-04:43)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-025] 모바일 게스트 체크아웃 마찰 제거",
-        "url": "https://www.youtube.com/watch?v=kFWPkoOx_ao",
-        "pool": "youtube_insight",
-        "summary": "게스트 체크아웃, 주소 자동완성, 진행 단계, 모바일 지갑 노출을 실제 휴대폰 테스트 주문으로 점검하고 막히는 단계를 기록한다. (근거 07:57-08:39)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-026] 제품·변형·컬렉션·FAQ 스키마 검증",
-        "url": "https://www.youtube.com/watch?v=Knjixb392Is",
-        "pool": "youtube_insight",
-        "summary": "제품과 변형의 가격·통화·재고·배송·반품, 컬렉션 ItemList, 실제 FAQ를 구조화 데이터로 출력하고 Search Console 오류를 수정한다. (근거 05:29-09:45)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-027] UGC 훅-발견-혜택-소프트 CTA 샷리스트",
-        "url": "https://www.youtube.com/watch?v=_pKECd9m25U",
-        "pool": "youtube_insight",
-        "summary": "실제 제품 사실과 고객 맥락으로 훅, 발견, 혜택, 소프트 CTA를 작성하고 각 문장을 증명하는 세로형 B-roll 샷을 연결해 유기 숏폼으로 먼저 검증한다. (근거 01:30-04:38)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-028] 실제 배송 지연 트리거 안내",
-        "url": "https://www.youtube.com/watch?v=v7DT2yhi9Ac",
-        "pool": "youtube_insight",
-        "summary": "주문이 약속한 처리기간을 넘을 때만 현재 상태, 다음 업데이트 시점, 문의 경로를 브랜드 톤으로 자동 안내한다. (근거 00:57-01:20)",
         "date": "2026-09-27",
         "by_hand": true
       },
@@ -1416,51 +1477,105 @@
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
-      },
-      {
-        "title": "How to Start a 1-Person Business with Claude",
-        "url": "https://www.youtube.com/watch?v=irtf9-m-9uc",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "How to use Claude to Create Digital Products",
-        "url": "https://www.youtube.com/watch?v=tZW0x_tDhSk",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "7 Faceless Business Ideas for Beginners",
-        "url": "https://www.youtube.com/watch?v=4ulpu2uos8I",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "10 Shopify Promotion Strategies That Grow Repeat Sales (Marketing Masterclass Part 4)",
-        "url": "https://www.youtube.com/watch?v=zU4FI-deDwA",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Winning Distribution Strategies: 10 Plays Every Shopify Store Needs (Beginner to Pro)",
-        "url": "https://www.youtube.com/watch?v=9SyZPimDdH4",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Winning Pricing Strategies: 10 Plays Every Shopify Store Needs (Beginner to Pro)",
-        "url": "https://www.youtube.com/watch?v=c37NGZtSJPM",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
       }
     ],
     "pricing": [
+      {
+        "title": "[영상 학습 MKT-008] 번들·사은품 임계값 AOV 테스트",
+        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+        "pool": "youtube_insight",
+        "summary": "구성품 이미지와 실제 절감액을 보여주는 루틴 번들 및 사은품 해금 기준을 테스트한다. (근거 11:19-12:25)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-009] 구매 후 적립 가치 이메일",
+        "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
+        "pool": "youtube_insight",
+        "summary": "구매 직후 추상 포인트 대신 원화 환산 가치, 현재 잔액, 다음 보상까지 남은 금액을 알린다. (근거 00:41-04:52)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-010] 리워드 사용 직후 재구매 컬렉션 연결",
+        "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
+        "pool": "youtube_insight",
+        "summary": "보상 코드와 가치를 상단에 표시하고 해당 보상을 쓸 수 있는 루틴·재구매 컬렉션으로 바로 연결한다. (근거 05:33-06:38)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-012] 소모품 수량별 단계 할인",
+        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+        "pool": "youtube_insight",
+        "summary": "1개, 2개, 3개 옵션과 단위당 가격을 PDP에서 비교하되 할인 후 마진과 배송비를 통과한 상품에만 적용한다. (근거 01:55-03:58)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-013] 고객 결과 중심 루틴 번들",
+        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+        "pool": "youtube_insight",
+        "summary": "무작위 추가 상품이 아니라 클렌징-트리트먼트-보습처럼 한 루틴을 완성하는 구성으로 번들을 만든다. (근거 04:40-07:33)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-014] good-better-best 세트 구조",
+        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+        "pool": "youtube_insight",
+        "summary": "스타터, 2개월분, 전체 루틴 세트로 약정 수준을 나누고 상위 세트에는 실제 가치가 있는 샘플이나 도구만 추가한다. (근거 07:42-09:02)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-015] 카트 드로어 보완 상품 업셀",
+        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+        "pool": "youtube_insight",
+        "summary": "장바구니에 담은 상품과 직접 호환되는 소수의 보완 상품만 추천하고 체크아웃을 방해하지 않게 한다. (근거 09:02-11:15)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-021] 할인 중첩·누수 정기 감사",
+        "url": "https://www.youtube.com/watch?v=UcG2v8i6Y2E",
+        "pool": "youtube_insight",
+        "summary": "활성 할인마다 중첩 허용, 사용기한, 사용횟수, 유입 파트너, 주문 기여이익을 기록하고 적자 조합과 방치 코드를 비활성화한다. (근거 04:18-11:00)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-022] 기여이익 기반 무료배송 대 할인 비교",
+        "url": "https://www.youtube.com/watch?v=UcG2v8i6Y2E",
+        "pool": "youtube_insight",
+        "summary": "상품군별 배송원가와 장바구니 금액을 넣어 무료배송, 정액 할인, 퍼센트 할인 시나리오의 주문 기여이익을 비교한 뒤 손실이 가장 낮은 오퍼만 테스트한다. (근거 13:22-16:34)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-031] 할인 지연·구매 종료 조건이 있는 장바구니 회수 QA",
+        "url": "https://www.youtube.com/watch?v=Q0j1cpLu7pQ",
+        "pool": "youtube_insight",
+        "summary": "첫 메시지는 저장된 장바구니 안내에 집중하고 할인은 후속 메시지로 미루며, 구매·상품 삭제 시 종료하고 승인된 테스트 계정으로만 활성화 전 검증한다. (근거 01:11-02:47)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-037] 고객 요청 기반 연관 상품 큐레이션",
+        "url": "https://www.youtube.com/watch?v=_NHlOc919zs",
+        "pool": "youtube_insight",
+        "summary": "고객이 반복 요청하는 연관 상품을 후보로 만들고 실제 사용·품질·마진 검증을 통과한 항목만 루틴 세트와 교차판매 후보에 포함한다. (근거 04:02-05:32)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-039] 관심 행동 기반 이메일 세그먼트와 연관상품 후속",
+        "url": "https://www.youtube.com/watch?v=_NHlOc919zs",
+        "pool": "youtube_insight",
+        "summary": "열람 페이지와 구매 상품으로 관심군을 나누고 직접 연관된 보완 상품만 후속 안내하며 모든 캠페인을 할인으로 학습시키지 않는다. (근거 36:11-38:44)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
       {
         "title": "[영상 학습 PRC-20260928-01] 초기 노출 프로모션 및 소싱처 이원화",
         "url": "https://www.youtube.com/watch?v=O4Z5KklVR5I",
@@ -1482,78 +1597,6 @@
         "url": "https://www.youtube.com/watch?v=UcG2v8i6Y2E",
         "pool": "youtube_manual",
         "summary": "할인 중첩·만료·무료배송을 기여이익 기준으로 감사",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-008] 번들·사은품 임계값 AOV 테스트",
-        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
-        "pool": "youtube_insight",
-        "summary": "구성품 이미지와 실제 절감액을 보여주는 루틴 번들 및 사은품 해금 기준을 테스트한다. (근거 11:19-12:25)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-009] 구매 후 적립 가치 이메일",
-        "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
-        "pool": "youtube_insight",
-        "summary": "구매 직후 추상 포인트 대신 원화 환산 가치, 현재 잔액, 다음 보상까지 남은 금액을 알린다. (근거 00:41-04:52)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-010] 리워드 사용 직후 재구매 컬렉션 연결",
-        "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
-        "pool": "youtube_insight",
-        "summary": "보상 코드와 가치를 상단에 표시하고 해당 보상을 쓸 수 있는 루틴·재구매 컬렉션으로 바로 연결한다. (근거 05:33-06:38)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-012] 소모품 수량별 단계 할인",
-        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
-        "pool": "youtube_insight",
-        "summary": "1개, 2개, 3개 옵션과 단위당 가격을 PDP에서 비교하되 할인 후 마진과 배송비를 통과한 상품에만 적용한다. (근거 01:55-03:58)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-013] 고객 결과 중심 루틴 번들",
-        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
-        "pool": "youtube_insight",
-        "summary": "무작위 추가 상품이 아니라 클렌징-트리트먼트-보습처럼 한 루틴을 완성하는 구성으로 번들을 만든다. (근거 04:40-07:33)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-014] good-better-best 세트 구조",
-        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
-        "pool": "youtube_insight",
-        "summary": "스타터, 2개월분, 전체 루틴 세트로 약정 수준을 나누고 상위 세트에는 실제 가치가 있는 샘플이나 도구만 추가한다. (근거 07:42-09:02)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-015] 카트 드로어 보완 상품 업셀",
-        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
-        "pool": "youtube_insight",
-        "summary": "장바구니에 담은 상품과 직접 호환되는 소수의 보완 상품만 추천하고 체크아웃을 방해하지 않게 한다. (근거 09:02-11:15)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-021] 할인 중첩·누수 정기 감사",
-        "url": "https://www.youtube.com/watch?v=UcG2v8i6Y2E",
-        "pool": "youtube_insight",
-        "summary": "활성 할인마다 중첩 허용, 사용기한, 사용횟수, 유입 파트너, 주문 기여이익을 기록하고 적자 조합과 방치 코드를 비활성화한다. (근거 04:18-11:00)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-022] 기여이익 기반 무료배송 대 할인 비교",
-        "url": "https://www.youtube.com/watch?v=UcG2v8i6Y2E",
-        "pool": "youtube_insight",
-        "summary": "상품군별 배송원가와 장바구니 금액을 넣어 무료배송, 정액 할인, 퍼센트 할인 시나리오의 주문 기여이익을 비교한 뒤 손실이 가장 낮은 오퍼만 테스트한다. (근거 13:22-16:34)",
         "date": "2026-09-27",
         "by_hand": true
       },
@@ -1822,6 +1865,13 @@
         "by_hand": true
       },
       {
+        "title": "Snowflake Prices Upsized Private Placement of $3.75 Billion of 0.00% Convertible Senior Notes",
+        "url": "https://investors.snowflake.com/news/news-details/2026/Snowflake-Prices-Upsized-Private-Placement-of-3-75-Billion-of-0-00-Convertible-Senior-Notes/default.aspx",
+        "pool": "institutions",
+        "date": "2026-09-29",
+        "by_hand": false
+      },
+      {
         "title": "Will European Gas Prices Keep Rising This Winter",
         "url": "https://www.goldmansachs.com/insights/articles/will-european-gas-prices-keep-rising-this-winter",
         "pool": "institutions",
@@ -1843,63 +1893,243 @@
         "by_hand": false
       },
       {
+        "title": "Gold Prices Steady Rise Amy Gower",
+        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/gold-prices-steady-rise-amy-gower",
+        "pool": "institutions",
+        "date": "2026-09-23",
+        "by_hand": false
+      },
+      {
+        "title": "Tariff Uncertainty Creates Credit Investor Opportunity",
+        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/tariff-uncertainty-creates-credit-investor-opportunity",
+        "pool": "institutions",
+        "date": "2026-09-23",
+        "by_hand": false
+      },
+      {
+        "title": "Tariffs Spurred Dash For Cash Vishy Tirupattur Martin Tobias",
+        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/tariffs-spurred-dash-for-cash-vishy-tirupattur-martin-tobias",
+        "pool": "institutions",
+        "date": "2026-09-23",
+        "by_hand": false
+      },
+      {
         "title": "Improved shipping and duty data in Analytics",
         "url": "https://changelog.shopify.com/posts/improved-shipping-and-duty-data-in-analytics",
         "pool": "design_refs",
         "date": "2026-09-23",
         "by_hand": false
-      },
-      {
-        "title": "Introducing Grok 4.7",
-        "url": "https://x.ai/news/grok-4-7",
-        "pool": "institutions",
-        "date": "2026-09-21",
-        "by_hand": false
-      },
-      {
-        "title": "Unlimited private plans and target stores in Shopify App Pricing",
-        "url": "https://shopify.dev/changelog/unlimited-private-plans-and-target-stores-in-shopify-app-pricing",
-        "pool": "design_refs",
-        "date": "2026-09-21",
-        "by_hand": false
-      },
-      {
-        "title": "Constrained Bayesian Neural Network utility in the design of price promotions",
-        "url": "https://doi.org/10.1016/j.jocm.2026.100633",
-        "pool": "institutions",
-        "date": "2026-09-19",
-        "by_hand": false
-      },
-      {
-        "title": "XMPIaaS: Towards Cloud Native MPI via Cooperative Process Migration",
-        "url": "https://arxiv.org/abs/2609.16531",
-        "pool": "robotics",
-        "date": "2026-09-15",
-        "by_hand": false
-      },
-      {
-        "title": "Smoking and vaping trends among active-duty US Navy and Marine Corps personnel: results from the Annual Periodic Health Assessment, 2017-2021",
-        "url": "https://doi.org/10.1093/ntr/ntag188",
-        "pool": "institutions",
-        "date": "2026-08-26",
-        "by_hand": false
-      },
-      {
-        "title": "Booz Allen Hamilton Announces Pricing of Senior Notes Offering",
-        "url": "https://investors.boozallen.com/news-releases/news-release-details/booz-allen-hamilton-announces-pricing-senior-notes-offering-2",
-        "pool": "institutions",
-        "date": "2026-07-28",
-        "by_hand": false
-      },
-      {
-        "title": "Beyond Price and Benchmark: A Cost–Methodology–Fit Framework for Selecting AI Developer Tools, with a Proposed Evaluation Protocol",
-        "url": "https://doi.org/10.64823/ijcsa.2601002",
-        "pool": "institutions",
-        "date": "2026-07-15",
-        "by_hand": false
       }
     ],
     "legal": [
+      {
+        "title": "[영상 학습 MKT-001] 광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
+        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+        "pool": "youtube_insight",
+        "summary": "광고 훅과 피부 고민마다 별도 랜딩페이지를 만들고 가치제안, 실제 리뷰, FAQ, 배송·반품 정보를 한 흐름에 배치한다. (근거 00:29-03:16)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-003] PDP 이미지 캐러셀을 판매 스토리로 구성",
+        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+        "pool": "youtube_insight",
+        "summary": "제품컷, 피부 고민 맥락, 제형·사용법, 성분 근거, 후기, 사용 장면, 배송·반품 순으로 이미지 세트를 만든다. (근거 12:46-14:25)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-004] 제품명·설명·FAQ를 구매 질문형 SEO로 작성",
+        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
+        "pool": "youtube_insight",
+        "summary": "제품명에 검증된 성분·제형·사용 맥락을 넣고 중복 없는 설명과 FAQ로 실제 구매 질문에 답한다. (근거 02:56-03:40)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-006] 14일 신규 구독자 웰컴 플로우",
+        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
+        "pool": "youtube_insight",
+        "summary": "인센티브 또는 피부 퀴즈 결과, 브랜드 스토리, 검증 리뷰, 베스트셀러 이유, 정가 구매 제안을 다섯 통으로 구성한다. (근거 08:16-09:33)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-007] Shopify와 Meta CAPI 전환 신호 검증",
+        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
+        "pool": "youtube_insight",
+        "summary": "스토어 개설 후 테스트 주문으로 Pixel과 서버 이벤트의 중복·누락을 점검하고 Shopify 주문값과 비교한다. (근거 14:27-15:46)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-011] 실제 만료일 기반 윈백 이메일",
+        "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
+        "pool": "youtube_insight",
+        "summary": "공개된 포인트 만료 규칙이 있을 때만 잔액 가치와 사용처를 보여주는 만료 전 알림을 발송한다. (근거 09:32-10:46)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-013] 고객 결과 중심 루틴 번들",
+        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
+        "pool": "youtube_insight",
+        "summary": "무작위 추가 상품이 아니라 클렌징-트리트먼트-보습처럼 한 루틴을 완성하는 구성으로 번들을 만든다. (근거 04:40-07:33)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-016] 질문형 FAQ와 히어로 SKU 토픽 클러스터",
+        "url": "https://www.youtube.com/watch?v=UBSveo_tao8",
+        "pool": "youtube_insight",
+        "summary": "피부타입, 제형, 향, 루틴 순서, 성분 질문은 PDP FAQ로 답하고 넓은 주제는 가이드와 컬렉션으로 연결한다. (근거 05:53-13:24)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-017] 검증 구매 리뷰를 전환 자산으로 사용",
+        "url": "https://www.youtube.com/watch?v=UBSveo_tao8",
+        "pool": "youtube_insight",
+        "summary": "구매 후 피부타입, 제형, 향, 사용 순서, 재구매 의향을 구조적으로 수집하고 PDP와 광고에 허가 범위 내 재사용한다. (근거 13:34-15:03)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-019] 제품 사실·고객 언어·구조 참고를 넣은 AI 카피",
+        "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
+        "pool": "youtube_insight",
+        "summary": "AI 카피에는 제품 사실표, 실제 리뷰 표현, 권리 침해 없는 랜딩 구조 참고를 입력하고 사람과 법률 검토 후 실험한다. (근거 12:12-14:27)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-020] 훅·형식·증거별 크리에이티브 테스트 체계",
+        "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
+        "pool": "youtube_insight",
+        "summary": "UGC 데모, 텍스처, 루틴 교육, 리뷰, 성분 근거를 서로 다른 훅과 형식으로 제작하고 패자를 중단해 승자의 후속 버전을 만든다. (근거 15:00-17:47)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-023] Shopify AI 카탈로그 자격·질의 QA",
+        "url": "https://www.youtube.com/watch?v=jUxSAGCaJIU",
+        "pool": "youtube_insight",
+        "summary": "제품 가격·재고·정책이 Shopify 카탈로그와 동기화되는지 확인하고 대표 구매 질문을 테스트해 누락된 정책, 메타데이터, 상품 정보를 수정한다. (근거 00:16-01:45)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-024] AI 캠페인 제안 승인 큐와 비용 가드레일",
+        "url": "https://www.youtube.com/watch?v=jUxSAGCaJIU",
+        "pool": "youtube_insight",
+        "summary": "AI가 제안한 이메일·광고 캠페인은 대상, 예산, 일정, 클레임을 사람이 검토하고 유료 집행은 명시적 사용자 승인 전까지 보류한다. (근거 03:13-04:43)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-025] 모바일 게스트 체크아웃 마찰 제거",
+        "url": "https://www.youtube.com/watch?v=kFWPkoOx_ao",
+        "pool": "youtube_insight",
+        "summary": "게스트 체크아웃, 주소 자동완성, 진행 단계, 모바일 지갑 노출을 실제 휴대폰 테스트 주문으로 점검하고 막히는 단계를 기록한다. (근거 07:57-08:39)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-026] 제품·변형·컬렉션·FAQ 스키마 검증",
+        "url": "https://www.youtube.com/watch?v=Knjixb392Is",
+        "pool": "youtube_insight",
+        "summary": "제품과 변형의 가격·통화·재고·배송·반품, 컬렉션 ItemList, 실제 FAQ를 구조화 데이터로 출력하고 Search Console 오류를 수정한다. (근거 05:29-09:45)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-027] UGC 훅-발견-혜택-소프트 CTA 샷리스트",
+        "url": "https://www.youtube.com/watch?v=_pKECd9m25U",
+        "pool": "youtube_insight",
+        "summary": "실제 제품 사실과 고객 맥락으로 훅, 발견, 혜택, 소프트 CTA를 작성하고 각 문장을 증명하는 세로형 B-roll 샷을 연결해 유기 숏폼으로 먼저 검증한다. (근거 01:30-04:38)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-028] 실제 배송 지연 트리거 안내",
+        "url": "https://www.youtube.com/watch?v=v7DT2yhi9Ac",
+        "pool": "youtube_insight",
+        "summary": "주문이 약속한 처리기간을 넘을 때만 현재 상태, 다음 업데이트 시점, 문의 경로를 브랜드 톤으로 자동 안내한다. (근거 00:57-01:20)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-029] 저참여 선셋 플로우와 목록 정리",
+        "url": "https://www.youtube.com/watch?v=v7DT2yhi9Ac",
+        "pool": "youtube_insight",
+        "summary": "최근 열람·클릭·구매가 없는 구독자에게 누락 콘텐츠와 선호 재설정 기회를 제공하고 반응이 없으면 마케팅 발송 대상에서 제외한다. (근거 01:51-02:20)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-030] 중복 없는 동의 기반 장바구니 회수 진입",
+        "url": "https://www.youtube.com/watch?v=Q0j1cpLu7pQ",
+        "pool": "youtube_insight",
+        "summary": "Shopify 기본·레거시 장바구니 알림과 외부 자동화의 중복 여부를 먼저 감사하고, 마케팅 수신 동의가 필요한 지역에는 구독 필터를 적용한다. (근거 00:19-01:14)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-031] 할인 지연·구매 종료 조건이 있는 장바구니 회수 QA",
+        "url": "https://www.youtube.com/watch?v=Q0j1cpLu7pQ",
+        "pool": "youtube_insight",
+        "summary": "첫 메시지는 저장된 장바구니 안내에 집중하고 할인은 후속 메시지로 미루며, 구매·상품 삭제 시 종료하고 승인된 테스트 계정으로만 활성화 전 검증한다. (근거 01:11-02:47)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-032] SEO·GEO 공통 기반을 상품 진실원장으로 유지",
+        "url": "https://www.youtube.com/watch?v=YoDGJV1XTls",
+        "pool": "youtube_insight",
+        "summary": "유용한 콘텐츠, 크롤 가능성, 구조화 데이터, 정확한 상품 피드, 리뷰와 신뢰 신호를 하나의 상품 진실원장 기준으로 함께 관리한다. (근거 04:49-08:01)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-034] 검증 리뷰 언어를 PDP 혜택·사용 맥락으로 환원",
+        "url": "https://www.youtube.com/watch?v=YoDGJV1XTls",
+        "pool": "youtube_insight",
+        "summary": "검증 구매 리뷰에서 반복되는 사용 맥락, 치수·제형 해석, 장점과 질문을 추출해 제품 사실 범위 안에서 PDP 설명과 피드 속성을 보강한다. (근거 23:40-29:11)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-035] 크롤 가능한 리뷰·구조화 데이터 노출",
+        "url": "https://www.youtube.com/watch?v=YoDGJV1XTls",
+        "pool": "youtube_insight",
+        "summary": "리뷰 점수와 핵심 리뷰 콘텐츠가 구조화 데이터에 포함되고 서버 렌더링 또는 봇이 읽을 수 있는 HTML에 노출되는지 검사한다. (근거 31:11-36:23)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-036] 제3자 접점 기반 브랜드 선호 구축",
+        "url": "https://www.youtube.com/watch?v=YoDGJV1XTls",
+        "pool": "youtube_insight",
+        "summary": "고객이 실제로 정보를 찾는 커뮤니티·미디어·소셜 접점을 인터뷰로 확인하고, 과장 없이 전문성 자료와 고객 경험이 제3자 문맥에서 언급되도록 유기 배포한다. (근거 42:32-43:48)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-037] 고객 요청 기반 연관 상품 큐레이션",
+        "url": "https://www.youtube.com/watch?v=_NHlOc919zs",
+        "pool": "youtube_insight",
+        "summary": "고객이 반복 요청하는 연관 상품을 후보로 만들고 실제 사용·품질·마진 검증을 통과한 항목만 루틴 세트와 교차판매 후보에 포함한다. (근거 04:02-05:32)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-039] 관심 행동 기반 이메일 세그먼트와 연관상품 후속",
+        "url": "https://www.youtube.com/watch?v=_NHlOc919zs",
+        "pool": "youtube_insight",
+        "summary": "열람 페이지와 구매 상품으로 관심군을 나누고 직접 연관된 보완 상품만 후속 안내하며 모든 캠페인을 할인으로 학습시키지 않는다. (근거 36:11-38:44)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
       {
         "title": "[영상 학습 LEG-20260928-01] 수출 규제 서류 사전 완비 및 조건부 등록",
         "url": "https://www.youtube.com/watch?v=nPbZ6lK2K08",
@@ -1921,150 +2151,6 @@
         "url": "https://www.youtube.com/watch?v=BJeHhsMVc8A&t=34s",
         "pool": "team_briefing",
         "summary": "Jev는 상태와 질문을 받아 choice·score·boolean 판단을 병렬로 반환하는 System 1 계층이며, 모델 라우팅(06:04~06:47), 위험 도구 차단(06:47~07:28), 온라인 평가(07:28~08:46)에 사용할 수 있다. JARVIS에서는 결정적 로컬 게이트를 먼저 적용하고 Jev가 열린 진단이 필요하다고 분류하거나 미분류 오류가 반복될 때만 Gemini Flash-Lite를 회차당 1회 호출한다. Gemini는 진단 초안만 만들며 정본 변경, 공개 게시, 결제, 광고, 법률 승인 대행은 할 수 없다.",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-001] 광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
-        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
-        "pool": "youtube_insight",
-        "summary": "광고 훅과 피부 고민마다 별도 랜딩페이지를 만들고 가치제안, 실제 리뷰, FAQ, 배송·반품 정보를 한 흐름에 배치한다. (근거 00:29-03:16)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-003] PDP 이미지 캐러셀을 판매 스토리로 구성",
-        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
-        "pool": "youtube_insight",
-        "summary": "제품컷, 피부 고민 맥락, 제형·사용법, 성분 근거, 후기, 사용 장면, 배송·반품 순으로 이미지 세트를 만든다. (근거 12:46-14:25)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-004] 제품명·설명·FAQ를 구매 질문형 SEO로 작성",
-        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
-        "pool": "youtube_insight",
-        "summary": "제품명에 검증된 성분·제형·사용 맥락을 넣고 중복 없는 설명과 FAQ로 실제 구매 질문에 답한다. (근거 02:56-03:40)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-006] 14일 신규 구독자 웰컴 플로우",
-        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
-        "pool": "youtube_insight",
-        "summary": "인센티브 또는 피부 퀴즈 결과, 브랜드 스토리, 검증 리뷰, 베스트셀러 이유, 정가 구매 제안을 다섯 통으로 구성한다. (근거 08:16-09:33)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-007] Shopify와 Meta CAPI 전환 신호 검증",
-        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
-        "pool": "youtube_insight",
-        "summary": "스토어 개설 후 테스트 주문으로 Pixel과 서버 이벤트의 중복·누락을 점검하고 Shopify 주문값과 비교한다. (근거 14:27-15:46)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-011] 실제 만료일 기반 윈백 이메일",
-        "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
-        "pool": "youtube_insight",
-        "summary": "공개된 포인트 만료 규칙이 있을 때만 잔액 가치와 사용처를 보여주는 만료 전 알림을 발송한다. (근거 09:32-10:46)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-013] 고객 결과 중심 루틴 번들",
-        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
-        "pool": "youtube_insight",
-        "summary": "무작위 추가 상품이 아니라 클렌징-트리트먼트-보습처럼 한 루틴을 완성하는 구성으로 번들을 만든다. (근거 04:40-07:33)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-016] 질문형 FAQ와 히어로 SKU 토픽 클러스터",
-        "url": "https://www.youtube.com/watch?v=UBSveo_tao8",
-        "pool": "youtube_insight",
-        "summary": "피부타입, 제형, 향, 루틴 순서, 성분 질문은 PDP FAQ로 답하고 넓은 주제는 가이드와 컬렉션으로 연결한다. (근거 05:53-13:24)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-017] 검증 구매 리뷰를 전환 자산으로 사용",
-        "url": "https://www.youtube.com/watch?v=UBSveo_tao8",
-        "pool": "youtube_insight",
-        "summary": "구매 후 피부타입, 제형, 향, 사용 순서, 재구매 의향을 구조적으로 수집하고 PDP와 광고에 허가 범위 내 재사용한다. (근거 13:34-15:03)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-019] 제품 사실·고객 언어·구조 참고를 넣은 AI 카피",
-        "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
-        "pool": "youtube_insight",
-        "summary": "AI 카피에는 제품 사실표, 실제 리뷰 표현, 권리 침해 없는 랜딩 구조 참고를 입력하고 사람과 법률 검토 후 실험한다. (근거 12:12-14:27)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-020] 훅·형식·증거별 크리에이티브 테스트 체계",
-        "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
-        "pool": "youtube_insight",
-        "summary": "UGC 데모, 텍스처, 루틴 교육, 리뷰, 성분 근거를 서로 다른 훅과 형식으로 제작하고 패자를 중단해 승자의 후속 버전을 만든다. (근거 15:00-17:47)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-023] Shopify AI 카탈로그 자격·질의 QA",
-        "url": "https://www.youtube.com/watch?v=jUxSAGCaJIU",
-        "pool": "youtube_insight",
-        "summary": "제품 가격·재고·정책이 Shopify 카탈로그와 동기화되는지 확인하고 대표 구매 질문을 테스트해 누락된 정책, 메타데이터, 상품 정보를 수정한다. (근거 00:16-01:45)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-024] AI 캠페인 제안 승인 큐와 비용 가드레일",
-        "url": "https://www.youtube.com/watch?v=jUxSAGCaJIU",
-        "pool": "youtube_insight",
-        "summary": "AI가 제안한 이메일·광고 캠페인은 대상, 예산, 일정, 클레임을 사람이 검토하고 유료 집행은 명시적 사용자 승인 전까지 보류한다. (근거 03:13-04:43)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-025] 모바일 게스트 체크아웃 마찰 제거",
-        "url": "https://www.youtube.com/watch?v=kFWPkoOx_ao",
-        "pool": "youtube_insight",
-        "summary": "게스트 체크아웃, 주소 자동완성, 진행 단계, 모바일 지갑 노출을 실제 휴대폰 테스트 주문으로 점검하고 막히는 단계를 기록한다. (근거 07:57-08:39)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-026] 제품·변형·컬렉션·FAQ 스키마 검증",
-        "url": "https://www.youtube.com/watch?v=Knjixb392Is",
-        "pool": "youtube_insight",
-        "summary": "제품과 변형의 가격·통화·재고·배송·반품, 컬렉션 ItemList, 실제 FAQ를 구조화 데이터로 출력하고 Search Console 오류를 수정한다. (근거 05:29-09:45)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-027] UGC 훅-발견-혜택-소프트 CTA 샷리스트",
-        "url": "https://www.youtube.com/watch?v=_pKECd9m25U",
-        "pool": "youtube_insight",
-        "summary": "실제 제품 사실과 고객 맥락으로 훅, 발견, 혜택, 소프트 CTA를 작성하고 각 문장을 증명하는 세로형 B-roll 샷을 연결해 유기 숏폼으로 먼저 검증한다. (근거 01:30-04:38)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-028] 실제 배송 지연 트리거 안내",
-        "url": "https://www.youtube.com/watch?v=v7DT2yhi9Ac",
-        "pool": "youtube_insight",
-        "summary": "주문이 약속한 처리기간을 넘을 때만 현재 상태, 다음 업데이트 시점, 문의 경로를 브랜드 톤으로 자동 안내한다. (근거 00:57-01:20)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-029] 저참여 선셋 플로우와 목록 정리",
-        "url": "https://www.youtube.com/watch?v=v7DT2yhi9Ac",
-        "pool": "youtube_insight",
-        "summary": "최근 열람·클릭·구매가 없는 구독자에게 누락 콘텐츠와 선호 재설정 기회를 제공하고 반응이 없으면 마케팅 발송 대상에서 제외한다. (근거 01:51-02:20)",
         "date": "2026-09-27",
         "by_hand": true
       },
@@ -2286,65 +2372,81 @@
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
-      },
-      {
-        "title": "GDF2026 - Regulatory Review Process for Type II Secondary DMFs",
-        "url": "https://www.youtube.com/watch?v=HSwvc-OHhX8",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "GDF2026 - Pre-Abbreviated New Drug Application (ANDA) Meetings for Complex Drug Products",
-        "url": "https://www.youtube.com/watch?v=9t00CGZxt9c",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "G. L. Mezzetta Inc. Announces Recall of Mezzetta Brand Golden Greek Peperoncini (Medium Heat) Due to Presence of Pest Contaminant in the Jar",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/g-l-mezzetta-inc-announces-recall-mezzetta-brand-golden-greek-peperoncini-medium-heat-due-presence",
-        "pool": "fda",
-        "date": "2026-09-26",
-        "by_hand": false
-      },
-      {
-        "title": "Democratic Election Ticket Market Outlook 2024",
-        "url": "https://www.morganstanley.com/ideas/democratic-election-ticket-market-outlook-2024",
-        "pool": "institutions",
-        "date": "2026-09-25",
-        "by_hand": false
-      },
-      {
-        "title": "Exploiting Target Knowledge from MLLMs for Robust Few-Shot Segmentation",
-        "url": "https://arxiv.org/abs/2609.28949",
-        "pool": "arxiv",
-        "date": "2026-09-24",
-        "by_hand": false
-      },
-      {
-        "title": "ConPro: Contrast Projection Pretraining for Label-Efficient Vessel Segmentation in DSA Sequences",
-        "url": "https://arxiv.org/abs/2609.30043",
-        "pool": "arxiv",
-        "date": "2026-09-24",
-        "by_hand": false
-      },
-      {
-        "title": "Continuous Online Fault Detection for Mobile Robots via Adaptive Edge Models",
-        "url": "https://arxiv.org/abs/2609.29194",
-        "pool": "arxiv",
-        "date": "2026-09-24",
-        "by_hand": false
-      },
-      {
-        "title": "Deano’s Pasta Issue Allergy Alert on Undeclared Lobster in Pear and Pecorino Triangoli Ravioli",
-        "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/deanos-pasta-issue-allergy-alert-undeclared-lobster-pear-and-pecorino-triangoli-ravioli",
-        "pool": "fda",
-        "date": "2026-09-24",
-        "by_hand": false
       }
     ],
     "design": [
+      {
+        "title": "[영상 학습 MKT-001] 광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
+        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+        "pool": "youtube_insight",
+        "summary": "광고 훅과 피부 고민마다 별도 랜딩페이지를 만들고 가치제안, 실제 리뷰, FAQ, 배송·반품 정보를 한 흐름에 배치한다. (근거 00:29-03:16)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-002] 피부 고민·루틴 중심 탐색 구조",
+        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+        "pool": "youtube_insight",
+        "summary": "메뉴와 컬렉션을 제품명보다 피부 고민, 제형, 루틴 단계 중심으로 구성하고 검색창을 전면에 둔다. (근거 04:16-06:16)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-003] PDP 이미지 캐러셀을 판매 스토리로 구성",
+        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
+        "pool": "youtube_insight",
+        "summary": "제품컷, 피부 고민 맥락, 제형·사용법, 성분 근거, 후기, 사용 장면, 배송·반품 순으로 이미지 세트를 만든다. (근거 12:46-14:25)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-005] 검색형 숏폼을 TikTok·Reels·Shorts에 교차 게시",
+        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
+        "pool": "youtube_insight",
+        "summary": "사용 장면, 세 가지 사용법, 루틴 순서, 포장 비하인드 영상을 만들고 채널별 제목·자막을 현지화한다. (근거 06:46-08:14)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-020] 훅·형식·증거별 크리에이티브 테스트 체계",
+        "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
+        "pool": "youtube_insight",
+        "summary": "UGC 데모, 텍스처, 루틴 교육, 리뷰, 성분 근거를 서로 다른 훅과 형식으로 제작하고 패자를 중단해 승자의 후속 버전을 만든다. (근거 15:00-17:47)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-024] AI 캠페인 제안 승인 큐와 비용 가드레일",
+        "url": "https://www.youtube.com/watch?v=jUxSAGCaJIU",
+        "pool": "youtube_insight",
+        "summary": "AI가 제안한 이메일·광고 캠페인은 대상, 예산, 일정, 클레임을 사람이 검토하고 유료 집행은 명시적 사용자 승인 전까지 보류한다. (근거 03:13-04:43)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-027] UGC 훅-발견-혜택-소프트 CTA 샷리스트",
+        "url": "https://www.youtube.com/watch?v=_pKECd9m25U",
+        "pool": "youtube_insight",
+        "summary": "실제 제품 사실과 고객 맥락으로 훅, 발견, 혜택, 소프트 CTA를 작성하고 각 문장을 증명하는 세로형 B-roll 샷을 연결해 유기 숏폼으로 먼저 검증한다. (근거 01:30-04:38)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-038] 고객 단계별 질문·페이지·전환 지도",
+        "url": "https://www.youtube.com/watch?v=_NHlOc919zs",
+        "pool": "youtube_insight",
+        "summary": "고객 세그먼트마다 최초 접점, 첫 랜딩페이지, 예상 질문, 이메일 구독 또는 구매 전환, 재구매까지의 흐름을 한 장의 여정 지도로 만든다. (근거 26:25-28:40)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 MKT-040] 시각적 연관상품으로 유기 획득 후 소모품 리텐션 연결",
+        "url": "https://www.youtube.com/watch?v=_NHlOc919zs",
+        "pool": "youtube_insight",
+        "summary": "광고비 없이 시각적으로 설명하기 쉬운 연관 상품과 교육 콘텐츠로 신규 관심을 얻고, 동의 기반 이메일에서 핵심 소모품·루틴 상품으로 연결되는지 검증한다. (근거 42:25-46:55)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
       {
         "title": "[영상 학습 DSN-20260928-01] 스크롤 드라이브 인터랙티브 랜딩페이지 구축",
         "url": "https://www.youtube.com/watch?v=QUI6Ug4cHnE",
@@ -2374,62 +2476,6 @@
         "url": "https://share.gemini.google/9PFLmGZM2rqu",
         "pool": "team_briefing",
         "summary": "제안된 8단계 흐름은 JARVIS의 수집→구조화→비서실장 라우팅→분석→카피→디자인→검수→채널 전달 구조와 방향이 맞다. 다만 실시간 수집, 고화질 미디어 자동 생성, SNS 자동 게시라는 표현은 현재 구현보다 앞서 있으므로 각각 주기 수집, 초안·레퍼런스 단계, 사람 승인 후 실행으로 정정한다. Shopify 카피 10건은 준비됐지만 공개 준비는 0건이며 외부 채널 쓰기는 연결하지 않는다.",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-001] 광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
-        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
-        "pool": "youtube_insight",
-        "summary": "광고 훅과 피부 고민마다 별도 랜딩페이지를 만들고 가치제안, 실제 리뷰, FAQ, 배송·반품 정보를 한 흐름에 배치한다. (근거 00:29-03:16)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-002] 피부 고민·루틴 중심 탐색 구조",
-        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
-        "pool": "youtube_insight",
-        "summary": "메뉴와 컬렉션을 제품명보다 피부 고민, 제형, 루틴 단계 중심으로 구성하고 검색창을 전면에 둔다. (근거 04:16-06:16)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-003] PDP 이미지 캐러셀을 판매 스토리로 구성",
-        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
-        "pool": "youtube_insight",
-        "summary": "제품컷, 피부 고민 맥락, 제형·사용법, 성분 근거, 후기, 사용 장면, 배송·반품 순으로 이미지 세트를 만든다. (근거 12:46-14:25)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-005] 검색형 숏폼을 TikTok·Reels·Shorts에 교차 게시",
-        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
-        "pool": "youtube_insight",
-        "summary": "사용 장면, 세 가지 사용법, 루틴 순서, 포장 비하인드 영상을 만들고 채널별 제목·자막을 현지화한다. (근거 06:46-08:14)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-020] 훅·형식·증거별 크리에이티브 테스트 체계",
-        "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
-        "pool": "youtube_insight",
-        "summary": "UGC 데모, 텍스처, 루틴 교육, 리뷰, 성분 근거를 서로 다른 훅과 형식으로 제작하고 패자를 중단해 승자의 후속 버전을 만든다. (근거 15:00-17:47)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-024] AI 캠페인 제안 승인 큐와 비용 가드레일",
-        "url": "https://www.youtube.com/watch?v=jUxSAGCaJIU",
-        "pool": "youtube_insight",
-        "summary": "AI가 제안한 이메일·광고 캠페인은 대상, 예산, 일정, 클레임을 사람이 검토하고 유료 집행은 명시적 사용자 승인 전까지 보류한다. (근거 03:13-04:43)",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-027] UGC 훅-발견-혜택-소프트 CTA 샷리스트",
-        "url": "https://www.youtube.com/watch?v=_pKECd9m25U",
-        "pool": "youtube_insight",
-        "summary": "실제 제품 사실과 고객 맥락으로 훅, 발견, 혜택, 소프트 CTA를 작성하고 각 문장을 증명하는 세로형 B-roll 샷을 연결해 유기 숏폼으로 먼저 검증한다. (근거 01:30-04:38)",
         "date": "2026-09-27",
         "by_hand": true
       },
@@ -2771,20 +2817,6 @@
       {
         "title": "How to Use Claude Cowork to Build and Run a Shopify Store",
         "url": "https://www.youtube.com/watch?v=IQDtl0Dacjo",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Instagram Changed Everything Again: New Updates You Need to Know in 2026",
-        "url": "https://www.youtube.com/watch?v=dU_U1Pmmu5c",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "How to Start a 1-Person Business with Claude",
-        "url": "https://www.youtube.com/watch?v=irtf9-m-9uc",
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
@@ -3214,6 +3246,14 @@
     ],
     "knowledge": [
       {
+        "title": "[영상 학습 MKT-036] 제3자 접점 기반 브랜드 선호 구축",
+        "url": "https://www.youtube.com/watch?v=YoDGJV1XTls",
+        "pool": "youtube_insight",
+        "summary": "고객이 실제로 정보를 찾는 커뮤니티·미디어·소셜 접점을 인터뷰로 확인하고, 과장 없이 전문성 자료와 고객 경험이 제3자 문맥에서 언급되도록 유기 배포한다. (근거 42:32-43:48)",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
         "title": "[영상 학습 KNW-20260928-01] 3단 위계 건축물 구조화 지식 요약",
         "url": "https://www.youtube.com/watch?v=ehmoVENJEB0",
         "pool": "youtube_insight",
@@ -3629,13 +3669,6 @@
       {
         "title": "Two AI Models Set to “stir government urgency”, But Will This Challenge Undo Them?",
         "url": "https://www.youtube.com/watch?v=s4tptozUJ8Y",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "What the New ChatGPT 5.4 Means for the World",
-        "url": "https://www.youtube.com/watch?v=zizoDORjmlQ",
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true

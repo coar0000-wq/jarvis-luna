@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-09-29T17:01:07.024470+09:00",
+    "updated_at": "2026-09-29T19:04:11.067404+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -677,8 +677,8 @@
   "marketing_playbook": {
     "설명": "영상 링크 수와 자막 타임스탬프를 검토한 실행 전략을 함께 제공한다. 전략은 data/shopify_marketing_strategy.json에서 재생성된다.",
     "영상_총량": 50,
-    "자막_검토_영상": 12,
-    "근거_인사이트": 29,
+    "자막_검토_영상": 15,
+    "근거_인사이트": 40,
     "주제": {
       "광고·크리에이티브": {
         "자료_수": 6,
@@ -954,6 +954,62 @@
         "insight_ids": [
           "MKT-024"
         ]
+      },
+      {
+        "id": "EXP-013",
+        "priority": 13,
+        "name": "장바구니 회수 중복·동의·종료 QA",
+        "status": "blocked_until_store_and_consent",
+        "cost_mode": "native_or_existing_stack_only",
+        "insight_ids": [
+          "MKT-030",
+          "MKT-031"
+        ]
+      },
+      {
+        "id": "EXP-014",
+        "priority": 14,
+        "name": "상품피드 GEO 진실원장",
+        "status": "blocked_until_store_and_feed",
+        "cost_mode": "free_native",
+        "insight_ids": [
+          "MKT-032",
+          "MKT-033"
+        ]
+      },
+      {
+        "id": "EXP-015",
+        "priority": 15,
+        "name": "브랜드 선호·고객 여정 지도",
+        "status": "ready_for_research",
+        "cost_mode": "free_organic",
+        "insight_ids": [
+          "MKT-036",
+          "MKT-038"
+        ]
+      },
+      {
+        "id": "EXP-016",
+        "priority": 16,
+        "name": "연관상품 유기 획득-이메일 교차판매",
+        "status": "ready_after_existing_assortment_review",
+        "cost_mode": "existing_assets_only",
+        "insight_ids": [
+          "MKT-037",
+          "MKT-039",
+          "MKT-040"
+        ]
+      },
+      {
+        "id": "EXP-017",
+        "priority": 17,
+        "name": "검증 리뷰 언어·크롤 QA",
+        "status": "blocked_until_verified_reviews",
+        "cost_mode": "free_local_or_existing_stack",
+        "insight_ids": [
+          "MKT-034",
+          "MKT-035"
+        ]
       }
     ],
     "적용_브리핑": [
@@ -993,28 +1049,28 @@
     },
     "source_coverage": {
       "method": "YouTube 검색 후 자막을 직접 검토하고 타임스탬프 근거가 있는 실행 항목만 채택",
-      "videos": 12,
-      "insights": 29,
+      "videos": 15,
+      "insights": 40,
       "pillars": {
         "acquisition": 2,
-        "aov": 7,
-        "creative": 3,
-        "cro": 4,
+        "aov": 8,
+        "creative": 4,
+        "cro": 5,
         "measurement": 1,
-        "positioning": 1,
-        "retention": 6,
-        "seo_geo": 4,
+        "positioning": 3,
+        "retention": 9,
+        "seo_geo": 7,
         "social_proof": 1
       },
       "oldest_video_date": "2025-09-03",
-      "newest_video_date": "2026-09-22",
+      "newest_video_date": "2026-09-28",
       "source_file": "data/manual/shopify_youtube_insights.json"
     },
     "quality_gate": {
       "passed": true,
-      "video_count": 12,
-      "insight_count": 29,
-      "timestamped_evidence_count": 29,
+      "video_count": 15,
+      "insight_count": 40,
+      "timestamped_evidence_count": 40,
       "uncited_video_count": 0,
       "required_pillars_present": [
         "acquisition",
@@ -1037,7 +1093,12 @@
       "EXP-009",
       "EXP-010",
       "EXP-011",
-      "EXP-012"
+      "EXP-012",
+      "EXP-013",
+      "EXP-014",
+      "EXP-015",
+      "EXP-016",
+      "EXP-017"
     ],
     "strategy_file": "data/shopify_marketing_strategy.json"
   },
@@ -1744,7 +1805,7 @@
   "health": {
     "signals_live": 13,
     "signals_total": 15,
-    "signals_verified": 13,
+    "signals_verified": 12,
     "trust_graded": true,
     "trust_note": "",
     "live_channels": [
