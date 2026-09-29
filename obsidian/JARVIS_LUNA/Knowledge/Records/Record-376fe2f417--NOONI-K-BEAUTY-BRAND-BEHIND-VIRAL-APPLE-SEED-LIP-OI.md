@@ -2,7 +2,7 @@
 title: "Record 376fe2f417 · NOONI-K-BEAUTY-BRAND-BEHIND-VIRAL-APPLE-SEED-LIP-OI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:22.604685+00:00
+updated_at: 2026-09-29T22:18:06.773099+00:00
 tags: [record, real-data]
 ---
 

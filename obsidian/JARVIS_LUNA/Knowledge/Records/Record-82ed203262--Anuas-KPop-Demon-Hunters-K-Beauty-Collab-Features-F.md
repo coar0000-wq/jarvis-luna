@@ -2,7 +2,7 @@
 title: "Record 82ed203262 · Anuas-KPop-Demon-Hunters-K-Beauty-Collab-Features-F"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:22.732874+00:00
+updated_at: 2026-09-29T22:18:06.891954+00:00
 tags: [record, real-data]
 ---
 

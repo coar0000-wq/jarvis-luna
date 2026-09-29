@@ -2,7 +2,7 @@
 title: "Record 7810197975 · La-Roche-Posay-Toleriane-Double-Repair-Face-Moisturizer--Daily-face-cr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:23.311408+00:00
+updated_at: 2026-09-29T22:18:07.475273+00:00
 tags: [record, real-data]
 ---
 

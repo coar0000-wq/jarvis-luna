@@ -2,7 +2,7 @@
 title: "Record d4b4df40e2 · JevSoup-System-One-Routing-for-Training-Free-LoRA-Composition"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:22.011620+00:00
+updated_at: 2026-09-29T22:18:06.161263+00:00
 tags: [record, real-data]
 ---
 

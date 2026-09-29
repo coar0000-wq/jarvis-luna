@@ -2,7 +2,7 @@
 title: "Record 5933340549 · Configuration-Constrained-Tube-MPC-for-Difference-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:21.082230+00:00
+updated_at: 2026-09-29T22:18:05.262280+00:00
 tags: [record, real-data]
 ---
 

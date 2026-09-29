@@ -2,7 +2,7 @@
 title: "Record f2dfd12e35 · PanOxyl-10-Benzoyl-Peroxide-Acne-Foaming-Wash-Maxim"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:23.281607+00:00
+updated_at: 2026-09-29T22:18:07.446397+00:00
 tags: [record, real-data]
 ---
 

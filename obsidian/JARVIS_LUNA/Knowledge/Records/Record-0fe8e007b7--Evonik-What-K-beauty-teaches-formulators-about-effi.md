@@ -2,7 +2,7 @@
 title: "Record 0fe8e007b7 · Evonik-What-K-beauty-teaches-formulators-about-efficacy-and-speed---Pe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:22.519097+00:00
+updated_at: 2026-09-29T22:18:06.686823+00:00
 tags: [record, real-data]
 ---
 

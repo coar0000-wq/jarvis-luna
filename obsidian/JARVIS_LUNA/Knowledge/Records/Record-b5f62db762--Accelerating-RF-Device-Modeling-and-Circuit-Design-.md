@@ -2,7 +2,7 @@
 title: "Record b5f62db762 · Accelerating-RF-Device-Modeling-and-Circuit-Design-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:21.603622+00:00
+updated_at: 2026-09-29T22:18:05.766894+00:00
 tags: [record, real-data]
 ---
 

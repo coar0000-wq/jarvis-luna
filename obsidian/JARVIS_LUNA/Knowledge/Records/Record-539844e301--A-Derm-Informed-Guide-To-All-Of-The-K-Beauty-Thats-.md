@@ -2,7 +2,7 @@
 title: "Record 539844e301 · A-Derm-Informed-Guide-To-All-Of-The-K-Beauty-Thats-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:22.576463+00:00
+updated_at: 2026-09-29T22:18:06.744980+00:00
 tags: [record, real-data]
 ---
 

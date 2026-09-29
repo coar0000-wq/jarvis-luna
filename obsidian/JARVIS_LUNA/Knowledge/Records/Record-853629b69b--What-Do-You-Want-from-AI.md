@@ -2,7 +2,7 @@
 title: "Record 853629b69b · What-Do-You-Want-from-AI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:23.395318+00:00
+updated_at: 2026-09-29T22:18:07.557354+00:00
 tags: [record, real-data]
 ---
 

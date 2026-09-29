@@ -2,7 +2,7 @@
 title: "Record 8a6c8ca930 · K-Beauty-Amazon-Prime-Day-2026-Deals-Are-Already-He"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:22.543627+00:00
+updated_at: 2026-09-29T22:18:06.712889+00:00
 tags: [record, real-data]
 ---
 

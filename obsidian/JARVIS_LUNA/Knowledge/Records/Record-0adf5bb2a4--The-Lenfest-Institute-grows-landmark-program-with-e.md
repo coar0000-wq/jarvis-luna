@@ -2,7 +2,7 @@
 title: "Record 0adf5bb2a4 · The-Lenfest-Institute-grows-landmark-program-with-expanded-OpenAI-supp"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:22.814071+00:00
+updated_at: 2026-09-29T22:18:06.975961+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 94e9f3bb3c · The-Influence-of-TikTok-Trends-on-Beauty-Category-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:22.608854+00:00
+updated_at: 2026-09-29T22:18:06.777330+00:00
 tags: [record, real-data]
 ---
 

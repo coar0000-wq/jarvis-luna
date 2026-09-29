@@ -2,7 +2,7 @@
 title: "Record 948d21792d · White-blush-the-viral-TikTok-makeup-trend-explained"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:22.477237+00:00
+updated_at: 2026-09-29T22:18:06.648249+00:00
 tags: [record, real-data]
 ---
 

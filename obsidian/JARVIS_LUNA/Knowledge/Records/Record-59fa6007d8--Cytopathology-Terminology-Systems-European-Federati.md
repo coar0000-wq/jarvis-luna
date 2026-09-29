@@ -2,7 +2,7 @@
 title: "Record 59fa6007d8 · Cytopathology-Terminology-Systems-European-Federation-of-Cytological-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:21.620852+00:00
+updated_at: 2026-09-29T22:18:05.784455+00:00
 tags: [record, real-data]
 ---
 

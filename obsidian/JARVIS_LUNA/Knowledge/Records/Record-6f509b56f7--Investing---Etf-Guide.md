@@ -2,7 +2,7 @@
 title: "Record 6f509b56f7 · Investing---Etf-Guide"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:23.472584+00:00
+updated_at: 2026-09-29T22:18:07.636896+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 0e76dccf5c · Snail-Mucin-Eye-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:22.919442+00:00
+updated_at: 2026-09-29T22:18:07.085294+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 334cabed9c · Unlocking-UK-house-building-with-AI-accelerated-pla"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:21.352644+00:00
+updated_at: 2026-09-29T22:18:05.540713+00:00
 tags: [record, real-data]
 ---
 

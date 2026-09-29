@@ -2,7 +2,7 @@
 title: "Record d9da4d19d2 · VLA-Scope-Shift-Aware-Failure-Prediction-for-Vision-Language-Action-Mo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:21.263863+00:00
+updated_at: 2026-09-29T22:18:05.449223+00:00
 tags: [record, real-data]
 ---
 

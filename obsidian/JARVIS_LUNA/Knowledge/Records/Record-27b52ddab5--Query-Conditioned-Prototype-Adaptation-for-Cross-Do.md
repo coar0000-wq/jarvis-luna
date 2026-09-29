@@ -2,7 +2,7 @@
 title: "Record 27b52ddab5 · Query-Conditioned-Prototype-Adaptation-for-Cross-Domain-Few-Shot-Learn"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:22.007651+00:00
+updated_at: 2026-09-29T22:18:06.157500+00:00
 tags: [record, real-data]
 ---
 

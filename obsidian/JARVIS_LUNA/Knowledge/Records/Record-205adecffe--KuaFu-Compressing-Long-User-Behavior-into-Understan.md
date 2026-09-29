@@ -2,7 +2,7 @@
 title: "Record 205adecffe · KuaFu-Compressing-Long-User-Behavior-into-Understanding-at-Billion-Sca"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:22.014178+00:00
+updated_at: 2026-09-29T22:18:06.163876+00:00
 tags: [record, real-data]
 ---
 

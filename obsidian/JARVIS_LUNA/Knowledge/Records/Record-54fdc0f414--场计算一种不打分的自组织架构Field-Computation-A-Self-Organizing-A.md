@@ -2,7 +2,7 @@
 title: "Record 54fdc0f414 · 场计算一种不打分的自组织架构Field-Computation-A-Self-Organizing-Architecture-Without"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:22.050056+00:00
+updated_at: 2026-09-29T22:18:06.198839+00:00
 tags: [record, real-data]
 ---
 

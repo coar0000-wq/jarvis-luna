@@ -2,7 +2,7 @@
 title: "Record d27904bd6a · Korea-eundan-Vitamin-C-1000-120-Tablets-4-month-Sup"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:22.994619+00:00
+updated_at: 2026-09-29T22:18:07.162688+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** Korea eundan Vitamin C 1000 120 Tablets (4-month Supply) 4.24 oz.(120g)
 
 Korea eundan Vitamin C 1000 120 Tablets (4-month Supply) 4.24 oz.(120g)
-Korea eundan Vitamin C 1000 120 Tablets (4-month Supply) 4.24 oz.(120g) · 평점 4.9 · 리뷰 5,227
+Korea eundan Vitamin C 1000 120 Tablets (4-month Supply) 4.24 oz.(120g) · 평점 4.9 · 리뷰 5,253
 
 **출처:** Source · us_beauty
 

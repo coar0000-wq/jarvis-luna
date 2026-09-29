@@ -2,7 +2,7 @@
 title: "Record 91a4b458c2 · Anua-PDRN-Hyaluronic-Acid-100-Moisturizing-Cream-20"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:22.955726+00:00
+updated_at: 2026-09-29T22:18:07.120788+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)
 
 Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)
-Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml) · 평점 4.7 · 리뷰 403
+Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml) · 평점 4.7 · 리뷰 407
 
 **출처:** Source · us_beauty
 

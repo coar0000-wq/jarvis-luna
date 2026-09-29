@@ -2,7 +2,7 @@
 title: "Record 5fca4091f2 · Financial-finance-valuation-applied-to-option-trading"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:21.721413+00:00
+updated_at: 2026-09-29T22:18:05.864054+00:00
 tags: [record, real-data]
 ---
 

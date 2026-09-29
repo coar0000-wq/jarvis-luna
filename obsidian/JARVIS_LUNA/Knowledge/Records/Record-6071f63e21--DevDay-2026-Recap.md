@@ -2,7 +2,7 @@
 title: "Record 6071f63e21 · DevDay-2026-Recap"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:22.798031+00:00
+updated_at: 2026-09-29T22:18:06.960409+00:00
 tags: [record, real-data]
 ---
 

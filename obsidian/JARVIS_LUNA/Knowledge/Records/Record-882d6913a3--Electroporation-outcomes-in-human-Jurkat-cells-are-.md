@@ -2,7 +2,7 @@
 title: "Record 882d6913a3 · Electroporation-outcomes-in-human-Jurkat-cells-are-affected-by-exposur"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:21.733711+00:00
+updated_at: 2026-09-29T22:18:05.874820+00:00
 tags: [record, real-data]
 ---
 

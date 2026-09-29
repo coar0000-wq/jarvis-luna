@@ -2,7 +2,7 @@
 title: "Record 611c301374 · Trends-in-Inpatient-Antibiotic-Use-Among-Adults-Hospitalized-During-th"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:21.554166+00:00
+updated_at: 2026-09-29T22:18:05.716120+00:00
 tags: [record, real-data]
 ---
 

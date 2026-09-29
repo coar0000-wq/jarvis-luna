@@ -2,7 +2,7 @@
 title: "Record c697cd79bb · Continuous-Online-Fault-Detection-for-Mobile-Robots-via-Adaptive-Edge-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:21.317356+00:00
+updated_at: 2026-09-29T22:18:05.501899+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record ff94ce9c16 · Morgan-Stanley-Midyear-Outlook-Part-Two-Seth-Carpenter-Serena-Tang"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:23.559203+00:00
+updated_at: 2026-09-29T22:18:07.718694+00:00
 tags: [record, real-data]
 ---
 

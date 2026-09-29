@@ -2,7 +2,7 @@
 title: "Record f55667f146 · K-Beauty-Is-Booming-Olive-Young-Is-Taking-a-Bigger-Piece-of-It---Korea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:22.588613+00:00
+updated_at: 2026-09-29T22:18:06.757328+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 424a9bf5b5 · Valuing-American-options-and-Flexible-Forwards-contracts-in-time-depen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:21.757150+00:00
+updated_at: 2026-09-29T22:18:05.901417+00:00
 tags: [record, real-data]
 ---
 

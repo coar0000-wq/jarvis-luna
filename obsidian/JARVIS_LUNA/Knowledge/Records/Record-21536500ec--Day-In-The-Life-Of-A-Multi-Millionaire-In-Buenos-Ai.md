@@ -2,7 +2,7 @@
 title: "Record 21536500ec · Day-In-The-Life-Of-A-Multi-Millionaire-In-Buenos-Ai"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:23.775533+00:00
+updated_at: 2026-09-29T22:18:07.938692+00:00
 tags: [record, real-data]
 ---
 

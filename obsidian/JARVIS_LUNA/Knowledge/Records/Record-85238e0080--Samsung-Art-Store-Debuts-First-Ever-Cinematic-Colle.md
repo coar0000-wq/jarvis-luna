@@ -2,7 +2,7 @@
 title: "Record 85238e0080 · Samsung-Art-Store-Debuts-First-Ever-Cinematic-Collection-for-Samsung-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:22.747029+00:00
+updated_at: 2026-09-29T22:18:06.908112+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 511f8ab52c · Should-K-beauty-products-have-to-come-from-South-Ko"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:22.275955+00:00
+updated_at: 2026-09-29T22:18:06.438049+00:00
 tags: [record, real-data]
 ---
 

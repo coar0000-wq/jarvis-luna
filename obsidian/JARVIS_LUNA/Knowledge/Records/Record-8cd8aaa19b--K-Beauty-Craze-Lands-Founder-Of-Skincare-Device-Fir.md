@@ -2,7 +2,7 @@
 title: "Record 8cd8aaa19b · K-Beauty-Craze-Lands-Founder-Of-Skincare-Device-Fir"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:22.219055+00:00
+updated_at: 2026-09-29T22:18:06.379753+00:00
 tags: [record, real-data]
 ---
 

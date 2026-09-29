@@ -2,7 +2,7 @@
 title: "Record 0b8fefd4b6 · AI-and-same-day-delivery-are-now-the-two-forcing-fu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:22.233634+00:00
+updated_at: 2026-09-29T22:18:06.396445+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMi6wFBVV95cUxNUE5CQnpHQ1BiRVpYSlN1SGR0eUFleWdvMmEyNTdTcDJ6QVBibnVjSjNHaFEwZXc5OEFTTTJFdm00UzF0RTVNRkFDYW1ya3UzajF6S0VibTI4MHNxbjJsOEJhMUFBYTVvWEs0SWY3TjIxTWFIcy1obVc0Y3lYbXl0eHd5QkZyZ25KYTNPaHY4LUZ2U1RkUnJGUklIVlpsWG9PeU9Nbjl0blotU0RIc2dGbmhnbXl1d293M2NjdXhHRzlucmFkOEtpTTBZT0Nod2I5Q3liQ3poSUhFWGh4YVhDWUdlZDNBVlprc2tV?oc=5)
 
-**제목:** AI and same-day delivery are now the two forcing functions reshaping U.S. ecommerce operations - marketscale.com
+**제목:** AI and same-day delivery are now the two forcing functions reshaping U.S. ecommerce operations - MarketScale
 
-AI and same-day delivery are now the two forcing functions reshaping U.S. ecommerce operations - marketscale.com
+AI and same-day delivery are now the two forcing functions reshaping U.S. ecommerce operations - MarketScale
 
 **출처:** Source · Google Search
 

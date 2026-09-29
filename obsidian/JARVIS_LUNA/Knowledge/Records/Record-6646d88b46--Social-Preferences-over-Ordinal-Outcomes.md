@@ -2,7 +2,7 @@
 title: "Record 6646d88b46 · Social-Preferences-over-Ordinal-Outcomes"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:21.691073+00:00
+updated_at: 2026-09-29T22:18:05.840782+00:00
 tags: [record, real-data]
 ---
 

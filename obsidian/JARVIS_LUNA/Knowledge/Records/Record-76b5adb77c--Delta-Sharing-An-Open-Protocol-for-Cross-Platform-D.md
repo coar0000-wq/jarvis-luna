@@ -2,7 +2,7 @@
 title: "Record 76b5adb77c · Delta-Sharing-An-Open-Protocol-for-Cross-Platform-Data-Sharing"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:21.713936+00:00
+updated_at: 2026-09-29T22:18:05.859016+00:00
 tags: [record, real-data]
 ---
 

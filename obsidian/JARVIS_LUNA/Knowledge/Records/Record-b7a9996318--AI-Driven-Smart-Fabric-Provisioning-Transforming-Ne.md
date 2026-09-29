@@ -2,7 +2,7 @@
 title: "Record b7a9996318 · AI-Driven-Smart-Fabric-Provisioning-Transforming-Network-Automation-th"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:21.780666+00:00
+updated_at: 2026-09-29T22:18:05.926561+00:00
 tags: [record, real-data]
 ---
 

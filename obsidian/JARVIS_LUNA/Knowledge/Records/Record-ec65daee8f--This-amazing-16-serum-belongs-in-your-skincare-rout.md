@@ -2,7 +2,7 @@
 title: "Record ec65daee8f · This-amazing-16-serum-belongs-in-your-skincare-routine-per-Amazon-shop"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:22.652290+00:00
+updated_at: 2026-09-29T22:18:06.818789+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record a43adbf7a2 · Photonic-qubit-encoding-interconversion-for-heterogeneous-quantum-netw"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:21.571295+00:00
+updated_at: 2026-09-29T22:18:05.733550+00:00
 tags: [record, real-data]
 ---
 

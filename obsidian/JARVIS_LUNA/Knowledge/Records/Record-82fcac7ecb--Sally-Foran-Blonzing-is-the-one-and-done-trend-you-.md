@@ -2,7 +2,7 @@
 title: "Record 82fcac7ecb · Sally-Foran-Blonzing-is-the-one-and-done-trend-you-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:22.465059+00:00
+updated_at: 2026-09-29T22:18:06.633789+00:00
 tags: [record, real-data]
 ---
 

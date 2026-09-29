@@ -2,7 +2,7 @@
 title: "Record 614d79e4a8 · Gemini-Robotics-ER-2-powering-robotics-with-video-u"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:21.344855+00:00
+updated_at: 2026-09-29T22:18:05.533098+00:00
 tags: [record, real-data]
 ---
 

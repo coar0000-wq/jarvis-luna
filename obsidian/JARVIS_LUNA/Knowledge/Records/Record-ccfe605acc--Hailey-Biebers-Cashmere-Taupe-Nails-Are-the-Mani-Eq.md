@@ -2,7 +2,7 @@
 title: "Record ccfe605acc · Hailey-Biebers-Cashmere-Taupe-Nails-Are-the-Mani-Eq"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:23.081103+00:00
+updated_at: 2026-09-29T22:18:07.250629+00:00
 tags: [record, real-data]
 ---
 

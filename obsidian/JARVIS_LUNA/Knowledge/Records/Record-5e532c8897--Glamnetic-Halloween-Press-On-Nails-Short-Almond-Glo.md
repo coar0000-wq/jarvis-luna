@@ -2,7 +2,7 @@
 title: "Record 5e532c8897 · Glamnetic-Halloween-Press-On-Nails-Short-Almond-Glossy-Ghost-Besties--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:23.186070+00:00
+updated_at: 2026-09-29T22:18:07.353590+00:00
 tags: [record, real-data]
 ---
 

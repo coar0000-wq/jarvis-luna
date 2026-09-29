@@ -2,7 +2,7 @@
 title: "Record ffc1094d7b · Software-Defined-UPF-on-ARM-Architecture-Performance-and-Industry-Vert"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:22.027155+00:00
+updated_at: 2026-09-29T22:18:06.176327+00:00
 tags: [record, real-data]
 ---
 

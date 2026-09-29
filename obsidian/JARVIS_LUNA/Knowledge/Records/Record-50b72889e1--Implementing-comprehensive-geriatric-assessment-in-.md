@@ -2,7 +2,7 @@
 title: "Record 50b72889e1 · Implementing-comprehensive-geriatric-assessment-in-an-academic-hematol"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:21.786134+00:00
+updated_at: 2026-09-29T22:18:05.932217+00:00
 tags: [record, real-data]
 ---
 

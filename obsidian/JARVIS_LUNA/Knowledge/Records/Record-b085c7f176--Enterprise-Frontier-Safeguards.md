@@ -2,7 +2,7 @@
 title: "Record b085c7f176 · Enterprise-Frontier-Safeguards"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:23.380195+00:00
+updated_at: 2026-09-29T22:18:07.541967+00:00
 tags: [record, real-data]
 ---
 

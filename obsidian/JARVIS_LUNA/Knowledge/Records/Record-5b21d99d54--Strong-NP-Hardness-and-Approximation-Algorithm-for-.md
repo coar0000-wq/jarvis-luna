@@ -2,7 +2,7 @@
 title: "Record 5b21d99d54 · Strong-NP-Hardness-and-Approximation-Algorithm-for-Weighted-Tardiness-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T20:40:21.310325+00:00
+updated_at: 2026-09-29T22:18:05.494752+00:00
 tags: [record, real-data]
 ---
 
