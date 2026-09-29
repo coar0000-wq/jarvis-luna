@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-29T20:38:16.971561+00:00",
+  "generated_at": "2026-09-29T21:51:46.140410+00:00",
   "generator": "scripts/build_shopify_shortlist.py",
   "status": "proposed",
   "source": "rules",
@@ -107,7 +107,7 @@
       },
       "added_at": "2026-09-29T20:38:16.971548+00:00",
       "status": "active",
-      "note": "규칙 제안으로 새로 추가"
+      "note": ""
     }
   ],
   "not_selected": [
