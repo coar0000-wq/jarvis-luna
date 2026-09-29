@@ -105,7 +105,8 @@ def product_fit(row: dict) -> dict:
         "agent_ready": bool(row.get("agent_ready")),
         "public_ready": bool(row.get("public_ready")),
         "recommended_insight_ids": ["MKT-002", "MKT-003", "MKT-004", "MKT-016",
-                                    "MKT-023", "MKT-025", "MKT-026"] + aov,
+                                    "MKT-023", "MKT-025", "MKT-026", "MKT-032",
+                                    "MKT-034", "MKT-035"] + aov,
         "organic_first_actions": [
             "구매 질문형 PDP/FAQ 초안",
             "제품 제형·사용 순서 숏폼 콘티",
@@ -225,8 +226,93 @@ def build_experiments() -> list[dict]:
             "action": "AI 캠페인 제안의 대상·클레임·예산·일정을 승인 큐에서 검토하며 유료 집행은 명시적 사용자 승인 전까지 차단한다.",
             "kpis": ["campaign_approval_rate", "claims_rejection_rate", "unapproved_spend"],
             "cost_mode": "paid_requires_explicit_approval", "status": "blocked_until_explicit_user_approval"
+        },
+        {
+            "id": "EXP-013", "phase": "launch", "priority": 13,
+            "name": "장바구니 회수 중복·동의·종료 QA",
+            "insight_ids": ["MKT-030", "MKT-031"],
+            "owner_teams": ["market", "pricing", "legal"],
+            "action": "Shopify 기본 기능 또는 이미 승인된 발송 스택에서 중복 알림을 제거하고 동의 필터, 구매 종료 조건, 할인 지연, 승인 테스트 계정을 점검한 뒤에만 플로우를 활성화한다.",
+            "kpis": ["duplicate_recovery_message_rate", "purchase_exit_success_rate", "cart_recovery_rate", "discount_used_order_rate"],
+            "cost_mode": "native_or_existing_stack_only", "status": "blocked_until_store_and_consent"
+        },
+        {
+            "id": "EXP-014", "phase": "launch", "priority": 14,
+            "name": "상품피드 GEO 진실원장",
+            "insight_ids": ["MKT-032", "MKT-033"],
+            "owner_teams": ["market", "listing", "sourcing", "legal"],
+            "action": "상품 사실·구조화 데이터·Merchant Center 피드를 한 원장으로 대조하고 누락 속성과 가격·재고 불일치를 오류 큐로 보낸다.",
+            "kpis": ["product_data_completeness", "merchant_center_eligible_rate", "price_inventory_mismatch_rate", "product_query_coverage"],
+            "cost_mode": "free_native", "status": "blocked_until_store_and_feed"
+        },
+        {
+            "id": "EXP-015", "phase": "prelaunch", "priority": 15,
+            "name": "브랜드 선호·고객 여정 지도",
+            "insight_ids": ["MKT-036", "MKT-038"],
+            "owner_teams": ["market", "listing", "design", "knowledge", "legal"],
+            "action": "고객 인터뷰로 실제 정보 접점을 확인하고 세그먼트별 최초 접점, 랜딩 질문, 이메일 또는 구매 전환, 재구매까지의 메시지 지도를 작성한다.",
+            "kpis": ["customer_interview_count", "journey_step_coverage", "landing_message_match_rate", "third_party_brand_mentions"],
+            "cost_mode": "free_organic", "status": "ready_for_research"
+        },
+        {
+            "id": "EXP-016", "phase": "launch", "priority": 16,
+            "name": "연관상품 유기 획득-이메일 교차판매",
+            "insight_ids": ["MKT-037", "MKT-039", "MKT-040"],
+            "owner_teams": ["sourcing", "pricing", "market", "design", "listing", "legal"],
+            "action": "기존에 보유하고 품질·마진 검증이 끝난 연관 상품만 유기 콘텐츠로 소개하고, 관심 행동별 이메일에서 보완 상품과 핵심 소모품을 과도한 할인 없이 연결한다.",
+            "kpis": ["validated_adjacent_sku_count", "organic_content_sessions", "cross_sell_attach_rate", "discount_campaign_share"],
+            "cost_mode": "existing_assets_only", "status": "ready_after_existing_assortment_review"
+        },
+        {
+            "id": "EXP-017", "phase": "postpurchase", "priority": 17,
+            "name": "검증 리뷰 언어·크롤 QA",
+            "insight_ids": ["MKT-034", "MKT-035"],
+            "owner_teams": ["market", "listing", "legal"],
+            "action": "검증 구매 리뷰가 쌓인 뒤 고객 언어를 제품 사실과 대조해 PDP·피드에 반영하고 리뷰 구조화 데이터와 서버 렌더링 노출을 검사한다.",
+            "kpis": ["review_language_coverage", "review_markup_valid_rate", "server_rendered_review_rate", "claims_rejection_rate"],
+            "cost_mode": "free_local_or_existing_stack", "status": "blocked_until_verified_reviews"
         }
     ]
+
+
+def validate_strategy_references(payload: dict) -> None:
+    insights = payload.get("evidence_insights") or []
+    known = {str(x.get("id") or "") for x in insights}
+    errors = []
+
+    experiments = payload.get("execution_experiments") or []
+    experiment_ids = [str(x.get("id") or "") for x in experiments]
+    if len(experiment_ids) != len(set(experiment_ids)) or any(not x for x in experiment_ids):
+        errors.append("experiment id 누락 또는 중복")
+    for experiment in experiments:
+        exp_id = str(experiment.get("id") or "")
+        unknown = sorted(set(experiment.get("insight_ids") or []) - known)
+        if unknown:
+            errors.append(f"{exp_id} 알 수 없는 insight: {', '.join(unknown)}")
+        if experiment.get("cost_mode") == "paid_requires_explicit_approval" and \
+                experiment.get("status") != "blocked_until_explicit_user_approval":
+            errors.append(f"{exp_id} 유료 실행 차단 상태 누락")
+
+    funnel_seen = set()
+    for stage, ids in (payload.get("funnel") or {}).items():
+        unknown = sorted(set(ids or []) - known)
+        if unknown:
+            errors.append(f"funnel {stage} 알 수 없는 insight: {', '.join(unknown)}")
+        repeated = sorted(set(ids or []) & funnel_seen)
+        if repeated:
+            errors.append(f"funnel 중복 insight: {', '.join(repeated)}")
+        funnel_seen.update(ids or [])
+
+    for row in payload.get("product_playbooks") or []:
+        unknown = sorted(set(row.get("recommended_insight_ids") or []) - known)
+        if unknown:
+            errors.append(f"product_playbook 알 수 없는 insight: {', '.join(unknown)}")
+
+    launch_order = payload.get("launch_order") or []
+    if launch_order != experiment_ids:
+        errors.append("launch_order와 experiment 순서 불일치")
+    if errors:
+        raise RuntimeError("전략 참조 검증 실패: " + " | ".join(errors))
 
 
 def build_strategy(write: bool = True) -> dict:
@@ -277,11 +363,11 @@ def build_strategy(write: bool = True) -> dict:
         "execution_experiments": experiments,
         "product_playbooks": [product_fit(x) for x in recs],
         "funnel": {
-            "discover": ["MKT-005", "MKT-016", "MKT-020", "MKT-023", "MKT-027"],
-            "consider": ["MKT-001", "MKT-002", "MKT-003", "MKT-004", "MKT-017", "MKT-025", "MKT-026"],
-            "convert": ["MKT-008", "MKT-012", "MKT-013", "MKT-014", "MKT-015", "MKT-021", "MKT-022"],
-            "retain": ["MKT-006", "MKT-009", "MKT-010", "MKT-011", "MKT-028", "MKT-029"],
-            "measure": ["MKT-007", "MKT-024"],
+            "discover": ["MKT-005", "MKT-016", "MKT-020", "MKT-023", "MKT-027", "MKT-032", "MKT-036", "MKT-040"],
+            "consider": ["MKT-001", "MKT-002", "MKT-003", "MKT-004", "MKT-017", "MKT-025", "MKT-026", "MKT-034", "MKT-035", "MKT-038"],
+            "convert": ["MKT-008", "MKT-012", "MKT-013", "MKT-014", "MKT-015", "MKT-021", "MKT-022", "MKT-037"],
+            "retain": ["MKT-006", "MKT-009", "MKT-010", "MKT-011", "MKT-028", "MKT-029", "MKT-030", "MKT-031", "MKT-039"],
+            "measure": ["MKT-007", "MKT-024", "MKT-033"],
         },
         "launch_order": [x["id"] for x in experiments],
         "guardrails": [
@@ -300,6 +386,7 @@ def build_strategy(write: bool = True) -> dict:
             "agent_ready_count": sum(1 for x in recs if x.get("agent_ready")),
         },
     }
+    validate_strategy_references(payload)
     if write:
         OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return payload
