@@ -8,11 +8,13 @@
     "phone": true,
     "address": false
   },
-  "name_en": false,
+  "name_en": true,
   "masked": {
     "name": "김*서",
     "email": "c*******@naver.com",
     "phone": "+82-10-****-0629"
   },
-  "missing": ["address", "name_en(영문 라벨 표기)"]
+  "missing": [
+    "address"
+  ]
 }
