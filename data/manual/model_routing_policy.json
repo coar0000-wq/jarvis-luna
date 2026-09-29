@@ -74,8 +74,9 @@
     "copilot_web": {
       "url": "https://copilot.com/chat?fromcode=cmmlf487uwy&redirfrom=cosmicRingCookie",
       "api_key": false,
-      "status": "Microsoft 계정 로그인 필요 (2026-09-29 확인, 미로그인)",
-      "role": "다른 회사 모델의 독립 교차 점검"
+      "status": "사용 가능 (2026-09-29 사용자 생성 Microsoft 개인 계정, Google 로그인 연동 · 임시 채팅 응답 확인)",
+      "role": "다른 회사 모델의 독립 교차 점검",
+      "account": "사용자 Microsoft 개인 계정 (Google 로그인)"
     },
     "rules": [
       "비밀값·개인정보·비공개 파일을 붙여넣지 않는다",
