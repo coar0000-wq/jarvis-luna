@@ -2,7 +2,7 @@
 title: "Record 4830493848 · Real-Time-Shape-Control-of-Multi-Segment-Soft-Robot"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:44.854472+00:00
+updated_at: 2026-09-29T08:02:57.972150+00:00
 tags: [record, real-data]
 ---
 

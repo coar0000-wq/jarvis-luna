@@ -2,7 +2,7 @@
 title: "Record 487d6b9844 · BYOMA-Blemish-Acne-Treatment-Spot-Paste-with-Cica-and-Salicylic-Acid--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:47.196219+00:00
+updated_at: 2026-09-29T08:03:00.074502+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 99488de23b · Generative-Marketing-Mix-Modeling-A-Causal-Inferenc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:45.108324+00:00
+updated_at: 2026-09-29T08:02:58.161716+00:00
 tags: [record, real-data]
 ---
 

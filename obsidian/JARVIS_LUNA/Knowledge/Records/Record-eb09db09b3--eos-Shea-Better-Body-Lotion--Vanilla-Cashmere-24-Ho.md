@@ -2,7 +2,7 @@
 title: "Record eb09db09b3 · eos-Shea-Better-Body-Lotion--Vanilla-Cashmere-24-Hour-Moisture-16-fl-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:47.379162+00:00
+updated_at: 2026-09-29T08:03:00.218228+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 08c6227060 · Sticky-or-slippery-Snails-can-change-their-slime-to-meet-the-moment---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:46.509464+00:00
+updated_at: 2026-09-29T08:02:59.496642+00:00
 tags: [record, real-data]
 ---
 

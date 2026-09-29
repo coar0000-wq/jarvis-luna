@@ -2,7 +2,7 @@
 title: "Record e96d78fd68 · Physics--Guided-Wasserstein-Generative-Adversarial-Network-for-Magneti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:45.383099+00:00
+updated_at: 2026-09-29T08:02:58.421576+00:00
 tags: [record, real-data]
 ---
 

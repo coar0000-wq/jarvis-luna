@@ -2,7 +2,7 @@
 title: "Record 279e75999c · Short-Term-Traffic-Speed-Prediction-Integrating-Traffic-Flow-Theory-fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:45.461259+00:00
+updated_at: 2026-09-29T08:02:58.491565+00:00
 tags: [record, real-data]
 ---
 

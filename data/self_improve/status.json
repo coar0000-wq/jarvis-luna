@@ -1,61 +1,34 @@
 {
-  "generated_at": "2026-09-29T00:14:37.866073+00:00",
+  "generated_at": "2026-09-29T07:54:38.200205+00:00",
   "generator": "scripts/self_improve.py",
   "principle": "무료·설정만 변경·그림자 평가 후 채택·실측 악화 시 자동 롤백",
   "loops": {
     "topics": {
       "metric": "uncategorized_rate",
-      "records": 5545,
+      "records": 5552,
       "base_uncategorized": 891,
-      "before": 0.0902,
-      "after_shadow": 0.0875,
-      "uncategorized_before": 500,
+      "before": 0.0874,
+      "after_shadow": 0.0874,
+      "uncategorized_before": 485,
       "uncategorized_after_shadow": 485,
-      "adopted": 2,
+      "adopted": 0,
       "learned_keywords": 14,
-      "decisions": [
-        {
-          "loop": "topics",
-          "action": "adopt",
-          "keyword": "peptide",
-          "topic": "뷰티·스킨케어",
-          "precision": 1.0,
-          "support": 8,
-          "uncategorized_hits": 9,
-          "source": "us_beauty",
-          "source_fit": 0.884,
-          "newly_classified": 9
-        },
-        {
-          "loop": "topics",
-          "action": "adopt",
-          "keyword": "vitamin",
-          "topic": "뷰티·스킨케어",
-          "precision": 1.0,
-          "support": 13,
-          "uncategorized_hits": 6,
-          "source": "us_beauty",
-          "source_fit": 0.884,
-          "newly_classified": 6
-        }
-      ],
-      "status": "adopted"
+      "decisions": [],
+      "status": "no_change"
     },
     "sourcing": {
       "metric": "useful_fetch_rate",
-      "before": 0.01818181818181818,
+      "before": 0.09090909090909091,
       "policy_enabled": true,
       "evidence": {
-        "prediction_precision": 0.847,
-        "prediction_samples": 170,
-        "unknown_bucket_beauty_rate": 0.149,
-        "open_slots": {
-          "클렌징": 10
-        },
-        "fresh_queue": 2247,
-        "expected_useful_baseline": 1.87,
-        "expected_useful_policy": 10,
-        "would_skip_expected_full": 1423,
+        "prediction_precision": 0.843,
+        "prediction_samples": 172,
+        "unknown_bucket_beauty_rate": 0.118,
+        "open_slots": {},
+        "fresh_queue": 2114,
+        "expected_useful_baseline": 0,
+        "expected_useful_policy": 0,
+        "would_skip_expected_full": 1405,
         "batch": 110
       },
       "decisions": [],

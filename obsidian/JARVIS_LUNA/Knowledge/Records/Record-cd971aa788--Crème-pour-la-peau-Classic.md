@@ -2,7 +2,7 @@
 title: "Record cd971aa788 · Crème-pour-la-peau-Classic"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:47.088090+00:00
+updated_at: 2026-09-29T08:02:59.978186+00:00
 tags: [record, real-data]
 ---
 

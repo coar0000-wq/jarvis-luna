@@ -2,7 +2,7 @@
 title: "Record eca72f473e · Towards-the-Geometric-Origins-of-Mass-and-Charge-Pr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:46.012213+00:00
+updated_at: 2026-09-29T08:02:59.000671+00:00
 tags: [record, real-data]
 ---
 

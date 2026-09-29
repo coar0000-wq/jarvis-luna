@@ -2,7 +2,7 @@
 title: "Record d1bb16e509 · How-Anua-Skincare-Became-K-Beautys-Biggest-Success-Story---BeautyNewsD"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:46.228676+00:00
+updated_at: 2026-09-29T08:02:59.217000+00:00
 tags: [record, real-data]
 ---
 

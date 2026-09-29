@@ -2,7 +2,7 @@
 title: "Record 043b95fb14 · These-9-K-beauty-products-reveal-why-Korean-skin-ca"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:46.410423+00:00
+updated_at: 2026-09-29T08:02:59.399275+00:00
 tags: [record, real-data]
 ---
 

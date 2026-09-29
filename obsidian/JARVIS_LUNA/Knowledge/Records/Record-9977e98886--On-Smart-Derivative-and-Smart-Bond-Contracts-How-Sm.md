@@ -2,7 +2,7 @@
 title: "Record 9977e98886 · On-Smart-Derivative-and-Smart-Bond-Contracts-How-Smart-Financial-Contr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:45.664008+00:00
+updated_at: 2026-09-29T08:02:58.695409+00:00
 tags: [record, real-data]
 ---
 

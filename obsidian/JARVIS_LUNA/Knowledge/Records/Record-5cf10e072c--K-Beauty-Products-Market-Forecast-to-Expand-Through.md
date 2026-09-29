@@ -2,7 +2,7 @@
 title: "Record 5cf10e072c · K-Beauty-Products-Market-Forecast-to-Expand-Through-2035-Driven-by-Dem"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:46.184131+00:00
+updated_at: 2026-09-29T08:02:59.169325+00:00
 tags: [record, real-data]
 ---
 

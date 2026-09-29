@@ -2,7 +2,7 @@
 title: "Record 22bf9cc04f · EMIR-Refit-Lessons-learned-from-the-EU-and-UK-implementations"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:46.094008+00:00
+updated_at: 2026-09-29T08:02:59.076856+00:00
 tags: [record, real-data]
 ---
 

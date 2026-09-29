@@ -2,7 +2,7 @@
 title: "Record 9e64cf81b9 · Continuum-limit-of-critical-inhomogeneous-random-graphs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:45.327223+00:00
+updated_at: 2026-09-29T08:02:58.363022+00:00
 tags: [record, real-data]
 ---
 

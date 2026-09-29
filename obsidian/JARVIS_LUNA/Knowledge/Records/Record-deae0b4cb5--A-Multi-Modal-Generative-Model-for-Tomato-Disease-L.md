@@ -2,7 +2,7 @@
 title: "Record deae0b4cb5 · A-Multi-Modal-Generative-Model-for-Tomato-Disease-Leaves-Understanding"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:45.818473+00:00
+updated_at: 2026-09-29T08:02:58.843109+00:00
 tags: [record, real-data]
 ---
 

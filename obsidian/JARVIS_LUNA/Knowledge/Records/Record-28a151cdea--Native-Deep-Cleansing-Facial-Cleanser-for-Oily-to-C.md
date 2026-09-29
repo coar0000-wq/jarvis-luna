@@ -2,7 +2,7 @@
 title: "Record 28a151cdea · Native-Deep-Cleansing-Facial-Cleanser-for-Oily-to-Combination-Skin-Sul"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:47.300440+00:00
+updated_at: 2026-09-29T08:03:00.149135+00:00
 tags: [record, real-data]
 ---
 

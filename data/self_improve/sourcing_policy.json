@@ -26,6 +26,14 @@
     "would_skip_expected_full": 1245,
     "batch": 110
   },
-  "observations": [],
+  "observations": [
+    {
+      "started_at": "2026-09-28T23:50:54.681399+00:00",
+      "requested": 110,
+      "ok": 10,
+      "wasted": 100,
+      "useful_rate": 0.09090909090909091
+    }
+  ],
   "rollback_rule": "적용된 실제 실행 2회 연속 기존 적중률 이하면 자동 해제"
 }

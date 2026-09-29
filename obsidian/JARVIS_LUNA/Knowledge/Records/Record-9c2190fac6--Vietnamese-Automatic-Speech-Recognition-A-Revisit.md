@@ -2,7 +2,7 @@
 title: "Record 9c2190fac6 · Vietnamese-Automatic-Speech-Recognition-A-Revisit"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:46.841752+00:00
+updated_at: 2026-09-29T08:02:59.799561+00:00
 tags: [record, real-data]
 ---
 

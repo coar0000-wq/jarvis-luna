@@ -2,7 +2,7 @@
 title: "Record 3f7042a8bf · Samsungs-Human-Centered-Design-Wins-IDEA-and-Red-Do"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:46.757378+00:00
+updated_at: 2026-09-29T08:02:59.731684+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 27b69bd7ee · How-TikTok-Is-Changing-Beauty-Trends-in-2026---Bona"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:46.406450+00:00
+updated_at: 2026-09-29T08:02:59.395209+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiekFVX3lxTE96UnBmTF9Vc0FHejh3SWpZRncxS2w1WXhrVFprU01hWFo3Z2VnYUF4c2UybDRReXc3dXlIOGw4S0xoUkUxZG53R3dDS3V3eEJSMnR0UTc4QTBwZktka1BCNmZCSXpJcEpOSk9uQVBPTUlGdWFFYTJqeVFn?oc=5)
 
-**제목:** How TikTok Is Changing Beauty Trends in 2026 - bona.co.za
+**제목:** How TikTok Is Changing Beauty Trends in 2026 - Bona Magazine
 
-How TikTok Is Changing Beauty Trends in 2026 - bona.co.za
+How TikTok Is Changing Beauty Trends in 2026 - Bona Magazine
 
 **출처:** Source · Google Search
 

@@ -2,7 +2,7 @@
 title: "Record 9ee0048a47 · Hybrid-Architecture-for-Protected-Data-Communication-Inside-the-Privat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:45.714801+00:00
+updated_at: 2026-09-29T08:02:58.747180+00:00
 tags: [record, real-data]
 ---
 

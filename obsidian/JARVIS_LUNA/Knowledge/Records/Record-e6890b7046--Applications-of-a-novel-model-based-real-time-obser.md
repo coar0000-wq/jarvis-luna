@@ -2,7 +2,7 @@
 title: "Record e6890b7046 · Applications-of-a-novel-model-based-real-time-observer-for-electron-de"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:45.487700+00:00
+updated_at: 2026-09-29T08:02:58.519311+00:00
 tags: [record, real-data]
 ---
 

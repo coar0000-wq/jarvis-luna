@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T00:21:14.395749+00:00",
+  "generated_at": "2026-09-29T08:00:13.035270+00:00",
   "generator": "scripts/build_team_learning.py",
   "rule": "자막 타임스탬프 근거가 있고 과장 수치를 뺀 항목만 학습으로 센다. 영상 목록만 있는 것은 학습이 아니다.",
   "total_insights": 42,
@@ -1489,8 +1489,8 @@
           "url": "https://www.youtube.com/watch?v=BOT3kMcuvRk"
         },
         {
-          "title": "Amazon AI Studio: Create Product Photos & Videos in Minutes | Amazon Seller Insights",
-          "url": "https://www.youtube.com/watch?v=KDI73nLbYk4"
+          "title": "Configure your Amazon Seller Central account",
+          "url": "https://www.youtube.com/watch?v=vqr_qJjghNk"
         }
       ],
       "last_review": "2026-09-28"

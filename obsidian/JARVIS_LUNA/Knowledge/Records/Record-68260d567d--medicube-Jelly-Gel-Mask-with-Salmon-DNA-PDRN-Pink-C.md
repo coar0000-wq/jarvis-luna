@@ -2,7 +2,7 @@
 title: "Record 68260d567d · medicube-Jelly-Gel-Mask-with-Salmon-DNA-PDRN-Pink-Collagen-4EA--Overni"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:47.396013+00:00
+updated_at: 2026-09-29T08:03:00.230144+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 64e235dda2 · Medicube-Won-Social-Media---Coveteur"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:46.201760+00:00
+updated_at: 2026-09-29T08:02:59.187513+00:00
 tags: [record, real-data]
 ---
 

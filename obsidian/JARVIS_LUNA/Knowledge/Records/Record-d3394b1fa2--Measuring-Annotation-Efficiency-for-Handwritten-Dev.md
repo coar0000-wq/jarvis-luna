@@ -2,7 +2,7 @@
 title: "Record d3394b1fa2 · Measuring-Annotation-Efficiency-for-Handwritten-Devanagari-Recognition"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:45.140865+00:00
+updated_at: 2026-09-29T08:02:58.192752+00:00
 tags: [record, real-data]
 ---
 

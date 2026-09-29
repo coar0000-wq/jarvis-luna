@@ -2,7 +2,7 @@
 title: "Record cca5aeef87 · K-Beauty-Body-Care-VOESH-Brings-Facial-Skincare-Benefits-to-the-Body--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:46.317227+00:00
+updated_at: 2026-09-29T08:02:59.303026+00:00
 tags: [record, real-data]
 ---
 

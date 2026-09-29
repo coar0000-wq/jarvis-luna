@@ -2,7 +2,7 @@
 title: "Record 446e66d5f5 · 10-Applications-of-AI-in-Business-2026-Guide---Shop"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:46.316363+00:00
+updated_at: 2026-09-29T08:02:59.302151+00:00
 tags: [record, real-data]
 ---
 

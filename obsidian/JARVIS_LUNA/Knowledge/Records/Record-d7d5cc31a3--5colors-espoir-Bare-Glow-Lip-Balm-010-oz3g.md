@@ -2,7 +2,7 @@
 title: "Record d7d5cc31a3 · 5colors-espoir-Bare-Glow-Lip-Balm-010-oz3g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:47.033384+00:00
+updated_at: 2026-09-29T08:02:59.925191+00:00
 tags: [record, real-data]
 ---
 

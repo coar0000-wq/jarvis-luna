@@ -2,7 +2,7 @@
 title: "Record 168590ab88 · Bio-Peel-Gauze-Peeling-Wine"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:46.966040+00:00
+updated_at: 2026-09-29T08:02:59.877893+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record ebbf4e2ebe · RUS-VA-OZBEK-TILLARIDA-HARAKAT-FELLARINING-QIYOSIY-TAHLILIY-TAVSIFI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:46.003781+00:00
+updated_at: 2026-09-29T08:02:58.991827+00:00
 tags: [record, real-data]
 ---
 

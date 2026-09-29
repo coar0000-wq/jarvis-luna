@@ -2,7 +2,7 @@
 title: "Record 2f02ce701a · Visual-Tripwires-Anticipating-Failure-in-Deep-Vision-Systems"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:45.932679+00:00
+updated_at: 2026-09-29T08:02:58.931291+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 200856fee4 · Shopify-acquires-the-team-from-Peel-Insights-an-AI-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:46.633257+00:00
+updated_at: 2026-09-29T08:02:59.611055+00:00
 tags: [record, real-data]
 ---
 

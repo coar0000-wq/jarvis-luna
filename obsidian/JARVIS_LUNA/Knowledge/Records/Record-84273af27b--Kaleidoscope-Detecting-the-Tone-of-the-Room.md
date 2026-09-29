@@ -2,7 +2,7 @@
 title: "Record 84273af27b · Kaleidoscope-Detecting-the-Tone-of-the-Room"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:45.600671+00:00
+updated_at: 2026-09-29T08:02:58.638626+00:00
 tags: [record, real-data]
 ---
 

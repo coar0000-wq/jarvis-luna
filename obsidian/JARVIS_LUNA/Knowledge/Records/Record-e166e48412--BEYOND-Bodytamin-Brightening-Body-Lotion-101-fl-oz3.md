@@ -2,7 +2,7 @@
 title: "Record e166e48412 · BEYOND-Bodytamin-Brightening-Body-Lotion-101-fl-oz3"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:47.032091+00:00
+updated_at: 2026-09-29T08:02:59.923834+00:00
 tags: [record, real-data]
 ---
 

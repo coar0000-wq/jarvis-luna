@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T00:21:14.062976+00:00",
+  "generated_at": "2026-09-29T08:00:12.706059+00:00",
   "generator": "scripts/team_router_moe.py",
   "task": "자료·영상 -> 담당 팀 (11팀 중 정답 표본이 충분한 팀)",
   "label_policy": "출처가 확실한 것만 정답으로 쓴다. 키워드 규칙이 붙인 팀은 쓰지 않는다.",
@@ -17,27 +17,27 @@
     "sourcing"
   ],
   "skipped_small_classes": {},
-  "items": 5148,
-  "train_items": 4167,
-  "validation_items": 981,
+  "items": 5165,
+  "train_items": 4181,
+  "validation_items": 984,
   "label_origins": {
     "corpus:arxiv": 601,
-    "corpus:institutions": 2255,
+    "corpus:institutions": 2262,
     "corpus:organic_skincare": 15,
     "corpus:robotics": 399,
     "corpus:us_beauty": 978,
-    "daiso": 346,
+    "daiso": 356,
     "design_refs": 78,
     "fda": 2,
     "insight": 42,
     "youtube_channel": 411,
     "youtube_manual": 21
   },
-  "features": "TF-IDF + L2 (min_df 2, 어휘 7508)",
+  "features": "TF-IDF + L2 (min_df 2, 어휘 7518)",
   "model": "MoE experts 3, steps 300, lr 5.0, 클래스 균형",
   "validation": {
-    "accuracy": 0.8665,
-    "macro_f1": 0.7567,
+    "accuracy": 0.8669,
+    "macro_f1": 0.7568,
     "per_team": {
       "channels": {
         "precision": 1.0,
@@ -64,9 +64,9 @@
         "support": 443
       },
       "knowledge": {
-        "precision": 0.679,
+        "precision": 0.684,
         "recall": 0.782,
-        "predicted": 137,
+        "predicted": 136,
         "support": 119
       },
       "legal": {
@@ -94,22 +94,22 @@
         "support": 13
       },
       "robotics": {
-        "precision": 0.829,
+        "precision": 0.818,
         "recall": 0.733,
-        "predicted": 76,
+        "predicted": 77,
         "support": 86
       },
       "sourcing": {
-        "precision": 0.971,
-        "recall": 0.895,
-        "predicted": 70,
-        "support": 76
+        "precision": 0.973,
+        "recall": 0.899,
+        "predicted": 73,
+        "support": 79
       }
     }
   },
   "baseline_majority": {
-    "accuracy": 0.4516,
-    "macro_f1": 0.0566,
+    "accuracy": 0.4502,
+    "macro_f1": 0.0564,
     "per_team": {
       "channels": {
         "precision": 0.0,
@@ -130,9 +130,9 @@
         "support": 5
       },
       "institutions": {
-        "precision": 0.452,
+        "precision": 0.45,
         "recall": 1.0,
-        "predicted": 981,
+        "predicted": 984,
         "support": 443
       },
       "knowledge": {
@@ -175,7 +175,7 @@
         "precision": 0.0,
         "recall": 0.0,
         "predicted": 0,
-        "support": 76
+        "support": 79
       }
     }
   },

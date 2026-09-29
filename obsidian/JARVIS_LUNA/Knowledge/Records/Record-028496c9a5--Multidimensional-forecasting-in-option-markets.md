@@ -2,7 +2,7 @@
 title: "Record 028496c9a5 · Multidimensional-forecasting-in-option-markets"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:45.577520+00:00
+updated_at: 2026-09-29T08:02:58.614582+00:00
 tags: [record, real-data]
 ---
 

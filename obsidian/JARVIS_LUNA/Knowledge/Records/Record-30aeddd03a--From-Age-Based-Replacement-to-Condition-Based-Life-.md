@@ -2,7 +2,7 @@
 title: "Record 30aeddd03a · From-Age-Based-Replacement-to-Condition-Based-Life-Extension-of-Distri"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:45.346342+00:00
+updated_at: 2026-09-29T08:02:58.381413+00:00
 tags: [record, real-data]
 ---
 

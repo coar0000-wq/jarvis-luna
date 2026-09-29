@@ -2,7 +2,7 @@
 title: "Record b3bd5984fe · What-do-VLM-Based-Vision-Language-Navigation-Models-Rely-on-Interpreti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:45.892995+00:00
+updated_at: 2026-09-29T08:02:58.897453+00:00
 tags: [record, real-data]
 ---
 

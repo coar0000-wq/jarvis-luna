@@ -2,7 +2,7 @@
 title: "Record 81eac9efbd · MECAIL-Communication-Aware-Incremental-Learning-for-Object-Detection-w"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:45.887718+00:00
+updated_at: 2026-09-29T08:02:58.892761+00:00
 tags: [record, real-data]
 ---
 

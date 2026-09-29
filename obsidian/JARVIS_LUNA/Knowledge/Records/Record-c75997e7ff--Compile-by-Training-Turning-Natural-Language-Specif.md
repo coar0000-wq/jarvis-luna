@@ -2,7 +2,7 @@
 title: "Record c75997e7ff · Compile-by-Training-Turning-Natural-Language-Specif"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T05:46:44.930345+00:00
+updated_at: 2026-09-29T08:02:58.006711+00:00
 tags: [record, real-data]
 ---
 
