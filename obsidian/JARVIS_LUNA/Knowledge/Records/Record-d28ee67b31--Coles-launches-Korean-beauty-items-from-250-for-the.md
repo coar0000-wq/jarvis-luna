@@ -2,7 +2,7 @@
 title: "Record d28ee67b31 · Coles-launches-Korean-beauty-items-from-250-for-the"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T23:18:52.337214+00:00
+updated_at: 2026-09-29T00:25:32.086579+00:00
 tags: [record, real-data]
 ---
 

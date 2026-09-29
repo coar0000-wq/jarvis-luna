@@ -1,54 +1,42 @@
 {
-  "generated_at": "2026-09-28T19:14:53.700873+00:00",
+  "generated_at": "2026-09-29T00:14:37.866073+00:00",
   "generator": "scripts/self_improve.py",
   "principle": "무료·설정만 변경·그림자 평가 후 채택·실측 악화 시 자동 롤백",
   "loops": {
     "topics": {
       "metric": "uncategorized_rate",
-      "records": 5497,
-      "base_uncategorized": 867,
-      "before": 0.0915,
-      "after_shadow": 0.089,
-      "uncategorized_before": 503,
-      "uncategorized_after_shadow": 489,
-      "adopted": 3,
-      "learned_keywords": 12,
+      "records": 5545,
+      "base_uncategorized": 891,
+      "before": 0.0902,
+      "after_shadow": 0.0875,
+      "uncategorized_before": 500,
+      "uncategorized_after_shadow": 485,
+      "adopted": 2,
+      "learned_keywords": 14,
       "decisions": [
         {
           "loop": "topics",
           "action": "adopt",
-          "keyword": "cleansing",
+          "keyword": "peptide",
           "topic": "뷰티·스킨케어",
           "precision": 1.0,
-          "support": 16,
-          "uncategorized_hits": 7,
+          "support": 8,
+          "uncategorized_hits": 9,
           "source": "us_beauty",
           "source_fit": 0.884,
-          "newly_classified": 7
+          "newly_classified": 9
         },
         {
           "loop": "topics",
           "action": "adopt",
-          "keyword": "smoothing",
+          "keyword": "vitamin",
           "topic": "뷰티·스킨케어",
-          "precision": 0.938,
-          "support": 16,
-          "uncategorized_hits": 4,
+          "precision": 1.0,
+          "support": 13,
+          "uncategorized_hits": 6,
           "source": "us_beauty",
           "source_fit": 0.884,
-          "newly_classified": 4
-        },
-        {
-          "loop": "topics",
-          "action": "adopt",
-          "keyword": "original",
-          "topic": "뷰티·스킨케어",
-          "precision": 0.857,
-          "support": 21,
-          "uncategorized_hits": 4,
-          "source": "us_beauty",
-          "source_fit": 0.884,
-          "newly_classified": 3
+          "newly_classified": 6
         }
       ],
       "status": "adopted"
@@ -75,26 +63,18 @@
     },
     "design": {
       "metric": "reference_relevant_ratio",
-      "before": 0.435,
-      "relevant": 37,
-      "items": 85,
+      "before": 0.487,
+      "relevant": 38,
+      "items": 78,
       "feed_caps": {
         "web.dev": 3
       },
       "offline_drafts": 2,
       "store_done": 2,
       "steps_total": 12,
-      "decisions": [
-        {
-          "loop": "design",
-          "action": "adopt",
-          "feed": "web.dev",
-          "cap": 3,
-          "reason": "최근 3회 관련 비율 10% < 30%. 관련 글은 모두 남기고 나머지만 줄인다."
-        }
-      ],
-      "status": "adopt"
+      "decisions": [],
+      "status": "active"
     }
   },
-  "decisions_total": 14
+  "decisions_total": 16
 }

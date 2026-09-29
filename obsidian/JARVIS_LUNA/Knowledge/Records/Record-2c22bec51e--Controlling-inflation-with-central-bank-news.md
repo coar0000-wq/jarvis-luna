@@ -2,7 +2,7 @@
 title: "Record 2c22bec51e · Controlling-inflation-with-central-bank-news"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T23:18:51.067840+00:00
+updated_at: 2026-09-29T00:25:30.791591+00:00
 tags: [record, real-data]
 ---
 

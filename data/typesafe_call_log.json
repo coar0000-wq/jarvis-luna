@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-28T19:23:32.197503+00:00",
+  "generated_at": "2026-09-29T00:23:43.105489+00:00",
   "note": "Jev(TypeSafe) 실호출 근거. HTTP 상태·모델·토큰·공급자 요청 ID. 키는 기록하지 않는다.",
-  "total_ok_calls": 41,
+  "total_ok_calls": 71,
   "total_failed_calls": 0,
-  "last_ok_call_at": "2026-09-28T19:23:32.196186+00:00",
+  "last_ok_call_at": "2026-09-29T00:23:43.104162+00:00",
   "calls": [
     {
       "at": "2026-09-27T14:08:49.446133+00:00",
@@ -418,6 +418,306 @@
     },
     {
       "at": "2026-09-28T19:23:32.196186+00:00",
+      "pd_no": "1060489",
+      "http": 200,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1136,
+      "output_tokens": 198,
+      "request_id": ""
+    },
+    {
+      "at": "2026-09-29T00:23:35.357118+00:00",
+      "pd_no": "1049276",
+      "http": 200,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1105,
+      "output_tokens": 198,
+      "request_id": ""
+    },
+    {
+      "at": "2026-09-29T00:23:35.583721+00:00",
+      "pd_no": "1055167",
+      "http": 200,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1085,
+      "output_tokens": 198,
+      "request_id": ""
+    },
+    {
+      "at": "2026-09-29T00:23:35.750302+00:00",
+      "pd_no": "1049275",
+      "http": 200,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1104,
+      "output_tokens": 198,
+      "request_id": ""
+    },
+    {
+      "at": "2026-09-29T00:23:35.940441+00:00",
+      "pd_no": "1067498",
+      "http": 200,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1086,
+      "output_tokens": 198,
+      "request_id": ""
+    },
+    {
+      "at": "2026-09-29T00:23:36.152292+00:00",
+      "pd_no": "1072554",
+      "http": 200,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1097,
+      "output_tokens": 198,
+      "request_id": ""
+    },
+    {
+      "at": "2026-09-29T00:23:36.392142+00:00",
+      "pd_no": "1075857",
+      "http": 200,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1090,
+      "output_tokens": 198,
+      "request_id": ""
+    },
+    {
+      "at": "2026-09-29T00:23:36.628229+00:00",
+      "pd_no": "1049285",
+      "http": 200,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1096,
+      "output_tokens": 198,
+      "request_id": ""
+    },
+    {
+      "at": "2026-09-29T00:23:36.796523+00:00",
+      "pd_no": "1053482",
+      "http": 200,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1097,
+      "output_tokens": 198,
+      "request_id": ""
+    },
+    {
+      "at": "2026-09-29T00:23:36.950824+00:00",
+      "pd_no": "1027327",
+      "http": 200,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1113,
+      "output_tokens": 198,
+      "request_id": ""
+    },
+    {
+      "at": "2026-09-29T00:23:37.136007+00:00",
+      "pd_no": "1060489",
+      "http": 200,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1136,
+      "output_tokens": 198,
+      "request_id": ""
+    },
+    {
+      "at": "2026-09-29T00:23:37.441363+00:00",
+      "pd_no": "1049276",
+      "http": 200,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1105,
+      "output_tokens": 198,
+      "request_id": ""
+    },
+    {
+      "at": "2026-09-29T00:23:37.677496+00:00",
+      "pd_no": "1055167",
+      "http": 200,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1085,
+      "output_tokens": 198,
+      "request_id": ""
+    },
+    {
+      "at": "2026-09-29T00:23:37.842534+00:00",
+      "pd_no": "1049275",
+      "http": 200,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1104,
+      "output_tokens": 198,
+      "request_id": ""
+    },
+    {
+      "at": "2026-09-29T00:23:38.013935+00:00",
+      "pd_no": "1067498",
+      "http": 200,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1086,
+      "output_tokens": 198,
+      "request_id": ""
+    },
+    {
+      "at": "2026-09-29T00:23:38.206604+00:00",
+      "pd_no": "1072554",
+      "http": 200,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1097,
+      "output_tokens": 198,
+      "request_id": ""
+    },
+    {
+      "at": "2026-09-29T00:23:38.378685+00:00",
+      "pd_no": "1075857",
+      "http": 200,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1090,
+      "output_tokens": 198,
+      "request_id": ""
+    },
+    {
+      "at": "2026-09-29T00:23:38.557875+00:00",
+      "pd_no": "1049285",
+      "http": 200,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1096,
+      "output_tokens": 198,
+      "request_id": ""
+    },
+    {
+      "at": "2026-09-29T00:23:38.750269+00:00",
+      "pd_no": "1053482",
+      "http": 200,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1097,
+      "output_tokens": 198,
+      "request_id": ""
+    },
+    {
+      "at": "2026-09-29T00:23:38.937329+00:00",
+      "pd_no": "1027327",
+      "http": 200,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1113,
+      "output_tokens": 198,
+      "request_id": ""
+    },
+    {
+      "at": "2026-09-29T00:23:39.110556+00:00",
+      "pd_no": "1060489",
+      "http": 200,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1136,
+      "output_tokens": 198,
+      "request_id": ""
+    },
+    {
+      "at": "2026-09-29T00:23:41.501815+00:00",
+      "pd_no": "1049276",
+      "http": 200,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1105,
+      "output_tokens": 198,
+      "request_id": ""
+    },
+    {
+      "at": "2026-09-29T00:23:41.672994+00:00",
+      "pd_no": "1055167",
+      "http": 200,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1085,
+      "output_tokens": 198,
+      "request_id": ""
+    },
+    {
+      "at": "2026-09-29T00:23:41.853194+00:00",
+      "pd_no": "1049275",
+      "http": 200,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1104,
+      "output_tokens": 198,
+      "request_id": ""
+    },
+    {
+      "at": "2026-09-29T00:23:42.030710+00:00",
+      "pd_no": "1067498",
+      "http": 200,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1086,
+      "output_tokens": 198,
+      "request_id": ""
+    },
+    {
+      "at": "2026-09-29T00:23:42.208527+00:00",
+      "pd_no": "1072554",
+      "http": 200,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1097,
+      "output_tokens": 198,
+      "request_id": ""
+    },
+    {
+      "at": "2026-09-29T00:23:42.372160+00:00",
+      "pd_no": "1075857",
+      "http": 200,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1090,
+      "output_tokens": 198,
+      "request_id": ""
+    },
+    {
+      "at": "2026-09-29T00:23:42.558580+00:00",
+      "pd_no": "1049285",
+      "http": 200,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1096,
+      "output_tokens": 198,
+      "request_id": ""
+    },
+    {
+      "at": "2026-09-29T00:23:42.775057+00:00",
+      "pd_no": "1053482",
+      "http": 200,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1097,
+      "output_tokens": 198,
+      "request_id": ""
+    },
+    {
+      "at": "2026-09-29T00:23:42.938958+00:00",
+      "pd_no": "1027327",
+      "http": 200,
+      "ok": true,
+      "model": "jev-1.13.0",
+      "input_tokens": 1113,
+      "output_tokens": 198,
+      "request_id": ""
+    },
+    {
+      "at": "2026-09-29T00:23:43.104162+00:00",
       "pd_no": "1060489",
       "http": 200,
       "ok": true,

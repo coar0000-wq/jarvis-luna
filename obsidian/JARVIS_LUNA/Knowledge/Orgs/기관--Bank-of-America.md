@@ -2,7 +2,7 @@
 title: "기관 · Bank of America"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T23:18:54.118492+00:00
+updated_at: 2026-09-29T00:25:33.854022+00:00
 tags: [org, real-data]
 ---
 

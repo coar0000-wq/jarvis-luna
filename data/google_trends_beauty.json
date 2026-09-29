@@ -1,6 +1,6 @@
 {
   "source": "google news rss (beauty queries) + trends daily filtered",
-  "collected_at": "2026-09-28T19:14:51.526036+00:00",
+  "collected_at": "2026-09-29T00:14:35.748839+00:00",
   "status": "ok",
   "note": "뷰티 키워드만. 채점 MATCH_CHANNELS 에는 넣지 않음. 대시보드 키워드 보드용.",
   "query_count": 12,
@@ -12,6 +12,24 @@
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORlR1RUpYVVZlSlotVVZzTS1yYXpZOV9pdjVFUHZvbzAxeGIydWNib2U5ekxCYkxzaXFXZ1JjeTI4SmxaWHdJdmliYzlRWFZkVHhGb3p1akJ3ZFVfWFpLT0o0YzNQYlZOOWY2bERlem5VckVDak9pbWZIXzFnMnhQYVR1VTdMT2thZUQwMnkzOXRuWFk1MUM2Q29OUWtZRE1rR2RrUUhhbw?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "A massive K-beauty pop-up is taking over Hudson Yards this week with 30+ brands and $300 gift bags - Time Out Worldwide",
+      "product": "A massive K-beauty pop-up is taking over Hudson Yards this week with 30+ brands and $300 gift bags - Time Out Worldwide",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZlBQMzlpMkVnWThzam51YmVTcEVIR0daejY5ZElObmwzdHNqejNqWDVmYmRzME1mcDJEck85ODJyTEtLQjl2TjhOYWtIcmJ4SjIwUnNHdDJ0Nk1uOGhfcXZaMU90SHF3Y2FuaDFVeHBsN0RJd0NGaXFMNnVVZkh6TnNPR0FVeFlzU2J4cWRsRWt1UFY5aUJuOVVqZENMQXdfZ2JPLU1jbnVrVmFrenZFNk1IN0t5d3p6Vk9DY19TOUJGb1hNTG9qWkdjUEQ5bUZmUC1YVThrSQ?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "K-Beauty Is Taking Over Our Best of Beauty Awards, and for Good Reason - Allure",
+      "product": "K-Beauty Is Taking Over Our Best of Beauty Awards, and for Good Reason - Allure",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9OMWRrWlZETWZ3NUNIUFhIZU1GcVl1OFJmMEkzemlwMVRfVWs4NTFpLUd0VFNxR0xFN09IajZxUDQzakRZcHp5cVVGTUplNzA2VW1QWXBWbkdSX0RRLUtHOTROZGtSdGpZV3hOQkRVaVpJZnFtZ2NNcHd5cw?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -34,11 +52,11 @@
       "beauty": true
     },
     {
-      "keyword": "K-Beauty Is Taking Over Our Best of Beauty Awards, and for Good Reason - Allure",
-      "product": "K-Beauty Is Taking Over Our Best of Beauty Awards, and for Good Reason - Allure",
+      "keyword": "K-Beauty Experience Medical Spa celebrates grand opening. - Cottage Grove Journal",
+      "product": "K-Beauty Experience Medical Spa celebrates grand opening. - Cottage Grove Journal",
       "sub": "K-beauty",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9OMWRrWlZETWZ3NUNIUFhIZU1GcVl1OFJmMEkzemlwMVRfVWs4NTFpLUd0VFNxR0xFN09IajZxUDQzakRZcHp5cVVGTUplNzA2VW1QWXBWbkdSX0RRLUtHOTROZGtSdGpZV3hOQkRVaVpJZnFtZ2NNcHd5cw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNa1NiRVUwRmRyWEQ2TENNVnd2WC10Y1NtMzFkWE5RRUdGVmdnbUxQNEI3SURaMkl5UTNNYkxlcUdiQ0pERjIyQ205S1c2OUptSG5xTGZHZm9SamFKd0JnWHRlbjdwUnJTNmo3OWxjMXZyQWtIaEVuUS1oQng4eGo5NmoybHc1bDhFd3EySFV0Njg3aFNzY0c2WVl0SGtKOXZoQzFjTjBSQlZnM2RG?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -52,29 +70,11 @@
       "beauty": true
     },
     {
-      "keyword": "K-Beauty Experience Medical Spa celebrates grand opening. - Cottage Grove Journal",
-      "product": "K-Beauty Experience Medical Spa celebrates grand opening. - Cottage Grove Journal",
+      "keyword": "K-Beauty Isn’t Just For Gen Z. These Korean Skin Care Picks Are Made For Mature Skin - HuffPost",
+      "product": "K-Beauty Isn’t Just For Gen Z. These Korean Skin Care Picks Are Made For Mature Skin - HuffPost",
       "sub": "K-beauty",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNa1NiRVUwRmRyWEQ2TENNVnd2WC10Y1NtMzFkWE5RRUdGVmdnbUxQNEI3SURaMkl5UTNNYkxlcUdiQ0pERjIyQ205S1c2OUptSG5xTGZHZm9SamFKd0JnWHRlbjdwUnJTNmo3OWxjMXZyQWtIaEVuUS1oQng4eGo5NmoybHc1bDhFd3EySFV0Njg3aFNzY0c2WVl0SGtKOXZoQzFjTjBSQlZnM2RG?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "K Beauty Products Market Forecast to Expand Through 2035, Driven by Demand for Science-Backed Skincare Routines - IndexBox",
-      "product": "K Beauty Products Market Forecast to Expand Through 2035, Driven by Demand for Science-Backed Skincare Routines - IndexBox",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbW03dnVrX003cF9PNzdzWFNjaVJaVWVqQUU3U3dIc0tCVFJiZTV2SmtOTFdzX1pSNU9NNVBIYlJLZzJpTFBYUkExTExxbGNxem5UN3ZxQUpqR2x0dUFuaDV0X3J2Y0Y4YVFRMkpwcWxYRy1xWm9QeGNNQmZ4RUpmX2JUM05YU1E2ODZwdkNxTUNTZ1hjQ2hKam50bEhrWHhGSmpyTE0xNktYSUpvMkVrbHFLQ21RcmRfejRkUjBYd083eFN2SC1IM282b0ZLYUtrQi1uZ25oWQ?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "How The Eye-Patch Grinder Packaging Ended Up Everywhere At Once - beautyindependent.com",
-      "product": "How The Eye-Patch Grinder Packaging Ended Up Everywhere At Once - beautyindependent.com",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbm1kNTFMSThEM3g3Q1hnNHFYV0xXcURsRXo3emE1RzVmc3pDT1ZBanFlUzgyY1JkZ3llQllaa0NRbTVaNUdqYWt5SEZiU2E1SzF4S1ZZb2VPRjZ1cmdtQXhnSHB1VlBxZGZ3dHczTF9wdTVkYXFTRG81WUlyZE5TUWh5Q3lUX182dHl4V3dsQ3k?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRURKYS1ZekRkbWVwN2g1TTFWd3VkUmtReXFsVFFlbEFlR0cxTXFXd2k5Zkw5WGM0TmRWc0tSS21fWjROdHZMYVI2S3pqOF90QnJNQ242blFzLTNFd0V1NlhQQ1h5UkFYZS1qQ21RQnN0bW5oenpibURlTi1XVmE2R255Mm5Ga0NEUEwyVEhhUzk1LVhKeEVXbm14NNIBoAFBVV95cUxOWVE3UVVwRWxaYWpnVDgxUHdiWUF1YzVsMkJZVFpJZGlOOEpCdXNxX1hjWGJfY0MtelJjZkREVzhMX2VZdkVDd1hJVWdYcHRHenU2Ylh5Z25kN2lGWm5WZTJTeWthWldFbndJTjNYODdlV0FqaFpnYXVFQ0hlU1NSSjhONXZtQmloUndlT3FrVW1tSEV4b3FPNHEycWI3VjZj?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -142,8 +142,8 @@
       "beauty": true
     },
     {
-      "keyword": "Is the new U.S. regulation an open door or obstacle for K-sunscreens? - koreajoongangdaily.com",
-      "product": "Is the new U.S. regulation an open door or obstacle for K-sunscreens? - koreajoongangdaily.com",
+      "keyword": "Is the new U.S. regulation an open door or obstacle for K-sunscreens? - Korea JoongAng Daily",
+      "product": "Is the new U.S. regulation an open door or obstacle for K-sunscreens? - Korea JoongAng Daily",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUDh6Z0llM0RRMDYyeWdpSlhyaTRUdjREYUloeWMzUjQtbnBud0NaaWluNGs2akdaT2NZbnhlbElONjJUVzE2QU5TV2NTMkRhVnlQaHlXaUJTdTZScTE0Y0pqblFlYnlNa1dseHB3M09Fb3RQN0hCclZYS1B1RXotaERGS29IQmZlbFI2RzNBTXFreExrUnE5MzhaV3ZsclBHRkpXRlEtQnQxbk5INngtdURoWVlPRmtGcGc?oc=5",
@@ -187,8 +187,8 @@
       "beauty": true
     },
     {
-      "keyword": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - vogue.com",
-      "product": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - vogue.com",
+      "keyword": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - Vogue",
+      "product": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - Vogue",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5LUmI0VzFqenBxYXlPcjlQVE4xOEVsbE8wYW4xdG1jSHRWbFQzWFZEOVRpTmN0bndubWptdUJqc3BRb2ExWUJCZmtRSVhSWDliZDN5RGhjVGhLSW1ieU45TVhMZVpKSFVYZWc?oc=5",
@@ -214,8 +214,8 @@
       "beauty": true
     },
     {
-      "keyword": "Snails are masters of mucus chemistry - cen.acs.org",
-      "product": "Snails are masters of mucus chemistry - cen.acs.org",
+      "keyword": "Snails are masters of mucus chemistry - Chemical & Engineering News",
+      "product": "Snails are masters of mucus chemistry - Chemical & Engineering News",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdWxLYWM0V1J4VkM4aWpQRXRGM2h2RTFYYUg4NmdNd0RFbEtpZlNTdHc1Rkg5alNqbzByMEkycVh1bnJSby1seFpNc3JZMkgzUVBmOUJQT0pxYTI2RnA4bHh5U0lQdzZDa1E4eUxXZnBUa3FVUE55T0JsaXFIbTZnbkZFRFVtNmJNRVNLNlN0SVNaXzM1UVVqNmVjTjlmRkk?oc=5",
@@ -223,8 +223,8 @@
       "beauty": true
     },
     {
-      "keyword": "6 Steps to Glass Skin, According to K-Beauty Experts - vogue.com",
-      "product": "6 Steps to Glass Skin, According to K-Beauty Experts - vogue.com",
+      "keyword": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
+      "product": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5",
@@ -241,8 +241,8 @@
       "beauty": true
     },
     {
-      "keyword": "There are K-Beauty Toner Pads for Legit Every Skincare Concern—Editors Love These 9 for Smooth, Glowy Skin - Cosmopolitan",
-      "product": "There are K-Beauty Toner Pads for Legit Every Skincare Concern—Editors Love These 9 for Smooth, Glowy Skin - Cosmopolitan",
+      "keyword": "There are K-Beauty Toner Pads for Legit Every Skincare Concern—Editors Love These 9 for Smooth, Glowy Skin - cosmopolitan.com",
+      "product": "There are K-Beauty Toner Pads for Legit Every Skincare Concern—Editors Love These 9 for Smooth, Glowy Skin - cosmopolitan.com",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE51X3N0RkJ5UUFOczdKQ2xiV24wOEJsMGlUUU1vTnJIWGZXd0VJVDZtcExtbHh5VWwwUVpzYXVqYklvc29sSF9zaUtnbDUybF9iTGxVWE1PVkxOZGVacVNUT2REeG42TGtPaGNUdjF6a08zSG40M3Z5d0JR?oc=5",
@@ -340,8 +340,8 @@
       "beauty": true
     },
     {
-      "keyword": "Scientists develop plant-based serum that regrows hair within weeks - The Times of India",
-      "product": "Scientists develop plant-based serum that regrows hair within weeks - The Times of India",
+      "keyword": "Scientists develop plant-based serum that regrows hair within weeks - timesofindia.indiatimes.com",
+      "product": "Scientists develop plant-based serum that regrows hair within weeks - timesofindia.indiatimes.com",
       "sub": "centella serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQS3NBQ0pya1FORlNaLXJBT216ejlHem55MnVkSFE1MThZWWtvdTBVek8zU2JxYVIzdlREWDhWcUU1b2NkOUpjM3hIaWk3akFxNndzMm9GRkVGaDJZQ2Jrb1MyWXBkSnB2cnJ0SHNnWmx3TExmeTctVnpnQWl1YWFYTHhnZUloWGVzT2NOZENreGFjdlVzVzJabmVOdHlpZEJKV0p3ZThieE1Gd0RaWEVONzI3bTlMeGM0YnZyM1p0aXk5UTREdnVvWkxKQ2lNdWRjRzR30gHYAUFVX3lxTFBLVlRaRExMTVdsY0wtQk5Zb3hTQUxMT1hmSlhTZ3gtblBzaFNKY1RqMDJsVER5bThnN2xZYlhvNWJxOXJCRmtpdFhRcGhaT2tlanRwQ2VxZnlCVHVsZlNfb1hyQkR2VUQwUUVudFlWTWF3YXVtYTZ2WWtpaDNFQ0tnQzJnMmIxZG5MSF9qMjZMZklrcTh4TF8zWlBPNWJ2S1cwYUNiTFBsWTctTElTMEduV1o4QXZTR3pWT1lPeHRTc3lHaTlJZm5pazFmWlBZS0RHdzlNVUJ2cQ?oc=5",

@@ -18,6 +18,12 @@
         "items": 15,
         "relevant": 8,
         "capped": false
+      },
+      {
+        "at": "2026-09-29T00:11:53.575431+00:00",
+        "items": 15,
+        "relevant": 9,
+        "capped": false
       }
     ],
     "Shopify Dev Changelog": [
@@ -35,6 +41,12 @@
       },
       {
         "at": "2026-09-28T19:12:20.993323+00:00",
+        "items": 15,
+        "relevant": 9,
+        "capped": false
+      },
+      {
+        "at": "2026-09-29T00:11:53.575431+00:00",
         "items": 15,
         "relevant": 9,
         "capped": false
@@ -58,6 +70,12 @@
         "items": 15,
         "relevant": 8,
         "capped": false
+      },
+      {
+        "at": "2026-09-29T00:11:53.575431+00:00",
+        "items": 15,
+        "relevant": 8,
+        "capped": false
       }
     ],
     "Smashing Magazine": [
@@ -75,6 +93,12 @@
       },
       {
         "at": "2026-09-28T19:12:20.993323+00:00",
+        "items": 15,
+        "relevant": 6,
+        "capped": false
+      },
+      {
+        "at": "2026-09-29T00:11:53.575431+00:00",
         "items": 15,
         "relevant": 6,
         "capped": false
@@ -98,6 +122,12 @@
         "items": 15,
         "relevant": 5,
         "capped": false
+      },
+      {
+        "at": "2026-09-29T00:11:53.575431+00:00",
+        "items": 15,
+        "relevant": 5,
+        "capped": false
       }
     ],
     "web.dev": [
@@ -118,6 +148,12 @@
         "items": 10,
         "relevant": 1,
         "capped": false
+      },
+      {
+        "at": "2026-09-29T00:11:53.575431+00:00",
+        "items": 3,
+        "relevant": 1,
+        "capped": true
       }
     ]
   },
@@ -165,6 +201,21 @@
       "design": {
         "status": "adopt",
         "before": 0.435
+      }
+    },
+    {
+      "at": "2026-09-29T00:14:37.866073+00:00",
+      "topics": {
+        "status": "adopted",
+        "before": 0.0902
+      },
+      "sourcing": {
+        "status": "active",
+        "before": 0.01818181818181818
+      },
+      "design": {
+        "status": "active",
+        "before": 0.487
       }
     }
   ]

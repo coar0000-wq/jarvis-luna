@@ -2,7 +2,7 @@
 title: "Record 161b496a93 · Silk-Peptide-EGF-Intensive-Ampoule"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T23:18:53.175456+00:00
+updated_at: 2026-09-29T00:25:32.904233+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Silk Peptide EGF Intensive Ampoule · SUNGBOON EDITOR · $28
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,7 +2,7 @@
 title: "Record d75c23d751 · Kronecker-Products-Polarity-Quotients-and-Large-Graph-Constructions"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T23:18:51.425035+00:00
+updated_at: 2026-09-29T00:25:31.171829+00:00
 tags: [record, real-data]
 ---
 

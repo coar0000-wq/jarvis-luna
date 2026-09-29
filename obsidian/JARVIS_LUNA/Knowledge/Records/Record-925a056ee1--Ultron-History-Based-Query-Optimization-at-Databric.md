@@ -2,7 +2,7 @@
 title: "Record 925a056ee1 · Ultron-History-Based-Query-Optimization-at-Databricks"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T23:18:51.311593+00:00
+updated_at: 2026-09-29T00:25:31.046931+00:00
 tags: [record, real-data]
 ---
 

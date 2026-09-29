@@ -2,7 +2,7 @@
 title: "Record 87434974d9 · FaceLove-Color-Changing-Foundation-Stick-Shade-Adapting-Korean-Makeup-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T23:18:52.754794+00:00
+updated_at: 2026-09-29T00:25:32.491503+00:00
 tags: [record, real-data]
 ---
 

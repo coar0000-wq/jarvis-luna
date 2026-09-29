@@ -2,7 +2,7 @@
 title: "Record 1a367d59dc · Freshly-Juiced-Vitamin-C-Drop"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T23:18:52.509632+00:00
+updated_at: 2026-09-29T00:25:32.254646+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Freshly Juiced Vitamin C Drop · KLAIRS · $23.0
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

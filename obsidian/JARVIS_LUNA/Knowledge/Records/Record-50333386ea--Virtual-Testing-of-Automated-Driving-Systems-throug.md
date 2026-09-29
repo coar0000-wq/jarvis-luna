@@ -2,7 +2,7 @@
 title: "Record 50333386ea · Virtual-Testing-of-Automated-Driving-Systems-throug"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T23:18:50.664024+00:00
+updated_at: 2026-09-29T00:25:30.360674+00:00
 tags: [record, real-data]
 ---
 

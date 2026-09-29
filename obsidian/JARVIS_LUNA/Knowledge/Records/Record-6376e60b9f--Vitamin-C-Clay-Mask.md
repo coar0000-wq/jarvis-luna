@@ -2,7 +2,7 @@
 title: "Record 6376e60b9f · Vitamin-C-Clay-Mask"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T23:18:52.503994+00:00
+updated_at: 2026-09-29T00:25:32.249113+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Vitamin C Clay Mask · Gleamin · $40.0
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

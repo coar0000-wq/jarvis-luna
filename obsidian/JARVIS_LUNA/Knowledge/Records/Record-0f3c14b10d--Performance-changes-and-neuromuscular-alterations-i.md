@@ -2,7 +2,7 @@
 title: "Record 0f3c14b10d · Performance-changes-and-neuromuscular-alterations-in-sprague-dawley-ra"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T23:18:51.303735+00:00
+updated_at: 2026-09-29T00:25:31.038889+00:00
 tags: [record, real-data]
 ---
 

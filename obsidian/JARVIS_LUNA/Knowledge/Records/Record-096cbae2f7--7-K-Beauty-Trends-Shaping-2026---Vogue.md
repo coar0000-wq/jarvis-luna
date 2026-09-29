@@ -2,7 +2,7 @@
 title: "Record 096cbae2f7 · 7-K-Beauty-Trends-Shaping-2026---Vogue"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T23:18:51.847826+00:00
+updated_at: 2026-09-29T00:25:31.622056+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiX0FVX3lxTE5aSW9GVV9hWUZyZWp2eVowQm1HT3BJcVVWUjRTWk9yYkJJZmNjQTdpeWhhYllUalZ5aEZMTVNzdnRpMDJubFV3RHpXclFrQUtxRXBGWjBkRmxVa0NsYllV?oc=5)
 
-**제목:** 7 K-Beauty Trends Shaping 2026 - vogue.com
+**제목:** 7 K-Beauty Trends Shaping 2026 - Vogue
 
-7 K-Beauty Trends Shaping 2026 - vogue.com
+7 K-Beauty Trends Shaping 2026 - Vogue
 
 **출처:** Source · Google Search
 

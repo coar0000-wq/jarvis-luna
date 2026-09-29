@@ -2,7 +2,7 @@
 title: "Record c435d09471 · Barclays-launches-ISA-and-Life-Insurance-reward-off"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T23:18:51.725018+00:00
+updated_at: 2026-09-29T00:25:31.493156+00:00
 tags: [record, real-data]
 ---
 

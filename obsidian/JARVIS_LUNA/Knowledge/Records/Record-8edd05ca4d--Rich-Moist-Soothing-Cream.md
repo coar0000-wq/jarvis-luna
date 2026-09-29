@@ -2,7 +2,7 @@
 title: "Record 8edd05ca4d · Rich-Moist-Soothing-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T23:18:52.510416+00:00
+updated_at: 2026-09-29T00:25:32.255392+00:00
 tags: [record, real-data]
 ---
 

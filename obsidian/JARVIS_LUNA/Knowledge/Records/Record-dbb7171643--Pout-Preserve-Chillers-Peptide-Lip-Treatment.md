@@ -2,7 +2,7 @@
 title: "Record dbb7171643 · Pout-Preserve-Chillers-Peptide-Lip-Treatment"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T23:18:53.173321+00:00
+updated_at: 2026-09-29T00:25:32.902342+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Pout Preserve Chillers Peptide Lip Treatment · OLEHENRIKSEN · $16.8
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

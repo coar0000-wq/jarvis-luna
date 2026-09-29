@@ -2,7 +2,7 @@
 title: "Record 07e021d5a8 · Is-the-new-US-regulation-an-open-door-or-obstacle-for-K-sunscreens---K"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T23:18:52.313730+00:00
+updated_at: 2026-09-29T00:25:32.061561+00:00
 tags: [record, real-data]
 ---
 
