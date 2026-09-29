@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T19:23:25.719496+00:00",
+  "generated_at": "2026-09-29T00:23:37.199713+00:00",
   "generator": "scripts/build_listing_copy_local.py",
   "model": "none_local_deterministic",
   "paid_api_called": false,
@@ -10,8 +10,8 @@
   "ok": 8,
   "failed": 0,
   "skipped_prerequisite": 2,
-  "carried_forward": 7,
-  "generated_local": 1,
+  "carried_forward": 8,
+  "generated_local": 0,
   "items": [
     {
       "canonical_product_id": "CP000107",

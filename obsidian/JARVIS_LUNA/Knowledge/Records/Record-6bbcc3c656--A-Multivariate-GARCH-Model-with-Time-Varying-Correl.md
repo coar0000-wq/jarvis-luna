@@ -2,7 +2,7 @@
 title: "Record 6bbcc3c656 · A-Multivariate-GARCH-Model-with-Time-Varying-Correlations-What-Do-Infl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T23:18:51.035391+00:00
+updated_at: 2026-09-29T00:25:30.756163+00:00
 tags: [record, real-data]
 ---
 

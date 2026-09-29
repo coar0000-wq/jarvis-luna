@@ -2,7 +2,7 @@
 title: "Record 8bc9a3793e · Differential-Effects-of-35-GHz-and-24-GHz-5G-Radiofrequency-Exposure-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T23:18:51.388936+00:00
+updated_at: 2026-09-29T00:25:31.130994+00:00
 tags: [record, real-data]
 ---
 

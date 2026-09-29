@@ -2,7 +2,7 @@
 title: "Record 5f4ae1ed74 · Barclays-launches-Backing-Britains-Future-committing-to-support-15m-bu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T23:18:51.724531+00:00
+updated_at: 2026-09-29T00:25:31.492615+00:00
 tags: [record, real-data]
 ---
 

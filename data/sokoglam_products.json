@@ -2,17 +2,17 @@
   "source": "sokoglam.com 컬렉션 공개 상품 JSON (실수집)",
   "generator": "scripts/collect_sokoglam.py",
   "robots_note": "User-agent: * Allow: / · /cart /checkout 만 차단 (2026-09-28 확인)",
-  "collected_at": "2026-09-28T19:21:12.822599+00:00",
+  "collected_at": "2026-09-29T00:21:18.302715+00:00",
   "is_stale": false,
-  "count": 244,
+  "count": 242,
   "by_collection": {
-    "Best Sellers": 84,
-    "Skincare": 160
+    "Best Sellers": 83,
+    "Skincare": 159
   },
   "errors": [],
   "rank_note": "순위는 컬렉션 표시 순서다. 판매량 수치가 아니다.",
   "price_stats": {
-    "n": 244,
+    "n": 242,
     "min": 3.0,
     "median": 27.0,
     "max": 200.0
@@ -200,29 +200,6 @@
         "fragrance free",
         "Free_Of::Alcohol_Products",
         "Free_Of::Artificial_Colors"
-      ]
-    },
-    {
-      "rank": 9,
-      "name": "Bio-Lipid Restoring Body Lotion",
-      "brand": "NATURIUM",
-      "price_usd": 16.0,
-      "category": "Body",
-      "collection": "Best Sellers",
-      "url": "https://sokoglam.com/products/bio-lipid-restoring-body-lotion",
-      "tags": [
-        "badge-vegan",
-        "Body",
-        "body care",
-        "Body Lotion",
-        "cruelty free",
-        "female founded",
-        "female founders",
-        "fragrance free",
-        "Free_of::Parabens",
-        "Lotion",
-        "NATURIUM",
-        "Product_Type::Body"
       ]
     },
     {
@@ -5279,29 +5256,6 @@
         "dryness/hydration",
         "Essence",
         "Father's Day Gift Guide"
-      ]
-    },
-    {
-      "rank": 233,
-      "name": "Daily SPF",
-      "brand": "COCOKIND",
-      "price_usd": 24.99,
-      "category": "Sunscreen",
-      "collection": "Skincare",
-      "url": "https://sokoglam.com/products/cocokind-daily-spf",
-      "tags": [
-        "acne suncare",
-        "badge-beautyforgood",
-        "badge-cleanbeauty",
-        "badge-femalefounded",
-        "badge-vegan",
-        "cocokind",
-        "cruelty free",
-        "Free_Of::Alcohol_Products",
-        "Free_Of::Animal_Products",
-        "Free_Of::Artificial_Colors",
-        "Free_Of::Artificial_Fragrances",
-        "Free_Of::Essential_Oil"
       ]
     },
     {

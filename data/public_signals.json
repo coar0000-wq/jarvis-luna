@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T19:21:49.554276+00:00",
+  "generated_at": "2026-09-29T00:21:59.424755+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "today",
+          "keyword": "jamaica - honduras",
           "approx_traffic": "10000+",
           "traffic_num": 10000,
-          "published": "Mon, 28 Sep 2026 11:40:00 -0700",
-          "source_name": "People.com",
-          "url": "https://trends.google.com/trending?geo=US&q=today"
+          "published": "Mon, 28 Sep 2026 16:10:00 -0700",
+          "source_name": "ESPN Deportes",
+          "url": "https://trends.google.com/trending?geo=US&q=jamaica%20-%20honduras"
         },
         {
-          "keyword": "matthew knies",
+          "keyword": "zach ertz",
           "approx_traffic": "5000+",
           "traffic_num": 5000,
-          "published": "Mon, 28 Sep 2026 11:40:00 -0700",
-          "source_name": "The New York Times",
-          "url": "https://trends.google.com/trending?geo=US&q=matthew%20knies"
+          "published": "Mon, 28 Sep 2026 17:00:00 -0700",
+          "source_name": "NBC Sports Philadelphia",
+          "url": "https://trends.google.com/trending?geo=US&q=zach%20ertz"
         },
         {
-          "keyword": "france",
+          "keyword": "joe buck",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Mon, 28 Sep 2026 12:00:00 -0700",
-          "source_name": "L'Équipe",
-          "url": "https://trends.google.com/trending?geo=US&q=france"
+          "published": "Mon, 28 Sep 2026 16:50:00 -0700",
+          "source_name": "Inquirer.com",
+          "url": "https://trends.google.com/trending?geo=US&q=joe%20buck"
         },
         {
-          "keyword": "gow laufey",
+          "keyword": "the voice",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Mon, 28 Sep 2026 12:00:00 -0700",
-          "source_name": "PlayStation.Blog",
-          "url": "https://trends.google.com/trending?geo=US&q=gow%20laufey"
+          "published": "Mon, 28 Sep 2026 16:50:00 -0700",
+          "source_name": "NBC TV Network",
+          "url": "https://trends.google.com/trending?geo=US&q=the%20voice"
         },
         {
-          "keyword": "national coffee day 2026",
+          "keyword": "guatemala vs el salvador",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Mon, 28 Sep 2026 11:40:00 -0700",
-          "source_name": "NBC 4 New York",
-          "url": "https://trends.google.com/trending?geo=US&q=national%20coffee%20day%202026"
+          "published": "Mon, 28 Sep 2026 16:30:00 -0700",
+          "source_name": "ESPN Deportes",
+          "url": "https://trends.google.com/trending?geo=US&q=guatemala%20vs%20el%20salvador"
         },
         {
-          "keyword": "target pokemon drawing",
+          "keyword": "devonta smith",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Mon, 28 Sep 2026 11:30:00 -0700",
-          "source_name": "Polygon.com",
-          "url": "https://trends.google.com/trending?geo=US&q=target%20pokemon%20drawing"
-        },
-        {
-          "keyword": "title ix",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Mon, 28 Sep 2026 11:40:00 -0700",
-          "source_name": "The Hill",
-          "url": "https://trends.google.com/trending?geo=US&q=title%20ix"
-        },
-        {
-          "keyword": "brandon ingram",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Mon, 28 Sep 2026 11:40:00 -0700",
+          "published": "Mon, 28 Sep 2026 16:30:00 -0700",
           "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=brandon%20ingram"
+          "url": "https://trends.google.com/trending?geo=US&q=devonta%20smith"
         },
         {
-          "keyword": "ios 27.0 1",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Mon, 28 Sep 2026 12:00:00 -0700",
-          "source_name": "9to5Mac",
-          "url": "https://trends.google.com/trending?geo=US&q=ios%2027.0%201"
+          "keyword": "winter storm warning",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Mon, 28 Sep 2026 16:20:00 -0700",
+          "source_name": "Men's Journal",
+          "url": "https://trends.google.com/trending?geo=US&q=winter%20storm%20warning"
         },
         {
-          "keyword": "sciencedaily",
+          "keyword": "ryan seacrest",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Mon, 28 Sep 2026 16:50:00 -0700",
+          "source_name": "People.com",
+          "url": "https://trends.google.com/trending?geo=US&q=ryan%20seacrest"
+        },
+        {
+          "keyword": "john waldron",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Mon, 28 Sep 2026 16:20:00 -0700",
+          "source_name": "Bloomberg",
+          "url": "https://trends.google.com/trending?geo=US&q=john%20waldron"
+        },
+        {
+          "keyword": "dolar a peso",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Mon, 28 Sep 2026 12:00:00 -0700",
-          "source_name": "ScienceDaily",
-          "url": "https://trends.google.com/trending?geo=US&q=sciencedaily"
+          "published": "Mon, 28 Sep 2026 16:20:00 -0700",
+          "source_name": "Dallas News",
+          "url": "https://trends.google.com/trending?geo=US&q=dolar%20a%20peso"
         }
       ]
     },
@@ -96,87 +96,87 @@
       "status": "ok",
       "reason": "",
       "source": "wikimedia.org REST pageviews API (공식)",
-      "note": "2026-08-28 ~ 2026-09-26 일별 조회수. 후반 15일 대비 전반 15일 증감률",
+      "note": "2026-08-29 ~ 2026-09-27 일별 조회수. 후반 15일 대비 전반 15일 증감률",
       "errors": [],
       "items": [
         {
           "topic": "Niacinamide",
           "days": 30,
-          "total_views": 1878,
-          "avg_daily": 63,
-          "recent_avg": 85,
+          "total_views": 1870,
+          "avg_daily": 62,
+          "recent_avg": 84,
           "prev_avg": 40,
-          "change_pct": 110.4,
+          "change_pct": 110.1,
           "url": "https://en.wikipedia.org/wiki/Niacinamide"
         },
         {
           "topic": "K-beauty",
           "days": 30,
-          "total_views": 3795,
-          "avg_daily": 126,
-          "recent_avg": 133,
-          "prev_avg": 120,
-          "change_pct": 10.0,
+          "total_views": 3806,
+          "avg_daily": 127,
+          "recent_avg": 136,
+          "prev_avg": 118,
+          "change_pct": 15.0,
           "url": "https://en.wikipedia.org/wiki/K-beauty"
         },
         {
           "topic": "Centella asiatica",
           "days": 30,
-          "total_views": 15281,
-          "avg_daily": 509,
-          "recent_avg": 523,
-          "prev_avg": 496,
-          "change_pct": 5.5,
+          "total_views": 15229,
+          "avg_daily": 508,
+          "recent_avg": 524,
+          "prev_avg": 491,
+          "change_pct": 6.6,
           "url": "https://en.wikipedia.org/wiki/Centella_asiatica"
         },
         {
           "topic": "Cosmetics",
           "days": 30,
-          "total_views": 21381,
-          "avg_daily": 713,
-          "recent_avg": 728,
-          "prev_avg": 698,
-          "change_pct": 4.3,
+          "total_views": 21586,
+          "avg_daily": 720,
+          "recent_avg": 738,
+          "prev_avg": 701,
+          "change_pct": 5.2,
           "url": "https://en.wikipedia.org/wiki/Cosmetics"
         },
         {
           "topic": "Hyaluronic acid",
           "days": 30,
-          "total_views": 18672,
+          "total_views": 18664,
           "avg_daily": 622,
-          "recent_avg": 625,
-          "prev_avg": 619,
-          "change_pct": 0.9,
+          "recent_avg": 631,
+          "prev_avg": 613,
+          "change_pct": 2.9,
           "url": "https://en.wikipedia.org/wiki/Hyaluronic_acid"
         },
         {
           "topic": "Retinol",
           "days": 30,
-          "total_views": 11699,
-          "avg_daily": 390,
-          "recent_avg": 387,
-          "prev_avg": 393,
-          "change_pct": -1.4,
+          "total_views": 11661,
+          "avg_daily": 389,
+          "recent_avg": 385,
+          "prev_avg": 392,
+          "change_pct": -1.8,
           "url": "https://en.wikipedia.org/wiki/Retinol"
         },
         {
           "topic": "Snail slime",
           "days": 30,
-          "total_views": 2246,
+          "total_views": 2238,
           "avg_daily": 75,
           "recent_avg": 71,
-          "prev_avg": 79,
-          "change_pct": -10.9,
+          "prev_avg": 78,
+          "change_pct": -8.7,
           "url": "https://en.wikipedia.org/wiki/Snail_slime"
         },
         {
           "topic": "Sunscreen",
           "days": 30,
-          "total_views": 14859,
-          "avg_daily": 495,
-          "recent_avg": 459,
-          "prev_avg": 532,
-          "change_pct": -13.8,
+          "total_views": 14771,
+          "avg_daily": 492,
+          "recent_avg": 453,
+          "prev_avg": 531,
+          "change_pct": -14.7,
           "url": "https://en.wikipedia.org/wiki/Sunscreen"
         }
       ]
@@ -187,6 +187,16 @@
       "source": "allure.com/feed/rss",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
       "items": [
+        {
+          "title": "8 Best Wrinkle Fillers for Smoother, Firmer Skin",
+          "published": "Mon, 28 Sep 2026 21:18:45 +0000",
+          "url": "https://www.allure.com/story/wrinkle-fillers"
+        },
+        {
+          "title": "Lilac Is Fall 2026's Unexpected Nail Color Trend—See Photos",
+          "published": "Mon, 28 Sep 2026 21:10:00 +0000",
+          "url": "https://www.allure.com/story/lilac-nail-trend-2026"
+        },
         {
           "title": "The Best Niche Perfumes Will Make You Stand Out in a Crowd",
           "published": "Mon, 28 Sep 2026 16:43:22 +0000",
@@ -326,16 +336,6 @@
           "title": "Cardi B’s Vogue World Eye Makeup Is Glittery Magenta Magic—See the Photos",
           "published": "Wed, 23 Sep 2026 13:25:23 +0000",
           "url": "https://www.allure.com/story/cardi-b-vogue-world-pink-glitter-makeup"
-        },
-        {
-          "title": "More Women Are Getting Hair Transplants in Turkey",
-          "published": "Wed, 23 Sep 2026 12:30:00 +0000",
-          "url": "https://www.allure.com/story/hair-transplant-turkey-women-experiences"
-        },
-        {
-          "title": "Lili Reinhart’s Hair Transformation for The Love Hypothesis Was Both an Art and a Science",
-          "published": "Wed, 23 Sep 2026 12:00:00 +0000",
-          "url": "https://www.allure.com/story/love-hypothesis-lili-reinhart-hair-interview"
         }
       ]
     },

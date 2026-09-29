@@ -2,7 +2,7 @@
 title: "Record db56c86999 · Advanced-Snail-Peptide-Eye-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T23:18:52.501869+00:00
+updated_at: 2026-09-29T00:25:32.246890+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Advanced Snail Peptide Eye Cream · COSRX · $22.0
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

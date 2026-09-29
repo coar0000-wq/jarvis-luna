@@ -2,7 +2,7 @@
 title: "Record 161f5f495f · PanOxyl-10-Benzoyl-Peroxide-Acne-Foaming-Wash-Maximum-Strength-Daily-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T23:18:52.840837+00:00
+updated_at: 2026-09-29T00:25:32.575389+00:00
 tags: [record, real-data]
 ---
 

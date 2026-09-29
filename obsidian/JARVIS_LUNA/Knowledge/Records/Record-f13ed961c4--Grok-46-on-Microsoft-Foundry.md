@@ -2,7 +2,7 @@
 title: "Record f13ed961c4 · Grok-46-on-Microsoft-Foundry"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T23:18:53.284434+00:00
+updated_at: 2026-09-29T00:25:33.014380+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [x.ai](https://x.ai/news/grok-4-6-microsoft-foundry)
 
-**제목:** Grok 4.6 on Microsoft Foundry
+**제목:** Grok 4 6 Microsoft Foundry
 
-Grok 4.6 on Microsoft Foundry
-Grok 4.6 is now available via Microsoft Foundry.
+Grok 4 6 Microsoft Foundry
 
 **출처:** Source · institutions
 

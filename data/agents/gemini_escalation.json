@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-28T19:25:26.221014+00:00",
+  "generated_at": "2026-09-29T00:25:38.922580+00:00",
   "generator": "scripts/gemini_escalation.py",
   "policy": "data/manual/model_routing_policy.json",
   "enabled": true,
@@ -12,12 +12,45 @@
   "paid_api_called": false,
   "canonical_gate_changed": false,
   "external_action_executed": false,
-  "call_count": 0,
-  "called": false,
-  "reasons": [],
-  "advice": null,
-  "usage": null,
+  "call_count": 1,
+  "called": true,
+  "reasons": [
+    "repeated_unresolved_auto_issues=1"
+  ],
+  "advice": {
+    "risk": "medium",
+    "diagnosis": "일부 채널 데이터 비어있음 및 외부 API 접근 실패(HTTP 403)로 인한 고시 판독 보류 상태",
+    "next_safe_checks": [
+      "데이터 경로 파일(data/shopify_exports/manifest.json) 정합성 확인",
+      "수동 고시 입력 파일(data/manual/inci_overrides.json) 상태 점검",
+      "채널 시그널 점검 로그(data/agents/signal_audit.json) 리프레시 상태 확인"
+    ],
+    "requires_human": true,
+    "evidence_gaps": [
+      "메디필 시카 쿨링 진정 랩핑 마스크 전성분 및 제조사 정보 원문",
+      "차단된 SKU 2건에 대한 검증 가능한 라벨 및 사업자 자료",
+      "아마존 뷰티 Movers 채널 데이터"
+    ],
+    "forbidden_actions": [
+      "external publish",
+      "payment",
+      "advertising",
+      "canonical gate override"
+    ]
+  },
+  "usage": {
+    "promptTokenCount": 1054,
+    "candidatesTokenCount": 256,
+    "totalTokenCount": 1310,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1054
+      }
+    ],
+    "serviceTier": "standard"
+  },
   "error": "",
   "policy_schema_version": 1,
-  "status": "not_needed"
+  "status": "advisory_ready"
 }

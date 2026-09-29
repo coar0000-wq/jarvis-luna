@@ -2,7 +2,7 @@
 title: "Record 27cf7688c3 · Non-financial-regulatory-reporting-Operating-model-conundrums-in-an-er"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T23:18:51.702284+00:00
+updated_at: 2026-09-29T00:25:31.467410+00:00
 tags: [record, real-data]
 ---
 

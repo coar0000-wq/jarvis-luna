@@ -2,7 +2,7 @@
 title: "Record 3718301911 · Belgrade-big-ideas-are-about-to-meet-bigger-opportu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T23:18:53.239387+00:00
+updated_at: 2026-09-29T00:25:32.968847+00:00
 tags: [record, real-data]
 ---
 

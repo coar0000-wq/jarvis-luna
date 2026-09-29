@@ -2,7 +2,7 @@
 title: "Record 49bd56de98 · Your-Agent-is-More-Brittle-Than-You-Think-Uncoverin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T23:18:52.444680+00:00
+updated_at: 2026-09-29T00:25:32.187891+00:00
 tags: [record, real-data]
 ---
 

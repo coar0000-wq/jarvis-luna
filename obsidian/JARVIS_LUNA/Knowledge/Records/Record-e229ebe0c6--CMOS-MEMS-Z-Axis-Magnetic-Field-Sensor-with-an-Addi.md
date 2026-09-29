@@ -2,7 +2,7 @@
 title: "Record e229ebe0c6 · CMOS-MEMS-Z-Axis-Magnetic-Field-Sensor-with-an-Addi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T23:18:51.391003+00:00
+updated_at: 2026-09-29T00:25:31.133414+00:00
 tags: [record, real-data]
 ---
 

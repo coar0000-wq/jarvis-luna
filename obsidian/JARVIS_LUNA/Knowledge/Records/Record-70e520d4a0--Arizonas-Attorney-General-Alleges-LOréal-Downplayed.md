@@ -2,7 +2,7 @@
 title: "Record 70e520d4a0 · Arizonas-Attorney-General-Alleges-LOréal-Downplayed-Cancer-Risks-in-Ne"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T23:18:52.675670+00:00
+updated_at: 2026-09-29T00:25:32.415980+00:00
 tags: [record, real-data]
 ---
 

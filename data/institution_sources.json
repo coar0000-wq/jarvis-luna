@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-28T19:12:07.023891+00:00",
+  "collected_at": "2026-09-29T00:11:39.985158+00:00",
   "total": 1077,
   "organizations": 35,
   "by_org": {
@@ -54,19 +54,19 @@
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-09-28T19:11:21.682894+00:00"
+      "collected_at": "2026-09-29T00:10:49.039979+00:00"
     },
     "sitemap": {
       "status": "ok",
       "count": 125,
       "failures": [],
-      "collected_at": "2026-09-28T19:11:48.501493+00:00"
+      "collected_at": "2026-09-29T00:11:15.311331+00:00"
     },
     "openalex": {
       "status": "ok",
       "count": 742,
       "failures": [],
-      "collected_at": "2026-09-28T19:12:07.022710+00:00"
+      "collected_at": "2026-09-29T00:11:39.983939+00:00"
     }
   },
   "not_collected": {
@@ -90,6 +90,32 @@
       "date": "2026-09-28",
       "date_raw": "Mon, 28 Sep 2026 07:00:00 GMT",
       "summary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
+      "org": "OpenAI",
+      "category": "AI연구소",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://openai.com/news/rss.xml",
+      "title_source": "feed"
+    },
+    {
+      "title": "Are you a Codex Original?",
+      "url": "https://openai.com/form/codex-originals",
+      "date": "2026-09-28",
+      "date_raw": "Mon, 28 Sep 2026 00:00:00 GMT",
+      "summary": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below.",
+      "org": "OpenAI",
+      "category": "AI연구소",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://openai.com/news/rss.xml",
+      "title_source": "feed"
+    },
+    {
+      "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+      "url": "https://openai.com/index/basis-tax-workbook-with-astra",
+      "date": "2026-09-28",
+      "date_raw": "Mon, 28 Sep 2026 00:00:00 GMT",
+      "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -137,6 +163,19 @@
       "title_source": "feed"
     },
     {
+      "title": "Sam Altman’s remarks at the United Nations Security Council",
+      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+      "date": "2026-09-23",
+      "date_raw": "Wed, 23 Sep 2026 12:00:00 GMT",
+      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+      "org": "OpenAI",
+      "category": "AI연구소",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://openai.com/news/rss.xml",
+      "title_source": "feed"
+    },
+    {
       "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
       "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
       "date": "2026-09-23",
@@ -168,19 +207,6 @@
       "date": "2026-09-23",
       "date_raw": "Wed, 23 Sep 2026 12:00:00 GMT",
       "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-      "org": "OpenAI",
-      "category": "AI연구소",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://openai.com/news/rss.xml",
-      "title_source": "feed"
-    },
-    {
-      "title": "Sam Altman’s remarks at the United Nations Security Council",
-      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
-      "date": "2026-09-23",
-      "date_raw": "Wed, 23 Sep 2026 12:00:00 GMT",
-      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -293,11 +319,11 @@
       "title_source": "feed"
     },
     {
-      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "title": "Advisory Group on Mathematics and Artificial Intelligence",
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
       "date": "2026-09-21",
       "date_raw": "Mon, 21 Sep 2026 12:00:00 GMT",
-      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -306,11 +332,11 @@
       "title_source": "feed"
     },
     {
-      "title": "Advisory Group on Mathematics and Artificial Intelligence",
-      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
       "date": "2026-09-21",
       "date_raw": "Mon, 21 Sep 2026 12:00:00 GMT",
-      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -376,32 +402,6 @@
       "date": "2026-09-17",
       "date_raw": "Thu, 17 Sep 2026 12:00:00 GMT",
       "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
-      "org": "OpenAI",
-      "category": "AI연구소",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://openai.com/news/rss.xml",
-      "title_source": "feed"
-    },
-    {
-      "title": "Introducing Astra for Law",
-      "url": "https://openai.com/index/astra-for-law",
-      "date": "2026-09-17",
-      "date_raw": "Thu, 17 Sep 2026 00:00:00 GMT",
-      "summary": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
-      "org": "OpenAI",
-      "category": "AI연구소",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://openai.com/news/rss.xml",
-      "title_source": "feed"
-    },
-    {
-      "title": "Helping older adults use AI in everyday life",
-      "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-      "date": "2026-09-16",
-      "date_raw": "Wed, 16 Sep 2026 16:00:00 GMT",
-      "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -1060,6 +1060,19 @@
       "title_source": "feed"
     },
     {
+      "title": "One year in: How Microsoft Research Asia – Singapore is advancing research, partnership and talent for real-world impact",
+      "url": "https://www.microsoft.com/en-us/research/blog/one-year-in-how-microsoft-research-asia-singapore-is-advancing-research-partnership-and-talent-for-real-world-impact/",
+      "date": "2026-09-28",
+      "date_raw": "Mon, 28 Sep 2026 21:00:00 +0000",
+      "summary": "Since launching a year ago, the Microsoft Research Asia — Singapore lab has established a strong foundation, deepened collaboration across government, academia, and industry, and explored how frontier AI research can create real-world value. The post One year in: How Microsoft Research Asia – Singapore is advancing research, partnership and talent for real-world impact appeared first on Microsoft ",
+      "org": "Microsoft Research",
+      "category": "AI연구소",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://www.microsoft.com/en-us/research/feed/",
+      "title_source": "feed"
+    },
+    {
       "title": "Offloaded inference for real-world physical AI robotics",
       "url": "https://www.microsoft.com/en-us/research/blog/offloaded-inference-for-real-world-physical-ai-robotics/",
       "date": "2026-09-23",
@@ -1177,16 +1190,16 @@
       "title_source": "feed"
     },
     {
-      "title": "Verifying Rust cryptography in SymCrypt, from standards to code",
-      "url": "https://www.microsoft.com/en-us/research/blog/verifying-rust-cryptography-in-symcrypt-from-standards-to-code/",
-      "date": "2026-07-13",
-      "date_raw": "Mon, 13 Jul 2026 16:00:00 +0000",
-      "summary": "Cryptographic code supports vital protections in modern computing systems. Learn how a new method helps verify code as developers write it while preserving speed and adaptability as it gets implemented and evolves. The post Verifying Rust cryptography in SymCrypt, from standards to code appeared first on Microsoft Research .",
-      "org": "Microsoft Research",
-      "category": "AI연구소",
+      "title": "AMD to Acquire World Labs to Advance the Future of AI Compute",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1299/amd-to-acquire-world-labs-to-advance-the-future-of-ai-compute",
+      "date": "2026-09-28",
+      "date_raw": "Mon, 28 Sep 26 16:05:00 -0400",
+      "summary": "",
+      "org": "AMD",
+      "category": "반도체",
       "kind": "발표물",
       "source": "rss",
-      "feed": "https://www.microsoft.com/en-us/research/feed/",
+      "feed": "https://ir.amd.com/rss/news-releases.xml",
       "title_source": "feed"
     },
     {
@@ -1298,19 +1311,6 @@
       "url": "https://ir.amd.com/news-events/press-releases/detail/1290/amd-appoints-alan-smith-as-newest-corporate-fellow",
       "date": "2026-07-16",
       "date_raw": "Thu, 16 Jul 26 09:00:00 -0400",
-      "summary": "",
-      "org": "AMD",
-      "category": "반도체",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://ir.amd.com/rss/news-releases.xml",
-      "title_source": "feed"
-    },
-    {
-      "title": "AMD to Report Fiscal Second Quarter 2026 Financial Results",
-      "url": "https://ir.amd.com/news-events/press-releases/detail/1289/amd-to-report-fiscal-second-quarter-2026-financial-results",
-      "date": "2026-07-08",
-      "date_raw": "Wed, 08 Jul 26 16:15:00 -0400",
       "summary": "",
       "org": "AMD",
       "category": "반도체",
@@ -1447,6 +1447,32 @@
       "kind": "발표물",
       "source": "rss",
       "feed": "https://investors.broadcom.com/rss/news-releases.xml",
+      "title_source": "feed"
+    },
+    {
+      "title": "Samsung To Invest USD 1 Billion in AI Infrastructure Company Helix",
+      "url": "https://news.samsung.com/global/samsung-to-invest-usd-1-billion-in-ai-infrastructure-company-helix",
+      "date": "2026-09-29",
+      "date_raw": "Tue, 29 Sep 2026 08:00:00 +0000",
+      "summary": "Samsung Electronics, Samsung C&T, Samsung SDS, Samsung SDI, Samsung Life Insurance and Samsung Fire & Marine Insurance today announced they are investing a combined USD 1 billion in Helix Digital Infrastructure, an AI infrastructure company established by global investment firm KKR. Launched in June 2026, Helix is an AI-enabling infrastructure provider that is designed to […]",
+      "org": "Samsung Electronics",
+      "category": "반도체",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://news.samsung.com/global/feed",
+      "title_source": "feed"
+    },
+    {
+      "title": "[World Heart Day] Taking Care of Your Heart Every Day, Starting From Your Wrist",
+      "url": "https://news.samsung.com/global/world-heart-day-taking-care-of-your-heart-every-day-starting-from-your-wrist",
+      "date": "2026-09-29",
+      "date_raw": "Tue, 29 Sep 2026 08:00:00 +0000",
+      "summary": "No matter who you are or what you do, we all have one constant companion we rely on every single day: our heart. Unseen but always at work, it beats around 100,000 times a day, keeping pace with us through every moment. Yet for something so essential to our lives, taking care of our hearts […]",
+      "org": "Samsung Electronics",
+      "category": "반도체",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://news.samsung.com/global/feed",
       "title_source": "feed"
     },
     {
@@ -1741,32 +1767,6 @@
       "date": "2026-09-01",
       "date_raw": "Tue, 01 Sep 2026 09:00:00 +0000",
       "summary": "Unveiled at Galaxy Unpacked July 2026, Samsung Electronics’ Galaxy Z series introduces My FanCam — a new feature that lets users focus their edits on a person of their choice — as well as an enhanced Portrait Video that recreates the look of professional camera lenses. While the two features offer different camera experiences, both draw […]",
-      "org": "Samsung Electronics",
-      "category": "반도체",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://news.samsung.com/global/feed",
-      "title_source": "feed"
-    },
-    {
-      "title": "Samsung Expands the Galaxy Book6 Lineup, Making Galaxy Book More Accessible",
-      "url": "https://news.samsung.com/global/samsung-expands-the-galaxy-book6-lineup-making-galaxy-book-more-accessible",
-      "date": "2026-09-01",
-      "date_raw": "Tue, 01 Sep 2026 08:00:00 +0000",
-      "summary": "Samsung Electronics today announced a new 14-inch Galaxy Book6, expanding the Galaxy Book6 lineup with a more accessible model designed for everyday computing. Starting at $799, Galaxy Book6 combines up to 25 hours of battery life, Intel® Core™ 3 and Core™ 5 performance, Galaxy AI-enabled features, and the design language of the Galaxy Book6 family. […]",
-      "org": "Samsung Electronics",
-      "category": "반도체",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://news.samsung.com/global/feed",
-      "title_source": "feed"
-    },
-    {
-      "title": "Samsung Hosts #PlayGalaxy Cup World Final at Gamescom 2026",
-      "url": "https://news.samsung.com/global/samsung-hosts-playgalaxy-cup-world-final-at-gamescom-2026",
-      "date": "2026-08-31",
-      "date_raw": "Mon, 31 Aug 2026 10:02:00 +0000",
-      "summary": "Samsung Electronics today announced that it hosted the #PlayGalaxy Cup World Final from Aug. 27-28, and that the final was held at the company’s booth as part of its larger exhibition at Gamescom 2026, held at Koelnmesse in Cologne, Germany, from Aug. 26-30. The #PlayGalaxy Cup is a global mobile gaming tournament designed to showcase […]",
       "org": "Samsung Electronics",
       "category": "반도체",
       "kind": "발표물",
@@ -2295,6 +2295,45 @@
       "title_source": "feed"
     },
     {
+      "title": "How Databricks rolls out frontier models to 14,000 employees on Day 1",
+      "url": "https://www.databricks.com/blog/how-databricks-rolls-out-frontier-models-14000-employees-day-1",
+      "date": "2026-09-28",
+      "date_raw": "Mon, 28 Sep 2026 20:11:23 GMT",
+      "summary": "Providing our employees access to frontier AI capabilities is a top priority at Databricks, and consequently...",
+      "org": "Databricks",
+      "category": "데이터분석",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://www.databricks.com/feed",
+      "title_source": "feed"
+    },
+    {
+      "title": "Lakebase Search: State-of-the-art full text and vector search for Postgres",
+      "url": "https://www.databricks.com/blog/lakebase-search-state-art-full-text-and-vector-search-postgres",
+      "date": "2026-09-28",
+      "date_raw": "Mon, 28 Sep 2026 20:04:33 GMT",
+      "summary": "Traditional OLTP systems weren't built for the search demands of AI agents. They...",
+      "org": "Databricks",
+      "category": "데이터분석",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://www.databricks.com/feed",
+      "title_source": "feed"
+    },
+    {
+      "title": "Manufacturing data and AI: Connecting the product value chain",
+      "url": "https://www.databricks.com/blog/manufacturing-data-and-ai-connecting-product-value-chain",
+      "date": "2026-09-28",
+      "date_raw": "Mon, 28 Sep 2026 19:47:19 GMT",
+      "summary": "A manufacturing defect rarely belongs to one system. A scrap spike may relate to...",
+      "org": "Databricks",
+      "category": "데이터분석",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://www.databricks.com/feed",
+      "title_source": "feed"
+    },
+    {
       "title": "How to roll out Genie One: A step-by-step enterprise playbook",
       "url": "https://www.databricks.com/blog/how-roll-out-genie-one-step-step-enterprise-playbook",
       "date": "2026-09-28",
@@ -2378,45 +2417,6 @@
       "date": "2026-09-23",
       "date_raw": "Wed, 23 Sep 2026 12:19:55 GMT",
       "summary": "Healthcare AI has little margin for error. AI agents helping coordinate patient care...",
-      "org": "Databricks",
-      "category": "데이터분석",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://www.databricks.com/feed",
-      "title_source": "feed"
-    },
-    {
-      "title": "Top 5 System Table Queries for Understanding Your Databricks Costs",
-      "url": "https://www.databricks.com/blog/top-5-system-table-queries-understanding-your-databricks-costs",
-      "date": "2026-09-22",
-      "date_raw": "Tue, 22 Sep 2026 16:22:39 GMT",
-      "summary": "Databricks&nbsp;system tables provide a wealth of information into how you use Databricks and what it costs....",
-      "org": "Databricks",
-      "category": "데이터분석",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://www.databricks.com/feed",
-      "title_source": "feed"
-    },
-    {
-      "title": "Genie One MCP: Give any AI Agent the Right Business Context",
-      "url": "https://www.databricks.com/blog/genie-one-mcp-give-any-ai-agent-right-business-context",
-      "date": "2026-09-22",
-      "date_raw": "Tue, 22 Sep 2026 16:00:00 GMT",
-      "summary": "Business leaders often have access to plenty of data, but still can’t get a reliable...",
-      "org": "Databricks",
-      "category": "데이터분석",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://www.databricks.com/feed",
-      "title_source": "feed"
-    },
-    {
-      "title": "The Genie One MCP is now Generally Available",
-      "url": "https://www.databricks.com/blog/genie-one-mcp-now-generally-available",
-      "date": "2026-09-22",
-      "date_raw": "Tue, 22 Sep 2026 16:00:00 GMT",
-      "summary": "AI coworkers and coding agents are spreading fast across organizations, and each...",
       "org": "Databricks",
       "category": "데이터분석",
       "kind": "발표물",
@@ -3075,6 +3075,19 @@
       "feed": "https://www.anthropic.com/sitemap.xml"
     },
     {
+      "url": "https://x.ai/news/team-bots",
+      "date": "2026-09-28",
+      "date_raw": "2026-09-28T00:00:00.000Z",
+      "title_source": "page",
+      "title": "Team Bots: AI coworkers that learn from your team",
+      "summary": "Give a Grok Bot the files, apps, and expertise it needs, then share it so your whole team can work from the same context.",
+      "org": "xAI",
+      "category": "AI연구소",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://x.ai/sitemap.xml"
+    },
+    {
       "url": "https://x.ai/news/grok-bot-customer-support",
       "date": "2026-09-22",
       "date_raw": "2026-09-22T00:00:00.000Z",
@@ -3195,9 +3208,9 @@
       "url": "https://x.ai/news/grok-4-6-microsoft-foundry",
       "date": "2026-08-26",
       "date_raw": "2026-08-26T00:00:00.000Z",
-      "title_source": "page",
-      "title": "Grok 4.6 on Microsoft Foundry",
-      "summary": "Grok 4.6 is now available via Microsoft Foundry.",
+      "title_source": "url-slug",
+      "title": "Grok 4 6 Microsoft Foundry",
+      "summary": "",
       "org": "xAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -3314,19 +3327,6 @@
       "date_raw": "2026-07-31T00:00:00.000Z",
       "title_source": "url-slug",
       "title": "Grok Imagine Video 1 5 References",
-      "summary": "",
-      "org": "xAI",
-      "category": "AI연구소",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://x.ai/sitemap.xml"
-    },
-    {
-      "url": "https://x.ai/news/grok-voice-think-fast-2",
-      "date": "2026-07-29",
-      "date_raw": "2026-07-29T00:00:00.000Z",
-      "title_source": "url-slug",
-      "title": "Grok Voice Think Fast 2",
       "summary": "",
       "org": "xAI",
       "category": "AI연구소",
@@ -3673,11 +3673,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/talks-at-gs/ryan-serhant-on-the-art-of-selling-luxury-real-estate",
+      "url": "https://www.goldmansachs.com/insights/the-markets/why-the-bond-market-may-be-the-stock-markets-biggest-risk",
       "date": "2026-09-25",
-      "date_raw": "2026-09-25T20:16:02.000Z",
+      "date_raw": "2026-09-25T13:02:40.000Z",
       "title_source": "url-slug",
-      "title": "Ryan Serhant On The Art Of Selling Luxury Real Estate",
+      "title": "Why The Bond Market May Be The Stock Markets Biggest Risk",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -3699,11 +3699,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/the-markets/why-the-bond-market-may-be-the-stock-markets-biggest-risk",
+      "url": "https://www.goldmansachs.com/insights/talks-at-gs/ryan-serhant-on-the-art-of-selling-luxury-real-estate",
       "date": "2026-09-25",
-      "date_raw": "2026-09-25T13:02:40.000Z",
+      "date_raw": "2026-09-25T20:16:02.000Z",
       "title_source": "url-slug",
-      "title": "Why The Bond Market May Be The Stock Markets Biggest Risk",
+      "title": "Ryan Serhant On The Art Of Selling Luxury Real Estate",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -3829,11 +3829,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/articles/consumer-agents-signal-new-phase-for-ai-growth",
+      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/rich-friedman-on-the-rise-of-private-markets-and-ai-investing",
       "date": "2026-09-18",
-      "date_raw": "2026-09-18T11:02:53.000Z",
+      "date_raw": "2026-09-18T13:16:24.000Z",
       "title_source": "url-slug",
-      "title": "Consumer Agents Signal New Phase For Ai Growth",
+      "title": "Rich Friedman On The Rise Of Private Markets And Ai Investing",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -3842,11 +3842,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/rich-friedman-on-the-rise-of-private-markets-and-ai-investing",
+      "url": "https://www.goldmansachs.com/insights/articles/consumer-agents-signal-new-phase-for-ai-growth",
       "date": "2026-09-18",
-      "date_raw": "2026-09-18T13:16:24.000Z",
+      "date_raw": "2026-09-18T11:02:53.000Z",
       "title_source": "url-slug",
-      "title": "Rich Friedman On The Rise Of Private Markets And Ai Investing",
+      "title": "Consumer Agents Signal New Phase For Ai Growth",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -4076,6 +4076,19 @@
       "feed": "https://www.jpmorgan.com/sitemap.xml"
     },
     {
+      "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/managing-volatility-as-a-market-condition",
+      "date": "2026-09-24",
+      "date_raw": "2026-09-24",
+      "title_source": "url-slug",
+      "title": "Managing Volatility As A Market Condition",
+      "summary": "",
+      "org": "JPMorgan Chase",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.jpmorgan.com/sitemap.xml"
+    },
+    {
       "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/technology-overtakes-liquidity-market-structure",
       "date": "2026-09-24",
       "date_raw": "2026-09-24",
@@ -4146,19 +4159,6 @@
       "date_raw": "2026-09-24",
       "title_source": "url-slug",
       "title": "Machine Learning In Private Credit",
-      "summary": "",
-      "org": "JPMorgan Chase",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.jpmorgan.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/managing-volatility-as-a-market-condition",
-      "date": "2026-09-24",
-      "date_raw": "2026-09-24",
-      "title_source": "url-slug",
-      "title": "Managing Volatility As A Market Condition",
       "summary": "",
       "org": "JPMorgan Chase",
       "category": "투자은행",

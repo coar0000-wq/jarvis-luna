@@ -2,7 +2,7 @@
 title: "Record 3b897b3ce9 · Easydew-DW-EFG-Vitamin-C-Boosting-Ampoule-25-052-oz"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T23:18:52.563733+00:00
+updated_at: 2026-09-29T00:25:32.306863+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Easydew DW-EFG Vitamin C Boosting Ampoule 25 0.52 oz.(15g)
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

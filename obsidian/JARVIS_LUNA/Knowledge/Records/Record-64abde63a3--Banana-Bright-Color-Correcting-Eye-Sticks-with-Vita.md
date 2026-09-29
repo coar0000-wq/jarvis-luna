@@ -2,7 +2,7 @@
 title: "Record 64abde63a3 · Banana-Bright-Color-Correcting-Eye-Sticks-with-Vita"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T23:18:53.152141+00:00
+updated_at: 2026-09-29T00:25:32.880603+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Banana Bright+ Color Correcting Eye Sticks with Vitamin C for Dark Circles · OL
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

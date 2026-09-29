@@ -2,7 +2,7 @@
 title: "Record 0bfadf299f · PDRN-Caffeine-Shot-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T23:18:52.507242+00:00
+updated_at: 2026-09-29T00:25:32.252354+00:00
 tags: [record, real-data]
 ---
 

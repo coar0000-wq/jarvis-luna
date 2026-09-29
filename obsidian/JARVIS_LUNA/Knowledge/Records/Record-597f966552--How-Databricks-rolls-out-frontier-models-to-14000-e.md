@@ -1,0 +1,22 @@
+---
+title: "Record 597f966552 · How-Databricks-rolls-out-frontier-models-to-14000-employees-on-Day-1"
+type: knowledge-graph
+status: generated-from-real-data
+updated_at: 2026-09-29T00:25:32.691327+00:00
+tags: [record, real-data]
+---
+
+# Record 597f966552 · How-Databricks-rolls-out-frontier-models-to-14000-employees-on-Day-1
+
+> 실제 수집 레코드입니다. 원문: [www.databricks.com](https://www.databricks.com/blog/how-databricks-rolls-out-frontier-models-14000-employees-day-1)
+
+**제목:** How Databricks rolls out frontier models to 14,000 employees on Day 1
+
+How Databricks rolls out frontier models to 14,000 employees on Day 1
+Providing our employees access to frontier AI capabilities is a top priority at Databricks, and consequently...
+
+**출처:** Source · institutions
+
+## Connected nodes
+
+[[Source--institutions]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

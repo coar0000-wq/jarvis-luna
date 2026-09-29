@@ -2,7 +2,7 @@
 title: "Record 2387de5ce2 · Entrepreneurs-Roundtable-Multicultural-Innovation-L"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T23:18:53.034325+00:00
+updated_at: 2026-09-29T00:25:32.764216+00:00
 tags: [record, real-data]
 ---
 

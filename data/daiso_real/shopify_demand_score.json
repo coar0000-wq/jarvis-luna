@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T19:21:50.956394+00:00",
+  "generated_at": "2026-09-29T00:22:00.850802+00:00",
   "total_products": 346,
   "grade_summary": {
     "S": 10,
@@ -4474,13 +4474,13 @@
         },
         {
           "channel": "sokoglam_us",
-          "global_product": "Low-pH Good Morning Gel Cleanser",
-          "similarity": 0.28,
-          "demand_weight": 0.475,
+          "global_product": "Green Tea Real Fresh Foam Cleanser",
+          "similarity": 0.267,
+          "demand_weight": 0.522,
           "matched_tokens": [
             "cleanser"
           ],
-          "match_score": 0.133
+          "match_score": 0.139
         }
       ],
       "recommend_reason": "글로벌 'Toleriane Hydrating Gentle Face Cleanser for Dry Skin' (ulta_beauty) 유사 26% · 토큰 cleanser · S제외:weak_solo_token",
@@ -4549,13 +4549,13 @@
         },
         {
           "channel": "sokoglam_us",
-          "global_product": "Low-pH Good Morning Gel Cleanser",
-          "similarity": 0.28,
-          "demand_weight": 0.475,
+          "global_product": "Green Tea Real Fresh Foam Cleanser",
+          "similarity": 0.267,
+          "demand_weight": 0.522,
           "matched_tokens": [
             "cleanser"
           ],
-          "match_score": 0.133
+          "match_score": 0.139
         }
       ],
       "recommend_reason": "미국 판매 제약: 여드름 치료 - 미국에서 OTC 의약품",
@@ -5093,13 +5093,13 @@
         },
         {
           "channel": "sokoglam_us",
-          "global_product": "Low-pH Good Morning Gel Cleanser",
-          "similarity": 0.28,
-          "demand_weight": 0.475,
+          "global_product": "Green Tea Real Fresh Foam Cleanser",
+          "similarity": 0.267,
+          "demand_weight": 0.522,
           "matched_tokens": [
             "cleanser"
           ],
-          "match_score": 0.133
+          "match_score": 0.139
         }
       ],
       "recommend_reason": "글로벌 'Toleriane Hydrating Gentle Face Cleanser for Dry Skin' (ulta_beauty) 유사 26% · 토큰 cleanser · S제외:weak_solo_token",
@@ -5168,13 +5168,13 @@
         },
         {
           "channel": "sokoglam_us",
-          "global_product": "Low-pH Good Morning Gel Cleanser",
-          "similarity": 0.28,
-          "demand_weight": 0.475,
+          "global_product": "Green Tea Real Fresh Foam Cleanser",
+          "similarity": 0.267,
+          "demand_weight": 0.522,
           "matched_tokens": [
             "cleanser"
           ],
-          "match_score": 0.133
+          "match_score": 0.139
         }
       ],
       "recommend_reason": "글로벌 'Toleriane Hydrating Gentle Face Cleanser for Dry Skin' (ulta_beauty) 유사 26% · 토큰 cleanser · S제외:weak_solo_token",
@@ -5960,13 +5960,13 @@
         },
         {
           "channel": "sokoglam_us",
-          "global_product": "Low-pH Good Morning Gel Cleanser",
-          "similarity": 0.28,
-          "demand_weight": 0.475,
+          "global_product": "Green Tea Real Fresh Foam Cleanser",
+          "similarity": 0.267,
+          "demand_weight": 0.522,
           "matched_tokens": [
             "cleanser"
           ],
-          "match_score": 0.133
+          "match_score": 0.139
         }
       ],
       "recommend_reason": "글로벌 'Toleriane Hydrating Gentle Face Cleanser for Dry Skin' (ulta_beauty) 유사 26% · 토큰 cleanser · S제외:weak_solo_token",
@@ -6715,13 +6715,13 @@
         },
         {
           "channel": "sokoglam_us",
-          "global_product": "Low-pH Good Morning Gel Cleanser",
-          "similarity": 0.28,
-          "demand_weight": 0.475,
+          "global_product": "Green Tea Real Fresh Foam Cleanser",
+          "similarity": 0.267,
+          "demand_weight": 0.522,
           "matched_tokens": [
             "cleanser"
           ],
-          "match_score": 0.133
+          "match_score": 0.139
         }
       ],
       "recommend_reason": "글로벌 'Toleriane Hydrating Gentle Face Cleanser for Dry Skin' (ulta_beauty) 유사 26% · 토큰 cleanser · S제외:score_below_82",
@@ -8022,14 +8022,14 @@
           "match_score": 0.317
         },
         {
-          "channel": "amazon_new_beauty",
-          "global_product": "Old Spice Body Wash for Men, Fallidudes Edition, 24/7 Frightful Freshness, Long Lasting Cleanse & Refresh, Apple Crumbro with Apple Cider Scent, 16 oz",
-          "similarity": 0.629,
-          "demand_weight": 0.487,
+          "channel": "sokoglam_us",
+          "global_product": "The Smoother Glycolic Acid Exfoliating Body Wash",
+          "similarity": 0.667,
+          "demand_weight": 0.475,
           "matched_tokens": [
             "bodywash"
           ],
-          "match_score": 0.306
+          "match_score": 0.317
         }
       ],
       "recommend_reason": "글로벌 'The Glow Getter Multi-Oil Body Wash' (sokoglam_us) 유사 68% · 토큰 bodywash · S제외:score_below_82",
@@ -8829,14 +8829,14 @@
           "match_score": 0.317
         },
         {
-          "channel": "amazon_new_beauty",
-          "global_product": "Old Spice Body Wash for Men, Fallidudes Edition, 24/7 Frightful Freshness, Long Lasting Cleanse & Refresh, Apple Crumbro with Apple Cider Scent, 16 oz",
-          "similarity": 0.629,
-          "demand_weight": 0.487,
+          "channel": "sokoglam_us",
+          "global_product": "The Smoother Glycolic Acid Exfoliating Body Wash",
+          "similarity": 0.667,
+          "demand_weight": 0.475,
           "matched_tokens": [
             "bodywash"
           ],
-          "match_score": 0.306
+          "match_score": 0.317
         }
       ],
       "recommend_reason": "글로벌 'The Glow Getter Multi-Oil Body Wash' (sokoglam_us) 유사 68% · 토큰 bodywash · S제외:score_below_82",
@@ -8904,14 +8904,14 @@
           "match_score": 0.317
         },
         {
-          "channel": "amazon_new_beauty",
-          "global_product": "Old Spice Body Wash for Men, Fallidudes Edition, 24/7 Frightful Freshness, Long Lasting Cleanse & Refresh, Apple Crumbro with Apple Cider Scent, 16 oz",
-          "similarity": 0.629,
-          "demand_weight": 0.487,
+          "channel": "sokoglam_us",
+          "global_product": "The Smoother Glycolic Acid Exfoliating Body Wash",
+          "similarity": 0.667,
+          "demand_weight": 0.475,
           "matched_tokens": [
             "bodywash"
           ],
-          "match_score": 0.306
+          "match_score": 0.317
         }
       ],
       "recommend_reason": "글로벌 'The Glow Getter Multi-Oil Body Wash' (sokoglam_us) 유사 68% · 토큰 bodywash · S제외:score_below_82",

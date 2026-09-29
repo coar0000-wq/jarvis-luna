@@ -2,7 +2,7 @@
 title: "Record deac3ae243 · The-Research-Workshop---Nvivo-on-IPMI-Institute"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T23:18:51.672807+00:00
+updated_at: 2026-09-29T00:25:31.434705+00:00
 tags: [record, real-data]
 ---
 

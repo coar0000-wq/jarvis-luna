@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T23:18:21.004440+00:00",
+  "updated": "2026-09-29T00:13:25.069695+00:00",
   "collector_failures": [],
   "sources": {
     "arxiv": {
@@ -414,7 +414,7 @@
       "status": "ok",
       "source": "Robotics (arXiv cs.RO/eess.SY + IEEE Spectrum + Robot Report)",
       "reason": "",
-      "collected_at": "2026-09-28T19:11:11.061771+00:00",
+      "collected_at": "2026-09-29T00:10:38.707909+00:00",
       "items": [
         {
           "title": "HBF-Sim: An Extensible HBF Simulator for Large-scale GPU Memory Systems",
@@ -599,50 +599,57 @@
           "primary_category": "제어·자율주행"
         },
         {
+          "title": "A Day in the Life of a Roboticist: Charlie Kemp",
+          "text": "<img src=\"https://spectrum.ieee.org/media-library/man-standing-beside-a-tall-wheeled-robot-smiling-and-waving-at-the-camera.jpg?id=67880303&width=1200&height=800&coordinates=0%2C83%2C0%2C84\"/><br/><br/><p>Building useful robots starts with understanding the people who use them. For Charlie Kemp, cofounder and chief technology officer of Hello Robot, that means developing assistive robots that can ",
+          "published": "Mon, 28 Sep 2026 21:48:56 +0000",
+          "url": "https://robotsguide.com/learn/a-day-in-the-life-of-a-roboticist-charlie-kemp",
+          "primary_category": null
+        },
+        {
           "title": "Video Friday: Life’s Better With a Little Robot Goose",
-          "text": "<img src=\"https://spectrum.ieee.org/media-library/mobile-assistive-robot-with-articulated-arm-beside-coffee-table-in-cozy-living-room.png?id=67853191&width=1245&height=700&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcomi",
+          "text": "<img src=\"https://spectrum.ieee.org/media-library/mobile-assistive-robot-with-articulated-arm-beside-coffee-table-in-cozy-living-room.png?id=67853191&width=1200&height=800&coordinates=150%2C0%2C150%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of up",
           "published": "Fri, 25 Sep 2026 16:00:04 +0000",
           "url": "https://spectrum.ieee.org/video-friday-goose-household-robots",
           "primary_category": null
         },
         {
           "title": "Mexican EPICS in IEEE Team Builds Portable Educational Platform",
-          "text": "<img src=\"https://spectrum.ieee.org/media-library/four-young-adult-students-laugh-together-while-one-of-them-holds-a-robot-shaped-like-a-hexagonal-cylinder.jpg?id=67845427&width=1245&height=700&coordinates=0%2C156%2C0%2C157\"/><br/><br/><p>In Guadalajara, Mexico, many high schools have motivated teachers and talented students with an interest in science, technology, engineering, and mathematics, bu",
+          "text": "<img src=\"https://spectrum.ieee.org/media-library/four-young-adult-students-laugh-together-while-one-of-them-holds-a-robot-shaped-like-a-hexagonal-cylinder.jpg?id=67845427&width=1200&height=800&coordinates=156%2C0%2C156%2C0\"/><br/><br/><p>In Guadalajara, Mexico, many high schools have motivated teachers and talented students with an interest in science, technology, engineering, and mathematics, bu",
           "published": "Thu, 24 Sep 2026 18:00:04 +0000",
           "url": "https://spectrum.ieee.org/epics-in-ieee-portable-educational",
           "primary_category": null
         },
         {
           "title": "Barbara Mazzolai Wants to Build a New Field of Robotics",
-          "text": "<img src=\"https://spectrum.ieee.org/media-library/photo-of-a-woman-standing-in-front-of-greenery-holding-a-device-shaped-like-a-small-octopus-arm.png?id=67787635&width=1245&height=700&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p>Throughout her career, roboticist <a href=\"https://www.iit.it/people-details/-/people/barbara-mazzolai\" rel=\"noopener noreferrer\" target=\"_blank\">Barbara Mazzolai</a> has turn",
+          "text": "<img src=\"https://spectrum.ieee.org/media-library/photo-of-a-woman-standing-in-front-of-greenery-holding-a-device-shaped-like-a-small-octopus-arm.png?id=67787635&width=1200&height=800&coordinates=156%2C0%2C156%2C0\"/><br/><br/><p>Throughout her career, roboticist <a href=\"https://www.iit.it/people-details/-/people/barbara-mazzolai\" rel=\"noopener noreferrer\" target=\"_blank\">Barbara Mazzolai</a> has ",
           "published": "Tue, 22 Sep 2026 14:00:04 +0000",
           "url": "https://spectrum.ieee.org/sustainability-robotics-barbara-mazzolai",
           "primary_category": null
         },
         {
           "title": "Video Friday: Two Birotors Make a Quadrotor",
-          "text": "<img src=\"https://spectrum.ieee.org/media-library/two-small-dual-propeller-robots-facing-each-other-connected-by-a-loose-green-cord.png?id=67790149&width=1245&height=700&coordinates=103%2C0%2C103%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upco",
+          "text": "<img src=\"https://spectrum.ieee.org/media-library/two-small-dual-propeller-robots-facing-each-other-connected-by-a-loose-green-cord.png?id=67790149&width=1200&height=800&coordinates=237%2C0%2C237%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upco",
           "published": "Fri, 18 Sep 2026 16:01:05 +0000",
           "url": "https://spectrum.ieee.org/video-friday-quadrotor-from-birotor",
           "primary_category": null
         },
         {
           "title": "Rethinking Robot Safety in the Age of AI",
-          "text": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robots-and-people-walking-through-a-modern-city-street-with-glass-buildings.jpg?id=67745861&width=1245&height=700&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><em>This article is brought to you by <a href=\"https://vicone.com?utm_source=ieee-spectrum&utm_medium=sponsored-content&utm_campaign=2026-09\" target=\"_blank\">VicOne</a>.</em></p><p>Robot",
+          "text": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robots-and-people-walking-through-a-modern-city-street-with-glass-buildings.jpg?id=67745861&width=1200&height=800&coordinates=156%2C0%2C156%2C0\"/><br/><br/><p><em>This article is brought to you by <a href=\"https://vicone.com?utm_source=ieee-spectrum&utm_medium=sponsored-content&utm_campaign=2026-09\" target=\"_blank\">VicOne</a>.</em></p><p>R",
           "published": "Wed, 16 Sep 2026 16:51:02 +0000",
           "url": "https://spectrum.ieee.org/physical-ai-robot-cybersecurity-vicone",
           "primary_category": null
         },
         {
           "title": "Digit 5 May Be the First Humanoid Robot Worker That’s Truly Safe",
-          "text": "<img src=\"https://spectrum.ieee.org/media-library/a-front-and-an-angled-view-of-a-teal-colored-humanoid-robot-with-arms-bent-at-the-elbow.jpg?id=67776740&width=1245&height=700&coordinates=0%2C187%2C0%2C188\"/><br/><br/><p><span>Despite the recent deluge of videos of humanoid robots doing backflips and kung fu, the actual pace of progress towards humanoids that can do economically viable jobs at sca",
+          "text": "<img src=\"https://spectrum.ieee.org/media-library/a-front-and-an-angled-view-of-a-teal-colored-humanoid-robot-with-arms-bent-at-the-elbow.jpg?id=67776740&width=1200&height=800&coordinates=0%2C83%2C0%2C84\"/><br/><br/><p><span>Despite the recent deluge of videos of humanoid robots doing backflips and kung fu, the actual pace of progress towards humanoids that can do economically viable jobs at scale",
           "published": "Tue, 15 Sep 2026 15:22:30 +0000",
           "url": "https://spectrum.ieee.org/humanoid-robot-safety",
           "primary_category": null
         },
         {
           "title": "Video Friday: Humanoid Robot Takes On Monkey Bars",
-          "text": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-moves-across-scaffolding-rigged-as-playground-monkey-bars-in-a-lab-while-trying-to-keep-its-balance.gif?id=67756707&width=1245&height=700&coordinates=0%2C105%2C0%2C106\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We al",
+          "text": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-moves-across-scaffolding-rigged-as-playground-monkey-bars-in-a-lab-while-trying-to-keep-its-balance.gif?id=67756707&width=1200&height=800&coordinates=0%2C67%2C0%2C68\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also",
           "published": "Fri, 11 Sep 2026 15:30:04 +0000",
           "url": "https://spectrum.ieee.org/video-friday-disaster-response-robots",
           "primary_category": null
@@ -656,121 +663,114 @@
         },
         {
           "title": "This Robot Will Draw Your Blood Now",
-          "text": "<img src=\"https://spectrum.ieee.org/media-library/an-older-silver-haired-woman-seated-at-automated-medical-device-with-a-robotic-arm-drawing-blood.jpg?id=67726417&width=1245&height=700&coordinates=0%2C187%2C0%2C188\"/><br/><br/><p>You sit down and put your arm in the cradle. You press a button. The machine takes it from there.</p><p>A <a href=\"https://spectrum.ieee.org/tag/near-infrared-light\" targ",
+          "text": "<img src=\"https://spectrum.ieee.org/media-library/an-older-silver-haired-woman-seated-at-automated-medical-device-with-a-robotic-arm-drawing-blood.jpg?id=67726417&width=1200&height=800&coordinates=0%2C83%2C0%2C84\"/><br/><br/><p>You sit down and put your arm in the cradle. You press a button. The machine takes it from there.</p><p>A <a href=\"https://spectrum.ieee.org/tag/near-infrared-light\" target",
           "published": "Mon, 07 Sep 2026 13:00:01 +0000",
           "url": "https://spectrum.ieee.org/blood-draw-robot-vitestro-aletta",
           "primary_category": null
         },
         {
           "title": "Cyborg Roaches Can Stab You With Needles",
-          "text": "<img src=\"https://spectrum.ieee.org/media-library/large-brown-cockroach-fitted-with-an-electronic-device-and-wires-on-its-back.jpg?id=67724302&width=1245&height=700&coordinates=0%2C62%2C0%2C63\"/><br/><br/><p>Imagine you are trapped under rubble after an earthquake and you see an electronics-covered cockroach with a spring-loaded needle on its back scuttling toward you. Although the sight might be ",
+          "text": "<img src=\"https://spectrum.ieee.org/media-library/large-brown-cockroach-fitted-with-an-electronic-device-and-wires-on-its-back.jpg?id=67724302&width=1200&height=800&coordinates=62%2C0%2C63%2C0\"/><br/><br/><p>Imagine you are trapped under rubble after an earthquake and you see an electronics-covered cockroach with a spring-loaded needle on its back scuttling toward you. Although the sight might be ",
           "published": "Sat, 05 Sep 2026 13:00:04 +0000",
           "url": "https://spectrum.ieee.org/cyborg-rescue-roach",
           "primary_category": null
         },
         {
           "title": "Video Friday: Digit Redecorates",
-          "text": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-tidies-an-orange-couch-while-a-person-watches-in-a-modern-living-room.gif?id=67725697&width=1245&height=700&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcom",
+          "text": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-tidies-an-orange-couch-while-a-person-watches-in-a-modern-living-room.gif?id=67725697&width=1200&height=800&coordinates=62%2C0%2C63%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upc",
           "published": "Fri, 04 Sep 2026 16:00:05 +0000",
           "url": "https://spectrum.ieee.org/video-friday-agility-robotics-digit",
           "primary_category": null
         },
         {
           "title": "Protecting Dynamic Industrial Robot Cable Carriers",
-          "text": "<img src=\"https://spectrum.ieee.org/media-library/industrial-robotic-arm-with-cable-management-system-and-flexible-energy-chains.jpg?id=67633840&width=1245&height=700&coordinates=0%2C104%2C0%2C104\"/><br/><br/><p><em>This article is brought to you by <a href=\"https://tsubaki-kabelschlepp.com/\" target=\"_blank\">Tsubaki KabelSchlepp</a>.</em></p><p>In modern automated manufacturing, six-axis articulat",
+          "text": "<img src=\"https://spectrum.ieee.org/media-library/industrial-robotic-arm-with-cable-management-system-and-flexible-energy-chains.jpg?id=67633840&width=1200&height=800&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><em>This article is brought to you by <a href=\"https://tsubaki-kabelschlepp.com/\" target=\"_blank\">Tsubaki KabelSchlepp</a>.</em></p><p>In modern automated manufacturing, six-axis articulated r",
           "published": "Thu, 03 Sep 2026 12:18:21 +0000",
           "url": "https://spectrum.ieee.org/industrial-robot-cable-carrier-protection",
           "primary_category": null
         },
         {
           "title": "The Best Way to Explore Lunar Craters Is a Giant Robot Ball",
-          "text": "<img src=\"https://spectrum.ieee.org/media-library/a-gif-of-a-spherical-robot-rolling-over-a-bumpy-path.gif?id=67701776&width=1245&height=700&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p>On a good day, the rock quarry in central Texas is about 370,000 kilometers (230,000 miles) from the moon. But last February, when Rishi Jangale watched his 1.8-meter-wide, 150-kilogram inflatable robot roll effortless",
+          "text": "<img src=\"https://spectrum.ieee.org/media-library/a-gif-of-a-spherical-robot-rolling-over-a-bumpy-path.gif?id=67701776&width=1200&height=800&coordinates=62%2C0%2C63%2C0\"/><br/><br/><p>On a good day, the rock quarry in central Texas is about 370,000 kilometers (230,000 miles) from the moon. But last February, when Rishi Jangale watched his 1.8-meter-wide, 150-kilogram inflatable robot roll effortle",
           "published": "Thu, 03 Sep 2026 12:00:01 +0000",
           "url": "https://spectrum.ieee.org/moon-ball-robot",
           "primary_category": null
         },
         {
           "title": "Video Friday: Meet Microduck",
-          "text": "<img src=\"https://spectrum.ieee.org/media-library/colorful-desk-robots-posed-among-books-beside-an-open-laptop-in-an-office.png?id=67687638&width=1245&height=700&coordinates=101%2C0%2C101%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming rob",
+          "text": "<img src=\"https://spectrum.ieee.org/media-library/colorful-desk-robots-posed-among-books-beside-an-open-laptop-in-an-office.png?id=67687638&width=1200&height=800&coordinates=241%2C0%2C242%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming rob",
           "published": "Fri, 28 Aug 2026 16:00:03 +0000",
           "url": "https://spectrum.ieee.org/video-friday-microduck-robot",
           "primary_category": null
         },
         {
           "title": "AI Companion Robots Are Closing the Human Connection in Modern Homes",
-          "text": "<img src=\"https://spectrum.ieee.org/media-library/cute-home-robot-on-carpet-in-cozy-living-room-with-beige-sofa-and-warm-lighting.jpg?id=67154308&width=1245&height=700&coordinates=0%2C260%2C0%2C261\"/><br/><br/><p><em>This article is brought to you by <a href=\"https://ollobot.com/\" target=\"_blank\">Ollobot</a>.</em></p><p>From about 2017, individuals began to truly connect with the initial wave of c",
+          "text": "<img src=\"https://spectrum.ieee.org/media-library/cute-home-robot-on-carpet-in-cozy-living-room-with-beige-sofa-and-warm-lighting.jpg?id=67154308&width=1200&height=800&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><em>This article is brought to you by <a href=\"https://ollobot.com/\" target=\"_blank\">Ollobot</a>.</em></p><p>From about 2017, individuals began to truly connect with the initial wave of compa",
           "published": "Tue, 25 Aug 2026 10:00:03 +0000",
           "url": "https://spectrum.ieee.org/ollobot-ai-companion-robot",
           "primary_category": null
         },
         {
           "title": "Video Friday: Do We Need Superhuman Humanoid Robots?",
-          "text": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-leaps-over-200-centimeter-height-board-beside-person-in-warehouse.png?id=67655329&width=1245&height=700&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming ",
+          "text": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-leaps-over-200-centimeter-height-board-beside-person-in-warehouse.png?id=67655329&width=1200&height=800&coordinates=150%2C0%2C150%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcom",
           "published": "Fri, 21 Aug 2026 16:00:01 +0000",
           "url": "https://spectrum.ieee.org/video-friday-unitree-superhuman",
           "primary_category": null
         },
         {
           "title": "Drones With Claws Perch on Arctic Icebergs",
-          "text": "<img src=\"https://spectrum.ieee.org/media-library/a-drone-firmly-planted-on-the-steep-slope-of-an-iceberg-after-a-successful-landing.jpg?id=67573301&width=1245&height=700&coordinates=0%2C187%2C0%2C188\"/><br/><br/><p><em><em>This article is part of our exclusive </em></em><a href=\"https://spectrum.ieee.org/collections/journal-watch/\" target=\"_self\"><em><em>IEEE Journal Watch series</em></em></a><em",
+          "text": "<img src=\"https://spectrum.ieee.org/media-library/a-drone-firmly-planted-on-the-steep-slope-of-an-iceberg-after-a-successful-landing.jpg?id=67573301&width=1200&height=800&coordinates=0%2C83%2C0%2C84\"/><br/><br/><p><em><em>This article is part of our exclusive </em></em><a href=\"https://spectrum.ieee.org/collections/journal-watch/\" target=\"_self\"><em><em>IEEE Journal Watch series</em></em></a><em><",
           "published": "Tue, 18 Aug 2026 13:00:01 +0000",
           "url": "https://spectrum.ieee.org/arctic-iceberg-drones",
           "primary_category": null
         },
         {
           "title": "Is Shipyard Welding the Right First Job for Humanoid Robots?",
-          "text": "<img src=\"https://spectrum.ieee.org/media-library/two-men-supervise-a-humanoid-robot-as-it-completes-a-welding-task-in-an-industrial-warehouse.jpg?id=67626093&width=1245&height=700&coordinates=0%2C187%2C0%2C188\"/><br/><br/><p>Humanoids desperately need to stop making YouTube videos and get a job already, and <a href=\"https://persona.ai/\" rel=\"noopener noreferrer\" target=\"_blank\">Persona AI</a> is ",
+          "text": "<img src=\"https://spectrum.ieee.org/media-library/two-men-supervise-a-humanoid-robot-as-it-completes-a-welding-task-in-an-industrial-warehouse.jpg?id=67626093&width=1200&height=800&coordinates=0%2C83%2C0%2C84\"/><br/><br/><p>Humanoids desperately need to stop making YouTube videos and get a job already, and <a href=\"https://persona.ai/\" rel=\"noopener noreferrer\" target=\"_blank\">Persona AI</a> is on",
           "published": "Mon, 17 Aug 2026 15:33:42 +0000",
           "url": "https://spectrum.ieee.org/persona-ai-humanoid-robot-welding",
           "primary_category": null
         },
         {
           "title": "Video Friday: Lift Happens",
-          "text": "<img src=\"https://spectrum.ieee.org/media-library/drone-crash-on-grassland-engulfed-in-flames-with-thick-black-smoke-rising.png?id=67615846&width=1245&height=700&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming robotic",
+          "text": "<img src=\"https://spectrum.ieee.org/media-library/drone-crash-on-grassland-engulfed-in-flames-with-thick-black-smoke-rising.png?id=67615846&width=1200&height=800&coordinates=156%2C0%2C156%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming rob",
           "published": "Fri, 14 Aug 2026 17:00:01 +0000",
           "url": "https://spectrum.ieee.org/video-friday-darpa-heavy-lift-challenge",
           "primary_category": null
         },
         {
           "title": "Robot Recycler Salvages Parts From Broken Machines",
-          "text": "<img src=\"https://spectrum.ieee.org/media-library/two-large-industrial-robotic-arms-in-a-university-laboratory.jpg?id=67561939&width=1245&height=700&coordinates=0%2C156%2C0%2C157\"/><br/><br/><p>Objects constructed by robots are ubiquitous. If you’ve used a car, household appliance, or smartphone today, you’ve used an object constructed at least in part by robots. The more products that manufacture",
+          "text": "<img src=\"https://spectrum.ieee.org/media-library/two-large-industrial-robotic-arms-in-a-university-laboratory.jpg?id=67561939&width=1200&height=800&coordinates=156%2C0%2C156%2C0\"/><br/><br/><p>Objects constructed by robots are ubiquitous. If you’ve used a car, household appliance, or smartphone today, you’ve used an object constructed at least in part by robots. The more products that manufacture",
           "published": "Mon, 10 Aug 2026 18:01:25 +0000",
           "url": "https://spectrum.ieee.org/recycling-robot",
           "primary_category": null
         },
         {
           "title": "Video Friday: Drones Go Heavy in DARPA Lift Challenge",
-          "text": "<img src=\"https://spectrum.ieee.org/media-library/engineers-watch-a-slender-experimental-drone-fly-near-a-large-hangar.jpg?id=67585216&width=1245&height=700&coordinates=0%2C104%2C0%2C104\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming robotics",
+          "text": "<img src=\"https://spectrum.ieee.org/media-library/engineers-watch-a-slender-experimental-drone-fly-near-a-large-hangar.jpg?id=67585216&width=1200&height=800&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming robotics eve",
           "published": "Fri, 07 Aug 2026 16:00:01 +0000",
           "url": "https://spectrum.ieee.org/video-friday-heavy-lift-drone",
           "primary_category": null
         },
         {
           "title": "What Robotics Companies Think About the U.S. Foreign Robot Ban",
-          "text": "<img src=\"https://spectrum.ieee.org/media-library/photo-collage-of-humanoid-quadruped-and-unmanned-ground-vehicle-robots.jpg?id=67563239&width=1245&height=700&coordinates=0%2C469%2C0%2C469\"/><br/><br/><p>The U.S. Federal Communications Commission (FCC) “Covered List,” originally published in 2021, identifies communications equipment and services that it says pose a threat to national security. <sp",
+          "text": "<img src=\"https://spectrum.ieee.org/media-library/photo-collage-of-humanoid-quadruped-and-unmanned-ground-vehicle-robots.jpg?id=67563239&width=1200&height=800&coordinates=0%2C208%2C0%2C209\"/><br/><br/><p>The U.S. Federal Communications Commission (FCC) “Covered List,” originally published in 2021, identifies communications equipment and services that it says pose a threat to national security. <sp",
           "published": "Tue, 04 Aug 2026 11:00:01 +0000",
           "url": "https://spectrum.ieee.org/fcc-covered-list-mobile-robots",
           "primary_category": null
         },
         {
           "title": "Walden Robotics Partners With Toyota on Practical Humanoids",
-          "text": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-orange-and-white-robot-using-two-finger-gripper-hands-to-work-with-metal-tool-components.jpg?id=67568024&width=1245&height=700&coordinates=0%2C62%2C0%2C63\"/><br/><br/><p>For a while there, it seemed as though robotics as a whole was stuck in a <a href=\"https://spectrum.ieee.org/top-robotics-stories-2024\" target=\"_self\">mad rush</a> towards",
+          "text": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-orange-and-white-robot-using-two-finger-gripper-hands-to-work-with-metal-tool-components.jpg?id=67568024&width=1200&height=800&coordinates=62%2C0%2C63%2C0\"/><br/><br/><p>For a while there, it seemed as though robotics as a whole was stuck in a <a href=\"https://spectrum.ieee.org/top-robotics-stories-2024\" target=\"_self\">mad rush</a> towards",
           "published": "Mon, 03 Aug 2026 16:05:39 +0000",
           "url": "https://spectrum.ieee.org/humanoid-robots-walden-robotics-toyota",
           "primary_category": null
         },
         {
           "title": "Video Friday: Meet Google DeepMind’s Gemini Robotics 2",
-          "text": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-and-robotic-arm-labeled-gemini-robotics-er-2-in-a-workshop-setting.webp?id=67560022&width=1245&height=700&coordinates=0%2C0%2C0%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcomin",
+          "text": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-robot-and-robotic-arm-labeled-gemini-robotics-er-2-in-a-workshop-setting.webp?id=67560022&width=1200&height=800&coordinates=125%2C0%2C125%2C0\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upc",
           "published": "Fri, 31 Jul 2026 16:00:03 +0000",
           "url": "https://spectrum.ieee.org/video-robot-gemini2-ai-robot",
-          "primary_category": null
-        },
-        {
-          "title": "Robot Finger Feels in Color",
-          "text": "<img src=\"https://spectrum.ieee.org/media-library/close-up-of-a-sensor-for-a-robotic-fingertip-and-raised-relief-images-of-a-leaf-and-a-u-s-penny.jpg?id=67542077&width=1245&height=700&coordinates=0%2C187%2C0%2C188\"/><br/><br/><p><span>Imagine running your fingertip over the surface of a U.S. penny. You would feel the ridges of the raised letters and numbers, Abe Lincoln’s bearded side profile, and",
-          "published": "Tue, 28 Jul 2026 15:00:03 +0000",
-          "url": "https://spectrum.ieee.org/robot-finger",
           "primary_category": null
         },
         {
@@ -778,6 +778,13 @@
           "text": "<p>Gecko Robotics is using the new NVIDIA Open Agent Safety Platform to ensure the secure autonomous control of systems.</p> <p>The post <a href=\"https://www.therobotreport.com/gecko-robotics-works-with-nvidia-adds-ai-agent-security-and-control/\">Gecko Robotics works with NVIDIA to add AI agent security and control</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>",
           "published": "Mon, 28 Sep 2026 17:41:32 +0000",
           "url": "https://www.therobotreport.com/gecko-robotics-works-with-nvidia-adds-ai-agent-security-and-control/",
+          "primary_category": null
+        },
+        {
+          "title": "Robonomics on the threshold: Economic autonomy, smart cities, and crypto wallets for humanoids",
+          "text": "<p>Economics is both a robotics impetus and a constraint, as systems make deliveries on streets or do chores in households.</p> <p>The post <a href=\"https://www.therobotreport.com/robotics-threshold-economic-autonomy-crypto-wallets-humanoids/\">Robonomics on the threshold: Economic autonomy, smart cities, and crypto wallets for humanoids</a> appeared first on <a href=\"https://www.therobotreport.com",
+          "published": "Mon, 28 Sep 2026 13:56:56 +0000",
+          "url": "https://www.therobotreport.com/robotics-threshold-economic-autonomy-crypto-wallets-humanoids/",
           "primary_category": null
         },
         {
@@ -870,13 +877,6 @@
           "published": "Wed, 23 Sep 2026 12:30:48 +0000",
           "url": "https://www.therobotreport.com/helicon-brings-automation-high-volume-composites-manufacturing/",
           "primary_category": null
-        },
-        {
-          "title": "State of Humanoids keynote brings industry leaders to RoboBusiness",
-          "text": "<p>At RoboBusiness, industry leaders will discuss the state of humanoids as the robots transition from demos to real industrial deployments.</p> <p>The post <a href=\"https://www.therobotreport.com/state-of-humanoids-keynote-brings-industry-leaders-robobusiness/\">State of Humanoids keynote brings industry leaders to RoboBusiness</a> appeared first on <a href=\"https://www.therobotreport.com\">The Rob",
-          "published": "Wed, 23 Sep 2026 12:25:11 +0000",
-          "url": "https://www.therobotreport.com/state-of-humanoids-keynote-brings-industry-leaders-robobusiness/",
-          "primary_category": null
         }
       ]
     },
@@ -884,13 +884,33 @@
       "status": "ok",
       "source": "Institutions (RSS + sitemap + OpenAlex, 35개 기관)",
       "reason": "",
-      "collected_at": "2026-09-28T19:12:07.023891+00:00",
+      "collected_at": "2026-09-29T00:11:39.985158+00:00",
       "items": [
         {
           "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
           "text": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
           "published": "2026-09-28",
           "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+          "org": "OpenAI",
+          "category": "AI연구소",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
+          "title": "Are you a Codex Original?",
+          "text": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below.",
+          "published": "2026-09-28",
+          "url": "https://openai.com/form/codex-originals",
+          "org": "OpenAI",
+          "category": "AI연구소",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
+          "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+          "text": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
+          "published": "2026-09-28",
+          "url": "https://openai.com/index/basis-tax-workbook-with-astra",
           "org": "OpenAI",
           "category": "AI연구소",
           "kind": "발표물",
@@ -927,6 +947,16 @@
           "venue": ""
         },
         {
+          "title": "Sam Altman’s remarks at the United Nations Security Council",
+          "text": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+          "published": "2026-09-23",
+          "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+          "org": "OpenAI",
+          "category": "AI연구소",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
           "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
           "text": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
           "published": "2026-09-23",
@@ -951,16 +981,6 @@
           "text": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
           "published": "2026-09-23",
           "url": "https://openai.com/index/ringg",
-          "org": "OpenAI",
-          "category": "AI연구소",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "Sam Altman’s remarks at the United Nations Security Council",
-          "text": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-          "published": "2026-09-23",
-          "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
           "org": "OpenAI",
           "category": "AI연구소",
           "kind": "발표물",
@@ -1047,20 +1067,20 @@
           "venue": ""
         },
         {
-          "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-          "text": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+          "title": "Advisory Group on Mathematics and Artificial Intelligence",
+          "text": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
           "published": "2026-09-21",
-          "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+          "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
           "org": "OpenAI",
           "category": "AI연구소",
           "kind": "발표물",
           "venue": ""
         },
         {
-          "title": "Advisory Group on Mathematics and Artificial Intelligence",
-          "text": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+          "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+          "text": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
           "published": "2026-09-21",
-          "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+          "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
           "org": "OpenAI",
           "category": "AI연구소",
           "kind": "발표물",
@@ -1111,26 +1131,6 @@
           "text": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
           "published": "2026-09-17",
           "url": "https://openai.com/index/cooley-gopublic",
-          "org": "OpenAI",
-          "category": "AI연구소",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "Introducing Astra for Law",
-          "text": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
-          "published": "2026-09-17",
-          "url": "https://openai.com/index/astra-for-law",
-          "org": "OpenAI",
-          "category": "AI연구소",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "Helping older adults use AI in everyday life",
-          "text": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
-          "published": "2026-09-16",
-          "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
           "org": "OpenAI",
           "category": "AI연구소",
           "kind": "발표물",
@@ -1637,6 +1637,16 @@
           "venue": ""
         },
         {
+          "title": "One year in: How Microsoft Research Asia – Singapore is advancing research, partnership and talent for real-world impact",
+          "text": "Since launching a year ago, the Microsoft Research Asia — Singapore lab has established a strong foundation, deepened collaboration across government, academia, and industry, and explored how frontier AI research can create real-world value. The post One year in: How Microsoft Research Asia – Singapore is advancing research, partnership and talent for real-world impact appeared first on Microsoft ",
+          "published": "2026-09-28",
+          "url": "https://www.microsoft.com/en-us/research/blog/one-year-in-how-microsoft-research-asia-singapore-is-advancing-research-partnership-and-talent-for-real-world-impact/",
+          "org": "Microsoft Research",
+          "category": "AI연구소",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
           "title": "Offloaded inference for real-world physical AI robotics",
           "text": "Robots are getting smarter, but how can their hardware match that growth? New Microsoft Research findings show that moving AI inference beyond the robot can improve task success, boost efficiency, and support more advanced physical AI workloads. The post Offloaded inference for real-world physical AI robotics appeared first on Microsoft Research .",
           "published": "2026-09-23",
@@ -1727,12 +1737,12 @@
           "venue": ""
         },
         {
-          "title": "Verifying Rust cryptography in SymCrypt, from standards to code",
-          "text": "Cryptographic code supports vital protections in modern computing systems. Learn how a new method helps verify code as developers write it while preserving speed and adaptability as it gets implemented and evolves. The post Verifying Rust cryptography in SymCrypt, from standards to code appeared first on Microsoft Research .",
-          "published": "2026-07-13",
-          "url": "https://www.microsoft.com/en-us/research/blog/verifying-rust-cryptography-in-symcrypt-from-standards-to-code/",
-          "org": "Microsoft Research",
-          "category": "AI연구소",
+          "title": "AMD to Acquire World Labs to Advance the Future of AI Compute",
+          "text": "",
+          "published": "2026-09-28",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1299/amd-to-acquire-world-labs-to-advance-the-future-of-ai-compute",
+          "org": "AMD",
+          "category": "반도체",
           "kind": "발표물",
           "venue": ""
         },
@@ -1821,16 +1831,6 @@
           "text": "",
           "published": "2026-07-16",
           "url": "https://ir.amd.com/news-events/press-releases/detail/1290/amd-appoints-alan-smith-as-newest-corporate-fellow",
-          "org": "AMD",
-          "category": "반도체",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "AMD to Report Fiscal Second Quarter 2026 Financial Results",
-          "text": "",
-          "published": "2026-07-08",
-          "url": "https://ir.amd.com/news-events/press-releases/detail/1289/amd-to-report-fiscal-second-quarter-2026-financial-results",
           "org": "AMD",
           "category": "반도체",
           "kind": "발표물",
@@ -1932,6 +1932,26 @@
           "published": "2026-08-06",
           "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-enables-enterprises-strengthen-multi-layer-cyber",
           "org": "Broadcom",
+          "category": "반도체",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
+          "title": "Samsung To Invest USD 1 Billion in AI Infrastructure Company Helix",
+          "text": "Samsung Electronics, Samsung C&T, Samsung SDS, Samsung SDI, Samsung Life Insurance and Samsung Fire & Marine Insurance today announced they are investing a combined USD 1 billion in Helix Digital Infrastructure, an AI infrastructure company established by global investment firm KKR. Launched in June 2026, Helix is an AI-enabling infrastructure provider that is designed to […]",
+          "published": "2026-09-29",
+          "url": "https://news.samsung.com/global/samsung-to-invest-usd-1-billion-in-ai-infrastructure-company-helix",
+          "org": "Samsung Electronics",
+          "category": "반도체",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
+          "title": "[World Heart Day] Taking Care of Your Heart Every Day, Starting From Your Wrist",
+          "text": "No matter who you are or what you do, we all have one constant companion we rely on every single day: our heart. Unseen but always at work, it beats around 100,000 times a day, keeping pace with us through every moment. Yet for something so essential to our lives, taking care of our hearts […]",
+          "published": "2026-09-29",
+          "url": "https://news.samsung.com/global/world-heart-day-taking-care-of-your-heart-every-day-starting-from-your-wrist",
+          "org": "Samsung Electronics",
           "category": "반도체",
           "kind": "발표물",
           "venue": ""
@@ -2161,26 +2181,6 @@
           "text": "Unveiled at Galaxy Unpacked July 2026, Samsung Electronics’ Galaxy Z series introduces My FanCam — a new feature that lets users focus their edits on a person of their choice — as well as an enhanced Portrait Video that recreates the look of professional camera lenses. While the two features offer different camera experiences, both draw […]",
           "published": "2026-09-01",
           "url": "https://news.samsung.com/global/interview-the-people-behind-the-galaxy-z-series-camera-innovations-%e2%91%a0-how-my-fancam-keeps-favorite-people-in-focus",
-          "org": "Samsung Electronics",
-          "category": "반도체",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "Samsung Expands the Galaxy Book6 Lineup, Making Galaxy Book More Accessible",
-          "text": "Samsung Electronics today announced a new 14-inch Galaxy Book6, expanding the Galaxy Book6 lineup with a more accessible model designed for everyday computing. Starting at $799, Galaxy Book6 combines up to 25 hours of battery life, Intel® Core™ 3 and Core™ 5 performance, Galaxy AI-enabled features, and the design language of the Galaxy Book6 family. […]",
-          "published": "2026-09-01",
-          "url": "https://news.samsung.com/global/samsung-expands-the-galaxy-book6-lineup-making-galaxy-book-more-accessible",
-          "org": "Samsung Electronics",
-          "category": "반도체",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "Samsung Hosts #PlayGalaxy Cup World Final at Gamescom 2026",
-          "text": "Samsung Electronics today announced that it hosted the #PlayGalaxy Cup World Final from Aug. 27-28, and that the final was held at the company’s booth as part of its larger exhibition at Gamescom 2026, held at Koelnmesse in Cologne, Germany, from Aug. 26-30. The #PlayGalaxy Cup is a global mobile gaming tournament designed to showcase […]",
-          "published": "2026-08-31",
-          "url": "https://news.samsung.com/global/samsung-hosts-playgalaxy-cup-world-final-at-gamescom-2026",
           "org": "Samsung Electronics",
           "category": "반도체",
           "kind": "발표물",
@@ -2587,6 +2587,36 @@
           "venue": ""
         },
         {
+          "title": "How Databricks rolls out frontier models to 14,000 employees on Day 1",
+          "text": "Providing our employees access to frontier AI capabilities is a top priority at Databricks, and consequently...",
+          "published": "2026-09-28",
+          "url": "https://www.databricks.com/blog/how-databricks-rolls-out-frontier-models-14000-employees-day-1",
+          "org": "Databricks",
+          "category": "데이터분석",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
+          "title": "Lakebase Search: State-of-the-art full text and vector search for Postgres",
+          "text": "Traditional OLTP systems weren't built for the search demands of AI agents. They...",
+          "published": "2026-09-28",
+          "url": "https://www.databricks.com/blog/lakebase-search-state-art-full-text-and-vector-search-postgres",
+          "org": "Databricks",
+          "category": "데이터분석",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
+          "title": "Manufacturing data and AI: Connecting the product value chain",
+          "text": "A manufacturing defect rarely belongs to one system. A scrap spike may relate to...",
+          "published": "2026-09-28",
+          "url": "https://www.databricks.com/blog/manufacturing-data-and-ai-connecting-product-value-chain",
+          "org": "Databricks",
+          "category": "데이터분석",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
           "title": "How to roll out Genie One: A step-by-step enterprise playbook",
           "text": "A regional sales director wants to know why the Northeast pipeline looks soft this quarter...",
           "published": "2026-09-28",
@@ -2651,36 +2681,6 @@
           "text": "Healthcare AI has little margin for error. AI agents helping coordinate patient care...",
           "published": "2026-09-23",
           "url": "https://www.databricks.com/blog/how-concurrence-governs-clinical-ai-trillion-token-scale-unity-gateway",
-          "org": "Databricks",
-          "category": "데이터분석",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "Top 5 System Table Queries for Understanding Your Databricks Costs",
-          "text": "Databricks&nbsp;system tables provide a wealth of information into how you use Databricks and what it costs....",
-          "published": "2026-09-22",
-          "url": "https://www.databricks.com/blog/top-5-system-table-queries-understanding-your-databricks-costs",
-          "org": "Databricks",
-          "category": "데이터분석",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "Genie One MCP: Give any AI Agent the Right Business Context",
-          "text": "Business leaders often have access to plenty of data, but still can’t get a reliable...",
-          "published": "2026-09-22",
-          "url": "https://www.databricks.com/blog/genie-one-mcp-give-any-ai-agent-right-business-context",
-          "org": "Databricks",
-          "category": "데이터분석",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "The Genie One MCP is now Generally Available",
-          "text": "AI coworkers and coding agents are spreading fast across organizations, and each...",
-          "published": "2026-09-22",
-          "url": "https://www.databricks.com/blog/genie-one-mcp-now-generally-available",
           "org": "Databricks",
           "category": "데이터분석",
           "kind": "발표물",
@@ -3187,6 +3187,16 @@
           "venue": ""
         },
         {
+          "title": "Team Bots: AI coworkers that learn from your team",
+          "text": "Give a Grok Bot the files, apps, and expertise it needs, then share it so your whole team can work from the same context.",
+          "published": "2026-09-28",
+          "url": "https://x.ai/news/team-bots",
+          "org": "xAI",
+          "category": "AI연구소",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
           "title": "How SpaceXAI is using Grok Bot to scale customer support",
           "text": "We rebuilt the combined SpaceXAI and Cursor support operation around Grok Bot, expanding to a much broader product portfolio without adding headcount.",
           "published": "2026-09-22",
@@ -3277,8 +3287,8 @@
           "venue": ""
         },
         {
-          "title": "Grok 4.6 on Microsoft Foundry",
-          "text": "Grok 4.6 is now available via Microsoft Foundry.",
+          "title": "Grok 4 6 Microsoft Foundry",
+          "text": "",
           "published": "2026-08-26",
           "url": "https://x.ai/news/grok-4-6-microsoft-foundry",
           "org": "xAI",
@@ -3371,16 +3381,6 @@
           "text": "",
           "published": "2026-07-31",
           "url": "https://x.ai/news/grok-imagine-video-1-5-references",
-          "org": "xAI",
-          "category": "AI연구소",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "Grok Voice Think Fast 2",
-          "text": "",
-          "published": "2026-07-29",
-          "url": "https://x.ai/news/grok-voice-think-fast-2",
           "org": "xAI",
           "category": "AI연구소",
           "kind": "발표물",
@@ -3647,10 +3647,10 @@
           "venue": ""
         },
         {
-          "title": "Ryan Serhant On The Art Of Selling Luxury Real Estate",
+          "title": "Why The Bond Market May Be The Stock Markets Biggest Risk",
           "text": "",
           "published": "2026-09-25",
-          "url": "https://www.goldmansachs.com/insights/talks-at-gs/ryan-serhant-on-the-art-of-selling-luxury-real-estate",
+          "url": "https://www.goldmansachs.com/insights/the-markets/why-the-bond-market-may-be-the-stock-markets-biggest-risk",
           "org": "Goldman Sachs",
           "category": "투자은행",
           "kind": "발표물",
@@ -3667,10 +3667,10 @@
           "venue": ""
         },
         {
-          "title": "Why The Bond Market May Be The Stock Markets Biggest Risk",
+          "title": "Ryan Serhant On The Art Of Selling Luxury Real Estate",
           "text": "",
           "published": "2026-09-25",
-          "url": "https://www.goldmansachs.com/insights/the-markets/why-the-bond-market-may-be-the-stock-markets-biggest-risk",
+          "url": "https://www.goldmansachs.com/insights/talks-at-gs/ryan-serhant-on-the-art-of-selling-luxury-real-estate",
           "org": "Goldman Sachs",
           "category": "투자은행",
           "kind": "발표물",
@@ -3767,20 +3767,20 @@
           "venue": ""
         },
         {
-          "title": "Consumer Agents Signal New Phase For Ai Growth",
+          "title": "Rich Friedman On The Rise Of Private Markets And Ai Investing",
           "text": "",
           "published": "2026-09-18",
-          "url": "https://www.goldmansachs.com/insights/articles/consumer-agents-signal-new-phase-for-ai-growth",
+          "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/rich-friedman-on-the-rise-of-private-markets-and-ai-investing",
           "org": "Goldman Sachs",
           "category": "투자은행",
           "kind": "발표물",
           "venue": ""
         },
         {
-          "title": "Rich Friedman On The Rise Of Private Markets And Ai Investing",
+          "title": "Consumer Agents Signal New Phase For Ai Growth",
           "text": "",
           "published": "2026-09-18",
-          "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/rich-friedman-on-the-rise-of-private-markets-and-ai-investing",
+          "url": "https://www.goldmansachs.com/insights/articles/consumer-agents-signal-new-phase-for-ai-growth",
           "org": "Goldman Sachs",
           "category": "투자은행",
           "kind": "발표물",
@@ -3957,6 +3957,16 @@
           "venue": ""
         },
         {
+          "title": "Managing Volatility As A Market Condition",
+          "text": "",
+          "published": "2026-09-24",
+          "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/managing-volatility-as-a-market-condition",
+          "org": "JPMorgan Chase",
+          "category": "투자은행",
+          "kind": "발표물",
+          "venue": ""
+        },
+        {
           "title": "Technology Overtakes Liquidity Market Structure",
           "text": "",
           "published": "2026-09-24",
@@ -4011,16 +4021,6 @@
           "text": "",
           "published": "2026-09-24",
           "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/machine-learning-in-private-credit",
-          "org": "JPMorgan Chase",
-          "category": "투자은행",
-          "kind": "발표물",
-          "venue": ""
-        },
-        {
-          "title": "Managing Volatility As A Market Condition",
-          "text": "",
-          "published": "2026-09-24",
-          "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/managing-volatility-as-a-market-condition",
           "org": "JPMorgan Chase",
           "category": "투자은행",
           "kind": "발표물",
@@ -11678,7 +11678,7 @@
           "site": "tataharperskincare.com",
           "url": "https://www.tataharperskincare.com/",
           "text": "Regenerating Cleanser · Tata Harper · Cleanser · $88.0 · organic, cleanser",
-          "collected_at": "2026-09-28T23:18:19.146377+00:00",
+          "collected_at": "2026-09-29T00:13:23.352841+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11695,7 +11695,7 @@
           "site": "tataharperskincare.com",
           "url": "https://www.tataharperskincare.com/",
           "text": "Resurfacing Mask · Tata Harper · Mask · $105.0 · organic, exfoliating",
-          "collected_at": "2026-09-28T23:18:19.146377+00:00",
+          "collected_at": "2026-09-29T00:13:23.352841+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11712,7 +11712,7 @@
           "site": "farmacybeauty.com",
           "url": "https://www.farmacybeauty.com/",
           "text": "Green Clean Makeup Removing Cleansing Balm · Farmacy Beauty · Cleanser · $36.0 · clean, balm cleanser",
-          "collected_at": "2026-09-28T23:18:19.146377+00:00",
+          "collected_at": "2026-09-29T00:13:23.352841+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11729,7 +11729,7 @@
           "site": "farmacybeauty.com",
           "url": "https://www.farmacybeauty.com/",
           "text": "Honey Potion Renewing Antioxidant Hydration Mask · Farmacy Beauty · Mask · $60.0 · honey, hydrating",
-          "collected_at": "2026-09-28T23:18:19.146377+00:00",
+          "collected_at": "2026-09-29T00:13:23.352841+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11746,7 +11746,7 @@
           "site": "youthtothepeople.com",
           "url": "https://www.youthtothepeople.com/",
           "text": "Superfood Antioxidant Cleanser · Youth To The People · Cleanser · $39.0 · vegan, superfood",
-          "collected_at": "2026-09-28T23:18:19.146377+00:00",
+          "collected_at": "2026-09-29T00:13:23.352841+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11763,7 +11763,7 @@
           "site": "youthtothepeople.com",
           "url": "https://www.youthtothepeople.com/",
           "text": "Adaptogen Deep Moisture Cream · Youth To The People · Moisturizer · $58.0 · vegan, moisturizer",
-          "collected_at": "2026-09-28T23:18:19.146377+00:00",
+          "collected_at": "2026-09-29T00:13:23.352841+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11780,7 +11780,7 @@
           "site": "biossance.com",
           "url": "https://www.biossance.com/",
           "text": "Squalane + Vitamin C Dark Spot Serum · Biossance · Serum · $72.0 · squalane, vitamin c",
-          "collected_at": "2026-09-28T23:18:19.146377+00:00",
+          "collected_at": "2026-09-29T00:13:23.352841+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11797,7 +11797,7 @@
           "site": "biossance.com",
           "url": "https://www.biossance.com/",
           "text": "Squalane + Omega Repair Cream · Biossance · Moisturizer · $54.0 · squalane, barrier",
-          "collected_at": "2026-09-28T23:18:19.146377+00:00",
+          "collected_at": "2026-09-29T00:13:23.352841+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11814,7 +11814,7 @@
           "site": "herbivorebotanicals.com",
           "url": "https://www.herbivorebotanicals.com/",
           "text": "Blue Tansy Resurfacing Clarity Mask · Herbivore Botanicals · Mask · $48.0 · botanical, clarity",
-          "collected_at": "2026-09-28T23:18:19.146377+00:00",
+          "collected_at": "2026-09-29T00:13:23.352841+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11831,7 +11831,7 @@
           "site": "herbivorebotanicals.com",
           "url": "https://www.herbivorebotanicals.com/",
           "text": "Coco Rose Body Polish · Herbivore Botanicals · Body · $36.0 · body, exfoliating",
-          "collected_at": "2026-09-28T23:18:19.146377+00:00",
+          "collected_at": "2026-09-29T00:13:23.352841+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11848,7 +11848,7 @@
           "site": "truebotanicals.com",
           "url": "https://truebotanicals.com/",
           "text": "Pure Radiance Oil · True Botanicals · Oil · $110.0 · organic, face oil",
-          "collected_at": "2026-09-28T23:18:19.146377+00:00",
+          "collected_at": "2026-09-29T00:13:23.352841+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11865,7 +11865,7 @@
           "site": "truebotanicals.com",
           "url": "https://truebotanicals.com/",
           "text": "Chebula Active Serum · True Botanicals · Serum · $90.0 · organic, serum",
-          "collected_at": "2026-09-28T23:18:19.146377+00:00",
+          "collected_at": "2026-09-29T00:13:23.352841+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11882,7 +11882,7 @@
           "site": "juicebeauty.com",
           "url": "https://juicebeauty.com/",
           "text": "Stem Cellular Anti-Wrinkle Moisturizer · Juice Beauty · Moisturizer · $68.0 · organic, anti-aging",
-          "collected_at": "2026-09-28T23:18:19.146377+00:00",
+          "collected_at": "2026-09-29T00:13:23.352841+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11899,7 +11899,7 @@
           "site": "juicebeauty.com",
           "url": "https://juicebeauty.com/",
           "text": "Green Apple Brightening Peel · Juice Beauty · Treatment · $48.0 · organic, peel",
-          "collected_at": "2026-09-28T23:18:19.146377+00:00",
+          "collected_at": "2026-09-29T00:13:23.352841+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11916,7 +11916,7 @@
           "site": "weleda.com",
           "url": "https://www.weleda.com/",
           "text": "Skin Food Original Ultra-Rich Cream · Weleda · Moisturizer · $18.0 · organic, skin food",
-          "collected_at": "2026-09-28T23:18:19.146377+00:00",
+          "collected_at": "2026-09-29T00:13:23.352841+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11933,7 +11933,7 @@
           "site": "weleda.com",
           "url": "https://www.weleda.com/",
           "text": "Calendula Face Cream · Weleda · Moisturizer · $22.0 · calendula, sensitive",
-          "collected_at": "2026-09-28T23:18:19.146377+00:00",
+          "collected_at": "2026-09-29T00:13:23.352841+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11950,7 +11950,7 @@
           "site": "burtsbees.com",
           "url": "https://www.burtsbees.com/",
           "text": "Sensitive Facial Cleanser with Cotton Extract · Burt's Bees · Cleanser · $10.0 · natural, sensitive",
-          "collected_at": "2026-09-28T23:18:19.146377+00:00",
+          "collected_at": "2026-09-29T00:13:23.352841+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11967,7 +11967,7 @@
           "site": "burtsbees.com",
           "url": "https://www.burtsbees.com/",
           "text": "Hydrating Facial Mask with Honey · Burt's Bees · Mask · $14.0 · honey, hydrating",
-          "collected_at": "2026-09-28T23:18:19.146377+00:00",
+          "collected_at": "2026-09-29T00:13:23.352841+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -11984,7 +11984,7 @@
           "site": "acure.com",
           "url": "https://www.acure.com/",
           "text": "Brightening Facial Scrub · Acure · Exfoliator · $10.0 · clean, scrub",
-          "collected_at": "2026-09-28T23:18:19.146377+00:00",
+          "collected_at": "2026-09-29T00:13:23.352841+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -12001,7 +12001,7 @@
           "site": "acure.com",
           "url": "https://www.acure.com/",
           "text": "Radically Rejuvenating Whipped Night Cream · Acure · Moisturizer · $20.0 · night cream, clean",
-          "collected_at": "2026-09-28T23:18:19.146377+00:00",
+          "collected_at": "2026-09-29T00:13:23.352841+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -12018,7 +12018,7 @@
           "site": "madhippie.com",
           "url": "https://www.madhippie.com/",
           "text": "Vitamin C Serum · Mad Hippie · Serum · $34.0 · vitamin c, clean",
-          "collected_at": "2026-09-28T23:18:19.146377+00:00",
+          "collected_at": "2026-09-29T00:13:23.352841+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -12035,7 +12035,7 @@
           "site": "madhippie.com",
           "url": "https://www.madhippie.com/",
           "text": "Antioxidant Facial Oil · Mad Hippie · Oil · $25.0 · facial oil, antioxidant",
-          "collected_at": "2026-09-28T23:18:19.146377+00:00",
+          "collected_at": "2026-09-29T00:13:23.352841+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -12052,7 +12052,7 @@
           "site": "pacificabeauty.com",
           "url": "https://www.pacificabeauty.com/",
           "text": "Vegan Collagen Barrier Face Cream · Pacifica Beauty · Moisturizer · $22.0 · vegan, collagen",
-          "collected_at": "2026-09-28T23:18:19.146377+00:00",
+          "collected_at": "2026-09-29T00:13:23.352841+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -12069,7 +12069,7 @@
           "site": "pacificabeauty.com",
           "url": "https://www.pacificabeauty.com/",
           "text": "Glow Baby Vitamin C Booster Serum · Pacifica Beauty · Serum · $17.0 · vitamin c, vegan",
-          "collected_at": "2026-09-28T23:18:19.146377+00:00",
+          "collected_at": "2026-09-29T00:13:23.352841+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -12086,7 +12086,7 @@
           "site": "paiskincare.com",
           "url": "https://www.paiskincare.com/",
           "text": "Rosehip BioRegenerate Oil · Pai Skincare · Oil · $52.0 · organic, rosehip",
-          "collected_at": "2026-09-28T23:18:19.146377+00:00",
+          "collected_at": "2026-09-29T00:13:23.352841+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -12103,7 +12103,7 @@
           "site": "paiskincare.com",
           "url": "https://www.paiskincare.com/",
           "text": "Camellia & Geranium Gentle Cream Cleanser · Pai Skincare · Cleanser · $36.0 · organic, sensitive",
-          "collected_at": "2026-09-28T23:18:19.146377+00:00",
+          "collected_at": "2026-09-29T00:13:23.352841+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -12120,7 +12120,7 @@
           "site": "lovekinship.com",
           "url": "https://www.lovekinship.com/",
           "text": "Self Reflect Probiotic Moisturizing Sunscreen SPF 32 · Kinship · Sunscreen · $36.0 · spf, probiotic",
-          "collected_at": "2026-09-28T23:18:19.146377+00:00",
+          "collected_at": "2026-09-29T00:13:23.352841+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -12137,7 +12137,7 @@
           "site": "lovekinship.com",
           "url": "https://www.lovekinship.com/",
           "text": "Supermelts Cleanse Meltaway Cleansing Balm · Kinship · Cleanser · $28.0 · cleanse, balm",
-          "collected_at": "2026-09-28T23:18:19.146377+00:00",
+          "collected_at": "2026-09-29T00:13:23.352841+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -12155,7 +12155,7 @@
           "site": "iliabeauty.com",
           "url": "https://www.iliabeauty.com/",
           "text": "Super Serum Skin Tint SPF 40 · Ilia Beauty · Tint + SPF · $48.0 · clean, spf, tint",
-          "collected_at": "2026-09-28T23:18:19.146377+00:00",
+          "collected_at": "2026-09-29T00:13:23.352841+00:00",
           "source": "organic_skincare_catalog"
         },
         {
@@ -12172,7 +12172,7 @@
           "site": "iliabeauty.com",
           "url": "https://www.iliabeauty.com/",
           "text": "The Base Face Milk SPF 20 · Ilia Beauty · Moisturizer · $48.0 · clean, spf",
-          "collected_at": "2026-09-28T23:18:19.146377+00:00",
+          "collected_at": "2026-09-29T00:13:23.352841+00:00",
           "source": "organic_skincare_catalog"
         }
       ],
@@ -12184,7 +12184,7 @@
       "items": [
         {
           "query": "K-Beauty skincare",
-          "title": "I Went to Seoul to Find the Korean Skin-Care Products People Actually Buy - vogue.com",
+          "title": "I Went to Seoul to Find the Korean Skin-Care Products People Actually Buy - Vogue",
           "published": "Fri, 25 Sep 2026 22:18:35 GMT",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1JSEZleGFOZTlfbmlCTTRTbWZOZXJMWS1ZVkhnZy16cHdVNDM1Qnl4X0RGR19LcGNSQjNyLVpWQXZ0RTU0TWU2T2xfOW1VeDU0UGNsN0RkRXRNMWxqNVh1VnpKMmszdw?oc=5"
         },
@@ -12244,19 +12244,19 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "Consider Me Your K-Beauty Insider—These Are 13 Skin Care Products I Saw Locals Buying on My Last Trip to Korea - instyle.com",
-          "published": "Wed, 23 Sep 2026 22:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9Pekw3MkFSb1U1SFhzaV9sTjJUWVpKakdydlNhTFlrMVpoazNJX3VEV3ZfMlBUdS1UV3hKaDEtVXhZdV9YeEhVWmVkY3BReWNXTXJtSzNfWXhkYmdZVHF2Wk5Gc082ZWtPakdmc2NHUmxvR1U?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
           "title": "K-Beauty Is Taking Over Our Best of Beauty Awards, and for Good Reason - Allure",
           "published": "Thu, 24 Sep 2026 18:22:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9OMWRrWlZETWZ3NUNIUFhIZU1GcVl1OFJmMEkzemlwMVRfVWs4NTFpLUd0VFNxR0xFN09IajZxUDQzakRZcHp5cVVGTUplNzA2VW1QWXBWbkdSX0RRLUtHOTROZGtSdGpZV3hOQkRVaVpJZnFtZ2NNcHd5cw?oc=5"
         },
         {
           "query": "K-Beauty skincare",
-          "title": "K-Beauty Isn’t Just For Gen Z. These Korean Skin Care Picks Are Made For Mature Skin - huffpost.com",
+          "title": "Consider Me Your K-Beauty Insider—These Are 13 Skin Care Products I Saw Locals Buying on My Last Trip to Korea - instyle.com",
+          "published": "Wed, 23 Sep 2026 22:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9Pekw3MkFSb1U1SFhzaV9sTjJUWVpKakdydlNhTFlrMVpoazNJX3VEV3ZfMlBUdS1UV3hKaDEtVXhZdV9YeEhVWmVkY3BReWNXTXJtSzNfWXhkYmdZVHF2Wk5Gc082ZWtPakdmc2NHUmxvR1U?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
+          "title": "K-Beauty Isn’t Just For Gen Z. These Korean Skin Care Picks Are Made For Mature Skin - HuffPost",
           "published": "Tue, 08 Sep 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRURKYS1ZekRkbWVwN2g1TTFWd3VkUmtReXFsVFFlbEFlR0cxTXFXd2k5Zkw5WGM0TmRWc0tSS21fWjROdHZMYVI2S3pqOF90QnJNQ242blFzLTNFd0V1NlhQQ1h5UkFYZS1qQ21RQnN0bW5oenpibURlTi1XVmE2R255Mm5Ga0NEUEwyVEhhUzk1LVhKeEVXbm14NNIBoAFBVV95cUxOWVE3UVVwRWxaYWpnVDgxUHdiWUF1YzVsMkJZVFpJZGlOOEpCdXNxX1hjWGJfY0MtelJjZkREVzhMX2VZdkVDd1hJVWdYcHRHenU2Ylh5Z25kN2lGWm5WZTJTeWthWldFbndJTjNYODdlV0FqaFpnYXVFQ0hlU1NSSjhONXZtQmloUndlT3FrVW1tSEV4b3FPNHEycWI3VjZj?oc=5"
         },
@@ -12286,13 +12286,13 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - vogue.com",
+          "title": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - Vogue",
           "published": "Mon, 03 Aug 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5LUmI0VzFqenBxYXlPcjlQVE4xOEVsbE8wYW4xdG1jSHRWbFQzWFZEOVRpTmN0bndubWptdUJqc3BRb2ExWUJCZmtRSVhSWDliZDN5RGhjVGhLSW1ieU45TVhMZVpKSFVYZWc?oc=5"
         },
         {
           "query": "K-Beauty skincare",
-          "title": "Would You Go on a Glowcation? K-Beauty Is Betting So - vogue.com",
+          "title": "Would You Go on a Glowcation? K-Beauty Is Betting So - Vogue",
           "published": "Fri, 04 Sep 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ01YZ2lKV0VUQzJROHZVVnJZbWM1dkw1TFRGLXFMcUx0dWhaZDJheTIwdE9yaElIUFpmYlJVSXg2UnQ0aDhCOVd3MVZvakhvVWxDWi1wM2hfbGVKbjFaSHJLWjJHYU02M3lwdGRXQVNfSXJGdWVTN0h4V0tvaU9iLUIzbGFmZkFU?oc=5"
         },
@@ -12334,15 +12334,15 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "BOTARI is here: K-beauty skincare, for your hands - Retail Times",
-          "published": "Mon, 28 Sep 2026 17:13:04 GMT",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1EVVZoODlOODY5eGpSVklLbHg1RXpmbDV1STFKeXl5cEhxN1dlaGJJbUZrVkpaZ2FDY1NzTnJkdHJ5V2d2Y0hUbkstSkZ4anoyTXB5MF9WWlhNNXRxZnR1cS1YNmNBRG1EQmpIYkZlVDZiTFB3eDlLYWZfMG12VWM?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
           "title": "K-Beauty Outlet stocks top trending Korean brands and shares skincare know-how - 6abc Philadelphia",
           "published": "Tue, 02 Jun 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSTRhMG01MkxJOFhMVVljdFRnSzV0RmFZaTg2ZnVPbW5vT3NrTEhhTTRuMkxCVmVGY0V4UHpYZXhmelYxWlp6WG9DNV82Si1hN2xDQzlBNmo1dER0YW5xR3pCTkxQX1E5OWpmQnhGZmZ2MGFaeUxXcGZVY1JEYy0tZ0JYT1lIc3FHTVE5RWRGaEdRd3FRbUU4RWJmV29nTFQ1OWpkWmp3VdIBrAFBVV95cUxOeHY1dy1DbElpQXliQUFZYnJTdE5KNVJPZVZ0enlkS0tqRWJQdEFxdS1nMlZxRHoxNXpqb1psZmlnREVGM3BwTHBTcVJSd29mVWhDdnIyem5sNWtKM3QzcDlMeW9sSEhNLUx4Nlo5VHpaSlhhYWlCLWFXTTRnVXpMUFF0NjFOb3BSZFYxUkZlb1BEMDJOTDhQNm1hR0hQQ2o2cE9HZWY2c0tINFMx?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
+          "title": "BOTARI is here: K-beauty skincare, for your hands - Retail Times",
+          "published": "Mon, 28 Sep 2026 17:13:04 GMT",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1EVVZoODlOODY5eGpSVklLbHg1RXpmbDV1STFKeXl5cEhxN1dlaGJJbUZrVkpaZ2FDY1NzTnJkdHJ5V2d2Y0hUbkstSkZ4anoyTXB5MF9WWlhNNXRxZnR1cS1YNmNBRG1EQmpIYkZlVDZiTFB3eDlLYWZfMG12VWM?oc=5"
         },
         {
           "query": "K-Beauty skincare",
@@ -12352,7 +12352,7 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "Human Skin Is the Newest Ingredient in the K-Beauty Boom - Bloomberg.com",
+          "title": "Human Skin Is the Newest Ingredient in the K-Beauty Boom - bloomberg.com",
           "published": "Fri, 17 Jul 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYkxGbEZDNEpITy1jaE1GcWU3R3U3UUZTMTNYVGRVU2JQeWkwTGdTSVdqNkhYbVpLTXptU1VCRlBDbWVPbEZDRDl0ZlhoNktoYi1OTWNhMG9Va2hwMjRleERjMlBHZ3FPY2xSZnZLZFRvV1ZZV19KOGhTSG1xSmxpWkQxSDZpcHlzWWVOQ2dOLTBCVi1zX3JOOHRXN1ltVFpYTDVpZE1WdER5ckVwVXc?oc=5"
         },
@@ -12388,7 +12388,7 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "Breaking Down K-Beauty’s Slow-Aging Philosophy - vogue.com",
+          "title": "Breaking Down K-Beauty’s Slow-Aging Philosophy - Vogue",
           "published": "Tue, 05 May 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5hdHRjZWI3QWR4eGZIQVlTQ2laeWNjazRnWmtINGFRcDZ6bVFvczJtSkh2U3JZQllmbGhmeG9NcGVyOFJmWXBqamJXN2w3MXAwRVVuNmJoVEt1OG81V1ZCbmdsODVJTWpSd2c?oc=5"
         },
@@ -12412,7 +12412,7 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "SEPHORA Introduces OLIVE YOUNG-Curated K-Beauty to U.S. Consumers Beginning August 20 - newsroom.sephora.com",
+          "title": "SEPHORA Introduces OLIVE YOUNG-Curated K-Beauty to U.S. Consumers Beginning August 20 - Sephora Newsroom",
           "published": "Tue, 04 Aug 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONDFyVS02MVJRRk1xRk9ScV9pQlZXNjlKa0ljQzhpd1NBZVRQclFJb0x4Sm8wX2UtT3k5cjN2TXVjb2JLOEpOQmdfU2xLeEtCQV9tSHZYeGZndGUwaEY4WldPSXRnQmR1WW1NLUNjS2ppNV9YelNwOUE0eklVWDN5WEJ2V1FtSUxsM1k2UzAxdGMybkRzRkZYSUViSzFHZlNaRVJBelFQaTk1c2VhZ1VOb2Z0dEE?oc=5"
         },
@@ -12454,7 +12454,7 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "The Rise of K-Beauty and the Economic Implications for South Korea - keia.org",
+          "title": "The Rise of K-Beauty and the Economic Implications for South Korea - Korea Economic Institute of America -",
           "published": "Mon, 12 Jan 2026 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSjVaaEZTNjItYjRGamR5Y1dvOWc4TlFycGo1MDBnMjZHY25RYkRLcU04M2tXdUE4bU90aVZROHZjNnFFTG9NLWROVFcyamtKOW0yVnozS2FYaHFMWV9WS2FQRTQ1MlpVb180QThfTmw2MmV0T3RrM0RDMUg3Qkl1MHh0SmRaT1J3YXJsMU9lX1pGLVZUT3ZKMQ?oc=5"
         },
@@ -12469,12 +12469,6 @@
           "title": "The surprising truth behind Korea's most effective skincare products - BBC Science Focus Magazine",
           "published": "Sun, 07 Jun 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1QV3RKV0YtanBaLThoaDNzb2gyWTRUTy1xRTBvSHhLOElFT29DbHFpeklxZmNiQ0wwT1loQ0o1bW0xRHVCQ0V1dkx6akpQTEl0aEtUNVlkV1p2M1lEb0RETDBLQi1tTzJ2R0E?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
-          "title": "This K-beauty advent calendar is only £50 – and it's selling fast - London Evening Standard",
-          "published": "Mon, 28 Sep 2026 10:44:08 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTkJQRUpfMWhrRDNJaTY5QjdJc2h2MkdxbXM5aVJVNVA1aF9BQ0Q1Q2pYcGwzRUVLRWFXRGFaNzZOd01HY1VZNGxIYXZXTkVCTGJDZDJPZUlKOFJBNXotMVY1STRwU25OMi1rbXhPSkJQV0VvRXpLZTJZWG52cldNQklvU2ZSWjc4OUdfUkw5Nnl3YUZ1dmVlVTVvUzNBREFyaDhHdDNYeUxuZmtUM2pSbHRydDVGRWg1S1RXcEEyTWlsdGxjREVQZw?oc=5"
         },
         {
           "query": "K-Beauty skincare",
@@ -12499,6 +12493,12 @@
           "title": "K-Beauty Products Market Size, Share | CAGR of 9.6% - Market.us",
           "published": "Wed, 18 Feb 2026 09:27:43 GMT",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1xcmVLallyY0c1RnpaOGJjRGxEaU1hd1d0TDgtX3JhSUc0b3laUERIbWRtVjQwVUZlWmZrNTFmSFo3dDliYzF3dHRNeHowSHE1cjZxVEJkSmhnbjNZUDdV?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
+          "title": "This K-beauty advent calendar is only £50 – and it's selling fast - London Evening Standard",
+          "published": "Mon, 28 Sep 2026 10:44:08 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTkJQRUpfMWhrRDNJaTY5QjdJc2h2MkdxbXM5aVJVNVA1aF9BQ0Q1Q2pYcGwzRUVLRWFXRGFaNzZOd01HY1VZNGxIYXZXTkVCTGJDZDJPZUlKOFJBNXotMVY1STRwU25OMi1rbXhPSkJQV0VvRXpLZTJZWG52cldNQklvU2ZSWjc4OUdfUkw5Nnl3YUZ1dmVlVTVvUzNBREFyaDhHdDNYeUxuZmtUM2pSbHRydDVGRWg1S1RXcEEyTWlsdGxjREVQZw?oc=5"
         },
         {
           "query": "K-Beauty skincare",
@@ -12532,15 +12532,15 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "Kendall Jenner Reveals The £26 K-Beauty Gua Sha Cream She Uses To De-Puff, Sculpt And Define - ELLE",
-          "published": "Fri, 25 Sep 2026 14:36:36 GMT",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPb3praFYzWUhqT3VOV0RsSnFkWGZob1dRenZWOU5mQXI4bHJDOXRYTHMzNV9HcG1UNUZpeWcwYk1vMm9GUm9ucHBKVEdMQVVJVkkwdGxFRWpud0lSdWdzMUlpektJQ3duTDJFQ1piTWtpU19EN1R0YU1RRzlwb1dHZDRldjduNFU?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
           "title": "14 Impressive Korean Skincare Products to Shop During Amazon Prime Day - whowhatwear.com",
           "published": "Fri, 26 Jun 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTWNoSUdnbGpBeDNSVm5XdTM5YndVbWNjanI5czRIS2VQbm9DMUFoQVptczE3VWlfSEliOS1LdjYwNkVMa042bTU0UWQzYUNFZ081c2c5LVJXRkdZT2JzOVczWVRVTU8yNnBiOVAxdzJCS3F5d3BqRUp5MlllU2ZnN3JqZzBIMmlIR1lJallQWG9YU1hfOHhocw?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
+          "title": "Kendall Jenner Reveals The £26 K-Beauty Gua Sha Cream She Uses To De-Puff, Sculpt And Define - ELLE",
+          "published": "Fri, 25 Sep 2026 14:36:36 GMT",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPb3praFYzWUhqT3VOV0RsSnFkWGZob1dRenZWOU5mQXI4bHJDOXRYTHMzNV9HcG1UNUZpeWcwYk1vMm9GUm9ucHBKVEdMQVVJVkkwdGxFRWpud0lSdWdzMUlpektJQ3duTDJFQ1piTWtpU19EN1R0YU1RRzlwb1dHZDRldjduNFU?oc=5"
         },
         {
           "query": "K-Beauty skincare",
@@ -12646,7 +12646,7 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "For Soft, Hydrated Skin, I Turn to These Korean Moisturizers - vogue.com",
+          "title": "For Soft, Hydrated Skin, I Turn to These Korean Moisturizers - Vogue",
           "published": "Tue, 15 Sep 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE52YmtUSU1WbkkwMTdxTUNYZzM0VlpGcl9rMlJ6TnFQTDJMU0xISEVFdF9hbmdOZ1lwNWx3RTVqR1lNR2R1Sm1Mckw1eXJGTVBIdXN1Z2tKaDlkQ1VzNUE?oc=5"
         },
@@ -12694,15 +12694,15 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "What makes K-beauty Korean? The answer is getting complicated. - Korea JoongAng Daily",
-          "published": "Thu, 03 Sep 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTHduVDgyX3Fsb1owRDBvLVd4bDEzQjZlZk1UcGY5aE5oS1NGR0VrVV9scXFNNG9xdGZTcUZQX3A0NEM4LUxJdUt6TWhORGxJVnE5NnM5VVdYWUthOXZWX2xNV0VoUTFsM3lVUl9MR3o5cHF1eXBjSl9feEtwYWtNY1A4RGNRZUItREFtRU8xZ0hzVmVhZ3Bwdmx3X3B6eVNkY3BPb3dGaThJaENSVEJGVWxn?oc=5"
-        },
-        {
-          "query": "K-Beauty skincare",
           "title": "Sports-Integrated K-Beauty: REJURAN Brings Korean Skincare to LAFC Fan - Trend Hunter",
           "published": "Fri, 18 Sep 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTGZwYWxQWEpWWllDWHprVVpPVHhDTGg4djZETEFiNUo2Y3ltSHZ1N1Y0Tmx1YVk2NzVuWE1oTHQ3Y2NsLXhnUHBzbjRsS0ZlQ28zSU1LUlhDVFMyTEdDSktIajNoVjNvZ0t5YmZaZ002MVVzUVkzYTVPUFhZSzVhckNUV0V0cGYxc1FIZkNYZV9rQUJkdk91Ni04SzU3VXM?oc=5"
+        },
+        {
+          "query": "K-Beauty skincare",
+          "title": "What makes K-beauty Korean? The answer is getting complicated. - Korea JoongAng Daily",
+          "published": "Thu, 03 Sep 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTHduVDgyX3Fsb1owRDBvLVd4bDEzQjZlZk1UcGY5aE5oS1NGR0VrVV9scXFNNG9xdGZTcUZQX3A0NEM4LUxJdUt6TWhORGxJVnE5NnM5VVdYWUthOXZWX2xNV0VoUTFsM3lVUl9MR3o5cHF1eXBjSl9feEtwYWtNY1A4RGNRZUItREFtRU8xZ0hzVmVhZ3Bwdmx3X3B6eVNkY3BPb3dGaThJaENSVEJGVWxn?oc=5"
         },
         {
           "query": "K-Beauty skincare",
@@ -12730,19 +12730,19 @@
         },
         {
           "query": "K-Beauty skincare",
-          "title": "Seoul Travel Haul: All the Beauty Products I Brought Home - The Daily Beast",
+          "title": "Seoul Travel Haul: All the Beauty Products I Brought Home - thelooker.thedailybeast.com",
           "published": "Thu, 26 Mar 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUWNydzdmSGpWZFFKVVZzaWxnejhoalhXQ2ZpTWhpSmk4Z1A0U1RxdUhjWl9tRkxnMV9HaFFYUTFxWGZJdE5FUDJMbFhPT2ZxNkQxLWtTUHFKSC1vZUhSMHBxY3JmcjRTZW9EdjZrdDdONDRQSEFMX2RkMnpra2doZkNxZnJvdWM?oc=5"
         },
         {
           "query": "K-Beauty skincare",
-          "title": "A Look Back on the Biggest K-Beauty Trends of 2025 - vogue.com",
+          "title": "A Look Back on the Biggest K-Beauty Trends of 2025 - Vogue",
           "published": "Wed, 31 Dec 2025 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1xbHJNOUI3NHpqVkJiNVJiWFl1YWRPdnFQVjVjZzhVX3ZFQjRJZG8tNS1uMUZUNUZJM1IxMnJRazkxay16WlppOXJNUU5mT1RrOU1lU05seTFxa0c1V3NWcHNEVUY?oc=5"
         },
         {
           "query": "K-Beauty skincare",
-          "title": "7 K-Beauty Trends Shaping 2026 - vogue.com",
+          "title": "7 K-Beauty Trends Shaping 2026 - Vogue",
           "published": "Fri, 16 Jan 2026 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5aSW9GVV9hWUZyZWp2eVowQm1HT3BJcVVWUjRTWk9yYkJJZmNjQTdpeWhhYllUalZ5aEZMTVNzdnRpMDJubFV3RHpXclFrQUtxRXBGWjBkRmxVa0NsYllV?oc=5"
         },
@@ -12874,6 +12874,12 @@
         },
         {
           "query": "Shopify ecommerce AI",
+          "title": "AI Content Creation: 5 Best Tools in 2026 - Shopify",
+          "published": "Wed, 12 Aug 2026 07:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4yN2hFdG9hTnFrcHRTRG53NzBlbGJmR2hQZVJRZlRzV2UyWWJ3UVVjZzNBelBEOEdNd3BHc2Q4b1cyUXBZMWRWYUcwQjhYSGh4a0dxdzNPLWkzWTFmR0k5cQ?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
           "title": "Dangers of AI: Risks and How to Manage Them (2026) - Shopify",
           "published": "Wed, 22 Jul 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1FYWpFVnZ5OFN0Nk9CUWFwaXd4TXhFbV9jR1FaT1g1N1Qydl9BTzRCcFJYTFk5c3JjbXhoVlJmcnB0ajEwN0hkWDBiS3lpVWt5YTlfRkJlNkE?oc=5"
@@ -12907,12 +12913,6 @@
           "title": "AI and Efficiency: How Businesses Save Time (2026) - Shopify",
           "published": "Wed, 29 Apr 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9MLUZhQzRwMWM3VVhUNTg4RDRqaVdfMkVYQ20zNW5iNDRhVldkeXIzNmxHRHR5bGJUaVVmdGxlcU5TWGVrWHhxS1loUktYNWxqNElxNzlsZ0NiSGVpX2d0cHROenNvLXpG?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
-          "title": "AI Content Creation: 5 Best Tools in 2026 - Shopify",
-          "published": "Wed, 12 Aug 2026 07:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1TbnRtWFVKNlNQQmxDeFZwTTY1dGFzclRTR2tjRnJYLVhjbkNrOURSZ0xqZGZ0cVQwNVgzc3hWY01TWGhja3pTU08yclRaUVR5bmtJTXI0VjdjYl9WcnhQdw?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -13042,7 +13042,7 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Best eCommerce Development Service Companies in USA - ClickPost",
+          "title": "Best eCommerce Development Service Companies in USA - clickpost.ai",
           "published": "Mon, 07 Sep 2026 14:38:56 GMT",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5qczg3V3ZjSlJyTkZia1lyU1NFelJYTno4RHB3dm9jNkFYOE9JOUdpekU4YTV5NHE2WUt6elQwV014ajRDcU5jSHJFZEd3aGtmSi1vbDdNODJ1Y3JEQU9KZkpVbmFodlZxdkFrdi13?oc=5"
         },
@@ -13066,15 +13066,15 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Meta partners with Shopify to power Muse AI checkout - The Paypers",
-          "published": "Tue, 22 Sep 2026 07:51:12 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPY3l6OXdDOFc4TW1MZHQwYzVhWDRHTW5wOGpzRTBqZFN6ckxzWHFDSE1YM3RPc0dUR2RiX2w2eUN1ZUdUWHY0czg3WVFCRXVJcnZvNVFfVjFjUi1PY01ySmRRX19OVUVESVFKVTZwN05aRm92WWFfOGZ6UlJfZHV2bFdaeFNtYjhWNVYzTklaTXdXTFJEUlFMMHB3WVZvMkJTOUVB?oc=5"
-        },
-        {
-          "query": "Shopify ecommerce AI",
           "title": "Google AI Shopping Features: How to Maximize Your Visibility - Shopify",
           "published": "Thu, 02 Apr 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE10NzhpcmV5NHV6RmFwZ3Y2MmFvOS1raVlxQ2h5SDh1YUNPejBpcGFEWnFGM0NXa3pCWllJcEdpcnUtUmxrV0xrVjZuNkhpTFNwLTI2VkFhRHJvcG93eXhF?oc=5"
+        },
+        {
+          "query": "Shopify ecommerce AI",
+          "title": "Meta partners with Shopify to power Muse AI checkout - The Paypers",
+          "published": "Tue, 22 Sep 2026 07:51:12 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPY3l6OXdDOFc4TW1MZHQwYzVhWDRHTW5wOGpzRTBqZFN6ckxzWHFDSE1YM3RPc0dUR2RiX2w2eUN1ZUdUWHY0czg3WVFCRXVJcnZvNVFfVjFjUi1PY01ySmRRX19OVUVESVFKVTZwN05aRm92WWFfOGZ6UlJfZHV2bFdaeFNtYjhWNVYzTklaTXdXTFJEUlFMMHB3WVZvMkJTOUVB?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
@@ -13210,7 +13210,7 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "How AI Shopping Could Turn Fashion Advertising on its Head - vogue.com",
+          "title": "How AI Shopping Could Turn Fashion Advertising on its Head - Vogue",
           "published": "Wed, 14 Jan 2026 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNT0dRZmFUbXEwMHg5MHZ5QUZJc0d2WTlqN2RLeXc5WGp1VWJVTWE1WmZnTU5kZlQzYXZEQi1JdEphZUg3ajlxcENZWmxzM0pmcm00Z0Y1ZE1MRFlLUGNUalZOaExWeVRlTl96Qnlmb1NsLTVKRmlqbmF2TWZueThfaWJYcl9NSFE3Z3BpV25OS0R0UQ?oc=5"
         },
@@ -13240,7 +13240,7 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Shopify Stock Draws Wave Of AI-Focused Upgrades - stockstotrade.com",
+          "title": "Shopify Stock Draws Wave Of AI-Focused Upgrades - StocksToTrade",
           "published": "Mon, 27 Jul 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9XbnlzLTh1R2ZGa0w3WFpCVDlpRlRYMTA3MmxJRFdVbWtfTkVPZFhjcVI3MWdIQVdHZGp3MVhBOVdvR2QzcG1OYnJKZDFaWE52bHhrNk1ZMW9fSFB4ZmdyM01zamZGNkg1TUw2d3RaOFIydnAt?oc=5"
         },
@@ -13300,13 +13300,13 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Top Shopify & Shopify Plus Agencies in US to Watch in 2026 [Updated] - ClickPost",
+          "title": "Top Shopify & Shopify Plus Agencies in US to Watch in 2026 [Updated] - clickpost.ai",
           "published": "Wed, 05 Aug 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBDZUQ1SC01SnBwWU5jOGVwOXJWOGFuNVpsc0dXcDYzcktmc0dkaVZsXzNlX0lJb09JWUNvUjZHZ3VFbHVvYUROYWl0TmhJMlpFdHozN3BGX002SjUtQVYyYzhvWjhoLWNCR1Rva2kzcWs?oc=5"
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "In the AI era, is Shopify the new WordPress? - techradar.com",
+          "title": "In the AI era, is Shopify the new WordPress? - TechRadar",
           "published": "Thu, 04 Jun 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1YekdrNENob0dOTEd5UERjMTBXYWVEWDZQTWtzOGNXc0tyN0s0ejdDT3JQRUdhdExCel9pTUNKRmV5M1FaMlM5TWRrdHAydU1nenZOWVl0Rlo1VGxDM1ZJeGJzR09ncDZnQVRVZVBFTExGUXFaNXppVF9aN2E?oc=5"
         },
@@ -13342,7 +13342,7 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Wix Vs. Shopify: We Have A Winner for 2026 - learn.g2.com",
+          "title": "Wix Vs. Shopify: We Have A Winner for 2026 - G2 Learning Hub",
           "published": "Fri, 17 Apr 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBwZXJsRFgxN1ZKbmFpYjA0SDdXZFlocHgzcHdCREdId2xKY1FmZFpVOTJWa2Y4QlRCbUczZmw1bTNQZGZjcXZ0QUVLTdIBW0FVX3lxTE5RTTdCaHVOUVpoMEFDX2YxaXZHV1VKT1g0WW1RVEFLdmZkS3JoTGxKelVIcmUzaUNqbVZ3QmR2enAzTUprVTFZQjcxNGVBS1pXNm5vMEdSZ0R5QTA?oc=5"
         },
@@ -13366,7 +13366,7 @@
         },
         {
           "query": "Shopify ecommerce AI",
-          "title": "Native AI Search Is Only Half the Battle for E-Commerce Brands - ecommercetimes.com",
+          "title": "Native AI Search Is Only Half the Battle for E-Commerce Brands - E-Commerce Times",
           "published": "Tue, 28 Jul 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdkhsQzJITFpzblNJSHFCZktrckJKNGpWd2FKcnZGUU5ya3Jtdl9EX01FT3F2anRrcmlHMGFyMm5XbVdaUVYxbllBXzF2U0p4SjhJTXdVNkJOODBLSGlEZGlGSWFyRWJ0ZTZPRVpWSy1PdEhSaF9fWGJrMk83VWh2b3ZoTFZXX2lRb3N2VHdaZW9YV1E5LXhXTklSb3ZuTVJaS055aVcwUDJFWWJCelZjQg?oc=5"
         },
@@ -13384,7 +13384,7 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "The Vogue Business Beauty Trend Tracker - vogue.com",
+          "title": "The Vogue Business Beauty Trend Tracker - Vogue",
           "published": "Fri, 25 Sep 2026 09:30:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96eFRtR1g5NG15VmJxdk9GX3B1V1FJdWRDdkJPb1pHMWk3d2pwMV81WFBURlJxaHRadVZTWUFKR1VSc21KX1lyVTUxa2NSa05nRmxUU1FRb1hFVWNvc2hDZ25YYUQ0Y09jMzNhLTZuWGk?oc=5"
         },
@@ -13420,7 +13420,7 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "Trying Out A TikTok Beauty Trend - wwltv.com",
+          "title": "Trying Out A TikTok Beauty Trend - WWLTV.com",
           "published": "Thu, 23 Jul 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNcnhLOTZqc2NtdFgwdURqajQyUzN4YzQ3V3d2YXlsVGg2SUk0U21xYzhCWk9wNnVtRi1oY2JpQkl2dXQyR1NLT1o1VjIza1l5VEdXZ3NLejJOdUR6eXV3d1F1bnA2emVBR0s2Mk5wa1NEaUp2cjRpTEdveVEzWVJrUkR1R0gxMEg0b0Q5bmR4aFFFdkVpVlNMMUJGcTFBYkNhUGxkRW15YzVyalZaZVV5M1hBRkFySVcwdXlhbU1MbFZ1TExydU9zaDBQQmdXblQ4dDgxNFdnZVVtWHNkRlJ6eHoxRzJvQ2NZMTZj?oc=5"
         },
@@ -13444,7 +13444,7 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "Year in Review: The Best Viral Beauty Products of 2025, According to a Chronically Online Editor - Cosmopolitan",
+          "title": "Year in Review: The Best Viral Beauty Products of 2025, According to a Chronically Online Editor - cosmopolitan.com",
           "published": "Fri, 19 Dec 2025 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTG0tdDBsQ2JFZTFFWEpsdlpzZzY4U0JuNGFYN0pHN2dlUWhIbjF5cjNFeWNJc2pweE8yWWpwTVFOZWJVYXpHcUZMX1BoazVUdDlJdS1iQ25sWV85NHVpVHRyZW9zTFdXMXRHTERPQW5UWDg3VU1DSnEwSkRVUmhVeWpUX09YWHNPZTBlT1dsNXUwd0hMdWc?oc=5"
         },
@@ -13552,7 +13552,7 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "7 K-Beauty Trends Shaping 2026 - vogue.com",
+          "title": "7 K-Beauty Trends Shaping 2026 - Vogue",
           "published": "Fri, 16 Jan 2026 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5aSW9GVV9hWUZyZWp2eVowQm1HT3BJcVVWUjRTWk9yYkJJZmNjQTdpeWhhYllUalZ5aEZMTVNzdnRpMDJubFV3RHpXclFrQUtxRXBGWjBkRmxVa0NsYllV?oc=5"
         },
@@ -13594,7 +13594,7 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "The 4 Essential K-Beauty Makeup Trends in 2026, According to Experts - vogue.com",
+          "title": "The 4 Essential K-Beauty Makeup Trends in 2026, According to Experts - Vogue",
           "published": "Fri, 30 Jan 2026 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5pTUNPb1lXUmJXalJNeE5FNFNWYjB5WmFIUjFNUERJLVVkSzZNN0VZWmYtbWw1SDJqSWRtVU82bVJyd0FuMHFqUmJ0Y3lqeV9lVFlRcGJJZklEUlA0TzhoelBR?oc=5"
         },
@@ -13618,13 +13618,13 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "Sorry \"Clean Girl,\" Messy Hair & Makeup Is Back - The Zoe Report",
+          "title": "Sorry \"Clean Girl,\" Messy Hair & Makeup Is Back - thezoereport.com",
           "published": "Wed, 18 Mar 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBnb211dGNSVE4tVHpGVXpUYVNNdDZCcGdtYi0tb2l2TnVGLWRVZklSOGl5b0U3bnJQRzRNV3FLTEQ0VktXejBDWTJBRWtaTkp6SXBDc2VZMW1mU2cxWjhYcHhWV0t5Zm1EME9z?oc=5"
         },
         {
           "query": "TikTok beauty trend",
-          "title": "\"Glowcations\" Are Trending on TikTok — I Put it to the Test at Coachella - Popsugar",
+          "title": "\"Glowcations\" Are Trending on TikTok — I Put it to the Test at Coachella - popsugar.com",
           "published": "Fri, 17 Apr 2026 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBINEcxQ2VXdjRLVWliaFVHeTFTZmQ3d2EtZW83MzA0aHlIN1JHaGdSd3RXSTVvNE5USkpPRXU3WnBQZkY0WUZfZzdrRngxVUJmWHZIYVBEVW9ybS1JcWExRmREZl9tYWtaZnNNX00weS12MEtzaDJzblpZQ04xaUE?oc=5"
         },
@@ -13720,7 +13720,7 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "Tomato, strawberry, glazed donut : why is every beauty trend named after a food? - Culted",
+          "title": "Tomato, strawberry, glazed donut : why is every beauty trend named after a food? - culted.com",
           "published": "Fri, 14 Nov 2025 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRDA4Z1VXRzVEOGUwck9aQWNQT1Q0TG1mLUVaTmxWblFwMTBfOGlXY0NONDVyelFpdzBMNUtXVTBfR0pvYW5NZFQzaG5SUWxFdEd5akcxVl8xUENQQkhLaWVmVjgtREVCc0paMFFYN0lSeEFkTGJhSGR3a21pbklkeDRlWGN3VVlmVjVPNWNqNzhOc2s?oc=5"
         },
@@ -13756,7 +13756,7 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "The Vogue Business TikTok Trend Tracker - vogue.com",
+          "title": "The Vogue Business TikTok Trend Tracker - Vogue",
           "published": "Tue, 04 Nov 2025 08:04:38 GMT",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9nc2ktNnQxVzlMTjl1MjR5MFYwSkMtVjI1Z0VhZlBLU0JqVlBjdHUyejJCVDV3OE9xYmF3ckhxR2VXLTk1Y3ZScXZfN0VPSU1ManFXYmFUWWxKTDN6cjFXTzk2OGxSVWxDOHIyeXZmRG9jUktfd2FIMg?oc=5"
         },
@@ -13834,7 +13834,7 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "The darker side of beauty trends - vogue.com",
+          "title": "The darker side of beauty trends - Vogue",
           "published": "Tue, 30 Jul 2024 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBuS3pkb3M4SXlrWl94YnBBNGJfc2NCTEpIRnRtR2JSZHNoTG04RzVNTzJXbFZUS3RVZ0Izb3ZJQXctV0xjN2FFbzFuUkI1YVJZOXZ0U1FfSXQxZzBPVXBrdkJyaENRcUZGa3V4dzAzQm50M09ydHhxaw?oc=5"
         },
@@ -13846,7 +13846,7 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "Paloma Elsesser Isn’t Falling for TikTok Beauty Trends - interviewmagazine.com",
+          "title": "Paloma Elsesser Isn’t Falling for TikTok Beauty Trends - Interview Magazine",
           "published": "Tue, 19 Aug 2025 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRzkxcDVSYjhOOHNtYnA5dXB1UXRQaklMQ0VuWnZZRXVHY1AyamR3UnJzMHRLTTBCcEZTNzh2V3dpMU90U1IxOTZlSWZWMDRJdHB3Rk1oYUFQM0U4UjExbEhLdk9kZVZ1cWNrb3B2VWtvc3pqdGF2dW5rckUxT0xJOVM0VjRVMlBRUVhQV3lJS21ySHl3OEFMRjlOMA?oc=5"
         },
@@ -13882,7 +13882,7 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "The Latest TikTok Beauty Trend? Looking Tired! - 104.5 WOKV",
+          "title": "The Latest TikTok Beauty Trend? Looking Tired! - wokv.com",
           "published": "Thu, 14 Aug 2025 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPM2lleGZaNVZxTGhhOFpJOUlmSVFBemF5S2pFUjIxQlNPcHZtU2dEOVFIbWtiNEJMR2FaZklHVk1PNjVjMlVvVkJVN0t6YWstUnJPbFphZzRyN3BEeGVQZ3RISjNzcDBKM0xJWUZVM29Cb2RSVXRpYlowSldMeXZybmRjUURRcXh2RlZPdTFBN2ZaUmUyYUtXeWRObnc2UHczUWkxUzR30gG6AUFVX3lxTFAyNHlRN1dDU2JZOEsyZm9PYTRWck40VzZqbWNmN2h4cjNqVFQ2NlZuUkJkUmt3UkVmTGZuMWZXRTZuUW5WQ0h6OTdxenJvZF9vdk84ZTJEdWlENEV0Z0VNakEtMDhGeURMejRDYWVOeW5PVENMUmFOQmhsVXRNNlp2NjhXa1c0UV82RXlVRS16bktyaHh4ZHlGaU1OaTVzd1JsNVRldnVBd1d4a2pyOUEyUnNwZDczNHZzUQ?oc=5"
         },
@@ -13966,13 +13966,13 @@
         },
         {
           "query": "TikTok beauty trend",
-          "title": "The 3 Beauty Trends That Dominated TikTok In 2024 - vogue.com",
+          "title": "The 3 Beauty Trends That Dominated TikTok In 2024 - Vogue",
           "published": "Thu, 02 Jan 2025 08:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPa0t1ODhYYkRWM3ZvcUswVDN3ZmhFTFZPQ0IxVEtzeFhOY3pROGdJcGt4blNRalhadmRXSy00bkZPdW9FSXhKQi1QYTMtSDhnaTZlb1NFQ3VfSjNKelVhbzRoUWRaR1VkVk93ZGNabkRIMjZKejNidWxYaVFuTEtqZFhyMnFYZw?oc=5"
         },
         {
           "query": "TikTok beauty trend",
-          "title": "From 'latte makeup' to 'girl dinners,' TikTok has launched tons of trends. Will its influence last? - AP News",
+          "title": "From 'latte makeup' to 'girl dinners,' TikTok has launched tons of trends. Will its influence last? - apnews.com",
           "published": "Wed, 03 Jul 2024 07:00:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNLTUzeVFyWWtLajZFMjRMRGpVSWdQR0g2bUdmS3IzeWUwVzNheUY5Rl9fcW9RWlRzV1hGV2dHLTBEbldTUEFlWFRlVDZJV0F0Xy01T1YwT3pEVW1XYzB0UGpReVFBd0lrNHJlSE5ib2VVZXVXVkpJZmxhdDFGSWpEQ0l1VHZMTEpvZU1hTTM1bDlNSzF4?oc=5"
         },

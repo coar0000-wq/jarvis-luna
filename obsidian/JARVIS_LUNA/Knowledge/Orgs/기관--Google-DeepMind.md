@@ -2,7 +2,7 @@
 title: "기관 · Google DeepMind"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T23:18:54.186422+00:00
+updated_at: 2026-09-29T00:25:33.922192+00:00
 tags: [org, real-data]
 ---
 

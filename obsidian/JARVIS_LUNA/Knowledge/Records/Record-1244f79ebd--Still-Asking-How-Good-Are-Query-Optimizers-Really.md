@@ -2,7 +2,7 @@
 title: "Record 1244f79ebd · Still-Asking-How-Good-Are-Query-Optimizers-Really"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T23:18:51.309220+00:00
+updated_at: 2026-09-29T00:25:31.044508+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record d727334ec7 · Claude-In-Microsoft-Foundry"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T23:18:52.904478+00:00
+updated_at: 2026-09-29T00:25:32.635156+00:00
 tags: [record, real-data]
 ---
 

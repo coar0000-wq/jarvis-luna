@@ -2,7 +2,7 @@
 title: "Record 5768de3561 · Uncertainty-Aware-Fraud-Detection-Using-Hybrid-Transformer-With-Gated-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T23:18:51.202789+00:00
+updated_at: 2026-09-29T00:25:30.938778+00:00
 tags: [record, real-data]
 ---
 

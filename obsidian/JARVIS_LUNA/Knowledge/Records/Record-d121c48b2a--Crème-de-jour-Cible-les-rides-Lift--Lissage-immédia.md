@@ -2,7 +2,7 @@
 title: "Record d121c48b2a · Crème-de-jour-Cible-les-rides-Lift--Lissage-immédiat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-28T23:18:52.618700+00:00
+updated_at: 2026-09-29T00:25:32.361446+00:00
 tags: [record, real-data]
 ---
 
