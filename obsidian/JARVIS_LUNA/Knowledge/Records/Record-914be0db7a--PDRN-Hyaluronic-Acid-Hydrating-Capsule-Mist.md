@@ -2,7 +2,7 @@
 title: "Record 914be0db7a · PDRN-Hyaluronic-Acid-Hydrating-Capsule-Mist"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:39.855383+00:00
+updated_at: 2026-09-29T12:56:27.863523+00:00
 tags: [record, real-data]
 ---
 

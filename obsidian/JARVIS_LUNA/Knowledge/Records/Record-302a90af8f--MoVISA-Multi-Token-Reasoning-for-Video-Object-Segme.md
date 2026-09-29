@@ -2,7 +2,7 @@
 title: "Record 302a90af8f · MoVISA-Multi-Token-Reasoning-for-Video-Object-Segmentation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:37.589203+00:00
+updated_at: 2026-09-29T12:56:25.496550+00:00
 tags: [record, real-data]
 ---
 

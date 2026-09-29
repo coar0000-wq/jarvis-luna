@@ -2,7 +2,7 @@
 title: "Record 98a0936e7f · Dove-Deep-Moisture-Body-Wash-306-oz-Pump-Sulfate-Free--Dove-Deep-Moist"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:39.381496+00:00
+updated_at: 2026-09-29T12:56:27.361191+00:00
 tags: [record, real-data]
 ---
 

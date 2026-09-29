@@ -2,7 +2,7 @@
 title: "Record 8b0404025e · Filipinos-rebelling-against-extreme-TikTok-beauty-t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:38.829998+00:00
+updated_at: 2026-09-29T12:56:26.768646+00:00
 tags: [record, real-data]
 ---
 

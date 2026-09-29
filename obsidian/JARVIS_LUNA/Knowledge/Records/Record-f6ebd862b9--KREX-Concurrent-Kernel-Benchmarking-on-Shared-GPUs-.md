@@ -2,7 +2,7 @@
 title: "Record f6ebd862b9 · KREX-Concurrent-Kernel-Benchmarking-on-Shared-GPUs-via-Region-Granular"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:37.606056+00:00
+updated_at: 2026-09-29T12:56:25.512611+00:00
 tags: [record, real-data]
 ---
 

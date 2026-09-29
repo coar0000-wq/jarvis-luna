@@ -2,7 +2,7 @@
 title: "Record 53a5bac4fa · PipeSwift-Revisiting-Pipeline-Parallelism-for-Large-Scale-Completion-O"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:38.070188+00:00
+updated_at: 2026-09-29T12:56:25.989732+00:00
 tags: [record, real-data]
 ---
 

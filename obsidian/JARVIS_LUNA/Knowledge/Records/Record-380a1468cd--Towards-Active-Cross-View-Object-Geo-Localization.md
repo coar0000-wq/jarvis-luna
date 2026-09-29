@@ -2,7 +2,7 @@
 title: "Record 380a1468cd · Towards-Active-Cross-View-Object-Geo-Localization"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:37.521046+00:00
+updated_at: 2026-09-29T12:56:25.430454+00:00
 tags: [record, real-data]
 ---
 

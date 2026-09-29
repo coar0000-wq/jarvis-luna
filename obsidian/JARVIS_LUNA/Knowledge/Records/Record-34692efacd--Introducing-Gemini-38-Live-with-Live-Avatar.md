@@ -2,7 +2,7 @@
 title: "Record 34692efacd · Introducing-Gemini-38-Live-with-Live-Avatar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:37.626649+00:00
+updated_at: 2026-09-29T12:56:25.532206+00:00
 tags: [record, real-data]
 ---
 

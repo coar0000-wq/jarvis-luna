@@ -2,7 +2,7 @@
 title: "Record 5339749e0f · AI-in-Retail-10-Use-Cases-and-an-Implementation-Gui"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:38.504040+00:00
+updated_at: 2026-09-29T12:56:26.426191+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiYkFVX3lxTE1BZWJpbmRtY3NGOHlXajBRNkZMMi1kSmNweW5lYWYzMTdBd08waWVVR3JFZVBvck1GMGdiMlQwZWZMa1RDUVdNT0J1VmU0NDM5Ymc2TDNoMjB3dUpyU0hxc0FR?oc=5)
 
-**제목:** AI in Retail: 10 Use Cases and an Implementation Guide (2026) - shopify.com
+**제목:** AI in Retail: 10 Use Cases and an Implementation Guide (2026) - Shopify
 
-AI in Retail: 10 Use Cases and an Implementation Guide (2026) - shopify.com
+AI in Retail: 10 Use Cases and an Implementation Guide (2026) - Shopify
 
 **출처:** Source · Google Search
 

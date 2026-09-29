@@ -2,7 +2,7 @@
 title: "Record 1d4407a309 · Toward-GPU-Resident-Climate-Models-A-Feasibility-Study-on-Lossy-Compre"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:37.562212+00:00
+updated_at: 2026-09-29T12:56:25.470488+00:00
 tags: [record, real-data]
 ---
 

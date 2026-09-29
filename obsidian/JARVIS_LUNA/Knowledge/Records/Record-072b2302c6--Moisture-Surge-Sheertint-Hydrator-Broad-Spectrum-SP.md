@@ -2,7 +2,7 @@
 title: "Record 072b2302c6 · Moisture-Surge-Sheertint-Hydrator-Broad-Spectrum-SPF-25-Tinted-Moistur"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:39.853485+00:00
+updated_at: 2026-09-29T12:56:27.861312+00:00
 tags: [record, real-data]
 ---
 

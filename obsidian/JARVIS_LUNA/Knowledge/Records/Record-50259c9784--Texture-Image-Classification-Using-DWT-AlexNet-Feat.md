@@ -2,7 +2,7 @@
 title: "Record 50259c9784 · Texture-Image-Classification-Using-DWT-AlexNet-Feat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:37.247343+00:00
+updated_at: 2026-09-29T12:56:25.144466+00:00
 tags: [record, real-data]
 ---
 

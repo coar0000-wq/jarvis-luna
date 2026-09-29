@@ -2,7 +2,7 @@
 title: "Record 502639e5b5 · India-Minister-Ashwini-Vaishnaw"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:39.763385+00:00
+updated_at: 2026-09-29T12:56:27.767418+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 7755b2cea6 · Towards-Next-Generation-Smart-Seed-Phenomics-A-Review-and-Roadmap-for-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:38.022388+00:00
+updated_at: 2026-09-29T12:56:25.940567+00:00
 tags: [record, real-data]
 ---
 

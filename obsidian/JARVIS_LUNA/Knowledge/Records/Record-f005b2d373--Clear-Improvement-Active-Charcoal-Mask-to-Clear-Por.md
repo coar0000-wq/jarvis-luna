@@ -2,7 +2,7 @@
 title: "Record f005b2d373 · Clear-Improvement-Active-Charcoal-Mask-to-Clear-Pores"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:39.835559+00:00
+updated_at: 2026-09-29T12:56:27.842044+00:00
 tags: [record, real-data]
 ---
 

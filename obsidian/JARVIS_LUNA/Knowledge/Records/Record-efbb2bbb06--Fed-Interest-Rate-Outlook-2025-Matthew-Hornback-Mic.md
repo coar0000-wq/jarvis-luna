@@ -2,7 +2,7 @@
 title: "Record efbb2bbb06 · Fed-Interest-Rate-Outlook-2025-Matthew-Hornback-Michael-Gapen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:39.749348+00:00
+updated_at: 2026-09-29T12:56:27.751520+00:00
 tags: [record, real-data]
 ---
 

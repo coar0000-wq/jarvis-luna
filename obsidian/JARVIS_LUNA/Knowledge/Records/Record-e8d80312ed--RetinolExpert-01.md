@@ -2,7 +2,7 @@
 title: "Record e8d80312ed · RetinolExpert-01"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:39.104666+00:00
+updated_at: 2026-09-29T12:56:27.081178+00:00
 tags: [record, real-data]
 ---
 

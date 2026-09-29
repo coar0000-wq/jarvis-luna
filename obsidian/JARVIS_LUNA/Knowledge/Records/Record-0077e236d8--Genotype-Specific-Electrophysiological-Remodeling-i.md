@@ -2,7 +2,7 @@
 title: "Record 0077e236d8 · Genotype-Specific-Electrophysiological-Remodeling-i"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:37.904169+00:00
+updated_at: 2026-09-29T12:56:25.807819+00:00
 tags: [record, real-data]
 ---
 

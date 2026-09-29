@@ -2,7 +2,7 @@
 title: "Record b8721e3e68 · Ryo-RootGen-Hair-Loss-Care-Scalp-Essence-27-fl-oz80ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:39.219956+00:00
+updated_at: 2026-09-29T12:56:27.199461+00:00
 tags: [record, real-data]
 ---
 

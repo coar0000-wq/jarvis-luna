@@ -2,7 +2,7 @@
 title: "Record 3392bb31f5 · DrGait-Biomechanically-Grounded-Visual-Reasoning-for-Interpretable-Cli"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:38.204998+00:00
+updated_at: 2026-09-29T12:56:26.127889+00:00
 tags: [record, real-data]
 ---
 

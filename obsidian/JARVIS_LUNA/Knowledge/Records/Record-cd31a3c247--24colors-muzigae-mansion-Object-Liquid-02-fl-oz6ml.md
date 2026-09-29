@@ -2,7 +2,7 @@
 title: "Record cd31a3c247 · 24colors-muzigae-mansion-Object-Liquid-02-fl-oz6ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:39.177233+00:00
+updated_at: 2026-09-29T12:56:27.154642+00:00
 tags: [record, real-data]
 ---
 

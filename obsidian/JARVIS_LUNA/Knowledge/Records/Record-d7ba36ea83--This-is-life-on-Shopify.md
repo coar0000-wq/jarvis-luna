@@ -2,7 +2,7 @@
 title: "Record d7ba36ea83 · This-is-life-on-Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:40.005038+00:00
+updated_at: 2026-09-29T12:56:28.018464+00:00
 tags: [record, real-data]
 ---
 

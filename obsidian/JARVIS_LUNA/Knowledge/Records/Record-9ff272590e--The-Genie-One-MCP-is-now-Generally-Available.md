@@ -2,7 +2,7 @@
 title: "Record 9ff272590e · The-Genie-One-MCP-is-now-Generally-Available"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:39.634146+00:00
+updated_at: 2026-09-29T12:56:27.625971+00:00
 tags: [record, real-data]
 ---
 

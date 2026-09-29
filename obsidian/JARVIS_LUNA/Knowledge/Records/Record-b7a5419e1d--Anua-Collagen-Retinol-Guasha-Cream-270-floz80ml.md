@@ -2,7 +2,7 @@
 title: "Record b7a5419e1d · Anua-Collagen-Retinol-Guasha-Cream-270-floz80ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:39.155877+00:00
+updated_at: 2026-09-29T12:56:27.133002+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 99c9c3355f · Taylor-Swifts-Diamond-Frost-Nails-Made-the-VMAs-2026-ShimmerSee-the-Ph"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:39.305011+00:00
+updated_at: 2026-09-29T12:56:27.284623+00:00
 tags: [record, real-data]
 ---
 

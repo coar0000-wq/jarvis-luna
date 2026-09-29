@@ -2,7 +2,7 @@
 title: "Record ab7a647bac · NeuroSymbEAD-A-Large-Scale-Neuro-Symbolic-Caption-Dataset-for-Omni-Dir"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:38.081510+00:00
+updated_at: 2026-09-29T12:56:26.001129+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record a18fe29046 · XMPIaaS-Towards-Cloud-Native-MPI-via-Cooperative-Process-Migration"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:37.476793+00:00
+updated_at: 2026-09-29T12:56:25.386841+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record f7d7e671a5 · Goldentrees-Steven-Tananbaum-The-Evolution-Of-Credit-Investing"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:39.655117+00:00
+updated_at: 2026-09-29T12:56:27.647399+00:00
 tags: [record, real-data]
 ---
 

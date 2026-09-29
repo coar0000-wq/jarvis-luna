@@ -2,7 +2,7 @@
 title: "Record a80ea59dac · Inside-Korean-Beauty-Retail-Giant-Olive-Youngs-Firs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:38.805891+00:00
+updated_at: 2026-09-29T12:56:26.737367+00:00
 tags: [record, real-data]
 ---
 

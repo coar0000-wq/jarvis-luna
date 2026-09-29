@@ -2,7 +2,7 @@
 title: "Record 77cc2d822f · Telco-Edge-Architecture-for-Deterministic-Experience-A-Research-Driven"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:38.000446+00:00
+updated_at: 2026-09-29T12:56:25.915929+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1aa46e9160 · Validating-LLM-judges-for-automated-oversight-of-patient-communication"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:38.330591+00:00
+updated_at: 2026-09-29T12:56:26.257212+00:00
 tags: [record, real-data]
 ---
 

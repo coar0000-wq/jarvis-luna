@@ -2,7 +2,7 @@
 title: "Record ec2727c4a4 · Lightweight-Daily-Moisturizer"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:39.849722+00:00
+updated_at: 2026-09-29T12:56:27.857371+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 0e068a75a7 · Dynamic-Thermal-Gaussians-Multimodal-4D-Gaussian-Splatting"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:38.163286+00:00
+updated_at: 2026-09-29T12:56:26.085278+00:00
 tags: [record, real-data]
 ---
 

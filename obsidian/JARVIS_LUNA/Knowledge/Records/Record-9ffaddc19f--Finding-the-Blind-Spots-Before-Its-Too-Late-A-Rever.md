@@ -2,7 +2,7 @@
 title: "Record 9ffaddc19f · Finding-the-Blind-Spots-Before-Its-Too-Late-A-Reverse-Stress-Testing-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:37.960133+00:00
+updated_at: 2026-09-29T12:56:25.875138+00:00
 tags: [record, real-data]
 ---
 

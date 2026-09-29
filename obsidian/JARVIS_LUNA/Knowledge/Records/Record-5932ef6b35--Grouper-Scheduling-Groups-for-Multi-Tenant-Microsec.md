@@ -2,7 +2,7 @@
 title: "Record 5932ef6b35 · Grouper-Scheduling-Groups-for-Multi-Tenant-Microsecond-Scale-Microserv"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:38.061080+00:00
+updated_at: 2026-09-29T12:56:25.980684+00:00
 tags: [record, real-data]
 ---
 

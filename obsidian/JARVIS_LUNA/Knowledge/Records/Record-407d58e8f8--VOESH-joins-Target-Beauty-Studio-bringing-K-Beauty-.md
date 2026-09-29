@@ -2,7 +2,7 @@
 title: "Record 407d58e8f8 · VOESH-joins-Target-Beauty-Studio-bringing-K-Beauty-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:38.428354+00:00
+updated_at: 2026-09-29T12:56:26.353633+00:00
 tags: [record, real-data]
 ---
 

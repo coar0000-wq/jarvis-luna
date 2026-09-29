@@ -2,7 +2,7 @@
 title: "Record 76fc832546 · Hydrating-Facial-Cleansing-Gel"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:39.846651+00:00
+updated_at: 2026-09-29T12:56:27.854052+00:00
 tags: [record, real-data]
 ---
 

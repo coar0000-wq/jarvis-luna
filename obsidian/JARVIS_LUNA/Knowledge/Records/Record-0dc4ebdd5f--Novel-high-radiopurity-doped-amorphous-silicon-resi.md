@@ -2,7 +2,7 @@
 title: "Record 0dc4ebdd5f · Novel-high-radiopurity-doped-amorphous-silicon-resi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:37.715801+00:00
+updated_at: 2026-09-29T12:56:25.620545+00:00
 tags: [record, real-data]
 ---
 

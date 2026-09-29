@@ -2,7 +2,7 @@
 title: "Record 0c627ad727 · VIVID-RED-PERMANENT-KIT"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:39.890124+00:00
+updated_at: 2026-09-29T12:56:27.900055+00:00
 tags: [record, real-data]
 ---
 

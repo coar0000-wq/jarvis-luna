@@ -2,7 +2,7 @@
 title: "Record edea694884 · Interlayer-Engineered-Vertical-InO-x--Channel-FeFET"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:37.842228+00:00
+updated_at: 2026-09-29T12:56:25.746565+00:00
 tags: [record, real-data]
 ---
 

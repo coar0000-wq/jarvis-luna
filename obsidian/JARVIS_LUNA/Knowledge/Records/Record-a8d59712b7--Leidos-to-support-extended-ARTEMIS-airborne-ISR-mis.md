@@ -2,7 +2,7 @@
 title: "Record a8d59712b7 · Leidos-to-support-extended-ARTEMIS-airborne-ISR-mission-for-US-Army"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:38.384469+00:00
+updated_at: 2026-09-29T12:56:26.311323+00:00
 tags: [record, real-data]
 ---
 

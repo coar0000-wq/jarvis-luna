@@ -2,7 +2,7 @@
 title: "Record ccd044b4b4 · Pore-Cleansing-Oil-PHA"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:39.101774+00:00
+updated_at: 2026-09-29T12:56:27.078062+00:00
 tags: [record, real-data]
 ---
 

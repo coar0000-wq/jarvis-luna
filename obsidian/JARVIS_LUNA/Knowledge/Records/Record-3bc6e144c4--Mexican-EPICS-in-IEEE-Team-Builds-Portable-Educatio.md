@@ -2,7 +2,7 @@
 title: "Record 3bc6e144c4 · Mexican-EPICS-in-IEEE-Team-Builds-Portable-Educational-Platform"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:39.125665+00:00
+updated_at: 2026-09-29T12:56:27.102450+00:00
 tags: [record, real-data]
 ---
 

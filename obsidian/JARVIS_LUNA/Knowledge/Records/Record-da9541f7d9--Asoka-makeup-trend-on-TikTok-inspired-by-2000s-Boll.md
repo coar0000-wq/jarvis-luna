@@ -2,7 +2,7 @@
 title: "Record da9541f7d9 · Asoka-makeup-trend-on-TikTok-inspired-by-2000s-Boll"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:38.849043+00:00
+updated_at: 2026-09-29T12:56:26.788687+00:00
 tags: [record, real-data]
 ---
 

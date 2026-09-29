@@ -2,7 +2,7 @@
 title: "Record 2eafbafe58 · 3scents-ONTHE-BODY-Foot-Shampoo-130-fl-oz385ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:39.149703+00:00
+updated_at: 2026-09-29T12:56:27.127413+00:00
 tags: [record, real-data]
 ---
 

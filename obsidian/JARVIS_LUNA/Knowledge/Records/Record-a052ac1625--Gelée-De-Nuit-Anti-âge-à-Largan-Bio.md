@@ -2,7 +2,7 @@
 title: "Record a052ac1625 · Gelée-De-Nuit-Anti-âge-à-Largan-Bio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:39.231712+00:00
+updated_at: 2026-09-29T12:56:27.212145+00:00
 tags: [record, real-data]
 ---
 

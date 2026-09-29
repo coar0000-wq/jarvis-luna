@@ -2,7 +2,7 @@
 title: "Record 385af228fd · Analytical-Assessment-of-Far-Field-Thermo-Poroelast"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:37.657533+00:00
+updated_at: 2026-09-29T12:56:25.562887+00:00
 tags: [record, real-data]
 ---
 

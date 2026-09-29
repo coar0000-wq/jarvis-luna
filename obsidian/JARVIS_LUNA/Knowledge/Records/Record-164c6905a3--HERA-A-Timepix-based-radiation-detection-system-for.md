@@ -2,7 +2,7 @@
 title: "Record 164c6905a3 · HERA-A-Timepix-based-radiation-detection-system-for-Exploration-class-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:37.711426+00:00
+updated_at: 2026-09-29T12:56:25.616252+00:00
 tags: [record, real-data]
 ---
 

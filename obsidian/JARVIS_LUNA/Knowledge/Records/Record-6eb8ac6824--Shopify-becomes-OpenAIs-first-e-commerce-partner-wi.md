@@ -2,7 +2,7 @@
 title: "Record 6eb8ac6824 · Shopify-becomes-OpenAIs-first-e-commerce-partner-with-ChatGPT-Ads-inte"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:38.836518+00:00
+updated_at: 2026-09-29T12:56:26.775501+00:00
 tags: [record, real-data]
 ---
 

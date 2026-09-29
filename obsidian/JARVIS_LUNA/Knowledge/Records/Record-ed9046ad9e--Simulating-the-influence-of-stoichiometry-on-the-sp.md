@@ -2,7 +2,7 @@
 title: "Record ed9046ad9e · Simulating-the-influence-of-stoichiometry-on-the-spectral-emissivity-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:37.821622+00:00
+updated_at: 2026-09-29T12:56:25.726004+00:00
 tags: [record, real-data]
 ---
 

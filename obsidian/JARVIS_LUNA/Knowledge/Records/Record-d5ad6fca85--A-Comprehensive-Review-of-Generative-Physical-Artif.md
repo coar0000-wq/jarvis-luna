@@ -2,7 +2,7 @@
 title: "Record d5ad6fca85 · A-Comprehensive-Review-of-Generative-Physical-Artificial-Intelligence"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:37.835234+00:00
+updated_at: 2026-09-29T12:56:25.739598+00:00
 tags: [record, real-data]
 ---
 

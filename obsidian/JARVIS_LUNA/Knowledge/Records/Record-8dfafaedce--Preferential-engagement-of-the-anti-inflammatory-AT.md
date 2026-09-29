@@ -2,7 +2,7 @@
 title: "Record 8dfafaedce · Preferential-engagement-of-the-anti-inflammatory-AT"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:37.727218+00:00
+updated_at: 2026-09-29T12:56:25.631879+00:00
 tags: [record, real-data]
 ---
 

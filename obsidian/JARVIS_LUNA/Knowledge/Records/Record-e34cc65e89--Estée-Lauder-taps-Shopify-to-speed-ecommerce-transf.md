@@ -2,7 +2,7 @@
 title: "Record e34cc65e89 · Estée-Lauder-taps-Shopify-to-speed-ecommerce-transformation---Digital-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:38.756582+00:00
+updated_at: 2026-09-29T12:56:26.680209+00:00
 tags: [record, real-data]
 ---
 

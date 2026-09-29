@@ -2,7 +2,7 @@
 title: "Record 9328fa400d · OpenAI-extends-cyber-access-to-Ukraine-for-civilian-defense"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:39.014643+00:00
+updated_at: 2026-09-29T12:56:26.984615+00:00
 tags: [record, real-data]
 ---
 

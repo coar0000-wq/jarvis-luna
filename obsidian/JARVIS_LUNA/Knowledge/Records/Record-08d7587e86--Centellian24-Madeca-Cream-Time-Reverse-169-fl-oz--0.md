@@ -2,7 +2,7 @@
 title: "Record 08d7587e86 · Centellian24-Madeca-Cream-Time-Reverse-169-fl-oz--050-fl-oz-x-2ea--Int"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:39.203642+00:00
+updated_at: 2026-09-29T12:56:27.182144+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** Centellian24 Madeca Cream Time Reverse 1.69 fl. oz. (+ 0.50 fl. oz. x 2ea + Intensive Lifting Formula 0.84 fl. oz. x 3ct)
 
 Centellian24 Madeca Cream Time Reverse 1.69 fl. oz. (+ 0.50 fl. oz. x 2ea + Intensive Lifting Formula 0.84 fl. oz. x 3ct)
-Centellian24 Madeca Cream Time Reverse 1.69 fl. oz. (+ 0.50 fl. oz. x 2ea + Intensive Lifting Formula 0.84 fl. oz. x 3ct) · 평점 4.8 · 리뷰 868
+Centellian24 Madeca Cream Time Reverse 1.69 fl. oz. (+ 0.50 fl. oz. x 2ea + Intensive Lifting Formula 0.84 fl. oz. x 3ct) · 평점 4.8 · 리뷰 871
 
 **출처:** Source · us_beauty
 

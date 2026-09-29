@@ -2,7 +2,7 @@
 title: "Record d6aebe1f17 · Whats-new-with-Sidekick"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:39.999224+00:00
+updated_at: 2026-09-29T12:56:28.013002+00:00
 tags: [record, real-data]
 ---
 

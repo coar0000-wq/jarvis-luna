@@ -2,7 +2,7 @@
 title: "Record 5c22454472 · Dense-Feature-Representation-over-Sequence-Modeling-A-Solution-to-the-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:38.116046+00:00
+updated_at: 2026-09-29T12:56:26.036969+00:00
 tags: [record, real-data]
 ---
 

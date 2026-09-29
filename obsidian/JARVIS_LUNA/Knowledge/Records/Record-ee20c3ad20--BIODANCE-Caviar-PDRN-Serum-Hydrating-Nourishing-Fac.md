@@ -2,7 +2,7 @@
 title: "Record ee20c3ad20 · BIODANCE-Caviar-PDRN-Serum-Hydrating-Nourishing-Facial-Serum-with-Salm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T10:24:39.338678+00:00
+updated_at: 2026-09-29T12:56:27.318289+00:00
 tags: [record, real-data]
 ---
 
