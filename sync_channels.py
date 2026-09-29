@@ -537,6 +537,12 @@ def from_google_trends():
     return rows[:MAX_ITEMS]
 
 
+def _file_reason(filename: str) -> str:
+    """수집기가 남긴 실패 사유. 돌았는데 0건인 것과 안 돈 것을 구분한다 (2026-09-29)."""
+    d = load_json(DATA / filename, {}) or {}
+    return str(d.get("reason") or "")[:160] if isinstance(d, dict) else ""
+
+
 def build_global_channels():
     us_beauty = load_json(DATA / "us_beauty_products.json", {}) or {}
     us_at = us_beauty.get("collected_at") or us_beauty.get("updated_at") or ""
@@ -587,9 +593,9 @@ def build_global_channels():
         "sokoglam_us": channel(sg_rows, sg_src or "sokoglam.com", collected_at=sg_at,
                                  reason="수집기 미실행" if not sg_rows else ""),
         "amazon_movers_beauty": channel(mv_rows, mv_src or "amazon movers", collected_at=mv_at,
-                                           reason="수집기 미실행" if not mv_rows else ""),
+                                           reason=(_file_reason("amazon_movers_products.json") or "수집기 미실행") if not mv_rows else ""),
         "amazon_new_beauty": channel(nw_rows, nw_src or "amazon new releases", collected_at=nw_at,
-                                        reason="수집기 미실행" if not nw_rows else ""),
+                                        reason=(_file_reason("amazon_new_products.json") or "수집기 미실행") if not nw_rows else ""),
         "wikipedia_interest": public_channel("wikipedia_interest"),
         "allure_media": public_channel("allure_media"),
         "openfda_sunscreen": public_channel("openfda_sunscreen"),
