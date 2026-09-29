@@ -2,7 +2,7 @@
 title: "Record 5a9557d5e6 · Derma-E-Vitamin-C-Concentrated-Serum-Review"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:27.238663+00:00
+updated_at: 2026-09-29T14:49:35.190296+00:00
 tags: [record, real-data]
 ---
 

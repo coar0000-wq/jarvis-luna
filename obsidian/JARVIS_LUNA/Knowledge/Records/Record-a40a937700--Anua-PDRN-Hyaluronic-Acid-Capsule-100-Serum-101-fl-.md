@@ -2,7 +2,7 @@
 title: "Record a40a937700 · Anua-PDRN-Hyaluronic-Acid-Capsule-100-Serum-101-fl-oz30ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:27.178384+00:00
+updated_at: 2026-09-29T14:49:35.133393+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 0e80c28f6e · An-adaptive-sampling-method-for-parallel-simulation-based-optimization"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:25.625709+00:00
+updated_at: 2026-09-29T14:49:33.566063+00:00
 tags: [record, real-data]
 ---
 

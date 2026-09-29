@@ -2,7 +2,7 @@
 title: "Record 10b3eee500 · How-sustainable-investment-behaviour-can-be-improved-an-empirical-insi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:25.735199+00:00
+updated_at: 2026-09-29T14:49:33.677739+00:00
 tags: [record, real-data]
 ---
 

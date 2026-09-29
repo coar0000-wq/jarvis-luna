@@ -2,7 +2,7 @@
 title: "Record e5d051b639 · Icarus-Robotics-flies-ISS-bound-robot-in-microgravity-for-the-first-ti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:27.801479+00:00
+updated_at: 2026-09-29T14:49:35.774747+00:00
 tags: [record, real-data]
 ---
 

@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-29T10:14:50.057900+00:00",
+  "collected_at": "2026-09-29T14:38:34.240654+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -56,11 +56,19 @@
       "score": 4
     },
     {
-      "keyword": "anyone",
+      "keyword": "which",
+      "score": 4
+    },
+    {
+      "keyword": "makeup",
       "score": 3
     },
     {
-      "keyword": "which",
+      "keyword": "blush",
+      "score": 3
+    },
+    {
+      "keyword": "anyone",
       "score": 3
     },
     {
@@ -68,31 +76,15 @@
       "score": 3
     },
     {
-      "keyword": "using",
-      "score": 3
-    },
-    {
-      "keyword": "makeup",
-      "score": 2
-    },
-    {
       "keyword": "monday",
       "score": 2
     },
     {
-      "keyword": "blush",
-      "score": 2
-    },
-    {
-      "keyword": "best",
+      "keyword": "knows",
       "score": 2
     },
     {
       "keyword": "contact",
-      "score": 2
-    },
-    {
-      "keyword": "does",
       "score": 2
     },
     {
@@ -104,6 +96,10 @@
       "score": 2
     },
     {
+      "keyword": "does",
+      "score": 2
+    },
+    {
       "keyword": "peripera",
       "score": 2
     },
@@ -112,7 +108,7 @@
       "score": 2
     },
     {
-      "keyword": "products",
+      "keyword": "using",
       "score": 2
     },
     {
@@ -136,14 +132,6 @@
       "score": 2
     },
     {
-      "keyword": "korean",
-      "score": 2
-    },
-    {
-      "keyword": "sunscreens",
-      "score": 2
-    },
-    {
       "keyword": "question",
       "score": 1
     },
@@ -164,6 +152,38 @@
       "score": 1
     },
     {
+      "keyword": "recent",
+      "score": 1
+    },
+    {
+      "keyword": "looks",
+      "score": 1
+    },
+    {
+      "keyword": "cheeryep",
+      "score": 1
+    },
+    {
+      "keyword": "ambition",
+      "score": 1
+    },
+    {
+      "keyword": "palette",
+      "score": 1
+    },
+    {
+      "keyword": "beige",
+      "score": 1
+    },
+    {
+      "keyword": "anti-blush",
+      "score": 1
+    },
+    {
+      "keyword": "comparison",
+      "score": 1
+    },
+    {
       "keyword": "lippie",
       "score": 1
     },
@@ -181,26 +201,6 @@
     },
     {
       "keyword": "pimple",
-      "score": 1
-    },
-    {
-      "keyword": "patch",
-      "score": 1
-    },
-    {
-      "keyword": "brand",
-      "score": 1
-    },
-    {
-      "keyword": "natural",
-      "score": 1
-    },
-    {
-      "keyword": "blended",
-      "score": 1
-    },
-    {
-      "keyword": "pupil",
       "score": 1
     }
   ],
@@ -228,14 +228,6 @@
     {
       "keyword": "k-skincare",
       "score": 2
-    },
-    {
-      "keyword": "korean",
-      "score": 2
-    },
-    {
-      "keyword": "sunscreens",
-      "score": 2
     }
   ],
   "posts": [
@@ -254,6 +246,20 @@
       "feed": "hot"
     },
     {
+      "title": "My recent makeup looks with Cheeryep's Ambition palette",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wt8w39/my_recent_makeup_looks_with_cheeryeps_ambition/",
+      "published": "2026-09-29T12:33:17+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Beige blush / \"anti-blush\" comparison",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtbcwj/beige_blush_antiblush_comparison/",
+      "published": "2026-09-29T14:17:59+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Blush and lippie rec",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wsiar3/blush_and_lippie_rec/",
       "published": "2026-09-28T15:51:04+00:00",
@@ -264,6 +270,13 @@
       "title": "TRYING to order this pimple patch brand",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wt4ubk/trying_to_order_this_pimple_patch_brand/",
       "published": "2026-09-29T08:44:29+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Anybody knows offline stores which carry Bonnyhill lotions in Korea?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wt6oht/anybody_knows_offline_stores_which_carry/",
+      "published": "2026-09-29T10:37:08+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -296,13 +309,6 @@
       "feed": "hot"
     },
     {
-      "title": "Which Glycols you like and which ones don't go with your skin? does Propylene Glycol irritate your skin?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wsjqah/which_glycols_you_like_and_which_ones_dont_go/",
-      "published": "2026-09-28T16:43:12+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
       "title": "Why are there four diameters printed on my contact lenses instead of two?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wsm0f4/why_are_there_four_diameters_printed_on_my/",
       "published": "2026-09-28T18:06:04+00:00",
@@ -313,6 +319,13 @@
       "title": "Anything Goes Monday: September 28, 2026",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wsq7dk/anything_goes_monday_september_28_2026/",
       "published": "2026-09-28T20:39:21+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Which Glycols you like and which ones don't go with your skin? does Propylene Glycol irritate your skin?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wsjqah/which_glycols_you_like_and_which_ones_dont_go/",
+      "published": "2026-09-28T16:43:12+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -390,27 +403,6 @@
       "title": "Recently discovered k-skincare and I like them. I'm not sure the preservative system is sufficient to make sure the product is free of bacteria, yeast, mold, fungi after opening and while using it.",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1ws6wr4/recently_discovered_kskincare_and_i_like_them_im/",
       "published": "2026-09-28T06:19:38+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Korean products using western techniques",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wqosqc/korean_products_using_western_techniques/",
-      "published": "2026-09-26T12:02:07+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Best Affordable Body Sunscreens",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wr97n5/best_affordable_body_sunscreens/",
-      "published": "2026-09-27T03:08:04+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Ridiculously large Japan haul!",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wqfmta/ridiculously_large_japan_haul/",
-      "published": "2026-09-26T03:05:37+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

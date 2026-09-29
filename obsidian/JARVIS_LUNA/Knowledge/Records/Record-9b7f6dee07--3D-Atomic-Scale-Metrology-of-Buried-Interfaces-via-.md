@@ -2,7 +2,7 @@
 title: "Record 9b7f6dee07 · 3D-Atomic-Scale-Metrology-of-Buried-Interfaces-via-Multislice-Electron"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:25.713819+00:00
+updated_at: 2026-09-29T14:49:33.655502+00:00
 tags: [record, real-data]
 ---
 

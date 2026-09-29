@@ -2,17 +2,17 @@
   "source": "sokoglam.com 컬렉션 공개 상품 JSON (실수집)",
   "generator": "scripts/collect_sokoglam.py",
   "robots_note": "User-agent: * Allow: / · /cart /checkout 만 차단 (2026-09-28 확인)",
-  "collected_at": "2026-09-29T10:21:42.756573+00:00",
+  "collected_at": "2026-09-29T14:45:14.353287+00:00",
   "is_stale": false,
-  "count": 242,
+  "count": 241,
   "by_collection": {
     "Best Sellers": 83,
-    "Skincare": 159
+    "Skincare": 158
   },
   "errors": [],
   "rank_note": "순위는 컬렉션 표시 순서다. 판매량 수치가 아니다.",
   "price_stats": {
-    "n": 242,
+    "n": 241,
     "min": 3.0,
     "median": 27.0,
     "max": 200.0
@@ -4200,29 +4200,6 @@
         "best sellers v.2",
         "BlackFriday2018",
         "BOKB winners"
-      ]
-    },
-    {
-      "rank": 158,
-      "name": "Balancing 5xHA + Gromwell Root Bubble Burst Serum",
-      "brand": "Knours",
-      "price_usd": 28.0,
-      "category": "Serum/Ampoule",
-      "collection": "Skincare",
-      "url": "https://sokoglam.com/products/knours-sweet-rescue-bubble-burst-serum",
-      "tags": [
-        "badge-cleanbeauty",
-        "badge-femalefounded",
-        "badge-vegan",
-        "cruelty free",
-        "female founded",
-        "female founders",
-        "J_dehydrated",
-        "J_dryness",
-        "J_hydrating",
-        "J_oily-skin",
-        "J_repair",
-        "Knours"
       ]
     },
     {

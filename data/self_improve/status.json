@@ -1,33 +1,20 @@
 {
-  "generated_at": "2026-09-29T10:15:19.366518+00:00",
+  "generated_at": "2026-09-29T14:39:01.257717+00:00",
   "generator": "scripts/self_improve.py",
   "principle": "무료·설정만 변경·그림자 평가 후 채택·실측 악화 시 자동 롤백",
   "loops": {
     "topics": {
       "metric": "uncategorized_rate",
-      "records": 5686,
+      "records": 5703,
       "base_uncategorized": 977,
-      "before": 0.0876,
-      "after_shadow": 0.0865,
-      "uncategorized_before": 498,
+      "before": 0.0863,
+      "after_shadow": 0.0863,
+      "uncategorized_before": 492,
       "uncategorized_after_shadow": 492,
-      "adopted": 1,
+      "adopted": 0,
       "learned_keywords": 15,
-      "decisions": [
-        {
-          "loop": "topics",
-          "action": "adopt",
-          "keyword": "cleanser",
-          "topic": "뷰티·스킨케어",
-          "precision": 1.0,
-          "support": 9,
-          "uncategorized_hits": 6,
-          "source": "us_beauty",
-          "source_fit": 0.886,
-          "newly_classified": 6
-        }
-      ],
-      "status": "adopted"
+      "decisions": [],
+      "status": "no_change"
     },
     "sourcing": {
       "metric": "useful_fetch_rate",
@@ -49,8 +36,8 @@
     },
     "design": {
       "metric": "reference_relevant_ratio",
-      "before": 0.487,
-      "relevant": 38,
+      "before": 0.474,
+      "relevant": 37,
       "items": 78,
       "feed_caps": {
         "web.dev": 3

@@ -2,7 +2,7 @@
 title: "Record 6096938bf0 · K-Beauty-advent-calendar-worth-140-with-Medicube-is-now-33-in-limited-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:26.607256+00:00
+updated_at: 2026-09-29T14:49:34.581963+00:00
 tags: [record, real-data]
 ---
 

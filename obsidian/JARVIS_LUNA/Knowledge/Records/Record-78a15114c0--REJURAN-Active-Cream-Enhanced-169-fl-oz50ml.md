@@ -2,7 +2,7 @@
 title: "Record 78a15114c0 · REJURAN-Active-Cream-Enhanced-169-fl-oz50ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:27.166402+00:00
+updated_at: 2026-09-29T14:49:35.121988+00:00
 tags: [record, real-data]
 ---
 

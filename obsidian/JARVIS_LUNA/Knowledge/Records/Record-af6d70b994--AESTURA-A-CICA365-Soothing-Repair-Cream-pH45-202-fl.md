@@ -2,7 +2,7 @@
 title: "Record af6d70b994 · AESTURA-A-CICA365-Soothing-Repair-Cream-pH45-202-fl-oz60ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:27.172594+00:00
+updated_at: 2026-09-29T14:49:35.127788+00:00
 tags: [record, real-data]
 ---
 

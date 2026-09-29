@@ -2,7 +2,7 @@
 title: "Record bae4f8414e · From-Data-to-Dialogue-How-SP-Global-Energy-Made-Its-Structured-Data-Es"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:27.621169+00:00
+updated_at: 2026-09-29T14:49:35.584802+00:00
 tags: [record, real-data]
 ---
 

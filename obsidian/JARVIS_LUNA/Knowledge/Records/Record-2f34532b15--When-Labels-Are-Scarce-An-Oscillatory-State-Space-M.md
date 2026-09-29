@@ -2,7 +2,7 @@
 title: "Record 2f34532b15 · When-Labels-Are-Scarce-An-Oscillatory-State-Space-Model-for-Vibration-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:25.482064+00:00
+updated_at: 2026-09-29T14:49:33.416438+00:00
 tags: [record, real-data]
 ---
 

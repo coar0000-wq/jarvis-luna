@@ -2,7 +2,7 @@
 title: "Record 7e4462faf0 · Compression-of-3D-Gaussian-Splatting-Data-Using-GPU"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:27.047318+00:00
+updated_at: 2026-09-29T14:49:35.003899+00:00
 tags: [record, real-data]
 ---
 

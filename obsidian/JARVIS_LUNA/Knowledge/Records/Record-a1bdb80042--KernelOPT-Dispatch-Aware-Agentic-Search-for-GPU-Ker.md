@@ -2,7 +2,7 @@
 title: "Record a1bdb80042 · KernelOPT-Dispatch-Aware-Agentic-Search-for-GPU-Kernel-Optimization"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:25.513171+00:00
+updated_at: 2026-09-29T14:49:33.448749+00:00
 tags: [record, real-data]
 ---
 

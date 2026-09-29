@@ -2,7 +2,7 @@
 title: "Record 473382766d · medicube-PDRN-Pink-Peptide-Serum-101-fl-oz30ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:27.126404+00:00
+updated_at: 2026-09-29T14:49:35.082839+00:00
 tags: [record, real-data]
 ---
 

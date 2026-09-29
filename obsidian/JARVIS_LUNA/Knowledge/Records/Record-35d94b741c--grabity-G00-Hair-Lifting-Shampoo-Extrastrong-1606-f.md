@@ -2,7 +2,7 @@
 title: "Record 35d94b741c · grabity-G00-Hair-Lifting-Shampoo-Extrastrong-1606-fl-oz475ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:27.185550+00:00
+updated_at: 2026-09-29T14:49:35.140214+00:00
 tags: [record, real-data]
 ---
 

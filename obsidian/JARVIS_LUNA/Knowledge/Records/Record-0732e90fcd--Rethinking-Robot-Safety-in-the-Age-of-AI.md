@@ -2,7 +2,7 @@
 title: "Record 0732e90fcd · Rethinking-Robot-Safety-in-the-Age-of-AI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:27.110972+00:00
+updated_at: 2026-09-29T14:49:35.068556+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** Rethinking Robot Safety in the Age of AI
 
 Rethinking Robot Safety in the Age of AI
-<img src="https://spectrum.ieee.org/media-library/humanoid-robots-and-people-walking-through-a-modern-city-street-with-glass-buildings.jpg?id=67745861&width=1200&height=800&coordinates=156%2C0%2C156%2C0"/><br/><br/><p><em>This article is brought to you by <a href="https://vicone.com?utm_source=ieee-spectrum&utm_medium=sponsored-content&utm_campaign=2026-09" target="_blank">VicOne</a>.</em></p><p>R
+<img src="https://spectrum.ieee.org/media-library/humanoid-robots-and-people-walking-through-a-modern-city-street-with-glass-buildings.jpg?id=67745861&width=1245&height=700&coordinates=0%2C0%2C0%2C0"/><br/><br/><p><em>This article is brought to you by <a href="https://vicone.com?utm_source=ieee-spectrum&utm_medium=sponsored-content&utm_campaign=2026-09" target="_blank">VicOne</a>.</em></p><p>Robot
 
 **출처:** Source · robotics
 

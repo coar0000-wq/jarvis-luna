@@ -2,7 +2,7 @@
 title: "Record e0801d8d27 · Two-Global-Crops-Suffice-Locating-Semantic-Emergence-in-DINO-Style-Sel"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:26.122547+00:00
+updated_at: 2026-09-29T14:49:34.066408+00:00
 tags: [record, real-data]
 ---
 

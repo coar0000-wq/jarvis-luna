@@ -2,7 +2,7 @@
 title: "Record accdc5c976 · Précieux-Argan-Eau-micellaire-anti-âge"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:27.212582+00:00
+updated_at: 2026-09-29T14:49:35.165773+00:00
 tags: [record, real-data]
 ---
 

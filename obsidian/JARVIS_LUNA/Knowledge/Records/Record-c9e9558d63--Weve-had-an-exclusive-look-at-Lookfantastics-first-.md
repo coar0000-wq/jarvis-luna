@@ -2,7 +2,7 @@
 title: "Record c9e9558d63 · Weve-had-an-exclusive-look-at-Lookfantastics-first-K-beauty-advent-cal"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:26.894053+00:00
+updated_at: 2026-09-29T14:49:34.851562+00:00
 tags: [record, real-data]
 ---
 

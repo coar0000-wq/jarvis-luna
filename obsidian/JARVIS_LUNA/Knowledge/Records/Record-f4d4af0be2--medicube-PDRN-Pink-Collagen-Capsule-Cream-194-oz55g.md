@@ -2,7 +2,7 @@
 title: "Record f4d4af0be2 · medicube-PDRN-Pink-Collagen-Capsule-Cream-194-oz55g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:27.180453+00:00
+updated_at: 2026-09-29T14:49:35.135311+00:00
 tags: [record, real-data]
 ---
 

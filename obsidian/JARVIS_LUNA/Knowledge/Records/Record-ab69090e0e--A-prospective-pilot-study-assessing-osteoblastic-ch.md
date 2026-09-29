@@ -2,7 +2,7 @@
 title: "Record ab69090e0e · A-prospective-pilot-study-assessing-osteoblastic-changes-of-vascular-c"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:25.830418+00:00
+updated_at: 2026-09-29T14:49:33.769284+00:00
 tags: [record, real-data]
 ---
 

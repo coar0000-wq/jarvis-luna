@@ -2,7 +2,7 @@
 title: "Record f9b02761dc · Sub-Gaussian-Concentration-and-Entropic-Normality-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:27.018592+00:00
+updated_at: 2026-09-29T14:49:34.975131+00:00
 tags: [record, real-data]
 ---
 

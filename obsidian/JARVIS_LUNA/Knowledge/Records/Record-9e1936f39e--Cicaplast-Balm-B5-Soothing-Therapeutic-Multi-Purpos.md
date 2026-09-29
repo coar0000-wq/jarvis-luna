@@ -2,7 +2,7 @@
 title: "Record 9e1936f39e · Cicaplast-Balm-B5-Soothing-Therapeutic-Multi-Purpose-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:27.841587+00:00
+updated_at: 2026-09-29T14:49:35.816231+00:00
 tags: [record, real-data]
 ---
 

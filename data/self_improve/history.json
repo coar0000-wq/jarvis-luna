@@ -36,6 +36,12 @@
         "items": 15,
         "relevant": 9,
         "capped": false
+      },
+      {
+        "at": "2026-09-29T14:36:32.546225+00:00",
+        "items": 15,
+        "relevant": 8,
+        "capped": false
       }
     ],
     "Shopify Dev Changelog": [
@@ -71,6 +77,12 @@
       },
       {
         "at": "2026-09-29T10:12:29.347379+00:00",
+        "items": 15,
+        "relevant": 9,
+        "capped": false
+      },
+      {
+        "at": "2026-09-29T14:36:32.546225+00:00",
         "items": 15,
         "relevant": 9,
         "capped": false
@@ -112,6 +124,12 @@
         "items": 15,
         "relevant": 8,
         "capped": false
+      },
+      {
+        "at": "2026-09-29T14:36:32.546225+00:00",
+        "items": 15,
+        "relevant": 8,
+        "capped": false
       }
     ],
     "Smashing Magazine": [
@@ -147,6 +165,12 @@
       },
       {
         "at": "2026-09-29T10:12:29.347379+00:00",
+        "items": 15,
+        "relevant": 6,
+        "capped": false
+      },
+      {
+        "at": "2026-09-29T14:36:32.546225+00:00",
         "items": 15,
         "relevant": 6,
         "capped": false
@@ -188,6 +212,12 @@
         "items": 15,
         "relevant": 5,
         "capped": false
+      },
+      {
+        "at": "2026-09-29T14:36:32.546225+00:00",
+        "items": 15,
+        "relevant": 5,
+        "capped": false
       }
     ],
     "web.dev": [
@@ -223,6 +253,12 @@
       },
       {
         "at": "2026-09-29T10:12:29.347379+00:00",
+        "items": 3,
+        "relevant": 1,
+        "capped": true
+      },
+      {
+        "at": "2026-09-29T14:36:32.546225+00:00",
         "items": 3,
         "relevant": 1,
         "capped": true
@@ -318,6 +354,21 @@
       "design": {
         "status": "active",
         "before": 0.487
+      }
+    },
+    {
+      "at": "2026-09-29T14:39:01.257717+00:00",
+      "topics": {
+        "status": "no_change",
+        "before": 0.0863
+      },
+      "sourcing": {
+        "status": "active",
+        "before": 0.09090909090909091
+      },
+      "design": {
+        "status": "active",
+        "before": 0.474
       }
     }
   ]

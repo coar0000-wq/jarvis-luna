@@ -2,7 +2,7 @@
 title: "Record 856cc953cd · Korean-Skin-Care-Isnt-Just-for-Your-Face---Allure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:26.466248+00:00
+updated_at: 2026-09-29T14:49:34.437412+00:00
 tags: [record, real-data]
 ---
 

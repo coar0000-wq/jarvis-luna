@@ -2,7 +2,7 @@
 title: "Record e305beec53 · Tufan-Erginbilgic-Rolls-Royce-Ceo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:27.766963+00:00
+updated_at: 2026-09-29T14:49:35.739906+00:00
 tags: [record, real-data]
 ---
 

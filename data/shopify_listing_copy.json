@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-29T10:22:23.239831+00:00",
+  "generated_at": "2026-09-29T14:47:19.355568+00:00",
   "generator": "scripts/build_listing_copy_local.py",
   "model": "none_local_deterministic",
   "paid_api_called": false,
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "note": "기존 검증 카피를 보존하고 누락분만 제품명·용량·원산지 기반의 보수적 영문 초안으로 생성한다. 효능·인증·임상 결과는 생성하지 않는다.",
   "total": 10,
-  "eligible": 9,
-  "ok": 9,
+  "eligible": 8,
+  "ok": 8,
   "failed": 0,
-  "skipped_prerequisite": 1,
-  "carried_forward": 9,
+  "skipped_prerequisite": 2,
+  "carried_forward": 8,
   "generated_local": 0,
   "items": [
     {
@@ -206,38 +206,6 @@
       "error": ""
     },
     {
-      "canonical_product_id": "CP000109",
-      "pd_no": "1049285",
-      "name_ko": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-      "bucket": "스킨케어",
-      "price_krw": 3000,
-      "rating": null,
-      "review_count": null,
-      "shopify_score": 93,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250929/gblFwiiyQbV92ezzjLMk1049285_00_01gblFwiiyQbV92ezzjLMk.jpg",
-      "copy": {
-        "title": "VT Super Hyalon Sleeping Mask 4 ml 6 Pack",
-        "description_html": "<p>Experience deep moisture with the VT Super Hyalon Sleeping Mask. This overnight mask helps keep your skin hydrated while you sleep.</p><p>Each pack contains 6 convenient 4 ml individual portions for effortless daily hydration and a refreshed morning complexion.</p>",
-        "seo_title": "VT Super Hyalon Sleeping Mask 4 ml 6 Pack",
-        "seo_description": "Shop the VT Super Hyalon Sleeping Mask 4 ml 6 Pack for intensive overnight moisture and hydration. Convenient individual portions for smooth skin.",
-        "tags": [
-          "vt-cosmetics",
-          "sleeping-mask",
-          "hyaluronic-acid",
-          "facial-mask",
-          "k-beauty",
-          "skincare",
-          "overnight-mask"
-        ],
-        "product_type": "Face Mask"
-      },
-      "copy_status": "ok",
-      "generation_mode": "carried_verified_copy",
-      "agent_blocked_by": [],
-      "error": ""
-    },
-    {
       "canonical_product_id": "CP000038",
       "pd_no": "1027327",
       "name_ko": "바세린 마스크팩 집중보습",
@@ -316,6 +284,27 @@
       "generation_mode": "deterministic_local_template_v1",
       "agent_blocked_by": [],
       "error": ""
+    },
+    {
+      "canonical_product_id": "CP000158",
+      "pd_no": "1060489",
+      "name_ko": "메디필 시카 쿨링 진정 랩핑 마스크 4 ml 4개입",
+      "bucket": "마스크팩",
+      "price_krw": 3000,
+      "rating": null,
+      "review_count": null,
+      "shopify_score": 87,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060489",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/uaaakIRgplIWVxAb7Zq11060489_00_00uaaakIRgplIWVxAb7Zq1.jpg",
+      "copy": null,
+      "copy_status": "skipped_prerequisite",
+      "generation_mode": "none",
+      "agent_blocked_by": [
+        "gosi",
+        "us_label",
+        "legal"
+      ],
+      "error": "ontology 선행 게이트 미통과: gosi, us_label, legal"
     }
   ]
 }

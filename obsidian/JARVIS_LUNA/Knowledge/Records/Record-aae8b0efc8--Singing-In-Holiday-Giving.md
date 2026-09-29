@@ -2,7 +2,7 @@
 title: "Record aae8b0efc8 · Singing-In-Holiday-Giving"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:27.720911+00:00
+updated_at: 2026-09-29T14:49:35.689418+00:00
 tags: [record, real-data]
 ---
 

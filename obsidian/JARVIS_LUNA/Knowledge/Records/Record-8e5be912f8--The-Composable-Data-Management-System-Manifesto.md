@@ -2,7 +2,7 @@
 title: "Record 8e5be912f8 · The-Composable-Data-Management-System-Manifesto"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:25.851268+00:00
+updated_at: 2026-09-29T14:49:33.790727+00:00
 tags: [record, real-data]
 ---
 

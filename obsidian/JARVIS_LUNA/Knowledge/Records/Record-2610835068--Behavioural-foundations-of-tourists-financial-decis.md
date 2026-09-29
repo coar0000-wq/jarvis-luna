@@ -2,7 +2,7 @@
 title: "Record 2610835068 · Behavioural-foundations-of-tourists-financial-decis"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:25.701180+00:00
+updated_at: 2026-09-29T14:49:33.642416+00:00
 tags: [record, real-data]
 ---
 

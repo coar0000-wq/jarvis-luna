@@ -2,7 +2,7 @@
 title: "기관 · Qualcomm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:29.009464+00:00
+updated_at: 2026-09-29T14:49:36.984295+00:00
 tags: [org, real-data]
 ---
 

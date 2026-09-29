@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T10:22:20.483563+00:00",
+  "generated_at": "2026-09-29T14:45:51.737001+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
@@ -23,11 +23,11 @@
         "channel": "oliveyoung_us",
         "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
         "similarity": 0.733,
-        "demand_weight": 0.784,
+        "demand_weight": 0.735,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.575
+        "match_score": 0.539
       },
       "registerable": true,
       "registerable_source": "data/listing_gate.json",
@@ -41,7 +41,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -57,19 +57,18 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.686,
+        "confidence": 0.684,
         "usage": {
           "input_tokens": 1105,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.65,
+        "risk_score": 1.57,
         "model": "jev-1.13.0",
         "state_signature": "cdb95028555fb2cc1091059f8cd86fe4a993cc1cce6206584626e7d74b6ea8c6",
-        "decided_at": "2026-09-29T10:22:26.863586+00:00",
-        "carried_from": "2026-09-29T10:22:26.863586+00:00"
+        "decided_at": "2026-09-29T14:47:23.452529+00:00"
       },
-      "gate_generated_at": "2026-09-29T12:07:22.887914+00:00"
+      "gate_generated_at": "2026-09-29T14:47:25.083429+00:00"
     },
     {
       "rank": 2,
@@ -107,7 +106,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -119,23 +118,22 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.91,
+        "model_route_confidence": 0.93,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.702,
+        "confidence": 0.728,
         "usage": {
           "input_tokens": 1085,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.62,
+        "risk_score": 1.63,
         "model": "jev-1.13.0",
         "state_signature": "51d0e73d5ba5ed41de4d4bf02811433e8f7ef09ef764ae07bb5b94a8cc530ea7",
-        "decided_at": "2026-09-29T10:22:26.997644+00:00",
-        "carried_from": "2026-09-29T10:22:26.997644+00:00"
+        "decided_at": "2026-09-29T14:47:23.608311+00:00"
       },
-      "gate_generated_at": "2026-09-29T12:07:22.887914+00:00"
+      "gate_generated_at": "2026-09-29T14:47:25.083429+00:00"
     },
     {
       "rank": 3,
@@ -154,11 +152,11 @@
         "channel": "oliveyoung_us",
         "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
         "similarity": 0.733,
-        "demand_weight": 0.784,
+        "demand_weight": 0.735,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.575
+        "match_score": 0.539
       },
       "registerable": true,
       "registerable_source": "data/listing_gate.json",
@@ -172,7 +170,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -188,19 +186,18 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.692,
+        "confidence": 0.704,
         "usage": {
           "input_tokens": 1104,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.62,
+        "risk_score": 1.61,
         "model": "jev-1.13.0",
         "state_signature": "51d0e73d5ba5ed41de4d4bf02811433e8f7ef09ef764ae07bb5b94a8cc530ea7",
-        "decided_at": "2026-09-29T10:22:27.091547+00:00",
-        "carried_from": "2026-09-29T10:22:27.091547+00:00"
+        "decided_at": "2026-09-29T14:47:23.795824+00:00"
       },
-      "gate_generated_at": "2026-09-29T12:07:22.887914+00:00"
+      "gate_generated_at": "2026-09-29T14:47:25.083429+00:00"
     },
     {
       "rank": 4,
@@ -238,7 +235,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -254,19 +251,18 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.716,
+        "confidence": 0.712,
         "usage": {
           "input_tokens": 1086,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.66,
+        "risk_score": 1.58,
         "model": "jev-1.13.0",
         "state_signature": "a235a30f46906db0e3e7198e8f998dc4cfdaf92ceac3f46d1cef17739f39ea0f",
-        "decided_at": "2026-09-29T10:22:27.204887+00:00",
-        "carried_from": "2026-09-29T10:22:27.204887+00:00"
+        "decided_at": "2026-09-29T14:47:23.944090+00:00"
       },
-      "gate_generated_at": "2026-09-29T12:07:22.887914+00:00"
+      "gate_generated_at": "2026-09-29T14:47:25.083429+00:00"
     },
     {
       "rank": 5,
@@ -304,7 +300,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -316,23 +312,22 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.94,
+        "model_route_confidence": 0.93,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.71,
+        "confidence": 0.706,
         "usage": {
           "input_tokens": 1097,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.65,
+        "risk_score": 1.63,
         "model": "jev-1.13.0",
         "state_signature": "a235a30f46906db0e3e7198e8f998dc4cfdaf92ceac3f46d1cef17739f39ea0f",
-        "decided_at": "2026-09-29T10:22:27.310240+00:00",
-        "carried_from": "2026-09-29T10:22:27.310240+00:00"
+        "decided_at": "2026-09-29T14:47:24.127901+00:00"
       },
-      "gate_generated_at": "2026-09-29T12:07:22.887914+00:00"
+      "gate_generated_at": "2026-09-29T14:47:25.083429+00:00"
     },
     {
       "rank": 6,
@@ -370,7 +365,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -382,92 +377,25 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.9,
+        "model_route_confidence": 0.92,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.684,
+        "confidence": 0.71,
         "usage": {
           "input_tokens": 1089,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.56,
+        "risk_score": 1.64,
         "model": "jev-1.13.0",
         "state_signature": "9cd2800fc8d4cac3636219a503b910fbb2b0924bd299e98e77065bc73dc4dcbb",
-        "decided_at": "2026-09-29T10:22:27.423592+00:00",
-        "carried_from": "2026-09-29T10:22:27.423592+00:00"
+        "decided_at": "2026-09-29T14:47:24.314680+00:00"
       },
-      "gate_generated_at": "2026-09-29T12:07:22.887914+00:00"
+      "gate_generated_at": "2026-09-29T14:47:25.083429+00:00"
     },
     {
       "rank": 7,
-      "canonical_product_id": "CP000109",
-      "pd_no": "1049285",
-      "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-      "bucket": "스킨케어",
-      "price_krw": 3000,
-      "shopify_score": 93,
-      "grade": "S",
-      "s_rule": "multi_token",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250929/gblFwiiyQbV92ezzjLMk1049285_00_01gblFwiiyQbV92ezzjLMk.jpg",
-      "recommend_reason": "글로벌 'Smushy SOS Hydrating Lip Mask' (ulta_beauty) 유사 73% · 토큰 hydrating, mask",
-      "matched_global": {
-        "channel": "ulta_beauty",
-        "global_product": "Smushy SOS Hydrating Lip Mask",
-        "similarity": 0.733,
-        "demand_weight": 0.425,
-        "matched_tokens": [
-          "hydrating",
-          "mask"
-        ],
-        "match_score": 0.312
-      },
-      "registerable": true,
-      "registerable_source": "data/listing_gate.json",
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "blocked_by": [],
-      "public_ready": false,
-      "public_blocked_by": [
-        "legal_full"
-      ],
-      "typesafe": {
-        "framework": "typesafe_system_one_compatible",
-        "enabled": true,
-        "mode": "typesafe_carried",
-        "source": "typesafe",
-        "paid_api_called": false,
-        "enforced": false,
-        "grade_advisory": "hold",
-        "legal_gate_advisory": "review",
-        "risk_level": "medium",
-        "risk_points": 1,
-        "team_routes": [
-          "legal"
-        ],
-        "model_route": "human",
-        "model_route_confidence": 0.93,
-        "findings": [
-          "public blockers: legal_full"
-        ],
-        "confidence": 0.704,
-        "usage": {
-          "input_tokens": 1096,
-          "output_tokens": 198
-        },
-        "free_credits_only": true,
-        "risk_score": 1.48,
-        "model": "jev-1.13.0",
-        "state_signature": "e05a0e27591e0c95f4d9b69ae7367544fdcdf352632872cce305bc9033dca5a5",
-        "decided_at": "2026-09-29T10:22:27.588296+00:00",
-        "carried_from": "2026-09-29T10:22:27.588296+00:00"
-      },
-      "gate_generated_at": "2026-09-29T12:07:22.887914+00:00"
-    },
-    {
-      "rank": 8,
       "canonical_product_id": "CP000038",
       "pd_no": "1027327",
       "name": "바세린 마스크팩 집중보습",
@@ -512,7 +440,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -525,28 +453,27 @@
           "listing"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.93,
+        "model_route_confidence": 0.89,
         "findings": [
           "draft blockers: copy, us_label, legal",
           "public blockers: copy, us_label, legal, legal_full",
           "legal hard block"
         ],
-        "confidence": 0.912,
+        "confidence": 0.902,
         "usage": {
           "input_tokens": 1113,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 2.7,
+        "risk_score": 2.67,
         "model": "jev-1.13.0",
         "state_signature": "b0582cacf994482e3059f0d2ae9df7f5c57a4a9358f95651c17206ce007a8ad0",
-        "decided_at": "2026-09-29T10:22:27.704008+00:00",
-        "carried_from": "2026-09-29T10:22:27.704008+00:00"
+        "decided_at": "2026-09-29T14:47:24.494032+00:00"
       },
-      "gate_generated_at": "2026-09-29T12:07:22.887914+00:00"
+      "gate_generated_at": "2026-09-29T14:47:25.083429+00:00"
     },
     {
-      "rank": 9,
+      "rank": 8,
       "canonical_product_id": "CP000151",
       "pd_no": "1059834",
       "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
@@ -581,11 +508,11 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "hold",
+        "grade_advisory": "review",
         "legal_gate_advisory": "review",
         "risk_level": "medium",
         "risk_points": 1,
@@ -597,22 +524,21 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.702,
+        "confidence": 0.706,
         "usage": {
           "input_tokens": 1094,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.43,
+        "risk_score": 1.42,
         "model": "jev-1.13.0",
         "state_signature": "72531625bdb11b67ee797df5b076b36210e54f4a386ed65f9afe25a575270ba5",
-        "decided_at": "2026-09-29T10:22:27.821942+00:00",
-        "carried_from": "2026-09-29T10:22:27.821942+00:00"
+        "decided_at": "2026-09-29T14:47:24.678012+00:00"
       },
-      "gate_generated_at": "2026-09-29T12:07:22.887914+00:00"
+      "gate_generated_at": "2026-09-29T14:47:25.083429+00:00"
     },
     {
-      "rank": 10,
+      "rank": 9,
       "canonical_product_id": "CP000075",
       "pd_no": "1042619",
       "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
@@ -647,7 +573,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -663,22 +589,103 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.704,
+        "confidence": 0.686,
         "usage": {
           "input_tokens": 1091,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.55,
+        "risk_score": 1.54,
         "model": "jev-1.13.0",
         "state_signature": "056b49377500e8706a467cb391d5c4e59863606a6588d742d745395c1c4e14fa",
-        "decided_at": "2026-09-29T10:22:27.978331+00:00",
-        "carried_from": "2026-09-29T10:22:27.978331+00:00"
+        "decided_at": "2026-09-29T14:47:24.871879+00:00"
       },
-      "gate_generated_at": "2026-09-29T12:07:22.887914+00:00"
+      "gate_generated_at": "2026-09-29T14:47:25.083429+00:00"
+    },
+    {
+      "rank": 10,
+      "canonical_product_id": "CP000158",
+      "pd_no": "1060489",
+      "name": "메디필 시카 쿨링 진정 랩핑 마스크 4 ml 4개입",
+      "bucket": "마스크팩",
+      "price_krw": 3000,
+      "shopify_score": 87,
+      "grade": "S",
+      "s_rule": "multi_token",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060489",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/uaaakIRgplIWVxAb7Zq11060489_00_00uaaakIRgplIWVxAb7Zq1.jpg",
+      "recommend_reason": "글로벌 'Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream' (ulta_beauty) 유사 59% · 토큰 calming, centella",
+      "matched_global": {
+        "channel": "ulta_beauty",
+        "global_product": "Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream",
+        "similarity": 0.593,
+        "demand_weight": 0.637,
+        "matched_tokens": [
+          "calming",
+          "centella"
+        ],
+        "match_score": 0.378
+      },
+      "registerable": false,
+      "registerable_source": "data/listing_gate.json",
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "gosi",
+        "us_label",
+        "legal"
+      ],
+      "blocked_by": [
+        "copy",
+        "gosi",
+        "us_label",
+        "legal"
+      ],
+      "public_ready": false,
+      "public_blocked_by": [
+        "copy",
+        "gosi",
+        "us_label",
+        "legal",
+        "legal_full"
+      ],
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": true,
+        "mode": "typesafe_observational_free_credits",
+        "source": "typesafe",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "hold",
+        "legal_gate_advisory": "block",
+        "risk_level": "critical",
+        "risk_points": 9,
+        "team_routes": [
+          "legal",
+          "sourcing",
+          "listing"
+        ],
+        "model_route": "human",
+        "model_route_confidence": 0.91,
+        "findings": [
+          "draft blockers: copy, gosi, us_label, legal",
+          "public blockers: copy, gosi, us_label, legal, legal_full",
+          "legal hard block"
+        ],
+        "confidence": 0.936,
+        "usage": {
+          "input_tokens": 1136,
+          "output_tokens": 198
+        },
+        "free_credits_only": true,
+        "risk_score": 2.82,
+        "model": "jev-1.13.0",
+        "state_signature": "dde31c10e5a124a988452c35c89827158335f637f4ba35f152d3b99b3a8502d8",
+        "decided_at": "2026-09-29T14:47:25.083403+00:00"
+      },
+      "gate_generated_at": "2026-09-29T14:47:25.083429+00:00"
     }
   ],
-  "agent_ready_count": 9,
-  "registerable_count": 9,
+  "agent_ready_count": 8,
+  "registerable_count": 8,
   "registerable_source": "data/listing_gate.json"
 }

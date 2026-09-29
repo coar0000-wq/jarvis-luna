@@ -2,7 +2,7 @@
 title: "Record d128206df0 · dAlba-Vita-Toning-Capsule-Cream-194-oz55g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:27.166872+00:00
+updated_at: 2026-09-29T14:49:35.122447+00:00
 tags: [record, real-data]
 ---
 

@@ -1,6 +1,6 @@
 {
   "agent": "Score-Explain",
-  "generated_at": "2026-09-29T13:55:06.283333+00:00",
+  "generated_at": "2026-09-29T14:49:41.761358+00:00",
   "s_count": 10,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
   "items": [
@@ -75,18 +75,6 @@
       ]
     },
     {
-      "pd_no": "1049285",
-      "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-      "score": 93,
-      "why": "글로벌 'Smushy SOS Hydrating Lip Mask' (ulta_beauty) 유사 73% · 토큰 hydrating, mask",
-      "global": "Smushy SOS Hydrating Lip Mask",
-      "channel": "ulta_beauty",
-      "tokens": [
-        "hydrating",
-        "mask"
-      ]
-    },
-    {
       "pd_no": "1027327",
       "name": "바세린 마스크팩 집중보습",
       "score": 91,
@@ -120,6 +108,18 @@
       "tokens": [
         "collagen",
         "mask"
+      ]
+    },
+    {
+      "pd_no": "1060489",
+      "name": "메디필 시카 쿨링 진정 랩핑 마스크 4 ml 4개입",
+      "score": 87,
+      "why": "글로벌 'Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream' (ulta_beauty) 유사 59% · 토큰 calming, centella",
+      "global": "Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream",
+      "channel": "ulta_beauty",
+      "tokens": [
+        "calming",
+        "centella"
       ]
     }
   ],

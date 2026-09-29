@@ -2,7 +2,7 @@
 title: "Record 995c042489 · Venture-Capital-Funding-Gap"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:27.733432+00:00
+updated_at: 2026-09-29T14:49:35.703197+00:00
 tags: [record, real-data]
 ---
 

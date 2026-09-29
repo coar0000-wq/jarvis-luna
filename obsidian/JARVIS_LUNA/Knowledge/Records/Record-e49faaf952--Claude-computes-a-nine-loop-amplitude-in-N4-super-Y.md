@@ -2,7 +2,7 @@
 title: "Record e49faaf952 · Claude-computes-a-nine-loop-amplitude-in-N4-super-Yang-Mills"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:27.591381+00:00
+updated_at: 2026-09-29T14:49:35.553691+00:00
 tags: [record, real-data]
 ---
 

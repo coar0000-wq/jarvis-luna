@@ -2,7 +2,7 @@
 title: "Record 158abd6f19 · Digital-Electronic-System-on-Chip-Design-Methodologies-Tools-Evolution"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:25.938174+00:00
+updated_at: 2026-09-29T14:49:33.880607+00:00
 tags: [record, real-data]
 ---
 

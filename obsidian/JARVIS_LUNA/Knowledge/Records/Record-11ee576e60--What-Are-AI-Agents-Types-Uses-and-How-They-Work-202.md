@@ -2,7 +2,7 @@
 title: "Record 11ee576e60 · What-Are-AI-Agents-Types-Uses-and-How-They-Work-202"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:26.366812+00:00
+updated_at: 2026-09-29T14:49:34.329017+00:00
 tags: [record, real-data]
 ---
 

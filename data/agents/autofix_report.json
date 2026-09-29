@@ -1,6 +1,6 @@
 {
   "agent": "Safe-Auto-Fix",
-  "generated_at": "2026-09-29T10:24:07.654284+00:00",
+  "generated_at": "2026-09-29T14:49:03.515287+00:00",
   "status": "success",
   "enabled": true,
   "chief_of_staff": {
@@ -37,16 +37,16 @@
       ]
     },
     "graph": {
-      "nodes": 83684,
-      "links": 348140,
+      "nodes": 83701,
+      "links": 348344,
       "dangling_generated": 0,
-      "runtime_nodes": 83684,
-      "runtime_links": 348140,
+      "runtime_nodes": 83701,
+      "runtime_links": 348344,
       "runtime_dangling_generated": 0,
       "truth_guard": {
         "vault": "obsidian/JARVIS_LUNA",
-        "actual_nodes": 83684,
-        "actual_links": 348140,
+        "actual_nodes": 83701,
+        "actual_links": 348344,
         "actual_dangling_generated": 0,
         "actual_dangling_personal": 21,
         "generated_dangling_samples": [],
@@ -134,8 +134,8 @@
         ],
         "generated_dangling_sample_source_count": 0,
         "personal_dangling_sample_source_count": 8,
-        "runtime_nodes": 83684,
-        "runtime_links": 348140,
+        "runtime_nodes": 83701,
+        "runtime_links": 348344,
         "runtime_dangling_generated": 0,
         "runtime_consistent": true,
         "anomaly": false,
@@ -150,15 +150,21 @@
     },
     "dashboard_issues": [
       {
+        "team": "market",
+        "kind": "auto_remediable",
+        "text": "고시 표 1건 판독 남음 — 1060489 메디필 시카 쿨링 진정 랩핑 마스 [전성분 · groq meta-llama/llama-4-scout-17b-16e-instruct HTTP 403: error code: 1] https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060489",
+        "source": "action"
+      },
+      {
         "team": "listing",
         "kind": "human_approval_required",
-        "text": "카피 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 3건 사람 승인 대기",
+        "text": "카피 2건, 고시 1건, 영문라벨 2건, 법률 2건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 3건 사람 승인 대기",
         "source": "waiting"
       },
       {
         "team": "legal",
         "kind": "human_approval_required",
-        "text": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
+        "text": "차단 2건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab), 메디필 시카 쿨링 진정 랩핑 (자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
         "source": "waiting"
       },
       {
@@ -169,8 +175,8 @@
       }
     ],
     "source_errors": {
-      "broken": 4,
-      "generated_at": "2026-09-29T10:23:54.973143+00:00",
+      "broken": 5,
+      "generated_at": "2026-09-29T14:48:51.021156+00:00",
       "items": [
         {
           "team": "기관 수집팀",
@@ -191,6 +197,11 @@
           "team": "채널 운영팀",
           "item": "FDA 화장품 리콜·조치 이력",
           "reason": "요청 실패: HTTP 404"
+        },
+        {
+          "team": "마케팅 조사팀",
+          "item": "1060489",
+          "reason": "groq meta-llama/llama-4-scout-17b-16e-instruct HTTP 403: error code: 1010\n | gemini: gemini-pro-latest RuntimeError: HTTP 429: {\n  \"error\": {\n   "
         }
       ]
     }
@@ -223,16 +234,16 @@
       ]
     },
     "graph": {
-      "nodes": 83684,
-      "links": 348140,
+      "nodes": 83701,
+      "links": 348344,
       "dangling_generated": 0,
-      "runtime_nodes": 83684,
-      "runtime_links": 348140,
+      "runtime_nodes": 83701,
+      "runtime_links": 348344,
       "runtime_dangling_generated": 0,
       "truth_guard": {
         "vault": "obsidian/JARVIS_LUNA",
-        "actual_nodes": 83684,
-        "actual_links": 348140,
+        "actual_nodes": 83701,
+        "actual_links": 348344,
         "actual_dangling_generated": 0,
         "actual_dangling_personal": 21,
         "generated_dangling_samples": [],
@@ -320,8 +331,8 @@
         ],
         "generated_dangling_sample_source_count": 0,
         "personal_dangling_sample_source_count": 8,
-        "runtime_nodes": 83684,
-        "runtime_links": 348140,
+        "runtime_nodes": 83701,
+        "runtime_links": 348344,
         "runtime_dangling_generated": 0,
         "runtime_consistent": true,
         "anomaly": false,
@@ -336,15 +347,21 @@
     },
     "dashboard_issues": [
       {
+        "team": "market",
+        "kind": "auto_remediable",
+        "text": "고시 표 1건 판독 남음 — 1060489 메디필 시카 쿨링 진정 랩핑 마스 [전성분 · groq meta-llama/llama-4-scout-17b-16e-instruct HTTP 403: error code: 1] https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060489",
+        "source": "action"
+      },
+      {
         "team": "listing",
         "kind": "human_approval_required",
-        "text": "카피 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 3건 사람 승인 대기",
+        "text": "카피 2건, 고시 1건, 영문라벨 2건, 법률 2건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 3건 사람 승인 대기",
         "source": "waiting"
       },
       {
         "team": "legal",
         "kind": "human_approval_required",
-        "text": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
+        "text": "차단 2건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab), 메디필 시카 쿨링 진정 랩핑 (자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
         "source": "waiting"
       },
       {
@@ -355,8 +372,8 @@
       }
     ],
     "source_errors": {
-      "broken": 4,
-      "generated_at": "2026-09-29T10:23:54.973143+00:00",
+      "broken": 5,
+      "generated_at": "2026-09-29T14:48:51.021156+00:00",
       "items": [
         {
           "team": "기관 수집팀",
@@ -377,6 +394,11 @@
           "team": "채널 운영팀",
           "item": "FDA 화장품 리콜·조치 이력",
           "reason": "요청 실패: HTTP 404"
+        },
+        {
+          "team": "마케팅 조사팀",
+          "item": "1060489",
+          "reason": "groq meta-llama/llama-4-scout-17b-16e-instruct HTTP 403: error code: 1010\n | gemini: gemini-pro-latest RuntimeError: HTTP 429: {\n  \"error\": {\n   "
         }
       ]
     }
@@ -384,10 +406,10 @@
   "improvement": {
     "graph_dangling_before": 0,
     "graph_dangling_after": 0,
-    "graph_nodes_before": 83684,
-    "graph_nodes_after": 83684,
-    "graph_links_before": 348140,
-    "graph_links_after": 348140,
+    "graph_nodes_before": 83701,
+    "graph_nodes_after": 83701,
+    "graph_links_before": 348344,
+    "graph_links_after": 348344,
     "parse_failed_before": 0,
     "parse_failed_after": 0,
     "s_count_before": 10,
@@ -396,8 +418,8 @@
     "channels_live_after": 13,
     "obsidian_truth_before": {
       "vault": "obsidian/JARVIS_LUNA",
-      "actual_nodes": 83684,
-      "actual_links": 348140,
+      "actual_nodes": 83701,
+      "actual_links": 348344,
       "actual_dangling_generated": 0,
       "actual_dangling_personal": 21,
       "generated_dangling_samples": [],
@@ -485,8 +507,8 @@
       ],
       "generated_dangling_sample_source_count": 0,
       "personal_dangling_sample_source_count": 8,
-      "runtime_nodes": 83684,
-      "runtime_links": 348140,
+      "runtime_nodes": 83701,
+      "runtime_links": 348344,
       "runtime_dangling_generated": 0,
       "runtime_consistent": true,
       "anomaly": false,
@@ -494,8 +516,8 @@
     },
     "obsidian_truth_after": {
       "vault": "obsidian/JARVIS_LUNA",
-      "actual_nodes": 83684,
-      "actual_links": 348140,
+      "actual_nodes": 83701,
+      "actual_links": 348344,
       "actual_dangling_generated": 0,
       "actual_dangling_personal": 21,
       "generated_dangling_samples": [],
@@ -583,8 +605,8 @@
       ],
       "generated_dangling_sample_source_count": 0,
       "personal_dangling_sample_source_count": 8,
-      "runtime_nodes": 83684,
-      "runtime_links": 348140,
+      "runtime_nodes": 83701,
+      "runtime_links": 348344,
       "runtime_dangling_generated": 0,
       "runtime_consistent": true,
       "anomaly": false,
@@ -593,10 +615,10 @@
   },
   "remediation_state": {
     "schema_version": 1,
-    "generated_at": "2026-09-29T10:24:07.653874+00:00",
+    "generated_at": "2026-09-29T14:49:03.514583+00:00",
     "check_interval": "2_hours",
     "escalate_after_detected_runs": 3,
-    "active_count": 6,
+    "active_count": 7,
     "auto_remediable_count": 0,
     "waiting_human_count": 2,
     "waiting_external_count": 4,
@@ -608,10 +630,10 @@
         "priority": "P4",
         "classification": "human_approval_required",
         "state": "waiting_human_approval",
-        "reason": "카피 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 3건 사람 승인 대기",
+        "reason": "카피 2건, 고시 1건, 영문라벨 2건, 법률 2건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 3건 사람 승인 대기",
         "first_seen_at": "2026-09-21T10:13:44.774659+00:00",
-        "last_seen_at": "2026-09-29T10:24:07.653874+00:00",
-        "detected_runs": 11,
+        "last_seen_at": "2026-09-29T14:49:03.514583+00:00",
+        "detected_runs": 12,
         "auto_attempts": 0,
         "resolved_at": null
       },
@@ -622,10 +644,10 @@
         "priority": "P4",
         "classification": "human_approval_required",
         "state": "waiting_human_approval",
-        "reason": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
+        "reason": "차단 2건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab), 메디필 시카 쿨링 진정 랩핑 (자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
         "first_seen_at": "2026-09-21T10:13:44.774659+00:00",
-        "last_seen_at": "2026-09-29T10:24:07.653874+00:00",
-        "detected_runs": 11,
+        "last_seen_at": "2026-09-29T14:49:03.514583+00:00",
+        "detected_runs": 12,
         "auto_attempts": 0,
         "resolved_at": null
       },
@@ -638,8 +660,8 @@
         "state": "waiting_external_dependency",
         "reason": "다음 단계: Shopify 스토어 개설 및 기본 설정",
         "first_seen_at": "2026-09-21T10:13:44.774659+00:00",
-        "last_seen_at": "2026-09-29T10:24:07.653874+00:00",
-        "detected_runs": 11,
+        "last_seen_at": "2026-09-29T14:49:03.514583+00:00",
+        "detected_runs": 12,
         "auto_attempts": 0,
         "resolved_at": null
       },
@@ -650,10 +672,10 @@
         "priority": "P4",
         "classification": "external_dependency",
         "state": "waiting_external_dependency",
-        "reason": "외부 소스 고장 4건 추적 중 (기관 수집팀:Deutsche Bank 사이트, 기관 수집팀:TSMC 뉴스룸, 기관 수집팀:Marvell·Intel·Qualcomm·ASML IR RSS, 채널 운영팀:FDA 화장품 리콜·조치 이력)",
+        "reason": "외부 소스 고장 5건 추적 중 (기관 수집팀:Deutsche Bank 사이트, 기관 수집팀:TSMC 뉴스룸, 기관 수집팀:Marvell·Intel·Qualcomm·ASML IR RSS, 채널 운영팀:FDA 화장품 리콜·조치 이력)",
         "first_seen_at": "2026-09-21T10:24:44.825768+00:00",
-        "last_seen_at": "2026-09-29T10:24:07.653874+00:00",
-        "detected_runs": 9,
+        "last_seen_at": "2026-09-29T14:49:03.514583+00:00",
+        "detected_runs": 10,
         "auto_attempts": 0,
         "resolved_at": null
       },
@@ -663,13 +685,13 @@
         "action": "TEAM_ACTION_MARKET",
         "priority": "P3",
         "classification": "revalidate_only",
-        "state": "resolved",
-        "reason": "고시 표 1건 판독 남음 — 1060489 메디필 시카 쿨링 진정 랩핑 마스 [전성분,제조사 · groq meta-llama/llama-4-scout-17b-16e-instruct HTTP 403: error code: 1] https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060489",
+        "state": "escalated_monitoring",
+        "reason": "고시 표 1건 판독 남음 — 1060489 메디필 시카 쿨링 진정 랩핑 마스 [전성분 · groq meta-llama/llama-4-scout-17b-16e-instruct HTTP 403: error code: 1] https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060489",
         "first_seen_at": "2026-09-27T14:57:33.826917+00:00",
-        "last_seen_at": "2026-09-29T00:25:01.109162+00:00",
-        "detected_runs": 3,
+        "last_seen_at": "2026-09-29T14:49:03.514583+00:00",
+        "detected_runs": 4,
         "auto_attempts": 0,
-        "resolved_at": "2026-09-29T08:02:29.336982+00:00"
+        "resolved_at": null
       },
       "signals:INVESTIGATE_EMPTY_CHANNELS": {
         "key": "signals:INVESTIGATE_EMPTY_CHANNELS",
@@ -680,8 +702,8 @@
         "state": "waiting_external_dependency",
         "reason": "비어 있거나 실패 상태인 채널이 1개 존재한다.",
         "first_seen_at": "2026-09-28T19:24:48.333509+00:00",
-        "last_seen_at": "2026-09-29T10:24:07.653874+00:00",
-        "detected_runs": 4,
+        "last_seen_at": "2026-09-29T14:49:03.514583+00:00",
+        "detected_runs": 5,
         "auto_attempts": 0,
         "resolved_at": null
       },
@@ -694,8 +716,8 @@
         "state": "waiting_external_dependency",
         "reason": "글로벌 신호 채널 저하",
         "first_seen_at": "2026-09-28T19:24:48.333509+00:00",
-        "last_seen_at": "2026-09-29T10:24:07.653874+00:00",
-        "detected_runs": 4,
+        "last_seen_at": "2026-09-29T14:49:03.514583+00:00",
+        "detected_runs": 5,
         "auto_attempts": 0,
         "resolved_at": null
       }

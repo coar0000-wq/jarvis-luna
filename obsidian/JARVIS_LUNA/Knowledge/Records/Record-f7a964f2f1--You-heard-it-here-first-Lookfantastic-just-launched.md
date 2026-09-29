@@ -2,7 +2,7 @@
 title: "Record f7a964f2f1 · You-heard-it-here-first-Lookfantastic-just-launched-its-first-ever-K-b"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:26.823348+00:00
+updated_at: 2026-09-29T14:49:34.786814+00:00
 tags: [record, real-data]
 ---
 

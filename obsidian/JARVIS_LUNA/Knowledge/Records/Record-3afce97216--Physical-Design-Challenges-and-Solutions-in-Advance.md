@@ -2,7 +2,7 @@
 title: "Record 3afce97216 · Physical-Design-Challenges-and-Solutions-in-Advanced-Technology-Nodes-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:25.916394+00:00
+updated_at: 2026-09-29T14:49:33.861409+00:00
 tags: [record, real-data]
 ---
 

@@ -1,6 +1,6 @@
 {
   "team": "디자인팀",
-  "generated_at": "2026-09-29T10:12:29.347379+00:00",
+  "generated_at": "2026-09-29T14:36:32.546225+00:00",
   "scope": "Shopify 스토어 디자인 사양 관리 + 디자인 레퍼런스 수집",
   "checklist": {
     "total": 12,
@@ -147,12 +147,12 @@
     "failures": [],
     "quality": {
       "items": 78,
-      "relevant": 38,
-      "relevant_ratio": 0.487,
+      "relevant": 37,
+      "relevant_ratio": 0.474,
       "per_feed": {
         "Shopify Changelog": {
           "items": 15,
-          "relevant": 9
+          "relevant": 8
         },
         "Shopify Dev Changelog": {
           "items": 15,
@@ -185,6 +185,14 @@
       "policy_version": 1
     },
     "items": [
+      {
+        "title": "Return window overrides now available",
+        "url": "https://changelog.shopify.com/posts/return-window-overrides-now-available",
+        "date": "2026-09-29",
+        "summary": "You can now set return window overrides by market for specific collections, products, or variants. Overrides let you choose a different return period than your default return window - for example, 14 days for seasonal items instead of your standard 90 days. How it works * Overrides replace the defau",
+        "feed": "Shopify Changelog",
+        "relevance": 0
+      },
       {
         "title": "Local delivery orders in Shopify POS",
         "url": "https://changelog.shopify.com/posts/local-delivery-orders-in-shopify-pos",
@@ -298,11 +306,11 @@
         "relevance": 1
       },
       {
-        "title": "Collect WhatsApp marketing consent at checkout",
-        "url": "https://changelog.shopify.com/posts/collect-whatsapp-marketing-consent-at-checkout",
-        "date": "2026-09-10",
-        "summary": "Now you can collect WhatsApp marketing consent at checkout. Capture opt-ins when customers make a purchase, expanding your subscriber list and helping you convert new leads through WhatsApp. Enable WhatsApp marketing consent in your Checkout settings .",
-        "feed": "Shopify Changelog",
+        "title": "Move existing subscriptions to Shopify App Pricing",
+        "url": "https://shopify.dev/changelog/move-existing-subscriptions-to-shopify-app-pricing",
+        "date": "2026-09-29",
+        "summary": "Apps that bill with the Billing API can now move their existing subscriptions to Shopify App Pricing by using the migration tool in the Partner Dashboard or new commands in Shopify CLI. Subscriptions move at the start of their next billing cycle, and merchants don’t need to re-approve charges. What ",
+        "feed": "Shopify Dev Changelog",
         "relevance": 1
       },
       {
@@ -416,14 +424,6 @@
         "summary": "The GraphQL Admin API now supports a CANCELED receive action for inventory shipments in version 2026-10 . You can mark inventory shipment line item units as canceled when they’ll never arrive, and you can read canceled quantities on shipments and their line items. This is an additive change to the 2",
         "feed": "Shopify Dev Changelog",
         "relevance": 0
-      },
-      {
-        "title": "Removed session.currentSession.staffMemberId from POS UI Extensions (2026-10)",
-        "url": "https://shopify.dev/changelog/removed-session-currentsession-staffmemberid-from-pos-ui-extensions-2026-10",
-        "date": "2026-09-17",
-        "summary": "As of API version 2026-10, the static session.currentSession.staffMemberId field has been removed from the POS UI Extensions Session API. It was deprecated in 2026-07 in favour of session.staffMember, a reactive signal that updates when a different staff member pins into POS. Before targeting API ve",
-        "feed": "Shopify Dev Changelog",
-        "relevance": 1
       },
       {
         "title": "Helix: The internal tool powering our Shopify app's native migration",

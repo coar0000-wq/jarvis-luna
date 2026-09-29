@@ -2,7 +2,7 @@
 title: "Record 3e7607ab3e · Leveraging-Vision-Based-Point-Cloud-Map-Priors-for-Camera-Based-3D-Obj"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:26.098628+00:00
+updated_at: 2026-09-29T14:49:34.039563+00:00
 tags: [record, real-data]
 ---
 

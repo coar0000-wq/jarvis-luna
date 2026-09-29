@@ -2,7 +2,7 @@
 title: "Record 5ac2ef3658 · Dramatically-Different-Moisturizing-LotionFor-Face"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:27.847272+00:00
+updated_at: 2026-09-29T14:49:35.821736+00:00
 tags: [record, real-data]
 ---
 

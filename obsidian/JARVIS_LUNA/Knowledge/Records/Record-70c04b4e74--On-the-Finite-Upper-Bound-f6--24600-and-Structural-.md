@@ -2,7 +2,7 @@
 title: "Record 70c04b4e74 · On-the-Finite-Upper-Bound-f6--24600-and-Structural-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:26.214425+00:00
+updated_at: 2026-09-29T14:49:34.158982+00:00
 tags: [record, real-data]
 ---
 

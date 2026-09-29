@@ -2,7 +2,7 @@
 title: "Record 6620675911 · The-Multipath-Reliable-Connection-MRC-Transport"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:27.029938+00:00
+updated_at: 2026-09-29T14:49:34.986255+00:00
 tags: [record, real-data]
 ---
 

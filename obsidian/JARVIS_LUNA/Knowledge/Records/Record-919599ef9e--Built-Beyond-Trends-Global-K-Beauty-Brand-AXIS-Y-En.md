@@ -2,7 +2,7 @@
 title: "Record 919599ef9e · Built-Beyond-Trends-Global-K-Beauty-Brand-AXIS-Y-En"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:26.698916+00:00
+updated_at: 2026-09-29T14:49:34.677684+00:00
 tags: [record, real-data]
 ---
 

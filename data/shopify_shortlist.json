@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-29T12:07:23.163122+00:00",
+  "generated_at": "2026-09-29T14:47:25.228780+00:00",
   "generator": "scripts/build_shopify_shortlist.py",
   "status": "proposed",
   "source": "rules",
@@ -123,17 +123,6 @@
       "reason": "미국 매칭 유사도 0.68 < 0.7"
     },
     {
-      "unit_id": "VG-CP000109",
-      "pd_nos": [
-        "1049285"
-      ],
-      "names": [
-        "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입"
-      ],
-      "score": 93,
-      "reason": "매칭 근거 형태 불일치: 우리 ['얼굴'] vs 미국 ['lip'] (Smushy SOS Hydrating Lip Mask)"
-    },
-    {
       "unit_id": "VG-CP000038",
       "pd_nos": [
         "1027327"
@@ -154,6 +143,17 @@
       ],
       "score": 88,
       "reason": "미국 매칭 유사도 0.68 < 0.7"
+    },
+    {
+      "unit_id": "VG-CP000158",
+      "pd_nos": [
+        "1060489"
+      ],
+      "names": [
+        "메디필 시카 쿨링 진정 랩핑 마스크 4 ml 4개입"
+      ],
+      "score": 87,
+      "reason": "게이트 초안 미준비: copy, gosi, legal, us_label"
     }
   ],
   "how_to_confirm": "data/manual/shopify_shortlist.json 에 {\"units\": [\"VG-...\" 또는 pd_no], \"confirmed_by\": \"이름\", \"confirmed_at\": \"YYYY-MM-DD\"} 를 적으면 그 목록만 쓴다."

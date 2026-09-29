@@ -2,7 +2,7 @@
 title: "Record 22aaa19539 · manyo-Pure-Soybean-Cleansing-Oil-676-fl-oz200ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:27.145426+00:00
+updated_at: 2026-09-29T14:49:35.101489+00:00
 tags: [record, real-data]
 ---
 

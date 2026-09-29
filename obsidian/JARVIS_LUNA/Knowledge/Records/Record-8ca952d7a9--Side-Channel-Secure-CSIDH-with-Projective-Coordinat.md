@@ -2,7 +2,7 @@
 title: "Record 8ca952d7a9 · Side-Channel-Secure-CSIDH-with-Projective-Coordinates"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:26.238847+00:00
+updated_at: 2026-09-29T14:49:34.185715+00:00
 tags: [record, real-data]
 ---
 

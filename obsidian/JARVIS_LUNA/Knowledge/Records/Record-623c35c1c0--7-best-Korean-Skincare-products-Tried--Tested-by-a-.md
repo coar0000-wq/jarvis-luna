@@ -2,7 +2,7 @@
 title: "Record 623c35c1c0 · 7-best-Korean-Skincare-products-Tried--Tested-by-a-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:26.738695+00:00
+updated_at: 2026-09-29T14:49:34.714572+00:00
 tags: [record, real-data]
 ---
 

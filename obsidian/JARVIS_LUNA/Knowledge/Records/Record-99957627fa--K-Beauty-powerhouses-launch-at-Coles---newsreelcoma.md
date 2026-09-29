@@ -2,7 +2,7 @@
 title: "Record 99957627fa · K-Beauty-powerhouses-launch-at-Coles---newsreelcomau"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:26.621241+00:00
+updated_at: 2026-09-29T14:49:34.596339+00:00
 tags: [record, real-data]
 ---
 

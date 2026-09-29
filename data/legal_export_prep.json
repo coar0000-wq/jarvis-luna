@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T10:22:26.587802+00:00",
+  "generated_at": "2026-09-29T14:47:23.115357+00:00",
   "generator": "scripts/prepare_legal_export.py",
   "왜": "법률팀이 '검토 0건, 5항목 대기' 였는데 그 다섯 중 넷은 이미 저장소에 있는 값으로 채울 수 있었다. 먼저 채우고 사람은 확인만 한다.",
   "hs_출처": "hts.usitc.gov/reststop/search (미국 국제무역위원회 공식)",
@@ -9,6 +9,7 @@
   "hs_filled_this_run": 0,
   "label_complete": 0,
   "사람이_채워야_하는_칸": [
+    "전성분",
     "제품 정체 표시",
     "책임자 이름·주소"
   ],
@@ -439,91 +440,6 @@
       "hard_block_reason": ""
     },
     {
-      "pd_no": "1049285",
-      "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-      "bucket": "스킨케어",
-      "grade": "S",
-      "용도": "스킨케어",
-      "성분": "정제수, 글리세린, 다이프로필렌글라이콜, 사이클로펜타실록세인, 사이클로헥사실록세인, 글리세레스-26, 마카다미아씨오일, 암모늄아크릴로일다이메틸타우레이트/브이피코폴리머, 글리세릴글루코사이드, 1,2-헥산다이올, 동백나무씨오일, 하이드록시아세토페논, 폴리솔베이트20, 하이드록시에틸우레아, 카보머, 베타인, 알란토인, 트레할로오스, 부틸렌글라이콜, 트로메타민, ",
-      "제조국": "한국",
-      "내용량": "4ml",
-      "제조업자": "화장품제조업자: ㈜이앤씨 / 화장품책임판매업자: ㈜브이티코스메틱",
-      "name_en": "VT Super Hyalon Sleeping Mask 4 ml 6 Pack",
-      "product_type_en": "Face Mask",
-      "hs": {
-        "code": "3304.99",
-        "basis": "버킷 '스킨케어'",
-        "label": "",
-        "official": [
-          {
-            "htsno": "3304",
-            "description": "Beauty or make-up preparations and preparations for the care of the skin (other than medicaments), including sunscreen o"
-          },
-          {
-            "htsno": "3304.10.00.00",
-            "description": "Lip make-up preparations"
-          },
-          {
-            "htsno": "3304.20.00.00",
-            "description": "Eye make-up preparations"
-          },
-          {
-            "htsno": "3304.30.00.00",
-            "description": "Manicure or pedicure preparations"
-          },
-          {
-            "htsno": "3305",
-            "description": "Preparations for use on the hair:"
-          },
-          {
-            "htsno": "3305.20.00.00",
-            "description": "Preparations for permanent waving or straightening"
-          }
-        ]
-      },
-      "label": {
-        "draft": {
-          "product_identity": {
-            "label": "제품 정체 표시",
-            "value": "VT Super Hyalon Sleeping Mask 4 ml 6 Pack",
-            "rule": "주표시면. 무엇인지 알 수 있는 이름이나 설명"
-          },
-          "net_quantity": {
-            "label": "내용량",
-            "value": "4ml",
-            "rule": "주표시면 하단 30% 안. 미터법과 야드파운드법 병기"
-          },
-          "ingredients": {
-            "label": "전성분",
-            "value": "정제수, 글리세린, 다이프로필렌글라이콜, 사이클로펜타실록세인, 사이클로헥사실록세인, 글리세레스-26, 마카다미아씨오일, 암모늄아크릴로일다이메틸타우레이트/브이피코폴리머, 글리세릴글루코사이드, 1,2-헥산다이올, 동백나무씨오일, 하이드록시아세토페논, 폴리솔베이트20, 하이드록시에틸우레아, 카보머, 베타인, 알란토인, 트레할로오스, 부틸렌글라이콜, 트로메타민, 덱스트린, 프로판다이올, 다이소듐이디티에이, 글루코오스, 향료, 소듐하이알루로네이트, 소듐폴리아크릴레이트, 치자추출물, 당아욱잎추출물, 글라이신, 세린, 글루타믹애씨드, 클로렐라불가리스추출물, 판테놀, 아스파틱애씨드, 류신, 알라닌, 라이신, 알지닌, 타이로신, 페닐알라닌, 프롤린, 트레오닌, 발린, 아이소류신, 히스티딘, 시스테인, 메티오닌, 폴리글루타믹애씨드, 에틸헥실글리세린, 소듐하이알루로네이트크로스폴리머, 포타슘하이알루로네이트, 하이드록시프로필트라이모늄하이알루로네이트, 하이알루로닉애씨드, 하이드롤라이즈드소듐하이알루로네이트, 하이드롤라이즈드하이알루로닉애씨드, 펜틸렌글라이콜, 소듐아세틸레이티드하이알루로네이트",
-            "rule": "정보표시면. INCI 명칭, 함량 내림차순, 1% 미만은 순서 무관"
-          },
-          "responsible_party": {
-            "label": "책임자 이름·주소",
-            "value": "",
-            "rule": "제조자·포장자·유통자 중 하나. 도시·주·우편번호 포함"
-          },
-          "country_of_origin": {
-            "label": "원산지",
-            "value": "한국",
-            "rule": "수입품은 Made in Korea 등 표기"
-          },
-          "warnings": {
-            "label": "경고 문구",
-            "value": "If irritation occurs, discontinue use. Keep out of reach of children. For external use only.",
-            "rule": "해당 시. 사용 중 이상 발생 시 사용 중단 등"
-          }
-        },
-        "missing": [
-          "책임자 이름·주소"
-        ],
-        "note": "전성분은 한글이다. 미국 라벨에는 INCI 영문명이 필요하다. 번역이 아니라 표준 명칭 대조라서 사람이 확인해야 한다.",
-        "inci_status": "korean_only"
-      },
-      "hard_block": false,
-      "hard_block_reason": ""
-    },
-    {
       "pd_no": "1072554",
       "name": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
       "bucket": "스킨케어",
@@ -863,6 +779,93 @@
       },
       "hard_block": false,
       "hard_block_reason": ""
+    },
+    {
+      "pd_no": "1060489",
+      "name": "메디필 시카 쿨링 진정 랩핑 마스크 4 ml 4개입",
+      "bucket": "마스크팩",
+      "grade": "S",
+      "용도": "마스크팩",
+      "성분": "",
+      "제조국": "한국",
+      "내용량": "4ml, 0.13oz",
+      "제조업자": "제품 내 별도 표기 / 주식회사 스킨이데아",
+      "name_en": "",
+      "product_type_en": "",
+      "hs": {
+        "code": "3304.99",
+        "basis": "버킷 '마스크팩'",
+        "label": "",
+        "official": [
+          {
+            "htsno": "3304",
+            "description": "Beauty or make-up preparations and preparations for the care of the skin (other than medicaments), including sunscreen o"
+          },
+          {
+            "htsno": "3304.10.00.00",
+            "description": "Lip make-up preparations"
+          },
+          {
+            "htsno": "3304.20.00.00",
+            "description": "Eye make-up preparations"
+          },
+          {
+            "htsno": "3304.30.00.00",
+            "description": "Manicure or pedicure preparations"
+          },
+          {
+            "htsno": "3305",
+            "description": "Preparations for use on the hair:"
+          },
+          {
+            "htsno": "3305.20.00.00",
+            "description": "Preparations for permanent waving or straightening"
+          }
+        ]
+      },
+      "label": {
+        "draft": {
+          "product_identity": {
+            "label": "제품 정체 표시",
+            "value": "",
+            "rule": "주표시면. 무엇인지 알 수 있는 이름이나 설명"
+          },
+          "net_quantity": {
+            "label": "내용량",
+            "value": "4ml, 0.13oz",
+            "rule": "주표시면 하단 30% 안. 미터법과 야드파운드법 병기"
+          },
+          "ingredients": {
+            "label": "전성분",
+            "value": "",
+            "rule": "정보표시면. INCI 명칭, 함량 내림차순, 1% 미만은 순서 무관"
+          },
+          "responsible_party": {
+            "label": "책임자 이름·주소",
+            "value": "",
+            "rule": "제조자·포장자·유통자 중 하나. 도시·주·우편번호 포함"
+          },
+          "country_of_origin": {
+            "label": "원산지",
+            "value": "한국",
+            "rule": "수입품은 Made in Korea 등 표기"
+          },
+          "warnings": {
+            "label": "경고 문구",
+            "value": "If irritation occurs, discontinue use. Keep out of reach of children. For external use only.",
+            "rule": "해당 시. 사용 중 이상 발생 시 사용 중단 등"
+          }
+        },
+        "missing": [
+          "제품 정체 표시",
+          "전성분",
+          "책임자 이름·주소"
+        ],
+        "note": "전성분은 한글이다. 미국 라벨에는 INCI 영문명이 필요하다. 번역이 아니라 표준 명칭 대조라서 사람이 확인해야 한다.",
+        "inci_status": "no_ingredients"
+      },
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields"
     }
   ]
 }

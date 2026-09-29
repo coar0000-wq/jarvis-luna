@@ -2,7 +2,7 @@
 title: "Record 761870be3e · I-Went-to-Seoul-to-Find-the-Korean-Skin-Care-Products-People-Actually-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:26.446872+00:00
+updated_at: 2026-09-29T14:49:34.417030+00:00
 tags: [record, real-data]
 ---
 

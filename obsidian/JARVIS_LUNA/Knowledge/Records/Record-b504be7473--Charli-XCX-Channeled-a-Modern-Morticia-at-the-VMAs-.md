@@ -2,7 +2,7 @@
 title: "Record b504be7473 · Charli-XCX-Channeled-a-Modern-Morticia-at-the-VMAs-2026See-the-Photos"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:27.255867+00:00
+updated_at: 2026-09-29T14:49:35.205563+00:00
 tags: [record, real-data]
 ---
 

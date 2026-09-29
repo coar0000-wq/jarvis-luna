@@ -2,7 +2,7 @@
 title: "Record c51f0ced22 · Confidence-Estimation-for-Financial-Vision-Language"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:27.060605+00:00
+updated_at: 2026-09-29T14:49:35.016074+00:00
 tags: [record, real-data]
 ---
 

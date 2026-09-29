@@ -2,7 +2,7 @@
 title: "Record 27328b21e7 · A-Schema-Bounded-Language-Model-for-Refining-Robot-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:25.222112+00:00
+updated_at: 2026-09-29T14:49:33.152970+00:00
 tags: [record, real-data]
 ---
 

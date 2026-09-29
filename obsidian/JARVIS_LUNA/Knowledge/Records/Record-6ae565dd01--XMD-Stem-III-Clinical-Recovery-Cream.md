@@ -2,7 +2,7 @@
 title: "Record 6ae565dd01 · XMD-Stem-III-Clinical-Recovery-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:27.082410+00:00
+updated_at: 2026-09-29T14:49:35.036150+00:00
 tags: [record, real-data]
 ---
 

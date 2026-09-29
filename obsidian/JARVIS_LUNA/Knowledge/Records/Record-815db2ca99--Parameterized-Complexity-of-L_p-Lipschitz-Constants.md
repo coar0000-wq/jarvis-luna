@@ -2,7 +2,7 @@
 title: "Record 815db2ca99 · Parameterized-Complexity-of-L_p-Lipschitz-Constants"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:28.053953+00:00
+updated_at: 2026-09-29T14:49:36.033078+00:00
 tags: [record, real-data]
 ---
 

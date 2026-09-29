@@ -2,7 +2,7 @@
 title: "Record aa69848661 · Scaling-Discovery-through-Test-Time-Communication"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:27.067312+00:00
+updated_at: 2026-09-29T14:49:35.022507+00:00
 tags: [record, real-data]
 ---
 

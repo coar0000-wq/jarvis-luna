@@ -2,7 +2,7 @@
 title: "Record 167d984c69 · Little-Red-Dots-on-FIRE-Exploring-the-formation-and-observational-sign"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:25.975262+00:00
+updated_at: 2026-09-29T14:49:33.915902+00:00
 tags: [record, real-data]
 ---
 

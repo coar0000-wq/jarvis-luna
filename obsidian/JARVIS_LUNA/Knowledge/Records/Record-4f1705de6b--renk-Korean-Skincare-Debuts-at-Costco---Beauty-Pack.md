@@ -2,7 +2,7 @@
 title: "Record 4f1705de6b · renk-Korean-Skincare-Debuts-at-Costco---Beauty-Packaging"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T12:56:26.666471+00:00
+updated_at: 2026-09-29T14:49:34.644034+00:00
 tags: [record, real-data]
 ---
 
