@@ -2,7 +2,7 @@
 title: "Record c8e258a8e4 · Electrolytic-Reduction-of-CO-2-in-a-Flowing-Electrolyte-Interlayer-MEA"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T08:02:58.630887+00:00
+updated_at: 2026-09-29T10:24:37.902243+00:00
 tags: [record, real-data]
 ---
 

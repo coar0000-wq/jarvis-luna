@@ -2,7 +2,7 @@
 title: "Record 22991b957e · A-Review-of-Vagus-Nerve-Stimulation-for-Disease-Comprehensive-Theory-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T08:02:58.347836+00:00
+updated_at: 2026-09-29T10:24:37.642559+00:00
 tags: [record, real-data]
 ---
 

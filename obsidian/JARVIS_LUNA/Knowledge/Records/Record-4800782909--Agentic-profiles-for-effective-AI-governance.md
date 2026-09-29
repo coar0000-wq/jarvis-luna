@@ -2,7 +2,7 @@
 title: "Record 4800782909 · Agentic-profiles-for-effective-AI-governance"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T08:02:58.475235+00:00
+updated_at: 2026-09-29T10:24:37.760945+00:00
 tags: [record, real-data]
 ---
 

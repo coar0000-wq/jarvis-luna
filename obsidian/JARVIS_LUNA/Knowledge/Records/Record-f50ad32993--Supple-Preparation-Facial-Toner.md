@@ -2,7 +2,7 @@
 title: "Record f50ad32993 · Supple-Preparation-Facial-Toner"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T08:02:59.874511+00:00
+updated_at: 2026-09-29T10:24:39.107836+00:00
 tags: [record, real-data]
 ---
 

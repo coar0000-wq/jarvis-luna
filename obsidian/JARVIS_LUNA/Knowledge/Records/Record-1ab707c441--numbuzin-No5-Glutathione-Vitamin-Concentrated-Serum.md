@@ -2,7 +2,7 @@
 title: "Record 1ab707c441 · numbuzin-No5-Glutathione-Vitamin-Concentrated-Serum-101-fl-oz30ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T08:02:59.926487+00:00
+updated_at: 2026-09-29T10:24:39.162381+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** numbuzin No.5+ Glutathione Vitamin Concentrated Serum 1.01 fl. oz.(30ml)
 
 numbuzin No.5+ Glutathione Vitamin Concentrated Serum 1.01 fl. oz.(30ml)
-numbuzin No.5+ Glutathione Vitamin Concentrated Serum 1.01 fl. oz.(30ml) · 평점 4.5 · 리뷰 6
+numbuzin No.5+ Glutathione Vitamin Concentrated Serum 1.01 fl. oz.(30ml) · 평점 4.6 · 리뷰 7
 
 **출처:** Source · us_beauty
 

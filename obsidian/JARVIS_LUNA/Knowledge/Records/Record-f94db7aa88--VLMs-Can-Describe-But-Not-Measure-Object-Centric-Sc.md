@@ -2,7 +2,7 @@
 title: "Record f94db7aa88 · VLMs-Can-Describe-But-Not-Measure-Object-Centric-Scene-Understanding-f"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T08:02:58.931906+00:00
+updated_at: 2026-09-29T10:24:38.199177+00:00
 tags: [record, real-data]
 ---
 

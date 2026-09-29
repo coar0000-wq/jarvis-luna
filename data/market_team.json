@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-09-29T19:04:11.067404+09:00",
+    "updated_at": "2026-09-29T19:22:30.629119+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -33,7 +33,7 @@
         "brand": "CORINGCO",
         "price_usd": 12.99,
         "rating": 4.8,
-        "review_count": 11906
+        "review_count": 11908
       },
       {
         "rank": 2,
@@ -121,7 +121,7 @@
         "brand": "MEDIHEAL",
         "price_usd": 39.99,
         "rating": 4.8,
-        "review_count": 16590
+        "review_count": 16602
       },
       {
         "rank": 13,
@@ -137,7 +137,7 @@
         "brand": "Centellian24",
         "price_usd": 47.2,
         "rating": 4.8,
-        "review_count": 868
+        "review_count": 871
       },
       {
         "rank": 15,
@@ -676,7 +676,7 @@
   },
   "marketing_playbook": {
     "설명": "영상 링크 수와 자막 타임스탬프를 검토한 실행 전략을 함께 제공한다. 전략은 data/shopify_marketing_strategy.json에서 재생성된다.",
-    "영상_총량": 50,
+    "영상_총량": 53,
     "자막_검토_영상": 15,
     "근거_인사이트": 40,
     "주제": {
@@ -761,7 +761,7 @@
         ]
       },
       "채널 확장": {
-        "자료_수": 4,
+        "자료_수": 5,
         "자료": [
           {
             "title": "Digital Marketing 101: 10 Strategies Every Shopify Store Needs (Marketing Masterclass Part 1)",
@@ -769,7 +769,7 @@
             "note": "Learn With Shopify - SEO·콘텐츠·숏폼·웰컴 이메일·Meta CAPI를 묶은 공식 마케팅 기본기"
           },
           {
-            "title": "Beyond TikTok Shop: How to Use TikTok to Drive Shopify Sales",
+            "title": "How to Use TikTok to Drive Shopify Sales",
             "url": "https://www.youtube.com/watch?v=nIOn_726Rxk",
             "note": ""
           },
@@ -782,6 +782,11 @@
             "title": "The New Shopify SEO Strategy That Actually Works in 2026",
             "url": "https://www.youtube.com/watch?v=UBSveo_tao8",
             "note": "Shopify SEO/GEO - 질문형 FAQ·토픽 클러스터·검증 리뷰·내부 링크"
+          },
+          {
+            "title": "0",
+            "url": "https://www.youtube.com/watch?v=YoDGJV1XTls",
+            "note": "Shopify SEO 리드 참여 - 상품 피드·리뷰·GEO·제3자 브랜드 가시성"
           }
         ]
       },
@@ -1723,6 +1728,42 @@
   ],
   "competitor_watch": [
     {
+      "name": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
+      "brand": "MEDIHEAL",
+      "price_usd": 20.99,
+      "rating": 4.8,
+      "review_count": 1080,
+      "us_rank": 3,
+      "daiso_bucket": "마스크팩",
+      "why": "us.oliveyoung.com/best-sellers 실수집 3위 · 마스크팩 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA48723304",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "Anua PDRN Full Care Set (serum 1 fl. oz.(30ml) + Mist 1 fl. oz.(30ml) + Cream 2 fl. oz.(60ml) + Mask 5 Packs + Keychain)",
+      "brand": "Anua",
+      "price_usd": 65.3,
+      "rating": 4.8,
+      "review_count": 196,
+      "us_rank": 22,
+      "daiso_bucket": "마스크팩",
+      "why": "us.oliveyoung.com/best-sellers 실수집 22위 · 마스크팩 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA55018948",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "Biodance Bio Collagen-Real Deep Mask 16ct 1.19 oz.(34g)",
+      "brand": "Biodance",
+      "price_usd": 62.0,
+      "rating": 5,
+      "review_count": 2,
+      "us_rank": 25,
+      "daiso_bucket": "마스크팩",
+      "why": "us.oliveyoung.com/best-sellers 실수집 25위 · 마스크팩 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA22731950",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
       "name": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
       "brand": "AESTURA",
       "price_usd": 32.0,
@@ -1757,46 +1798,10 @@
       "why": "us.oliveyoung.com/best-sellers 실수집 9위 · 스킨케어 동일 포지션",
       "url": "https://us.oliveyoung.com/products/UA56625219",
       "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-      "brand": "MEDIHEAL",
-      "price_usd": 20.99,
-      "rating": 4.8,
-      "review_count": 1080,
-      "us_rank": 3,
-      "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 3위 · 마스크팩 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA48723304",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "Anua PDRN Full Care Set (serum 1 fl. oz.(30ml) + Mist 1 fl. oz.(30ml) + Cream 2 fl. oz.(60ml) + Mask 5 Packs + Keychain)",
-      "brand": "Anua",
-      "price_usd": 65.3,
-      "rating": 4.8,
-      "review_count": 195,
-      "us_rank": 22,
-      "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 22위 · 마스크팩 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA55018948",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "Biodance Bio Collagen-Real Deep Mask 16ct 1.19 oz.(34g)",
-      "brand": "Biodance",
-      "price_usd": 62.0,
-      "rating": 5,
-      "review_count": 2,
-      "us_rank": 25,
-      "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 25위 · 마스크팩 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA22731950",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
     }
   ],
   "weekly_actions": [
-    "Shopify Draft Action 8건의 payload hash를 검토하고 사람 승인",
+    "Shopify Draft Action 3건의 payload hash를 검토하고 사람 승인",
     "AI 선행 게이트 차단 1건의 증거 보강: legal, us_label",
     "수집 실패 채널 1개 점검: amazon_movers_beauty",
     "시장 가격대 100건 기준 중앙값 $24.79 주 1회 확인",
@@ -1805,7 +1810,7 @@
   "health": {
     "signals_live": 13,
     "signals_total": 15,
-    "signals_verified": 12,
+    "signals_verified": 13,
     "trust_graded": true,
     "trust_note": "",
     "live_channels": [

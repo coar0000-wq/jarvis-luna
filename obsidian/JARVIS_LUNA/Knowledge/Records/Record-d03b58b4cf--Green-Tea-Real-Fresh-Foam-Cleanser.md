@@ -2,7 +2,7 @@
 title: "Record d03b58b4cf · Green-Tea-Real-Fresh-Foam-Cleanser"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T08:02:59.880348+00:00
+updated_at: 2026-09-29T10:24:39.113705+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Green Tea Real Fresh Foam Cleanser · NEOGEN · $22.0
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

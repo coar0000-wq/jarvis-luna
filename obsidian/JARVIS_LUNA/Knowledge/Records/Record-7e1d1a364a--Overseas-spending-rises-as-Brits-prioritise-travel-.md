@@ -2,7 +2,7 @@
 title: "Record 7e1d1a364a · Overseas-spending-rises-as-Brits-prioritise-travel-with-Barclays-launc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T08:02:59.103758+00:00
+updated_at: 2026-09-29T10:24:38.361927+00:00
 tags: [record, real-data]
 ---
 

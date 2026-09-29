@@ -2,7 +2,7 @@
 title: "Record 57c1ba9571 · TikTok-Shop-UK-unveils-its-beauty-brand-winners-of-2025---Cosmetics-Bu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T08:02:59.442116+00:00
+updated_at: 2026-09-29T10:24:38.695799+00:00
 tags: [record, real-data]
 ---
 

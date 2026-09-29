@@ -2,7 +2,7 @@
 title: "Record 05c07ed2df · Tabby-An-Open-Pretraining-Recipe-for-Time-Series-Foundation-Models"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T08:02:58.170493+00:00
+updated_at: 2026-09-29T10:24:37.462968+00:00
 tags: [record, real-data]
 ---
 

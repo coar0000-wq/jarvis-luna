@@ -2,7 +2,7 @@
 title: "Record 1cb127b037 · Assessing-Low-Back-Movement-with-Motion-Tape-Sensor-Data-Through-Deep-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T08:02:58.758153+00:00
+updated_at: 2026-09-29T10:24:38.023703+00:00
 tags: [record, real-data]
 ---
 

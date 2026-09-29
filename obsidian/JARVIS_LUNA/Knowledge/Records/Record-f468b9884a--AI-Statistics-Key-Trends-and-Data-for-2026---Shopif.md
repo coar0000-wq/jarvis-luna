@@ -2,7 +2,7 @@
 title: "Record f468b9884a · AI-Statistics-Key-Trends-and-Data-for-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T08:02:59.219836+00:00
+updated_at: 2026-09-29T10:24:38.469220+00:00
 tags: [record, real-data]
 ---
 

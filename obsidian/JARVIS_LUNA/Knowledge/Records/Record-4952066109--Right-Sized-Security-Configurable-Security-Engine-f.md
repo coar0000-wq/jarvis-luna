@@ -2,7 +2,7 @@
 title: "Record 4952066109 · Right-Sized-Security-Configurable-Security-Engine-for-Supply-Chain-Int"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T08:02:58.588744+00:00
+updated_at: 2026-09-29T10:24:37.864019+00:00
 tags: [record, real-data]
 ---
 

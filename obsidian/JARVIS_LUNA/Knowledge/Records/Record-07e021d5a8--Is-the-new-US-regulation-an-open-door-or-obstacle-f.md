@@ -2,7 +2,7 @@
 title: "Record 07e021d5a8 · Is-the-new-US-regulation-an-open-door-or-obstacle-for-K-sunscreens---K"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T08:02:59.674372+00:00
+updated_at: 2026-09-29T10:24:38.914710+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,10 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiugFBVV95cUxOUDh6Z0llM0RRMDYyeWdpSlhyaTRUdjREYUloeWMzUjQtbnBud0NaaWluNGs2akdaT2NZbnhlbElONjJUVzE2QU5TV2NTMkRhVnlQaHlXaUJTdTZScTE0Y0pqblFlYnlNa1dseHB3M09Fb3RQN0hCclZYS1B1RXotaERGS29IQmZlbFI2RzNBTXFreExrUnE5MzhaV3ZsclBHRkpXRlEtQnQxbk5INngtdURoWVlPRmtGcGc?oc=5)
 
-**제목:** Is the new U.S. regulation an open door or obstacle for K-sunscreens? - koreajoongangdaily.com
+**제목:** Is the new U.S. regulation an open door or obstacle for K-sunscreens? - Korea JoongAng Daily
 
-Is the new U.S. regulation an open door or obstacle for K-sunscreens? - koreajoongangdaily.com
-Is the new U.S. regulation an open door or obstacle for K-sunscreens? - koreajoongangdaily.com
+Is the new U.S. regulation an open door or obstacle for K-sunscreens? - Korea JoongAng Daily
+Is the new U.S. regulation an open door or obstacle for K-sunscreens? - Korea JoongAng Daily
 
 **출처:** Source · us_beauty
 

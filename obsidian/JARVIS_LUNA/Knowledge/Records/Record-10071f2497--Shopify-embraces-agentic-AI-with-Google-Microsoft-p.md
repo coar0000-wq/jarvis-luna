@@ -2,7 +2,7 @@
 title: "Record 10071f2497 · Shopify-embraces-agentic-AI-with-Google-Microsoft-p"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T08:02:59.641286+00:00
+updated_at: 2026-09-29T10:24:38.882311+00:00
 tags: [record, real-data]
 ---
 

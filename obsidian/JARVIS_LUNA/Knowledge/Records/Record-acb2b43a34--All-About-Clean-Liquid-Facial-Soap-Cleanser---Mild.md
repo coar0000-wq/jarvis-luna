@@ -2,7 +2,7 @@
 title: "Record acb2b43a34 · All-About-Clean-Liquid-Facial-Soap-Cleanser---Mild"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T08:03:00.495555+00:00
+updated_at: 2026-09-29T10:24:39.830869+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ All About Clean Liquid Facial Soap Cleanser - Mild · Clinique · $10
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -205,5 +205,18 @@
     "source": "us_beauty",
     "source_fit": 0.884,
     "newly_classified": 6
+  },
+  {
+    "at": "2026-09-29T10:15:19.366518+00:00",
+    "loop": "topics",
+    "action": "adopt",
+    "keyword": "cleanser",
+    "topic": "뷰티·스킨케어",
+    "precision": 1.0,
+    "support": 9,
+    "uncategorized_hits": 6,
+    "source": "us_beauty",
+    "source_fit": 0.886,
+    "newly_classified": 6
   }
 ]

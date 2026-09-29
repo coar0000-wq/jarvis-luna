@@ -1,52 +1,52 @@
 {
-  "generated_at": "2026-09-29T10:04:10.938603+00:00",
+  "generated_at": "2026-09-29T10:14:08.398920+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
-  "pool_size": 3046,
+  "pool_size": 3049,
   "제목없어_버림": 38,
   "unrouted": 9,
   "summary": {
     "sourcing": {
-      "total": 366,
-      "recent": 364,
-      "material": 10,
-      "material_recent": 8,
+      "total": 368,
+      "recent": 366,
+      "material": 12,
+      "material_recent": 10,
       "products": 356
     },
     "market": {
-      "total": 935,
-      "recent": 89,
-      "material": 935,
-      "material_recent": 89,
+      "total": 938,
+      "recent": 92,
+      "material": 938,
+      "material_recent": 92,
       "products": 0
     },
     "listing": {
-      "total": 110,
-      "recent": 51,
-      "material": 110,
-      "material_recent": 51,
+      "total": 112,
+      "recent": 53,
+      "material": 112,
+      "material_recent": 53,
       "products": 0
     },
     "pricing": {
-      "total": 71,
-      "recent": 31,
-      "material": 71,
-      "material_recent": 31,
+      "total": 73,
+      "recent": 33,
+      "material": 73,
+      "material_recent": 33,
       "products": 0
     },
     "legal": {
-      "total": 228,
-      "recent": 51,
-      "material": 228,
-      "material_recent": 51,
+      "total": 231,
+      "recent": 54,
+      "material": 231,
+      "material_recent": 54,
       "products": 0
     },
     "design": {
-      "total": 431,
-      "recent": 121,
-      "material": 431,
-      "material_recent": 121,
+      "total": 432,
+      "recent": 122,
+      "material": 432,
+      "material_recent": 122,
       "products": 0
     },
     "robotics": {
@@ -57,10 +57,10 @@
       "products": 0
     },
     "knowledge": {
-      "total": 256,
-      "recent": 92,
-      "material": 256,
-      "material_recent": 92,
+      "total": 257,
+      "recent": 93,
+      "material": 257,
+      "material_recent": 93,
       "products": 0
     },
     "institutions": {
@@ -93,6 +93,22 @@
   },
   "teams": {
     "sourcing": [
+      {
+        "title": "0",
+        "url": "https://www.youtube.com/watch?v=YoDGJV1XTls",
+        "pool": "youtube_manual",
+        "summary": "Shopify SEO 리드 참여 - 상품 피드·리뷰·GEO·제3자 브랜드 가시성",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "0",
+        "url": "https://www.youtube.com/watch?v=_NHlOc919zs",
+        "pool": "youtube_manual",
+        "summary": "Shopify 전문 에이전시 - 고객 여정·연관상품·이메일 세그먼트 사례",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
       {
         "title": "[영상 학습 MKT-013] 고객 결과 중심 루틴 번들",
         "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
@@ -507,23 +523,33 @@
         "pool": "daiso",
         "date": "2026-09-29",
         "by_hand": false
-      },
-      {
-        "title": "팩미인 하이드로겔 브이 마스크팩",
-        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1018161",
-        "pool": "daiso",
-        "date": "2026-09-29",
-        "by_hand": false
-      },
-      {
-        "title": "팩미인 하이드로겔 브이 마스크팩",
-        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604016032&recmYn=N",
-        "pool": "daiso",
-        "date": "2026-09-29",
-        "by_hand": false
       }
     ],
     "market": [
+      {
+        "title": "Like",
+        "url": "https://www.youtube.com/watch?v=Q0j1cpLu7pQ",
+        "pool": "youtube_manual",
+        "summary": "Brevo 공식 - 중복·동의·종료 조건이 있는 Shopify 장바구니 회수 QA",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "0",
+        "url": "https://www.youtube.com/watch?v=YoDGJV1XTls",
+        "pool": "youtube_manual",
+        "summary": "Shopify SEO 리드 참여 - 상품 피드·리뷰·GEO·제3자 브랜드 가시성",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "0",
+        "url": "https://www.youtube.com/watch?v=_NHlOc919zs",
+        "pool": "youtube_manual",
+        "summary": "Shopify 전문 에이전시 - 고객 여정·연관상품·이메일 세그먼트 사례",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
       {
         "title": "[영상 학습 MKT-001] 광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
         "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
@@ -979,33 +1005,25 @@
         "summary": "Matt Clark - AI로 대형 브랜드 이기기. 큰 시장 속 불만족 집단을 리뷰로 찾기 / 가격 경쟁 대신 AI 보너스로 가치 올리기 / 카피 3입력(제품 사실·리뷰 원문 표현·Ad Library 예시) / 메타 단일 캠페인에 주 10~20개 광고 / 리스티클 랜딩",
         "date": "2026-09-15",
         "by_hand": true
-      },
-      {
-        "title": "패션 비전공자가 25살에 창업해 100억 브랜드를 키워낸 '미친 실행력' | 스몰톡라운지 스퀘어129 남주미",
-        "url": "https://www.youtube.com/watch?v=O4Z5KklVR5I",
-        "pool": "youtube_manual",
-        "summary": "스퀘어129 남주미 - 역마진으로 초기 안착, 플랫폼 플레이, 일본 매출이 국내 추월",
-        "date": "2026-09-06",
-        "by_hand": true
-      },
-      {
-        "title": "쇼피파이 드랍쉬핑은 브랜딩이 답입니다. 진짜 잘 되는 스토어 5곳 까봤습니다",
-        "url": "https://www.youtube.com/watch?v=IG0V7o6Z3ZE",
-        "pool": "youtube_manual",
-        "summary": "G-ROAD - 쇼피파이 드랍쉬핑 스토어 5곳 해부. 브랜딩이 전환을 만든다는 논지",
-        "date": "2026-09-06",
-        "by_hand": true
-      },
-      {
-        "title": "The Psychology of Making People Buy",
-        "url": "https://www.youtube.com/watch?v=k520NhbFhIE",
-        "pool": "youtube_manual",
-        "summary": "The Futur 크리스 두 - 가격 경쟁을 벗어나는 포지셔닝. Liquid Death 등 5개 브랜드 해부",
-        "date": "2026-09-06",
-        "by_hand": true
       }
     ],
     "listing": [
+      {
+        "title": "0",
+        "url": "https://www.youtube.com/watch?v=YoDGJV1XTls",
+        "pool": "youtube_manual",
+        "summary": "Shopify SEO 리드 참여 - 상품 피드·리뷰·GEO·제3자 브랜드 가시성",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "0",
+        "url": "https://www.youtube.com/watch?v=_NHlOc919zs",
+        "pool": "youtube_manual",
+        "summary": "Shopify 전문 에이전시 - 고객 여정·연관상품·이메일 세그먼트 사례",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
       {
         "title": "[영상 학습 MKT-001] 광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
         "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
@@ -1423,14 +1441,14 @@
         "by_hand": true
       },
       {
-        "title": "How to Get Better Designs Out of Claude",
+        "title": "What Are Claude Design Skills and How to Use Them",
         "url": "https://www.youtube.com/watch?v=psUJ14KmwpI",
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
       },
       {
-        "title": "Beyond TikTok Shop: How to Use TikTok to Drive Shopify Sales",
+        "title": "How to Use TikTok to Drive Shopify Sales",
         "url": "https://www.youtube.com/watch?v=nIOn_726Rxk",
         "pool": "youtube_channel",
         "date": "",
@@ -1463,23 +1481,25 @@
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
-      },
-      {
-        "title": "How to Use Claude Cowork to Build and Run a Shopify Store",
-        "url": "https://www.youtube.com/watch?v=IQDtl0Dacjo",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Instagram Changed Everything Again: New Updates You Need to Know in 2026",
-        "url": "https://www.youtube.com/watch?v=dU_U1Pmmu5c",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
       }
     ],
     "pricing": [
+      {
+        "title": "Like",
+        "url": "https://www.youtube.com/watch?v=Q0j1cpLu7pQ",
+        "pool": "youtube_manual",
+        "summary": "Brevo 공식 - 중복·동의·종료 조건이 있는 Shopify 장바구니 회수 QA",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "0",
+        "url": "https://www.youtube.com/watch?v=_NHlOc919zs",
+        "pool": "youtube_manual",
+        "summary": "Shopify 전문 에이전시 - 고객 여정·연관상품·이메일 세그먼트 사례",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
       {
         "title": "[영상 학습 MKT-008] 번들·사은품 임계값 AOV 테스트",
         "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
@@ -1905,23 +1925,33 @@
         "pool": "institutions",
         "date": "2026-09-23",
         "by_hand": false
-      },
-      {
-        "title": "Tariffs Spurred Dash For Cash Vishy Tirupattur Martin Tobias",
-        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/tariffs-spurred-dash-for-cash-vishy-tirupattur-martin-tobias",
-        "pool": "institutions",
-        "date": "2026-09-23",
-        "by_hand": false
-      },
-      {
-        "title": "Improved shipping and duty data in Analytics",
-        "url": "https://changelog.shopify.com/posts/improved-shipping-and-duty-data-in-analytics",
-        "pool": "design_refs",
-        "date": "2026-09-23",
-        "by_hand": false
       }
     ],
     "legal": [
+      {
+        "title": "Like",
+        "url": "https://www.youtube.com/watch?v=Q0j1cpLu7pQ",
+        "pool": "youtube_manual",
+        "summary": "Brevo 공식 - 중복·동의·종료 조건이 있는 Shopify 장바구니 회수 QA",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "0",
+        "url": "https://www.youtube.com/watch?v=YoDGJV1XTls",
+        "pool": "youtube_manual",
+        "summary": "Shopify SEO 리드 참여 - 상품 피드·리뷰·GEO·제3자 브랜드 가시성",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
+        "title": "0",
+        "url": "https://www.youtube.com/watch?v=_NHlOc919zs",
+        "pool": "youtube_manual",
+        "summary": "Shopify 전문 에이전시 - 고객 여정·연관상품·이메일 세그먼트 사례",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
       {
         "title": "[영상 학습 MKT-001] 광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
         "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
@@ -2351,30 +2381,17 @@
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
-      },
-      {
-        "title": "GDF2026 - Data Integrity in ANDA Applications",
-        "url": "https://www.youtube.com/watch?v=nRE7vCS67cc",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "GDF2026 - Common Manufacturing Deficiencies for Complex Dosage Forms",
-        "url": "https://www.youtube.com/watch?v=v_N1crA5oZ4",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "GDF2026 - Managing Your Letters of Authorization (LOAs)",
-        "url": "https://www.youtube.com/watch?v=TdztZ0tgs84",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
       }
     ],
     "design": [
+      {
+        "title": "0",
+        "url": "https://www.youtube.com/watch?v=_NHlOc919zs",
+        "pool": "youtube_manual",
+        "summary": "Shopify 전문 에이전시 - 고객 여정·연관상품·이메일 세그먼트 사례",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
       {
         "title": "[영상 학습 MKT-001] 광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
         "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
@@ -2584,7 +2601,7 @@
         "by_hand": true
       },
       {
-        "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
+        "title": "This UI/UX Redesign Will Teach You More Than Figma 100 Tutorials Combined",
         "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
         "pool": "youtube_channel",
         "date": "",
@@ -2766,14 +2783,14 @@
         "by_hand": true
       },
       {
-        "title": "How to Get Better Designs Out of Claude",
+        "title": "What Are Claude Design Skills and How to Use Them",
         "url": "https://www.youtube.com/watch?v=psUJ14KmwpI",
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
       },
       {
-        "title": "Beyond TikTok Shop: How to Use TikTok to Drive Shopify Sales",
+        "title": "How to Use TikTok to Drive Shopify Sales",
         "url": "https://www.youtube.com/watch?v=nIOn_726Rxk",
         "pool": "youtube_channel",
         "date": "",
@@ -2810,13 +2827,6 @@
       {
         "title": "How to Use Claude to Safely Rebrand Your Shopify Store",
         "url": "https://www.youtube.com/watch?v=gugo50_VbjE",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "How to Use Claude Cowork to Build and Run a Shopify Store",
-        "url": "https://www.youtube.com/watch?v=IQDtl0Dacjo",
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
@@ -3246,6 +3256,14 @@
     ],
     "knowledge": [
       {
+        "title": "0",
+        "url": "https://www.youtube.com/watch?v=YoDGJV1XTls",
+        "pool": "youtube_manual",
+        "summary": "Shopify SEO 리드 참여 - 상품 피드·리뷰·GEO·제3자 브랜드 가시성",
+        "date": "2026-09-29",
+        "by_hand": true
+      },
+      {
         "title": "[영상 학습 MKT-036] 제3자 접점 기반 브랜드 선호 구축",
         "url": "https://www.youtube.com/watch?v=YoDGJV1XTls",
         "pool": "youtube_insight",
@@ -3662,13 +3680,6 @@
       {
         "title": "Claude Mythos: Highlights from 244-page Release",
         "url": "https://www.youtube.com/watch?v=txx6ec6MLNY",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Two AI Models Set to “stir government urgency”, But Will This Challenge Undo Them?",
-        "url": "https://www.youtube.com/watch?v=s4tptozUJ8Y",
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true

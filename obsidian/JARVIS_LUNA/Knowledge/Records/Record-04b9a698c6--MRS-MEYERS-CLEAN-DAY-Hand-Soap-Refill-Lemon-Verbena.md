@@ -1,0 +1,22 @@
+---
+title: "Record 04b9a698c6 · MRS-MEYERS-CLEAN-DAY-Hand-Soap-Refill-Lemon-Verbena-Scent-33-Fl-Oz-Bot"
+type: knowledge-graph
+status: generated-from-real-data
+updated_at: 2026-09-29T10:24:39.442213+00:00
+tags: [record, real-data]
+---
+
+# Record 04b9a698c6 · MRS-MEYERS-CLEAN-DAY-Hand-Soap-Refill-Lemon-Verbena-Scent-33-Fl-Oz-Bot
+
+> 실제 수집 레코드입니다. 원문: [www.amazon.com](https://www.amazon.com/Mrs-Meyers-Clean-Refill-Verbena/dp/B00F1U0YB4/ref=zg_bs_g_beauty_d_sccl_4/139-6512042-2160214)
+
+**제목:** MRS. MEYER'S CLEAN DAY Hand Soap Refill, Lemon Verbena Scent, 33 Fl Oz Bottle
+
+MRS. MEYER'S CLEAN DAY Hand Soap Refill, Lemon Verbena Scent, 33 Fl Oz Bottle
+MRS. MEYER'S CLEAN DAY Hand Soap Refill, Lemon Verbena Scent, 33 Fl Oz Bottle · $7.61 · 평점 4.7 · 리뷰 108,622
+
+**출처:** Source · us_beauty
+
+## Connected nodes
+
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

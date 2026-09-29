@@ -2,7 +2,7 @@
 title: "Record 3052d5b208 · Hyaluron-Skin-Essence"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T08:02:59.868561+00:00
+updated_at: 2026-09-29T10:24:39.102146+00:00
 tags: [record, real-data]
 ---
 

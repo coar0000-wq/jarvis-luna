@@ -2,7 +2,7 @@
 title: "Record 57de33ca0c · A-path-planning-and-pathfollowing-control-framework-for-a-general-2tra"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T08:02:58.356517+00:00
+updated_at: 2026-09-29T10:24:37.650919+00:00
 tags: [record, real-data]
 ---
 

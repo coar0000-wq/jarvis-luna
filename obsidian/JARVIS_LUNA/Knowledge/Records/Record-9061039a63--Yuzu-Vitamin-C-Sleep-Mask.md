@@ -2,7 +2,7 @@
 title: "Record 9061039a63 · Yuzu-Vitamin-C-Sleep-Mask"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T08:02:59.888928+00:00
+updated_at: 2026-09-29T10:24:39.122323+00:00
 tags: [record, real-data]
 ---
 

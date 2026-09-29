@@ -2,7 +2,7 @@
 title: "Record 4555032bb4 · A-Game-Theoretic-Framework-for-Distributed-Mission-Slice-Allocation-an"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T08:02:58.371010+00:00
+updated_at: 2026-09-29T10:24:37.664716+00:00
 tags: [record, real-data]
 ---
 

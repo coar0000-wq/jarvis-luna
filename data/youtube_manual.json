@@ -1,20 +1,21 @@
 {
-  "generated_at": "2026-09-29T07:53:18.932087+00:00",
+  "generated_at": "2026-09-29T10:14:01.192815+00:00",
   "generator": "scripts/ingest_youtube_links.py",
   "입력": "data/manual/youtube_links.txt",
   "robots": "youtube.com/robots.txt 는 /feeds/videos.xml 을 막지만 /watch 는 막지 않는다. 목록을 긁는 게 아니라 사람이 지정한 것만 받는다.",
-  "total": 25,
-  "ok": 25,
+  "total": 28,
+  "ok": 28,
   "failed": 0,
-  "fetched_this_run": 0,
+  "fetched_this_run": 3,
   "bad_lines": [],
   "by_team": {
-    "listing": 14,
-    "pricing": 4,
-    "market": 14,
-    "knowledge": 3,
-    "design": 11,
-    "sourcing": 2
+    "listing": 16,
+    "pricing": 6,
+    "market": 17,
+    "knowledge": 4,
+    "design": 12,
+    "sourcing": 4,
+    "legal": 3
   },
   "학습금지_표시": [
     {
@@ -555,6 +556,77 @@
       ],
       "team_source": "사람 지정",
       "collected_at": "2026-09-27T14:47:57.388862+00:00",
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
+    },
+    {
+      "video_id": "Q0j1cpLu7pQ",
+      "url": "https://www.youtube.com/watch?v=Q0j1cpLu7pQ",
+      "note": "Brevo 공식 - 중복·동의·종료 조건이 있는 Shopify 장바구니 회수 QA",
+      "title": "Like",
+      "channel": "",
+      "views": null,
+      "length_sec": null,
+      "published": "",
+      "description": "",
+      "error": "",
+      "ai_training_allowed": null,
+      "rights_marks": [],
+      "teams": [
+        "market",
+        "pricing",
+        "legal"
+      ],
+      "team_source": "사람 지정",
+      "collected_at": "2026-09-29T10:13:50.940571+00:00",
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
+    },
+    {
+      "video_id": "YoDGJV1XTls",
+      "url": "https://www.youtube.com/watch?v=YoDGJV1XTls",
+      "note": "Shopify SEO 리드 참여 - 상품 피드·리뷰·GEO·제3자 브랜드 가시성",
+      "title": "0",
+      "channel": "",
+      "views": null,
+      "length_sec": null,
+      "published": "",
+      "description": "",
+      "error": "",
+      "ai_training_allowed": null,
+      "rights_marks": [],
+      "teams": [
+        "market",
+        "listing",
+        "sourcing",
+        "legal",
+        "knowledge"
+      ],
+      "team_source": "사람 지정",
+      "collected_at": "2026-09-29T10:13:54.558868+00:00",
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
+    },
+    {
+      "video_id": "_NHlOc919zs",
+      "url": "https://www.youtube.com/watch?v=_NHlOc919zs",
+      "note": "Shopify 전문 에이전시 - 고객 여정·연관상품·이메일 세그먼트 사례",
+      "title": "0",
+      "channel": "",
+      "views": null,
+      "length_sec": null,
+      "published": "",
+      "description": "",
+      "error": "",
+      "ai_training_allowed": null,
+      "rights_marks": [],
+      "teams": [
+        "market",
+        "listing",
+        "design",
+        "pricing",
+        "sourcing",
+        "legal"
+      ],
+      "team_source": "사람 지정",
+      "collected_at": "2026-09-29T10:13:58.192631+00:00",
       "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
     }
   ]

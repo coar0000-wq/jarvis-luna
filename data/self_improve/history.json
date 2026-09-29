@@ -30,6 +30,12 @@
         "items": 15,
         "relevant": 9,
         "capped": false
+      },
+      {
+        "at": "2026-09-29T10:12:29.347379+00:00",
+        "items": 15,
+        "relevant": 9,
+        "capped": false
       }
     ],
     "Shopify Dev Changelog": [
@@ -59,6 +65,12 @@
       },
       {
         "at": "2026-09-29T07:51:59.011511+00:00",
+        "items": 15,
+        "relevant": 9,
+        "capped": false
+      },
+      {
+        "at": "2026-09-29T10:12:29.347379+00:00",
         "items": 15,
         "relevant": 9,
         "capped": false
@@ -94,6 +106,12 @@
         "items": 15,
         "relevant": 8,
         "capped": false
+      },
+      {
+        "at": "2026-09-29T10:12:29.347379+00:00",
+        "items": 15,
+        "relevant": 8,
+        "capped": false
       }
     ],
     "Smashing Magazine": [
@@ -123,6 +141,12 @@
       },
       {
         "at": "2026-09-29T07:51:59.011511+00:00",
+        "items": 15,
+        "relevant": 6,
+        "capped": false
+      },
+      {
+        "at": "2026-09-29T10:12:29.347379+00:00",
         "items": 15,
         "relevant": 6,
         "capped": false
@@ -158,6 +182,12 @@
         "items": 15,
         "relevant": 5,
         "capped": false
+      },
+      {
+        "at": "2026-09-29T10:12:29.347379+00:00",
+        "items": 15,
+        "relevant": 5,
+        "capped": false
       }
     ],
     "web.dev": [
@@ -187,6 +217,12 @@
       },
       {
         "at": "2026-09-29T07:51:59.011511+00:00",
+        "items": 3,
+        "relevant": 1,
+        "capped": true
+      },
+      {
+        "at": "2026-09-29T10:12:29.347379+00:00",
         "items": 3,
         "relevant": 1,
         "capped": true
@@ -259,6 +295,21 @@
       "topics": {
         "status": "no_change",
         "before": 0.0874
+      },
+      "sourcing": {
+        "status": "active",
+        "before": 0.09090909090909091
+      },
+      "design": {
+        "status": "active",
+        "before": 0.487
+      }
+    },
+    {
+      "at": "2026-09-29T10:15:19.366518+00:00",
+      "topics": {
+        "status": "adopted",
+        "before": 0.0876
       },
       "sourcing": {
         "status": "active",

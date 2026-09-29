@@ -2,7 +2,7 @@
 title: "Record 981f060ff7 · Global-Healthcare-Conference"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T08:03:00.424295+00:00
+updated_at: 2026-09-29T10:24:39.761016+00:00
 tags: [record, real-data]
 ---
 

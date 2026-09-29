@@ -2,7 +2,7 @@
 title: "Record fd3445e47b · Exclusive-K-beautys-Nooni-to-make-US-retail-debut-w"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T08:02:59.367161+00:00
+updated_at: 2026-09-29T10:24:38.619999+00:00
 tags: [record, real-data]
 ---
 

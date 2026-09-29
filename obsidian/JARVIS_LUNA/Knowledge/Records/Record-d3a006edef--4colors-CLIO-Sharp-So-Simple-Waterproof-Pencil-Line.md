@@ -2,7 +2,7 @@
 title: "Record d3a006edef · 4colors-CLIO-Sharp-So-Simple-Waterproof-Pencil-Liner-0004-oz014g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T08:02:59.961403+00:00
+updated_at: 2026-09-29T10:24:39.202549+00:00
 tags: [record, real-data]
 ---
 

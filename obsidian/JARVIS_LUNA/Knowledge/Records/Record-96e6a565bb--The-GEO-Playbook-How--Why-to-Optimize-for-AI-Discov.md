@@ -2,7 +2,7 @@
 title: "Record 96e6a565bb · The-GEO-Playbook-How--Why-to-Optimize-for-AI-Discovery-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T08:02:59.423370+00:00
+updated_at: 2026-09-29T10:24:38.677640+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 24751db50f · Lissajous-coherent-states-via-projection"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T08:02:59.798014+00:00
+updated_at: 2026-09-29T10:24:39.034572+00:00
 tags: [record, real-data]
 ---
 

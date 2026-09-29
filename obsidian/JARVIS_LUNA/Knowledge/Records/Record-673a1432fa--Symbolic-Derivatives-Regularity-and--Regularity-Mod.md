@@ -2,7 +2,7 @@
 title: "Record 673a1432fa · Symbolic-Derivatives-Regularity-and--Regularity-Modulo-Theories"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T08:02:58.630454+00:00
+updated_at: 2026-09-29T10:24:37.901843+00:00
 tags: [record, real-data]
 ---
 

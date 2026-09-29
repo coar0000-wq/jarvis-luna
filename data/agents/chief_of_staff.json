@@ -1,7 +1,7 @@
 {
   "agent": "Chief-of-Staff",
   "role": "전체 JARVIS 운영상태를 종합하여 우선순위와 Safe Auto-Fix 실행 여부를 결정",
-  "generated_at": "2026-09-29T08:02:29.335967+00:00",
+  "generated_at": "2026-09-29T10:24:07.652864+00:00",
   "risk": "medium",
   "overall_priority": "P2",
   "overall_action": "INVESTIGATE_EMPTY_CHANNELS",
@@ -43,7 +43,7 @@
       "severity_score": 18,
       "area": "external_sources",
       "action": "TRACK_EXTERNAL_SOURCE_ERRORS",
-      "reason": "외부 소스 고장 5건 추적 중 (기관 수집팀:Deutsche Bank 사이트, 기관 수집팀:TSMC 뉴스룸, 기관 수집팀:Marvell·Intel·Qualcomm·ASML IR RSS, 채널 운영팀:FDA 화장품 리콜·조치 이력)",
+      "reason": "외부 소스 고장 4건 추적 중 (기관 수집팀:Deutsche Bank 사이트, 기관 수집팀:TSMC 뉴스룸, 기관 수집팀:Marvell·Intel·Qualcomm·ASML IR RSS, 채널 운영팀:FDA 화장품 리콜·조치 이력)",
       "remediation_class": "external_dependency",
       "auto_execute": false,
       "requires_user_action": false
@@ -54,7 +54,7 @@
       "area": "dashboard:listing",
       "team": "listing",
       "action": "TEAM_WAITING_LISTING",
-      "reason": "카피 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 8건 사람 승인 대기",
+      "reason": "카피 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 3건 사람 승인 대기",
       "remediation_class": "human_approval_required",
       "auto_execute": false,
       "requires_user_action": true
@@ -90,7 +90,7 @@
       "area": "dashboard:listing",
       "team": "listing",
       "action": "TEAM_WAITING_LISTING",
-      "reason": "카피 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 8건 사람 승인 대기",
+      "reason": "카피 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 3건 사람 승인 대기",
       "remediation_class": "human_approval_required",
       "auto_execute": false,
       "requires_user_action": true
@@ -144,7 +144,7 @@
       "severity_score": 18,
       "area": "external_sources",
       "action": "TRACK_EXTERNAL_SOURCE_ERRORS",
-      "reason": "외부 소스 고장 5건 추적 중 (기관 수집팀:Deutsche Bank 사이트, 기관 수집팀:TSMC 뉴스룸, 기관 수집팀:Marvell·Intel·Qualcomm·ASML IR RSS, 채널 운영팀:FDA 화장품 리콜·조치 이력)",
+      "reason": "외부 소스 고장 4건 추적 중 (기관 수집팀:Deutsche Bank 사이트, 기관 수집팀:TSMC 뉴스룸, 기관 수집팀:Marvell·Intel·Qualcomm·ASML IR RSS, 채널 운영팀:FDA 화장품 리콜·조치 이력)",
       "remediation_class": "external_dependency",
       "auto_execute": false,
       "requires_user_action": false
@@ -274,8 +274,8 @@
       "status": "ok",
       "priority": "P4",
       "evidence": {
-        "nodes": 83550,
-        "links": 347041,
+        "nodes": 83684,
+        "links": 348140,
         "dangling_generated": 0,
         "truth_guard_anomaly": false,
         "anomaly_reasons": []
@@ -330,7 +330,7 @@
           "channel": "amazon_movers_beauty",
           "count": 0,
           "status": "empty",
-          "reason": "수집기 미실행"
+          "reason": "페이지는 열렸으나 상품을 파싱하지 못했다. 카드 구조가 바뀌었을 수 있다. · 기존 파일 출처 불명이라 승계 안 함"
         }
       ],
       "disabled_expected": [
@@ -343,16 +343,16 @@
       ]
     },
     "graph": {
-      "nodes": 83550,
-      "links": 347041,
+      "nodes": 83684,
+      "links": 348140,
       "dangling_generated": 0,
-      "runtime_nodes": 83550,
-      "runtime_links": 347041,
+      "runtime_nodes": 83684,
+      "runtime_links": 348140,
       "runtime_dangling_generated": 0,
       "truth_guard": {
         "vault": "obsidian/JARVIS_LUNA",
-        "actual_nodes": 83550,
-        "actual_links": 347041,
+        "actual_nodes": 83684,
+        "actual_links": 348140,
         "actual_dangling_generated": 0,
         "actual_dangling_personal": 21,
         "generated_dangling_samples": [],
@@ -440,8 +440,8 @@
         ],
         "generated_dangling_sample_source_count": 0,
         "personal_dangling_sample_source_count": 8,
-        "runtime_nodes": 83550,
-        "runtime_links": 347041,
+        "runtime_nodes": 83684,
+        "runtime_links": 348140,
         "runtime_dangling_generated": 0,
         "runtime_consistent": true,
         "anomaly": false,
@@ -458,7 +458,7 @@
       {
         "team": "listing",
         "kind": "human_approval_required",
-        "text": "카피 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 8건 사람 승인 대기",
+        "text": "카피 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 3건 사람 승인 대기",
         "source": "waiting"
       },
       {
@@ -475,8 +475,8 @@
       }
     ],
     "source_errors": {
-      "broken": 5,
-      "generated_at": "2026-09-29T08:02:17.107319+00:00",
+      "broken": 4,
+      "generated_at": "2026-09-29T10:23:54.973143+00:00",
       "items": [
         {
           "team": "기관 수집팀",
@@ -497,11 +497,6 @@
           "team": "채널 운영팀",
           "item": "FDA 화장품 리콜·조치 이력",
           "reason": "요청 실패: HTTP 404"
-        },
-        {
-          "team": "채널 운영팀",
-          "item": "openFDA 선케어 OTC 라벨",
-          "reason": "요청 실패: HTTP 500"
         }
       ]
     }

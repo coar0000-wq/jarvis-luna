@@ -2,7 +2,7 @@
 title: "Record 2b748c94bf · Frances-Bean-Cobains-90s-Makeup-Is-a-Low-Key-Tribute-to-Grunge"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T08:03:00.029443+00:00
+updated_at: 2026-09-29T10:24:39.285352+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 76f3cd834b · Native-Deodorant-Contains-Naturally-Derived-Ingredients-72-Hour-Odor-C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T08:03:00.149769+00:00
+updated_at: 2026-09-29T10:24:39.448321+00:00
 tags: [record, real-data]
 ---
 

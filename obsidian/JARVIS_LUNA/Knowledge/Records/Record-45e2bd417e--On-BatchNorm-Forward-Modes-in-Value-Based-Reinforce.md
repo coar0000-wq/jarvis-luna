@@ -2,7 +2,7 @@
 title: "Record 45e2bd417e · On-BatchNorm-Forward-Modes-in-Value-Based-Reinforce"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T08:02:58.044370+00:00
+updated_at: 2026-09-29T10:24:37.340540+00:00
 tags: [record, real-data]
 ---
 

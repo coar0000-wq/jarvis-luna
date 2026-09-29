@@ -2,7 +2,7 @@
 title: "Record ff17ba288a · ARGUS-an-experiment-agnostic-framework-for-detector-health-monitoring-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T08:02:58.263381+00:00
+updated_at: 2026-09-29T10:24:37.557320+00:00
 tags: [record, real-data]
 ---
 

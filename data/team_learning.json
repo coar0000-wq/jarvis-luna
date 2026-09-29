@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-29T08:00:13.035270+00:00",
+  "generated_at": "2026-09-29T10:21:38.638329+00:00",
   "generator": "scripts/build_team_learning.py",
   "rule": "자막 타임스탬프 근거가 있고 과장 수치를 뺀 항목만 학습으로 센다. 영상 목록만 있는 것은 학습이 아니다.",
-  "total_insights": 42,
-  "reviewed_videos": 45,
+  "total_insights": 53,
+  "reviewed_videos": 48,
   "teams_learning": 9,
   "teams_with_videos": 11,
   "teams": {
     "sourcing": {
       "status": "학습 중",
-      "insights": 3,
+      "insights": 5,
       "this_week_action": {
         "id": "MKT-013",
         "tactic": "고객 결과 중심 루틴 번들",
@@ -80,6 +80,29 @@
           }
         },
         {
+          "id": "MKT-033",
+          "tactic": "Google Merchant Center 상품 피드 오류 큐",
+          "action": "Shopify 상품 피드를 Merchant Center에 연결하고 누락 속성, 사이트와의 가격·재고 불일치, 검색 질의별 노출 정보를 정기 오류 큐로 관리한다.",
+          "confidence": "high",
+          "kpis": [
+            "merchant_center_eligible_rate",
+            "feed_disapproval_count",
+            "price_inventory_mismatch_rate",
+            "product_query_coverage"
+          ],
+          "prerequisites": [
+            "Google Merchant Center 계정",
+            "Shopify 상품 피드",
+            "가격·재고 원장",
+            "무료 진단 접근"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=YoDGJV1XTls",
+            "timestamp": "17:47-21:30",
+            "summary": "Merchant Center가 상품 그리드 노출 기반과 피드 불일치·속성 누락 피드백, 일부 AI 성과 정보를 제공"
+          }
+        },
+        {
           "id": "MKT-018",
           "tactic": "리뷰에서 좁은 미충족 고객군을 찾기",
           "action": "자사·경쟁 리뷰를 AI로 묶어 구매자, 가치, 불만을 찾고 작은 설문이나 인터뷰로 확인한 뒤 포지셔닝 가설로 사용한다.",
@@ -99,11 +122,34 @@
             "timestamp": "07:53-09:30",
             "summary": "큰 시장 안에서 기존 상품이 만족시키지 못한 좁은 집단을 리뷰로 탐색"
           }
+        },
+        {
+          "id": "MKT-037",
+          "tactic": "고객 요청 기반 연관 상품 큐레이션",
+          "action": "고객이 반복 요청하는 연관 상품을 후보로 만들고 실제 사용·품질·마진 검증을 통과한 항목만 루틴 세트와 교차판매 후보에 포함한다.",
+          "confidence": "medium",
+          "kpis": [
+            "validated_adjacent_sku_count",
+            "cross_sell_attach_rate",
+            "bundle_margin",
+            "quality_rejection_rate"
+          ],
+          "prerequisites": [
+            "고객 요청 로그",
+            "샘플 사용 검증",
+            "공급·마진 검토",
+            "브랜드 적합성 기준"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=_NHlOc919zs",
+            "timestamp": "04:02-05:32",
+            "summary": "고객 요청에서 인접 상품 기회를 찾되 브랜드가 직접 사용할 품질 기준을 통과한 제품만 확장"
+          }
         }
       ],
-      "videos_available": 3,
+      "videos_available": 5,
       "review_pending": [],
-      "last_review": "2026-09-27"
+      "last_review": "2026-09-29"
     },
     "institutions": {
       "status": "학습 중",
@@ -161,7 +207,7 @@
     },
     "market": {
       "status": "학습 중",
-      "insights": 30,
+      "insights": 41,
       "this_week_action": {
         "id": "MKT-001",
         "tactic": "광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
@@ -405,7 +451,7 @@
           }
         }
       ],
-      "videos_available": 85,
+      "videos_available": 88,
       "review_pending": [
         {
           "title": "Entrepreneurs: we're built different",
@@ -416,11 +462,11 @@
           "url": "https://www.youtube.com/watch?v=ZXpm1X7-PFM"
         }
       ],
-      "last_review": "2026-09-28"
+      "last_review": "2026-09-29"
     },
     "listing": {
       "status": "학습 중",
-      "insights": 27,
+      "insights": 33,
       "this_week_action": {
         "id": "LST-20260928-01",
         "tactic": "Claude 프롬프트 기반 Shopify 상세페이지 구축",
@@ -656,7 +702,7 @@
           }
         }
       ],
-      "videos_available": 44,
+      "videos_available": 46,
       "review_pending": [
         {
           "title": "How to Use Claude to Build and Run a Shopify Store",
@@ -667,11 +713,11 @@
           "url": "https://www.youtube.com/watch?v=VbSF8TUpsjE"
         }
       ],
-      "last_review": "2026-09-28"
+      "last_review": "2026-09-29"
     },
     "pricing": {
       "status": "학습 중",
-      "insights": 11,
+      "insights": 14,
       "this_week_action": {
         "id": "MKT-008",
         "tactic": "번들·사은품 임계값 AOV 테스트",
@@ -849,6 +895,29 @@
           }
         },
         {
+          "id": "MKT-031",
+          "tactic": "할인 지연·구매 종료 조건이 있는 장바구니 회수 QA",
+          "action": "첫 메시지는 저장된 장바구니 안내에 집중하고 할인은 후속 메시지로 미루며, 구매·상품 삭제 시 종료하고 승인된 테스트 계정으로만 활성화 전 검증한다.",
+          "confidence": "high",
+          "kpis": [
+            "cart_recovery_rate",
+            "stale_reminder_rate",
+            "discount_used_order_rate",
+            "purchase_exit_success_rate"
+          ],
+          "prerequisites": [
+            "승인된 테스트 계정",
+            "최신 장바구니 링크",
+            "구매 종료 이벤트",
+            "할인 승인 규칙"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=Q0j1cpLu7pQ",
+            "timestamp": "01:11-02:47",
+            "summary": "1차 안내 뒤 후속 메시지를 두고 할인은 늦추며 구매 종료·재진입·테스트 절차를 점검"
+          }
+        },
+        {
           "id": "PRC-20260928-01",
           "tactic": "초기 노출 프로모션 및 소싱처 이원화",
           "action": "신규 입점 초기 노출과 랭킹을 확보하기 위해 한시적 저마진 프로모션을 집행하고, 대량 유통재와 디자인 우위재의 제조 소싱처를 분리해 원가율을 관리한다.",
@@ -883,30 +952,9 @@
             "timestamp": "02:50-03:40",
             "summary": "Claude 기반 에이전트 대시보드를 구축하여 4인 프로젝트 업무를 1인 체제로 효율화하고 리서치 시간을 대폭 단축한 사례."
           }
-        },
-        {
-          "id": "MKT-009",
-          "tactic": "구매 후 적립 가치 이메일",
-          "action": "구매 직후 추상 포인트 대신 원화 환산 가치, 현재 잔액, 다음 보상까지 남은 금액을 알린다.",
-          "confidence": "medium",
-          "kpis": [
-            "reward_email_ctr",
-            "reward_redemption_rate",
-            "second_purchase_rate_90d"
-          ],
-          "prerequisites": [
-            "로열티 원장",
-            "적립·사용 규칙",
-            "트랜잭션 이메일"
-          ],
-          "evidence": {
-            "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
-            "timestamp": "00:41-04:52",
-            "summary": "구매 후 보상 잔액과 다음 목표를 구체적으로 표시"
-          }
         }
       ],
-      "videos_available": 36,
+      "videos_available": 38,
       "review_pending": [
         {
           "title": "🚨견적서가 너무 어려운 사장님들 주목! | 견적 책정 기준부터 세부 항목까지 자세하게 뜯어보기 👀",
@@ -917,11 +965,11 @@
           "url": "https://www.youtube.com/watch?v=7VeooS_ZSN8"
         }
       ],
-      "last_review": "2026-09-28"
+      "last_review": "2026-09-29"
     },
     "legal": {
       "status": "학습 중",
-      "insights": 19,
+      "insights": 27,
       "this_week_action": {
         "id": "LEG-20260928-01",
         "tactic": "수출 규제 서류 사전 완비 및 조건부 등록",
@@ -1158,7 +1206,7 @@
           }
         }
       ],
-      "videos_available": 31,
+      "videos_available": 34,
       "review_pending": [
         {
           "title": "Navigating the FDA Bayesian Draft Guidance: Design, Analysis, and Review Considerations",
@@ -1169,7 +1217,7 @@
           "url": "https://www.youtube.com/watch?v=n6oboWBI_Ec"
         }
       ],
-      "last_review": "2026-09-28"
+      "last_review": "2026-09-29"
     },
     "robotics": {
       "status": "영상 수집됨 · 자막 검토 대기",
@@ -1191,7 +1239,7 @@
     },
     "design": {
       "status": "학습 중",
-      "insights": 9,
+      "insights": 11,
       "this_week_action": {
         "id": "DSN-20260928-01",
         "tactic": "스크롤 드라이브 인터랙티브 랜딩페이지 구축",
@@ -1404,9 +1452,32 @@
             "timestamp": "01:30-04:38",
             "summary": "UGC 스크립트를 훅-발견-혜택-소프트 CTA로 구성하고 문장별 제품 사용 B-roll을 사전 지정"
           }
+        },
+        {
+          "id": "MKT-038",
+          "tactic": "고객 단계별 질문·페이지·전환 지도",
+          "action": "고객 세그먼트마다 최초 접점, 첫 랜딩페이지, 예상 질문, 이메일 구독 또는 구매 전환, 재구매까지의 흐름을 한 장의 여정 지도로 만든다.",
+          "confidence": "medium",
+          "kpis": [
+            "journey_step_coverage",
+            "landing_message_match_rate",
+            "email_signup_rate",
+            "repeat_purchase_path_coverage"
+          ],
+          "prerequisites": [
+            "고객 세그먼트",
+            "유입 채널",
+            "랜딩페이지 목록",
+            "이메일·구매 이벤트"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=_NHlOc919zs",
+            "timestamp": "26:25-28:40",
+            "summary": "상단 퍼널부터 판매 후 재구매까지 고객 단계와 첫 페이지·질문·다음 행동을 연결해 전체 여정을 설계"
+          }
         }
       ],
-      "videos_available": 67,
+      "videos_available": 68,
       "review_pending": [
         {
           "title": "구글이 무료로 뿌리는 디자인AI '스티치' 요약정리",
@@ -1417,7 +1488,7 @@
           "url": "https://www.youtube.com/watch?v=uTr2yXMeL9w"
         }
       ],
-      "last_review": "2026-09-28"
+      "last_review": "2026-09-29"
     },
     "channels": {
       "status": "학습 중",
@@ -1497,7 +1568,7 @@
     },
     "knowledge": {
       "status": "학습 중",
-      "insights": 1,
+      "insights": 2,
       "this_week_action": {
         "id": "KNW-20260928-01",
         "tactic": "3단 위계 건축물 구조화 지식 요약",
@@ -1534,9 +1605,32 @@
             "timestamp": "01:30-03:45",
             "summary": "상위 범주화, 패러프레이징, 위계적 재구성을 통해 방대한 정보를 건축물 구조로 요약하는 지식 체계화 기법."
           }
+        },
+        {
+          "id": "MKT-036",
+          "tactic": "제3자 접점 기반 브랜드 선호 구축",
+          "action": "고객이 실제로 정보를 찾는 커뮤니티·미디어·소셜 접점을 인터뷰로 확인하고, 과장 없이 전문성 자료와 고객 경험이 제3자 문맥에서 언급되도록 유기 배포한다.",
+          "confidence": "medium",
+          "kpis": [
+            "third_party_brand_mentions",
+            "organic_referral_domains",
+            "branded_search_share",
+            "customer_interview_count"
+          ],
+          "prerequisites": [
+            "고객 인터뷰",
+            "브랜드 증거 자료",
+            "유기 배포 채널",
+            "과장 주장 금지"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=YoDGJV1XTls",
+            "timestamp": "42:32-43:48",
+            "summary": "작은 브랜드는 단기 해킹보다 제3자 사이트 가시성, 사회적 인지도, PR과 고객 접점 이해로 브랜드 선호를 쌓아야 함"
+          }
         }
       ],
-      "videos_available": 69,
+      "videos_available": 70,
       "review_pending": [
         {
           "title": "정부가 1.6조 들인 AI 학습데이터 977개, 쓸 만한 것만 골라 받아봤습니다 | AI허브 무료",
@@ -1547,7 +1641,7 @@
           "url": "https://www.youtube.com/watch?v=Spuza-KwTJ4"
         }
       ],
-      "last_review": "2026-09-28"
+      "last_review": "2026-09-29"
     },
     "graph": {
       "status": "영상 수집됨 · 자막 검토 대기",

@@ -2,7 +2,7 @@
 title: "Record e3e441f96a · The-cognitive-biases-that-may-exacerbate-inflationary-and-deflationary"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T08:02:58.397139+00:00
+updated_at: 2026-09-29T10:24:37.686166+00:00
 tags: [record, real-data]
 ---
 

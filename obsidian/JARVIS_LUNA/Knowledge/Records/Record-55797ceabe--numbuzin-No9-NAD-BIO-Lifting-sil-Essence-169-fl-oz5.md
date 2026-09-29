@@ -2,7 +2,7 @@
 title: "Record 55797ceabe · numbuzin-No9-NAD-BIO-Lifting-sil-Essence-169-fl-oz50ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T08:02:59.960476+00:00
+updated_at: 2026-09-29T10:24:39.201539+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** numbuzin No.9+ NAD+ BIO Lifting-sil Essence 1.69 fl. oz.(50ml)
 
 numbuzin No.9+ NAD+ BIO Lifting-sil Essence 1.69 fl. oz.(50ml)
-numbuzin No.9+ NAD+ BIO Lifting-sil Essence 1.69 fl. oz.(50ml) · 평점 4.9 · 리뷰 2,353
+numbuzin No.9+ NAD+ BIO Lifting-sil Essence 1.69 fl. oz.(50ml) · 평점 4.9 · 리뷰 2,354
 
 **출처:** Source · us_beauty
 

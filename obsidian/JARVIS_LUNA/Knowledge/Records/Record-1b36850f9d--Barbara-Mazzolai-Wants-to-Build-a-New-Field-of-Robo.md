@@ -2,7 +2,7 @@
 title: "Record 1b36850f9d · Barbara-Mazzolai-Wants-to-Build-a-New-Field-of-Robotics"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T08:02:59.902487+00:00
+updated_at: 2026-09-29T10:24:39.136033+00:00
 tags: [record, real-data]
 ---
 

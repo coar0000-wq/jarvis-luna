@@ -2,7 +2,7 @@
 title: "Record a420a86ffd · When-does-a-scaling-result-justify-a-different-allocation-A-critical-r"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T08:02:58.173276+00:00
+updated_at: 2026-09-29T10:24:37.465709+00:00
 tags: [record, real-data]
 ---
 

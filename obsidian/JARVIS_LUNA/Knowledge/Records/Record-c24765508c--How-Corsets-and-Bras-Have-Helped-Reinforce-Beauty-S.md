@@ -2,7 +2,7 @@
 title: "Record c24765508c · How-Corsets-and-Bras-Have-Helped-Reinforce-Beauty-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T08:03:00.033518+00:00
+updated_at: 2026-09-29T10:24:39.289698+00:00
 tags: [record, real-data]
 ---
 

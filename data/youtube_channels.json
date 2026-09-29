@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T07:53:18.841588+00:00",
+  "generated_at": "2026-09-29T10:13:50.147079+00:00",
   "generator": "scripts/ingest_youtube_channels.py",
   "입력": "data/manual/youtube_channels.txt",
   "robots": "youtube.com/robots.txt 의 Disallow 목록에 /@ 와 /channel/ 은 없다. 막힌 것은 /feeds/videos.xml, /results, /youtubei/ 등이다. 지정된 채널만 하나씩 본다. 2026-09-06 확인.",
@@ -207,7 +207,7 @@
   "items": [
     {
       "stale": false,
-      "last_ok_at": "2026-09-29T07:51:59.404913+00:00",
+      "last_ok_at": "2026-09-29T10:12:29.815360+00:00",
       "url": "https://www.youtube.com/@uxpeak",
       "note": "UX/UI 리디자인·전환율 (사용자 지정)",
       "team_hint": "design",
@@ -216,14 +216,14 @@
       "subscribers": "128K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-29T07:51:59.404933+00:00",
+      "checked_at": "2026-09-29T10:12:29.815382+00:00",
       "videos": [
         {
           "video_id": "GGg61sdEjeI",
-          "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
-          "views_text": "391K",
+          "title": "This UI/UX Redesign Will Teach You More Than Figma 100 Tutorials Combined",
+          "views_text": "392K",
           "published_text": "1mo ago",
-          "views": 391000,
+          "views": 392000,
           "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
           "channel": "uxpeak",
           "teams": [
@@ -474,7 +474,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-29T07:52:04.710991+00:00",
+      "last_ok_at": "2026-09-29T10:12:35.135948+00:00",
       "url": "https://www.youtube.com/@%EB%95%A1%ED%81%90%EC%B1%84%EB%84%90",
       "note": "땡스큐레이터 - 스몰 브랜드 브랜딩·수출·견적. 팀은 영상마다 자동 분류",
       "team_hint": "",
@@ -483,13 +483,13 @@
       "subscribers": "19.7K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-09-29T07:52:04.711006+00:00",
+      "checked_at": "2026-09-29T10:12:35.135964+00:00",
       "videos": [
         {
           "video_id": "hikTGKo2kZE",
           "title": "브랜딩 감각을 키우고 싶다면👀 | 사업부터 브랜딩까지 분야별 필독서 추천",
           "views_text": "33K",
-          "published_text": "11d ago",
+          "published_text": "12d ago",
           "views": 33000,
           "url": "https://www.youtube.com/watch?v=hikTGKo2kZE",
           "channel": "땡스큐레이터",
@@ -500,9 +500,9 @@
         {
           "video_id": "CSr4DYGUPOM",
           "title": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
-          "views_text": "98K",
+          "views_text": "99K",
           "published_text": "3w ago",
-          "views": 98000,
+          "views": 99000,
           "url": "https://www.youtube.com/watch?v=CSr4DYGUPOM",
           "channel": "땡스큐레이터",
           "teams": [
@@ -746,7 +746,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-29T07:52:10.046025+00:00",
+      "last_ok_at": "2026-09-29T10:12:40.498099+00:00",
       "url": "https://www.youtube.com/@learnwithshopify",
       "note": "Shopify 공식 - 마케팅·전환·스토어 운영",
       "team_hint": "market,listing,design",
@@ -755,14 +755,14 @@
       "subscribers": "910K",
       "video_count": 30,
       "error": "",
-      "checked_at": "2026-09-29T07:52:10.046039+00:00",
+      "checked_at": "2026-09-29T10:12:40.498114+00:00",
       "videos": [
         {
           "video_id": "psUJ14KmwpI",
-          "title": "How to Get Better Designs Out of Claude",
-          "views_text": "2.5K",
-          "published_text": "16h ago",
-          "views": 2500,
+          "title": "What Are Claude Design Skills and How to Use Them",
+          "views_text": "2.8K",
+          "published_text": "19h ago",
+          "views": 2800,
           "url": "https://www.youtube.com/watch?v=psUJ14KmwpI",
           "channel": "Learn With Shopify",
           "teams": [
@@ -773,7 +773,7 @@
         },
         {
           "video_id": "nIOn_726Rxk",
-          "title": "Beyond TikTok Shop: How to Use TikTok to Drive Shopify Sales",
+          "title": "How to Use TikTok to Drive Shopify Sales",
           "views_text": "5.9K",
           "published_text": "4d ago",
           "views": 5900,
@@ -788,9 +788,9 @@
         {
           "video_id": "o0LdVO6XrqE",
           "title": "How to Start a Business From Scratch With NO MONEY",
-          "views_text": "8K",
+          "views_text": "8.1K",
           "published_text": "7d ago",
-          "views": 8000,
+          "views": 8100,
           "url": "https://www.youtube.com/watch?v=o0LdVO6XrqE",
           "channel": "Learn With Shopify",
           "teams": [
@@ -928,9 +928,9 @@
         {
           "video_id": "zU4FI-deDwA",
           "title": "10 Shopify Promotion Strategies That Grow Repeat Sales (Marketing Masterclass Part 4)",
-          "views_text": "2.7K",
+          "views_text": "2.8K",
           "published_text": "1mo ago",
-          "views": 2700,
+          "views": 2800,
           "url": "https://www.youtube.com/watch?v=zU4FI-deDwA",
           "channel": "Learn With Shopify",
           "teams": [
@@ -1181,7 +1181,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-29T07:52:15.358889+00:00",
+      "last_ok_at": "2026-09-29T10:12:45.857524+00:00",
       "url": "https://www.youtube.com/@shopify",
       "note": "Shopify 본채널 - 브랜드 성장 사례",
       "team_hint": "market",
@@ -1190,7 +1190,7 @@
       "subscribers": "490K",
       "video_count": 30,
       "error": "",
-      "checked_at": "2026-09-29T07:52:15.358903+00:00",
+      "checked_at": "2026-09-29T10:12:45.857539+00:00",
       "videos": [
         {
           "video_id": "KsujQDvKdHk",
@@ -1556,7 +1556,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-29T07:52:20.633115+00:00",
+      "last_ok_at": "2026-09-29T10:12:51.289265+00:00",
       "url": "https://www.youtube.com/@BostonDynamics",
       "note": "Boston Dynamics 공식",
       "team_hint": "robotics",
@@ -1565,7 +1565,7 @@
       "subscribers": "3.43M",
       "video_count": 30,
       "error": "",
-      "checked_at": "2026-09-29T07:52:20.633130+00:00",
+      "checked_at": "2026-09-29T10:12:51.289281+00:00",
       "videos": [
         {
           "video_id": "KywMP9_SyRg",
@@ -1931,7 +1931,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-29T07:52:25.928980+00:00",
+      "last_ok_at": "2026-09-29T10:12:56.664966+00:00",
       "url": "https://www.youtube.com/@unitreerobotics",
       "note": "Unitree Robotics 공식",
       "team_hint": "robotics",
@@ -1940,14 +1940,14 @@
       "subscribers": "2.25M",
       "video_count": 30,
       "error": "",
-      "checked_at": "2026-09-29T07:52:25.928995+00:00",
+      "checked_at": "2026-09-29T10:12:56.664979+00:00",
       "videos": [
         {
           "video_id": "bYkyz9QwqCw",
           "title": "The World's Largest-Scale Full-Size Humanoid Robot Real-Time Livestream Performance",
-          "views_text": "730K",
+          "views_text": "752K",
           "published_text": "5d ago",
-          "views": 730000,
+          "views": 752000,
           "url": "https://www.youtube.com/watch?v=bYkyz9QwqCw",
           "channel": "Unitree Robotics",
           "teams": [
@@ -2306,7 +2306,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-29T07:52:31.241285+00:00",
+      "last_ok_at": "2026-09-29T10:13:02.050819+00:00",
       "url": "https://www.youtube.com/@NVIDIA",
       "note": "NVIDIA 공식",
       "team_hint": "institutions",
@@ -2315,7 +2315,7 @@
       "subscribers": "2.24M",
       "video_count": 30,
       "error": "",
-      "checked_at": "2026-09-29T07:52:31.241300+00:00",
+      "checked_at": "2026-09-29T10:13:02.050835+00:00",
       "videos": [
         {
           "video_id": "xAgq8ByWK0M",
@@ -2681,7 +2681,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-29T07:52:36.548637+00:00",
+      "last_ok_at": "2026-09-29T10:13:07.401262+00:00",
       "url": "https://www.youtube.com/@GoogleDeepMind",
       "note": "Google DeepMind 공식",
       "team_hint": "institutions",
@@ -2690,7 +2690,7 @@
       "subscribers": "927K",
       "video_count": 30,
       "error": "",
-      "checked_at": "2026-09-29T07:52:36.548651+00:00",
+      "checked_at": "2026-09-29T10:13:07.401277+00:00",
       "videos": [
         {
           "video_id": "FL6mI_Br-mc",
@@ -3056,7 +3056,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-29T07:52:41.833014+00:00",
+      "last_ok_at": "2026-09-29T10:13:12.814844+00:00",
       "url": "https://www.youtube.com/@GoldmanSachs",
       "note": "Goldman Sachs 공식",
       "team_hint": "institutions",
@@ -3065,7 +3065,7 @@
       "subscribers": "321K",
       "video_count": 30,
       "error": "",
-      "checked_at": "2026-09-29T07:52:41.833028+00:00",
+      "checked_at": "2026-09-29T10:13:12.814859+00:00",
       "videos": [
         {
           "video_id": "P2Aulz9wCbU",
@@ -3081,7 +3081,7 @@
         },
         {
           "video_id": "OiVqpczNbvw",
-          "title": "Why the Bond Market May Be the Stock Market's Biggest Risk",
+          "title": "The Bond Market May Be the Stock Market's Biggest Risk",
           "views_text": "53K",
           "published_text": "4d ago",
           "views": 53000,
@@ -3107,7 +3107,7 @@
           "video_id": "7h8a-wObTe4",
           "title": "David Solomon’s Remarks at the 2026 FDNY Foundation Dinner",
           "views_text": "2.6K",
-          "published_text": "6d ago",
+          "published_text": "7d ago",
           "views": 2600,
           "url": "https://www.youtube.com/watch?v=7h8a-wObTe4",
           "channel": "Goldman Sachs",
@@ -3118,9 +3118,9 @@
         {
           "video_id": "1-TMZvDoOjE",
           "title": "Ryan Serhant on the Art of Selling Luxury Real Estate",
-          "views_text": "87K",
+          "views_text": "88K",
           "published_text": "7d ago",
-          "views": 87000,
+          "views": 88000,
           "url": "https://www.youtube.com/watch?v=1-TMZvDoOjE",
           "channel": "Goldman Sachs",
           "teams": [
@@ -3143,7 +3143,7 @@
           "video_id": "yH67oD6_lYs",
           "title": "The Opportunities for Investors amid Higher-for-Longer Interest Rates",
           "views_text": "39K",
-          "published_text": "10d ago",
+          "published_text": "11d ago",
           "views": 39000,
           "url": "https://www.youtube.com/watch?v=yH67oD6_lYs",
           "channel": "Goldman Sachs",
@@ -3431,7 +3431,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-29T07:52:47.137607+00:00",
+      "last_ok_at": "2026-09-29T10:13:18.176691+00:00",
       "url": "https://www.youtube.com/@TwoMinutePapers",
       "note": "최신 AI 논문 해설",
       "team_hint": "knowledge",
@@ -3440,14 +3440,14 @@
       "subscribers": "1.84M",
       "video_count": 30,
       "error": "",
-      "checked_at": "2026-09-29T07:52:47.137621+00:00",
+      "checked_at": "2026-09-29T10:13:18.176706+00:00",
       "videos": [
         {
           "video_id": "SA9kdAX2Zj0",
           "title": "Claude Opus 5.5 AI: An Incredible Leap Forward",
-          "views_text": "335K",
-          "published_text": "4d ago",
-          "views": 335000,
+          "views_text": "336K",
+          "published_text": "5d ago",
+          "views": 336000,
           "url": "https://www.youtube.com/watch?v=SA9kdAX2Zj0",
           "channel": "Two Minute Papers",
           "teams": [
@@ -3458,7 +3458,7 @@
           "video_id": "qBBRRsH0rQc",
           "title": "Yes, Jev Is Insane, But There's A Catch",
           "views_text": "269K",
-          "published_text": "6d ago",
+          "published_text": "7d ago",
           "views": 269000,
           "url": "https://www.youtube.com/watch?v=qBBRRsH0rQc",
           "channel": "Two Minute Papers",
@@ -3482,7 +3482,7 @@
           "video_id": "YoEWjZSwoys",
           "title": "Claude Is Now Leaving Invisible Fingerprints In Its Text",
           "views_text": "105K",
-          "published_text": "13d ago",
+          "published_text": "2w ago",
           "views": 105000,
           "url": "https://www.youtube.com/watch?v=YoEWjZSwoys",
           "channel": "Two Minute Papers",
@@ -3506,7 +3506,7 @@
           "video_id": "eVBJIUxv8N8",
           "title": "GPT-6 Astra Changes Everything",
           "views_text": "576K",
-          "published_text": "2w ago",
+          "published_text": "3w ago",
           "views": 576000,
           "url": "https://www.youtube.com/watch?v=eVBJIUxv8N8",
           "channel": "Two Minute Papers",
@@ -3530,7 +3530,7 @@
           "video_id": "w9RDunJACkc",
           "title": "GLM 5.3: Powerful AI Is Becoming Almost Free",
           "views_text": "180K",
-          "published_text": "3w ago",
+          "published_text": "4w ago",
           "views": 180000,
           "url": "https://www.youtube.com/watch?v=w9RDunJACkc",
           "channel": "Two Minute Papers",
@@ -3806,7 +3806,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-29T07:52:52.456407+00:00",
+      "last_ok_at": "2026-09-29T10:13:23.540206+00:00",
       "url": "https://www.youtube.com/@AIExplained-official",
       "note": "AI 모델·연구 해설",
       "team_hint": "knowledge",
@@ -3815,14 +3815,14 @@
       "subscribers": "452K",
       "video_count": 30,
       "error": "",
-      "checked_at": "2026-09-29T07:52:52.456421+00:00",
+      "checked_at": "2026-09-29T10:13:23.540222+00:00",
       "videos": [
         {
           "video_id": "R9momwXV9w4",
           "title": "Opus 5.5: How Close Are We to Automated AI Research?",
-          "views_text": "259K",
+          "views_text": "260K",
           "published_text": "4d ago",
-          "views": 259000,
+          "views": 260000,
           "url": "https://www.youtube.com/watch?v=R9momwXV9w4",
           "channel": "AI Explained",
           "teams": [
@@ -3832,9 +3832,9 @@
         {
           "video_id": "J3ljHm57yU0",
           "title": "What AI Researchers Saw, Before Their Demand to ‘Pace’ AI",
-          "views_text": "220K",
+          "views_text": "221K",
           "published_text": "12d ago",
-          "views": 220000,
+          "views": 221000,
           "url": "https://www.youtube.com/watch?v=J3ljHm57yU0",
           "channel": "AI Explained",
           "teams": [
@@ -4181,7 +4181,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-29T07:52:57.756303+00:00",
+      "last_ok_at": "2026-09-29T10:13:28.900526+00:00",
       "url": "https://www.youtube.com/@AmazonSellerUniversity",
       "note": "Amazon 셀러 공식 교육",
       "team_hint": "channels",
@@ -4190,7 +4190,7 @@
       "subscribers": "238K",
       "video_count": 30,
       "error": "",
-      "checked_at": "2026-09-29T07:52:57.756317+00:00",
+      "checked_at": "2026-09-29T10:13:28.900540+00:00",
       "videos": [
         {
           "video_id": "oXWHIQ_Bg9c",
@@ -4243,9 +4243,9 @@
         {
           "video_id": "USIlc93mbW8",
           "title": "Compare Amazon's Professional and Individual selling plans",
-          "views_text": "913",
+          "views_text": "914",
           "published_text": "4mo ago",
-          "views": 913,
+          "views": 914,
           "url": "https://www.youtube.com/watch?v=USIlc93mbW8",
           "channel": "Amazon Seller University",
           "teams": [
@@ -4363,9 +4363,9 @@
         {
           "video_id": "an-Jd5bi_J0",
           "title": "What I'd tell every new Amazon seller  | Amazon Seller Insights",
-          "views_text": "669",
+          "views_text": "670",
           "published_text": "5mo ago",
-          "views": 669,
+          "views": 670,
           "url": "https://www.youtube.com/watch?v=an-Jd5bi_J0",
           "channel": "Amazon Seller University",
           "teams": [
@@ -4411,9 +4411,9 @@
         {
           "video_id": "SsJySSbv5wA",
           "title": "How to Grow Your Amazon Catalog with Variations & Bundles | Amazon Seller Insights",
-          "views_text": "597",
+          "views_text": "598",
           "published_text": "6mo ago",
-          "views": 597,
+          "views": 598,
           "url": "https://www.youtube.com/watch?v=SsJySSbv5wA",
           "channel": "Amazon Seller University",
           "teams": [
@@ -4471,9 +4471,9 @@
         {
           "video_id": "TBa7sNhf8LI",
           "title": "How to Sell Globally Without Costly Mistakes (Lessons Learned) | Amazon Seller Insights",
-          "views_text": "589",
+          "views_text": "590",
           "published_text": "6mo ago",
-          "views": 589,
+          "views": 590,
           "url": "https://www.youtube.com/watch?v=TBa7sNhf8LI",
           "channel": "Amazon Seller University",
           "teams": [
@@ -4507,9 +4507,9 @@
         {
           "video_id": "KT3hhBmT0wg",
           "title": "How to Use Amazon Coupons & Promotions to Stand Out in Search | Amazon Seller Insights",
-          "views_text": "629",
+          "views_text": "630",
           "published_text": "6mo ago",
-          "views": 629,
+          "views": 630,
           "url": "https://www.youtube.com/watch?v=KT3hhBmT0wg",
           "channel": "Amazon Seller University",
           "teams": [
@@ -4556,7 +4556,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-29T07:53:03.196344+00:00",
+      "last_ok_at": "2026-09-29T10:13:34.349777+00:00",
       "url": "https://www.youtube.com/@US_FDA",
       "note": "U.S. FDA 공식 (화장품·MoCRA)",
       "team_hint": "legal",
@@ -4565,14 +4565,14 @@
       "subscribers": "199K",
       "video_count": 30,
       "error": "",
-      "checked_at": "2026-09-29T07:53:03.196359+00:00",
+      "checked_at": "2026-09-29T10:13:34.349788+00:00",
       "videos": [
         {
           "video_id": "ZJJiLao0eVw",
           "title": "Part Three: Substantial Equivalence (SE): The Predicate Review Process, Amendments, and Outcomes",
-          "views_text": "531",
+          "views_text": "535",
           "published_text": "7d ago",
-          "views": 531,
+          "views": 535,
           "url": "https://www.youtube.com/watch?v=ZJJiLao0eVw",
           "channel": "U.S. Food and Drug Administration",
           "teams": [
@@ -4594,9 +4594,9 @@
         {
           "video_id": "I-pkoMqe9B4",
           "title": "Part One: Substantial Equivalence (SE): Key Concepts and Overview of The SE Review Process",
-          "views_text": "539",
+          "views_text": "540",
           "published_text": "7d ago",
-          "views": 539,
+          "views": 540,
           "url": "https://www.youtube.com/watch?v=I-pkoMqe9B4",
           "channel": "U.S. Food and Drug Administration",
           "teams": [
@@ -4606,9 +4606,9 @@
         {
           "video_id": "ldOjG94FwRI",
           "title": "Tips to Stay Safe in the Sun",
-          "views_text": "688",
+          "views_text": "690",
           "published_text": "2w ago",
-          "views": 688,
+          "views": 690,
           "url": "https://www.youtube.com/watch?v=ldOjG94FwRI",
           "channel": "U.S. Food and Drug Administration",
           "teams": [
@@ -4666,9 +4666,9 @@
         {
           "video_id": "izDzhj9Ah2c",
           "title": "FDA Grand Rounds-The Role of FDA in Preventing Medication Errors",
-          "views_text": "927",
+          "views_text": "929",
           "published_text": "1mo ago",
-          "views": 927,
+          "views": 929,
           "url": "https://www.youtube.com/watch?v=izDzhj9Ah2c",
           "channel": "U.S. Food and Drug Administration",
           "teams": [
@@ -4726,9 +4726,9 @@
         {
           "video_id": "oyiX0Czfwyw",
           "title": "GDF2026 - Manufacturing Deficiencies in Liquid Drug Products: The Top Ten Issues",
-          "views_text": "880",
+          "views_text": "881",
           "published_text": "1mo ago",
-          "views": 880,
+          "views": 881,
           "url": "https://www.youtube.com/watch?v=oyiX0Czfwyw",
           "channel": "U.S. Food and Drug Administration",
           "teams": [
@@ -4798,9 +4798,9 @@
         {
           "video_id": "resgk9xULEs",
           "title": "GDF2026 - Updates on Nitrosamines/ Nitrosamine Mitigation Strategies for Pharmaceuticals",
-          "views_text": "566",
+          "views_text": "568",
           "published_text": "1mo ago",
-          "views": 566,
+          "views": 568,
           "url": "https://www.youtube.com/watch?v=resgk9xULEs",
           "channel": "U.S. Food and Drug Administration",
           "teams": [
@@ -4882,9 +4882,9 @@
         {
           "video_id": "v_N1crA5oZ4",
           "title": "GDF2026 - Common Manufacturing Deficiencies for Complex Dosage Forms",
-          "views_text": "311",
+          "views_text": "312",
           "published_text": "1mo ago",
-          "views": 311,
+          "views": 312,
           "url": "https://www.youtube.com/watch?v=v_N1crA5oZ4",
           "channel": "U.S. Food and Drug Administration",
           "teams": [
@@ -4931,7 +4931,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-29T07:53:08.512850+00:00",
+      "last_ok_at": "2026-09-29T10:13:39.725018+00:00",
       "url": "https://www.youtube.com/@linkingyourthinking",
       "note": "Obsidian·개인 지식관리(PKM)",
       "team_hint": "graph",
@@ -4940,7 +4940,7 @@
       "subscribers": "375K",
       "video_count": 30,
       "error": "",
-      "checked_at": "2026-09-29T07:53:08.512864+00:00",
+      "checked_at": "2026-09-29T10:13:39.725029+00:00",
       "videos": [
         {
           "video_id": "l878ahBkx68",
@@ -5089,9 +5089,9 @@
         {
           "video_id": "j64YOie4bIw",
           "title": "Build a Year Map and Finally Be Prepared",
-          "views_text": "168K",
+          "views_text": "169K",
           "published_text": "9mo ago",
-          "views": 168000,
+          "views": 169000,
           "url": "https://www.youtube.com/watch?v=j64YOie4bIw",
           "channel": "Linking Your Thinking with Nick Milo",
           "teams": [
@@ -5306,7 +5306,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-09-29T07:53:13.841113+00:00",
+      "last_ok_at": "2026-09-29T10:13:45.146558+00:00",
       "url": "https://www.youtube.com/@Flexport",
       "note": "Flexport 공식 - 관세·국제 물류 비용",
       "team_hint": "pricing",
@@ -5315,7 +5315,7 @@
       "subscribers": "7.06K",
       "video_count": 30,
       "error": "",
-      "checked_at": "2026-09-29T07:53:13.841127+00:00",
+      "checked_at": "2026-09-29T10:13:45.146572+00:00",
       "videos": [
         {
           "video_id": "2NKi9pRzVAA",
@@ -5332,9 +5332,9 @@
         {
           "video_id": "qFJ2DElxfXI",
           "title": "Tariff Trends 2026: Expert Insights on the Evolving U.S. Tariff Landscape [September 16, 2026]",
-          "views_text": "510",
+          "views_text": "512",
           "published_text": "12d ago",
-          "views": 510,
+          "views": 512,
           "url": "https://www.youtube.com/watch?v=qFJ2DElxfXI",
           "channel": "Flexport",
           "teams": [

@@ -2,7 +2,7 @@
 title: "Record 59fb82a90e · Products-Affected-By-Tariffs-Lasting-Impact-Michael-Zezas-Rajeev-Sibal"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T08:03:00.418718+00:00
+updated_at: 2026-09-29T10:24:39.755449+00:00
 tags: [record, real-data]
 ---
 

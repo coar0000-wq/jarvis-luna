@@ -1,14 +1,14 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-29T07:54:07.179688+00:00",
+  "collected_at": "2026-09-29T10:14:50.057900+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
     "SkincareAddiction",
     "AsianBeautyAdvice"
   ],
-  "post_count": 49,
+  "post_count": 25,
   "per_subreddit": [
     {
       "subreddit": "AsianBeauty",
@@ -27,8 +27,9 @@
     },
     {
       "subreddit": "SkincareAddiction",
-      "post_count": 25,
+      "post_count": 0,
       "errors": [
+        "hot: HTTPError: HTTP Error 429: Too Many Requests",
         "top_week: HTTPError: HTTP Error 429: Too Many Requests"
       ]
     },
@@ -43,52 +44,16 @@
   ],
   "hot_keywords": [
     {
-      "keyword": "routine",
-      "score": 22
-    },
-    {
       "keyword": "skin",
-      "score": 14
-    },
-    {
-      "keyword": "skincare",
-      "score": 10
-    },
-    {
-      "keyword": "acne",
-      "score": 8
-    },
-    {
-      "keyword": "product",
       "score": 6
-    },
-    {
-      "keyword": "question",
-      "score": 5
-    },
-    {
-      "keyword": "2026",
-      "score": 5
-    },
-    {
-      "keyword": "like",
-      "score": 5
     },
     {
       "keyword": "september",
       "score": 4
     },
     {
-      "keyword": "best",
+      "keyword": "2026",
       "score": 4
-    },
-    {
-      "keyword": "spf",
-      "score": 4
-    },
-    {
-      "keyword": "here",
-      "score": 3
     },
     {
       "keyword": "anyone",
@@ -99,24 +64,12 @@
       "score": 3
     },
     {
-      "keyword": "does",
-      "score": 3
-    },
-    {
-      "keyword": "red",
+      "keyword": "like",
       "score": 3
     },
     {
       "keyword": "using",
       "score": 3
-    },
-    {
-      "keyword": "really",
-      "score": 3
-    },
-    {
-      "keyword": "ask",
-      "score": 2
     },
     {
       "keyword": "makeup",
@@ -131,11 +84,15 @@
       "score": 2
     },
     {
+      "keyword": "best",
+      "score": 2
+    },
+    {
       "keyword": "contact",
       "score": 2
     },
     {
-      "keyword": "glycol",
+      "keyword": "does",
       "score": 2
     },
     {
@@ -151,7 +108,7 @@
       "score": 2
     },
     {
-      "keyword": "did",
+      "keyword": "spf",
       "score": 2
     },
     {
@@ -187,38 +144,74 @@
       "score": 2
     },
     {
-      "keyword": "need",
-      "score": 2
+      "keyword": "question",
+      "score": 1
     },
     {
-      "keyword": "psa",
-      "score": 2
+      "keyword": "ask",
+      "score": 1
     },
     {
-      "keyword": "under",
-      "score": 2
+      "keyword": "here",
+      "score": 1
     },
     {
-      "keyword": "worth",
-      "score": 2
+      "keyword": "alter-daily",
+      "score": 1
+    },
+    {
+      "keyword": "questions",
+      "score": 1
+    },
+    {
+      "keyword": "lippie",
+      "score": 1
+    },
+    {
+      "keyword": "rec",
+      "score": 1
+    },
+    {
+      "keyword": "trying",
+      "score": 1
+    },
+    {
+      "keyword": "order",
+      "score": 1
+    },
+    {
+      "keyword": "pimple",
+      "score": 1
+    },
+    {
+      "keyword": "patch",
+      "score": 1
+    },
+    {
+      "keyword": "brand",
+      "score": 1
+    },
+    {
+      "keyword": "natural",
+      "score": 1
+    },
+    {
+      "keyword": "blended",
+      "score": 1
+    },
+    {
+      "keyword": "pupil",
+      "score": 1
     }
   ],
   "beauty_keywords": [
     {
-      "keyword": "routine",
-      "score": 22
-    },
-    {
       "keyword": "skin",
-      "score": 14
-    },
-    {
-      "keyword": "skincare",
-      "score": 10
+      "score": 6
     },
     {
       "keyword": "spf",
-      "score": 4
+      "score": 2
     },
     {
       "keyword": "collagen",
@@ -243,14 +236,6 @@
     {
       "keyword": "sunscreens",
       "score": 2
-    },
-    {
-      "keyword": "mask",
-      "score": 2
-    },
-    {
-      "keyword": "serum",
-      "score": 2
     }
   ],
   "posts": [
@@ -272,6 +257,13 @@
       "title": "Blush and lippie rec",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wsiar3/blush_and_lippie_rec/",
       "published": "2026-09-28T15:51:04+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "TRYING to order this pimple patch brand",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wt4ubk/trying_to_order_this_pimple_patch_brand/",
+      "published": "2026-09-29T08:44:29+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -420,181 +412,6 @@
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wqfmta/ridiculously_large_japan_haul/",
       "published": "2026-09-26T03:05:37+00:00",
       "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "People who exercise in the morning, what's your skincare routine?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wqto4l/people_who_exercise_in_the_morning_whats_your/",
-      "published": "2026-09-26T15:41:35+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "NEW OR NEED HELP? Ask here! - ScA Daily Help Thread Sep 29, 2026",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wt38kt/new_or_need_help_ask_here_sca_daily_help_thread/",
-      "published": "2026-09-29T07:01:57+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "hot"
-    },
-    {
-      "title": "[PSA] Please do NOT put tretinion under your eyes - You will regret.",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1ws8nih/psa_please_do_not_put_tretinion_under_your_eyes/",
-      "published": "2026-09-28T08:07:04+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "hot"
-    },
-    {
-      "title": "[Research] Are professional skincare treatments actually worth it?",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wsy2nd/research_are_professional_skincare_treatments/",
-      "published": "2026-09-29T02:21:20+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "hot"
-    },
-    {
-      "title": "[Acne] I need some help with my skin real bad",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wt1i5p/acne_i_need_some_help_with_my_skin_real_bad/",
-      "published": "2026-09-29T05:19:48+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "hot"
-    },
-    {
-      "title": "[routine help] I’m seriously enjoying squalane.",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wt0sli/routine_help_im_seriously_enjoying_squalane/",
-      "published": "2026-09-29T04:40:01+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "hot"
-    },
-    {
-      "title": "[Routine Help] 29F finally taking skincare seriously",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wt1sua/routine_help_29f_finally_taking_skincare_seriously/",
-      "published": "2026-09-29T05:36:50+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "hot"
-    },
-    {
-      "title": "[Acne] Chronic bumps and pustules on my face. What should I do?",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wsy9rc/acne_chronic_bumps_and_pustules_on_my_face_what/",
-      "published": "2026-09-29T02:30:53+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "hot"
-    },
-    {
-      "title": "[Sun Care] Spf Recs for Oily Skin!",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wt1sk2/sun_care_spf_recs_for_oily_skin/",
-      "published": "2026-09-29T05:36:21+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "hot"
-    },
-    {
-      "title": "[PSA] I gave myself PIH around my mouth",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wsqfcb/psa_i_gave_myself_pih_around_my_mouth/",
-      "published": "2026-09-28T20:47:42+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "hot"
-    },
-    {
-      "title": "[Acne] Stopping Face Reality Update",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wsrkel/acne_stopping_face_reality_update/",
-      "published": "2026-09-28T21:30:18+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "hot"
-    },
-    {
-      "title": "[Routine help] how do I fix this!! Red and irritated follicles on my hips",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wt3uo4/routine_help_how_do_i_fix_this_red_and_irritated/",
-      "published": "2026-09-29T07:40:53+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "hot"
-    },
-    {
-      "title": "[Routine Help] I’m really shiny and would like to tone it down",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wt3ssz/routine_help_im_really_shiny_and_would_like_to/",
-      "published": "2026-09-29T07:37:32+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "hot"
-    },
-    {
-      "title": "[Product Question] Help! My fiancé gifted me a RegenaLight red light mask and I can’t return it. Is it worth me trying to get results from it?",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wszk9k/product_question_help_my_fiancé_gifted_me_a/",
-      "published": "2026-09-29T03:34:07+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "hot"
-    },
-    {
-      "title": "Has my vitamin c serum oxidized? [product question]",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wt27tf/has_my_vitamin_c_serum_oxidized_product_question/",
-      "published": "2026-09-29T06:01:07+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "hot"
-    },
-    {
-      "title": "[MISC] Removing BUTYLENE GLYCOL - life changung for dehydrated acne prone skin",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wse6rr/misc_removing_butylene_glycol_life_changung_for/",
-      "published": "2026-09-28T13:09:10+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "hot"
-    },
-    {
-      "title": "[Routine Help] Under Eye Bags/ Puffiness: what really works?",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wsxofr/routine_help_under_eye_bags_puffiness_what_really/",
-      "published": "2026-09-29T02:02:45+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "hot"
-    },
-    {
-      "title": "[MISC] ringworm advice PLS",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wt0uhg/misc_ringworm_advice_pls/",
-      "published": "2026-09-29T04:42:55+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "hot"
-    },
-    {
-      "title": "[Routine Help] wanting some help with my routine for skincare",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wst8zp/routine_help_wanting_some_help_with_my_routine/",
-      "published": "2026-09-28T22:40:08+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "hot"
-    },
-    {
-      "title": "[Acne] Differin - What's my best move from here? (Week 11)",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wt0mw5/acne_differin_whats_my_best_move_from_here_week_11/",
-      "published": "2026-09-29T04:31:11+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "hot"
-    },
-    {
-      "title": "[Routine Help] How do I properly introduce 15% Vitamin C into my routine? How many times a week should I start with?",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wsvvv9/routine_help_how_do_i_properly_introduce_15/",
-      "published": "2026-09-29T00:37:41+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "hot"
-    },
-    {
-      "title": "[Acne] Stopping Azelaic Acid Was the Best Thing I Did For My Skin",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1ws0w61/acne_stopping_azelaic_acid_was_the_best_thing_i/",
-      "published": "2026-09-28T01:00:14+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "hot"
-    },
-    {
-      "title": "[Acne] bumpy forehead help!",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wszp6a/acne_bumpy_forehead_help/",
-      "published": "2026-09-29T03:41:10+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "hot"
-    },
-    {
-      "title": "[Product Question] Skincare Product Dupe",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wszcqj/product_question_skincare_product_dupe/",
-      "published": "2026-09-29T03:23:25+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "hot"
-    },
-    {
-      "title": "[Product Question] how to use? Does Epiduo also work out for dark spots?",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wsotkl/product_question_how_to_use_does_epiduo_also_work/",
-      "published": "2026-09-28T19:48:27+00:00",
-      "subreddit": "SkincareAddiction",
       "feed": "hot"
     }
   ],

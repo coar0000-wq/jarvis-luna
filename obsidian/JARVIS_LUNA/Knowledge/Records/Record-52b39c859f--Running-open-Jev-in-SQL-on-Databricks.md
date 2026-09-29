@@ -2,7 +2,7 @@
 title: "Record 52b39c859f · Running-open-Jev-in-SQL-on-Databricks"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T08:03:00.310858+00:00
+updated_at: 2026-09-29T10:24:39.644843+00:00
 tags: [record, real-data]
 ---
 
