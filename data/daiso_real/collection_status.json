@@ -1,8 +1,8 @@
 {
   "last_run": {
-    "started_at": "2026-09-28T11:02:53.292065+00:00",
+    "started_at": "2026-09-28T23:50:54.681399+00:00",
     "requested": 110,
-    "ok": 2,
+    "ok": 10,
     "parse_failed": 0,
     "http_error": 0,
     "sold_out": 0,
@@ -10,23 +10,30 @@
     "parse_fail_samples": [],
     "fallback_used": 0,
     "fallback_price_fixed": 0,
-    "skipped_not_beauty": 27,
-    "skipped_bucket_full": 79,
-    "skipped_excluded": {
-      "항균": 1,
-      "네일": 1
+    "skipped_not_beauty": 26,
+    "skipped_bucket_full": 74,
+    "prefetch_policy": {
+      "applied": true,
+      "policy_version": 1,
+      "open_buckets": [
+        "클렌징"
+      ],
+      "open_bucket_candidates": 84,
+      "unknown_bucket_candidates": 735,
+      "skipped_expected_full": 1405
     },
+    "skipped_excluded": {},
     "pruned_existing": {},
-    "queue_size": 2925,
+    "queue_size": 2881,
     "url_source": "queue",
-    "skipped_already_visited": 1853,
+    "skipped_already_visited": 1925,
     "skipped_parked": 15,
     "scope": "다이소몰 뷰티관(C245) 10개 카테고리 (선케어·네일 제외)",
     "delay_seconds": 30.0,
     "max_items": 110,
     "user_agent": "JarvisLunaResearchBot/1.0 (+contact: coar0000@naver.com)",
     "robots_note": "robots.txt: User-agent * → Allow /pd/pdr/, Crawl-delay 30",
-    "finished_at": "2026-09-28T12:00:31.054613+00:00",
+    "finished_at": "2026-09-29T00:48:58.284474+00:00",
     "bucket_targets": {
       "구강용품": 3,
       "헤어케어": 18,
@@ -42,7 +49,7 @@
     "buckets_short": {
       "헤어케어": 18,
       "바디케어": 15,
-      "클렌징": 20,
+      "클렌징": 30,
       "마스크팩": 45,
       "스킨케어": 150
     },
@@ -50,7 +57,7 @@
     "failure_reason": ""
   },
   "totals": {
-    "products": 346,
+    "products": 356,
     "bucket_targets": {
       "구강용품": 3,
       "헤어케어": 18,
@@ -71,7 +78,7 @@
       "바디케어": 15,
       "뷰티소품": 8,
       "스킨케어": 150,
-      "클렌징": 20,
+      "클렌징": 30,
       "향수": 8,
       "헤어케어": 18
     },
@@ -119,8 +126,8 @@
         "max_price_krw": 100000
       },
       "클렌징": {
-        "count": 20,
-        "avg_price_krw": 7850,
+        "count": 30,
+        "avg_price_krw": 10100,
         "min_price_krw": 1000,
         "max_price_krw": 60000
       },
@@ -137,10 +144,10 @@
         "max_price_krw": 40000
       }
     },
-    "avg_price_krw": 10516,
+    "avg_price_krw": 10631,
     "price_krw_min": 500,
     "price_krw_max": 100000,
-    "with_rating": 255
+    "with_rating": 263
   },
   "fx": {
     "usd_to_krw": 1357.93,
@@ -148,7 +155,7 @@
     "as_of": "2026-09-28",
     "source": "Frankfurter API",
     "api_url": "https://api.frankfurter.app/latest?from=USD&to=KRW",
-    "fetched_at": "2026-09-28T19:21:50.209966+00:00",
+    "fetched_at": "2026-09-28T23:50:23.811564+00:00",
     "ok": true,
     "대조": [
       "ExchangeRate-API 1,356.04(2026-09-28)",

@@ -1,15 +1,15 @@
 {
   "agent": "Collector-Audit",
-  "generated_at": "2026-09-28T23:48:07.426553+00:00",
+  "generated_at": "2026-09-29T00:49:24.473337+00:00",
   "last_run": {
     "requested": 110,
-    "ok": 2,
+    "ok": 10,
     "parse_failed": 0,
     "reasons": {},
-    "finished_at": "2026-09-28T12:00:31.054613+00:00"
+    "finished_at": "2026-09-29T00:48:58.284474+00:00"
   },
   "failure_types": [],
-  "products_total": 346,
+  "products_total": 356,
   "blacklist_hint": [],
   "suggestions": [],
   "severity": false

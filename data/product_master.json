@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-28T23:31:57.764142+00:00",
+  "generated_at": "2026-09-29T00:48:58.981658+00:00",
   "generator": "scripts/build_product_master.py",
   "source": "data/daiso_real/products.json",
   "id_policy": "pd_no에 최초 CP 발급 후 재사용·재번호 부여 금지",
-  "active_product_count": 346,
-  "registry_count": 347,
+  "active_product_count": 356,
+  "registry_count": 357,
   "pd_no_to_cp": {
     "1002220": "CP000019",
     "1002393": "CP000020",
@@ -55,6 +55,7 @@
     "1039238": "CP000063",
     "1039542": "CP000064",
     "1040079": "CP000339",
+    "1040472": "CP000349",
     "1040473": "CP000065",
     "1041093": "CP000066",
     "1041749": "CP000067",
@@ -150,8 +151,10 @@
     "1060069": "CP000153",
     "1060208": "CP000154",
     "1060211": "CP000155",
+    "1060212": "CP000350",
     "1060214": "CP000341",
     "1060215": "CP000342",
+    "1060217": "CP000351",
     "1060439": "CP000156",
     "1060487": "CP000157",
     "1060489": "CP000158",
@@ -171,6 +174,7 @@
     "1061697": "CP000172",
     "1061698": "CP000173",
     "1061706": "CP000174",
+    "1061877": "CP000352",
     "1061880": "CP000175",
     "1061886": "CP000176",
     "1061917": "CP000177",
@@ -184,6 +188,7 @@
     "1062141": "CP000185",
     "1062235": "CP000186",
     "1062241": "CP000187",
+    "1062713": "CP000353",
     "1062758": "CP000188",
     "1062777": "CP000189",
     "1062781": "CP000190",
@@ -260,6 +265,7 @@
     "1072855": "CP000259",
     "1072859": "CP000260",
     "1073250": "CP000261",
+    "1073318": "CP000354",
     "1073405": "CP000262",
     "1073585": "CP000263",
     "1073704": "CP000264",
@@ -273,6 +279,7 @@
     "1076691": "CP000272",
     "1078702": "CP000273",
     "1078705": "CP000274",
+    "1078973": "CP000355",
     "1079292": "CP000275",
     "1079875": "CP000276",
     "12753": "CP000001",
@@ -288,6 +295,7 @@
     "59793": "CP000011",
     "61773": "CP000012",
     "65686": "CP000013",
+    "67851": "CP000348",
     "69525": "CP000014",
     "69979": "CP000015",
     "73320": "CP000016",
@@ -342,7 +350,9 @@
     "B202604281021": "CP000325",
     "B202605201969": "CP000345",
     "B202605202031": "CP000326",
+    "B202605202032": "CP000356",
     "B202605202033": "CP000327",
+    "B202605202041": "CP000357",
     "B202608126988": "CP000328",
     "B202608127016": "CP000329",
     "B202608127112": "CP000330",
@@ -1397,7 +1407,7 @@
           "us_label",
           "legal"
         ],
-        "gate_generated_at": "2026-09-28T23:31:57.701038+00:00"
+        "gate_generated_at": "2026-09-29T00:48:58.915244+00:00"
       }
     },
     {
@@ -2849,6 +2859,58 @@
         "option_name": "Title",
         "option_value": "Default Title",
         "sku": "CP000339"
+      },
+      "listing": {
+        "ready": null,
+        "blocked_by": [],
+        "gate_generated_at": null
+      }
+    },
+    {
+      "canonical_product_id": "CP000349",
+      "pd_no": "1040472",
+      "name_ko": "약산성 클렌징티슈 30매",
+      "brand": "약산성",
+      "category": "클렌징",
+      "source": {
+        "system": "daisomall.co.kr",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1040472",
+        "collected_at": "2026-09-28T23:53:09.261457+00:00"
+      },
+      "price_krw": 1000,
+      "rating": 4.8,
+      "review_count": 1159,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231201/LU4EG5yWA9KQdW2KzYiu1040472_00_00LU4EG5yWA9KQdW2KzYiu.jpg",
+      "shopify_score": 82,
+      "grade": "A",
+      "s_rule": "no_global_match",
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 13.3,
+        "reviews": 18.6,
+        "price": 7.0,
+        "keyword": 0,
+        "us_market_fit": 23.4,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "component_scores": {
+        "match_score": 0.0,
+        "demand_score": 0.7785,
+        "review_score": 0.9114,
+        "final_score": 0.5459,
+        "model": "parallel_v1_observational",
+        "used_for_grade": false
+      },
+      "variant": {
+        "group_id": "VG-CP000349",
+        "option_name": "Title",
+        "option_value": "Default Title",
+        "sku": "CP000349"
       },
       "listing": {
         "ready": null,
@@ -5041,7 +5103,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-28T23:31:57.701038+00:00"
+        "gate_generated_at": "2026-09-29T00:48:58.915244+00:00"
       }
     },
     {
@@ -5097,7 +5159,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-28T23:31:57.701038+00:00"
+        "gate_generated_at": "2026-09-29T00:48:58.915244+00:00"
       }
     },
     {
@@ -5201,7 +5263,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-28T23:31:57.701038+00:00"
+        "gate_generated_at": "2026-09-29T00:48:58.915244+00:00"
       }
     },
     {
@@ -6137,7 +6199,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-28T23:31:57.701038+00:00"
+        "gate_generated_at": "2026-09-29T00:48:58.915244+00:00"
       }
     },
     {
@@ -6397,7 +6459,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-28T23:31:57.701038+00:00"
+        "gate_generated_at": "2026-09-29T00:48:58.915244+00:00"
       }
     },
     {
@@ -7805,6 +7867,58 @@
       }
     },
     {
+      "canonical_product_id": "CP000350",
+      "pd_no": "1060212",
+      "name_ko": "바세린 딥클린 클렌징 오일 140 ml",
+      "brand": "애경 바세린",
+      "category": "클렌징",
+      "source": {
+        "system": "daisomall.co.kr",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060212",
+        "collected_at": "2026-09-28T23:54:44.884670+00:00"
+      },
+      "price_krw": 5000,
+      "rating": 4.8,
+      "review_count": 827,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250311/qfG1shOW9FNi1bF4re831060212_00_01qfG1shOW9FNi1bF4re83.jpg",
+      "shopify_score": 85,
+      "grade": "A",
+      "s_rule": "no_global_match",
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 13.3,
+        "reviews": 17.7,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 23.4,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "component_scores": {
+        "match_score": 0.0,
+        "demand_score": 0.8246,
+        "review_score": 0.8857,
+        "final_score": 0.5543,
+        "model": "parallel_v1_observational",
+        "used_for_grade": false
+      },
+      "variant": {
+        "group_id": "VG-CP000350",
+        "option_name": "Title",
+        "option_value": "140ml",
+        "sku": "CP000350"
+      },
+      "listing": {
+        "ready": null,
+        "blocked_by": [],
+        "gate_generated_at": null
+      }
+    },
+    {
       "canonical_product_id": "CP000341",
       "pd_no": "1060214",
       "name_ko": "바세린 딥클린 클렌징폼 180 ml",
@@ -7901,6 +8015,58 @@
         "option_name": "Title",
         "option_value": "50g",
         "sku": "CP000342"
+      },
+      "listing": {
+        "ready": null,
+        "blocked_by": [],
+        "gate_generated_at": null
+      }
+    },
+    {
+      "canonical_product_id": "CP000351",
+      "pd_no": "1060217",
+      "name_ko": "센카 퍼펙트 휩 클렌징 폼 50 g 화이트",
+      "brand": "센카",
+      "category": "클렌징",
+      "source": {
+        "system": "daisomall.co.kr",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060217",
+        "collected_at": "2026-09-28T23:55:49.269612+00:00"
+      },
+      "price_krw": 3000,
+      "rating": 4.8,
+      "review_count": 614,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240924/BcwNg9xoUUF0K6ipCpwh1060217_00_00BcwNg9xoUUF0K6ipCpwh.jpg",
+      "shopify_score": 84,
+      "grade": "A",
+      "s_rule": "weak_solo_token",
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 13.3,
+        "reviews": 16.9,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 23.4,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 4,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "component_scores": {
+        "match_score": 0.258,
+        "demand_score": 0.8246,
+        "review_score": 0.8629,
+        "final_score": 0.6378,
+        "model": "parallel_v1_observational",
+        "used_for_grade": false
+      },
+      "variant": {
+        "group_id": "VG-CP000351",
+        "option_name": "Title",
+        "option_value": "50g",
+        "sku": "CP000351"
       },
       "listing": {
         "ready": null,
@@ -8066,7 +8232,7 @@
           "us_label",
           "legal"
         ],
-        "gate_generated_at": "2026-09-28T23:31:57.701038+00:00"
+        "gate_generated_at": "2026-09-29T00:48:58.915244+00:00"
       }
     },
     {
@@ -8902,6 +9068,58 @@
       }
     },
     {
+      "canonical_product_id": "CP000352",
+      "pd_no": "1061877",
+      "name_ko": "더페이스샵 맑은 쌀 약산성 클렌징 젤 폼 100 ml",
+      "brand": "더페이스샵",
+      "category": "클렌징",
+      "source": {
+        "system": "daisomall.co.kr",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061877",
+        "collected_at": "2026-09-28T23:52:06.341848+00:00"
+      },
+      "price_krw": 3000,
+      "rating": 4.8,
+      "review_count": 578,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260402/MCkshQ3fgoHSvGm7y1HN1061877_00_00MCkshQ3fgoHSvGm7y1HN.jpg",
+      "shopify_score": 84,
+      "grade": "A",
+      "s_rule": "no_global_match",
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 13.3,
+        "reviews": 16.7,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 23.4,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "component_scores": {
+        "match_score": 0.0,
+        "demand_score": 0.8246,
+        "review_score": 0.8571,
+        "final_score": 0.5458,
+        "model": "parallel_v1_observational",
+        "used_for_grade": false
+      },
+      "variant": {
+        "group_id": "VG-CP000352",
+        "option_name": "Title",
+        "option_value": "100ml",
+        "sku": "CP000352"
+      },
+      "listing": {
+        "ready": null,
+        "blocked_by": [],
+        "gate_generated_at": null
+      }
+    },
+    {
       "canonical_product_id": "CP000175",
       "pd_no": "1061880",
       "name_ko": "더페이스샵 맑은 쌀 클렌징 오일 100 ml",
@@ -9570,6 +9788,58 @@
         "option_name": "Title",
         "option_value": "Default Title",
         "sku": "CP000187"
+      },
+      "listing": {
+        "ready": null,
+        "blocked_by": [],
+        "gate_generated_at": null
+      }
+    },
+    {
+      "canonical_product_id": "CP000353",
+      "pd_no": "1062713",
+      "name_ko": "닥터씨피유 딥클린 카놀라 클렌징 오일 150 ml",
+      "brand": "닥터씨피유",
+      "category": "클렌징",
+      "source": {
+        "system": "daisomall.co.kr",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062713",
+        "collected_at": "2026-09-28T23:51:01.854296+00:00"
+      },
+      "price_krw": 5000,
+      "rating": 4.7,
+      "review_count": 1194,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250403/x7IehtLx862OTEpUms7y1062713_00_01x7IehtLx862OTEpUms7y.jpg",
+      "shopify_score": 84,
+      "grade": "A",
+      "s_rule": "no_global_match",
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 11.7,
+        "reviews": 18.6,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 23.4,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "component_scores": {
+        "match_score": 0.0,
+        "demand_score": 0.8246,
+        "review_score": 0.8657,
+        "final_score": 0.5483,
+        "model": "parallel_v1_observational",
+        "used_for_grade": false
+      },
+      "variant": {
+        "group_id": "VG-CP000353",
+        "option_name": "Title",
+        "option_value": "150ml",
+        "sku": "CP000353"
       },
       "listing": {
         "ready": null,
@@ -11082,7 +11352,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-28T23:31:57.701038+00:00"
+        "gate_generated_at": "2026-09-29T00:48:58.915244+00:00"
       }
     },
     {
@@ -12954,7 +13224,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-28T23:31:57.701038+00:00"
+        "gate_generated_at": "2026-09-29T00:48:58.915244+00:00"
       }
     },
     {
@@ -13478,6 +13748,58 @@
       }
     },
     {
+      "canonical_product_id": "CP000354",
+      "pd_no": "1073318",
+      "name_ko": "포인트 라이스 찰떡 흡착 클렌징 폼 80 g",
+      "brand": "포인트",
+      "category": "클렌징",
+      "source": {
+        "system": "daisomall.co.kr",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1073318",
+        "collected_at": "2026-09-28T23:53:40.697817+00:00"
+      },
+      "price_krw": 3000,
+      "rating": 4.7,
+      "review_count": 514,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/KDudQlfJlWkYPQQGhZjF1073318_00_01KDudQlfJlWkYPQQGhZjF.jpg",
+      "shopify_score": 82,
+      "grade": "A",
+      "s_rule": "weak_solo_token",
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 11.7,
+        "reviews": 16.4,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 23.4,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 4,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "component_scores": {
+        "match_score": 0.258,
+        "demand_score": 0.8246,
+        "review_score": 0.8029,
+        "final_score": 0.6198,
+        "model": "parallel_v1_observational",
+        "used_for_grade": false
+      },
+      "variant": {
+        "group_id": "VG-CP000354",
+        "option_name": "Title",
+        "option_value": "80g",
+        "sku": "CP000354"
+      },
+      "listing": {
+        "ready": null,
+        "blocked_by": [],
+        "gate_generated_at": null
+      }
+    },
+    {
       "canonical_product_id": "CP000262",
       "pd_no": "1073405",
       "name_ko": "더랩바이블랑두 클리어히알결광 세럼미스트 150 ml",
@@ -13942,7 +14264,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-09-28T23:31:57.701038+00:00"
+        "gate_generated_at": "2026-09-29T00:48:58.915244+00:00"
       }
     },
     {
@@ -14146,6 +14468,58 @@
         "option_name": "Title",
         "option_value": "Default Title",
         "sku": "CP000274"
+      },
+      "listing": {
+        "ready": null,
+        "blocked_by": [],
+        "gate_generated_at": null
+      }
+    },
+    {
+      "canonical_product_id": "CP000355",
+      "pd_no": "1078973",
+      "name_ko": "포인트 젤라또 민트초코 팩 클렌저 100 ml",
+      "brand": "포인트",
+      "category": "클렌징",
+      "source": {
+        "system": "daisomall.co.kr",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1078973&recmYn=N",
+        "collected_at": "2026-09-28T23:52:37.478655+00:00"
+      },
+      "price_krw": 5000,
+      "rating": 4.8,
+      "review_count": 581,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260409/tSCkr2PqSBxdxqBIyVv81078973_00_01tSCkr2PqSBxdxqBIyVv8.jpg",
+      "shopify_score": 84,
+      "grade": "A",
+      "s_rule": "weak_solo_token",
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 13.3,
+        "reviews": 16.8,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 24.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 4,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "component_scores": {
+        "match_score": 0.258,
+        "demand_score": 0.8338,
+        "review_score": 0.86,
+        "final_score": 0.6401,
+        "model": "parallel_v1_observational",
+        "used_for_grade": false
+      },
+      "variant": {
+        "group_id": "VG-CP000355",
+        "option_name": "Title",
+        "option_value": "100ml",
+        "sku": "CP000355"
       },
       "listing": {
         "ready": null,
@@ -14926,6 +15300,58 @@
         "option_name": "Title",
         "option_value": "Default Title",
         "sku": "CP000013"
+      },
+      "listing": {
+        "ready": null,
+        "blocked_by": [],
+        "gate_generated_at": null
+      }
+    },
+    {
+      "canonical_product_id": "CP000348",
+      "pd_no": "67851",
+      "name_ko": "녹차 클렌징티슈 30매",
+      "brand": "녹차",
+      "category": "클렌징",
+      "source": {
+        "system": "daisomall.co.kr",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=67851",
+        "collected_at": "2026-09-28T23:54:12.377552+00:00"
+      },
+      "price_krw": 1000,
+      "rating": 4.7,
+      "review_count": 932,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231201/ZWzk3rGO0y1Fb290u4gk67851_00_00ZWzk3rGO0y1Fb290u4gk.jpg",
+      "shopify_score": 80,
+      "grade": "A",
+      "s_rule": "score_below_82",
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 11.7,
+        "reviews": 18.0,
+        "price": 7.0,
+        "keyword": 0,
+        "us_market_fit": 23.4,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "component_scores": {
+        "match_score": 0.0,
+        "demand_score": 0.7785,
+        "review_score": 0.8486,
+        "final_score": 0.527,
+        "model": "parallel_v1_observational",
+        "used_for_grade": false
+      },
+      "variant": {
+        "group_id": "VG-CP000348",
+        "option_name": "Title",
+        "option_value": "Default Title",
+        "sku": "CP000348"
       },
       "listing": {
         "ready": null,
@@ -17742,6 +18168,58 @@
       }
     },
     {
+      "canonical_product_id": "CP000356",
+      "pd_no": "B202605202032",
+      "name_ko": "닥터씨피유 딥클린 카놀라 클렌징 오일 150 ml",
+      "brand": "닥터씨피유",
+      "category": "클렌징",
+      "source": {
+        "system": "daisomall.co.kr",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202605202032&recmYn=N",
+        "collected_at": "2026-09-28T23:51:33.785555+00:00"
+      },
+      "price_krw": 60000,
+      "rating": null,
+      "review_count": null,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250403/x7IehtLx862OTEpUms7y1062713_00_01x7IehtLx862OTEpUms7y.jpg",
+      "shopify_score": 45,
+      "grade": "C",
+      "s_rule": "score_below_82",
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 1.0,
+        "keyword": 0,
+        "us_market_fit": 23.4,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "component_scores": {
+        "match_score": 0.0,
+        "demand_score": 0.6862,
+        "review_score": 0.0,
+        "final_score": 0.2402,
+        "model": "parallel_v1_observational",
+        "used_for_grade": false
+      },
+      "variant": {
+        "group_id": "VG-CP000356",
+        "option_name": "Title",
+        "option_value": "150ml",
+        "sku": "CP000356"
+      },
+      "listing": {
+        "ready": null,
+        "blocked_by": [],
+        "gate_generated_at": null
+      }
+    },
+    {
       "canonical_product_id": "CP000327",
       "pd_no": "B202605202033",
       "name_ko": "닥터오라클 큐어소나 리커버링 릴렉싱 크림 60 ml",
@@ -17786,6 +18264,58 @@
         "option_name": "Title",
         "option_value": "60ml",
         "sku": "CP000327"
+      },
+      "listing": {
+        "ready": null,
+        "blocked_by": [],
+        "gate_generated_at": null
+      }
+    },
+    {
+      "canonical_product_id": "CP000357",
+      "pd_no": "B202605202041",
+      "name_ko": "바세린 딥클린 클렌징 오일 140 ml",
+      "brand": "바세린",
+      "category": "클렌징",
+      "source": {
+        "system": "daisomall.co.kr",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202605202041&recmYn=N",
+        "collected_at": "2026-09-28T23:55:17.241639+00:00"
+      },
+      "price_krw": 60000,
+      "rating": null,
+      "review_count": null,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250311/qfG1shOW9FNi1bF4re831060212_00_01qfG1shOW9FNi1bF4re83.jpg",
+      "shopify_score": 45,
+      "grade": "C",
+      "s_rule": "score_below_82",
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 1.0,
+        "keyword": 0,
+        "us_market_fit": 23.4,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "component_scores": {
+        "match_score": 0.0,
+        "demand_score": 0.6862,
+        "review_score": 0.0,
+        "final_score": 0.2402,
+        "model": "parallel_v1_observational",
+        "used_for_grade": false
+      },
+      "variant": {
+        "group_id": "VG-CP000357",
+        "option_name": "Title",
+        "option_value": "140ml",
+        "sku": "CP000357"
       },
       "listing": {
         "ready": null,

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-28T19:21:50.956394+00:00",
-  "total_products": 346,
+  "generated_at": "2026-09-29T00:48:58.596924+00:00",
+  "total_products": 356,
   "grade_summary": {
     "S": 10,
-    "A": 77,
+    "A": 85,
     "B": 48,
-    "C": 211
+    "C": 213
   },
   "s_slot_limit": 10,
   "s_slot_open": 0,
   "category_avg_score": {
-    "클렌징": 76.3,
+    "클렌징": 76.1,
     "스킨케어": 65.6,
     "바디케어": 63.9,
     "마스크팩": 53.9,
@@ -33,7 +33,7 @@
     "amazon_new_beauty"
   ],
   "global_demand_signals": 329,
-  "products_with_global_match": 163,
+  "products_with_global_match": 166,
   "canonical": "shopify_s_recommendations.json",
   "priority_note": "S등급만 Shopify 1차 등록. 펫/노이즈/약한 단일토큰 제외.",
   "scoring_model": {
@@ -5748,6 +5748,41 @@
       "canonical_product_id": "CP000088"
     },
     {
+      "pd_no": "1060212",
+      "name": "바세린 딥클린 클렌징 오일 140 ml",
+      "bucket": "클렌징",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 4.8,
+      "review_count": 827,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060212",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250311/qfG1shOW9FNi1bF4re831060212_00_01qfG1shOW9FNi1bF4re83.jpg",
+      "shopify_score": 85,
+      "grade": "A",
+      "s_rule": "no_global_match",
+      "us_market_hits": 8,
+      "us_median_price_usd": 21.0,
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 13.3,
+        "reviews": 17.7,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 23.4,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "클렌징 카테고리 · 평점 4.8 · 리뷰 827건 (글로벌 시그널 약함)",
+      "canonical_product_id": "CP000350"
+    },
+    {
       "pd_no": "1068733",
       "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
       "bucket": "스킨케어",
@@ -5896,6 +5931,226 @@
       ],
       "recommend_reason": "글로벌 'Snail Mucin Eye Cream' (sokoglam_us) 유사 29% · 토큰 cream · S제외:weak_solo_token",
       "canonical_product_id": "CP000090"
+    },
+    {
+      "pd_no": "1060217",
+      "name": "센카 퍼펙트 휩 클렌징 폼 50 g 화이트",
+      "bucket": "클렌징",
+      "rebucketed": false,
+      "price_krw": 3000,
+      "rating": 4.8,
+      "review_count": 614,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060217",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240924/BcwNg9xoUUF0K6ipCpwh1060217_00_00BcwNg9xoUUF0K6ipCpwh.jpg",
+      "shopify_score": 84,
+      "grade": "A",
+      "s_rule": "weak_solo_token",
+      "us_market_hits": 8,
+      "us_median_price_usd": 21.0,
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 13.3,
+        "reviews": 16.9,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 23.4,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 4,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "ulta_beauty",
+        "global_product": "Toleriane Hydrating Gentle Face Cleanser for Dry Skin",
+        "similarity": 0.258,
+        "demand_weight": 0.68,
+        "matched_tokens": [
+          "cleanser"
+        ],
+        "match_score": 0.175
+      },
+      "global_matches": [
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Toleriane Hydrating Gentle Face Cleanser for Dry Skin",
+          "similarity": 0.258,
+          "demand_weight": 0.68,
+          "matched_tokens": [
+            "cleanser"
+          ],
+          "match_score": 0.175
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "ROUND LAB 1025 Dokdo Cleanser 5.07 fl. oz.(150ml)",
+          "similarity": 0.293,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "cleanser"
+          ],
+          "match_score": 0.144
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Low-pH Good Morning Gel Cleanser",
+          "similarity": 0.28,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "cleanser"
+          ],
+          "match_score": 0.133
+        }
+      ],
+      "recommend_reason": "글로벌 'Toleriane Hydrating Gentle Face Cleanser for Dry Skin' (ulta_beauty) 유사 26% · 토큰 cleanser · S제외:weak_solo_token",
+      "canonical_product_id": "CP000351"
+    },
+    {
+      "pd_no": "1078973",
+      "name": "포인트 젤라또 민트초코 팩 클렌저 100 ml",
+      "bucket": "클렌징",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 4.8,
+      "review_count": 581,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1078973&recmYn=N",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260409/tSCkr2PqSBxdxqBIyVv81078973_00_01tSCkr2PqSBxdxqBIyVv8.jpg",
+      "shopify_score": 84,
+      "grade": "A",
+      "s_rule": "weak_solo_token",
+      "us_market_hits": 4,
+      "us_median_price_usd": 22.49,
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 13.3,
+        "reviews": 16.8,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 24.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 4,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "ulta_beauty",
+        "global_product": "Toleriane Hydrating Gentle Face Cleanser for Dry Skin",
+        "similarity": 0.258,
+        "demand_weight": 0.68,
+        "matched_tokens": [
+          "cleanser"
+        ],
+        "match_score": 0.175
+      },
+      "global_matches": [
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Toleriane Hydrating Gentle Face Cleanser for Dry Skin",
+          "similarity": 0.258,
+          "demand_weight": 0.68,
+          "matched_tokens": [
+            "cleanser"
+          ],
+          "match_score": 0.175
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "ROUND LAB 1025 Dokdo Cleanser 5.07 fl. oz.(150ml)",
+          "similarity": 0.293,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "cleanser"
+          ],
+          "match_score": 0.144
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Low-pH Good Morning Gel Cleanser",
+          "similarity": 0.28,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "cleanser"
+          ],
+          "match_score": 0.133
+        }
+      ],
+      "recommend_reason": "글로벌 'Toleriane Hydrating Gentle Face Cleanser for Dry Skin' (ulta_beauty) 유사 26% · 토큰 cleanser · S제외:weak_solo_token",
+      "canonical_product_id": "CP000355"
+    },
+    {
+      "pd_no": "1062713",
+      "name": "닥터씨피유 딥클린 카놀라 클렌징 오일 150 ml",
+      "bucket": "클렌징",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 4.7,
+      "review_count": 1194,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062713",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250403/x7IehtLx862OTEpUms7y1062713_00_01x7IehtLx862OTEpUms7y.jpg",
+      "shopify_score": 84,
+      "grade": "A",
+      "s_rule": "no_global_match",
+      "us_market_hits": 8,
+      "us_median_price_usd": 21.0,
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 11.7,
+        "reviews": 18.6,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 23.4,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "클렌징 카테고리 · 평점 4.7 · 리뷰 1,194건 (글로벌 시그널 약함)",
+      "canonical_product_id": "CP000353"
+    },
+    {
+      "pd_no": "1061877",
+      "name": "더페이스샵 맑은 쌀 약산성 클렌징 젤 폼 100 ml",
+      "bucket": "클렌징",
+      "rebucketed": false,
+      "price_krw": 3000,
+      "rating": 4.8,
+      "review_count": 578,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061877",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260402/MCkshQ3fgoHSvGm7y1HN1061877_00_00MCkshQ3fgoHSvGm7y1HN.jpg",
+      "shopify_score": 84,
+      "grade": "A",
+      "s_rule": "no_global_match",
+      "us_market_hits": 8,
+      "us_median_price_usd": 21.0,
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 13.3,
+        "reviews": 16.7,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 23.4,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "클렌징 카테고리 · 평점 4.8 · 리뷰 578건 (글로벌 시그널 약함)",
+      "canonical_product_id": "CP000352"
     },
     {
       "pd_no": "1051730",
@@ -6158,6 +6413,116 @@
       "downgrade_reason": "상위 10위 밖"
     },
     {
+      "pd_no": "1073318",
+      "name": "포인트 라이스 찰떡 흡착 클렌징 폼 80 g",
+      "bucket": "클렌징",
+      "rebucketed": false,
+      "price_krw": 3000,
+      "rating": 4.7,
+      "review_count": 514,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1073318",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/KDudQlfJlWkYPQQGhZjF1073318_00_01KDudQlfJlWkYPQQGhZjF.jpg",
+      "shopify_score": 82,
+      "grade": "A",
+      "s_rule": "weak_solo_token",
+      "us_market_hits": 8,
+      "us_median_price_usd": 21.0,
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 11.7,
+        "reviews": 16.4,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 23.4,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 4,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "ulta_beauty",
+        "global_product": "Toleriane Hydrating Gentle Face Cleanser for Dry Skin",
+        "similarity": 0.258,
+        "demand_weight": 0.68,
+        "matched_tokens": [
+          "cleanser"
+        ],
+        "match_score": 0.175
+      },
+      "global_matches": [
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Toleriane Hydrating Gentle Face Cleanser for Dry Skin",
+          "similarity": 0.258,
+          "demand_weight": 0.68,
+          "matched_tokens": [
+            "cleanser"
+          ],
+          "match_score": 0.175
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "ROUND LAB 1025 Dokdo Cleanser 5.07 fl. oz.(150ml)",
+          "similarity": 0.293,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "cleanser"
+          ],
+          "match_score": 0.144
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Low-pH Good Morning Gel Cleanser",
+          "similarity": 0.28,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "cleanser"
+          ],
+          "match_score": 0.133
+        }
+      ],
+      "recommend_reason": "글로벌 'Toleriane Hydrating Gentle Face Cleanser for Dry Skin' (ulta_beauty) 유사 26% · 토큰 cleanser · S제외:weak_solo_token",
+      "canonical_product_id": "CP000354"
+    },
+    {
+      "pd_no": "1040472",
+      "name": "약산성 클렌징티슈 30매",
+      "bucket": "클렌징",
+      "rebucketed": false,
+      "price_krw": 1000,
+      "rating": 4.8,
+      "review_count": 1159,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1040472",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231201/LU4EG5yWA9KQdW2KzYiu1040472_00_00LU4EG5yWA9KQdW2KzYiu.jpg",
+      "shopify_score": 82,
+      "grade": "A",
+      "s_rule": "no_global_match",
+      "us_market_hits": 8,
+      "us_median_price_usd": 21.0,
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 13.3,
+        "reviews": 18.6,
+        "price": 7.0,
+        "keyword": 0,
+        "us_market_fit": 23.4,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "클렌징 카테고리 · 평점 4.8 · 리뷰 1,159건 (글로벌 시그널 약함)",
+      "canonical_product_id": "CP000349"
+    },
+    {
       "pd_no": "1070756",
       "name": "더페이스샵 프루츠톡 망고 핸드크림 50 ml",
       "bucket": "바디케어",
@@ -6366,6 +6731,41 @@
       ],
       "recommend_reason": "글로벌 'Madagascar Centella Travel Kit' (ulta_beauty) 유사 50% · 토큰 centella · S제외:score_below_82",
       "canonical_product_id": "CP000065"
+    },
+    {
+      "pd_no": "67851",
+      "name": "녹차 클렌징티슈 30매",
+      "bucket": "클렌징",
+      "rebucketed": false,
+      "price_krw": 1000,
+      "rating": 4.7,
+      "review_count": 932,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=67851",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231201/ZWzk3rGO0y1Fb290u4gk67851_00_00ZWzk3rGO0y1Fb290u4gk.jpg",
+      "shopify_score": 80,
+      "grade": "A",
+      "s_rule": "score_below_82",
+      "us_market_hits": 8,
+      "us_median_price_usd": 21.0,
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 11.7,
+        "reviews": 18.0,
+        "price": 7.0,
+        "keyword": 0,
+        "us_market_fit": 23.4,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "클렌징 카테고리 · 평점 4.7 · 리뷰 932건 (글로벌 시그널 약함)",
+      "canonical_product_id": "CP000348"
     },
     {
       "pd_no": "1072800",
@@ -16334,6 +16734,76 @@
       "global_matches": [],
       "recommend_reason": "스킨케어 카테고리 (글로벌 시그널 약함)",
       "canonical_product_id": "CP000335"
+    },
+    {
+      "pd_no": "B202605202032",
+      "name": "닥터씨피유 딥클린 카놀라 클렌징 오일 150 ml",
+      "bucket": "클렌징",
+      "rebucketed": false,
+      "price_krw": 60000,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202605202032&recmYn=N",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250403/x7IehtLx862OTEpUms7y1062713_00_01x7IehtLx862OTEpUms7y.jpg",
+      "shopify_score": 45,
+      "grade": "C",
+      "s_rule": "score_below_82",
+      "us_market_hits": 8,
+      "us_median_price_usd": 21.0,
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 1.0,
+        "keyword": 0,
+        "us_market_fit": 23.4,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "클렌징 카테고리 (글로벌 시그널 약함)",
+      "canonical_product_id": "CP000356"
+    },
+    {
+      "pd_no": "B202605202041",
+      "name": "바세린 딥클린 클렌징 오일 140 ml",
+      "bucket": "클렌징",
+      "rebucketed": false,
+      "price_krw": 60000,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202605202041&recmYn=N",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250311/qfG1shOW9FNi1bF4re831060212_00_01qfG1shOW9FNi1bF4re83.jpg",
+      "shopify_score": 45,
+      "grade": "C",
+      "s_rule": "score_below_82",
+      "us_market_hits": 8,
+      "us_median_price_usd": 21.0,
+      "score_breakdown": {
+        "category": 20.2,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 1.0,
+        "keyword": 0,
+        "us_market_fit": 23.4,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "클렌징 카테고리 (글로벌 시그널 약함)",
+      "canonical_product_id": "CP000357"
     },
     {
       "pd_no": "99572122",
