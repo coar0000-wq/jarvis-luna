@@ -57,19 +57,19 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.706,
+        "confidence": 0.696,
         "usage": {
           "input_tokens": 1105,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.69,
+        "risk_score": 1.65,
         "model": "jev-1.13.0",
         "state_signature": "cdb95028555fb2cc1091059f8cd86fe4a993cc1cce6206584626e7d74b6ea8c6",
-        "decided_at": "2026-09-28T19:23:30.442062+00:00",
-        "carried_from": "2026-09-28T19:23:30.442062+00:00"
+        "decided_at": "2026-09-29T00:23:41.501930+00:00",
+        "carried_from": "2026-09-29T00:23:41.501930+00:00"
       },
-      "gate_generated_at": "2026-09-29T00:48:58.915244+00:00"
+      "gate_generated_at": "2026-09-29T04:03:26.814009+00:00"
     },
     {
       "rank": 2,
@@ -119,7 +119,7 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.93,
+        "model_route_confidence": 0.91,
         "findings": [
           "public blockers: legal_full"
         ],
@@ -129,13 +129,13 @@
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.68,
+        "risk_score": 1.63,
         "model": "jev-1.13.0",
         "state_signature": "51d0e73d5ba5ed41de4d4bf02811433e8f7ef09ef764ae07bb5b94a8cc530ea7",
-        "decided_at": "2026-09-28T19:23:30.610228+00:00",
-        "carried_from": "2026-09-28T19:23:30.610228+00:00"
+        "decided_at": "2026-09-29T00:23:41.673092+00:00",
+        "carried_from": "2026-09-29T00:23:41.673092+00:00"
       },
-      "gate_generated_at": "2026-09-29T00:48:58.915244+00:00"
+      "gate_generated_at": "2026-09-29T04:03:26.814009+00:00"
     },
     {
       "rank": 3,
@@ -184,23 +184,23 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.91,
+        "model_route_confidence": 0.9,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.692,
+        "confidence": 0.722,
         "usage": {
           "input_tokens": 1104,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.54,
+        "risk_score": 1.63,
         "model": "jev-1.13.0",
         "state_signature": "51d0e73d5ba5ed41de4d4bf02811433e8f7ef09ef764ae07bb5b94a8cc530ea7",
-        "decided_at": "2026-09-28T19:23:30.801598+00:00",
-        "carried_from": "2026-09-28T19:23:30.801598+00:00"
+        "decided_at": "2026-09-29T00:23:41.853308+00:00",
+        "carried_from": "2026-09-29T00:23:41.853308+00:00"
       },
-      "gate_generated_at": "2026-09-29T00:48:58.915244+00:00"
+      "gate_generated_at": "2026-09-29T04:03:26.814009+00:00"
     },
     {
       "rank": 4,
@@ -250,23 +250,23 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.93,
+        "model_route_confidence": 0.91,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.702,
+        "confidence": 0.694,
         "usage": {
           "input_tokens": 1086,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.59,
+        "risk_score": 1.56,
         "model": "jev-1.13.0",
         "state_signature": "a235a30f46906db0e3e7198e8f998dc4cfdaf92ceac3f46d1cef17739f39ea0f",
-        "decided_at": "2026-09-28T19:23:31.026616+00:00",
-        "carried_from": "2026-09-28T19:23:31.026616+00:00"
+        "decided_at": "2026-09-29T00:23:42.030805+00:00",
+        "carried_from": "2026-09-29T00:23:42.030805+00:00"
       },
-      "gate_generated_at": "2026-09-29T00:48:58.915244+00:00"
+      "gate_generated_at": "2026-09-29T04:03:26.814009+00:00"
     },
     {
       "rank": 5,
@@ -320,7 +320,7 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.702,
+        "confidence": 0.698,
         "usage": {
           "input_tokens": 1097,
           "output_tokens": 198
@@ -329,10 +329,10 @@
         "risk_score": 1.62,
         "model": "jev-1.13.0",
         "state_signature": "a235a30f46906db0e3e7198e8f998dc4cfdaf92ceac3f46d1cef17739f39ea0f",
-        "decided_at": "2026-09-28T19:23:31.245440+00:00",
-        "carried_from": "2026-09-28T19:23:31.245440+00:00"
+        "decided_at": "2026-09-29T00:23:42.208636+00:00",
+        "carried_from": "2026-09-29T00:23:42.208636+00:00"
       },
-      "gate_generated_at": "2026-09-29T00:48:58.915244+00:00"
+      "gate_generated_at": "2026-09-29T04:03:26.814009+00:00"
     },
     {
       "rank": 6,
@@ -382,23 +382,23 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.92,
+        "model_route_confidence": 0.9,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.686,
+        "confidence": 0.682,
         "usage": {
           "input_tokens": 1090,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.58,
+        "risk_score": 1.59,
         "model": "jev-1.13.0",
         "state_signature": "9cd2800fc8d4cac3636219a503b910fbb2b0924bd299e98e77065bc73dc4dcbb",
-        "decided_at": "2026-09-28T19:23:31.460428+00:00",
-        "carried_from": "2026-09-28T19:23:31.460428+00:00"
+        "decided_at": "2026-09-29T00:23:42.372302+00:00",
+        "carried_from": "2026-09-29T00:23:42.372302+00:00"
       },
-      "gate_generated_at": "2026-09-29T00:48:58.915244+00:00"
+      "gate_generated_at": "2026-09-29T04:03:26.814009+00:00"
     },
     {
       "rank": 7,
@@ -440,7 +440,7 @@
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "review",
+        "grade_advisory": "hold",
         "legal_gate_advisory": "review",
         "risk_level": "high",
         "risk_points": 1,
@@ -448,23 +448,23 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.93,
+        "model_route_confidence": 0.94,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.702,
+        "confidence": 0.72,
         "usage": {
           "input_tokens": 1096,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.5,
+        "risk_score": 1.6,
         "model": "jev-1.13.0",
         "state_signature": "e05a0e27591e0c95f4d9b69ae7367544fdcdf352632872cce305bc9033dca5a5",
-        "decided_at": "2026-09-28T19:23:31.627419+00:00",
-        "carried_from": "2026-09-28T19:23:31.627419+00:00"
+        "decided_at": "2026-09-29T00:23:42.558702+00:00",
+        "carried_from": "2026-09-29T00:23:42.558702+00:00"
       },
-      "gate_generated_at": "2026-09-29T00:48:58.915244+00:00"
+      "gate_generated_at": "2026-09-29T04:03:26.814009+00:00"
     },
     {
       "rank": 8,
@@ -514,23 +514,23 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.94,
+        "model_route_confidence": 0.91,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.734,
+        "confidence": 0.714,
         "usage": {
           "input_tokens": 1097,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.64,
+        "risk_score": 1.63,
         "model": "jev-1.13.0",
         "state_signature": "056b49377500e8706a467cb391d5c4e59863606a6588d742d745395c1c4e14fa",
-        "decided_at": "2026-09-28T19:23:31.834000+00:00",
-        "carried_from": "2026-09-28T19:23:31.834000+00:00"
+        "decided_at": "2026-09-29T00:23:42.775164+00:00",
+        "carried_from": "2026-09-29T00:23:42.775164+00:00"
       },
-      "gate_generated_at": "2026-09-29T00:48:58.915244+00:00"
+      "gate_generated_at": "2026-09-29T04:03:26.814009+00:00"
     },
     {
       "rank": 9,
@@ -591,25 +591,25 @@
           "listing"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.91,
+        "model_route_confidence": 0.9,
         "findings": [
           "draft blockers: copy, us_label, legal",
           "public blockers: copy, us_label, legal, legal_full",
           "legal hard block"
         ],
-        "confidence": 0.908,
+        "confidence": 0.894,
         "usage": {
           "input_tokens": 1113,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 2.7,
+        "risk_score": 2.62,
         "model": "jev-1.13.0",
         "state_signature": "076ec9b1377ea4920113fc63027f92494c8df4d701076bc225da628764857456",
-        "decided_at": "2026-09-28T19:23:32.006899+00:00",
-        "carried_from": "2026-09-28T19:23:32.006899+00:00"
+        "decided_at": "2026-09-29T00:23:42.939056+00:00",
+        "carried_from": "2026-09-29T00:23:42.939056+00:00"
       },
-      "gate_generated_at": "2026-09-29T00:48:58.915244+00:00"
+      "gate_generated_at": "2026-09-29T04:03:26.814009+00:00"
     },
     {
       "rank": 10,
@@ -674,25 +674,25 @@
           "listing"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.88,
+        "model_route_confidence": 0.92,
         "findings": [
           "draft blockers: copy, gosi, us_label, legal",
           "public blockers: copy, gosi, us_label, legal, legal_full",
           "legal hard block"
         ],
-        "confidence": 0.932,
+        "confidence": 0.942,
         "usage": {
           "input_tokens": 1136,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 2.82,
+        "risk_score": 2.83,
         "model": "jev-1.13.0",
         "state_signature": "dde31c10e5a124a988452c35c89827158335f637f4ba35f152d3b99b3a8502d8",
-        "decided_at": "2026-09-28T19:23:32.196312+00:00",
-        "carried_from": "2026-09-28T19:23:32.196312+00:00"
+        "decided_at": "2026-09-29T00:23:43.104265+00:00",
+        "carried_from": "2026-09-29T00:23:43.104265+00:00"
       },
-      "gate_generated_at": "2026-09-29T00:48:58.915244+00:00"
+      "gate_generated_at": "2026-09-29T04:03:26.814009+00:00"
     }
   ],
   "agent_ready_count": 8,
