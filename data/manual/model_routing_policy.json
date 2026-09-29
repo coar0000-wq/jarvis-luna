@@ -32,7 +32,8 @@
     "tier_0": "결정적 로컬 규칙과 정본 게이트",
     "tier_1": "Jev/TypeSafe의 구조화된 분류·위험·팀 라우팅",
     "tier_2": "열린 진단이나 복합 설명이 정말 필요할 때만 Gemini Flash-Lite 1회 호출",
-    "tier_3": "법률 자료, 외부 계정, 공개 게시, 결제는 모델 호출로 대체하지 않고 사람 승인 대기"
+    "tier_3": "법률 자료, 외부 계정, 공개 게시, 결제는 모델 호출로 대체하지 않고 사람 승인 대기",
+    "tier_2b": "Gemini Advanced 웹(gemini.google.com, Google One AI Pro 프로모션·API 키 없음)과 Copilot 웹: 사용자 브라우저를 쓰는 Aside 작업·루틴에서만 사용. 긴 문맥 검토·이미지·영상 검토·카피 교차 점검용. GitHub Actions 팀은 호출할 수 없고, 결과는 사람이 검토한 뒤 data/manual 로만 들어온다"
   },
   "gemini_escalation": {
     "enabled": true,
@@ -61,5 +62,28 @@
     "may_pay": false,
     "may_retry_on_401_402_403_429": false,
     "human_approval_required_for_external_write": true
+  },
+  "browser_assistants": {
+    "gemini_advanced_web": {
+      "url": "https://gemini.google.com/app",
+      "api_key": false,
+      "account": "사용자 Google 계정(Pro)",
+      "status": "사용 가능 (2026-09-29 임시 채팅 응답 확인)",
+      "default_mode": "임시 채팅"
+    },
+    "copilot_web": {
+      "url": "https://copilot.com/chat?fromcode=cmmlf487uwy&redirfrom=cosmicRingCookie",
+      "api_key": false,
+      "status": "사용 가능 (2026-09-29 사용자 생성 Microsoft 개인 계정, Google 로그인 연동 · 임시 채팅 응답 확인)",
+      "role": "다른 회사 모델의 독립 교차 점검",
+      "account": "사용자 Microsoft 개인 계정 (Google 로그인)"
+    },
+    "rules": [
+      "비밀값·개인정보·비공개 파일을 붙여넣지 않는다",
+      "결과는 참고용. 법률·고시·성분·가격 정본에 직접 쓰지 않는다",
+      "매출·ROAS 배수 주장은 근거로 쓰지 않는다",
+      "대량 반복 호출 금지, 한도·캡차가 나오면 멈춘다",
+      "Aside 계정 스킬 jarvis-web-ai-assistants 가 사용 절차의 정본"
+    ]
   }
 }
