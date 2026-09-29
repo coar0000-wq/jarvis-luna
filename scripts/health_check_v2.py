@@ -70,16 +70,53 @@ def check_all():
         total = int(legal.get("total") or 0) if isinstance(legal, dict) else 0
         complete = int(legal.get("complete") or 0) if isinstance(legal, dict) else 0
         blocked = int(legal.get("blocked") or max(0, total - complete)) if isinstance(legal, dict) else 0
-        status = "success" if total and complete == total else "failed"
+        # 법률 빈칸은 장애가 아니다 (2026-09-29).
+        # 책임자 주소·안전성 자료처럼 사람이 넣어야 하는 값이 비어 공개가 막힌 것은
+        # 의도한 안전 차단이다. 이걸 failed 로 올리면 overall 이 늘 failed 라
+        # 진짜 장애(파일 없음·생성 멈춤)를 가린다. 사람 입력 대기(waiting)로 분리한다.
+        items = legal.get("items") or {} if isinstance(legal, dict) else {}
+        top: dict[str, int] = {}
+        for row in items.values():
+            for bl in row.get("blockers") or []:
+                key = bl.split(".")[0] if bl.startswith("responsible_person") else bl
+                top[key] = top.get(key, 0) + 1
+        gen_h = hours_since(legal.get("generated_at", "")) if isinstance(legal, dict) else 999
+        if not total:
+            status, why = "failed", "legal_full.json 에 판정 대상이 없다"
+        elif gen_h > 48:
+            status, why = "degraded", f"legal_full 생성이 {gen_h:.0f}시간 멈춤"
+        elif complete == total:
+            status, why = "success", "전 항목 완비"
+        else:
+            status, why = "waiting", "사람 입력 대기: " + ", ".join(f"{k} {v}건" for k, v in sorted(top.items(), key=lambda kv: -kv[1])[:4])
         checks.append({
             "team": "legal_full",
             "status": status,
-            "reason": f"MoCRA 풀스키마 완료 {complete}/{total} · 공개 차단 {blocked}건",
+            "reason": f"MoCRA 풀스키마 완료 {complete}/{total} · 공개 차단 {blocked}건 · {why}",
             "is_failure": status == "failed",
+            "waiting_kind": "human_approval_required" if status == "waiting" else None,
             "freshness": freshness_str(legal.get("generated_at", "") if isinstance(legal, dict) else "")
         })
     else:
         checks.append({"team": "legal_full", "status": "failed", "reason": "legal_full.json 없음 - 3/6 라벨", "is_failure": True, "freshness": "never"})
+
+    # Shopify shortlist + sync guard (2026-09-29)
+    guard_path = DATA_DIR / "shopify_sync_guard.json"
+    if guard_path.exists():
+        g = json.loads(guard_path.read_text(encoding="utf-8"))
+        sm = g.get("summary") or {}
+        checks.append({
+            "team": "shopify_sync",
+            "status": "success" if g.get("ok") else "failed",
+            "reason": (f"shortlist {g.get('shortlist_status')} {g.get('shortlist_units')}단위 · {g.get('mode')} · "
+                       f"create {sm.get('create', 0)} / update {sm.get('update', 0)} / 변경없음 {sm.get('unchanged', 0)}"
+                       + (f" · 위반 {g.get('violations')}" if not g.get("ok") else "")),
+            "is_failure": not g.get("ok"),
+            "freshness": freshness_str(g.get("generated_at", "")),
+        })
+    else:
+        checks.append({"team": "shopify_sync", "status": "failed", "reason": "shopify_sync_guard.json 없음",
+                       "is_failure": True, "freshness": "never"})
 
     # pricing + fx - P1
     pricing = json.loads((DATA_DIR / "pricing_model.json").read_text(encoding="utf-8"))
@@ -115,7 +152,7 @@ def build_dashboard():
     
     has_failed = any(c["status"]=="failed" for c in checks)
     has_degraded = any(c["status"]=="degraded" for c in checks)
-    has_warning = any(c["status"]=="warning" for c in checks)
+    has_warning = any(c["status"] in ("warning", "waiting") for c in checks)
     
     overall = "failed" if has_failed else "degraded" if has_degraded else "warning" if has_warning else "success"
     
@@ -138,12 +175,14 @@ def build_dashboard():
             "success": "정상",
             "warning": "변경 없음",
             "degraded": "일부 실패",
-            "failed": "예외 - 사람 개입 필요"
+            "waiting": "사람 입력 대기 (장애 아님)",
+            "failed": "예외 - 자동화 장애"
         },
         "kpi": kpi,
         "summary": {
             "success": len([c for c in checks if c["status"]=="success"]),
             "warning": len([c for c in checks if c["status"]=="warning"]),
+            "waiting": len([c for c in checks if c["status"]=="waiting"]),
             "degraded": len([c for c in checks if c["status"]=="degraded"]),
             "failed": len([c for c in checks if c["status"]=="failed"]),
             "no_change": len([c for c in checks if c.get("is_no_change")]),
@@ -164,7 +203,7 @@ def build_dashboard():
     print(f"\nOverall: {overall.upper()}")
     print(f"KPI - Last Success: {kpi['last_success']} / Failed: {kpi['failed_jobs']} / Queue: {kpi['queue']} / Stale: {kpi['stale_source']}")
     for c in checks:
-        icon = {"success":"OK","warning":"WARN","degraded":"DEGRADED","failed":"FAIL"}[c["status"]]
+        icon = {"success":"OK","warning":"WARN","waiting":"WAIT","degraded":"DEGRADED","failed":"FAIL"}.get(c["status"], c["status"])
         print(f"{icon} {c['team']}: {c['status']} - {c['reason']} [{c.get('freshness','')}]")
     
     return result

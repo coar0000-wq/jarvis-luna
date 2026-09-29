@@ -113,8 +113,14 @@ def main() -> int:
     with (export_dir / "inventory.csv").open(encoding="utf-8", newline="") as f:
         inventory = list(csv.DictReader(f))
     export_ids = {x["pd_no"] for x in export_products}
-    ready_ids = {k for k, x in gate_by.items() if x.get("ready")}
-    require(export_ids == ready_ids, "Shopify products.csv가 gate ready 집합과 다름")
+    # 스토어 대상은 shortlist ∩ gate ready 다. S등급 전체를 내보내면 실패다 (2026-09-29).
+    shortlist_doc = load(D / "shopify_shortlist.json")
+    shortlist_ids = {str(x) for x in shortlist_doc.get("active_pd_nos") or []}
+    require(bool(shortlist_ids), "Shopify shortlist 가 없거나 비어 있음")
+    ready_ids = {k for k, x in gate_by.items() if x.get("ready") and k in shortlist_ids}
+    require(export_ids == ready_ids, "Shopify products.csv가 shortlist ∩ gate ready 집합과 다름")
+    guard = load(D / "shopify_sync_guard.json")
+    require(guard.get("ok") is True, f"Shopify sync guard 위반: {guard.get('violations')}")
     require(all(x["Canonical Product ID"] == registry[x["pd_no"]] for x in export_products),
             "Shopify export CP 불일치")
     require(all(x["Status"] == "draft" and x["Published"] == "FALSE" for x in export_products),

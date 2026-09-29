@@ -40,6 +40,13 @@ def write_csv(path: Path, fields: list[str], rows: list[dict]) -> None:
 
 
 def main() -> int:
+    # 스토어 대상은 shortlist 로 먼저 좁힌다 (2026-09-29).
+    # 전에는 게이트를 넘은 S등급을 전부 내보내 점수가 흔들릴 때마다 스토어 전체가 바뀌었다.
+    import sys
+    sys.path.insert(0, str(ROOT / "scripts"))
+    import build_shopify_shortlist
+    build_shopify_shortlist.main()
+    shortlist = build_shopify_shortlist.active_pd_nos()
     gate = load(D / "listing_gate.json", {}) or {}
     master = load(D / "product_master.json", {}) or {}
     legal = load(D / "legal_full.json", {}) or {}
@@ -48,9 +55,9 @@ def main() -> int:
     legal_by = legal.get("items") or {} if isinstance(legal, dict) else {}
 
     ready = [x for x in gate.get("items") or []
-             if isinstance(x, dict) and x.get("ready")]
+             if isinstance(x, dict) and x.get("ready") and str(x.get("pd_no")) in shortlist]
     if not ready:
-        raise RuntimeError("listing_gate ready 상품이 없습니다")
+        raise RuntimeError("shortlist 안에 listing_gate ready 상품이 없습니다")
 
     groups: dict[str, list[tuple[dict, dict]]] = {}
     for row in ready:
@@ -172,6 +179,8 @@ def main() -> int:
         "source_gate_generated_at": gate.get("generated_at"),
         "gate_total": gate.get("total"),
         "gate_ready": gate.get("ready"),
+        "shortlist_pd_nos": sorted(shortlist),
+        "scope": "shortlist 안의 게이트 준비 상품만 (S등급 전체가 아님)",
         "public_ready": gate.get("public_ready", 0),
         "legal_complete": legal.get("complete", 0) if isinstance(legal, dict) else 0,
         "products_rows": len(product_rows),
@@ -184,8 +193,10 @@ def main() -> int:
     }
     (OUT / "manifest.json").write_text(
         json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Shopify 4종 Export: ready {len(ready)}건 · variant rows {len(product_rows)} · groups {len(groups)}")
-    return 0
+    print(f"Shopify 4종 Export: shortlist ready {len(ready)}건 · variant rows {len(product_rows)} · groups {len(groups)}")
+    # 변경분만 골라 delta 4종을 만들고, shortlist 밖 상품이 섞이면 여기서 멈춘다.
+    import shopify_sync_guard
+    return shopify_sync_guard.main()
 
 
 if __name__ == "__main__":

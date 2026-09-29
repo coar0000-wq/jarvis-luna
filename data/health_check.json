@@ -1,34 +1,37 @@
 {
-  "generated_at": "2026-09-29T08:02:17.159862+00:00",
-  "overall_status": "failed",
+  "generated_at": "2026-09-29T10:04:58.964236+00:00",
+  "overall_status": "warning",
   "status_legend": {
     "success": "정상",
     "warning": "변경 없음",
     "degraded": "일부 실패",
-    "failed": "예외 - 사람 개입 필요"
+    "waiting": "사람 입력 대기 (장애 아님)",
+    "failed": "예외 - 자동화 장애"
   },
   "kpi": {
-    "last_success": "2026-09-29T08:02:17.159851+00:00",
-    "failed_jobs": 1,
+    "last_success": "2026-09-29T10:04:58.964218+00:00",
+    "failed_jobs": 0,
     "queue": 2881,
     "stale_source": "marketing",
     "freshness_summary": {
-      "product_master": "1 min ago",
-      "legal_full": "1 min ago",
-      "pricing": "1 min ago",
-      "marketing": "1 min ago",
-      "gosi": "7.6 hours ago",
-      "product_discovery": "1 min ago",
-      "daiso": "7.2 hours ago"
+      "product_master": "2.1 hours ago",
+      "legal_full": "2.1 hours ago",
+      "shopify_sync": "just now",
+      "pricing": "2.1 hours ago",
+      "marketing": "2.1 hours ago",
+      "gosi": "9.7 hours ago",
+      "product_discovery": "2.1 hours ago",
+      "daiso": "9.3 hours ago"
     }
   },
   "summary": {
-    "success": 5,
+    "success": 6,
     "warning": 1,
+    "waiting": 1,
     "degraded": 0,
-    "failed": 1,
+    "failed": 0,
     "no_change": 0,
-    "real_failures": 1
+    "real_failures": 0
   },
   "checks": [
     {
@@ -37,50 +40,58 @@
       "reason": "운영 상품 356개, CP 357개, S 10개",
       "count": 356,
       "s_count": 10,
-      "freshness": "1 min ago",
+      "freshness": "2.1 hours ago",
       "is_failure": false
     },
     {
       "team": "legal_full",
-      "status": "failed",
-      "reason": "MoCRA 풀스키마 완료 0/10 · 공개 차단 10건",
-      "is_failure": true,
-      "freshness": "1 min ago"
+      "status": "waiting",
+      "reason": "MoCRA 풀스키마 완료 0/10 · 공개 차단 10건 · 사람 입력 대기: responsible_person 10건, directions 8건, warnings 8건, identity 1건",
+      "is_failure": false,
+      "waiting_kind": "human_approval_required",
+      "freshness": "2.1 hours ago"
+    },
+    {
+      "team": "shopify_sync",
+      "status": "success",
+      "reason": "shortlist proposed 3단위 · initial · create 3 / update 0 / 변경없음 0",
+      "is_failure": false,
+      "freshness": "just now"
     },
     {
       "team": "pricing",
       "status": "success",
       "reason": "FX 반영, 손익분기·기여마진 계산됨",
       "is_failure": false,
-      "freshness": "1 min ago"
+      "freshness": "2.1 hours ago"
     },
     {
       "team": "marketing",
       "status": "warning",
       "reason": "S 우선순위 CP 연결 10/10 · Trends 미연동",
       "is_failure": false,
-      "freshness": "1 min ago"
+      "freshness": "2.1 hours ago"
     },
     {
       "team": "gosi",
       "status": "success",
-      "reason": "정상 7.6h 전",
+      "reason": "정상 9.7h 전",
       "is_failure": false,
-      "freshness": "7.6 hours ago"
+      "freshness": "9.7 hours ago"
     },
     {
       "team": "product_discovery",
       "status": "success",
-      "reason": "정상 0.0h 전",
+      "reason": "정상 2.1h 전",
       "is_failure": false,
-      "freshness": "1 min ago"
+      "freshness": "2.1 hours ago"
     },
     {
       "team": "daiso",
       "status": "success",
-      "reason": "정상 7.2h 전",
+      "reason": "정상 9.3h 전",
       "is_failure": false,
-      "freshness": "7.2 hours ago"
+      "freshness": "9.3 hours ago"
     }
   ],
   "architecture_p0": {

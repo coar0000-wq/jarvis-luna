@@ -73,8 +73,10 @@ def main() -> int:
     product_by_cp = {str(x.get("Canonical Product ID") or ""): x for x in product_rows}
     inventory_by_cp = {str(x.get("Canonical Product ID") or ""): x for x in inventory_rows}
 
+    # 스토어 대상은 shortlist 안의 상품만 (2026-09-29)
+    shortlist = {str(x) for x in (load_json(D / "shopify_shortlist.json", {}) or {}).get("active_pd_nos") or []}
     ready = [x for x in gate.get("items") or []
-             if isinstance(x, dict) and x.get("ready")]
+             if isinstance(x, dict) and x.get("ready") and str(x.get("pd_no")) in shortlist]
     grouped: dict[str, list[dict]] = {}
     for row in ready:
         pd_no = str(row.get("pd_no") or "")

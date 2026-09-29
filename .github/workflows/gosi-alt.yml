@@ -166,6 +166,8 @@ jobs:
             data/coaching_loop.json
             data/shopify_exports
             data/shopify_action_queue.json
+            data/shopify_shortlist.json
+            data/shopify_sync_guard.json
             data/dashboard_runtime.json
             data/knowledge/cumulative_history.json
           message: 고시를 렌더링된 페이지 alt 에서 꺼낸다

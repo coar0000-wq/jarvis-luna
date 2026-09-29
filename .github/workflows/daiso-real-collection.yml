@@ -476,6 +476,8 @@ jobs:
             data/listing_gate.json
             data/shopify_exports
             data/shopify_action_queue.json
+            data/shopify_shortlist.json
+            data/shopify_sync_guard.json
             data/dashboard_runtime.json
             data/channel_candidates.json
             data/knowledge/cumulative_history.json

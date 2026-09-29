@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-29T10:04:50.770456+00:00",
+  "generator": "scripts/build_shopify_shortlist.py",
+  "status": "proposed",
+  "source": "rules",
+  "confirmed_by": null,
+  "rules": {
+    "max_units": 5,
+    "min_similarity": 0.7,
+    "unit": "Variant 그룹",
+    "form_match": "립·아이·바디·헤어·네일 형태가 같아야 함",
+    "dedupe": "미국 근거 상품 하나당 단위 하나",
+    "sticky": "기존 단위는 밀려나지 않음"
+  },
+  "active_unit_count": 3,
+  "active_pd_nos": [
+    "1049275",
+    "1049276",
+    "1055167",
+    "1059834"
+  ],
+  "units": [
+    {
+      "unit_id": "VG-VT-REEDLE-SHOT",
+      "pd_nos": [
+        "1049276",
+        "1049275"
+      ],
+      "canonical_product_ids": [
+        "CP000107",
+        "CP000106"
+      ],
+      "names": [
+        "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
+        "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입"
+      ],
+      "score": 100,
+      "evidence": {
+        "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
+        "channel": "oliveyoung_us",
+        "similarity": 0.733
+      },
+      "added_at": "2026-09-29T10:03:26.384544+00:00",
+      "status": "active",
+      "note": ""
+    },
+    {
+      "unit_id": "VG-CP000130",
+      "pd_nos": [
+        "1055167"
+      ],
+      "canonical_product_ids": [
+        "CP000130"
+      ],
+      "names": [
+        "본셉 레티놀 500 IU 세럼 30 ml"
+      ],
+      "score": 98,
+      "evidence": {
+        "global_product": "Some By Mi Retinol Intense Reactivating Serum",
+        "channel": "tiktok_shop_us",
+        "similarity": 0.88
+      },
+      "added_at": "2026-09-29T10:03:26.384563+00:00",
+      "status": "active",
+      "note": ""
+    },
+    {
+      "unit_id": "VG-CP000151",
+      "pd_nos": [
+        "1059834"
+      ],
+      "canonical_product_ids": [
+        "CP000151"
+      ],
+      "names": [
+        "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g"
+      ],
+      "score": 90,
+      "evidence": {
+        "global_product": "Biodance Bio-Collagen Real Deep Mask",
+        "channel": "tiktok_shop_us",
+        "similarity": 0.88
+      },
+      "added_at": "2026-09-29T10:03:26.384568+00:00",
+      "status": "active",
+      "note": ""
+    }
+  ],
+  "not_selected": [
+    {
+      "unit_id": "VG-CP000216",
+      "pd_nos": [
+        "1067498"
+      ],
+      "names": [
+        "[영양광채]VT PDRN 광채 크림 50 ml"
+      ],
+      "score": 96,
+      "reason": "매칭 근거 형태 불일치: 우리 ['얼굴'] vs 미국 ['eye'] (Lacto-PDRN 4% + B9 Eye Cream)"
+    },
+    {
+      "unit_id": "VG-CP000251",
+      "pd_nos": [
+        "1072554"
+      ],
+      "names": [
+        "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml"
+      ],
+      "score": 96,
+      "reason": "미국 매칭 유사도 0.68 < 0.7"
+    },
+    {
+      "unit_id": "VG-CP000270",
+      "pd_nos": [
+        "1075857"
+      ],
+      "names": [
+        "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매"
+      ],
+      "score": 94,
+      "reason": "미국 매칭 유사도 0.68 < 0.7"
+    },
+    {
+      "unit_id": "VG-CP000109",
+      "pd_nos": [
+        "1049285"
+      ],
+      "names": [
+        "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입"
+      ],
+      "score": 93,
+      "reason": "매칭 근거 형태 불일치: 우리 ['얼굴'] vs 미국 ['lip'] (Smushy SOS Hydrating Lip Mask)"
+    },
+    {
+      "unit_id": "VG-CP000038",
+      "pd_nos": [
+        "1027327"
+      ],
+      "names": [
+        "바세린 마스크팩 집중보습"
+      ],
+      "score": 91,
+      "reason": "게이트 초안 미준비: copy, legal, us_label"
+    },
+    {
+      "unit_id": "VG-CP000075",
+      "pd_nos": [
+        "1042619"
+      ],
+      "names": [
+        "셀더마데일리 콜라겐 에센스겔 마스크 29 g"
+      ],
+      "score": 88,
+      "reason": "미국 매칭 유사도 0.68 < 0.7"
+    }
+  ],
+  "how_to_confirm": "data/manual/shopify_shortlist.json 에 {\"units\": [\"VG-...\" 또는 pd_no], \"confirmed_by\": \"이름\", \"confirmed_at\": \"YYYY-MM-DD\"} 를 적으면 그 목록만 쓴다."
+}

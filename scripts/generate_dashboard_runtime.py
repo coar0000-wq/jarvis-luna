@@ -573,6 +573,21 @@ def secretary_card() -> dict:
     }
 
 
+def _shortlist_txt() -> str:
+    """스토어 대상 shortlist 와 이번 변경분 (2026-09-29)."""
+    sl = load_json(ROOT / "data" / "shopify_shortlist.json", {}) or {}
+    g = load_json(ROOT / "data" / "shopify_sync_guard.json", {}) or {}
+    if not sl:
+        return " · shortlist 없음"
+    sm = g.get("summary") or {}
+    state = "확정" if sl.get("status") == "confirmed" else "제안(확정 대기)"
+    txt = (f" · 스토어 대상 {sl.get('active_unit_count', 0)}단위/{len(sl.get('active_pd_nos') or [])}SKU {state}"
+           f" · 변경분 신규 {sm.get('create', 0)}·수정 {sm.get('update', 0)}·그대로 {sm.get('unchanged', 0)}")
+    if g and not g.get("ok"):
+        txt += " · sync guard 위반"
+    return txt
+
+
 def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
     """팀별 한 줄 현황. 숫자는 산출 파일 실측값만 쓴다."""
     cards: list[dict] = []
@@ -859,6 +874,7 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
                 f'초안 준비 {gate.get("ready", 0)}/{gate.get("total", 0)} · '
                 f'공개 준비 {public_ready}/{gate.get("total", 0)} · '
                 f'Action {action_queue.get("draft_action_count", 0)}건 · {detail}'
+                + _shortlist_txt()
                 + jev_txt,
                 " · ".join(action_bits) if action_bits else None,
                 "ok" if gate.get("total") else "failed",
