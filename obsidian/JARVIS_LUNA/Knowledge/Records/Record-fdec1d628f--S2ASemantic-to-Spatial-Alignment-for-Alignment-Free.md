@@ -2,7 +2,7 @@
 title: "Record fdec1d628f · S2ASemantic-to-Spatial-Alignment-for-Alignment-Free-RGB-T-Salient-Obje"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:42.353674+00:00
+updated_at: 2026-09-30T22:18:36.285363+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 7e8ee1f687 · CoAdapt-An-LLM-based-Framework-for-Adaptive-Collaborative-Perception-i"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:42.255542+00:00
+updated_at: 2026-09-30T22:18:36.200459+00:00
 tags: [record, real-data]
 ---
 

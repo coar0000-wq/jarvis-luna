@@ -2,7 +2,7 @@
 title: "Record 8ca525968a · 6-Best-Clinical-Strength-Deodorants-for-All-Day-Freshness"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:44.466461+00:00
+updated_at: 2026-09-30T22:18:38.157375+00:00
 tags: [record, real-data]
 ---
 

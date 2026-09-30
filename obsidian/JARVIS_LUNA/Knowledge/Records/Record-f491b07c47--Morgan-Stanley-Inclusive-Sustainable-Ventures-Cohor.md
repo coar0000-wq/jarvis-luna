@@ -2,7 +2,7 @@
 title: "Record f491b07c47 · Morgan-Stanley-Inclusive-Sustainable-Ventures-Cohort-2026"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:45.031882+00:00
+updated_at: 2026-09-30T22:18:38.701613+00:00
 tags: [record, real-data]
 ---
 

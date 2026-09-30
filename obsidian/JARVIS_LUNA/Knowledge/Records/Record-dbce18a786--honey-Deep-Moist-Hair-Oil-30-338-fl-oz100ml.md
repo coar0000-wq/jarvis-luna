@@ -2,7 +2,7 @@
 title: "Record dbce18a786 · honey-Deep-Moist-Hair-Oil-30-338-fl-oz100ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:44.396621+00:00
+updated_at: 2026-09-30T22:18:38.094246+00:00
 tags: [record, real-data]
 ---
 

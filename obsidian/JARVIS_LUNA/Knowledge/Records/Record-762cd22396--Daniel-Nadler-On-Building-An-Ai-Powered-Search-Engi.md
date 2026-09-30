@@ -2,7 +2,7 @@
 title: "Record 762cd22396 · Daniel-Nadler-On-Building-An-Ai-Powered-Search-Engine-For-Medicine"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:44.936499+00:00
+updated_at: 2026-09-30T22:18:38.607586+00:00
 tags: [record, real-data]
 ---
 

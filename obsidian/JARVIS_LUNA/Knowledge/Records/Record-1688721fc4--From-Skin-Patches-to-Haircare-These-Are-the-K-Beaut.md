@@ -2,7 +2,7 @@
 title: "Record 1688721fc4 · From-Skin-Patches-to-Haircare-These-Are-the-K-Beauty-Products-That-Are"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:43.990422+00:00
+updated_at: 2026-09-30T22:18:37.708453+00:00
 tags: [record, real-data]
 ---
 

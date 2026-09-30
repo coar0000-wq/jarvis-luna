@@ -2,7 +2,7 @@
 title: "Record 7300871340 · Lady-Gaga-is-the-latest-star-to-use-this-19-K-beaut"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:43.933650+00:00
+updated_at: 2026-09-30T22:18:37.655384+00:00
 tags: [record, real-data]
 ---
 

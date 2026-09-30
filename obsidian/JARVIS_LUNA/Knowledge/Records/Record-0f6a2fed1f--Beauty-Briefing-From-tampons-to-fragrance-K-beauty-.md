@@ -2,7 +2,7 @@
 title: "Record 0f6a2fed1f · Beauty-Briefing-From-tampons-to-fragrance-K-beauty-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:43.941400+00:00
+updated_at: 2026-09-30T22:18:37.662992+00:00
 tags: [record, real-data]
 ---
 

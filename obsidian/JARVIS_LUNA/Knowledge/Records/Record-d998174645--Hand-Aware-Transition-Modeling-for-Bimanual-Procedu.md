@@ -2,7 +2,7 @@
 title: "Record d998174645 · Hand-Aware-Transition-Modeling-for-Bimanual-Procedural-Anomaly-Detecti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:43.091054+00:00
+updated_at: 2026-09-30T22:18:36.921290+00:00
 tags: [record, real-data]
 ---
 

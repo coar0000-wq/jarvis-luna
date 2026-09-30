@@ -2,7 +2,7 @@
 title: "Record be9a473771 · Beyond-the-Foreground-FOV-Aware-Polyp-Image-Synthesis-via-Lesion-Guide"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:42.301186+00:00
+updated_at: 2026-09-30T22:18:36.240651+00:00
 tags: [record, real-data]
 ---
 

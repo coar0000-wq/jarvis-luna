@@ -2,7 +2,7 @@
 title: "Record a1668df7a7 · Internal-memo-Shopify-CEO-declares-AI-non-optional-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:43.961394+00:00
+updated_at: 2026-09-30T22:18:37.681200+00:00
 tags: [record, real-data]
 ---
 

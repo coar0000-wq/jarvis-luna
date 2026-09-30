@@ -2,7 +2,7 @@
 title: "Record f141ea2ad7 · Longevit-8-Peptide-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:45.170904+00:00
+updated_at: 2026-09-30T22:18:38.825792+00:00
 tags: [record, real-data]
 ---
 

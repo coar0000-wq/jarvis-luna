@@ -2,7 +2,7 @@
 title: "Record 3881af9d4e · SheaMoisture-Deodorant-Stick-72h-Odor-Control-Coconut--Hibiscus-Fresh-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:45.210647+00:00
+updated_at: 2026-09-30T22:18:38.861848+00:00
 tags: [record, real-data]
 ---
 

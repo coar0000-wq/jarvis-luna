@@ -2,7 +2,7 @@
 title: "Record bc413bc24b · A-regime-switching-approach-to-bank-capital-and-liquidity-buffers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:42.506159+00:00
+updated_at: 2026-09-30T22:18:36.418360+00:00
 tags: [record, real-data]
 ---
 

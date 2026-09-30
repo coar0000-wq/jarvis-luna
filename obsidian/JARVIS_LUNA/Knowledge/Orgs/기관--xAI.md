@@ -2,7 +2,7 @@
 title: "기관 · xAI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:46.500221+00:00
+updated_at: 2026-09-30T22:18:40.123315+00:00
 tags: [org, real-data]
 ---
 

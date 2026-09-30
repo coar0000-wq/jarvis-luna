@@ -2,7 +2,7 @@
 title: "Record b80585c5f4 · Deep-Learning-Based-Attack-Detection-and-QoS-Aware-Secure-Routing-Prot"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:42.441136+00:00
+updated_at: 2026-09-30T22:18:36.359298+00:00
 tags: [record, real-data]
 ---
 

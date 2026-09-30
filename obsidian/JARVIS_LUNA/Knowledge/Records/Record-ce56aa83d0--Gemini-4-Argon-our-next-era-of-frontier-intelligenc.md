@@ -2,7 +2,7 @@
 title: "Record ce56aa83d0 · Gemini-4-Argon-our-next-era-of-frontier-intelligence"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:42.416003+00:00
+updated_at: 2026-09-30T22:18:36.336590+00:00
 tags: [record, real-data]
 ---
 

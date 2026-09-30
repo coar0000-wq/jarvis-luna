@@ -2,7 +2,7 @@
 title: "Record 6b93e7013a · LA-COLORS-Browie-Wowie-Lasting--Smudge-Proof-Creamy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:45.199280+00:00
+updated_at: 2026-09-30T22:18:38.851495+00:00
 tags: [record, real-data]
 ---
 

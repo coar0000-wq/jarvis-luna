@@ -2,7 +2,7 @@
 title: "Record 11d7162db7 · 2colors-CLIO-Superproof-Pen-Liner-001-fl-oz055ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:44.341314+00:00
+updated_at: 2026-09-30T22:18:38.045820+00:00
 tags: [record, real-data]
 ---
 

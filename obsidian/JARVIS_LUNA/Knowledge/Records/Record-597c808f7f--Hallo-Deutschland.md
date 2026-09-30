@@ -2,7 +2,7 @@
 title: "Record 597c808f7f · Hallo-Deutschland"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:43.488263+00:00
+updated_at: 2026-09-30T22:18:37.258095+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 4cd1c0cbf2 · Almost-95-of-viral-Korean-skincare-and-glass-skin-TikTok-videos-contai"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:43.924163+00:00
+updated_at: 2026-09-30T22:18:37.646663+00:00
 tags: [record, real-data]
 ---
 

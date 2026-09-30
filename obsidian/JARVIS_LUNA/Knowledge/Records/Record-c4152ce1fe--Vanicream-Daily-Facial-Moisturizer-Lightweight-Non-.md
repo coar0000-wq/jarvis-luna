@@ -2,7 +2,7 @@
 title: "Record c4152ce1fe · Vanicream-Daily-Facial-Moisturizer-Lightweight-Non-Greasy-3-Fl-Oz--For"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:44.794460+00:00
+updated_at: 2026-09-30T22:18:38.470698+00:00
 tags: [record, real-data]
 ---
 

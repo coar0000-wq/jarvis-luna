@@ -2,7 +2,7 @@
 title: "Record bb383030eb · ORCE-Order-Aware-Alignment-of-Verbalized-Confidence-in-Large-Language-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:42.939302+00:00
+updated_at: 2026-09-30T22:18:36.797029+00:00
 tags: [record, real-data]
 ---
 

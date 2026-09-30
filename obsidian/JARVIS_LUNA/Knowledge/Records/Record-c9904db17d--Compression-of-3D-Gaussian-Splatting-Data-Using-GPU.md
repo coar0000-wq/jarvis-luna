@@ -2,7 +2,7 @@
 title: "Record c9904db17d · Compression-of-3D-Gaussian-Splatting-Data-Using-GPU-friendly-Graphics-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:42.977355+00:00
+updated_at: 2026-09-30T22:18:36.821966+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record da12958c9c · PDRN-Lifting-Pad"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:45.176315+00:00
+updated_at: 2026-09-30T22:18:38.830769+00:00
 tags: [record, real-data]
 ---
 

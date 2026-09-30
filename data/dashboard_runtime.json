@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T06:56:22.638943+09:00",
+  "generated_at": "2026-10-01T07:22:31.592907+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
@@ -89,7 +89,7 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-10-01T06:56:17.307286+09:00",
+      "when": "2026-10-01T07:17:12.200742+09:00",
       "summary": "S등급 10개 · 고시 판독 남음 1건 · 유튜브 자막 15편 · 근거 40개 · 실험 17개 · 새 자료 96건 · 영상 학습 41개",
       "action": "고시 표 1건 판독 남음 — 1067500 [이중턱리프팅]VT PDRN 광채 [전성분,제조사 · groq meta-llama/llama-4-scout-17b-16e-instruct HTTP 403: error code: 1] https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067500",
       "action_kind": "auto_remediable",
@@ -359,7 +359,7 @@
     {
       "id": "knowledge",
       "name": "지식 수집팀",
-      "when": "2026-09-30T20:33:36.584976+00:00",
+      "when": "2026-09-30T22:18:06.145505+00:00",
       "summary": "878건 · arXiv 50 / 유기농스킨 30 / Google 300 / US뷰티 498 · 영상 학습 2개",
       "action": null,
       "action_kind": null,
@@ -398,8 +398,8 @@
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-10-01T06:49:59.704317+09:00",
-      "summary": "84,289노트 · 354,722링크 · 끊어진 링크 0건 · 개인 노트 16건 별도 · 미분류 8.0% · 학습 키워드 17개 · 영상 30편 자막 검토 대기",
+      "when": "2026-10-01T07:18:40.139747+09:00",
+      "summary": "84,306노트 · 354,834링크 · 끊어진 링크 0건 · 개인 노트 16건 별도 · 미분류 8.0% · 학습 키워드 17개 · 영상 30편 자막 검토 대기",
       "action": null,
       "action_kind": null,
       "waiting": null,
@@ -422,7 +422,7 @@
     "id": "secretary",
     "name": "비서실장",
     "badge": "총괄",
-    "when": "2026-10-01T06:56:16.884815+09:00",
+    "when": "2026-10-01T07:17:12.171438+09:00",
     "summary": "2시간 주기 · 고시 29건 · US라벨 29건 · 카피 10건 · 등록 가능 8건 · 법률 차단 2건",
     "action": null,
     "action_kind": null,
@@ -432,37 +432,37 @@
         "단계": "고시 수집",
         "산출물": "gosi.json",
         "갱신": "2026-09-30T20:44:20.632355+00:00",
-        "몇시간전": 1.2
+        "몇시간전": 1.6
       },
       {
         "단계": "고시 비전 추출",
         "산출물": "gosi.json",
-        "갱신": "2026-10-01T06:56:15.928235+09:00",
-        "몇시간전": 0.0
+        "갱신": "2026-10-01T07:17:12.171438+09:00",
+        "몇시간전": 0.1
       },
       {
         "단계": "US 라벨 동기화",
         "산출물": "daiso_us_labels.json",
-        "갱신": "2026-10-01T06:56:16.884815+09:00",
-        "몇시간전": 0.0
+        "갱신": "2026-10-01T07:17:11.552435+09:00",
+        "몇시간전": 0.1
       },
       {
         "단계": "리스팅 카피",
         "산출물": "shopify_listing_copy.json",
         "갱신": "2026-09-30T20:44:24.092754+00:00",
-        "몇시간전": 1.2
+        "몇시간전": 1.6
       },
       {
         "단계": "등록 게이트",
         "산출물": "listing_gate.json",
         "갱신": "2026-09-30T21:56:17.147584+00:00",
-        "몇시간전": 0.0
+        "몇시간전": 0.4
       },
       {
         "단계": "법률 점검",
         "산출물": "legal_products.json",
         "갱신": "2026-09-30T21:56:16.962122+00:00",
-        "몇시간전": 0.0
+        "몇시간전": 0.4
       }
     ],
     "_근거": "JARVIS Deep Analysis가 2시간마다 남기는 Safe Auto-Fix 보고서를 heartbeat로 본다. 개별 파생 파일은 입력 무변경 시 mtime이 유지되므로 지연 판정에 쓰지 않는다."
@@ -823,7 +823,7 @@
     }
   },
   "team_summary": {
-    "corpus_records": 6291,
+    "corpus_records": 6308,
     "pipeline_done": 5,
     "pipeline_total": 5
   },
@@ -832,13 +832,13 @@
       "id": "collect",
       "title": "실제 데이터 수집",
       "status": "completed",
-      "detail": "6291개 코퍼스 레코드"
+      "detail": "6308개 코퍼스 레코드"
     },
     {
       "id": "graph",
       "title": "Obsidian 그래프 반영·검증",
       "status": "completed",
-      "detail": "84289개 노트 · 354722개 링크 · 끊어진 링크 0개 · 개인 노트 16개 별도"
+      "detail": "84306개 노트 · 354834개 링크 · 끊어진 링크 0개 · 개인 노트 16개 별도"
     },
     {
       "id": "dashboard",
@@ -850,7 +850,7 @@
       "id": "train",
       "title": "실제 데이터 MoE 학습",
       "status": "completed",
-      "detail": "6291건 · 4 experts · 정확도 96.74%"
+      "detail": "6308건 · 3 experts · 정확도 96.88%"
     },
     {
       "id": "publish",
@@ -861,9 +861,9 @@
   ],
   "sources": {
     "status": "completed",
-    "record_count": 6291,
+    "record_count": 6308,
     "source_counts": {},
-    "updated_at": "2026-10-01T06:49:56.408405+09:00"
+    "updated_at": "2026-10-01T07:18:06.166030+09:00"
   },
   "shopify_marketing_strategy": {
     "status": "evidence_ready",
@@ -1318,54 +1318,54 @@
     "strategy_file": "data/shopify_marketing_strategy.json"
   },
   "graph": {
-    "notes": 84289,
-    "links": 354722,
+    "notes": 84306,
+    "links": 354834,
     "dangling_links": 0,
     "dangling_personal": 16,
     "dangling_personal_note": "사용자가 직접 넣은 Personal 노트의 내부 링크. 원본 볼트에서 일부만 가져와 대상 노트가 없는 것으로, 파이프라인 오류가 아니다.",
     "dangling_warn_threshold": 300,
-    "records": 83449,
+    "records": 83466,
     "sources": 7,
     "topics": 28,
     "orgs": 35,
     "audit": "passed",
-    "last_generated": "2026-10-01T06:49:59.704317+09:00"
+    "last_generated": "2026-10-01T07:18:40.139747+09:00"
   },
   "training": {
     "status": "completed",
     "training_effective": true,
     "verdict": "기준선보다 나음: 운영 가중치 교체",
-    "validation_macro_f1": 0.8838101720599946,
+    "validation_macro_f1": 0.8808035934753908,
     "validation_recall": {
-      "ai-image": 0.8548,
-      "ai-research": 0.9647,
+      "ai-image": 0.8387,
+      "ai-research": 0.9648,
       "shopify-commerce-image": 0.9697
     },
-    "baseline_accuracy": 0.8937759336099586,
-    "baseline_macro_f1": 0.31463628396143734,
+    "baseline_accuracy": 0.8940397350993378,
+    "baseline_macro_f1": 0.31468531468531474,
     "training_performed": true,
     "weights_updated": true,
-    "records": 6291,
+    "records": 6308,
     "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
-    "experts": 4,
-    "accuracy": 0.9674137656970275,
-    "validation_accuracy": 0.9593360995850623,
-    "final_loss": 0.24814195711959766,
-    "gate_load_std": 0.43152581565034565,
+    "experts": 3,
+    "accuracy": 0.9687698161065313,
+    "validation_accuracy": 0.9586092715231788,
+    "final_loss": 0.2409605153072267,
+    "gate_load_std": 0.46991026945974046,
     "tuning_promoted": true,
     "tuning_steps": 300,
-    "updated_at": "2026-09-30T20:38:50.280022+00:00"
+    "updated_at": "2026-09-30T22:22:22.107040+00:00"
   },
   "cumulative": {
     "totals": {
-      "records": 6291,
-      "notes": 84877,
-      "links": 374012
+      "records": 6308,
+      "notes": 84894,
+      "links": 374124
     },
     "prior_totals": {
-      "records": 6291,
-      "notes": 84877,
-      "links": 374012
+      "records": 6308,
+      "notes": 84894,
+      "links": 374124
     },
     "added_this_run": {
       "records": 0,
@@ -1373,9 +1373,9 @@
       "links": 0
     },
     "current_snapshot": {
-      "records": 6291,
-      "notes": 84289,
-      "links": 354722
+      "records": 6308,
+      "notes": 84306,
+      "links": 354834
     },
     "since": "2026-08-23T05:21:53.378147+00:00",
     "runs_recorded": 90
@@ -5839,17 +5839,17 @@
       "collected_at": "2026-09-29T23:58:09.510546+00:00",
       "count": 46,
       "trust": "verified",
-      "age_hours": 22.0,
+      "age_hours": 22.4,
       "stale": false
     },
     "walmart_beauty": {
       "status": "stale",
       "source": "walmart.com/browse/beauty/1085666 (실수집)",
-      "reason": "2026-09-15 이후 갱신 없음 (15.4일). 2026-09-15 이후 갱신 없음 (15.4일). 2026-09-15 이후 갱신 없음 (15.4일).",
+      "reason": "2026-09-15 이후 갱신 없음 (15.5일). 2026-09-15 이후 갱신 없음 (15.5일). 2026-09-15 이후 갱신 없음 (15.4일). 2026-09-15 이후 갱신 없음 (15.4일). 2026-09-15 이후 갱신 없음 (15.4일).",
       "collected_at": "2026-09-15T11:19:23.782Z",
       "count": 39,
       "trust": "stale",
-      "age_hours": 370.6,
+      "age_hours": 371.1,
       "stale": true
     },
     "oliveyoung_us": {
@@ -5859,7 +5859,7 @@
       "collected_at": "2026-09-30T20:33:55.797146+00:00",
       "count": 60,
       "trust": "verified",
-      "age_hours": 1.4,
+      "age_hours": 1.8,
       "stale": false
     },
     "google_trends_us": {
@@ -5869,7 +5869,7 @@
       "collected_at": "2026-09-30T20:34:36.231678+00:00",
       "count": 40,
       "trust": "verified",
-      "age_hours": 1.4,
+      "age_hours": 1.8,
       "stale": false
     },
     "sokoglam_us": {
@@ -5879,7 +5879,7 @@
       "collected_at": "2026-09-30T20:42:10.504548+00:00",
       "count": 60,
       "trust": "verified",
-      "age_hours": 1.2,
+      "age_hours": 1.7,
       "stale": false
     },
     "amazon_movers_beauty": {
@@ -5889,7 +5889,7 @@
       "collected_at": "2026-09-29T23:58:09.512405+00:00",
       "count": 0,
       "trust": "none",
-      "age_hours": 22.0,
+      "age_hours": 22.4,
       "stale": false
     },
     "amazon_new_beauty": {
@@ -5899,7 +5899,7 @@
       "collected_at": "2026-09-29T23:58:09.512676+00:00",
       "count": 46,
       "trust": "verified",
-      "age_hours": 22.0,
+      "age_hours": 22.4,
       "stale": false
     },
     "wikipedia_interest": {
@@ -5910,7 +5910,7 @@
       "count": 8,
       "trust": "verified",
       "note": "2026-08-30 ~ 2026-09-28 일별 조회수. 후반 15일 대비 전반 15일 증감률",
-      "age_hours": 7.1,
+      "age_hours": 7.6,
       "stale": false
     },
     "allure_media": {
@@ -5921,7 +5921,7 @@
       "count": 30,
       "trust": "verified",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
-      "age_hours": 7.1,
+      "age_hours": 7.6,
       "stale": false
     },
     "openfda_sunscreen": {
@@ -5932,7 +5932,7 @@
       "count": 20,
       "trust": "verified",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다.",
-      "age_hours": 7.1,
+      "age_hours": 7.6,
       "stale": false
     },
     "shopify_demand_matching": {
@@ -5958,7 +5958,7 @@
       "collected_at": "2026-09-29T23:58:09.513688+00:00",
       "count": 60,
       "trust": "verified",
-      "age_hours": 22.0,
+      "age_hours": 22.4,
       "stale": false
     },
     "sephora": {
@@ -5968,7 +5968,7 @@
       "collected_at": "2026-09-29T23:58:09.513688+00:00",
       "count": 14,
       "trust": "verified",
-      "age_hours": 22.0,
+      "age_hours": 22.4,
       "stale": false
     },
     "open_beauty_facts": {
@@ -5978,7 +5978,7 @@
       "collected_at": "2026-09-30T20:33:55.272386+00:00",
       "count": 60,
       "trust": "verified",
-      "age_hours": 1.4,
+      "age_hours": 1.8,
       "stale": false
     }
   },
@@ -5996,6 +5996,6 @@
   "agents_ops": {
     "risk": "medium",
     "task_count": 5,
-    "at": "2026-09-30T21:56:22.702459+00:00"
+    "at": "2026-09-30T22:22:31.657334+00:00"
   }
 }

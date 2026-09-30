@@ -2,7 +2,7 @@
 title: "Record 881b377681 · Move-Over-AmpoulesHigh-Tech-Korean-Skin-Care-Tools-Are-Here---Allure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:43.640948+00:00
+updated_at: 2026-09-30T22:18:37.393017+00:00
 tags: [record, real-data]
 ---
 
@@ -13,9 +13,10 @@ tags: [record, real-data]
 **제목:** Move Over, Ampoules—High-Tech Korean Skin-Care Tools Are Here - Allure
 
 Move Over, Ampoules—High-Tech Korean Skin-Care Tools Are Here - Allure
+Move Over, Ampoules—High-Tech Korean Skin-Care Tools Are Here - Allure
 
-**출처:** Source · Google Search
+**출처:** Source · us_beauty
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

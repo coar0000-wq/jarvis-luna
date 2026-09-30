@@ -2,7 +2,7 @@
 title: "Record b63ab92fea · Neutrino-Masses-from-Geometric-Leakage-mν--007-eV-from-551-Dimensional"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:43.292714+00:00
+updated_at: 2026-09-30T22:18:37.085060+00:00
 tags: [record, real-data]
 ---
 

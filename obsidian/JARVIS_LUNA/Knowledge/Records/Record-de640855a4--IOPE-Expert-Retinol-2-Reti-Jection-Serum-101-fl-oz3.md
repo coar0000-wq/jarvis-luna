@@ -2,7 +2,7 @@
 title: "Record de640855a4 · IOPE-Expert-Retinol-2-Reti-Jection-Serum-101-fl-oz30ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:44.407345+00:00
+updated_at: 2026-09-30T22:18:38.104282+00:00
 tags: [record, real-data]
 ---
 

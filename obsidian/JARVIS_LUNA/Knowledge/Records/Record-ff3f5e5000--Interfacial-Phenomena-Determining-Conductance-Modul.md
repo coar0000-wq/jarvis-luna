@@ -2,7 +2,7 @@
 title: "Record ff3f5e5000 · Interfacial-Phenomena-Determining-Conductance-Modulation-in-Electrolyt"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:42.455719+00:00
+updated_at: 2026-09-30T22:18:36.371507+00:00
 tags: [record, real-data]
 ---
 

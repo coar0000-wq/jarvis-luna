@@ -2,7 +2,7 @@
 title: "Record d3caddae56 · Building-A-CSFQ-Inspired-Transport-for-Switched-CXL-Memory-Pooling"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:42.992283+00:00
+updated_at: 2026-09-30T22:18:36.835870+00:00
 tags: [record, real-data]
 ---
 

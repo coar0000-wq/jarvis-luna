@@ -2,7 +2,7 @@
 title: "Record 7ddccdfc8d · DriveReferee-Geometric-Safety-Verdicts-Need-Not-Be-Learned-for-Driving"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:42.330668+00:00
+updated_at: 2026-09-30T22:18:36.265966+00:00
 tags: [record, real-data]
 ---
 

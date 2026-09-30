@@ -2,7 +2,7 @@
 title: "Record 2bee020b9d · Dollárdominancia-a-globális-pénzügyi-rendszerben-elégedetlenség-elmozd"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:42.844118+00:00
+updated_at: 2026-09-30T22:18:36.712902+00:00
 tags: [record, real-data]
 ---
 

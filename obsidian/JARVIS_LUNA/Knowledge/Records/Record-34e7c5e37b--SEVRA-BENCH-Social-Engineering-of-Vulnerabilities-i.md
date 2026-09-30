@@ -2,7 +2,7 @@
 title: "Record 34e7c5e37b · SEVRA-BENCH-Social-Engineering-of-Vulnerabilities-in-Review-Agents"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:42.952682+00:00
+updated_at: 2026-09-30T22:18:36.808235+00:00
 tags: [record, real-data]
 ---
 

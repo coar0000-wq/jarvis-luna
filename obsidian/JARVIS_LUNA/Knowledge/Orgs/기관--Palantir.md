@@ -2,7 +2,7 @@
 title: "기관 · Palantir"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:46.430714+00:00
+updated_at: 2026-09-30T22:18:40.055544+00:00
 tags: [org, real-data]
 ---
 

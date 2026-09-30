@@ -2,7 +2,7 @@
 title: "Record 0555430162 · Retinol-Expert-03"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:44.274663+00:00
+updated_at: 2026-09-30T22:18:37.978326+00:00
 tags: [record, real-data]
 ---
 

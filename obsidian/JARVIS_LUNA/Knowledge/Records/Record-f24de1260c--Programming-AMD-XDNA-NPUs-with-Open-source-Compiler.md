@@ -2,7 +2,7 @@
 title: "Record f24de1260c · Programming-AMD-XDNA-NPUs-with-Open-source-Compiler-Tools-A-FlashAtten"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:43.093393+00:00
+updated_at: 2026-09-30T22:18:36.923396+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2f32022fcc · ChapStick-Classic-Cherry-Flavored-Lip-Protectant-Stick-Prevent-Chappin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:45.193869+00:00
+updated_at: 2026-09-30T22:18:38.846477+00:00
 tags: [record, real-data]
 ---
 

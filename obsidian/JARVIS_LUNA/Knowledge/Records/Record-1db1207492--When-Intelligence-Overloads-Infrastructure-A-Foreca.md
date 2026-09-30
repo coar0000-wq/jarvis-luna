@@ -2,7 +2,7 @@
 title: "Record 1db1207492 · When-Intelligence-Overloads-Infrastructure-A-Forecast-Model-for-AI-Dri"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:42.682762+00:00
+updated_at: 2026-09-30T22:18:36.572927+00:00
 tags: [record, real-data]
 ---
 

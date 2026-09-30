@@ -2,7 +2,7 @@
 title: "Record 9192f41787 · Near-single-domain-superconducting-aluminium-films-on-GaAs111A-with-re"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:42.597195+00:00
+updated_at: 2026-09-30T22:18:36.499747+00:00
 tags: [record, real-data]
 ---
 

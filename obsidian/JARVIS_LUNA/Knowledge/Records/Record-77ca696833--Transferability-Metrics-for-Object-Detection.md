@@ -2,7 +2,7 @@
 title: "Record 77ca696833 · Transferability-Metrics-for-Object-Detection"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:42.917214+00:00
+updated_at: 2026-09-30T22:18:36.777189+00:00
 tags: [record, real-data]
 ---
 

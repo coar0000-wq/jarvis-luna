@@ -2,7 +2,7 @@
 title: "Record 925e5bb015 · Metacognitive-Selective-Ensemble-for-Mobile-Systems"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:43.222038+00:00
+updated_at: 2026-09-30T22:18:37.035934+00:00
 tags: [record, real-data]
 ---
 

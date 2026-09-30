@@ -2,7 +2,7 @@
 title: "Record 4f17f30a6f · Effects-of-keiser-assisted-Nordic-hamstring-curl-training-on-hamstring"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:42.796804+00:00
+updated_at: 2026-09-30T22:18:36.670715+00:00
 tags: [record, real-data]
 ---
 

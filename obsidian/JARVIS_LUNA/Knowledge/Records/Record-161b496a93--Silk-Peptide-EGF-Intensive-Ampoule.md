@@ -2,7 +2,7 @@
 title: "Record 161b496a93 · Silk-Peptide-EGF-Intensive-Ampoule"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:45.181838+00:00
+updated_at: 2026-09-30T22:18:38.835584+00:00
 tags: [record, real-data]
 ---
 

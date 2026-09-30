@@ -2,7 +2,7 @@
 title: "Record bca6092c09 · CeraVe-Daily-Moisturizing-Lotion-Face-and-Body-Lotion-Skin-care-19oz--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T20:46:44.564735+00:00
+updated_at: 2026-09-30T22:18:38.254045+00:00
 tags: [record, real-data]
 ---
 
