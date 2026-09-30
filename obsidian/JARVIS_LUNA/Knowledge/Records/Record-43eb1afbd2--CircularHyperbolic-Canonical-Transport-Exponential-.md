@@ -2,7 +2,7 @@
 title: "Record 43eb1afbd2 · CircularHyperbolic-Canonical-Transport-Exponential-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:11.095213+00:00
+updated_at: 2026-09-30T08:08:38.777432+00:00
 tags: [record, real-data]
 ---
 

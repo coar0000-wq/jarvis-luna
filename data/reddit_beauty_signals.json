@@ -1,14 +1,14 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-30T01:05:03.738847+00:00",
+  "collected_at": "2026-09-30T07:57:40.652176+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
     "SkincareAddiction",
     "AsianBeautyAdvice"
   ],
-  "post_count": 33,
+  "post_count": 25,
   "per_subreddit": [
     {
       "subreddit": "AsianBeauty",
@@ -35,28 +35,17 @@
     },
     {
       "subreddit": "AsianBeautyAdvice",
-      "post_count": 25,
+      "post_count": 0,
       "errors": [
+        "hot: HTTPError: HTTP Error 429: Too Many Requests",
         "top_week: HTTPError: HTTP Error 429: Too Many Requests"
       ]
     }
   ],
   "hot_keywords": [
     {
-      "keyword": "random",
-      "score": 13
-    },
-    {
-      "keyword": "thoughts",
-      "score": 13
-    },
-    {
       "keyword": "skin",
-      "score": 8
-    },
-    {
-      "keyword": "know",
-      "score": 6
+      "score": 10
     },
     {
       "keyword": "september",
@@ -67,15 +56,15 @@
       "score": 4
     },
     {
-      "keyword": "which",
-      "score": 4
-    },
-    {
       "keyword": "makeup",
       "score": 3
     },
     {
-      "keyword": "why",
+      "keyword": "lip",
+      "score": 3
+    },
+    {
+      "keyword": "which",
       "score": 3
     },
     {
@@ -83,7 +72,7 @@
       "score": 2
     },
     {
-      "keyword": "pdrn",
+      "keyword": "mask",
       "score": 2
     },
     {
@@ -95,11 +84,19 @@
       "score": 2
     },
     {
-      "keyword": "lip",
+      "keyword": "products",
       "score": 2
     },
     {
-      "keyword": "products",
+      "keyword": "like",
+      "score": 2
+    },
+    {
+      "keyword": "recommendations",
+      "score": 2
+    },
+    {
+      "keyword": "order",
       "score": 2
     },
     {
@@ -108,42 +105,6 @@
     },
     {
       "keyword": "goes",
-      "score": 2
-    },
-    {
-      "keyword": "contact",
-      "score": 2
-    },
-    {
-      "keyword": "japanese",
-      "score": 2
-    },
-    {
-      "keyword": "anyone",
-      "score": 2
-    },
-    {
-      "keyword": "spf",
-      "score": 2
-    },
-    {
-      "keyword": "moisturizers",
-      "score": 2
-    },
-    {
-      "keyword": "guide",
-      "score": 2
-    },
-    {
-      "keyword": "routine",
-      "score": 2
-    },
-    {
-      "keyword": "sunscreens",
-      "score": 2
-    },
-    {
-      "keyword": "k-beauty",
       "score": 2
     },
     {
@@ -167,69 +128,89 @@
       "score": 1
     },
     {
-      "keyword": "popular",
+      "keyword": "finally",
       "score": 1
     },
     {
-      "keyword": "beige",
+      "keyword": "found",
       "score": 1
     },
     {
-      "keyword": "anti-blush",
+      "keyword": "actually",
       "score": 1
     },
     {
-      "keyword": "comparison",
+      "keyword": "reach",
       "score": 1
     },
     {
-      "keyword": "drop",
+      "keyword": "every",
       "score": 1
     },
     {
-      "keyword": "hand",
+      "keyword": "day",
       "score": 1
     },
     {
-      "keyword": "creams",
+      "keyword": "hince",
       "score": 1
     },
     {
-      "keyword": "love",
+      "keyword": "radiance",
       "score": 1
     },
     {
-      "keyword": "recent",
+      "keyword": "balm",
+      "score": 1
+    },
+    {
+      "keyword": "swatches",
+      "score": 1
+    },
+    {
+      "keyword": "shades",
+      "score": 1
+    },
+    {
+      "keyword": "daylight",
+      "score": 1
+    },
+    {
+      "keyword": "light",
+      "score": 1
+    },
+    {
+      "keyword": "medium",
+      "score": 1
+    },
+    {
+      "keyword": "tone",
+      "score": 1
+    },
+    {
+      "keyword": "momo",
+      "score": 1
+    },
+    {
+      "keyword": "puri",
+      "score": 1
+    },
+    {
+      "keyword": "life",
+      "score": 1
+    },
+    {
+      "keyword": "far",
       "score": 1
     }
   ],
   "beauty_keywords": [
     {
       "keyword": "skin",
-      "score": 8
+      "score": 10
     },
     {
-      "keyword": "pdrn",
-      "score": 2
-    },
-    {
-      "keyword": "spf",
-      "score": 2
-    },
-    {
-      "keyword": "moisturizers",
-      "score": 2
-    },
-    {
-      "keyword": "routine",
-      "score": 2
-    },
-    {
-      "keyword": "sunscreens",
-      "score": 2
-    },
-    {
-      "keyword": "k-beauty",
+      "keyword": "mask",
       "score": 2
     }
   ],
@@ -249,9 +230,23 @@
       "feed": "hot"
     },
     {
-      "title": "Why is PDRN so popular?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtoixc/why_is_pdrn_so_popular/",
-      "published": "2026-09-29T22:44:06+00:00",
+      "title": "Finally found a lip mask I actually reach for every day",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtrev9/finally_found_a_lip_mask_i_actually_reach_for/",
+      "published": "2026-09-30T00:56:45+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "hince radiance balm swatches of 4 shades in daylight on light medium skin tone",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtu26w/hince_radiance_balm_swatches_of_4_shades_in/",
+      "published": "2026-09-30T03:06:16+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Momo Puri in my life so far",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtwfi8/momo_puri_in_my_life_so_far/",
+      "published": "2026-09-30T05:14:48+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -259,6 +254,27 @@
       "title": "Beige blush / \"anti-blush\" comparison",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtbcwj/beige_blush_antiblush_comparison/",
       "published": "2026-09-29T14:17:59+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "What’s your favorite mugwort product?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtqbf3/whats_your_favorite_mugwort_product/",
+      "published": "2026-09-30T00:04:54+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Hair products that smell like herbs",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtyj7j/hair_products_that_smell_like_herbs/",
+      "published": "2026-09-30T07:25:01+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Recommendations for soft/muted autumn lipstick",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtw53s/recommendations_for_softmuted_autumn_lipstick/",
+      "published": "2026-09-30T04:57:55+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -277,23 +293,9 @@
       "feed": "hot"
     },
     {
-      "title": "Food/drink-proof lip products for contoured and ombré lips?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtgajo/fooddrinkproof_lip_products_for_contoured_and/",
-      "published": "2026-09-29T17:24:34+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "What’s your favorite mugwort product?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtqbf3/whats_your_favorite_mugwort_product/",
-      "published": "2026-09-30T00:04:54+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "April Skin Lip Stain",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtpa21/april_skin_lip_stain/",
-      "published": "2026-09-29T23:18:04+00:00",
+      "title": "Experience With Stylevanna Refund For Non-Deliverd Order",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtxqpy/experience_with_stylevanna_refund_for_nondeliverd/",
+      "published": "2026-09-30T06:35:18+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -301,6 +303,20 @@
       "title": "Dupe for Rom&nd Juicy Lasting Tint in Tanny Guava?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtofrq/dupe_for_romnd_juicy_lasting_tint_in_tanny_guava/",
       "published": "2026-09-29T22:40:13+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Food/drink-proof lip products for contoured and ombré lips?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtgajo/fooddrinkproof_lip_products_for_contoured_and/",
+      "published": "2026-09-29T17:24:34+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "April Skin Lip Stain",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtpa21/april_skin_lip_stain/",
+      "published": "2026-09-29T23:18:04+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -319,16 +335,16 @@
       "feed": "hot"
     },
     {
-      "title": "Blush and lippie rec",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wsiar3/blush_and_lippie_rec/",
-      "published": "2026-09-28T15:51:04+00:00",
+      "title": "Anybody knows offline stores which carry Bonnyhill lotions in Korea?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wt6oht/anybody_knows_offline_stores_which_carry/",
+      "published": "2026-09-29T10:37:08+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Anybody knows offline stores which carry Bonnyhill lotions in Korea?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wt6oht/anybody_knows_offline_stores_which_carry/",
-      "published": "2026-09-29T10:37:08+00:00",
+      "title": "Blush and lippie rec",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wsiar3/blush_and_lippie_rec/",
+      "published": "2026-09-28T15:51:04+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -372,97 +388,6 @@
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wsjqah/which_glycols_you_like_and_which_ones_dont_go/",
       "published": "2026-09-28T16:43:12+00:00",
       "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Why are there four diameters printed on my contact lenses instead of two?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wsm0f4/why_are_there_four_diameters_printed_on_my/",
-      "published": "2026-09-28T18:06:04+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Shade alternative for the 44 chestnut nude of Peripera Ink Velvet",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1ws4ch8/shade_alternative_for_the_44_chestnut_nude_of/",
-      "published": "2026-09-28T03:56:30+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Anyone have Bbia Downy Apple Red?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1ws2i1z/anyone_have_bbia_downy_apple_red/",
-      "published": "2026-09-28T02:20:35+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Handcream with SPF",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wrrqub/handcream_with_spf/",
-      "published": "2026-09-27T18:32:28+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Acne-prone. Mild or moderate acne, which ingredients do you avoid in moisturizers?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1ws5jyd/acneprone_mild_or_moderate_acne_which_ingredients/",
-      "published": "2026-09-28T05:01:29+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Revamping ABA",
-      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/10dpkk9/revamping_aba/",
-      "published": "2023-01-16T19:53:22+00:00",
-      "subreddit": "AsianBeautyAdvice",
-      "feed": "hot"
-    },
-    {
-      "title": "[GUIDE] How to stop getting racoon eyes with mascara and eyeliner!",
-      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1wrzk5f/guide_how_to_stop_getting_racoon_eyes_with/",
-      "published": "2026-09-27T23:56:54+00:00",
-      "subreddit": "AsianBeautyAdvice",
-      "feed": "hot"
-    },
-    {
-      "title": "Random AB thoughts",
-      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1wqpyg6/random_ab_thoughts/",
-      "published": "2026-09-26T13:00:10+00:00",
-      "subreddit": "AsianBeautyAdvice",
-      "feed": "hot"
-    },
-    {
-      "title": "I know it’s not AB, but...",
-      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1whwk8f/i_know_its_not_ab_but/",
-      "published": "2026-09-16T13:00:12+00:00",
-      "subreddit": "AsianBeautyAdvice",
-      "feed": "hot"
-    },
-    {
-      "title": "[GUIDE] help on the products",
-      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1wcv8dp/guide_help_on_the_products/",
-      "published": "2026-09-10T20:42:30+00:00",
-      "subreddit": "AsianBeautyAdvice",
-      "feed": "hot"
-    },
-    {
-      "title": "Routine Journal",
-      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1w3d44t/routine_journal/",
-      "published": "2026-08-31T13:00:10+00:00",
-      "subreddit": "AsianBeautyAdvice",
-      "feed": "hot"
-    },
-    {
-      "title": "[Review] Japanese sunscreens",
-      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1vzze8m/review_japanese_sunscreens/",
-      "published": "2026-08-27T16:49:56+00:00",
-      "subreddit": "AsianBeautyAdvice",
-      "feed": "hot"
-    },
-    {
-      "title": "[Q&A] Who’s the most honest K-beauty YouTuber you actually trust?",
-      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1un7xgb/qa_whos_the_most_honest_kbeauty_youtuber_you/",
-      "published": "2026-07-04T12:32:43+00:00",
-      "subreddit": "AsianBeautyAdvice",
       "feed": "hot"
     }
   ],

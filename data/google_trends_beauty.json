@@ -1,26 +1,44 @@
 {
   "source": "google news rss (beauty queries) + trends daily filtered",
-  "collected_at": "2026-09-30T01:05:32.819197+00:00",
+  "collected_at": "2026-09-30T07:58:07.457332+00:00",
   "status": "ok",
   "note": "뷰티 키워드만. 채점 MATCH_CHANNELS 에는 넣지 않음. 대시보드 키워드 보드용.",
   "query_count": 12,
-  "count": 94,
+  "count": 95,
   "items": [
-    {
-      "keyword": "The TikTok Creator Making K-Beauty More Inclusive - SUCCESS Magazine",
-      "product": "The TikTok Creator Making K-Beauty More Inclusive - SUCCESS Magazine",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5xQVB5LXJSbUpFZ3BnYkN4WTRqOWtpYWNSbWFORzFsNXVnREJkYU1hYlViZXRjdlQ0OHRrQUVOc2ZVS3doUlZkdzNFaldkM29uWXgxVDlKUFF2MEcxZ2V4Y1lLbWFVSVJTMllQd2tjM3RiYllwM0VvMTJHcUp4Zw?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
     {
       "keyword": "Inside Seoul’s K-beauty ‘mecca’: I hunted for the best skincare at the world’s biggest Korean beauty store - The Guardian",
       "product": "Inside Seoul’s K-beauty ‘mecca’: I hunted for the best skincare at the world’s biggest Korean beauty store - The Guardian",
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBEaHdqd3dkWUpOVEtVUkNuQjE2dUZrOFVWbEUzaEN0UWRCYlBzSEcwcE1MYThfTHlOQ0N0dlpydmdwamNsdXlxTGJXY29MZWVITldxUFNjRUo5U1NLUHMyZDFkanEzekFUYnFXTzFRWHYzejFMRGI0a3JUQVlYdw?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "K-beauty clinics, drugstores gear up for Golden Week as Chinese spending tops $270 mn - KED Global",
+      "product": "K-beauty clinics, drugstores gear up for Golden Week as Chinese spending tops $270 mn - KED Global",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WWTV3RE15TTc0V2EyVmxnX2RWYUdvRV9iZ0xNU29YZ0RfM0lTSFZES210bzZLU1NWbnJPaVh2LS1MVEE3bjFXNjdXcnNpTnhTU24tSmpqcDRZXzU5WWR5NVBvU19yOENEWU84U253ZWp0ZlU?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "K-beauty is moving beyond the viral moment - Global Sources",
+      "product": "K-beauty is moving beyond the viral moment - Global Sources",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxORjZwUm5FdnFkTUpja3J5a08wRzZDWFdXZDU4NjJ4Rk9lQVZMc1RiUUVFN1lGeFlZMHpmQ01sWFFCbHUwRUxDYTQ4WTB1LW1yMVU4cXByRG5sMkJXTzN6cFplZmNESzJYSXFSWFdUV1l6cWRKM3FVNFk4NEh2TmM1OVVXNzhEUl9BZW5pVl9GWkd5eFlfRHNaTVh3WjZ4UXdJSVNnNlFublQwQ3o4ZE1YWVhucG04V2Uwd3g0R3ZDcDctMnJ0OGF6TFhiS1NGSzhYTS1VRDgxNmNmLWgyMUZ2OGQ0d0FWdTBLbWc?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "K-beauty sales get glow-up as halal certification drives popularity among Muslim consumers - Korea JoongAng Daily",
+      "product": "K-beauty sales get glow-up as halal certification drives popularity among Muslim consumers - Korea JoongAng Daily",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPTEpPZWIzZ0Z3SG5pQmlPT29NTGhyS1c2RUxNT0EtcXhNQ1ZUUG5IWC1xZThqN1k2UVRrNUVvb1V3Z1M2elp6T3hSWGp5LXE4UnJSTVVPbGVuLURnd2JDVVlWbVpwWGlSb2RPc2JTYnZyNmhjbkhJUl9IMXJ4X1dHUzdSNnZLc0xIYl9CenBfOUk4bUFIWnFJdjJ5TFBIMm5IVXBMLU9LOUc2cFE0Y0lUVmt0elFxWmRPcVRmY1dzVUNrdk9OYTdvZWJQcDhJdGh6R3Yzem1wSTE?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -34,15 +52,6 @@
       "beauty": true
     },
     {
-      "keyword": "This massive Korean beauty pop-up is giving away $300 gift bags in NYC this Friday - SILive.com",
-      "product": "This massive Korean beauty pop-up is giving away $300 gift bags in NYC this Friday - SILive.com",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQY2tISWprLUVaQ09PNXA5R2xMSUM1a3h0S29rSk16bjJ0Yi1hc1kwMHAxelY1Vm0wSkZ5MC1FOGhiQkViR05qN2JsOThQeElpQ3k0S0FlaC1GaFBLUWljNjFFMUp5ZHduVk90SVFRXzhtbEc0VTFqeGRrbWJqTk8xZk5leHBYWUdpZzRzNl9pMzhGQW44WmNldjNiOFMyQUk1eEF4dnZ1YkpwQnV6UThUNEU3NjhLcVlLSG9xdmk4bjM2ekZv?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
       "keyword": "A massive K-beauty pop-up is taking over Hudson Yards this week with 30+ brands and $300 gift bags - Time Out Worldwide",
       "product": "A massive K-beauty pop-up is taking over Hudson Yards this week with 30+ brands and $300 gift bags - Time Out Worldwide",
       "sub": "K-beauty",
@@ -52,29 +61,20 @@
       "beauty": true
     },
     {
-      "keyword": "K-Style Takes Center Stage in Mexico City as 2026 K-EXPO MEXICO Concludes Successfully - Business Wire",
-      "product": "K-Style Takes Center Stage in Mexico City as 2026 K-EXPO MEXICO Concludes Successfully - Business Wire",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQMDh5UkF4MkpJUUVYTWZBREpJZHhUcTQyZTc5REQ1azY5a1JxNjBWbnJob19xSktVNXRZYkRtdE1TMjM3YkhteWZrUTMtX2d4dHpDZDBnTUQyMHlYLW1VeTVqYWpnN2xCdlRHdUdjQWFsbDRkVDNiQnByV3hfZnR5dFlHWDc2NTAtY2JTd3VhU3dPUE9PWDVYRjBSc2YtbnBrQjBrYVdVR0E4Y21WZEtTaS1mTm9TVW10UUlRcXQ0MXVnV2JycF8zSE5NX25vcnpMaGJ4UU11YlRjb0k?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "I’ve Been Using This K-Beauty Moisturizer for 9 Months—It Gives Me Glass Skin and a Smoother Neck - Real Simple",
-      "product": "I’ve Been Using This K-Beauty Moisturizer for 9 Months—It Gives Me Glass Skin and a Smoother Neck - Real Simple",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQckxZNXFEaFFISjdvWHJ2Q1lfbi1rUHRkSHcyMVBiRTViM21TbUplQ3ByNWlKR3Vvel9XNW4xQl9lV0VLeG5KdFJmUFk0TmJGTy14dHZBSmV4YmozZU9za25aX2RQa2tJUWtScFZSQVE1QzZxX1ZmTmppUFB2Uzdjd1NTSjJMX3IxWThqZw?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "K-Beauty Is Taking Over Our Best of Beauty Awards, and for Good Reason - allure.com",
-      "product": "K-Beauty Is Taking Over Our Best of Beauty Awards, and for Good Reason - allure.com",
+      "keyword": "K-Beauty Is Taking Over Our Best of Beauty Awards, and for Good Reason - Allure",
+      "product": "K-Beauty Is Taking Over Our Best of Beauty Awards, and for Good Reason - Allure",
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9OMWRrWlZETWZ3NUNIUFhIZU1GcVl1OFJmMEkzemlwMVRfVWs4NTFpLUd0VFNxR0xFN09IajZxUDQzakRZcHp5cVVGTUplNzA2VW1QWXBWbkdSX0RRLUtHOTROZGtSdGpZV3hOQkRVaVpJZnFtZ2NNcHd5cw?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "This massive Korean beauty pop-up is giving away $300 gift bags in NYC this Friday - SILive.com",
+      "product": "This massive Korean beauty pop-up is giving away $300 gift bags in NYC this Friday - SILive.com",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQY2tISWprLUVaQ09PNXA5R2xMSUM1a3h0S29rSk16bjJ0Yi1hc1kwMHAxelY1Vm0wSkZ5MC1FOGhiQkViR05qN2JsOThQeElpQ3k0S0FlaC1GaFBLUWljNjFFMUp5ZHduVk90SVFRXzhtbEc0VTFqeGRrbWJqTk8xZk5leHBYWUdpZzRzNl9pMzhGQW44WmNldjNiOFMyQUk1eEF4dnZ1YkpwQnV6UThUNEU3NjhLcVlLSG9xdmk4bjM2ekZv?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -106,8 +106,8 @@
       "beauty": true
     },
     {
-      "keyword": "11 Of The Best Clear Sunscreens For Black & Brown Skin - Coveteur",
-      "product": "11 Of The Best Clear Sunscreens For Black & Brown Skin - Coveteur",
+      "keyword": "11 Of The Best Clear Sunscreens For Black & Brown Skin - coveteur.com",
+      "product": "11 Of The Best Clear Sunscreens For Black & Brown Skin - coveteur.com",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ZTWU0R2c2bXdNckV1N29mSDJWb201UGxUT2ZOajNjZ0oyRkJHTWVQdzdSME5YT0M2M0g2YXFrSnZGZWk3Mmx2S3VkVUx3bk9jMVV5dQ?oc=5",
@@ -142,8 +142,8 @@
       "beauty": true
     },
     {
-      "keyword": "Is the new U.S. regulation an open door or obstacle for K-sunscreens? - koreajoongangdaily.com",
-      "product": "Is the new U.S. regulation an open door or obstacle for K-sunscreens? - koreajoongangdaily.com",
+      "keyword": "Is the new U.S. regulation an open door or obstacle for K-sunscreens? - Korea JoongAng Daily",
+      "product": "Is the new U.S. regulation an open door or obstacle for K-sunscreens? - Korea JoongAng Daily",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUDh6Z0llM0RRMDYyeWdpSlhyaTRUdjREYUloeWMzUjQtbnBud0NaaWluNGs2akdaT2NZbnhlbElONjJUVzE2QU5TV2NTMkRhVnlQaHlXaUJTdTZScTE0Y0pqblFlYnlNa1dseHB3M09Fb3RQN0hCclZYS1B1RXotaERGS29IQmZlbFI2RzNBTXFreExrUnE5MzhaV3ZsclBHRkpXRlEtQnQxbk5INngtdURoWVlPRmtGcGc?oc=5",
@@ -156,6 +156,15 @@
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdm52RDduRjhGVVR4YWZ2MlVJRVpMLWxYaHVqdHVES3IxQV9ObF83blgzMm16ODY5UWFtRVJrY3dqZ2VTVTdtSEVHVzBQQnZEMzRCakJDSWRmZF9zTi1uVFVzN2hTYUVlT0ZFMkFkaTRJSlI1RHdzOVpsYTBPbC1DS1B5WVJrTmdzT2VHVE53UGtYdUxRNmZzeVZZTGM?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Shoppers are racing to buy this viral COSRX skincare favourite now it’s 60 per cent off - 7NEWS",
+      "product": "Shoppers are racing to buy this viral COSRX skincare favourite now it’s 60 per cent off - 7NEWS",
+      "sub": "snail mucin",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOa2hxMVBXRW96TEU2bmljRm1oSEVrRUFyUld3aUdBM1hhR0dGclp2NGJZUGx5QkpJeS0zT3FRdm5XWlh3UjJPMTlMbWdpMFRQOEZOUC1venlTUk5mVHRkRUtmZE1IRUVYVjlYeExSYVd2WVhQMjQyNUVXT2MxNUV1QXpvRWo4VVdMdGVkYUM4ZGlSbDA1X0dWLVdWZWY5WmdGUXB4Nkhfalh3YWFBeDJmQ1d0VGJ3UG04aDc1LUxrSmRyQVhSTEVudjV30gHPAUFVX3lxTE90QmJXdWwyd1lSYWpPNDdrWXMwbm5SZVl3bmdZX1doTzg5d2wxTTRfNVpQd0k5eTFDMHNPdjE4RVlBYktkSk1hUHc5ek9vSEFEeXVERGJ4elA4SDlBYkRFc1FlZWc4RjNKb3N1YlFqakR6WHZJWVZyZ2EzVU1GYnNjWU83MFZYTFJEZmhvbUlRSmpnOXBtLWQwd2JBcmVRSm42bURuVHVxQlRiOU0xcno1ZkE0UHpqa2xMNDZVRjZXOU1sY2s3WmpndFZpNE5KUQ?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -187,8 +196,8 @@
       "beauty": true
     },
     {
-      "keyword": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - vogue.com",
-      "product": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - vogue.com",
+      "keyword": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - Vogue",
+      "product": "From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - Vogue",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5LUmI0VzFqenBxYXlPcjlQVE4xOEVsbE8wYW4xdG1jSHRWbFQzWFZEOVRpTmN0bndubWptdUJqc3BRb2ExWUJCZmtRSVhSWDliZDN5RGhjVGhLSW1ieU45TVhMZVpKSFVYZWc?oc=5",
@@ -214,17 +223,8 @@
       "beauty": true
     },
     {
-      "keyword": "Snails are masters of mucus chemistry - Chemical & Engineering News",
-      "product": "Snails are masters of mucus chemistry - Chemical & Engineering News",
-      "sub": "snail mucin",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdWxLYWM0V1J4VkM4aWpQRXRGM2h2RTFYYUg4NmdNd0RFbEtpZlNTdHc1Rkg5alNqbzByMEkycVh1bnJSby1seFpNc3JZMkgzUVBmOUJQT0pxYTI2RnA4bHh5U0lQdzZDa1E4eUxXZnBUa3FVUE55T0JsaXFIbTZnbkZFRFVtNmJNRVNLNlN0SVNaXzM1UVVqNmVjTjlmRkk?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "6 Steps to Glass Skin, According to K-Beauty Experts - vogue.com",
-      "product": "6 Steps to Glass Skin, According to K-Beauty Experts - vogue.com",
+      "keyword": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
+      "product": "6 Steps to Glass Skin, According to K-Beauty Experts - Vogue",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sQVgyOEN4R0VGUV9MQklQUGVkRFN0QzQ4S0loMUlkZXdUd1luVXlEb3ZROTFYcTlmU1A1NlJNNC1mT3NhMlIwNkNUelNHU2lCVHdFTW5lMkpodll5RkN2TQ?oc=5",
@@ -232,8 +232,8 @@
       "beauty": true
     },
     {
-      "keyword": "Dry Skin Types Should Be Using Face Toner—Here’s Why - allure.com",
-      "product": "Dry Skin Types Should Be Using Face Toner—Here’s Why - allure.com",
+      "keyword": "Dry Skin Types Should Be Using Face Toner—Here’s Why - Allure",
+      "product": "Dry Skin Types Should Be Using Face Toner—Here’s Why - Allure",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tUlIta29LZnJyQjZ3VlhCQ1VlZzk3bVo5LXd1NE8xX3FRemRsZXB4VXdOSDQtWVNUMlJzWmNXSnhUTWdBTl9hX1dud2VTREZwNlFfTXVxNEdOa0tSdUJZNS1B?oc=5",
@@ -259,8 +259,8 @@
       "beauty": true
     },
     {
-      "keyword": "How Anua Skincare Became K-Beauty’s Biggest Success Story - beautynewsdaily.com",
-      "product": "How Anua Skincare Became K-Beauty’s Biggest Success Story - beautynewsdaily.com",
+      "keyword": "How Anua Skincare Became K-Beauty’s Biggest Success Story - BeautyNewsDaily",
+      "product": "How Anua Skincare Became K-Beauty’s Biggest Success Story - BeautyNewsDaily",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9LemdVMDM3Q3hoem1Xa013a0JQMVdWd0UxSDZpdjc4T3BmT29PMWJZZTltMl9lQkhRM1NzckFMbnBiMlIycWxqZXhrQ3lCeU1YNzFEcnpPQkRpeDQ?oc=5",
@@ -277,20 +277,20 @@
       "beauty": true
     },
     {
-      "keyword": "8 Toner Pads To Calm Oily Sweaty Skin In Humidity - femina.in",
-      "product": "8 Toner Pads To Calm Oily Sweaty Skin In Humidity - femina.in",
+      "keyword": "Best toner: Discover which face toner best suits your skin type and budget - Mamabella",
+      "product": "Best toner: Discover which face toner best suits your skin type and budget - Mamabella",
       "sub": "heartleaf toner",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSUMyeGZqTk5KaUpBR3Q0SXJBbkJKU1o5T0V5emVCRm1RT3Vsa002R2RUOE9ta1BMNmFnNDBXM2g3aXdQWUpDSUFJSklveEhPMmdJcGFXdmlLWGtrUkkzZGljSjBIMmp4M2JGeDNkQUFRdzZJLWk0Z1FiLW5WdEMyWldic1VwQ0tUNmZuVG5jUks4SnRlQ2JNWWx3aGUwZnE2czNLd2M0UlVLUXNFbmxz0gGvAUFVX3lxTE5JQzJ4ZmpOTkppSkFHdDRJckFuQkpTWjlPRXl6ZUJGbVFPdWxrTTZHZFQ4T21rUEw2YWc0MFczaDdpd1BZSkNJQUlKSW94SE8yZ0lwYVd2aUtYa2tSSTNkaWNKMEgyangzYkZ4M2RBQVF3NkktaTRnUWItblZ0QzJaV2JzVXBDS1Q2Zm5UbmNSSzhKdGVDYk1ZbHdoZTBmcTZzM0t3YzRSVUtRc0VubHM?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5hcW5ZR2hNR0ZGQ2dvaTVvUTFyRmRhOTJfUXlkVlhicmYzT01PZzFPREtQSXJRZHRDZEc2M0RtazdoSkRucVlSdEZoZ1ZZRXV0eWpfZFY3TVZrN1ByQkNyeQ?oc=5",
       "kind": "news",
       "beauty": true
     },
     {
-      "keyword": "Best toner: Discover which face toner best suits your skin type and budget - mamabella.uk",
-      "product": "Best toner: Discover which face toner best suits your skin type and budget - mamabella.uk",
+      "keyword": "This Soothing Toner for Acne-Prone Skin That’s Always Sold Out on TikTok Shop & Is a Rare 30% off til Midnight - SheKnows",
+      "product": "This Soothing Toner for Acne-Prone Skin That’s Always Sold Out on TikTok Shop & Is a Rare 30% off til Midnight - SheKnows",
       "sub": "heartleaf toner",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5hcW5ZR2hNR0ZGQ2dvaTVvUTFyRmRhOTJfUXlkVlhicmYzT01PZzFPREtQSXJRZHRDZEc2M0RtazdoSkRucVlSdEZoZ1ZZRXV0eWpfZFY3TVZrN1ByQkNyeQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82eTk2NHJ2QUFpbWZLZUhMUVlUR25HeGw5UUhZVVl1QjVYcnV3SDUtemwyUUo5MDU2TEFoN2NTMmtvclRGbWZ2R0RqdkhmLThlM1ZUY3VMcWtiUmctT3N0dnBWNzJvb2xIQWpTZFNMTTNrMkQ0UEpvUmw4eE1sdw?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -304,8 +304,8 @@
       "beauty": true
     },
     {
-      "keyword": "Red, Irritated Skin? These Cica Products Calm Things Down - allure.com",
-      "product": "Red, Irritated Skin? These Cica Products Calm Things Down - allure.com",
+      "keyword": "Red, Irritated Skin? These Cica Products Calm Things Down - Allure",
+      "product": "Red, Irritated Skin? These Cica Products Calm Things Down - Allure",
       "sub": "centella serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1yZDNoUHpEdEhOUWhHQWRZck1vTFdWeDljeGZPcVh4a1VuaWpnWTczN0Vhd2RmODNOajVxdFdzRHdJTjJVbVJfa212RDdQcVY3N2tSRjc0emxET0J6bUFfbVZUNUU?oc=5",
@@ -358,8 +358,8 @@
       "beauty": true
     },
     {
-      "keyword": "The Best Beauty Launches of January 2026 - beautynewsdaily.com",
-      "product": "The Best Beauty Launches of January 2026 - beautynewsdaily.com",
+      "keyword": "The Best Beauty Launches of January 2026 - BeautyNewsDaily",
+      "product": "The Best Beauty Launches of January 2026 - BeautyNewsDaily",
       "sub": "centella serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1qMVVHZjVtSXNpdW5LWHFoMi1nZk5FMkFCaEl5cFJCWkNrb1AxaGYxTUVvRUtNVWNabDFFRVRKVlRIRzdpZ29sVk5MNERUWjJkT0s3aTRJRWF2NmpEeFlyR0c1ZjA4Q1pHQk9FYU1lTmw?oc=5",

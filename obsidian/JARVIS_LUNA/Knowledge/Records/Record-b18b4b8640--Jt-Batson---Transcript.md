@@ -2,7 +2,7 @@
 title: "Record b18b4b8640 · Jt-Batson---Transcript"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:12.379813+00:00
+updated_at: 2026-09-30T08:08:40.275537+00:00
 tags: [record, real-data]
 ---
 

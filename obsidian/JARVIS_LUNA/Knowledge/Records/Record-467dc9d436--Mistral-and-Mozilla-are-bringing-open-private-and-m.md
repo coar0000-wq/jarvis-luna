@@ -2,7 +2,7 @@
 title: "Record 467dc9d436 · Mistral-and-Mozilla-are-bringing-open-private-and-multilingual-AI-to-y"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:11.226701+00:00
+updated_at: 2026-09-30T08:08:38.929527+00:00
 tags: [record, real-data]
 ---
 

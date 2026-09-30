@@ -2,7 +2,7 @@
 title: "Record 786b91f7c4 · La-Roche-Posay-Toleriane-Purifying-Foaming-Facial-Cleanser-with-Niacin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:12.237538+00:00
+updated_at: 2026-09-30T08:08:40.113919+00:00
 tags: [record, real-data]
 ---
 

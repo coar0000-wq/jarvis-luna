@@ -2,7 +2,7 @@
 title: "Record 47ee6b139a · Less-Flush-More-Finish-How-to-Get-the-Anti-Blush-Look-Plus-Celebrity-I"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:11.627089+00:00
+updated_at: 2026-09-30T08:08:39.410994+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Less Flush, More Finish: How to Get the “Anti-Blush” Look, Plus Celebrity In
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

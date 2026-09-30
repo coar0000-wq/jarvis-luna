@@ -2,7 +2,7 @@
 title: "Record 5554703390 · Celebrity-inspiration-and-tips-for-achieving-the-anti-blush-appearance"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:11.668759+00:00
+updated_at: 2026-09-30T08:08:39.452008+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Celebrity inspiration and tips for achieving the “anti-blush” appearance - P
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,7 +2,7 @@
 title: "Record b79d421f39 · Ev-YOLO-Uncertainty-Aware-Object-Detection-via-a-Unified-Evidential-Fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:10.994675+00:00
+updated_at: 2026-09-30T08:08:38.660496+00:00
 tags: [record, real-data]
 ---
 

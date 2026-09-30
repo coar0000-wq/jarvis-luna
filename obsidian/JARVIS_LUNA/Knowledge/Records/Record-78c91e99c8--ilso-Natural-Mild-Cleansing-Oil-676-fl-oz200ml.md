@@ -2,7 +2,7 @@
 title: "Record 78c91e99c8 · ilso-Natural-Mild-Cleansing-Oil-676-fl-oz200ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:11.937680+00:00
+updated_at: 2026-09-30T08:08:39.771940+00:00
 tags: [record, real-data]
 ---
 

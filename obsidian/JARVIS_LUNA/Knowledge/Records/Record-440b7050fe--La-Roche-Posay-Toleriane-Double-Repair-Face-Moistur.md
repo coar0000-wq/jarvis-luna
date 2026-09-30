@@ -2,7 +2,7 @@
 title: "Record 440b7050fe · La-Roche-Posay-Toleriane-Double-Repair-Face-Moisturizer--Daily-face-cr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:12.234783+00:00
+updated_at: 2026-09-30T08:08:40.111240+00:00
 tags: [record, real-data]
 ---
 

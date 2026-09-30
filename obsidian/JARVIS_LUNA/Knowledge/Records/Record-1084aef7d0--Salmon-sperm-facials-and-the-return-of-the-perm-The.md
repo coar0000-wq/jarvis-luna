@@ -2,7 +2,7 @@
 title: "Record 1084aef7d0 · Salmon-sperm-facials-and-the-return-of-the-perm-The"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:11.248668+00:00
+updated_at: 2026-09-30T08:08:38.961156+00:00
 tags: [record, real-data]
 ---
 

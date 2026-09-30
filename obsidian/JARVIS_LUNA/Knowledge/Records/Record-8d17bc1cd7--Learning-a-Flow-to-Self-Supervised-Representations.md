@@ -2,7 +2,7 @@
 title: "Record 8d17bc1cd7 · Learning-a-Flow-to-Self-Supervised-Representations"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:10.479944+00:00
+updated_at: 2026-09-30T08:08:38.082014+00:00
 tags: [record, real-data]
 ---
 

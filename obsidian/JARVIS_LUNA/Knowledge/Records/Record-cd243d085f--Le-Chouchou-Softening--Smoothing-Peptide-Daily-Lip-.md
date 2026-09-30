@@ -2,7 +2,7 @@
 title: "Record cd243d085f · Le-Chouchou-Softening--Smoothing-Peptide-Daily-Lip-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:12.466613+00:00
+updated_at: 2026-09-30T08:08:40.385605+00:00
 tags: [record, real-data]
 ---
 

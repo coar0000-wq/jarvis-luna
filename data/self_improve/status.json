@@ -1,20 +1,33 @@
 {
-  "generated_at": "2026-09-30T01:05:34.753298+00:00",
+  "generated_at": "2026-09-30T07:58:09.774849+00:00",
   "generator": "scripts/self_improve.py",
   "principle": "무료·설정만 변경·그림자 평가 후 채택·실측 악화 시 자동 롤백",
   "loops": {
     "topics": {
       "metric": "uncategorized_rate",
-      "records": 5914,
-      "base_uncategorized": 1062,
-      "before": 0.0849,
-      "after_shadow": 0.0849,
-      "uncategorized_before": 502,
-      "uncategorized_after_shadow": 502,
-      "adopted": 0,
-      "learned_keywords": 15,
-      "decisions": [],
-      "status": "no_change"
+      "records": 5951,
+      "base_uncategorized": 1072,
+      "before": 0.0845,
+      "after_shadow": 0.0837,
+      "uncategorized_before": 503,
+      "uncategorized_after_shadow": 498,
+      "adopted": 1,
+      "learned_keywords": 16,
+      "decisions": [
+        {
+          "loop": "topics",
+          "action": "adopt",
+          "keyword": "prestige",
+          "topic": "뷰티·스킨케어",
+          "precision": 0.875,
+          "support": 8,
+          "uncategorized_hits": 5,
+          "source": "google",
+          "source_fit": 0.652,
+          "newly_classified": 5
+        }
+      ],
+      "status": "adopted"
     },
     "sourcing": {
       "metric": "useful_fetch_rate",
@@ -49,5 +62,5 @@
       "status": "active"
     }
   },
-  "decisions_total": 17
+  "decisions_total": 18
 }

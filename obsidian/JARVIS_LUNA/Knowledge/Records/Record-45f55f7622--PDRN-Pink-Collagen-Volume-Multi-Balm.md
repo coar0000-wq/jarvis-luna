@@ -2,7 +2,7 @@
 title: "Record 45f55f7622 · PDRN-Pink-Collagen-Volume-Multi-Balm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:12.549466+00:00
+updated_at: 2026-09-30T08:08:40.475919+00:00
 tags: [record, real-data]
 ---
 

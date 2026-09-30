@@ -1,6 +1,6 @@
 {
-  "version": 4,
-  "updated_at": "2026-09-29T10:15:19.303127+00:00",
+  "version": 5,
+  "updated_at": "2026-09-30T07:58:09.709617+00:00",
   "generator": "scripts/self_improve.py",
   "rule": "미분류 노트에 3번 이상 나오고, 이미 분류된 노트 8개 이상에서 같은 주제 비율 85% 이상인 낱말만 채택. 정확도가 70% 아래로 떨어지면 자동 해제.",
   "topics": {
@@ -15,6 +15,7 @@
       "original",
       "pdrn",
       "peptide",
+      "prestige",
       "skin",
       "smoothing",
       "spf",

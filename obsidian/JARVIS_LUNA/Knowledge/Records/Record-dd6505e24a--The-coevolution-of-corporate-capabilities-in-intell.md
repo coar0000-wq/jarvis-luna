@@ -2,7 +2,7 @@
 title: "Record dd6505e24a · The-coevolution-of-corporate-capabilities-in-intellectual-property-man"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:10.678667+00:00
+updated_at: 2026-09-30T08:08:38.318073+00:00
 tags: [record, real-data]
 ---
 

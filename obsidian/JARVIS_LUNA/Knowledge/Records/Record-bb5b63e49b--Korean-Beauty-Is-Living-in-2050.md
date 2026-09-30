@@ -2,7 +2,7 @@
 title: "Record bb5b63e49b · Korean-Beauty-Is-Living-in-2050"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:12.628206+00:00
+updated_at: 2026-09-30T08:08:40.572122+00:00
 tags: [record, real-data]
 ---
 

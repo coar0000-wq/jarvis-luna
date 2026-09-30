@@ -2,7 +2,7 @@
 title: "Record 83820f07f5 · Dark-Spot-Correcting-Glow-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:11.822238+00:00
+updated_at: 2026-09-30T08:08:39.635148+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record d6fc0737d9 · Modeling-the-Nexus-between-Fluctuations-in-Climate-Policy-Uncertainty-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:10.740937+00:00
+updated_at: 2026-09-30T08:08:38.381806+00:00
 tags: [record, real-data]
 ---
 

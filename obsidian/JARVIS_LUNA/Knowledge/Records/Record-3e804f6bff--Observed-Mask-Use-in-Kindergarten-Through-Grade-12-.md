@@ -2,7 +2,7 @@
 title: "Record 3e804f6bff · Observed-Mask-Use-in-Kindergarten-Through-Grade-12-Schools-in-GeorgiaF"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:10.727615+00:00
+updated_at: 2026-09-30T08:08:38.364701+00:00
 tags: [record, real-data]
 ---
 

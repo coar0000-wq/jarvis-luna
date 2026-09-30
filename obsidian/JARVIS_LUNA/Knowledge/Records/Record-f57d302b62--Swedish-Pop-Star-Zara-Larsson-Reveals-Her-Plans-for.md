@@ -2,7 +2,7 @@
 title: "Record f57d302b62 · Swedish-Pop-Star-Zara-Larsson-Reveals-Her-Plans-for-a-Global-TakeoverI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:12.015236+00:00
+updated_at: 2026-09-30T08:08:39.865108+00:00
 tags: [record, real-data]
 ---
 

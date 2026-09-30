@@ -2,7 +2,7 @@
 title: "Record ec5235c509 · Lakebase-Search-State-of-the-art-full-text-and-vector-search-for-Postg"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:12.356673+00:00
+updated_at: 2026-09-30T08:08:40.247416+00:00
 tags: [record, real-data]
 ---
 

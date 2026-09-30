@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T01:13:23.176630+00:00",
+  "generated_at": "2026-09-30T08:06:20.233371+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "maura higgins",
-          "approx_traffic": "10000+",
-          "traffic_num": 10000,
-          "published": "Tue, 29 Sep 2026 18:00:00 -0700",
-          "source_name": "Extra.ie",
-          "url": "https://trends.google.com/trending?geo=US&q=maura%20higgins"
+          "keyword": "rockstar games",
+          "approx_traffic": "20000+",
+          "traffic_num": 20000,
+          "published": "Wed, 30 Sep 2026 00:30:00 -0700",
+          "source_name": "Game Informer",
+          "url": "https://trends.google.com/trending?geo=US&q=rockstar%20games"
         },
         {
-          "keyword": "ciara miller",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Tue, 29 Sep 2026 18:00:00 -0700",
-          "source_name": "USA Today",
-          "url": "https://trends.google.com/trending?geo=US&q=ciara%20miller"
+          "keyword": "supermarket",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Wed, 30 Sep 2026 00:40:00 -0700",
+          "source_name": "WSJ",
+          "url": "https://trends.google.com/trending?geo=US&q=supermarket"
         },
         {
-          "keyword": "friendlies",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Tue, 29 Sep 2026 17:50:00 -0700",
+          "keyword": "carhartt",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Wed, 30 Sep 2026 00:20:00 -0700",
+          "source_name": "Gear Patrol",
+          "url": "https://trends.google.com/trending?geo=US&q=carhartt"
+        },
+        {
+          "keyword": "market",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Wed, 30 Sep 2026 00:50:00 -0700",
+          "source_name": "CNBC",
+          "url": "https://trends.google.com/trending?geo=US&q=market"
+        },
+        {
+          "keyword": "india vs west indies",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Wed, 30 Sep 2026 00:40:00 -0700",
+          "source_name": "Cricinfo",
+          "url": "https://trends.google.com/trending?geo=US&q=india%20vs%20west%20indies"
+        },
+        {
+          "keyword": "week 4 defense rankings",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Wed, 30 Sep 2026 00:40:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=week%204%20defense%20rankings"
+        },
+        {
+          "keyword": "jaylen wright",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Wed, 30 Sep 2026 00:40:00 -0700",
           "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=friendlies"
+          "url": "https://trends.google.com/trending?geo=US&q=jaylen%20wright"
         },
         {
-          "keyword": "cubs vs padres",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Tue, 29 Sep 2026 17:50:00 -0700",
-          "source_name": "MLB.com",
-          "url": "https://trends.google.com/trending?geo=US&q=cubs%20vs%20padres"
+          "keyword": "arthur fils",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Wed, 30 Sep 2026 00:40:00 -0700",
+          "source_name": "L'Équipe",
+          "url": "https://trends.google.com/trending?geo=US&q=arthur%20fils"
         },
         {
-          "keyword": "austin wells",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Tue, 29 Sep 2026 17:50:00 -0700",
-          "source_name": "New York Post",
-          "url": "https://trends.google.com/trending?geo=US&q=austin%20wells"
+          "keyword": "james bond movies",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Wed, 30 Sep 2026 00:40:00 -0700",
+          "source_name": "discussingfilm.net",
+          "url": "https://trends.google.com/trending?geo=US&q=james%20bond%20movies"
         },
         {
-          "keyword": "spencer jones",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Tue, 29 Sep 2026 17:50:00 -0700",
-          "source_name": "New York Post",
-          "url": "https://trends.google.com/trending?geo=US&q=spencer%20jones"
-        },
-        {
-          "keyword": "trevor story",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Tue, 29 Sep 2026 18:00:00 -0700",
-          "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=trevor%20story"
-        },
-        {
-          "keyword": "caleb durbin",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Tue, 29 Sep 2026 18:00:00 -0700",
-          "source_name": "MassLive.com",
-          "url": "https://trends.google.com/trending?geo=US&q=caleb%20durbin"
-        },
-        {
-          "keyword": "hailey glassman",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Tue, 29 Sep 2026 18:00:00 -0700",
-          "source_name": "Yahoo",
-          "url": "https://trends.google.com/trending?geo=US&q=hailey%20glassman"
-        },
-        {
-          "keyword": "sabrina ionescu",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Tue, 29 Sep 2026 18:00:00 -0700",
-          "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=sabrina%20ionescu"
+          "keyword": "french guiana vs sint maarten",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Wed, 30 Sep 2026 00:20:00 -0700",
+          "source_name": "FOX Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=french%20guiana%20vs%20sint%20maarten"
         }
       ]
     },

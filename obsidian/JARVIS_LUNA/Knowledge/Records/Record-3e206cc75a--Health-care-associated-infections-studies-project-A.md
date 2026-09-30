@@ -2,7 +2,7 @@
 title: "Record 3e206cc75a · Health-care-associated-infections-studies-project-An-American-Journal-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:10.548296+00:00
+updated_at: 2026-09-30T08:08:38.167534+00:00
 tags: [record, real-data]
 ---
 

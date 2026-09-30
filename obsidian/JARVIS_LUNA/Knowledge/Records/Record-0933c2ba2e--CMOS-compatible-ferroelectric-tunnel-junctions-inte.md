@@ -2,7 +2,7 @@
 title: "Record 0933c2ba2e · CMOS-compatible-ferroelectric-tunnel-junctions-inte"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:10.618241+00:00
+updated_at: 2026-09-30T08:08:38.245518+00:00
 tags: [record, real-data]
 ---
 

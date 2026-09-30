@@ -2,7 +2,7 @@
 title: "Record eb67ba9889 · Madonna-Embraced-Decades-of-Beauty-Reinvention-Without-Losing-Herself"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:12.003645+00:00
+updated_at: 2026-09-30T08:08:39.851127+00:00
 tags: [record, real-data]
 ---
 

@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-30T01:04:20.226945+00:00",
+  "generated_at": "2026-09-30T07:56:55.278415+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
-  "pool_size": 3110,
+  "pool_size": 3044,
   "제목없어_버림": 38,
-  "unrouted": 9,
+  "unrouted": 10,
   "summary": {
     "sourcing": {
       "total": 368,
@@ -15,10 +15,10 @@
       "products": 356
     },
     "market": {
-      "total": 940,
-      "recent": 90,
-      "material": 940,
-      "material_recent": 90,
+      "total": 936,
+      "recent": 93,
+      "material": 936,
+      "material_recent": 93,
       "products": 0
     },
     "listing": {
@@ -29,24 +29,24 @@
       "products": 0
     },
     "pricing": {
-      "total": 76,
+      "total": 74,
       "recent": 32,
-      "material": 76,
+      "material": 74,
       "material_recent": 32,
       "products": 0
     },
     "legal": {
-      "total": 234,
+      "total": 235,
       "recent": 54,
-      "material": 234,
+      "material": 235,
       "material_recent": 54,
       "products": 0
     },
     "design": {
       "total": 437,
-      "recent": 126,
+      "recent": 127,
       "material": 437,
-      "material_recent": 126,
+      "material_recent": 127,
       "products": 0
     },
     "robotics": {
@@ -57,16 +57,16 @@
       "products": 0
     },
     "knowledge": {
-      "total": 257,
+      "total": 252,
       "recent": 93,
-      "material": 257,
+      "material": 252,
       "material_recent": 93,
       "products": 0
     },
     "institutions": {
-      "total": 1162,
+      "total": 1097,
       "recent": 221,
-      "material": 1162,
+      "material": 1097,
       "material_recent": 221,
       "products": 0
     },
@@ -1441,14 +1441,14 @@
         "by_hand": true
       },
       {
-        "title": "How to Supercharge Claude with Design Skills",
+        "title": "How to Get Better Designs Out of Claude",
         "url": "https://www.youtube.com/watch?v=psUJ14KmwpI",
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
       },
       {
-        "title": "How to Use TikTok to Drive Shopify Sales",
+        "title": "Beyond TikTok Shop: How to Use TikTok to Drive Shopify Sales",
         "url": "https://www.youtube.com/watch?v=nIOn_726Rxk",
         "pool": "youtube_channel",
         "date": "",
@@ -1899,6 +1899,13 @@
         "by_hand": false
       },
       {
+        "title": "Why Markets May Be Pricing In Too Many Rate Hikes",
+        "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/why-markets-may-be-pricing-in-too-many-rate-hikes",
+        "pool": "institutions",
+        "date": "2026-09-29",
+        "by_hand": false
+      },
+      {
         "title": "Move existing subscriptions to Shopify App Pricing",
         "url": "https://shopify.dev/changelog/move-existing-subscriptions-to-shopify-app-pricing",
         "pool": "design_refs",
@@ -1908,13 +1915,6 @@
       {
         "title": "Will European Gas Prices Keep Rising This Winter",
         "url": "https://www.goldmansachs.com/insights/articles/will-european-gas-prices-keep-rising-this-winter",
-        "pool": "institutions",
-        "date": "2026-09-23",
-        "by_hand": false
-      },
-      {
-        "title": "Why Markets May Be Pricing In Too Many Rate Hikes",
-        "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/why-markets-may-be-pricing-in-too-many-rate-hikes",
         "pool": "institutions",
         "date": "2026-09-23",
         "by_hand": false
@@ -2783,14 +2783,14 @@
         "by_hand": true
       },
       {
-        "title": "How to Supercharge Claude with Design Skills",
+        "title": "How to Get Better Designs Out of Claude",
         "url": "https://www.youtube.com/watch?v=psUJ14KmwpI",
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
       },
       {
-        "title": "How to Use TikTok to Drive Shopify Sales",
+        "title": "Beyond TikTok Shop: How to Use TikTok to Drive Shopify Sales",
         "url": "https://www.youtube.com/watch?v=nIOn_726Rxk",
         "pool": "youtube_channel",
         "date": "",
@@ -3702,7 +3702,7 @@
         "by_hand": true
       },
       {
-        "title": "10 Years of NVIDIA DGX: From One System to AI Factories",
+        "title": "Decade of NVIDIA DGX: From A Single System to AI Factories",
         "url": "https://www.youtube.com/watch?v=xAgq8ByWK0M",
         "pool": "youtube_channel",
         "date": "",

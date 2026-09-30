@@ -218,5 +218,18 @@
     "source": "us_beauty",
     "source_fit": 0.886,
     "newly_classified": 6
+  },
+  {
+    "at": "2026-09-30T07:58:09.774849+00:00",
+    "loop": "topics",
+    "action": "adopt",
+    "keyword": "prestige",
+    "topic": "뷰티·스킨케어",
+    "precision": 0.875,
+    "support": 8,
+    "uncategorized_hits": 5,
+    "source": "google",
+    "source_fit": 0.652,
+    "newly_classified": 5
   }
 ]

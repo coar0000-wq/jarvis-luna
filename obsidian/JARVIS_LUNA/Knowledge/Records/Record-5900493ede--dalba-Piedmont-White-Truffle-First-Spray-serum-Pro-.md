@@ -2,7 +2,7 @@
 title: "Record 5900493ede · dalba-Piedmont-White-Truffle-First-Spray-serum-Pro-2X-Peptide-338-fl-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:12.257036+00:00
+updated_at: 2026-09-30T08:08:40.137362+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 55baf0ff1c · The-Transformation-of-Broadband-Demand-From-Discretionary-Service-to-E"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:10.893875+00:00
+updated_at: 2026-09-30T08:08:38.550793+00:00
 tags: [record, real-data]
 ---
 

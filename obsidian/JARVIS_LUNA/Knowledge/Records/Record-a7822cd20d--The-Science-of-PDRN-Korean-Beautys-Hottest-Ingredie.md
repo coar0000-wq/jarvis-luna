@@ -2,7 +2,7 @@
 title: "Record a7822cd20d · The-Science-of-PDRN-Korean-Beautys-Hottest-Ingredie"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:11.577348+00:00
+updated_at: 2026-09-30T08:08:39.351886+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 7a041fa779 · JUNG-KWAN-JANG-Vital-Tonic-068-fl-oz20ml-x-10ea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:11.887607+00:00
+updated_at: 2026-09-30T08:08:39.706622+00:00
 tags: [record, real-data]
 ---
 

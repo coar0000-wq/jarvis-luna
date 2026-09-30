@@ -2,7 +2,7 @@
 title: "Record 2b0be6aa7c · Benchmark-Collapse"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:11.102476+00:00
+updated_at: 2026-09-30T08:08:38.786005+00:00
 tags: [record, real-data]
 ---
 

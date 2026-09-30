@@ -2,7 +2,7 @@
 title: "Record 683c4dab4b · 16-Best-Early-Amazon-Prime-Day-K-Beauty-Deals-2026"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:11.981310+00:00
+updated_at: 2026-09-30T08:08:39.823287+00:00
 tags: [record, real-data]
 ---
 

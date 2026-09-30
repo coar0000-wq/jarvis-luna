@@ -2,7 +2,7 @@
 title: "Record 32b05e8a07 · Mano-dura--An-experimental-evaluation-of-military-policing-in-Cali-Col"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:10.723050+00:00
+updated_at: 2026-09-30T08:08:38.359667+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 92aee77f21 · ECAS-An-Edge-Controlled-Agentic-System-for-Validation-Gated-Scientific"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:10.899602+00:00
+updated_at: 2026-09-30T08:08:38.557563+00:00
 tags: [record, real-data]
 ---
 

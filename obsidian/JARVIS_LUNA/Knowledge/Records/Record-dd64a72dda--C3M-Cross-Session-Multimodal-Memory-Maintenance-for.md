@@ -2,7 +2,7 @@
 title: "Record dd64a72dda · C3M-Cross-Session-Multimodal-Memory-Maintenance-for-Long-Horizon-Tasks"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:11.040612+00:00
+updated_at: 2026-09-30T08:08:38.712200+00:00
 tags: [record, real-data]
 ---
 

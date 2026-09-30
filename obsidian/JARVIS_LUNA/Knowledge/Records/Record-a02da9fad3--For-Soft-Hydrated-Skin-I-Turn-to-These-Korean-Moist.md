@@ -2,7 +2,7 @@
 title: "Record a02da9fad3 · For-Soft-Hydrated-Skin-I-Turn-to-These-Korean-Moist"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:11.296322+00:00
+updated_at: 2026-09-30T08:08:39.022493+00:00
 tags: [record, real-data]
 ---
 

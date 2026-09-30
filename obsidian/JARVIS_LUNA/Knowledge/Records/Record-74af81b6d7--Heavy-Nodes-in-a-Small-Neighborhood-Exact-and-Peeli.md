@@ -2,7 +2,7 @@
 title: "Record 74af81b6d7 · Heavy-Nodes-in-a-Small-Neighborhood-Exact-and-Peeling-Algorithms-With-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:10.717886+00:00
+updated_at: 2026-09-30T08:08:38.353803+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 9e91ef7801 · LightMIS-Ultra-Lightweight-Medical-Image-Segmentation-Without-a-Stage-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:10.469752+00:00
+updated_at: 2026-09-30T08:08:38.069965+00:00
 tags: [record, real-data]
 ---
 

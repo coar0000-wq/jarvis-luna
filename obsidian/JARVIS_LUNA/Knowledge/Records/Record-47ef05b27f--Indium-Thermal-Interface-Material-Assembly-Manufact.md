@@ -2,7 +2,7 @@
 title: "Record 47ef05b27f · Indium-Thermal-Interface-Material-Assembly-Manufacturability-and-Relia"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:10.882616+00:00
+updated_at: 2026-09-30T08:08:38.537217+00:00
 tags: [record, real-data]
 ---
 

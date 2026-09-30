@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T01:02:51.436155+00:00",
+  "generated_at": "2026-09-30T07:55:27.697095+00:00",
   "generator": "scripts/build_design_team.py",
   "scope": "스토어 없이 만들고 검증할 수 있는 디자인 준비물. 스토어에 적용된 것은 아니다.",
   "design_system": {
@@ -51,9 +51,8 @@
         "section": "featured-collection",
         "collection": "마스크팩",
         "products": [
-          "1027327",
           "1059834",
-          "1042619"
+          "1027327"
         ]
       },
       {
@@ -112,6 +111,13 @@
         "issues": []
       },
       {
+        "pd_no": "1049285",
+        "ok": false,
+        "issues": [
+          "seo_description 170자 (70~160)"
+        ]
+      },
+      {
         "pd_no": "1059834",
         "ok": false,
         "issues": [
@@ -119,17 +125,10 @@
         ]
       },
       {
-        "pd_no": "1042619",
+        "pd_no": "1053482",
         "ok": false,
         "issues": [
-          "seo_description 183자 (70~160)"
-        ]
-      },
-      {
-        "pd_no": "1049285",
-        "ok": false,
-        "issues": [
-          "seo_description 170자 (70~160)"
+          "seo_description 167자 (70~160)"
         ]
       }
     ]

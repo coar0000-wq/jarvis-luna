@@ -2,7 +2,7 @@
 title: "Record 4e80ffadb8 · Amazon-to-invest-100M-in-new-Indiana-manufacturing-facility"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:12.475842+00:00
+updated_at: 2026-09-30T08:08:40.396293+00:00
 tags: [record, real-data]
 ---
 

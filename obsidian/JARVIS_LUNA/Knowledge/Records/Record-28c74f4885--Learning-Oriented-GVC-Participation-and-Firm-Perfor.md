@@ -2,7 +2,7 @@
 title: "Record 28c74f4885 · Learning-Oriented-GVC-Participation-and-Firm-Performance-Within-Role-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:10.870048+00:00
+updated_at: 2026-09-30T08:08:38.523286+00:00
 tags: [record, real-data]
 ---
 

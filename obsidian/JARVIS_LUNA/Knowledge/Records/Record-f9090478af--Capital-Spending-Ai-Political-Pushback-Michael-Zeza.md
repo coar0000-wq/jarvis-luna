@@ -2,7 +2,7 @@
 title: "Record f9090478af · Capital-Spending-Ai-Political-Pushback-Michael-Zeza"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:12.446281+00:00
+updated_at: 2026-09-30T08:08:40.359112+00:00
 tags: [record, real-data]
 ---
 

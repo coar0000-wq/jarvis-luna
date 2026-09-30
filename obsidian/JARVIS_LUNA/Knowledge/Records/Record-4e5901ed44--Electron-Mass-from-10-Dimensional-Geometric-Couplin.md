@@ -2,7 +2,7 @@
 title: "Record 4e5901ed44 · Electron-Mass-from-10-Dimensional-Geometric-Coupling-A-Prediction-from"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:11.068974+00:00
+updated_at: 2026-09-30T08:08:38.745652+00:00
 tags: [record, real-data]
 ---
 

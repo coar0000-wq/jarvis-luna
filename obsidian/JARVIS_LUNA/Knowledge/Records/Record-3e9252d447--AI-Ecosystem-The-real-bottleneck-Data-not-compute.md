@@ -2,7 +2,7 @@
 title: "Record 3e9252d447 · AI-Ecosystem-The-real-bottleneck-Data-not-compute"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:11.716872+00:00
+updated_at: 2026-09-30T08:08:39.508107+00:00
 tags: [record, real-data]
 ---
 

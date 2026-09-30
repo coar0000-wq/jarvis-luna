@@ -2,7 +2,7 @@
 title: "Record 8ad97ff7be · 2types-MEDIHEAL-Hyper-Gel-Mask-10ct-123-oz35g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:11.931285+00:00
+updated_at: 2026-09-30T08:08:39.763432+00:00
 tags: [record, real-data]
 ---
 

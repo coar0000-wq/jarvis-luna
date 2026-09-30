@@ -2,7 +2,7 @@
 title: "Record 84d2224bc1 · Machine-Learning-in-Ecommerce-8-Uses--Benefits-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:11.343501+00:00
+updated_at: 2026-09-30T08:08:39.085957+00:00
 tags: [record, real-data]
 ---
 

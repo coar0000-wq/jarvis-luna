@@ -2,7 +2,7 @@
 title: "Record 653a65983d · nutseline-Aroma-Nut-Slimfit-Body-Guasha-Serum-228-fl-oz60ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:11.898244+00:00
+updated_at: 2026-09-30T08:08:39.720579+00:00
 tags: [record, real-data]
 ---
 

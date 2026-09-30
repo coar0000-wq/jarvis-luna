@@ -2,7 +2,7 @@
 title: "Record cf5a47a5d4 · Living-Cleansing-Balm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:11.841456+00:00
+updated_at: 2026-09-30T08:08:39.659579+00:00
 tags: [record, real-data]
 ---
 

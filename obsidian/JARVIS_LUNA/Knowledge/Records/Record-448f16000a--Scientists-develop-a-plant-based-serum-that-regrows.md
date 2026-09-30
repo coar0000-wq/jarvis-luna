@@ -2,7 +2,7 @@
 title: "Record 448f16000a · Scientists-develop-a-plant-based-serum-that-regrows-hair-in-lab-tests-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:11.329539+00:00
+updated_at: 2026-09-30T08:08:39.068701+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record babc5a651d · Beauty-of-Joseon-dazzles-UK-TikTok---The-Korea-Herald"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:11.263841+00:00
+updated_at: 2026-09-30T08:08:38.980684+00:00
 tags: [record, real-data]
 ---
 

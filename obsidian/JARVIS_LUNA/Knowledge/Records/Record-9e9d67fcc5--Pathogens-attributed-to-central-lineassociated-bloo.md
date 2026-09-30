@@ -2,7 +2,7 @@
 title: "Record 9e9d67fcc5 · Pathogens-attributed-to-central-lineassociated-bloodstream-infections-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T05:35:10.598502+00:00
+updated_at: 2026-09-30T08:08:38.221411+00:00
 tags: [record, real-data]
 ---
 

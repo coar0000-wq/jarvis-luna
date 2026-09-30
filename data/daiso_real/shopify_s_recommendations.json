@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T01:13:24.067584+00:00",
+  "generated_at": "2026-09-30T08:06:21.501619+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
@@ -13,7 +13,7 @@
       "name": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
       "bucket": "스킨케어",
       "price_krw": 3000,
-      "shopify_score": 99,
+      "shopify_score": 100,
       "grade": "S",
       "s_rule": "strong_form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049276",
@@ -23,11 +23,11 @@
         "channel": "oliveyoung_us",
         "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
         "similarity": 0.733,
-        "demand_weight": 0.735,
+        "demand_weight": 0.784,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.539
+        "match_score": 0.575
       },
       "registerable": true,
       "registerable_source": "data/listing_gate.json",
@@ -41,7 +41,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -53,23 +53,22 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.93,
+        "model_route_confidence": 0.92,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.694,
+        "confidence": 0.716,
         "usage": {
-          "input_tokens": 1104,
+          "input_tokens": 1105,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.59,
+        "risk_score": 1.72,
         "model": "jev-1.13.0",
-        "state_signature": "873be9767eedb9d0034dd4719e90abf0cfe14ce87f79d55a4331253b35291a54",
-        "decided_at": "2026-09-30T01:13:30.027088+00:00",
-        "carried_from": "2026-09-30T01:13:30.027088+00:00"
+        "state_signature": "cdb95028555fb2cc1091059f8cd86fe4a993cc1cce6206584626e7d74b6ea8c6",
+        "decided_at": "2026-09-30T08:06:28.026636+00:00"
       },
-      "gate_generated_at": "2026-09-30T03:51:09.923214+00:00"
+      "gate_generated_at": "2026-09-30T08:06:29.140965+00:00"
     },
     {
       "rank": 2,
@@ -107,7 +106,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -123,19 +122,18 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.712,
+        "confidence": 0.718,
         "usage": {
           "input_tokens": 1085,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.63,
+        "risk_score": 1.64,
         "model": "jev-1.13.0",
         "state_signature": "51d0e73d5ba5ed41de4d4bf02811433e8f7ef09ef764ae07bb5b94a8cc530ea7",
-        "decided_at": "2026-09-30T01:13:30.120850+00:00",
-        "carried_from": "2026-09-30T01:13:30.120850+00:00"
+        "decided_at": "2026-09-30T08:06:28.224110+00:00"
       },
-      "gate_generated_at": "2026-09-30T03:51:09.923214+00:00"
+      "gate_generated_at": "2026-09-30T08:06:29.140965+00:00"
     },
     {
       "rank": 3,
@@ -154,11 +152,11 @@
         "channel": "oliveyoung_us",
         "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
         "similarity": 0.733,
-        "demand_weight": 0.735,
+        "demand_weight": 0.784,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.539
+        "match_score": 0.575
       },
       "registerable": true,
       "registerable_source": "data/listing_gate.json",
@@ -172,73 +170,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
-        "source": "typesafe",
-        "paid_api_called": false,
-        "enforced": false,
-        "grade_advisory": "hold",
-        "legal_gate_advisory": "review",
-        "risk_level": "high",
-        "risk_points": 1,
-        "team_routes": [
-          "legal"
-        ],
-        "model_route": "human",
-        "model_route_confidence": 0.93,
-        "findings": [
-          "public blockers: legal_full"
-        ],
-        "confidence": 0.704,
-        "usage": {
-          "input_tokens": 1104,
-          "output_tokens": 198
-        },
-        "free_credits_only": true,
-        "risk_score": 1.6,
-        "model": "jev-1.13.0",
-        "state_signature": "51d0e73d5ba5ed41de4d4bf02811433e8f7ef09ef764ae07bb5b94a8cc530ea7",
-        "decided_at": "2026-09-30T01:13:30.266319+00:00",
-        "carried_from": "2026-09-30T01:13:30.266319+00:00"
-      },
-      "gate_generated_at": "2026-09-30T03:51:09.923214+00:00"
-    },
-    {
-      "rank": 4,
-      "canonical_product_id": "CP000216",
-      "pd_no": "1067498",
-      "name": "[영양광채]VT PDRN 광채 크림 50 ml",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 96,
-      "grade": "S",
-      "s_rule": "ingredient+form",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067498",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/wj1JQs4g8q0tBuz4c7jF1067498_00_01wj1JQs4g8q0tBuz4c7jF.jpg",
-      "recommend_reason": "글로벌 'Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 85% · 토큰 cream, pdrn",
-      "matched_global": {
-        "channel": "oliveyoung_us",
-        "global_product": "Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
-        "similarity": 0.853,
-        "demand_weight": 0.49,
-        "matched_tokens": [
-          "cream",
-          "pdrn"
-        ],
-        "match_score": 0.418
-      },
-      "registerable": true,
-      "registerable_source": "data/listing_gate.json",
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "blocked_by": [],
-      "public_ready": false,
-      "public_blocked_by": [
-        "legal_full"
-      ],
-      "typesafe": {
-        "framework": "typesafe_system_one_compatible",
-        "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -254,19 +186,83 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.712,
+        "confidence": 0.72,
         "usage": {
-          "input_tokens": 1086,
+          "input_tokens": 1104,
           "output_tokens": 198
         },
         "free_credits_only": true,
         "risk_score": 1.62,
         "model": "jev-1.13.0",
-        "state_signature": "a235a30f46906db0e3e7198e8f998dc4cfdaf92ceac3f46d1cef17739f39ea0f",
-        "decided_at": "2026-09-30T01:13:30.376028+00:00",
-        "carried_from": "2026-09-30T01:13:30.376028+00:00"
+        "state_signature": "51d0e73d5ba5ed41de4d4bf02811433e8f7ef09ef764ae07bb5b94a8cc530ea7",
+        "decided_at": "2026-09-30T08:06:28.329201+00:00"
       },
-      "gate_generated_at": "2026-09-30T03:51:09.923214+00:00"
+      "gate_generated_at": "2026-09-30T08:06:29.140965+00:00"
+    },
+    {
+      "rank": 4,
+      "canonical_product_id": "CP000216",
+      "pd_no": "1067498",
+      "name": "[영양광채]VT PDRN 광채 크림 50 ml",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 96,
+      "grade": "S",
+      "s_rule": "ingredient+form",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067498",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/wj1JQs4g8q0tBuz4c7jF1067498_00_01wj1JQs4g8q0tBuz4c7jF.jpg",
+      "recommend_reason": "글로벌 'Lacto-PDRN 4% + B9 Eye Cream' (ulta_beauty) 유사 88% · 토큰 cream, pdrn",
+      "matched_global": {
+        "channel": "ulta_beauty",
+        "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+        "similarity": 0.88,
+        "demand_weight": 0.425,
+        "matched_tokens": [
+          "cream",
+          "pdrn"
+        ],
+        "match_score": 0.374
+      },
+      "registerable": true,
+      "registerable_source": "data/listing_gate.json",
+      "agent_ready": true,
+      "agent_blocked_by": [],
+      "blocked_by": [],
+      "public_ready": false,
+      "public_blocked_by": [
+        "legal_full"
+      ],
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": true,
+        "mode": "typesafe_observational_free_credits",
+        "source": "typesafe",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "review",
+        "legal_gate_advisory": "review",
+        "risk_level": "high",
+        "risk_points": 1,
+        "team_routes": [
+          "legal"
+        ],
+        "model_route": "human",
+        "model_route_confidence": 0.9,
+        "findings": [
+          "public blockers: legal_full"
+        ],
+        "confidence": 0.684,
+        "usage": {
+          "input_tokens": 1086,
+          "output_tokens": 198
+        },
+        "free_credits_only": true,
+        "risk_score": 1.56,
+        "model": "jev-1.13.0",
+        "state_signature": "a235a30f46906db0e3e7198e8f998dc4cfdaf92ceac3f46d1cef17739f39ea0f",
+        "decided_at": "2026-09-30T08:06:28.445174+00:00"
+      },
+      "gate_generated_at": "2026-09-30T08:06:29.140965+00:00"
     },
     {
       "rank": 5,
@@ -304,11 +300,11 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "review",
+        "grade_advisory": "hold",
         "legal_gate_advisory": "review",
         "risk_level": "high",
         "risk_points": 1,
@@ -320,7 +316,7 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.708,
+        "confidence": 0.704,
         "usage": {
           "input_tokens": 1097,
           "output_tokens": 198
@@ -329,10 +325,9 @@
         "risk_score": 1.66,
         "model": "jev-1.13.0",
         "state_signature": "a235a30f46906db0e3e7198e8f998dc4cfdaf92ceac3f46d1cef17739f39ea0f",
-        "decided_at": "2026-09-30T01:13:30.466923+00:00",
-        "carried_from": "2026-09-30T01:13:30.466923+00:00"
+        "decided_at": "2026-09-30T08:06:28.563185+00:00"
       },
-      "gate_generated_at": "2026-09-30T03:51:09.923214+00:00"
+      "gate_generated_at": "2026-09-30T08:06:29.140965+00:00"
     },
     {
       "rank": 6,
@@ -346,17 +341,17 @@
       "s_rule": "ingredient+form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1075857",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260205/Cg7pPAF0QMRSGGKdsWZw1075857_00_01Cg7pPAF0QMRSGGKdsWZw.jpg",
-      "recommend_reason": "글로벌 'Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 65% · 토큰 cream, pdrn",
+      "recommend_reason": "글로벌 'Lacto-PDRN 4% + B9 Eye Cream' (ulta_beauty) 유사 68% · 토큰 cream, pdrn",
       "matched_global": {
-        "channel": "oliveyoung_us",
-        "global_product": "Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
-        "similarity": 0.653,
-        "demand_weight": 0.49,
+        "channel": "ulta_beauty",
+        "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+        "similarity": 0.68,
+        "demand_weight": 0.425,
         "matched_tokens": [
           "cream",
           "pdrn"
         ],
-        "match_score": 0.32
+        "match_score": 0.289
       },
       "registerable": true,
       "registerable_source": "data/listing_gate.json",
@@ -370,11 +365,11 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "hold",
+        "grade_advisory": "review",
         "legal_gate_advisory": "review",
         "risk_level": "high",
         "risk_points": 1,
@@ -382,23 +377,22 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.91,
+        "model_route_confidence": 0.92,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.7,
+        "confidence": 0.676,
         "usage": {
           "input_tokens": 1089,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.65,
+        "risk_score": 1.5,
         "model": "jev-1.13.0",
         "state_signature": "9cd2800fc8d4cac3636219a503b910fbb2b0924bd299e98e77065bc73dc4dcbb",
-        "decided_at": "2026-09-30T01:13:30.599891+00:00",
-        "carried_from": "2026-09-30T01:13:30.599891+00:00"
+        "decided_at": "2026-09-30T08:06:28.667385+00:00"
       },
-      "gate_generated_at": "2026-09-30T03:51:09.923214+00:00"
+      "gate_generated_at": "2026-09-30T08:06:29.140965+00:00"
     },
     {
       "rank": 7,
@@ -436,11 +430,11 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "review",
+        "grade_advisory": "hold",
         "legal_gate_advisory": "review",
         "risk_level": "high",
         "risk_points": 1,
@@ -452,88 +446,21 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.7,
+        "confidence": 0.734,
         "usage": {
           "input_tokens": 1096,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.56,
+        "risk_score": 1.59,
         "model": "jev-1.13.0",
         "state_signature": "e05a0e27591e0c95f4d9b69ae7367544fdcdf352632872cce305bc9033dca5a5",
-        "decided_at": "2026-09-30T01:13:30.731132+00:00",
-        "carried_from": "2026-09-30T01:13:30.731132+00:00"
+        "decided_at": "2026-09-30T08:06:28.774438+00:00"
       },
-      "gate_generated_at": "2026-09-30T03:51:09.923214+00:00"
+      "gate_generated_at": "2026-09-30T08:06:29.140965+00:00"
     },
     {
       "rank": 8,
-      "canonical_product_id": "CP000151",
-      "pd_no": "1059834",
-      "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-      "bucket": "마스크팩",
-      "price_krw": 2000,
-      "shopify_score": 90,
-      "grade": "S",
-      "s_rule": "ingredient+form",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250429/dEtwcu53V3cOWvQ0SnSL1059834_00_01dEtwcu53V3cOWvQ0SnSL.jpg",
-      "recommend_reason": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 88% · 토큰 collagen, mask",
-      "matched_global": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Biodance Bio-Collagen Real Deep Mask",
-        "similarity": 0.88,
-        "demand_weight": 0.6,
-        "matched_tokens": [
-          "collagen",
-          "mask"
-        ],
-        "match_score": 0.528
-      },
-      "registerable": true,
-      "registerable_source": "data/listing_gate.json",
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "blocked_by": [],
-      "public_ready": false,
-      "public_blocked_by": [
-        "legal_full"
-      ],
-      "typesafe": {
-        "framework": "typesafe_system_one_compatible",
-        "enabled": true,
-        "mode": "typesafe_carried",
-        "source": "typesafe",
-        "paid_api_called": false,
-        "enforced": false,
-        "grade_advisory": "hold",
-        "legal_gate_advisory": "review",
-        "risk_level": "medium",
-        "risk_points": 1,
-        "team_routes": [
-          "legal"
-        ],
-        "model_route": "human",
-        "model_route_confidence": 0.93,
-        "findings": [
-          "public blockers: legal_full"
-        ],
-        "confidence": 0.706,
-        "usage": {
-          "input_tokens": 1094,
-          "output_tokens": 198
-        },
-        "free_credits_only": true,
-        "risk_score": 1.48,
-        "model": "jev-1.13.0",
-        "state_signature": "72531625bdb11b67ee797df5b076b36210e54f4a386ed65f9afe25a575270ba5",
-        "decided_at": "2026-09-30T01:13:30.826531+00:00",
-        "carried_from": "2026-09-30T01:13:30.826531+00:00"
-      },
-      "gate_generated_at": "2026-09-30T03:51:09.923214+00:00"
-    },
-    {
-      "rank": 9,
       "canonical_product_id": "CP000038",
       "pd_no": "1027327",
       "name": "바세린 마스크팩 집중보습",
@@ -578,7 +505,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -591,49 +518,48 @@
           "listing"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.9,
+        "model_route_confidence": 0.92,
         "findings": [
           "draft blockers: copy, us_label, legal",
           "public blockers: copy, us_label, legal, legal_full",
           "legal hard block"
         ],
-        "confidence": 0.91,
+        "confidence": 0.9,
         "usage": {
           "input_tokens": 1113,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 2.7,
+        "risk_score": 2.65,
         "model": "jev-1.13.0",
         "state_signature": "6a8717070ad2bca1105bb9417b1c344a694d4ce599eb319fe88ce4fd91ae93ff",
-        "decided_at": "2026-09-30T01:13:30.930169+00:00",
-        "carried_from": "2026-09-30T01:13:30.930169+00:00"
+        "decided_at": "2026-09-30T08:06:28.912630+00:00"
       },
-      "gate_generated_at": "2026-09-30T03:51:09.923214+00:00"
+      "gate_generated_at": "2026-09-30T08:06:29.140965+00:00"
     },
     {
-      "rank": 10,
-      "canonical_product_id": "CP000125",
-      "pd_no": "1053482",
-      "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 86,
+      "rank": 9,
+      "canonical_product_id": "CP000151",
+      "pd_no": "1059834",
+      "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+      "bucket": "마스크팩",
+      "price_krw": 2000,
+      "shopify_score": 87,
       "grade": "S",
-      "s_rule": "multi_token",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1053482",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/S3WHamdJK4z5s7WVkYus1053482_00_00S3WHamdJK4z5s7WVkYus.jpg",
-      "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 60% · 토큰 calming, toner",
+      "s_rule": "ingredient+form",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250429/dEtwcu53V3cOWvQ0SnSL1059834_00_01dEtwcu53V3cOWvQ0SnSL.jpg",
+      "recommend_reason": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 88% · 토큰 collagen, mask",
       "matched_global": {
         "channel": "tiktok_shop_us",
-        "global_product": "ANUA Heartleaf 77 Soothing Toner",
-        "similarity": 0.6,
-        "demand_weight": 0.95,
+        "global_product": "Biodance Bio-Collagen Real Deep Mask",
+        "similarity": 0.88,
+        "demand_weight": 0.6,
         "matched_tokens": [
-          "calming",
-          "toner"
+          "collagen",
+          "mask"
         ],
-        "match_score": 0.57
+        "match_score": 0.528
       },
       "registerable": true,
       "registerable_source": "data/listing_gate.json",
@@ -647,7 +573,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -659,23 +585,87 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.94,
+        "model_route_confidence": 0.93,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.7,
+        "confidence": 0.69,
         "usage": {
-          "input_tokens": 1097,
+          "input_tokens": 1094,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.56,
+        "risk_score": 1.51,
         "model": "jev-1.13.0",
-        "state_signature": "567e5d2b0760589d9239f3afb50a6bf184726911f277cecd34da4511b62b460b",
-        "decided_at": "2026-09-30T01:13:31.053522+00:00",
-        "carried_from": "2026-09-30T01:13:31.053522+00:00"
+        "state_signature": "5d0f8517eb6d26b1be383ef5a31674ecba4cd3d16ebf65891ec60cb2c9634685",
+        "decided_at": "2026-09-30T08:06:29.013877+00:00"
       },
-      "gate_generated_at": "2026-09-30T03:51:09.923214+00:00"
+      "gate_generated_at": "2026-09-30T08:06:29.140965+00:00"
+    },
+    {
+      "rank": 10,
+      "canonical_product_id": "CP000075",
+      "pd_no": "1042619",
+      "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
+      "bucket": "마스크팩",
+      "price_krw": 1000,
+      "shopify_score": 85,
+      "grade": "S",
+      "s_rule": "ingredient+form",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240109/8IB1YBxg81UqZXiKzXFM1042619_00_008IB1YBxg81UqZXiKzXFM.jpg",
+      "recommend_reason": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 68% · 토큰 collagen, mask",
+      "matched_global": {
+        "channel": "tiktok_shop_us",
+        "global_product": "Biodance Bio-Collagen Real Deep Mask",
+        "similarity": 0.68,
+        "demand_weight": 0.6,
+        "matched_tokens": [
+          "collagen",
+          "mask"
+        ],
+        "match_score": 0.408
+      },
+      "registerable": true,
+      "registerable_source": "data/listing_gate.json",
+      "agent_ready": true,
+      "agent_blocked_by": [],
+      "blocked_by": [],
+      "public_ready": false,
+      "public_blocked_by": [
+        "legal_full"
+      ],
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": true,
+        "mode": "typesafe_observational_free_credits",
+        "source": "typesafe",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "review",
+        "legal_gate_advisory": "review",
+        "risk_level": "medium",
+        "risk_points": 2,
+        "team_routes": [
+          "legal"
+        ],
+        "model_route": "human",
+        "model_route_confidence": 0.9,
+        "findings": [
+          "public blockers: legal_full"
+        ],
+        "confidence": 0.716,
+        "usage": {
+          "input_tokens": 1091,
+          "output_tokens": 198
+        },
+        "free_credits_only": true,
+        "risk_score": 1.49,
+        "model": "jev-1.13.0",
+        "state_signature": "5e2f905da436816b542b94ec498c05c939ebf779832f7f7ab48cf741dc0a99c4",
+        "decided_at": "2026-09-30T08:06:29.140928+00:00"
+      },
+      "gate_generated_at": "2026-09-30T08:06:29.140965+00:00"
     }
   ],
   "agent_ready_count": 9,
