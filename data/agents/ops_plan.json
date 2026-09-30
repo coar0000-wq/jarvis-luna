@@ -1,6 +1,6 @@
 {
   "agent": "Ops-Prioritizer",
-  "generated_at": "2026-09-30T20:46:51.326716+00:00",
+  "generated_at": "2026-09-30T21:56:22.699262+00:00",
   "risk": "medium",
   "task_count": 5,
   "tasks": [
@@ -27,7 +27,7 @@
     {
       "priority": 4,
       "title": "팀 자동조치 감시 · 상품 소싱팀",
-      "detail": "다이소 수집이 1.8일째 발행되지 않음 (마지막 수집 2026-09-29) · Daiso Real Product Collection 실행 결과 확인",
+      "detail": "다이소 수집이 1.9일째 발행되지 않음 (마지막 수집 2026-09-29) · Daiso Real Product Collection 실행 결과 확인",
       "refs": [
         "data/dashboard_runtime.json",
         "data/agents/remediation_state.json"
@@ -37,7 +37,7 @@
     {
       "priority": 4,
       "title": "팀 자동조치 감시 · 마케팅 조사팀",
-      "detail": "고시 표 1건 판독 남음 — 1067500 [이중턱리프팅]VT PDRN 광채 [전성분,용량,제조사,원산지 · 고시 대상 미생성, 다음 2시간 회차에서 자동 수집] https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067500",
+      "detail": "고시 표 1건 판독 남음 — 1067500 [이중턱리프팅]VT PDRN 광채 [전성분,제조사 · groq meta-llama/llama-4-scout-17b-16e-instruct HTTP 403: error code: 1] https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1",
       "refs": [
         "data/dashboard_runtime.json",
         "data/agents/remediation_state.json"
@@ -69,11 +69,11 @@
       },
       {
         "n": 3,
-        "text": "팀 자동조치 감시 · 상품 소싱팀 — 다이소 수집이 1.8일째 발행되지 않음 (마지막 수집 2026-09-29) · Daiso Real Product Collection 실행 결과 "
+        "text": "팀 자동조치 감시 · 상품 소싱팀 — 다이소 수집이 1.9일째 발행되지 않음 (마지막 수집 2026-09-29) · Daiso Real Product Collection 실행 결과 "
       },
       {
         "n": 4,
-        "text": "팀 자동조치 감시 · 마케팅 조사팀 — 고시 표 1건 판독 남음 — 1067500 [이중턱리프팅]VT PDRN 광채 [전성분,용량,제조사,원산지 · 고시 대상 미생성, 다음 2시간 회"
+        "text": "팀 자동조치 감시 · 마케팅 조사팀 — 고시 표 1건 판독 남음 — 1067500 [이중턱리프팅]VT PDRN 광채 [전성분,제조사 · groq meta-llama/llama-4-sc"
       },
       {
         "n": 5,
