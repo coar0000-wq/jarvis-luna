@@ -2,7 +2,7 @@
 title: "Record c41fa2957d · Observability-for-Delegated-Execution-in-Agentic-AI-Systems"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:43.587865+00:00
+updated_at: 2026-09-30T20:46:42.950276+00:00
 tags: [record, real-data]
 ---
 

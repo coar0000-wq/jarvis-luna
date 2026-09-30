@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T14:49:28.057253+00:00",
+  "generated_at": "2026-09-30T20:42:52.911422+00:00",
   "exchange_rate": {
     "usd_to_krw": 1355.4,
     "as_of": "2026-09-30",
@@ -21,10 +21,10 @@
     ]
   },
   "market_benchmark": {
-    "min": 2.8,
-    "p25": 17.99,
+    "min": 8.9,
+    "p25": 18.0,
     "median": 22.49,
-    "max": 65.3,
+    "max": 279.0,
     "n": 100,
     "source": "us.oliveyoung.com/best-sellers 실수집 100건 (2026-09-30)"
   },
@@ -107,6 +107,21 @@
         "block_reason": ""
       },
       {
+        "pd_no": "1067500",
+        "name": "[이중턱리프팅]VT PDRN 광채리프팅마스크 1매 27 g+광채에센스 1.5 ml",
+        "qty": 1,
+        "price_usd": 22.99,
+        "unit_price_usd": 22.99,
+        "landed_cost_total_usd": 7.9,
+        "fee_usd": 1.7,
+        "net_profit_usd": 13.39,
+        "margin_pct": 58.2,
+        "market_median_usd": 22.49,
+        "market_price_source": "oliveyoung_us_benchmark",
+        "register_blocked": false,
+        "block_reason": ""
+      },
+      {
         "pd_no": "1075857",
         "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
         "qty": 1,
@@ -137,6 +152,21 @@
         "block_reason": ""
       },
       {
+        "pd_no": "1059834",
+        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "qty": 1,
+        "price_usd": 22.99,
+        "unit_price_usd": 22.99,
+        "landed_cost_total_usd": 7.9,
+        "fee_usd": 1.7,
+        "net_profit_usd": 13.39,
+        "margin_pct": 58.2,
+        "market_median_usd": 22.49,
+        "market_price_source": "oliveyoung_us_benchmark",
+        "register_blocked": false,
+        "block_reason": ""
+      },
+      {
         "pd_no": "1027327",
         "name": "바세린 마스크팩 집중보습",
         "qty": 1,
@@ -148,36 +178,6 @@
         "margin_pct": 55.5,
         "market_median_usd": 19.2,
         "market_price_source": "serpapi_google_shopping",
-        "register_blocked": false,
-        "block_reason": ""
-      },
-      {
-        "pd_no": "1042619",
-        "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
-        "qty": 1,
-        "price_usd": 22.99,
-        "unit_price_usd": 22.99,
-        "landed_cost_total_usd": 7.05,
-        "fee_usd": 1.7,
-        "net_profit_usd": 14.24,
-        "margin_pct": 61.9,
-        "market_median_usd": 22.49,
-        "market_price_source": "oliveyoung_us_benchmark",
-        "register_blocked": false,
-        "block_reason": ""
-      },
-      {
-        "pd_no": "1060489",
-        "name": "메디필 시카 쿨링 진정 랩핑 마스크 4 ml 4개입",
-        "qty": 1,
-        "price_usd": 22.99,
-        "unit_price_usd": 22.99,
-        "landed_cost_total_usd": 8.75,
-        "fee_usd": 1.7,
-        "net_profit_usd": 12.54,
-        "margin_pct": 54.5,
-        "market_median_usd": 22.49,
-        "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
       }
@@ -259,6 +259,21 @@
         "block_reason": ""
       },
       {
+        "pd_no": "1067500",
+        "name": "[이중턱리프팅]VT PDRN 광채리프팅마스크 1매 27 g+광채에센스 1.5 ml",
+        "qty": 2,
+        "price_usd": 38.99,
+        "unit_price_usd": 19.5,
+        "landed_cost_total_usd": 10.34,
+        "fee_usd": 2.89,
+        "net_profit_usd": 25.76,
+        "margin_pct": 66.1,
+        "market_median_usd": 22.49,
+        "market_price_source": "oliveyoung_us_benchmark",
+        "register_blocked": false,
+        "block_reason": ""
+      },
+      {
         "pd_no": "1075857",
         "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
         "qty": 2,
@@ -289,6 +304,21 @@
         "block_reason": ""
       },
       {
+        "pd_no": "1059834",
+        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "qty": 2,
+        "price_usd": 38.99,
+        "unit_price_usd": 19.5,
+        "landed_cost_total_usd": 10.34,
+        "fee_usd": 2.89,
+        "net_profit_usd": 25.76,
+        "margin_pct": 66.1,
+        "market_median_usd": 22.49,
+        "market_price_source": "oliveyoung_us_benchmark",
+        "register_blocked": false,
+        "block_reason": ""
+      },
+      {
         "pd_no": "1027327",
         "name": "바세린 마스크팩 집중보습",
         "qty": 2,
@@ -300,36 +330,6 @@
         "margin_pct": 65.6,
         "market_median_usd": 19.2,
         "market_price_source": "serpapi_google_shopping",
-        "register_blocked": false,
-        "block_reason": ""
-      },
-      {
-        "pd_no": "1042619",
-        "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
-        "qty": 2,
-        "price_usd": 38.99,
-        "unit_price_usd": 19.5,
-        "landed_cost_total_usd": 8.64,
-        "fee_usd": 2.89,
-        "net_profit_usd": 27.46,
-        "margin_pct": 70.4,
-        "market_median_usd": 22.49,
-        "market_price_source": "oliveyoung_us_benchmark",
-        "register_blocked": false,
-        "block_reason": ""
-      },
-      {
-        "pd_no": "1060489",
-        "name": "메디필 시카 쿨링 진정 랩핑 마스크 4 ml 4개입",
-        "qty": 2,
-        "price_usd": 38.99,
-        "unit_price_usd": 19.5,
-        "landed_cost_total_usd": 11.3,
-        "fee_usd": 2.89,
-        "net_profit_usd": 24.8,
-        "margin_pct": 63.6,
-        "market_median_usd": 22.49,
-        "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
       }
@@ -372,11 +372,11 @@
       "discount_pct": 15,
       "price_usd": 32.99,
       "unit_price_usd": 16.5,
-      "landed_cost_total_usd": 12.14,
-      "shipping_in_cost_usd": 6.87,
+      "landed_cost_total_usd": 12.21,
+      "shipping_in_cost_usd": 6.95,
       "fee_usd": 2.44,
-      "net_profit_usd": 18.41,
-      "margin_pct": 55.8,
+      "net_profit_usd": 18.34,
+      "margin_pct": 55.6,
       "free_shipping": true,
       "orders_for_500usd": 27,
       "price_basis": "상품별 권장가의 중앙값",
@@ -419,9 +419,9 @@
           "margin_pct": -87.1
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 7.91,
+          "profit": 7.92,
           "margin_pct": 44.0
         },
         "at_market_median": {
@@ -467,10 +467,10 @@
           "margin_pct": -36.1
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 6.21,
-          "margin_pct": 34.5
+          "profit": 6.22,
+          "margin_pct": 34.6
         },
         "at_market_median": {
           "sell": 22.49,
@@ -515,9 +515,9 @@
           "margin_pct": -87.1
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 7.91,
+          "profit": 7.92,
           "margin_pct": 44.0
         },
         "at_market_median": {
@@ -563,9 +563,9 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 5.47,
+          "profit": 5.48,
           "margin_pct": 30.4
         },
         "at_market_median": {
@@ -611,9 +611,9 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 5.47,
+          "profit": 5.48,
           "margin_pct": 30.4
         },
         "at_market_median": {
@@ -631,6 +631,49 @@
           "profit": 3.08,
           "margin_pct": 20.0
         }
+      },
+      {
+        "pd_no": "1067500",
+        "name": "[이중턱리프팅]VT PDRN 광채리프팅마스크 1매 27 g+광채에센스 1.5 ml",
+        "bucket": "마스크팩",
+        "shopify_score": 95,
+        "price_krw": 2000,
+        "weight_g_est": 83,
+        "weight_note": "27g x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": false,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 6.2,
+        "shipping_order_usd": 6.2,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 7.9,
+        "landed_cost_ddu_usd": 7.9,
+        "landed_cost_ddp_usd": 7.68,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 8.53,
+        "at_2_2x": {
+          "sell": 3.25,
+          "fee": 0.24,
+          "profit": -4.9,
+          "margin_pct": -150.8
+        },
+        "at_market_p25": {
+          "sell": 18.0,
+          "fee": 1.33,
+          "profit": 8.77,
+          "margin_pct": 48.7
+        },
+        "at_market_median": {
+          "sell": 22.49,
+          "fee": 1.66,
+          "profit": 12.92,
+          "margin_pct": 57.5
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 22.49,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1075857",
@@ -659,9 +702,9 @@
           "margin_pct": -150.8
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 8.76,
+          "profit": 8.77,
           "margin_pct": 48.7
         },
         "at_market_median": {
@@ -684,7 +727,7 @@
         "pd_no": "1049285",
         "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
         "bucket": "스킨케어",
-        "shopify_score": 93,
+        "shopify_score": 92,
         "price_krw": 3000,
         "weight_g_est": 46,
         "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
@@ -707,9 +750,9 @@
           "margin_pct": -87.1
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 7.91,
+          "profit": 7.92,
           "margin_pct": 44.0
         },
         "at_market_median": {
@@ -727,6 +770,49 @@
           "profit": 9.76,
           "margin_pct": 48.8
         }
+      },
+      {
+        "pd_no": "1059834",
+        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "bucket": "마스크팩",
+        "shopify_score": 89,
+        "price_krw": 2000,
+        "weight_g_est": 85,
+        "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": true,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 6.2,
+        "shipping_order_usd": 6.2,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 7.9,
+        "landed_cost_ddu_usd": 7.9,
+        "landed_cost_ddp_usd": 7.68,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 8.53,
+        "at_2_2x": {
+          "sell": 3.25,
+          "fee": 0.24,
+          "profit": -4.9,
+          "margin_pct": -150.8
+        },
+        "at_market_p25": {
+          "sell": 18.0,
+          "fee": 1.33,
+          "profit": 8.77,
+          "margin_pct": 48.7
+        },
+        "at_market_median": {
+          "sell": 22.49,
+          "fee": 1.66,
+          "profit": 12.92,
+          "margin_pct": 57.5
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 22.49,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1027327",
@@ -755,7 +841,7 @@
           "margin_pct": -341.9
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
           "profit": 9.61,
           "margin_pct": 53.4
@@ -775,92 +861,6 @@
           "profit": 10.73,
           "margin_pct": 55.9
         }
-      },
-      {
-        "pd_no": "1042619",
-        "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
-        "bucket": "마스크팩",
-        "shopify_score": 88,
-        "price_krw": 1000,
-        "weight_g_est": 86,
-        "weight_note": "고시 용량 29g x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": true,
-        "unit_cost_usd": 0.74,
-        "shipping_unit_usd": 6.2,
-        "shipping_order_usd": 6.2,
-        "tariff_usd": 0.11,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 7.05,
-        "landed_cost_ddu_usd": 7.05,
-        "landed_cost_ddp_usd": 6.94,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 7.62,
-        "at_2_2x": {
-          "sell": 1.62,
-          "fee": 0.12,
-          "profit": -5.55,
-          "margin_pct": -341.9
-        },
-        "at_market_p25": {
-          "sell": 17.99,
-          "fee": 1.33,
-          "profit": 9.61,
-          "margin_pct": 53.4
-        },
-        "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 13.77,
-          "margin_pct": 61.2
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 22.49,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1060489",
-        "name": "메디필 시카 쿨링 진정 랩핑 마스크 4 ml 4개입",
-        "bucket": "마스크팩",
-        "shopify_score": 87,
-        "price_krw": 3000,
-        "weight_g_est": 46,
-        "weight_note": "고시 용량 4ml, 0.13oz x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 2.21,
-        "shipping_unit_usd": 6.2,
-        "shipping_order_usd": 6.2,
-        "tariff_usd": 0.33,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 8.75,
-        "landed_cost_ddu_usd": 8.75,
-        "landed_cost_ddp_usd": 8.42,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 9.45,
-        "at_2_2x": {
-          "sell": 4.87,
-          "fee": 0.36,
-          "profit": -4.24,
-          "margin_pct": -87.1
-        },
-        "at_market_p25": {
-          "sell": 17.99,
-          "fee": 1.33,
-          "profit": 7.91,
-          "margin_pct": 44.0
-        },
-        "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 12.08,
-          "margin_pct": 53.7
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 22.49,
-        "market_sample_n": 100,
-        "at_product_market": null
       }
     ],
     "2개_묶음배송": [
@@ -891,9 +891,9 @@
           "margin_pct": -23.4
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 11.01,
+          "profit": 11.02,
           "margin_pct": 61.2
         },
         "at_market_median": {
@@ -939,9 +939,9 @@
           "margin_pct": -2.5
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 8.94,
+          "profit": 8.95,
           "margin_pct": 49.7
         },
         "at_market_median": {
@@ -987,9 +987,9 @@
           "margin_pct": -23.4
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 11.01,
+          "profit": 11.02,
           "margin_pct": 61.2
         },
         "at_market_median": {
@@ -1035,10 +1035,10 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 8.57,
-          "margin_pct": 47.6
+          "profit": 8.58,
+          "margin_pct": 47.7
         },
         "at_market_median": {
           "sell": 22.49,
@@ -1083,9 +1083,9 @@
           "margin_pct": -11.7
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 8.2,
+          "profit": 8.21,
           "margin_pct": 45.6
         },
         "at_market_median": {
@@ -1103,6 +1103,49 @@
           "profit": 5.81,
           "margin_pct": 37.7
         }
+      },
+      {
+        "pd_no": "1067500",
+        "name": "[이중턱리프팅]VT PDRN 광채리프팅마스크 1매 27 g+광채에센스 1.5 ml",
+        "bucket": "마스크팩",
+        "shopify_score": 95,
+        "price_krw": 2000,
+        "weight_g_est": 83,
+        "weight_note": "27g x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": false,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 3.47,
+        "shipping_order_usd": 6.95,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 5.17,
+        "landed_cost_ddu_usd": 5.17,
+        "landed_cost_ddp_usd": 4.95,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 5.59,
+        "at_2_2x": {
+          "sell": 3.25,
+          "fee": 0.24,
+          "profit": -2.17,
+          "margin_pct": -66.7
+        },
+        "at_market_p25": {
+          "sell": 18.0,
+          "fee": 1.33,
+          "profit": 11.5,
+          "margin_pct": 63.9
+        },
+        "at_market_median": {
+          "sell": 22.49,
+          "fee": 1.66,
+          "profit": 15.65,
+          "margin_pct": 69.6
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 22.49,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1075857",
@@ -1131,9 +1174,9 @@
           "margin_pct": -66.7
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 11.49,
+          "profit": 11.5,
           "margin_pct": 63.9
         },
         "at_market_median": {
@@ -1156,7 +1199,7 @@
         "pd_no": "1049285",
         "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
         "bucket": "스킨케어",
-        "shopify_score": 93,
+        "shopify_score": 92,
         "price_krw": 3000,
         "weight_g_est": 46,
         "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
@@ -1179,9 +1222,9 @@
           "margin_pct": -23.4
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 11.01,
+          "profit": 11.02,
           "margin_pct": 61.2
         },
         "at_market_median": {
@@ -1199,6 +1242,49 @@
           "profit": 12.86,
           "margin_pct": 64.3
         }
+      },
+      {
+        "pd_no": "1059834",
+        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "bucket": "마스크팩",
+        "shopify_score": 89,
+        "price_krw": 2000,
+        "weight_g_est": 85,
+        "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": true,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 3.47,
+        "shipping_order_usd": 6.95,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 5.17,
+        "landed_cost_ddu_usd": 5.17,
+        "landed_cost_ddp_usd": 4.95,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 5.59,
+        "at_2_2x": {
+          "sell": 3.25,
+          "fee": 0.24,
+          "profit": -2.17,
+          "margin_pct": -66.7
+        },
+        "at_market_p25": {
+          "sell": 18.0,
+          "fee": 1.33,
+          "profit": 11.5,
+          "margin_pct": 63.9
+        },
+        "at_market_median": {
+          "sell": 22.49,
+          "fee": 1.66,
+          "profit": 15.65,
+          "margin_pct": 69.6
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 22.49,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1027327",
@@ -1227,7 +1313,7 @@
           "margin_pct": -173.8
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
           "profit": 12.34,
           "margin_pct": 68.6
@@ -1247,92 +1333,6 @@
           "profit": 13.46,
           "margin_pct": 70.1
         }
-      },
-      {
-        "pd_no": "1042619",
-        "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
-        "bucket": "마스크팩",
-        "shopify_score": 88,
-        "price_krw": 1000,
-        "weight_g_est": 86,
-        "weight_note": "고시 용량 29g x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": true,
-        "unit_cost_usd": 0.74,
-        "shipping_unit_usd": 3.47,
-        "shipping_order_usd": 6.95,
-        "tariff_usd": 0.11,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 4.32,
-        "landed_cost_ddu_usd": 4.32,
-        "landed_cost_ddp_usd": 4.21,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 4.67,
-        "at_2_2x": {
-          "sell": 1.62,
-          "fee": 0.12,
-          "profit": -2.82,
-          "margin_pct": -173.8
-        },
-        "at_market_p25": {
-          "sell": 17.99,
-          "fee": 1.33,
-          "profit": 12.34,
-          "margin_pct": 68.6
-        },
-        "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 16.5,
-          "margin_pct": 73.4
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 22.49,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1060489",
-        "name": "메디필 시카 쿨링 진정 랩핑 마스크 4 ml 4개입",
-        "bucket": "마스크팩",
-        "shopify_score": 87,
-        "price_krw": 3000,
-        "weight_g_est": 46,
-        "weight_note": "고시 용량 4ml, 0.13oz x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 2.21,
-        "shipping_unit_usd": 3.1,
-        "shipping_order_usd": 6.2,
-        "tariff_usd": 0.33,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 5.65,
-        "landed_cost_ddu_usd": 5.65,
-        "landed_cost_ddp_usd": 5.32,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 6.1,
-        "at_2_2x": {
-          "sell": 4.87,
-          "fee": 0.36,
-          "profit": -1.14,
-          "margin_pct": -23.4
-        },
-        "at_market_p25": {
-          "sell": 17.99,
-          "fee": 1.33,
-          "profit": 11.01,
-          "margin_pct": 61.2
-        },
-        "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 15.18,
-          "margin_pct": 67.5
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 22.49,
-        "market_sample_n": 100,
-        "at_product_market": null
       }
     ]
   },
@@ -1365,9 +1365,9 @@
           "margin_pct": -87.1
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 7.91,
+          "profit": 7.92,
           "margin_pct": 44.0
         },
         "at_market_median": {
@@ -1413,10 +1413,10 @@
           "margin_pct": -36.1
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 6.21,
-          "margin_pct": 34.5
+          "profit": 6.22,
+          "margin_pct": 34.6
         },
         "at_market_median": {
           "sell": 22.49,
@@ -1461,9 +1461,9 @@
           "margin_pct": -87.1
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 7.91,
+          "profit": 7.92,
           "margin_pct": 44.0
         },
         "at_market_median": {
@@ -1509,9 +1509,9 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 5.47,
+          "profit": 5.48,
           "margin_pct": 30.4
         },
         "at_market_median": {
@@ -1557,9 +1557,9 @@
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 5.47,
+          "profit": 5.48,
           "margin_pct": 30.4
         },
         "at_market_median": {
@@ -1577,6 +1577,49 @@
           "profit": 3.08,
           "margin_pct": 20.0
         }
+      },
+      {
+        "pd_no": "1067500",
+        "name": "[이중턱리프팅]VT PDRN 광채리프팅마스크 1매 27 g+광채에센스 1.5 ml",
+        "bucket": "마스크팩",
+        "shopify_score": 95,
+        "price_krw": 2000,
+        "weight_g_est": 83,
+        "weight_note": "27g x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": false,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 6.2,
+        "shipping_order_usd": 6.2,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 7.9,
+        "landed_cost_ddu_usd": 7.9,
+        "landed_cost_ddp_usd": 7.68,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 8.53,
+        "at_2_2x": {
+          "sell": 3.25,
+          "fee": 0.24,
+          "profit": -4.9,
+          "margin_pct": -150.8
+        },
+        "at_market_p25": {
+          "sell": 18.0,
+          "fee": 1.33,
+          "profit": 8.77,
+          "margin_pct": 48.7
+        },
+        "at_market_median": {
+          "sell": 22.49,
+          "fee": 1.66,
+          "profit": 12.92,
+          "margin_pct": 57.5
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 22.49,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1075857",
@@ -1605,9 +1648,9 @@
           "margin_pct": -150.8
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 8.76,
+          "profit": 8.77,
           "margin_pct": 48.7
         },
         "at_market_median": {
@@ -1630,7 +1673,7 @@
         "pd_no": "1049285",
         "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
         "bucket": "스킨케어",
-        "shopify_score": 93,
+        "shopify_score": 92,
         "price_krw": 3000,
         "weight_g_est": 46,
         "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
@@ -1653,9 +1696,9 @@
           "margin_pct": -87.1
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 7.91,
+          "profit": 7.92,
           "margin_pct": 44.0
         },
         "at_market_median": {
@@ -1673,6 +1716,49 @@
           "profit": 9.76,
           "margin_pct": 48.8
         }
+      },
+      {
+        "pd_no": "1059834",
+        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "bucket": "마스크팩",
+        "shopify_score": 89,
+        "price_krw": 2000,
+        "weight_g_est": 85,
+        "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": true,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 6.2,
+        "shipping_order_usd": 6.2,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 7.9,
+        "landed_cost_ddu_usd": 7.9,
+        "landed_cost_ddp_usd": 7.68,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 8.53,
+        "at_2_2x": {
+          "sell": 3.25,
+          "fee": 0.24,
+          "profit": -4.9,
+          "margin_pct": -150.8
+        },
+        "at_market_p25": {
+          "sell": 18.0,
+          "fee": 1.33,
+          "profit": 8.77,
+          "margin_pct": 48.7
+        },
+        "at_market_median": {
+          "sell": 22.49,
+          "fee": 1.66,
+          "profit": 12.92,
+          "margin_pct": 57.5
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 22.49,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1027327",
@@ -1701,7 +1787,7 @@
           "margin_pct": -341.9
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
           "profit": 9.61,
           "margin_pct": 53.4
@@ -1721,92 +1807,6 @@
           "profit": 10.73,
           "margin_pct": 55.9
         }
-      },
-      {
-        "pd_no": "1042619",
-        "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
-        "bucket": "마스크팩",
-        "shopify_score": 88,
-        "price_krw": 1000,
-        "weight_g_est": 86,
-        "weight_note": "고시 용량 29g x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": true,
-        "unit_cost_usd": 0.74,
-        "shipping_unit_usd": 6.2,
-        "shipping_order_usd": 6.2,
-        "tariff_usd": 0.11,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 7.05,
-        "landed_cost_ddu_usd": 7.05,
-        "landed_cost_ddp_usd": 6.94,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 7.62,
-        "at_2_2x": {
-          "sell": 1.62,
-          "fee": 0.12,
-          "profit": -5.55,
-          "margin_pct": -341.9
-        },
-        "at_market_p25": {
-          "sell": 17.99,
-          "fee": 1.33,
-          "profit": 9.61,
-          "margin_pct": 53.4
-        },
-        "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 13.77,
-          "margin_pct": 61.2
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 22.49,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1060489",
-        "name": "메디필 시카 쿨링 진정 랩핑 마스크 4 ml 4개입",
-        "bucket": "마스크팩",
-        "shopify_score": 87,
-        "price_krw": 3000,
-        "weight_g_est": 46,
-        "weight_note": "고시 용량 4ml, 0.13oz x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 2.21,
-        "shipping_unit_usd": 6.2,
-        "shipping_order_usd": 6.2,
-        "tariff_usd": 0.33,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 8.75,
-        "landed_cost_ddu_usd": 8.75,
-        "landed_cost_ddp_usd": 8.42,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 9.45,
-        "at_2_2x": {
-          "sell": 4.87,
-          "fee": 0.36,
-          "profit": -4.24,
-          "margin_pct": -87.1
-        },
-        "at_market_p25": {
-          "sell": 17.99,
-          "fee": 1.33,
-          "profit": 7.91,
-          "margin_pct": 44.0
-        },
-        "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 12.08,
-          "margin_pct": 53.7
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 22.49,
-        "market_sample_n": 100,
-        "at_product_market": null
       }
     ],
     "ddu_2개_묶음배송": [
@@ -1837,9 +1837,9 @@
           "margin_pct": -23.4
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 11.01,
+          "profit": 11.02,
           "margin_pct": 61.2
         },
         "at_market_median": {
@@ -1885,9 +1885,9 @@
           "margin_pct": -2.5
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 8.94,
+          "profit": 8.95,
           "margin_pct": 49.7
         },
         "at_market_median": {
@@ -1933,9 +1933,9 @@
           "margin_pct": -23.4
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 11.01,
+          "profit": 11.02,
           "margin_pct": 61.2
         },
         "at_market_median": {
@@ -1981,10 +1981,10 @@
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 8.57,
-          "margin_pct": 47.6
+          "profit": 8.58,
+          "margin_pct": 47.7
         },
         "at_market_median": {
           "sell": 22.49,
@@ -2029,9 +2029,9 @@
           "margin_pct": -11.7
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 8.2,
+          "profit": 8.21,
           "margin_pct": 45.6
         },
         "at_market_median": {
@@ -2049,6 +2049,49 @@
           "profit": 5.81,
           "margin_pct": 37.7
         }
+      },
+      {
+        "pd_no": "1067500",
+        "name": "[이중턱리프팅]VT PDRN 광채리프팅마스크 1매 27 g+광채에센스 1.5 ml",
+        "bucket": "마스크팩",
+        "shopify_score": 95,
+        "price_krw": 2000,
+        "weight_g_est": 83,
+        "weight_note": "27g x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": false,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 3.47,
+        "shipping_order_usd": 6.95,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 5.17,
+        "landed_cost_ddu_usd": 5.17,
+        "landed_cost_ddp_usd": 4.95,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 5.59,
+        "at_2_2x": {
+          "sell": 3.25,
+          "fee": 0.24,
+          "profit": -2.17,
+          "margin_pct": -66.7
+        },
+        "at_market_p25": {
+          "sell": 18.0,
+          "fee": 1.33,
+          "profit": 11.5,
+          "margin_pct": 63.9
+        },
+        "at_market_median": {
+          "sell": 22.49,
+          "fee": 1.66,
+          "profit": 15.65,
+          "margin_pct": 69.6
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 22.49,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1075857",
@@ -2077,9 +2120,9 @@
           "margin_pct": -66.7
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 11.49,
+          "profit": 11.5,
           "margin_pct": 63.9
         },
         "at_market_median": {
@@ -2102,7 +2145,7 @@
         "pd_no": "1049285",
         "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
         "bucket": "스킨케어",
-        "shopify_score": 93,
+        "shopify_score": 92,
         "price_krw": 3000,
         "weight_g_est": 46,
         "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
@@ -2125,9 +2168,9 @@
           "margin_pct": -23.4
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 11.01,
+          "profit": 11.02,
           "margin_pct": 61.2
         },
         "at_market_median": {
@@ -2145,6 +2188,49 @@
           "profit": 12.86,
           "margin_pct": 64.3
         }
+      },
+      {
+        "pd_no": "1059834",
+        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "bucket": "마스크팩",
+        "shopify_score": 89,
+        "price_krw": 2000,
+        "weight_g_est": 85,
+        "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": true,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 3.47,
+        "shipping_order_usd": 6.95,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 5.17,
+        "landed_cost_ddu_usd": 5.17,
+        "landed_cost_ddp_usd": 4.95,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 5.59,
+        "at_2_2x": {
+          "sell": 3.25,
+          "fee": 0.24,
+          "profit": -2.17,
+          "margin_pct": -66.7
+        },
+        "at_market_p25": {
+          "sell": 18.0,
+          "fee": 1.33,
+          "profit": 11.5,
+          "margin_pct": 63.9
+        },
+        "at_market_median": {
+          "sell": 22.49,
+          "fee": 1.66,
+          "profit": 15.65,
+          "margin_pct": 69.6
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 22.49,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1027327",
@@ -2173,7 +2259,7 @@
           "margin_pct": -173.8
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
           "profit": 12.34,
           "margin_pct": 68.6
@@ -2193,92 +2279,6 @@
           "profit": 13.46,
           "margin_pct": 70.1
         }
-      },
-      {
-        "pd_no": "1042619",
-        "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
-        "bucket": "마스크팩",
-        "shopify_score": 88,
-        "price_krw": 1000,
-        "weight_g_est": 86,
-        "weight_note": "고시 용량 29g x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": true,
-        "unit_cost_usd": 0.74,
-        "shipping_unit_usd": 3.47,
-        "shipping_order_usd": 6.95,
-        "tariff_usd": 0.11,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 4.32,
-        "landed_cost_ddu_usd": 4.32,
-        "landed_cost_ddp_usd": 4.21,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 4.67,
-        "at_2_2x": {
-          "sell": 1.62,
-          "fee": 0.12,
-          "profit": -2.82,
-          "margin_pct": -173.8
-        },
-        "at_market_p25": {
-          "sell": 17.99,
-          "fee": 1.33,
-          "profit": 12.34,
-          "margin_pct": 68.6
-        },
-        "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 16.5,
-          "margin_pct": 73.4
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 22.49,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1060489",
-        "name": "메디필 시카 쿨링 진정 랩핑 마스크 4 ml 4개입",
-        "bucket": "마스크팩",
-        "shopify_score": 87,
-        "price_krw": 3000,
-        "weight_g_est": 46,
-        "weight_note": "고시 용량 4ml, 0.13oz x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 2.21,
-        "shipping_unit_usd": 3.1,
-        "shipping_order_usd": 6.2,
-        "tariff_usd": 0.33,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 5.65,
-        "landed_cost_ddu_usd": 5.65,
-        "landed_cost_ddp_usd": 5.32,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 6.1,
-        "at_2_2x": {
-          "sell": 4.87,
-          "fee": 0.36,
-          "profit": -1.14,
-          "margin_pct": -23.4
-        },
-        "at_market_p25": {
-          "sell": 17.99,
-          "fee": 1.33,
-          "profit": 11.01,
-          "margin_pct": 61.2
-        },
-        "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 15.18,
-          "margin_pct": 67.5
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 22.49,
-        "market_sample_n": 100,
-        "at_product_market": null
       }
     ],
     "ddp_1개_묶음배송": [
@@ -2309,9 +2309,9 @@
           "margin_pct": -80.3
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 8.24,
+          "profit": 8.25,
           "margin_pct": 45.8
         },
         "at_market_median": {
@@ -2357,9 +2357,9 @@
           "margin_pct": -29.3
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 6.76,
+          "profit": 6.77,
           "margin_pct": 37.6
         },
         "at_market_median": {
@@ -2405,9 +2405,9 @@
           "margin_pct": -80.3
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 8.24,
+          "profit": 8.25,
           "margin_pct": 45.8
         },
         "at_market_median": {
@@ -2453,9 +2453,9 @@
           "margin_pct": -38.5
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 6.02,
+          "profit": 6.03,
           "margin_pct": 33.5
         },
         "at_market_median": {
@@ -2501,9 +2501,9 @@
           "margin_pct": -38.5
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 6.02,
+          "profit": 6.03,
           "margin_pct": 33.5
         },
         "at_market_median": {
@@ -2521,6 +2521,49 @@
           "profit": 3.63,
           "margin_pct": 23.6
         }
+      },
+      {
+        "pd_no": "1067500",
+        "name": "[이중턱리프팅]VT PDRN 광채리프팅마스크 1매 27 g+광채에센스 1.5 ml",
+        "bucket": "마스크팩",
+        "shopify_score": 95,
+        "price_krw": 2000,
+        "weight_g_est": 83,
+        "weight_note": "27g x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": false,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 6.2,
+        "shipping_order_usd": 6.2,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 7.68,
+        "landed_cost_ddu_usd": 7.9,
+        "landed_cost_ddp_usd": 7.68,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 8.29,
+        "at_2_2x": {
+          "sell": 3.25,
+          "fee": 0.24,
+          "profit": -4.67,
+          "margin_pct": -144.0
+        },
+        "at_market_p25": {
+          "sell": 18.0,
+          "fee": 1.33,
+          "profit": 8.99,
+          "margin_pct": 49.9
+        },
+        "at_market_median": {
+          "sell": 22.49,
+          "fee": 1.66,
+          "profit": 13.15,
+          "margin_pct": 58.4
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 22.49,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1075857",
@@ -2549,9 +2592,9 @@
           "margin_pct": -144.0
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 8.98,
+          "profit": 8.99,
           "margin_pct": 49.9
         },
         "at_market_median": {
@@ -2574,7 +2617,7 @@
         "pd_no": "1049285",
         "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
         "bucket": "스킨케어",
-        "shopify_score": 93,
+        "shopify_score": 92,
         "price_krw": 3000,
         "weight_g_est": 46,
         "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
@@ -2597,9 +2640,9 @@
           "margin_pct": -80.3
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 8.24,
+          "profit": 8.25,
           "margin_pct": 45.8
         },
         "at_market_median": {
@@ -2617,6 +2660,49 @@
           "profit": 10.09,
           "margin_pct": 50.5
         }
+      },
+      {
+        "pd_no": "1059834",
+        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "bucket": "마스크팩",
+        "shopify_score": 89,
+        "price_krw": 2000,
+        "weight_g_est": 85,
+        "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": true,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 6.2,
+        "shipping_order_usd": 6.2,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 7.68,
+        "landed_cost_ddu_usd": 7.9,
+        "landed_cost_ddp_usd": 7.68,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 8.29,
+        "at_2_2x": {
+          "sell": 3.25,
+          "fee": 0.24,
+          "profit": -4.67,
+          "margin_pct": -144.0
+        },
+        "at_market_p25": {
+          "sell": 18.0,
+          "fee": 1.33,
+          "profit": 8.99,
+          "margin_pct": 49.9
+        },
+        "at_market_median": {
+          "sell": 22.49,
+          "fee": 1.66,
+          "profit": 13.15,
+          "margin_pct": 58.4
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 22.49,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1027327",
@@ -2645,9 +2731,9 @@
           "margin_pct": -335.1
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 9.72,
+          "profit": 9.73,
           "margin_pct": 54.0
         },
         "at_market_median": {
@@ -2665,92 +2751,6 @@
           "profit": 10.84,
           "margin_pct": 56.4
         }
-      },
-      {
-        "pd_no": "1042619",
-        "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
-        "bucket": "마스크팩",
-        "shopify_score": 88,
-        "price_krw": 1000,
-        "weight_g_est": 86,
-        "weight_note": "고시 용량 29g x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": true,
-        "unit_cost_usd": 0.74,
-        "shipping_unit_usd": 6.2,
-        "shipping_order_usd": 6.2,
-        "tariff_usd": 0.11,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 6.94,
-        "landed_cost_ddu_usd": 7.05,
-        "landed_cost_ddp_usd": 6.94,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 7.5,
-        "at_2_2x": {
-          "sell": 1.62,
-          "fee": 0.12,
-          "profit": -5.44,
-          "margin_pct": -335.1
-        },
-        "at_market_p25": {
-          "sell": 17.99,
-          "fee": 1.33,
-          "profit": 9.72,
-          "margin_pct": 54.0
-        },
-        "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 13.88,
-          "margin_pct": 61.7
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 22.49,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1060489",
-        "name": "메디필 시카 쿨링 진정 랩핑 마스크 4 ml 4개입",
-        "bucket": "마스크팩",
-        "shopify_score": 87,
-        "price_krw": 3000,
-        "weight_g_est": 46,
-        "weight_note": "고시 용량 4ml, 0.13oz x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 2.21,
-        "shipping_unit_usd": 6.2,
-        "shipping_order_usd": 6.2,
-        "tariff_usd": 0.33,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 8.42,
-        "landed_cost_ddu_usd": 8.75,
-        "landed_cost_ddp_usd": 8.42,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 9.09,
-        "at_2_2x": {
-          "sell": 4.87,
-          "fee": 0.36,
-          "profit": -3.91,
-          "margin_pct": -80.3
-        },
-        "at_market_p25": {
-          "sell": 17.99,
-          "fee": 1.33,
-          "profit": 8.24,
-          "margin_pct": 45.8
-        },
-        "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 12.41,
-          "margin_pct": 55.2
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 22.49,
-        "market_sample_n": 100,
-        "at_product_market": null
       }
     ],
     "ddp_2개_묶음배송": [
@@ -2781,9 +2781,9 @@
           "margin_pct": -16.6
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 11.34,
+          "profit": 11.35,
           "margin_pct": 63.1
         },
         "at_market_median": {
@@ -2829,9 +2829,9 @@
           "margin_pct": 4.3
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 9.49,
+          "profit": 9.5,
           "margin_pct": 52.8
         },
         "at_market_median": {
@@ -2877,9 +2877,9 @@
           "margin_pct": -16.6
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 11.34,
+          "profit": 11.35,
           "margin_pct": 63.1
         },
         "at_market_median": {
@@ -2925,9 +2925,9 @@
           "margin_pct": -0.3
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 9.12,
+          "profit": 9.13,
           "margin_pct": 50.7
         },
         "at_market_median": {
@@ -2973,10 +2973,10 @@
           "margin_pct": -4.9
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 8.75,
-          "margin_pct": 48.6
+          "profit": 8.76,
+          "margin_pct": 48.7
         },
         "at_market_median": {
           "sell": 22.49,
@@ -2993,6 +2993,49 @@
           "profit": 6.36,
           "margin_pct": 41.3
         }
+      },
+      {
+        "pd_no": "1067500",
+        "name": "[이중턱리프팅]VT PDRN 광채리프팅마스크 1매 27 g+광채에센스 1.5 ml",
+        "bucket": "마스크팩",
+        "shopify_score": 95,
+        "price_krw": 2000,
+        "weight_g_est": 83,
+        "weight_note": "27g x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": false,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 3.47,
+        "shipping_order_usd": 6.95,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 4.95,
+        "landed_cost_ddu_usd": 5.17,
+        "landed_cost_ddp_usd": 4.95,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 5.35,
+        "at_2_2x": {
+          "sell": 3.25,
+          "fee": 0.24,
+          "profit": -1.94,
+          "margin_pct": -59.9
+        },
+        "at_market_p25": {
+          "sell": 18.0,
+          "fee": 1.33,
+          "profit": 11.72,
+          "margin_pct": 65.1
+        },
+        "at_market_median": {
+          "sell": 22.49,
+          "fee": 1.66,
+          "profit": 15.88,
+          "margin_pct": 70.6
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 22.49,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1075857",
@@ -3021,9 +3064,9 @@
           "margin_pct": -59.9
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 11.71,
+          "profit": 11.72,
           "margin_pct": 65.1
         },
         "at_market_median": {
@@ -3046,7 +3089,7 @@
         "pd_no": "1049285",
         "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
         "bucket": "스킨케어",
-        "shopify_score": 93,
+        "shopify_score": 92,
         "price_krw": 3000,
         "weight_g_est": 46,
         "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
@@ -3069,9 +3112,9 @@
           "margin_pct": -16.6
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 11.34,
+          "profit": 11.35,
           "margin_pct": 63.1
         },
         "at_market_median": {
@@ -3089,6 +3132,49 @@
           "profit": 13.19,
           "margin_pct": 66.0
         }
+      },
+      {
+        "pd_no": "1059834",
+        "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "bucket": "마스크팩",
+        "shopify_score": 89,
+        "price_krw": 2000,
+        "weight_g_est": 85,
+        "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": true,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 3.47,
+        "shipping_order_usd": 6.95,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 4.95,
+        "landed_cost_ddu_usd": 5.17,
+        "landed_cost_ddp_usd": 4.95,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 5.35,
+        "at_2_2x": {
+          "sell": 3.25,
+          "fee": 0.24,
+          "profit": -1.94,
+          "margin_pct": -59.9
+        },
+        "at_market_p25": {
+          "sell": 18.0,
+          "fee": 1.33,
+          "profit": 11.72,
+          "margin_pct": 65.1
+        },
+        "at_market_median": {
+          "sell": 22.49,
+          "fee": 1.66,
+          "profit": 15.88,
+          "margin_pct": 70.6
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 22.49,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1027327",
@@ -3117,9 +3203,9 @@
           "margin_pct": -166.9
         },
         "at_market_p25": {
-          "sell": 17.99,
+          "sell": 18.0,
           "fee": 1.33,
-          "profit": 12.45,
+          "profit": 12.46,
           "margin_pct": 69.2
         },
         "at_market_median": {
@@ -3137,92 +3223,6 @@
           "profit": 13.57,
           "margin_pct": 70.7
         }
-      },
-      {
-        "pd_no": "1042619",
-        "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
-        "bucket": "마스크팩",
-        "shopify_score": 88,
-        "price_krw": 1000,
-        "weight_g_est": 86,
-        "weight_note": "고시 용량 29g x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": true,
-        "unit_cost_usd": 0.74,
-        "shipping_unit_usd": 3.47,
-        "shipping_order_usd": 6.95,
-        "tariff_usd": 0.11,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 4.21,
-        "landed_cost_ddu_usd": 4.32,
-        "landed_cost_ddp_usd": 4.21,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 4.55,
-        "at_2_2x": {
-          "sell": 1.62,
-          "fee": 0.12,
-          "profit": -2.71,
-          "margin_pct": -166.9
-        },
-        "at_market_p25": {
-          "sell": 17.99,
-          "fee": 1.33,
-          "profit": 12.45,
-          "margin_pct": 69.2
-        },
-        "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 16.61,
-          "margin_pct": 73.9
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 22.49,
-        "market_sample_n": 100,
-        "at_product_market": null
-      },
-      {
-        "pd_no": "1060489",
-        "name": "메디필 시카 쿨링 진정 랩핑 마스크 4 ml 4개입",
-        "bucket": "마스크팩",
-        "shopify_score": 87,
-        "price_krw": 3000,
-        "weight_g_est": 46,
-        "weight_note": "고시 용량 4ml, 0.13oz x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 2.21,
-        "shipping_unit_usd": 3.1,
-        "shipping_order_usd": 6.2,
-        "tariff_usd": 0.33,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 5.32,
-        "landed_cost_ddu_usd": 5.65,
-        "landed_cost_ddp_usd": 5.32,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 5.74,
-        "at_2_2x": {
-          "sell": 4.87,
-          "fee": 0.36,
-          "profit": -0.81,
-          "margin_pct": -16.6
-        },
-        "at_market_p25": {
-          "sell": 17.99,
-          "fee": 1.33,
-          "profit": 11.34,
-          "margin_pct": 63.1
-        },
-        "at_market_median": {
-          "sell": 22.49,
-          "fee": 1.66,
-          "profit": 15.51,
-          "margin_pct": 69.0
-        },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 22.49,
-        "market_sample_n": 100,
-        "at_product_market": null
       }
     ]
   }

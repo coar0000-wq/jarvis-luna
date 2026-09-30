@@ -2,7 +2,7 @@
 title: "이커머스·Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:46.690649+00:00
+updated_at: 2026-09-30T20:46:46.222420+00:00
 tags: [topic, real-data]
 ---
 

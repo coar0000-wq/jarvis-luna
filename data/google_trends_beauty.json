@@ -1,59 +1,14 @@
 {
   "source": "google news rss (beauty queries) + trends daily filtered",
-  "collected_at": "2026-09-30T14:41:10.690317+00:00",
+  "collected_at": "2026-09-30T20:34:36.231678+00:00",
   "status": "ok",
   "note": "뷰티 키워드만. 채점 MATCH_CHANNELS 에는 넣지 않음. 대시보드 키워드 보드용.",
   "query_count": 12,
-  "count": 94,
+  "count": 93,
   "items": [
     {
-      "keyword": "A Beginner’s Guide to K-Beauty, J-Beauty, and I-Beauty - ELLE",
-      "product": "A Beginner’s Guide to K-Beauty, J-Beauty, and I-Beauty - ELLE",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUjBXbDJORVlSeGlSTmtVbWNoQWU0N2I4bkZKSkhtLUhJZUcteG1FdVdXTW5XcEQtVVk5eHJFSE1CR1lfRVlxenlESEV3UG9ZdGhCYkQ2SWdlR1lESXJzTXMzU0tOUk1DM1hYTEJReFBGSUpzaG9iTmY4aFZ4bnBIUGc1OWhCVTU3aGx4dXFOdFdjbHVRTnBoTmFqMUpsQy1palVZSkp3SQ?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "K-Beauty Brand Hanhoo Expands National Retail Footprint - Morningstar",
-      "product": "K-Beauty Brand Hanhoo Expands National Retail Footprint - Morningstar",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQaEhwaFZZWEtPcVl6R2UtUVktU3F3VmxfMVZySEJrUE5wZXQzUmRFRWtDQ3luem1ObUJZNEY0TXhDVFk0Ti1oeHJwQjhDNzBJV3p1RngzYmVDVHVBckRwaFJVOS0zUkhaU3BHclZKZWJ6aUpxckVDVVRIYmxzTjNFMzQ0YWQ1cHFkY1g5bjdSenpmQlJ5cTNyUXFYcTVBSDA4T1h0Y1pkaUF6QWVxYzhtVzZIamNvLWc?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "K-beauty glass-skin trend exposes safety gaps in viral skin care - Personal Care Insights",
-      "product": "K-beauty glass-skin trend exposes safety gaps in viral skin care - Personal Care Insights",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPV0tvVWpzNGQxUm56SnBLS3NsMVNtMnRURDVsMU51OG1fdmNxeUx3anhha19LOGtQZ0VCSkxONUZTRlVrRi14RXZ4WWg0OEcwUlV5T18tTVdfdHBRY3dQeWJqdVVrcVROSUduOFRtd1FXd2ZkTmtyM3RpcHpSMFRKTTlFdXZOdTg?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "COSRX Becomes the First K-Beauty Brand to Sponsor Maison Margiela at Paris Fashion Week - PR Newswire",
-      "product": "COSRX Becomes the First K-Beauty Brand to Sponsor Maison Margiela at Paris Fashion Week - PR Newswire",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQTXBmdGNkZUp2TEZITjNMdC1IUzlsa0xlTzdBNDhERmJ6LS1qbUlvLVZsNl81Uzcydjd4TFphMGRhUWpHTTFmMGtsSHo0NEJzUFVMZG52U3hTZ2ZXUWRfNUpYbHI2RGZzMU1jeTk0YWJ6TDBzNnF3dFhrSThkU29SZGVLVndnT0ZLNGlzUnNyRUJ0MEdXN1l4cFhFaHhMNGNtSWFpbXRvQ2pvb2VscjVhcVBzTTFMRGJPXzhEWi1QVlpiUjNnS3RCUFhBRjNkSXdRa2Y0VVppWk93REE?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "K-beauty clinics, drugstores gear up for Golden Week as Chinese spending tops $270 mn - KED Global",
-      "product": "K-beauty clinics, drugstores gear up for Golden Week as Chinese spending tops $270 mn - KED Global",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WWTV3RE15TTc0V2EyVmxnX2RWYUdvRV9iZ0xNU29YZ0RfM0lTSFZES210bzZLU1NWbnJPaVh2LS1MVEE3bjFXNjdXcnNpTnhTU24tSmpqcDRZXzU5WWR5NVBvU19yOENEWU84U253ZWp0ZlU?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "Inside Seoul’s K-beauty ‘mecca’: I hunted for the best skincare at the world’s biggest Korean beauty store - The Guardian",
-      "product": "Inside Seoul’s K-beauty ‘mecca’: I hunted for the best skincare at the world’s biggest Korean beauty store - The Guardian",
+      "keyword": "Inside Seoul’s K-beauty ‘mecca’: I hunted for the best skincare at the world’s biggest Korean beauty store - theguardian.com",
+      "product": "Inside Seoul’s K-beauty ‘mecca’: I hunted for the best skincare at the world’s biggest Korean beauty store - theguardian.com",
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBEaHdqd3dkWUpOVEtVUkNuQjE2dUZrOFVWbEUzaEN0UWRCYlBzSEcwcE1MYThfTHlOQ0N0dlpydmdwamNsdXlxTGJXY29MZWVITldxUFNjRUo5U1NLUHMyZDFkanEzekFUYnFXTzFRWHYzejFMRGI0a3JUQVlYdw?oc=5",
@@ -61,20 +16,65 @@
       "beauty": true
     },
     {
-      "keyword": "PSP’s K-Beauty giveaway winners embark on a journey into the world of Korean beauty - OC Media",
-      "product": "PSP’s K-Beauty giveaway winners embark on a journey into the world of Korean beauty - OC Media",
+      "keyword": "A Beginner’s Guide to K-Beauty, J-Beauty, and I-Beauty - elle.com",
+      "product": "A Beginner’s Guide to K-Beauty, J-Beauty, and I-Beauty - elle.com",
       "sub": "K-beauty",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdldOLTQzMEFQZnpRNEhFdzNEbW5vMEx0NFFCNk1McWRETnk2bUV1REltd0hQakkzVDI1cjE4TzE0ekVacUtJNlA3V3B1YkxIT0pXS2QxQWxMbXpNc3Q4WnhrSHVycDNKX0RKS3gyczR2b3h5eWFzNEhuM3BJWm9xbU4zend1c0J6MXJtMnBBRWEwa1NJUDlYTGNvTWhJTjhUcGV1ckdkMA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUjBXbDJORVlSeGlSTmtVbWNoQWU0N2I4bkZKSkhtLUhJZUcteG1FdVdXTW5XcEQtVVk5eHJFSE1CR1lfRVlxenlESEV3UG9ZdGhCYkQ2SWdlR1lESXJzTXMzU0tOUk1DM1hYTEJReFBGSUpzaG9iTmY4aFZ4bnBIUGc1OWhCVTU3aGx4dXFOdFdjbHVRTnBoTmFqMUpsQy1palVZSkp3SQ?oc=5",
       "kind": "news",
       "beauty": true
     },
     {
-      "keyword": "'A face lift once a month': Growing pressure to conform amid the rise of Korea's 'K-Beauty' - France 24",
-      "product": "'A face lift once a month': Growing pressure to conform amid the rise of Korea's 'K-Beauty' - France 24",
+      "keyword": "I’ve Been Using This K-Beauty Moisturizer for 9 Months—It Gives Me Glass Skin and a Smoother Neck - Real Simple",
+      "product": "I’ve Been Using This K-Beauty Moisturizer for 9 Months—It Gives Me Glass Skin and a Smoother Neck - Real Simple",
       "sub": "K-beauty",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNVJvcE40aTNrNzY2WG4tbS1Wb1BWdTBGQzF0MzFHbFhRcU9aczFBb2xXbWV1V1JpQWFfTDJ5Z0N6dU5yMlhjTGE2QlMtUXpLa0E2NEYxRmZiRkswQ1JZaXYxSHNVUXkwMmVpYVF2RUZpSXdRU29yWTR0TVBZb2tfQ0dUeGNjUjRfWUJ5cklERjlkcU5YQmhCVU1XLU5oYWhRalFreWNNV1hIRkplWFNxbzJ3RmZabURQQkFRcXlQQS1VRnU2a0o5eg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQckxZNXFEaFFISjdvWHJ2Q1lfbi1rUHRkSHcyMVBiRTViM21TbUplQ3ByNWlKR3Vvel9XNW4xQl9lV0VLeG5KdFJmUFk0TmJGTy14dHZBSmV4YmozZU9za25aX2RQa2tJUWtScFZSQVE1QzZxX1ZmTmppUFB2Uzdjd1NTSjJMX3IxWThqZw?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Sara Tan shares hottest K-beauty products - KTLA",
+      "product": "Sara Tan shares hottest K-beauty products - KTLA",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xZUMyWHVzb0IyMVRQWHVwcjk3aVdmOS1hdGJUY29CbTE3RXAwaHJZUVdVX1o4VFYtNnJWcjBBTW10bmRwZkVoTG5MamhrOWpUWDQ0RnNjVnFqRGI1c0p3WnMzRWR2c1p6SlRBejlkUFhlek0wRHJDck1lYXA2ams?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Move Over, Ampoules—High-Tech Korean Skin-Care Tools Are Here - Allure",
+      "product": "Move Over, Ampoules—High-Tech Korean Skin-Care Tools Are Here - Allure",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5UVVZzcDNsNklueURqRE9ZbjhvWlJuMnZqaUxUdF95d3pNTlR6RHBfMlZaTkdXVTlqd09aWXg2d2d5eVFpR1RGdl9DWUVTSURKV3pSSzBoNkw0UDBuMm9xQTFnYlpUZnFm?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "How The Eye-Patch Grinder Packaging Ended Up Everywhere At Once - beautyindependent.com",
+      "product": "How The Eye-Patch Grinder Packaging Ended Up Everywhere At Once - beautyindependent.com",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbm1kNTFMSThEM3g3Q1hnNHFYV0xXcURsRXo3emE1RzVmc3pDT1ZBanFlUzgyY1JkZ3llQllaa0NRbTVaNUdqYWt5SEZiU2E1SzF4S1ZZb2VPRjZ1cmdtQXhnSHB1VlBxZGZ3dHczTF9wdTVkYXFTRG81WUlyZE5TUWh5Q3lUX182dHl4V3dsQ3k?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "I Went to Seoul to Find the Korean Skin-Care Products People Actually Buy - Vogue",
+      "product": "I Went to Seoul to Find the Korean Skin-Care Products People Actually Buy - Vogue",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1JSEZleGFOZTlfbmlCTTRTbWZOZXJMWS1ZVkhnZy16cHdVNDM1Qnl4X0RGR19LcGNSQjNyLVpWQXZ0RTU0TWU2T2xfOW1VeDU0UGNsN0RkRXRNMWxqNVh1VnpKMmszdw?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "K-Beauty Brand Hanhoo Expands National Retail Footprint - PR Newswire",
+      "product": "K-Beauty Brand Hanhoo Expands National Retail Footprint - PR Newswire",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOajItUHB4aUh2VUxHSk5CS3d4dHVzaDduZlFmMlVsRlk4MXNPMVZNamZETS1IdjhOS1dfWWhaQm5FUkFIZC16WHgxU05tX2d3czd4WE9ORDREXzRDNldicVUzcFlsblMtQXNGN0dQTnFQd3h3cGN0bVNweDUtWC1nb0tCVzVIdVVXOXJuUE9Eb0pOQ0dLTUpVYUhtTHpuOGFDRDJ0TldBWkRhRkJfUS1YTw?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -115,8 +115,8 @@
       "beauty": true
     },
     {
-      "keyword": "Why Dermatologists Say Korean Sunscreens Are a Game-Changer for Your Skin - today.com",
-      "product": "Why Dermatologists Say Korean Sunscreens Are a Game-Changer for Your Skin - today.com",
+      "keyword": "Why Dermatologists Say Korean Sunscreens Are a Game-Changer for Your Skin - TODAY.com",
+      "product": "Why Dermatologists Say Korean Sunscreens Are a Game-Changer for Your Skin - TODAY.com",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBYSVhpV19HSHdPNzdPX2JLRjJvdWxIOVRBa3NSX2NfMUw3Tkc3MWJwa0s4ZERHUzFHcWNXSnByV2lYN09jMEJ2a3pjaGNzMzRsSjMzWktsMllRS2laWVZnMl9YQVBMLXA4Sm1rVQ?oc=5",
@@ -160,20 +160,11 @@
       "beauty": true
     },
     {
-      "keyword": "Shoppers are racing to buy this viral COSRX skincare favourite now it’s 60 per cent off - 7NEWS",
-      "product": "Shoppers are racing to buy this viral COSRX skincare favourite now it’s 60 per cent off - 7NEWS",
+      "keyword": "Shoppers are racing to buy this viral COSRX skincare favourite now it’s 60 per cent off - 7news.com.au",
+      "product": "Shoppers are racing to buy this viral COSRX skincare favourite now it’s 60 per cent off - 7news.com.au",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOa2hxMVBXRW96TEU2bmljRm1oSEVrRUFyUld3aUdBM1hhR0dGclp2NGJZUGx5QkpJeS0zT3FRdm5XWlh3UjJPMTlMbWdpMFRQOEZOUC1venlTUk5mVHRkRUtmZE1IRUVYVjlYeExSYVd2WVhQMjQyNUVXT2MxNUV1QXpvRWo4VVdMdGVkYUM4ZGlSbDA1X0dWLVdWZWY5WmdGUXB4Nkhfalh3YWFBeDJmQ1d0VGJ3UG04aDc1LUxrSmRyQVhSTEVudjV30gHPAUFVX3lxTE90QmJXdWwyd1lSYWpPNDdrWXMwbm5SZVl3bmdZX1doTzg5d2wxTTRfNVpQd0k5eTFDMHNPdjE4RVlBYktkSk1hUHc5ek9vSEFEeXVERGJ4elA4SDlBYkRFc1FlZWc4RjNKb3N1YlFqakR6WHZJWVZyZ2EzVU1GYnNjWU83MFZYTFJEZmhvbUlRSmpnOXBtLWQwd2JBcmVRSm42bURuVHVxQlRiOU0xcno1ZkE0UHpqa2xMNDZVRjZXOU1sY2s3WmpndFZpNE5KUQ?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "The Not-So-Secret Ingredient in This $20 Moisturizer Gives Shoppers in Their 50s ‘10 Times Better’ Skin - People.com",
-      "product": "The Not-So-Secret Ingredient in This $20 Moisturizer Gives Shoppers in Their 50s ‘10 Times Better’ Skin - People.com",
-      "sub": "snail mucin",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9qcURhUHFrZjVWdGV6OWpfQTgwZ3dXb0hzcnNFNHZZX05ST09mVHd0Yk16TDhCYW0yelZXSTlIekZtTG50SU1TN2xidWd6b0JWRFVJdUtuRUIzQkZrdXdqckpIQjNCTUNHbmVyTE52LWFmMVpiWXRiMg?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -187,11 +178,20 @@
       "beauty": true
     },
     {
-      "keyword": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - goodhousekeeping.com",
-      "product": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - goodhousekeeping.com",
+      "keyword": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - Good Housekeeping",
+      "product": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - Good Housekeeping",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaHNGOTRvaVF1V3FVRWxjLWo3T0NSN1Q5Tjk0X25hTU5iOEY4d3lGdTVTNngtV09hdldxWXcwYTA0OENIcElxQ1ZXUnBXQ3FIcGhfYm9zc2xTZkJlaFdjU2UxNHR1cmhicDdHYXZiOEZnTGZGNl9IQms5N1FxV1BpTjlFRzY0dGM?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "The Not-So-Secret Ingredient in This $20 Moisturizer Gives Shoppers in Their 50s ‘10 Times Better’ Skin - People.com",
+      "product": "The Not-So-Secret Ingredient in This $20 Moisturizer Gives Shoppers in Their 50s ‘10 Times Better’ Skin - People.com",
+      "sub": "snail mucin",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9qcURhUHFrZjVWdGV6OWpfQTgwZ3dXb0hzcnNFNHZZX05ST09mVHd0Yk16TDhCYW0yelZXSTlIekZtTG50SU1TN2xidWd6b0JWRFVJdUtuRUIzQkZrdXdqckpIQjNCTUNHbmVyTE52LWFmMVpiWXRiMg?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -250,8 +250,8 @@
       "beauty": true
     },
     {
-      "keyword": "My K-Beauty 'glass skin' routine isn't complete without this toner - glamourmagazine.co.uk",
-      "product": "My K-Beauty 'glass skin' routine isn't complete without this toner - glamourmagazine.co.uk",
+      "keyword": "My K-Beauty 'glass skin' routine isn't complete without this toner - Glamour UK",
+      "product": "My K-Beauty 'glass skin' routine isn't complete without this toner - Glamour UK",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9oVkRxekx6R29ydjRMWTNEOXR3TzNCWnJOUjRPVVVQN1NXOUxBcmJkUFhhcnBnZXIzZmFBNnJ3Uk9RSEp2Q3lXRUZMV0UxbE5kUzZXcTZ5VVdMcTY4dEtBb0l5MDdSdFFtaFg1cQ?oc=5",
@@ -281,7 +281,7 @@
       "product": "Best toner: Discover which face toner best suits your skin type and budget - Mamabella",
       "sub": "heartleaf toner",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5hcW5ZR2hNR0ZGQ2dvaTVvUTFyRmRhOTJfUXlkVlhicmYzT01PZzFPREtQSXJRZHRDZEc2M0RtazdoSkRucVlSdEZoZ1ZZRXV0eWpfZFY3TVZrN1ByQkNyeQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5iQ3RBX2tRTUxlTGdkUXVaWDFlWkFQY216M2trV1lTWjJhVnhEbS1OenIzTnVFUl9xWk1WSl9kc2xoVS1qb3dNQmx0RGJydnFRSFRId3ZvUHhBN25pM2RwdkVMNWV0dw?oc=5",
       "kind": "news",
       "beauty": true
     },

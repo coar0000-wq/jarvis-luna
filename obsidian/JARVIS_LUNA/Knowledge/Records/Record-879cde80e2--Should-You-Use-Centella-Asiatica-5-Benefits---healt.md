@@ -2,7 +2,7 @@
 title: "Record 879cde80e2 · Should-You-Use-Centella-Asiatica-5-Benefits---healthcom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:44.342589+00:00
+updated_at: 2026-09-30T20:46:43.809345+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1bcde60764 · elf-Instant-Lift-Brow-Pencil-Dual-Sided-Neutral-Brown--Retractable-Pre"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:45.109904+00:00
+updated_at: 2026-09-30T20:46:44.619800+00:00
 tags: [record, real-data]
 ---
 

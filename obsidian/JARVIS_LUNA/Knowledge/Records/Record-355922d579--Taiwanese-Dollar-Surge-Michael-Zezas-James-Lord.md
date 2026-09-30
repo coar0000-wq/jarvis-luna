@@ -2,7 +2,7 @@
 title: "Record 355922d579 · Taiwanese-Dollar-Surge-Michael-Zezas-James-Lord"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:45.547654+00:00
+updated_at: 2026-09-30T20:46:45.052521+00:00
 tags: [record, real-data]
 ---
 

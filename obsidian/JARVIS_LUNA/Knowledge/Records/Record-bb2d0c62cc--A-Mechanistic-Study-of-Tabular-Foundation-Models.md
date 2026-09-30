@@ -1,0 +1,21 @@
+---
+title: "Record bb2d0c62cc · A-Mechanistic-Study-of-Tabular-Foundation-Models"
+type: knowledge-graph
+status: generated-from-real-data
+updated_at: 2026-09-30T20:46:42.940148+00:00
+tags: [record, real-data]
+---
+
+# Record bb2d0c62cc · A-Mechanistic-Study-of-Tabular-Foundation-Models
+
+> 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.48550/arxiv.2605.21288)
+
+**제목:** A Mechanistic Study of Tabular Foundation Models
+
+A Mechanistic Study of Tabular Foundation Models
+
+**출처:** Source · institutions
+
+## Connected nodes
+
+[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

@@ -2,7 +2,7 @@
 title: "Record 352bcf5d21 · Spider-20-AIFunc-Extending-Real-World-Text-to-SQL-to-AI-Native-SQL-Wor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:43.594225+00:00
+updated_at: 2026-09-30T20:46:42.964166+00:00
 tags: [record, real-data]
 ---
 

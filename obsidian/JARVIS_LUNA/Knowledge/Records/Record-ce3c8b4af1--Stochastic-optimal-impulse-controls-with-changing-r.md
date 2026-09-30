@@ -2,7 +2,7 @@
 title: "Record ce3c8b4af1 · Stochastic-optimal-impulse-controls-with-changing-running-costs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:43.556104+00:00
+updated_at: 2026-09-30T20:46:42.901092+00:00
 tags: [record, real-data]
 ---
 

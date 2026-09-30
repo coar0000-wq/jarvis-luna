@@ -2,7 +2,7 @@
 title: "Record b870a9f198 · K-beauty-glass-skin-trend-exposes-safety-gaps-in-viral-skin-care---Per"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:44.360653+00:00
+updated_at: 2026-09-30T20:46:43.829740+00:00
 tags: [record, real-data]
 ---
 
@@ -13,9 +13,10 @@ tags: [record, real-data]
 **제목:** K-beauty glass-skin trend exposes safety gaps in viral skin care - Personal Care Insights
 
 K-beauty glass-skin trend exposes safety gaps in viral skin care - Personal Care Insights
+K-beauty glass-skin trend exposes safety gaps in viral skin care - Personal Care Insights
 
-**출처:** Source · Google Search
+**출처:** Source · us_beauty
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[마케팅광고]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[마케팅광고]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

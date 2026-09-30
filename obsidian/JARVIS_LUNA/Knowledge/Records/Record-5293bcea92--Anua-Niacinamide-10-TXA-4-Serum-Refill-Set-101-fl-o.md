@@ -2,7 +2,7 @@
 title: "Record 5293bcea92 · Anua-Niacinamide-10-TXA-4-Serum-Refill-Set-101-fl-oz30ml--Refill-101-f"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:44.876548+00:00
+updated_at: 2026-09-30T20:46:44.379544+00:00
 tags: [record, real-data]
 ---
 

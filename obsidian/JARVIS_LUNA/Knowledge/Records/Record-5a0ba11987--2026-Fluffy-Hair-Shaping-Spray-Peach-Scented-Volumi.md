@@ -2,7 +2,7 @@
 title: "Record 5a0ba11987 · 2026-Fluffy-Hair-Shaping-Spray-Peach-Scented-Volumizing--Setting-Spray"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:45.234944+00:00
+updated_at: 2026-09-30T20:46:44.748533+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ tags: [record, real-data]
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

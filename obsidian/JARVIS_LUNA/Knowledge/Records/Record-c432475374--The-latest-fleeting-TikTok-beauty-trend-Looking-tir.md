@@ -2,7 +2,7 @@
 title: "Record c432475374 · The-latest-fleeting-TikTok-beauty-trend-Looking-tir"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:44.519438+00:00
+updated_at: 2026-09-30T20:46:44.010544+00:00
 tags: [record, real-data]
 ---
 

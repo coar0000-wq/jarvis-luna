@@ -2,7 +2,7 @@
 title: "Record 3913ac5ad9 · Agility-Robotics-maker-of-Digit-humanoid-exploring-wheeled-robots"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:45.568949+00:00
+updated_at: 2026-09-30T20:46:45.072398+00:00
 tags: [record, real-data]
 ---
 

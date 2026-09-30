@@ -2,7 +2,7 @@
 title: "Record 6dab3f111d · A-Deeper-Look-at-Depth-Stable-Generation-Accounting-for-Quantifier-Rea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:43.742291+00:00
+updated_at: 2026-09-30T20:46:43.152349+00:00
 tags: [record, real-data]
 ---
 

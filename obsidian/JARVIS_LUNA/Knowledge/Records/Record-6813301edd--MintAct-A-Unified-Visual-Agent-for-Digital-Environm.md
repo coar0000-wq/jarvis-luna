@@ -2,7 +2,7 @@
 title: "Record 6813301edd · MintAct-A-Unified-Visual-Agent-for-Digital-Environments"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:43.052916+00:00
+updated_at: 2026-09-30T20:46:42.329846+00:00
 tags: [record, real-data]
 ---
 

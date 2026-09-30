@@ -2,7 +2,7 @@
 title: "Record 7adc232399 · Mini-On-Til-Dawn-Mattifying-Waterproof-Setting-Spra"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:45.562893+00:00
+updated_at: 2026-09-30T20:46:45.066175+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Mini On 'Til Dawn Mattifying Waterproof Setting Spray · ONE/SIZE by Patrick Sta
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

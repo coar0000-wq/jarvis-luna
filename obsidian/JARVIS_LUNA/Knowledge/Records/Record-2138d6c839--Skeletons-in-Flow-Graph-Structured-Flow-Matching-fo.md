@@ -2,7 +2,7 @@
 title: "Record 2138d6c839 · Skeletons-in-Flow-Graph-Structured-Flow-Matching-for-Human-Motion-Pred"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:43.816072+00:00
+updated_at: 2026-09-30T20:46:43.251177+00:00
 tags: [record, real-data]
 ---
 

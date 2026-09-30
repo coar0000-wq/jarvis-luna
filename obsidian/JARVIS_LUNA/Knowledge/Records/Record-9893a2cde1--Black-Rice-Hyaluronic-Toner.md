@@ -2,7 +2,7 @@
 title: "Record 9893a2cde1 · Black-Rice-Hyaluronic-Toner"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:44.763858+00:00
+updated_at: 2026-09-30T20:46:44.266716+00:00
 tags: [record, real-data]
 ---
 

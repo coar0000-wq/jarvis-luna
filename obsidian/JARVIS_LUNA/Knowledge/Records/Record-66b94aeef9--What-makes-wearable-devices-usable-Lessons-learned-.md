@@ -2,7 +2,7 @@
 title: "Record 66b94aeef9 · What-makes-wearable-devices-usable-Lessons-learned-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:43.300712+00:00
+updated_at: 2026-09-30T20:46:42.614244+00:00
 tags: [record, real-data]
 ---
 

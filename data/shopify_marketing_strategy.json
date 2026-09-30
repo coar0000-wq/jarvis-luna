@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T02:35:29.628664+09:00",
+  "generated_at": "2026-10-01T05:44:32.501199+09:00",
   "generator": "scripts/build_shopify_marketing_strategy.py",
   "status": "evidence_ready",
   "scope": "US K-Beauty Shopify launch marketing",
@@ -1902,6 +1902,38 @@
       "claim_guardrail": "사용 주의·제품 사실을 먼저 제시하고 자극·치료 효능을 단정하지 않음"
     },
     {
+      "canonical_product_id": "CP000218",
+      "pd_no": "1067500",
+      "product": "[이중턱리프팅]VT PDRN 광채리프팅마스크 1매 27 g+광채에센스 1.5 ml",
+      "bucket": "마스크팩",
+      "grade": "S",
+      "score": 95,
+      "agent_ready": false,
+      "public_ready": false,
+      "recommended_insight_ids": [
+        "MKT-002",
+        "MKT-003",
+        "MKT-004",
+        "MKT-016",
+        "MKT-023",
+        "MKT-025",
+        "MKT-026",
+        "MKT-032",
+        "MKT-034",
+        "MKT-035",
+        "MKT-012",
+        "MKT-014",
+        "MKT-015"
+      ],
+      "organic_first_actions": [
+        "구매 질문형 PDP/FAQ 초안",
+        "제품 제형·사용 순서 숏폼 콘티",
+        "무료배송 임계값을 고려한 루틴 또는 수량 세트 손익 계산"
+      ],
+      "paid_action_status": "blocked_until_explicit_user_approval",
+      "claim_guardrail": "사용 주의·제품 사실을 먼저 제시하고 자극·치료 효능을 단정하지 않음"
+    },
+    {
       "canonical_product_id": "CP000270",
       "pd_no": "1075857",
       "product": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
@@ -1939,7 +1971,39 @@
       "product": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
       "bucket": "스킨케어",
       "grade": "S",
-      "score": 93,
+      "score": 92,
+      "agent_ready": true,
+      "public_ready": false,
+      "recommended_insight_ids": [
+        "MKT-002",
+        "MKT-003",
+        "MKT-004",
+        "MKT-016",
+        "MKT-023",
+        "MKT-025",
+        "MKT-026",
+        "MKT-032",
+        "MKT-034",
+        "MKT-035",
+        "MKT-012",
+        "MKT-014",
+        "MKT-015"
+      ],
+      "organic_first_actions": [
+        "구매 질문형 PDP/FAQ 초안",
+        "제품 제형·사용 순서 숏폼 콘티",
+        "무료배송 임계값을 고려한 루틴 또는 수량 세트 손익 계산"
+      ],
+      "paid_action_status": "blocked_until_explicit_user_approval",
+      "claim_guardrail": "고시·영문 라벨·법률 게이트가 확인한 사실만 사용"
+    },
+    {
+      "canonical_product_id": "CP000151",
+      "pd_no": "1059834",
+      "product": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+      "bucket": "마스크팩",
+      "grade": "S",
+      "score": 89,
       "agent_ready": true,
       "public_ready": false,
       "recommended_insight_ids": [
@@ -1996,70 +2060,6 @@
       ],
       "paid_action_status": "blocked_until_explicit_user_approval",
       "claim_guardrail": "고시·영문 라벨·법률 게이트가 확인한 사실만 사용"
-    },
-    {
-      "canonical_product_id": "CP000075",
-      "pd_no": "1042619",
-      "product": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
-      "bucket": "마스크팩",
-      "grade": "S",
-      "score": 88,
-      "agent_ready": true,
-      "public_ready": false,
-      "recommended_insight_ids": [
-        "MKT-002",
-        "MKT-003",
-        "MKT-004",
-        "MKT-016",
-        "MKT-023",
-        "MKT-025",
-        "MKT-026",
-        "MKT-032",
-        "MKT-034",
-        "MKT-035",
-        "MKT-012",
-        "MKT-014",
-        "MKT-015"
-      ],
-      "organic_first_actions": [
-        "구매 질문형 PDP/FAQ 초안",
-        "제품 제형·사용 순서 숏폼 콘티",
-        "무료배송 임계값을 고려한 루틴 또는 수량 세트 손익 계산"
-      ],
-      "paid_action_status": "blocked_until_explicit_user_approval",
-      "claim_guardrail": "고시·영문 라벨·법률 게이트가 확인한 사실만 사용"
-    },
-    {
-      "canonical_product_id": "CP000158",
-      "pd_no": "1060489",
-      "product": "메디필 시카 쿨링 진정 랩핑 마스크 4 ml 4개입",
-      "bucket": "마스크팩",
-      "grade": "S",
-      "score": 87,
-      "agent_ready": false,
-      "public_ready": false,
-      "recommended_insight_ids": [
-        "MKT-002",
-        "MKT-003",
-        "MKT-004",
-        "MKT-016",
-        "MKT-023",
-        "MKT-025",
-        "MKT-026",
-        "MKT-032",
-        "MKT-034",
-        "MKT-035",
-        "MKT-012",
-        "MKT-014",
-        "MKT-015"
-      ],
-      "organic_first_actions": [
-        "구매 질문형 PDP/FAQ 초안",
-        "제품 제형·사용 순서 숏폼 콘티",
-        "무료배송 임계값을 고려한 루틴 또는 수량 세트 손익 계산"
-      ],
-      "paid_action_status": "blocked_until_explicit_user_approval",
-      "claim_guardrail": "고민 키워드는 탐색 태그로만 사용하고 임상·치료 효과로 확대하지 않음"
     }
   ],
   "funnel": {
@@ -2154,7 +2154,7 @@
     "메타 리타게팅의 1만 명 임계값과 할인 제안은 검증되지 않은 플랫폼·계정별 주장이라 채택하지 않으며 유료 집행은 승인 전 차단"
   ],
   "integrity": {
-    "listing_gate_generated_at": "2026-09-30T17:35:29.482941+00:00",
+    "listing_gate_generated_at": "2026-09-30T20:44:29.881161+00:00",
     "s_product_count": 10,
     "product_playbook_count": 10,
     "public_ready_count": 0,

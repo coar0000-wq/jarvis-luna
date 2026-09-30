@@ -2,7 +2,7 @@
 title: "Record bf82e50015 · Barclays-Private-Bank-research-finds-growing-demand-for-private-market"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:43.985007+00:00
+updated_at: 2026-09-30T20:46:43.437555+00:00
 tags: [record, real-data]
 ---
 

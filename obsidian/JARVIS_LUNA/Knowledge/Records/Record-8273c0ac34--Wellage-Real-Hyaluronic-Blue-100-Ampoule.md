@@ -2,7 +2,7 @@
 title: "Record 8273c0ac34 · Wellage-Real-Hyaluronic-Blue-100-Ampoule"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:44.906755+00:00
+updated_at: 2026-09-30T20:46:44.414501+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** Wellage Real Hyaluronic Blue 100 Ampoule
 
 Wellage Real Hyaluronic Blue 100 Ampoule
-Wellage Real Hyaluronic Blue 100 Ampoule · 평점 4.8 · 리뷰 1,554
+Wellage Real Hyaluronic Blue 100 Ampoule · 평점 4.8 · 리뷰 1,523
 
 **출처:** Source · us_beauty
 

@@ -155,7 +155,7 @@
     "as_of": "2026-09-30",
     "source": "Frankfurter API",
     "api_url": "https://api.frankfurter.app/latest?from=USD&to=KRW",
-    "fetched_at": "2026-09-30T14:49:27.124336+00:00",
+    "fetched_at": "2026-09-30T20:42:51.986498+00:00",
     "ok": true,
     "대조": [
       "ExchangeRate-API 1,353.68(2026-09-30)",

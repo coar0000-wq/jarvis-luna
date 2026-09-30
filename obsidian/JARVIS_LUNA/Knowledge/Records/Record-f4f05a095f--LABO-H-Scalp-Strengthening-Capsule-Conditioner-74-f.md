@@ -2,7 +2,7 @@
 title: "Record f4f05a095f · LABO-H-Scalp-Strengthening-Capsule-Conditioner-74-fl-oz220ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:44.848797+00:00
+updated_at: 2026-09-30T20:46:44.349228+00:00
 tags: [record, real-data]
 ---
 

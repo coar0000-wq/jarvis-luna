@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-30T14:55:51.777922+00:00",
+  "generated_at": "2026-09-30T20:46:51.399045+00:00",
   "generator": "scripts/gemini_escalation.py",
   "policy": "data/manual/model_routing_policy.json",
   "enabled": true,
@@ -19,17 +19,17 @@
   ],
   "advice": {
     "risk": "medium",
-    "diagnosis": "일부 채널 수집 실패 및 LLM API 403 오류로 인한 고시 정보 판독 지연 발생",
+    "diagnosis": "아마존 뷰티 채널 데이터가 비어있고 다이소 상품 고시 표 판독 및 원본 자료 확보 대기 중인 항목이 반복 발생함",
     "next_safe_checks": [
-      "아마존 뷰티 채널 수집기 상태 점검",
-      "다이소 실시간 상품 수집 로그 재확인",
-      "Groq API 403 오류 원인 및 인증 토큰 갱신 여부 점검",
-      "Shopify draft 등록 대기 항목 승인 상태 확인"
+      "아마존 무버스 뷰티 채널 수집기 상태 재확인",
+      "다이소몰 해당 상품 고시 정보 수집 여부 모니터링",
+      "Shopify draft 등록 대기 항목 검토",
+      "MoCRA/FPLA 규제 정보 및 원본 자료 대기 상태 확인"
     ],
     "requires_human": true,
     "evidence_gaps": [
-      "amazon_movers_beauty 채널의 0건 수집 원인 상세 로그",
-      "Groq API 403 에러코드 발생 전문"
+      "amazon_movers_beauty 채널의 0건 수집 원인에 대한 상세 로그",
+      "다이소 1067500 상품 고시 대상 정보의 자동 수집 성공 여부"
     ],
     "forbidden_actions": [
       "external publish",
@@ -39,13 +39,13 @@
     ]
   },
   "usage": {
-    "promptTokenCount": 982,
-    "candidatesTokenCount": 224,
-    "totalTokenCount": 1206,
+    "promptTokenCount": 972,
+    "candidatesTokenCount": 250,
+    "totalTokenCount": 1222,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 982
+        "tokenCount": 972
       }
     ],
     "serviceTier": "standard"

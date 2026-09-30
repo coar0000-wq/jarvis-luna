@@ -2,7 +2,7 @@
 title: "Record 917b5659d7 · TikTok-and-the-Korean-beauty-boom-are-shifting-glob"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:44.456512+00:00
+updated_at: 2026-09-30T20:46:43.938251+00:00
 tags: [record, real-data]
 ---
 

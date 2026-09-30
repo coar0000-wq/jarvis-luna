@@ -2,7 +2,7 @@
 title: "Record 0e429ffa75 · Skincare-trends-What-experts-say-shoppers-want---newhopecom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:44.565231+00:00
+updated_at: 2026-09-30T20:46:44.061660+00:00
 tags: [record, real-data]
 ---
 

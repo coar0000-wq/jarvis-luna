@@ -2,7 +2,7 @@
 title: "Record 9113559ead · 8colors-espoir-The-Brow-Balance-Pencil-003-oz01g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:44.846647+00:00
+updated_at: 2026-09-30T20:46:44.346876+00:00
 tags: [record, real-data]
 ---
 

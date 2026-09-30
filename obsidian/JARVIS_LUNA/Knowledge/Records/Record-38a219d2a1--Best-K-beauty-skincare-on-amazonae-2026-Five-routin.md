@@ -2,7 +2,7 @@
 title: "Record 38a219d2a1 · Best-K-beauty-skincare-on-amazonae-2026-Five-routin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:44.558351+00:00
+updated_at: 2026-09-30T20:46:44.053587+00:00
 tags: [record, real-data]
 ---
 

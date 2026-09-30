@@ -2,7 +2,7 @@
 title: "Record 096cbae2f7 · 7-K-Beauty-Trends-Shaping-2026---Vogue"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:44.118114+00:00
+updated_at: 2026-09-30T20:46:43.574810+00:00
 tags: [record, real-data]
 ---
 

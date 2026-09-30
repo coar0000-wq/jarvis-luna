@@ -2,7 +2,7 @@
 title: "Record dc4b4fb2c9 · Trilinos-Enabling-Scientific-Computing-across-Diverse-Hardware-Archite"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:43.410664+00:00
+updated_at: 2026-09-30T20:46:42.738073+00:00
 tags: [record, real-data]
 ---
 

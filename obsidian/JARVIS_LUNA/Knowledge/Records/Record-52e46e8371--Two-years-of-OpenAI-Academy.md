@@ -2,7 +2,7 @@
 title: "Record 52e46e8371 · Two-years-of-OpenAI-Academy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:44.692010+00:00
+updated_at: 2026-09-30T20:46:44.193056+00:00
 tags: [record, real-data]
 ---
 

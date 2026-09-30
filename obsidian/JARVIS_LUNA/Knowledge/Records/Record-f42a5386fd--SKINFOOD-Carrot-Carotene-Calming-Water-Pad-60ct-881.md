@@ -2,7 +2,7 @@
 title: "Record f42a5386fd · SKINFOOD-Carrot-Carotene-Calming-Water-Pad-60ct-881-oz250g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:44.814767+00:00
+updated_at: 2026-09-30T20:46:44.315937+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** SKINFOOD Carrot Carotene Calming Water Pad 60ct 8.81 oz.(250g)
 
 SKINFOOD Carrot Carotene Calming Water Pad 60ct 8.81 oz.(250g)
-SKINFOOD Carrot Carotene Calming Water Pad 60ct 8.81 oz.(250g) · 평점 4.8 · 리뷰 206
+SKINFOOD Carrot Carotene Calming Water Pad 60ct 8.81 oz.(250g) · 평점 4.8 · 리뷰 207
 
 **출처:** Source · us_beauty
 

@@ -2,7 +2,7 @@
 title: "Record 9532f8f401 · Daniel-Nadler---Transcript"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:45.435445+00:00
+updated_at: 2026-09-30T20:46:44.945121+00:00
 tags: [record, real-data]
 ---
 

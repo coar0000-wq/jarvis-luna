@@ -2,7 +2,7 @@
 title: "Record 120091ca38 · The-Best-Korean-Sunscreens-for-Invisible-UV-Protect"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:44.340009+00:00
+updated_at: 2026-09-30T20:46:43.806487+00:00
 tags: [record, real-data]
 ---
 

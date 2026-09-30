@@ -2,7 +2,7 @@
 title: "Record 41e42dcd6d · Association-of-Bassoon--BSN--Gene-Mutations-With-Gait-and-Motor-Impair"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:43.380841+00:00
+updated_at: 2026-09-30T20:46:42.707683+00:00
 tags: [record, real-data]
 ---
 

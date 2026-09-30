@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-30T17:35:29.766756+00:00",
+  "generated_at": "2026-09-30T20:44:30.044680+00:00",
   "generator": "scripts/shopify_sync_guard.py",
   "ok": true,
   "violations": [],
   "shortlist_status": "proposed",
-  "shortlist_units": 4,
+  "shortlist_units": 5,
   "baseline": {
     "file": "data/shopify_sync_state.json",
     "present": false,
@@ -15,20 +15,31 @@
   },
   "mode": "initial",
   "summary": {
-    "create": 4,
+    "create": 5,
     "update": 0,
     "unchanged": 0,
     "remove_proposed": 0
   },
   "delta_dir": "data/shopify_exports/delta",
   "delta_rows": {
-    "products.csv": 5,
-    "inventory.csv": 5,
-    "images.csv": 5,
-    "collections.csv": 4
+    "products.csv": 6,
+    "inventory.csv": 6,
+    "images.csv": 6,
+    "collections.csv": 5
   },
   "price_rule": "±$0.50 그리고 ±3% 안의 가격 변화는 변경으로 보지 않는다",
   "units": [
+    {
+      "handle": "celderma-daily-collagen-sheet-mask-28-g",
+      "pd_nos": [
+        "1059834"
+      ],
+      "action": "create",
+      "changed": [
+        "새 상품"
+      ],
+      "content_hash": "909b723a5e55d129a92def33e19aee520e815b382054e5d8bcb22d3168b197f3"
+    },
     {
       "handle": "vonsep-retinol-500-iu-serum-30ml",
       "pd_nos": [

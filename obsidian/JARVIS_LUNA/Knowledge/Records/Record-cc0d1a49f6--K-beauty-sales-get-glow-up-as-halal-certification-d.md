@@ -2,7 +2,7 @@
 title: "Record cc0d1a49f6 · K-beauty-sales-get-glow-up-as-halal-certification-drives-popularity-am"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:44.053856+00:00
+updated_at: 2026-09-30T20:46:43.507821+00:00
 tags: [record, real-data]
 ---
 
@@ -13,10 +13,9 @@ tags: [record, real-data]
 **제목:** K-beauty sales get glow-up as halal certification drives popularity among Muslim consumers - Korea JoongAng Daily
 
 K-beauty sales get glow-up as halal certification drives popularity among Muslim consumers - Korea JoongAng Daily
-K-beauty sales get glow-up as halal certification drives popularity among Muslim consumers - Korea JoongAng Daily
 
-**출처:** Source · us_beauty
+**출처:** Source · Google Search
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

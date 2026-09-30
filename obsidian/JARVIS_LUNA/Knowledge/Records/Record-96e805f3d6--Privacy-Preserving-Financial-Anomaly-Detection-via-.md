@@ -2,7 +2,7 @@
 title: "Record 96e805f3d6 · Privacy-Preserving-Financial-Anomaly-Detection-via-Federated-Learning-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:43.570877+00:00
+updated_at: 2026-09-30T20:46:42.918265+00:00
 tags: [record, real-data]
 ---
 

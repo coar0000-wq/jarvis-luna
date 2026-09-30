@@ -2,7 +2,7 @@
 title: "Record fdd6f89ac9 · Highlight-Milk-Multipurpose-Luminizer"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:45.561540+00:00
+updated_at: 2026-09-30T20:46:45.064862+00:00
 tags: [record, real-data]
 ---
 

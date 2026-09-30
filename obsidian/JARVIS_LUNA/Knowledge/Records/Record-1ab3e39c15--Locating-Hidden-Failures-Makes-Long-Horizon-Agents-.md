@@ -2,7 +2,7 @@
 title: "Record 1ab3e39c15 · Locating-Hidden-Failures-Makes-Long-Horizon-Agents-More-Reliable"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:43.644896+00:00
+updated_at: 2026-09-30T20:46:43.044354+00:00
 tags: [record, real-data]
 ---
 

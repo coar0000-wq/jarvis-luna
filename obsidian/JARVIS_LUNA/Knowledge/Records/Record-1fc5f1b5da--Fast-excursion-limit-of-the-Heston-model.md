@@ -2,7 +2,7 @@
 title: "Record 1fc5f1b5da · Fast-excursion-limit-of-the-Heston-model"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:43.586653+00:00
+updated_at: 2026-09-30T20:46:42.947086+00:00
 tags: [record, real-data]
 ---
 

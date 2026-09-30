@@ -2,7 +2,7 @@
 title: "Record 97d05abdb0 · CarDroid-Container-Based-Architecture-for-Graphic-Intensive-Tasks-in-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:43.414424+00:00
+updated_at: 2026-09-30T20:46:42.742221+00:00
 tags: [record, real-data]
 ---
 

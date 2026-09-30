@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T14:48:46.121960+00:00",
+  "generated_at": "2026-09-30T20:42:06.113239+00:00",
   "generator": "scripts/build_youtube_review_queue.py",
   "purpose": "Gemini Notebook(NotebookLM) 주간 자막 검토 대상. 검토 결과는 ingest_notebook_review.py 로만 합친다.",
   "already_reviewed": 35,
@@ -78,9 +78,9 @@
       "origin": "지정 채널"
     },
     {
-      "video_id": "KAYuqH7igfY",
-      "url": "https://www.youtube.com/watch?v=KAYuqH7igfY",
-      "title": "SNEAK PEEK: How the Ideaverse in Obsidian is evolving (PRIVATE)",
+      "video_id": "DLuMopQkNTU",
+      "url": "https://www.youtube.com/watch?v=DLuMopQkNTU",
+      "title": "EXTENDED CUT: Five WEIRD Notebooks that I Love",
       "channel": "Linking Your Thinking with Nick Milo",
       "teams": [
         "graph"
@@ -90,9 +90,9 @@
       "origin": "지정 채널"
     },
     {
-      "video_id": "9TQ41CxG8pA",
-      "url": "https://www.youtube.com/watch?v=9TQ41CxG8pA",
-      "title": "Obsidian Triad: Properties, Bases, Workspaces (Behind the Scenes)",
+      "video_id": "KAYuqH7igfY",
+      "url": "https://www.youtube.com/watch?v=KAYuqH7igfY",
+      "title": "SNEAK PEEK: How the Ideaverse in Obsidian is evolving (PRIVATE)",
       "channel": "Linking Your Thinking with Nick Milo",
       "teams": [
         "graph"
@@ -214,6 +214,18 @@
       "origin": "지정 채널"
     },
     {
+      "video_id": "KDI73nLbYk4",
+      "url": "https://www.youtube.com/watch?v=KDI73nLbYk4",
+      "title": "Amazon AI Studio: Create Product Photos & Videos in Minutes | Amazon Seller Insights",
+      "channel": "Amazon Seller University",
+      "teams": [
+        "channels"
+      ],
+      "team_source": "사람 지정 채널",
+      "review_for": "channels",
+      "origin": "지정 채널"
+    },
+    {
       "video_id": "n6oboWBI_Ec",
       "url": "https://www.youtube.com/watch?v=n6oboWBI_Ec",
       "title": "FDA Patient-Focused Drug Development Meeting for Nonhealing Chronic Wounds",
@@ -223,18 +235,6 @@
       ],
       "team_source": "사람 지정 채널",
       "review_for": "legal",
-      "origin": "지정 채널"
-    },
-    {
-      "video_id": "vqr_qJjghNk",
-      "url": "https://www.youtube.com/watch?v=vqr_qJjghNk",
-      "title": "Configure your Amazon Seller Central account",
-      "channel": "Amazon Seller University",
-      "teams": [
-        "channels"
-      ],
-      "team_source": "사람 지정 채널",
-      "review_for": "channels",
       "origin": "지정 채널"
     },
     {
@@ -283,5 +283,5 @@
     "graph": "옵시디언 그래프"
   },
   "output_file": "data/manual/notebook_reviews/<YYYY-MM-DD>.json",
-  "notebook_prompt": "너는 JARVIS(다이소 K뷰티 상품을 미국 Shopify 에서 파는 사업)의 검토자다.\n이 노트북의 영상 자막만 근거로, 각 영상이 지정된 팀(channels, design, graph, institutions, knowledge, legal, listing, market, pricing, robotics)에 실제로 적용할 수 있는 실행 항목을 뽑아라.\n규칙:\n1) 자막에 있는 내용만. 각 항목에 영상 ID 와 타임스탬프(mm:ss-mm:ss)를 반드시 단다.\n2) 영상 제작자의 매출·ROAS·전환 '몇 배' 같은 수치는 근거로 쓰지 말고 rejected_claims 에 적는다.\n3) 우리 사업에 쓸 수 없는 영상은 verdict 를 no_actionable 로 두고 항목을 만들지 않는다.\n4) 법률·규제·의약품 효능 주장은 만들지 않는다. 규제 내용은 원문 확인이 필요하다고 prerequisites 에 적는다.\n5) 아래 JSON 하나만 답한다. 다른 문장은 쓰지 않는다.\n{\"videos\":[{\"video_id\":\"...\",\"verdict\":\"adopted|no_actionable|unavailable\",\"note\":\"한 줄\"}],\n \"insights\":[{\"pillar\":\"cro|content|ads|retention|pricing|compliance|design|operations|research\",\n   \"tactic\":\"짧은 이름\",\"action\":\"우리 팀이 할 일을 한두 문장\",\n   \"evidence\":{\"video_id\":\"...\",\"timestamp\":\"mm:ss-mm:ss\",\"summary\":\"자막 근거 요약\"},\n   \"prerequisites\":[\"...\"],\"kpis\":[\"...\"],\"teams\":[\"팀코드\"],\"applicability\":\"어디에 쓰나\",\n   \"confidence\":\"high|medium|low\"}],\n \"rejected_claims\":[\"...\"]}\n팀 코드: sourcing, institutions, market, listing, pricing, legal, robotics, design, channels, knowledge, graph\n영상별 담당 팀:\n- SihnYUTfxR8 -> design (구글이 무료로 뿌리는 디자인AI '스티치' 요약정리)\n- uTr2yXMeL9w -> design (100 Product Command Prompts to Boost Productivity (ChatGPT &)\n- dNUXhId7XfE -> knowledge (정부가 1.6조 들인 AI 학습데이터 977개, 쓸 만한 것만 골라 받아봤습니다 | AI허브 무료)\n- oWOyUMJWptc -> robotics (Unitree Unveils: GD01, A Manned Transformable Mecha, from $6)\n- srPz8TRpZ_8 -> robotics (Heard some people like wheels？😁)\n- m_RWLfHCA2I -> market (Entrepreneurs: we're built different)\n- KAYuqH7igfY -> graph (SNEAK PEEK: How the Ideaverse in Obsidian is evolving (PRIVA)\n- 9TQ41CxG8pA -> graph (Obsidian Triad: Properties, Bases, Workspaces (Behind the Sc)\n- ZXpm1X7-PFM -> market (Shopify on Sphere in Las Vegas)\n- Spuza-KwTJ4 -> knowledge (GPT 6 Astra, so good even OpenAI are worried)\n- Cnuj24PjWrQ -> institutions (Using AI to outsmart drug-resistant bacteria)\n- wd5ZZV8if54 -> institutions (Predicting a historic storm earlier with WeatherNext)\n- Ih5RapM8XKw -> listing (How to Use Claude to Build and Run a Shopify Store)\n- VbSF8TUpsjE -> listing (Claude Tutorial for Beginners: The Complete 2026 Masterclass)\n- ctBFjJ0ujKs -> pricing (🚨견적서가 너무 어려운 사장님들 주목! | 견적 책정 기준부터 세부 항목까지 자세하게 뜯어보기 👀)\n- N25K080mYE8 -> legal (Navigating the FDA Bayesian Draft Guidance: Design, Analysis)\n- BOT3kMcuvRk -> channels (How to Use AI Tools to Optimize Amazon Product Listings in 2)\n- n6oboWBI_Ec -> legal (FDA Patient-Focused Drug Development Meeting for Nonhealing )\n- vqr_qJjghNk -> channels (Configure your Amazon Seller Central account)\n- 7VeooS_ZSN8 -> pricing (Flexport The Video Game)"
+  "notebook_prompt": "너는 JARVIS(다이소 K뷰티 상품을 미국 Shopify 에서 파는 사업)의 검토자다.\n이 노트북의 영상 자막만 근거로, 각 영상이 지정된 팀(channels, design, graph, institutions, knowledge, legal, listing, market, pricing, robotics)에 실제로 적용할 수 있는 실행 항목을 뽑아라.\n규칙:\n1) 자막에 있는 내용만. 각 항목에 영상 ID 와 타임스탬프(mm:ss-mm:ss)를 반드시 단다.\n2) 영상 제작자의 매출·ROAS·전환 '몇 배' 같은 수치는 근거로 쓰지 말고 rejected_claims 에 적는다.\n3) 우리 사업에 쓸 수 없는 영상은 verdict 를 no_actionable 로 두고 항목을 만들지 않는다.\n4) 법률·규제·의약품 효능 주장은 만들지 않는다. 규제 내용은 원문 확인이 필요하다고 prerequisites 에 적는다.\n5) 아래 JSON 하나만 답한다. 다른 문장은 쓰지 않는다.\n{\"videos\":[{\"video_id\":\"...\",\"verdict\":\"adopted|no_actionable|unavailable\",\"note\":\"한 줄\"}],\n \"insights\":[{\"pillar\":\"cro|content|ads|retention|pricing|compliance|design|operations|research\",\n   \"tactic\":\"짧은 이름\",\"action\":\"우리 팀이 할 일을 한두 문장\",\n   \"evidence\":{\"video_id\":\"...\",\"timestamp\":\"mm:ss-mm:ss\",\"summary\":\"자막 근거 요약\"},\n   \"prerequisites\":[\"...\"],\"kpis\":[\"...\"],\"teams\":[\"팀코드\"],\"applicability\":\"어디에 쓰나\",\n   \"confidence\":\"high|medium|low\"}],\n \"rejected_claims\":[\"...\"]}\n팀 코드: sourcing, institutions, market, listing, pricing, legal, robotics, design, channels, knowledge, graph\n영상별 담당 팀:\n- SihnYUTfxR8 -> design (구글이 무료로 뿌리는 디자인AI '스티치' 요약정리)\n- uTr2yXMeL9w -> design (100 Product Command Prompts to Boost Productivity (ChatGPT &)\n- dNUXhId7XfE -> knowledge (정부가 1.6조 들인 AI 학습데이터 977개, 쓸 만한 것만 골라 받아봤습니다 | AI허브 무료)\n- oWOyUMJWptc -> robotics (Unitree Unveils: GD01, A Manned Transformable Mecha, from $6)\n- srPz8TRpZ_8 -> robotics (Heard some people like wheels？😁)\n- m_RWLfHCA2I -> market (Entrepreneurs: we're built different)\n- DLuMopQkNTU -> graph (EXTENDED CUT: Five WEIRD Notebooks that I Love)\n- KAYuqH7igfY -> graph (SNEAK PEEK: How the Ideaverse in Obsidian is evolving (PRIVA)\n- ZXpm1X7-PFM -> market (Shopify on Sphere in Las Vegas)\n- Spuza-KwTJ4 -> knowledge (GPT 6 Astra, so good even OpenAI are worried)\n- Cnuj24PjWrQ -> institutions (Using AI to outsmart drug-resistant bacteria)\n- wd5ZZV8if54 -> institutions (Predicting a historic storm earlier with WeatherNext)\n- Ih5RapM8XKw -> listing (How to Use Claude to Build and Run a Shopify Store)\n- VbSF8TUpsjE -> listing (Claude Tutorial for Beginners: The Complete 2026 Masterclass)\n- ctBFjJ0ujKs -> pricing (🚨견적서가 너무 어려운 사장님들 주목! | 견적 책정 기준부터 세부 항목까지 자세하게 뜯어보기 👀)\n- N25K080mYE8 -> legal (Navigating the FDA Bayesian Draft Guidance: Design, Analysis)\n- BOT3kMcuvRk -> channels (How to Use AI Tools to Optimize Amazon Product Listings in 2)\n- KDI73nLbYk4 -> channels (Amazon AI Studio: Create Product Photos & Videos in Minutes )\n- n6oboWBI_Ec -> legal (FDA Patient-Focused Drug Development Meeting for Nonhealing )\n- 7VeooS_ZSN8 -> pricing (Flexport The Video Game)"
 }

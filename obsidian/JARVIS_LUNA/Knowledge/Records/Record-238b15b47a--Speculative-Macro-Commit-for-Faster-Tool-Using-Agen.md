@@ -2,7 +2,7 @@
 title: "Record 238b15b47a · Speculative-Macro-Commit-for-Faster-Tool-Using-Agents"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:43.608322+00:00
+updated_at: 2026-09-30T20:46:42.999751+00:00
 tags: [record, real-data]
 ---
 

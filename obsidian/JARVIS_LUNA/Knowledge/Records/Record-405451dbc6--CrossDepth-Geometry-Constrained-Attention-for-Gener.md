@@ -2,7 +2,7 @@
 title: "Record 405451dbc6 · CrossDepth-Geometry-Constrained-Attention-for-Gener"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:42.832749+00:00
+updated_at: 2026-09-30T20:46:42.096457+00:00
 tags: [record, real-data]
 ---
 

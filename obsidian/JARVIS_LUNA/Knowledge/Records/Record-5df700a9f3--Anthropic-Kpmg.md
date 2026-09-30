@@ -2,7 +2,7 @@
 title: "Record 5df700a9f3 · Anthropic-Kpmg"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:45.329588+00:00
+updated_at: 2026-09-30T20:46:44.841185+00:00
 tags: [record, real-data]
 ---
 

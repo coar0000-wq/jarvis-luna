@@ -2,7 +2,7 @@
 title: "Record 763f8de1d7 · dKFD-Phase-Structured-Evidence-Allocation-for-Fixed-Budget-Localized-E"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:43.818691+00:00
+updated_at: 2026-09-30T20:46:43.254018+00:00
 tags: [record, real-data]
 ---
 

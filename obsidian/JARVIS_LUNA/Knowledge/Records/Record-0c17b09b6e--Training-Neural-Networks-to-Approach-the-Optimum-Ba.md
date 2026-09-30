@@ -2,7 +2,7 @@
 title: "Record 0c17b09b6e · Training-Neural-Networks-to-Approach-the-Optimum-Bayes-Estimator-in-De"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:43.682427+00:00
+updated_at: 2026-09-30T20:46:43.085234+00:00
 tags: [record, real-data]
 ---
 

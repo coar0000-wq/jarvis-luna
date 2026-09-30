@@ -2,7 +2,7 @@
 title: "Record 5f953a1c21 · Why-Curtain-Bangs-Look-Amazing-on-Everyone"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:44.968834+00:00
+updated_at: 2026-09-30T20:46:44.477435+00:00
 tags: [record, real-data]
 ---
 

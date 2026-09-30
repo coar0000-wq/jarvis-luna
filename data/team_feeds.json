@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-30T14:39:34.233802+00:00",
+  "generated_at": "2026-09-30T20:33:34.040888+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
-  "pool_size": 3110,
+  "pool_size": 2844,
   "제목없어_버림": 38,
   "unrouted": 10,
   "summary": {
@@ -15,10 +15,10 @@
       "products": 356
     },
     "market": {
-      "total": 933,
-      "recent": 91,
-      "material": 933,
-      "material_recent": 91,
+      "total": 922,
+      "recent": 96,
+      "material": 922,
+      "material_recent": 96,
       "products": 0
     },
     "listing": {
@@ -29,45 +29,45 @@
       "products": 0
     },
     "pricing": {
-      "total": 74,
-      "recent": 30,
-      "material": 74,
-      "material_recent": 30,
+      "total": 66,
+      "recent": 29,
+      "material": 66,
+      "material_recent": 29,
       "products": 0
     },
     "legal": {
-      "total": 233,
+      "total": 229,
       "recent": 51,
-      "material": 233,
+      "material": 229,
       "material_recent": 51,
       "products": 0
     },
     "design": {
-      "total": 438,
-      "recent": 123,
-      "material": 438,
-      "material_recent": 123,
+      "total": 426,
+      "recent": 131,
+      "material": 426,
+      "material_recent": 131,
       "products": 0
     },
     "robotics": {
-      "total": 151,
-      "recent": 49,
-      "material": 151,
-      "material_recent": 49,
+      "total": 147,
+      "recent": 54,
+      "material": 147,
+      "material_recent": 54,
       "products": 0
     },
     "knowledge": {
-      "total": 256,
-      "recent": 93,
-      "material": 256,
-      "material_recent": 93,
+      "total": 263,
+      "recent": 100,
+      "material": 263,
+      "material_recent": 100,
       "products": 0
     },
     "institutions": {
-      "total": 1161,
-      "recent": 220,
-      "material": 1161,
-      "material_recent": 220,
+      "total": 898,
+      "recent": 237,
+      "material": 898,
+      "material_recent": 237,
       "products": 0
     },
     "channels": {
@@ -1441,14 +1441,14 @@
         "by_hand": true
       },
       {
-        "title": "How to Supercharge Claude with Design Skills",
+        "title": "What Are Claude Design Skills and How to Use Them",
         "url": "https://www.youtube.com/watch?v=psUJ14KmwpI",
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
       },
       {
-        "title": "Beyond TikTok Shop: How to Use TikTok to Drive Sales",
+        "title": "Beyond TikTok Shop: How to Use TikTok to Drive Shopify Sales",
         "url": "https://www.youtube.com/watch?v=nIOn_726Rxk",
         "pool": "youtube_channel",
         "date": "",
@@ -2601,7 +2601,7 @@
         "by_hand": true
       },
       {
-        "title": "This UI/UX Redesign Will Teach You More Than Figma 100 Tutorials Combined",
+        "title": "These UI/UX Design Mistakes Will Break Your UI Designs",
         "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
         "pool": "youtube_channel",
         "date": "",
@@ -2783,14 +2783,14 @@
         "by_hand": true
       },
       {
-        "title": "How to Supercharge Claude with Design Skills",
+        "title": "What Are Claude Design Skills and How to Use Them",
         "url": "https://www.youtube.com/watch?v=psUJ14KmwpI",
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
       },
       {
-        "title": "Beyond TikTok Shop: How to Use TikTok to Drive Sales",
+        "title": "Beyond TikTok Shop: How to Use TikTok to Drive Shopify Sales",
         "url": "https://www.youtube.com/watch?v=nIOn_726Rxk",
         "pool": "youtube_channel",
         "date": "",
@@ -3695,6 +3695,13 @@
         "by_hand": true
       },
       {
+        "title": "NVIDIA DOCA Skills vs No Skills: Building RDMA on NVIDIA BlueField-3 with Fewer Commands & Less Code",
+        "url": "https://www.youtube.com/watch?v=vmAIpEHrCok",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
         "title": "Vertically Integrated, Horizontally Open | AI Factory Insider Ep 5",
         "url": "https://www.youtube.com/watch?v=mFv4VRoFj-k",
         "pool": "youtube_channel",
@@ -3893,13 +3900,6 @@
       {
         "title": "Bringing Agent-Ready Simulation Into Blender",
         "url": "https://www.youtube.com/watch?v=XdtQbMXHDjQ",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "How NVIDIA Runs Its Own AI Factory | AI Factory Insider Ep. 2",
-        "url": "https://www.youtube.com/watch?v=Jpsq_-1kJTo",
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true

@@ -2,7 +2,7 @@
 title: "Record 1f5fea3f35 · DynGraphAgentBench-A-Benchmark-for-Agentic-Lifecycle-Control-in-Dynami"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:43.825261+00:00
+updated_at: 2026-09-30T20:46:43.261883+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 139c5392b5 · The-Korean-Sunscreen-Ingredient-Weve-Been-Waiting-for-Is-Finally-Here-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:44.425664+00:00
+updated_at: 2026-09-30T20:46:43.902883+00:00
 tags: [record, real-data]
 ---
 

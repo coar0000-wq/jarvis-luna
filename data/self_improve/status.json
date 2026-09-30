@@ -1,20 +1,33 @@
 {
-  "generated_at": "2026-09-30T14:41:13.042311+00:00",
+  "generated_at": "2026-09-30T20:34:38.744874+00:00",
   "generator": "scripts/self_improve.py",
   "principle": "무료·설정만 변경·그림자 평가 후 채택·실측 악화 시 자동 롤백",
   "loops": {
     "topics": {
       "metric": "uncategorized_rate",
-      "records": 6167,
-      "base_uncategorized": 1088,
-      "before": 0.0816,
-      "after_shadow": 0.0816,
+      "records": 6291,
+      "base_uncategorized": 1096,
+      "before": 0.08,
+      "after_shadow": 0.0788,
       "uncategorized_before": 503,
-      "uncategorized_after_shadow": 503,
-      "adopted": 0,
-      "learned_keywords": 16,
-      "decisions": [],
-      "status": "no_change"
+      "uncategorized_after_shadow": 496,
+      "adopted": 1,
+      "learned_keywords": 17,
+      "decisions": [
+        {
+          "loop": "topics",
+          "action": "adopt",
+          "keyword": "spray",
+          "topic": "뷰티·스킨케어",
+          "precision": 1.0,
+          "support": 8,
+          "uncategorized_hits": 7,
+          "source": "us_beauty",
+          "source_fit": 0.888,
+          "newly_classified": 7
+        }
+      ],
+      "status": "adopted"
     },
     "sourcing": {
       "metric": "useful_fetch_rate",
@@ -49,5 +62,5 @@
       "status": "active"
     }
   },
-  "decisions_total": 18
+  "decisions_total": 19
 }

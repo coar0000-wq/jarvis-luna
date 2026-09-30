@@ -2,7 +2,7 @@
 title: "Record 0d54f3cf25 · The-Persistence-of-Stock-Selection-Residuals-A-Point-In-Time-Holdings-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:43.490813+00:00
+updated_at: 2026-09-30T20:46:42.829919+00:00
 tags: [record, real-data]
 ---
 

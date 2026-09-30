@@ -2,7 +2,7 @@
 title: "Record c5c8e721f8 · K-Beauty-Isnt-Just-For-Gen-Z-These-Korean-Skin-Care"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:44.460334+00:00
+updated_at: 2026-09-30T20:46:43.942611+00:00
 tags: [record, real-data]
 ---
 

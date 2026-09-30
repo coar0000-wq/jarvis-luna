@@ -2,7 +2,7 @@
 title: "Record f465a33fde · 7types-MEDIHEAL-Essential-Face-Mask-4ct-081-fl-oz24ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:44.902493+00:00
+updated_at: 2026-09-30T20:46:44.409718+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** [7types] MEDIHEAL Essential Face Mask 4ct 0.81 fl. oz.(24ml)
 
 [7types] MEDIHEAL Essential Face Mask 4ct 0.81 fl. oz.(24ml)
-[7types] MEDIHEAL Essential Face Mask 4ct 0.81 fl. oz.(24ml) · 평점 4.9 · 리뷰 12,945
+[7types] MEDIHEAL Essential Face Mask 4ct 0.81 fl. oz.(24ml) · 평점 4.9 · 리뷰 12,924
 
 **출처:** Source · us_beauty
 

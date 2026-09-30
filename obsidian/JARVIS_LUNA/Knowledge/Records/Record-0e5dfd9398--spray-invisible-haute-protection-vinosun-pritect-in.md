@@ -2,7 +2,7 @@
 title: "Record 0e5dfd9398 · spray-invisible-haute-protection-vinosun-pritect-indice-50"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:44.923324+00:00
+updated_at: 2026-09-30T20:46:44.431396+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ spray invisible haute protection vinosun pritect indice 50 · caudalie
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

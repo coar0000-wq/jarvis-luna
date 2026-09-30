@@ -2,7 +2,7 @@
 title: "Record 69c8e22201 · LoopSpec-Pipelined-Self-Speculative-Decoding-for-Looped-Transformers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:42.989849+00:00
+updated_at: 2026-09-30T20:46:42.261675+00:00
 tags: [record, real-data]
 ---
 

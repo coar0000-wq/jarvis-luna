@@ -2,7 +2,7 @@
 title: "Record 1bb4ad27cd · Pre-Compiled-Pipeline-Shards-for-Distributed-LLM-Inference-on-Intel-AI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:43.600113+00:00
+updated_at: 2026-09-30T20:46:42.990656+00:00
 tags: [record, real-data]
 ---
 

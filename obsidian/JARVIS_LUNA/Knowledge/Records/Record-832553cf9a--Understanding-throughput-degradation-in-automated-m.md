@@ -2,7 +2,7 @@
 title: "Record 832553cf9a · Understanding-throughput-degradation-in-automated-material-handling-sy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:43.298312+00:00
+updated_at: 2026-09-30T20:46:42.611236+00:00
 tags: [record, real-data]
 ---
 

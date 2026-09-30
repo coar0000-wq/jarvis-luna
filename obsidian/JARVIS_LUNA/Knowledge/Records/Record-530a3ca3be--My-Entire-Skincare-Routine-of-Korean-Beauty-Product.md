@@ -2,7 +2,7 @@
 title: "Record 530a3ca3be · My-Entire-Skincare-Routine-of-Korean-Beauty-Product"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:44.413323+00:00
+updated_at: 2026-09-30T20:46:43.887354+00:00
 tags: [record, real-data]
 ---
 

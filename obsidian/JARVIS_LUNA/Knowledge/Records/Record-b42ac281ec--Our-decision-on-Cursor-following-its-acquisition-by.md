@@ -2,7 +2,7 @@
 title: "Record b42ac281ec · Our-decision-on-Cursor-following-its-acquisition-by"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:44.680616+00:00
+updated_at: 2026-09-30T20:46:44.179730+00:00
 tags: [record, real-data]
 ---
 

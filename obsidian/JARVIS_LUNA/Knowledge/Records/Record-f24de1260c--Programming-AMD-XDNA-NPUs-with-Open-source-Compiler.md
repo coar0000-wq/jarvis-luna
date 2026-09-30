@@ -2,7 +2,7 @@
 title: "Record f24de1260c · Programming-AMD-XDNA-NPUs-with-Open-source-Compiler-Tools-A-FlashAtten"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:43.689945+00:00
+updated_at: 2026-09-30T20:46:43.093393+00:00
 tags: [record, real-data]
 ---
 
@@ -13,10 +13,9 @@ tags: [record, real-data]
 **제목:** Programming AMD XDNA NPUs with Open-source Compiler Tools: A FlashAttention Case Study
 
 Programming AMD XDNA NPUs with Open-source Compiler Tools: A FlashAttention Case Study
-Spatial NPUs such as AMD XDNA place compute tiles beside small local memories and leave data movement between them to software. Mapping a multi-stage workload onto such a device is largely a question of where the intermediate tensors live. We report what we learned making those choices for FlashAttention with the open-source IRON and MLIR-AIR flows. We compare four reference designs on XDNA 1 and
 
-**출처:** Source · arXiv
+**출처:** Source · institutions
 
 ## Connected nodes
 
-[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[반도체하드웨어]] [[기관--AMD]] [[JARVIS Real Knowledge Index]]

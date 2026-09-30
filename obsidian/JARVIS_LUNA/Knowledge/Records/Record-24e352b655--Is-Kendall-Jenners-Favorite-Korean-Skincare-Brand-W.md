@@ -2,7 +2,7 @@
 title: "Record 24e352b655 · Is-Kendall-Jenners-Favorite-Korean-Skincare-Brand-Worth-It---Harpers-B"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:44.394636+00:00
+updated_at: 2026-09-30T20:46:43.865770+00:00
 tags: [record, real-data]
 ---
 

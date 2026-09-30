@@ -2,7 +2,7 @@
 title: "Record ff26992f4d · ArcticSwarm-Deferring-Early-Consensus-in-Long-Horizon-Multi-Agent-Rese"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:43.607526+00:00
+updated_at: 2026-09-30T20:46:42.998933+00:00
 tags: [record, real-data]
 ---
 

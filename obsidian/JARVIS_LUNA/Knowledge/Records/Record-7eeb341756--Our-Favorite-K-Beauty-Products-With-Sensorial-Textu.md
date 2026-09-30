@@ -2,7 +2,7 @@
 title: "Record 7eeb341756 · Our-Favorite-K-Beauty-Products-With-Sensorial-Textures-You-Just-Have-t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:44.257220+00:00
+updated_at: 2026-09-30T20:46:43.719945+00:00
 tags: [record, real-data]
 ---
 

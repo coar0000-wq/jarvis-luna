@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T14:49:26.562225+00:00",
+  "generated_at": "2026-09-30T20:42:51.102964+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "california flooding",
+          "keyword": "mu stock",
           "approx_traffic": "20000+",
           "traffic_num": 20000,
-          "published": "Wed, 30 Sep 2026 07:20:00 -0700",
-          "source_name": "The Weather Channel",
-          "url": "https://trends.google.com/trending?geo=US&q=california%20flooding"
+          "published": "Wed, 30 Sep 2026 12:50:00 -0700",
+          "source_name": "Yahoo Finance",
+          "url": "https://trends.google.com/trending?geo=US&q=mu%20stock"
         },
         {
-          "keyword": "strait of hormuz news",
+          "keyword": "goog stock",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Wed, 30 Sep 2026 06:40:00 -0700",
-          "source_name": "Al Jazeera",
-          "url": "https://trends.google.com/trending?geo=US&q=strait%20of%20hormuz%20news"
+          "published": "Wed, 30 Sep 2026 13:20:00 -0700",
+          "source_name": "Currently.com",
+          "url": "https://trends.google.com/trending?geo=US&q=goog%20stock"
         },
         {
-          "keyword": "d'angelo russell",
+          "keyword": "gemini 4",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Wed, 30 Sep 2026 06:20:00 -0700",
-          "source_name": "Bleacher Report",
-          "url": "https://trends.google.com/trending?geo=US&q=d%27angelo%20russell"
+          "published": "Wed, 30 Sep 2026 13:10:00 -0700",
+          "source_name": "CNBC",
+          "url": "https://trends.google.com/trending?geo=US&q=gemini%204"
         },
         {
-          "keyword": "burke high school",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Wed, 30 Sep 2026 05:50:00 -0700",
-          "source_name": "KETV",
-          "url": "https://trends.google.com/trending?geo=US&q=burke%20high%20school"
-        },
-        {
-          "keyword": "shemar moore",
+          "keyword": "lottery",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Wed, 30 Sep 2026 06:30:00 -0700",
-          "source_name": "Yahoo",
-          "url": "https://trends.google.com/trending?geo=US&q=shemar%20moore"
+          "published": "Wed, 30 Sep 2026 13:20:00 -0700",
+          "source_name": "MassLive.com",
+          "url": "https://trends.google.com/trending?geo=US&q=lottery"
         },
         {
-          "keyword": "manassas shooting",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Wed, 30 Sep 2026 07:20:00 -0700",
-          "source_name": "NBC4 Washington",
-          "url": "https://trends.google.com/trending?geo=US&q=manassas%20shooting"
+          "keyword": "secret lair",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Wed, 30 Sep 2026 12:50:00 -0700",
+          "source_name": "Magic: The Gathering",
+          "url": "https://trends.google.com/trending?geo=US&q=secret%20lair"
         },
         {
-          "keyword": "zach braff",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Wed, 30 Sep 2026 06:20:00 -0700",
-          "source_name": "Deadline",
-          "url": "https://trends.google.com/trending?geo=US&q=zach%20braff"
+          "keyword": "ps5 pro",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Wed, 30 Sep 2026 12:50:00 -0700",
+          "source_name": "TechPowerUp",
+          "url": "https://trends.google.com/trending?geo=US&q=ps5%20pro"
         },
         {
-          "keyword": "aterrizaje de emergencia",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Wed, 30 Sep 2026 06:10:00 -0700",
-          "source_name": "CNN en Español",
-          "url": "https://trends.google.com/trending?geo=US&q=aterrizaje%20de%20emergencia"
+          "keyword": "millennials",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Wed, 30 Sep 2026 12:50:00 -0700",
+          "source_name": "Fortune",
+          "url": "https://trends.google.com/trending?geo=US&q=millennials"
         },
         {
-          "keyword": "heated rivalry",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Wed, 30 Sep 2026 05:40:00 -0700",
-          "source_name": "The Hollywood Reporter",
-          "url": "https://trends.google.com/trending?geo=US&q=heated%20rivalry"
+          "keyword": "brandon marsh",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Wed, 30 Sep 2026 12:50:00 -0700",
+          "source_name": "NBC Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=brandon%20marsh"
         },
         {
-          "keyword": "savannah james",
+          "keyword": "john kruk",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Wed, 30 Sep 2026 12:50:00 -0700",
+          "source_name": "Sportico.com",
+          "url": "https://trends.google.com/trending?geo=US&q=john%20kruk"
+        },
+        {
+          "keyword": "tyler perry $57m estate listing",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Wed, 30 Sep 2026 05:40:00 -0700",
-          "source_name": "Yahoo",
-          "url": "https://trends.google.com/trending?geo=US&q=savannah%20james"
+          "published": "Wed, 30 Sep 2026 12:50:00 -0700",
+          "source_name": "WSJ",
+          "url": "https://trends.google.com/trending?geo=US&q=tyler%20perry%20%2457m%20estate%20listing"
         }
       ]
     },
@@ -187,6 +187,21 @@
       "source": "allure.com/feed/rss",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
       "items": [
+        {
+          "title": "7 Best Peptide Serums 2026 for Plumper, Bouncier Skin",
+          "published": "Wed, 30 Sep 2026 19:31:39 +0000",
+          "url": "https://www.allure.com/gallery/best-peptide-skin-care-products"
+        },
+        {
+          "title": "October Allure Beauty Box Review",
+          "published": "Wed, 30 Sep 2026 17:00:00 +0000",
+          "url": "https://www.allure.com/story/october-allure-beauty-box-26"
+        },
+        {
+          "title": "Dakota Johnson Helped Style Her Own \"Quarter-Up\" Hairdo",
+          "published": "Wed, 30 Sep 2026 15:52:46 +0000",
+          "url": "https://www.allure.com/story/dakota-johnson-quarter-up-hair"
+        },
         {
           "title": "Hailey Bieber's Hot Chocolate Nails Match Her New Hair Color—See the Photos",
           "published": "Wed, 30 Sep 2026 13:03:17 +0000",
@@ -321,21 +336,6 @@
           "title": "9 Best Serums for Aging Skin That Target Dryness, Fine Lines, and Laxity",
           "published": "Thu, 24 Sep 2026 18:26:26 +0000",
           "url": "https://www.allure.com/story/serums-for-mature-skin"
-        },
-        {
-          "title": "11 K-Beauty Best of Beauty Winners 2026 That Earned Glowing Reviews",
-          "published": "Thu, 24 Sep 2026 18:22:00 +0000",
-          "url": "https://www.allure.com/story/korean-beauty-best-of-beauty-award-winners"
-        },
-        {
-          "title": "Zara Larsson Put Her Spin on Pink Hair for the \"Allure\" Cover—See the Photos",
-          "published": "Thu, 24 Sep 2026 17:14:46 +0000",
-          "url": "https://www.allure.com/story/zara-larsson-pink-hair-allure-cover"
-        },
-        {
-          "title": "Patchology Moodpatch Perk Up Eye Gels Review",
-          "published": "Thu, 24 Sep 2026 15:23:06 +0000",
-          "url": "https://www.allure.com/review/patchology-moodpatch-perk-up-eye-gels-review-2026"
         }
       ]
     },

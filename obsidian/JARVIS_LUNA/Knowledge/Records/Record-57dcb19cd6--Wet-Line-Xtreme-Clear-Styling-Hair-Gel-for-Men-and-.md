@@ -2,7 +2,7 @@
 title: "Record 57dcb19cd6 · Wet-Line-Xtreme-Clear-Styling-Hair-Gel-for-Men-and-Women-Frizz-Control"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:45.705215+00:00
+updated_at: 2026-09-30T20:46:45.215931+00:00
 tags: [record, real-data]
 ---
 

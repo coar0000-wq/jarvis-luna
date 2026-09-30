@@ -2,7 +2,7 @@
 title: "Record 5168581280 · Meta-Partners-With-Shopify-to-Introduce-AI-Powered-Shopping-and-Checko"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:44.479967+00:00
+updated_at: 2026-09-30T20:46:43.965277+00:00
 tags: [record, real-data]
 ---
 

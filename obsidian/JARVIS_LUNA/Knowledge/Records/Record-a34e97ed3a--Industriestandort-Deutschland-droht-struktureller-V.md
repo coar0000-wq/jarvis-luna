@@ -2,7 +2,7 @@
 title: "Record a34e97ed3a · Industriestandort-Deutschland-droht-struktureller-Verlust-an-Wettbewer"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:43.165722+00:00
+updated_at: 2026-09-30T20:46:42.463010+00:00
 tags: [record, real-data]
 ---
 

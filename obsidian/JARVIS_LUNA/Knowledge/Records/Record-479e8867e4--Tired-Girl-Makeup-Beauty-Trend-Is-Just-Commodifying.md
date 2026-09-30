@@ -2,7 +2,7 @@
 title: "Record 479e8867e4 · Tired-Girl-Makeup-Beauty-Trend-Is-Just-Commodifying"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:44.413691+00:00
+updated_at: 2026-09-30T20:46:43.887778+00:00
 tags: [record, real-data]
 ---
 

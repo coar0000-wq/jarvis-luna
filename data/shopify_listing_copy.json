@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T14:53:30.256076+00:00",
+  "generated_at": "2026-09-30T20:44:24.092754+00:00",
   "generator": "scripts/build_listing_copy_local.py",
   "model": "none_local_deterministic",
   "paid_api_called": false,
@@ -10,8 +10,8 @@
   "ok": 8,
   "failed": 0,
   "skipped_prerequisite": 2,
-  "carried_forward": 8,
-  "generated_local": 0,
+  "carried_forward": 7,
+  "generated_local": 1,
   "items": [
     {
       "canonical_product_id": "CP000107",
@@ -174,6 +174,27 @@
       "error": ""
     },
     {
+      "canonical_product_id": "CP000218",
+      "pd_no": "1067500",
+      "name_ko": "[이중턱리프팅]VT PDRN 광채리프팅마스크 1매 27 g+광채에센스 1.5 ml",
+      "bucket": "마스크팩",
+      "price_krw": 2000,
+      "rating": null,
+      "review_count": null,
+      "shopify_score": 95,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067500",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251031/vqLOvtmpEIgiT5E4Vo0l1067500_00_01vqLOvtmpEIgiT5E4Vo0l.jpg",
+      "copy": null,
+      "copy_status": "skipped_prerequisite",
+      "generation_mode": "none",
+      "agent_blocked_by": [
+        "gosi",
+        "us_label",
+        "legal"
+      ],
+      "error": "ontology 선행 게이트 미통과: gosi, us_label, legal"
+    },
+    {
       "canonical_product_id": "CP000270",
       "pd_no": "1075857",
       "name_ko": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
@@ -213,7 +234,7 @@
       "price_krw": 3000,
       "rating": null,
       "review_count": null,
-      "shopify_score": 93,
+      "shopify_score": 92,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20250929/gblFwiiyQbV92ezzjLMk1049285_00_01gblFwiiyQbV92ezzjLMk.jpg",
       "copy": {
@@ -229,6 +250,36 @@
           "korean-beauty"
         ],
         "product_type": "Sleeping Mask"
+      },
+      "copy_status": "ok",
+      "generation_mode": "deterministic_local_template_v1",
+      "agent_blocked_by": [],
+      "error": ""
+    },
+    {
+      "canonical_product_id": "CP000151",
+      "pd_no": "1059834",
+      "name_ko": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+      "bucket": "마스크팩",
+      "price_krw": 2000,
+      "rating": null,
+      "review_count": null,
+      "shopify_score": 89,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250429/dEtwcu53V3cOWvQ0SnSL1059834_00_01dEtwcu53V3cOWvQ0SnSL.jpg",
+      "copy": {
+        "title": "CELDERMA Daily Collagen Sheet Mask 28 g",
+        "description_html": "<p>CELDERMA Daily Collagen Sheet Mask 28 g is a Korean beauty sheet mask in a 28 g size. This draft uses only the verified product identity and package information.</p><p>Review the ingredient list, directions, and final US label before publication.</p>",
+        "seo_title": "CELDERMA Daily Collagen Sheet Mask 28 g",
+        "seo_description": "View CELDERMA Daily Collagen Sheet Mask 28 g. Product identity and size are based on the source product notice. Review ingredients, directions, and the final label before purchase.",
+        "tags": [
+          "celderma-daily",
+          "collagen",
+          "sheet-mask",
+          "k-beauty",
+          "korean-beauty"
+        ],
+        "product_type": "Sheet Mask"
       },
       "copy_status": "ok",
       "generation_mode": "deterministic_local_template_v1",
@@ -254,57 +305,6 @@
         "legal"
       ],
       "error": "ontology 선행 게이트 미통과: us_label, legal"
-    },
-    {
-      "canonical_product_id": "CP000075",
-      "pd_no": "1042619",
-      "name_ko": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
-      "bucket": "마스크팩",
-      "price_krw": 1000,
-      "rating": null,
-      "review_count": null,
-      "shopify_score": 88,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240109/8IB1YBxg81UqZXiKzXFM1042619_00_008IB1YBxg81UqZXiKzXFM.jpg",
-      "copy": {
-        "title": "CELDERMA Daily Collagen Gel Sheet Mask 29g",
-        "description_html": "<p>CELDERMA Daily Collagen Gel Sheet Mask 29g is a Korean beauty gel sheet mask in a 29g size. This draft uses only the verified product identity and package information.</p><p>Review the ingredient list, directions, and final US label before publication.</p>",
-        "seo_title": "CELDERMA Daily Collagen Gel Sheet Mask 29g",
-        "seo_description": "View CELDERMA Daily Collagen Gel Sheet Mask 29g. Product identity and size are based on the source product notice. Review ingredients, directions, and the final label before purchase.",
-        "tags": [
-          "celderma-daily",
-          "collagen",
-          "gel-sheet-mask",
-          "k-beauty",
-          "korean-beauty"
-        ],
-        "product_type": "Gel Sheet Mask"
-      },
-      "copy_status": "ok",
-      "generation_mode": "deterministic_local_template_v1",
-      "agent_blocked_by": [],
-      "error": ""
-    },
-    {
-      "canonical_product_id": "CP000158",
-      "pd_no": "1060489",
-      "name_ko": "메디필 시카 쿨링 진정 랩핑 마스크 4 ml 4개입",
-      "bucket": "마스크팩",
-      "price_krw": 3000,
-      "rating": null,
-      "review_count": null,
-      "shopify_score": 87,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060489",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/uaaakIRgplIWVxAb7Zq11060489_00_00uaaakIRgplIWVxAb7Zq1.jpg",
-      "copy": null,
-      "copy_status": "skipped_prerequisite",
-      "generation_mode": "none",
-      "agent_blocked_by": [
-        "gosi",
-        "us_label",
-        "legal"
-      ],
-      "error": "ontology 선행 게이트 미통과: gosi, us_label, legal"
     }
   ]
 }

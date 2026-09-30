@@ -2,7 +2,7 @@
 title: "Record 9f7bb5b729 · Monocular-vision-image-analysis-and-processing-for-vehicle-fender-heig"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:43.315135+00:00
+updated_at: 2026-09-30T20:46:42.630674+00:00
 tags: [record, real-data]
 ---
 

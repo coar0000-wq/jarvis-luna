@@ -2,7 +2,7 @@
 title: "Record bb49a62d54 · Moiré-artifact-reduction-in-grating-interferometry-using-multiple-harm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:43.279359+00:00
+updated_at: 2026-09-30T20:46:42.589557+00:00
 tags: [record, real-data]
 ---
 

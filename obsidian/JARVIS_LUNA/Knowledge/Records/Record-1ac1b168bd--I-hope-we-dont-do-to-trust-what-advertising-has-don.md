@@ -2,7 +2,7 @@
 title: "Record 1ac1b168bd · I-hope-we-dont-do-to-trust-what-advertising-has-done-to-love"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:43.581964+00:00
+updated_at: 2026-09-30T20:46:42.936372+00:00
 tags: [record, real-data]
 ---
 

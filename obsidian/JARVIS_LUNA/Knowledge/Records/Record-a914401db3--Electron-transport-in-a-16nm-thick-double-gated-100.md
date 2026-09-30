@@ -2,7 +2,7 @@
 title: "Record a914401db3 · Electron-transport-in-a-16nm-thick-double-gated-100-silicon-nanosheet-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:43.598551+00:00
+updated_at: 2026-09-30T20:46:42.987855+00:00
 tags: [record, real-data]
 ---
 

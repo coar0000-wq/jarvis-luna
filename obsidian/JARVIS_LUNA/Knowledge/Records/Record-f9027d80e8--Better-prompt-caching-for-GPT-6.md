@@ -2,7 +2,7 @@
 title: "Record f9027d80e8 · Better-prompt-caching-for-GPT-6"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:44.658418+00:00
+updated_at: 2026-09-30T20:46:44.156092+00:00
 tags: [record, real-data]
 ---
 

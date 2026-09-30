@@ -2,7 +2,7 @@
 title: "Record 4333afbca9 · The-2026-PNPL-Competition-Word-Classification-and-Efficient-Cross-Subj"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:43.607957+00:00
+updated_at: 2026-09-30T20:46:42.999372+00:00
 tags: [record, real-data]
 ---
 

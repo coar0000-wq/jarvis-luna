@@ -2,7 +2,7 @@
 title: "Record b58e2d3e26 · SK-hynix-Presents-New-Spectrum-for-AI-Infrastructure-at-AI-Infra-Summi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:44.637576+00:00
+updated_at: 2026-09-30T20:46:44.133856+00:00
 tags: [record, real-data]
 ---
 

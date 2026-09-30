@@ -2,7 +2,7 @@
 title: "Record cd69bf2a97 · 뷰티-디바이스-어떤거-쓸지-고민일-때-봐야하는-영상-디바이스-디바이스추천"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:45.727441+00:00
+updated_at: 2026-09-30T20:46:45.239877+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record e2920c2d02 · Complex-KDA-Understanding-and-Enhancing-the-Expressivity-of-Kimi-Delta"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:43.730637+00:00
+updated_at: 2026-09-30T20:46:43.139312+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 66f2a89c64 · LABO-H-Scalp-Strengthening-Shampoo-135-fl-oz400ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T14:55:44.858623+00:00
+updated_at: 2026-09-30T20:46:44.360015+00:00
 tags: [record, real-data]
 ---
 
