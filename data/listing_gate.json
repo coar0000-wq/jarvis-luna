@@ -1,14 +1,14 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-09-30T08:06:29.140965+00:00",
+  "generated_at": "2026-09-30T11:54:43.505700+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "semantic_sources": {
       "data/product_master.json": "48a2d9076d3c3aae7fe1b8b5d98e6b349b1d24534b4d72ce80a837ba5063d86c",
-      "data/gosi.json": "d7e98d67d2ca64ee84b00bfe50db0d728baaed7bb0d62a8c4bdec9186fff3464",
-      "data/daiso_real/daiso_us_labels.json": "5fd64f758261137e832b8317c721d7c7068c693cf7f7a68a37e0c2a9513077c3",
+      "data/gosi.json": "f1d26e3b82f345875355c8f7b3b8778f1f96a4d72b1674328ca5bc08aa1ad359",
+      "data/daiso_real/daiso_us_labels.json": "fc40982a734cc3a02ef563a7139a646143fa94c8e4b9d4672d7da795ba840e0a",
       "data/pricing_model.json": "1a881847782e302460db5eb032dce6cb76b14ef743d740489cf2641c09694a3c",
-      "data/legal_products.json": "3b3ced60cea9f39e2610d04ce183f104f8b18947165106624d869f4ccda6b338"
+      "data/legal_products.json": "0d45835403f0088c77158d71ecb2e3265780c3d504175b9da30e8255bc2d8130"
     },
     "recommendations_sha256": "773a83408d6e2948f6f2127b843702b01423d97674274273838e425bee7852b2"
   },
@@ -34,21 +34,21 @@
   "typesafe_summary": {
     "framework": "typesafe_system_one_compatible",
     "mode_counts": {
-      "typesafe_observational_free_credits": 10
+      "typesafe_carried": 10
     },
-    "typesafe_calls": 10,
+    "typesafe_calls": 0,
     "free_credits_only": 10,
     "paid_api_calls": 0,
     "enforced": 0,
     "usage": {
-      "calls": 10,
-      "input_tokens": 10960,
-      "output_tokens": 1980,
+      "calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
       "stopped": "",
       "max_calls": 40,
       "max_input_tokens": 60000,
       "input_token_price_per_mtok_usd": 0.042,
-      "estimated_cost_usd": 0.00046,
+      "estimated_cost_usd": 0.0,
       "purchased_credits": false
     },
     "cumulative_ok_calls": 251,
@@ -120,7 +120,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -145,7 +145,8 @@
         "risk_score": 1.72,
         "model": "jev-1.13.0",
         "state_signature": "cdb95028555fb2cc1091059f8cd86fe4a993cc1cce6206584626e7d74b6ea8c6",
-        "decided_at": "2026-09-30T08:06:28.026636+00:00"
+        "decided_at": "2026-09-30T08:06:28.026636+00:00",
+        "carried_from": "2026-09-30T08:06:28.026636+00:00"
       }
     },
     {
@@ -211,7 +212,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -236,7 +237,8 @@
         "risk_score": 1.64,
         "model": "jev-1.13.0",
         "state_signature": "51d0e73d5ba5ed41de4d4bf02811433e8f7ef09ef764ae07bb5b94a8cc530ea7",
-        "decided_at": "2026-09-30T08:06:28.224110+00:00"
+        "decided_at": "2026-09-30T08:06:28.224110+00:00",
+        "carried_from": "2026-09-30T08:06:28.224110+00:00"
       }
     },
     {
@@ -302,7 +304,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -327,7 +329,8 @@
         "risk_score": 1.62,
         "model": "jev-1.13.0",
         "state_signature": "51d0e73d5ba5ed41de4d4bf02811433e8f7ef09ef764ae07bb5b94a8cc530ea7",
-        "decided_at": "2026-09-30T08:06:28.329201+00:00"
+        "decided_at": "2026-09-30T08:06:28.329201+00:00",
+        "carried_from": "2026-09-30T08:06:28.329201+00:00"
       }
     },
     {
@@ -393,7 +396,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -418,7 +421,8 @@
         "risk_score": 1.56,
         "model": "jev-1.13.0",
         "state_signature": "a235a30f46906db0e3e7198e8f998dc4cfdaf92ceac3f46d1cef17739f39ea0f",
-        "decided_at": "2026-09-30T08:06:28.445174+00:00"
+        "decided_at": "2026-09-30T08:06:28.445174+00:00",
+        "carried_from": "2026-09-30T08:06:28.445174+00:00"
       }
     },
     {
@@ -485,7 +489,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -510,7 +514,8 @@
         "risk_score": 1.66,
         "model": "jev-1.13.0",
         "state_signature": "a235a30f46906db0e3e7198e8f998dc4cfdaf92ceac3f46d1cef17739f39ea0f",
-        "decided_at": "2026-09-30T08:06:28.563185+00:00"
+        "decided_at": "2026-09-30T08:06:28.563185+00:00",
+        "carried_from": "2026-09-30T08:06:28.563185+00:00"
       }
     },
     {
@@ -576,7 +581,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -601,7 +606,8 @@
         "risk_score": 1.5,
         "model": "jev-1.13.0",
         "state_signature": "9cd2800fc8d4cac3636219a503b910fbb2b0924bd299e98e77065bc73dc4dcbb",
-        "decided_at": "2026-09-30T08:06:28.667385+00:00"
+        "decided_at": "2026-09-30T08:06:28.667385+00:00",
+        "carried_from": "2026-09-30T08:06:28.667385+00:00"
       }
     },
     {
@@ -665,7 +671,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -690,7 +696,8 @@
         "risk_score": 1.59,
         "model": "jev-1.13.0",
         "state_signature": "e05a0e27591e0c95f4d9b69ae7367544fdcdf352632872cce305bc9033dca5a5",
-        "decided_at": "2026-09-30T08:06:28.774438+00:00"
+        "decided_at": "2026-09-30T08:06:28.774438+00:00",
+        "carried_from": "2026-09-30T08:06:28.774438+00:00"
       }
     },
     {
@@ -751,7 +758,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -779,7 +786,8 @@
         "risk_score": 2.65,
         "model": "jev-1.13.0",
         "state_signature": "6a8717070ad2bca1105bb9417b1c344a694d4ce599eb319fe88ce4fd91ae93ff",
-        "decided_at": "2026-09-30T08:06:28.912630+00:00"
+        "decided_at": "2026-09-30T08:06:28.912630+00:00",
+        "carried_from": "2026-09-30T08:06:28.912630+00:00"
       }
     },
     {
@@ -843,7 +851,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -868,7 +876,8 @@
         "risk_score": 1.51,
         "model": "jev-1.13.0",
         "state_signature": "5d0f8517eb6d26b1be383ef5a31674ecba4cd3d16ebf65891ec60cb2c9634685",
-        "decided_at": "2026-09-30T08:06:29.013877+00:00"
+        "decided_at": "2026-09-30T08:06:29.013877+00:00",
+        "carried_from": "2026-09-30T08:06:29.013877+00:00"
       }
     },
     {
@@ -932,7 +941,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -957,7 +966,8 @@
         "risk_score": 1.49,
         "model": "jev-1.13.0",
         "state_signature": "5e2f905da436816b542b94ec498c05c939ebf779832f7f7ab48cf741dc0a99c4",
-        "decided_at": "2026-09-30T08:06:29.140928+00:00"
+        "decided_at": "2026-09-30T08:06:29.140928+00:00",
+        "carried_from": "2026-09-30T08:06:29.140928+00:00"
       }
     }
   ]
