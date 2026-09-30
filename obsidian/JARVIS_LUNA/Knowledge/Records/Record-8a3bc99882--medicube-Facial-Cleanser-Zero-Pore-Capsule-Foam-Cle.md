@@ -2,7 +2,7 @@
 title: "Record 8a3bc99882 · medicube-Facial-Cleanser-Zero-Pore-Capsule-Foam-Cleanser--Daily-Gentle"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T01:15:31.319025+00:00
+updated_at: 2026-09-30T05:35:12.279488+00:00
 tags: [record, real-data]
 ---
 

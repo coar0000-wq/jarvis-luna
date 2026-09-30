@@ -2,7 +2,7 @@
 title: "Record e945b792c9 · Beetlejuice-lips-are-the-latest-TikTok-beauty-trend"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T01:15:30.523566+00:00
+updated_at: 2026-09-30T05:35:11.507258+00:00
 tags: [record, real-data]
 ---
 

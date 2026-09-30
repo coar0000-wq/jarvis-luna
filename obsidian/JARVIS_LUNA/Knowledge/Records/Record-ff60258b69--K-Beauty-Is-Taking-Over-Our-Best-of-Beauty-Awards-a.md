@@ -2,7 +2,7 @@
 title: "Record ff60258b69 · K-Beauty-Is-Taking-Over-Our-Best-of-Beauty-Awards-and-for-Good-Reason-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T01:15:30.415059+00:00
+updated_at: 2026-09-30T05:35:11.405150+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,10 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMie0FVX3lxTE9OMWRrWlZETWZ3NUNIUFhIZU1GcVl1OFJmMEkzemlwMVRfVWs4NTFpLUd0VFNxR0xFN09IajZxUDQzakRZcHp5cVVGTUplNzA2VW1QWXBWbkdSX0RRLUtHOTROZGtSdGpZV3hOQkRVaVpJZnFtZ2NNcHd5cw?oc=5)
 
-**제목:** K-Beauty Is Taking Over Our Best of Beauty Awards, and for Good Reason - Allure
+**제목:** K-Beauty Is Taking Over Our Best of Beauty Awards, and for Good Reason - allure.com
 
-K-Beauty Is Taking Over Our Best of Beauty Awards, and for Good Reason - Allure
-K-Beauty Is Taking Over Our Best of Beauty Awards, and for Good Reason - Allure
+K-Beauty Is Taking Over Our Best of Beauty Awards, and for Good Reason - allure.com
+K-Beauty Is Taking Over Our Best of Beauty Awards, and for Good Reason - allure.com
 
 **출처:** Source · us_beauty
 

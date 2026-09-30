@@ -2,7 +2,7 @@
 title: "Record 74c52fc3ce · WISE-World-model-guided-Imagination-Scheduling-for-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T01:15:29.134940+00:00
+updated_at: 2026-09-30T05:35:07.848048+00:00
 tags: [record, real-data]
 ---
 

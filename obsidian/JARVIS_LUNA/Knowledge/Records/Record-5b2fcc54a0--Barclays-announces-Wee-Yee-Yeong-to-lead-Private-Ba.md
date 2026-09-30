@@ -2,7 +2,7 @@
 title: "Record 5b2fcc54a0 · Barclays-announces-Wee-Yee-Yeong-to-lead-Private-Bank-in-Singapore--Ba"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T01:15:30.170569+00:00
+updated_at: 2026-09-30T05:35:11.173373+00:00
 tags: [record, real-data]
 ---
 

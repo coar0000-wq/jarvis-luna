@@ -2,7 +2,7 @@
 title: "Record df2cd3547b · LightMIS-Ultra-Lightweight-Medical-Image-Segmentation-Without-a-Stage-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T01:15:30.006223+00:00
+updated_at: 2026-09-30T05:35:11.026638+00:00
 tags: [record, real-data]
 ---
 

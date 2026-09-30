@@ -2,7 +2,7 @@
 title: "Record 70b4946452 · What-is-an-MCP-server"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T01:15:29.425386+00:00
+updated_at: 2026-09-30T05:35:10.495978+00:00
 tags: [record, real-data]
 ---
 

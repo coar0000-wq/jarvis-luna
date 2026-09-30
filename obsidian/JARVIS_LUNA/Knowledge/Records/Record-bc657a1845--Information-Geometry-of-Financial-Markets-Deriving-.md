@@ -2,7 +2,7 @@
 title: "Record bc657a1845 · Information-Geometry-of-Financial-Markets-Deriving-Market-Constants-fr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T01:15:30.060738+00:00
+updated_at: 2026-09-30T05:35:11.077643+00:00
 tags: [record, real-data]
 ---
 

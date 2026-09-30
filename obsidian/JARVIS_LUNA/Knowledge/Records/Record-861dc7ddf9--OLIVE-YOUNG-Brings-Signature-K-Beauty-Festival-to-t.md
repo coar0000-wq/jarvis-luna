@@ -2,7 +2,7 @@
 title: "Record 861dc7ddf9 · OLIVE-YOUNG-Brings-Signature-K-Beauty-Festival-to-t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T01:15:30.231986+00:00
+updated_at: 2026-09-30T05:35:11.238852+00:00
 tags: [record, real-data]
 ---
 

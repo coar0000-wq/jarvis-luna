@@ -2,7 +2,7 @@
 title: "Record bef08a119a · WiAR--Wi-Fi-based-human-activity-recognition-using-time-frequency-anal"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T01:15:29.536716+00:00
+updated_at: 2026-09-30T05:35:10.573573+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record b5245bfbf4 · Understanding-Dynamic-Scenes-at-Gigapixel-Scale-Wide-Area-Spatio-Tempo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T01:15:29.905696+00:00
+updated_at: 2026-09-30T05:35:10.929523+00:00
 tags: [record, real-data]
 ---
 

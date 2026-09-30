@@ -2,7 +2,7 @@
 title: "Record b4045447a3 · What-the-Shitty-Hyrox-Incident-Tells-Us-About-the-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T01:15:31.045726+00:00
+updated_at: 2026-09-30T05:35:12.000296+00:00
 tags: [record, real-data]
 ---
 

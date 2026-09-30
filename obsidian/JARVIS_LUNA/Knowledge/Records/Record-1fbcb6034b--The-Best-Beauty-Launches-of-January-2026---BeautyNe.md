@@ -2,7 +2,7 @@
 title: "Record 1fbcb6034b · The-Best-Beauty-Launches-of-January-2026---BeautyNewsDaily"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T01:15:30.382909+00:00
+updated_at: 2026-09-30T05:35:11.375804+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,10 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMicEFVX3lxTE1qMVVHZjVtSXNpdW5LWHFoMi1nZk5FMkFCaEl5cFJCWkNrb1AxaGYxTUVvRUtNVWNabDFFRVRKVlRIRzdpZ29sVk5MNERUWjJkT0s3aTRJRWF2NmpEeFlyR0c1ZjA4Q1pHQk9FYU1lTmw?oc=5)
 
-**제목:** The Best Beauty Launches of January 2026 - BeautyNewsDaily
+**제목:** The Best Beauty Launches of January 2026 - beautynewsdaily.com
 
-The Best Beauty Launches of January 2026 - BeautyNewsDaily
-The Best Beauty Launches of January 2026 - BeautyNewsDaily
+The Best Beauty Launches of January 2026 - beautynewsdaily.com
+The Best Beauty Launches of January 2026 - beautynewsdaily.com
 
 **출처:** Source · us_beauty
 

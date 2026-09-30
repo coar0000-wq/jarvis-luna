@@ -2,7 +2,7 @@
 title: "Record ebe6828e62 · Critical-Role-of-In-2-O-3-Structure-and-Interface-in-Threshold-Voltage"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T01:15:29.569342+00:00
+updated_at: 2026-09-30T05:35:10.602638+00:00
 tags: [record, real-data]
 ---
 

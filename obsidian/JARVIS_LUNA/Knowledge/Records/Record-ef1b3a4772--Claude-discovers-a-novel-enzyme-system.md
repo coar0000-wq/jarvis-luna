@@ -2,7 +2,7 @@
 title: "Record ef1b3a4772 · Claude-discovers-a-novel-enzyme-system"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T01:15:31.339535+00:00
+updated_at: 2026-09-30T05:35:12.297329+00:00
 tags: [record, real-data]
 ---
 

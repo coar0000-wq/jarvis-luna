@@ -2,7 +2,7 @@
 title: "Record bba6ea0cf4 · Show-Harness-Just-a-VLM-Agent-Can-Play-Robots"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T01:15:29.254853+00:00
+updated_at: 2026-09-30T05:35:10.323647+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 5a4c8b9711 · HyperCLIP-Fine-tuning-CLIP-forOpen-vocabulary-Semantic-Segmentation-in"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T01:15:29.971973+00:00
+updated_at: 2026-09-30T05:35:10.992881+00:00
 tags: [record, real-data]
 ---
 

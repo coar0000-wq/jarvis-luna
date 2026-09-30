@@ -2,7 +2,7 @@
 title: "Record 26b01c9f25 · Seeing-Is-Not-Measuring-Tool-Augmented-Metric-Spatial-Reasoning-for-Vi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T01:15:30.011974+00:00
+updated_at: 2026-09-30T05:35:11.032383+00:00
 tags: [record, real-data]
 ---
 

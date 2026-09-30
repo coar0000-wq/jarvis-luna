@@ -2,7 +2,7 @@
 title: "Record 2e4ed28c4c · HARUHARU-WONDER-Black-Rice-Probiotics-Barrier-Essence-405-fl-oz120ml-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T01:15:30.959173+00:00
+updated_at: 2026-09-30T05:35:11.926920+00:00
 tags: [record, real-data]
 ---
 

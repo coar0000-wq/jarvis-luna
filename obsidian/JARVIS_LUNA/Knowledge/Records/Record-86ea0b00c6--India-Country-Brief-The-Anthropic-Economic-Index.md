@@ -2,7 +2,7 @@
 title: "Record 86ea0b00c6 · India-Country-Brief-The-Anthropic-Economic-Index"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T01:15:31.358009+00:00
+updated_at: 2026-09-30T05:35:12.319672+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 80547b808a · Savon-Liquide-au-Lait-dAmande"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T01:15:30.995026+00:00
+updated_at: 2026-09-30T05:35:11.958462+00:00
 tags: [record, real-data]
 ---
 

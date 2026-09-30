@@ -2,7 +2,7 @@
 title: "Record 0c275cf052 · Time-Stop-Hyaluronic-Ampoule"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T01:15:30.877217+00:00
+updated_at: 2026-09-30T05:35:11.839917+00:00
 tags: [record, real-data]
 ---
 

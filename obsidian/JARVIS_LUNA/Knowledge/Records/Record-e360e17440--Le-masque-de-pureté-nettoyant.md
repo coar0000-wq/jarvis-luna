@@ -2,7 +2,7 @@
 title: "Record e360e17440 · Le-masque-de-pureté-nettoyant"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T01:15:30.990744+00:00
+updated_at: 2026-09-30T05:35:11.954766+00:00
 tags: [record, real-data]
 ---
 

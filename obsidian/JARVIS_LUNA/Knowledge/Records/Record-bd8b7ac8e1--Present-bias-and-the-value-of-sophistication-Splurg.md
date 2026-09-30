@@ -2,7 +2,7 @@
 title: "Record bd8b7ac8e1 · Present-bias-and-the-value-of-sophistication-Splurging-vs-smoothing"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T01:15:29.531993+00:00
+updated_at: 2026-09-30T05:35:10.569319+00:00
 tags: [record, real-data]
 ---
 

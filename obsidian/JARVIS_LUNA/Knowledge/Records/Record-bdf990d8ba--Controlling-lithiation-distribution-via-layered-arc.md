@@ -2,7 +2,7 @@
 title: "Record bdf990d8ba · Controlling-lithiation-distribution-via-layered-arc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T01:15:29.529799+00:00
+updated_at: 2026-09-30T05:35:10.568021+00:00
 tags: [record, real-data]
 ---
 

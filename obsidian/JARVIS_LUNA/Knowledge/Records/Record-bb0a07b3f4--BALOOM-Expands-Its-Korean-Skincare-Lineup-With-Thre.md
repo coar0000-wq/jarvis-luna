@@ -2,7 +2,7 @@
 title: "Record bb0a07b3f4 · BALOOM-Expands-Its-Korean-Skincare-Lineup-With-Three-Booster-Gel-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T01:15:30.237904+00:00
+updated_at: 2026-09-30T05:35:11.244349+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record d8cbadaec8 · Agilitys-Digit-5-humanoid-has-new-legs-batteries-and-safety-upgrades"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T01:15:31.532293+00:00
+updated_at: 2026-09-30T05:35:12.474118+00:00
 tags: [record, real-data]
 ---
 

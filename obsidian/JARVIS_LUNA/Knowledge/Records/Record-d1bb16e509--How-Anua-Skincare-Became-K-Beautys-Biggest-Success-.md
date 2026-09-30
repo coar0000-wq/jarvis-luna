@@ -2,7 +2,7 @@
 title: "Record d1bb16e509 · How-Anua-Skincare-Became-K-Beautys-Biggest-Success-Story---BeautyNewsD"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T01:15:30.273621+00:00
+updated_at: 2026-09-30T05:35:11.277011+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,10 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiW0FVX3lxTE9LemdVMDM3Q3hoem1Xa013a0JQMVdWd0UxSDZpdjc4T3BmT29PMWJZZTltMl9lQkhRM1NzckFMbnBiMlIycWxqZXhrQ3lCeU1YNzFEcnpPQkRpeDQ?oc=5)
 
-**제목:** How Anua Skincare Became K-Beauty’s Biggest Success Story - BeautyNewsDaily
+**제목:** How Anua Skincare Became K-Beauty’s Biggest Success Story - beautynewsdaily.com
 
-How Anua Skincare Became K-Beauty’s Biggest Success Story - BeautyNewsDaily
-How Anua Skincare Became K-Beauty’s Biggest Success Story - BeautyNewsDaily
+How Anua Skincare Became K-Beauty’s Biggest Success Story - beautynewsdaily.com
+How Anua Skincare Became K-Beauty’s Biggest Success Story - beautynewsdaily.com
 
 **출처:** Source · us_beauty
 

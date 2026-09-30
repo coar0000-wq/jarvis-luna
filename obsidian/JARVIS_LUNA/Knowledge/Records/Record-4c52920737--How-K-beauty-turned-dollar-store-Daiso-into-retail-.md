@@ -2,7 +2,7 @@
 title: "Record 4c52920737 · How-K-beauty-turned-dollar-store-Daiso-into-retail-giant---The-Korea-H"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T01:15:30.255014+00:00
+updated_at: 2026-09-30T05:35:11.260296+00:00
 tags: [record, real-data]
 ---
 

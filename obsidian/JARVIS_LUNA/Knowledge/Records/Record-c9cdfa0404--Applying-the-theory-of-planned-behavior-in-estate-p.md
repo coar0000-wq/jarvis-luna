@@ -2,7 +2,7 @@
 title: "Record c9cdfa0404 · Applying-the-theory-of-planned-behavior-in-estate-planning"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T01:15:29.654604+00:00
+updated_at: 2026-09-30T05:35:10.679354+00:00
 tags: [record, real-data]
 ---
 

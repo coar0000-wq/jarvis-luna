@@ -2,7 +2,7 @@
 title: "Record 362c41de21 · Pore-Cleansing-Oil-BHA"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T01:15:30.862356+00:00
+updated_at: 2026-09-30T05:35:11.827012+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record c02d79364a · Why-Mexico-is-K-beautys-next-big-bet---theinvestorcokr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T01:15:30.280016+00:00
+updated_at: 2026-09-30T05:35:11.282645+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 0b66007cca · From-H-Mart-Gate-To-Bebot-Filipino-Trends-Take-Over"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T01:15:30.228581+00:00
+updated_at: 2026-09-30T05:35:11.235365+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 3915567201 · medicube-Wrapping-Mask-Collagen---Overnight-Peel-Off-Facial-Mask--Elas"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T01:15:31.175352+00:00
+updated_at: 2026-09-30T05:35:12.133099+00:00
 tags: [record, real-data]
 ---
 

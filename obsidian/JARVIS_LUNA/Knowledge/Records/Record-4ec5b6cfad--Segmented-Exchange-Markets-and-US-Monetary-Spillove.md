@@ -2,7 +2,7 @@
 title: "Record 4ec5b6cfad · Segmented-Exchange-Markets-and-US-Monetary-Spillovers-Beyond-the-Trile"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T01:15:29.791211+00:00
+updated_at: 2026-09-30T05:35:10.820697+00:00
 tags: [record, real-data]
 ---
 
