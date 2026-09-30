@@ -2,7 +2,7 @@
 title: "Record 1e1f55b841 · Effaclar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:17.910588+00:00
+updated_at: 2026-09-30T14:55:44.920879+00:00
 tags: [record, real-data]
 ---
 

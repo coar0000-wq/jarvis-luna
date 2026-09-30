@@ -2,7 +2,7 @@
 title: "Record 547a06928f · Bringing-Everyone-to-the-Table-An-Experimental-Study-of-LLM-Facilitate"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:16.546943+00:00
+updated_at: 2026-09-30T14:55:43.411878+00:00
 tags: [record, real-data]
 ---
 

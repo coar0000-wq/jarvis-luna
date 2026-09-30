@@ -2,7 +2,7 @@
 title: "Record 73b60c6e85 · Metacognitive-Selective-Ensemble-for-Mobile-Systems"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:16.261296+00:00
+updated_at: 2026-09-30T14:55:43.109210+00:00
 tags: [record, real-data]
 ---
 

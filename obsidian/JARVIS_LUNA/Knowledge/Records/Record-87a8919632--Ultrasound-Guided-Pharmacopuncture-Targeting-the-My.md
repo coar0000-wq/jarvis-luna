@@ -2,7 +2,7 @@
 title: "Record 87a8919632 · Ultrasound-Guided-Pharmacopuncture-Targeting-the-My"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:16.657947+00:00
+updated_at: 2026-09-30T14:55:43.529782+00:00
 tags: [record, real-data]
 ---
 

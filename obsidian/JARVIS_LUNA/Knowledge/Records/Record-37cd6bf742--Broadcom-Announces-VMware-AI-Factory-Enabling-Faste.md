@@ -2,7 +2,7 @@
 title: "Record 37cd6bf742 · Broadcom-Announces-VMware-AI-Factory-Enabling-Faste"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:17.048356+00:00
+updated_at: 2026-09-30T14:55:43.996364+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 90a0963de8 · I-unboxed-Lookfantastics-first-K-beauty-advent-calendar--and-its-serio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:17.094844+00:00
+updated_at: 2026-09-30T14:55:44.046168+00:00
 tags: [record, real-data]
 ---
 

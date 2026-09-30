@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-30T07:57:40.652176+00:00",
+  "collected_at": "2026-09-30T14:40:21.303717+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -45,15 +45,15 @@
   "hot_keywords": [
     {
       "keyword": "skin",
-      "score": 10
+      "score": 6
     },
     {
       "keyword": "september",
-      "score": 4
+      "score": 3
     },
     {
       "keyword": "2026",
-      "score": 4
+      "score": 3
     },
     {
       "keyword": "makeup",
@@ -64,15 +64,11 @@
       "score": 3
     },
     {
-      "keyword": "which",
-      "score": 3
-    },
-    {
-      "keyword": "monday",
+      "keyword": "mask",
       "score": 2
     },
     {
-      "keyword": "mask",
+      "keyword": "tint",
       "score": 2
     },
     {
@@ -80,15 +76,11 @@
       "score": 2
     },
     {
-      "keyword": "favorite",
-      "score": 2
-    },
-    {
       "keyword": "products",
       "score": 2
     },
     {
-      "keyword": "like",
+      "keyword": "favorite",
       "score": 2
     },
     {
@@ -97,14 +89,6 @@
     },
     {
       "keyword": "order",
-      "score": 2
-    },
-    {
-      "keyword": "anything",
-      "score": 2
-    },
-    {
-      "keyword": "goes",
       "score": 2
     },
     {
@@ -125,6 +109,10 @@
     },
     {
       "keyword": "questions",
+      "score": 1
+    },
+    {
+      "keyword": "monday",
       "score": 1
     },
     {
@@ -202,12 +190,24 @@
     {
       "keyword": "far",
       "score": 1
+    },
+    {
+      "keyword": "mamonde",
+      "score": 1
+    },
+    {
+      "keyword": "creamy",
+      "score": 1
+    },
+    {
+      "keyword": "colorbalm",
+      "score": 1
     }
   ],
   "beauty_keywords": [
     {
       "keyword": "skin",
-      "score": 10
+      "score": 6
     },
     {
       "keyword": "mask",
@@ -251,6 +251,13 @@
       "feed": "hot"
     },
     {
+      "title": "Mamonde Creamy Tint colorbalm coming backkk!",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtzqli/mamonde_creamy_tint_colorbalm_coming_backkk/",
+      "published": "2026-09-30T08:44:04+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Beige blush / \"anti-blush\" comparison",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtbcwj/beige_blush_antiblush_comparison/",
       "published": "2026-09-29T14:17:59+00:00",
@@ -258,16 +265,16 @@
       "feed": "hot"
     },
     {
-      "title": "What’s your favorite mugwort product?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtqbf3/whats_your_favorite_mugwort_product/",
-      "published": "2026-09-30T00:04:54+00:00",
+      "title": "Hair products that smell like herbs",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtyj7j/hair_products_that_smell_like_herbs/",
+      "published": "2026-09-30T07:25:01+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Hair products that smell like herbs",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtyj7j/hair_products_that_smell_like_herbs/",
-      "published": "2026-09-30T07:25:01+00:00",
+      "title": "What’s your favorite mugwort product?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtqbf3/whats_your_favorite_mugwort_product/",
+      "published": "2026-09-30T00:04:54+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -286,16 +293,16 @@
       "feed": "hot"
     },
     {
-      "title": "My recent makeup looks with Cheeryep's Ambition palette",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wt8w39/my_recent_makeup_looks_with_cheeryeps_ambition/",
-      "published": "2026-09-29T12:33:17+00:00",
+      "title": "Experience With Stylevanna Refund For Non-Deliverd Order",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtxqpy/experience_with_stylevanna_refund_for_nondeliverd/",
+      "published": "2026-09-30T06:35:18+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Experience With Stylevanna Refund For Non-Deliverd Order",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtxqpy/experience_with_stylevanna_refund_for_nondeliverd/",
-      "published": "2026-09-30T06:35:18+00:00",
+      "title": "My recent makeup looks with Cheeryep's Ambition palette",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wt8w39/my_recent_makeup_looks_with_cheeryeps_ambition/",
+      "published": "2026-09-29T12:33:17+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -317,6 +324,13 @@
       "title": "April Skin Lip Stain",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtpa21/april_skin_lip_stain/",
       "published": "2026-09-29T23:18:04+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Need to urgently remove my tan after a secret holiday",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wu3m7p/need_to_urgently_remove_my_tan_after_a_secret/",
+      "published": "2026-09-30T12:28:00+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -373,20 +387,6 @@
       "title": "Has anyone used TokyoBeautyBox for Jbeauty purchases before?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wsvelg/has_anyone_used_tokyobeautybox_for_jbeauty/",
       "published": "2026-09-29T00:15:08+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Anything Goes Monday: September 28, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wsq7dk/anything_goes_monday_september_28_2026/",
-      "published": "2026-09-28T20:39:21+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Which Glycols you like and which ones don't go with your skin? does Propylene Glycol irritate your skin?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wsjqah/which_glycols_you_like_and_which_ones_dont_go/",
-      "published": "2026-09-28T16:43:12+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

@@ -2,7 +2,7 @@
 title: "Record cd417ad008 · The-future-of-large-scale-experiments-and-their-challenges-in-the-digi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:16.409908+00:00
+updated_at: 2026-09-30T14:55:43.266719+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ The future of large-scale experiments and their challenges in the digital era
 
 ## Connected nodes
 
-[[Source--institutions]] [[데이터분석]] [[기관--Microsoft]] [[JARVIS Real Knowledge Index]]
+[[Source--institutions]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

@@ -2,7 +2,7 @@
 title: "Record 16bf822953 · Strict-Modes-Everywhere---Bringing-Order-Into-Dynam"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:15.964007+00:00
+updated_at: 2026-09-30T14:55:42.802477+00:00
 tags: [record, real-data]
 ---
 

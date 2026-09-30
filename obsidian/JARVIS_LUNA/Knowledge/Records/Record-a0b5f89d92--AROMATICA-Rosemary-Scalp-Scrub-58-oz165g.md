@@ -2,7 +2,7 @@
 title: "Record a0b5f89d92 · AROMATICA-Rosemary-Scalp-Scrub-58-oz165g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:17.885489+00:00
+updated_at: 2026-09-30T14:55:44.894230+00:00
 tags: [record, real-data]
 ---
 

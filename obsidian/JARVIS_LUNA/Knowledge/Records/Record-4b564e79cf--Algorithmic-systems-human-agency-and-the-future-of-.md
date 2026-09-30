@@ -2,7 +2,7 @@
 title: "Record 4b564e79cf · Algorithmic-systems-human-agency-and-the-future-of-platform-research"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:16.424831+00:00
+updated_at: 2026-09-30T14:55:43.286828+00:00
 tags: [record, real-data]
 ---
 

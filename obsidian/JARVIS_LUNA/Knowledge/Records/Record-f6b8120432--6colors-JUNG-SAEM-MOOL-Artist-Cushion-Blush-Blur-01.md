@@ -2,7 +2,7 @@
 title: "Record f6b8120432 · 6colors-JUNG-SAEM-MOOL-Artist-Cushion-Blush-Blur-014-oz4g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:17.818031+00:00
+updated_at: 2026-09-30T14:55:44.820985+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 73ac42c21d · Hyper-RED-Scalable-Event-Pre-training-via-Semantic-Hypergraph-Distilla"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:16.138903+00:00
+updated_at: 2026-09-30T14:55:42.982975+00:00
 tags: [record, real-data]
 ---
 

@@ -1,6 +1,6 @@
 {
   "team": "디자인팀",
-  "generated_at": "2026-09-30T07:55:27.698126+00:00",
+  "generated_at": "2026-09-30T14:38:06.065331+00:00",
   "scope": "Shopify 스토어 디자인 사양 관리 + 디자인 레퍼런스 수집",
   "checklist": {
     "total": 12,
@@ -147,8 +147,8 @@
     "failures": [],
     "quality": {
       "items": 78,
-      "relevant": 36,
-      "relevant_ratio": 0.462,
+      "relevant": 37,
+      "relevant_ratio": 0.474,
       "per_feed": {
         "Shopify Changelog": {
           "items": 15,
@@ -156,7 +156,7 @@
         },
         "Shopify Dev Changelog": {
           "items": 15,
-          "relevant": 9
+          "relevant": 10
         },
         "Shopify Engineering": {
           "items": 15,
@@ -306,6 +306,14 @@
         "relevance": 3
       },
       {
+        "title": "Use app intents for your discount app",
+        "url": "https://shopify.dev/changelog/use-app-intents-for-your-discount-app",
+        "date": "2026-09-30",
+        "summary": "Apps that create new discount types using Shopify Functions can now register shopify/Discount app intents. This lets Sidekick launch an app’s create and edit flows and promote them in the disambiguation picker. Apps can register an intent using either of these targets: admin.app.intent.link navigate",
+        "feed": "Shopify Dev Changelog",
+        "relevance": 1
+      },
+      {
         "title": "More resilient token exchanges when migrating tokens without a user session",
         "url": "https://shopify.dev/changelog/more-resilient-token-exchanges-when-migrating-tokens-without-a-user-session",
         "date": "2026-09-29",
@@ -414,14 +422,6 @@
         "url": "https://shopify.dev/changelog/is-translatable-metafield-field",
         "date": "2026-09-21",
         "summary": "API version 2026-10 adds a non-null translatable field to the Metafield object in the GraphQL Admin API. Apps that fetch translatable metafields and migrate to 2026-10 can now see whether a metafield’s value is translatable directly on the metafield itself. If your app doesn’t query for translatable",
-        "feed": "Shopify Dev Changelog",
-        "relevance": 0
-      },
-      {
-        "title": "The `automaticDiscounts` query is removed in API version 2027-01",
-        "url": "https://shopify.dev/changelog/automaticdiscounts-query-is-removed-in-api-version-2027-01",
-        "date": "2026-09-18",
-        "summary": "The deprecated automaticDiscounts query is removed from the GraphQL Admin API in version 2027-01 . If your app reads a shop’s automatic discounts through automaticDiscounts , you need to move to the discountNodes query with a method:automatic filter before you upgrade to 2027-01 . Apps on 2026-10 an",
         "feed": "Shopify Dev Changelog",
         "relevance": 0
       },
@@ -546,6 +546,14 @@
         "relevance": 0
       },
       {
+        "title": "Under Autumn’s Spell (October 2026 Wallpapers Edition)",
+        "url": "https://smashingmagazine.com/2026/09/desktop-wallpaper-calendars-october-2026/",
+        "date": "2026-09-30",
+        "summary": "October is just around the corner, which means it’s time for some new desktop wallpapers! Designed by the community for the community, they’re here to brighten your screens, and maybe spark some creativity along the way.",
+        "feed": "Smashing Magazine",
+        "relevance": 0
+      },
+      {
         "title": "Stop Treating CSS Container Queries Like Traditional Media Queries",
         "url": "https://smashingmagazine.com/2026/09/stop-treating-css-container-queries-traditional-media-queries/",
         "date": "2026-09-16",
@@ -654,14 +662,6 @@
         "url": "https://smashingmagazine.com/2026/07/weaponizing-defending-react-flight-protocol/",
         "date": "2026-07-21",
         "summary": "While React Server Components rely on the custom Flight protocol to stream interactive UIs, this same mechanism introduces powerful deserialization sinks that attackers can exploit. Durgesh Pawar breaks down the mechanics behind the CVSS 10.0 “React2Shell” vulnerability to show how protocol manipula",
-        "feed": "Smashing Magazine",
-        "relevance": 0
-      },
-      {
-        "title": "When It Makes Sense To “Block” The Main Thread",
-        "url": "https://smashingmagazine.com/2026/07/when-makes-sense-block-main-thread/",
-        "date": "2026-07-17",
-        "summary": "The common rule of thumb is to never “block” the browser’s main thread when running JavaScript tasks. But is this a hard rule? Victor Ayomipo describes a use case he encountered involving a screenshot extension where he made an exception to the rule and decided that blocking the main thread was abso",
         "feed": "Smashing Magazine",
         "relevance": 0
       },

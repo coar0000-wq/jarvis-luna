@@ -2,7 +2,7 @@
 title: "Record 074ad8bf21 · A-massive-K-beauty-pop-up-is-taking-over-Hudson-Yards-this-week-with-3"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:17.098003+00:00
+updated_at: 2026-09-30T14:55:44.051921+00:00
 tags: [record, real-data]
 ---
 

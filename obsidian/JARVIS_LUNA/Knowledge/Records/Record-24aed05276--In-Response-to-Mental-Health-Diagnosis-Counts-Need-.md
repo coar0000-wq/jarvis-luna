@@ -2,7 +2,7 @@
 title: "Record 24aed05276 · In-Response-to-Mental-Health-Diagnosis-Counts-Need-CarePathway-Measure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:16.521930+00:00
+updated_at: 2026-09-30T14:55:43.386937+00:00
 tags: [record, real-data]
 ---
 

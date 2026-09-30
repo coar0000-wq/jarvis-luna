@@ -2,7 +2,7 @@
 title: "Record 786b8c2400 · On-Demand-Attention-Language-Models-Know-When-to-Recall"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:16.767928+00:00
+updated_at: 2026-09-30T14:55:43.686405+00:00
 tags: [record, real-data]
 ---
 

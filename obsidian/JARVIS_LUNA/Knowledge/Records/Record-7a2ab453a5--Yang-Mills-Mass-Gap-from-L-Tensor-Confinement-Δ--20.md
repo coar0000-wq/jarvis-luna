@@ -2,7 +2,7 @@
 title: "Record 7a2ab453a5 · Yang-Mills-Mass-Gap-from-L-Tensor-Confinement-Δ--200-MeV-from-551-Geom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:16.912432+00:00
+updated_at: 2026-09-30T14:55:43.855595+00:00
 tags: [record, real-data]
 ---
 

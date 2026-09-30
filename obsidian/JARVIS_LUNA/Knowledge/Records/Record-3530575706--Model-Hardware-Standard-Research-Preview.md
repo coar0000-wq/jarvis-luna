@@ -2,7 +2,7 @@
 title: "Record 3530575706 · Model-Hardware-Standard-Research-Preview"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:18.299779+00:00
+updated_at: 2026-09-30T14:55:45.350128+00:00
 tags: [record, real-data]
 ---
 

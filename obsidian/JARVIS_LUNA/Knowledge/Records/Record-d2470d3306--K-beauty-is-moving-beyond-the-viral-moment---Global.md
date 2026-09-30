@@ -2,7 +2,7 @@
 title: "Record d2470d3306 · K-beauty-is-moving-beyond-the-viral-moment---Global-Sources"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:17.109631+00:00
+updated_at: 2026-09-30T14:55:44.066286+00:00
 tags: [record, real-data]
 ---
 

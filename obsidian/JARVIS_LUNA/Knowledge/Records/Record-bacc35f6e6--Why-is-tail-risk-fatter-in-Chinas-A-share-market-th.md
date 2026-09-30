@@ -2,7 +2,7 @@
 title: "Record bacc35f6e6 · Why-is-tail-risk-fatter-in-Chinas-A-share-market-than-in-the-US-market"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:16.445607+00:00
+updated_at: 2026-09-30T14:55:43.308248+00:00
 tags: [record, real-data]
 ---
 

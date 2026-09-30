@@ -2,7 +2,7 @@
 title: "Record a84e8c778c · Predicting-an-AI-Agents-Next-Action-From-Its-Intern"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:16.950418+00:00
+updated_at: 2026-09-30T14:55:43.894650+00:00
 tags: [record, real-data]
 ---
 

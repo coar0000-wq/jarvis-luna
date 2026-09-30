@@ -2,7 +2,7 @@
 title: "Record b860b971cc · Health-CareAssociated-Infections-in-US-Hospitals-20"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:16.426460+00:00
+updated_at: 2026-09-30T14:55:43.288638+00:00
 tags: [record, real-data]
 ---
 

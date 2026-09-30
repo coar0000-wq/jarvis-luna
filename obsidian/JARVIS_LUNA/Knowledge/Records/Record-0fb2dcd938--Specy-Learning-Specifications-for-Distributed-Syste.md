@@ -2,7 +2,7 @@
 title: "Record 0fb2dcd938 · Specy-Learning-Specifications-for-Distributed-Systems-from-Event-Trace"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:16.544125+00:00
+updated_at: 2026-09-30T14:55:43.408946+00:00
 tags: [record, real-data]
 ---
 

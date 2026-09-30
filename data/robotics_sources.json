@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T07:53:53.848088+00:00",
+  "generated_at": "2026-09-30T14:34:10.952969+00:00",
   "generator": "scripts/collect_robotics.py",
   "목적": "옵시디언 주제 '로보틱스' 가 3건뿐이던 문제를 해결한다. 분류기는 정상이었고 수집원에 로봇 자료가 없었던 것이 원인이다.",
   "접근_정책": "arXiv 은 프로그램 접근용 export.arxiv.org 를 제공하며 그 주소만 사용하고 요청 간 3초를 둔다. RSS 두 곳은 robots.txt 허용을 확인했다.",
@@ -11,10 +11,42 @@
       "경로": "api.openalex.org (robots Allow: /) · export.arxiv.org 에는 요청하지 않는다",
       "items": [
         {
+          "title": "Performance vs Portability in Heterogeneous HPC Environments: Why Pre-execution Benchmarking is Required",
+          "summary": "Cloud computing and high-performance computing (HPC) typically follow different paradigms: cloud services are often orchestrated using Kubernetes, whereas HPC workloads are managed through batch schedulers such as Slurm. Growing demand for shared computational resources increases the need for interoperability between these environments. This study uses Podman as a user-accessible tool to benchmark",
+          "published": "2026-09-27",
+          "url": "https://doi.org/10.48550/arxiv.2609.33847",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "Function Over Form: Distributional Orthogonalization in Mixture-of-Experts with Replica Expert Mechanism",
+          "summary": "The scaling of LLMs increasingly relies on MoE architectures to decouple active computation from total parameter count. However, the efficacy of MoE is often constrained by expert collapse and representation redundancy, both leading to underutilization of model capacity. To address these challenges, this paper proposes Distributional Orthogonalization Loss (DO-loss), an auxiliary regularization th",
+          "published": "2026-09-26",
+          "url": "https://doi.org/10.48550/arxiv.2609.32398",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "No-Restart Elasticity in an Adaptive Runtime System for Cloud-Native HPC",
+          "summary": "Exploiting discounted spot instances for HPC requires an application to change its resource allocation at runtime, shrinking ahead of an interruption and expanding onto replacement capacity. Existing elasticity mechanisms implement rescaling as a full process teardown followed by a cold restart at the new processor count, and the restart stage accounts for up to 95% of the total overhead, growing ",
+          "published": "2026-09-26",
+          "url": "https://doi.org/10.48550/arxiv.2609.32217",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "ASCEND: Personal AI Agents for Autonomous Scientific Computing Across HPC Clusters and GPU Workstations",
+          "summary": "Traditional scientific computing requires researchers to translate computational intent into environment configuration, resource requests, and executable jobs, then diagnose failures from scheduler state and application logs. We present ASCEND (Autonomous Scientific Computing Engine and Novel Discovery), an AI-powered agent interface that runs the agent on the researcher's own laptop, reaching Slu",
+          "published": "2026-09-26",
+          "url": "https://doi.org/10.48550/arxiv.2609.32868",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
           "title": "Component Benchmark: Hierarchical Model Profiling for Large-scale Recommendation Systems",
           "summary": "Large-scale recommendation models pose distinct, under-explored profiling challenges. Most recommendation model architectures are structurally heterogeneous, intermixing memory-bandwidth-bound operations, small compute-bound dense layers, dynamic shapes from jagged categorical features, and low-arithmetic-intensity operations. Recommendation models evolve rapidly as modeling engineers experiment w",
           "published": "2026-09-25",
-          "url": "https://doi.org/10.48550/arxiv.2609.30656",
+          "url": "https://arxiv.org/abs/2609.30656",
           "primary_category": "로보틱스",
           "source_detail": "arXiv via OpenAlex"
         },
@@ -22,7 +54,15 @@
           "title": "DynBranch: Speculative Subgraph Reuse for Dynamic Agentic LLM Serving",
           "summary": "Agentic LLM workflows decide their execution paths at runtime. Downstream computation may be predictable, or may have run before, yet it cannot begin until the model or the user resolves the branch. We call this serialization the branch-resolution barrier. Caching alone does not hide it: the key that identifies a reusable result is not known until then. In this paper, we propose DynBranch, which m",
           "published": "2026-09-25",
-          "url": "https://doi.org/10.48550/arxiv.2609.31047",
+          "url": "https://arxiv.org/abs/2609.31047",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "IceCube Takes Flight with Pelican - A First Experience",
+          "summary": "The IceCube Neutrino Observatory has removed GridFTP and x.509 certificate authentication for data transfers, migrating to the Pelican Platform, the Open Science Data Federation, and WLGC tokens. While this is a common solution on the computing infrastructure we use, we required several customizations to work with our existing data storage structure and make it easier for scientists to use. We wro",
+          "published": "2026-09-25",
+          "url": "https://doi.org/10.48550/arxiv.2609.31851",
           "primary_category": "로보틱스",
           "source_detail": "arXiv via OpenAlex"
         },
@@ -54,7 +94,7 @@
           "title": "Managing Iterative Hybrid Quantum-Classical Optimization as a First-Class Scientific Workflow",
           "summary": "Today's Quantum Processing Units (QPUs) are too small and too noisy to solve large combinatorial optimization problems directly, so practical hybrid solvers split a problem into pieces and iterate a decompose-solve-aggregate loop over whatever backends are available: classical heuristics, simulators, emulators, or a QPU. In practice, the loop is a driver script. It sits on top of the quantum-HPC m",
           "published": "2026-09-24",
-          "url": "https://doi.org/10.48550/arxiv.2609.30532",
+          "url": "https://arxiv.org/abs/2609.30532",
           "primary_category": "로보틱스",
           "source_detail": "arXiv via OpenAlex"
         },
@@ -70,7 +110,7 @@
           "title": "Empty Intersection: Provenance Coverage Rose to 98% and Neither Verification Decision Moved",
           "summary": "Two structural defenses for provenance, a grade on every row, so that a verification routine cannot mistake the system's own output for an observation, and a single write ingress, so that the grade is enforced rather than merely conventional, were measured against the production deployment that motivated them, over a frozen snapshot of 194,620 rows and the two verification decisions the snapshot s",
           "published": "2026-09-23",
-          "url": "https://doi.org/10.48550/arxiv.2609.30308",
+          "url": "https://arxiv.org/abs/2609.30308",
           "primary_category": "로보틱스",
           "source_detail": "arXiv via OpenAlex"
         },
@@ -163,50 +203,10 @@
           "source_detail": "arXiv via OpenAlex"
         },
         {
-          "title": "XMPIaaS: Towards Cloud Native MPI via Cooperative Process Migration",
-          "summary": "Message Passing Interface (MPI) has been the dominant programming model for High Performance Computing (HPC) for three decades, and as HPC workloads increasingly migrate to cloud infrastructure for scalability and cost efficiency, MPI applications must contend with an execution environment fundamentally unlike traditional supercomputers: ephemeral resources, dynamic pricing and preemptable instanc",
-          "published": "2026-09-15",
-          "url": "https://arxiv.org/abs/2609.16531",
-          "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
-        },
-        {
           "title": "PipeSwift: Revisiting Pipeline Parallelism for Large-Scale Completion-Oriented Agentic LLM Serving",
           "summary": "LLM agents execute long-horizon workflows where each model response determines the progress of subsequent tool interactions and environment transitions. Unlike chatbot serving, where TTFT and TPOT SLO constraints are critical, agentic workloads are completion-oriented and increasingly governed by job completion time (JCT). This shift challenges existing LLM serving designs optimized around token S",
           "published": "2026-09-15",
           "url": "https://arxiv.org/abs/2609.16491",
-          "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
-        },
-        {
-          "title": "FlashVector: Agent for Hierarchical Model Serving Stack Optimization",
-          "summary": "Model serving is one of the largest cost drivers in production recommender systems. Maximizing its throughput requires navigating a deeply layered hierarchy: GPU kernels, the ML framework computation graph, the model server, and on-demand feature processing -- each demanding specialized domain expertise. Such cross-layer expertise is inherently difficult to acquire, and does not scale with a workl",
-          "published": "2026-09-15",
-          "url": "https://arxiv.org/abs/2609.17391",
-          "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
-        },
-        {
-          "title": "DeepShare: Assurance-Driven Deep Learning Job Scheduling for Multi-Tenant Clusters",
-          "summary": "Multi-tenant GPU clusters frequently remain underutilized even when tenants experience long queueing delays, because quota control, queue ordering, preemption, and GPU sharing are driven by different local signals. We present DeepShare, a scheduler that uses a continuous tenant-assurance signal to coordinate these decisions at runtime. DeepShare combines elastic quota borrowing, tenant-specific ru",
-          "published": "2026-09-15",
-          "url": "https://arxiv.org/abs/2609.16682",
-          "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
-        },
-        {
-          "title": "A Threshold Constant for Exact Community Recovery in the Degree-Corrected Poisson Stochastic Block Model",
-          "summary": "We study exact community recovery in the Degree-Corrected Poisson Stochastic Block Model (DC-SBM) through the maximum profile likelihood estimator. Our main contribution is identifying an explicit complexity constant $C(π,S)$, which closely captures the exact recovery threshold. This constant combines a weighted Chernoff--Hellinger separation between communities with a Kullback--Leibler correction",
-          "published": "2026-09-14",
-          "url": "https://arxiv.org/abs/2609.15793",
-          "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
-        },
-        {
-          "title": "Cloud Workflow Scheduling Based on Graph Attention-Driven Hierarchical Reinforcement Learning",
-          "summary": "Dynamic cloud workflow scheduling must balance deadline satisfaction, container utilization, and energy consumption while dealing with stochastic task-execution speeds, placement-dependent communication, and coupled task and container decisions. Workflows are naturally modeled as directed acyclic graphs (DAGs), but conventional vector- or matrix-based states do not fully capture their dependency t",
-          "published": "2026-09-14",
-          "url": "https://arxiv.org/abs/2609.14952",
           "primary_category": "로보틱스",
           "source_detail": "arXiv via OpenAlex"
         },
@@ -428,6 +428,30 @@
           "source": "rss"
         },
         {
+          "title": "The Robot Report parent Arrowfly launches AI for Engineers platform, events for engineers navigating AI",
+          "summary": "<p>The initiative for engineers includes a news desk, a conference, research, and an advisory board, grounded in trusted editorial brands.</p> <p>The post <a href=\"https://www.therobotreport.com/robot-report-parent-arrowfly-launches-ai-for-engineers-platform-events-engineers-navigating-ai/\">The Robot Report parent Arrowfly launches AI for Engineers platform, events for engineers navigating AI</a> ",
+          "published": "Wed, 30 Sep 2026 14:03:31 +0000",
+          "url": "https://www.therobotreport.com/robot-report-parent-arrowfly-launches-ai-for-engineers-platform-events-engineers-navigating-ai/",
+          "feed": "The Robot Report",
+          "source": "rss"
+        },
+        {
+          "title": "Innodata opens motion-capture lab to help humanoids move more like people",
+          "summary": "<p>Innodata uses Vicon cameras to measure movements with sub-millimeter accuracy and to collect real-world training data for robots.</p> <p>The post <a href=\"https://www.therobotreport.com/innodata-opens-motion-capture-lab-help-humanoids-move-more-like-people/\">Innodata opens motion-capture lab to help humanoids move more like people</a> appeared first on <a href=\"https://www.therobotreport.com\">T",
+          "published": "Wed, 30 Sep 2026 12:59:12 +0000",
+          "url": "https://www.therobotreport.com/innodata-opens-motion-capture-lab-help-humanoids-move-more-like-people/",
+          "feed": "The Robot Report",
+          "source": "rss"
+        },
+        {
+          "title": "Tackling construction labor shortages: ASI and SoftBank partner on autonomous fleets",
+          "summary": "<p>ASI and SoftBank join forces with $225M to scale brand-agnostic autonomous heavy equipment across infrastructure projects.</p> <p>The post <a href=\"https://www.therobotreport.com/tackling-construction-labor-shortages-asi-softbank-partner-autonomous-fleets/\">Tackling construction labor shortages: ASI and SoftBank partner on autonomous fleets</a> appeared first on <a href=\"https://www.therobotrep",
+          "published": "Wed, 30 Sep 2026 12:30:17 +0000",
+          "url": "https://www.therobotreport.com/tackling-construction-labor-shortages-asi-softbank-partner-autonomous-fleets/",
+          "feed": "The Robot Report",
+          "source": "rss"
+        },
+        {
           "title": "ForceN to give a crash course on force and torque sensing for humanoids at RoboBusiness",
           "summary": "<p>Attendees will learn about the many ways they can use force and torque sensors in humanoids and how to avoid breaking them while doing it.</p> <p>The post <a href=\"https://www.therobotreport.com/forcen-gives-crash-course-force-torque-sensing-humanoids-robobusiness-2026/\">ForceN to give a crash course on force and torque sensing for humanoids at RoboBusiness</a> appeared first on <a href=\"https:",
           "published": "Tue, 29 Sep 2026 19:52:46 +0000",
@@ -520,30 +544,6 @@
           "summary": "<p>Labor availability, costs, productivity, and efficiency are common concerns of farmers that technology can address, according to CNH. </p> <p>The post <a href=\"https://www.therobotreport.com/farmers-are-facing-more-pressure-cnh-says-robotics-can-help/\">Farmers are facing more pressure; CNH says robotics can help</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>",
           "published": "Fri, 25 Sep 2026 12:18:36 +0000",
           "url": "https://www.therobotreport.com/farmers-are-facing-more-pressure-cnh-says-robotics-can-help/",
-          "feed": "The Robot Report",
-          "source": "rss"
-        },
-        {
-          "title": "5 million robots are now at work in factories worldwide, reports the IFR",
-          "summary": "<p>China still leads the world in industrial robot installations, but the U.S. and Germany are also significant markets, found the IFR.</p> <p>The post <a href=\"https://www.therobotreport.com/5-million-robots-now-working-factories-worldwide-ifr-reports/\">5 million robots are now at work in factories worldwide, reports the IFR</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot",
-          "published": "Thu, 24 Sep 2026 20:15:51 +0000",
-          "url": "https://www.therobotreport.com/5-million-robots-now-working-factories-worldwide-ifr-reports/",
-          "feed": "The Robot Report",
-          "source": "rss"
-        },
-        {
-          "title": "Why you should look beyond the spec sheet when choosing motion architecture",
-          "summary": "<p>Choosing the right motion architecture is about understanding how the entire system will behave in use, explains Kollmorgen.</p> <p>The post <a href=\"https://www.therobotreport.com/why-you-should-look-beyond-spec-sheet-when-choosing-motion-architecture/\">Why you should look beyond the spec sheet when choosing motion architecture</a> appeared first on <a href=\"https://www.therobotreport.com\">The",
-          "published": "Thu, 24 Sep 2026 16:39:14 +0000",
-          "url": "https://www.therobotreport.com/why-you-should-look-beyond-spec-sheet-when-choosing-motion-architecture/",
-          "feed": "The Robot Report",
-          "source": "rss"
-        },
-        {
-          "title": "Epson introduces AX6 cobot with compact design, no-code programming",
-          "summary": "<p>Epson Robots has expanded its six-axis robot line with the AX6, a lightweight force- and power-limited arm.</p> <p>The post <a href=\"https://www.therobotreport.com/epson-introduces-ax6-cobot-compact-design-no-code-programming/\">Epson introduces AX6 cobot with compact design, no-code programming</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
-          "published": "Thu, 24 Sep 2026 14:51:07 +0000",
-          "url": "https://www.therobotreport.com/epson-introduces-ax6-cobot-compact-design-no-code-programming/",
           "feed": "The Robot Report",
           "source": "rss"
         }

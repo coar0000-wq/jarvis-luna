@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T08:06:20.233371+00:00",
+  "generated_at": "2026-09-30T14:49:26.562225+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "rockstar games",
+          "keyword": "california flooding",
           "approx_traffic": "20000+",
           "traffic_num": 20000,
-          "published": "Wed, 30 Sep 2026 00:30:00 -0700",
-          "source_name": "Game Informer",
-          "url": "https://trends.google.com/trending?geo=US&q=rockstar%20games"
+          "published": "Wed, 30 Sep 2026 07:20:00 -0700",
+          "source_name": "The Weather Channel",
+          "url": "https://trends.google.com/trending?geo=US&q=california%20flooding"
         },
         {
-          "keyword": "supermarket",
+          "keyword": "strait of hormuz news",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Wed, 30 Sep 2026 06:40:00 -0700",
+          "source_name": "Al Jazeera",
+          "url": "https://trends.google.com/trending?geo=US&q=strait%20of%20hormuz%20news"
+        },
+        {
+          "keyword": "d'angelo russell",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Wed, 30 Sep 2026 06:20:00 -0700",
+          "source_name": "Bleacher Report",
+          "url": "https://trends.google.com/trending?geo=US&q=d%27angelo%20russell"
+        },
+        {
+          "keyword": "burke high school",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Wed, 30 Sep 2026 05:50:00 -0700",
+          "source_name": "KETV",
+          "url": "https://trends.google.com/trending?geo=US&q=burke%20high%20school"
+        },
+        {
+          "keyword": "shemar moore",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Wed, 30 Sep 2026 00:40:00 -0700",
-          "source_name": "WSJ",
-          "url": "https://trends.google.com/trending?geo=US&q=supermarket"
+          "published": "Wed, 30 Sep 2026 06:30:00 -0700",
+          "source_name": "Yahoo",
+          "url": "https://trends.google.com/trending?geo=US&q=shemar%20moore"
         },
         {
-          "keyword": "carhartt",
+          "keyword": "manassas shooting",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Wed, 30 Sep 2026 00:20:00 -0700",
-          "source_name": "Gear Patrol",
-          "url": "https://trends.google.com/trending?geo=US&q=carhartt"
+          "published": "Wed, 30 Sep 2026 07:20:00 -0700",
+          "source_name": "NBC4 Washington",
+          "url": "https://trends.google.com/trending?geo=US&q=manassas%20shooting"
         },
         {
-          "keyword": "market",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Wed, 30 Sep 2026 00:50:00 -0700",
-          "source_name": "CNBC",
-          "url": "https://trends.google.com/trending?geo=US&q=market"
+          "keyword": "zach braff",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Wed, 30 Sep 2026 06:20:00 -0700",
+          "source_name": "Deadline",
+          "url": "https://trends.google.com/trending?geo=US&q=zach%20braff"
         },
         {
-          "keyword": "india vs west indies",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Wed, 30 Sep 2026 00:40:00 -0700",
-          "source_name": "Cricinfo",
-          "url": "https://trends.google.com/trending?geo=US&q=india%20vs%20west%20indies"
+          "keyword": "aterrizaje de emergencia",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Wed, 30 Sep 2026 06:10:00 -0700",
+          "source_name": "CNN en Español",
+          "url": "https://trends.google.com/trending?geo=US&q=aterrizaje%20de%20emergencia"
         },
         {
-          "keyword": "week 4 defense rankings",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Wed, 30 Sep 2026 00:40:00 -0700",
-          "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=week%204%20defense%20rankings"
+          "keyword": "heated rivalry",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Wed, 30 Sep 2026 05:40:00 -0700",
+          "source_name": "The Hollywood Reporter",
+          "url": "https://trends.google.com/trending?geo=US&q=heated%20rivalry"
         },
         {
-          "keyword": "jaylen wright",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Wed, 30 Sep 2026 00:40:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=jaylen%20wright"
-        },
-        {
-          "keyword": "arthur fils",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Wed, 30 Sep 2026 00:40:00 -0700",
-          "source_name": "L'Équipe",
-          "url": "https://trends.google.com/trending?geo=US&q=arthur%20fils"
-        },
-        {
-          "keyword": "james bond movies",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Wed, 30 Sep 2026 00:40:00 -0700",
-          "source_name": "discussingfilm.net",
-          "url": "https://trends.google.com/trending?geo=US&q=james%20bond%20movies"
-        },
-        {
-          "keyword": "french guiana vs sint maarten",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Wed, 30 Sep 2026 00:20:00 -0700",
-          "source_name": "FOX Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=french%20guiana%20vs%20sint%20maarten"
+          "keyword": "savannah james",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Wed, 30 Sep 2026 05:40:00 -0700",
+          "source_name": "Yahoo",
+          "url": "https://trends.google.com/trending?geo=US&q=savannah%20james"
         }
       ]
     },
@@ -187,6 +187,11 @@
       "source": "allure.com/feed/rss",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
       "items": [
+        {
+          "title": "Hailey Bieber's Hot Chocolate Nails Match Her New Hair Color—See the Photos",
+          "published": "Wed, 30 Sep 2026 13:03:17 +0000",
+          "url": "https://www.allure.com/story/hailey-bieber-chocolate-brown-nails-hair-color"
+        },
         {
           "title": "How to Apply Mascara for Longer, Fuller, Mess-Free Lashes—With Photos and Videos",
           "published": "Wed, 30 Sep 2026 00:15:00 +0000",
@@ -331,11 +336,6 @@
           "title": "Patchology Moodpatch Perk Up Eye Gels Review",
           "published": "Thu, 24 Sep 2026 15:23:06 +0000",
           "url": "https://www.allure.com/review/patchology-moodpatch-perk-up-eye-gels-review-2026"
-        },
-        {
-          "title": "Derma E Vitamin C Concentrated Serum Review",
-          "published": "Thu, 24 Sep 2026 15:15:12 +0000",
-          "url": "https://www.allure.com/review/dermae-vitamin-c-concentrated-serum-review-2026"
         }
       ]
     },

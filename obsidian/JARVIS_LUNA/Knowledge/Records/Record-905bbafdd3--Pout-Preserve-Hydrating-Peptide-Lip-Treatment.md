@@ -2,7 +2,7 @@
 title: "Record 905bbafdd3 · Pout-Preserve-Hydrating-Peptide-Lip-Treatment"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:18.582696+00:00
+updated_at: 2026-09-30T14:55:45.664066+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 586469879c · Uncertain-Boundaries-Multidisciplinary-Approaches-to-Copyright-Issues-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:16.543739+00:00
+updated_at: 2026-09-30T14:55:43.408559+00:00
 tags: [record, real-data]
 ---
 

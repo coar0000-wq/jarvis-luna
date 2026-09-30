@@ -2,7 +2,7 @@
 title: "Record b763ad8be0 · A-Survey-of-Learned-Indexes-for-the-Multi-dimensional-Space"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:16.542502+00:00
+updated_at: 2026-09-30T14:55:43.407328+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 87c3f247fb · ACPruner-Visual-Token-Pruning-as-Biased-Attention-Coverage-Maximizatio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:16.894392+00:00
+updated_at: 2026-09-30T14:55:43.835170+00:00
 tags: [record, real-data]
 ---
 

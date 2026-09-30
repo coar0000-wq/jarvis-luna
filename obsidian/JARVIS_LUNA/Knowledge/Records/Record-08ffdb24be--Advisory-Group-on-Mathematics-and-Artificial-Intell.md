@@ -2,7 +2,7 @@
 title: "Record 08ffdb24be · Advisory-Group-on-Mathematics-and-Artificial-Intelligence"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:17.654002+00:00
+updated_at: 2026-09-30T14:55:44.654259+00:00
 tags: [record, real-data]
 ---
 

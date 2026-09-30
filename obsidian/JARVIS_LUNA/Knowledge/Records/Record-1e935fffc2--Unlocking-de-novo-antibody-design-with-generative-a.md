@@ -2,7 +2,7 @@
 title: "Record 1e935fffc2 · Unlocking-de-novo-antibody-design-with-generative-artificial-intellige"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:16.468131+00:00
+updated_at: 2026-09-30T14:55:43.331868+00:00
 tags: [record, real-data]
 ---
 

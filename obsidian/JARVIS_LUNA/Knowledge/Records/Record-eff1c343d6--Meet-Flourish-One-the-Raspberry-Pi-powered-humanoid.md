@@ -2,7 +2,7 @@
 title: "Record eff1c343d6 · Meet-Flourish-One-the-Raspberry-Pi-powered-humanoid-built-for-busy-par"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:18.524647+00:00
+updated_at: 2026-09-30T14:55:45.602716+00:00
 tags: [record, real-data]
 ---
 

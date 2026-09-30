@@ -2,7 +2,7 @@
 title: "Record a72231262a · VD-DeepStack-Bridging-Visual-Comparison-and-Language-Reasoning-for-Few"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:16.897730+00:00
+updated_at: 2026-09-30T14:55:43.839138+00:00
 tags: [record, real-data]
 ---
 

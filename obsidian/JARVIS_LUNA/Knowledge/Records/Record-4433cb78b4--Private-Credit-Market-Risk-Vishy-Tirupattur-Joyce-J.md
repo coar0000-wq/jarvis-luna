@@ -2,7 +2,7 @@
 title: "Record 4433cb78b4 · Private-Credit-Market-Risk-Vishy-Tirupattur-Joyce-Jiang"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:18.473938+00:00
+updated_at: 2026-09-30T14:55:45.545552+00:00
 tags: [record, real-data]
 ---
 

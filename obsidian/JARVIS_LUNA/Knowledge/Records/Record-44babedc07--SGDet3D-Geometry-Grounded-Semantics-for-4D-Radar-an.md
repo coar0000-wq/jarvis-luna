@@ -2,7 +2,7 @@
 title: "Record 44babedc07 · SGDet3D-Geometry-Grounded-Semantics-for-4D-Radar-and-Camera-3D-Object-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:16.829892+00:00
+updated_at: 2026-09-30T14:55:43.759552+00:00
 tags: [record, real-data]
 ---
 

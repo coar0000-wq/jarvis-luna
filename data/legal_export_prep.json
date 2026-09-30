@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T08:06:27.760951+00:00",
+  "generated_at": "2026-09-30T14:53:33.835202+00:00",
   "generator": "scripts/prepare_legal_export.py",
   "왜": "법률팀이 '검토 0건, 5항목 대기' 였는데 그 다섯 중 넷은 이미 저장소에 있는 값으로 채울 수 있었다. 먼저 채우고 사람은 확인만 한다.",
   "hs_출처": "hts.usitc.gov/reststop/search (미국 국제무역위원회 공식)",
@@ -9,6 +9,7 @@
   "hs_filled_this_run": 0,
   "label_complete": 0,
   "사람이_채워야_하는_칸": [
+    "전성분",
     "제품 정체 표시",
     "책임자 이름·주소"
   ],
@@ -610,91 +611,6 @@
       "hard_block_reason": "자동 점검 미통과: label_fields"
     },
     {
-      "pd_no": "1059834",
-      "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-      "bucket": "마스크팩",
-      "grade": "S",
-      "용도": "마스크팩",
-      "성분": "정제수, 글리세린, 세틸에틸헥사노에이트, 시어버터, 아크릴레이트코폴리머, 아이리쉬모스추출물, 캐롭검, 다이프로필렌글라이콜, 베타인, 포타슘클로라이드, 하이드록시아세토페논, 수크로오스, 세틸하이드록시에틸셀룰로오스, 카프릴릴글라이콜, 알란토인, 에틸헥실글리세린, 폴리글리세릴-6카프릴레이트, 폴리글리세릴-4카프레이트, 아데노신, 하이드롤라이즈드식물성단백질(100",
-      "제조국": "한국",
-      "내용량": "28 g",
-      "제조업자": "(주)제닉 / 충청남도 논산시 성동면 산업단지로5길 5",
-      "name_en": "CELDERMA Daily Collagen Sheet Mask 28 g",
-      "product_type_en": "Sheet Mask",
-      "hs": {
-        "code": "3304.99",
-        "basis": "버킷 '마스크팩'",
-        "label": "",
-        "official": [
-          {
-            "htsno": "3304",
-            "description": "Beauty or make-up preparations and preparations for the care of the skin (other than medicaments), including sunscreen o"
-          },
-          {
-            "htsno": "3304.10.00.00",
-            "description": "Lip make-up preparations"
-          },
-          {
-            "htsno": "3304.20.00.00",
-            "description": "Eye make-up preparations"
-          },
-          {
-            "htsno": "3304.30.00.00",
-            "description": "Manicure or pedicure preparations"
-          },
-          {
-            "htsno": "3305",
-            "description": "Preparations for use on the hair:"
-          },
-          {
-            "htsno": "3305.20.00.00",
-            "description": "Preparations for permanent waving or straightening"
-          }
-        ]
-      },
-      "label": {
-        "draft": {
-          "product_identity": {
-            "label": "제품 정체 표시",
-            "value": "CELDERMA Daily Collagen Sheet Mask 28 g",
-            "rule": "주표시면. 무엇인지 알 수 있는 이름이나 설명"
-          },
-          "net_quantity": {
-            "label": "내용량",
-            "value": "28 g",
-            "rule": "주표시면 하단 30% 안. 미터법과 야드파운드법 병기"
-          },
-          "ingredients": {
-            "label": "전성분",
-            "value": "정제수, 글리세린, 세틸에틸헥사노에이트, 시어버터, 아크릴레이트코폴리머, 아이리쉬모스추출물, 캐롭검, 다이프로필렌글라이콜, 베타인, 포타슘클로라이드, 하이드록시아세토페논, 수크로오스, 세틸하이드록시에틸셀룰로오스, 카프릴릴글라이콜, 알란토인, 에틸헥실글리세린, 폴리글리세릴-6카프릴레이트, 폴리글리세릴-4카프레이트, 아데노신, 하이드롤라이즈드식물성단백질(100ppb), 1,2-헥산다이올, 다이소듐이디티에이, 향료, 울트라마린 (CI 77007), 하이드레이티드실리카, 다이소듐포스페이트, 실리카다이메틸실릴레이트, 다이포타슘글리시리제이트, 부틸렌글라이콜, 소듐포스페이트, 녹두싹추출물, 브로콜리싹추출물, 유채싹추출물, 적색227호 (CI 17200), 토코페롤",
-            "rule": "정보표시면. INCI 명칭, 함량 내림차순, 1% 미만은 순서 무관"
-          },
-          "responsible_party": {
-            "label": "책임자 이름·주소",
-            "value": "",
-            "rule": "제조자·포장자·유통자 중 하나. 도시·주·우편번호 포함"
-          },
-          "country_of_origin": {
-            "label": "원산지",
-            "value": "한국",
-            "rule": "수입품은 Made in Korea 등 표기"
-          },
-          "warnings": {
-            "label": "경고 문구",
-            "value": "If irritation occurs, discontinue use. Keep out of reach of children. For external use only.",
-            "rule": "해당 시. 사용 중 이상 발생 시 사용 중단 등"
-          }
-        },
-        "missing": [
-          "책임자 이름·주소"
-        ],
-        "note": "전성분은 한글이다. 미국 라벨에는 INCI 영문명이 필요하다. 번역이 아니라 표준 명칭 대조라서 사람이 확인해야 한다.",
-        "inci_status": "korean_only"
-      },
-      "hard_block": false,
-      "hard_block_reason": ""
-    },
-    {
       "pd_no": "1049285",
       "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
       "bucket": "스킨케어",
@@ -863,6 +779,93 @@
       },
       "hard_block": false,
       "hard_block_reason": ""
+    },
+    {
+      "pd_no": "1060489",
+      "name": "메디필 시카 쿨링 진정 랩핑 마스크 4 ml 4개입",
+      "bucket": "마스크팩",
+      "grade": "S",
+      "용도": "마스크팩",
+      "성분": "",
+      "제조국": "한국",
+      "내용량": "4ml, 0.13oz",
+      "제조업자": "제품 내 별도 표기 / 주식회사 스킨이데아",
+      "name_en": "",
+      "product_type_en": "",
+      "hs": {
+        "code": "3304.99",
+        "basis": "버킷 '마스크팩'",
+        "label": "",
+        "official": [
+          {
+            "htsno": "3304",
+            "description": "Beauty or make-up preparations and preparations for the care of the skin (other than medicaments), including sunscreen o"
+          },
+          {
+            "htsno": "3304.10.00.00",
+            "description": "Lip make-up preparations"
+          },
+          {
+            "htsno": "3304.20.00.00",
+            "description": "Eye make-up preparations"
+          },
+          {
+            "htsno": "3304.30.00.00",
+            "description": "Manicure or pedicure preparations"
+          },
+          {
+            "htsno": "3305",
+            "description": "Preparations for use on the hair:"
+          },
+          {
+            "htsno": "3305.20.00.00",
+            "description": "Preparations for permanent waving or straightening"
+          }
+        ]
+      },
+      "label": {
+        "draft": {
+          "product_identity": {
+            "label": "제품 정체 표시",
+            "value": "",
+            "rule": "주표시면. 무엇인지 알 수 있는 이름이나 설명"
+          },
+          "net_quantity": {
+            "label": "내용량",
+            "value": "4ml, 0.13oz",
+            "rule": "주표시면 하단 30% 안. 미터법과 야드파운드법 병기"
+          },
+          "ingredients": {
+            "label": "전성분",
+            "value": "",
+            "rule": "정보표시면. INCI 명칭, 함량 내림차순, 1% 미만은 순서 무관"
+          },
+          "responsible_party": {
+            "label": "책임자 이름·주소",
+            "value": "",
+            "rule": "제조자·포장자·유통자 중 하나. 도시·주·우편번호 포함"
+          },
+          "country_of_origin": {
+            "label": "원산지",
+            "value": "한국",
+            "rule": "수입품은 Made in Korea 등 표기"
+          },
+          "warnings": {
+            "label": "경고 문구",
+            "value": "If irritation occurs, discontinue use. Keep out of reach of children. For external use only.",
+            "rule": "해당 시. 사용 중 이상 발생 시 사용 중단 등"
+          }
+        },
+        "missing": [
+          "제품 정체 표시",
+          "전성분",
+          "책임자 이름·주소"
+        ],
+        "note": "전성분은 한글이다. 미국 라벨에는 INCI 영문명이 필요하다. 번역이 아니라 표준 명칭 대조라서 사람이 확인해야 한다.",
+        "inci_status": "no_ingredients"
+      },
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields"
     }
   ]
 }

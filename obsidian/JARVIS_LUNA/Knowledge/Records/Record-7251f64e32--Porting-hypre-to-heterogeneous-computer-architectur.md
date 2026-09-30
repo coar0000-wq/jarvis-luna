@@ -2,7 +2,7 @@
 title: "Record 7251f64e32 · Porting-hypre-to-heterogeneous-computer-architectur"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:16.369474+00:00
+updated_at: 2026-09-30T14:55:43.223642+00:00
 tags: [record, real-data]
 ---
 

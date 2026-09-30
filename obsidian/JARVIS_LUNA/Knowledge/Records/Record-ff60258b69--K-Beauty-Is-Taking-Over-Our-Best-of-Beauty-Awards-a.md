@@ -2,7 +2,7 @@
 title: "Record ff60258b69 · K-Beauty-Is-Taking-Over-Our-Best-of-Beauty-Awards-and-for-Good-Reason-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:17.288058+00:00
+updated_at: 2026-09-30T14:55:44.270152+00:00
 tags: [record, real-data]
 ---
 

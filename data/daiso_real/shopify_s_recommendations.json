@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T08:06:21.501619+00:00",
+  "generated_at": "2026-09-30T14:49:27.906064+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
@@ -18,16 +18,16 @@
       "s_rule": "strong_form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049276",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/biuEYxzjCmX6JMJEi1e01049276_00_01biuEYxzjCmX6JMJEi1e0.jpg",
-      "recommend_reason": "글로벌 'REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 73% · 토큰 ampoule",
+      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule",
       "matched_global": {
-        "channel": "oliveyoung_us",
-        "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
-        "similarity": 0.733,
-        "demand_weight": 0.784,
+        "channel": "tiktok_shop_us",
+        "global_product": "Skin1004 Madagascar Centella Ampoule",
+        "similarity": 0.7,
+        "demand_weight": 0.75,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.575
+        "match_score": 0.525
       },
       "registerable": true,
       "registerable_source": "data/listing_gate.json",
@@ -41,7 +41,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -57,19 +57,18 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.716,
+        "confidence": 0.712,
         "usage": {
           "input_tokens": 1105,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.72,
+        "risk_score": 1.73,
         "model": "jev-1.13.0",
         "state_signature": "cdb95028555fb2cc1091059f8cd86fe4a993cc1cce6206584626e7d74b6ea8c6",
-        "decided_at": "2026-09-30T08:06:28.026636+00:00",
-        "carried_from": "2026-09-30T08:06:28.026636+00:00"
+        "decided_at": "2026-09-30T14:53:34.139081+00:00"
       },
-      "gate_generated_at": "2026-09-30T11:54:43.505700+00:00"
+      "gate_generated_at": "2026-09-30T14:53:35.693028+00:00"
     },
     {
       "rank": 2,
@@ -107,7 +106,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -119,23 +118,22 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.92,
+        "model_route_confidence": 0.93,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.718,
+        "confidence": 0.708,
         "usage": {
           "input_tokens": 1085,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.64,
+        "risk_score": 1.65,
         "model": "jev-1.13.0",
         "state_signature": "51d0e73d5ba5ed41de4d4bf02811433e8f7ef09ef764ae07bb5b94a8cc530ea7",
-        "decided_at": "2026-09-30T08:06:28.224110+00:00",
-        "carried_from": "2026-09-30T08:06:28.224110+00:00"
+        "decided_at": "2026-09-30T14:53:34.300669+00:00"
       },
-      "gate_generated_at": "2026-09-30T11:54:43.505700+00:00"
+      "gate_generated_at": "2026-09-30T14:53:35.693028+00:00"
     },
     {
       "rank": 3,
@@ -149,16 +147,16 @@
       "s_rule": "strong_form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049275",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/0XsdymYj3PJyHpuxNOsm1049275_00_010XsdymYj3PJyHpuxNOsm.jpg",
-      "recommend_reason": "글로벌 'REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 73% · 토큰 ampoule",
+      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule",
       "matched_global": {
-        "channel": "oliveyoung_us",
-        "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
-        "similarity": 0.733,
-        "demand_weight": 0.784,
+        "channel": "tiktok_shop_us",
+        "global_product": "Skin1004 Madagascar Centella Ampoule",
+        "similarity": 0.7,
+        "demand_weight": 0.75,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.575
+        "match_score": 0.525
       },
       "registerable": true,
       "registerable_source": "data/listing_gate.json",
@@ -172,7 +170,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -184,23 +182,22 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.92,
+        "model_route_confidence": 0.93,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.72,
+        "confidence": 0.692,
         "usage": {
           "input_tokens": 1104,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.62,
+        "risk_score": 1.59,
         "model": "jev-1.13.0",
         "state_signature": "51d0e73d5ba5ed41de4d4bf02811433e8f7ef09ef764ae07bb5b94a8cc530ea7",
-        "decided_at": "2026-09-30T08:06:28.329201+00:00",
-        "carried_from": "2026-09-30T08:06:28.329201+00:00"
+        "decided_at": "2026-09-30T14:53:34.465773+00:00"
       },
-      "gate_generated_at": "2026-09-30T11:54:43.505700+00:00"
+      "gate_generated_at": "2026-09-30T14:53:35.693028+00:00"
     },
     {
       "rank": 4,
@@ -238,11 +235,11 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "review",
+        "grade_advisory": "hold",
         "legal_gate_advisory": "review",
         "risk_level": "high",
         "risk_points": 1,
@@ -250,23 +247,22 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.9,
+        "model_route_confidence": 0.92,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.684,
+        "confidence": 0.7,
         "usage": {
           "input_tokens": 1086,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.56,
+        "risk_score": 1.61,
         "model": "jev-1.13.0",
         "state_signature": "a235a30f46906db0e3e7198e8f998dc4cfdaf92ceac3f46d1cef17739f39ea0f",
-        "decided_at": "2026-09-30T08:06:28.445174+00:00",
-        "carried_from": "2026-09-30T08:06:28.445174+00:00"
+        "decided_at": "2026-09-30T14:53:34.638072+00:00"
       },
-      "gate_generated_at": "2026-09-30T11:54:43.505700+00:00"
+      "gate_generated_at": "2026-09-30T14:53:35.693028+00:00"
     },
     {
       "rank": 5,
@@ -304,73 +300,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
-        "source": "typesafe",
-        "paid_api_called": false,
-        "enforced": false,
-        "grade_advisory": "hold",
-        "legal_gate_advisory": "review",
-        "risk_level": "high",
-        "risk_points": 1,
-        "team_routes": [
-          "legal"
-        ],
-        "model_route": "human",
-        "model_route_confidence": 0.94,
-        "findings": [
-          "public blockers: legal_full"
-        ],
-        "confidence": 0.704,
-        "usage": {
-          "input_tokens": 1097,
-          "output_tokens": 198
-        },
-        "free_credits_only": true,
-        "risk_score": 1.66,
-        "model": "jev-1.13.0",
-        "state_signature": "a235a30f46906db0e3e7198e8f998dc4cfdaf92ceac3f46d1cef17739f39ea0f",
-        "decided_at": "2026-09-30T08:06:28.563185+00:00",
-        "carried_from": "2026-09-30T08:06:28.563185+00:00"
-      },
-      "gate_generated_at": "2026-09-30T11:54:43.505700+00:00"
-    },
-    {
-      "rank": 6,
-      "canonical_product_id": "CP000270",
-      "pd_no": "1075857",
-      "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
-      "bucket": "스킨케어",
-      "price_krw": 2000,
-      "shopify_score": 94,
-      "grade": "S",
-      "s_rule": "ingredient+form",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1075857",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260205/Cg7pPAF0QMRSGGKdsWZw1075857_00_01Cg7pPAF0QMRSGGKdsWZw.jpg",
-      "recommend_reason": "글로벌 'Lacto-PDRN 4% + B9 Eye Cream' (ulta_beauty) 유사 68% · 토큰 cream, pdrn",
-      "matched_global": {
-        "channel": "ulta_beauty",
-        "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
-        "similarity": 0.68,
-        "demand_weight": 0.425,
-        "matched_tokens": [
-          "cream",
-          "pdrn"
-        ],
-        "match_score": 0.289
-      },
-      "registerable": true,
-      "registerable_source": "data/listing_gate.json",
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "blocked_by": [],
-      "public_ready": false,
-      "public_blocked_by": [
-        "legal_full"
-      ],
-      "typesafe": {
-        "framework": "typesafe_system_one_compatible",
-        "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -386,43 +316,42 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.676,
+        "confidence": 0.704,
         "usage": {
-          "input_tokens": 1089,
+          "input_tokens": 1097,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.5,
+        "risk_score": 1.61,
         "model": "jev-1.13.0",
-        "state_signature": "9cd2800fc8d4cac3636219a503b910fbb2b0924bd299e98e77065bc73dc4dcbb",
-        "decided_at": "2026-09-30T08:06:28.667385+00:00",
-        "carried_from": "2026-09-30T08:06:28.667385+00:00"
+        "state_signature": "a235a30f46906db0e3e7198e8f998dc4cfdaf92ceac3f46d1cef17739f39ea0f",
+        "decided_at": "2026-09-30T14:53:34.790439+00:00"
       },
-      "gate_generated_at": "2026-09-30T11:54:43.505700+00:00"
+      "gate_generated_at": "2026-09-30T14:53:35.693028+00:00"
     },
     {
-      "rank": 7,
-      "canonical_product_id": "CP000109",
-      "pd_no": "1049285",
-      "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
+      "rank": 6,
+      "canonical_product_id": "CP000270",
+      "pd_no": "1075857",
+      "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
       "bucket": "스킨케어",
-      "price_krw": 3000,
-      "shopify_score": 93,
+      "price_krw": 2000,
+      "shopify_score": 94,
       "grade": "S",
-      "s_rule": "multi_token",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250929/gblFwiiyQbV92ezzjLMk1049285_00_01gblFwiiyQbV92ezzjLMk.jpg",
-      "recommend_reason": "글로벌 'Smushy SOS Hydrating Lip Mask' (ulta_beauty) 유사 73% · 토큰 hydrating, mask",
+      "s_rule": "ingredient+form",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1075857",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260205/Cg7pPAF0QMRSGGKdsWZw1075857_00_01Cg7pPAF0QMRSGGKdsWZw.jpg",
+      "recommend_reason": "글로벌 'Biodance Rejuvenating Caviar PDRN Real Deep Mask 4ct 1.19 oz.(34g)' (oliveyoung_us) 유사 63% · 토큰 mask, pdrn",
       "matched_global": {
-        "channel": "ulta_beauty",
-        "global_product": "Smushy SOS Hydrating Lip Mask",
-        "similarity": 0.733,
-        "demand_weight": 0.425,
+        "channel": "oliveyoung_us",
+        "global_product": "Biodance Rejuvenating Caviar PDRN Real Deep Mask 4ct 1.19 oz.(34g)",
+        "similarity": 0.634,
+        "demand_weight": 0.49,
         "matched_tokens": [
-          "hydrating",
-          "mask"
+          "mask",
+          "pdrn"
         ],
-        "match_score": 0.312
+        "match_score": 0.311
       },
       "registerable": true,
       "registerable_source": "data/listing_gate.json",
@@ -436,7 +365,72 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
+        "source": "typesafe",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "hold",
+        "legal_gate_advisory": "review",
+        "risk_level": "high",
+        "risk_points": 1,
+        "team_routes": [
+          "legal"
+        ],
+        "model_route": "human",
+        "model_route_confidence": 0.92,
+        "findings": [
+          "public blockers: legal_full"
+        ],
+        "confidence": 0.684,
+        "usage": {
+          "input_tokens": 1089,
+          "output_tokens": 198
+        },
+        "free_credits_only": true,
+        "risk_score": 1.51,
+        "model": "jev-1.13.0",
+        "state_signature": "9cd2800fc8d4cac3636219a503b910fbb2b0924bd299e98e77065bc73dc4dcbb",
+        "decided_at": "2026-09-30T14:53:34.966768+00:00"
+      },
+      "gate_generated_at": "2026-09-30T14:53:35.693028+00:00"
+    },
+    {
+      "rank": 7,
+      "canonical_product_id": "CP000109",
+      "pd_no": "1049285",
+      "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
+      "bucket": "스킨케어",
+      "price_krw": 3000,
+      "shopify_score": 93,
+      "grade": "S",
+      "s_rule": "multi_token",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250929/gblFwiiyQbV92ezzjLMk1049285_00_01gblFwiiyQbV92ezzjLMk.jpg",
+      "recommend_reason": "글로벌 'ROUND LAB 1025 Dokdo Hydrating Water Gel Mask 10ct 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 76% · 토큰 hydrating, mask",
+      "matched_global": {
+        "channel": "oliveyoung_us",
+        "global_product": "ROUND LAB 1025 Dokdo Hydrating Water Gel Mask 10ct 1.01 fl. oz.(30ml)",
+        "similarity": 0.76,
+        "demand_weight": 0.49,
+        "matched_tokens": [
+          "hydrating",
+          "mask"
+        ],
+        "match_score": 0.372
+      },
+      "registerable": true,
+      "registerable_source": "data/listing_gate.json",
+      "agent_ready": true,
+      "agent_blocked_by": [],
+      "blocked_by": [],
+      "public_ready": false,
+      "public_blocked_by": [
+        "legal_full"
+      ],
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": true,
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -452,19 +446,18 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.734,
+        "confidence": 0.702,
         "usage": {
           "input_tokens": 1096,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.59,
+        "risk_score": 1.54,
         "model": "jev-1.13.0",
         "state_signature": "e05a0e27591e0c95f4d9b69ae7367544fdcdf352632872cce305bc9033dca5a5",
-        "decided_at": "2026-09-30T08:06:28.774438+00:00",
-        "carried_from": "2026-09-30T08:06:28.774438+00:00"
+        "decided_at": "2026-09-30T14:53:35.145980+00:00"
       },
-      "gate_generated_at": "2026-09-30T11:54:43.505700+00:00"
+      "gate_generated_at": "2026-09-30T14:53:35.693028+00:00"
     },
     {
       "rank": 8,
@@ -512,7 +505,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -525,100 +518,33 @@
           "listing"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.92,
+        "model_route_confidence": 0.89,
         "findings": [
           "draft blockers: copy, us_label, legal",
           "public blockers: copy, us_label, legal, legal_full",
           "legal hard block"
         ],
-        "confidence": 0.9,
+        "confidence": 0.906,
         "usage": {
           "input_tokens": 1113,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 2.65,
+        "risk_score": 2.7,
         "model": "jev-1.13.0",
         "state_signature": "6a8717070ad2bca1105bb9417b1c344a694d4ce599eb319fe88ce4fd91ae93ff",
-        "decided_at": "2026-09-30T08:06:28.912630+00:00",
-        "carried_from": "2026-09-30T08:06:28.912630+00:00"
+        "decided_at": "2026-09-30T14:53:35.325268+00:00"
       },
-      "gate_generated_at": "2026-09-30T11:54:43.505700+00:00"
+      "gate_generated_at": "2026-09-30T14:53:35.693028+00:00"
     },
     {
       "rank": 9,
-      "canonical_product_id": "CP000151",
-      "pd_no": "1059834",
-      "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-      "bucket": "마스크팩",
-      "price_krw": 2000,
-      "shopify_score": 87,
-      "grade": "S",
-      "s_rule": "ingredient+form",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250429/dEtwcu53V3cOWvQ0SnSL1059834_00_01dEtwcu53V3cOWvQ0SnSL.jpg",
-      "recommend_reason": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 88% · 토큰 collagen, mask",
-      "matched_global": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Biodance Bio-Collagen Real Deep Mask",
-        "similarity": 0.88,
-        "demand_weight": 0.6,
-        "matched_tokens": [
-          "collagen",
-          "mask"
-        ],
-        "match_score": 0.528
-      },
-      "registerable": true,
-      "registerable_source": "data/listing_gate.json",
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "blocked_by": [],
-      "public_ready": false,
-      "public_blocked_by": [
-        "legal_full"
-      ],
-      "typesafe": {
-        "framework": "typesafe_system_one_compatible",
-        "enabled": true,
-        "mode": "typesafe_carried",
-        "source": "typesafe",
-        "paid_api_called": false,
-        "enforced": false,
-        "grade_advisory": "hold",
-        "legal_gate_advisory": "review",
-        "risk_level": "high",
-        "risk_points": 2,
-        "team_routes": [
-          "legal"
-        ],
-        "model_route": "human",
-        "model_route_confidence": 0.93,
-        "findings": [
-          "public blockers: legal_full"
-        ],
-        "confidence": 0.69,
-        "usage": {
-          "input_tokens": 1094,
-          "output_tokens": 198
-        },
-        "free_credits_only": true,
-        "risk_score": 1.51,
-        "model": "jev-1.13.0",
-        "state_signature": "5d0f8517eb6d26b1be383ef5a31674ecba4cd3d16ebf65891ec60cb2c9634685",
-        "decided_at": "2026-09-30T08:06:29.013877+00:00",
-        "carried_from": "2026-09-30T08:06:29.013877+00:00"
-      },
-      "gate_generated_at": "2026-09-30T11:54:43.505700+00:00"
-    },
-    {
-      "rank": 10,
       "canonical_product_id": "CP000075",
       "pd_no": "1042619",
       "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
       "bucket": "마스크팩",
       "price_krw": 1000,
-      "shopify_score": 85,
+      "shopify_score": 88,
       "grade": "S",
       "s_rule": "ingredient+form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
@@ -647,7 +573,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -659,26 +585,107 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.9,
+        "model_route_confidence": 0.92,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.716,
+        "confidence": 0.732,
         "usage": {
           "input_tokens": 1091,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.49,
+        "risk_score": 1.48,
         "model": "jev-1.13.0",
-        "state_signature": "5e2f905da436816b542b94ec498c05c939ebf779832f7f7ab48cf741dc0a99c4",
-        "decided_at": "2026-09-30T08:06:29.140928+00:00",
-        "carried_from": "2026-09-30T08:06:29.140928+00:00"
+        "state_signature": "056b49377500e8706a467cb391d5c4e59863606a6588d742d745395c1c4e14fa",
+        "decided_at": "2026-09-30T14:53:35.512234+00:00"
       },
-      "gate_generated_at": "2026-09-30T11:54:43.505700+00:00"
+      "gate_generated_at": "2026-09-30T14:53:35.693028+00:00"
+    },
+    {
+      "rank": 10,
+      "canonical_product_id": "CP000158",
+      "pd_no": "1060489",
+      "name": "메디필 시카 쿨링 진정 랩핑 마스크 4 ml 4개입",
+      "bucket": "마스크팩",
+      "price_krw": 3000,
+      "shopify_score": 87,
+      "grade": "S",
+      "s_rule": "multi_token",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060489",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/uaaakIRgplIWVxAb7Zq11060489_00_00uaaakIRgplIWVxAb7Zq1.jpg",
+      "recommend_reason": "글로벌 'Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream' (ulta_beauty) 유사 59% · 토큰 calming, centella",
+      "matched_global": {
+        "channel": "ulta_beauty",
+        "global_product": "Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream",
+        "similarity": 0.593,
+        "demand_weight": 0.68,
+        "matched_tokens": [
+          "calming",
+          "centella"
+        ],
+        "match_score": 0.403
+      },
+      "registerable": false,
+      "registerable_source": "data/listing_gate.json",
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "gosi",
+        "us_label",
+        "legal"
+      ],
+      "blocked_by": [
+        "copy",
+        "gosi",
+        "us_label",
+        "legal"
+      ],
+      "public_ready": false,
+      "public_blocked_by": [
+        "copy",
+        "gosi",
+        "us_label",
+        "legal",
+        "legal_full"
+      ],
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": true,
+        "mode": "typesafe_observational_free_credits",
+        "source": "typesafe",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "hold",
+        "legal_gate_advisory": "block",
+        "risk_level": "critical",
+        "risk_points": 9,
+        "team_routes": [
+          "legal",
+          "sourcing",
+          "listing"
+        ],
+        "model_route": "human",
+        "model_route_confidence": 0.95,
+        "findings": [
+          "draft blockers: copy, gosi, us_label, legal",
+          "public blockers: copy, gosi, us_label, legal, legal_full",
+          "legal hard block"
+        ],
+        "confidence": 0.938,
+        "usage": {
+          "input_tokens": 1136,
+          "output_tokens": 198
+        },
+        "free_credits_only": true,
+        "risk_score": 2.79,
+        "model": "jev-1.13.0",
+        "state_signature": "dde31c10e5a124a988452c35c89827158335f637f4ba35f152d3b99b3a8502d8",
+        "decided_at": "2026-09-30T14:53:35.692988+00:00"
+      },
+      "gate_generated_at": "2026-09-30T14:53:35.693028+00:00"
     }
   ],
-  "agent_ready_count": 9,
-  "registerable_count": 9,
+  "agent_ready_count": 8,
+  "registerable_count": 8,
   "registerable_source": "data/listing_gate.json"
 }

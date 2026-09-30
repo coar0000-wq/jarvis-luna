@@ -2,7 +2,7 @@
 title: "Record 9bb6b5681b · K-Beauty-Device-Brand-THOME-Launches-at-Sephora-Acr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:17.591995+00:00
+updated_at: 2026-09-30T14:55:44.584225+00:00
 tags: [record, real-data]
 ---
 

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-30T11:54:43.793239+00:00",
+  "generated_at": "2026-09-30T14:53:35.849675+00:00",
   "generator": "scripts/shopify_sync_guard.py",
   "ok": true,
   "violations": [],
@@ -30,17 +30,6 @@
   "price_rule": "±$0.50 그리고 ±3% 안의 가격 변화는 변경으로 보지 않는다",
   "units": [
     {
-      "handle": "celderma-daily-collagen-sheet-mask-28-g",
-      "pd_nos": [
-        "1059834"
-      ],
-      "action": "create",
-      "changed": [
-        "새 상품"
-      ],
-      "content_hash": "909b723a5e55d129a92def33e19aee520e815b382054e5d8bcb22d3168b197f3"
-    },
-    {
       "handle": "vonsep-retinol-500-iu-serum-30ml",
       "pd_nos": [
         "1055167"
@@ -50,6 +39,17 @@
         "새 상품"
       ],
       "content_hash": "ddc61951604786449eff1db44a17f6adafad5dab22abe5e0b11b42347a8a24dc"
+    },
+    {
+      "handle": "vt-hyaluron-sleeping-mask-4ml",
+      "pd_nos": [
+        "1049285"
+      ],
+      "action": "create",
+      "changed": [
+        "새 상품"
+      ],
+      "content_hash": "55d4670ee7d522f78f9753e5232d5ae79c1034b92fe0fe837284266451c9a345"
     },
     {
       "handle": "vt-pdrn-radiance-cream-50-ml",

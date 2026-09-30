@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T08:05:39.742043+00:00",
+  "generated_at": "2026-09-30T14:48:45.826183+00:00",
   "generator": "scripts/team_router_moe.py",
   "task": "자료·영상 -> 담당 팀 (11팀 중 정답 표본이 충분한 팀)",
   "label_policy": "출처가 확실한 것만 정답으로 쓴다. 키워드 규칙이 붙인 팀은 쓰지 않는다.",
@@ -17,26 +17,26 @@
     "sourcing"
   ],
   "skipped_small_classes": {},
-  "items": 5557,
-  "train_items": 4495,
-  "validation_items": 1062,
+  "items": 5764,
+  "train_items": 4659,
+  "validation_items": 1105,
   "label_origins": {
-    "corpus:arxiv": 630,
-    "corpus:institutions": 2326,
+    "corpus:arxiv": 678,
+    "corpus:institutions": 2457,
     "corpus:organic_skincare": 15,
-    "corpus:robotics": 406,
-    "corpus:us_beauty": 1258,
+    "corpus:robotics": 418,
+    "corpus:us_beauty": 1274,
     "daiso": 356,
     "design_refs": 78,
     "insight": 53,
     "youtube_channel": 411,
     "youtube_manual": 24
   },
-  "features": "TF-IDF + L2 (min_df 2, 어휘 8054)",
+  "features": "TF-IDF + L2 (min_df 2, 어휘 8224)",
   "model": "MoE experts 3, steps 300, lr 5.0, 클래스 균형",
   "validation": {
-    "accuracy": 0.8795,
-    "macro_f1": 0.7664,
+    "accuracy": 0.8814,
+    "macro_f1": 0.767,
     "per_team": {
       "channels": {
         "precision": 1.0,
@@ -45,10 +45,10 @@
         "support": 7
       },
       "design": {
-        "precision": 0.759,
-        "recall": 0.733,
-        "predicted": 29,
-        "support": 30
+        "precision": 0.7,
+        "recall": 0.724,
+        "predicted": 30,
+        "support": 29
       },
       "graph": {
         "precision": 1.0,
@@ -57,16 +57,16 @@
         "support": 5
       },
       "institutions": {
-        "precision": 0.894,
-        "recall": 0.909,
-        "predicted": 471,
-        "support": 463
+        "precision": 0.897,
+        "recall": 0.912,
+        "predicted": 497,
+        "support": 489
       },
       "knowledge": {
-        "precision": 0.688,
-        "recall": 0.792,
-        "predicted": 144,
-        "support": 125
+        "precision": 0.703,
+        "recall": 0.807,
+        "predicted": 155,
+        "support": 135
       },
       "legal": {
         "precision": 0.889,
@@ -75,16 +75,16 @@
         "support": 11
       },
       "listing": {
-        "precision": 0.556,
+        "precision": 0.625,
         "recall": 0.357,
-        "predicted": 9,
+        "predicted": 8,
         "support": 14
       },
       "market": {
         "precision": 0.996,
-        "recall": 0.871,
-        "predicted": 231,
-        "support": 264
+        "recall": 0.869,
+        "predicted": 234,
+        "support": 268
       },
       "pricing": {
         "precision": 0.625,
@@ -93,10 +93,10 @@
         "support": 12
       },
       "robotics": {
-        "precision": 0.808,
+        "precision": 0.815,
         "recall": 0.733,
-        "predicted": 78,
-        "support": 86
+        "predicted": 81,
+        "support": 90
       },
       "sourcing": {
         "precision": 0.973,
@@ -107,8 +107,8 @@
     }
   },
   "baseline_majority": {
-    "accuracy": 0.436,
-    "macro_f1": 0.0552,
+    "accuracy": 0.4425,
+    "macro_f1": 0.0558,
     "per_team": {
       "channels": {
         "precision": 0.0,
@@ -120,7 +120,7 @@
         "precision": 0.0,
         "recall": 0.0,
         "predicted": 0,
-        "support": 30
+        "support": 29
       },
       "graph": {
         "precision": 0.0,
@@ -129,16 +129,16 @@
         "support": 5
       },
       "institutions": {
-        "precision": 0.436,
+        "precision": 0.443,
         "recall": 1.0,
-        "predicted": 1062,
-        "support": 463
+        "predicted": 1105,
+        "support": 489
       },
       "knowledge": {
         "precision": 0.0,
         "recall": 0.0,
         "predicted": 0,
-        "support": 125
+        "support": 135
       },
       "legal": {
         "precision": 0.0,
@@ -156,7 +156,7 @@
         "precision": 0.0,
         "recall": 0.0,
         "predicted": 0,
-        "support": 264
+        "support": 268
       },
       "pricing": {
         "precision": 0.0,
@@ -168,7 +168,7 @@
         "precision": 0.0,
         "recall": 0.0,
         "predicted": 0,
-        "support": 86
+        "support": 90
       },
       "sourcing": {
         "precision": 0.0,

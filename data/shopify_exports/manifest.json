@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-30T11:54:43.786405+00:00",
-  "source_gate_generated_at": "2026-09-30T11:54:43.505700+00:00",
+  "generated_at": "2026-09-30T14:53:35.843064+00:00",
+  "source_gate_generated_at": "2026-09-30T14:53:35.693028+00:00",
   "gate_total": 10,
-  "gate_ready": 9,
+  "gate_ready": 8,
   "shortlist_pd_nos": [
     "1049275",
     "1049276",
+    "1049285",
     "1055167",
-    "1059834",
     "1067498"
   ],
   "scope": "shortlist 안의 게이트 준비 상품만 (S등급 전체가 아님)",

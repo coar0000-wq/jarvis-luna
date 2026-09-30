@@ -2,7 +2,7 @@
 title: "Record 26028b4827 · When-Less-Compute-Is-More-Adaptive-Early-Exit-Improves-Pretrained-Outl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:16.882383+00:00
+updated_at: 2026-09-30T14:55:43.818007+00:00
 tags: [record, real-data]
 ---
 

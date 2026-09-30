@@ -2,7 +2,7 @@
 title: "Record 6416f20c3b · 7-autumn-beauty-launches-to-know---Cosmetics-Business"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:17.303178+00:00
+updated_at: 2026-09-30T14:55:44.287652+00:00
 tags: [record, real-data]
 ---
 

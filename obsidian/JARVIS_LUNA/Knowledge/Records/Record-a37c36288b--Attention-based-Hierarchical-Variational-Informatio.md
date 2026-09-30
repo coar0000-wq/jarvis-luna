@@ -2,7 +2,7 @@
 title: "Record a37c36288b · Attention-based-Hierarchical-Variational-Information-Bottleneck-for-Ro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:16.896665+00:00
+updated_at: 2026-09-30T14:55:43.837870+00:00
 tags: [record, real-data]
 ---
 

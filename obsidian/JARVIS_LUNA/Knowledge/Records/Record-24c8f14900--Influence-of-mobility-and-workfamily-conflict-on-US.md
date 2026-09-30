@@ -2,7 +2,7 @@
 title: "Record 24c8f14900 · Influence-of-mobility-and-workfamily-conflict-on-US"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:16.518846+00:00
+updated_at: 2026-09-30T14:55:43.381687+00:00
 tags: [record, real-data]
 ---
 

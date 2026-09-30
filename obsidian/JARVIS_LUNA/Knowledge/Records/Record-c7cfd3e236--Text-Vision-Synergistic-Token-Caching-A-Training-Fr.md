@@ -2,7 +2,7 @@
 title: "Record c7cfd3e236 · Text-Vision-Synergistic-Token-Caching-A-Training-Free-Framework-for-Ef"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:16.891325+00:00
+updated_at: 2026-09-30T14:55:43.831471+00:00
 tags: [record, real-data]
 ---
 

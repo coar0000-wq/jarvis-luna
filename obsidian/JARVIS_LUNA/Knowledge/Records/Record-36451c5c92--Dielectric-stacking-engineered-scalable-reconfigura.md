@@ -2,7 +2,7 @@
 title: "Record 36451c5c92 · Dielectric-stacking-engineered-scalable-reconfigura"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:16.407027+00:00
+updated_at: 2026-09-30T14:55:43.262867+00:00
 tags: [record, real-data]
 ---
 

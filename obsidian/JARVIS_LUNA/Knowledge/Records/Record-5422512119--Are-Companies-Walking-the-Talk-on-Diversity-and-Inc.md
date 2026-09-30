@@ -2,7 +2,7 @@
 title: "Record 5422512119 · Are-Companies-Walking-the-Talk-on-Diversity-and-Inclusion-A-Holistic-E"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:16.558121+00:00
+updated_at: 2026-09-30T14:55:43.423749+00:00
 tags: [record, real-data]
 ---
 

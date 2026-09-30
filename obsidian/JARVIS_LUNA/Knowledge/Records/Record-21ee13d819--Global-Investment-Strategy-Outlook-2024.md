@@ -2,7 +2,7 @@
 title: "Record 21ee13d819 · Global-Investment-Strategy-Outlook-2024"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:18.426002+00:00
+updated_at: 2026-09-30T14:55:45.495537+00:00
 tags: [record, real-data]
 ---
 

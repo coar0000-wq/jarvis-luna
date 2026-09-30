@@ -2,7 +2,7 @@
 title: "Record d97183f0df · Plastic-button-manufacturing-as-an-under-recognized-source-of-airborne"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:16.345641+00:00
+updated_at: 2026-09-30T14:55:43.199650+00:00
 tags: [record, real-data]
 ---
 

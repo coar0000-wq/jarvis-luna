@@ -2,7 +2,7 @@
 title: "Record 3228b60de2 · Electrical-Failure-Analysis-of-Speckled-Shmoo-and-Shmoo-Striping-Failu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:16.322061+00:00
+updated_at: 2026-09-30T14:55:43.174097+00:00
 tags: [record, real-data]
 ---
 

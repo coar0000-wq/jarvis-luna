@@ -2,7 +2,7 @@
 title: "Record 9c3887c535 · EdgeVLN-Runtime-Aware-Deployment-Ready-Quantized-Vision-Language-Navig"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:16.903060+00:00
+updated_at: 2026-09-30T14:55:43.845533+00:00
 tags: [record, real-data]
 ---
 

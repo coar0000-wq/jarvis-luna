@@ -2,7 +2,7 @@
 title: "Record 4837286a59 · Characteristics-of-gas-venting-and-detection-during-thermal-runaway-of"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:16.348618+00:00
+updated_at: 2026-09-30T14:55:43.202754+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2238d86686 · ASML-media-library"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:18.310136+00:00
+updated_at: 2026-09-30T14:55:45.362075+00:00
 tags: [record, real-data]
 ---
 

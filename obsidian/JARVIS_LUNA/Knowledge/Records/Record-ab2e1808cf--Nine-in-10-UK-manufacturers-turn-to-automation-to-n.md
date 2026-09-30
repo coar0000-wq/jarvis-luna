@@ -2,7 +2,7 @@
 title: "Record ab2e1808cf · Nine-in-10-UK-manufacturers-turn-to-automation-to-navigate-geopolitica"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:17.031854+00:00
+updated_at: 2026-09-30T14:55:43.981726+00:00
 tags: [record, real-data]
 ---
 

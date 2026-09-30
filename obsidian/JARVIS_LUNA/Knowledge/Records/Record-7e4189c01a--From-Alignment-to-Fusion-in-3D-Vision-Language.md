@@ -2,7 +2,7 @@
 title: "Record 7e4189c01a · From-Alignment-to-Fusion-in-3D-Vision-Language"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:16.837402+00:00
+updated_at: 2026-09-30T14:55:43.767565+00:00
 tags: [record, real-data]
 ---
 

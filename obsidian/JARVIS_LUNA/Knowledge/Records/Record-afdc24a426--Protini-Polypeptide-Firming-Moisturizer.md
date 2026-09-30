@@ -2,7 +2,7 @@
 title: "Record afdc24a426 · Protini-Polypeptide-Firming-Moisturizer"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:18.583473+00:00
+updated_at: 2026-09-30T14:55:45.664895+00:00
 tags: [record, real-data]
 ---
 

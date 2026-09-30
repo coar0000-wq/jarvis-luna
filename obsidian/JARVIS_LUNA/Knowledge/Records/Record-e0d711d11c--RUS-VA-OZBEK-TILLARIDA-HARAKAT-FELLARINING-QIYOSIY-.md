@@ -2,7 +2,7 @@
 title: "Record e0d711d11c · RUS-VA-OZBEK-TILLARIDA-HARAKAT-FELLARINING-QIYOSIY-TAHLILIY-TAVSIFI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:16.935509+00:00
+updated_at: 2026-09-30T14:55:43.878960+00:00
 tags: [record, real-data]
 ---
 

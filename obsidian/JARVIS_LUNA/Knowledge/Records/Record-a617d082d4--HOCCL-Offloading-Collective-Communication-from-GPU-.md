@@ -2,7 +2,7 @@
 title: "Record a617d082d4 · HOCCL-Offloading-Collective-Communication-from-GPU-Cores-to-Accelerate"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:16.892834+00:00
+updated_at: 2026-09-30T14:55:43.833270+00:00
 tags: [record, real-data]
 ---
 

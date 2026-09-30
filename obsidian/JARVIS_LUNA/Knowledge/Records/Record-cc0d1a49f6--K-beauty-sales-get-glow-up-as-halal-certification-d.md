@@ -2,7 +2,7 @@
 title: "Record cc0d1a49f6 · K-beauty-sales-get-glow-up-as-halal-certification-drives-popularity-am"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:17.099708+00:00
+updated_at: 2026-09-30T14:55:44.053856+00:00
 tags: [record, real-data]
 ---
 

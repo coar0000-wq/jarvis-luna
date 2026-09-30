@@ -2,7 +2,7 @@
 title: "Record ed5e842590 · High-Potency-Classics-Face-Finishing--Firming-Moisturizer"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:18.567924+00:00
+updated_at: 2026-09-30T14:55:45.648722+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record de7a8397ee · Market-Breadth-Shrinking-Group-Stocks-Mike-Wilson"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:18.470430+00:00
+updated_at: 2026-09-30T14:55:45.541806+00:00
 tags: [record, real-data]
 ---
 

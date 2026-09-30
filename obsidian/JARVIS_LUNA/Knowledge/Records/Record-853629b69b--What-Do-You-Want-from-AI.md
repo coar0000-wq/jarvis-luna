@@ -2,7 +2,7 @@
 title: "Record 853629b69b · What-Do-You-Want-from-AI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:18.309412+00:00
+updated_at: 2026-09-30T14:55:45.361259+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [www.anthropic.com](https://www.anthropic.com/research/your-thoughts-on-ai)
 
-**제목:** What Do You Want from AI?
+**제목:** What do you want from AI?
 
-What Do You Want from AI?
+What do you want from AI?
 Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
 
 **출처:** Source · institutions

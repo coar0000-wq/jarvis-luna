@@ -2,7 +2,7 @@
 title: "Record 4b3423fae8 · Sell-In-May-And-Go-Away-2023"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:18.433845+00:00
+updated_at: 2026-09-30T14:55:45.504723+00:00
 tags: [record, real-data]
 ---
 

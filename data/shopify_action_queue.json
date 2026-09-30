@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-30T11:54:43.849944+00:00",
-  "source_gate_generated_at": "2026-09-30T11:54:43.505700+00:00",
+  "generated_at": "2026-09-30T14:53:35.907702+00:00",
+  "source_gate_generated_at": "2026-09-30T14:53:35.693028+00:00",
   "ontology_source": "data/product_master.json",
   "approval_source": "data/manual/shopify_action_approvals.json",
   "policy": {
@@ -19,20 +19,20 @@
   "public_block_reason": "public_ready 상품 없음",
   "draft_actions": [
     {
-      "action_id": "shopify:draft:CP000130",
+      "action_id": "shopify:draft:CP000109",
       "action_type": "CREATE_OR_UPDATE_SHOPIFY_DRAFT",
       "object_type": "CanonicalProduct",
-      "object_id": "CP000130",
-      "shopify_group_key": "VG-CP000130",
+      "object_id": "CP000109",
+      "shopify_group_key": "VG-CP000109",
       "canonical_product_ids": [
-        "CP000130"
+        "CP000109"
       ],
       "excluded_members": [],
       "pd_nos": [
-        "1055167"
+        "1049285"
       ],
       "variant_count": 1,
-      "payload_hash": "3fbd4eb1f3ea448bff3639e762dcfbaa8d9770470576e4ed8bff72ff134adc68",
+      "payload_hash": "b8ed9ddd0f0f809ff8003d5a58d846b7b5ff603187cab7fe15ea2554a82cadd0",
       "state": "WAITING_HUMAN_APPROVAL",
       "approval_required": true,
       "approved_by": "",
@@ -51,20 +51,20 @@
       "last_error": ""
     },
     {
-      "action_id": "shopify:draft:CP000151",
+      "action_id": "shopify:draft:CP000130",
       "action_type": "CREATE_OR_UPDATE_SHOPIFY_DRAFT",
       "object_type": "CanonicalProduct",
-      "object_id": "CP000151",
-      "shopify_group_key": "VG-CP000151",
+      "object_id": "CP000130",
+      "shopify_group_key": "VG-CP000130",
       "canonical_product_ids": [
-        "CP000151"
+        "CP000130"
       ],
       "excluded_members": [],
       "pd_nos": [
-        "1059834"
+        "1055167"
       ],
       "variant_count": 1,
-      "payload_hash": "6b2ee35cb0d02849cd542146f05df02475b3f3d1c6bf8d8b2b979e844b04664b",
+      "payload_hash": "3fbd4eb1f3ea448bff3639e762dcfbaa8d9770470576e4ed8bff72ff134adc68",
       "state": "WAITING_HUMAN_APPROVAL",
       "approval_required": true,
       "approved_by": "",

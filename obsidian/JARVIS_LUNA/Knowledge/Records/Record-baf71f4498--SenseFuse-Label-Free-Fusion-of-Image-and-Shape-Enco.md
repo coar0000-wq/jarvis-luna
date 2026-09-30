@@ -2,7 +2,7 @@
 title: "Record baf71f4498 · SenseFuse-Label-Free-Fusion-of-Image-and-Shape-Encoders-for-Open-Vocab"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T12:38:16.764760+00:00
+updated_at: 2026-09-30T14:55:43.683107+00:00
 tags: [record, real-data]
 ---
 
