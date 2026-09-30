@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-30T07:36:48.602603+09:00",
+  "generated_at": "2026-09-30T10:13:33.654950+09:00",
   "generator": "scripts/build_shopify_marketing_strategy.py",
   "status": "evidence_ready",
   "scope": "US K-Beauty Shopify launch marketing",
@@ -1747,7 +1747,7 @@
       "product": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
       "bucket": "스킨케어",
       "grade": "S",
-      "score": 100,
+      "score": 99,
       "agent_ready": true,
       "public_ready": false,
       "recommended_insight_ids": [
@@ -1875,7 +1875,7 @@
       "product": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
       "bucket": "스킨케어",
       "grade": "S",
-      "score": 95,
+      "score": 96,
       "agent_ready": true,
       "public_ready": false,
       "recommended_insight_ids": [
@@ -1934,13 +1934,13 @@
       "claim_guardrail": "사용 주의·제품 사실을 먼저 제시하고 자극·치료 효능을 단정하지 않음"
     },
     {
-      "canonical_product_id": "CP000038",
-      "pd_no": "1027327",
-      "product": "바세린 마스크팩 집중보습",
-      "bucket": "마스크팩",
+      "canonical_product_id": "CP000109",
+      "pd_no": "1049285",
+      "product": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
+      "bucket": "스킨케어",
       "grade": "S",
-      "score": 91,
-      "agent_ready": false,
+      "score": 93,
+      "agent_ready": true,
       "public_ready": false,
       "recommended_insight_ids": [
         "MKT-002",
@@ -1998,13 +1998,13 @@
       "claim_guardrail": "고시·영문 라벨·법률 게이트가 확인한 사실만 사용"
     },
     {
-      "canonical_product_id": "CP000075",
-      "pd_no": "1042619",
-      "product": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
+      "canonical_product_id": "CP000038",
+      "pd_no": "1027327",
+      "product": "바세린 마스크팩 집중보습",
       "bucket": "마스크팩",
       "grade": "S",
-      "score": 88,
-      "agent_ready": true,
+      "score": 89,
+      "agent_ready": false,
       "public_ready": false,
       "recommended_insight_ids": [
         "MKT-002",
@@ -2030,12 +2030,12 @@
       "claim_guardrail": "고시·영문 라벨·법률 게이트가 확인한 사실만 사용"
     },
     {
-      "canonical_product_id": "CP000109",
-      "pd_no": "1049285",
-      "product": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
+      "canonical_product_id": "CP000125",
+      "pd_no": "1053482",
+      "product": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
       "bucket": "스킨케어",
       "grade": "S",
-      "score": 87,
+      "score": 86,
       "agent_ready": true,
       "public_ready": false,
       "recommended_insight_ids": [
@@ -2049,7 +2049,7 @@
         "MKT-032",
         "MKT-034",
         "MKT-035",
-        "MKT-012",
+        "MKT-013",
         "MKT-014",
         "MKT-015"
       ],
@@ -2059,7 +2059,7 @@
         "무료배송 임계값을 고려한 루틴 또는 수량 세트 손익 계산"
       ],
       "paid_action_status": "blocked_until_explicit_user_approval",
-      "claim_guardrail": "고시·영문 라벨·법률 게이트가 확인한 사실만 사용"
+      "claim_guardrail": "고민 키워드는 탐색 태그로만 사용하고 임상·치료 효과로 확대하지 않음"
     }
   ],
   "funnel": {
@@ -2154,7 +2154,7 @@
     "메타 리타게팅의 1만 명 임계값과 할인 제안은 검증되지 않은 플랫폼·계정별 주장이라 채택하지 않으며 유료 집행은 승인 전 차단"
   ],
   "integrity": {
-    "listing_gate_generated_at": "2026-09-29T22:36:48.518475+00:00",
+    "listing_gate_generated_at": "2026-09-30T01:13:31.053552+00:00",
     "s_product_count": 10,
     "product_playbook_count": 10,
     "public_ready_count": 0,

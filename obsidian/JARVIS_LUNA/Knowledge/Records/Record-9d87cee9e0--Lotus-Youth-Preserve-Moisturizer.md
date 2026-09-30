@@ -2,7 +2,7 @@
 title: "Record 9d87cee9e0 · Lotus-Youth-Preserve-Moisturizer"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:07.821984+00:00
+updated_at: 2026-09-30T01:15:31.602172+00:00
 tags: [record, real-data]
 ---
 

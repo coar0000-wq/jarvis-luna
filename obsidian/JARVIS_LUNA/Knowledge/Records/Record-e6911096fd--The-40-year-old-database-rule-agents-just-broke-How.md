@@ -2,7 +2,7 @@
 title: "Record e6911096fd · The-40-year-old-database-rule-agents-just-broke-How"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:07.580394+00:00
+updated_at: 2026-09-30T01:15:31.383685+00:00
 tags: [record, real-data]
 ---
 

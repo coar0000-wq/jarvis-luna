@@ -2,7 +2,7 @@
 title: "Record 54cfd7b93b · ENCP-Episode-Normalized-Conformal-Prediction-for-Vision-and-Language-N"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:05.406094+00:00
+updated_at: 2026-09-30T01:15:29.321376+00:00
 tags: [record, real-data]
 ---
 

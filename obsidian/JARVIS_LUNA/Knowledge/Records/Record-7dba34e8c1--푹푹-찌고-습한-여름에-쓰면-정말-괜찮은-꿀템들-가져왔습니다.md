@@ -2,7 +2,7 @@
 title: "Record 7dba34e8c1 · 푹푹-찌고-습한-여름에-쓰면-정말-괜찮은-꿀템들-가져왔습니다"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:07.907877+00:00
+updated_at: 2026-09-30T01:15:31.678344+00:00
 tags: [record, real-data]
 ---
 

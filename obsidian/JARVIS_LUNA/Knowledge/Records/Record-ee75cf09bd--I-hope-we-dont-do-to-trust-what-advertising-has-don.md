@@ -2,7 +2,7 @@
 title: "Record ee75cf09bd · I-hope-we-dont-do-to-trust-what-advertising-has-don"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:07.007923+00:00
+updated_at: 2026-09-30T01:15:30.808237+00:00
 tags: [record, real-data]
 ---
 

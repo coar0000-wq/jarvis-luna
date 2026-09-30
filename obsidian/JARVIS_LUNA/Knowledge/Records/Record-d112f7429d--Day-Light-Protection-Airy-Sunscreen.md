@@ -2,7 +2,7 @@
 title: "Record d112f7429d · Day-Light-Protection-Airy-Sunscreen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:07.076381+00:00
+updated_at: 2026-09-30T01:15:30.871743+00:00
 tags: [record, real-data]
 ---
 

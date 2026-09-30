@@ -2,7 +2,7 @@
 title: "Record 82a4993576 · A-Six-Year-Follow-Up-of-Bloodstream-Infections-in-Hemodialysis-Facilit"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:05.905882+00:00
+updated_at: 2026-09-30T01:15:29.799938+00:00
 tags: [record, real-data]
 ---
 

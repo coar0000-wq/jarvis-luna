@@ -2,7 +2,7 @@
 title: "Record 419292460f · Enhanced-Magnetism-in-CationModulated-Manganite-Heterostructures"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:05.546688+00:00
+updated_at: 2026-09-30T01:15:29.443859+00:00
 tags: [record, real-data]
 ---
 

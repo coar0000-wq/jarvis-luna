@@ -2,7 +2,7 @@
 title: "Record 392dd17bbb · Bringing-the-Operational-and-Analytical-Worlds-Together-with-Lakebase"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:05.859843+00:00
+updated_at: 2026-09-30T01:15:29.760938+00:00
 tags: [record, real-data]
 ---
 

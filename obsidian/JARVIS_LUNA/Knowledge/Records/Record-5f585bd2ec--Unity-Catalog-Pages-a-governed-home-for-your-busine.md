@@ -2,7 +2,7 @@
 title: "Record 5f585bd2ec · Unity-Catalog-Pages-a-governed-home-for-your-business-knowledge-in-Gen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:07.602038+00:00
+updated_at: 2026-09-30T01:15:31.403843+00:00
 tags: [record, real-data]
 ---
 

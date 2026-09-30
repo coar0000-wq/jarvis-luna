@@ -2,7 +2,7 @@
 title: "Record 5f8d31b7f0 · Why-the-French-Manicure-Has-Divided-People-For-Deca"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:07.248514+00:00
+updated_at: 2026-09-30T01:15:31.041342+00:00
 tags: [record, real-data]
 ---
 

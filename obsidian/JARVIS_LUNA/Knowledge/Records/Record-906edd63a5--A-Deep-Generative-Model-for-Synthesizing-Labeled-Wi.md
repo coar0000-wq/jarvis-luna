@@ -2,7 +2,7 @@
 title: "Record 906edd63a5 · A-Deep-Generative-Model-for-Synthesizing-Labeled-Wi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:05.248971+00:00
+updated_at: 2026-09-30T01:15:29.185151+00:00
 tags: [record, real-data]
 ---
 

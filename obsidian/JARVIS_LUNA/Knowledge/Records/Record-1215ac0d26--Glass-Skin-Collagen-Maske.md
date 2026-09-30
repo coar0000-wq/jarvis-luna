@@ -2,7 +2,7 @@
 title: "Record 1215ac0d26 · Glass-Skin-Collagen-Maske"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:07.210163+00:00
+updated_at: 2026-09-30T01:15:30.993532+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record bc02319784 · GEAR-From-Dynamic-Encoding-to-Dynamic-Activation-in-Social-Trajectory-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:05.372361+00:00
+updated_at: 2026-09-30T01:15:29.293856+00:00
 tags: [record, real-data]
 ---
 

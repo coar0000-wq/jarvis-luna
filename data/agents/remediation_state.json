@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-29T20:39:52.432409+00:00",
+  "generated_at": "2026-09-30T01:15:06.771205+00:00",
   "check_interval": "2_hours",
   "escalate_after_detected_runs": 3,
   "active_count": 6,
@@ -17,8 +17,8 @@
       "state": "waiting_human_approval",
       "reason": "카피 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 4건 사람 승인 대기",
       "first_seen_at": "2026-09-21T10:13:44.774659+00:00",
-      "last_seen_at": "2026-09-29T20:39:52.432409+00:00",
-      "detected_runs": 13,
+      "last_seen_at": "2026-09-30T01:15:06.771205+00:00",
+      "detected_runs": 14,
       "auto_attempts": 0,
       "resolved_at": null
     },
@@ -31,8 +31,8 @@
       "state": "waiting_human_approval",
       "reason": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
       "first_seen_at": "2026-09-21T10:13:44.774659+00:00",
-      "last_seen_at": "2026-09-29T20:39:52.432409+00:00",
-      "detected_runs": 13,
+      "last_seen_at": "2026-09-30T01:15:06.771205+00:00",
+      "detected_runs": 14,
       "auto_attempts": 0,
       "resolved_at": null
     },
@@ -45,8 +45,8 @@
       "state": "waiting_external_dependency",
       "reason": "다음 단계: Shopify 스토어 개설 및 기본 설정",
       "first_seen_at": "2026-09-21T10:13:44.774659+00:00",
-      "last_seen_at": "2026-09-29T20:39:52.432409+00:00",
-      "detected_runs": 13,
+      "last_seen_at": "2026-09-30T01:15:06.771205+00:00",
+      "detected_runs": 14,
       "auto_attempts": 0,
       "resolved_at": null
     },
@@ -59,8 +59,8 @@
       "state": "waiting_external_dependency",
       "reason": "외부 소스 고장 5건 추적 중 (기관 수집팀:Deutsche Bank 사이트, 기관 수집팀:TSMC 뉴스룸, 기관 수집팀:Marvell·Intel·Qualcomm·ASML IR RSS, 채널 운영팀:FDA 화장품 리콜·조치 이력)",
       "first_seen_at": "2026-09-21T10:24:44.825768+00:00",
-      "last_seen_at": "2026-09-29T20:39:52.432409+00:00",
-      "detected_runs": 11,
+      "last_seen_at": "2026-09-30T01:15:06.771205+00:00",
+      "detected_runs": 12,
       "auto_attempts": 0,
       "resolved_at": null
     },
@@ -87,8 +87,8 @@
       "state": "waiting_external_dependency",
       "reason": "비어 있거나 실패 상태인 채널이 1개 존재한다.",
       "first_seen_at": "2026-09-28T19:24:48.333509+00:00",
-      "last_seen_at": "2026-09-29T20:39:52.432409+00:00",
-      "detected_runs": 6,
+      "last_seen_at": "2026-09-30T01:15:06.771205+00:00",
+      "detected_runs": 7,
       "auto_attempts": 0,
       "resolved_at": null
     },
@@ -101,8 +101,8 @@
       "state": "waiting_external_dependency",
       "reason": "글로벌 신호 채널 저하",
       "first_seen_at": "2026-09-28T19:24:48.333509+00:00",
-      "last_seen_at": "2026-09-29T20:39:52.432409+00:00",
-      "detected_runs": 6,
+      "last_seen_at": "2026-09-30T01:15:06.771205+00:00",
+      "detected_runs": 7,
       "auto_attempts": 0,
       "resolved_at": null
     }

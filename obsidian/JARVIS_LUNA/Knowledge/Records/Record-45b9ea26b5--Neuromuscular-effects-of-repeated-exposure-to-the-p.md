@@ -2,7 +2,7 @@
 title: "Record 45b9ea26b5 · Neuromuscular-effects-of-repeated-exposure-to-the-p"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:05.852943+00:00
+updated_at: 2026-09-30T01:15:29.754632+00:00
 tags: [record, real-data]
 ---
 

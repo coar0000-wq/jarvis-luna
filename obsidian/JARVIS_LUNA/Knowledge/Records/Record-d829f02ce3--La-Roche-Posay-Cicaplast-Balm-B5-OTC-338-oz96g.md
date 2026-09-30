@@ -2,7 +2,7 @@
 title: "Record d829f02ce3 · La-Roche-Posay-Cicaplast-Balm-B5-OTC-338-oz96g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:07.154574+00:00
+updated_at: 2026-09-30T01:15:30.941262+00:00
 tags: [record, real-data]
 ---
 

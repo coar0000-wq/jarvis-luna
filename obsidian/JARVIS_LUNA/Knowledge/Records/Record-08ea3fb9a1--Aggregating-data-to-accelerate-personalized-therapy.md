@@ -2,7 +2,7 @@
 title: "Record 08ea3fb9a1 · Aggregating-data-to-accelerate-personalized-therapy-in-heart-failure-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:06.282161+00:00
+updated_at: 2026-09-30T01:15:30.135837+00:00
 tags: [record, real-data]
 ---
 

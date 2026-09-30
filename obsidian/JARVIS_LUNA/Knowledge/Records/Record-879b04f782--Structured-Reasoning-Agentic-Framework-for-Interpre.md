@@ -2,7 +2,7 @@
 title: "Record 879b04f782 · Structured-Reasoning-Agentic-Framework-for-Interpretable-Critical-View"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:06.170929+00:00
+updated_at: 2026-09-30T01:15:30.042828+00:00
 tags: [record, real-data]
 ---
 

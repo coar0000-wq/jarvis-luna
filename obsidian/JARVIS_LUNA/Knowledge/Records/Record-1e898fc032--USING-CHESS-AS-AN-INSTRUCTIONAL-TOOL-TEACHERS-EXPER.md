@@ -2,7 +2,7 @@
 title: "Record 1e898fc032 · USING-CHESS-AS-AN-INSTRUCTIONAL-TOOL-TEACHERS-EXPERIENCES-AND-CHALLENG"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:05.912886+00:00
+updated_at: 2026-09-30T01:15:29.806139+00:00
 tags: [record, real-data]
 ---
 

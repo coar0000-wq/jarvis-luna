@@ -2,7 +2,7 @@
 title: "Record b09b176a25 · 3D-NMC-HBM-Design-of-3D-Near-Memory-Computing-Architecture-in-High-Ban"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:05.772079+00:00
+updated_at: 2026-09-30T01:15:29.683430+00:00
 tags: [record, real-data]
 ---
 

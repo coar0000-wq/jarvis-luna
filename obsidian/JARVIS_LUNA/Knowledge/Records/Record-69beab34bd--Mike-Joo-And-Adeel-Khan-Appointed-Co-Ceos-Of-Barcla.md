@@ -2,7 +2,7 @@
 title: "Record 69beab34bd · Mike-Joo-And-Adeel-Khan-Appointed-Co-Ceos-Of-Barcla"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:06.317327+00:00
+updated_at: 2026-09-30T01:15:30.168560+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 56e9250e95 · Resilient-Regions-could-unlock-stronger-UK-growth-Barclays-says--Barcl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:06.323982+00:00
+updated_at: 2026-09-30T01:15:30.174795+00:00
 tags: [record, real-data]
 ---
 

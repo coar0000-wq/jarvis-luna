@@ -2,7 +2,7 @@
 title: "Record c1e2b11cbf · In-region-inference-open-models-and-new-European-in"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:06.374366+00:00
+updated_at: 2026-09-30T01:15:30.221192+00:00
 tags: [record, real-data]
 ---
 

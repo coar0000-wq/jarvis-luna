@@ -2,7 +2,7 @@
 title: "Record 0218de9d48 · Brenier-Meets-Adversarial-Training-Optimal-Transport-Geometry-for-Robu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:06.168310+00:00
+updated_at: 2026-09-30T01:15:30.040310+00:00
 tags: [record, real-data]
 ---
 

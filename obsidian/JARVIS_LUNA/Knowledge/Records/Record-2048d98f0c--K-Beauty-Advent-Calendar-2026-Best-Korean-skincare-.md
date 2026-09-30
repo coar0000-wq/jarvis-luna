@@ -2,7 +2,7 @@
 title: "Record 2048d98f0c · K-Beauty-Advent-Calendar-2026-Best-Korean-skincare-and-makeup-calendar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:06.727504+00:00
+updated_at: 2026-09-30T01:15:30.550029+00:00
 tags: [record, real-data]
 ---
 

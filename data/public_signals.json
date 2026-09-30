@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T20:38:06.691474+00:00",
+  "generated_at": "2026-09-30T01:13:23.176630+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "caleb flynn",
-          "approx_traffic": "50000+",
-          "traffic_num": 50000,
-          "published": "Tue, 29 Sep 2026 12:50:00 -0700",
-          "source_name": "ABC News - Breaking News, Latest News and Videos",
-          "url": "https://trends.google.com/trending?geo=US&q=caleb%20flynn"
+          "keyword": "maura higgins",
+          "approx_traffic": "10000+",
+          "traffic_num": 10000,
+          "published": "Tue, 29 Sep 2026 18:00:00 -0700",
+          "source_name": "Extra.ie",
+          "url": "https://trends.google.com/trending?geo=US&q=maura%20higgins"
         },
         {
-          "keyword": "polo storm",
-          "approx_traffic": "5000+",
-          "traffic_num": 5000,
-          "published": "Tue, 29 Sep 2026 13:20:00 -0700",
-          "source_name": "The Washington Post",
-          "url": "https://trends.google.com/trending?geo=US&q=polo%20storm"
-        },
-        {
-          "keyword": "white sox vs astros",
-          "approx_traffic": "5000+",
-          "traffic_num": 5000,
-          "published": "Tue, 29 Sep 2026 13:00:00 -0700",
-          "source_name": "MLB.com",
-          "url": "https://trends.google.com/trending?geo=US&q=white%20sox%20vs%20astros"
-        },
-        {
-          "keyword": "nhl",
+          "keyword": "ciara miller",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Tue, 29 Sep 2026 13:20:00 -0700",
+          "published": "Tue, 29 Sep 2026 18:00:00 -0700",
+          "source_name": "USA Today",
+          "url": "https://trends.google.com/trending?geo=US&q=ciara%20miller"
+        },
+        {
+          "keyword": "friendlies",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Tue, 29 Sep 2026 17:50:00 -0700",
           "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=nhl"
+          "url": "https://trends.google.com/trending?geo=US&q=friendlies"
         },
         {
-          "keyword": "panthers vs hurricanes",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Tue, 29 Sep 2026 13:10:00 -0700",
-          "source_name": "NHL.com",
-          "url": "https://trends.google.com/trending?geo=US&q=panthers%20vs%20hurricanes"
-        },
-        {
-          "keyword": "pete buttigieg",
+          "keyword": "cubs vs padres",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Tue, 29 Sep 2026 13:00:00 -0700",
-          "source_name": "Bloomberg",
-          "url": "https://trends.google.com/trending?geo=US&q=pete%20buttigieg"
+          "published": "Tue, 29 Sep 2026 17:50:00 -0700",
+          "source_name": "MLB.com",
+          "url": "https://trends.google.com/trending?geo=US&q=cubs%20vs%20padres"
         },
         {
-          "keyword": "españa fc",
+          "keyword": "austin wells",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Tue, 29 Sep 2026 12:40:00 -0700",
-          "source_name": "MARCA",
-          "url": "https://trends.google.com/trending?geo=US&q=espa%C3%B1a%20fc"
+          "published": "Tue, 29 Sep 2026 17:50:00 -0700",
+          "source_name": "New York Post",
+          "url": "https://trends.google.com/trending?geo=US&q=austin%20wells"
         },
         {
-          "keyword": "nathalie belizaire",
+          "keyword": "spencer jones",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Tue, 29 Sep 2026 12:30:00 -0700",
-          "source_name": "Yahoo",
-          "url": "https://trends.google.com/trending?geo=US&q=nathalie%20belizaire"
+          "published": "Tue, 29 Sep 2026 17:50:00 -0700",
+          "source_name": "New York Post",
+          "url": "https://trends.google.com/trending?geo=US&q=spencer%20jones"
         },
         {
-          "keyword": "kristi noem",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Tue, 29 Sep 2026 12:30:00 -0700",
-          "source_name": "The Seattle Times",
-          "url": "https://trends.google.com/trending?geo=US&q=kristi%20noem"
-        },
-        {
-          "keyword": "alex mcfarlane",
+          "keyword": "trevor story",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Tue, 29 Sep 2026 13:20:00 -0700",
-          "source_name": "Inquirer.com",
-          "url": "https://trends.google.com/trending?geo=US&q=alex%20mcfarlane"
+          "published": "Tue, 29 Sep 2026 18:00:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=trevor%20story"
+        },
+        {
+          "keyword": "caleb durbin",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Tue, 29 Sep 2026 18:00:00 -0700",
+          "source_name": "MassLive.com",
+          "url": "https://trends.google.com/trending?geo=US&q=caleb%20durbin"
+        },
+        {
+          "keyword": "hailey glassman",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Tue, 29 Sep 2026 18:00:00 -0700",
+          "source_name": "Yahoo",
+          "url": "https://trends.google.com/trending?geo=US&q=hailey%20glassman"
+        },
+        {
+          "keyword": "sabrina ionescu",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Tue, 29 Sep 2026 18:00:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=sabrina%20ionescu"
         }
       ]
     },
@@ -96,87 +96,87 @@
       "status": "ok",
       "reason": "",
       "source": "wikimedia.org REST pageviews API (공식)",
-      "note": "2026-08-29 ~ 2026-09-27 일별 조회수. 후반 15일 대비 전반 15일 증감률",
+      "note": "2026-08-30 ~ 2026-09-28 일별 조회수. 후반 15일 대비 전반 15일 증감률",
       "errors": [],
       "items": [
         {
           "topic": "Niacinamide",
           "days": 30,
-          "total_views": 1870,
+          "total_views": 1867,
           "avg_daily": 62,
-          "recent_avg": 84,
-          "prev_avg": 40,
-          "change_pct": 110.1,
+          "recent_avg": 83,
+          "prev_avg": 41,
+          "change_pct": 103.1,
           "url": "https://en.wikipedia.org/wiki/Niacinamide"
         },
         {
           "topic": "K-beauty",
           "days": 30,
-          "total_views": 3806,
+          "total_views": 3812,
           "avg_daily": 127,
-          "recent_avg": 136,
-          "prev_avg": 118,
-          "change_pct": 15.0,
+          "recent_avg": 134,
+          "prev_avg": 120,
+          "change_pct": 11.0,
           "url": "https://en.wikipedia.org/wiki/K-beauty"
         },
         {
           "topic": "Centella asiatica",
           "days": 30,
-          "total_views": 15229,
-          "avg_daily": 508,
-          "recent_avg": 524,
-          "prev_avg": 491,
-          "change_pct": 6.6,
+          "total_views": 15174,
+          "avg_daily": 506,
+          "recent_avg": 528,
+          "prev_avg": 483,
+          "change_pct": 9.3,
           "url": "https://en.wikipedia.org/wiki/Centella_asiatica"
         },
         {
           "topic": "Cosmetics",
           "days": 30,
-          "total_views": 21586,
-          "avg_daily": 720,
-          "recent_avg": 738,
-          "prev_avg": 701,
-          "change_pct": 5.2,
+          "total_views": 21535,
+          "avg_daily": 718,
+          "recent_avg": 748,
+          "prev_avg": 688,
+          "change_pct": 8.8,
           "url": "https://en.wikipedia.org/wiki/Cosmetics"
         },
         {
           "topic": "Hyaluronic acid",
           "days": 30,
-          "total_views": 18664,
-          "avg_daily": 622,
-          "recent_avg": 631,
-          "prev_avg": 613,
-          "change_pct": 2.9,
+          "total_views": 18739,
+          "avg_daily": 625,
+          "recent_avg": 635,
+          "prev_avg": 615,
+          "change_pct": 3.2,
           "url": "https://en.wikipedia.org/wiki/Hyaluronic_acid"
         },
         {
           "topic": "Retinol",
           "days": 30,
-          "total_views": 11661,
-          "avg_daily": 389,
-          "recent_avg": 385,
-          "prev_avg": 392,
-          "change_pct": -1.8,
+          "total_views": 11725,
+          "avg_daily": 391,
+          "recent_avg": 389,
+          "prev_avg": 393,
+          "change_pct": -1.1,
           "url": "https://en.wikipedia.org/wiki/Retinol"
         },
         {
           "topic": "Snail slime",
           "days": 30,
-          "total_views": 2238,
-          "avg_daily": 75,
+          "total_views": 2180,
+          "avg_daily": 73,
           "recent_avg": 71,
-          "prev_avg": 78,
-          "change_pct": -8.7,
+          "prev_avg": 74,
+          "change_pct": -4.0,
           "url": "https://en.wikipedia.org/wiki/Snail_slime"
         },
         {
           "topic": "Sunscreen",
           "days": 30,
-          "total_views": 14771,
-          "avg_daily": 492,
+          "total_views": 14452,
+          "avg_daily": 482,
           "recent_avg": 453,
-          "prev_avg": 531,
-          "change_pct": -14.7,
+          "prev_avg": 510,
+          "change_pct": -11.1,
           "url": "https://en.wikipedia.org/wiki/Sunscreen"
         }
       ]
@@ -187,6 +187,16 @@
       "source": "allure.com/feed/rss",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
       "items": [
+        {
+          "title": "How to Apply Mascara for Longer, Fuller, Mess-Free Lashes—With Photos and Videos",
+          "published": "Wed, 30 Sep 2026 00:15:00 +0000",
+          "url": "https://www.allure.com/story/how-to-apply-mascara"
+        },
+        {
+          "title": "7 Best Olay Body-Care Products for Glowing Skin from Head to Toe",
+          "published": "Tue, 29 Sep 2026 22:47:36 +0000",
+          "url": "https://www.allure.com/story/best-olay-body-care-products"
+        },
         {
           "title": "Has Dyson Pulled the $499 CameraJet Toothbrush From Shelves?",
           "published": "Tue, 29 Sep 2026 19:25:13 +0000",
@@ -326,16 +336,6 @@
           "title": "Derma E Vitamin C Concentrated Serum Review",
           "published": "Thu, 24 Sep 2026 15:15:12 +0000",
           "url": "https://www.allure.com/review/dermae-vitamin-c-concentrated-serum-review-2026"
-        },
-        {
-          "title": "Dr. Pawpaw Multipurpose Tinted Rich Mocha Balm Review",
-          "published": "Thu, 24 Sep 2026 15:02:49 +0000",
-          "url": "https://www.allure.com/review/drpawpaw-multipurpose-tinted-balm-review-2026"
-        },
-        {
-          "title": "Swedish Pop Star Zara Larsson Reveals Her Plans for a Global Takeover—Interview",
-          "published": "Thu, 24 Sep 2026 12:00:00 +0000",
-          "url": "https://www.allure.com/story/zara-larsson-cover-interview"
         }
       ]
     },

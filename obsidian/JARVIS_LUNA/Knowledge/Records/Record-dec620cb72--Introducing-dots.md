@@ -2,7 +2,7 @@
 title: "Record dec620cb72 · Introducing-dots"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:06.970905+00:00
+updated_at: 2026-09-30T01:15:30.774901+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** Introducing dots
 
 Introducing dots
-Dots by OpenAI are a proactive assistant that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.
+Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.
 
 **출처:** Source · institutions
 

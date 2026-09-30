@@ -2,7 +2,7 @@
 title: "Record 3b98789540 · Programming-AMD-XDNA-NPUs-with-Open-source-Compiler-Tools-A-FlashAtten"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:05.449903+00:00
+updated_at: 2026-09-30T01:15:29.360023+00:00
 tags: [record, real-data]
 ---
 

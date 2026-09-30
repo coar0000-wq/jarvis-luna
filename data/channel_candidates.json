@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T20:38:32.844674+00:00",
+  "generated_at": "2026-09-30T01:13:46.883510+00:00",
   "generator": "scripts/discover_channels.py",
   "정책": "후보를 자동으로 등록하지 않는다. robots.txt 를 확인하고 실제로 호출해 본 뒤 진짜 데이터가 나오는 것만 제안한다. 붙일지 말지는 대화로 지시하면 자비스가 수집기를 만들어 연동한다. 이미 가동 중인 소스는 already_live 로 표시한다.",
   "판정기준": [
@@ -65,12 +65,12 @@
       "url": "https://www.allure.com/feed/rss",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 25503,
+      "bytes": 25581,
       "items": 30,
       "samples": [
-        "Has Dyson Pulled the $499 CameraJet Toothbrush From Shelves?",
-        "28 Bronde Hair Ideas That Look Amazing on Everyone—See Photos",
-        "4 Best Korean Skin-Care Devices 2026 for Glass-Like Skin"
+        "How to Apply Mascara for Longer, Fuller, Mess-Free Lashes—With Photos and Videos",
+        "7 Best Olay Body-Care Products for Glowing Skin from Head to Toe",
+        "Has Dyson Pulled the $499 CameraJet Toothbrush From Shelves?"
       ],
       "verdict": "가능",
       "reason": "30건 파싱 성공, 값이 서로 다름",
@@ -97,12 +97,12 @@
       "url": "https://trends.google.com/trending/rss?geo=US",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 21549,
+      "bytes": 21809,
       "items": 40,
       "samples": [
-        "polo storm",
-        "Hurricane Polo’s moisture will trigger flooding in Southwest",
-        "Hurricane Polo makes 2nd landfall on Mexico's Pacific coast"
+        "maura higgins",
+        "Shop her look: Maura Higgins selling her clothes on Vinted from €15",
+        "Maura Higgins flogging yoga thongs & designer wares on Vinted for as low as £16"
       ],
       "verdict": "가능",
       "reason": "40건 파싱 성공, 값이 서로 다름",

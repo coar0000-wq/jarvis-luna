@@ -1,14 +1,14 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-09-29T20:29:32.100061+00:00",
+  "collected_at": "2026-09-30T01:05:03.738847+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
     "SkincareAddiction",
     "AsianBeautyAdvice"
   ],
-  "post_count": 25,
+  "post_count": 33,
   "per_subreddit": [
     {
       "subreddit": "AsianBeauty",
@@ -35,16 +35,27 @@
     },
     {
       "subreddit": "AsianBeautyAdvice",
-      "post_count": 0,
+      "post_count": 25,
       "errors": [
-        "hot: HTTPError: HTTP Error 429: Too Many Requests",
         "top_week: HTTPError: HTTP Error 429: Too Many Requests"
       ]
     }
   ],
   "hot_keywords": [
     {
+      "keyword": "random",
+      "score": 13
+    },
+    {
+      "keyword": "thoughts",
+      "score": 13
+    },
+    {
       "keyword": "skin",
+      "score": 8
+    },
+    {
+      "keyword": "know",
       "score": 6
     },
     {
@@ -64,11 +75,7 @@
       "score": 3
     },
     {
-      "keyword": "blush",
-      "score": 3
-    },
-    {
-      "keyword": "anyone",
+      "keyword": "why",
       "score": 3
     },
     {
@@ -76,7 +83,15 @@
       "score": 2
     },
     {
-      "keyword": "why",
+      "keyword": "pdrn",
+      "score": 2
+    },
+    {
+      "keyword": "blush",
+      "score": 2
+    },
+    {
+      "keyword": "favorite",
       "score": 2
     },
     {
@@ -84,11 +99,7 @@
       "score": 2
     },
     {
-      "keyword": "knows",
-      "score": 2
-    },
-    {
-      "keyword": "contact",
+      "keyword": "products",
       "score": 2
     },
     {
@@ -100,11 +111,15 @@
       "score": 2
     },
     {
-      "keyword": "does",
+      "keyword": "contact",
       "score": 2
     },
     {
-      "keyword": "peripera",
+      "keyword": "japanese",
+      "score": 2
+    },
+    {
+      "keyword": "anyone",
       "score": 2
     },
     {
@@ -113,6 +128,18 @@
     },
     {
       "keyword": "moisturizers",
+      "score": 2
+    },
+    {
+      "keyword": "guide",
+      "score": 2
+    },
+    {
+      "keyword": "routine",
+      "score": 2
+    },
+    {
+      "keyword": "sunscreens",
       "score": 2
     },
     {
@@ -140,6 +167,10 @@
       "score": 1
     },
     {
+      "keyword": "popular",
+      "score": 1
+    },
+    {
       "keyword": "beige",
       "score": 1
     },
@@ -152,31 +183,7 @@
       "score": 1
     },
     {
-      "keyword": "recent",
-      "score": 1
-    },
-    {
-      "keyword": "looks",
-      "score": 1
-    },
-    {
-      "keyword": "cheeryep",
-      "score": 1
-    },
-    {
-      "keyword": "ambition",
-      "score": 1
-    },
-    {
-      "keyword": "palette",
-      "score": 1
-    },
-    {
       "keyword": "drop",
-      "score": 1
-    },
-    {
-      "keyword": "favorite",
       "score": 1
     },
     {
@@ -192,22 +199,18 @@
       "score": 1
     },
     {
-      "keyword": "food",
-      "score": 1
-    },
-    {
-      "keyword": "drink-proof",
-      "score": 1
-    },
-    {
-      "keyword": "products",
+      "keyword": "recent",
       "score": 1
     }
   ],
   "beauty_keywords": [
     {
       "keyword": "skin",
-      "score": 6
+      "score": 8
+    },
+    {
+      "keyword": "pdrn",
+      "score": 2
     },
     {
       "keyword": "spf",
@@ -215,6 +218,14 @@
     },
     {
       "keyword": "moisturizers",
+      "score": 2
+    },
+    {
+      "keyword": "routine",
+      "score": 2
+    },
+    {
+      "keyword": "sunscreens",
       "score": 2
     },
     {
@@ -238,16 +249,16 @@
       "feed": "hot"
     },
     {
-      "title": "Beige blush / \"anti-blush\" comparison",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtbcwj/beige_blush_antiblush_comparison/",
-      "published": "2026-09-29T14:17:59+00:00",
+      "title": "Why is PDRN so popular?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtoixc/why_is_pdrn_so_popular/",
+      "published": "2026-09-29T22:44:06+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "My recent makeup looks with Cheeryep's Ambition palette",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wt8w39/my_recent_makeup_looks_with_cheeryeps_ambition/",
-      "published": "2026-09-29T12:33:17+00:00",
+      "title": "Beige blush / \"anti-blush\" comparison",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtbcwj/beige_blush_antiblush_comparison/",
+      "published": "2026-09-29T14:17:59+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -259,9 +270,44 @@
       "feed": "hot"
     },
     {
+      "title": "My recent makeup looks with Cheeryep's Ambition palette",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wt8w39/my_recent_makeup_looks_with_cheeryeps_ambition/",
+      "published": "2026-09-29T12:33:17+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Food/drink-proof lip products for contoured and ombré lips?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtgajo/fooddrinkproof_lip_products_for_contoured_and/",
       "published": "2026-09-29T17:24:34+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "What’s your favorite mugwort product?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtqbf3/whats_your_favorite_mugwort_product/",
+      "published": "2026-09-30T00:04:54+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "April Skin Lip Stain",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtpa21/april_skin_lip_stain/",
+      "published": "2026-09-29T23:18:04+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Dupe for Rom&nd Juicy Lasting Tint in Tanny Guava?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtofrq/dupe_for_romnd_juicy_lasting_tint_in_tanny_guava/",
+      "published": "2026-09-29T22:40:13+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Anything Goes Tuesday: September 29, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtlgk4/anything_goes_tuesday_september_29_2026/",
+      "published": "2026-09-29T20:39:08+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -315,13 +361,6 @@
       "feed": "hot"
     },
     {
-      "title": "Why are there four diameters printed on my contact lenses instead of two?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wsm0f4/why_are_there_four_diameters_printed_on_my/",
-      "published": "2026-09-28T18:06:04+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
       "title": "Anything Goes Monday: September 28, 2026",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wsq7dk/anything_goes_monday_september_28_2026/",
       "published": "2026-09-28T20:39:21+00:00",
@@ -332,6 +371,13 @@
       "title": "Which Glycols you like and which ones don't go with your skin? does Propylene Glycol irritate your skin?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wsjqah/which_glycols_you_like_and_which_ones_dont_go/",
       "published": "2026-09-28T16:43:12+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Why are there four diameters printed on my contact lenses instead of two?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wsm0f4/why_are_there_four_diameters_printed_on_my/",
+      "published": "2026-09-28T18:06:04+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -364,38 +410,59 @@
       "feed": "hot"
     },
     {
-      "title": "K-beauty lip contour stain",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1ws5xtt/kbeauty_lip_contour_stain/",
-      "published": "2026-09-28T05:23:17+00:00",
-      "subreddit": "AsianBeauty",
+      "title": "Revamping ABA",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/10dpkk9/revamping_aba/",
+      "published": "2023-01-16T19:53:22+00:00",
+      "subreddit": "AsianBeautyAdvice",
       "feed": "hot"
     },
     {
-      "title": "does anyone knows what is this called?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wroben/does_anyone_knows_what_is_this_called/",
-      "published": "2026-09-27T16:17:17+00:00",
-      "subreddit": "AsianBeauty",
+      "title": "[GUIDE] How to stop getting racoon eyes with mascara and eyeliner!",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1wrzk5f/guide_how_to_stop_getting_racoon_eyes_with/",
+      "published": "2026-09-27T23:56:54+00:00",
+      "subreddit": "AsianBeautyAdvice",
       "feed": "hot"
     },
     {
-      "title": "Peripera water bare tint #11 Hip Rose but better formula?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wro93w/peripera_water_bare_tint_11_hip_rose_but_better/",
-      "published": "2026-09-27T16:14:40+00:00",
-      "subreddit": "AsianBeauty",
+      "title": "Random AB thoughts",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1wqpyg6/random_ab_thoughts/",
+      "published": "2026-09-26T13:00:10+00:00",
+      "subreddit": "AsianBeautyAdvice",
       "feed": "hot"
     },
     {
-      "title": "blush for this sunburnt/sunkissed look?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wqlhxz/blush_for_this_sunburntsunkissed_look/",
-      "published": "2026-09-26T08:43:14+00:00",
-      "subreddit": "AsianBeauty",
+      "title": "I know it’s not AB, but...",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1whwk8f/i_know_its_not_ab_but/",
+      "published": "2026-09-16T13:00:12+00:00",
+      "subreddit": "AsianBeautyAdvice",
       "feed": "hot"
     },
     {
-      "title": "Anything Goes Sunday: September 27, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wruzzo/anything_goes_sunday_september_27_2026/",
-      "published": "2026-09-27T20:39:10+00:00",
-      "subreddit": "AsianBeauty",
+      "title": "[GUIDE] help on the products",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1wcv8dp/guide_help_on_the_products/",
+      "published": "2026-09-10T20:42:30+00:00",
+      "subreddit": "AsianBeautyAdvice",
+      "feed": "hot"
+    },
+    {
+      "title": "Routine Journal",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1w3d44t/routine_journal/",
+      "published": "2026-08-31T13:00:10+00:00",
+      "subreddit": "AsianBeautyAdvice",
+      "feed": "hot"
+    },
+    {
+      "title": "[Review] Japanese sunscreens",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1vzze8m/review_japanese_sunscreens/",
+      "published": "2026-08-27T16:49:56+00:00",
+      "subreddit": "AsianBeautyAdvice",
+      "feed": "hot"
+    },
+    {
+      "title": "[Q&A] Who’s the most honest K-beauty YouTuber you actually trust?",
+      "url": "https://www.reddit.com/r/AsianBeautyAdvice/comments/1un7xgb/qa_whos_the_most_honest_kbeauty_youtuber_you/",
+      "published": "2026-07-04T12:32:43+00:00",
+      "subreddit": "AsianBeautyAdvice",
       "feed": "hot"
     }
   ],

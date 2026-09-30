@@ -2,7 +2,7 @@
 title: "Record 54bd32c103 · Learning-Variability-Network-Exchange-LEVANTE-A-Global-Framework-for-M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:05.783123+00:00
+updated_at: 2026-09-30T01:15:29.693124+00:00
 tags: [record, real-data]
 ---
 

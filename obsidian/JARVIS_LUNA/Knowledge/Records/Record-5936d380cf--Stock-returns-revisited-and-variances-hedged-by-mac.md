@@ -2,7 +2,7 @@
 title: "Record 5936d380cf · Stock-returns-revisited-and-variances-hedged-by-machine-learning"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:05.704150+00:00
+updated_at: 2026-09-30T01:15:29.623517+00:00
 tags: [record, real-data]
 ---
 

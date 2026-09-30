@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-29T20:30:24.280671+00:00",
+  "generated_at": "2026-09-30T01:05:34.753298+00:00",
   "generator": "scripts/self_improve.py",
   "principle": "무료·설정만 변경·그림자 평가 후 채택·실측 악화 시 자동 롤백",
   "loops": {
     "topics": {
       "metric": "uncategorized_rate",
-      "records": 5775,
-      "base_uncategorized": 983,
-      "before": 0.0854,
-      "after_shadow": 0.0854,
-      "uncategorized_before": 493,
-      "uncategorized_after_shadow": 493,
+      "records": 5914,
+      "base_uncategorized": 1062,
+      "before": 0.0849,
+      "after_shadow": 0.0849,
+      "uncategorized_before": 502,
+      "uncategorized_after_shadow": 502,
       "adopted": 0,
       "learned_keywords": 15,
       "decisions": [],

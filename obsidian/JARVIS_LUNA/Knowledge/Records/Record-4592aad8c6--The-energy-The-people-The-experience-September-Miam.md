@@ -2,7 +2,7 @@
 title: "Record 4592aad8c6 · The-energy-The-people-The-experience-September-Miam"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:07.915289+00:00
+updated_at: 2026-09-30T01:15:31.685039+00:00
 tags: [record, real-data]
 ---
 

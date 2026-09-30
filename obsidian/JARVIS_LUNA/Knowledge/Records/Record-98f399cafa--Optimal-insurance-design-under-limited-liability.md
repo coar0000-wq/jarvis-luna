@@ -2,7 +2,7 @@
 title: "Record 98f399cafa · Optimal-insurance-design-under-limited-liability"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:05.787749+00:00
+updated_at: 2026-09-30T01:15:29.697032+00:00
 tags: [record, real-data]
 ---
 

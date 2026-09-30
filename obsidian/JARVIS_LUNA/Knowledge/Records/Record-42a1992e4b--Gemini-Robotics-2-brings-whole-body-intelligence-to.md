@@ -2,7 +2,7 @@
 title: "Record 42a1992e4b · Gemini-Robotics-2-brings-whole-body-intelligence-to"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:05.532499+00:00
+updated_at: 2026-09-30T01:15:29.430642+00:00
 tags: [record, real-data]
 ---
 

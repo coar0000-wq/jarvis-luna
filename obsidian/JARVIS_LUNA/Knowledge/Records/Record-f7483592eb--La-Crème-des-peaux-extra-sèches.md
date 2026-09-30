@@ -2,7 +2,7 @@
 title: "Record f7483592eb · La-Crème-des-peaux-extra-sèches"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:07.207598+00:00
+updated_at: 2026-09-30T01:15:30.991092+00:00
 tags: [record, real-data]
 ---
 

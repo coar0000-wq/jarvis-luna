@@ -2,7 +2,7 @@
 title: "Record 7cbc49d9cb · Smartphone-Based-Method-for-Automated-Speed-Enforcement"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:05.515203+00:00
+updated_at: 2026-09-30T01:15:29.417747+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record b0600f4d65 · Pengaruh-Work-Life-Balance-Dan-Fleksibilitas-Terhadap-Kepuasan-Kerja-K"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:06.277815+00:00
+updated_at: 2026-09-30T01:15:30.131623+00:00
 tags: [record, real-data]
 ---
 

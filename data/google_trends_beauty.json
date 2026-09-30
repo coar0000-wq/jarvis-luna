@@ -1,20 +1,11 @@
 {
   "source": "google news rss (beauty queries) + trends daily filtered",
-  "collected_at": "2026-09-29T20:30:22.082684+00:00",
+  "collected_at": "2026-09-30T01:05:32.819197+00:00",
   "status": "ok",
   "note": "뷰티 키워드만. 채점 MATCH_CHANNELS 에는 넣지 않음. 대시보드 키워드 보드용.",
   "query_count": 12,
   "count": 94,
   "items": [
-    {
-      "keyword": "Why Mexico is K-beauty’s next big bet - The Korea Herald",
-      "product": "Why Mexico is K-beauty’s next big bet - The Korea Herald",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAzc01CeUlKaXB0eVJVZU9kZFVlS0dnMTJVaGo1ejVTZ3I1Snk5SlFXRHJlZVlrZF8ybEZqYUR3Qmxhc0JVTURtM3Y5anFHUnpqMXUxTTJkdw?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
     {
       "keyword": "The TikTok Creator Making K-Beauty More Inclusive - SUCCESS Magazine",
       "product": "The TikTok Creator Making K-Beauty More Inclusive - SUCCESS Magazine",
@@ -34,11 +25,11 @@
       "beauty": true
     },
     {
-      "keyword": "A massive K-beauty pop-up is taking over Hudson Yards this week with 30+ brands and $300 gift bags - Time Out Worldwide",
-      "product": "A massive K-beauty pop-up is taking over Hudson Yards this week with 30+ brands and $300 gift bags - Time Out Worldwide",
+      "keyword": "Why Mexico is K-beauty’s next big bet - The Korea Herald",
+      "product": "Why Mexico is K-beauty’s next big bet - The Korea Herald",
       "sub": "K-beauty",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZlBQMzlpMkVnWThzam51YmVTcEVIR0daejY5ZElObmwzdHNqejNqWDVmYmRzME1mcDJEck85ODJyTEtLQjl2TjhOYWtIcmJ4SjIwUnNHdDJ0Nk1uOGhfcXZaMU90SHF3Y2FuaDFVeHBsN0RJd0NGaXFMNnVVZkh6TnNPR0FVeFlzU2J4cWRsRWt1UFY5aUJuOVVqZENMQXdfZ2JPLU1jbnVrVmFrenZFNk1IN0t5d3p6Vk9DY19TOUJGb1hNTG9qWkdjUEQ5bUZmUC1YVThrSQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAzc01CeUlKaXB0eVJVZU9kZFVlS0dnMTJVaGo1ejVTZ3I1Snk5SlFXRHJlZVlrZF8ybEZqYUR3Qmxhc0JVTURtM3Y5anFHUnpqMXUxTTJkdw?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -48,6 +39,15 @@
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQY2tISWprLUVaQ09PNXA5R2xMSUM1a3h0S29rSk16bjJ0Yi1hc1kwMHAxelY1Vm0wSkZ5MC1FOGhiQkViR05qN2JsOThQeElpQ3k0S0FlaC1GaFBLUWljNjFFMUp5ZHduVk90SVFRXzhtbEc0VTFqeGRrbWJqTk8xZk5leHBYWUdpZzRzNl9pMzhGQW44WmNldjNiOFMyQUk1eEF4dnZ1YkpwQnV6UThUNEU3NjhLcVlLSG9xdmk4bjM2ekZv?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "A massive K-beauty pop-up is taking over Hudson Yards this week with 30+ brands and $300 gift bags - Time Out Worldwide",
+      "product": "A massive K-beauty pop-up is taking over Hudson Yards this week with 30+ brands and $300 gift bags - Time Out Worldwide",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZlBQMzlpMkVnWThzam51YmVTcEVIR0daejY5ZElObmwzdHNqejNqWDVmYmRzME1mcDJEck85ODJyTEtLQjl2TjhOYWtIcmJ4SjIwUnNHdDJ0Nk1uOGhfcXZaMU90SHF3Y2FuaDFVeHBsN0RJd0NGaXFMNnVVZkh6TnNPR0FVeFlzU2J4cWRsRWt1UFY5aUJuOVVqZENMQXdfZ2JPLU1jbnVrVmFrenZFNk1IN0t5d3p6Vk9DY19TOUJGb1hNTG9qWkdjUEQ5bUZmUC1YVThrSQ?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -70,8 +70,8 @@
       "beauty": true
     },
     {
-      "keyword": "K-Beauty Is Taking Over Our Best of Beauty Awards, and for Good Reason - Allure",
-      "product": "K-Beauty Is Taking Over Our Best of Beauty Awards, and for Good Reason - Allure",
+      "keyword": "K-Beauty Is Taking Over Our Best of Beauty Awards, and for Good Reason - allure.com",
+      "product": "K-Beauty Is Taking Over Our Best of Beauty Awards, and for Good Reason - allure.com",
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9OMWRrWlZETWZ3NUNIUFhIZU1GcVl1OFJmMEkzemlwMVRfVWs4NTFpLUd0VFNxR0xFN09IajZxUDQzakRZcHp5cVVGTUplNzA2VW1QWXBWbkdSX0RRLUtHOTROZGtSdGpZV3hOQkRVaVpJZnFtZ2NNcHd5cw?oc=5",
@@ -142,8 +142,8 @@
       "beauty": true
     },
     {
-      "keyword": "Is the new U.S. regulation an open door or obstacle for K-sunscreens? - Korea JoongAng Daily",
-      "product": "Is the new U.S. regulation an open door or obstacle for K-sunscreens? - Korea JoongAng Daily",
+      "keyword": "Is the new U.S. regulation an open door or obstacle for K-sunscreens? - koreajoongangdaily.com",
+      "product": "Is the new U.S. regulation an open door or obstacle for K-sunscreens? - koreajoongangdaily.com",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUDh6Z0llM0RRMDYyeWdpSlhyaTRUdjREYUloeWMzUjQtbnBud0NaaWluNGs2akdaT2NZbnhlbElONjJUVzE2QU5TV2NTMkRhVnlQaHlXaUJTdTZScTE0Y0pqblFlYnlNa1dseHB3M09Fb3RQN0hCclZYS1B1RXotaERGS29IQmZlbFI2RzNBTXFreExrUnE5MzhaV3ZsclBHRkpXRlEtQnQxbk5INngtdURoWVlPRmtGcGc?oc=5",
@@ -178,8 +178,8 @@
       "beauty": true
     },
     {
-      "keyword": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - goodhousekeeping.com",
-      "product": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - goodhousekeeping.com",
+      "keyword": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - Good Housekeeping",
+      "product": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - Good Housekeeping",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaHNGOTRvaVF1V3FVRWxjLWo3T0NSN1Q5Tjk0X25hTU5iOEY4d3lGdTVTNngtV09hdldxWXcwYTA0OENIcElxQ1ZXUnBXQ3FIcGhfYm9zc2xTZkJlaFdjU2UxNHR1cmhicDdHYXZiOEZnTGZGNl9IQms5N1FxV1BpTjlFRzY0dGM?oc=5",
@@ -232,8 +232,8 @@
       "beauty": true
     },
     {
-      "keyword": "Dry Skin Types Should Be Using Face Toner—Here’s Why - Allure",
-      "product": "Dry Skin Types Should Be Using Face Toner—Here’s Why - Allure",
+      "keyword": "Dry Skin Types Should Be Using Face Toner—Here’s Why - allure.com",
+      "product": "Dry Skin Types Should Be Using Face Toner—Here’s Why - allure.com",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tUlIta29LZnJyQjZ3VlhCQ1VlZzk3bVo5LXd1NE8xX3FRemRsZXB4VXdOSDQtWVNUMlJzWmNXSnhUTWdBTl9hX1dud2VTREZwNlFfTXVxNEdOa0tSdUJZNS1B?oc=5",
@@ -259,8 +259,8 @@
       "beauty": true
     },
     {
-      "keyword": "How Anua Skincare Became K-Beauty’s Biggest Success Story - BeautyNewsDaily",
-      "product": "How Anua Skincare Became K-Beauty’s Biggest Success Story - BeautyNewsDaily",
+      "keyword": "How Anua Skincare Became K-Beauty’s Biggest Success Story - beautynewsdaily.com",
+      "product": "How Anua Skincare Became K-Beauty’s Biggest Success Story - beautynewsdaily.com",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9LemdVMDM3Q3hoem1Xa013a0JQMVdWd0UxSDZpdjc4T3BmT29PMWJZZTltMl9lQkhRM1NzckFMbnBiMlIycWxqZXhrQ3lCeU1YNzFEcnpPQkRpeDQ?oc=5",
@@ -286,8 +286,8 @@
       "beauty": true
     },
     {
-      "keyword": "Best toner: Discover which face toner best suits your skin type and budget - Mamabella",
-      "product": "Best toner: Discover which face toner best suits your skin type and budget - Mamabella",
+      "keyword": "Best toner: Discover which face toner best suits your skin type and budget - mamabella.uk",
+      "product": "Best toner: Discover which face toner best suits your skin type and budget - mamabella.uk",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5hcW5ZR2hNR0ZGQ2dvaTVvUTFyRmRhOTJfUXlkVlhicmYzT01PZzFPREtQSXJRZHRDZEc2M0RtazdoSkRucVlSdEZoZ1ZZRXV0eWpfZFY3TVZrN1ByQkNyeQ?oc=5",
@@ -304,8 +304,8 @@
       "beauty": true
     },
     {
-      "keyword": "Red, Irritated Skin? These Cica Products Calm Things Down - Allure",
-      "product": "Red, Irritated Skin? These Cica Products Calm Things Down - Allure",
+      "keyword": "Red, Irritated Skin? These Cica Products Calm Things Down - allure.com",
+      "product": "Red, Irritated Skin? These Cica Products Calm Things Down - allure.com",
       "sub": "centella serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1yZDNoUHpEdEhOUWhHQWRZck1vTFdWeDljeGZPcVh4a1VuaWpnWTczN0Vhd2RmODNOajVxdFdzRHdJTjJVbVJfa212RDdQcVY3N2tSRjc0emxET0J6bUFfbVZUNUU?oc=5",
@@ -322,11 +322,20 @@
       "beauty": true
     },
     {
-      "keyword": "Hudson Williams Swears By This K-Beauty Skincare Brand, and It’s Currently on Sale at Amazon - shopping.yahoo.com",
-      "product": "Hudson Williams Swears By This K-Beauty Skincare Brand, and It’s Currently on Sale at Amazon - shopping.yahoo.com",
+      "keyword": "Hudson Williams Swears By This K-Beauty Skincare Brand, and It’s Currently on Sale at Amazon - Yahoo",
+      "product": "Hudson Williams Swears By This K-Beauty Skincare Brand, and It’s Currently on Sale at Amazon - Yahoo",
       "sub": "centella serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVHdNS1c3RV9yU0MtZS1WUzBaLVZQS0JTSWU3TURkaHZlbkxzclFraGFTcEJfUlktUmcxTXg0RmEtM2M3cjhCUVB2eXRQcjV5VXlXQjJmbk9RUExjN184UWhnTE5IVGFKajlORWdhWWl1dTZxZl9paUo1RlpfWU9ROVZaSU1oY1N3M3FPdE5CdE0ycC0zTElfQlAwZXJRVE0?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Scientists invent a plant-based serum that is proven to regrow hair in weeks - Earth.com",
+      "product": "Scientists invent a plant-based serum that is proven to regrow hair in weeks - Earth.com",
+      "sub": "centella serum",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSFVtSjNNOWR6b0pRZU9ZeEVzN09KMmtvUXlLbVRGTEJmeUdScHA5TTlFeWUwMFpHb3JKSWJNa3VwWm1JaU5VZ1NTeE5ROXo0ODhWa0dTcXp2ZU14RDA4SEk2WGUyZWtHZGNuZ0h6bWhZbkxOTlgwWG5HTXhkMkdXWW1MczgydFdQQzhoQTQ4blZjTjd4ZDVncy1uZmotamhnUXk4ZDIzY2F3ZTdT?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -349,20 +358,11 @@
       "beauty": true
     },
     {
-      "keyword": "The Best Beauty Launches of January 2026 - BeautyNewsDaily",
-      "product": "The Best Beauty Launches of January 2026 - BeautyNewsDaily",
+      "keyword": "The Best Beauty Launches of January 2026 - beautynewsdaily.com",
+      "product": "The Best Beauty Launches of January 2026 - beautynewsdaily.com",
       "sub": "centella serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1qMVVHZjVtSXNpdW5LWHFoMi1nZk5FMkFCaEl5cFJCWkNrb1AxaGYxTUVvRUtNVWNabDFFRVRKVlRIRzdpZ29sVk5MNERUWjJkT0s3aTRJRWF2NmpEeFlyR0c1ZjA4Q1pHQk9FYU1lTmw?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "Top 15 Must-Buy Serums from Olive Young in 2026 - funliday.com",
-      "product": "Top 15 Must-Buy Serums from Olive Young in 2026 - funliday.com",
-      "sub": "centella serum",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRkRkQi1TY3h2YmlWZlEzSlRKNV9lMXNXSDdBQ2RBVHBmb0NCcThJa1Q1MkNsbVVISHhZSUNyU3BncGxQQndHbDk5cnJwbFhXVHBKa2tPQXJ1WlBFRzFrbnR5NXU1ek9GYUVOcUlVTHROZTZscjFJVUlmR1had2JockFNUWIxUQ?oc=5",
       "kind": "news",
       "beauty": true
     }

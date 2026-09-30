@@ -2,7 +2,7 @@
 title: "Record e46ca7400f · La-Roche-Posay-Toleriane-Double-Repair-Face-Moisturizer--Daily-face-cr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:07.466531+00:00
+updated_at: 2026-09-30T01:15:31.267372+00:00
 tags: [record, real-data]
 ---
 

@@ -1,73 +1,73 @@
 {
-  "generated_at": "2026-09-29T20:28:56.960756+00:00",
+  "generated_at": "2026-09-30T01:04:20.226945+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
-  "pool_size": 3111,
+  "pool_size": 3110,
   "제목없어_버림": 38,
   "unrouted": 9,
   "summary": {
     "sourcing": {
       "total": 368,
-      "recent": 366,
+      "recent": 365,
       "material": 12,
-      "material_recent": 10,
+      "material_recent": 9,
       "products": 356
     },
     "market": {
-      "total": 937,
-      "recent": 93,
-      "material": 937,
-      "material_recent": 93,
+      "total": 940,
+      "recent": 90,
+      "material": 940,
+      "material_recent": 90,
       "products": 0
     },
     "listing": {
       "total": 113,
-      "recent": 54,
+      "recent": 53,
       "material": 113,
-      "material_recent": 54,
+      "material_recent": 53,
       "products": 0
     },
     "pricing": {
-      "total": 75,
-      "recent": 33,
-      "material": 75,
-      "material_recent": 33,
+      "total": 76,
+      "recent": 32,
+      "material": 76,
+      "material_recent": 32,
       "products": 0
     },
     "legal": {
-      "total": 231,
-      "recent": 55,
-      "material": 231,
-      "material_recent": 55,
+      "total": 234,
+      "recent": 54,
+      "material": 234,
+      "material_recent": 54,
       "products": 0
     },
     "design": {
-      "total": 438,
-      "recent": 127,
-      "material": 438,
-      "material_recent": 127,
+      "total": 437,
+      "recent": 126,
+      "material": 437,
+      "material_recent": 126,
       "products": 0
     },
     "robotics": {
-      "total": 153,
-      "recent": 52,
-      "material": 153,
-      "material_recent": 52,
+      "total": 156,
+      "recent": 54,
+      "material": 156,
+      "material_recent": 54,
       "products": 0
     },
     "knowledge": {
-      "total": 261,
-      "recent": 94,
-      "material": 261,
-      "material_recent": 94,
+      "total": 257,
+      "recent": 93,
+      "material": 257,
+      "material_recent": 93,
       "products": 0
     },
     "institutions": {
-      "total": 1161,
-      "recent": 223,
-      "material": 1161,
-      "material_recent": 223,
+      "total": 1162,
+      "recent": 221,
+      "material": 1162,
+      "material_recent": 221,
       "products": 0
     },
     "channels": {
@@ -1441,7 +1441,7 @@
         "by_hand": true
       },
       {
-        "title": "How to Get Better Designs Out of Claude",
+        "title": "How to Supercharge Claude with Design Skills",
         "url": "https://www.youtube.com/watch?v=psUJ14KmwpI",
         "pool": "youtube_channel",
         "date": "",
@@ -1885,6 +1885,13 @@
         "by_hand": true
       },
       {
+        "title": "Introducing GPT-6.1 Sol",
+        "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+        "pool": "institutions",
+        "date": "2026-09-29",
+        "by_hand": false
+      },
+      {
         "title": "Snowflake Prices Upsized Private Placement of $3.75 Billion of 0.00% Convertible Senior Notes",
         "url": "https://investors.snowflake.com/news/news-details/2026/Snowflake-Prices-Upsized-Private-Placement-of-3-75-Billion-of-0-00-Convertible-Senior-Notes/default.aspx",
         "pool": "institutions",
@@ -1915,13 +1922,6 @@
       {
         "title": "Why Markets May Be Pricing In Too Many Fed Rate Hikes   Transcript",
         "url": "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/why-markets-may-be-pricing-in-too-many-fed-rate-hikes/transcript.pdf",
-        "pool": "institutions",
-        "date": "2026-09-23",
-        "by_hand": false
-      },
-      {
-        "title": "Middle East Conflict Oil Prices Martijn Rats",
-        "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/middle-east-conflict-oil-prices-martijn-rats",
         "pool": "institutions",
         "date": "2026-09-23",
         "by_hand": false
@@ -2783,7 +2783,7 @@
         "by_hand": true
       },
       {
-        "title": "How to Get Better Designs Out of Claude",
+        "title": "How to Supercharge Claude with Design Skills",
         "url": "https://www.youtube.com/watch?v=psUJ14KmwpI",
         "pool": "youtube_channel",
         "date": "",

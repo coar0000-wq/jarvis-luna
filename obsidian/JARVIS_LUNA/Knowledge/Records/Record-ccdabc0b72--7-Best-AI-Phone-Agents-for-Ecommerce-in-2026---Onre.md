@@ -2,7 +2,7 @@
 title: "Record ccdabc0b72 · 7-Best-AI-Phone-Agents-for-Ecommerce-in-2026---Onrec"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:06.718267+00:00
+updated_at: 2026-09-30T01:15:30.541014+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMikAFBVV95cUxPcEMwbF9lZzJud1A3d3FhWTV2RVk5SFRzNE80MUlGSFZPWHplTXdzUnVwWjJCblZPNVdtQ0FEeXhRSVd4SzhSSEo2bmZ0M0ZvZkNlaUlDTFhYaGhiTzk1dThGemU5N0lSOWhTbXZhbldqTG00LXFzcVg3bUJaakJDMTZMT2ZYLTZ3YUFWa3ZLYXo?oc=5)
 
-**제목:** 7 Best AI Phone Agents for Ecommerce in 2026 - Onrec
+**제목:** 7 Best AI Phone Agents for Ecommerce in 2026 - onrec.com
 
-7 Best AI Phone Agents for Ecommerce in 2026 - Onrec
+7 Best AI Phone Agents for Ecommerce in 2026 - onrec.com
 
 **출처:** Source · Google Search
 

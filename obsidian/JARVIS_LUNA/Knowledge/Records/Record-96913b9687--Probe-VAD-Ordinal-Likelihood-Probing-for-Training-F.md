@@ -2,7 +2,7 @@
 title: "Record 96913b9687 · Probe-VAD-Ordinal-Likelihood-Probing-for-Training-Free-Video-Anomaly-D"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:05.403547+00:00
+updated_at: 2026-09-30T01:15:29.319115+00:00
 tags: [record, real-data]
 ---
 

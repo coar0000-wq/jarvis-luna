@@ -2,7 +2,7 @@
 title: "Record d08cd40b31 · DELIGHT-PROJECT-Black-Sesame-Seed--Injeolmi-Protein-Shake-158-oz45g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-29T22:18:07.130276+00:00
+updated_at: 2026-09-30T01:15:30.920048+00:00
 tags: [record, real-data]
 ---
 
