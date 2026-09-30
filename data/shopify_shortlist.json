@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-30T14:53:35.834109+00:00",
+  "generated_at": "2026-09-30T17:35:29.751329+00:00",
   "generator": "scripts/build_shopify_shortlist.py",
   "status": "proposed",
   "source": "rules",
@@ -107,7 +107,7 @@
       },
       "added_at": "2026-09-30T14:53:35.834094+00:00",
       "status": "active",
-      "note": "규칙 제안으로 새로 추가"
+      "note": ""
     },
     {
       "unit_id": "VG-CP000151",
