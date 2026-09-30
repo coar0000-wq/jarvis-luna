@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-10-01T06:56:17.293277+09:00",
+    "updated_at": "2026-10-01T07:39:20.768276+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -1722,42 +1722,6 @@
       "rating": 4.8,
       "review_count": 196,
       "us_rank": 3,
-      "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 3위 · 마스크팩 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA55018948",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-      "brand": "MEDIHEAL",
-      "price_usd": 20.99,
-      "rating": 4.8,
-      "review_count": 1077,
-      "us_rank": 6,
-      "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 6위 · 마스크팩 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA48723304",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "REJURAN Skin Protection Mask 5ct 0.91 fl. oz.(27ml)",
-      "brand": "REJURAN",
-      "price_usd": 15.3,
-      "rating": 0,
-      "review_count": 0,
-      "us_rank": 29,
-      "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 29위 · 마스크팩 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA74760513",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "Anua PDRN Full Care Set (serum 1 fl. oz.(30ml) + Mist 1 fl. oz.(30ml) + Cream 2 fl. oz.(60ml) + Mask 5 Packs + Keychain)",
-      "brand": "Anua",
-      "price_usd": 65.3,
-      "rating": 4.8,
-      "review_count": 196,
-      "us_rank": 3,
       "daiso_bucket": "스킨케어",
       "why": "us.oliveyoung.com/best-sellers 실수집 3위 · 스킨케어 동일 포지션",
       "url": "https://us.oliveyoung.com/products/UA55018948",
@@ -1785,6 +1749,42 @@
       "daiso_bucket": "스킨케어",
       "why": "us.oliveyoung.com/best-sellers 실수집 8위 · 스킨케어 동일 포지션",
       "url": "https://us.oliveyoung.com/products/UA36240979",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "Anua PDRN Full Care Set (serum 1 fl. oz.(30ml) + Mist 1 fl. oz.(30ml) + Cream 2 fl. oz.(60ml) + Mask 5 Packs + Keychain)",
+      "brand": "Anua",
+      "price_usd": 65.3,
+      "rating": 4.8,
+      "review_count": 196,
+      "us_rank": 3,
+      "daiso_bucket": "마스크팩",
+      "why": "us.oliveyoung.com/best-sellers 실수집 3위 · 마스크팩 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA55018948",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
+      "brand": "MEDIHEAL",
+      "price_usd": 20.99,
+      "rating": 4.8,
+      "review_count": 1077,
+      "us_rank": 6,
+      "daiso_bucket": "마스크팩",
+      "why": "us.oliveyoung.com/best-sellers 실수집 6위 · 마스크팩 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA48723304",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "REJURAN Skin Protection Mask 5ct 0.91 fl. oz.(27ml)",
+      "brand": "REJURAN",
+      "price_usd": 15.3,
+      "rating": 0,
+      "review_count": 0,
+      "us_rank": 29,
+      "daiso_bucket": "마스크팩",
+      "why": "us.oliveyoung.com/best-sellers 실수집 29위 · 마스크팩 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA74760513",
       "source": "us.oliveyoung.com/best-sellers 실수집"
     }
   ],
