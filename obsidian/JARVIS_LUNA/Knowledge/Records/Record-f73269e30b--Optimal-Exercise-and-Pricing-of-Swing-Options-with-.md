@@ -2,7 +2,7 @@
 title: "Record f73269e30b · Optimal-Exercise-and-Pricing-of-Swing-Options-with-Global-Constraints-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:38.149466+00:00
+updated_at: 2026-09-30T12:38:16.316806+00:00
 tags: [record, real-data]
 ---
 

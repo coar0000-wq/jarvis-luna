@@ -2,7 +2,7 @@
 title: "Record f40825a8de · Midyear-Outlook-2025-Pushback-Serena-Tang-Vishy-Tirupattur"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:40.369544+00:00
+updated_at: 2026-09-30T12:38:18.471944+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 7d08c7a87b · HBF-Sim-An-Extensible-HBF-Simulator-for-Large-scale-GPU-Memory-Systems"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:38.080713+00:00
+updated_at: 2026-09-30T12:38:16.247347+00:00
 tags: [record, real-data]
 ---
 

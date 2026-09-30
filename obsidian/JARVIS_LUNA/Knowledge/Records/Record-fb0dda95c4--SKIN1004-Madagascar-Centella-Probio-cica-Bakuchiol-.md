@@ -2,7 +2,7 @@
 title: "Record fb0dda95c4 · SKIN1004-Madagascar-Centella-Probio-cica-Bakuchiol-Eye-Cream-067-fl-oz"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:39.726499+00:00
+updated_at: 2026-09-30T12:38:17.851558+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 100cc11dc6 · innisfree-Green-Tea-Caffeine-Bright-Eye-Serum-033-oz10ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:39.758582+00:00
+updated_at: 2026-09-30T12:38:17.883705+00:00
 tags: [record, real-data]
 ---
 

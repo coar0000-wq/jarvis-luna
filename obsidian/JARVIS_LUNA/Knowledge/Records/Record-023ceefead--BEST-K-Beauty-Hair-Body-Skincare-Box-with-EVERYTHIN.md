@@ -2,7 +2,7 @@
 title: "Record 023ceefead · BEST-K-Beauty-Hair-Body-Skincare-Box-with-EVERYTHIN"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:40.541764+00:00
+updated_at: 2026-09-30T12:38:18.648395+00:00
 tags: [record, real-data]
 ---
 

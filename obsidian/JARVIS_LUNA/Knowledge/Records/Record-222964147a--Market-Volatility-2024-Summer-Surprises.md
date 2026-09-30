@@ -2,7 +2,7 @@
 title: "Record 222964147a · Market-Volatility-2024-Summer-Surprises"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:40.329989+00:00
+updated_at: 2026-09-30T12:38:18.430277+00:00
 tags: [record, real-data]
 ---
 

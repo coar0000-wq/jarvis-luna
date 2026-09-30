@@ -2,7 +2,7 @@
 title: "Record bc2a0bf079 · Tree-Hut-Pumpkin-Roll-Body-Scrub-Exfoliating-Sugar-Scrub-Vegan-18-Oz--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:40.127401+00:00
+updated_at: 2026-09-30T12:38:18.232428+00:00
 tags: [record, real-data]
 ---
 

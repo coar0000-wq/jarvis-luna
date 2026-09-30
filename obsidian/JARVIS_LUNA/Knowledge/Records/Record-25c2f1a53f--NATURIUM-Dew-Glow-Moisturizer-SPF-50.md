@@ -2,7 +2,7 @@
 title: "Record 25c2f1a53f · NATURIUM-Dew-Glow-Moisturizer-SPF-50"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:37.725437+00:00
+updated_at: 2026-09-30T12:38:15.895500+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2664f4bb00 · vlasimd-Efficient-CPU-Inference-for-Language-Conditioned-Manipulation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:38.650804+00:00
+updated_at: 2026-09-30T12:38:16.793995+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record b4d8f01e9b · The-latest-fleeting-TikTok-beauty-trend-Looking-tir"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:39.354348+00:00
+updated_at: 2026-09-30T12:38:17.480293+00:00
 tags: [record, real-data]
 ---
 

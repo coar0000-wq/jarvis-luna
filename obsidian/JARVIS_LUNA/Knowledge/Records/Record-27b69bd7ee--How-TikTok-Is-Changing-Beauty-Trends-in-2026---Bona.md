@@ -2,7 +2,7 @@
 title: "Record 27b69bd7ee · How-TikTok-Is-Changing-Beauty-Trends-in-2026---Bona"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:39.178542+00:00
+updated_at: 2026-09-30T12:38:17.307252+00:00
 tags: [record, real-data]
 ---
 

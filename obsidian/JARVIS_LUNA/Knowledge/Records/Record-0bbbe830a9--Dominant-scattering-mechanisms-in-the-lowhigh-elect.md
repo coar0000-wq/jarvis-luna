@@ -2,7 +2,7 @@
 title: "Record 0bbbe830a9 · Dominant-scattering-mechanisms-in-the-lowhigh-electric-field-transport"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:38.292196+00:00
+updated_at: 2026-09-30T12:38:16.449413+00:00
 tags: [record, real-data]
 ---
 

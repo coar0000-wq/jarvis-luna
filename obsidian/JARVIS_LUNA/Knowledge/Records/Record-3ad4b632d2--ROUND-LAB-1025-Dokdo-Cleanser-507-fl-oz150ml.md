@@ -2,7 +2,7 @@
 title: "Record 3ad4b632d2 · ROUND-LAB-1025-Dokdo-Cleanser-507-fl-oz150ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:39.687603+00:00
+updated_at: 2026-09-30T12:38:17.814934+00:00
 tags: [record, real-data]
 ---
 

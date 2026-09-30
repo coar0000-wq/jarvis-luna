@@ -2,7 +2,7 @@
 title: "Record 142d6cae0b · Real-Time-Data-Ingestion-and-Stream-Processing-for-AI-Applications-in-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:38.832749+00:00
+updated_at: 2026-09-30T12:38:16.990759+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1254a6d072 · QuantWM-Temporally-Consistent-2-Bit-KV-Cache-Quantization-for-World-Mo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:38.673364+00:00
+updated_at: 2026-09-30T12:38:16.816987+00:00
 tags: [record, real-data]
 ---
 

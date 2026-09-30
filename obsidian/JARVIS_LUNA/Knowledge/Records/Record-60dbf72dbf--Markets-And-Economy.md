@@ -2,7 +2,7 @@
 title: "Record 60dbf72dbf · Markets-And-Economy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:40.288982+00:00
+updated_at: 2026-09-30T12:38:18.388112+00:00
 tags: [record, real-data]
 ---
 

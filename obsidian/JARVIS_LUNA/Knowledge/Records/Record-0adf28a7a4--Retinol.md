@@ -2,7 +2,7 @@
 title: "Record 0adf28a7a4 · Retinol"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:38.866571+00:00
+updated_at: 2026-09-30T12:38:17.022452+00:00
 tags: [record, real-data]
 ---
 

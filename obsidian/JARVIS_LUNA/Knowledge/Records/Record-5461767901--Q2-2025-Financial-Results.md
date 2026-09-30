@@ -2,7 +2,7 @@
 title: "Record 5461767901 · Q2-2025-Financial-Results"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:40.212716+00:00
+updated_at: 2026-09-30T12:38:18.312683+00:00
 tags: [record, real-data]
 ---
 

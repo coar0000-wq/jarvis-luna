@@ -2,7 +2,7 @@
 title: "Record 8cd40cba6c · Luxe-Color-Changing-Foundation--Medium"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:39.975311+00:00
+updated_at: 2026-09-30T12:38:18.091283+00:00
 tags: [record, real-data]
 ---
 

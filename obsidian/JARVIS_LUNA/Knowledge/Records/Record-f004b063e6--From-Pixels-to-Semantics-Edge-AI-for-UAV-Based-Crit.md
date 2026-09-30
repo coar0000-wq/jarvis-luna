@@ -2,7 +2,7 @@
 title: "Record f004b063e6 · From-Pixels-to-Semantics-Edge-AI-for-UAV-Based-Critical-Infrastructure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:37.992437+00:00
+updated_at: 2026-09-30T12:38:16.163104+00:00
 tags: [record, real-data]
 ---
 

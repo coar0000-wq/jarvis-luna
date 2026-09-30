@@ -2,7 +2,7 @@
 title: "Record 9d38f4bfa0 · ROUND-LAB-Birch-Juice-Moisturizing-Intensive-Cream-169-fl-oz50ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:39.699811+00:00
+updated_at: 2026-09-30T12:38:17.826625+00:00
 tags: [record, real-data]
 ---
 

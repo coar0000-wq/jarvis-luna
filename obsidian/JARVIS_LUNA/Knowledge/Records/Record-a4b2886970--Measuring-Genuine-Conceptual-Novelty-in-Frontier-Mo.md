@@ -2,7 +2,7 @@
 title: "Record a4b2886970 · Measuring-Genuine-Conceptual-Novelty-in-Frontier-Mo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:38.789920+00:00
+updated_at: 2026-09-30T12:38:16.953530+00:00
 tags: [record, real-data]
 ---
 

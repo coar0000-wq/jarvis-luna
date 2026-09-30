@@ -2,7 +2,7 @@
 title: "Record c76edc868a · Ive-Been-Using-This-K-Beauty-Moisturizer-for-9-MonthsIt-Gives-Me-Glass"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:39.275044+00:00
+updated_at: 2026-09-30T12:38:17.400284+00:00
 tags: [record, real-data]
 ---
 
@@ -13,10 +13,9 @@ tags: [record, real-data]
 **제목:** I’ve Been Using This K-Beauty Moisturizer for 9 Months—It Gives Me Glass Skin and a Smoother Neck - Real Simple
 
 I’ve Been Using This K-Beauty Moisturizer for 9 Months—It Gives Me Glass Skin and a Smoother Neck - Real Simple
-I’ve Been Using This K-Beauty Moisturizer for 9 Months—It Gives Me Glass Skin and a Smoother Neck - Real Simple
 
-**출처:** Source · us_beauty
+**출처:** Source · Google Search
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

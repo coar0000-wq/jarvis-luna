@@ -2,7 +2,7 @@
 title: "Record 10102db914 · SK-hynix-Charts-Its-Business-and-Technology-Directi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:39.517666+00:00
+updated_at: 2026-09-30T12:38:17.646572+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 5113e2c804 · Unifying-Power-Flow-and-Electromagnetic-Transient-M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:37.852319+00:00
+updated_at: 2026-09-30T12:38:16.024196+00:00
 tags: [record, real-data]
 ---
 

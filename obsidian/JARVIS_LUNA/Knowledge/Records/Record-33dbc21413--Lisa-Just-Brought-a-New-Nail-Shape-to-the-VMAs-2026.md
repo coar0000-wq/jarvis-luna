@@ -2,7 +2,7 @@
 title: "Record 33dbc21413 · Lisa-Just-Brought-a-New-Nail-Shape-to-the-VMAs-2026-Red-CarpetSee-the-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:39.849805+00:00
+updated_at: 2026-09-30T12:38:17.969478+00:00
 tags: [record, real-data]
 ---
 

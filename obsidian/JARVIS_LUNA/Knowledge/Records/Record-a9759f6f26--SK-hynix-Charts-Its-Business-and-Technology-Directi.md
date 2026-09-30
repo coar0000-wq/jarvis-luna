@@ -2,7 +2,7 @@
 title: "Record a9759f6f26 · SK-hynix-Charts-Its-Business-and-Technology-Directi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:39.515288+00:00
+updated_at: 2026-09-30T12:38:17.644203+00:00
 tags: [record, real-data]
 ---
 

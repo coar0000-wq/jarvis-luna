@@ -2,7 +2,7 @@
 title: "Record a40a937700 · Anua-PDRN-Hyaluronic-Acid-Capsule-100-Serum-101-fl-oz30ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:39.748084+00:00
+updated_at: 2026-09-30T12:38:17.872990+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** Anua PDRN Hyaluronic Acid Capsule 100 Serum 1.01 fl. oz.(30ml)
 
 Anua PDRN Hyaluronic Acid Capsule 100 Serum 1.01 fl. oz.(30ml)
-Anua PDRN Hyaluronic Acid Capsule 100 Serum 1.01 fl. oz.(30ml) · 평점 4.8 · 리뷰 819
+Anua PDRN Hyaluronic Acid Capsule 100 Serum 1.01 fl. oz.(30ml) · 평점 4.8 · 리뷰 823
 
 **출처:** Source · us_beauty
 

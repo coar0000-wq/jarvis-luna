@@ -2,7 +2,7 @@
 title: "Record 841613d601 · B-Hydra-Intensive-Hydration-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:40.448601+00:00
+updated_at: 2026-09-30T12:38:18.551893+00:00
 tags: [record, real-data]
 ---
 

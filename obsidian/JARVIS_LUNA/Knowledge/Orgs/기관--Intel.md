@@ -2,7 +2,7 @@
 title: "기관 · Intel"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:41.577801+00:00
+updated_at: 2026-09-30T12:38:19.675639+00:00
 tags: [org, real-data]
 ---
 

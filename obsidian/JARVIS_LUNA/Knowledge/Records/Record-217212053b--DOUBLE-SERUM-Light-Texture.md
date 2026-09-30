@@ -2,7 +2,7 @@
 title: "Record 217212053b · DOUBLE-SERUM-Light-Texture"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:40.457888+00:00
+updated_at: 2026-09-30T12:38:18.561313+00:00
 tags: [record, real-data]
 ---
 

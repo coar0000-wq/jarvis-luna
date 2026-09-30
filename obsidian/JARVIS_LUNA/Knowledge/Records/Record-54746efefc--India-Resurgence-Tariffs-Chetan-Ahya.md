@@ -2,7 +2,7 @@
 title: "Record 54746efefc · India-Resurgence-Tariffs-Chetan-Ahya"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:40.365341+00:00
+updated_at: 2026-09-30T12:38:18.467797+00:00
 tags: [record, real-data]
 ---
 

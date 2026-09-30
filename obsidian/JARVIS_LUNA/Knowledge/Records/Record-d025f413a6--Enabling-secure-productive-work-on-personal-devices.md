@@ -2,7 +2,7 @@
 title: "Record d025f413a6 · Enabling-secure-productive-work-on-personal-devices"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:40.237952+00:00
+updated_at: 2026-09-30T12:38:18.337847+00:00
 tags: [record, real-data]
 ---
 

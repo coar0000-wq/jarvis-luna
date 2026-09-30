@@ -2,7 +2,7 @@
 title: "Record db8b9d45a9 · Cognizant-Partnership"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:40.189873+00:00
+updated_at: 2026-09-30T12:38:18.289948+00:00
 tags: [record, real-data]
 ---
 

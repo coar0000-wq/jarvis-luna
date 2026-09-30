@@ -2,7 +2,7 @@
 title: "Record 6b827fb9ef · C3-AI-Announces-Fiscal-First-Quarter-2027-Results"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:38.916436+00:00
+updated_at: 2026-09-30T12:38:17.076053+00:00
 tags: [record, real-data]
 ---
 

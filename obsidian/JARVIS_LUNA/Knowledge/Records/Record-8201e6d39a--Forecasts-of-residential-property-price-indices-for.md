@@ -2,7 +2,7 @@
 title: "Record 8201e6d39a · Forecasts-of-residential-property-price-indices-for-Hong-Kong-through-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:38.318492+00:00
+updated_at: 2026-09-30T12:38:16.474291+00:00
 tags: [record, real-data]
 ---
 

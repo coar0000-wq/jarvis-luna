@@ -2,7 +2,7 @@
 title: "Record 60b2902315 · Asia-Pacific-Outlook"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:40.281586+00:00
+updated_at: 2026-09-30T12:38:18.380468+00:00
 tags: [record, real-data]
 ---
 

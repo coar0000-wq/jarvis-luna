@@ -2,7 +2,7 @@
 title: "Record 5a0ba63897 · Weave-Fine-Grained-Dynamic-SM-Scheduling-in-an-MoE-Megakernel-for-Comp"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:38.027657+00:00
+updated_at: 2026-09-30T12:38:16.198009+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 8821e2b7f4 · ISTP-특징--대충-사는데-뭔가-잘-풀림-istp-istp특징"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:40.528568+00:00
+updated_at: 2026-09-30T12:38:18.634287+00:00
 tags: [record, real-data]
 ---
 

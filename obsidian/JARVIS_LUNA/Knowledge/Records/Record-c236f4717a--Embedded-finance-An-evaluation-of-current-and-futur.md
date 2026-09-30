@@ -2,7 +2,7 @@
 title: "Record c236f4717a · Embedded-finance-An-evaluation-of-current-and-future-use-cases"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:38.854721+00:00
+updated_at: 2026-09-30T12:38:17.011654+00:00
 tags: [record, real-data]
 ---
 

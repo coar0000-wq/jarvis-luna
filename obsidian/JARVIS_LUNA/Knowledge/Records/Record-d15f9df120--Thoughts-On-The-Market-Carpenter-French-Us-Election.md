@@ -2,7 +2,7 @@
 title: "Record d15f9df120 · Thoughts-On-The-Market-Carpenter-French-Us-Elections-2024"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:40.339175+00:00
+updated_at: 2026-09-30T12:38:18.439814+00:00
 tags: [record, real-data]
 ---
 

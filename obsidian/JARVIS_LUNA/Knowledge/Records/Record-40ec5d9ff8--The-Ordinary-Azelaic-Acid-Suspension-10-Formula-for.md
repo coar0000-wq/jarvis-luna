@@ -2,7 +2,7 @@
 title: "Record 40ec5d9ff8 · The-Ordinary-Azelaic-Acid-Suspension-10-Formula-for-Uneven-and-Blemish"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:40.065247+00:00
+updated_at: 2026-09-30T12:38:18.174421+00:00
 tags: [record, real-data]
 ---
 

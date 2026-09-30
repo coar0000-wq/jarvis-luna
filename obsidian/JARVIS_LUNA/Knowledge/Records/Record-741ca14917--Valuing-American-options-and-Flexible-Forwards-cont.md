@@ -2,7 +2,7 @@
 title: "Record 741ca14917 · Valuing-American-options-and-Flexible-Forwards-cont"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:39.599956+00:00
+updated_at: 2026-09-30T12:38:17.729176+00:00
 tags: [record, real-data]
 ---
 

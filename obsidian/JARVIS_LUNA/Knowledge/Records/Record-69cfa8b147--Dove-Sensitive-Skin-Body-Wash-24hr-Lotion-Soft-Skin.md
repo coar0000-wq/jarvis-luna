@@ -2,7 +2,7 @@
 title: "Record 69cfa8b147 · Dove-Sensitive-Skin-Body-Wash-24hr-Lotion-Soft-Skin-306-oz--Dove-Sensi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:39.949609+00:00
+updated_at: 2026-09-30T12:38:18.066957+00:00
 tags: [record, real-data]
 ---
 

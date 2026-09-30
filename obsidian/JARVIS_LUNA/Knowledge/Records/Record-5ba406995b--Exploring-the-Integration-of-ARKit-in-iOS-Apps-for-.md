@@ -2,7 +2,7 @@
 title: "Record 5ba406995b · Exploring-the-Integration-of-ARKit-in-iOS-Apps-for-Creating-Immersive-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:38.849542+00:00
+updated_at: 2026-09-30T12:38:17.006944+00:00
 tags: [record, real-data]
 ---
 

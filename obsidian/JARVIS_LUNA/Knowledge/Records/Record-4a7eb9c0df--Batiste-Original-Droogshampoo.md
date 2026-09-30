@@ -2,7 +2,7 @@
 title: "Record 4a7eb9c0df · Batiste-Original-Droogshampoo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:39.783918+00:00
+updated_at: 2026-09-30T12:38:17.909066+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record d9e2963d14 · Korean-Skincare-Brand-Mixsoon-Draws-95-of-Sales-From-Overseas---Seoul-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:39.380258+00:00
+updated_at: 2026-09-30T12:38:17.506013+00:00
 tags: [record, real-data]
 ---
 

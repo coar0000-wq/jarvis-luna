@@ -2,7 +2,7 @@
 title: "Record 947e8bf1f0 · Space-radiation-measurements-during-the-Artemis-I-lunar-mission"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:38.251205+00:00
+updated_at: 2026-09-30T12:38:16.411509+00:00
 tags: [record, real-data]
 ---
 

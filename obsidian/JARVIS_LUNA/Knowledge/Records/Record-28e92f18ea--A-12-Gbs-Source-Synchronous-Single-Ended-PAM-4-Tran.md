@@ -2,7 +2,7 @@
 title: "Record 28e92f18ea · A-12-Gbs-Source-Synchronous-Single-Ended-PAM-4-Transceiver-With-Backgr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:38.333811+00:00
+updated_at: 2026-09-30T12:38:16.489726+00:00
 tags: [record, real-data]
 ---
 

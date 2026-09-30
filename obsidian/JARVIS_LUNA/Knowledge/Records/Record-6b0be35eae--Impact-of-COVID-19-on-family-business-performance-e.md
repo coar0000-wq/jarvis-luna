@@ -2,7 +2,7 @@
 title: "Record 6b0be35eae · Impact-of-COVID-19-on-family-business-performance-evidence-from-listed"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:38.321546+00:00
+updated_at: 2026-09-30T12:38:16.477679+00:00
 tags: [record, real-data]
 ---
 

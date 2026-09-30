@@ -2,7 +2,7 @@
 title: "Record 90e530c012 · Business-Continuity--Incident-Response"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:38.743994+00:00
+updated_at: 2026-09-30T12:38:16.908244+00:00
 tags: [record, real-data]
 ---
 

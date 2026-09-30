@@ -2,7 +2,7 @@
 title: "Record df0fd40dad · Stabilizing-SrVO₃-bottom-electrodes-for-high-k-SrTiO₃-integration-via-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:38.244559+00:00
+updated_at: 2026-09-30T12:38:16.405303+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record b8e1089f4d · Accelerated-Decoding-of-Centroid-Positional-Encoding-for-Instance-Segm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:38.575308+00:00
+updated_at: 2026-09-30T12:38:16.721605+00:00
 tags: [record, real-data]
 ---
 

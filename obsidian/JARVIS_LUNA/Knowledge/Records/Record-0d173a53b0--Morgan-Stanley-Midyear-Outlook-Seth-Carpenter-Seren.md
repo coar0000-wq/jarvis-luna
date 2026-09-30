@@ -2,7 +2,7 @@
 title: "Record 0d173a53b0 · Morgan-Stanley-Midyear-Outlook-Seth-Carpenter-Serena-Tang"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:40.371173+00:00
+updated_at: 2026-09-30T12:38:18.472777+00:00
 tags: [record, real-data]
 ---
 

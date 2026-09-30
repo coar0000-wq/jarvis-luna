@@ -2,7 +2,7 @@
 title: "Record 52b80abd4e · Harvey-turns-legal-context-into-stronger-drafts-with-GPT-6-Astra"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T08:08:39.538627+00:00
+updated_at: 2026-09-30T12:38:17.668638+00:00
 tags: [record, real-data]
 ---
 
