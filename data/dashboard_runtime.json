@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-30T08:58:18.828134+09:00",
+  "generated_at": "2026-09-30T09:13:09.885406+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
@@ -89,7 +89,7 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-09-30T08:56:13.777035+09:00",
+      "when": "2026-09-30T09:11:51.123218+09:00",
       "summary": "S등급 10개 · 고시 판독 남음 0건 · 유튜브 자막 15편 · 근거 40개 · 실험 17개 · 새 자료 93건 · 영상 학습 41개",
       "action": null,
       "action_kind": null,
@@ -398,7 +398,7 @@
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-09-30T08:56:17.083112+09:00",
+      "when": "2026-09-30T09:11:53.748846+09:00",
       "summary": "83,796노트 · 349,310링크 · 끊어진 링크 0건 · 개인 노트 16건 별도 · 미분류 8.5% · 학습 키워드 15개 · 영상 30편 자막 검토 대기",
       "action": null,
       "action_kind": null,
@@ -422,7 +422,7 @@
     "id": "secretary",
     "name": "비서실장",
     "badge": "총괄",
-    "when": "2026-09-30T08:56:13.746035+09:00",
+    "when": "2026-09-30T09:11:51.097882+09:00",
     "summary": "2시간 주기 · 고시 28건 · US라벨 28건 · 카피 10건 · 등록 가능 9건 · 법률 차단 1건",
     "action": null,
     "action_kind": null,
@@ -432,37 +432,37 @@
         "단계": "고시 수집",
         "산출물": "gosi.json",
         "갱신": "2026-09-29T14:47:16.260748+00:00",
-        "몇시간전": 9.2
+        "몇시간전": 9.4
       },
       {
         "단계": "고시 비전 추출",
         "산출물": "gosi.json",
-        "갱신": "2026-09-30T08:56:13.746035+09:00",
+        "갱신": "2026-09-30T09:11:51.097882+09:00",
         "몇시간전": 0.0
       },
       {
         "단계": "US 라벨 동기화",
         "산출물": "daiso_us_labels.json",
-        "갱신": "2026-09-30T08:56:13.152031+09:00",
+        "갱신": "2026-09-30T09:11:50.637879+09:00",
         "몇시간전": 0.0
       },
       {
         "단계": "리스팅 카피",
         "산출물": "shopify_listing_copy.json",
         "갱신": "2026-09-29T20:38:11.273342+00:00",
-        "몇시간전": 3.3
+        "몇시간전": 3.6
       },
       {
         "단계": "등록 게이트",
         "산출물": "listing_gate.json",
         "갱신": "2026-09-29T22:36:48.518475+00:00",
-        "몇시간전": 1.4
+        "몇시간전": 1.6
       },
       {
         "단계": "법률 점검",
         "산출물": "legal_products.json",
         "갱신": "2026-09-29T22:36:48.403506+00:00",
-        "몇시간전": 1.4
+        "몇시간전": 1.6
       }
     ],
     "_근거": "JARVIS Deep Analysis가 2시간마다 남기는 Safe Auto-Fix 보고서를 heartbeat로 본다. 개별 파생 파일은 입력 무변경 시 mtime이 유지되므로 지연 판정에 쓰지 않는다."
@@ -834,7 +834,7 @@
     "status": "completed",
     "record_count": 5798,
     "source_counts": {},
-    "updated_at": "2026-09-30T08:56:13.762035+09:00"
+    "updated_at": "2026-09-30T09:11:51.110882+09:00"
   },
   "shopify_marketing_strategy": {
     "status": "evidence_ready",
@@ -1300,7 +1300,7 @@
     "topics": 28,
     "orgs": 35,
     "audit": "passed",
-    "last_generated": "2026-09-30T08:56:17.083112+09:00"
+    "last_generated": "2026-09-30T09:11:53.748846+09:00"
   },
   "training": {
     "status": "completed",
@@ -5810,17 +5810,17 @@
       "collected_at": "2026-09-29T23:58:09.510546+00:00",
       "count": 46,
       "trust": "verified",
-      "age_hours": 0.0,
+      "age_hours": 0.3,
       "stale": false
     },
     "walmart_beauty": {
       "status": "stale",
       "source": "walmart.com/browse/beauty/1085666 (실수집)",
-      "reason": "2026-09-15 이후 갱신 없음 (14.5일).",
+      "reason": "2026-09-15 이후 갱신 없음 (14.5일). 2026-09-15 이후 갱신 없음 (14.5일).",
       "collected_at": "2026-09-15T11:19:23.782Z",
       "count": 39,
       "trust": "stale",
-      "age_hours": 348.6,
+      "age_hours": 348.9,
       "stale": true
     },
     "oliveyoung_us": {
@@ -5830,7 +5830,7 @@
       "collected_at": "2026-09-29T20:29:19.134361+00:00",
       "count": 60,
       "trust": "verified",
-      "age_hours": 3.5,
+      "age_hours": 3.7,
       "stale": false
     },
     "google_trends_us": {
@@ -5840,7 +5840,7 @@
       "collected_at": "2026-09-29T20:30:22.082684+00:00",
       "count": 40,
       "trust": "verified",
-      "age_hours": 3.5,
+      "age_hours": 3.7,
       "stale": false
     },
     "sokoglam_us": {
@@ -5850,7 +5850,7 @@
       "collected_at": "2026-09-29T23:58:13.671996+00:00",
       "count": 60,
       "trust": "verified",
-      "age_hours": 0.0,
+      "age_hours": 0.2,
       "stale": false
     },
     "amazon_movers_beauty": {
@@ -5860,7 +5860,7 @@
       "collected_at": "2026-09-29T23:58:09.512405+00:00",
       "count": 0,
       "trust": "none",
-      "age_hours": 0.0,
+      "age_hours": 0.3,
       "stale": false
     },
     "amazon_new_beauty": {
@@ -5870,7 +5870,7 @@
       "collected_at": "2026-09-29T23:58:09.512676+00:00",
       "count": 46,
       "trust": "verified",
-      "age_hours": 0.0,
+      "age_hours": 0.3,
       "stale": false
     },
     "wikipedia_interest": {
@@ -5881,7 +5881,7 @@
       "count": 8,
       "trust": "verified",
       "note": "2026-08-29 ~ 2026-09-27 일별 조회수. 후반 15일 대비 전반 15일 증감률",
-      "age_hours": 3.3,
+      "age_hours": 3.6,
       "stale": false
     },
     "allure_media": {
@@ -5892,7 +5892,7 @@
       "count": 30,
       "trust": "verified",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
-      "age_hours": 3.3,
+      "age_hours": 3.6,
       "stale": false
     },
     "openfda_sunscreen": {
@@ -5903,7 +5903,7 @@
       "count": 20,
       "trust": "verified",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다.",
-      "age_hours": 3.3,
+      "age_hours": 3.6,
       "stale": false
     },
     "shopify_demand_matching": {
@@ -5929,7 +5929,7 @@
       "collected_at": "2026-09-29T23:58:09.513688+00:00",
       "count": 60,
       "trust": "verified",
-      "age_hours": 0.0,
+      "age_hours": 0.3,
       "stale": false
     },
     "sephora": {
@@ -5939,7 +5939,7 @@
       "collected_at": "2026-09-29T23:58:09.513688+00:00",
       "count": 14,
       "trust": "verified",
-      "age_hours": 0.0,
+      "age_hours": 0.3,
       "stale": false
     },
     "open_beauty_facts": {
@@ -5949,7 +5949,7 @@
       "collected_at": "2026-09-29T20:29:18.577344+00:00",
       "count": 60,
       "trust": "verified",
-      "age_hours": 3.5,
+      "age_hours": 3.7,
       "stale": false
     }
   },
@@ -5967,6 +5967,6 @@
   "agents_ops": {
     "risk": "medium",
     "task_count": 5,
-    "at": "2026-09-29T23:58:18.893000+00:00"
+    "at": "2026-09-30T00:13:09.940627+00:00"
   }
 }
