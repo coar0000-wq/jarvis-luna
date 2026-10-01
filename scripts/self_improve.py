@@ -22,11 +22,13 @@ from __future__ import annotations
 import argparse
 import collections
 import importlib.util
+import hashlib
 import json
 import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+from self_improve_support import consolidate_memory, file_revision, guarded_save, read_snapshot
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
@@ -37,6 +39,7 @@ DESIGN_POLICY = SI / "design_policy.json"
 STATUS = SI / "status.json"
 LEDGER = SI / "ledger.json"
 HISTORY = SI / "history.json"
+MEMORY = SI / "memory.json"
 LEDGER_MAX, HISTORY_MAX = 500, 120
 
 sys.path.insert(0, str(ROOT))
@@ -53,13 +56,8 @@ def load(path: Path, default):
         return default
 
 
-def save(path: Path, value, dry: bool) -> None:
-    if dry:
-        return
-    path.parent.mkdir(parents=True, exist_ok=True)
-    tmp = path.with_suffix(path.suffix + ".tmp")
-    tmp.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    tmp.replace(path)
+def save(path: Path, value, dry: bool, *, expected_revision: str | None = None) -> None:
+    guarded_save(path, value, dry, expected_revision=expected_revision)
 
 
 # ──────────────────────────────────────────────────────────────
@@ -95,23 +93,31 @@ def _graph_module():
 def topic_loop(dry: bool) -> dict:
     g = _graph_module()
     rows = g.load_records()
-    policy = load(TOPIC_POLICY, {"version": 0, "topics": {}})
+    policy, policy_revision = read_snapshot(TOPIC_POLICY, {"version": 0, "topics": {}})
     learned: dict[str, list[str]] = {k: list(v) for k, v in (policy.get("topics") or {}).items()}
 
     # 기준 분류(학습 키워드 없이)와 현재 분류(학습 키워드 포함)를 따로 잰다.
     # 학습 키워드의 정확도는 기준 분류로만 잰다. 스스로 붙인 주제로 자기를
     # 채점하면 틀려도 계속 맞다고 나온다.
-    g._LEARNED = []
-    base = [g.topic_names(r) for r in rows]
-    g._LEARNED = None
-    current = [g.topic_names(r) for r in rows]
+    base = [g.topic_names(r, learned_patterns=[]) for r in rows]
+    current_patterns = g.compile_topic_patterns(learned)
+    current = [g.topic_names(r, learned_patterns=current_patterns) for r in rows]
+    before_policy_hash = hashlib.sha256(json.dumps(learned, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
     blobs = [(r.get("title", "") + " " + r.get("text", "")).lower() for r in rows]
     words = [set(WORD_RE.findall(b)) for b in blobs]
     n = len(rows)
     unc_now = sum(1 for t in current if t == ["미분류"])
 
+    match_cache: dict[str, list[int]] = {}
+
+    def matching(word: str) -> list[int]:
+        if word not in match_cache:
+            pattern = g.compile_topic_patterns({"candidate": [word]})[0][1]
+            match_cache[word] = [i for i, blob in enumerate(blobs) if pattern.search(blob)]
+        return match_cache[word]
+
     def stats(word: str, topic: str):
-        classified = [i for i in range(n) if base[i] != ["미분류"] and word in words[i]]
+        classified = [i for i in matching(word) if base[i] != ["미분류"]]
         hit = sum(1 for i in classified if topic in base[i])
         return len(classified), (hit / len(classified) if classified else 0.0), len(classified) - hit
 
@@ -128,13 +134,17 @@ def topic_loop(dry: bool) -> dict:
             learned.pop(topic)
 
     known = {w for kws in learned.values() for w in kws}
-    unc_idx = [i for i in range(n) if current[i] == ["미분류"]]
+    # 롤백도 그림자 결과에 반영한다. 전역 캐시를 바꾸지 않고 같은 운영 함수를 쓴다.
+    shadow_patterns = g.compile_topic_patterns(learned)
+    shadow_labels = [g.topic_names(r, learned_patterns=shadow_patterns) for r in rows]
+    unc_idx = [i for i in range(n) if shadow_labels[i] == ["미분류"]]
     freq = collections.Counter(w for i in unc_idx for w in words[i])
     candidates = []
     for w, c in freq.most_common(400):
         if c < TOPIC_MIN_NEW or w in GENERIC or w in g.STOP or w in known:
             continue
-        cls = [i for i in range(n) if base[i] != ["미분류"] and w in words[i]]
+        matched = matching(w)
+        cls = [i for i in matched if base[i] != ["미분류"]]
         if len(cls) < TOPIC_MIN_SUPPORT:
             continue
         tc = collections.Counter(t for i in cls for t in base[i])
@@ -143,7 +153,7 @@ def topic_loop(dry: bool) -> dict:
         collateral = (len(cls) - hit) / len(cls)
         # 출처 궁합: 새로 분류될 노트가 주로 온 출처에서 이 주제가 실제로 나오는가.
         # (예: 미국 뷰티 상품에 LLM 주제를 붙이는 일을 막는다)
-        src = collections.Counter(rows[i].get("source") for i in unc_idx if w in words[i]).most_common(1)[0][0]
+        src = collections.Counter(rows[i].get("source") for i in matched if i in unc_idx).most_common(1)[0][0]
         src_rows = [i for i in range(n) if rows[i].get("source") == src and base[i] != ["미분류"]]
         fit = (sum(1 for i in src_rows if topic in base[i]) / len(src_rows)) if src_rows else 0.0
         if prec >= TOPIC_MIN_PRECISION and collateral <= TOPIC_MAX_COLLATERAL and fit >= TOPIC_MIN_SOURCE_FIT:
@@ -151,23 +161,27 @@ def topic_loop(dry: bool) -> dict:
                                "support": len(cls), "uncategorized_hits": c,
                                "source": src, "source_fit": round(fit, 3)})
 
-    covered: set[int] = set()
     adopted = []
     for cand in sorted(candidates, key=lambda x: (-x["uncategorized_hits"], -x["precision"])):
         if len(adopted) >= TOPIC_MAX_ADD:
             break
-        gain = [i for i in unc_idx if i not in covered and cand["keyword"] in words[i]]
+        trial = {topic: list(kws) for topic, kws in learned.items()}
+        trial.setdefault(cand["topic"], []).append(cand["keyword"])
+        patterns = g.compile_topic_patterns(trial)
+        # 키워드 개수로 추산하지 않는다. 후보 정책으로 실제 운영 분류기를 재실행한다.
+        trial_labels = [g.topic_names(r, learned_patterns=patterns) for r in rows]
+        gain = [i for i in range(n) if shadow_labels[i] == ["미분류"]
+                and cand["topic"] in trial_labels[i]]
         if len(gain) < TOPIC_MIN_NEW:
             continue
-        covered.update(gain)
+        learned, shadow_labels = trial, trial_labels
         cand["newly_classified"] = len(gain)
         adopted.append(cand)
+        decisions.append({"loop": "topics", "action": "adopt", **cand})
 
-    shadow_unc = unc_now - len(covered)
-    if adopted:
-        for c in adopted:
-            learned.setdefault(c["topic"], []).append(c["keyword"])
-            decisions.append({"loop": "topics", "action": "adopt", **c})
+    shadow_unc = sum(1 for labels in shadow_labels if labels == ["미분류"])
+    # 평가 해시와 실제로 저장할 키워드 목록을 동일한 정규형으로 맞춘다.
+    learned = {k: sorted(set(v)) for k, v in sorted(learned.items())}
     changed = bool(adopted) or any(d["action"] == "rollback" for d in decisions)
     if changed:
         save(TOPIC_POLICY, {
@@ -178,7 +192,7 @@ def topic_loop(dry: bool) -> dict:
                      f"같은 주제 비율 {TOPIC_MIN_PRECISION:.0%} 이상인 낱말만 채택. 정확도가 "
                      f"{TOPIC_ROLLBACK_PRECISION:.0%} 아래로 떨어지면 자동 해제."),
             "topics": {k: sorted(set(v)) for k, v in sorted(learned.items())},
-        }, dry)
+        }, dry, expected_revision=policy_revision)
     return {
         "metric": "uncategorized_rate",
         "records": n,
@@ -190,7 +204,16 @@ def topic_loop(dry: bool) -> dict:
         "adopted": len(adopted),
         "learned_keywords": sum(len(v) for v in learned.values()),
         "decisions": decisions,
-        "status": "adopted" if adopted else "no_change",
+        "evaluation": {
+            "mode": "production_classifier_replay",
+            "entrypoint": "expand_obsidian_graph.topic_names",
+            "classifier_sha256": hashlib.sha256(Path(g.__file__).read_bytes()).hexdigest(),
+            "input_sha256": hashlib.sha256(json.dumps(rows, sort_keys=True, ensure_ascii=False).encode()).hexdigest(),
+            "before_policy_sha256": before_policy_hash,
+            "after_policy_sha256": hashlib.sha256(json.dumps(learned, sort_keys=True, ensure_ascii=False).encode()).hexdigest(),
+            "evaluated_records": n,
+        },
+        "status": "adopted" if adopted else "rollback" if changed else "no_change",
     }
 
 
@@ -227,7 +250,7 @@ def sourcing_loop(dry: bool) -> dict:
     state = load(DATA / "daiso_real" / "crawl_state.json", {})
     status = (load(DATA / "daiso_real" / "collection_status.json", {}) or {}).get("last_run") or {}
     targets = _daiso_module().BUCKET_TARGETS
-    policy = load(SOURCING_POLICY, {})
+    policy, policy_revision = read_snapshot(SOURCING_POLICY, {})
     decisions = []
 
     items = [x for x in queue.get("items") or [] if isinstance(x, dict) and x.get("pdNo")]
@@ -298,7 +321,7 @@ def sourcing_loop(dry: bool) -> dict:
             policy["disabled_at"] = now()
             policy["disabled_reason"] = "채택 뒤 두 번 연속 기존보다 나아지지 않았다"
             decisions.append({"loop": "sourcing", "action": "rollback", "reason": policy["disabled_reason"]})
-        save(SOURCING_POLICY, policy, dry)
+        save(SOURCING_POLICY, policy, dry, expected_revision=policy_revision)
 
     if not policy.get("enabled") and not policy.get("disabled_at"):
         gain_ok = cand_e >= base_e * SOURCING_MIN_GAIN and cand_e >= base_e + 1
@@ -329,7 +352,7 @@ def sourcing_loop(dry: bool) -> dict:
                 "observations": [],
                 "rollback_rule": "적용된 실제 실행 2회 연속 기존 적중률 이하면 자동 해제",
             }
-            save(SOURCING_POLICY, policy, dry)
+            save(SOURCING_POLICY, policy, dry, expected_revision=policy_revision)
             decisions.append({"loop": "sourcing", "action": "adopt", **evidence})
     return {
         "metric": "useful_fetch_rate",
@@ -356,7 +379,7 @@ def design_loop(history: dict, dry: bool) -> dict:
     quality = refs.get("quality") or {}
     per_feed = quality.get("per_feed") or {}
     checklist = board.get("checklist") or {}
-    policy = load(DESIGN_POLICY, {"enabled": False, "feed_caps": {}})
+    policy, policy_revision = read_snapshot(DESIGN_POLICY, {"enabled": False, "feed_caps": {}})
     caps: dict[str, int] = dict(policy.get("feed_caps") or {})
     decisions = []
 
@@ -402,7 +425,7 @@ def design_loop(history: dict, dry: bool) -> dict:
             "rule": (f"피드 관련 비율이 {DESIGN_OBS}회 연속 {DESIGN_LOW:.0%} 미만이면 관련 높은 순으로 "
                      "상한을 둔다. 관련 글이 상한에 닿으면 자동 해제."),
             "feed_caps": caps,
-        }, dry)
+        }, dry, expected_revision=policy_revision)
     return {
         "metric": "reference_relevant_ratio",
         "before": quality.get("relevant_ratio"),
@@ -427,7 +450,10 @@ def main() -> int:
     args = ap.parse_args()
     dry = args.dry_run
 
-    history = load(HISTORY, {})
+    history, history_revision = read_snapshot(HISTORY, {})
+    ledger, ledger_revision = read_snapshot(LEDGER, [])
+    status_revision = file_revision(STATUS)
+    memory_revision = file_revision(MEMORY)
     loops = {}
     runners = {"topics": lambda: topic_loop(dry), "sourcing": lambda: sourcing_loop(dry),
                "design": lambda: design_loop(history, dry)}
@@ -444,22 +470,30 @@ def main() -> int:
     runs.append({"at": at, **{k: {"status": v.get("status"), "before": v.get("before")}
                                 for k, v in loops.items()}})
     del runs[:-HISTORY_MAX]
-    ledger = load(LEDGER, [])
     for v in loops.values():
         for d in v.get("decisions", []):
             ledger.append({"at": at, **d})
     del ledger[:-LEDGER_MAX]
 
+    memory = consolidate_memory(history, ledger, at)
     status = {
         "generated_at": at,
         "generator": "scripts/self_improve.py",
         "principle": "무료·설정만 변경·그림자 평가 후 채택·실측 악화 시 자동 롤백",
         "loops": loops,
         "decisions_total": len(ledger),
+        "memory": {
+            "mode": memory["mode"],
+            "unique_observations": memory["unique_observations"],
+            "recurring_patterns": len(memory["recurring_patterns"]),
+            "window_days": memory["window_days"],
+            "automatic_policy_changes": False,
+        },
     }
-    save(STATUS, status, dry)
-    save(LEDGER, ledger, dry)
-    save(HISTORY, history, dry)
+    save(STATUS, status, dry, expected_revision=status_revision)
+    save(LEDGER, ledger, dry, expected_revision=ledger_revision)
+    save(HISTORY, history, dry, expected_revision=history_revision)
+    save(MEMORY, memory, dry, expected_revision=memory_revision)
     print(json.dumps({k: {kk: vv for kk, vv in v.items() if kk != "decisions"} | {
         "decisions": [(d.get("action"), d.get("keyword") or d.get("feed") or d.get("reason", "")[:60])
                       for d in v.get("decisions", [])][:20]} for k, v in loops.items()},
