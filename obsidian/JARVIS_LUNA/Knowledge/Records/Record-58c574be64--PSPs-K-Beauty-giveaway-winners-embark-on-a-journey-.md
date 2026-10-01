@@ -2,7 +2,7 @@
 title: "Record 58c574be64 · PSPs-K-Beauty-giveaway-winners-embark-on-a-journey-into-the-world-of-K"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:33.411773+00:00
+updated_at: 2026-10-01T05:57:16.200071+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMipwFBVV95cUxQdldOLTQzMEFQZnpRNEhFdzNEbW5vMEx0NFFCNk1McWRETnk2bUV1REltd0hQakkzVDI1cjE4TzE0ekVacUtJNlA3V3B1YkxIT0pXS2QxQWxMbXpNc3Q4WnhrSHVycDNKX0RKS3gyczR2b3h5eWFzNEhuM3BJWm9xbU4zend1c0J6MXJtMnBBRWEwa1NJUDlYTGNvTWhJTjhUcGV1ckdkMA?oc=5)
 
-**제목:** PSP’s K-Beauty giveaway winners embark on a journey into the world of Korean beauty - oc-media.org
+**제목:** PSP’s K-Beauty giveaway winners embark on a journey into the world of Korean beauty - OC Media
 
-PSP’s K-Beauty giveaway winners embark on a journey into the world of Korean beauty - oc-media.org
+PSP’s K-Beauty giveaway winners embark on a journey into the world of Korean beauty - OC Media
 
 **출처:** Source · Google Search
 

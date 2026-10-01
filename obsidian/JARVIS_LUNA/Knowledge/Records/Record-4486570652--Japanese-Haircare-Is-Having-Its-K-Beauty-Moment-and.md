@@ -2,7 +2,7 @@
 title: "Record 4486570652 · Japanese-Haircare-Is-Having-Its-K-Beauty-Moment-and-Here-Is-Where-to-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:33.032029+00:00
+updated_at: 2026-10-01T05:57:15.831425+00:00
 tags: [record, real-data]
 ---
 
@@ -13,9 +13,10 @@ tags: [record, real-data]
 **제목:** Japanese Haircare Is Having Its K-Beauty Moment and Here Is Where to Shop It in the U.S. Right Now - miamiherald.com
 
 Japanese Haircare Is Having Its K-Beauty Moment and Here Is Where to Shop It in the U.S. Right Now - miamiherald.com
+Japanese Haircare Is Having Its K-Beauty Moment and Here Is Where to Shop It in the U.S. Right Now - miamiherald.com
 
-**출처:** Source · Google Search
+**출처:** Source · us_beauty
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

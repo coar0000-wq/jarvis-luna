@@ -2,7 +2,7 @@
 title: "Record 10b722f376 · Generation-Growth-The-Small-Business-Manifesto"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:34.393294+00:00
+updated_at: 2026-10-01T05:57:17.163198+00:00
 tags: [record, real-data]
 ---
 

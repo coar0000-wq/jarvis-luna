@@ -2,7 +2,7 @@
 title: "Record a540965772 · Continuous-Online-Fault-Detection-for-Mobile-Robots-via-Adaptive-Edge-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:32.653548+00:00
+updated_at: 2026-10-01T05:57:15.457957+00:00
 tags: [record, real-data]
 ---
 

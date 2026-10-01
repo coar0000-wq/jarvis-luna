@@ -2,7 +2,7 @@
 title: "Record 0bd96d4e1d · Power-Mean-Estimation-in-Stochastic-Continuous-Mont"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:31.674559+00:00
+updated_at: 2026-10-01T05:57:10.712869+00:00
 tags: [record, real-data]
 ---
 

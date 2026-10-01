@@ -2,7 +2,7 @@
 title: "Record 97b2619468 · manyo-Glutathione-7-Serum-Patch-30ct-253-oz72g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:33.789426+00:00
+updated_at: 2026-10-01T05:57:16.588947+00:00
 tags: [record, real-data]
 ---
 

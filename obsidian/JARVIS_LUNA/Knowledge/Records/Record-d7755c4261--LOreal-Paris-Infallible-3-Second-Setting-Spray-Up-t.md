@@ -2,7 +2,7 @@
 title: "Record d7755c4261 · LOreal-Paris-Infallible-3-Second-Setting-Spray-Up-to-36HR-Wear-176-oz-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:34.207212+00:00
+updated_at: 2026-10-01T05:57:16.967466+00:00
 tags: [record, real-data]
 ---
 

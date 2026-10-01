@@ -2,7 +2,7 @@
 title: "Record 8a255dc60b · 약산성-VS-알칼리성-VS-중성-클렌징폼-대체-뭐-쓸까"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:34.741463+00:00
+updated_at: 2026-10-01T05:57:17.499660+00:00
 tags: [record, real-data]
 ---
 

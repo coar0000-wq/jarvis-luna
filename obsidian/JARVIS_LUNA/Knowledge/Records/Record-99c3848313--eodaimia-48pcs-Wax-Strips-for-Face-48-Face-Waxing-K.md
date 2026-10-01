@@ -2,7 +2,7 @@
 title: "Record 99c3848313 · eodaimia-48pcs-Wax-Strips-for-Face-48-Face-Waxing-Kit-for-WomenPack-of"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:34.267896+00:00
+updated_at: 2026-10-01T05:57:17.027792+00:00
 tags: [record, real-data]
 ---
 

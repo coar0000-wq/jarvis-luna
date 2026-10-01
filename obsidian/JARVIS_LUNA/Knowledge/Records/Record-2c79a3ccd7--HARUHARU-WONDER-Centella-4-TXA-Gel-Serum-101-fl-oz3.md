@@ -2,7 +2,7 @@
 title: "Record 2c79a3ccd7 · HARUHARU-WONDER-Centella-4-TXA-Gel-Serum-101-fl-oz30ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:33.811876+00:00
+updated_at: 2026-10-01T05:57:16.610595+00:00
 tags: [record, real-data]
 ---
 

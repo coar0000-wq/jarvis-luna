@@ -2,7 +2,7 @@
 title: "Record bf5556cce8 · THE-BENEFIT-OF-SOLVING-BLINDFOLDED-TACTICS-IN-YOUNG-AND-ADULT-PLAYERS"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:32.336126+00:00
+updated_at: 2026-10-01T05:57:15.076103+00:00
 tags: [record, real-data]
 ---
 

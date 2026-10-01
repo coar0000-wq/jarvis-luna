@@ -2,7 +2,7 @@
 title: "Record 3824c7493b · NIVEA-Men-sensitive-douchegel-3-in-1"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:33.857520+00:00
+updated_at: 2026-10-01T05:57:16.652354+00:00
 tags: [record, real-data]
 ---
 

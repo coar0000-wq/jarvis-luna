@@ -2,7 +2,7 @@
 title: "Record 712c7638ed · REJURAN-COSMETICS-Brings-K-Beauty-to-LAFC-Korean-Heritage-Night-as-Pro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:33.395008+00:00
+updated_at: 2026-10-01T05:57:16.184565+00:00
 tags: [record, real-data]
 ---
 

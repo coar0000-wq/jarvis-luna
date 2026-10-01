@@ -2,7 +2,7 @@
 title: "Record fb5d85577a · Charts-Are-Beyond-Pixels-Probing-for-Layer-Wise-Chart-Understanding-an"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:32.475895+00:00
+updated_at: 2026-10-01T05:57:15.298070+00:00
 tags: [record, real-data]
 ---
 

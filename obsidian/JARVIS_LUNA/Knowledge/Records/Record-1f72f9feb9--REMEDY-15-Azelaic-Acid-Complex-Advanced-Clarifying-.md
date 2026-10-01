@@ -2,7 +2,7 @@
 title: "Record 1f72f9feb9 · REMEDY-15-Azelaic-Acid-Complex-Advanced-Clarifying-Serum--Redness-Dark"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:34.216047+00:00
+updated_at: 2026-10-01T05:57:16.975696+00:00
 tags: [record, real-data]
 ---
 

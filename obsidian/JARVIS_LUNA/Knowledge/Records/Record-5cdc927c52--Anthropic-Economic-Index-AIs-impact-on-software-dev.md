@@ -2,7 +2,7 @@
 title: "Record 5cdc927c52 · Anthropic-Economic-Index-AIs-impact-on-software-dev"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:34.337873+00:00
+updated_at: 2026-10-01T05:57:17.095511+00:00
 tags: [record, real-data]
 ---
 

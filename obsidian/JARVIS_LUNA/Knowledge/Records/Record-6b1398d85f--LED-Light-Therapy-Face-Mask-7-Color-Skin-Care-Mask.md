@@ -2,7 +2,7 @@
 title: "Record 6b1398d85f · LED-Light-Therapy-Face-Mask-7-Color-Skin-Care-Mask"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:34.628620+00:00
+updated_at: 2026-10-01T05:57:17.393830+00:00
 tags: [record, real-data]
 ---
 

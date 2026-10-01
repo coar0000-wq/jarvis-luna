@@ -2,7 +2,7 @@
 title: "Record e59ee44418 · How-Databricks-rolls-out-frontier-models-to-12000-employees-on-Day-1"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:34.376998+00:00
+updated_at: 2026-10-01T05:57:17.135533+00:00
 tags: [record, real-data]
 ---
 

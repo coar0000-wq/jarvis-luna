@@ -2,7 +2,7 @@
 title: "Record 316dda0c6c · Global-Multi-Maturity-SPX-VIX-Calibration-Beyond-Markovian-Stitching"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:32.474334+00:00
+updated_at: 2026-10-01T05:57:15.296377+00:00
 tags: [record, real-data]
 ---
 

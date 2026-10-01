@@ -2,7 +2,7 @@
 title: "Record 0d26f024d6 · Single-Minus-Graviton-Amplitudes-from-Matrix-Theory"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:32.467189+00:00
+updated_at: 2026-10-01T05:57:15.289468+00:00
 tags: [record, real-data]
 ---
 

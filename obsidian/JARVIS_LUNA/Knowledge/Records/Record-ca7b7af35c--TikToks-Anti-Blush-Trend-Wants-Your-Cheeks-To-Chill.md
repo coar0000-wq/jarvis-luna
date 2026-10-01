@@ -2,7 +2,7 @@
 title: "Record ca7b7af35c · TikToks-Anti-Blush-Trend-Wants-Your-Cheeks-To-Chill-Out---Bustle"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:33.016025+00:00
+updated_at: 2026-10-01T05:57:15.816545+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiY0FVX3lxTFBNSHZuRTZNLTZpaVpUbW5QS0x3dWFoSnc4NWZZbkg1MlR3dWhIZW9vMmF3ZTE5Z3FLbTY0emh0OUJvdmt5MndDUlloekxMOHJDdTFHQmo3anh6OUNYZWg4aEx1bw?oc=5)
 
-**제목:** TikTok’s “Anti-Blush” Trend Wants Your Cheeks To Chill Out - bustle.com
+**제목:** TikTok’s “Anti-Blush” Trend Wants Your Cheeks To Chill Out - Bustle
 
-TikTok’s “Anti-Blush” Trend Wants Your Cheeks To Chill Out - bustle.com
+TikTok’s “Anti-Blush” Trend Wants Your Cheeks To Chill Out - Bustle
 
 **출처:** Source · Google Search
 

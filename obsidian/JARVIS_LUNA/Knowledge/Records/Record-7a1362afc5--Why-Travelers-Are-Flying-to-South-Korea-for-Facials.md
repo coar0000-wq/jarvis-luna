@@ -2,7 +2,7 @@
 title: "Record 7a1362afc5 · Why-Travelers-Are-Flying-to-South-Korea-for-Facials"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:33.168898+00:00
+updated_at: 2026-10-01T05:57:15.958053+00:00
 tags: [record, real-data]
 ---
 

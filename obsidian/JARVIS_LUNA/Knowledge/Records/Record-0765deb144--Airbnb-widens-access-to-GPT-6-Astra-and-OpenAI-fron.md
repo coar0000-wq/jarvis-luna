@@ -2,7 +2,7 @@
 title: "Record 0765deb144 · Airbnb-widens-access-to-GPT-6-Astra-and-OpenAI-frontier-models"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:33.554902+00:00
+updated_at: 2026-10-01T05:57:16.362805+00:00
 tags: [record, real-data]
 ---
 

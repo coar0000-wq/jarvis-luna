@@ -2,7 +2,7 @@
 title: "Record ecf4d32a34 · Modern-Enterprise-Data-Platforms-Architectural-Patterns-and-Operationa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:32.348278+00:00
+updated_at: 2026-10-01T05:57:15.090280+00:00
 tags: [record, real-data]
 ---
 

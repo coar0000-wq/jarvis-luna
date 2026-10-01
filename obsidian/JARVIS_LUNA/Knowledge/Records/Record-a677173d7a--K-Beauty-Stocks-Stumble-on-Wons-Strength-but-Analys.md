@@ -2,7 +2,7 @@
 title: "Record a677173d7a · K-Beauty-Stocks-Stumble-on-Wons-Strength-but-Analysts-See-the-Pullback"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:33.144587+00:00
+updated_at: 2026-10-01T05:57:15.936277+00:00
 tags: [record, real-data]
 ---
 

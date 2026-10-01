@@ -2,7 +2,7 @@
 title: "Record 06477fbad1 · Kojic-Acid-Turmeric-Vita-Eye-Gel-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:34.627000+00:00
+updated_at: 2026-10-01T05:57:17.392141+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record ca40851e29 · Expert-Rides-3D-Activateur-Hyaluronique-Crème-Anti-rides-Nuit"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:33.840745+00:00
+updated_at: 2026-10-01T05:57:16.638084+00:00
 tags: [record, real-data]
 ---
 

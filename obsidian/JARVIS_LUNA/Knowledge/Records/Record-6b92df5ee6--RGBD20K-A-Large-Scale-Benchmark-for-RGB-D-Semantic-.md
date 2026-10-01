@@ -2,7 +2,7 @@
 title: "Record 6b92df5ee6 · RGBD20K-A-Large-Scale-Benchmark-for-RGB-D-Semantic-Segmentation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:32.649703+00:00
+updated_at: 2026-10-01T05:57:15.454170+00:00
 tags: [record, real-data]
 ---
 

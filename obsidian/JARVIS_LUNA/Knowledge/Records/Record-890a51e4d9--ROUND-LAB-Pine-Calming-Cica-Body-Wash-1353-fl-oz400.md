@@ -2,7 +2,7 @@
 title: "Record 890a51e4d9 · ROUND-LAB-Pine-Calming-Cica-Body-Wash-1353-fl-oz400ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:33.727907+00:00
+updated_at: 2026-10-01T05:57:16.536045+00:00
 tags: [record, real-data]
 ---
 

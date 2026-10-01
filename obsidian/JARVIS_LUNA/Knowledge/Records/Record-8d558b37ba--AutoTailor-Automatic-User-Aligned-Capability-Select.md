@@ -2,7 +2,7 @@
 title: "Record 8d558b37ba · AutoTailor-Automatic-User-Aligned-Capability-Selection-and-Adaptation-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:33.664849+00:00
+updated_at: 2026-10-01T05:57:16.470074+00:00
 tags: [record, real-data]
 ---
 

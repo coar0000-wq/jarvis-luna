@@ -2,7 +2,7 @@
 title: "Record 057a756591 · AI-based-detection-of-worsening-heart-failure-from-low-resolution-tele"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:32.661231+00:00
+updated_at: 2026-10-01T05:57:15.465056+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record ae775b067a · K-Beauty-Brand-Hanhoo-Expands-National-Retail-Footprint---PR-Newswire"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:33.438809+00:00
+updated_at: 2026-10-01T05:57:16.228686+00:00
 tags: [record, real-data]
 ---
 
@@ -13,10 +13,9 @@ tags: [record, real-data]
 **제목:** K-Beauty Brand Hanhoo Expands National Retail Footprint - PR Newswire
 
 K-Beauty Brand Hanhoo Expands National Retail Footprint - PR Newswire
-K-Beauty Brand Hanhoo Expands National Retail Footprint - PR Newswire
 
-**출처:** Source · us_beauty
+**출처:** Source · Google Search
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

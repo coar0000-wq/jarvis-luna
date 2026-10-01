@@ -2,7 +2,7 @@
 title: "Record f58f56bd01 · Tunable-all-PM-ring-cavity-multi-Watt-Tm-doped-fiber-laser-module-for-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:32.067201+00:00
+updated_at: 2026-10-01T05:57:14.727106+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record c6be9fba83 · 8-Trending-K-Beauty-Products-To-Buy-When-Youre-In-K"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:33.325842+00:00
+updated_at: 2026-10-01T05:57:16.109492+00:00
 tags: [record, real-data]
 ---
 

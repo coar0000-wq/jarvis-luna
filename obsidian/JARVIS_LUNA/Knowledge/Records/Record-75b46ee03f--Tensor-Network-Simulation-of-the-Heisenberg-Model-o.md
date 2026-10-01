@@ -2,7 +2,7 @@
 title: "Record 75b46ee03f · Tensor-Network-Simulation-of-the-Heisenberg-Model-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:33.652057+00:00
+updated_at: 2026-10-01T05:57:16.457255+00:00
 tags: [record, real-data]
 ---
 

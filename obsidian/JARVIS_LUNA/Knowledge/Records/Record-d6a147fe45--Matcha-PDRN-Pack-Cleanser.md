@@ -2,7 +2,7 @@
 title: "Record d6a147fe45 · Matcha-PDRN-Pack-Cleanser"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:34.632249+00:00
+updated_at: 2026-10-01T05:57:17.397867+00:00
 tags: [record, real-data]
 ---
 

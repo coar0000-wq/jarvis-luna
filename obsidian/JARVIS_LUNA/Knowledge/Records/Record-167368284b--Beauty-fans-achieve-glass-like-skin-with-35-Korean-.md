@@ -2,7 +2,7 @@
 title: "Record 167368284b · Beauty-fans-achieve-glass-like-skin-with-35-Korean-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:33.302809+00:00
+updated_at: 2026-10-01T05:57:16.086199+00:00
 tags: [record, real-data]
 ---
 

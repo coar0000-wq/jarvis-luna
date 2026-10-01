@@ -2,7 +2,7 @@
 title: "Record 2e591812dc · PDRN-Pink-Collagen-Volume-Multi-Balm-Volufiline-Stick-2PCSCollagen-Plu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:34.011529+00:00
+updated_at: 2026-10-01T05:57:16.792631+00:00
 tags: [record, real-data]
 ---
 

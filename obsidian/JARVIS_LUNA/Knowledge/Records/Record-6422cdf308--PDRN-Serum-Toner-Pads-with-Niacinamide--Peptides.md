@@ -2,7 +2,7 @@
 title: "Record 6422cdf308 · PDRN-Serum-Toner-Pads-with-Niacinamide--Peptides"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:34.638097+00:00
+updated_at: 2026-10-01T05:57:17.403710+00:00
 tags: [record, real-data]
 ---
 

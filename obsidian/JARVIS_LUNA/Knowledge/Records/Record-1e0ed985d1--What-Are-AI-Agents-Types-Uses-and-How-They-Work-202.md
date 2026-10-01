@@ -2,7 +2,7 @@
 title: "Record 1e0ed985d1 · What-Are-AI-Agents-Types-Uses-and-How-They-Work-202"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:32.954549+00:00
+updated_at: 2026-10-01T05:57:15.756670+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiU0FVX3lxTFBEWDV1aHlpdVJHRTlwOXl1MVpqemFOakdsRTRmajJScGpRVkN3TDhXMG1kWWN0dUtSUmFueUc0VE1vS0tsODBMRkVVS1paQ0pBdHZB?oc=5)
 
-**제목:** What Are AI Agents? Types, Uses, and How They Work (2026) - Shopify
+**제목:** What Are AI Agents? Types, Uses, and How They Work - Shopify
 
-What Are AI Agents? Types, Uses, and How They Work (2026) - Shopify
+What Are AI Agents? Types, Uses, and How They Work - Shopify
 
 **출처:** Source · Google Search
 

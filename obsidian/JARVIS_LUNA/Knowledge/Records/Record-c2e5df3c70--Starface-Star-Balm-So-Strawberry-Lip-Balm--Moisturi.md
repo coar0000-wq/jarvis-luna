@@ -2,7 +2,7 @@
 title: "Record c2e5df3c70 · Starface-Star-Balm-So-Strawberry-Lip-Balm--Moisturizer-015-oz-1-Pack--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:34.244573+00:00
+updated_at: 2026-10-01T05:57:17.005113+00:00
 tags: [record, real-data]
 ---
 

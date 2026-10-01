@@ -2,7 +2,7 @@
 title: "Record 6540d31427 · Consumer-Reports-puts-K-Beauty-sunscreens-to-the-te"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:33.285192+00:00
+updated_at: 2026-10-01T05:57:16.075036+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 5a33eeddff · AST-Completes-Singapores-First-High-End-FC-BGA-Substrate-Facility-to-M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:32.877587+00:00
+updated_at: 2026-10-01T05:57:15.679965+00:00
 tags: [record, real-data]
 ---
 

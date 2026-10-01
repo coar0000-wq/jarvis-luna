@@ -2,7 +2,7 @@
 title: "Record 7b7d8b867d · Attributable-by-Construction-Claim-Anchored-Provenance-for-Multi-Docum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:32.442688+00:00
+updated_at: 2026-10-01T05:57:15.262723+00:00
 tags: [record, real-data]
 ---
 

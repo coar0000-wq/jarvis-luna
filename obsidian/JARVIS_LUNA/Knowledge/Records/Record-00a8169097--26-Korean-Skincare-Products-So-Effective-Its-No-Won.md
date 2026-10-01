@@ -2,7 +2,7 @@
 title: "Record 00a8169097 · 26-Korean-Skincare-Products-So-Effective-Its-No-Won"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:33.336712+00:00
+updated_at: 2026-10-01T05:57:16.120727+00:00
 tags: [record, real-data]
 ---
 

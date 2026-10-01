@@ -2,7 +2,7 @@
 title: "Record e46b9ff42e · BamiBERT-A-New-BERT-based-Language-Model-for-Vietnamese"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:32.446473+00:00
+updated_at: 2026-10-01T05:57:15.266485+00:00
 tags: [record, real-data]
 ---
 

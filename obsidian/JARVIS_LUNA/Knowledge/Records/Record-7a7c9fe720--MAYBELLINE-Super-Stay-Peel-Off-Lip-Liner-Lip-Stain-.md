@@ -2,7 +2,7 @@
 title: "Record 7a7c9fe720 · MAYBELLINE-Super-Stay-Peel-Off-Lip-Liner-Lip-Stain-Up-to-24H-Tattoo-Li"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:34.074100+00:00
+updated_at: 2026-10-01T05:57:16.846189+00:00
 tags: [record, real-data]
 ---
 

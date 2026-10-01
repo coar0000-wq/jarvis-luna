@@ -2,7 +2,7 @@
 title: "Record 4eb7aefb24 · Sébium-gel-mousse"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:33.847616+00:00
+updated_at: 2026-10-01T05:57:16.642983+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record f82f03452a · HBQ-Hierarchical-Scaling-Block-Quantization-with-Hardware-Efficiency-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T01:19:32.471848+00:00
+updated_at: 2026-10-01T05:57:15.293779+00:00
 tags: [record, real-data]
 ---
 
