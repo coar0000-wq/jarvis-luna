@@ -2,7 +2,7 @@
   "source": "sokoglam.com 컬렉션 공개 상품 JSON (실수집)",
   "generator": "scripts/collect_sokoglam.py",
   "robots_note": "User-agent: * Allow: / · /cart /checkout 만 차단 (2026-09-28 확인)",
-  "collected_at": "2026-09-30T20:42:10.504548+00:00",
+  "collected_at": "2026-10-01T00:11:15.727882+00:00",
   "is_stale": false,
   "count": 242,
   "by_collection": {
@@ -811,29 +811,6 @@
         "dryness",
         "dryness/hydration",
         "exclusive"
-      ]
-    },
-    {
-      "rank": 36,
-      "name": "Perfect Cover BB Cream SPF 42 PA+++",
-      "brand": "MISSHA",
-      "price_usd": 11.0,
-      "category": "BB/CC Cream",
-      "collection": "Best Sellers",
-      "url": "https://sokoglam.com/products/missha-perfect-cover-bb-cream-spf-42-pa-1",
-      "tags": [
-        "$20-$30",
-        "Anti-Aging/Wrinkles",
-        "BB Cream",
-        "Best Deals",
-        "BlackFriday2018",
-        "C SKU",
-        "combination",
-        "dry",
-        "dryness/",
-        "face makeup - BB Cream",
-        "Free_Of::Artificial_Fragrances",
-        "Free_Of::Essential_Oil"
       ]
     },
     {
@@ -1924,6 +1901,29 @@
       "tags": [
         "chemical sunscreen",
         "Product_Type::Sun protection"
+      ]
+    },
+    {
+      "rank": 86,
+      "name": "Vitamin C Expert 25% Antioxidant Toning Serum",
+      "brand": "IOPE",
+      "price_usd": 49.0,
+      "category": "Serum/Ampoule",
+      "collection": "Best Sellers",
+      "url": "https://sokoglam.com/products/iope-gluta-vitamin-c-brightening-serum",
+      "tags": [
+        "badge-exclusive",
+        "badge-vegan",
+        "combo_pigmentation",
+        "dry_pigmentation",
+        "exclusive",
+        "Free_Of::Alcohol_Products",
+        "Free_Of::Artificial_Colors",
+        "Free_Of::Mineral_Oil",
+        "Free_of::Parabens",
+        "Free_Of::Sulphates",
+        "hyperpigmentation",
+        "IOPE"
       ]
     },
     {
