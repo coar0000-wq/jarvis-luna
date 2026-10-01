@@ -2,7 +2,7 @@
 title: "Record 1d8d0cff9d · Fermented-Food-Trend-Opportunity-Rachel-Fletcher-Arushi-Agarwal"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:18.195302+00:00
+updated_at: 2026-10-01T22:37:40.298838+00:00
 tags: [record, real-data]
 ---
 

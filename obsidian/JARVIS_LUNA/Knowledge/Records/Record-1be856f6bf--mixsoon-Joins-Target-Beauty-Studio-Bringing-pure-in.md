@@ -2,7 +2,7 @@
 title: "Record 1be856f6bf · mixsoon-Joins-Target-Beauty-Studio-Bringing-pure-in"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:16.695697+00:00
+updated_at: 2026-10-01T22:37:39.075686+00:00
 tags: [record, real-data]
 ---
 

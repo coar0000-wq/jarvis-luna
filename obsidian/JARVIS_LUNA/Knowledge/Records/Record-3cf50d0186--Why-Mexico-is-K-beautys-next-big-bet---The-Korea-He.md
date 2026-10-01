@@ -2,7 +2,7 @@
 title: "Record 3cf50d0186 · Why-Mexico-is-K-beautys-next-big-bet---The-Korea-Herald"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:16.712947+00:00
+updated_at: 2026-10-01T22:37:39.089773+00:00
 tags: [record, real-data]
 ---
 

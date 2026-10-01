@@ -2,7 +2,7 @@
 title: "Record 074ad8bf21 · A-massive-K-beauty-pop-up-is-taking-over-Hudson-Yards-this-week-with-3"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:16.678720+00:00
+updated_at: 2026-10-01T22:37:39.061126+00:00
 tags: [record, real-data]
 ---
 
@@ -13,9 +13,10 @@ tags: [record, real-data]
 **제목:** A massive K-beauty pop-up is coming to Hudson Yards - Time Out Worldwide
 
 A massive K-beauty pop-up is coming to Hudson Yards - Time Out Worldwide
+A massive K-beauty pop-up is coming to Hudson Yards - Time Out Worldwide
 
-**출처:** Source · Google Search
+**출처:** Source · us_beauty
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

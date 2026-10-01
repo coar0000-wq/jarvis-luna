@@ -2,7 +2,7 @@
 title: "Record d997fa1419 · Neutrogena-Makeup-Remover-Micellar-Wipes-2-Pack-of-25-Ct--Plant-Based-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:17.819459+00:00
+updated_at: 2026-10-01T22:37:39.992325+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record edad81f644 · Spatial-LLM-Workload-Shifting-Needs-Foresight-Model"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:15.473843+00:00
+updated_at: 2026-10-01T22:37:38.028354+00:00
 tags: [record, real-data]
 ---
 

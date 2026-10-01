@@ -2,7 +2,7 @@
 title: "Record 2414593ad5 · Gecko-Robotics-Scaled-Banking-For-A-Critical-Industries-Startup"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:18.111066+00:00
+updated_at: 2026-10-01T22:37:40.229418+00:00
 tags: [record, real-data]
 ---
 

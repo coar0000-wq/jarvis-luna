@@ -2,7 +2,7 @@
 title: "Record ac5c5660b8 · Gradient-Free-Filter-Importance-for-Structured-Pruning-of-Compact-EEG-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:16.125194+00:00
+updated_at: 2026-10-01T22:37:38.581387+00:00
 tags: [record, real-data]
 ---
 

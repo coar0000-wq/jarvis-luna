@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-10-01T16:56:14.028609+00:00",
+  "collected_at": "2026-10-01T22:21:36.182058+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -44,24 +44,28 @@
   ],
   "hot_keywords": [
     {
-      "keyword": "korean",
+      "keyword": "skincare",
       "score": 6
     },
     {
-      "keyword": "skincare",
-      "score": 6
+      "keyword": "2026",
+      "score": 4
     },
     {
       "keyword": "skin",
       "score": 4
     },
     {
-      "keyword": "2026",
-      "score": 3
+      "keyword": "korean",
+      "score": 4
     },
     {
-      "keyword": "product",
-      "score": 3
+      "keyword": "sunscreen",
+      "score": 4
+    },
+    {
+      "keyword": "k-beauty",
+      "score": 4
     },
     {
       "keyword": "new",
@@ -76,35 +80,35 @@
       "score": 2
     },
     {
-      "keyword": "lip",
+      "keyword": "product",
       "score": 2
     },
     {
-      "keyword": "mask",
+      "keyword": "thursday",
+      "score": 2
+    },
+    {
+      "keyword": "october",
+      "score": 2
+    },
+    {
+      "keyword": "sunscreens",
+      "score": 2
+    },
+    {
+      "keyword": "yesstyle",
+      "score": 2
+    },
+    {
+      "keyword": "anything",
+      "score": 2
+    },
+    {
+      "keyword": "goes",
       "score": 2
     },
     {
       "keyword": "apply",
-      "score": 2
-    },
-    {
-      "keyword": "sunscreen",
-      "score": 2
-    },
-    {
-      "keyword": "tint",
-      "score": 2
-    },
-    {
-      "keyword": "like",
-      "score": 2
-    },
-    {
-      "keyword": "moisturizer",
-      "score": 2
-    },
-    {
-      "keyword": "favorite",
       "score": 2
     },
     {
@@ -132,11 +136,11 @@
       "score": 1
     },
     {
-      "keyword": "thursday",
+      "keyword": "review",
       "score": 1
     },
     {
-      "keyword": "october",
+      "keyword": "oily",
       "score": 1
     },
     {
@@ -145,6 +149,18 @@
     },
     {
       "keyword": "sha",
+      "score": 1
+    },
+    {
+      "keyword": "ordering",
+      "score": 1
+    },
+    {
+      "keyword": "japanese",
+      "score": 1
+    },
+    {
+      "keyword": "amazon",
       "score": 1
     },
     {
@@ -168,47 +184,27 @@
       "score": 1
     },
     {
+      "keyword": "unleshia",
+      "score": 1
+    },
+    {
+      "keyword": "romand",
+      "score": 1
+    },
+    {
+      "keyword": "highlight",
+      "score": 1
+    },
+    {
+      "keyword": "palletes",
+      "score": 1
+    },
+    {
       "keyword": "mont",
-      "score": 1
-    },
-    {
-      "keyword": "muzui",
-      "score": 1
-    },
-    {
-      "keyword": "duo",
-      "score": 1
-    },
-    {
-      "keyword": "treatment",
-      "score": 1
-    },
-    {
-      "keyword": "best",
-      "score": 1
-    },
-    {
-      "keyword": "place",
-      "score": 1
-    },
-    {
-      "keyword": "japan",
-      "score": 1
-    },
-    {
-      "keyword": "consult",
-      "score": 1
-    },
-    {
-      "keyword": "finally",
       "score": 1
     }
   ],
   "beauty_keywords": [
-    {
-      "keyword": "korean",
-      "score": 6
-    },
     {
       "keyword": "skincare",
       "score": 6
@@ -218,15 +214,19 @@
       "score": 4
     },
     {
-      "keyword": "mask",
-      "score": 2
+      "keyword": "korean",
+      "score": 4
     },
     {
       "keyword": "sunscreen",
-      "score": 2
+      "score": 4
     },
     {
-      "keyword": "moisturizer",
+      "keyword": "k-beauty",
+      "score": 4
+    },
+    {
+      "keyword": "sunscreens",
       "score": 2
     }
   ],
@@ -246,9 +246,23 @@
       "feed": "hot"
     },
     {
+      "title": "Review for sunscreens on oily skin",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wv9xlj/review_for_sunscreens_on_oily_skin/",
+      "published": "2026-10-01T20:10:37+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Korean gua sha skincare",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wuy8op/korean_gua_sha_skincare/",
       "published": "2026-10-01T12:33:35+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Ordering from Japanese Amazon?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wv8et1/ordering_from_japanese_amazon/",
+      "published": "2026-10-01T19:12:38+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -260,6 +274,13 @@
       "feed": "hot"
     },
     {
+      "title": "Unleshia Vs Romand Highlight Palletes",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wv9pk1/unleshia_vs_romand_highlight_palletes/",
+      "published": "2026-10-01T20:01:52+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Mont Muzui Duo Treatment",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wv4ad7/mont_muzui_duo_treatment/",
       "published": "2026-10-01T16:37:46+00:00",
@@ -267,16 +288,44 @@
       "feed": "hot"
     },
     {
-      "title": "Best place to go in Japan for skincare consult?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wup94r/best_place_to_go_in_japan_for_skincare_consult/",
-      "published": "2026-10-01T03:42:26+00:00",
+      "title": "Yesstyle changing total after purchase",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wv0f52/yesstyle_changing_total_after_purchase/",
+      "published": "2026-10-01T14:08:57+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Finally found a lip mask I actually reach for every day",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtrev9/finally_found_a_lip_mask_i_actually_reach_for/",
-      "published": "2026-09-30T00:56:45+00:00",
+      "title": "Decanting sunscreen?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wvbafb/decanting_sunscreen/",
+      "published": "2026-10-01T21:05:19+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "K-beauty or J-beauty eyeshadow palette recommendations for Spring season tones?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wv51nw/kbeauty_or_jbeauty_eyeshadow_palette/",
+      "published": "2026-10-01T17:06:19+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Anything Goes Thursday: October 01, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wvan1l/anything_goes_thursday_october_01_2026/",
+      "published": "2026-10-01T20:39:07+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "too cool for school no longer on yesstyle?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wv5bky/too_cool_for_school_no_longer_on_yesstyle/",
+      "published": "2026-10-01T17:16:43+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Best place to go in Japan for skincare consult?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wup94r/best_place_to_go_in_japan_for_skincare_consult/",
+      "published": "2026-10-01T03:42:26+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -291,6 +340,13 @@
       "title": "Testing new products. How long you apply the product before adding a new one? and how many new products you apply at the same time? I need tips ...",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wuj7t8/testing_new_products_how_long_you_apply_the/",
       "published": "2026-09-30T22:47:29+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "k-beauty websites that offer Refrigerated shipping?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wv30zt/kbeauty_websites_that_offer_refrigerated_shipping/",
+      "published": "2026-10-01T15:50:22+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -337,20 +393,6 @@
       "feed": "hot"
     },
     {
-      "title": "How do korean women look like this? Is this edited?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wusrdi/how_do_korean_women_look_like_this_is_this_edited/",
-      "published": "2026-10-01T07:06:54+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "A moisturizer I’ve been enjoying lately.",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wuqa3k/a_moisturizer_ive_been_enjoying_lately/",
-      "published": "2026-10-01T04:38:20+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
       "title": "Experience With Stylevanna Refund For Non-Deliverd Order",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtxqpy/experience_with_stylevanna_refund_for_nondeliverd/",
       "published": "2026-09-30T06:35:18+00:00",
@@ -361,48 +403,6 @@
       "title": "Beige blush / \"anti-blush\" comparison",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtbcwj/beige_blush_antiblush_comparison/",
       "published": "2026-09-29T14:17:59+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "What’s your favorite mugwort product?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtqbf3/whats_your_favorite_mugwort_product/",
-      "published": "2026-09-30T00:04:54+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Recommendations for soft/muted autumn lipstick",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtw53s/recommendations_for_softmuted_autumn_lipstick/",
-      "published": "2026-09-30T04:57:55+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Please drop your favorite hand creams!! and why you love it thank you",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtg5vj/please_drop_your_favorite_hand_creams_and_why_you/",
-      "published": "2026-09-29T17:19:45+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "My recent makeup looks with Cheeryep's Ambition palette",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wt8w39/my_recent_makeup_looks_with_cheeryeps_ambition/",
-      "published": "2026-09-29T12:33:17+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Dupe for Rom&nd Juicy Lasting Tint in Tanny Guava?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtofrq/dupe_for_romnd_juicy_lasting_tint_in_tanny_guava/",
-      "published": "2026-09-29T22:40:13+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "April Skin Lip Stain",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtpa21/april_skin_lip_stain/",
-      "published": "2026-09-29T23:18:04+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

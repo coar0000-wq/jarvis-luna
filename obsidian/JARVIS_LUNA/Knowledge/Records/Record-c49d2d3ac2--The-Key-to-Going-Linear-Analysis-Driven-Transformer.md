@@ -2,7 +2,7 @@
 title: "Record c49d2d3ac2 · The-Key-to-Going-Linear-Analysis-Driven-Transformer-Linearization"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:16.199277+00:00
+updated_at: 2026-10-01T22:37:38.637929+00:00
 tags: [record, real-data]
 ---
 

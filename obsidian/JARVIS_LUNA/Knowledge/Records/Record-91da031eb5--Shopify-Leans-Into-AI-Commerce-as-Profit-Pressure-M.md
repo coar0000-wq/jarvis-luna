@@ -2,7 +2,7 @@
 title: "Record 91da031eb5 · Shopify-Leans-Into-AI-Commerce-as-Profit-Pressure-M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:17.107959+00:00
+updated_at: 2026-10-01T22:37:39.396098+00:00
 tags: [record, real-data]
 ---
 

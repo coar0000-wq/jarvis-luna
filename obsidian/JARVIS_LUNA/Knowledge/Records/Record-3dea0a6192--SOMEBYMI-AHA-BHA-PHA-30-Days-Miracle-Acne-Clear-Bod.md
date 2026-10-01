@@ -2,7 +2,7 @@
 title: "Record 3dea0a6192 · SOMEBYMI-AHA-BHA-PHA-30-Days-Miracle-Acne-Clear-Body-Cleanser-1410-oz4"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:17.539327+00:00
+updated_at: 2026-10-01T22:37:39.754781+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** SOMEBYMI AHA-BHA-PHA 30 Days Miracle Acne Clear Body Cleanser 14.10 oz.(400g)
 
 SOMEBYMI AHA-BHA-PHA 30 Days Miracle Acne Clear Body Cleanser 14.10 oz.(400g)
-SOMEBYMI AHA-BHA-PHA 30 Days Miracle Acne Clear Body Cleanser 14.10 oz.(400g) · 평점 4.7 · 리뷰 869
+SOMEBYMI AHA-BHA-PHA 30 Days Miracle Acne Clear Body Cleanser 14.10 oz.(400g) · 평점 4.7 · 리뷰 870
 
 **출처:** Source · us_beauty
 

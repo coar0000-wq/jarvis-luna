@@ -2,7 +2,7 @@
 title: "Record 12440528d4 · Amazon-quietly-blocks-AI-bots-from-Meta-Google-Huaw"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:17.135266+00:00
+updated_at: 2026-10-01T22:37:39.417997+00:00
 tags: [record, real-data]
 ---
 

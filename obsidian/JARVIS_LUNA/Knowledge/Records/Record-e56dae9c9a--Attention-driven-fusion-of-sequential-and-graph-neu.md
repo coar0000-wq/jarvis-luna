@@ -2,7 +2,7 @@
 title: "Record e56dae9c9a · Attention-driven-fusion-of-sequential-and-graph-neural-models-for-insi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:15.859810+00:00
+updated_at: 2026-10-01T22:37:38.366226+00:00
 tags: [record, real-data]
 ---
 

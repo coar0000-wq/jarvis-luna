@@ -2,7 +2,7 @@
 title: "Record 99d1681a1c · KOREAS-1-SKINCARE-BRAND-DRG-ACCELERATES-US-EXPANSION-WITH-TIKTOK-SHOP-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:17.213872+00:00
+updated_at: 2026-10-01T22:37:39.479933+00:00
 tags: [record, real-data]
 ---
 
@@ -13,9 +13,10 @@ tags: [record, real-data]
 **제목:** KOREA'S #1 SKINCARE BRAND DR.G ACCELERATES U.S. EXPANSION WITH TIKTOK SHOP LAUNCH - PR Newswire
 
 KOREA'S #1 SKINCARE BRAND DR.G ACCELERATES U.S. EXPANSION WITH TIKTOK SHOP LAUNCH - PR Newswire
+KOREA'S #1 SKINCARE BRAND DR.G ACCELERATES U.S. EXPANSION WITH TIKTOK SHOP LAUNCH - PR Newswire
 
-**출처:** Source · Google Search
+**출처:** Source · us_beauty
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

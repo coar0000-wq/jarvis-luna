@@ -2,7 +2,7 @@
 title: "Record 137e878781 · Improved-Bi-LSTM-based-recommendation-system-for-cold-start-items-with"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:15.882539+00:00
+updated_at: 2026-10-01T22:37:38.385274+00:00
 tags: [record, real-data]
 ---
 

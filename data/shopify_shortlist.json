@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T17:14:09.602771+00:00",
+  "generated_at": "2026-10-01T22:35:30.724331+00:00",
   "generator": "scripts/build_shopify_shortlist.py",
   "status": "proposed",
   "source": "rules",
@@ -35,9 +35,9 @@
       ],
       "score": 100,
       "evidence": {
-        "global_product": "Skin1004 Madagascar Centella Ampoule",
-        "channel": "tiktok_shop_us",
-        "similarity": 0.7
+        "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
+        "channel": "oliveyoung_us",
+        "similarity": 0.733
       },
       "added_at": "2026-09-29T10:03:26.384544+00:00",
       "status": "active",
@@ -77,13 +77,13 @@
       ],
       "score": 96,
       "evidence": {
-        "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
-        "channel": "ulta_beauty",
-        "similarity": 0.88
+        "global_product": "Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
+        "channel": "oliveyoung_us",
+        "similarity": 0.853
       },
       "added_at": "2026-09-29T20:38:16.971548+00:00",
       "status": "active",
-      "note": "규칙상 근거 약화 · 유지하되 검토: 매칭 근거 형태 불일치: 우리 ['얼굴'] vs 미국 ['eye'] (Lacto-PDRN 4% + B9 Eye Cream)"
+      "note": ""
     },
     {
       "unit_id": "VG-CP000109",
@@ -160,7 +160,7 @@
         "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매"
       ],
       "score": 94,
-      "reason": "미국 매칭 유사도 0.68 < 0.7"
+      "reason": "미국 매칭 유사도 0.653 < 0.7"
     },
     {
       "unit_id": "VG-CP000038",
@@ -174,15 +174,15 @@
       "reason": "게이트 초안 미준비: copy, legal, us_label"
     },
     {
-      "unit_id": "VG-CP000075",
+      "unit_id": "VG-CP000125",
       "pd_nos": [
-        "1042619"
+        "1053482"
       ],
       "names": [
-        "셀더마데일리 콜라겐 에센스겔 마스크 29 g"
+        "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml"
       ],
-      "score": 89,
-      "reason": "미국 매칭 유사도 0.68 < 0.7"
+      "score": 86,
+      "reason": "미국 매칭 유사도 0.6 < 0.7"
     }
   ],
   "how_to_confirm": "data/manual/shopify_shortlist.json 에 {\"units\": [\"VG-...\" 또는 pd_no], \"confirmed_by\": \"이름\", \"confirmed_at\": \"YYYY-MM-DD\"} 를 적으면 그 목록만 쓴다."

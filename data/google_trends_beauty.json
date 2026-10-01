@@ -1,35 +1,17 @@
 {
   "source": "google news rss (beauty queries) + trends daily filtered",
-  "collected_at": "2026-10-01T16:56:37.339826+00:00",
+  "collected_at": "2026-10-01T22:22:05.987808+00:00",
   "status": "ok",
   "note": "뷰티 키워드만. 채점 MATCH_CHANNELS 에는 넣지 않음. 대시보드 키워드 보드용.",
   "query_count": 12,
   "count": 95,
   "items": [
     {
-      "keyword": "S.Korea’s seafood giant Dongwon to acquire K-beauty pioneer Charmzone - KED Global",
-      "product": "S.Korea’s seafood giant Dongwon to acquire K-beauty pioneer Charmzone - KED Global",
+      "keyword": "S.Korea’s seafood giant Dongwon to acquire K-beauty pioneer Charmzone - kedglobal.com",
+      "product": "S.Korea’s seafood giant Dongwon to acquire K-beauty pioneer Charmzone - kedglobal.com",
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1xZ0dBMzZweDFqTTJNdjFNcWl2R2FGNHhQcU5WS1UzbEgwYmZ4SlBHbUg4ZXMyRTZMV1VpaUh5ZUpNY0hBNWFKVDVZNXJlUWZucFRDNDQxbTN4SW9CQmg2eXY0RlFLejB3UDlzT1FpQUwxVWRUSVE?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "Japanese Haircare Is Having Its K-Beauty Moment and Here Is Where to Shop It in the U.S. Right Now - Miami Herald",
-      "product": "Japanese Haircare Is Having Its K-Beauty Moment and Here Is Where to Shop It in the U.S. Right Now - Miami Herald",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9CcVlVNEJvS0kwM203a09MR21sQXpzSDg2a1N4LXB2SnlORVpTQ3FVdm9SV1dvc1N0dDA1dDBEaXozazZxejl5aDBXV1J3aGxrTXpFdDJqbnczRkE3SWloZFBjb2cwOVnSAWdBVV95cUxOZ0FqcU5UUHA4X1VnUkZuOVFfTkV2TzltYktoWVR6MjN0YVRFZjFwdDA0S0o3cTRHMl9XQnVKbS1SRHFmZC03Tmo0R1FBamJDak1IVmpyQU53TE9RSEVuTEczSE9PVmFr?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "Inside Seoul’s K-beauty ‘mecca’: I hunted for the best skincare at the world’s biggest Korean beauty store - The Guardian",
-      "product": "Inside Seoul’s K-beauty ‘mecca’: I hunted for the best skincare at the world’s biggest Korean beauty store - The Guardian",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBEaHdqd3dkWUpOVEtVUkNuQjE2dUZrOFVWbEUzaEN0UWRCYlBzSEcwcE1MYThfTHlOQ0N0dlpydmdwamNsdXlxTGJXY29MZWVITldxUFNjRUo5U1NLUHMyZDFkanEzekFUYnFXTzFRWHYzejFMRGI0a3JUQVlYdw?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -43,11 +25,11 @@
       "beauty": true
     },
     {
-      "keyword": "L’Oréal and COSMAX are shaping the future of your beauty routine - Vogue Adria",
-      "product": "L’Oréal and COSMAX are shaping the future of your beauty routine - Vogue Adria",
+      "keyword": "Inside Seoul’s K-beauty ‘mecca’: I hunted for the best skincare at the world’s biggest Korean beauty store - The Guardian",
+      "product": "Inside Seoul’s K-beauty ‘mecca’: I hunted for the best skincare at the world’s biggest Korean beauty store - The Guardian",
       "sub": "K-beauty",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAxeWJkYjNsVDR6aFNCczlWUVFQeThjS2FmdkF5MEVmbi1YX290NWpwS0pSSjRwR1dBUU51U2JwMEZla1UydE41eWtaNW9Jb0RPNV9PaGYwZ0ZrQ3puWlpGR3VBdmxOazR4WVE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBEaHdqd3dkWUpOVEtVUkNuQjE2dUZrOFVWbEUzaEN0UWRCYlBzSEcwcE1MYThfTHlOQ0N0dlpydmdwamNsdXlxTGJXY29MZWVITldxUFNjRUo5U1NLUHMyZDFkanEzekFUYnFXTzFRWHYzejFMRGI0a3JUQVlYdw?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -70,11 +52,29 @@
       "beauty": true
     },
     {
-      "keyword": "KOREA'S #1 SKINCARE BRAND DR.G ACCELERATES U.S. EXPANSION WITH TIKTOK SHOP LAUNCH - PR Newswire",
-      "product": "KOREA'S #1 SKINCARE BRAND DR.G ACCELERATES U.S. EXPANSION WITH TIKTOK SHOP LAUNCH - PR Newswire",
+      "keyword": "L’Oréal and COSMAX are shaping the future of your beauty routine - vogueadria.com",
+      "product": "L’Oréal and COSMAX are shaping the future of your beauty routine - vogueadria.com",
       "sub": "K-beauty",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZzcxQWtWd3FCdXNLd1RxLXlNTHBmblZMbEsxZHRteExaemhuUklURVN5VVdRTkJHNm9XbmdwcUpzd2lWcVdoRkN1MEEzZzlPRVdRQXRSMmo0c1VYY3lLdEFlSWthajl4eUFIX0c2Z2QwZUdNZFQzV3ZheGhINEwtbjhfT2lFRmNhRjRMOUNiWkxUWFFOdFBjeTVfQ1Fvb08tMGVMUGw0UkowSUlMc3ZlS3ZEeDY0VjhVZzhnRjZWaHozUVNVdUVTQlV1Rng?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAxeWJkYjNsVDR6aFNCczlWUVFQeThjS2FmdkF5MEVmbi1YX290NWpwS0pSSjRwR1dBUU51U2JwMEZla1UydE41eWtaNW9Jb0RPNV9PaGYwZ0ZrQ3puWlpGR3VBdmxOazR4WVE?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Yepoda (예쁘다) K-Beauty Starter Box: Any Gamer’s Essential Kit - Cubed3",
+      "product": "Yepoda (예쁘다) K-Beauty Starter Box: Any Gamer’s Essential Kit - Cubed3",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5UenVOcl9tbks3aVppdXRfZWdaa3VzQ2ZBRElSMm5aV1k2RDNRc3d1N3Z4TUxGU0tQMXdWNHdiSVV2UFJ5NXVWTXhWdEpFQXVhVmp2T0J0TkRaOE43Um9mVmY2ZVlFSU4wQkdn?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Japanese Haircare Is Having Its K-Beauty Moment and Here Is Where to Shop It in the U.S. Right Now - Miami Herald",
+      "product": "Japanese Haircare Is Having Its K-Beauty Moment and Here Is Where to Shop It in the U.S. Right Now - Miami Herald",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE14TlBDRVBiVG9KNW84Umk0akxzSEZoYVVaLVp3TUlhUkh5WGtvZmZtdUQ3ZzRwdnVxMnl0VF9rR1R5V1p3S0s3dDdmU0lfMVFfQmJES3htTlppOU5wd25rNnoxLUtXUERjbGJBbjYyZFhob03SAXNBVV95cUxNNHFJVEtNaERSLWVWMGVIQVBWWm1QT1RUZklUdW8wZ3lnVnEyalItcW1BWmNxejgwYkxFMlp4MjF5RGJXZDFuQjNFcWR6NWU5Z2dHcVNucVRFMTBQQkI0SkxyRWFEWjNKV1RrWFA5TVVzYW9j?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -124,8 +124,8 @@
       "beauty": true
     },
     {
-      "keyword": "Why Dermatologists Say Korean Sunscreens Are a Game-Changer for Your Skin - TODAY.com",
-      "product": "Why Dermatologists Say Korean Sunscreens Are a Game-Changer for Your Skin - TODAY.com",
+      "keyword": "Why Dermatologists Say Korean Sunscreens Are a Game-Changer for Your Skin - today.com",
+      "product": "Why Dermatologists Say Korean Sunscreens Are a Game-Changer for Your Skin - today.com",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBYSVhpV19HSHdPNzdPX2JLRjJvdWxIOVRBa3NSX2NfMUw3Tkc3MWJwa0s4ZERHUzFHcWNXSnByV2lYN09jMEJ2a3pjaGNzMzRsSjMzWktsMllRS2laWVZnMl9YQVBMLXA4Sm1rVQ?oc=5",
@@ -214,11 +214,11 @@
       "beauty": true
     },
     {
-      "keyword": "Snail slime for your face? - CNN",
-      "product": "Snail slime for your face? - CNN",
+      "keyword": "You can get the CosRx Snail Mucin Essence for 50% off right now — but only for today - NBC News",
+      "product": "You can get the CosRx Snail Mucin Essence for 50% off right now — but only for today - NBC News",
       "sub": "snail mucin",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQ0l4Szg4MWtxM2RLY0MzSHpBYkRHQVdCSEc1b29TNFdrUzA4QmZoNldsRnctNXRFNVNQVWowMEdXdzJ2T244SGRGSnF2cVVhUHFuZnZuS1U2NVVCQ1BPTVRoelJqcUZZZnNEVEU0a3hlZ2JuaGJ5TFhBZjJSOFowaVlPMW5IZkZnbC1zYmdTb1dVSFZscmhLaFJGRXI3Wmc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOY2RSUTR6S01JaE5WeEhQc3UzaFdSYm9MckxYczJ2TW9EVlV3a0xPbXRWTUVZSE1sNFlPYUlmWWRwbUl2a0pyYVl3c0JKcEc1cHMyOG5NZEY0NHNSaXVpdDVLd2hCQmRGeG1sRGFqYnVuYld1ZkhWMFFpeFRFSS1zLUt5RFRtZVNhb2VxQ1pPOWtBVW9h?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -331,15 +331,6 @@
       "beauty": true
     },
     {
-      "keyword": "Scientists invent a plant-based serum that is proven to regrow hair in weeks - Earth.com",
-      "product": "Scientists invent a plant-based serum that is proven to regrow hair in weeks - Earth.com",
-      "sub": "centella serum",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSFVtSjNNOWR6b0pRZU9ZeEVzN09KMmtvUXlLbVRGTEJmeUdScHA5TTlFeWUwMFpHb3JKSWJNa3VwWm1JaU5VZ1NTeE5ROXo0ODhWa0dTcXp2ZU14RDA4SEk2WGUyZWtHZGNuZ0h6bWhZbkxOTlgwWG5HTXhkMkdXWW1MczgydFdQQzhoQTQ4blZjTjd4ZDVncy1uZmotamhnUXk4ZDIzY2F3ZTdT?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
       "keyword": "7 best Korean Skincare products: Tried & Tested by a Beauty Editor - the-independent.com",
       "product": "7 best Korean Skincare products: Tried & Tested by a Beauty Editor - the-independent.com",
       "sub": "centella serum",
@@ -363,6 +354,15 @@
       "sub": "centella serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1qMVVHZjVtSXNpdW5LWHFoMi1nZk5FMkFCaEl5cFJCWkNrb1AxaGYxTUVvRUtNVWNabDFFRVRKVlRIRzdpZ29sVk5MNERUWjJkT0s3aTRJRWF2NmpEeFlyR0c1ZjA4Q1pHQk9FYU1lTmw?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Top 15 Must-Buy Serums from Olive Young in 2026 - funliday.com",
+      "product": "Top 15 Must-Buy Serums from Olive Young in 2026 - funliday.com",
+      "sub": "centella serum",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRkRkQi1TY3h2YmlWZlEzSlRKNV9lMXNXSDdBQ2RBVHBmb0NCcThJa1Q1MkNsbVVISHhZSUNyU3BncGxQQndHbDk5cnJwbFhXVHBKa2tPQXJ1WlBFRzFrbnR5NXU1ek9GYUVOcUlVTHROZTZscjFJVUlmR1had2JockFNUWIxUQ?oc=5",
       "kind": "news",
       "beauty": true
     }

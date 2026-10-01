@@ -2,7 +2,7 @@
 title: "Record c08402b8f2 · Barclays-scales-Claude-to-upgrade-operations-and-improve-client-experi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:18.000801+00:00
+updated_at: 2026-10-01T22:37:40.142413+00:00
 tags: [record, real-data]
 ---
 

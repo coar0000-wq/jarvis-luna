@@ -2,7 +2,7 @@
 title: "Record 550e12bda5 · Strip-Convolution-and-Direction-Aware-Exclusion-Loss-for-Oriented-Ship"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:15.652324+00:00
+updated_at: 2026-10-01T22:37:38.188070+00:00
 tags: [record, real-data]
 ---
 

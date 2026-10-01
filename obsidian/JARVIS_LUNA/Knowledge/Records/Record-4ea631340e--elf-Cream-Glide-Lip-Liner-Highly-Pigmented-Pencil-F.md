@@ -2,7 +2,7 @@
 title: "Record 4ea631340e · elf-Cream-Glide-Lip-Liner-Highly-Pigmented-Pencil-For-Shaping--Sculpti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:17.978848+00:00
+updated_at: 2026-10-01T22:37:40.125240+00:00
 tags: [record, real-data]
 ---
 

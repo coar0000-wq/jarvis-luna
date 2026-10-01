@@ -2,7 +2,7 @@
 title: "Record 9281d6906e · Legora-reviewed-41-documents-in-minutes-with-GPT-6-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:17.303392+00:00
+updated_at: 2026-10-01T22:37:39.557515+00:00
 tags: [record, real-data]
 ---
 

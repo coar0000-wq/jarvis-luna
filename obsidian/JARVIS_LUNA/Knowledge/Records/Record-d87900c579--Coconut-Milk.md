@@ -2,7 +2,7 @@
 title: "Record d87900c579 · Coconut-Milk"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:17.560806+00:00
+updated_at: 2026-10-01T22:37:39.771741+00:00
 tags: [record, real-data]
 ---
 

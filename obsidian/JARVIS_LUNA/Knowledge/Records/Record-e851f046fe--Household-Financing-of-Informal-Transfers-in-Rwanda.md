@@ -2,7 +2,7 @@
 title: "Record e851f046fe · Household-Financing-of-Informal-Transfers-in-Rwanda-The-Role-of-Smallh"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:16.051171+00:00
+updated_at: 2026-10-01T22:37:38.522476+00:00
 tags: [record, real-data]
 ---
 

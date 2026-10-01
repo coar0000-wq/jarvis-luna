@@ -2,7 +2,7 @@
 title: "Record a8bf224e18 · TikTok-no-makeup-movement-trend-rises-in-popularity"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:17.060429+00:00
+updated_at: 2026-10-01T22:37:39.358711+00:00
 tags: [record, real-data]
 ---
 
