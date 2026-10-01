@@ -2,7 +2,7 @@
 title: "Record 3fcefd9c66 · Parallel-cut-research-time-and-cost-in-half-with-GPT6-Astra"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:16.391267+00:00
+updated_at: 2026-10-01T08:34:43.617470+00:00
 tags: [record, real-data]
 ---
 

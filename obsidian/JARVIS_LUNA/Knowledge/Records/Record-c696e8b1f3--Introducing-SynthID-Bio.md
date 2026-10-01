@@ -2,7 +2,7 @@
 title: "Record c696e8b1f3 · Introducing-SynthID-Bio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:14.617541+00:00
+updated_at: 2026-10-01T08:34:42.093346+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 3325c2fbc8 · The-power-of-primary-care-to-improve-health"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:14.820326+00:00
+updated_at: 2026-10-01T08:34:42.293177+00:00
 tags: [record, real-data]
 ---
 

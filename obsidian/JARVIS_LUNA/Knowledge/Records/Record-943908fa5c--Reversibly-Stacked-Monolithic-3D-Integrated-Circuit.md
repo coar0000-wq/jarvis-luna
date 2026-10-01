@@ -2,7 +2,7 @@
 title: "Record 943908fa5c · Reversibly-Stacked-Monolithic-3D-Integrated-Circuits"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:14.754805+00:00
+updated_at: 2026-10-01T08:34:42.217161+00:00
 tags: [record, real-data]
 ---
 

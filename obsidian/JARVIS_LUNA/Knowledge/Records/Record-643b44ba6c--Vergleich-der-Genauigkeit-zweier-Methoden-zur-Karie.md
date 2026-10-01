@@ -2,7 +2,7 @@
 title: "Record 643b44ba6c · Vergleich-der-Genauigkeit-zweier-Methoden-zur-Kariesdetektion-in-einer"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:14.670763+00:00
+updated_at: 2026-10-01T08:34:42.142522+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 37417cecab · 11types-CORINGCO-Toktokhara-No-Glue-Eyelash"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:16.551060+00:00
+updated_at: 2026-10-01T08:34:43.751695+00:00
 tags: [record, real-data]
 ---
 

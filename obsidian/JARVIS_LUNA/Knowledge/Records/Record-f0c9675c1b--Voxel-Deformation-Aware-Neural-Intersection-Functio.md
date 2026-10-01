@@ -2,7 +2,7 @@
 title: "Record f0c9675c1b · Voxel-Deformation-Aware-Neural-Intersection-Function"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:16.418340+00:00
+updated_at: 2026-10-01T08:34:43.641360+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record e14b6e6a43 · Concurrent-Split-Learning-Through-Stable-Client-Clustering"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:14.583741+00:00
+updated_at: 2026-10-01T08:34:42.061448+00:00
 tags: [record, real-data]
 ---
 

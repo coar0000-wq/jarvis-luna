@@ -2,7 +2,7 @@
 title: "Record ab0f543f50 · Starting-Local-Disrupting-Global"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:17.167034+00:00
+updated_at: 2026-10-01T08:34:44.350032+00:00
 tags: [record, real-data]
 ---
 

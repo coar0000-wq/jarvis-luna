@@ -2,7 +2,7 @@
 title: "Record 62d8ed94eb · Profusion-Cosmetics-Casper-the-Friendly-Ghost-Duochrome-Liner-Color-Sh"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:17.433019+00:00
+updated_at: 2026-10-01T08:34:44.599557+00:00
 tags: [record, real-data]
 ---
 

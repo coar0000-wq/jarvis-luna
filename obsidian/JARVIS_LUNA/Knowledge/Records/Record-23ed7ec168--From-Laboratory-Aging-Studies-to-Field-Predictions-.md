@@ -2,7 +2,7 @@
 title: "Record 23ed7ec168 · From-Laboratory-Aging-Studies-to-Field-Predictions-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:10.768186+00:00
+updated_at: 2026-10-01T08:34:41.873559+00:00
 tags: [record, real-data]
 ---
 

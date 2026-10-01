@@ -2,7 +2,7 @@
 title: "Record e678b8d127 · MOVRLYN-100-Natural-Pure-Batana-Oil-for-Hair-Growth423-Fl-Oz-Pack-of-1"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:16.849442+00:00
+updated_at: 2026-10-01T08:34:44.051792+00:00
 tags: [record, real-data]
 ---
 

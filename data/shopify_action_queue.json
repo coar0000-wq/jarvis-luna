@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T04:01:18.607562+00:00",
-  "source_gate_generated_at": "2026-10-01T04:01:18.271621+00:00",
+  "generated_at": "2026-10-01T08:32:44.889047+00:00",
+  "source_gate_generated_at": "2026-10-01T08:32:44.702147+00:00",
   "ontology_source": "data/product_master.json",
   "approval_source": "data/manual/shopify_action_approvals.json",
   "policy": {
@@ -96,7 +96,7 @@
         "1059834"
       ],
       "variant_count": 1,
-      "payload_hash": "09aad89986912fb9dfbbaa8b8bdeada00c0ea08f99f0bf57916e48a759d71d04",
+      "payload_hash": "40b0eeccc3f8564ef5a608ba00bdd62dc1db2cd9f95795661b96cba106b54016",
       "state": "WAITING_HUMAN_APPROVAL",
       "approval_required": true,
       "approved_by": "",
@@ -153,16 +153,16 @@
       "object_id": "VG-VT-REEDLE-SHOT",
       "shopify_group_key": "VG-VT-REEDLE-SHOT",
       "canonical_product_ids": [
-        "CP000106",
         "CP000107"
       ],
-      "excluded_members": [],
+      "excluded_members": [
+        "CP000106"
+      ],
       "pd_nos": [
-        "1049275",
         "1049276"
       ],
-      "variant_count": 2,
-      "payload_hash": "b1322a8e0cac0b56d37bf2b6bb0d87ad987347258f6b2657cefd5877f0d1af5c",
+      "variant_count": 1,
+      "payload_hash": "d5ed35e1d26c28bcd857782a895b49e1c45c17111ab45a8fc61159b6519e19a8",
       "state": "WAITING_HUMAN_APPROVAL",
       "approval_required": true,
       "approved_by": "",

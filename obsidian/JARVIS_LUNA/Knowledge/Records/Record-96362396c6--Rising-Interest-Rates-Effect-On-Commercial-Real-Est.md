@@ -2,7 +2,7 @@
 title: "Record 96362396c6 · Rising-Interest-Rates-Effect-On-Commercial-Real-Estate"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:17.215770+00:00
+updated_at: 2026-10-01T08:34:44.393680+00:00
 tags: [record, real-data]
 ---
 

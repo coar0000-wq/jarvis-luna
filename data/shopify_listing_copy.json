@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-01T01:17:18.661622+00:00",
+  "generated_at": "2026-10-01T08:32:38.623163+00:00",
   "generator": "scripts/build_listing_copy_local.py",
   "model": "none_local_deterministic",
   "paid_api_called": false,
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "note": "기존 검증 카피를 보존하고 누락분만 제품명·용량·원산지 기반의 보수적 영문 초안으로 생성한다. 효능·인증·임상 결과는 생성하지 않는다.",
   "total": 10,
-  "eligible": 9,
-  "ok": 9,
+  "eligible": 8,
+  "ok": 8,
   "failed": 0,
-  "skipped_prerequisite": 1,
-  "carried_forward": 8,
+  "skipped_prerequisite": 2,
+  "carried_forward": 7,
   "generated_local": 1,
   "items": [
     {
@@ -77,36 +77,25 @@
       "error": ""
     },
     {
-      "canonical_product_id": "CP000106",
-      "pd_no": "1049275",
-      "name_ko": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
+      "canonical_product_id": "CP000178",
+      "pd_no": "1061918",
+      "name_ko": "[기미잡티리셋]본셉 비타씨 동결 건조 더블샷 앰플 키트",
       "bucket": "스킨케어",
-      "price_krw": 3000,
+      "price_krw": 5000,
       "rating": null,
       "review_count": null,
       "shopify_score": 98,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049275",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/0XsdymYj3PJyHpuxNOsm1049275_00_010XsdymYj3PJyHpuxNOsm.jpg",
-      "copy": {
-        "title": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6ea",
-        "description_html": "<p>Experience smooth skin texture with the VT Reedle Shot 100 Facial Boosting First Ampoule. This Korean skincare essential comes in a convenient pack of six 2ml ampoules designed for your daily routine.</p><p>Apply to clean skin as a first step to help prep your complexion for the next steps of your routine, leaving your face feeling soft and refreshed.</p>",
-        "seo_title": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6ea",
-        "seo_description": "Discover the VT Reedle Shot 100 Facial Boosting First Ampoule from Korea. Smooth skin texture with this convenient 6-pack of 2ml ampoules for your daily routine.",
-        "tags": [
-          "vt-cosmetics",
-          "reedle-shot",
-          "facial-ampoule",
-          "korean-skincare",
-          "boosting-ampoule",
-          "k-beauty",
-          "skin-texture"
-        ],
-        "product_type": "Face Serum"
-      },
-      "copy_status": "ok",
-      "generation_mode": "carried_verified_copy",
-      "agent_blocked_by": [],
-      "error": ""
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061918",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251216/lcOc1IVBETy66kefZV8g1061918_00_00lcOc1IVBETy66kefZV8g.jpg",
+      "copy": null,
+      "copy_status": "skipped_prerequisite",
+      "generation_mode": "none",
+      "agent_blocked_by": [
+        "gosi",
+        "us_label",
+        "legal"
+      ],
+      "error": "ontology 선행 게이트 미통과: gosi, us_label, legal"
     },
     {
       "canonical_product_id": "CP000216",
@@ -236,26 +225,6 @@
       "error": ""
     },
     {
-      "canonical_product_id": "CP000038",
-      "pd_no": "1027327",
-      "name_ko": "바세린 마스크팩 집중보습",
-      "bucket": "마스크팩",
-      "price_krw": 1000,
-      "rating": null,
-      "review_count": null,
-      "shopify_score": 91,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027327&recmYn=N",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251231/a1rTbe8LgoPw9mu5HABd1027327_00_00a1rTbe8LgoPw9mu5HABd.jpg",
-      "copy": null,
-      "copy_status": "skipped_prerequisite",
-      "generation_mode": "none",
-      "agent_blocked_by": [
-        "us_label",
-        "legal"
-      ],
-      "error": "ontology 선행 게이트 미통과: us_label, legal"
-    },
-    {
       "canonical_product_id": "CP000151",
       "pd_no": "1059834",
       "name_ko": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
@@ -286,29 +255,48 @@
       "error": ""
     },
     {
-      "canonical_product_id": "CP000075",
-      "pd_no": "1042619",
-      "name_ko": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
+      "canonical_product_id": "CP000038",
+      "pd_no": "1027327",
+      "name_ko": "바세린 마스크팩 집중보습",
       "bucket": "마스크팩",
       "price_krw": 1000,
       "rating": null,
       "review_count": null,
       "shopify_score": 89,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240109/8IB1YBxg81UqZXiKzXFM1042619_00_008IB1YBxg81UqZXiKzXFM.jpg",
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027327&recmYn=N",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251231/a1rTbe8LgoPw9mu5HABd1027327_00_00a1rTbe8LgoPw9mu5HABd.jpg",
+      "copy": null,
+      "copy_status": "skipped_prerequisite",
+      "generation_mode": "none",
+      "agent_blocked_by": [
+        "us_label",
+        "legal"
+      ],
+      "error": "ontology 선행 게이트 미통과: us_label, legal"
+    },
+    {
+      "canonical_product_id": "CP000125",
+      "pd_no": "1053482",
+      "name_ko": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
+      "bucket": "스킨케어",
+      "price_krw": 5000,
+      "rating": null,
+      "review_count": null,
+      "shopify_score": 86,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1053482",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/S3WHamdJK4z5s7WVkYus1053482_00_00S3WHamdJK4z5s7WVkYus.jpg",
       "copy": {
-        "title": "CELDERMA Daily Collagen Gel Sheet Mask 29g",
-        "description_html": "<p>CELDERMA Daily Collagen Gel Sheet Mask 29g is a Korean beauty gel sheet mask in a 29g size. This draft uses only the verified product identity and package information.</p><p>Review the ingredient list, directions, and final US label before publication.</p>",
-        "seo_title": "CELDERMA Daily Collagen Gel Sheet Mask 29g",
-        "seo_description": "View CELDERMA Daily Collagen Gel Sheet Mask 29g. Product identity and size are based on the source product notice. Review ingredients, directions, and the final label before purchase.",
+        "title": "MEDI-PEEL Face Toner 200ml",
+        "description_html": "<p>MEDI-PEEL Face Toner 200ml is a Korean beauty face toner in a 200ml size. This draft uses only the verified product identity and package information.</p><p>Review the ingredient list, directions, and final US label before publication.</p>",
+        "seo_title": "MEDI-PEEL Face Toner 200ml",
+        "seo_description": "View MEDI-PEEL Face Toner 200ml. Product identity and size are based on the source product notice. Review ingredients, directions, and the final label before purchase.",
         "tags": [
-          "celderma-daily",
-          "collagen",
-          "gel-sheet-mask",
+          "medi-peel",
+          "face-toner",
           "k-beauty",
           "korean-beauty"
         ],
-        "product_type": "Gel Sheet Mask"
+        "product_type": "Face Toner"
       },
       "copy_status": "ok",
       "generation_mode": "deterministic_local_template_v1",

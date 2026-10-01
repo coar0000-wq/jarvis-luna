@@ -2,7 +2,7 @@
 title: "Record 30cc5122be · AMDKernelVault-Large-Scale-Datasets-and-Agentic-Training-for-AMD-GPU-K"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:15.301056+00:00
+updated_at: 2026-10-01T08:34:42.595447+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record c1273a9b25 · Real-Complexion-Hyaluron-Moisture-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:16.483769+00:00
+updated_at: 2026-10-01T08:34:43.696076+00:00
 tags: [record, real-data]
 ---
 

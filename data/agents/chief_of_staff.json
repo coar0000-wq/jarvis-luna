@@ -1,7 +1,7 @@
 {
   "agent": "Chief-of-Staff",
   "role": "전체 JARVIS 운영상태를 종합하여 우선순위와 Safe Auto-Fix 실행 여부를 결정",
-  "generated_at": "2026-10-01T01:19:00.736457+00:00",
+  "generated_at": "2026-10-01T08:34:19.493766+00:00",
   "risk": "medium",
   "overall_priority": "P2",
   "overall_action": "INVESTIGATE_EMPTY_CHANNELS",
@@ -44,7 +44,18 @@
       "area": "dashboard:sourcing",
       "team": "sourcing",
       "action": "TEAM_ACTION_SOURCING",
-      "reason": "다이소 수집이 2.0일째 발행되지 않음 (마지막 수집 2026-09-29) · Daiso Real Product Collection 실행 결과 확인",
+      "reason": "다이소 수집이 2.3일째 발행되지 않음 (마지막 수집 2026-09-29) · Daiso Real Product Collection 실행 결과 확인",
+      "remediation_class": "revalidate_only",
+      "auto_execute": false,
+      "requires_user_action": false
+    },
+    {
+      "priority": "P3",
+      "severity_score": 35,
+      "area": "dashboard:market",
+      "team": "market",
+      "action": "TEAM_ACTION_MARKET",
+      "reason": "고시 표 1건 판독 남음 — 1061918 [기미잡티리셋]본셉 비타씨 동결  [전성분,용량,제조사,원산지 · 고시 대상 미생성, 다음 2시간 회차에서 자동 수집] https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061918",
       "remediation_class": "revalidate_only",
       "auto_execute": false,
       "requires_user_action": false
@@ -54,7 +65,7 @@
       "severity_score": 18,
       "area": "external_sources",
       "action": "TRACK_EXTERNAL_SOURCE_ERRORS",
-      "reason": "외부 소스 고장 6건 추적 중 (기관 수집팀:Deutsche Bank 사이트, 기관 수집팀:TSMC 뉴스룸, 기관 수집팀:Marvell·Intel·Qualcomm·ASML IR RSS, 채널 운영팀:FDA 화장품 리콜·조치 이력)",
+      "reason": "외부 소스 고장 10건 추적 중 (기관 수집팀:Deutsche Bank 사이트, 기관 수집팀:TSMC 뉴스룸, 기관 수집팀:Marvell·Intel·Qualcomm·ASML IR RSS, 법률·규제팀:openFDA cosmetic/enforcement)",
       "remediation_class": "external_dependency",
       "auto_execute": false,
       "requires_user_action": false
@@ -65,7 +76,7 @@
       "area": "dashboard:listing",
       "team": "listing",
       "action": "TEAM_WAITING_LISTING",
-      "reason": "카피 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 5건 사람 승인 대기",
+      "reason": "카피 2건, 고시 1건, 영문라벨 2건, 법률 2건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 5건 사람 승인 대기",
       "remediation_class": "human_approval_required",
       "auto_execute": false,
       "requires_user_action": true
@@ -76,7 +87,7 @@
       "area": "dashboard:legal",
       "team": "legal",
       "action": "TEAM_WAITING_LEGAL",
-      "reason": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
+      "reason": "차단 2건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab), [기미잡티리셋]본셉 비타씨 동(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
       "remediation_class": "human_approval_required",
       "auto_execute": false,
       "requires_user_action": true
@@ -101,7 +112,7 @@
       "area": "dashboard:listing",
       "team": "listing",
       "action": "TEAM_WAITING_LISTING",
-      "reason": "카피 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 5건 사람 승인 대기",
+      "reason": "카피 2건, 고시 1건, 영문라벨 2건, 법률 2건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 5건 사람 승인 대기",
       "remediation_class": "human_approval_required",
       "auto_execute": false,
       "requires_user_action": true
@@ -112,7 +123,7 @@
       "area": "dashboard:legal",
       "team": "legal",
       "action": "TEAM_WAITING_LEGAL",
-      "reason": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
+      "reason": "차단 2건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab), [기미잡티리셋]본셉 비타씨 동(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
       "remediation_class": "human_approval_required",
       "auto_execute": false,
       "requires_user_action": true
@@ -156,7 +167,18 @@
       "area": "dashboard:sourcing",
       "team": "sourcing",
       "action": "TEAM_ACTION_SOURCING",
-      "reason": "다이소 수집이 2.0일째 발행되지 않음 (마지막 수집 2026-09-29) · Daiso Real Product Collection 실행 결과 확인",
+      "reason": "다이소 수집이 2.3일째 발행되지 않음 (마지막 수집 2026-09-29) · Daiso Real Product Collection 실행 결과 확인",
+      "remediation_class": "revalidate_only",
+      "auto_execute": false,
+      "requires_user_action": false
+    },
+    {
+      "priority": "P3",
+      "severity_score": 35,
+      "area": "dashboard:market",
+      "team": "market",
+      "action": "TEAM_ACTION_MARKET",
+      "reason": "고시 표 1건 판독 남음 — 1061918 [기미잡티리셋]본셉 비타씨 동결  [전성분,용량,제조사,원산지 · 고시 대상 미생성, 다음 2시간 회차에서 자동 수집] https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061918",
       "remediation_class": "revalidate_only",
       "auto_execute": false,
       "requires_user_action": false
@@ -166,7 +188,7 @@
       "severity_score": 18,
       "area": "external_sources",
       "action": "TRACK_EXTERNAL_SOURCE_ERRORS",
-      "reason": "외부 소스 고장 6건 추적 중 (기관 수집팀:Deutsche Bank 사이트, 기관 수집팀:TSMC 뉴스룸, 기관 수집팀:Marvell·Intel·Qualcomm·ASML IR RSS, 채널 운영팀:FDA 화장품 리콜·조치 이력)",
+      "reason": "외부 소스 고장 10건 추적 중 (기관 수집팀:Deutsche Bank 사이트, 기관 수집팀:TSMC 뉴스룸, 기관 수집팀:Marvell·Intel·Qualcomm·ASML IR RSS, 법률·규제팀:openFDA cosmetic/enforcement)",
       "remediation_class": "external_dependency",
       "auto_execute": false,
       "requires_user_action": false
@@ -296,8 +318,8 @@
       "status": "ok",
       "priority": "P4",
       "evidence": {
-        "nodes": 84433,
-        "links": 355988,
+        "nodes": 84457,
+        "links": 356237,
         "dangling_generated": 0,
         "truth_guard_anomaly": false,
         "anomaly_reasons": []
@@ -365,16 +387,16 @@
       ]
     },
     "graph": {
-      "nodes": 84433,
-      "links": 355988,
+      "nodes": 84457,
+      "links": 356237,
       "dangling_generated": 0,
-      "runtime_nodes": 84433,
-      "runtime_links": 355988,
+      "runtime_nodes": 84457,
+      "runtime_links": 356237,
       "runtime_dangling_generated": 0,
       "truth_guard": {
         "vault": "obsidian/JARVIS_LUNA",
-        "actual_nodes": 84433,
-        "actual_links": 355988,
+        "actual_nodes": 84457,
+        "actual_links": 356237,
         "actual_dangling_generated": 0,
         "actual_dangling_personal": 21,
         "generated_dangling_samples": [],
@@ -462,8 +484,8 @@
         ],
         "generated_dangling_sample_source_count": 0,
         "personal_dangling_sample_source_count": 8,
-        "runtime_nodes": 84433,
-        "runtime_links": 355988,
+        "runtime_nodes": 84457,
+        "runtime_links": 356237,
         "runtime_dangling_generated": 0,
         "runtime_consistent": true,
         "anomaly": false,
@@ -480,19 +502,25 @@
       {
         "team": "sourcing",
         "kind": "auto_remediable",
-        "text": "다이소 수집이 2.0일째 발행되지 않음 (마지막 수집 2026-09-29) · Daiso Real Product Collection 실행 결과 확인",
+        "text": "다이소 수집이 2.3일째 발행되지 않음 (마지막 수집 2026-09-29) · Daiso Real Product Collection 실행 결과 확인",
+        "source": "action"
+      },
+      {
+        "team": "market",
+        "kind": "auto_remediable",
+        "text": "고시 표 1건 판독 남음 — 1061918 [기미잡티리셋]본셉 비타씨 동결  [전성분,용량,제조사,원산지 · 고시 대상 미생성, 다음 2시간 회차에서 자동 수집] https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061918",
         "source": "action"
       },
       {
         "team": "listing",
         "kind": "human_approval_required",
-        "text": "카피 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 5건 사람 승인 대기",
+        "text": "카피 2건, 고시 1건, 영문라벨 2건, 법률 2건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 5건 사람 승인 대기",
         "source": "waiting"
       },
       {
         "team": "legal",
         "kind": "human_approval_required",
-        "text": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
+        "text": "차단 2건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab), [기미잡티리셋]본셉 비타씨 동(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
         "source": "waiting"
       },
       {
@@ -503,8 +531,8 @@
       }
     ],
     "source_errors": {
-      "broken": 6,
-      "generated_at": "2026-10-01T01:18:47.818276+00:00",
+      "broken": 10,
+      "generated_at": "2026-10-01T08:34:11.971985+00:00",
       "items": [
         {
           "team": "기관 수집팀",
@@ -520,6 +548,26 @@
           "team": "기관 수집팀",
           "item": "Marvell·Intel·Qualcomm·ASML IR RSS",
           "reason": "IR 피드 URL 없음"
+        },
+        {
+          "team": "법률·규제팀",
+          "item": "openFDA cosmetic/enforcement",
+          "reason": "HTTP 404 - 해당 엔드포인트 없음"
+        },
+        {
+          "team": "법률·규제팀",
+          "item": "FDA 수입경보 66-41 페이지",
+          "reason": "HTTP 404"
+        },
+        {
+          "team": "법률·규제팀",
+          "item": "{'source': '연방관보 화장품 규정', 'reason': '응답 없음'}",
+          "reason": "호출 실패"
+        },
+        {
+          "team": "법률·규제팀",
+          "item": "{'source': '연방관보 MoCRA', 'reason': '응답 없음'}",
+          "reason": "호출 실패"
         },
         {
           "team": "채널 운영팀",

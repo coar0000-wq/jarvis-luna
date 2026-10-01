@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T01:17:13.945167+00:00",
+  "generated_at": "2026-10-01T08:31:07.831208+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "cody bellinger",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Wed, 30 Sep 2026 18:00:00 -0700",
-          "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=cody%20bellinger"
-        },
-        {
-          "keyword": "angel reese",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Wed, 30 Sep 2026 18:00:00 -0700",
-          "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=angel%20reese"
-        },
-        {
-          "keyword": "kalshi",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Wed, 30 Sep 2026 17:50:00 -0700",
-          "source_name": "CBS Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=kalshi"
-        },
-        {
-          "keyword": "steve hilton",
+          "keyword": "carlos alcaraz",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Wed, 30 Sep 2026 18:00:00 -0700",
-          "source_name": "CNN",
-          "url": "https://trends.google.com/trending?geo=US&q=steve%20hilton"
+          "published": "Thu, 1 Oct 2026 00:40:00 -0700",
+          "source_name": "Reuters Connect",
+          "url": "https://trends.google.com/trending?geo=US&q=carlos%20alcaraz"
         },
         {
-          "keyword": "santa fe county floods",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Wed, 30 Sep 2026 18:00:00 -0700",
-          "source_name": "KOAT",
-          "url": "https://trends.google.com/trending?geo=US&q=santa%20fe%20county%20floods"
-        },
-        {
-          "keyword": "willson contreras",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Wed, 30 Sep 2026 17:50:00 -0700",
-          "source_name": "Boston Herald",
-          "url": "https://trends.google.com/trending?geo=US&q=willson%20contreras"
-        },
-        {
-          "keyword": "trevor story",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Wed, 30 Sep 2026 17:50:00 -0700",
-          "source_name": "Heavy.com",
-          "url": "https://trends.google.com/trending?geo=US&q=trevor%20story"
-        },
-        {
-          "keyword": "trent grisham",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Wed, 30 Sep 2026 17:50:00 -0700",
-          "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=trent%20grisham"
-        },
-        {
-          "keyword": "colorado avalanche",
+          "keyword": "coffee shops near me",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Wed, 30 Sep 2026 18:00:00 -0700",
-          "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=colorado%20avalanche"
+          "published": "Thu, 1 Oct 2026 01:10:00 -0700",
+          "source_name": "USA Today",
+          "url": "https://trends.google.com/trending?geo=US&q=coffee%20shops%20near%20me"
         },
         {
-          "keyword": "fcc",
+          "keyword": "supermarket",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Wed, 30 Sep 2026 17:50:00 -0700",
-          "source_name": "CNN",
-          "url": "https://trends.google.com/trending?geo=US&q=fcc"
+          "published": "Thu, 1 Oct 2026 01:10:00 -0700",
+          "source_name": "Daily News Hungary",
+          "url": "https://trends.google.com/trending?geo=US&q=supermarket"
+        },
+        {
+          "keyword": "fundraiser",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Thu, 1 Oct 2026 00:40:00 -0700",
+          "source_name": "NewsNation",
+          "url": "https://trends.google.com/trending?geo=US&q=fundraiser"
+        },
+        {
+          "keyword": "night sky",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Thu, 1 Oct 2026 00:50:00 -0700",
+          "source_name": "Sky & Telescope",
+          "url": "https://trends.google.com/trending?geo=US&q=night%20sky"
+        },
+        {
+          "keyword": "jordan farmar returns to lakers",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Thu, 1 Oct 2026 00:50:00 -0700",
+          "source_name": "BasketNews.com",
+          "url": "https://trends.google.com/trending?geo=US&q=jordan%20farmar%20returns%20to%20lakers"
+        },
+        {
+          "keyword": "the national",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Thu, 1 Oct 2026 00:40:00 -0700",
+          "source_name": "www.thenationalnews.com",
+          "url": "https://trends.google.com/trending?geo=US&q=the%20national"
+        },
+        {
+          "keyword": "daycares",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Thu, 1 Oct 2026 00:40:00 -0700",
+          "source_name": "WXYZ 7 News Detroit",
+          "url": "https://trends.google.com/trending?geo=US&q=daycares"
+        },
+        {
+          "keyword": "alex michelsen",
+          "approx_traffic": "100+",
+          "traffic_num": 100,
+          "published": "Thu, 1 Oct 2026 01:10:00 -0700",
+          "source_name": "Sky Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=alex%20michelsen"
+        },
+        {
+          "keyword": "xbox game pass",
+          "approx_traffic": "100+",
+          "traffic_num": 100,
+          "published": "Thu, 1 Oct 2026 00:50:00 -0700",
+          "source_name": "XBOX Wire",
+          "url": "https://trends.google.com/trending?geo=US&q=xbox%20game%20pass"
         }
       ]
     },

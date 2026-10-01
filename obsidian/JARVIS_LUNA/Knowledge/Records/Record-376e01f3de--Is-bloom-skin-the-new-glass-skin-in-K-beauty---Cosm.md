@@ -2,7 +2,7 @@
 title: "Record 376e01f3de · Is-bloom-skin-the-new-glass-skin-in-K-beauty---Cosm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:15.901771+00:00
+updated_at: 2026-10-01T08:34:43.181457+00:00
 tags: [record, real-data]
 ---
 

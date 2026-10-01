@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T01:17:24.387069+00:00",
+  "generated_at": "2026-10-01T08:32:44.702161+00:00",
   "왜": "Jev 가 실제로 내린 판정을 보관한다. 키 없는 회차는 같은 상태일 때 이걸 이어 쓴다. 상태가 바뀐 상품은 무료 로컬 판정으로 돌아간다.",
   "items": {
     "1049276": {
@@ -17,20 +17,20 @@
         "legal"
       ],
       "model_route": "human",
-      "model_route_confidence": 0.94,
+      "model_route_confidence": 0.92,
       "findings": [
         "public blockers: legal_full"
       ],
-      "confidence": 0.712,
+      "confidence": 0.686,
       "usage": {
         "input_tokens": 1105,
         "output_tokens": 198
       },
       "free_credits_only": true,
-      "risk_score": 1.64,
+      "risk_score": 1.58,
       "model": "jev-1.13.0",
       "state_signature": "cdb95028555fb2cc1091059f8cd86fe4a993cc1cce6206584626e7d74b6ea8c6",
-      "decided_at": "2026-10-01T01:17:22.852447+00:00"
+      "decided_at": "2026-10-01T08:32:42.919167+00:00"
     },
     "1055167": {
       "framework": "typesafe_system_one_compatible",
@@ -47,20 +47,20 @@
         "legal"
       ],
       "model_route": "human",
-      "model_route_confidence": 0.94,
+      "model_route_confidence": 0.92,
       "findings": [
         "public blockers: legal_full"
       ],
-      "confidence": 0.722,
+      "confidence": 0.702,
       "usage": {
         "input_tokens": 1085,
         "output_tokens": 198
       },
       "free_credits_only": true,
-      "risk_score": 1.6,
+      "risk_score": 1.69,
       "model": "jev-1.13.0",
       "state_signature": "51d0e73d5ba5ed41de4d4bf02811433e8f7ef09ef764ae07bb5b94a8cc530ea7",
-      "decided_at": "2026-10-01T01:17:23.002820+00:00"
+      "decided_at": "2026-10-01T08:32:43.086254+00:00"
     },
     "1049275": {
       "framework": "typesafe_system_one_compatible",
@@ -107,52 +107,22 @@
         "legal"
       ],
       "model_route": "human",
-      "model_route_confidence": 0.91,
+      "model_route_confidence": 0.92,
       "findings": [
         "public blockers: legal_full"
       ],
-      "confidence": 0.706,
+      "confidence": 0.702,
       "usage": {
         "input_tokens": 1086,
         "output_tokens": 198
       },
       "free_credits_only": true,
-      "risk_score": 1.58,
+      "risk_score": 1.59,
       "model": "jev-1.13.0",
       "state_signature": "a235a30f46906db0e3e7198e8f998dc4cfdaf92ceac3f46d1cef17739f39ea0f",
-      "decided_at": "2026-10-01T01:17:23.350493+00:00"
+      "decided_at": "2026-10-01T08:32:43.512831+00:00"
     },
     "1072554": {
-      "framework": "typesafe_system_one_compatible",
-      "enabled": true,
-      "mode": "typesafe_observational_free_credits",
-      "source": "typesafe",
-      "paid_api_called": false,
-      "enforced": false,
-      "grade_advisory": "review",
-      "legal_gate_advisory": "review",
-      "risk_level": "high",
-      "risk_points": 1,
-      "team_routes": [
-        "legal"
-      ],
-      "model_route": "human",
-      "model_route_confidence": 0.94,
-      "findings": [
-        "public blockers: legal_full"
-      ],
-      "confidence": 0.71,
-      "usage": {
-        "input_tokens": 1097,
-        "output_tokens": 198
-      },
-      "free_credits_only": true,
-      "risk_score": 1.61,
-      "model": "jev-1.13.0",
-      "state_signature": "a235a30f46906db0e3e7198e8f998dc4cfdaf92ceac3f46d1cef17739f39ea0f",
-      "decided_at": "2026-10-01T01:17:23.503967+00:00"
-    },
-    "1075857": {
       "framework": "typesafe_system_one_compatible",
       "enabled": true,
       "mode": "typesafe_observational_free_credits",
@@ -171,18 +141,18 @@
       "findings": [
         "public blockers: legal_full"
       ],
-      "confidence": 0.69,
+      "confidence": 0.7,
       "usage": {
-        "input_tokens": 1089,
+        "input_tokens": 1097,
         "output_tokens": 198
       },
       "free_credits_only": true,
-      "risk_score": 1.55,
+      "risk_score": 1.66,
       "model": "jev-1.13.0",
-      "state_signature": "9cd2800fc8d4cac3636219a503b910fbb2b0924bd299e98e77065bc73dc4dcbb",
-      "decided_at": "2026-10-01T01:17:23.693218+00:00"
+      "state_signature": "a235a30f46906db0e3e7198e8f998dc4cfdaf92ceac3f46d1cef17739f39ea0f",
+      "decided_at": "2026-10-01T08:32:43.701050+00:00"
     },
-    "1049285": {
+    "1075857": {
       "framework": "typesafe_system_one_compatible",
       "enabled": true,
       "mode": "typesafe_observational_free_credits",
@@ -201,16 +171,46 @@
       "findings": [
         "public blockers: legal_full"
       ],
-      "confidence": 0.694,
+      "confidence": 0.674,
+      "usage": {
+        "input_tokens": 1089,
+        "output_tokens": 198
+      },
+      "free_credits_only": true,
+      "risk_score": 1.56,
+      "model": "jev-1.13.0",
+      "state_signature": "9cd2800fc8d4cac3636219a503b910fbb2b0924bd299e98e77065bc73dc4dcbb",
+      "decided_at": "2026-10-01T08:32:43.944823+00:00"
+    },
+    "1049285": {
+      "framework": "typesafe_system_one_compatible",
+      "enabled": true,
+      "mode": "typesafe_observational_free_credits",
+      "source": "typesafe",
+      "paid_api_called": false,
+      "enforced": false,
+      "grade_advisory": "hold",
+      "legal_gate_advisory": "review",
+      "risk_level": "high",
+      "risk_points": 1,
+      "team_routes": [
+        "legal"
+      ],
+      "model_route": "human",
+      "model_route_confidence": 0.92,
+      "findings": [
+        "public blockers: legal_full"
+      ],
+      "confidence": 0.71,
       "usage": {
         "input_tokens": 1096,
         "output_tokens": 198
       },
       "free_credits_only": true,
-      "risk_score": 1.52,
+      "risk_score": 1.57,
       "model": "jev-1.13.0",
       "state_signature": "e05a0e27591e0c95f4d9b69ae7367544fdcdf352632872cce305bc9033dca5a5",
-      "decided_at": "2026-10-01T01:17:23.848128+00:00"
+      "decided_at": "2026-10-01T08:32:44.161346+00:00"
     },
     "1067495": {
       "framework": "typesafe_system_one_compatible",
@@ -247,9 +247,9 @@
       "source": "typesafe",
       "paid_api_called": false,
       "enforced": false,
-      "grade_advisory": "hold",
+      "grade_advisory": "review",
       "legal_gate_advisory": "review",
-      "risk_level": "high",
+      "risk_level": "medium",
       "risk_points": 1,
       "team_routes": [
         "legal"
@@ -259,16 +259,16 @@
       "findings": [
         "public blockers: legal_full"
       ],
-      "confidence": 0.692,
+      "confidence": 0.702,
       "usage": {
         "input_tokens": 1094,
         "output_tokens": 198
       },
       "free_credits_only": true,
-      "risk_score": 1.51,
+      "risk_score": 1.49,
       "model": "jev-1.13.0",
       "state_signature": "72531625bdb11b67ee797df5b076b36210e54f4a386ed65f9afe25a575270ba5",
-      "decided_at": "2026-10-01T01:17:24.227661+00:00"
+      "decided_at": "2026-10-01T08:32:44.339117+00:00"
     },
     "1042619": {
       "framework": "typesafe_system_one_compatible",
@@ -310,28 +310,28 @@
       "grade_advisory": "hold",
       "legal_gate_advisory": "block",
       "risk_level": "critical",
-      "risk_points": 7,
+      "risk_points": 8,
       "team_routes": [
         "legal",
         "listing"
       ],
       "model_route": "human",
-      "model_route_confidence": 0.89,
+      "model_route_confidence": 0.92,
       "findings": [
         "draft blockers: copy, us_label, legal",
         "public blockers: copy, us_label, legal, legal_full",
         "legal hard block"
       ],
-      "confidence": 0.906,
+      "confidence": 0.914,
       "usage": {
         "input_tokens": 1113,
         "output_tokens": 198
       },
       "free_credits_only": true,
-      "risk_score": 2.68,
+      "risk_score": 2.71,
       "model": "jev-1.13.0",
-      "state_signature": "b0582cacf994482e3059f0d2ae9df7f5c57a4a9358f95651c17206ce007a8ad0",
-      "decided_at": "2026-10-01T01:17:24.042597+00:00"
+      "state_signature": "6a8717070ad2bca1105bb9417b1c344a694d4ce599eb319fe88ce4fd91ae93ff",
+      "decided_at": "2026-10-01T08:32:44.520271+00:00"
     },
     "1053482": {
       "framework": "typesafe_system_one_compatible",
@@ -348,11 +348,11 @@
         "legal"
       ],
       "model_route": "human",
-      "model_route_confidence": 0.94,
+      "model_route_confidence": 0.92,
       "findings": [
         "public blockers: legal_full"
       ],
-      "confidence": 0.7,
+      "confidence": 0.708,
       "usage": {
         "input_tokens": 1097,
         "output_tokens": 198
@@ -361,7 +361,7 @@
       "risk_score": 1.56,
       "model": "jev-1.13.0",
       "state_signature": "567e5d2b0760589d9239f3afb50a6bf184726911f277cecd34da4511b62b460b",
-      "decided_at": "2026-09-30T01:13:31.053522+00:00"
+      "decided_at": "2026-10-01T08:32:44.702124+00:00"
     },
     "1060489": {
       "framework": "typesafe_system_one_compatible",
@@ -430,6 +430,40 @@
       "model": "jev-1.13.0",
       "state_signature": "d45cb91bf655d7f557158486da30baf5a2606831631fc5ecd8cd0d39bbb53377",
       "decided_at": "2026-09-30T20:44:29.136864+00:00"
+    },
+    "1061918": {
+      "framework": "typesafe_system_one_compatible",
+      "enabled": true,
+      "mode": "typesafe_observational_free_credits",
+      "source": "typesafe",
+      "paid_api_called": false,
+      "enforced": false,
+      "grade_advisory": "hold",
+      "legal_gate_advisory": "block",
+      "risk_level": "critical",
+      "risk_points": 8,
+      "team_routes": [
+        "legal",
+        "sourcing",
+        "listing"
+      ],
+      "model_route": "human",
+      "model_route_confidence": 0.94,
+      "findings": [
+        "draft blockers: copy, gosi, us_label, legal",
+        "public blockers: copy, gosi, us_label, legal, legal_full",
+        "legal hard block"
+      ],
+      "confidence": 0.954,
+      "usage": {
+        "input_tokens": 1141,
+        "output_tokens": 198
+      },
+      "free_credits_only": true,
+      "risk_score": 2.87,
+      "model": "jev-1.13.0",
+      "state_signature": "03bd1da026d9c8d55c3363adbafd8697ee60acb28500dffa8780a0393c2e941c",
+      "decided_at": "2026-10-01T08:32:43.337059+00:00"
     }
   }
 }

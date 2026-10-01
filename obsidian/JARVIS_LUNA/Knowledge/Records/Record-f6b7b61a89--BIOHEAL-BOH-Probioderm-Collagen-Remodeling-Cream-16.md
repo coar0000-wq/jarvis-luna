@@ -2,7 +2,7 @@
 title: "Record f6b7b61a89 · BIOHEAL-BOH-Probioderm-Collagen-Remodeling-Cream-169-fl-oz50ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:16.551564+00:00
+updated_at: 2026-10-01T08:34:43.752096+00:00
 tags: [record, real-data]
 ---
 

@@ -1,14 +1,17 @@
 {
-  "generated_at": "2026-10-01T01:17:22.500422+00:00",
+  "generated_at": "2026-10-01T08:32:42.563838+00:00",
   "generator": "scripts/prepare_legal_export.py",
   "왜": "법률팀이 '검토 0건, 5항목 대기' 였는데 그 다섯 중 넷은 이미 저장소에 있는 값으로 채울 수 있었다. 먼저 채우고 사람은 확인만 한다.",
   "hs_출처": "hts.usitc.gov/reststop/search (미국 국제무역위원회 공식)",
   "hs_주의": "여기서 정하는 건 후보다. 세부 통계부호는 통관사가 확정해야 한다.",
   "label_기준": "FDA 21 CFR 701 Subpart A / FPLA",
   "total": 10,
-  "hs_filled_this_run": 0,
+  "hs_filled_this_run": 1,
   "label_complete": 0,
   "사람이_채워야_하는_칸": [
+    "내용량",
+    "원산지",
+    "전성분",
     "제품 정체 표시",
     "책임자 이름·주소"
   ],
@@ -71,91 +74,6 @@
           "ingredients": {
             "label": "전성분",
             "value": "정제수, 메틸프로판다이올, 글리세린, 카프릴릭/카프릭트라이글리세라이드, 나이아신아마이드, 폴리글리세릴-3다이스테아레이트, 세테아릴알코올, 하이드록시아세토페논, 알지닌, 카보머, 암모늄아크릴로일다이메틸타우레이트/브이피코폴리머, 글리세릴스테아레이트시트레이트, 알란토인, 잔탄검, 소듐디엔에이(100ppm), 아데노신, 다이소듐이디티에이, 글루코노락톤, 향료, 광곽향오일",
-            "rule": "정보표시면. INCI 명칭, 함량 내림차순, 1% 미만은 순서 무관"
-          },
-          "responsible_party": {
-            "label": "책임자 이름·주소",
-            "value": "",
-            "rule": "제조자·포장자·유통자 중 하나. 도시·주·우편번호 포함"
-          },
-          "country_of_origin": {
-            "label": "원산지",
-            "value": "한국",
-            "rule": "수입품은 Made in Korea 등 표기"
-          },
-          "warnings": {
-            "label": "경고 문구",
-            "value": "If irritation occurs, discontinue use. Keep out of reach of children. For external use only.",
-            "rule": "해당 시. 사용 중 이상 발생 시 사용 중단 등"
-          }
-        },
-        "missing": [
-          "책임자 이름·주소"
-        ],
-        "note": "전성분은 한글이다. 미국 라벨에는 INCI 영문명이 필요하다. 번역이 아니라 표준 명칭 대조라서 사람이 확인해야 한다.",
-        "inci_status": "korean_only"
-      },
-      "hard_block": false,
-      "hard_block_reason": ""
-    },
-    {
-      "pd_no": "1049275",
-      "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
-      "bucket": "스킨케어",
-      "grade": "S",
-      "용도": "스킨케어",
-      "성분": "정제수, 다이프로필렌글라이콜, 글리세린, 나이아신아마이드, 부틸렌글라이콜, 마카다미아씨오일, 1,2-헥산다이올, 에틸헥실팔미테이트, 소듐아크릴레이트/소듐아크릴로일다이메틸타우레이트코폴리머, 폴리아이소부텐, 실리카, 글리세레스-26, 에틸헥실글리세린, 카프릴릴글라이콜, 아데노신, 소듐폴리아크릴레이트, 소듐하이알루로네이트, 병풀추출물, 카프릴릴/카프릴글루코사이드",
-      "제조국": "한국",
-      "내용량": "2ml",
-      "제조업자": "화장품제조업자: ㈜이앤씨 / 화장품책임판매업자: ㈜브이티코스메틱",
-      "name_en": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6ea",
-      "product_type_en": "Face Serum",
-      "hs": {
-        "code": "3304.99",
-        "basis": "버킷 '스킨케어'",
-        "label": "",
-        "official": [
-          {
-            "htsno": "3304",
-            "description": "Beauty or make-up preparations and preparations for the care of the skin (other than medicaments), including sunscreen o"
-          },
-          {
-            "htsno": "3304.10.00.00",
-            "description": "Lip make-up preparations"
-          },
-          {
-            "htsno": "3304.20.00.00",
-            "description": "Eye make-up preparations"
-          },
-          {
-            "htsno": "3304.30.00.00",
-            "description": "Manicure or pedicure preparations"
-          },
-          {
-            "htsno": "3305",
-            "description": "Preparations for use on the hair:"
-          },
-          {
-            "htsno": "3305.20.00.00",
-            "description": "Preparations for permanent waving or straightening"
-          }
-        ]
-      },
-      "label": {
-        "draft": {
-          "product_identity": {
-            "label": "제품 정체 표시",
-            "value": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6ea",
-            "rule": "주표시면. 무엇인지 알 수 있는 이름이나 설명"
-          },
-          "net_quantity": {
-            "label": "내용량",
-            "value": "2ml",
-            "rule": "주표시면 하단 30% 안. 미터법과 야드파운드법 병기"
-          },
-          "ingredients": {
-            "label": "전성분",
-            "value": "정제수, 다이프로필렌글라이콜, 글리세린, 나이아신아마이드, 부틸렌글라이콜, 마카다미아씨오일, 1,2-헥산다이올, 에틸헥실팔미테이트, 소듐아크릴레이트/소듐아크릴로일다이메틸타우레이트코폴리머, 폴리아이소부텐, 실리카, 글리세레스-26, 에틸헥실글리세린, 카프릴릴글라이콜, 아데노신, 소듐폴리아크릴레이트, 소듐하이알루로네이트, 병풀추출물, 카프릴릴/카프릴글루코사이드, 솔비탄올리에이트, 잔탄검, 프로폴리스추출물, 아시아티코사이드, 마데카소사이드, 마데카식애씨드, 아시아틱애씨드, 글라이신, 세린, 글루타믹애씨드, 아스파틱애씨드, 류신, 알라닌, 라이신, 알지닌, 타이로신, 페닐알라닌, 트레오닌, 프롤린, 발린, 아이소류신, 히스티딘, 메티오닌, 시스테인",
             "rule": "정보표시면. INCI 명칭, 함량 내림차순, 1% 미만은 순서 무관"
           },
           "responsible_party": {
@@ -780,20 +698,20 @@
       "hard_block_reason": ""
     },
     {
-      "pd_no": "1042619",
-      "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
-      "bucket": "마스크팩",
+      "pd_no": "1053482",
+      "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
+      "bucket": "스킨케어",
       "grade": "S",
-      "용도": "마스크팩",
-      "성분": "정제수, 글리세린, 나이아신아마이드, 캐롭검, 아이리쉬모스추출물, 1,2-헥산다이올, 펜틸렌글라이콜, 에틸헥실글리세린, 콜라겐추출물(686,000ppb), 아데노신, 다이소듐이디티에이, 글리세릴글루코사이드, 폴리글리세릴-6카프릴레이트, 폴리글리세릴-4카프레이트, 토코페롤",
+      "용도": "스킨케어",
+      "성분": "정제수, 다이프로필렌글라이콜, 글리세린, 프로판다이올, 솔비톨, 부틸렌글라이콜, 나이아신아마이드, 아이소펜틸다이올, 글리세레스-25피씨에이아이소스테아레이트, 판테놀, 글리세릴글루코사이드, 하이드록시아세토페논, 1,2-헥산다이올, 카프릴릴글라이콜, 엑토인, 너도밤나무싹추출물, 마트리카리아꽃추출물, 에난티아 클로란타껍질추출물, 버지니아풍년화추출물, 베타인, 시",
       "제조국": "한국",
-      "내용량": "29g",
-      "제조업자": "㈜제닉 (충청남도 논산시 성동면 산업단지로5길 5)",
-      "name_en": "CELDERMA Daily Collagen Gel Sheet Mask 29g",
-      "product_type_en": "Gel Sheet Mask",
+      "내용량": "200ml",
+      "제조업자": "화장품제조업자: 제품 내 별도표기 / 화장품책임판매업자: 주식회사 스킨이데아",
+      "name_en": "MEDI-PEEL Face Toner 200ml",
+      "product_type_en": "Face Toner",
       "hs": {
         "code": "3304.99",
-        "basis": "버킷 '마스크팩'",
+        "basis": "버킷 '스킨케어'",
         "label": "",
         "official": [
           {
@@ -826,17 +744,17 @@
         "draft": {
           "product_identity": {
             "label": "제품 정체 표시",
-            "value": "CELDERMA Daily Collagen Gel Sheet Mask 29g",
+            "value": "MEDI-PEEL Face Toner 200ml",
             "rule": "주표시면. 무엇인지 알 수 있는 이름이나 설명"
           },
           "net_quantity": {
             "label": "내용량",
-            "value": "29g",
+            "value": "200ml",
             "rule": "주표시면 하단 30% 안. 미터법과 야드파운드법 병기"
           },
           "ingredients": {
             "label": "전성분",
-            "value": "정제수, 글리세린, 나이아신아마이드, 캐롭검, 아이리쉬모스추출물, 1,2-헥산다이올, 펜틸렌글라이콜, 에틸헥실글리세린, 콜라겐추출물(686,000ppb), 아데노신, 다이소듐이디티에이, 글리세릴글루코사이드, 폴리글리세릴-6카프릴레이트, 폴리글리세릴-4카프레이트, 토코페롤",
+            "value": "정제수, 다이프로필렌글라이콜, 글리세린, 프로판다이올, 솔비톨, 부틸렌글라이콜, 나이아신아마이드, 아이소펜틸다이올, 글리세레스-25피씨에이아이소스테아레이트, 판테놀, 글리세릴글루코사이드, 하이드록시아세토페논, 1,2-헥산다이올, 카프릴릴글라이콜, 엑토인, 너도밤나무싹추출물, 마트리카리아꽃추출물, 에난티아 클로란타껍질추출물, 버지니아풍년화추출물, 베타인, 시트릭애씨드, 글루코노락톤, 락틱애씨드, 살리실릭애씨드, 카프릴로일살리실릭애씨드, 자일리틸글루코사이드, 안하이드로자일리톨, 자일리톨, 포도추출물, 감나무잎추출물, 커피콩추출물, 호장근뿌리추출물, 잇꽃꽃추출물, 녹차추출물, 밤껍질추출물, 초피나무열매추출물, 부틸아보카데이트, 병풀추출물, 에틸헥실글리세린, 글루코오스, 올레아놀릭애씨드, 매실추출물, 사과추출물, 파파야열매추출물, 유자추출물, 소나무잎추출물, 개똥쑥추출물, 폴리글리세릴-10라우레이트, 벤질글라이콜, 하이드롤라이즈드글라이코사미노글리칸, 소듐하이알루로네이트, 토코페롤, 락토바실러스/콩발효추출물, 쇠비름추출물, 오레가노잎추출물, 육계나무껍질추출물, 흰버드나무껍질추출물, 황금추출물, 소듐하이알루로네이트크로스폴리머, 편백잎추출물, 하이드롤라이즈드하이알루로닉애씨드, 아세틸헥사펩타이드-8, 카퍼트라이펩타이드-1, 트라이펩타이드-1, 팔미토일펜타펩타이드-4, 하이드록시프로필트라이모늄하이알루로네이트, 알라닌/히스티딘/라이신폴리펩타이드카퍼에이치씨엘, 팔미토일트라이펩타이드-1, 헥사펩타이드-9, 하이알루로닉애씨드, 소듐아세틸레이티드하이알루로네이트, 가지열매추출물, 목련나무껍질추출물, 카카두플럼추출물, 까무까무열매추출물, 치자추출물, 아데노신, 다이소듐이디티에이, 알란토인, 페퍼민트오일, 다이포타슘글리시리제이트",
             "rule": "정보표시면. INCI 명칭, 함량 내림차순, 1% 미만은 순서 무관"
           },
           "responsible_party": {
@@ -851,7 +769,7 @@
           },
           "warnings": {
             "label": "경고 문구",
-            "value": "If irritation occurs, discontinue use. Keep out of reach of children. For external use only.",
+            "value": "If irritation occurs, discontinue use. Keep out of reach of children. For external use only. Sunburn Alert: This product contains an alpha hydroxy acid (AHA) that may increase your skin's sensitivity to the sun and particularly the possibility of sunburn. Use a sunscreen and limit sun exposure.",
             "rule": "해당 시. 사용 중 이상 발생 시 사용 중단 등"
           }
         },
@@ -863,6 +781,95 @@
       },
       "hard_block": false,
       "hard_block_reason": ""
+    },
+    {
+      "pd_no": "1061918",
+      "name": "[기미잡티리셋]본셉 비타씨 동결 건조 더블샷 앰플 키트",
+      "bucket": "스킨케어",
+      "grade": "S",
+      "용도": "스킨케어",
+      "성분": "",
+      "제조국": "",
+      "내용량": "",
+      "제조업자": "",
+      "name_en": "",
+      "product_type_en": "",
+      "hs": {
+        "code": "3304.99",
+        "basis": "버킷 '스킨케어'",
+        "label": "",
+        "official": [
+          {
+            "htsno": "3304",
+            "description": "Beauty or make-up preparations and preparations for the care of the skin (other than medicaments), including sunscreen o"
+          },
+          {
+            "htsno": "3304.10.00.00",
+            "description": "Lip make-up preparations"
+          },
+          {
+            "htsno": "3304.20.00.00",
+            "description": "Eye make-up preparations"
+          },
+          {
+            "htsno": "3304.30.00.00",
+            "description": "Manicure or pedicure preparations"
+          },
+          {
+            "htsno": "3305",
+            "description": "Preparations for use on the hair:"
+          },
+          {
+            "htsno": "3305.20.00.00",
+            "description": "Preparations for permanent waving or straightening"
+          }
+        ]
+      },
+      "label": {
+        "draft": {
+          "product_identity": {
+            "label": "제품 정체 표시",
+            "value": "",
+            "rule": "주표시면. 무엇인지 알 수 있는 이름이나 설명"
+          },
+          "net_quantity": {
+            "label": "내용량",
+            "value": "",
+            "rule": "주표시면 하단 30% 안. 미터법과 야드파운드법 병기"
+          },
+          "ingredients": {
+            "label": "전성분",
+            "value": "",
+            "rule": "정보표시면. INCI 명칭, 함량 내림차순, 1% 미만은 순서 무관"
+          },
+          "responsible_party": {
+            "label": "책임자 이름·주소",
+            "value": "",
+            "rule": "제조자·포장자·유통자 중 하나. 도시·주·우편번호 포함"
+          },
+          "country_of_origin": {
+            "label": "원산지",
+            "value": "",
+            "rule": "수입품은 Made in Korea 등 표기"
+          },
+          "warnings": {
+            "label": "경고 문구",
+            "value": "If irritation occurs, discontinue use. Keep out of reach of children. For external use only.",
+            "rule": "해당 시. 사용 중 이상 발생 시 사용 중단 등"
+          }
+        },
+        "missing": [
+          "제품 정체 표시",
+          "내용량",
+          "전성분",
+          "책임자 이름·주소",
+          "원산지"
+        ],
+        "note": "전성분은 한글이다. 미국 라벨에는 INCI 영문명이 필요하다. 번역이 아니라 표준 명칭 대조라서 사람이 확인해야 한다.",
+        "inci_status": "no_ingredients"
+      },
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields"
     }
   ]
 }

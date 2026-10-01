@@ -2,7 +2,7 @@
 title: "Record 4464d0675f · Raise-Robotics-to-discuss-scaling-field-robots-at-RoboBusiness"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:17.350983+00:00
+updated_at: 2026-10-01T08:34:44.524775+00:00
 tags: [record, real-data]
 ---
 

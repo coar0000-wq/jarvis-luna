@@ -2,7 +2,7 @@
 title: "Record 7ef446a0a5 · Wonderbalm-steps-up-global-travel-retail-push-for-K"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:16.259315+00:00
+updated_at: 2026-10-01T08:34:43.507241+00:00
 tags: [record, real-data]
 ---
 

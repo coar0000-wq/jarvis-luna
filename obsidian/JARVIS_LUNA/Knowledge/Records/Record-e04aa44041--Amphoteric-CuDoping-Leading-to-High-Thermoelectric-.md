@@ -2,7 +2,7 @@
 title: "Record e04aa44041 · Amphoteric-CuDoping-Leading-to-High-Thermoelectric-Performance-in-p-Ty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:14.625971+00:00
+updated_at: 2026-10-01T08:34:42.101216+00:00
 tags: [record, real-data]
 ---
 

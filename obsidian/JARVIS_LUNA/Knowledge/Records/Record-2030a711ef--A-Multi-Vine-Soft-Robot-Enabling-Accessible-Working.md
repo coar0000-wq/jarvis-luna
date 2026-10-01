@@ -2,7 +2,7 @@
 title: "Record 2030a711ef · A-Multi-Vine-Soft-Robot-Enabling-Accessible-Working"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:10.618651+00:00
+updated_at: 2026-10-01T08:34:41.767680+00:00
 tags: [record, real-data]
 ---
 

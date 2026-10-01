@@ -2,7 +2,7 @@
 title: "Record fc64df7365 · EvoSherlock-Towards-Agentic-Lifelong-Evolution-for-Unseen-Long-Tailed-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:15.352660+00:00
+updated_at: 2026-10-01T08:34:42.647758+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 54e2fafbd4 · Why-you-should-look-beyond-the-spec-sheet-when-choosing-motion-archite"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:17.366843+00:00
+updated_at: 2026-10-01T08:34:44.540617+00:00
 tags: [record, real-data]
 ---
 

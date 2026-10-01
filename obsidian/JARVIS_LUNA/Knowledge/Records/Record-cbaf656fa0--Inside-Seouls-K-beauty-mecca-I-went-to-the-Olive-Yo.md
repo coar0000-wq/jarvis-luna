@@ -2,7 +2,7 @@
 title: "Record cbaf656fa0 · Inside-Seouls-K-beauty-mecca-I-went-to-the-Olive-Young-flagship-to-see"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:15.998596+00:00
+updated_at: 2026-10-01T08:34:43.266235+00:00
 tags: [record, real-data]
 ---
 

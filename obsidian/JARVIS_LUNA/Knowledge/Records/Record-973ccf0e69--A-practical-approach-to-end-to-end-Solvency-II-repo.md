@@ -2,7 +2,7 @@
 title: "Record 973ccf0e69 · A-practical-approach-to-end-to-end-Solvency-II-repo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:17.153876+00:00
+updated_at: 2026-10-01T08:34:44.338770+00:00
 tags: [record, real-data]
 ---
 

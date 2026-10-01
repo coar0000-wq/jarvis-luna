@@ -2,7 +2,7 @@
 title: "Record 1e8739b485 · Time-Stop-Collagen-Ampoule"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:16.504560+00:00
+updated_at: 2026-10-01T08:34:43.708160+00:00
 tags: [record, real-data]
 ---
 

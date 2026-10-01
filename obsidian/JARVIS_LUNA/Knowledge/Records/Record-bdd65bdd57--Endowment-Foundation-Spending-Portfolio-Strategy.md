@@ -2,7 +2,7 @@
 title: "Record bdd65bdd57 · Endowment-Foundation-Spending-Portfolio-Strategy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:17.307185+00:00
+updated_at: 2026-10-01T08:34:44.482292+00:00
 tags: [record, real-data]
 ---
 

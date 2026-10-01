@@ -1,14 +1,14 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-10-01T01:07:20.039097+00:00",
+  "collected_at": "2026-10-01T08:18:39.767300+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
     "SkincareAddiction",
     "AsianBeautyAdvice"
   ],
-  "post_count": 24,
+  "post_count": 25,
   "per_subreddit": [
     {
       "subreddit": "AsianBeauty",
@@ -44,10 +44,6 @@
   ],
   "hot_keywords": [
     {
-      "keyword": "skin",
-      "score": 6
-    },
-    {
       "keyword": "september",
       "score": 4
     },
@@ -56,19 +52,23 @@
       "score": 4
     },
     {
+      "keyword": "korean",
+      "score": 4
+    },
+    {
+      "keyword": "skincare",
+      "score": 4
+    },
+    {
       "keyword": "products",
       "score": 4
     },
     {
-      "keyword": "makeup",
-      "score": 3
+      "keyword": "skin",
+      "score": 4
     },
     {
       "keyword": "lip",
-      "score": 3
-    },
-    {
-      "keyword": "tint",
       "score": 3
     },
     {
@@ -76,27 +76,11 @@
       "score": 3
     },
     {
+      "keyword": "makeup",
+      "score": 2
+    },
+    {
       "keyword": "mask",
-      "score": 2
-    },
-    {
-      "keyword": "mamonde",
-      "score": 2
-    },
-    {
-      "keyword": "creamy",
-      "score": 2
-    },
-    {
-      "keyword": "colorbalm",
-      "score": 2
-    },
-    {
-      "keyword": "coming",
-      "score": 2
-    },
-    {
-      "keyword": "backkk",
       "score": 2
     },
     {
@@ -108,6 +92,10 @@
       "score": 2
     },
     {
+      "keyword": "sunscreen",
+      "score": 2
+    },
+    {
       "keyword": "anything",
       "score": 2
     },
@@ -116,7 +104,11 @@
       "score": 2
     },
     {
-      "keyword": "blush",
+      "keyword": "tint",
+      "score": 2
+    },
+    {
+      "keyword": "like",
       "score": 2
     },
     {
@@ -128,7 +120,7 @@
       "score": 2
     },
     {
-      "keyword": "recommendations",
+      "keyword": "moisturizer",
       "score": 2
     },
     {
@@ -156,6 +148,42 @@
       "score": 1
     },
     {
+      "keyword": "import",
+      "score": 1
+    },
+    {
+      "keyword": "taxes",
+      "score": 1
+    },
+    {
+      "keyword": "orders",
+      "score": 1
+    },
+    {
+      "keyword": "europe",
+      "score": 1
+    },
+    {
+      "keyword": "annoying",
+      "score": 1
+    },
+    {
+      "keyword": "best",
+      "score": 1
+    },
+    {
+      "keyword": "place",
+      "score": 1
+    },
+    {
+      "keyword": "japan",
+      "score": 1
+    },
+    {
+      "keyword": "consult",
+      "score": 1
+    },
+    {
       "keyword": "finally",
       "score": 1
     },
@@ -174,43 +202,31 @@
     {
       "keyword": "every",
       "score": 1
-    },
-    {
-      "keyword": "day",
-      "score": 1
-    },
-    {
-      "keyword": "hince",
-      "score": 1
-    },
-    {
-      "keyword": "radiance",
-      "score": 1
-    },
-    {
-      "keyword": "balm",
-      "score": 1
-    },
-    {
-      "keyword": "swatches",
-      "score": 1
-    },
-    {
-      "keyword": "shades",
-      "score": 1
-    },
-    {
-      "keyword": "daylight",
-      "score": 1
     }
   ],
   "beauty_keywords": [
     {
+      "keyword": "korean",
+      "score": 4
+    },
+    {
+      "keyword": "skincare",
+      "score": 4
+    },
+    {
       "keyword": "skin",
-      "score": 6
+      "score": 4
     },
     {
       "keyword": "mask",
+      "score": 2
+    },
+    {
+      "keyword": "sunscreen",
+      "score": 2
+    },
+    {
+      "keyword": "moisturizer",
       "score": 2
     }
   ],
@@ -230,6 +246,20 @@
       "feed": "hot"
     },
     {
+      "title": "import taxes on korean skincare orders in europe are so annoying",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wun1ra/import_taxes_on_korean_skincare_orders_in_europe/",
+      "published": "2026-10-01T01:49:17+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Best place to go in Japan for skincare consult?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wup94r/best_place_to_go_in_japan_for_skincare_consult/",
+      "published": "2026-10-01T03:42:26+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Finally found a lip mask I actually reach for every day",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtrev9/finally_found_a_lip_mask_i_actually_reach_for/",
       "published": "2026-09-30T00:56:45+00:00",
@@ -237,9 +267,16 @@
       "feed": "hot"
     },
     {
-      "title": "Mamonde Creamy Tint colorbalm coming backkk!",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wul1am/mamonde_creamy_tint_colorbalm_coming_backkk/",
-      "published": "2026-10-01T00:11:16+00:00",
+      "title": "Testing new products. How long you apply the product before adding a new one? and how many new products you apply at the same time? I need tips ...",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wuj7t8/testing_new_products_how_long_you_apply_the/",
+      "published": "2026-09-30T22:47:29+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Where to find this Green Finger Sunscreen stick?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wuonrl/where_to_find_this_green_finger_sunscreen_stick/",
+      "published": "2026-10-01T03:10:51+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -258,16 +295,16 @@
       "feed": "hot"
     },
     {
-      "title": "Testing new products. How long you apply the product before adding a new one? and how many new products you apply at the same time? I need tips ...",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wuj7t8/testing_new_products_how_long_you_apply_the/",
-      "published": "2026-09-30T22:47:29+00:00",
+      "title": "Anything Goes Wednesday: September 30, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wug5pt/anything_goes_wednesday_september_30_2026/",
+      "published": "2026-09-30T20:39:14+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Anything Goes Wednesday: September 30, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wug5pt/anything_goes_wednesday_september_30_2026/",
-      "published": "2026-09-30T20:39:14+00:00",
+      "title": "Mamonde Creamy Tint colorbalm coming backkk!",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtzqli/mamonde_creamy_tint_colorbalm_coming_backkk/",
+      "published": "2026-09-30T08:44:04+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -279,9 +316,9 @@
       "feed": "hot"
     },
     {
-      "title": "Beige blush / \"anti-blush\" comparison",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtbcwj/beige_blush_antiblush_comparison/",
-      "published": "2026-09-29T14:17:59+00:00",
+      "title": "How do korean women look like this? Is this edited?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wusrdi/how_do_korean_women_look_like_this_is_this_edited/",
+      "published": "2026-10-01T07:06:54+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -293,9 +330,23 @@
       "feed": "hot"
     },
     {
+      "title": "Beige blush / \"anti-blush\" comparison",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtbcwj/beige_blush_antiblush_comparison/",
+      "published": "2026-09-29T14:17:59+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "What’s your favorite mugwort product?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtqbf3/whats_your_favorite_mugwort_product/",
       "published": "2026-09-30T00:04:54+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "A moisturizer I’ve been enjoying lately.",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wuqa3k/a_moisturizer_ive_been_enjoying_lately/",
+      "published": "2026-10-01T04:38:20+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -352,34 +403,6 @@
       "title": "TRYING to order this pimple patch brand",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wt4ubk/trying_to_order_this_pimple_patch_brand/",
       "published": "2026-09-29T08:44:29+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Anybody knows offline stores which carry Bonnyhill lotions in Korea?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wt6oht/anybody_knows_offline_stores_which_carry/",
-      "published": "2026-09-29T10:37:08+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Blush and lippie rec",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wsiar3/blush_and_lippie_rec/",
-      "published": "2026-09-28T15:51:04+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Makeup for dry skin?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wseorh/makeup_for_dry_skin/",
-      "published": "2026-09-28T13:30:21+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "japanese bath powder/salt recommendations",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wsjehd/japanese_bath_powdersalt_recommendations/",
-      "published": "2026-09-28T16:30:52+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

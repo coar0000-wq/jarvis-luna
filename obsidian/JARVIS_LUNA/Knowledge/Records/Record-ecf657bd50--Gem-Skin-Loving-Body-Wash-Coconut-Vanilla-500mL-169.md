@@ -2,7 +2,7 @@
 title: "Record ecf657bd50 · Gem-Skin-Loving-Body-Wash-Coconut-Vanilla-500mL-169-fl-oz"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:17.423079+00:00
+updated_at: 2026-10-01T08:34:44.590562+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 55797ceabe · numbuzin-No9-NAD-BIO-Lifting-sil-Essence-169-fl-oz50ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:16.602233+00:00
+updated_at: 2026-10-01T08:34:43.804444+00:00
 tags: [record, real-data]
 ---
 

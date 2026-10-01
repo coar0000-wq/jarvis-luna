@@ -2,7 +2,7 @@
 title: "Record 66e8b2a612 · Helicon-brings-automation-to-high-volume-composites-manufacturing"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:17.332761+00:00
+updated_at: 2026-10-01T08:34:44.506827+00:00
 tags: [record, real-data]
 ---
 

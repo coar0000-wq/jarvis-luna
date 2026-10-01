@@ -2,7 +2,7 @@
 title: "Record b87f249891 · ASCEND-Personal-AI-Agents-for-Autonomous-Scientific-Computing-Across-H"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:15.502081+00:00
+updated_at: 2026-10-01T08:34:42.798473+00:00
 tags: [record, real-data]
 ---
 

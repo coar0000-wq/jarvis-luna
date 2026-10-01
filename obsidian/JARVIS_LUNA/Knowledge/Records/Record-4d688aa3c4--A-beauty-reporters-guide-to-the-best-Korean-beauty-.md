@@ -2,7 +2,7 @@
 title: "Record 4d688aa3c4 · A-beauty-reporters-guide-to-the-best-Korean-beauty-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:16.191187+00:00
+updated_at: 2026-10-01T08:34:43.444856+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 536ecedf80 · JUNG-KWAN-JANG-Glpro-Double-Cut-085-fl-oz25ml-x-8ea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:16.572935+00:00
+updated_at: 2026-10-01T08:34:43.771560+00:00
 tags: [record, real-data]
 ---
 

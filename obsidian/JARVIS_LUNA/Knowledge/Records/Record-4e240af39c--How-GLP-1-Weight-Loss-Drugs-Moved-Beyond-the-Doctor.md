@@ -2,7 +2,7 @@
 title: "Record 4e240af39c · How-GLP-1-Weight-Loss-Drugs-Moved-Beyond-the-Doctor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:16.693261+00:00
+updated_at: 2026-10-01T08:34:43.889594+00:00
 tags: [record, real-data]
 ---
 

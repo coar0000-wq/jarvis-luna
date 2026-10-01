@@ -2,7 +2,7 @@
 title: "Record fbb52d3a0c · One-year-in-How-Microsoft-Research-Asia--Singapore-is-advancing-resear"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:17.232738+00:00
+updated_at: 2026-10-01T08:34:44.409485+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1fe37d6c9b · Unifying-Image-Quality-Assessment-Datasets-MOSAIQ-500K-and-MOSAIQ-Benc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:16.472190+00:00
+updated_at: 2026-10-01T08:34:43.686732+00:00
 tags: [record, real-data]
 ---
 

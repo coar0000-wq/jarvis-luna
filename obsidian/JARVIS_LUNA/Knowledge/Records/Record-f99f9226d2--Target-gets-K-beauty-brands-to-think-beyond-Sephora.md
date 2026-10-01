@@ -2,7 +2,7 @@
 title: "Record f99f9226d2 · Target-gets-K-beauty-brands-to-think-beyond-Sephora-Ulta-with-new-Beau"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:16.254619+00:00
+updated_at: 2026-10-01T08:34:43.502745+00:00
 tags: [record, real-data]
 ---
 

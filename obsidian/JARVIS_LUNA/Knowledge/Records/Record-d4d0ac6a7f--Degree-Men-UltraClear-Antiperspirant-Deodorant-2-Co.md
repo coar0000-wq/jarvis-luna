@@ -2,7 +2,7 @@
 title: "Record d4d0ac6a7f · Degree-Men-UltraClear-Antiperspirant-Deodorant-2-Count-27-oz--For-long"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:16.800819+00:00
+updated_at: 2026-10-01T08:34:43.994398+00:00
 tags: [record, real-data]
 ---
 

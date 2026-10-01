@@ -2,7 +2,7 @@
 title: "Record 74cca55d37 · The-Legendary-Korean-Brand---Beauty-of-Joseon-Is-Now-Exclusively-Avail"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:16.181093+00:00
+updated_at: 2026-10-01T08:34:43.435844+00:00
 tags: [record, real-data]
 ---
 

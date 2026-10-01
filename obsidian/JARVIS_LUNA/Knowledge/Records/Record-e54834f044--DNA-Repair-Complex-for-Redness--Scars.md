@@ -2,7 +2,7 @@
 title: "Record e54834f044 · DNA-Repair-Complex-for-Redness--Scars"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:17.380000+00:00
+updated_at: 2026-10-01T08:34:44.553197+00:00
 tags: [record, real-data]
 ---
 

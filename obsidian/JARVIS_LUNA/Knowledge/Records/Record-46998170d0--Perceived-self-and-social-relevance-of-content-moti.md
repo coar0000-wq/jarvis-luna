@@ -2,7 +2,7 @@
 title: "Record 46998170d0 · Perceived-self-and-social-relevance-of-content-motivates-news-sharing-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:15.088667+00:00
+updated_at: 2026-10-01T08:34:42.473868+00:00
 tags: [record, real-data]
 ---
 

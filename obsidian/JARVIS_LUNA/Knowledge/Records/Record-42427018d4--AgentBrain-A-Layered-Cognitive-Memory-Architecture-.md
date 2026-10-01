@@ -2,7 +2,7 @@
 title: "Record 42427018d4 · AgentBrain-A-Layered-Cognitive-Memory-Architecture-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:15.560639+00:00
+updated_at: 2026-10-01T08:34:42.854329+00:00
 tags: [record, real-data]
 ---
 

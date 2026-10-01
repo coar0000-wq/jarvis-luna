@@ -2,7 +2,7 @@
 title: "Record b28b7ddeed · Train-Where-the-Quantized-Model-Goes-On-Policy-Distillation-for-Low-Bi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:15.429926+00:00
+updated_at: 2026-10-01T08:34:42.731549+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record dbc96e50f9 · ILLIYOON-Ceramide-Ato-Soothing-Gel-591-fl-oz175ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:16.622072+00:00
+updated_at: 2026-10-01T08:34:43.823452+00:00
 tags: [record, real-data]
 ---
 

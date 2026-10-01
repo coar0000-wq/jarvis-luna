@@ -1,33 +1,20 @@
 {
-  "generated_at": "2026-10-01T01:07:45.230796+00:00",
+  "generated_at": "2026-10-01T08:19:23.764458+00:00",
   "generator": "scripts/self_improve.py",
   "principle": "무료·설정만 변경·그림자 평가 후 채택·실측 악화 시 자동 롤백",
   "loops": {
     "topics": {
       "metric": "uncategorized_rate",
-      "records": 6435,
-      "base_uncategorized": 1168,
-      "before": 0.0777,
-      "after_shadow": 0.0729,
-      "uncategorized_before": 500,
+      "records": 6459,
+      "base_uncategorized": 1175,
+      "before": 0.0726,
+      "after_shadow": 0.0726,
+      "uncategorized_before": 469,
       "uncategorized_after_shadow": 469,
-      "adopted": 1,
+      "adopted": 0,
       "learned_keywords": 18,
-      "decisions": [
-        {
-          "loop": "topics",
-          "action": "adopt",
-          "keyword": "cream",
-          "topic": "뷰티·스킨케어",
-          "precision": 0.854,
-          "support": 48,
-          "uncategorized_hits": 31,
-          "source": "us_beauty",
-          "source_fit": 0.889,
-          "newly_classified": 31
-        }
-      ],
-      "status": "adopted"
+      "decisions": [],
+      "status": "no_change"
     },
     "sourcing": {
       "metric": "useful_fetch_rate",

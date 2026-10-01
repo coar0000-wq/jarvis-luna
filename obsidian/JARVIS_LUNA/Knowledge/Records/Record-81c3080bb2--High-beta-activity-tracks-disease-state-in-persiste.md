@@ -2,7 +2,7 @@
 title: "Record 81c3080bb2 · High-beta-activity-tracks-disease-state-in-persiste"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:14.958384+00:00
+updated_at: 2026-10-01T08:34:42.381314+00:00
 tags: [record, real-data]
 ---
 

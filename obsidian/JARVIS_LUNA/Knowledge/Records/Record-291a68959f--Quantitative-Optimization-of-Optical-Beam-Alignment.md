@@ -2,7 +2,7 @@
 title: "Record 291a68959f · Quantitative-Optimization-of-Optical-Beam-Alignment-for-Throughput-Enh"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:15.120189+00:00
+updated_at: 2026-10-01T08:34:42.498568+00:00
 tags: [record, real-data]
 ---
 

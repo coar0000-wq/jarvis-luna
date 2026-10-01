@@ -2,7 +2,7 @@
 title: "Record 7226e58628 · Architecture-and-Solutions-Consulting-Lead"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:14.603672+00:00
+updated_at: 2026-10-01T08:34:42.080889+00:00
 tags: [record, real-data]
 ---
 

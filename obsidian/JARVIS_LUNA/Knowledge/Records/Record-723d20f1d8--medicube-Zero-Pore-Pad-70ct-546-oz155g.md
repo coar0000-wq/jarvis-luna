@@ -2,7 +2,7 @@
 title: "Record 723d20f1d8 · medicube-Zero-Pore-Pad-70ct-546-oz155g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:16.627642+00:00
+updated_at: 2026-10-01T08:34:43.828180+00:00
 tags: [record, real-data]
 ---
 

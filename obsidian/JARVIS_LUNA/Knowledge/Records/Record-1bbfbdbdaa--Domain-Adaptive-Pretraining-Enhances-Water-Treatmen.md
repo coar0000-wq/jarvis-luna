@@ -2,7 +2,7 @@
 title: "Record 1bbfbdbdaa · Domain-Adaptive-Pretraining-Enhances-Water-Treatment-Semantic-Represen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:15.421429+00:00
+updated_at: 2026-10-01T08:34:42.722889+00:00
 tags: [record, real-data]
 ---
 

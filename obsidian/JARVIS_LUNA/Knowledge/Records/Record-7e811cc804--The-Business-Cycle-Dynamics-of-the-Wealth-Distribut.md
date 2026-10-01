@@ -2,7 +2,7 @@
 title: "Record 7e811cc804 · The-Business-Cycle-Dynamics-of-the-Wealth-Distribution"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:14.801732+00:00
+updated_at: 2026-10-01T08:34:42.276087+00:00
 tags: [record, real-data]
 ---
 

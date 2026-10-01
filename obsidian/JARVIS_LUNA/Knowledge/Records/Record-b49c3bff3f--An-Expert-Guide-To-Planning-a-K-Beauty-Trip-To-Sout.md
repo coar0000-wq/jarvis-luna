@@ -2,7 +2,7 @@
 title: "Record b49c3bff3f · An-Expert-Guide-To-Planning-a-K-Beauty-Trip-To-South-Korea---Condé-Nas"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:16.111690+00:00
+updated_at: 2026-10-01T08:34:43.376852+00:00
 tags: [record, real-data]
 ---
 

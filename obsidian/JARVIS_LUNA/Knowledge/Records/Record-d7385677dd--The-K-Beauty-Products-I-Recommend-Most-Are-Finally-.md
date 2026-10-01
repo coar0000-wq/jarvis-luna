@@ -2,7 +2,7 @@
 title: "Record d7385677dd · The-K-Beauty-Products-I-Recommend-Most-Are-Finally-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:16.110774+00:00
+updated_at: 2026-10-01T08:34:43.376108+00:00
 tags: [record, real-data]
 ---
 

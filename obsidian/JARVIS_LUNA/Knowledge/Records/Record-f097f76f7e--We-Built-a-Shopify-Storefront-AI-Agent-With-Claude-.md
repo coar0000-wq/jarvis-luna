@@ -2,7 +2,7 @@
 title: "Record f097f76f7e · We-Built-a-Shopify-Storefront-AI-Agent-With-Claude-Opus-46---Medium"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T05:57:16.180618+00:00
+updated_at: 2026-10-01T08:34:43.435392+00:00
 tags: [record, real-data]
 ---
 
