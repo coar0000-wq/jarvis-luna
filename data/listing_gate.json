@@ -1,14 +1,14 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-01T08:32:44.702147+00:00",
+  "generated_at": "2026-10-01T12:30:41.264542+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "semantic_sources": {
       "data/product_master.json": "48a2d9076d3c3aae7fe1b8b5d98e6b349b1d24534b4d72ce80a837ba5063d86c",
-      "data/gosi.json": "b5940270d675230cf9e1527af698ea73cf792529772ffe76fff8bef05b3df21c",
-      "data/daiso_real/daiso_us_labels.json": "af1ec5cd956dba587c0f7f819ee94f5c48ffcce4bb66d1275d5afab01ef28b7f",
+      "data/gosi.json": "2219b9cca3221bacd72fbf2c535dd37e961127e4fb2310efc1e8b56f832fa9e7",
+      "data/daiso_real/daiso_us_labels.json": "6bab6b12f2034df4e8dca7c760d35a3a65346f307e95c935437d16d2f1ebaa82",
       "data/pricing_model.json": "dd30c0ad8053e2c9951e46e3356b02d933c7ebcdd46c12daf99ae5c2d3022d2f",
-      "data/legal_products.json": "01e83c1c87dd767402a3aeeac939bdc34a6479831b3634bbb7a2c454d42df3da"
+      "data/legal_products.json": "1c4d9dd6b71b3d2b6306e18446fba636779a27008fb163845d1b902f582a6d30"
     },
     "recommendations_sha256": "ed1a7be2738994d6b8c98abf35047e21916c2a08c6c9975edeeaa3c63fc609a8"
   },
@@ -35,21 +35,21 @@
   "typesafe_summary": {
     "framework": "typesafe_system_one_compatible",
     "mode_counts": {
-      "typesafe_observational_free_credits": 10
+      "typesafe_carried": 10
     },
-    "typesafe_calls": 10,
+    "typesafe_calls": 0,
     "free_credits_only": 10,
     "paid_api_calls": 0,
     "enforced": 0,
     "usage": {
-      "calls": 10,
-      "input_tokens": 11003,
-      "output_tokens": 1980,
+      "calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
       "stopped": "",
       "max_calls": 40,
       "max_input_tokens": 60000,
       "input_token_price_per_mtok_usd": 0.042,
-      "estimated_cost_usd": 0.000462,
+      "estimated_cost_usd": 0.0,
       "purchased_credits": false
     },
     "cumulative_ok_calls": 371,
@@ -121,7 +121,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -146,7 +146,8 @@
         "risk_score": 1.58,
         "model": "jev-1.13.0",
         "state_signature": "cdb95028555fb2cc1091059f8cd86fe4a993cc1cce6206584626e7d74b6ea8c6",
-        "decided_at": "2026-10-01T08:32:42.919167+00:00"
+        "decided_at": "2026-10-01T08:32:42.919167+00:00",
+        "carried_from": "2026-10-01T08:32:42.919167+00:00"
       }
     },
     {
@@ -212,7 +213,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -237,7 +238,8 @@
         "risk_score": 1.69,
         "model": "jev-1.13.0",
         "state_signature": "51d0e73d5ba5ed41de4d4bf02811433e8f7ef09ef764ae07bb5b94a8cc530ea7",
-        "decided_at": "2026-10-01T08:32:43.086254+00:00"
+        "decided_at": "2026-10-01T08:32:43.086254+00:00",
+        "carried_from": "2026-10-01T08:32:43.086254+00:00"
       }
     },
     {
@@ -255,14 +257,14 @@
       "gosi": {
         "volume": "",
         "maker": "",
-        "origin": "",
+        "origin": "한국",
         "ingredients": "",
         "gosi_ok": false
       },
       "us_label": {
         "net_contents": "",
         "manufacturer": "",
-        "country_of_origin": "",
+        "country_of_origin": "Korea",
         "ingredients_inci": "",
         "us_label_ok": false
       },
@@ -301,7 +303,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -330,7 +332,8 @@
         "risk_score": 2.87,
         "model": "jev-1.13.0",
         "state_signature": "03bd1da026d9c8d55c3363adbafd8697ee60acb28500dffa8780a0393c2e941c",
-        "decided_at": "2026-10-01T08:32:43.337059+00:00"
+        "decided_at": "2026-10-01T08:32:43.337059+00:00",
+        "carried_from": "2026-10-01T08:32:43.337059+00:00"
       }
     },
     {
@@ -396,7 +399,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -421,7 +424,8 @@
         "risk_score": 1.59,
         "model": "jev-1.13.0",
         "state_signature": "a235a30f46906db0e3e7198e8f998dc4cfdaf92ceac3f46d1cef17739f39ea0f",
-        "decided_at": "2026-10-01T08:32:43.512831+00:00"
+        "decided_at": "2026-10-01T08:32:43.512831+00:00",
+        "carried_from": "2026-10-01T08:32:43.512831+00:00"
       }
     },
     {
@@ -488,7 +492,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -513,7 +517,8 @@
         "risk_score": 1.66,
         "model": "jev-1.13.0",
         "state_signature": "a235a30f46906db0e3e7198e8f998dc4cfdaf92ceac3f46d1cef17739f39ea0f",
-        "decided_at": "2026-10-01T08:32:43.701050+00:00"
+        "decided_at": "2026-10-01T08:32:43.701050+00:00",
+        "carried_from": "2026-10-01T08:32:43.701050+00:00"
       }
     },
     {
@@ -579,7 +584,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -604,7 +609,8 @@
         "risk_score": 1.56,
         "model": "jev-1.13.0",
         "state_signature": "9cd2800fc8d4cac3636219a503b910fbb2b0924bd299e98e77065bc73dc4dcbb",
-        "decided_at": "2026-10-01T08:32:43.944823+00:00"
+        "decided_at": "2026-10-01T08:32:43.944823+00:00",
+        "carried_from": "2026-10-01T08:32:43.944823+00:00"
       }
     },
     {
@@ -668,7 +674,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -693,7 +699,8 @@
         "risk_score": 1.57,
         "model": "jev-1.13.0",
         "state_signature": "e05a0e27591e0c95f4d9b69ae7367544fdcdf352632872cce305bc9033dca5a5",
-        "decided_at": "2026-10-01T08:32:44.161346+00:00"
+        "decided_at": "2026-10-01T08:32:44.161346+00:00",
+        "carried_from": "2026-10-01T08:32:44.161346+00:00"
       }
     },
     {
@@ -757,7 +764,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -782,7 +789,8 @@
         "risk_score": 1.49,
         "model": "jev-1.13.0",
         "state_signature": "72531625bdb11b67ee797df5b076b36210e54f4a386ed65f9afe25a575270ba5",
-        "decided_at": "2026-10-01T08:32:44.339117+00:00"
+        "decided_at": "2026-10-01T08:32:44.339117+00:00",
+        "carried_from": "2026-10-01T08:32:44.339117+00:00"
       }
     },
     {
@@ -843,7 +851,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -871,7 +879,8 @@
         "risk_score": 2.71,
         "model": "jev-1.13.0",
         "state_signature": "6a8717070ad2bca1105bb9417b1c344a694d4ce599eb319fe88ce4fd91ae93ff",
-        "decided_at": "2026-10-01T08:32:44.520271+00:00"
+        "decided_at": "2026-10-01T08:32:44.520271+00:00",
+        "carried_from": "2026-10-01T08:32:44.520271+00:00"
       }
     },
     {
@@ -934,7 +943,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -959,7 +968,8 @@
         "risk_score": 1.56,
         "model": "jev-1.13.0",
         "state_signature": "567e5d2b0760589d9239f3afb50a6bf184726911f277cecd34da4511b62b460b",
-        "decided_at": "2026-10-01T08:32:44.702124+00:00"
+        "decided_at": "2026-10-01T08:32:44.702124+00:00",
+        "carried_from": "2026-10-01T08:32:44.702124+00:00"
       }
     }
   ]
