@@ -2,7 +2,7 @@
 title: "Record a33b68d84a · Copy-What-Is-Seen-Generate-What-Is-Not-Training-Free-Anomaly-Aware-Vid"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:38.708618+00:00
+updated_at: 2026-10-01T22:48:37.948490+00:00
 tags: [record, real-data]
 ---
 

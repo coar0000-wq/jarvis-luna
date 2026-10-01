@@ -2,7 +2,7 @@
 title: "Record 538e47658c · Reserve-Officers-Training-Corps-Demands-Academic-Integration-and-Acade"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:38.988678+00:00
+updated_at: 2026-10-01T22:48:38.278585+00:00
 tags: [record, real-data]
 ---
 

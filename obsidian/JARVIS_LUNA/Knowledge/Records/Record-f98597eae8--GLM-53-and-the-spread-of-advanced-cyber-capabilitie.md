@@ -2,7 +2,7 @@
 title: "Record f98597eae8 · GLM-53-and-the-spread-of-advanced-cyber-capabilities"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:40.160050+00:00
+updated_at: 2026-10-01T22:48:40.763948+00:00
 tags: [record, real-data]
 ---
 

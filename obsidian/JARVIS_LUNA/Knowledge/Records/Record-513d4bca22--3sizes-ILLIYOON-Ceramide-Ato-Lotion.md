@@ -2,7 +2,7 @@
 title: "Record 513d4bca22 · 3sizes-ILLIYOON-Ceramide-Ato-Lotion"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:39.728739+00:00
+updated_at: 2026-10-01T22:48:40.235213+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** [3sizes] ILLIYOON Ceramide Ato Lotion
 
 [3sizes] ILLIYOON Ceramide Ato Lotion
-[3sizes] ILLIYOON Ceramide Ato Lotion · 평점 5 · 리뷰 11
+[3sizes] ILLIYOON Ceramide Ato Lotion · 평점 5 · 리뷰 12
 
 **출처:** Source · us_beauty
 

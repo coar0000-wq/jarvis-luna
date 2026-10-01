@@ -2,7 +2,7 @@
 title: "Record b3603edaf6 · Cloud-Based-Data-Governance-Ensuring-Security-Compliance-and-Privacy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:38.961037+00:00
+updated_at: 2026-10-01T22:48:38.240397+00:00
 tags: [record, real-data]
 ---
 

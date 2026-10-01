@@ -2,7 +2,7 @@
 title: "Record 5f3b226726 · 11-K-Beauty-Best-of-Beauty-Winners-2026-That-Earned-Glowing-Reviews"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:39.806887+00:00
+updated_at: 2026-10-01T22:48:40.353796+00:00
 tags: [record, real-data]
 ---
 

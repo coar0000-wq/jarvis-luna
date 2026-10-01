@@ -2,7 +2,7 @@
 title: "Record 0338fbde02 · Using-AI-to-Write-Blog-Posts-Tips-and-Tools-2026---shopifycom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:39.160670+00:00
+updated_at: 2026-10-01T22:48:38.496073+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 40501098e6 · 13-Best-Skin-Tints-for-Lightweight-Natural-Looking-Coverage"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:39.779754+00:00
+updated_at: 2026-10-01T22:48:40.303936+00:00
 tags: [record, real-data]
 ---
 

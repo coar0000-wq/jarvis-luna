@@ -2,7 +2,7 @@
 title: "Record bac9dfb114 · Data-Repetition-Beats-Data-Scaling-in-Long-CoT-Supe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:39.576655+00:00
+updated_at: 2026-10-01T22:48:40.050748+00:00
 tags: [record, real-data]
 ---
 

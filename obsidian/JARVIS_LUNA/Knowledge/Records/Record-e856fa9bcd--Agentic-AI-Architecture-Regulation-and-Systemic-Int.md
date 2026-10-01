@@ -2,7 +2,7 @@
 title: "Record e856fa9bcd · Agentic-AI-Architecture-Regulation-and-Systemic-Integration-for-Invest"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:38.536897+00:00
+updated_at: 2026-10-01T22:48:37.695627+00:00
 tags: [record, real-data]
 ---
 

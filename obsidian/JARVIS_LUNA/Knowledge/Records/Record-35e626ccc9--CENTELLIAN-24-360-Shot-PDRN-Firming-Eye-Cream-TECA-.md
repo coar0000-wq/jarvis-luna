@@ -2,7 +2,7 @@
 title: "Record 35e626ccc9 · CENTELLIAN-24-360-Shot-PDRN-Firming-Eye-Cream-TECA-Retinol-Care--Targe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:39.865662+00:00
+updated_at: 2026-10-01T22:48:40.440285+00:00
 tags: [record, real-data]
 ---
 

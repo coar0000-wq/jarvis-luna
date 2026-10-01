@@ -2,7 +2,7 @@
 title: "Record 30cebb5a41 · Anua-Retinol-03-Niacin-Renewing-Serum-101-fl-oz30ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:39.747422+00:00
+updated_at: 2026-10-01T22:48:40.262735+00:00
 tags: [record, real-data]
 ---
 

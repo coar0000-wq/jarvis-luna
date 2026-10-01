@@ -2,7 +2,7 @@
 title: "Record 8e4d8c6212 · LLaTSA-Large-Language-Model-Aligned-General-Purpose-Transient-Stabilit"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:38.098583+00:00
+updated_at: 2026-10-01T22:48:37.145541+00:00
 tags: [record, real-data]
 ---
 

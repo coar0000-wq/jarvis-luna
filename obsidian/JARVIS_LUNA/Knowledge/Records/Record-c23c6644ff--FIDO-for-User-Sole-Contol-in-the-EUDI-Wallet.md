@@ -2,7 +2,7 @@
 title: "Record c23c6644ff · FIDO-for-User-Sole-Contol-in-the-EUDI-Wallet"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:38.544538+00:00
+updated_at: 2026-10-01T22:48:37.706194+00:00
 tags: [record, real-data]
 ---
 

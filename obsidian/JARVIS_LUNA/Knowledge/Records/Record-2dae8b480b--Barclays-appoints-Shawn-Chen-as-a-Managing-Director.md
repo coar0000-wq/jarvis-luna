@@ -2,7 +2,7 @@
 title: "Record 2dae8b480b · Barclays-appoints-Shawn-Chen-as-a-Managing-Director-in-Technology-Inve"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:39.004351+00:00
+updated_at: 2026-10-01T22:48:38.298434+00:00
 tags: [record, real-data]
 ---
 

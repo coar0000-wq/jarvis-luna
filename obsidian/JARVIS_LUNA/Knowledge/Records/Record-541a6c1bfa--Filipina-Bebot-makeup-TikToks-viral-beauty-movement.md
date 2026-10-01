@@ -2,7 +2,7 @@
 title: "Record 541a6c1bfa · Filipina-Bebot-makeup-TikToks-viral-beauty-movement"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:39.341603+00:00
+updated_at: 2026-10-01T22:48:38.734576+00:00
 tags: [record, real-data]
 ---
 

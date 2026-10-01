@@ -2,7 +2,7 @@
 title: "Record e80f8022b3 · ConPro-Contrast-Projection-Pretraining-for-Label-Efficient-Vessel-Segm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:38.216605+00:00
+updated_at: 2026-10-01T22:48:37.274706+00:00
 tags: [record, real-data]
 ---
 

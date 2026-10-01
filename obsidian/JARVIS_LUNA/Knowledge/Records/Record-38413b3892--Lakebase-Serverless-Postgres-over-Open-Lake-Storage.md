@@ -2,7 +2,7 @@
 title: "Record 38413b3892 · Lakebase-Serverless-Postgres-over-Open-Lake-Storage"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:38.511111+00:00
+updated_at: 2026-10-01T22:48:37.660156+00:00
 tags: [record, real-data]
 ---
 

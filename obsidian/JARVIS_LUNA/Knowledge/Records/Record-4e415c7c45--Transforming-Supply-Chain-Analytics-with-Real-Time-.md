@@ -2,7 +2,7 @@
 title: "Record 4e415c7c45 · Transforming-Supply-Chain-Analytics-with-Real-Time-Data-and-Cloud-Data"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:38.596272+00:00
+updated_at: 2026-10-01T22:48:37.800045+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record cd271d1c02 · Working-with-Agentic-Teammates-When-a-New-Organizational-Actor-Collide"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:38.814058+00:00
+updated_at: 2026-10-01T22:48:38.068426+00:00
 tags: [record, real-data]
 ---
 

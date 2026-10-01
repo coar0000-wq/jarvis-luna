@@ -2,7 +2,7 @@
 title: "Record 1ab0657432 · Anua-PDRN-Full-Care-Set-Serum-1-fl-oz30ml--Mist-1-f"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:39.716004+00:00
+updated_at: 2026-10-01T22:48:40.220254+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** Anua PDRN Full Care Set (serum 1 fl. oz.(30ml) + Mist 1 fl. oz.(30ml) + Cream 2 fl. oz.(60ml) + Mask 5 Packs + Keychain)
 
 Anua PDRN Full Care Set (serum 1 fl. oz.(30ml) + Mist 1 fl. oz.(30ml) + Cream 2 fl. oz.(60ml) + Mask 5 Packs + Keychain)
-Anua PDRN Full Care Set (serum 1 fl. oz.(30ml) + Mist 1 fl. oz.(30ml) + Cream 2 fl. oz.(60ml) + Mask 5 Packs + Keychain) · 평점 4.8 · 리뷰 196
+Anua PDRN Full Care Set (serum 1 fl. oz.(30ml) + Mist 1 fl. oz.(30ml) + Cream 2 fl. oz.(60ml) + Mask 5 Packs + Keychain) · 평점 4.8 · 리뷰 197
 
 **출처:** Source · us_beauty
 

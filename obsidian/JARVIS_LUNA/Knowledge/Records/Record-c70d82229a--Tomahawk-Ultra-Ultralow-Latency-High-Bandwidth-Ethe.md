@@ -2,7 +2,7 @@
 title: "Record c70d82229a · Tomahawk-Ultra-Ultralow-Latency-High-Bandwidth-Ethernet-Switch-for-HPC"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:38.437289+00:00
+updated_at: 2026-10-01T22:48:37.556194+00:00
 tags: [record, real-data]
 ---
 

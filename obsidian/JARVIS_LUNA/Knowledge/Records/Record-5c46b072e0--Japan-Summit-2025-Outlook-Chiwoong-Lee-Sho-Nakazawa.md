@@ -2,7 +2,7 @@
 title: "Record 5c46b072e0 · Japan-Summit-2025-Outlook-Chiwoong-Lee-Sho-Nakazawa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:40.300809+00:00
+updated_at: 2026-10-01T22:48:40.979172+00:00
 tags: [record, real-data]
 ---
 

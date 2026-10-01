@@ -2,7 +2,7 @@
 title: "Record c05c0fd839 · Us-Consumer-Spending-Trends-Michelle-Weaver-Arunima-Sinha"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:40.309104+00:00
+updated_at: 2026-10-01T22:48:40.992209+00:00
 tags: [record, real-data]
 ---
 

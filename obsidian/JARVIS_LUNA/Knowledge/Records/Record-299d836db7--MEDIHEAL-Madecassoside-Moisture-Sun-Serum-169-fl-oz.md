@@ -2,7 +2,7 @@
 title: "Record 299d836db7 · MEDIHEAL-Madecassoside-Moisture-Sun-Serum-169-fl-oz50ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:39.755145+00:00
+updated_at: 2026-10-01T22:48:40.271934+00:00
 tags: [record, real-data]
 ---
 

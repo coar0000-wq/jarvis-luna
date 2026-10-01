@@ -2,7 +2,7 @@
 title: "Record aa9d133796 · A-Model-to-Validate-the-Relationship-between-Perceived-Job-Effectivene"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:38.585604+00:00
+updated_at: 2026-10-01T22:48:37.781922+00:00
 tags: [record, real-data]
 ---
 

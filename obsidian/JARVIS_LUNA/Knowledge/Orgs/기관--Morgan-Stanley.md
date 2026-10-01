@@ -2,7 +2,7 @@
 title: "기관 · Morgan Stanley"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:41.551411+00:00
+updated_at: 2026-10-01T22:48:42.300176+00:00
 tags: [org, real-data]
 ---
 

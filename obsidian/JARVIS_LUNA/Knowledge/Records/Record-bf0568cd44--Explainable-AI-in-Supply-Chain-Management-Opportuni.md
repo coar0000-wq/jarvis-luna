@@ -2,7 +2,7 @@
 title: "Record bf0568cd44 · Explainable-AI-in-Supply-Chain-Management-Opportuni"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:38.956875+00:00
+updated_at: 2026-10-01T22:48:38.235370+00:00
 tags: [record, real-data]
 ---
 

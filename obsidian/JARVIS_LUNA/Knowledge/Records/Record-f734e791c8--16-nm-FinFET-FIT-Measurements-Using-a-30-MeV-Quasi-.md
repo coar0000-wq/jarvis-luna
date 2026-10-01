@@ -2,7 +2,7 @@
 title: "Record f734e791c8 · 16-nm-FinFET-FIT-Measurements-Using-a-30-MeV-Quasi-Monoenergetic-Neutr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:38.445445+00:00
+updated_at: 2026-10-01T22:48:37.567123+00:00
 tags: [record, real-data]
 ---
 

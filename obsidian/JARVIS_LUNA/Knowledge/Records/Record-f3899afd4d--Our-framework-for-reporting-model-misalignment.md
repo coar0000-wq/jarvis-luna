@@ -2,7 +2,7 @@
 title: "Record f3899afd4d · Our-framework-for-reporting-model-misalignment"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:39.558789+00:00
+updated_at: 2026-10-01T22:48:40.022282+00:00
 tags: [record, real-data]
 ---
 

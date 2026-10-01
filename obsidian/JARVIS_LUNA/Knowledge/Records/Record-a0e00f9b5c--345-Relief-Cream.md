@@ -2,7 +2,7 @@
 title: "Record a0e00f9b5c · 345-Relief-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:40.371316+00:00
+updated_at: 2026-10-01T22:48:41.074409+00:00
 tags: [record, real-data]
 ---
 

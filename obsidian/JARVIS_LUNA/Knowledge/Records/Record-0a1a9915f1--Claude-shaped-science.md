@@ -2,7 +2,7 @@
 title: "Record 0a1a9915f1 · Claude-shaped-science"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:40.157448+00:00
+updated_at: 2026-10-01T22:48:40.761163+00:00
 tags: [record, real-data]
 ---
 

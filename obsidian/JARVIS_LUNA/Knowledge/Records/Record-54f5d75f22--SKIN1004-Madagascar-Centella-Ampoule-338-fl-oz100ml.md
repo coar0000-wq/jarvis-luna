@@ -2,7 +2,7 @@
 title: "Record 54f5d75f22 · SKIN1004-Madagascar-Centella-Ampoule-338-fl-oz100ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:39.725583+00:00
+updated_at: 2026-10-01T22:48:40.231478+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** SKIN1004 Madagascar Centella Ampoule 3.38 fl. oz.(100ml)
 
 SKIN1004 Madagascar Centella Ampoule 3.38 fl. oz.(100ml)
-SKIN1004 Madagascar Centella Ampoule 3.38 fl. oz.(100ml) · 평점 4.8 · 리뷰 2,694
+SKIN1004 Madagascar Centella Ampoule 3.38 fl. oz.(100ml) · 평점 4.8 · 리뷰 2,696
 
 **출처:** Source · us_beauty
 

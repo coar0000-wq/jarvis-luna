@@ -2,7 +2,7 @@
 title: "Record 6d301217bd · An-Antenna-to-Bits-F-Band-120-Gbps-CMOS-RF-64QAM-Re"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:38.426759+00:00
+updated_at: 2026-10-01T22:48:37.543778+00:00
 tags: [record, real-data]
 ---
 

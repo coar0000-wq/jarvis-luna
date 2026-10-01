@@ -2,7 +2,7 @@
 title: "Record 72a0f23bd8 · Tree-Hut-Pumpkin-Roll-Body-Scrub-Fall-Scented-Body-Care-18-Oz--Exfolia"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:40.091780+00:00
+updated_at: 2026-10-01T22:48:40.682551+00:00
 tags: [record, real-data]
 ---
 

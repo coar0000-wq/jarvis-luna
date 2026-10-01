@@ -2,7 +2,7 @@
 title: "Record f33545d076 · PolyOCR-Venus-Unified-OCR-Foundation-Models-for-Text-Centric-Visual-In"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:38.885581+00:00
+updated_at: 2026-10-01T22:48:38.155015+00:00
 tags: [record, real-data]
 ---
 

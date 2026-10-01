@@ -2,7 +2,7 @@
 title: "Record 4c54a60e24 · Insights-From-The-Inside"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:40.235951+00:00
+updated_at: 2026-10-01T22:48:40.870537+00:00
 tags: [record, real-data]
 ---
 

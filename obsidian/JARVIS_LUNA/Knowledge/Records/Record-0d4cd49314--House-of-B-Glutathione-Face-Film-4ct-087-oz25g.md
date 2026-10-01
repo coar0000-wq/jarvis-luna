@@ -2,7 +2,7 @@
 title: "Record 0d4cd49314 · House-of-B-Glutathione-Face-Film-4ct-087-oz25g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:39.688037+00:00
+updated_at: 2026-10-01T22:48:40.186487+00:00
 tags: [record, real-data]
 ---
 

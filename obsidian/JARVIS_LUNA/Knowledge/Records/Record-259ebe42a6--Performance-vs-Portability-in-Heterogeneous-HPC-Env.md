@@ -2,7 +2,7 @@
 title: "Record 259ebe42a6 · Performance-vs-Portability-in-Heterogeneous-HPC-Environments-Why-Pre-e"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:38.847686+00:00
+updated_at: 2026-10-01T22:48:38.115833+00:00
 tags: [record, real-data]
 ---
 

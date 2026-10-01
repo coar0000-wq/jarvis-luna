@@ -2,7 +2,7 @@
 title: "Record f295ae4a06 · Cantu-Shea-Butter-Shampoo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:39.756568+00:00
+updated_at: 2026-10-01T22:48:40.273796+00:00
 tags: [record, real-data]
 ---
 

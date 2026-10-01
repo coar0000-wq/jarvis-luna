@@ -2,7 +2,7 @@
 title: "Record 985ff3f642 · Samsung-Nano-City--Pyeongtaek"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:39.502275+00:00
+updated_at: 2026-10-01T22:48:39.813643+00:00
 tags: [record, real-data]
 ---
 

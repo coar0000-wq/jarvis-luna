@@ -2,7 +2,7 @@
 title: "Record 0af468e6e5 · Anua-Heartleaf-Quercetinol-Pore-Deep-Cleansing-Foam-507-fl-oz150ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:39.678639+00:00
+updated_at: 2026-10-01T22:48:40.175152+00:00
 tags: [record, real-data]
 ---
 

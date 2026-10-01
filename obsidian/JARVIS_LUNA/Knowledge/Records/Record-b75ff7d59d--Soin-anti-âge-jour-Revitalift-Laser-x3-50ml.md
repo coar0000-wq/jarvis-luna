@@ -2,7 +2,7 @@
 title: "Record b75ff7d59d · Soin-anti-âge-jour-Revitalift-Laser-x3-50ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:39.765160+00:00
+updated_at: 2026-10-01T22:48:40.284907+00:00
 tags: [record, real-data]
 ---
 

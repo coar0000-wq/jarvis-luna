@@ -2,7 +2,7 @@
 title: "Record ead73a9338 · Pantene-Deep-Nourishing-Cream-to-Mist-Leave-In-Spray-Co-Created-with-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:40.049864+00:00
+updated_at: 2026-10-01T22:48:40.640007+00:00
 tags: [record, real-data]
 ---
 

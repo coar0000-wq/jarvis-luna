@@ -2,7 +2,7 @@
 title: "Record 1f50dba105 · UV-Induced-Degradation-and-Active-Restructuring-of-LSR-Mold-Surfaces-R"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:38.260483+00:00
+updated_at: 2026-10-01T22:48:37.331932+00:00
 tags: [record, real-data]
 ---
 

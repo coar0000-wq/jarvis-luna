@@ -2,7 +2,7 @@
 title: "Record 3f0b44d710 · We-Tested-Dysons-Airsmooth-on-4-Different-Hair-Types"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:39.797505+00:00
+updated_at: 2026-10-01T22:48:40.326143+00:00
 tags: [record, real-data]
 ---
 

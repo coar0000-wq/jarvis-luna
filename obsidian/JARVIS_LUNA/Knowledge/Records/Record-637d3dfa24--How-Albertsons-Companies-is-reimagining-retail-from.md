@@ -2,7 +2,7 @@
 title: "Record 637d3dfa24 · How-Albertsons-Companies-is-reimagining-retail-from-the-inside-out"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:39.537526+00:00
+updated_at: 2026-10-01T22:48:39.997692+00:00
 tags: [record, real-data]
 ---
 

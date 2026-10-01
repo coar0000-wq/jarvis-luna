@@ -2,7 +2,7 @@
 title: "Record 71ad3d6644 · Kiss-New-York-is-unveiling-a-25-piece-K-Beauty-skincare-line---Chain-D"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:39.344169+00:00
+updated_at: 2026-10-01T22:48:38.738052+00:00
 tags: [record, real-data]
 ---
 

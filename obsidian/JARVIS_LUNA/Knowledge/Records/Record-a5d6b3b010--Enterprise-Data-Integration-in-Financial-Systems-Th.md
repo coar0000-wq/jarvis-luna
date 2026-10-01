@@ -2,7 +2,7 @@
 title: "Record a5d6b3b010 · Enterprise-Data-Integration-in-Financial-Systems-The-Foundation-of-Mod"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:38.583897+00:00
+updated_at: 2026-10-01T22:48:37.779626+00:00
 tags: [record, real-data]
 ---
 

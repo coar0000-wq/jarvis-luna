@@ -2,7 +2,7 @@
 title: "Record c2d9d5adc2 · Off-normal-simulations-of-radiative-collapse-events-in-Alcator-C-Mod"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:38.396363+00:00
+updated_at: 2026-10-01T22:48:37.507199+00:00
 tags: [record, real-data]
 ---
 

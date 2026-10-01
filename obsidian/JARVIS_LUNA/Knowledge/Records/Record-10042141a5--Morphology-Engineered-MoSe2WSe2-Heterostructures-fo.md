@@ -2,7 +2,7 @@
 title: "Record 10042141a5 · Morphology-Engineered-MoSe2WSe2-Heterostructures-for-Directional-Terah"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:38.350044+00:00
+updated_at: 2026-10-01T22:48:37.452159+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record bd1d9745bb · Innodata-opens-motion-capture-lab-to-help-humanoids-move-more-like-peo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:40.342673+00:00
+updated_at: 2026-10-01T22:48:41.035118+00:00
 tags: [record, real-data]
 ---
 

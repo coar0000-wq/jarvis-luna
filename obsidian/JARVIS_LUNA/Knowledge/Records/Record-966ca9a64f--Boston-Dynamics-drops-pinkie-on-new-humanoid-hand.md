@@ -2,7 +2,7 @@
 title: "Record 966ca9a64f · Boston-Dynamics-drops-pinkie-on-new-humanoid-hand"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:40.328009+00:00
+updated_at: 2026-10-01T22:48:41.017243+00:00
 tags: [record, real-data]
 ---
 

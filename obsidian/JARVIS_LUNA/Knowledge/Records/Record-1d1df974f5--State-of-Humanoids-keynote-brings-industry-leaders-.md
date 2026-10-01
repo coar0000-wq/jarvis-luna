@@ -2,7 +2,7 @@
 title: "Record 1d1df974f5 · State-of-Humanoids-keynote-brings-industry-leaders-to-RoboBusiness"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:40.359336+00:00
+updated_at: 2026-10-01T22:48:41.055877+00:00
 tags: [record, real-data]
 ---
 

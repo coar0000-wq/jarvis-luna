@@ -2,7 +2,7 @@
 title: "Record 5f3d132604 · Yepoda-예쁘다-K-Beauty-Starter-Box-Any-Gamers-Essential-Kit---Cubed3"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:39.152418+00:00
+updated_at: 2026-10-01T22:48:38.483001+00:00
 tags: [record, real-data]
 ---
 
@@ -13,9 +13,10 @@ tags: [record, real-data]
 **제목:** Yepoda (예쁘다) K-Beauty Starter Box: Any Gamer’s Essential Kit - Cubed3
 
 Yepoda (예쁘다) K-Beauty Starter Box: Any Gamer’s Essential Kit - Cubed3
+Yepoda (예쁘다) K-Beauty Starter Box: Any Gamer’s Essential Kit - Cubed3
 
-**출처:** Source · Google Search
+**출처:** Source · us_beauty
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

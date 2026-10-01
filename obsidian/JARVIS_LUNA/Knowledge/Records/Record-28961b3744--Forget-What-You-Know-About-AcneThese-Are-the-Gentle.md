@@ -2,7 +2,7 @@
 title: "Record 28961b3744 · Forget-What-You-Know-About-AcneThese-Are-the-Gentle"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:39.203090+00:00
+updated_at: 2026-10-01T22:48:38.556001+00:00
 tags: [record, real-data]
 ---
 

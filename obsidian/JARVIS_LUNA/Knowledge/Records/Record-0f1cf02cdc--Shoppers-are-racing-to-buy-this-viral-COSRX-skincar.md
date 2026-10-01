@@ -2,7 +2,7 @@
 title: "Record 0f1cf02cdc · Shoppers-are-racing-to-buy-this-viral-COSRX-skincare-favourite-now-its"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:39.477883+00:00
+updated_at: 2026-10-01T22:48:39.473020+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record da19c2f4fa · DrAlthea-345-Relief-Cream-Mist-202-fl-oz60ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:39.704623+00:00
+updated_at: 2026-10-01T22:48:40.206558+00:00
 tags: [record, real-data]
 ---
 

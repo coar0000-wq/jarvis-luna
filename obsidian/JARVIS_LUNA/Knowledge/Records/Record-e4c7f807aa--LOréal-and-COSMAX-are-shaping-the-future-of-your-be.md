@@ -2,7 +2,7 @@
 title: "Record e4c7f807aa · LOréal-and-COSMAX-are-shaping-the-future-of-your-beauty-routine---Vogu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:39.165172+00:00
+updated_at: 2026-10-01T22:48:38.504019+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,10 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiakFVX3lxTFAxeWJkYjNsVDR6aFNCczlWUVFQeThjS2FmdkF5MEVmbi1YX290NWpwS0pSSjRwR1dBUU51U2JwMEZla1UydE41eWtaNW9Jb0RPNV9PaGYwZ0ZrQ3puWlpGR3VBdmxOazR4WVE?oc=5)
 
-**제목:** L’Oréal and COSMAX are shaping the future of your beauty routine - Vogue Adria
+**제목:** L’Oréal and COSMAX are shaping the future of your beauty routine - vogueadria.com
 
-L’Oréal and COSMAX are shaping the future of your beauty routine - Vogue Adria
-L’Oréal and COSMAX are shaping the future of your beauty routine - Vogue Adria
+L’Oréal and COSMAX are shaping the future of your beauty routine - vogueadria.com
+L’Oréal and COSMAX are shaping the future of your beauty routine - vogueadria.com
 
 **출처:** Source · us_beauty
 

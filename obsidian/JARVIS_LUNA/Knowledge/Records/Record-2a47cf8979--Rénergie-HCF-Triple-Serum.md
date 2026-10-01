@@ -2,7 +2,7 @@
 title: "Record 2a47cf8979 · Rénergie-HCF-Triple-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:40.400893+00:00
+updated_at: 2026-10-01T22:48:41.116123+00:00
 tags: [record, real-data]
 ---
 

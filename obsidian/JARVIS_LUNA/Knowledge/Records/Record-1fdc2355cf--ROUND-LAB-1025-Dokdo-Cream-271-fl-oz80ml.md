@@ -2,7 +2,7 @@
 title: "Record 1fdc2355cf · ROUND-LAB-1025-Dokdo-Cream-271-fl-oz80ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:39.685801+00:00
+updated_at: 2026-10-01T22:48:40.183944+00:00
 tags: [record, real-data]
 ---
 

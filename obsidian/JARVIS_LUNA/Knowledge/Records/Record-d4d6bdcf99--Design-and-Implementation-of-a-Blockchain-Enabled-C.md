@@ -2,7 +2,7 @@
 title: "Record d4d6bdcf99 · Design-and-Implementation-of-a-Blockchain-Enabled-Crowdfunding-Platfor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:38.957236+00:00
+updated_at: 2026-10-01T22:48:38.235783+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 47ee6b139a · Less-Flush-More-Finish-How-to-Get-the-Anti-Blush-Look-Plus-Celebrity-I"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:39.433070+00:00
+updated_at: 2026-10-01T22:48:38.856653+00:00
 tags: [record, real-data]
 ---
 

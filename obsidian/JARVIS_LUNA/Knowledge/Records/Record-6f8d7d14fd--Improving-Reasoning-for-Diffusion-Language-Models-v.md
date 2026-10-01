@@ -2,7 +2,7 @@
 title: "Record 6f8d7d14fd · Improving-Reasoning-for-Diffusion-Language-Models-via-Group-Diffusion-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:38.610928+00:00
+updated_at: 2026-10-01T22:48:37.818435+00:00
 tags: [record, real-data]
 ---
 

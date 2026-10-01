@@ -2,7 +2,7 @@
 title: "Record 8dab068410 · Porphyrinic-MOF-Confined-Nanozyme-Hydrogel-with-CuS-Mediated-Photoregu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:38.343932+00:00
+updated_at: 2026-10-01T22:48:37.444639+00:00
 tags: [record, real-data]
 ---
 

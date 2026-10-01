@@ -2,7 +2,7 @@
 title: "Record c2d77fbd15 · KI-Nutzerakzeptanz-am-Beispiel-von-Chatbots-im-Online-Banking"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:39.575254+00:00
+updated_at: 2026-10-01T22:48:40.048627+00:00
 tags: [record, real-data]
 ---
 

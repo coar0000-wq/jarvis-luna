@@ -2,7 +2,7 @@
 title: "Record b8840e8f87 · K-Beautys-Biggest-Hits-Have-Landed-in-This-Advent-Calendar---British-V"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:37:39.225953+00:00
+updated_at: 2026-10-01T22:48:38.584678+00:00
 tags: [record, real-data]
 ---
 
