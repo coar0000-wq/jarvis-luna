@@ -1,6 +1,6 @@
 {
   "team": "디자인팀",
-  "generated_at": "2026-10-01T16:54:12.483827+00:00",
+  "generated_at": "2026-10-01T22:19:28.332099+00:00",
   "scope": "Shopify 스토어 디자인 사양 관리 + 디자인 레퍼런스 수집",
   "checklist": {
     "total": 12,
@@ -306,6 +306,14 @@
         "relevance": 0
       },
       {
+        "title": "More control over commerce updates with Next Gen Events",
+        "url": "https://shopify.dev/changelog/next-generation-events-are-now-generally-available",
+        "date": "2026-10-01",
+        "summary": "With the 2026-10 API version Next Gen Events, Shopify's successor to classic webhooks, is now generally available. Events give you more customization than classic webhooks, letting you choose what changes your app receives, and what data comes with the payload. If your app keeps track of collection ",
+        "feed": "Shopify Dev Changelog",
+        "relevance": 1
+      },
+      {
         "title": "Rollouts queries and webhooks in the Admin GraphQL API",
         "url": "https://shopify.dev/changelog/read_rollouts",
         "date": "2026-10-01",
@@ -381,9 +389,9 @@
         "title": "New SubscriptionContractCalculation API for subscription management",
         "url": "https://shopify.dev/changelog/new-subscriptioncontractcalculation-api-for-subscription-management",
         "date": "2026-10-01",
-        "summary": "A new SubscriptionContractCalculation API is now available to manage subscriptions. This new API runs subscription contract edits through Shopify's checkout engine, enabling new capabilities like bundled products, Shopify Functions, and consistent pricing calculations. Subscription contracts can now",
+        "summary": "A new SubscriptionContractCalculation API is now available to manage subscriptions. This new API runs subscription contract edits through Shopify's checkout engine, enabling new capabilities: Shopify Functions, including cart transforms and delivery customizations are supported during contract calcu",
         "feed": "Shopify Dev Changelog",
-        "relevance": 2
+        "relevance": 3
       },
       {
         "title": "Inventory shipment webhooks include inventory transfer IDs",
@@ -418,12 +426,12 @@
         "relevance": 0
       },
       {
-        "title": "Manage packed product dimensions with the Admin GraphQL API",
-        "url": "https://shopify.dev/changelog/manage-packed-product-dimensions-with-the-admin-graphql-api",
-        "date": "2026-09-29",
-        "summary": "Starting with the 2027-01 Admin GraphQL API version, apps can read and write packed product dimensions using InventoryItemMeasurement.packedDimensions and InventoryItemMeasurementInput.packedDimensions in the Admin GraphQL API. Shopify uses these measurements for automatic package selection on eligi",
-        "feed": "Shopify Dev Changelog",
-        "relevance": 1
+        "title": "ShopGym: Realistic, reproducible sandboxes for shopping agents",
+        "url": "https://shopify.engineering/shopgym",
+        "date": "2026-10-01",
+        "summary": "ShopGym creates realistic online stores and generates shopping tasks based on each store’s products and features. Developers can then repeatedly test shopping agents under consistent conditions.",
+        "feed": "Shopify Engineering",
+        "relevance": 0
       },
       {
         "title": "Helix: The internal tool powering our Shopify app's native migration",
@@ -534,14 +542,6 @@
         "url": "https://shopify.engineering/under-the-river",
         "date": "2026-05-28",
         "summary": "What it took to ship our Slack-native agent River, lessons learned, and the substrate that runs beneath it. Co-authored by River.",
-        "feed": "Shopify Engineering",
-        "relevance": 0
-      },
-      {
-        "title": "We replaced Redis with MySQL for inventory reservations—and it scaled",
-        "url": "https://shopify.engineering/scaling-inventory-reservations",
-        "date": "2026-05-12",
-        "summary": "How we used SKIP LOCKED, composite primary keys, and connection visibility to hit our scale targets.",
         "feed": "Shopify Engineering",
         "relevance": 0
       },

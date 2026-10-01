@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T16:56:52.719475+00:00",
+  "generated_at": "2026-10-01T22:22:20.517377+00:00",
   "generator": "scripts/self_improve_support.py",
   "scope": "self_improve operational observations only",
   "mode": "deterministic_out_of_band_consolidation",
@@ -9,5 +9,5 @@
   "ignored_stale_observations": 0,
   "recurring_patterns": [],
   "automatic_policy_changes": false,
-  "input_sha256": "cba72e3b0f43be38286e46a2628705bed36dc00c241b4af217efa97a7c9b1236"
+  "input_sha256": "8a706044df1e751c31e23f76bf9510631d4cabd762f60c9a3af43e4b2b505cff"
 }

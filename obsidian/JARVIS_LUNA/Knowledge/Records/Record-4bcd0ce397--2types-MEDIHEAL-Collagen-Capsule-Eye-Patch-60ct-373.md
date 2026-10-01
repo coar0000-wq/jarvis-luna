@@ -2,7 +2,7 @@
 title: "Record 4bcd0ce397 · 2types-MEDIHEAL-Collagen-Capsule-Eye-Patch-60ct-373"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:17.467595+00:00
+updated_at: 2026-10-01T22:37:39.696518+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** [2types] MEDIHEAL Collagen Capsule Eye Patch 60ct 3.73 oz.(106g)
 
 [2types] MEDIHEAL Collagen Capsule Eye Patch 60ct 3.73 oz.(106g)
-[2types] MEDIHEAL Collagen Capsule Eye Patch 60ct 3.73 oz.(106g) · 평점 4.7 · 리뷰 2,724
+[2types] MEDIHEAL Collagen Capsule Eye Patch 60ct 3.73 oz.(106g) · 평점 4.7 · 리뷰 2,706
 
 **출처:** Source · us_beauty
 

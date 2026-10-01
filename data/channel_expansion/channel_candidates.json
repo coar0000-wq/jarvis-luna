@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T17:14:45.002043+00:00",
+  "generated_at": "2026-10-01T22:36:08.637814+00:00",
   "discovery_mode": "seed_catalog_plus_health_probe",
   "candidate_count": 18,
   "verified_count": 9,
@@ -18,7 +18,7 @@
       "content_length": 14486,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-10-01T17:14:26.254960+00:00"
+      "checked_at": "2026-10-01T22:35:48.559346+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -30,10 +30,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://www.google.com/shopping",
-      "content_length": 114940,
+      "content_length": 115492,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-10-01T17:14:44.749314+00:00"
+      "checked_at": "2026-10-01T22:36:08.220790+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -48,7 +48,7 @@
       "content_length": 172023,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-10-01T17:14:26.747179+00:00"
+      "checked_at": "2026-10-01T22:35:49.432221+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -63,7 +63,7 @@
       "content_length": 375,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-10-01T17:14:27.542340+00:00"
+      "checked_at": "2026-10-01T22:35:50.887697+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -78,7 +78,7 @@
       "content_length": 1325,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-10-01T17:14:25.998904+00:00"
+      "checked_at": "2026-10-01T22:35:48.296754+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -90,10 +90,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://www.census.gov/data.html",
-      "content_length": 518839,
+      "content_length": 518773,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-10-01T17:14:25.941800+00:00"
+      "checked_at": "2026-10-01T22:35:48.022723+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -108,7 +108,7 @@
       "content_length": 3769,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-10-01T17:14:27.261461+00:00"
+      "checked_at": "2026-10-01T22:35:50.337803+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -123,7 +123,7 @@
       "content_length": 69357,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-10-01T17:14:26.972474+00:00"
+      "checked_at": "2026-10-01T22:35:49.996832+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -135,10 +135,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://data.worldbank.org/",
-      "content_length": 192129,
+      "content_length": 192131,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-10-01T17:14:26.348600+00:00"
+      "checked_at": "2026-10-01T22:35:48.799868+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -150,10 +150,10 @@
       "reachable": false,
       "status_code": 403,
       "final_url": "https://www.ebay.com/b/Beauty/26395/bn_7000259124",
-      "content_length": 1831,
+      "content_length": 1832,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-10-01T17:14:27.318631+00:00"
+      "checked_at": "2026-10-01T22:35:50.475531+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -168,7 +168,7 @@
       "content_length": 776,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-10-01T17:14:27.376102+00:00"
+      "checked_at": "2026-10-01T22:35:50.595396+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -183,7 +183,7 @@
       "content_length": 190240,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-10-01T17:14:45.002018+00:00"
+      "checked_at": "2026-10-01T22:36:08.637770+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -195,10 +195,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://trends.google.com/trends/",
-      "content_length": 776135,
+      "content_length": 776127,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-10-01T17:14:44.927542+00:00"
+      "checked_at": "2026-10-01T22:36:08.584379+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -210,10 +210,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://www.instacart.com/",
-      "content_length": 329098,
+      "content_length": 888636,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-10-01T17:14:43.588546+00:00"
+      "checked_at": "2026-10-01T22:36:07.892022+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -226,7 +226,7 @@
       "status_code": null,
       "error": "ReadTimeout: HTTPSConnectionPool(host='www.kroger.com', port=443): Read timed out. (read timeout=15)",
       "status": "unverified",
-      "checked_at": "2026-10-01T17:14:43.106442+00:00"
+      "checked_at": "2026-10-01T22:36:06.791708+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -238,10 +238,10 @@
       "reachable": false,
       "status_code": 403,
       "final_url": "https://www.macys.com/shop/makeup-and-cosmetics",
-      "content_length": 9901,
+      "content_length": 9900,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-10-01T17:14:28.035272+00:00"
+      "checked_at": "2026-10-01T22:35:51.619253+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -253,10 +253,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://www.nordstrom.com/browse/beauty",
-      "content_length": 253749,
+      "content_length": 258329,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-10-01T17:14:27.915232+00:00"
+      "checked_at": "2026-10-01T22:35:51.451593+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -271,7 +271,7 @@
       "content_length": 782,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-10-01T17:14:27.734395+00:00"
+      "checked_at": "2026-10-01T22:35:51.152414+00:00"
     }
   ],
   "next_expansion_queries": [

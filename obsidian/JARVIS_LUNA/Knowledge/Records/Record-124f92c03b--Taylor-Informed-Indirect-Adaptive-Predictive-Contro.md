@@ -2,7 +2,7 @@
 title: "Record 124f92c03b · Taylor-Informed-Indirect-Adaptive-Predictive-Contro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:15.370679+00:00
+updated_at: 2026-10-01T22:37:37.938527+00:00
 tags: [record, real-data]
 ---
 

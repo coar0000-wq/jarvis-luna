@@ -2,7 +2,7 @@
 title: "Record 1a4350f63b · Samsung-Electronics-To-Establish-HVAC-Production-Li"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:17.229471+00:00
+updated_at: 2026-10-01T22:37:39.493945+00:00
 tags: [record, real-data]
 ---
 

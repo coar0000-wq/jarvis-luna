@@ -2,7 +2,7 @@
 title: "Record a6def6e5b2 · Inside-Seouls-K-beauty-mecca-I-hunted-for-the-best-skincare-at-the-wor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:16.923014+00:00
+updated_at: 2026-10-01T22:37:39.258460+00:00
 tags: [record, real-data]
 ---
 

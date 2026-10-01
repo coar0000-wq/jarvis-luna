@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T16:52:48.768317+00:00",
+  "generated_at": "2026-10-01T22:18:11.704827+00:00",
   "generator": "scripts/collect_robotics.py",
   "목적": "옵시디언 주제 '로보틱스' 가 3건뿐이던 문제를 해결한다. 분류기는 정상이었고 수집원에 로봇 자료가 없었던 것이 원인이다.",
   "접근_정책": "arXiv 은 프로그램 접근용 export.arxiv.org 를 제공하며 그 주소만 사용하고 요청 간 3초를 둔다. RSS 두 곳은 robots.txt 허용을 확인했다.",
@@ -228,7 +228,7 @@
       "errors": [],
       "items": [
         {
-          "title": "Atlas Robot’s New Hand May Outperform Human-Like Designs",
+          "title": "Atlas Robot’s New Hand May Outperform Humanlike Designs",
           "summary": "<img src=\"https://spectrum.ieee.org/media-library/close-up-of-a-robotic-hand-with-three-fingers-and-a-thumb-making-a-gesture-similar-to-the-sign-of-the-horns.jpg?id=67879402&width=1245&height=700&coordinates=0%2C260%2C0%2C261\"/><br/><br/><p><span>Today, </span><a href=\"https://bostondynamics.com/\" target=\"_blank\">Boston Dynamics</a><span> is <a href=\"https://bostondynamics.com/blog/robot-hands-for",
           "published": "Thu, 01 Oct 2026 14:40:12 +0000",
           "url": "https://spectrum.ieee.org/robust-robot-hand",
@@ -428,6 +428,22 @@
           "source": "rss"
         },
         {
+          "title": "Top 10 robotics stories of September 2026",
+          "summary": "<p>In September 2026, live events such as IMTS, ROSCon, and iROS brought a flood of robotics developments.</p> <p>The post <a href=\"https://www.therobotreport.com/top-10-robotics-stories-of-september-2026/\">Top 10 robotics stories of September 2026</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+          "published": "Thu, 01 Oct 2026 20:42:08 +0000",
+          "url": "https://www.therobotreport.com/top-10-robotics-stories-of-september-2026/",
+          "feed": "The Robot Report",
+          "source": "rss"
+        },
+        {
+          "title": "Boston Dynamics drops pinkie on new humanoid hand",
+          "summary": "<p>Boston Dynamics engineers taped their pinkies and ring fingers together for a day to learn what they weren’t able to do.</p> <p>The post <a href=\"https://www.therobotreport.com/boston-dynamics-drops-pinkie-on-new-humanoid-hand/\">Boston Dynamics drops pinkie on new humanoid hand</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+          "published": "Thu, 01 Oct 2026 17:52:51 +0000",
+          "url": "https://www.therobotreport.com/boston-dynamics-drops-pinkie-on-new-humanoid-hand/",
+          "feed": "The Robot Report",
+          "source": "rss"
+        },
+        {
           "title": "Precision In Motion. Vishay Precision Group, Inc. (VPG) to Showcase Custom Sensing Capabilities for Humanoid Robotics at RoboBusiness 2026",
           "summary": "<p>As humanoid robots move from research labs into factories, warehouses, homes, and other shared spaces, accurate physical feedback becomes crucial.</p> <p>The post <a href=\"https://www.therobotreport.com/precision-in-motion-vishay-precision-group-inc-vpg-to-showcase-custom-sensing-capabilities-for-humanoid-robotics-at-robobusiness-2026/\">Precision In Motion. Vishay Precision Group, Inc. (VPG) to",
           "published": "Thu, 01 Oct 2026 15:29:55 +0000",
@@ -528,22 +544,6 @@
           "summary": "<p>Raise Robotics said attendees will learn a decision rule for allocating engineering capacity and a vocabulary for two hidden failure modes.</p> <p>The post <a href=\"https://www.therobotreport.com/raise-robotics-discuss-scaling-field-robots-robobusiness/\">Raise Robotics to discuss scaling field robots at RoboBusiness</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report",
           "published": "Mon, 28 Sep 2026 13:22:53 +0000",
           "url": "https://www.therobotreport.com/raise-robotics-discuss-scaling-field-robots-robobusiness/",
-          "feed": "The Robot Report",
-          "source": "rss"
-        },
-        {
-          "title": "Asimov’s laws are not enough to keep robotics and AI safe",
-          "summary": "<p>Asimov's fictional Three Laws of Robotics famously set safeguards, and tech observers today raise similar concerns about AI.</p> <p>The post <a href=\"https://www.therobotreport.com/asimovs-laws-are-not-enough-keep-robotics-ai-safe/\">Asimov&#8217;s laws are not enough to keep robotics and AI safe</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
-          "published": "Sun, 27 Sep 2026 12:26:44 +0000",
-          "url": "https://www.therobotreport.com/asimovs-laws-are-not-enough-keep-robotics-ai-safe/",
-          "feed": "The Robot Report",
-          "source": "rss"
-        },
-        {
-          "title": "From 14 cities to 15,000: What it will take to scale robotaxis?",
-          "summary": "<p>While robotaxis prove their driving ability, scaling the industry globally requires solving the unglamorous challenge of fast, local vehicle servicing.</p> <p>The post <a href=\"https://www.therobotreport.com/from-14-cities-to-15000-what-it-will-take-to-scale-robotaxis/\">From 14 cities to 15,000: What it will take to scale robotaxis?</a> appeared first on <a href=\"https://www.therobotreport.com\"",
-          "published": "Sat, 26 Sep 2026 12:34:55 +0000",
-          "url": "https://www.therobotreport.com/from-14-cities-to-15000-what-it-will-take-to-scale-robotaxis/",
           "feed": "The Robot Report",
           "source": "rss"
         }

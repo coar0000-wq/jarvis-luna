@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-01T16:55:39.792868+00:00",
+  "generated_at": "2026-10-01T22:20:58.381100+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
-  "pool_size": 3070,
+  "pool_size": 3113,
   "제목없어_버림": 38,
   "unrouted": 8,
   "summary": {
@@ -15,59 +15,59 @@
       "products": 356
     },
     "market": {
-      "total": 920,
-      "recent": 103,
-      "material": 920,
-      "material_recent": 103,
+      "total": 921,
+      "recent": 104,
+      "material": 921,
+      "material_recent": 104,
       "products": 0
     },
     "listing": {
-      "total": 113,
+      "total": 114,
       "recent": 57,
-      "material": 113,
+      "material": 114,
       "material_recent": 57,
       "products": 0
     },
     "pricing": {
       "total": 67,
-      "recent": 26,
+      "recent": 25,
       "material": 67,
-      "material_recent": 26,
+      "material_recent": 25,
       "products": 0
     },
     "legal": {
-      "total": 226,
-      "recent": 48,
-      "material": 226,
-      "material_recent": 48,
+      "total": 225,
+      "recent": 49,
+      "material": 225,
+      "material_recent": 49,
       "products": 0
     },
     "design": {
-      "total": 447,
-      "recent": 131,
-      "material": 447,
-      "material_recent": 131,
+      "total": 454,
+      "recent": 137,
+      "material": 454,
+      "material_recent": 137,
       "products": 0
     },
     "robotics": {
-      "total": 146,
-      "recent": 51,
-      "material": 146,
-      "material_recent": 51,
+      "total": 147,
+      "recent": 55,
+      "material": 147,
+      "material_recent": 55,
       "products": 0
     },
     "knowledge": {
-      "total": 293,
-      "recent": 98,
-      "material": 293,
-      "material_recent": 98,
+      "total": 297,
+      "recent": 104,
+      "material": 297,
+      "material_recent": 104,
       "products": 0
     },
     "institutions": {
-      "total": 1120,
-      "recent": 252,
-      "material": 1120,
-      "material_recent": 252,
+      "total": 1162,
+      "recent": 260,
+      "material": 1162,
+      "material_recent": 260,
       "products": 0
     },
     "channels": {
@@ -1441,14 +1441,14 @@
         "by_hand": true
       },
       {
-        "title": "How to Get Better Designs Out of Claude",
+        "title": "How to Supercharge Claude with Design Skills",
         "url": "https://www.youtube.com/watch?v=psUJ14KmwpI",
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
       },
       {
-        "title": "How to Use TikTok to Drive Shopify Sales",
+        "title": "Beyond TikTok Shop: How to Use TikTok to Drive Sales",
         "url": "https://www.youtube.com/watch?v=nIOn_726Rxk",
         "pool": "youtube_channel",
         "date": "",
@@ -1885,13 +1885,6 @@
         "by_hand": true
       },
       {
-        "title": "New SubscriptionContractCalculation API for subscription management",
-        "url": "https://shopify.dev/changelog/new-subscriptioncontractcalculation-api-for-subscription-management",
-        "pool": "design_refs",
-        "date": "2026-10-01",
-        "by_hand": false
-      },
-      {
         "title": "Introducing GPT-6.1 Sol",
         "url": "https://openai.com/index/introducing-gpt-6-1-sol",
         "pool": "institutions",
@@ -1924,6 +1917,13 @@
         "url": "https://x.ai/news/grok-4-7",
         "pool": "institutions",
         "date": "2026-09-21",
+        "by_hand": false
+      },
+      {
+        "title": "Smoking and vaping trends among active-duty US Navy and Marine Corps personnel: results from the Annual Periodic Health Assessment, 2017-2021",
+        "url": "https://doi.org/10.1093/ntr/ntag188",
+        "pool": "institutions",
+        "date": "2026-08-26",
         "by_hand": false
       }
     ],
@@ -2783,14 +2783,14 @@
         "by_hand": true
       },
       {
-        "title": "How to Get Better Designs Out of Claude",
+        "title": "How to Supercharge Claude with Design Skills",
         "url": "https://www.youtube.com/watch?v=psUJ14KmwpI",
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
       },
       {
-        "title": "How to Use TikTok to Drive Shopify Sales",
+        "title": "Beyond TikTok Shop: How to Use TikTok to Drive Sales",
         "url": "https://www.youtube.com/watch?v=nIOn_726Rxk",
         "pool": "youtube_channel",
         "date": "",
@@ -3580,6 +3580,13 @@
         "by_hand": true
       },
       {
+        "title": "OpenAI Security: Controlling Models is Now ‘Hell’",
+        "url": "https://www.youtube.com/watch?v=_rtp1XzaP6Q",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
         "title": "Opus 5.5: How Close Are We to Automated AI Research?",
         "url": "https://www.youtube.com/watch?v=R9momwXV9w4",
         "pool": "youtube_channel",
@@ -3673,13 +3680,6 @@
       {
         "title": "Claude Opus 4.7 - A New Frontier, in Performance … and Drama",
         "url": "https://www.youtube.com/watch?v=QVJcdfkRpH8",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Claude Mythos: Highlights from 244-page Release",
-        "url": "https://www.youtube.com/watch?v=txx6ec6MLNY",
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true

@@ -2,7 +2,7 @@
 title: "기관 · Microsoft"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:19.528347+00:00
+updated_at: 2026-10-01T22:37:41.525552+00:00
 tags: [org, real-data]
 ---
 

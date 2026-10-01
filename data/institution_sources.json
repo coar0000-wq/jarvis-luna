@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-01T16:53:52.248262+00:00",
+  "collected_at": "2026-10-01T22:19:13.559866+00:00",
   "total": 1073,
   "organizations": 35,
   "by_org": {
@@ -54,7 +54,7 @@
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-10-01T16:52:58.672220+00:00"
+      "collected_at": "2026-10-01T22:18:23.015032+00:00"
     },
     "sitemap": {
       "status": "ok",
@@ -66,13 +66,13 @@
           "reason": "lastmod 있는 매칭 URL 0건"
         }
       ],
-      "collected_at": "2026-10-01T16:53:34.756170+00:00"
+      "collected_at": "2026-10-01T22:18:47.955598+00:00"
     },
     "openalex": {
       "status": "ok",
       "count": 743,
       "failures": [],
-      "collected_at": "2026-10-01T16:53:52.247133+00:00"
+      "collected_at": "2026-10-01T22:19:13.558909+00:00"
     }
   },
   "not_collected": {
@@ -91,11 +91,37 @@
   },
   "items": [
     {
+      "title": "The eternal complement",
+      "url": "https://openai.com/index/the-eternal-complement",
+      "date": "2026-10-01",
+      "date_raw": "Thu, 01 Oct 2026 17:00:00 GMT",
+      "summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
+      "org": "OpenAI",
+      "category": "AI연구소",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://openai.com/news/rss.xml",
+      "title_source": "feed"
+    },
+    {
       "title": "How Albertsons Companies is reimagining retail from the inside out",
       "url": "https://openai.com/index/albertsons-reimagining-retail",
       "date": "2026-10-01",
       "date_raw": "Thu, 01 Oct 2026 16:00:00 GMT",
       "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+      "org": "OpenAI",
+      "category": "AI연구소",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://openai.com/news/rss.xml",
+      "title_source": "feed"
+    },
+    {
+      "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
+      "url": "https://openai.com/index/the-den-family-social",
+      "date": "2026-10-01",
+      "date_raw": "Thu, 01 Oct 2026 00:00:00 GMT",
+      "summary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -130,11 +156,11 @@
       "title_source": "feed"
     },
     {
-      "title": "DevDay 2026 Recap",
-      "url": "https://openai.com/index/devday-2026-recap",
+      "title": "Introducing GPT-6.1 Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
       "date": "2026-09-29",
       "date_raw": "Tue, 29 Sep 2026 10:00:00 GMT",
-      "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+      "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -143,11 +169,11 @@
       "title_source": "feed"
     },
     {
-      "title": "Introducing GPT-6.1 Sol",
-      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "title": "DevDay 2026 Recap",
+      "url": "https://openai.com/index/devday-2026-recap",
       "date": "2026-09-29",
       "date_raw": "Tue, 29 Sep 2026 10:00:00 GMT",
-      "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+      "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -273,11 +299,11 @@
       "title_source": "feed"
     },
     {
-      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-      "url": "https://openai.com/index/ringg",
+      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
       "date": "2026-09-23",
       "date_raw": "Wed, 23 Sep 2026 12:00:00 GMT",
-      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+      "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -286,11 +312,11 @@
       "title_source": "feed"
     },
     {
-      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "title": "Sam Altman’s remarks at the United Nations Security Council",
+      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
       "date": "2026-09-23",
       "date_raw": "Wed, 23 Sep 2026 12:00:00 GMT",
-      "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -312,11 +338,11 @@
       "title_source": "feed"
     },
     {
-      "title": "Sam Altman’s remarks at the United Nations Security Council",
-      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "url": "https://openai.com/index/ringg",
       "date": "2026-09-23",
       "date_raw": "Wed, 23 Sep 2026 12:00:00 GMT",
-      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -382,32 +408,6 @@
       "date": "2026-09-22",
       "date_raw": "Tue, 22 Sep 2026 21:00:00 GMT",
       "summary": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
-      "org": "OpenAI",
-      "category": "AI연구소",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://openai.com/news/rss.xml",
-      "title_source": "feed"
-    },
-    {
-      "title": "Introducing GPT-6 Sol and Luna",
-      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-      "date": "2026-09-22",
-      "date_raw": "Tue, 22 Sep 2026 18:00:00 GMT",
-      "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
-      "org": "OpenAI",
-      "category": "AI연구소",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://openai.com/news/rss.xml",
-      "title_source": "feed"
-    },
-    {
-      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
-      "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-      "date": "2026-09-22",
-      "date_raw": "Tue, 22 Sep 2026 12:00:00 GMT",
-      "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
       "org": "OpenAI",
       "category": "AI연구소",
       "kind": "발표물",
@@ -2301,6 +2301,32 @@
       "title_source": "feed"
     },
     {
+      "title": "Read Restrictions and Catalog Labels: Unifying governance across engines and catalogs",
+      "url": "https://www.databricks.com/blog/read-restrictions-and-catalog-labels-unifying-governance-across-engines-and-catalogs",
+      "date": "2026-10-01",
+      "date_raw": "Thu, 01 Oct 2026 20:37:30 GMT",
+      "summary": "In our previous posts, we showed how open table formats, open APIs and unified governance...",
+      "org": "Databricks",
+      "category": "데이터분석",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://www.databricks.com/feed",
+      "title_source": "feed"
+    },
+    {
+      "title": "Lakebase Postgres branch-based restores for fast recovery at scale",
+      "url": "https://www.databricks.com/blog/lakebase-postgres-branch-based-restores-fast-recovery-scale",
+      "date": "2026-10-01",
+      "date_raw": "Thu, 01 Oct 2026 17:53:52 GMT",
+      "summary": "&nbsp;&nbsp;In managed OLTP, restores have always been painfully slow and they get slower at...",
+      "org": "Databricks",
+      "category": "데이터분석",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://www.databricks.com/feed",
+      "title_source": "feed"
+    },
+    {
       "title": "Connecting customer context to measurable ROI with agentic marketing",
       "url": "https://www.databricks.com/blog/connecting-customer-context-measurable-roi-agentic-marketing",
       "date": "2026-10-01",
@@ -2397,32 +2423,6 @@
       "date": "2026-09-28",
       "date_raw": "Mon, 28 Sep 2026 20:04:33 GMT",
       "summary": "Traditional OLTP systems weren't built for the search demands of AI agents. They...",
-      "org": "Databricks",
-      "category": "데이터분석",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://www.databricks.com/feed",
-      "title_source": "feed"
-    },
-    {
-      "title": "Manufacturing data and AI: Connecting the product value chain",
-      "url": "https://www.databricks.com/blog/manufacturing-data-and-ai-connecting-product-value-chain",
-      "date": "2026-09-28",
-      "date_raw": "Mon, 28 Sep 2026 19:47:19 GMT",
-      "summary": "A manufacturing defect rarely belongs to one system. A scrap spike may relate to...",
-      "org": "Databricks",
-      "category": "데이터분석",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://www.databricks.com/feed",
-      "title_source": "feed"
-    },
-    {
-      "title": "How to roll out Genie One: A step-by-step enterprise playbook",
-      "url": "https://www.databricks.com/blog/how-roll-out-genie-one-step-step-enterprise-playbook",
-      "date": "2026-09-28",
-      "date_raw": "Mon, 28 Sep 2026 16:30:00 GMT",
-      "summary": "A regional sales director wants to know why the Northeast pipeline looks soft this quarter...",
       "org": "Databricks",
       "category": "데이터분석",
       "kind": "발표물",
@@ -2834,6 +2834,19 @@
       "feed": "https://www.anthropic.com/sitemap.xml"
     },
     {
+      "url": "https://www.anthropic.com/research/claude-shaped-science",
+      "date": "2026-10-01",
+      "date_raw": "2026-10-01T18:50:14.000Z",
+      "title_source": "page",
+      "title": "Claude-shaped science",
+      "summary": "Matthew Schwartz describes what happened when he stopped fighting Claude and allowed Claude to find “Claude-shaped” problems. This led him to build BootLoops, a toolkit for exact calculations in quantitative science, which he has been applying across scientific fields alongside experts.",
+      "org": "Anthropic",
+      "category": "AI연구소",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.anthropic.com/sitemap.xml"
+    },
+    {
       "url": "https://www.anthropic.com/news/life-sciences-verification-program",
       "date": "2026-09-30",
       "date_raw": "2026-09-30T22:54:30.000Z",
@@ -2941,9 +2954,9 @@
       "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
       "date": "2026-09-24",
       "date_raw": "2026-09-24T10:25:16.000Z",
-      "title_source": "page",
-      "title": "Claude discovers a novel enzyme system",
-      "summary": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown.",
+      "title_source": "url-slug",
+      "title": "Claude Discovers Novel Enzyme System",
+      "summary": "",
       "org": "Anthropic",
       "category": "AI연구소",
       "kind": "발표물",
@@ -3060,19 +3073,6 @@
       "date_raw": "2026-09-11T11:55:40.000Z",
       "title_source": "url-slug",
       "title": "Economic Index Geography",
-      "summary": "",
-      "org": "Anthropic",
-      "category": "AI연구소",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.anthropic.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.anthropic.com/research/economic-index-june-2026-report",
-      "date": "2026-09-11",
-      "date_raw": "2026-09-11T11:57:10.000Z",
-      "title_source": "url-slug",
-      "title": "Economic Index June 2026 Report",
       "summary": "",
       "org": "Anthropic",
       "category": "AI연구소",
@@ -3616,9 +3616,35 @@
     {
       "url": "https://www.goldmansachs.com/insights/investing-in-sports",
       "date": "2026-10-01",
-      "date_raw": "2026-10-01T13:16:47.000Z",
+      "date_raw": "2026-10-01T19:16:18.000Z",
       "title_source": "url-slug",
       "title": "Investing In Sports",
+      "summary": "",
+      "org": "Goldman Sachs",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.goldmansachs.com/sitemap.xml"
+    },
+    {
+      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/how-family-businesses-should-plan-for-generational-success",
+      "date": "2026-09-30",
+      "date_raw": "2026-09-30T14:52:43.000Z",
+      "title_source": "url-slug",
+      "title": "How Family Businesses Should Plan For Generational Success",
+      "summary": "",
+      "org": "Goldman Sachs",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.goldmansachs.com/sitemap.xml"
+    },
+    {
+      "url": "https://www.goldmansachs.com/insights/talks-at-gs/daniel-nadler-on-building-an-AI-powered-search-engine-for-medicine",
+      "date": "2026-09-30",
+      "date_raw": "2026-09-30T13:49:02.000Z",
+      "title_source": "url-slug",
+      "title": "Daniel Nadler On Building An Ai Powered Search Engine For Medicine",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -3822,32 +3848,6 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/how-family-businesses-should-plan-for-generational-success",
-      "date": "2026-09-30",
-      "date_raw": "2026-09-30T14:52:43.000Z",
-      "title_source": "url-slug",
-      "title": "How Family Businesses Should Plan For Generational Success",
-      "summary": "",
-      "org": "Goldman Sachs",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.goldmansachs.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.goldmansachs.com/insights/talks-at-gs/daniel-nadler-on-building-an-AI-powered-search-engine-for-medicine",
-      "date": "2026-09-30",
-      "date_raw": "2026-09-30T13:49:02.000Z",
-      "title_source": "url-slug",
-      "title": "Daniel Nadler On Building An Ai Powered Search Engine For Medicine",
-      "summary": "",
-      "org": "Goldman Sachs",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.goldmansachs.com/sitemap.xml"
-    },
-    {
       "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/why-markets-may-be-pricing-in-too-many-rate-hikes",
       "date": "2026-09-29",
       "date_raw": "2026-09-29T20:57:48.000Z",
@@ -3861,11 +3861,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.jpmorgan.com/insights/fraud/fraud-prevention/the-appearance-of-legitimacy-how-fraud-hides-in-plain-sight",
-      "date": "2026-09-30",
-      "date_raw": "2026-09-30",
+      "url": "https://www.jpmorgan.com/insights/sustainability/climate/board-discussion-resilience",
+      "date": "2026-10-01",
+      "date_raw": "2026-10-01",
       "title_source": "url-slug",
-      "title": "The Appearance Of Legitimacy How Fraud Hides In Plain Sight",
+      "title": "Board Discussion Resilience",
       "summary": "",
       "org": "JPMorgan Chase",
       "category": "투자은행",
@@ -3874,11 +3874,50 @@
       "feed": "https://www.jpmorgan.com/sitemap.xml"
     },
     {
-      "url": "https://www.jpmorgan.com/insights/sustainability/climate/board-discussion-resilience",
-      "date": "2026-09-29",
-      "date_raw": "2026-09-29",
+      "url": "https://www.jpmorgan.com/insights/banking/investment-banking/investment-banking-advisory-for-a-cybersecurity-firm",
+      "date": "2026-10-01",
+      "date_raw": "2026-10-01",
       "title_source": "url-slug",
-      "title": "Board Discussion Resilience",
+      "title": "Investment Banking Advisory For A Cybersecurity Firm",
+      "summary": "",
+      "org": "JPMorgan Chase",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.jpmorgan.com/sitemap.xml"
+    },
+    {
+      "url": "https://www.jpmorgan.com/insights/banking/investment-banking/supporting-muse-group-with-mid-cap-investment-solutions",
+      "date": "2026-10-01",
+      "date_raw": "2026-10-01",
+      "title_source": "url-slug",
+      "title": "Supporting Muse Group With Mid Cap Investment Solutions",
+      "summary": "",
+      "org": "JPMorgan Chase",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.jpmorgan.com/sitemap.xml"
+    },
+    {
+      "url": "https://www.jpmorgan.com/insights/treasury/trade-working-capital/managing-inventory-turnover-and-excess-inventory",
+      "date": "2026-10-01",
+      "date_raw": "2026-10-01",
+      "title_source": "url-slug",
+      "title": "Managing Inventory Turnover And Excess Inventory",
+      "summary": "",
+      "org": "JPMorgan Chase",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.jpmorgan.com/sitemap.xml"
+    },
+    {
+      "url": "https://www.jpmorgan.com/insights/fraud/fraud-prevention/the-appearance-of-legitimacy-how-fraud-hides-in-plain-sight",
+      "date": "2026-09-30",
+      "date_raw": "2026-09-30",
+      "title_source": "url-slug",
+      "title": "The Appearance Of Legitimacy How Fraud Hides In Plain Sight",
       "summary": "",
       "org": "JPMorgan Chase",
       "category": "투자은행",
@@ -4074,45 +4113,6 @@
       "date_raw": "2026-09-28",
       "title_source": "url-slug",
       "title": "Funding Mitchell Lama Housing Renovations",
-      "summary": "",
-      "org": "JPMorgan Chase",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.jpmorgan.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.jpmorgan.com/insights/podcast-hub/making-sense/why-tokenization-is-gaining-momentum",
-      "date": "2026-09-28",
-      "date_raw": "2026-09-28",
-      "title_source": "url-slug",
-      "title": "Why Tokenization Is Gaining Momentum",
-      "summary": "",
-      "org": "JPMorgan Chase",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.jpmorgan.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.jpmorgan.com/markets/insights/ai-blockchain-and-the-new-market-reality",
-      "date": "2026-09-27",
-      "date_raw": "2026-09-27",
-      "title_source": "url-slug",
-      "title": "Ai Blockchain And The New Market Reality",
-      "summary": "",
-      "org": "JPMorgan Chase",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.jpmorgan.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.jpmorgan.com/markets/insights/the-trading-desk-rewired",
-      "date": "2026-09-27",
-      "date_raw": "2026-09-27",
-      "title_source": "url-slug",
-      "title": "The Trading Desk Rewired",
       "summary": "",
       "org": "JPMorgan Chase",
       "category": "투자은행",

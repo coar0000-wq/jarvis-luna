@@ -2,7 +2,7 @@
 title: "Record e4c7f807aa · LOréal-and-COSMAX-are-shaping-the-future-of-your-beauty-routine---Vogu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:16.806617+00:00
+updated_at: 2026-10-01T22:37:39.165172+00:00
 tags: [record, real-data]
 ---
 
@@ -13,9 +13,10 @@ tags: [record, real-data]
 **제목:** L’Oréal and COSMAX are shaping the future of your beauty routine - Vogue Adria
 
 L’Oréal and COSMAX are shaping the future of your beauty routine - Vogue Adria
+L’Oréal and COSMAX are shaping the future of your beauty routine - Vogue Adria
 
-**출처:** Source · Google Search
+**출처:** Source · us_beauty
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

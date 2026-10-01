@@ -2,7 +2,7 @@
 title: "Record 3fb65d4636 · Completion-of-the-acquisition-of-GoHenry-a-money-management-platform-f"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:16.618589+00:00
+updated_at: 2026-10-01T22:37:39.010158+00:00
 tags: [record, real-data]
 ---
 

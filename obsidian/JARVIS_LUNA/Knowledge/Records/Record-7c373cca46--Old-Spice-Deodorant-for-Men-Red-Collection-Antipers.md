@@ -2,7 +2,7 @@
 title: "Record 7c373cca46 · Old-Spice-Deodorant-for-Men-Red-Collection-Antiperspirant-Lasting-Prot"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:18.341073+00:00
+updated_at: 2026-10-01T22:37:40.423482+00:00
 tags: [record, real-data]
 ---
 

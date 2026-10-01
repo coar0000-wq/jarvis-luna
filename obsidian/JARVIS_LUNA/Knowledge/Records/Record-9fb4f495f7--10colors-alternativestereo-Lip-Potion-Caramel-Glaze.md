@@ -2,7 +2,7 @@
 title: "Record 9fb4f495f7 · 10colors-alternativestereo-Lip-Potion-Caramel-Glaze-027-fl-oz8ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:17.536064+00:00
+updated_at: 2026-10-01T22:37:39.752201+00:00
 tags: [record, real-data]
 ---
 

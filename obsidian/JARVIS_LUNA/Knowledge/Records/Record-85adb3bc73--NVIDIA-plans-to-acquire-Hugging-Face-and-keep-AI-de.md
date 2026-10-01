@@ -2,7 +2,7 @@
 title: "Record 85adb3bc73 · NVIDIA-plans-to-acquire-Hugging-Face-and-keep-AI-de"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:18.258601+00:00
+updated_at: 2026-10-01T22:37:40.350464+00:00
 tags: [record, real-data]
 ---
 

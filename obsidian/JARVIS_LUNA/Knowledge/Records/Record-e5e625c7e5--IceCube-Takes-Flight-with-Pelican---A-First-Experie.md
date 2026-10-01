@@ -2,7 +2,7 @@
 title: "Record e5e625c7e5 · IceCube-Takes-Flight-with-Pelican---A-First-Experience"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:15.693644+00:00
+updated_at: 2026-10-01T22:37:38.225050+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 04759029f6 · From-SEO-to-GEO-A-Practical-Framework-for-Measuring-Brand-Visibility-i"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:16.551645+00:00
+updated_at: 2026-10-01T22:37:38.953765+00:00
 tags: [record, real-data]
 ---
 

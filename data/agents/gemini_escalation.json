@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T17:16:24.433145+00:00",
+  "generated_at": "2026-10-01T22:37:45.250715+00:00",
   "generator": "scripts/gemini_escalation.py",
   "policy": "data/manual/model_routing_policy.json",
   "enabled": true,
@@ -19,17 +19,19 @@
   ],
   "advice": {
     "risk": "medium",
-    "diagnosis": "일부 채널 수집 지연 및 외부 API(groq) 403 오류로 인한 고시 판독 대기 상태 발생",
+    "diagnosis": "일부 채널 수집 지연 및 LLM API 접근 오류(403)로 인한 고시 판독 대기, 수동 승인 필요 항목 누적",
     "next_safe_checks": [
-      "amazon_movers_beauty 채널 수집 상태 재확인",
-      "다이소 실상품 수집 파이프라인 실행 결과 로그 검토",
-      "groq API 403 에러 원인 및 대안 모델 라우팅 여부 확인",
-      "Shopify Draft 등록 대기 항목의 사람 승인 상태 점검"
+      "아마존 뷰티 채널 수집기 상태 재확인",
+      "다이소 실시간 상품 수집 실행 로그 점검",
+      "Groq API 403 에러 및 모델 엔드포인트 상태 확인",
+      "Shopify draft 등록 대기 건 관련 운영자 승인 상태 확인",
+      "고시 정보 판독을 위한 대체 AI 모델 라우팅 검토"
     ],
     "requires_human": true,
     "evidence_gaps": [
-      "groq meta-llama HTTP 403 에러의 상세 원인 로그 부족",
-      "다이소 수집 지연에 대한 구체적인 네트워크 또는 파서 에러 정보 부족"
+      "아마존 뷰티 채널 데이터가 0건인 상세 원인",
+      "Groq API 403 오류에 대한 인증 토큰 유효성 정보",
+      "다이소 수집기 마지막 실행 이후의 에러 로그"
     ],
     "forbidden_actions": [
       "external publish",
@@ -40,8 +42,8 @@
   },
   "usage": {
     "promptTokenCount": 1081,
-    "candidatesTokenCount": 243,
-    "totalTokenCount": 1324,
+    "candidatesTokenCount": 274,
+    "totalTokenCount": 1355,
     "promptTokensDetails": [
       {
         "modality": "TEXT",

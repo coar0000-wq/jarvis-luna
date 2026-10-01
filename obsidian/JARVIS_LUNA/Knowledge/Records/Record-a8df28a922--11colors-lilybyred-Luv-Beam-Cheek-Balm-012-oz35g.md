@@ -2,7 +2,7 @@
 title: "Record a8df28a922 · 11colors-lilybyred-Luv-Beam-Cheek-Balm-012-oz35g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:17.496083+00:00
+updated_at: 2026-10-01T22:37:39.719184+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** [11colors] lilybyred Luv Beam Cheek Balm 0.12 oz.(3.5g)
 
 [11colors] lilybyred Luv Beam Cheek Balm 0.12 oz.(3.5g)
-[11colors] lilybyred Luv Beam Cheek Balm 0.12 oz.(3.5g) · 평점 4.8 · 리뷰 18,468
+[11colors] lilybyred Luv Beam Cheek Balm 0.12 oz.(3.5g) · 평점 4.8 · 리뷰 18,530
 
 **출처:** Source · us_beauty
 

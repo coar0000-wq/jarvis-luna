@@ -2,7 +2,7 @@
 title: "Record 271375900c · Kendall-Jenner-says-this-22-K-beauty-cream-makes-her-skin-hydrated-and"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:17.123705+00:00
+updated_at: 2026-10-01T22:37:39.408925+00:00
 tags: [record, real-data]
 ---
 

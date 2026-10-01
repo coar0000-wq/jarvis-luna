@@ -2,7 +2,7 @@
 title: "Record adc8736904 · HY-K-yogurt-Probiotics-007-oz2g-x-60ea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:17.505410+00:00
+updated_at: 2026-10-01T22:37:39.727358+00:00
 tags: [record, real-data]
 ---
 

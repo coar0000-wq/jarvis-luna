@@ -2,7 +2,7 @@
 title: "Record 68222ece13 · Interfacial-coordination-driven-crystalline-engineering-of-phase-chang"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:15.780974+00:00
+updated_at: 2026-10-01T22:37:38.300272+00:00
 tags: [record, real-data]
 ---
 

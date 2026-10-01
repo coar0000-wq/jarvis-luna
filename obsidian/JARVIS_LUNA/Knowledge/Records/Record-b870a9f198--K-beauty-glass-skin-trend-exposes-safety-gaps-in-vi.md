@@ -2,7 +2,7 @@
 title: "Record b870a9f198 · K-beauty-glass-skin-trend-exposes-safety-gaps-in-viral-skin-care---Per"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:16.970261+00:00
+updated_at: 2026-10-01T22:37:39.294408+00:00
 tags: [record, real-data]
 ---
 

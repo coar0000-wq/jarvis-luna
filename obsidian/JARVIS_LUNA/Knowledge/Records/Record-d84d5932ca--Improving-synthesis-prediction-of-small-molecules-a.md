@@ -2,7 +2,7 @@
 title: "Record d84d5932ca · Improving-synthesis-prediction-of-small-molecules-at-scale-with-RetroC"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T17:16:18.143491+00:00
+updated_at: 2026-10-01T22:37:40.255991+00:00
 tags: [record, real-data]
 ---
 
