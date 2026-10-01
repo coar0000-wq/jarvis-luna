@@ -2,7 +2,7 @@
 title: "Record 25ffa9a6bc · Continued-increases-in-the-incidence-of-healthcare-associated-infectio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:36.455827+00:00
+updated_at: 2026-10-01T01:19:32.069466+00:00
 tags: [record, real-data]
 ---
 

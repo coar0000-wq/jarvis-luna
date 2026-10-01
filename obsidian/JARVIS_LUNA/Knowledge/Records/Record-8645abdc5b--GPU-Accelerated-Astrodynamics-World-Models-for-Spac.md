@@ -2,7 +2,7 @@
 title: "Record 8645abdc5b · GPU-Accelerated-Astrodynamics-World-Models-for-Spac"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:35.986212+00:00
+updated_at: 2026-10-01T01:19:31.598601+00:00
 tags: [record, real-data]
 ---
 

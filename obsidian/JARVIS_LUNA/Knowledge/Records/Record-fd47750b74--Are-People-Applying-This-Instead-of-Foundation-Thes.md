@@ -2,7 +2,7 @@
 title: "Record fd47750b74 · Are-People-Applying-This-Instead-of-Foundation-Thes"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:37.536441+00:00
+updated_at: 2026-10-01T01:19:33.221801+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ Are People Applying This Instead of Foundation These Days? BB Cream Is Back, but
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

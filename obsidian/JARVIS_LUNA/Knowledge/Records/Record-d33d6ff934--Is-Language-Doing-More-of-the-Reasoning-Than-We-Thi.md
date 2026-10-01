@@ -2,7 +2,7 @@
 title: "Record d33d6ff934 · Is-Language-Doing-More-of-the-Reasoning-Than-We-Think"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:37.142564+00:00
+updated_at: 2026-10-01T01:19:32.790749+00:00
 tags: [record, real-data]
 ---
 

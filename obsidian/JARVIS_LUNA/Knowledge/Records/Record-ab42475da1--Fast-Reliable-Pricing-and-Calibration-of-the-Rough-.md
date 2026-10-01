@@ -2,7 +2,7 @@
 title: "Record ab42475da1 · Fast-Reliable-Pricing-and-Calibration-of-the-Rough-Heston-Model"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:36.690898+00:00
+updated_at: 2026-10-01T01:19:32.315703+00:00
 tags: [record, real-data]
 ---
 

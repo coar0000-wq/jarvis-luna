@@ -2,7 +2,7 @@
 title: "Record 2532a23918 · Krebsprävention-und-Fruherkennung-im-Betrieb--Chancen-fur-Arbeitsmediz"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:36.669793+00:00
+updated_at: 2026-10-01T01:19:32.290770+00:00
 tags: [record, real-data]
 ---
 

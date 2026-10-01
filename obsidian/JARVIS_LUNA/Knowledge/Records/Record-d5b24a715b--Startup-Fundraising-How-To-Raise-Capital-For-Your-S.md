@@ -2,7 +2,7 @@
 title: "Record d5b24a715b · Startup-Fundraising-How-To-Raise-Capital-For-Your-Startup"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:38.624210+00:00
+updated_at: 2026-10-01T01:19:34.426300+00:00
 tags: [record, real-data]
 ---
 

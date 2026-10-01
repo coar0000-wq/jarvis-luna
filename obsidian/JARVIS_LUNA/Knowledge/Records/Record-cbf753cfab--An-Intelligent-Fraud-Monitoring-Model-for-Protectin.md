@@ -2,7 +2,7 @@
 title: "Record cbf753cfab · An-Intelligent-Fraud-Monitoring-Model-for-Protecting-Small-and-Medium-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:37.168671+00:00
+updated_at: 2026-10-01T01:19:32.816449+00:00
 tags: [record, real-data]
 ---
 

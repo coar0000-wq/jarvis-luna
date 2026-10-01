@@ -2,7 +2,7 @@
 title: "Record c9bf815d3a · BANILA-CO-Prime-Primer-Finish-Powder-042-oz12g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:38.092048+00:00
+updated_at: 2026-10-01T01:19:33.808061+00:00
 tags: [record, real-data]
 ---
 

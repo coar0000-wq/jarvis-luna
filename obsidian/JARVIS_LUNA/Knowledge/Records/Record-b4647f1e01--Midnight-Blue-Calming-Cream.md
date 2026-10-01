@@ -2,7 +2,7 @@
 title: "Record b4647f1e01 · Midnight-Blue-Calming-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:37.980311+00:00
+updated_at: 2026-10-01T01:19:33.683830+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Midnight Blue Calming Cream · KLAIRS · $31.0
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

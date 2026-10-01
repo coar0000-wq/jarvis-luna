@@ -2,7 +2,7 @@
 title: "Record 66c4cf5260 · Google-AI-Shopping-Features-How-to-Maximize-Your-Visibility---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:37.330947+00:00
+updated_at: 2026-10-01T01:19:32.992819+00:00
 tags: [record, real-data]
 ---
 

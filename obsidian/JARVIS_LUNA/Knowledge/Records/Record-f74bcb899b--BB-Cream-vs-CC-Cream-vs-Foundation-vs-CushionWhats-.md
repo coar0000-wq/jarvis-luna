@@ -2,7 +2,7 @@
 title: "Record f74bcb899b · BB-Cream-vs-CC-Cream-vs-Foundation-vs-CushionWhats-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:38.899481+00:00
+updated_at: 2026-10-01T01:19:34.712620+00:00
 tags: [record, real-data]
 ---
 
@@ -18,4 +18,4 @@ BB Cream vs CC Cream vs Foundation vs Cushion—What’s the Difference?! 🤯
 
 ## Connected nodes
 
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,7 +2,7 @@
 title: "Record 4b2f3fd3cf · Quality-Constrained-Routing-over-a-Fixed-Pool-of-Quantized-Mixture-of-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:36.175811+00:00
+updated_at: 2026-10-01T01:19:31.789131+00:00
 tags: [record, real-data]
 ---
 

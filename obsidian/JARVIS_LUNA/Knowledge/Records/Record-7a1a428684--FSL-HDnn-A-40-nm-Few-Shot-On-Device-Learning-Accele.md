@@ -2,7 +2,7 @@
 title: "Record 7a1a428684 · FSL-HDnn-A-40-nm-Few-Shot-On-Device-Learning-Accelerator-With-Integrat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:36.565530+00:00
+updated_at: 2026-10-01T01:19:32.182203+00:00
 tags: [record, real-data]
 ---
 

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-30T20:44:24.092754+00:00",
+  "generated_at": "2026-10-01T01:17:18.661622+00:00",
   "generator": "scripts/build_listing_copy_local.py",
   "model": "none_local_deterministic",
   "paid_api_called": false,
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "note": "기존 검증 카피를 보존하고 누락분만 제품명·용량·원산지 기반의 보수적 영문 초안으로 생성한다. 효능·인증·임상 결과는 생성하지 않는다.",
   "total": 10,
-  "eligible": 8,
-  "ok": 8,
+  "eligible": 9,
+  "ok": 9,
   "failed": 0,
-  "skipped_prerequisite": 2,
-  "carried_forward": 7,
+  "skipped_prerequisite": 1,
+  "carried_forward": 8,
   "generated_local": 1,
   "items": [
     {
@@ -174,27 +174,6 @@
       "error": ""
     },
     {
-      "canonical_product_id": "CP000218",
-      "pd_no": "1067500",
-      "name_ko": "[이중턱리프팅]VT PDRN 광채리프팅마스크 1매 27 g+광채에센스 1.5 ml",
-      "bucket": "마스크팩",
-      "price_krw": 2000,
-      "rating": null,
-      "review_count": null,
-      "shopify_score": 95,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067500",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251031/vqLOvtmpEIgiT5E4Vo0l1067500_00_01vqLOvtmpEIgiT5E4Vo0l.jpg",
-      "copy": null,
-      "copy_status": "skipped_prerequisite",
-      "generation_mode": "none",
-      "agent_blocked_by": [
-        "gosi",
-        "us_label",
-        "legal"
-      ],
-      "error": "ontology 선행 게이트 미통과: gosi, us_label, legal"
-    },
-    {
       "canonical_product_id": "CP000270",
       "pd_no": "1075857",
       "name_ko": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
@@ -234,7 +213,7 @@
       "price_krw": 3000,
       "rating": null,
       "review_count": null,
-      "shopify_score": 92,
+      "shopify_score": 93,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20250929/gblFwiiyQbV92ezzjLMk1049285_00_01gblFwiiyQbV92ezzjLMk.jpg",
       "copy": {
@@ -257,6 +236,26 @@
       "error": ""
     },
     {
+      "canonical_product_id": "CP000038",
+      "pd_no": "1027327",
+      "name_ko": "바세린 마스크팩 집중보습",
+      "bucket": "마스크팩",
+      "price_krw": 1000,
+      "rating": null,
+      "review_count": null,
+      "shopify_score": 91,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027327&recmYn=N",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251231/a1rTbe8LgoPw9mu5HABd1027327_00_00a1rTbe8LgoPw9mu5HABd.jpg",
+      "copy": null,
+      "copy_status": "skipped_prerequisite",
+      "generation_mode": "none",
+      "agent_blocked_by": [
+        "us_label",
+        "legal"
+      ],
+      "error": "ontology 선행 게이트 미통과: us_label, legal"
+    },
+    {
       "canonical_product_id": "CP000151",
       "pd_no": "1059834",
       "name_ko": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
@@ -264,7 +263,7 @@
       "price_krw": 2000,
       "rating": null,
       "review_count": null,
-      "shopify_score": 89,
+      "shopify_score": 90,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20250429/dEtwcu53V3cOWvQ0SnSL1059834_00_01dEtwcu53V3cOWvQ0SnSL.jpg",
       "copy": {
@@ -287,24 +286,34 @@
       "error": ""
     },
     {
-      "canonical_product_id": "CP000038",
-      "pd_no": "1027327",
-      "name_ko": "바세린 마스크팩 집중보습",
+      "canonical_product_id": "CP000075",
+      "pd_no": "1042619",
+      "name_ko": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
       "bucket": "마스크팩",
       "price_krw": 1000,
       "rating": null,
       "review_count": null,
       "shopify_score": 89,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027327&recmYn=N",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251231/a1rTbe8LgoPw9mu5HABd1027327_00_00a1rTbe8LgoPw9mu5HABd.jpg",
-      "copy": null,
-      "copy_status": "skipped_prerequisite",
-      "generation_mode": "none",
-      "agent_blocked_by": [
-        "us_label",
-        "legal"
-      ],
-      "error": "ontology 선행 게이트 미통과: us_label, legal"
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240109/8IB1YBxg81UqZXiKzXFM1042619_00_008IB1YBxg81UqZXiKzXFM.jpg",
+      "copy": {
+        "title": "CELDERMA Daily Collagen Gel Sheet Mask 29g",
+        "description_html": "<p>CELDERMA Daily Collagen Gel Sheet Mask 29g is a Korean beauty gel sheet mask in a 29g size. This draft uses only the verified product identity and package information.</p><p>Review the ingredient list, directions, and final US label before publication.</p>",
+        "seo_title": "CELDERMA Daily Collagen Gel Sheet Mask 29g",
+        "seo_description": "View CELDERMA Daily Collagen Gel Sheet Mask 29g. Product identity and size are based on the source product notice. Review ingredients, directions, and the final label before purchase.",
+        "tags": [
+          "celderma-daily",
+          "collagen",
+          "gel-sheet-mask",
+          "k-beauty",
+          "korean-beauty"
+        ],
+        "product_type": "Gel Sheet Mask"
+      },
+      "copy_status": "ok",
+      "generation_mode": "deterministic_local_template_v1",
+      "agent_blocked_by": [],
+      "error": ""
     }
   ]
 }

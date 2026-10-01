@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-30T20:42:52.756889+00:00",
+  "generated_at": "2026-10-01T01:17:15.308174+00:00",
   "note": "점수는 높았으나 S에서 탈락한 후보. 등록하지 말 것.",
-  "count": 69,
+  "count": 76,
   "items": [
     {
       "canonical_product_id": "CP000215",
       "pd_no": "1067496",
       "name": "[탄력광채]VT PDRN 광채 에센스 2 ml 6개입",
       "bucket": "스킨케어",
-      "shopify_score": 99,
+      "shopify_score": 100,
       "s_rule": "match_too_weak",
       "downgrade_reason": null,
       "recommend_reason": "글로벌 'PDRN Caffeine Shot Serum' (sokoglam_us) 유사 40% · 토큰 pdrn · S제외:match_too_weak"
@@ -64,6 +64,16 @@
       "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule"
     },
     {
+      "canonical_product_id": "CP000134",
+      "pd_no": "1056647",
+      "name": "VT 콜라겐 리들샷 S50 페이셜 부스팅 퍼스트 앰플 2ml 6개입",
+      "bucket": "스킨케어",
+      "shopify_score": 96,
+      "s_rule": "form_cap",
+      "downgrade_reason": "동일 제형(앰플) 상위 2개에 밀림",
+      "recommend_reason": "글로벌 'Time Stop Collagen Ampoule' (sokoglam_us) 유사 85% · 토큰 ampoule, collagen"
+    },
+    {
       "canonical_product_id": "CP000181",
       "pd_no": "1061923",
       "name": "본셉 비타씨 앰플 아이 겔 패치 12 매",
@@ -72,6 +82,16 @@
       "s_rule": "match_too_weak",
       "downgrade_reason": null,
       "recommend_reason": "글로벌 'Freshly Juiced Vitamin C Drop' (sokoglam_us) 유사 50% · 토큰 vitaminc · S제외:match_too_weak"
+    },
+    {
+      "canonical_product_id": "CP000218",
+      "pd_no": "1067500",
+      "name": "[이중턱리프팅]VT PDRN 광채리프팅마스크 1매 27 g+광채에센스 1.5 ml",
+      "bucket": "마스크팩",
+      "shopify_score": 96,
+      "s_rule": "match_too_weak",
+      "downgrade_reason": null,
+      "recommend_reason": "글로벌 'PDRN Caffeine Shot Serum' (sokoglam_us) 유사 40% · 토큰 pdrn · S제외:match_too_weak"
     },
     {
       "canonical_product_id": "CP000100",
@@ -108,50 +128,30 @@
       "pd_no": "1044553",
       "name": "마데카21 테카 솔루션 수딩 미스트 토너 200 ml",
       "bucket": "스킨케어",
-      "shopify_score": 95,
+      "shopify_score": 96,
       "s_rule": "no_global_match",
       "downgrade_reason": null,
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 15,987건 (글로벌 시그널 약함)"
     },
     {
-      "canonical_product_id": "CP000134",
-      "pd_no": "1056647",
-      "name": "VT 콜라겐 리들샷 S50 페이셜 부스팅 퍼스트 앰플 2ml 6개입",
+      "canonical_product_id": "CP000144",
+      "pd_no": "1059091",
+      "name": "[화잘먹앰플] 미모 바이 마몽드 로지-히알론 수분 앰플 50 ml (아모레퍼시픽)",
       "bucket": "스킨케어",
       "shopify_score": 94,
-      "s_rule": "form_cap",
-      "downgrade_reason": "동일 제형(앰플) 상위 2개에 밀림",
-      "recommend_reason": "글로벌 'Time Stop Collagen Ampoule' (sokoglam_us) 유사 85% · 토큰 ampoule, collagen"
-    },
-    {
-      "canonical_product_id": "CP000340",
-      "pd_no": "1056649",
-      "name": "VT 리들샷 페이셜 레디언스 글루타치온 에센스 2 ml X 6개입",
-      "bucket": "스킨케어",
-      "shopify_score": 94,
-      "s_rule": "weak_solo_token",
+      "s_rule": "match_too_weak",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'COSRX Advanced Snail 96 Mucin Essence' (tiktok_shop_us) 유사 28% · 토큰 essence · S제외:weak_solo_token"
+      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 40% · 토큰 ampoule · S제외:match_too_weak"
     },
     {
-      "canonical_product_id": "CP000135",
-      "pd_no": "1056650",
-      "name": "VT 리들샷 페이셜 리페어 EGF 에센스 2 ml X 6개입",
+      "canonical_product_id": "CP000052",
+      "pd_no": "1035080",
+      "name": "애즈어스 시카 카밍 토너 패드 100매입",
       "bucket": "스킨케어",
       "shopify_score": 94,
-      "s_rule": "no_global_match",
+      "s_rule": "match_too_weak",
       "downgrade_reason": null,
-      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 2,407건 (글로벌 시그널 약함)"
-    },
-    {
-      "canonical_product_id": "CP000067",
-      "pd_no": "1041749",
-      "name": "식물원 병풀 클리어 앰플 30 ml",
-      "bucket": "스킨케어",
-      "shopify_score": 93,
-      "s_rule": "form_cap",
-      "downgrade_reason": "동일 제형(앰플) 상위 2개에 밀림",
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 92% · 토큰 ampoule, centella"
+      "recommend_reason": "글로벌 'medicube Toner Pads Zero Pore Pad 2.0 for Exfoliation and Pore Care | Dual-Textured Facial Pad with 4.5% AHA Lactic Acid, 0.45% BHA Salicylic Acid - For All, Korean Skin Care, 70 Pads, 1 Pack' (amazon_best_sellers) 유사 32% · 토큰 toner · S제외:match_too_weak"
     },
     {
       "canonical_product_id": "CP000179",
@@ -204,16 +204,6 @@
       "recommend_reason": "글로벌 'Yuzu Vitamin C Bright Eye Cream' (sokoglam_us) 유사 65% · 토큰 cream, vitaminc"
     },
     {
-      "canonical_product_id": "CP000052",
-      "pd_no": "1035080",
-      "name": "애즈어스 시카 카밍 토너 패드 100매입",
-      "bucket": "스킨케어",
-      "shopify_score": 93,
-      "s_rule": "match_too_weak",
-      "downgrade_reason": null,
-      "recommend_reason": "글로벌 'medicube Toner Pads Zero Pore Pad 2.0 for Exfoliation and Pore Care | Dual-Textured Facial Pad with 4.5% AHA Lactic Acid, 0.45% BHA Salicylic Acid - For All, Korean Skin Care, 70 Pads, 1 Pack' (amazon_best_sellers) 유사 32% · 토큰 toner · S제외:match_too_weak"
-    },
-    {
       "canonical_product_id": "CP000084",
       "pd_no": "1044554",
       "name": "마데카21 테카 솔루션 수딩 크림 50 ml",
@@ -264,54 +254,34 @@
       "recommend_reason": "글로벌 'Lacto-PDRN 4% + B9 Eye Cream' (ulta_beauty) 유사 88% · 토큰 cream, pdrn"
     },
     {
-      "canonical_product_id": "CP000144",
-      "pd_no": "1059091",
-      "name": "[화잘먹앰플] 미모 바이 마몽드 로지-히알론 수분 앰플 50 ml (아모레퍼시픽)",
-      "bucket": "스킨케어",
-      "shopify_score": 92,
-      "s_rule": "match_too_weak",
-      "downgrade_reason": null,
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 40% · 토큰 ampoule · S제외:match_too_weak"
-    },
-    {
-      "canonical_product_id": "CP000159",
-      "pd_no": "1060494",
-      "name": "정직한실험실 트루랩 엔젤링 오일 에센스 60 ml",
+      "canonical_product_id": "CP000055",
+      "pd_no": "1035210",
+      "name": "오릭스 엘레강스 올인원 스킨＆로션 410 ml",
       "bucket": "스킨케어",
       "shopify_score": 92,
       "s_rule": "weak_solo_token",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'COSRX Advanced Snail 96 Mucin Essence' (tiktok_shop_us) 유사 28% · 토큰 essence · S제외:weak_solo_token"
+      "recommend_reason": "글로벌 '[3sizes] ILLIYOON Ceramide Ato Lotion' (oliveyoung_us) 유사 28% · 토큰 lotion · S제외:weak_solo_token"
     },
     {
-      "canonical_product_id": "CP000088",
-      "pd_no": "1044967",
-      "name": "어퓨 더퓨어 티트리 에센스 50ml",
+      "canonical_product_id": "CP000067",
+      "pd_no": "1041749",
+      "name": "식물원 병풀 클리어 앰플 30 ml",
       "bucket": "스킨케어",
-      "shopify_score": 92,
-      "s_rule": "no_global_match",
-      "downgrade_reason": null,
-      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 838건 (글로벌 시그널 약함)"
+      "shopify_score": 91,
+      "s_rule": "form_cap",
+      "downgrade_reason": "동일 제형(앰플) 상위 2개에 밀림",
+      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 92% · 토큰 ampoule, centella"
     },
     {
-      "canonical_product_id": "CP000190",
-      "pd_no": "1062781",
-      "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+      "canonical_product_id": "CP000242",
+      "pd_no": "1071644",
+      "name": "파티온 노스카나인 퍼스트스텝 흔적수분크림 50 ml",
       "bucket": "스킨케어",
       "shopify_score": 91,
       "s_rule": "form_cap",
       "downgrade_reason": "동일 제형(크림) 상위 2개에 밀림",
-      "recommend_reason": "글로벌 'PDRN Pink Collagen Volume Multi Balm' (ulta_beauty) 유사 74% · 토큰 collagen, pdrn"
-    },
-    {
-      "canonical_product_id": "CP000108",
-      "pd_no": "1049277",
-      "name": "[진정보습]VT 시카 슬리핑 마스크 4 ml 6개입",
-      "bucket": "스킨케어",
-      "shopify_score": 91,
-      "s_rule": "match_too_weak",
-      "downgrade_reason": null,
-      "recommend_reason": "글로벌 'Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream' (ulta_beauty) 유사 49% · 토큰 calming, centella · S제외:match_too_weak"
+      "recommend_reason": "글로벌 'Pocket Blush Buildable Hydrating Cream Blush' (sephora) 유사 71% · 토큰 cream, hydrating"
     },
     {
       "canonical_product_id": "CP000184",
@@ -324,6 +294,16 @@
       "recommend_reason": "글로벌 'XMD Stem III Clinical Recovery Serum' (sokoglam_us) 유사 27% · 토큰 serum · S제외:weak_solo_token"
     },
     {
+      "canonical_product_id": "CP000071",
+      "pd_no": "1042246",
+      "name": "오릭스 퍼퓸 바디로션 500 ml 히노끼향",
+      "bucket": "바디케어",
+      "shopify_score": 91,
+      "s_rule": "no_global_match",
+      "downgrade_reason": null,
+      "recommend_reason": "바디케어 카테고리 · 평점 4.7 · 리뷰 2,498건 (글로벌 시그널 약함)"
+    },
+    {
       "canonical_product_id": "CP000344",
       "pd_no": "1071640",
       "name": "파티온 노스카나인 퍼스트스텝 세럼클렌저 100 ml",
@@ -332,6 +312,56 @@
       "s_rule": "no_global_match",
       "downgrade_reason": null,
       "recommend_reason": "클렌징 카테고리 · 평점 4.8 · 리뷰 827건 (글로벌 시그널 약함)"
+    },
+    {
+      "canonical_product_id": "CP000190",
+      "pd_no": "1062781",
+      "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+      "bucket": "스킨케어",
+      "shopify_score": 90,
+      "s_rule": "form_cap",
+      "downgrade_reason": "동일 제형(크림) 상위 2개에 밀림",
+      "recommend_reason": "글로벌 'PDRN Pink Collagen Capsule Cream' (ulta_beauty) 유사 100% · 토큰 collagen, cream, pdrn"
+    },
+    {
+      "canonical_product_id": "CP000108",
+      "pd_no": "1049277",
+      "name": "[진정보습]VT 시카 슬리핑 마스크 4 ml 6개입",
+      "bucket": "스킨케어",
+      "shopify_score": 90,
+      "s_rule": "match_too_weak",
+      "downgrade_reason": null,
+      "recommend_reason": "글로벌 'Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream' (ulta_beauty) 유사 49% · 토큰 calming, centella · S제외:match_too_weak"
+    },
+    {
+      "canonical_product_id": "CP000157",
+      "pd_no": "1060487",
+      "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
+      "bucket": "마스크팩",
+      "shopify_score": 90,
+      "s_rule": "match_too_weak",
+      "downgrade_reason": null,
+      "recommend_reason": "글로벌 'Medicube Zero Pore Pad' (tiktok_shop_us) 유사 43% · 토큰 pore · S제외:match_too_weak"
+    },
+    {
+      "canonical_product_id": "CP000077",
+      "pd_no": "1043659",
+      "name": "닥터지오 모이스처 올인원 젤로션 150 ml",
+      "bucket": "스킨케어",
+      "shopify_score": 90,
+      "s_rule": "match_too_weak",
+      "downgrade_reason": null,
+      "recommend_reason": "글로벌 'Toleriane Double Repair Face Moisturizer with Niacinamide' (ulta_beauty) 유사 34% · 토큰 moisturizer · S제외:match_too_weak"
+    },
+    {
+      "canonical_product_id": "CP000080",
+      "pd_no": "1044110",
+      "name": "존슨즈 베이비 로션 핑크 200ml",
+      "bucket": "스킨케어",
+      "shopify_score": 90,
+      "s_rule": "weak_solo_token",
+      "downgrade_reason": null,
+      "recommend_reason": "글로벌 '[3sizes] ILLIYOON Ceramide Ato Lotion' (oliveyoung_us) 유사 28% · 토큰 lotion · S제외:weak_solo_token"
     },
     {
       "canonical_product_id": "CP000234",
@@ -344,16 +374,6 @@
       "recommend_reason": "스킨케어 카테고리 · 평점 4.7 · 리뷰 953건 (글로벌 시그널 약함)"
     },
     {
-      "canonical_product_id": "CP000242",
-      "pd_no": "1071644",
-      "name": "파티온 노스카나인 퍼스트스텝 흔적수분크림 50 ml",
-      "bucket": "스킨케어",
-      "shopify_score": 89,
-      "s_rule": "form_cap",
-      "downgrade_reason": "동일 제형(크림) 상위 2개에 밀림",
-      "recommend_reason": "글로벌 'Pocket Blush Buildable Hydrating Cream Blush' (sephora) 유사 71% · 토큰 cream, hydrating"
-    },
-    {
       "canonical_product_id": "CP000261",
       "pd_no": "1073250",
       "name": "AHC 에이지리뉴 아이크림 하이드레이션 30 ml",
@@ -364,44 +384,24 @@
       "recommend_reason": "글로벌 'Snail Mucin Eye Cream' (sokoglam_us) 유사 29% · 토큰 cream · S제외:weak_solo_token"
     },
     {
-      "canonical_product_id": "CP000236",
-      "pd_no": "1069995",
-      "name": "실크테라피 실크케라틴 앰플트리트먼트 150 ml",
-      "bucket": "헤어케어",
-      "shopify_score": 89,
-      "s_rule": "no_global_match",
-      "downgrade_reason": null,
-      "recommend_reason": "헤어케어 카테고리 · 평점 4.8 · 리뷰 737건 (글로벌 시그널 약함)"
-    },
-    {
-      "canonical_product_id": "CP000125",
-      "pd_no": "1053482",
-      "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
+      "canonical_product_id": "CP000340",
+      "pd_no": "1056649",
+      "name": "VT 리들샷 페이셜 레디언스 글루타치온 에센스 2 ml X 6개입",
       "bucket": "스킨케어",
-      "shopify_score": 88,
-      "s_rule": "rank_cap",
-      "downgrade_reason": "상위 10위 밖",
-      "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 60% · 토큰 calming, toner"
+      "shopify_score": 89,
+      "s_rule": "weak_solo_token",
+      "downgrade_reason": null,
+      "recommend_reason": "글로벌 'COSRX Advanced Snail 96 Mucin Essence' (tiktok_shop_us) 유사 28% · 토큰 essence · S제외:weak_solo_token"
     },
     {
       "canonical_product_id": "CP000029",
       "pd_no": "1018161",
       "name": "팩미인 하이드로겔 브이 마스크팩",
       "bucket": "마스크팩",
-      "shopify_score": 88,
+      "shopify_score": 89,
       "s_rule": "weak_solo_token",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 '[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)' (oliveyoung_us) 유사 27% · 토큰 mask · S제외:weak_solo_token"
-    },
-    {
-      "canonical_product_id": "CP000075",
-      "pd_no": "1042619",
-      "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
-      "bucket": "마스크팩",
-      "shopify_score": 87,
-      "s_rule": "rank_cap",
-      "downgrade_reason": "상위 10위 밖",
-      "recommend_reason": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 68% · 토큰 collagen, mask"
+      "recommend_reason": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 27% · 토큰 mask · S제외:weak_solo_token"
     }
   ]
 }

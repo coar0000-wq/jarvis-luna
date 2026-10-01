@@ -2,7 +2,7 @@
 title: "Record 72f16fd009 · 4scents-hetras-Hotel-Therapy-Body-Wash-3425-fl-oz1013ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:38.114681+00:00
+updated_at: 2026-10-01T01:19:33.833160+00:00
 tags: [record, real-data]
 ---
 

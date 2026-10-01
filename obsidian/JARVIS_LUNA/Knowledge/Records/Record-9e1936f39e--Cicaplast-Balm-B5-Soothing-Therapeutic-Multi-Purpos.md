@@ -2,7 +2,7 @@
 title: "Record 9e1936f39e · Cicaplast-Balm-B5-Soothing-Therapeutic-Multi-Purpose-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:38.806878+00:00
+updated_at: 2026-10-01T01:19:34.608556+00:00
 tags: [record, real-data]
 ---
 
@@ -13,10 +13,10 @@ tags: [record, real-data]
 **제목:** Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream
 
 Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream
-Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream · La Roche-Posay · $15.74
+Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream · La Roche-Posay · $20.99
 
 **출처:** Source · us_beauty
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

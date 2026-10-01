@@ -2,7 +2,7 @@
 title: "Record 7edc3c7c14 · Cantu-Shea-Butter-Activator-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:38.118809+00:00
+updated_at: 2026-10-01T01:19:33.837750+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Cantu Shea Butter Activator Cream · cantu
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

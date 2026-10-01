@@ -2,7 +2,7 @@
 title: "Record eecab6ca97 · eos-Pumpkin-Chai-Fine-Fragrance-Body-Mist---Fall-Body-Spray-6-fl-oz"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:38.491767+00:00
+updated_at: 2026-10-01T01:19:34.290021+00:00
 tags: [record, real-data]
 ---
 

@@ -1,6 +1,6 @@
 {
   "team": "디자인팀",
-  "generated_at": "2026-09-30T20:32:05.926784+00:00",
+  "generated_at": "2026-10-01T01:05:04.394609+00:00",
   "scope": "Shopify 스토어 디자인 사양 관리 + 디자인 레퍼런스 수집",
   "checklist": {
     "total": 12,
@@ -147,8 +147,8 @@
     "failures": [],
     "quality": {
       "items": 78,
-      "relevant": 37,
-      "relevant_ratio": 0.474,
+      "relevant": 38,
+      "relevant_ratio": 0.487,
       "per_feed": {
         "Shopify Changelog": {
           "items": 15,
@@ -156,7 +156,7 @@
         },
         "Shopify Dev Changelog": {
           "items": 15,
-          "relevant": 10
+          "relevant": 11
         },
         "Shopify Engineering": {
           "items": 15,
@@ -322,6 +322,14 @@
         "relevance": 0
       },
       {
+        "title": "Shopify Flow: Flow Trigger Lifecycle Callback extensions now support relative url paths",
+        "url": "https://shopify.dev/changelog/shopify-flow-flow-trigger-lifecycle-callback-extensions-now-support-relative-url-paths",
+        "date": "2026-09-29",
+        "summary": "Previously, the URL for Flow Trigger Lifecycle Callback extensions were required to be absolute HTTPS URLs pointing to a web server. This required an already hosted system which made it inconvenient to test locally before deployment. Additionally, it required that the full URL be updated in addition",
+        "feed": "Shopify Dev Changelog",
+        "relevance": 1
+      },
+      {
         "title": "Manage packed product dimensions with the Admin GraphQL API",
         "url": "https://shopify.dev/changelog/manage-packed-product-dimensions-with-the-admin-graphql-api",
         "date": "2026-09-29",
@@ -416,14 +424,6 @@
         "summary": "Developers using Shopify App Pricing can now create unlimited private plans per app and add unlimited target stores to each plan, replacing the previous limits of 15 private plans and 20 stores per plan. No action is required to continue using existing plans. What changed A private plan is an app pr",
         "feed": "Shopify Dev Changelog",
         "relevance": 1
-      },
-      {
-        "title": "New translatable boolean field for Metafield GraphQL Object",
-        "url": "https://shopify.dev/changelog/is-translatable-metafield-field",
-        "date": "2026-09-21",
-        "summary": "API version 2026-10 adds a non-null translatable field to the Metafield object in the GraphQL Admin API. Apps that fetch translatable metafields and migrate to 2026-10 can now see whether a metafield’s value is translatable directly on the metafield itself. If your app doesn’t query for translatable",
-        "feed": "Shopify Dev Changelog",
-        "relevance": 0
       },
       {
         "title": "Helix: The internal tool powering our Shopify app's native migration",

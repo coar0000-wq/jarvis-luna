@@ -2,7 +2,7 @@
 title: "Record b524105f9e · SPeaR-Test-Time-Adaptation-with-Steering-Primitives-for-Realigning-Rep"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:36.948439+00:00
+updated_at: 2026-10-01T01:19:32.584631+00:00
 tags: [record, real-data]
 ---
 

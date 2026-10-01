@@ -2,7 +2,7 @@
 title: "Record 1ce1c79058 · Your-Agent-is-More-Brittle-Than-You-Think-Uncovering-Indirect-Injectio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:36.791043+00:00
+updated_at: 2026-10-01T01:19:32.420106+00:00
 tags: [record, real-data]
 ---
 

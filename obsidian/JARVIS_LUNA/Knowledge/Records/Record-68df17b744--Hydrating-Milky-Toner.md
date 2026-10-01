@@ -2,7 +2,7 @@
 title: "Record 68df17b744 · Hydrating-Milky-Toner"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:38.821737+00:00
+updated_at: 2026-10-01T01:19:34.625690+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** Hydrating Milky Toner
 
 Hydrating Milky Toner
-Hydrating Milky Toner · BYOMA · $7.49
+Hydrating Milky Toner · BYOMA · $9.99
 
 **출처:** Source · us_beauty
 

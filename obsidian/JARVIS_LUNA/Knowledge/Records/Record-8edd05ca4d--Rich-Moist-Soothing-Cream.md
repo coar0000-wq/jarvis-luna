@@ -2,7 +2,7 @@
 title: "Record 8edd05ca4d · Rich-Moist-Soothing-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:37.980692+00:00
+updated_at: 2026-10-01T01:19:33.684252+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Rich Moist Soothing Cream · KLAIRS · $26.0
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

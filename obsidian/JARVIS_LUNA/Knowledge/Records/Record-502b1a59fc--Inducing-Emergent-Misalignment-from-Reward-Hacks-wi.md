@@ -2,7 +2,7 @@
 title: "Record 502b1a59fc · Inducing-Emergent-Misalignment-from-Reward-Hacks-with-Iterative-DPO"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:36.844576+00:00
+updated_at: 2026-10-01T01:19:32.475500+00:00
 tags: [record, real-data]
 ---
 

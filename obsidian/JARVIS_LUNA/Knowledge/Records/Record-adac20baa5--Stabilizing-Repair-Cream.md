@@ -2,7 +2,7 @@
 title: "Record adac20baa5 · Stabilizing-Repair-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:38.837035+00:00
+updated_at: 2026-10-01T01:19:34.645069+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Stabilizing Repair Cream · Dermalogica · $25
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,7 +2,7 @@
 title: "Record ec6d90b35a · K-Beauty-Expert-Brings-Industry-Experience-to-Auburn-Through-Sejong-Cu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:37.762328+00:00
+updated_at: 2026-10-01T01:19:33.452588+00:00
 tags: [record, real-data]
 ---
 

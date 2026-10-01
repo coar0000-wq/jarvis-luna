@@ -1,6 +1,6 @@
 {
   "agent": "Score-Explain",
-  "generated_at": "2026-10-01T00:27:20.328060+00:00",
+  "generated_at": "2026-10-01T01:19:40.846454+00:00",
   "s_count": 10,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
   "items": [
@@ -63,33 +63,33 @@
       ]
     },
     {
-      "pd_no": "1067500",
-      "name": "[이중턱리프팅]VT PDRN 광채리프팅마스크 1매 27 g+광채에센스 1.5 ml",
-      "score": 95,
-      "why": "글로벌 'Biodance Rejuvenating Caviar PDRN Real Deep Mask 4ct 1.19 oz.(34g)' (oliveyoung_us) 유사 63% · 토큰 mask, pdrn",
-      "global": "Biodance Rejuvenating Caviar PDRN Real Deep Mask 4ct 1.19 oz.(34g)",
-      "channel": "oliveyoung_us",
-      "tokens": [
-        "mask",
-        "pdrn"
-      ]
-    },
-    {
       "pd_no": "1075857",
       "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
       "score": 94,
-      "why": "글로벌 'Biodance Rejuvenating Caviar PDRN Real Deep Mask 4ct 1.19 oz.(34g)' (oliveyoung_us) 유사 63% · 토큰 mask, pdrn",
-      "global": "Biodance Rejuvenating Caviar PDRN Real Deep Mask 4ct 1.19 oz.(34g)",
-      "channel": "oliveyoung_us",
+      "why": "글로벌 'Lacto-PDRN 4% + B9 Eye Cream' (ulta_beauty) 유사 68% · 토큰 cream, pdrn",
+      "global": "Lacto-PDRN 4% + B9 Eye Cream",
+      "channel": "ulta_beauty",
       "tokens": [
-        "mask",
+        "cream",
         "pdrn"
       ]
     },
     {
       "pd_no": "1049285",
       "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-      "score": 92,
+      "score": 93,
+      "why": "글로벌 'Smushy SOS Hydrating Lip Mask' (ulta_beauty) 유사 73% · 토큰 hydrating, mask",
+      "global": "Smushy SOS Hydrating Lip Mask",
+      "channel": "ulta_beauty",
+      "tokens": [
+        "hydrating",
+        "mask"
+      ]
+    },
+    {
+      "pd_no": "1027327",
+      "name": "바세린 마스크팩 집중보습",
+      "score": 91,
       "why": "글로벌 'Smushy SOS Hydrating Lip Mask' (ulta_beauty) 유사 73% · 토큰 hydrating, mask",
       "global": "Smushy SOS Hydrating Lip Mask",
       "channel": "ulta_beauty",
@@ -101,7 +101,7 @@
     {
       "pd_no": "1059834",
       "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-      "score": 89,
+      "score": 90,
       "why": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 88% · 토큰 collagen, mask",
       "global": "Biodance Bio-Collagen Real Deep Mask",
       "channel": "tiktok_shop_us",
@@ -111,14 +111,14 @@
       ]
     },
     {
-      "pd_no": "1027327",
-      "name": "바세린 마스크팩 집중보습",
+      "pd_no": "1042619",
+      "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
       "score": 89,
-      "why": "글로벌 'Smushy SOS Hydrating Lip Mask' (ulta_beauty) 유사 73% · 토큰 hydrating, mask",
-      "global": "Smushy SOS Hydrating Lip Mask",
-      "channel": "ulta_beauty",
+      "why": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 68% · 토큰 collagen, mask",
+      "global": "Biodance Bio-Collagen Real Deep Mask",
+      "channel": "tiktok_shop_us",
       "tokens": [
-        "hydrating",
+        "collagen",
         "mask"
       ]
     }

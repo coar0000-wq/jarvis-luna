@@ -2,7 +2,7 @@
 title: "Record 2a4a7bc43a · An-Oral-History-of-Allures-Best-of-Beauty-Awards"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:38.161064+00:00
+updated_at: 2026-10-01T01:19:33.886770+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 4cc8b15616 · Garnier-Micellar-Water-Hydrating-Facial-Cleanser--Makeup-Remover-Suita"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:38.299335+00:00
+updated_at: 2026-10-01T01:19:34.047075+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record d776b21349 · Optimal-Recovery-for-Solving-Variational-Problems"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:37.022404+00:00
+updated_at: 2026-10-01T01:19:32.665696+00:00
 tags: [record, real-data]
 ---
 

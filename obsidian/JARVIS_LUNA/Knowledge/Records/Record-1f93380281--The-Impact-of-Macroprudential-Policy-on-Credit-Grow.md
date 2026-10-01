@@ -2,7 +2,7 @@
 title: "Record 1f93380281 · The-Impact-of-Macroprudential-Policy-on-Credit-Growth-in-Nine-Euro-Are"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:36.711663+00:00
+updated_at: 2026-10-01T01:19:32.337038+00:00
 tags: [record, real-data]
 ---
 

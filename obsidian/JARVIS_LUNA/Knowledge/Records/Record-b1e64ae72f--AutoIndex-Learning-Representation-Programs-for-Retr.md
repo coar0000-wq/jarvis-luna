@@ -2,7 +2,7 @@
 title: "Record b1e64ae72f · AutoIndex-Learning-Representation-Programs-for-Retrieval"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:36.822760+00:00
+updated_at: 2026-10-01T01:19:32.452749+00:00
 tags: [record, real-data]
 ---
 

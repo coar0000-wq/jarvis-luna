@@ -2,7 +2,7 @@
 title: "Record c1273a9b25 · Real-Complexion-Hyaluron-Moisture-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:37.975621+00:00
+updated_at: 2026-10-01T01:19:33.679211+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Real Complexion Hyaluron Moisture Cream · HANSKIN · $30.0
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

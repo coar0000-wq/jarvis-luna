@@ -2,7 +2,7 @@
 title: "Record 0807fff83c · 3shades-Erborian-CC-Crème-Color-correcting-Cream-Broad-Spectrum-SPF-25"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:38.038421+00:00
+updated_at: 2026-10-01T01:19:33.749492+00:00
 tags: [record, real-data]
 ---
 

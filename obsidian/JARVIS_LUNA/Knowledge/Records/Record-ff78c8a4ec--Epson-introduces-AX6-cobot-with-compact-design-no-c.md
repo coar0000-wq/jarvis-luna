@@ -2,7 +2,7 @@
 title: "Record ff78c8a4ec · Epson-introduces-AX6-cobot-with-compact-design-no-code-programming"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:38.754699+00:00
+updated_at: 2026-10-01T01:19:34.555020+00:00
 tags: [record, real-data]
 ---
 

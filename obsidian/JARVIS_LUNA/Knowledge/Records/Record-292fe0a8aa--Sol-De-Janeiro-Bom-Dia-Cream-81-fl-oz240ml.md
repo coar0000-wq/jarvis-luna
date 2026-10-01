@@ -2,7 +2,7 @@
 title: "Record 292fe0a8aa · Sol-De-Janeiro-Bom-Dia-Cream-81-fl-oz240ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:38.112452+00:00
+updated_at: 2026-10-01T01:19:33.830677+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Sol De Janeiro Bom Dia Cream 8.1 fl. oz.(240ml)
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

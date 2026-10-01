@@ -2,7 +2,7 @@
 title: "Record ed1aada0e2 · Move-over-K-beauty-K-pharmacy-is-Koreas-new-clinica"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:37.498583+00:00
+updated_at: 2026-10-01T01:19:33.178602+00:00
 tags: [record, real-data]
 ---
 

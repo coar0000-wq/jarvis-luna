@@ -2,7 +2,7 @@
 title: "Record f6e0a3b3f5 · Samsung-Introduces-Galaxy-Tab-S12-Series-The-Ultimate-Productivity-Pow"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:37.817735+00:00
+updated_at: 2026-10-01T01:19:33.508221+00:00
 tags: [record, real-data]
 ---
 

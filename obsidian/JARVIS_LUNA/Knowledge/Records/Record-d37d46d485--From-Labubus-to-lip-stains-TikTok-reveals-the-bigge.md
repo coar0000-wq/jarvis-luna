@@ -2,7 +2,7 @@
 title: "Record d37d46d485 · From-Labubus-to-lip-stains-TikTok-reveals-the-bigge"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:37.367559+00:00
+updated_at: 2026-10-01T01:19:33.034656+00:00
 tags: [record, real-data]
 ---
 

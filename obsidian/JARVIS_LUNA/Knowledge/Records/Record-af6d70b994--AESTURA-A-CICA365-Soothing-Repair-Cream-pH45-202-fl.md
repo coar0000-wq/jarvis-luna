@@ -2,7 +2,7 @@
 title: "Record af6d70b994 · AESTURA-A-CICA365-Soothing-Repair-Cream-pH45-202-fl-oz60ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:38.078586+00:00
+updated_at: 2026-10-01T01:19:33.793662+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ AESTURA A-CICA365 Soothing Repair Cream pH4.5 2.02 fl. oz.(60ml)
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

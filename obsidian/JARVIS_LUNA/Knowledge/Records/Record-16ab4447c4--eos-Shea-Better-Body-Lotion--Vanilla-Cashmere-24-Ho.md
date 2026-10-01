@@ -2,7 +2,7 @@
 title: "Record 16ab4447c4 · eos-Shea-Better-Body-Lotion--Vanilla-Cashmere-24-Ho"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:38.481891+00:00
+updated_at: 2026-10-01T01:19:34.277477+00:00
 tags: [record, real-data]
 ---
 

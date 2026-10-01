@@ -2,7 +2,7 @@
 title: "Record fb0dda95c4 · SKIN1004-Madagascar-Centella-Probio-cica-Bakuchiol-Eye-Cream-067-fl-oz"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:38.062885+00:00
+updated_at: 2026-10-01T01:19:33.776386+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ SKIN1004 Madagascar Centella Probio-cica Bakuchiol Eye Cream 0.67 fl. oz.(20ml) 
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

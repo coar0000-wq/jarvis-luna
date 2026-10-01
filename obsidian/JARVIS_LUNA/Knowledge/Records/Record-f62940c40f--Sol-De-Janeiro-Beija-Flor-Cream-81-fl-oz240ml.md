@@ -2,7 +2,7 @@
 title: "Record f62940c40f · Sol-De-Janeiro-Beija-Flor-Cream-81-fl-oz240ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:38.022267+00:00
+updated_at: 2026-10-01T01:19:33.726971+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Sol De Janeiro Beija Flor Cream 8.1 fl. oz.(240ml)
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

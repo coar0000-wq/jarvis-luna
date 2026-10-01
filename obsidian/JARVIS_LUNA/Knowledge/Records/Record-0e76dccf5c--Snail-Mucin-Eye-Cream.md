@@ -2,7 +2,7 @@
 title: "Record 0e76dccf5c · Snail-Mucin-Eye-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:37.993487+00:00
+updated_at: 2026-10-01T01:19:33.697484+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Snail Mucin Eye Cream · Then I Met You · $46.0
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

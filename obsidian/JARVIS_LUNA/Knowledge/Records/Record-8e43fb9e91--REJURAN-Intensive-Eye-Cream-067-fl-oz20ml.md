@@ -2,7 +2,7 @@
 title: "Record 8e43fb9e91 · REJURAN-Intensive-Eye-Cream-067-fl-oz20ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:38.036305+00:00
+updated_at: 2026-10-01T01:19:33.747187+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ REJURAN Intensive Eye Cream 0.67 fl. oz.(20ml)
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

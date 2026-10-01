@@ -4,8 +4,8 @@ rank,canonical_product_id,pd_no,product,keyword,intent,score,shopify_action
 3,CP000106,1049275,[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입,vt-cosmetics|reedle-shot|facial-ampoule,purchase,98,1차 Draft Action 검토
 4,CP000216,1067498,[영양광채]VT PDRN 광채 크림 50 ml,vt-pdrn|radiance-cream|korean-skincare,purchase,96,1차 Draft Action 검토
 5,CP000251,1072554,[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml,body-serum|retinol-serum|firming-serum,purchase,96,1차 Draft Action 검토
-6,CP000218,1067500,[이중턱리프팅]VT PDRN 광채리프팅마스크 1매 27 g+광채에센스 1.5 ml,,purchase,95,선행 증거 보강
-7,CP000270,1075857,셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매,celderma|pdrn-mask|radiance-mask,purchase,94,2차 Draft Action 검토
-8,CP000109,1049285,[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입,vt|hyaluron|sleeping-mask,purchase,92,2차 Draft Action 검토
-9,CP000151,1059834,셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g,celderma-daily|collagen|sheet-mask,purchase,89,2차 Draft Action 검토
-10,CP000038,1027327,바세린 마스크팩 집중보습,,purchase,89,선행 증거 보강
+6,CP000270,1075857,셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매,celderma|pdrn-mask|radiance-mask,purchase,94,2차 Draft Action 검토
+7,CP000109,1049285,[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입,vt|hyaluron|sleeping-mask,purchase,93,2차 Draft Action 검토
+8,CP000038,1027327,바세린 마스크팩 집중보습,,purchase,91,선행 증거 보강
+9,CP000151,1059834,셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g,celderma-daily|collagen|sheet-mask,purchase,90,2차 Draft Action 검토
+10,CP000075,1042619,셀더마데일리 콜라겐 에센스겔 마스크 29 g,celderma-daily|collagen|gel-sheet-mask,purchase,89,2차 Draft Action 검토

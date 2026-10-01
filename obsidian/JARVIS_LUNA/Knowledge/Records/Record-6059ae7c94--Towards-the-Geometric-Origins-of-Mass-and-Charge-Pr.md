@@ -2,7 +2,7 @@
 title: "Record 6059ae7c94 · Towards-the-Geometric-Origins-of-Mass-and-Charge-Pr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:37.117618+00:00
+updated_at: 2026-10-01T01:19:32.764509+00:00
 tags: [record, real-data]
 ---
 

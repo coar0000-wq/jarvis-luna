@@ -2,7 +2,7 @@
 title: "Record 4154e21dba · IMU-Centric-Moving-Horizon-Estimation-for-Lateral-D"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:36.114354+00:00
+updated_at: 2026-10-01T01:19:31.726186+00:00
 tags: [record, real-data]
 ---
 

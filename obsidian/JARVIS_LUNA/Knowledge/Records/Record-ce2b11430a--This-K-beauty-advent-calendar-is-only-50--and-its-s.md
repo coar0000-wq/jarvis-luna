@@ -2,7 +2,7 @@
 title: "Record ce2b11430a · This-K-beauty-advent-calendar-is-only-50--and-its-selling-fast---stand"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:37.792771+00:00
+updated_at: 2026-10-01T01:19:33.483582+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 0eb0a6da6f · Discoloration-Correcting-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:38.809809+00:00
+updated_at: 2026-10-01T01:19:34.611646+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** Discoloration Correcting Serum
 
 Discoloration Correcting Serum
-Discoloration Correcting Serum · Good Molecules · $9.6
+Discoloration Correcting Serum · Good Molecules · $12
 
 **출처:** Source · us_beauty
 

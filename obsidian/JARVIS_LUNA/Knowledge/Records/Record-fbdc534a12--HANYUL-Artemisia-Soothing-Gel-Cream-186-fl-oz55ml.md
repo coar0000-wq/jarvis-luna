@@ -2,7 +2,7 @@
 title: "Record fbdc534a12 · HANYUL-Artemisia-Soothing-Gel-Cream-186-fl-oz55ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:38.108681+00:00
+updated_at: 2026-10-01T01:19:33.826512+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ HANYUL Artemisia Soothing Gel Cream 1.86 fl. oz.(55ml)
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

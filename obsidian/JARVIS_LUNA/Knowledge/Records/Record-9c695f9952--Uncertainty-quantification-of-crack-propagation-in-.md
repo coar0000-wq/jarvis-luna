@@ -2,7 +2,7 @@
 title: "Record 9c695f9952 · Uncertainty-quantification-of-crack-propagation-in-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:36.384013+00:00
+updated_at: 2026-10-01T01:19:32.001731+00:00
 tags: [record, real-data]
 ---
 

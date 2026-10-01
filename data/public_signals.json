@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T20:42:51.102964+00:00",
+  "generated_at": "2026-10-01T01:17:13.945167+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "mu stock",
-          "approx_traffic": "20000+",
-          "traffic_num": 20000,
-          "published": "Wed, 30 Sep 2026 12:50:00 -0700",
-          "source_name": "Yahoo Finance",
-          "url": "https://trends.google.com/trending?geo=US&q=mu%20stock"
-        },
-        {
-          "keyword": "goog stock",
+          "keyword": "cody bellinger",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Wed, 30 Sep 2026 13:20:00 -0700",
-          "source_name": "Currently.com",
-          "url": "https://trends.google.com/trending?geo=US&q=goog%20stock"
+          "published": "Wed, 30 Sep 2026 18:00:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=cody%20bellinger"
         },
         {
-          "keyword": "gemini 4",
+          "keyword": "angel reese",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Wed, 30 Sep 2026 13:10:00 -0700",
-          "source_name": "CNBC",
-          "url": "https://trends.google.com/trending?geo=US&q=gemini%204"
+          "published": "Wed, 30 Sep 2026 18:00:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=angel%20reese"
         },
         {
-          "keyword": "lottery",
+          "keyword": "kalshi",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Wed, 30 Sep 2026 17:50:00 -0700",
+          "source_name": "CBS Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=kalshi"
+        },
+        {
+          "keyword": "steve hilton",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Wed, 30 Sep 2026 13:20:00 -0700",
-          "source_name": "MassLive.com",
-          "url": "https://trends.google.com/trending?geo=US&q=lottery"
+          "published": "Wed, 30 Sep 2026 18:00:00 -0700",
+          "source_name": "CNN",
+          "url": "https://trends.google.com/trending?geo=US&q=steve%20hilton"
         },
         {
-          "keyword": "secret lair",
+          "keyword": "santa fe county floods",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Wed, 30 Sep 2026 12:50:00 -0700",
-          "source_name": "Magic: The Gathering",
-          "url": "https://trends.google.com/trending?geo=US&q=secret%20lair"
+          "published": "Wed, 30 Sep 2026 18:00:00 -0700",
+          "source_name": "KOAT",
+          "url": "https://trends.google.com/trending?geo=US&q=santa%20fe%20county%20floods"
         },
         {
-          "keyword": "ps5 pro",
+          "keyword": "willson contreras",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Wed, 30 Sep 2026 12:50:00 -0700",
-          "source_name": "TechPowerUp",
-          "url": "https://trends.google.com/trending?geo=US&q=ps5%20pro"
+          "published": "Wed, 30 Sep 2026 17:50:00 -0700",
+          "source_name": "Boston Herald",
+          "url": "https://trends.google.com/trending?geo=US&q=willson%20contreras"
         },
         {
-          "keyword": "millennials",
+          "keyword": "trevor story",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Wed, 30 Sep 2026 12:50:00 -0700",
-          "source_name": "Fortune",
-          "url": "https://trends.google.com/trending?geo=US&q=millennials"
+          "published": "Wed, 30 Sep 2026 17:50:00 -0700",
+          "source_name": "Heavy.com",
+          "url": "https://trends.google.com/trending?geo=US&q=trevor%20story"
         },
         {
-          "keyword": "brandon marsh",
+          "keyword": "trent grisham",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Wed, 30 Sep 2026 12:50:00 -0700",
-          "source_name": "NBC Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=brandon%20marsh"
+          "published": "Wed, 30 Sep 2026 17:50:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=trent%20grisham"
         },
         {
-          "keyword": "john kruk",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Wed, 30 Sep 2026 12:50:00 -0700",
-          "source_name": "Sportico.com",
-          "url": "https://trends.google.com/trending?geo=US&q=john%20kruk"
-        },
-        {
-          "keyword": "tyler perry $57m estate listing",
+          "keyword": "colorado avalanche",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Wed, 30 Sep 2026 12:50:00 -0700",
-          "source_name": "WSJ",
-          "url": "https://trends.google.com/trending?geo=US&q=tyler%20perry%20%2457m%20estate%20listing"
+          "published": "Wed, 30 Sep 2026 18:00:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=colorado%20avalanche"
+        },
+        {
+          "keyword": "fcc",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Wed, 30 Sep 2026 17:50:00 -0700",
+          "source_name": "CNN",
+          "url": "https://trends.google.com/trending?geo=US&q=fcc"
         }
       ]
     },
@@ -96,87 +96,87 @@
       "status": "ok",
       "reason": "",
       "source": "wikimedia.org REST pageviews API (공식)",
-      "note": "2026-08-30 ~ 2026-09-28 일별 조회수. 후반 15일 대비 전반 15일 증감률",
+      "note": "2026-08-31 ~ 2026-09-29 일별 조회수. 후반 15일 대비 전반 15일 증감률",
       "errors": [],
       "items": [
         {
           "topic": "Niacinamide",
           "days": 30,
-          "total_views": 1867,
-          "avg_daily": 62,
+          "total_views": 1881,
+          "avg_daily": 63,
           "recent_avg": 83,
-          "prev_avg": 41,
-          "change_pct": 103.1,
+          "prev_avg": 43,
+          "change_pct": 93.4,
           "url": "https://en.wikipedia.org/wiki/Niacinamide"
         },
         {
           "topic": "K-beauty",
           "days": 30,
-          "total_views": 3812,
-          "avg_daily": 127,
+          "total_views": 3783,
+          "avg_daily": 126,
           "recent_avg": 134,
-          "prev_avg": 120,
-          "change_pct": 11.0,
+          "prev_avg": 118,
+          "change_pct": 14.2,
           "url": "https://en.wikipedia.org/wiki/K-beauty"
-        },
-        {
-          "topic": "Centella asiatica",
-          "days": 30,
-          "total_views": 15174,
-          "avg_daily": 506,
-          "recent_avg": 528,
-          "prev_avg": 483,
-          "change_pct": 9.3,
-          "url": "https://en.wikipedia.org/wiki/Centella_asiatica"
         },
         {
           "topic": "Cosmetics",
           "days": 30,
-          "total_views": 21535,
-          "avg_daily": 718,
-          "recent_avg": 748,
-          "prev_avg": 688,
-          "change_pct": 8.8,
+          "total_views": 21633,
+          "avg_daily": 721,
+          "recent_avg": 758,
+          "prev_avg": 684,
+          "change_pct": 10.8,
           "url": "https://en.wikipedia.org/wiki/Cosmetics"
+        },
+        {
+          "topic": "Centella asiatica",
+          "days": 30,
+          "total_views": 15186,
+          "avg_daily": 506,
+          "recent_avg": 529,
+          "prev_avg": 484,
+          "change_pct": 9.2,
+          "url": "https://en.wikipedia.org/wiki/Centella_asiatica"
         },
         {
           "topic": "Hyaluronic acid",
           "days": 30,
-          "total_views": 18739,
-          "avg_daily": 625,
-          "recent_avg": 635,
-          "prev_avg": 615,
-          "change_pct": 3.2,
+          "total_views": 18845,
+          "avg_daily": 628,
+          "recent_avg": 633,
+          "prev_avg": 624,
+          "change_pct": 1.5,
           "url": "https://en.wikipedia.org/wiki/Hyaluronic_acid"
-        },
-        {
-          "topic": "Retinol",
-          "days": 30,
-          "total_views": 11725,
-          "avg_daily": 391,
-          "recent_avg": 389,
-          "prev_avg": 393,
-          "change_pct": -1.1,
-          "url": "https://en.wikipedia.org/wiki/Retinol"
         },
         {
           "topic": "Snail slime",
           "days": 30,
-          "total_views": 2180,
+          "total_views": 2193,
           "avg_daily": 73,
-          "recent_avg": 71,
+          "recent_avg": 72,
           "prev_avg": 74,
-          "change_pct": -4.0,
+          "change_pct": -1.7,
           "url": "https://en.wikipedia.org/wiki/Snail_slime"
+        },
+        {
+          "topic": "Retinol",
+          "days": 30,
+          "total_views": 11793,
+          "avg_daily": 393,
+          "recent_avg": 389,
+          "prev_avg": 397,
+          "change_pct": -1.8,
+          "url": "https://en.wikipedia.org/wiki/Retinol"
         },
         {
           "topic": "Sunscreen",
           "days": 30,
-          "total_views": 14452,
-          "avg_daily": 482,
-          "recent_avg": 453,
-          "prev_avg": 510,
-          "change_pct": -11.1,
+          "total_views": 14489,
+          "avg_daily": 483,
+          "recent_avg": 459,
+          "prev_avg": 507,
+          "change_pct": -9.4,
           "url": "https://en.wikipedia.org/wiki/Sunscreen"
         }
       ]
@@ -187,6 +187,16 @@
       "source": "allure.com/feed/rss",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
       "items": [
+        {
+          "title": "33 Halloween Nail Art Ideas That Are Equal Parts Eerie and Cute",
+          "published": "Wed, 30 Sep 2026 23:00:00 +0000",
+          "url": "https://www.allure.com/gallery/halloween-nail-art-ideas"
+        },
+        {
+          "title": "7 Best Eye Creams for Wrinkles to Smooth, Firm, and Brighten",
+          "published": "Wed, 30 Sep 2026 22:26:14 +0000",
+          "url": "https://www.allure.com/gallery/best-anti-aging-eye-creams"
+        },
         {
           "title": "7 Best Peptide Serums 2026 for Plumper, Bouncier Skin",
           "published": "Wed, 30 Sep 2026 19:31:39 +0000",
@@ -326,16 +336,6 @@
           "title": "The Allure 2026 Best of Beauty Box Review",
           "published": "Fri, 25 Sep 2026 16:35:46 +0000",
           "url": "https://www.allure.com/story/best-of-beauty-limited-edition-box-2026"
-        },
-        {
-          "title": "Olandria Turned a Waist-Length Mullet Into a High-Fashion Moment — See Photos",
-          "published": "Fri, 25 Sep 2026 14:57:29 +0000",
-          "url": "https://www.allure.com/story/olandria-mullet-milan-fashion-week"
-        },
-        {
-          "title": "9 Best Serums for Aging Skin That Target Dryness, Fine Lines, and Laxity",
-          "published": "Thu, 24 Sep 2026 18:26:26 +0000",
-          "url": "https://www.allure.com/story/serums-for-mature-skin"
         }
       ]
     },

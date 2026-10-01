@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-30T20:46:51.399045+00:00",
+  "generated_at": "2026-10-01T01:19:40.917355+00:00",
   "generator": "scripts/gemini_escalation.py",
   "policy": "data/manual/model_routing_policy.json",
   "enabled": true,
@@ -19,17 +19,18 @@
   ],
   "advice": {
     "risk": "medium",
-    "diagnosis": "아마존 뷰티 채널 데이터가 비어있고 다이소 상품 고시 표 판독 및 원본 자료 확보 대기 중인 항목이 반복 발생함",
+    "diagnosis": "일부 채널 수집 공백 및 법률·규제 검증 대기 항목이 존재하여 사람의 확인이 필요합니다.",
     "next_safe_checks": [
-      "아마존 무버스 뷰티 채널 수집기 상태 재확인",
-      "다이소몰 해당 상품 고시 정보 수집 여부 모니터링",
-      "Shopify draft 등록 대기 항목 검토",
-      "MoCRA/FPLA 규제 정보 및 원본 자료 대기 상태 확인"
+      "다이소 수집기 실행 결과 확인",
+      "아마존 뷰티 채널 상태 점검",
+      "대기 중인 Shopify draft 등록 검토",
+      "성분 고시 원문 및 INCI 오버라이드 확인"
     ],
     "requires_human": true,
     "evidence_gaps": [
-      "amazon_movers_beauty 채널의 0건 수집 원인에 대한 상세 로그",
-      "다이소 1067500 상품 고시 대상 정보의 자동 수집 성공 여부"
+      "amazon_movers_beauty 채널 데이터 공백 원인",
+      "다이소 실시간 상품 수집 지연 상세 로그",
+      "차단된 바세린 마스크팩 라벨 및 사업자 자료"
     ],
     "forbidden_actions": [
       "external publish",
@@ -39,13 +40,13 @@
     ]
   },
   "usage": {
-    "promptTokenCount": 972,
-    "candidatesTokenCount": 250,
-    "totalTokenCount": 1222,
+    "promptTokenCount": 886,
+    "candidatesTokenCount": 225,
+    "totalTokenCount": 1111,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 972
+        "tokenCount": 886
       }
     ],
     "serviceTier": "standard"

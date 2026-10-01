@@ -2,7 +2,7 @@
 title: "Record 4097a009a5 · Global-Macro-Economy-Outlook-2023"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:38.671835+00:00
+updated_at: 2026-10-01T01:19:34.471533+00:00
 tags: [record, real-data]
 ---
 

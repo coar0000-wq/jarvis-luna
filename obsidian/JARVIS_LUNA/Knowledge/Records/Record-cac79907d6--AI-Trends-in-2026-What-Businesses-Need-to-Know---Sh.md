@@ -2,7 +2,7 @@
 title: "Record cac79907d6 · AI-Trends-in-2026-What-Businesses-Need-to-Know---Sh"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:37.296526+00:00
+updated_at: 2026-10-01T01:19:32.952180+00:00
 tags: [record, real-data]
 ---
 

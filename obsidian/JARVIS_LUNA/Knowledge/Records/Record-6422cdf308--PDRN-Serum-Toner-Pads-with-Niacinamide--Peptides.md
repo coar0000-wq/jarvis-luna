@@ -2,7 +2,7 @@
 title: "Record 6422cdf308 · PDRN-Serum-Toner-Pads-with-Niacinamide--Peptides"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:38.831527+00:00
+updated_at: 2026-10-01T01:19:34.638097+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** PDRN Serum Toner Pads with Niacinamide + Peptides
 
 PDRN Serum Toner Pads with Niacinamide + Peptides
-PDRN Serum Toner Pads with Niacinamide + Peptides · Mario Badescu · $16.8
+PDRN Serum Toner Pads with Niacinamide + Peptides · Mario Badescu · $24
 
 **출처:** Source · us_beauty
 

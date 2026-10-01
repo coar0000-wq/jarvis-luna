@@ -2,7 +2,7 @@
 title: "Record 9bd8cb612f · CeraVe-Foaming-Facial-Cleanser-Face-Wash-for-Oily-Skin-16fl-oz--Skin-C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:38.249117+00:00
+updated_at: 2026-10-01T01:19:33.983058+00:00
 tags: [record, real-data]
 ---
 

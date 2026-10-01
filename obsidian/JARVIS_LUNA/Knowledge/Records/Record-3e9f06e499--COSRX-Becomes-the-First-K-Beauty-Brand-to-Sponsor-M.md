@@ -2,7 +2,7 @@
 title: "Record 3e9f06e499 · COSRX-Becomes-the-First-K-Beauty-Brand-to-Sponsor-Maison-Margiela-at-P"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:37.278325+00:00
+updated_at: 2026-10-01T01:19:32.933806+00:00
 tags: [record, real-data]
 ---
 
@@ -13,10 +13,9 @@ tags: [record, real-data]
 **제목:** COSRX Becomes the First K-Beauty Brand to Sponsor Maison Margiela at Paris Fashion Week - PR Newswire
 
 COSRX Becomes the First K-Beauty Brand to Sponsor Maison Margiela at Paris Fashion Week - PR Newswire
-COSRX Becomes the First K-Beauty Brand to Sponsor Maison Margiela at Paris Fashion Week - PR Newswire
 
-**출처:** Source · us_beauty
+**출처:** Source · Google Search
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

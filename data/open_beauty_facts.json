@@ -3,7 +3,7 @@
   "license": "Open Database License (ODbL) - 재사용 허용",
   "auth_required": false,
   "note": "수요 신호가 아니라 상품 정보 보강용 오픈데이터. 각 항목은 바코드(code)와 원본 URL 로 검증 가능하다.",
-  "collected_at": "2026-09-30T20:33:55.272386+00:00",
+  "collected_at": "2026-10-01T01:07:05.055911+00:00",
   "category_map": {
     "스킨케어": "skin-care",
     "마스크팩": "face-masks",
@@ -450,6 +450,19 @@
       "url": "https://world.openbeautyfacts.org/product/3600551125305"
     },
     {
+      "code": "3600542520454",
+      "product_name": "Sensitive expert + Spf 50+",
+      "brands": "Garnier, Garnier ambre solaire",
+      "category": "선케어",
+      "obf_category": "sunscreens",
+      "countries": [
+        "France"
+      ],
+      "ingredients_text": "AQUA/WATER, ALCOHOL DENAT., ETHYLHEXYL SALICYLATE, ETHYLHEXYL TRIAZONE, BUTYL METHOXYDIBENZOYLMETHANE. BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, ISOPROPYL PALMITATE, DIISOPROPYL ADIPATE, GLYCERIN, PROPANEDIOL, PHENYLBENZIMIDAZOLE SULFONIC ACID, DICAPRYLYL ETHER, TRIETHANOLAMINE, C12-22 ALKYL ACRYLATE/HYDROXYETHYLACRYLATE COPOLYMER, TOCOPHEROL, HYDROXYACETOPHENONE, SODIUM POLYACRYLATE, SODIUM BENZOATE, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, DROMETRIZOLE TRISILOXANE, ALOE BARBADENSIS LEAF JUICE, CAPRYLYL GLYCOL, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, CERAMIDE NP, CITRIC ACID, POTASSIUM SORBATE.",
+      "image_url": "https://images.openbeautyfacts.org/images/products/360/054/252/0454/front_fr.3.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/3600542520454"
+    },
+    {
       "code": "3282770396331",
       "product_name": "Spray Solare Protezione alta SPF 50 - Corpo",
       "brands": "Avène",
@@ -462,19 +475,6 @@
       "ingredients_text": "AVENE THERMAL SPRING WATER (AVENE AQUA), DIETHYLAMINO HYDROXYBENZOYL HEXYL BENZOATE, DIISOPROPYL SEBACATE, COCO CAPRYLATE/CAPRATE, DICAPRYLYL CARBONATE DIETHYLHEXYL BUTAMIDO TRIAZONE, GLYCERIN, BISETHYLHEXY LOXYPHENOL METHOXYPHENYL TRIAZINE, GLYCERIN, STEARATE CITRATE, ORYZA SATIVA (RICE) STARCH (ORYZA SATIVA STARCH), PENTYLENE GLYCOL, C12-15 ALKYL BENZOATE, VP/EICOSENE COPOLYMER BENZOIC ACID, CAPRYLIC/CAPRIC TRIGLYCERIDE, CELLULOSE GUM, FRAGRANCE (PARFUM), GLYCINE SOJA (SOYBEAN) OIL (GLYCINE SOJA OIL), HELIANTHUS ANNUUS (SUNFLOWER) SEED OIL (HELIANTHUS SEED OIL), MICROCRYSTALLINE CELLULOSE, SODIUM HYDROXIDE, TOCOPHEROL TOCOPHERYL GLUCOSIDE.",
       "image_url": "https://images.openbeautyfacts.org/images/products/328/277/039/6331/front_it.8.400.jpg",
       "url": "https://world.openbeautyfacts.org/product/3282770396331"
-    },
-    {
-      "code": "3600542520454",
-      "product_name": "Sensitive expert + Spf 50+",
-      "brands": "Garnier, Garnier ambre solaire",
-      "category": "선케어",
-      "obf_category": "sunscreens",
-      "countries": [
-        "France"
-      ],
-      "ingredients_text": "AQUA/WATER, ALCOHOL DENAT., ETHYLHEXYL SALICYLATE, ETHYLHEXYL TRIAZONE, BUTYL METHOXYDIBENZOYLMETHANE. BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, ISOPROPYL PALMITATE, DIISOPROPYL ADIPATE, GLYCERIN, PROPANEDIOL, PHENYLBENZIMIDAZOLE SULFONIC ACID, DICAPRYLYL ETHER, TRIETHANOLAMINE, C12-22 ALKYL ACRYLATE/HYDROXYETHYLACRYLATE COPOLYMER, TOCOPHEROL, HYDROXYACETOPHENONE, SODIUM POLYACRYLATE, SODIUM BENZOATE, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, DROMETRIZOLE TRISILOXANE, ALOE BARBADENSIS LEAF JUICE, CAPRYLYL GLYCOL, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, CERAMIDE NP, CITRIC ACID, POTASSIUM SORBATE.",
-      "image_url": "https://images.openbeautyfacts.org/images/products/360/054/252/0454/front_fr.3.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/3600542520454"
     },
     {
       "code": "3504105036751",

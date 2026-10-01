@@ -2,7 +2,7 @@
 title: "Record 97b02e99d1 · FlashVector-Agent-for-Hierarchical-Model-Serving-Stack-Optimization"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:36.207543+00:00
+updated_at: 2026-10-01T01:19:31.821530+00:00
 tags: [record, real-data]
 ---
 

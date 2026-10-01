@@ -2,7 +2,7 @@
 title: "Record a0e00f9b5c · 345-Relief-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:38.798103+00:00
+updated_at: 2026-10-01T01:19:34.599285+00:00
 tags: [record, real-data]
 ---
 
@@ -13,10 +13,10 @@ tags: [record, real-data]
 **제목:** 345 Relief Cream
 
 345 Relief Cream
-345 Relief Cream · Dr. Althea · $18.9
+345 Relief Cream · Dr. Althea · $27
 
 **출처:** Source · us_beauty
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

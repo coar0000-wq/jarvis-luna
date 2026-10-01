@@ -2,7 +2,7 @@
 title: "Record 54b1eb7258 · A-New-Study-Analyzing-400000-Reddit-Posts-Links-GLP-1-Usage-to-Lesser-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:38.175913+00:00
+updated_at: 2026-10-01T01:19:33.903526+00:00
 tags: [record, real-data]
 ---
 

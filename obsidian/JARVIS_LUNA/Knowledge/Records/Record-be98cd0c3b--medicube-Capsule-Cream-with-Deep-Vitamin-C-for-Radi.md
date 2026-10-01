@@ -2,7 +2,7 @@
 title: "Record be98cd0c3b · medicube-Capsule-Cream-with-Deep-Vitamin-C-for-Radiance--Liposome-Vita"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:38.500262+00:00
+updated_at: 2026-10-01T01:19:34.299743+00:00
 tags: [record, real-data]
 ---
 

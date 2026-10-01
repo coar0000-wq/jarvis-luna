@@ -2,7 +2,7 @@
 title: "Record e1e6a187c7 · 2sizes-JUNG-SAEM-MOOL-Essential-Mool-Micro-Fitting-Mist"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:38.031502+00:00
+updated_at: 2026-10-01T01:19:33.742456+00:00
 tags: [record, real-data]
 ---
 

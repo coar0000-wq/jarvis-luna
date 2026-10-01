@@ -2,7 +2,7 @@
 title: "Record f050a8c1f5 · K-Beauty-Leader-DrAlthea-Hits-35-Million-Global-Sales-for-345-Relief-C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:37.285538+00:00
+updated_at: 2026-10-01T01:19:32.941143+00:00
 tags: [record, real-data]
 ---
 

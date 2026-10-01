@@ -2,7 +2,7 @@
 title: "Record 5af455e3b4 · Advanced-Snail-92-All-In-One-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:37.970922+00:00
+updated_at: 2026-10-01T01:19:33.674422+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Advanced Snail 92 All In One Cream · COSRX · $10.4
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

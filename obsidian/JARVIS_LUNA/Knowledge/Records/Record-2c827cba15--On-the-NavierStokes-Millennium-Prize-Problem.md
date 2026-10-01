@@ -2,7 +2,7 @@
 title: "Record 2c827cba15 · On-the-NavierStokes-Millennium-Prize-Problem"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:37.885021+00:00
+updated_at: 2026-10-01T01:19:33.581795+00:00
 tags: [record, real-data]
 ---
 

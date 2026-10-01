@@ -2,7 +2,7 @@
 title: "Record f38f6447b9 · From-14-cities-to-15000-What-it-will-take-to-scale-robotaxis"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:38.757932+00:00
+updated_at: 2026-10-01T01:19:34.558115+00:00
 tags: [record, real-data]
 ---
 

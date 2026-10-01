@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-30T22:39:20.872373+00:00",
+  "generated_at": "2026-10-01T01:17:24.547438+00:00",
   "generator": "scripts/shopify_sync_guard.py",
   "ok": true,
   "violations": [],
@@ -38,7 +38,7 @@
       "changed": [
         "새 상품"
       ],
-      "content_hash": "909b723a5e55d129a92def33e19aee520e815b382054e5d8bcb22d3168b197f3"
+      "content_hash": "73ea40fc71075596f11f9d7eac35ab509c70229656c1e3441d6ef5140cfd67a3"
     },
     {
       "handle": "vonsep-retinol-500-iu-serum-30ml",

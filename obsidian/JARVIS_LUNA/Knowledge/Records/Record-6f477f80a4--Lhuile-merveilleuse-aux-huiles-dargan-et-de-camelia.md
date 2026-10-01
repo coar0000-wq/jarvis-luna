@@ -2,7 +2,7 @@
 title: "Record 6f477f80a4 · Lhuile-merveilleuse-aux-huiles-dargan-et-de-camelia"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:38.130849+00:00
+updated_at: 2026-10-01T01:19:33.853033+00:00
 tags: [record, real-data]
 ---
 

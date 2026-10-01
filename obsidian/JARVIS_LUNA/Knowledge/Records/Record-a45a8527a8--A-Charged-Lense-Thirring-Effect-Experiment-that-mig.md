@@ -2,7 +2,7 @@
 title: "Record a45a8527a8 · A-Charged-Lense-Thirring-Effect-Experiment-that-might-Support-the-Assu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:37.140531+00:00
+updated_at: 2026-10-01T01:19:32.788734+00:00
 tags: [record, real-data]
 ---
 

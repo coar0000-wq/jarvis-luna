@@ -2,7 +2,7 @@
 title: "Record 16e1be8365 · 9-K-Beauty-Brands-Were-Obsessed-with-for-Fall-2026-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:37.532112+00:00
+updated_at: 2026-10-01T01:19:33.217296+00:00
 tags: [record, real-data]
 ---
 

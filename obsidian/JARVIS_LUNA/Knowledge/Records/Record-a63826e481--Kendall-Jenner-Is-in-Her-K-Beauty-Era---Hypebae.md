@@ -2,7 +2,7 @@
 title: "Record a63826e481 · Kendall-Jenner-Is-in-Her-K-Beauty-Era---Hypebae"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:37.696841+00:00
+updated_at: 2026-10-01T01:19:33.387535+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 8e62269fec · Aligning-One-Step-Generative-Models-with-Reward-Weighted-Transport-Dis"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:37.031933+00:00
+updated_at: 2026-10-01T01:19:32.675319+00:00
 tags: [record, real-data]
 ---
 

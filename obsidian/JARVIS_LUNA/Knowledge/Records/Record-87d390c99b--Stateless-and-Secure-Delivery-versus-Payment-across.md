@@ -2,7 +2,7 @@
 title: "Record 87d390c99b · Stateless-and-Secure-Delivery-versus-Payment-across-Blockchains"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:36.778518+00:00
+updated_at: 2026-10-01T01:19:32.404909+00:00
 tags: [record, real-data]
 ---
 

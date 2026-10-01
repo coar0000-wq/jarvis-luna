@@ -2,7 +2,7 @@
 title: "Record 641a3a282c · Quantum-informed-reduction-algorithm-for-the-maximum-independent-set-p"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:36.549837+00:00
+updated_at: 2026-10-01T01:19:32.165808+00:00
 tags: [record, real-data]
 ---
 

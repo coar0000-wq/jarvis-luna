@@ -2,7 +2,7 @@
 title: "Record 1fdc2355cf · ROUND-LAB-1025-Dokdo-Cream-271-fl-oz80ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:38.037897+00:00
+updated_at: 2026-10-01T01:19:33.748964+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ ROUND LAB 1025 Dokdo Cream 2.71 fl. oz.(80ml)
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

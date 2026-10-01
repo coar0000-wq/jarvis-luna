@@ -2,7 +2,7 @@
 title: "Record 5b723360c9 · SPF-시험기관이-알려주는-선크림-SPF의-모든-것"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:38.918816+00:00
+updated_at: 2026-10-01T01:19:34.734830+00:00
 tags: [record, real-data]
 ---
 

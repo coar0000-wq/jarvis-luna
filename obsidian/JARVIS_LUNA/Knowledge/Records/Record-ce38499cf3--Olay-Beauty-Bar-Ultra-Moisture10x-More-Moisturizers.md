@@ -1,0 +1,22 @@
+---
+title: "Record ce38499cf3 · Olay-Beauty-Bar-Ultra-Moisture10x-More-Moisturizers-247-Soft--Smooth-S"
+type: knowledge-graph
+status: generated-from-real-data
+updated_at: 2026-10-01T01:19:34.162747+00:00
+tags: [record, real-data]
+---
+
+# Record ce38499cf3 · Olay-Beauty-Bar-Ultra-Moisture10x-More-Moisturizers-247-Soft--Smooth-S
+
+> 실제 수집 레코드입니다. 원문: [www.amazon.com](https://www.amazon.com/Olay-Moisture-Moisturizers-Cleanse-Vitamin/dp/B0H2FRHDNN/ref=zg_bsnr_g_beauty_d_sccl_24/147-8204049-1700168)
+
+**제목:** Olay Beauty Bar, Ultra Moisture,10x More Moisturizers, 24/7 Soft & Smooth Skin, Gentle Cleanse on Face & Body, Vitamin B3 Complex, For All Skin Types, Shea Butter Scent, 3.75 oz, (12 Count)
+
+Olay Beauty Bar, Ultra Moisture,10x More Moisturizers, 24/7 Soft & Smooth Skin, Gentle Cleanse on Face & Body, Vitamin B3 Complex, For All Skin Types, Shea Butter Scent, 3.75 oz, (12 Count)
+Olay Beauty Bar, Ultra Moisture,10x More Moisturizers, 24/7 Soft & Smooth Skin, Gentle Cleanse on Face & Body, Vitamin B3 Complex, For All Skin Types, Shea Butter Scent, 3.75 oz, (12 Count) · $11.79 · 평점 4.8 · 리뷰 11,531
+
+**출처:** Source · us_beauty
+
+## Connected nodes
+
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

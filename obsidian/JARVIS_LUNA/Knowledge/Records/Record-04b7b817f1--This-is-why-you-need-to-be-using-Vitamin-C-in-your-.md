@@ -2,7 +2,7 @@
 title: "Record 04b7b817f1 · This-is-why-you-need-to-be-using-Vitamin-C-in-your-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:38.895861+00:00
+updated_at: 2026-10-01T01:19:34.708351+00:00
 tags: [record, real-data]
 ---
 

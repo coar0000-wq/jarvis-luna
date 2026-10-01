@@ -2,7 +2,7 @@
 title: "Record af61ab4959 · Proper-Learning-of-Shallow-All-to-All-Quantum-Circuits"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:36.834706+00:00
+updated_at: 2026-10-01T01:19:32.464834+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 7d2a08e132 · CAVEAT-Towards-Robust-Computer-Use-Agents-in-Incentive-Misaligned-Envi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:37.965854+00:00
+updated_at: 2026-10-01T01:19:33.668658+00:00
 tags: [record, real-data]
 ---
 

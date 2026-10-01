@@ -2,7 +2,7 @@
 title: "Record 04844ef21d · Olive-Young-Is-Bringing-Its-K-Beauty-Favorites-to-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:37.416831+00:00
+updated_at: 2026-10-01T01:19:33.092364+00:00
 tags: [record, real-data]
 ---
 

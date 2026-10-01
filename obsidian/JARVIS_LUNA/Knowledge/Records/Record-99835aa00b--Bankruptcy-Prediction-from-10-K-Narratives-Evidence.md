@@ -2,7 +2,7 @@
 title: "Record 99835aa00b · Bankruptcy-Prediction-from-10-K-Narratives-Evidence-from-Interpretable"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-09-30T22:18:37.925338+00:00
+updated_at: 2026-10-01T01:19:33.628328+00:00
 tags: [record, real-data]
 ---
 
