@@ -2,7 +2,7 @@
 title: "Record 1d5ecaab19 · K-beauty-retailer-Olive-Young-draws-quite-a-crowd-i"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:43.340274+00:00
+updated_at: 2026-10-01T13:18:36.008512+00:00
 tags: [record, real-data]
 ---
 

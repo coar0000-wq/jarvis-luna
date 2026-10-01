@@ -2,7 +2,7 @@
 title: "Record 808b785c09 · DOUBLE-SERUM-Age-Defying-Concentrate"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:44.553888+00:00
+updated_at: 2026-10-01T13:18:37.164614+00:00
 tags: [record, real-data]
 ---
 

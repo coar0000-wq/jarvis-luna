@@ -2,7 +2,7 @@
 title: "Record 1c76c91345 · Heyhae-Semi-Cured-Gel-Nail-Strips---Hey-Boo-Who--Halloween--Sun-Cured-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:44.036015+00:00
+updated_at: 2026-10-01T13:18:36.683284+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record b951606b18 · UniC-A-Unified-Automotive-Cockpit-Domain-Management-System-for-Enhance"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:42.374332+00:00
+updated_at: 2026-10-01T13:18:35.061616+00:00
 tags: [record, real-data]
 ---
 

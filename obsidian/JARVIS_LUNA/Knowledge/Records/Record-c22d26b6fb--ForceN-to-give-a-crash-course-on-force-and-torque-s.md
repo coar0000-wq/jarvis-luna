@@ -2,7 +2,7 @@
 title: "Record c22d26b6fb · ForceN-to-give-a-crash-course-on-force-and-torque-sensing-for-humanoid"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:44.503791+00:00
+updated_at: 2026-10-01T13:18:37.116254+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record ad9c220253 · Ultra-Repair-Cream-Intense-Hydration-Moisturizer"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:44.582632+00:00
+updated_at: 2026-10-01T13:18:37.195936+00:00
 tags: [record, real-data]
 ---
 

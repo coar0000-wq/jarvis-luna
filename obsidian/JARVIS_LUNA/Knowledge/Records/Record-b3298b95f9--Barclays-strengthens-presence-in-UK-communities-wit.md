@@ -2,7 +2,7 @@
 title: "Record b3298b95f9 · Barclays-strengthens-presence-in-UK-communities-with-ongoing-investmen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:42.960040+00:00
+updated_at: 2026-10-01T13:18:35.633683+00:00
 tags: [record, real-data]
 ---
 

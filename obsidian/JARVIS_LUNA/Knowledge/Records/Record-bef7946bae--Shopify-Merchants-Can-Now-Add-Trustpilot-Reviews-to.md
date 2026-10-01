@@ -2,7 +2,7 @@
 title: "Record bef7946bae · Shopify-Merchants-Can-Now-Add-Trustpilot-Reviews-to"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:43.463123+00:00
+updated_at: 2026-10-01T13:18:36.133593+00:00
 tags: [record, real-data]
 ---
 

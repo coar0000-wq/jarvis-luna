@@ -2,7 +2,7 @@
 title: "Record 7d01f23550 · 2-Piece-Madagascar-Centella-Hyalu-Cica-Water-Fit-Sun-Serum-UV-Twin-Pac"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:44.541474+00:00
+updated_at: 2026-10-01T13:18:37.151928+00:00
 tags: [record, real-data]
 ---
 

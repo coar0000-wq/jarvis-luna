@@ -2,7 +2,7 @@
 title: "Record 6943babbdf · Shopify-adds-B2B-features-for-more-merchants---Digi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:43.343740+00:00
+updated_at: 2026-10-01T13:18:36.012546+00:00
 tags: [record, real-data]
 ---
 

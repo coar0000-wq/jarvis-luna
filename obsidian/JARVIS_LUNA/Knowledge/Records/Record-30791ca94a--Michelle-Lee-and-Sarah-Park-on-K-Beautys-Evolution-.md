@@ -2,7 +2,7 @@
 title: "Record 30791ca94a · Michelle-Lee-and-Sarah-Park-on-K-Beautys-Evolution---NewBeauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:43.251711+00:00
+updated_at: 2026-10-01T13:18:35.916760+00:00
 tags: [record, real-data]
 ---
 

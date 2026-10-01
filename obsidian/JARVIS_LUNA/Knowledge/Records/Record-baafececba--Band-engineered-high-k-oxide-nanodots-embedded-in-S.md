@@ -2,7 +2,7 @@
 title: "Record baafececba · Band-engineered-high-k-oxide-nanodots-embedded-in-Si3N4-charge-trap-la"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:42.146861+00:00
+updated_at: 2026-10-01T13:18:34.848213+00:00
 tags: [record, real-data]
 ---
 

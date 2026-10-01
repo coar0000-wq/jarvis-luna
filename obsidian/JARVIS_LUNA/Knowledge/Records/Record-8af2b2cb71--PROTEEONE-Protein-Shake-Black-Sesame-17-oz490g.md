@@ -2,7 +2,7 @@
 title: "Record 8af2b2cb71 · PROTEEONE-Protein-Shake-Black-Sesame-17-oz490g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:43.769153+00:00
+updated_at: 2026-10-01T13:18:36.439049+00:00
 tags: [record, real-data]
 ---
 

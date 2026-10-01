@@ -2,7 +2,7 @@
 title: "Record c4d43c37d0 · Shopify-Opens-to-Meta-Muse-Amazon-Balks---Practical-Ecommerce"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:43.245341+00:00
+updated_at: 2026-10-01T13:18:35.910152+00:00
 tags: [record, real-data]
 ---
 

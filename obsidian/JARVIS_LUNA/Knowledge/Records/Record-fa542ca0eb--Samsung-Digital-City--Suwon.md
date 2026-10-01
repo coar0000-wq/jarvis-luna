@@ -2,7 +2,7 @@
 title: "Record fa542ca0eb · Samsung-Digital-City--Suwon"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:43.537281+00:00
+updated_at: 2026-10-01T13:18:36.209679+00:00
 tags: [record, real-data]
 ---
 

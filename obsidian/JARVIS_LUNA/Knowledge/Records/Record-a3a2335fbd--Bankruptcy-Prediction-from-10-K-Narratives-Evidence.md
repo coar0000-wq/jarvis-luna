@@ -2,7 +2,7 @@
 title: "Record a3a2335fbd · Bankruptcy-Prediction-from-10-K-Narratives-Evidence-from-Interpretable"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:42.553191+00:00
+updated_at: 2026-10-01T13:18:35.232998+00:00
 tags: [record, real-data]
 ---
 

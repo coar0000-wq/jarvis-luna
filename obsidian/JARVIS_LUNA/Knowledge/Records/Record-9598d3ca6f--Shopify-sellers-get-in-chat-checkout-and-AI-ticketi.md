@@ -2,7 +2,7 @@
 title: "Record 9598d3ca6f · Shopify-sellers-get-in-chat-checkout-and-AI-ticketi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:43.475456+00:00
+updated_at: 2026-10-01T13:18:36.147669+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMisAFBVV95cUxOSkpqMmtIb0NjRjN3djhoaHZjdEQtQ3M5cEota1N1NTVtMDhKMjVVWmd2cmd3eVVQMnJtOERkaExaMk9OeThCRGMwaVhnc25UUVVwcXpod0pYbGRfeW1yVUhiakJoUWlIVTdDRm1sUVRHNU9PZzBaNVU4V2phcjNFNkRJUTd0Ymw5YTJGZUFnMzIxZFFCc3V5LVhpV181TU1fQ3ZqamUwR3R6RHYzNk0xeg?oc=5)
 
-**제목:** Shopify sellers get in-chat checkout and AI ticketing in one flow - Stock Titan
+**제목:** Shopify sellers get in-chat checkout and AI ticketing in one flow - stocktitan.net
 
-Shopify sellers get in-chat checkout and AI ticketing in one flow - Stock Titan
+Shopify sellers get in-chat checkout and AI ticketing in one flow - stocktitan.net
 
 **출처:** Source · Google Search
 

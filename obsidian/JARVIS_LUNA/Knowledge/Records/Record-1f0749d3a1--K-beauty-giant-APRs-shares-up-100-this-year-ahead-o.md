@@ -2,7 +2,7 @@
 title: "Record 1f0749d3a1 · K-beauty-giant-APRs-shares-up-100-this-year-ahead-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:43.260516+00:00
+updated_at: 2026-10-01T13:18:35.926077+00:00
 tags: [record, real-data]
 ---
 

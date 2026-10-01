@@ -2,7 +2,7 @@
 title: "Record 627052ed34 · Korean-Beauty-Is-Booming-My-Korean-Beauty-Brand-Is-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:43.249077+00:00
+updated_at: 2026-10-01T13:18:35.913994+00:00
 tags: [record, real-data]
 ---
 

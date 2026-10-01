@@ -2,7 +2,7 @@
 title: "Record a12b94cc21 · Tethered-UAVs-for-Dense-Urban-Connectivity"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:41.885529+00:00
+updated_at: 2026-10-01T13:18:34.591454+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 3a2aa5a94b · Physiogel-Dmt-Hydrating-Facial-Lotion-135-fl-oz400ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:43.822562+00:00
+updated_at: 2026-10-01T13:18:36.487074+00:00
 tags: [record, real-data]
 ---
 

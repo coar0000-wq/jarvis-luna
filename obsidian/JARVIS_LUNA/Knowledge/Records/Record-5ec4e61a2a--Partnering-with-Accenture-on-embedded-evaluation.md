@@ -2,7 +2,7 @@
 title: "Record 5ec4e61a2a · Partnering-with-Accenture-on-embedded-evaluation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:44.262504+00:00
+updated_at: 2026-10-01T13:18:36.881596+00:00
 tags: [record, real-data]
 ---
 

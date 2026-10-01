@@ -2,7 +2,7 @@
 title: "Record e9040c20ab · Valuing-American-options-and-Flexible-Forwards-contracts-in-time-depen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:42.563964+00:00
+updated_at: 2026-10-01T13:18:35.249523+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 674fcd5473 · AESTURA-Atobarrier365-Body-Lotion-1352-fl-oz400ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:43.817534+00:00
+updated_at: 2026-10-01T13:18:36.482023+00:00
 tags: [record, real-data]
 ---
 

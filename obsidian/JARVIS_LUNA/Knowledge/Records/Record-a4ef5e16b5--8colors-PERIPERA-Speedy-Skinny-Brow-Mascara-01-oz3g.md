@@ -2,7 +2,7 @@
 title: "Record a4ef5e16b5 · 8colors-PERIPERA-Speedy-Skinny-Brow-Mascara-01-oz3g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:43.764461+00:00
+updated_at: 2026-10-01T13:18:36.433899+00:00
 tags: [record, real-data]
 ---
 

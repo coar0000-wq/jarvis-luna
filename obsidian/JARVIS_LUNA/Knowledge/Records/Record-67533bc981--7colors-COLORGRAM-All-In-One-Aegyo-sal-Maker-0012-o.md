@@ -2,7 +2,7 @@
 title: "Record 67533bc981 · 7colors-COLORGRAM-All-In-One-Aegyo-sal-Maker-0012-oz035g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:43.791602+00:00
+updated_at: 2026-10-01T13:18:36.456458+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 11f372a2da · Green-Apple-Brightening-Peel"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:43.002233+00:00
+updated_at: 2026-10-01T13:18:35.672785+00:00
 tags: [record, real-data]
 ---
 

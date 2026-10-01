@@ -2,7 +2,7 @@
 title: "Record ed1a145ef8 · Olay-Super-Serum-Hand--Body-Lotion-for-Aging-24hr-Long-Lasting-Moistur"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:44.128420+00:00
+updated_at: 2026-10-01T13:18:36.765510+00:00
 tags: [record, real-data]
 ---
 

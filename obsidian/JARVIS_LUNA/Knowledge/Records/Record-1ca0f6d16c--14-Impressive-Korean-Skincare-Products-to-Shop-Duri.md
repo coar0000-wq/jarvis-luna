@@ -2,7 +2,7 @@
 title: "Record 1ca0f6d16c · 14-Impressive-Korean-Skincare-Products-to-Shop-Duri"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:43.391398+00:00
+updated_at: 2026-10-01T13:18:36.056163+00:00
 tags: [record, real-data]
 ---
 

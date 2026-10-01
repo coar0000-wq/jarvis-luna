@@ -2,7 +2,7 @@
 title: "Record 901d8ff0cd · Use-of-the-FLARe-Smartphone-App-in-a-Trauma-Exposed-Sample-A-Feasibili"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:42.294405+00:00
+updated_at: 2026-10-01T13:18:34.980715+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1bfad4f901 · qByte-An-open-source-isothermal-fluorimeter-for-democratizing-analysis"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:42.400267+00:00
+updated_at: 2026-10-01T13:18:35.086782+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 728de74f3c · Why-the-K-Beauty-Approach-to-Treating-Fine-Lines--W"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:43.203683+00:00
+updated_at: 2026-10-01T13:18:35.868166+00:00
 tags: [record, real-data]
 ---
 

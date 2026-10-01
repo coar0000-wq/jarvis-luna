@@ -2,7 +2,7 @@
 title: "Record a187c5217c · Electrical-Characterization-of-Shielded-TSVs-With-Airgap-Isolation-for"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:42.331803+00:00
+updated_at: 2026-10-01T13:18:35.019040+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 77704bb2da · ProtoSeam-Lifting-Classifier-Training-with-Latent-Gaussian-Mixture-Mod"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:42.819719+00:00
+updated_at: 2026-10-01T13:18:35.482741+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record f6bf7cfbea · The-biggest-beauty-trends-of-2026---Luxury-London"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:43.328500+00:00
+updated_at: 2026-10-01T13:18:35.996187+00:00
 tags: [record, real-data]
 ---
 

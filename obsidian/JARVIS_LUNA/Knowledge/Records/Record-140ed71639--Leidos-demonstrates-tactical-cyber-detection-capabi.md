@@ -2,7 +2,7 @@
 title: "Record 140ed71639 · Leidos-demonstrates-tactical-cyber-detection-capabi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:42.980300+00:00
+updated_at: 2026-10-01T13:18:35.651545+00:00
 tags: [record, real-data]
 ---
 

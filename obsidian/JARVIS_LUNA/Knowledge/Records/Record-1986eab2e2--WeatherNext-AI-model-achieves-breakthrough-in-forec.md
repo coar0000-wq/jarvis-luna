@@ -2,7 +2,7 @@
 title: "Record 1986eab2e2 · WeatherNext-AI-model-achieves-breakthrough-in-forec"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:42.097194+00:00
+updated_at: 2026-10-01T13:18:34.798708+00:00
 tags: [record, real-data]
 ---
 

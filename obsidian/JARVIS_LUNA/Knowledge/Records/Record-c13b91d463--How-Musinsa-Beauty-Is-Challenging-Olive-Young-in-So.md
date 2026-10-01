@@ -2,7 +2,7 @@
 title: "Record c13b91d463 · How-Musinsa-Beauty-Is-Challenging-Olive-Young-in-South-Koreas-K-Beauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:43.323036+00:00
+updated_at: 2026-10-01T13:18:35.990459+00:00
 tags: [record, real-data]
 ---
 

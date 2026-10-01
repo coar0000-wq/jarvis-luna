@@ -2,7 +2,7 @@
 title: "Record e27dc0f144 · Not-All-Task-Vectors-Need-Equal-Rank-Energy-Proportional-Allocation-fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:42.708915+00:00
+updated_at: 2026-10-01T13:18:35.380871+00:00
 tags: [record, real-data]
 ---
 

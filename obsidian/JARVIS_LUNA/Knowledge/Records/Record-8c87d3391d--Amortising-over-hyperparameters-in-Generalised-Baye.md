@@ -2,7 +2,7 @@
 title: "Record 8c87d3391d · Amortising-over-hyperparameters-in-Generalised-Bayesian-Inference"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:42.533182+00:00
+updated_at: 2026-10-01T13:18:35.212726+00:00
 tags: [record, real-data]
 ---
 

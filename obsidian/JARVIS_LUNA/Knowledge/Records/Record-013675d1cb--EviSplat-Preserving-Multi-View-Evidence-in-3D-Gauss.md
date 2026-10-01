@@ -2,7 +2,7 @@
 title: "Record 013675d1cb · EviSplat-Preserving-Multi-View-Evidence-in-3D-Gaussian-Splatting-for-O"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:42.815928+00:00
+updated_at: 2026-10-01T13:18:35.479238+00:00
 tags: [record, real-data]
 ---
 

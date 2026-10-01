@@ -2,7 +2,7 @@
 title: "Record 89adf67414 · CeraVe-Hydrating-Cleanser-with-Hyaluronic-Acid-Face-Wash-for-Dry-Skin1"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:43.963722+00:00
+updated_at: 2026-10-01T13:18:36.625873+00:00
 tags: [record, real-data]
 ---
 

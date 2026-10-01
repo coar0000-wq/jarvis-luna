@@ -2,7 +2,7 @@
 title: "Record c8bb38c36e · Watt-level-broadband-PM-Tm-doped-fiber-amplifier-for-the-17501910-nm-w"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:42.192390+00:00
+updated_at: 2026-10-01T13:18:34.895191+00:00
 tags: [record, real-data]
 ---
 

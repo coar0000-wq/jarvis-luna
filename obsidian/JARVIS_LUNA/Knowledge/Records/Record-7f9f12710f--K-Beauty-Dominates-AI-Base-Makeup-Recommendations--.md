@@ -2,7 +2,7 @@
 title: "Record 7f9f12710f · K-Beauty-Dominates-AI-Base-Makeup-Recommendations---조선일보"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:43.310154+00:00
+updated_at: 2026-10-01T13:18:35.976279+00:00
 tags: [record, real-data]
 ---
 

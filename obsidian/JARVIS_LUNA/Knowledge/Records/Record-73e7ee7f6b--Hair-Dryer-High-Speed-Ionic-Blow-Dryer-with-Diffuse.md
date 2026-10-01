@@ -2,7 +2,7 @@
 title: "Record 73e7ee7f6b · Hair-Dryer-High-Speed-Ionic-Blow-Dryer-with-Diffuser-Concentrator--180"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:44.014759+00:00
+updated_at: 2026-10-01T13:18:36.666689+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record b32df51b25 · 2colors-medicube-Age-R-Booster-Pro-Mini-Plus"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:43.762350+00:00
+updated_at: 2026-10-01T13:18:36.431708+00:00
 tags: [record, real-data]
 ---
 

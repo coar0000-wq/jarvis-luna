@@ -2,7 +2,7 @@
 title: "Record cdc4e8831d · The-Not-So-Secret-Ingredient-in-This-20-Moisturizer-Gives-Shoppers-in-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:43.233277+00:00
+updated_at: 2026-10-01T13:18:35.897526+00:00
 tags: [record, real-data]
 ---
 

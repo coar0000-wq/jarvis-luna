@@ -2,7 +2,7 @@
 title: "Record 7207e1a771 · G2PTQ-Improving-LLM-Post-Training-Quantization-with-Generalized-Gradie"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:42.784855+00:00
+updated_at: 2026-10-01T13:18:35.451174+00:00
 tags: [record, real-data]
 ---
 

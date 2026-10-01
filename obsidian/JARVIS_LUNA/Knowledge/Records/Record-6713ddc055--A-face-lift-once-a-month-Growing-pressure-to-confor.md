@@ -2,7 +2,7 @@
 title: "Record 6713ddc055 · A-face-lift-once-a-month-Growing-pressure-to-conform-amid-the-rise-of-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T08:34:43.518675+00:00
+updated_at: 2026-10-01T13:18:36.190502+00:00
 tags: [record, real-data]
 ---
 
