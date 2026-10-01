@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T01:17:24.547438+00:00",
+  "generated_at": "2026-10-01T04:01:18.551605+00:00",
   "generator": "scripts/shopify_sync_guard.py",
   "ok": true,
   "violations": [],
