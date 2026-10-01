@@ -2,7 +2,7 @@
 title: "Record 75b22a0b48 · Redbench-Workload-Synthesis-from-Cloud-Traces"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:35.097593+00:00
+updated_at: 2026-10-01T17:16:16.034634+00:00
 tags: [record, real-data]
 ---
 

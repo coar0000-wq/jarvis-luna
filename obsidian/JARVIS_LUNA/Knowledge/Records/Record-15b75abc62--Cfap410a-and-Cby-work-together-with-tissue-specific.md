@@ -2,7 +2,7 @@
 title: "Record 15b75abc62 · Cfap410a-and-Cby-work-together-with-tissue-specific"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:35.601903+00:00
+updated_at: 2026-10-01T17:16:16.582269+00:00
 tags: [record, real-data]
 ---
 

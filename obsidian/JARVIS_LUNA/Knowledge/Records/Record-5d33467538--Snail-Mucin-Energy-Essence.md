@@ -2,7 +2,7 @@
 title: "Record 5d33467538 · Snail-Mucin-Energy-Essence"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:36.376245+00:00
+updated_at: 2026-10-01T17:16:17.405261+00:00
 tags: [record, real-data]
 ---
 

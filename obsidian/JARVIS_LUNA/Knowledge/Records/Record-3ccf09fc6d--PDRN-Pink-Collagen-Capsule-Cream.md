@@ -2,7 +2,7 @@
 title: "Record 3ccf09fc6d · PDRN-Pink-Collagen-Capsule-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:37.184539+00:00
+updated_at: 2026-10-01T17:16:18.312731+00:00
 tags: [record, real-data]
 ---
 

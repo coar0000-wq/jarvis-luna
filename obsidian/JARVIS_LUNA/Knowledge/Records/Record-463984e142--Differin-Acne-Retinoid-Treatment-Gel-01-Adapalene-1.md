@@ -2,7 +2,7 @@
 title: "Record 463984e142 · Differin-Acne-Retinoid-Treatment-Gel-01-Adapalene-15g-Tube--Over-The-C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:36.655991+00:00
+updated_at: 2026-10-01T17:16:17.713105+00:00
 tags: [record, real-data]
 ---
 

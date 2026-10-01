@@ -2,7 +2,7 @@
 title: "Record d3482910e6 · BEYOND-Bodytamin-Retinol-Lifting-Body-Lotion-101-fl-oz300ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:36.490783+00:00
+updated_at: 2026-10-01T17:16:17.531419+00:00
 tags: [record, real-data]
 ---
 

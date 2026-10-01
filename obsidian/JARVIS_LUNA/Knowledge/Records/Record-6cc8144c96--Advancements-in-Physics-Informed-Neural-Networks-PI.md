@@ -2,7 +2,7 @@
 title: "Record 6cc8144c96 · Advancements-in-Physics-Informed-Neural-Networks-PI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:35.590047+00:00
+updated_at: 2026-10-01T17:16:16.569565+00:00
 tags: [record, real-data]
 ---
 

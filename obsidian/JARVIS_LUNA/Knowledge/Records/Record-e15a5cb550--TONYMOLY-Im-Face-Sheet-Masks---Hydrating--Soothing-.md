@@ -2,7 +2,7 @@
 title: "Record e15a5cb550 · TONYMOLY-Im-Face-Sheet-Masks---Hydrating--Soothing-Korean-Skincare"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:36.835833+00:00
+updated_at: 2026-10-01T17:16:17.931349+00:00
 tags: [record, real-data]
 ---
 

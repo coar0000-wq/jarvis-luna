@@ -2,7 +2,7 @@
 title: "Record c8d8b497e0 · ИННОВАЦИОННЫЕ-И-ЭКСПЕРИМЕНТАЛЬНЫЕ-ПОДХОДЫ-В-СФЕРЕ-ОБРАЗОВАНИЯ"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:35.607210+00:00
+updated_at: 2026-10-01T17:16:16.588029+00:00
 tags: [record, real-data]
 ---
 

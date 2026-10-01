@@ -2,7 +2,7 @@
 title: "Record ab2e1808cf · Nine-in-10-UK-manufacturers-turn-to-automation-to-navigate-geopolitica"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:35.629823+00:00
+updated_at: 2026-10-01T17:16:16.610789+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [home.barclays](https://home.barclays/news/press-releases/20260/090/-nine-in-10-uk-manufacturers-turn-to-automation-to-navigate-geop0/)
 
-**제목:** Nine in 10 UK manufacturers turn to automation to navigate geopolitical uncertainty | Barclays
+**제목:** Nine In 10 Uk Manufacturers Turn To Automation To Navigate Geop0
 
-Nine in 10 UK manufacturers turn to automation to navigate geopolitical uncertainty | Barclays
-UK manufacturers remain confident about their future prospects, despite rising energy costs and ongoing geopolitical uncertainty.
+Nine In 10 Uk Manufacturers Turn To Automation To Navigate Geop0
 
 **출처:** Source · institutions
 

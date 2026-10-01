@@ -2,7 +2,7 @@
 title: "Record a941aca8ff · Nutrafol-Womens-Balance-Hair-Growth-Supplements-Age-45-1-Month-Bottle-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:36.757225+00:00
+updated_at: 2026-10-01T17:16:17.834872+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 53b6da4542 · Kinda-sad-Laneige-patrons-lament-online-store-closure-in-Philippines--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:36.182811+00:00
+updated_at: 2026-10-01T17:16:17.199570+00:00
 tags: [record, real-data]
 ---
 

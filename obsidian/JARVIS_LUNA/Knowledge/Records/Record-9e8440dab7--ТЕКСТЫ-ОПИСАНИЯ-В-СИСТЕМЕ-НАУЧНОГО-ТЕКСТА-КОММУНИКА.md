@@ -2,7 +2,7 @@
 title: "Record 9e8440dab7 · ТЕКСТЫ-ОПИСАНИЯ-В-СИСТЕМЕ-НАУЧНОГО-ТЕКСТА-КОММУНИКАТИВНО-ТИПОЛОГИЧЕСКИ"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:35.610763+00:00
+updated_at: 2026-10-01T17:16:16.591589+00:00
 tags: [record, real-data]
 ---
 

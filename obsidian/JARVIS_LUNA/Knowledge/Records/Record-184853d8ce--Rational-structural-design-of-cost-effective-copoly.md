@@ -2,7 +2,7 @@
 title: "Record 184853d8ce · Rational-structural-design-of-cost-effective-copoly"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:34.887070+00:00
+updated_at: 2026-10-01T17:16:15.814766+00:00
 tags: [record, real-data]
 ---
 

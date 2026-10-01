@@ -2,7 +2,7 @@
 title: "Record 11d9d296ae · Robot-Aware-Computational-Design-of-Object-Specific"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:34.483568+00:00
+updated_at: 2026-10-01T17:16:15.378240+00:00
 tags: [record, real-data]
 ---
 

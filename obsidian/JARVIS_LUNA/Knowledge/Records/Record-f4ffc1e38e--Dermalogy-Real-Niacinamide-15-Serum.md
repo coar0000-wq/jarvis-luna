@@ -2,7 +2,7 @@
 title: "Record f4ffc1e38e · Dermalogy-Real-Niacinamide-15-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:36.371867+00:00
+updated_at: 2026-10-01T17:16:17.400904+00:00
 tags: [record, real-data]
 ---
 

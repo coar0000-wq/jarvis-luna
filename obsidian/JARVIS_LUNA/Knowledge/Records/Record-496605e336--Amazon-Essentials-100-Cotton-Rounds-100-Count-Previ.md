@@ -2,7 +2,7 @@
 title: "Record 496605e336 · Amazon-Essentials-100-Cotton-Rounds-100-Count-Previously-Amazon-Basics"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:36.590262+00:00
+updated_at: 2026-10-01T17:16:17.634743+00:00
 tags: [record, real-data]
 ---
 

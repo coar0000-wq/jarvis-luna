@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T08:31:09.341690+00:00",
+  "generated_at": "2026-10-01T17:06:32.576531+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
@@ -41,7 +41,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -57,19 +57,18 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.686,
+        "confidence": 0.696,
         "usage": {
           "input_tokens": 1105,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.58,
+        "risk_score": 1.62,
         "model": "jev-1.13.0",
         "state_signature": "cdb95028555fb2cc1091059f8cd86fe4a993cc1cce6206584626e7d74b6ea8c6",
-        "decided_at": "2026-10-01T08:32:42.919167+00:00",
-        "carried_from": "2026-10-01T08:32:42.919167+00:00"
+        "decided_at": "2026-10-01T17:14:07.945280+00:00"
       },
-      "gate_generated_at": "2026-10-01T12:30:41.264542+00:00"
+      "gate_generated_at": "2026-10-01T17:14:09.467544+00:00"
     },
     {
       "rank": 2,
@@ -107,7 +106,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -123,19 +122,18 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.702,
+        "confidence": 0.708,
         "usage": {
           "input_tokens": 1085,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.69,
+        "risk_score": 1.66,
         "model": "jev-1.13.0",
         "state_signature": "51d0e73d5ba5ed41de4d4bf02811433e8f7ef09ef764ae07bb5b94a8cc530ea7",
-        "decided_at": "2026-10-01T08:32:43.086254+00:00",
-        "carried_from": "2026-10-01T08:32:43.086254+00:00"
+        "decided_at": "2026-10-01T17:14:08.110741+00:00"
       },
-      "gate_generated_at": "2026-10-01T12:30:41.264542+00:00"
+      "gate_generated_at": "2026-10-01T17:14:09.467544+00:00"
     },
     {
       "rank": 3,
@@ -186,7 +184,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -206,19 +204,18 @@
           "public blockers: copy, gosi, us_label, legal, legal_full",
           "legal hard block"
         ],
-        "confidence": 0.954,
+        "confidence": 0.958,
         "usage": {
           "input_tokens": 1141,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 2.87,
+        "risk_score": 2.89,
         "model": "jev-1.13.0",
         "state_signature": "03bd1da026d9c8d55c3363adbafd8697ee60acb28500dffa8780a0393c2e941c",
-        "decided_at": "2026-10-01T08:32:43.337059+00:00",
-        "carried_from": "2026-10-01T08:32:43.337059+00:00"
+        "decided_at": "2026-10-01T17:14:08.296017+00:00"
       },
-      "gate_generated_at": "2026-10-01T12:30:41.264542+00:00"
+      "gate_generated_at": "2026-10-01T17:14:09.467544+00:00"
     },
     {
       "rank": 4,
@@ -256,7 +253,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -272,19 +269,18 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.702,
+        "confidence": 0.708,
         "usage": {
           "input_tokens": 1086,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.59,
+        "risk_score": 1.55,
         "model": "jev-1.13.0",
         "state_signature": "a235a30f46906db0e3e7198e8f998dc4cfdaf92ceac3f46d1cef17739f39ea0f",
-        "decided_at": "2026-10-01T08:32:43.512831+00:00",
-        "carried_from": "2026-10-01T08:32:43.512831+00:00"
+        "decided_at": "2026-10-01T17:14:08.463942+00:00"
       },
-      "gate_generated_at": "2026-10-01T12:30:41.264542+00:00"
+      "gate_generated_at": "2026-10-01T17:14:09.467544+00:00"
     },
     {
       "rank": 5,
@@ -322,11 +318,11 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "review",
+        "grade_advisory": "hold",
         "legal_gate_advisory": "review",
         "risk_level": "high",
         "risk_points": 1,
@@ -334,23 +330,22 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.93,
+        "model_route_confidence": 0.94,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.7,
+        "confidence": 0.704,
         "usage": {
           "input_tokens": 1097,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.66,
+        "risk_score": 1.62,
         "model": "jev-1.13.0",
         "state_signature": "a235a30f46906db0e3e7198e8f998dc4cfdaf92ceac3f46d1cef17739f39ea0f",
-        "decided_at": "2026-10-01T08:32:43.701050+00:00",
-        "carried_from": "2026-10-01T08:32:43.701050+00:00"
+        "decided_at": "2026-10-01T17:14:08.614536+00:00"
       },
-      "gate_generated_at": "2026-10-01T12:30:41.264542+00:00"
+      "gate_generated_at": "2026-10-01T17:14:09.467544+00:00"
     },
     {
       "rank": 6,
@@ -388,11 +383,11 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "review",
+        "grade_advisory": "hold",
         "legal_gate_advisory": "review",
         "risk_level": "high",
         "risk_points": 1,
@@ -404,7 +399,7 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.674,
+        "confidence": 0.68,
         "usage": {
           "input_tokens": 1089,
           "output_tokens": 198
@@ -413,10 +408,9 @@
         "risk_score": 1.56,
         "model": "jev-1.13.0",
         "state_signature": "9cd2800fc8d4cac3636219a503b910fbb2b0924bd299e98e77065bc73dc4dcbb",
-        "decided_at": "2026-10-01T08:32:43.944823+00:00",
-        "carried_from": "2026-10-01T08:32:43.944823+00:00"
+        "decided_at": "2026-10-01T17:14:08.786178+00:00"
       },
-      "gate_generated_at": "2026-10-01T12:30:41.264542+00:00"
+      "gate_generated_at": "2026-10-01T17:14:09.467544+00:00"
     },
     {
       "rank": 7,
@@ -454,73 +448,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
-        "source": "typesafe",
-        "paid_api_called": false,
-        "enforced": false,
-        "grade_advisory": "hold",
-        "legal_gate_advisory": "review",
-        "risk_level": "high",
-        "risk_points": 1,
-        "team_routes": [
-          "legal"
-        ],
-        "model_route": "human",
-        "model_route_confidence": 0.92,
-        "findings": [
-          "public blockers: legal_full"
-        ],
-        "confidence": 0.71,
-        "usage": {
-          "input_tokens": 1096,
-          "output_tokens": 198
-        },
-        "free_credits_only": true,
-        "risk_score": 1.57,
-        "model": "jev-1.13.0",
-        "state_signature": "e05a0e27591e0c95f4d9b69ae7367544fdcdf352632872cce305bc9033dca5a5",
-        "decided_at": "2026-10-01T08:32:44.161346+00:00",
-        "carried_from": "2026-10-01T08:32:44.161346+00:00"
-      },
-      "gate_generated_at": "2026-10-01T12:30:41.264542+00:00"
-    },
-    {
-      "rank": 8,
-      "canonical_product_id": "CP000151",
-      "pd_no": "1059834",
-      "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-      "bucket": "마스크팩",
-      "price_krw": 2000,
-      "shopify_score": 90,
-      "grade": "S",
-      "s_rule": "ingredient+form",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250429/dEtwcu53V3cOWvQ0SnSL1059834_00_01dEtwcu53V3cOWvQ0SnSL.jpg",
-      "recommend_reason": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 88% · 토큰 collagen, mask",
-      "matched_global": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Biodance Bio-Collagen Real Deep Mask",
-        "similarity": 0.88,
-        "demand_weight": 0.6,
-        "matched_tokens": [
-          "collagen",
-          "mask"
-        ],
-        "match_score": 0.528
-      },
-      "registerable": true,
-      "registerable_source": "data/listing_gate.json",
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "blocked_by": [],
-      "public_ready": false,
-      "public_blocked_by": [
-        "legal_full"
-      ],
-      "typesafe": {
-        "framework": "typesafe_system_one_compatible",
-        "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -532,32 +460,31 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.94,
+        "model_route_confidence": 0.92,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.702,
+        "confidence": 0.712,
         "usage": {
-          "input_tokens": 1094,
+          "input_tokens": 1096,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.49,
+        "risk_score": 1.45,
         "model": "jev-1.13.0",
-        "state_signature": "72531625bdb11b67ee797df5b076b36210e54f4a386ed65f9afe25a575270ba5",
-        "decided_at": "2026-10-01T08:32:44.339117+00:00",
-        "carried_from": "2026-10-01T08:32:44.339117+00:00"
+        "state_signature": "e05a0e27591e0c95f4d9b69ae7367544fdcdf352632872cce305bc9033dca5a5",
+        "decided_at": "2026-10-01T17:14:08.971768+00:00"
       },
-      "gate_generated_at": "2026-10-01T12:30:41.264542+00:00"
+      "gate_generated_at": "2026-10-01T17:14:09.467544+00:00"
     },
     {
-      "rank": 9,
+      "rank": 8,
       "canonical_product_id": "CP000038",
       "pd_no": "1027327",
       "name": "바세린 마스크팩 집중보습",
       "bucket": "마스크팩",
       "price_krw": 1000,
-      "shopify_score": 89,
+      "shopify_score": 91,
       "grade": "S",
       "s_rule": "multi_token",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027327&recmYn=N",
@@ -596,62 +523,61 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
         "grade_advisory": "hold",
         "legal_gate_advisory": "block",
         "risk_level": "critical",
-        "risk_points": 8,
+        "risk_points": 7,
         "team_routes": [
           "legal",
           "listing"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.92,
+        "model_route_confidence": 0.91,
         "findings": [
           "draft blockers: copy, us_label, legal",
           "public blockers: copy, us_label, legal, legal_full",
           "legal hard block"
         ],
-        "confidence": 0.914,
+        "confidence": 0.908,
         "usage": {
           "input_tokens": 1113,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 2.71,
+        "risk_score": 2.67,
         "model": "jev-1.13.0",
-        "state_signature": "6a8717070ad2bca1105bb9417b1c344a694d4ce599eb319fe88ce4fd91ae93ff",
-        "decided_at": "2026-10-01T08:32:44.520271+00:00",
-        "carried_from": "2026-10-01T08:32:44.520271+00:00"
+        "state_signature": "b0582cacf994482e3059f0d2ae9df7f5c57a4a9358f95651c17206ce007a8ad0",
+        "decided_at": "2026-10-01T17:14:09.141295+00:00"
       },
-      "gate_generated_at": "2026-10-01T12:30:41.264542+00:00"
+      "gate_generated_at": "2026-10-01T17:14:09.467544+00:00"
     },
     {
-      "rank": 10,
-      "canonical_product_id": "CP000125",
-      "pd_no": "1053482",
-      "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 86,
+      "rank": 9,
+      "canonical_product_id": "CP000151",
+      "pd_no": "1059834",
+      "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+      "bucket": "마스크팩",
+      "price_krw": 2000,
+      "shopify_score": 90,
       "grade": "S",
-      "s_rule": "multi_token",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1053482",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/S3WHamdJK4z5s7WVkYus1053482_00_00S3WHamdJK4z5s7WVkYus.jpg",
-      "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 60% · 토큰 calming, toner",
+      "s_rule": "ingredient+form",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250429/dEtwcu53V3cOWvQ0SnSL1059834_00_01dEtwcu53V3cOWvQ0SnSL.jpg",
+      "recommend_reason": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 88% · 토큰 collagen, mask",
       "matched_global": {
         "channel": "tiktok_shop_us",
-        "global_product": "ANUA Heartleaf 77 Soothing Toner",
-        "similarity": 0.6,
-        "demand_weight": 0.95,
+        "global_product": "Biodance Bio-Collagen Real Deep Mask",
+        "similarity": 0.88,
+        "demand_weight": 0.6,
         "matched_tokens": [
-          "calming",
-          "toner"
+          "collagen",
+          "mask"
         ],
-        "match_score": 0.57
+        "match_score": 0.528
       },
       "registerable": true,
       "registerable_source": "data/listing_gate.json",
@@ -665,11 +591,76 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
         "grade_advisory": "hold",
+        "legal_gate_advisory": "review",
+        "risk_level": "high",
+        "risk_points": 1,
+        "team_routes": [
+          "legal"
+        ],
+        "model_route": "human",
+        "model_route_confidence": 0.94,
+        "findings": [
+          "public blockers: legal_full"
+        ],
+        "confidence": 0.69,
+        "usage": {
+          "input_tokens": 1094,
+          "output_tokens": 198
+        },
+        "free_credits_only": true,
+        "risk_score": 1.53,
+        "model": "jev-1.13.0",
+        "state_signature": "72531625bdb11b67ee797df5b076b36210e54f4a386ed65f9afe25a575270ba5",
+        "decided_at": "2026-10-01T17:14:09.330766+00:00"
+      },
+      "gate_generated_at": "2026-10-01T17:14:09.467544+00:00"
+    },
+    {
+      "rank": 10,
+      "canonical_product_id": "CP000075",
+      "pd_no": "1042619",
+      "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
+      "bucket": "마스크팩",
+      "price_krw": 1000,
+      "shopify_score": 89,
+      "grade": "S",
+      "s_rule": "ingredient+form",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240109/8IB1YBxg81UqZXiKzXFM1042619_00_008IB1YBxg81UqZXiKzXFM.jpg",
+      "recommend_reason": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 68% · 토큰 collagen, mask",
+      "matched_global": {
+        "channel": "tiktok_shop_us",
+        "global_product": "Biodance Bio-Collagen Real Deep Mask",
+        "similarity": 0.68,
+        "demand_weight": 0.6,
+        "matched_tokens": [
+          "collagen",
+          "mask"
+        ],
+        "match_score": 0.408
+      },
+      "registerable": true,
+      "registerable_source": "data/listing_gate.json",
+      "agent_ready": true,
+      "agent_blocked_by": [],
+      "blocked_by": [],
+      "public_ready": false,
+      "public_blocked_by": [
+        "legal_full"
+      ],
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": true,
+        "mode": "typesafe_observational_free_credits",
+        "source": "typesafe",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "review",
         "legal_gate_advisory": "review",
         "risk_level": "high",
         "risk_points": 2,
@@ -677,23 +668,22 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.92,
+        "model_route_confidence": 0.93,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.708,
+        "confidence": 0.696,
         "usage": {
-          "input_tokens": 1097,
+          "input_tokens": 1091,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.56,
+        "risk_score": 1.59,
         "model": "jev-1.13.0",
-        "state_signature": "567e5d2b0760589d9239f3afb50a6bf184726911f277cecd34da4511b62b460b",
-        "decided_at": "2026-10-01T08:32:44.702124+00:00",
-        "carried_from": "2026-10-01T08:32:44.702124+00:00"
+        "state_signature": "e370dff839120acc27ebfdefe0d9905a87a2ce0c6e34a9ae66036956848cc7e1",
+        "decided_at": "2026-10-01T17:14:09.467524+00:00"
       },
-      "gate_generated_at": "2026-10-01T12:30:41.264542+00:00"
+      "gate_generated_at": "2026-10-01T17:14:09.467544+00:00"
     }
   ],
   "agent_ready_count": 8,

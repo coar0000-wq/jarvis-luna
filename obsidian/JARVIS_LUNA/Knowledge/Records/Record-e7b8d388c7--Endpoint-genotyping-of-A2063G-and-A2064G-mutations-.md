@@ -2,7 +2,7 @@
 title: "Record e7b8d388c7 · Endpoint-genotyping-of-A2063G-and-A2064G-mutations-in-Mycoplasma-pneum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:34.823335+00:00
+updated_at: 2026-10-01T17:16:15.749457+00:00
 tags: [record, real-data]
 ---
 

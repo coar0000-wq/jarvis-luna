@@ -2,7 +2,7 @@
 title: "Record 3b5ed3d291 · Farmers-are-facing-more-pressure-CNH-says-robotics-can-help"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:37.115680+00:00
+updated_at: 2026-10-01T17:16:18.235366+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "기관 · Anthropic"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:38.043159+00:00
+updated_at: 2026-10-01T17:16:19.407075+00:00
 tags: [org, real-data]
 ---
 

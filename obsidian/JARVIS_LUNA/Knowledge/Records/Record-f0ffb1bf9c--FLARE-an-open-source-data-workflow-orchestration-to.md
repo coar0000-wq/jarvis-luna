@@ -2,7 +2,7 @@
 title: "Record f0ffb1bf9c · FLARE-an-open-source-data-workflow-orchestration-tool"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:35.336397+00:00
+updated_at: 2026-10-01T17:16:16.288101+00:00
 tags: [record, real-data]
 ---
 

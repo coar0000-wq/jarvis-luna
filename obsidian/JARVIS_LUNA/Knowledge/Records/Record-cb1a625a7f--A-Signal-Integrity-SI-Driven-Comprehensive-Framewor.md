@@ -2,7 +2,7 @@
 title: "Record cb1a625a7f · A-Signal-Integrity-SI-Driven-Comprehensive-Framework-for-High-Speed-In"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:35.019505+00:00
+updated_at: 2026-10-01T17:16:15.950244+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record ff3518eb7b · Allure-Best-of-Beauty-2026-Shop-the-Breakthroughs-Winning-Products"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:36.522818+00:00
+updated_at: 2026-10-01T17:16:17.564158+00:00
 tags: [record, real-data]
 ---
 

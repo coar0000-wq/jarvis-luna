@@ -2,7 +2,7 @@
 title: "Record 8ddc633a64 · 2colors-medicube-AGE-R-Booster-Pro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:36.481602+00:00
+updated_at: 2026-10-01T17:16:17.521595+00:00
 tags: [record, real-data]
 ---
 

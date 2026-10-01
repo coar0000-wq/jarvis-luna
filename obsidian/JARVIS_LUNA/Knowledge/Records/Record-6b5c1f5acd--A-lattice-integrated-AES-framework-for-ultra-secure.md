@@ -2,7 +2,7 @@
 title: "Record 6b5c1f5acd · A-lattice-integrated-AES-framework-for-ultra-secure-biometric-protecti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:34.930856+00:00
+updated_at: 2026-10-01T17:16:15.859008+00:00
 tags: [record, real-data]
 ---
 

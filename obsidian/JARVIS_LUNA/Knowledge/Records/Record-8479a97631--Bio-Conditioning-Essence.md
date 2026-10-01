@@ -2,7 +2,7 @@
 title: "Record 8479a97631 · Bio-Conditioning-Essence"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:36.364569+00:00
+updated_at: 2026-10-01T17:16:17.393572+00:00
 tags: [record, real-data]
 ---
 

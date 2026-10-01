@@ -2,7 +2,7 @@
 title: "Record 3ab18f95d2 · Optimizing-Teacher-Student-Partitioning-for-Scalable-Knowledge-Distill"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:35.250711+00:00
+updated_at: 2026-10-01T17:16:16.196077+00:00
 tags: [record, real-data]
 ---
 

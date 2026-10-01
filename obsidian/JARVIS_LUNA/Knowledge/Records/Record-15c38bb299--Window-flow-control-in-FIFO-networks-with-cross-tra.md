@@ -2,7 +2,7 @@
 title: "Record 15c38bb299 · Window-flow-control-in-FIFO-networks-with-cross-traffic"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:34.915190+00:00
+updated_at: 2026-10-01T17:16:15.842696+00:00
 tags: [record, real-data]
 ---
 

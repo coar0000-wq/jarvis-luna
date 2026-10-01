@@ -2,7 +2,7 @@
 title: "Record e63e1603bc · BRING-GREEN-Zinc-Teca-Blemish-Serum-084-fl-oz25ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:36.491973+00:00
+updated_at: 2026-10-01T17:16:17.532710+00:00
 tags: [record, real-data]
 ---
 

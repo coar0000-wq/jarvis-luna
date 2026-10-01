@@ -2,7 +2,7 @@
 title: "Record 617a16960e · The-beneficial-role-of-green-bonds-as-a-new-strategic-asset-class-Dyna"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:34.858903+00:00
+updated_at: 2026-10-01T17:16:15.786337+00:00
 tags: [record, real-data]
 ---
 

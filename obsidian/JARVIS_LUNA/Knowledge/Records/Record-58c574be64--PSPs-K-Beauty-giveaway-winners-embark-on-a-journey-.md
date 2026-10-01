@@ -2,7 +2,7 @@
 title: "Record 58c574be64 · PSPs-K-Beauty-giveaway-winners-embark-on-a-journey-into-the-world-of-K"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:36.122124+00:00
+updated_at: 2026-10-01T17:16:17.136148+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record a23a8bde76 · CodeScout-Contextual-Problem-Statement-Enhancement-for-Software-Agents"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:36.299548+00:00
+updated_at: 2026-10-01T17:16:17.324811+00:00
 tags: [record, real-data]
 ---
 

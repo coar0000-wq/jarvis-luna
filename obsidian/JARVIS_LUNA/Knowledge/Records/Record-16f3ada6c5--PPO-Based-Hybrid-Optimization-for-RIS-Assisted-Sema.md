@@ -2,7 +2,7 @@
 title: "Record 16f3ada6c5 · PPO-Based-Hybrid-Optimization-for-RIS-Assisted-Semantic-Vehicular-Edge"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:36.299934+00:00
+updated_at: 2026-10-01T17:16:17.325196+00:00
 tags: [record, real-data]
 ---
 

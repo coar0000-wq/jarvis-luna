@@ -2,7 +2,7 @@
 title: "Record 2d06065117 · OpenAIs-first-crack-at-online-shopping-stumbled-Its"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:36.028897+00:00
+updated_at: 2026-10-01T17:16:17.039265+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record d74cd71b8c · Dermafix-Perfect-Real-Performance-Real-Collagen-Mask-Sheet-081-oz23g-x"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:36.482891+00:00
+updated_at: 2026-10-01T17:16:17.522943+00:00
 tags: [record, real-data]
 ---
 

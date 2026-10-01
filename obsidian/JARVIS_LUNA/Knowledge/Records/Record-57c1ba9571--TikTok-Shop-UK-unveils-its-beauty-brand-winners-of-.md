@@ -2,7 +2,7 @@
 title: "Record 57c1ba9571 · TikTok-Shop-UK-unveils-its-beauty-brand-winners-of-2025---Cosmetics-Bu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:35.949682+00:00
+updated_at: 2026-10-01T17:16:16.947354+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMigwFBVV95cUxOUE1LQWo3ZUpDdC0xQTFmWm5pWHJtaXpsYjRSaDN6bGVHbjVUcHJaYWJQWi0yQUROUUpkcGU4Z0lyTXhQaVE1b25IUFdWTG1fSEZncXZCV3NOMER1dEhnUS1OM0RHcmVlbTJ5TlltNk91eFMwQ28ySVV0N3VTeVhoXzcxMA?oc=5)
 
-**제목:** TikTok Shop UK unveils its beauty brand winners of 2025 - cosmeticsbusiness.com
+**제목:** TikTok Shop UK unveils its beauty brand winners of 2025 - Cosmetics Business
 
-TikTok Shop UK unveils its beauty brand winners of 2025 - cosmeticsbusiness.com
+TikTok Shop UK unveils its beauty brand winners of 2025 - Cosmetics Business
 
 **출처:** Source · Google Search
 

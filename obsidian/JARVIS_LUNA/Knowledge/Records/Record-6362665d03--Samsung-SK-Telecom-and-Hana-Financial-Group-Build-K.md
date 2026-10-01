@@ -2,7 +2,7 @@
 title: "Record 6362665d03 · Samsung-SK-Telecom-and-Hana-Financial-Group-Build-Koreas-First-Private"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:36.223971+00:00
+updated_at: 2026-10-01T17:16:17.244008+00:00
 tags: [record, real-data]
 ---
 

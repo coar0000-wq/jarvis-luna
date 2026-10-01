@@ -2,7 +2,7 @@
 title: "Record 42b02695fa · A-Disclosure-Benchmark-Specification-for-Automated-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:35.556991+00:00
+updated_at: 2026-10-01T17:16:16.532513+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [doi.org](https://doi.org/10.5281/zenodo.22179465)
 
-**제목:** A Disclosure Benchmark Specification for Automated Alignment Research — Version 1.2
+**제목:** Rewarding Disclosure as Success: A Benchmark Specification for Distinct Alignment Reward Pathways
 
-A Disclosure Benchmark Specification for Automated Alignment Research — Version 1.2
+Rewarding Disclosure as Success: A Benchmark Specification for Distinct Alignment Reward Pathways
 
 **출처:** Source · institutions
 

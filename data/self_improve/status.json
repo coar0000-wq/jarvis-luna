@@ -1,19 +1,28 @@
 {
-  "generated_at": "2026-10-01T08:19:23.764458+00:00",
+  "generated_at": "2026-10-01T16:56:52.719475+00:00",
   "generator": "scripts/self_improve.py",
   "principle": "무료·설정만 변경·그림자 평가 후 채택·실측 악화 시 자동 롤백",
   "loops": {
     "topics": {
       "metric": "uncategorized_rate",
-      "records": 6459,
-      "base_uncategorized": 1175,
-      "before": 0.0726,
-      "after_shadow": 0.0726,
-      "uncategorized_before": 469,
-      "uncategorized_after_shadow": 469,
+      "records": 6560,
+      "base_uncategorized": 1193,
+      "before": 0.0735,
+      "after_shadow": 0.0735,
+      "uncategorized_before": 482,
+      "uncategorized_after_shadow": 482,
       "adopted": 0,
       "learned_keywords": 18,
       "decisions": [],
+      "evaluation": {
+        "mode": "production_classifier_replay",
+        "entrypoint": "expand_obsidian_graph.topic_names",
+        "classifier_sha256": "79fd2188862974246b8274b1423f29a250f5e6a0a1c32f985461b8ffcb6a88f8",
+        "input_sha256": "92ff0519a1d9312bb464014ae97961f863018950160a19b68a84e1c079f349cc",
+        "before_policy_sha256": "6bcdd660d217b1c4c47f11c162265e9162cd5ea47be6de880e65231d148ad39e",
+        "after_policy_sha256": "6bcdd660d217b1c4c47f11c162265e9162cd5ea47be6de880e65231d148ad39e",
+        "evaluated_records": 6560
+      },
       "status": "no_change"
     },
     "sourcing": {
@@ -36,8 +45,8 @@
     },
     "design": {
       "metric": "reference_relevant_ratio",
-      "before": 0.487,
-      "relevant": 38,
+      "before": 0.436,
+      "relevant": 34,
       "items": 78,
       "feed_caps": {
         "web.dev": 3
@@ -49,5 +58,12 @@
       "status": "active"
     }
   },
-  "decisions_total": 20
+  "decisions_total": 20,
+  "memory": {
+    "mode": "deterministic_out_of_band_consolidation",
+    "unique_observations": 0,
+    "recurring_patterns": 0,
+    "window_days": 14,
+    "automatic_policy_changes": false
+  }
 }

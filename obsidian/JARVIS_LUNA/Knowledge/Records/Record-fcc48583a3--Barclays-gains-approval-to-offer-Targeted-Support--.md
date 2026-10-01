@@ -2,7 +2,7 @@
 title: "Record fcc48583a3 · Barclays-gains-approval-to-offer-Targeted-Support--Barclays"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:35.631119+00:00
+updated_at: 2026-10-01T17:16:16.612567+00:00
 tags: [record, real-data]
 ---
 

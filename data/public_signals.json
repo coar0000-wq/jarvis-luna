@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T08:31:07.831208+00:00",
+  "generated_at": "2026-10-01T17:06:31.265808+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "carlos alcaraz",
+          "keyword": "emirates",
+          "approx_traffic": "5000+",
+          "traffic_num": 5000,
+          "published": "Thu, 1 Oct 2026 08:50:00 -0700",
+          "source_name": "airlive",
+          "url": "https://trends.google.com/trending?geo=US&q=emirates"
+        },
+        {
+          "keyword": "kylie kelce",
+          "approx_traffic": "5000+",
+          "traffic_num": 5000,
+          "published": "Thu, 1 Oct 2026 08:40:00 -0700",
+          "source_name": "People.com",
+          "url": "https://trends.google.com/trending?geo=US&q=kylie%20kelce"
+        },
+        {
+          "keyword": "david hearn reflecting pool case dismissed",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Thu, 1 Oct 2026 09:20:00 -0700",
+          "source_name": "The Washington Post",
+          "url": "https://trends.google.com/trending?geo=US&q=david%20hearn%20reflecting%20pool%20case%20dismissed"
+        },
+        {
+          "keyword": "amazon ftc settlement payouts",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Thu, 1 Oct 2026 09:10:00 -0700",
+          "source_name": "USA Today",
+          "url": "https://trends.google.com/trending?geo=US&q=amazon%20ftc%20settlement%20payouts"
+        },
+        {
+          "keyword": "ray kerr",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Thu, 1 Oct 2026 08:50:00 -0700",
+          "source_name": "The New York Times",
+          "url": "https://trends.google.com/trending?geo=US&q=ray%20kerr"
+        },
+        {
+          "keyword": "detention",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Thu, 1 Oct 2026 08:50:00 -0700",
+          "source_name": "The New York Times",
+          "url": "https://trends.google.com/trending?geo=US&q=detention"
+        },
+        {
+          "keyword": "cronos venom",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Thu, 1 Oct 2026 08:40:00 -0700",
+          "source_name": "Louder",
+          "url": "https://trends.google.com/trending?geo=US&q=cronos%20venom"
+        },
+        {
+          "keyword": "azerbaijan vs liechtenstein",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Thu, 1 Oct 2026 00:40:00 -0700",
-          "source_name": "Reuters Connect",
-          "url": "https://trends.google.com/trending?geo=US&q=carlos%20alcaraz"
+          "published": "Thu, 1 Oct 2026 09:50:00 -0700",
+          "source_name": "chronicleonline.com",
+          "url": "https://trends.google.com/trending?geo=US&q=azerbaijan%20vs%20liechtenstein"
         },
         {
-          "keyword": "coffee shops near me",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Thu, 1 Oct 2026 01:10:00 -0700",
-          "source_name": "USA Today",
-          "url": "https://trends.google.com/trending?geo=US&q=coffee%20shops%20near%20me"
+          "keyword": "jim justice",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Thu, 1 Oct 2026 09:00:00 -0700",
+          "source_name": "Politico",
+          "url": "https://trends.google.com/trending?geo=US&q=jim%20justice"
         },
         {
-          "keyword": "supermarket",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Thu, 1 Oct 2026 01:10:00 -0700",
-          "source_name": "Daily News Hungary",
-          "url": "https://trends.google.com/trending?geo=US&q=supermarket"
-        },
-        {
-          "keyword": "fundraiser",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Thu, 1 Oct 2026 00:40:00 -0700",
-          "source_name": "NewsNation",
-          "url": "https://trends.google.com/trending?geo=US&q=fundraiser"
-        },
-        {
-          "keyword": "night sky",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Thu, 1 Oct 2026 00:50:00 -0700",
-          "source_name": "Sky & Telescope",
-          "url": "https://trends.google.com/trending?geo=US&q=night%20sky"
-        },
-        {
-          "keyword": "jordan farmar returns to lakers",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Thu, 1 Oct 2026 00:50:00 -0700",
-          "source_name": "BasketNews.com",
-          "url": "https://trends.google.com/trending?geo=US&q=jordan%20farmar%20returns%20to%20lakers"
-        },
-        {
-          "keyword": "the national",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Thu, 1 Oct 2026 00:40:00 -0700",
-          "source_name": "www.thenationalnews.com",
-          "url": "https://trends.google.com/trending?geo=US&q=the%20national"
-        },
-        {
-          "keyword": "daycares",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Thu, 1 Oct 2026 00:40:00 -0700",
-          "source_name": "WXYZ 7 News Detroit",
-          "url": "https://trends.google.com/trending?geo=US&q=daycares"
-        },
-        {
-          "keyword": "alex michelsen",
-          "approx_traffic": "100+",
-          "traffic_num": 100,
-          "published": "Thu, 1 Oct 2026 01:10:00 -0700",
-          "source_name": "Sky Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=alex%20michelsen"
-        },
-        {
-          "keyword": "xbox game pass",
-          "approx_traffic": "100+",
-          "traffic_num": 100,
-          "published": "Thu, 1 Oct 2026 00:50:00 -0700",
-          "source_name": "XBOX Wire",
-          "url": "https://trends.google.com/trending?geo=US&q=xbox%20game%20pass"
+          "keyword": "petrol station",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Thu, 1 Oct 2026 08:40:00 -0700",
+          "source_name": "BBC",
+          "url": "https://trends.google.com/trending?geo=US&q=petrol%20station"
         }
       ]
     },

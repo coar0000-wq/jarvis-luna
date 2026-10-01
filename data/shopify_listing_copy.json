@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T08:32:38.623163+00:00",
+  "generated_at": "2026-10-01T17:14:03.977257+00:00",
   "generator": "scripts/build_listing_copy_local.py",
   "model": "none_local_deterministic",
   "paid_api_called": false,
@@ -225,6 +225,26 @@
       "error": ""
     },
     {
+      "canonical_product_id": "CP000038",
+      "pd_no": "1027327",
+      "name_ko": "바세린 마스크팩 집중보습",
+      "bucket": "마스크팩",
+      "price_krw": 1000,
+      "rating": null,
+      "review_count": null,
+      "shopify_score": 91,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027327&recmYn=N",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251231/a1rTbe8LgoPw9mu5HABd1027327_00_00a1rTbe8LgoPw9mu5HABd.jpg",
+      "copy": null,
+      "copy_status": "skipped_prerequisite",
+      "generation_mode": "none",
+      "agent_blocked_by": [
+        "us_label",
+        "legal"
+      ],
+      "error": "ontology 선행 게이트 미통과: us_label, legal"
+    },
+    {
       "canonical_product_id": "CP000151",
       "pd_no": "1059834",
       "name_ko": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
@@ -255,48 +275,29 @@
       "error": ""
     },
     {
-      "canonical_product_id": "CP000038",
-      "pd_no": "1027327",
-      "name_ko": "바세린 마스크팩 집중보습",
+      "canonical_product_id": "CP000075",
+      "pd_no": "1042619",
+      "name_ko": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
       "bucket": "마스크팩",
       "price_krw": 1000,
       "rating": null,
       "review_count": null,
       "shopify_score": 89,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027327&recmYn=N",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251231/a1rTbe8LgoPw9mu5HABd1027327_00_00a1rTbe8LgoPw9mu5HABd.jpg",
-      "copy": null,
-      "copy_status": "skipped_prerequisite",
-      "generation_mode": "none",
-      "agent_blocked_by": [
-        "us_label",
-        "legal"
-      ],
-      "error": "ontology 선행 게이트 미통과: us_label, legal"
-    },
-    {
-      "canonical_product_id": "CP000125",
-      "pd_no": "1053482",
-      "name_ko": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
-      "bucket": "스킨케어",
-      "price_krw": 5000,
-      "rating": null,
-      "review_count": null,
-      "shopify_score": 86,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1053482",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/S3WHamdJK4z5s7WVkYus1053482_00_00S3WHamdJK4z5s7WVkYus.jpg",
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20240109/8IB1YBxg81UqZXiKzXFM1042619_00_008IB1YBxg81UqZXiKzXFM.jpg",
       "copy": {
-        "title": "MEDI-PEEL Face Toner 200ml",
-        "description_html": "<p>MEDI-PEEL Face Toner 200ml is a Korean beauty face toner in a 200ml size. This draft uses only the verified product identity and package information.</p><p>Review the ingredient list, directions, and final US label before publication.</p>",
-        "seo_title": "MEDI-PEEL Face Toner 200ml",
-        "seo_description": "View MEDI-PEEL Face Toner 200ml. Product identity and size are based on the source product notice. Review ingredients, directions, and the final label before purchase.",
+        "title": "CELDERMA Daily Collagen Gel Sheet Mask 29g",
+        "description_html": "<p>CELDERMA Daily Collagen Gel Sheet Mask 29g is a Korean beauty gel sheet mask in a 29g size. This draft uses only the verified product identity and package information.</p><p>Review the ingredient list, directions, and final US label before publication.</p>",
+        "seo_title": "CELDERMA Daily Collagen Gel Sheet Mask 29g",
+        "seo_description": "View CELDERMA Daily Collagen Gel Sheet Mask 29g. Product identity and size are based on the source product notice. Review ingredients, directions, and the final label before purchase.",
         "tags": [
-          "medi-peel",
-          "face-toner",
+          "celderma-daily",
+          "collagen",
+          "gel-sheet-mask",
           "k-beauty",
           "korean-beauty"
         ],
-        "product_type": "Face Toner"
+        "product_type": "Gel Sheet Mask"
       },
       "copy_status": "ok",
       "generation_mode": "deterministic_local_template_v1",

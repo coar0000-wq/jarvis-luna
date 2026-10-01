@@ -2,7 +2,7 @@
 title: "Record 8a51e269be · LiAuto-MindViT-A-Hybrid-Vision-Backbone-with-Adaptive-Bidirectional-Ma"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:35.376522+00:00
+updated_at: 2026-10-01T17:16:16.331124+00:00
 tags: [record, real-data]
 ---
 

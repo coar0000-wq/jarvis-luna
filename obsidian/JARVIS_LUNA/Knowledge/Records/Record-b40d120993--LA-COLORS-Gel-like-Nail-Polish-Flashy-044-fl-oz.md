@@ -2,7 +2,7 @@
 title: "Record b40d120993 · LA-COLORS-Gel-like-Nail-Polish-Flashy-044-fl-oz"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:37.207467+00:00
+updated_at: 2026-10-01T17:16:18.336237+00:00
 tags: [record, real-data]
 ---
 

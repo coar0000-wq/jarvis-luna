@@ -2,7 +2,7 @@
 title: "Record 79f6740178 · Training-Free-Bottleneck-Width-Planning-for-Convolutional-Autoencoders"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:35.445020+00:00
+updated_at: 2026-10-01T17:16:16.406510+00:00
 tags: [record, real-data]
 ---
 

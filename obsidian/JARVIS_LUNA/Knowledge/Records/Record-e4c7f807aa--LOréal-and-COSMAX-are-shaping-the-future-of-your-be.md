@@ -2,7 +2,7 @@
 title: "Record e4c7f807aa · LOréal-and-COSMAX-are-shaping-the-future-of-your-beauty-routine---Vogu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:35.816700+00:00
+updated_at: 2026-10-01T17:16:16.806617+00:00
 tags: [record, real-data]
 ---
 

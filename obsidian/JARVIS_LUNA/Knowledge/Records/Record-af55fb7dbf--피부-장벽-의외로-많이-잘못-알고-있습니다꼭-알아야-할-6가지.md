@@ -2,7 +2,7 @@
 title: "Record af55fb7dbf · 피부-장벽-의외로-많이-잘못-알고-있습니다꼭-알아야-할-6가지"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:37.282883+00:00
+updated_at: 2026-10-01T17:16:18.412569+00:00
 tags: [record, real-data]
 ---
 

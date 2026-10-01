@@ -2,7 +2,7 @@
 title: "Record ca1ac3def2 · Rénergie-Multi-Action-Lift-And-Firm-Anti-Aging-Night-Cream-Moisturizer"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:37.188700+00:00
+updated_at: 2026-10-01T17:16:18.316998+00:00
 tags: [record, real-data]
 ---
 

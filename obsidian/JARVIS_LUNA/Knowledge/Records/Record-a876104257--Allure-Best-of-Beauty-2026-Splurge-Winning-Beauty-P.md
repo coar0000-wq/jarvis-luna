@@ -2,7 +2,7 @@
 title: "Record a876104257 · Allure-Best-of-Beauty-2026-Splurge-Winning-Beauty-Products"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:36.524676+00:00
+updated_at: 2026-10-01T17:16:17.566098+00:00
 tags: [record, real-data]
 ---
 

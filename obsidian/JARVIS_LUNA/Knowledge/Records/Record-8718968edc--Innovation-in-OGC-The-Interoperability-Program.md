@@ -2,7 +2,7 @@
 title: "Record 8718968edc · Innovation-in-OGC-The-Interoperability-Program"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:35.173188+00:00
+updated_at: 2026-10-01T17:16:16.117399+00:00
 tags: [record, real-data]
 ---
 

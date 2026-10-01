@@ -2,7 +2,7 @@
 title: "Record e6f1279b4f · Mise-en-scène-Perfect-Serum-Super-Rich-270-fl-oz80ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:36.485390+00:00
+updated_at: 2026-10-01T17:16:17.525628+00:00
 tags: [record, real-data]
 ---
 

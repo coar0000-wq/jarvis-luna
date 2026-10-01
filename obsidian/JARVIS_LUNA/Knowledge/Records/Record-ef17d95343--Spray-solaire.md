@@ -2,7 +2,7 @@
 title: "Record ef17d95343 · Spray-solaire"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:36.507320+00:00
+updated_at: 2026-10-01T17:16:17.548590+00:00
 tags: [record, real-data]
 ---
 

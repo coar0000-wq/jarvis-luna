@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-10-01T08:18:39.767300+00:00",
+  "collected_at": "2026-10-01T16:56:14.028609+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -44,31 +44,23 @@
   ],
   "hot_keywords": [
     {
-      "keyword": "september",
-      "score": 4
-    },
-    {
-      "keyword": "2026",
-      "score": 4
-    },
-    {
       "keyword": "korean",
-      "score": 4
+      "score": 6
     },
     {
       "keyword": "skincare",
-      "score": 4
-    },
-    {
-      "keyword": "products",
-      "score": 4
+      "score": 6
     },
     {
       "keyword": "skin",
       "score": 4
     },
     {
-      "keyword": "lip",
+      "keyword": "2026",
+      "score": 3
+    },
+    {
+      "keyword": "product",
       "score": 3
     },
     {
@@ -76,7 +68,15 @@
       "score": 3
     },
     {
-      "keyword": "makeup",
+      "keyword": "products",
+      "score": 3
+    },
+    {
+      "keyword": "september",
+      "score": 2
+    },
+    {
+      "keyword": "lip",
       "score": 2
     },
     {
@@ -88,19 +88,7 @@
       "score": 2
     },
     {
-      "keyword": "product",
-      "score": 2
-    },
-    {
       "keyword": "sunscreen",
-      "score": 2
-    },
-    {
-      "keyword": "anything",
-      "score": 2
-    },
-    {
-      "keyword": "goes",
       "score": 2
     },
     {
@@ -112,15 +100,11 @@
       "score": 2
     },
     {
-      "keyword": "order",
+      "keyword": "moisturizer",
       "score": 2
     },
     {
       "keyword": "favorite",
-      "score": 2
-    },
-    {
-      "keyword": "moisturizer",
       "score": 2
     },
     {
@@ -144,7 +128,23 @@
       "score": 1
     },
     {
-      "keyword": "monday",
+      "keyword": "authenticity",
+      "score": 1
+    },
+    {
+      "keyword": "thursday",
+      "score": 1
+    },
+    {
+      "keyword": "october",
+      "score": 1
+    },
+    {
+      "keyword": "gua",
+      "score": 1
+    },
+    {
+      "keyword": "sha",
       "score": 1
     },
     {
@@ -168,6 +168,22 @@
       "score": 1
     },
     {
+      "keyword": "mont",
+      "score": 1
+    },
+    {
+      "keyword": "muzui",
+      "score": 1
+    },
+    {
+      "keyword": "duo",
+      "score": 1
+    },
+    {
+      "keyword": "treatment",
+      "score": 1
+    },
+    {
       "keyword": "best",
       "score": 1
     },
@@ -186,32 +202,16 @@
     {
       "keyword": "finally",
       "score": 1
-    },
-    {
-      "keyword": "found",
-      "score": 1
-    },
-    {
-      "keyword": "actually",
-      "score": 1
-    },
-    {
-      "keyword": "reach",
-      "score": 1
-    },
-    {
-      "keyword": "every",
-      "score": 1
     }
   ],
   "beauty_keywords": [
     {
       "keyword": "korean",
-      "score": 4
+      "score": 6
     },
     {
       "keyword": "skincare",
-      "score": 4
+      "score": 6
     },
     {
       "keyword": "skin",
@@ -239,9 +239,16 @@
       "feed": "hot"
     },
     {
-      "title": "Makeup Monday September 28, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1ws4f6t/makeup_monday_september_28_2026/",
-      "published": "2026-09-28T04:00:29+00:00",
+      "title": "Product Authenticity Thursday October 01, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wuvfk3/product_authenticity_thursday_october_01_2026/",
+      "published": "2026-10-01T10:01:19+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Korean gua sha skincare",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wuy8op/korean_gua_sha_skincare/",
+      "published": "2026-10-01T12:33:35+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -249,6 +256,13 @@
       "title": "import taxes on korean skincare orders in europe are so annoying",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wun1ra/import_taxes_on_korean_skincare_orders_in_europe/",
       "published": "2026-10-01T01:49:17+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Mont Muzui Duo Treatment",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wv4ad7/mont_muzui_duo_treatment/",
+      "published": "2026-10-01T16:37:46+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -263,6 +277,13 @@
       "title": "Finally found a lip mask I actually reach for every day",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtrev9/finally_found_a_lip_mask_i_actually_reach_for/",
       "published": "2026-09-30T00:56:45+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Self-Promo Code Thread",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wutvh6/selfpromo_code_thread/",
+      "published": "2026-10-01T08:19:04+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -323,6 +344,13 @@
       "feed": "hot"
     },
     {
+      "title": "A moisturizer I’ve been enjoying lately.",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wuqa3k/a_moisturizer_ive_been_enjoying_lately/",
+      "published": "2026-10-01T04:38:20+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Experience With Stylevanna Refund For Non-Deliverd Order",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtxqpy/experience_with_stylevanna_refund_for_nondeliverd/",
       "published": "2026-09-30T06:35:18+00:00",
@@ -340,13 +368,6 @@
       "title": "What’s your favorite mugwort product?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtqbf3/whats_your_favorite_mugwort_product/",
       "published": "2026-09-30T00:04:54+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "A moisturizer I’ve been enjoying lately.",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wuqa3k/a_moisturizer_ive_been_enjoying_lately/",
-      "published": "2026-10-01T04:38:20+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -382,27 +403,6 @@
       "title": "April Skin Lip Stain",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtpa21/april_skin_lip_stain/",
       "published": "2026-09-29T23:18:04+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Food/drink-proof lip products for contoured and ombré lips?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtgajo/fooddrinkproof_lip_products_for_contoured_and/",
-      "published": "2026-09-29T17:24:34+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Anything Goes Tuesday: September 29, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtlgk4/anything_goes_tuesday_september_29_2026/",
-      "published": "2026-09-29T20:39:08+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "TRYING to order this pimple patch brand",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wt4ubk/trying_to_order_this_pimple_patch_brand/",
-      "published": "2026-09-29T08:44:29+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

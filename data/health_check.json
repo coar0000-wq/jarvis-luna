@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T08:34:12.015579+00:00",
+  "generated_at": "2026-10-01T17:15:33.573207+00:00",
   "overall_status": "warning",
   "status_legend": {
     "success": "정상",
@@ -9,7 +9,7 @@
     "failed": "예외 - 자동화 장애"
   },
   "kpi": {
-    "last_success": "2026-10-01T08:34:12.015567+00:00",
+    "last_success": "2026-10-01T17:15:33.573198+00:00",
     "failed_jobs": 0,
     "queue": 2881,
     "stale_source": "marketing",
@@ -17,11 +17,11 @@
       "product_master": "1 min ago",
       "legal_full": "1 min ago",
       "shopify_sync": "1 min ago",
-      "pricing": "3 min ago",
+      "pricing": "9 min ago",
       "marketing": "1 min ago",
       "gosi": "1 min ago",
-      "product_discovery": "3 min ago",
-      "daiso": "2.3 days ago"
+      "product_discovery": "9 min ago",
+      "daiso": "2.7 days ago"
     }
   },
   "summary": {
@@ -63,7 +63,7 @@
       "status": "success",
       "reason": "FX 반영, 손익분기·기여마진 계산됨",
       "is_failure": false,
-      "freshness": "3 min ago"
+      "freshness": "9 min ago"
     },
     {
       "team": "marketing",
@@ -82,16 +82,16 @@
     {
       "team": "product_discovery",
       "status": "success",
-      "reason": "정상 0.1h 전",
+      "reason": "정상 0.2h 전",
       "is_failure": false,
-      "freshness": "3 min ago"
+      "freshness": "9 min ago"
     },
     {
       "team": "daiso",
       "status": "success",
-      "reason": "정상 55.8h 전",
+      "reason": "정상 64.4h 전",
       "is_failure": false,
-      "freshness": "2.3 days ago"
+      "freshness": "2.7 days ago"
     }
   ],
   "architecture_p0": {

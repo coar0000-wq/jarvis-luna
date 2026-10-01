@@ -2,7 +2,7 @@
 title: "Record 17c099c880 · FolDeX-A-Physical-World-Benchmark-for-Long-Horizon-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:34.583005+00:00
+updated_at: 2026-10-01T17:16:15.489201+00:00
 tags: [record, real-data]
 ---
 

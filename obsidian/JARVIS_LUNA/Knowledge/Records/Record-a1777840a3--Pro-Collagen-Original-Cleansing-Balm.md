@@ -2,7 +2,7 @@
 title: "Record a1777840a3 · Pro-Collagen-Original-Cleansing-Balm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:37.187530+00:00
+updated_at: 2026-10-01T17:16:18.315863+00:00
 tags: [record, real-data]
 ---
 

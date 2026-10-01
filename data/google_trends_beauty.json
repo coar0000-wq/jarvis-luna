@@ -1,17 +1,62 @@
 {
   "source": "google news rss (beauty queries) + trends daily filtered",
-  "collected_at": "2026-10-01T08:19:21.727595+00:00",
+  "collected_at": "2026-10-01T16:56:37.339826+00:00",
   "status": "ok",
   "note": "뷰티 키워드만. 채점 MATCH_CHANNELS 에는 넣지 않음. 대시보드 키워드 보드용.",
   "query_count": 12,
-  "count": 93,
+  "count": 95,
   "items": [
+    {
+      "keyword": "S.Korea’s seafood giant Dongwon to acquire K-beauty pioneer Charmzone - KED Global",
+      "product": "S.Korea’s seafood giant Dongwon to acquire K-beauty pioneer Charmzone - KED Global",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1xZ0dBMzZweDFqTTJNdjFNcWl2R2FGNHhQcU5WS1UzbEgwYmZ4SlBHbUg4ZXMyRTZMV1VpaUh5ZUpNY0hBNWFKVDVZNXJlUWZucFRDNDQxbTN4SW9CQmg2eXY0RlFLejB3UDlzT1FpQUwxVWRUSVE?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Japanese Haircare Is Having Its K-Beauty Moment and Here Is Where to Shop It in the U.S. Right Now - Miami Herald",
+      "product": "Japanese Haircare Is Having Its K-Beauty Moment and Here Is Where to Shop It in the U.S. Right Now - Miami Herald",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9CcVlVNEJvS0kwM203a09MR21sQXpzSDg2a1N4LXB2SnlORVpTQ3FVdm9SV1dvc1N0dDA1dDBEaXozazZxejl5aDBXV1J3aGxrTXpFdDJqbnczRkE3SWloZFBjb2cwOVnSAWdBVV95cUxOZ0FqcU5UUHA4X1VnUkZuOVFfTkV2TzltYktoWVR6MjN0YVRFZjFwdDA0S0o3cTRHMl9XQnVKbS1SRHFmZC03Tmo0R1FBamJDak1IVmpyQU53TE9RSEVuTEczSE9PVmFr?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
     {
       "keyword": "Inside Seoul’s K-beauty ‘mecca’: I hunted for the best skincare at the world’s biggest Korean beauty store - The Guardian",
       "product": "Inside Seoul’s K-beauty ‘mecca’: I hunted for the best skincare at the world’s biggest Korean beauty store - The Guardian",
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBEaHdqd3dkWUpOVEtVUkNuQjE2dUZrOFVWbEUzaEN0UWRCYlBzSEcwcE1MYThfTHlOQ0N0dlpydmdwamNsdXlxTGJXY29MZWVITldxUFNjRUo5U1NLUHMyZDFkanEzekFUYnFXTzFRWHYzejFMRGI0a3JUQVlYdw?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "A massive K-beauty pop-up is coming to Hudson Yards - Time Out Worldwide",
+      "product": "A massive K-beauty pop-up is coming to Hudson Yards - Time Out Worldwide",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZlBQMzlpMkVnWThzam51YmVTcEVIR0daejY5ZElObmwzdHNqejNqWDVmYmRzME1mcDJEck85ODJyTEtLQjl2TjhOYWtIcmJ4SjIwUnNHdDJ0Nk1uOGhfcXZaMU90SHF3Y2FuaDFVeHBsN0RJd0NGaXFMNnVVZkh6TnNPR0FVeFlzU2J4cWRsRWt1UFY5aUJuOVVqZENMQXdfZ2JPLU1jbnVrVmFrenZFNk1IN0t5d3p6Vk9DY19TOUJGb1hNTG9qWkdjUEQ5bUZmUC1YVThrSQ?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "L’Oréal and COSMAX are shaping the future of your beauty routine - Vogue Adria",
+      "product": "L’Oréal and COSMAX are shaping the future of your beauty routine - Vogue Adria",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAxeWJkYjNsVDR6aFNCczlWUVFQeThjS2FmdkF5MEVmbi1YX290NWpwS0pSSjRwR1dBUU51U2JwMEZla1UydE41eWtaNW9Jb0RPNV9PaGYwZ0ZrQ3puWlpGR3VBdmxOazR4WVE?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "Why Mexico is K-beauty’s next big bet - The Korea Herald",
+      "product": "Why Mexico is K-beauty’s next big bet - The Korea Herald",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAzc01CeUlKaXB0eVJVZU9kZFVlS0dnMTJVaGo1ejVTZ3I1Snk5SlFXRHJlZVlrZF8ybEZqYUR3Qmxhc0JVTURtM3Y5anFHUnpqMXUxTTJkdw?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -25,56 +70,11 @@
       "beauty": true
     },
     {
-      "keyword": "Sara Tan shares hottest K-beauty products - KTLA",
-      "product": "Sara Tan shares hottest K-beauty products - KTLA",
+      "keyword": "KOREA'S #1 SKINCARE BRAND DR.G ACCELERATES U.S. EXPANSION WITH TIKTOK SHOP LAUNCH - PR Newswire",
+      "product": "KOREA'S #1 SKINCARE BRAND DR.G ACCELERATES U.S. EXPANSION WITH TIKTOK SHOP LAUNCH - PR Newswire",
       "sub": "K-beauty",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xZUMyWHVzb0IyMVRQWHVwcjk3aVdmOS1hdGJUY29CbTE3RXAwaHJZUVdVX1o4VFYtNnJWcjBBTW10bmRwZkVoTG5MamhrOWpUWDQ0RnNjVnFqRGI1c0p3WnMzRWR2c1p6SlRBejlkUFhlek0wRHJDck1lYXA2ams?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "I’ve Been Using This K-Beauty Moisturizer for 9 Months—It Gives Me Glass Skin and a Smoother Neck - Real Simple",
-      "product": "I’ve Been Using This K-Beauty Moisturizer for 9 Months—It Gives Me Glass Skin and a Smoother Neck - Real Simple",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQckxZNXFEaFFISjdvWHJ2Q1lfbi1rUHRkSHcyMVBiRTViM21TbUplQ3ByNWlKR3Vvel9XNW4xQl9lV0VLeG5KdFJmUFk0TmJGTy14dHZBSmV4YmozZU9za25aX2RQa2tJUWtScFZSQVE1QzZxX1ZmTmppUFB2Uzdjd1NTSjJMX3IxWThqZw?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "Move Over, Ampoules—High-Tech Korean Skin-Care Tools Are Here - Allure",
-      "product": "Move Over, Ampoules—High-Tech Korean Skin-Care Tools Are Here - Allure",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5UVVZzcDNsNklueURqRE9ZbjhvWlJuMnZqaUxUdF95d3pNTlR6RHBfMlZaTkdXVTlqd09aWXg2d2d5eVFpR1RGdl9DWUVTSURKV3pSSzBoNkw0UDBuMm9xQTFnYlpUZnFm?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "How The Eye-Patch Grinder Packaging Ended Up Everywhere At Once - Beauty Independent",
-      "product": "How The Eye-Patch Grinder Packaging Ended Up Everywhere At Once - Beauty Independent",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbm1kNTFMSThEM3g3Q1hnNHFYV0xXcURsRXo3emE1RzVmc3pDT1ZBanFlUzgyY1JkZ3llQllaa0NRbTVaNUdqYWt5SEZiU2E1SzF4S1ZZb2VPRjZ1cmdtQXhnSHB1VlBxZGZ3dHczTF9wdTVkYXFTRG81WUlyZE5TUWh5Q3lUX182dHl4V3dsQ3k?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "I Went to Seoul to Find the Korean Skin-Care Products People Actually Buy - Vogue",
-      "product": "I Went to Seoul to Find the Korean Skin-Care Products People Actually Buy - Vogue",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1JSEZleGFOZTlfbmlCTTRTbWZOZXJMWS1ZVkhnZy16cHdVNDM1Qnl4X0RGR19LcGNSQjNyLVpWQXZ0RTU0TWU2T2xfOW1VeDU0UGNsN0RkRXRNMWxqNVh1VnpKMmszdw?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "Japanese Haircare Is Having Its K-Beauty Moment and Here Is Where to Shop It in the U.S. Right Now - Miami Herald",
-      "product": "Japanese Haircare Is Having Its K-Beauty Moment and Here Is Where to Shop It in the U.S. Right Now - Miami Herald",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9CcVlVNEJvS0kwM203a09MR21sQXpzSDg2a1N4LXB2SnlORVpTQ3FVdm9SV1dvc1N0dDA1dDBEaXozazZxejl5aDBXV1J3aGxrTXpFdDJqbnczRkE3SWloZFBjb2cwOVnSAWdBVV95cUxOZ0FqcU5UUHA4X1VnUkZuOVFfTkV2TzltYktoWVR6MjN0YVRFZjFwdDA0S0o3cTRHMl9XQnVKbS1SRHFmZC03Tmo0R1FBamJDak1IVmpyQU53TE9RSEVuTEczSE9PVmFr?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZzcxQWtWd3FCdXNLd1RxLXlNTHBmblZMbEsxZHRteExaemhuUklURVN5VVdRTkJHNm9XbmdwcUpzd2lWcVdoRkN1MEEzZzlPRVdRQXRSMmo0c1VYY3lLdEFlSWthajl4eUFIX0c2Z2QwZUdNZFQzV3ZheGhINEwtbjhfT2lFRmNhRjRMOUNiWkxUWFFOdFBjeTVfQ1Fvb08tMGVMUGw0UkowSUlMc3ZlS3ZEeDY0VjhVZzhnRjZWaHozUVNVdUVTQlV1Rng?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -214,11 +214,11 @@
       "beauty": true
     },
     {
-      "keyword": "Snails are masters of mucus chemistry - cen.acs.org",
-      "product": "Snails are masters of mucus chemistry - cen.acs.org",
+      "keyword": "Snail slime for your face? - CNN",
+      "product": "Snail slime for your face? - CNN",
       "sub": "snail mucin",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdWxLYWM0V1J4VkM4aWpQRXRGM2h2RTFYYUg4NmdNd0RFbEtpZlNTdHc1Rkg5alNqbzByMEkycVh1bnJSby1seFpNc3JZMkgzUVBmOUJQT0pxYTI2RnA4bHh5U0lQdzZDa1E4eUxXZnBUa3FVUE55T0JsaXFIbTZnbkZFRFVtNmJNRVNLNlN0SVNaXzM1UVVqNmVjTjlmRkk?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQ0l4Szg4MWtxM2RLY0MzSHpBYkRHQVdCSEc1b29TNFdrUzA4QmZoNldsRnctNXRFNVNQVWowMEdXdzJ2T244SGRGSnF2cVVhUHFuZnZuS1U2NVVCQ1BPTVRoelJqcUZZZnNEVEU0a3hlZ2JuaGJ5TFhBZjJSOFowaVlPMW5IZkZnbC1zYmdTb1dVSFZscmhLaFJGRXI3Wmc?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -277,8 +277,8 @@
       "beauty": true
     },
     {
-      "keyword": "Best toner: Discover which face toner best suits your skin type and budget - mamabella.uk",
-      "product": "Best toner: Discover which face toner best suits your skin type and budget - mamabella.uk",
+      "keyword": "Best toner: Discover which face toner best suits your skin type and budget - Mamabella",
+      "product": "Best toner: Discover which face toner best suits your skin type and budget - Mamabella",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5iQ3RBX2tRTUxlTGdkUXVaWDFlWkFQY216M2trV1lTWjJhVnhEbS1OenIzTnVFUl9xWk1WSl9kc2xoVS1qb3dNQmx0RGJydnFRSFRId3ZvUHhBN25pM2RwdkVMNWV0dw?oc=5",

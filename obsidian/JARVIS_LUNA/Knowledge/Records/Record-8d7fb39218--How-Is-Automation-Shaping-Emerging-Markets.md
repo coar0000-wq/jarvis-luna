@@ -2,7 +2,7 @@
 title: "Record 8d7fb39218 · How-Is-Automation-Shaping-Emerging-Markets"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:37.011171+00:00
+updated_at: 2026-10-01T17:16:18.127856+00:00
 tags: [record, real-data]
 ---
 

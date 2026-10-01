@@ -2,7 +2,7 @@
 title: "Record c1c0b427a3 · Reasoning-Arena-Trace-Tournaments-When-Verifiable-Rewards-Fall-Short"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:35.234929+00:00
+updated_at: 2026-10-01T17:16:16.185947+00:00
 tags: [record, real-data]
 ---
 

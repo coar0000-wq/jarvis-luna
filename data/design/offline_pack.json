@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T08:16:31.644341+00:00",
+  "generated_at": "2026-10-01T16:54:12.482959+00:00",
   "generator": "scripts/build_design_team.py",
   "scope": "스토어 없이 만들고 검증할 수 있는 디자인 준비물. 스토어에 적용된 것은 아니다.",
   "design_system": {
@@ -43,7 +43,7 @@
         "products": [
           "1049276",
           "1055167",
-          "1049275",
+          "1061918",
           "1067498"
         ]
       },
@@ -51,9 +51,8 @@
         "section": "featured-collection",
         "collection": "마스크팩",
         "products": [
-          "1027327",
           "1059834",
-          "1042619"
+          "1027327"
         ]
       },
       {
@@ -75,7 +74,7 @@
     "source": "data/shopify_listing_copy.json",
     "rule": "seo_title ≤60자, seo_description 70~160자",
     "passed": 4,
-    "eligible": 9,
+    "eligible": 8,
     "items": [
       {
         "pd_no": "1049276",
@@ -87,13 +86,6 @@
         "ok": false,
         "issues": [
           "seo_description 166자 (70~160)"
-        ]
-      },
-      {
-        "pd_no": "1049275",
-        "ok": false,
-        "issues": [
-          "seo_description 161자 (70~160)"
         ]
       },
       {
@@ -126,10 +118,10 @@
         ]
       },
       {
-        "pd_no": "1042619",
+        "pd_no": "1053482",
         "ok": false,
         "issues": [
-          "seo_description 183자 (70~160)"
+          "seo_description 167자 (70~160)"
         ]
       }
     ]

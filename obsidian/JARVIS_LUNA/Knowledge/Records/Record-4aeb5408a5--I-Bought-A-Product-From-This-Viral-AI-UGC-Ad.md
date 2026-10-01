@@ -2,7 +2,7 @@
 title: "Record 4aeb5408a5 · I-Bought-A-Product-From-This-Viral-AI-UGC-Ad"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:37.249197+00:00
+updated_at: 2026-10-01T17:16:18.379142+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 8c92c84baa · 나이아신아마이드-3탄-함량이-높을수록-무조건-효과도-좋아질까-피부-고민별-제품-추천과-효능-정리이렇게-쓰셔야-제대로-효과-볼-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:37.264471+00:00
+updated_at: 2026-10-01T17:16:18.394346+00:00
 tags: [record, real-data]
 ---
 

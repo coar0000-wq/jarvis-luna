@@ -2,7 +2,7 @@
 title: "Record 4a2413fcdc · VLALight-Lightweight-Vision-Language-Action-Models-for-Emergency-Aware"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:35.444457+00:00
+updated_at: 2026-10-01T17:16:16.405896+00:00
 tags: [record, real-data]
 ---
 

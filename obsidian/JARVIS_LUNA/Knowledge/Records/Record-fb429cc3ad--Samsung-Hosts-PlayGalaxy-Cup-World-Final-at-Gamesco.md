@@ -2,7 +2,7 @@
 title: "Record fb429cc3ad · Samsung-Hosts-PlayGalaxy-Cup-World-Final-at-Gamesco"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:36.215661+00:00
+updated_at: 2026-10-01T17:16:17.234813+00:00
 tags: [record, real-data]
 ---
 

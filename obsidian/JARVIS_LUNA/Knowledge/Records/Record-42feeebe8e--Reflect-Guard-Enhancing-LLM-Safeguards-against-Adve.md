@@ -2,7 +2,7 @@
 title: "Record 42feeebe8e · Reflect-Guard-Enhancing-LLM-Safeguards-against-Adversarial-Prompts-via"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T13:18:35.230200+00:00
+updated_at: 2026-10-01T17:16:16.181158+00:00
 tags: [record, real-data]
 ---
 
