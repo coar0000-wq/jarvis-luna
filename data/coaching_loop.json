@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-02T07:46:43.632221+09:00",
+  "generated_at": "2026-10-02T07:56:09.896048+09:00",
   "role": "coaching",
   "principle": "AI는 체크리스트·A/B 초안만. 등록·광고 집행은 사람 승인.",
   "source": "scripts/build_coaching_loop.py",
   "scope": "S등급 상위 15개",
   "summary": {
     "ready_to_list": 0,
-    "ready_with_notes": 8,
-    "fix_then_list": 2,
+    "ready_with_notes": 7,
+    "fix_then_list": 3,
     "hold": 0,
     "reddit_signal": {
       "status": "ok",
       "post_count": 25,
-      "collected_at": "2026-10-01T16:56:14.028609+00:00",
+      "collected_at": "2026-10-01T22:21:36.182058+00:00",
       "keyword_pool": 40
     }
   },
@@ -78,14 +78,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['skin', 'skincare']",
+          "evidence": "matched=['k-beauty', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "VT Reedle Shot 300 Facial Boosting First Ampoule 2ml x 6 — skin · K-beauty",
+          "primary_text": "VT Reedle Shot 300 Facial Boosting First Ampoule 2ml x 6 — k-beauty · K-beauty",
           "headline": "VT Reedle Shot 300 Facial Boosting First",
           "description": "Discover the VT Reedle Shot 300 Facial Boosting First Ampoule, designed for your daily skincare routine. This convenient set includes six 2ml ampoules to help prep and smooth your complexion. Apply ge",
           "cta": "Shop now"
@@ -102,10 +102,12 @@
           "K-beauty",
           "glass skin",
           "hydrating",
+          "k-beauty",
           "skin",
           "skincare"
         ],
         "reddit_keywords_used": [
+          "k-beauty",
           "skin",
           "skincare"
         ],
@@ -114,12 +116,13 @@
       },
       "reddit_match": {
         "matched": [
+          "k-beauty",
           "skin",
           "skincare"
         ],
-        "score": 2,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['skin', 'skincare']",
+        "evidence": "matched=['k-beauty', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -190,14 +193,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['skin', 'skincare']",
+          "evidence": "matched=['k-beauty', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "VONSEP Retinol 500 IU Serum 30ml — skin · K-beauty",
+          "primary_text": "VONSEP Retinol 500 IU Serum 30ml — k-beauty · K-beauty",
           "headline": "VONSEP Retinol 500 IU Serum 30ml",
           "description": "Discover the VONSEP Retinol 500 IU Serum in a convenient 30 ml size, designed to enhance your daily skincare routine. This facial serum helps improve the look of skin texture and promotes a brighter-l",
           "cta": "Shop now"
@@ -214,10 +217,12 @@
           "K-beauty",
           "glass skin",
           "hydrating",
+          "k-beauty",
           "skin",
           "skincare"
         ],
         "reddit_keywords_used": [
+          "k-beauty",
           "skin",
           "skincare"
         ],
@@ -226,12 +231,13 @@
       },
       "reddit_match": {
         "matched": [
+          "k-beauty",
           "skin",
           "skincare"
         ],
-        "score": 2,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['skin', 'skincare']",
+        "evidence": "matched=['k-beauty', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -302,14 +308,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['skin', 'skincare']",
+          "evidence": "matched=['k-beauty', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Ampoule — Daiso Find — skin · K-beauty",
+          "primary_text": "Ampoule — Daiso Find — k-beauty · K-beauty",
           "headline": "Ampoule — Daiso Find",
           "description": "Daiso-sourced K-beauty. Lightweight daily use. Target US shoppers searching glass skin.",
           "cta": "Shop now"
@@ -326,10 +332,12 @@
           "K-beauty",
           "glass skin",
           "hydrating",
+          "k-beauty",
           "skin",
           "skincare"
         ],
         "reddit_keywords_used": [
+          "k-beauty",
           "skin",
           "skincare"
         ],
@@ -338,12 +346,13 @@
       },
       "reddit_match": {
         "matched": [
+          "k-beauty",
           "skin",
           "skincare"
         ],
-        "score": 2,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['skin', 'skincare']",
+        "evidence": "matched=['k-beauty', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -414,14 +423,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['moisturizer', 'skin', 'skincare']",
+          "evidence": "matched=['k-beauty', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "VT PDRN Radiance Cream 50 ml — moisturizer · K-beauty",
+          "primary_text": "VT PDRN Radiance Cream 50 ml — k-beauty · K-beauty",
           "headline": "VT PDRN Radiance Cream 50 ml",
           "description": "Discover the VT PDRN Radiance Cream in a convenient 50 ml size, formulated to help you achieve a glowing and radiant complexion. Apply this nourishing cream daily as part of your skincare routine to k",
           "cta": "Shop now"
@@ -439,12 +448,12 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "moisturizer",
+          "k-beauty",
           "skin",
           "skincare"
         ],
         "reddit_keywords_used": [
-          "moisturizer",
+          "k-beauty",
           "skin",
           "skincare"
         ],
@@ -453,13 +462,13 @@
       },
       "reddit_match": {
         "matched": [
-          "moisturizer",
+          "k-beauty",
           "skin",
           "skincare"
         ],
         "score": 3,
         "status": "pass",
-        "evidence": "matched=['moisturizer', 'skin', 'skincare']",
+        "evidence": "matched=['k-beauty', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -530,14 +539,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['skin', 'skincare']",
+          "evidence": "matched=['k-beauty', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Bongseop Retinol Firming Shot Body Guasha Serum 100ml — skin · K-beauty",
+          "primary_text": "Bongseop Retinol Firming Shot Body Guasha Serum 100ml — k-beauty · K-beauty",
           "headline": "Bongseop Retinol Firming Shot Body Guash",
           "description": "Experience daily body care with the Bongseop Retinol Firming Shot Body Guasha Serum. This 100 ml serum helps smooth the look of fine lines for a more refined skin appearance. Designed for easy applica",
           "cta": "Shop now"
@@ -554,10 +563,12 @@
           "K-beauty",
           "glass skin",
           "hydrating",
+          "k-beauty",
           "skin",
           "skincare"
         ],
         "reddit_keywords_used": [
+          "k-beauty",
           "skin",
           "skincare"
         ],
@@ -566,12 +577,13 @@
       },
       "reddit_match": {
         "matched": [
+          "k-beauty",
           "skin",
           "skincare"
         ],
-        "score": 2,
+        "score": 3,
         "status": "pass",
-        "evidence": "matched=['skin', 'skincare']",
+        "evidence": "matched=['k-beauty', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -642,7 +654,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['ask', 'mask', 'moisturizer', 'skin', 'skincare']",
+          "evidence": "matched=['ask', 'k-beauty', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -669,14 +681,13 @@
           "glass skin",
           "hydrating",
           "ask",
-          "moisturizer",
+          "k-beauty",
           "skin",
           "skincare"
         ],
         "reddit_keywords_used": [
           "ask",
-          "mask",
-          "moisturizer",
+          "k-beauty",
           "skin",
           "skincare"
         ],
@@ -686,14 +697,13 @@
       "reddit_match": {
         "matched": [
           "ask",
-          "mask",
-          "moisturizer",
+          "k-beauty",
           "skin",
           "skincare"
         ],
-        "score": 5,
+        "score": 4,
         "status": "pass",
-        "evidence": "matched=['ask', 'mask', 'moisturizer', 'skin', 'skincare']",
+        "evidence": "matched=['ask', 'k-beauty', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -764,7 +774,7 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['ask', 'mask', 'skin', 'skincare']",
+          "evidence": "matched=['ask', 'k-beauty', 'skin', 'skincare']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
@@ -789,12 +799,13 @@
           "glass skin",
           "hydrating",
           "ask",
+          "k-beauty",
           "skin",
           "skincare"
         ],
         "reddit_keywords_used": [
           "ask",
-          "mask",
+          "k-beauty",
           "skin",
           "skincare"
         ],
@@ -804,13 +815,13 @@
       "reddit_match": {
         "matched": [
           "ask",
-          "mask",
+          "k-beauty",
           "skin",
           "skincare"
         ],
         "score": 4,
         "status": "pass",
-        "evidence": "matched=['ask', 'mask', 'skin', 'skincare']",
+        "evidence": "matched=['ask', 'k-beauty', 'skin', 'skincare']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -881,8 +892,8 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['ask', 'mask']",
-          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+          "evidence": "matched=['ask']",
+          "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
         }
       ],
       "ad_copy_ab": {
@@ -908,21 +919,19 @@
           "ask"
         ],
         "reddit_keywords_used": [
-          "ask",
-          "mask"
+          "ask"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "ask",
-          "mask"
+          "ask"
         ],
-        "score": 2,
+        "score": 1,
         "status": "pass",
-        "evidence": "matched=['ask', 'mask']",
-        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+        "evidence": "matched=['ask']",
+        "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
       },
       "coach_summary": {
         "pass": 4,
@@ -992,8 +1001,8 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['ask', 'mask']",
-          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+          "evidence": "matched=['ask']",
+          "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
         }
       ],
       "ad_copy_ab": {
@@ -1020,21 +1029,19 @@
           "ask"
         ],
         "reddit_keywords_used": [
-          "ask",
-          "mask"
+          "ask"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "ask",
-          "mask"
+          "ask"
         ],
-        "score": 2,
+        "score": 1,
         "status": "pass",
-        "evidence": "matched=['ask', 'mask']",
-        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+        "evidence": "matched=['ask']",
+        "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
       },
       "coach_summary": {
         "pass": 5,
@@ -1049,7 +1056,7 @@
       "bucket": "마스크팩",
       "shopify_score": 89,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
-      "readiness": "ready_with_notes",
+      "readiness": "fix_then_list",
       "checklist": [
         {
           "id": "grade_s",
@@ -1075,8 +1082,8 @@
         {
           "id": "listing_copy",
           "label": "영문 리스팅 카피",
-          "status": "pass",
-          "evidence": "Gemini 카피 있음",
+          "status": "fail",
+          "evidence": "카피 미생성",
           "tip": "shopify-listing-copy 워크플로 실행"
         },
         {
@@ -1104,16 +1111,16 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['ask', 'mask']",
-          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+          "evidence": "matched=['ask']",
+          "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "CELDERMA Daily Collagen Gel Sheet Mask 29g — ask · sheet mask",
-          "headline": "CELDERMA Daily Collagen Gel Sheet Mask 2",
-          "description": "CELDERMA Daily Collagen Gel Sheet Mask 29g is a Korean beauty gel sheet mask in a 29g size. This draft uses only the verified product identity and package information. Review the ingredient list, dire",
+          "primary_text": "Essence Mask Collagen — Daiso Find — ask · sheet mask",
+          "headline": "Essence Mask Collagen — Daiso Find",
+          "description": "Daiso-sourced sheet mask. Lightweight daily use. Target US shoppers searching overnight mask.",
           "cta": "Shop now"
         },
         "variant_b": {
@@ -1133,27 +1140,25 @@
           "ask"
         ],
         "reddit_keywords_used": [
-          "ask",
-          "mask"
+          "ask"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "ask",
-          "mask"
+          "ask"
         ],
-        "score": 2,
+        "score": 1,
         "status": "pass",
-        "evidence": "matched=['ask', 'mask']",
-        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+        "evidence": "matched=['ask']",
+        "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
       },
       "coach_summary": {
-        "pass": 5,
+        "pass": 4,
         "warn": 3,
-        "fail": 0,
-        "next_action": "경고 항목 보완 후 등록"
+        "fail": 1,
+        "next_action": "실패 항목 수정"
       }
     }
   ],

@@ -1,44 +1,46 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-01T22:46:43.394643+00:00",
+  "generated_at": "2026-10-01T22:56:09.724073+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "semantic_sources": {
       "data/product_master.json": "48a2d9076d3c3aae7fe1b8b5d98e6b349b1d24534b4d72ce80a837ba5063d86c",
       "data/gosi.json": "dd9d6c89d024d7cf1ac7c7822171e750090559a4db7dff7d08f283b18bed36d3",
-      "data/daiso_real/daiso_us_labels.json": "07852becf09fe62c20ddd6aaaf51a5eb1670b97131c839de4c66f1deff9dd733",
-      "data/pricing_model.json": "a047e67f03638ff87ec8b74c642c1d0aeda4b7f542c48e04f66a58847dbcf798",
-      "data/legal_products.json": "cb46ca44b5677f96758b209b475d452c1a6169a0eb706c3d6ffb5f2125e712d4"
+      "data/daiso_real/daiso_us_labels.json": "2192844ff40cb98a943719d48aa19c44a69bc1293b23a7248c6aa97ece5b4541",
+      "data/pricing_model.json": "f22b741eb9b2b2d7b7159bcc35d90c0c1443f3c2701f966defa8495c09c0af2f",
+      "data/legal_products.json": "3a1d1024ff81feda71e4f12a13e5a389b532956685a1f38b98178a71d2465faf"
     },
     "recommendations_sha256": "ecbccf34b874ff5a087a0380a09534ee6420b99a158b69c7a7d3389f439d8dd2"
   },
   "total": 10,
-  "agent_ready": 8,
-  "ready": 8,
-  "draft_ready": 8,
+  "agent_ready": 7,
+  "ready": 7,
+  "draft_ready": 7,
   "public_ready": 0,
   "counts": {
     "ontology": 10,
-    "copy": 8,
+    "copy": 7,
     "gosi": 9,
     "us_label": 8,
-    "price": 10,
-    "legal": 8,
+    "price": 9,
+    "legal": 7,
     "legal_full": 0
   },
   "blockers": {
-    "copy": 2,
+    "copy": 3,
     "gosi": 1,
     "us_label": 2,
-    "legal": 2
+    "price": 1,
+    "legal": 3
   },
   "typesafe_summary": {
     "framework": "typesafe_system_one_compatible",
     "mode_counts": {
-      "typesafe_carried": 10
+      "typesafe_carried": 9,
+      "disabled_local_advisory": 1
     },
     "typesafe_calls": 0,
-    "free_credits_only": 10,
+    "free_credits_only": 9,
     "paid_api_calls": 0,
     "enforced": 0,
     "usage": {
@@ -52,8 +54,8 @@
       "estimated_cost_usd": 0.0,
       "purchased_credits": false
     },
-    "cumulative_ok_calls": 401,
-    "last_ok_call_at": "2026-10-01T17:14:09.467448+00:00",
+    "cumulative_ok_calls": 431,
+    "last_ok_call_at": "2026-10-01T22:35:30.592734+00:00",
     "note": "기본은 비용 없는 로컬 advisory. 실제 호출은 TYPESAFE_ENABLED=1 과 TYPESAFE_FREE_CREDITS_ONLY=1(무료 크레딧 한도 내) 또는 TYPESAFE_ALLOW_PAID=1(유료 승인) 일 때만 한다. 크레딧 구매는 하지 않는다."
   },
   "count": 10,
@@ -125,7 +127,7 @@
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "hold",
+        "grade_advisory": "review",
         "legal_gate_advisory": "review",
         "risk_level": "high",
         "risk_points": 1,
@@ -133,21 +135,21 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.92,
+        "model_route_confidence": 0.93,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.696,
+        "confidence": 0.688,
         "usage": {
           "input_tokens": 1105,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.62,
+        "risk_score": 1.55,
         "model": "jev-1.13.0",
         "state_signature": "cdb95028555fb2cc1091059f8cd86fe4a993cc1cce6206584626e7d74b6ea8c6",
-        "decided_at": "2026-10-01T17:14:07.945280+00:00",
-        "carried_from": "2026-10-01T17:14:07.945280+00:00"
+        "decided_at": "2026-10-01T22:35:29.232559+00:00",
+        "carried_from": "2026-10-01T22:35:29.232559+00:00"
       }
     },
     {
@@ -217,7 +219,7 @@
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "review",
+        "grade_advisory": "hold",
         "legal_gate_advisory": "review",
         "risk_level": "high",
         "risk_points": 1,
@@ -225,21 +227,21 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.92,
+        "model_route_confidence": 0.93,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.708,
+        "confidence": 0.71,
         "usage": {
           "input_tokens": 1085,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.66,
+        "risk_score": 1.71,
         "model": "jev-1.13.0",
         "state_signature": "51d0e73d5ba5ed41de4d4bf02811433e8f7ef09ef764ae07bb5b94a8cc530ea7",
-        "decided_at": "2026-10-01T17:14:08.110741+00:00",
-        "carried_from": "2026-10-01T17:14:08.110741+00:00"
+        "decided_at": "2026-10-01T22:35:29.371171+00:00",
+        "carried_from": "2026-10-01T22:35:29.371171+00:00"
       }
     },
     {
@@ -269,8 +271,8 @@
         "us_label_ok": false
       },
       "price": {
-        "price_usd": 25.99,
-        "margin_pct": 49.7,
+        "price_usd": 24.99,
+        "margin_pct": 48.0,
         "register_blocked": false
       },
       "legal": {
@@ -323,7 +325,7 @@
           "public blockers: copy, gosi, us_label, legal, legal_full",
           "legal hard block"
         ],
-        "confidence": 0.958,
+        "confidence": 0.96,
         "usage": {
           "input_tokens": 1141,
           "output_tokens": 198
@@ -332,8 +334,8 @@
         "risk_score": 2.89,
         "model": "jev-1.13.0",
         "state_signature": "03bd1da026d9c8d55c3363adbafd8697ee60acb28500dffa8780a0393c2e941c",
-        "decided_at": "2026-10-01T17:14:08.296017+00:00",
-        "carried_from": "2026-10-01T17:14:08.296017+00:00"
+        "decided_at": "2026-10-01T22:35:29.506721+00:00",
+        "carried_from": "2026-10-01T22:35:29.506721+00:00"
       }
     },
     {
@@ -415,17 +417,17 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.708,
+        "confidence": 0.692,
         "usage": {
           "input_tokens": 1086,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.55,
+        "risk_score": 1.57,
         "model": "jev-1.13.0",
         "state_signature": "a235a30f46906db0e3e7198e8f998dc4cfdaf92ceac3f46d1cef17739f39ea0f",
-        "decided_at": "2026-10-01T17:14:08.463942+00:00",
-        "carried_from": "2026-10-01T17:14:08.463942+00:00"
+        "decided_at": "2026-10-01T22:35:29.657686+00:00",
+        "carried_from": "2026-10-01T22:35:29.657686+00:00"
       }
     },
     {
@@ -508,17 +510,17 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.704,
+        "confidence": 0.708,
         "usage": {
           "input_tokens": 1097,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.62,
+        "risk_score": 1.65,
         "model": "jev-1.13.0",
         "state_signature": "a235a30f46906db0e3e7198e8f998dc4cfdaf92ceac3f46d1cef17739f39ea0f",
-        "decided_at": "2026-10-01T17:14:08.614536+00:00",
-        "carried_from": "2026-10-01T17:14:08.614536+00:00"
+        "decided_at": "2026-10-01T22:35:29.856689+00:00",
+        "carried_from": "2026-10-01T22:35:29.856689+00:00"
       }
     },
     {
@@ -588,7 +590,7 @@
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "hold",
+        "grade_advisory": "review",
         "legal_gate_advisory": "review",
         "risk_level": "high",
         "risk_points": 1,
@@ -596,21 +598,21 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.92,
+        "model_route_confidence": 0.93,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.68,
+        "confidence": 0.672,
         "usage": {
           "input_tokens": 1089,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.56,
+        "risk_score": 1.54,
         "model": "jev-1.13.0",
         "state_signature": "9cd2800fc8d4cac3636219a503b910fbb2b0924bd299e98e77065bc73dc4dcbb",
-        "decided_at": "2026-10-01T17:14:08.786178+00:00",
-        "carried_from": "2026-10-01T17:14:08.786178+00:00"
+        "decided_at": "2026-10-01T22:35:29.994565+00:00",
+        "carried_from": "2026-10-01T22:35:29.994565+00:00"
       }
     },
     {
@@ -678,29 +680,29 @@
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "review",
+        "grade_advisory": "hold",
         "legal_gate_advisory": "review",
-        "risk_level": "medium",
+        "risk_level": "high",
         "risk_points": 1,
         "team_routes": [
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.92,
+        "model_route_confidence": 0.93,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.712,
+        "confidence": 0.7,
         "usage": {
           "input_tokens": 1096,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.45,
+        "risk_score": 1.5,
         "model": "jev-1.13.0",
         "state_signature": "e05a0e27591e0c95f4d9b69ae7367544fdcdf352632872cce305bc9033dca5a5",
-        "decided_at": "2026-10-01T17:14:08.971768+00:00",
-        "carried_from": "2026-10-01T17:14:08.971768+00:00"
+        "decided_at": "2026-10-01T22:35:30.141647+00:00",
+        "carried_from": "2026-10-01T22:35:30.141647+00:00"
       }
     },
     {
@@ -774,13 +776,13 @@
           "listing"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.91,
+        "model_route_confidence": 0.92,
         "findings": [
           "draft blockers: copy, us_label, legal",
           "public blockers: copy, us_label, legal, legal_full",
           "legal hard block"
         ],
-        "confidence": 0.908,
+        "confidence": 0.904,
         "usage": {
           "input_tokens": 1113,
           "output_tokens": 198
@@ -789,8 +791,8 @@
         "risk_score": 2.67,
         "model": "jev-1.13.0",
         "state_signature": "b0582cacf994482e3059f0d2ae9df7f5c57a4a9358f95651c17206ce007a8ad0",
-        "decided_at": "2026-10-01T17:14:09.141295+00:00",
-        "carried_from": "2026-10-01T17:14:09.141295+00:00"
+        "decided_at": "2026-10-01T22:35:30.305040+00:00",
+        "carried_from": "2026-10-01T22:35:30.305040+00:00"
       }
     },
     {
@@ -833,98 +835,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 25.99,
-        "margin_pct": 62.3,
-        "register_blocked": false
-      },
-      "legal": {
-        "status": "auto_checked",
-        "hard_block": false,
-        "hard_block_reason": ""
-      },
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "ready": true,
-      "blocked_by": [],
-      "public_ready": false,
-      "public_blocked_by": [
-        "legal_full"
-      ],
-      "legal_full_complete": false,
-      "typesafe": {
-        "framework": "typesafe_system_one_compatible",
-        "enabled": true,
-        "mode": "typesafe_carried",
-        "source": "typesafe",
-        "paid_api_called": false,
-        "enforced": false,
-        "grade_advisory": "hold",
-        "legal_gate_advisory": "review",
-        "risk_level": "high",
-        "risk_points": 1,
-        "team_routes": [
-          "legal"
-        ],
-        "model_route": "human",
-        "model_route_confidence": 0.94,
-        "findings": [
-          "public blockers: legal_full"
-        ],
-        "confidence": 0.69,
-        "usage": {
-          "input_tokens": 1094,
-          "output_tokens": 198
-        },
-        "free_credits_only": true,
-        "risk_score": 1.53,
-        "model": "jev-1.13.0",
-        "state_signature": "72531625bdb11b67ee797df5b076b36210e54f4a386ed65f9afe25a575270ba5",
-        "decided_at": "2026-10-01T17:14:09.330766+00:00",
-        "carried_from": "2026-10-01T17:14:09.330766+00:00"
-      }
-    },
-    {
-      "rank": 10,
-      "canonical_product_id": "CP000075",
-      "pd_no": "1042619",
-      "product_id": "1042619",
-      "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
-      "category": "마스크팩",
-      "price_krw": 1000,
-      "shopify_score": 89,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
-      "copy": {
-        "title": "CELDERMA Daily Collagen Gel Sheet Mask 29g",
-        "description_html": "<p>CELDERMA Daily Collagen Gel Sheet Mask 29g is a Korean beauty gel sheet mask in a 29g size. This draft uses only the verified product identity and package information.</p><p>Review the ingredient list, directions, and final US label before publication.</p>",
-        "seo_title": "CELDERMA Daily Collagen Gel Sheet Mask 29g",
-        "seo_description": "View CELDERMA Daily Collagen Gel Sheet Mask 29g. Product identity and size are based on the source product notice. Review ingredients, directions, and the final label before purchase.",
-        "tags": [
-          "celderma-daily",
-          "collagen",
-          "gel-sheet-mask",
-          "k-beauty",
-          "korean-beauty"
-        ],
-        "product_type": "Gel Sheet Mask"
-      },
-      "copy_status": "ok",
-      "gosi": {
-        "volume": "29g",
-        "maker": "㈜제닉 (충청남도 논산시 성동면 산업단지로5길 5)",
-        "origin": "한국",
-        "ingredients": "정제수, 글리세린, 나이아신아마이드, 캐롭검, 아이리쉬모스추출물, 1,2-헥산다이올, 펜틸렌글라이콜, 에틸헥실글리세린, 콜라겐추출물(686,000ppb), 아데노신, 다이소듐이디티에이, 글리세릴글루코사이드, 폴리글리",
-        "gosi_ok": true
-      },
-      "us_label": {
-        "net_contents": "29g",
-        "manufacturer": "㈜제닉 (충청남도 논산시 성동면 산업단지로5길 5)",
-        "country_of_origin": "Korea",
-        "ingredients_inci": "Water, Glycerin, Niacinamide, Ceratonia Siliqua (Carob) Gum, Chondrus Crispus Extract, 1,2-Hexanediol, Pentylene Glycol, Ethylhexylglycerin, Collagen Extract, Adenosine, Disodium EDTA, Glyceryl Glucoside, Polyglyceryl-6 Caprylate, Polyglyceryl-4 Caprate, Tocopherol",
-        "us_label_ok": true
-      },
-      "price": {
-        "price_usd": 25.99,
-        "margin_pct": 65.6,
+        "price_usd": 24.99,
+        "margin_pct": 61.1,
         "register_blocked": false
       },
       "legal": {
@@ -951,7 +863,7 @@
         "grade_advisory": "review",
         "legal_gate_advisory": "review",
         "risk_level": "high",
-        "risk_points": 2,
+        "risk_points": 1,
         "team_routes": [
           "legal"
         ],
@@ -960,17 +872,98 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.696,
+        "confidence": 0.708,
         "usage": {
-          "input_tokens": 1091,
+          "input_tokens": 1094,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.59,
+        "risk_score": 1.5,
         "model": "jev-1.13.0",
-        "state_signature": "e370dff839120acc27ebfdefe0d9905a87a2ce0c6e34a9ae66036956848cc7e1",
-        "decided_at": "2026-10-01T17:14:09.467524+00:00",
-        "carried_from": "2026-10-01T17:14:09.467524+00:00"
+        "state_signature": "72531625bdb11b67ee797df5b076b36210e54f4a386ed65f9afe25a575270ba5",
+        "decided_at": "2026-10-01T22:35:30.457222+00:00",
+        "carried_from": "2026-10-01T22:35:30.457222+00:00"
+      }
+    },
+    {
+      "rank": 10,
+      "canonical_product_id": "CP000075",
+      "pd_no": "1042619",
+      "product_id": "1042619",
+      "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
+      "category": "마스크팩",
+      "price_krw": 1000,
+      "shopify_score": 89,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
+      "copy": {},
+      "copy_status": "missing",
+      "gosi": {
+        "volume": "29g",
+        "maker": "㈜제닉 (충청남도 논산시 성동면 산업단지로5길 5)",
+        "origin": "한국",
+        "ingredients": "정제수, 글리세린, 나이아신아마이드, 캐롭검, 아이리쉬모스추출물, 1,2-헥산다이올, 펜틸렌글라이콜, 에틸헥실글리세린, 콜라겐추출물(686,000ppb), 아데노신, 다이소듐이디티에이, 글리세릴글루코사이드, 폴리글리",
+        "gosi_ok": true
+      },
+      "us_label": {
+        "net_contents": "29g",
+        "manufacturer": "㈜제닉 (충청남도 논산시 성동면 산업단지로5길 5)",
+        "country_of_origin": "Korea",
+        "ingredients_inci": "Water, Glycerin, Niacinamide, Ceratonia Siliqua (Carob) Gum, Chondrus Crispus Extract, 1,2-Hexanediol, Pentylene Glycol, Ethylhexylglycerin, Collagen Extract, Adenosine, Disodium EDTA, Glyceryl Glucoside, Polyglyceryl-6 Caprylate, Polyglyceryl-4 Caprate, Tocopherol",
+        "us_label_ok": true
+      },
+      "price": {
+        "price_usd": null,
+        "margin_pct": null,
+        "register_blocked": false
+      },
+      "legal": {
+        "status": "missing",
+        "hard_block": false,
+        "hard_block_reason": ""
+      },
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "price",
+        "legal"
+      ],
+      "ready": false,
+      "blocked_by": [
+        "copy",
+        "price",
+        "legal"
+      ],
+      "public_ready": false,
+      "public_blocked_by": [
+        "copy",
+        "price",
+        "legal",
+        "legal_full"
+      ],
+      "legal_full_complete": false,
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "hold",
+        "legal_gate_advisory": "review",
+        "risk_level": "critical",
+        "risk_points": 5,
+        "team_routes": [
+          "legal",
+          "pricing",
+          "listing"
+        ],
+        "model_route": "human",
+        "model_route_confidence": null,
+        "findings": [
+          "draft blockers: copy, price, legal",
+          "public blockers: copy, price, legal, legal_full"
+        ],
+        "confidence": null,
+        "usage": null
       }
     }
   ]
