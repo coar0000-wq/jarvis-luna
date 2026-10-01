@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T02:14:11.976831+09:00",
+  "generated_at": "2026-10-02T07:46:43.564745+09:00",
   "generator": "scripts/build_shopify_marketing_strategy.py",
   "status": "evidence_ready",
   "scope": "US K-Beauty Shopify launch marketing",
@@ -2154,7 +2154,7 @@
     "메타 리타게팅의 1만 명 임계값과 할인 제안은 검증되지 않은 플랫폼·계정별 주장이라 채택하지 않으며 유료 집행은 승인 전 차단"
   ],
   "integrity": {
-    "listing_gate_generated_at": "2026-10-01T17:14:09.467544+00:00",
+    "listing_gate_generated_at": "2026-10-01T22:46:43.394643+00:00",
     "s_product_count": 10,
     "product_playbook_count": 10,
     "public_ready_count": 0,

@@ -41,7 +41,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -66,9 +66,10 @@
         "risk_score": 1.62,
         "model": "jev-1.13.0",
         "state_signature": "cdb95028555fb2cc1091059f8cd86fe4a993cc1cce6206584626e7d74b6ea8c6",
-        "decided_at": "2026-10-01T17:14:07.945280+00:00"
+        "decided_at": "2026-10-01T17:14:07.945280+00:00",
+        "carried_from": "2026-10-01T17:14:07.945280+00:00"
       },
-      "gate_generated_at": "2026-10-01T17:14:09.467544+00:00"
+      "gate_generated_at": "2026-10-01T22:46:43.394643+00:00"
     },
     {
       "rank": 2,
@@ -106,7 +107,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -131,9 +132,10 @@
         "risk_score": 1.66,
         "model": "jev-1.13.0",
         "state_signature": "51d0e73d5ba5ed41de4d4bf02811433e8f7ef09ef764ae07bb5b94a8cc530ea7",
-        "decided_at": "2026-10-01T17:14:08.110741+00:00"
+        "decided_at": "2026-10-01T17:14:08.110741+00:00",
+        "carried_from": "2026-10-01T17:14:08.110741+00:00"
       },
-      "gate_generated_at": "2026-10-01T17:14:09.467544+00:00"
+      "gate_generated_at": "2026-10-01T22:46:43.394643+00:00"
     },
     {
       "rank": 3,
@@ -184,7 +186,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -213,9 +215,10 @@
         "risk_score": 2.89,
         "model": "jev-1.13.0",
         "state_signature": "03bd1da026d9c8d55c3363adbafd8697ee60acb28500dffa8780a0393c2e941c",
-        "decided_at": "2026-10-01T17:14:08.296017+00:00"
+        "decided_at": "2026-10-01T17:14:08.296017+00:00",
+        "carried_from": "2026-10-01T17:14:08.296017+00:00"
       },
-      "gate_generated_at": "2026-10-01T17:14:09.467544+00:00"
+      "gate_generated_at": "2026-10-01T22:46:43.394643+00:00"
     },
     {
       "rank": 4,
@@ -253,7 +256,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -278,9 +281,10 @@
         "risk_score": 1.55,
         "model": "jev-1.13.0",
         "state_signature": "a235a30f46906db0e3e7198e8f998dc4cfdaf92ceac3f46d1cef17739f39ea0f",
-        "decided_at": "2026-10-01T17:14:08.463942+00:00"
+        "decided_at": "2026-10-01T17:14:08.463942+00:00",
+        "carried_from": "2026-10-01T17:14:08.463942+00:00"
       },
-      "gate_generated_at": "2026-10-01T17:14:09.467544+00:00"
+      "gate_generated_at": "2026-10-01T22:46:43.394643+00:00"
     },
     {
       "rank": 5,
@@ -318,7 +322,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -343,9 +347,10 @@
         "risk_score": 1.62,
         "model": "jev-1.13.0",
         "state_signature": "a235a30f46906db0e3e7198e8f998dc4cfdaf92ceac3f46d1cef17739f39ea0f",
-        "decided_at": "2026-10-01T17:14:08.614536+00:00"
+        "decided_at": "2026-10-01T17:14:08.614536+00:00",
+        "carried_from": "2026-10-01T17:14:08.614536+00:00"
       },
-      "gate_generated_at": "2026-10-01T17:14:09.467544+00:00"
+      "gate_generated_at": "2026-10-01T22:46:43.394643+00:00"
     },
     {
       "rank": 6,
@@ -383,7 +388,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -408,9 +413,10 @@
         "risk_score": 1.56,
         "model": "jev-1.13.0",
         "state_signature": "9cd2800fc8d4cac3636219a503b910fbb2b0924bd299e98e77065bc73dc4dcbb",
-        "decided_at": "2026-10-01T17:14:08.786178+00:00"
+        "decided_at": "2026-10-01T17:14:08.786178+00:00",
+        "carried_from": "2026-10-01T17:14:08.786178+00:00"
       },
-      "gate_generated_at": "2026-10-01T17:14:09.467544+00:00"
+      "gate_generated_at": "2026-10-01T22:46:43.394643+00:00"
     },
     {
       "rank": 7,
@@ -448,7 +454,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -473,9 +479,10 @@
         "risk_score": 1.45,
         "model": "jev-1.13.0",
         "state_signature": "e05a0e27591e0c95f4d9b69ae7367544fdcdf352632872cce305bc9033dca5a5",
-        "decided_at": "2026-10-01T17:14:08.971768+00:00"
+        "decided_at": "2026-10-01T17:14:08.971768+00:00",
+        "carried_from": "2026-10-01T17:14:08.971768+00:00"
       },
-      "gate_generated_at": "2026-10-01T17:14:09.467544+00:00"
+      "gate_generated_at": "2026-10-01T22:46:43.394643+00:00"
     },
     {
       "rank": 8,
@@ -523,7 +530,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -551,9 +558,10 @@
         "risk_score": 2.67,
         "model": "jev-1.13.0",
         "state_signature": "b0582cacf994482e3059f0d2ae9df7f5c57a4a9358f95651c17206ce007a8ad0",
-        "decided_at": "2026-10-01T17:14:09.141295+00:00"
+        "decided_at": "2026-10-01T17:14:09.141295+00:00",
+        "carried_from": "2026-10-01T17:14:09.141295+00:00"
       },
-      "gate_generated_at": "2026-10-01T17:14:09.467544+00:00"
+      "gate_generated_at": "2026-10-01T22:46:43.394643+00:00"
     },
     {
       "rank": 9,
@@ -591,7 +599,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -616,9 +624,10 @@
         "risk_score": 1.53,
         "model": "jev-1.13.0",
         "state_signature": "72531625bdb11b67ee797df5b076b36210e54f4a386ed65f9afe25a575270ba5",
-        "decided_at": "2026-10-01T17:14:09.330766+00:00"
+        "decided_at": "2026-10-01T17:14:09.330766+00:00",
+        "carried_from": "2026-10-01T17:14:09.330766+00:00"
       },
-      "gate_generated_at": "2026-10-01T17:14:09.467544+00:00"
+      "gate_generated_at": "2026-10-01T22:46:43.394643+00:00"
     },
     {
       "rank": 10,
@@ -656,7 +665,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_observational_free_credits",
+        "mode": "typesafe_carried",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -681,9 +690,10 @@
         "risk_score": 1.59,
         "model": "jev-1.13.0",
         "state_signature": "e370dff839120acc27ebfdefe0d9905a87a2ce0c6e34a9ae66036956848cc7e1",
-        "decided_at": "2026-10-01T17:14:09.467524+00:00"
+        "decided_at": "2026-10-01T17:14:09.467524+00:00",
+        "carried_from": "2026-10-01T17:14:09.467524+00:00"
       },
-      "gate_generated_at": "2026-10-01T17:14:09.467544+00:00"
+      "gate_generated_at": "2026-10-01T22:46:43.394643+00:00"
     }
   ],
   "agent_ready_count": 8,
