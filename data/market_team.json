@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-10-02T07:56:09.847826+09:00",
+    "updated_at": "2026-10-02T08:52:18.481333+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -386,6 +386,28 @@
         "source": "youtube_manual"
       },
       {
+        "title": "The 8 Trends I’m Betting My Entire Marketing Strategy On in 2026",
+        "url": "https://www.youtube.com/watch?v=hXPALnu3Y6I",
+        "channel": "Neil Patel",
+        "views": 340518,
+        "note": "",
+        "teams": [
+          "market"
+        ],
+        "source": "youtube_serpapi"
+      },
+      {
+        "title": "5 BEST WAYS TO MARKET YOUR SHOPIFY STORE IN 2026!",
+        "url": "https://www.youtube.com/watch?v=DNBN0yE91MQ",
+        "channel": "Antonio Williams",
+        "views": 270923,
+        "note": "",
+        "teams": [
+          "market"
+        ],
+        "source": "youtube_serpapi"
+      },
+      {
         "title": "Shopify Editions Winter ’26 | Trailer",
         "url": "https://www.youtube.com/watch?v=kDpckwYZgZI",
         "channel": null,
@@ -419,6 +441,28 @@
           "design"
         ],
         "source": "youtube_channel"
+      },
+      {
+        "title": "Conversion Rate Optimisation (CRO) | Double your Shopify sales in 2024",
+        "url": "https://www.youtube.com/watch?v=5zOIeBYhOyM",
+        "channel": "Davie Fogarty",
+        "views": 117828,
+        "note": "",
+        "teams": [
+          "market"
+        ],
+        "source": "youtube_serpapi"
+      },
+      {
+        "title": "How To Increase Conversion Rate On Shopify (2025 CRO Guide)",
+        "url": "https://www.youtube.com/watch?v=kLneJKAqRtk",
+        "channel": "Michael Bernstein",
+        "views": 114512,
+        "note": "",
+        "teams": [
+          "market"
+        ],
+        "source": "youtube_serpapi"
       },
       {
         "title": "🔑 브랜딩 잘하면 영업 안 해도 됩니다 | MD가 먼저 연락 오는 브랜드, 뭐가 다를까요",
@@ -458,6 +502,39 @@
         "source": "youtube_manual"
       },
       {
+        "title": "The NEW Way to Build a WINNING Clothing Brand in 2026",
+        "url": "https://www.youtube.com/watch?v=8ZNbjcKRWN4",
+        "channel": "Marshall Crews",
+        "views": 88265,
+        "note": "",
+        "teams": [
+          "market"
+        ],
+        "source": "youtube_serpapi"
+      },
+      {
+        "title": "The Only Marketing Strategy That Is Working In 2026",
+        "url": "https://www.youtube.com/watch?v=UlfniLzuwa0",
+        "channel": "Neil Patel",
+        "views": 85085,
+        "note": "",
+        "teams": [
+          "market"
+        ],
+        "source": "youtube_serpapi"
+      },
+      {
+        "title": "How to Drive Traffic to Your Shopify Store: Master the Method with This Shopify Tutorial",
+        "url": "https://www.youtube.com/watch?v=Oqh09ROE_q8",
+        "channel": "Shopify Success",
+        "views": 75672,
+        "note": "",
+        "teams": [
+          "market"
+        ],
+        "source": "youtube_serpapi"
+      },
+      {
         "title": "The COMPLETE Shopify Tutorial 2026",
         "url": "https://www.youtube.com/watch?v=_1caEZ7t3UY",
         "channel": null,
@@ -493,6 +570,17 @@
         "source": "youtube_channel"
       },
       {
+        "title": "How to Market Your Shopify Store Like a PRO!",
+        "url": "https://www.youtube.com/watch?v=r34jBooJwUw",
+        "channel": "Learn With Shopify",
+        "views": 53606,
+        "note": "",
+        "teams": [
+          "market"
+        ],
+        "source": "youtube_serpapi"
+      },
+      {
         "title": "The COMPLETE Meta Tutorial (Meta Ads, Meta Business Suite, Meta AI, Facebook Ads & More!)",
         "url": "https://www.youtube.com/watch?v=OE4WimLYVGE",
         "channel": null,
@@ -506,6 +594,17 @@
         "source": "youtube_channel"
       },
       {
+        "title": "5 Shopify Updates in 2026 You Probably Didn't Know About",
+        "url": "https://www.youtube.com/watch?v=DkcJFsPnyxU",
+        "channel": "Learn With Shopify",
+        "views": 37606,
+        "note": "",
+        "teams": [
+          "market"
+        ],
+        "source": "youtube_serpapi"
+      },
+      {
         "title": "How to Start Affiliate Marketing in 2026",
         "url": "https://www.youtube.com/watch?v=HnV5JXBWCeQ",
         "channel": null,
@@ -517,6 +616,17 @@
           "design"
         ],
         "source": "youtube_channel"
+      },
+      {
+        "title": "Copy This Facebook Ads Tutorial. It'll Blow Up Your Shopify Store",
+        "url": "https://www.youtube.com/watch?v=DqCUQk1RWbw",
+        "channel": "Brendan Gillen",
+        "views": 35009,
+        "note": "",
+        "teams": [
+          "market"
+        ],
+        "source": "youtube_serpapi"
       },
       {
         "title": "브랜딩 감각을 키우고 싶다면👀 | 사업부터 브랜딩까지 분야별 필독서 추천",
@@ -541,129 +651,6 @@
           "design"
         ],
         "source": "youtube_channel"
-      },
-      {
-        "title": "Claude Copies $2m Shopify Store & Replaces Everything With My Brand (Full Course)",
-        "url": "https://www.youtube.com/watch?v=dPPd65Kvh7Y",
-        "channel": "Ali Akbar | White-Label Ecommerce",
-        "views": 23670,
-        "note": "Ali Akbar - Claude 로 월매출 200만불 스토어를 통째로 복제하는 78분 강의. 방법은 참고, 복제 자체는 위험",
-        "teams": [
-          "listing",
-          "design",
-          "sourcing"
-        ],
-        "source": "youtube_manual"
-      },
-      {
-        "title": "I Studied 1,000 Shopify Stores, Here’s What Works in 2026",
-        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
-        "channel": "Arsh Sanwarwala | Ecom Landing Pages + CRO",
-        "views": 21850,
-        "note": "1,000개 Shopify 스토어 분석 - 광고별 랜딩·검색/내비게이션·PDP 이미지 스토리·번들 CRO",
-        "teams": [
-          "market",
-          "listing",
-          "design"
-        ],
-        "source": "youtube_manual"
-      },
-      {
-        "title": "Shopify Just Changed How You Sell (Spring 2026 Editions Explained)",
-        "url": "https://www.youtube.com/watch?v=jUxSAGCaJIU",
-        "channel": "Learn With Shopify",
-        "views": 20415,
-        "note": "쇼피파이 2026 신기능",
-        "teams": [
-          "listing"
-        ],
-        "source": "youtube_manual"
-      },
-      {
-        "title": "How To Build a Shopify Store With Lovable",
-        "url": "https://www.youtube.com/watch?v=SCCsgkPgqY0",
-        "channel": null,
-        "views": 20000,
-        "note": "",
-        "teams": [
-          "market",
-          "listing",
-          "design"
-        ],
-        "source": "youtube_channel"
-      },
-      {
-        "title": "How to Build a Shopify Store Using Only Your PHONE",
-        "url": "https://www.youtube.com/watch?v=vdUtt0qZ4W4",
-        "channel": null,
-        "views": 12000,
-        "note": "",
-        "teams": [
-          "market",
-          "listing",
-          "design"
-        ],
-        "source": "youtube_channel"
-      },
-      {
-        "title": "100 Product Command Prompts to Boost Productivity (ChatGPT & Google Flow)",
-        "url": "https://www.youtube.com/watch?v=uTr2yXMeL9w",
-        "channel": "Desire",
-        "views": 10304,
-        "note": "Desire - 제품 사진을 광고 컷으로 바꾸는 프롬프트 100개. ChatGPT + Google Flow + Nano Banana 2",
-        "teams": [
-          "design"
-        ],
-        "source": "youtube_manual"
-      },
-      {
-        "title": "The Official Shopify Sidekick Tutorial (Part 1)",
-        "url": "https://www.youtube.com/watch?v=rGlVduB0T5s",
-        "channel": null,
-        "views": 10000,
-        "note": "",
-        "teams": [
-          "market",
-          "listing",
-          "design"
-        ],
-        "source": "youtube_channel"
-      },
-      {
-        "title": "Shopify Sidekick gets major AI upgrades in Winter '26 Edition",
-        "url": "https://www.youtube.com/watch?v=LU4tghjdnG8",
-        "channel": null,
-        "views": 9400,
-        "note": "",
-        "teams": [
-          "market"
-        ],
-        "source": "youtube_channel"
-      },
-      {
-        "title": "Digital Marketing 101: 10 Strategies Every Shopify Store Needs (Marketing Masterclass Part 1)",
-        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
-        "channel": "Learn With Shopify",
-        "views": 9021,
-        "note": "Learn With Shopify - SEO·콘텐츠·숏폼·웰컴 이메일·Meta CAPI를 묶은 공식 마케팅 기본기",
-        "teams": [
-          "market",
-          "listing"
-        ],
-        "source": "youtube_manual"
-      },
-      {
-        "title": "How to Find Winning Products with AI 🤖 (Shopify Tutorial)",
-        "url": "https://www.youtube.com/watch?v=QsxT7MuyRfk",
-        "channel": null,
-        "views": 7300,
-        "note": "",
-        "teams": [
-          "market",
-          "listing",
-          "design"
-        ],
-        "source": "youtube_channel"
       }
     ],
     "note": "실수집 가능한 소스만 반영한다. OliveYoung US 가 Actions 403 이면 Sephora/Ulta 등으로 경쟁군을 채운다. OY 는 주 1회 로컬·브라우저 수집을 권장한다.",
@@ -676,12 +663,12 @@
   },
   "marketing_playbook": {
     "설명": "영상 링크 수와 자막 타임스탬프를 검토한 실행 전략을 함께 제공한다. 전략은 data/shopify_marketing_strategy.json에서 재생성된다.",
-    "영상_총량": 53,
+    "영상_총량": 60,
     "자막_검토_영상": 15,
     "근거_인사이트": 40,
     "주제": {
       "광고·크리에이티브": {
-        "자료_수": 6,
+        "자료_수": 7,
         "자료": [
           {
             "title": "The COMPLETE Meta Tutorial (Meta Ads, Meta Business Suite, Meta AI, Facebook Ads & More!)",
@@ -689,29 +676,29 @@
             "note": ""
           },
           {
+            "title": "Copy This Facebook Ads Tutorial. It'll Blow Up Your Shopify Store",
+            "url": "https://www.youtube.com/watch?v=DqCUQk1RWbw",
+            "note": ""
+          },
+          {
             "title": "I Studied 1,000 Shopify Stores, Here’s What Works in 2026",
             "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
             "note": "1,000개 Shopify 스토어 분석 - 광고별 랜딩·검색/내비게이션·PDP 이미지 스토리·번들 CRO"
           },
           {
-            "title": "100 Product Command Prompts to Boost Productivity (ChatGPT & Google Flow)",
-            "url": "https://www.youtube.com/watch?v=uTr2yXMeL9w",
-            "note": "Desire - 제품 사진을 광고 컷으로 바꾸는 프롬프트 100개. ChatGPT + Google Flow + Nano Banana 2"
+            "title": "Your 30 day plan to blow-up your clothing brand in 2026: Marketing strategy, ads + the algorithm 101",
+            "url": "https://www.youtube.com/watch?v=YzTg8c5DnWI",
+            "note": ""
           },
           {
-            "title": "How to use AI to beat big brands on Shopify ($0 to $1M)",
-            "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
-            "note": "Matt Clark - AI로 대형 브랜드 이기기. 큰 시장 속 불만족 집단을 리뷰로 찾기 / 가격 경쟁 대신 AI 보너스로 가치 올리기 / 카피 3입력(제품 사실·리뷰 원문 표현·Ad Library 예시) / 메타 단일 캠페인에 주 10~20개 광고 / 리스티클 랜딩"
-          },
-          {
-            "title": "Should You Spend on Amazon Ads? Why PPC Is Essential for Sellers | Amazon Seller Insights",
-            "url": "https://www.youtube.com/watch?v=5cfz46esofo",
+            "title": "Full Marketing Course for Dropshipping (Facebook Ads, Creatives, AI)",
+            "url": "https://www.youtube.com/watch?v=0r2iIy84Gm8",
             "note": ""
           }
         ]
       },
       "전환·럜딩": {
-        "자료_수": 4,
+        "자료_수": 10,
         "자료": [
           {
             "title": "I Built The Ultimate Claude Website Design Skill (steal this)",
@@ -719,74 +706,53 @@
             "note": "Nate Herk - Scrollcraft. 랜딩페이지를 스크롤 연출 사이트로 바꾸는 Claude Code 스킬"
           },
           {
+            "title": "Conversion Rate Optimisation (CRO) | Double your Shopify sales in 2024",
+            "url": "https://www.youtube.com/watch?v=5zOIeBYhOyM",
+            "note": ""
+          },
+          {
+            "title": "How To Increase Conversion Rate On Shopify (2025 CRO Guide)",
+            "url": "https://www.youtube.com/watch?v=kLneJKAqRtk",
+            "note": ""
+          },
+          {
             "title": "Ecommerce Page Redesign: UX/UI Tips to 3.5x Conversion",
             "url": "https://www.youtube.com/watch?v=oYskl2ZBoBc",
             "note": ""
           },
           {
-            "title": "I Studied 1,000 Shopify Stores, Here’s What Works in 2026",
-            "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
-            "note": "1,000개 Shopify 스토어 분석 - 광고별 랜딩·검색/내비게이션·PDP 이미지 스토리·번들 CRO"
-          },
-          {
-            "title": "Like",
-            "url": "https://www.youtube.com/watch?v=kFWPkoOx_ao",
-            "note": "Shopify 공식 모바일 게스트 체크아웃 CRO"
+            "title": "How To 4X Your Shopify Conversion Rate (Complete CRO Guide)",
+            "url": "https://www.youtube.com/watch?v=A-7pTamjBIw",
+            "note": ""
           }
         ]
       },
       "객단가·번들": {
-        "자료_수": 2,
+        "자료_수": 1,
         "자료": [
           {
             "title": "I Studied 1,000 Shopify Stores, Here’s What Works in 2026",
             "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
             "note": "1,000개 Shopify 스토어 분석 - 광고별 랜딩·검색/내비게이션·PDP 이미지 스토리·번들 CRO"
-          },
-          {
-            "title": "Increase Your Shopify Average Order Value: Quantity Breaks, Bundles & Upsells",
-            "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
-            "note": "AOV 전략 - 수량 할인·루틴 번들·good-better-best·카트 드로어 업셀"
           }
         ]
       },
       "유지·재구매": {
-        "자료_수": 1,
-        "자료": [
-          {
-            "title": "The Shopify Retention Framework: 11 Emails to Drive Repeat Purchases",
-            "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
-            "note": "재구매 전략 - 구매 후 포인트·리워드 사용·등급 상승·만료 윈백 이메일 프레임워크"
-          }
-        ]
+        "자료_수": 0,
+        "자료": []
       },
       "채널 확장": {
-        "자료_수": 4,
+        "자료_수": 1,
         "자료": [
           {
             "title": "Digital Marketing 101: 10 Strategies Every Shopify Store Needs (Marketing Masterclass Part 1)",
             "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
             "note": "Learn With Shopify - SEO·콘텐츠·숏폼·웰컴 이메일·Meta CAPI를 묶은 공식 마케팅 기본기"
-          },
-          {
-            "title": "Should You Spend on Amazon Ads? Why PPC Is Essential for Sellers | Amazon Seller Insights",
-            "url": "https://www.youtube.com/watch?v=5cfz46esofo",
-            "note": ""
-          },
-          {
-            "title": "The New Shopify SEO Strategy That Actually Works in 2026",
-            "url": "https://www.youtube.com/watch?v=UBSveo_tao8",
-            "note": "Shopify SEO/GEO - 질문형 FAQ·토픽 클러스터·검증 리뷰·내부 링크"
-          },
-          {
-            "title": "0",
-            "url": "https://www.youtube.com/watch?v=YoDGJV1XTls",
-            "note": "Shopify SEO 리드 참여 - 상품 피드·리뷰·GEO·제3자 브랜드 가시성"
           }
         ]
       },
       "브랜딩·포지셔닝": {
-        "자료_수": 11,
+        "자료_수": 12,
         "자료": [
           {
             "title": "🔑 브랜딩 잘하면 영업 안 해도 됩니다 | MD가 먼저 연락 오는 브랜드, 뭐가 다를까요",
@@ -804,13 +770,13 @@
             "note": "The Futur 크리스 두 - 가격 경쟁을 벗어나는 포지셔닝. Liquid Death 등 5개 브랜드 해부"
           },
           {
-            "title": "How Kendo Brands is Leading the Beauty Industry with Shopify",
-            "url": "https://www.youtube.com/watch?v=JCIrUPeILSg",
+            "title": "The NEW Way to Build a WINNING Clothing Brand in 2026",
+            "url": "https://www.youtube.com/watch?v=8ZNbjcKRWN4",
             "note": ""
           },
           {
-            "title": "브랜딩 감각을 키우고 싶다면👀 | 사업부터 브랜딩까지 분야별 필독서 추천",
-            "url": "https://www.youtube.com/watch?v=hikTGKo2kZE",
+            "title": "How Kendo Brands is Leading the Beauty Industry with Shopify",
+            "url": "https://www.youtube.com/watch?v=JCIrUPeILSg",
             "note": ""
           }
         ]
