@@ -197,23 +197,31 @@ LEARNED_TOPICS = ROOT / "data" / "self_improve" / "topic_keywords.json"
 _LEARNED: list | None = None
 
 
+def compile_topic_patterns(topics: dict) -> list:
+    """운영과 오프라인 평가가 함께 쓰는 학습 키워드 컴파일러."""
+    patterns = []
+    for topic, words in sorted(topics.items()):
+        if not isinstance(words, list):
+            continue
+        words = [w for w in words if isinstance(w, str) and w.strip()]
+        if words:
+            alt = "|".join(re.escape(w.lower()) for w in sorted(set(words)))
+            patterns.append((topic, re.compile(rf"(?<![\w가-힣])(?:{alt})(?![\w가-힣])")))
+    return patterns
+
+
 def learned_topic_patterns() -> list:
     global _LEARNED
     if _LEARNED is None:
-        _LEARNED = []
         try:
-            data = json.loads(LEARNED_TOPICS.read_text(encoding="utf-8"))
+            data = json.loads(LEARNED_TOPICS.read_text(encoding="utf-8-sig"))
         except (OSError, ValueError):
             data = {}
-        for topic, words in sorted((data.get("topics") or {}).items()):
-            words = [w for w in words if isinstance(w, str) and w.strip()]
-            if words:
-                alt = "|".join(re.escape(w.lower()) for w in sorted(words))
-                _LEARNED.append((topic, re.compile(rf"(?<![\w가-힣])(?:{alt})(?![\w가-힣])")))
+        _LEARNED = compile_topic_patterns(data.get("topics") or {})
     return _LEARNED
 
 
-def topic_names(row: dict) -> list[str]:
+def topic_names(row: dict, *, learned_patterns: list | None = None) -> list[str]:
     """수집 자료를 주제로 분류한다.
 
     2026-09-04 확장. 이전에는 주제가 5개뿐이라 18,174개 중 11,346개가
@@ -285,7 +293,7 @@ def topic_names(row: dict) -> list[str]:
 
     # scripts/self_improve.py 가 채택한 키워드. 낱말 경계로만 맞춘다.
     # (예: 'spf' 가 다른 낱말 안에 섪여 잘못 걸리지 않게)
-    for name, pattern in learned_topic_patterns():
+    for name, pattern in (learned_topic_patterns() if learned_patterns is None else learned_patterns):
         if name not in topics and pattern.search(blob):
             topics.append(name)
 
