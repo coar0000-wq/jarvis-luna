@@ -2,7 +2,7 @@
 title: "Record b87f249891 · ASCEND-Personal-AI-Agents-for-Autonomous-Scientific-Computing-Across-H"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:24.236988+00:00
+updated_at: 2026-10-02T17:39:34.971540+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** ASCEND: Personal AI Agents for Autonomous Scientific Computing Across HPC Clusters and GPU Workstations
 
 ASCEND: Personal AI Agents for Autonomous Scientific Computing Across HPC Clusters and GPU Workstations
-Traditional scientific computing requires researchers to translate computational intent into environment configuration, resource requests, and executable jobs, then diagnose failures from scheduler state and application logs. We present ASCEND (Autonomous Scientific Computing Engine and Novel Discovery), an AI-powered agent interface that runs the agent on the researcher's own laptop, reaching Slu
+Traditional scientific computing requires researchers to translate intent into environment configuration, resource requests, and executable jobs, then diagnose failures from scheduler state and logs. We present ASCEND (Autonomous Scientific Computing Engine and Novel Discovery), an AI-powered agent interface that supports several placements of the agent and, in the arrangement used for every case
 
 **출처:** Source · robotics
 

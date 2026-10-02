@@ -2,7 +2,7 @@
 title: "Record ff9a5c1479 · Introducing-Google-Workspace-Addon"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:26.562474+00:00
+updated_at: 2026-10-02T17:39:36.948757+00:00
 tags: [record, real-data]
 ---
 

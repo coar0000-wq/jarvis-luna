@@ -2,7 +2,7 @@
 title: "Record c86aa32b4e · Quantum-error-correction-inspired-multiparameter-quantum-metrology"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:23.688402+00:00
+updated_at: 2026-10-02T17:39:34.490702+00:00
 tags: [record, real-data]
 ---
 

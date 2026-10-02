@@ -2,7 +2,7 @@
 title: "Record 19c8032f36 · Deals-And-Disicpline-What-Is-Driving-Markets-At-Mid-Year"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:26.216327+00:00
+updated_at: 2026-10-02T17:39:36.649104+00:00
 tags: [record, real-data]
 ---
 

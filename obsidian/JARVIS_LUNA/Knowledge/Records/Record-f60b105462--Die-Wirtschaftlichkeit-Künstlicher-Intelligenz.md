@@ -2,7 +2,7 @@
 title: "Record f60b105462 · Die-Wirtschaftlichkeit-Künstlicher-Intelligenz"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:23.519561+00:00
+updated_at: 2026-10-02T17:39:34.345797+00:00
 tags: [record, real-data]
 ---
 

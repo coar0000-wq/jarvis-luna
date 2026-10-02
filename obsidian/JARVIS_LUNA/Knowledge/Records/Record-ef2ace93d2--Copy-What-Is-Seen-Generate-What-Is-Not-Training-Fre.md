@@ -2,7 +2,7 @@
 title: "Record ef2ace93d2 · Copy-What-Is-Seen-Generate-What-Is-Not-Training-Free-Anomaly-Aware-Vid"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:23.329241+00:00
+updated_at: 2026-10-02T17:39:34.176199+00:00
 tags: [record, real-data]
 ---
 

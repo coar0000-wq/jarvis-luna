@@ -2,7 +2,7 @@
 title: "Record 7a1ac504a2 · DRFORHAIR-Folligen-Thickening-Scalp-Conditioning-Mask-676-fl-oz200ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:25.393303+00:00
+updated_at: 2026-10-02T17:39:35.978524+00:00
 tags: [record, real-data]
 ---
 

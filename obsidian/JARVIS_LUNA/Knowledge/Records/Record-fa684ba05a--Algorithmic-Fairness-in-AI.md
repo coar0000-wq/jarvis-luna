@@ -2,7 +2,7 @@
 title: "Record fa684ba05a · Algorithmic-Fairness-in-AI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:23.515232+00:00
+updated_at: 2026-10-02T17:39:34.342130+00:00
 tags: [record, real-data]
 ---
 

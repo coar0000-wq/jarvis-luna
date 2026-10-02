@@ -2,7 +2,7 @@
 title: "Record 879ac28264 · SUNGBOON-EDITOR-Deep-Collagen-Power-Boosting-Mask-4ct-130-oz37g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:25.464435+00:00
+updated_at: 2026-10-02T17:39:36.036572+00:00
 tags: [record, real-data]
 ---
 

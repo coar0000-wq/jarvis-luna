@@ -2,7 +2,7 @@
 title: "Record c76d499f17 · No-Restart-Elasticity-in-an-Adaptive-Runtime-System-for-Cloud-Native-H"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:23.428466+00:00
+updated_at: 2026-10-02T17:39:34.263184+00:00
 tags: [record, real-data]
 ---
 

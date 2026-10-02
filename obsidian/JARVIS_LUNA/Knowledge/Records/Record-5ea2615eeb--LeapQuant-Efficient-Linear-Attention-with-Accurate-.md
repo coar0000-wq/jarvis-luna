@@ -2,7 +2,7 @@
 title: "Record 5ea2615eeb · LeapQuant-Efficient-Linear-Attention-with-Accurate-Recurrent-State-Qua"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:24.295459+00:00
+updated_at: 2026-10-02T17:39:35.019226+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 3408ddccbb · Mechanism-Design-for-Alignment-and-Control"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:23.075653+00:00
+updated_at: 2026-10-02T17:39:33.953235+00:00
 tags: [record, real-data]
 ---
 

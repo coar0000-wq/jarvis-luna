@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T12:02:00.906837+00:00",
+  "generated_at": "2026-10-02T17:37:37.102745+00:00",
   "generator": "scripts/build_shopify_shortlist.py",
   "status": "proposed",
   "source": "rules",
@@ -37,11 +37,11 @@
         "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
         "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입"
       ],
-      "score": 100,
+      "score": 99,
       "evidence": {
-        "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
-        "channel": "oliveyoung_us",
-        "similarity": 0.733
+        "global_product": "Skin1004 Madagascar Centella Ampoule",
+        "channel": "tiktok_shop_us",
+        "similarity": 0.7
       },
       "added_at": "2026-09-29T10:03:26.384544+00:00",
       "status": "active",
@@ -58,7 +58,7 @@
       "names": [
         "본셉 레티놀 500 IU 세럼 30 ml"
       ],
-      "score": 98,
+      "score": 97,
       "evidence": {
         "global_product": "Some By Mi Retinol Intense Reactivating Serum",
         "channel": "tiktok_shop_us",
@@ -121,7 +121,7 @@
       "names": [
         "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g"
       ],
-      "score": 87,
+      "score": 90,
       "evidence": {
         "global_product": "Biodance Bio-Collagen Real Deep Mask",
         "channel": "tiktok_shop_us",
@@ -134,6 +134,17 @@
   ],
   "not_selected": [
     {
+      "unit_id": "VG-CP000218",
+      "pd_nos": [
+        "1067500"
+      ],
+      "names": [
+        "[이중턱리프팅]VT PDRN 광채리프팅마스크 1매 27 g+광채에센스 1.5 ml"
+      ],
+      "score": 96,
+      "reason": "게이트 초안 미준비: copy, gosi, legal, us_label"
+    },
+    {
       "unit_id": "VG-CP000251",
       "pd_nos": [
         "1072554"
@@ -141,7 +152,7 @@
       "names": [
         "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml"
       ],
-      "score": 96,
+      "score": 95,
       "reason": "미국 매칭 유사도 0.68 < 0.7"
     },
     {
@@ -163,19 +174,8 @@
       "names": [
         "바세린 마스크팩 집중보습"
       ],
-      "score": 91,
+      "score": 90,
       "reason": "게이트 초안 미준비: copy, legal, us_label"
-    },
-    {
-      "unit_id": "VG-CP000075",
-      "pd_nos": [
-        "1042619"
-      ],
-      "names": [
-        "셀더마데일리 콜라겐 에센스겔 마스크 29 g"
-      ],
-      "score": 87,
-      "reason": "미국 매칭 유사도 0.68 < 0.7"
     }
   ],
   "how_to_confirm": "data/manual/shopify_shortlist.json 에 {\"units\": [\"VG-...\" 또는 pd_no], \"confirmed_by\": \"이름\", \"confirmed_at\": \"YYYY-MM-DD\"} 를 적으면 그 목록만 쓴다."

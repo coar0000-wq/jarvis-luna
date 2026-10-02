@@ -2,7 +2,7 @@
 title: "Record e505bf453c · Pocket-Blush-Buildable-Hydrating-Cream-Blush"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:26.319170+00:00
+updated_at: 2026-10-02T17:39:36.741025+00:00
 tags: [record, real-data]
 ---
 

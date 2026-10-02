@@ -2,7 +2,7 @@
 title: "Record 2802a83144 · De-GAN---Dynamic-Parameter-Tuned-GAN-for-3D-Medical-Image-Segmentation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:23.292723+00:00
+updated_at: 2026-10-02T17:39:34.147959+00:00
 tags: [record, real-data]
 ---
 

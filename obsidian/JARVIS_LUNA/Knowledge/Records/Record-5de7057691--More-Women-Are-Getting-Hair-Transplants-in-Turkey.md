@@ -2,7 +2,7 @@
 title: "Record 5de7057691 · More-Women-Are-Getting-Hair-Transplants-in-Turkey"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:25.583369+00:00
+updated_at: 2026-10-02T17:39:36.139939+00:00
 tags: [record, real-data]
 ---
 

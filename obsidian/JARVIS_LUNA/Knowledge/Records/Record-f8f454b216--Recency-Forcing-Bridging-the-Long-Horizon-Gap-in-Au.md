@@ -2,7 +2,7 @@
 title: "Record f8f454b216 · Recency-Forcing-Bridging-the-Long-Horizon-Gap-in-Autoregressive-Video-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:24.080395+00:00
+updated_at: 2026-10-02T17:39:34.842615+00:00
 tags: [record, real-data]
 ---
 

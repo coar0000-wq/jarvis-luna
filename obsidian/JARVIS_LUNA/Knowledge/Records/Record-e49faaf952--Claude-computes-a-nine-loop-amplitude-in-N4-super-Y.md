@@ -2,7 +2,7 @@
 title: "Record e49faaf952 · Claude-computes-a-nine-loop-amplitude-in-N4-super-Yang-Mills"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:26.105264+00:00
+updated_at: 2026-10-02T17:39:36.554112+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [www.anthropic.com](https://www.anthropic.com/research/yes-claude-can-do-nine-loops)
 
-**제목:** Claude computes a nine-loop amplitude in N=4 super-Yang-Mills
+**제목:** Yes Claude Can Do Nine Loops
 
-Claude computes a nine-loop amplitude in N=4 super-Yang-Mills
-Claude computes a nine-loop amplitude in N=4 super-Yang-Mills
+Yes Claude Can Do Nine Loops
 
 **출처:** Source · institutions
 

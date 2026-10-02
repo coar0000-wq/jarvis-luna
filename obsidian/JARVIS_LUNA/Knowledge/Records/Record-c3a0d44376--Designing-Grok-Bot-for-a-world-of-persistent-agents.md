@@ -2,7 +2,7 @@
 title: "Record c3a0d44376 · Designing-Grok-Bot-for-a-world-of-persistent-agents"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:26.553988+00:00
+updated_at: 2026-10-02T17:39:36.941291+00:00
 tags: [record, real-data]
 ---
 

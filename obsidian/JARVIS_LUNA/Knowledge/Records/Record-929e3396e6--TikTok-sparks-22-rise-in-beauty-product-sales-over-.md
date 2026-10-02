@@ -2,7 +2,7 @@
 title: "Record 929e3396e6 · TikTok-sparks-22-rise-in-beauty-product-sales-over-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:24.557781+00:00
+updated_at: 2026-10-02T17:39:35.249948+00:00
 tags: [record, real-data]
 ---
 

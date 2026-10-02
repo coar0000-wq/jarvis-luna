@@ -2,7 +2,7 @@
 title: "Record 7d9c576ee3 · ROUND-LAB-Birch-Juice-Moisturizing-Sun-Stick-067-oz19g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:25.393770+00:00
+updated_at: 2026-10-02T17:39:35.978956+00:00
 tags: [record, real-data]
 ---
 

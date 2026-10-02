@@ -2,7 +2,7 @@
 title: "Record 6b196833c6 · Transformers-as-In-Context-Samplers-From-Closed-Form-Diffusion-to-Esti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:24.007758+00:00
+updated_at: 2026-10-02T17:39:34.787002+00:00
 tags: [record, real-data]
 ---
 

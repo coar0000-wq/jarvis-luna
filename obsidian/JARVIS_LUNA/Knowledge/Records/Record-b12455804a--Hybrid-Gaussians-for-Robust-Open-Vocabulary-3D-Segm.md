@@ -2,7 +2,7 @@
 title: "Record b12455804a · Hybrid-Gaussians-for-Robust-Open-Vocabulary-3D-Segmentation-with-Multi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:24.175084+00:00
+updated_at: 2026-10-02T17:39:34.917977+00:00
 tags: [record, real-data]
 ---
 

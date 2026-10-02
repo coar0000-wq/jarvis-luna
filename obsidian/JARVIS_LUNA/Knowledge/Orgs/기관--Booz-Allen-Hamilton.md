@@ -2,7 +2,7 @@
 title: "기관 · Booz Allen Hamilton"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:27.615058+00:00
+updated_at: 2026-10-02T17:39:37.750923+00:00
 tags: [org, real-data]
 ---
 

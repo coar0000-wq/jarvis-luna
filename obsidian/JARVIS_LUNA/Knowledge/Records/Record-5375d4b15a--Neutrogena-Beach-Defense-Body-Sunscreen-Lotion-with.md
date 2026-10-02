@@ -2,7 +2,7 @@
 title: "Record 5375d4b15a · Neutrogena-Beach-Defense-Body-Sunscreen-Lotion-with-SPF-70-1-oz"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:26.456489+00:00
+updated_at: 2026-10-02T17:39:36.857739+00:00
 tags: [record, real-data]
 ---
 

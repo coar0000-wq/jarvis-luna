@@ -2,7 +2,7 @@
 title: "Record 948ca90180 · 14-Best-Early-Amazon-Prime-Day-Mature-Beauty-Deals-2026"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:25.560762+00:00
+updated_at: 2026-10-02T17:39:36.120149+00:00
 tags: [record, real-data]
 ---
 

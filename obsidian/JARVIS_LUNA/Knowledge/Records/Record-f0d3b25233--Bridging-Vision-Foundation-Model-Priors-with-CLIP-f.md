@@ -2,7 +2,7 @@
 title: "Record f0d3b25233 · Bridging-Vision-Foundation-Model-Priors-with-CLIP-for-Spatial-aware-Fe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:23.269089+00:00
+updated_at: 2026-10-02T17:39:34.127625+00:00
 tags: [record, real-data]
 ---
 

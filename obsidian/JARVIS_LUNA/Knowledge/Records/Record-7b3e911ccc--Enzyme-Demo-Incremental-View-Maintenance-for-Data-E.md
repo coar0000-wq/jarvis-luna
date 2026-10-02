@@ -2,7 +2,7 @@
 title: "Record 7b3e911ccc · Enzyme-Demo-Incremental-View-Maintenance-for-Data-Engineering"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:23.813863+00:00
+updated_at: 2026-10-02T17:39:34.608118+00:00
 tags: [record, real-data]
 ---
 

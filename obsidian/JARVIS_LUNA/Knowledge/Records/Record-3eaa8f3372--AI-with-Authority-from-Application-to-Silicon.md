@@ -2,7 +2,7 @@
 title: "Record 3eaa8f3372 · AI-with-Authority-from-Application-to-Silicon"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:26.599069+00:00
+updated_at: 2026-10-02T17:39:36.981503+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 901b69b0e3 · How-ChatGPT-Shopping-Works-for-Ecommerce-Stores---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:24.614879+00:00
+updated_at: 2026-10-02T17:39:35.302094+00:00
 tags: [record, real-data]
 ---
 

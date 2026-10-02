@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T10:20:43.284605+00:00",
+  "generated_at": "2026-10-02T17:24:39.481433+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
@@ -15,10 +15,10 @@
       "products": 356
     },
     "market": {
-      "total": 922,
-      "recent": 101,
-      "material": 922,
-      "material_recent": 101,
+      "total": 923,
+      "recent": 99,
+      "material": 923,
+      "material_recent": 99,
       "products": 0
     },
     "listing": {
@@ -36,38 +36,38 @@
       "products": 0
     },
     "legal": {
-      "total": 225,
-      "recent": 50,
-      "material": 225,
-      "material_recent": 50,
+      "total": 224,
+      "recent": 49,
+      "material": 224,
+      "material_recent": 49,
       "products": 0
     },
     "design": {
-      "total": 461,
-      "recent": 137,
-      "material": 461,
-      "material_recent": 137,
+      "total": 456,
+      "recent": 135,
+      "material": 456,
+      "material_recent": 135,
       "products": 0
     },
     "robotics": {
-      "total": 147,
-      "recent": 55,
-      "material": 147,
-      "material_recent": 55,
+      "total": 148,
+      "recent": 56,
+      "material": 148,
+      "material_recent": 56,
       "products": 0
     },
     "knowledge": {
-      "total": 299,
+      "total": 300,
       "recent": 104,
-      "material": 299,
+      "material": 300,
       "material_recent": 104,
       "products": 0
     },
     "institutions": {
       "total": 1162,
-      "recent": 256,
+      "recent": 257,
       "material": 1162,
-      "material_recent": 256,
+      "material_recent": 257,
       "products": 0
     },
     "channels": {
@@ -1448,7 +1448,7 @@
         "by_hand": true
       },
       {
-        "title": "How to Use TikTok to Drive Shopify Sales",
+        "title": "Beyond TikTok Shop: How to Use TikTok to Drive Sales",
         "url": "https://www.youtube.com/watch?v=nIOn_726Rxk",
         "pool": "youtube_channel",
         "date": "",
@@ -2790,7 +2790,7 @@
         "by_hand": true
       },
       {
-        "title": "How to Use TikTok to Drive Shopify Sales",
+        "title": "Beyond TikTok Shop: How to Use TikTok to Drive Sales",
         "url": "https://www.youtube.com/watch?v=nIOn_726Rxk",
         "pool": "youtube_channel",
         "date": "",
@@ -3695,6 +3695,13 @@
         "by_hand": true
       },
       {
+        "title": "Accelerating No-Code Enterprise AI: Inside Simplismart’s NVIDIA Inception Journey",
+        "url": "https://www.youtube.com/watch?v=UxOQ2qyY6Qo",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
         "title": "Meet The Startup: Probabl: by the Creators of Scikit-Learn",
         "url": "https://www.youtube.com/watch?v=z1t-bp9UC3E",
         "pool": "youtube_channel",
@@ -3716,7 +3723,7 @@
         "by_hand": true
       },
       {
-        "title": "10 Years of NVIDIA DGX: From One System to AI Factories",
+        "title": "Decade of NVIDIA DGX: From A Single System to AI Factories",
         "url": "https://www.youtube.com/watch?v=xAgq8ByWK0M",
         "pool": "youtube_channel",
         "date": "",
@@ -3893,13 +3900,6 @@
       {
         "title": "NVIDIA & Wistron: Reindustrializing America With Advanced Manufacturing",
         "url": "https://www.youtube.com/watch?v=ZAVVfZ_mwnw",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Turning Compute Into Data for Physical AI With NVIDIA Cosmos",
-        "url": "https://www.youtube.com/watch?v=1QPh70Es_oU",
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true

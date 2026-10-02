@@ -2,7 +2,7 @@
 title: "Record 6d67efb4af · Grid-Demand-Flexibility-Assessment-of-AI-Data-Centers-via-Batch-Worklo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:24.294164+00:00
+updated_at: 2026-10-02T17:39:35.018121+00:00
 tags: [record, real-data]
 ---
 

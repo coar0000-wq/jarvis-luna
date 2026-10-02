@@ -2,7 +2,7 @@
 title: "Record 6b825b98ba · Less-Language-More-Latents-Annotation-Efficient-VLAs-for-Driving"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:24.179695+00:00
+updated_at: 2026-10-02T17:39:34.922055+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2974bbfb7b · K-Beauty-Is-Booming--And-Us-Brits-Are-Loving-It---C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:24.850271+00:00
+updated_at: 2026-10-02T17:39:35.508389+00:00
 tags: [record, real-data]
 ---
 

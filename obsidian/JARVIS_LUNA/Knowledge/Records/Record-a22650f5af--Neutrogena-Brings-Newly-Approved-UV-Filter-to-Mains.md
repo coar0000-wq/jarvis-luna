@@ -2,7 +2,7 @@
 title: "Record a22650f5af · Neutrogena-Brings-Newly-Approved-UV-Filter-to-Mainstream-SPF---America"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:25.011815+00:00
+updated_at: 2026-10-02T17:39:35.650068+00:00
 tags: [record, real-data]
 ---
 

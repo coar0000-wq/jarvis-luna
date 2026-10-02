@@ -2,7 +2,7 @@
 title: "Record 2f572cdcb9 · Shop-the-2026-Allure-Best-of-Beauty-Body-Winning-Products"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:25.541975+00:00
+updated_at: 2026-10-02T17:39:36.102726+00:00
 tags: [record, real-data]
 ---
 

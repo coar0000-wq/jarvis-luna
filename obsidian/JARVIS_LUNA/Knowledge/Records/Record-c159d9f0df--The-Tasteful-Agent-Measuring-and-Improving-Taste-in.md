@@ -2,7 +2,7 @@
 title: "Record c159d9f0df · The-Tasteful-Agent-Measuring-and-Improving-Taste-in-Long-Horizon-Tasks"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:24.154209+00:00
+updated_at: 2026-10-02T17:39:34.900975+00:00
 tags: [record, real-data]
 ---
 

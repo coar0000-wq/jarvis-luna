@@ -2,7 +2,7 @@
 title: "Record 56e88ac28b · TikTok-Shop-Becomes-the-UKs-Fourth-Largest-Beauty-R"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:24.801843+00:00
+updated_at: 2026-10-02T17:39:35.464466+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMif0FVX3lxTE4yaEc4ZnB1U19VSmtHLW5jalFvMXMxWDZIYUJ2Y29udGZYZlhDS05jbk91X0tOeDVlaDRwVXF1bVU5ZC1USk1WZ25rbFFXYXE3cWd3VS02MVp2aXBNelRLUU5MS1NEZXR1YXRIa2dIdFBXVU9CbDloSG9OcUcxTm8?oc=5)
 
-**제목:** TikTok Shop Becomes the UK's Fourth-Largest Beauty Retailer - beautymatter.com
+**제목:** TikTok Shop Becomes the UK's Fourth-Largest Beauty Retailer - BeautyMatter
 
-TikTok Shop Becomes the UK's Fourth-Largest Beauty Retailer - beautymatter.com
+TikTok Shop Becomes the UK's Fourth-Largest Beauty Retailer - BeautyMatter
 
 **출처:** Source · Google Search
 

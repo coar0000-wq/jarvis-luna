@@ -2,7 +2,7 @@
 title: "Record d78a24ee63 · How-Brands-Use-AI-Examples-and-Strategies-2025---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:24.599157+00:00
+updated_at: 2026-10-02T17:39:35.288125+00:00
 tags: [record, real-data]
 ---
 

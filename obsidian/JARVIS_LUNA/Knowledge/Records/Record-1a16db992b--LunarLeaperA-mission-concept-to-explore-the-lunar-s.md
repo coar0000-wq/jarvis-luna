@@ -2,7 +2,7 @@
 title: "Record 1a16db992b · LunarLeaperA-mission-concept-to-explore-the-lunar-subsurface-with-a-sm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:23.523819+00:00
+updated_at: 2026-10-02T17:39:34.349595+00:00
 tags: [record, real-data]
 ---
 

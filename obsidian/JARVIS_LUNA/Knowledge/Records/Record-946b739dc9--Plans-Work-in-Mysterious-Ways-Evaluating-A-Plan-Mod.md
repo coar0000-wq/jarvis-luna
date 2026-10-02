@@ -2,7 +2,7 @@
 title: "Record 946b739dc9 · Plans-Work-in-Mysterious-Ways-Evaluating-A-Plan-Mode-for-Spreadsheet-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:24.364118+00:00
+updated_at: 2026-10-02T17:39:35.081567+00:00
 tags: [record, real-data]
 ---
 

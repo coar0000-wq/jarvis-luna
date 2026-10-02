@@ -2,7 +2,7 @@
 title: "Record d03b58b4cf · Green-Tea-Real-Fresh-Foam-Cleanser"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:25.353833+00:00
+updated_at: 2026-10-02T17:39:35.943094+00:00
 tags: [record, real-data]
 ---
 

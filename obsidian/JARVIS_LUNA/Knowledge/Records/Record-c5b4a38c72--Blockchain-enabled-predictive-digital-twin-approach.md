@@ -2,7 +2,7 @@
 title: "Record c5b4a38c72 · Blockchain-enabled-predictive-digital-twin-approach-for-healthcare-Enh"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:23.547845+00:00
+updated_at: 2026-10-02T17:39:34.371690+00:00
 tags: [record, real-data]
 ---
 

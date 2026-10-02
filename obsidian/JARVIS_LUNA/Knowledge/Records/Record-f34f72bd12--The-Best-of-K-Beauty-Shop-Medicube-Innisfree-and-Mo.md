@@ -2,7 +2,7 @@
 title: "Record f34f72bd12 · The-Best-of-K-Beauty-Shop-Medicube-Innisfree-and-Mo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:24.792339+00:00
+updated_at: 2026-10-02T17:39:35.455857+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 63e9a822fa · Forecasting-space-weather-risks-on-power-grids"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:26.234143+00:00
+updated_at: 2026-10-02T17:39:36.664706+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record ecba139667 · HANYUL-Red-Rice-Hydrating-Serum-507-fl-oz150ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:25.481200+00:00
+updated_at: 2026-10-02T17:39:36.051067+00:00
 tags: [record, real-data]
 ---
 

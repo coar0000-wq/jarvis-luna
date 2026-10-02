@@ -2,7 +2,7 @@
 title: "Record d27a26dac2 · LABO-H-Scalp-Strengthening-Roll-on-Serum-05-fl-oz15ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:25.454271+00:00
+updated_at: 2026-10-02T17:39:36.027724+00:00
 tags: [record, real-data]
 ---
 

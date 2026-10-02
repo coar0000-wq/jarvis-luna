@@ -2,7 +2,7 @@
 title: "Record fcc75d1c67 · Ecommerce-Fraud-Management-in-the-AI-Era-A-2026-Guide---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:24.782946+00:00
+updated_at: 2026-10-02T17:39:35.448382+00:00
 tags: [record, real-data]
 ---
 

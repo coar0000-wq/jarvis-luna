@@ -1,26 +1,17 @@
 {
   "source": "google news rss (beauty queries) + trends daily filtered",
-  "collected_at": "2026-10-02T10:21:59.778580+00:00",
+  "collected_at": "2026-10-02T17:26:05.691511+00:00",
   "status": "ok",
   "note": "뷰티 키워드만. 채점 MATCH_CHANNELS 에는 넣지 않음. 대시보드 키워드 보드용.",
   "query_count": 12,
-  "count": 93,
+  "count": 94,
   "items": [
     {
-      "keyword": "Nearly 95% of Viral K-Beauty and ‘Glass Skin’ TikToks Mislead - The Dermatology Digest",
-      "product": "Nearly 95% of Viral K-Beauty and ‘Glass Skin’ TikToks Mislead - The Dermatology Digest",
+      "keyword": "Nearly 95% of Viral K-Beauty and ‘Glass Skin’ TikToks Mislead - thedermdigest.com",
+      "product": "Nearly 95% of Viral K-Beauty and ‘Glass Skin’ TikToks Mislead - thedermdigest.com",
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbjJfczkwX3V6UkJmVXk1X2pGczNfaXhDV0VsZmRCaU9MaUNsc2dNSUFQQW4xWUdDZnpxRlJaX1psNlpaN1o3eExBZGdyZDVOZ2VmSUl0SnhGZk4xSTJTR21xbHQ5Vms2clBFclFWWEc0cm9YWFRIS3ExdlVQVFBiQ3VXZUExRDQzVWxqS1lB?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "KHIDI opens Paris K-beauty hub to help Korean SMEs break into Europe - Korea Biomedical Review",
-      "product": "KHIDI opens Paris K-beauty hub to help Korean SMEs break into Europe - Korea Biomedical Review",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5YTDQxc3NPZWN3bHBsNkFuUkczc1JYUkd0OEVPNHUwNkpJanZVdld2MnM0QjVLbUJlM3pqNTNRY081dmh4cWhDSE9kaUdBYlI5clViUU8xTHFlWDlDYndwTFM4ZGswUGRsc0JyYXd30gFyQVVfeXFMTjVwdVdTQmtlbVQxZEZ3eEVGdUNodmJLMmJXVUwweWh5YWhJNGFreF9PRmdhY19sSzN6MlZrOEM2dzBvNlZUejdJUGJMN1lxay1oNjNGcF9CdHBNWDZZamhDcXVqeEtTc1JkM054TjdFTWpR?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -43,11 +34,20 @@
       "beauty": true
     },
     {
-      "keyword": "From sunscreen to seaweed, gov't sharpens claws against Korean brand copycats - Korea JoongAng Daily",
-      "product": "From sunscreen to seaweed, gov't sharpens claws against Korean brand copycats - Korea JoongAng Daily",
+      "keyword": "KHIDI opens Paris K-beauty hub to help Korean SMEs break into Europe - Korea Biomedical Review",
+      "product": "KHIDI opens Paris K-beauty hub to help Korean SMEs break into Europe - Korea Biomedical Review",
       "sub": "K-beauty",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZHM0YzVkdUhtRk9mbHVkN0d6SFF6N2pBbjkzWUd0dUFCZlpzSDFNNllwZXZFdVJ4MWtpY3FjRE4wYVYzUGtEbHM0a1g0S1lhbjUzU1dKRUd4QUF2dGQxS1pOa1FBNDR2UTZ5dlJtNW9KRzhCTm9pMmZRTDFhR09nZmZfZFRaWXpwcW55Y1k2SzNfUkFOWlA2OElvOW83Y1AxdnNVODVnN2I5TXFhMG51VXdwcHRnaVR3N1VsazIzWXpIYzVMUmg4?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5YTDQxc3NPZWN3bHBsNkFuUkczc1JYUkd0OEVPNHUwNkpJanZVdld2MnM0QjVLbUJlM3pqNTNRY081dmh4cWhDSE9kaUdBYlI5clViUU8xTHFlWDlDYndwTFM4ZGswUGRsc0JyYXd30gFyQVVfeXFMTjVwdVdTQmtlbVQxZEZ3eEVGdUNodmJLMmJXVUwweWh5YWhJNGFreF9PRmdhY19sSzN6MlZrOEM2dzBvNlZUejdJUGJMN1lxay1oNjNGcF9CdHBNWDZZamhDcXVqeEtTc1JkM054TjdFTWpR?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "L’Oréal puts social commerce first with Dr.G US launch on TikTok Shop - Personal Care Insights",
+      "product": "L’Oréal puts social commerce first with Dr.G US launch on TikTok Shop - Personal Care Insights",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9QMThRWTVWSHA0Yk5SSFFfb2hNSzAzbHZBbTNfcXJHQTFxQUlFTjBJNFRwdy1IQTRsZzA5TFFvR1Z4ZzNNUnllcnd2WWZfcWI5TFlyaWFKUVNkeWdzYURlaXFzNFYwTUNrY0JFaHhweV92RkZRQ1ZtMi13?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -61,8 +61,8 @@
       "beauty": true
     },
     {
-      "keyword": "A Beginner’s Guide to K-Beauty, J-Beauty, and I-Beauty - ELLE",
-      "product": "A Beginner’s Guide to K-Beauty, J-Beauty, and I-Beauty - ELLE",
+      "keyword": "A Beginner’s Guide to K-Beauty, J-Beauty, and I-Beauty - elle.com",
+      "product": "A Beginner’s Guide to K-Beauty, J-Beauty, and I-Beauty - elle.com",
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUjBXbDJORVlSeGlSTmtVbWNoQWU0N2I4bkZKSkhtLUhJZUcteG1FdVdXTW5XcEQtVVk5eHJFSE1CR1lfRVlxenlESEV3UG9ZdGhCYkQ2SWdlR1lESXJzTXMzU0tOUk1DM1hYTEJReFBGSUpzaG9iTmY4aFZ4bnBIUGc1OWhCVTU3aGx4dXFOdFdjbHVRTnBoTmFqMUpsQy1palVZSkp3SQ?oc=5",
@@ -70,11 +70,20 @@
       "beauty": true
     },
     {
-      "keyword": "Yepoda (예쁘다) K-Beauty Starter Box: Any Gamer’s Essential Kit - Cubed3",
-      "product": "Yepoda (예쁘다) K-Beauty Starter Box: Any Gamer’s Essential Kit - Cubed3",
+      "keyword": "Japanese Haircare Is Having Its K-Beauty Moment and Here Is Where to Shop It in the U.S. Right Now - Miami Herald",
+      "product": "Japanese Haircare Is Having Its K-Beauty Moment and Here Is Where to Shop It in the U.S. Right Now - Miami Herald",
       "sub": "K-beauty",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5UenVOcl9tbks3aVppdXRfZWdaa3VzQ2ZBRElSMm5aV1k2RDNRc3d1N3Z4TUxGU0tQMXdWNHdiSVV2UFJ5NXVWTXhWdEpFQXVhVmp2T0J0TkRaOE43Um9mVmY2ZVlFSU4wQkdn?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE14TlBDRVBiVG9KNW84Umk0akxzSEZoYVVaLVp3TUlhUkh5WGtvZmZtdUQ3ZzRwdnVxMnl0VF9rR1R5V1p3S0s3dDdmU0lfMVFfQmJES3htTlppOU5wd25rNnoxLUtXUERjbGJBbjYyZFhob03SAXNBVV95cUxNNHFJVEtNaERSLWVWMGVIQVBWWm1QT1RUZklUdW8wZ3lnVnEyalItcW1BWmNxejgwYkxFMlp4MjF5RGJXZDFuQjNFcWR6NWU5Z2dHcVNucVRFMTBQQkI0SkxyRWFEWjNKV1RrWFA5TVVzYW9j?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "From sunscreen to seaweed, gov't sharpens claws against Korean brand copycats - koreajoongangdaily.com",
+      "product": "From sunscreen to seaweed, gov't sharpens claws against Korean brand copycats - koreajoongangdaily.com",
+      "sub": "Korean sunscreen",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZHM0YzVkdUhtRk9mbHVkN0d6SFF6N2pBbjkzWUd0dUFCZlpzSDFNNllwZXZFdVJ4MWtpY3FjRE4wYVYzUGtEbHM0a1g0S1lhbjUzU1dKRUd4QUF2dGQxS1pOa1FBNDR2UTZ5dlJtNW9KRzhCTm9pMmZRTDFhR09nZmZfZFRaWXpwcW55Y1k2SzNfUkFOWlA2OElvOW83Y1AxdnNVODVnN2I5TXFhMG51VXdwcHRnaVR3N1VsazIzWXpIYzVMUmg4?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -88,8 +97,8 @@
       "beauty": true
     },
     {
-      "keyword": "The Best Korean Sunscreens for Invisible UV Protection - thelooker.thedailybeast.com",
-      "product": "The Best Korean Sunscreens for Invisible UV Protection - thelooker.thedailybeast.com",
+      "keyword": "The Best Korean Sunscreens for Invisible UV Protection - The Daily Beast",
+      "product": "The Best Korean Sunscreens for Invisible UV Protection - The Daily Beast",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObVNqeHpLQ3ZVc29jQ0JxTnpaTXhTTklfME5rN3QzakpIajB2Q09jekF5Q0dVYTN3M3ZiUklmWDZ5RTFGMnRwU1kzYWNMWGlybVNIYUZ1R1huUGYzTEJnanhBQzhqWXh3MFZYVFpLRWJSeTVBWEFiMm0tVlpMb19XZDVkbw?oc=5",
@@ -97,8 +106,8 @@
       "beauty": true
     },
     {
-      "keyword": "US and Korean sunscreens are not created equal, study says - wtop.com",
-      "product": "US and Korean sunscreens are not created equal, study says - wtop.com",
+      "keyword": "US and Korean sunscreens are not created equal, study says - WTOP News",
+      "product": "US and Korean sunscreens are not created equal, study says - WTOP News",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMnpvNUR0bm0tV2E0M183TDZLUVUwal9NRHduZ21ULUtPZFl2SnFoVS1WVFVZTjJtZjFfX1R5Um1Lajk0TXZzbnVpbkdpMXdMbno4dHo0Y3g4R3lYbV9rRkcyY0VsSjRVSFFPWVV5cTNNWG0tVC0zZ0tER251cDRCM3A0ZEJnNTBjWjBrYnp2dHRHSXd2UkNMckJqQ1JmUmFkX1RCeElDdmtzMGJ4X3V6SjJYbTQyUlNvazMycGw4b2k4aG44YkdN?oc=5",
@@ -160,15 +169,6 @@
       "beauty": true
     },
     {
-      "keyword": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - Good Housekeeping",
-      "product": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - Good Housekeeping",
-      "sub": "snail mucin",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaHNGOTRvaVF1V3FVRWxjLWo3T0NSN1Q5Tjk0X25hTU5iOEY4d3lGdTVTNngtV09hdldxWXcwYTA0OENIcElxQ1ZXUnBXQ3FIcGhfYm9zc2xTZkJlaFdjU2UxNHR1cmhicDdHYXZiOEZnTGZGNl9IQms5N1FxV1BpTjlFRzY0dGM?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
       "keyword": "The Not-So-Secret Ingredient in This $20 Moisturizer Gives Shoppers in Their 50s ‘10 Times Better’ Skin - people.com",
       "product": "The Not-So-Secret Ingredient in This $20 Moisturizer Gives Shoppers in Their 50s ‘10 Times Better’ Skin - people.com",
       "sub": "snail mucin",
@@ -196,11 +196,20 @@
       "beauty": true
     },
     {
-      "keyword": "Madison LeCroy uses this $13 snail mucin skin care ‘every single night’: ‘Really does work’ - Page Six",
-      "product": "Madison LeCroy uses this $13 snail mucin skin care ‘every single night’: ‘Really does work’ - Page Six",
+      "keyword": "Madison LeCroy uses this $13 snail mucin skin care ‘every single night’: ‘Really does work’ - pagesix.com",
+      "product": "Madison LeCroy uses this $13 snail mucin skin care ‘every single night’: ‘Really does work’ - pagesix.com",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOVFOcDNSNU5FazZmWTllWXZrM0ZPdE0zcll3Qk9WbWFhdEIzZmhpVVZRY29xbE8xMDZ5VjNIR083a0FrbEUxU2RSNHkxNWFnczE0U0dDenNXdlMzOU50cmdBM1JxcmxYbHEtZFpXQ1FXNXY0Smxnb3ZxYWdoTEFIY3BaZkJucHhWMEJZTVAtV2ZpWEtZTmdNZUkxbXotelFLOUxWLVJ3?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - Good Housekeeping",
+      "product": "I Tried the Internet’s Favorite Snail Mucin—Here’s My Honest Take - Good Housekeeping",
+      "sub": "snail mucin",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaHNGOTRvaVF1V3FVRWxjLWo3T0NSN1Q5Tjk0X25hTU5iOEY4d3lGdTVTNngtV09hdldxWXcwYTA0OENIcElxQ1ZXUnBXQ3FIcGhfYm9zc2xTZkJlaFdjU2UxNHR1cmhicDdHYXZiOEZnTGZGNl9IQms5N1FxV1BpTjlFRzY0dGM?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -268,8 +277,8 @@
       "beauty": true
     },
     {
-      "keyword": "Best toner: Discover which face toner best suits your skin type and budget - mamabella.uk",
-      "product": "Best toner: Discover which face toner best suits your skin type and budget - mamabella.uk",
+      "keyword": "Best toner: Discover which face toner best suits your skin type and budget - Mamabella",
+      "product": "Best toner: Discover which face toner best suits your skin type and budget - Mamabella",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5hcW5ZR2hNR0ZGQ2dvaTVvUTFyRmRhOTJfUXlkVlhicmYzT01PZzFPREtQSXJRZHRDZEc2M0RtazdoSkRucVlSdEZoZ1ZZRXV0eWpfZFY3TVZrN1ByQkNyeQ?oc=5",
@@ -354,15 +363,6 @@
       "sub": "centella serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRkRkQi1TY3h2YmlWZlEzSlRKNV9lMXNXSDdBQ2RBVHBmb0NCcThJa1Q1MkNsbVVISHhZSUNyU3BncGxQQndHbDk5cnJwbFhXVHBKa2tPQXJ1WlBFRzFrbnR5NXU1ek9GYUVOcUlVTHROZTZscjFJVUlmR1had2JockFNUWIxUQ?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "Pamela Anderson Says This Niacinamide Face Serum “Works Everywhere, Every Time” - E! News",
-      "product": "Pamela Anderson Says This Niacinamide Face Serum “Works Everywhere, Every Time” - E! News",
-      "sub": "niacinamide serum",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZ0FwM2ctLWtCSlVYcmVEODZrOTZ0RGhoOFhhazhCdkgxWDAtaFdfeXY1VUNTZjUtc1ItaHJDeWhpYTBTMF9DdlU3YmxSZ09nSnpPZFlnT0dKMnhqYm1RbTktMHVCcG9KLURmbTA0TWlPU2RJT091WFRnN1B0cXN0V2ttM2ZMSWhoeFRJT0t0UTN6UWxVaTl2bFRJVUFZcWo1akJXSlNJQVdzUQ?oc=5",
       "kind": "news",
       "beauty": true
     }
