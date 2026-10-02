@@ -2,7 +2,7 @@
 title: "Record f60207c81d · Purlin-Separating-Orchestration-from-the-Datapath-of-Collectives"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:44.404907+00:00
+updated_at: 2026-10-02T22:16:41.837786+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 5ba6804e5f · Inside-looksmaxxing-the-extreme-cosmetic-social-med"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:45.142732+00:00
+updated_at: 2026-10-02T22:16:42.487668+00:00
 tags: [record, real-data]
 ---
 

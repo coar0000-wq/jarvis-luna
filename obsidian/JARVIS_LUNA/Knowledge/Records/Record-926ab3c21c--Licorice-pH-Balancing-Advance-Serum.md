@@ -2,7 +2,7 @@
 title: "Record 926ab3c21c · Licorice-pH-Balancing-Advance-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:45.421017+00:00
+updated_at: 2026-10-02T22:16:42.724160+00:00
 tags: [record, real-data]
 ---
 

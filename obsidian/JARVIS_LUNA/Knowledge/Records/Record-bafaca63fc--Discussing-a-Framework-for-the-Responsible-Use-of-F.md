@@ -2,7 +2,7 @@
 title: "Record bafaca63fc · Discussing-a-Framework-for-the-Responsible-Use-of-F"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:43.985975+00:00
+updated_at: 2026-10-02T22:16:41.469977+00:00
 tags: [record, real-data]
 ---
 

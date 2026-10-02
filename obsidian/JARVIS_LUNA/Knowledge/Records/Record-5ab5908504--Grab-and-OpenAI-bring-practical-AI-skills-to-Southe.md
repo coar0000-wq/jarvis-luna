@@ -2,7 +2,7 @@
 title: "Record 5ab5908504 · Grab-and-OpenAI-bring-practical-AI-skills-to-Southeast-Asia"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:45.325557+00:00
+updated_at: 2026-10-02T22:16:42.637843+00:00
 tags: [record, real-data]
 ---
 

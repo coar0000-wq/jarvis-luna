@@ -2,7 +2,7 @@
 title: "Record b936746e0e · Generative-AI-Use-Cases-20-Ecommerce-Examples-2026-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:44.841686+00:00
+updated_at: 2026-10-02T22:16:42.234970+00:00
 tags: [record, real-data]
 ---
 

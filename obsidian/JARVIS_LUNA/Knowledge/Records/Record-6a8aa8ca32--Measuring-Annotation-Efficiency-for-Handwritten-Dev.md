@@ -2,7 +2,7 @@
 title: "Record 6a8aa8ca32 · Measuring-Annotation-Efficiency-for-Handwritten-Devanagari-Recognition"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:44.183716+00:00
+updated_at: 2026-10-02T22:16:41.644887+00:00
 tags: [record, real-data]
 ---
 

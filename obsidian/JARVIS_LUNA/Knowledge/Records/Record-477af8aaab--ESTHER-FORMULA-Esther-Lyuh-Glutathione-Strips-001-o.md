@@ -2,7 +2,7 @@
 title: "Record 477af8aaab · ESTHER-FORMULA-Esther-Lyuh-Glutathione-Strips-001-oz03g-x-15ea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:45.572844+00:00
+updated_at: 2026-10-02T22:16:42.846301+00:00
 tags: [record, real-data]
 ---
 

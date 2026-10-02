@@ -2,7 +2,7 @@
 title: "Record 6376e60b9f · Vitamin-C-Clay-Mask"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:45.427644+00:00
+updated_at: 2026-10-02T22:16:42.730175+00:00
 tags: [record, real-data]
 ---
 

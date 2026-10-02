@@ -2,7 +2,7 @@
 title: "Record 702e77f09e · 8-Shades-DrJart-Premium-BB-SPF-30-40ml-13-fl-oz"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:45.548159+00:00
+updated_at: 2026-10-02T22:16:42.826282+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record a15a21da56 · I-Tried-the-Internets-Favorite-Snail-MucinHeres-My-Honest-Take---Good-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:44.977675+00:00
+updated_at: 2026-10-02T22:16:42.350929+00:00
 tags: [record, real-data]
 ---
 

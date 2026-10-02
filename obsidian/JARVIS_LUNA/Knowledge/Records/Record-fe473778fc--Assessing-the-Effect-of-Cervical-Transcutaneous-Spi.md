@@ -2,7 +2,7 @@
 title: "Record fe473778fc · Assessing-the-Effect-of-Cervical-Transcutaneous-Spinal-Stimulation-Wit"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:43.873613+00:00
+updated_at: 2026-10-02T22:16:41.374363+00:00
 tags: [record, real-data]
 ---
 

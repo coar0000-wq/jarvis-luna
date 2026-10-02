@@ -2,7 +2,7 @@
 title: "Record 8fd9146ac1 · SAMI3D-DW-Interactive-Segmentation-of-Any-3D-Medical-Images"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:44.284379+00:00
+updated_at: 2026-10-02T22:16:41.732015+00:00
 tags: [record, real-data]
 ---
 

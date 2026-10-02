@@ -2,7 +2,7 @@
 title: "Record 15483a7b5a · Licorice-pH-Balancing-Cleansing-Toner"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:45.421384+00:00
+updated_at: 2026-10-02T22:16:42.724521+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 55140bdb4a · Multiscale-Visibility-Theory-A-Task-Relative-Operator-Geometric-Framew"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:43.429434+00:00
+updated_at: 2026-10-02T22:16:40.997301+00:00
 tags: [record, real-data]
 ---
 

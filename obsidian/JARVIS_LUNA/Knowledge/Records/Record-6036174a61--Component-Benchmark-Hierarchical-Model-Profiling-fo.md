@@ -2,7 +2,7 @@
 title: "Record 6036174a61 · Component-Benchmark-Hierarchical-Model-Profiling-for-Large-scale-Recom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:43.568068+00:00
+updated_at: 2026-10-02T22:16:41.113685+00:00
 tags: [record, real-data]
 ---
 

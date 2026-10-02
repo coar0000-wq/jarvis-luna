@@ -2,7 +2,7 @@
 title: "Record 19670e2ed2 · 12-Korean-Beauty-Brands-Endorsed-by-K-Pop-Stars-and"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:45.212438+00:00
+updated_at: 2026-10-02T22:16:42.544387+00:00
 tags: [record, real-data]
 ---
 

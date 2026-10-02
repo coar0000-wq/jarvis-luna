@@ -2,7 +2,7 @@
 title: "Record 646e6d7053 · MiTHras-Task-specific-Hierarchical-Semi-supervised-Contrastive-Masked-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:44.277201+00:00
+updated_at: 2026-10-02T22:16:41.725648+00:00
 tags: [record, real-data]
 ---
 

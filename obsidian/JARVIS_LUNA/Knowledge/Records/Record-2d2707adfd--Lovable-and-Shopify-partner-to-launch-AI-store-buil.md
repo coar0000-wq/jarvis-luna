@@ -2,7 +2,7 @@
 title: "Record 2d2707adfd · Lovable-and-Shopify-partner-to-launch-AI-store-buil"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:45.010648+00:00
+updated_at: 2026-10-02T22:16:42.380001+00:00
 tags: [record, real-data]
 ---
 

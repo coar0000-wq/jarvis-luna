@@ -2,7 +2,7 @@
 title: "Record a7033f017c · Dual-View-Training-for-Instruction-Following-Information-Retrieval"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:44.103256+00:00
+updated_at: 2026-10-02T22:16:41.571887+00:00
 tags: [record, real-data]
 ---
 

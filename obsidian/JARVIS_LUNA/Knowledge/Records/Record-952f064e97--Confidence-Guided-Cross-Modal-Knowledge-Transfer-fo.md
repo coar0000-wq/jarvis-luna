@@ -2,7 +2,7 @@
 title: "Record 952f064e97 · Confidence-Guided-Cross-Modal-Knowledge-Transfer-for-Multimodal-Anomal"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:43.524976+00:00
+updated_at: 2026-10-02T22:16:41.076736+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 922d447f4f · YUNJAC-Whole-Plant-Effect-Daily-Foam--Exfoliant-282-oz80g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:45.508366+00:00
+updated_at: 2026-10-02T22:16:42.794412+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record e2d9604516 · Dry-Skin-Types-Should-Be-Using-Face-TonerHeres-Why---Allure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:44.754400+00:00
+updated_at: 2026-10-02T22:16:42.155154+00:00
 tags: [record, real-data]
 ---
 

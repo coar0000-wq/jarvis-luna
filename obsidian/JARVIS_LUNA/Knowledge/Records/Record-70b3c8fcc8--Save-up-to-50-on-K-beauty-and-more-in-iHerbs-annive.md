@@ -2,7 +2,7 @@
 title: "Record 70b3c8fcc8 · Save-up-to-50-on-K-beauty-and-more-in-iHerbs-annive"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:45.101152+00:00
+updated_at: 2026-10-02T22:16:42.453387+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2063e396e3 · Closure-Scales-and-a-Route-to-Geometrical-Unification-Intrinsic-Closur"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:44.514610+00:00
+updated_at: 2026-10-02T22:16:41.946675+00:00
 tags: [record, real-data]
 ---
 

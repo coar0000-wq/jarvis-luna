@@ -2,7 +2,7 @@
 title: "Record e7118c4b86 · Scalable-Packet-Tracking-on-FPGAs-for-Erasure-Coded-RDMA-over-Lossy-WA"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:45.416830+00:00
+updated_at: 2026-10-02T22:16:42.720192+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 5423bc4c86 · Caffeine-Market-Outlook-Outpace-Industry-2026"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:46.372208+00:00
+updated_at: 2026-10-02T22:16:43.488057+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record adf43980fc · Managing-Inventory-Turnover-And-Excess-Inventory"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:46.319735+00:00
+updated_at: 2026-10-02T22:16:43.442864+00:00
 tags: [record, real-data]
 ---
 

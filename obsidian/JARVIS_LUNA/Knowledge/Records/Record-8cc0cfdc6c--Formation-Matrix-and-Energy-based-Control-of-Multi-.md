@@ -2,7 +2,7 @@
 title: "Record 8cc0cfdc6c · Formation-Matrix-and-Energy-based-Control-of-Multi-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:43.250633+00:00
+updated_at: 2026-10-02T22:16:40.836945+00:00
 tags: [record, real-data]
 ---
 

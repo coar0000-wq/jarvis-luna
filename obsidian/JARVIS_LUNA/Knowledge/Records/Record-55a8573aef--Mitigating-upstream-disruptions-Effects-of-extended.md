@@ -2,7 +2,7 @@
 title: "Record 55a8573aef · Mitigating-upstream-disruptions-Effects-of-extended-inventories-in-fir"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:43.632696+00:00
+updated_at: 2026-10-02T22:16:41.170237+00:00
 tags: [record, real-data]
 ---
 

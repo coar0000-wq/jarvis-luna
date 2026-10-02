@@ -2,7 +2,7 @@
 title: "Record b66967fb02 · G-CARL-Grounded-Checklist-Aligned-Reward-Learning-f"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:46.665281+00:00
+updated_at: 2026-10-02T22:16:43.743063+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 513d4bca22 · 3sizes-ILLIYOON-Ceramide-Ato-Lotion"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:45.565489+00:00
+updated_at: 2026-10-02T22:16:42.840346+00:00
 tags: [record, real-data]
 ---
 
