@@ -9,34 +9,50 @@ import datetime
 from pathlib import Path
 from datetime import timezone
 
+from operational_freshness import assess_collection, assess_heartbeat
+
 ROOT = Path(__file__).parent.parent
 DATA_DIR = ROOT / "data"
 
 def parse_iso(s):
     try:
-        return datetime.datetime.fromisoformat(s.replace("Z", "+00:00"))
-    except:
+        dt = datetime.datetime.fromisoformat(str(s).replace("Z", "+00:00"))
+        return (dt.replace(tzinfo=timezone.utc) if dt.tzinfo is None else dt).astimezone(timezone.utc)
+    except (ValueError, TypeError, OverflowError):
         return None
+
 
 def now_utc():
     return datetime.datetime.now(timezone.utc)
+
 
 def hours_since(iso):
     dt = parse_iso(iso)
     if not dt:
         return 9999
-    return (now_utc() - dt).total_seconds() / 3600
+    h = (now_utc() - dt).total_seconds() / 3600
+    return max(0, h) if h >= -5 / 60 else 9999
+
 
 def freshness_str(iso):
     h = hours_since(iso)
-    if h < 1/60:
+    if h == 9999:
+        return "unknown"
+    if h < 1 / 60:
         return "just now"
-    elif h < 1:
-        return f"{int(h*60)} min ago"
-    elif h < 24:
+    if h < 1:
+        return f"{int(h * 60)} min ago"
+    if h < 24:
         return f"{h:.1f} hours ago"
-    else:
-        return f"{h/24:.1f} days ago"
+    return f"{h / 24:.1f} days ago"
+
+
+def load_optional(path):
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return {}
+
 
 def check_all():
     checks = []
@@ -129,15 +145,34 @@ def check_all():
     has_trend = any(x.get("trend") is not None for x in market.get("keyword_board") or [])
     checks.append({"team": "marketing", "status": "success" if rows and cp_ok == len(rows) and has_trend else "warning", "reason": f"S 우선순위 CP 연결 {cp_ok}/{len(rows)} · Trends {'연결' if has_trend else '미연동'}", "is_failure": False, "freshness": freshness_str((market.get("team") or {}).get("updated_at", ""))})
 
-    # 기존 gosi, product_discovery, daiso
-    for name, path in [("gosi", DATA_DIR / "gosi.json"), ("product_discovery", DATA_DIR / "daiso_real" / "shopify_demand_score.json"), ("daiso", DATA_DIR / "daiso_real" / "products.json")]:
+    # A collection timestamp is collector evidence, never a checkout mtime.
+    collection = assess_collection(load_optional(DATA_DIR / "daiso_real" / "collection_status.json"), now=now_utc())
+    checks.append({"team": "daiso", **collection,
+                   "freshness": freshness_str(collection["last_attempt_at"])})
+    heartbeat = assess_heartbeat(load_optional(DATA_DIR / "agents" / "autofix_report.json"), now=now_utc())
+    checks.append({"team": "deep_heartbeat", **heartbeat,
+                   "freshness": freshness_str(heartbeat["last_attempt_at"])})
+    workflows = load_optional(DATA_DIR / "agents" / "workflow_freshness.json")
+    observed = workflows.get("observed_at") or workflows.get("generated_at")
+    observed_fresh = hours_since(observed) <= 4.5
+    checks.append({
+        "team": "actions_monitor",
+        "status": workflows.get("status", "warning") if observed_fresh else "warning",
+        "reason": ("GitHub Actions 관측: " + str(workflows.get("checked_workflows", 0)) + "/" + str(workflows.get("total_workflows", 5)) + "개 · 실패 " + str(workflows.get("failed_actions", "unknown"))) if observed_fresh else "GitHub Actions 상태 조회 시각 미확인 또는 4.5시간 경과",
+        "is_failure": observed_fresh and workflows.get("status") == "failed",
+        "observed_at": observed,
+        "freshness": freshness_str(observed),
+    })
+
+    # Artifact age alone does not prove a successful no_change execution.
+    for name, path in [("gosi", DATA_DIR / "gosi.json"), ("product_discovery", DATA_DIR / "daiso_real" / "shopify_demand_score.json")]:
         if path.exists():
             try:
                 d = json.loads(path.read_text(encoding="utf-8"))
-                updated = d.get("updated_at") or d.get("generated_at") or datetime.datetime.fromtimestamp(path.stat().st_mtime, timezone.utc).isoformat()
+                updated = d.get("updated_at") or d.get("generated_at")
                 h = hours_since(updated)
                 if h > 99:
-                    checks.append({"team": name, "status": "warning", "reason": f"{h:.1f}h 전 갱신 - 변경 없음으로 처리", "is_failure": False, "is_no_change": True, "freshness": freshness_str(updated)})
+                    checks.append({"team": name, "status": "warning", "reason": "갱신 시각 미확인" if h == 9999 else f"{h:.1f}h 전 산출물 갱신 · 실행 결과는 별도 확인", "is_failure": False, "is_no_change": False, "freshness": freshness_str(updated)})
                 else:
                     checks.append({"team": name, "status": "success", "reason": f"정상 {h:.1f}h 전", "is_failure": False, "freshness": freshness_str(updated)})
             except Exception as e:
@@ -157,15 +192,28 @@ def build_dashboard():
     overall = "failed" if has_failed else "degraded" if has_degraded else "warning" if has_warning else "success"
     
     # P2 Error Dashboard 상단 KPI
-    status_doc = json.loads((DATA_DIR / "daiso_real" / "collection_status.json").read_text(encoding="utf-8"))
-    queue_size = int((status_doc.get("last_run") or {}).get("queue_size") or 0)
+    status_doc = load_optional(DATA_DIR / "daiso_real" / "collection_status.json")
+    collection = assess_collection(status_doc, now=now_utc())
+    latest_attempt = status_doc.get("last_attempt") or status_doc.get("last_run") or {}
+    queue_size = int(latest_attempt.get("queue_size") or 0)
     stale = [c["team"] for c in checks if c["status"] in ("warning", "degraded")]
+    workflows = load_optional(DATA_DIR / "agents" / "workflow_freshness.json")
+    observed = workflows.get("observed_at") or workflows.get("generated_at")
+    observed_fresh = hours_since(observed) <= 4.5
+    workflow_successes = [r.get("last_success_at") for r in (workflows.get("workflows") or {}).values() if isinstance(r, dict) and parse_iso(r.get("last_success_at"))]
+    workflow_success = max(workflow_successes, key=parse_iso) if workflow_successes else None
     kpi = {
-        "last_success": now_utc().isoformat(),
-        "failed_jobs": len([c for c in checks if c["status"]=="failed"]),
+        "last_success": workflow_success or collection["last_success_at"],
+        "last_success_source": "github_actions_snapshot" if workflow_success else "daiso_collection",
+        "collection_last_attempt": collection["last_attempt_at"],
+        "collection_last_success": collection["last_success_at"],
+        "failed_jobs": workflows.get("failed_actions", "unknown") if observed_fresh else "unknown",
+        "failed_checks": len([c for c in checks if c["status"] == "failed"]),
+        "actions_observed_at": observed,
+        "actions_observation_fresh": observed_fresh,
         "queue": queue_size,
         "stale_source": stale[0] if stale else "none",
-        "freshness_summary": {c["team"]: c.get("freshness","unknown") for c in checks}
+        "freshness_summary": {c["team"]: c.get("freshness", "unknown") for c in checks},
     }
     
     result = {
@@ -173,7 +221,7 @@ def build_dashboard():
         "overall_status": overall,
         "status_legend": {
             "success": "정상",
-            "warning": "변경 없음",
+            "warning": "주의 · 변경 없음/최신성/실행 지연",
             "degraded": "일부 실패",
             "waiting": "사람 입력 대기 (장애 아님)",
             "failed": "예외 - 자동화 장애"

@@ -3,13 +3,14 @@
 """S등급 상품의 누락 영문 카피를 무료·로컬 템플릿으로 보완한다.
 
 기존 검증 카피는 그대로 보존한다. 현재 listing gate의 agent_ready 상품 중
-카피가 없거나 예전 선행 게이트 때문에 건너뛴 상품만 처리한다. 제품명, 용량,
-원산지처럼 정본에 있는 사실만 쓰며 효능·인증·임상 결과를 생성하지 않는다.
+카피가 없거나 v1 로컬 초안인 상품, 예전 선행 게이트 때문에 건너뛴 상품만
+처리한다. 제품명·제형·용량 사실만 쓰며 효능·인증·원산지를 추정하지 않는다.
 외부 API와 유료 모델은 호출하지 않는다.
 """
 from __future__ import annotations
 
 import json
+from html import escape
 import re
 from datetime import datetime, timezone
 from pathlib import Path
@@ -19,6 +20,8 @@ DATA = ROOT / "data"
 SRC = DATA / "daiso_real" / "shopify_s_recommendations.json"
 GATE = DATA / "listing_gate.json"
 OUT = DATA / "shopify_listing_copy.json"
+LOCAL_MODE = "deterministic_local_template_v2"
+LEGACY_LOCAL_MODE = "deterministic_local_template_v1"
 
 
 def load(path: Path, default):
@@ -43,7 +46,7 @@ def brand_of(name: str) -> str:
     for token, brand in pairs:
         if token.upper() in upper:
             return brand
-    return "K-Beauty"
+    return ""
 
 
 def type_of(name: str) -> str:
@@ -101,19 +104,26 @@ def local_copy(name: str, gate_row: dict) -> dict:
     product_type = type_of(name)
     focus = focus_of(name)
     volume = volume_of(gate_row, name)
-    title = " ".join(x for x in (brand, focus, product_type, volume) if x)
+    # Name tokens identify the product; they do not establish ingredient claims.
+    # Unknown brands retain their source name rather than inferring an origin.
+    title = (" ".join(x for x in (brand, focus, product_type, volume) if x)
+             if brand else name)
     title = title[:70].rstrip()
-    size_text = f" in a {volume} size" if volume else ""
-    description = (
-        f"<p>{title} is a Korean beauty {product_type.lower()}{size_text}. "
-        "This draft uses only the verified product identity and package information.</p>"
-        "<p>Review the ingredient list, directions, and final US label before publication.</p>"
+    size_text = f" listed with {volume} net contents" if volume else ""
+    identity_sentence = f"{title} is a {product_type.lower()}{size_text}."
+    review_sentence = (
+        f"Before publication, review {title} against its ingredient list, "
+        "directions, and final US label."
     )
-    tags = [slug(x) for x in (brand, focus, product_type, "k-beauty", "korean-beauty") if slug(x)]
+    description = (
+        f"<p>{escape(identity_sentence)}</p><p>{escape(review_sentence)}</p>"
+    )
+    tags = [slug(x) for x in (brand, focus, product_type) if slug(x)]
     tags = list(dict.fromkeys(tags))
     seo_description = (
-        f"View {title}. Product identity and size are based on the source product notice. "
-        "Review ingredients, directions, and the final label before purchase."
+        f"{title}: source-listed {product_type.lower()}"
+        + (f"; net contents {volume}" if volume else "")
+        + f". Check the final US label for {title} before publication."
     )[:320]
     return {
         "title": title,
@@ -166,7 +176,9 @@ def main() -> int:
             skipped += 1
             continue
 
-        if old.get("copy_status") == "ok" and isinstance(old.get("copy"), dict):
+        if (old.get("copy_status") == "ok"
+                and isinstance(old.get("copy"), dict)
+                and old.get("generation_mode") != LEGACY_LOCAL_MODE):
             items.append({
                 **common,
                 "copy": old["copy"],
@@ -182,7 +194,7 @@ def main() -> int:
             **common,
             "copy": local_copy(clean(product.get("name")), gate_row),
             "copy_status": "ok",
-            "generation_mode": "deterministic_local_template_v1",
+            "generation_mode": LOCAL_MODE,
             "agent_blocked_by": [],
             "error": "",
         })
@@ -196,7 +208,7 @@ def main() -> int:
         "paid_api_called": False,
         "source": "data/daiso_real/shopify_s_recommendations.json",
         "note": (
-            "기존 검증 카피를 보존하고 누락분만 제품명·용량·원산지 기반의 "
+            "기존 검증 카피를 보존하고 누락분·v1 초안만 제품명·제형·용량 기반의 "
             "보수적 영문 초안으로 생성한다. 효능·인증·임상 결과는 생성하지 않는다."
         ),
         "total": len(items),

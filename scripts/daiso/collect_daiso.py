@@ -80,6 +80,8 @@ import os
 import random
 import re
 import sys
+import signal
+import uuid
 import time
 import urllib.error
 import urllib.parse
@@ -103,6 +105,12 @@ QUEUE = OUT_DIR / "beauty_queue.json"
 STATUS = OUT_DIR / "collection_status.json"
 
 CATMAP = Path(__file__).with_name("category_map.json")
+
+sys.path.insert(0, str(ROOT / "scripts"))
+from validate_daiso_collection import record_attempt
+
+NETWORK_ERRORS = 0
+ACTIVE_ATTEMPT = {}
 
 
 # ============================================================
@@ -138,9 +146,9 @@ MAX_ITEMS = int(
     os.environ.get("DAISO_MAX_ITEMS", "110")
 )
 
-DELAY = float(
+DELAY = max(30.0, float(
     os.environ.get("DAISO_DELAY", "30")
-)
+))
 
 TIMEOUT = float(
     os.environ.get("DAISO_TIMEOUT", "20")
@@ -248,6 +256,7 @@ def fetch(
     extra_headers: dict[str, str] | None = None,
 ) -> tuple[int, str, dict[str, str]]:
 
+    global NETWORK_ERRORS
     headers = {
         "User-Agent": UA,
         "Accept": (
@@ -279,6 +288,8 @@ def fetch(
             timeout=TIMEOUT,
         ) as response:
 
+            if response.status != 200:
+                NETWORK_ERRORS += 1
             raw = response.read()
 
             charset = (
@@ -303,6 +314,7 @@ def fetch(
             )
 
     except urllib.error.HTTPError as exc:
+        NETWORK_ERRORS += 1
 
         try:
             body = exc.read().decode(
@@ -319,6 +331,7 @@ def fetch(
         )
 
     except Exception as exc:
+        NETWORK_ERRORS += 1
 
         return (
             0,
@@ -2342,6 +2355,8 @@ def product_urls_from_sitemap() -> list[str]:
 
         return []
 
+    # A malformed sitemap is not a successful empty collection.
+    ET.fromstring(body)
     urls = parse_xml_urls(
         body
     )
@@ -2778,7 +2793,16 @@ BUCKET_TARGETS = {
 
 def main() -> int:
 
+    global ACTIVE_ATTEMPT, NETWORK_ERRORS
+    NETWORK_ERRORS = 0
     started_at = now_iso()
+    ACTIVE_ATTEMPT = {
+        "started_at": started_at, "status": "running",
+        "execution_id": os.environ.get("DAISO_EXECUTION_ID") or str(uuid.uuid4()),
+        "collector_version": 2, "collector_completed": False,
+        "requested": 0, "ok": 0, "parse_failed": 0, "http_error": 0,
+    }
+    save_json(STATUS, record_attempt(load_json(STATUS, {}), ACTIVE_ATTEMPT))
 
     OUT_DIR.mkdir(
         parents=True,
@@ -3137,6 +3161,7 @@ def main() -> int:
     requested = len(
         candidates
     )
+    ACTIVE_ATTEMPT["requested"] = requested
 
     ok_count = 0
     parse_failed = 0
@@ -3613,17 +3638,19 @@ def main() -> int:
         )
     )
 
-    save_json(
-        PRODUCTS,
-        {
-            "updated_at": now_iso(),
-            "source": "Daiso Korea",
-            "count": len(
-                final_products
-            ),
-            "products": final_products,
-        },
-    )
+    # Do not refresh product bytes/timestamps when no products were collected.
+    if ok_count > 0:
+        save_json(
+            PRODUCTS,
+            {
+                "updated_at": now_iso(),
+                "source": "Daiso Korea",
+                "count": len(
+                    final_products
+                ),
+                "products": final_products,
+            },
+        )
 
     # ========================================================
     # STATE
@@ -3800,9 +3827,11 @@ def main() -> int:
     ):
         status_payload = {}
 
-    status_payload[
-        "last_run"
-    ] = {
+    http_error = max(http_error, NETWORK_ERRORS)
+    attempt = {
+        "execution_id": ACTIVE_ATTEMPT["execution_id"],
+        "collector_version": 2,
+        "collector_completed": True,
         "started_at": started_at,
         "requested": requested,
         "ok": ok_count,
@@ -3858,18 +3887,18 @@ def main() -> int:
             )
         },
         "status": (
-            "failed" if requested > 0 and ok_count == 0
-            and (parse_failed > 0 or http_error > 0)
+            "failed" if (parse_failed > 0 or http_error > 0)
             else "no_change" if ok_count == 0
             else "ok"
         ),
         "failure_reason": (
-            f"성공 0건 · 파싱 실패 {parse_failed}건 · HTTP 오류 {http_error}건"
-            if requested > 0 and ok_count == 0
-            and (parse_failed > 0 or http_error > 0)
+            f"성공 {ok_count}건 · 파싱 실패 {parse_failed}건 · HTTP 오류 {http_error}건"
+            if (parse_failed > 0 or http_error > 0)
             else ""
         ),
     }
+
+    status_payload = record_attempt(status_payload, attempt)
 
     status_payload[
         "totals"
@@ -3960,10 +3989,24 @@ def main() -> int:
                 f"{item['reason']}"
             )
 
-    return 0
+    return int(attempt["status"] == "failed")
+
+
+def run_collector():
+    def terminate(signum, frame):
+        raise SystemExit(128 + signum)
+    signal.signal(signal.SIGTERM, terminate)
+    try:
+        return main()
+    except BaseException as exc:
+        if ACTIVE_ATTEMPT:
+            attempt = dict(ACTIVE_ATTEMPT)
+            attempt.update(status="stopped" if isinstance(exc, (KeyboardInterrupt, SystemExit)) else "failed",
+                           finished_at=now_iso(), collector_completed=False,
+                           http_error=NETWORK_ERRORS, failure_reason=type(exc).__name__)
+            save_json(STATUS, record_attempt(load_json(STATUS, {}), attempt))
+        raise
 
 
 if __name__ == "__main__":
-    raise SystemExit(
-        main()
-    )
+    raise SystemExit(run_collector())

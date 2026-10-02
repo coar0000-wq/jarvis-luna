@@ -1,0 +1,110 @@
+name: Deploy verified GitHub Pages
+
+# GITHUB_TOKEN publishers do not trigger push workflows. Their completed runs
+# also wake this verifier, so scheduled data remains deployable without a PAT.
+on:
+  workflow_run:
+    workflows:
+      - 배포 전 검증
+      - Daiso Real Product Collection
+      - Gemini url_context 웹 채널 수집
+      - 고시 alt 수집 (브라우저)
+      - 고시 수집·비전 추출
+      - INCI 사전 갱신 (대한화장품협회 정본)
+      - 🤖 JARVIS Core Automation (2시간)
+      - JARVIS Deep Analysis
+      - JARVIS Real Knowledge Sync
+      - 🧠 Legacy Obsidian 동기화 (수동 실행 전용)
+      - 루트 수집기 3종 (gosi / product / inci)
+      - SerpApi 미국 시장가·트렌드·YouTube 수집
+      - Shopify 영문 리스팅 카피 생성
+      - 미국 리테일 베스트셀러 수집 (브라우저)
+    types: [completed]
+    branches: [main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  verified-deploy:
+    if: >-
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.head_branch == 'main' &&
+      github.event.workflow_run.head_repository.full_name == github.repository &&
+      github.event.workflow_run.event != 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout current published main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install offline verification dependencies
+        run: python -m pip install --quiet pyyaml pyflakes
+
+      # A green upstream badge is insufficient. Recheck this exact checkout;
+      # no continue-on-error, no tee masking, and no external model credentials.
+      - name: Validate the exact deployment snapshot
+        shell: bash
+        env:
+          TYPESAFE_ENABLED: '0'
+          GEMINI_FALLBACK_ENABLED: '0'
+        run: |
+          set +e
+          python scripts/preflight.py
+          rc=$?
+          set -e
+          if [ "$rc" != 0 ] && [ "$rc" != 2 ]; then
+            echo "::error::Deployment blocked by preflight exit $rc"
+            exit 1
+          fi
+          python scripts/test_preflight_workflow.py
+          python scripts/test_daiso_collection_validation.py
+          python scripts/test_listing_copy_local.py
+          python scripts/test_operational_freshness.py
+          python scripts/test_workflow_status.py
+          python scripts/test_verified_pages.py
+          python scripts/test_operational_integration.py
+          python scripts/test_build_artifact_graph_mermaid.py
+          python scripts/test_self_improve.py
+          python scripts/test_self_improve_replay.py
+          python scripts/test_team_learning.py
+          python scripts/test_shopify_shortlist_guard.py
+          python scripts/build_artifact_graph.py --check
+
+      - name: Reject an obsolete checkout
+        shell: bash
+        run: |
+          git fetch origin main
+          if [ "$(git rev-parse HEAD)" != "$(git rev-parse FETCH_HEAD)" ]; then
+            echo "::error::Main changed during verification. The next completed run will deploy the newer verified snapshot."
+            exit 1
+          fi
+          echo "Verified deployment commit: $(git rev-parse HEAD)" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload verified site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy verified site
+        id: deployment
+        uses: actions/deploy-pages@v4

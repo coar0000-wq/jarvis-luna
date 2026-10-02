@@ -3,7 +3,7 @@ name: JARVIS Real Knowledge Sync
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 0,6,12,18 * * *"
+    - cron: "37 0,6,12,18 * * *"
 
 permissions:
   contents: write

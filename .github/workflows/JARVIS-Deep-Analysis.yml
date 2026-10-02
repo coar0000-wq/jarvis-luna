@@ -3,7 +3,7 @@ name: JARVIS Deep Analysis
 on:
   schedule:
     # 실측 실행 간격을 고려해 2시간 주기
-    - cron: '0 */2 * * *'
+    - cron: '17 */2 * * *'
 
   workflow_dispatch:
     inputs:
@@ -448,6 +448,12 @@ jobs:
         timeout-minutes: 5
         run: python -u scripts/check_source_health.py
 
+      - name: Observe actual Actions freshness (read-only)
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python -u scripts/collect_workflow_status.py
+
       - name: 에러 보고서 생성 (막힘·고장·대기·보류)
         continue-on-error: true
         timeout-minutes: 3
@@ -510,6 +516,7 @@ jobs:
       - name: Generate final dashboard runtime after Auto-Fix
         timeout-minutes: 10
         run: |
+          python -u scripts/health_check_v2.py
           python scripts/generate_dashboard_runtime.py
 
       - name: Refresh typed ops plan and conditional Gemini escalation

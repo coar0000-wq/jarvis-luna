@@ -12,7 +12,7 @@ on:
     # 홀수 시에 돈다. Deep Analysis 가 짝수 시라 서로 안 겹친다.
     # 예전에 이 둘이 5분 차이로 붙어 돌면서 푸시가 엉켜 products.json 이
     # 200건에서 174건으로 되돌아간 적이 있다.
-    - cron: '5 1-23/2 * * *'      # 매시 5분
+    - cron: '43 1-23/2 * * *'     # UTC 홀수 시 43분, 2시간 주기 유지
   workflow_dispatch:
 
 concurrency:
@@ -120,6 +120,12 @@ jobs:
       #
       #   이제 이번 실행이 실제로 바꾼 파일만 얹는다. 대시보드는
       #   밀어넣을 그 트리에서 다시 만들고, 감사도 거기서 돌린다.
+      - name: Observe actual Actions freshness (read-only)
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python -u scripts/collect_workflow_status.py
+
       - name: 산출물 발행 (원격 최신 위에 이번 변경만)
         uses: ./.github/actions/publish
         with:

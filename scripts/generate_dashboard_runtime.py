@@ -9,6 +9,8 @@ import unicodedata
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
+from operational_freshness import age_channels, assess_collection, assess_heartbeat
+
 # 기준 경로 설정
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "dashboard_runtime.json"
@@ -71,7 +73,6 @@ def graph_metrics() -> dict:
             continue
 
         try:
-            top = note.relative_to(VAULT).parts[0]
         except ValueError:
             top = ""
 
@@ -340,35 +341,22 @@ STALE_HOURS = 48
 
 
 def age_channel_status(gcs):
-    """오래된 채널 상태의 신뢰 등급을 내리고 며칠 됐는지 적는다."""
-    if not isinstance(gcs, dict) or not gcs:
-        return gcs
-    now_dt = datetime.now(timezone.utc)
-    out = {}
-    for key, meta in gcs.items():
-        if not isinstance(meta, dict):
-            out[key] = meta
-            continue
-        m = dict(meta)
-        raw = m.get("collected_at") or ""
-        try:
-            age_h = (now_dt - datetime.fromisoformat(
-                str(raw).replace("Z", "+00:00"))).total_seconds() / 3600
-        except (ValueError, TypeError):
-            out[key] = m
-            continue
-        m["age_hours"] = round(age_h, 1)
-        if age_h > STALE_HOURS:
-            m["stale"] = True
-            if m.get("trust") == "verified":
-                m["trust"] = "stale"
-            m["status"] = "stale"
-            m["reason"] = (f"{raw[:10]} 이후 갱신 없음 ({age_h / 24:.1f}일). "
-                           + (m.get("reason") or "")).strip()
-        else:
-            m["stale"] = False
-        out[key] = m
-    return out
+    """Apply an idempotent source-time overlay without inventing capture times."""
+    return age_channels(gcs, stale_hours=STALE_HOURS)
+
+
+def workflow_snapshot():
+    """Actions statuses are observations, not proof that a historical issue persists."""
+    doc = load_json(ROOT / "data" / "agents" / "workflow_freshness.json", {}) or {}
+    try:
+        at = datetime.fromisoformat(str(doc.get("observed_at") or doc.get("generated_at") or "").replace("Z", "+00:00"))
+        if at.tzinfo is None:
+            at = at.replace(tzinfo=timezone.utc)
+        age = (datetime.now(timezone.utc) - at).total_seconds() / 3600
+        fresh = -5 / 60 <= age <= 4.5
+    except (ValueError, TypeError):
+        fresh = False
+    return doc, fresh
 
 
 def merge_manual_channels(prev_global, prev_gcs, man):
@@ -476,7 +464,7 @@ def secretary_card() -> dict:
         doc = load_json(path, None)
         if isinstance(doc, dict) and doc.get(key):
             return str(doc[key])
-        return iso_mtime(path)
+        return None  # Missing provenance is unknown, not checkout mtime.
 
     def hours_since(iso: str | None) -> float | None:
         if not iso:
@@ -502,8 +490,8 @@ def secretary_card() -> dict:
     # 파생 파일은 입력이 같으면 오래 안 바뀌어도 정상이다. 자동화 생존 여부는
     # Safe Auto-Fix 자체의 실행 보고서를 heartbeat로 판정한다.
     autofix = load_json(D / "agents" / "autofix_report.json", {}) or {}
-    heartbeat = autofix.get("generated_at")
-    heartbeat_age = hours_since(heartbeat)
+    heartbeat_check = assess_heartbeat(autofix)
+    heartbeat = heartbeat_check["last_attempt_at"]
     if heartbeat and (newest is None or str(heartbeat) > str(newest)):
         newest = heartbeat
 
@@ -537,36 +525,37 @@ def secretary_card() -> dict:
                f"카피 {len(copies)}건 · 등록 가능 {ready}건 · "
                f"법률 차단 {hard}건")
 
-    action = None
-    # 스케줄 지연을 허용해 주기의 두 배보다 긴 4시간 30분부터 경고한다.
-    if heartbeat_age is None or heartbeat_age > 4.5:
-        action = ("비서실장 감시 루프 갱신 지연 — Safe Auto-Fix 보고서가 "
-                  "4시간 30분 넘게 확인되지 않음")
-    elif str(autofix.get("status") or "").lower() == "failed":
-        action = "비서실장 Safe Auto-Fix 직전 실행 실패 — 다음 주기 재검증 중"
-
-    # 실제 실패는 수집기가 명시적으로 남긴 상태만 쓴다. 오래 안 바뀐 것과
-    # HTTP/파싱 실패를 섞지 않는다.
-    collect_status = load_json(D / "daiso_real" / "collection_status.json", {}) or {}
-    last_run = collect_status.get("last_run") or {}
-    collection_failed = str(last_run.get("status") or "").lower() in {"failed", "error"}
+    action = None if heartbeat_check["status"] == "success" else heartbeat_check["reason"]
+    collection = assess_collection(load_json(D / "daiso_real" / "collection_status.json", {}) or {})
+    collection_failed = collection["is_failure"]
     if collection_failed:
-        action = ("다이소 수집 실패 — "
-                  + str(last_run.get("failure_reason") or
-                        f"성공 {last_run.get('ok', 0)}건 · 파싱 실패 "
-                        f"{last_run.get('parse_failed', 0)}건 · HTTP 오류 "
-                        f"{last_run.get('http_error', 0)}건"))
+        action = collection["reason"]
+    workflows, workflows_fresh = workflow_snapshot()
+    observed = workflows.get("workflows") or {}
+    deep = observed.get("JARVIS-Deep-Analysis.yml") or {}
+    daiso = observed.get("daiso-real-collection.yml") or {}
+    observed_deep_failure = workflows_fresh and deep.get("status") == "failed"
+    if observed_deep_failure:
+        action = "Deep Analysis 마지막 관측 실행 실패: " + str(deep.get("reason") or "Actions 결과 확인")
+    elif workflows_fresh and deep.get("cadence_warning"):
+        action = "Deep Analysis 실제 예약 실행 간격 " + str(deep.get("last_schedule_gap_hours")) + "시간 · 설정은 2시간"
+    if workflows_fresh and daiso.get("status") == "failed":
+        collection_failed = True
+        action = "다이소 마지막 관측 실행 실패: " + str(daiso.get("reason") or "Actions 결과 확인")
 
     return {
         "id": "secretary",
         "name": "비서실장",
         "badge": "총괄",
-        "when": newest,
+        "when": heartbeat,
         "summary": summary,
         "action": action,
         "action_kind": "revalidate_only" if action else None,
-        "status": "failed" if collection_failed else "warning" if action else "ok",
+        "status": "failed" if collection_failed or heartbeat_check["is_failure"] or observed_deep_failure else "warning" if action else "ok",
         "steps": steps,
+        "heartbeat": heartbeat_check,
+        "collection_freshness": collection,
+        "workflow_observed_at": workflows.get("observed_at"),
         "_근거": ("JARVIS Deep Analysis가 2시간마다 남기는 Safe Auto-Fix "
                 "보고서를 heartbeat로 본다. 개별 파생 파일은 입력 무변경 시 "
                 "mtime이 유지되므로 지연 판정에 쓰지 않는다."),
@@ -621,7 +610,8 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
         n = (prod or {}).get("count") or len((prod or {}).get("products") or [])
         gs = (score or {}).get("grade_summary") or {}
         grade = " / ".join(f"{g} {gs[g]}" for g in ("S", "A", "B", "C") if g in gs)
-        run = (stat or {}).get("last_run") or {}
+        collection = assess_collection(stat)
+        run = (stat or {}).get("last_attempt") or (stat or {}).get("last_run") or {}
         fail = (run.get("parse_failed") or 0) + (run.get("http_error") or 0)
         ok = run.get("ok") or 0
         sold = run.get("sold_out") or 0
@@ -665,6 +655,9 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
             act = (f'직전 실행에서 {fetched}건 받아 {tried}건 판정 · '
                    f'{fail}건 실패 (성공 {ok}건)'
                    + why_txt + sold_txt + notb_txt + seen_txt + src_txt)
+        elif collection["is_no_change"]:
+            act = (f'직전 수집 정상 완료: 새 상품 없음 · {fetched}건 받음'
+                   + notb_txt + seen_txt + src_txt)
         elif ok == 0:
             act = (f'직전 실행 성공 0건 · {fetched}건 받음'
                    + notb_txt + seen_txt + src_txt)
@@ -678,27 +671,25 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
         # 9-21~9-27 다이소 수집이 매일 검증 단계에서 죽어 발행되지 않았는데
         # 카드는 지난 값으로 정상처럼 보였다. 마지막 수집이 36시간을 넘으면
         # 자동조치 대상으로 올린다. 매일 도는 수집이라 36시간이면 한 번 이상 빠진 것이다.
-        stale_act = None
-        fin = run.get("finished_at")
-        try:
-            fin_dt = datetime.fromisoformat(str(fin).replace("Z", "+00:00")) if fin else None
-        except ValueError:
-            fin_dt = None
-        if fin_dt is not None:
-            if fin_dt.tzinfo is None:
-                fin_dt = fin_dt.replace(tzinfo=timezone.utc)
-            age_h = (datetime.now(timezone.utc) - fin_dt).total_seconds() / 3600
-            if age_h > 36:
-                stale_act = (f"다이소 수집이 {age_h / 24:.1f}일째 발행되지 않음 "
-                             f"(마지막 수집 {str(fin)[:10]}) · Daiso Real Product Collection 실행 결과 확인")
+        stale_act = collection["reason"] if collection["attempt_stale"] or collection["is_failure"] else None
+        success_at = collection["last_success_at"]
+        if collection["data_stale"]:
+            stale_act = (stale_act + " · " if stale_act else "") + "새 상품 마지막 성공 " + str(success_at or "검증 불가")
+        act = (act + " · " if act else "") + "최근 시도 " + str(collection["last_attempt_at"] or "미기록") + " · 새 상품 성공 " + str(success_at or "미기록")
+        workflows, workflows_fresh = workflow_snapshot()
+        daiso_workflow = (workflows.get("workflows") or {}).get("daiso-real-collection.yml") or {}
+        observed_failure = workflows_fresh and daiso_workflow.get("status") == "failed"
+        if observed_failure:
+            stale_act = "다이소 마지막 관측 Actions 실행 실패 · " + str(daiso_workflow.get("reason") or "실행 결과 확인")
 
         cards.append(_team(
             "sourcing", "상품 소싱팀",
-            (score or {}).get("generated_at") or (prod or {}).get("updated_at"),
+            collection["last_attempt_at"],
             (f'{n}개 상품 · 등급 {grade}' if grade else f'{n}개 상품') + feed_tail("sourcing"),
             stale_act,
-            "ok" if n else "failed",
+            "failed" if not n or collection["is_failure"] or observed_failure else "warning" if collection["status"] != "success" or collection["data_stale"] else "ok",
             notice=act))
+        cards[-1]["collection_freshness"] = collection
     else:
         cards.append(_team("sourcing", "상품 소싱팀", None,
                            "data/daiso_real/products.json 없음", None, "missing"))
@@ -1241,6 +1232,12 @@ def main() -> None:
         },
         "errors": _error_summary(),
         "health": load_json(ROOT / "data" / "health_check.json", {}) or {},
+        "automation_freshness": {
+            "collection": assess_collection(load_json(ROOT / "data" / "daiso_real" / "collection_status.json", {})),
+            "heartbeat": assess_heartbeat(load_json(ROOT / "data" / "agents" / "autofix_report.json", {})),
+            "workflows": workflow_snapshot()[0],
+            "workflow_observation_fresh": workflow_snapshot()[1],
+        },
         # 특정 팀에 속하지 않는 전체 값. 팀 섹션 머리말에 쓴다.
         "team_summary": {
             "corpus_records": ((cumulative.get("totals") or {}).get("records")

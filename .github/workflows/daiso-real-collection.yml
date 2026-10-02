@@ -32,12 +32,19 @@ on:
         required: false
         default: '30'
 
+      refresh_auxiliary_sources:
+        description: '환율·뷰티 큐 갱신 (false는 기존 큐로 무료 진단)'
+        required: false
+        default: true
+        type: boolean
+
 concurrency:
   group: daiso-real-collection
   cancel-in-progress: false
 
 permissions:
   contents: write
+  actions: read
 
 jobs:
   collect:
@@ -61,12 +68,14 @@ jobs:
           python -m pip install requests beautifulsoup4 lxml
 
       - name: 환율 갱신 (USD/KRW)
+        if: github.event_name != 'workflow_dispatch' || inputs.refresh_auxiliary_sources
         continue-on-error: true
         timeout-minutes: 3
         run: |
           python -u scripts/fetch_fx_rate.py
 
       - name: 뷰티 URL 큐 만들기
+        if: github.event_name != 'workflow_dispatch' || inputs.refresh_auxiliary_sources
         continue-on-error: true
         timeout-minutes: 8
         env:
@@ -76,142 +85,38 @@ jobs:
           python -u scripts/daiso/build_beauty_queue.py
 
       - name: Collect Daiso products
+        id: collector
         continue-on-error: true
         env:
+          DAISO_EXECUTION_ID: ${{ github.run_id }}:${{ github.run_attempt }}:collect
           DAISO_MAX_ITEMS: ${{ github.event.inputs.max_items || '110' }}
           DAISO_DELAY: ${{ github.event.inputs.delay || '30' }}
         run: |
+          echo "started_at=$(date -u +%Y-%m-%dT%H:%M:%S.%NZ)" >> "$GITHUB_OUTPUT"
           python -u scripts/daiso/collect_daiso.py
 
+      - name: 실제 수집 결과 검증
+        id: collection
+        if: ${{ always() && steps.collector.outcome != 'skipped' }}
+        shell: bash
+        env:
+          COLLECTOR_OUTCOME: ${{ steps.collector.outcome }}
+          COLLECTOR_STARTED_AT: ${{ steps.collector.outputs.started_at }}
+          DAISO_EXECUTION_ID: ${{ github.run_id }}:${{ github.run_attempt }}:collect
+        run: |
+          python -u scripts/validate_daiso_collection.py \
+            --collector-outcome "$COLLECTOR_OUTCOME" \
+            --execution-id "$DAISO_EXECUTION_ID" \
+            --started-after "$COLLECTOR_STARTED_AT"
+
       - name: 제외 규칙으로 상품 목록 정리
+        if: steps.collection.outputs.mode == 'collected'
         shell: bash
         run: |
           python -u scripts/daiso/prune_excluded_products.py --apply
 
-      - name: 실제 수집 결과 검증
-        shell: bash
-        run: |
-          python - <<'PY'
-          import json
-          import sys
-          from datetime import datetime, timezone
-          from pathlib import Path
-
-          path = Path("data/daiso_real/collection_status.json")
-
-          if not path.exists():
-              print("::error::collection_status.json 이 없습니다.")
-              sys.exit(1)
-
-          try:
-              data = json.loads(path.read_text(encoding="utf-8"))
-          except Exception as e:
-              print(f"::error::collection_status.json JSON 파싱 실패: {e}")
-              sys.exit(1)
-
-          run = data.get("last_run") or {}
-
-          requested = int(run.get("requested") or 0)
-          ok = int(run.get("ok") or 0)
-          parse_failed = int(run.get("parse_failed") or 0)
-
-          started = str(run.get("started_at") or "")
-          finished = str(run.get("finished_at") or "")
-          status = str(run.get("status") or "").lower()
-
-          print("========================================")
-          print("       다이소 실제 수집 결과 검증")
-          print("========================================")
-          print(f"requested    : {requested}")
-          print(f"ok           : {ok}")
-          print(f"parse_failed : {parse_failed}")
-          print(f"status       : {status}")
-          print(f"started_at   : {started}")
-          print(f"finished_at  : {finished}")
-          print("========================================")
-
-          print(f"queue_size   : {run.get('queue_size')}")
-          print(f"url_source   : {run.get('url_source')}")
-          print(f"뷰티 아님    : {run.get('skipped_not_beauty')}")
-          print("========================================")
-
-          if not requested:
-              print("::error::requested 값이 0입니다.")
-              sys.exit(1)
-
-          if not started:
-              print("::error::이번 수집의 started_at 기록이 없습니다.")
-              sys.exit(1)
-
-          if not finished:
-              print("::error::이번 수집의 finished_at 기록이 없습니다.")
-              sys.exit(1)
-
-          try:
-              started_dt = datetime.fromisoformat(
-                  started.replace("Z", "+00:00")
-              )
-              finished_dt = datetime.fromisoformat(
-                  finished.replace("Z", "+00:00")
-              )
-          except Exception as e:
-              print(f"::error::수집 시각 파싱 실패: {e}")
-              sys.exit(1)
-
-          now = datetime.now(timezone.utc)
-
-          age_hours = (
-              now - finished_dt
-          ).total_seconds() / 3600
-
-          duration_minutes = (
-              finished_dt - started_dt
-          ).total_seconds() / 60
-
-          print(f"완료 후 경과: {age_hours:.2f}시간")
-          print(f"실행 시간  : {duration_minutes:.1f}분")
-
-          if age_hours > 6:
-              print(
-                  "::error::최근 수집 완료 기록이 너무 오래됐습니다. "
-                  f"마지막 완료 시각 기준 {age_hours:.1f}시간 전입니다."
-              )
-              sys.exit(1)
-
-          if finished_dt < started_dt:
-              print("::error::finished_at 이 started_at 보다 빠릅니다.")
-              sys.exit(1)
-
-          if status != "ok":
-              print(
-                  f"::error::수집기 상태가 정상(ok)이 아닙니다: {status}"
-              )
-              sys.exit(1)
-
-          if ok <= 0:
-              print(
-                  "::error::이번 실행 성공 상품이 0건입니다. "
-                  "기존 데이터를 새 수집 결과처럼 발행하지 않습니다."
-              )
-
-              if not run.get("queue_size"):
-                  print(
-                      "::error::큐가 비어 있었습니다. "
-                      "scripts/daiso/build_beauty_queue.py 부터 보십시오."
-                  )
-
-              sys.exit(1)
-
-          if parse_failed > 0:
-              print(
-                  f"::warning::부분 파싱 실패 {parse_failed}건이 있습니다. "
-                  "실패 SKU는 collector_audit에서 확인합니다."
-              )
-
-          print("실제 수집 결과 검증 통과")
-          PY
-
       - name: Product Master 갱신 + Score Shopify demand
+        if: steps.collection.outputs.mode == 'collected'
         shell: bash
         run: |
           python -u scripts/build_product_master.py
@@ -233,6 +138,7 @@ jobs:
       # build_artifact_graph.py가 이 재생성 경로를 검사한다.
       # ============================================================
       - name: 점수 파생 보드 재생성
+        if: steps.collection.outputs.mode == 'collected'
         shell: bash
         run: |
           python -u scripts/check_legal_products.py
@@ -242,17 +148,60 @@ jobs:
           python -u scripts/build_market_team.py
 
       - name: Shopify 게이트 통과 Export와 Action 큐 생성
+        if: steps.collection.outputs.mode == 'collected'
         shell: bash
         run: |
           python -u scripts/export_shopify_operational.py
           python -u scripts/build_shopify_action_queue.py
 
       - name: 채널 후보 재생성
+        if: steps.collection.outputs.mode == 'collected'
         shell: bash
         run: |
           python -u scripts/discover_channels.py
 
+      - name: Keep canonical product inputs on no_change
+        if: steps.collection.outputs.mode == 'no_change'
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          import subprocess
+          from pathlib import Path
+          p = Path('data/daiso_real/collection_status.json')
+          current = json.loads(p.read_text(encoding='utf-8'))
+          baseline = json.loads(subprocess.check_output(['git', 'show', 'HEAD:data/daiso_real/collection_status.json'], text=True, encoding='utf-8'))
+          if 'fx' in baseline:
+              current['fx'] = baseline['fx']
+          else:
+              current.pop('fx', None)
+          p.write_text(json.dumps(current, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          queue = 'data/daiso_real/beauty_queue.json'
+          tracked = subprocess.run(['git', 'ls-files', '--error-unmatch', queue], capture_output=True).returncode == 0
+          if tracked:
+              subprocess.run(['git', 'restore', '--source=HEAD', '--', queue], check=True)
+          else:
+              Path(queue).unlink(missing_ok=True)
+          print('NO_CHANGE_CANONICAL_INPUTS_PRESERVED')
+          PY
+
+      - name: Observe actual Actions freshness (read-only)
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python -u scripts/collect_workflow_status.py
+
+      - name: 대시보드 최종 생성
+        if: steps.collection.outputs.collection_valid == 'true'
+        shell: bash
+        run: |
+          python -u scripts/health_check_v2.py
+          python -u scripts/generate_dashboard_runtime.py
+          python -u scripts/run_jarvis_agents.py --force
+          python -u scripts/build_team_improvement.py
+
       - name: Validate artifacts
+        if: steps.collection.outputs.mode == 'collected'
         id: validate
         shell: bash
         run: |
@@ -345,11 +294,6 @@ jobs:
           print("산출물 검증 통과")
           PY
 
-      - name: 대시보드 최종 생성
-        shell: bash
-        run: |
-          python -u scripts/generate_dashboard_runtime.py
-
       - name: 발행 전 감사 미리 보기
         if: always()
         continue-on-error: true
@@ -433,8 +377,12 @@ jobs:
                   )
 
                   print(
-                      f"- 수집 완료: {r.get('finished_at', '-')}"
+                      f"- 최근 시도 완료: {r.get('finished_at', '-')}"
                   )
+                  success = d.get("last_success") or {}
+                  print(f"- 최근 유효 수집: {success.get('finished_at', '없음')}")
+                  if r.get("status") == "no_change":
+                      print("- 정상 무변경: 신규 수집 아님, 최근 유효 수집 시각 유지")
 
               else:
                   if isinstance(d, dict):
@@ -460,7 +408,7 @@ jobs:
           PY
 
       - name: 산출물 발행 (원격 최신 위에 이번 변경만)
-        if: steps.validate.outputs.artifacts_ok == 'true'
+        if: steps.collection.outputs.mode == 'collected' && steps.validate.outputs.artifacts_ok == 'true'
         uses: ./.github/actions/publish
         with:
           paths: >-
@@ -484,6 +432,38 @@ jobs:
           message: 다이소 실수집 + Shopify 수요 점수 갱신
           regenerate-dashboard: 'true'
           audit: 'true'
+
+      # 정상 무변경은 관측 기록만 발행한다. 상품/판매 파생 데이터는 발행하지 않는다.
+      - name: 정상 무변경 관측 metadata 발행
+        if: steps.collection.outputs.mode == 'no_change'
+        uses: ./.github/actions/publish
+        with:
+          paths: >-
+            data/daiso_real/collection_status.json
+            data/daiso_real/crawl_state.json
+            data/dashboard_runtime.json
+            data/health_check.json
+            data/agents/workflow_freshness.json
+            data/agents/ops_plan.json
+            data/agents/last_run.json
+            data/agents/collector_audit.json
+            data/agents/signal_audit.json
+            data/agents/score_explain.json
+            data/agents/listing_notes.json
+            data/team_improvement.json
+            data/knowledge/cumulative_history.json
+          message: 다이소 정상 무변경 관측 기록 (신규 수집 아님)
+          regenerate-dashboard: 'false'
+          audit: 'false'
+
+      - name: 수집 시도 진단 보존
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: daiso-attempt-${{ github.run_id }}-${{ github.run_attempt }}
+          path: data/daiso_real/collection_status.json
+          if-no-files-found: warn
+          retention-days: 14
 
       - name: 최종 결과
         if: always()

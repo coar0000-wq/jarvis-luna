@@ -46,6 +46,7 @@ runs:
 
         echo "===== 발행 전 대시보드 재생성 ====="
 
+        python -u scripts/health_check_v2.py
         python -u scripts/generate_dashboard_runtime.py
 
         # Runtime 재생성은 기존 agents_ops를 지운다. 다른 수집 워크플로가
@@ -105,7 +106,7 @@ runs:
 
         PUBLISH_PATHS="${{ inputs.paths }}"
         if [ "${{ inputs.regenerate-dashboard }}" = "true" ]; then
-          PUBLISH_PATHS="$PUBLISH_PATHS data/dashboard_runtime.json data/agents/ops_plan.json data/agents/last_run.json data/agents/collector_audit.json data/agents/signal_audit.json data/agents/score_explain.json data/agents/listing_notes.json data/team_improvement.json"
+          PUBLISH_PATHS="$PUBLISH_PATHS data/dashboard_runtime.json data/agents/ops_plan.json data/agents/last_run.json data/agents/collector_audit.json data/agents/signal_audit.json data/agents/score_explain.json data/agents/listing_notes.json data/team_improvement.json data/health_check.json data/knowledge/cumulative_history.json"
         fi
 
         echo "📦 Publish paths:"
@@ -165,7 +166,7 @@ runs:
         # --------------------------------------------------------
         PUBLISH_PATHS="${{ inputs.paths }}"
         if [ "${{ inputs.regenerate-dashboard }}" = "true" ]; then
-          PUBLISH_PATHS="$PUBLISH_PATHS data/dashboard_runtime.json data/agents/ops_plan.json data/agents/last_run.json data/agents/collector_audit.json data/agents/signal_audit.json data/agents/score_explain.json data/agents/listing_notes.json data/team_improvement.json"
+          PUBLISH_PATHS="$PUBLISH_PATHS data/dashboard_runtime.json data/agents/ops_plan.json data/agents/last_run.json data/agents/collector_audit.json data/agents/signal_audit.json data/agents/score_explain.json data/agents/listing_notes.json data/team_improvement.json data/health_check.json data/knowledge/cumulative_history.json"
         fi
 
         for i in 1 2 3; do
