@@ -2,7 +2,7 @@
 title: "Record 4bc45ee8f0 · Trump-Immigration-Policy-Economic-Impact-Michael-Gapen-Sam-Coffin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:11.532647+00:00
+updated_at: 2026-10-02T10:30:23.234362+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 146b1ae9ea · The-K-beauty-product-that-literally-contains-snail-snot-is-a-viral-bes"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:10.219159+00:00
+updated_at: 2026-10-02T10:30:22.357304+00:00
 tags: [record, real-data]
 ---
 

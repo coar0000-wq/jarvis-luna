@@ -2,7 +2,7 @@
 title: "Record 26f551996c · Evaluating-AI-based-Scientific-Knowledge-Synthesis-with-Epidemiologica"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:10.483708+00:00
+updated_at: 2026-10-02T10:30:22.581222+00:00
 tags: [record, real-data]
 ---
 

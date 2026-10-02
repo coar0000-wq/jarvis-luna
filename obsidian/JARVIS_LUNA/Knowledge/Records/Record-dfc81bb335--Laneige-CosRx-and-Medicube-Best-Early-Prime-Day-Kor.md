@@ -2,7 +2,7 @@
 title: "Record dfc81bb335 · Laneige-CosRx-and-Medicube-Best-Early-Prime-Day-Kor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:10.158581+00:00
+updated_at: 2026-10-02T10:30:22.311796+00:00
 tags: [record, real-data]
 ---
 

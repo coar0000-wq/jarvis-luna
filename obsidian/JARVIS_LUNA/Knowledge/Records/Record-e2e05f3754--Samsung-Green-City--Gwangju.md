@@ -2,7 +2,7 @@
 title: "Record e2e05f3754 · Samsung-Green-City--Gwangju"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:10.376665+00:00
+updated_at: 2026-10-02T10:30:22.511555+00:00
 tags: [record, real-data]
 ---
 

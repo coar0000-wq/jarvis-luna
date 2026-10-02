@@ -2,7 +2,7 @@
 title: "Record e98a86c4b6 · From-identifying-promising-technologies-to-creating-new-business-oppor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:10.420394+00:00
+updated_at: 2026-10-02T10:30:22.541245+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1e1b8bda2d · Real-Fresh-Green-Tea-Cleansing-Stick"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:10.565417+00:00
+updated_at: 2026-10-02T10:30:22.631677+00:00
 tags: [record, real-data]
 ---
 

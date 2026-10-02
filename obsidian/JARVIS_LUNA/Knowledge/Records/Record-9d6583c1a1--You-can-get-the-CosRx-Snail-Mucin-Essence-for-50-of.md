@@ -2,7 +2,7 @@
 title: "Record 9d6583c1a1 · You-can-get-the-CosRx-Snail-Mucin-Essence-for-50-off-right-now--but-on"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:10.176983+00:00
+updated_at: 2026-10-02T10:30:22.324486+00:00
 tags: [record, real-data]
 ---
 

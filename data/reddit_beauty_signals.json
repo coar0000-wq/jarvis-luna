@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-10-02T03:52:18.807383+00:00",
+  "collected_at": "2026-10-02T10:21:30.714368+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -164,6 +164,18 @@
       "score": 1
     },
     {
+      "keyword": "love",
+      "score": 1
+    },
+    {
+      "keyword": "paying",
+      "score": 1
+    },
+    {
+      "keyword": "full-price",
+      "score": 1
+    },
+    {
       "keyword": "review",
       "score": 1
     },
@@ -189,18 +201,6 @@
     },
     {
       "keyword": "gua",
-      "score": 1
-    },
-    {
-      "keyword": "sha",
-      "score": 1
-    },
-    {
-      "keyword": "ordering",
-      "score": 1
-    },
-    {
-      "keyword": "japanese",
       "score": 1
     }
   ],
@@ -249,6 +249,13 @@
       "title": "What’s ONE Western product you replaced with a K-beauty/J-beauty alternative and will NEVER go back to?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wvel4w/whats_one_western_product_you_replaced_with_a/",
       "published": "2026-10-01T23:30:13+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "I love it...but I'm not paying full-price.",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wvk2pc/i_love_itbut_im_not_paying_fullprice/",
+      "published": "2026-10-02T04:02:02+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -396,13 +403,6 @@
       "title": "Hair products that smell like herbs",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtyj7j/hair_products_that_smell_like_herbs/",
       "published": "2026-09-30T07:25:01+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Experience With Stylevanna Refund For Non-Deliverd Order",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtxqpy/experience_with_stylevanna_refund_for_nondeliverd/",
-      "published": "2026-09-30T06:35:18+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

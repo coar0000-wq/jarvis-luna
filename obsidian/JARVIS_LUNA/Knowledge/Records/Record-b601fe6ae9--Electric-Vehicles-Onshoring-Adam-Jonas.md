@@ -2,7 +2,7 @@
 title: "Record b601fe6ae9 · Electric-Vehicles-Onshoring-Adam-Jonas"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:11.517321+00:00
+updated_at: 2026-10-02T10:30:23.224022+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 386a851d8c · Molecular-dynamics-study-of-ferroelectric-switching"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:08.933197+00:00
+updated_at: 2026-10-02T10:30:21.438148+00:00
 tags: [record, real-data]
 ---
 

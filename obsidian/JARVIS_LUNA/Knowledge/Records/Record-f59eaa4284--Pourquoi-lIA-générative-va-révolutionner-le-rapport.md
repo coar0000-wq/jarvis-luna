@@ -2,7 +2,7 @@
 title: "Record f59eaa4284 · Pourquoi-lIA-générative-va-révolutionner-le-rapport-au-travail"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:09.202442+00:00
+updated_at: 2026-10-02T10:30:21.621860+00:00
 tags: [record, real-data]
 ---
 

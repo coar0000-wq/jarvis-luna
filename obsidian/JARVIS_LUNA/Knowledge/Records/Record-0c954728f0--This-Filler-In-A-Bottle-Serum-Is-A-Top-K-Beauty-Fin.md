@@ -2,7 +2,7 @@
 title: "Record 0c954728f0 · This-Filler-In-A-Bottle-Serum-Is-A-Top-K-Beauty-Fin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:10.189449+00:00
+updated_at: 2026-10-02T10:30:22.333008+00:00
 tags: [record, real-data]
 ---
 

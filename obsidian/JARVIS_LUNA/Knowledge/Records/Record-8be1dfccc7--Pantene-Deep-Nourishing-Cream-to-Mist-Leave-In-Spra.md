@@ -2,7 +2,7 @@
 title: "Record 8be1dfccc7 · Pantene-Deep-Nourishing-Cream-to-Mist-Leave-In-Spray-Co-Created-with-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:11.164550+00:00
+updated_at: 2026-10-02T10:30:22.997049+00:00
 tags: [record, real-data]
 ---
 

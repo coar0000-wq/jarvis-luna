@@ -2,7 +2,7 @@
 title: "Record b0e9afff91 · Takeover-of-Credit-Suisse-and-Stock-Market-Outcomes-An-Event-Study-of-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:09.658095+00:00
+updated_at: 2026-10-02T10:30:21.987261+00:00
 tags: [record, real-data]
 ---
 

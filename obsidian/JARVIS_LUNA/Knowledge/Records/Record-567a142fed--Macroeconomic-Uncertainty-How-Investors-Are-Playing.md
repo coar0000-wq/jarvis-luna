@@ -2,7 +2,7 @@
 title: "Record 567a142fed · Macroeconomic-Uncertainty-How-Investors-Are-Playing-Defense"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:11.523856+00:00
+updated_at: 2026-10-02T10:30:23.228356+00:00
 tags: [record, real-data]
 ---
 

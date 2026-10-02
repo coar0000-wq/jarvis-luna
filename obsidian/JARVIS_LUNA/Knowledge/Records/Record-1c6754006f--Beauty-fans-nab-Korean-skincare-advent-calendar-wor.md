@@ -2,7 +2,7 @@
 title: "Record 1c6754006f · Beauty-fans-nab-Korean-skincare-advent-calendar-worth-140-for-32-in-on"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:10.180081+00:00
+updated_at: 2026-10-02T10:30:22.326607+00:00
 tags: [record, real-data]
 ---
 

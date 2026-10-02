@@ -2,7 +2,7 @@
 title: "Record 9fa2423607 · 3-11CPyruvate-PET-detects-alterations-in-cardiac-pyruvate-metabolism-i"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:08.925404+00:00
+updated_at: 2026-10-02T10:30:21.432771+00:00
 tags: [record, real-data]
 ---
 

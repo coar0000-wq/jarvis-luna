@@ -2,7 +2,7 @@
 title: "Record e57f2e6af2 · Use-of-the-Common-Information-Model-IEC-61970-for-Standardized-Data-Ex"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:09.280170+00:00
+updated_at: 2026-10-02T10:30:21.682265+00:00
 tags: [record, real-data]
 ---
 

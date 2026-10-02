@@ -2,7 +2,7 @@
 title: "Record e89a87d588 · Insights---Europe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:11.401161+00:00
+updated_at: 2026-10-02T10:30:23.150094+00:00
 tags: [record, real-data]
 ---
 

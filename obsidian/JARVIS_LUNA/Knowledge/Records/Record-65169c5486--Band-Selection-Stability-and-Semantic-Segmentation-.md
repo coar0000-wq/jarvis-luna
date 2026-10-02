@@ -2,7 +2,7 @@
 title: "Record 65169c5486 · Band-Selection-Stability-and-Semantic-Segmentation-Performance-A-Study"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:09.506219+00:00
+updated_at: 2026-10-02T10:30:21.835690+00:00
 tags: [record, real-data]
 ---
 

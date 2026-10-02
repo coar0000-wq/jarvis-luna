@@ -2,7 +2,7 @@
 title: "Record 3dec84879b · Retrieval-Augmented-Interpretable-Learning-Towards-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:10.523713+00:00
+updated_at: 2026-10-02T10:30:22.606324+00:00
 tags: [record, real-data]
 ---
 

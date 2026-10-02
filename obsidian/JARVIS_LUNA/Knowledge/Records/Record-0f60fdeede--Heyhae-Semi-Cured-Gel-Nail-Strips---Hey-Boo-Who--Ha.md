@@ -2,7 +2,7 @@
 title: "Record 0f60fdeede · Heyhae-Semi-Cured-Gel-Nail-Strips---Hey-Boo-Who--Halloween--Sun-Cured-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:10.985573+00:00
+updated_at: 2026-10-02T10:30:22.896423+00:00
 tags: [record, real-data]
 ---
 

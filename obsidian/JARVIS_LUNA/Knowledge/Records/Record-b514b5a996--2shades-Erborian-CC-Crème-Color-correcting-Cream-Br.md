@@ -2,7 +2,7 @@
 title: "Record b514b5a996 · 2shades-Erborian-CC-Crème-Color-correcting-Cream-Broad-Spectrum-SPF-25"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:10.714479+00:00
+updated_at: 2026-10-02T10:30:22.730610+00:00
 tags: [record, real-data]
 ---
 

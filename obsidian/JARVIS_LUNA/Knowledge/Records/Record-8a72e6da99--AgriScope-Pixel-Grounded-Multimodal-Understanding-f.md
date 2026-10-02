@@ -2,7 +2,7 @@
 title: "Record 8a72e6da99 · AgriScope-Pixel-Grounded-Multimodal-Understanding-for-Agricultural-Ima"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:08.642491+00:00
+updated_at: 2026-10-02T10:30:21.243990+00:00
 tags: [record, real-data]
 ---
 

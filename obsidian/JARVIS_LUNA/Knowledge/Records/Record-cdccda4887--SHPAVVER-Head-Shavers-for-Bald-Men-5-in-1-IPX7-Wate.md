@@ -2,7 +2,7 @@
 title: "Record cdccda4887 · SHPAVVER-Head-Shavers-for-Bald-Men-5-in-1-IPX7-Waterproof-Grooming-Kit"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:11.207767+00:00
+updated_at: 2026-10-02T10:30:23.022979+00:00
 tags: [record, real-data]
 ---
 

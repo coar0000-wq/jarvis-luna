@@ -2,7 +2,7 @@
 title: "Record 1e6c254dca · Aquaphor-Daily-Hydrating-Face-and-Body-Lotion-Hyaluronic-Acid-16-FL-OZ"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:10.860611+00:00
+updated_at: 2026-10-02T10:30:22.818349+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 32fcd9b20d · Comparative-analysis-of-different-energy-aware-synchronisation-control"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:08.836182+00:00
+updated_at: 2026-10-02T10:30:21.376146+00:00
 tags: [record, real-data]
 ---
 

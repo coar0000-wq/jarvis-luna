@@ -2,7 +2,7 @@
 title: "Record c87b532f9b · DERMATORY-Salicinic-Pore-Clear-Black-Pad-70ct-676-fl-oz200ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:10.622186+00:00
+updated_at: 2026-10-02T10:30:22.672186+00:00
 tags: [record, real-data]
 ---
 

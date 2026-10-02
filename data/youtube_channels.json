@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T03:51:32.775239+00:00",
+  "generated_at": "2026-10-02T10:20:35.977927+00:00",
   "generator": "scripts/ingest_youtube_channels.py",
   "입력": "data/manual/youtube_channels.txt",
   "robots": "youtube.com/robots.txt 의 Disallow 목록에 /@ 와 /channel/ 은 없다. 막힌 것은 /feeds/videos.xml, /results, /youtubei/ 등이다. 지정된 채널만 하나씩 본다. 2026-09-06 확인.",
@@ -21,16 +21,7 @@
     "graph": 30
   },
   "팀_고정": "한 번 정한 팀은 유지한다. 유튜브가 제목을 A/B 로 돌려서 같은 영상이 회차마다 다른 팀으로 가는 일이 있었다.",
-  "제목_바뀐_영상": [
-    {
-      "video_id": "Dn5L7Nxc_Rg",
-      "before": "브랜딩 잘하고 싶다면, 같은 콘텐츠도 다르게 보세요 🎬 | 영화·드라마에서 내 일의 힌트를 찾는 법",
-      "after": "넷플릭스 볼 때 죄책감 느끼지 마세요 👀 | 브랜드 대표가 직접 추천하는 인풋용 콘텐츠",
-      "kept_teams": [
-        "market"
-      ]
-    }
-  ],
+  "제목_바뀐_영상": [],
   "top_by_views": [
     {
       "video_id": "eQpyvR-B7hc",
@@ -216,7 +207,7 @@
   "items": [
     {
       "stale": false,
-      "last_ok_at": "2026-10-02T03:50:12.353230+00:00",
+      "last_ok_at": "2026-10-02T10:19:16.037142+00:00",
       "url": "https://www.youtube.com/@uxpeak",
       "note": "UX/UI 리디자인·전환율 (사용자 지정)",
       "team_hint": "design",
@@ -225,14 +216,14 @@
       "subscribers": "129K",
       "video_count": 21,
       "error": "",
-      "checked_at": "2026-10-02T03:50:12.353255+00:00",
+      "checked_at": "2026-10-02T10:19:16.037167+00:00",
       "videos": [
         {
           "video_id": "GGg61sdEjeI",
           "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
-          "views_text": "405K",
+          "views_text": "406K",
           "published_text": "1mo ago",
-          "views": 405000,
+          "views": 406000,
           "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
           "channel": "uxpeak",
           "teams": [
@@ -242,9 +233,9 @@
         {
           "video_id": "2TlIg3VokY8",
           "title": "The UX Psychology Behind Apps People Can’t Stop Using",
-          "views_text": "553K",
+          "views_text": "554K",
           "published_text": "2mo ago",
-          "views": 553000,
+          "views": 554000,
           "url": "https://www.youtube.com/watch?v=2TlIg3VokY8",
           "channel": "uxpeak",
           "teams": [
@@ -483,7 +474,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-10-02T03:50:17.724889+00:00",
+      "last_ok_at": "2026-10-02T10:19:21.387639+00:00",
       "url": "https://www.youtube.com/@%EB%95%A1%ED%81%90%EC%B1%84%EB%84%90",
       "note": "땡스큐레이터 - 스몰 브랜드 브랜딩·수출·견적. 팀은 영상마다 자동 분류",
       "team_hint": "",
@@ -492,14 +483,14 @@
       "subscribers": "19.9K",
       "video_count": 22,
       "error": "",
-      "checked_at": "2026-10-02T03:50:17.724904+00:00",
+      "checked_at": "2026-10-02T10:19:21.387656+00:00",
       "videos": [
         {
           "video_id": "Dn5L7Nxc_Rg",
           "title": "넷플릭스 볼 때 죄책감 느끼지 마세요 👀 | 브랜드 대표가 직접 추천하는 인풋용 콘텐츠",
-          "views_text": "2K",
-          "published_text": "17h ago",
-          "views": 2000,
+          "views_text": "2.8K",
+          "published_text": "1d ago",
+          "views": 2800,
           "url": "https://www.youtube.com/watch?v=Dn5L7Nxc_Rg",
           "channel": "땡스큐레이터",
           "teams": [
@@ -521,9 +512,9 @@
         {
           "video_id": "CSr4DYGUPOM",
           "title": "📱인스타그램 잘하고 싶다면 이 계정부터 보세요 | 브랜드 대표가 직접 추천하는 인스타 채널 총정리",
-          "views_text": "103K",
+          "views_text": "104K",
           "published_text": "4w ago",
-          "views": 103000,
+          "views": 104000,
           "url": "https://www.youtube.com/watch?v=CSr4DYGUPOM",
           "channel": "땡스큐레이터",
           "teams": [
@@ -534,9 +525,9 @@
         {
           "video_id": "l6VfFik0rHI",
           "title": "스몰 브랜드 대표가 밝히는 브랜딩 실전편 | 계속 성장 중인 리솔츠 이야기🛁",
-          "views_text": "5.8K",
+          "views_text": "5.9K",
           "published_text": "1mo ago",
-          "views": 5800,
+          "views": 5900,
           "url": "https://www.youtube.com/watch?v=l6VfFik0rHI",
           "channel": "땡스큐레이터",
           "teams": [
@@ -571,9 +562,9 @@
         {
           "video_id": "nPbZ6lK2K08",
           "title": "스몰 브랜드도 해외 수출은 필수인거 아시죠? ✈️ | 가성비 있게 해외 수출 할 수 있는 팁 알려드립니다! 💸",
-          "views_text": "6.7K",
+          "views_text": "6.8K",
           "published_text": "2mo ago",
-          "views": 6700,
+          "views": 6800,
           "url": "https://www.youtube.com/watch?v=nPbZ6lK2K08",
           "channel": "땡스큐레이터",
           "teams": [
@@ -767,7 +758,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-10-02T03:50:23.149864+00:00",
+      "last_ok_at": "2026-10-02T10:19:26.753813+00:00",
       "url": "https://www.youtube.com/@learnwithshopify",
       "note": "Shopify 공식 - 마케팅·전환·스토어 운영",
       "team_hint": "market,listing,design",
@@ -776,14 +767,14 @@
       "subscribers": "910K",
       "video_count": 30,
       "error": "",
-      "checked_at": "2026-10-02T03:50:23.149879+00:00",
+      "checked_at": "2026-10-02T10:19:26.753831+00:00",
       "videos": [
         {
           "video_id": "psUJ14KmwpI",
           "title": "What Are Claude Design Skills and How to Use Them",
-          "views_text": "6.4K",
+          "views_text": "6.5K",
           "published_text": "3d ago",
-          "views": 6400,
+          "views": 6500,
           "url": "https://www.youtube.com/watch?v=psUJ14KmwpI",
           "channel": "Learn With Shopify",
           "teams": [
@@ -794,7 +785,7 @@
         },
         {
           "video_id": "nIOn_726Rxk",
-          "title": "Beyond TikTok Shop: How to Use TikTok to Drive Shopify Sales",
+          "title": "How to Use TikTok to Drive Shopify Sales",
           "views_text": "6.4K",
           "published_text": "7d ago",
           "views": 6400,
@@ -1202,7 +1193,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-10-02T03:50:28.539669+00:00",
+      "last_ok_at": "2026-10-02T10:19:32.094453+00:00",
       "url": "https://www.youtube.com/@shopify",
       "note": "Shopify 본채널 - 브랜드 성장 사례",
       "team_hint": "market",
@@ -1211,7 +1202,7 @@
       "subscribers": "490K",
       "video_count": 30,
       "error": "",
-      "checked_at": "2026-10-02T03:50:28.539683+00:00",
+      "checked_at": "2026-10-02T10:19:32.094479+00:00",
       "videos": [
         {
           "video_id": "KsujQDvKdHk",
@@ -1432,9 +1423,9 @@
         {
           "video_id": "LU4tghjdnG8",
           "title": "Shopify Sidekick gets major AI upgrades in Winter '26 Edition",
-          "views_text": "9.4K",
+          "views_text": "9.5K",
           "published_text": "9mo ago",
-          "views": 9400,
+          "views": 9500,
           "url": "https://www.youtube.com/watch?v=LU4tghjdnG8",
           "channel": "Shopify",
           "teams": [
@@ -1577,7 +1568,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-10-02T03:50:33.873044+00:00",
+      "last_ok_at": "2026-10-02T10:19:37.451095+00:00",
       "url": "https://www.youtube.com/@BostonDynamics",
       "note": "Boston Dynamics 공식",
       "team_hint": "robotics",
@@ -1586,14 +1577,14 @@
       "subscribers": "3.43M",
       "video_count": 30,
       "error": "",
-      "checked_at": "2026-10-02T03:50:33.873059+00:00",
+      "checked_at": "2026-10-02T10:19:37.451117+00:00",
       "videos": [
         {
           "video_id": "4whgw2gLBS8",
           "title": "New Hands for Atlas | Boston Dynamics",
-          "views_text": "978K",
-          "published_text": "13h ago",
-          "views": 978000,
+          "views_text": "1.2M",
+          "published_text": "20h ago",
+          "views": 1200000,
           "url": "https://www.youtube.com/watch?v=4whgw2gLBS8",
           "channel": "Boston Dynamics",
           "teams": [
@@ -1603,9 +1594,9 @@
         {
           "video_id": "CFS_zU1kWQw",
           "title": "Inside the Robotics Race | Boston Dynamics x Hyundai Motor Group x Bloomberg Media Studios",
-          "views_text": "610K",
-          "published_text": "1d ago",
-          "views": 610000,
+          "views_text": "638K",
+          "published_text": "2d ago",
+          "views": 638000,
           "url": "https://www.youtube.com/watch?v=CFS_zU1kWQw",
           "channel": "Boston Dynamics",
           "teams": [
@@ -1675,9 +1666,9 @@
         {
           "video_id": "ezPLXk78Cfk",
           "title": "Atlas at the FIFA World Cup 2026™",
-          "views_text": "177K",
+          "views_text": "178K",
           "published_text": "2mo ago",
-          "views": 177000,
+          "views": 178000,
           "url": "https://www.youtube.com/watch?v=ezPLXk78Cfk",
           "channel": "Boston Dynamics",
           "teams": [
@@ -1699,9 +1690,9 @@
         {
           "video_id": "V1Lxp-Q6Y9g",
           "title": "School of Football | The Ghost Rabona | Boston Dynamics x Hyundai",
-          "views_text": "151K",
+          "views_text": "152K",
           "published_text": "4mo ago",
-          "views": 151000,
+          "views": 152000,
           "url": "https://www.youtube.com/watch?v=V1Lxp-Q6Y9g",
           "channel": "Boston Dynamics",
           "teams": [
@@ -1759,9 +1750,9 @@
         {
           "video_id": "xKK5ze3FukQ",
           "title": "How does Atlas learn? | Inside the Lab | Boston Dynamics",
-          "views_text": "972K",
+          "views_text": "974K",
           "published_text": "4mo ago",
-          "views": 972000,
+          "views": 974000,
           "url": "https://www.youtube.com/watch?v=xKK5ze3FukQ",
           "channel": "Boston Dynamics",
           "teams": [
@@ -1952,7 +1943,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-10-02T03:50:39.274775+00:00",
+      "last_ok_at": "2026-10-02T10:19:42.781027+00:00",
       "url": "https://www.youtube.com/@unitreerobotics",
       "note": "Unitree Robotics 공식",
       "team_hint": "robotics",
@@ -1961,14 +1952,14 @@
       "subscribers": "2.26M",
       "video_count": 30,
       "error": "",
-      "checked_at": "2026-10-02T03:50:39.274791+00:00",
+      "checked_at": "2026-10-02T10:19:42.781049+00:00",
       "videos": [
         {
           "video_id": "bYkyz9QwqCw",
           "title": "The World's Largest-Scale Full-Size Humanoid Robot Real-Time Livestream Performance",
-          "views_text": "3.1M",
-          "published_text": "7d ago",
-          "views": 3100000,
+          "views_text": "3.5M",
+          "published_text": "8d ago",
+          "views": 3500000,
           "url": "https://www.youtube.com/watch?v=bYkyz9QwqCw",
           "channel": "Unitree Robotics",
           "teams": [
@@ -2219,7 +2210,7 @@
           "video_id": "SX4WKUHAP4E",
           "title": "World's First: Unitree Humanoid Robot Autonomous Walking Challenge in −47.4°C Extreme Cold",
           "views_text": "1.2M",
-          "published_text": "7mo ago",
+          "published_text": "8mo ago",
           "views": 1200000,
           "url": "https://www.youtube.com/watch?v=SX4WKUHAP4E",
           "channel": "Unitree Robotics",
@@ -2327,7 +2318,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-10-02T03:50:44.598512+00:00",
+      "last_ok_at": "2026-10-02T10:19:48.078297+00:00",
       "url": "https://www.youtube.com/@NVIDIA",
       "note": "NVIDIA 공식",
       "team_hint": "institutions",
@@ -2336,14 +2327,14 @@
       "subscribers": "2.24M",
       "video_count": 30,
       "error": "",
-      "checked_at": "2026-10-02T03:50:44.598526+00:00",
+      "checked_at": "2026-10-02T10:19:48.078316+00:00",
       "videos": [
         {
           "video_id": "z1t-bp9UC3E",
           "title": "Meet The Startup: Probabl: by the Creators of Scikit-Learn",
-          "views_text": "7.3K",
-          "published_text": "16h ago",
-          "views": 7300,
+          "views_text": "7.6K",
+          "published_text": "22h ago",
+          "views": 7600,
           "url": "https://www.youtube.com/watch?v=z1t-bp9UC3E",
           "channel": "NVIDIA",
           "teams": [
@@ -2353,9 +2344,9 @@
         {
           "video_id": "vmAIpEHrCok",
           "title": "NVIDIA DOCA Skills vs No Skills: Building RDMA on NVIDIA BlueField-3 with Fewer Commands & Less Code",
-          "views_text": "7.9K",
+          "views_text": "8K",
           "published_text": "1d ago",
-          "views": 7900,
+          "views": 8000,
           "url": "https://www.youtube.com/watch?v=vmAIpEHrCok",
           "channel": "NVIDIA",
           "teams": [
@@ -2365,9 +2356,9 @@
         {
           "video_id": "mFv4VRoFj-k",
           "title": "Vertically Integrated, Horizontally Open | AI Factory Insider Ep 5",
-          "views_text": "8.2K",
+          "views_text": "8.3K",
           "published_text": "2d ago",
-          "views": 8200,
+          "views": 8300,
           "url": "https://www.youtube.com/watch?v=mFv4VRoFj-k",
           "channel": "NVIDIA",
           "teams": [
@@ -2376,7 +2367,7 @@
         },
         {
           "video_id": "xAgq8ByWK0M",
-          "title": "Decade of NVIDIA DGX: From A Single System to AI Factories",
+          "title": "10 Years of NVIDIA DGX: From One System to AI Factories",
           "views_text": "31K",
           "published_text": "7d ago",
           "views": 31000,
@@ -2473,9 +2464,9 @@
         {
           "video_id": "MkbepPfaeMU",
           "title": "Tokenomics 101: What Are Tokens & Why They Matter | AI Factory Insider Ep. 4",
-          "views_text": "128K",
+          "views_text": "129K",
           "published_text": "1mo ago",
-          "views": 128000,
+          "views": 129000,
           "url": "https://www.youtube.com/watch?v=MkbepPfaeMU",
           "channel": "NVIDIA",
           "teams": [
@@ -2702,7 +2693,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-10-02T03:50:49.997920+00:00",
+      "last_ok_at": "2026-10-02T10:19:53.439657+00:00",
       "url": "https://www.youtube.com/@GoogleDeepMind",
       "note": "Google DeepMind 공식",
       "team_hint": "institutions",
@@ -2711,14 +2702,14 @@
       "subscribers": "928K",
       "video_count": 30,
       "error": "",
-      "checked_at": "2026-10-02T03:50:49.997933+00:00",
+      "checked_at": "2026-10-02T10:19:53.439677+00:00",
       "videos": [
         {
           "video_id": "HIUzrxQxTtw",
           "title": "From deepfakes to DNA: the science of watermarking AI",
-          "views_text": "13K",
-          "published_text": "11h ago",
-          "views": 13000,
+          "views_text": "18K",
+          "published_text": "17h ago",
+          "views": 18000,
           "url": "https://www.youtube.com/watch?v=HIUzrxQxTtw",
           "channel": "Google DeepMind",
           "teams": [
@@ -3077,7 +3068,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-10-02T03:50:55.434281+00:00",
+      "last_ok_at": "2026-10-02T10:19:58.773101+00:00",
       "url": "https://www.youtube.com/@GoldmanSachs",
       "note": "Goldman Sachs 공식",
       "team_hint": "institutions",
@@ -3086,14 +3077,26 @@
       "subscribers": "321K",
       "video_count": 30,
       "error": "",
-      "checked_at": "2026-10-02T03:50:55.434297+00:00",
+      "checked_at": "2026-10-02T10:19:58.773121+00:00",
       "videos": [
+        {
+          "video_id": "qLhaaqCYA3Y",
+          "title": "Al Is Becoming a Stock Picker's Market",
+          "views_text": "83",
+          "published_text": "19 min ago",
+          "views": 83,
+          "url": "https://www.youtube.com/watch?v=qLhaaqCYA3Y",
+          "channel": "Goldman Sachs",
+          "teams": [
+            "institutions"
+          ]
+        },
         {
           "video_id": "gJylV9KAQqc",
           "title": "How Family Businesses Should Plan for Generational Success",
-          "views_text": "3.3K",
+          "views_text": "3.5K",
           "published_text": "1d ago",
-          "views": 3300,
+          "views": 3500,
           "url": "https://www.youtube.com/watch?v=gJylV9KAQqc",
           "channel": "Goldman Sachs",
           "teams": [
@@ -3103,9 +3106,9 @@
         {
           "video_id": "daeBq_f3JgI",
           "title": "Daniel Nadler on Building an AI-Powered Search Engine for Medicine",
-          "views_text": "2.9K",
+          "views_text": "3.6K",
           "published_text": "1d ago",
-          "views": 2900,
+          "views": 3600,
           "url": "https://www.youtube.com/watch?v=daeBq_f3JgI",
           "channel": "Goldman Sachs",
           "teams": [
@@ -3128,7 +3131,7 @@
           "video_id": "OiVqpczNbvw",
           "title": "Why the Bond Market May Be the Stock Market's Biggest Risk",
           "views_text": "61K",
-          "published_text": "6d ago",
+          "published_text": "7d ago",
           "views": 61000,
           "url": "https://www.youtube.com/watch?v=OiVqpczNbvw",
           "channel": "Goldman Sachs",
@@ -3152,7 +3155,7 @@
           "video_id": "7h8a-wObTe4",
           "title": "David Solomon’s Remarks at the 2026 FDNY Foundation Dinner",
           "views_text": "2.7K",
-          "published_text": "9d ago",
+          "published_text": "10d ago",
           "views": 2700,
           "url": "https://www.youtube.com/watch?v=7h8a-wObTe4",
           "channel": "Goldman Sachs",
@@ -3163,9 +3166,9 @@
         {
           "video_id": "1-TMZvDoOjE",
           "title": "Ryan Serhant on the Art of Selling Luxury Real Estate",
-          "views_text": "107K",
+          "views_text": "108K",
           "published_text": "10d ago",
-          "views": 107000,
+          "views": 108000,
           "url": "https://www.youtube.com/watch?v=1-TMZvDoOjE",
           "channel": "Goldman Sachs",
           "teams": [
@@ -3188,7 +3191,7 @@
           "video_id": "yH67oD6_lYs",
           "title": "The Opportunities for Investors amid Higher-for-Longer Interest Rates",
           "views_text": "39K",
-          "published_text": "13d ago",
+          "published_text": "2w ago",
           "views": 39000,
           "url": "https://www.youtube.com/watch?v=yH67oD6_lYs",
           "channel": "Goldman Sachs",
@@ -3200,7 +3203,7 @@
           "video_id": "KrZatIdXaUU",
           "title": "Rich Friedman on the Rise of Private Markets and AI Investing",
           "views_text": "18K",
-          "published_text": "13d ago",
+          "published_text": "2w ago",
           "views": 18000,
           "url": "https://www.youtube.com/watch?v=KrZatIdXaUU",
           "channel": "Goldman Sachs",
@@ -3272,7 +3275,7 @@
           "video_id": "KInzRPEzalU",
           "title": "Dipan Patel on Permira’s ‘Artisanal’ Approach to Private Equity",
           "views_text": "39K",
-          "published_text": "3w ago",
+          "published_text": "4w ago",
           "views": 39000,
           "url": "https://www.youtube.com/watch?v=KInzRPEzalU",
           "channel": "Goldman Sachs",
@@ -3435,24 +3438,12 @@
           "teams": [
             "institutions"
           ]
-        },
-        {
-          "video_id": "MbArCYT6Y1I",
-          "title": "Energy Disruptions Are Here to Stay",
-          "views_text": "10K",
-          "published_text": "1mo ago",
-          "views": 10000,
-          "url": "https://www.youtube.com/watch?v=MbArCYT6Y1I",
-          "channel": "Goldman Sachs",
-          "teams": [
-            "institutions"
-          ]
         }
       ]
     },
     {
       "stale": false,
-      "last_ok_at": "2026-10-02T03:51:00.793658+00:00",
+      "last_ok_at": "2026-10-02T10:20:04.096223+00:00",
       "url": "https://www.youtube.com/@TwoMinutePapers",
       "note": "최신 AI 논문 해설",
       "team_hint": "knowledge",
@@ -3461,14 +3452,14 @@
       "subscribers": "1.84M",
       "video_count": 30,
       "error": "",
-      "checked_at": "2026-10-02T03:51:00.793671+00:00",
+      "checked_at": "2026-10-02T10:20:04.096243+00:00",
       "videos": [
         {
           "video_id": "SA9kdAX2Zj0",
           "title": "Claude Opus 5.5 AI: An Incredible Leap Forward",
-          "views_text": "351K",
-          "published_text": "7d ago",
-          "views": 351000,
+          "views_text": "352K",
+          "published_text": "8d ago",
+          "views": 352000,
           "url": "https://www.youtube.com/watch?v=SA9kdAX2Zj0",
           "channel": "Two Minute Papers",
           "teams": [
@@ -3479,7 +3470,7 @@
           "video_id": "qBBRRsH0rQc",
           "title": "Yes, Jev Is Insane, But There's A Catch",
           "views_text": "278K",
-          "published_text": "9d ago",
+          "published_text": "10d ago",
           "views": 278000,
           "url": "https://www.youtube.com/watch?v=qBBRRsH0rQc",
           "channel": "Two Minute Papers",
@@ -3491,7 +3482,7 @@
           "video_id": "vIHw_2VjSUw",
           "title": "DeepSeek’s Insane New Architecture",
           "views_text": "333K",
-          "published_text": "13d ago",
+          "published_text": "2w ago",
           "views": 333000,
           "url": "https://www.youtube.com/watch?v=vIHw_2VjSUw",
           "channel": "Two Minute Papers",
@@ -3827,23 +3818,23 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-10-02T03:51:06.147592+00:00",
+      "last_ok_at": "2026-10-02T10:20:09.444663+00:00",
       "url": "https://www.youtube.com/@AIExplained-official",
       "note": "AI 모델·연구 해설",
       "team_hint": "knowledge",
       "channel_name": "AI Explained",
       "channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
-      "subscribers": "452K",
+      "subscribers": "453K",
       "video_count": 30,
       "error": "",
-      "checked_at": "2026-10-02T03:51:06.147606+00:00",
+      "checked_at": "2026-10-02T10:20:09.444681+00:00",
       "videos": [
         {
           "video_id": "_rtp1XzaP6Q",
           "title": "OpenAI Security: Controlling Models is Now ‘Hell’",
-          "views_text": "61K",
-          "published_text": "6h ago",
-          "views": 61000,
+          "views_text": "115K",
+          "published_text": "12h ago",
+          "views": 115000,
           "url": "https://www.youtube.com/watch?v=_rtp1XzaP6Q",
           "channel": "AI Explained",
           "teams": [
@@ -3853,9 +3844,9 @@
         {
           "video_id": "R9momwXV9w4",
           "title": "Opus 5.5: How Close Are We to Automated AI Research?",
-          "views_text": "280K",
+          "views_text": "281K",
           "published_text": "7d ago",
-          "views": 280000,
+          "views": 281000,
           "url": "https://www.youtube.com/watch?v=R9momwXV9w4",
           "channel": "AI Explained",
           "teams": [
@@ -3877,9 +3868,9 @@
         {
           "video_id": "Spuza-KwTJ4",
           "title": "GPT 6 Astra, so good even OpenAI are worried",
-          "views_text": "852K",
+          "views_text": "853K",
           "published_text": "3w ago",
-          "views": 852000,
+          "views": 853000,
           "url": "https://www.youtube.com/watch?v=Spuza-KwTJ4",
           "channel": "AI Explained",
           "teams": [
@@ -4202,7 +4193,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-10-02T03:51:11.509339+00:00",
+      "last_ok_at": "2026-10-02T10:20:14.797762+00:00",
       "url": "https://www.youtube.com/@AmazonSellerUniversity",
       "note": "Amazon 셀러 공식 교육",
       "team_hint": "channels",
@@ -4211,7 +4202,7 @@
       "subscribers": "239K",
       "video_count": 30,
       "error": "",
-      "checked_at": "2026-10-02T03:51:11.509352+00:00",
+      "checked_at": "2026-10-02T10:20:14.797779+00:00",
       "videos": [
         {
           "video_id": "oXWHIQ_Bg9c",
@@ -4408,9 +4399,9 @@
         {
           "video_id": "yQnj0fJEDc0",
           "title": "How to create a Deal in the Amazon store",
-          "views_text": "876",
+          "views_text": "877",
           "published_text": "6mo ago",
-          "views": 876,
+          "views": 877,
           "url": "https://www.youtube.com/watch?v=yQnj0fJEDc0",
           "channel": "Amazon Seller University",
           "teams": [
@@ -4516,9 +4507,9 @@
         {
           "video_id": "GeM_uDdUHow",
           "title": "How I Scaled Amazon to $10M+ in 2 Years | Amazon Seller Insights",
-          "views_text": "479",
+          "views_text": "478",
           "published_text": "6mo ago",
-          "views": 479,
+          "views": 478,
           "url": "https://www.youtube.com/watch?v=GeM_uDdUHow",
           "channel": "Amazon Seller University",
           "teams": [
@@ -4528,9 +4519,9 @@
         {
           "video_id": "KT3hhBmT0wg",
           "title": "How to Use Amazon Coupons & Promotions to Stand Out in Search | Amazon Seller Insights",
-          "views_text": "637",
+          "views_text": "636",
           "published_text": "6mo ago",
-          "views": 637,
+          "views": 636,
           "url": "https://www.youtube.com/watch?v=KT3hhBmT0wg",
           "channel": "Amazon Seller University",
           "teams": [
@@ -4577,7 +4568,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-10-02T03:51:17.014494+00:00",
+      "last_ok_at": "2026-10-02T10:20:20.260597+00:00",
       "url": "https://www.youtube.com/@US_FDA",
       "note": "U.S. FDA 공식 (화장품·MoCRA)",
       "team_hint": "legal",
@@ -4586,14 +4577,14 @@
       "subscribers": "199K",
       "video_count": 30,
       "error": "",
-      "checked_at": "2026-10-02T03:51:17.014509+00:00",
+      "checked_at": "2026-10-02T10:20:20.260617+00:00",
       "videos": [
         {
           "video_id": "ZJJiLao0eVw",
           "title": "Part Three: Substantial Equivalence (SE): The Predicate Review Process, Amendments, and Outcomes",
-          "views_text": "599",
+          "views_text": "607",
           "published_text": "10d ago",
-          "views": 599,
+          "views": 607,
           "url": "https://www.youtube.com/watch?v=ZJJiLao0eVw",
           "channel": "U.S. Food and Drug Administration",
           "teams": [
@@ -4603,9 +4594,9 @@
         {
           "video_id": "yIJs3G8T8Ks",
           "title": "Part Two: Substantial Equivalence (SE): Reviewing Predicate Tobacco Eligibility",
-          "views_text": "463",
+          "views_text": "466",
           "published_text": "10d ago",
-          "views": 463,
+          "views": 466,
           "url": "https://www.youtube.com/watch?v=yIJs3G8T8Ks",
           "channel": "U.S. Food and Drug Administration",
           "teams": [
@@ -4615,9 +4606,9 @@
         {
           "video_id": "I-pkoMqe9B4",
           "title": "Part One: Substantial Equivalence (SE): Key Concepts and Overview of The SE Review Process",
-          "views_text": "582",
+          "views_text": "583",
           "published_text": "10d ago",
-          "views": 582,
+          "views": 583,
           "url": "https://www.youtube.com/watch?v=I-pkoMqe9B4",
           "channel": "U.S. Food and Drug Administration",
           "teams": [
@@ -4627,9 +4618,9 @@
         {
           "video_id": "ldOjG94FwRI",
           "title": "Tips to Stay Safe in the Sun",
-          "views_text": "715",
+          "views_text": "716",
           "published_text": "3w ago",
-          "views": 715,
+          "views": 716,
           "url": "https://www.youtube.com/watch?v=ldOjG94FwRI",
           "channel": "U.S. Food and Drug Administration",
           "teams": [
@@ -4687,9 +4678,9 @@
         {
           "video_id": "izDzhj9Ah2c",
           "title": "FDA Grand Rounds-The Role of FDA in Preventing Medication Errors",
-          "views_text": "963",
+          "views_text": "964",
           "published_text": "1mo ago",
-          "views": 963,
+          "views": 964,
           "url": "https://www.youtube.com/watch?v=izDzhj9Ah2c",
           "channel": "U.S. Food and Drug Administration",
           "teams": [
@@ -4699,9 +4690,9 @@
         {
           "video_id": "Bxrhk5FgKz4",
           "title": "Expedited Investigational New Drug (IND) pilot program webinar",
-          "views_text": "6.8K",
+          "views_text": "6.9K",
           "published_text": "1mo ago",
-          "views": 6800,
+          "views": 6900,
           "url": "https://www.youtube.com/watch?v=Bxrhk5FgKz4",
           "channel": "U.S. Food and Drug Administration",
           "teams": [
@@ -4747,9 +4738,9 @@
         {
           "video_id": "oyiX0Czfwyw",
           "title": "GDF2026 - Manufacturing Deficiencies in Liquid Drug Products: The Top Ten Issues",
-          "views_text": "932",
+          "views_text": "935",
           "published_text": "2mo ago",
-          "views": 932,
+          "views": 935,
           "url": "https://www.youtube.com/watch?v=oyiX0Czfwyw",
           "channel": "U.S. Food and Drug Administration",
           "teams": [
@@ -4807,9 +4798,9 @@
         {
           "video_id": "dRjMrE5X7Vs",
           "title": "GDF2026 - Quality and Safety Assessment of Extractables/Leachables in Generic Drug Products",
-          "views_text": "738",
+          "views_text": "739",
           "published_text": "2mo ago",
-          "views": 738,
+          "views": 739,
           "url": "https://www.youtube.com/watch?v=dRjMrE5X7Vs",
           "channel": "U.S. Food and Drug Administration",
           "teams": [
@@ -4819,9 +4810,9 @@
         {
           "video_id": "resgk9xULEs",
           "title": "GDF2026 - Updates on Nitrosamines/ Nitrosamine Mitigation Strategies for Pharmaceuticals",
-          "views_text": "577",
+          "views_text": "579",
           "published_text": "2mo ago",
-          "views": 577,
+          "views": 579,
           "url": "https://www.youtube.com/watch?v=resgk9xULEs",
           "channel": "U.S. Food and Drug Administration",
           "teams": [
@@ -4831,9 +4822,9 @@
         {
           "video_id": "U4fMQ4s-m30",
           "title": "GDF2026 - Bioequivalence (BE) Recommendations for Bridging Pre- and Post-Mitigation Formulations",
-          "views_text": "329",
+          "views_text": "330",
           "published_text": "2mo ago",
-          "views": 329,
+          "views": 330,
           "url": "https://www.youtube.com/watch?v=U4fMQ4s-m30",
           "channel": "U.S. Food and Drug Administration",
           "teams": [
@@ -4843,9 +4834,9 @@
         {
           "video_id": "K7_sI0KE0s4",
           "title": "GDF2026 - Best Practices for Safety Assessment of Nitrosamines in Generic Drugs",
-          "views_text": "219",
+          "views_text": "220",
           "published_text": "2mo ago",
-          "views": 219,
+          "views": 220,
           "url": "https://www.youtube.com/watch?v=K7_sI0KE0s4",
           "channel": "U.S. Food and Drug Administration",
           "teams": [
@@ -4879,9 +4870,9 @@
         {
           "video_id": "9xGEFgj5sno",
           "title": "GDF2026 - Common Microbiology Deficiencies for Ophthalmic Suspension Drug Products",
-          "views_text": "310",
+          "views_text": "311",
           "published_text": "2mo ago",
-          "views": 310,
+          "views": 311,
           "url": "https://www.youtube.com/watch?v=9xGEFgj5sno",
           "channel": "U.S. Food and Drug Administration",
           "teams": [
@@ -4927,9 +4918,9 @@
         {
           "video_id": "HSwvc-OHhX8",
           "title": "GDF2026 - Regulatory Review Process for Type II Secondary DMFs",
-          "views_text": "119",
+          "views_text": "120",
           "published_text": "2mo ago",
-          "views": 119,
+          "views": 120,
           "url": "https://www.youtube.com/watch?v=HSwvc-OHhX8",
           "channel": "U.S. Food and Drug Administration",
           "teams": [
@@ -4952,7 +4943,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-10-02T03:51:22.391560+00:00",
+      "last_ok_at": "2026-10-02T10:20:25.605004+00:00",
       "url": "https://www.youtube.com/@linkingyourthinking",
       "note": "Obsidian·개인 지식관리(PKM)",
       "team_hint": "graph",
@@ -4961,7 +4952,7 @@
       "subscribers": "375K",
       "video_count": 30,
       "error": "",
-      "checked_at": "2026-10-02T03:51:22.391575+00:00",
+      "checked_at": "2026-10-02T10:20:25.605024+00:00",
       "videos": [
         {
           "video_id": "l878ahBkx68",
@@ -5002,9 +4993,9 @@
         {
           "video_id": "jbHB-rzKBAs",
           "title": "The 3-File AI System That Works With ANY MODEL",
-          "views_text": "196K",
+          "views_text": "197K",
           "published_text": "5mo ago",
-          "views": 196000,
+          "views": 197000,
           "url": "https://www.youtube.com/watch?v=jbHB-rzKBAs",
           "channel": "Linking Your Thinking with Nick Milo",
           "teams": [
@@ -5327,7 +5318,7 @@
     },
     {
       "stale": false,
-      "last_ok_at": "2026-10-02T03:51:27.774760+00:00",
+      "last_ok_at": "2026-10-02T10:20:30.977494+00:00",
       "url": "https://www.youtube.com/@Flexport",
       "note": "Flexport 공식 - 관세·국제 물류 비용",
       "team_hint": "pricing",
@@ -5336,14 +5327,14 @@
       "subscribers": "7.08K",
       "video_count": 30,
       "error": "",
-      "checked_at": "2026-10-02T03:51:27.774775+00:00",
+      "checked_at": "2026-10-02T10:20:30.977515+00:00",
       "videos": [
         {
           "video_id": "z9czG_mcDBM",
           "title": "Flexport 2026 Fall Technology Release Live Broadcast",
-          "views_text": "824",
+          "views_text": "859",
           "published_text": "2d ago",
-          "views": 824,
+          "views": 859,
           "url": "https://www.youtube.com/watch?v=z9czG_mcDBM",
           "channel": "Flexport",
           "teams": [
@@ -5353,9 +5344,9 @@
         {
           "video_id": "2NKi9pRzVAA",
           "title": "Flexport Forward Copenhagen | Supply Chain AI, Ocean Resilience & Key Insights",
-          "views_text": "116",
+          "views_text": "118",
           "published_text": "10d ago",
-          "views": 116,
+          "views": 118,
           "url": "https://www.youtube.com/watch?v=2NKi9pRzVAA",
           "channel": "Flexport",
           "teams": [
@@ -5389,9 +5380,9 @@
         {
           "video_id": "mlsG9r32p2s",
           "title": "Cocaine Bust in Portugal and More in Today's Flexport Atlas News Update",
-          "views_text": "184",
+          "views_text": "185",
           "published_text": "1mo ago",
-          "views": 184,
+          "views": 185,
           "url": "https://www.youtube.com/watch?v=mlsG9r32p2s",
           "channel": "Flexport",
           "teams": [
@@ -5413,9 +5404,9 @@
         {
           "video_id": "FbGsgddedYk",
           "title": "Isochronic Map of Container Shipping from Flexport",
-          "views_text": "133",
+          "views_text": "135",
           "published_text": "1mo ago",
-          "views": 133,
+          "views": 135,
           "url": "https://www.youtube.com/watch?v=FbGsgddedYk",
           "channel": "Flexport",
           "teams": [

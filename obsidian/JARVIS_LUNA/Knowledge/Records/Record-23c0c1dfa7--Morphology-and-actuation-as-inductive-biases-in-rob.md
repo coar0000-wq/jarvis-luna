@@ -2,7 +2,7 @@
 title: "Record 23c0c1dfa7 · Morphology-and-actuation-as-inductive-biases-in-rob"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:08.428862+00:00
+updated_at: 2026-10-02T10:30:21.049529+00:00
 tags: [record, real-data]
 ---
 

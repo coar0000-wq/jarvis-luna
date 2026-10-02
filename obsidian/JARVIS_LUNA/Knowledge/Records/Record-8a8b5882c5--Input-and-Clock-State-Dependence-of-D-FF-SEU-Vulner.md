@@ -2,7 +2,7 @@
 title: "Record 8a8b5882c5 · Input-and-Clock-State-Dependence-of-D-FF-SEU-Vulner"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:09.013635+00:00
+updated_at: 2026-10-02T10:30:21.492980+00:00
 tags: [record, real-data]
 ---
 

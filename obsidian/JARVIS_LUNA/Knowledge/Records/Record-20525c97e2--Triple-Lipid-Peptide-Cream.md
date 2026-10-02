@@ -2,7 +2,7 @@
 title: "Record 20525c97e2 · Triple-Lipid-Peptide-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:11.661708+00:00
+updated_at: 2026-10-02T10:30:23.325441+00:00
 tags: [record, real-data]
 ---
 

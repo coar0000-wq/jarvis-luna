@@ -2,7 +2,7 @@
 title: "Record 1feb1a4033 · Economic-Slowdown-2023-Investor-Sentiment"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:11.472830+00:00
+updated_at: 2026-10-02T10:30:23.195062+00:00
 tags: [record, real-data]
 ---
 

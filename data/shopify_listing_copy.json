@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-02T04:03:39.887933+00:00",
+  "generated_at": "2026-10-02T10:28:23.006278+00:00",
   "generator": "scripts/build_listing_copy_local.py",
   "model": "none_local_deterministic",
   "paid_api_called": false,
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "note": "기존 검증 카피를 보존하고 누락분만 제품명·용량·원산지 기반의 보수적 영문 초안으로 생성한다. 효능·인증·임상 결과는 생성하지 않는다.",
   "total": 10,
-  "eligible": 8,
-  "ok": 8,
+  "eligible": 9,
+  "ok": 9,
   "failed": 0,
-  "skipped_prerequisite": 2,
-  "carried_forward": 7,
+  "skipped_prerequisite": 1,
+  "carried_forward": 8,
   "generated_local": 1,
   "items": [
     {
@@ -77,25 +77,34 @@
       "error": ""
     },
     {
-      "canonical_product_id": "CP000178",
-      "pd_no": "1061918",
-      "name_ko": "[기미잡티리셋]본셉 비타씨 동결 건조 더블샷 앰플 키트",
+      "canonical_product_id": "CP000106",
+      "pd_no": "1049275",
+      "name_ko": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
       "bucket": "스킨케어",
-      "price_krw": 5000,
+      "price_krw": 3000,
       "rating": null,
       "review_count": null,
       "shopify_score": 98,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061918",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251216/lcOc1IVBETy66kefZV8g1061918_00_00lcOc1IVBETy66kefZV8g.jpg",
-      "copy": null,
-      "copy_status": "skipped_prerequisite",
-      "generation_mode": "none",
-      "agent_blocked_by": [
-        "gosi",
-        "us_label",
-        "legal"
-      ],
-      "error": "ontology 선행 게이트 미통과: gosi, us_label, legal"
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049275",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/0XsdymYj3PJyHpuxNOsm1049275_00_010XsdymYj3PJyHpuxNOsm.jpg",
+      "copy": {
+        "title": "VT Reedle Shot 100 Face Ampoule 2ml",
+        "description_html": "<p>VT Reedle Shot 100 Face Ampoule 2ml is a Korean beauty face ampoule in a 2ml size. This draft uses only the verified product identity and package information.</p><p>Review the ingredient list, directions, and final US label before publication.</p>",
+        "seo_title": "VT Reedle Shot 100 Face Ampoule 2ml",
+        "seo_description": "View VT Reedle Shot 100 Face Ampoule 2ml. Product identity and size are based on the source product notice. Review ingredients, directions, and the final label before purchase.",
+        "tags": [
+          "vt",
+          "reedle-shot-100",
+          "face-ampoule",
+          "k-beauty",
+          "korean-beauty"
+        ],
+        "product_type": "Face Ampoule"
+      },
+      "copy_status": "ok",
+      "generation_mode": "deterministic_local_template_v1",
+      "agent_blocked_by": [],
+      "error": ""
     },
     {
       "canonical_product_id": "CP000216",
@@ -202,7 +211,7 @@
       "price_krw": 3000,
       "rating": null,
       "review_count": null,
-      "shopify_score": 93,
+      "shopify_score": 92,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20250929/gblFwiiyQbV92ezzjLMk1049285_00_01gblFwiiyQbV92ezzjLMk.jpg",
       "copy": {
@@ -225,6 +234,26 @@
       "error": ""
     },
     {
+      "canonical_product_id": "CP000038",
+      "pd_no": "1027327",
+      "name_ko": "바세린 마스크팩 집중보습",
+      "bucket": "마스크팩",
+      "price_krw": 1000,
+      "rating": null,
+      "review_count": null,
+      "shopify_score": 91,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027327&recmYn=N",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251231/a1rTbe8LgoPw9mu5HABd1027327_00_00a1rTbe8LgoPw9mu5HABd.jpg",
+      "copy": null,
+      "copy_status": "skipped_prerequisite",
+      "generation_mode": "none",
+      "agent_blocked_by": [
+        "us_label",
+        "legal"
+      ],
+      "error": "ontology 선행 게이트 미통과: us_label, legal"
+    },
+    {
       "canonical_product_id": "CP000151",
       "pd_no": "1059834",
       "name_ko": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
@@ -232,7 +261,7 @@
       "price_krw": 2000,
       "rating": null,
       "review_count": null,
-      "shopify_score": 90,
+      "shopify_score": 87,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20250429/dEtwcu53V3cOWvQ0SnSL1059834_00_01dEtwcu53V3cOWvQ0SnSL.jpg",
       "copy": {
@@ -253,26 +282,6 @@
       "generation_mode": "deterministic_local_template_v1",
       "agent_blocked_by": [],
       "error": ""
-    },
-    {
-      "canonical_product_id": "CP000038",
-      "pd_no": "1027327",
-      "name_ko": "바세린 마스크팩 집중보습",
-      "bucket": "마스크팩",
-      "price_krw": 1000,
-      "rating": null,
-      "review_count": null,
-      "shopify_score": 89,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027327&recmYn=N",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251231/a1rTbe8LgoPw9mu5HABd1027327_00_00a1rTbe8LgoPw9mu5HABd.jpg",
-      "copy": null,
-      "copy_status": "skipped_prerequisite",
-      "generation_mode": "none",
-      "agent_blocked_by": [
-        "us_label",
-        "legal"
-      ],
-      "error": "ontology 선행 게이트 미통과: us_label, legal"
     },
     {
       "canonical_product_id": "CP000075",

@@ -2,7 +2,7 @@
 title: "Record 9f3147fd06 · Analytic-RFR-Option-Pricing-with-Smile-and-Skew"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:09.117185+00:00
+updated_at: 2026-10-02T10:30:21.567876+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 253ea067c4 · China-Us-Ongoing-Trade-Tensions"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:11.515733+00:00
+updated_at: 2026-10-02T10:30:23.222926+00:00
 tags: [record, real-data]
 ---
 

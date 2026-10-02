@@ -2,7 +2,7 @@
 title: "Record 118f7e0772 · Accupressure-Lymphatic-Body-Massager"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:11.613895+00:00
+updated_at: 2026-10-02T10:30:23.285225+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 156a588b13 · Portability-of-Fortrans-do-concurrent-on-GPUs-II"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:09.284599+00:00
+updated_at: 2026-10-02T10:30:21.685228+00:00
 tags: [record, real-data]
 ---
 

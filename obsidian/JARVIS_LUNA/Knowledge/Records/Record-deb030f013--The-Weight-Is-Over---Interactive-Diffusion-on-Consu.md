@@ -2,7 +2,7 @@
 title: "Record deb030f013 · The-Weight-Is-Over---Interactive-Diffusion-on-Consumer-GPUs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:08.662576+00:00
+updated_at: 2026-10-02T10:30:21.258293+00:00
 tags: [record, real-data]
 ---
 

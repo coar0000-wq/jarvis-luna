@@ -2,7 +2,7 @@
 title: "Record 9316f3c9d9 · Bear-Market-Risks-Us-2023"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:11.470133+00:00
+updated_at: 2026-10-02T10:30:23.193002+00:00
 tags: [record, real-data]
 ---
 

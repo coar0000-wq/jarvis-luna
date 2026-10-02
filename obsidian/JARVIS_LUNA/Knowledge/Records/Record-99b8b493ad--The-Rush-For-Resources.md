@@ -2,7 +2,7 @@
 title: "Record 99b8b493ad · The-Rush-For-Resources"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:11.438992+00:00
+updated_at: 2026-10-02T10:30:23.174441+00:00
 tags: [record, real-data]
 ---
 

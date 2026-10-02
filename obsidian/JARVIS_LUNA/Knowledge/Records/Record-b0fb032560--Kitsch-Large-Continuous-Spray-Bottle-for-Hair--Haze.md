@@ -2,7 +2,7 @@
 title: "Record b0fb032560 · Kitsch-Large-Continuous-Spray-Bottle-for-Hair--Haze-Blue-180ml--Fine-M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:10.999420+00:00
+updated_at: 2026-10-02T10:30:22.904137+00:00
 tags: [record, real-data]
 ---
 

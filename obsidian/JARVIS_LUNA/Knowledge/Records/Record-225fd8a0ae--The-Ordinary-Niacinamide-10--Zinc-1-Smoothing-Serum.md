@@ -2,7 +2,7 @@
 title: "Record 225fd8a0ae · The-Ordinary-Niacinamide-10--Zinc-1-Smoothing-Serum-for-Blemish-Prone-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:11.148281+00:00
+updated_at: 2026-10-02T10:30:22.987245+00:00
 tags: [record, real-data]
 ---
 

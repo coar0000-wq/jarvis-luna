@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-02T03:49:48.207434+00:00",
+  "collected_at": "2026-10-02T10:18:53.280909+00:00",
   "total": 1073,
   "organizations": 35,
   "by_org": {
@@ -54,7 +54,7 @@
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-10-02T03:48:59.615337+00:00"
+      "collected_at": "2026-10-02T10:18:02.464159+00:00"
     },
     "sitemap": {
       "status": "ok",
@@ -66,13 +66,13 @@
           "reason": "lastmod 있는 매칭 URL 0건"
         }
       ],
-      "collected_at": "2026-10-02T03:49:23.342968+00:00"
+      "collected_at": "2026-10-02T10:18:27.343701+00:00"
     },
     "openalex": {
       "status": "ok",
       "count": 743,
       "failures": [],
-      "collected_at": "2026-10-02T03:49:48.206349+00:00"
+      "collected_at": "2026-10-02T10:18:53.280189+00:00"
     }
   },
   "not_collected": {
@@ -1847,6 +1847,45 @@
     },
     {
       "title": "[AI Ecosystem] Redesigning infrastructure: Why architecture determines performance",
+      "url": "https://news.skhynix.com/en/ai-ecosystem-series-ep3-2/",
+      "date": "2026-10-02",
+      "date_raw": "Fri, 02 Oct 2026 00:00:41 +0000",
+      "summary": "",
+      "org": "SK hynix",
+      "category": "반도체",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://news.skhynix.com/feed/",
+      "title_source": "feed"
+    },
+    {
+      "title": "[AI Ecosystem] Redesigning infrastructure: Why architecture determines performance",
+      "url": "https://news.skhynix.com/en/ai-ecosystem-series-ep3-1/",
+      "date": "2026-10-02",
+      "date_raw": "Fri, 02 Oct 2026 00:00:29 +0000",
+      "summary": "",
+      "org": "SK hynix",
+      "category": "반도체",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://news.skhynix.com/feed/",
+      "title_source": "feed"
+    },
+    {
+      "title": "[AI Ecosystem] Redesigning infrastructure: Why architecture determines performance",
+      "url": "https://news.skhynix.com/en/ai-ecosystem-series-ep3-3/",
+      "date": "2026-10-02",
+      "date_raw": "Fri, 02 Oct 2026 00:00:20 +0000",
+      "summary": "",
+      "org": "SK hynix",
+      "category": "반도체",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://news.skhynix.com/feed/",
+      "title_source": "feed"
+    },
+    {
+      "title": "[AI Ecosystem] Redesigning infrastructure: Why architecture determines performance",
       "url": "https://news.skhynix.com/en/ai-ecosystem-series-ep3/",
       "date": "2026-10-01",
       "date_raw": "Thu, 01 Oct 2026 23:59:03 +0000",
@@ -1864,45 +1903,6 @@
       "date": "2026-10-01",
       "date_raw": "Thu, 01 Oct 2026 01:22:33 +0000",
       "summary": "▪ Regarding Solidigm, no matters have been determined as of the date hereof. ▪ Whether utilizing external or internal capital, any approach must be evaluated not only by its structure, but also by its overall economic impact on existing shareholders.",
-      "org": "SK hynix",
-      "category": "반도체",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://news.skhynix.com/feed/",
-      "title_source": "feed"
-    },
-    {
-      "title": "[AI infrastructure insight] Why power and cooling have become the next challenge for AI data centers",
-      "url": "https://news.skhynix.com/en/ai-infrastructure-insight-ep3-4/",
-      "date": "2026-09-30",
-      "date_raw": "Wed, 30 Sep 2026 00:00:37 +0000",
-      "summary": "",
-      "org": "SK hynix",
-      "category": "반도체",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://news.skhynix.com/feed/",
-      "title_source": "feed"
-    },
-    {
-      "title": "[AI infrastructure insight] Why power and cooling have become the next challenge for AI data centers",
-      "url": "https://news.skhynix.com/en/ai-infrastructure-insight-ep3-1/",
-      "date": "2026-09-30",
-      "date_raw": "Wed, 30 Sep 2026 00:00:31 +0000",
-      "summary": "",
-      "org": "SK hynix",
-      "category": "반도체",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://news.skhynix.com/feed/",
-      "title_source": "feed"
-    },
-    {
-      "title": "[AI infrastructure insight] Why power and cooling have become the next challenge for AI data centers",
-      "url": "https://news.skhynix.com/en/ai-infrastructure-insight-ep3-2/",
-      "date": "2026-09-30",
-      "date_raw": "Wed, 30 Sep 2026 00:00:01 +0000",
-      "summary": "",
       "org": "SK hynix",
       "category": "반도체",
       "kind": "발표물",
@@ -2301,19 +2301,6 @@
       "title_source": "feed"
     },
     {
-      "title": "Read Restrictions and Catalog Labels: Unifying governance across engines and catalogs",
-      "url": "https://www.databricks.com/blog/read-restrictions-and-catalog-labels-unifying-governance-across-engines-and-catalogs",
-      "date": "2026-10-01",
-      "date_raw": "Thu, 01 Oct 2026 20:37:30 GMT",
-      "summary": "In our previous posts, we showed how open table formats, open APIs and unified governance...",
-      "org": "Databricks",
-      "category": "데이터분석",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://www.databricks.com/feed",
-      "title_source": "feed"
-    },
-    {
       "title": "Lakebase Postgres branch-based restores for fast recovery at scale",
       "url": "https://www.databricks.com/blog/lakebase-postgres-branch-based-restores-fast-recovery-scale",
       "date": "2026-10-01",
@@ -2423,6 +2410,19 @@
       "date": "2026-09-28",
       "date_raw": "Mon, 28 Sep 2026 20:04:33 GMT",
       "summary": "Traditional OLTP systems weren't built for the search demands of AI agents. They...",
+      "org": "Databricks",
+      "category": "데이터분석",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://www.databricks.com/feed",
+      "title_source": "feed"
+    },
+    {
+      "title": "Manufacturing data and AI: Connecting the product value chain",
+      "url": "https://www.databricks.com/blog/manufacturing-data-and-ai-connecting-product-value-chain",
+      "date": "2026-09-28",
+      "date_raw": "Mon, 28 Sep 2026 19:47:19 GMT",
+      "summary": "A manufacturing defect rarely belongs to one system. A scrap spike may relate to...",
       "org": "Databricks",
       "category": "데이터분석",
       "kind": "발표물",
@@ -3341,6 +3341,19 @@
       "feed": "https://x.ai/sitemap.xml"
     },
     {
+      "url": "https://home.barclays/news/press-releases/20260/090/barclays-launches-market-leading-switching-offers-worth-up-to-p6/",
+      "date": "2026-10-01",
+      "date_raw": "2026-10-01T14:51:32+01:00",
+      "title_source": "page",
+      "title": "Barclays launches market-leading switching offers worth up to £600",
+      "summary": "Customers could get up to £600 when switching to a Barclays Premier Account, or up to £300 when switching to a Barclays Bank Account",
+      "org": "Barclays",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://home.barclays/sitemap.xml"
+    },
+    {
       "url": "https://home.barclays/news/press-releases/20260/100/completion-of-the-acquisition-of-gohenry--a-money-management-pla/",
       "date": "2026-10-01",
       "date_raw": "2026-10-01T16:55:09+01:00",
@@ -3461,9 +3474,9 @@
       "url": "https://home.barclays/news/press-releases/20260/090/barclays-announces-wee-yee-yeong-to-lead-private-bank-in-singapo01/",
       "date": "2026-09-22",
       "date_raw": "2026-09-22T10:34:45+01:00",
-      "title_source": "page",
-      "title": "Barclays announces Wee Yee-Yeong to lead Private Bank in Singapore | Barclays",
-      "summary": "Barclays today announces the appointment of Wee Yee-Yeong as Head of Private Bank Singapore and Head of Private Bank Asia.",
+      "title_source": "url-slug",
+      "title": "Barclays Announces Wee Yee Yeong To Lead Private Bank In Singapo01",
+      "summary": "",
       "org": "Barclays",
       "category": "투자은행",
       "kind": "발표물",
@@ -3580,19 +3593,6 @@
       "date_raw": "2026-09-02T08:35:16+01:00",
       "title_source": "url-slug",
       "title": "Barclays Supported By Atlassian Williams F1 Team Launches Nati",
-      "summary": "",
-      "org": "Barclays",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://home.barclays/sitemap.xml"
-    },
-    {
-      "url": "https://home.barclays/news/press-releases/20260/090/-application-to-offer-in-24-hours-with-new-barclays-fast-track-r/",
-      "date": "2026-09-02",
-      "date_raw": "2026-09-02T09:49:50+01:00",
-      "title_source": "url-slug",
-      "title": "Application To Offer In 24 Hours With New Barclays Fast Track R",
       "summary": "",
       "org": "Barclays",
       "category": "투자은행",
@@ -3861,11 +3861,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.jpmorgan.com/insights/sustainability/climate/board-discussion-resilience",
+      "url": "https://www.jpmorgan.com/insights/treasury/trade-working-capital/managing-inventory-turnover-and-excess-inventory",
       "date": "2026-10-01",
       "date_raw": "2026-10-01",
       "title_source": "url-slug",
-      "title": "Board Discussion Resilience",
+      "title": "Managing Inventory Turnover And Excess Inventory",
       "summary": "",
       "org": "JPMorgan Chase",
       "category": "투자은행",
@@ -3900,11 +3900,11 @@
       "feed": "https://www.jpmorgan.com/sitemap.xml"
     },
     {
-      "url": "https://www.jpmorgan.com/insights/treasury/trade-working-capital/managing-inventory-turnover-and-excess-inventory",
+      "url": "https://www.jpmorgan.com/insights/sustainability/climate/board-discussion-resilience",
       "date": "2026-10-01",
       "date_raw": "2026-10-01",
       "title_source": "url-slug",
-      "title": "Managing Inventory Turnover And Excess Inventory",
+      "title": "Board Discussion Resilience",
       "summary": "",
       "org": "JPMorgan Chase",
       "category": "투자은행",
@@ -3918,6 +3918,19 @@
       "date_raw": "2026-09-30",
       "title_source": "url-slug",
       "title": "The Appearance Of Legitimacy How Fraud Hides In Plain Sight",
+      "summary": "",
+      "org": "JPMorgan Chase",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.jpmorgan.com/sitemap.xml"
+    },
+    {
+      "url": "https://www.jpmorgan.com/insights/podcast-hub/making-sense/the-fed-hikes-rates-what-happens-now",
+      "date": "2026-09-29",
+      "date_raw": "2026-09-29",
+      "title_source": "url-slug",
+      "title": "The Fed Hikes Rates What Happens Now",
       "summary": "",
       "org": "JPMorgan Chase",
       "category": "투자은행",
@@ -3978,19 +3991,6 @@
       "feed": "https://www.jpmorgan.com/sitemap.xml"
     },
     {
-      "url": "https://www.jpmorgan.com/insights/podcast-hub/making-sense/geopolitics-vs-markets-how-might-the-us-china-and-iran-reshape-global-risk",
-      "date": "2026-09-29",
-      "date_raw": "2026-09-29",
-      "title_source": "url-slug",
-      "title": "Geopolitics Vs Markets How Might The Us China And Iran Reshape Global Risk",
-      "summary": "",
-      "org": "JPMorgan Chase",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.jpmorgan.com/sitemap.xml"
-    },
-    {
       "url": "https://www.jpmorgan.com/insights/payments/merchant-services/credit-card-and-payment-processing-guide-for-businesses",
       "date": "2026-09-29",
       "date_raw": "2026-09-29",
@@ -4004,11 +4004,11 @@
       "feed": "https://www.jpmorgan.com/sitemap.xml"
     },
     {
-      "url": "https://www.jpmorgan.com/insights/podcast-hub/making-sense/the-fed-hikes-rates-what-happens-now",
+      "url": "https://www.jpmorgan.com/insights/podcast-hub/making-sense/geopolitics-vs-markets-how-might-the-us-china-and-iran-reshape-global-risk",
       "date": "2026-09-29",
       "date_raw": "2026-09-29",
       "title_source": "url-slug",
-      "title": "The Fed Hikes Rates What Happens Now",
+      "title": "Geopolitics Vs Markets How Might The Us China And Iran Reshape Global Risk",
       "summary": "",
       "org": "JPMorgan Chase",
       "category": "투자은행",
@@ -4030,11 +4030,11 @@
       "feed": "https://www.jpmorgan.com/sitemap.xml"
     },
     {
-      "url": "https://www.jpmorgan.com/insights/payments/security-trust/pci-compliance-guide-protect-payment-data-and-prevent-fraud",
+      "url": "https://www.jpmorgan.com/insights/real-estate/commercial-term-lending/what-is-debt-service-coverage-ratio-dscr-in-real-estate",
       "date": "2026-09-29",
       "date_raw": "2026-09-29",
       "title_source": "url-slug",
-      "title": "Pci Compliance Guide Protect Payment Data And Prevent Fraud",
+      "title": "What Is Debt Service Coverage Ratio Dscr In Real Estate",
       "summary": "",
       "org": "JPMorgan Chase",
       "category": "투자은행",
@@ -4043,11 +4043,24 @@
       "feed": "https://www.jpmorgan.com/sitemap.xml"
     },
     {
-      "url": "https://www.jpmorgan.com/insights/real-estate/commercial-term-lending/what-is-debt-service-coverage-ratio-dscr-in-real-estate",
+      "url": "https://www.jpmorgan.com/insights/banking/commercial-banking/startup-fundraising-how-to-raise-capital-for-your-startup",
       "date": "2026-09-29",
       "date_raw": "2026-09-29",
       "title_source": "url-slug",
-      "title": "What Is Debt Service Coverage Ratio Dscr In Real Estate",
+      "title": "Startup Fundraising How To Raise Capital For Your Startup",
+      "summary": "",
+      "org": "JPMorgan Chase",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.jpmorgan.com/sitemap.xml"
+    },
+    {
+      "url": "https://www.jpmorgan.com/insights/payments/security-trust/pci-compliance-guide-protect-payment-data-and-prevent-fraud",
+      "date": "2026-09-29",
+      "date_raw": "2026-09-29",
+      "title_source": "url-slug",
+      "title": "Pci Compliance Guide Protect Payment Data And Prevent Fraud",
       "summary": "",
       "org": "JPMorgan Chase",
       "category": "투자은행",
@@ -4095,11 +4108,11 @@
       "feed": "https://www.jpmorgan.com/sitemap.xml"
     },
     {
-      "url": "https://www.jpmorgan.com/insights/banking/commercial-banking/startup-fundraising-how-to-raise-capital-for-your-startup",
-      "date": "2026-09-29",
-      "date_raw": "2026-09-29",
+      "url": "https://www.jpmorgan.com/insights/podcast-hub/making-sense/why-tokenization-is-gaining-momentum",
+      "date": "2026-09-28",
+      "date_raw": "2026-09-28",
       "title_source": "url-slug",
-      "title": "Startup Fundraising How To Raise Capital For Your Startup",
+      "title": "Why Tokenization Is Gaining Momentum",
       "summary": "",
       "org": "JPMorgan Chase",
       "category": "투자은행",
@@ -4108,17 +4121,17 @@
       "feed": "https://www.jpmorgan.com/sitemap.xml"
     },
     {
-      "url": "https://www.jpmorgan.com/insights/real-estate/community-development-banking/funding-mitchell-lama-housing-renovations",
-      "date": "2026-09-28",
-      "date_raw": "2026-09-28",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/tokenization-ai-wealth-management-betsy-graseck-michael-cyprys",
+      "date": "2026-10-01",
+      "date_raw": "2026-10-01T20:39:05Z",
       "title_source": "url-slug",
-      "title": "Funding Mitchell Lama Housing Renovations",
+      "title": "Tokenization Ai Wealth Management Betsy Graseck Michael Cyprys",
       "summary": "",
-      "org": "JPMorgan Chase",
+      "org": "Morgan Stanley",
       "category": "투자은행",
       "kind": "발표물",
       "source": "sitemap",
-      "feed": "https://www.jpmorgan.com/sitemap.xml"
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
       "url": "https://www.morganstanley.com/insights/articles/china-next-industrial-revolution-industry-5-outlook",
@@ -4147,11 +4160,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/2026-midterm-elections-market-signals-investors-ariana-salvatore",
-      "date": "2026-09-30",
-      "date_raw": "2026-09-30T18:07:23Z",
+      "url": "https://www.morganstanley.com/insights/videos/exceptional-leaders",
+      "date": "2026-10-01",
+      "date_raw": "2026-10-01T19:17:24Z",
       "title_source": "url-slug",
-      "title": "2026 Midterm Elections Market Signals Investors Ariana Salvatore",
+      "title": "Exceptional Leaders",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4160,11 +4173,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/bear-market-risks-us-2023",
-      "date": "2026-09-30",
-      "date_raw": "2026-09-30T15:25:00Z",
+      "url": "https://www.morganstanley.com/insights/videos/exceptional-leaders/thermo-fisher-scientific-chairman-ceo-marc-casper",
+      "date": "2026-10-01",
+      "date_raw": "2026-10-01T19:18:27Z",
       "title_source": "url-slug",
-      "title": "Bear Market Risks Us 2023",
+      "title": "Thermo Fisher Scientific Chairman Ceo Marc Casper",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4199,6 +4212,19 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
+      "url": "https://www.morganstanley.com/ideas/market-sentiment-bullish-q1-2023",
+      "date": "2026-09-30",
+      "date_raw": "2026-09-30T15:24:58Z",
+      "title_source": "url-slug",
+      "title": "Market Sentiment Bullish Q1 2023",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
       "url": "https://www.morganstanley.com/insights/articles/digital-assets-next-stage-roundtable-institute-2026",
       "date": "2026-09-30",
       "date_raw": "2026-09-30T23:01:34Z",
@@ -4225,11 +4251,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/global-macro-economy-outlook-2023",
+      "url": "https://www.morganstanley.com/ideas/bear-market-risks-us-2023",
       "date": "2026-09-30",
-      "date_raw": "2026-09-30T15:25:01Z",
+      "date_raw": "2026-09-30T15:25:00Z",
       "title_source": "url-slug",
-      "title": "Global Macro Economy Outlook 2023",
+      "title": "Bear Market Risks Us 2023",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4251,11 +4277,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/market-sentiment-bullish-q1-2023",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/2026-midterm-elections-market-signals-investors-ariana-salvatore",
       "date": "2026-09-30",
-      "date_raw": "2026-09-30T15:24:58Z",
+      "date_raw": "2026-09-30T18:07:23Z",
       "title_source": "url-slug",
-      "title": "Market Sentiment Bullish Q1 2023",
+      "title": "2026 Midterm Elections Market Signals Investors Ariana Salvatore",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4264,11 +4290,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/this-time-is-different-2024-investing-risks",
-      "date": "2026-09-29",
-      "date_raw": "2026-09-29T13:12:55Z",
+      "url": "https://www.morganstanley.com/ideas/global-macro-economy-outlook-2023",
+      "date": "2026-09-30",
+      "date_raw": "2026-09-30T15:25:01Z",
       "title_source": "url-slug",
-      "title": "This Time Is Different 2024 Investing Risks",
+      "title": "Global Macro Economy Outlook 2023",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4277,37 +4303,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/what-we-do/wealth-management/institutional-consulting-solutions/our-insights/endowment-foundation-spending-portfolio-strategy",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/china-12-trillion-dollar-industry-5-opportunity-sheng-zhong",
       "date": "2026-09-29",
-      "date_raw": "2026-09-29T14:42:09Z",
+      "date_raw": "2026-09-29T20:15:19Z",
       "title_source": "url-slug",
-      "title": "Endowment Foundation Spending Portfolio Strategy",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
-      "url": "https://www.morganstanley.com/ideas/global-investment-strategy-outlook-2024",
-      "date": "2026-09-29",
-      "date_raw": "2026-09-29T13:12:59Z",
-      "title_source": "url-slug",
-      "title": "Global Investment Strategy Outlook 2024",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
-      "url": "https://www.morganstanley.com/ideas/ai-in-health-care-forecast-2023",
-      "date": "2026-09-29",
-      "date_raw": "2026-09-29T13:13:02Z",
-      "title_source": "url-slug",
-      "title": "Ai In Health Care Forecast 2023",
+      "title": "China 12 Trillion Dollar Industry 5 Opportunity Sheng Zhong",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4329,11 +4329,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/insights/themes/global-healthcare-conference",
+      "url": "https://www.morganstanley.com/what-we-do/wealth-management/institutional-consulting-solutions/our-insights/endowment-foundation-spending-portfolio-strategy",
       "date": "2026-09-29",
-      "date_raw": "2026-09-29T16:01:27Z",
+      "date_raw": "2026-09-29T14:42:09Z",
       "title_source": "url-slug",
-      "title": "Global Healthcare Conference",
+      "title": "Endowment Foundation Spending Portfolio Strategy",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4342,24 +4342,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/insights/articles/healthcare-consumerism-drives-26-b-opportunity-2026",
+      "url": "https://www.morganstanley.com/ideas/ai-in-health-care-forecast-2023",
       "date": "2026-09-29",
-      "date_raw": "2026-09-29T12:52:19Z",
+      "date_raw": "2026-09-29T13:13:02Z",
       "title_source": "url-slug",
-      "title": "Healthcare Consumerism Drives 26 B Opportunity 2026",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
-      "url": "https://www.morganstanley.com/ideas/sustainable-aviation-fuel-decarbonization-goals",
-      "date": "2026-09-29",
-      "date_raw": "2026-09-29T13:13:00Z",
-      "title_source": "url-slug",
-      "title": "Sustainable Aviation Fuel Decarbonization Goals",
+      "title": "Ai In Health Care Forecast 2023",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4373,6 +4360,19 @@
       "date_raw": "2026-09-29T13:12:55Z",
       "title_source": "url-slug",
       "title": "Global Macro Economy Outlook 2024",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
+      "url": "https://www.morganstanley.com/insights/articles/biotech-industry-trends-reshaping-healthcare-market",
+      "date": "2026-09-29",
+      "date_raw": "2026-09-29T20:07:36Z",
+      "title_source": "url-slug",
+      "title": "Biotech Industry Trends Reshaping Healthcare Market",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",

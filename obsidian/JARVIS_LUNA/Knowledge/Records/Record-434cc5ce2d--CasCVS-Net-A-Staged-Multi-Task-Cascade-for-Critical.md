@@ -2,7 +2,7 @@
 title: "Record 434cc5ce2d · CasCVS-Net-A-Staged-Multi-Task-Cascade-for-Critical-View-of-Safety-Ass"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:09.455441+00:00
+updated_at: 2026-10-02T10:30:21.802006+00:00
 tags: [record, real-data]
 ---
 

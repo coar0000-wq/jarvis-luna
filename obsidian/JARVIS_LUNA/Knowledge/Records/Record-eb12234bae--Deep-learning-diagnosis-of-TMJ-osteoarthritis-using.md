@@ -2,7 +2,7 @@
 title: "Record eb12234bae · Deep-learning-diagnosis-of-TMJ-osteoarthritis-using-MRI-ensembles-and-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:08.916141+00:00
+updated_at: 2026-10-02T10:30:21.428195+00:00
 tags: [record, real-data]
 ---
 

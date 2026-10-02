@@ -2,7 +2,7 @@
 title: "Record cde97d381c · The-world-of-K-beauty-pulled-into-one-Seoul-office---Aju-Press"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:09.834500+00:00
+updated_at: 2026-10-02T10:30:22.102113+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 548142b249 · Value-Investing-Gets-Momentum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:11.499857+00:00
+updated_at: 2026-10-02T10:30:23.212601+00:00
 tags: [record, real-data]
 ---
 

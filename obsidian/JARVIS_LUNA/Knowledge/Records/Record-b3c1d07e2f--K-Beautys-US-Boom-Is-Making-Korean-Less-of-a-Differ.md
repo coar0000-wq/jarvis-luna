@@ -2,7 +2,7 @@
 title: "Record b3c1d07e2f · K-Beautys-US-Boom-Is-Making-Korean-Less-of-a-Differ"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:10.057233+00:00
+updated_at: 2026-10-02T10:30:22.246426+00:00
 tags: [record, real-data]
 ---
 

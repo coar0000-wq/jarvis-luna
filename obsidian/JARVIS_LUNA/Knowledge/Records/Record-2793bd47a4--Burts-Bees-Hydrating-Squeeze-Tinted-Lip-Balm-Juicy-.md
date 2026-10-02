@@ -2,7 +2,7 @@
 title: "Record 2793bd47a4 · Burts-Bees-Hydrating-Squeeze-Tinted-Lip-Balm-Juicy-Guava-025-oz--lumin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:10.885022+00:00
+updated_at: 2026-10-02T10:30:22.832585+00:00
 tags: [record, real-data]
 ---
 

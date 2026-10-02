@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T04:15:46.185664+00:00",
+  "generated_at": "2026-10-02T10:28:28.284335+00:00",
   "generator": "scripts/build_shopify_shortlist.py",
   "status": "proposed",
   "source": "rules",
@@ -15,6 +15,7 @@
   },
   "active_unit_count": 5,
   "active_pd_nos": [
+    "1049275",
     "1049276",
     "1049285",
     "1055167",
@@ -25,19 +26,22 @@
     {
       "unit_id": "VG-VT-REEDLE-SHOT",
       "pd_nos": [
-        "1049276"
+        "1049276",
+        "1049275"
       ],
       "canonical_product_ids": [
-        "CP000107"
+        "CP000107",
+        "CP000106"
       ],
       "names": [
-        "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입"
+        "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
+        "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입"
       ],
       "score": 100,
       "evidence": {
-        "global_product": "Skin1004 Madagascar Centella Ampoule",
-        "channel": "tiktok_shop_us",
-        "similarity": 0.7
+        "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
+        "channel": "oliveyoung_us",
+        "similarity": 0.733
       },
       "added_at": "2026-09-29T10:03:26.384544+00:00",
       "status": "active",
@@ -77,13 +81,13 @@
       ],
       "score": 96,
       "evidence": {
-        "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
-        "channel": "ulta_beauty",
-        "similarity": 0.88
+        "global_product": "VT PDRN Reedle Shot Firming Eye Cream 0.50 fl. oz.(15ml) Refill Set (+ Eye Cream Refill 0.50 fl. oz.(15ml))",
+        "channel": "oliveyoung_us",
+        "similarity": 0.853
       },
       "added_at": "2026-09-29T20:38:16.971548+00:00",
       "status": "active",
-      "note": "규칙상 근거 약화 · 유지하되 검토: 매칭 근거 형태 불일치: 우리 ['얼굴'] vs 미국 ['eye'] (Lacto-PDRN 4% + B9 Eye Cream)"
+      "note": "규칙상 근거 약화 · 유지하되 검토: 매칭 근거 형태 불일치: 우리 ['얼굴'] vs 미국 ['eye'] (VT PDRN Reedle Shot Firming Eye Cream 0.)"
     },
     {
       "unit_id": "VG-CP000109",
@@ -96,15 +100,15 @@
       "names": [
         "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입"
       ],
-      "score": 93,
+      "score": 92,
       "evidence": {
-        "global_product": "Smushy SOS Hydrating Lip Mask",
-        "channel": "ulta_beauty",
-        "similarity": 0.733
+        "global_product": "TONYMOLY I'm Face Sheet Masks - Hydrating & Soothing Korean Skincare",
+        "channel": "amazon_new_beauty",
+        "similarity": 0.7
       },
       "added_at": "2026-09-30T14:53:35.834094+00:00",
       "status": "active",
-      "note": "규칙상 근거 약화 · 유지하되 검토: 매칭 근거 형태 불일치: 우리 ['얼굴'] vs 미국 ['lip'] (Smushy SOS Hydrating Lip Mask)"
+      "note": ""
     },
     {
       "unit_id": "VG-CP000151",
@@ -117,7 +121,7 @@
       "names": [
         "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g"
       ],
-      "score": 90,
+      "score": 87,
       "evidence": {
         "global_product": "Biodance Bio-Collagen Real Deep Mask",
         "channel": "tiktok_shop_us",
@@ -129,17 +133,6 @@
     }
   ],
   "not_selected": [
-    {
-      "unit_id": "VG-CP000178",
-      "pd_nos": [
-        "1061918"
-      ],
-      "names": [
-        "[기미잡티리셋]본셉 비타씨 동결 건조 더블샷 앰플 키트"
-      ],
-      "score": 98,
-      "reason": "게이트 초안 미준비: copy, gosi, legal, us_label"
-    },
     {
       "unit_id": "VG-CP000251",
       "pd_nos": [
@@ -160,7 +153,7 @@
         "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매"
       ],
       "score": 94,
-      "reason": "미국 매칭 유사도 0.68 < 0.7"
+      "reason": "미국 매칭 유사도 0.653 < 0.7"
     },
     {
       "unit_id": "VG-CP000038",
@@ -181,8 +174,8 @@
       "names": [
         "셀더마데일리 콜라겐 에센스겔 마스크 29 g"
       ],
-      "score": 89,
-      "reason": "게이트 초안 미준비: copy, legal, price"
+      "score": 87,
+      "reason": "미국 매칭 유사도 0.68 < 0.7"
     }
   ],
   "how_to_confirm": "data/manual/shopify_shortlist.json 에 {\"units\": [\"VG-...\" 또는 pd_no], \"confirmed_by\": \"이름\", \"confirmed_at\": \"YYYY-MM-DD\"} 를 적으면 그 목록만 쓴다."

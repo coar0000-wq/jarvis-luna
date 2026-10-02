@@ -2,7 +2,7 @@
 title: "Record 4d4a89b980 · Brightening-Herbal-Multi-Gel-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:11.619676+00:00
+updated_at: 2026-10-02T10:30:23.288910+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record faae06df65 · Calendula-Face-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:11.693450+00:00
+updated_at: 2026-10-02T10:30:23.350591+00:00
 tags: [record, real-data]
 ---
 

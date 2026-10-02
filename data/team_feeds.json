@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-02T03:51:39.707346+00:00",
+  "generated_at": "2026-10-02T10:20:43.284605+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
   "pool_size": 3113,
   "제목없어_버림": 38,
-  "unrouted": 9,
+  "unrouted": 8,
   "summary": {
     "sourcing": {
       "total": 368,
@@ -15,9 +15,9 @@
       "products": 356
     },
     "market": {
-      "total": 924,
+      "total": 922,
       "recent": 101,
-      "material": 924,
+      "material": 922,
       "material_recent": 101,
       "products": 0
     },
@@ -36,16 +36,16 @@
       "products": 0
     },
     "legal": {
-      "total": 226,
-      "recent": 48,
-      "material": 226,
-      "material_recent": 48,
+      "total": 225,
+      "recent": 50,
+      "material": 225,
+      "material_recent": 50,
       "products": 0
     },
     "design": {
-      "total": 457,
+      "total": 461,
       "recent": 137,
-      "material": 457,
+      "material": 461,
       "material_recent": 137,
       "products": 0
     },
@@ -57,10 +57,10 @@
       "products": 0
     },
     "knowledge": {
-      "total": 297,
-      "recent": 103,
-      "material": 297,
-      "material_recent": 103,
+      "total": 299,
+      "recent": 104,
+      "material": 299,
+      "material_recent": 104,
       "products": 0
     },
     "institutions": {
@@ -1448,7 +1448,7 @@
         "by_hand": true
       },
       {
-        "title": "Beyond TikTok Shop: How to Use TikTok to Drive Shopify Sales",
+        "title": "How to Use TikTok to Drive Shopify Sales",
         "url": "https://www.youtube.com/watch?v=nIOn_726Rxk",
         "pool": "youtube_channel",
         "date": "",
@@ -2790,7 +2790,7 @@
         "by_hand": true
       },
       {
-        "title": "Beyond TikTok Shop: How to Use TikTok to Drive Shopify Sales",
+        "title": "How to Use TikTok to Drive Shopify Sales",
         "url": "https://www.youtube.com/watch?v=nIOn_726Rxk",
         "pool": "youtube_channel",
         "date": "",
@@ -3716,7 +3716,7 @@
         "by_hand": true
       },
       {
-        "title": "Decade of NVIDIA DGX: From A Single System to AI Factories",
+        "title": "10 Years of NVIDIA DGX: From One System to AI Factories",
         "url": "https://www.youtube.com/watch?v=xAgq8ByWK0M",
         "pool": "youtube_channel",
         "date": "",

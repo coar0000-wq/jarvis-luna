@@ -2,7 +2,7 @@
 title: "Record e422f5edc6 · Neuropeptide-Deep-Crease-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:11.645499+00:00
+updated_at: 2026-10-02T10:30:23.314318+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record bc3fc802bd · Determinants-of-Tele-Palliative-Care-Utilization-Among-Heart-Failure-P"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:09.066590+00:00
+updated_at: 2026-10-02T10:30:21.527392+00:00
 tags: [record, real-data]
 ---
 

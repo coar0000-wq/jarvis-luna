@@ -2,7 +2,7 @@
 title: "Record 73d2c95754 · JUNG-KWAN-JANG-Power-Full-034-fl-oz10ml-x-10ea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:10.678504+00:00
+updated_at: 2026-10-02T10:30:22.709919+00:00
 tags: [record, real-data]
 ---
 

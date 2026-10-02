@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T04:01:27.589656+00:00",
+  "generated_at": "2026-10-02T10:27:37.948972+00:00",
   "generator": "scripts/build_youtube_review_queue.py",
   "purpose": "Gemini Notebook(NotebookLM) 주간 자막 검토 대상. 검토 결과는 ingest_notebook_review.py 로만 합친다.",
   "already_reviewed": 35,

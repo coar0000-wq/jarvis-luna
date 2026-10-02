@@ -2,7 +2,7 @@
 title: "Record d5da12b213 · Green-Hair-Spray-Washable-Temporary-Hair-Color-Dye-for-Kids-Halloween-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:11.247360+00:00
+updated_at: 2026-10-02T10:30:23.044643+00:00
 tags: [record, real-data]
 ---
 

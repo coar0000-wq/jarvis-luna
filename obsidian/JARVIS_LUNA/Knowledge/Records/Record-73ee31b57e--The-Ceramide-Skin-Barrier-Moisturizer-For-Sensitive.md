@@ -2,7 +2,7 @@
 title: "Record 73ee31b57e · The-Ceramide-Skin-Barrier-Moisturizer-For-Sensitive-Skin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:11.620534+00:00
+updated_at: 2026-10-02T10:30:23.289499+00:00
 tags: [record, real-data]
 ---
 

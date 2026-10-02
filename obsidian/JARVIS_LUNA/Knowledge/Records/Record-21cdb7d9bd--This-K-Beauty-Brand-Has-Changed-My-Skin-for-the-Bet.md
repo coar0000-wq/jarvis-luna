@@ -2,7 +2,7 @@
 title: "Record 21cdb7d9bd · This-K-Beauty-Brand-Has-Changed-My-Skin-for-the-Better---Harpers-BAZAA"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:10.252069+00:00
+updated_at: 2026-10-02T10:30:22.415597+00:00
 tags: [record, real-data]
 ---
 

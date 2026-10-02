@@ -2,7 +2,7 @@
 title: "Record 6fe229643d · Plumping-Lip-Volumizer--Glow-Gloss"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:11.649199+00:00
+updated_at: 2026-10-02T10:30:23.316949+00:00
 tags: [record, real-data]
 ---
 

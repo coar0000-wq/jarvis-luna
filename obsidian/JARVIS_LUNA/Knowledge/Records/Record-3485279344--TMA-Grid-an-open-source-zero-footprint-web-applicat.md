@@ -2,7 +2,7 @@
 title: "Record 3485279344 · TMA-Grid-an-open-source-zero-footprint-web-applicat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:09.069350+00:00
+updated_at: 2026-10-02T10:30:21.529163+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record b57d8c0663 · Garnier-Micellar-Water-Hydrating-Facial-Cleanser--Makeup-Remover-Suita"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:10.974409+00:00
+updated_at: 2026-10-02T10:30:22.890180+00:00
 tags: [record, real-data]
 ---
 

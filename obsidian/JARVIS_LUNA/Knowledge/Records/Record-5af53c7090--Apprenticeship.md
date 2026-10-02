@@ -2,7 +2,7 @@
 title: "Record 5af53c7090 · Apprenticeship"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:11.391198+00:00
+updated_at: 2026-10-02T10:30:23.143269+00:00
 tags: [record, real-data]
 ---
 

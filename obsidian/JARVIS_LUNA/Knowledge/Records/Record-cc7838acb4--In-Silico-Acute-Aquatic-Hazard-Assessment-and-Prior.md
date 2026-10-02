@@ -2,7 +2,7 @@
 title: "Record cc7838acb4 · In-Silico-Acute-Aquatic-Hazard-Assessment-and-Prioritization-Using-a-G"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:08.776363+00:00
+updated_at: 2026-10-02T10:30:21.340320+00:00
 tags: [record, real-data]
 ---
 

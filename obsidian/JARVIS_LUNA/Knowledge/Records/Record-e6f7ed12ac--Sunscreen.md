@@ -2,7 +2,7 @@
 title: "Record e6f7ed12ac · Sunscreen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T05:40:09.707559+00:00
+updated_at: 2026-10-02T10:30:22.019173+00:00
 tags: [record, real-data]
 ---
 

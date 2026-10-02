@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T04:01:27.290417+00:00",
+  "generated_at": "2026-10-02T10:27:37.737388+00:00",
   "generator": "scripts/team_router_moe.py",
   "task": "자료·영상 -> 담당 팀 (11팀 중 정답 표본이 충분한 팀)",
   "label_policy": "출처가 확실한 것만 정답으로 쓴다. 키워드 규칙이 붙인 팀은 쓰지 않는다.",
@@ -17,12 +17,12 @@
     "sourcing"
   ],
   "skipped_small_classes": {},
-  "items": 6270,
-  "train_items": 5043,
+  "items": 6276,
+  "train_items": 5049,
   "validation_items": 1227,
   "label_origins": {
     "corpus:arxiv": 725,
-    "corpus:institutions": 2630,
+    "corpus:institutions": 2636,
     "corpus:organic_skincare": 15,
     "corpus:robotics": 433,
     "corpus:us_beauty": 1545,
@@ -32,7 +32,7 @@
     "youtube_channel": 411,
     "youtube_manual": 24
   },
-  "features": "TF-IDF + L2 (min_df 2, 어휘 8546)",
+  "features": "TF-IDF + L2 (min_df 2, 어휘 8550)",
   "model": "MoE experts 3, steps 300, lr 5.0, 클래스 균형",
   "validation": {
     "accuracy": 0.8818,
